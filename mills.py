@@ -318,17 +318,19 @@ def get_github_info(url="", title="", ts="", tag="",
             overview["org_geo"] = org_geo
 
             # 3.  repos#people#project
-            for aa in soup.find_all("a", class_='pagehead-tabs-item'):
+            for aa in soup.find_all("a", class_=re.compile(r'pagehead-tabs-item')):
                 aa = aa.get_text()
                 aa = strip_n(aa)
                 if aa:
                     parts = re.split("\s+", aa)
+
                     if len(parts) == 2:
                         t = re.sub(',', '.', parts[1])
 
                         p = re.match('(\d+\.*\d*)([km]*)', t)
                         if p:
                             n, d = p.groups()
+
                             if d == 'k':
                                 t = float(n) * 1000
                             elif d == 'm':
@@ -387,25 +389,26 @@ def get_github_info(url="", title="", ts="", tag="",
                 overview["github_type"] = 0
 
                 # repos #stars #followers#following
-                for aa in soup.find_all("a", class_='UnderlineNav-item'):
+                for aa in soup.find_all("a", class_=re.compile('UnderlineNav-item')):
                     aa = aa.get_text()
                     aa = strip_n(aa)
                     if aa:
                         parts = re.split("\s+", aa)
-                        t = 0
+
 
                         if len(parts) == 2:
                             t = re.sub(',', '.', parts[1])
                             p = re.match('(\d+\.*\d*)([km]*)', t)
                             if p:
                                 n, d = p.groups()
+                                #print n,d,parts[0]
 
                                 if d == 'k':
                                     t = int(float(n) * 1000)
                                 elif d == 'm':
                                     t = int(float(n) * 1000000)
                                 else:
-                                    continue
+                                    t = int(n)
                             overview["p_%s" % parts[0].lower()] = t
 
                 # 个人简介
@@ -766,10 +769,10 @@ if __name__ == "__main__":
     import json
 
 
-    url = "https://github.com/google"
+    url = "https://github.com/FuzzySecurity"
     ret = get_github_info(url, title="fefe",isnew=True)
 
     print json.dumps(ret, indent=4)
     print d2sql(ret)
 
-    print get_redirect_url(url)
+    #print get_redirect_url(url)

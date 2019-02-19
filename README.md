@@ -1,3 +1,5 @@
+[TOC]
+
 # 爬取secwiki和xuanwu.github.io,分析安全信息站点、安全趋势、安全工作者账号(twitter,weixin,github等)
 
 ## 文章DB
@@ -35,10 +37,7 @@
 
 > 2019, 还只有短暂的2个月，高质量知识付费媒体medium出现，PC博客是否会在知识付费冲击下成为小众的沟通渠道呢
 
-> 互联网巨头以企鹅为代表的已经开始陆续进行流量封锁了，对信息搜索较为敏感的安全从业人员首当其冲
-爬不到了，api又有限，只能app hook了
 
-> 还好github一直在，stackoverflow一直在
 
 
 
@@ -61,17 +60,11 @@
 
 > 2018, twitter虽然一直名列前三（但比例一直在下降，由11.03到7.79到3.66), 漏洞获取源exploit-db的关注比例扩大，开始增加对论文网站arxiv.org与威胁情报厂商talosintelligence的关注
 
-> 与国内安全媒体的日新月异，国外的安全媒体都历史悠久。
-
-> 国内偏休闲，国外偏硬核。
-
-> 其实整个互联网画风。国内都是消遣为主，并且随着移动化会越来越娱乐。
 
 
 
 
-
-### 安全实验室推荐
+### 安全实验室站点推荐
 
 
 `select domain,domain_name,count(url) as c from secwiki_detail  where domain_name like '%实验%' or domain_name like '%Lab%' group by domain order by c desc`
@@ -87,14 +80,14 @@
 
 ## 微信公众号推荐
 
-### topn
+### topn宫总好
 
 `select nickname_english,weixin_no,count(url) as c from weixin  where nickname_english != "" group by nickname_english order by  c desc`
 
 
 ![weixin_topn](data/img/weixin_topn.png)
 
-### 机器学习
+### 机器学习公众号
 
 `select nickname_english,weixin_no,weixin_subject ,count(url) as c from weixin where nickname_english != "" and tag='数据挖掘'  group by nickname_english order by c desc`
 
@@ -106,13 +99,13 @@
 
 ## twitter推荐
 
-### topn
+### topn twitter
 
 `select twitter_account,profile_header,profile_header_loc,profile_header_url ,count(url) as c from twitter group by twitter_account order by c desc `
 
 ![twitter_topn](data/img/twitter_topn.png)
 
-### 安全分析
+### 安全分析twitter
 
 `select twitter_account,profile_header,profile_header_loc,profile_header_url ,tag,title,count(url) as c from twitter 
 where tag like 'Thre%' or tag like '%Machine%'  or tag like '%forensics%' or tag like '%MalwareAnalysis%'
@@ -130,9 +123,15 @@ group by twitter_account order by c desc`
 
 ## github推荐
 
-### 组织topn
+### 组织topn github
 
-`select github_id,org_profile,org_url,org_geo,org_lang,repo_star,repo_forks,count(url) as c from github  where github_type=1 group by github_id order by c desc `
+
+
+`select github_id,org_repositories,org_people,org_projects,org_lang,org_url,org_profile,org_geo,repo_star,repo_forks,count(*) as c 
+ from github  
+ where github_type=1 
+ group by github_id 
+ order by c desc,org_repositories desc,org_projects desc `
 
 
 ![github_org_topn](data/img/github_org_topn.png)
@@ -140,14 +139,23 @@ group by twitter_account order by c desc`
 
 
 ### 私人topn
+
 ![github_private_topn](data/img/github_private_topn.png)
 
 
+`select github_id,p_stars,p_repositories,p_followers,p_following,p_projects,repo_star,repo_forks , p_profile,p_url,p_company,p_loc,count(*) as c from github  where github_type=0 group by github_id order by c desc , p_followers desc `
+
+
+
 ### 账号自动关注
+
 [github-follow-bot](https://github.com/andrewsyc/github-follow-bot)
 
 
 ## 技术趋势
+
+### 安全人员最爱用的编程语言
+
 
 ### secwiki技术TOPN
 
@@ -163,11 +171,11 @@ group by twitter_account order by c desc`
 
 ![2019-信息类型占比-secwiki](data/img/tag/2019-信息类型占比-secwiki.jpeg)
 
-> web安全、漏洞分析、恶意分析、运维安全占据技术文章的50%，看来挖洞渗透是安全的主旋律
+> web安全、漏洞分析、恶意分析、运维安全占据技术文章的50%，挖洞渗透是安全的主旋律
 
 > 移动安全、设备安全等iot安全研究领域在很缓慢的发展中
 
-> 取证分析与数据挖掘AI技能越来越被人重视
+> 取证分析与数据挖掘技能越来越被人重视
 
 
 
@@ -188,7 +196,26 @@ group by twitter_account order by c desc`
 > github上挖安全工具也是实验室从业人员的必备能力
 
 
+
+
+
+# 总结
+
+
+
+> 与国内安全媒体的日新月异，国外的安全媒体都历史悠久。
+
+> 国内偏休闲，国外偏硬核。其实整个互联网画风。国内都是消遣为主，并且随着移动化会越来越娱乐。
+
+
+> 互联网巨头以企鹅为代表的已经开始陆续进行流量封锁了，对信息搜索较为敏感的安全从业人员首当其冲
+. 大家都在抱怨爬不到了. api又有限，只能上升到app hook了
+
+
+> 还好github一直在，stackoverflow一直在
+
 > 身边越来越多的大佬转向了业务安全、数据安全、广义舆情安全 而本次爬取并没有体现到，但我相信后面会越来越多这些方面的资讯
+
 
 # ToDo
 
