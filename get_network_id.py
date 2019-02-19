@@ -7,7 +7,6 @@ import re
 import logging
 
 from mills import SQLiteOper
-
 from mills import get_weixin_info
 from mills import get_github_info
 from mills import get_twitter_info
@@ -111,6 +110,8 @@ def get_network_id(so, source="weixin", proxy=None, retry=3, timeout=10):
                     so.execute(update_sql)
                 except Exception as e:
                     logging.error("[replace_failed]: %s e(%s)" % (update_sql, str(e)))
+
+
 
 
 if __name__ == "__main__":

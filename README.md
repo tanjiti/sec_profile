@@ -127,7 +127,7 @@ group by twitter_account order by c desc`
 
 
 
-`select github_id,org_repositories,org_people,org_projects,org_lang,org_url,org_profile,org_geo,repo_star,repo_forks,count(*) as c 
+`select github_id,org_repositories,org_people,org_projects,org_lang,org_url,org_profile,org_geo,repo_lang,repo_star,repo_forks,count(*) as c 
  from github  
  where github_type=1 
  group by github_id 
@@ -140,7 +140,7 @@ group by twitter_account order by c desc`
 
 ### 私人topn
 
-`select github_id,p_stars,p_repositories,p_followers,p_following,p_projects,repo_star,repo_forks , p_profile,p_url,p_company,p_loc,count(*) as c from github  where github_type=0 group by github_id order by c desc , p_followers desc` 
+`select github_id,p_stars,p_repositories,p_followers,p_following,p_projects,repo_star,repo_forks ,repo_lang, p_profile,p_url,p_company,p_loc,count(*) as c from github  where github_type=0 group by github_id order by c desc , p_followers desc` 
 
 ![github_private_topn](data/img/github_private_topn.png)
 
@@ -198,7 +198,9 @@ group by twitter_account order by c desc`
 
 ### 安全人员最爱用的编程语言
 
+![语言占比](data/img/language/语言占比.jpeg)
 
+> 
 
 
 # 总结
@@ -216,7 +218,7 @@ group by twitter_account order by c desc`
 
 > 技术上数据挖掘、威胁情报、安全分析的比重越来越重，AI已经不仅仅是噱头了
 
-> 身边越来越多的大佬转向了业务安全、数据安全、广义舆情安全 而本次爬取并没有体现到，但我相信后面会越来越多这些方面的资讯
+> 身边越来越多的大佬转向了业务安全、数据安全、广义舆情安全, 虽然本次爬取并没有体现到，但我相信后面会越来越多这些方面的资讯
 
 
 # ToDo

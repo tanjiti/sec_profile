@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import os
+import re
 import sys
 
 reload(sys)
@@ -48,16 +49,54 @@ def info_source(so, table="secwiki_detail", year="", top=100, tag="domain"):
         i = i + 1
     return od_perct
 
+
+def statistict_github_language(so,topn=132):
+    """
+
+    :param so:
+    :return:
+    """
+    lang_dict = {}
+    sql = "select distinct repo_lang from github where repo_lang is not null or repo_lang != ''"
+    result = so.query(sql)
+    if result:
+        for item in result:
+            repo_lang = item[0]
+            repo_langs = [_.strip() for _ in re.split(',', repo_lang)]
+            for repo_lang in repo_langs:
+                if not repo_lang:
+                    continue
+                if repo_lang in lang_dict:
+                    lang_dict[repo_lang] = lang_dict[repo_lang] + 1
+                else:
+                    lang_dict[repo_lang] = 1
+
+    vd = OrderedDict(sorted(lang_dict.items(), key=lambda t: t[1],reverse=True))
+    sum_count = sum(vd.values())
+    vd2 = OrderedDict()
+
+    i = 0
+    for k,v in vd.items():
+        if i < topn:
+            vd2[k] = round(float(v) / sum_count, 4)
+        else:
+            break
+        i = i + 1
+    return vd2
+
 def draw_pie(so, source="secwiki", year="", tag="domain", top=10):
     """
 
     :return:
     """
+    if tag != "language":
+        ods = info_source(so, table="{source}_detail".format(source=source),
+                          top=top,
+                          year=str(year),
+                          tag=tag)
+    else:
+        ods = statistict_github_language(so,topn=top)
 
-    ods = info_source(so, table="{source}_detail".format(source=source),
-                      top=top,
-                      year=str(year),
-                      tag=tag)
 
     labels = []
     values = []
@@ -67,8 +106,12 @@ def draw_pie(so, source="secwiki", year="", tag="domain", top=10):
         labels.append(k)
         values.append(v)
 
+
+
     labels.append("other")
     values.append(1 - sum(values))
+
+
 
     explode = [0.1 for _ in range(0, top + 1)]
     explode[-1] = 0  # 凸显
@@ -92,6 +135,8 @@ def draw_pie(so, source="secwiki", year="", tag="domain", top=10):
         title_pie = "%s-信息源占比-%s" % (year, source)
     elif tag == "tag":
         title_pie = "%s-信息类型占比-%s" % (year, source)
+    elif tag == "language":
+        title_pie = "语言占比"
     else:
         return
 
@@ -101,6 +146,7 @@ def draw_pie(so, source="secwiki", year="", tag="domain", top=10):
     if not os.path.exists(fdir):
         os.mkdir(fdir)
     fpath = path(fdir, "%s.jpeg" % title_pie)
+
 
     plt.legend(labels,loc='upper right', fontsize=5)
 
@@ -119,3 +165,8 @@ if __name__ == "__main__":
         for source in ["secwiki", "xuanwu"]:
             for year in [2014, 2015, 2016, 2017, 2018, 2019]:
                 draw_pie(so, source=source, year=str(year), tag=tag, top=10)
+
+    draw_pie(so,tag="language",top=20)
+
+
+

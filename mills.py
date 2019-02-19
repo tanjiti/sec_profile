@@ -345,6 +345,24 @@ def get_github_info(url="", title="", ts="", tag="",
             # 4. star forks
             overview["repo_star"] = 0
             overview["repo_forks"] = 0
+            repo_language = set()
+
+            # repo
+            for aa in soup.find_all('span',class_=re.compile('repo-language-color')):
+                aa_p = aa.parent
+                if aa_p:
+                    aa_p = strip_n(aa_p.get_text())
+                    if aa_p:
+                        p = re.split(r'\s+',aa_p)
+                        if len(p) > 0:
+                            repo_language.add(p[0])
+            if repo_language:
+                repo_language = ",".join(repo_language)
+            else:
+                repo_language = ""
+
+
+            overview["repo_lang"] = repo_language
 
             for aa in soup.find_all("a", class_="pinned-item-meta muted-link"):
 
@@ -357,12 +375,13 @@ def get_github_info(url="", title="", ts="", tag="",
                     p = re.match('(\d+\.*\d*)([km])', t)
                     if p:
                         n, d = p.groups()
+
                         if d == 'k':
                             t = float(n) * 1000
                         elif d == 'm':
                             t = float(n) * 1000000
                         else:
-                            continue
+                            t = int(n)
                     else:
                         continue
 
