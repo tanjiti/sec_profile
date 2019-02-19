@@ -80,7 +80,7 @@
 
 ## 微信公众号推荐
 
-### topn宫总好
+### topn公众号
 
 `select nickname_english,weixin_no,count(url) as c from weixin  where nickname_english != "" group by nickname_english order by  c desc`
 
@@ -140,6 +140,8 @@ group by twitter_account order by c desc`
 
 ### 私人topn
 
+`select github_id,p_stars,p_repositories,p_followers,p_following,p_projects,repo_star,repo_forks , p_profile,p_url,p_company,p_loc,count(*) as c from github  where github_type=0 group by github_id order by c desc , p_followers desc` 
+
 ![github_private_topn](data/img/github_private_topn.png)
 
 
@@ -153,8 +155,6 @@ group by twitter_account order by c desc`
 
 
 ## 技术趋势
-
-### 安全人员最爱用的编程语言
 
 
 ### secwiki技术TOPN
@@ -196,6 +196,8 @@ group by twitter_account order by c desc`
 > github上挖安全工具也是实验室从业人员的必备能力
 
 
+### 安全人员最爱用的编程语言
+
 
 
 
@@ -205,14 +207,14 @@ group by twitter_account order by c desc`
 
 > 与国内安全媒体的日新月异，国外的安全媒体都历史悠久。
 
-> 国内偏休闲，国外偏硬核。其实整个互联网画风。国内都是消遣为主，并且随着移动化会越来越娱乐。
+> 国内偏休闲，国外偏硬核。其实整个互联网画风，国内都是消遣为主，并且随着移动化会越来越娱乐。
 
 
 > 互联网巨头以企鹅为代表的已经开始陆续进行流量封锁了，对信息搜索较为敏感的安全从业人员首当其冲
 . 大家都在抱怨爬不到了. api又有限，只能上升到app hook了
 
 
-> 还好github一直在，stackoverflow一直在
+> 技术上数据挖掘、威胁情报、安全分析的比重越来越重，AI已经不仅仅是噱头了
 
 > 身边越来越多的大佬转向了业务安全、数据安全、广义舆情安全 而本次爬取并没有体现到，但我相信后面会越来越多这些方面的资讯
 
