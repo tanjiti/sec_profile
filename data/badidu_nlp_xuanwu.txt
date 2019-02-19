@@ -1,0 +1,9 @@
+20160102	xuanwu	Web	nr	Toukharian	Retweeted Binni Shah (@  binitamshah):Hacking with Websockets : https://media.blackhat.com/bh-us-12/Briefings/Shekyan/BH_US_12_Shekyan_Toukharian_Hacking_Websocket_Slides.pdf (pdf)
+20160102	xuanwu	Web	nr	Toukharian	Retweeted Binni Shah (@  binitamshah):Hacking with Websockets : https://media.blackhat.com/bh-us-12/Briefings/Shekyan/BH_US_12_Shekyan_Toukharian_Hacking_Websocket_Slides.pdf (pdf)
+20160103	xuanwu	Others	nr	phil	Retweeted Binni Shah (@  binitamshah):Writing an OS in Rust - Remap the Kernel : http://os.phil-opp.com/remap-the-kernel.html
+20160103	xuanwu	Others	nr	phil	Retweeted Binni Shah (@  binitamshah):Writing an OS in Rust - Remap the Kernel : http://os.phil-opp.com/remap-the-kernel.html
+20160104	xuanwu	Others	nr	/understanding	Understanding CPython by Patching - part1: https://orenmn.wordpress.com/2015/12/25/understanding-cpython-by-patching-part-1/ part2:
+20160104	xuanwu	Others	nr	/understanding	Understanding CPython by Patching - part1: https://orenmn.wordpress.com/2015/12/25/understanding-cpython-by-patching-part-1/ part2:
+20160105	xuanwu	Others	nr	Aylin	Large Scale Authorship Attribution from Executable Binaries of Compiled Code ~ by: Aylin Caliskan-Islam @  32nd CCC
+20160105	xuanwu	Mitigation	nr	mitigation	My analysis of the lib injection mitigation of #Edge: http://www.sekoia.fr/blog/microsoft-edge-binary-injection-mitigation-overview/ & source code of the tools mentioned:
+20160105	xuanwu	Mitigation	nr	mitigation	My analysis of the lib injection mitigation of #Edge: http://www.sekoia.fr/blog/microsoft-edge-binary-injection-mitigation-overview/ & source code of the tools mentioned:

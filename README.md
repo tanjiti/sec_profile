@@ -173,10 +173,6 @@ group by twitter_account order by c desc`
 
 ### xuanwu技术TOPN
 
-![2014-信息类型占比-xuanwu](data/img/tag/2014-信息类型占比-xuanwu.jpeg)
-
-![2015-信息类型占比-xuanwu](data/img/tag/2015-信息类型占比-xuanwu.jpeg)
-
 ![2016-信息类型占比-xuanwu](data/img/tag/2016-信息类型占比-xuanwu.jpeg)
 
 ![2017-信息类型占比-xuanwu](data/img/tag/2017-信息类型占比-xuanwu.jpeg)
@@ -196,11 +192,11 @@ group by twitter_account order by c desc`
 
 # ToDo
 
--[] github探宝
+- [ ] github探宝
 
--[] medium账号提取
+- [ ] medium账号提取
 
--[] 微信自动关注 
+- [ ] 微信自动关注 
 
 
 
