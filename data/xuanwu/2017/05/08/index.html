@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/05/08" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/05/08</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+    color: #a7a7a7;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+
+
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 15px;
+    /*color: #a7a7a7;*/
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedheader{
+
+}
+
+.singlefeedlogo{
+    float: left;
+    /*width: 24px;*/
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.singlefeedlogo img{
+    float: left;
+    width: 13px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+
+    /*width: 80%;
+    height: 80%;*/
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.singlefeedtext p{
+    font-size: 15px;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        //console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        //console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            //console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/07/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/08/index.html">2017/05/08</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/09/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Detecting and defeating browser spoofing : <a href="https://browserprint.info/blog/defeatingSpoofing" rel="nofollow">https://browserprint.info/blog/defeatingSpoofing</a></p>
+<div class="translated" id="275540">
+<p>" 检测与防御浏览器的指纹欺骗：  <a href="https://browserprint.info/blog/defeatingSpoofing" rel="nofollow">https://browserprint.info/blog/defeatingSpoofing</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  Painless intro to the Linux userland heap and heap-fengshui <a href="https://sensepost.com/blog/2017/painless-intro-to-the-linux-userland-heap-and-heap-fengshui/" rel="nofollow">https://sensepost.com/blog/2017/painless-intro-to-the-linux-userland-heap-and-heap-fengshui/</a></p>
+<div class="translated" id="275613">
+<p>" Linux 用户态堆以及漏洞利用中的堆风水技术（ptmalloc2 ）：   <a href="https://sensepost.com/blog/2017/painless-intro-to-the-linux-userland-heap-and-heap-fengshui/" rel="nofollow">https://sensepost.com/blog/2017/painless-intro-to-the-linux-userland-heap-and-heap-fengshui/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Kenn White @kennwhite </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  Popular Mac app Handbrake bundled malware in downloads last week, team rebuilding dev infrastructure. Check pkg sigs
+<a href="https://t.co/evdU9xbLS6" rel="nofollow">https://t.co/evdU9xbLS6</a></p>
+<div class="translated" id="275538">
+<p>" 开源 Mac 应用 Handbrake 的下载服务器被攻击且安装文件被替换：   <a href="https://forum.handbrake.fr/viewtopic.php?f=33&amp;t=36364%C2%A0%C2%A0" rel="nofollow">https://forum.handbrake.fr/viewtopic.php?f=33&amp;;t=36364  </a> 对 HandBrake 被攻击后替换的恶意安装文件的简单分析：   <a href="https://objective-see.com/products.html" rel="nofollow">https://objective-see.com/products.html</a>  "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Network </i>]  Handling bot attacks against a Tor hidden service : <a href="http://www.hackerfactor.com/blog/index.php?%2Farchives%2F762-Attacked-Over-Tor.html=" rel="nofollow">http://www.hackerfactor.com/blog/index.php?/archives/762-Attacked-Over-Tor.html</a></p>
+<div class="translated" id="275522">
+<p>" 基于 TOR 网络的攻击行为分析：   <a href="http://www.hackerfactor.com/blog/index.php?%2Farchives%2F762-Attacked-Over-Tor.html=" rel="nofollow">http://www.hackerfactor.com/blog/index.php?/archives/762-Attacked-Over-Tor.html</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Daniel Bilar @daniel_bilar </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Universal PatchGuard &amp;amp; Driver Sig Enforcement Disable 2.0 by @Fyyre [req: admin &amp;amp; for EFI boot SecureBoot disabled] <a href="https://t.co/8ObmGlWePv" rel="nofollow">https://t.co/8ObmGlWePv</a></p>
+<div class="translated" id="275527">
+<p>"  UPGDSED - 用于强制关闭 PatchGuard 与 驱动签名验证的通用型工具：   <a href="https://github.com/hfiref0x/UPGDSED" rel="nofollow">https://github.com/hfiref0x/UPGDSED</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Pavel Yosifovich @zodiacon </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  GFlagsX now supports Mitigation Options <a href="https://github.com/zodiacon/GflagsX/releases/tag/0.2" rel="nofollow">https://github.com/zodiacon/GflagsX/releases/tag/0.2</a> <a href="https://t.co/E5jrlNVwfe" rel="nofollow">https://t.co/E5jrlNVwfe</a></p>
+<div class="translated" id="275605">
+<p>" 
+GflagsX - 增强版的 Windows GFlags，除了对调试相关选项的控制，还支持对利用缓解特性的控制：   <a href="https://github.com/zodiacon/GflagsX" rel="nofollow">https://github.com/zodiacon/GflagsX</a>
+ "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C_O7yiKXkAE-0_x.jpg" target="_blank">
+<img src="C_O7yiKXkAE-0_x.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Binni Shah @binitamshah </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  rancher OS : Tiny Linux distro that runs the entire OS as Docker containers : <a href="https://github.com/rancher/os" rel="nofollow">https://github.com/rancher/os</a></p>
+<div class="translated" id="275419">
+<p>" 
+RancherOS - 一个精简版的 Linux 发行版，系统是一个 Docker 运行环境的最小集，系统本身以外的应用和服务由 Docker 动态管理：   <a href="https://github.com/rancher/os" rel="nofollow">https://github.com/rancher/os</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via Github</p> -->
+<p>XuanwuSpider via Github</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Android </i>]   Ultimate Android Reference - Android 终极手册，GitHub 上的这个项目按照类别收集了 Android 开发常用的各种库、各种图书、文章、视频资源： 
+<a href="https://github.com/aritraroy/UltimateAndroidReference" rel="nofollow">https://github.com/aritraroy/UltimateAndroidReference</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via seebug</p> -->
+<p>XuanwuSpider via seebug</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Android </i>]  TrustZone安全技术研究： <a href="http://paper.seebug.org/296/" rel="nofollow">http://paper.seebug.org/296/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via trendmicro.com</p> -->
+<p>XuanwuSpider via trendmicro.com</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Industry News </i>]  Trend Micro 称近期的法国大选期间，攻击 Macron(马克龙) 选举团队背后的组织是 Pawn Storm，Pawn Storm 被认为与俄罗斯有关：
+<a href="https://www.theguardian.com/world/2017/apr/25/hackers-have-targeted-election-campaign-of-macron-says-cyber-firm" rel="nofollow">https://www.theguardian.com/world/2017/apr/25/hackers-have-targeted-election-campaign-of-macron-says-cyber-firm</a>
+<a href="https://documents.trendmicro.com/assets/wp/wp-two-years-of-pawn-storm.pdf" rel="nofollow">https://documents.trendmicro.com/assets/wp/wp-two-years-of-pawn-storm.pdf</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via 001001.org</p> -->
+<p>XuanwuSpider via 001001.org</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Linux </i>]  LINUX内核开发与调试 -- KDB，来自张银奎老师： 
+<a href="http://001001.org/gedu/12_LINUX_Raymond_KDB.pdf" rel="nofollow">http://001001.org/gedu/12_LINUX_Raymond_KDB.pdf</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via whereisk0shl.top</p> -->
+<p>XuanwuSpider via whereisk0shl.top</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Operating System </i>]  FreeBSD 10.2 X64的整数溢出漏洞分析： 
+<a href="http://whereisk0shl.top/post/2017-05-06" rel="nofollow">http://whereisk0shl.top/post/2017-05-06</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via www.csyssec.org</p> -->
+<p>XuanwuSpider via www.csyssec.org</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Others </i>]   Index of Computer System and Security，专注计算机系统与安全领域工业与学术界成果的一个网站：  
+<a href="http://www.csyssec.org/" rel="nofollow">http://www.csyssec.org/</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/07/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/08/index.html">2017/05/08</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/09/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

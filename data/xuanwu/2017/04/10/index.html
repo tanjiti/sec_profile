@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/04/10" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/04/10</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+    color: #a7a7a7;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 15px;
+    /*color: #a7a7a7;*/
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.singlefeedtext p{
+    font-size: 15px;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        //console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        //console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            //console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/04/09/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/04/10/index.html">2017/04/10</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/04/11/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  Using Ubuntu .DESKTOP as a Malware Vector : <a href="http://blog.mazinahmed.net/2017/04/using-ubuntu-desktop-as-malware-vector.html" rel="nofollow">http://blog.mazinahmed.net/2017/04/using-ubuntu-desktop-as-malware-vector.html</a></p>
+<div class="translated" id="264160">
+<p>﻿"将 Ubuntu 的 .desktop 文件作为新的攻击向量︰   <a href="https://t.co/IOFxaDSHvc" rel="nofollow">https://t.co/IOFxaDSHvc</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Aditya Gupta @adi1391 </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Hardware </i>]  Excellent whitepaper of Hacking the Belkin E-Series KVM Switch - including scripts - <a href="https://labs.portcullis.co.uk/whitepapers/hacking-the-belkin-e-series-omniview-2-port-kvm-switch/%E2%80%A6" rel="nofollow">https://labs.portcullis.co.uk/whitepapers/hacking-the-belkin-e-series-omniview-2-port-kvm-switch/…</a> <a href="https://t.co/9tGEgrjeoo" rel="nofollow">https://t.co/9tGEgrjeoo</a></p>
+<div class="translated" id="264074">
+<p>﻿"对 Belkin E 系列的 Omniview 2-Port KVM Switch 进行修改使其变成按键记录器：   <a href="https://t.co/hljYBBm0kD" rel="nofollow">https://t.co/hljYBBm0kD</a> <a href="https://t.co/9tGEgrjeoo" rel="nofollow">https://t.co/9tGEgrjeoo</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Automatically Inferring Malware Signatures for Anti-Virus Assisted Attacks : <a href="https://www.sec.cs.tu-bs.de/pubs/2017-asiaccs.pdf" rel="nofollow">https://www.sec.cs.tu-bs.de/pubs/2017-asiaccs.pdf</a> (pdf)  ( h/t : @ kre80r )</p>
+<div class="translated" id="264150">
+<p>﻿"Automatically Inferring Malware Signatures for Anti-Virus Assisted Attacks(paper)︰   <a href="https://t.co/1l0ur2CBwR" rel="nofollow">https://t.co/1l0ur2CBwR</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  Wire messenger server code open-sourced :  <a href="https://github.com/wireapp/wire-server" rel="nofollow">https://github.com/wireapp/wire-server</a></p>
+<div class="translated" id="264148">
+<p>﻿"私密消息应用 Wire 的后端服务器源码︰   <a href="https://t.co/Zh22f65dEM" rel="nofollow">https://t.co/Zh22f65dEM</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Benjamin Delpy @gentilkiwi </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  New #mimikatz 'creator update' for Windows 10 RS2 1707
+with mimidrv (driver x86/x64) + mimilib (WinDBG plugin)… <a href="https://t.co/caqxku766F" rel="nofollow">https://t.co/caqxku766F</a></p>
+<div class="translated" id="264275">
+<p>﻿"密码抓取工具 mimikatz 现已支持 Windows 10 RS2 ：   <a href="https://t.co/caqxku766F" rel="nofollow">https://t.co/caqxku766F</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  RevBits @RevBits </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Our early analysis: "epichero" is a 0-day exploit (RCE) for Avaya Call Server in NSA leak <a href="https://github.com/x0rz/EQGRP/tree/master/Linux/bin/epichero%E2%80%A6" rel="nofollow">https://github.com/x0rz/EQGRP/tree/master/Linux/bin/epichero…</a> <a href="https://t.co/bljxt9tqLF" rel="nofollow">https://t.co/bljxt9tqLF</a></p>
+<div class="translated" id="264134">
+<p>﻿"EQGRP - ShadowBrokers 最新曝光的 NSA 文件：   <a href="https://github.com/x0rz/EQGRP/tree/master/Linux/bin/epichero" rel="nofollow">https://github.com/x0rz/EQGRP/tree/master/Linux/bin/epichero</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via Github</p> -->
+<p><img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">Xuanwu Spider via Github</img></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Android </i>]  Android 4月公告中 CVE-2017-0541 的 PoC 以及漏洞分析： <a href="https://github.com/JiounDai/CVE-2017-0541" rel="nofollow">https://github.com/JiounDai/CVE-2017-0541</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via slideshare.net</p> -->
+<p><img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">Xuanwu Spider via slideshare.net</img></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Android </i>]  CanSecWest 2017 会议上那篇关于 Android Chrome 逻辑漏洞检测的议题 PPT 已公开： 
+<a href="https://www.slideshare.net/CanSecWest/csw2017-geshevmiller-logic-bug-hunting-in-chrome-on-android" rel="nofollow">https://www.slideshare.net/CanSecWest/csw2017-geshevmiller-logic-bug-hunting-in-chrome-on-android</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via 看雪学院 &#39;s weibo</p> -->
+<p><img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">Xuanwu Spider via 看雪学院 's weibo</img></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Hardware </i>]  国产电纸书 Bambook 破解笔记（一）： <a href="http://weibo.com/ttarticle/p/show?id=2309404093965925266467" rel="nofollow">http://weibo.com/ttarticle/p/show?id=2309404093965925266467</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via PHITHON &#39;s blog</p> -->
+<p><img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">Xuanwu Spider via PHITHON 's blog</img></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Popular Software </i>]  Mysql字符编码利用技巧： <a href="https://www.leavesongs.com/PENETRATION/mysql-charset-trick.html" rel="nofollow">https://www.leavesongs.com/PENETRATION/mysql-charset-trick.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/04/09/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/04/10/index.html">2017/04/10</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/04/11/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

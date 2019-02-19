@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2019/02/12" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2019/02/12</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    border-top: 1px solid #f0f0f0;
+    color: black;
+    margin-bottom: 30px;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+
+
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+
+.singleweibotext{
+    word-wrap: break-word;
+}
+
+.singleweibotext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+    word-wrap: break-word;
+}
+.translated p{
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+
+.singleweiboimage{
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin-left: 25px;
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedheader{
+
+}
+
+.singlefeedlogo{
+    float: left;
+    /*width: 24px;*/
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.singlefeedlogo img{
+    float: left;
+    width: 13px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+
+    /*width: 80%;
+    height: 80%;*/
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+.singlefeedtext{
+    word-wrap: break-word;
+}
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+.singlefeedtext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+<script charset="UTF-8" src="http://tajs.qq.com/stats?sId=64975755" type="text/javascript"></script>
+</meta></head>
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2019/02/11/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2019/02/12/index.html">2019/02/12</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2019/02/13/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  Google Chrome skia::SkTDPQueue::insert 堆溢出漏洞披露(CVE-2018-18338)：   <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=890576" rel="nofollow">https://bugs.chromium.org/p/chromium/issues/detail?id=890576</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  Chrome V8 中类型错误导致的越界读写漏洞（CVE-2019-5782）与利用介绍：   <a href="https://github.com/vngkv123/aSiagaming/tree/master/Chrome-v8-906043" rel="nofollow">https://github.com/vngkv123/aSiagaming/tree/master/Chrome-v8-906043</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Crypto ]</span>  关于加密数据库的实现难点思考：   <a href="https://blog.cryptographyengineering.com/2019/02/11/attack-of-the-week-searchable-encryption-and-the-ever-expanding-leakage-function/" rel="nofollow">https://blog.cryptographyengineering.com/2019/02/11/attack-of-the-week-searchable-encryption-and-the-ever-expanding-leakage-function/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Defend ]</span>  加固活动目录管理：   <a href="https://adsecurity.org/wp-content/uploads/2019/02/2019-ITDefense-SecuringActiveDirectoryAdministration-Metcalf-Final.pdf" rel="nofollow">https://adsecurity.org/wp-content/uploads/2019/02/2019-ITDefense-SecuringActiveDirectoryAdministration-Metcalf-Final.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Malware ]</span>  Trendmicro 发现 .NET 开发的恶意软件被用于感染 macOS 系统：   <a href="https://blog.trendmicro.com/trendlabs-security-intelligence/windows-app-runs-on-mac-downloads-info-stealer-and-adware/" rel="nofollow">https://blog.trendmicro.com/trendlabs-security-intelligence/windows-app-runs-on-mac-downloads-info-stealer-and-adware/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Malware ]</span>   Google Play 商店发现首款通过更换剪贴板中的钱包地址窃取加密货币的恶意软件 - 'Clipper'：   <a href="https://threatpost.com/clipper-malware-google-play/141669/" rel="nofollow">https://threatpost.com/clipper-malware-google-play/141669/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  使用以太坊交易进行 C&amp;C 通信的 .NET 下载者分析：   <a href="https://medium.com/@quoscient/ethereum-threat-actors-part-1-dotnet-downloader-using-ethereum-transactions-for-c-c-updates-a6e244d6a402" rel="nofollow">https://medium.com/@quoscient/ethereum-threat-actors-part-1-dotnet-downloader-using-ethereum-transactions-for-c-c-updates-a6e244d6a402</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Pentest ]</span>  域名前置(Domain Fronting)技术介绍：   <a href="https://digi.ninja/blog/domain_fronting.php%C2%A0" rel="nofollow">https://digi.ninja/blog/domain_fronting.php </a> 使用 CloudFront 进行域名前置(Domain Fronting)：   <a href="https://digi.ninja/blog/cloudfront_example.php" rel="nofollow">https://digi.ninja/blog/cloudfront_example.php</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Popular Software ]</span>  Adobe Reader 继 Bad-PDF 后的另一处通过 SMB 泄漏 NTLM Hash 的漏洞介绍 ：   <a href="https://blog.0patch.com/2019/02/sorry-adobe-reader-were-not-letting-you.html" rel="nofollow">https://blog.0patch.com/2019/02/sorry-adobe-reader-were-not-letting-you.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Protocol ]</span>  Microsoft 发布 《Solving the TLS 1.0 Problem, 2nd Edition》 白皮书，提供禁用 TLS 1.0 的最新方案：   <a href="https://cloudblogs.microsoft.com/microsoftsecure/2019/02/11/solving-the-tls-1-0-problem/" rel="nofollow">https://cloudblogs.microsoft.com/microsoftsecure/2019/02/11/solving-the-tls-1-0-problem/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ ReverseEngineering ]</span>   逆向基于 Philips TriMedia CPU 的网络摄像机 - Part 2：   <a href="https://blog.quarkslab.com/reverse-engineering-a-philips-trimedia-cpu-based-ip-camera-part-2.html" rel="nofollow">https://blog.quarkslab.com/reverse-engineering-a-philips-trimedia-cpu-based-ip-camera-part-2.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ ReverseEngineering ]</span>  给初学者的 Linux CTF 逆向教程：   <a href="https://osandamalith.com/2019/02/11/linux-reverse-engineering-ctfs-for-beginners/" rel="nofollow">https://osandamalith.com/2019/02/11/linux-reverse-engineering-ctfs-for-beginners/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ ReverseEngineering ]</span>  如何在安卓上绕过 Instagram SSL Pinning：   <a href="https://plainsec.org/how-to-bypass-instagram-ssl-pinning-on-android-v78/" rel="nofollow">https://plainsec.org/how-to-bypass-instagram-ssl-pinning-on-android-v78/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ SecurityAdvisory ]</span>   US-CERT 发布 2019 年 2 月 4 日此周的漏洞总结：    <a href="https://www.us-cert.gov/ncas/bulletins/SB19-042" rel="nofollow">https://www.us-cert.gov/ncas/bulletins/SB19-042</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  开源恶意软件扫描器 PE-sieve 介绍：   <a href="https://drive.google.com/file/d/1pIjYznL7Ww0sTFzCCHMxhchsnfH5TwfG/view" rel="nofollow">https://drive.google.com/file/d/1pIjYznL7Ww0sTFzCCHMxhchsnfH5TwfG/view</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  浏览器 XSS Filter 绕过速查表 ：   <a href="https://github.com/masatokinugawa/filterbypass/wiki/Browser" rel="nofollow">https://github.com/masatokinugawa/filterbypass/wiki/Browser</a>'s-XSS-Filter-Bypass-Cheat-Sheet</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  使用 Azure ATP 检测 ExchangePriv 漏洞：   <a href="https://techcommunity.microsoft.com/t5/Enterprise-Mobility-Security/How-to-win-the-latest-security-race-over-NTLM-relay/ba-p/334511" rel="nofollow">https://techcommunity.microsoft.com/t5/Enterprise-Mobility-Security/How-to-win-the-latest-security-race-over-NTLM-relay/ba-p/334511</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  webkit-bugmap - 一款针对 WebKit 安全漏洞可视化的研究工具：   <a href="https://bugmap.gitlab.io/webkit/" rel="nofollow">https://bugmap.gitlab.io/webkit/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Virtualization ]</span>  在 64 位 ARM 架构下编写虚拟机 hypervisor 的系列教程 Part 1：   <a href="https://ashw.io/blog/arm64-hypervisor-tutorial/1" rel="nofollow">https://ashw.io/blog/arm64-hypervisor-tutorial/1</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>   Webiness Inventory 2.3 'email' 参数 SQL 注入漏洞披露：   <a href="https://www.exploit-db.com/exploits/46350" rel="nofollow">https://www.exploit-db.com/exploits/46350</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  runc 容器逃逸漏洞披露,允许恶意容器覆盖主机二进制文件，从而获得 root 权限的代码执行的漏洞（CVE-2019-5736）：    <a href="https://www.openwall.com/lists/oss-security/2019/02/11/2" rel="nofollow">https://www.openwall.com/lists/oss-security/2019/02/11/2</a> <a href="https://www.us-cert.gov/ncas/current-activity/2019/02/11/runc-Open-Source-Container-Vulnerability%C2%A0" rel="nofollow">https://www.us-cert.gov/ncas/current-activity/2019/02/11/runc-Open-Source-Container-Vulnerability </a> </p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  CentOS Web Panel 0.9.8.763 存储型 XSS 漏洞披露（CVE-2019-7646）：   <a href="https://www.exploit-db.com/exploits/46349" rel="nofollow">https://www.exploit-db.com/exploits/46349</a></p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Others ]</span>  使用 ESENTUTL.exe 锁定对文件的访问： <a href="https://dfironthemountain.wordpress.com/2018/12/06/locked-file-access-using-esentutl-exe/" rel="nofollow">https://dfironthemountain.wordpress.com/2018/12/06/locked-file-access-using-esentutl-exe/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2019/02/11/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2019/02/12/index.html">2019/02/12</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2019/02/13/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

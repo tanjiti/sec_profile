@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2018/04/11" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2018/04/11</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    border-top: 1px solid #f0f0f0;
+    color: black;
+    margin-bottom: 30px;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+
+
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+
+.singleweibotext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+
+.singleweiboimage{
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin-left: 25px;
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedheader{
+
+}
+
+.singlefeedlogo{
+    float: left;
+    /*width: 24px;*/
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.singlefeedlogo img{
+    float: left;
+    width: 13px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+
+    /*width: 80%;
+    height: 80%;*/
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+.singlefeedtext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+<script charset="UTF-8" src="http://tajs.qq.com/stats?sId=64975755" type="text/javascript"></script>
+</meta></head>
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2018/04/10/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2018/04/11/index.html">2018/04/11</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/04/12/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Android ]</span>  Android P 中将默认只允许应用通过 TLS 加密通信传输数据以保护用户隐私:   <a href="https://android-developers.googleblog.com/2018/04/protecting-users-with-tls-by-default-in.html" rel="nofollow">https://android-developers.googleblog.com/2018/04/protecting-users-with-tls-by-default-in.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  Hooking Chrome 浏览器的 SSL 函数读取 SSL 通信数据：   <a href="https://nytrosecurity.com/2018/02/26/hooking-chromes-ssl-functions/" rel="nofollow">https://nytrosecurity.com/2018/02/26/hooking-chromes-ssl-functions/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  针对 Microsoft Edge UAF 的分析（CVE-2017-0236）：   <a href="http://math1as.com/2018/04/10/CVE-2017-0236-analysis/" rel="nofollow">http://math1as.com/2018/04/10/CVE-2017-0236-analysis/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Debug ]</span>  Solving Ad-hoc Problems with Hex-Rays API，编写脚本调用 IDA API 解决问题的示例：   <a href="https://www.fireeye.com/blog/threat-research/2018/04/solving-ad-hoc-problems-with-hex-rays-api.html" rel="nofollow">https://www.fireeye.com/blog/threat-research/2018/04/solving-ad-hoc-problems-with-hex-rays-api.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Industry News ]</span>  Facebook 推出 Data Abuse Bounty ，奖金最高达 4 万美金：   <a href="https://newsroom.fb.com/news/2018/04/data-abuse-bounty/" rel="nofollow">https://newsroom.fb.com/news/2018/04/data-abuse-bounty/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Linux ]</span>   Holey Beep: Linux 提权漏洞分析与利用(CVE-2018-0492)：   <a href="https://sigint.sh/#/holeybeep" rel="nofollow">https://sigint.sh/#/holeybeep</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Malware ]</span>  Quant Loader 木马通过 URL 快捷方式文件进行传播：   <a href="https://threatpost.com/quant-loader-trojan-spreads-via-microsoft-url-shortcut-files/131081/" rel="nofollow">https://threatpost.com/quant-loader-trojan-spreads-via-microsoft-url-shortcut-files/131081/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  新一波攻击使用嵌入 CVE-2017-8570 漏洞利用的恶意 Word 文档散发 FormBook 恶意软件：   <a href="https://threatpost.com/word-attachment-delivers-formbook-malware-no-macros-required/131075/" rel="nofollow">https://threatpost.com/word-attachment-delivers-formbook-malware-no-macros-required/131075/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  Cross-runtime .NET disassembly with BenchmarkDotNet：   <a href="http://aakinshin.net/blog/post/dotnet-crossruntime-disasm/" rel="nofollow">http://aakinshin.net/blog/post/dotnet-crossruntime-disasm/</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DaZ14wZWsAAQ8Ff.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/DaZ14wZWsAAQ8Ff.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  从企业网络流量中筛选出前100万个域名：   <a href="https://blog.nviso.be/2018/04/10/filtering-out-top-1-million-domains-from-corporate-network-traffic/" rel="nofollow">https://blog.nviso.be/2018/04/10/filtering-out-top-1-million-domains-from-corporate-network-traffic/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Pentest ]</span>  修改 Image File Execution Options 注册表项中的 GlobalFlags 以实现自启动并且在 Autoruns.exe 中不可见:   <a href="https://oddvar.moe/2018/04/10/persistence-using-globalflags-in-image-file-execution-options-hidden-from-autoruns-exe/" rel="nofollow">https://oddvar.moe/2018/04/10/persistence-using-globalflags-in-image-file-execution-options-hidden-from-autoruns-exe/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Pentest ]</span>  Mimikatz misc::skeleton 域环境下设置万能密码的方法介绍:   <a href="https://pentestlab.blog/2018/04/10/skeleton-key/" rel="nofollow">https://pentestlab.blog/2018/04/10/skeleton-key/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Pentest ]</span>  通过修改主机安全描述符实现远程提取机器上的本地用户哈希：   <a href="https://posts.specterops.io/remote-hash-extraction-on-demand-via-host-security-descriptor-modification-2cf505ec5c40" rel="nofollow">https://posts.specterops.io/remote-hash-extraction-on-demand-via-host-security-descriptor-modification-2cf505ec5c40</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Popular Software ]</span>  Signal for iOS 锁屏绕过漏洞披露（CVE-2018-9840）：  <a href="http://nint.en.do/Signal-Bypass-Screen-locker.php" rel="nofollow">http://nint.en.do/Signal-Bypass-Screen-locker.php</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ SecurityAdvisory ]</span>  Microsoft 发布 4 月安全更新：   <a href="https://portal.msrc.microsoft.com/en-us/security-guidance" rel="nofollow">https://portal.msrc.microsoft.com/en-us/security-guidance</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ SecurityAdvisory ]</span>  Adobe 发布 4 月安全更新：  <a href="https://helpx.adobe.com/security.html" rel="nofollow">https://helpx.adobe.com/security.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  ids_bypass - 绕过 Suricata IDS 规则注入恶意数据的 POC (CVE-2018-6794)：   <a href="https://github.com/kirillwow/ids_bypass" rel="nofollow">https://github.com/kirillwow/ids_bypass</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  JSON Web Token Security Cheat Sheet：   <a href="https://assets.pentesterlab.com/jwt_security_cheatsheet/jwt_security_cheatsheet.pdf" rel="nofollow">https://assets.pentesterlab.com/jwt_security_cheatsheet/jwt_security_cheatsheet.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  Red Team Tips：   <a href="https://vincentyiu.co.uk/red-team-tips/" rel="nofollow">https://vincentyiu.co.uk/red-team-tips/</a></p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ APT ]</span>  近年来APT组织使用的10大（类）安全漏洞： <a href="https://www.anquanke.com/post/id/104180" rel="nofollow">https://www.anquanke.com/post/id/104180</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ MalwareAnalysis ]</span>  C0594组织恶意挖矿攻击，已攻陷数千个网站： <a href="http://www.freebuf.com/articles/web/167620.html" rel="nofollow">http://www.freebuf.com/articles/web/167620.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ MalwareAnalysis ]</span>  新型RDP爆破蠕虫Morto来袭： <a href="http://www.freebuf.com/news/167365.html" rel="nofollow">http://www.freebuf.com/news/167365.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Others ]</span>  Let’s get fancy with false flags，攻击者通过设置虚假标记来将攻击源头指向其他组织： <a href="https://blog.0day.rocks/lets-get-fancy-with-false-flags-28eaabefeff6" rel="nofollow">https://blog.0day.rocks/lets-get-fancy-with-false-flags-28eaabefeff6</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ SecurityAdvisory ]</span>  ZDI 对 Microsoft、Adobe 4 月发布的安全更新的总览： <a href="https://www.thezdi.com/blog/2018/4/10/the-april-2018-security-update-review" rel="nofollow">https://www.thezdi.com/blog/2018/4/10/the-april-2018-security-update-review</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Tools ]</span>  sdn-handbook - SDN网络指南： <a href="https://github.com/feiskyer/sdn-handbook" rel="nofollow">https://github.com/feiskyer/sdn-handbook</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2018/04/10/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2018/04/11/index.html">2018/04/11</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/04/12/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

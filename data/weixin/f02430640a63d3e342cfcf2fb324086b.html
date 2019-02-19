@@ -1,0 +1,1691 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+
+
+        <script nonce="1164123428" type="text/javascript">
+            window.logs = {
+                pagetime: {}
+            };
+            window.logs.pagetime['html_begin'] = (+new Date());
+        </script>
+        <title>
+ 企业级自动化代码安全扫描实战
+</title>
+        
+<style>.radius_avatar{display:inline-block;background-color:#fff;padding:3px;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;overflow:hidden;vertical-align:middle}.radius_avatar img{display:block;width:100%;height:100%;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;background-color:#eee}.rich_media_inner{word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.rich_media_area_primary{padding:20px 16px 12px;background-color:#fafafa}.rich_media_area_primary.voice{padding-top:66px}.rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{color:rgba(0,0,0,0.3);background-color:#fafafa}.rich_media_area_extra{padding:0 16px 24px}.rich_media_extra{padding-top:30px}.mpda_bottom_container .rich_media_extra{padding-top:24px}.mpda_bottom_container .rich_media_extra .mpad_more_list{right:-10px}html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;line-height:1.6}body{-webkit-touch-callout:none;font-family:-apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif;color:#333;background-color:#f2f2f2;letter-spacing:.034em}h1,h2,h3,h4,h5,h6{font-weight:400;font-size:16px}*{margin:0;padding:0}a{color:#576b95;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_title{font-size:22px;line-height:1.4;margin-bottom:14px}@supports(-webkit-overflow-scrolling:touch){.rich_media_title{font-weight:700}}.rich_media_meta_list{margin-bottom:22px;line-height:20px;font-size:0;word-wrap:break-word;word-break:break-all}.rich_media_meta_list em{font-style:normal}.rich_media_meta{display:inline-block;vertical-align:middle;margin:0 10px 10px 0;font-size:15px;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_meta.icon_appmsg_tag{margin-right:4px}.rich_media_meta.meta_tag_text{margin-right:0}.rich_media_meta_primary{display:block;margin-bottom:10px;font-size:15px}.meta_original_tag{padding:0 .5em;font-size:12px;line-height:1.4;background-color:#f2f2f2;color:#888}.meta_enterprise_tag img{width:30px;height:30px!important;display:block;position:relative;margin-top:-3px;border:0}.rich_media_meta_link{color:#576b95}.rich_media_meta_text{color:rgba(0,0,0,0.3)}.rich_media_meta_text.rich_media_meta_split{padding-left:10px}.rich_media_meta_text.rich_media_meta_split:before{position:absolute;top:50%;left:0;margin-top:-6px;content:' ';display:block;border-left:1px solid #888;width:200%;height:130%;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0}.rich_media_meta_text.article_modify_tag{position:relative}.rich_media_meta_nickname{position:relative}.rich_media_thumb_wrp{margin-bottom:6px}.rich_media_thumb_wrp .original_img_wrp{display:block}.rich_media_thumb{display:block;width:100%}.rich_media_content{overflow:hidden;color:#333;font-size:17px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;text-align:justify;position:relative;z-index:0}.rich_media_content *{max-width:100%!important;box-sizing:border-box!important;-webkit-box-sizing:border-box!important;word-wrap:break-word!important}.rich_media_content p{clear:both;min-height:1em}.rich_media_content em{font-style:italic}.rich_media_content fieldset{min-width:0}.rich_media_content .list-paddingleft-2{padding-left:2.2em}.rich_media_content .list-paddingleft-2 .list-paddingleft-2{padding-left:30px}.rich_media_content blockquote{margin:0;padding-left:10px;border-left:3px solid #dbdbdb}img{height:auto!important}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:portrait){.rich_media_area_extra{padding-bottom:34px}}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:landscape){.rich_media_area_primary{padding:20px 60px 15px 60px}.rich_media_area_extra{padding:0 60px 21px 60px}}@media screen and (min-width:1024px){.rich_media_area_primary_inner,.rich_media_area_extra_inner{max-width:677px;margin-left:auto;margin-right:auto}.rich_media_area_primary{padding-top:32px}}.appmsg_share_notice{font-size:16px;color:#888;position:relative;padding:1.25em 0;margin-bottom:1.75em}.appmsg_share_notice:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice_hd{font-weight:700;padding-bottom:.2em}.cell{padding:.8em 0;display:block;position:relative}.cell_hd,.cell_bd,.cell_ft{display:table-cell;vertical-align:middle;word-wrap:break-word;word-break:break-all;white-space:nowrap}.cell_primary{width:2000px;white-space:normal}.flex_cell{padding:10px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.flex_cell_primary{width:100%;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;box-flex:1;flex:1}.original_tool_area{display:block;padding:.75em 1em 0;-webkit-tap-highlight-color:rgba(0,0,0,0);color:#333;border:1px solid #eaeaea;margin:20px 0}.original_tool_area .tips_global{position:relative;padding-bottom:.5em;font-size:15px}.original_tool_area .tips_global:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dbdbdb;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:27px;height:27px;padding:0;margin-right:.5em}.original_tool_area .radius_avatar img{height:100%!important}.original_tool_area .flex_cell_bd{width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal}.original_tool_area .flex_cell_ft{font-size:14px;color:#888;padding-left:1em;white-space:nowrap}.original_tool_area .icon_access:after{content:" ";display:inline-block;height:8px;width:8px;border-width:1px 1px 0 0;border-color:#cbcad0;border-style:solid;transform:matrix(0.71,0.71,-0.71,0.71,0,0);-ms-transform:matrix(0.71,0.71,-0.71,0.71,0,0);-webkit-transform:matrix(0.71,0.71,-0.71,0.71,0,0);position:relative;top:-2px;top:-1px}.rich_media_global_msg{position:fixed;top:0;left:0;right:0;padding:.85em 35px .85em 15px;z-index:2;background-color:#c6e0f8;color:#888;font-size:12px}.rich_media_global_msg .icon_closed{position:absolute;right:15px;top:50%;margin-top:-5px;line-height:300px;overflow:hidden;-webkit-tap-highlight-color:rgba(0,0,0,0);background:transparent url(//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_appmsg_msg_closed_sprite.2x42f400.png) no-repeat 0 0;width:11px;height:11px;vertical-align:middle;display:inline-block;-webkit-background-size:100% auto;background-size:100% auto}.rich_media_global_msg .icon_closed:active{background-position:0 -17px}.rich_media_global_msg.voice{color:#1aad19;background-color:#e8f6e8;padding-left:43.3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.rich_media_global_msg.voice .ic_voice{position:absolute;top:50%;margin-top:-10px;left:15px;display:inline-block;width:13.3px;height:18.3px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAA3CAYAAAB+fggjAAAAAXNSR0IArs4c6QAACb9JREFUaAW9WX9wVMUd3917d5cf/Agp1OTuQgIlQqUoI1JI1Noojg2I+VU7hVrtDDpadRypgzKjU52x09KOdsS20ypSO/WPWttcAqhTOlSoU4FIoRUn0wEZIMndBUkwGEhyv97bfvaS97L77t3lHYUuc+z3935397vf/e4LJZfQnuPPsW0d25ZQzr9mELKSUnIVzHxB/Dh+lBOKf4OEk0FOyQAl/CyltIt5tL29d/V2FzIkLUQ4FA7dwon+KCF0Fee8rBBdS5aSs/D+PUrYbyKtkb9b9BzAlA7CERrqDN1DOH8C8HU57FwSGat6kBGypbcluhMwFj+75XWwemf1vHQqtZ0T3pCtelkp73uJ79s9bT39dqs5HQyFK79jcPIKFErtSgLHjPvQHQB0EFt2hDE2QHU6RMvpkODrw3o50Uk5p3w2N/SlUKhHTNZjskHBz2pi6ylbH22J/k3mOToYCAceIYT/AgYVPhxJQTkMQ792Ez/yQCY8d0fgRl0nj8J2G5z1mvSJ3qCMrYOTb5l0xQFBDIUDjxmcbzUFJnu621/kf/DUmlM9k7RLh4LtwRChxquck0bFCqWjxENuijXF/iXoioNVnZU36wZ5D7PTTCWsWhyp4uFYa+x1k3Y5ezj6oNgtdTVpL0Lo+mhr9BwO0Xib+/bcWYZB35Sdg/sXsOSNV8o5MXK0LfoKYXQDxpJOMZ8L1g8E33JQT6aeQRoJCOJEMxjxfCvSEtlnEq5Uj5h7Ayv2I8U+5w9du/va0oyD896ZV004RQKebIzQ53EQ/jJJubJQhUa2YBXPmqNgy8vPjZ67N+NgMh6/HwSfyURgniwqLvmJif8/+sNrY6O4XV5WxjKMuvHDQOl9uCksHmX0xydWn0hYBJfAgncXzBhNjjZSnX8Fq3ENdmWWUMUhS2Ebv5HrtjDNg/+B5IY4wos0cVukUskqUwj9xfKS2W9GSEwi5QdxFS5BMn54dGzkHkhOy0x18j9COY1O5VxmhGJylIxMjgUTC7WUkfrqJAkQpfuP3nFUElO4WUgwHHza0HU1wG1SGOi0jeSI+kf92hgZlXg0yajBV0gUwri4vqZud/O7PbhxkGiNvM5NWHKV3NN8LGQbuVdDsYIVzOzHOI+ygzYhR/RAxwdbELcPZDEp+Q+2YQcS2L+Zwc4gdSUQS7Oz5BwIKUqWyq5ApEdDsVmhBKaHnHDQVUg1uwKLkkm+USEScsbjId/ra+7fbaMThMHVdpoTjuyxXloqcUg+Eqe4WBb26/5hGXeCkynyfdA9Fo/SQeZlN/StjUQtmgQUFxVnKhyJlAUGOgP13OC3ygxGWZhhSYtkYqIicUHGnWCUluoFz8mzkRzOCf14Wfyikx2ThvQ0B6XZdvhi1QaoAfZHmiMf40xMJmih4BvxWQnbNCD3i/cunoYab4FMQwr5o4zb4Uh9ZMxOM3Fsf91YfPQfOAeLTJrouYc8K3rEII0ikBcKRLTEhUQNuo8E7NSGh4dnyDOFzIioOpxkZdqyXYGSAV2rMYjhIUamkL2ZcANvG+MWWS4DU/parDm2R8AiBj/Bz3IQe14DPKeDRho1hNyonFplhgp/mmaNhpH6s0VVToNFxR7TPcVFJVZdgMG4cNBq0LvRQhyA2vLaMyDrFouTL169KzBlGkEofdnScQYMXBI/raiuXC1fs4wz2iXLI+U0y7gd3tewL41IVhLvmM6X2eWycM7nZ9EEAXWgWDWPpjWg7tx8+IbD4llhNTadTn8XcWgVBphprbhbLQkngJK/ymTdoE/IuDPME5jYSYx1HLn3EH6/B77Rq/m+FG2L3d7X1Pe+kx5kCBJp4G0clDWmAJTD0db+NhO398GO4G3cMDJBbPIY9bShfgyb+OXqMwGPV9rrskFsc6t4fck0GRZPQ5GnZBpO4x/wvrAmKfP+FzjjYF9zn5i58s0ET8MX8hnGc+BxOGnFi8innBg7UUBsFaV6Pt1CeBMrKD73qG8CbPnKUHvg/lzG+tr6DlGWufJkEWQp/tjgyMBJPF+fWrhj4XSZeSlwJgaFIhyioY7gHvS3moYyK6TRO6JN0b0mzd6HOgIbEBK/gp7fzsOBGMLUX2Z+bWvvnb1T3sd2fYFbDgoET8/56UTqKEBrizDIeY1463tae1BGObeq9qrlBtXb4aRcmVvCmOjneFq+UFZW9lJ3Q3fee9lSmgAUBwUNd+N9CPjfTfDHO0pO+z1FK081nfpUoUuIuKPPD322Gav5OMjWBCURRBGN4GH0QCGvxSwHhcFguPLnGEip97AKXd5y39dPN5yOy4PaYXGrjKToRsTMIzg4M+38cZz+LNYWe8qZp1Izh0QlEVLfctMmzNb6gCP4GGxFcij5W7usHT++NjaI4uHpadr0KkbpZvAH7DKw9iRi98lsejbFcQWF2LJ/LvOe6Yl14m5eLavhU8gqkQdlWj5YnOSL+sXNWNFNmKT1NQsLkGAez3zcIHmfj44rKAYUd2Jxcek6HCP1cHD+Ig5DzonZnT3WdOyCWFGukRUIwkGTL069kdYz319MmlOf00EhjKpiWKPku7IiDF9X3RHMecvIsjIsPqdh1ewO3SXLOMF5HRQKvS39h5GNOmVlnZP1Mu4W9pZ5/4TDZh0ybHkt3iKOqcm0OaWDQpB52DZTQfQo+Vtl3C08kQGO2OStYtlGz6CuHJxZO3MPYnHYMsDJVSKpW3ghAOXKsxaPoup86q4c7F7cncSyHZANGen0Shl3C+PSPy/L4qmZ97525aAwiMLgQ8Uwp8tl3C2MASff00KJMRW3GXLtIFbwY1kXp/kaGXcL42AoDqHit6p5JxuuHfQwj1IvIhFO9QhyGk/QpskM/C3Gyo0y3YRdOzgnNOcTHJS0qYgVrBIfLE28gF75ToN3bySfrmsHM68tTo7JxuKJ+PUyPhWcqbQ5XarI+TRlZxQeENcOjitS5dMc5/oqu8F8+ODI4FrEoPVpBTfL8akK2YIc9DCiFAkoyTbUdNSU5XPK5Im/MQPeZOKZnpNdCu6AFOTgrJLZO2FDrogrUjyxPbQ/VOxgWyG9Fn71h6hoJkMC8exlvl8qQg6I66rE1A22Vz6PEuwZExe92CrQtmmU72U+fzQ9K/15XV1dsuudrhlc50t0XX8Izq1TdAh5I9rWf69Mc4ILdlCU9kNDn32ICvZS0wySAY2W+shSUdw6OSXTCtpioSgePZrPeydWTUncstF8MPRw1dFvunFO2CnYQaGEk3cSn8iWYyVeBGoImqtG6RHxQsQfEJVskE+34C22GxOfb8fiY40owtaAJ0qnciTxcvSlE7VfBPX3IQ8lb/U2R3dgBRGu7tt/AYJkZEGv/oaXAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.rich_media_global_msg.voice .icon_more{position:absolute;right:15px;top:50%;margin-top:-6.5px;width:8px;height:13px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAmCAYAAADeB1slAAAAAXNSR0IArs4c6QAAA49JREFUSA2tVk1IVFEUPveOmhQk1ibfvLFZSJtACqJIIpCIoB+imcFV2Z9ZUVnRomgRGFn2i6mFf5XVotCZMYmgIMhlq6BFENFiwjfPAosgFzXOvNu5o3fmeue98Y16F3PP+c453/fu/xCQmvZSWwwJaC0G6P8WND9IoTmbVFRycpqAdgBWkwRo94V960RsPn1aoPpN9RI6CR0WsDWcjAErtUiqTR/S18+HnNcSTv5zYrwDSatVMgLkH6aciwfj79WYW5+OT4xfsyPnBIgvwt872qBW45ZQzaMlJXCfMPJbDQgfRUoIhduVUW2TwArpaWyX+bnYU9JAAH44FaJIccqCW76Ib7NTjhOOvFPN/8q/IvE3cR+npFJgao9rkiSUXjD2GCNqzMnPbNPYjth3mqINlJAvTsk4kiJmWa3eQe8WpxwVzwjwgFFn/CorL29EkY9qovC5CFDrKq7JVoHl6zNTJCf53/lLk78SN/FcbJRx2cZCixC4ZATGXsu4as8YgQjGamN/q5atOotn4K3A1J4BUMbgsh7Wt6sx2bcV4AkjtSPJxkDjRQL0hVwg21zEglSzN+rdKeOybTtFcgK39ajWZDFWr+IZHxfGQ8mV0YA5nMGmDVcCPNcb8R5gYJ1UCWQfp6PFCI4NyZhrAV6EIiHGrPOAB0ImkW2c0la8u8ICc0wUCWrvC1dsw+3TnN6uanDaJ4zeiIfiA9wtWIAX8XspxeA6iuBlaN88hNzCNXk+JwFOuXJYW5tMQmc+EcqgzXGb2n9XFk1NstX5yKczl89JAF+6vRaBM1m5XAu//qkRGrtb8BThTtqH2/V0LmUWwbvsiREw8X0vcJHxxNbjNm3KUuVaMjmPFuWm2CPesHc/kp+yj06hFMhj/PIOOcfVFLk6xZT0G3vMTpmc27MusityZk/OBfKOwA05MPLIDJn3OJldcxTQotpBYOyEXVEWIw/NoInvuHOznSJfVDs0GzneNw9mI+eyOSPQI9phfCqPO38TFhHaFw/Eu/LliNiMESB5w6zkzD05F8mMYJr8mFC263Fa+vAadvXloj4toEcrjlgMjgrQrseHpBcfkm67WD6M6MN6lTWZeoZjyYxGLcB57MGnsEfF3fjU2G189QBpcUqmBLrnSs4504s8GjLxrwm5qYrg3dKFf6x6VbwQ3yOS/wz8+bS0ruwfELaBY2nyoNkn4gvW65GKRn4WForwP+dONHDaOHeZAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.preview_appmsg .rich_media_title{margin-top:2.3em}@media screen and (min-width:1024px){.rich_media_global_msg{position:relative;margin-bottom:32px}.preview_appmsg .rich_media_title.rich_media_title{margin-top:0}}.pages_reset{color:#333;line-height:1.6;font-size:16px;font-weight:400;font-style:normal;text-indent:0;letter-spacing:normal;text-align:left;text-decoration:none;white-space:normal}.weapp_element,.weapp_display_element,.mp-miniprogram{display:block;margin:1em 0}.share_audio_context{margin:16px 0}.weapp_text_link{font-size:17px}.weapp_text_link:before{content:'';display:inline-block;line-height:1;background-size:contain;background-repeat:no-repeat;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAB4RJREFUWAm1WUuMFGUQnn7szL5mdvbh7GwgEQUlS1weiagxxpigiUZeJgY1cMMDcDCGG8GLCWZvxHjh4BWUeDEsejBBEzWYKBBEiHAABBfCMOwsuzvszrvb+v6Zb7amt1ce0Up6qv6q+qq+/rv778dYkUeUqamp5dFodJPv++ts205blpX2PG8I5cTOiLol44zYZ8vl8vFkMnnlUVpZDwPK5/MpIbWrVqttFlLD0jwiBEHIaNbCGKJjQvai+I9Xq9VD8Xg8y9z76QcimM1mu3t6ej4UYh84jtOFxhBNJGxskhp5xIielZ37bHp6+tNUKnWPOYvp+xKcm5t7S4gclKIpFNGzsmjRkBnUOwNbZjQrtfZ2dnZ+vVgd+O1/CVqlUukjIXZYCqZADBuEJIllc4xh61zmaB9s7LDkHkYPwJgX1KEEx8fHO2TmjkjyPgLQmERIAjHajGnyjDGPOfQ3xvvQCz3ZS+sw5hYAsodbWBhNw4SNGCMBnR/MYS60jskhPyaHe7u4W5otmEGZ8v0gx2YsyDE0bc4Wx8glOe2Dn2No2hqPnuiNXC0tM9i4IA5LcksjNm0BNs417aMNAsRom3HoMD8wsu3QF06TIJaSRCJxXrDmamUBrVEYRejDmDY0JEgsLE4f8mkTj6tb1tsRLkEukiBY56Q4rizThI2okaNtjFlUx+Cr1vzIyTMz7uW/ik4mV7Yd24oMDrR5q1Z01Nav6a5yVsLwcvRS4CI1D5ge+MEdQhbgC1yECSQhjMNsYCGMQ2dzFeuLYxOxibuVBec3cpekY7XtWwZK8a75sMajj2yzcsd5BnccM4PCeg/JoQjJwAY4TFgUMeRjXK54kS/H6uR6e1xvw4vJyuNLYh5yrt8s2d//MtV2M1Nyvvo2F9u5LVUSJEJNPPtKrS7XdXdL6GOzG+LYqIJNUiShYyRDjRw2OXnmnntnsmInE663e3u6uHZVZy2ZsH1sa4Y7ant2DBURu3aj6Jz9c9YBVuNRhz6pvwlju1gsPikzaG78CKIxNgh1sAj91MhFztXrRQf2C+vi1Y721tMC/vZYPQb78rWCE8Tr/uCEJyZbrprNAAST4QOAIGj6qBnDGPjZgmeS0gNRc1jD8D1xx+y978/XJh4awl54nHOl8Do6STKoDarxg5gmxpj2yTEwbtZhDvSlKwUzy+lU1NPxFvz8EcSzpnnYXDCD3AtqFtOFGNM+kMBYx+DzPD/y86m8e+7SnBON2v7qlR01ncP6Gg9uriSlGSSAYyTDhl/7bmTK9tXxkj3ydFetL4lTqT5jyIdgTB/0qT9m3R9/zbvT+Yottfw3XuktJxP1Q61rh/QfcuUcHBKmzcIwdCILQE/crVpHj9+JZe7U17hSyau89lJPxYDVD3KJm5qpWWMnJqMIY+nZvKGv/NQT7ebwcicI5RhYiHBLYx30WQxObWNMyQm5Q0cy7ULK6up0/PUj3dWXn48bckEMGrGZkPJ3bhssunLmLR2qXzyIacxitvT2XZm9jABWMEmD6QPJYzILILdyeWf13Y39ZTSEMAeaQpuxZUujHn26fhCPmI6Dmy0OvIE1AyyqfYWiH7n6d9GJxWz/7df7FpBjLjQETag1Me1HPKxXwJfByXeLRViUYGiI3F/NSYr1raPdNoXh594S75nVT1Z/mUz6kAfhGJp2EI887gRy5Bw0M/g7ndQI0gZISJkpyU6WbTm7m8RYELnFkh+ZnK4/qCTiWF4XXtk6X5NkLjX7iz4rh9keAxBODaKNWKrf9Qd627yC3Cm++2m6DbHWYpHI2Im7UfFZqf6oN9DrmAsPWIquH8QjR8dRG2O88JszW56kTwvRYSayOYtD37xdsT8/ejtWq/nWsqXttdXDHdW+RNTHY9Vv5/IuTgPHtfxd7w0V04/V1ziND5IiCeTofsyTw3tRnqyfNY9b8qg1JkktXwo0EKAlg23eO2/2l7/5YaoNTyPYNIFEt6xxr/aVQQ75QTxJkEBYnDFocEKOqYQHVnn+uiCBLji1IBnCBiVZ+U6fv+dmshV7cqpq9fY4/tBg1HtudXe1zeyuRs9fHMRrEvQBQT9smb1Z+YphHljr3cWJF2gB7NOENAhAjrWGP9iIPuZhDOFYa/hD8KOxWOyAweAHEnxpqnvrvyyofbQZg4boZsEcjrUO4mX2Wl6a6jdhQeAtSoJ70YDNoIMFwmJoqImF5Wgf8jHGRhx0Y9vLNzrkNQligPdRuZpHgyDEKIixMPMQow82/dC04YdgzFwdg0+2Uf1OjPzmOYhBQ6xCoYCX9626WDOo9pqNqHUO7IfBy0XxYJ8+UHdiYuJ9AHQT2GGiycHmmLNDkmFY+JCPXrlcbqcMW28/iCNpEcHnt/3SwHzhQiEIG5JAGDYsN8yHGjil5Ir9BKVDa4U5ta/xveagNDCfRBhDQ5JczEaujhHb0FlclMFzLpDTepEEgxijAL6VSCNcPLPw6aa0oSEgTZsx+GFjwyIsenRmZmbkfuQMDj8PKrjjyCHZIw02im7eGokHAQhnFjZ8GAux/+8jOhoFhX9DCIG1EsPfD9jMC5j4/rO/If4BCiyOk7IAfLMAAAAASUVORK5CYII=');vertical-align:middle;font-size:11px;color:#888;margin-right:6px;margin-top:-3px;background-position:center;height:20px;width:20px}.flex_context{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center}.flex_bd{-webkit-box-flex:1;-webkit-flex:1;flex:1;word-wrap:break-word;word-break:break-all}.original_page{background-color:#fff;font-size:16px}.account_info{padding:0 0 20px}.account_info .flex_bd{padding-left:.85em}.radius_avatar.account_avatar{width:40px;height:40px;padding:0}.account_nickname{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;line-height:1.2;color:#576b95;font-size:14px}.account_nickname_inner{font-weight:400;vertical-align:top}.account_desc{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;color:#b2b2b2;font-size:13px;line-height:1.2;padding-top:.3em}.account_desc_inner{display:inline;vertical-align:top}.share_notice{margin-bottom:20px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.share_media{padding-bottom:18px}.original_panel{padding:20px;background-color:#fcfcfc;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;overflow:hidden;position:relative}.original_panel:after{content:" ";border:1px solid #d8d8d8;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;position:absolute;top:0;left:0;width:200%;height:200%;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}.original_panel .original_account{margin-bottom:18px;position:relative;z-index:1}.original_panel .original_account_avatar{width:28px;height:28px;padding:0}.original_panel .original_account_nickname{padding-left:.85em;font-size:15px;color:#576b95}.original_panel_title{font-size:23px;color:#000;margin:0 0 16px}.original_panel_content{color:#333}.original_panel_tool{padding-top:20px;position:relative;z-index:1}.original_cell_nickname{display:inline-block;vertical-align:middle;font-weight:400;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:8em;color:#000}.original_tool_area{padding:1.17em 0;border-width:0;position:relative}.original_tool_area:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:20px;height:20px;margin-right:.2em}.original_tool_area .flex_cell{padding:0;font-size:14px}.original_tool_area .icon_access:after{margin-right:4px;top:0}.preview_appmsg .rich_media_title{margin-top:1.5em}.preview_appmsg .account_info{padding-top:3em}.original_page{background-color:transparent}.account_info{-webkit-tap-highlight-color:rgba(0,0,0,0);outline:0;padding-bottom:20px;font-size:14px}.account_info.appmsg_account_info{padding-bottom:32px}.account_info .radius_avatar img{background-color:transparent}.share_notice{font-size:16px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.original_panel{background-color:#fafafa}.original_panel:after{border-color:#e6e6e6}.original_panel .original_account_avatar{width:30px;height:30px}.original_panel_tool{font-size:14px}.original_panel_tool a{color:#576b95}.original_panel_content{font-size:17px}.share_media{padding-bottom:30px}.icon_appmsg_tag{display:inline-block;vertical-align:middle;padding:0 .5em;font-size:12px;line-height:1.5;background-color:#c3c3c3;color:#fff;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:70%}.icon_appmsg_tag.primary{color:#3bb638;padding:4px .78em;background-color:rgba(9,187,7,0.08);font-size:12px;border-top-left-radius:.95em 50%;-moz-border-radius-topleft:.95em 50%;-webkit-border-top-left-radius:.95em 50%;border-top-right-radius:.95em 50%;-moz-border-radius-topright:.95em 50%;-webkit-border-top-right-radius:.95em 50%;border-bottom-left-radius:.95em 50%;-moz-border-radius-bottomleft:.95em 50%;-webkit-border-bottom-left-radius:.95em 50%;border-bottom-right-radius:.95em 50%;-moz-border-radius-bottomright:.95em 50%;-webkit-border-bottom-right-radius:.95em 50%}.icon_appmsg_tag.default{border:1px solid rgba(0,0,0,0.1);color:rgba(0,0,0,0.3);background-color:transparent;padding:0 .54em;font-size:15px;line-height:1.3;border-top-left-radius:.67em 50%;-moz-border-radius-topleft:.67em 50%;-webkit-border-top-left-radius:.67em 50%;border-top-right-radius:.67em 50%;-moz-border-radius-topright:.67em 50%;-webkit-border-top-right-radius:.67em 50%;border-bottom-left-radius:.67em 50%;-moz-border-radius-bottomleft:.67em 50%;-webkit-border-bottom-left-radius:.67em 50%;border-bottom-right-radius:.67em 50%;-moz-border-radius-bottomright:.67em 50%;-webkit-border-bottom-right-radius:.67em 50%}.rich_media_meta_list .icon_appmsg_tag.default{margin-top:-1px}.icon_appmsg_tag.title_tag{background-color:#d04b4e}.icon_global_tag_wrp{text-align:right;padding-bottom:12px}.icon_global_tag{background-color:rgba(118,118,118,0.16);color:rgba(0,0,0,0.41);line-height:2.2;border-top-left-radius:1em 50%;-moz-border-radius-topleft:1em 50%;-webkit-border-top-left-radius:1em 50%;border-bottom-left-radius:1em 50%;-moz-border-radius-bottomleft:1em 50%;-webkit-border-bottom-left-radius:1em 50%;padding:0 1.8em 0 1.34em;font-size:12px;margin-right:-24px;display:inline-block;vertical-align:top}.global_plain_btn{display:inline-block;vertical-align:middle;padding:0 1em;line-height:2;font-size:14px;-webkit-tap-highlight-color:rgba(0,0,0,0);border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px}.global_plain_btn.primary{color:#1aad19;border:1px solid currentColor}.global_plain_btn.primary:active{color:rgba(26,173,25,0.6)}.wx_video_context{color:#fefefe;position:relative;background-color:#000}.wx_video_thumb,.wx_video_thumb_primary{position:absolute;left:0;width:100%;height:100%!important;top:0}.wx_video_thumb_primary{-webkit-background-size:cover;background-size:cover;background-position:50% 50%;background-repeat:no-repeat}.wx_video_play_btn{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);margin-top:-2px;font-size:0;border-width:0;background-color:transparent;padding:0;outline:0;z-index:2}.wx_video_play_btn:before{content:" ";display:inline-block;width:0;height:0;border-width:14px 0 14px 25px;border-color:transparent transparent transparent #fff;border-style:dotted dotted dotted solid}.wx_video_mask{position:absolute;top:0;left:0;right:0;bottom:0;z-index:1;background-color:rgba(0,0,0,0.5)}.place_audio_area{min-height:100px;background-color:#fdfdfd;display:block;margin:16px 0}.place_music_area{min-height:68px;background-color:#fdfdfd;display:block;margin:17px 0 16px}.rich_media_empty_extra{background-color:#fafafa}.appmsg_skin_default.rich_media_empty_extra{background-color:#fff}.appmsg_skin_default .rich_media_area_primary{background-color:#fff}.appmsg_skin_default .rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{background-color:#fff}.appmsg_style_default .rich_media_tool{padding-top:15px}.rich_media_title_ios{font-weight:700}.read-more__area{margin:30px 0}.read-more__desc{margin-bottom:10px}.read-more__article__extra{font-size:14px;color:rgba(0,0,0,0.5)}.read-more__article__item{margin-bottom:10px}</style>
+<style>
+        </style>
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/pc435ee6.css">
+<![endif]-->
+
+    </head>
+    <body id="activity-detail" class="zh_CN mm_appmsg  appmsg_skin_default appmsg_style_default">
+        
+<script nonce="1164123428" type="text/javascript">
+    var biz = ""||"MzA4ODc0MTIwMw==";
+    var sn = "" || ""|| "db0b96575e3dac4ace71d9dc0e0e7790";
+    var mid = "" || ""|| "2652531662";
+    var idx = "" || "" || "1";
+    window.__allowLoadResFromMp = true; 
+    
+        
+</script>
+<script nonce="1164123428" type="text/javascript">
+var page_begintime=+new Date,is_rumor="",norumor="";
+1*is_rumor&&!(1*norumor)&&biz&&mid&&(document.referrer&&-1!=document.referrer.indexOf("mp.weixin.qq.com/mp/rumor")||(location.href="http://mp.weixin.qq.com/mp/rumor?action=info&__biz="+biz+"&mid="+mid+"&idx="+idx+"&sn="+sn+"#wechat_redirect"));
+</script>
+<script nonce="1164123428" type="text/javascript">
+var MutationObserver=window.WebKitMutationObserver||window.MutationObserver||window.MozMutationObserver,isDangerSrc=function(t){
+if(t){
+var e=t.match(/http(?:s)?:\/\/([^\/]+?)(\/|$)/);
+if(e&&!/qq\.com(\:8080)?$/.test(e[1])&&!/weishi\.com$/.test(e[1]))return!0;
+}
+return!1;
+},ishttp=0==location.href.indexOf("http://");
+-1==location.href.indexOf("safe=0")&&ishttp&&"function"==typeof MutationObserver&&"mp.weixin.qq.com"==location.host&&(window.__observer_data={
+count:0,
+exec_time:0,
+list:[]
+},window.__observer=new MutationObserver(function(t){
+window.__observer_data.count++;
+var e=new Date,r=[];
+t.forEach(function(t){
+for(var e=t.addedNodes,o=0;o<e.length;o++){
+var n=e[o];
+if("SCRIPT"===n.tagName){
+var i=n.src;
+isDangerSrc(i)&&(window.__observer_data.list.push(i),r.push(n)),!i&&window.__nonce_str&&n.getAttribute("nonce")!=window.__nonce_str&&(window.__observer_data.list.push("inlinescript_without_nonce"),
+r.push(n));
+}
+}
+});
+for(var o=0;o<r.length;o++){
+var n=r[o];
+n.parentNode&&n.parentNode.removeChild(n);
+}
+window.__observer_data.exec_time+=new Date-e;
+}),window.__observer.observe(document,{
+subtree:!0,
+childList:!0
+})),function(){
+if(-1==location.href.indexOf("safe=0")&&Math.random()<.01&&ishttp&&HTMLScriptElement.prototype.__lookupSetter__&&"undefined"!=typeof Object.defineProperty){
+window.__danger_src={
+xmlhttprequest:[],
+script_src:[],
+script_setAttribute:[]
+};
+var t="$"+Math.random();
+HTMLScriptElement.prototype.__old_method_script_src=HTMLScriptElement.prototype.__lookupSetter__("src"),
+HTMLScriptElement.prototype.__defineSetter__("src",function(t){
+t&&isDangerSrc(t)&&window.__danger_src.script_src.push(t),this.__old_method_script_src(t);
+});
+var e="element_setAttribute"+t;
+Object.defineProperty(Element.prototype,e,{
+value:Element.prototype.setAttribute,
+enumerable:!1
+}),Element.prototype.setAttribute=function(t,r){
+"SCRIPT"==this.tagName&&"src"==t&&isDangerSrc(r)&&window.__danger_src.script_setAttribute.push(r),
+this[e](t,r);
+};
+}
+}();
+</script>
+
+        <link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<script nonce="1164123428" type="text/javascript">
+    String.prototype.html = function(encode) {
+        var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&yen;", "¥", "&amp;", "&"];
+        
+		
+		
+		
+		
+        
+        var replaceReverse = ["&", "&amp;", "¥", "&yen;", "<", "&lt;", ">", "&gt;", " ", "&nbsp;", '"', "&quot;", "'", "&#39;"];
+	    var target;
+	    if (encode) {
+	    	target = replaceReverse;
+	    } else {
+	    	target = replace;
+	    }
+        for (var i=0,str=this;i< target.length;i+= 2) {
+             str=str.replace(new RegExp(target[i],'g'),target[i+1]);
+        }
+        return str;
+    };
+
+    window.isInWeixinApp = function() {
+        return /MicroMessenger/.test(navigator.userAgent);
+    };
+
+    window.getQueryFromURL = function(url) {
+        url = url || 'http://qq.com/s?a=b#rd'; 
+        var tmp = url.split('?'),
+            query = (tmp[1] || "").split('#')[0].split('&'),
+            params = {};
+        for (var i=0; i<query.length; i++) {
+            var arg = query[i].split('=');
+            params[arg[0]] = arg[1];
+        }
+        if (params['pass_ticket']) {
+        	params['pass_ticket'] = encodeURIComponent(params['pass_ticket'].html(false).html(false).replace(/\s/g,"+"));
+        }
+        return params;
+    };
+
+    (function() {
+	    var params = getQueryFromURL(location.href);
+        window.uin = params['uin'] || "" || '';
+        window.key = params['key'] || "" || '';
+        window.wxtoken = params['wxtoken'] || '';
+        window.pass_ticket = params['pass_ticket'] || '';
+        window.appmsg_token = "";
+    })();
+
+    function wx_loaderror() {
+        if (location.pathname === '/bizmall/reward') {
+            new Image().src = '/mp/jsreport?key=96&content=reward_res_load_err&r=' + Math.random();
+        }
+    }
+
+</script>
+
+<script nonce="1164123428" type="text/javascript">
+        window.__moon_report_uin = "0";
+            window.no_moon_ls = 0;
+    </script>
+
+        
+<script nonce="1164123428" type="text/javascript">
+    var write_sceen_time = (+new Date()); 
+</script>
+
+<div id="js_article" class="rich_media">
+    
+    <div id="js_top_ad_area" class="top_banner"></div>
+    
+    <div class="rich_media_inner">
+
+        
+        
+        <div id="page-content" class="rich_media_area_primary">
+          <div class="rich_media_area_primary_inner">
+                                    
+                        
+
+            <div id="img-content">
+
+                
+                <h2 class="rich_media_title" id="activity-name">
+                    
+                    
+                    企业级自动化代码安全扫描实战
+
+                                                                                </h2>
+                <div id="meta_content" class="rich_media_meta_list">
+                                                            <span id="copyright_logo" class="rich_media_meta rich_media_meta_text meta_tag_text">原创：</span>
+                                                            <span class="rich_media_meta rich_media_meta_text">
+                                                EnsecTeam
+                                            </span>
+                                        
+                                        <span class="rich_media_meta rich_media_meta_nickname" id="profileBt">
+                      <a href="javascript:void(0);" id="js_name">
+                        百度安全应急响应中心                      </a>
+                      <div id="js_profile_qrcode" class="profile_container" style="display:none;">
+                          <div class="profile_inner">
+                              <strong class="profile_nickname">百度安全应急响应中心</strong>
+                              <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">微信号</label>
+                              <span class="profile_meta_value">baidu_sec</span>
+                              </p>
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">功能介绍</label>
+                              <span class="profile_meta_value">百度安全应急响应中心，简称BSRC，是百度致力于维护互联网健康生态环境，保障百度产品和业务线的信息安全，促进安全专家的合作与交流，而建立的漏洞收集以及应急响应平台。欢迎访问 bsrc.baidu.com 提交百度安全漏洞。</span>
+                              </p>
+                              
+                          </div>
+                          <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">
+                              <i class="profile_arrow arrow_out"></i>
+                              <i class="profile_arrow arrow_in"></i>
+                          </span>
+                      </div>
+                    </span>
+
+
+                    <em id="publish_time" class="rich_media_meta rich_media_meta_text"></em>
+
+
+
+
+
+                </div>
+                
+                
+                
+                
+                                                
+                                                                
+                                
+                
+                <div class="rich_media_content " id="js_content">
+                    
+
+                    
+
+                    
+                    
+                    <section class="_editor"><section style="margin-top: 10px;margin-bottom: 10px;"><section style="border-style: solid;border-width: 1px;border-color: #a9abac;box-sizing: border-box;"><section style="background-image: url(&quot;https://mmbiz.qpic.cn/mmbiz_png/Ljib4So7yuWg7mHaRHicetnTdNL9m1Erv60gGLQ9tKBFFJfHknL7JjnrEI2w8YIMX6nBNicRjdTbgPXdrrba7K7iaA/640?wx_fmt=png&quot;);background-position:0% 0%;background-repeat: repeat;background-size: 100%;background-attachment: scroll;padding: 15px;box-sizing: border-box;font-size: 16px;"><p style="letter-spacing: 2px;"><span style="font-size: 14px;color: #616161;"><strong style="max-width: 100%;color: rgb(68, 68, 68);letter-spacing: 2px;white-space: normal;background-color: rgb(255, 255, 255);box-sizing: border-box !important;overflow-wrap: break-word !important;">转载请注明出处并附上源链接<br style="max-width: 100%;box-sizing: border-box !important;overflow-wrap: break-word !important;"  />版权所有，侵权必究</strong></span></p></section></section></section></section><blockquote style="max-width: 100%;letter-spacing: 0.544px;white-space: normal;background-color: rgb(255, 255, 255);box-sizing: border-box !important;overflow-wrap: break-word !important;"><p style="max-width: 100%;min-height: 1em;text-indent: 24px;box-sizing: border-box !important;overflow-wrap: break-word !important;"><span style="max-width: 100%;color: rgb(136, 136, 136);font-size: 12px;box-sizing: border-box !important;overflow-wrap: break-word !important;">我们专注漏洞检测方向：danenmao、arnoxia、sharker、lSHANG、KeyKernel、BugQueen、zyl、隐形人真忙、oxen（不分先后）</span></p></blockquote><p style="max-width: 100%;min-height: 1em;letter-spacing: 0.544px;white-space: normal;background-color: rgb(255, 255, 255);box-sizing: border-box !important;overflow-wrap: break-word !important;"><br style="max-width: 100%;box-sizing: border-box !important;overflow-wrap: break-word !important;"  /></p><p style="max-width: 100%;min-height: 1em;letter-spacing: 0.544px;white-space: normal;background-color: rgb(255, 255, 255);text-align: left;box-sizing: border-box !important;overflow-wrap: break-word !important;"><span style="max-width: 100%;font-size: 14px;box-sizing: border-box !important;overflow-wrap: break-word !important;">Author<span style="max-width: 100%;font-family: 宋体;">：隐形人真忙、sharker、</span>arnoxia</span></p><hr style="border-style: solid;border-width: 1px 0 0;border-color: rgba(0,0,0,0.1);-webkit-transform-origin: 0 0;-webkit-transform: scale(1, 0.5);transform-origin: 0 0;transform: scale(1, 0.5);"  /><p style="max-width: 100%;min-height: 1em;letter-spacing: 0.544px;white-space: normal;background-color: rgb(255, 255, 255);text-align: left;box-sizing: border-box !important;overflow-wrap: break-word !important;"><span style="max-width: 100%;font-size: 14px;box-sizing: border-box !important;overflow-wrap: break-word !important;"></span><br  /></p><section class="_editor"><section style="text-align: center;margin: 20px 0% 10px;"><section style="display: inline-block;min-width: 10%;vertical-align: top;border-style: solid;border-width: 1px;border-radius: 0px;border-color: rgb(180, 180, 180);padding: 5px;box-sizing: border-box;"><section style="text-align: left;margin-top: -20px;margin-right: 0%;margin-left: 0%;"><section style="display: inline-block;min-width: 10%;vertical-align: top;border-style: solid;border-width: 1px;border-radius: 0px;border-color: rgb(180, 180, 180);padding-top: 5px;padding-right: 5px;padding-left: 5px;box-shadow: rgb(180, 180, 180) 0px 0px 0px;background-color: rgb(241, 241, 241);box-sizing: border-box;"><section style="margin-right: 0%;margin-left: 0%;"><section style="color: rgb(18, 14, 14);"><p style="font-size: 18px;letter-spacing: 2px;">一、概述</p></section></section></section></section></section></section></section><section class="_editor"><p style="text-indent:28px;"><span style="font-size: 14px;"><span style="font-family: 宋体;">源代码安全检测是安全开发流程（</span>SDL<span style="font-family: 宋体;">）中举足轻重的一部分，一般通过人工审计或者自动化工具来进行检测。在大型企业中，业务线情况较为复杂，项目开发往往使用不同的编程语言、开发框架，编码风格也大不相同。此外，存量的代码有上亿行、每天又会有大量的新增代码与项目，这些因素导致在大型企业安全实践中是无法通过人工审计代码的方式来进行检测的。因此，在人力紧张以及工作量庞大的情况下，<strong>最优的选择是依赖自动化检测工具了</strong>。</span></span></p><p style="text-indent:28px;"><span style="font-family: 宋体;font-size: 14px;">本篇文章中，主要介绍我们自主研发的静态代码安全检测平台的整体技术原理、研发部署方案与架构、总体检出效果，以及一些具体生产环境的检出场景。</span></p><p style="text-indent:28px;"><span style="font-family: 宋体;font-size: 14px;"><br  /></span></p><section class="_editor"><section style="text-align: center;margin: 20px 0% 10px;"><section style="display: inline-block;min-width: 10%;vertical-align: top;border-style: solid;border-width: 1px;border-radius: 0px;border-color: rgb(180, 180, 180);padding: 5px;box-sizing: border-box;"><section style="text-align: left;margin-top: -20px;margin-right: 0%;margin-left: 0%;"><section style="display: inline-block;min-width: 10%;vertical-align: top;border-style: solid;border-width: 1px;border-radius: 0px;border-color: rgb(180, 180, 180);padding-top: 5px;padding-right: 5px;padding-left: 5px;box-shadow: rgb(180, 180, 180) 0px 0px 0px;background-color: rgb(241, 241, 241);box-sizing: border-box;"><section style="margin-right: 0%;margin-left: 0%;"><section style="font-size: 15px;color: #120e0e;"><h1><span style="font-family:宋体;">二、自动化代码漏洞挖掘技术</span></h1></section></section></section></section></section></section></section><section class="_editor"><h2><strong><span style="font-size: 14px;">2.1 <span style="font-family: 宋体;">基于污点传播分析的自动化挖掘技术</span></span></strong></h2><p><span style="font-size: 14px;">2.1.1 <strong>检测模型</strong></span></p><p style="text-indent:26px;"><span style="font-family: 宋体;font-size: 14px;">自动化代码安全检测是一种自动化挖掘、发现源代码漏洞的安全检测。我们在人工形式下的代码审计中，通常关注以下三点：</span></p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p><strong><span style="font-size: 14px;font-family: 宋体;">输入源</span></strong></p></li></ul><p style="text-indent:28px;"><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">即用户输入可进入代码逻辑的入口，如</span>PHP<span style="font-size: 14px;font-family: 宋体;">语言中的</span>GPC<span style="font-size: 14px;font-family: 宋体;">，</span>JAVA<span style="font-size: 14px;font-family: 宋体;">语言中的</span>HttpServletRequest<span style="font-size: 14px;font-family: 宋体;">等等。此外，在对框架开发的工程进行代码审计的时候，我们还会关注框架自身封装的一些入口方式，比如</span>SpingMVC<span style="font-size: 14px;font-family: 宋体;">中的</span>@RequestParam<span style="font-size: 14px;font-family: 宋体;">注解。</span></span></p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p><strong><span style="font-size: 14px;font-family: 宋体;">净化操作</span></strong></p></li></ul><p style="margin-left:28px;"><span style="font-family: 宋体;font-size: 14px;">净化操作包括两个部分：系统自带的净化操作函数以及用户自定义的净化操作函数。</span></p><p><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">这些净化操作函数通常可以针对某种漏洞类型将传入的参数进行一定程度的字符串变化，从而消除某种漏洞的威胁。比如</span>htmlspecialchars<span style="font-size: 14px;font-family: 宋体;">函数，被广泛认为是用于消除</span>XSS<span style="font-size: 14px;font-family: 宋体;">漏洞影响的，虽然在某些场景</span>j<span style="font-size: 14px;font-family: 宋体;">下一样可以被绕过。</span></span></p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p><strong><span style="font-size: 14px;font-family: 宋体;">危险函数</span></strong></p></li></ul><p><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">危险函数是触发漏洞的位置，一般按照漏洞类型进行分类别讨论。比如</span>SQL<span style="font-size: 14px;font-family: 宋体;">注入漏洞的</span>PHP<span style="font-size: 14px;font-family: 宋体;">危险函数为</span>mysql_query<span style="font-size: 14px;font-family: 宋体;">，调用该方法执行查询，如果一旦危险参数可控，则会造成</span>SQL<span style="font-size: 14px;font-family: 宋体;">注入漏洞。</span></span></p><p><span style="font-size: 14px;text-indent: 28px;font-family: 宋体;">现在我们来将这三个要素串联起来，实际上每次代码审计判断一个可疑点是否有漏洞（注意这里是指的常规的</span><span style="font-size: 14px;text-indent: 28px;font-family: -apple-system-font, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif;">Web</span><span style="font-size: 14px;text-indent: 28px;font-family: 宋体;">安全漏洞，不包含逻辑漏洞），都是运用的以下模型：</span></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.1388888888888889" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/rNy2iaEEC1mOsNGzE8wxYgnghGV4iaEd2ATia7V44JiabGbrmvUl7VfZaQIX3at0VeVlINDy4HL1Eq6QA9KKSTyCVw/640?wx_fmt=png" data-type="png" data-w="864" style=""  /></p><p><span style="font-size: 14px;"></span><br  /></p></section><p style="text-indent:28px;"><span style="font-size: 14px;"><span style="font-family: 宋体;">本章节就是要讨论如何将上述过程进行自动化，且能够嵌入到互联网公司的</span>SDL<span style="font-family: 宋体;">流程中。</span></span></p><p style="text-indent:28px;"><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">目前市面上有<strong>基于正则表达式和基于语义分析</strong>的两种检测方式，基于正则表达式的传统代码安全扫描方案的缺陷在于其无法很好的“理解”代码的语义，而是仅仅把代码文件当作纯字符串处理。目前较为成功的静态扫描商用产品都运用了语义分析、语法分析等程序分析技术，如开源的</span>Rips<span style="font-size: 14px;font-family: 宋体;">中，使用的是</span>PHP<span style="font-size: 14px;font-family: 宋体;">内置的</span>Tokenizer<span style="font-size: 14px;font-family: 宋体;">系列</span>API<span style="font-size: 14px;font-family: 宋体;">来获取</span>token<span style="font-size: 14px;font-family: 宋体;">流。</span></span></p><p><span style="font-size: 14px;">${RIPS_HOME}/lib/scanner.php<span style="font-size: 14px;font-family: 宋体;">文件：</span></span></p><section data-role="outer" label="Powered by 135editor.com" style="font-size:16px;"><section data-role="outer" label="Powered by 135editor.com"><section class="_135editor" data-tools="135编辑器" data-id="93539" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><section style="text-align: center;margin: 20px 0%;box-sizing: border-box;"><section style="display: inline-block;width: 98%;vertical-align: top;border-color: rgb(119, 122, 122);border-width: 1px;border-radius: 0px;border-style: solid;padding: 10px 15px 15px;box-sizing: border-box;" data-width="98%"><section style="text-align: right;margin: -25px 0% 20px;box-sizing: border-box;transform: translate3d(16px, 0px, 0px);-webkit-transform: translate3d(16px, 0px, 0px);-moz-transform: translate3d(16px, 0px, 0px);-o-transform: translate3d(16px, 0px, 0px);"><section style="display: inline-block;width: 40%;vertical-align: top;background-color: rgb(255, 255, 255);padding-left: 10px;box-sizing: border-box;" data-width="40%"><section style="text-align: left;margin-right: 0%;margin-left: 0%;box-sizing: border-box;"><section style="max-width: 100%;vertical-align: middle;display: inline-block;"><section style="width:10px;height:10px;background:black;"><br  /></section></section></section></section></section><p style="text-align: left;"><span style="font-size: 12px;color: rgb(136, 136, 136);">// tokenizing</span></p><p style="text-align: left;"><span style="font-size: 12px;color: rgb(136, 136, 136);">$tokenizer = newTokenizer($this-&gt;file_pointer);</span></p><p style="text-align: left;"><span style="font-size: 12px;color: rgb(136, 136, 136);">$this-&gt;tokens = $tokenizer-&gt;tokenize(implode('',$this-&gt;lines_pointer));</span></p><p style="text-align: left;"><span style="font-size: 12px;color: rgb(136, 136, 136);">unset($tokenizer);</span></p></section></section></section><section data-role="paragraph" class="_135editor" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><p style="text-indent:28px;"><span style="font-size: 14px;"><span style="font-family: 宋体;">在</span>token<span style="font-family: 宋体;">流的基础上进行分析，可以通过每个节点的解析器代号对代码进行一定程度的理解，如</span>T_ABSTRACT<span style="font-family: 宋体;">表示抽象类、</span>T_AND_EQUAL<span style="font-family: 宋体;">代表赋值运算符。</span></span></p><p><span style="font-size: 14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-size: 14px;font-family: 宋体;">除了在</span>token<span style="font-size: 14px;font-family: 宋体;">流的基础上执行代码分析，市面上越来越多的代码漏洞扫描器选择了从抽象语法树层面入手执行代码分析，相比冗长的</span>token<span style="font-size: 14px;font-family: 宋体;">流，语法树层面的分析显得层次分明、容易理解，这对于平台开发人员来说是个好消息。</span></span></p><p><span style="font-size: 14px;"><span style="font-size: 14px;font-family: Calibri, sans-serif;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-size: 14px;font-family: 宋体;">通过更加高级的语义、语法分析，我们可以从待分析的代码中获取更多的信息，通过这些信息，就能够大大提高漏洞检测的准确度，这也是为什么目前绝大多数商用软件都选择在语义、语法分析的基础上执行代码安全检测。</span></span></p><p><br  /></p><h3><span style="font-size: 14px;"><strong>2.1.2 <span style="font-family: 宋体;">系统层次</span></strong></span></h3><p><br  /></p></section></section></section><p><span style="font-size: 14px;font-family: 宋体;"></span></p><p style="text-indent:26px;"><span style="font-size: 14px;"><span style="font-family: 宋体;">接下来，我们将会以</span>PHP<span style="font-family: 宋体;">语言为例，介绍一个自动化白盒扫描系统中所需要的各个方面，以及给出从静态分析层面构建一个自动化代码安全检测系统的思路。</span></span></p><p style="text-indent:26px;"><span style="font-family: 宋体;font-size: 14px;">我们先有一个整体的认识，一个基于程序静态分析的自动化审计系统大致应该有以下几个部分：</span></p><p><strong><span style="font-size: 14px;">（1）<span style="font-size: 14px;font-family: 宋体;">静态分析层</span></span></strong></p><p style="text-indent:26px;"><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">静态分析层负责对代码文件进行“理解”，完成语义、语法层面的分析，比如生成抽象语法树、生成程序的控制流图等基础的分析结构。同时，针对</span>PHP<span style="font-size: 14px;font-family: 宋体;">语言的一些变量类型进行分类抽象，用于后续的数据流分析中。</span></span></p><p><strong><span style="font-size: 14px;">（2）<span style="font-size: 14px;font-family: 宋体;">数据流分析层</span></span></strong></p><p style="text-indent:26px;"><span style="font-family: 宋体;font-size: 14px;">数据流分析主要负责收集代码中的变量传递流向，同时收集变量的净化情况。数据流分析是污点传播分析的基础，其收集的信息越全面越准确，后续的污点传播分析才会准确。</span></p><p><strong><span style="font-size: 14px;">（3）<span style="font-size: 14px;font-family: 宋体;">污点分析层</span></span></strong></p><p style="text-indent:26px;"><span style="font-family: 宋体;font-size: 14px;">污点传播分析是依照数据流分析过程获取的一系列程序信息来进行漏洞判定的模块。</span></p><p><strong><span style="font-size: 14px;">（4）<span style="font-size: 14px;font-family: 宋体;">其他分析层</span></span></strong></p><p style="text-indent:26px;"><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">其他分析包含针对</span>PHP<span style="font-size: 14px;font-family: 宋体;">多个代码文件的联合检测、结合程序的上下文信息进行更加细化的漏洞判定分析、过程内和过程间分析等等。</span></span></p><p style="text-indent:26px;"><span style="font-size: 14px;font-family: 宋体;"><br  /></span></p><section class="_editor"><p><span style="background-color: rgb(214, 214, 214);"><strong><span style="background-color: rgb(214, 214, 214);font-size: 14px;">2.1.2.1<span style="background-color: rgb(214, 214, 214);font-family: 宋体;">语义语法分析</span></span></strong></span></p></section></section><p style="text-indent:28px;"><span style="font-size: 14px;"><span style="font-family: 宋体;">抽象语法树（</span>Abstract syntaxtree<span style="font-family: 宋体;">，</span> AST<span style="font-family: 宋体;">）是将源代码按照一定的语法结构，并且将一些冗余的细节抽象为树状结构进行表示。市面上有很多语义语法分析工具，如</span>ANTLR<span style="font-family: 宋体;">，</span>Yacc<span style="font-family: 宋体;">，</span>Lex<span style="font-family: 宋体;">，</span>PHP-Parser<span style="font-family: 宋体;">等等。</span></span></p><p><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">&nbsp; &nbsp; &nbsp;这里着重介绍一下</span><span style="font-size: 14px;font-family: Calibri, sans-serif;">PHP-Parser</span><span style="font-size: 14px;font-family: 宋体;">（</span><span style="font-size: 14px;font-family: Calibri, sans-serif;">https://github.com/nikic/PHP-Parser</span><span style="font-size: 14px;font-family: 宋体;">），作为</span><span style="font-size: 14px;font-family: Calibri, sans-serif;">PHP</span><span style="font-size: 14px;font-family: 宋体;">语言的语法分析工具，其本身就是使用</span><span style="font-size: 14px;font-family: Calibri, sans-serif;">PHP</span><span style="font-size: 14px;font-family: 宋体;">语言进行实现的，且支持节点遍历等功能。使用</span><span style="font-size: 14px;font-family: Calibri, sans-serif;">composer</span><span style="font-size: 14px;font-family: 宋体;">可以很方便地安装</span><span style="font-size: 14px;font-family: Calibri, sans-serif;">PHP-Parser</span><span style="font-size: 14px;font-family: 宋体;">：</span></span></p><section data-role="outer" label="Powered by 135editor.com" style="font-size:16px;"><section data-role="outer" label="Powered by 135editor.com"><section class="_135editor" data-tools="135编辑器" data-id="93539" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><section style="text-align: center;margin: 20px 0%;box-sizing: border-box;"><section style="display: inline-block;width: 98%;vertical-align: top;border-color: rgb(119, 122, 122);border-width: 1px;border-radius: 0px;border-style: solid;padding: 10px 15px 15px;box-sizing: border-box;" data-width="98%"><section style="text-align: right;margin: -25px 0% 20px;box-sizing: border-box;transform: translate3d(16px, 0px, 0px);-webkit-transform: translate3d(16px, 0px, 0px);-moz-transform: translate3d(16px, 0px, 0px);-o-transform: translate3d(16px, 0px, 0px);"><section style="display: inline-block;width: 40%;vertical-align: top;background-color: rgb(255, 255, 255);padding-left: 10px;box-sizing: border-box;" data-width="40%"><section style="text-align: left;margin-right: 0%;margin-left: 0%;box-sizing: border-box;"><section style="max-width: 100%;vertical-align: middle;display: inline-block;"><section style="width:10px;height:10px;background:black;"></section></section></section></section></section><section style="box-sizing: border-box;"><section style="text-align: justify;font-size: 14px;line-height: 1.75em;color:#3f3f3f;letter-spacing: 1.5px;" class="135brush"><p><span style="font-size: 12px;color: rgb(136, 136, 136);">// <span style="color: rgb(136, 136, 136);font-size: 12px;font-family: 宋体;">安装</span>composer<span style="color: rgb(136, 136, 136);font-size: 12px;font-family: 宋体;">：</span></span></p><p><span style="font-size: 12px;color: rgb(136, 136, 136);">curl&nbsp;-s&nbsp;http://getcomposer.org/installer&nbsp;|&nbsp;php&nbsp;&nbsp;</span></p><p><span style="font-size: 12px;color: rgb(136, 136, 136);">// <span style="color: rgb(136, 136, 136);font-size: 12px;font-family: 宋体;">安装</span>PHP-Parser<span style="color: rgb(136, 136, 136);font-size: 12px;font-family: 宋体;">：</span></span></p><p><span style="font-size: 12px;color: rgb(136, 136, 136);">php&nbsp;composer.phar&nbsp;require&nbsp;nikic/php-parser</span></p></section></section></section></section></section><section data-role="paragraph" class="_135editor" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><p><span style="font-family: 宋体;font-size: 14px;">具体使用可以参考官方文档。</span></p><p><span style="font-family: 宋体;font-size: 14px;"><br  /></span></p><h4><span style="font-size: 14px;background-color: rgb(214, 214, 214);"><strong>2.1.2.2 <span style="font-size: 14px;background-color: rgb(214, 214, 214);font-family: 宋体;">控制流分析</span></strong></span></h4><p><span style="font-family:宋体;">&nbsp; &nbsp; &nbsp; </span><span style="font-size: 14px;font-family: 宋体;">仅仅在抽象语法树的基础上进行分析是不够的，因为抽象语法树无法很好的获取程序中流程控制语句的信息。比如分析以下示例代码时，如果不考虑程序中的分支判断，则很容易发生误判：</span></p><section class="_135editor" data-tools="135编辑器" data-id="93539" style="font-size: 16px;white-space: normal;border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><section style="margin-top: 20px;margin-bottom: 20px;text-align: center;box-sizing: border-box;"><section data-width="98%" style="padding: 10px 15px 15px;display: inline-block;width: 545.227px;vertical-align: top;border-color: rgb(119, 122, 122);border-width: 1px;border-radius: 0px;border-style: solid;box-sizing: border-box;"><section style="margin-top: -25px;margin-bottom: 20px;text-align: right;box-sizing: border-box;transform: translate3d(16px, 0px, 0px);"><section data-width="40%" style="padding-left: 10px;display: inline-block;width: 205.284px;vertical-align: top;background-color: rgb(255, 255, 255);box-sizing: border-box;"><section style="text-align: left;box-sizing: border-box;"><section style="max-width: 100%;vertical-align: middle;display: inline-block;"><section style="width: 10px;height: 10px;background: black;"></section></section></section></section></section><section style="box-sizing: border-box;"><section class="135brush" style="text-align: justify;font-size: 14px;line-height: 1.75em;color: rgb(63, 63, 63);letter-spacing: 1.5px;"><p><span style="font-size: 12px;color: rgb(136, 136, 136);"></span></p><p><span style="font-size: 12px;color: rgb(136, 136, 136);">&lt;?php</span></p><p><span style="font-size: 12px;color: rgb(136, 136, 136);">$username = $_GET['username'] ;</span></p><p><span style="font-size: 12px;color: rgb(136, 136, 136);">$data = $_GET['data'] ;</span></p><p><span style="font-size: 12px;color: rgb(136, 136, 136);">if($username == 'alice'){</span></p><p><span style="font-size: 12px;color: rgb(136, 136, 136);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $data= "[data]" . $data ;</span></p><p><span style="font-size: 12px;color: rgb(136, 136, 136);">}else{</span></p><p><span style="font-size: 12px;color: rgb(136, 136, 136);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $data= intval($data) ;</span></p><p><span style="font-size: 12px;color: rgb(136, 136, 136);">}</span></p><p><span style="font-size: 12px;color: rgb(136, 136, 136);">eval($data) ;</span></p><p><br  /></p></section></section></section></section></section><p><span style="font-family:宋体;">&nbsp; &nbsp; &nbsp;</span><span style="font-size: 14px;"><span style="font-family: 宋体;"> 当分析到程序调用了</span>eval<span style="font-family: 宋体;">函数，则向上回溯</span>$data<span style="font-family: 宋体;">变量，结果发现在</span>else<span style="font-family: 宋体;">分支中调用了</span>intval<span style="font-family: 宋体;">，如果不考虑控制流程，即不考虑其他的代码分支，这时审计程序就会认为该代码片段不存在问题直接返回，显然这是错误。因为在</span>if<span style="font-family: 宋体;">分支中，出现了另外的赋值，如果只进入这个</span>if<span style="font-family: 宋体;">分支，那么就会触发代码注入漏洞。</span></span></p><p><span style="font-size: 14px;"><span style="font-size: 14px;font-family: Calibri, sans-serif;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-size: 14px;font-family: 宋体;">因此我们需要在抽象语法树的基础上构建控制流程图，将</span><span style="font-size: 14px;font-family: Calibri, sans-serif;">PHP</span><span style="font-size: 14px;font-family: 宋体;">中的分支跳转进行整理，以基本块的形式编排抽象语法树的节点。比如针对上文的代码片段生成控制流图：</span></span></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.6149659863945578" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/rNy2iaEEC1mOsNGzE8wxYgnghGV4iaEd2AmmyZwVcshSys83lG9wQogibQqkFbTlyAfztlHVfK3gIfcssxlkrAOtg/640?wx_fmt=png" data-type="png" data-w="735" style="width: 444px;height: 273px;"  /></p><p><br  /></p></section></section></section><p style="max-width: 100%;min-height: 1em;letter-spacing: 0.544px;white-space: normal;background-color: rgb(255, 255, 255);text-align: left;box-sizing: border-box !important;overflow-wrap: break-word !important;"><span style="max-width: 100%;font-size: 14px;box-sizing: border-box !important;overflow-wrap: break-word !important;"></span></p><p style="text-indent:28px;"><span style="font-family: 宋体;font-size: 14px;">在程序分析的时候，必须要对每个分支进行独立的分析。</span></p><p><span style="font-size: 14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-size: 14px;font-family: 宋体;">生成新基本块的依据是一些控制流程语句，这些语法结构都是固定，大致有以下几种：</span></span></p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p><strong><span style="font-size: 14px;font-family: 宋体;">条件分支</span></strong></p></li></ul><p style="text-indent:0;"><span style="font-size: 14px;">If<span style="font-size: 14px;font-family: 宋体;">语句、</span>Switch<span style="font-size: 14px;font-family: 宋体;">语句、</span>Try catch<span style="font-size: 14px;font-family: 宋体;">块、三目运算符、</span>Or<span style="font-size: 14px;font-family: 宋体;">语句</span></span></p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p><strong><span style="font-size: 14px;font-family: 宋体;">循环结构</span></strong></p></li></ul><p style="margin-left:20px;text-indent:28px;"><span style="font-size: 14px;">For<span style="font-size: 14px;font-family: 宋体;">语句、</span>Foreach<span style="font-size: 14px;font-family: 宋体;">语句、</span>While<span style="font-size: 14px;font-family: 宋体;">语句、</span>Do…While<span style="font-size: 14px;font-family: 宋体;">语句</span></span></p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p><strong><span style="font-size: 14px;font-family: 宋体;">终止结构</span></strong></p></li></ul><p style="margin-left:20px;text-indent:28px;"><span style="font-size: 14px;">Break<span style="font-size: 14px;font-family: 宋体;">、</span>Continue<span style="font-size: 14px;font-family: 宋体;">、</span>Throw</span></p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p><strong><span style="font-size: 14px;font-family: 宋体;">返回结构</span></strong></p></li></ul><p style="text-indent:49px;"><span style="font-size: 14px;">Return</span></p><p style="text-indent:28px;"><span style="font-family: 宋体;font-size: 14px;">生成控制流图的方法是当遇到条件分支和循环结构时，需要生成一个新的基本块，将这些代码块中的语法树节点插入进去；当遇到终止结构时，停止当前基本块的生成；当遇到返回语句时，停止图的构建。</span></p><p style="text-indent:28px;"><span style="font-family: 宋体;font-size: 14px;"><br  /></span></p><section class="_editor"><h4><span style="background-color: rgb(214, 214, 214);"><strong><span style="background-color: rgb(214, 214, 214);font-size: 14px;">2.1.2.3 <span style="background-color: rgb(214, 214, 214);font-family: 宋体;">抽象内置函数</span></span></strong></span></h4><p><span style="font-size:14px;font-family:宋体;">&nbsp; &nbsp; &nbsp; 在任何代码中，都会有</span><span style="font-size:14px;font-family:Calibri,sans-serif;">PHP</span><span style="font-size:14px;font-family:宋体;">内置函数的调用，如果不对这些内置函数进行处理，或者说自动化分析不“理解”这些函数的含义和效果，可能会造成大量的误报，比如分析下面的代码片段：</span></p></section><section class="_135editor" data-tools="135编辑器" data-id="93539" style="font-size: 16px;white-space: normal;border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><section style="margin-top: 20px;margin-bottom: 20px;text-align: center;box-sizing: border-box;"><section data-width="98%" style="padding: 10px 15px 15px;display: inline-block;width: 545.227px;vertical-align: top;border-color: rgb(119, 122, 122);border-width: 1px;border-radius: 0px;border-style: solid;box-sizing: border-box;"><section style="margin-top: -25px;margin-bottom: 20px;text-align: right;box-sizing: border-box;transform: translate3d(16px, 0px, 0px);"><section data-width="40%" style="padding-left: 10px;display: inline-block;width: 205.284px;vertical-align: top;background-color: rgb(255, 255, 255);box-sizing: border-box;"><section style="text-align: left;box-sizing: border-box;"><section style="max-width: 100%;vertical-align: middle;display: inline-block;"><section style="width: 10px;height: 10px;background: black;"><br  /></section></section></section></section></section><section style="box-sizing: border-box;"><section class="135brush" style="text-align: justify;font-size: 14px;line-height: 1.75em;color: rgb(63, 63, 63);letter-spacing: 1.5px;"><p><span style="font-size: 12px;color: rgb(136, 136, 136);">&lt;?php</span></p><p><span style="font-size: 12px;color: rgb(136, 136, 136);">$comm = “touch ” ;</span></p><p><span style="font-size: 12px;color: rgb(136, 136, 136);">$name = $_GET[‘name’] ;</span></p><p><span style="font-size: 12px;color: rgb(136, 136, 136);">$hash = md5 ($name) ;</span></p><p><span style="font-size: 12px;color: rgb(136, 136, 136);">system($comm . $hash) ;</span></p></section></section></section></section></section><p style="text-indent:28px;"><span style="font-size: 14px;"><span style="font-family: 宋体;">由于</span>PHP<span style="font-family: 宋体;">内置函数众多，每个函数都人工进行处理是不现实的，最好的方式是对这些内置函数进行分类。按照功能和对程序分析的影响，大致可分为：</span></span></p><p><span style="font-size: 14px;">（1）<strong><span style="font-size: 14px;font-family: 宋体;">返回常量值</span></strong></span></p><p style="margin-left:28px;"><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">比如</span>strlen()<span style="font-size: 14px;font-family: 宋体;">或者</span>md5()<span style="font-size: 14px;font-family: 宋体;">，一旦参数进入这些内置函数将会返回常量类型的结</span></span></p><p><span style="font-family: 宋体;font-size: 14px;">果，比如返回纯数字、布尔值、纯字符串，这种处理需要考虑为针对参数的一种净化方法。</span></p><p><span style="font-size: 14px;">（2）<strong><span style="font-size: 14px;font-family: 宋体;">返回参数的一部分</span></strong></span></p><p style="text-indent:28px;"><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">某些内置函数如</span>trim() <span style="font-size: 14px;font-family: 宋体;">或者</span> array_keys() <span style="font-size: 14px;font-family: 宋体;">会将参数的一部分或者全部进行返回。针对返回值，该分类可以分为返回</span>array<span style="font-size: 14px;font-family: 宋体;">、返回</span>array<span style="font-size: 14px;font-family: 宋体;">的单个元素、返回</span>string<span style="font-size: 14px;font-family: 宋体;">类型。</span></span></p><p><span style="font-size: 14px;">（3）<strong><span style="font-size: 14px;font-family: 宋体;">净化操作</span></strong></span></p><p style="margin-left:28px;"><span style="font-size: 14px;"><span style="font-family: 宋体;">针对某种漏洞类型进行参数净化操作的内置函数，比较典型的有</span>addslashes<span style="font-family: 宋体;">，</span></span></p><p><span style="font-size: 14px;">htmlspecialchars<span style="font-size: 14px;font-family: 宋体;">等函数。</span></span></p><p><span style="font-size: 14px;">（4）<strong><span style="font-size: 14px;font-family: 宋体;">字符串切割变换</span></strong></span></p><p style="text-indent:28px;"><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">比如内置函数</span>substr()<span style="font-size: 14px;font-family: 宋体;">或者</span>chunk_split()<span style="font-size: 14px;font-family: 宋体;">，这些内置函数会返回传入参数的一个子串。由于这种操作会破坏参数原有的结构，如果不追求绝对精确分析的话，实际上完全可以将这类函数的调用视为某种程度的净化处理。</span></span></p><p><span style="font-size: 14px;">（5）<strong><span style="font-size: 14px;font-family: 宋体;">编码和解码函数</span></strong></span></p><ul style="list-style-type: disc;" class=" list-paddingleft-2"><li><p><span style="font-family: 宋体;font-size: 14px;">编码函数</span></p></li></ul><p style="text-indent:28px;"><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">如</span>urlencode()<span style="font-size: 14px;font-family: 宋体;">或者</span>base64_encode()<span style="font-size: 14px;font-family: 宋体;">等执行某种编码操作的内置函数。</span></span></p><ul style="list-style-type: disc;" class=" list-paddingleft-2"><li><p><span style="font-family: 宋体;font-size: 14px;">解码函数</span></p></li></ul><p style="text-indent:28px;"><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">如</span>urldecode()<span style="font-size: 14px;font-family: 宋体;">或者</span>base64_decode()<span style="font-size: 14px;font-family: 宋体;">等执行某种解码操作的内置函数。注意，如果在分析中遇到了解码函数，通常认为该函数调用前参数所受到的一切净化都是无效的，如果直接进入危险函数就会触发漏洞。</span></span></p><p><span style="font-size: 14px;">（6）<strong><span style="font-size: 14px;font-family: 宋体;">回调函数</span></strong></span></p><p style="text-indent:28px;"><span style="font-size: 14px;"><span style="font-family: 宋体;">一些内置函数会执行参数指定的其他函数，比如</span>array_walk(),array_map(), set_error_handler()<span style="font-family: 宋体;">。如果标识其他函数名的参数可以直接获取到，那么将该调用信息进行进一步分析，比如以下代码片段</span>:</span></p><section class="_135editor" data-tools="135编辑器" data-id="93539" style="white-space: normal;font-size: 16px;border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><section style="margin-top: 20px;margin-bottom: 20px;text-align: center;box-sizing: border-box;"><section data-width="98%" style="padding: 10px 15px 15px;display: inline-block;width: 545.227px;vertical-align: top;border-color: rgb(119, 122, 122);border-width: 1px;border-radius: 0px;border-style: solid;box-sizing: border-box;"><section style="margin-top: -25px;margin-bottom: 20px;text-align: right;box-sizing: border-box;transform: translate3d(16px, 0px, 0px);"><section data-width="40%" style="padding-left: 10px;display: inline-block;width: 205.284px;vertical-align: top;background-color: rgb(255, 255, 255);box-sizing: border-box;"><section style="text-align: left;box-sizing: border-box;"><section style="max-width: 100%;vertical-align: middle;display: inline-block;"><section style="width: 10px;height: 10px;background: black;"><br  /></section></section></section></section></section><section style="box-sizing: border-box;"><section class="135brush" style="text-align: justify;font-size: 14px;line-height: 1.75em;color: rgb(63, 63, 63);letter-spacing: 1.5px;"><p><span style="font-size: 12px;color: rgb(136, 136, 136);">$NAMES = array(</span></p><p style="text-indent:0;"><span style="font-size: 12px;color: rgb(136, 136, 136);">‘1’=&gt; $_GET[‘1’],</span></p><p style="text-indent:0;"><span style="font-size: 12px;color: rgb(136, 136, 136);">‘2’=&gt; $_GET[‘2’]</span></p><p><span style="font-size: 12px;color: rgb(136, 136, 136);">) ;</span></p><p><span style="font-size: 12px;color: rgb(136, 136, 136);">$arr = array_map(‘intval’, $NAMES) ;</span></p><p><span style="font-size: 12px;color: rgb(136, 136, 136);">system($arr[‘1’]) ;</span></p><p><br  /></p></section></section></section></section></section><p style="text-indent:24px;"><span style="font-size: 14px;"><span style="font-family: 宋体;">第五行代码调用了</span>array_map<span style="font-family: 宋体;">函数，并且数组中每个元素都进行了</span>intval<span style="font-family: 宋体;">从操作，因此需要收集这里的一个净化信息，为后续污点分析提供依据。</span></span></p><p><span style="font-size: 14px;">（7）<strong><span style="font-size: 14px;font-variant-numeric: normal;font-variant-east-asian: normal;font-stretch: normal;line-height: normal;">&nbsp;</span><span style="font-size: 14px;font-family: 宋体;">获取文件句柄</span></strong></span></p><p style="text-indent:28px;"><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">一些文件操作类型的危险函数的文件参数是以</span>resource<span style="font-size: 14px;font-family: 宋体;">传递进来的，因此如果仅仅去判断是否受污染是不可行的，所以需要对获取文件句柄的函数进行分类。</span></span></p><p><span style="font-size: 14px;">（8）<strong><span style="font-size: 14px;font-family: 宋体;">白名单机制</span></strong></span></p><p style="margin-left:28px;"><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">在条件分支中遇到这些函数如</span>in_array,array_key_exists<span style="font-size: 14px;font-family: 宋体;">等函数，可以默认是</span></span></p><p><span style="font-family: 宋体;font-size: 14px;">一种基于白名单的净化处理。</span></p><p><span style="font-size: 14px;">（9）<strong><span style="font-size: 14px;font-family: 宋体;">正则表达式校验</span></strong></span></p><p style="margin-left:28px;"><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">比如</span>preg_match<span style="font-size: 14px;font-family: 宋体;">和</span>ereg<span style="font-size: 14px;font-family: 宋体;">函数，这里不可能去分析具体的正则表达式，因此</span></span></p><p><span style="font-family: 宋体;font-size: 14px;">为了减少误报，可以认为调用这些函数进行校验都是有效的过滤。当然如果选择牺牲误报而减少漏报，也可以认为这些函数的调用是不起作用的，可以直接报警。</span></p><p><span style="font-size: 14px;">（10）<strong><span style="font-size: 14px;font-family: 宋体;">其他函数</span></strong></span></p><p><span style="font-family: 宋体;font-size: 14px;">&nbsp; &nbsp; &nbsp; 其他不属于上述类别但是需要额外分析的内置函数。</span></p><p><span style="font-family: 宋体;font-size: 14px;"><br  /></span></p><h4><span style="background-color: rgb(214, 214, 214);"><strong><span style="background-color: rgb(214, 214, 214);font-size: 14px;">2.1.2.4 <span style="background-color: rgb(214, 214, 214);font-size: 14px;font-family: 宋体;">数据流分析</span></span></strong></span></h4><p style="text-indent:28px;"><span style="font-family: 宋体;font-size: 14px;">数据流分析层所做的工作是收集程序中的变量值传递、特殊函数调用等信息。可以理解为数据流分析就是一个综合的程序信息搜集，目的是为了给后续的污点分析提供详细的参考信息。</span></p><p style="text-indent:28px;"><span style="font-family: 宋体;font-size: 14px;">对于数据流向的识别和搜集，应该考虑到以下两种情况：</span></p><ul class=" list-paddingleft-2" style="list-style-type: circle;"><li><p><span style="font-size: 14px;font-family: 宋体;">针对代码中的赋值语句</span></p></li><li><p><span style="font-size: 14px;">PHP<span style="font-size: 14px;font-family: 宋体;">内置函数导致的隐藏数据流，比如调用</span>list<span style="font-size: 14px;font-family: 宋体;">、</span>func_get_args<span style="font-size: 14px;font-family: 宋体;">等函数。</span></span></p></li></ul><p style="margin-left:28px;"><span style="font-family: 宋体;font-size: 14px;">执行分析的流程图如下：</span></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="1.2457142857142858" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/rNy2iaEEC1mOsNGzE8wxYgnghGV4iaEd2AR0ibZlNZ6y7M4mn0ELauTMTQhjCyaDI2sTXQjopkicIwkOEIgianM746A/640?wx_fmt=png" data-type="png" data-w="700" style="width: 336px;height: 418px;"  /></p><p style="margin-left:28px;"><span style="font-family: 宋体;font-size: 14px;"></span></p><h4><span style="background-color: rgb(214, 214, 214);font-size: 14px;"><strong>2.1.2.5 <span style="background-color: rgb(214, 214, 214);font-family: 宋体;">污点传播分析</span></strong></span></h4><p style="text-indent:28px;"><span style="font-family: 宋体;font-size: 14px;">污点分析过程是在程序分析中，一旦发现危险函数的调用则启动分析。对传入危险函数的危险参数进行分析，结合数据流分析时该危险参数的一些程序信息，如净化信息、内置函数处理信息等进行判断，如果一旦发现该变量可以被用户控制并且没有进行有效过滤，则判定为漏洞。</span></p><ul class=" list-paddingleft-2" style="list-style-type: circle;"><li><h5><strong><span style="font-size: 14px;font-family: 宋体;">定义危险函数</span></strong></h5></li></ul><p><span style="font-size: 14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-size: 14px;font-family: 宋体;">首先我们来考虑如何定义危险函数。在人工代码审计的时候，我们会按照漏洞的类型着重关注某一批函数，比如</span>mysql_query, file_get_contents, eval<span style="font-size: 14px;font-family: 宋体;">等等。然后我们会找到这些函数的某些参数，然后判断这些参数是否经过程序处理后还是会存在漏洞。因此，污点分析时，只需要关注危险函数的名称和危险参数的位置即可，配置示例如下：</span></span></p><section class="_135editor" data-tools="135编辑器" data-id="93539" style="white-space: normal;font-size: 16px;border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><section style="margin-top: 20px;margin-bottom: 20px;text-align: center;box-sizing: border-box;"><section data-width="98%" style="padding: 10px 15px 15px;display: inline-block;width: 545.227px;vertical-align: top;border-color: rgb(119, 122, 122);border-width: 1px;border-radius: 0px;border-style: solid;box-sizing: border-box;"><section style="margin-top: -25px;margin-bottom: 20px;text-align: right;box-sizing: border-box;transform: translate3d(16px, 0px, 0px);"><section data-width="40%" style="padding-left: 10px;display: inline-block;width: 205.284px;vertical-align: top;background-color: rgb(255, 255, 255);box-sizing: border-box;"><section style="text-align: left;box-sizing: border-box;"><section style="max-width: 100%;vertical-align: middle;display: inline-block;"><section style="width: 10px;height: 10px;background: black;"><br  /></section></section></section></section></section><section style="box-sizing: border-box;"><section class="135brush" style="text-align: justify;font-size: 14px;line-height: 1.75em;color: rgb(63, 63, 63);letter-spacing: 1.5px;"><p><span style="font-size: 12px;color: rgb(136, 136, 136);">print &nbsp;=&gt; &nbsp;array(array(1),$F_SECURING_XSS)</span></p></section></section></section></section></section><p style="text-indent:28px;"><span style="font-size: 14px;"><span style="font-family: 宋体;">该配置的含义是：</span>print<span style="font-family: 宋体;">函数是一个可能引发</span>XSS<span style="font-family: 宋体;">漏洞的危险函数，并且其参数</span>1<span style="font-family: 宋体;">是一个危险参数。</span></span></p><p style="text-indent:28px;"><span style="font-size: 14px;font-family: 宋体;"><br  /></span></p><ul class=" list-paddingleft-2" style="list-style-type: circle;"><li><h5><span style="font-size: 14px;font-family: 宋体;"><strong>定义净化操作</strong></span></h5></li></ul><p><span style="font-size: 14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-size: 14px;font-family: 宋体;">定义一个参数是否受到了有效净化是污点分析中比较重要的环节，这关系到后续漏洞判定的准确性。根据人工代码审计的经验，我们可以抽象总结出一个</span>PHP<span style="font-size: 14px;font-family: 宋体;">实现的净化操作可以有以下方式：</span></span></p><p><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;"><span style="font-size: 14px;">（1）</span>使用</span>PHP<span style="font-size: 14px;font-family: 宋体;">内置的或者用户自定义的净化函数执行净化，比如调用</span>addslashes<span style="font-size: 14px;font-family: 宋体;">等函数</span></span></p><p><span style="font-size: 14px;">（2）<span style="font-size: 14px;font-family: 宋体;">使用</span>PHP<span style="font-size: 14px;font-family: 宋体;">内置的一些校验类型的函数，比如类型判断、正则表达式校验、字符串切割、回调函数以及编码解码等操作。这些操作都会进行一定程度的净化，如果在实践中，我们期望有较高的精确度，则可以认为凡是调用这些函数，就认为是有效的净化；如果我们期望降低漏报率，则可以忽视这些内置函数影响或者执行更加细致的分析。</span></span></p><p><span style="font-size: 14px;font-family: 宋体;">（</span><span style="font-size: 14px;font-family: -apple-system-font, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif;">3</span><span style="font-size: 14px;font-family: 宋体;">）使用逻辑判断进行校验，如使用了</span><span style="font-size: 14px;font-family: -apple-system-font, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif;">==</span><span style="font-size: 14px;font-family: 宋体;">或者</span><span style="font-size: 14px;font-family: -apple-system-font, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif;">===</span><span style="font-size: 14px;font-family: 宋体;">与某些静态常量进行了比较操作，则认定为该变量接受了净化。</span></p><p><span style="font-size: 14px;font-family: 宋体;"><br  /></span></p><ul class=" list-paddingleft-2" style="list-style-type: circle;"><li><h5><strong><span style="font-family: 宋体;font-size: 14px;">执行污点分析</span></strong></h5></li></ul><p><span style="font-size: 14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-size: 14px;font-family: 宋体;">有了上述基础，我们可以很清晰地执行污点分析判断漏洞了，大致的过程如下：</span></span></p><p><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">（</span>1<span style="font-size: 14px;font-family: 宋体;">）在执行数据流分析过程中，如果发现了敏感函数的调用，则启动污点分析。</span></span></p><p><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">（</span>2<span style="font-size: 14px;font-family: 宋体;">）查询危险函数配置列表，获取到需要判断的危险参数列表。</span></span></p><p><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">（</span>3<span style="font-size: 14px;font-family: 宋体;">）向上找到连接的基本块信息，关注一个基本块内所有的数据流记录，找到数据流记录右边的值，提取出该变量。</span></span></p><p><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">（</span>4<span style="font-size: 14px;font-family: 宋体;">）如果该变量进入到了内置函数，则按照之前章节中整理的内置函数的作用判断是否受到了有效的净化。</span></span></p><p><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">（</span>5<span style="font-size: 14px;font-family: 宋体;">）当遍历时找不到基本块中相关的赋值语句，或者赋值的值为字符串、数字或者布尔值，则停止污点分析。</span></span></p><p><span style="font-size: 14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-size: 14px;font-family: 宋体;">此外，我们需要格外注意编码和解码的影响，：</span></span></p><p><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">（</span>1<span style="font-size: 14px;font-family: 宋体;">）一个回溯变量被进行解码操作后（</span>base64/hex/zlib…<span style="font-size: 14px;font-family: 宋体;">），该变量向上的所有净化操作都可以认为是无效的。</span></span></p><p><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">（</span>2<span style="font-size: 14px;font-family: 宋体;">）如果一个变量被编码和解码多次，则进行抵消分析操作，并由抵消之后的结果进行判断。</span></span></p><p><span style="font-size: 14px;font-family: 宋体;"><br  /></span></p><h3><strong><span style="font-size: 14px;">2.1.3 <span style="font-family: 宋体;">其他分析层</span></span></strong></h3><p><span style="font-family:宋体;"><br  /></span></p><p><span style="font-family: 宋体;font-size: 14px;">&nbsp; &nbsp; &nbsp; 在整个语法树遍历、控制流图生成的过程中，可能还会伴随着以下几种情况的细致分析：</span></p><p><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">（</span>1<span style="font-size: 14px;font-family: 宋体;">）过程内、过程间分析</span></span></p><p><span style="font-size: 14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-size: 14px;font-family: 宋体;">当我们分析代码时，会遇到方法内部的变量传递与程序信息搜集；或者会遇到一个变量在多个方法之间通过参数进行传递。支持过程内、过程间分析的重点是作用域之间的对应和转换。此外，当我们遇到某个函数中执行了对某个参数的过滤，我们可以将其加入到净化函数列表，比如分析以下代码：</span></span></p><section class="_135editor" data-tools="135编辑器" data-id="93539" style="white-space: normal;font-size: 16px;border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><section style="margin-top: 20px;margin-bottom: 20px;text-align: center;box-sizing: border-box;"><section data-width="98%" style="padding: 10px 15px 15px;display: inline-block;width: 545.227px;vertical-align: top;border-color: rgb(119, 122, 122);border-width: 1px;border-radius: 0px;border-style: solid;box-sizing: border-box;"><section style="margin-top: -25px;margin-bottom: 20px;text-align: right;box-sizing: border-box;transform: translate3d(16px, 0px, 0px);"><section data-width="40%" style="padding-left: 10px;display: inline-block;width: 205.284px;vertical-align: top;background-color: rgb(255, 255, 255);box-sizing: border-box;"><section style="text-align: left;box-sizing: border-box;"><section style="max-width: 100%;vertical-align: middle;display: inline-block;"><section style="width: 10px;height: 10px;background: black;"><br  /></section></section></section></section></section><section style="box-sizing: border-box;"><section class="135brush" style="text-align: justify;font-size: 14px;line-height: 1.75em;color: rgb(63, 63, 63);letter-spacing: 1.5px;"><p><span style="color: rgb(136, 136, 136);font-size: 12px;">&lt;?php</span></p><p><span style="color: rgb(136, 136, 136);font-size: 12px;">function escapeCmd($cmd){</span></p><p><span style="color: rgb(136, 136, 136);font-size: 12px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; returnescapeshellcmd($cmd) ;</span></p><p><span style="color: rgb(136, 136, 136);font-size: 12px;">}</span></p><p><span style="color: rgb(136, 136, 136);font-size: 12px;">system("ls -l ".escapeCmd($_GET['cmd'])) ;</span></p><p><span style="color: rgb(136, 136, 136);font-size: 12px;">?&gt;</span></p><p><br  /></p></section></section></section></section></section><p style="margin-left:28px;"><span style="font-family: 宋体;font-size: 14px;"></span></p><p style="text-indent:28px;"><span style="font-size: 14px;"><span style="font-family: 宋体;">这里在执行分析时，遇到</span>escapeCmd<span style="font-family: 宋体;">这个用户自定义函数的调用，因此需要在上下文中寻找该方法的方法体（定义）并分析该方法的程序段。当发现其调用了安全函数</span>escapeshellcmd<span style="font-family: 宋体;">后，我们就可以把这个</span>escapeCmd<span style="font-family: 宋体;">加入到命令注入漏洞的安全函数中。</span></span></p><p><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">（</span>2<span style="font-size: 14px;font-family: 宋体;">）多文件分析</span></span></p><p><span style="font-size: 14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-size: 14px;font-family: 宋体;">执行多文件分析时，很多系统仅仅只是依赖</span>use<span style="font-size: 14px;font-family: 宋体;">、</span>include<span style="font-size: 14px;font-family: 宋体;">、</span>require<span style="font-size: 14px;font-family: 宋体;">等关键词来寻找当前文件所包含的其他文件，但是很多程序实现中，往往会用到</span>autoload<span style="font-size: 14px;font-family: 宋体;">技术，或者在某个统一入口执行文件包含的操作。所以我们有很大的几率会遇到某个文件中调用了一个其他文件的方法，但是在该文件中却找不到该方法的定义语法结构的情景。</span></span></p><p style="text-indent:28px;"><span style="font-family: 宋体;font-size: 14px;">因此多文件分析时，我们最好在分析初始化阶段中获取到所有类定义、方法定义、通用函数定义以及其所在的路径位置，将这些信息保存在内存中。当我们后续分析时，可以直接操作该内存结构，动态提取需要的方法定义。</span></p><p style="margin-left:28px;"><span style="font-family: 宋体;font-size: 14px;"><br  /></span></p><section class="_editor" style="white-space: normal;"><section style="margin-top: 20px;margin-bottom: 10px;text-align: center;"><section style="padding: 5px;display: inline-block;min-width: 10%;vertical-align: top;border-style: solid;border-width: 1px;border-radius: 0px;border-color: rgb(180, 180, 180);box-sizing: border-box;"><section style="margin-top: -20px;text-align: left;"><section style="padding-top: 5px;padding-right: 5px;padding-left: 5px;display: inline-block;min-width: 10%;vertical-align: top;border-style: solid;border-width: 1px;border-radius: 0px;border-color: rgb(180, 180, 180);box-shadow: rgb(180, 180, 180) 0px 0px 0px;background-color: rgb(241, 241, 241);box-sizing: border-box;"><section><section style="font-size: 15px;color: rgb(18, 14, 14);"><h1><span style="font-family: 宋体;">三、企业级研发与部署方案</span></h1></section></section></section></section></section></section></section><h2><br  /></h2><h2><span style="font-size: 14px;"><strong>3.1 <span style="font-family: 宋体;">企业级实际场景和挑战</span></strong></span></h2><p style="text-indent:32px;"><span style="font-family: 宋体;font-size: 14px;">或许很多人会认为，源代码安全扫描只需要把代码拿来扔给扫描器扫描，然后产生打印结果给业务线就行了。可事实上在大型互联网企业中部署并不是那么简单的一件事，主要考虑一下问题：</span></p><ul style="list-style-type: disc;" class=" list-paddingleft-2"><li><p><span style="font-size: 14px;"><strong><span style="font-size: 14px;font-family: 宋体;">非本地工具，而是一个平台</span></strong></span></p></li></ul><p style="text-indent:32px;"><span style="font-family: 宋体;font-size: 14px;">在大型公司，可能有成千上万的产品线，涉及到的代码库数量庞大并且编程语言繁杂，面对这种状况，本地化工具过于松散，不好管理，接入效率低的缺点，而统一的扫描平台可以提供一整套的自动化接入方案。统一的源码安全扫描平台可以区分多场景的任务类型，提供多种接入方式，可以更高效、自动化地提供安全扫描能力。</span></p><ul style="list-style-type: disc;" class=" list-paddingleft-2"><li><p><span style="font-size: 14px;"><strong><span style="font-size: 14px;font-family: 宋体;">软件开发关键环节，中流砥柱</span></strong></span></p></li></ul><p style="text-indent:32px;"><span style="font-size: 14px;">SDL(securitydevelopment lifecycle) <span style="font-size: 14px;font-family: 宋体;">是微软提出的从安全角度指导软件开发过程的管理模式，源代码安全扫描是</span>SDL<span style="font-size: 14px;font-family: 宋体;">方法中的重要环节。从软件的开发流程上看，源代码安全扫描处于软件开发流程上下游，在软件上线之前需要通过安全扫描。</span></span></p><p style="text-indent:32px;"><span style="font-family: 宋体;font-size: 14px;">在我们的实践中，源代码安全扫描是以插件的形式，嵌入到软件研发的流程中，为业务线代码保驾护航<strong>。</strong></span></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.2569444444444444" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/rNy2iaEEC1mOsNGzE8wxYgnghGV4iaEd2AEUvSJwGymyoiagt4nd8gcl49KSnw4AUN7NnK1UFJ1JVl16wdCUHQvdg/640?wx_fmt=png" data-type="png" data-w="864" style="width: 535px;height: 136px;"  /></p><p style="text-align: center;"><span style="font-size: 12px;"><strong style="text-indent: 32px;font-family: -apple-system-font, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif;text-align: justify;"><span style="font-family: 宋体;">这将要求平台必须具有高可用性，高响应及时度和完善的用户反馈机制。</span></strong></span></p><p style="text-indent:32px;"><strong>&nbsp;</strong></p><ul style="list-style-type: disc;" class=" list-paddingleft-2"><li><p><span style="font-size: 14px;"><strong><span style="font-family: 宋体;">战略地位，支撑安全红线</span></strong></span></p></li></ul><p style="text-indent:32px;"><span style="font-family: 宋体;font-size: 14px;">企业有一条安全红线，业务必须遵守的最基本安全要求。源代码安全扫描也可以用于在系统上线前发现漏洞与违规的内容，禁止漏洞带到线上，一定程度保护企业业务安全。</span></p><p style="margin-left:28px;"><span style="font-family: 宋体;font-size: 14px;"><br  /></span></p><h2><strong><span style="font-size: 14px;">3.2 <span style="font-family: 宋体;">整体架构</span></span></strong></h2><p style="text-align: center;"><br  /></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.7592592592592593" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/rNy2iaEEC1mOsNGzE8wxYgnghGV4iaEd2A4EkvnMshFxRWbYZhs1lSMreBzRRUDzwDu6zFmG7nFRPHqb0qMAoGYw/640?wx_fmt=png" data-type="png" data-w="864" style="width: 425px;height: 323px;"  /></p><p style="text-indent: 32px;text-align: center;"><span style="font-family: 宋体;font-size: 12px;">从分层的角度，源码安全扫描平台大致分为五层，每一层都有明确的职责划分。</span></p><h3><strong><span style="font-size: 14px;"><br  /></span></strong></h3><h3><strong><span style="font-size: 14px;">3.2.1 <span style="font-family: 宋体;">接口层</span></span></strong></h3><p style="text-indent:32px;"><span style="font-family: 宋体;font-size: 14px;">接口层是平台对外输出能力的入口，主要对接口请求进行合理性校验，权限校验，参数校验，以确保请求是合法的，非恶意的。功能上主要分扫描接口和查询接口，扫描接口用来接收发起扫描任务，查询接口用来查询扫描任务的结果数据。</span></p><h3><span style="font-size: 14px;"><br  /></span></h3><h3><strong><span style="font-size: 14px;">3.2.2 <span style="font-size: 14px;font-family: 宋体;">任务管理层</span></span></strong></h3><p style="text-indent:32px;"><span style="font-family: 宋体;font-size: 14px;">每一次扫描就是一个任务，任务管理层是整个平台的中心部分，管理所有任务的扫描状态。主要包括三个职责：</span></p><p style="line-height:120%;"><span style="font-size: 14px;">1）<span style="font-size: 14px;font-family: 宋体;">状态跟踪。任务管理层跟踪和记录所有任务的扫描状态。</span></span></p><p style="line-height:120%;"><span style="font-size: 14px;">2）<span style="font-size: 14px;font-family: 宋体;">策略下发。源码扫描平台根据业务的实际场景，针对不同任务实施不同的扫描策略，比如根据代码的变更情况使用缓存策略，根据代码库的特性调整超时时间等。</span></span></p><p style="line-height:120%;"><span style="font-size: 14px;">3）<span style="font-size: 14px;font-family: 宋体;">超时监控。每个任务都有一个超时时间，当任务扫描时间超过期望值，任务会结束并返回超时异常。</span></span></p><p style="line-height:120%;"><span style="font-size: 14px;font-family: 宋体;"><br  /></span></p><h3><strong><span style="font-size: 14px;">3.2.3 <span style="font-size: 14px;font-family: 宋体;">引擎管理层</span></span></strong></h3><p style="text-indent:32px;"><span style="font-family: 宋体;font-size: 14px;">引擎管理层是对引擎调用的一层封装，在企业里面涉及到多种计算机语言，不同语言可能使用不同的源码分析引擎。引擎管理层向上抽象出扫描接口和报告接口，扫描接口接收扫描数据，下层实现具体的引擎调用策略，报告接口获取不同引擎的扫描结果，统一生成扫描分析报告数据。</span></p><p style="text-indent:32px;"><span style="font-family: 宋体;font-size: 14px;"><br  /></span></p><h3><strong><span style="font-size: 14px;">3.2.4 <span style="font-size: 14px;font-family: 宋体;">源代码管理层</span></span></strong></h3><p style="text-indent:32px;"><span style="font-family: 宋体;font-size: 14px;">源代码管理层主要关注目标源码获取、源码存储和源码安全。</span></p><p style="line-height:120%;"><span style="font-size: 14px;">1）<strong><span style="font-size: 14px;font-family: 宋体;">源码获取。</span></strong><span style="font-size: 14px;font-family: 宋体;">源码获取主要支持两种方式，第一是用户上传源码的方式，这种方式需要用户自己把源码打包，上传到</span>web<span style="font-size: 14px;font-family: 宋体;">服务器。第二种是和企业级代码托管平台打通，源码管理层根据托管平台提供的安全协议拉取源码。</span></span></p><p style="line-height:120%;"><span style="font-size: 14px;">2）<strong><span style="font-size: 14px;font-family: 宋体;">源码存储。</span></strong><span style="font-size: 14px;font-family: 宋体;">源码存储主要包括两个方面，其一是需要扫描的源码，这部分源码存储时间不长，在扫描结束后的一段时间内会被清除；其二是有漏洞的源码，这部分源码会被永久存储，用来后续分析漏洞报告使用。</span></span></p><p style="line-height:120%;"><span style="font-size: 14px;">3）<strong><span style="font-size: 14px;font-family: 宋体;">源码安全。</span></strong><span style="font-size: 14px;font-family: 宋体;">源码安全扫描涉及到业务线的源码下载与分析，对于企业来说源码具有最高</span><span style="font-family: 宋体;">保密性，需要防止源码泄露的问题发生。这里我们有两个层面措施：第一是服务器隔离，所有对源码操作和源码存储都放在指定的服务器上，并且由源码托管平台负责，这种物理隔离大大减少平台自身的管理成本。第二是所有源码存储传输都采用了加密，这里采用常用的方式，使用</span>AES<span style="font-family: 宋体;">加密源码，</span>RSA<span style="font-family: 宋体;">加密</span>AES<span style="font-family: 宋体;">的</span>key<span style="font-family: 宋体;">。</span></span></p><p style="line-height:120%;"><span style="font-size: 14px;font-family: 宋体;"><br  /></span></p><h3><strong><span style="font-size: 14px;">3.2.5 <span style="font-size: 14px;font-family: 宋体;">扫描引擎</span></span></strong></h3><p><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">&nbsp; &nbsp; &nbsp; 引擎主要利用静态代码分析技术分析源码中可能存在的漏洞，具体参考</span><span style="font-size: 14px;font-family: Calibri, sans-serif;">“</span><span style="font-size: 14px;font-family: 宋体;">自动化代码挖掘技术</span><span style="font-size: 14px;font-family: Calibri, sans-serif;">”</span><span style="font-size: 14px;font-family: 宋体;">章节。</span></span></p><p><br  /></p><h2><span style="font-size: 14px;"><strong>3.3 SDL<span style="font-family: 宋体;">中的实践</span></strong></span></h2><p><span style="font-size: 14px;"><strong><span style="font-family: 宋体;"><br  /></span></strong></span></p><p style="text-indent:32px;"><span style="font-size: 14px;"><span style="font-family: 宋体;">研发工程师（</span>RD<span style="font-family: 宋体;">）提交代码，进行源码安全扫描，编译，持续集成到部署上线，这一系列步骤是全自动化的过程，而源码安全扫描嵌入到整个流程中，必定牵扯到各个平台。这里我们分享这个过程遇到的问题。</span></span></p><h3><span style="font-size: 14px;"><br  /></span></h3><h3><strong><span style="font-size: 14px;">3.3.1 <span style="font-size: 14px;font-family: 宋体;">接口可用性</span></span></strong></h3><p style="text-indent:12px;"><span style="font-size: 14px;">&nbsp;&nbsp;&nbsp; <span style="font-size: 14px;font-family: 宋体;">一般平台的接口可用性要求是四个</span>9<span style="font-size: 14px;font-family: 宋体;">，即</span><strong>SLA<span style="font-size: 14px;font-family: 宋体;">为</span>99.99%</strong><span style="font-size: 14px;font-family: 宋体;">，即使企业内部使用，也要达到</span>99.9%<span style="font-size: 14px;font-family: 宋体;">。</span>SLA<span style="font-size: 14px;font-family: 宋体;">指标很重要，因为一旦某段时间内接口不可用导致软件持续集成阻塞，会影响到正常的产品发布的流程，导致产品上线出问题。比如企业内某个产品紧急修复了</span>bug<span style="font-size: 14px;font-family: 宋体;">需要上线，但是却在安全扫描这一步卡住，产品线的同学可能会抓狂了。</span></span></p><p style="text-indent:32px;"><span style="font-family: 宋体;font-size: 14px;">为了保障我们接口的可用性，以及及时发现故障，我们做了以下策略：</span></p><ul class=" list-paddingleft-2" style="list-style-type: circle;"><li><p style="line-height:120%;"><strong><span style="font-size: 14px;font-family: 宋体;">慢启动</span></strong><span style="font-size: 14px;"><span style="font-family: 宋体;">。接口的服务逻辑应该尽可能少的计算和</span>IO<span style="font-family: 宋体;">访问，这里我们仅仅将请求的原始数据做一次</span>redis<span style="font-family: 宋体;">写入，然后就返回，其他的任务扫描逻辑之后才被后续的逻辑“慢”启动起来。</span></span></p></li><li><p style="line-height:120%;"><strong><span style="font-size: 14px;font-family: 宋体;">接口监控</span></strong><span style="font-size: 14px;font-family: 宋体;">。我们监控每个接口每次接收请求到做出响应的时间，在响应时间超出一定范围（一般与调用平台约定），则进行邮件告警。</span></p></li><li><p style="line-height:120%;"><span style="font-size: 14px;font-family: 宋体;"><strong>降级策略</strong>。在遇到故障无法在短时间内恢复的情况，我们启动降级策略，舍弃一定功能的情况下，保障接口能够及时返回，防止流程卡住。</span></p></li></ul><h3><br  /></h3><h3><strong><span style="font-size: 14px;">3.3.2 “<span style="font-family: 宋体;">慢</span>”<span style="font-family: 宋体;">是永恒话题</span></span></strong></h3><p style="text-indent:32px;"><span style="font-family: 宋体;font-size: 14px;">源码安全扫描作为软件集成发布的一个步骤，一定程度上影响软件发布的时间。如果安全扫描耗时过长，将会大大拖累的整个上线流程，安全部本身也会承受着很大的压力。</span></p><h4><span style="background-color: rgb(214, 214, 214);"><strong><span style="background-color: rgb(214, 214, 214);font-size: 14px;">3.3.2.1 <span style="background-color: rgb(214, 214, 214);font-size: 14px;font-family: 宋体;">此增量非彼增量</span></span></strong></span></h4><p style="text-indent:32px;"><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">或许有人会讲，</span>RD<span style="font-size: 14px;font-family: 宋体;">大多数时候可能只会修改几个代码库的文件，这样怎么会有扫描速度慢的问题呢？这样的想法是基于两个前提：第一，扫描是单文件；第二，文件与文件之间是没有关联的。但事实上，前面漏洞分析技术也有提及，白盒代码扫描过程其实会对相关联的多个文件进行扫描，可能修改了一个文件，但是有很多其他的文件引用了这个文件，为了保险起见，所以会把相关联的文件一并执行扫描。</span></span></p><p style="text-indent:32px;"><span style="font-family: 宋体;font-size: 14px;">所以一开始的做法是：不管代码库如何变化，都使用全量扫描，而这将导致扫描速度特别“慢”，经常会收到业务线同学的反馈，对运营造成很大的压力。</span></p><h4><br  /></h4><h4><strong><span style="font-size: 14px;background-color: rgb(214, 214, 214);">3.3.2.2 <span style="font-size: 14px;background-color: rgb(214, 214, 214);font-family: 宋体;">增量扫描的实践方法</span></span></strong></h4><p style="text-indent:32px;"><span style="font-family: 宋体;font-size: 14px;">为了提高扫描的性能，我们尝试做了增量扫描策略。</span></p><p style="text-indent:32px;"><span style="font-family: 宋体;font-size: 14px;">大致思路是，如果我们能够对本次变更的代码进行分析，找出当前代码库中变更文件引用的文件和被引用的文件，将这些文件进行扫描，最后跟全量合并结果。这样可以大大减少扫描的文件数，提高扫描速度。</span></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.37354988399071926" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/rNy2iaEEC1mOsNGzE8wxYgnghGV4iaEd2AKbVzqaPfjgBTZIn9TvTEPNlTgf1QUJz93kOvIfG1f3N7Hic5kxn4log/640?wx_fmt=png" data-type="png" data-w="862" style="width: 505px;height: 189px;"  /></p><p><span style="font-size: 12px;"><strong><span style="font-family: 宋体;">具体做法是，在源码管理层嵌入增量策略层，利用简单的源码分析技术，得出文件的引用流向图。通过对图的遍历获取到增量涉及到的文件。</span></strong></span></p><h4><br  /></h4><h4><span style="background-color: rgb(214, 214, 214);"><strong><span style="background-color: rgb(214, 214, 214);font-size: 14px;">3.3.2.3 <span style="background-color: rgb(214, 214, 214);font-family: 宋体;">其他优化策略</span></span></strong></span></h4><p><span style="font-family: 宋体;font-size: 14px;">除了增量扫描，我们还有如下优化策略：</span></p><ul class=" list-paddingleft-2" style="list-style-type: circle;"><li><p style="line-height:120%;"><strong><span style="font-size: 14px;font-family: 宋体;">无变更文件使用历史结果</span></strong><span style="font-size: 14px;font-family: 宋体;">。相同代码库前后两次扫描，如果文件没有任何修改，则认为两次扫描结果一致。</span></p></li><li><p style="line-height:120%;"><strong><span style="font-size: 14px;font-family: 宋体;">基于无关文件变更的缓存策略</span></strong><span style="font-size: 14px;font-family: 宋体;">。一个代码库，前后两次扫描，如果前后两次变更的文件与安全扫描无关，则复用第一次扫描结果。</span></p></li><li><p style="line-height:120%;"><span style="font-size: 14px;font-family: 宋体;"><strong>闲时扫描</strong>。很多时候扫描慢也可能是资源紧缺有关，一个平台的访问量也可能集中在某个时间段，因此，闲时扫描作为一种缓存策略，可以大大提高扫描的速度。</span></p></li></ul><p><span style="font-size:16px;">&nbsp;</span></p><section class="_editor" style="white-space: normal;"><section style="margin-top: 20px;margin-bottom: 10px;text-align: center;"><section style="padding: 5px;display: inline-block;min-width: 10%;vertical-align: top;border-style: solid;border-width: 1px;border-radius: 0px;border-color: rgb(180, 180, 180);box-sizing: border-box;"><section style="margin-top: -20px;text-align: left;"><section style="padding-top: 5px;padding-right: 5px;padding-left: 5px;display: inline-block;min-width: 10%;vertical-align: top;border-style: solid;border-width: 1px;border-radius: 0px;border-color: rgb(180, 180, 180);box-shadow: rgb(180, 180, 180) 0px 0px 0px;background-color: rgb(241, 241, 241);box-sizing: border-box;"><section><section style="font-size: 15px;color: rgb(18, 14, 14);"><h1 style="white-space: normal;"><span style="font-family: 宋体;">四、平台检测效果</span></h1></section></section></section></section></section></section></section><h1><br  /></h1><h2><strong><span style="font-size: 14px;">4.1 <span style="font-family: 宋体;">总体检出效果</span></span></strong></h2><p style="text-indent:32px;"><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">静态代码安全扫描嵌入开发流程以来，接入代码库数量达到</span>3000+<span style="font-size: 14px;font-family: 宋体;">，其中每天由代码托管平台触发的增量任务有</span>1700+<span style="font-size: 14px;font-family: 宋体;">个，由上线平台触发的任务有</span>2500+<span style="font-size: 14px;font-family: 宋体;">，根据我们的优化方案，</span>95%<span style="font-size: 14px;font-family: 宋体;">的任务能够在</span>10<span style="font-size: 14px;font-family: 宋体;">分钟内完成。我们的漏洞检测规则加入人工运营和自定义开发，漏洞准确率达到</span>90%<span style="font-size: 14px;font-family: 宋体;">左右，其中不同的语言漏洞的分布情况不一样。</span></span></p><p style="text-indent:32px;"><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">目前我们</span>php<span style="font-size: 14px;font-family: 宋体;">检测覆盖</span>13<span style="font-size: 14px;font-family: 宋体;">中类型漏洞，</span> java<span style="font-size: 14px;font-family: 宋体;">语言扫描覆盖</span>30+<span style="font-size: 14px;font-family: 宋体;">种类型漏洞，其中除了</span>web<span style="font-size: 14px;font-family: 宋体;">常见漏洞外，还覆盖部分</span>android<span style="font-size: 14px;font-family: 宋体;">，</span>python<span style="font-size: 14px;font-family: 宋体;">，</span>nodejs<span style="font-size: 14px;font-family: 宋体;">漏洞。</span></span></p><h2 style="margin-left:29px;"><br  /></h2><h2 style="text-align: left;text-indent: 0em;margin-left: 0px;margin-right: 0px;"><strong><span style="font-size: 14px;">4.2<span style="font-family: 宋体;">具体检测场景与能力</span></span></strong></h2><h3><strong><span style="font-size: 14px;">4.2.1 PHP<span style="font-size: 14px;font-family: 宋体;">漏洞检测</span></span></strong></h3><p><span style="font-size: 14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-size: 14px;font-family: 宋体;">关于</span>PHP<span style="font-size: 14px;font-family: 宋体;">的漏洞检测手段详见第二章节。</span></span></p><p><span style="font-size: 14px;font-family: 宋体;"><br  /></span></p><h3><strong><span style="font-size: 14px;">4.2.2 java<span style="font-size: 14px;font-family: 宋体;">漏洞检测</span></span></strong></h3><p><span style="font-size: 14px;">java<span style="font-size: 14px;font-family: 宋体;">白盒检测需要覆盖</span>owasp<span style="font-size: 14px;font-family: 宋体;">主要</span>web<span style="font-size: 14px;font-family: 宋体;">漏洞，同时也需要对一些第三方开源库已知漏洞进行覆盖</span>,<span style="font-size: 14px;font-family: 宋体;">因此针对通用漏洞和第三方开源库</span>nday<span style="font-size: 14px;font-family: 宋体;">，我们采取了不同的检测方法。</span></span></p><ul style="list-style-type: disc;" class=" list-paddingleft-2"><li><p><span style="font-size: 14px;"><strong><span style="font-family: 宋体;">第三方开源库已知漏洞</span></strong></span></p></li></ul><p><span style="font-size: 14px;">java<span style="font-size: 14px;font-family: 宋体;">通过加载第三方库，由于第三方库可能存在已知高危漏洞，例如</span>struts2<span style="font-size: 14px;font-family: 宋体;">存在</span>s2-056<span style="font-size: 14px;font-family: 宋体;">，</span>spring-boot<span style="font-size: 14px;font-family: 宋体;">存在表达式注入等漏洞。针对这一类由于老版本组件使用导致的漏洞，可以通过版本检查进行覆盖，大多数版本均可在</span>pom.xml<span style="font-size: 14px;font-family: 宋体;">或者</span>build.gradle<span style="font-size: 14px;font-family: 宋体;">文件中查询到，例如</span>struts2:</span></p><section class="_135editor" data-tools="135编辑器" data-id="93539" style="white-space: normal;font-size: 16px;border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><section style="margin-top: 20px;margin-bottom: 20px;text-align: center;box-sizing: border-box;"><section data-width="98%" style="padding: 10px 15px 15px;display: inline-block;width: 545.227px;vertical-align: top;border-color: rgb(119, 122, 122);border-width: 1px;border-radius: 0px;border-style: solid;box-sizing: border-box;"><section style="margin-top: -25px;margin-bottom: 20px;text-align: right;box-sizing: border-box;transform: translate3d(16px, 0px, 0px);"><section data-width="40%" style="padding-left: 10px;display: inline-block;width: 205.284px;vertical-align: top;background-color: rgb(255, 255, 255);box-sizing: border-box;"><section style="text-align: left;box-sizing: border-box;"><section style="max-width: 100%;vertical-align: middle;display: inline-block;"><section style="width: 10px;height: 10px;background: black;"><br  /></section></section></section></section></section><section style="box-sizing: border-box;"><section class="135brush" style="text-align: justify;font-size: 14px;line-height: 1.75em;color: rgb(63, 63, 63);letter-spacing: 1.5px;"><p><span style="color: rgb(136, 136, 136);font-size: 12px;"></span></p><p><span style="font-size: 12px;color: rgb(136, 136, 136);">&lt;dependency&gt;</span></p><p><span style="font-size: 12px;color: rgb(136, 136, 136);">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;groupId&gt;org.apache.struts&lt;/groupId&gt;</span></p><p><span style="font-size: 12px;color: rgb(136, 136, 136);">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;artifactId&gt;struts2-core&lt;/artifactId&gt;</span></p><p><span style="font-size: 12px;color: rgb(136, 136, 136);">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;version&gt;2.5.16&lt;/version&gt;</span></p><p><span style="font-family: Calibri, sans-serif;font-size: 12px;color: rgb(136, 136, 136);">&lt;/dependency&gt;</span></p><p><span style="color: rgb(136, 136, 136);font-size: 12px;"></span></p></section></section></section></section></section><p><span style="font-size: 14px;"><span style="font-family: 宋体;">此时可以通过检测</span>struts2-core<span style="font-family: 宋体;">版本是否在漏洞范围以内，即可判断是否存在漏洞。但这种方法无法检测业务线同学通过修改代码或者添加过滤器修补漏洞，而这需要通过数据流分析来解决。</span></span></p><ul style="list-style-type: disc;" class=" list-paddingleft-2"><li><p><span style="font-size: 14px;"><strong><span style="font-size: 14px;font-family: 宋体;">通用漏洞</span></strong></span></p></li></ul><p style="text-indent:28px;"><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">通用漏洞主要覆盖一些高危或者中危漏洞，例如</span>sql<span style="font-size: 14px;font-family: 宋体;">注入、命令执行、代码执行、</span>SSRF<span style="font-size: 14px;font-family: 宋体;">、任意文件上传等。对于任意一种漏洞，都需要首先获取漏洞的输入点与触发点以及漏洞的数据流，以简单的</span>sql<span style="font-size: 14px;font-family: 宋体;">注入为例：</span></span></p><section class="_135editor" data-tools="135编辑器" data-id="93539" style="white-space: normal;font-size: 16px;border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><section style="margin-top: 20px;margin-bottom: 20px;text-align: center;box-sizing: border-box;"><section data-width="98%" style="padding: 10px 15px 15px;display: inline-block;width: 545.227px;vertical-align: top;border-color: rgb(119, 122, 122);border-width: 1px;border-radius: 0px;border-style: solid;box-sizing: border-box;"><section style="margin-top: -25px;margin-bottom: 20px;text-align: right;box-sizing: border-box;transform: translate3d(16px, 0px, 0px);"><section data-width="40%" style="padding-left: 10px;display: inline-block;width: 205.284px;vertical-align: top;background-color: rgb(255, 255, 255);box-sizing: border-box;"><section style="text-align: left;box-sizing: border-box;"><section style="max-width: 100%;vertical-align: middle;display: inline-block;"><section style="width: 10px;height: 10px;background: black;"><br  /></section></section></section></section></section><section style="box-sizing: border-box;"><section class="135brush" style="text-align: justify;font-size: 14px;line-height: 1.75em;color: rgb(63, 63, 63);letter-spacing: 1.5px;"><p><br  /></p><p><span style="font-size: 12px;color: rgb(136, 136, 136);"></span></p><p style="margin-left:28px;"><span style="font-size: 12px;color: rgb(136, 136, 136);">protected void processRequest(HttpServletRequestrequest, HttpServletResponse response) throws ServletException, IOException {</span></p><p style="margin-left:28px;text-indent:28px;"><span style="font-size: 12px;color: rgb(136, 136, 136);">String user = request.getParameter("user");</span></p><p style="margin-left:28px;text-indent:28px;"><span style="font-size: 12px;color: rgb(136, 136, 136);">Statement st = conn.createStatement();</span></p><p style="margin-left:28px;text-indent:28px;"><span style="font-size: 12px;color: rgb(136, 136, 136);">String query = "SELECT * FROM&nbsp; User where userid='" + user +"'";</span></p><p style="margin-left:28px;text-indent:28px;"><span style="font-size: 12px;color: rgb(136, 136, 136);">ResultSet res = st.executeQuery(query);</span></p><p style="text-indent:28px;"><span style="font-size: 12px;color: rgb(136, 136, 136);">}</span></p><p><br  /></p><p><br  /></p></section></section></section></section></section><p style="text-indent:28px;"><span style="font-size: 14px;font-family: 宋体;">首先需要获取到输入方法</span><span style="font-size:14px;font-family:Calibri,sans-serif;">HttpServletRequest::getParameter()</span><span style="font-size:14px;font-family:宋体;">，触发点</span><span style="font-size:14px;font-family:Calibri,sans-serif;">executeQuery()</span><span style="font-size:14px;font-family:宋体;">，然后通过数据流进行分析，这里的数据流可以确定为：</span></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.9057239057239057" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/rNy2iaEEC1mOsNGzE8wxYgnghGV4iaEd2AlY0N4quRNddpSDwIBpEicewC0oPJtK1l578OMunxwxrdkpYicjdsfwcw/640?wx_fmt=png" data-type="png" data-w="594" style="width: 196px;height: 178px;"  /></p><p style="text-indent:28px;"><span style="font-size: 14px;font-family: 宋体;"></span></p><p style="text-indent:28px;"><span style="font-family: 宋体;font-size: 14px;">通过跟踪数据流即可确定是否存在漏洞，当然这属于最简单模式，实际检测漏洞中为了减少误报，我们还需要处理以下几种情况：</span></p><ul style="" class=" list-paddingleft-2"><li><p><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">包含对某些漏洞的全部过滤机制，例如针对</span>sql<span style="font-size: 14px;font-family: 宋体;">注入的全局</span>filter</span></p></li><li><p><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">数据流中是否包含</span>if<span style="font-size: 14px;font-family: 宋体;">、过滤函数等过滤节点</span></span></p></li><li><p><span style="font-family: 宋体;font-size: 14px;">某些数据流是否已经中断，例如文件上传中，文件后缀在数据流图中已经被更改，实际上已不可控，此时需要单独处理类似数据流</span></p></li><li><p><span style="font-size: 14px;"><strong><span style="font-size: 14px;font-family: 宋体;">框架的处理</span></strong></span></p></li></ul><p style="text-indent:28px;"><span style="font-size: 14px;">java<span style="font-size: 14px;font-family: 宋体;">由于拥有众多开源框架，而大多数开源框架均有一定的安全机制，因此某些漏洞在特定的框架中可能并不符合通用模式。以</span>mybatis<span style="font-size: 14px;font-family: 宋体;">注入为例：</span></span></p><section class="_135editor" data-tools="135编辑器" data-id="93539" style="white-space: normal;font-size: 16px;border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><section style="margin-top: 20px;margin-bottom: 20px;text-align: center;box-sizing: border-box;"><section data-width="98%" style="padding: 10px 15px 15px;display: inline-block;width: 545.227px;vertical-align: top;border-color: rgb(119, 122, 122);border-width: 1px;border-radius: 0px;border-style: solid;box-sizing: border-box;"><section style="margin-top: -25px;margin-bottom: 20px;text-align: right;box-sizing: border-box;transform: translate3d(16px, 0px, 0px);"><section data-width="40%" style="padding-left: 10px;display: inline-block;width: 205.284px;vertical-align: top;background-color: rgb(255, 255, 255);box-sizing: border-box;"><section style="text-align: left;box-sizing: border-box;"><section style="max-width: 100%;vertical-align: middle;display: inline-block;"><section style="width: 10px;height: 10px;background: black;"><br  /></section></section></section></section></section><section style="box-sizing: border-box;"><section class="135brush" style="text-align: justify;font-size: 14px;line-height: 1.75em;color: rgb(63, 63, 63);letter-spacing: 1.5px;"><p style="white-space: normal;text-indent: 28px;"><span style="font-size: 12px;color: rgb(136, 136, 136);">&lt;select&nbsp;<span style="font-size: 12px;font-family: -apple-system-font, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif;">id="orderBlog" resultType="Blog"parameterType=”map”&gt;</span></span></p><p style="white-space: normal;text-indent: 28px;"><span style="font-size: 12px;color: rgb(136, 136, 136);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SELECTid,title,author,content</span></p><p style="white-space: normal;text-indent: 28px;"><span style="font-size: 12px;color: rgb(136, 136, 136);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FROM blog</span></p><p style="margin-left: 56px;white-space: normal;text-indent: 35px;"><span style="font-size: 12px;color: rgb(136, 136, 136);">ORDER BY ${orderParam}(#{orderParam})</span></p><p style="white-space: normal;text-indent: 28px;"><span style="font-size: 12px;color: rgb(136, 136, 136);">&lt;/select&gt;</span></p></section></section></section></section></section><p style="text-indent:28px;"><span style="font-size: 14px;"><span style="font-family: 宋体;">对于</span>mybatis<span style="font-family: 宋体;">来说，如果</span>sql<span style="font-family: 宋体;">语句变量的引入采用</span>#{}<span style="font-family: 宋体;">的方式，则</span>sql<span style="font-family: 宋体;">语句底层直接采用的预编译的形式，此时不需要再检测</span>sql<span style="font-family: 宋体;">注入漏洞；而如果采用</span>${}<span style="font-family: 宋体;">形式，则需要按照一般的</span>sql<span style="font-family: 宋体;">注入流程检测。因此</span>java<span style="font-family: 宋体;">的大多数通用漏洞检测，还需要对使用量较大的框架进行适配，此时在输入和触发点的获取上适配即可。上面的例子，就可以在检测输出时，首先判断是否为</span>mybatis<span style="font-family: 宋体;">应用，如果未</span>mybatis<span style="font-family: 宋体;">应用，则直接检测是否在</span>sql<span style="font-family: 宋体;">语句中引入了</span>${}<span style="font-family: 宋体;">类型变量，然后就可以按照通用方式检测了。</span></span></p><h3><span style="font-size: 14px;"><br  /></span></h3><h3><strong><span style="font-size: 14px;">4.2.3 Python/Nodejs<span style="font-family: 宋体;">漏洞检测</span></span></strong></h3><p><span style="font-size: 14px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;python<span style="font-size: 14px;font-family: 宋体;">和</span>nodejs<span style="font-size: 14px;font-family: 宋体;">的漏洞主要是命令执行、代码执行、</span>sql<span style="font-size: 14px;font-family: 宋体;">注入、</span>XSS<span style="font-size: 14px;font-family: 宋体;">与</span>SSRF<span style="font-size: 14px;font-family: 宋体;">，两者的检测思路大致相同。首先根据不同的框架确定输入，</span>python<span style="font-size: 14px;font-family: 宋体;">的主要</span>web<span style="font-size: 14px;font-family: 宋体;">框架有</span>python-cgi<span style="font-size: 14px;font-family: 宋体;">（原生）、</span>Django<span style="font-size: 14px;font-family: 宋体;">、</span>Flask<span style="font-size: 14px;font-family: 宋体;">、</span>webpy<span style="font-size: 14px;font-family: 宋体;">，而</span>nodejs<span style="font-size: 14px;font-family: 宋体;">主要有</span>express<span style="font-size: 14px;font-family: 宋体;">、</span>trails<span style="font-size: 14px;font-family: 宋体;">等。</span></span></p><p><span style="font-family: 宋体;font-size: 14px;">例如：</span></p><section class="_135editor" data-tools="135编辑器" data-id="93539" style="white-space: normal;font-size: 16px;border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><section style="margin-top: 20px;margin-bottom: 20px;text-align: center;box-sizing: border-box;"><section data-width="98%" style="padding: 10px 15px 15px;display: inline-block;width: 545.227px;vertical-align: top;border-color: rgb(119, 122, 122);border-width: 1px;border-radius: 0px;border-style: solid;box-sizing: border-box;"><section style="margin-top: -25px;margin-bottom: 20px;text-align: right;box-sizing: border-box;transform: translate3d(16px, 0px, 0px);"><section data-width="40%" style="padding-left: 10px;display: inline-block;width: 205.284px;vertical-align: top;background-color: rgb(255, 255, 255);box-sizing: border-box;"><section style="text-align: left;box-sizing: border-box;"><section style="max-width: 100%;vertical-align: middle;display: inline-block;"><section style="width: 10px;height: 10px;background: black;"><br  /></section></section></section></section></section><section style="box-sizing: border-box;"><section class="135brush" style="text-align: justify;font-size: 14px;line-height: 1.75em;color: rgb(63, 63, 63);letter-spacing: 1.5px;"><p style="white-space: normal;"><span style="font-size: 12px;color: rgb(136, 136, 136);">class index:</span></p><p style="white-space: normal;"><span style="font-size: 12px;color: rgb(136, 136, 136);">def GET(self):</span></p><p style="white-space: normal;"><span style="font-size: 12px;color: rgb(136, 136, 136);">data = web.input()</span></p></section></section></section></section></section><p><span style="font-size: 14px;"><span style="font-family: 宋体;">在检测</span>python<span style="font-family: 宋体;">时，首先需要通过正则判断是否为</span>web<span style="font-family: 宋体;">应用，然后根据不同框架获取不同输入函数即可。而</span>python<span style="font-family: 宋体;">的主要有：</span>eval<span style="font-family: 宋体;">、</span>exec<span style="font-family: 宋体;">、</span>execfile<span style="font-family: 宋体;">、</span>pickle.*<span style="font-family: 宋体;">、</span>cPicke.*<span style="font-family: 宋体;">、</span>timeit.timeit<span style="font-family: 宋体;">等。</span></span></p><p style="text-indent:28px;"><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">简单的</span>python<span style="font-size: 14px;font-family: 宋体;">漏洞示例：</span></span></p><section class="_135editor" data-tools="135编辑器" data-id="93539" style="white-space: normal;font-size: 16px;border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><section style="margin-top: 20px;margin-bottom: 20px;text-align: center;box-sizing: border-box;"><section data-width="98%" style="padding: 10px 15px 15px;display: inline-block;width: 545.227px;vertical-align: top;border-color: rgb(119, 122, 122);border-width: 1px;border-radius: 0px;border-style: solid;box-sizing: border-box;"><section style="margin-top: -25px;margin-bottom: 20px;text-align: right;box-sizing: border-box;transform: translate3d(16px, 0px, 0px);"><section data-width="40%" style="padding-left: 10px;display: inline-block;width: 205.284px;vertical-align: top;background-color: rgb(255, 255, 255);box-sizing: border-box;"><section style="text-align: left;box-sizing: border-box;"><section style="max-width: 100%;vertical-align: middle;display: inline-block;"><section style="width: 10px;height: 10px;background: black;"><br  /></section></section></section></section></section><section style="box-sizing: border-box;"><section class="135brush" style="text-align: justify;font-size: 14px;line-height: 1.75em;color: rgb(63, 63, 63);letter-spacing: 1.5px;"><p style="white-space: normal;"><span style="color: rgb(136, 136, 136);">classindex:</span></p><p style="white-space: normal;"><span style="color: rgb(136, 136, 136);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; def GET(self):</span></p><p style="white-space: normal;"><span style="color: rgb(136, 136, 136);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; data= web.input()</span></p><p style="white-space: normal;"><span style="color: rgb(136, 136, 136);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; code= data.get('code','')</span></p><p style="white-space: normal;"><span style="color: rgb(136, 136, 136);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return eval(code)</span></p></section></section></section></section></section><p><span style="font-size: 14px;"><span style="font-family: 宋体;">这个代码片段中，</span>web.input()-&gt;data-&gt;code-&gt;eval<span style="font-family: 宋体;">能够形成完成的漏洞数据流，同时包含了可控制输入与漏洞触发点，因此就可以确认为一个漏洞。而为了准确的检测漏洞，某些安全使用方式需要过滤，例如</span></span></p><section class="_135editor" data-tools="135编辑器" data-id="93539" style="white-space: normal;font-size: 16px;border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><section style="margin-top: 20px;margin-bottom: 20px;text-align: center;box-sizing: border-box;"><section data-width="98%" style="padding: 10px 15px 15px;display: inline-block;width: 545.227px;vertical-align: top;border-color: rgb(119, 122, 122);border-width: 1px;border-radius: 0px;border-style: solid;box-sizing: border-box;"><section style="margin-top: -25px;margin-bottom: 20px;text-align: right;box-sizing: border-box;transform: translate3d(16px, 0px, 0px);"><section data-width="40%" style="padding-left: 10px;display: inline-block;width: 205.284px;vertical-align: top;background-color: rgb(255, 255, 255);box-sizing: border-box;"><section style="text-align: left;box-sizing: border-box;"><section style="max-width: 100%;vertical-align: middle;display: inline-block;"><section style="width: 10px;height: 10px;background: black;"><br  /></section></section></section></section></section><section style="box-sizing: border-box;"><section class="135brush" style="text-align: justify;font-size: 14px;line-height: 1.75em;color: rgb(63, 63, 63);letter-spacing: 1.5px;"><p><span style="font-family: -apple-system-font, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif;font-size: 12px;color: rgb(136, 136, 136);">eval(code,{"__builtins__":None},safe_dict)</span></p></section></section></section></section></section><p><span style="font-size: 14px;"><span style="font-family: 宋体;">这里通过将</span>__builtins__<span style="font-family: 宋体;">置为空，以及设置安全白名单函数，可以较好防御代码执行，因此对于这一类需要通过</span>eval<span style="font-family: 宋体;">的参数数量进行判断。</span></span></p><p><span style="font-size: 14px;font-family: 宋体;"><br  /></span></p><section class="_editor" style="white-space: normal;"><section style="margin-top: 20px;margin-bottom: 10px;text-align: center;"><section style="padding: 5px;display: inline-block;min-width: 10%;vertical-align: top;border-style: solid;border-width: 1px;border-radius: 0px;border-color: rgb(180, 180, 180);box-sizing: border-box;"><section style="margin-top: -20px;text-align: left;"><section style="padding-top: 5px;padding-right: 5px;padding-left: 5px;display: inline-block;min-width: 10%;vertical-align: top;border-style: solid;border-width: 1px;border-radius: 0px;border-color: rgb(180, 180, 180);box-shadow: rgb(180, 180, 180) 0px 0px 0px;background-color: rgb(241, 241, 241);box-sizing: border-box;"><section><section style="font-size: 15px;color: rgb(18, 14, 14);"><h1 style="white-space: normal;"><span style="font-family: 宋体;">五、总结</span></h1></section></section></section></section></section></section></section><p><br  /></p><p style="text-indent:28px;"><span style="font-family: 宋体;font-size: 14px;">基于语义分析、语法分析技术，并且将各个语言和框架特性进行集成和识别而构建的静态代码安全扫描器，无论是误报率还是检出率都远远低于传统的商用扫描器。</span></p><p style="text-indent:28px;"><span style="font-family: 宋体;font-size: 14px;">此外，将自动化的静态代码安全扫描嵌入到开放与上线流程中，可以有效地在上线前阶段就发现代码中的安全漏洞，并将源代码漏洞报告第一时间推送给业务线的开发同学进行修复，做到防患于未然。</span></p><p style="text-indent:28px;"><span style="font-family: 宋体;font-size: 14px;">而安全部门需要做的就是持续运营安全扫描规则，处理误报反馈与安全能力增强上，可以在人工代码审计上节省很多人力。</span></p><p style="text-indent:28px;"><span style="font-size: 14px;"><span style="font-size: 14px;font-family: 宋体;">对于大型互联网公司，拥有可以与</span>CI<span style="font-size: 14px;font-family: 宋体;">流程进行结合的源码安全扫描平台是非常必要的，源码安全扫描不仅可以对安全漏洞进行扫描，还可以配合一些源码指纹识别技术与安全开发规范，对内部的一些高危开源框架、不良的编码习惯进行有效治理，可谓一举多得。</span></span></p><p style="text-indent:28px;"><span style="font-size: 14px;font-family: 宋体;"><br  /></span></p><p><br  /></p><section data-role="paragraph" class="" style="max-width: 100%;box-sizing: border-box;letter-spacing: 0.544px;border-width: 0px;border-style: none;border-color: initial;overflow-wrap: break-word !important;"><section class="" data-tools="135编辑器" data-id="86614" style="max-width: 100%;box-sizing: border-box;border-width: 0px;border-style: none;border-color: initial;overflow-wrap: break-word !important;"><section label="Copyright © 2017 playhudong All Rights Reserved." donone="shifuMouseDownPayStyle(&#39;shifu_sz_18&#39;)" style="margin: 0rem auto;max-width: 100%;border-width: initial;border-style: none;border-color: initial;box-sizing: border-box !important;overflow-wrap: break-word !important;"><section style="margin: auto;padding: 30px 10px 10px 20px;max-width: 24em;line-height: 1.5;border-width: 1px;border-style: solid;border-color: rgb(43, 43, 43);box-sizing: border-box !important;overflow-wrap: break-word !important;text-align: center;"><section style="font-family: -apple-system-font, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif;font-size: 0.875rem;max-width: 100%;text-align: center;box-sizing: border-box !important;overflow-wrap: break-word !important;"><section style="padding: 4px 8px;max-width: 100%;color: rgb(255, 255, 255);display: inline-block;background-color: rgb(43, 43, 43);box-sizing: border-box !important;overflow-wrap: break-word !important;"><p style="max-width: 100%;min-height: 1em;box-sizing: border-box !important;overflow-wrap: break-word !important;"><span style="max-width: 100%;box-sizing: border-box !important;overflow-wrap: break-word !important;">百度安全应急响应中心</span></p></section></section><section style="font-family: -apple-system-font, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif;font-size: 0px;margin-top: 20px;margin-bottom: 20px;max-width: 100%;display: flex;flex-direction: row;justify-content: center;align-items: center;box-sizing: border-box !important;overflow-wrap: break-word !important;"><section style="max-width: 100%;width: 0px;height: 0px;border-left: 10px solid transparent;border-right: 10px solid transparent;border-top: 10px solid rgb(49, 49, 49);box-sizing: border-box !important;overflow-wrap: break-word !important;"></section></section><section style="max-width: 100%;box-sizing: border-box !important;overflow-wrap: break-word !important;"><p style="text-align: center;widows: 1;max-width: 100%;min-height: 1em;box-sizing: border-box !important;overflow-wrap: break-word !important;"><span style="color:#888888;font-family:微软雅黑;"><span style="font-size: 13px;"><strong>欢迎关注获取更多安全知识</strong></span></span></p><p style="text-align: center;widows: 1;max-width: 100%;min-height: 1em;box-sizing: border-box !important;overflow-wrap: break-word !important;"><img class="" data-ratio="1" data-w="430" title="http://mmbiz.qpic.cn/mmbiz_jpg/JHZzodJDxNU9V5Nyo9pYcaEtzj5r421gScmmaMecxrszz1S03DXicIwVpoAFHJMsMtnFGcDquj0sMXsz8hAuPsw/0" width="100%" data-src="http://mmbiz.qpic.cn/mmbiz_jpg/JHZzodJDxNU9V5Nyo9pYcaEtzj5r421gScmmaMecxrszz1S03DXicIwVpoAFHJMsMtnFGcDquj0sMXsz8hAuPsw/640?" data-before-oversubscription-url="http://mmbiz.qpic.cn/mmbiz_jpg/JHZzodJDxNU9V5Nyo9pYcaEtzj5r421gScmmaMecxrszz1S03DXicIwVpoAFHJMsMtnFGcDquj0sMXsz8hAuPsw/640?" data-oversubscription-url="http://mmbiz.qpic.cn/mmbiz_jpg/rNy2iaEEC1mOsNGzE8wxYgnghGV4iaEd2AFfKe9HdzibLibvOE3GibOa90tLJ3Nu3zG5nXMZ1O6Dgdic3atgicasQiaE5Q/0?wx_fmt=jpeg" style="font-family: -apple-system-font, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif;font-size: 0.875rem;letter-spacing: 0.544px;width: 160px;box-sizing: border-box !important;overflow-wrap: break-word !important;visibility: visible !important;"  /><span style="font-family: -apple-system-font, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif;font-size: 0.875rem;letter-spacing: 0.544px;"></span></p></section></section></section></section></section><p style="text-indent: 28px;"><br  /></p>
+                </div>
+                <script nonce="1164123428" type="text/javascript">
+                    var first_sceen__time = (+new Date());
+
+                    if ("" == 1 && document.getElementById('js_content')) {
+                        document.getElementById('js_content').addEventListener("selectstart",function(e){ e.preventDefault(); });
+                    }
+
+                    
+                    (function(){
+                        if (navigator.userAgent.indexOf("WindowsWechat") != -1){
+                            var link = document.createElement('link');
+                            var head = document.getElementsByTagName('head')[0];
+                            link.rel = 'stylesheet';
+                            link.type = 'text/css';
+                            link.href = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+                            head.appendChild(link);
+                        }
+                    })();
+                </script>
+
+                
+                <div class="ct_mpda_wrp" id="js_sponsor_ad_area" style="display:none;"></div>
+                
+                
+                <div class="read-more__area" id="js_more_read_area" style="display:none;">
+                    
+                </div>
+
+                
+                                <div class="reward_area tc reward_area_primary" id="js_preview_reward_author" style="display:none;">
+                    <div class="reward-avatar" style="display: none;" id="js_preview_reward_author_avatar">
+                        <img src="" alt="" id="js_preview_reward_author_head">
+                    </div>
+                    
+                                        <div class="reward-author" id="js_preview_reward_author_name">EnsecTeam</div>
+                                        <p class="reward_tips" id="js_preview_reward_author_wording" style="display:none;"></p>
+                    <p>
+                        <a class="reward_button" id='js_preview_reward_author_link' href="##"><span id="js_preview_reward_link_text">赞赏</span></a>
+                    </p>
+                </div>
+
+                <div class="reward_qrcode_area reward_area tc" id="js_preview_reward_qrcode" style="display:none;">
+                    <p class="tips_global">长按二维码向我转账</p>
+                    <p id="js_preview_reward_ios_wording" class="reward_tips" style="display:none;"></p>
+                    <span class="reward_qrcode_img_wrp"><img class="reward_qrcode_img" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_reward_qrcode.2x42f400.png"></span>
+                    <p class="tips_global">受苹果公司新规定影响，微信 iOS 版的赞赏功能被关闭，可通过二维码转账支持公众号。</p>
+                </div>
+                                
+                
+                            </div>
+                                    
+                        <div class="article_modify_area tips_global_primary article_modify_area_primary">
+              文章已于<span id="js_modify_time"></span>修改            </div>
+                        
+
+
+                        
+            <ul id="js_hotspot_area" class="article_extend_area"></ul>
+
+
+            
+
+            
+
+
+<div class="rich_media_tool" id="js_toobar3">
+
+        <div id="js_read_area3" class="media_tool_meta tips_global_primary meta_primary" style="display:none;">阅读 <span id="readNum3"></span></div>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_praise" id="like_old">
+        <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum_old"></span>
+    </span>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_like" id="like3">
+        <button class="like_btn" id="js_like_btn"> 
+          <span id="js_like_wording"> 好看</span><span class="like_num" id="likeNum3"></span>
+        </button>
+    </span>
+
+    <div id="js_like_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog weui-dialog_haokan">
+        <div class="weui-dialog__hd"><strong class="weui-dialog__title" id="educate_title">已推荐到看一看</strong></div>
+        <div class="weui-dialog__bd">
+          <img class="pic_haokan" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_haokan42f400.png">
+            你的朋友可以在“发现”-“看一看”看到你认为好看的文章。        </div>
+        <div class="weui-dialog__ft" id="educate_btn" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_default" id="js_cancel">取消</a>
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_confirm">推荐</a>
+        </div>
+        <div class="weui-dialog__ft" id="educate_btn2" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_acknowledge">我知道了</a>
+        </div>
+        </div>
+    </div>
+
+    <div id="js_unlike_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog">
+        
+        <div class="weui-dialog__bd">
+            已取消，“好看”想法已同步删除        </div>
+        <div class="weui-dialog__ft">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_unlike_know">知道了</a>
+        </div>
+        </div>
+    </div>
+
+    
+    </div>
+
+
+<div class="like_comment_wrp" id="js_a_like_comment" style="display: none;">
+  <div class="like_comment_inner">
+    <div class="like_comment_hd" style="display:none" id="js_like_title"></div>
+    <div class="like_comment_bd">
+      <div class="tips_global_primary like_comment_tips">
+        <i class="weui-icon-success"></i>已推荐到看一看<a href="javascript:;" class="like_comment_share_link" id="js_a_like_comment_share">和朋友分享想法</a>
+      </div>
+    </div>
+    <div class="like_comment_ft">
+      <span id="js_a_like_comment_msg" class="like_comment_msg" style="visibility:hidden">最多200字，当前共<span id="js_a_like_current_cnt"></span>字</span>
+      <button class="like_comment_btn" disabled="disabled" id="js_a_like_confirm">发送</button>
+    </div>
+  </div>
+</div>
+
+<div id="js_like_toast" style="display: none;">
+  <div class="weui-mask_transparent"></div>
+  <div class="weui-toast">
+    <i class="weui-icon-success-no-circle weui-icon_toast"></i>
+    <p class="weui-toast__content" id="js_toast_msg">已发送</p>
+  </div>
+</div>
+
+
+<div style="display: none;" id="js_b_comment_panel" class="like_comment_primary_pop">
+  <div class="like_comment_primary_wrp" id="js_b_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <h4 class="like_comment_primary_title">
+          朋友将在看一看看到        </h4>
+        <button id="js_b_like_confirm" class="like_comment_primary_btn">确定</button>
+      </div>
+      <div id='js_b_comment_text_first' class="like_comment_primary_bd">
+        <span class="tips_global_primary">
+          分享你的想法...        </span>
+      </div>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_1"></div>
+</div>
+
+<div style="display: none;" id="js_b_comment_final">
+  <div class="like_comment_primary_wrp editing" id="js_comment_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <button class="like_comment_primary_cancel" id="js_b_comment_cancel">取消</button>
+        <h4 class="like_comment_primary_title"> 分享想法到看一看 </h4>
+        <button class="like_comment_primary_btn" id="js_b_comment_confirm">确定</button>
+      </div>
+      <div class="like_comment_primary_bd">
+        <textarea class="like_comment_textarea weui-textarea" placeholder="分享你的想法..." id="js_b_comment_text_second"></textarea>
+      </div>
+      <span class="like_comment_msg" id="js_b_like_comment_msg" style="visibility: hidden;">最多200字，当前共<span id="js_b_like_current_cnt"></span>字</span>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_2"></div>
+</div>
+
+<div id="js_loading" style=" display: none;">
+    <div class="weui-mask_transparent"></div>
+    <div class="weui-toast">
+        <i class="weui-loading weui-icon_toast"></i>
+        <p class="weui-toast__content">发送中</p>
+    </div>
+</div>
+
+<div id="js_fail" style="display:none">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+    <div class="weui-dialog__bd">
+        网络异常，请稍后重试    </div>
+    <div class="weui-dialog__ft">
+      <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_fail_inform">知道了</a>
+    </div>
+    </div>
+</div>
+
+
+
+                      </div>
+        </div>
+
+        <div class="rich_media_area_primary sougou" id="sg_tj" style="display:none"></div>
+
+
+        
+        <div class="rich_media_area_extra">
+          <div class="rich_media_area_extra_inner">
+              
+              <div id="js_share_appmsg">
+              </div>
+
+              
+                            <div class="mpda_bottom_container" id="js_bottom_ad_area"></div>
+                            
+              <div id="js_iframetest" style="display:none;"></div>
+                            
+              <div class="rich_media_extra rich_media_extra_discuss" id="js_cmt_container" style="display:none">
+                
+
+                
+                <div class="discuss_mod" id="js_friend_cmt_area" style="display:none">
+                  
+                  
+                  
+                </div>
+
+                                <div class="discuss_mod" id="js_cmt_area" style="display:none">
+                </div>
+                              </div>
+          </div>
+        </div>
+
+        
+        <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">
+            <div class="qr_code_pc_inner">
+                <div class="qr_code_pc">
+                    <img id="js_pc_qr_code_img" class="qr_code_pc_img">
+                    <p>微信扫一扫<br>关注该公众号</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="js_pc_weapp_code" class="weui-desktop-popover weui-desktop-popover_pos-up-center weui-desktop-popover_img-text" style="display: none;">
+    <div class="weui-desktop-popover__content">
+        <div class="weui-desktop-popover__desc">
+            <img id="js_pc_weapp_code_img">
+            微信扫一扫<br>使用小程序<span id="js_pc_weapp_code_des"></span>        </div>
+    </div>
+</div>
+<div id="js_minipro_dialog" style="display:none;">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+        <div class="weui-dialog__bd">即将打开"<span id="js_minipro_dialog_name"></span>"小程序</div>
+        <div class="weui-dialog__ft">
+            <a id="js_minipro_dialog_cancel" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_default">取消</a>
+            <a id="js_minipro_dialog_ok" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_primary">打开</a>
+        </div>
+    </div>
+</div>
+
+        
+        <script nonce="1164123428">
+    var __DEBUGINFO = {
+        debug_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/debug/console42f400.js",
+        safe_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/moonsafe42f400.js",
+        res_list: []
+    };
+</script>
+
+<script nonce="1164123428" type="text/javascript">
+(function() {
+	var totalCount = 0,
+			finishCount = 0;
+
+	function _loadVConsolePlugin() {
+		window.vConsole = new window.VConsole();
+		while (window.vConsolePlugins.length > 0) {
+			var p = window.vConsolePlugins.shift();
+			window.vConsole.addPlugin(p);
+		}
+	}
+	
+	function _addVConsole(uri, cb) {
+		totalCount++;
+		var node = document.createElement('SCRIPT');
+		node.type = 'text/javascript';
+		node.src = uri;
+		node.setAttribute('nonce', '1164123428');
+		if (cb) {
+			node.onload = cb;
+		}
+		document.getElementsByTagName('head')[0].appendChild(node);
+	}
+	if (
+		(document.cookie && document.cookie.indexOf('vconsole_open=1') > -1)
+		|| location.href.indexOf('vconsole=1') > -1
+	) {
+		window.vConsolePlugins = [];
+		_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/3.2.2/vconsole.min43429b.js', function() {
+			
+			_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/plugin/vconsole-mpopt/1.0.1/vconsole-mpopt42f400.js', _loadVConsolePlugin);
+		});
+	}
+})();
+</script>
+        
+<script nonce="1164123428" type="text/javascript">
+if (location.href.match(/fontScale=\d+/) && /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+
+    var m=location.href.match(/fontScale=(\d*)/);
+    var map={
+        "94":1,
+        "100":2,
+        "109":3,
+        "119":4,
+        "131":5,
+    }
+    if(m&&m[1]&&map[m[1]]){
+        document.getElementsByTagName("body")[0].className+=" appmsg_skin_fontscale_"+map[m[1]];
+        console.log("appmsg_skin_fontscale_:"+map[m[1]]);
+    }
+}
+
+
+(function(){
+    if (window.__second_open__) return; 
+
+    
+
+    var first_js_time = +new Date();
+
+    var showDate="";
+    var svrDate=new Date("1549780634"*1000);
+    var createDate=new Date("1548154345"*1000);
+    var ct="1548154345"*1;
+    var publish_time = "2019-01-22" || "";
+    var cD={
+      year:createDate.getYear(),
+      month:createDate.getMonth()+1,
+      date:createDate.getDate()
+    };
+    
+    svrDate.setHours(0);
+    svrDate.setMinutes(0);
+    svrDate.setSeconds(0);
+    var todayDate=svrDate.getTime()/1000;
+    svrDate.setDate(1);
+    svrDate.setMonth(0);
+    var yearDate=svrDate.getTime()/1000;
+    
+    if(ct>=todayDate){
+      showDate="今天";
+    
+    }else if(ct>=todayDate-60*60*24){
+       showDate="昨天";
+    
+    }else if(ct>=todayDate-2*60*60*24){
+      showDate="前天";
+    }else if(ct>=todayDate-3*60*60*24){
+      showDate="3天前";
+    }else if(ct>=todayDate-4*60*60*24){
+      showDate="4天前";
+    }else if(ct>=todayDate-5*60*60*24){
+      showDate="5天前";
+    }else if(ct>=todayDate-6*60*60*24){
+      showDate="6天前";
+    }else if(ct>=todayDate-2*7*60*60*24){
+      showDate="1周前";
+    }else if(ct>=yearDate){
+      
+      
+      
+      showDate="%s月%s日".replace("%s",cD.month).replace("%s",cD.date);
+    }else{
+      showDate=publish_time;
+    };
+    if(document.getElementById("publish_time")){
+      document.getElementById("publish_time").innerText=showDate;
+    }
+})();
+</script>
+<script nonce="1164123428" type="text/javascript">
+
+if (!window.console) window.console = { log: function() {} };
+
+if (typeof getComputedStyle == 'undefined') {
+    if (document.body.currentStyle) {
+        window.getComputedStyle = function(el) {
+            return el.currentStyle;
+        }
+    } else {
+        window.getComputedStyle = {};
+    }
+}
+(function(){
+    window.__zoom = 1;
+    
+    (function(){
+        var validArr = ","+([0.875, 1, 1.125, 1.25, 1.375]).join(",")+",";
+        var match = window.location.href.match(/winzoom=(\d+(?:\.\d+)?)/);
+        if (match && match[1]) {
+            var winzoom = parseFloat(match[1]);
+            if (validArr.indexOf(","+winzoom+",")>=0) {
+                window.__zoom = winzoom;
+            }
+        }
+    })();
+
+    var ua = navigator.userAgent.toLowerCase();
+    var re = new RegExp("msie ([0-9]+[\.0-9]*)");
+    var version;
+    if (re.exec(ua) != null) {
+        version = parseInt(RegExp.$1);
+    }
+    var isIE = false;
+    if (typeof version != 'undefined' && version >= 6 && version <= 9) {
+        isIE = true;
+    }
+    var getMaxWith=function(){
+        var container = document.getElementById('img-content');
+        var max_width = container.offsetWidth;
+        var container_padding = 0;
+        var container_style = getComputedStyle(container);
+        container_padding = parseFloat(container_style.paddingLeft) + parseFloat(container_style.paddingRight);
+        max_width -= container_padding;
+        if (!max_width) {
+            max_width = window.innerWidth - 30;      
+        }
+        return max_width;
+    };
+    var getParentWidth = function(dom){
+        var parent_width = 0;
+        var parent = dom.parentNode;
+        var outerWidth = 0;
+        while (true) {
+            if(!parent||parent.nodeType!=1) break;
+            var parent_style = getComputedStyle(parent);
+            if (!parent_style) break;
+            parent_width = parent.clientWidth - parseFloat(parent_style.paddingLeft) - parseFloat(parent_style.paddingRight) - outerWidth;
+            if (parent_width > 0) break;
+            outerWidth += parseFloat(parent_style.paddingLeft) + parseFloat(parent_style.paddingRight) + parseFloat(parent_style.marginLeft) + parseFloat(parent_style.marginRight) + parseFloat(parent_style.borderLeftWidth) + parseFloat(parent_style.borderRightWidth);
+            parent = parent.parentNode;
+        }
+        return parent_width;
+    }
+    var getOuterW=function(dom){
+        var style=getComputedStyle(dom),
+            w=0;
+        if(!!style){
+            w = parseFloat(style.paddingLeft) + parseFloat(style.paddingRight) + parseFloat(style.borderLeftWidth) + parseFloat(style.borderRightWidth);
+        }
+        return w;
+    };
+    var getOuterH =function(dom){
+        var style=getComputedStyle(dom),
+            h=0;
+        if(!!style){
+            h = parseFloat(style.paddingTop) + parseFloat(style.paddingBottom) + parseFloat(style.borderTopWidth) + parseFloat(style.borderBottomWidth);
+        }
+        return h;
+    };
+    var insertAfter = function(dom,afterDom){
+        var _p = afterDom.parentNode;
+        if(!_p){
+            return;
+        }
+        if(_p.lastChild === afterDom){
+            _p.appendChild(dom);
+        }else{
+            _p.insertBefore(dom,afterDom.nextSibling);
+        }
+    };
+    var getQuery = function(name,url){
+        
+        var u  = arguments[1] || window.location.search,
+            reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)"),
+            r = u.substr(u.indexOf("\?")+1).match(reg);
+        return r!=null?r[2]:"";
+    };
+
+    
+    function setImgSize(item, widthNum, widthUnit, ratio, breakParentWidth) {
+        setTimeout(function () {
+            var img_padding_border = getOuterW(item) || 0;
+            var img_padding_border_top_bottom = getOuterH(item) || 0;
+            
+            if (widthNum > getParentWidth(item) && !breakParentWidth) {
+                widthNum = getParentWidth(item);
+            }
+
+            height = (widthNum - img_padding_border) * ratio + img_padding_border_top_bottom;
+
+            if (isIE) {
+                var url = item.getAttribute('data-src');
+                item.src = url;
+            } else {
+                if(parseFloat(widthNum, 10) > 40 && height > 40 && breakParentWidth) {
+                    item.className += ' img_loading';
+                }
+                item.src = "data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            }
+            item.style.cssText += ";width: " + widthNum + widthUnit + " !important;";
+            item.style.cssText += ";height: " + height + widthUnit + " !important;";
+        }, 10);
+    }
+
+    (function(){
+        var images = document.getElementsByTagName('img');
+        var length = images.length;
+        var max_width = getMaxWith();
+        for (var i = 0; i < length; ++i) {
+            if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var imageItem = images[i];
+            var src_ = imageItem.getAttribute('data-src');
+            var realSrc = imageItem.getAttribute('src');
+            if (!src_ || realSrc) continue;
+            
+            var originWidth = imageItem.getAttribute('data-w');
+            var ratio_ = 1 * imageItem.getAttribute('data-ratio');
+
+            var height = 100;
+            if (ratio_ && ratio_ > 0) {
+                var parent_width = getParentWidth(imageItem) || max_width;
+                var initWidth = imageItem.style.width || imageItem.getAttribute('width') || originWidth || parent_width;
+                initWidth = parseFloat(initWidth, 10) > max_width ? max_width : initWidth;
+                
+                if (initWidth) {
+                    imageItem.setAttribute('_width', !isNaN(initWidth * 1) ? initWidth + 'px' : initWidth);
+                }
+                
+                if (typeof initWidth === 'string' && initWidth.indexOf('%') !== -1) {
+                    initWidth = parseFloat(initWidth.replace('%', ''), 10) / 100 * parent_width;
+                }
+                
+                if (initWidth === 'auto') {
+                    initWidth = originWidth;
+                }
+
+                var res = /^(\d+(?:\.\d+)?)([a-zA-Z%]+)?$/.exec(initWidth);
+                var widthNum = res && res.length >= 2 ? res[1] : 0;
+                var widthUnit = res && res.length >= 3 && res[2] ? res[2] : 'px';
+
+                
+                setImgSize(imageItem, widthNum, widthUnit, ratio_, true);
+                
+                (function (item, widthNumber, unit, ratio) {
+                    setTimeout(function () {
+                        setImgSize(item, widthNumber, unit, ratio, false);
+                    });
+                })(imageItem, widthNum, widthUnit, ratio_);
+            } else {
+                imageItem.style.cssText += ";visibility: hidden !important;";
+            }
+
+        }
+    })();
+    window.__videoDefaultRatio=16/9;
+    window.__getVideoWh = function(dom){
+        var max_width = getMaxWith(),
+            width = max_width,
+            ratio_ = dom.getAttribute('data-ratio')*1,
+            arr = [4/3, 16/9],
+            ret = arr[0],
+            abs = Math.abs(ret - ratio_);
+        if (!ratio_) { 
+            if (dom.getAttribute("data-mpvid")) { 
+                ratio_ = 16/9;
+            } else { 
+                ratio_ = 4/3;
+            }
+        } else { 
+            for (var j = 1, jl = arr.length; j < jl; j++) {
+                var _abs = Math.abs(arr[j] - ratio_);
+                if (_abs < abs) {
+                    abs = _abs;
+                    ret = arr[j];
+                }
+            }
+            ratio_ = ret;
+        }
+        
+        var parent_width = getParentWidth(dom)||max_width,
+            width = width > parent_width ? parent_width : width,
+            outerW = getOuterW(dom)||0,
+            outerH = getOuterH(dom)||0,
+            videoW = width - outerW,
+            videoH = videoW/ratio_,
+            height = videoH + outerH;
+        return {w:Math.ceil(width),h:Math.ceil(height),vh:videoH,vw:videoW,ratio:ratio_};
+    };
+
+
+    (function(){
+        var iframe = document.getElementsByTagName('iframe');
+        for (var i=0,il=iframe.length;i<il;i++) {
+            if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var a = iframe[i];
+            var src_ = a.getAttribute('src')||a.getAttribute('data-src')||"";
+            if(!/^http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)
+                && !/^http(s)*\:\/\/mp\.weixin\.qq\.com\/mp\/readtemplate\?t=pages\/video_player_tmpl/.test(src_)
+            ){
+                continue;
+            }
+            var vid = getQuery("vid",src_);
+            if(!vid){
+                continue;
+            }
+            vid=vid.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,"");
+            a.removeAttribute('src');
+            a.style.display = "none";
+            var obj = window.__getVideoWh(a),
+                videoPlaceHolderSpan = document.createElement('span'),
+                videoPlayerIconSpan = document.createElement('span'),
+                mydiv = document.createElement('img');
+
+            videoPlaceHolderSpan.className = "js_img_loading db";
+            videoPlaceHolderSpan.setAttribute("data-vid", vid);
+            
+
+            videoPlayerIconSpan.className = 'wx_video_context db'; 
+            videoPlayerIconSpan.style.display = 'none';
+            videoPlayerIconSpan.innerHTML = '<span class="wx_video_thumb_primary"></span><button class="wx_video_play_btn">播放</button><span class="wx_video_mask"></span>'; 
+
+            mydiv.className = "img_loading";
+
+            mydiv.src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            
+            
+            videoPlaceHolderSpan.style.cssText = "width: " + obj.w + "px !important;";
+            mydiv.style.cssText += ";width: " + obj.w + "px";
+            videoPlaceHolderSpan.appendChild(videoPlayerIconSpan);
+            videoPlaceHolderSpan.appendChild(mydiv);
+            insertAfter(videoPlaceHolderSpan, a); 
+            
+            a.style.cssText += ";width: " + obj.w + "px !important;";
+            a.setAttribute("width",obj.w);
+            if(window.__zoom!=1){
+                a.style.display = "block";
+                videoPlaceHolderSpan.style.display = "none";
+                a.setAttribute("_ratio",obj.ratio);
+                a.setAttribute("_vid",vid);
+            }else{
+                videoPlaceHolderSpan.style.cssText += "height: " + obj.h + "px !important;";
+                mydiv.style.cssText += "height: " + obj.h + "px !important;";
+                a.style.cssText += "height: " + obj.h + "px !important;";
+                a.setAttribute("height",obj.h);
+            }
+            a.setAttribute("data-vh",obj.vh);
+            a.setAttribute("data-vw",obj.vw);
+            if(a.getAttribute("data-mpvid")){
+                a.setAttribute("data-src",location.protocol+"//mp.weixin.qq.com/mp/readtemplate?t=pages/video_player_tmpl&auto=0&vid="+vid);
+            }else{
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+obj.vw+"&height="+obj.vh+"&auto=0");   
+            }            
+        }
+    })();
+    
+    (function(){
+        if(window.__zoom!=1){
+            if (!window.__second_open__) {
+                document.getElementById('page-content').style.zoom = window.__zoom;
+                var a = document.getElementById('activity-name');
+                var b = document.getElementById('meta_content');
+                if(!!a){
+                    a.style.zoom = 1/window.__zoom;
+                }
+                if(!!b){
+                    b.style.zoom = 1/window.__zoom;
+                }
+            }
+            var images = document.getElementsByTagName('img');
+            for (var i = 0,il=images.length;i<il;i++) {
+                if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                images[i].style.zoom = 1/window.__zoom;
+            }
+            var iframe = document.getElementsByTagName('iframe');
+            for (var i = 0,il=iframe.length;i<il;i++) {
+                if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                var a = iframe[i];
+                a.style.zoom = 1/window.__zoom;
+                var src_ = a.getAttribute('data-src')||"";
+                if(!/http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)){
+                    continue;
+                }
+                var ratio = a.getAttribute("_ratio");
+                var vid = a.getAttribute("_vid");
+                a.removeAttribute("_ratio");
+                a.removeAttribute("_vid");
+                var vw = a.offsetWidth - (getOuterW(a)||0);
+                var vh = vw/ratio;
+                var h = vh + (getOuterH(a)||0)
+                a.style.cssText += "height: " + h + "px !important;"
+                a.setAttribute("height",h);
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+vw+"&height="+vh+"&auto=0");
+                a.style.display = "none";
+                var parent = a.parentNode;
+                if(!parent){
+                    continue;
+                }
+                for(var j=0,jl=parent.children.length;j<jl;j++){
+                    var child = parent.children[j];
+                    if(child.className.indexOf("img_loading")>=0 && child.getAttribute("data-vid")==vid){
+                        child.style.cssText += "height: " + h + "px !important;";
+                        child.style.display = "";
+                    }
+                }
+            }
+        }
+    })();
+})();
+</script>
+<script nonce="1164123428" type="text/javascript">
+    var new_appmsg = 1;
+    var item_show_type = "0";
+    var can_see_complaint = "0";
+    var not_in_mm_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm435ee6.css";
+    var windowwx_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+    var article_improve_combo_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo438c19.css";
+    var tid = "";
+    var aid = "";
+    var clientversion = "";
+    var appuin = ""||"MzA4ODc0MTIwMw==";
+
+    var source = "";
+    var ascene = "";
+    var subscene = "";
+    var sessionid = ""||"";
+    var abtest_cookie = "";
+
+    var scene = 75;
+
+    var itemidx = "";
+    var appmsg_token   = "";
+    var _copyright_stat = "1";
+    var _ori_article_type = "科技互联网";
+
+    var is_follow = "";
+    var nickname = "百度安全应急响应中心";
+    var appmsg_type = "9";
+    var ct = "1548154345";
+    var publish_time = "2019-01-22" || "";
+    var user_name = "gh_016ff078c3cd";
+    var user_name_new = "";
+    var fakeid   = "";
+    var version   = "";
+    var is_limit_user   = "0";
+    var round_head_img = "http://mmbiz.qpic.cn/mmbiz/rNy2iaEEC1mNC1TxicgKic8PE7f52mzuiaDyZpRoaNicIQjqiaA44UASSkoGMROia3jZMrg2mcXsywBUdicUSLBpfUc5QQ/0?wx_fmt=png";
+    var hd_head_img = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM7FEJzUeGWbpfHpkGackfapJPicPnK7uFo4CCYCvZHAkicg/0"||"";
+    var ori_head_img_url = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM7FEJzUeGWbpfHpkGackfapJPicPnK7uFo4CCYCvZHAkicg/132";
+    var msg_title = "企业级自动化代码安全扫描实战";
+    var msg_desc = "本篇文章中，主要介绍我们自主研发的静态代码安全检测平台的整体技术原理、研发部署方案与架构、总体检出效果，以及一些具体生产环境的检出场景。";
+    var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz_jpg/rNy2iaEEC1mOsNGzE8wxYgnghGV4iaEd2ApdvA0kPqqadhTiagbJLQ9jNePTxgSKgMtSXrIcPeqwZx9FQLYxVT5fA/0?wx_fmt=jpeg"; 
+    var cdn_url_1_1  = "https://mmbiz.qlogo.cn/mmbiz_jpg/rNy2iaEEC1mOsNGzE8wxYgnghGV4iaEd2Av2xPo3WVjhfvlUKfpmyLrtfaOE2qAEpg9tIYx4zp9GERknluEFAibyg/0?wx_fmt=jpeg"; 
+    var cdn_url_235_1 = "https://mmbiz.qlogo.cn/mmbiz_jpg/rNy2iaEEC1mOsNGzE8wxYgnghGV4iaEd2ApdvA0kPqqadhTiagbJLQ9jNePTxgSKgMtSXrIcPeqwZx9FQLYxVT5fA/0?wx_fmt=jpeg"; 
+    
+    var msg_link = "http://mp.weixin.qq.com/s?__biz=MzA4ODc0MTIwMw==&amp;mid=2652531662&amp;idx=1&amp;sn=db0b96575e3dac4ace71d9dc0e0e7790&amp;chksm=8bcb4ff2bcbcc6e4ac346408132acacf980374c5e834eaa006441904c226807233d606b488df#rd"; 
+    var user_uin = "0"*1;
+    var msg_source_url = '';
+    var img_format = 'jpeg';
+    var srcid = '';
+    var req_id = '1014ewlBIqytDoO5YVkS0Rlb';
+    var networkType;
+    var appmsgid = '' || ''|| "2652531662";
+    var comment_id = "646964259787898880" || "646964259787898880" * 1;
+    var comment_enabled = "" * 1;
+    var is_need_reward = "0" * 1;
+    var is_https_res = ("" * 1) && (location.protocol == "https:");
+    var msg_daily_idx = "1" || "";
+    var profileReportInfo = "" || "";
+
+    var devicetype = "";
+    var source_encode_biz = "";
+    var source_username = "";
+    
+    var reprint_ticket = "";
+    var source_mid = "";
+    var source_idx = "";
+    var source_biz = "";
+    var author_id = "";
+
+    
+    var optimizing_flag = "0" * 1;
+    var ad_abtest_padding = "0" * 1;
+
+    var show_comment = "";
+    var __appmsgCgiData = {
+        wxa_product : ""*1,
+        wxa_cps : ""*1,
+        show_msg_voice: "0"*1,
+        can_use_page : "0"*1,
+        is_wxg_stuff_uin : "0"*1,
+        card_pos : "",
+        copyright_stat : "1",
+        source_biz : "",
+        hd_head_img : "http://wx.qlogo.cn/mmhead/Q3auHgzwzM7FEJzUeGWbpfHpkGackfapJPicPnK7uFo4CCYCvZHAkicg/0"||(window.location.protocol+"//"+window.location.host + "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_rumor_link.2x42f400.jpg")
+    };
+    var _empty_v = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/pages/voice/empty42f400.mp3";
+
+    var copyright_stat = "1" * 1;
+
+    var pay_fee = "" * 1;
+    var pay_timestamp = "";
+    var need_pay = "" * 1;
+
+    var need_report_cost = "0" * 1;
+    var use_tx_video_player = "0" * 1;
+    var appmsg_fe_filter = "contenteditable";
+
+    var friend_read_source = "" || "";
+    var friend_read_version = "" || "";
+    var friend_read_class_id = "" || "";
+
+    var is_only_read = "1" * 1;
+    var read_num = "" * 1;
+    var like_num = "" * 1;
+    var liked = "" == 'true' ? true : false;
+    var is_temp_url = "" ? 1 : 0;
+    var send_time = "";
+    var icon_emotion_switch = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch.2x42f400.png";
+    var icon_emotion_switch_active = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch_active.2x42f400.png";
+    var icon_loading_white = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif";
+    var icon_audio_unread = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/audio/icon_audio_unread42f400.png";
+    var icon_qqmusic_default = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_default.2x42f400.png";
+    var icon_qqmusic_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_source42f400.png";
+    var icon_kugou_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/kugou/icon_kugou_source42f400.png";
+
+    var topic_default_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/topic/pic_book_thumb.2x42f400.png';
+    var comment_edit_icon = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg_new/icon_edit42f400.png';
+    var comment_loading_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif';
+
+    var voice_in_appmsg = {
+        "1":"1"
+            };
+
+    var reprint_style = ''*1;
+    var wxa_img_alert = "" != 'false';
+
+    
+    var more_read_type = '0'*1;
+
+    
+    
+    
+    
+
+    
+    var weapp_sn_arr_json = "" || "";
+
+    
+    var ban_scene = "0" * 1;
+
+    var svr_time = "1549780634" * 1;
+    
+    var is_transfer_msg = ""*1||0;
+
+    var malicious_title_reason_id = "0" * 1; 
+    var malicious_content_type = "0" * 1; 
+
+    
+    var modify_time = "1548159252";
+
+    
+    var isprofileblock = "0";
+
+    
+    var hotspotInfoList = [
+                    ];
+
+        window.wxtoken = "777";
+        
+    
+    
+    
+    
+    window.is_login = '0' * 1; 
+
+    window.__moon_initcallback = function(){
+        if(!!window.__initCatch){
+            window.__initCatch({
+                idkey : 27611+2,
+                startKey : 0,
+                limit : 128,
+                badjsId: 43,
+                reportOpt : {
+                    uin : uin,
+                    biz : biz,
+                    mid : mid,
+                    idx : idx,
+                    sn  : sn
+                },
+                extInfo : {
+                    network_rate : 0.01,    
+                    badjs_rate: 0.1 
+                }
+            });
+        }
+    }
+        
+    var title ="百度安全应急响应中心";
+
+    var is_new_msg=true;
+    
+    
+
+    var is_wash = '' * 1;
+</script>
+
+<script nonce="1164123428" type="text/javascript">
+(function(_g){
+    _g.appmsg_like_type = "2" * 1 ? "2" * 1 : 1;
+    
+    _g.clientversion = "";
+    _g.passparam = ""; 
+    if(!_g.msg_link) {
+      _g.msg_link = "http://mp.weixin.qq.com/s?__biz=MzA4ODc0MTIwMw==&amp;mid=2652531662&amp;idx=1&amp;sn=db0b96575e3dac4ace71d9dc0e0e7790&amp;chksm=8bcb4ff2bcbcc6e4ac346408132acacf980374c5e834eaa006441904c226807233d606b488df#rd";
+    }
+    _g.appmsg_type = "9"; 
+    _g.devicetype = ""; 
+})(window);
+
+</script>
+
+
+        <script nonce="1164123428">window.__moon_host = 'res.wx.qq.com';window.__moon_mainjs = 'appmsg/index.js';window.moon_map = {"a/appdialog_confirm.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm.html42f400.js","widget/wx_profile_dialog_primary.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/widget/wx_profile_dialog_primary.css42f400.js","pages/iframe_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/iframe_communicate42f400.js","new_video/player.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player.html433882.js","biz_wap/zepto/touch.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/touch42f400.js","biz_wap/zepto/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/event42f400.js","biz_wap/zepto/zepto.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/zepto42f400.js","page/pages/video.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/pages/video.css435ee6.js","a/tpl/smallbanner_msg_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_msg_tpl.html42f400.js","a/tpl/smallbanner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_info_tpl.html42f400.js","a/tpl/banner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_info_tpl.html42f400.js","a/tpl/promote_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/promote_tpl.html42f400.js","a/tpl/smallcard_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallcard_tpl.html42f400.js","a/tpl/info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/info_tpl.html42f400.js","a/tpl/cardticket_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cardticket_tpl.html42f400.js","a/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_tpl.html42f400.js","a/tpl/sponsor_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/sponsor_tpl.html42f400.js","a/tpl/new_cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/new_cpc_tpl.html42f400.js","appmsg/emotion/caret.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/caret42f400.js","biz_wap/utils/localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/localstorage42f400.js","appmsg/friend_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/friend_comment_tpl.html42f400.js","appmsg/comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_tpl.html42f400.js","biz_wap/utils/fakehash.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/fakehash42f400.js","appmsg/comment_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_report42f400.js","a/appdialog_confirm.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm42f400.js","new_video/player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player4306fd.js","a/tpl/mpda_bottom_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/mpda_bottom_tpl.html42f400.js","a/tpl/crt_size_map.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_size_map42f400.js","biz_wap/jsapi/cardticket.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/cardticket42f400.js","biz_common/jquery.md5.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/jquery.md542f400.js","biz_common/utils/emoji_panel_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_panel_data42f400.js","biz_common/utils/emoji_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_data42f400.js","appmsg/emotion/textarea.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/textarea42f400.js","appmsg/emotion/nav.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/nav42f400.js","appmsg/emotion/common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/common42f400.js","appmsg/emotion/slide.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/slide42f400.js","appmsg/emotion/dom.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/dom42f400.js","pages/music_report_conf.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_report_conf42f400.js","pages/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/report4306fd.js","pages/player_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/player_adaptor42f400.js","pages/music_player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_player42f400.js","appmsg/more_read_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read_tpl.html42f400.js","appmsg/retry_ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/retry_ajax42f400.js","complain/tips.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/complain/tips42f400.js","pages/loadscript.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/loadscript42f400.js","biz_wap/utils/ajax_load_js.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_load_js42f400.js","appmsg/comment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment4317dc.js","a/ios.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios42f400.js","a/android.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android42f400.js","a/profile.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile42f400.js","a/app_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/app_card430506.js","a/sponsor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor42f400.js","a/tpl/cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cpc_tpl.html42f400.js","a/video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/video42f400.js","a/a_config.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_config42f400.js","a/tpl/crt_tpl_manager.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_tpl_manager42f400.js","a/cpc_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/cpc_a_tpl.html42f400.js","a/sponsor_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor_a_tpl.html42f400.js","a/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_tpl.html42f400.js","a/mpshop.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpshop42f400.js","a/wxopen_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/wxopen_card42f400.js","a/card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/card42f400.js","biz_wap/utils/position.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/position42f400.js","a/a_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_report42f400.js","biz_wap/utils/show_time.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/show_time42f400.js","biz_common/utils/get_para_list.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/get_para_list42f400.js","biz_wap/utils/openUrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/openUrl42f400.js","a/a_sign.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_sign438181.js","appmsg/my_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/my_comment_tpl.html42f400.js","appmsg/cmt_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cmt_tpl.html42f400.js","sougou/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/a_tpl.html42f400.js","appmsg/emotion/emotion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/emotion42f400.js","biz_common/base64.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/base6442f400.js","biz_common/utils/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report42f400.js","appmsg/articleReport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/articleReport42f400.js","biz_wap/utils/hand_up_state.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/hand_up_state42f400.js","biz_common/utils/http.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/http42f400.js","biz_common/utils/cookie.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie42f400.js","appmsg/topic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/topic_tpl.html42f400.js","pages/weapp_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/weapp_tpl.html42f400.js","biz_common/utils/monitor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/monitor42f400.js","pages/voice_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_tpl.html42f400.js","pages/kugoumusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/kugoumusic_ctrl42f400.js","pages/qqmusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_ctrl42f400.js","pages/voice_component.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_component42f400.js","pages/qqmusic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_tpl.html42f400.js","new_video/ctl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/ctl4306fd.js","appmsg/open_url_with_webview.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/open_url_with_webview4380a9.js","appmsg/more_read.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read42f400.js","appmsg/reward_entry.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/reward_entry42f400.js","appmsg/like.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like43875f.js","pages/version4video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/version4video42f400.js","biz_wap/utils/storage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/storage42f400.js","appmsg/share_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share_tpl.html42f400.js","appmsg/appmsgext.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsgext430b95.js","appmsg/img_copyright_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/img_copyright_tpl.html42f400.js","pages/video_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_ctrl42f400.js","pages/create_txv.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/create_txv42f400.js","appmsg/comment_utils.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_utils42f400.js","biz_common/ui/imgonepx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx42f400.js","appmsg/malicious_wording.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/malicious_wording42f400.js","biz_common/utils/wxgspeedsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/wxgspeedsdk42f400.js","a/a.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a4382e5.js","rt/appmsg/getappmsgext.rt.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/rt/appmsg/getappmsgext.rt42f400.js","pages/video_communicate_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_communicate_adaptor433882.js","biz_wap/utils/ajax_wx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_wx42f400.js","biz_common/utils/respTypes.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/respTypes42f400.js","biz_wap/utils/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/log42f400.js","sougou/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/index42f400.js","biz_wap/safe/mutation_observer_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/mutation_observer_report42f400.js","appmsg/fereport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport438bee.js","appmsg/fereport_without_localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport_without_localstorage438bee.js","appmsg/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report42f400.js","appmsg/report_and_source.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source4380a9.js","appmsg/page_pos.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos431b87.js","appmsg/cdn_speed_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report42f400.js","appmsg/wxtopic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/wxtopic42f400.js","appmsg/weapp.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp433882.js","appmsg/weproduct.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weproduct42f400.js","appmsg/voicemsg.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voicemsg42f400.js","appmsg/autoread.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/autoread42f400.js","appmsg/voice.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voice42f400.js","appmsg/qqmusic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/qqmusic43440b.js","appmsg/iframe.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe433882.js","appmsg/product.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/product42f400.js","appmsg/review_image.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image435a90.js","appmsg/outer_link.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link433882.js","appmsg/copyright_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/copyright_report42f400.js","appmsg/async.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async438bee.js","biz_wap/ui/lazyload_img.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img42f400.js","biz_common/log/jserr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr42f400.js","appmsg/share.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share42f50a.js","appmsg/cdn_img_lib.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib42f400.js","appmsg/finance_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/finance_communicate42f400.js","page/appmsg_new/not_in_mm.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm.css435ee6.js","page/appmsg_new/combo.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo.css438c19.js","biz_wap/utils/wapsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/wapsdk42f400.js","a/mpAdAsync.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpAdAsync4317dc.js","biz_common/utils/url/parse.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse42f400.js","appmsg/appmsg_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsg_report435ac2.js","biz_common/moment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/moment42f400.js","biz_wap/jsapi/core.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core42f400.js","biz_common/dom/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event42f400.js","appmsg/test.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/test42f400.js","biz_wap/utils/mmversion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion42f400.js","appmsg/max_age.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/max_age42f400.js","biz_common/dom/attr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr42f400.js","biz_wap/utils/ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax42f400.js","appmsg/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/log42f400.js","biz_common/dom/class.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class42f400.js","biz_wap/utils/device.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/device42f400.js","appmsg/weapp_common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp_common42f400.js","biz_common/utils/string/html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html42f400.js","cps/tpl/list_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/list_tpl.html42f400.js","cps/tpl/card_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/card_tpl.html42f400.js","cps/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/banner_tpl.html42f400.js","biz_common/tmpl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl42f400.js","appmsg/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index438e37.js"};</script><script nonce="1164123428" type="text/javascript" id="moon_inline" > window.__mooninline=1; window.setTimeout(function() {  function __moonf__(){
+if(!window.__moonhasinit){
+window.__moonhasinit=!0,window.__moonclientlog=[],window.__wxgspeeds&&(window.__wxgspeeds.moonloadedtime=+new Date),
+"object"!=typeof JSON&&(window.JSON={
+stringify:function(){
+return"";
+},
+parse:function(){
+return{};
+}
+});
+var e=function(){
+function e(e){
+try{
+var o;
+/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)?o="writeLog":/(Android)/i.test(navigator.userAgent)&&(o="log"),
+o&&t(o,e);
+}catch(n){
+throw console.error(n),n;
+}
+}
+function t(e,o){
+var n,r,i={};
+n=top!=window?top.window:window;
+try{
+r=n.WeixinJSBridge,i=n.document;
+}catch(a){}
+e&&r&&r.invoke?r.invoke(e,{
+level:"info",
+msg:"[WechatFe][moon]"+o
+}):setTimeout(function(){
+i.addEventListener?i.addEventListener("WeixinJSBridgeReady",function(){
+t(e,o);
+},!1):i.attachEvent&&(i.attachEvent("WeixinJSBridgeReady",function(){
+t(e,o);
+}),i.attachEvent("onWeixinJSBridgeReady",function(){
+t(e,o);
+}));
+},0);
+}
+var n;
+localStorage&&JSON.parse(localStorage.getItem("__WXLS__moonarg"))&&"fromls"==JSON.parse(localStorage.getItem("__WXLS__moonarg")).method&&(n=!0),
+e(" moon init, moon_inline:"+window.__mooninline+", moonls:"+n),function(){
+var e={},o={},t={};
+e.COMBO_UNLOAD=0,e.COMBO_LOADING=1,e.COMBO_LOADED=2;
+var n=function(e,t,n){
+if(!o[e]){
+o[e]=n;
+for(var r=3;r--;)try{
+moon.setItem(moon.prefix+e,n.toString()),moon.setItem(moon.prefix+e+"_ver",moon_map[e]);
+break;
+}catch(i){
+moon.clear();
+}
+}
+},r=window.alert;
+window.__alertList=[],window.alert=function(e){
+r(e),window.__alertList.push(e);
+};
+var i=function(e){
+if(!e||!o[e])return null;
+var n=o[e];
+if("function"==typeof n&&!t[e]){
+var a={},s={
+exports:a
+},c=n(i,a,s,r);
+n=o[e]=c||s.exports,t[e]=!0;
+}
+if(".css"===e.substr(-4)){
+var d=document.getElementById(e);
+if(!d){
+d=document.createElement("style"),d.id=e;
+var _=/url\s*\(\s*\/(\"(?:[^\\\"\r\n\f]|\\[\s\S])*\"|'(?:[^\\'\n\r\f]|\\[\s\S])*'|[^)}]+)\s*\)/g,m=window.testenv_reshost||window.__moon_host||"res.wx.qq.com";
+n=n.replace(_,"url(//"+m+"/$1)"),d.innerHTML=n,document.getElementsByTagName("head")[0].appendChild(d);
+}
+}
+return n;
+};
+e.combo_status=e.COMBO_UNLOAD,e.run=function(){
+var o=e.run.info,t=o&&o[0],n=o&&o[1];
+if(t&&e.combo_status==e.COMBO_LOADED){
+var r=i(t);
+n&&n(r);
+}
+},e.use=function(o,t){
+window.__wxgspeeds&&(window.__wxgspeeds.seajs_use_time=+new Date),e.run.info=[o,t],
+e.run();
+},window.define=n,window.seajs=e;
+}(),function(){
+if(window.__nonce_str){
+var e=document.createElement;
+document.createElement=function(o){
+var t=e.apply(this,arguments);
+return"object"==typeof o&&(o=o.toString()),"string"==typeof o&&"script"==o.toLowerCase()&&t.setAttribute("nonce",window.__nonce_str),
+t;
+};
+}
+window.addEventListener&&window.__DEBUGINFO&&Math.random()<.01&&window.addEventListener("load",function(){
+var e=document.createElement("script");
+e.src=__DEBUGINFO.safe_js,e.type="text/javascript",e.async=!0;
+var o=document.head||document.getElementsByTagName("head")[0];
+o.appendChild(e);
+});
+}(),function(){
+function t(e){
+return"[object Array]"===Object.prototype.toString.call(e);
+}
+function n(e){
+return"[object Object]"===Object.prototype.toString.call(e);
+}
+function r(e){
+var t=e.stack+" "+e.toString()||"";
+try{
+if(window.testenv_reshost){
+var n="http(s)?://"+window.testenv_reshost,r=new RegExp(n,"g");
+t=t.replace(r,"");
+}else t=t.replace(/http(s)?:\/\/res\.wx\.qq\.com/g,"");
+for(var r=/\/([^.]+)\/js\/(\S+?)\.js(\,|:)?/g;r.test(t);)t=t.replace(r,function(e,o,t,n){
+return t+n;
+});
+}catch(e){
+t=e.stack?e.stack:"";
+}
+var i=[];
+for(o in u)u.hasOwnProperty(o)&&i.push(o+":"+u[o]);
+return i.push("STK:"+t.replace(/\n/g,"")),i.join("|");
+}
+function i(e){
+if(!e){
+var o=window.onerror;
+window.onerror=function(){},f=setTimeout(function(){
+window.onerror=o,f=null;
+},50);
+}
+}
+function a(e,o,t){
+if(!/^mp\.weixin\.qq\.com$/.test(location.hostname)){
+var n=[];
+t=t.replace(location.href,(location.origin||"")+(location.pathname||"")).replace("#wechat_redirect","").replace("#rd","").split("&");
+for(var r=0,i=t.length;i>r;r++){
+var a=t[r].split("=");
+a[0]&&a[1]&&n.push(a[0]+"="+encodeURIComponent(a[1]));
+}
+var s=new window.Image;
+return void(s.src=(o+n.join("&")).substr(0,1024));
+}
+var c;
+if(window.ActiveXObject)try{
+c=new ActiveXObject("Msxml2.XMLHTTP");
+}catch(d){
+try{
+c=new ActiveXObject("Microsoft.XMLHTTP");
+}catch(_){
+c=!1;
+}
+}else window.XMLHttpRequest&&(c=new XMLHttpRequest);
+c&&(c.open(e,o,!0),c.setRequestHeader("cache-control","no-cache"),c.setRequestHeader("Content-Type","application/x-www-form-urlencoded; charset=UTF-8"),
+c.setRequestHeader("X-Requested-With","XMLHttpRequest"),c.send(t));
+}
+function s(e){
+return function(o,t){
+if("string"==typeof o)try{
+o=new Function(o);
+}catch(n){
+throw n;
+}
+var r=[].slice.call(arguments,2),a=o;
+return o=function(){
+try{
+return a.apply(this,r.length&&r||arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:j,
+log:"timeout_error;host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},e(o,t);
+};
+}
+function c(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this,a=t||function(){};
+return t=function(){
+try{
+return a.apply(r,arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:x,
+log:"listener_error;type:"+o+";host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},a.moon_lid=E,b[E]=t,E++,e.call(r,o,t,n);
+};
+}
+function d(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this;
+return t=b[t.moon_lid],e.call(r,o,t,n);
+};
+}
+var _,m,l,w,u,p,f,h=/MicroMessenger/i.test(navigator.userAgent),g=/MPAPP/i.test(navigator.userAgent),v=window.define,y=0,x=2,O=4,j=9,D=10;
+if(window.__initCatch=function(e){
+_=e.idkey,m=e.startKey||0,l=e.limit,w=e.badjsId,u=e.reportOpt||"",p=e.extInfo||{},
+p.rate=p.rate||.5;
+},window.__moon_report=function(e,o){
+var i=!1,s="";
+try{
+s=top.location.href;
+}catch(c){
+i=!0;
+}
+var d=.5;
+if(p&&p.rate&&(d=p.rate),o&&"number"==typeof o&&(d=o),!(!/mp\.weixin\.qq\.com/.test(location.href)&&!/payapp\.weixin\.qq\.com/.test(location.href)||Math.random()>d||!h&&!g||top!=window&&!i&&!/mp\.weixin\.qq\.com/.test(s))&&(n(e)&&(e=[e]),
+t(e)&&""!=_)){
+var u="",f=[],v=[],y=[],x=[];
+"number"!=typeof l&&(l=1/0);
+for(var j=0;j<e.length;j++){
+var D=e[j]||{};
+if(!(D.offset>l||"number"!=typeof D.offset||D.offset==O&&p&&p.network_rate&&Math.random()>=p.network_rate)){
+var b=1/0==l?m:m+D.offset;
+f[j]="[moon]"+_+"_"+b+";"+D.log+";"+r(D.e||{})||"",v[j]=b,y[j]=1;
+}
+}
+for(var E=0;E<v.length;E++)x[E]=_+"_"+v[E]+"_"+y[E],u=u+"&log"+E+"="+f[E];
+if(x.length>0){
+a("POST",location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?","idkey="+x.join(";")+"&r="+Math.random()+"&lc="+f.length+u);
+var d=1;
+if(p&&p.badjs_rate&&(d=p.badjs_rate),w&&Math.random()<d){
+u=u.replace(/uin\:(.)*\|biz\:(.)*\|mid\:(.)*\|idx\:(.)*\|sn\:(.)*\|/,"");
+var S=new Image,I="https://badjs.weixinbridge.com/badjs?id="+w+"&level=4&from="+encodeURIComponent(location.host)+"&msg="+encodeURIComponent(u);
+S.src=I.slice(0,1024);
+}
+}
+}
+},window.setTimeout=s(window.setTimeout),window.setInterval=s(window.setInterval),
+Math.random()<.01&&window.Document&&window.HTMLElement){
+var b={},E=0;
+Document.prototype.addEventListener=c(Document.prototype.addEventListener),Document.prototype.removeEventListener=d(Document.prototype.removeEventListener),
+HTMLElement.prototype.addEventListener=c(HTMLElement.prototype.addEventListener),
+HTMLElement.prototype.removeEventListener=d(HTMLElement.prototype.removeEventListener);
+}
+var S=window.navigator.userAgent;
+if((/ip(hone|ad|od)/i.test(S)||/android/i.test(S))&&!/windows phone/i.test(S)&&window.localStorage&&window.localStorage.setItem){
+var I=window.localStorage.setItem,L=0;
+window.localStorage.setItem=function(e,o){
+if(!(L>=10))try{
+I.call(window.localStorage,e,o);
+}catch(t){
+t.stack&&console&&console.error&&console.error("[TryCatch]"+t.stack),window.__moon_report([{
+offset:D,
+log:"localstorage_error;"+t.toString(),
+e:t
+}]),L++,L>=3&&window.moon&&window.moon.clear&&moon.clear();
+}
+};
+}
+window.seajs&&v&&(window.define=function(){
+for(var o,t=[],n=arguments&&arguments[0],a=0,s=arguments.length;s>a;a++){
+var c=o=arguments[a];
+"function"==typeof o&&(o=function(){
+try{
+return c.apply(this,arguments);
+}catch(o){
+throw"string"==typeof n&&console.error("[TryCatch][DefineeErr]id:"+n),o.stack&&console&&console.error&&console.error("[TryCatch]"+o.stack),
+_&&window.__moon_report&&(window.__moon_report([{
+offset:y,
+log:"define_error;id:"+n+";",
+e:o
+}]),i(f)),e(" [define_error]"+JSON.stringify(r(o))),o;
+}
+},o.toString=function(e){
+return function(){
+return e.toString();
+};
+}(arguments[a])),t.push(o);
+}
+return v.apply(this,t);
+});
+}(),function(o){
+function t(e,o,t){
+return window.__DEBUGINFO?(window.__DEBUGINFO.res_list||(window.__DEBUGINFO.res_list=[]),
+window.__DEBUGINFO.res_list[e]?(window.__DEBUGINFO.res_list[e][o]=t,!0):!1):!1;
+}
+function n(e){
+var o=new TextEncoder("utf-8").encode(e),t=crypto.subtle||crypto.webkitSubtle;
+return t.digest("SHA-256",o).then(function(e){
+return r(e);
+});
+}
+function r(e){
+for(var o=[],t=new DataView(e),n=0;n<t.byteLength;n+=4){
+var r=t.getUint32(n),i=r.toString(16),a="00000000",s=(a+i).slice(-a.length);
+o.push(s);
+}
+return o.join("");
+}
+function i(e,o,t){
+if("object"==typeof e){
+var n=Object.prototype.toString.call(e).replace(/^\[object (.+)\]$/,function(e,o){
+return o;
+});
+if(t=t||e,"Array"==n){
+for(var r=0,i=e.length;i>r;++r)if(o.call(t,e[r],r,e)===!1)return;
+}else{
+if("Object"!==n&&a!=e)throw"unsupport type";
+if(a==e){
+for(var r=e.length-1;r>=0;r--){
+var s=a.key(r),c=a.getItem(s);
+if(o.call(t,c,s,e)===!1)return;
+}
+return;
+}
+for(var r in e)if(e.hasOwnProperty(r)&&o.call(t,e[r],r,e)===!1)return;
+}
+}
+}
+var a=o.localStorage,s=document.head||document.getElementsByTagName("head")[0],c=1,d=11,_=12,m=13,l=window.__allowLoadResFromMp?1:2,w=window.__allowLoadResFromMp?1:0,u=l+w,p=window.testenv_reshost||window.__moon_host||"res.wx.qq.com",f=new RegExp("^(http(s)?:)?//"+p);
+window.__loadAllResFromMp&&(p="mp.weixin.qq.com",l=0,u=l+w);
+var h={
+prefix:"__MOON__",
+loaded:[],
+unload:[],
+clearSample:!0,
+hit_num:0,
+mod_num:0,
+version:1003,
+cacheData:{
+js_mod_num:0,
+js_hit_num:0,
+js_not_hit_num:0,
+js_expired_num:0,
+css_mod_num:0,
+css_hit_num:0,
+css_not_hit_num:0,
+css_expired_num:0
+},
+init:function(){
+h.loaded=[],h.unload=[];
+var e,t,r;
+if(window.no_moon_ls&&(h.clearSample=!0),a){
+var s="_moon_ver_key_",c=a.getItem(s);
+c!=h.version&&(h.clear(),a.setItem(s,h.version));
+}
+if((-1!=location.search.indexOf("no_moon1=1")||-1!=location.search.indexOf("no_lshttps=1"))&&h.clear(),
+a){
+var d=1*a.getItem(h.prefix+"clean_time"),_=+new Date;
+if(_-d>=1296e6){
+h.clear();
+try{
+!!a&&a.setItem(h.prefix+"clean_time",+new Date);
+}catch(m){}
+}
+}
+i(moon_map,function(i,s){
+if(t=h.prefix+s,r=!!i&&i.replace(f,""),e=!!a&&a.getItem(t),version=!!a&&(a.getItem(t+"_ver")||"").replace(f,""),
+h.mod_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_mod_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_mod_num++,
+h.clearSample||!e||r!=version)h.unload.push(r.replace(f,"")),r&&-1!=r.indexOf(".css")?e?r!=version&&h.cacheData.css_expired_num++:h.cacheData.css_not_hit_num++:r&&-1!=r.indexOf(".js")&&(e?r!=version&&h.cacheData.js_expired_num++:h.cacheData.js_not_hit_num++);else{
+if("https:"==location.protocol&&window.moon_hash_map&&window.moon_hash_map[s]&&window.crypto)try{
+n(e).then(function(e){
+window.moon_hash_map[s]!=e&&console.log(s);
+});
+}catch(c){}
+try{
+var d="//# sourceURL="+s+"\n//@ sourceURL="+s;
+o.eval.call(o,'define("'+s+'",[],'+e+")"+d),h.hit_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_hit_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_hit_num++;
+}catch(c){
+h.unload.push(r.replace(f,""));
+}
+}
+}),h.load(h.genUrl());
+},
+genUrl:function(){
+var e=h.unload;
+if(!e||e.length<=0)return[];
+var o,t,n="",r=[],i={},a=-1!=location.search.indexOf("no_moon2=1"),s="//"+p;
+-1!=location.href.indexOf("moon_debug2=1")&&(s="//mp.weixin.qq.com");
+for(var c=0,d=e.length;d>c;++c){
+/^\/(.*?)\//.test(e[c]);
+var _=/^\/(.*?)\//.exec(e[c]);
+_.length<2||!_[1]||(t=_[1],n=i[t],n?(o=n+","+e[c],o.length>1e3||a?(r.push(n+"?v="+h.version),
+n=location.protocol+s+e[c],i[t]=n):(n=o,i[t]=n)):(n=location.protocol+s+e[c],i[t]=n));
+}
+for(var m in i)i.hasOwnProperty(m)&&r.push(i[m]);
+return r;
+},
+load:function(e){
+if(window.__wxgspeeds&&(window.__wxgspeeds.mod_num=h.mod_num,window.__wxgspeeds.hit_num=h.hit_num),
+!e||e.length<=0)return seajs.combo_status=seajs.COMBO_LOADED,seajs.run(),console.debug&&console.debug("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num),
+void window.__moonclientlog.push("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num);
+seajs.combo_status=seajs.COMBO_LOADING;
+var o=0,t=+new Date;
+window.__wxgspeeds&&(window.__wxgspeeds.combo_times=[],window.__wxgspeeds.combo_times.push(t)),
+i(e,function(n){
+h.request(n,u,function(){
+if(window.__wxgspeeds&&window.__wxgspeeds.combo_times.push(+new Date),o++,o==e.length){
+var n=+new Date-t;
+window.__wxgspeeds&&(window.__wxgspeeds.mod_downloadtime=n),seajs.combo_status=seajs.COMBO_LOADED,
+seajs.run(),console.debug&&console.debug("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms"),
+window.__moonclientlog.push("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms");
+}
+});
+});
+},
+request:function(o,n,r){
+if(o){
+n=n||0,o.indexOf("mp.weixin.qq.com")>-1&&((new Image).src=location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?idkey=27613_32_1&r="+Math.random(),
+window.__moon_report([{
+offset:_,
+log:"load_script_from_mp: "+o
+}],1));
+var i=-1;
+window.__DEBUGINFO&&(__DEBUGINFO.res_list||(__DEBUGINFO.res_list=[]),__DEBUGINFO.res_list.push({
+type:"js",
+status:"pendding",
+start:+new Date,
+end:0,
+url:o
+}),i=__DEBUGINFO.res_list.length-1),-1!=location.search.indexOf("no_lshttps=1")&&(o=o.replace("http://","https://"));
+var a=document.createElement("script");
+a.src=o,a.type="text/javascript",a.async=!0,a.down_time=+new Date,a.onerror=function(s){
+t(i,"status","error"),t(i,"end",+new Date);
+var _=new Error(s);
+if(n>=0)if(w>n){
+var l=o.replace("res.wx.qq.com","mp.weixin.qq.com");
+h.request(l,n,r);
+}else h.request(o,n,r);else window.__moon_report&&window.__moon_report([{
+offset:c,
+log:"load_script_error: "+o,
+e:_
+}],1);
+if(n==w-1&&window.__moon_report([{
+offset:d,
+log:"load_script_error: "+o,
+e:_
+}],1),-1==n){
+var u="ua: "+window.navigator.userAgent+", time="+(+new Date-a.down_time)+", load_script_error -1 : "+o;
+window.__moon_report([{
+offset:m,
+log:u
+}],1);
+}
+window.__moonclientlog.push("moon load js error : "+o+", error -> "+_.toString()),
+e("moon_request_error url:"+o);
+},"undefined"!=typeof moon_crossorigin&&moon_crossorigin&&a.setAttribute("crossorigin",!0),
+a.onload=a.onreadystatechange=function(){
+t(i,"status","loaded"),t(i,"end",+new Date),!a||a.readyState&&!/loaded|complete/.test(a.readyState)||(t(i,"status","200"),
+a.onload=a.onreadystatechange=null,"function"==typeof r&&r());
+},n--,s.appendChild(a),e("moon_request url:"+o+" retry:"+n);
+}
+},
+setItem:function(e,o){
+!!a&&a.setItem(e,o);
+},
+clear:function(){
+a&&(i(a,function(e,o){
+~o.indexOf(h.prefix)&&a.removeItem(o);
+}),console.debug&&console.debug("[moon] clear"));
+},
+idkeyReport:function(e,o,t){
+t=t||1;
+var n=e+"_"+o+"_"+t;
+(new Image).src="/mp/jsmonitor?idkey="+n+"&r="+Math.random();
+}
+};
+seajs&&seajs.use&&"string"==typeof window.__moon_mainjs&&seajs.use(window.__moon_mainjs),
+window.moon=h;
+}(window),function(){
+try{
+Math.random()<1;
+}catch(e){}
+}(),window.moon.init();
+};
+e(),!!window.__moon_initcallback&&window.__moon_initcallback(),window.__wxgspeeds&&(window.__wxgspeeds.moonendtime=+new Date);
+}
+}
+__moonf__(); }, 25);</script><script nonce="1164123428" type="text/javascript">
+    var real_show_page_time = +new Date();
+    if (!!window.addEventListener){
+        window.addEventListener("load", function(){
+            window.onload_endtime = +new Date();
+        });
+    }
+
+    
+    if(typeof seajs != 'undefined' && seajs.config){
+        try{
+            seajs.config({
+              'map': [
+                [ '.js', '.js?v=' + (+new Date())]
+              ]
+            });
+        }catch(e){
+            console.info('not support seajs config');
+        }
+    }
+
+    
+</script>
+
+    </body>
+    <script nonce="1164123428" type="text/javascript">document.addEventListener("touchstart", function() {},false);</script>
+</html>
+

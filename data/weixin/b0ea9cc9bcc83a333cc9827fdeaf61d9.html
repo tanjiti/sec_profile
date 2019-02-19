@@ -1,0 +1,1702 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+
+
+        <script nonce="1543360485" type="text/javascript">
+            window.logs = {
+                pagetime: {}
+            };
+            window.logs.pagetime['html_begin'] = (+new Date());
+        </script>
+        <title>
+ NDR产品设计二三事
+</title>
+        
+<style>.radius_avatar{display:inline-block;background-color:#fff;padding:3px;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;overflow:hidden;vertical-align:middle}.radius_avatar img{display:block;width:100%;height:100%;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;background-color:#eee}.rich_media_inner{word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.rich_media_area_primary{padding:20px 16px 12px;background-color:#fafafa}.rich_media_area_primary.voice{padding-top:66px}.rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{color:rgba(0,0,0,0.3);background-color:#fafafa}.rich_media_area_extra{padding:0 16px 24px}.rich_media_extra{padding-top:30px}.mpda_bottom_container .rich_media_extra{padding-top:24px}.mpda_bottom_container .rich_media_extra .mpad_more_list{right:-10px}html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;line-height:1.6}body{-webkit-touch-callout:none;font-family:-apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif;color:#333;background-color:#f2f2f2;letter-spacing:.034em}h1,h2,h3,h4,h5,h6{font-weight:400;font-size:16px}*{margin:0;padding:0}a{color:#576b95;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_title{font-size:22px;line-height:1.4;margin-bottom:14px}@supports(-webkit-overflow-scrolling:touch){.rich_media_title{font-weight:700}}.rich_media_meta_list{margin-bottom:22px;line-height:20px;font-size:0;word-wrap:break-word;word-break:break-all}.rich_media_meta_list em{font-style:normal}.rich_media_meta{display:inline-block;vertical-align:middle;margin:0 10px 10px 0;font-size:15px;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_meta.icon_appmsg_tag{margin-right:4px}.rich_media_meta.meta_tag_text{margin-right:0}.rich_media_meta_primary{display:block;margin-bottom:10px;font-size:15px}.meta_original_tag{padding:0 .5em;font-size:12px;line-height:1.4;background-color:#f2f2f2;color:#888}.meta_enterprise_tag img{width:30px;height:30px!important;display:block;position:relative;margin-top:-3px;border:0}.rich_media_meta_link{color:#576b95}.rich_media_meta_text{color:rgba(0,0,0,0.3)}.rich_media_meta_text.rich_media_meta_split{padding-left:10px}.rich_media_meta_text.rich_media_meta_split:before{position:absolute;top:50%;left:0;margin-top:-6px;content:' ';display:block;border-left:1px solid #888;width:200%;height:130%;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0}.rich_media_meta_text.article_modify_tag{position:relative}.rich_media_meta_nickname{position:relative}.rich_media_thumb_wrp{margin-bottom:6px}.rich_media_thumb_wrp .original_img_wrp{display:block}.rich_media_thumb{display:block;width:100%}.rich_media_content{overflow:hidden;color:#333;font-size:17px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;text-align:justify;position:relative;z-index:0}.rich_media_content *{max-width:100%!important;box-sizing:border-box!important;-webkit-box-sizing:border-box!important;word-wrap:break-word!important}.rich_media_content p{clear:both;min-height:1em}.rich_media_content em{font-style:italic}.rich_media_content fieldset{min-width:0}.rich_media_content .list-paddingleft-2{padding-left:2.2em}.rich_media_content .list-paddingleft-2 .list-paddingleft-2{padding-left:30px}.rich_media_content blockquote{margin:0;padding-left:10px;border-left:3px solid #dbdbdb}img{height:auto!important}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:portrait){.rich_media_area_extra{padding-bottom:34px}}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:landscape){.rich_media_area_primary{padding:20px 60px 15px 60px}.rich_media_area_extra{padding:0 60px 21px 60px}}@media screen and (min-width:1024px){.rich_media_area_primary_inner,.rich_media_area_extra_inner{max-width:677px;margin-left:auto;margin-right:auto}.rich_media_area_primary{padding-top:32px}}.appmsg_share_notice{font-size:16px;color:#888;position:relative;padding:1.25em 0;margin-bottom:1.75em}.appmsg_share_notice:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice_hd{font-weight:700;padding-bottom:.2em}.cell{padding:.8em 0;display:block;position:relative}.cell_hd,.cell_bd,.cell_ft{display:table-cell;vertical-align:middle;word-wrap:break-word;word-break:break-all;white-space:nowrap}.cell_primary{width:2000px;white-space:normal}.flex_cell{padding:10px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.flex_cell_primary{width:100%;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;box-flex:1;flex:1}.original_tool_area{display:block;padding:.75em 1em 0;-webkit-tap-highlight-color:rgba(0,0,0,0);color:#333;border:1px solid #eaeaea;margin:20px 0}.original_tool_area .tips_global{position:relative;padding-bottom:.5em;font-size:15px}.original_tool_area .tips_global:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dbdbdb;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:27px;height:27px;padding:0;margin-right:.5em}.original_tool_area .radius_avatar img{height:100%!important}.original_tool_area .flex_cell_bd{width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal}.original_tool_area .flex_cell_ft{font-size:14px;color:#888;padding-left:1em;white-space:nowrap}.original_tool_area .icon_access:after{content:" ";display:inline-block;height:8px;width:8px;border-width:1px 1px 0 0;border-color:#cbcad0;border-style:solid;transform:matrix(0.71,0.71,-0.71,0.71,0,0);-ms-transform:matrix(0.71,0.71,-0.71,0.71,0,0);-webkit-transform:matrix(0.71,0.71,-0.71,0.71,0,0);position:relative;top:-2px;top:-1px}.rich_media_global_msg{position:fixed;top:0;left:0;right:0;padding:.85em 35px .85em 15px;z-index:2;background-color:#c6e0f8;color:#888;font-size:12px}.rich_media_global_msg .icon_closed{position:absolute;right:15px;top:50%;margin-top:-5px;line-height:300px;overflow:hidden;-webkit-tap-highlight-color:rgba(0,0,0,0);background:transparent url(//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_appmsg_msg_closed_sprite.2x42f400.png) no-repeat 0 0;width:11px;height:11px;vertical-align:middle;display:inline-block;-webkit-background-size:100% auto;background-size:100% auto}.rich_media_global_msg .icon_closed:active{background-position:0 -17px}.rich_media_global_msg.voice{color:#1aad19;background-color:#e8f6e8;padding-left:43.3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.rich_media_global_msg.voice .ic_voice{position:absolute;top:50%;margin-top:-10px;left:15px;display:inline-block;width:13.3px;height:18.3px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAA3CAYAAAB+fggjAAAAAXNSR0IArs4c6QAACb9JREFUaAW9WX9wVMUd3917d5cf/Agp1OTuQgIlQqUoI1JI1Noojg2I+VU7hVrtDDpadRypgzKjU52x09KOdsS20ypSO/WPWttcAqhTOlSoU4FIoRUn0wEZIMndBUkwGEhyv97bfvaS97L77t3lHYUuc+z3935397vf/e4LJZfQnuPPsW0d25ZQzr9mELKSUnIVzHxB/Dh+lBOKf4OEk0FOyQAl/CyltIt5tL29d/V2FzIkLUQ4FA7dwon+KCF0Fee8rBBdS5aSs/D+PUrYbyKtkb9b9BzAlA7CERrqDN1DOH8C8HU57FwSGat6kBGypbcluhMwFj+75XWwemf1vHQqtZ0T3pCtelkp73uJ79s9bT39dqs5HQyFK79jcPIKFErtSgLHjPvQHQB0EFt2hDE2QHU6RMvpkODrw3o50Uk5p3w2N/SlUKhHTNZjskHBz2pi6ylbH22J/k3mOToYCAceIYT/AgYVPhxJQTkMQ792Ez/yQCY8d0fgRl0nj8J2G5z1mvSJ3qCMrYOTb5l0xQFBDIUDjxmcbzUFJnu621/kf/DUmlM9k7RLh4LtwRChxquck0bFCqWjxENuijXF/iXoioNVnZU36wZ5D7PTTCWsWhyp4uFYa+x1k3Y5ezj6oNgtdTVpL0Lo+mhr9BwO0Xib+/bcWYZB35Sdg/sXsOSNV8o5MXK0LfoKYXQDxpJOMZ8L1g8E33JQT6aeQRoJCOJEMxjxfCvSEtlnEq5Uj5h7Ayv2I8U+5w9du/va0oyD896ZV004RQKebIzQ53EQ/jJJubJQhUa2YBXPmqNgy8vPjZ67N+NgMh6/HwSfyURgniwqLvmJif8/+sNrY6O4XV5WxjKMuvHDQOl9uCksHmX0xydWn0hYBJfAgncXzBhNjjZSnX8Fq3ENdmWWUMUhS2Ebv5HrtjDNg/+B5IY4wos0cVukUskqUwj9xfKS2W9GSEwi5QdxFS5BMn54dGzkHkhOy0x18j9COY1O5VxmhGJylIxMjgUTC7WUkfrqJAkQpfuP3nFUElO4WUgwHHza0HU1wG1SGOi0jeSI+kf92hgZlXg0yajBV0gUwri4vqZud/O7PbhxkGiNvM5NWHKV3NN8LGQbuVdDsYIVzOzHOI+ygzYhR/RAxwdbELcPZDEp+Q+2YQcS2L+Zwc4gdSUQS7Oz5BwIKUqWyq5ApEdDsVmhBKaHnHDQVUg1uwKLkkm+USEScsbjId/ra+7fbaMThMHVdpoTjuyxXloqcUg+Eqe4WBb26/5hGXeCkynyfdA9Fo/SQeZlN/StjUQtmgQUFxVnKhyJlAUGOgP13OC3ygxGWZhhSYtkYqIicUHGnWCUluoFz8mzkRzOCf14Wfyikx2ThvQ0B6XZdvhi1QaoAfZHmiMf40xMJmih4BvxWQnbNCD3i/cunoYab4FMQwr5o4zb4Uh9ZMxOM3Fsf91YfPQfOAeLTJrouYc8K3rEII0ikBcKRLTEhUQNuo8E7NSGh4dnyDOFzIioOpxkZdqyXYGSAV2rMYjhIUamkL2ZcANvG+MWWS4DU/parDm2R8AiBj/Bz3IQe14DPKeDRho1hNyonFplhgp/mmaNhpH6s0VVToNFxR7TPcVFJVZdgMG4cNBq0LvRQhyA2vLaMyDrFouTL169KzBlGkEofdnScQYMXBI/raiuXC1fs4wz2iXLI+U0y7gd3tewL41IVhLvmM6X2eWycM7nZ9EEAXWgWDWPpjWg7tx8+IbD4llhNTadTn8XcWgVBphprbhbLQkngJK/ymTdoE/IuDPME5jYSYx1HLn3EH6/B77Rq/m+FG2L3d7X1Pe+kx5kCBJp4G0clDWmAJTD0db+NhO398GO4G3cMDJBbPIY9bShfgyb+OXqMwGPV9rrskFsc6t4fck0GRZPQ5GnZBpO4x/wvrAmKfP+FzjjYF9zn5i58s0ET8MX8hnGc+BxOGnFi8innBg7UUBsFaV6Pt1CeBMrKD73qG8CbPnKUHvg/lzG+tr6DlGWufJkEWQp/tjgyMBJPF+fWrhj4XSZeSlwJgaFIhyioY7gHvS3moYyK6TRO6JN0b0mzd6HOgIbEBK/gp7fzsOBGMLUX2Z+bWvvnb1T3sd2fYFbDgoET8/56UTqKEBrizDIeY1463tae1BGObeq9qrlBtXb4aRcmVvCmOjneFq+UFZW9lJ3Q3fee9lSmgAUBwUNd+N9CPjfTfDHO0pO+z1FK081nfpUoUuIuKPPD322Gav5OMjWBCURRBGN4GH0QCGvxSwHhcFguPLnGEip97AKXd5y39dPN5yOy4PaYXGrjKToRsTMIzg4M+38cZz+LNYWe8qZp1Izh0QlEVLfctMmzNb6gCP4GGxFcij5W7usHT++NjaI4uHpadr0KkbpZvAH7DKw9iRi98lsejbFcQWF2LJ/LvOe6Yl14m5eLavhU8gqkQdlWj5YnOSL+sXNWNFNmKT1NQsLkGAez3zcIHmfj44rKAYUd2Jxcek6HCP1cHD+Ig5DzonZnT3WdOyCWFGukRUIwkGTL069kdYz319MmlOf00EhjKpiWKPku7IiDF9X3RHMecvIsjIsPqdh1ewO3SXLOMF5HRQKvS39h5GNOmVlnZP1Mu4W9pZ5/4TDZh0ybHkt3iKOqcm0OaWDQpB52DZTQfQo+Vtl3C08kQGO2OStYtlGz6CuHJxZO3MPYnHYMsDJVSKpW3ghAOXKsxaPoup86q4c7F7cncSyHZANGen0Shl3C+PSPy/L4qmZ97525aAwiMLgQ8Uwp8tl3C2MASff00KJMRW3GXLtIFbwY1kXp/kaGXcL42AoDqHit6p5JxuuHfQwj1IvIhFO9QhyGk/QpskM/C3Gyo0y3YRdOzgnNOcTHJS0qYgVrBIfLE28gF75ToN3bySfrmsHM68tTo7JxuKJ+PUyPhWcqbQ5XarI+TRlZxQeENcOjitS5dMc5/oqu8F8+ODI4FrEoPVpBTfL8akK2YIc9DCiFAkoyTbUdNSU5XPK5Im/MQPeZOKZnpNdCu6AFOTgrJLZO2FDrogrUjyxPbQ/VOxgWyG9Fn71h6hoJkMC8exlvl8qQg6I66rE1A22Vz6PEuwZExe92CrQtmmU72U+fzQ9K/15XV1dsuudrhlc50t0XX8Izq1TdAh5I9rWf69Mc4ILdlCU9kNDn32ICvZS0wySAY2W+shSUdw6OSXTCtpioSgePZrPeydWTUncstF8MPRw1dFvunFO2CnYQaGEk3cSn8iWYyVeBGoImqtG6RHxQsQfEJVskE+34C22GxOfb8fiY40owtaAJ0qnciTxcvSlE7VfBPX3IQ8lb/U2R3dgBRGu7tt/AYJkZEGv/oaXAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.rich_media_global_msg.voice .icon_more{position:absolute;right:15px;top:50%;margin-top:-6.5px;width:8px;height:13px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAmCAYAAADeB1slAAAAAXNSR0IArs4c6QAAA49JREFUSA2tVk1IVFEUPveOmhQk1ibfvLFZSJtACqJIIpCIoB+imcFV2Z9ZUVnRomgRGFn2i6mFf5XVotCZMYmgIMhlq6BFENFiwjfPAosgFzXOvNu5o3fmeue98Y16F3PP+c453/fu/xCQmvZSWwwJaC0G6P8WND9IoTmbVFRycpqAdgBWkwRo94V960RsPn1aoPpN9RI6CR0WsDWcjAErtUiqTR/S18+HnNcSTv5zYrwDSatVMgLkH6aciwfj79WYW5+OT4xfsyPnBIgvwt872qBW45ZQzaMlJXCfMPJbDQgfRUoIhduVUW2TwArpaWyX+bnYU9JAAH44FaJIccqCW76Ib7NTjhOOvFPN/8q/IvE3cR+npFJgao9rkiSUXjD2GCNqzMnPbNPYjth3mqINlJAvTsk4kiJmWa3eQe8WpxwVzwjwgFFn/CorL29EkY9qovC5CFDrKq7JVoHl6zNTJCf53/lLk78SN/FcbJRx2cZCixC4ZATGXsu4as8YgQjGamN/q5atOotn4K3A1J4BUMbgsh7Wt6sx2bcV4AkjtSPJxkDjRQL0hVwg21zEglSzN+rdKeOybTtFcgK39ajWZDFWr+IZHxfGQ8mV0YA5nMGmDVcCPNcb8R5gYJ1UCWQfp6PFCI4NyZhrAV6EIiHGrPOAB0ImkW2c0la8u8ICc0wUCWrvC1dsw+3TnN6uanDaJ4zeiIfiA9wtWIAX8XspxeA6iuBlaN88hNzCNXk+JwFOuXJYW5tMQmc+EcqgzXGb2n9XFk1NstX5yKczl89JAF+6vRaBM1m5XAu//qkRGrtb8BThTtqH2/V0LmUWwbvsiREw8X0vcJHxxNbjNm3KUuVaMjmPFuWm2CPesHc/kp+yj06hFMhj/PIOOcfVFLk6xZT0G3vMTpmc27MusityZk/OBfKOwA05MPLIDJn3OJldcxTQotpBYOyEXVEWIw/NoInvuHOznSJfVDs0GzneNw9mI+eyOSPQI9phfCqPO38TFhHaFw/Eu/LliNiMESB5w6zkzD05F8mMYJr8mFC263Fa+vAadvXloj4toEcrjlgMjgrQrseHpBcfkm67WD6M6MN6lTWZeoZjyYxGLcB57MGnsEfF3fjU2G189QBpcUqmBLrnSs4504s8GjLxrwm5qYrg3dKFf6x6VbwQ3yOS/wz8+bS0ruwfELaBY2nyoNkn4gvW65GKRn4WForwP+dONHDaOHeZAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.preview_appmsg .rich_media_title{margin-top:2.3em}@media screen and (min-width:1024px){.rich_media_global_msg{position:relative;margin-bottom:32px}.preview_appmsg .rich_media_title.rich_media_title{margin-top:0}}.pages_reset{color:#333;line-height:1.6;font-size:16px;font-weight:400;font-style:normal;text-indent:0;letter-spacing:normal;text-align:left;text-decoration:none;white-space:normal}.weapp_element,.weapp_display_element,.mp-miniprogram{display:block;margin:1em 0}.share_audio_context{margin:16px 0}.weapp_text_link{font-size:17px}.weapp_text_link:before{content:'';display:inline-block;line-height:1;background-size:contain;background-repeat:no-repeat;background-image:url('data:image/png;base64,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');vertical-align:middle;font-size:11px;color:#888;margin-right:6px;margin-top:-3px;background-position:center;height:20px;width:20px}.flex_context{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center}.flex_bd{-webkit-box-flex:1;-webkit-flex:1;flex:1;word-wrap:break-word;word-break:break-all}.original_page{background-color:#fff;font-size:16px}.account_info{padding:0 0 20px}.account_info .flex_bd{padding-left:.85em}.radius_avatar.account_avatar{width:40px;height:40px;padding:0}.account_nickname{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;line-height:1.2;color:#576b95;font-size:14px}.account_nickname_inner{font-weight:400;vertical-align:top}.account_desc{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;color:#b2b2b2;font-size:13px;line-height:1.2;padding-top:.3em}.account_desc_inner{display:inline;vertical-align:top}.share_notice{margin-bottom:20px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.share_media{padding-bottom:18px}.original_panel{padding:20px;background-color:#fcfcfc;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;overflow:hidden;position:relative}.original_panel:after{content:" ";border:1px solid #d8d8d8;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;position:absolute;top:0;left:0;width:200%;height:200%;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}.original_panel .original_account{margin-bottom:18px;position:relative;z-index:1}.original_panel .original_account_avatar{width:28px;height:28px;padding:0}.original_panel .original_account_nickname{padding-left:.85em;font-size:15px;color:#576b95}.original_panel_title{font-size:23px;color:#000;margin:0 0 16px}.original_panel_content{color:#333}.original_panel_tool{padding-top:20px;position:relative;z-index:1}.original_cell_nickname{display:inline-block;vertical-align:middle;font-weight:400;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:8em;color:#000}.original_tool_area{padding:1.17em 0;border-width:0;position:relative}.original_tool_area:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:20px;height:20px;margin-right:.2em}.original_tool_area .flex_cell{padding:0;font-size:14px}.original_tool_area .icon_access:after{margin-right:4px;top:0}.preview_appmsg .rich_media_title{margin-top:1.5em}.preview_appmsg .account_info{padding-top:3em}.original_page{background-color:transparent}.account_info{-webkit-tap-highlight-color:rgba(0,0,0,0);outline:0;padding-bottom:20px;font-size:14px}.account_info.appmsg_account_info{padding-bottom:32px}.account_info .radius_avatar img{background-color:transparent}.share_notice{font-size:16px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.original_panel{background-color:#fafafa}.original_panel:after{border-color:#e6e6e6}.original_panel .original_account_avatar{width:30px;height:30px}.original_panel_tool{font-size:14px}.original_panel_tool a{color:#576b95}.original_panel_content{font-size:17px}.share_media{padding-bottom:30px}.icon_appmsg_tag{display:inline-block;vertical-align:middle;padding:0 .5em;font-size:12px;line-height:1.5;background-color:#c3c3c3;color:#fff;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:70%}.icon_appmsg_tag.primary{color:#3bb638;padding:4px .78em;background-color:rgba(9,187,7,0.08);font-size:12px;border-top-left-radius:.95em 50%;-moz-border-radius-topleft:.95em 50%;-webkit-border-top-left-radius:.95em 50%;border-top-right-radius:.95em 50%;-moz-border-radius-topright:.95em 50%;-webkit-border-top-right-radius:.95em 50%;border-bottom-left-radius:.95em 50%;-moz-border-radius-bottomleft:.95em 50%;-webkit-border-bottom-left-radius:.95em 50%;border-bottom-right-radius:.95em 50%;-moz-border-radius-bottomright:.95em 50%;-webkit-border-bottom-right-radius:.95em 50%}.icon_appmsg_tag.default{border:1px solid rgba(0,0,0,0.1);color:rgba(0,0,0,0.3);background-color:transparent;padding:0 .54em;font-size:15px;line-height:1.3;border-top-left-radius:.67em 50%;-moz-border-radius-topleft:.67em 50%;-webkit-border-top-left-radius:.67em 50%;border-top-right-radius:.67em 50%;-moz-border-radius-topright:.67em 50%;-webkit-border-top-right-radius:.67em 50%;border-bottom-left-radius:.67em 50%;-moz-border-radius-bottomleft:.67em 50%;-webkit-border-bottom-left-radius:.67em 50%;border-bottom-right-radius:.67em 50%;-moz-border-radius-bottomright:.67em 50%;-webkit-border-bottom-right-radius:.67em 50%}.rich_media_meta_list .icon_appmsg_tag.default{margin-top:-1px}.icon_appmsg_tag.title_tag{background-color:#d04b4e}.icon_global_tag_wrp{text-align:right;padding-bottom:12px}.icon_global_tag{background-color:rgba(118,118,118,0.16);color:rgba(0,0,0,0.41);line-height:2.2;border-top-left-radius:1em 50%;-moz-border-radius-topleft:1em 50%;-webkit-border-top-left-radius:1em 50%;border-bottom-left-radius:1em 50%;-moz-border-radius-bottomleft:1em 50%;-webkit-border-bottom-left-radius:1em 50%;padding:0 1.8em 0 1.34em;font-size:12px;margin-right:-24px;display:inline-block;vertical-align:top}.global_plain_btn{display:inline-block;vertical-align:middle;padding:0 1em;line-height:2;font-size:14px;-webkit-tap-highlight-color:rgba(0,0,0,0);border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px}.global_plain_btn.primary{color:#1aad19;border:1px solid currentColor}.global_plain_btn.primary:active{color:rgba(26,173,25,0.6)}.wx_video_context{color:#fefefe;position:relative;background-color:#000}.wx_video_thumb,.wx_video_thumb_primary{position:absolute;left:0;width:100%;height:100%!important;top:0}.wx_video_thumb_primary{-webkit-background-size:cover;background-size:cover;background-position:50% 50%;background-repeat:no-repeat}.wx_video_play_btn{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);margin-top:-2px;font-size:0;border-width:0;background-color:transparent;padding:0;outline:0;z-index:2}.wx_video_play_btn:before{content:" ";display:inline-block;width:0;height:0;border-width:14px 0 14px 25px;border-color:transparent transparent transparent #fff;border-style:dotted dotted dotted solid}.wx_video_mask{position:absolute;top:0;left:0;right:0;bottom:0;z-index:1;background-color:rgba(0,0,0,0.5)}.place_audio_area{min-height:100px;background-color:#fdfdfd;display:block;margin:16px 0}.place_music_area{min-height:68px;background-color:#fdfdfd;display:block;margin:17px 0 16px}.rich_media_empty_extra{background-color:#fafafa}.appmsg_skin_default.rich_media_empty_extra{background-color:#fff}.appmsg_skin_default .rich_media_area_primary{background-color:#fff}.appmsg_skin_default .rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{background-color:#fff}.appmsg_style_default .rich_media_tool{padding-top:15px}.rich_media_title_ios{font-weight:700}.read-more__area{margin:30px 0}.read-more__desc{margin-bottom:10px}.read-more__article__extra{font-size:14px;color:rgba(0,0,0,0.5)}.read-more__article__item{margin-bottom:10px}</style>
+<style>
+        </style>
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/pc435ee6.css">
+<![endif]-->
+
+    </head>
+    <body id="activity-detail" class="zh_CN mm_appmsg  appmsg_skin_default appmsg_style_default">
+        
+<script nonce="1543360485" type="text/javascript">
+    var biz = ""||"MzAwNjA3MzEwNg==";
+    var sn = "" || ""|| "e29c35826f2098d8443ba80584638b63";
+    var mid = "" || ""|| "2651329665";
+    var idx = "" || "" || "1";
+    window.__allowLoadResFromMp = true; 
+    
+        
+</script>
+<script nonce="1543360485" type="text/javascript">
+var page_begintime=+new Date,is_rumor="",norumor="";
+1*is_rumor&&!(1*norumor)&&biz&&mid&&(document.referrer&&-1!=document.referrer.indexOf("mp.weixin.qq.com/mp/rumor")||(location.href="http://mp.weixin.qq.com/mp/rumor?action=info&__biz="+biz+"&mid="+mid+"&idx="+idx+"&sn="+sn+"#wechat_redirect"));
+</script>
+<script nonce="1543360485" type="text/javascript">
+var MutationObserver=window.WebKitMutationObserver||window.MutationObserver||window.MozMutationObserver,isDangerSrc=function(t){
+if(t){
+var e=t.match(/http(?:s)?:\/\/([^\/]+?)(\/|$)/);
+if(e&&!/qq\.com(\:8080)?$/.test(e[1])&&!/weishi\.com$/.test(e[1]))return!0;
+}
+return!1;
+},ishttp=0==location.href.indexOf("http://");
+-1==location.href.indexOf("safe=0")&&ishttp&&"function"==typeof MutationObserver&&"mp.weixin.qq.com"==location.host&&(window.__observer_data={
+count:0,
+exec_time:0,
+list:[]
+},window.__observer=new MutationObserver(function(t){
+window.__observer_data.count++;
+var e=new Date,r=[];
+t.forEach(function(t){
+for(var e=t.addedNodes,o=0;o<e.length;o++){
+var n=e[o];
+if("SCRIPT"===n.tagName){
+var i=n.src;
+isDangerSrc(i)&&(window.__observer_data.list.push(i),r.push(n)),!i&&window.__nonce_str&&n.getAttribute("nonce")!=window.__nonce_str&&(window.__observer_data.list.push("inlinescript_without_nonce"),
+r.push(n));
+}
+}
+});
+for(var o=0;o<r.length;o++){
+var n=r[o];
+n.parentNode&&n.parentNode.removeChild(n);
+}
+window.__observer_data.exec_time+=new Date-e;
+}),window.__observer.observe(document,{
+subtree:!0,
+childList:!0
+})),function(){
+if(-1==location.href.indexOf("safe=0")&&Math.random()<.01&&ishttp&&HTMLScriptElement.prototype.__lookupSetter__&&"undefined"!=typeof Object.defineProperty){
+window.__danger_src={
+xmlhttprequest:[],
+script_src:[],
+script_setAttribute:[]
+};
+var t="$"+Math.random();
+HTMLScriptElement.prototype.__old_method_script_src=HTMLScriptElement.prototype.__lookupSetter__("src"),
+HTMLScriptElement.prototype.__defineSetter__("src",function(t){
+t&&isDangerSrc(t)&&window.__danger_src.script_src.push(t),this.__old_method_script_src(t);
+});
+var e="element_setAttribute"+t;
+Object.defineProperty(Element.prototype,e,{
+value:Element.prototype.setAttribute,
+enumerable:!1
+}),Element.prototype.setAttribute=function(t,r){
+"SCRIPT"==this.tagName&&"src"==t&&isDangerSrc(r)&&window.__danger_src.script_setAttribute.push(r),
+this[e](t,r);
+};
+}
+}();
+</script>
+
+        <link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<script nonce="1543360485" type="text/javascript">
+    String.prototype.html = function(encode) {
+        var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&yen;", "¥", "&amp;", "&"];
+        
+		
+		
+		
+		
+        
+        var replaceReverse = ["&", "&amp;", "¥", "&yen;", "<", "&lt;", ">", "&gt;", " ", "&nbsp;", '"', "&quot;", "'", "&#39;"];
+	    var target;
+	    if (encode) {
+	    	target = replaceReverse;
+	    } else {
+	    	target = replace;
+	    }
+        for (var i=0,str=this;i< target.length;i+= 2) {
+             str=str.replace(new RegExp(target[i],'g'),target[i+1]);
+        }
+        return str;
+    };
+
+    window.isInWeixinApp = function() {
+        return /MicroMessenger/.test(navigator.userAgent);
+    };
+
+    window.getQueryFromURL = function(url) {
+        url = url || 'http://qq.com/s?a=b#rd'; 
+        var tmp = url.split('?'),
+            query = (tmp[1] || "").split('#')[0].split('&'),
+            params = {};
+        for (var i=0; i<query.length; i++) {
+            var arg = query[i].split('=');
+            params[arg[0]] = arg[1];
+        }
+        if (params['pass_ticket']) {
+        	params['pass_ticket'] = encodeURIComponent(params['pass_ticket'].html(false).html(false).replace(/\s/g,"+"));
+        }
+        return params;
+    };
+
+    (function() {
+	    var params = getQueryFromURL(location.href);
+        window.uin = params['uin'] || "" || '';
+        window.key = params['key'] || "" || '';
+        window.wxtoken = params['wxtoken'] || '';
+        window.pass_ticket = params['pass_ticket'] || '';
+        window.appmsg_token = "";
+    })();
+
+    function wx_loaderror() {
+        if (location.pathname === '/bizmall/reward') {
+            new Image().src = '/mp/jsreport?key=96&content=reward_res_load_err&r=' + Math.random();
+        }
+    }
+
+</script>
+
+<script nonce="1543360485" type="text/javascript">
+        window.__moon_report_uin = "0";
+            window.no_moon_ls = 0;
+    </script>
+
+        
+<script nonce="1543360485" type="text/javascript">
+    var write_sceen_time = (+new Date()); 
+</script>
+
+<div id="js_article" class="rich_media">
+    
+    <div id="js_top_ad_area" class="top_banner"></div>
+    
+    <div class="rich_media_inner">
+
+        
+        
+        <div id="page-content" class="rich_media_area_primary">
+          <div class="rich_media_area_primary_inner">
+                                    
+                        
+
+            <div id="img-content">
+
+                
+                <h2 class="rich_media_title" id="activity-name">
+                    
+                    
+                    NDR产品设计二三事
+
+                                                                                </h2>
+                <div id="meta_content" class="rich_media_meta_list">
+                                                            <span id="copyright_logo" class="rich_media_meta rich_media_meta_text meta_tag_text">原创：</span>
+                                                            <span class="rich_media_meta rich_media_meta_text">
+                                                <span id="js_author_name" class="rich_media_meta_link" data-rewardsn="" data-timestamp="" data-canreward="0">DJ的札记</span>
+                                            </span>
+                                        
+                                       
+                                                                    
+                                        <span class="rich_media_meta rich_media_meta_nickname" id="profileBt">
+                      <a href="javascript:void(0);" id="js_name">
+                        DJ的札记                      </a>
+                      <div id="js_profile_qrcode" class="profile_container" style="display:none;">
+                          <div class="profile_inner">
+                              <strong class="profile_nickname">DJ的札记</strong>
+                              <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">微信号</label>
+                              <span class="profile_meta_value">DJ_notes</span>
+                              </p>
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">功能介绍</label>
+                              <span class="profile_meta_value">关注信息安全的新技术和未来趋势</span>
+                              </p>
+                              
+                          </div>
+                          <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">
+                              <i class="profile_arrow arrow_out"></i>
+                              <i class="profile_arrow arrow_in"></i>
+                          </span>
+                      </div>
+                    </span>
+
+
+                    <em id="publish_time" class="rich_media_meta rich_media_meta_text"></em>
+
+
+
+
+
+                </div>
+                
+                
+                
+                
+                                                
+                                                                
+                                
+                
+                <div class="rich_media_content " id="js_content">
+                    
+
+                    
+
+                    
+                    
+                    <p style="text-align: center;line-height: 1.5em;"><img class="" data-copyright="0" data-ratio="0.40859375" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_jpg/cic4diaT9moKI1iaveQibtJBxAVia8bd5PZic7I1t0ez1e2llWyb8rOU7uYcDiaLjzByiau3MUzOPer5DeicnlOqpSufflQ/640?wx_fmt=jpeg" data-type="jpeg" data-w="1280" style=""  /></p><p style="line-height: 1.5em;"><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">安全行业产品经理的要求很高，不能盲目跟风炒作新概念却无视新技术能力局限。时下各大厂不惜代价高薪招聘，效果均差强人意，市场供给严重不足可见一斑。笔者今年面试了不少产品经理候选人，十个里面居然有九个会大谈特谈分析师制造的概念，想见其行业炒作热度。毫无疑问，知识自然有价值，预测趋势也能提升逼格，概念是市场宣传有力推手。问题是有些虚无缥缈高大上的概念，连炮制源头分析师都还不知道怎么落地，行业里也没见可行思路，一线产品管理者若夸夸其谈，难免让人担心是给自己挖坑、给公司挖坑、甚或是给客户挖坑。产品经理唯有脚踏实地才能真正创造价值。</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">行业真相是，安全产品的创新，全都来自于厂商或是大甲方，分析师只不过是做了些总结工作。因此，与其浮躁炒作各种报告，不如埋头研究其它厂商产品细节。产品经理必备基础能力之一是竞品分析，本篇概述了笔者在设计NDR/NTA产品过程中参考的国外领先产品界面，讲讲如何在满足行业共识基本要求的同时，体现自身技术优势以突出亮点。笔者也希望借此一文分享心得，有助于业内厂商全面提升网络流量安全分析产品的水平。</span></p><p><br  /></p><p style="text-align: center;"><img class="" data-backh="121" data-backw="523" data-before-oversubscription-url="http://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6iaq4XuwUBl7vMt5LeViay3FJ2YFcNuLXrC9Rol9YpQbuzVBTM7OVzLbw/0?wx_fmt=png" data-oversubscription-url="http://mmbiz.qpic.cn/mmbiz_jpg/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6rwW3QJrOCLCugM2F61scofibZibW5Ncm4905vcIV7xemJwg1n215dkNg/0?wx_fmt=jpeg" data-ratio="0.23135755258126195" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_jpg/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6rwW3QJrOCLCugM2F61scofibZibW5Ncm4905vcIV7xemJwg1n215dkNg/640?wx_fmt=jpeg" data-type="jpeg" data-w="523" style="width: 100%;height: auto;"  /></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">网络检测响应NDR和网络流量分析NTA看起来虽有差别，但能力几乎雷同，而NDR名称更符合安全能力发展趋势，今年来逐渐被更多厂商所接受。本文中提到的产品俱都来自全球范围内领先明星厂商。Darktrace目前估值超过16亿美元，主打无监督机器学习。Vectra宣称只用AI分析流量元数据就能获得卓越成效。ProtectWise为2016年RSAC创新沙盒十强，Awake则为2018年十强。JASK今年曾击败Splunk赢得政府大单。ExtraHop、Plixer、和Endace是流量分析老牌厂商，之前在运维方向颇有建树，近期发力安全分析。还有部分厂商如Skybox并不属于此领域，只是略微提了提功能界面。</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">NDR作为必备安全基础能力的论点已被广泛接受。早在2015年，Forrester已经指出：SIEM作为检测工具的有效性已触碰到天花板，即使是在为其提供了正确全面的日志和安全事件数据、并拥有足够资源投入运营的企业也是如此。而Ovum描绘的xDR市场发展趋势与笔者思路不谋而合，不只是针对端点和网络，针对数据和用户也都需要检测和响应能力。在笔者看来，xDR将是未来SOC运营平台的支柱模块。</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">NDR基础平台能力包括流量采集还原以及海量数据存储索引：类NetFlow的元数据采集早已远远不够安全团队施展开拳脚，至少要留存所有PCAP；大数据平台业已是主流厂商标配，无法作为亮点。如果迄今还在挣扎提供这些能力，那连入围的资格都没有。所以此部分内容就不赘述了。</span></p><p><br  /></p><hr  /><p><br  /></p><p><br  /></p><blockquote><p style="line-height: 1.5em;"><span style="font-size: 16px;"><strong>流量调查取证</strong></span></p></blockquote><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">显然地，传统安全设备日志丢失了大量信息，无法从中寻找出未知威胁的蛛丝马迹。对于正计划构建下一代SOC的组织来说，要实现超越基于传统IoC和签名特征方法、全面补充不依赖有关对手先验知识而能发现识别恶意活动行为的检测能力。因此，全量行为数据的调查取证需求迫在眉睫。</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">无论是载荷投递、C2通讯、还是内网横向移动，都不可避免会在网络流量中留下痕迹。即使是无文件攻击手段，不会在硬盘文件系统中存储木马以绕过端点杀毒，安全人员也能在流量中发现蛛丝马迹。全流量PCAP下载对SOC运营团队十分必要。大部分高级分析师都熟悉Wireshark等类似软件的使用，在研判未知威胁或疑似入侵时，也习惯于自行分析流量数据。不过，载荷文件还原，对于高级安全人员来讲也是比较麻烦的任务，毕竟网络协议众多，文件格式也十分复杂，若NDR有能力自动还原，则可大大降低工作量并显著提高效率。</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">DarkTrace可以另存流量为PCAP文件，但没有载荷文件还原功能。Darktrace的界面虽然酷炫，但显然功能比流量运维厂商产品的实用性和便捷度差了很多，后期调查时需要用户自行拆分，会非常麻烦。</span></p><p style="line-height: 1.5em;"><br  /></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.281508739650414" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6eIxLkQSEkPvCx1lB5Rbia0vfERyeVx3ibWscVEWFOb2KsJic0nG2ib0egA/640?wx_fmt=png" data-type="png" data-w="1087" style=""  /></p><p style="line-height: 1.5em;"><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">ExtraHop Reveal(x)也能导出PCAP，有多个维度可供选择，十分方便分析师后续工作；但其同样不具备载荷文件还原能力。</span></p><p style="line-height: 1.5em;"><br  /></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.33241505968778695" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6JcFrWjkKzTBJvnDd0uZ09TF92aqbvlwGRAYuCSN8v8L1TU9WBLH7Ew/640?wx_fmt=png" data-type="png" data-w="1089" style=""  /></p><p style="line-height: 1.5em;"><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">因此，在设计自己的NDR产品时，提供PCAP选择组合便十分必要。例如下图会话调查界面，可以根据时间、源IP、目的IP、协议等灵活查找并下载。</span></p><p><br  /></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.18604651162790697" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6bZGaKl1gLD2qvTV6yb10gGqRBOkpWJbicutIqQ4vAMIqib6fLT6dDcBw/640?wx_fmt=png" data-type="png" data-w="1075" style=""  /></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">除此之外，受益于我们成熟DLP产品的多年积累，我们能够提供广泛的载荷文件还原能力，这是分析师十分喜爱的常用功能，比国外产品更加出色。如下图所示。无论是利用Word宏命令的鱼叉攻击邮件、还是下载PowerShell脚本、外传盗取的敏感数据、捆绑木马的Android应用、压缩文件等等，浏览一下立知大概情况，并可随时下载获取，调查取证变得十分轻松。</span></p><p><br  /></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.33854645814167433" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6QNOzdAK1uhyKia0aEzPSQwVggO5zHx64cKdMJic3TkDAprA9mTEXicTRA/640?wx_fmt=png" data-type="png" data-w="1087" style=""  /></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">细心的读者在上图中还可发现快捷一键查询威胁情报的功能，将鼠标移到TI标志上便会列出当前可用的情报来源。我们内置了多个开源威胁情报链接，无论是URL、IP、还是文件等，都可快速获取丰富情报信息。同时，若企业已经自建威胁情报管理平台，或是外购付费服务，也可通过API轻松接入。如果想把文件扔入沙箱跑跑看，也可通过API一键导出。</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">作为对比，让我们看看国外明星产品。ExtraHop提供有限的威胁情报集成，只可查询域名和IP等的基本信息。</span></p><p><br  /></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.3443526170798898" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6CXFkUGDJW7UmWSnGsrkCzptRQZTC7scbXDZCQndD47BJkbynaLOCrg/640?wx_fmt=png" data-type="png" data-w="1089" style=""  /></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">而JASK的威胁情报集成显然略好，有VirusTotal的数据。应该也能接入其它供应商数据。</span></p><p><br  /></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.5994180407371484" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6w1Nibv7GKOAbzIBWof5Z4uibIjic8XJvic8hRsgPXs2r5Ok5iaERXTF8fow/640?wx_fmt=png" data-type="png" data-w="1031" style=""  /></p><p style="line-height: 1.5em;"><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">Plixer和Endace的界面看起来像是十年前的产品，这里就不浪费读者的宝贵时间了。</span></p><p><br  /></p><hr  /><p><br  /></p><p><br  /></p><blockquote><p style="line-height: 1.5em;"><span style="font-size: 16px;"><strong>IoC搜索匹配</strong></span></p></blockquote><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">没在SOC一线体验过的产品经理往往不知道简单的IoC搜索功能用起来会有多么顺手方便。当安全工程师读完一篇APT分析文章，好奇手痒想查查自己管辖范围内有没有中招时，NDR若配备强大的搜索功能，便可立竿见影赢得好评。</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">Darktrace名气这么大，居然只能查设备、子网、IP、主机…… 界面搜索框内的省略号很好地表达了笔者使用时无语的心情。</span></p><p><br  /></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.2231404958677686" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6ndebR1aia9X9uQEibVtcr7iagHiaxibqzqB1OLbE03SyOqC75NKYLPGHMfg/640?wx_fmt=png" data-type="png" data-w="1089" style=""  /></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">我们当然要提供更强大的功能，为威胁调查和响应工作提供更好的支撑。</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">首先，如果有木马样本的散列值，如SHA256，可以直接在搜索框内输入。</span></p><p><br  /></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.17755289788408463" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6jB8YicebD0AnozibodekDVBUT6NDjiaOBY2NtJHnn7UHKOBB5GqhPRBEg/640?wx_fmt=png" data-type="png" data-w="1087" style=""  /></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">如果想搜索一个特定文件名中关键词，或者用后缀查询一类文件，或者想看到某IP收到所有邮件eml查找钓鱼，都可以使用搜索框快速达成目标。</span></p><p><br  /></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.18089990817263543" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6C8HQlL2P1FmqxkhEFnBKiabPYdSkPy40AvOKmXz4LDUDEpUiczM7JdAA/640?wx_fmt=png" data-type="png" data-w="1089" style=""  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">&nbsp;</span></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">也许是受到Drive-by攻击不小心访问了某个特定网站被种马，也许是向某个被入侵WordPress当作C&amp;C服务器上传数据，也许想看看员工是不是违规访问了某些网站，等等，只需要输入部分URL即可迅速得到结果列表。</span></p><p><br  /></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.22171113155473782" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6JsiauHdbu9HjXg1owfS5ftjR5oeia589J8num21EuGYFAzFiaLwW6L8qQ/640?wx_fmt=png" data-type="png" data-w="1087" style=""  /></p><p><span style="font-size: 14px;">&nbsp;</span></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">而Vectra不保留流量全包自然也无法还原所有载荷。在笔者看来，这在未来会是流量分析产品的硬伤：你检测技术做得再先进，也难免有落网之鱼，不能回放未知威胁的攻击过程，不能辅助真正的威胁猎捕实践，很难提升整体安全运营水平，长期来讲会导致对抗能力的持续下降。</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">以上都是些起步能力，但做到扎实就可以为后面的高级功能打好地基。笔者个人并不喜欢产品经理去讲啥Hadoop和Spark之类的优势，或是用哪些开源项目能搭个啥高大上的平台；这里面有个很基本的经济学原理，投入资源才能创造价值：你用一周时间搭起来的平台，别人就算再笨也能用一个月时间搭起来，那什么才是你的竞争优势？所以我们内部要求产品经理更多地去关注使用场景，理解用户面临何种难题，然后发挥创造力贡献可以解决的办法，兼顾技术实现难度与资源投入管理，最后当然要形成产品固化能力。</span></p><p><br  /></p><hr  /><p><br  /></p><p><br  /></p><blockquote><p style="line-height: 1.5em;"><span style="font-size: 16px;"><strong>攻击面缩减</strong></span></p></blockquote><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">攻击面是IT基础架构容易受到网络威胁入侵的所有方式的总和，攻击者可以利用各种维度的潜在攻击向量发起行动。系统暴露在外的界面和功能，都有可能存在弱点被攻击者利用。缩减攻击者能接触到暴露面，自然会增加系统安全性。在建造一个软件系统时，如何清晰了解评价A架构设计是否比B架构更加安全，攻击面即可作为一种靠谱的评判标准。正规集团军方式管理的红队，渗透测试前总会系统梳理对方暴露的攻击面，并据此制定战略任务分解。</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">Skybox产品主打一个亮点宣传便是攻击面可视化展现：其采集各种安全设备和软件的日志，自动绘出下图供安全团队参考使用。</span></p><p><br  /></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.4563820018365473" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6x5NfBiapRKEKSZRo5V17Xuc3ufSoCI8icZvictMmibqibHgnBvBkWW8icjqg/640?wx_fmt=png" data-type="png" data-w="1089" style=""  /></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">但笔者认为上图界面固然有用，但对安全团队并不直观，效果有限。直接针对防火墙、负载、网关、IPS等设备的攻击少之又少，而那些真正危险的潜在攻击面并没有显示出来。也完全可以理解，Skybox只采集设备日志，就算吹出个花来，充其量做成个有特长的缩减版SIEM。当然Skybox的漏洞管理和路径分析还不错。不过这里还是让我们正视实际需求，一起看看真正的攻击面评估。</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">例如最近泛滥的GandCrab和GlobeImposter勒索病毒通过爆破RDP弱口令进行攻击，那么安全团队若能知道网络中存在哪些设备私自开放RDP服务便可以提前准备防患于未然。又如影响范围极广的Drupal CVE-2018-7600/2远程代码执行漏洞，安全团队希望能随时掌控对外提供HTTP服务的设备有哪些未报备，属于私自搭设不在管理范围之内，然后点击按钮便可确定其使用了哪些组件，是否使用了Drupal。这样是不是很方便很期待？我们需要找到一种恰到好处的展现方式。</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">当笔者看到ExtraHop的界面时顿觉眼前一亮，Reveal(x)中描述网络活跃度的汇总界面十分直观清晰。</span></p><p><br  /></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.4756657483930211" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6yyicaXs4W73ctDmiaoQ4wVXt9QtIHyT5H8iae514xlyPUoSGn3J2Le0xQ/640?wx_fmt=png" data-type="png" data-w="1089" style=""  /></p><p style="line-height: 1.5em;"><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">上图虽然不是描述攻击面的界面，但笔者认为比Skybox中可视化过度的攻击面界面更直观简洁：花花绿绿大圈小圈对提高SOC团队效率并无帮助。因此，在我们的产品中，也采用了类似ExtraHop的展现方式，不过做了本质的修改：不再强调网络流量种类和活跃度，更关注暴露在外的应用服务、设备、与协议。这些结果都是通过网络流量被动发现，没有进行主动扫描，所以至少都是有其它人在使用的服务。点击每条会有更详细列表和进一步操作功能。</span></p><p><br  /></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.4086317722681359" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6506Aib2UTeM1Ibw4RZDRrvWsRvx2h2QaNFbXtpicRUExHpbvs7dNvFCQ/640?wx_fmt=png" data-type="png" data-w="1089" style=""  /></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">安全人员可以调查每个风险应用的详情，例如HTTP服务器的组件构成。看看下图，果然有使用Drupal的，接下来就需要去问询所有者部门或责任人是不是打好漏洞补丁了。</span></p><p><br  /></p><p style="line-height: 1.5em;"><img class="" data-copyright="0" data-ratio="0.49720149253731344" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6nktskteRV9hib6D6SFXp5zEmPUrPkic83LLPGDLpsZtDCBshricseZkwQ/640?wx_fmt=png" data-type="png" data-w="1072" style="text-align: center;"  /></p><p style="line-height: 1.5em;"><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">正如上文所说，未经备案的不在管理范围之内的RDP、HTTP、CIFS、DB等服务都是潜在可被利用的攻击面，NDR提供了让安全团队时时掌握潜在风险的能力，获取主动优势。更多关于攻击面缩减的功能也已在产品路线图的计划中。</span></p><p><br  /></p><hr  /><p><br  /></p><p><br  /></p><blockquote><p style="line-height: 1.5em;"><span style="font-size: 16px;"><strong>行为画像和异常发现</strong></span></p></blockquote><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">ExtraHop批评Darktrace没有提供足够的流量可见性，只是笼统地告诉用户，你这台设备发生过异常流量行为，对安全运营价值不大。此评价自然有一定道理，不过笔者认为不同厂商产品侧重点不同各有千秋，片面追求大而全也难免丧失特点，客户选择适合自己的便好，厂商也没必要太过纠结。所谓无监督机器学习是有这个问题，难以解释机器给出的结果的原因，不能给SOC团队明确的行动线索。</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">Darktrace对自己的算法历来都是语焉不详，见不到任何论文，会议演讲也都是售前套路，委实有些不可思议。笔者也只能多次在展台前把玩演示环境并且与工作人员仔细交流，进而推测其背后使用了什么数学方法。还有一点神奇之处在于，读者们都知道，一般来说同一个产品方向总会有几个团队同时前进互相竞争，但放眼望去，整个安全行业没有另外一家使用与Darktrace类似宣传口径，这不免令人啧啧称奇。让我们一起看看Darktrace产品界面，下图右侧画出了风险设备的历史活动趋势曲线。</span></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">&nbsp;</span></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.25436179981634527" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6TI01HNGVicvnmwzYQDqhqlWwOH6wJdVaXzDu5d5AIDIL4eXVT1DcEVw/640?wx_fmt=png" data-type="png" data-w="1089" style=""  /></p><p style="line-height: 1.5em;"><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">关于行为画像与用户意图预测，我们在DLP产品里早已大规模应用。贝叶斯估计算法也并没有多高的技术门槛，简单的回归算法如果工程化好往往也有意想不到的称心效果。我们先搬来一部分能力加入NDR，例如下图的三维立体展现，从IP流量、IP连接数、和应用流量等维度分析，底层蓝色是算法基于历史数据预测出的正常区间，上层是实际发生的超出正常的倍数，这种可视化辅助安全团队观测很直观，发现异常也很轻松，比上图界面更加有说服力。</span></p><p><br  /></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.3415977961432507" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6nnXVoeauFsfHCmlOl2icnjIT1NYVwDu80EyUqM0569v9yEhQzVeQMJQ/640?wx_fmt=png" data-type="png" data-w="1089" style=""  /></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">如果读者最近看过一篇翻译自Darktrace的软文，也许还记得其中描述的检测场景，摘录如下：</span></p><p><br  /></p><blockquote><p style="line-height: 1.5em;"><span style="color: rgb(136, 136, 136);font-size: 14px;"><em>Darktrace在一家医疗技术公司发现了这样的案例：数据分批小量慢速地渗漏出去，传统安全工具完全察觉不到，根本不会发出警报。被感染设备多次连接外部IP地址，每次连接都少于1MB，但发送的数据总量竟然达到了15GB。</em></span></p></blockquote><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">所谓这样的检测能力，如果不想花钱，Bro + Kibana也能快速可视化展现。不过要想从数千台服务器中找出异常风险，可不是简单堆叠开源模块就能搞定的，需要投入资源进行二次开发，且不说成本并不低，先得招聘到市场上严重匮乏的合适产品和研发经理。此外，只发现流量异常显然不够，我们希望画像是多维度立体的，例如新增端口和新增IP对于中后台服务器来说也是风险行为，我们产品界面表现得十分清楚，如下图。</span></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">&nbsp;</span></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.7318640955004592" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6PzKzLSXERMicJGibpeNKBcWkkzE0D4cby6gyk2oJGfAh61xjCq2Y0sJg/640?wx_fmt=png" data-type="png" data-w="1089" style=""  /></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">说到行为画像，还有种可行方法：界定某种类型威胁场景，然后组合多种恶意行为，综合评估风险。例如下图JASK定义“内部威胁 – 横向移动伴随流量增加”，表现行为包括短URL连接、无效服务器SSL证书、主机匹配威胁情报、发现SMB扫描、SMB文件读取、垂直端口扫描等。前三条其实跟横向移动半毛钱关系都没有，但确实贡献了此资产的风险数值。</span></p><p><br  /></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.5619834710743802" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6MhvgsTeEqBByZZRUYx4OZ3CAvQVuLlXOFQSmgzfp3IGEkCorXICrBQ/640?wx_fmt=png" data-type="png" data-w="1089" style=""  /></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">对此，笔者倒觉得没必要自作主张追求创新，老老实实按照ATT&amp;CK模型去设计便好。行业大多数工程师接受且熟悉的框架，更容易上手，学习成本较低，何乐而不为。</span></p><p><br  /></p><hr  /><p><br  /></p><p><br  /></p><blockquote><p style="line-height: 1.5em;"><span style="font-size: 16px;"><strong>威胁猎捕</strong></span></p></blockquote><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">许多大型企业已经敏感地意识到威胁猎捕是SOC的重要职能：主动调查发现攻击者痕迹以尽早拦截、追踪、和清除入侵者行动。这需要安全团队完成大量数据调查和分析工作才有可能发现未知威胁。传统SIEM或大数据平台将原始数据和日志采集并建立索引后，并不能主动给出线索或假设，分析人员需要依据个人经验和逻辑自行发挥，工作效率难以提高。采用机器学习和自动化数据处理的NDR可为SOC提供准确高效的威胁狩猎能力。</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">以一台被入侵终端作为线索或假设，探究对手在内网的活动范围，是安全分析工程师日常进行威胁猎捕的典型任务，因此有很多固定操作流程以发现特定类别的表征。支持可视化发现的方便程度，便是衡量产品优劣的重要标准，几乎所有NDR产品都会提供。例如，通过SMB漏洞横向移动，便会产生入侵终端与多个PC间CIFS网络流量；同一个botnet的木马，在某时间段会与特定C&amp;C服务器联系，等等。例如下图Awake的界面是很常见的范例：</span></p><p><br  /></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.5564738292011019" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6V50EtsrZzb90KT5VqjBkPNicZ6mJYxqNTk9gglBHzyIoSbk8W1dUGxA/640?wx_fmt=png" data-type="png" data-w="1089" style=""  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">&nbsp;</span></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">但是上图有个明显缺陷：只在小规模网络中效果不错；大规模企业网络中，终端数量高达数万个，很可能造成节点与连线十分拥挤，难以辨识操作。同样的问题在产品界面中经常出现，产品经理往往只注重酷炫美观，而为此故意忽视实用性与操作难度。笔者去年第一次去Veriflow展台看产品演示时，一看到类似界面便询问过相同疑惑，有位核心团队成员坦承下一版会加以改进。更好的设计是先筛选，过滤掉风险概率极低的网络连接和设备，只显示存在可疑行为的节点与连接。笔者更喜欢Vectra的界面，作为检测很直观，但它缺少了外部连接，不能一眼看出来线索，无法对威胁猎捕形成有效支撑。</span></p><p><br  /></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.5335169880624426" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6VPtQG2Ttn0vo8qTDbgUrbFL34jqia2EWBwEbLch5Uic6UDlmibiav3LwQw/640?wx_fmt=png" data-type="png" data-w="1089" style=""  /></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">来看看我们产品的界面设计。</span></p><p><br  /></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.6376404494382022" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6hNtU3Zerj523XSbxTl9ibDlFlRMxrzbcR9ZDqXfuFLURWHuriaB7jJug/640?wx_fmt=png" data-type="png" data-w="1068" style=""  /></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">上图中192.168</span><span style="font-size: 14px;">.30.167存在攻击链多个阶段入侵行为表征，已被确认攻陷。读者们应该都知道8.8.8.8是Google公共DNS服务。透过8.8.8.8连接47.94.129.64是DNS隐蔽隧道的攻击手段，被熟知的地址经常被安全工程师忽略。我们可以看到，192.168.100.89拥有类似现象，那么工程师下一步就应该详细调查此设备。而221.8.69.25也是个外网DGA解析出的地址，内网中还有192.168.100.31也与此IP有网络活动，显然此设备也存在风险。此外，192.168.30.167与192.168.30.62有SMB连接，有可能是横向移动，也需要看看。</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">看起来晕晕的ProtectWise界面，信息量太大，真是难为了产品经理和界面设计师，恐怕用户也很发愁，总感觉不懂应该点击哪里，不知道怎么评论好。</span></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">&nbsp;</span></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.5509641873278237" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6XQKQz89j7foZHuPoDdiaXczibdYHqO9icehbS9l3c2ndaRvpuvcsRSMuQ/640?wx_fmt=png" data-type="png" data-w="1089" style=""  /></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">时间轴也是重要可视化能力，有助于工程师理清纷繁复杂入侵活动，理解攻击者意图和手法。如下图所示，整个攻击流程十分清晰：先使用鱼叉诱使用户运行downloader，利用文件混淆下载payload，然后出现DGA域名解析请求、以及DNS隐蔽隧道，后面还出现了SMB横向移动以及RAR加密分卷外发。安全分析员每天处理高达数百上千条报警事件的追查，常常需要自行推测并还原黑客对手的攻击思路和入侵路线，亟需有效的辅助工具。筛选高风险的潜在被入侵设备，按照发生时间先后顺序将针对性攻击手段汇总到一处，剥茧抽丝，辅助还原攻击手法路径，能大幅提高响应团队的工作效率。</span></p><p><br  /></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.5794306703397613" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN645z8aHKuCWgwy5PLg0yEEL9KtqqJibZYIWAJ4GgDRic3tU7JMJicBCGBA/640?wx_fmt=png" data-type="png" data-w="1089" style=""  /></p><p style="line-height: 1.5em;"><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">时间轴还能辅助安全团队发现缺失的攻击步骤，这些步骤往往是利用能绕过现有防护措施的弱点，所以没能被现有检测机制识别，例如0-day或者新流程逻辑漏洞等等。在对抗过程中及时发现弱点并加以改进，是安全团队的重要日常任务。</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">上文提到的文件载荷还原与索引、以及IoC匹配查询也是威胁猎捕的重要支撑能力，这里就不举例说明了。</span></p><p><br  /></p><hr  /><p><br  /></p><p><br  /></p><blockquote><p style="line-height: 1.5em;"><span style="font-size: 16px;"><strong>攻击行为检测</strong></span></p></blockquote><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">市面上NDR产品检测入侵几乎没有采用特征规则、沙箱、威胁情报匹配技术的，一般都是以识别攻击行为作为卖点。前几年还鲜有落地的DGA、DNS隧道、内网横向移动等使用机器学习才可有满意效果的先进检测技术，目前已是标配。国外厂商中，传统做流量分析的这部分能力较弱，缺乏亮点，我们主要看看新兴专注安全那几家。攻击行为检测内容太多，限于篇幅，笔者简单摘录一些界面供读者参考，以后有时间按实际场景再展开细说。</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">首先，让我们看看Awake里风险设备的界面，左侧是实体信息，包括设备属性，右侧按时间列出了威胁检出项目。这种展示方式有个严重的问题，安全人员需要花费很多时间上下滚动列表才能得知发生了些什么事件，然后需要再花很多时间自行归纳总结。界面看起来漂亮，该有的似乎也都有，但总是有种雾里看花的感觉。想要做出好用的产品来，必须要加以改进。</span></p><p><br  /></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.418732782369146" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6vBicgKbbqYbLYXaGQJibb0ff88HHicibWC1tk6Fj3BeGtdvEp62TSMoKnQ/640?wx_fmt=png" data-type="png" data-w="1089" style=""  /></p><p style="line-height: 1.5em;"><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">笔者十分认同Awake强调实体的提法，虽然其宣传的知识图谱概念不过是个噱头。以风险实体为核心，一直是我们内部产品设计的重要思路。从DLP产品开始，我们便力图多维度展现“数据 – 设备 – 员工”三个实体各自属性，以及三者之间发生的关系，强调数据资产的全局分布可视化，清楚表述每台设备中拥有的数据，并将“员工”作为实体检测其行为风险与恶意意图。我们的NDR产品延续了此设计思路，用户可以在界面中处处查询相关实体的属性与关系图谱。</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">改进Awake界面的方向，是提供实体风险概述页面，让安全人员一览便可得知此设备出现过何种异常。针对一个高风险设备实体的攻击行为，我们的产品界面如下图所示：</span></p><p><br  /></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.1414141414141414" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6iaUMUdbIVSLicpcSniaykkKs7ia1VBeQNgPvibFMKMibwEPeXVSyPrvDYiccQ/640?wx_fmt=png" data-type="png" data-w="1089" style=""  /></p><p style="line-height: 1.5em;"><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">左侧是攻击手段列表，安全工程师扫一眼便可大致掌握情况。点击任何一项可以看到概述。上图可以看到恶意域名请求一类行为中出现的DGA。右上角的溯源按钮点击后会弹出新页面，详细列出与此设备相关联的此攻击行为细节。注意，是经过流量还原且数据处理分析后的细节。例如，下载PowerShell脚本，可以看到具体的ps1文件；又如，邮件攻击，可以看到具体邮件内容，包括发件人、标题、正文、和附件等。如下图所示，在左侧选择DNS隐蔽隧道，再点击溯源按钮，我们会看到具体的经过还原的DNS查询请求细节。</span></p><p><br  /></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.4406623735050598" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6uzYPWiahaEJTVAwc0fciaz7AGB0WnuLYVOPgticGWwMYFHmxhu4rKUbAg/640?wx_fmt=png" data-type="png" data-w="1087" style=""  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">&nbsp;</span></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">Awake居然还让用户自己写正则表达式发现DNS隐蔽隧道，如下图，笔者十分不理解这种设计——就算写不出来机器学习识别模块，也可以做成预置正则规则，降低用户工作量。</span></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">&nbsp;</span></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.5638200183654729" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6MkAyXenBLklADgdkzywbiaHAVvD5GEhv1nLFuQSibFUaiaFFCou6Ul9Lw/640?wx_fmt=png" data-type="png" data-w="1089" style=""  /></p><p style="line-height: 1.5em;"><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">Awake后台数据字段设计十分精妙，查询语言也很漂亮，感兴趣的读者不妨自己去研究。但是笔者觉得让一线安全人员花费大量时间去学习和熟悉一种新格式语言，去自己总结场景规则，有悖于提高效率的目标；而且对于总是招不到人的小团队来讲，负担过重。这也是笔者并不看好小安全团队自建Elastic Stack的做法：平台易搭，规则难产；只有熟悉攻防对抗的有经验的资深员工才能写出场景相关的检测模型，还需产品管理能力做总体规划并恰当展现，否则很容易沦为吹牛用的摆设。<br  /></span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">我们看到，国外NDR产品里，也有识别攻击手段不用高级数据分析技术机器学习的，例如下图JASK短域名链接检测，只是这种方法的实际意义不大，需要辅以其它行为检测才能降低误报。</span></p><p><br  /></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.5619834710743802" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6N7UroF5qFNRzUZ2moSBUhJhwqSzwYUGaRpGrecLe8D0bSsIRx3cleg/640?wx_fmt=png" data-type="png" data-w="1089" style=""  /></p><p style="line-height: 1.5em;"><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">说起来，攻击行为检测深度与载荷还原能力也有关系，例如我们的产品可以识别出IMAP协议收到邮件里的RAR压缩包里是不是有IQY文件，显然只采集元数据的产品无法还原整个拼图。不了解IQY危害性的读者可以去查查关于FlawedAmmyy的威胁报告。</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">下图是ProtectWise的产品，笔者有轻微密集恐惧症，总是看类似界面不顺眼，不知道页面焦点在哪里，一眼看上去都是重要信息，再细看却又觉得都不重要，产品经理到底要通过这个页面告诉用户啥呢？</span></p><p><br  /></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.5564738292011019" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6HkwSqZSZX4Tq4h8RYh2418a684Cz76WOkx0QhMibwfPffJr9q0gDAicw/640?wx_fmt=png" data-type="png" data-w="1089" style=""  /></p><p style="line-height: 1.5em;"><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">这是ProtectWise官方宣传材料里的界面截图。读者可以仔细看看，检测事件流按时间排列，内网不同设备实体混杂在一起，不同攻击手段混杂在一起，上面红色箭头标记的地方写着34.7千条结果，如此体积庞大的“干草堆”，是打算给SOC响应团队一个下马威吗？</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">下图的事件项目列表显示了ProtectWise的检测能力。不知道读者有没有同感，虽然界面很酷很漂亮，但是产品经理貌似不懂应该如何组织展现结果，总是乱糟糟堆在一起，让人头大。</span></p><p><br  /></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.5564738292011019" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/cic4diaT9moKLfjucdZWkOJMFhnS0HSkN6BSNhpcEC1icialoALgjicXibViab9ZuCjyGFHzKrfwHCib6Uh9LoN9Z2b8sg/640?wx_fmt=png" data-type="png" data-w="1089" style=""  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;"><br  /></span></p><p><br  /></p><hr  /><p><br  /></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 14px;">本文篇幅已经过长，就到这里戛然而止吧。最后，上面提到的国外产品俱为行业明星，非常有竞争力，特点明显优势突出。反正这些厂商也进不来国门，欠缺之处可以随便说，大家看完开心一笑而过。做产品有很多难关要渡过，设计时便需考虑技术可行性，后面工程障碍更是数不胜数。笔者对自己家产品的吐槽更加凶猛，能正视缺点不足才能持续改良进步，总比盲目自大吹嘘炒作要好。高标准带来的好处便是，无论你觉得我们的产品目前是垃圾或是优秀，半年之后再看都会让你感觉有了大幅飞跃提升。同时也要感谢甲方同学的包容与鞭策。</span></p><p><br  /></p><p><br  /></p><p style="line-height: 1.5em;"><br  /></p>
+                </div>
+                <script nonce="1543360485" type="text/javascript">
+                    var first_sceen__time = (+new Date());
+
+                    if ("" == 1 && document.getElementById('js_content')) {
+                        document.getElementById('js_content').addEventListener("selectstart",function(e){ e.preventDefault(); });
+                    }
+
+                    
+                    (function(){
+                        if (navigator.userAgent.indexOf("WindowsWechat") != -1){
+                            var link = document.createElement('link');
+                            var head = document.getElementsByTagName('head')[0];
+                            link.rel = 'stylesheet';
+                            link.type = 'text/css';
+                            link.href = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+                            head.appendChild(link);
+                        }
+                    })();
+                </script>
+
+                
+                <div class="ct_mpda_wrp" id="js_sponsor_ad_area" style="display:none;"></div>
+                
+                
+                <div class="read-more__area" id="js_more_read_area" style="display:none;">
+                    
+                </div>
+
+                
+                                <div class="reward_area tc reward_area_primary" id="js_reward_area" style="display:none;">
+                    <div class="reward-avatar" style="display: none;" id="js_reward_avatar">
+                        <img src="" alt="" id="js_reward_author_head">
+                    </div>
+                    
+                                       
+                                                <div class="reward-author" style="display: none;" id="js_reward_author">DJ的札记</div>
+                                            
+                                       
+
+                                        <p>
+                        <a class="reward_button" id='js_reward_link' href="##"><span id="js_reward_link_text">赞赏</span></a>
+                    </p>
+                    <div id="js_reward_inner" class="reward_area_inner" style="display:none;">
+                        <p class="weui-loadmore weui-loadmore_line reward_user_tips" id="js_reward_total_parent">
+                          <span class="weui-loadmore__tips">
+                            <a href="##" id="js_reward_total"></a>&nbsp;<span id="js_reward_total_text">人赞赏</span>
+                        </span>
+                        </p>
+                        
+                        <div id="js_reward_list" class="reward_user_list"></div>
+                    </div>
+                </div>
+                                <div class="reward_qrcode_area reward_area tc" id="js_reward_qrcode" style="display:none;">
+                    <p class="tips_global">长按二维码向我转账</p>
+                                        <p class="reward_tips"></p>
+                    <span class="reward_qrcode_img_wrp"><img class="reward_qrcode_img" id="js_reward_qrcode_img"></span>
+                    <p class="tips_global">受苹果公司新规定影响，微信 iOS 版的赞赏功能被关闭，可通过二维码转账支持公众号。</p>
+                </div>
+                                                
+                
+                            </div>
+                                    
+                        
+
+
+                        
+            <ul id="js_hotspot_area" class="article_extend_area"></ul>
+
+
+            
+
+            
+
+
+<div class="rich_media_tool" id="js_toobar3">
+
+        <div id="js_read_area3" class="media_tool_meta tips_global_primary meta_primary" style="display:none;">阅读 <span id="readNum3"></span></div>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_praise" id="like_old">
+        <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum_old"></span>
+    </span>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_like" id="like3">
+        <button class="like_btn" id="js_like_btn"> 
+          <span id="js_like_wording"> 好看</span><span class="like_num" id="likeNum3"></span>
+        </button>
+    </span>
+
+    <div id="js_like_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog weui-dialog_haokan">
+        <div class="weui-dialog__hd"><strong class="weui-dialog__title" id="educate_title">已推荐到看一看</strong></div>
+        <div class="weui-dialog__bd">
+          <img class="pic_haokan" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_haokan42f400.png">
+            你的朋友可以在“发现”-“看一看”看到你认为好看的文章。        </div>
+        <div class="weui-dialog__ft" id="educate_btn" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_default" id="js_cancel">取消</a>
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_confirm">推荐</a>
+        </div>
+        <div class="weui-dialog__ft" id="educate_btn2" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_acknowledge">我知道了</a>
+        </div>
+        </div>
+    </div>
+
+    <div id="js_unlike_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog">
+        
+        <div class="weui-dialog__bd">
+            已取消，“好看”想法已同步删除        </div>
+        <div class="weui-dialog__ft">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_unlike_know">知道了</a>
+        </div>
+        </div>
+    </div>
+
+    
+    </div>
+
+
+<div class="like_comment_wrp" id="js_a_like_comment" style="display: none;">
+  <div class="like_comment_inner">
+    <div class="like_comment_hd" style="display:none" id="js_like_title"></div>
+    <div class="like_comment_bd">
+      <div class="tips_global_primary like_comment_tips">
+        <i class="weui-icon-success"></i>已推荐到看一看<a href="javascript:;" class="like_comment_share_link" id="js_a_like_comment_share">和朋友分享想法</a>
+      </div>
+    </div>
+    <div class="like_comment_ft">
+      <span id="js_a_like_comment_msg" class="like_comment_msg" style="visibility:hidden">最多200字，当前共<span id="js_a_like_current_cnt"></span>字</span>
+      <button class="like_comment_btn" disabled="disabled" id="js_a_like_confirm">发送</button>
+    </div>
+  </div>
+</div>
+
+<div id="js_like_toast" style="display: none;">
+  <div class="weui-mask_transparent"></div>
+  <div class="weui-toast">
+    <i class="weui-icon-success-no-circle weui-icon_toast"></i>
+    <p class="weui-toast__content" id="js_toast_msg">已发送</p>
+  </div>
+</div>
+
+
+<div style="display: none;" id="js_b_comment_panel" class="like_comment_primary_pop">
+  <div class="like_comment_primary_wrp" id="js_b_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <h4 class="like_comment_primary_title">
+          朋友将在看一看看到        </h4>
+        <button id="js_b_like_confirm" class="like_comment_primary_btn">确定</button>
+      </div>
+      <div id='js_b_comment_text_first' class="like_comment_primary_bd">
+        <span class="tips_global_primary">
+          分享你的想法...        </span>
+      </div>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_1"></div>
+</div>
+
+<div style="display: none;" id="js_b_comment_final">
+  <div class="like_comment_primary_wrp editing" id="js_comment_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <button class="like_comment_primary_cancel" id="js_b_comment_cancel">取消</button>
+        <h4 class="like_comment_primary_title"> 分享想法到看一看 </h4>
+        <button class="like_comment_primary_btn" id="js_b_comment_confirm">确定</button>
+      </div>
+      <div class="like_comment_primary_bd">
+        <textarea class="like_comment_textarea weui-textarea" placeholder="分享你的想法..." id="js_b_comment_text_second"></textarea>
+      </div>
+      <span class="like_comment_msg" id="js_b_like_comment_msg" style="visibility: hidden;">最多200字，当前共<span id="js_b_like_current_cnt"></span>字</span>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_2"></div>
+</div>
+
+<div id="js_loading" style=" display: none;">
+    <div class="weui-mask_transparent"></div>
+    <div class="weui-toast">
+        <i class="weui-loading weui-icon_toast"></i>
+        <p class="weui-toast__content">发送中</p>
+    </div>
+</div>
+
+<div id="js_fail" style="display:none">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+    <div class="weui-dialog__bd">
+        网络异常，请稍后重试    </div>
+    <div class="weui-dialog__ft">
+      <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_fail_inform">知道了</a>
+    </div>
+    </div>
+</div>
+
+
+
+                      </div>
+        </div>
+
+        <div class="rich_media_area_primary sougou" id="sg_tj" style="display:none"></div>
+
+
+        
+        <div class="rich_media_area_extra">
+          <div class="rich_media_area_extra_inner">
+              
+              <div id="js_share_appmsg">
+              </div>
+
+              
+                            <div class="mpda_bottom_container" id="js_bottom_ad_area"></div>
+                            
+              <div id="js_iframetest" style="display:none;"></div>
+                            
+              <div class="rich_media_extra rich_media_extra_discuss" id="js_cmt_container" style="display:none">
+                
+
+                
+                <div class="discuss_mod" id="js_friend_cmt_area" style="display:none">
+                  
+                  
+                  
+                </div>
+
+                                <div class="discuss_mod" id="js_cmt_area" style="display:none">
+                </div>
+                              </div>
+          </div>
+        </div>
+
+        
+        <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">
+            <div class="qr_code_pc_inner">
+                <div class="qr_code_pc">
+                    <img id="js_pc_qr_code_img" class="qr_code_pc_img">
+                    <p>微信扫一扫<br>关注该公众号</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="js_pc_weapp_code" class="weui-desktop-popover weui-desktop-popover_pos-up-center weui-desktop-popover_img-text" style="display: none;">
+    <div class="weui-desktop-popover__content">
+        <div class="weui-desktop-popover__desc">
+            <img id="js_pc_weapp_code_img">
+            微信扫一扫<br>使用小程序<span id="js_pc_weapp_code_des"></span>        </div>
+    </div>
+</div>
+<div id="js_minipro_dialog" style="display:none;">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+        <div class="weui-dialog__bd">即将打开"<span id="js_minipro_dialog_name"></span>"小程序</div>
+        <div class="weui-dialog__ft">
+            <a id="js_minipro_dialog_cancel" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_default">取消</a>
+            <a id="js_minipro_dialog_ok" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_primary">打开</a>
+        </div>
+    </div>
+</div>
+
+        
+        <script nonce="1543360485">
+    var __DEBUGINFO = {
+        debug_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/debug/console42f400.js",
+        safe_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/moonsafe42f400.js",
+        res_list: []
+    };
+</script>
+
+<script nonce="1543360485" type="text/javascript">
+(function() {
+	var totalCount = 0,
+			finishCount = 0;
+
+	function _loadVConsolePlugin() {
+		window.vConsole = new window.VConsole();
+		while (window.vConsolePlugins.length > 0) {
+			var p = window.vConsolePlugins.shift();
+			window.vConsole.addPlugin(p);
+		}
+	}
+	
+	function _addVConsole(uri, cb) {
+		totalCount++;
+		var node = document.createElement('SCRIPT');
+		node.type = 'text/javascript';
+		node.src = uri;
+		node.setAttribute('nonce', '1543360485');
+		if (cb) {
+			node.onload = cb;
+		}
+		document.getElementsByTagName('head')[0].appendChild(node);
+	}
+	if (
+		(document.cookie && document.cookie.indexOf('vconsole_open=1') > -1)
+		|| location.href.indexOf('vconsole=1') > -1
+	) {
+		window.vConsolePlugins = [];
+		_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/3.2.2/vconsole.min43429b.js', function() {
+			
+			_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/plugin/vconsole-mpopt/1.0.1/vconsole-mpopt42f400.js', _loadVConsolePlugin);
+		});
+	}
+})();
+</script>
+        
+<script nonce="1543360485" type="text/javascript">
+if (location.href.match(/fontScale=\d+/) && /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+
+    var m=location.href.match(/fontScale=(\d*)/);
+    var map={
+        "94":1,
+        "100":2,
+        "109":3,
+        "119":4,
+        "131":5,
+    }
+    if(m&&m[1]&&map[m[1]]){
+        document.getElementsByTagName("body")[0].className+=" appmsg_skin_fontscale_"+map[m[1]];
+        console.log("appmsg_skin_fontscale_:"+map[m[1]]);
+    }
+}
+
+
+(function(){
+    if (window.__second_open__) return; 
+
+    
+
+    var first_js_time = +new Date();
+
+    var showDate="";
+    var svrDate=new Date("1549780608"*1000);
+    var createDate=new Date("1543076408"*1000);
+    var ct="1543076408"*1;
+    var publish_time = "2018-11-25" || "";
+    var cD={
+      year:createDate.getYear(),
+      month:createDate.getMonth()+1,
+      date:createDate.getDate()
+    };
+    
+    svrDate.setHours(0);
+    svrDate.setMinutes(0);
+    svrDate.setSeconds(0);
+    var todayDate=svrDate.getTime()/1000;
+    svrDate.setDate(1);
+    svrDate.setMonth(0);
+    var yearDate=svrDate.getTime()/1000;
+    
+    if(ct>=todayDate){
+      showDate="今天";
+    
+    }else if(ct>=todayDate-60*60*24){
+       showDate="昨天";
+    
+    }else if(ct>=todayDate-2*60*60*24){
+      showDate="前天";
+    }else if(ct>=todayDate-3*60*60*24){
+      showDate="3天前";
+    }else if(ct>=todayDate-4*60*60*24){
+      showDate="4天前";
+    }else if(ct>=todayDate-5*60*60*24){
+      showDate="5天前";
+    }else if(ct>=todayDate-6*60*60*24){
+      showDate="6天前";
+    }else if(ct>=todayDate-2*7*60*60*24){
+      showDate="1周前";
+    }else if(ct>=yearDate){
+      
+      
+      
+      showDate="%s月%s日".replace("%s",cD.month).replace("%s",cD.date);
+    }else{
+      showDate=publish_time;
+    };
+    if(document.getElementById("publish_time")){
+      document.getElementById("publish_time").innerText=showDate;
+    }
+})();
+</script>
+<script nonce="1543360485" type="text/javascript">
+
+if (!window.console) window.console = { log: function() {} };
+
+if (typeof getComputedStyle == 'undefined') {
+    if (document.body.currentStyle) {
+        window.getComputedStyle = function(el) {
+            return el.currentStyle;
+        }
+    } else {
+        window.getComputedStyle = {};
+    }
+}
+(function(){
+    window.__zoom = 1;
+    
+    (function(){
+        var validArr = ","+([0.875, 1, 1.125, 1.25, 1.375]).join(",")+",";
+        var match = window.location.href.match(/winzoom=(\d+(?:\.\d+)?)/);
+        if (match && match[1]) {
+            var winzoom = parseFloat(match[1]);
+            if (validArr.indexOf(","+winzoom+",")>=0) {
+                window.__zoom = winzoom;
+            }
+        }
+    })();
+
+    var ua = navigator.userAgent.toLowerCase();
+    var re = new RegExp("msie ([0-9]+[\.0-9]*)");
+    var version;
+    if (re.exec(ua) != null) {
+        version = parseInt(RegExp.$1);
+    }
+    var isIE = false;
+    if (typeof version != 'undefined' && version >= 6 && version <= 9) {
+        isIE = true;
+    }
+    var getMaxWith=function(){
+        var container = document.getElementById('img-content');
+        var max_width = container.offsetWidth;
+        var container_padding = 0;
+        var container_style = getComputedStyle(container);
+        container_padding = parseFloat(container_style.paddingLeft) + parseFloat(container_style.paddingRight);
+        max_width -= container_padding;
+        if (!max_width) {
+            max_width = window.innerWidth - 30;      
+        }
+        return max_width;
+    };
+    var getParentWidth = function(dom){
+        var parent_width = 0;
+        var parent = dom.parentNode;
+        var outerWidth = 0;
+        while (true) {
+            if(!parent||parent.nodeType!=1) break;
+            var parent_style = getComputedStyle(parent);
+            if (!parent_style) break;
+            parent_width = parent.clientWidth - parseFloat(parent_style.paddingLeft) - parseFloat(parent_style.paddingRight) - outerWidth;
+            if (parent_width > 0) break;
+            outerWidth += parseFloat(parent_style.paddingLeft) + parseFloat(parent_style.paddingRight) + parseFloat(parent_style.marginLeft) + parseFloat(parent_style.marginRight) + parseFloat(parent_style.borderLeftWidth) + parseFloat(parent_style.borderRightWidth);
+            parent = parent.parentNode;
+        }
+        return parent_width;
+    }
+    var getOuterW=function(dom){
+        var style=getComputedStyle(dom),
+            w=0;
+        if(!!style){
+            w = parseFloat(style.paddingLeft) + parseFloat(style.paddingRight) + parseFloat(style.borderLeftWidth) + parseFloat(style.borderRightWidth);
+        }
+        return w;
+    };
+    var getOuterH =function(dom){
+        var style=getComputedStyle(dom),
+            h=0;
+        if(!!style){
+            h = parseFloat(style.paddingTop) + parseFloat(style.paddingBottom) + parseFloat(style.borderTopWidth) + parseFloat(style.borderBottomWidth);
+        }
+        return h;
+    };
+    var insertAfter = function(dom,afterDom){
+        var _p = afterDom.parentNode;
+        if(!_p){
+            return;
+        }
+        if(_p.lastChild === afterDom){
+            _p.appendChild(dom);
+        }else{
+            _p.insertBefore(dom,afterDom.nextSibling);
+        }
+    };
+    var getQuery = function(name,url){
+        
+        var u  = arguments[1] || window.location.search,
+            reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)"),
+            r = u.substr(u.indexOf("\?")+1).match(reg);
+        return r!=null?r[2]:"";
+    };
+
+    
+    function setImgSize(item, widthNum, widthUnit, ratio, breakParentWidth) {
+        setTimeout(function () {
+            var img_padding_border = getOuterW(item) || 0;
+            var img_padding_border_top_bottom = getOuterH(item) || 0;
+            
+            if (widthNum > getParentWidth(item) && !breakParentWidth) {
+                widthNum = getParentWidth(item);
+            }
+
+            height = (widthNum - img_padding_border) * ratio + img_padding_border_top_bottom;
+
+            if (isIE) {
+                var url = item.getAttribute('data-src');
+                item.src = url;
+            } else {
+                if(parseFloat(widthNum, 10) > 40 && height > 40 && breakParentWidth) {
+                    item.className += ' img_loading';
+                }
+                item.src = "data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            }
+            item.style.cssText += ";width: " + widthNum + widthUnit + " !important;";
+            item.style.cssText += ";height: " + height + widthUnit + " !important;";
+        }, 10);
+    }
+
+    (function(){
+        var images = document.getElementsByTagName('img');
+        var length = images.length;
+        var max_width = getMaxWith();
+        for (var i = 0; i < length; ++i) {
+            if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var imageItem = images[i];
+            var src_ = imageItem.getAttribute('data-src');
+            var realSrc = imageItem.getAttribute('src');
+            if (!src_ || realSrc) continue;
+            
+            var originWidth = imageItem.getAttribute('data-w');
+            var ratio_ = 1 * imageItem.getAttribute('data-ratio');
+
+            var height = 100;
+            if (ratio_ && ratio_ > 0) {
+                var parent_width = getParentWidth(imageItem) || max_width;
+                var initWidth = imageItem.style.width || imageItem.getAttribute('width') || originWidth || parent_width;
+                initWidth = parseFloat(initWidth, 10) > max_width ? max_width : initWidth;
+                
+                if (initWidth) {
+                    imageItem.setAttribute('_width', !isNaN(initWidth * 1) ? initWidth + 'px' : initWidth);
+                }
+                
+                if (typeof initWidth === 'string' && initWidth.indexOf('%') !== -1) {
+                    initWidth = parseFloat(initWidth.replace('%', ''), 10) / 100 * parent_width;
+                }
+                
+                if (initWidth === 'auto') {
+                    initWidth = originWidth;
+                }
+
+                var res = /^(\d+(?:\.\d+)?)([a-zA-Z%]+)?$/.exec(initWidth);
+                var widthNum = res && res.length >= 2 ? res[1] : 0;
+                var widthUnit = res && res.length >= 3 && res[2] ? res[2] : 'px';
+
+                
+                setImgSize(imageItem, widthNum, widthUnit, ratio_, true);
+                
+                (function (item, widthNumber, unit, ratio) {
+                    setTimeout(function () {
+                        setImgSize(item, widthNumber, unit, ratio, false);
+                    });
+                })(imageItem, widthNum, widthUnit, ratio_);
+            } else {
+                imageItem.style.cssText += ";visibility: hidden !important;";
+            }
+
+        }
+    })();
+    window.__videoDefaultRatio=16/9;
+    window.__getVideoWh = function(dom){
+        var max_width = getMaxWith(),
+            width = max_width,
+            ratio_ = dom.getAttribute('data-ratio')*1,
+            arr = [4/3, 16/9],
+            ret = arr[0],
+            abs = Math.abs(ret - ratio_);
+        if (!ratio_) { 
+            if (dom.getAttribute("data-mpvid")) { 
+                ratio_ = 16/9;
+            } else { 
+                ratio_ = 4/3;
+            }
+        } else { 
+            for (var j = 1, jl = arr.length; j < jl; j++) {
+                var _abs = Math.abs(arr[j] - ratio_);
+                if (_abs < abs) {
+                    abs = _abs;
+                    ret = arr[j];
+                }
+            }
+            ratio_ = ret;
+        }
+        
+        var parent_width = getParentWidth(dom)||max_width,
+            width = width > parent_width ? parent_width : width,
+            outerW = getOuterW(dom)||0,
+            outerH = getOuterH(dom)||0,
+            videoW = width - outerW,
+            videoH = videoW/ratio_,
+            height = videoH + outerH;
+        return {w:Math.ceil(width),h:Math.ceil(height),vh:videoH,vw:videoW,ratio:ratio_};
+    };
+
+
+    (function(){
+        var iframe = document.getElementsByTagName('iframe');
+        for (var i=0,il=iframe.length;i<il;i++) {
+            if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var a = iframe[i];
+            var src_ = a.getAttribute('src')||a.getAttribute('data-src')||"";
+            if(!/^http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)
+                && !/^http(s)*\:\/\/mp\.weixin\.qq\.com\/mp\/readtemplate\?t=pages\/video_player_tmpl/.test(src_)
+            ){
+                continue;
+            }
+            var vid = getQuery("vid",src_);
+            if(!vid){
+                continue;
+            }
+            vid=vid.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,"");
+            a.removeAttribute('src');
+            a.style.display = "none";
+            var obj = window.__getVideoWh(a),
+                videoPlaceHolderSpan = document.createElement('span'),
+                videoPlayerIconSpan = document.createElement('span'),
+                mydiv = document.createElement('img');
+
+            videoPlaceHolderSpan.className = "js_img_loading db";
+            videoPlaceHolderSpan.setAttribute("data-vid", vid);
+            
+
+            videoPlayerIconSpan.className = 'wx_video_context db'; 
+            videoPlayerIconSpan.style.display = 'none';
+            videoPlayerIconSpan.innerHTML = '<span class="wx_video_thumb_primary"></span><button class="wx_video_play_btn">播放</button><span class="wx_video_mask"></span>'; 
+
+            mydiv.className = "img_loading";
+
+            mydiv.src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            
+            
+            videoPlaceHolderSpan.style.cssText = "width: " + obj.w + "px !important;";
+            mydiv.style.cssText += ";width: " + obj.w + "px";
+            videoPlaceHolderSpan.appendChild(videoPlayerIconSpan);
+            videoPlaceHolderSpan.appendChild(mydiv);
+            insertAfter(videoPlaceHolderSpan, a); 
+            
+            a.style.cssText += ";width: " + obj.w + "px !important;";
+            a.setAttribute("width",obj.w);
+            if(window.__zoom!=1){
+                a.style.display = "block";
+                videoPlaceHolderSpan.style.display = "none";
+                a.setAttribute("_ratio",obj.ratio);
+                a.setAttribute("_vid",vid);
+            }else{
+                videoPlaceHolderSpan.style.cssText += "height: " + obj.h + "px !important;";
+                mydiv.style.cssText += "height: " + obj.h + "px !important;";
+                a.style.cssText += "height: " + obj.h + "px !important;";
+                a.setAttribute("height",obj.h);
+            }
+            a.setAttribute("data-vh",obj.vh);
+            a.setAttribute("data-vw",obj.vw);
+            if(a.getAttribute("data-mpvid")){
+                a.setAttribute("data-src",location.protocol+"//mp.weixin.qq.com/mp/readtemplate?t=pages/video_player_tmpl&auto=0&vid="+vid);
+            }else{
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+obj.vw+"&height="+obj.vh+"&auto=0");   
+            }            
+        }
+    })();
+    
+    (function(){
+        if(window.__zoom!=1){
+            if (!window.__second_open__) {
+                document.getElementById('page-content').style.zoom = window.__zoom;
+                var a = document.getElementById('activity-name');
+                var b = document.getElementById('meta_content');
+                if(!!a){
+                    a.style.zoom = 1/window.__zoom;
+                }
+                if(!!b){
+                    b.style.zoom = 1/window.__zoom;
+                }
+            }
+            var images = document.getElementsByTagName('img');
+            for (var i = 0,il=images.length;i<il;i++) {
+                if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                images[i].style.zoom = 1/window.__zoom;
+            }
+            var iframe = document.getElementsByTagName('iframe');
+            for (var i = 0,il=iframe.length;i<il;i++) {
+                if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                var a = iframe[i];
+                a.style.zoom = 1/window.__zoom;
+                var src_ = a.getAttribute('data-src')||"";
+                if(!/http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)){
+                    continue;
+                }
+                var ratio = a.getAttribute("_ratio");
+                var vid = a.getAttribute("_vid");
+                a.removeAttribute("_ratio");
+                a.removeAttribute("_vid");
+                var vw = a.offsetWidth - (getOuterW(a)||0);
+                var vh = vw/ratio;
+                var h = vh + (getOuterH(a)||0)
+                a.style.cssText += "height: " + h + "px !important;"
+                a.setAttribute("height",h);
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+vw+"&height="+vh+"&auto=0");
+                a.style.display = "none";
+                var parent = a.parentNode;
+                if(!parent){
+                    continue;
+                }
+                for(var j=0,jl=parent.children.length;j<jl;j++){
+                    var child = parent.children[j];
+                    if(child.className.indexOf("img_loading")>=0 && child.getAttribute("data-vid")==vid){
+                        child.style.cssText += "height: " + h + "px !important;";
+                        child.style.display = "";
+                    }
+                }
+            }
+        }
+    })();
+})();
+</script>
+<script nonce="1543360485" type="text/javascript">
+    var new_appmsg = 1;
+    var item_show_type = "0";
+    var can_see_complaint = "0";
+    var not_in_mm_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm435ee6.css";
+    var windowwx_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+    var article_improve_combo_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo438c19.css";
+    var tid = "";
+    var aid = "";
+    var clientversion = "";
+    var appuin = ""||"MzAwNjA3MzEwNg==";
+
+    var source = "";
+    var ascene = "";
+    var subscene = "";
+    var sessionid = ""||"";
+    var abtest_cookie = "";
+
+    var scene = 75;
+
+    var itemidx = "";
+    var appmsg_token   = "";
+    var _copyright_stat = "1";
+    var _ori_article_type = "科技互联网";
+
+    var is_follow = "";
+    var nickname = "DJ的札记";
+    var appmsg_type = "9";
+    var ct = "1543076408";
+    var publish_time = "2018-11-25" || "";
+    var user_name = "gh_a73ddb6c3d9c";
+    var user_name_new = "";
+    var fakeid   = "";
+    var version   = "";
+    var is_limit_user   = "0";
+    var round_head_img = "http://mmbiz.qpic.cn/mmbiz/cic4diaT9moKIubZibibea7z6ibbYspwWeOrzYFibWm6icRBv62KfuibklEA4fic98nNn2Gl7b5knf1OiahmibQzeOUFM57aw/0";
+    var hd_head_img = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM6ax4Vnwsnr6GXD2Z0iarWl9X7CxbjQFQwmdGFhWfSu1Gg/0"||"";
+    var ori_head_img_url = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM6ax4Vnwsnr6GXD2Z0iarWl9X7CxbjQFQwmdGFhWfSu1Gg/132";
+    var msg_title = "NDR产品设计二三事";
+    var msg_desc = "本篇概述了笔者在设计NDR/NTA产品过程中参考的国外领先产品界面，讲讲如何在满足行业共识基本要求的同时，体现自身技术优势以突出亮点。笔者也希望借此一文分享心得，有助于业内厂商全面提升网络流量安全分析产品的水平。";
+    var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz_jpg/cic4diaT9moKI1iaveQibtJBxAVia8bd5PZic7lMQbSiczYTmIyodiboZY4wsNUo8W1hnUluA87edVRRuPv5j5KwArFPLw/0?wx_fmt=jpeg"; 
+    var cdn_url_1_1  = "https://mmbiz.qlogo.cn/mmbiz_jpg/cic4diaT9moKI1iaveQibtJBxAVia8bd5PZic7WI33S2hk7IiaQdY3qY42AuX0hUqAdtxk8VAQkfq6rCo7U8j7pNX3XwA/0?wx_fmt=jpeg"; 
+    var cdn_url_235_1 = "https://mmbiz.qlogo.cn/mmbiz_jpg/cic4diaT9moKI1iaveQibtJBxAVia8bd5PZic7lMQbSiczYTmIyodiboZY4wsNUo8W1hnUluA87edVRRuPv5j5KwArFPLw/0?wx_fmt=jpeg"; 
+    
+    var msg_link = "http://mp.weixin.qq.com/s?__biz=MzAwNjA3MzEwNg==&amp;mid=2651329665&amp;idx=1&amp;sn=e29c35826f2098d8443ba80584638b63&amp;chksm=80ee4afcb799c3eac7e7411175086f7884b1a41f4500f10604897753ddbbcb11fb2da284602c#rd"; 
+    var user_uin = "0"*1;
+    var msg_source_url = '';
+    var img_format = 'jpeg';
+    var srcid = '';
+    var req_id = '1014hlq08A2CKeRFxL0P8BYf';
+    var networkType;
+    var appmsgid = '' || ''|| "2651329665";
+    var comment_id = "561770613837234176" || "561770613837234176" * 1;
+    var comment_enabled = "" * 1;
+    var is_need_reward = "1" * 1;
+    var is_https_res = ("" * 1) && (location.protocol == "https:");
+    var msg_daily_idx = "1" || "";
+    var profileReportInfo = "" || "";
+
+    var devicetype = "";
+    var source_encode_biz = "";
+    var source_username = "";
+    
+    var reprint_ticket = "";
+    var source_mid = "";
+    var source_idx = "";
+    var source_biz = "";
+    var author_id = "ofMoI44Qcyt2lmC_oHaT1XTd9TKE";
+
+    
+    var optimizing_flag = "0" * 1;
+    var ad_abtest_padding = "0" * 1;
+
+    var show_comment = "";
+    var __appmsgCgiData = {
+        wxa_product : ""*1,
+        wxa_cps : ""*1,
+        show_msg_voice: "0"*1,
+        can_use_page : "0"*1,
+        is_wxg_stuff_uin : "0"*1,
+        card_pos : "",
+        copyright_stat : "1",
+        source_biz : "",
+        hd_head_img : "http://wx.qlogo.cn/mmhead/Q3auHgzwzM6ax4Vnwsnr6GXD2Z0iarWl9X7CxbjQFQwmdGFhWfSu1Gg/0"||(window.location.protocol+"//"+window.location.host + "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_rumor_link.2x42f400.jpg")
+    };
+    var _empty_v = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/pages/voice/empty42f400.mp3";
+
+    var copyright_stat = "1" * 1;
+
+    var pay_fee = "" * 1;
+    var pay_timestamp = "";
+    var need_pay = "" * 1;
+
+    var need_report_cost = "0" * 1;
+    var use_tx_video_player = "0" * 1;
+    var appmsg_fe_filter = "contenteditable";
+
+    var friend_read_source = "" || "";
+    var friend_read_version = "" || "";
+    var friend_read_class_id = "" || "";
+
+    var is_only_read = "1" * 1;
+    var read_num = "" * 1;
+    var like_num = "" * 1;
+    var liked = "" == 'true' ? true : false;
+    var is_temp_url = "" ? 1 : 0;
+    var send_time = "";
+    var icon_emotion_switch = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch.2x42f400.png";
+    var icon_emotion_switch_active = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch_active.2x42f400.png";
+    var icon_loading_white = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif";
+    var icon_audio_unread = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/audio/icon_audio_unread42f400.png";
+    var icon_qqmusic_default = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_default.2x42f400.png";
+    var icon_qqmusic_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_source42f400.png";
+    var icon_kugou_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/kugou/icon_kugou_source42f400.png";
+
+    var topic_default_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/topic/pic_book_thumb.2x42f400.png';
+    var comment_edit_icon = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg_new/icon_edit42f400.png';
+    var comment_loading_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif';
+
+    var voice_in_appmsg = {
+        "1":"1"
+            };
+
+    var reprint_style = ''*1;
+    var wxa_img_alert = "" != 'false';
+
+    
+    var more_read_type = '0'*1;
+
+    
+    
+    
+    
+
+    
+    var weapp_sn_arr_json = "" || "";
+
+    
+    var ban_scene = "0" * 1;
+
+    var svr_time = "1549780608" * 1;
+    
+    var is_transfer_msg = ""*1||0;
+
+    var malicious_title_reason_id = "0" * 1; 
+    var malicious_content_type = "0" * 1; 
+
+    
+    var modify_time = "";
+
+    
+    var isprofileblock = "0";
+
+    
+    var hotspotInfoList = [
+                    ];
+
+        window.wxtoken = "777";
+        
+    
+    
+    
+    
+    window.is_login = '0' * 1; 
+
+    window.__moon_initcallback = function(){
+        if(!!window.__initCatch){
+            window.__initCatch({
+                idkey : 27611+2,
+                startKey : 0,
+                limit : 128,
+                badjsId: 43,
+                reportOpt : {
+                    uin : uin,
+                    biz : biz,
+                    mid : mid,
+                    idx : idx,
+                    sn  : sn
+                },
+                extInfo : {
+                    network_rate : 0.01,    
+                    badjs_rate: 0.1 
+                }
+            });
+        }
+    }
+        
+    var title ="DJ的札记";
+
+    var is_new_msg=true;
+    
+    
+
+    var is_wash = '' * 1;
+</script>
+
+<script nonce="1543360485" type="text/javascript">
+(function(_g){
+    _g.appmsg_like_type = "1" * 1 ? "1" * 1 : 1;
+    
+    _g.clientversion = "";
+    _g.passparam = ""; 
+    if(!_g.msg_link) {
+      _g.msg_link = "http://mp.weixin.qq.com/s?__biz=MzAwNjA3MzEwNg==&amp;mid=2651329665&amp;idx=1&amp;sn=e29c35826f2098d8443ba80584638b63&amp;chksm=80ee4afcb799c3eac7e7411175086f7884b1a41f4500f10604897753ddbbcb11fb2da284602c#rd";
+    }
+    _g.appmsg_type = "9"; 
+    _g.devicetype = ""; 
+})(window);
+
+</script>
+
+
+        <script nonce="1543360485">window.__moon_host = 'res.wx.qq.com';window.__moon_mainjs = 'appmsg/index.js';window.moon_map = {"a/appdialog_confirm.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm.html42f400.js","widget/wx_profile_dialog_primary.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/widget/wx_profile_dialog_primary.css42f400.js","pages/iframe_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/iframe_communicate42f400.js","new_video/player.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player.html433882.js","biz_wap/zepto/touch.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/touch42f400.js","biz_wap/zepto/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/event42f400.js","biz_wap/zepto/zepto.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/zepto42f400.js","page/pages/video.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/pages/video.css435ee6.js","a/tpl/smallbanner_msg_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_msg_tpl.html42f400.js","a/tpl/smallbanner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_info_tpl.html42f400.js","a/tpl/banner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_info_tpl.html42f400.js","a/tpl/promote_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/promote_tpl.html42f400.js","a/tpl/smallcard_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallcard_tpl.html42f400.js","a/tpl/info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/info_tpl.html42f400.js","a/tpl/cardticket_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cardticket_tpl.html42f400.js","a/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_tpl.html42f400.js","a/tpl/sponsor_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/sponsor_tpl.html42f400.js","a/tpl/new_cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/new_cpc_tpl.html42f400.js","appmsg/emotion/caret.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/caret42f400.js","biz_wap/utils/localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/localstorage42f400.js","appmsg/friend_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/friend_comment_tpl.html42f400.js","appmsg/comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_tpl.html42f400.js","biz_wap/utils/fakehash.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/fakehash42f400.js","appmsg/comment_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_report42f400.js","a/appdialog_confirm.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm42f400.js","new_video/player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player4306fd.js","a/tpl/mpda_bottom_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/mpda_bottom_tpl.html42f400.js","a/tpl/crt_size_map.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_size_map42f400.js","biz_wap/jsapi/cardticket.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/cardticket42f400.js","biz_common/jquery.md5.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/jquery.md542f400.js","biz_common/utils/emoji_panel_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_panel_data42f400.js","biz_common/utils/emoji_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_data42f400.js","appmsg/emotion/textarea.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/textarea42f400.js","appmsg/emotion/nav.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/nav42f400.js","appmsg/emotion/common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/common42f400.js","appmsg/emotion/slide.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/slide42f400.js","appmsg/emotion/dom.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/dom42f400.js","pages/music_report_conf.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_report_conf42f400.js","pages/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/report4306fd.js","pages/player_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/player_adaptor42f400.js","pages/music_player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_player42f400.js","appmsg/more_read_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read_tpl.html42f400.js","appmsg/retry_ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/retry_ajax42f400.js","complain/tips.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/complain/tips42f400.js","pages/loadscript.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/loadscript42f400.js","biz_wap/utils/ajax_load_js.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_load_js42f400.js","appmsg/comment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment4317dc.js","a/ios.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios42f400.js","a/android.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android42f400.js","a/profile.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile42f400.js","a/app_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/app_card430506.js","a/sponsor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor42f400.js","a/tpl/cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cpc_tpl.html42f400.js","a/video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/video42f400.js","a/a_config.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_config42f400.js","a/tpl/crt_tpl_manager.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_tpl_manager42f400.js","a/cpc_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/cpc_a_tpl.html42f400.js","a/sponsor_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor_a_tpl.html42f400.js","a/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_tpl.html42f400.js","a/mpshop.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpshop42f400.js","a/wxopen_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/wxopen_card42f400.js","a/card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/card42f400.js","biz_wap/utils/position.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/position42f400.js","a/a_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_report42f400.js","biz_wap/utils/show_time.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/show_time42f400.js","biz_common/utils/get_para_list.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/get_para_list42f400.js","biz_wap/utils/openUrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/openUrl42f400.js","a/a_sign.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_sign438181.js","appmsg/my_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/my_comment_tpl.html42f400.js","appmsg/cmt_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cmt_tpl.html42f400.js","sougou/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/a_tpl.html42f400.js","appmsg/emotion/emotion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/emotion42f400.js","biz_common/base64.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/base6442f400.js","biz_common/utils/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report42f400.js","appmsg/articleReport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/articleReport42f400.js","biz_wap/utils/hand_up_state.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/hand_up_state42f400.js","biz_common/utils/http.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/http42f400.js","biz_common/utils/cookie.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie42f400.js","appmsg/topic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/topic_tpl.html42f400.js","pages/weapp_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/weapp_tpl.html42f400.js","biz_common/utils/monitor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/monitor42f400.js","pages/voice_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_tpl.html42f400.js","pages/kugoumusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/kugoumusic_ctrl42f400.js","pages/qqmusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_ctrl42f400.js","pages/voice_component.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_component42f400.js","pages/qqmusic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_tpl.html42f400.js","new_video/ctl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/ctl4306fd.js","appmsg/open_url_with_webview.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/open_url_with_webview4380a9.js","appmsg/more_read.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read42f400.js","appmsg/reward_entry.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/reward_entry42f400.js","appmsg/like.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like43875f.js","pages/version4video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/version4video42f400.js","biz_wap/utils/storage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/storage42f400.js","appmsg/share_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share_tpl.html42f400.js","appmsg/appmsgext.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsgext430b95.js","appmsg/img_copyright_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/img_copyright_tpl.html42f400.js","pages/video_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_ctrl42f400.js","pages/create_txv.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/create_txv42f400.js","appmsg/comment_utils.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_utils42f400.js","biz_common/ui/imgonepx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx42f400.js","appmsg/malicious_wording.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/malicious_wording42f400.js","biz_common/utils/wxgspeedsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/wxgspeedsdk42f400.js","a/a.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a4382e5.js","rt/appmsg/getappmsgext.rt.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/rt/appmsg/getappmsgext.rt42f400.js","pages/video_communicate_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_communicate_adaptor433882.js","biz_wap/utils/ajax_wx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_wx42f400.js","biz_common/utils/respTypes.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/respTypes42f400.js","biz_wap/utils/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/log42f400.js","sougou/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/index42f400.js","biz_wap/safe/mutation_observer_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/mutation_observer_report42f400.js","appmsg/fereport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport438bee.js","appmsg/fereport_without_localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport_without_localstorage438bee.js","appmsg/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report42f400.js","appmsg/report_and_source.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source4380a9.js","appmsg/page_pos.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos431b87.js","appmsg/cdn_speed_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report42f400.js","appmsg/wxtopic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/wxtopic42f400.js","appmsg/weapp.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp433882.js","appmsg/weproduct.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weproduct42f400.js","appmsg/voicemsg.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voicemsg42f400.js","appmsg/autoread.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/autoread42f400.js","appmsg/voice.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voice42f400.js","appmsg/qqmusic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/qqmusic43440b.js","appmsg/iframe.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe433882.js","appmsg/product.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/product42f400.js","appmsg/review_image.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image435a90.js","appmsg/outer_link.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link433882.js","appmsg/copyright_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/copyright_report42f400.js","appmsg/async.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async438bee.js","biz_wap/ui/lazyload_img.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img42f400.js","biz_common/log/jserr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr42f400.js","appmsg/share.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share42f50a.js","appmsg/cdn_img_lib.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib42f400.js","appmsg/finance_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/finance_communicate42f400.js","page/appmsg_new/not_in_mm.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm.css435ee6.js","page/appmsg_new/combo.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo.css438c19.js","biz_wap/utils/wapsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/wapsdk42f400.js","a/mpAdAsync.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpAdAsync4317dc.js","biz_common/utils/url/parse.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse42f400.js","appmsg/appmsg_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsg_report435ac2.js","biz_common/moment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/moment42f400.js","biz_wap/jsapi/core.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core42f400.js","biz_common/dom/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event42f400.js","appmsg/test.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/test42f400.js","biz_wap/utils/mmversion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion42f400.js","appmsg/max_age.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/max_age42f400.js","biz_common/dom/attr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr42f400.js","biz_wap/utils/ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax42f400.js","appmsg/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/log42f400.js","biz_common/dom/class.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class42f400.js","biz_wap/utils/device.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/device42f400.js","appmsg/weapp_common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp_common42f400.js","biz_common/utils/string/html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html42f400.js","cps/tpl/list_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/list_tpl.html42f400.js","cps/tpl/card_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/card_tpl.html42f400.js","cps/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/banner_tpl.html42f400.js","biz_common/tmpl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl42f400.js","appmsg/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index438e37.js"};</script><script nonce="1543360485" type="text/javascript" id="moon_inline" > window.__mooninline=1; window.setTimeout(function() {  function __moonf__(){
+if(!window.__moonhasinit){
+window.__moonhasinit=!0,window.__moonclientlog=[],window.__wxgspeeds&&(window.__wxgspeeds.moonloadedtime=+new Date),
+"object"!=typeof JSON&&(window.JSON={
+stringify:function(){
+return"";
+},
+parse:function(){
+return{};
+}
+});
+var e=function(){
+function e(e){
+try{
+var o;
+/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)?o="writeLog":/(Android)/i.test(navigator.userAgent)&&(o="log"),
+o&&t(o,e);
+}catch(n){
+throw console.error(n),n;
+}
+}
+function t(e,o){
+var n,r,i={};
+n=top!=window?top.window:window;
+try{
+r=n.WeixinJSBridge,i=n.document;
+}catch(a){}
+e&&r&&r.invoke?r.invoke(e,{
+level:"info",
+msg:"[WechatFe][moon]"+o
+}):setTimeout(function(){
+i.addEventListener?i.addEventListener("WeixinJSBridgeReady",function(){
+t(e,o);
+},!1):i.attachEvent&&(i.attachEvent("WeixinJSBridgeReady",function(){
+t(e,o);
+}),i.attachEvent("onWeixinJSBridgeReady",function(){
+t(e,o);
+}));
+},0);
+}
+var n;
+localStorage&&JSON.parse(localStorage.getItem("__WXLS__moonarg"))&&"fromls"==JSON.parse(localStorage.getItem("__WXLS__moonarg")).method&&(n=!0),
+e(" moon init, moon_inline:"+window.__mooninline+", moonls:"+n),function(){
+var e={},o={},t={};
+e.COMBO_UNLOAD=0,e.COMBO_LOADING=1,e.COMBO_LOADED=2;
+var n=function(e,t,n){
+if(!o[e]){
+o[e]=n;
+for(var r=3;r--;)try{
+moon.setItem(moon.prefix+e,n.toString()),moon.setItem(moon.prefix+e+"_ver",moon_map[e]);
+break;
+}catch(i){
+moon.clear();
+}
+}
+},r=window.alert;
+window.__alertList=[],window.alert=function(e){
+r(e),window.__alertList.push(e);
+};
+var i=function(e){
+if(!e||!o[e])return null;
+var n=o[e];
+if("function"==typeof n&&!t[e]){
+var a={},s={
+exports:a
+},c=n(i,a,s,r);
+n=o[e]=c||s.exports,t[e]=!0;
+}
+if(".css"===e.substr(-4)){
+var d=document.getElementById(e);
+if(!d){
+d=document.createElement("style"),d.id=e;
+var _=/url\s*\(\s*\/(\"(?:[^\\\"\r\n\f]|\\[\s\S])*\"|'(?:[^\\'\n\r\f]|\\[\s\S])*'|[^)}]+)\s*\)/g,m=window.testenv_reshost||window.__moon_host||"res.wx.qq.com";
+n=n.replace(_,"url(//"+m+"/$1)"),d.innerHTML=n,document.getElementsByTagName("head")[0].appendChild(d);
+}
+}
+return n;
+};
+e.combo_status=e.COMBO_UNLOAD,e.run=function(){
+var o=e.run.info,t=o&&o[0],n=o&&o[1];
+if(t&&e.combo_status==e.COMBO_LOADED){
+var r=i(t);
+n&&n(r);
+}
+},e.use=function(o,t){
+window.__wxgspeeds&&(window.__wxgspeeds.seajs_use_time=+new Date),e.run.info=[o,t],
+e.run();
+},window.define=n,window.seajs=e;
+}(),function(){
+if(window.__nonce_str){
+var e=document.createElement;
+document.createElement=function(o){
+var t=e.apply(this,arguments);
+return"object"==typeof o&&(o=o.toString()),"string"==typeof o&&"script"==o.toLowerCase()&&t.setAttribute("nonce",window.__nonce_str),
+t;
+};
+}
+window.addEventListener&&window.__DEBUGINFO&&Math.random()<.01&&window.addEventListener("load",function(){
+var e=document.createElement("script");
+e.src=__DEBUGINFO.safe_js,e.type="text/javascript",e.async=!0;
+var o=document.head||document.getElementsByTagName("head")[0];
+o.appendChild(e);
+});
+}(),function(){
+function t(e){
+return"[object Array]"===Object.prototype.toString.call(e);
+}
+function n(e){
+return"[object Object]"===Object.prototype.toString.call(e);
+}
+function r(e){
+var t=e.stack+" "+e.toString()||"";
+try{
+if(window.testenv_reshost){
+var n="http(s)?://"+window.testenv_reshost,r=new RegExp(n,"g");
+t=t.replace(r,"");
+}else t=t.replace(/http(s)?:\/\/res\.wx\.qq\.com/g,"");
+for(var r=/\/([^.]+)\/js\/(\S+?)\.js(\,|:)?/g;r.test(t);)t=t.replace(r,function(e,o,t,n){
+return t+n;
+});
+}catch(e){
+t=e.stack?e.stack:"";
+}
+var i=[];
+for(o in u)u.hasOwnProperty(o)&&i.push(o+":"+u[o]);
+return i.push("STK:"+t.replace(/\n/g,"")),i.join("|");
+}
+function i(e){
+if(!e){
+var o=window.onerror;
+window.onerror=function(){},f=setTimeout(function(){
+window.onerror=o,f=null;
+},50);
+}
+}
+function a(e,o,t){
+if(!/^mp\.weixin\.qq\.com$/.test(location.hostname)){
+var n=[];
+t=t.replace(location.href,(location.origin||"")+(location.pathname||"")).replace("#wechat_redirect","").replace("#rd","").split("&");
+for(var r=0,i=t.length;i>r;r++){
+var a=t[r].split("=");
+a[0]&&a[1]&&n.push(a[0]+"="+encodeURIComponent(a[1]));
+}
+var s=new window.Image;
+return void(s.src=(o+n.join("&")).substr(0,1024));
+}
+var c;
+if(window.ActiveXObject)try{
+c=new ActiveXObject("Msxml2.XMLHTTP");
+}catch(d){
+try{
+c=new ActiveXObject("Microsoft.XMLHTTP");
+}catch(_){
+c=!1;
+}
+}else window.XMLHttpRequest&&(c=new XMLHttpRequest);
+c&&(c.open(e,o,!0),c.setRequestHeader("cache-control","no-cache"),c.setRequestHeader("Content-Type","application/x-www-form-urlencoded; charset=UTF-8"),
+c.setRequestHeader("X-Requested-With","XMLHttpRequest"),c.send(t));
+}
+function s(e){
+return function(o,t){
+if("string"==typeof o)try{
+o=new Function(o);
+}catch(n){
+throw n;
+}
+var r=[].slice.call(arguments,2),a=o;
+return o=function(){
+try{
+return a.apply(this,r.length&&r||arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:j,
+log:"timeout_error;host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},e(o,t);
+};
+}
+function c(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this,a=t||function(){};
+return t=function(){
+try{
+return a.apply(r,arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:x,
+log:"listener_error;type:"+o+";host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},a.moon_lid=E,b[E]=t,E++,e.call(r,o,t,n);
+};
+}
+function d(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this;
+return t=b[t.moon_lid],e.call(r,o,t,n);
+};
+}
+var _,m,l,w,u,p,f,h=/MicroMessenger/i.test(navigator.userAgent),g=/MPAPP/i.test(navigator.userAgent),v=window.define,y=0,x=2,O=4,j=9,D=10;
+if(window.__initCatch=function(e){
+_=e.idkey,m=e.startKey||0,l=e.limit,w=e.badjsId,u=e.reportOpt||"",p=e.extInfo||{},
+p.rate=p.rate||.5;
+},window.__moon_report=function(e,o){
+var i=!1,s="";
+try{
+s=top.location.href;
+}catch(c){
+i=!0;
+}
+var d=.5;
+if(p&&p.rate&&(d=p.rate),o&&"number"==typeof o&&(d=o),!(!/mp\.weixin\.qq\.com/.test(location.href)&&!/payapp\.weixin\.qq\.com/.test(location.href)||Math.random()>d||!h&&!g||top!=window&&!i&&!/mp\.weixin\.qq\.com/.test(s))&&(n(e)&&(e=[e]),
+t(e)&&""!=_)){
+var u="",f=[],v=[],y=[],x=[];
+"number"!=typeof l&&(l=1/0);
+for(var j=0;j<e.length;j++){
+var D=e[j]||{};
+if(!(D.offset>l||"number"!=typeof D.offset||D.offset==O&&p&&p.network_rate&&Math.random()>=p.network_rate)){
+var b=1/0==l?m:m+D.offset;
+f[j]="[moon]"+_+"_"+b+";"+D.log+";"+r(D.e||{})||"",v[j]=b,y[j]=1;
+}
+}
+for(var E=0;E<v.length;E++)x[E]=_+"_"+v[E]+"_"+y[E],u=u+"&log"+E+"="+f[E];
+if(x.length>0){
+a("POST",location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?","idkey="+x.join(";")+"&r="+Math.random()+"&lc="+f.length+u);
+var d=1;
+if(p&&p.badjs_rate&&(d=p.badjs_rate),w&&Math.random()<d){
+u=u.replace(/uin\:(.)*\|biz\:(.)*\|mid\:(.)*\|idx\:(.)*\|sn\:(.)*\|/,"");
+var S=new Image,I="https://badjs.weixinbridge.com/badjs?id="+w+"&level=4&from="+encodeURIComponent(location.host)+"&msg="+encodeURIComponent(u);
+S.src=I.slice(0,1024);
+}
+}
+}
+},window.setTimeout=s(window.setTimeout),window.setInterval=s(window.setInterval),
+Math.random()<.01&&window.Document&&window.HTMLElement){
+var b={},E=0;
+Document.prototype.addEventListener=c(Document.prototype.addEventListener),Document.prototype.removeEventListener=d(Document.prototype.removeEventListener),
+HTMLElement.prototype.addEventListener=c(HTMLElement.prototype.addEventListener),
+HTMLElement.prototype.removeEventListener=d(HTMLElement.prototype.removeEventListener);
+}
+var S=window.navigator.userAgent;
+if((/ip(hone|ad|od)/i.test(S)||/android/i.test(S))&&!/windows phone/i.test(S)&&window.localStorage&&window.localStorage.setItem){
+var I=window.localStorage.setItem,L=0;
+window.localStorage.setItem=function(e,o){
+if(!(L>=10))try{
+I.call(window.localStorage,e,o);
+}catch(t){
+t.stack&&console&&console.error&&console.error("[TryCatch]"+t.stack),window.__moon_report([{
+offset:D,
+log:"localstorage_error;"+t.toString(),
+e:t
+}]),L++,L>=3&&window.moon&&window.moon.clear&&moon.clear();
+}
+};
+}
+window.seajs&&v&&(window.define=function(){
+for(var o,t=[],n=arguments&&arguments[0],a=0,s=arguments.length;s>a;a++){
+var c=o=arguments[a];
+"function"==typeof o&&(o=function(){
+try{
+return c.apply(this,arguments);
+}catch(o){
+throw"string"==typeof n&&console.error("[TryCatch][DefineeErr]id:"+n),o.stack&&console&&console.error&&console.error("[TryCatch]"+o.stack),
+_&&window.__moon_report&&(window.__moon_report([{
+offset:y,
+log:"define_error;id:"+n+";",
+e:o
+}]),i(f)),e(" [define_error]"+JSON.stringify(r(o))),o;
+}
+},o.toString=function(e){
+return function(){
+return e.toString();
+};
+}(arguments[a])),t.push(o);
+}
+return v.apply(this,t);
+});
+}(),function(o){
+function t(e,o,t){
+return window.__DEBUGINFO?(window.__DEBUGINFO.res_list||(window.__DEBUGINFO.res_list=[]),
+window.__DEBUGINFO.res_list[e]?(window.__DEBUGINFO.res_list[e][o]=t,!0):!1):!1;
+}
+function n(e){
+var o=new TextEncoder("utf-8").encode(e),t=crypto.subtle||crypto.webkitSubtle;
+return t.digest("SHA-256",o).then(function(e){
+return r(e);
+});
+}
+function r(e){
+for(var o=[],t=new DataView(e),n=0;n<t.byteLength;n+=4){
+var r=t.getUint32(n),i=r.toString(16),a="00000000",s=(a+i).slice(-a.length);
+o.push(s);
+}
+return o.join("");
+}
+function i(e,o,t){
+if("object"==typeof e){
+var n=Object.prototype.toString.call(e).replace(/^\[object (.+)\]$/,function(e,o){
+return o;
+});
+if(t=t||e,"Array"==n){
+for(var r=0,i=e.length;i>r;++r)if(o.call(t,e[r],r,e)===!1)return;
+}else{
+if("Object"!==n&&a!=e)throw"unsupport type";
+if(a==e){
+for(var r=e.length-1;r>=0;r--){
+var s=a.key(r),c=a.getItem(s);
+if(o.call(t,c,s,e)===!1)return;
+}
+return;
+}
+for(var r in e)if(e.hasOwnProperty(r)&&o.call(t,e[r],r,e)===!1)return;
+}
+}
+}
+var a=o.localStorage,s=document.head||document.getElementsByTagName("head")[0],c=1,d=11,_=12,m=13,l=window.__allowLoadResFromMp?1:2,w=window.__allowLoadResFromMp?1:0,u=l+w,p=window.testenv_reshost||window.__moon_host||"res.wx.qq.com",f=new RegExp("^(http(s)?:)?//"+p);
+window.__loadAllResFromMp&&(p="mp.weixin.qq.com",l=0,u=l+w);
+var h={
+prefix:"__MOON__",
+loaded:[],
+unload:[],
+clearSample:!0,
+hit_num:0,
+mod_num:0,
+version:1003,
+cacheData:{
+js_mod_num:0,
+js_hit_num:0,
+js_not_hit_num:0,
+js_expired_num:0,
+css_mod_num:0,
+css_hit_num:0,
+css_not_hit_num:0,
+css_expired_num:0
+},
+init:function(){
+h.loaded=[],h.unload=[];
+var e,t,r;
+if(window.no_moon_ls&&(h.clearSample=!0),a){
+var s="_moon_ver_key_",c=a.getItem(s);
+c!=h.version&&(h.clear(),a.setItem(s,h.version));
+}
+if((-1!=location.search.indexOf("no_moon1=1")||-1!=location.search.indexOf("no_lshttps=1"))&&h.clear(),
+a){
+var d=1*a.getItem(h.prefix+"clean_time"),_=+new Date;
+if(_-d>=1296e6){
+h.clear();
+try{
+!!a&&a.setItem(h.prefix+"clean_time",+new Date);
+}catch(m){}
+}
+}
+i(moon_map,function(i,s){
+if(t=h.prefix+s,r=!!i&&i.replace(f,""),e=!!a&&a.getItem(t),version=!!a&&(a.getItem(t+"_ver")||"").replace(f,""),
+h.mod_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_mod_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_mod_num++,
+h.clearSample||!e||r!=version)h.unload.push(r.replace(f,"")),r&&-1!=r.indexOf(".css")?e?r!=version&&h.cacheData.css_expired_num++:h.cacheData.css_not_hit_num++:r&&-1!=r.indexOf(".js")&&(e?r!=version&&h.cacheData.js_expired_num++:h.cacheData.js_not_hit_num++);else{
+if("https:"==location.protocol&&window.moon_hash_map&&window.moon_hash_map[s]&&window.crypto)try{
+n(e).then(function(e){
+window.moon_hash_map[s]!=e&&console.log(s);
+});
+}catch(c){}
+try{
+var d="//# sourceURL="+s+"\n//@ sourceURL="+s;
+o.eval.call(o,'define("'+s+'",[],'+e+")"+d),h.hit_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_hit_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_hit_num++;
+}catch(c){
+h.unload.push(r.replace(f,""));
+}
+}
+}),h.load(h.genUrl());
+},
+genUrl:function(){
+var e=h.unload;
+if(!e||e.length<=0)return[];
+var o,t,n="",r=[],i={},a=-1!=location.search.indexOf("no_moon2=1"),s="//"+p;
+-1!=location.href.indexOf("moon_debug2=1")&&(s="//mp.weixin.qq.com");
+for(var c=0,d=e.length;d>c;++c){
+/^\/(.*?)\//.test(e[c]);
+var _=/^\/(.*?)\//.exec(e[c]);
+_.length<2||!_[1]||(t=_[1],n=i[t],n?(o=n+","+e[c],o.length>1e3||a?(r.push(n+"?v="+h.version),
+n=location.protocol+s+e[c],i[t]=n):(n=o,i[t]=n)):(n=location.protocol+s+e[c],i[t]=n));
+}
+for(var m in i)i.hasOwnProperty(m)&&r.push(i[m]);
+return r;
+},
+load:function(e){
+if(window.__wxgspeeds&&(window.__wxgspeeds.mod_num=h.mod_num,window.__wxgspeeds.hit_num=h.hit_num),
+!e||e.length<=0)return seajs.combo_status=seajs.COMBO_LOADED,seajs.run(),console.debug&&console.debug("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num),
+void window.__moonclientlog.push("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num);
+seajs.combo_status=seajs.COMBO_LOADING;
+var o=0,t=+new Date;
+window.__wxgspeeds&&(window.__wxgspeeds.combo_times=[],window.__wxgspeeds.combo_times.push(t)),
+i(e,function(n){
+h.request(n,u,function(){
+if(window.__wxgspeeds&&window.__wxgspeeds.combo_times.push(+new Date),o++,o==e.length){
+var n=+new Date-t;
+window.__wxgspeeds&&(window.__wxgspeeds.mod_downloadtime=n),seajs.combo_status=seajs.COMBO_LOADED,
+seajs.run(),console.debug&&console.debug("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms"),
+window.__moonclientlog.push("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms");
+}
+});
+});
+},
+request:function(o,n,r){
+if(o){
+n=n||0,o.indexOf("mp.weixin.qq.com")>-1&&((new Image).src=location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?idkey=27613_32_1&r="+Math.random(),
+window.__moon_report([{
+offset:_,
+log:"load_script_from_mp: "+o
+}],1));
+var i=-1;
+window.__DEBUGINFO&&(__DEBUGINFO.res_list||(__DEBUGINFO.res_list=[]),__DEBUGINFO.res_list.push({
+type:"js",
+status:"pendding",
+start:+new Date,
+end:0,
+url:o
+}),i=__DEBUGINFO.res_list.length-1),-1!=location.search.indexOf("no_lshttps=1")&&(o=o.replace("http://","https://"));
+var a=document.createElement("script");
+a.src=o,a.type="text/javascript",a.async=!0,a.down_time=+new Date,a.onerror=function(s){
+t(i,"status","error"),t(i,"end",+new Date);
+var _=new Error(s);
+if(n>=0)if(w>n){
+var l=o.replace("res.wx.qq.com","mp.weixin.qq.com");
+h.request(l,n,r);
+}else h.request(o,n,r);else window.__moon_report&&window.__moon_report([{
+offset:c,
+log:"load_script_error: "+o,
+e:_
+}],1);
+if(n==w-1&&window.__moon_report([{
+offset:d,
+log:"load_script_error: "+o,
+e:_
+}],1),-1==n){
+var u="ua: "+window.navigator.userAgent+", time="+(+new Date-a.down_time)+", load_script_error -1 : "+o;
+window.__moon_report([{
+offset:m,
+log:u
+}],1);
+}
+window.__moonclientlog.push("moon load js error : "+o+", error -> "+_.toString()),
+e("moon_request_error url:"+o);
+},"undefined"!=typeof moon_crossorigin&&moon_crossorigin&&a.setAttribute("crossorigin",!0),
+a.onload=a.onreadystatechange=function(){
+t(i,"status","loaded"),t(i,"end",+new Date),!a||a.readyState&&!/loaded|complete/.test(a.readyState)||(t(i,"status","200"),
+a.onload=a.onreadystatechange=null,"function"==typeof r&&r());
+},n--,s.appendChild(a),e("moon_request url:"+o+" retry:"+n);
+}
+},
+setItem:function(e,o){
+!!a&&a.setItem(e,o);
+},
+clear:function(){
+a&&(i(a,function(e,o){
+~o.indexOf(h.prefix)&&a.removeItem(o);
+}),console.debug&&console.debug("[moon] clear"));
+},
+idkeyReport:function(e,o,t){
+t=t||1;
+var n=e+"_"+o+"_"+t;
+(new Image).src="/mp/jsmonitor?idkey="+n+"&r="+Math.random();
+}
+};
+seajs&&seajs.use&&"string"==typeof window.__moon_mainjs&&seajs.use(window.__moon_mainjs),
+window.moon=h;
+}(window),function(){
+try{
+Math.random()<1;
+}catch(e){}
+}(),window.moon.init();
+};
+e(),!!window.__moon_initcallback&&window.__moon_initcallback(),window.__wxgspeeds&&(window.__wxgspeeds.moonendtime=+new Date);
+}
+}
+__moonf__(); }, 25);</script><script nonce="1543360485" type="text/javascript">
+    var real_show_page_time = +new Date();
+    if (!!window.addEventListener){
+        window.addEventListener("load", function(){
+            window.onload_endtime = +new Date();
+        });
+    }
+
+    
+    if(typeof seajs != 'undefined' && seajs.config){
+        try{
+            seajs.config({
+              'map': [
+                [ '.js', '.js?v=' + (+new Date())]
+              ]
+            });
+        }catch(e){
+            console.info('not support seajs config');
+        }
+    }
+
+    
+</script>
+
+    </body>
+    <script nonce="1543360485" type="text/javascript">document.addEventListener("touchstart", function() {},false);</script>
+</html>
+

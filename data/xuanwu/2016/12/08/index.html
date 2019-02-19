@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/12/08" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/12/08</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/12/07/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/12/08/index.html">2016/12/08</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/12/09/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Forcepoint Labs @ForcepointLabs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  Hackers Gamify #DDoS Attacks With Collaborative Platform <a href="http://fc-pt.com/2gTIduq" rel="nofollow">http://fc-pt.com/2gTIduq</a> via @ threatpost <a href="https://t.co/pG9ctROA1S" rel="nofollow">https://t.co/pG9ctROA1S</a></p>
+<div class="translated" id="215864">
+<p>﻿"土耳其黑客团伙 ‘游戏化’ DDoS 攻击，诱使大量黑客加入其 DDoS 平台，统一攻击目标 ：   <a href="https://t.co/VqPGVVov5P" rel="nofollow">https://t.co/VqPGVVov5P</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CzFT-IKUkAAykFS.jpg" target="_blank">
+<img src="CzFT-IKUkAAykFS.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  How to hack a Visa Card in less than 6 seconds :  <a href="http://eprint.ncl.ac.uk/file_store/production/230123/19180242-D02E-47AC-BDB3-73C22D6E1FDB.pdf" rel="nofollow">http://eprint.ncl.ac.uk/file_store/production/230123/19180242-D02E-47AC-BDB3-73C22D6E1FDB.pdf</a> (pdf)</p>
+<div class="translated" id="215702">
+<p>﻿"如何在 6 秒内黑掉 Visa 卡？（paper）︰   <a href="https://t.co/pa2LPVByDs" rel="nofollow">https://t.co/pa2LPVByDs</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  John Wilander @johnwilander </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Latest Safari Technology Preview clears <a href="http://window.name" rel="nofollow">http://window.name</a> on cross-origin navigation: <a href="https://webkit.org/blog/7093/release-notes-for-safari-technology-preview-19/" rel="nofollow">https://webkit.org/blog/7093/release-notes-for-safari-technology-preview-19/</a></p>
+<div class="translated" id="216113">
+<p>﻿"最新的 Safari 技术预览版将在跨域导航时清空 window.name：   <a href="https://t.co/MIyXjdKHz7" rel="nofollow">https://t.co/MIyXjdKHz7</a>:   <a href="https://t.co/CoDG7LwSYr" rel="nofollow">https://t.co/CoDG7LwSYr</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Manuel Caballero @magicmac2000 </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  MS Edge - Spoofing the Address-bar thanks to SmartScreen Malware Warning. A scammer's dream.… <a href="https://t.co/Nx2836KQX8" rel="nofollow">https://t.co/Nx2836KQX8</a></p>
+<div class="translated" id="215970">
+<p>﻿"滥用 Edge 浏览器的 '恶意站点警告' 特性，实现地址栏欺骗，让 <a href="http://facebook.com" rel="nofollow">facebook.com</a> 显示钓鱼站警告页面：   <a href="https://www.brokenbrowser.com/spoof-addressbar-malware/" rel="nofollow">https://www.brokenbrowser.com/spoof-addressbar-malware/</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Crypto </i>]  White-Box Cryptography : Analysis of White-Box AES Implementations : <a href="https://www.esat.kuleuven.be/cosic/publications/thesis-235.pdf" rel="nofollow">https://www.esat.kuleuven.be/cosic/publications/thesis-235.pdf</a> (pdf)</p>
+<div class="translated" id="215705">
+<p>﻿"白盒密码︰ 白盒 AES 算法实现的分析（PDF）︰   <a href="https://t.co/EJdLQMF2M1" rel="nofollow">https://t.co/EJdLQMF2M1</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> IoTDevice </i>]  Hacker Claims To Have Pushed Malicious Firmware Update To 3.2 Million Home Routers <a href="http://motherboard.vice.com/read/hacker-claims-to-push-malicious-firmware-update-to-32-million-home-routers" rel="nofollow">http://motherboard.vice.com/read/hacker-claims-to-push-malicious-firmware-update-to-32-million-home-routers</a></p>
+<div class="translated" id="215725">
+<p>﻿"黑客宣称已给 320 万个被控家庭路由器更新了恶意固件：   <a href="https://t.co/JwcV3ttboa" rel="nofollow">https://t.co/JwcV3ttboa</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  Linux/x86 - Netcat Reverse Shell Shellcode (180 bytes) : <a href="https://www.exploit-db.com/exploits/40872/" rel="nofollow">https://www.exploit-db.com/exploits/40872/</a></p>
+<div class="translated" id="215831">
+<p>﻿"Linux/x86-Netcat shellcode︰   <a href="https://t.co/ljvhMyCmf3" rel="nofollow">https://t.co/ljvhMyCmf3</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Mike_Mimoso @Mike_Mimoso</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  Zeus Variant #FlokiBot’ Targets PoS Data: <a href="https://threatpost.com/zeus-variant-floki-bot-targets-pos-data/122310/" rel="nofollow">https://threatpost.com/zeus-variant-floki-bot-targets-pos-data/122310/</a> via @ threatpost</p>
+<div class="translated" id="216040">
+<p>﻿"恶意软件 Zeus 变种 FlokiBot 将目标锁定银行 PoS 数据︰    <a href="https://t.co/L07FCBhjYo" rel="nofollow">https://t.co/L07FCBhjYo</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  Detecting Malware Pre-execution with Static Analysis and Machine Learning : <a href="https://sentinelone.com/blogs/detecting-malware-pre-execution-static-analysis-machine-learning/" rel="nofollow">https://sentinelone.com/blogs/detecting-malware-pre-execution-static-analysis-machine-learning/</a> <a href="https://t.co/EfokFiASCC" rel="nofollow">https://t.co/EfokFiASCC</a></p>
+<div class="translated" id="215733">
+<p>﻿"使用静态分析和机器学习来检测恶意软件预执行︰   <a href="https://t.co/vm0Hn870LS" rel="nofollow">https://t.co/vm0Hn870LS</a> <a href="https://t.co/EfokFiASCC" rel="nofollow">https://t.co/EfokFiASCC</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CzDcuKGXUAEFgAO.png" target="_blank">
+<img src="CzDcuKGXUAEFgAO.png">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Karsten Hahn @struppigel </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  New Video: Full Analysis of Fleercivet Part 2. Dealing with VM Detection. #MalwareAnalysisForHedgehogs
+<a href="https://t.co/zQSVXNBCOZ" rel="nofollow">https://t.co/zQSVXNBCOZ</a></p>
+<div class="translated" id="215757">
+<p>﻿"Fleercivet 木马全面分析 part 2（video）：   <a href="https://t.co/zQSVXNBCOZ" rel="nofollow">https://t.co/zQSVXNBCOZ</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Mari0n @pinkflawd </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  Part 4 of the Kings-in-you-castle blog series: what (the hell) is sophistication, packer detection and RAT hunting
+<a href="https://t.co/mi33dMHyOY" rel="nofollow">https://t.co/mi33dMHyOY</a></p>
+<div class="translated" id="215786">
+<p>﻿"关于定向攻击中恶意软件的分析 Kings in you castle 系列博客：part 1：   <a href="https://cyber.wtf/2016/10/12/the-kings-in-your-castle-all-the-lame-threats-that-own-you-but-will-never-make-you-famous/%C2%A0" rel="nofollow">https://cyber.wtf/2016/10/12/the-kings-in-your-castle-all-the-lame-threats-that-own-you-but-will-never-make-you-famous/ </a>; part 2：   <a href="https://cyber.wtf/2016/10/31/the-kings-in-your-castle-part-2-dataset-and-feature-extraction/" rel="nofollow">https://cyber.wtf/2016/10/31/the-kings-in-your-castle-part-2-dataset-and-feature-extraction/</a> part 3：   <a href="https://cyber.wtf/2016/11/14/the-kings-in-your-castle-part-3-ssdeep-being-fuzzy-while-exploits-are-being-scarce/%C2%A0" rel="nofollow">https://cyber.wtf/2016/11/14/the-kings-in-your-castle-part-3-ssdeep-being-fuzzy-while-exploits-are-being-scarce/ </a>; part4：   <a href="https://t.co/mi33dMHyOY" rel="nofollow">https://t.co/mi33dMHyOY</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>TrendLabs @TrendLabs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  New post: Avalanche: Thwarting Cybercriminal Hazards with Law Enforcement Collaboration <a href="http://bit.ly/2hiZaLR" rel="nofollow">http://bit.ly/2hiZaLR</a> @ TrendMicro</p>
+<div class="translated" id="215876">
+<p>﻿"遏制网络犯罪与执法行动：   <a href="https://t.co/x9ct9gleCh" rel="nofollow">https://t.co/x9ct9gleCh</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  AdGholas malvertising: business as usual <a href="https://blog.malwarebytes.com/cybercrime/exploits/2016/12/adgholas-malvertising-business-as-usual/" rel="nofollow">https://blog.malwarebytes.com/cybercrime/exploits/2016/12/adgholas-malvertising-business-as-usual/</a></p>
+<div class="translated" id="215726">
+<p>﻿"将恶意代码隐藏在像素中的 AdGholas 背景信息：   <a href="https://t.co/JstEkFOfhE%C2%A0%C2%A0%C2%A0" rel="nofollow">https://t.co/JstEkFOfhE   </a> 技术分析：   <a href="http://www.welivesecurity.com/2016/12/06/readers-popular-websites-targeted-stealthy-stegano-exploit-kit-hiding-pixels-malicious-ads/" rel="nofollow">http://www.welivesecurity.com/2016/12/06/readers-popular-websites-targeted-stealthy-stegano-exploit-kit-hiding-pixels-malicious-ads/</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>SkyLined @berendjanwever</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  #DailyBug #MSIE 9 MSHTML CDispNode::InsertSiblingNode use-after-free
+
+<a href="http://blog.skylined.nl/20161207001.html" rel="nofollow">http://blog.skylined.nl/20161207001.html</a></p>
+<div class="translated" id="215763">
+<p>﻿"IE 9 MSHTML CDispNode::InsertSiblingNode UAF 漏洞：   <a href="https://t.co/BzyU4MJrOV" rel="nofollow">https://t.co/BzyU4MJrOV</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Ange @angealbertini</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Step by step AutoIt deobfuscation <a href="https://twitter.com/_jsoo_/status/806431735860736000" rel="nofollow">https://twitter.com/_jsoo_/status/806431735860736000</a> <a href="https://t.co/rZEClxECYa" rel="nofollow">https://t.co/rZEClxECYa</a></p>
+<div class="translated" id="215772">
+<p>﻿" 反混淆 autoit 脚本 (autoit 是一个用于自动化模拟鼠标按键操作的一个windows工具)：   <a href="http://lifeinhex.com/deobfuscating-autoit-scripts/" rel="nofollow">http://lifeinhex.com/deobfuscating-autoit-scripts/</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CzEHIhyXcAEVso3.jpg" target="_blank">
+<img src="CzEHIhyXcAEVso3.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Iván @aszy</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Discovering Bug Patterns in JavaScript <a href="http://salt.ece.ubc.ca/publications/docs/fse16.pdf" rel="nofollow">http://salt.ece.ubc.ca/publications/docs/fse16.pdf</a></p>
+<div class="translated" id="215790">
+<p>﻿"在 JavaScript 中发现 Bug Patterns（paper）：    <a href="https://t.co/KQ10amfctX" rel="nofollow">https://t.co/KQ10amfctX</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> ReverseEngineering </i>]  Beginners Guide to Reverse Engineering Android Apps : <a href="https://www.rsaconference.com/writable/presentations/file_upload/stu-w02b-beginners-guide-to-reverse-engineering-android-apps.pdf" rel="nofollow">https://www.rsaconference.com/writable/presentations/file_upload/stu-w02b-beginners-guide-to-reverse-engineering-android-apps.pdf</a> (pdf) cc @ pof  //Year* - 2014</p>
+<div class="translated" id="215719">
+<p>﻿"初学者指南之逆向 Android 应用程序︰   <a href="https://t.co/sxDWCyaeGm" rel="nofollow">https://t.co/sxDWCyaeGm</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Rootkit </i>]  Simple userland rootkit – a case study <a href="https://blog.malwarebytes.com/threat-analysis/2016/12/simple-userland-rootkit-a-case-study/" rel="nofollow">https://blog.malwarebytes.com/threat-analysis/2016/12/simple-userland-rootkit-a-case-study/</a></p>
+<div class="translated" id="216022">
+<p>﻿"简单的用户级 rootkit 案例研究：   <a href="https://t.co/6CcOd6D93n" rel="nofollow">https://t.co/6CcOd6D93n</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Abhishek Singh @abhishek102938 </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Sandbox </i>]  Nice article on Sandbox evasion .  <a href="https://www.virusbulletin.com/uploads/pdf/magazine/2016/VB2016-Chailytko-Skuratovich.pdf" rel="nofollow">https://www.virusbulletin.com/uploads/pdf/magazine/2016/VB2016-Chailytko-Skuratovich.pdf</a></p>
+<div class="translated" id="216008">
+<p>﻿"对抗沙盒逃逸：如何增加虚拟环境中的模拟成功率：   <a href="https://t.co/9mB5RENxPd" rel="nofollow">https://t.co/9mB5RENxPd</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>TrendLabs @TrendLabs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> SecurityReport </i>]  What will the threat landscape be like in 2017? Our forecast: <a href="http://bit.ly/2h8HOW3" rel="nofollow">http://bit.ly/2h8HOW3</a> #securitypredictions <a href="https://t.co/6JEYYuJsYQ" rel="nofollow">https://t.co/6JEYYuJsYQ</a></p>
+<div class="translated" id="215704">
+<p>﻿"2017 年 8 大安全趋势预测，来自 Trend Micro ︰   <a href="https://t.co/2NKyvHp06B" rel="nofollow">https://t.co/2NKyvHp06B</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CzCdUafXcAEVttf.jpg" target="_blank">
+<img src="CzCdUafXcAEVttf.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  XDA Developers @xdadevelopers </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Fulmics Deodexer is a simple Windows tool to automate deodexing your ROM! - <a href="http://forum.xda-developers.com/android/software-hacking/tooll-03-12-fulmics-deodexer-1-0-t3512081" rel="nofollow">http://forum.xda-developers.com/android/software-hacking/tooll-03-12-fulmics-deodexer-1-0-t3512081</a> <a href="https://t.co/Dl7YYjaY4w" rel="nofollow">https://t.co/Dl7YYjaY4w</a></p>
+<div class="translated" id="215907">
+<p>﻿"Fulmics Deodexer 是一个简单的 Windows 工具来自动化 deodexing 你的 ROM：   <a href="http://forum.xda-developers.com/android/software-hacking/tooll-03-12-fulmics-deodexer-1-0-t3512081" rel="nofollow">http://forum.xda-developers.com/android/software-hacking/tooll-03-12-fulmics-deodexer-1-0-t3512081</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Matt Suiche @msuiche </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Do not forget the feature request challenge for WinDbg Extension SwishDbgExt ! <a href="https://github.com/comaeio/SwishDbgExt" rel="nofollow">https://github.com/comaeio/SwishDbgExt</a></p>
+<div class="translated" id="215734">
+<p>﻿"SwishDbgExt -- WinDbg 扩展，可用于事件响应和数字取证：   <a href="https://t.co/1rB6gvBf1t" rel="nofollow">https://t.co/1rB6gvBf1t</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Clayton Smith @argilo </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Hack your garage door opener with a #HackRF or #RTLSDR. <a href="https://github.com/argilo/secplus" rel="nofollow">https://github.com/argilo/secplus</a> #SDR #GnuRadio #OpenSource</p>
+<div class="translated" id="216004">
+<p>﻿"使用 HackRF 或 RTLSDR 来 hack 你的车库开门系统 ：   <a href="https://t.co/rX2NVcaD8k" rel="nofollow">https://t.co/rX2NVcaD8k</a> " </p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  b33f @FuzzySec </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  FuzzySec [Can haz more Kernel pwn?] -&gt; Windows Kernel Exploitation: Uninitialized Stack Variable -… <a href="https://t.co/uEFLL8AlRs" rel="nofollow">https://t.co/uEFLL8AlRs</a></p>
+<div class="translated" id="216107">
+<p>﻿"Windows 内核漏洞利用之未初始化的栈变量：   <a href="https://t.co/uEFLL8AlRs" rel="nofollow">https://t.co/uEFLL8AlRs</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Insinuator @Insinuator </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> WirelessSecurity </i>]  New blog post: Research Diary: Bluetooth. Part 2 <a href="https://insinuator.net/2016/12/research-diary-bluetooth-part-2/" rel="nofollow">https://insinuator.net/2016/12/research-diary-bluetooth-part-2/</a></p>
+<div class="translated" id="216075">
+<p>﻿"研究日记︰ 蓝牙 part 2 :   <a href="https://t.co/JHRXz2EVOg" rel="nofollow">https://t.co/JHRXz2EVOg</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> WirelessSecurity </i>]  Microsoft Windows 10 x86/x64 WLAN AutoConfig Named Pipe Proof Of Concept <a href="https://cxsecurity.com/issue/WLB-2016120041" rel="nofollow">https://cxsecurity.com/issue/WLB-2016120041</a></p>
+<div class="translated" id="215797">
+<p>﻿"Microsoft Windows 10 x86/x64 WLAN AutoConfig Named Pipe PoC:   <a href="https://t.co/LcgGQhkbgb" rel="nofollow">https://t.co/LcgGQhkbgb</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://xlab.tencent.com/cn/secnews/2016-03-09/rss_logo.png" width="12px" height="12px" align="left">Xuanwu Spider via 同程安全应急响应中心</p> -->
+<p><img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">Xuanwu Spider via 同程安全应急响应中心</img></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Android </i>]  Android逆向与病毒分析，本文由同程旅游安全团队对内移动安全培训的PPT整理而来，面向对象为对移动安全感兴趣的研发同事： <a href="http://mp.weixin.qq.com/s?__biz=MzI4MzI4MDg1NA%3D%3D&amp;mid=2247483766&amp;idx=1&amp;sn=556e4013ecf61057dc3f3ef75c5d31e0&amp;chksm=eb8c55cfdcfbdcd9f7e78824778887b491929509f38210c93db973a306ffdcce5637d23f5cca&amp;mpshare=1&amp;scene=1&amp;srcid=1206iFN4fygpyaOXHbuTI6Hl#rd" rel="nofollow">http://mp.weixin.qq.com/s?__biz=MzI4MzI4MDg1NA==&amp;mid=2247483766&amp;idx=1&amp;sn=556e4013ecf61057dc3f3ef75c5d31e0&amp;chksm=eb8c55cfdcfbdcd9f7e78824778887b491929509f38210c93db973a306ffdcce5637d23f5cca&amp;mpshare=1&amp;scene=1&amp;srcid=1206iFN4fygpyaOXHbuTI6Hl#rd</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://xlab.tencent.com/cn/secnews/2016-03-09/rss_logo.png" width="12px" height="12px" align="left">Xuanwu Spider via Nominum</p> -->
+<p><img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">Xuanwu Spider via Nominum</img></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Network </i>]  How Nominum Data Science Thwarts Cybercrime Through Industry-Leading DNS Data Analysis，Nominum 公司是如何利用 DNS 大数据分析的方法对抗网络犯罪的： <a href="http://nominum.com/nominum-data-science-thwarts-cybercrime/" rel="nofollow">http://nominum.com/nominum-data-science-thwarts-cybercrime/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://xlab.tencent.com/cn/secnews/2016-03-09/rss_logo.png" width="12px" height="12px" align="left">Xuanwu Spider via BrokenBrowser</p> -->
+<p><img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">Xuanwu Spider via BrokenBrowser</img></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Browser </i>]  滥用 Edge 浏览器的 '恶意站点警告' 特性，实现地址栏欺骗，让 <a href="http://facebook.com" rel="nofollow">facebook.com</a> 显示钓鱼站警告页面： <a href="https://www.brokenbrowser.com/spoof-addressbar-malware/" rel="nofollow">https://www.brokenbrowser.com/spoof-addressbar-malware/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://xlab.tencent.com/cn/secnews/2016-03-09/rss_logo.png" width="12px" height="12px" align="left">Xuanwu Spider via 安全客</p> -->
+<p><img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">Xuanwu Spider via 安全客</img></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Linux </i>]  CVE-2016-8655:Linux内核通杀提权漏洞（21:45更新POC）：http://bobao.360.cn/learning/detail/3267.html</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://xlab.tencent.com/cn/secnews/2016-03-09/rss_logo.png" width="12px" height="12px" align="left">Xuanwu Spider via Sec-News</p> -->
+<p><img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">Xuanwu Spider via Sec-News</img></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Web Security </i>]  [终端安全]某云pc客户端命令执行挖掘过程: <a href="https://xianzhi.aliyun.com/forum/read/505.html" rel="nofollow">https://xianzhi.aliyun.com/forum/read/505.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://xlab.tencent.com/cn/secnews/2016-03-09/rss_logo.png" width="12px" height="12px" align="left">Xuanwu Spider via seebug</p> -->
+<p><img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">Xuanwu Spider via seebug</img></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Browser </i>]  Firefox - SVG cross domain cookie vulnerability (译版，本文有增改): <a href="http://paper.seebug.org/136/" rel="nofollow">http://paper.seebug.org/136/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/12/07/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/12/08/index.html">2016/12/08</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/12/09/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

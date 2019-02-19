@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/11/05" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/11/05</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/11/04/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/11/05/index.html">2016/11/05</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/11/06/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Black Hat @BlackHatEvents</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Conference </i>]  All submitted presentation materials, slides, &amp; whitepapers from #BHEU 2016 Briefings are now available online: <a href="http://ow.ly/fpTj305MFlW" rel="nofollow">http://ow.ly/fpTj305MFlW</a></p>
+<div class="translated" id="204033">
+<p>﻿"BlackHat EU 2016 已放出所有议题PPT ︰   <a href="https://www.blackhat.com/eu-16/briefings.html" rel="nofollow">https://www.blackhat.com/eu-16/briefings.html</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  Exploiting COF Vulnerabilities in the Linux kernel : <a href="https://ruxcon.org.au/assets/2016/slides/ruxcon2016-Vitaly.pdf" rel="nofollow">https://ruxcon.org.au/assets/2016/slides/ruxcon2016-Vitaly.pdf</a> (Slides) #ruxcon cc @ vnik5287</p>
+<div class="translated" id="203814">
+<p>﻿"Exploiting COF Vulnerabilities in the Linux kernel,来自 RuxCon 大会上的议题（Slides）︰   <a href="https://t.co/V0sz7pwZ2k%C2%A0" rel="nofollow">https://t.co/V0sz7pwZ2k </a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>TrendLabs @TrendLabs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  New post: New Bizarro Sundown Exploit Kit Spreads Locky <a href="http://bit.ly/2eupLa1" rel="nofollow">http://bit.ly/2eupLa1</a> @ TrendMicro</p>
+<div class="translated" id="203824">
+<p>﻿"Bizarro Sundown -- 一个新发现的 Exploit Kit：     <a href="https://t.co/6YJAbDrBLB" rel="nofollow">https://t.co/6YJAbDrBLB</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Obfuscation </i>]  Code Deobfuscation : Intertwining Dynamic, Static and Symbolic Approaches : <a href="https://www.blackhat.com/docs/eu-16/materials/eu-16-David-Code-Deobfuscation-Intertwining-Dynamic-Static-And-Symbolic-Approaches.pdf" rel="nofollow">https://www.blackhat.com/docs/eu-16/materials/eu-16-David-Code-Deobfuscation-Intertwining-Dynamic-Static-And-Symbolic-Approaches.pdf</a> (Slides)</p>
+<div class="translated" id="203968">
+<p>﻿"Code Deobfuscation : Intertwining Dynamic, Static and Symbolic Approaches︰   <a href="https://t.co/mRj957sh4r" rel="nofollow">https://t.co/mRj957sh4r</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Breaking out of QEMU : <a href="https://ruxcon.org.au/assets/2016/slides/Breaking%20out%20of%20QEMU_v3.pdf" rel="nofollow">https://ruxcon.org.au/assets/2016/slides/Breaking%20out%20of%20QEMU_v3.pdf</a> (Slides) #ruxcon</p>
+<div class="translated" id="203819">
+<p>﻿"Breaking out of QEMU，来自 RuxCon 大会上 360 Gear Team 的议题（Sliders） :   <a href="https://t.co/zilZlXj6eO%C2%A0" rel="nofollow">https://t.co/zilZlXj6eO </a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  STROLLING INTO RING-0 via i/o kit drivers : <a href="https://ruxcon.org.au/assets/2016/slides/RuxCon_Wardle.pdf" rel="nofollow">https://ruxcon.org.au/assets/2016/slides/RuxCon_Wardle.pdf</a> (Slides) #ruxcon cc @ patrickwardle</p>
+<div class="translated" id="203821">
+<p>﻿"STROLLING INTO RING-0 via i/o kit drivers，来自 Ruxcon上的议题（Slides）︰   <a href="https://ruxcon.org.au/assets/2016/slides/RuxCon_Wardle.pdf%C2%A0" rel="nofollow">https://ruxcon.org.au/assets/2016/slides/RuxCon_Wardle.pdf </a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Hector X. Monsegur @hxmonsegur </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Just released UNIX Nostalgia: Hunting for Zeroday Vulnerabilities on IBM AIX:
+<a href="https://rhinosecuritylabs.com/2016/11/03/unix-nostalgia-hunting-zeroday-vulnerabilities-ibm-aix/" rel="nofollow">https://rhinosecuritylabs.com/2016/11/03/unix-nostalgia-hunting-zeroday-vulnerabilities-ibm-aix/</a></p>
+<div class="translated" id="203733">
+<p>﻿"UNIX Nostalgia: Hunting for Zeroday Vulnerabilities on IBM AIX︰   <a href="https://t.co/4AaLK82xfr" rel="nofollow">https://t.co/4AaLK82xfr</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Piotr Kijewski @piotrkijewski </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Sandbox </i>]  Study shows fingerprinting malware sandboxes is pretty straightforward, enables potential sandbox evasion <a href="https://t.co/8E5Wuxihso" rel="nofollow">https://t.co/8E5Wuxihso</a></p>
+<div class="translated" id="203909">
+<p>﻿"SandPrint: Fingerprinting Malware Sandboxesto Provide Intelligence for Sandbox Evasion：   <a href="https://t.co/8E5Wuxihso" rel="nofollow">https://t.co/8E5Wuxihso</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Lynis : Security auditing tool for Linux, macOS, and UNIX-based systems : <a href="https://github.com/CISOfy/lynis" rel="nofollow">https://github.com/CISOfy/lynis</a></p>
+<div class="translated" id="203923">
+<p>﻿"Lynis -- 一个可以在 Linux、 macOS 和类 UNIX 系统上使用的安全审计工具︰   <a href="https://t.co/aIf6zbolms" rel="nofollow">https://t.co/aIf6zbolms</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Bárbara Vieira @barbaraisv </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Really cool stuff! #DRAMA Reverse-Engineering and Side-Channel Tools for x86-64 Intel CPUs <a href="https://github.com/IAIK/drama" rel="nofollow">https://github.com/IAIK/drama</a></p>
+<div class="translated" id="203986">
+<p>﻿"RAMA Reverse -- Engineering and Side-Channel Tools for x86-64 Intel CPUs：   <a href="https://t.co/MU7rGdz0xD" rel="nofollow">https://t.co/MU7rGdz0xD</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Full Disclosure @SecLists</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  KL-001-2016-008 : Sophos Web Appliance Privilege Escalation <a href="https://goo.gl/fb/ZnJa2s" rel="nofollow">https://goo.gl/fb/ZnJa2s</a> #FullDisclosure</p>
+<div class="translated" id="203977">
+<p>﻿"安全公司 Sophos Web Appliance（v4.2.1.3）存在提权漏洞：   <a href="https://t.co/ySJfuwHBNa" rel="nofollow">https://t.co/ySJfuwHBNa</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Leaking Windows Kernel Pointers : <a href="https://ruxcon.org.au/assets/2016/slides/RuxCon%20-%20Leaking%20Windows%20Kernel%20Pointers.pdf" rel="nofollow">https://ruxcon.org.au/assets/2016/slides/RuxCon%20-%20Leaking%20Windows%20Kernel%20Pointers.pdf</a> (Slides) #ruxcon</p>
+<div class="translated" id="203817">
+<p>﻿"Leaking Windows Kernel Pointers，来自 RuxCon 大会上的议题（Slides）：   <a href="https://t.co/qoux6xalM4" rel="nofollow">https://t.co/qoux6xalM4</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  OJ @TheColonial </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Interesting deck showing various approaches to execute LPE on Windows. <a href="https://www.blackhat.com/docs/eu-16/materials/eu-16-Liang-Attacking-Windows-By-Windows.pdf" rel="nofollow">https://www.blackhat.com/docs/eu-16/materials/eu-16-Liang-Attacking-Windows-By-Windows.pdf</a></p>
+<div class="translated" id="203975">
+<p>﻿"Attacking Windows by Windows，来自 2016 BlackHat EU 上腾讯电脑管家的议题（Slides）：   <a href="https://t.co/68tv441RRS" rel="nofollow">https://t.co/68tv441RRS</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> WirelessSecurity </i>]  LTE Redirection : Forcing Targeted LTE Cellphone into Unsafe Network : <a href="https://ruxcon.org.au/assets/2016/slides/LTE_Redirection_Ruxcon.pdf" rel="nofollow">https://ruxcon.org.au/assets/2016/slides/LTE_Redirection_Ruxcon.pdf</a> (Slides) #ruxcon</p>
+<div class="translated" id="203804">
+<p>﻿"LTE Redirection : Forcing Targeted LTE Cellphone into Unsafe Network，来自 RuxCon 大会上 360 UnicornTeam 的议题（Slides）︰   <a href="https://t.co/JllbD7ddTC%C2%A0" rel="nofollow">https://t.co/JllbD7ddTC </a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/11/04/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/11/05/index.html">2016/11/05</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/11/06/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

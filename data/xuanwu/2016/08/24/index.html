@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/08/24" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/08/24</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/08/23/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/08/24/index.html">2016/08/24</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/08/25/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>jsoo @_jsoo_</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  How I Hacked an Android App to Get Free Beer - <a href="https://breakdev.org/how-i-hacked-an-android-app-to-get-free-beer/" rel="nofollow">https://breakdev.org/how-i-hacked-an-android-app-to-get-free-beer/</a></p>
+<div class="translated" id="175745">
+<p>﻿"我是如何黑掉 Android App 赢得免费啤酒的：   <a href="https://t.co/wyxXG1xwlB" rel="nofollow">https://t.co/wyxXG1xwlB</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  Summing up the ShadowBrokers Leak <a href="http://marcoramilli.blogspot.com/2016/08/summing-up-shadowbrokers-leak.html" rel="nofollow">http://marcoramilli.blogspot.com/2016/08/summing-up-shadowbrokers-leak.html</a></p>
+<div class="translated" id="175747">
+<p>﻿" 对 ShadowBrokers 泄漏的方程式压缩包的总结：   <a href="https://t.co/tu4oGHn6Kr" rel="nofollow">https://t.co/tu4oGHn6Kr</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>PHR34K @unpacker</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> IoTDevice </i>]  Embedded Hardware Hacking 101 – The Belkin WeMo Link <a href="https://www.fireeye.com/blog/threat-research/2016/08/embedded_hardwareha.html" rel="nofollow">https://www.fireeye.com/blog/threat-research/2016/08/embedded_hardwareha.html</a></p>
+<div class="translated" id="175707">
+<p>﻿" 嵌入式设备逆向之 Hacking Belkin 智能 LED 照明开关组，来自 FireEye Blog：   <a href="https://t.co/HuONeadlTL" rel="nofollow">https://t.co/HuONeadlTL</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>securxcess @securxcess</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  Shakti Trojan: Technical Analysis | Malwarebytes Labs <a href="http://ow.ly/tXf6303m06n" rel="nofollow">http://ow.ly/tXf6303m06n</a></p>
+<div class="translated" id="175714">
+<p>﻿" Malwarebytes 对 Shakti 木马的分析，该木马被认为与企业间谍活动有关：   <a href="https://t.co/F4zonrzsqH" rel="nofollow">https://t.co/F4zonrzsqH</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>securxcess @securxcess</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  Fortinet Blog: JBifrost: Yet Another Incarnation of the Adwind RAT <a href="http://ow.ly/VOl1303m08I" rel="nofollow">http://ow.ly/VOl1303m08I</a></p>
+<div class="translated" id="175730">
+<p>﻿" JBifrost - Adwind 远控的变种，来自 Fortinet Blog：   <a href="https://t.co/8mkHcOoc8z" rel="nofollow">https://t.co/8mkHcOoc8z</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Renaud Lifchitz @nono2357 </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> OpenSourceProject </i>]  Analysis of multiple vulnerabilities in different open source BTS products: <a href="https://blog.zimperium.com/analysis-of-multiple-vulnerabilities-in-different-open-source-bts-products/" rel="nofollow">https://blog.zimperium.com/analysis-of-multiple-vulnerabilities-in-different-open-source-bts-products/</a> #GSM #security</p>
+<div class="translated" id="175947">
+<p>﻿" 多个开源 BTS（基站）项目被发现漏洞，来自 Zimperium Labs︰   <a href="https://t.co/dsZzIyCbhJ" rel="nofollow">https://t.co/dsZzIyCbhJ</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Operating System </i>]  Kaspersky launches its own OS on Russian routers
+<a href="http://www.theregister.co.uk/2016/08/23/kasperskyos/" rel="nofollow">http://www.theregister.co.uk/2016/08/23/kasperskyos/</a></p>
+<div class="translated" id="175768">
+<p>﻿"卡巴斯基在俄罗斯的路由器上开始部署其自主研发的操作系统，该操作系统经过 4 年的秘密研发，主要用于保护工控系统：   <a href="https://t.co/QF0iHZXwZE" rel="nofollow">https://t.co/QF0iHZXwZE</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Brian Carpenter @geeknik </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Operating System </i>]  ReactOS 0.4.2, An Open-source Windows Clone, Released With Unix Filesystem Support  <a href="http://buff.ly/2bKPoBA" rel="nofollow">http://buff.ly/2bKPoBA</a></p>
+<div class="translated" id="175845">
+<p>﻿" Windows 的克隆开源版本 - ReactOS 发布 0.4.2 版本，增加对 Unix 文件系统的支持：   <a href="https://t.co/1jzPVfDh2L" rel="nofollow">https://t.co/1jzPVfDh2L</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  ARMEmbedded @ARMEmbedded </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  ARM Cortex-M, Interrupts, and FreeRTOS (Part 2) <a href="http://bit.ly/2bMk5pO" rel="nofollow">http://bit.ly/2bMk5pO</a> (via @ DZone)</p>
+<div class="translated" id="175958">
+<p>﻿" ARM Cortex-M, Interrupts, and FreeRTOS (Part 2) ：   <a href="https://t.co/xqL82GpeJI" rel="nofollow">https://t.co/xqL82GpeJI</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Kyle Hanslovan @KyleHanslovan </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Windows Nano Server is a sexy, hardened OS. Blue &amp; Red Teamers: take note of these security mechanisms. <a href="https://blogs.technet.microsoft.com/windowsserver/2016/04/25/ten-reasons-youll-love-windows-server-2016-8-security/" rel="nofollow">https://blogs.technet.microsoft.com/windowsserver/2016/04/25/ten-reasons-youll-love-windows-server-2016-8-security/</a> #infosec</p>
+<div class="translated" id="175893">
+<p>﻿" 爱上 Windows Server 的 10 个原因系列（八） - 安全性，来自微软：    <a href="https://t.co/UbBhzUi92h" rel="nofollow">https://t.co/UbBhzUi92h</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/08/23/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/08/24/index.html">2016/08/24</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/08/25/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

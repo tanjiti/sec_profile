@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/03/26" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/03/26</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+    color: #a7a7a7;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 15px;
+    /*color: #a7a7a7;*/
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.singlefeedtext p{
+    font-size: 15px;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        //console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        //console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            //console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/03/25/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/03/26/index.html">2017/03/26</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/03/27/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Shahriyar Jalayeri @ponez </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Practical Mitigation of Data-only Attacks
+against Page Tables <a href="https://www.internetsociety.org/sites/default/files/ndss2017_05B-4_Davi_paper.pdf" rel="nofollow">https://www.internetsociety.org/sites/default/files/ndss2017_05B-4_Davi_paper.pdf</a></p>
+<div class="translated" id="258077">
+<p>﻿"DEP/CFI 等防护措施都是以内核页表（Page Table）不被篡改为条件的，这篇 Paper 提出针对页表的纯数据（Data-only）攻击：   <a href="https://t.co/JKW3fB8srO" rel="nofollow">https://t.co/JKW3fB8srO</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  How Malformed RTF Defeats Security Engines : <a href="http://blog.talosintelligence.com/2017/03/how-malformed-rtf-defeats-security.html" rel="nofollow">http://blog.talosintelligence.com/2017/03/how-malformed-rtf-defeats-security.html</a> cc @ r00tbsd <a href="https://t.co/nBc9mATJNF" rel="nofollow">https://t.co/nBc9mATJNF</a></p>
+<div class="translated" id="258081">
+<p>﻿"Talos 研究员尝试利用畸形 RTF 文件攻击反病毒软件的 Parsers︰   <a href="https://t.co/DNT4UmI5nb" rel="nofollow">https://t.co/DNT4UmI5nb</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C7w4xWmXUAQhxK0.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/C7w4xWmXUAQhxK0.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  [remote] - NETGEAR WNR2000v5 - (Un)authenticated hidden_lang_avi Stack Overflow (Metasploit) <a href="https://www.exploit-db.com/exploits/41719/" rel="nofollow">https://www.exploit-db.com/exploits/41719/</a></p>
+<div class="translated" id="258140">
+<p>﻿"NETGEAR WNR2000v5 hidden_lang_avi 栈溢出的 Metasploit 漏洞利用脚本：   <a href="https://t.co/ENVpQwtw7V" rel="nofollow">https://t.co/ENVpQwtw7V</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Ѻṧαη∂α ☣ ☠ ☢ @OsandaMalith </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Stealing #NetNTLM hashes via #XXE
+Read more: <a href="http://wp.me/p3N54q-Bl" rel="nofollow">http://wp.me/p3N54q-Bl</a> <a href="https://t.co/DP1cMVkZO2" rel="nofollow">https://t.co/DP1cMVkZO2</a></p>
+<div class="translated" id="258044">
+<p>﻿"各种窃取 NetNTLM Hash 的方式︰   <a href="https://t.co/DnJ8WWHX6F" rel="nofollow">https://t.co/DnJ8WWHX6F</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C7rLnorVwAAG0nQ.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/C7rLnorVwAAG0nQ.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  howucan.gr @howucan_gr </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  xxe-recursive-download - exploits XXE to retrieve files from a target server <a href="https://goo.gl/fCnsmh" rel="nofollow">https://goo.gl/fCnsmh</a> <a href="https://t.co/H2oTeNawxC" rel="nofollow">https://t.co/H2oTeNawxC</a></p>
+<div class="translated" id="258049">
+<p>﻿"一个利用 XXE 漏洞从目标服务器检索文件的工具：   <a href="https://t.co/5Q13654qIg" rel="nofollow">https://t.co/5Q13654qIg</a> <a href="https://t.co/H2oTeNawxC" rel="nofollow">https://t.co/H2oTeNawxC</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C7RZfxkXQAANQKD.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/C7RZfxkXQAANQKD.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Stefan Kremser @spacehuhn </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  The USB Wi-Fi Ducky: inject keystrokes remotely with @ arduino and @ ESP8266
+<a href="https://github.com/spacehuhn/wifi_ducky" rel="nofollow">https://github.com/spacehuhn/wifi_ducky</a> <a href="https://t.co/kmb4EypVe1" rel="nofollow">https://t.co/kmb4EypVe1</a></p>
+<div class="translated" id="258125">
+<p>﻿"wifi_ducky -- 可通过 WiFi 控制的 BadUSB 设备，可以执行 Ducky 攻击脚本：    <a href="https://t.co/4bfPYo59rJ" rel="nofollow">https://t.co/4bfPYo59rJ</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/ext_tw_video_thumb/845263076991668226/pu/img/io4rCEZja6HqDrHF.jpg" target="_blank">
+<img src="http://pbs.twimg.com/ext_tw_video_thumb/845263076991668226/pu/img/io4rCEZja6HqDrHF.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Web Security </i>]  CORS — a guided tour : Cross-origin resource sharing : <a href="https://medium.com/statuscode/cors-a-guided-tour-4e72230a8739#.mswz0ka0u" rel="nofollow">https://medium.com/statuscode/cors-a-guided-tour-4e72230a8739#.mswz0ka0u</a> cc @ g33konaut</p>
+<div class="translated" id="258085">
+<p>﻿" CORS 跨源资源共享教程︰   <a href="https://t.co/OqaeNBNZii" rel="nofollow">https://t.co/OqaeNBNZii</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>b33f @FuzzySec</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  LPE vulnerabilities exploitation on Windows 10 Anniversary Update - <a href="https://2016.zeronights.ru/wp-content/uploads/2016/12/Win10LPE.pdf" rel="nofollow">https://2016.zeronights.ru/wp-content/uploads/2016/12/Win10LPE.pdf</a> &amp; <a href="http://cvr-data.blogspot.co.uk/2016/11/lpe-vulnerabilities-exploitation-on.html" rel="nofollow">http://cvr-data.blogspot.co.uk/2016/11/lpe-vulnerabilities-exploitation-on.html</a></p>
+<div class="translated" id="257993">
+<p>﻿"ZeroNights 2016 会议上一篇关于 Windows 10 RS1 本地提权漏洞利用的演讲：   <a href="https://t.co/RCpKu9z9Bh%C2%A0" rel="nofollow">https://t.co/RCpKu9z9Bh </a> <a href="https://t.co/Usl7BQoG2E" rel="nofollow">https://t.co/Usl7BQoG2E</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/03/25/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/03/26/index.html">2017/03/26</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/03/27/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

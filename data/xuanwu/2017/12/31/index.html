@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/12/31" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/12/31</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    border-top: 1px solid #f0f0f0;
+    color: black;
+    margin-bottom: 30px;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+
+
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+
+.singleweibotext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+
+.singleweiboimage{
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin-left: 25px;
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedheader{
+
+}
+
+.singlefeedlogo{
+    float: left;
+    /*width: 24px;*/
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.singlefeedlogo img{
+    float: left;
+    width: 13px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+
+    /*width: 80%;
+    height: 80%;*/
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+.singlefeedtext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/12/30/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/12/31/index.html">2017/12/31</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/01/01/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Android ]</span>  
+Inside Android's SafetyNet Attestation - Android SafetyNet Attestation 保护机制的深度分析，这个议题作者在最近的 Black Europe 会议上讲过：  <a href="https://www.mulliner.org/collin/publications/34c3_Androids_SafetyNet_Attestation_Attack_and_Defense.pdf" rel="nofollow">https://www.mulliner.org/collin/publications/34c3_Androids_SafetyNet_Attestation_Attack_and_Defense.pdf</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Detect ]</span>   追查黑客行为：发现与检测横向渗透的方法：   <a href="https://www.botconf.eu/wp-content/uploads/2017/12/2017_tomonaga-muda-Hunting-Attacker-Activities.pdf" rel="nofollow">https://www.botconf.eu/wp-content/uploads/2017/12/2017_tomonaga-muda-Hunting-Attacker-Activities.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ iOS ]</span>  
+新版 iPhone X 的底部虚拟 Home 条是怎么变换颜色的：   <a href="http://blog.zats.io/2017/12/27/iPhone-X-home-button/" rel="nofollow">http://blog.zats.io/2017/12/27/iPhone-X-home-button/</a>
+</p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DSQkB_ZX0AAW32x.jpg" target="_blank">
+<img src="DSQkB_ZX0AAW32x.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Linux ]</span>  
+利用 Linux 内核 waitid() 系统调用的任意地址写漏洞（CVE-2017-5123）实现 Docker 容器的逃逸：   <a href="https://www.twistlock.com/2017/12/27/escaping-docker-container-using-waitid-cve-2017-5123/" rel="nofollow">https://www.twistlock.com/2017/12/27/escaping-docker-container-using-waitid-cve-2017-5123/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  Android 上的银行木马僵尸网络回顾：   <a href="https://www.botconf.eu/wp-content/uploads/2017/12/2017-Drimel-The_new_era_of_Android_Banking_Botnets.pdf" rel="nofollow">https://www.botconf.eu/wp-content/uploads/2017/12/2017-Drimel-The_new_era_of_Android_Banking_Botnets.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>   揭露英国间谍的网络社交媒体角色：   <a href="https://media.ccc.de/v/34c3-9233-uncovering_british_spies_web_of_sockpuppet_social_media_personas" rel="nofollow">https://media.ccc.de/v/34c3-9233-uncovering_british_spies_web_of_sockpuppet_social_media_personas</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Sandbox ]</span>   通过判断系统本地语言实现反沙盒/反调试的技巧：   <a href="http://www.hexacorn.com/blog/2017/12/30/using-localization-as-a-lame-anti-sandbox-anti-debug-trick/" rel="nofollow">http://www.hexacorn.com/blog/2017/12/30/using-localization-as-a-lame-anti-sandbox-anti-debug-trick/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  
+利用 ELK 日志分析平台捕获攻击者的行为：   <a href="http://findingbad.blogspot.com/2017/12/hunting-with-elk.html" rel="nofollow">http://findingbad.blogspot.com/2017/12/hunting-with-elk.html</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  dump_avb_signature - 转储 Android Verified Boot 的签名 Hash ：   <a href="https://github.com/bkerler/dump_avb_signature" rel="nofollow">https://github.com/bkerler/dump_avb_signature</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  
+ 恶意软件信息共享平台（MISP）中内置了多种信息列表，目的是降低情报信息的误报问题。这些列表包括 Alexa Top 1000 网站列表、公开 DNS 解析服务器列表、微软和 Google 域名列表等等：  <a href="https://github.com/MISP/misp-warninglists%C2%A0" rel="nofollow">https://github.com/MISP/misp-warninglists </a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>   KNIGHTCRAWLER项目介绍：快速发现水坑攻击：  <a href="https://www.botconf.eu/wp-content/uploads/2017/12/2017-FelixAime_Kinghtcrawler.pdf" rel="nofollow">https://www.botconf.eu/wp-content/uploads/2017/12/2017-FelixAime_Kinghtcrawler.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  Malpedia 恶意软件协同分析平台介绍：    <a href="https://www.exterminate-it.com/malpedia/%C2%A0" rel="nofollow">https://www.exterminate-it.com/malpedia/ </a> Slides :   <a href="https://www.botconf.eu/wp-content/uploads/2017/12/2017-DanielPlohmann-Malpedia.pdf" rel="nofollow">https://www.botconf.eu/wp-content/uploads/2017/12/2017-DanielPlohmann-Malpedia.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  avatar² - 开源的二进制固件分析框架：   <a href="https://media.ccc.de/v/34c3-9195-avatar" rel="nofollow">https://media.ccc.de/v/34c3-9195-avatar</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>   CVE-2017-11882 漏洞利用脚本，无需使用 WebDAV：   <a href="https://github.com/rxwx/CVE-2017-11882/blob/master/packager_exec_CVE-2017-11882.py" rel="nofollow">https://github.com/rxwx/CVE-2017-11882/blob/master/packager_exec_CVE-2017-11882.py</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  Cisco IOS 漏洞利用程序开发视频，来自 CCC 大会：   <a href="https://media.ccc.de/v/34c3-8936-1-day_exploit_development_for_cisco_ios" rel="nofollow">https://media.ccc.de/v/34c3-8936-1-day_exploit_development_for_cisco_ios</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ WirelessSecurity ]</span>  解码非接触式付款：探索 NFC 交易，介绍 Apple Pay 与 Android Pay 的运作机制：   <a href="https://media.ccc.de/v/34c3-8965-decoding_contactless_card_payments" rel="nofollow">https://media.ccc.de/v/34c3-8965-decoding_contactless_card_payments</a></p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/12/30/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/12/31/index.html">2017/12/31</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/01/01/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

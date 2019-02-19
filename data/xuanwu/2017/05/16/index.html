@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/05/16" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/05/16</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+    color: #a7a7a7;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+
+
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 15px;
+    /*color: #a7a7a7;*/
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedheader{
+
+}
+
+.singlefeedlogo{
+    float: left;
+    /*width: 24px;*/
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.singlefeedlogo img{
+    float: left;
+    width: 13px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+
+    /*width: 80%;
+    height: 80%;*/
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.singlefeedtext p{
+    font-size: 15px;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        //console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        //console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            //console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/15/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/16/index.html">2017/05/16</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/17/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Francisco Alonso @revskills</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  About the security content of Safari 10.1.1
+ <a href="https://support.apple.com/en-us/HT207804" rel="nofollow">https://support.apple.com/en-us/HT207804</a></p>
+<div class="translated" id="279435">
+<p>" Safari 10.1.1 安全更新内容：    <a href="https://support.apple.com/en-us/HT207804" rel="nofollow">https://support.apple.com/en-us/HT207804</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Justin Schuh ? @justinschuh</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  The tl;dr here is: smaller memory footprint, better real-world perf, and some nice JIT security improvements. <a href="https://v8project.blogspot.de/2017/05/launching-ignition-and-turbofan.html" rel="nofollow">https://v8project.blogspot.de/2017/05/launching-ignition-and-turbofan.html</a></p>
+<div class="translated" id="279441">
+<p>" 
+V8 从 5.9 版本开始将切换至 Ignition 解释器和 TurboFan 编译器，性能将有重大提升，以前的 Full-codegen 和 Crankshaft 编译器很快就会被移除：    <a href="https://v8project.blogspot.com/2017/05/launching-ignition-and-turbofan.html" rel="nofollow">https://v8project.blogspot.com/2017/05/launching-ignition-and-turbofan.html</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Francisco Alonso @revskills</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Industry News </i>]  WordPress Now on HackerOne <a href="https://wordpress.org/news/2017/05/wordpress-now-on-hackerone/" rel="nofollow">https://wordpress.org/news/2017/05/wordpress-now-on-hackerone/</a></p>
+<div class="translated" id="279383">
+<p>"  WordPress 现已入驻 HackerOne 平台 ：   <a href="https://wordpress.org/news/2017/05/wordpress-now-on-hackerone/" rel="nofollow">https://wordpress.org/news/2017/05/wordpress-now-on-hackerone/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Industry News </i>]  United Airlines cockpit codes released to the public <a href="http://www.zdnet.com/article/united-airlines-cockpit-codes-released-to-the-public/#ftag=RSSbaffb68" rel="nofollow">http://www.zdnet.com/article/united-airlines-cockpit-codes-released-to-the-public/#ftag=RSSbaffb68</a></p>
+<div class="translated" id="279187">
+<p>"  美联航的驾驶舱机密代码（cockpit codes）意外泄露：    <a href="http://www.zdnet.com/article/united-airlines-cockpit-codes-released-to-the-public/#ftag=RSSbaffb68" rel="nofollow">http://www.zdnet.com/article/united-airlines-cockpit-codes-released-to-the-public/#ftag=RSSbaffb68</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Francisco Alonso @revskills</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  About the security content of macOS Sierra 10.12.5 <a href="https://support.apple.com/en-us/HT207797" rel="nofollow">https://support.apple.com/en-us/HT207797</a></p>
+<div class="translated" id="279436">
+<p>" 
+Apple 发布 iOS 10.3.2 和 macOS Sierra 10.12.5，本次更新修复了多个漏洞，  
+iOS：   <a href="https://support.apple.com/en-us/HT207798" rel="nofollow">https://support.apple.com/en-us/HT207798</a>
+  macOS：   <a href="https://support.apple.com/en-us/HT207797" rel="nofollow">https://support.apple.com/en-us/HT207797</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Glenn Wilkinson @glennzw</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  Excellent #WannaCry resource sheet:
+
+<a href="https://gist.github.com/rain-1/989428fa5504f378b993ee6efbc0b168" rel="nofollow">https://gist.github.com/rain-1/989428fa5504f378b993ee6efbc0b168</a>
+
+@ MalwareTechBlog @ hackerfantastic</p>
+<div class="translated" id="279339">
+<p>" WannaCry 相关信息汇总:
+
+  <a href="https://gist.github.com/rain-1/989428fa5504f378b993ee6efbc0b168" rel="nofollow">https://gist.github.com/rain-1/989428fa5504f378b993ee6efbc0b168</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Costin Raiu @craiu</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  We just published an analysis of the #Lazarus/#Wannacry similarities found by @ neelmehta - <a href="https://securelist.com/blog/research/78431/wannacry-and-lazarus-group-the-missing-link/" rel="nofollow">https://securelist.com/blog/research/78431/wannacry-and-lazarus-group-the-missing-link/</a></p>
+<div class="translated" id="279507">
+<p>" 卡巴斯基和 Google 的研究员分析发现，WannaCry 的样本与 Lazarus APT 组织 2015 年的某个样本存在代码相似性，并据此推断 WannaCry 蠕虫勒索事件的幕后组织来自朝鲜：   <a href="https://securelist.com/blog/research/78431/wannacry-and-lazarus-group-the-missing-link/" rel="nofollow">https://securelist.com/blog/research/78431/wannacry-and-lazarus-group-the-missing-link/</a>  "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>James Forshaw @tiraniddo</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Tweet is for a silent, "fileless" UAC bypass on Win10 which should be fixed in RS3 :-). Bit more info on my blog <a href="https://tyranidslair.blogspot.co.uk/2017/05/exploiting-environment-variables-in.html" rel="nofollow">https://tyranidslair.blogspot.co.uk/2017/05/exploiting-environment-variables-in.html</a></p>
+<div class="translated" id="279595">
+<p>" 
+利用计划任务（Scheduled Tasks）中的环境变量实现 UAC Bypass，来自 James Forshaw:    <a href="https://tyranidslair.blogspot.com/2017/05/exploiting-environment-variables-in.html" rel="nofollow">https://tyranidslair.blogspot.com/2017/05/exploiting-environment-variables-in.html</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Paulino Calderon @calderpwn </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Help me test our latest #nmap NSE script to check Windows machines vulnerable to ms17-010 #smb #WannaCry #infosec <a href="https://t.co/um12vdnjGt" rel="nofollow">https://t.co/um12vdnjGt</a></p>
+<div class="translated" id="279254">
+<p>" Nmap 发布针对 ms17-010 漏洞的探测脚本smb-vuln-ms17-010.nse：   <a href="http://seclists.org/nmap-dev/2017/q2/79" rel="nofollow">http://seclists.org/nmap-dev/2017/q2/79</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Andrew Chiles @AndrewChiles </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Pentest </i>]  [Blog] Empire - Modifying Server C2 Indicators, follow-up to @bluscreenofjeff recent post on #Empire C2 profiles <a href="https://t.co/VXaNY5BN1G" rel="nofollow">https://t.co/VXaNY5BN1G</a></p>
+<div class="translated" id="279266">
+<p>" 修改 Power Empire 的 C2 服务器配置以绕过特征检测：   <a href="http://threatexpress.com/2017/05/empire-modifying-server-c2-indicators/" rel="nofollow">http://threatexpress.com/2017/05/empire-modifying-server-c2-indicators/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Haifei Li @HaifeiLi</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  I just realized I didn't release the slides for my talk @  MS BlueHat and Tencent TenSec last Nov., so here you go <a href="https://sites.google.com/site/zerodayresearch/Analysis_of_the_Attack_Surface_of_Microsoft_Office_from_User_Perspective_final.pdf" rel="nofollow">https://sites.google.com/site/zerodayresearch/Analysis_of_the_Attack_Surface_of_Microsoft_Office_from_User_Perspective_final.pdf</a>.</p>
+<div class="translated" id="279447">
+<p>" 从用户角度出发分析 Microsoft Office 的攻击面，来自 Haifei Li 在 BlueHat 的演讲：   <a href="https://sites.google.com/site/zerodayresearch/Analysis_of_the_Attack_Surface_of_Microsoft_Office_from_User_Perspective_final.pdf" rel="nofollow">https://sites.google.com/site/zerodayresearch/Analysis_of_the_Attack_Surface_of_Microsoft_Office_from_User_Perspective_final.pdf</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Trail of Bits @trailofbits </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Reverse engineer 200 binaries with the mechanical efficiency of symbolic execution <a href="http://blog.trailofbits.com/2017/05/15/magic-with-manticore/" rel="nofollow">http://blog.trailofbits.com/2017/05/15/magic-with-manticore/</a> <a href="https://t.co/ESGwAQgMpf" rel="nofollow">https://t.co/ESGwAQgMpf</a></p>
+<div class="translated" id="279241">
+<p>" 使用 Manticore 解决 DEFCON CTF 二进制分析题目 - Magic 的详细方法：   <a href="https://blog.trailofbits.com/2017/05/15/magic-with-manticore/" rel="nofollow">https://blog.trailofbits.com/2017/05/15/magic-with-manticore/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Giuseppe `N3mes1s` @gN3mes1s</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  WikiLeaks publishes "AfterMidnight" and "Assassin", two CIA malware frameworks for the Microsoft Windows platform. - <a href="https://wikileaks.org/vault7/releases/#AfterMidnight" rel="nofollow">https://wikileaks.org/vault7/releases/#AfterMidnight</a></p>
+<div class="translated" id="279252">
+<p>" 
+上周五 WikiLeaks 又公开了两个 CIA 所用的 Windows 平台的恶意代码框架 - AfterMidnight（午夜之后）和 Assassin（刺客）：   <a href="https://wikileaks.org/vault7/releases/" rel="nofollow">https://wikileaks.org/vault7/releases/</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Chris @xorrior </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  It's finally here: <a href="https://xorrior.com/2.0-Final-Release/" rel="nofollow">https://xorrior.com/2.0-Final-Release/</a>
+cc @ 424f424f @ harmj0y @ Killswitch_GUI @ sixdub @ enigma0x3 
+Enjoy!?</p>
+<div class="translated" id="279283">
+<p>" 
+渗透测试攻击框架 Empire 更新 2.0 版本：   <a href="https://github.com/EmpireProject/Empire%C2%A0" rel="nofollow">https://github.com/EmpireProject/Empire </a> <a href="https://xorrior.com/2.0-Final-Release/" rel="nofollow">https://xorrior.com/2.0-Final-Release/</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Project Zero Bugs @ProjectZeroBugs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Windows Kernel stack memory disclosure in win32k!xxxClientLpkDrawTextEx <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1182" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1182</a></p>
+<div class="translated" id="279191">
+<p>" 
+Windows 内核驱动 win32k!xxxClientLpkDrawTextEx 在触发 user-mode callback 时会泄露内核栈上 4 字节的内存（CVE-2017-0245）：   <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1182" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1182</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Project Zero Bugs @ProjectZeroBugs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Windows Kernel pool memory disclosure in nt!NtTraceControl (EtwpSetProviderTraits) <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1161" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1161</a></p>
+<div class="translated" id="279192">
+<p>" 
+Windows 内核 EtwpSetProviderTraitsUm Kernel Pool 内存泄漏漏洞（CVE-2017-0259）：   <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1161" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1161</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Project Zero Bugs @ProjectZeroBugs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Windows Kernel uninitialized memory in the default dacl descriptor of system processes' token <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1145" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1145</a></p>
+<div class="translated" id="279193">
+<p>" 
+lsass.exe, services.exe 等进程的 token 的 default DACL 中存在 8 字节未初始化的内存（CVE-2017-0258）：   <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1145" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1145</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Project Zero Bugs @ProjectZeroBugs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Windows Kernel pool-based out-of-bound reads due to bugs in the implementation of bind() in afd.sys and tcpip.sys <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1127" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1127</a></p>
+<div class="translated" id="279194">
+<p>" 
+Windows 内核驱动 afd.sys 和 tcpip.sys 在实现 Socket bind() 时存在内存越界读漏洞（CVE-2017-0175/0220）：   <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1127" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1127</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  0patch @0patch </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  0patching the "Worst Windows Remote Code Execution Bug in Recent Memory" CVE-2017-0290 <a href="https://0patch.blogspot.com/2017/05/0patching-worst-windows-remote-code.html" rel="nofollow">https://0patch.blogspot.com/2017/05/0patching-worst-windows-remote-code.html</a></p>
+<div class="translated" id="279235">
+<p>" 
+0patch 团队为 Tavis 发现的 Windows 反病毒引擎中的 mpengine RCE 漏洞写了一个第三方补丁（CVE-2017-0290）：   <a href="https://0patch.blogspot.com/2017/05/0patching-worst-windows-remote-code.html" rel="nofollow">https://0patch.blogspot.com/2017/05/0patching-worst-windows-remote-code.html</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Stealing Windows credentials using Google Chrome <a href="https://www.helpnetsecurity.com/2017/05/15/stealing-windows-credentials-using-google-chrome/" rel="nofollow">https://www.helpnetsecurity.com/2017/05/15/stealing-windows-credentials-using-google-chrome/</a></p>
+<div class="translated" id="279549">
+<p>"  
+2015 年有研究者展示了利用 SMB 文件共享协议认证的缺陷偷用户凭据的信息，当时的展示都是基于 IE 和 Edge 浏览器的。这篇 Blog 中作者介绍如何利用 .scf 文件在 Chrome 上实现攻击：   <a href="https://www.helpnetsecurity.com/2017/05/15/stealing-windows-credentials-using-google-chrome/%C2%A0" rel="nofollow">https://www.helpnetsecurity.com/2017/05/15/stealing-windows-credentials-using-google-chrome/ </a> 2015年的研究：  <a href="https://www.blackhat.com/docs/us-15/materials/us-15-Brossard-SMBv2-Sharing-More-Than-Just-Your-Files.pdf%C2%A0" rel="nofollow">https://www.blackhat.com/docs/us-15/materials/us-15-Brossard-SMBv2-Sharing-More-Than-Just-Your-Files.pdf </a> 还有一篇相关的文章《SPEAR: Redirect to SMB》：  <a href="https://www.cylance.com/redirect-to-smb" rel="nofollow">https://www.cylance.com/redirect-to-smb</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via FreeBuf</p> -->
+<p>XuanwuSpider via FreeBuf</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> WirelessSecurity </i>]  IEEE802.11w无线安全协议剖析: 
+<a href="http://www.freebuf.com/articles/wireless/134349.html" rel="nofollow">http://www.freebuf.com/articles/wireless/134349.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/15/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/16/index.html">2017/05/16</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/17/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

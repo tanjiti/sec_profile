@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/07/14" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/07/14</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    border-top: 1px solid #f0f0f0;
+    color: black;
+    margin-bottom: 30px;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+
+
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+
+.singleweibotext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+
+.singleweiboimage{
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin-left: 25px;
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedheader{
+
+}
+
+.singlefeedlogo{
+    float: left;
+    /*width: 24px;*/
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.singlefeedlogo img{
+    float: left;
+    width: 13px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+
+    /*width: 80%;
+    height: 80%;*/
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+.singlefeedtext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/07/13/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/07/14/index.html">2017/07/14</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/07/15/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Android ]</span>  
+昨天 WikiLeaks 新公开了一个 CIA 的 Android 项目 - Highrise，Highrise 是一个短信转发 APP，用户发送和接收的短信都会转发至外部服务器：   <a href="https://wikileaks.org/vault7/%C2%A0" rel="nofollow">https://wikileaks.org/vault7/ </a> <a href="https://www.bleepingcomputer.com/news/security/vault-7-cia-developed-android-malware-that-works-as-an-sms-proxy/" rel="nofollow">https://www.bleepingcomputer.com/news/security/vault-7-cia-developed-android-malware-that-works-as-an-sms-proxy/</a>
+</p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DEoyiFAUMAILN9u.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/DEoyiFAUMAILN9u.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Detect ]</span>  Stuxnet 攻击中，USB 设备被用于建立了一个隐身网络，这篇 Paper 作者研究如何检测此类看不见的网络：   <a href="https://www.exploit-db.com/docs/42318.pdf" rel="nofollow">https://www.exploit-db.com/docs/42318.pdf</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ macOS ]</span>  
+用 Metasploit 生成可以 Bypass macOS 版本 Avast 12.7 的 Payload：   <a href="https://astr0baby.wordpress.com/2017/07/13/bypassing-antivirus-on-osx-10-11-with-metasploit-avast/" rel="nofollow">https://astr0baby.wordpress.com/2017/07/13/bypassing-antivirus-on-osx-10-11-with-metasploit-avast/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  
+恶意软件内嵌正常应用的情况越来越多，MalwareBytes 这篇 Blog 介绍的是某款恶意软件对 ffmpeg 的滥用：   <a href="https://blog.malwarebytes.com/threat-analysis/2017/07/malware-abusing-ffmpeg/" rel="nofollow">https://blog.malwarebytes.com/threat-analysis/2017/07/malware-abusing-ffmpeg/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Mobile ]</span>  
+ BOOTSTOMP - 手机设备的 Bootloaders 是信任链启动过程中的重要组件，但 Bootloader 实现本身可能存在漏洞，同时很多验证功能由于一些原因也是可以配置禁用的。这篇 Paper 作者对 4 个主流厂商的 Bootloader 的安全性进行分析：   <a href="http://cs.ucsb.edu/~yanick/publications/2017_sec_bootstomp.pdf" rel="nofollow">http://cs.ucsb.edu/~yanick/publications/2017_sec_bootstomp.pdf</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  量子计算简史：    <a href="https://www.doc.ic.ac.uk/~nd/surprise_97/journal/vol4/spb3/" rel="nofollow">https://www.doc.ic.ac.uk/~nd/surprise_97/journal/vol4/spb3/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Pentest ]</span>  
+ Attacking SQL Server CLR Assemblies，攻击 SQL Server CLR 字节码，如何加载一个自己的 CLR DLL，实现 SQL Server 内的提权：   <a href="https://blog.netspi.com/attacking-sql-server-clr-assemblies/" rel="nofollow">https://blog.netspi.com/attacking-sql-server-clr-assemblies/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Pentest ]</span>  本文作者发现 CVE-2017-7308 漏洞利用成功后无法连接网络，于是给出了解决方法：   <a href="https://www.coresecurity.com/blog/solving-post-exploitation-issue-cve-2017-7308" rel="nofollow">https://www.coresecurity.com/blog/solving-post-exploitation-issue-cve-2017-7308</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ SecurityAdvisory ]</span>  Apache httpd 2.4 版本漏洞修复一览表：   <a href="https://httpd.apache.org/security/vulnerabilities_24.html" rel="nofollow">https://httpd.apache.org/security/vulnerabilities_24.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>   ACLight - 用于寻找域中高权限账户和隐藏管理员的 Powershell 脚本：   <a href="https://github.com/CyberArkLabs/ACLight" rel="nofollow">https://github.com/CyberArkLabs/ACLight</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  Intel ME 11.x Firmware Images Unpacker：   <a href="https://github.com/ptresearch/unME11" rel="nofollow">https://github.com/ptresearch/unME11</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  一步一步实现一个简易包管理系统：    <a href="https://yarnpkg.com/blog/2017/07/11/lets-dev-a-package-manager/" rel="nofollow">https://yarnpkg.com/blog/2017/07/11/lets-dev-a-package-manager/</a> </p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  
+ Insinuator 公开了一个 Rekall 内存取证分析框架的 Glibc 堆分析插件：   <a href="https://insinuator.net/2017/07/release-of-glibc-heap-analysis-plugins-for-rekall/" rel="nofollow">https://insinuator.net/2017/07/release-of-glibc-heap-analysis-plugins-for-rekall/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  
+微软对 ShadowBrokers 公开的 Eternal Synergy SMBv1 Exploit 的分析（CVE-2017-0143）：   <a href="https://blogs.technet.microsoft.com/srd/2017/07/13/eternal-synergy-exploit-analysis/" rel="nofollow">https://blogs.technet.microsoft.com/srd/2017/07/13/eternal-synergy-exploit-analysis/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  Win10 上的系统调用方法过滤：   <a href="http://redplait.blogspot.com/2017/07/win32k-calls-filtering-on-w10.html?m=1" rel="nofollow">http://redplait.blogspot.com/2017/07/win32k-calls-filtering-on-w10.html?m=1</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  Windows: Bad Fix for COM Session Moniker EoP（CVE-2017-0298）：   <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1224" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1224</a></p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Vulnerability ]</span>  Samba 高危漏洞预警：Orpheus' Lyre mutual authentication validation bypass(CVE-2017-11103): 
+<a href="https://www.samba.org/samba/security/CVE-2017-11103.html" rel="nofollow">https://www.samba.org/samba/security/CVE-2017-11103.html</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Vulnerability ]</span>  Nginx range 过滤器整形溢出漏洞 (CVE–2017–7529)预警分析，来自 360 网络安全响应中心： 
+<a href="https://cert.360.cn/detailnews.html?id=b879782fbad4a7f773b6c18490d67ac7" rel="nofollow">https://cert.360.cn/detailnews.html?id=b879782fbad4a7f773b6c18490d67ac7</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Windows ]</span>  Windows Defender ATP 对跨进程注入行为的检测： 
+<a href="https://blogs.technet.microsoft.com/mmpc/2017/07/12/detecting-stealthier-cross-process-injection-techniques-with-windows-defender-atp-process-hollowing-and-atom-bombing/?platform=hootsuite" rel="nofollow">https://blogs.technet.microsoft.com/mmpc/2017/07/12/detecting-stealthier-cross-process-injection-techniques-with-windows-defender-atp-process-hollowing-and-atom-bombing/?platform=hootsuite</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/07/13/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/07/14/index.html">2017/07/14</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/07/15/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

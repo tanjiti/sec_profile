@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+
+
+        <script nonce="" type="text/javascript">
+            window.logs = {
+                pagetime: {}
+            };
+            window.logs.pagetime['html_begin'] = (+new Date());
+        </script>
+        <title>帐号已迁移</title>
+        
+<link onerror="wx_loaderror(this)" rel="stylesheet" type="text/css" href="https://res.wx.qq.com/open/libs/weui/1.1.0/weui.min.css"/>
+<style>.weui-msg__opr-area__tips{margin-top:1.2em;text-align:center;font-size:14px;color:#999}.weui-msg__opr-area__tips a{color:#586c94;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}.weui-icon_msg-primary.weui-icon-warn{color:#ffbe00}</style>
+
+    </head>
+    <body id="" class="zh_CN   appmsg_skin_default ">
+        
+        <link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<script nonce="" type="text/javascript">
+    String.prototype.html = function(encode) {
+        var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&yen;", "¥", "&amp;", "&"];
+        
+		
+		
+		
+		
+        
+        var replaceReverse = ["&", "&amp;", "¥", "&yen;", "<", "&lt;", ">", "&gt;", " ", "&nbsp;", '"', "&quot;", "'", "&#39;"];
+	    var target;
+	    if (encode) {
+	    	target = replaceReverse;
+	    } else {
+	    	target = replace;
+	    }
+        for (var i=0,str=this;i< target.length;i+= 2) {
+             str=str.replace(new RegExp(target[i],'g'),target[i+1]);
+        }
+        return str;
+    };
+
+    window.isInWeixinApp = function() {
+        return /MicroMessenger/.test(navigator.userAgent);
+    };
+
+    window.getQueryFromURL = function(url) {
+        url = url || 'http://qq.com/s?a=b#rd'; 
+        var tmp = url.split('?'),
+            query = (tmp[1] || "").split('#')[0].split('&'),
+            params = {};
+        for (var i=0; i<query.length; i++) {
+            var arg = query[i].split('=');
+            params[arg[0]] = arg[1];
+        }
+        if (params['pass_ticket']) {
+        	params['pass_ticket'] = encodeURIComponent(params['pass_ticket'].html(false).html(false).replace(/\s/g,"+"));
+        }
+        return params;
+    };
+
+    (function() {
+	    var params = getQueryFromURL(location.href);
+        window.uin = params['uin'] || "" || '';
+        window.key = params['key'] || "" || '';
+        window.wxtoken = params['wxtoken'] || '';
+        window.pass_ticket = params['pass_ticket'] || '';
+        window.appmsg_token = "";
+    })();
+
+    function wx_loaderror() {
+        if (location.pathname === '/bizmall/reward') {
+            new Image().src = '/mp/jsreport?key=96&content=reward_res_load_err&r=' + Math.random();
+        }
+    }
+
+</script>
+
+<script nonce="" type="text/javascript">
+            window.no_moon_ls = 0;
+    </script>
+
+        
+<div class="weui-msg">
+    <div class="weui-msg__icon-area"><i class="weui-icon-warn weui-icon_msg-primary"></i></div>
+    <div class="weui-msg__text-area">
+        <h2 class="weui-msg__title">该公众号已迁移</h2>
+                <p class="weui-msg__desc">该公众号已迁移至新的帐号，原帐号已回收。<br>若需访问原文章链接，请点击下方按钮。</p>
+            </div>
+    <div class="weui-msg__opr-area">
+        <p class="weui-btn-area">
+            <a href="" id='js_access_msg' class="weui-btn weui-btn_primary">访问文章</a>
+        </p>
+        <p class="weui-msg__opr-area__tips">
+            <a href='https://kf.qq.com/touch/scene_faq.html?scene_id=kf3416' class=''>公众号迁移说明</a>
+        </p>
+    </div>
+</div>
+<script type='text/javascript'>
+function onBridgeReady() {
+    WeixinJSBridge.call("hideToolbar");  
+    WeixinJSBridge.call("hideOptionMenu");
+}
+if (typeof WeixinJSBridge == "undefined"){
+    if( document.addEventListener ){
+        document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+    }else if (document.attachEvent){
+        document.attachEvent('WeixinJSBridgeReady', onBridgeReady); 
+        document.attachEvent('onWeixinJSBridgeReady', onBridgeReady);
+    }
+}else{
+    onBridgeReady();
+}
+
+var id = function(id) {
+    return document.getElementById(id);
+}
+function addEvent(ele, type, handler) {
+    if (ele.addEventListener) {
+        ele.addEventListener(type, handler, false);
+    } else if (ele.attachEvent) {
+        ele.attachEvent('on'+type, handler);
+    }
+}
+function Ajax(obj){
+    var type  = (obj.type || 'GET').toUpperCase();
+    var async = typeof obj.async == 'undefined' ? true : obj.async;
+    var xhr   = new XMLHttpRequest();
+
+    var data = null;
+    if (typeof obj.data == "object"){
+        var d = obj.data;
+        data = [];
+        for(var k in d) {
+            if (d.hasOwnProperty(k)){
+                data.push(k + "=" + encodeURIComponent(d[k]));
+            }
+        }
+        data = data.join("&");
+    }else{
+        data = typeof obj.data  == 'string' ? obj.data : null;
+    }
+    
+    xhr.open(type, obj.url, async);
+    var _onreadystatechange = xhr.onreadystatechange; 
+
+    xhr.onreadystatechange = function() {
+        
+        if (typeof _onreadystatechange == 'function') {
+            _onreadystatechange.apply(xhr);
+        }
+
+        if ( xhr.readyState == 4 ) {
+            xhr.onreadystatechange = null;
+            var status = xhr.status;
+            if ( status >= 200 && status < 400 ) {
+                try {
+                    var responseText = xhr.responseText;
+                    var resp = responseText;
+                    if (obj.dataType == 'json'){
+                        try{
+                            resp = eval("(" + resp + ")");
+                        }catch(e){
+                            obj.error && obj.error(xhr);
+                            return;
+                        }
+                    }
+
+                    obj.success && obj.success(resp);
+                } catch (e) {
+                    throw e;
+                }
+            } else {
+                obj.error && obj.error(xhr);
+            }
+            obj.complete && obj.complete();
+        }
+    };
+    if( type == 'POST' ){
+        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+    }
+    xhr.setRequestHeader("X-Requested-With", "XMLHttpRequest");
+    try{
+        xhr.send(data);
+    } catch ( e ) {
+        obj.error && obj.error();
+    }
+    return xhr;
+}
+var transfer_target_link = 'http://mp.weixin.qq.com/s?__biz=MzU2MDUxMzE5NA==&amp;mid=2247488032&amp;idx=1&amp;sn=51f4e92ed29ac85687738215158454fb#rd';
+if (transfer_target_link) {
+    id("js_access_msg").setAttribute("href", transfer_target_link.replace("#rd", '&source=41#wechat_redirect').replace("&amp;", "&"));
+} else {
+    id("js_access_msg").style.display = 'none';
+}
+
+</script>
+
+        
+        <script nonce="">
+    var __DEBUGINFO = {
+        debug_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/debug/console42f400.js",
+        safe_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/moonsafe42f400.js",
+        res_list: []
+    };
+</script>
+
+<script nonce="" type="text/javascript">
+(function() {
+	var totalCount = 0,
+			finishCount = 0;
+
+	function _loadVConsolePlugin() {
+		window.vConsole = new window.VConsole();
+		while (window.vConsolePlugins.length > 0) {
+			var p = window.vConsolePlugins.shift();
+			window.vConsole.addPlugin(p);
+		}
+	}
+	
+	function _addVConsole(uri, cb) {
+		totalCount++;
+		var node = document.createElement('SCRIPT');
+		node.type = 'text/javascript';
+		node.src = uri;
+		node.setAttribute('nonce', '');
+		if (cb) {
+			node.onload = cb;
+		}
+		document.getElementsByTagName('head')[0].appendChild(node);
+	}
+	if (
+		(document.cookie && document.cookie.indexOf('vconsole_open=1') > -1)
+		|| location.href.indexOf('vconsole=1') > -1
+	) {
+		window.vConsolePlugins = [];
+		_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/3.2.2/vconsole.min43429b.js', function() {
+			
+			_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/plugin/vconsole-mpopt/1.0.1/vconsole-mpopt42f400.js', _loadVConsolePlugin);
+		});
+	}
+})();
+</script>
+        
+        
+
+    </body>
+    <script nonce="" type="text/javascript">document.addEventListener("touchstart", function() {},false);</script>
+</html>
+

@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/06/22" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/06/22</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    border-top: 1px solid #f0f0f0;
+    color: black;
+    margin-bottom: 30px;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+
+
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+
+.singleweibotext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+
+.singleweiboimage{
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin-left: 25px;
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedheader{
+
+}
+
+.singlefeedlogo{
+    float: left;
+    /*width: 24px;*/
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.singlefeedlogo img{
+    float: left;
+    width: 13px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+
+    /*width: 80%;
+    height: 80%;*/
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+.singlefeedtext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/06/21/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/06/22/index.html">2017/06/22</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/06/23/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  
+Firefox Structured clone 算法在处理 shared array buffers 时存在引用计数泄露，这篇 Blog 介绍 saelo 利用这个漏洞实现在 Linux Firefox Beta 53 版本的任意代码执行：   <a href="https://phoenhex.re/2017-06-21/firefox-structuredclone-refleak" rel="nofollow">https://phoenhex.re/2017-06-21/firefox-structuredclone-refleak</a>
+</p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DC305XRXUAAy1CN.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/DC305XRXUAAy1CN.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Bug Bounty ]</span>  
+ 微软准备无限期延长 Edge 浏览器的 Bug Bounty 项目：   <a href="https://threatpost.com/microsoft-extends-edge-bug-bounty-program-indefinitely/126446/" rel="nofollow">https://threatpost.com/microsoft-extends-edge-bug-bounty-program-indefinitely/126446/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Linux ]</span>  
+SCONE: Secure Linux Containers with Intel SGX，Intel SGX 保护机制在 Linux 容器上的应用：    <a href="https://www.usenix.org/system/files/conference/osdi16/osdi16-arnautov.pdf" rel="nofollow">https://www.usenix.org/system/files/conference/osdi16/osdi16-arnautov.pdf</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ MachineLearning ]</span>  机器学习及其在网络安全方面的应用，来自 NCC Group：  <a href="https://www.nccgroup.trust/uk/our-research/rise-of-the-machines-machine-learning-and-its-cyber-security-applications/" rel="nofollow">https://www.nccgroup.trust/uk/our-research/rise-of-the-machines-machine-learning-and-its-cyber-security-applications/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  
+内存的回收管理（GC）一直是某些安全语言低效的重要原因，来自微软的这篇研究 Paper 尝试让用户在安全语言中自己管理内存：   <a href="https://www.microsoft.com/en-us/research/publication/simple-fast-safe-manual-memory-management/" rel="nofollow">https://www.microsoft.com/en-us/research/publication/simple-fast-safe-manual-memory-management/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Popular Software ]</span>  
+用于快速搭建 Web 程序的 Webpack &amp; Preact-CLI 在处理证书时存在问题：   <a href="https://medium.com/@mikenorth/webpack-preact-cli-vulnerability-961572624c54" rel="nofollow">https://medium.com/@mikenorth/webpack-preact-cli-vulnerability-961572624c54</a>
+</p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DC1qMneU0AAF4x1.png" target="_blank">
+<img src="http://pbs.twimg.com/media/DC1qMneU0AAF4x1.png">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ SecurityProduct ]</span>  
+AV-Test 对 18 款杀毒软件在 Windows 10 系统中的评测，从安全防护能力、性能、可用性三个维度：   <a href="https://www.av-test.org/en/news/news-single-view/test-18-security-suites-under-windows-10/" rel="nofollow">https://www.av-test.org/en/news/news-single-view/test-18-security-suites-under-windows-10/</a>
+</p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DC2E7ieXkAU5YN2.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/DC2E7ieXkAU5YN2.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ SecurityProduct ]</span>  
+Bitdefender 杀软处理畸形 RAR 文件时 Crash：   <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1278&amp;desc=6" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1278&amp;desc=6</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Symbolic Execution ]</span>  FireEye 对远程符号解析技术的分析与解决方案：   <a href="https://www.fireeye.com/blog/threat-research/2017/06/remote-symbol-resolution.html" rel="nofollow">https://www.fireeye.com/blog/threat-research/2017/06/remote-symbol-resolution.html</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DC2lgxbXUAALQKy.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/DC2lgxbXUAALQKy.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>   Serpico - 渗透测试报告生成与协作工具：   <a href="https://github.com/SerpicoProject/Serpico" rel="nofollow">https://github.com/SerpicoProject/Serpico</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  
+ remote_lookup - FireEye 开源了一个工具，用于从远程正在运行的进程解析 API 地址的符号信息，然后更新 IDA 的汇编指令符号信息：   <a href="https://www.fireeye.com/blog/threat-research/2017/06/remote-symbol-resolution.html%C2%A0" rel="nofollow">https://www.fireeye.com/blog/threat-research/2017/06/remote-symbol-resolution.html </a> <a href="https://github.com/fireeye/remote_lookup" rel="nofollow">https://github.com/fireeye/remote_lookup</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  
+IDA Hex-Rays 反编译器使用的一些小技巧：   <a href="https://qmemcpy.github.io/post/ida-series-1-hex-rays" rel="nofollow">https://qmemcpy.github.io/post/ida-series-1-hex-rays</a>
+</p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/tweet_video_thumb/DC2xRU3UwAE9qXT.jpg" target="_blank">
+<img src="http://pbs.twimg.com/tweet_video_thumb/DC2xRU3UwAE9qXT.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  
+ 研究员通过 Fuzz 的方法发现了 OpenVPN 项目的多个远程漏洞：   <a href="https://guidovranken.wordpress.com/2017/06/21/the-openvpn-post-audit-bug-bonanza/" rel="nofollow">https://guidovranken.wordpress.com/2017/06/21/the-openvpn-post-audit-bug-bonanza/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Web Security ]</span>   使用 Python 检测与绕过 Web 应用防火墙的教程：   <a href="http://www.kalitutorials.net/2016/12/python-detect-and-bypass-web-application-firewall.html" rel="nofollow">http://www.kalitutorials.net/2016/12/python-detect-and-bypass-web-application-firewall.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  
+微软 MSRC 的研究员根据 Twitter 上的一张 Crash 截图还原了漏洞、构造 PoC 的故事：   <a href="https://blogs.technet.microsoft.com/srd/2017/06/20/tales-from-the-msrc-from-pixels-to-poc/" rel="nofollow">https://blogs.technet.microsoft.com/srd/2017/06/20/tales-from-the-msrc-from-pixels-to-poc/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  
+Windows 内核栈内存信息泄露漏洞（DeviceApi (PiDqIrpQueryGetResult, PiDqIrpQueryCreate, PiDqQueryCompletePendedIrp)）（CVE-2017-8474）：   <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1183" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1183</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  
+Windows 10 S 默认阻止网络下载文档中的宏代码运行：   <a href="https://support.office.com/en-us/article/Block-suspicious-macros-in-Office-on-Windows-10-S-60785abc-d8b8-4b80-8f5d-67ddbee213e9" rel="nofollow">https://support.office.com/en-us/article/Block-suspicious-macros-in-Office-on-Windows-10-S-60785abc-d8b8-4b80-8f5d-67ddbee213e9</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Pentest ]</span>  Hunt Or Be Hunted，来自 BSides London 会议的演讲，关于入侵与入侵检测：  
+<a href="https://www.slideshare.net/AlexDavies49/bsides-london-2017-hunt-or-be-hunted" rel="nofollow">https://www.slideshare.net/AlexDavies49/bsides-london-2017-hunt-or-be-hunted</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/06/21/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/06/22/index.html">2017/06/22</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/06/23/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

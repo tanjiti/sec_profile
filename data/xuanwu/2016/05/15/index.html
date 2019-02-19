@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/05/15" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/05/15</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/05/14/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/05/15/index.html">2016/05/15</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/05/16/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Sex Sells: Looking at Android Adult Adware Apps <a href="https://blogs.mcafee.com/mcafee-labs/sex-sells-looking-at-android-adult-adware-apps/" rel="nofollow">https://blogs.mcafee.com/mcafee-labs/sex-sells-looking-at-android-adult-adware-apps/</a></p>
+<div class="translated" id="135421">
+<p>﻿"Android 成人广告 APP 通过社交网络传播：   <a href="https://t.co/ZjSa39gBun" rel="nofollow">https://t.co/ZjSa39gBun</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>jsoo @_jsoo_</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  .@  _jsoo_ In case most ppl don't understand Italian, slides are here
+<a href="http://www.hackinbo.it/programma-2/" rel="nofollow">http://www.hackinbo.it/programma-2/</a>
+@  embyte 's slide is here <a href="http://www.hackinbo.it/wp-content/uploads/2016/05/Marco-Balduzzi-HackInBo.pdf" rel="nofollow">http://www.hackinbo.it/wp-content/uploads/2016/05/Marco-Balduzzi-HackInBo.pdf</a></p>
+<div class="translated" id="135597">
+<p>﻿" 暗网中的网络犯罪调查报告，来自 TrendMicro 研究员在 HackInBo 会议的演讲：    <a href="https://t.co/uYsS3sC4qN" rel="nofollow">https://t.co/uYsS3sC4qN</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Zerodium @Zerodium</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Google to kill Flash in Chrome by introducing click-to-play by default: <a href="https://groups.google.com/a/chromium.org/forum/#!searchin/chromium-dev/HTML5$20by$20default/chromium-dev/0wWoRRhTA_E/__E3jf40OAAJ" rel="nofollow">https://groups.google.com/a/chromium.org/forum/#!searchin/chromium-dev/HTML5$20by$20default/chromium-dev/0wWoRRhTA_E/__E3jf40OAAJ</a> &amp; <a href="https://docs.google.com/presentation/d/106_KLNJfwb9L-1hVVa4i29aw1YXUy9qFX-Ye4kvJj-4/edit?pref=2&amp;pli=1#slide=id.g1270f83468_0_5" rel="nofollow">https://docs.google.com/presentation/d/106_KLNJfwb9L-1hVVa4i29aw1YXUy9qFX-Ye4kvJj-4/edit?pref=2&amp;pli=1#slide=id.g1270f83468_0_5</a> #Flash #Bounties</p>
+<div class="translated" id="135419">
+<p>﻿" Chrome 浏览器开发者论坛上对 Flash 'click-to-play' 问题的讨论，第一次访问网站时会弹框确认是否允许加载 Flash，点击同意后，以后的访问就会自动加载了︰   <a href="https://t.co/UGabd8yzZ1" rel="nofollow">https://t.co/UGabd8yzZ1</a>     <a href="https://t.co/6YWoKbU5hR%C2%A0" rel="nofollow">https://t.co/6YWoKbU5hR </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Alan Orlikoski @AlanOrlikoski </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Detect </i>]  Here are the "Hunting: Discovering Hidden Threats" slides from today <a href="https://docs.google.com/presentation/d/13Pnnn9yrKF5aZjTdRVVcGOUV7JMc1Yj3x1eHG1y-sL8/edit?usp=sharing" rel="nofollow">https://docs.google.com/presentation/d/13Pnnn9yrKF5aZjTdRVVcGOUV7JMc1Yj3x1eHG1y-sL8/edit?usp=sharing</a></p>
+<div class="translated" id="135410">
+<p>﻿" 挖掘、捕获隐藏的威胁，来自 FireEye 的首席顾问谈威胁检测的问题：   <a href="https://t.co/9CGVRWgnd3" rel="nofollow">https://t.co/9CGVRWgnd3</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Stefan Esser @i0n1c</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  Looks like the original app is open source <a href="https://github.com/Asido/SystemMonitor" rel="nofollow">https://github.com/Asido/SystemMonitor</a></p>
+<div class="translated" id="135561">
+<p>﻿"iOS System Monitor：   <a href="https://t.co/Ajdd0mLXQt" rel="nofollow">https://t.co/Ajdd0mLXQt</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Jóseph Mlodzìanowskì @cedoxX</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> IoTDevice </i>]  Nest releases a open source ver "Thread" that makes possible for devices to simply, securely and reliably connect   <a href="http://www.theinquirer.net/2457743" rel="nofollow">http://www.theinquirer.net/2457743</a></p>
+<div class="translated" id="135432">
+<p>﻿" Google 旗下 Nest 恒温器开源了自己的网络连接协议，协议的名称为'Thread'，该协议让设备互联更加方便：   <a href="https://t.co/qfC6TVIHv8%C2%A0" rel="nofollow">https://t.co/qfC6TVIHv8 </a> GitHub Repo：   <a href="https://github.com/openthread/openthread" rel="nofollow">https://github.com/openthread/openthread</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Chris Truncer @christruncer </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  These are the slides from @ evan_pena2003 and my talk on Higher Level Malware! - <a href="http://www.slideshare.net/CTruncer/higher-level-malware" rel="nofollow">http://www.slideshare.net/CTruncer/higher-level-malware</a></p>
+<div class="translated" id="135699">
+<p>﻿" 用高级语言编写恶意软件（Python/C#）：   <a href="https://t.co/mfexzt09AM" rel="nofollow">https://t.co/mfexzt09AM</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Whitespace steganography : <a href="http://darkside.com.au/snow/" rel="nofollow">http://darkside.com.au/snow/</a> ,Details of Encoding scheme : <a href="http://darkside.com.au/snow/description.html" rel="nofollow">http://darkside.com.au/snow/description.html</a></p>
+<div class="translated" id="135589">
+<p>﻿"SNOW - 空白字符隐写术︰   <a href="https://t.co/IIETQgN0Ee%C2%A0%C2%A0%C2%A0" rel="nofollow">https://t.co/IIETQgN0Ee   </a> 编码方案介绍︰   <a href="https://t.co/95LeFwVV9E" rel="nofollow">https://t.co/95LeFwVV9E</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Pentest </i>]  Run Metasploit Framework as a Docker Container Without Installation Pains : <a href="https://zeltser.com/metasploit-framework-docker-container/" rel="nofollow">https://zeltser.com/metasploit-framework-docker-container/</a></p>
+<div class="translated" id="135536">
+<p>﻿"以 Docker 容器的方式运行 Metasploit 框架︰   <a href="https://t.co/XO0WXbsY0T" rel="nofollow">https://t.co/XO0WXbsY0T</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  CVE-2016-4117: Flash Zero-Day Exploited in the Wild <a href="http://www.fireeye.com/blog/threat-research/2016/05/cve-2016-4117-flash-zero-day.html" rel="nofollow">http://www.fireeye.com/blog/threat-research/2016/05/cve-2016-4117-flash-zero-day.html</a></p>
+<div class="translated" id="135420">
+<p>﻿"CVE-2016-4117 - 野外传播的 Flash 0Day：   <a href="https://t.co/E668mMxjGx" rel="nofollow">https://t.co/E668mMxjGx</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Lee Holmes @Lee_Holmes </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Amazingly deep (700+ pages!) dive into Windows Security Auditing and Monitoring events - <a href="https://www.microsoft.com/en-us/download/details.aspx?id=52630" rel="nofollow">https://www.microsoft.com/en-us/download/details.aspx?id=52630</a></p>
+<div class="translated" id="135487">
+<p>﻿"Windows 10 安全审计与事件监控手册，来自微软官方：   <a href="https://t.co/vkJOpxOsMj" rel="nofollow">https://t.co/vkJOpxOsMj</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/05/14/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/05/15/index.html">2016/05/15</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/05/16/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

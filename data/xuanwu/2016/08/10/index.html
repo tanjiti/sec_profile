@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/08/10" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/08/10</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/08/09/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/08/10/index.html">2016/08/10</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/08/11/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  How the Iranian Government Hacks Dissidents <a href="https://www.schneier.com/blog/archives/2016/08/how_the_iranian.html" rel="nofollow">https://www.schneier.com/blog/archives/2016/08/how_the_iranian.html</a></p>
+<div class="translated" id="170348">
+<p>﻿" Group5 - 伊朗对叙利亚反对派的黑客攻击行动，来自 CitizenLab 的分析报告：   <a href="https://citizenlab.org/2016/08/group5-syria/" rel="nofollow">https://citizenlab.org/2016/08/group5-syria/</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Catalin C. @campuscodi </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  Russian APTs Prefer #Windows, Office, Internet Explorer Exploits <a href="http://buff.ly/2aZ3EIb" rel="nofollow">http://buff.ly/2aZ3EIb</a> #cyberespionage #microsoft <a href="https://t.co/4lc3j5bcIG" rel="nofollow">https://t.co/4lc3j5bcIG</a></p>
+<div class="translated" id="170362">
+<p>﻿" 俄罗斯在近 4 年的 APT 攻击中一共使用了 33 个漏洞，俄罗斯 APT 攻击者的'武器库'调查：    <a href="https://t.co/4lc3j5bcIG" rel="nofollow">https://t.co/4lc3j5bcIG</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CpScmgKWAAAAy7J.jpg" target="_blank">
+<img src="CpScmgKWAAAAy7J.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Yorick Koster @yorickkoster </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  IE local path disclosure vulnerability using sandbox iframes resolved in #MS16095 #CVE20163321 <a href="https://www.securify.nl/advisory/SFY20160301/internet_explorer_iframe_sandbox_local_file_name_disclosure_vulnerability.html" rel="nofollow">https://www.securify.nl/advisory/SFY20160301/internet_explorer_iframe_sandbox_local_file_name_disclosure_vulnerability.html</a></p>
+<div class="translated" id="170535">
+<p>﻿"IE HTML5 Sandbox iframe 本地文件可被探测漏洞（file://）（CVE-2016-3321,MS16-095）：   <a href="https://t.co/e8jUhIOyuX" rel="nofollow">https://t.co/e8jUhIOyuX</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  ZDI-16-454: Microsoft Internet Explorer CAnchor Use-After-Free Remote Code Execution Vulnerability <a href="http://www.zerodayinitiative.com/advisories/ZDI-16-454/" rel="nofollow">http://www.zerodayinitiative.com/advisories/ZDI-16-454/</a></p>
+<div class="translated" id="170636">
+<p>﻿"ZDI-16-454 IE 浏览器 CAnchor UAF RCE 漏洞，来自 ZDI 公告：   <a href="https://t.co/XIo6sS0Kxq" rel="nofollow">https://t.co/XIo6sS0Kxq</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Philipp Jovanovic @Daeinar </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Crypto </i>]  Now at #WOOT16: “Acceleration Attacks on PBKDF2: Or, What Is inside the Black-Box of oclHashcat?” <a href="https://www.usenix.org/conference/woot16/workshop-program/presentation/ruddick" rel="nofollow">https://www.usenix.org/conference/woot16/workshop-program/presentation/ruddick</a></p>
+<div class="translated" id="170221">
+<p>﻿" 针对 PBKDF2 加密算法的加速攻击：   <a href="https://t.co/SIhJmlOMQT" rel="nofollow">https://t.co/SIhJmlOMQT</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>patchguard @patchguard</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Debug </i>]  Disable Single Step Debug in Windbg <a href="https://drive.google.com/file/d/0B1S_tnrAkUvsTnJuVVRDNmIzTDQ/view?pref=2&amp;pli=1" rel="nofollow">https://drive.google.com/file/d/0B1S_tnrAkUvsTnJuVVRDNmIzTDQ/view?pref=2&amp;pli=1</a></p>
+<div class="translated" id="170159">
+<p>﻿" 通过 32/64 位模式切换的方法，禁用 Windbg 的单步调试：   <a href="https://t.co/wicP3i0zZp" rel="nofollow">https://t.co/wicP3i0zZp</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  William Leara @WilliamLeara </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Firmware </i>]  Basic Input/Output: The Binwalk Firmware Analysis Tool <a href="http://www.basicinputoutput.com/2016/08/the-binwalk-firmware-analysis-tool.html#.V6n0LpMYFP4.twitter" rel="nofollow">http://www.basicinputoutput.com/2016/08/the-binwalk-firmware-analysis-tool.html#.V6n0LpMYFP4.twitter</a> @ devttyS0</p>
+<div class="translated" id="170560">
+<p>﻿" Binwalk 固件分析工具使用方法介绍：   <a href="https://t.co/YAZVEchycb" rel="nofollow">https://t.co/YAZVEchycb</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  patrick wardle @patrickwardle </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> macOS </i>]  mahalo @ defcon for incredible time :) posted my slides: "I got 99 Problems, but Little Snitch ain’t one!" <a href="https://speakerdeck.com/patrickwardle/defcon-2016-i-got-99-problems-but-little-snitch-aint-one" rel="nofollow">https://speakerdeck.com/patrickwardle/defcon-2016-i-got-99-problems-but-little-snitch-aint-one</a> #defcon24</p>
+<div class="translated" id="170195">
+<p>﻿" OS X 系统个人防火墙 Little Snitch 的安全性分析：   <a href="https://t.co/g8oopnRM1I%C2%A0" rel="nofollow">https://t.co/g8oopnRM1I </a> 前两周推送过一篇相关的 Blog：   <a href="https://sentinelone.com/blogs/shut-snitch-reverse-engineering-exploiting-critical-little-snitch-vulnerability-reverse-engineering-mac-os-x/" rel="nofollow">https://sentinelone.com/blogs/shut-snitch-reverse-engineering-exploiting-critical-little-snitch-vulnerability-reverse-engineering-mac-os-x/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  Cracking Orcus RAT <a href="http://blog.deniable.org/blog/2016/08/09/cracking-orcus-rat/" rel="nofollow">http://blog.deniable.org/blog/2016/08/09/cracking-orcus-rat/</a></p>
+<div class="translated" id="170638">
+<p>﻿" Orcus 远控木马分析：   <a href="https://t.co/3UtZiwgPY7" rel="nofollow">https://t.co/3UtZiwgPY7</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  Banload Trojan Targets Brazilians With Malware Downloads <a href="https://blogs.mcafee.com/mcafee-labs/banload-trojan-targets-brazilians-with-malware-downloads/" rel="nofollow">https://blogs.mcafee.com/mcafee-labs/banload-trojan-targets-brazilians-with-malware-downloads/</a></p>
+<div class="translated" id="170644">
+<p>﻿" McAfee blog 对 Banload 木马的分析：    <a href="https://t.co/W7d0H8gSxG" rel="nofollow">https://t.co/W7d0H8gSxG</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>hyp @hyp_h5p</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> OpenSourceProject </i>]  GNU Bash 4.3 Out of bounds 
+
+<a href="http://www.openwall.com/lists/oss-security/2016/08/05/2" rel="nofollow">http://www.openwall.com/lists/oss-security/2016/08/05/2</a>
+
+#infosec #linux #kernel #bash</p>
+<div class="translated" id="170308">
+<p>﻿"GNU Bash 4.3 在解析 Shell 时存在越界访问漏洞：   <a href="https://t.co/vSwtJzrr1l" rel="nofollow">https://t.co/vSwtJzrr1l</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Exodus announces new acquisition program for both Zero-Day and N-Day vulnerabilities <a href="https://blog.exodusintel.com/2016/08/09/exodus-announces-new-acquisition-program-for-both-zero-day-and-n-day-vulnerabilities/" rel="nofollow">https://blog.exodusintel.com/2016/08/09/exodus-announces-new-acquisition-program-for-both-zero-day-and-n-day-vulnerabilities/</a></p>
+<div class="translated" id="170438">
+<p>﻿" '军火商' Exodus 启动了一项新的 0-Day 和 N-Day 漏洞收购计划：   <a href="https://t.co/jIQEc3CMUY" rel="nofollow">https://t.co/jIQEc3CMUY</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  An Introduction to Use After Free Vulnerabilities <a href="https://www.purehacking.com/blog/lloyd-simon/an-introduction-to-use-after-free-vulnerabilities" rel="nofollow">https://www.purehacking.com/blog/lloyd-simon/an-introduction-to-use-after-free-vulnerabilities</a></p>
+<div class="translated" id="170217">
+<p>﻿" 以 IE MS14-035 为实例介绍 UAF 漏洞：   <a href="https://t.co/WGW3mAVJz9" rel="nofollow">https://t.co/WGW3mAVJz9</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Dennis Maldonado @DennisMald </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Pentest </i>]  Here is the tool @ NotMedic and I released at @ DEFCON. Scans for accessibility tools backdoors on Windows. 
+
+<a href="https://github.com/linuz/Sticky-Keys-Slayer" rel="nofollow">https://github.com/linuz/Sticky-Keys-Slayer</a></p>
+<div class="translated" id="170211">
+<p>﻿" 基于远程桌面（RDP）访问的方式，在 Windows 远程登录窗口以发送按键的方式建立后门：   <a href="https://t.co/wXzM9WqX7B%C2%A0" rel="nofollow">https://t.co/wXzM9WqX7B </a> 作者在 DefCon 会议的演讲：   <a href="http://www.slideshare.net/DennisMaldonado5/sticky-keys-to-the-kingdom" rel="nofollow">http://www.slideshare.net/DennisMaldonado5/sticky-keys-to-the-kingdom</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Threatpost @threatpost</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  You get a break: No @ adobe #Flash Player security update for August. <a href="https://threatpost.com/a-month-without-adobe-flash-player-patches/119770/" rel="nofollow">https://threatpost.com/a-month-without-adobe-flash-player-patches/119770/</a></p>
+<div class="translated" id="170483">
+<p>﻿" Adobe 也发布了补丁更新，不过本月没有 Flash Player 的补丁，只有 Experience Manager 的 4 个漏洞：   <a href="https://t.co/7CIxfFZAu3%C2%A0" rel="nofollow">https://t.co/7CIxfFZAu3 </a> <a href="https://helpx.adobe.com/security/products/experience-manager/apsb16-27.html" rel="nofollow">https://helpx.adobe.com/security/products/experience-manager/apsb16-27.html</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Jonathan Brossard @endrazine</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  The Witchcraft Compiler Collection source code as seen at @ defcon is on github (MIT License): <a href="https://github.com/endrazine/wcc" rel="nofollow">https://github.com/endrazine/wcc</a> #ReverseEngineering</p>
+<div class="translated" id="170259">
+<p>﻿" 逆向工程相关的 Witchcraft 编译器套件︰   <a href="https://t.co/zaGPonVN1d%C2%A0" rel="nofollow">https://t.co/zaGPonVN1d </a> 这个套件一共 3 个工具，包括链接器、编译器和动态加载器"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Project Zero Bugs @ProjectZeroBugs </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Microsoft GDI+ out-of-bounds reads in DIB palette handling in ValidateBitmapInfo <a href="https://code.google.com/p/google-security-research/issues/detail?id=829" rel="nofollow">https://code.google.com/p/google-security-research/issues/detail?id=829</a></p>
+<div class="translated" id="170498">
+<p>﻿" Microsoft GDI+ out-of-bounds reads in DIB palette handling in ValidateBitmapInfo，来自 Project Zero Issue 829：   <a href="https://t.co/oBKebd8FnK" rel="nofollow">https://t.co/oBKebd8FnK</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Artem I. Baranov @artem_i_baranov </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Microsoft Security Bulletin Summary for August 2016 <a href="https://technet.microsoft.com/library/security/ms16-aug" rel="nofollow">https://technet.microsoft.com/library/security/ms16-aug</a></p>
+<div class="translated" id="170499">
+<p>﻿" 微软发布 8 月份补丁公告：   <a href="https://t.co/7QEm3DSEpM%C2%A0" rel="nofollow">https://t.co/7QEm3DSEpM </a> 本次共有 9 个补丁，其中 5 个为严重级别。漏洞发现者信息：   <a href="https://technet.microsoft.com/library/security/mt674627.aspx" rel="nofollow">https://technet.microsoft.com/library/security/mt674627.aspx</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Sébastien Morin @SebMorin1 </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  New advisory and POC for MS16-099 at <a href="https://smsecurity.net/microsoft-office-word-out-of-bounds-read-remote-code-execution-cve-2016-3313/" rel="nofollow">https://smsecurity.net/microsoft-office-word-out-of-bounds-read-remote-code-execution-cve-2016-3313/</a>, <a href="https://cosig.gouv.qc.ca/en/cosig-2016-31-en/" rel="nofollow">https://cosig.gouv.qc.ca/en/cosig-2016-31-en/</a></p>
+<div class="translated" id="170601">
+<p>﻿" MS Office Word 越界读 RCE PoC（MS16-099，CVE-2016-3313）：   <a href="https://t.co/r0Xg4cCJ0t%C2%A0" rel="nofollow">https://t.co/r0Xg4cCJ0t </a> <a href="https://t.co/23kbp96Vjf" rel="nofollow">https://t.co/23kbp96Vjf</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  [local] - Microsoft Windows Group Policy - Privilege Escalation (MS16-072) <a href="https://www.exploit-db.com/exploits/40219/" rel="nofollow">https://www.exploit-db.com/exploits/40219/</a></p>
+<div class="translated" id="170347">
+<p>﻿" Windows 组策略提权 Exploit 思路(MS16-072)：   <a href="https://t.co/rHhjuUOVze%C2%A0" rel="nofollow">https://t.co/rHhjuUOVze </a> 作者还分享过一个关于这个漏洞的 PPT：   <a href="http://www.slideshare.net/NabeelAhmed7/from-zero-to-system-on-full-disk-encrypted-windows-system" rel="nofollow">http://www.slideshare.net/NabeelAhmed7/from-zero-to-system-on-full-disk-encrypted-windows-system</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  WZor @WZorNET </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Virtual machines based Windows 10 Enterprise Evaluation, Version 1607 for Windows developers <a href="https://developer.microsoft.com/en-us/windows/downloads/virtual-machines" rel="nofollow">https://developer.microsoft.com/en-us/windows/downloads/virtual-machines</a> <a href="https://t.co/Fq7s1XexLq" rel="nofollow">https://t.co/Fq7s1XexLq</a></p>
+<div class="translated" id="170357">
+<p>﻿" Windows 10 开发环境虚拟机下载：   <a href="https://t.co/W80bGBy0nM" rel="nofollow">https://t.co/W80bGBy0nM</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CpW41A2XgAEt4oD.jpg" target="_blank">
+<img src="CpW41A2XgAEt4oD.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  ZDI-16-449: Microsoft Windows win32k RGNOBJ Integer Overflow Privilege Escalation Vulnerability <a href="http://www.zerodayinitiative.com/advisories/ZDI-16-449/" rel="nofollow">http://www.zerodayinitiative.com/advisories/ZDI-16-449/</a></p>
+<div class="translated" id="170633">
+<p>﻿"ZDI-16-449: Microsoft Windows win32k RGNOBJ 整数溢出提权漏洞，来自 ZDI 公告：   <a href="https://t.co/KuSLIpTOkw" rel="nofollow">https://t.co/KuSLIpTOkw</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  ZDI-16-451: Microsoft Office Word RTF JPEG Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability <a href="http://www.zerodayinitiative.com/advisories/ZDI-16-451/" rel="nofollow">http://www.zerodayinitiative.com/advisories/ZDI-16-451/</a></p>
+<div class="translated" id="170634">
+<p>﻿"ZDI-16-451: Microsoft Office Word RTF JPEG 格式解析越界写漏洞，来自 ZDI 公告：   <a href="https://t.co/QHvSbLmcyG" rel="nofollow">https://t.co/QHvSbLmcyG</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  ZDI-16-453: Microsoft Windows xxxInsertMenuItem Out-Of-Bounds Access Privilege Escalation Vulnerability <a href="http://www.zerodayinitiative.com/advisories/ZDI-16-453/" rel="nofollow">http://www.zerodayinitiative.com/advisories/ZDI-16-453/</a></p>
+<div class="translated" id="170635">
+<p>﻿"ZDI-16-453 Microsoft Windows xxxInsertMenuItem 越界访问提权漏洞，来自 ZDI 公告：   <a href="https://t.co/Cf0Jy7hU6R" rel="nofollow">https://t.co/Cf0Jy7hU6R</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/08/09/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/08/10/index.html">2016/08/10</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/08/11/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

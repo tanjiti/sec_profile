@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/09/29" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/09/29</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    border-top: 1px solid #f0f0f0;
+    color: black;
+    margin-bottom: 30px;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+
+
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+
+.singleweibotext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+
+.singleweiboimage{
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin-left: 25px;
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedheader{
+
+}
+
+.singlefeedlogo{
+    float: left;
+    /*width: 24px;*/
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.singlefeedlogo img{
+    float: left;
+    width: 13px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+
+    /*width: 80%;
+    height: 80%;*/
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+.singlefeedtext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/09/28/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/09/29/index.html">2017/09/29</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/09/30/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>   浏览器中的僵尸网络：了解恶意浏览器扩展引起的威胁(Paper) ：   <a href="https://arxiv.org/pdf/1709.09577.pdf" rel="nofollow">https://arxiv.org/pdf/1709.09577.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ macOS ]</span>    Mac OS X 10.12 Quarantine Bypass - macOS 的 rhtmlPlayer.html 存在一个 DOM XSS，攻击者可以利用 rhtmlPlayer.html 实现在无限制的上下文中实现 JavaScript 任意命令执行，譬如直接读 /etc/passwd：   <a href="https://blogs.securiteam.com/index.php/archives/3449%C2%A0" rel="nofollow">https://blogs.securiteam.com/index.php/archives/3449 </a> <a href="https://www.wearesegment.com/research/Mac-OS-X-Local-Javascript-Quarantine-Bypass.html%C2%A0" rel="nofollow">https://www.wearesegment.com/research/Mac-OS-X-Local-Javascript-Quarantine-Bypass.html </a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DK1uDQ3XUAEiz3J.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/DK1uDQ3XUAEiz3J.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ macOS ]</span>    XNU kernel 4570.1.46 sources (macOS High Sierra 10.13) 内核源码公开了，下载链接：   <a href="https://opensource.apple.com/tarballs/xnu/xnu-4570.1.46.tar.gz%C2%A0" rel="nofollow">https://opensource.apple.com/tarballs/xnu/xnu-4570.1.46.tar.gz </a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Malware ]</span>   银行木马将目标指向巴西多家银行：   <a href="http://blog.talosintelligence.com/2017/09/brazilbanking.html" rel="nofollow">http://blog.talosintelligence.com/2017/09/brazilbanking.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>   tcpcopy - TCP 流重放工具：   <a href="https://github.com/session-replay-tools/tcpcopy" rel="nofollow">https://github.com/session-replay-tools/tcpcopy</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DK0viKiVYAAaD9E.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/DK0viKiVYAAaD9E.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  
+OpenVPN read_key() key-method 1 越界写漏洞（CVE-2017-12166）：   <a href="https://community.openvpn.net/openvpn/wiki/CVE-2017-12166" rel="nofollow">https://community.openvpn.net/openvpn/wiki/CVE-2017-12166</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>   《State Of Kernel RCE Mitigations》，来自微软 MSRC 研究员通过对 Eternal* Exploits 的分析来介绍 Windows 内核 RCE 的攻击与防御策略：   <a href="https://github.com/Microsoft/MSRC-Security-Research/blob/master/presentations/2017_07_BountyCraft/BountyCraft2017_JosephBialek_State_Of_Kernel_RCE_Mitigations.pdf%C2%A0" rel="nofollow">https://github.com/Microsoft/MSRC-Security-Research/blob/master/presentations/2017_07_BountyCraft/BountyCraft2017_JosephBialek_State_Of_Kernel_RCE_Mitigations.pdf </a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  
+CyberArk Lab 研究员发现 Windows Defender 在扫描 SMB 共享的文件时存在比较奇怪的行为，利用这个可以 Bypass Windows Defender 的检测：  <a href="https://www.cyberark.com/threat-research-blog/illusion-gap-antivirus-bypass-part-1/" rel="nofollow">https://www.cyberark.com/threat-research-blog/illusion-gap-antivirus-bypass-part-1/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ WirelessSecurity ]</span>  
+Over The Air - Vol. 2, Pt. 1: Exploiting The Wi-Fi Stack on Apple Devices。昨天推送的 iPhone 7 博通 Wi-Fi 固件 RCE 漏洞，Project Zero 专门写了一篇 Blog：  <a href="https://googleprojectzero.blogspot.com/2017/09/over-air-vol-2-pt-1-exploiting-wi-fi.html" rel="nofollow">https://googleprojectzero.blogspot.com/2017/09/over-air-vol-2-pt-1-exploiting-wi-fi.html</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Browser ]</span>  Chrome 目前会将存在密码或信用卡输入域的 HTTP 页面标记为 "Not Secure"。从 10 月份开始，Chrome 将更进一步：存在用户输入数据的 HTTP 页面或者隐身模式浏览的 HTTP 页面也会被标记为 "Not Secure"： 
+<a href="https://blog.chromium.org/2017/04/next-steps-toward-more-connection.html" rel="nofollow">https://blog.chromium.org/2017/04/next-steps-toward-more-connection.html</a> </p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Browser ]</span>  Firefox WebExtensions 扩展（browser.downloads）可以下载并打开不可执行的文件（CVE-2017-7821）。可以被利用实现 RCE；PoC：
+<a href="https://pastebin.com/raw/KrdfFWAg" rel="nofollow">https://pastebin.com/raw/KrdfFWAg</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Industry News ]</span>  Google 表示将在它可控的 45 个顶级域（TLD）强制开启 HSTS： 
+<a href="https://threatpost.com/google-to-enforce-hsts-on-tlds-it-operates/128204/" rel="nofollow">https://threatpost.com/google-to-enforce-hsts-on-tlds-it-operates/128204/</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Industry News ]</span>  中国电信全国IDC机房网络安全加固通知：屏蔽部分端口： <a href="https://mp.weixin.qq.com/s?__biz=MjM5MzM3NjM4MA%3D%3D&amp;mid=2654685143&amp;idx=5&amp;sn=ffa22994b18e5f426da585c53cc71e34&amp;chksm=bd5816c48a2f9fd2f6b4c178f3426a897295d1a35ce980ccd1027de9423bf29d42fb88785398&amp;mpshare=1&amp;scene=23&amp;srcid=0928toTH25r5oy4zd94lrEUe#rd" rel="nofollow">https://mp.weixin.qq.com/s?__biz=MjM5MzM3NjM4MA==&amp;mid=2654685143&amp;idx=5&amp;sn=ffa22994b18e5f426da585c53cc71e34&amp;chksm=bd5816c48a2f9fd2f6b4c178f3426a897295d1a35ce980ccd1027de9423bf29d42fb88785398&amp;mpshare=1&amp;scene=23&amp;srcid=0928toTH25r5oy4zd94lrEUe#rd</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ MalwareAnalysis ]</span>  【木马分析】某游戏盗号木马简要分析报告： <a href="http://bobao.360.cn/learning/detail/4497.html" rel="nofollow">http://bobao.360.cn/learning/detail/4497.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Others ]</span>  SGX 侧信道攻击综述，来自 程越强：
+ <a href="http://mp.weixin.qq.com/s/rPRKpCy_gYzmRH6TvhXSSg" rel="nofollow">http://mp.weixin.qq.com/s/rPRKpCy_gYzmRH6TvhXSSg</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Pentest ]</span>  如何在 Kali Linux 上使用 Mingw-w64 编译 Windows Exploits ： 
+ <a href="http://www.hackingtutorials.org/exploit-tutorials/mingw-w64-how-to-compile-windows-exploits-on-kali-linux/" rel="nofollow">http://www.hackingtutorials.org/exploit-tutorials/mingw-w64-how-to-compile-windows-exploits-on-kali-linux/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Protocol ]</span>  《We need to talk about Session Tickets》，为什么说 TLS 1.2 Session Tickets 是 TLS 部署中最薄弱的一环：
+<a href="https://blog.filippo.io/we-need-to-talk-about-session-tickets/" rel="nofollow">https://blog.filippo.io/we-need-to-talk-about-session-tickets/</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Tools ]</span>  Exploit Kit Landscape Map： <a href="http://executemalware.com/?page_id=320" rel="nofollow">http://executemalware.com/?page_id=320</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Windows ]</span>  反取证技术：内核模式下的进程隐蔽： <a href="http://www.freebuf.com/articles/web/148515.html" rel="nofollow">http://www.freebuf.com/articles/web/148515.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ WirelessSecurity ]</span>  BlueBorne 蓝牙漏洞深入分析与PoC，来自 huahuaisadog@360VulpeckerTeam： <a href="https://paper.seebug.org/408/" rel="nofollow">https://paper.seebug.org/408/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/09/28/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/09/29/index.html">2017/09/29</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/09/30/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

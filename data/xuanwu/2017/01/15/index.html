@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/01/15" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/01/15</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/01/14/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/01/15/index.html">2017/01/15</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/01/16/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Execute millions of SQL statements in milliseconds in the browser with WebAssembly and Web Workers : <a href="https://medium.com/@" rel="nofollow">https://medium.com/@</a> mikeptweet/execute-millions-of-sql-statements-in-milliseconds-in-the-browser-with-webassembly-and-web-workers-3e0b25c3f1a6#.3i59zl6xr</p>
+<div class="translated" id="228694">
+<p>﻿"通过  WebAssembly 和 Web Workers 可在浏览器中以毫秒级执行上百万条 SQL 语句︰   <a href="https://t.co/6lFSvpT0v5" rel="nofollow">https://t.co/6lFSvpT0v5</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Mozilla Firefox &lt; 50.1.0 - Use After Free <a href="https://cxsecurity.com/issue/WLB-2017010092" rel="nofollow">https://cxsecurity.com/issue/WLB-2017010092</a></p>
+<div class="translated" id="228519">
+<p>﻿"Mozilla Firefox &lt; 50.1.0 UAF 漏洞（CVE-2016-9899）PoC：   <a href="https://t.co/c6W3aJUfGn" rel="nofollow">https://t.co/c6W3aJUfGn</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  How SELinux helps blocking a 0day Docker vulnerability (CVE-2016-9962) :  <a href="http://rhelblog.redhat.com/2017/01/13/docker-0-day-stopped-cold-by-selinux/" rel="nofollow">http://rhelblog.redhat.com/2017/01/13/docker-0-day-stopped-cold-by-selinux/</a></p>
+<div class="translated" id="228687">
+<p>﻿"使用 SELinux 防御 Docker 0 day 攻击（CVE-2016-9962):   <a href="https://t.co/RxgEttffmp" rel="nofollow">https://t.co/RxgEttffmp</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mobile </i>]  DIY smartphone based on Raspberry Pi Zero :  <a href="https://hackaday.io/project/19035-zerophone-a-raspberry-pi-smartphone/log/51839-project-description-and-frequently-asked-questions" rel="nofollow">https://hackaday.io/project/19035-zerophone-a-raspberry-pi-smartphone/log/51839-project-description-and-frequently-asked-questions</a> <a href="https://t.co/YtOQPnhIzp" rel="nofollow">https://t.co/YtOQPnhIzp</a></p>
+<div class="translated" id="228682">
+<p>﻿"50 美元，打造一个你自己的智能手机︰   <a href="https://t.co/K7gvdSIUgj" rel="nofollow">https://t.co/K7gvdSIUgj</a> <a href="https://t.co/YtOQPnhIzp" rel="nofollow">https://t.co/YtOQPnhIzp</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C2JzcPLXAAA-NuV.jpg" target="_blank">
+<img src="C2JzcPLXAAA-NuV.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Dino A. Dai Zovi @dinodaizovi</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Hide your ELKs, hide your Kibanas! Linux server ransomware has also begun hitting exposed Elasticsearch instances: 
+
+<a href="http://www.zdnet.com/article/first-came-mass-mongodb-ransacking-now-copycat-ransoms-hit-elasticsearch/" rel="nofollow">http://www.zdnet.com/article/first-came-mass-mongodb-ransacking-now-copycat-ransoms-hit-elasticsearch/</a></p>
+<div class="translated" id="228472">
+<p>﻿"继 MongoDB 勒索事件后，Elasticsearch 或将成为第二个'受害者'︰   <a href="https://t.co/wvMZve9wH4" rel="nofollow">https://t.co/wvMZve9wH4</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  alex @insertScript </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  The bug is finally fixed: How to inject JS in a static PDF to steal it without user interaction <a href="http://insert-script.blogspot.co.at/2016/10/pdf-how-to-steal-pdfs-by-injecting.html" rel="nofollow">http://insert-script.blogspot.co.at/2016/10/pdf-how-to-steal-pdfs-by-injecting.html</a></p>
+<div class="translated" id="228601">
+<p>﻿"在 PDF 中注入 JS 代码来窃取用户数据：   <a href="https://t.co/vNHKouTU5A" rel="nofollow">https://t.co/vNHKouTU5A</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>dragosr @dragosr</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Rootkit </i>]  Finfisher mssounddx.sys rootkit analysis.
+<a href="http://goo.gl/2KUuzI" rel="nofollow">http://goo.gl/2KUuzI</a></p>
+<div class="translated" id="228513">
+<p>﻿"Finfisher rootkit 分析：   <a href="https://t.co/snunoqSz2v" rel="nofollow">https://t.co/snunoqSz2v</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Exploiting Misconfigured Apache server-status Instances with server-status_PWN : <a href="http://blog.mazinahmed.net/2017/01/exploiting-misconfigured-apache-server-status-instances.html" rel="nofollow">http://blog.mazinahmed.net/2017/01/exploiting-misconfigured-apache-server-status-instances.html</a></p>
+<div class="translated" id="228459">
+<p>﻿"Apache server-status 利用工具:   <a href="https://github.com/mazen160/server-status_PWN" rel="nofollow">https://github.com/mazen160/server-status_PWN</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>dragosr @dragosr</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  metasploit unicorn powershell downgrade attack via "corrupt" word/excel doc <a href="http://goo.gl/qFi5eO" rel="nofollow">http://goo.gl/qFi5eO</a></p>
+<div class="translated" id="228563">
+<p>﻿"Unicorn -- Powershell 降级攻击工具：   <a href="https://t.co/8QA6dPeXJe" rel="nofollow">https://t.co/8QA6dPeXJe</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Lyraull @Lyraull </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  New Bluetooth features in Windows 10 Creators Update (a.k.a. GATT Server and friends) <a href="http://dlvr.it/N64ssg" rel="nofollow">http://dlvr.it/N64ssg</a> <a href="https://t.co/eZc408fNcv" rel="nofollow">https://t.co/eZc408fNcv</a></p>
+<div class="translated" id="228449">
+<p>﻿"Windows 10 Creators Update 蓝牙三大新特性介绍：   <a href="https://t.co/HNUyXEpmrf" rel="nofollow">https://t.co/HNUyXEpmrf</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/01/14/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/01/15/index.html">2017/01/15</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/01/16/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

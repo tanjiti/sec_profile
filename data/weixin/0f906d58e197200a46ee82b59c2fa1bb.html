@@ -1,0 +1,1698 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+
+
+        <script nonce="854096366" type="text/javascript">
+            window.logs = {
+                pagetime: {}
+            };
+            window.logs.pagetime['html_begin'] = (+new Date());
+        </script>
+        <title>
+ 吕毅：从攻击视角构建弹性信息安全防御体系
+</title>
+        
+<style>.radius_avatar{display:inline-block;background-color:#fff;padding:3px;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;overflow:hidden;vertical-align:middle}.radius_avatar img{display:block;width:100%;height:100%;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;background-color:#eee}.rich_media_inner{word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.rich_media_area_primary{padding:20px 16px 12px;background-color:#fafafa}.rich_media_area_primary.voice{padding-top:66px}.rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{color:rgba(0,0,0,0.3);background-color:#fafafa}.rich_media_area_extra{padding:0 16px 24px}.rich_media_extra{padding-top:30px}.mpda_bottom_container .rich_media_extra{padding-top:24px}.mpda_bottom_container .rich_media_extra .mpad_more_list{right:-10px}html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;line-height:1.6}body{-webkit-touch-callout:none;font-family:-apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif;color:#333;background-color:#f2f2f2;letter-spacing:.034em}h1,h2,h3,h4,h5,h6{font-weight:400;font-size:16px}*{margin:0;padding:0}a{color:#576b95;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_title{font-size:22px;line-height:1.4;margin-bottom:14px}@supports(-webkit-overflow-scrolling:touch){.rich_media_title{font-weight:700}}.rich_media_meta_list{margin-bottom:22px;line-height:20px;font-size:0;word-wrap:break-word;word-break:break-all}.rich_media_meta_list em{font-style:normal}.rich_media_meta{display:inline-block;vertical-align:middle;margin:0 10px 10px 0;font-size:15px;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_meta.icon_appmsg_tag{margin-right:4px}.rich_media_meta.meta_tag_text{margin-right:0}.rich_media_meta_primary{display:block;margin-bottom:10px;font-size:15px}.meta_original_tag{padding:0 .5em;font-size:12px;line-height:1.4;background-color:#f2f2f2;color:#888}.meta_enterprise_tag img{width:30px;height:30px!important;display:block;position:relative;margin-top:-3px;border:0}.rich_media_meta_link{color:#576b95}.rich_media_meta_text{color:rgba(0,0,0,0.3)}.rich_media_meta_text.rich_media_meta_split{padding-left:10px}.rich_media_meta_text.rich_media_meta_split:before{position:absolute;top:50%;left:0;margin-top:-6px;content:' ';display:block;border-left:1px solid #888;width:200%;height:130%;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0}.rich_media_meta_text.article_modify_tag{position:relative}.rich_media_meta_nickname{position:relative}.rich_media_thumb_wrp{margin-bottom:6px}.rich_media_thumb_wrp .original_img_wrp{display:block}.rich_media_thumb{display:block;width:100%}.rich_media_content{overflow:hidden;color:#333;font-size:17px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;text-align:justify;position:relative;z-index:0}.rich_media_content *{max-width:100%!important;box-sizing:border-box!important;-webkit-box-sizing:border-box!important;word-wrap:break-word!important}.rich_media_content p{clear:both;min-height:1em}.rich_media_content em{font-style:italic}.rich_media_content fieldset{min-width:0}.rich_media_content .list-paddingleft-2{padding-left:2.2em}.rich_media_content .list-paddingleft-2 .list-paddingleft-2{padding-left:30px}.rich_media_content blockquote{margin:0;padding-left:10px;border-left:3px solid #dbdbdb}img{height:auto!important}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:portrait){.rich_media_area_extra{padding-bottom:34px}}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:landscape){.rich_media_area_primary{padding:20px 60px 15px 60px}.rich_media_area_extra{padding:0 60px 21px 60px}}@media screen and (min-width:1024px){.rich_media_area_primary_inner,.rich_media_area_extra_inner{max-width:677px;margin-left:auto;margin-right:auto}.rich_media_area_primary{padding-top:32px}}.appmsg_share_notice{font-size:16px;color:#888;position:relative;padding:1.25em 0;margin-bottom:1.75em}.appmsg_share_notice:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice_hd{font-weight:700;padding-bottom:.2em}.cell{padding:.8em 0;display:block;position:relative}.cell_hd,.cell_bd,.cell_ft{display:table-cell;vertical-align:middle;word-wrap:break-word;word-break:break-all;white-space:nowrap}.cell_primary{width:2000px;white-space:normal}.flex_cell{padding:10px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.flex_cell_primary{width:100%;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;box-flex:1;flex:1}.original_tool_area{display:block;padding:.75em 1em 0;-webkit-tap-highlight-color:rgba(0,0,0,0);color:#333;border:1px solid #eaeaea;margin:20px 0}.original_tool_area .tips_global{position:relative;padding-bottom:.5em;font-size:15px}.original_tool_area .tips_global:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dbdbdb;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:27px;height:27px;padding:0;margin-right:.5em}.original_tool_area .radius_avatar img{height:100%!important}.original_tool_area .flex_cell_bd{width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal}.original_tool_area .flex_cell_ft{font-size:14px;color:#888;padding-left:1em;white-space:nowrap}.original_tool_area .icon_access:after{content:" ";display:inline-block;height:8px;width:8px;border-width:1px 1px 0 0;border-color:#cbcad0;border-style:solid;transform:matrix(0.71,0.71,-0.71,0.71,0,0);-ms-transform:matrix(0.71,0.71,-0.71,0.71,0,0);-webkit-transform:matrix(0.71,0.71,-0.71,0.71,0,0);position:relative;top:-2px;top:-1px}.rich_media_global_msg{position:fixed;top:0;left:0;right:0;padding:.85em 35px .85em 15px;z-index:2;background-color:#c6e0f8;color:#888;font-size:12px}.rich_media_global_msg .icon_closed{position:absolute;right:15px;top:50%;margin-top:-5px;line-height:300px;overflow:hidden;-webkit-tap-highlight-color:rgba(0,0,0,0);background:transparent url(//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_appmsg_msg_closed_sprite.2x42f400.png) no-repeat 0 0;width:11px;height:11px;vertical-align:middle;display:inline-block;-webkit-background-size:100% auto;background-size:100% auto}.rich_media_global_msg .icon_closed:active{background-position:0 -17px}.rich_media_global_msg.voice{color:#1aad19;background-color:#e8f6e8;padding-left:43.3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.rich_media_global_msg.voice .ic_voice{position:absolute;top:50%;margin-top:-10px;left:15px;display:inline-block;width:13.3px;height:18.3px;background:url(data:image/png;base64,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) no-repeat center;background-size:contain}.rich_media_global_msg.voice .icon_more{position:absolute;right:15px;top:50%;margin-top:-6.5px;width:8px;height:13px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAmCAYAAADeB1slAAAAAXNSR0IArs4c6QAAA49JREFUSA2tVk1IVFEUPveOmhQk1ibfvLFZSJtACqJIIpCIoB+imcFV2Z9ZUVnRomgRGFn2i6mFf5XVotCZMYmgIMhlq6BFENFiwjfPAosgFzXOvNu5o3fmeue98Y16F3PP+c453/fu/xCQmvZSWwwJaC0G6P8WND9IoTmbVFRycpqAdgBWkwRo94V960RsPn1aoPpN9RI6CR0WsDWcjAErtUiqTR/S18+HnNcSTv5zYrwDSatVMgLkH6aciwfj79WYW5+OT4xfsyPnBIgvwt872qBW45ZQzaMlJXCfMPJbDQgfRUoIhduVUW2TwArpaWyX+bnYU9JAAH44FaJIccqCW76Ib7NTjhOOvFPN/8q/IvE3cR+npFJgao9rkiSUXjD2GCNqzMnPbNPYjth3mqINlJAvTsk4kiJmWa3eQe8WpxwVzwjwgFFn/CorL29EkY9qovC5CFDrKq7JVoHl6zNTJCf53/lLk78SN/FcbJRx2cZCixC4ZATGXsu4as8YgQjGamN/q5atOotn4K3A1J4BUMbgsh7Wt6sx2bcV4AkjtSPJxkDjRQL0hVwg21zEglSzN+rdKeOybTtFcgK39ajWZDFWr+IZHxfGQ8mV0YA5nMGmDVcCPNcb8R5gYJ1UCWQfp6PFCI4NyZhrAV6EIiHGrPOAB0ImkW2c0la8u8ICc0wUCWrvC1dsw+3TnN6uanDaJ4zeiIfiA9wtWIAX8XspxeA6iuBlaN88hNzCNXk+JwFOuXJYW5tMQmc+EcqgzXGb2n9XFk1NstX5yKczl89JAF+6vRaBM1m5XAu//qkRGrtb8BThTtqH2/V0LmUWwbvsiREw8X0vcJHxxNbjNm3KUuVaMjmPFuWm2CPesHc/kp+yj06hFMhj/PIOOcfVFLk6xZT0G3vMTpmc27MusityZk/OBfKOwA05MPLIDJn3OJldcxTQotpBYOyEXVEWIw/NoInvuHOznSJfVDs0GzneNw9mI+eyOSPQI9phfCqPO38TFhHaFw/Eu/LliNiMESB5w6zkzD05F8mMYJr8mFC263Fa+vAadvXloj4toEcrjlgMjgrQrseHpBcfkm67WD6M6MN6lTWZeoZjyYxGLcB57MGnsEfF3fjU2G189QBpcUqmBLrnSs4504s8GjLxrwm5qYrg3dKFf6x6VbwQ3yOS/wz8+bS0ruwfELaBY2nyoNkn4gvW65GKRn4WForwP+dONHDaOHeZAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.preview_appmsg .rich_media_title{margin-top:2.3em}@media screen and (min-width:1024px){.rich_media_global_msg{position:relative;margin-bottom:32px}.preview_appmsg .rich_media_title.rich_media_title{margin-top:0}}.pages_reset{color:#333;line-height:1.6;font-size:16px;font-weight:400;font-style:normal;text-indent:0;letter-spacing:normal;text-align:left;text-decoration:none;white-space:normal}.weapp_element,.weapp_display_element,.mp-miniprogram{display:block;margin:1em 0}.share_audio_context{margin:16px 0}.weapp_text_link{font-size:17px}.weapp_text_link:before{content:'';display:inline-block;line-height:1;background-size:contain;background-repeat:no-repeat;background-image:url('data:image/png;base64,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');vertical-align:middle;font-size:11px;color:#888;margin-right:6px;margin-top:-3px;background-position:center;height:20px;width:20px}.flex_context{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center}.flex_bd{-webkit-box-flex:1;-webkit-flex:1;flex:1;word-wrap:break-word;word-break:break-all}.original_page{background-color:#fff;font-size:16px}.account_info{padding:0 0 20px}.account_info .flex_bd{padding-left:.85em}.radius_avatar.account_avatar{width:40px;height:40px;padding:0}.account_nickname{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;line-height:1.2;color:#576b95;font-size:14px}.account_nickname_inner{font-weight:400;vertical-align:top}.account_desc{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;color:#b2b2b2;font-size:13px;line-height:1.2;padding-top:.3em}.account_desc_inner{display:inline;vertical-align:top}.share_notice{margin-bottom:20px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.share_media{padding-bottom:18px}.original_panel{padding:20px;background-color:#fcfcfc;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;overflow:hidden;position:relative}.original_panel:after{content:" ";border:1px solid #d8d8d8;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;position:absolute;top:0;left:0;width:200%;height:200%;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}.original_panel .original_account{margin-bottom:18px;position:relative;z-index:1}.original_panel .original_account_avatar{width:28px;height:28px;padding:0}.original_panel .original_account_nickname{padding-left:.85em;font-size:15px;color:#576b95}.original_panel_title{font-size:23px;color:#000;margin:0 0 16px}.original_panel_content{color:#333}.original_panel_tool{padding-top:20px;position:relative;z-index:1}.original_cell_nickname{display:inline-block;vertical-align:middle;font-weight:400;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:8em;color:#000}.original_tool_area{padding:1.17em 0;border-width:0;position:relative}.original_tool_area:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:20px;height:20px;margin-right:.2em}.original_tool_area .flex_cell{padding:0;font-size:14px}.original_tool_area .icon_access:after{margin-right:4px;top:0}.preview_appmsg .rich_media_title{margin-top:1.5em}.preview_appmsg .account_info{padding-top:3em}.original_page{background-color:transparent}.account_info{-webkit-tap-highlight-color:rgba(0,0,0,0);outline:0;padding-bottom:20px;font-size:14px}.account_info.appmsg_account_info{padding-bottom:32px}.account_info .radius_avatar img{background-color:transparent}.share_notice{font-size:16px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.original_panel{background-color:#fafafa}.original_panel:after{border-color:#e6e6e6}.original_panel .original_account_avatar{width:30px;height:30px}.original_panel_tool{font-size:14px}.original_panel_tool a{color:#576b95}.original_panel_content{font-size:17px}.share_media{padding-bottom:30px}.icon_appmsg_tag{display:inline-block;vertical-align:middle;padding:0 .5em;font-size:12px;line-height:1.5;background-color:#c3c3c3;color:#fff;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:70%}.icon_appmsg_tag.primary{color:#3bb638;padding:4px .78em;background-color:rgba(9,187,7,0.08);font-size:12px;border-top-left-radius:.95em 50%;-moz-border-radius-topleft:.95em 50%;-webkit-border-top-left-radius:.95em 50%;border-top-right-radius:.95em 50%;-moz-border-radius-topright:.95em 50%;-webkit-border-top-right-radius:.95em 50%;border-bottom-left-radius:.95em 50%;-moz-border-radius-bottomleft:.95em 50%;-webkit-border-bottom-left-radius:.95em 50%;border-bottom-right-radius:.95em 50%;-moz-border-radius-bottomright:.95em 50%;-webkit-border-bottom-right-radius:.95em 50%}.icon_appmsg_tag.default{border:1px solid rgba(0,0,0,0.1);color:rgba(0,0,0,0.3);background-color:transparent;padding:0 .54em;font-size:15px;line-height:1.3;border-top-left-radius:.67em 50%;-moz-border-radius-topleft:.67em 50%;-webkit-border-top-left-radius:.67em 50%;border-top-right-radius:.67em 50%;-moz-border-radius-topright:.67em 50%;-webkit-border-top-right-radius:.67em 50%;border-bottom-left-radius:.67em 50%;-moz-border-radius-bottomleft:.67em 50%;-webkit-border-bottom-left-radius:.67em 50%;border-bottom-right-radius:.67em 50%;-moz-border-radius-bottomright:.67em 50%;-webkit-border-bottom-right-radius:.67em 50%}.rich_media_meta_list .icon_appmsg_tag.default{margin-top:-1px}.icon_appmsg_tag.title_tag{background-color:#d04b4e}.icon_global_tag_wrp{text-align:right;padding-bottom:12px}.icon_global_tag{background-color:rgba(118,118,118,0.16);color:rgba(0,0,0,0.41);line-height:2.2;border-top-left-radius:1em 50%;-moz-border-radius-topleft:1em 50%;-webkit-border-top-left-radius:1em 50%;border-bottom-left-radius:1em 50%;-moz-border-radius-bottomleft:1em 50%;-webkit-border-bottom-left-radius:1em 50%;padding:0 1.8em 0 1.34em;font-size:12px;margin-right:-24px;display:inline-block;vertical-align:top}.global_plain_btn{display:inline-block;vertical-align:middle;padding:0 1em;line-height:2;font-size:14px;-webkit-tap-highlight-color:rgba(0,0,0,0);border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px}.global_plain_btn.primary{color:#1aad19;border:1px solid currentColor}.global_plain_btn.primary:active{color:rgba(26,173,25,0.6)}.wx_video_context{color:#fefefe;position:relative;background-color:#000}.wx_video_thumb,.wx_video_thumb_primary{position:absolute;left:0;width:100%;height:100%!important;top:0}.wx_video_thumb_primary{-webkit-background-size:cover;background-size:cover;background-position:50% 50%;background-repeat:no-repeat}.wx_video_play_btn{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);margin-top:-2px;font-size:0;border-width:0;background-color:transparent;padding:0;outline:0;z-index:2}.wx_video_play_btn:before{content:" ";display:inline-block;width:0;height:0;border-width:14px 0 14px 25px;border-color:transparent transparent transparent #fff;border-style:dotted dotted dotted solid}.wx_video_mask{position:absolute;top:0;left:0;right:0;bottom:0;z-index:1;background-color:rgba(0,0,0,0.5)}.place_audio_area{min-height:100px;background-color:#fdfdfd;display:block;margin:16px 0}.place_music_area{min-height:68px;background-color:#fdfdfd;display:block;margin:17px 0 16px}.rich_media_empty_extra{background-color:#fafafa}.appmsg_skin_default.rich_media_empty_extra{background-color:#fff}.appmsg_skin_default .rich_media_area_primary{background-color:#fff}.appmsg_skin_default .rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{background-color:#fff}.appmsg_style_default .rich_media_tool{padding-top:15px}.rich_media_title_ios{font-weight:700}.read-more__area{margin:30px 0}.read-more__desc{margin-bottom:10px}.read-more__article__extra{font-size:14px;color:rgba(0,0,0,0.5)}.read-more__article__item{margin-bottom:10px}</style>
+<style>
+        </style>
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/pc435ee6.css">
+<![endif]-->
+
+    </head>
+    <body id="activity-detail" class="zh_CN mm_appmsg  appmsg_skin_default appmsg_style_default">
+        
+<script nonce="854096366" type="text/javascript">
+    var biz = ""||"MzU1Mzg0Nzk0NQ==";
+    var sn = "" || ""|| "049c719c1738779383143c2234df2c79";
+    var mid = "" || ""|| "2247483733";
+    var idx = "" || "" || "1";
+    window.__allowLoadResFromMp = true; 
+    
+        
+</script>
+<script nonce="854096366" type="text/javascript">
+var page_begintime=+new Date,is_rumor="",norumor="";
+1*is_rumor&&!(1*norumor)&&biz&&mid&&(document.referrer&&-1!=document.referrer.indexOf("mp.weixin.qq.com/mp/rumor")||(location.href="http://mp.weixin.qq.com/mp/rumor?action=info&__biz="+biz+"&mid="+mid+"&idx="+idx+"&sn="+sn+"#wechat_redirect"));
+</script>
+<script nonce="854096366" type="text/javascript">
+var MutationObserver=window.WebKitMutationObserver||window.MutationObserver||window.MozMutationObserver,isDangerSrc=function(t){
+if(t){
+var e=t.match(/http(?:s)?:\/\/([^\/]+?)(\/|$)/);
+if(e&&!/qq\.com(\:8080)?$/.test(e[1])&&!/weishi\.com$/.test(e[1]))return!0;
+}
+return!1;
+},ishttp=0==location.href.indexOf("http://");
+-1==location.href.indexOf("safe=0")&&ishttp&&"function"==typeof MutationObserver&&"mp.weixin.qq.com"==location.host&&(window.__observer_data={
+count:0,
+exec_time:0,
+list:[]
+},window.__observer=new MutationObserver(function(t){
+window.__observer_data.count++;
+var e=new Date,r=[];
+t.forEach(function(t){
+for(var e=t.addedNodes,o=0;o<e.length;o++){
+var n=e[o];
+if("SCRIPT"===n.tagName){
+var i=n.src;
+isDangerSrc(i)&&(window.__observer_data.list.push(i),r.push(n)),!i&&window.__nonce_str&&n.getAttribute("nonce")!=window.__nonce_str&&(window.__observer_data.list.push("inlinescript_without_nonce"),
+r.push(n));
+}
+}
+});
+for(var o=0;o<r.length;o++){
+var n=r[o];
+n.parentNode&&n.parentNode.removeChild(n);
+}
+window.__observer_data.exec_time+=new Date-e;
+}),window.__observer.observe(document,{
+subtree:!0,
+childList:!0
+})),function(){
+if(-1==location.href.indexOf("safe=0")&&Math.random()<.01&&ishttp&&HTMLScriptElement.prototype.__lookupSetter__&&"undefined"!=typeof Object.defineProperty){
+window.__danger_src={
+xmlhttprequest:[],
+script_src:[],
+script_setAttribute:[]
+};
+var t="$"+Math.random();
+HTMLScriptElement.prototype.__old_method_script_src=HTMLScriptElement.prototype.__lookupSetter__("src"),
+HTMLScriptElement.prototype.__defineSetter__("src",function(t){
+t&&isDangerSrc(t)&&window.__danger_src.script_src.push(t),this.__old_method_script_src(t);
+});
+var e="element_setAttribute"+t;
+Object.defineProperty(Element.prototype,e,{
+value:Element.prototype.setAttribute,
+enumerable:!1
+}),Element.prototype.setAttribute=function(t,r){
+"SCRIPT"==this.tagName&&"src"==t&&isDangerSrc(r)&&window.__danger_src.script_setAttribute.push(r),
+this[e](t,r);
+};
+}
+}();
+</script>
+
+        <link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<script nonce="854096366" type="text/javascript">
+    String.prototype.html = function(encode) {
+        var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&yen;", "¥", "&amp;", "&"];
+        
+		
+		
+		
+		
+        
+        var replaceReverse = ["&", "&amp;", "¥", "&yen;", "<", "&lt;", ">", "&gt;", " ", "&nbsp;", '"', "&quot;", "'", "&#39;"];
+	    var target;
+	    if (encode) {
+	    	target = replaceReverse;
+	    } else {
+	    	target = replace;
+	    }
+        for (var i=0,str=this;i< target.length;i+= 2) {
+             str=str.replace(new RegExp(target[i],'g'),target[i+1]);
+        }
+        return str;
+    };
+
+    window.isInWeixinApp = function() {
+        return /MicroMessenger/.test(navigator.userAgent);
+    };
+
+    window.getQueryFromURL = function(url) {
+        url = url || 'http://qq.com/s?a=b#rd'; 
+        var tmp = url.split('?'),
+            query = (tmp[1] || "").split('#')[0].split('&'),
+            params = {};
+        for (var i=0; i<query.length; i++) {
+            var arg = query[i].split('=');
+            params[arg[0]] = arg[1];
+        }
+        if (params['pass_ticket']) {
+        	params['pass_ticket'] = encodeURIComponent(params['pass_ticket'].html(false).html(false).replace(/\s/g,"+"));
+        }
+        return params;
+    };
+
+    (function() {
+	    var params = getQueryFromURL(location.href);
+        window.uin = params['uin'] || "" || '';
+        window.key = params['key'] || "" || '';
+        window.wxtoken = params['wxtoken'] || '';
+        window.pass_ticket = params['pass_ticket'] || '';
+        window.appmsg_token = "";
+    })();
+
+    function wx_loaderror() {
+        if (location.pathname === '/bizmall/reward') {
+            new Image().src = '/mp/jsreport?key=96&content=reward_res_load_err&r=' + Math.random();
+        }
+    }
+
+</script>
+
+<script nonce="854096366" type="text/javascript">
+        window.__moon_report_uin = "0";
+            window.no_moon_ls = 0;
+    </script>
+
+        
+<script nonce="854096366" type="text/javascript">
+    var write_sceen_time = (+new Date()); 
+</script>
+
+<div id="js_article" class="rich_media">
+    
+    <div id="js_top_ad_area" class="top_banner"></div>
+    
+    <div class="rich_media_inner">
+
+        
+        
+        <div id="page-content" class="rich_media_area_primary">
+          <div class="rich_media_area_primary_inner">
+                                    
+                        
+
+            <div id="img-content">
+
+                
+                <h2 class="rich_media_title" id="activity-name">
+                    
+                    
+                    吕毅：从攻击视角构建弹性信息安全防御体系
+
+                                                                                </h2>
+                <div id="meta_content" class="rich_media_meta_list">
+                                                            <span id="copyright_logo" class="rich_media_meta rich_media_meta_text meta_tag_text">原创：</span>
+                                                            <span class="rich_media_meta rich_media_meta_text">
+                                                吕毅
+                                            </span>
+                                        
+                                        <span class="rich_media_meta rich_media_meta_nickname" id="profileBt">
+                      <a href="javascript:void(0);" id="js_name">
+                        仙人掌情报站                      </a>
+                      <div id="js_profile_qrcode" class="profile_container" style="display:none;">
+                          <div class="profile_inner">
+                              <strong class="profile_nickname">仙人掌情报站</strong>
+                              <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">微信号</label>
+                              <span class="profile_meta_value">sec-cactus</span>
+                              </p>
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">功能介绍</label>
+                              <span class="profile_meta_value">网络安全心路历程</span>
+                              </p>
+                              
+                          </div>
+                          <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">
+                              <i class="profile_arrow arrow_out"></i>
+                              <i class="profile_arrow arrow_in"></i>
+                          </span>
+                      </div>
+                    </span>
+
+
+                    <em id="publish_time" class="rich_media_meta rich_media_meta_text"></em>
+
+
+
+
+
+                </div>
+                
+                
+                
+                
+                                                
+                                                                
+                                
+                
+                <div class="rich_media_content " id="js_content">
+                    
+
+                    
+
+                    
+                    
+                    <blockquote><p style="text-indent: 32px;line-height: 37px;background-color: white;"><span style="font-family: 华文中宋;"></span></p></blockquote><blockquote><p style="text-align:center;"><img class="" data-copyright="0" data-cropselx1="101" data-cropselx2="271" data-cropsely1="0" data-cropsely2="247" data-ratio="0.66640625" data-src="https://mmbiz.qpic.cn/mmbiz_jpg/tlEOagkGMy35oHlMGvgXoRsZMkvw7ZzYAEZWRuVHxDibER8y7tVooqSjw4JooVkcHK1vtpibBCtX9jkJ0XiaE6csg/640?wx_fmt=jpeg" data-type="jpeg" data-w="1280" style="width: 100%;height: auto;" data-before-oversubscription-url="https://mmbiz.qpic.cn/mmbiz_jpg/tlEOagkGMy35oHlMGvgXoRsZMkvw7ZzYAEZWRuVHxDibER8y7tVooqSjw4JooVkcHK1vtpibBCtX9jkJ0XiaE6csg/640?wx_fmt=jpeg" data-backw="371" data-backh="247"></p><p style="text-align: left;"><span style="text-align: left;text-indent: 2em;">作者介绍：&nbsp;吕毅 人行金融信息中心信息安全部副主任，CISSP、CISP、信息系统项目管理师、高级工程师，博士（在读）。16年信息系统管理及安全建设从业经验，目前从事信息安全运营、应急响应及互联网攻防。</span><br></p></blockquote><p style="text-indent: 32px;line-height: 37px;background-color: white;"><br></p><p style="text-indent: 32px;line-height: 37px;background-color: white;">万字长文，整体阅读10分钟左右。&nbsp;&nbsp;&nbsp;&nbsp;</p><p style="text-indent: 32px;background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 华文中宋;font-size: 16px;">摘要：随着网络安全形势日益严峻及安全意识不断增强，银行业己基本建立较完善安全保障体系并持续进化。回归信息安全本源，<span style="font-family: 华文中宋;font-size: 16px;text-indent: 32px;background-color: rgb(255, 255, 255);">源于信息及力量的不对称下</span>攻防双方的非合作博弈，信息优势将改变局势，实现精准乃至降维打击。此次尝试从攻击者视角出发结合攻击链模型、钻石模型、自适应模型、安全防御象限等概念探讨互联网环境下完善信息安全弹性防御体系理念的一些思考。</span></p><p style="text-indent: 33px;background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;font-size: 16px;">正文：</span></p><p style="text-indent: 33px;background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-size: 16px;"><span style="font-size: 16px;font-family: 仿宋;">2018年4月</span><span style="font-size: 16px;font-family: 仿宋;color: rgb(51, 51, 51);">下旬，全国网络安全和信息化工作会议在京召开</span><span style="font-size: 16px;font-family: 仿宋;">，习近平总书记再次强调“没有网络安全就没有国家安全，就没有经济社会稳定运行”。同时，明确提出铸牢安全屏障，就要“加强网络安全信息统筹机制、手段、平台建设，做到<strong>关口前移</strong>，防患于未然”。“关口前移”实际上就是要知道风险到底在哪里，才能有的放矢。“患生于所忽，祸起于细微”，两年前总书记在419网络安全周讲话就提到“网络环境需要全天候感知，要知道风险在哪里，是什么样的风险，什么时候发生风险，正所谓聪者听于无声，明者见于未形”。网络安全本质在对抗，表现在攻防两端能力较量，输赢取决于信息是否对称，技术是否对等，投入产出是否合理。要以技术对技术，以技术管技术，做到魔高一尺、道高一丈。（备注引用：习近平在网络安全座谈会上的讲话）。</span></span></p><p style="text-indent: 33px;background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;font-size: 16px;">日常工作中，参照国外的NIST标准族，ISO27000标准族，遵循国内GB20274《信息系统安全保障评估框架》、等保标准及银行业信息安全综合规范，各银行单位</span><span style="font-family: 仿宋;font-size: 16px;">已综合开展安全防范管理架构。参照的安全保障架构也逐步从（IATF）向防御、攻击和情报三位一体的信息保障/网络安全（IA/CS）架构发展，增强安全架构弹性</span><span style="font-family: 仿宋;font-size: 16px;">及自适应性。</span></p><p style="text-indent: 33px;background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;font-size: 16px;">随着对信息安全要求的不断提高和能力进化，需将安全防护的哨岗从内部向外扩散，进一步<strong>关口前移</strong>。具体表现在：<strong>从攻击者思维开展防护工作，基于攻击链模型优化防御体系，根据钻石模型开展攻击者分析，综合攻击链及钻石模型开展情报驱动的主动防御</strong>。<strong>在防御体系建设中，配合高层明确风险接受度及依据人财物圈定信息安全防御能力滑动象限，有所为有所不为</strong>。<strong>最后，在安全运营中辅助开展毒性测试以增强组织防御的强韧性以至于自适应升级，保证安全生态体系保持自适应进化。</strong></span></p><p style="text-indent: 33px;background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;font-size: 16px;">以下，就从攻击者视角出发，基于主流网络网络安全模型架构进行介绍，得出基于攻击链模型构建纵深弹性自适应网络安全防御体系的原则及几点思考。</span></p><p style="text-indent: 33px;background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-size: 16px;"><strong><span style="font-size: 16px;font-family: 仿宋;">一、主流网络安全模</span></strong><strong><span style="font-size: 16px;font-family: 仿宋;">型框架</span></strong></span></p><p style="text-indent: 33px;background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><strong><span style="font-size: 16px;font-family: 仿宋;">1、基于攻击视角的攻击链模型及防御方法</span></strong></p><p style="text-indent: 33px;background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;text-indent: 24px;font-size: 16px;">信息安全是基于攻防双方力量不均衡和信息不对称的博弈，春秋时期的《孙子兵法》及1944年的冯·诺依曼均对如何排兵布阵进行过论述。虽然对手信息在变，但预测对手行为和尽可能多的掌握对手信息会让战局处于相对优势，即所谓未知攻，焉知防。为此，从攻击者角度出发的攻击链（Intrusion Kill Chain）模型就有借鉴意义。该模型由美国洛克西德·马丁公司于2011年提出，指网络空间攻击行为分为七个步骤（图1）。包括侦查探测（Reconnaissance）、制作攻击工具（Weaponization）、将工具投送到目标（Delivery）、释放代码（Exploitation）、成功安装并控制（Installation）、主动外联（Command &amp;control）、远程控制及扩散（Actions onObjectives），如下图所示：</span></p><p style="background-color: white;text-align: center;text-indent: 0em;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;text-indent: 24px;font-size: 16px;"><img class="" data-before-oversubscription-url="https://mmbiz.qpic.cn/mmbiz_png/tlEOagkGMy35oHlMGvgXoRsZMkvw7ZzYIS85DFnP8CxQ9uEfQ9bibYtqEPFB0dVWibJFUgIAicP7lTeWoARNnwR5A/640?wx_fmt=png" data-oversubscription-url="http://mmbiz.qpic.cn/mmbiz_jpg/tlEOagkGMy35oHlMGvgXoRsZMkvw7ZzYdkEFeHdRGG8XA9PXf1o2cJz28dCNUApMzvtGytdT8YrYIYyL8oVDpQ/0?wx_fmt=jpeg" data-ratio="1.3560975609756099" data-src="https://mmbiz.qpic.cn/mmbiz_png/tlEOagkGMy35oHlMGvgXoRsZMkvw7ZzYIS85DFnP8CxQ9uEfQ9bibYtqEPFB0dVWibJFUgIAicP7lTeWoARNnwR5A/640?wx_fmt=png" data-type="png" data-w="410" style="width: 434px;height: auto;"></span></p><p style="text-indent: 32px;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;font-size: 16px;">攻击链模型精髓在于明确</span><span style="font-family: 仿宋;font-size: 16px;text-decoration: none;">提出<span style="text-decoration: none;font-family: 仿宋;font-size: 16px;color: black;">网络</span>攻防过程</span><span style="font-family: 仿宋;font-size: 16px;">中攻防双方互有优势，攻击方必须专一持续，而防守方若能阻断/瓦解攻击方的进攻组织环节，即成功地挫败对手攻击企图。同时，其提供了一种纵深防御的概念，即在攻击最终造成损失的七步中，任何一步的察觉或者阻挡均能有效阻止和阻断。意即，即使发现了被攻破，在造成最后的损失前，还是有机会进行补救，该模型部分参照不完全信息动态博弈（<span style="font-family: 仿宋;font-size: 16px;color: black;">精炼贝叶斯均衡</span>），就算被攻击后的亡羊补牢，也为时未晚。</span></p><p style="text-indent: 32px;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><strong><span style="font-size: 16px;"><span style="font-size: 16px;font-family: 仿宋;">2</span><span style="font-size: 16px;font-family: 仿宋;">、钻石模型</span><span style="font-size: 16px;font-family: 仿宋;">的应用</span></span></strong></p><p style="text-indent: 32px;background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 16px;">攻防不仅是以一种双方力量博弈的艺术，也是攻守双方转化与情报、能力的积累变换过程，如果将攻击分为7步对应到攻击链模型上，钻石模型则是建立在每步单个攻击事件上，是攻击链模型的细化落地。应通过分析穿透攻击行为看到背后的对手，进而开展攻击者画像和受害者关联，而非每次应急就事论事。</span></p><p style="text-indent: 32px;background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-size: 16px;"><span style="font-size: 16px;font-family: 仿宋;">根据犯罪学中的罗卡交换定律，</span><span style="font-size: 16px;font-family: 仿宋;color: rgb(51, 51, 51);">“凡两个物体接触，必会产生转移现象”</span><span style="font-size: 16px;font-family: 仿宋;">，意即现场一定会留下相应痕迹，为此，要了解犯罪的动机、机会和手段。</span><span style="font-size: 16px;font-family: 仿宋;color: rgb(51, 51, 51);">塞尔吉奥·卡尔塔吉龙（Sergio Caltagirone）提出的钻石模型（The Diamond Model）是针对以上挑战提出的一个分析模型，用于将攻击方，攻击使用的基础设施，攻击方法（能力）和受害者四个因素通过一个菱形进行关联。</span></span></p><p style="text-indent: 32px;background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-size: 16px;"><span style="font-size: 16px;font-family: 仿宋;color: rgb(51, 51, 51);">每个事件有四个基本元素，对手、能力、基础设施及受害者。四者的关系布置成菱形，因此得名“钻石模型”。元特征描述了元素互相作用的时间先后，在攻击链中的阶段，是否成功，方向和方法归类，所用资源等。</span><span style="font-size: 16px;color: rgb(51, 51, 51);">&nbsp;</span></span></p><p style="background-color: white;text-align: center;text-indent: 0em;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="color: rgb(51, 51, 51);font-size: 16px;"><img class="" data-ratio="0.4294478527607362" data-src="https://mmbiz.qpic.cn/mmbiz_png/tlEOagkGMy35oHlMGvgXoRsZMkvw7ZzYPcDbCRJibZsn3XibdN1y3QUx0X8nWZJjneQzkvMYr8rjdaVKe0EY27Lg/640?wx_fmt=png" data-type="png" data-w="652" style="width: 503px;height: 216px;"></span></p><p style="text-indent: 32px;background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-size: 16px;"><span style="font-size: 16px;text-indent: 28px;font-family: 仿宋;color: rgb(51, 51, 51);">简单来说，钻石模型解释攻击者（对手）运用基础设施（IP、域名等），通过掌握的功能技术，攻击受害者。受害者在受到攻击后，以自己为支点</span><span style="font-size: 16px;text-indent: 28px;font-family: 仿宋;">（Pivoting）</span><span style="font-size: 16px;text-indent: 28px;font-family: 仿宋;color: rgb(51, 51, 51);">，将功能和基础设施联系起来，通过攻击路径翻转找到攻击者。</span></span></p><p style="text-indent: 32px;background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="color: rgb(51, 51, 51);font-family: 仿宋;text-indent: 28px;font-size: 16px;">以木马攻击为例。①受害者中马，经过排查发现恶意软件②通过技术能力对木马软件分析，定位僵尸网络控制域名③通过对域名解析，定位远控端IP④反转，通过远控IP查询网内其余中马主机⑤逆向反转，通过远控IP追踪远控主机。</span></p><p style="background-color: white;text-align: center;text-indent: 0em;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="color: rgb(51, 51, 51);font-family: 仿宋;text-indent: 28px;font-size: 16px;"><img class="" data-ratio="0.6561085972850679" data-src="https://mmbiz.qpic.cn/mmbiz_png/tlEOagkGMy35oHlMGvgXoRsZMkvw7ZzYzPvwAaZ0JznIyquhddOlcx0A6IMqKncLFqCk30toXj8m5bd8Y18YKA/640?wx_fmt=png" data-type="png" data-w="442" style="width: 496px;height: 325px;"></span></p><p style="text-indent: 32px;background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;text-indent: 24px;font-size: 16px;">通常情况下，将对手和受害者划入一个象限，以此来思考攻击方和受害方的关联关系。将功能和基础设施划入一个象限，以此来关联技术能力上的关联。通过人的关联和技术能力（习惯手法）的关联对攻击方进行画像以及定位更多受控设备。</span></p><p style="text-indent: 32px;background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-size: 16px;"><strong style="text-indent: 24px;"><span style="font-size: 16px;font-family: 仿宋;">3</span></strong><strong style="text-indent: 24px;"><span style="font-size: 16px;font-family: 仿宋;">、基于攻击链和钻石模型产生的威胁情报开展主动防御</span></strong></span></p><p style="text-indent: 32px;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;font-size: 16px;">攻击链和钻石模型各有特色，相辅相成。<strong>攻击链模型</strong>着重描述过程，详细介绍七步攻击的阶段，为每个阶段提取指标，并开展跨阶段跟踪，<strong>钻石模型</strong>直接补充了攻击链分析中每一步具体实现，使用结构化指标来定义和了解对手的活动，有利于知识积累。两者结合在一起，不仅能完成应急，而且能形成知识沉淀和威胁情报，理解攻击者意图。</span></p><p style="text-indent: 32px;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-size: 16px;"><span style="font-size: 16px;font-family: 仿宋;">主动防御（The Active Cyber Defense Cycle）</span><span style="font-size: 16px;font-family: 仿宋;">采取了使用前两个模型产出的威胁情报和攻击者信息，将攻击特征在组织内部进行消化，分四步完成，第一步应用威胁情报，对攻击行为特征在组织内部开展回溯梳理，查找未发现受害者；第二步开展安全监控，对威胁情报内容进行建模或特征提取，作为组织资产输入到防护设备中；第三步开展应急响应，将情报应用后监控和发现的新的威胁进行处置；第四步开展针对外部威胁的系统脆弱性加固。主动防御的优势在于通过攻击者的攻击开展自我提高。</span></span></p><p style="text-align: center;text-indent: 0em;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;font-size: 16px;"><img class="" data-ratio="0.6361031518624641" data-src="https://mmbiz.qpic.cn/mmbiz_png/tlEOagkGMy35oHlMGvgXoRsZMkvw7ZzYic1WOTBbgFguGwQtKgzfLuCR3cmvHmTsKxu0d6Lh85bkVAS1OPnQobw/640?wx_fmt=png" data-type="png" data-w="698" style="width: 488px;height: 310px;"></span></p><p style="text-indent: 32px;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;font-size: 16px;">以攻击链的投送恶意软件阶段开展钻石分析后形成的威胁情报进行的主动防御为例，如上图，显示了开展钻石模型分析后通过基础设施分析能力，对攻击者特征、远控IP等形成了威胁情报，主动防御体系根据威胁情报对系统开展闭环修复，增强了系统的健壮性，利用自身应急产出开展安全增强，也同时符合应急处置中调查，归类，遏制，分析，追踪，恢复六步走原则。</span></p><p style="text-indent: 32px;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;font-size: 16px;">另外，将威胁检测及情报处理能力落地，最直接的效果就是降低平均威胁检测时间（MTTD）和平均威胁响应时间（MTTR），这一点对安全运营工作非常重要，直接涉及KPI考核。</span></p><p style="text-indent: 32px;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-size: 16px;"><strong>&nbsp;</strong><strong><span style="font-size: 16px;font-family: 仿宋;">4</span></strong><strong><span style="font-size: 16px;font-family: 仿宋;">、基于TCP/IP分层协议的安全防护</span></strong></span></p><p style="text-indent: 32px;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-size: 16px;"><span style="font-size: 16px;font-family: 仿宋;text-indent: 24px;background-color: white;">开放系统互连参考模型 (简称OSI）为开放式互连信息系统提供了一种功能结构的框架。它从低到高分别是：</span><span style="font-size: 16px;font-family: 仿宋;text-indent: 24px;">物理层</span><span style="font-size: 16px;font-family: 仿宋;text-indent: 24px;background-color: white;">、</span><span style="font-size: 16px;font-family: 仿宋;text-indent: 24px;">数据链路层</span><span style="font-size: 16px;font-family: 仿宋;text-indent: 24px;background-color: white;">、</span><span style="font-size: 16px;font-family: 仿宋;text-indent: 24px;">网络层</span><span style="font-size: 16px;font-family: 仿宋;text-indent: 24px;background-color: white;">、</span><span style="font-size: 16px;font-family: 仿宋;text-indent: 24px;">传输层</span><span style="font-size: 16px;font-family: 仿宋;text-indent: 24px;background-color: white;">、会话层、</span><span style="font-size: 16px;font-family: 仿宋;text-indent: 24px;">表示层</span><span style="font-size: 16px;font-family: 仿宋;text-indent: 24px;background-color: white;">和</span><span style="font-size: 16px;font-family: 仿宋;text-indent: 24px;">应用层</span><span style="font-size: 16px;font-family: 仿宋;text-indent: 24px;background-color: white;">。根据不用层所用协议的不同，安全防护可以从传输层和应用层分别实现，从而达到不同的应用效果。传输层包括传统IPS、包过滤防火墙等，而应用层则主要针对WEB层面，解决OWASP列出的主要WEB攻击类型。</span></span></p><p style="text-indent: 0em;text-align: center;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><img class="" data-ratio="0.3301204819277108" data-src="https://mmbiz.qpic.cn/mmbiz_png/tlEOagkGMy35oHlMGvgXoRsZMkvw7ZzYnPE9oTCeJo33qNsL1lDb7hGpzic0MmRb6lXd9nbdqgLiaPynmEWTiboEg/640?wx_fmt=png" data-type="png" data-w="830" style="font-family: 仿宋;font-size: 16px;text-indent: 24px;background-color: white;text-align: center;"></p><p style="text-indent: 32px;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;text-indent: 24px;background-color: white;font-size: 16px;">不同的网络模型，就要从不同的网络安全形态开展部署。去除掉物理安全，实际上需要根据OSI协议部署不同方式。在安全架构模型中，应注意此问题，有的单位为了合规驱动，仍在部署的传统IDS实际上已无法满足需求，此处的部署方法在后面会提到。</span></p><p style="line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><strong><span style="font-size: 16px;text-indent: 28px;background-color: white;font-family: 仿宋;">5、自适应安全架构</span></strong></p><p style="text-indent: 32px;text-align: left;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;text-indent: 28px;background-color: white;font-size: 16px;">自适应安全架构（AdaptiveSecurity Architecture,简称ASA）是由Gartner在2014年提出的安全体系，类似于PDCA的戴明环理念，强调以持续监控和分析为核心，将防御、检测、响应、预测四个方面结合起来，自适应不同系统基础形态和业务系统变化，能够持续的自我进化，自我调整来适应新型、不断变化的攻击类型。</span></p><p style="text-align: center;text-indent: 0em;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><img class="" data-ratio="0.6541666666666667" data-src="https://mmbiz.qpic.cn/mmbiz_png/tlEOagkGMy35oHlMGvgXoRsZMkvw7ZzYibicCPTjzXhBh7iaD2ib7libYGLenWL3phyLcZ1l0ZuVK2yThAUWSicmIS2A/640?wx_fmt=png" data-type="png" data-w="480" style="font-family: 仿宋;font-size: 16px;text-indent: 28px;background-color: white;text-align: center;width: 470px;height: 307px;"></p><p style="text-indent: 32px;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;text-indent: 28px;background-color: white;font-size: 16px;">自适应安全架构中，右上方防御包括预防攻击的现有策略产品和进程；右下方的检测用于发现、监测和确认、遏制攻击行为；左下方的响应表示调查、修复检测能力（或外部服务）发现的问题；左上方预测值是安全服务机构可以从外部检测黑客行动的能力。</span></p><p style="text-indent: 32px;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;text-indent: 28px;background-color: white;font-size: 16px;">太阳底下没有新鲜事，信息安全的的ASA架构也趋同于PDR响应模型，即保护，检测，响应模型，但其优点是加入了对威胁情报的引入和使用。</span></p><p style="text-indent: 32px;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-size: 16px;"><strong><span style="font-size: 16px;font-family: 仿宋;">6</span></strong><strong><span style="font-size: 16px;font-family: 仿宋;">、PDR模型（基于时间维度的检测响应体系）</span></strong></span></p><p style="text-indent: 32px;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;font-size: 16px;">防护-检测-响应（PDR）模型是基于时间的可证明的安全模型，其概念是防护（Protection）及其防护时间Pt（系统在黑客攻击下的存活时间）、检测（Detection）及其检测时间Dt(黑客攻击开始到被发现时间)、响应（Response）及其响应时间Rt（从发现攻击到做出有效响应的时间）。</span></p><p style="text-indent: 32px;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;font-size: 16px;">任何安全防护措施都是基于时间的，超过该段时间，防护措施就可能被攻破。该模型的基本思想是承认信息系统中存在漏洞，正视系统所面临的威胁，通过适度的防护并加强检测，落实安全事件响应，保障系统安全。</span></p><p style="text-indent: 32px;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;font-size: 16px;">安全状态： Pt&gt;Dt+Rt&nbsp; S安全（系统S的防护时间Pt大于攻击及响应事件，系统安全）；非安全状态：Pt&lt;Dt+Rt，S是不安全的，系统暴露风险敞口事件Et=(Dt+Rt)-Pt。从攻击检测响应事件看，攻击存活时间Pt对应的是黑客攻击能力，不好把握。所以对检测时间Dt和恢复响应时间要求就越来越高，就像3中间提到的威胁情报引入会降低MTTD和MTTR一样，采用自动化手段能显著降低响应时间（Rt）。</span></p><p style="text-indent: 32px;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-size: 16px;font-family: 仿宋;">PDR模型的扩展包括PPDR以及PPDRR模型，其中PPDR模型增加了策略(policy);而跟进一步演化的PPDRR模型增加了恢复环节，包括策略（Policy）、防护（Protection）、检测（Detection）、响应（Response）和恢复（Recovery）5个主要部分。</span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-size: 16px;"><strong><span style="font-size: 16px;font-family: 仿宋;">7</span></strong><strong><span style="font-size: 16px;font-family: 仿宋;">、网络安全滑动标尺模型</span></strong></span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-size: 16px;"><span style="font-size: 16px;font-family: 仿宋;">由于安全工作不好量化，是以风险和合规作为驱动的源头，企业安全工作做的好不好，处于哪个阶段不好界定。为此，参考网络安全活动标尺模型（The Sliding Scale of Cyber Security）对安全水平进行断代具有参照意义。该模型是罗伯特</span><strong><span style="font-size: 16px;font-family: 仿宋;">Robert M. Lee</span></strong><strong><span style="font-size: 16px;font-family: 仿宋;">月2015年在</span></strong><span style="font-size: 16px;font-family: 仿宋;">美国系统网络安全协会（SANS）网站首次提出，其有点类似于信息安全CMMI能力成熟度模型，他将企业在应对外部攻击时的五个信息安全能力阶段，分别是架构建设、被动防御、主动防御、智能分析和反击威慑。其核心是在原有IATF框架的基础上，强调“威慑”概念，将防御、威慑和利用结合成三位一体的信息安全保障/网络空间安全（IA/CS））。</span></span></p><p style="background-color: white;text-indent: 0em;text-align: center;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;font-size: 16px;"><img class="" data-ratio="0.3181818181818182" data-src="https://mmbiz.qpic.cn/mmbiz_png/tlEOagkGMy35oHlMGvgXoRsZMkvw7ZzYVmRN1qFYwLLiceOmgyAGvicDCyqWx9VAUSdb2xGbLw353v3CQ3aVv4ibw/640?wx_fmt=png" data-type="png" data-w="616" style="width: 515px;height: 164px;"></span></p><p><br></p><p style="text-indent: 32px;background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;font-size: 16px;">上图将一个机构信息安全阶段进行了详细描述。第一阶段是基础架构阶段，解决的是从无到有的问题。第二阶段为被动防御，意即根据架构完善安全系统、掌握工具、方法，具备初级检测和防御能力。第三阶段为主动防御，指主动分析检测、应对，从外部的攻击手段和手法进行学习，该阶段开始引入了渗透测试、攻防演练和外部威胁情报。第四阶段为智能学习，指利用流量、主机或其他各种数据通过机器学习，进行建模及大数据分析，开展攻击行为的自学习和自识别，进行攻击画像、标签等活动。第五阶段指利用技术和策略对对手进行反制威慑。</span></p><p style="background-color: white;text-indent: 0em;text-align: center;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;font-size: 16px;"><img class="" data-ratio="0.6827309236947792" data-src="https://mmbiz.qpic.cn/mmbiz_png/tlEOagkGMy35oHlMGvgXoRsZMkvw7ZzYxwCyMKZluegVfzIuaKbdwE9tV2HTRgCK36T64zbj3X8caBKq74qQeg/640?wx_fmt=png" data-type="png" data-w="498" style="width: 456px;height: 311px;"></span></p><p style="text-indent: 32px;background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-size: 16px;font-family: 仿宋;">上图表明，安全建设是循序渐进的过程，基础架构和下层建筑是性价比高的行为。而基础层不做好，上层的智能分析和情报引入会造成资源浪费在误报和低级事件上。信息安全也要基于RIO视角权衡投入产出比，统筹考虑需要考虑人员的的投入与成本之间的估算。落实到具体工作中，人少钱不够，要说服管理层接受风险或购买保险。</span></p><p style="text-indent: 32px;background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><strong><span style="font-size: 16px;text-indent: 24px;font-family: 仿宋;">8、信息安全建设的“马斯洛需求”层次</span></strong></p><p style="text-indent: 32px;background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;text-indent: 24px;font-size: 16px;">赵彦在《互联网企业安全高级指南》中将企业的安全水平参照SANS滑动象限和能力成熟度模型结合马斯洛需求层次划分了5层：</span></p><p style="background-color: white;text-indent: 0em;text-align: center;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;font-size: 16px;"><img class="" data-ratio="1.043956043956044" data-src="https://mmbiz.qpic.cn/mmbiz_png/tlEOagkGMy35oHlMGvgXoRsZMkvw7ZzYoiakrbz6dkQOpmeI7JQBYybIVwGpprKtahIjXBM6q1icUxjNZxR50IwQ/640?wx_fmt=png" data-type="png" data-w="364" style="width: 320px;height: 334px;"></span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">具体是：</span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">第一层：通过一些较为基础的安全措施，做到了基础的访问控制，交付的系统不含有明显的高危漏洞。但对于复杂的安全事件，自身没有独立处理的能力，必须依赖于外部厂商。</span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">第二层：有专职的安全团队，有攻防技术能力，能做到有火必救，不依赖于外部厂商。但在安全建设上缺乏思路，大多依赖商业产品或照搬已有的安全模式。</span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">第三层：安全建设呈现初步的系统化，覆盖全生命周期，开发和运维环节有必要的控制流程，主要的系统在架构上都会考虑安全方案，检测和防护手段能因地制宜。</span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">第四层：除了基础架构，应用，数据等技术层面安全能做到全生命周期系统化建设，业务层面安全问题得到系统化解决方案。安全此时不止关注技术层面的攻防对抗，也关注业务形式的安全及黑产的对抗。</span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">第五层：安全建设进入最佳实践阶段，不依赖现有安全机制，也不依赖于厂商的安全产品，自身建设安全。严重的安全事件几乎很少发生，大多数精力用于优化现有系统的检测和拦截率。</span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;"><br></span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><strong><span style="font-family: 仿宋;font-size: 16px;">基于以上从攻击者角度的模型，网络模型，强调持续改进的自适应模型和基于时间维度的PDR模型，可以从不同的角度对企业构建防御体系进行参考。而安全滑动象限及安全的马斯洛需求层次则为安全水平进行断代。不同关注点和建设阶段均可在其中找到锚定坐标。下面，浅谈几点互联网安全防护的原则及其成因。</span></strong></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-size: 16px;"><strong><span style="font-size: 16px;font-family: 仿宋;">二、基于攻击链模型构建纵深弹性自适应网络安全防御体系的原则原则及成因</span></strong></span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><strong><span style="font-size: 16px;font-family: 仿宋;">1、基于攻击链路径构建纵深防御（深度防御DEEP DENFENSE）体系</span></strong></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">在传统企业中，通过设置多层重叠的安全防护系统而构成多道防线，使得即使某一防线失效也能被其他防线弥补或纠正，即通过增加系统的防御屏障或将各层之间的漏洞错开的方式防范差错发生的。</span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">纵深防御，一是补短板，是从不同层面的建设，包括从做操作系统，网络，边界等。二是说不同的产品有不同的分工。</span></p><p style="background-color: white;text-indent: 0em;text-align: center;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;font-size: 16px;"><img class="" data-ratio="0.7855421686746988" data-src="https://mmbiz.qpic.cn/mmbiz_png/tlEOagkGMy35oHlMGvgXoRsZMkvw7ZzYPtAYcHiaqE820Pibv6Lhib2rXkxqLYZ4FEWvN4MicmZkqTjxgRKJn44LaQ/640?wx_fmt=png" data-type="png" data-w="830"></span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">纵深防御从攻击链的七步对应出来，按照时间维度，从事前监测，事中遏制及阻断，事后跟踪及恢复三个方面进行阐述。</span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-size: 16px;font-family: 仿宋;">主要原则有三个，一是在攻击链的不同阶段，部署不同防护策略，以实现互补。二是基于OSI模型，在网络层、应用层分别部署以展现。三是尽管同一防护内容，在不同层次防护效果不一样，譬如对于SQL注入，在WAF层面，WEB日志，RASP和SQL层面效果差距很大。</span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">基于此，基于攻击视角，结合威胁情报的的纵深防御架构应该实现的架构是：</span></p><p style="background-color: white;text-indent: 0em;text-align: center;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;font-size: 16px;"><img class="" data-ratio="1.0433070866141732" data-src="https://mmbiz.qpic.cn/mmbiz_png/tlEOagkGMy35oHlMGvgXoRsZMkvw7ZzY1tSKbibjNMia97Q3bnPtmIyBM2aeEVOLrfSX5y5QFytaWpNiaIGa87YwA/640?wx_fmt=png" data-type="png" data-w="508" style="width: 409px;height: 427px;"></span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">以上及架构是在传统架构上的延展，在上云和大数据以后，理念还可通用。上云后从成本及效能的角度，防御方法偏向于分布式架构中的安全域隔离划分，通过业务数据流驱动进行建模及关联分析，安全以服务及组件的形式提供给业务（租户），基于大数据开展用户标签及画像，通过用户行为开展适度的安全预测。</span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><strong><span style="font-size: 16px;font-family: 仿宋;">2、安全防护体系应异构并具备强韧性</span></strong></p><p style="background-color: white;text-indent: 0em;text-align: center;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;font-size: 16px;"><img class="" data-ratio="0.6203208556149733" data-src="https://mmbiz.qpic.cn/mmbiz_png/tlEOagkGMy35oHlMGvgXoRsZMkvw7ZzYJQejCx3Y9gJwyf6ibRu3hBheTIf7TxX1ktPTQn3FJiads5sKmaB46tdQ/640?wx_fmt=png" data-type="png" data-w="374"></span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-size: 16px;"><span style="font-size: 16px;font-family: 仿宋;">首先，通过毒性测试及反馈机制，构建系统弹性及强韧性。</span><span style="font-size: 16px;font-family: 仿宋;color: rgb(51, 51, 51);">毒物兴奋效应( hormesis)是从医学中起源，16 世纪Paracelsus 的名言“剂量决定毒物”，即所有物质都是有毒的，只和剂量大小有关。</span><span style="font-size: 16px;font-family: 仿宋;"><span style="font-size: 16px;color: black;">《反脆弱》</span>纳西姆·<span style="font-size: 16px;color: black;">尼古拉斯</span>·塔勒布把事务在应对波动、压力等环境后变的更强还是更弱分为脆弱性、强韧性、反脆弱性三类。脆弱性可以理解为一成不变的架构，在遇到风险时无法变通应对，会造成信息安全事件被动应对，四处救火，修修补补。强韧性指信息系统在遇到外界变动时具备冗余性，在单点被攻破的情况下仍能保持正常运转。而反脆弱则说明信息系统安全水平在外界刺激下增强，具备免疫力并自我进化，例如人类婴儿水痘防疫或佛学的涅槃重生。</span></span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">基于此，信息系统应不定期开展低微剂量毒性测试（自测评及渗透测试），根据系统反馈开展定点修补；定期开展众测及业务连续性（BCP）测试，通过中等剂量外界刺激，促进安全架构重构及进化，具备反脆弱性。</span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">其次，防守异构是基于完全信息静态博弈中攻守平衡原理</span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">基于攻防双方力量的博弈，就算防御方力量大于攻击方并且相同条件下占优，攻防双方无论怎么排兵布阵，按最优方式排列，获胜的概率也是相等，均为50%，从整体战略看，是典型的弱者战胜强者。如下图：在有两条攻击路径(A、B)的情况下，守方三个师，攻击方两个师，两条路。兵力相等情况下，守方赢。</span></p><p style="background-color: white;text-indent: 0em;text-align: center;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;font-size: 16px;"><img class="" data-backh="166" data-backw="514" data-before-oversubscription-url="https://mmbiz.qpic.cn/mmbiz_png/tlEOagkGMy35oHlMGvgXoRsZMkvw7ZzYCfGwL8Auz2j6MWC8VmEKIIp8FC2R28EovWjq5BbmdlQfYuW2ialib3nw/0?wx_fmt=png" data-copyright="0" data-cropselx1="9" data-cropselx2="503" data-cropsely1="0" data-cropsely2="166" data-ratio="0.32345876701361087" data-src="https://mmbiz.qpic.cn/mmbiz_png/tlEOagkGMy35oHlMGvgXoRsZMkvw7ZzYCfGwL8Auz2j6MWC8VmEKIIp8FC2R28EovWjq5BbmdlQfYuW2ialib3nw/640?wx_fmt=png" data-type="png" data-w="1249" style="width: 100%;height: auto;"></span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">上图的结论是：攻击方最佳策略是集中优势兵力，而防守方最佳策略是兵力分散化。基于此，应构建多样化防御体系。同时，分散后对管理效能提出了更高的要求，采取分散策略的前提是：有效分散，即保证分散后单独防守能力不低于分散前，否则会适得其反。</span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-size: 16px;"><strong><span style="font-size: 16px;font-family: 仿宋;">3</span></strong><strong><span style="font-size: 16px;font-family: 仿宋;">、信息交换，构建安全生态圈</span></strong></span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-size: 16px;"><span style="font-size: 16px;font-family: 仿宋;">习近平总书记在今年4月的网信工作会议中指出“</span><span style="font-size: 16px;font-family: 仿宋;color: rgb(51, 51, 51);">在信息时代，网络安全是整体的而不是割裂的，是动态的而不是静态的，是开放的而不是封闭的，是相对的而不是绝对的，是共同的而不是孤立的</span><span style="font-size: 16px;font-family: 仿宋;">”。互联网先驱凯文.凯利(KK)也多次强调生态圈与自适应进化概念，对信息安全来说，亦提倡构建安全生态圈。生态圈宜从基础物理层、计算存储环境、网络边界、架构安全、外部供应链、威胁情报、舆情等多个层面进行综合考量，建立信息安全领域生态圈，生态圈的发展跟随业务不断进化，具备自适应能力。</span></span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">信息安全生态圈构建理论依据之一：比较优势理论。古典经济学家李嘉图提出了比较优势理论，意指对比于斯密的绝对优势，即使某一国各种产品生产效率均占劣势，通过交换的强弱各方也可以获得超额收益。其落地体现为，各企业信息安全机构以及行业主管部门联合起来，开展威胁情报及信息专项交换，获得效率的增量提升。</span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">信息安全生态圈构建理论依据之二：供应链安全。供应链安全反复被提但依旧形势严峻。随着专业分工的不断发展，软件模块化，插件化形势进一步成为主流，在近年来的信息安全事件中，多次暴露出开源软件严重漏洞及CMS后台权限被社工，或者第三方提供产品漏洞。对应方案一是对供应链加强管理，定期评审或采信第三方对供应链的安全评级。二是考虑采用风险转移措施，采用第三方对供应链进行专题管理，并签立对赌协议。</span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">信息安全生态圈构建理论依据之三：基于威胁情报及态势开展升维防御。</span></p><p style="background-color: white;text-indent: 0em;text-align: center;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;font-size: 16px;"><img class="" data-ratio="0.9851851851851852" data-src="https://mmbiz.qpic.cn/mmbiz_png/tlEOagkGMy35oHlMGvgXoRsZMkvw7ZzYF0txnL2YibIcoVrcXmLdgCGpMNtMUicEMgDDSMWRtSagn2ugibWR4Q5KQ/640?wx_fmt=png" data-type="png" data-w="270"></span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-size: 16px;"><span style="font-size: 16px;font-family: 仿宋;">从防御角度来说，开展升维防御。习近平总书记在419讲话中指出“</span><span style="font-size: 16px;font-family: 仿宋;color: red;">建立统一高效的网络安全风险报告机制、情报共享机制、研判处置机制，准确把握网络安全风险发生的规律、动向、趋势。要建立政府和企业网络安全信息共享机制，把企业掌握的大量网络安全信息用起来”。</span></span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">就像二维世界里的贪吃蛇永远不可能知道三维世界一样。防守方可以利用外部威胁情报造成信息不对称，对攻击方开展升维防御。举例来说，传统邮箱防御是基于暴破行为，一般需要同一IP触发5次或以上，才能触发防御规则，如采用威胁情报，可以将单次暴破行为即定义为违规。同时，不光使用自身防御过程中产生的威胁情报，还要通过外部威胁情报的引入，对传统防护设备如邮箱防护、防火墙、IPS、WAF进行赋能。</span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><strong><span style="font-size: 16px;"><span style="font-size: 16px;font-family: 仿宋;">三、有必要关注的几点</span></span></strong></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><strong><span style="font-size: 16px;font-family: 仿宋;">1、知己知彼，百战不殆，梳理清楚自己的资产</span></strong></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">习近平总书记在4.19会议中提到“感知网络安全情况，最基础的工作是摸清家底，做到知己知彼，才能百战不殆。明确保护对象、保护层级、保护措施”。</span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">随着业务的发展，特别是云计算平台及移动互联网时代的到来，线上发布流程不断变化，业务在未经过充分测试的情况下灰度发布。如不掌握详尽的资产信息，一是发生问题无法快速应对定位，盲人摸象；二是外部风险情报到来后无法精准处置，胡子眉毛一把抓，造成精力分散和过度应对。</span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">实际情况中，至少应掌握两类资产，一是系统资产，包括但不限于网络拓扑结构、业务逻辑架构、物理部署位置、系统数据流等，同时对资产的不光有内部报送，也应辅助扫描机外部探测。二是管理资产，包括但不限于组织架构图，研发、运维、供应链信息，保障及监管单位流程。</span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">有了这两类信息，出了事情，知道找谁，系统在哪儿，做什么，做到快速应对。最好的验证方法是开展业务连续性测试（BCP），按期（最少一年一次）通过该过程一是验证了系统资源，同时将业务人员和管理层进行意识统一。</span></p><p style="line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><strong><span style="font-size: 16px;font-family: 仿宋;">2、随着手段的增多，系统会出现创造性失灵，类似明斯基时刻，安全不再有效</span></strong></p><p style="line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-size: 16px;"><span style="font-size: 16px;font-family: 仿宋;">信息安全要预防黑天鹅，更要关注灰犀牛。黑天鹅（</span><span style="font-size: 16px;font-family: 仿宋;background-color: white;">塔勒布《黑天鹅》）</span><span style="font-size: 16px;font-family: 仿宋;">指的是突发事件，意即突现一类新技术，传统安全完全无效。而灰犀牛是对黑天鹅理论的补充和延展，对当下混乱无序与不确定性下的大概率危机的描述。凯文凯利（KK）在《失控》中将各种质量控制手段和反馈手段综合起来，可证明随着各种防控手段的综合应用，综合防御能力会出现1+1&gt;2的情况。但根据<span style="font-size: 16px;color: black;">热力学第二定律</span>，宇宙的熵会随着时间的流逝而增加，由有序向无序，最终进入热寂（创造性失灵并且无法定位故障点），这是大概率的系统性风险或明斯基时刻。</span></span></p><p style="line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">“不谋全局者，不足谋一隅”，在做好安全技术和管理日常运行和储备的同时，需要具备前瞻性，以战略眼光，全局角度审视安全。</span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><strong><span style="font-size: 16px;font-family: 仿宋;">3、信息安全从BCP出发，符合实际，不是一味的绝对安全，具备四个意识</span></strong></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">习近平总书记在网信工作会议中提出，要不断增强“四个意识”。信息安全具体工作中，也应。如此安全一定要和企业的整体战略、规模、成本结合起来，实事求是做安全。具有核心意识，向单位业务核心业务靠拢，保障核心权益；具有大局意识，从整体的信息系统发展角度出发而非只从狭隘的安全角度出发，为了安全不顾业务；具备看齐意识，向行业、国内、国际的顶端安全理念看齐，不是夜郎自大，也不是闭门造车。具有政治意识，保证安全工作和信息化工作的合规和合法，规避法律风险。</span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><strong><span style="font-size: 16px;font-family: 仿宋;">4、运用动态安全迭代上升安全思路</span></strong></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">信息安全是一个螺旋迭代的PDCA过程，不要想着一步到位，随着认识的不断积累，能力的提升，视野的扩展，对安全的认识是逐步上升的。还有一点，就是随着业务的发展，安全防护的理念是动态变化的，而不是一成不变的。不要试图用不变的架构来应对所有问题。同时，知识也是需要不断升级的。就像计算机系统安全历经通讯、操作系统、应用系统、纵深防御四个发展阶段一样。虽然无法承诺永远都不出一起安全事件，但应确保在把时间纬度拉长的情况下安全风险是趋于收敛的。</span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">值得注意的是，网络安全是相对的而不是绝对的。考虑到网络发展的需要，网络安全应当是一种适度安全。适度安全是指与因非法访问、信息失窃、网络破坏而造成的危险和损害相适应的安全，即安全措施要与损害后果相适应。习近平总书记在419讲话中指出：“采取安全措施是需要成本的，对于危险较小或损害较少的信息系统采取过于严格或过高标准的安全措施，有可能牺牲发展，得不偿失”。此处的成本不光是安全措施控制成本(沉没成本)，也包含安全限制了义务发展带来的机会成本。</span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><strong><span style="font-size: 16px;font-family: 仿宋;">5、信息安主动迎接云、大数据和区块链等新技术</span></strong></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">就像互联网的出现，电商颠覆了传统业态一样。新技术不断出现，分布式、大数据、云架构下业务形态发生了改变，传统的基于边界和主机的架构不再适用。在建设云安全过程中，有两个主流方向。对于大型金融机构，采用自建私有云方法，这样一是划算，二是自主可控。对于中小金融机构，则可从成本角度出发，轻资产，重应用，多采购外包方式采购第三方主流私有云平台，实现经济效应。安全体系应主动变革，从基础设施（IAAS）、操作系统（PAAS）、软件服务（SAAS）三个层面主动设计应对，从基础层、虚拟化层和应用层做好分层设计，系统隔离和应用隔离，同时，将安全作为服务向应用系统提供。</span></p><p style="background-color: white;text-indent: 0em;text-align: center;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;font-size: 16px;"><img class="" data-ratio="0.5892857142857143" data-src="https://mmbiz.qpic.cn/mmbiz_png/tlEOagkGMy35oHlMGvgXoRsZMkvw7ZzYo9DibZb08sfSqehx1xsicy88KqUGS0KvRmGC5ic7PRLTedlrgiaIQgpOSw/640?wx_fmt=png" data-type="png" data-w="672"></span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">云安全时代的到来会带来一种变革，业务的入口更集中，安全相对来说也变的更集中，一旦云安全单点突破，造成的损失几何级上升。但云安全时代的好处在于将力量分散的安全能力进行聚合，能力越大，责任就越多，对安全人员提出了更高的技术要求，知识升级和安全理念的更新。构建统一的认证接口平台实现整体的访问控制与协议栈收敛，以业务逻辑为基础开展软件定义边界的隔离，最后基于数据的流动，在边界和各租户间开展大数据安全及隐私保护。</span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><strong><span style="font-size: 16px;font-family: 仿宋;">6、安全管理设计与运营并重</span></strong></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">信息安全工作由于其不直接产生经济效应，在信息系统中处于相对弱势，行业自嘲CSO在没出事情的时候没什么用，出了事情就证明真没什么用，业界戏称，重保期间准备三样宝，预案、检讨和辞呈。</span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">为此，为证明信息安全已经合理规划并的确做过，必须遵循适度谨慎（DUE CARE）和适度勤勉（DUE DELIGEOUS）准则。在安全管理设计上逻辑严密，体系架构合理并可实现，在安全运行上要注意留存记录及证据，以便回查。这样，在应急处置和安全事件调查中，以证明从制度和运营的合理性，避免造成人为重大疏忽甚至渎职。</span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">还有非常重要的一点，向内做好用户风险警示，向管理层和监管层就安全风险预期达成一致，加强沟通，设立合理安全目标。安全的目标不是消灭所有的风险，是指经过安全的架构设计和管理落地，将信息安全风险控制在“可接受”范围内。</span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><strong><span style="font-size: 16px;font-family: 仿宋;">7、积极开展银行业威胁情报共享</span></strong></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-family: 仿宋;font-size: 16px;">信息安全的本质在于攻防双方的信息不对称，谁能掌握更多的信息，就可以实现非对称打击或者防御。在第6届银行业数据中心联系会上，银行业形成共识，通过银行业威胁情报及安全事件信息共享，构建联防联治态势体系，用开放、共享、共赢的方法来主动应对外部攻击，提升信息安全防御维度。</span></p><p style="background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;text-indent: 2em;"><span style="font-size: 16px;"><span style="font-size: 16px;font-family: 仿宋;">最后，响应2018年网信工作会以上习近平总书记发言，坚持</span><span style="font-size: 16px;font-family: 仿宋;color: rgb(51, 51, 51);">网络安全整体、动态、开放、相对、全面概念的，基于攻击链模型构建弹性自适应安全生态架构，不断强化网络安全意识，打牢国家网络安全的地基。</span></span></p><p style="text-indent: 24px;background-color: white;line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;font-size: 16px;">&nbsp;</span></p><p style="line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 仿宋;color: rgb(51, 51, 51);background-color: white;font-size: 16px;">参考资料：</span></p><p style="line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-size: 16px;font-family: 仿宋;color: rgb(51, 51, 51);background-color: white;">1.2018及2016年习近平总书记在年网信工作会议上的讲话</span></p><p style="line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-size: 16px;font-family: 仿宋;color: rgb(51, 51, 51);background-color: white;">2.攻击链模型（洛克马丁公司）</span></p><p style="line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-size: 16px;font-family: 仿宋;color: rgb(51, 51, 51);background-color: white;">3.赵彦 《互联网企业安全管理实践》</span></p><p style="line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-size: 16px;font-family: 仿宋;color: rgb(51, 51, 51);background-color: white;">4.凯文.凯利《失控》</span></p><p style="line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-size: 16px;font-family: 仿宋;color: rgb(51, 51, 51);background-color: white;">5.Robert M. Lee SANS 安全滑动象限</span></p><p style="line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-size: 16px;font-family: 仿宋;color: rgb(51, 51, 51);background-color: white;">6. Gartner 自适应安全架构模型</span></p><p style="line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-size: 16px;font-family: 仿宋;color: rgb(51, 51, 51);background-color: white;"><br></span></p><p style="line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><strong><span style="font-size: 16px;font-family: 仿宋;color: rgb(51, 51, 51);background-color: white;">PS：以上内容节选刊登于2018年《金融电子化杂志》6月份。</span></strong></p><p style="line-height: 2em;margin-top: 10px;margin-bottom: 10px;"><span style="font-size: 16px;font-family: 仿宋;color: rgb(51, 51, 51);background-color: white;">-------------</span></p><p>本文完整版在仙人掌情报站首刊，欢迎转载，但请阅读原文指向仙人掌情报站。<br></p>
+                </div>
+                <script nonce="854096366" type="text/javascript">
+                    var first_sceen__time = (+new Date());
+
+                    if ("" == 1 && document.getElementById('js_content')) {
+                        document.getElementById('js_content').addEventListener("selectstart",function(e){ e.preventDefault(); });
+                    }
+
+                    
+                    (function(){
+                        if (navigator.userAgent.indexOf("WindowsWechat") != -1){
+                            var link = document.createElement('link');
+                            var head = document.getElementsByTagName('head')[0];
+                            link.rel = 'stylesheet';
+                            link.type = 'text/css';
+                            link.href = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+                            head.appendChild(link);
+                        }
+                    })();
+                </script>
+
+                
+                <div class="ct_mpda_wrp" id="js_sponsor_ad_area" style="display:none;"></div>
+                
+                
+                <div class="read-more__area" id="js_more_read_area" style="display:none;">
+                    
+                </div>
+
+                
+                                <div class="reward_area tc reward_area_primary" id="js_preview_reward_author" style="display:none;">
+                    <div class="reward-avatar" style="display: none;" id="js_preview_reward_author_avatar">
+                        <img src="" alt="" id="js_preview_reward_author_head">
+                    </div>
+                    
+                                        <div class="reward-author" id="js_preview_reward_author_name">吕毅</div>
+                                        <p class="reward_tips" id="js_preview_reward_author_wording" style="display:none;"></p>
+                    <p>
+                        <a class="reward_button" id='js_preview_reward_author_link' href="##"><span id="js_preview_reward_link_text">赞赏</span></a>
+                    </p>
+                </div>
+
+                <div class="reward_qrcode_area reward_area tc" id="js_preview_reward_qrcode" style="display:none;">
+                    <p class="tips_global">长按二维码向我转账</p>
+                    <p id="js_preview_reward_ios_wording" class="reward_tips" style="display:none;"></p>
+                    <span class="reward_qrcode_img_wrp"><img class="reward_qrcode_img" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_reward_qrcode.2x42f400.png"></span>
+                    <p class="tips_global">受苹果公司新规定影响，微信 iOS 版的赞赏功能被关闭，可通过二维码转账支持公众号。</p>
+                </div>
+                                
+                
+                            </div>
+                                    
+                        <div class="article_modify_area tips_global_primary article_modify_area_primary">
+              文章已于<span id="js_modify_time"></span>修改            </div>
+                        
+
+
+                        
+            <ul id="js_hotspot_area" class="article_extend_area"></ul>
+
+
+            
+
+            
+
+
+<div class="rich_media_tool" id="js_toobar3">
+
+        <div id="js_read_area3" class="media_tool_meta tips_global_primary meta_primary" style="display:none;">阅读 <span id="readNum3"></span></div>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_praise" id="like_old">
+        <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum_old"></span>
+    </span>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_like" id="like3">
+        <button class="like_btn" id="js_like_btn"> 
+          <span id="js_like_wording"> 好看</span><span class="like_num" id="likeNum3"></span>
+        </button>
+    </span>
+
+    <div id="js_like_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog weui-dialog_haokan">
+        <div class="weui-dialog__hd"><strong class="weui-dialog__title" id="educate_title">已推荐到看一看</strong></div>
+        <div class="weui-dialog__bd">
+          <img class="pic_haokan" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_haokan42f400.png">
+            你的朋友可以在“发现”-“看一看”看到你认为好看的文章。        </div>
+        <div class="weui-dialog__ft" id="educate_btn" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_default" id="js_cancel">取消</a>
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_confirm">推荐</a>
+        </div>
+        <div class="weui-dialog__ft" id="educate_btn2" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_acknowledge">我知道了</a>
+        </div>
+        </div>
+    </div>
+
+    <div id="js_unlike_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog">
+        
+        <div class="weui-dialog__bd">
+            已取消，“好看”想法已同步删除        </div>
+        <div class="weui-dialog__ft">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_unlike_know">知道了</a>
+        </div>
+        </div>
+    </div>
+
+    
+    </div>
+
+
+<div class="like_comment_wrp" id="js_a_like_comment" style="display: none;">
+  <div class="like_comment_inner">
+    <div class="like_comment_hd" style="display:none" id="js_like_title"></div>
+    <div class="like_comment_bd">
+      <div class="tips_global_primary like_comment_tips">
+        <i class="weui-icon-success"></i>已推荐到看一看<a href="javascript:;" class="like_comment_share_link" id="js_a_like_comment_share">和朋友分享想法</a>
+      </div>
+    </div>
+    <div class="like_comment_ft">
+      <span id="js_a_like_comment_msg" class="like_comment_msg" style="visibility:hidden">最多200字，当前共<span id="js_a_like_current_cnt"></span>字</span>
+      <button class="like_comment_btn" disabled="disabled" id="js_a_like_confirm">发送</button>
+    </div>
+  </div>
+</div>
+
+<div id="js_like_toast" style="display: none;">
+  <div class="weui-mask_transparent"></div>
+  <div class="weui-toast">
+    <i class="weui-icon-success-no-circle weui-icon_toast"></i>
+    <p class="weui-toast__content" id="js_toast_msg">已发送</p>
+  </div>
+</div>
+
+
+<div style="display: none;" id="js_b_comment_panel" class="like_comment_primary_pop">
+  <div class="like_comment_primary_wrp" id="js_b_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <h4 class="like_comment_primary_title">
+          朋友将在看一看看到        </h4>
+        <button id="js_b_like_confirm" class="like_comment_primary_btn">确定</button>
+      </div>
+      <div id='js_b_comment_text_first' class="like_comment_primary_bd">
+        <span class="tips_global_primary">
+          分享你的想法...        </span>
+      </div>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_1"></div>
+</div>
+
+<div style="display: none;" id="js_b_comment_final">
+  <div class="like_comment_primary_wrp editing" id="js_comment_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <button class="like_comment_primary_cancel" id="js_b_comment_cancel">取消</button>
+        <h4 class="like_comment_primary_title"> 分享想法到看一看 </h4>
+        <button class="like_comment_primary_btn" id="js_b_comment_confirm">确定</button>
+      </div>
+      <div class="like_comment_primary_bd">
+        <textarea class="like_comment_textarea weui-textarea" placeholder="分享你的想法..." id="js_b_comment_text_second"></textarea>
+      </div>
+      <span class="like_comment_msg" id="js_b_like_comment_msg" style="visibility: hidden;">最多200字，当前共<span id="js_b_like_current_cnt"></span>字</span>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_2"></div>
+</div>
+
+<div id="js_loading" style=" display: none;">
+    <div class="weui-mask_transparent"></div>
+    <div class="weui-toast">
+        <i class="weui-loading weui-icon_toast"></i>
+        <p class="weui-toast__content">发送中</p>
+    </div>
+</div>
+
+<div id="js_fail" style="display:none">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+    <div class="weui-dialog__bd">
+        网络异常，请稍后重试    </div>
+    <div class="weui-dialog__ft">
+      <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_fail_inform">知道了</a>
+    </div>
+    </div>
+</div>
+
+
+
+                      </div>
+        </div>
+
+        <div class="rich_media_area_primary sougou" id="sg_tj" style="display:none"></div>
+
+
+        
+        <div class="rich_media_area_extra">
+          <div class="rich_media_area_extra_inner">
+              
+              <div id="js_share_appmsg">
+              </div>
+
+              
+                            <div class="mpda_bottom_container" id="js_bottom_ad_area"></div>
+                            
+              <div id="js_iframetest" style="display:none;"></div>
+                            
+              <div class="rich_media_extra rich_media_extra_discuss" id="js_cmt_container" style="display:none">
+                
+
+                
+                <div class="discuss_mod" id="js_friend_cmt_area" style="display:none">
+                  
+                  
+                  
+                </div>
+
+                                <div class="discuss_mod" id="js_preview_cmt" style="display:none">
+                  <div class="discuss_container">
+                    <div class="mod_title_context">
+                        <p class="discuss_icon_tips tc">
+                            <a href="javascript:;" id="js_preview_cmt_write">留言</a>
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                              </div>
+          </div>
+        </div>
+
+        
+        <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">
+            <div class="qr_code_pc_inner">
+                <div class="qr_code_pc">
+                    <img id="js_pc_qr_code_img" class="qr_code_pc_img">
+                    <p>微信扫一扫<br>关注该公众号</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="js_pc_weapp_code" class="weui-desktop-popover weui-desktop-popover_pos-up-center weui-desktop-popover_img-text" style="display: none;">
+    <div class="weui-desktop-popover__content">
+        <div class="weui-desktop-popover__desc">
+            <img id="js_pc_weapp_code_img">
+            微信扫一扫<br>使用小程序<span id="js_pc_weapp_code_des"></span>        </div>
+    </div>
+</div>
+<div id="js_minipro_dialog" style="display:none;">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+        <div class="weui-dialog__bd">即将打开"<span id="js_minipro_dialog_name"></span>"小程序</div>
+        <div class="weui-dialog__ft">
+            <a id="js_minipro_dialog_cancel" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_default">取消</a>
+            <a id="js_minipro_dialog_ok" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_primary">打开</a>
+        </div>
+    </div>
+</div>
+
+        
+        <script nonce="854096366">
+    var __DEBUGINFO = {
+        debug_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/debug/console42f400.js",
+        safe_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/moonsafe42f400.js",
+        res_list: []
+    };
+</script>
+
+<script nonce="854096366" type="text/javascript">
+(function() {
+	var totalCount = 0,
+			finishCount = 0;
+
+	function _loadVConsolePlugin() {
+		window.vConsole = new window.VConsole();
+		while (window.vConsolePlugins.length > 0) {
+			var p = window.vConsolePlugins.shift();
+			window.vConsole.addPlugin(p);
+		}
+	}
+	
+	function _addVConsole(uri, cb) {
+		totalCount++;
+		var node = document.createElement('SCRIPT');
+		node.type = 'text/javascript';
+		node.src = uri;
+		node.setAttribute('nonce', '854096366');
+		if (cb) {
+			node.onload = cb;
+		}
+		document.getElementsByTagName('head')[0].appendChild(node);
+	}
+	if (
+		(document.cookie && document.cookie.indexOf('vconsole_open=1') > -1)
+		|| location.href.indexOf('vconsole=1') > -1
+	) {
+		window.vConsolePlugins = [];
+		_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/3.2.2/vconsole.min43429b.js', function() {
+			
+			_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/plugin/vconsole-mpopt/1.0.1/vconsole-mpopt42f400.js', _loadVConsolePlugin);
+		});
+	}
+})();
+</script>
+        
+<script nonce="854096366" type="text/javascript">
+if (location.href.match(/fontScale=\d+/) && /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+
+    var m=location.href.match(/fontScale=(\d*)/);
+    var map={
+        "94":1,
+        "100":2,
+        "109":3,
+        "119":4,
+        "131":5,
+    }
+    if(m&&m[1]&&map[m[1]]){
+        document.getElementsByTagName("body")[0].className+=" appmsg_skin_fontscale_"+map[m[1]];
+        console.log("appmsg_skin_fontscale_:"+map[m[1]]);
+    }
+}
+
+
+(function(){
+    if (window.__second_open__) return; 
+
+    
+
+    var first_js_time = +new Date();
+
+    var showDate="";
+    var svrDate=new Date("1549780457"*1000);
+    var createDate=new Date("1530354585"*1000);
+    var ct="1530354585"*1;
+    var publish_time = "2018-06-30" || "";
+    var cD={
+      year:createDate.getYear(),
+      month:createDate.getMonth()+1,
+      date:createDate.getDate()
+    };
+    
+    svrDate.setHours(0);
+    svrDate.setMinutes(0);
+    svrDate.setSeconds(0);
+    var todayDate=svrDate.getTime()/1000;
+    svrDate.setDate(1);
+    svrDate.setMonth(0);
+    var yearDate=svrDate.getTime()/1000;
+    
+    if(ct>=todayDate){
+      showDate="今天";
+    
+    }else if(ct>=todayDate-60*60*24){
+       showDate="昨天";
+    
+    }else if(ct>=todayDate-2*60*60*24){
+      showDate="前天";
+    }else if(ct>=todayDate-3*60*60*24){
+      showDate="3天前";
+    }else if(ct>=todayDate-4*60*60*24){
+      showDate="4天前";
+    }else if(ct>=todayDate-5*60*60*24){
+      showDate="5天前";
+    }else if(ct>=todayDate-6*60*60*24){
+      showDate="6天前";
+    }else if(ct>=todayDate-2*7*60*60*24){
+      showDate="1周前";
+    }else if(ct>=yearDate){
+      
+      
+      
+      showDate="%s月%s日".replace("%s",cD.month).replace("%s",cD.date);
+    }else{
+      showDate=publish_time;
+    };
+    if(document.getElementById("publish_time")){
+      document.getElementById("publish_time").innerText=showDate;
+    }
+})();
+</script>
+<script nonce="854096366" type="text/javascript">
+
+if (!window.console) window.console = { log: function() {} };
+
+if (typeof getComputedStyle == 'undefined') {
+    if (document.body.currentStyle) {
+        window.getComputedStyle = function(el) {
+            return el.currentStyle;
+        }
+    } else {
+        window.getComputedStyle = {};
+    }
+}
+(function(){
+    window.__zoom = 1;
+    
+    (function(){
+        var validArr = ","+([0.875, 1, 1.125, 1.25, 1.375]).join(",")+",";
+        var match = window.location.href.match(/winzoom=(\d+(?:\.\d+)?)/);
+        if (match && match[1]) {
+            var winzoom = parseFloat(match[1]);
+            if (validArr.indexOf(","+winzoom+",")>=0) {
+                window.__zoom = winzoom;
+            }
+        }
+    })();
+
+    var ua = navigator.userAgent.toLowerCase();
+    var re = new RegExp("msie ([0-9]+[\.0-9]*)");
+    var version;
+    if (re.exec(ua) != null) {
+        version = parseInt(RegExp.$1);
+    }
+    var isIE = false;
+    if (typeof version != 'undefined' && version >= 6 && version <= 9) {
+        isIE = true;
+    }
+    var getMaxWith=function(){
+        var container = document.getElementById('img-content');
+        var max_width = container.offsetWidth;
+        var container_padding = 0;
+        var container_style = getComputedStyle(container);
+        container_padding = parseFloat(container_style.paddingLeft) + parseFloat(container_style.paddingRight);
+        max_width -= container_padding;
+        if (!max_width) {
+            max_width = window.innerWidth - 30;      
+        }
+        return max_width;
+    };
+    var getParentWidth = function(dom){
+        var parent_width = 0;
+        var parent = dom.parentNode;
+        var outerWidth = 0;
+        while (true) {
+            if(!parent||parent.nodeType!=1) break;
+            var parent_style = getComputedStyle(parent);
+            if (!parent_style) break;
+            parent_width = parent.clientWidth - parseFloat(parent_style.paddingLeft) - parseFloat(parent_style.paddingRight) - outerWidth;
+            if (parent_width > 0) break;
+            outerWidth += parseFloat(parent_style.paddingLeft) + parseFloat(parent_style.paddingRight) + parseFloat(parent_style.marginLeft) + parseFloat(parent_style.marginRight) + parseFloat(parent_style.borderLeftWidth) + parseFloat(parent_style.borderRightWidth);
+            parent = parent.parentNode;
+        }
+        return parent_width;
+    }
+    var getOuterW=function(dom){
+        var style=getComputedStyle(dom),
+            w=0;
+        if(!!style){
+            w = parseFloat(style.paddingLeft) + parseFloat(style.paddingRight) + parseFloat(style.borderLeftWidth) + parseFloat(style.borderRightWidth);
+        }
+        return w;
+    };
+    var getOuterH =function(dom){
+        var style=getComputedStyle(dom),
+            h=0;
+        if(!!style){
+            h = parseFloat(style.paddingTop) + parseFloat(style.paddingBottom) + parseFloat(style.borderTopWidth) + parseFloat(style.borderBottomWidth);
+        }
+        return h;
+    };
+    var insertAfter = function(dom,afterDom){
+        var _p = afterDom.parentNode;
+        if(!_p){
+            return;
+        }
+        if(_p.lastChild === afterDom){
+            _p.appendChild(dom);
+        }else{
+            _p.insertBefore(dom,afterDom.nextSibling);
+        }
+    };
+    var getQuery = function(name,url){
+        
+        var u  = arguments[1] || window.location.search,
+            reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)"),
+            r = u.substr(u.indexOf("\?")+1).match(reg);
+        return r!=null?r[2]:"";
+    };
+
+    
+    function setImgSize(item, widthNum, widthUnit, ratio, breakParentWidth) {
+        setTimeout(function () {
+            var img_padding_border = getOuterW(item) || 0;
+            var img_padding_border_top_bottom = getOuterH(item) || 0;
+            
+            if (widthNum > getParentWidth(item) && !breakParentWidth) {
+                widthNum = getParentWidth(item);
+            }
+
+            height = (widthNum - img_padding_border) * ratio + img_padding_border_top_bottom;
+
+            if (isIE) {
+                var url = item.getAttribute('data-src');
+                item.src = url;
+            } else {
+                if(parseFloat(widthNum, 10) > 40 && height > 40 && breakParentWidth) {
+                    item.className += ' img_loading';
+                }
+                item.src = "data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            }
+            item.style.cssText += ";width: " + widthNum + widthUnit + " !important;";
+            item.style.cssText += ";height: " + height + widthUnit + " !important;";
+        }, 10);
+    }
+
+    (function(){
+        var images = document.getElementsByTagName('img');
+        var length = images.length;
+        var max_width = getMaxWith();
+        for (var i = 0; i < length; ++i) {
+            if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var imageItem = images[i];
+            var src_ = imageItem.getAttribute('data-src');
+            var realSrc = imageItem.getAttribute('src');
+            if (!src_ || realSrc) continue;
+            
+            var originWidth = imageItem.getAttribute('data-w');
+            var ratio_ = 1 * imageItem.getAttribute('data-ratio');
+
+            var height = 100;
+            if (ratio_ && ratio_ > 0) {
+                var parent_width = getParentWidth(imageItem) || max_width;
+                var initWidth = imageItem.style.width || imageItem.getAttribute('width') || originWidth || parent_width;
+                initWidth = parseFloat(initWidth, 10) > max_width ? max_width : initWidth;
+                
+                if (initWidth) {
+                    imageItem.setAttribute('_width', !isNaN(initWidth * 1) ? initWidth + 'px' : initWidth);
+                }
+                
+                if (typeof initWidth === 'string' && initWidth.indexOf('%') !== -1) {
+                    initWidth = parseFloat(initWidth.replace('%', ''), 10) / 100 * parent_width;
+                }
+                
+                if (initWidth === 'auto') {
+                    initWidth = originWidth;
+                }
+
+                var res = /^(\d+(?:\.\d+)?)([a-zA-Z%]+)?$/.exec(initWidth);
+                var widthNum = res && res.length >= 2 ? res[1] : 0;
+                var widthUnit = res && res.length >= 3 && res[2] ? res[2] : 'px';
+
+                
+                setImgSize(imageItem, widthNum, widthUnit, ratio_, true);
+                
+                (function (item, widthNumber, unit, ratio) {
+                    setTimeout(function () {
+                        setImgSize(item, widthNumber, unit, ratio, false);
+                    });
+                })(imageItem, widthNum, widthUnit, ratio_);
+            } else {
+                imageItem.style.cssText += ";visibility: hidden !important;";
+            }
+
+        }
+    })();
+    window.__videoDefaultRatio=16/9;
+    window.__getVideoWh = function(dom){
+        var max_width = getMaxWith(),
+            width = max_width,
+            ratio_ = dom.getAttribute('data-ratio')*1,
+            arr = [4/3, 16/9],
+            ret = arr[0],
+            abs = Math.abs(ret - ratio_);
+        if (!ratio_) { 
+            if (dom.getAttribute("data-mpvid")) { 
+                ratio_ = 16/9;
+            } else { 
+                ratio_ = 4/3;
+            }
+        } else { 
+            for (var j = 1, jl = arr.length; j < jl; j++) {
+                var _abs = Math.abs(arr[j] - ratio_);
+                if (_abs < abs) {
+                    abs = _abs;
+                    ret = arr[j];
+                }
+            }
+            ratio_ = ret;
+        }
+        
+        var parent_width = getParentWidth(dom)||max_width,
+            width = width > parent_width ? parent_width : width,
+            outerW = getOuterW(dom)||0,
+            outerH = getOuterH(dom)||0,
+            videoW = width - outerW,
+            videoH = videoW/ratio_,
+            height = videoH + outerH;
+        return {w:Math.ceil(width),h:Math.ceil(height),vh:videoH,vw:videoW,ratio:ratio_};
+    };
+
+
+    (function(){
+        var iframe = document.getElementsByTagName('iframe');
+        for (var i=0,il=iframe.length;i<il;i++) {
+            if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var a = iframe[i];
+            var src_ = a.getAttribute('src')||a.getAttribute('data-src')||"";
+            if(!/^http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)
+                && !/^http(s)*\:\/\/mp\.weixin\.qq\.com\/mp\/readtemplate\?t=pages\/video_player_tmpl/.test(src_)
+            ){
+                continue;
+            }
+            var vid = getQuery("vid",src_);
+            if(!vid){
+                continue;
+            }
+            vid=vid.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,"");
+            a.removeAttribute('src');
+            a.style.display = "none";
+            var obj = window.__getVideoWh(a),
+                videoPlaceHolderSpan = document.createElement('span'),
+                videoPlayerIconSpan = document.createElement('span'),
+                mydiv = document.createElement('img');
+
+            videoPlaceHolderSpan.className = "js_img_loading db";
+            videoPlaceHolderSpan.setAttribute("data-vid", vid);
+            
+
+            videoPlayerIconSpan.className = 'wx_video_context db'; 
+            videoPlayerIconSpan.style.display = 'none';
+            videoPlayerIconSpan.innerHTML = '<span class="wx_video_thumb_primary"></span><button class="wx_video_play_btn">播放</button><span class="wx_video_mask"></span>'; 
+
+            mydiv.className = "img_loading";
+
+            mydiv.src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            
+            
+            videoPlaceHolderSpan.style.cssText = "width: " + obj.w + "px !important;";
+            mydiv.style.cssText += ";width: " + obj.w + "px";
+            videoPlaceHolderSpan.appendChild(videoPlayerIconSpan);
+            videoPlaceHolderSpan.appendChild(mydiv);
+            insertAfter(videoPlaceHolderSpan, a); 
+            
+            a.style.cssText += ";width: " + obj.w + "px !important;";
+            a.setAttribute("width",obj.w);
+            if(window.__zoom!=1){
+                a.style.display = "block";
+                videoPlaceHolderSpan.style.display = "none";
+                a.setAttribute("_ratio",obj.ratio);
+                a.setAttribute("_vid",vid);
+            }else{
+                videoPlaceHolderSpan.style.cssText += "height: " + obj.h + "px !important;";
+                mydiv.style.cssText += "height: " + obj.h + "px !important;";
+                a.style.cssText += "height: " + obj.h + "px !important;";
+                a.setAttribute("height",obj.h);
+            }
+            a.setAttribute("data-vh",obj.vh);
+            a.setAttribute("data-vw",obj.vw);
+            if(a.getAttribute("data-mpvid")){
+                a.setAttribute("data-src",location.protocol+"//mp.weixin.qq.com/mp/readtemplate?t=pages/video_player_tmpl&auto=0&vid="+vid);
+            }else{
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+obj.vw+"&height="+obj.vh+"&auto=0");   
+            }            
+        }
+    })();
+    
+    (function(){
+        if(window.__zoom!=1){
+            if (!window.__second_open__) {
+                document.getElementById('page-content').style.zoom = window.__zoom;
+                var a = document.getElementById('activity-name');
+                var b = document.getElementById('meta_content');
+                if(!!a){
+                    a.style.zoom = 1/window.__zoom;
+                }
+                if(!!b){
+                    b.style.zoom = 1/window.__zoom;
+                }
+            }
+            var images = document.getElementsByTagName('img');
+            for (var i = 0,il=images.length;i<il;i++) {
+                if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                images[i].style.zoom = 1/window.__zoom;
+            }
+            var iframe = document.getElementsByTagName('iframe');
+            for (var i = 0,il=iframe.length;i<il;i++) {
+                if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                var a = iframe[i];
+                a.style.zoom = 1/window.__zoom;
+                var src_ = a.getAttribute('data-src')||"";
+                if(!/http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)){
+                    continue;
+                }
+                var ratio = a.getAttribute("_ratio");
+                var vid = a.getAttribute("_vid");
+                a.removeAttribute("_ratio");
+                a.removeAttribute("_vid");
+                var vw = a.offsetWidth - (getOuterW(a)||0);
+                var vh = vw/ratio;
+                var h = vh + (getOuterH(a)||0)
+                a.style.cssText += "height: " + h + "px !important;"
+                a.setAttribute("height",h);
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+vw+"&height="+vh+"&auto=0");
+                a.style.display = "none";
+                var parent = a.parentNode;
+                if(!parent){
+                    continue;
+                }
+                for(var j=0,jl=parent.children.length;j<jl;j++){
+                    var child = parent.children[j];
+                    if(child.className.indexOf("img_loading")>=0 && child.getAttribute("data-vid")==vid){
+                        child.style.cssText += "height: " + h + "px !important;";
+                        child.style.display = "";
+                    }
+                }
+            }
+        }
+    })();
+})();
+</script>
+<script nonce="854096366" type="text/javascript">
+    var new_appmsg = 1;
+    var item_show_type = "0";
+    var can_see_complaint = "0";
+    var not_in_mm_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm435ee6.css";
+    var windowwx_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+    var article_improve_combo_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo438c19.css";
+    var tid = "";
+    var aid = "";
+    var clientversion = "";
+    var appuin = ""||"MzU1Mzg0Nzk0NQ==";
+
+    var source = "";
+    var ascene = "";
+    var subscene = "";
+    var sessionid = ""||"";
+    var abtest_cookie = "";
+
+    var scene = 75;
+
+    var itemidx = "";
+    var appmsg_token   = "";
+    var _copyright_stat = "1";
+    var _ori_article_type = "科技互联网";
+
+    var is_follow = "";
+    var nickname = "仙人掌情报站";
+    var appmsg_type = "9";
+    var ct = "1530354585";
+    var publish_time = "2018-06-30" || "";
+    var user_name = "gh_7111351c14be";
+    var user_name_new = "";
+    var fakeid   = "";
+    var version   = "";
+    var is_limit_user   = "0";
+    var round_head_img = "http://mmbiz.qpic.cn/mmbiz_png/tlEOagkGMy3dLh1S50icGyFc9HTqmoFflXz7zdoialcMDoaF8FeEJhTJygLaGmPJojdLwNhwicTz9ictU1OP9lP3Jw/0?wx_fmt=png";
+    var hd_head_img = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM6dfbvQOZpONwFfekRZ5cqtT6XuRxP9Y4ILZsRDvZ5s5g/0"||"";
+    var ori_head_img_url = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM6dfbvQOZpONwFfekRZ5cqtT6XuRxP9Y4ILZsRDvZ5s5g/132";
+    var msg_title = "吕毅：从攻击视角构建弹性信息安全防御体系";
+    var msg_desc = "信息安全源于信息不对称下攻防双方的非合作博弈，信息优势将改变局势，实现精准乃至降维打击。此次尝试从攻击者视角出发结合攻击链模型、钻石模型、自适应模型、安全防御象限等概念探讨互联网环境下完善信息安全弹性防御体系理念的一些思考。";
+    var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz_jpg/tlEOagkGMy35oHlMGvgXoRsZMkvw7ZzYo1L0nQ1VbOMriaaxicJZszicSjdWU4bN8FdHxNmqWtAWNgiafoogcQK8og/0?wx_fmt=jpeg"; 
+    var cdn_url_1_1  = ""; 
+    var cdn_url_235_1 = ""; 
+    
+    var msg_link = "http://mp.weixin.qq.com/s?__biz=MzU1Mzg0Nzk0NQ==&amp;mid=2247483733&amp;idx=1&amp;sn=049c719c1738779383143c2234df2c79&amp;chksm=fbeddcb3cc9a55a5fe49340f4967db82a778b9f26dcefde57787ac3e573d0740b799624bf30d#rd"; 
+    var user_uin = "0"*1;
+    var msg_source_url = '';
+    var img_format = 'jpeg';
+    var srcid = '';
+    var req_id = '10144UvK5D6FTWG0AnTqnkwl';
+    var networkType;
+    var appmsgid = '' || ''|| "2247483733";
+    var comment_id = "0" || "0" * 1;
+    var comment_enabled = "" * 1;
+    var is_need_reward = "0" * 1;
+    var is_https_res = ("" * 1) && (location.protocol == "https:");
+    var msg_daily_idx = "1" || "";
+    var profileReportInfo = "" || "";
+
+    var devicetype = "";
+    var source_encode_biz = "";
+    var source_username = "";
+    
+    var reprint_ticket = "";
+    var source_mid = "";
+    var source_idx = "";
+    var source_biz = "";
+    var author_id = "";
+
+    
+    var optimizing_flag = "0" * 1;
+    var ad_abtest_padding = "0" * 1;
+
+    var show_comment = "";
+    var __appmsgCgiData = {
+        wxa_product : ""*1,
+        wxa_cps : ""*1,
+        show_msg_voice: "0"*1,
+        can_use_page : "0"*1,
+        is_wxg_stuff_uin : "0"*1,
+        card_pos : "",
+        copyright_stat : "1",
+        source_biz : "",
+        hd_head_img : "http://wx.qlogo.cn/mmhead/Q3auHgzwzM6dfbvQOZpONwFfekRZ5cqtT6XuRxP9Y4ILZsRDvZ5s5g/0"||(window.location.protocol+"//"+window.location.host + "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_rumor_link.2x42f400.jpg")
+    };
+    var _empty_v = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/pages/voice/empty42f400.mp3";
+
+    var copyright_stat = "1" * 1;
+
+    var pay_fee = "" * 1;
+    var pay_timestamp = "";
+    var need_pay = "" * 1;
+
+    var need_report_cost = "0" * 1;
+    var use_tx_video_player = "0" * 1;
+    var appmsg_fe_filter = "contenteditable";
+
+    var friend_read_source = "" || "";
+    var friend_read_version = "" || "";
+    var friend_read_class_id = "" || "";
+
+    var is_only_read = "1" * 1;
+    var read_num = "" * 1;
+    var like_num = "" * 1;
+    var liked = "" == 'true' ? true : false;
+    var is_temp_url = "" ? 1 : 0;
+    var send_time = "";
+    var icon_emotion_switch = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch.2x42f400.png";
+    var icon_emotion_switch_active = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch_active.2x42f400.png";
+    var icon_loading_white = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif";
+    var icon_audio_unread = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/audio/icon_audio_unread42f400.png";
+    var icon_qqmusic_default = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_default.2x42f400.png";
+    var icon_qqmusic_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_source42f400.png";
+    var icon_kugou_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/kugou/icon_kugou_source42f400.png";
+
+    var topic_default_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/topic/pic_book_thumb.2x42f400.png';
+    var comment_edit_icon = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg_new/icon_edit42f400.png';
+    var comment_loading_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif';
+
+    var voice_in_appmsg = {
+        "1":"1"
+            };
+
+    var reprint_style = ''*1;
+    var wxa_img_alert = "" != 'false';
+
+    
+    var more_read_type = '0'*1;
+
+    
+    
+    
+    
+
+    
+    var weapp_sn_arr_json = "" || "";
+
+    
+    var ban_scene = "0" * 1;
+
+    var svr_time = "1549780457" * 1;
+    
+    var is_transfer_msg = ""*1||0;
+
+    var malicious_title_reason_id = "0" * 1; 
+    var malicious_content_type = "0" * 1; 
+
+    
+    var modify_time = "1530355395";
+
+    
+    var isprofileblock = "0";
+
+    
+    var hotspotInfoList = [
+                    ];
+
+        window.wxtoken = "777";
+        
+    
+    
+    
+    
+    window.is_login = '0' * 1; 
+
+    window.__moon_initcallback = function(){
+        if(!!window.__initCatch){
+            window.__initCatch({
+                idkey : 27611+2,
+                startKey : 0,
+                limit : 128,
+                badjsId: 43,
+                reportOpt : {
+                    uin : uin,
+                    biz : biz,
+                    mid : mid,
+                    idx : idx,
+                    sn  : sn
+                },
+                extInfo : {
+                    network_rate : 0.01,    
+                    badjs_rate: 0.1 
+                }
+            });
+        }
+    }
+        
+    var title ="仙人掌情报站";
+
+    var is_new_msg=true;
+    
+    
+
+    var is_wash = '' * 1;
+</script>
+
+<script nonce="854096366" type="text/javascript">
+(function(_g){
+    _g.appmsg_like_type = "1" * 1 ? "1" * 1 : 1;
+    
+    _g.clientversion = "";
+    _g.passparam = ""; 
+    if(!_g.msg_link) {
+      _g.msg_link = "http://mp.weixin.qq.com/s?__biz=MzU1Mzg0Nzk0NQ==&amp;mid=2247483733&amp;idx=1&amp;sn=049c719c1738779383143c2234df2c79&amp;chksm=fbeddcb3cc9a55a5fe49340f4967db82a778b9f26dcefde57787ac3e573d0740b799624bf30d#rd";
+    }
+    _g.appmsg_type = "9"; 
+    _g.devicetype = ""; 
+})(window);
+
+</script>
+
+
+        <script nonce="854096366">window.__moon_host = 'res.wx.qq.com';window.__moon_mainjs = 'appmsg/index.js';window.moon_map = {"a/appdialog_confirm.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm.html42f400.js","widget/wx_profile_dialog_primary.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/widget/wx_profile_dialog_primary.css42f400.js","pages/iframe_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/iframe_communicate42f400.js","new_video/player.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player.html433882.js","biz_wap/zepto/touch.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/touch42f400.js","biz_wap/zepto/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/event42f400.js","biz_wap/zepto/zepto.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/zepto42f400.js","page/pages/video.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/pages/video.css435ee6.js","a/tpl/smallbanner_msg_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_msg_tpl.html42f400.js","a/tpl/smallbanner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_info_tpl.html42f400.js","a/tpl/banner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_info_tpl.html42f400.js","a/tpl/promote_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/promote_tpl.html42f400.js","a/tpl/smallcard_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallcard_tpl.html42f400.js","a/tpl/info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/info_tpl.html42f400.js","a/tpl/cardticket_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cardticket_tpl.html42f400.js","a/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_tpl.html42f400.js","a/tpl/sponsor_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/sponsor_tpl.html42f400.js","a/tpl/new_cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/new_cpc_tpl.html42f400.js","appmsg/emotion/caret.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/caret42f400.js","biz_wap/utils/localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/localstorage42f400.js","appmsg/friend_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/friend_comment_tpl.html42f400.js","appmsg/comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_tpl.html42f400.js","biz_wap/utils/fakehash.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/fakehash42f400.js","appmsg/comment_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_report42f400.js","a/appdialog_confirm.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm42f400.js","new_video/player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player4306fd.js","a/tpl/mpda_bottom_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/mpda_bottom_tpl.html42f400.js","a/tpl/crt_size_map.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_size_map42f400.js","biz_wap/jsapi/cardticket.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/cardticket42f400.js","biz_common/jquery.md5.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/jquery.md542f400.js","biz_common/utils/emoji_panel_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_panel_data42f400.js","biz_common/utils/emoji_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_data42f400.js","appmsg/emotion/textarea.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/textarea42f400.js","appmsg/emotion/nav.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/nav42f400.js","appmsg/emotion/common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/common42f400.js","appmsg/emotion/slide.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/slide42f400.js","appmsg/emotion/dom.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/dom42f400.js","pages/music_report_conf.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_report_conf42f400.js","pages/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/report4306fd.js","pages/player_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/player_adaptor42f400.js","pages/music_player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_player42f400.js","appmsg/more_read_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read_tpl.html42f400.js","appmsg/retry_ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/retry_ajax42f400.js","complain/tips.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/complain/tips42f400.js","pages/loadscript.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/loadscript42f400.js","biz_wap/utils/ajax_load_js.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_load_js42f400.js","appmsg/comment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment4317dc.js","a/ios.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios42f400.js","a/android.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android42f400.js","a/profile.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile42f400.js","a/app_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/app_card430506.js","a/sponsor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor42f400.js","a/tpl/cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cpc_tpl.html42f400.js","a/video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/video42f400.js","a/a_config.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_config42f400.js","a/tpl/crt_tpl_manager.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_tpl_manager42f400.js","a/cpc_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/cpc_a_tpl.html42f400.js","a/sponsor_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor_a_tpl.html42f400.js","a/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_tpl.html42f400.js","a/mpshop.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpshop42f400.js","a/wxopen_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/wxopen_card42f400.js","a/card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/card42f400.js","biz_wap/utils/position.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/position42f400.js","a/a_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_report42f400.js","biz_wap/utils/show_time.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/show_time42f400.js","biz_common/utils/get_para_list.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/get_para_list42f400.js","biz_wap/utils/openUrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/openUrl42f400.js","a/a_sign.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_sign438181.js","appmsg/my_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/my_comment_tpl.html42f400.js","appmsg/cmt_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cmt_tpl.html42f400.js","sougou/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/a_tpl.html42f400.js","appmsg/emotion/emotion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/emotion42f400.js","biz_common/base64.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/base6442f400.js","biz_common/utils/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report42f400.js","appmsg/articleReport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/articleReport42f400.js","biz_wap/utils/hand_up_state.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/hand_up_state42f400.js","biz_common/utils/http.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/http42f400.js","biz_common/utils/cookie.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie42f400.js","appmsg/topic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/topic_tpl.html42f400.js","pages/weapp_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/weapp_tpl.html42f400.js","biz_common/utils/monitor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/monitor42f400.js","pages/voice_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_tpl.html42f400.js","pages/kugoumusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/kugoumusic_ctrl42f400.js","pages/qqmusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_ctrl42f400.js","pages/voice_component.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_component42f400.js","pages/qqmusic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_tpl.html42f400.js","new_video/ctl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/ctl4306fd.js","appmsg/open_url_with_webview.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/open_url_with_webview4380a9.js","appmsg/more_read.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read42f400.js","appmsg/reward_entry.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/reward_entry42f400.js","appmsg/like.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like43875f.js","pages/version4video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/version4video42f400.js","biz_wap/utils/storage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/storage42f400.js","appmsg/share_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share_tpl.html42f400.js","appmsg/appmsgext.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsgext430b95.js","appmsg/img_copyright_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/img_copyright_tpl.html42f400.js","pages/video_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_ctrl42f400.js","pages/create_txv.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/create_txv42f400.js","appmsg/comment_utils.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_utils42f400.js","biz_common/ui/imgonepx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx42f400.js","appmsg/malicious_wording.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/malicious_wording42f400.js","biz_common/utils/wxgspeedsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/wxgspeedsdk42f400.js","a/a.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a4382e5.js","rt/appmsg/getappmsgext.rt.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/rt/appmsg/getappmsgext.rt42f400.js","pages/video_communicate_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_communicate_adaptor433882.js","biz_wap/utils/ajax_wx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_wx42f400.js","biz_common/utils/respTypes.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/respTypes42f400.js","biz_wap/utils/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/log42f400.js","sougou/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/index42f400.js","biz_wap/safe/mutation_observer_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/mutation_observer_report42f400.js","appmsg/fereport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport438bee.js","appmsg/fereport_without_localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport_without_localstorage438bee.js","appmsg/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report42f400.js","appmsg/report_and_source.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source4380a9.js","appmsg/page_pos.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos431b87.js","appmsg/cdn_speed_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report42f400.js","appmsg/wxtopic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/wxtopic42f400.js","appmsg/weapp.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp433882.js","appmsg/weproduct.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weproduct42f400.js","appmsg/voicemsg.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voicemsg42f400.js","appmsg/autoread.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/autoread42f400.js","appmsg/voice.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voice42f400.js","appmsg/qqmusic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/qqmusic43440b.js","appmsg/iframe.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe433882.js","appmsg/product.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/product42f400.js","appmsg/review_image.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image435a90.js","appmsg/outer_link.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link433882.js","appmsg/copyright_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/copyright_report42f400.js","appmsg/async.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async438bee.js","biz_wap/ui/lazyload_img.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img42f400.js","biz_common/log/jserr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr42f400.js","appmsg/share.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share42f50a.js","appmsg/cdn_img_lib.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib42f400.js","appmsg/finance_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/finance_communicate42f400.js","page/appmsg_new/not_in_mm.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm.css435ee6.js","page/appmsg_new/combo.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo.css438c19.js","biz_wap/utils/wapsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/wapsdk42f400.js","a/mpAdAsync.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpAdAsync4317dc.js","biz_common/utils/url/parse.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse42f400.js","appmsg/appmsg_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsg_report435ac2.js","biz_common/moment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/moment42f400.js","biz_wap/jsapi/core.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core42f400.js","biz_common/dom/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event42f400.js","appmsg/test.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/test42f400.js","biz_wap/utils/mmversion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion42f400.js","appmsg/max_age.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/max_age42f400.js","biz_common/dom/attr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr42f400.js","biz_wap/utils/ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax42f400.js","appmsg/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/log42f400.js","biz_common/dom/class.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class42f400.js","biz_wap/utils/device.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/device42f400.js","appmsg/weapp_common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp_common42f400.js","biz_common/utils/string/html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html42f400.js","cps/tpl/list_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/list_tpl.html42f400.js","cps/tpl/card_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/card_tpl.html42f400.js","cps/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/banner_tpl.html42f400.js","biz_common/tmpl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl42f400.js","appmsg/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index438e37.js"};</script><script nonce="854096366" type="text/javascript" id="moon_inline" > window.__mooninline=1; window.setTimeout(function() {  function __moonf__(){
+if(!window.__moonhasinit){
+window.__moonhasinit=!0,window.__moonclientlog=[],window.__wxgspeeds&&(window.__wxgspeeds.moonloadedtime=+new Date),
+"object"!=typeof JSON&&(window.JSON={
+stringify:function(){
+return"";
+},
+parse:function(){
+return{};
+}
+});
+var e=function(){
+function e(e){
+try{
+var o;
+/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)?o="writeLog":/(Android)/i.test(navigator.userAgent)&&(o="log"),
+o&&t(o,e);
+}catch(n){
+throw console.error(n),n;
+}
+}
+function t(e,o){
+var n,r,i={};
+n=top!=window?top.window:window;
+try{
+r=n.WeixinJSBridge,i=n.document;
+}catch(a){}
+e&&r&&r.invoke?r.invoke(e,{
+level:"info",
+msg:"[WechatFe][moon]"+o
+}):setTimeout(function(){
+i.addEventListener?i.addEventListener("WeixinJSBridgeReady",function(){
+t(e,o);
+},!1):i.attachEvent&&(i.attachEvent("WeixinJSBridgeReady",function(){
+t(e,o);
+}),i.attachEvent("onWeixinJSBridgeReady",function(){
+t(e,o);
+}));
+},0);
+}
+var n;
+localStorage&&JSON.parse(localStorage.getItem("__WXLS__moonarg"))&&"fromls"==JSON.parse(localStorage.getItem("__WXLS__moonarg")).method&&(n=!0),
+e(" moon init, moon_inline:"+window.__mooninline+", moonls:"+n),function(){
+var e={},o={},t={};
+e.COMBO_UNLOAD=0,e.COMBO_LOADING=1,e.COMBO_LOADED=2;
+var n=function(e,t,n){
+if(!o[e]){
+o[e]=n;
+for(var r=3;r--;)try{
+moon.setItem(moon.prefix+e,n.toString()),moon.setItem(moon.prefix+e+"_ver",moon_map[e]);
+break;
+}catch(i){
+moon.clear();
+}
+}
+},r=window.alert;
+window.__alertList=[],window.alert=function(e){
+r(e),window.__alertList.push(e);
+};
+var i=function(e){
+if(!e||!o[e])return null;
+var n=o[e];
+if("function"==typeof n&&!t[e]){
+var a={},s={
+exports:a
+},c=n(i,a,s,r);
+n=o[e]=c||s.exports,t[e]=!0;
+}
+if(".css"===e.substr(-4)){
+var d=document.getElementById(e);
+if(!d){
+d=document.createElement("style"),d.id=e;
+var _=/url\s*\(\s*\/(\"(?:[^\\\"\r\n\f]|\\[\s\S])*\"|'(?:[^\\'\n\r\f]|\\[\s\S])*'|[^)}]+)\s*\)/g,m=window.testenv_reshost||window.__moon_host||"res.wx.qq.com";
+n=n.replace(_,"url(//"+m+"/$1)"),d.innerHTML=n,document.getElementsByTagName("head")[0].appendChild(d);
+}
+}
+return n;
+};
+e.combo_status=e.COMBO_UNLOAD,e.run=function(){
+var o=e.run.info,t=o&&o[0],n=o&&o[1];
+if(t&&e.combo_status==e.COMBO_LOADED){
+var r=i(t);
+n&&n(r);
+}
+},e.use=function(o,t){
+window.__wxgspeeds&&(window.__wxgspeeds.seajs_use_time=+new Date),e.run.info=[o,t],
+e.run();
+},window.define=n,window.seajs=e;
+}(),function(){
+if(window.__nonce_str){
+var e=document.createElement;
+document.createElement=function(o){
+var t=e.apply(this,arguments);
+return"object"==typeof o&&(o=o.toString()),"string"==typeof o&&"script"==o.toLowerCase()&&t.setAttribute("nonce",window.__nonce_str),
+t;
+};
+}
+window.addEventListener&&window.__DEBUGINFO&&Math.random()<.01&&window.addEventListener("load",function(){
+var e=document.createElement("script");
+e.src=__DEBUGINFO.safe_js,e.type="text/javascript",e.async=!0;
+var o=document.head||document.getElementsByTagName("head")[0];
+o.appendChild(e);
+});
+}(),function(){
+function t(e){
+return"[object Array]"===Object.prototype.toString.call(e);
+}
+function n(e){
+return"[object Object]"===Object.prototype.toString.call(e);
+}
+function r(e){
+var t=e.stack+" "+e.toString()||"";
+try{
+if(window.testenv_reshost){
+var n="http(s)?://"+window.testenv_reshost,r=new RegExp(n,"g");
+t=t.replace(r,"");
+}else t=t.replace(/http(s)?:\/\/res\.wx\.qq\.com/g,"");
+for(var r=/\/([^.]+)\/js\/(\S+?)\.js(\,|:)?/g;r.test(t);)t=t.replace(r,function(e,o,t,n){
+return t+n;
+});
+}catch(e){
+t=e.stack?e.stack:"";
+}
+var i=[];
+for(o in u)u.hasOwnProperty(o)&&i.push(o+":"+u[o]);
+return i.push("STK:"+t.replace(/\n/g,"")),i.join("|");
+}
+function i(e){
+if(!e){
+var o=window.onerror;
+window.onerror=function(){},f=setTimeout(function(){
+window.onerror=o,f=null;
+},50);
+}
+}
+function a(e,o,t){
+if(!/^mp\.weixin\.qq\.com$/.test(location.hostname)){
+var n=[];
+t=t.replace(location.href,(location.origin||"")+(location.pathname||"")).replace("#wechat_redirect","").replace("#rd","").split("&");
+for(var r=0,i=t.length;i>r;r++){
+var a=t[r].split("=");
+a[0]&&a[1]&&n.push(a[0]+"="+encodeURIComponent(a[1]));
+}
+var s=new window.Image;
+return void(s.src=(o+n.join("&")).substr(0,1024));
+}
+var c;
+if(window.ActiveXObject)try{
+c=new ActiveXObject("Msxml2.XMLHTTP");
+}catch(d){
+try{
+c=new ActiveXObject("Microsoft.XMLHTTP");
+}catch(_){
+c=!1;
+}
+}else window.XMLHttpRequest&&(c=new XMLHttpRequest);
+c&&(c.open(e,o,!0),c.setRequestHeader("cache-control","no-cache"),c.setRequestHeader("Content-Type","application/x-www-form-urlencoded; charset=UTF-8"),
+c.setRequestHeader("X-Requested-With","XMLHttpRequest"),c.send(t));
+}
+function s(e){
+return function(o,t){
+if("string"==typeof o)try{
+o=new Function(o);
+}catch(n){
+throw n;
+}
+var r=[].slice.call(arguments,2),a=o;
+return o=function(){
+try{
+return a.apply(this,r.length&&r||arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:j,
+log:"timeout_error;host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},e(o,t);
+};
+}
+function c(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this,a=t||function(){};
+return t=function(){
+try{
+return a.apply(r,arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:x,
+log:"listener_error;type:"+o+";host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},a.moon_lid=E,b[E]=t,E++,e.call(r,o,t,n);
+};
+}
+function d(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this;
+return t=b[t.moon_lid],e.call(r,o,t,n);
+};
+}
+var _,m,l,w,u,p,f,h=/MicroMessenger/i.test(navigator.userAgent),g=/MPAPP/i.test(navigator.userAgent),v=window.define,y=0,x=2,O=4,j=9,D=10;
+if(window.__initCatch=function(e){
+_=e.idkey,m=e.startKey||0,l=e.limit,w=e.badjsId,u=e.reportOpt||"",p=e.extInfo||{},
+p.rate=p.rate||.5;
+},window.__moon_report=function(e,o){
+var i=!1,s="";
+try{
+s=top.location.href;
+}catch(c){
+i=!0;
+}
+var d=.5;
+if(p&&p.rate&&(d=p.rate),o&&"number"==typeof o&&(d=o),!(!/mp\.weixin\.qq\.com/.test(location.href)&&!/payapp\.weixin\.qq\.com/.test(location.href)||Math.random()>d||!h&&!g||top!=window&&!i&&!/mp\.weixin\.qq\.com/.test(s))&&(n(e)&&(e=[e]),
+t(e)&&""!=_)){
+var u="",f=[],v=[],y=[],x=[];
+"number"!=typeof l&&(l=1/0);
+for(var j=0;j<e.length;j++){
+var D=e[j]||{};
+if(!(D.offset>l||"number"!=typeof D.offset||D.offset==O&&p&&p.network_rate&&Math.random()>=p.network_rate)){
+var b=1/0==l?m:m+D.offset;
+f[j]="[moon]"+_+"_"+b+";"+D.log+";"+r(D.e||{})||"",v[j]=b,y[j]=1;
+}
+}
+for(var E=0;E<v.length;E++)x[E]=_+"_"+v[E]+"_"+y[E],u=u+"&log"+E+"="+f[E];
+if(x.length>0){
+a("POST",location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?","idkey="+x.join(";")+"&r="+Math.random()+"&lc="+f.length+u);
+var d=1;
+if(p&&p.badjs_rate&&(d=p.badjs_rate),w&&Math.random()<d){
+u=u.replace(/uin\:(.)*\|biz\:(.)*\|mid\:(.)*\|idx\:(.)*\|sn\:(.)*\|/,"");
+var S=new Image,I="https://badjs.weixinbridge.com/badjs?id="+w+"&level=4&from="+encodeURIComponent(location.host)+"&msg="+encodeURIComponent(u);
+S.src=I.slice(0,1024);
+}
+}
+}
+},window.setTimeout=s(window.setTimeout),window.setInterval=s(window.setInterval),
+Math.random()<.01&&window.Document&&window.HTMLElement){
+var b={},E=0;
+Document.prototype.addEventListener=c(Document.prototype.addEventListener),Document.prototype.removeEventListener=d(Document.prototype.removeEventListener),
+HTMLElement.prototype.addEventListener=c(HTMLElement.prototype.addEventListener),
+HTMLElement.prototype.removeEventListener=d(HTMLElement.prototype.removeEventListener);
+}
+var S=window.navigator.userAgent;
+if((/ip(hone|ad|od)/i.test(S)||/android/i.test(S))&&!/windows phone/i.test(S)&&window.localStorage&&window.localStorage.setItem){
+var I=window.localStorage.setItem,L=0;
+window.localStorage.setItem=function(e,o){
+if(!(L>=10))try{
+I.call(window.localStorage,e,o);
+}catch(t){
+t.stack&&console&&console.error&&console.error("[TryCatch]"+t.stack),window.__moon_report([{
+offset:D,
+log:"localstorage_error;"+t.toString(),
+e:t
+}]),L++,L>=3&&window.moon&&window.moon.clear&&moon.clear();
+}
+};
+}
+window.seajs&&v&&(window.define=function(){
+for(var o,t=[],n=arguments&&arguments[0],a=0,s=arguments.length;s>a;a++){
+var c=o=arguments[a];
+"function"==typeof o&&(o=function(){
+try{
+return c.apply(this,arguments);
+}catch(o){
+throw"string"==typeof n&&console.error("[TryCatch][DefineeErr]id:"+n),o.stack&&console&&console.error&&console.error("[TryCatch]"+o.stack),
+_&&window.__moon_report&&(window.__moon_report([{
+offset:y,
+log:"define_error;id:"+n+";",
+e:o
+}]),i(f)),e(" [define_error]"+JSON.stringify(r(o))),o;
+}
+},o.toString=function(e){
+return function(){
+return e.toString();
+};
+}(arguments[a])),t.push(o);
+}
+return v.apply(this,t);
+});
+}(),function(o){
+function t(e,o,t){
+return window.__DEBUGINFO?(window.__DEBUGINFO.res_list||(window.__DEBUGINFO.res_list=[]),
+window.__DEBUGINFO.res_list[e]?(window.__DEBUGINFO.res_list[e][o]=t,!0):!1):!1;
+}
+function n(e){
+var o=new TextEncoder("utf-8").encode(e),t=crypto.subtle||crypto.webkitSubtle;
+return t.digest("SHA-256",o).then(function(e){
+return r(e);
+});
+}
+function r(e){
+for(var o=[],t=new DataView(e),n=0;n<t.byteLength;n+=4){
+var r=t.getUint32(n),i=r.toString(16),a="00000000",s=(a+i).slice(-a.length);
+o.push(s);
+}
+return o.join("");
+}
+function i(e,o,t){
+if("object"==typeof e){
+var n=Object.prototype.toString.call(e).replace(/^\[object (.+)\]$/,function(e,o){
+return o;
+});
+if(t=t||e,"Array"==n){
+for(var r=0,i=e.length;i>r;++r)if(o.call(t,e[r],r,e)===!1)return;
+}else{
+if("Object"!==n&&a!=e)throw"unsupport type";
+if(a==e){
+for(var r=e.length-1;r>=0;r--){
+var s=a.key(r),c=a.getItem(s);
+if(o.call(t,c,s,e)===!1)return;
+}
+return;
+}
+for(var r in e)if(e.hasOwnProperty(r)&&o.call(t,e[r],r,e)===!1)return;
+}
+}
+}
+var a=o.localStorage,s=document.head||document.getElementsByTagName("head")[0],c=1,d=11,_=12,m=13,l=window.__allowLoadResFromMp?1:2,w=window.__allowLoadResFromMp?1:0,u=l+w,p=window.testenv_reshost||window.__moon_host||"res.wx.qq.com",f=new RegExp("^(http(s)?:)?//"+p);
+window.__loadAllResFromMp&&(p="mp.weixin.qq.com",l=0,u=l+w);
+var h={
+prefix:"__MOON__",
+loaded:[],
+unload:[],
+clearSample:!0,
+hit_num:0,
+mod_num:0,
+version:1003,
+cacheData:{
+js_mod_num:0,
+js_hit_num:0,
+js_not_hit_num:0,
+js_expired_num:0,
+css_mod_num:0,
+css_hit_num:0,
+css_not_hit_num:0,
+css_expired_num:0
+},
+init:function(){
+h.loaded=[],h.unload=[];
+var e,t,r;
+if(window.no_moon_ls&&(h.clearSample=!0),a){
+var s="_moon_ver_key_",c=a.getItem(s);
+c!=h.version&&(h.clear(),a.setItem(s,h.version));
+}
+if((-1!=location.search.indexOf("no_moon1=1")||-1!=location.search.indexOf("no_lshttps=1"))&&h.clear(),
+a){
+var d=1*a.getItem(h.prefix+"clean_time"),_=+new Date;
+if(_-d>=1296e6){
+h.clear();
+try{
+!!a&&a.setItem(h.prefix+"clean_time",+new Date);
+}catch(m){}
+}
+}
+i(moon_map,function(i,s){
+if(t=h.prefix+s,r=!!i&&i.replace(f,""),e=!!a&&a.getItem(t),version=!!a&&(a.getItem(t+"_ver")||"").replace(f,""),
+h.mod_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_mod_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_mod_num++,
+h.clearSample||!e||r!=version)h.unload.push(r.replace(f,"")),r&&-1!=r.indexOf(".css")?e?r!=version&&h.cacheData.css_expired_num++:h.cacheData.css_not_hit_num++:r&&-1!=r.indexOf(".js")&&(e?r!=version&&h.cacheData.js_expired_num++:h.cacheData.js_not_hit_num++);else{
+if("https:"==location.protocol&&window.moon_hash_map&&window.moon_hash_map[s]&&window.crypto)try{
+n(e).then(function(e){
+window.moon_hash_map[s]!=e&&console.log(s);
+});
+}catch(c){}
+try{
+var d="//# sourceURL="+s+"\n//@ sourceURL="+s;
+o.eval.call(o,'define("'+s+'",[],'+e+")"+d),h.hit_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_hit_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_hit_num++;
+}catch(c){
+h.unload.push(r.replace(f,""));
+}
+}
+}),h.load(h.genUrl());
+},
+genUrl:function(){
+var e=h.unload;
+if(!e||e.length<=0)return[];
+var o,t,n="",r=[],i={},a=-1!=location.search.indexOf("no_moon2=1"),s="//"+p;
+-1!=location.href.indexOf("moon_debug2=1")&&(s="//mp.weixin.qq.com");
+for(var c=0,d=e.length;d>c;++c){
+/^\/(.*?)\//.test(e[c]);
+var _=/^\/(.*?)\//.exec(e[c]);
+_.length<2||!_[1]||(t=_[1],n=i[t],n?(o=n+","+e[c],o.length>1e3||a?(r.push(n+"?v="+h.version),
+n=location.protocol+s+e[c],i[t]=n):(n=o,i[t]=n)):(n=location.protocol+s+e[c],i[t]=n));
+}
+for(var m in i)i.hasOwnProperty(m)&&r.push(i[m]);
+return r;
+},
+load:function(e){
+if(window.__wxgspeeds&&(window.__wxgspeeds.mod_num=h.mod_num,window.__wxgspeeds.hit_num=h.hit_num),
+!e||e.length<=0)return seajs.combo_status=seajs.COMBO_LOADED,seajs.run(),console.debug&&console.debug("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num),
+void window.__moonclientlog.push("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num);
+seajs.combo_status=seajs.COMBO_LOADING;
+var o=0,t=+new Date;
+window.__wxgspeeds&&(window.__wxgspeeds.combo_times=[],window.__wxgspeeds.combo_times.push(t)),
+i(e,function(n){
+h.request(n,u,function(){
+if(window.__wxgspeeds&&window.__wxgspeeds.combo_times.push(+new Date),o++,o==e.length){
+var n=+new Date-t;
+window.__wxgspeeds&&(window.__wxgspeeds.mod_downloadtime=n),seajs.combo_status=seajs.COMBO_LOADED,
+seajs.run(),console.debug&&console.debug("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms"),
+window.__moonclientlog.push("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms");
+}
+});
+});
+},
+request:function(o,n,r){
+if(o){
+n=n||0,o.indexOf("mp.weixin.qq.com")>-1&&((new Image).src=location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?idkey=27613_32_1&r="+Math.random(),
+window.__moon_report([{
+offset:_,
+log:"load_script_from_mp: "+o
+}],1));
+var i=-1;
+window.__DEBUGINFO&&(__DEBUGINFO.res_list||(__DEBUGINFO.res_list=[]),__DEBUGINFO.res_list.push({
+type:"js",
+status:"pendding",
+start:+new Date,
+end:0,
+url:o
+}),i=__DEBUGINFO.res_list.length-1),-1!=location.search.indexOf("no_lshttps=1")&&(o=o.replace("http://","https://"));
+var a=document.createElement("script");
+a.src=o,a.type="text/javascript",a.async=!0,a.down_time=+new Date,a.onerror=function(s){
+t(i,"status","error"),t(i,"end",+new Date);
+var _=new Error(s);
+if(n>=0)if(w>n){
+var l=o.replace("res.wx.qq.com","mp.weixin.qq.com");
+h.request(l,n,r);
+}else h.request(o,n,r);else window.__moon_report&&window.__moon_report([{
+offset:c,
+log:"load_script_error: "+o,
+e:_
+}],1);
+if(n==w-1&&window.__moon_report([{
+offset:d,
+log:"load_script_error: "+o,
+e:_
+}],1),-1==n){
+var u="ua: "+window.navigator.userAgent+", time="+(+new Date-a.down_time)+", load_script_error -1 : "+o;
+window.__moon_report([{
+offset:m,
+log:u
+}],1);
+}
+window.__moonclientlog.push("moon load js error : "+o+", error -> "+_.toString()),
+e("moon_request_error url:"+o);
+},"undefined"!=typeof moon_crossorigin&&moon_crossorigin&&a.setAttribute("crossorigin",!0),
+a.onload=a.onreadystatechange=function(){
+t(i,"status","loaded"),t(i,"end",+new Date),!a||a.readyState&&!/loaded|complete/.test(a.readyState)||(t(i,"status","200"),
+a.onload=a.onreadystatechange=null,"function"==typeof r&&r());
+},n--,s.appendChild(a),e("moon_request url:"+o+" retry:"+n);
+}
+},
+setItem:function(e,o){
+!!a&&a.setItem(e,o);
+},
+clear:function(){
+a&&(i(a,function(e,o){
+~o.indexOf(h.prefix)&&a.removeItem(o);
+}),console.debug&&console.debug("[moon] clear"));
+},
+idkeyReport:function(e,o,t){
+t=t||1;
+var n=e+"_"+o+"_"+t;
+(new Image).src="/mp/jsmonitor?idkey="+n+"&r="+Math.random();
+}
+};
+seajs&&seajs.use&&"string"==typeof window.__moon_mainjs&&seajs.use(window.__moon_mainjs),
+window.moon=h;
+}(window),function(){
+try{
+Math.random()<1;
+}catch(e){}
+}(),window.moon.init();
+};
+e(),!!window.__moon_initcallback&&window.__moon_initcallback(),window.__wxgspeeds&&(window.__wxgspeeds.moonendtime=+new Date);
+}
+}
+__moonf__(); }, 25);</script><script nonce="854096366" type="text/javascript">
+    var real_show_page_time = +new Date();
+    if (!!window.addEventListener){
+        window.addEventListener("load", function(){
+            window.onload_endtime = +new Date();
+        });
+    }
+
+    
+    if(typeof seajs != 'undefined' && seajs.config){
+        try{
+            seajs.config({
+              'map': [
+                [ '.js', '.js?v=' + (+new Date())]
+              ]
+            });
+        }catch(e){
+            console.info('not support seajs config');
+        }
+    }
+
+    
+</script>
+
+    </body>
+    <script nonce="854096366" type="text/javascript">document.addEventListener("touchstart", function() {},false);</script>
+</html>
+

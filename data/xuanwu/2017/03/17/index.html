@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/03/17" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/03/17</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+    color: #a7a7a7;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 15px;
+    /*color: #a7a7a7;*/
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.singlefeedtext p{
+    font-size: 15px;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        //console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        //console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            //console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/03/16/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/03/17/index.html">2017/03/17</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/03/18/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Abdulrhman Alqabandi @Qab</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  CVE-2017-0042 - IE11 Local folder/file detection PoC - <a href="http://pastebin.com/raw/Eztknq4s" rel="nofollow">http://pastebin.com/raw/Eztknq4s</a> - ft. @ shhnjk</p>
+<div class="translated" id="254476">
+<p>﻿"IE 11 探测本地文件的 PoC（CVE-2017-0042）：  <a href="https://t.co/aD0xIBZ98W" rel="nofollow">https://t.co/aD0xIBZ98W</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Zero Day Initiative @thezdi</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Challenges </i>]  The schedule for Day Two of #Pwn2Own has been published. We're running 2 tracks due to the number of entries. <a href="http://bit.ly/2muaXJy" rel="nofollow">http://bit.ly/2muaXJy</a></p>
+<div class="translated" id="253966">
+<p>﻿"Pwn2Own 第二天的日程安排及战况：   <a href="https://t.co/HhzmgJL1aO" rel="nofollow">https://t.co/HhzmgJL1aO</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Zero Day Initiative @thezdi</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Challenges </i>]  The results of Day 1 of #Pwn2Own 2017 are in the books. 10 attempts total. See all the results at <a href="http://bit.ly/2ncZhPC" rel="nofollow">http://bit.ly/2ncZhPC</a>. #P2O</p>
+<div class="translated" id="254096">
+<p>﻿"Pwn2Own 2017 第一天比赛回顾：   <a href="https://t.co/3OOmkJn9Tk" rel="nofollow">https://t.co/3OOmkJn9Tk</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  James Habben @JamesHabben </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Forensics </i>]  Followup blog to the CCM_RecentlyUsedApps tools. Property values, meanings, and analysis tips.
+#DFIR #infosec
+<a href="https://t.co/iqP07KjSPe" rel="nofollow">https://t.co/iqP07KjSPe</a></p>
+<div class="translated" id="254167">
+<p>﻿"WMI 数据库 CCM_RecentlyUsedApps Records 数据解析与取证分析：   <a href="https://t.co/iqP07KjSPe" rel="nofollow">https://t.co/iqP07KjSPe</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> macOS </i>]  Playing with Mach-O binaries and dyld <a href="http://blog.lse.epita.fr/articles/82-playing-with-mach-os-and-dyld.html" rel="nofollow">http://blog.lse.epita.fr/articles/82-playing-with-mach-os-and-dyld.html</a></p>
+<div class="translated" id="254313">
+<p>﻿"Playing with Mach-O binaries and dyld：   <a href="https://t.co/ovXlrH3mxc" rel="nofollow">https://t.co/ovXlrH3mxc</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Schneier Blog @schneierblog </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  Using Intel's SGX to Attack Itself <a href="https://www.schneier.com/blog/archives/2017/03/using_intels_sg.html" rel="nofollow">https://www.schneier.com/blog/archives/2017/03/using_intels_sg.html</a></p>
+<div class="translated" id="254147">
+<p>﻿"恶意软件防御拓展: 使用SGX隐藏缓存攻击：   <a href="https://arxiv.org/pdf/1702.08719.pdf" rel="nofollow">https://arxiv.org/pdf/1702.08719.pdf</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Arnaud Dlms @ArnaudDlms </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  My latest article : Analyzing and Deobfuscating FlokiBot Banking Trojan <a href="http://adelmas.com/blog/flokibot.php" rel="nofollow">http://adelmas.com/blog/flokibot.php</a> #flokibot #malware</p>
+<div class="translated" id="254010">
+<p>﻿"FlokiBot 银行木马详细分析：   <a href="https://t.co/QibSQQQu3k" rel="nofollow">https://t.co/QibSQQQu3k</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Axelle Ap. @cryptax </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  Android/Ztorg downloaded sample has root exploits, tools &amp;amp; packages embedded in the source code as bin strings: <a href="https://t.co/jrXGN2kboJ" rel="nofollow">https://t.co/jrXGN2kboJ</a></p>
+<div class="translated" id="254122">
+<p>﻿"解析 Android 恶意软件变种 Android/Ztorg.AM!tr ︰   <a href="http://blog.fortinet.com/2017/03/15/teardown-of-a-recent-variant-of-android-ztorg-part-1%C2%A0" rel="nofollow">http://blog.fortinet.com/2017/03/15/teardown-of-a-recent-variant-of-android-ztorg-part-1 </a>; part 2：    <a href="https://blog.fortinet.com/2017/03/15/teardown-of-android-ztorg-part-2" rel="nofollow">https://blog.fortinet.com/2017/03/15/teardown-of-android-ztorg-part-2</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Joshua Franklin @thejoshpit </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mobile </i>]  My talk at the #androidsecuritysymposium: Building Threat Models for the #Mobile Ecosystem <a href="http://jfranklin.me/prez/AndroidSecuritySymposium-2017.pdf" rel="nofollow">http://jfranklin.me/prez/AndroidSecuritySymposium-2017.pdf</a>  #mobilesecurity #infosec</p>
+<div class="translated" id="254278">
+<p>﻿"移动生态系统威胁建模：   <a href="https://t.co/nPbQopFGzY" rel="nofollow">https://t.co/nPbQopFGzY</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Samsung leaking customer information via insecure shipper <a href="https://medium.com/@" rel="nofollow">https://medium.com/@</a> AlmostWhiteHat/samsung-leaking-customer-information-9b7e2dcb006d#.xpghkmvcd</p>
+<div class="translated" id="254331">
+<p>﻿"Samsung 在线购买平台的顾客信息泄露事件分析：   <a href="https://t.co/KzYsRpy29u" rel="nofollow">https://t.co/KzYsRpy29u</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Chris Allen @bitemyapp </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Programming </i>]  Rust 1.16 released
+
+<a href="https://blog.rust-lang.org/2017/03/16/Rust-1.16.html" rel="nofollow">https://blog.rust-lang.org/2017/03/16/Rust-1.16.html</a></p>
+<div class="translated" id="254311">
+<p>﻿"Rust 1.16 正式发布：   <a href="https://t.co/d0eXg0VOzL" rel="nofollow">https://t.co/d0eXg0VOzL</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  SSLsplit - transparent SSL/TLS interception <a href="http://www.kitploit.com/2017/03/sslsplit-transparent-ssltls-interception.html" rel="nofollow">http://www.kitploit.com/2017/03/sslsplit-transparent-ssltls-interception.html</a></p>
+<div class="translated" id="254320">
+<p>﻿"SSLsplit -- SSL/TLS 拦截工具，用于对SSL/TLS加密网络实施中间人攻击：   <a href="https://t.co/TXGkOP5ykY" rel="nofollow">https://t.co/TXGkOP5ykY</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  SensePost @sensepost </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  A write-up of the new Linux-based single-board computer Universal Serial aBUSe port by @RoganDawes after @hackcon <a href="https://t.co/AclR4fS7r1" rel="nofollow">https://t.co/AclR4fS7r1</a></p>
+<div class="translated" id="254444">
+<p>﻿"USaBUSe - SensePost 研究员在 DEFCON 24 上公开的一个工具，类似 USB Rubber Ducky，目的是实现对目标主机网络的远程访问：   <a href="https://t.co/AclR4fS7r1" rel="nofollow">https://t.co/AclR4fS7r1</a> Github：   <a href="https://sensepost.com/blog/2017/usabuse-linux-updates/" rel="nofollow">https://sensepost.com/blog/2017/usabuse-linux-updates/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Unicorn Engine @unicorn_engine </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Good news: Unicorn emulator now supports ARM in big-endian mode, available in latest code from our Github repo!
+
+<a href="https://t.co/c0Le6rRdkX" rel="nofollow">https://t.co/c0Le6rRdkX</a></p>
+<div class="translated" id="254199">
+<p>﻿"Unicorn CPU 模拟器现在支持 ARM big-endian 了：   <a href="https://t.co/c0Le6rRdkX" rel="nofollow">https://t.co/c0Le6rRdkX</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Daniel Bilar @daniel_bilar </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Virtualization </i>]  #ndss Nexen: Sandbox Xen into least-priv internal domains by @ adriancolyer <a href="https://blog.acolyer.org/2017/03/16/deconstructing-xen/" rel="nofollow">https://blog.acolyer.org/2017/03/16/deconstructing-xen/</a> [74% vul mit.; 1… <a href="https://t.co/BykA8x8NkQ" rel="nofollow">https://t.co/BykA8x8NkQ</a></p>
+<div class="translated" id="254113">
+<p>﻿"Deconstructing Xen，作者研究了 Xen 公告列表中的 191 个漏洞，发现其中高达 144 个都影响核心 Hypervisor，于是作者从架构设计角度考虑如何避免这种大多数漏洞都影响内核(Core)的情况：   <a href="https://t.co/iUTUP8J3wP" rel="nofollow">https://t.co/iUTUP8J3wP</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Full Disclosure @SecLists</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  USB Pratirodh XML External Entity Injection Vulnerability <a href="https://goo.gl/fb/DYniQC" rel="nofollow">https://goo.gl/fb/DYniQC</a> #FullDisclosure</p>
+<div class="translated" id="254463">
+<p>﻿"USB Pratirodh XML 外部实体注入漏洞（CVE-2017-6895）：   <a href="https://t.co/bzzp7aGtAB" rel="nofollow">https://t.co/bzzp7aGtAB</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Sebas Guerrero ⚡ @0xroot</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Web Security </i>]  Rails SQL injection cheat sheet - <a href="https://rorsecurity.info/portfolio/ruby-on-rails-sql-injection-cheat-sheet" rel="nofollow">https://rorsecurity.info/portfolio/ruby-on-rails-sql-injection-cheat-sheet</a></p>
+<div class="translated" id="254254">
+<p>﻿"Rails SQL 注入备忘：   <a href="https://t.co/HdgJO5HzRm" rel="nofollow">https://t.co/HdgJO5HzRm</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Microsoft Windows 'LoadUvsTable()' Heap-based Buffer Overflow <a href="https://cxsecurity.com/issue/WLB-2017030152" rel="nofollow">https://cxsecurity.com/issue/WLB-2017030152</a></p>
+<div class="translated" id="254381">
+<p>﻿"微软 Windows 'LoadUvsTable()' 堆缓冲区溢出（CVE-2016-7274）：   <a href="https://t.co/YH68qlCKyK" rel="nofollow">https://t.co/YH68qlCKyK</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via hub.docker.com</p> -->
+<p><img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">Xuanwu Spider via hub.docker.com</img></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Fuzzing </i>]  Docker 的镜像库里有人共享了一个 AFL Fuzz Docker Image，里面内置了 clang, qemu, afl-dyninst, TriforceAFL: <a href="https://hub.docker.com/r/moflow/afl-tools/" rel="nofollow">https://hub.docker.com/r/moflow/afl-tools/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via 安全客</p> -->
+<p><img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">Xuanwu Spider via 安全客</img></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Fuzzing </i>]  Smarter Peach: Add Eyes to Peach Fuzzer： <a href="http://bobao.360.cn/news/detail/4036.html" rel="nofollow">http://bobao.360.cn/news/detail/4036.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via freebuf</p> -->
+<p><img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">Xuanwu Spider via freebuf</img></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Industry News </i>]  美国52GB个人身份信息泄露：国防部、沃尔玛、花旗集团等都未能幸免： <a href="http://www.freebuf.com/news/129553.html" rel="nofollow">http://www.freebuf.com/news/129553.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via freebuf</p> -->
+<p><img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">Xuanwu Spider via freebuf</img></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> IoTDevice </i>]  大众车机天宝187A Hack笔记： <a href="http://www.freebuf.com/geek/129160.html" rel="nofollow">http://www.freebuf.com/geek/129160.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via exablue blog</p> -->
+<p><img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">Xuanwu Spider via exablue blog</img></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Popular Software </i>]  通过一个序列化相关的漏洞实现 GitHub Enterprise 版本的远程代码执行： <a href="http://exablue.de/blog/2017-03-15-github-enterprise-remote-code-execution.html" rel="nofollow">http://exablue.de/blog/2017-03-15-github-enterprise-remote-code-execution.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via Github</p> -->
+<p><img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">Xuanwu Spider via Github</img></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Popular Software </i>]  阿里巴巴 fastjson 1.2.24 以及之前版本存在远程代码执行高危安全漏洞，请升级到1.2.28/1.2.29或者更新版本： <a href="https://github.com/alibaba/fastjson/wiki/security_update_20170315" rel="nofollow">https://github.com/alibaba/fastjson/wiki/security_update_20170315</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via weibo</p> -->
+<p><img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">Xuanwu Spider via weibo</img></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Private </i>]  360 Gear Team 准备参加 PWN2OWN 2017 的 VMware 虚拟机逃逸漏洞在赛前被补了，视频演示： <a href="http://weibo.com/6053467553/EA4XVEoY5?from=page_1005056053467553_profile&amp;wvr=6&amp;mod=weibotime&amp;type=comment" rel="nofollow">http://weibo.com/6053467553/EA4XVEoY5?from=page_1005056053467553_profile&amp;wvr=6&amp;mod=weibotime&amp;type=comment</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via harmj0y &#39;s blog</p> -->
+<p><img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">Xuanwu Spider via harmj0y 's blog</img></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Windows </i>]  Pass-the-Hash Is Dead: Long Live LocalAccountTokenFilterPolicy： <a href="http://www.harmj0y.net/blog/redteaming/pass-the-hash-is-dead-long-live-localaccounttokenfilterpolicy/" rel="nofollow">http://www.harmj0y.net/blog/redteaming/pass-the-hash-is-dead-long-live-localaccounttokenfilterpolicy/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/03/16/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/03/17/index.html">2017/03/17</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/03/18/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

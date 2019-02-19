@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2018/08/02" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2018/08/02</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    border-top: 1px solid #f0f0f0;
+    color: black;
+    margin-bottom: 30px;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+
+
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+
+.singleweibotext{
+    word-wrap: break-word;
+}
+
+.singleweibotext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+    word-wrap: break-word;
+}
+.translated p{
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+
+.singleweiboimage{
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin-left: 25px;
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedheader{
+
+}
+
+.singlefeedlogo{
+    float: left;
+    /*width: 24px;*/
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.singlefeedlogo img{
+    float: left;
+    width: 13px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+
+    /*width: 80%;
+    height: 80%;*/
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+.singlefeedtext{
+    word-wrap: break-word;
+}
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+.singlefeedtext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+<script charset="UTF-8" src="http://tajs.qq.com/stats?sId=64975755" type="text/javascript"></script>
+</meta></head>
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2018/08/01/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2018/08/02/index.html">2018/08/02</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/08/03/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  关于在浏览器上私密浏览（Private Browsing Mode）上的一些误区（Paper）：   <a href="https://www.blaseur.com/papers/www18privatebrowsing.pdf" rel="nofollow">https://www.blaseur.com/papers/www18privatebrowsing.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  Safari 技术预览版 62 发布：   <a href="https://webkit.org/blog/8384/release-notes-for-safari-technology-preview-62/" rel="nofollow">https://webkit.org/blog/8384/release-notes-for-safari-technology-preview-62/</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/Djh5kFFXsAEOaXi.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/Djh5kFFXsAEOaXi.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Crypto ]</span>   Zinc 最小加密库介绍:   <a href="https://git.kernel.org/pub/scm/linux/kernel/git/zx2c4/linux.git/commit/?h=zinc" rel="nofollow">https://git.kernel.org/pub/scm/linux/kernel/git/zx2c4/linux.git/commit/?h=zinc</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Debug ]</span>   使用 SlackBot, python, cdb 进行 crashdump 的自动分析:   <a href="https://heejune.me/2018/08/01/crashdump-analysis-automation-using-slackbot-python-cdb-from-windows/" rel="nofollow">https://heejune.me/2018/08/01/crashdump-analysis-automation-using-slackbot-python-cdb-from-windows/</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DjdfqkxVsAA4Qoq.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/DjdfqkxVsAA4Qoq.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Industry News ]</span>  Microsoft 宣布将会于 8 月 8 日 揭晓 Top 100 Security Researcher 名单：   <a href="https://blogs.technet.microsoft.com/msrc/2018/08/01/the-making-of-the-top-100-researcher-list/" rel="nofollow">https://blogs.technet.microsoft.com/msrc/2018/08/01/the-making-of-the-top-100-researcher-list/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Language ]</span>  PHP 的 cURL 选项 CRLF 注入：   <a href="https://medium.com/@tomnomnom/crlf-injection-into-phps-curl-options-e2e0d7cfe545" rel="nofollow">https://medium.com/@tomnomnom/crlf-injection-into-phps-curl-options-e2e0d7cfe545</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ macOS ]</span>  真实的 Mac 系统入侵（Video）：   <a href="https://twitter.com/i/web/status/1024426947999424515" rel="nofollow">https://twitter.com/i/web/status/1024426947999424515</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Malware ]</span>  以色列 NSO Spyware 恶意软件最近开始将目标瞄准沙特人权组织成员：   <a href="https://thehackernews.com/2018/07/iphone-hacking-spyware.html" rel="nofollow">https://thehackernews.com/2018/07/iphone-hacking-spyware.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  使用 Osquery 进行恶意软件分析:   <a href="https://www.alienvault.com/blogs/labs-research/malware-analysis-using-osquery-part-1" rel="nofollow">https://www.alienvault.com/blogs/labs-research/malware-analysis-using-osquery-part-1</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  FireEye 对 FIN7 犯罪团伙的追查分析：   <a href="https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html" rel="nofollow">https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  检测隐藏在证书文件中的 PowerShell 恶意代码 Part 2：   <a href="https://blog.nviso.be/2018/08/01/powershell-inside-a-certificate-part-2/" rel="nofollow">https://blog.nviso.be/2018/08/01/powershell-inside-a-certificate-part-2/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  使用 InternetExplorer.Application 组件进行 C2 通信：   <a href="https://adapt-and-attack.com/2017/12/19/internetexplorer-application-for-c2/" rel="nofollow">https://adapt-and-attack.com/2017/12/19/internetexplorer-application-for-c2/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  John Lambert 推荐的入侵分析入门学习文章系列：   <a href="https://twitter.com/i/web/status/1024730325967036416" rel="nofollow">https://twitter.com/i/web/status/1024730325967036416</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Pentest ]</span>  使用 iqy 文件远程加载 payload 的技巧：   <a href="https://twitter.com/i/web/status/1024430083010965505" rel="nofollow">https://twitter.com/i/web/status/1024430083010965505</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Pentest ]</span>  域渗透之使用 BloodHound / Crackmapexec / Mimikatz 获取域管权限:   <a href="https://hausec.com/2017/10/21/domain-penetration-testing-using-bloodhound-crackmapexec-mimikatz-to-get-domain-admin/" rel="nofollow">https://hausec.com/2017/10/21/domain-penetration-testing-using-bloodhound-crackmapexec-mimikatz-to-get-domain-admin/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Popular Software ]</span>  福昕阅读器整数溢出漏洞分析（CVE-2018-14295）：   <a href="https://www.zerodayinitiative.com/blog/2018/8/01/throwing-shade-analysis-of-a-foxit-integer-overflow" rel="nofollow">https://www.zerodayinitiative.com/blog/2018/8/01/throwing-shade-analysis-of-a-foxit-integer-overflow</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Programming ]</span>  Burp Suite 扩展开发系列：   <a href="https://prakharprasad.com/burp-suite-extension-development-series/" rel="nofollow">https://prakharprasad.com/burp-suite-extension-development-series/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ SCADA ]</span>  工控系统中的四种威胁检测案例研究：   <a href="https://dragos.com/blog/FourTypesOfThreatDetection.html" rel="nofollow">https://dragos.com/blog/FourTypesOfThreatDetection.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  pdb.exe 工具，用于下载 dll 的符号文件，在子文件夹中找到匹配的 .pdb :   <a href="https://github.com/KirillOsenkov/MetadataTools/releases/tag/v1.0.6" rel="nofollow">https://github.com/KirillOsenkov/MetadataTools/releases/tag/v1.0.6</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  2ndOrder - 用于检测二级子域名的 chrome 插件：   <a href="https://github.com/1lastBr3ath/2ndOrder" rel="nofollow">https://github.com/1lastBr3ath/2ndOrder</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  Ridrelay - 快捷简单获取域用户名的工具：   <a href="https://github.com/skorov/ridrelay" rel="nofollow">https://github.com/skorov/ridrelay</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  cloudgoat - 易受攻击的 AWS 基础架构配置工具：   <a href="https://github.com/RhinoSecurityLabs/cloudgoat" rel="nofollow">https://github.com/RhinoSecurityLabs/cloudgoat</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Virtualization ]</span>  Windows 中基于虚拟化的内存完整性保护手段：   <a href="https://techcommunity.microsoft.com/t5/Windows-Insider-Program/Windows-Defender-System-Guard-Making-a-leap-forward-in-platform/td-p/167303" rel="nofollow">https://techcommunity.microsoft.com/t5/Windows-Insider-Program/Windows-Defender-System-Guard-Making-a-leap-forward-in-platform/td-p/167303</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  Charles Proxy 4.2本地提权漏洞(CVE-2017-15358):   <a href="https://www.exploit-db.com/exploits/45107/" rel="nofollow">https://www.exploit-db.com/exploits/45107/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  Universal Media Server在处理 SSDP 时出现 XXE 漏洞(CVE-2018-13416):   <a href="http://seclists.org/fulldisclosure/2018/Jul/94" rel="nofollow">http://seclists.org/fulldisclosure/2018/Jul/94</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Web Security ]</span>  通过休眠服务劫持 Augur 漏洞分析：   <a href="https://medium.com/@peter_szilagyi/augur-hijack-via-dormant-service-workers-bea254258f98" rel="nofollow">https://medium.com/@peter_szilagyi/augur-hijack-via-dormant-service-workers-bea254258f98</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  检测 Windows 10 上是否存在 Hypervisor： https://revers.engineering/detecting-hypervisor-presence-on-windows-10/</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ WirelessSecurity ]</span>  Screaming Channels:长距离探测芯片的侧信道信号,10米还原 AES128 密钥(Paper):   <a href="http://s3.eurecom.fr/tools/screaming_channels/" rel="nofollow">http://s3.eurecom.fr/tools/screaming_channels/</a></p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Crypto ]</span>  金钱难寐，大盗独行——以太坊 JSON-RPC 接口多种盗币手法大揭秘: <a href="https://paper.seebug.org/656/" rel="nofollow">https://paper.seebug.org/656/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Pentest ]</span>  探索基于.NET下妙用DLL处理映射实现后渗透权限维持： <a href="http://www.freebuf.com/articles/web/179240.html" rel="nofollow">http://www.freebuf.com/articles/web/179240.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ SecurityReport ]</span>  2018年上半年中国互联网安全报告: <a href="http://www.freebuf.com/articles/paper/179295.html" rel="nofollow">http://www.freebuf.com/articles/paper/179295.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Tools ]</span>   mambo - 针对 ARM 架构的低开销动态二进制检测和修改工具: <a href="https://github.com/beehive-lab/mambo" rel="nofollow">https://github.com/beehive-lab/mambo</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2018/08/01/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2018/08/02/index.html">2018/08/02</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/08/03/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

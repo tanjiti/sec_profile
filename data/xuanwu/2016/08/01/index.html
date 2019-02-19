@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/08/01" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/08/01</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/07/31/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/08/01/index.html">2016/08/01</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/08/02/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  RedNaga @RedNagaSec </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  "Detecting Pirated and Malicious Android Apps with APKiD" <a href="https://rednaga.github.io/2016/07/31/detecting_pirated_and_malicious_android_apps_with_apkid/" rel="nofollow">https://rednaga.github.io/2016/07/31/detecting_pirated_and_malicious_android_apps_with_apkid/</a> cc @ timstrazz || @ caleb_fenton <a href="https://t.co/tExjwqeBYh" rel="nofollow">https://t.co/tExjwqeBYh</a></p>
+<div class="translated" id="166278">
+<p>﻿" 用 APKiD 检测恶意/盗版 Android 应用程序：   <a href="https://t.co/8DvB7F5ylW" rel="nofollow">https://t.co/8DvB7F5ylW</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CouZDHsUAAAKb6Y.jpg" target="_blank">
+<img src="CouZDHsUAAAKb6Y.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  flanvel @flanvel </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Reverse engineering and removing Pokémon GO’s certificate pinning <a href="https://eaton-works.com/2016/07/31/reverse-engineering-and-removing-pokemon-gos-certificate-pinning/" rel="nofollow">https://eaton-works.com/2016/07/31/reverse-engineering-and-removing-pokemon-gos-certificate-pinning/</a></p>
+<div class="translated" id="166311">
+<p>﻿" 逆向以及移除 Pokémon GO 客户端的严格证书检查（Certificate Pinning）：   <a href="https://t.co/qhycDyXtTM" rel="nofollow">https://t.co/qhycDyXtTM</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Backdoor </i>]  Backdooring DLL’s Part 3 <a href="http://www.gironsec.com/blog/2016/07/backdooring-dlls-part-3/" rel="nofollow">http://www.gironsec.com/blog/2016/07/backdooring-dlls-part-3/</a></p>
+<div class="translated" id="166254">
+<p>﻿" 如何修改 DLL，植入后门 Part 3：   <a href="https://t.co/LeAw0pzMQZ" rel="nofollow">https://t.co/LeAw0pzMQZ</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Patrick McCanna @PatrickMcCanna </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> macOS </i>]  Helpful article on debugging system calls on OSX:  <a href="http://bryce.is/writing/code/macosx/debugging/udp/sockets/dtruss/dtrace/eaddrinuse/2016/07/30/debugging-using-system-calls.html" rel="nofollow">http://bryce.is/writing/code/macosx/debugging/udp/sockets/dtruss/dtrace/eaddrinuse/2016/07/30/debugging-using-system-calls.html</a></p>
+<div class="translated" id="166108">
+<p>﻿" 在 OS X，利用 dtruss 和 DTrace 工具，监控应用的系统调用︰   <a href="https://t.co/34DWVY2jqD" rel="nofollow">https://t.co/34DWVY2jqD</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> OpenSourceProject </i>]  Fun with Bignums: Crashing MatrixSSL and more  <a href="https://blog.fuzzing-project.org/51-Fun-with-Bignums-Crashing-MatrixSSL-and-more.html" rel="nofollow">https://blog.fuzzing-project.org/51-Fun-with-Bignums-Crashing-MatrixSSL-and-more.html</a></p>
+<div class="translated" id="166255">
+<p>﻿" Fuzzing Project 对 MatrixSSL 库的 Fuzz 结果：   <a href="https://t.co/PPkgTdMbtn" rel="nofollow">https://t.co/PPkgTdMbtn</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Fake FreeDNS Used to Redirect Traffic to Malicious Sites : <a href="https://blog.sucuri.net/2016/07/fake-freedns-used-to-redirect-traffic-to-malicious-sites.html" rel="nofollow">https://blog.sucuri.net/2016/07/fake-freedns-used-to-redirect-traffic-to-malicious-sites.html</a></p>
+<div class="translated" id="166208">
+<p>﻿"FreeDNS 被用于重定向用户流量到恶意站点︰   <a href="https://t.co/E2Yi3vVymx" rel="nofollow">https://t.co/E2Yi3vVymx</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Giuseppe `N3mes1s` @gN3mes1s</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Defense in depth -- the Microsoft way (part 41): vulnerable by(poor implementation of bad) design - <a href="http://seclists.org/fulldisclosure/2016/Jul/63" rel="nofollow">http://seclists.org/fulldisclosure/2016/Jul/63</a> #EoP</p>
+<div class="translated" id="166123">
+<p>﻿" Windows Update 会以 SYSTEM 权限调用 DISM.exe，而 DISM.exe 会尝试加载 PEProvider.dll，此处可以被利用实现提权，来自 FullDisclosure 的公告：   <a href="https://t.co/kZgpXSxEDb" rel="nofollow">https://t.co/kZgpXSxEDb</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Full Disclosure @SecLists</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Web Security </i>]  Multiple vulnerabilities in All In One WP Security &amp; Firewall plugin login… <a href="http://goo.gl/fb/qEUmLp" rel="nofollow">http://goo.gl/fb/qEUmLp</a> #FullDisclosure</p>
+<div class="translated" id="166171">
+<p>﻿" WordPress 防火墙插件验证码登录存在多个漏洞，来自 FullDisclosure 公告：   <a href="https://t.co/Q1kuO15K9T" rel="nofollow">https://t.co/Q1kuO15K9T</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/07/31/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/08/01/index.html">2016/08/01</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/08/02/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

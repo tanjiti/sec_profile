@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/04/25" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/04/25</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/04/24/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/04/25/index.html">2016/04/25</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/04/26/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Sean Metcalf @PyroTek3 </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Defend </i>]  Short post on my PowerShell talk @ BSidesCharm w/ overview, slides, &amp; some info on PS Remoting. Slides updated.
+<a href="https://adsecurity.org/?p=2843" rel="nofollow">https://adsecurity.org/?p=2843</a></p>
+<div class="translated" id="127768">
+<p>﻿" PowerShell 安全之企业如何防御最新攻击平台的攻击：   <a href="https://t.co/4vOSS1cvoX" rel="nofollow">https://t.co/4vOSS1cvoX</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Mark Russinovich @markrussinovich </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Detect </i>]  Great series of blog posts on using Sysmon: <a href="http://securitylogsanalysis.blogspot.com/" rel="nofollow">http://securitylogsanalysis.blogspot.com/</a></p>
+<div class="translated" id="127656">
+<p>﻿" 基于 Splunk 的终端日志分析和威胁检测:   <a href="http://securitylogsanalysis.blogspot.com/2016/04/analysis-of-endpoint-logs-with-splunk.html" rel="nofollow">http://securitylogsanalysis.blogspot.com/2016/04/analysis-of-endpoint-logs-with-splunk.html</a>   基于 Sysmon 的威胁检测：   <a href="http://securitylogsanalysis.blogspot.com/2016/04/sysmon-playbook-v1.html" rel="nofollow">http://securitylogsanalysis.blogspot.com/2016/04/sysmon-playbook-v1.html</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Robert M. Lee @RobertMLee </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Detect </i>]  Great BSides presentation by @ markpars0ns on hunting threats by pivoting off of TLS certs: <a href="http://mpars0ns.github.io/bsidescharm-2016slides/" rel="nofollow">http://mpars0ns.github.io/bsidescharm-2016slides/</a> #DFIR</p>
+<div class="translated" id="127664">
+<p>﻿"基于 TLS 证书信息的威胁检测， 来自 Bsides 会议，在线 Slides:   <a href="https://t.co/FB6LQYO73Y%C2%A0" rel="nofollow">https://t.co/FB6LQYO73Y </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Julio @juliocesarfort </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Hardware </i>]  Building a portable GSM BTS using Nuand BladeRF, Raspberry Pi and YatesBTS step by step tutorial - <a href="https://blog.strcpy.info/2016/04/21/building-a-portable-gsm-bts-using-bladerf-raspberry-and-yatebts-the-definitive-guide/" rel="nofollow">https://blog.strcpy.info/2016/04/21/building-a-portable-gsm-bts-using-bladerf-raspberry-and-yatebts-the-definitive-guide/</a></p>
+<div class="translated" id="127719">
+<p>﻿"用 Nuand BladeRF、树莓派、YatesBTS 一步步搭建一个便携式 GSM 基站：    <a href="https://t.co/eUfrDW9DMQ" rel="nofollow">https://t.co/eUfrDW9DMQ</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  David Schuetz @DarthNull </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  The slides from my @ BSidesROC iOS talk are now online. Enjoy, and thanks to all who came to see the talk! <a href="https://twitter.com/NullBits/status/723928258853523457" rel="nofollow">https://twitter.com/NullBits/status/723928258853523457</a></p>
+<div class="translated" id="127712">
+<p>﻿"iOS 的加密体系，包括全盘加密、Passcode 等，来自 BSides 会议的演讲：   <a href="https://t.co/xkg6R8jBNX" rel="nofollow">https://t.co/xkg6R8jBNX</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Giuseppe `N3mes1s` @gN3mes1s</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  Foreign LINUX - Linux system call interface emulator for the Windows platform - a` la WSL - <a href="https://github.com/wishstudio/flinux" rel="nofollow">https://github.com/wishstudio/flinux</a></p>
+<div class="translated" id="127702">
+<p>﻿"FLinux - 运行在 Windows 系统的 Linux 二进制翻译器、系统调用模拟器，使得在 Windows 系统可以直接运行未修改的 Linux 二进制程序：   <a href="https://t.co/zTDpiH1qZh" rel="nofollow">https://t.co/zTDpiH1qZh</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  _ @AlexWMF </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> ReverseEngineering </i>]  Solving kao's toy project with symbolic execution and angr <a href="http://0xec.blogspot.com.by/2016/04/solving-kaos-toy-project-with-symbolic.html" rel="nofollow">http://0xec.blogspot.com.by/2016/04/solving-kaos-toy-project-with-symbolic.html</a></p>
+<div class="translated" id="127753">
+<p>﻿"用符号执行方法以及 angr 框架破解 Kao Toy CrackMe：   <a href="https://t.co/XVnfOQcicC" rel="nofollow">https://t.co/XVnfOQcicC</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Piotr Kijewski @piotrkijewski </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> ThreatIntelligence </i>]  This is a great list of threat intel resources <a href="http://www.cyintanalysis.com/resources/" rel="nofollow">http://www.cyintanalysis.com/resources/</a></p>
+<div class="translated" id="127701">
+<p>﻿" 威胁情报资源收集：   <a href="https://t.co/BjmNNYs7We%C2%A0%C2%A0" rel="nofollow">https://t.co/BjmNNYs7We  </a> 其中有一个 Github 项目整理了一个列表：   <a href="https://github.com/hslatman/awesome-threat-intelligence" rel="nofollow">https://github.com/hslatman/awesome-threat-intelligence</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Eliott T. @DeveloppSoft </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Finally rewrote #EliDecode
+<a href="http://developpsoft.github.io//EliDecode/" rel="nofollow">http://developpsoft.github.io//EliDecode/</a>
+Cc: #infosec #obfuscated @ github @ unicorn_engine @ capstone_engine #indiedev</p>
+<div class="translated" id="127747">
+<p>﻿" EliDecode - 混淆后 Shellcode 的解码工具，基于 Capstone 反汇编引擎：   <a href="https://t.co/wcLaYw7bPq" rel="nofollow">https://t.co/wcLaYw7bPq</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>PythonArsenal @PythonArsenal</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  NRS is a set of Python librairies used to unpack and analysis NSIS installer's data. Based on IDAPython. <a href="https://github.com/isra17/nrs" rel="nofollow">https://github.com/isra17/nrs</a></p>
+<div class="translated" id="127815">
+<p>﻿"NRS - NSIS 安装程序解析和分析工具，基于 IDAPython：   <a href="https://t.co/UVmXYb47CB" rel="nofollow">https://t.co/UVmXYb47CB</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/04/24/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/04/25/index.html">2016/04/25</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/04/26/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

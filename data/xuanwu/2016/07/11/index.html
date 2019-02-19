@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/07/11" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/07/11</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/07/10/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/07/11/index.html">2016/07/11</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/07/12/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Diana Kelley @dianakelley14 </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Remote Code Execution in #Xiaomi MIUI Analytics: <a href="https://securityintelligence.com/remote-code-execution-in-xiaomi-miui-analytics/#.V35lKNLX4Mk.twitter" rel="nofollow">https://securityintelligence.com/remote-code-execution-in-xiaomi-miui-analytics/#.V35lKNLX4Mk.twitter</a> @ roeehay @ depletionmode @ ibmsecurity</p>
+<div class="translated" id="157447">
+<p>﻿" 小米 MIUI 分析组件存在基于中间人的远程代码执行漏洞，来自 SecurityIntelligence Blog︰   <a href="https://t.co/T9S9qEdSbc%C2%A0" rel="nofollow">https://t.co/T9S9qEdSbc </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Jamie Shaw @jlshaw87 </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Exploit </i>]  Bypass ASLR with partial EIP overwrite: <a href="http://ly0n.me/2015/07/30/bypass-aslr-with-partial-eip-overwrite/" rel="nofollow">http://ly0n.me/2015/07/30/bypass-aslr-with-partial-eip-overwrite/</a> @ ly0nx</p>
+<div class="translated" id="157462">
+<p>﻿" 通过部分改写 EIP，绕过 ASLR，来自 2015 年的一篇 Blog︰   <a href="https://t.co/pLRr0lf9p6%C2%A0" rel="nofollow">https://t.co/pLRr0lf9p6 </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  Sequential locks in the Linux kernel : <a href="https://github.com/0xAX/linux-insides/blob/master/SyncPrim/sync-6.md" rel="nofollow">https://github.com/0xAX/linux-insides/blob/master/SyncPrim/sync-6.md</a>   //Linux-insides* series cont'd   cc @ 0xAX</p>
+<div class="translated" id="157478">
+<p>﻿" Linux 内核的顺序锁，来自 Linux 内核 Insides 系列文章︰   <a href="https://t.co/jUxbjUNRMx%C2%A0" rel="nofollow">https://t.co/jUxbjUNRMx </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>PHR34K @unpacker</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  Sundown Chronicles - Observations of an Exploit Kit's Evolution <a href="https://www.zscaler.com/blogs/research/sundown-chronicles-observations-exploit-kits-evolution" rel="nofollow">https://www.zscaler.com/blogs/research/sundown-chronicles-observations-exploit-kits-evolution</a></p>
+<div class="translated" id="157610">
+<p>﻿" Sundown Exploit Kit 的发展情况：   <a href="https://t.co/sXnsru9Ba9" rel="nofollow">https://t.co/sXnsru9Ba9</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Retinal Biometrics based Authentication and
+Key Exchange System :  <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.206.3234&amp;rep=rep1&amp;type=pdf" rel="nofollow">http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.206.3234&amp;rep=rep1&amp;type=pdf</a> (pdf)</p>
+<div class="translated" id="157353">
+<p>﻿" 基于视网膜的生物特征认证与密钥交换系统，Paper︰   <a href="https://t.co/dCY1d6e5MH" rel="nofollow">https://t.co/dCY1d6e5MH</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Iris Biometric Recognition for Person Identification in
+Security Systems : <a href="http://www.ijcaonline.org/volume24/number9/pxc3874002.pdf" rel="nofollow">http://www.ijcaonline.org/volume24/number9/pxc3874002.pdf</a> (pdf)</p>
+<div class="translated" id="157354">
+<p>﻿"虹膜生物特征被用于安全系统的身份识别，Paper︰   <a href="https://t.co/E0m0kCBpp9" rel="nofollow">https://t.co/E0m0kCBpp9</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Jóseph Mlodzìanowskì @cedoxX</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Can Hackers Track Movement Of Wearable Devices To Figure Out PINs &amp; Passwords? <a href="https://consumerist.com/2016/07/08/can-hackers-track-movement-of-wearable-devices-to-figure-out-pins-passwords/" rel="nofollow">https://consumerist.com/2016/07/08/can-hackers-track-movement-of-wearable-devices-to-figure-out-pins-passwords/</a></p>
+<div class="translated" id="157393">
+<p>﻿" 通过监控可穿戴设备的移动数据，黑客可以还原出 PIN 码和密码吗？   <a href="https://t.co/Dpl77JST1b" rel="nofollow">https://t.co/Dpl77JST1b</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Arrigo Triulzi @cynicalsecurity</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  An emulator I didn't know about! Covers my beloved m88k… gxemul (<a href="http://gxemul.sourceforge.net/" rel="nofollow">http://gxemul.sourceforge.net/</a>) <a href="https://twitter.com/ao_kenji/status/752201144181587969" rel="nofollow">https://twitter.com/ao_kenji/status/752201144181587969</a></p>
+<div class="translated" id="157540">
+<p>﻿" GXemul - 全系统模拟器框架，支持 Debian/DECstation 等操作系统直接运行：   <a href="http://gxemul.sourceforge.net/" rel="nofollow">http://gxemul.sourceforge.net/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Daniel Bilar @daniel_bilar </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Virtualization </i>]  Comparison of container schedulers: Docker Swarm, Google Kubernetes, Apache Meso w Marathon <a href="https://medium.com/@" rel="nofollow">https://medium.com/@</a> ArmandGrillet/comparison-of-container-schedulers-c427f4f7421#.rf58a9w2a <a href="https://t.co/BYDy8rY1Mv" rel="nofollow">https://t.co/BYDy8rY1Mv</a></p>
+<div class="translated" id="157466">
+<p>﻿" 各容器调度器的比较：Docker Swarm, Google Kubernetes, Apache Meso：   <a href="https://t.co/TnuVwpPsOu" rel="nofollow">https://t.co/TnuVwpPsOu</a> <a href="https://t.co/BYDy8rY1Mv" rel="nofollow">https://t.co/BYDy8rY1Mv</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/Cm_-RyCWEAA8aTk.jpg" target="_blank">
+<img src="Cm_-RyCWEAA8aTk.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/07/10/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/07/11/index.html">2016/07/11</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/07/12/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

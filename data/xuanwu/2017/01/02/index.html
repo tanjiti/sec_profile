@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/01/02" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/01/02</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/01/01/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/01/02/index.html">2017/01/02</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/01/03/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  A new iPhone bug will crash the Messages app with a single text <a href="http://securityaffairs.co/wordpress/54923/mobile-2/messages-app-bug.html" rel="nofollow">http://securityaffairs.co/wordpress/54923/mobile-2/messages-app-bug.html</a></p>
+<div class="translated" id="224055">
+<p>﻿"仅用一个文本消息便可使你的 iphone Messages 应用崩溃：   <a href="https://t.co/5dLEMv1HkV" rel="nofollow">https://t.co/5dLEMv1HkV</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Jay Freeman (saurik) @saurik </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  In case anyone is using libplist to parse plist files for security scanning, here are some fun parser differentials.
+<a href="https://t.co/rnszPXAvs8" rel="nofollow">https://t.co/rnszPXAvs8</a></p>
+<div class="translated" id="224003">
+<p>﻿"libplist 的 XML 解析器的存在多个 BUG：   <a href="https://t.co/rnszPXAvs8" rel="nofollow">https://t.co/rnszPXAvs8</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Top 50 Vendors By Total Number Of "Distinct" Vulnerabilities in 2016 : <a href="http://www.cvedetails.com/top-50-vendors.php?year=2016" rel="nofollow">http://www.cvedetails.com/top-50-vendors.php?year=2016</a> <a href="https://t.co/tRgoYuk8aM" rel="nofollow">https://t.co/tRgoYuk8aM</a></p>
+<div class="translated" id="224059">
+<p>﻿"CVE Details 发布 2016 年 Top 50 厂商漏洞数排名:   <a href="https://t.co/o3JrO6P5Ki" rel="nofollow">https://t.co/o3JrO6P5Ki</a> <a href="https://t.co/tRgoYuk8aM" rel="nofollow">https://t.co/tRgoYuk8aM</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C1EfDoQVQAAAJYj.jpg" target="_blank">
+<img src="C1EfDoQVQAAAJYj.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  azet ۞ @a_z_e_t </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Constant-Time Callees with Variable-Time Callers: <a href="https://eprint.iacr.org/2016/1195" rel="nofollow">https://eprint.iacr.org/2016/1195</a>
+
+featuring OpenSSL 1.0.1u ECDSA P-256 key recovery vulnerability.</p>
+<div class="translated" id="224186">
+<p>﻿"Constant-Time Callees with Variable-Time Callers︰   <a href="https://eprint.iacr.org/2016/1195.pdf" rel="nofollow">https://eprint.iacr.org/2016/1195.pdf</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Be Careful with Python's New-Style String Format : <a href="http://lucumr.pocoo.org/2016/12/29/careful-with-str-format/" rel="nofollow">http://lucumr.pocoo.org/2016/12/29/careful-with-str-format/</a> cc @ mitsuhiko</p>
+<div class="translated" id="223964">
+<p>﻿"小心使用 Python 的 str.format() 方法，错误使用将导致内部属性信息泄漏︰   <a href="https://t.co/8n1toA1Sqx" rel="nofollow">https://t.co/8n1toA1Sqx</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Samuel Groß @5aelo</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Programming </i>]  #happy2017 everyone :) Here's a short (and hopefully fun) read on how to pwn Lua with malicious bytecode: <a href="https://saelo.github.io/misc/pwning-lua-through-load.html" rel="nofollow">https://saelo.github.io/misc/pwning-lua-through-load.html</a> #33c3ctf</p>
+<div class="translated" id="224207">
+<p>﻿"Pwning Lua through 'load'︰   <a href="https://t.co/oLG40rPIUp" rel="nofollow">https://t.co/oLG40rPIUp</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> WirelessSecurity </i>]  Dissecting modern (3G/4G) cellular modems : <a href="http://git.gnumonks.org/laforge-slides/plain/2016/cellular_modems_33c3/33c3-modems.html#(1)" rel="nofollow">http://git.gnumonks.org/laforge-slides/plain/2016/cellular_modems_33c3/33c3-modems.html#(1)</a> (Slides) ,Video : <a href="https://media.ccc.de/v/33c3-8151-dissecting_modern_3g_4g_cellular_modems" rel="nofollow">https://media.ccc.de/v/33c3-8151-dissecting_modern_3g_4g_cellular_modems</a> <a href="https://t.co/0zv8Qa32Qr" rel="nofollow">https://t.co/0zv8Qa32Qr</a></p>
+<div class="translated" id="223967">
+<p>﻿"解剖现代 (3g/4g) 蜂窝调制解调器，来自 33c3 2016 大会议题︰   <a href="https://t.co/3zdn4cTBTB%C2%A0" rel="nofollow">https://t.co/3zdn4cTBTB </a> Video︰   <a href="https://t.co/GNvgP6NF4g" rel="nofollow">https://t.co/GNvgP6NF4g</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C1DHcmcUoAAyCCA.jpg" target="_blank">
+<img src="C1DHcmcUoAAyCCA.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/01/01/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/01/02/index.html">2017/01/02</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/01/03/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

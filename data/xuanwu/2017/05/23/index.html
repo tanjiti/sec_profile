@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/05/23" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/05/23</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+    color: #a7a7a7;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+
+
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 15px;
+    /*color: #a7a7a7;*/
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedheader{
+
+}
+
+.singlefeedlogo{
+    float: left;
+    /*width: 24px;*/
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.singlefeedlogo img{
+    float: left;
+    width: 13px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+
+    /*width: 80%;
+    height: 80%;*/
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.singlefeedtext p{
+    font-size: 15px;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        //console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        //console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            //console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/22/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/23/index.html">2017/05/23</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/24/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  An open source android emulator in the browser : <a href="https://medium.com/alter-way-innovation/announcing-aic-2-0-an-open-source-android-cloud-emulator-8571b06c424d" rel="nofollow">https://medium.com/alter-way-innovation/announcing-aic-2-0-an-open-source-android-cloud-emulator-8571b06c424d</a> <a href="https://t.co/XGizl0X6Pf" rel="nofollow">https://t.co/XGizl0X6Pf</a></p>
+<div class="translated" id="282513">
+<p>" AiC 2.0 - 一个开源的 Android 云模拟器，可以在浏览器里操作 Android 实例：   <a href="https://t.co/9e5nMNk7Ct" rel="nofollow">https://t.co/9e5nMNk7Ct</a>  "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/tweet_video_thumb/DAbsZWMWAAE4qlf.jpg" target="_blank">
+<img src="http://pbs.twimg.com/tweet_video_thumb/DAbsZWMWAAE4qlf.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Jeroen van der Ham @1sand0s </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Conference </i>]  Awesome, IEEE Security &amp; Privacy @ IEEESSP #SP17 papers are publicly available during the event. <a href="http://www.ieee-security.org/TC/SP2017/program.html" rel="nofollow">http://www.ieee-security.org/TC/SP2017/program.html</a> …</p>
+<div class="translated" id="282708">
+<p>" 第 38 届 IEEE 隐私与安全研讨会的日程表，其中部分议题资料已经公开：   <a href="https://t.co/FYVeA3q8OT" rel="nofollow">https://t.co/FYVeA3q8OT</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Security Response @threatintel </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Hardware </i>]  SSD vulnerabilities could allow attackers to corrupt data, shorten device lifespan <a href="https://www.bleepingcomputer.com/news/hardware/ssd-drives-vulnerable-to-attacks-that-corrupt-user-data/" rel="nofollow">https://www.bleepingcomputer.com/news/hardware/ssd-drives-vulnerable-to-attacks-that-corrupt-user-data/</a></p>
+<div class="translated" id="282767">
+<p>"  攻击 SSD 硬盘的两种方式简介：   <a href="https://t.co/ckYsQBaBJW" rel="nofollow">https://t.co/ckYsQBaBJW</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Hardware </i>]  An Analysis of Emission Defeat Devices in Modern Automobiles (viz Volkswagen) : <a href="https://www.ieee-security.org/TC/SP2017/papers/101.pdf" rel="nofollow">https://www.ieee-security.org/TC/SP2017/papers/101.pdf</a> (pdf) cc @ thorstenholz</p>
+<div class="translated" id="282535">
+<p>" 针对汽车厂商（大众、菲亚特）在尾气排放检测中使用的“作弊”设备 Defeat Device 的分析 ：   <a href="https://t.co/Eyl6tCDn55" rel="nofollow">https://t.co/Eyl6tCDn55</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  Ransomware Chronicle's : <a href="http://privacy-pc.com/articles/ransomware-chronicle.html" rel="nofollow">http://privacy-pc.com/articles/ransomware-chronicle.html</a></p>
+<div class="translated" id="282452">
+<p>"  勒索软件编年史（16-17年）：   <a href="https://t.co/DDseErHhBz" rel="nofollow">https://t.co/DDseErHhBz</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Chris Frohoff @frohoff </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> OpenSourceProject </i>]  An epic survey of #javadeser RCE vulns/exploits across 13 different Java serialization technologies by Moritz Bechl… <a href="https://t.co/4hk94oSCnG" rel="nofollow">https://t.co/4hk94oSCnG</a></p>
+<div class="translated" id="282527">
+<p>"  Java Unmarshaller Security - Java 多个开源 marshalling 库中存在的对象序列化漏洞研究：   <a href="http://seclists.org/oss-sec/2017/q2/307?utm_source=dlvr.it&amp;utm_medium=twitter%C2%A0" rel="nofollow">http://seclists.org/oss-sec/2017/q2/307?utm_source=dlvr.it&amp;utm_medium=twitter </a> Github：   <a href="https://github.com/mbechler/marshalsec/" rel="nofollow">https://github.com/mbechler/marshalsec/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Building a botnet on PyPi <a href="https://hackernoon.com/building-a-botnet-on-pypi-be1ad280b8d6" rel="nofollow">https://hackernoon.com/building-a-botnet-on-pypi-be1ad280b8d6</a></p>
+<div class="translated" id="282659">
+<p>" PyPi 允许用户自己注册模块，并且可以以 Python 内置的软件包，比如 sys。这篇 Blog 中作者认为可以利用这个特性实现 Botnet：   <a href="https://t.co/n9StRjnxft" rel="nofollow">https://t.co/n9StRjnxft</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Joomla 3.7.0 SQL Injection proof of concept exploit <a href="https://github.com/XiphosResearch/exploits/tree/master/Joomblah" rel="nofollow">https://github.com/XiphosResearch/exploits/tree/master/Joomblah</a></p>
+<div class="translated" id="282467">
+<p>" Exploit for Joomla 3.7.0 (CVE-2017-8917)：   <a href="https://t.co/fHzoFbM4aD" rel="nofollow">https://t.co/fHzoFbM4aD</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Linux: eBPF verifier log leaks lower half of map pointer <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1251" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1251</a></p>
+<div class="translated" id="282473">
+<p>" Linux 内核 eBPF verifier 的日志会泄露内核指针的一半字节：   <a href="https://t.co/Co55VF1lmD" rel="nofollow">https://t.co/Co55VF1lmD</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  WalkingCat @h0x0d </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Video: Defrag Tools #177 - Windows Internals 7th Edition Part 1 @ aionescu <a href="https://channel9.msdn.com/Shows/Defrag-Tools/Defrag-Tools-177-Windows-Internals-7th-Edition-Part-1" rel="nofollow">https://channel9.msdn.com/Shows/Defrag-Tools/Defrag-Tools-177-Windows-Internals-7th-Edition-Part-1</a></p>
+<div class="translated" id="282599">
+<p>"  Defrag Tools 第 177  期对 Windows Internals 7th Edition Part 1 新书的介绍：   <a href="https://t.co/KY6CeU8csQ" rel="nofollow">https://t.co/KY6CeU8csQ</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Scott Sutherland @_nullbind </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  SQL Server Link Attack Lab Setup Guide: <a href="https://blog.netspi.com/wp-content/uploads/2017/05/Technical-Article-Hacking-SQL-Server-Database-Links-Setup-and-Attack-Guide.pdf" rel="nofollow">https://blog.netspi.com/wp-content/uploads/2017/05/Technical-Article-Hacking-SQL-Server-Database-Links-Setup-and-Attack-Guide.pdf</a> - it's old, but still useful for learning concepts :) enjoy</p>
+<div class="translated" id="282726">
+<p>" SQL Server 数据库攻击手册：   <a href="https://t.co/wM7y3cw582" rel="nofollow">https://t.co/wM7y3cw582</a>  "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Jake VanderPlas @jakevdp </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Programming </i>]  Python's Visualization Landscape — slides from my #PyCon2017 talk: <a href="https://speakerdeck.com/jakevdp/pythons-visualization-landscape-pycon-2017" rel="nofollow">https://speakerdeck.com/jakevdp/pythons-visualization-landscape-pycon-2017</a></p>
+<div class="translated" id="282759">
+<p>"  Python 的可视化设计：   <a href="https://t.co/iBvw9HKmtH" rel="nofollow">https://t.co/iBvw9HKmtH</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Hyde @mydeliriumz </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  <a href="https://github.com/hlldz/Invoke-Phant0m" rel="nofollow">https://github.com/hlldz/Invoke-Phant0m</a>. - windows events logs killer (not tested)</p>
+<div class="translated" id="282768">
+<p>" Invoke-Phant0m - 通过 Kill Event Log 服务处理日志的线程禁用日志服务，隐藏恶意行为：   <a href="https://t.co/xbkloii9js" rel="nofollow">https://t.co/xbkloii9js</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  BoopSuite : Wireless Sniffer Tool (in Python for wireless auditing/security testing) as alternative to airodump-ng : <a href="https://github.com/M1ND-B3ND3R/BoopSuite" rel="nofollow">https://github.com/M1ND-B3ND3R/BoopSuite</a></p>
+<div class="translated" id="282517">
+<p>"  BoopSuite: 基于 Python 编写的无线安全审计套件：   <a href="https://t.co/k7TDK8qJDX" rel="nofollow">https://t.co/k7TDK8qJDX</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Sascha Schirra @s4sh_s </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  A little introduction into semantic search feature in ropper. <a href="https://scoding.de/semantic-search-in-ropper" rel="nofollow">https://scoding.de/semantic-search-in-ropper</a> <a href="https://github.com/sashs/Ropper/tree/dev" rel="nofollow">https://github.com/sashs/Ropper/tree/dev</a> <a href="https://t.co/wyElZLBKKE" rel="nofollow">https://t.co/wyElZLBKKE</a></p>
+<div class="translated" id="282523">
+<p>" Ropper - 支持不同架构(x86/x86_64, ARM/ARM64, MIPS, PowerPC)的 Rop Gadget 搜索工具：   <a href="https://t.co/tCR589I99f" rel="nofollow">https://t.co/tCR589I99f</a>    Github：   <a href="https://t.co/dInvXgZfdk" rel="nofollow">https://t.co/dInvXgZfdk</a>  "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  psychoPATH - a blind webroot file upload &amp; LFI detection tool : <a href="https://github.com/PentestLtd/psychoPATH" rel="nofollow">https://github.com/PentestLtd/psychoPATH</a> <a href="https://t.co/FCelvnI3q2" rel="nofollow">https://t.co/FCelvnI3q2</a></p>
+<div class="translated" id="282531">
+<p>" psychoPATH - 本地文件包含/文件上传漏洞检测工具：   <a href="https://t.co/iRrixrW5AD%C2%A0" rel="nofollow">https://t.co/iRrixrW5AD </a>; "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DAb5XkDXgAEiMcG.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/DAb5XkDXgAEiMcG.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Joshua J. Drake @jduck</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  A Simple Tool for Linux Kernel Audits <a href="http://www.droidsec.org/blogs/2017/05/22/a-simple-tool-for-linux-kernel-audits.html" rel="nofollow">http://www.droidsec.org/blogs/2017/05/22/a-simple-tool-for-linux-kernel-audits.html</a></p>
+<div class="translated" id="282572">
+<p>"  Linux Kernel reducer（lk-reducer） - 这个工具监控 Linux 内核构建过程中被访问的文件，该工具可以辅助源码审计：   <a href="https://t.co/joeaWhiHel" rel="nofollow">https://t.co/joeaWhiHel</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Full Disclosure @SecLists</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  HP SimplePass Local Privilege Escalation <a href="https://goo.gl/fb/TjhNzl" rel="nofollow">https://goo.gl/fb/TjhNzl</a> #FullDisclosure</p>
+<div class="translated" id="282685">
+<p>" HP SimplePass 本地权限提升漏洞：   <a href="http://seclists.org/fulldisclosure/2017/May/82?utm_source=feedburner&amp;utm_medium=twitter&amp;utm_campaign=Feed%3A+seclists%2FFullDisclosure+%28Full+Disclosure%29" rel="nofollow">http://seclists.org/fulldisclosure/2017/May/82?utm_source=feedburner&amp;utm_medium=twitter&amp;utm_campaign=Feed%3A+seclists%2FFullDisclosure+%28Full+Disclosure%29</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  Broadcom: Heap overflow in "dhd_handle_swc_evt" <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1061" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1061</a></p>
+<div class="translated" id="282472">
+<p>" 博通(Broadcom) bcmdhd 驱动 dhd_handle_swc_evt Event Handler 堆溢出漏洞（CVE-2017-0569）：   <a href="https://t.co/fjUd5FfRgl" rel="nofollow">https://t.co/fjUd5FfRgl</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Project Zero Bugs @ProjectZeroBugs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  LG: Use of uninitialised pointer in OGMParser::VerifyVorbisHeader <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1158" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1158</a></p>
+<div class="translated" id="282521">
+<p>" LG OGM 文件格式解析 OGMParser::VerifyVorbisHeader 指针未初始化漏洞：    <a href="https://t.co/2tfNPfXiJl" rel="nofollow">https://t.co/2tfNPfXiJl</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  publiclyDisclosed @disclosedh1 </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  Twitter disclosed a bug submitted by kedrisch: <a href="https://hackerone.com/reports/208978" rel="nofollow">https://hackerone.com/reports/208978</a> - Bounty: $7,560 #hackerone #bugbounty <a href="https://t.co/moVsyzIrGz" rel="nofollow">https://t.co/moVsyzIrGz</a></p>
+<div class="translated" id="282793">
+<p>" 可用其他用户身份发送推文的漏洞，twitter 为此奖励了 $7,560 给发现者  ：   <a href="http://kedrisec.com/twitter-publish-by-any-user/" rel="nofollow">http://kedrisec.com/twitter-publish-by-any-user/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>mr_me @steventseeley</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Web Security </i>]  From Serialized to Shell :: Exploiting Google Web Toolkit with EL Injection <a href="http://srcincite.io/blog/2017/05/22/from-serialized-to-shell-auditing-google-web-toolkit-with-el-injection.html" rel="nofollow">http://srcincite.io/blog/2017/05/22/from-serialized-to-shell-auditing-google-web-toolkit-with-el-injection.html</a> #MotivationMondays</p>
+<div class="translated" id="282683">
+<p>" 从序列化漏洞到弹计算器 - 利用 EL 表达式注入漏洞攻击 Google Web Toolkit。 Google Web Toolkit 是一个前端使用JavaScript，后端使用 Java 的 Web AJAX 框架：   <a href="http://srcincite.io/blog/2017/05/22/from-serialized-to-shell-auditing-google-web-toolkit-with-el-injection.html" rel="nofollow">http://srcincite.io/blog/2017/05/22/from-serialized-to-shell-auditing-google-web-toolkit-with-el-injection.html</a> #MotivationMondays "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>FireF0X @hFireF0X</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  fodhelper.exe to the list of UAC bypasses with boring "stealth" type registry manipulations <a href="https://winscripting.blog/2017/05/12/first-entry-welcome-and-uac-bypass/" rel="nofollow">https://winscripting.blog/2017/05/12/first-entry-welcome-and-uac-bypass/</a></p>
+<div class="translated" id="282411">
+<p>" 利用 fodhelper.exe 实现 Fileless UAC bypasses：   <a href="https://t.co/sdyuKW2i4V" rel="nofollow">https://t.co/sdyuKW2i4V</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>sessionpool @sessionpool</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  7 DLL injection techniques in Microsoft Windows <a href="http://lallouslab.net/2017/05/15/7-dll-injection-techniques-in-the-microsoft-windows/" rel="nofollow">http://lallouslab.net/2017/05/15/7-dll-injection-techniques-in-the-microsoft-windows/</a> via @ lallouslab</p>
+<div class="translated" id="282515">
+<p>"  Windows 中的 7 种 DLL 劫持技术：   <a href="http://lallouslab.net/2017/05/15/7-dll-injection-techniques-in-the-microsoft-windows" rel="nofollow">http://lallouslab.net/2017/05/15/7-dll-injection-techniques-in-the-microsoft-windows</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> WirelessSecurity </i>]  Reverse-Engineering-Bluetooth-Protocols (Reverse-Engineering a Bluetooth-Enabled Radar Detector) : <a href="https://github.com/brandonasuncion/Reverse-Engineering-Bluetooth-Protocols" rel="nofollow">https://github.com/brandonasuncion/Reverse-Engineering-Bluetooth-Protocols</a></p>
+<div class="translated" id="282540">
+<p>" Reverse-Engineering-Bluetooth-Protocols：   <a href="https://t.co/tLaEfsh4uq" rel="nofollow">https://t.co/tLaEfsh4uq</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/22/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/23/index.html">2017/05/23</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/24/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

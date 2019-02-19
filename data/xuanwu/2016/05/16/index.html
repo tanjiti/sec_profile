@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/05/16" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/05/16</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/05/15/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/05/16/index.html">2016/05/16</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/05/17/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  AG$ @scriptingxss </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Thanks to those who stuck around to see my @ hackmiami talk.. here is my slide <a href="http://deck-https://docs.google.com/presentation/d/179vkh2uLBUf83NzwLABzMdADeoNoZF26HnOWL6zMe5E/edit?usp=sharing%E2%80%A6" rel="nofollow">deck-https://docs.google.com/presentation/d/179vkh2uLBUf83NzwLABzMdADeoNoZF26HnOWL6zMe5E/edit?usp=sharing…</a> #mobilesecurity #hackmiami</p>
+<div class="translated" id="135888">
+<p>﻿" HackMiami 会议一篇关于 Mobile App Hacking 的议题：   <a href="https://t.co/ShsxjEICV7" rel="nofollow">https://t.co/ShsxjEICV7</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  How I found a huge data leak of a company during a college lecture : <a href="http://sijmen.ruwhof.net/weblog/937-how-i-found-a-huge-data-leak-of-a-company-during-a-college-lecture" rel="nofollow">http://sijmen.ruwhof.net/weblog/937-how-i-found-a-huge-data-leak-of-a-company-during-a-college-lecture</a></p>
+<div class="translated" id="135700">
+<p>﻿"我是如何在一次大学演讲中发现了一家公司数据泄漏的︰   <a href="https://t.co/B9U8oSdLIw" rel="nofollow">https://t.co/B9U8oSdLIw</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  Security Principles in iOS Architecture : <a href="https://woumn.wordpress.com/2016/05/02/security-principles-in-ios-architecture/" rel="nofollow">https://woumn.wordpress.com/2016/05/02/security-principles-in-ios-architecture/</a></p>
+<div class="translated" id="135702">
+<p>﻿"iOS 体系架构中的安全法则︰   <a href="https://t.co/hSECWlfXUk" rel="nofollow">https://t.co/hSECWlfXUk</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Andrew Case @attrc </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  Read this before believing the recent nonsense from the Linux kernel devs about new security features: <a href="https://forums.grsecurity.net/viewtopic.php?f=7&amp;t=4476" rel="nofollow">https://forums.grsecurity.net/viewtopic.php?f=7&amp;t=4476</a></p>
+<div class="translated" id="135729">
+<p>﻿" Linux 内核 4.6 版本在安全方面的改进， 来自 GRSecurity 论坛︰   <a href="https://t.co/jCEfEclWtF" rel="nofollow">https://t.co/jCEfEclWtF</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  rvrsh3ll @424f424f </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mac OS X </i>]  Slides from @ Killswitch_GUI and my presentation at @ hackmiami <a href="http://www.slideshare.net/StephanBorosh/external-to-da-the-os-x-way" rel="nofollow">http://www.slideshare.net/StephanBorosh/external-to-da-the-os-x-way</a></p>
+<div class="translated" id="135757">
+<p>﻿" 基于 EmPyre 框架对 OS X 系统的渗透：   <a href="https://t.co/oeKQ86Q0gK" rel="nofollow">https://t.co/oeKQ86Q0gK</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  Practical Malware Analysis Starter Kit : <a href="https://bluesoul.me/practical-malware-analysis-starter-kit/" rel="nofollow">https://bluesoul.me/practical-malware-analysis-starter-kit/</a></p>
+<div class="translated" id="135704">
+<p>﻿" 恶意软件分析初学者所用的工具收集 ︰   <a href="https://t.co/amUBMkvo7J" rel="nofollow">https://t.co/amUBMkvo7J</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Go OSS @oss_go </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Network </i>]  gopacket - Provides packet processing capabilities for Go <a href="https://github.com/google/gopacket" rel="nofollow">https://github.com/google/gopacket</a></p>
+<div class="translated" id="135793">
+<p>﻿"gopacket - Go 语言用于处理网络数据包的库：   <a href="https://t.co/KUavmh2nK0" rel="nofollow">https://t.co/KUavmh2nK0</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  A fundamental introduction to x86 assembly programming : <a href="https://www.nayuki.io/page/a-fundamental-introduction-to-x86-assembly-programming" rel="nofollow">https://www.nayuki.io/page/a-fundamental-introduction-to-x86-assembly-programming</a></p>
+<div class="translated" id="135703">
+<p>﻿"x86 汇编语言编程基本原理介绍︰   <a href="https://t.co/YEvH4AplY5" rel="nofollow">https://t.co/YEvH4AplY5</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  A bit of background on compilers exploiting signed overflow <a href="https://gist.github.com/rygorous/e0f055bfb74e3d5f0af20690759de5a7" rel="nofollow">https://gist.github.com/rygorous/e0f055bfb74e3d5f0af20690759de5a7</a></p>
+<div class="translated" id="135797">
+<p>﻿" 编译器在处理有符号数溢出时所做的努力：   <a href="https://t.co/bYUkvxGLRf" rel="nofollow">https://t.co/bYUkvxGLRf</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Ben Hayak @BenHayak</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  PHP Object Injection exploitable even w/ broken objects
+O:3:"foo":2:{s:8:"file";s:4:"evil";s:999:"Broken!";}//false
+yet __destruct executes!</p>
+<div class="translated" id="135803">
+<p>﻿"可被利用的 PHP 对象注入， 能在 7.0.6 版本运行的 PoC:   <a href="https://3v4l.org/Ni2Sd" rel="nofollow">https://3v4l.org/Ni2Sd</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Rootkit </i>]  Designing BSD Rootkits : <a href="https://drive.google.com/file/d/0B_F62m5rTn3kZjAzZWEwOGQtN2VlNS00MmFmLWIzY2MtMmY1Zjk0MjExZWM3/view" rel="nofollow">https://drive.google.com/file/d/0B_F62m5rTn3kZjAzZWEwOGQtN2VlNS00MmFmLWIzY2MtMmY1Zjk0MjExZWM3/view</a></p>
+<div class="translated" id="135707">
+<p>﻿"BSD 系统内核 Rootkits 设计:   <a href="https://t.co/3qEk2AM2Q4" rel="nofollow">https://t.co/3qEk2AM2Q4</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Rootkit </i>]  Defeating x64 : Modern Trends of Kernel-Mode Rootkits : <a href="http://go.eset.com/us/resources/white-papers/Ekoparty2011_preso.pdf" rel="nofollow">http://go.eset.com/us/resources/white-papers/Ekoparty2011_preso.pdf</a> (Slides/2011 Ekoparty) cc: @ matrosov</p>
+<div class="translated" id="135769">
+<p>﻿"对抗 x64 - 内核态 Rootkits 的当代趋势， 来自 ESET 2011 年的一篇演讲 ︰   <a href="https://t.co/cTQfk6tSFR%C2%A0" rel="nofollow">https://t.co/cTQfk6tSFR </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Rootkit </i>]  Detecting Rootkits in Memory Dumps : <a href="https://www.terena.org/activities/tf-csirt/meeting27/oesterberg-rootkits.pdf" rel="nofollow">https://www.terena.org/activities/tf-csirt/meeting27/oesterberg-rootkits.pdf</a> (Slides)</p>
+<div class="translated" id="135770">
+<p>﻿"从内存 Dump 中检测 Rootkit， 来自 2009 年的一篇演讲:   <a href="https://t.co/lErFqZ0MPd%C2%A0" rel="nofollow">https://t.co/lErFqZ0MPd </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/05/15/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/05/16/index.html">2016/05/16</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/05/17/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

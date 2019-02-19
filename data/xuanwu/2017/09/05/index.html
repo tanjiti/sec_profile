@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/09/05" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/09/05</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    border-top: 1px solid #f0f0f0;
+    color: black;
+    margin-bottom: 30px;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+
+
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+
+.singleweibotext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+
+.singleweiboimage{
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin-left: 25px;
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedheader{
+
+}
+
+.singlefeedlogo{
+    float: left;
+    /*width: 24px;*/
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.singlefeedlogo img{
+    float: left;
+    width: 13px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+
+    /*width: 80%;
+    height: 80%;*/
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+.singlefeedtext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/09/04/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/09/05/index.html">2017/09/05</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/09/06/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Android ]</span>  
+Android 官方对 Keystore 的介绍，Keystore 是个基于硬件的可信执行环境服务，可以被操作系统、服务、第三方 APP 使用：  <a href="https://source.android.com/security/keystore/" rel="nofollow">https://source.android.com/security/keystore/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Conference ]</span>  BSidesAMS 2017 大会演讲视频集：   <a href="https://www.youtube.com/playlist?list=PLwZycuzv10iLBFwRIWNAR-s4iuuUMRuEB" rel="nofollow">https://www.youtube.com/playlist?list=PLwZycuzv10iLBFwRIWNAR-s4iuuUMRuEB</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ macOS ]</span>  
+如何在运行时修复 macOS 10.9 版本 Swift 4 运行时缺失的 “object_isClass”  方法：  <a href="https://www.hopperapp.com/blog/?p=219" rel="nofollow">https://www.hopperapp.com/blog/?p=219</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Mobile ]</span>  深度解析Bootloader攻击面，来自 KCon2017：   <a href="https://github.com/knownsec/KCon/blob/master/2017/[KCon%202017]0827_7_%E5%90%B4%E4%BF%8A%E8%B1%AA_%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90Bootloader%E6%94%BB%E5%87%BB%E9%9D%A2.pdf" rel="nofollow">https://github.com/knownsec/KCon/blob/master/2017/%5BKCon%202017%5D0827_7_%E5%90%B4%E4%BF%8A%E8%B1%AA_%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90Bootloader%E6%94%BB%E5%87%BB%E9%9D%A2.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Mobile ]</span>  针对 VOLTE 和 VOWiFi 的攻击实战报告，来自 ERNW：   <a href="https://www.ernw.de/download/newsletter/ERNW_Whitepaper_60_Practical_Attacks_On_VoLTE_And_VoWiFi_v1.0.pdf" rel="nofollow">https://www.ernw.de/download/newsletter/ERNW_Whitepaper_60_Practical_Attacks_On_VoLTE_And_VoWiFi_v1.0.pdf</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DI4ok0VXYAQoexz.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/DI4ok0VXYAQoexz.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  第五代加固技术ARM VMP原理实现与应用，来自 KCon2017：   <a href="https://github.com/knownsec/KCon/blob/master/2017/[KCon%202017]0827_3_%E9%99%88%E6%84%89%E9%91%AB_%E7%AC%AC%E4%BA%94%E4%BB%A3%E5%8A%A0%E5%9B%BA%E6%8A%80%E6%9C%AFARM%20VMP%E5%8E%9F%E7%90%86%E5%AE%9E%E7%8E%B0%E4%B8%8E%E5%BA%94%E7%94%A8.pdf" rel="nofollow">https://github.com/knownsec/KCon/blob/master/2017/%5BKCon%202017%5D0827_3_%E9%99%88%E6%84%89%E9%91%AB_%E7%AC%AC%E4%BA%94%E4%BB%A3%E5%8A%A0%E5%9B%BA%E6%8A%80%E6%9C%AFARM%20VMP%E5%8E%9F%E7%90%86%E5%AE%9E%E7%8E%B0%E4%B8%8E%E5%BA%94%E7%94%A8.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  
+利用 PasteHunter 从 Pastebin 中挖掘信息：  <a href="https://techanarchy.net/2017/09/hunting-pastebin-with-pastehunter/" rel="nofollow">https://techanarchy.net/2017/09/hunting-pastebin-with-pastehunter/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  
+ 基于 GDB 和 PEDA 的交互式 Linux Exploit 开发环境：   <a href="http://ropshell.com/peda/Linux_Interactive_Exploit_Development_with_GDB_and_PEDA_Slides.pdf" rel="nofollow">http://ropshell.com/peda/Linux_Interactive_Exploit_Development_with_GDB_and_PEDA_Slides.pdf</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  
+macOS 全盘镜像（Image）文件静态解析工具：   <a href="https://github.com/ydkhatri/mac_apt" rel="nofollow">https://github.com/ydkhatri/mac_apt</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  
+基于 SetThreadContext 的 DLL 注入：   <a href="https://blogs.microsoft.co.il/pavely/2017/09/05/dll-injection-with-setthreadcontext/" rel="nofollow">https://blogs.microsoft.co.il/pavely/2017/09/05/dll-injection-with-setthreadcontext/</a>
+</p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DI5ycqIXkAAcNaM.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/DI5ycqIXkAAcNaM.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Android ]</span>  Android 8.0 Oreo（奥利奥）的整体变化概览： 
+<a href="https://arstechnica.com/gadgets/2017/09/android-8-0-oreo-thoroughly-reviewed/" rel="nofollow">https://arstechnica.com/gadgets/2017/09/android-8-0-oreo-thoroughly-reviewed/</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Attack ]</span>  揭秘盗取“羊毛党”比特币的钓鱼攻击事件： <a href="http://www.freebuf.com/articles/network/145985.html" rel="nofollow">http://www.freebuf.com/articles/network/145985.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Browser ]</span>  URL Spoofing with Modern Browser： <a href="https://www.math1as.com/index.php/archives/505/" rel="nofollow">https://www.math1as.com/index.php/archives/505/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Conference ]</span>  KCon 议题 PPT 大放送！: <a href="https://paper.seebug.org/382/" rel="nofollow">https://paper.seebug.org/382/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ IoTDevice ]</span>  Blue picking – Hacking 蓝牙智能锁，来自 HITB 会议： 
+<a href="https://conference.hitb.org/hitbsecconf2017ams/materials/D2T3%20-%20Slawomir%20Jasek%20-%20Blue%20Picking%20-%20Hacking%20Bluetooth%20Smart%20Locks.pdf" rel="nofollow">https://conference.hitb.org/hitbsecconf2017ams/materials/D2T3%20-%20Slawomir%20Jasek%20-%20Blue%20Picking%20-%20Hacking%20Bluetooth%20Smart%20Locks.pdf</a> </p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ IoTDevice ]</span>  玩转无人机攻防,来自 Kcon 2017: <a href="https://github.com/knownsec/KCon/blob/master/2017/[KCon%202017]0826_9_KEVIN2600_%E7%8E%A9%E8%BD%AC%E6%97%A0%E4%BA%BA%E6%9C%BA%E6%94%BB%E9%98%B2.pdf" rel="nofollow">https://github.com/knownsec/KCon/blob/master/2017/%5BKCon%202017%5D0826_9_KEVIN2600_%E7%8E%A9%E8%BD%AC%E6%97%A0%E4%BA%BA%E6%9C%BA%E6%94%BB%E9%98%B2.pdf</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Linux ]</span>   KTLS: Linux Kernel Transport Layer Security，内核中的安全套接字层，该特性已经在 Linux 内核 4.13 版本中启用： 
+<a href="https://netdevconf.org/1.2/papers/ktls.pdf" rel="nofollow">https://netdevconf.org/1.2/papers/ktls.pdf</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ macOS ]</span>  OS X/iOS Entitlement Database： 
+<a href="http://newosxbook.com/ent.jl?ent=&amp;osVer=MacOS13" rel="nofollow">http://newosxbook.com/ent.jl?ent=&amp;osVer=MacOS13</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Mobile ]</span>  分析一个电信劫持跳转下载情色APP的案例： <a href="https://www.92ez.com/?action=show&amp;id=23453" rel="nofollow">https://www.92ez.com/?action=show&amp;id=23453</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Mobile ]</span>  从口袋里的伪基站到手持的真基站，来自 Kcon 2017： <a href="https://github.com/knownsec/KCon/blob/master/2017/[KCon%202017]0827_8_Seeker_%E4%BB%8E%E5%8F%A3%E8%A2%8B%E9%87%8C%E7%9A%84%E4%BC%AA%E5%9F%BA%E7%AB%99%E5%88%B0%E6%89%8B%E6%8C%81%E7%9A%84%E7%9C%9F%E5%9F%BA%E7%AB%99.pdf" rel="nofollow">https://github.com/knownsec/KCon/blob/master/2017/%5BKCon%202017%5D0827_8_Seeker_%E4%BB%8E%E5%8F%A3%E8%A2%8B%E9%87%8C%E7%9A%84%E4%BC%AA%E5%9F%BA%E7%AB%99%E5%88%B0%E6%89%8B%E6%8C%81%E7%9A%84%E7%9C%9F%E5%9F%BA%E7%AB%99.pdf</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Tools ]</span>  python-adb - 纯 Python 实现的 ADB 和 Fastboot 协议： 
+<a href="https://github.com/google/python-adb" rel="nofollow">https://github.com/google/python-adb</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Virtualization ]</span>  探索虚拟化技术在漏洞检测中的应用，来自 Kcon 2017： <a href="https://github.com/knownsec/KCon/blob/master/2017/[KCon%202017]0827_4_%E4%BB%99%E6%9E%9C_%E6%8E%A2%E7%B4%A2%E8%99%9A%E6%8B%9F%E5%8C%96%E6%8A%80%E6%9C%AF%E5%9C%A8%E6%BC%8F%E6%B4%9E%E6%A3%80%E6%B5%8B%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8.pdf" rel="nofollow">https://github.com/knownsec/KCon/blob/master/2017/%5BKCon%202017%5D0827_4_%E4%BB%99%E6%9E%9C_%E6%8E%A2%E7%B4%A2%E8%99%9A%E6%8B%9F%E5%8C%96%E6%8A%80%E6%9C%AF%E5%9C%A8%E6%BC%8F%E6%B4%9E%E6%A3%80%E6%B5%8B%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8.pdf</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Vulnerability ]</span>  联想最新修复了一个 BIOS SMI Handler 的输入验证 SMM 提权漏洞（CVE-2017-3753），影响多款桌面台式机和工作站： 
+<a href="https://support.lenovo.com/us/zh/product_security/len-14695" rel="nofollow">https://support.lenovo.com/us/zh/product_security/len-14695</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/09/04/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/09/05/index.html">2017/09/05</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/09/06/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

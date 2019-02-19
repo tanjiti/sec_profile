@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/09/25" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/09/25</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/09/24/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/09/25/index.html">2016/09/25</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/09/26/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Andreas Sfakianakis @asfakian </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Detect </i>]  Detecting lateral movement in APT's by Japan CERT. <a href="http://goo.gl/tJ6ccc" rel="nofollow">http://goo.gl/tJ6ccc</a>  #ThreatHunting <a href="https://t.co/otncpHdy3P" rel="nofollow">https://t.co/otncpHdy3P</a></p>
+<div class="translated" id="187280">
+<p>﻿" 通过分析 Windows 事件日志的方法检测 APT 攻击中的横向移动：   <a href="https://cyber-ir.com/2016/09/23/detecting-lateral-movement-in-apts-by-japan-cert/" rel="nofollow">https://cyber-ir.com/2016/09/23/detecting-lateral-movement-in-apts-by-japan-cert/</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CtHw5riXgAAqZFg.jpg" target="_blank">
+<img src="CtHw5riXgAAqZFg.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>qwertyoruiop @qwertyoruiopz</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  935csbypass- bypassing code signatures in iOS 9.3.5 <a href="https://github.com/kpwn/935csbypass" rel="nofollow">https://github.com/kpwn/935csbypass</a></p>
+<div class="translated" id="187367">
+<p>﻿" iOS 9.3.5 代码签名绕过工具：   <a href="https://t.co/N4doHnJrFr" rel="nofollow">https://t.co/N4doHnJrFr</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Felix Wilhelm @_fel1x</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  As promised in my last tweet: Using branch target buffer collisions to break hypervisor ASLR. PoC on github: <a href="https://github.com/felixwilhelm/mario_baslr/" rel="nofollow">https://github.com/felixwilhelm/mario_baslr/</a></p>
+<div class="translated" id="187293">
+<p>﻿" 利用分支目标缓冲区冲突的方法攻击 KVM Hypervisor ASLR:   <a href="https://t.co/fmtS3uYMlM%C2%A0%C2%A0" rel="nofollow">https://t.co/fmtS3uYMlM  </a> Paper：   <a href="http://www.cs.binghamton.edu/~dima/micro16.pdf" rel="nofollow">http://www.cs.binghamton.edu/%7Edima/micro16.pdf</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Matt Nelson @enigma0x3 </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Pentest </i>]  The slides for "A Year in the Empire" by myself and @ harmj0y are up: <a href="http://www.slideshare.net/harmj0y/a-year-in-the-empire" rel="nofollow">http://www.slideshare.net/harmj0y/a-year-in-the-empire</a> 2.0 code is here: <a href="https://t.co/bRxZYfF8j7" rel="nofollow">https://t.co/bRxZYfF8j7</a></p>
+<div class="translated" id="187145">
+<p>﻿" A Year in the Empire，Empire 是一个 PowerShell 攻击框架︰   <a href="https://t.co/Gj0VffPQAD%C2%A0%C2%A0" rel="nofollow">https://t.co/Gj0VffPQAD  </a> 2.0 版本︰   <a href="https://t.co/bRxZYfF8j7" rel="nofollow">https://t.co/bRxZYfF8j7</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Michael Rash @michaelrash </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Code coverage for crashing inputs triggered by AFL: <a href="https://github.com/bshastry/afl-sancov" rel="nofollow">https://github.com/bshastry/afl-sancov</a> - fork of my afl-cov project.</p>
+<div class="translated" id="187148">
+<p>﻿" 基于 Clang CoverageSanitizer 的 AFL 代码覆盖率分析工具︰   <a href="https://github.com/bshastry/afl-sancov" rel="nofollow">https://github.com/bshastry/afl-sancov</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>PythonArsenal @PythonArsenal</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  VMAttack - Plugin for static and dynamic virtualization-based packed analysis and deobfuscation. Based on IDAPython <a href="https://github.com/anatolikalysch/VMAttack" rel="nofollow">https://github.com/anatolikalysch/VMAttack</a></p>
+<div class="translated" id="187301">
+<p>﻿"VMAttack - 基于 IDAPython，用于辅助分析基于虚拟化的代码混淆：   <a href="https://t.co/29Zx3qtQn9" rel="nofollow">https://t.co/29Zx3qtQn9</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>PythonArsenal @PythonArsenal</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  BinAuthor - IDA pro plugin developped through research at concordia in the area of binary authorship identification. <a href="https://github.com/g4hsean/BinAuthor" rel="nofollow">https://github.com/g4hsean/BinAuthor</a></p>
+<div class="translated" id="187302">
+<p>﻿"BinAuthor - IDA Pro 的插件，用于识别二进制代码的作者：   <a href="https://t.co/m7o2kFiF6B" rel="nofollow">https://t.co/m7o2kFiF6B</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Steve Breen @breenmachine </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  @ vvalien1 and I released our new Windows Privilege escalation @ DerbyCon today - code is online at <a href="https://github.com/foxglovesec/RottenPotato" rel="nofollow">https://github.com/foxglovesec/RottenPotato</a> - blog post soon</p>
+<div class="translated" id="187382">
+<p>﻿"  RottenPotato - 从本地服务用户提权至 SYSTEM 的工具：    <a href="https://github.com/foxglovesec/RottenPotato" rel="nofollow">https://github.com/foxglovesec/RottenPotato</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/09/24/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/09/25/index.html">2016/09/25</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/09/26/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2018/01/20" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2018/01/20</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    border-top: 1px solid #f0f0f0;
+    color: black;
+    margin-bottom: 30px;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+
+
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+
+.singleweibotext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+
+.singleweiboimage{
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin-left: 25px;
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedheader{
+
+}
+
+.singlefeedlogo{
+    float: left;
+    /*width: 24px;*/
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.singlefeedlogo img{
+    float: left;
+    width: 13px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+
+    /*width: 80%;
+    height: 80%;*/
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+.singlefeedtext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+<script charset="UTF-8" src="http://tajs.qq.com/stats?sId=64975755" type="text/javascript"></script>
+</meta></head>
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2018/01/19/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2018/01/20/index.html">2018/01/20</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/01/21/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Debug ]</span>   Cisco IOS MIPS 设备系统的调试脚本：   <a href="https://github.com/artkond/ios_mips_gdb" rel="nofollow">https://github.com/artkond/ios_mips_gdb</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Fuzzing ]</span>   利用 libFuzzer Fuzz TCP Server：   <a href="http://blog.swiecki.net/2018/01/fuzzing-tcp-servers.html" rel="nofollow">http://blog.swiecki.net/2018/01/fuzzing-tcp-servers.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Hardware ]</span>   Fortinet 团队对"幽灵" Spectre CPU 漏洞的分析：  <a href="https://blog.fortinet.com/2018/01/17/into-the-implementation-of-spectre%E5%A6%82%E6%9E%9C%E6%83%B3%E5%BF%AB%E9%80%9F%E6%A3%80%E6%B5%8B%E8%87%AA%E5%B7%B1%E6%98%AF%E5%90%A6%E5%8F%97%E8%AF%A5%E6%BC%8F%E6%B4%9E%E5%BD%B1%E5%93%8D%EF%BC%8C%E5%8F%AF%E4%BB%A5%E8%AF%95%E8%AF%95%E8%85%BE%E8%AE%AF%E5%AE%89%E5%85%A8%E7%8E%84%E6%AD%A6%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%8F%91%E5%B8%83%E7%9A%84%E5%9C%A8%E7%BA%BF%E6%A3%80%E6%B5%8B%E5%B7%A5%E5%85%B7%EF%BC%9A" rel="nofollow">https://blog.fortinet.com/2018/01/17/into-the-implementation-of-spectre如果想快速检测自己是否受该漏洞影响，可以试试腾讯安全玄武实验室发布的在线检测工具：</a> <a href="http://xlab.tencent.com/special/spectre/spectre_check.html" rel="nofollow">http://xlab.tencent.com/special/spectre/spectre_check.html</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DT4qz9cW0AAESwp.png" target="_blank">
+<img src="http://pbs.twimg.com/media/DT4qz9cW0AAESwp.png">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ macOS ]</span>  MWR Labs 发布了三个关于 Apple macOS/ios 权限提升漏洞的公告（CVE-2017-13848、CVE-2017-7114、CVE-2017-13858）： 1）：   <a href="https://labs.mwrinfosecurity.com/advisories/com-apple-avebridgequerycompletion/" rel="nofollow">https://labs.mwrinfosecurity.com/advisories/com-apple-avebridgequerycompletion/</a> 2）：   <a href="https://labs.mwrinfosecurity.com/advisories/containerextendedinfo-invalid-write/%C2%A0" rel="nofollow">https://labs.mwrinfosecurity.com/advisories/containerextendedinfo-invalid-write/ </a> 3）：   <a href="https://labs.mwrinfosecurity.com/advisories/com-apple-avebridgesubmitdata-kernel-null-pointer-derefence/" rel="nofollow">https://labs.mwrinfosecurity.com/advisories/com-apple-avebridgesubmitdata-kernel-null-pointer-derefence/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ macOS ]</span>   利用 macOS 的事件监控 Demon 服务 emond 实现稳定控制（Persistence）：  <a href="https://posts.specterops.io/leveraging-emond-on-macos-for-persistence-a040a2785124" rel="nofollow">https://posts.specterops.io/leveraging-emond-on-macos-for-persistence-a040a2785124</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Malware ]</span>  SamSam 勒索软件席卷多家医院、工控公司：  <a href="https://www.bleepingcomputer.com/news/security/samsam-ransomware-hits-hospitals-city-councils-ics-firms/" rel="nofollow">https://www.bleepingcomputer.com/news/security/samsam-ransomware-hits-hospitals-city-councils-ics-firms/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Malware ]</span>  趋势科技发现用于挖掘加密货币的 Struts 和 DotNetNuke 服务端漏洞利用：   <a href="https://blog.trendmicro.com/trendlabs-security-intelligence/struts-dotnetnuke-server-exploits-used-cryptocurrency-mining/" rel="nofollow">https://blog.trendmicro.com/trendlabs-security-intelligence/struts-dotnetnuke-server-exploits-used-cryptocurrency-mining/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  
+反病毒厂商对恶意软件（家族）的命名规范问题：  <a href="http://struppigel.blogspot.com/2018/01/interpreting-antivirus-detection-names.html" rel="nofollow">http://struppigel.blogspot.com/2018/01/interpreting-antivirus-detection-names.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  Expiring Payloads in the Metasploit Framework：   <a href="https://www.gironsec.com/blog/2018/01/expiring-payloads-in-the-metasploit-framework/" rel="nofollow">https://www.gironsec.com/blog/2018/01/expiring-payloads-in-the-metasploit-framework/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Popular Software ]</span>  Oracle WebLogic 远程诊断助手rda_tfa_hrs 命令注入远程执行代码漏洞披露（CVE-2018-2616）：   <a href="http://www.zerodayinitiative.com/advisories/ZDI-18-116/" rel="nofollow">http://www.zerodayinitiative.com/advisories/ZDI-18-116/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Popular Software ]</span>  
+Oracle VM VirtualBox VBVA 图形组件被发现了一个越界读写漏洞（CVE-2018-2698），可以被用于实现虚拟机逃逸和 SYSTEM 提权：  <a href="https://twitter.com/_niklasb/status/953604276726718465/photo/1" rel="nofollow">https://twitter.com/_niklasb/status/953604276726718465/photo/1</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Protocol ]</span>   编写 PyKD 调试脚本，自动化地 Sniffer VMware 的 RPC 请求，来自 ZDI：   <a href="https://www.zerodayinitiative.com/blog/2018/1/19/automating-vmware-rpc-request-sniffing%C2%A0" rel="nofollow">https://www.zerodayinitiative.com/blog/2018/1/19/automating-vmware-rpc-request-sniffing </a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  一份关于 OSX 和 iOS 的安全资源集合：   <a href="https://github.com/kai5263499/osx-security-awesome" rel="nofollow">https://github.com/kai5263499/osx-security-awesome</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>   CloudFlair - 利用 Censys 的扫描数据发现被 Cloudflare 服务保护的背后的真实主机：   <a href="https://blog.christophetd.fr/bypassing-cloudflare-using-internet-wide-scan-data/" rel="nofollow">https://blog.christophetd.fr/bypassing-cloudflare-using-internet-wide-scan-data/</a></p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2018/01/19/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2018/01/20/index.html">2018/01/20</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/01/21/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

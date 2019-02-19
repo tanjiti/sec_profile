@@ -1,0 +1,14 @@
+20190214	Android	https://bugs.chromium.org/p/project-zero/issues/detail?id=1719	Android fdget() 优化导致的 binder UAF 漏洞(CVE-2019-2000) :   	chromium.org	bugs.chromium.org	/p/project-zero/issues/detail	
+20190214	Android	https://bugs.chromium.org/p/project-zero/issues/detail?id=1721	Adnroid reclaim 和 munmap 之间的条件竞争导致的 VMA binder UAF 漏洞(CVE-2019-1999):   	chromium.org	bugs.chromium.org	/p/project-zero/issues/detail	
+20190214	Browser	https://perception-point.io/resources/research/cve-2019-0539-root-cause-analysis/	Chakra JIT 中的类型混淆漏洞(CVE-2019-0539)分析:   	perception-point.io	perception-point.io	/resources/research/cve-2019-0539-root-cause-analysis/	
+20190214	Browser	https://github.com/Microsoft/ChakraCore/pull/5936	Chakra 2019 年 2 月安全更新详情:   	github.com	github.com	/Microsoft/ChakraCore/pull/5936	
+20190214	Defend	https://blog.envoyproxy.io/using-spire-to-automatically-deliver-tls-certificates-to-envoy-for-stronger-authentication-be5606ac9c75	使用 SPIRE 自动分发 TLS 证书以进行更安全的身份验证:   	envoyproxy.io	blog.envoyproxy.io	/using-spire-to-automatically-deliver-tls-certificates-to-envoy-for-stronger-authentication-be5606ac9c75	
+20190214	Hardware	http://www.keenlit.com/wp-content/uploads/2018/03/IFDIM-BKM-1.pdf	Intel CPU 内部阻抗测量指南:   	keenlit.com	www.keenlit.com	/wp-content/uploads/2018/03/IFDIM-BKM-1.pdf	
+20190214	IoTDevice	http://va.ler.io/myfiles/dva/iot-rev-engineering.pdf	以家庭路由为例讲解 IoT 逆向工程:   	ler.io	va.ler.io	/myfiles/dva/iot-rev-engineering.pdf	
+20190214	Malware	https://securelist.com/dns-manipulation-in-venezuela/89592/	委内瑞拉关于人道主义援助运动的伪造域名钓鱼活动分析:   	securelist.com	securelist.com	/dns-manipulation-in-venezuela/89592/	
+20190214	Malware	https://twitter.com/JusticeRage/status/1095655920846204928	通过替换关键命令诱捕入侵者的 Python 脚本:   	twitter.com	twitter.com	/JusticeRage/status/1095655920846204928	
+20190214	MalwareAnalysis	https://medium.com/emptyregisters/lazarus-downloader-brief-analy-17875f342d96	对 Lazarus 下载者的简要分析:   	medium.com	medium.com	/emptyregisters/lazarus-downloader-brief-analy-17875f342d96	
+20190214	Popular	https://threatpost.com/wordpress-plugin-flaw-website-takeover/141746/	WordPress "Simple Social Button" 插件曝严重漏洞可导致站点被完全控制:   	threatpost.com	threatpost.com	/wordpress-plugin-flaw-website-takeover/141746/	
+20190214	Tools	https://www.mdsec.co.uk/2019/02/macros-and-more-with-sharpshooter-v2-0/	SharpShooter v2.0 发布,关于本次更新的功能介绍:   	mdsec.co.uk	www.mdsec.co.uk	/2019/02/macros-and-more-with-sharpshooter-v2-0/	
+20190214	Web	https://ysamm.com/?p=185	绕过 Facebook CSRF 保护并进一步接管帐户:   	ysamm.com	ysamm.com	/	
+20190214	WirelessSecurity	https://www.evilsocket.net/2019/02/13/Pwning-WiFi-networks-with-bettercap-and-the-PMKID-client-less-attack/	使用 Bettercap 结合 PMKID 手法攻击 WPA/WPA2 网络:   	evilsocket.net	www.evilsocket.net	/2019/02/13/Pwning-WiFi-networks-with-bettercap-and-the-PMKID-client-less-attack/	

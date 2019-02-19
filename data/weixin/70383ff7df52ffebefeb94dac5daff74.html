@@ -1,0 +1,1685 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+
+
+        <script nonce="1985910362" type="text/javascript">
+            window.logs = {
+                pagetime: {}
+            };
+            window.logs.pagetime['html_begin'] = (+new Date());
+        </script>
+        <title>
+ 深度 | 40年认知架构研究概览：实现通用人工智能的道路上我们走了多远？（附论文）
+</title>
+        
+<style>.radius_avatar{display:inline-block;background-color:#fff;padding:3px;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;overflow:hidden;vertical-align:middle}.radius_avatar img{display:block;width:100%;height:100%;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;background-color:#eee}.rich_media_inner{word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.rich_media_area_primary{padding:20px 16px 12px;background-color:#fafafa}.rich_media_area_primary.voice{padding-top:66px}.rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{color:rgba(0,0,0,0.3);background-color:#fafafa}.rich_media_area_extra{padding:0 16px 24px}.rich_media_extra{padding-top:30px}.mpda_bottom_container .rich_media_extra{padding-top:24px}.mpda_bottom_container .rich_media_extra .mpad_more_list{right:-10px}html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;line-height:1.6}body{-webkit-touch-callout:none;font-family:-apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif;color:#333;background-color:#f2f2f2;letter-spacing:.034em}h1,h2,h3,h4,h5,h6{font-weight:400;font-size:16px}*{margin:0;padding:0}a{color:#576b95;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_title{font-size:22px;line-height:1.4;margin-bottom:14px}@supports(-webkit-overflow-scrolling:touch){.rich_media_title{font-weight:700}}.rich_media_meta_list{margin-bottom:22px;line-height:20px;font-size:0;word-wrap:break-word;word-break:break-all}.rich_media_meta_list em{font-style:normal}.rich_media_meta{display:inline-block;vertical-align:middle;margin:0 10px 10px 0;font-size:15px;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_meta.icon_appmsg_tag{margin-right:4px}.rich_media_meta.meta_tag_text{margin-right:0}.rich_media_meta_primary{display:block;margin-bottom:10px;font-size:15px}.meta_original_tag{padding:0 .5em;font-size:12px;line-height:1.4;background-color:#f2f2f2;color:#888}.meta_enterprise_tag img{width:30px;height:30px!important;display:block;position:relative;margin-top:-3px;border:0}.rich_media_meta_link{color:#576b95}.rich_media_meta_text{color:rgba(0,0,0,0.3)}.rich_media_meta_text.rich_media_meta_split{padding-left:10px}.rich_media_meta_text.rich_media_meta_split:before{position:absolute;top:50%;left:0;margin-top:-6px;content:' ';display:block;border-left:1px solid #888;width:200%;height:130%;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0}.rich_media_meta_text.article_modify_tag{position:relative}.rich_media_meta_nickname{position:relative}.rich_media_thumb_wrp{margin-bottom:6px}.rich_media_thumb_wrp .original_img_wrp{display:block}.rich_media_thumb{display:block;width:100%}.rich_media_content{overflow:hidden;color:#333;font-size:17px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;text-align:justify;position:relative;z-index:0}.rich_media_content *{max-width:100%!important;box-sizing:border-box!important;-webkit-box-sizing:border-box!important;word-wrap:break-word!important}.rich_media_content p{clear:both;min-height:1em}.rich_media_content em{font-style:italic}.rich_media_content fieldset{min-width:0}.rich_media_content .list-paddingleft-2{padding-left:2.2em}.rich_media_content .list-paddingleft-2 .list-paddingleft-2{padding-left:30px}.rich_media_content blockquote{margin:0;padding-left:10px;border-left:3px solid #dbdbdb}img{height:auto!important}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:portrait){.rich_media_area_extra{padding-bottom:34px}}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:landscape){.rich_media_area_primary{padding:20px 60px 15px 60px}.rich_media_area_extra{padding:0 60px 21px 60px}}@media screen and (min-width:1024px){.rich_media_area_primary_inner,.rich_media_area_extra_inner{max-width:677px;margin-left:auto;margin-right:auto}.rich_media_area_primary{padding-top:32px}}.appmsg_share_notice{font-size:16px;color:#888;position:relative;padding:1.25em 0;margin-bottom:1.75em}.appmsg_share_notice:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice_hd{font-weight:700;padding-bottom:.2em}.cell{padding:.8em 0;display:block;position:relative}.cell_hd,.cell_bd,.cell_ft{display:table-cell;vertical-align:middle;word-wrap:break-word;word-break:break-all;white-space:nowrap}.cell_primary{width:2000px;white-space:normal}.flex_cell{padding:10px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.flex_cell_primary{width:100%;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;box-flex:1;flex:1}.original_tool_area{display:block;padding:.75em 1em 0;-webkit-tap-highlight-color:rgba(0,0,0,0);color:#333;border:1px solid #eaeaea;margin:20px 0}.original_tool_area .tips_global{position:relative;padding-bottom:.5em;font-size:15px}.original_tool_area .tips_global:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dbdbdb;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:27px;height:27px;padding:0;margin-right:.5em}.original_tool_area .radius_avatar img{height:100%!important}.original_tool_area .flex_cell_bd{width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal}.original_tool_area .flex_cell_ft{font-size:14px;color:#888;padding-left:1em;white-space:nowrap}.original_tool_area .icon_access:after{content:" ";display:inline-block;height:8px;width:8px;border-width:1px 1px 0 0;border-color:#cbcad0;border-style:solid;transform:matrix(0.71,0.71,-0.71,0.71,0,0);-ms-transform:matrix(0.71,0.71,-0.71,0.71,0,0);-webkit-transform:matrix(0.71,0.71,-0.71,0.71,0,0);position:relative;top:-2px;top:-1px}.rich_media_global_msg{position:fixed;top:0;left:0;right:0;padding:.85em 35px .85em 15px;z-index:2;background-color:#c6e0f8;color:#888;font-size:12px}.rich_media_global_msg .icon_closed{position:absolute;right:15px;top:50%;margin-top:-5px;line-height:300px;overflow:hidden;-webkit-tap-highlight-color:rgba(0,0,0,0);background:transparent url(//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_appmsg_msg_closed_sprite.2x42f400.png) no-repeat 0 0;width:11px;height:11px;vertical-align:middle;display:inline-block;-webkit-background-size:100% auto;background-size:100% auto}.rich_media_global_msg .icon_closed:active{background-position:0 -17px}.rich_media_global_msg.voice{color:#1aad19;background-color:#e8f6e8;padding-left:43.3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.rich_media_global_msg.voice .ic_voice{position:absolute;top:50%;margin-top:-10px;left:15px;display:inline-block;width:13.3px;height:18.3px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAA3CAYAAAB+fggjAAAAAXNSR0IArs4c6QAACb9JREFUaAW9WX9wVMUd3917d5cf/Agp1OTuQgIlQqUoI1JI1Noojg2I+VU7hVrtDDpadRypgzKjU52x09KOdsS20ypSO/WPWttcAqhTOlSoU4FIoRUn0wEZIMndBUkwGEhyv97bfvaS97L77t3lHYUuc+z3935397vf/e4LJZfQnuPPsW0d25ZQzr9mELKSUnIVzHxB/Dh+lBOKf4OEk0FOyQAl/CyltIt5tL29d/V2FzIkLUQ4FA7dwon+KCF0Fee8rBBdS5aSs/D+PUrYbyKtkb9b9BzAlA7CERrqDN1DOH8C8HU57FwSGat6kBGypbcluhMwFj+75XWwemf1vHQqtZ0T3pCtelkp73uJ79s9bT39dqs5HQyFK79jcPIKFErtSgLHjPvQHQB0EFt2hDE2QHU6RMvpkODrw3o50Uk5p3w2N/SlUKhHTNZjskHBz2pi6ylbH22J/k3mOToYCAceIYT/AgYVPhxJQTkMQ792Ez/yQCY8d0fgRl0nj8J2G5z1mvSJ3qCMrYOTb5l0xQFBDIUDjxmcbzUFJnu621/kf/DUmlM9k7RLh4LtwRChxquck0bFCqWjxENuijXF/iXoioNVnZU36wZ5D7PTTCWsWhyp4uFYa+x1k3Y5ezj6oNgtdTVpL0Lo+mhr9BwO0Xib+/bcWYZB35Sdg/sXsOSNV8o5MXK0LfoKYXQDxpJOMZ8L1g8E33JQT6aeQRoJCOJEMxjxfCvSEtlnEq5Uj5h7Ayv2I8U+5w9du/va0oyD896ZV004RQKebIzQ53EQ/jJJubJQhUa2YBXPmqNgy8vPjZ67N+NgMh6/HwSfyURgniwqLvmJif8/+sNrY6O4XV5WxjKMuvHDQOl9uCksHmX0xydWn0hYBJfAgncXzBhNjjZSnX8Fq3ENdmWWUMUhS2Ebv5HrtjDNg/+B5IY4wos0cVukUskqUwj9xfKS2W9GSEwi5QdxFS5BMn54dGzkHkhOy0x18j9COY1O5VxmhGJylIxMjgUTC7WUkfrqJAkQpfuP3nFUElO4WUgwHHza0HU1wG1SGOi0jeSI+kf92hgZlXg0yajBV0gUwri4vqZud/O7PbhxkGiNvM5NWHKV3NN8LGQbuVdDsYIVzOzHOI+ygzYhR/RAxwdbELcPZDEp+Q+2YQcS2L+Zwc4gdSUQS7Oz5BwIKUqWyq5ApEdDsVmhBKaHnHDQVUg1uwKLkkm+USEScsbjId/ra+7fbaMThMHVdpoTjuyxXloqcUg+Eqe4WBb26/5hGXeCkynyfdA9Fo/SQeZlN/StjUQtmgQUFxVnKhyJlAUGOgP13OC3ygxGWZhhSYtkYqIicUHGnWCUluoFz8mzkRzOCf14Wfyikx2ThvQ0B6XZdvhi1QaoAfZHmiMf40xMJmih4BvxWQnbNCD3i/cunoYab4FMQwr5o4zb4Uh9ZMxOM3Fsf91YfPQfOAeLTJrouYc8K3rEII0ikBcKRLTEhUQNuo8E7NSGh4dnyDOFzIioOpxkZdqyXYGSAV2rMYjhIUamkL2ZcANvG+MWWS4DU/parDm2R8AiBj/Bz3IQe14DPKeDRho1hNyonFplhgp/mmaNhpH6s0VVToNFxR7TPcVFJVZdgMG4cNBq0LvRQhyA2vLaMyDrFouTL169KzBlGkEofdnScQYMXBI/raiuXC1fs4wz2iXLI+U0y7gd3tewL41IVhLvmM6X2eWycM7nZ9EEAXWgWDWPpjWg7tx8+IbD4llhNTadTn8XcWgVBphprbhbLQkngJK/ymTdoE/IuDPME5jYSYx1HLn3EH6/B77Rq/m+FG2L3d7X1Pe+kx5kCBJp4G0clDWmAJTD0db+NhO398GO4G3cMDJBbPIY9bShfgyb+OXqMwGPV9rrskFsc6t4fck0GRZPQ5GnZBpO4x/wvrAmKfP+FzjjYF9zn5i58s0ET8MX8hnGc+BxOGnFi8innBg7UUBsFaV6Pt1CeBMrKD73qG8CbPnKUHvg/lzG+tr6DlGWufJkEWQp/tjgyMBJPF+fWrhj4XSZeSlwJgaFIhyioY7gHvS3moYyK6TRO6JN0b0mzd6HOgIbEBK/gp7fzsOBGMLUX2Z+bWvvnb1T3sd2fYFbDgoET8/56UTqKEBrizDIeY1463tae1BGObeq9qrlBtXb4aRcmVvCmOjneFq+UFZW9lJ3Q3fee9lSmgAUBwUNd+N9CPjfTfDHO0pO+z1FK081nfpUoUuIuKPPD322Gav5OMjWBCURRBGN4GH0QCGvxSwHhcFguPLnGEip97AKXd5y39dPN5yOy4PaYXGrjKToRsTMIzg4M+38cZz+LNYWe8qZp1Izh0QlEVLfctMmzNb6gCP4GGxFcij5W7usHT++NjaI4uHpadr0KkbpZvAH7DKw9iRi98lsejbFcQWF2LJ/LvOe6Yl14m5eLavhU8gqkQdlWj5YnOSL+sXNWNFNmKT1NQsLkGAez3zcIHmfj44rKAYUd2Jxcek6HCP1cHD+Ig5DzonZnT3WdOyCWFGukRUIwkGTL069kdYz319MmlOf00EhjKpiWKPku7IiDF9X3RHMecvIsjIsPqdh1ewO3SXLOMF5HRQKvS39h5GNOmVlnZP1Mu4W9pZ5/4TDZh0ybHkt3iKOqcm0OaWDQpB52DZTQfQo+Vtl3C08kQGO2OStYtlGz6CuHJxZO3MPYnHYMsDJVSKpW3ghAOXKsxaPoup86q4c7F7cncSyHZANGen0Shl3C+PSPy/L4qmZ97525aAwiMLgQ8Uwp8tl3C2MASff00KJMRW3GXLtIFbwY1kXp/kaGXcL42AoDqHit6p5JxuuHfQwj1IvIhFO9QhyGk/QpskM/C3Gyo0y3YRdOzgnNOcTHJS0qYgVrBIfLE28gF75ToN3bySfrmsHM68tTo7JxuKJ+PUyPhWcqbQ5XarI+TRlZxQeENcOjitS5dMc5/oqu8F8+ODI4FrEoPVpBTfL8akK2YIc9DCiFAkoyTbUdNSU5XPK5Im/MQPeZOKZnpNdCu6AFOTgrJLZO2FDrogrUjyxPbQ/VOxgWyG9Fn71h6hoJkMC8exlvl8qQg6I66rE1A22Vz6PEuwZExe92CrQtmmU72U+fzQ9K/15XV1dsuudrhlc50t0XX8Izq1TdAh5I9rWf69Mc4ILdlCU9kNDn32ICvZS0wySAY2W+shSUdw6OSXTCtpioSgePZrPeydWTUncstF8MPRw1dFvunFO2CnYQaGEk3cSn8iWYyVeBGoImqtG6RHxQsQfEJVskE+34C22GxOfb8fiY40owtaAJ0qnciTxcvSlE7VfBPX3IQ8lb/U2R3dgBRGu7tt/AYJkZEGv/oaXAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.rich_media_global_msg.voice .icon_more{position:absolute;right:15px;top:50%;margin-top:-6.5px;width:8px;height:13px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAmCAYAAADeB1slAAAAAXNSR0IArs4c6QAAA49JREFUSA2tVk1IVFEUPveOmhQk1ibfvLFZSJtACqJIIpCIoB+imcFV2Z9ZUVnRomgRGFn2i6mFf5XVotCZMYmgIMhlq6BFENFiwjfPAosgFzXOvNu5o3fmeue98Y16F3PP+c453/fu/xCQmvZSWwwJaC0G6P8WND9IoTmbVFRycpqAdgBWkwRo94V960RsPn1aoPpN9RI6CR0WsDWcjAErtUiqTR/S18+HnNcSTv5zYrwDSatVMgLkH6aciwfj79WYW5+OT4xfsyPnBIgvwt872qBW45ZQzaMlJXCfMPJbDQgfRUoIhduVUW2TwArpaWyX+bnYU9JAAH44FaJIccqCW76Ib7NTjhOOvFPN/8q/IvE3cR+npFJgao9rkiSUXjD2GCNqzMnPbNPYjth3mqINlJAvTsk4kiJmWa3eQe8WpxwVzwjwgFFn/CorL29EkY9qovC5CFDrKq7JVoHl6zNTJCf53/lLk78SN/FcbJRx2cZCixC4ZATGXsu4as8YgQjGamN/q5atOotn4K3A1J4BUMbgsh7Wt6sx2bcV4AkjtSPJxkDjRQL0hVwg21zEglSzN+rdKeOybTtFcgK39ajWZDFWr+IZHxfGQ8mV0YA5nMGmDVcCPNcb8R5gYJ1UCWQfp6PFCI4NyZhrAV6EIiHGrPOAB0ImkW2c0la8u8ICc0wUCWrvC1dsw+3TnN6uanDaJ4zeiIfiA9wtWIAX8XspxeA6iuBlaN88hNzCNXk+JwFOuXJYW5tMQmc+EcqgzXGb2n9XFk1NstX5yKczl89JAF+6vRaBM1m5XAu//qkRGrtb8BThTtqH2/V0LmUWwbvsiREw8X0vcJHxxNbjNm3KUuVaMjmPFuWm2CPesHc/kp+yj06hFMhj/PIOOcfVFLk6xZT0G3vMTpmc27MusityZk/OBfKOwA05MPLIDJn3OJldcxTQotpBYOyEXVEWIw/NoInvuHOznSJfVDs0GzneNw9mI+eyOSPQI9phfCqPO38TFhHaFw/Eu/LliNiMESB5w6zkzD05F8mMYJr8mFC263Fa+vAadvXloj4toEcrjlgMjgrQrseHpBcfkm67WD6M6MN6lTWZeoZjyYxGLcB57MGnsEfF3fjU2G189QBpcUqmBLrnSs4504s8GjLxrwm5qYrg3dKFf6x6VbwQ3yOS/wz8+bS0ruwfELaBY2nyoNkn4gvW65GKRn4WForwP+dONHDaOHeZAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.preview_appmsg .rich_media_title{margin-top:2.3em}@media screen and (min-width:1024px){.rich_media_global_msg{position:relative;margin-bottom:32px}.preview_appmsg .rich_media_title.rich_media_title{margin-top:0}}.pages_reset{color:#333;line-height:1.6;font-size:16px;font-weight:400;font-style:normal;text-indent:0;letter-spacing:normal;text-align:left;text-decoration:none;white-space:normal}.weapp_element,.weapp_display_element,.mp-miniprogram{display:block;margin:1em 0}.share_audio_context{margin:16px 0}.weapp_text_link{font-size:17px}.weapp_text_link:before{content:'';display:inline-block;line-height:1;background-size:contain;background-repeat:no-repeat;background-image:url('data:image/png;base64,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');vertical-align:middle;font-size:11px;color:#888;margin-right:6px;margin-top:-3px;background-position:center;height:20px;width:20px}.flex_context{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center}.flex_bd{-webkit-box-flex:1;-webkit-flex:1;flex:1;word-wrap:break-word;word-break:break-all}.original_page{background-color:#fff;font-size:16px}.account_info{padding:0 0 20px}.account_info .flex_bd{padding-left:.85em}.radius_avatar.account_avatar{width:40px;height:40px;padding:0}.account_nickname{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;line-height:1.2;color:#576b95;font-size:14px}.account_nickname_inner{font-weight:400;vertical-align:top}.account_desc{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;color:#b2b2b2;font-size:13px;line-height:1.2;padding-top:.3em}.account_desc_inner{display:inline;vertical-align:top}.share_notice{margin-bottom:20px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.share_media{padding-bottom:18px}.original_panel{padding:20px;background-color:#fcfcfc;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;overflow:hidden;position:relative}.original_panel:after{content:" ";border:1px solid #d8d8d8;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;position:absolute;top:0;left:0;width:200%;height:200%;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}.original_panel .original_account{margin-bottom:18px;position:relative;z-index:1}.original_panel .original_account_avatar{width:28px;height:28px;padding:0}.original_panel .original_account_nickname{padding-left:.85em;font-size:15px;color:#576b95}.original_panel_title{font-size:23px;color:#000;margin:0 0 16px}.original_panel_content{color:#333}.original_panel_tool{padding-top:20px;position:relative;z-index:1}.original_cell_nickname{display:inline-block;vertical-align:middle;font-weight:400;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:8em;color:#000}.original_tool_area{padding:1.17em 0;border-width:0;position:relative}.original_tool_area:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:20px;height:20px;margin-right:.2em}.original_tool_area .flex_cell{padding:0;font-size:14px}.original_tool_area .icon_access:after{margin-right:4px;top:0}.preview_appmsg .rich_media_title{margin-top:1.5em}.preview_appmsg .account_info{padding-top:3em}.original_page{background-color:transparent}.account_info{-webkit-tap-highlight-color:rgba(0,0,0,0);outline:0;padding-bottom:20px;font-size:14px}.account_info.appmsg_account_info{padding-bottom:32px}.account_info .radius_avatar img{background-color:transparent}.share_notice{font-size:16px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.original_panel{background-color:#fafafa}.original_panel:after{border-color:#e6e6e6}.original_panel .original_account_avatar{width:30px;height:30px}.original_panel_tool{font-size:14px}.original_panel_tool a{color:#576b95}.original_panel_content{font-size:17px}.share_media{padding-bottom:30px}.icon_appmsg_tag{display:inline-block;vertical-align:middle;padding:0 .5em;font-size:12px;line-height:1.5;background-color:#c3c3c3;color:#fff;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:70%}.icon_appmsg_tag.primary{color:#3bb638;padding:4px .78em;background-color:rgba(9,187,7,0.08);font-size:12px;border-top-left-radius:.95em 50%;-moz-border-radius-topleft:.95em 50%;-webkit-border-top-left-radius:.95em 50%;border-top-right-radius:.95em 50%;-moz-border-radius-topright:.95em 50%;-webkit-border-top-right-radius:.95em 50%;border-bottom-left-radius:.95em 50%;-moz-border-radius-bottomleft:.95em 50%;-webkit-border-bottom-left-radius:.95em 50%;border-bottom-right-radius:.95em 50%;-moz-border-radius-bottomright:.95em 50%;-webkit-border-bottom-right-radius:.95em 50%}.icon_appmsg_tag.default{border:1px solid rgba(0,0,0,0.1);color:rgba(0,0,0,0.3);background-color:transparent;padding:0 .54em;font-size:15px;line-height:1.3;border-top-left-radius:.67em 50%;-moz-border-radius-topleft:.67em 50%;-webkit-border-top-left-radius:.67em 50%;border-top-right-radius:.67em 50%;-moz-border-radius-topright:.67em 50%;-webkit-border-top-right-radius:.67em 50%;border-bottom-left-radius:.67em 50%;-moz-border-radius-bottomleft:.67em 50%;-webkit-border-bottom-left-radius:.67em 50%;border-bottom-right-radius:.67em 50%;-moz-border-radius-bottomright:.67em 50%;-webkit-border-bottom-right-radius:.67em 50%}.rich_media_meta_list .icon_appmsg_tag.default{margin-top:-1px}.icon_appmsg_tag.title_tag{background-color:#d04b4e}.icon_global_tag_wrp{text-align:right;padding-bottom:12px}.icon_global_tag{background-color:rgba(118,118,118,0.16);color:rgba(0,0,0,0.41);line-height:2.2;border-top-left-radius:1em 50%;-moz-border-radius-topleft:1em 50%;-webkit-border-top-left-radius:1em 50%;border-bottom-left-radius:1em 50%;-moz-border-radius-bottomleft:1em 50%;-webkit-border-bottom-left-radius:1em 50%;padding:0 1.8em 0 1.34em;font-size:12px;margin-right:-24px;display:inline-block;vertical-align:top}.global_plain_btn{display:inline-block;vertical-align:middle;padding:0 1em;line-height:2;font-size:14px;-webkit-tap-highlight-color:rgba(0,0,0,0);border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px}.global_plain_btn.primary{color:#1aad19;border:1px solid currentColor}.global_plain_btn.primary:active{color:rgba(26,173,25,0.6)}.wx_video_context{color:#fefefe;position:relative;background-color:#000}.wx_video_thumb,.wx_video_thumb_primary{position:absolute;left:0;width:100%;height:100%!important;top:0}.wx_video_thumb_primary{-webkit-background-size:cover;background-size:cover;background-position:50% 50%;background-repeat:no-repeat}.wx_video_play_btn{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);margin-top:-2px;font-size:0;border-width:0;background-color:transparent;padding:0;outline:0;z-index:2}.wx_video_play_btn:before{content:" ";display:inline-block;width:0;height:0;border-width:14px 0 14px 25px;border-color:transparent transparent transparent #fff;border-style:dotted dotted dotted solid}.wx_video_mask{position:absolute;top:0;left:0;right:0;bottom:0;z-index:1;background-color:rgba(0,0,0,0.5)}.place_audio_area{min-height:100px;background-color:#fdfdfd;display:block;margin:16px 0}.place_music_area{min-height:68px;background-color:#fdfdfd;display:block;margin:17px 0 16px}.rich_media_empty_extra{background-color:#fafafa}.appmsg_skin_default.rich_media_empty_extra{background-color:#fff}.appmsg_skin_default .rich_media_area_primary{background-color:#fff}.appmsg_skin_default .rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{background-color:#fff}.appmsg_style_default .rich_media_tool{padding-top:15px}.rich_media_title_ios{font-weight:700}.read-more__area{margin:30px 0}.read-more__desc{margin-bottom:10px}.read-more__article__extra{font-size:14px;color:rgba(0,0,0,0.5)}.read-more__article__item{margin-bottom:10px}</style>
+<style>
+        </style>
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/pc435ee6.css">
+<![endif]-->
+
+    </head>
+    <body id="activity-detail" class="zh_CN mm_appmsg  appmsg_skin_default appmsg_style_default">
+        
+<script nonce="1985910362" type="text/javascript">
+    var biz = "MzA3MzI4MjgzMw=="||"";
+    var sn = "d630d47c4ab60d35752aba74a9d53361" || ""|| "";
+    var mid = "2650720132" || ""|| "";
+    var idx = "1" || "" || "";
+    window.__allowLoadResFromMp = true; 
+    
+        
+</script>
+<script nonce="1985910362" type="text/javascript">
+var page_begintime=+new Date,is_rumor="",norumor="";
+1*is_rumor&&!(1*norumor)&&biz&&mid&&(document.referrer&&-1!=document.referrer.indexOf("mp.weixin.qq.com/mp/rumor")||(location.href="http://mp.weixin.qq.com/mp/rumor?action=info&__biz="+biz+"&mid="+mid+"&idx="+idx+"&sn="+sn+"#wechat_redirect"));
+</script>
+<script nonce="1985910362" type="text/javascript">
+var MutationObserver=window.WebKitMutationObserver||window.MutationObserver||window.MozMutationObserver,isDangerSrc=function(t){
+if(t){
+var e=t.match(/http(?:s)?:\/\/([^\/]+?)(\/|$)/);
+if(e&&!/qq\.com(\:8080)?$/.test(e[1])&&!/weishi\.com$/.test(e[1]))return!0;
+}
+return!1;
+},ishttp=0==location.href.indexOf("http://");
+-1==location.href.indexOf("safe=0")&&ishttp&&"function"==typeof MutationObserver&&"mp.weixin.qq.com"==location.host&&(window.__observer_data={
+count:0,
+exec_time:0,
+list:[]
+},window.__observer=new MutationObserver(function(t){
+window.__observer_data.count++;
+var e=new Date,r=[];
+t.forEach(function(t){
+for(var e=t.addedNodes,o=0;o<e.length;o++){
+var n=e[o];
+if("SCRIPT"===n.tagName){
+var i=n.src;
+isDangerSrc(i)&&(window.__observer_data.list.push(i),r.push(n)),!i&&window.__nonce_str&&n.getAttribute("nonce")!=window.__nonce_str&&(window.__observer_data.list.push("inlinescript_without_nonce"),
+r.push(n));
+}
+}
+});
+for(var o=0;o<r.length;o++){
+var n=r[o];
+n.parentNode&&n.parentNode.removeChild(n);
+}
+window.__observer_data.exec_time+=new Date-e;
+}),window.__observer.observe(document,{
+subtree:!0,
+childList:!0
+})),function(){
+if(-1==location.href.indexOf("safe=0")&&Math.random()<.01&&ishttp&&HTMLScriptElement.prototype.__lookupSetter__&&"undefined"!=typeof Object.defineProperty){
+window.__danger_src={
+xmlhttprequest:[],
+script_src:[],
+script_setAttribute:[]
+};
+var t="$"+Math.random();
+HTMLScriptElement.prototype.__old_method_script_src=HTMLScriptElement.prototype.__lookupSetter__("src"),
+HTMLScriptElement.prototype.__defineSetter__("src",function(t){
+t&&isDangerSrc(t)&&window.__danger_src.script_src.push(t),this.__old_method_script_src(t);
+});
+var e="element_setAttribute"+t;
+Object.defineProperty(Element.prototype,e,{
+value:Element.prototype.setAttribute,
+enumerable:!1
+}),Element.prototype.setAttribute=function(t,r){
+"SCRIPT"==this.tagName&&"src"==t&&isDangerSrc(r)&&window.__danger_src.script_setAttribute.push(r),
+this[e](t,r);
+};
+}
+}();
+</script>
+
+        <link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<script nonce="1985910362" type="text/javascript">
+    String.prototype.html = function(encode) {
+        var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&yen;", "¥", "&amp;", "&"];
+        
+		
+		
+		
+		
+        
+        var replaceReverse = ["&", "&amp;", "¥", "&yen;", "<", "&lt;", ">", "&gt;", " ", "&nbsp;", '"', "&quot;", "'", "&#39;"];
+	    var target;
+	    if (encode) {
+	    	target = replaceReverse;
+	    } else {
+	    	target = replace;
+	    }
+        for (var i=0,str=this;i< target.length;i+= 2) {
+             str=str.replace(new RegExp(target[i],'g'),target[i+1]);
+        }
+        return str;
+    };
+
+    window.isInWeixinApp = function() {
+        return /MicroMessenger/.test(navigator.userAgent);
+    };
+
+    window.getQueryFromURL = function(url) {
+        url = url || 'http://qq.com/s?a=b#rd'; 
+        var tmp = url.split('?'),
+            query = (tmp[1] || "").split('#')[0].split('&'),
+            params = {};
+        for (var i=0; i<query.length; i++) {
+            var arg = query[i].split('=');
+            params[arg[0]] = arg[1];
+        }
+        if (params['pass_ticket']) {
+        	params['pass_ticket'] = encodeURIComponent(params['pass_ticket'].html(false).html(false).replace(/\s/g,"+"));
+        }
+        return params;
+    };
+
+    (function() {
+	    var params = getQueryFromURL(location.href);
+        window.uin = params['uin'] || "" || '';
+        window.key = params['key'] || "" || '';
+        window.wxtoken = params['wxtoken'] || '';
+        window.pass_ticket = params['pass_ticket'] || '';
+        window.appmsg_token = "";
+    })();
+
+    function wx_loaderror() {
+        if (location.pathname === '/bizmall/reward') {
+            new Image().src = '/mp/jsreport?key=96&content=reward_res_load_err&r=' + Math.random();
+        }
+    }
+
+</script>
+
+<script nonce="1985910362" type="text/javascript">
+        window.__moon_report_uin = "0";
+            window.no_moon_ls = 0;
+    </script>
+
+        
+<script nonce="1985910362" type="text/javascript">
+    var write_sceen_time = (+new Date()); 
+</script>
+
+<div id="js_article" class="rich_media">
+    
+    <div id="js_top_ad_area" class="top_banner"></div>
+    
+    <div class="rich_media_inner">
+
+        
+        
+        <div id="page-content" class="rich_media_area_primary">
+          <div class="rich_media_area_primary_inner">
+                                    
+                        
+
+            <div id="img-content">
+
+                
+                <h2 class="rich_media_title" id="activity-name">
+                    
+                    
+                    深度 | 40年认知架构研究概览：实现通用人工智能的道路上我们走了多远？（附论文）
+
+                                                                                </h2>
+                <div id="meta_content" class="rich_media_meta_list">
+                                                                                
+                                        <span class="rich_media_meta rich_media_meta_nickname" id="profileBt">
+                      <a href="javascript:void(0);" id="js_name">
+                        机器之心                      </a>
+                      <div id="js_profile_qrcode" class="profile_container" style="display:none;">
+                          <div class="profile_inner">
+                              <strong class="profile_nickname">机器之心</strong>
+                              <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">微信号</label>
+                              <span class="profile_meta_value">almosthuman2014</span>
+                              </p>
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">功能介绍</label>
+                              <span class="profile_meta_value">专业的人工智能媒体和产业服务平台</span>
+                              </p>
+                              
+                          </div>
+                          <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">
+                              <i class="profile_arrow arrow_out"></i>
+                              <i class="profile_arrow arrow_in"></i>
+                          </span>
+                      </div>
+                    </span>
+
+
+                    <em id="publish_time" class="rich_media_meta rich_media_meta_text"></em>
+
+
+
+
+
+                </div>
+                
+                
+                
+                
+                                                
+                                                                
+                                
+                
+                <div class="rich_media_content " id="js_content">
+                    
+
+                    
+
+                    
+                    
+                    <p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;"></span></p><section style="font-size: 16px; white-space: normal; max-width: 100%; line-height: 28.4444px; box-sizing: border-box !important; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><section data-id="85660" data-custom="rgb(117, 117, 118)" data-color="rgb(117, 117, 118)" style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section data-id="85660" data-custom="rgb(117, 117, 118)" data-color="rgb(117, 117, 118)" style="max-width: 100%; box-sizing: border-box; border-width: 0px; border-style: initial; border-color: currentcolor; font-family: 微软雅黑; word-wrap: break-word !important;"><section style="margin-top: 2em; padding-top: 0.5em; padding-bottom: 0.5em; max-width: 100%; box-sizing: border-box; border-style: solid none; font-family: inherit; text-decoration: inherit; border-top-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-bottom-width: 1px; word-wrap: break-word !important;"><p style="margin-top: -1.2em; max-width: 100%; box-sizing: border-box; min-height: 1em; font-size: 1em; border-width: initial; border-style: initial; border-color: currentcolor; text-align: center; font-weight: inherit; line-height: 1.75em; word-wrap: break-word !important;"><span style="color: rgb(255, 255, 255); background-color: rgb(117, 117, 118);">选自arxiv.org</span></p><section data-style="white-space: normal; text-align: left;font-size: 14px;line-height: 1.5em; color: rgb(12, 12, 12);" style="padding: 16px 16px 10px; color: rgb(62, 62, 62); background-color: rgb(255, 255, 255); max-width: 100%; box-sizing: border-box; font-family: inherit; word-wrap: break-word !important;"><p style="margin-top: 5px; margin-bottom: 5px; max-width: 100%; min-height: 1em; text-align: center; line-height: 1.75em; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(127, 127, 127); font-size: 12px; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">机器之心编译</strong></span></p><p style="margin-top: 5px; margin-bottom: 5px; max-width: 100%; min-height: 1em; text-align: center; line-height: 1.75em; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(127, 127, 127); font-size: 12px; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">参与：机器之心编辑部</strong></span></p></section></section></section></section></section></section></section></section></section></section></section></section><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;"></span><br  /></p><blockquote><p style="text-align: justify; line-height: 1.75em;"><span style="color: rgb(136, 136, 136);"><em><span style="font-size: 12px;">今日，加拿大约克大学（York University）电气工程与计算机科学系在 arXiv 上发表了一篇关于认知架构研究的概览性论文，在感知、注意、学习和应用四个方面对认知架构方面的研究和应用进行了概述性的总结。机器之心对该论文进行了略有删减的编译，原论文可点击文末「阅读原文」下载。另外，作者还为本项目开发了直观的交互示意图，连同相关的额外资料可以在这里查看：</span></em></span></p><p style="text-align: justify; line-height: 1.75em;"><span style="color: rgb(136, 136, 136);"><em><span style="font-size: 12px;">http://www.data.nvision2.eecs.yorku.ca/cognitive-architecture-survey/</span></em></span></p></blockquote><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;"><br  /></span></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz_png/KmXPKA19gWibsC7CE9mCiaYfYOVgk5GVGTPwDx8IonZxg8ia1QMqGo5pnibAws61icOpMjvunUib3ibbOvDceeZJtlxeg/0?wx_fmt=png" data-ratio="0.2883116883116883" data-w="1540"  /><br  /></span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><strong><span style="font-size: 14px;">摘要</span></strong></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">在这篇论文中，我们呈现了关于过去 40 年认知架构（cognitive architecture）研究的宏观概述。尽管目前已有架构的数量已经有数百种了，但绝大多数已有的调研都没有反映出这种增长，而只是重点强调了一小部分地位稳固的架构。虽然它们的贡献是不可否认的，但它们只能代表该领域研究的一部分。因此，在这篇调研中，我们将超越对重点的关注，而将我们的范围扩展成对认知架构研究的更具包容性和高层面的概述。我们最终的集合有 86 种架构，其中包括 55 种仍在活跃发展的架构，另外还从一些不同的学科（涵盖从心理分析学到神经科学等）中借用了一些。为了保证本论文长度合理，我们仅讨论了核心的认知能力，比如感知（perception）、注意机制（attention mechanism）、学习（learning）和记忆（memory）结构。为了评估认知架构的实际应用的广度，我们收集了超过 700 个使用了我们列表中的认知架构的实际项目的信息。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">我们使用多种可视化工具重点突出了该领域发展的整体趋势。我们对实际应用的分析表明大部分架构都非常关注于一个特定的应用领域。因此，在机器人和计算机视觉领域的一般研究和在认知架构领域内的研究之间存在一个明显的鸿沟。可以非常明显地看到：生物启发的模型与基于工程原理和启发式的系统相比，在范围和效率上都不一样。我们观察到的另一个情况是合作的普遍缺乏。有几个因素妨碍了人们的交流沟通，比如许多项目封闭的本质（这里审查的架构中仅有三分之一是开源的）和术语差异。</span></p><p><br  /></p><p style="text-align: center; line-height: 1.75em;"><span style="font-size: 16px;"><strong>1 介绍</strong></span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">本论文的目标是提供关于过去 40 年认知架构研究的宏观概述，并重点关注了感知、注意和实际应用。尽管认知架构领域一直以来都在稳健地增长，但过去 10 年来发表的大多数调研都没有反映出这种增长，而基本上只是关注了十几个最成熟的架构。上一次大规模的研究是在 2010 年由 Samsonovich et al. [1] 进行的，他们试图编目已经实现的认知架构。他们的调查包含了 54 种由它们各自的作者提交的认知架构。这些信息以「认知架构对比表」的形式发表到了网上（http://bicasociety.org/cogarch/architectures.htm）。当然，也还有其它认知架构的列表，但它们通常只是一个简短描述加上一个项目网址或软件库的链接而已。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">由于目前还没有详尽的认知架构列表，所以它们的准确数字还是未知的，但是据估计应该有大约 300 种左右，而且其中至少有三分之一的项目目前是活跃的。为了为我们的研究得到这份最初的列表，我们组合了其它调查（发表于最近 10 年内）中提及的架构以及一些大型的在线编目。我们还包含了这些调研文献未提及的最近的架构。图 1 展示了来自 17 个来源（调查、在线编目和谷歌学术）的 195 种认知架构的可视化。很明显可以看到 ACT-R、Soar, CLARION、ICARUS、EPIC、RCS 和 LIDA 等一小部分架构出现在了许多来源中，而所有其它项目只是在在线编目中有简短的提及。尽管这些主要架构的理论和实际贡献是不可否认的，但它们只能代表该领域研究的一小部分。因此，在这篇概述中，我们将避开对重量级架构的特别关注（其他人已经做了很多了），而是将对这整个领域进行一次高层面的概述。</span></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;"><br  /></span></p><p><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz_png/KmXPKA19gWibsC7CE9mCiaYfYOVgk5GVGTD7cvtOsLAuQZQNNmj5KQriaqVGkTiaHYyMicKak8mCNZqfAQNe8n1icicxQ/0?wx_fmt=png" data-ratio="1.1225130890052355" data-w="955"  /><br  /></p><p style="text-align: center; line-height: 1.75em;"><span style="color: rgb(136, 136, 136);"><em><span style="font-size: 12px;">图 1. 来自调查、在线编目和谷歌学术的认知架构的组合列表。左侧的节点表示架构的调查和在线编目，右侧的节点表示单独的项目。节点的厚度表示连接到该节点的边（edge）的数量，即该架构出现的次数（右侧）或所包含的架构的数量（左侧）。</span></em></span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">为了使这次调研足够可操作，我们将原有架构列表缩减到了 86 项。因此，我们重点是至少有一个实际应用和多篇有同行评议的论文的已经实现的架构，我们没有考虑一些哲学上的架构（如 CogAff、Society of Mind、Global Workspace Theory、Pandemonium theory）。我们也排除了大规模脑建模项目（brain modeling project），这是较低层面的，不能轻易映射到由其它认知架构所建模的认知能力的广度上。另外，许多脑模型尚还没有任何实际的应用，因此也不满足本调查的参数。图 2 显示了本调查给出的所有架构和它们根据发表情况得出的大概时间表。它们中有 55 个项目目前是活跃的。</span></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;"><br  /></span></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">正如我们早些时候提到的，给已经实现的认知架构创建一个广泛的和有组织的编目的第一步是 [1]。这个概述包含了 26 个项目的扩展描述，其中包含的信息有：简要概述、主要元素的原理图、共同组分和特征（记忆类型、注意、意识等）、学习和认知发展、认知建模和应用、扩展性和局限性。这一类的调查将一些不相交的社区的研究者聚集到了一起，并帮助建立了这些不同方法和他们所使用的术语之间的映射。但是，这种描述性的和表格式的格式让我们无法对这些架构轻松地进行比较。因为我们的架构样本很大，所以我们实验了可做替代的可视化策略，例如冲积图（alluvial diagram）和圆图（circular diagram），它们常常被用于组织复杂的表格数据。这些图的交互式版本让我们可以探索这些数据和查看相关索引。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">在后续的章节中，我们将提供关于认知的定义和分组认知架构方法的整体概述。作为我们的贡献之一，我们会根据认知架构的感知模式（perception modality）、注意的实现机制、记忆组织、学习类型和实际应用对它们进行映射。认知架构的其它特征，比如元认知（metacognition）、意识（consciousness）和情绪（emotion），不在本次调查的范围内。在准备这篇论文的过程中，我们广泛地审阅了文献，这项活动让我们得到了一个包含 2000 项的相关发表情况的参考目录（bibliography）。我们提供了这份参考目录，同时还带有每篇论文的简短摘要作为补充材料（发布地址：http://www.data.nvision2.eecs.yorku.ca/cognitive-architecture-survey/bib_html/index.html）</span></p><p><br  /></p><p style="text-align: center; line-height: 1.75em;"><strong><span style="font-size: 16px;">2 什么是认知架构？</span></strong></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">认知架构是通用人工智能（general AI）的一个研究分支，它起源于 20 世纪 50 年代，其目标是创建能够解决不同领域问题的程序、培养洞察力、能自己适应新情况并做出反应。同样，认知架构研究的最终目标是实现人类水平的人工智能。根据 Russell 和 Norvig [2]，这样的人工智能可以以四种不同的方式实现：像人类一样思考的系统，能理性思考的系统，像人类一样行动的系统，以及能理性行动的系统。现有的认知架构已经探索了所有四种可能性。例如，像人类一样的思想是源于认知模型的架构所追求的。因此，只要智能系统造成的错误如同相似情况下人类通常做出的错误，则它们的错误是可以容忍的。这与理性思维系统相反，理性思维系统需要为任意任务作出一致和正确的结论。像人类一样行动的机器和理性行动的机器之间的区别也与之相似。在后两种情况中，机器并不期望能像人类一样思考，我们关注的只是它们的行动或反应。</span></p><p><br  /></p><p><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz_png/KmXPKA19gWibsC7CE9mCiaYfYOVgk5GVGTcSNhfXYmcWq2Imz316ZXypibc6lygRfiaruFnlmW4Y4t0o3icxwPhgnaA/0?wx_fmt=png" data-ratio="0.8768267223382046" data-w="958" style="white-space: pre-wrap; font-size: 14px; text-align: justify;"  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;"></span></p><p style="text-align: center; line-height: 1.75em;"><span style="color: rgb(136, 136, 136);"><em><span style="font-size: 12px;">图 2 此次调查的 86 种认知架构的时间表。每条线对应一个认知架构。认知架构按照开始日期排序，因此最老的认知架构在图的最下部。由于只明确知道几个项目的开始和结束日期，因此我们按照项目网页的发布和活动日期还原了时间表。颜色对应于不同类型的架构：symbolic（符号式，绿色），emergent（层创式，红色）和 hybrid（混合式，蓝色）。</span></em></span></p><p><span style="color: rgb(136, 136, 136);"><em><span style="font-size: 12px;"><br  /></span></em></span></p><p style="line-height: 1.75em;"><span style="font-size: 14px;">然而，由于认知没有明确的定义和一般理论，每个架构都是基于不同的前提和假设，使得比较和评估不同的认知架构变得困难。几篇论文试图解决这种不确定性，最著名的是 Sun 对认知架构的期望 [3] 和 Newell 的实用性标准（最初发表在论文 [4] 和 [5] 中，后来重新被 Anderson 和 Lebiere 提及 [6]）。Newell 的标准包括灵活的行为、实时操作、理性、海量知识库、学习能力、发展能力、语言能力、自我意识和大脑觉悟。Sun 的期望更广泛，包括生态、认知和生物进化现实主义、适应性、模块化、常规化和协同互动。除了定义标准，并把它们应用到认知架构的范围，Sun 也指出，明确界定认知的假设和方法存在缺失，这种缺失阻碍了智能研究的进展。他也提到了关于基本二分法（essential dichotomy）（隐式/显式，程序化/声明化等）、模块化认知和结构化记忆，存在一种不确定性。但是，快速浏览一下这些已有的认知架构就可以发现，这些架构在研究目标、结构、操作和应用方面长久存在分歧。</span></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;"><br  /></span></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz_png/KmXPKA19gWibsC7CE9mCiaYfYOVgk5GVGT4IeDicOpHzSXIG0c2B1XxxYtWrqnbWWwNMad0wZjfXz3mbOAUOOek7A/0?wx_fmt=png" data-ratio="0.38354037267080743" data-w="1288"  /><br  /></span></p><p style="text-align: center; line-height: 1.75em;"><span style="color: rgb(136, 136, 136);"><em><span style="font-size: 12px;">图 3 1973 至 2016 年间，活跃的符号式（symbolic）、层创式（emergent）和混合式（hybrid）架构的可视化。在图上显示了同时活跃的项目的最大数量。</span></em></span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">相比于为智能寻求一个特定的定义，也许将智能定义为一个系统所体现的能力和行为的集合更为实际。虽然不存在一个智能所要求的能力的综合列表，但一些已经被认可的宽泛的方向也许可以作为目前认知架构领域工作的指导。例如，Adams 等 [7] 提议了 14 个方向，分别是感知、记忆、注意、社会交互、规划、动机、驱动、推理、交流、学习、为自身/他人建模、建造/创造以及算术能力（perception, memory, attention, social interaction, planning, motivation, actuation, reasoning, communication, learning, emotion, modeling self/other, building/creation and arithmetic abilities.）。这些可以进一步划分为更小的领域。可以说，其中一些类别也许看起来比其他的更重要，且历史上也受到更多关注。比如，根据 Metzler 和 Shea[8]，在近期认知架构的发表中最常被提到的认知功能仅包括感知、学习、推理、决策、计划和行动。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">然而，即使在一个单一架构中仅实现一个缩减的功能集合，也是一个任务繁重的工程。因此，目前只有一小部分架构（如：Soar, ACT-R, NARS [9], LIDA [10]）和几个最近的项目（SiMA [11] 和 OpenCogPrime [12]）在追求通用人工智能（Artificial General Intelligence，AGI）。其他架构则专注某一特定的认知功能，例如注意（ARCADIA [13], STAR [14]）、情绪（CELTS [15]），对称感知（认知对称引擎（Cognitive Symmetry Engine）[16]）或者问题解决（FORR [17], PRODIGY [18]）。还有一些为特定应用设计的专门的架构，比如为平面视觉检测设计的 ARDIS[19]，以及为音乐理解和分类设计的 MusiCog[20]。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">使得一个软件系统能够被称为认知架构的标准也鲜被强调。大多数综述宽泛地定义认知架构为智能的一个蓝图，更具体地，是一个关于心智表征以及运行在这些表征之上的计算过程的设想，它们使得一定范围内的智能行为成为可能（[21], [22], [23], [24], [25]）。总的来说，新的认知架构不需要包括已有的认知架构，例如 Soar，ACT-R，EPIC，LIDA，ICARUS 等。然而，当它并不是那么常见或是一个全新的项目时，我们并不知道考虑现有的这些认知架构是否必要。举个例子，AKIRA 是一个明显的不能自我统一地认为其是一个认知架构 [26]，但是它的特性仍然被很多综述提及 [27]。类似的，知识库 Cyc [28] 从未对任何通用智能有所声称，却仍然在一篇论文中被总结为一个 AGI 架构 [29]。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">Larid [30] 讨论了认知架构与其他软件系统有何不同。虽然它们都有记忆存贮、控制部件、数据表示和输入/输出设备，但其它软件系统只提供了一个用于一般计算的固定模型。而认知架构则必须随着发展而改变，并且高效地运用知识完成新的任务。此外，他认为用工具包（toolkit）和框架（framework）建立的代理（agent）架构也不能被当做认知架构，因为它们缺乏理论支持。这是一个相当严格的条件，除了 Soar 和 ACT-R，只有很少的架构能够符合这个要求。这一观点在综述论文里也不常见，通常代理架构和用来建造它们的工具包也会被包括在内。例如，代理架构 3T、PRS 和 ERE 被包括在了 [31] 内；Pogamut，一个用于建立智能代理的框架，也被包含在了 [1] 中。</span></p><p style="text-align: center; line-height: 1.75em;"><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">最近，谷歌（DeepMind）声称深度学习能够「解决人工智能（solving AI）」。类似地，Facebook 人工智能研究实验室（FAIR）及其它一些公司也在这个方向上活跃地进行研究。这些研究在认知架构方面具有怎样的地位呢？在目前，深度学习一些最广为人知的成就包括用于自动驾驶汽车的视觉处理（Mobileye）和谷歌的能够下围棋 [32] 和玩多种视频游戏 [33] 的神经网络。</span></p><p><br  /></p><p><span style="font-size: 14px; text-align: justify;">另一方面，DeepMind 发表的论文（没有在媒体上打广告）涵盖了范围很广的主题。比如说，许多论文都致力于与循环神经网络和深度神经网络相关的理论问题。此外，神经网络也被用来构建复杂的视觉注意和记忆（visual attention and memory）模型，比如：一种用于识别图像中多个对象（如门牌号序列）的基于注意的模型 [34]。记忆（memory）在深度学习领域具有特殊的重要性，因为为了寻找和利用数据中的复杂模式，网络应该要能执行链式的顺序计算。但是，在深度网络中，来自过去的计算的信息会受到新信息的影响。网格式长短期记忆（Grid Long Short-Term Memory/Grad LSTM）通过提供一种动态式选择或忽略输入的方式而解决了这个问题，从而可以在学习过程中保留重要的记忆 [35]。</span><br  /></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">整体上看，DeepMind 的研究解决了人工智能领域里一些重要的问题，比如自然语言理解、感知处理、通用学习和用于评估人工智能的策略。尽管特定的模型已经证明了在有限领域内的认知能力，但目前它们还无法代表一种统一的智能模型。</span></p><p><br  /></p><p><span style="font-size: 14px; text-align: justify;">和 DeepMind 不一样，Facebook 的研究团队是在开发智能机器的更广阔的语境中明确讨论他们的成果 [36]。他们的主要观点是：人工智能是在太复杂了，以至于不能一次性开发出来，而是应该首先定义智能的通用特征。他们已经定义出了两个智能的通用特征：交流（communication）和学习（learning），并且还提出了一个逐渐发展它们的具体的路线图。这个方向的第一步是人工生态系统（artificial ecosystem，或称「幼儿园」），其被提出用于教育智能代理（intelligent agent），从而强调了这个过程的发展性本质。他们的计划是从更简单的模拟环境开始，然后逐渐增加其复杂度，直到最后它能够将人工代理和真实世界连接起来。鉴于这种对交流和学习的强调，这种智能机器的一种主要应用就是电子助理。作者承认类似的想法在过去已经得到过尝试（如，常被符号架构用于学习的 Blocks World 模拟），但它们都过于依赖于其创造者所提供的数据。</span><br  /></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">目前没有文献提及这样的系统，但 FAIR 追求的研究主题与其人工智能展望也与各家公司的商业利益相一致。常见的相关话题包括可视化处理，特别是分割和目标探测、数据挖掘、自然语言处理、人机交互和网络安全。目前深度学习技术主要用于解决实际问题，并不代表一个统一框架，所以不包括在此次调查的范围内。当然，鉴于深度学习的潜力，这一方法将来可能会在认知架构中发挥作用。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">对于其他架构，我们定义了以下选择标准，努力实现包容和一致：自我识别作为认知，机器人或代理架构，已有实现（不必是开源的），以及用于感知、注意和学习的机制。为了进一步缩小调查的范围，我们需要至少存在同行评审的论文和应用，而不能只有简单的演示。但为包括一些仍在开发中的新架构，其中的部分条件得到了放宽。</span></p><p style="text-align: justify; line-height: 1.75em;"><br  /></p><p style="text-align: center; line-height: 1.75em;"><strong><span style="font-size: 16px;">3 认知架构的分类</span></strong></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">过去十年发表的许多论文提出的多是认知架构的评估而非分类。像之前提到的，Newell 的标准和 Sun's Desiderata 就属于评估这一类。相似的，Langley 等人将认知架构的能力，性能和评估标准定义成一个综合的列表。认知能力的建议集合包括识别，作出决定，感知，预测，计划，行动，交流和学习。为了评估构架，提出了例如通用性，多能性，自主性的标准。与此同时，Vernon 等人列出了比较认知和浮现式方法的 12 个特征，包括体现，感知，行为，适应，动机，自主化和其他。相似的，Asselman 等人则通过 7 个标准（认知，记忆，学习，模块化，目标设定，基本模型和解决问题）评估构架。Thorisson 和 Helgasson 基于 4 个标准（实时操作，学习，注意和元学习）来决定自主化的水平。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">许多标准可以被用来划分架构，但它们应用在一般的构架时会显得过于细致。因此，基于它们表现出的信息加工的种类来划分认知架构是更为常见的方法。三个分类方法被称作：符号式（认知主义），层创式（联结主义），混合式。这种基于信息加工的分类方法被 Duch 等人 [21] 拓展到含每个类别的典型记忆和学习性能（[38], [39])）。</span></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;"><br  /></span></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">符号式系统通常在一系列可用于表现世界的真相的符号中作为 if-then rules（也被称作 production rules）执行。因为它是知识的一种自然而直观的表达方式。符号式操作十分普遍。尽管经过设计，但符号式系统在计划和推理方面有优势，而在被要求处理变化的环境和感知过程时缺乏灵活性和坚固性。</span><br  /></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">层创式方法通过建立大量的并行模型，类比神经网络（此处信息流是通过从输入节点的信号波及表现的）解决了上述问题。但是，这样的系统也丧失了它的透明性。因为知识不再是一系列符号化的实体而是分布在网络中。因而同样，传统意义上的推理在层创式架构中存在问题。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">自然地，每个范例都有着它的优缺点。例如，任何符号式架构都需要大量的工作去建立一个初始的知识基础。但一旦它建立好，整个架构就会变得十分有效。而另一方面，层创式架构更容易设计，但它们必须经过训练才能完成有效的动作。更重要的是，它们的已存在网络可能会因为接下来学习的新行为而被摧毁。</span></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;"><br  /></span></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">由于没有任何一个范式（paradigm）可以单独处理全部的人工智能问题，混合架构试图结合符号式和层创式两种元素。总的来说，两者如何混合没有一个明确的限制，但有的方法更加直观且易于执行。例如，CLARION 基于不同知识类型有不同的表现形式：明确的事实知识用符号式，程序中暗含的知识用亚符号式 [40]。4CAPS 将传统的符号式生产系统用联结主义的计算机制：如阈值、激活、权重和并行处理来诠释 [41]。这种混合方式被 Duch 等人 [21] 称作符号式联结主义（symbolicconnectionist）。同时他们也定义了一种替代的地区性分布方法。后者很好的例子就是 Leabra，它在学习不变事物的检测时用到了标签的地方主义（localist）表征和特征的分布式表征 [42]。在 [43] 中，这两种混合式的表征被分别称作平行和垂直的整合。一个混合联结主义-符号化模型的更为细致的分类方法在 [44] 中呈现。</span></p><p><br  /></p><p><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz_png/KmXPKA19gWibsC7CE9mCiaYfYOVgk5GVGTwPKQRvuL5Xia8Kfd5Qc9iazEm1FNLlIjcJdDVHRnMOw1ZGWkls5SNpjA/0?wx_fmt=png" data-ratio="0.5923994038748137" data-w="1342"  /><br  /></p><p style="text-align: center; line-height: 1.75em;"><em><span style="font-size: 12px; color: rgb(136, 136, 136);">图 4：Duch et al. 在 [21] 中提出的分类方式；</span></em></p><p style="text-align: center; line-height: 1.75em;"><em><span style="font-size: 12px; color: rgb(136, 136, 136);">图 5：Sun 在 [45] 中提出的分类方式；</span></em></p><p style="text-align: center; line-height: 1.75em;"><em><span style="font-size: 12px; color: rgb(136, 136, 136);">图 6：Gray 在 [46] 中提出的分类方式</span></em></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">有趣的是，层创式架构只在最近时期才获得更多的比重，尽管这一方向的研究至少与传统人工智能一样活跃。例如 Langley 等人 [22] 在他们的调查中没有加入联结主义模型，因为他们没有发现这一架构与符号模型和混合模型相同的功能。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">考虑到混合方式的优点，这样的架构有最高的增长趋势便不足为奇了（图 3）。所以，我们的数据证明了 Duch 等人 [21] 在 10 年前的预测。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">文献资料中仍没有多少其他的分类方法。Sun[47]（图 5）的方案强调模块化和模块之间的通信。然而，遵循此类方法需要所有架构的实现方式细节，这些信息经常不能获得。其他分类方案也很具体，如 Gray[46] 提出的方案，其重点在于架构的目的及使用。</span></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;"><br  /></span></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;"></span></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">因此，在本次研究中，我们遵循符号、层创和混合架构的传统区分方式。由于我们介绍的架构的背景跨越从哲学到神经生物学的广泛研究领域，我们不会试图创立一个单一的体系来适应它们。我们不会对每一个认知功能分别进行讨论，而是以功能（即：感知、注意、记忆和学习）进行分类的讨论。我们从发表情况中提取了数据，并按频率进行了分组。</span></p><p><br  /></p><p style="text-align: center; line-height: 1.75em;"><span style="font-size: 16px;"><strong>4. 感知&nbsp;</strong></span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz_png/KmXPKA19gWibsC7CE9mCiaYfYOVgk5GVGTYvZtXxTdJS6AVgQkJyMLia6RLppZ6NcHd0303DHU3MgLW3KGb9vmmfQ/0?wx_fmt=png" data-ratio="0.91328125" data-w="1280" style="text-align: justify; white-space: pre-wrap;"  /></p><p><br  /></p><p style="text-align: center; line-height: 1.75em;"><em><span style="font-size: 12px; color: rgb(136, 136, 136);">图 7 显示了认知架构的感知通道（sensory modalities）。该架构分成三组： 符号式（绿色），层创式（红色）和混合式（蓝色），位于图底端。图中其他部分对应不同的感知通道，包括视觉、听觉、触觉、嗅觉和本体感觉。这个感知分类还包含了不对应任何人类感官的多种感知。「符号输入」类别表示的是认知架构中的输入只限于文本形式，或者需要通过 GUI。这不包括文本输入模拟音频、视觉或其他类型的信息。图中每个大类别扇形中的带表示的是这些感知通道的子类别（例如视觉类别下包括 Kinect、单眼相机、模拟等）。感知通道与架构之间的条形是用来表示它们之间的连接。如果一个架构控制多个感官，条形就越不透明。每个认知架构的感知方式列表都带有相关文献，被包括在补充材料和图形的互动版本中。</span></em></p><p><br  /></p><p style="text-align: center; line-height: 1.75em;"><span style="font-size: 16px;"><strong>5. 注意</strong></span></p><p style="text-align: justify; line-height: 1.75em;"><strong><span style="font-size: 14px;"><br  /></span></strong></p><p style="text-align: justify; line-height: 1.75em;"><strong><span style="font-size: 14px;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz_png/KmXPKA19gWibsC7CE9mCiaYfYOVgk5GVGTODj3J4qfDrvz6XHWfwIUd2MQrIW3fertoBibdgTbhbXpj48E9aSuYDQ/0?wx_fmt=png" data-ratio="0.8060567010309279" data-w="1552"  /><br  /></span></strong></p><p style="text-align: center;"><span style="color: rgb(136, 136, 136);"><em><span style="text-align: justify; font-size: 12px;">图 8 显示了认知架构中不同类型的注意。</span></em></span></p><p><br  /></p><p style="text-align: center; line-height: 1.75em;"><span style="font-size: 16px;"><strong>6. 记忆</strong></span></p><p><br  /></p><p><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz_png/KmXPKA19gWibsC7CE9mCiaYfYOVgk5GVGTbXT8r3Blfib0wJpO1icJd0NonawYPt4RwBQc4GSjKOFn7RkI25W1jf8A/0?wx_fmt=png" data-ratio="0.9255150554675119" data-w="1262"  /><br  /></p><p style="text-align: center; line-height: 1.75em;"><span style="color: rgb(136, 136, 136); font-size: 12px;"><em><span style="color: rgb(136, 136, 136);">图 9 显示了认知架构中不同类型的短期记忆（STM）和长期记忆（LTM）</span></em></span></p><p><br  /></p><p style="text-align: center; line-height: 1.75em;"><span style="font-size: 16px;"><strong>7. 学习</strong></span></p><p><br  /></p><p><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz_png/KmXPKA19gWibsC7CE9mCiaYfYOVgk5GVGTarZcGlmck6KU39GuEq8Km2pXwT1Lqp6rDmzI6kNkEkErW9VKeB5Eug/0?wx_fmt=png" data-ratio="0.7389758179231863" data-w="1406"  /><br  /></p><p style="text-align: center; line-height: 1.75em;"><span style="color: rgb(136, 136, 136);"><em><span style="font-size: 12px;">图 10 显示了认知架构中的学习机制。</span></em></span></p><p><br  /></p><p style="text-align: center; line-height: 1.75em;"><span style="font-size: 16px;"><strong>8. 认知架构的应用</strong></span></p><p style="text-align: justify; line-height: 1.75em;"><strong><span style="font-size: 14px;"><br  /></span></strong></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">本论文中的回顾的大部分认知架构都是研究工具几乎很少被开发到学界之外的应用。然而，还是可以讨论一下他们的实际应用的，因为不同情境下有用的行为被认为是许多认知结构的目标。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">彻底研究过这些发表的论文后，我们使用 86 个认知架构确定了 700 多条 project，如图 11 显示。所有的应用都可以划分到几个大组（group）中，即人类表现建模（human performance modeling，HPM）、游戏和拼图（puzzles）、机器人、心理学实验，自然语言处理和其他杂项，还包括了不属于任何大组的项目，它们由于太少所以无法独立成大组。这样的分组强调了每个 project 的应用，即便每个研究者有不同的目的。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">一些应用可能会被划分到多个组。例如，装上一只机器手臂的 Soar 一直被用来玩棋盘游戏，这就同时关涉到机器人、游戏和拼图以及心理学实验。为了避免让这张图过于复杂，在这些案例中我们只将 project 放在了主要的组中考虑，在 Soar 的例子被划为游戏，因为它在机器人上的应用并不是很大，而且心理学实验组主要是使用 ACT-R 的 fMRI 实验。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><strong><span style="font-size: 14px;">人类表现模型（HPM）</span></strong></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">人类表现模型是一个与建立某个特定任务环境中的人类表现的量化模型相关的研究领域。这些模型主要用于几个工程领域，在这些领域中，设计可能性的空间非常大，导致实证的评估方式不可行或者成本太高。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">这种建模类型一直用于军事应用，例如，Apache 直升机机组人员的负荷分析，战场感知中通信任务的影响建模 [230]，AAW 领域的决策制定 [231] 等等。普通的民用包括空中交通管制任务的模型（例如，COGNET[232]）, 飞机滑行失误 [233]，911 调度员 HPM 用的是少数专用架构，包括 OMAR、 APEX、COGNET,、MIDAS 和 IMPRINT。Soar 在大规模分布式军事模拟战中用于部署某个飞行员模型&nbsp;</span></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">&nbsp;</span></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">例如，导航中会用到一个机器人，无论是从推理上还是作为某个学习算法的演示，它都会被归为机器人组。唯一的例外是心理学试验组，其中还包括心理社会学、fMRI 和 EEG 试验。这个组中的 project 是由认知架构执行的，用于与人类数据对比的特定的心理实验（例如倒数 n 任务、调节或注意的盲目性）。游戏和拼图类别包括不同领域中的棋盘游戏、视频游戏、拼图和逻辑推理的应用。HPM 对关于机组人员（aircraft crew）、核电站的操作员以及执行其他复杂任务的人的建模很有用，例如电话接线员和空中交通运维人员。大部分自然语言处理应用都关涉到对说出或打出来的命令的理解，也与社交机器人有关。然而该组中也有一些 project 用于意义排歧和句子整体意义理解的。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><strong><span style="font-size: 14px;">人机交互（HRI）</span></strong></p><p style="text-align: justify; line-height: 1.75em;"><strong><span style="font-size: 14px;"><br  /></span></strong></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">HRI 是研究人与机器人对话中不同方面的多学科领域。这些互动大部分都发生在社交式的、辅助式的或发展式的机器人语境中。根据机器人的自动化水平，互动可以扩展到从直接控制机器人（遥控）到其完全自动化的任务中，实现人机对等合作。虽然该项研究中的系统还没有一个能达到完全自动化的水平，但它们可以实现一定程度上的监控，从用单韵母表示机器人的运动方向 [SASE236] 到自然语言指令（例如 Soar[237]，HOMER[88]、iCub[238]）。通常的假设是，一个命令有一个特定的形式，而且使用的词汇有限。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">某些架构也用于 HRI 的非口语（non-verbal）方面，例如对话的自然轮转（Ymir[239]，Kismet[240]，改变面部表情（Kismet [241]）或者转向护理机器人（MACsi[242]）。</span></p><p><br  /></p><p><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz_png/KmXPKA19gWibsC7CE9mCiaYfYOVgk5GVGTSVPcJVrGPISd6CabzcNUwTDRkyq7G7YquAT7c2q796DTto1sbyVKhg/0?wx_fmt=png" data-ratio="0.8993576017130621" data-w="1401"  /><br  /></p><p style="text-align: center; line-height: 1.75em;"><em><span style="font-size: 12px; color: rgb(136, 136, 136);">图 11. 认知架构的实际应用图。这些架构被分成了三组：符号式（绿色）、层创式（红色）和混合式（蓝</span></em><span style="font-size: 12px; color: rgb(136, 136, 136);"><em>色）。应用被分成了代表不同领域的组。其中每一个应用都是使用了一种认知架构实现的特定项目，并且还得到了相关论文、软件或视频演示的支持。其中不包括仅有部分结果或实物模型的项目。另外，涉及与该架构中其它部分隔开的特定算法的例子也没有被包括进来。可视化使用 http://www.circos.ca (http://www.circos.ca/) 完成。关于每种认知架构的应用列表及相关索引可见于补充材料中，也可以在该图的交互式版本中查看。</em></span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><strong><span style="font-size: 14px;">自然语言处理（NLP）</span></strong></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">这一组的应用是关于理解书面语言和口头语言。尽管使用现成的软件来进行语音识别和文本解析对认知架构来说很常见，但也有一些架构为 NLP 研究做出了贡献。特定的例子包括：照明分辨率（Polyscheme [243]，NARS [244]，DIARC [245]）、语音识别基准（Sigma [246]，[247]，SASE [248]）和学习英语被动语态（NARS [244]）。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><strong><span style="font-size: 14px;">归类和聚类（Categorization and Clustering）</span></strong></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">归类（categorization）、分类（classification）、模式识别和聚类是从大数据集中提取概括信息（general information）的常见方式。在认知架构的背景中，这些方法可被用于处理嘈杂的感官数据。这一组的应用几乎完全都是用层创式架构（emergent architectures）实现的，比如 ART 和 HTM，它们被用作是复杂的神经网络。尤其是 ART 网络已经在范围广泛的领域的分类问题上得到了应用，包括电影推荐（Netflix 数据集 [249]）、医疗诊断（Pima-Indian 糖尿病数据集 [250]）、错误诊断（气动系统分析 [251]）、元音识别（Peterson and Barney 数据集 [252]）、气味识别 [253] 等等。HTM 架构面向时序数据分析（analysis of time series data），例如预测 IT 故障（grokstream.com）、监测库存（numenta.com/htm-for-stocks）、预测出租车乘客需求 [254] 和基于按键模式识别手机使用类型（电子邮件、电话等等）[255]。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">一些非层创式架构（non-emergent architecture）的例子包括根据追踪套装识别手势（Ymir [256]）、电信网络故障诊断（PRS [257]）和基于关于作者和引用的信息分类文档（OpenCogPrime [258]）。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><strong><span style="font-size: 14px;">计算机视觉</span></strong></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">这一新兴的认知架构也被应用于解决典型的计算机视觉问题。目前只有一些独立的例子，例如笔记特征识别（HTM[259],[260]）、图像分类基准（HTM[261],[262]）、视角无关性字母识别（ART[263]）、纹理分类基准（ART[264]）、不变目标识别（Leabra[265]），等。计算机视觉的的应用经常是任务处理的一部分，如机器人导航，这在本论文的相关章节也有谈及。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><strong><span style="font-size: 14px;">游戏和解谜</span></strong></p><p style="text-align: justify; line-height: 1.75em;"><strong><span style="font-size: 14px;"><br  /></span></strong></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">该分类内的应用包括棋盘游戏、视频游戏以及解决有限领域内的难题。简单的包含重叠旗子的棋盘游戏如井字棋，八数码和五数码问题经常被用来证明知识迁移（例如 Soar[227]，FORR[266]）。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">视频游戏也是认知架构应用的虚拟领域。在最受欢迎的游戏《虚幻竞技场 2004》（UT2004）中有一个开源工具包 Pogamut[267] 可以自由创建智能的虚拟角色。另外，它还有许多同类型的竞争者，玩家们在这些游戏中不仅需要关注得分和效率，同时也得保持与游戏中虚拟角色的关系（2K BotPrize Contest7）。Pogamut 不仅 实现了很多认知功能，它还是 BotPrize 比赛推荐的软件，可以经过修改实现更多的特性（[268], [269], [270], [271], [271], [272]）。其他的此类游戏包括《Freeciv（REM [273]）》，《Atari Frogger II（Soar [274]）》，《Infinite Mario（Soar[275]）》，网页端游戏（Star[276]）和一些定制游戏。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><strong><span style="font-size: 14px;">心理实验</span></strong></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">心理实验的应用是使用认知架构的多种心理生理学研究，包括 fMRI 和 EEG 实验。此类实验利用认知架构可以对人类指标进行数字化建模，或对心理现象给出合理的解释。如果由模拟产生的数据在一些或大多数方面与人类数据匹配，则说明给定认知架构可以模仿人类生理机制。随后，认知模型可以用于对不同情况下的行为进行预测或进一步分析，最后可帮助人们对已知现象背后的心理机制进行解释。</span></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;"><br  /></span></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">大多数实验在模拟环境中进行，尽管在实体机器人中也存在一些例子（例如，在 DarwinVII 机器人上的感知分类模型 [181]）。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><strong><span style="font-size: 14px;">机器人</span></strong></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">在机器人中，认知架构有许多应用。导航和避障是基础的行为，对机器人自身有帮助，也可作为更复杂行为的一部分，比如辅助机器人。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">在机器人早期研究中，做杂务是非常的流行的用来有效证明机器人能力的方式。一些著名的样例包括垃圾收集移动机器人（3T [277]）、苏打罐收集机器人（Subsumption [278]）。通过结合简单的视觉技术（比如边缘检测和模板匹配）和传感器技术（导航），这些机器人能够在未知环境中发现感兴趣的目标。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">最近的认知架构倾向于分开解决搜索和目标操控任务。典型的，有的实验是在可控环境中完成视觉搜索，对明亮颜色或者可识别的形状的喜好可用来最小化视觉处理任务。有时会使用到标记（markers），比如将条形码附属到目标上进行更轻松的识别（Soar[279]）。需要主要的是，这些案例中的视觉搜索通常是更复杂任务的一部分，比如通过指令进行学习。在视觉搜索和定位是最终目标时，环境更为真实（例如，通过传感器和 SIFT 特征的结合，CoSy 控制机器人在书架上找到一本书 [280]）。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">目标操控涉及到控制机械臂触碰并抓取（reach and grasp）目标。虽然触碰是相对简单的一个问题，且许多架构部署不同形式的机械臂控制，在模拟环境中抓紧目标却更具挑战性。抓取的复杂性由多种因素决定，包括抓手的类型、目标的特性。一种变通方案是用软体目标进行试验，比如毛绒玩具（ISAC [281]）。近期的研究涉及到通过 DIARC [282], [282]控制的机器人证明可以抓取不同类型的目标（在顶部或边缘有抓手的目标）。另一个例子是 iCub[283] 根据抓取瓶罐的大小、抓取的箱子和直尺等不同目标进行适应。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">其他应用包括机器人销售员、教师、医疗机器人等。工业应用由单个架构 4D-RCS 所代表，已经被远程控制的吊机机器人 [284]、架桥机器人[285]、自动清洗和去毛刺工作站机器人[286]和美国邮局自动邮票分发中的机器人[287]等使用。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><strong><span style="font-size: 14px;">虚拟代理</span></strong></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">模拟和虚拟现实总是被频繁用为物理化身的替代。例如，在军事领域，危险情境下军人的模拟模型行为不会对身体造成伤害。其他例子包括在自杀式炸弹袭击场景中建模代理（CoJACK [73]）、维和部队训练（MAMID [190]）、在复杂的城区地形的指令和控制（RCAST[288]）、坦克战模拟（CoJACK[289]）。</span></p><p><br  /></p><p style="text-align: justify; line-height: 1.75em;"><span style="font-size: 14px;">在民用领域，模拟建模智能代理的行为也非常常见。虚拟环境的一个优势是它能提供关于代理任意时间点的状态信息。这对学习临场情感影响非常有帮助，例如在社交环境（ARS/SiMA[290]）或学习场景中，比如与虚拟的狗狗玩耍（Novamente[291]）。</span></p><p><br  /></p><p style="text-align: center; line-height: 1.75em;"><strong>9 讨论（略）</strong></p><p style="text-align: center; line-height: 1.75em;"><strong><br  /></strong></p><p style="text-align: left; line-height: 1.75em;"><span style="font-size: 14px;">参考文献见下载论文</span><strong><span style="font-size: 14px;"></span><br  /></strong></p><p style="text-align: left; line-height: 1.75em;"><span style="font-size: 14px;"><br  /></span></p><p style="text-align: left; line-height: 1.75em;"><span style="font-size: 14px;"></span></p><p style="max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); font-size: 16px; text-align: justify; line-height: 1.75em; background-color: rgb(255, 255, 255); box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; line-height: 25.6px; font-family: 微软雅黑; font-size: 14px; box-sizing: border-box !important; word-wrap: break-word !important;"><em style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; font-style: normal; color: rgb(127, 127, 127); box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; color: rgb(62, 62, 62); line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;"><em style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; font-style: normal; color: rgb(127, 127, 127); box-sizing: border-box !important; word-wrap: break-word !important;">©本文由机器之心编译，<strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><em style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; font-style: normal; box-sizing: border-box !important; word-wrap: break-word !important;">转载请联系本公众号获得授权</span></em></strong></span></em></strong>。</span></em></strong><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"  /></p><p style="margin-bottom: 5px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); font-size: 18px; line-height: 1.75em; background-color: rgb(255, 255, 255); box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(127, 127, 127); line-height: 25.6px; font-family: 微软雅黑; text-align: justify; box-sizing: border-box !important; word-wrap: break-word !important;">✄------------------------------------------------</span></p><p style="margin-bottom: 5px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); font-size: 18px; font-family: 微软雅黑; text-align: center; line-height: 1.75em; background-color: rgb(255, 255, 255); box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(217, 33, 66); font-size: 12px; box-sizing: border-box !important; word-wrap: break-word !important;">加入机器之心（全职记者/实习生）：hr@almosthuman.cn</span></strong></p><p style="max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); font-size: 18px; font-family: 微软雅黑; text-align: center; line-height: 1.75em; background-color: rgb(255, 255, 255); box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(217, 33, 66); line-height: 1.6; font-size: 12px; box-sizing: border-box !important; word-wrap: break-word !important;">投稿或寻求报道：editor@almosthuman.cn</span></strong></p><p style="max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); font-size: 18px; font-family: 微软雅黑; text-align: center; line-height: 1.75em; background-color: rgb(255, 255, 255); box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; font-size: 12px; color: rgb(217, 33, 66); line-height: 1.6; box-sizing: border-box !important; word-wrap: break-word !important;">广告&amp;商务合作：bd@almosthuman.cn</span></strong></p><p style="max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; background-color: rgb(255, 255, 255); box-sizing: border-box !important; word-wrap: break-word !important;"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"  /></p><p style="max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; text-align: center; background-color: rgb(255, 255, 255); box-sizing: border-box !important; word-wrap: break-word !important;"><img data-ratio="1" data-s="300,640" data-src="http://mmbiz.qpic.cn/mmbiz_png/KmXPKA19gWibWyk1o4CFoo380DegN6BOw7z4cMruG9ibPwWpE5avEExG18UOLQO0BNE7oQDvBAdnUllldEstaIHw/640?wx_fmt=png" data-type="png" data-w="600" style="box-sizing: border-box !important; word-wrap: break-word !important; visibility: visible !important; width: auto !important;" width="auto"></p>
+                </div>
+                <script nonce="1985910362" type="text/javascript">
+                    var first_sceen__time = (+new Date());
+
+                    if ("" == 1 && document.getElementById('js_content')) {
+                        document.getElementById('js_content').addEventListener("selectstart",function(e){ e.preventDefault(); });
+                    }
+
+                    
+                    (function(){
+                        if (navigator.userAgent.indexOf("WindowsWechat") != -1){
+                            var link = document.createElement('link');
+                            var head = document.getElementsByTagName('head')[0];
+                            link.rel = 'stylesheet';
+                            link.type = 'text/css';
+                            link.href = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+                            head.appendChild(link);
+                        }
+                    })();
+                </script>
+
+                
+                <div class="ct_mpda_wrp" id="js_sponsor_ad_area" style="display:none;"></div>
+                
+                
+                <div class="read-more__area" id="js_more_read_area" style="display:none;">
+                    
+                </div>
+
+                
+                                <div class="reward_area tc reward_area_primary" id="js_preview_reward_author" style="display:none;">
+                    <div class="reward-avatar" style="display: none;" id="js_preview_reward_author_avatar">
+                        <img src="" alt="" id="js_preview_reward_author_head">
+                    </div>
+                    
+                                        <div class="reward-author" id="js_preview_reward_author_name"></div>
+                                        <p class="reward_tips" id="js_preview_reward_author_wording" style="display:none;"></p>
+                    <p>
+                        <a class="reward_button" id='js_preview_reward_author_link' href="##"><span id="js_preview_reward_link_text">赞赏</span></a>
+                    </p>
+                </div>
+
+                <div class="reward_qrcode_area reward_area tc" id="js_preview_reward_qrcode" style="display:none;">
+                    <p class="tips_global">长按二维码向我转账</p>
+                    <p id="js_preview_reward_ios_wording" class="reward_tips" style="display:none;"></p>
+                    <span class="reward_qrcode_img_wrp"><img class="reward_qrcode_img" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_reward_qrcode.2x42f400.png"></span>
+                    <p class="tips_global">受苹果公司新规定影响，微信 iOS 版的赞赏功能被关闭，可通过二维码转账支持公众号。</p>
+                </div>
+                                
+                
+                            </div>
+                                        
+                                
+
+                        
+            <ul id="js_hotspot_area" class="article_extend_area"></ul>
+
+
+            
+
+            
+
+
+<div class="rich_media_tool" id="js_toobar3">
+
+        <a class="media_tool_meta meta_primary" id="js_view_source" href="##">阅读原文</a>
+        <div id="js_read_area3" class="media_tool_meta tips_global_primary meta_primary" style="display:none;">阅读 <span id="readNum3"></span></div>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_praise" id="like_old">
+        <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum_old"></span>
+    </span>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_like" id="like3">
+        <button class="like_btn" id="js_like_btn"> 
+          <span id="js_like_wording"> 好看</span><span class="like_num" id="likeNum3"></span>
+        </button>
+    </span>
+
+    <div id="js_like_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog weui-dialog_haokan">
+        <div class="weui-dialog__hd"><strong class="weui-dialog__title" id="educate_title">已推荐到看一看</strong></div>
+        <div class="weui-dialog__bd">
+          <img class="pic_haokan" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_haokan42f400.png">
+            你的朋友可以在“发现”-“看一看”看到你认为好看的文章。        </div>
+        <div class="weui-dialog__ft" id="educate_btn" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_default" id="js_cancel">取消</a>
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_confirm">推荐</a>
+        </div>
+        <div class="weui-dialog__ft" id="educate_btn2" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_acknowledge">我知道了</a>
+        </div>
+        </div>
+    </div>
+
+    <div id="js_unlike_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog">
+        
+        <div class="weui-dialog__bd">
+            已取消，“好看”想法已同步删除        </div>
+        <div class="weui-dialog__ft">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_unlike_know">知道了</a>
+        </div>
+        </div>
+    </div>
+
+    
+    </div>
+
+
+<div class="like_comment_wrp" id="js_a_like_comment" style="display: none;">
+  <div class="like_comment_inner">
+    <div class="like_comment_hd" style="display:none" id="js_like_title"></div>
+    <div class="like_comment_bd">
+      <div class="tips_global_primary like_comment_tips">
+        <i class="weui-icon-success"></i>已推荐到看一看<a href="javascript:;" class="like_comment_share_link" id="js_a_like_comment_share">和朋友分享想法</a>
+      </div>
+    </div>
+    <div class="like_comment_ft">
+      <span id="js_a_like_comment_msg" class="like_comment_msg" style="visibility:hidden">最多200字，当前共<span id="js_a_like_current_cnt"></span>字</span>
+      <button class="like_comment_btn" disabled="disabled" id="js_a_like_confirm">发送</button>
+    </div>
+  </div>
+</div>
+
+<div id="js_like_toast" style="display: none;">
+  <div class="weui-mask_transparent"></div>
+  <div class="weui-toast">
+    <i class="weui-icon-success-no-circle weui-icon_toast"></i>
+    <p class="weui-toast__content" id="js_toast_msg">已发送</p>
+  </div>
+</div>
+
+
+<div style="display: none;" id="js_b_comment_panel" class="like_comment_primary_pop">
+  <div class="like_comment_primary_wrp" id="js_b_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <h4 class="like_comment_primary_title">
+          朋友将在看一看看到        </h4>
+        <button id="js_b_like_confirm" class="like_comment_primary_btn">确定</button>
+      </div>
+      <div id='js_b_comment_text_first' class="like_comment_primary_bd">
+        <span class="tips_global_primary">
+          分享你的想法...        </span>
+      </div>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_1"></div>
+</div>
+
+<div style="display: none;" id="js_b_comment_final">
+  <div class="like_comment_primary_wrp editing" id="js_comment_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <button class="like_comment_primary_cancel" id="js_b_comment_cancel">取消</button>
+        <h4 class="like_comment_primary_title"> 分享想法到看一看 </h4>
+        <button class="like_comment_primary_btn" id="js_b_comment_confirm">确定</button>
+      </div>
+      <div class="like_comment_primary_bd">
+        <textarea class="like_comment_textarea weui-textarea" placeholder="分享你的想法..." id="js_b_comment_text_second"></textarea>
+      </div>
+      <span class="like_comment_msg" id="js_b_like_comment_msg" style="visibility: hidden;">最多200字，当前共<span id="js_b_like_current_cnt"></span>字</span>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_2"></div>
+</div>
+
+<div id="js_loading" style=" display: none;">
+    <div class="weui-mask_transparent"></div>
+    <div class="weui-toast">
+        <i class="weui-loading weui-icon_toast"></i>
+        <p class="weui-toast__content">发送中</p>
+    </div>
+</div>
+
+<div id="js_fail" style="display:none">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+    <div class="weui-dialog__bd">
+        网络异常，请稍后重试    </div>
+    <div class="weui-dialog__ft">
+      <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_fail_inform">知道了</a>
+    </div>
+    </div>
+</div>
+
+
+
+                      </div>
+        </div>
+
+        <div class="rich_media_area_primary sougou" id="sg_tj" style="display:none"></div>
+
+
+        
+        <div class="rich_media_area_extra">
+          <div class="rich_media_area_extra_inner">
+              
+              <div id="js_share_appmsg">
+              </div>
+
+              
+                            <div class="mpda_bottom_container" id="js_bottom_ad_area"></div>
+                            
+              <div id="js_iframetest" style="display:none;"></div>
+                            
+              <div class="rich_media_extra rich_media_extra_discuss" id="js_cmt_container" style="display:none">
+                
+
+                
+                <div class="discuss_mod" id="js_friend_cmt_area" style="display:none">
+                  
+                  
+                  
+                </div>
+
+                                <div class="discuss_mod" id="js_cmt_area" style="display:none">
+                </div>
+                              </div>
+          </div>
+        </div>
+
+        
+        <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">
+            <div class="qr_code_pc_inner">
+                <div class="qr_code_pc">
+                    <img id="js_pc_qr_code_img" class="qr_code_pc_img">
+                    <p>微信扫一扫<br>关注该公众号</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="js_pc_weapp_code" class="weui-desktop-popover weui-desktop-popover_pos-up-center weui-desktop-popover_img-text" style="display: none;">
+    <div class="weui-desktop-popover__content">
+        <div class="weui-desktop-popover__desc">
+            <img id="js_pc_weapp_code_img">
+            微信扫一扫<br>使用小程序<span id="js_pc_weapp_code_des"></span>        </div>
+    </div>
+</div>
+<div id="js_minipro_dialog" style="display:none;">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+        <div class="weui-dialog__bd">即将打开"<span id="js_minipro_dialog_name"></span>"小程序</div>
+        <div class="weui-dialog__ft">
+            <a id="js_minipro_dialog_cancel" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_default">取消</a>
+            <a id="js_minipro_dialog_ok" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_primary">打开</a>
+        </div>
+    </div>
+</div>
+
+        
+        <script nonce="1985910362">
+    var __DEBUGINFO = {
+        debug_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/debug/console42f400.js",
+        safe_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/moonsafe42f400.js",
+        res_list: []
+    };
+</script>
+
+<script nonce="1985910362" type="text/javascript">
+(function() {
+	var totalCount = 0,
+			finishCount = 0;
+
+	function _loadVConsolePlugin() {
+		window.vConsole = new window.VConsole();
+		while (window.vConsolePlugins.length > 0) {
+			var p = window.vConsolePlugins.shift();
+			window.vConsole.addPlugin(p);
+		}
+	}
+	
+	function _addVConsole(uri, cb) {
+		totalCount++;
+		var node = document.createElement('SCRIPT');
+		node.type = 'text/javascript';
+		node.src = uri;
+		node.setAttribute('nonce', '1985910362');
+		if (cb) {
+			node.onload = cb;
+		}
+		document.getElementsByTagName('head')[0].appendChild(node);
+	}
+	if (
+		(document.cookie && document.cookie.indexOf('vconsole_open=1') > -1)
+		|| location.href.indexOf('vconsole=1') > -1
+	) {
+		window.vConsolePlugins = [];
+		_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/3.2.2/vconsole.min43429b.js', function() {
+			
+			_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/plugin/vconsole-mpopt/1.0.1/vconsole-mpopt42f400.js', _loadVConsolePlugin);
+		});
+	}
+})();
+</script>
+        
+<script nonce="1985910362" type="text/javascript">
+if (location.href.match(/fontScale=\d+/) && /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+
+    var m=location.href.match(/fontScale=(\d*)/);
+    var map={
+        "94":1,
+        "100":2,
+        "109":3,
+        "119":4,
+        "131":5,
+    }
+    if(m&&m[1]&&map[m[1]]){
+        document.getElementsByTagName("body")[0].className+=" appmsg_skin_fontscale_"+map[m[1]];
+        console.log("appmsg_skin_fontscale_:"+map[m[1]]);
+    }
+}
+
+
+(function(){
+    if (window.__second_open__) return; 
+
+    
+
+    var first_js_time = +new Date();
+
+    var showDate="";
+    var svrDate=new Date("1549780621"*1000);
+    var createDate=new Date("1477640913"*1000);
+    var ct="1477640913"*1;
+    var publish_time = "2016-10-28" || "";
+    var cD={
+      year:createDate.getYear(),
+      month:createDate.getMonth()+1,
+      date:createDate.getDate()
+    };
+    
+    svrDate.setHours(0);
+    svrDate.setMinutes(0);
+    svrDate.setSeconds(0);
+    var todayDate=svrDate.getTime()/1000;
+    svrDate.setDate(1);
+    svrDate.setMonth(0);
+    var yearDate=svrDate.getTime()/1000;
+    
+    if(ct>=todayDate){
+      showDate="今天";
+    
+    }else if(ct>=todayDate-60*60*24){
+       showDate="昨天";
+    
+    }else if(ct>=todayDate-2*60*60*24){
+      showDate="前天";
+    }else if(ct>=todayDate-3*60*60*24){
+      showDate="3天前";
+    }else if(ct>=todayDate-4*60*60*24){
+      showDate="4天前";
+    }else if(ct>=todayDate-5*60*60*24){
+      showDate="5天前";
+    }else if(ct>=todayDate-6*60*60*24){
+      showDate="6天前";
+    }else if(ct>=todayDate-2*7*60*60*24){
+      showDate="1周前";
+    }else if(ct>=yearDate){
+      
+      
+      
+      showDate="%s月%s日".replace("%s",cD.month).replace("%s",cD.date);
+    }else{
+      showDate=publish_time;
+    };
+    if(document.getElementById("publish_time")){
+      document.getElementById("publish_time").innerText=showDate;
+    }
+})();
+</script>
+<script nonce="1985910362" type="text/javascript">
+
+if (!window.console) window.console = { log: function() {} };
+
+if (typeof getComputedStyle == 'undefined') {
+    if (document.body.currentStyle) {
+        window.getComputedStyle = function(el) {
+            return el.currentStyle;
+        }
+    } else {
+        window.getComputedStyle = {};
+    }
+}
+(function(){
+    window.__zoom = 1;
+    
+    (function(){
+        var validArr = ","+([0.875, 1, 1.125, 1.25, 1.375]).join(",")+",";
+        var match = window.location.href.match(/winzoom=(\d+(?:\.\d+)?)/);
+        if (match && match[1]) {
+            var winzoom = parseFloat(match[1]);
+            if (validArr.indexOf(","+winzoom+",")>=0) {
+                window.__zoom = winzoom;
+            }
+        }
+    })();
+
+    var ua = navigator.userAgent.toLowerCase();
+    var re = new RegExp("msie ([0-9]+[\.0-9]*)");
+    var version;
+    if (re.exec(ua) != null) {
+        version = parseInt(RegExp.$1);
+    }
+    var isIE = false;
+    if (typeof version != 'undefined' && version >= 6 && version <= 9) {
+        isIE = true;
+    }
+    var getMaxWith=function(){
+        var container = document.getElementById('img-content');
+        var max_width = container.offsetWidth;
+        var container_padding = 0;
+        var container_style = getComputedStyle(container);
+        container_padding = parseFloat(container_style.paddingLeft) + parseFloat(container_style.paddingRight);
+        max_width -= container_padding;
+        if (!max_width) {
+            max_width = window.innerWidth - 30;      
+        }
+        return max_width;
+    };
+    var getParentWidth = function(dom){
+        var parent_width = 0;
+        var parent = dom.parentNode;
+        var outerWidth = 0;
+        while (true) {
+            if(!parent||parent.nodeType!=1) break;
+            var parent_style = getComputedStyle(parent);
+            if (!parent_style) break;
+            parent_width = parent.clientWidth - parseFloat(parent_style.paddingLeft) - parseFloat(parent_style.paddingRight) - outerWidth;
+            if (parent_width > 0) break;
+            outerWidth += parseFloat(parent_style.paddingLeft) + parseFloat(parent_style.paddingRight) + parseFloat(parent_style.marginLeft) + parseFloat(parent_style.marginRight) + parseFloat(parent_style.borderLeftWidth) + parseFloat(parent_style.borderRightWidth);
+            parent = parent.parentNode;
+        }
+        return parent_width;
+    }
+    var getOuterW=function(dom){
+        var style=getComputedStyle(dom),
+            w=0;
+        if(!!style){
+            w = parseFloat(style.paddingLeft) + parseFloat(style.paddingRight) + parseFloat(style.borderLeftWidth) + parseFloat(style.borderRightWidth);
+        }
+        return w;
+    };
+    var getOuterH =function(dom){
+        var style=getComputedStyle(dom),
+            h=0;
+        if(!!style){
+            h = parseFloat(style.paddingTop) + parseFloat(style.paddingBottom) + parseFloat(style.borderTopWidth) + parseFloat(style.borderBottomWidth);
+        }
+        return h;
+    };
+    var insertAfter = function(dom,afterDom){
+        var _p = afterDom.parentNode;
+        if(!_p){
+            return;
+        }
+        if(_p.lastChild === afterDom){
+            _p.appendChild(dom);
+        }else{
+            _p.insertBefore(dom,afterDom.nextSibling);
+        }
+    };
+    var getQuery = function(name,url){
+        
+        var u  = arguments[1] || window.location.search,
+            reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)"),
+            r = u.substr(u.indexOf("\?")+1).match(reg);
+        return r!=null?r[2]:"";
+    };
+
+    
+    function setImgSize(item, widthNum, widthUnit, ratio, breakParentWidth) {
+        setTimeout(function () {
+            var img_padding_border = getOuterW(item) || 0;
+            var img_padding_border_top_bottom = getOuterH(item) || 0;
+            
+            if (widthNum > getParentWidth(item) && !breakParentWidth) {
+                widthNum = getParentWidth(item);
+            }
+
+            height = (widthNum - img_padding_border) * ratio + img_padding_border_top_bottom;
+
+            if (isIE) {
+                var url = item.getAttribute('data-src');
+                item.src = url;
+            } else {
+                if(parseFloat(widthNum, 10) > 40 && height > 40 && breakParentWidth) {
+                    item.className += ' img_loading';
+                }
+                item.src = "data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            }
+            item.style.cssText += ";width: " + widthNum + widthUnit + " !important;";
+            item.style.cssText += ";height: " + height + widthUnit + " !important;";
+        }, 10);
+    }
+
+    (function(){
+        var images = document.getElementsByTagName('img');
+        var length = images.length;
+        var max_width = getMaxWith();
+        for (var i = 0; i < length; ++i) {
+            if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var imageItem = images[i];
+            var src_ = imageItem.getAttribute('data-src');
+            var realSrc = imageItem.getAttribute('src');
+            if (!src_ || realSrc) continue;
+            
+            var originWidth = imageItem.getAttribute('data-w');
+            var ratio_ = 1 * imageItem.getAttribute('data-ratio');
+
+            var height = 100;
+            if (ratio_ && ratio_ > 0) {
+                var parent_width = getParentWidth(imageItem) || max_width;
+                var initWidth = imageItem.style.width || imageItem.getAttribute('width') || originWidth || parent_width;
+                initWidth = parseFloat(initWidth, 10) > max_width ? max_width : initWidth;
+                
+                if (initWidth) {
+                    imageItem.setAttribute('_width', !isNaN(initWidth * 1) ? initWidth + 'px' : initWidth);
+                }
+                
+                if (typeof initWidth === 'string' && initWidth.indexOf('%') !== -1) {
+                    initWidth = parseFloat(initWidth.replace('%', ''), 10) / 100 * parent_width;
+                }
+                
+                if (initWidth === 'auto') {
+                    initWidth = originWidth;
+                }
+
+                var res = /^(\d+(?:\.\d+)?)([a-zA-Z%]+)?$/.exec(initWidth);
+                var widthNum = res && res.length >= 2 ? res[1] : 0;
+                var widthUnit = res && res.length >= 3 && res[2] ? res[2] : 'px';
+
+                
+                setImgSize(imageItem, widthNum, widthUnit, ratio_, true);
+                
+                (function (item, widthNumber, unit, ratio) {
+                    setTimeout(function () {
+                        setImgSize(item, widthNumber, unit, ratio, false);
+                    });
+                })(imageItem, widthNum, widthUnit, ratio_);
+            } else {
+                imageItem.style.cssText += ";visibility: hidden !important;";
+            }
+
+        }
+    })();
+    window.__videoDefaultRatio=16/9;
+    window.__getVideoWh = function(dom){
+        var max_width = getMaxWith(),
+            width = max_width,
+            ratio_ = dom.getAttribute('data-ratio')*1,
+            arr = [4/3, 16/9],
+            ret = arr[0],
+            abs = Math.abs(ret - ratio_);
+        if (!ratio_) { 
+            if (dom.getAttribute("data-mpvid")) { 
+                ratio_ = 16/9;
+            } else { 
+                ratio_ = 4/3;
+            }
+        } else { 
+            for (var j = 1, jl = arr.length; j < jl; j++) {
+                var _abs = Math.abs(arr[j] - ratio_);
+                if (_abs < abs) {
+                    abs = _abs;
+                    ret = arr[j];
+                }
+            }
+            ratio_ = ret;
+        }
+        
+        var parent_width = getParentWidth(dom)||max_width,
+            width = width > parent_width ? parent_width : width,
+            outerW = getOuterW(dom)||0,
+            outerH = getOuterH(dom)||0,
+            videoW = width - outerW,
+            videoH = videoW/ratio_,
+            height = videoH + outerH;
+        return {w:Math.ceil(width),h:Math.ceil(height),vh:videoH,vw:videoW,ratio:ratio_};
+    };
+
+
+    (function(){
+        var iframe = document.getElementsByTagName('iframe');
+        for (var i=0,il=iframe.length;i<il;i++) {
+            if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var a = iframe[i];
+            var src_ = a.getAttribute('src')||a.getAttribute('data-src')||"";
+            if(!/^http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)
+                && !/^http(s)*\:\/\/mp\.weixin\.qq\.com\/mp\/readtemplate\?t=pages\/video_player_tmpl/.test(src_)
+            ){
+                continue;
+            }
+            var vid = getQuery("vid",src_);
+            if(!vid){
+                continue;
+            }
+            vid=vid.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,"");
+            a.removeAttribute('src');
+            a.style.display = "none";
+            var obj = window.__getVideoWh(a),
+                videoPlaceHolderSpan = document.createElement('span'),
+                videoPlayerIconSpan = document.createElement('span'),
+                mydiv = document.createElement('img');
+
+            videoPlaceHolderSpan.className = "js_img_loading db";
+            videoPlaceHolderSpan.setAttribute("data-vid", vid);
+            
+
+            videoPlayerIconSpan.className = 'wx_video_context db'; 
+            videoPlayerIconSpan.style.display = 'none';
+            videoPlayerIconSpan.innerHTML = '<span class="wx_video_thumb_primary"></span><button class="wx_video_play_btn">播放</button><span class="wx_video_mask"></span>'; 
+
+            mydiv.className = "img_loading";
+
+            mydiv.src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            
+            
+            videoPlaceHolderSpan.style.cssText = "width: " + obj.w + "px !important;";
+            mydiv.style.cssText += ";width: " + obj.w + "px";
+            videoPlaceHolderSpan.appendChild(videoPlayerIconSpan);
+            videoPlaceHolderSpan.appendChild(mydiv);
+            insertAfter(videoPlaceHolderSpan, a); 
+            
+            a.style.cssText += ";width: " + obj.w + "px !important;";
+            a.setAttribute("width",obj.w);
+            if(window.__zoom!=1){
+                a.style.display = "block";
+                videoPlaceHolderSpan.style.display = "none";
+                a.setAttribute("_ratio",obj.ratio);
+                a.setAttribute("_vid",vid);
+            }else{
+                videoPlaceHolderSpan.style.cssText += "height: " + obj.h + "px !important;";
+                mydiv.style.cssText += "height: " + obj.h + "px !important;";
+                a.style.cssText += "height: " + obj.h + "px !important;";
+                a.setAttribute("height",obj.h);
+            }
+            a.setAttribute("data-vh",obj.vh);
+            a.setAttribute("data-vw",obj.vw);
+            if(a.getAttribute("data-mpvid")){
+                a.setAttribute("data-src",location.protocol+"//mp.weixin.qq.com/mp/readtemplate?t=pages/video_player_tmpl&auto=0&vid="+vid);
+            }else{
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+obj.vw+"&height="+obj.vh+"&auto=0");   
+            }            
+        }
+    })();
+    
+    (function(){
+        if(window.__zoom!=1){
+            if (!window.__second_open__) {
+                document.getElementById('page-content').style.zoom = window.__zoom;
+                var a = document.getElementById('activity-name');
+                var b = document.getElementById('meta_content');
+                if(!!a){
+                    a.style.zoom = 1/window.__zoom;
+                }
+                if(!!b){
+                    b.style.zoom = 1/window.__zoom;
+                }
+            }
+            var images = document.getElementsByTagName('img');
+            for (var i = 0,il=images.length;i<il;i++) {
+                if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                images[i].style.zoom = 1/window.__zoom;
+            }
+            var iframe = document.getElementsByTagName('iframe');
+            for (var i = 0,il=iframe.length;i<il;i++) {
+                if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                var a = iframe[i];
+                a.style.zoom = 1/window.__zoom;
+                var src_ = a.getAttribute('data-src')||"";
+                if(!/http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)){
+                    continue;
+                }
+                var ratio = a.getAttribute("_ratio");
+                var vid = a.getAttribute("_vid");
+                a.removeAttribute("_ratio");
+                a.removeAttribute("_vid");
+                var vw = a.offsetWidth - (getOuterW(a)||0);
+                var vh = vw/ratio;
+                var h = vh + (getOuterH(a)||0)
+                a.style.cssText += "height: " + h + "px !important;"
+                a.setAttribute("height",h);
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+vw+"&height="+vh+"&auto=0");
+                a.style.display = "none";
+                var parent = a.parentNode;
+                if(!parent){
+                    continue;
+                }
+                for(var j=0,jl=parent.children.length;j<jl;j++){
+                    var child = parent.children[j];
+                    if(child.className.indexOf("img_loading")>=0 && child.getAttribute("data-vid")==vid){
+                        child.style.cssText += "height: " + h + "px !important;";
+                        child.style.display = "";
+                    }
+                }
+            }
+        }
+    })();
+})();
+</script>
+<script nonce="1985910362" type="text/javascript">
+    var new_appmsg = 1;
+    var item_show_type = "0";
+    var can_see_complaint = "0";
+    var not_in_mm_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm435ee6.css";
+    var windowwx_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+    var article_improve_combo_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo438c19.css";
+    var tid = "";
+    var aid = "";
+    var clientversion = "";
+    var appuin = "MzA3MzI4MjgzMw=="||"";
+
+    var source = "2";
+    var ascene = "";
+    var subscene = "";
+    var sessionid = ""||"";
+    var abtest_cookie = "";
+
+    var scene = 75;
+
+    var itemidx = "";
+    var appmsg_token   = "";
+    var _copyright_stat = "0";
+    var _ori_article_type = "";
+
+    var is_follow = "";
+    var nickname = "机器之心";
+    var appmsg_type = "9";
+    var ct = "1477640913";
+    var publish_time = "2016-10-28" || "";
+    var user_name = "gh_dbc0a5474692";
+    var user_name_new = "";
+    var fakeid   = "";
+    var version   = "";
+    var is_limit_user   = "0";
+    var round_head_img = "http://mmbiz.qpic.cn/mmbiz/KmXPKA19gW9OmNl05libnYFicfymViaic9RE1Lp45dGT0KEZL8RkcNOpMXuHChibwgaVe10dYfn2BibpP8wE7R0L7MZw/0?wx_fmt=png";
+    var hd_head_img = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM75UiawQgcdqOcmtYS7Jibug9J7dskxkNicGiadtdKl7mLyiaw/0"||"";
+    var ori_head_img_url = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM75UiawQgcdqOcmtYS7Jibug9J7dskxkNicGiadtdKl7mLyiaw/132";
+    var msg_title = "深度 | 40年认知架构研究概览：实现通用人工智能的道路上我们走了多远？（附论文）";
+    var msg_desc = "加拿大约克大学电气工程与计算机科学系发表了一篇关于认知架构研究的概览性论文，在感知、注意、学习和应用四个方面对认知架构方面的研究和应用进行了概述性的总结。";
+    var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz_png/KmXPKA19gWibsC7CE9mCiaYfYOVgk5GVGTYvZtXxTdJS6AVgQkJyMLia6RLppZ6NcHd0303DHU3MgLW3KGb9vmmfQ/0?wx_fmt=png"; 
+    var cdn_url_1_1  = ""; 
+    var cdn_url_235_1 = ""; 
+    
+    var msg_link = "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2650720132&amp;idx=1&amp;sn=d630d47c4ab60d35752aba74a9d53361&amp;chksm=871b03fab06c8aec767776a6a4a407c3897dcad26392b24a22536261565e9dc6b5ce52df0816#rd"; 
+    var user_uin = "0"*1;
+    var msg_source_url = 'http://pan.baidu.com/s/1kVCtJt9';
+    var img_format = 'png';
+    var srcid = '10289l9xAfQIrWt5R10Y0S0x';
+    var req_id = '1014cjPjRt1ZIyd389tyEucx';
+    var networkType;
+    var appmsgid = '' || '2650720132'|| "";
+    var comment_id = "2747485911" || "2747485911" * 1;
+    var comment_enabled = "" * 1;
+    var is_need_reward = "0" * 1;
+    var is_https_res = ("" * 1) && (location.protocol == "https:");
+    var msg_daily_idx = "1" || "";
+    var profileReportInfo = "" || "";
+
+    var devicetype = "";
+    var source_encode_biz = "";
+    var source_username = "";
+    
+    var reprint_ticket = "";
+    var source_mid = "";
+    var source_idx = "";
+    var source_biz = "";
+    var author_id = "";
+
+    
+    var optimizing_flag = "0" * 1;
+    var ad_abtest_padding = "0" * 1;
+
+    var show_comment = "";
+    var __appmsgCgiData = {
+        wxa_product : ""*1,
+        wxa_cps : ""*1,
+        show_msg_voice: "0"*1,
+        can_use_page : "0"*1,
+        is_wxg_stuff_uin : "0"*1,
+        card_pos : "",
+        copyright_stat : "0",
+        source_biz : "",
+        hd_head_img : "http://wx.qlogo.cn/mmhead/Q3auHgzwzM75UiawQgcdqOcmtYS7Jibug9J7dskxkNicGiadtdKl7mLyiaw/0"||(window.location.protocol+"//"+window.location.host + "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_rumor_link.2x42f400.jpg")
+    };
+    var _empty_v = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/pages/voice/empty42f400.mp3";
+
+    var copyright_stat = "0" * 1;
+
+    var pay_fee = "" * 1;
+    var pay_timestamp = "";
+    var need_pay = "" * 1;
+
+    var need_report_cost = "0" * 1;
+    var use_tx_video_player = "0" * 1;
+    var appmsg_fe_filter = "contenteditable";
+
+    var friend_read_source = "" || "";
+    var friend_read_version = "" || "";
+    var friend_read_class_id = "" || "";
+
+    var is_only_read = "1" * 1;
+    var read_num = "" * 1;
+    var like_num = "" * 1;
+    var liked = "" == 'true' ? true : false;
+    var is_temp_url = "" ? 1 : 0;
+    var send_time = "";
+    var icon_emotion_switch = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch.2x42f400.png";
+    var icon_emotion_switch_active = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch_active.2x42f400.png";
+    var icon_loading_white = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif";
+    var icon_audio_unread = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/audio/icon_audio_unread42f400.png";
+    var icon_qqmusic_default = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_default.2x42f400.png";
+    var icon_qqmusic_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_source42f400.png";
+    var icon_kugou_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/kugou/icon_kugou_source42f400.png";
+
+    var topic_default_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/topic/pic_book_thumb.2x42f400.png';
+    var comment_edit_icon = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg_new/icon_edit42f400.png';
+    var comment_loading_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif';
+
+    var voice_in_appmsg = {
+        "1":"1"
+            };
+
+    var reprint_style = ''*1;
+    var wxa_img_alert = "" != 'false';
+
+    
+    var more_read_type = '0'*1;
+
+    
+    
+    
+    
+
+    
+    var weapp_sn_arr_json = "" || "";
+
+    
+    var ban_scene = "0" * 1;
+
+    var svr_time = "1549780621" * 1;
+    
+    var is_transfer_msg = ""*1||0;
+
+    var malicious_title_reason_id = "0" * 1; 
+    var malicious_content_type = "0" * 1; 
+
+    
+    var modify_time = "";
+
+    
+    var isprofileblock = "0";
+
+    
+    var hotspotInfoList = [
+                    ];
+
+        window.wxtoken = "777";
+        
+    
+    
+    
+    
+    window.is_login = '0' * 1; 
+
+    window.__moon_initcallback = function(){
+        if(!!window.__initCatch){
+            window.__initCatch({
+                idkey : 27611+2,
+                startKey : 0,
+                limit : 128,
+                badjsId: 43,
+                reportOpt : {
+                    uin : uin,
+                    biz : biz,
+                    mid : mid,
+                    idx : idx,
+                    sn  : sn
+                },
+                extInfo : {
+                    network_rate : 0.01,    
+                    badjs_rate: 0.1 
+                }
+            });
+        }
+    }
+        
+    var title ="机器之心";
+
+    var is_new_msg=true;
+    
+    
+
+    var is_wash = '' * 1;
+</script>
+
+<script nonce="1985910362" type="text/javascript">
+(function(_g){
+    _g.appmsg_like_type = "1" * 1 ? "1" * 1 : 1;
+    
+    _g.clientversion = "";
+    _g.passparam = ""; 
+    if(!_g.msg_link) {
+      _g.msg_link = "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2650720132&amp;idx=1&amp;sn=d630d47c4ab60d35752aba74a9d53361&amp;chksm=871b03fab06c8aec767776a6a4a407c3897dcad26392b24a22536261565e9dc6b5ce52df0816#rd";
+    }
+    _g.appmsg_type = "9"; 
+    _g.devicetype = ""; 
+})(window);
+
+</script>
+
+
+        <script nonce="1985910362">window.__moon_host = 'res.wx.qq.com';window.__moon_mainjs = 'appmsg/index.js';window.moon_map = {"a/appdialog_confirm.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm.html42f400.js","widget/wx_profile_dialog_primary.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/widget/wx_profile_dialog_primary.css42f400.js","pages/iframe_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/iframe_communicate42f400.js","new_video/player.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player.html433882.js","biz_wap/zepto/touch.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/touch42f400.js","biz_wap/zepto/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/event42f400.js","biz_wap/zepto/zepto.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/zepto42f400.js","page/pages/video.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/pages/video.css435ee6.js","a/tpl/smallbanner_msg_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_msg_tpl.html42f400.js","a/tpl/smallbanner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_info_tpl.html42f400.js","a/tpl/banner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_info_tpl.html42f400.js","a/tpl/promote_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/promote_tpl.html42f400.js","a/tpl/smallcard_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallcard_tpl.html42f400.js","a/tpl/info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/info_tpl.html42f400.js","a/tpl/cardticket_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cardticket_tpl.html42f400.js","a/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_tpl.html42f400.js","a/tpl/sponsor_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/sponsor_tpl.html42f400.js","a/tpl/new_cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/new_cpc_tpl.html42f400.js","appmsg/emotion/caret.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/caret42f400.js","biz_wap/utils/localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/localstorage42f400.js","appmsg/friend_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/friend_comment_tpl.html42f400.js","appmsg/comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_tpl.html42f400.js","biz_wap/utils/fakehash.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/fakehash42f400.js","appmsg/comment_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_report42f400.js","a/appdialog_confirm.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm42f400.js","new_video/player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player4306fd.js","a/tpl/mpda_bottom_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/mpda_bottom_tpl.html42f400.js","a/tpl/crt_size_map.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_size_map42f400.js","biz_wap/jsapi/cardticket.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/cardticket42f400.js","biz_common/jquery.md5.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/jquery.md542f400.js","biz_common/utils/emoji_panel_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_panel_data42f400.js","biz_common/utils/emoji_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_data42f400.js","appmsg/emotion/textarea.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/textarea42f400.js","appmsg/emotion/nav.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/nav42f400.js","appmsg/emotion/common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/common42f400.js","appmsg/emotion/slide.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/slide42f400.js","appmsg/emotion/dom.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/dom42f400.js","pages/music_report_conf.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_report_conf42f400.js","pages/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/report4306fd.js","pages/player_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/player_adaptor42f400.js","pages/music_player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_player42f400.js","appmsg/more_read_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read_tpl.html42f400.js","appmsg/retry_ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/retry_ajax42f400.js","complain/tips.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/complain/tips42f400.js","pages/loadscript.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/loadscript42f400.js","biz_wap/utils/ajax_load_js.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_load_js42f400.js","appmsg/comment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment4317dc.js","a/ios.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios42f400.js","a/android.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android42f400.js","a/profile.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile42f400.js","a/app_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/app_card430506.js","a/sponsor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor42f400.js","a/tpl/cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cpc_tpl.html42f400.js","a/video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/video42f400.js","a/a_config.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_config42f400.js","a/tpl/crt_tpl_manager.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_tpl_manager42f400.js","a/cpc_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/cpc_a_tpl.html42f400.js","a/sponsor_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor_a_tpl.html42f400.js","a/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_tpl.html42f400.js","a/mpshop.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpshop42f400.js","a/wxopen_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/wxopen_card42f400.js","a/card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/card42f400.js","biz_wap/utils/position.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/position42f400.js","a/a_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_report42f400.js","biz_wap/utils/show_time.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/show_time42f400.js","biz_common/utils/get_para_list.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/get_para_list42f400.js","biz_wap/utils/openUrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/openUrl42f400.js","a/a_sign.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_sign438181.js","appmsg/my_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/my_comment_tpl.html42f400.js","appmsg/cmt_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cmt_tpl.html42f400.js","sougou/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/a_tpl.html42f400.js","appmsg/emotion/emotion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/emotion42f400.js","biz_common/base64.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/base6442f400.js","biz_common/utils/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report42f400.js","appmsg/articleReport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/articleReport42f400.js","biz_wap/utils/hand_up_state.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/hand_up_state42f400.js","biz_common/utils/http.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/http42f400.js","biz_common/utils/cookie.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie42f400.js","appmsg/topic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/topic_tpl.html42f400.js","pages/weapp_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/weapp_tpl.html42f400.js","biz_common/utils/monitor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/monitor42f400.js","pages/voice_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_tpl.html42f400.js","pages/kugoumusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/kugoumusic_ctrl42f400.js","pages/qqmusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_ctrl42f400.js","pages/voice_component.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_component42f400.js","pages/qqmusic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_tpl.html42f400.js","new_video/ctl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/ctl4306fd.js","appmsg/open_url_with_webview.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/open_url_with_webview4380a9.js","appmsg/more_read.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read42f400.js","appmsg/reward_entry.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/reward_entry42f400.js","appmsg/like.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like43875f.js","pages/version4video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/version4video42f400.js","biz_wap/utils/storage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/storage42f400.js","appmsg/share_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share_tpl.html42f400.js","appmsg/appmsgext.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsgext430b95.js","appmsg/img_copyright_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/img_copyright_tpl.html42f400.js","pages/video_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_ctrl42f400.js","pages/create_txv.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/create_txv42f400.js","appmsg/comment_utils.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_utils42f400.js","biz_common/ui/imgonepx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx42f400.js","appmsg/malicious_wording.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/malicious_wording42f400.js","biz_common/utils/wxgspeedsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/wxgspeedsdk42f400.js","a/a.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a4382e5.js","rt/appmsg/getappmsgext.rt.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/rt/appmsg/getappmsgext.rt42f400.js","pages/video_communicate_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_communicate_adaptor433882.js","biz_wap/utils/ajax_wx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_wx42f400.js","biz_common/utils/respTypes.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/respTypes42f400.js","biz_wap/utils/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/log42f400.js","sougou/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/index42f400.js","biz_wap/safe/mutation_observer_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/mutation_observer_report42f400.js","appmsg/fereport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport438bee.js","appmsg/fereport_without_localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport_without_localstorage438bee.js","appmsg/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report42f400.js","appmsg/report_and_source.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source4380a9.js","appmsg/page_pos.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos431b87.js","appmsg/cdn_speed_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report42f400.js","appmsg/wxtopic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/wxtopic42f400.js","appmsg/weapp.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp433882.js","appmsg/weproduct.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weproduct42f400.js","appmsg/voicemsg.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voicemsg42f400.js","appmsg/autoread.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/autoread42f400.js","appmsg/voice.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voice42f400.js","appmsg/qqmusic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/qqmusic43440b.js","appmsg/iframe.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe433882.js","appmsg/product.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/product42f400.js","appmsg/review_image.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image435a90.js","appmsg/outer_link.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link433882.js","appmsg/copyright_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/copyright_report42f400.js","appmsg/async.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async438bee.js","biz_wap/ui/lazyload_img.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img42f400.js","biz_common/log/jserr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr42f400.js","appmsg/share.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share42f50a.js","appmsg/cdn_img_lib.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib42f400.js","appmsg/finance_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/finance_communicate42f400.js","page/appmsg_new/not_in_mm.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm.css435ee6.js","page/appmsg_new/combo.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo.css438c19.js","biz_wap/utils/wapsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/wapsdk42f400.js","a/mpAdAsync.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpAdAsync4317dc.js","biz_common/utils/url/parse.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse42f400.js","appmsg/appmsg_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsg_report435ac2.js","biz_common/moment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/moment42f400.js","biz_wap/jsapi/core.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core42f400.js","biz_common/dom/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event42f400.js","appmsg/test.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/test42f400.js","biz_wap/utils/mmversion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion42f400.js","appmsg/max_age.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/max_age42f400.js","biz_common/dom/attr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr42f400.js","biz_wap/utils/ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax42f400.js","appmsg/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/log42f400.js","biz_common/dom/class.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class42f400.js","biz_wap/utils/device.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/device42f400.js","appmsg/weapp_common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp_common42f400.js","biz_common/utils/string/html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html42f400.js","cps/tpl/list_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/list_tpl.html42f400.js","cps/tpl/card_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/card_tpl.html42f400.js","cps/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/banner_tpl.html42f400.js","biz_common/tmpl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl42f400.js","appmsg/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index438e37.js"};</script><script nonce="1985910362" type="text/javascript" id="moon_inline" > window.__mooninline=1; window.setTimeout(function() {  function __moonf__(){
+if(!window.__moonhasinit){
+window.__moonhasinit=!0,window.__moonclientlog=[],window.__wxgspeeds&&(window.__wxgspeeds.moonloadedtime=+new Date),
+"object"!=typeof JSON&&(window.JSON={
+stringify:function(){
+return"";
+},
+parse:function(){
+return{};
+}
+});
+var e=function(){
+function e(e){
+try{
+var o;
+/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)?o="writeLog":/(Android)/i.test(navigator.userAgent)&&(o="log"),
+o&&t(o,e);
+}catch(n){
+throw console.error(n),n;
+}
+}
+function t(e,o){
+var n,r,i={};
+n=top!=window?top.window:window;
+try{
+r=n.WeixinJSBridge,i=n.document;
+}catch(a){}
+e&&r&&r.invoke?r.invoke(e,{
+level:"info",
+msg:"[WechatFe][moon]"+o
+}):setTimeout(function(){
+i.addEventListener?i.addEventListener("WeixinJSBridgeReady",function(){
+t(e,o);
+},!1):i.attachEvent&&(i.attachEvent("WeixinJSBridgeReady",function(){
+t(e,o);
+}),i.attachEvent("onWeixinJSBridgeReady",function(){
+t(e,o);
+}));
+},0);
+}
+var n;
+localStorage&&JSON.parse(localStorage.getItem("__WXLS__moonarg"))&&"fromls"==JSON.parse(localStorage.getItem("__WXLS__moonarg")).method&&(n=!0),
+e(" moon init, moon_inline:"+window.__mooninline+", moonls:"+n),function(){
+var e={},o={},t={};
+e.COMBO_UNLOAD=0,e.COMBO_LOADING=1,e.COMBO_LOADED=2;
+var n=function(e,t,n){
+if(!o[e]){
+o[e]=n;
+for(var r=3;r--;)try{
+moon.setItem(moon.prefix+e,n.toString()),moon.setItem(moon.prefix+e+"_ver",moon_map[e]);
+break;
+}catch(i){
+moon.clear();
+}
+}
+},r=window.alert;
+window.__alertList=[],window.alert=function(e){
+r(e),window.__alertList.push(e);
+};
+var i=function(e){
+if(!e||!o[e])return null;
+var n=o[e];
+if("function"==typeof n&&!t[e]){
+var a={},s={
+exports:a
+},c=n(i,a,s,r);
+n=o[e]=c||s.exports,t[e]=!0;
+}
+if(".css"===e.substr(-4)){
+var d=document.getElementById(e);
+if(!d){
+d=document.createElement("style"),d.id=e;
+var _=/url\s*\(\s*\/(\"(?:[^\\\"\r\n\f]|\\[\s\S])*\"|'(?:[^\\'\n\r\f]|\\[\s\S])*'|[^)}]+)\s*\)/g,m=window.testenv_reshost||window.__moon_host||"res.wx.qq.com";
+n=n.replace(_,"url(//"+m+"/$1)"),d.innerHTML=n,document.getElementsByTagName("head")[0].appendChild(d);
+}
+}
+return n;
+};
+e.combo_status=e.COMBO_UNLOAD,e.run=function(){
+var o=e.run.info,t=o&&o[0],n=o&&o[1];
+if(t&&e.combo_status==e.COMBO_LOADED){
+var r=i(t);
+n&&n(r);
+}
+},e.use=function(o,t){
+window.__wxgspeeds&&(window.__wxgspeeds.seajs_use_time=+new Date),e.run.info=[o,t],
+e.run();
+},window.define=n,window.seajs=e;
+}(),function(){
+if(window.__nonce_str){
+var e=document.createElement;
+document.createElement=function(o){
+var t=e.apply(this,arguments);
+return"object"==typeof o&&(o=o.toString()),"string"==typeof o&&"script"==o.toLowerCase()&&t.setAttribute("nonce",window.__nonce_str),
+t;
+};
+}
+window.addEventListener&&window.__DEBUGINFO&&Math.random()<.01&&window.addEventListener("load",function(){
+var e=document.createElement("script");
+e.src=__DEBUGINFO.safe_js,e.type="text/javascript",e.async=!0;
+var o=document.head||document.getElementsByTagName("head")[0];
+o.appendChild(e);
+});
+}(),function(){
+function t(e){
+return"[object Array]"===Object.prototype.toString.call(e);
+}
+function n(e){
+return"[object Object]"===Object.prototype.toString.call(e);
+}
+function r(e){
+var t=e.stack+" "+e.toString()||"";
+try{
+if(window.testenv_reshost){
+var n="http(s)?://"+window.testenv_reshost,r=new RegExp(n,"g");
+t=t.replace(r,"");
+}else t=t.replace(/http(s)?:\/\/res\.wx\.qq\.com/g,"");
+for(var r=/\/([^.]+)\/js\/(\S+?)\.js(\,|:)?/g;r.test(t);)t=t.replace(r,function(e,o,t,n){
+return t+n;
+});
+}catch(e){
+t=e.stack?e.stack:"";
+}
+var i=[];
+for(o in u)u.hasOwnProperty(o)&&i.push(o+":"+u[o]);
+return i.push("STK:"+t.replace(/\n/g,"")),i.join("|");
+}
+function i(e){
+if(!e){
+var o=window.onerror;
+window.onerror=function(){},f=setTimeout(function(){
+window.onerror=o,f=null;
+},50);
+}
+}
+function a(e,o,t){
+if(!/^mp\.weixin\.qq\.com$/.test(location.hostname)){
+var n=[];
+t=t.replace(location.href,(location.origin||"")+(location.pathname||"")).replace("#wechat_redirect","").replace("#rd","").split("&");
+for(var r=0,i=t.length;i>r;r++){
+var a=t[r].split("=");
+a[0]&&a[1]&&n.push(a[0]+"="+encodeURIComponent(a[1]));
+}
+var s=new window.Image;
+return void(s.src=(o+n.join("&")).substr(0,1024));
+}
+var c;
+if(window.ActiveXObject)try{
+c=new ActiveXObject("Msxml2.XMLHTTP");
+}catch(d){
+try{
+c=new ActiveXObject("Microsoft.XMLHTTP");
+}catch(_){
+c=!1;
+}
+}else window.XMLHttpRequest&&(c=new XMLHttpRequest);
+c&&(c.open(e,o,!0),c.setRequestHeader("cache-control","no-cache"),c.setRequestHeader("Content-Type","application/x-www-form-urlencoded; charset=UTF-8"),
+c.setRequestHeader("X-Requested-With","XMLHttpRequest"),c.send(t));
+}
+function s(e){
+return function(o,t){
+if("string"==typeof o)try{
+o=new Function(o);
+}catch(n){
+throw n;
+}
+var r=[].slice.call(arguments,2),a=o;
+return o=function(){
+try{
+return a.apply(this,r.length&&r||arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:j,
+log:"timeout_error;host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},e(o,t);
+};
+}
+function c(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this,a=t||function(){};
+return t=function(){
+try{
+return a.apply(r,arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:x,
+log:"listener_error;type:"+o+";host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},a.moon_lid=E,b[E]=t,E++,e.call(r,o,t,n);
+};
+}
+function d(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this;
+return t=b[t.moon_lid],e.call(r,o,t,n);
+};
+}
+var _,m,l,w,u,p,f,h=/MicroMessenger/i.test(navigator.userAgent),g=/MPAPP/i.test(navigator.userAgent),v=window.define,y=0,x=2,O=4,j=9,D=10;
+if(window.__initCatch=function(e){
+_=e.idkey,m=e.startKey||0,l=e.limit,w=e.badjsId,u=e.reportOpt||"",p=e.extInfo||{},
+p.rate=p.rate||.5;
+},window.__moon_report=function(e,o){
+var i=!1,s="";
+try{
+s=top.location.href;
+}catch(c){
+i=!0;
+}
+var d=.5;
+if(p&&p.rate&&(d=p.rate),o&&"number"==typeof o&&(d=o),!(!/mp\.weixin\.qq\.com/.test(location.href)&&!/payapp\.weixin\.qq\.com/.test(location.href)||Math.random()>d||!h&&!g||top!=window&&!i&&!/mp\.weixin\.qq\.com/.test(s))&&(n(e)&&(e=[e]),
+t(e)&&""!=_)){
+var u="",f=[],v=[],y=[],x=[];
+"number"!=typeof l&&(l=1/0);
+for(var j=0;j<e.length;j++){
+var D=e[j]||{};
+if(!(D.offset>l||"number"!=typeof D.offset||D.offset==O&&p&&p.network_rate&&Math.random()>=p.network_rate)){
+var b=1/0==l?m:m+D.offset;
+f[j]="[moon]"+_+"_"+b+";"+D.log+";"+r(D.e||{})||"",v[j]=b,y[j]=1;
+}
+}
+for(var E=0;E<v.length;E++)x[E]=_+"_"+v[E]+"_"+y[E],u=u+"&log"+E+"="+f[E];
+if(x.length>0){
+a("POST",location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?","idkey="+x.join(";")+"&r="+Math.random()+"&lc="+f.length+u);
+var d=1;
+if(p&&p.badjs_rate&&(d=p.badjs_rate),w&&Math.random()<d){
+u=u.replace(/uin\:(.)*\|biz\:(.)*\|mid\:(.)*\|idx\:(.)*\|sn\:(.)*\|/,"");
+var S=new Image,I="https://badjs.weixinbridge.com/badjs?id="+w+"&level=4&from="+encodeURIComponent(location.host)+"&msg="+encodeURIComponent(u);
+S.src=I.slice(0,1024);
+}
+}
+}
+},window.setTimeout=s(window.setTimeout),window.setInterval=s(window.setInterval),
+Math.random()<.01&&window.Document&&window.HTMLElement){
+var b={},E=0;
+Document.prototype.addEventListener=c(Document.prototype.addEventListener),Document.prototype.removeEventListener=d(Document.prototype.removeEventListener),
+HTMLElement.prototype.addEventListener=c(HTMLElement.prototype.addEventListener),
+HTMLElement.prototype.removeEventListener=d(HTMLElement.prototype.removeEventListener);
+}
+var S=window.navigator.userAgent;
+if((/ip(hone|ad|od)/i.test(S)||/android/i.test(S))&&!/windows phone/i.test(S)&&window.localStorage&&window.localStorage.setItem){
+var I=window.localStorage.setItem,L=0;
+window.localStorage.setItem=function(e,o){
+if(!(L>=10))try{
+I.call(window.localStorage,e,o);
+}catch(t){
+t.stack&&console&&console.error&&console.error("[TryCatch]"+t.stack),window.__moon_report([{
+offset:D,
+log:"localstorage_error;"+t.toString(),
+e:t
+}]),L++,L>=3&&window.moon&&window.moon.clear&&moon.clear();
+}
+};
+}
+window.seajs&&v&&(window.define=function(){
+for(var o,t=[],n=arguments&&arguments[0],a=0,s=arguments.length;s>a;a++){
+var c=o=arguments[a];
+"function"==typeof o&&(o=function(){
+try{
+return c.apply(this,arguments);
+}catch(o){
+throw"string"==typeof n&&console.error("[TryCatch][DefineeErr]id:"+n),o.stack&&console&&console.error&&console.error("[TryCatch]"+o.stack),
+_&&window.__moon_report&&(window.__moon_report([{
+offset:y,
+log:"define_error;id:"+n+";",
+e:o
+}]),i(f)),e(" [define_error]"+JSON.stringify(r(o))),o;
+}
+},o.toString=function(e){
+return function(){
+return e.toString();
+};
+}(arguments[a])),t.push(o);
+}
+return v.apply(this,t);
+});
+}(),function(o){
+function t(e,o,t){
+return window.__DEBUGINFO?(window.__DEBUGINFO.res_list||(window.__DEBUGINFO.res_list=[]),
+window.__DEBUGINFO.res_list[e]?(window.__DEBUGINFO.res_list[e][o]=t,!0):!1):!1;
+}
+function n(e){
+var o=new TextEncoder("utf-8").encode(e),t=crypto.subtle||crypto.webkitSubtle;
+return t.digest("SHA-256",o).then(function(e){
+return r(e);
+});
+}
+function r(e){
+for(var o=[],t=new DataView(e),n=0;n<t.byteLength;n+=4){
+var r=t.getUint32(n),i=r.toString(16),a="00000000",s=(a+i).slice(-a.length);
+o.push(s);
+}
+return o.join("");
+}
+function i(e,o,t){
+if("object"==typeof e){
+var n=Object.prototype.toString.call(e).replace(/^\[object (.+)\]$/,function(e,o){
+return o;
+});
+if(t=t||e,"Array"==n){
+for(var r=0,i=e.length;i>r;++r)if(o.call(t,e[r],r,e)===!1)return;
+}else{
+if("Object"!==n&&a!=e)throw"unsupport type";
+if(a==e){
+for(var r=e.length-1;r>=0;r--){
+var s=a.key(r),c=a.getItem(s);
+if(o.call(t,c,s,e)===!1)return;
+}
+return;
+}
+for(var r in e)if(e.hasOwnProperty(r)&&o.call(t,e[r],r,e)===!1)return;
+}
+}
+}
+var a=o.localStorage,s=document.head||document.getElementsByTagName("head")[0],c=1,d=11,_=12,m=13,l=window.__allowLoadResFromMp?1:2,w=window.__allowLoadResFromMp?1:0,u=l+w,p=window.testenv_reshost||window.__moon_host||"res.wx.qq.com",f=new RegExp("^(http(s)?:)?//"+p);
+window.__loadAllResFromMp&&(p="mp.weixin.qq.com",l=0,u=l+w);
+var h={
+prefix:"__MOON__",
+loaded:[],
+unload:[],
+clearSample:!0,
+hit_num:0,
+mod_num:0,
+version:1003,
+cacheData:{
+js_mod_num:0,
+js_hit_num:0,
+js_not_hit_num:0,
+js_expired_num:0,
+css_mod_num:0,
+css_hit_num:0,
+css_not_hit_num:0,
+css_expired_num:0
+},
+init:function(){
+h.loaded=[],h.unload=[];
+var e,t,r;
+if(window.no_moon_ls&&(h.clearSample=!0),a){
+var s="_moon_ver_key_",c=a.getItem(s);
+c!=h.version&&(h.clear(),a.setItem(s,h.version));
+}
+if((-1!=location.search.indexOf("no_moon1=1")||-1!=location.search.indexOf("no_lshttps=1"))&&h.clear(),
+a){
+var d=1*a.getItem(h.prefix+"clean_time"),_=+new Date;
+if(_-d>=1296e6){
+h.clear();
+try{
+!!a&&a.setItem(h.prefix+"clean_time",+new Date);
+}catch(m){}
+}
+}
+i(moon_map,function(i,s){
+if(t=h.prefix+s,r=!!i&&i.replace(f,""),e=!!a&&a.getItem(t),version=!!a&&(a.getItem(t+"_ver")||"").replace(f,""),
+h.mod_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_mod_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_mod_num++,
+h.clearSample||!e||r!=version)h.unload.push(r.replace(f,"")),r&&-1!=r.indexOf(".css")?e?r!=version&&h.cacheData.css_expired_num++:h.cacheData.css_not_hit_num++:r&&-1!=r.indexOf(".js")&&(e?r!=version&&h.cacheData.js_expired_num++:h.cacheData.js_not_hit_num++);else{
+if("https:"==location.protocol&&window.moon_hash_map&&window.moon_hash_map[s]&&window.crypto)try{
+n(e).then(function(e){
+window.moon_hash_map[s]!=e&&console.log(s);
+});
+}catch(c){}
+try{
+var d="//# sourceURL="+s+"\n//@ sourceURL="+s;
+o.eval.call(o,'define("'+s+'",[],'+e+")"+d),h.hit_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_hit_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_hit_num++;
+}catch(c){
+h.unload.push(r.replace(f,""));
+}
+}
+}),h.load(h.genUrl());
+},
+genUrl:function(){
+var e=h.unload;
+if(!e||e.length<=0)return[];
+var o,t,n="",r=[],i={},a=-1!=location.search.indexOf("no_moon2=1"),s="//"+p;
+-1!=location.href.indexOf("moon_debug2=1")&&(s="//mp.weixin.qq.com");
+for(var c=0,d=e.length;d>c;++c){
+/^\/(.*?)\//.test(e[c]);
+var _=/^\/(.*?)\//.exec(e[c]);
+_.length<2||!_[1]||(t=_[1],n=i[t],n?(o=n+","+e[c],o.length>1e3||a?(r.push(n+"?v="+h.version),
+n=location.protocol+s+e[c],i[t]=n):(n=o,i[t]=n)):(n=location.protocol+s+e[c],i[t]=n));
+}
+for(var m in i)i.hasOwnProperty(m)&&r.push(i[m]);
+return r;
+},
+load:function(e){
+if(window.__wxgspeeds&&(window.__wxgspeeds.mod_num=h.mod_num,window.__wxgspeeds.hit_num=h.hit_num),
+!e||e.length<=0)return seajs.combo_status=seajs.COMBO_LOADED,seajs.run(),console.debug&&console.debug("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num),
+void window.__moonclientlog.push("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num);
+seajs.combo_status=seajs.COMBO_LOADING;
+var o=0,t=+new Date;
+window.__wxgspeeds&&(window.__wxgspeeds.combo_times=[],window.__wxgspeeds.combo_times.push(t)),
+i(e,function(n){
+h.request(n,u,function(){
+if(window.__wxgspeeds&&window.__wxgspeeds.combo_times.push(+new Date),o++,o==e.length){
+var n=+new Date-t;
+window.__wxgspeeds&&(window.__wxgspeeds.mod_downloadtime=n),seajs.combo_status=seajs.COMBO_LOADED,
+seajs.run(),console.debug&&console.debug("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms"),
+window.__moonclientlog.push("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms");
+}
+});
+});
+},
+request:function(o,n,r){
+if(o){
+n=n||0,o.indexOf("mp.weixin.qq.com")>-1&&((new Image).src=location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?idkey=27613_32_1&r="+Math.random(),
+window.__moon_report([{
+offset:_,
+log:"load_script_from_mp: "+o
+}],1));
+var i=-1;
+window.__DEBUGINFO&&(__DEBUGINFO.res_list||(__DEBUGINFO.res_list=[]),__DEBUGINFO.res_list.push({
+type:"js",
+status:"pendding",
+start:+new Date,
+end:0,
+url:o
+}),i=__DEBUGINFO.res_list.length-1),-1!=location.search.indexOf("no_lshttps=1")&&(o=o.replace("http://","https://"));
+var a=document.createElement("script");
+a.src=o,a.type="text/javascript",a.async=!0,a.down_time=+new Date,a.onerror=function(s){
+t(i,"status","error"),t(i,"end",+new Date);
+var _=new Error(s);
+if(n>=0)if(w>n){
+var l=o.replace("res.wx.qq.com","mp.weixin.qq.com");
+h.request(l,n,r);
+}else h.request(o,n,r);else window.__moon_report&&window.__moon_report([{
+offset:c,
+log:"load_script_error: "+o,
+e:_
+}],1);
+if(n==w-1&&window.__moon_report([{
+offset:d,
+log:"load_script_error: "+o,
+e:_
+}],1),-1==n){
+var u="ua: "+window.navigator.userAgent+", time="+(+new Date-a.down_time)+", load_script_error -1 : "+o;
+window.__moon_report([{
+offset:m,
+log:u
+}],1);
+}
+window.__moonclientlog.push("moon load js error : "+o+", error -> "+_.toString()),
+e("moon_request_error url:"+o);
+},"undefined"!=typeof moon_crossorigin&&moon_crossorigin&&a.setAttribute("crossorigin",!0),
+a.onload=a.onreadystatechange=function(){
+t(i,"status","loaded"),t(i,"end",+new Date),!a||a.readyState&&!/loaded|complete/.test(a.readyState)||(t(i,"status","200"),
+a.onload=a.onreadystatechange=null,"function"==typeof r&&r());
+},n--,s.appendChild(a),e("moon_request url:"+o+" retry:"+n);
+}
+},
+setItem:function(e,o){
+!!a&&a.setItem(e,o);
+},
+clear:function(){
+a&&(i(a,function(e,o){
+~o.indexOf(h.prefix)&&a.removeItem(o);
+}),console.debug&&console.debug("[moon] clear"));
+},
+idkeyReport:function(e,o,t){
+t=t||1;
+var n=e+"_"+o+"_"+t;
+(new Image).src="/mp/jsmonitor?idkey="+n+"&r="+Math.random();
+}
+};
+seajs&&seajs.use&&"string"==typeof window.__moon_mainjs&&seajs.use(window.__moon_mainjs),
+window.moon=h;
+}(window),function(){
+try{
+Math.random()<1;
+}catch(e){}
+}(),window.moon.init();
+};
+e(),!!window.__moon_initcallback&&window.__moon_initcallback(),window.__wxgspeeds&&(window.__wxgspeeds.moonendtime=+new Date);
+}
+}
+__moonf__(); }, 25);</script><script nonce="1985910362" type="text/javascript">
+    var real_show_page_time = +new Date();
+    if (!!window.addEventListener){
+        window.addEventListener("load", function(){
+            window.onload_endtime = +new Date();
+        });
+    }
+
+    
+    if(typeof seajs != 'undefined' && seajs.config){
+        try{
+            seajs.config({
+              'map': [
+                [ '.js', '.js?v=' + (+new Date())]
+              ]
+            });
+        }catch(e){
+            console.info('not support seajs config');
+        }
+    }
+
+    
+</script>
+
+    </body>
+    <script nonce="1985910362" type="text/javascript">document.addEventListener("touchstart", function() {},false);</script>
+</html>
+

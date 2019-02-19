@@ -1,0 +1,1689 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+
+
+        <script nonce="1115885466" type="text/javascript">
+            window.logs = {
+                pagetime: {}
+            };
+            window.logs.pagetime['html_begin'] = (+new Date());
+        </script>
+        <title>
+ 美团如何基于深度学习实现图像的智能审核？
+</title>
+        
+<style>.radius_avatar{display:inline-block;background-color:#fff;padding:3px;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;overflow:hidden;vertical-align:middle}.radius_avatar img{display:block;width:100%;height:100%;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;background-color:#eee}.rich_media_inner{word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.rich_media_area_primary{padding:20px 16px 12px;background-color:#fafafa}.rich_media_area_primary.voice{padding-top:66px}.rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{color:rgba(0,0,0,0.3);background-color:#fafafa}.rich_media_area_extra{padding:0 16px 24px}.rich_media_extra{padding-top:30px}.mpda_bottom_container .rich_media_extra{padding-top:24px}.mpda_bottom_container .rich_media_extra .mpad_more_list{right:-10px}html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;line-height:1.6}body{-webkit-touch-callout:none;font-family:-apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif;color:#333;background-color:#f2f2f2;letter-spacing:.034em}h1,h2,h3,h4,h5,h6{font-weight:400;font-size:16px}*{margin:0;padding:0}a{color:#576b95;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_title{font-size:22px;line-height:1.4;margin-bottom:14px}@supports(-webkit-overflow-scrolling:touch){.rich_media_title{font-weight:700}}.rich_media_meta_list{margin-bottom:22px;line-height:20px;font-size:0;word-wrap:break-word;word-break:break-all}.rich_media_meta_list em{font-style:normal}.rich_media_meta{display:inline-block;vertical-align:middle;margin:0 10px 10px 0;font-size:15px;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_meta.icon_appmsg_tag{margin-right:4px}.rich_media_meta.meta_tag_text{margin-right:0}.rich_media_meta_primary{display:block;margin-bottom:10px;font-size:15px}.meta_original_tag{padding:0 .5em;font-size:12px;line-height:1.4;background-color:#f2f2f2;color:#888}.meta_enterprise_tag img{width:30px;height:30px!important;display:block;position:relative;margin-top:-3px;border:0}.rich_media_meta_link{color:#576b95}.rich_media_meta_text{color:rgba(0,0,0,0.3)}.rich_media_meta_text.rich_media_meta_split{padding-left:10px}.rich_media_meta_text.rich_media_meta_split:before{position:absolute;top:50%;left:0;margin-top:-6px;content:' ';display:block;border-left:1px solid #888;width:200%;height:130%;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0}.rich_media_meta_text.article_modify_tag{position:relative}.rich_media_meta_nickname{position:relative}.rich_media_thumb_wrp{margin-bottom:6px}.rich_media_thumb_wrp .original_img_wrp{display:block}.rich_media_thumb{display:block;width:100%}.rich_media_content{overflow:hidden;color:#333;font-size:17px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;text-align:justify;position:relative;z-index:0}.rich_media_content *{max-width:100%!important;box-sizing:border-box!important;-webkit-box-sizing:border-box!important;word-wrap:break-word!important}.rich_media_content p{clear:both;min-height:1em}.rich_media_content em{font-style:italic}.rich_media_content fieldset{min-width:0}.rich_media_content .list-paddingleft-2{padding-left:2.2em}.rich_media_content .list-paddingleft-2 .list-paddingleft-2{padding-left:30px}.rich_media_content blockquote{margin:0;padding-left:10px;border-left:3px solid #dbdbdb}img{height:auto!important}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:portrait){.rich_media_area_extra{padding-bottom:34px}}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:landscape){.rich_media_area_primary{padding:20px 60px 15px 60px}.rich_media_area_extra{padding:0 60px 21px 60px}}@media screen and (min-width:1024px){.rich_media_area_primary_inner,.rich_media_area_extra_inner{max-width:677px;margin-left:auto;margin-right:auto}.rich_media_area_primary{padding-top:32px}}.appmsg_share_notice{font-size:16px;color:#888;position:relative;padding:1.25em 0;margin-bottom:1.75em}.appmsg_share_notice:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice_hd{font-weight:700;padding-bottom:.2em}.cell{padding:.8em 0;display:block;position:relative}.cell_hd,.cell_bd,.cell_ft{display:table-cell;vertical-align:middle;word-wrap:break-word;word-break:break-all;white-space:nowrap}.cell_primary{width:2000px;white-space:normal}.flex_cell{padding:10px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.flex_cell_primary{width:100%;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;box-flex:1;flex:1}.original_tool_area{display:block;padding:.75em 1em 0;-webkit-tap-highlight-color:rgba(0,0,0,0);color:#333;border:1px solid #eaeaea;margin:20px 0}.original_tool_area .tips_global{position:relative;padding-bottom:.5em;font-size:15px}.original_tool_area .tips_global:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dbdbdb;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:27px;height:27px;padding:0;margin-right:.5em}.original_tool_area .radius_avatar img{height:100%!important}.original_tool_area .flex_cell_bd{width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal}.original_tool_area .flex_cell_ft{font-size:14px;color:#888;padding-left:1em;white-space:nowrap}.original_tool_area .icon_access:after{content:" ";display:inline-block;height:8px;width:8px;border-width:1px 1px 0 0;border-color:#cbcad0;border-style:solid;transform:matrix(0.71,0.71,-0.71,0.71,0,0);-ms-transform:matrix(0.71,0.71,-0.71,0.71,0,0);-webkit-transform:matrix(0.71,0.71,-0.71,0.71,0,0);position:relative;top:-2px;top:-1px}.rich_media_global_msg{position:fixed;top:0;left:0;right:0;padding:.85em 35px .85em 15px;z-index:2;background-color:#c6e0f8;color:#888;font-size:12px}.rich_media_global_msg .icon_closed{position:absolute;right:15px;top:50%;margin-top:-5px;line-height:300px;overflow:hidden;-webkit-tap-highlight-color:rgba(0,0,0,0);background:transparent url(//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_appmsg_msg_closed_sprite.2x42f400.png) no-repeat 0 0;width:11px;height:11px;vertical-align:middle;display:inline-block;-webkit-background-size:100% auto;background-size:100% auto}.rich_media_global_msg .icon_closed:active{background-position:0 -17px}.rich_media_global_msg.voice{color:#1aad19;background-color:#e8f6e8;padding-left:43.3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.rich_media_global_msg.voice .ic_voice{position:absolute;top:50%;margin-top:-10px;left:15px;display:inline-block;width:13.3px;height:18.3px;background:url(data:image/png;base64,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) no-repeat center;background-size:contain}.rich_media_global_msg.voice .icon_more{position:absolute;right:15px;top:50%;margin-top:-6.5px;width:8px;height:13px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAmCAYAAADeB1slAAAAAXNSR0IArs4c6QAAA49JREFUSA2tVk1IVFEUPveOmhQk1ibfvLFZSJtACqJIIpCIoB+imcFV2Z9ZUVnRomgRGFn2i6mFf5XVotCZMYmgIMhlq6BFENFiwjfPAosgFzXOvNu5o3fmeue98Y16F3PP+c453/fu/xCQmvZSWwwJaC0G6P8WND9IoTmbVFRycpqAdgBWkwRo94V960RsPn1aoPpN9RI6CR0WsDWcjAErtUiqTR/S18+HnNcSTv5zYrwDSatVMgLkH6aciwfj79WYW5+OT4xfsyPnBIgvwt872qBW45ZQzaMlJXCfMPJbDQgfRUoIhduVUW2TwArpaWyX+bnYU9JAAH44FaJIccqCW76Ib7NTjhOOvFPN/8q/IvE3cR+npFJgao9rkiSUXjD2GCNqzMnPbNPYjth3mqINlJAvTsk4kiJmWa3eQe8WpxwVzwjwgFFn/CorL29EkY9qovC5CFDrKq7JVoHl6zNTJCf53/lLk78SN/FcbJRx2cZCixC4ZATGXsu4as8YgQjGamN/q5atOotn4K3A1J4BUMbgsh7Wt6sx2bcV4AkjtSPJxkDjRQL0hVwg21zEglSzN+rdKeOybTtFcgK39ajWZDFWr+IZHxfGQ8mV0YA5nMGmDVcCPNcb8R5gYJ1UCWQfp6PFCI4NyZhrAV6EIiHGrPOAB0ImkW2c0la8u8ICc0wUCWrvC1dsw+3TnN6uanDaJ4zeiIfiA9wtWIAX8XspxeA6iuBlaN88hNzCNXk+JwFOuXJYW5tMQmc+EcqgzXGb2n9XFk1NstX5yKczl89JAF+6vRaBM1m5XAu//qkRGrtb8BThTtqH2/V0LmUWwbvsiREw8X0vcJHxxNbjNm3KUuVaMjmPFuWm2CPesHc/kp+yj06hFMhj/PIOOcfVFLk6xZT0G3vMTpmc27MusityZk/OBfKOwA05MPLIDJn3OJldcxTQotpBYOyEXVEWIw/NoInvuHOznSJfVDs0GzneNw9mI+eyOSPQI9phfCqPO38TFhHaFw/Eu/LliNiMESB5w6zkzD05F8mMYJr8mFC263Fa+vAadvXloj4toEcrjlgMjgrQrseHpBcfkm67WD6M6MN6lTWZeoZjyYxGLcB57MGnsEfF3fjU2G189QBpcUqmBLrnSs4504s8GjLxrwm5qYrg3dKFf6x6VbwQ3yOS/wz8+bS0ruwfELaBY2nyoNkn4gvW65GKRn4WForwP+dONHDaOHeZAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.preview_appmsg .rich_media_title{margin-top:2.3em}@media screen and (min-width:1024px){.rich_media_global_msg{position:relative;margin-bottom:32px}.preview_appmsg .rich_media_title.rich_media_title{margin-top:0}}.pages_reset{color:#333;line-height:1.6;font-size:16px;font-weight:400;font-style:normal;text-indent:0;letter-spacing:normal;text-align:left;text-decoration:none;white-space:normal}.weapp_element,.weapp_display_element,.mp-miniprogram{display:block;margin:1em 0}.share_audio_context{margin:16px 0}.weapp_text_link{font-size:17px}.weapp_text_link:before{content:'';display:inline-block;line-height:1;background-size:contain;background-repeat:no-repeat;background-image:url('data:image/png;base64,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');vertical-align:middle;font-size:11px;color:#888;margin-right:6px;margin-top:-3px;background-position:center;height:20px;width:20px}.flex_context{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center}.flex_bd{-webkit-box-flex:1;-webkit-flex:1;flex:1;word-wrap:break-word;word-break:break-all}.original_page{background-color:#fff;font-size:16px}.account_info{padding:0 0 20px}.account_info .flex_bd{padding-left:.85em}.radius_avatar.account_avatar{width:40px;height:40px;padding:0}.account_nickname{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;line-height:1.2;color:#576b95;font-size:14px}.account_nickname_inner{font-weight:400;vertical-align:top}.account_desc{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;color:#b2b2b2;font-size:13px;line-height:1.2;padding-top:.3em}.account_desc_inner{display:inline;vertical-align:top}.share_notice{margin-bottom:20px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.share_media{padding-bottom:18px}.original_panel{padding:20px;background-color:#fcfcfc;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;overflow:hidden;position:relative}.original_panel:after{content:" ";border:1px solid #d8d8d8;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;position:absolute;top:0;left:0;width:200%;height:200%;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}.original_panel .original_account{margin-bottom:18px;position:relative;z-index:1}.original_panel .original_account_avatar{width:28px;height:28px;padding:0}.original_panel .original_account_nickname{padding-left:.85em;font-size:15px;color:#576b95}.original_panel_title{font-size:23px;color:#000;margin:0 0 16px}.original_panel_content{color:#333}.original_panel_tool{padding-top:20px;position:relative;z-index:1}.original_cell_nickname{display:inline-block;vertical-align:middle;font-weight:400;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:8em;color:#000}.original_tool_area{padding:1.17em 0;border-width:0;position:relative}.original_tool_area:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:20px;height:20px;margin-right:.2em}.original_tool_area .flex_cell{padding:0;font-size:14px}.original_tool_area .icon_access:after{margin-right:4px;top:0}.preview_appmsg .rich_media_title{margin-top:1.5em}.preview_appmsg .account_info{padding-top:3em}.original_page{background-color:transparent}.account_info{-webkit-tap-highlight-color:rgba(0,0,0,0);outline:0;padding-bottom:20px;font-size:14px}.account_info.appmsg_account_info{padding-bottom:32px}.account_info .radius_avatar img{background-color:transparent}.share_notice{font-size:16px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.original_panel{background-color:#fafafa}.original_panel:after{border-color:#e6e6e6}.original_panel .original_account_avatar{width:30px;height:30px}.original_panel_tool{font-size:14px}.original_panel_tool a{color:#576b95}.original_panel_content{font-size:17px}.share_media{padding-bottom:30px}.icon_appmsg_tag{display:inline-block;vertical-align:middle;padding:0 .5em;font-size:12px;line-height:1.5;background-color:#c3c3c3;color:#fff;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:70%}.icon_appmsg_tag.primary{color:#3bb638;padding:4px .78em;background-color:rgba(9,187,7,0.08);font-size:12px;border-top-left-radius:.95em 50%;-moz-border-radius-topleft:.95em 50%;-webkit-border-top-left-radius:.95em 50%;border-top-right-radius:.95em 50%;-moz-border-radius-topright:.95em 50%;-webkit-border-top-right-radius:.95em 50%;border-bottom-left-radius:.95em 50%;-moz-border-radius-bottomleft:.95em 50%;-webkit-border-bottom-left-radius:.95em 50%;border-bottom-right-radius:.95em 50%;-moz-border-radius-bottomright:.95em 50%;-webkit-border-bottom-right-radius:.95em 50%}.icon_appmsg_tag.default{border:1px solid rgba(0,0,0,0.1);color:rgba(0,0,0,0.3);background-color:transparent;padding:0 .54em;font-size:15px;line-height:1.3;border-top-left-radius:.67em 50%;-moz-border-radius-topleft:.67em 50%;-webkit-border-top-left-radius:.67em 50%;border-top-right-radius:.67em 50%;-moz-border-radius-topright:.67em 50%;-webkit-border-top-right-radius:.67em 50%;border-bottom-left-radius:.67em 50%;-moz-border-radius-bottomleft:.67em 50%;-webkit-border-bottom-left-radius:.67em 50%;border-bottom-right-radius:.67em 50%;-moz-border-radius-bottomright:.67em 50%;-webkit-border-bottom-right-radius:.67em 50%}.rich_media_meta_list .icon_appmsg_tag.default{margin-top:-1px}.icon_appmsg_tag.title_tag{background-color:#d04b4e}.icon_global_tag_wrp{text-align:right;padding-bottom:12px}.icon_global_tag{background-color:rgba(118,118,118,0.16);color:rgba(0,0,0,0.41);line-height:2.2;border-top-left-radius:1em 50%;-moz-border-radius-topleft:1em 50%;-webkit-border-top-left-radius:1em 50%;border-bottom-left-radius:1em 50%;-moz-border-radius-bottomleft:1em 50%;-webkit-border-bottom-left-radius:1em 50%;padding:0 1.8em 0 1.34em;font-size:12px;margin-right:-24px;display:inline-block;vertical-align:top}.global_plain_btn{display:inline-block;vertical-align:middle;padding:0 1em;line-height:2;font-size:14px;-webkit-tap-highlight-color:rgba(0,0,0,0);border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px}.global_plain_btn.primary{color:#1aad19;border:1px solid currentColor}.global_plain_btn.primary:active{color:rgba(26,173,25,0.6)}.wx_video_context{color:#fefefe;position:relative;background-color:#000}.wx_video_thumb,.wx_video_thumb_primary{position:absolute;left:0;width:100%;height:100%!important;top:0}.wx_video_thumb_primary{-webkit-background-size:cover;background-size:cover;background-position:50% 50%;background-repeat:no-repeat}.wx_video_play_btn{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);margin-top:-2px;font-size:0;border-width:0;background-color:transparent;padding:0;outline:0;z-index:2}.wx_video_play_btn:before{content:" ";display:inline-block;width:0;height:0;border-width:14px 0 14px 25px;border-color:transparent transparent transparent #fff;border-style:dotted dotted dotted solid}.wx_video_mask{position:absolute;top:0;left:0;right:0;bottom:0;z-index:1;background-color:rgba(0,0,0,0.5)}.place_audio_area{min-height:100px;background-color:#fdfdfd;display:block;margin:16px 0}.place_music_area{min-height:68px;background-color:#fdfdfd;display:block;margin:17px 0 16px}.rich_media_empty_extra{background-color:#fafafa}.appmsg_skin_default.rich_media_empty_extra{background-color:#fff}.appmsg_skin_default .rich_media_area_primary{background-color:#fff}.appmsg_skin_default .rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{background-color:#fff}.appmsg_style_default .rich_media_tool{padding-top:15px}.rich_media_title_ios{font-weight:700}.read-more__area{margin:30px 0}.read-more__desc{margin-bottom:10px}.read-more__article__extra{font-size:14px;color:rgba(0,0,0,0.5)}.read-more__article__item{margin-bottom:10px}</style>
+<style>
+        </style>
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/pc435ee6.css">
+<![endif]-->
+
+    </head>
+    <body id="activity-detail" class="zh_CN mm_appmsg  appmsg_skin_default appmsg_style_default">
+        
+<script nonce="1115885466" type="text/javascript">
+    var biz = ""||"MjM5NjQ5MTI5OA==";
+    var sn = "" || ""|| "8b55db4ab7b5e39426103ff1decd37c9";
+    var mid = "" || ""|| "2651748367";
+    var idx = "" || "" || "3";
+    window.__allowLoadResFromMp = true; 
+    
+        
+</script>
+<script nonce="1115885466" type="text/javascript">
+var page_begintime=+new Date,is_rumor="",norumor="";
+1*is_rumor&&!(1*norumor)&&biz&&mid&&(document.referrer&&-1!=document.referrer.indexOf("mp.weixin.qq.com/mp/rumor")||(location.href="http://mp.weixin.qq.com/mp/rumor?action=info&__biz="+biz+"&mid="+mid+"&idx="+idx+"&sn="+sn+"#wechat_redirect"));
+</script>
+<script nonce="1115885466" type="text/javascript">
+var MutationObserver=window.WebKitMutationObserver||window.MutationObserver||window.MozMutationObserver,isDangerSrc=function(t){
+if(t){
+var e=t.match(/http(?:s)?:\/\/([^\/]+?)(\/|$)/);
+if(e&&!/qq\.com(\:8080)?$/.test(e[1])&&!/weishi\.com$/.test(e[1]))return!0;
+}
+return!1;
+},ishttp=0==location.href.indexOf("http://");
+-1==location.href.indexOf("safe=0")&&ishttp&&"function"==typeof MutationObserver&&"mp.weixin.qq.com"==location.host&&(window.__observer_data={
+count:0,
+exec_time:0,
+list:[]
+},window.__observer=new MutationObserver(function(t){
+window.__observer_data.count++;
+var e=new Date,r=[];
+t.forEach(function(t){
+for(var e=t.addedNodes,o=0;o<e.length;o++){
+var n=e[o];
+if("SCRIPT"===n.tagName){
+var i=n.src;
+isDangerSrc(i)&&(window.__observer_data.list.push(i),r.push(n)),!i&&window.__nonce_str&&n.getAttribute("nonce")!=window.__nonce_str&&(window.__observer_data.list.push("inlinescript_without_nonce"),
+r.push(n));
+}
+}
+});
+for(var o=0;o<r.length;o++){
+var n=r[o];
+n.parentNode&&n.parentNode.removeChild(n);
+}
+window.__observer_data.exec_time+=new Date-e;
+}),window.__observer.observe(document,{
+subtree:!0,
+childList:!0
+})),function(){
+if(-1==location.href.indexOf("safe=0")&&Math.random()<.01&&ishttp&&HTMLScriptElement.prototype.__lookupSetter__&&"undefined"!=typeof Object.defineProperty){
+window.__danger_src={
+xmlhttprequest:[],
+script_src:[],
+script_setAttribute:[]
+};
+var t="$"+Math.random();
+HTMLScriptElement.prototype.__old_method_script_src=HTMLScriptElement.prototype.__lookupSetter__("src"),
+HTMLScriptElement.prototype.__defineSetter__("src",function(t){
+t&&isDangerSrc(t)&&window.__danger_src.script_src.push(t),this.__old_method_script_src(t);
+});
+var e="element_setAttribute"+t;
+Object.defineProperty(Element.prototype,e,{
+value:Element.prototype.setAttribute,
+enumerable:!1
+}),Element.prototype.setAttribute=function(t,r){
+"SCRIPT"==this.tagName&&"src"==t&&isDangerSrc(r)&&window.__danger_src.script_setAttribute.push(r),
+this[e](t,r);
+};
+}
+}();
+</script>
+
+        <link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<script nonce="1115885466" type="text/javascript">
+    String.prototype.html = function(encode) {
+        var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&yen;", "¥", "&amp;", "&"];
+        
+		
+		
+		
+		
+        
+        var replaceReverse = ["&", "&amp;", "¥", "&yen;", "<", "&lt;", ">", "&gt;", " ", "&nbsp;", '"', "&quot;", "'", "&#39;"];
+	    var target;
+	    if (encode) {
+	    	target = replaceReverse;
+	    } else {
+	    	target = replace;
+	    }
+        for (var i=0,str=this;i< target.length;i+= 2) {
+             str=str.replace(new RegExp(target[i],'g'),target[i+1]);
+        }
+        return str;
+    };
+
+    window.isInWeixinApp = function() {
+        return /MicroMessenger/.test(navigator.userAgent);
+    };
+
+    window.getQueryFromURL = function(url) {
+        url = url || 'http://qq.com/s?a=b#rd'; 
+        var tmp = url.split('?'),
+            query = (tmp[1] || "").split('#')[0].split('&'),
+            params = {};
+        for (var i=0; i<query.length; i++) {
+            var arg = query[i].split('=');
+            params[arg[0]] = arg[1];
+        }
+        if (params['pass_ticket']) {
+        	params['pass_ticket'] = encodeURIComponent(params['pass_ticket'].html(false).html(false).replace(/\s/g,"+"));
+        }
+        return params;
+    };
+
+    (function() {
+	    var params = getQueryFromURL(location.href);
+        window.uin = params['uin'] || "" || '';
+        window.key = params['key'] || "" || '';
+        window.wxtoken = params['wxtoken'] || '';
+        window.pass_ticket = params['pass_ticket'] || '';
+        window.appmsg_token = "";
+    })();
+
+    function wx_loaderror() {
+        if (location.pathname === '/bizmall/reward') {
+            new Image().src = '/mp/jsreport?key=96&content=reward_res_load_err&r=' + Math.random();
+        }
+    }
+
+</script>
+
+<script nonce="1115885466" type="text/javascript">
+        window.__moon_report_uin = "0";
+            window.no_moon_ls = 0;
+    </script>
+
+        
+<script nonce="1115885466" type="text/javascript">
+    var write_sceen_time = (+new Date()); 
+</script>
+
+<div id="js_article" class="rich_media">
+    
+    <div id="js_top_ad_area" class="top_banner"></div>
+    
+    <div class="rich_media_inner">
+
+        
+        
+        <div id="page-content" class="rich_media_area_primary">
+          <div class="rich_media_area_primary_inner">
+                                    
+                        
+
+            <div id="img-content">
+
+                
+                <h2 class="rich_media_title" id="activity-name">
+                    
+                    
+                    美团如何基于深度学习实现图像的智能审核？
+
+                                                                                </h2>
+                <div id="meta_content" class="rich_media_meta_list">
+                                                            <span id="copyright_logo" class="rich_media_meta rich_media_meta_text meta_tag_text">原创：</span>
+                                                            <span class="rich_media_meta rich_media_meta_text">
+                                                晓明
+                                            </span>
+                                        
+                                        <span class="rich_media_meta rich_media_meta_nickname" id="profileBt">
+                      <a href="javascript:void(0);" id="js_name">
+                        美团技术团队                      </a>
+                      <div id="js_profile_qrcode" class="profile_container" style="display:none;">
+                          <div class="profile_inner">
+                              <strong class="profile_nickname">美团技术团队</strong>
+                              <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">微信号</label>
+                              <span class="profile_meta_value">meituantech</span>
+                              </p>
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">功能介绍</label>
+                              <span class="profile_meta_value">10000+工程师，如何支撑中国领先的生活服务电子商务平台？3.2亿消费者、500万商户、2000多个行业、几千亿交易额背后是哪些技术？这里是美团、大众点评、美团外卖、美团大零售等技术团队的对外窗口，每周推送技术文章、活动及招聘信息等。</span>
+                              </p>
+                              
+                          </div>
+                          <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">
+                              <i class="profile_arrow arrow_out"></i>
+                              <i class="profile_arrow arrow_in"></i>
+                          </span>
+                      </div>
+                    </span>
+
+
+                    <em id="publish_time" class="rich_media_meta rich_media_meta_text"></em>
+
+
+
+
+
+                </div>
+                
+                
+                
+                
+                                                
+                                                                
+                                
+                
+                <div class="rich_media_content " id="js_content">
+                    
+
+                    
+
+                    
+                    
+                    <p style="white-space: normal;"><img class="" data-copyright="0" data-ratio="0.10546875" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hEx03cFgUsV6LYkM3uK5TAnl8DxXwdR4zA3FUoOfW6b1icLsE77CELpkNLzriajHTdibqkqVFYoldIoffibgkOslZA/640?wx_fmt=png" data-type="png" data-w="1280"></p><p style="white-space: normal;text-align: center;"><strong><span style="color: rgb(136, 136, 136);font-size: 12px;letter-spacing: 1px;">总第263篇</span></strong></p><p style="white-space: normal;text-align: center;"><strong><span style="color: rgb(136, 136, 136);font-size: 12px;letter-spacing: 1px;">2018年 第55篇</span></strong></p><p style="white-space: normal;"><strong style="color: inherit;letter-spacing: 0px;font-size: 20px;"><span style="color: rgb(49, 188, 173);"></span></strong></p><section data-source="bj.96weixin.com" style="font-size: 16px;white-space: normal;max-width: 100%;color: rgb(62, 62, 62);background-color: rgb(255, 255, 255);text-align: justify;line-height: 27.4286px;box-sizing: border-box !important;overflow-wrap: break-word !important;"><section style="padding: 20px 20px 15px;max-width: 100%;box-sizing: border-box;width: 670px;text-decoration: inherit;background-color: rgb(245, 245, 245);overflow-wrap: break-word !important;"><p style="line-height: normal;"><span style="font-size: 14px;">AI（人工智能）技术已经广泛应用于美团的众多业务，从美团App到大众点评App，从外卖到打车出行，从旅游到婚庆亲子，美团数百名最优秀的算法工程师正致力于将AI技术应用于搜索、推荐、广告、风控、智能调度、语音识别、机器人、无人配送等多个领域，帮助美团数亿消费者和数百万商户改善服务和体验，帮大家吃得更好，生活更好。</span></p><p style="line-height: normal;"><span style="font-size: 14px;"><br  /></span></p><p style="line-height: normal;"><span style="font-size: 14px;">基于AI技术，美团搭建了世界上规模最大，复杂度最高的多人、多点实时智能配送调度系统；基于AI技术，美团推出了业内第一款大规模落地的企业应用级语音交互产品，为50万骑手配备了智能语音系统；基于AI技术，美团构建了世界上最大的菜品知识库，为200多万商家、3亿多件商品绘制了知识图谱，为数亿用户提供了精准的用户画像，并构建了世界上用户规模最大、复杂度最高的O2O智能推荐平台。</span></p><p style="line-height: normal;"><span style="font-size: 14px;"><br  /></span></p><p style="line-height: normal;"><span style="font-size: 14px;">美团这个全球最大生活服务互联网平台的“大脑”是怎么构建的？从本周起，我们将连续发表“AI in 美团”系列文章，给大家全面揭开各项技术的内幕。</span></p><p style="line-height: normal;"><span style="font-size: 14px;"><br  /></span></p><p style="line-height: normal;"><span style="font-size: 14px;">另外，业界第一部全面讲述互联网机器学习实践的图书《美团机器学习实践》也即将上市，敬请期待，本文选自书中第十五章。</span></p></section></section><p style="white-space: normal;"><span style="font-size: 20px;"><strong><span style="color: rgb(49, 188, 173);">背景</span></strong></span></p><section class="output_wrapper" style="font-size: 16px;color: rgb(62, 62, 62);line-height: 1.6;letter-spacing: 0px;"><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">美团每天有百万级的图片产生量，运营人员负责相关图片的内容审核，对涉及法律风险及不符合平台规定的图片进行删除操作。由于图片数量巨大，人工审核耗时耗力且审核能力有限。另外对于不同审核人员来讲，审核标准难以统一且实时变化。所以有必要借助机器实现智能审核。</span></p><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">图像智能审核一般是指利用图像处理与机器学习相关技术识别图像内容，进而甄别图像是否违规。图像智能审核旨在建立图片自动审核服务，由机器自动禁止不符合规定（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">负例</span><span style="font-size: 15px;">）的图片类型，自动通过符合规定（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">正例</span><span style="font-size: 15px;">）的图片类型，机器不确定的图片交由人工审核。因此，衡量智能审核系统性能的指标主要是准确率和自动化率。</span></p><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">通常的自动审核思路是穷举不符合规定的图片（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">例如水印图、涉黄图、暴恐图、明星脸、广告图等</span><span style="font-size: 15px;">）类型，剩下的图片作为正例自动通过。这样带来的问题是对新增的违规内容扩展性不足，另外必须等待所有模型构建完毕才能起到自动化过滤的作用。如果我们能主动挖掘符合规定的图片（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">例如正常人物图、场景一致图</span><span style="font-size: 15px;">）进行自动通过，将正例过滤和负例过滤相结合，这样才能更快起到节省人工审核的作用。因此，我们的图像智能审核系统分为图片负例过滤模块和图片正例过滤模块，待审图片先进入负例过滤模块判断是否违禁，再进入正例过滤模块进行自动通过，剩余机器不确定的图片交由人工审核。整个技术方案如图1所示。</span></p><center style="font-size: inherit;color: inherit;line-height: inherit;"><figure style="font-size: inherit;color: inherit;line-height: inherit;"><figcaption style="line-height: inherit;margin-top: 10px;color: rgb(153, 153, 153);font-size: 0.7em;"></figcaption></figure></center></section><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.3442265795206972" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hEx03cFgUsVEX8ZON8NdheibMN6gYlwrr2IjQ4ZVYdhOwMLALtZ9s6w22qurib2xboz4o6vyoXicNBibZ1bic6A6oTA/640?wx_fmt=png" data-type="png" data-w="918" style=""></p><section class="output_wrapper" style="font-size: 16px;color: rgb(62, 62, 62);line-height: 1.6;letter-spacing: 0px;"><center style="font-size: inherit;color: inherit;line-height: inherit;"><span style="color: rgb(136, 136, 136);font-size: 12px;">图1 图像智能审核技术方案</span></center><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">负例过滤和正例过滤模块中都会涉及检测、分类和识别等技术，而深度学习则是该领域的首选技术。下面将分别以水印过滤、明星脸识别、色情图片检测和场景分类来介绍深度学习在图像智能审核中的应用。</span></p><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;"><strong style="font-size: 20px;white-space: normal;"><span style="color: rgb(49, 188, 173);">基于深度学习的水印检测</span></strong></span></p><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">为了保护版权和支持原创内容，需要自动检测商家或用户上传的图片中是否包括违禁水印（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">竞对水印、其他产品的Logo</span><span style="font-size: 15px;">）。与其他类刚体目标不同，水印具有以下特点。</span></p><ul style="" class=" list-paddingleft-2"><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">样式多。线下收集所涉及的主流违禁水印有20多类，每一类水印又存在多种样式。除此之外，线上存在大量未知类型的水印。</span></p></li><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">主体多变。水印在图片中位置不固定且较小，主体存在裁切变形，并且会存在多个主体交叠（</span><span style="line-height: inherit;font-size: 15px;color: rgb(136, 136, 136);">多重水印</span><span style="color: inherit;line-height: inherit;font-size: 15px;">），如图2所示。</span></p></li></ul><center style="font-size: inherit;color: inherit;line-height: inherit;"><figure style="font-size: inherit;color: inherit;line-height: inherit;"></figure></center><center style="font-size: inherit;color: inherit;line-height: inherit;"><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.325" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hEx03cFgUsVEX8ZON8NdheibMN6gYlwrrXjP6WxkeRph36KEZS2MK5DJDwvbEUhUlvY3jsyTdBmNQJao7CQPdnA/640?wx_fmt=png" data-type="png" data-w="640" style=""></p><span style="font-size: 12px;color: rgb(136, 136, 136);">图2 主体多变</span></center><ul style="" class=" list-paddingleft-2"><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">背景复杂。由于主流水印大多采用透明或半透明方式，这使得水印中的文字标识极易受到复杂背景的干扰，如图3所示。</span></p></li></ul><center style="font-size: inherit;color: inherit;line-height: inherit;"><figure style="font-size: inherit;color: inherit;line-height: inherit;"><figcaption style="line-height: inherit;margin-top: 10px;color: rgb(153, 153, 153);font-size: 0.7em;"></figcaption></figure></center></section><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.26328800988875156" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hEx03cFgUsVEX8ZON8NdheibMN6gYlwrr6Gia24E8FalCicmnYYDM0k1YuTts4GicbXVstgxLzTicFwdGC4qxLHUDrw/640?wx_fmt=png" data-type="png" data-w="809" style=""></p><section class="output_wrapper" style="font-size: 16px;color: rgb(62, 62, 62);line-height: 1.6;letter-spacing: 0px;"><center style="font-size: inherit;color: inherit;line-height: inherit;"><span style="font-size: 12px;color: rgb(136, 136, 136);">图3 背景复杂</span></center><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">传统的水印检测采用滑动窗口的方法，提取一个固定大小的图像块输入到提前训练好的鉴别模型中，得到该块的一个类别。这样遍历图片中的所有候选位置，可得到一个图片密集的类别得分图。得分高于一定阈值的块被认为是水印候选区域，通过非极大化抑制可以得到最终的结果。</span></p><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">鉴别模型的特征可以采用文字识别领域常用的边缘方向统计特征，也可以通过CNN进行特征学习来提升对裁切、形变、复杂背景的健壮性。为了进一步改善得分的置信度，可以加入类型原型的信息，把输入图像块特征与聚类中心特征的相似度（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">夹角余弦</span><span style="font-size: 15px;">）作为识别置信度。但上述方法检测效率极低，由于水印位置和大小不固定，需要在所有位置对多个尺度的图像进行判别，由此产生大量的冗余窗口。</span></p><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">一种思路是旨在减少滑动窗口数目的子窗口的方法。首先通过无监督/有监督学习生成一系列的候选区域，再通过一个CNN分类器来判断区域中是否包含目标以及是哪一类目标。这类方法比较有代表的是R-CNN系列。由于该类方法得到的候选框可以映射到原图分辨率，因此定位框精度足够高。</span></p><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">另一种解决思路时采用直接在特征图上回归的方法。我们知道，对于CNN网络的卷积层而言，输入图片大小可以不固定，但从全连接层之后就要求输入大小保持一致。因此当把任意大小的图片输入CNN直到第一个全连接层，只需要一次前向运算就可以得到所有层的特征图。然后回归的对象是待检测目标的位置信息和类别信息，它们可根据目标大小的需要在不同层次的特征图上进行回归，这类方法以Yolo、SSD为代表。该类方法的特点是在保证高检测精度的前提下实时性较好。</span></p><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">图4给出了上述两类框架与DPM（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">可变形部件模型</span><span style="font-size: 15px;">）最佳传统方法的性能比较：</span></p><center style="font-size: inherit;color: inherit;line-height: inherit;"><figure style="font-size: inherit;color: inherit;line-height: inherit;"></figure></center><center style="font-size: inherit;color: inherit;line-height: inherit;"><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.525679758308157" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hEx03cFgUsVEX8ZON8NdheibMN6gYlwrrrsWeAFrZx5JLZMNoXOs1CWxVBWlzItbCYZ2m52g8QdIEK4dibxFuBog/640?wx_fmt=png" data-type="png" data-w="662" style=""></p><span style="color: rgb(136, 136, 136);font-size: 12px;">图4 基于深度学习的主流目标检测方法的性能评测</span></center><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">考虑到水印检测任务对定位框的精度要求不高，且需要满足每天百万量级图片的吞吐量，我们借鉴了SSD框架和Resnet网络结构。在训练数据方面，我们通过人工收集了25类共计1.5万张水印图片，并通过主体随机裁切、前背景合成等方式进行了数据增广。</span></p><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">基于训练得到的模型对线上数据进行了相关测试。随机选取3197张线上图片作为测试集，其中2795张图片不包含水印，包含水印的402张图片里有302张包含训练集中出现过的水印，另外的100张包含未出现在训练集中的小众水印。基于该测试集，我们评测了传统方法（人工设计特征+滑窗识别）和基于SSD框架的方法。</span></p><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">从图5可以看到，相比于传统方法，SSD框架无论在召回和精度上都有明显优势。进一步分析发现，深度学习方法召回了38张小众水印图片，可见CNN学习到的特征泛化能力更强。</span></p><center style="font-size: inherit;color: inherit;line-height: inherit;"><figure style="font-size: inherit;color: inherit;line-height: inherit;"></figure></center><center style="font-size: inherit;color: inherit;line-height: inherit;"><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.6070763500931099" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hEx03cFgUsVEX8ZON8NdheibMN6gYlwrrGtGCrU4icB681CmqOFX7kXSRUiciajVO05sguZjDgofubXr7zHH9vz7bg/640?wx_fmt=png" data-type="png" data-w="1074" style=""></p><span style="color: rgb(136, 136, 136);font-size: 12px;">图5 水印检测性能评测</span></center><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;"><strong style="font-size: 20px;white-space: normal;"><span style="color: rgb(49, 188, 173);">明星脸识别</span></strong></span></p><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">为了避免侵权明星肖像权，审核场景需要鉴别用户/商家上传的图像中是否包含明星的头像。这是一类典型的人脸识别应用，具体来说是一种1∶(N+1)的人脸比对。整个人脸识别流程包含人脸检测、人脸关键点检测、人脸矫正及归一化、人脸特征提取和特征比对，如图6所示。其中深度卷积模型是待训练的识别模型，用于特征提取。下面我们将分别介绍人脸检测和人脸识别技术方案。</span></p><center style="font-size: inherit;color: inherit;line-height: inherit;"><figure style="font-size: inherit;color: inherit;line-height: inherit;"></figure></center><center style="font-size: inherit;color: inherit;line-height: inherit;"><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.5216346153846154" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hEx03cFgUsVEX8ZON8NdheibMN6gYlwrr9ULNKR5DBsibkGuh9QlPUPat3xz4eVANVV88FdgWphz79JWrfjJiaoKQ/640?wx_fmt=png" data-type="png" data-w="832" style=""></p><span style="font-size: 12px;color: rgb(136, 136, 136);">图6 明星脸识别流程</span></center><p><strong><span style="color: inherit;line-height: inherit;font-size: 18px;">人脸检测</span></strong></p><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">人脸检测方法可分为传统检测器和基于深度学习的检测器两类。<br  /></span></p><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">传统检测器主要基于V-J框架，通过设计Boosted的级连结构和人工特征实现检测。特征包括Harr特征、HOG特征和基于像素点比较的特征（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">Pico、NPD</span><span style="font-size: 15px;">）等。这类检测器在约束环境下有着不错的检测效果和运行速度，但对于复杂场景（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">光照、表情、遮挡</span><span style="font-size: 15px;">），人工设计的特征使检测能力会大大下降。为了提升性能，相关研究联合人脸检测和人脸关键点定位这两个任务进行联合优化（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">JDA</span><span style="font-size: 15px;">），将关键点检测作为人脸检测的一个重要评价标准，但其准确率有待进一步提升。</span></p><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">深度学习的检测器有三种思路。第一类是沿用V-J框架，但以级联CNN网络（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">Cascaded CNN</span><span style="font-size: 15px;">）替代传统特征。第二类是基于候选区域和边框回归的框架（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">如Faster R-CNN</span><span style="font-size: 15px;">）。 第三类是基于全卷积网络直接回归的框架（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">如DenseBox</span><span style="font-size: 15px;">）。</span></p><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">我们采用了Faster R-CNN框架并从以下方面进行了改进： 难分负例挖掘（抑制人物雕像、画像和动物头像等负例）、多层特征融合、 多尺度训练和测试、上下文信息融合，从而更好地抵抗复杂背景、类人脸、遮挡等干扰，并有效提升了对小脸、侧脸的检出率。</span></p><p><strong><span style="color: inherit;line-height: inherit;font-size: 18px;">人脸识别</span></strong></p><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">人脸识别主要有两种思路。一种是直接转换为图像分类任务，每一类对应一个人的多张照片，比较有代表性的方法有DeepFace、DeepID等。另一种则将识别转换为度量学习问题，通过特征学习使得来自同一个人的不同照片距离比较近、不同的人的照片距离比较远，比较有代表性的方法有DeepID2、FaceNet等。</span></p><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">由于任务中待识别ID是半封闭集合，我们可以融合图像分类和度量学习的思路进行模型训练。考虑到三元组损失（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">Triplet Loss</span><span style="font-size: 15px;">）对负例挖掘算法的要求很高，在实际训练中收敛很慢，因此我们采用了Center Loss来最小化类内方差，同时联合Softmax Loss来最大化类间方差。为了平衡这两个损失函数，需要通过试验来选择超参数。我们采用的网络结构是Inception-v3，在实际训练中分为两个阶段：第一阶段采用Softmax Loss+C×CenterLoss，并利用公开数据集CASIA-WebFace（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">共包含10 575个ID和49万人脸图片</span><span style="font-size: 15px;">）来进行网络参数的初始化和超参数C的优选，根据试验得到的C=0.01；第二阶段采用Softmax Loss+0.01×Center Loss，并在业务数据（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">5200个明星脸ID和100万人脸图片</span><span style="font-size: 15px;">）上进行网络参数的微调。</span></p><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">为了进一步提升性能，借鉴了百度采用的多模型集成策略，如图7所示。具体来说，根据人脸关键点的位置把人脸区域分割为多个区域，针对每一个区域分别训练特征模型。目前把人脸区域分割为9个区域，加上人脸整体区域，共需训练10个模型。</span></p><center style="font-size: inherit;color: inherit;line-height: inherit;"><figure style="font-size: inherit;color: inherit;line-height: inherit;"><figcaption style="line-height: inherit;margin-top: 10px;color: rgb(153, 153, 153);font-size: 0.7em;"></figcaption></figure></center></section><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.5160905840286055" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hEx03cFgUsVEX8ZON8NdheibMN6gYlwrribnvcxHEKoZ6yFMoCgsKIFicHtE4Ce4Zib4GAH0NGECxgicBUXhYdFBu5g/640?wx_fmt=png" data-type="png" data-w="839" style=""></p><section class="output_wrapper" style="font-size: 16px;color: rgb(62, 62, 62);line-height: 1.6;letter-spacing: 0px;"><center style="font-size: inherit;color: inherit;line-height: inherit;"><span style="font-size: 12px;color: rgb(136, 136, 136);">图7 基于集成学习的人脸识别</span></center><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">在测试阶段，对于待验证的人脸区域和候选人脸区域，分别基于图7所示的10个区域提取特征。然后对于每个区域，计算两个特征向量间的相似度（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">余弦距离</span><span style="font-size: 15px;">）。最终通过相似度加权的方法判断两张人脸是否属于同一个人。表1给出了主流方法在LFW数据集上的评测结果。可以看出，美团模型在相对有限数据下获得了较高的准确率。</span></p><center style="font-size: inherit;color: inherit;line-height: inherit;"><figure style="font-size: inherit;color: inherit;line-height: inherit;"><figcaption style="line-height: inherit;margin-top: 10px;color: rgb(153, 153, 153);font-size: 0.7em;"></figcaption></figure></center></section><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.2200488997555012" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hEx03cFgUsVEX8ZON8NdheibMN6gYlwrr9ibicfTvEgRMGPoAnWpspTcodBXurCXXqUuvfw8LicyFqmY6ZicK0U3q7g/640?wx_fmt=png" data-type="png" data-w="818" style=""></p><section class="output_wrapper" style="font-size: 16px;color: rgb(62, 62, 62);line-height: 1.6;letter-spacing: 0px;"><center style="font-size: inherit;color: inherit;line-height: inherit;"><span style="font-size: 12px;color: rgb(136, 136, 136);">表1 公开数据集评测结果</span></center><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;"><strong style="font-size: 20px;white-space: normal;"><span style="color: rgb(49, 188, 173);">色情图片检测</span></strong></span></p><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">色情图片检测是图像智能审核中重要环节。传统检测方法通过肤色、姿态等维度对图片的合规性进行鉴别。随着深度学习的进展，现有技术雅虎NSFW（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">Not Suitable for Work</span><span style="font-size: 15px;">）模型直接把色情图片检测定义二分类（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">色情、正常</span><span style="font-size: 15px;">）问题，通过卷积神经网络在海量数据上进行端到端训练。</span></p><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">对于已训练模型，不同层次学习到的特征不同，有些层次学到了肤色特征，另外一些层次学习到了部位轮廓特征，还有的层次学到了姿态特征。但由于人类对色情的定义非常广泛，露点、性暗示、艺术等都可能被归为色情类，而且在不同的场景下或者面对不同的人群，色情定义标准无法统一。因此，初始学习到的模型泛化能力有限。为了提升机器的预测准确率，需要不断加入错分样本，让机器通过增量学习到更多特征以纠正错误。除此之外，我们在以下方面进行了优化。</span></p><ul style="" class=" list-paddingleft-2"><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">模型细化。我们的分类模型精细化了图片的色情程度：色情、性感、正常人物图、其他类。其中色情、性感、正常人物图互为难分类别，其他类为非人物的正常图片。将性感类别和正常人物图类别从色情类别中分离出来有助于增强模型对色情的判别能力。从表2中可见，相对于雅虎的NSFW模型，我们的模型在召回率方面具有明显优势。</span></p></li></ul><center style="font-size: inherit;color: inherit;line-height: inherit;"><figure style="font-size: inherit;color: inherit;line-height: inherit;"><figcaption style="line-height: inherit;margin-top: 10px;color: rgb(153, 153, 153);font-size: 0.7em;"></figcaption></figure></center></section><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.16585365853658537" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hEx03cFgUsVEX8ZON8NdheibMN6gYlwrrrncb2OS6KUH6Hy2WGSnicMH1I62TL3dL2aVhKT2MMY3P3fU08sVB97A/640?wx_fmt=png" data-type="png" data-w="615" style=""></p><section class="output_wrapper" style="font-size: 16px;color: rgb(62, 62, 62);line-height: 1.6;letter-spacing: 0px;"><center style="font-size: inherit;color: inherit;line-height: inherit;"><span style="color: rgb(136, 136, 136);font-size: 12px;">表2 色情图片检测准确率</span></center><ul style="" class=" list-paddingleft-2"><li><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">机器审核结合人工复审。在实际业务中由于涉黄检测采用预警机制，机器审核环节需要尽可能召回所有疑似图片，再结合适量的人工审核来提升准确率。因此，上层业务逻辑会根据模型预测类别和置信度将图片划分为“确定黄图”“确定非黄图”和“疑似”三部分。“疑似”部分，根据置信度由高到底进行排序，并转交人工复审。在线上业务中，“确定黄图”和“确定非黄图”部分的精度可达到99%以上，而“疑似”部分只占总图片量的3%左右，这样在保证高精度过滤的条件下可大幅节省人力。</span></p></li><li><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">支持视频内容审核。对于短视频内容的审核，我们通过提取关键帧的方式转化为对单张图片的审核，然后融合多帧的识别结果给出结论。</span></p></li></ul><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;"><strong style="font-size: 20px;white-space: normal;"><span style="color: rgb(49, 188, 173);">场景分类</span></strong></span></p><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">作为一个贯穿吃喝玩乐各环节的互联网平台，美团的业务涉及多种垂直领域，如表3所示。有必要对运营或用户上传图片的品类进行识别，以保持与该商家的经营范围一致。此外，为了进一步改善展示效果，需要对商家相册内的图片进行归类整理，如图8所示。</span></p><center style="font-size: inherit;color: inherit;line-height: inherit;"><figure style="font-size: inherit;color: inherit;line-height: inherit;"></figure></center><center style="font-size: inherit;color: inherit;line-height: inherit;"><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.09651162790697675" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hEx03cFgUsVEX8ZON8NdheibMN6gYlwrrlicC696WsonBW8GiavvhHBWkkGlkokFASDd8MHHd3az1DAmndicTLfQrg/640?wx_fmt=png" data-type="png" data-w="860" style=""></p><span style="font-size: 12px;color: rgb(136, 136, 136);">表3 美团一级品类及图片占比</span></center><center style="font-size: inherit;color: inherit;line-height: inherit;"><figure style="font-size: inherit;color: inherit;line-height: inherit;"></figure></center><center style="font-size: inherit;color: inherit;line-height: inherit;"><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.4532130777903044" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hEx03cFgUsVEX8ZON8NdheibMN6gYlwrrGKyv6kBsy78MESd3LybNzNaE3fEOpdRaPp6AOichibdFswYWgdZic4pGg/640?wx_fmt=png" data-type="png" data-w="887" style=""></p><span style="font-size: 12px;color: rgb(136, 136, 136);">图8 商家相册图片分类</span></center><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">深度卷积神经网络在图像分类的相关任务上（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">比如ILSVRC</span><span style="font-size: 15px;">）上已经超越人眼的识别率，但作为一种典型的监督学习方法，它对特定领域的标记样本的数量和质量的需求是突出的。我们的场景分类任务，如果完全依靠审核人员进行图片的筛选和清洗，代价较大。因此需要基于迁移学习来对模型进行微调。</span></p><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">迁移学习致力于通过保持和利用从一个或多个相似的任务、领域或概率分布中学习到的知识，来快速并有效地为提升目标任务的性能。模型迁移是迁移学习领域中一类常用的迁移方式，它通过学习原始域（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">Source Domain</span><span style="font-size: 15px;">）模型和目标域（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">Target Domain</span><span style="font-size: 15px;">）模型的共享参数来实现迁移。由于深度神经网络具有层次结构，且其隐藏层能表示抽象和不变性的特征，因此它非常适合模型迁移。</span></p><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;text-align: center;"><span style="font-size: 15px;">至于原始域训练的深度卷积神经网络，需要关注哪些层次的参数可以迁移以及如何迁移。不同层次的可迁移度不同，目标域与原始域中相似度较高的层次被迁移的可能性更大。具体而言，较浅的卷积层学习到的特征更通用（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">比如图像的色彩、边缘、基本纹理</span><span style="font-size: 15px;">），因而也更适合迁移，较深的卷积层学习的特征更具有任务依赖性（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">比如图像细节</span><span style="font-size: 15px;">），因而不适合迁移，如图9所示。</span><img class="" data-copyright="0" data-ratio="0.41076487252124644" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hEx03cFgUsVEX8ZON8NdheibMN6gYlwrrAj3wIh1ZyQjJVlbdPCSJBHjhBDibGR8EMdJAYVeD7WL8CoialYnaj87A/640?wx_fmt=png" data-type="png" data-w="706" style="text-align: center;letter-spacing: 0px;"><span style="text-align: center;letter-spacing: 0px;color: rgb(136, 136, 136);font-size: 12px;">图9 深度卷积神经网络的层次结构与特征描述</span></p></section><section class="output_wrapper" style="font-size: 16px;color: rgb(62, 62, 62);line-height: 1.6;letter-spacing: 0px;"><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">模型迁移通过固定网络特定层次的参数，用目标域的数据来训练其他层次。对于我们的场景分类任务而言，首先根据分类的类别数修改网络输出层，接着固定较浅的卷积层而基于业务标注数据训练网络倒数若干层参数。如有更多的训练数据可用，还可以进一步微调整个网络的参数以获得额外的性能提升，如图10所示。相比于直接提取图像的高层语义特征来进行监督学习，采用分阶段的参数迁移对原始域与目标域间的差异性更健壮。</span></p><center style="font-size: inherit;color: inherit;line-height: inherit;"><figure style="font-size: inherit;color: inherit;line-height: inherit;"><figcaption style="line-height: inherit;margin-top: 10px;color: rgb(153, 153, 153);font-size: 0.7em;"></figcaption></figure></center></section><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.4260485651214128" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hEx03cFgUsVEX8ZON8NdheibMN6gYlwrrOO1lGL6ZoJ0c3qRDvGaz6qFAEwpMRIhib7VoSYK1nsqbYc8VWtAZbxg/640?wx_fmt=png" data-type="png" data-w="906" style=""></p><section class="output_wrapper" style="font-size: 16px;color: rgb(62, 62, 62);line-height: 1.6;letter-spacing: 0px;"><center style="font-size: inherit;color: inherit;line-height: inherit;"><span style="font-size: 12px;color: rgb(136, 136, 136);">图10 基于深度卷积神经网络的模型迁移</span></center><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">基于上述迁移学习策略，我们在美食场景图和酒店房型图分类中进行了相关实验，基于有限（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">万级别图片</span><span style="font-size: 15px;">）的标注样本实现了较高的识别准确率，测试集上的性能如表4所示。</span></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.25205158264947247" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hEx03cFgUsVEX8ZON8NdheibMN6gYlwrroYRPQbU4NzJ41qH1gk9MrsVIIY1TZyjPRVE4MibZq4tIx7z9PF8SgcQ/640?wx_fmt=png" data-type="png" data-w="853" style=""></p><center style="font-size: inherit;color: inherit;line-height: inherit;"><figure style="font-size: inherit;color: inherit;line-height: inherit;"></figure></center><center style="font-size: inherit;color: inherit;line-height: inherit;"><span style="color: rgb(136, 136, 136);font-size: 12px;">表4 美食场景分类</span></center><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">如前所述，基于深度学习的图像分类与检测方法在图片智能审核中替代了传统机器学习方法，在公开模型与迁移学习的基础上，通过从海量数据中的持续学习，实现了业务场景落地。</span></p><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;"><strong style="font-size: inherit;color: inherit;line-height: inherit;">参考文献</strong></span></p><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 12px;">[1]H. Chen, S. S. Tsai, G. Schroth, D. M. Chen, R. Grzeszczuk, and B. Girod. “Robust text detection in natural images with edge-enhanced maximally stable extremal regions.” ICIP 2011.<br  />[2]Z Zhong,LJin,SZhang,ZFeng.“DeepText: A Unified Framework for Text Proposal Generation and Text Detection in Natural Images”. Architecture Science 2015.<br  />[3]Minghui Liao, Baoguang Shi, Xiang Bai, Xinggang Wang, Wenyu Liu. “TextBoxes: A Fast Text Detector with a Single Deep Neural Network”. AAAI 2017.<br  />[4]S. Ren, K. He, R. Girshick, and J. Sun. Faster r-cnn.“Towards real-time object detection with region proposal networks.” NIPS 2015.<br  />[5]Graves, A.; Fernandez, S.; Gomez, F.; and Schmidhuber, J. “Connectionist temporal classification: Labelling unsegmented sequence data with recurrent neural networks.” ICML 2006.<br  />[6]R Girshick,JDonahue,TDarrell,JMalik. “Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation.” CVPR 2014.<br  />[7]J. Redmon, S. Divvala, R. Girshick, and A. Farhadi. “You only look once: Unified, real-time object detection”. CVPR 2016.<br  />[8]W. Liu, D. Anguelov, D. Erhan, C. Szegedy, and S. Reed. “SSD: Single shot multibox detector”. ECCV 2016.<br  />[9] “Object detection with discriminatively trained part-based models”. TPAMI 2010.<br  />[10]Robust Real-time Object Detection. Paul Viola, Michael Jones. IJCV 2004.<br  />[11]N. Markus, M. Frljak, I. S. Pandzic, J. Ahlberg and R. Forchheimer. “Object Detection with Pixel Intensity Comparisons Organized in Decision Trees”. CoRR 2014.<br  />[12]Shengcai Liao, Anil K. Jain, and Stan Z. Li. “A Fast and Accurate Unconstrained Face Detector,” TPAMI 2015.<br  />[13]Dong Chen, ShaoQingRen, Jian Sun. “Joint Cascade Face Detection and Alignment”, ECCV 2014.<br  />[14]Haoxiang Li, Zhe Lin, XiaohuiShen, Jonathan Brandt, Gang Hua. “A convolutional neural network cascade for face detection”, CVPR.2015.<br  />[15]Lichao Huang, Yi Yang, Yafeng Deng, Yinan Yu.“DenseBox: Unifying Landmark Localization with End to End Object Detection” CVPR 2015.<br  />[16]Taigman Y, Yang M, Ranzato M A, et al. Deepface: Closing the gap to human-level performance in face verification.CVPR 2014.<br  />[17]Sun Y, Wang X, Tang X. Deep learning face representation from predicting 10,000 classes.CVPR 2014.<br  />[18]Sun Y, Chen Y, Wang X, et al. Deep learning face representation by joint identification-verification.NIPS. 2014.<br  />[19]FaceNet: A Unified Embedding for Face Recognition and Clustering. CVPR 2015.<br  />[20]A Discriminative Feature Learning Approach for Deep Face Recognition. ECCV 2016.<br  />[21]Rethinking the Inception Architecture for Computer Vision. CVPR 2016.<br  />[22]Alex Krizhevsky, IlyaSutskever, Geoffrey E. Hinton. “ImageNet Classification with Deep Convolutional Neural Networks”. 2014.<br  />[23]Murray, N., Marchesotti, L., Perronnin, F. “Ava: A large-scale database for aesthetic visual analysis”. CVPR 2012.</span></p><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;"><strong style="color: rgb(62, 62, 62);white-space: normal;font-size: 20px;"><span style="color: rgb(49, 188, 173);">作者简介</span></strong></span></p><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;color: rgb(136, 136, 136);">晓明，美团平台智能技术中心视觉技术负责人，曾就职于佳能研究院，三星研究院。2015年加入美团，主要致力于图像和视频相关的技术积累和业务落地，作为技术负责人主导了图像智能审核、首图优选、刷脸认证、拍照录菜等项目的上线，显著提升了用户和商家的智能化体验。</span></p><p style="white-space: normal;"><span style="font-size: 15px;"></span></p><section data-source="bj.96weixin.com" style="font-size: 16px;white-space: normal;max-width: 100%;color: rgb(62, 62, 62);background-color: rgb(255, 255, 255);text-align: justify;line-height: 27.4286px;box-sizing: border-box !important;overflow-wrap: break-word !important;"><section style="padding: 20px 20px 15px;max-width: 100%;box-sizing: border-box;width: 670px;text-decoration: inherit;background-color: rgb(245, 245, 245);overflow-wrap: break-word !important;"><p><span style="font-family: Arial, sans-serif;font-weight: bold;text-decoration: inherit;color: rgb(128, 128, 128);font-size: 15px;"></span><strong><span style="font-size: 15px;">如果你想近距离与我们的作者沟通、交流，请来GitChat，点击“免费预订”即可参与读者交流，报名</span></strong><a href="https://gitbook.cn/gitchat/activity/5b47248b08f1dd169c5e24e8" target="_blank" style="font-size: 15px;text-decoration: underline;"><strong><span style="font-size: 15px;">链接</span></strong></a><strong><span style="font-size: 15px;">。</span></strong></p></section></section><p style="color: rgb(62, 62, 62);white-space: normal;text-align: left;"><strong style="letter-spacing: 0px;font-size: 20px;"><span style="color: rgb(49, 188, 173);"><br  /></span></strong></p><p style="color: rgb(62, 62, 62);white-space: normal;text-align: left;"><strong style="letter-spacing: 0px;font-size: 20px;"><span style="color: rgb(49, 188, 173);">团队简介</span></strong><br  /></p><p style="margin-top: 1.5em;margin-bottom: 1.5em;color: inherit;font-size: inherit;white-space: normal;line-height: inherit;"><span style="font-size: 15px;color: rgb(136, 136, 136);">美团点评算法团队是整个美团点评技术团队的“大脑”，涵盖搜索、推荐、广告、智能调度、自然语言处理、计算机视觉、机器人以及无人驾驶等多个技术领域。帮助美团点评数亿活跃用户改善了用户体验，也帮助餐饮、酒店、结婚、丽人、亲子等200多个品类的数百万商户提升了运营效率。目前，美团点评算法团队在人工智能领域进行积极的探索和研究，不断创新与实践，致力于应用最前沿的技术，给广告大消费者带来更好的生活服务体验。</span></p><p style="margin-top: 1.5em;margin-bottom: 1.5em;color: inherit;font-size: inherit;white-space: normal;line-height: inherit;"><strong style="color: rgb(136, 136, 136);letter-spacing: 0px;font-size: 20px;"><span style="color: rgb(49, 188, 173);">图书推荐</span></strong></p><p style="margin-top: 1.5em;margin-bottom: 1.5em;color: inherit;font-size: inherit;white-space: normal;line-height: inherit;"><span style="font-size: 15px;">我们“美团技术团队”公众号之前已经发布过很多AI和算法方面的文章，但从中很难了解算法工程师完整的工作流程。</span></p><p style="color: rgb(62, 62, 62);font-size: 16px;white-space: normal;"><span style="font-size: 15px;">告诉大家一个好消息，美团算法团队多位技术专家集体编写的《美团机器学习实践》一书即将出版。这本书详细地讲述了最热门的人工智能技术如何应用于搜索、推荐、计算广告、风控、图像处理等各种场景，如何在美团这个全球最大生活服务互联网平台实际落地，敬请期待。</span></p><p style="color: rgb(62, 62, 62);font-size: 16px;white-space: normal;"><span style="font-size: 15px;"></span></p><p style="color: rgb(62, 62, 62);font-size: 16px;white-space: normal;text-align: center;"><img class="" data-copyright="0" data-ratio="0.4453125" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_jpg/hEx03cFgUsVOfJXV1uypaUe2juUrpzMDjiaOElZricUYL3a1HD72qlE1j8LBAa6S8w0ZO0oGXNen5pwqsicuN3jiaA/640?wx_fmt=jpeg" data-type="jpeg" data-w="1280"></p></section><p style="white-space: normal;text-align: center;"><span style="font-size: 15px;color: rgb(136, 136, 136);">----------&nbsp; END&nbsp; ----------</span></p><p data-source-line="194" style="white-space: normal;"><span style="font-size: 16px;"><strong><span style="color: rgb(49, 188, 173);">招聘信息</span></strong></span></p><p style="white-space: normal;"><br  /></p><section data-source="bj.96weixin.com" style="font-size: 16px;white-space: normal;max-width: 100%;color: rgb(62, 62, 62);background-color: rgb(255, 255, 255);text-align: justify;line-height: 27.4286px;box-sizing: border-box !important;overflow-wrap: break-word !important;"><section style="padding: 20px 20px 15px;max-width: 100%;box-sizing: border-box;width: 670px;text-decoration: inherit;background-color: rgb(245, 245, 245);overflow-wrap: break-word !important;"><p style="line-height: normal;"><span style="color: rgb(62, 62, 62);font-size: 14px;">美团平台智能技术中心充分利用人工智能的优势来支持美团点评多个业务线，并在智能推荐、智能营销、智能经营、智能审核等多个领域都取得了很好的应用效果。长期招聘自然语言处理、计算机视觉、大规模机器学习、数据挖掘算法或工程背景的同学。欢迎有意向的同学投递简历至：zhanghejia@meituan.com。</span></p></section></section><p style="white-space: normal;"><br  /></p><p style="white-space: normal;"><span style="font-size: 16px;"><strong><span style="color: rgb(49, 188, 173);">也许你还想看</span></strong></span></p><p style="white-space: normal;"><span style="font-size: 14px;text-decoration: underline;"><strong><span style="font-size: 14px;text-decoration: underline;color: rgb(49, 188, 173);"><br  /></span></strong></span></p><p style="white-space: normal;"><span style="color: rgb(49, 188, 173);font-size: 14px;text-decoration: underline;"><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ5MTI5OA==&amp;mid=2651748259&amp;idx=2&amp;sn=2e67dea28376f04dabcb6b5dd787a6e7&amp;chksm=bd12aeee8a6527f84772220af2b9a5d205a91ae0725a3a858ba653b340bb38535642ce93df0d&amp;scene=21#wechat_redirect" target="_blank">【AI in 美团】深度学习在OCR中的应用</a></span><span style="font-size: 14px;text-decoration: underline;"><strong><span style="text-decoration: underline;font-size: 14px;color: rgb(49, 188, 173);"><br  /></span></strong></span></p><p style="white-space: normal;"><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ5MTI5OA==&amp;mid=2651748157&amp;idx=2&amp;sn=1d5431961d4db29682b57daf169e3a81&amp;chksm=bd12ae708a652766e1817eecbd28c1eb974bcd35f0722e6b64c83abc534454535816d4b04717&amp;scene=21#wechat_redirect" target="_blank" style="font-size: 14px;text-decoration: underline;"><span style="font-size: 14px;">【AI in 美团】深度学习在文本领域的应用</span></a><br  /></p><p style="white-space: normal;"><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ5MTI5OA==&amp;mid=2651748088&amp;idx=1&amp;sn=2ff120396897b31897a222a2176eea25&amp;chksm=bd12afb58a6526a306529374daaea3fc14edd2f68ebfd1f32ce1250352021a681334ca433428&amp;scene=21#wechat_redirect" target="_blank" style="font-size: 14px;text-decoration: underline;"><span style="font-size: 14px;">【AI in 美团】深度学习在美团搜索广告排序的应用实践</span></a><br  /></p><p style="white-space: normal;"><br  /><span style="font-size: 15px;"></span></p><p style="white-space: normal;"><img class="" data-copyright="0" data-ratio="0.44533333333333336" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hEx03cFgUsV6LYkM3uK5TAnl8DxXwdR4YOAKWmYSpAtzV3P359bDG3cn3Vr4T6HMkvDSI8icUYsejmDnfa5CdpQ/640?wx_fmt=png" data-type="png" data-w="1875"></p><p><br  /></p>
+                </div>
+                <script nonce="1115885466" type="text/javascript">
+                    var first_sceen__time = (+new Date());
+
+                    if ("" == 1 && document.getElementById('js_content')) {
+                        document.getElementById('js_content').addEventListener("selectstart",function(e){ e.preventDefault(); });
+                    }
+
+                    
+                    (function(){
+                        if (navigator.userAgent.indexOf("WindowsWechat") != -1){
+                            var link = document.createElement('link');
+                            var head = document.getElementsByTagName('head')[0];
+                            link.rel = 'stylesheet';
+                            link.type = 'text/css';
+                            link.href = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+                            head.appendChild(link);
+                        }
+                    })();
+                </script>
+
+                
+                <div class="ct_mpda_wrp" id="js_sponsor_ad_area" style="display:none;"></div>
+                
+                
+                <div class="read-more__area" id="js_more_read_area" style="display:none;">
+                    
+                </div>
+
+                
+                                <div class="reward_area tc reward_area_primary" id="js_preview_reward_author" style="display:none;">
+                    <div class="reward-avatar" style="display: none;" id="js_preview_reward_author_avatar">
+                        <img src="" alt="" id="js_preview_reward_author_head">
+                    </div>
+                    
+                                        <div class="reward-author" id="js_preview_reward_author_name">晓明</div>
+                                        <p class="reward_tips" id="js_preview_reward_author_wording" style="display:none;"></p>
+                    <p>
+                        <a class="reward_button" id='js_preview_reward_author_link' href="##"><span id="js_preview_reward_link_text">赞赏</span></a>
+                    </p>
+                </div>
+
+                <div class="reward_qrcode_area reward_area tc" id="js_preview_reward_qrcode" style="display:none;">
+                    <p class="tips_global">长按二维码向我转账</p>
+                    <p id="js_preview_reward_ios_wording" class="reward_tips" style="display:none;"></p>
+                    <span class="reward_qrcode_img_wrp"><img class="reward_qrcode_img" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_reward_qrcode.2x42f400.png"></span>
+                    <p class="tips_global">受苹果公司新规定影响，微信 iOS 版的赞赏功能被关闭，可通过二维码转账支持公众号。</p>
+                </div>
+                                
+                
+                            </div>
+                                    
+                        
+
+
+                        
+            <ul id="js_hotspot_area" class="article_extend_area"></ul>
+
+
+            
+
+            
+
+
+<div class="rich_media_tool" id="js_toobar3">
+
+        <div id="js_read_area3" class="media_tool_meta tips_global_primary meta_primary" style="display:none;">阅读 <span id="readNum3"></span></div>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_praise" id="like_old">
+        <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum_old"></span>
+    </span>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_like" id="like3">
+        <button class="like_btn" id="js_like_btn"> 
+          <span id="js_like_wording"> 好看</span><span class="like_num" id="likeNum3"></span>
+        </button>
+    </span>
+
+    <div id="js_like_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog weui-dialog_haokan">
+        <div class="weui-dialog__hd"><strong class="weui-dialog__title" id="educate_title">已推荐到看一看</strong></div>
+        <div class="weui-dialog__bd">
+          <img class="pic_haokan" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_haokan42f400.png">
+            你的朋友可以在“发现”-“看一看”看到你认为好看的文章。        </div>
+        <div class="weui-dialog__ft" id="educate_btn" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_default" id="js_cancel">取消</a>
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_confirm">推荐</a>
+        </div>
+        <div class="weui-dialog__ft" id="educate_btn2" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_acknowledge">我知道了</a>
+        </div>
+        </div>
+    </div>
+
+    <div id="js_unlike_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog">
+        
+        <div class="weui-dialog__bd">
+            已取消，“好看”想法已同步删除        </div>
+        <div class="weui-dialog__ft">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_unlike_know">知道了</a>
+        </div>
+        </div>
+    </div>
+
+    
+    </div>
+
+
+<div class="like_comment_wrp" id="js_a_like_comment" style="display: none;">
+  <div class="like_comment_inner">
+    <div class="like_comment_hd" style="display:none" id="js_like_title"></div>
+    <div class="like_comment_bd">
+      <div class="tips_global_primary like_comment_tips">
+        <i class="weui-icon-success"></i>已推荐到看一看<a href="javascript:;" class="like_comment_share_link" id="js_a_like_comment_share">和朋友分享想法</a>
+      </div>
+    </div>
+    <div class="like_comment_ft">
+      <span id="js_a_like_comment_msg" class="like_comment_msg" style="visibility:hidden">最多200字，当前共<span id="js_a_like_current_cnt"></span>字</span>
+      <button class="like_comment_btn" disabled="disabled" id="js_a_like_confirm">发送</button>
+    </div>
+  </div>
+</div>
+
+<div id="js_like_toast" style="display: none;">
+  <div class="weui-mask_transparent"></div>
+  <div class="weui-toast">
+    <i class="weui-icon-success-no-circle weui-icon_toast"></i>
+    <p class="weui-toast__content" id="js_toast_msg">已发送</p>
+  </div>
+</div>
+
+
+<div style="display: none;" id="js_b_comment_panel" class="like_comment_primary_pop">
+  <div class="like_comment_primary_wrp" id="js_b_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <h4 class="like_comment_primary_title">
+          朋友将在看一看看到        </h4>
+        <button id="js_b_like_confirm" class="like_comment_primary_btn">确定</button>
+      </div>
+      <div id='js_b_comment_text_first' class="like_comment_primary_bd">
+        <span class="tips_global_primary">
+          分享你的想法...        </span>
+      </div>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_1"></div>
+</div>
+
+<div style="display: none;" id="js_b_comment_final">
+  <div class="like_comment_primary_wrp editing" id="js_comment_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <button class="like_comment_primary_cancel" id="js_b_comment_cancel">取消</button>
+        <h4 class="like_comment_primary_title"> 分享想法到看一看 </h4>
+        <button class="like_comment_primary_btn" id="js_b_comment_confirm">确定</button>
+      </div>
+      <div class="like_comment_primary_bd">
+        <textarea class="like_comment_textarea weui-textarea" placeholder="分享你的想法..." id="js_b_comment_text_second"></textarea>
+      </div>
+      <span class="like_comment_msg" id="js_b_like_comment_msg" style="visibility: hidden;">最多200字，当前共<span id="js_b_like_current_cnt"></span>字</span>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_2"></div>
+</div>
+
+<div id="js_loading" style=" display: none;">
+    <div class="weui-mask_transparent"></div>
+    <div class="weui-toast">
+        <i class="weui-loading weui-icon_toast"></i>
+        <p class="weui-toast__content">发送中</p>
+    </div>
+</div>
+
+<div id="js_fail" style="display:none">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+    <div class="weui-dialog__bd">
+        网络异常，请稍后重试    </div>
+    <div class="weui-dialog__ft">
+      <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_fail_inform">知道了</a>
+    </div>
+    </div>
+</div>
+
+
+
+                      </div>
+        </div>
+
+        <div class="rich_media_area_primary sougou" id="sg_tj" style="display:none"></div>
+
+
+        
+        <div class="rich_media_area_extra">
+          <div class="rich_media_area_extra_inner">
+              
+              <div id="js_share_appmsg">
+              </div>
+
+              
+                            <div class="mpda_bottom_container" id="js_bottom_ad_area"></div>
+                            
+              <div id="js_iframetest" style="display:none;"></div>
+                            
+              <div class="rich_media_extra rich_media_extra_discuss" id="js_cmt_container" style="display:none">
+                
+
+                
+                <div class="discuss_mod" id="js_friend_cmt_area" style="display:none">
+                  
+                  
+                  
+                </div>
+
+                                <div class="discuss_mod" id="js_cmt_area" style="display:none">
+                </div>
+                              </div>
+          </div>
+        </div>
+
+        
+        <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">
+            <div class="qr_code_pc_inner">
+                <div class="qr_code_pc">
+                    <img id="js_pc_qr_code_img" class="qr_code_pc_img">
+                    <p>微信扫一扫<br>关注该公众号</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="js_pc_weapp_code" class="weui-desktop-popover weui-desktop-popover_pos-up-center weui-desktop-popover_img-text" style="display: none;">
+    <div class="weui-desktop-popover__content">
+        <div class="weui-desktop-popover__desc">
+            <img id="js_pc_weapp_code_img">
+            微信扫一扫<br>使用小程序<span id="js_pc_weapp_code_des"></span>        </div>
+    </div>
+</div>
+<div id="js_minipro_dialog" style="display:none;">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+        <div class="weui-dialog__bd">即将打开"<span id="js_minipro_dialog_name"></span>"小程序</div>
+        <div class="weui-dialog__ft">
+            <a id="js_minipro_dialog_cancel" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_default">取消</a>
+            <a id="js_minipro_dialog_ok" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_primary">打开</a>
+        </div>
+    </div>
+</div>
+
+        
+        <script nonce="1115885466">
+    var __DEBUGINFO = {
+        debug_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/debug/console42f400.js",
+        safe_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/moonsafe42f400.js",
+        res_list: []
+    };
+</script>
+
+<script nonce="1115885466" type="text/javascript">
+(function() {
+	var totalCount = 0,
+			finishCount = 0;
+
+	function _loadVConsolePlugin() {
+		window.vConsole = new window.VConsole();
+		while (window.vConsolePlugins.length > 0) {
+			var p = window.vConsolePlugins.shift();
+			window.vConsole.addPlugin(p);
+		}
+	}
+	
+	function _addVConsole(uri, cb) {
+		totalCount++;
+		var node = document.createElement('SCRIPT');
+		node.type = 'text/javascript';
+		node.src = uri;
+		node.setAttribute('nonce', '1115885466');
+		if (cb) {
+			node.onload = cb;
+		}
+		document.getElementsByTagName('head')[0].appendChild(node);
+	}
+	if (
+		(document.cookie && document.cookie.indexOf('vconsole_open=1') > -1)
+		|| location.href.indexOf('vconsole=1') > -1
+	) {
+		window.vConsolePlugins = [];
+		_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/3.2.2/vconsole.min43429b.js', function() {
+			
+			_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/plugin/vconsole-mpopt/1.0.1/vconsole-mpopt42f400.js', _loadVConsolePlugin);
+		});
+	}
+})();
+</script>
+        
+<script nonce="1115885466" type="text/javascript">
+if (location.href.match(/fontScale=\d+/) && /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+
+    var m=location.href.match(/fontScale=(\d*)/);
+    var map={
+        "94":1,
+        "100":2,
+        "109":3,
+        "119":4,
+        "131":5,
+    }
+    if(m&&m[1]&&map[m[1]]){
+        document.getElementsByTagName("body")[0].className+=" appmsg_skin_fontscale_"+map[m[1]];
+        console.log("appmsg_skin_fontscale_:"+map[m[1]]);
+    }
+}
+
+
+(function(){
+    if (window.__second_open__) return; 
+
+    
+
+    var first_js_time = +new Date();
+
+    var showDate="";
+    var svrDate=new Date("1549780493"*1000);
+    var createDate=new Date("1531397121"*1000);
+    var ct="1531397121"*1;
+    var publish_time = "2018-07-12" || "";
+    var cD={
+      year:createDate.getYear(),
+      month:createDate.getMonth()+1,
+      date:createDate.getDate()
+    };
+    
+    svrDate.setHours(0);
+    svrDate.setMinutes(0);
+    svrDate.setSeconds(0);
+    var todayDate=svrDate.getTime()/1000;
+    svrDate.setDate(1);
+    svrDate.setMonth(0);
+    var yearDate=svrDate.getTime()/1000;
+    
+    if(ct>=todayDate){
+      showDate="今天";
+    
+    }else if(ct>=todayDate-60*60*24){
+       showDate="昨天";
+    
+    }else if(ct>=todayDate-2*60*60*24){
+      showDate="前天";
+    }else if(ct>=todayDate-3*60*60*24){
+      showDate="3天前";
+    }else if(ct>=todayDate-4*60*60*24){
+      showDate="4天前";
+    }else if(ct>=todayDate-5*60*60*24){
+      showDate="5天前";
+    }else if(ct>=todayDate-6*60*60*24){
+      showDate="6天前";
+    }else if(ct>=todayDate-2*7*60*60*24){
+      showDate="1周前";
+    }else if(ct>=yearDate){
+      
+      
+      
+      showDate="%s月%s日".replace("%s",cD.month).replace("%s",cD.date);
+    }else{
+      showDate=publish_time;
+    };
+    if(document.getElementById("publish_time")){
+      document.getElementById("publish_time").innerText=showDate;
+    }
+})();
+</script>
+<script nonce="1115885466" type="text/javascript">
+
+if (!window.console) window.console = { log: function() {} };
+
+if (typeof getComputedStyle == 'undefined') {
+    if (document.body.currentStyle) {
+        window.getComputedStyle = function(el) {
+            return el.currentStyle;
+        }
+    } else {
+        window.getComputedStyle = {};
+    }
+}
+(function(){
+    window.__zoom = 1;
+    
+    (function(){
+        var validArr = ","+([0.875, 1, 1.125, 1.25, 1.375]).join(",")+",";
+        var match = window.location.href.match(/winzoom=(\d+(?:\.\d+)?)/);
+        if (match && match[1]) {
+            var winzoom = parseFloat(match[1]);
+            if (validArr.indexOf(","+winzoom+",")>=0) {
+                window.__zoom = winzoom;
+            }
+        }
+    })();
+
+    var ua = navigator.userAgent.toLowerCase();
+    var re = new RegExp("msie ([0-9]+[\.0-9]*)");
+    var version;
+    if (re.exec(ua) != null) {
+        version = parseInt(RegExp.$1);
+    }
+    var isIE = false;
+    if (typeof version != 'undefined' && version >= 6 && version <= 9) {
+        isIE = true;
+    }
+    var getMaxWith=function(){
+        var container = document.getElementById('img-content');
+        var max_width = container.offsetWidth;
+        var container_padding = 0;
+        var container_style = getComputedStyle(container);
+        container_padding = parseFloat(container_style.paddingLeft) + parseFloat(container_style.paddingRight);
+        max_width -= container_padding;
+        if (!max_width) {
+            max_width = window.innerWidth - 30;      
+        }
+        return max_width;
+    };
+    var getParentWidth = function(dom){
+        var parent_width = 0;
+        var parent = dom.parentNode;
+        var outerWidth = 0;
+        while (true) {
+            if(!parent||parent.nodeType!=1) break;
+            var parent_style = getComputedStyle(parent);
+            if (!parent_style) break;
+            parent_width = parent.clientWidth - parseFloat(parent_style.paddingLeft) - parseFloat(parent_style.paddingRight) - outerWidth;
+            if (parent_width > 0) break;
+            outerWidth += parseFloat(parent_style.paddingLeft) + parseFloat(parent_style.paddingRight) + parseFloat(parent_style.marginLeft) + parseFloat(parent_style.marginRight) + parseFloat(parent_style.borderLeftWidth) + parseFloat(parent_style.borderRightWidth);
+            parent = parent.parentNode;
+        }
+        return parent_width;
+    }
+    var getOuterW=function(dom){
+        var style=getComputedStyle(dom),
+            w=0;
+        if(!!style){
+            w = parseFloat(style.paddingLeft) + parseFloat(style.paddingRight) + parseFloat(style.borderLeftWidth) + parseFloat(style.borderRightWidth);
+        }
+        return w;
+    };
+    var getOuterH =function(dom){
+        var style=getComputedStyle(dom),
+            h=0;
+        if(!!style){
+            h = parseFloat(style.paddingTop) + parseFloat(style.paddingBottom) + parseFloat(style.borderTopWidth) + parseFloat(style.borderBottomWidth);
+        }
+        return h;
+    };
+    var insertAfter = function(dom,afterDom){
+        var _p = afterDom.parentNode;
+        if(!_p){
+            return;
+        }
+        if(_p.lastChild === afterDom){
+            _p.appendChild(dom);
+        }else{
+            _p.insertBefore(dom,afterDom.nextSibling);
+        }
+    };
+    var getQuery = function(name,url){
+        
+        var u  = arguments[1] || window.location.search,
+            reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)"),
+            r = u.substr(u.indexOf("\?")+1).match(reg);
+        return r!=null?r[2]:"";
+    };
+
+    
+    function setImgSize(item, widthNum, widthUnit, ratio, breakParentWidth) {
+        setTimeout(function () {
+            var img_padding_border = getOuterW(item) || 0;
+            var img_padding_border_top_bottom = getOuterH(item) || 0;
+            
+            if (widthNum > getParentWidth(item) && !breakParentWidth) {
+                widthNum = getParentWidth(item);
+            }
+
+            height = (widthNum - img_padding_border) * ratio + img_padding_border_top_bottom;
+
+            if (isIE) {
+                var url = item.getAttribute('data-src');
+                item.src = url;
+            } else {
+                if(parseFloat(widthNum, 10) > 40 && height > 40 && breakParentWidth) {
+                    item.className += ' img_loading';
+                }
+                item.src = "data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            }
+            item.style.cssText += ";width: " + widthNum + widthUnit + " !important;";
+            item.style.cssText += ";height: " + height + widthUnit + " !important;";
+        }, 10);
+    }
+
+    (function(){
+        var images = document.getElementsByTagName('img');
+        var length = images.length;
+        var max_width = getMaxWith();
+        for (var i = 0; i < length; ++i) {
+            if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var imageItem = images[i];
+            var src_ = imageItem.getAttribute('data-src');
+            var realSrc = imageItem.getAttribute('src');
+            if (!src_ || realSrc) continue;
+            
+            var originWidth = imageItem.getAttribute('data-w');
+            var ratio_ = 1 * imageItem.getAttribute('data-ratio');
+
+            var height = 100;
+            if (ratio_ && ratio_ > 0) {
+                var parent_width = getParentWidth(imageItem) || max_width;
+                var initWidth = imageItem.style.width || imageItem.getAttribute('width') || originWidth || parent_width;
+                initWidth = parseFloat(initWidth, 10) > max_width ? max_width : initWidth;
+                
+                if (initWidth) {
+                    imageItem.setAttribute('_width', !isNaN(initWidth * 1) ? initWidth + 'px' : initWidth);
+                }
+                
+                if (typeof initWidth === 'string' && initWidth.indexOf('%') !== -1) {
+                    initWidth = parseFloat(initWidth.replace('%', ''), 10) / 100 * parent_width;
+                }
+                
+                if (initWidth === 'auto') {
+                    initWidth = originWidth;
+                }
+
+                var res = /^(\d+(?:\.\d+)?)([a-zA-Z%]+)?$/.exec(initWidth);
+                var widthNum = res && res.length >= 2 ? res[1] : 0;
+                var widthUnit = res && res.length >= 3 && res[2] ? res[2] : 'px';
+
+                
+                setImgSize(imageItem, widthNum, widthUnit, ratio_, true);
+                
+                (function (item, widthNumber, unit, ratio) {
+                    setTimeout(function () {
+                        setImgSize(item, widthNumber, unit, ratio, false);
+                    });
+                })(imageItem, widthNum, widthUnit, ratio_);
+            } else {
+                imageItem.style.cssText += ";visibility: hidden !important;";
+            }
+
+        }
+    })();
+    window.__videoDefaultRatio=16/9;
+    window.__getVideoWh = function(dom){
+        var max_width = getMaxWith(),
+            width = max_width,
+            ratio_ = dom.getAttribute('data-ratio')*1,
+            arr = [4/3, 16/9],
+            ret = arr[0],
+            abs = Math.abs(ret - ratio_);
+        if (!ratio_) { 
+            if (dom.getAttribute("data-mpvid")) { 
+                ratio_ = 16/9;
+            } else { 
+                ratio_ = 4/3;
+            }
+        } else { 
+            for (var j = 1, jl = arr.length; j < jl; j++) {
+                var _abs = Math.abs(arr[j] - ratio_);
+                if (_abs < abs) {
+                    abs = _abs;
+                    ret = arr[j];
+                }
+            }
+            ratio_ = ret;
+        }
+        
+        var parent_width = getParentWidth(dom)||max_width,
+            width = width > parent_width ? parent_width : width,
+            outerW = getOuterW(dom)||0,
+            outerH = getOuterH(dom)||0,
+            videoW = width - outerW,
+            videoH = videoW/ratio_,
+            height = videoH + outerH;
+        return {w:Math.ceil(width),h:Math.ceil(height),vh:videoH,vw:videoW,ratio:ratio_};
+    };
+
+
+    (function(){
+        var iframe = document.getElementsByTagName('iframe');
+        for (var i=0,il=iframe.length;i<il;i++) {
+            if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var a = iframe[i];
+            var src_ = a.getAttribute('src')||a.getAttribute('data-src')||"";
+            if(!/^http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)
+                && !/^http(s)*\:\/\/mp\.weixin\.qq\.com\/mp\/readtemplate\?t=pages\/video_player_tmpl/.test(src_)
+            ){
+                continue;
+            }
+            var vid = getQuery("vid",src_);
+            if(!vid){
+                continue;
+            }
+            vid=vid.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,"");
+            a.removeAttribute('src');
+            a.style.display = "none";
+            var obj = window.__getVideoWh(a),
+                videoPlaceHolderSpan = document.createElement('span'),
+                videoPlayerIconSpan = document.createElement('span'),
+                mydiv = document.createElement('img');
+
+            videoPlaceHolderSpan.className = "js_img_loading db";
+            videoPlaceHolderSpan.setAttribute("data-vid", vid);
+            
+
+            videoPlayerIconSpan.className = 'wx_video_context db'; 
+            videoPlayerIconSpan.style.display = 'none';
+            videoPlayerIconSpan.innerHTML = '<span class="wx_video_thumb_primary"></span><button class="wx_video_play_btn">播放</button><span class="wx_video_mask"></span>'; 
+
+            mydiv.className = "img_loading";
+
+            mydiv.src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            
+            
+            videoPlaceHolderSpan.style.cssText = "width: " + obj.w + "px !important;";
+            mydiv.style.cssText += ";width: " + obj.w + "px";
+            videoPlaceHolderSpan.appendChild(videoPlayerIconSpan);
+            videoPlaceHolderSpan.appendChild(mydiv);
+            insertAfter(videoPlaceHolderSpan, a); 
+            
+            a.style.cssText += ";width: " + obj.w + "px !important;";
+            a.setAttribute("width",obj.w);
+            if(window.__zoom!=1){
+                a.style.display = "block";
+                videoPlaceHolderSpan.style.display = "none";
+                a.setAttribute("_ratio",obj.ratio);
+                a.setAttribute("_vid",vid);
+            }else{
+                videoPlaceHolderSpan.style.cssText += "height: " + obj.h + "px !important;";
+                mydiv.style.cssText += "height: " + obj.h + "px !important;";
+                a.style.cssText += "height: " + obj.h + "px !important;";
+                a.setAttribute("height",obj.h);
+            }
+            a.setAttribute("data-vh",obj.vh);
+            a.setAttribute("data-vw",obj.vw);
+            if(a.getAttribute("data-mpvid")){
+                a.setAttribute("data-src",location.protocol+"//mp.weixin.qq.com/mp/readtemplate?t=pages/video_player_tmpl&auto=0&vid="+vid);
+            }else{
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+obj.vw+"&height="+obj.vh+"&auto=0");   
+            }            
+        }
+    })();
+    
+    (function(){
+        if(window.__zoom!=1){
+            if (!window.__second_open__) {
+                document.getElementById('page-content').style.zoom = window.__zoom;
+                var a = document.getElementById('activity-name');
+                var b = document.getElementById('meta_content');
+                if(!!a){
+                    a.style.zoom = 1/window.__zoom;
+                }
+                if(!!b){
+                    b.style.zoom = 1/window.__zoom;
+                }
+            }
+            var images = document.getElementsByTagName('img');
+            for (var i = 0,il=images.length;i<il;i++) {
+                if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                images[i].style.zoom = 1/window.__zoom;
+            }
+            var iframe = document.getElementsByTagName('iframe');
+            for (var i = 0,il=iframe.length;i<il;i++) {
+                if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                var a = iframe[i];
+                a.style.zoom = 1/window.__zoom;
+                var src_ = a.getAttribute('data-src')||"";
+                if(!/http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)){
+                    continue;
+                }
+                var ratio = a.getAttribute("_ratio");
+                var vid = a.getAttribute("_vid");
+                a.removeAttribute("_ratio");
+                a.removeAttribute("_vid");
+                var vw = a.offsetWidth - (getOuterW(a)||0);
+                var vh = vw/ratio;
+                var h = vh + (getOuterH(a)||0)
+                a.style.cssText += "height: " + h + "px !important;"
+                a.setAttribute("height",h);
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+vw+"&height="+vh+"&auto=0");
+                a.style.display = "none";
+                var parent = a.parentNode;
+                if(!parent){
+                    continue;
+                }
+                for(var j=0,jl=parent.children.length;j<jl;j++){
+                    var child = parent.children[j];
+                    if(child.className.indexOf("img_loading")>=0 && child.getAttribute("data-vid")==vid){
+                        child.style.cssText += "height: " + h + "px !important;";
+                        child.style.display = "";
+                    }
+                }
+            }
+        }
+    })();
+})();
+</script>
+<script nonce="1115885466" type="text/javascript">
+    var new_appmsg = 1;
+    var item_show_type = "0";
+    var can_see_complaint = "0";
+    var not_in_mm_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm435ee6.css";
+    var windowwx_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+    var article_improve_combo_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo438c19.css";
+    var tid = "";
+    var aid = "";
+    var clientversion = "";
+    var appuin = ""||"MjM5NjQ5MTI5OA==";
+
+    var source = "";
+    var ascene = "";
+    var subscene = "";
+    var sessionid = ""||"";
+    var abtest_cookie = "";
+
+    var scene = 75;
+
+    var itemidx = "";
+    var appmsg_token   = "";
+    var _copyright_stat = "1";
+    var _ori_article_type = "科技互联网";
+
+    var is_follow = "";
+    var nickname = "美团技术团队";
+    var appmsg_type = "9";
+    var ct = "1531397121";
+    var publish_time = "2018-07-12" || "";
+    var user_name = "gh_96d37a04e9bf";
+    var user_name_new = "";
+    var fakeid   = "";
+    var version   = "";
+    var is_limit_user   = "0";
+    var round_head_img = "http://mmbiz.qpic.cn/mmbiz_png/hEx03cFgUsXJmHS8siaz48xKOxGqQehNLkHe1cnUeqhKeBwaA1c0eFjCDiaLGiaYCL6UqCPwTnqpia3WdM9Uo8mPqg/0?wx_fmt=png";
+    var hd_head_img = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM5vhk5P7xlYy014w9hRdPMvUib3GdcebBaHiaYCvpWMGo6A/0"||"";
+    var ori_head_img_url = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM5vhk5P7xlYy014w9hRdPMvUib3GdcebBaHiaYCvpWMGo6A/132";
+    var msg_title = "美团如何基于深度学习实现图像的智能审核？";
+    var msg_desc = "美团每天有百万级的图片产生量，运营人员负责相关图片的内容审核，对涉及法律风险及不符合平台规定的图片进行删除操作。由于图片数量巨大，人工审核耗时耗力且审核能力有限，所以必须依靠深度学习技术。";
+    var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz_jpg/hEx03cFgUsVEX8ZON8NdheibMN6gYlwrraPMtJ5X2JRsaVS0icGVpEayJAetLN2yX3UM8vAdNz74koZf1B8SfotA/0?wx_fmt=jpeg"; 
+    var cdn_url_1_1  = ""; 
+    var cdn_url_235_1 = ""; 
+    
+    var msg_link = "http://mp.weixin.qq.com/s?__biz=MjM5NjQ5MTI5OA==&amp;mid=2651748367&amp;idx=3&amp;sn=8b55db4ab7b5e39426103ff1decd37c9&amp;chksm=bd12a1428a652854805fe23766c5d4b19adb6a0691f2371b1d33f9b91b4be14ca03c585e36e7#rd"; 
+    var user_uin = "0"*1;
+    var msg_source_url = '';
+    var img_format = 'jpeg';
+    var srcid = '';
+    var req_id = '1014cBOmnh1nHq98aZh8Ec8D';
+    var networkType;
+    var appmsgid = '' || ''|| "2651748367";
+    var comment_id = "365824690326880256" || "365824690326880256" * 1;
+    var comment_enabled = "" * 1;
+    var is_need_reward = "0" * 1;
+    var is_https_res = ("" * 1) && (location.protocol == "https:");
+    var msg_daily_idx = "1" || "";
+    var profileReportInfo = "" || "";
+
+    var devicetype = "";
+    var source_encode_biz = "";
+    var source_username = "";
+    
+    var reprint_ticket = "";
+    var source_mid = "";
+    var source_idx = "";
+    var source_biz = "";
+    var author_id = "";
+
+    
+    var optimizing_flag = "0" * 1;
+    var ad_abtest_padding = "0" * 1;
+
+    var show_comment = "";
+    var __appmsgCgiData = {
+        wxa_product : ""*1,
+        wxa_cps : ""*1,
+        show_msg_voice: "0"*1,
+        can_use_page : "0"*1,
+        is_wxg_stuff_uin : "0"*1,
+        card_pos : "",
+        copyright_stat : "1",
+        source_biz : "",
+        hd_head_img : "http://wx.qlogo.cn/mmhead/Q3auHgzwzM5vhk5P7xlYy014w9hRdPMvUib3GdcebBaHiaYCvpWMGo6A/0"||(window.location.protocol+"//"+window.location.host + "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_rumor_link.2x42f400.jpg")
+    };
+    var _empty_v = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/pages/voice/empty42f400.mp3";
+
+    var copyright_stat = "1" * 1;
+
+    var pay_fee = "" * 1;
+    var pay_timestamp = "";
+    var need_pay = "" * 1;
+
+    var need_report_cost = "0" * 1;
+    var use_tx_video_player = "0" * 1;
+    var appmsg_fe_filter = "contenteditable";
+
+    var friend_read_source = "" || "";
+    var friend_read_version = "" || "";
+    var friend_read_class_id = "" || "";
+
+    var is_only_read = "1" * 1;
+    var read_num = "" * 1;
+    var like_num = "" * 1;
+    var liked = "" == 'true' ? true : false;
+    var is_temp_url = "" ? 1 : 0;
+    var send_time = "";
+    var icon_emotion_switch = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch.2x42f400.png";
+    var icon_emotion_switch_active = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch_active.2x42f400.png";
+    var icon_loading_white = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif";
+    var icon_audio_unread = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/audio/icon_audio_unread42f400.png";
+    var icon_qqmusic_default = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_default.2x42f400.png";
+    var icon_qqmusic_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_source42f400.png";
+    var icon_kugou_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/kugou/icon_kugou_source42f400.png";
+
+    var topic_default_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/topic/pic_book_thumb.2x42f400.png';
+    var comment_edit_icon = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg_new/icon_edit42f400.png';
+    var comment_loading_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif';
+
+    var voice_in_appmsg = {
+        "1":"1"
+            };
+
+    var reprint_style = ''*1;
+    var wxa_img_alert = "" != 'false';
+
+    
+    var more_read_type = '0'*1;
+
+    
+    
+    
+    
+
+    
+    var weapp_sn_arr_json = "" || "";
+
+    
+    var ban_scene = "0" * 1;
+
+    var svr_time = "1549780493" * 1;
+    
+    var is_transfer_msg = ""*1||0;
+
+    var malicious_title_reason_id = "0" * 1; 
+    var malicious_content_type = "0" * 1; 
+
+    
+    var modify_time = "";
+
+    
+    var isprofileblock = "0";
+
+    
+    var hotspotInfoList = [
+                    ];
+
+        window.wxtoken = "777";
+        
+    
+    
+    
+    
+    window.is_login = '0' * 1; 
+
+    window.__moon_initcallback = function(){
+        if(!!window.__initCatch){
+            window.__initCatch({
+                idkey : 27611+2,
+                startKey : 0,
+                limit : 128,
+                badjsId: 43,
+                reportOpt : {
+                    uin : uin,
+                    biz : biz,
+                    mid : mid,
+                    idx : idx,
+                    sn  : sn
+                },
+                extInfo : {
+                    network_rate : 0.01,    
+                    badjs_rate: 0.1 
+                }
+            });
+        }
+    }
+        
+    var title ="美团技术团队";
+
+    var is_new_msg=true;
+    
+    
+
+    var is_wash = '' * 1;
+</script>
+
+<script nonce="1115885466" type="text/javascript">
+(function(_g){
+    _g.appmsg_like_type = "1" * 1 ? "1" * 1 : 1;
+    
+    _g.clientversion = "";
+    _g.passparam = ""; 
+    if(!_g.msg_link) {
+      _g.msg_link = "http://mp.weixin.qq.com/s?__biz=MjM5NjQ5MTI5OA==&amp;mid=2651748367&amp;idx=3&amp;sn=8b55db4ab7b5e39426103ff1decd37c9&amp;chksm=bd12a1428a652854805fe23766c5d4b19adb6a0691f2371b1d33f9b91b4be14ca03c585e36e7#rd";
+    }
+    _g.appmsg_type = "9"; 
+    _g.devicetype = ""; 
+})(window);
+
+</script>
+
+
+        <script nonce="1115885466">window.__moon_host = 'res.wx.qq.com';window.__moon_mainjs = 'appmsg/index.js';window.moon_map = {"a/appdialog_confirm.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm.html42f400.js","widget/wx_profile_dialog_primary.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/widget/wx_profile_dialog_primary.css42f400.js","pages/iframe_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/iframe_communicate42f400.js","new_video/player.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player.html433882.js","biz_wap/zepto/touch.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/touch42f400.js","biz_wap/zepto/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/event42f400.js","biz_wap/zepto/zepto.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/zepto42f400.js","page/pages/video.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/pages/video.css435ee6.js","a/tpl/smallbanner_msg_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_msg_tpl.html42f400.js","a/tpl/smallbanner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_info_tpl.html42f400.js","a/tpl/banner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_info_tpl.html42f400.js","a/tpl/promote_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/promote_tpl.html42f400.js","a/tpl/smallcard_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallcard_tpl.html42f400.js","a/tpl/info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/info_tpl.html42f400.js","a/tpl/cardticket_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cardticket_tpl.html42f400.js","a/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_tpl.html42f400.js","a/tpl/sponsor_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/sponsor_tpl.html42f400.js","a/tpl/new_cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/new_cpc_tpl.html42f400.js","appmsg/emotion/caret.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/caret42f400.js","biz_wap/utils/localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/localstorage42f400.js","appmsg/friend_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/friend_comment_tpl.html42f400.js","appmsg/comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_tpl.html42f400.js","biz_wap/utils/fakehash.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/fakehash42f400.js","appmsg/comment_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_report42f400.js","a/appdialog_confirm.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm42f400.js","new_video/player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player4306fd.js","a/tpl/mpda_bottom_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/mpda_bottom_tpl.html42f400.js","a/tpl/crt_size_map.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_size_map42f400.js","biz_wap/jsapi/cardticket.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/cardticket42f400.js","biz_common/jquery.md5.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/jquery.md542f400.js","biz_common/utils/emoji_panel_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_panel_data42f400.js","biz_common/utils/emoji_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_data42f400.js","appmsg/emotion/textarea.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/textarea42f400.js","appmsg/emotion/nav.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/nav42f400.js","appmsg/emotion/common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/common42f400.js","appmsg/emotion/slide.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/slide42f400.js","appmsg/emotion/dom.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/dom42f400.js","pages/music_report_conf.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_report_conf42f400.js","pages/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/report4306fd.js","pages/player_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/player_adaptor42f400.js","pages/music_player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_player42f400.js","appmsg/more_read_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read_tpl.html42f400.js","appmsg/retry_ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/retry_ajax42f400.js","complain/tips.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/complain/tips42f400.js","pages/loadscript.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/loadscript42f400.js","biz_wap/utils/ajax_load_js.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_load_js42f400.js","appmsg/comment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment4317dc.js","a/ios.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios42f400.js","a/android.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android42f400.js","a/profile.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile42f400.js","a/app_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/app_card430506.js","a/sponsor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor42f400.js","a/tpl/cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cpc_tpl.html42f400.js","a/video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/video42f400.js","a/a_config.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_config42f400.js","a/tpl/crt_tpl_manager.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_tpl_manager42f400.js","a/cpc_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/cpc_a_tpl.html42f400.js","a/sponsor_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor_a_tpl.html42f400.js","a/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_tpl.html42f400.js","a/mpshop.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpshop42f400.js","a/wxopen_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/wxopen_card42f400.js","a/card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/card42f400.js","biz_wap/utils/position.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/position42f400.js","a/a_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_report42f400.js","biz_wap/utils/show_time.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/show_time42f400.js","biz_common/utils/get_para_list.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/get_para_list42f400.js","biz_wap/utils/openUrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/openUrl42f400.js","a/a_sign.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_sign438181.js","appmsg/my_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/my_comment_tpl.html42f400.js","appmsg/cmt_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cmt_tpl.html42f400.js","sougou/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/a_tpl.html42f400.js","appmsg/emotion/emotion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/emotion42f400.js","biz_common/base64.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/base6442f400.js","biz_common/utils/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report42f400.js","appmsg/articleReport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/articleReport42f400.js","biz_wap/utils/hand_up_state.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/hand_up_state42f400.js","biz_common/utils/http.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/http42f400.js","biz_common/utils/cookie.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie42f400.js","appmsg/topic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/topic_tpl.html42f400.js","pages/weapp_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/weapp_tpl.html42f400.js","biz_common/utils/monitor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/monitor42f400.js","pages/voice_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_tpl.html42f400.js","pages/kugoumusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/kugoumusic_ctrl42f400.js","pages/qqmusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_ctrl42f400.js","pages/voice_component.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_component42f400.js","pages/qqmusic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_tpl.html42f400.js","new_video/ctl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/ctl4306fd.js","appmsg/open_url_with_webview.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/open_url_with_webview4380a9.js","appmsg/more_read.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read42f400.js","appmsg/reward_entry.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/reward_entry42f400.js","appmsg/like.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like43875f.js","pages/version4video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/version4video42f400.js","biz_wap/utils/storage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/storage42f400.js","appmsg/share_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share_tpl.html42f400.js","appmsg/appmsgext.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsgext430b95.js","appmsg/img_copyright_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/img_copyright_tpl.html42f400.js","pages/video_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_ctrl42f400.js","pages/create_txv.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/create_txv42f400.js","appmsg/comment_utils.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_utils42f400.js","biz_common/ui/imgonepx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx42f400.js","appmsg/malicious_wording.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/malicious_wording42f400.js","biz_common/utils/wxgspeedsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/wxgspeedsdk42f400.js","a/a.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a4382e5.js","rt/appmsg/getappmsgext.rt.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/rt/appmsg/getappmsgext.rt42f400.js","pages/video_communicate_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_communicate_adaptor433882.js","biz_wap/utils/ajax_wx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_wx42f400.js","biz_common/utils/respTypes.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/respTypes42f400.js","biz_wap/utils/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/log42f400.js","sougou/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/index42f400.js","biz_wap/safe/mutation_observer_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/mutation_observer_report42f400.js","appmsg/fereport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport438bee.js","appmsg/fereport_without_localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport_without_localstorage438bee.js","appmsg/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report42f400.js","appmsg/report_and_source.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source4380a9.js","appmsg/page_pos.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos431b87.js","appmsg/cdn_speed_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report42f400.js","appmsg/wxtopic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/wxtopic42f400.js","appmsg/weapp.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp433882.js","appmsg/weproduct.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weproduct42f400.js","appmsg/voicemsg.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voicemsg42f400.js","appmsg/autoread.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/autoread42f400.js","appmsg/voice.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voice42f400.js","appmsg/qqmusic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/qqmusic43440b.js","appmsg/iframe.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe433882.js","appmsg/product.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/product42f400.js","appmsg/review_image.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image435a90.js","appmsg/outer_link.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link433882.js","appmsg/copyright_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/copyright_report42f400.js","appmsg/async.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async438bee.js","biz_wap/ui/lazyload_img.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img42f400.js","biz_common/log/jserr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr42f400.js","appmsg/share.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share42f50a.js","appmsg/cdn_img_lib.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib42f400.js","appmsg/finance_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/finance_communicate42f400.js","page/appmsg_new/not_in_mm.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm.css435ee6.js","page/appmsg_new/combo.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo.css438c19.js","biz_wap/utils/wapsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/wapsdk42f400.js","a/mpAdAsync.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpAdAsync4317dc.js","biz_common/utils/url/parse.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse42f400.js","appmsg/appmsg_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsg_report435ac2.js","biz_common/moment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/moment42f400.js","biz_wap/jsapi/core.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core42f400.js","biz_common/dom/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event42f400.js","appmsg/test.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/test42f400.js","biz_wap/utils/mmversion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion42f400.js","appmsg/max_age.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/max_age42f400.js","biz_common/dom/attr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr42f400.js","biz_wap/utils/ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax42f400.js","appmsg/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/log42f400.js","biz_common/dom/class.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class42f400.js","biz_wap/utils/device.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/device42f400.js","appmsg/weapp_common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp_common42f400.js","biz_common/utils/string/html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html42f400.js","cps/tpl/list_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/list_tpl.html42f400.js","cps/tpl/card_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/card_tpl.html42f400.js","cps/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/banner_tpl.html42f400.js","biz_common/tmpl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl42f400.js","appmsg/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index438e37.js"};</script><script nonce="1115885466" type="text/javascript" id="moon_inline" > window.__mooninline=1; window.setTimeout(function() {  function __moonf__(){
+if(!window.__moonhasinit){
+window.__moonhasinit=!0,window.__moonclientlog=[],window.__wxgspeeds&&(window.__wxgspeeds.moonloadedtime=+new Date),
+"object"!=typeof JSON&&(window.JSON={
+stringify:function(){
+return"";
+},
+parse:function(){
+return{};
+}
+});
+var e=function(){
+function e(e){
+try{
+var o;
+/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)?o="writeLog":/(Android)/i.test(navigator.userAgent)&&(o="log"),
+o&&t(o,e);
+}catch(n){
+throw console.error(n),n;
+}
+}
+function t(e,o){
+var n,r,i={};
+n=top!=window?top.window:window;
+try{
+r=n.WeixinJSBridge,i=n.document;
+}catch(a){}
+e&&r&&r.invoke?r.invoke(e,{
+level:"info",
+msg:"[WechatFe][moon]"+o
+}):setTimeout(function(){
+i.addEventListener?i.addEventListener("WeixinJSBridgeReady",function(){
+t(e,o);
+},!1):i.attachEvent&&(i.attachEvent("WeixinJSBridgeReady",function(){
+t(e,o);
+}),i.attachEvent("onWeixinJSBridgeReady",function(){
+t(e,o);
+}));
+},0);
+}
+var n;
+localStorage&&JSON.parse(localStorage.getItem("__WXLS__moonarg"))&&"fromls"==JSON.parse(localStorage.getItem("__WXLS__moonarg")).method&&(n=!0),
+e(" moon init, moon_inline:"+window.__mooninline+", moonls:"+n),function(){
+var e={},o={},t={};
+e.COMBO_UNLOAD=0,e.COMBO_LOADING=1,e.COMBO_LOADED=2;
+var n=function(e,t,n){
+if(!o[e]){
+o[e]=n;
+for(var r=3;r--;)try{
+moon.setItem(moon.prefix+e,n.toString()),moon.setItem(moon.prefix+e+"_ver",moon_map[e]);
+break;
+}catch(i){
+moon.clear();
+}
+}
+},r=window.alert;
+window.__alertList=[],window.alert=function(e){
+r(e),window.__alertList.push(e);
+};
+var i=function(e){
+if(!e||!o[e])return null;
+var n=o[e];
+if("function"==typeof n&&!t[e]){
+var a={},s={
+exports:a
+},c=n(i,a,s,r);
+n=o[e]=c||s.exports,t[e]=!0;
+}
+if(".css"===e.substr(-4)){
+var d=document.getElementById(e);
+if(!d){
+d=document.createElement("style"),d.id=e;
+var _=/url\s*\(\s*\/(\"(?:[^\\\"\r\n\f]|\\[\s\S])*\"|'(?:[^\\'\n\r\f]|\\[\s\S])*'|[^)}]+)\s*\)/g,m=window.testenv_reshost||window.__moon_host||"res.wx.qq.com";
+n=n.replace(_,"url(//"+m+"/$1)"),d.innerHTML=n,document.getElementsByTagName("head")[0].appendChild(d);
+}
+}
+return n;
+};
+e.combo_status=e.COMBO_UNLOAD,e.run=function(){
+var o=e.run.info,t=o&&o[0],n=o&&o[1];
+if(t&&e.combo_status==e.COMBO_LOADED){
+var r=i(t);
+n&&n(r);
+}
+},e.use=function(o,t){
+window.__wxgspeeds&&(window.__wxgspeeds.seajs_use_time=+new Date),e.run.info=[o,t],
+e.run();
+},window.define=n,window.seajs=e;
+}(),function(){
+if(window.__nonce_str){
+var e=document.createElement;
+document.createElement=function(o){
+var t=e.apply(this,arguments);
+return"object"==typeof o&&(o=o.toString()),"string"==typeof o&&"script"==o.toLowerCase()&&t.setAttribute("nonce",window.__nonce_str),
+t;
+};
+}
+window.addEventListener&&window.__DEBUGINFO&&Math.random()<.01&&window.addEventListener("load",function(){
+var e=document.createElement("script");
+e.src=__DEBUGINFO.safe_js,e.type="text/javascript",e.async=!0;
+var o=document.head||document.getElementsByTagName("head")[0];
+o.appendChild(e);
+});
+}(),function(){
+function t(e){
+return"[object Array]"===Object.prototype.toString.call(e);
+}
+function n(e){
+return"[object Object]"===Object.prototype.toString.call(e);
+}
+function r(e){
+var t=e.stack+" "+e.toString()||"";
+try{
+if(window.testenv_reshost){
+var n="http(s)?://"+window.testenv_reshost,r=new RegExp(n,"g");
+t=t.replace(r,"");
+}else t=t.replace(/http(s)?:\/\/res\.wx\.qq\.com/g,"");
+for(var r=/\/([^.]+)\/js\/(\S+?)\.js(\,|:)?/g;r.test(t);)t=t.replace(r,function(e,o,t,n){
+return t+n;
+});
+}catch(e){
+t=e.stack?e.stack:"";
+}
+var i=[];
+for(o in u)u.hasOwnProperty(o)&&i.push(o+":"+u[o]);
+return i.push("STK:"+t.replace(/\n/g,"")),i.join("|");
+}
+function i(e){
+if(!e){
+var o=window.onerror;
+window.onerror=function(){},f=setTimeout(function(){
+window.onerror=o,f=null;
+},50);
+}
+}
+function a(e,o,t){
+if(!/^mp\.weixin\.qq\.com$/.test(location.hostname)){
+var n=[];
+t=t.replace(location.href,(location.origin||"")+(location.pathname||"")).replace("#wechat_redirect","").replace("#rd","").split("&");
+for(var r=0,i=t.length;i>r;r++){
+var a=t[r].split("=");
+a[0]&&a[1]&&n.push(a[0]+"="+encodeURIComponent(a[1]));
+}
+var s=new window.Image;
+return void(s.src=(o+n.join("&")).substr(0,1024));
+}
+var c;
+if(window.ActiveXObject)try{
+c=new ActiveXObject("Msxml2.XMLHTTP");
+}catch(d){
+try{
+c=new ActiveXObject("Microsoft.XMLHTTP");
+}catch(_){
+c=!1;
+}
+}else window.XMLHttpRequest&&(c=new XMLHttpRequest);
+c&&(c.open(e,o,!0),c.setRequestHeader("cache-control","no-cache"),c.setRequestHeader("Content-Type","application/x-www-form-urlencoded; charset=UTF-8"),
+c.setRequestHeader("X-Requested-With","XMLHttpRequest"),c.send(t));
+}
+function s(e){
+return function(o,t){
+if("string"==typeof o)try{
+o=new Function(o);
+}catch(n){
+throw n;
+}
+var r=[].slice.call(arguments,2),a=o;
+return o=function(){
+try{
+return a.apply(this,r.length&&r||arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:j,
+log:"timeout_error;host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},e(o,t);
+};
+}
+function c(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this,a=t||function(){};
+return t=function(){
+try{
+return a.apply(r,arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:x,
+log:"listener_error;type:"+o+";host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},a.moon_lid=E,b[E]=t,E++,e.call(r,o,t,n);
+};
+}
+function d(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this;
+return t=b[t.moon_lid],e.call(r,o,t,n);
+};
+}
+var _,m,l,w,u,p,f,h=/MicroMessenger/i.test(navigator.userAgent),g=/MPAPP/i.test(navigator.userAgent),v=window.define,y=0,x=2,O=4,j=9,D=10;
+if(window.__initCatch=function(e){
+_=e.idkey,m=e.startKey||0,l=e.limit,w=e.badjsId,u=e.reportOpt||"",p=e.extInfo||{},
+p.rate=p.rate||.5;
+},window.__moon_report=function(e,o){
+var i=!1,s="";
+try{
+s=top.location.href;
+}catch(c){
+i=!0;
+}
+var d=.5;
+if(p&&p.rate&&(d=p.rate),o&&"number"==typeof o&&(d=o),!(!/mp\.weixin\.qq\.com/.test(location.href)&&!/payapp\.weixin\.qq\.com/.test(location.href)||Math.random()>d||!h&&!g||top!=window&&!i&&!/mp\.weixin\.qq\.com/.test(s))&&(n(e)&&(e=[e]),
+t(e)&&""!=_)){
+var u="",f=[],v=[],y=[],x=[];
+"number"!=typeof l&&(l=1/0);
+for(var j=0;j<e.length;j++){
+var D=e[j]||{};
+if(!(D.offset>l||"number"!=typeof D.offset||D.offset==O&&p&&p.network_rate&&Math.random()>=p.network_rate)){
+var b=1/0==l?m:m+D.offset;
+f[j]="[moon]"+_+"_"+b+";"+D.log+";"+r(D.e||{})||"",v[j]=b,y[j]=1;
+}
+}
+for(var E=0;E<v.length;E++)x[E]=_+"_"+v[E]+"_"+y[E],u=u+"&log"+E+"="+f[E];
+if(x.length>0){
+a("POST",location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?","idkey="+x.join(";")+"&r="+Math.random()+"&lc="+f.length+u);
+var d=1;
+if(p&&p.badjs_rate&&(d=p.badjs_rate),w&&Math.random()<d){
+u=u.replace(/uin\:(.)*\|biz\:(.)*\|mid\:(.)*\|idx\:(.)*\|sn\:(.)*\|/,"");
+var S=new Image,I="https://badjs.weixinbridge.com/badjs?id="+w+"&level=4&from="+encodeURIComponent(location.host)+"&msg="+encodeURIComponent(u);
+S.src=I.slice(0,1024);
+}
+}
+}
+},window.setTimeout=s(window.setTimeout),window.setInterval=s(window.setInterval),
+Math.random()<.01&&window.Document&&window.HTMLElement){
+var b={},E=0;
+Document.prototype.addEventListener=c(Document.prototype.addEventListener),Document.prototype.removeEventListener=d(Document.prototype.removeEventListener),
+HTMLElement.prototype.addEventListener=c(HTMLElement.prototype.addEventListener),
+HTMLElement.prototype.removeEventListener=d(HTMLElement.prototype.removeEventListener);
+}
+var S=window.navigator.userAgent;
+if((/ip(hone|ad|od)/i.test(S)||/android/i.test(S))&&!/windows phone/i.test(S)&&window.localStorage&&window.localStorage.setItem){
+var I=window.localStorage.setItem,L=0;
+window.localStorage.setItem=function(e,o){
+if(!(L>=10))try{
+I.call(window.localStorage,e,o);
+}catch(t){
+t.stack&&console&&console.error&&console.error("[TryCatch]"+t.stack),window.__moon_report([{
+offset:D,
+log:"localstorage_error;"+t.toString(),
+e:t
+}]),L++,L>=3&&window.moon&&window.moon.clear&&moon.clear();
+}
+};
+}
+window.seajs&&v&&(window.define=function(){
+for(var o,t=[],n=arguments&&arguments[0],a=0,s=arguments.length;s>a;a++){
+var c=o=arguments[a];
+"function"==typeof o&&(o=function(){
+try{
+return c.apply(this,arguments);
+}catch(o){
+throw"string"==typeof n&&console.error("[TryCatch][DefineeErr]id:"+n),o.stack&&console&&console.error&&console.error("[TryCatch]"+o.stack),
+_&&window.__moon_report&&(window.__moon_report([{
+offset:y,
+log:"define_error;id:"+n+";",
+e:o
+}]),i(f)),e(" [define_error]"+JSON.stringify(r(o))),o;
+}
+},o.toString=function(e){
+return function(){
+return e.toString();
+};
+}(arguments[a])),t.push(o);
+}
+return v.apply(this,t);
+});
+}(),function(o){
+function t(e,o,t){
+return window.__DEBUGINFO?(window.__DEBUGINFO.res_list||(window.__DEBUGINFO.res_list=[]),
+window.__DEBUGINFO.res_list[e]?(window.__DEBUGINFO.res_list[e][o]=t,!0):!1):!1;
+}
+function n(e){
+var o=new TextEncoder("utf-8").encode(e),t=crypto.subtle||crypto.webkitSubtle;
+return t.digest("SHA-256",o).then(function(e){
+return r(e);
+});
+}
+function r(e){
+for(var o=[],t=new DataView(e),n=0;n<t.byteLength;n+=4){
+var r=t.getUint32(n),i=r.toString(16),a="00000000",s=(a+i).slice(-a.length);
+o.push(s);
+}
+return o.join("");
+}
+function i(e,o,t){
+if("object"==typeof e){
+var n=Object.prototype.toString.call(e).replace(/^\[object (.+)\]$/,function(e,o){
+return o;
+});
+if(t=t||e,"Array"==n){
+for(var r=0,i=e.length;i>r;++r)if(o.call(t,e[r],r,e)===!1)return;
+}else{
+if("Object"!==n&&a!=e)throw"unsupport type";
+if(a==e){
+for(var r=e.length-1;r>=0;r--){
+var s=a.key(r),c=a.getItem(s);
+if(o.call(t,c,s,e)===!1)return;
+}
+return;
+}
+for(var r in e)if(e.hasOwnProperty(r)&&o.call(t,e[r],r,e)===!1)return;
+}
+}
+}
+var a=o.localStorage,s=document.head||document.getElementsByTagName("head")[0],c=1,d=11,_=12,m=13,l=window.__allowLoadResFromMp?1:2,w=window.__allowLoadResFromMp?1:0,u=l+w,p=window.testenv_reshost||window.__moon_host||"res.wx.qq.com",f=new RegExp("^(http(s)?:)?//"+p);
+window.__loadAllResFromMp&&(p="mp.weixin.qq.com",l=0,u=l+w);
+var h={
+prefix:"__MOON__",
+loaded:[],
+unload:[],
+clearSample:!0,
+hit_num:0,
+mod_num:0,
+version:1003,
+cacheData:{
+js_mod_num:0,
+js_hit_num:0,
+js_not_hit_num:0,
+js_expired_num:0,
+css_mod_num:0,
+css_hit_num:0,
+css_not_hit_num:0,
+css_expired_num:0
+},
+init:function(){
+h.loaded=[],h.unload=[];
+var e,t,r;
+if(window.no_moon_ls&&(h.clearSample=!0),a){
+var s="_moon_ver_key_",c=a.getItem(s);
+c!=h.version&&(h.clear(),a.setItem(s,h.version));
+}
+if((-1!=location.search.indexOf("no_moon1=1")||-1!=location.search.indexOf("no_lshttps=1"))&&h.clear(),
+a){
+var d=1*a.getItem(h.prefix+"clean_time"),_=+new Date;
+if(_-d>=1296e6){
+h.clear();
+try{
+!!a&&a.setItem(h.prefix+"clean_time",+new Date);
+}catch(m){}
+}
+}
+i(moon_map,function(i,s){
+if(t=h.prefix+s,r=!!i&&i.replace(f,""),e=!!a&&a.getItem(t),version=!!a&&(a.getItem(t+"_ver")||"").replace(f,""),
+h.mod_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_mod_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_mod_num++,
+h.clearSample||!e||r!=version)h.unload.push(r.replace(f,"")),r&&-1!=r.indexOf(".css")?e?r!=version&&h.cacheData.css_expired_num++:h.cacheData.css_not_hit_num++:r&&-1!=r.indexOf(".js")&&(e?r!=version&&h.cacheData.js_expired_num++:h.cacheData.js_not_hit_num++);else{
+if("https:"==location.protocol&&window.moon_hash_map&&window.moon_hash_map[s]&&window.crypto)try{
+n(e).then(function(e){
+window.moon_hash_map[s]!=e&&console.log(s);
+});
+}catch(c){}
+try{
+var d="//# sourceURL="+s+"\n//@ sourceURL="+s;
+o.eval.call(o,'define("'+s+'",[],'+e+")"+d),h.hit_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_hit_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_hit_num++;
+}catch(c){
+h.unload.push(r.replace(f,""));
+}
+}
+}),h.load(h.genUrl());
+},
+genUrl:function(){
+var e=h.unload;
+if(!e||e.length<=0)return[];
+var o,t,n="",r=[],i={},a=-1!=location.search.indexOf("no_moon2=1"),s="//"+p;
+-1!=location.href.indexOf("moon_debug2=1")&&(s="//mp.weixin.qq.com");
+for(var c=0,d=e.length;d>c;++c){
+/^\/(.*?)\//.test(e[c]);
+var _=/^\/(.*?)\//.exec(e[c]);
+_.length<2||!_[1]||(t=_[1],n=i[t],n?(o=n+","+e[c],o.length>1e3||a?(r.push(n+"?v="+h.version),
+n=location.protocol+s+e[c],i[t]=n):(n=o,i[t]=n)):(n=location.protocol+s+e[c],i[t]=n));
+}
+for(var m in i)i.hasOwnProperty(m)&&r.push(i[m]);
+return r;
+},
+load:function(e){
+if(window.__wxgspeeds&&(window.__wxgspeeds.mod_num=h.mod_num,window.__wxgspeeds.hit_num=h.hit_num),
+!e||e.length<=0)return seajs.combo_status=seajs.COMBO_LOADED,seajs.run(),console.debug&&console.debug("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num),
+void window.__moonclientlog.push("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num);
+seajs.combo_status=seajs.COMBO_LOADING;
+var o=0,t=+new Date;
+window.__wxgspeeds&&(window.__wxgspeeds.combo_times=[],window.__wxgspeeds.combo_times.push(t)),
+i(e,function(n){
+h.request(n,u,function(){
+if(window.__wxgspeeds&&window.__wxgspeeds.combo_times.push(+new Date),o++,o==e.length){
+var n=+new Date-t;
+window.__wxgspeeds&&(window.__wxgspeeds.mod_downloadtime=n),seajs.combo_status=seajs.COMBO_LOADED,
+seajs.run(),console.debug&&console.debug("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms"),
+window.__moonclientlog.push("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms");
+}
+});
+});
+},
+request:function(o,n,r){
+if(o){
+n=n||0,o.indexOf("mp.weixin.qq.com")>-1&&((new Image).src=location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?idkey=27613_32_1&r="+Math.random(),
+window.__moon_report([{
+offset:_,
+log:"load_script_from_mp: "+o
+}],1));
+var i=-1;
+window.__DEBUGINFO&&(__DEBUGINFO.res_list||(__DEBUGINFO.res_list=[]),__DEBUGINFO.res_list.push({
+type:"js",
+status:"pendding",
+start:+new Date,
+end:0,
+url:o
+}),i=__DEBUGINFO.res_list.length-1),-1!=location.search.indexOf("no_lshttps=1")&&(o=o.replace("http://","https://"));
+var a=document.createElement("script");
+a.src=o,a.type="text/javascript",a.async=!0,a.down_time=+new Date,a.onerror=function(s){
+t(i,"status","error"),t(i,"end",+new Date);
+var _=new Error(s);
+if(n>=0)if(w>n){
+var l=o.replace("res.wx.qq.com","mp.weixin.qq.com");
+h.request(l,n,r);
+}else h.request(o,n,r);else window.__moon_report&&window.__moon_report([{
+offset:c,
+log:"load_script_error: "+o,
+e:_
+}],1);
+if(n==w-1&&window.__moon_report([{
+offset:d,
+log:"load_script_error: "+o,
+e:_
+}],1),-1==n){
+var u="ua: "+window.navigator.userAgent+", time="+(+new Date-a.down_time)+", load_script_error -1 : "+o;
+window.__moon_report([{
+offset:m,
+log:u
+}],1);
+}
+window.__moonclientlog.push("moon load js error : "+o+", error -> "+_.toString()),
+e("moon_request_error url:"+o);
+},"undefined"!=typeof moon_crossorigin&&moon_crossorigin&&a.setAttribute("crossorigin",!0),
+a.onload=a.onreadystatechange=function(){
+t(i,"status","loaded"),t(i,"end",+new Date),!a||a.readyState&&!/loaded|complete/.test(a.readyState)||(t(i,"status","200"),
+a.onload=a.onreadystatechange=null,"function"==typeof r&&r());
+},n--,s.appendChild(a),e("moon_request url:"+o+" retry:"+n);
+}
+},
+setItem:function(e,o){
+!!a&&a.setItem(e,o);
+},
+clear:function(){
+a&&(i(a,function(e,o){
+~o.indexOf(h.prefix)&&a.removeItem(o);
+}),console.debug&&console.debug("[moon] clear"));
+},
+idkeyReport:function(e,o,t){
+t=t||1;
+var n=e+"_"+o+"_"+t;
+(new Image).src="/mp/jsmonitor?idkey="+n+"&r="+Math.random();
+}
+};
+seajs&&seajs.use&&"string"==typeof window.__moon_mainjs&&seajs.use(window.__moon_mainjs),
+window.moon=h;
+}(window),function(){
+try{
+Math.random()<1;
+}catch(e){}
+}(),window.moon.init();
+};
+e(),!!window.__moon_initcallback&&window.__moon_initcallback(),window.__wxgspeeds&&(window.__wxgspeeds.moonendtime=+new Date);
+}
+}
+__moonf__(); }, 25);</script><script nonce="1115885466" type="text/javascript">
+    var real_show_page_time = +new Date();
+    if (!!window.addEventListener){
+        window.addEventListener("load", function(){
+            window.onload_endtime = +new Date();
+        });
+    }
+
+    
+    if(typeof seajs != 'undefined' && seajs.config){
+        try{
+            seajs.config({
+              'map': [
+                [ '.js', '.js?v=' + (+new Date())]
+              ]
+            });
+        }catch(e){
+            console.info('not support seajs config');
+        }
+    }
+
+    
+</script>
+
+    </body>
+    <script nonce="1115885466" type="text/javascript">document.addEventListener("touchstart", function() {},false);</script>
+</html>
+

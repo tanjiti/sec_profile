@@ -1,0 +1,1690 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+
+
+        <script nonce="196595741" type="text/javascript">
+            window.logs = {
+                pagetime: {}
+            };
+            window.logs.pagetime['html_begin'] = (+new Date());
+        </script>
+        <title>
+ 开源流量分析系统 Apache Spot 概述
+</title>
+        
+<style>.radius_avatar{display:inline-block;background-color:#fff;padding:3px;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;overflow:hidden;vertical-align:middle}.radius_avatar img{display:block;width:100%;height:100%;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;background-color:#eee}.rich_media_inner{word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.rich_media_area_primary{padding:20px 16px 12px;background-color:#fafafa}.rich_media_area_primary.voice{padding-top:66px}.rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{color:rgba(0,0,0,0.3);background-color:#fafafa}.rich_media_area_extra{padding:0 16px 24px}.rich_media_extra{padding-top:30px}.mpda_bottom_container .rich_media_extra{padding-top:24px}.mpda_bottom_container .rich_media_extra .mpad_more_list{right:-10px}html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;line-height:1.6}body{-webkit-touch-callout:none;font-family:-apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif;color:#333;background-color:#f2f2f2;letter-spacing:.034em}h1,h2,h3,h4,h5,h6{font-weight:400;font-size:16px}*{margin:0;padding:0}a{color:#576b95;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_title{font-size:22px;line-height:1.4;margin-bottom:14px}@supports(-webkit-overflow-scrolling:touch){.rich_media_title{font-weight:700}}.rich_media_meta_list{margin-bottom:22px;line-height:20px;font-size:0;word-wrap:break-word;word-break:break-all}.rich_media_meta_list em{font-style:normal}.rich_media_meta{display:inline-block;vertical-align:middle;margin:0 10px 10px 0;font-size:15px;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_meta.icon_appmsg_tag{margin-right:4px}.rich_media_meta.meta_tag_text{margin-right:0}.rich_media_meta_primary{display:block;margin-bottom:10px;font-size:15px}.meta_original_tag{padding:0 .5em;font-size:12px;line-height:1.4;background-color:#f2f2f2;color:#888}.meta_enterprise_tag img{width:30px;height:30px!important;display:block;position:relative;margin-top:-3px;border:0}.rich_media_meta_link{color:#576b95}.rich_media_meta_text{color:rgba(0,0,0,0.3)}.rich_media_meta_text.rich_media_meta_split{padding-left:10px}.rich_media_meta_text.rich_media_meta_split:before{position:absolute;top:50%;left:0;margin-top:-6px;content:' ';display:block;border-left:1px solid #888;width:200%;height:130%;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0}.rich_media_meta_text.article_modify_tag{position:relative}.rich_media_meta_nickname{position:relative}.rich_media_thumb_wrp{margin-bottom:6px}.rich_media_thumb_wrp .original_img_wrp{display:block}.rich_media_thumb{display:block;width:100%}.rich_media_content{overflow:hidden;color:#333;font-size:17px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;text-align:justify;position:relative;z-index:0}.rich_media_content *{max-width:100%!important;box-sizing:border-box!important;-webkit-box-sizing:border-box!important;word-wrap:break-word!important}.rich_media_content p{clear:both;min-height:1em}.rich_media_content em{font-style:italic}.rich_media_content fieldset{min-width:0}.rich_media_content .list-paddingleft-2{padding-left:2.2em}.rich_media_content .list-paddingleft-2 .list-paddingleft-2{padding-left:30px}.rich_media_content blockquote{margin:0;padding-left:10px;border-left:3px solid #dbdbdb}img{height:auto!important}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:portrait){.rich_media_area_extra{padding-bottom:34px}}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:landscape){.rich_media_area_primary{padding:20px 60px 15px 60px}.rich_media_area_extra{padding:0 60px 21px 60px}}@media screen and (min-width:1024px){.rich_media_area_primary_inner,.rich_media_area_extra_inner{max-width:677px;margin-left:auto;margin-right:auto}.rich_media_area_primary{padding-top:32px}}.appmsg_share_notice{font-size:16px;color:#888;position:relative;padding:1.25em 0;margin-bottom:1.75em}.appmsg_share_notice:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice_hd{font-weight:700;padding-bottom:.2em}.cell{padding:.8em 0;display:block;position:relative}.cell_hd,.cell_bd,.cell_ft{display:table-cell;vertical-align:middle;word-wrap:break-word;word-break:break-all;white-space:nowrap}.cell_primary{width:2000px;white-space:normal}.flex_cell{padding:10px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.flex_cell_primary{width:100%;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;box-flex:1;flex:1}.original_tool_area{display:block;padding:.75em 1em 0;-webkit-tap-highlight-color:rgba(0,0,0,0);color:#333;border:1px solid #eaeaea;margin:20px 0}.original_tool_area .tips_global{position:relative;padding-bottom:.5em;font-size:15px}.original_tool_area .tips_global:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dbdbdb;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:27px;height:27px;padding:0;margin-right:.5em}.original_tool_area .radius_avatar img{height:100%!important}.original_tool_area .flex_cell_bd{width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal}.original_tool_area .flex_cell_ft{font-size:14px;color:#888;padding-left:1em;white-space:nowrap}.original_tool_area .icon_access:after{content:" ";display:inline-block;height:8px;width:8px;border-width:1px 1px 0 0;border-color:#cbcad0;border-style:solid;transform:matrix(0.71,0.71,-0.71,0.71,0,0);-ms-transform:matrix(0.71,0.71,-0.71,0.71,0,0);-webkit-transform:matrix(0.71,0.71,-0.71,0.71,0,0);position:relative;top:-2px;top:-1px}.rich_media_global_msg{position:fixed;top:0;left:0;right:0;padding:.85em 35px .85em 15px;z-index:2;background-color:#c6e0f8;color:#888;font-size:12px}.rich_media_global_msg .icon_closed{position:absolute;right:15px;top:50%;margin-top:-5px;line-height:300px;overflow:hidden;-webkit-tap-highlight-color:rgba(0,0,0,0);background:transparent url(//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_appmsg_msg_closed_sprite.2x42f400.png) no-repeat 0 0;width:11px;height:11px;vertical-align:middle;display:inline-block;-webkit-background-size:100% auto;background-size:100% auto}.rich_media_global_msg .icon_closed:active{background-position:0 -17px}.rich_media_global_msg.voice{color:#1aad19;background-color:#e8f6e8;padding-left:43.3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.rich_media_global_msg.voice .ic_voice{position:absolute;top:50%;margin-top:-10px;left:15px;display:inline-block;width:13.3px;height:18.3px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAA3CAYAAAB+fggjAAAAAXNSR0IArs4c6QAACb9JREFUaAW9WX9wVMUd3917d5cf/Agp1OTuQgIlQqUoI1JI1Noojg2I+VU7hVrtDDpadRypgzKjU52x09KOdsS20ypSO/WPWttcAqhTOlSoU4FIoRUn0wEZIMndBUkwGEhyv97bfvaS97L77t3lHYUuc+z3935397vf/e4LJZfQnuPPsW0d25ZQzr9mELKSUnIVzHxB/Dh+lBOKf4OEk0FOyQAl/CyltIt5tL29d/V2FzIkLUQ4FA7dwon+KCF0Fee8rBBdS5aSs/D+PUrYbyKtkb9b9BzAlA7CERrqDN1DOH8C8HU57FwSGat6kBGypbcluhMwFj+75XWwemf1vHQqtZ0T3pCtelkp73uJ79s9bT39dqs5HQyFK79jcPIKFErtSgLHjPvQHQB0EFt2hDE2QHU6RMvpkODrw3o50Uk5p3w2N/SlUKhHTNZjskHBz2pi6ylbH22J/k3mOToYCAceIYT/AgYVPhxJQTkMQ792Ez/yQCY8d0fgRl0nj8J2G5z1mvSJ3qCMrYOTb5l0xQFBDIUDjxmcbzUFJnu621/kf/DUmlM9k7RLh4LtwRChxquck0bFCqWjxENuijXF/iXoioNVnZU36wZ5D7PTTCWsWhyp4uFYa+x1k3Y5ezj6oNgtdTVpL0Lo+mhr9BwO0Xib+/bcWYZB35Sdg/sXsOSNV8o5MXK0LfoKYXQDxpJOMZ8L1g8E33JQT6aeQRoJCOJEMxjxfCvSEtlnEq5Uj5h7Ayv2I8U+5w9du/va0oyD896ZV004RQKebIzQ53EQ/jJJubJQhUa2YBXPmqNgy8vPjZ67N+NgMh6/HwSfyURgniwqLvmJif8/+sNrY6O4XV5WxjKMuvHDQOl9uCksHmX0xydWn0hYBJfAgncXzBhNjjZSnX8Fq3ENdmWWUMUhS2Ebv5HrtjDNg/+B5IY4wos0cVukUskqUwj9xfKS2W9GSEwi5QdxFS5BMn54dGzkHkhOy0x18j9COY1O5VxmhGJylIxMjgUTC7WUkfrqJAkQpfuP3nFUElO4WUgwHHza0HU1wG1SGOi0jeSI+kf92hgZlXg0yajBV0gUwri4vqZud/O7PbhxkGiNvM5NWHKV3NN8LGQbuVdDsYIVzOzHOI+ygzYhR/RAxwdbELcPZDEp+Q+2YQcS2L+Zwc4gdSUQS7Oz5BwIKUqWyq5ApEdDsVmhBKaHnHDQVUg1uwKLkkm+USEScsbjId/ra+7fbaMThMHVdpoTjuyxXloqcUg+Eqe4WBb26/5hGXeCkynyfdA9Fo/SQeZlN/StjUQtmgQUFxVnKhyJlAUGOgP13OC3ygxGWZhhSYtkYqIicUHGnWCUluoFz8mzkRzOCf14Wfyikx2ThvQ0B6XZdvhi1QaoAfZHmiMf40xMJmih4BvxWQnbNCD3i/cunoYab4FMQwr5o4zb4Uh9ZMxOM3Fsf91YfPQfOAeLTJrouYc8K3rEII0ikBcKRLTEhUQNuo8E7NSGh4dnyDOFzIioOpxkZdqyXYGSAV2rMYjhIUamkL2ZcANvG+MWWS4DU/parDm2R8AiBj/Bz3IQe14DPKeDRho1hNyonFplhgp/mmaNhpH6s0VVToNFxR7TPcVFJVZdgMG4cNBq0LvRQhyA2vLaMyDrFouTL169KzBlGkEofdnScQYMXBI/raiuXC1fs4wz2iXLI+U0y7gd3tewL41IVhLvmM6X2eWycM7nZ9EEAXWgWDWPpjWg7tx8+IbD4llhNTadTn8XcWgVBphprbhbLQkngJK/ymTdoE/IuDPME5jYSYx1HLn3EH6/B77Rq/m+FG2L3d7X1Pe+kx5kCBJp4G0clDWmAJTD0db+NhO398GO4G3cMDJBbPIY9bShfgyb+OXqMwGPV9rrskFsc6t4fck0GRZPQ5GnZBpO4x/wvrAmKfP+FzjjYF9zn5i58s0ET8MX8hnGc+BxOGnFi8innBg7UUBsFaV6Pt1CeBMrKD73qG8CbPnKUHvg/lzG+tr6DlGWufJkEWQp/tjgyMBJPF+fWrhj4XSZeSlwJgaFIhyioY7gHvS3moYyK6TRO6JN0b0mzd6HOgIbEBK/gp7fzsOBGMLUX2Z+bWvvnb1T3sd2fYFbDgoET8/56UTqKEBrizDIeY1463tae1BGObeq9qrlBtXb4aRcmVvCmOjneFq+UFZW9lJ3Q3fee9lSmgAUBwUNd+N9CPjfTfDHO0pO+z1FK081nfpUoUuIuKPPD322Gav5OMjWBCURRBGN4GH0QCGvxSwHhcFguPLnGEip97AKXd5y39dPN5yOy4PaYXGrjKToRsTMIzg4M+38cZz+LNYWe8qZp1Izh0QlEVLfctMmzNb6gCP4GGxFcij5W7usHT++NjaI4uHpadr0KkbpZvAH7DKw9iRi98lsejbFcQWF2LJ/LvOe6Yl14m5eLavhU8gqkQdlWj5YnOSL+sXNWNFNmKT1NQsLkGAez3zcIHmfj44rKAYUd2Jxcek6HCP1cHD+Ig5DzonZnT3WdOyCWFGukRUIwkGTL069kdYz319MmlOf00EhjKpiWKPku7IiDF9X3RHMecvIsjIsPqdh1ewO3SXLOMF5HRQKvS39h5GNOmVlnZP1Mu4W9pZ5/4TDZh0ybHkt3iKOqcm0OaWDQpB52DZTQfQo+Vtl3C08kQGO2OStYtlGz6CuHJxZO3MPYnHYMsDJVSKpW3ghAOXKsxaPoup86q4c7F7cncSyHZANGen0Shl3C+PSPy/L4qmZ97525aAwiMLgQ8Uwp8tl3C2MASff00KJMRW3GXLtIFbwY1kXp/kaGXcL42AoDqHit6p5JxuuHfQwj1IvIhFO9QhyGk/QpskM/C3Gyo0y3YRdOzgnNOcTHJS0qYgVrBIfLE28gF75ToN3bySfrmsHM68tTo7JxuKJ+PUyPhWcqbQ5XarI+TRlZxQeENcOjitS5dMc5/oqu8F8+ODI4FrEoPVpBTfL8akK2YIc9DCiFAkoyTbUdNSU5XPK5Im/MQPeZOKZnpNdCu6AFOTgrJLZO2FDrogrUjyxPbQ/VOxgWyG9Fn71h6hoJkMC8exlvl8qQg6I66rE1A22Vz6PEuwZExe92CrQtmmU72U+fzQ9K/15XV1dsuudrhlc50t0XX8Izq1TdAh5I9rWf69Mc4ILdlCU9kNDn32ICvZS0wySAY2W+shSUdw6OSXTCtpioSgePZrPeydWTUncstF8MPRw1dFvunFO2CnYQaGEk3cSn8iWYyVeBGoImqtG6RHxQsQfEJVskE+34C22GxOfb8fiY40owtaAJ0qnciTxcvSlE7VfBPX3IQ8lb/U2R3dgBRGu7tt/AYJkZEGv/oaXAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.rich_media_global_msg.voice .icon_more{position:absolute;right:15px;top:50%;margin-top:-6.5px;width:8px;height:13px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAmCAYAAADeB1slAAAAAXNSR0IArs4c6QAAA49JREFUSA2tVk1IVFEUPveOmhQk1ibfvLFZSJtACqJIIpCIoB+imcFV2Z9ZUVnRomgRGFn2i6mFf5XVotCZMYmgIMhlq6BFENFiwjfPAosgFzXOvNu5o3fmeue98Y16F3PP+c453/fu/xCQmvZSWwwJaC0G6P8WND9IoTmbVFRycpqAdgBWkwRo94V960RsPn1aoPpN9RI6CR0WsDWcjAErtUiqTR/S18+HnNcSTv5zYrwDSatVMgLkH6aciwfj79WYW5+OT4xfsyPnBIgvwt872qBW45ZQzaMlJXCfMPJbDQgfRUoIhduVUW2TwArpaWyX+bnYU9JAAH44FaJIccqCW76Ib7NTjhOOvFPN/8q/IvE3cR+npFJgao9rkiSUXjD2GCNqzMnPbNPYjth3mqINlJAvTsk4kiJmWa3eQe8WpxwVzwjwgFFn/CorL29EkY9qovC5CFDrKq7JVoHl6zNTJCf53/lLk78SN/FcbJRx2cZCixC4ZATGXsu4as8YgQjGamN/q5atOotn4K3A1J4BUMbgsh7Wt6sx2bcV4AkjtSPJxkDjRQL0hVwg21zEglSzN+rdKeOybTtFcgK39ajWZDFWr+IZHxfGQ8mV0YA5nMGmDVcCPNcb8R5gYJ1UCWQfp6PFCI4NyZhrAV6EIiHGrPOAB0ImkW2c0la8u8ICc0wUCWrvC1dsw+3TnN6uanDaJ4zeiIfiA9wtWIAX8XspxeA6iuBlaN88hNzCNXk+JwFOuXJYW5tMQmc+EcqgzXGb2n9XFk1NstX5yKczl89JAF+6vRaBM1m5XAu//qkRGrtb8BThTtqH2/V0LmUWwbvsiREw8X0vcJHxxNbjNm3KUuVaMjmPFuWm2CPesHc/kp+yj06hFMhj/PIOOcfVFLk6xZT0G3vMTpmc27MusityZk/OBfKOwA05MPLIDJn3OJldcxTQotpBYOyEXVEWIw/NoInvuHOznSJfVDs0GzneNw9mI+eyOSPQI9phfCqPO38TFhHaFw/Eu/LliNiMESB5w6zkzD05F8mMYJr8mFC263Fa+vAadvXloj4toEcrjlgMjgrQrseHpBcfkm67WD6M6MN6lTWZeoZjyYxGLcB57MGnsEfF3fjU2G189QBpcUqmBLrnSs4504s8GjLxrwm5qYrg3dKFf6x6VbwQ3yOS/wz8+bS0ruwfELaBY2nyoNkn4gvW65GKRn4WForwP+dONHDaOHeZAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.preview_appmsg .rich_media_title{margin-top:2.3em}@media screen and (min-width:1024px){.rich_media_global_msg{position:relative;margin-bottom:32px}.preview_appmsg .rich_media_title.rich_media_title{margin-top:0}}.pages_reset{color:#333;line-height:1.6;font-size:16px;font-weight:400;font-style:normal;text-indent:0;letter-spacing:normal;text-align:left;text-decoration:none;white-space:normal}.weapp_element,.weapp_display_element,.mp-miniprogram{display:block;margin:1em 0}.share_audio_context{margin:16px 0}.weapp_text_link{font-size:17px}.weapp_text_link:before{content:'';display:inline-block;line-height:1;background-size:contain;background-repeat:no-repeat;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAB4RJREFUWAm1WUuMFGUQnn7szL5mdvbh7GwgEQUlS1weiagxxpigiUZeJgY1cMMDcDCGG8GLCWZvxHjh4BWUeDEsejBBEzWYKBBEiHAABBfCMOwsuzvszrvb+v6Zb7amt1ce0Up6qv6q+qq+/rv778dYkUeUqamp5dFodJPv++ts205blpX2PG8I5cTOiLol44zYZ8vl8vFkMnnlUVpZDwPK5/MpIbWrVqttFlLD0jwiBEHIaNbCGKJjQvai+I9Xq9VD8Xg8y9z76QcimM1mu3t6ej4UYh84jtOFxhBNJGxskhp5xIielZ37bHp6+tNUKnWPOYvp+xKcm5t7S4gclKIpFNGzsmjRkBnUOwNbZjQrtfZ2dnZ+vVgd+O1/CVqlUukjIXZYCqZADBuEJIllc4xh61zmaB9s7LDkHkYPwJgX1KEEx8fHO2TmjkjyPgLQmERIAjHajGnyjDGPOfQ3xvvQCz3ZS+sw5hYAsodbWBhNw4SNGCMBnR/MYS60jskhPyaHe7u4W5otmEGZ8v0gx2YsyDE0bc4Wx8glOe2Dn2No2hqPnuiNXC0tM9i4IA5LcksjNm0BNs417aMNAsRom3HoMD8wsu3QF06TIJaSRCJxXrDmamUBrVEYRejDmDY0JEgsLE4f8mkTj6tb1tsRLkEukiBY56Q4rizThI2okaNtjFlUx+Cr1vzIyTMz7uW/ik4mV7Yd24oMDrR5q1Z01Nav6a5yVsLwcvRS4CI1D5ge+MEdQhbgC1yECSQhjMNsYCGMQ2dzFeuLYxOxibuVBec3cpekY7XtWwZK8a75sMajj2yzcsd5BnccM4PCeg/JoQjJwAY4TFgUMeRjXK54kS/H6uR6e1xvw4vJyuNLYh5yrt8s2d//MtV2M1Nyvvo2F9u5LVUSJEJNPPtKrS7XdXdL6GOzG+LYqIJNUiShYyRDjRw2OXnmnntnsmInE663e3u6uHZVZy2ZsH1sa4Y7ant2DBURu3aj6Jz9c9YBVuNRhz6pvwlju1gsPikzaG78CKIxNgh1sAj91MhFztXrRQf2C+vi1Y721tMC/vZYPQb78rWCE8Tr/uCEJyZbrprNAAST4QOAIGj6qBnDGPjZgmeS0gNRc1jD8D1xx+y978/XJh4awl54nHOl8Do6STKoDarxg5gmxpj2yTEwbtZhDvSlKwUzy+lU1NPxFvz8EcSzpnnYXDCD3AtqFtOFGNM+kMBYx+DzPD/y86m8e+7SnBON2v7qlR01ncP6Gg9uriSlGSSAYyTDhl/7bmTK9tXxkj3ydFetL4lTqT5jyIdgTB/0qT9m3R9/zbvT+Yottfw3XuktJxP1Q61rh/QfcuUcHBKmzcIwdCILQE/crVpHj9+JZe7U17hSyau89lJPxYDVD3KJm5qpWWMnJqMIY+nZvKGv/NQT7ebwcicI5RhYiHBLYx30WQxObWNMyQm5Q0cy7ULK6up0/PUj3dWXn48bckEMGrGZkPJ3bhssunLmLR2qXzyIacxitvT2XZm9jABWMEmD6QPJYzILILdyeWf13Y39ZTSEMAeaQpuxZUujHn26fhCPmI6Dmy0OvIE1AyyqfYWiH7n6d9GJxWz/7df7FpBjLjQETag1Me1HPKxXwJfByXeLRViUYGiI3F/NSYr1raPdNoXh594S75nVT1Z/mUz6kAfhGJp2EI887gRy5Bw0M/g7ndQI0gZISJkpyU6WbTm7m8RYELnFkh+ZnK4/qCTiWF4XXtk6X5NkLjX7iz4rh9keAxBODaKNWKrf9Qd627yC3Cm++2m6DbHWYpHI2Im7UfFZqf6oN9DrmAsPWIquH8QjR8dRG2O88JszW56kTwvRYSayOYtD37xdsT8/ejtWq/nWsqXttdXDHdW+RNTHY9Vv5/IuTgPHtfxd7w0V04/V1ziND5IiCeTofsyTw3tRnqyfNY9b8qg1JkktXwo0EKAlg23eO2/2l7/5YaoNTyPYNIFEt6xxr/aVQQ75QTxJkEBYnDFocEKOqYQHVnn+uiCBLji1IBnCBiVZ+U6fv+dmshV7cqpq9fY4/tBg1HtudXe1zeyuRs9fHMRrEvQBQT9smb1Z+YphHljr3cWJF2gB7NOENAhAjrWGP9iIPuZhDOFYa/hD8KOxWOyAweAHEnxpqnvrvyyofbQZg4boZsEcjrUO4mX2Wl6a6jdhQeAtSoJ70YDNoIMFwmJoqImF5Wgf8jHGRhx0Y9vLNzrkNQligPdRuZpHgyDEKIixMPMQow82/dC04YdgzFwdg0+2Uf1OjPzmOYhBQ6xCoYCX9626WDOo9pqNqHUO7IfBy0XxYJ8+UHdiYuJ9AHQT2GGiycHmmLNDkmFY+JCPXrlcbqcMW28/iCNpEcHnt/3SwHzhQiEIG5JAGDYsN8yHGjil5Ir9BKVDa4U5ta/xveagNDCfRBhDQ5JczEaujhHb0FlclMFzLpDTepEEgxijAL6VSCNcPLPw6aa0oSEgTZsx+GFjwyIsenRmZmbkfuQMDj8PKrjjyCHZIw02im7eGokHAQhnFjZ8GAux/+8jOhoFhX9DCIG1EsPfD9jMC5j4/rO/If4BCiyOk7IAfLMAAAAASUVORK5CYII=');vertical-align:middle;font-size:11px;color:#888;margin-right:6px;margin-top:-3px;background-position:center;height:20px;width:20px}.flex_context{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center}.flex_bd{-webkit-box-flex:1;-webkit-flex:1;flex:1;word-wrap:break-word;word-break:break-all}.original_page{background-color:#fff;font-size:16px}.account_info{padding:0 0 20px}.account_info .flex_bd{padding-left:.85em}.radius_avatar.account_avatar{width:40px;height:40px;padding:0}.account_nickname{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;line-height:1.2;color:#576b95;font-size:14px}.account_nickname_inner{font-weight:400;vertical-align:top}.account_desc{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;color:#b2b2b2;font-size:13px;line-height:1.2;padding-top:.3em}.account_desc_inner{display:inline;vertical-align:top}.share_notice{margin-bottom:20px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.share_media{padding-bottom:18px}.original_panel{padding:20px;background-color:#fcfcfc;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;overflow:hidden;position:relative}.original_panel:after{content:" ";border:1px solid #d8d8d8;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;position:absolute;top:0;left:0;width:200%;height:200%;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}.original_panel .original_account{margin-bottom:18px;position:relative;z-index:1}.original_panel .original_account_avatar{width:28px;height:28px;padding:0}.original_panel .original_account_nickname{padding-left:.85em;font-size:15px;color:#576b95}.original_panel_title{font-size:23px;color:#000;margin:0 0 16px}.original_panel_content{color:#333}.original_panel_tool{padding-top:20px;position:relative;z-index:1}.original_cell_nickname{display:inline-block;vertical-align:middle;font-weight:400;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:8em;color:#000}.original_tool_area{padding:1.17em 0;border-width:0;position:relative}.original_tool_area:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:20px;height:20px;margin-right:.2em}.original_tool_area .flex_cell{padding:0;font-size:14px}.original_tool_area .icon_access:after{margin-right:4px;top:0}.preview_appmsg .rich_media_title{margin-top:1.5em}.preview_appmsg .account_info{padding-top:3em}.original_page{background-color:transparent}.account_info{-webkit-tap-highlight-color:rgba(0,0,0,0);outline:0;padding-bottom:20px;font-size:14px}.account_info.appmsg_account_info{padding-bottom:32px}.account_info .radius_avatar img{background-color:transparent}.share_notice{font-size:16px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.original_panel{background-color:#fafafa}.original_panel:after{border-color:#e6e6e6}.original_panel .original_account_avatar{width:30px;height:30px}.original_panel_tool{font-size:14px}.original_panel_tool a{color:#576b95}.original_panel_content{font-size:17px}.share_media{padding-bottom:30px}.icon_appmsg_tag{display:inline-block;vertical-align:middle;padding:0 .5em;font-size:12px;line-height:1.5;background-color:#c3c3c3;color:#fff;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:70%}.icon_appmsg_tag.primary{color:#3bb638;padding:4px .78em;background-color:rgba(9,187,7,0.08);font-size:12px;border-top-left-radius:.95em 50%;-moz-border-radius-topleft:.95em 50%;-webkit-border-top-left-radius:.95em 50%;border-top-right-radius:.95em 50%;-moz-border-radius-topright:.95em 50%;-webkit-border-top-right-radius:.95em 50%;border-bottom-left-radius:.95em 50%;-moz-border-radius-bottomleft:.95em 50%;-webkit-border-bottom-left-radius:.95em 50%;border-bottom-right-radius:.95em 50%;-moz-border-radius-bottomright:.95em 50%;-webkit-border-bottom-right-radius:.95em 50%}.icon_appmsg_tag.default{border:1px solid rgba(0,0,0,0.1);color:rgba(0,0,0,0.3);background-color:transparent;padding:0 .54em;font-size:15px;line-height:1.3;border-top-left-radius:.67em 50%;-moz-border-radius-topleft:.67em 50%;-webkit-border-top-left-radius:.67em 50%;border-top-right-radius:.67em 50%;-moz-border-radius-topright:.67em 50%;-webkit-border-top-right-radius:.67em 50%;border-bottom-left-radius:.67em 50%;-moz-border-radius-bottomleft:.67em 50%;-webkit-border-bottom-left-radius:.67em 50%;border-bottom-right-radius:.67em 50%;-moz-border-radius-bottomright:.67em 50%;-webkit-border-bottom-right-radius:.67em 50%}.rich_media_meta_list .icon_appmsg_tag.default{margin-top:-1px}.icon_appmsg_tag.title_tag{background-color:#d04b4e}.icon_global_tag_wrp{text-align:right;padding-bottom:12px}.icon_global_tag{background-color:rgba(118,118,118,0.16);color:rgba(0,0,0,0.41);line-height:2.2;border-top-left-radius:1em 50%;-moz-border-radius-topleft:1em 50%;-webkit-border-top-left-radius:1em 50%;border-bottom-left-radius:1em 50%;-moz-border-radius-bottomleft:1em 50%;-webkit-border-bottom-left-radius:1em 50%;padding:0 1.8em 0 1.34em;font-size:12px;margin-right:-24px;display:inline-block;vertical-align:top}.global_plain_btn{display:inline-block;vertical-align:middle;padding:0 1em;line-height:2;font-size:14px;-webkit-tap-highlight-color:rgba(0,0,0,0);border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px}.global_plain_btn.primary{color:#1aad19;border:1px solid currentColor}.global_plain_btn.primary:active{color:rgba(26,173,25,0.6)}.wx_video_context{color:#fefefe;position:relative;background-color:#000}.wx_video_thumb,.wx_video_thumb_primary{position:absolute;left:0;width:100%;height:100%!important;top:0}.wx_video_thumb_primary{-webkit-background-size:cover;background-size:cover;background-position:50% 50%;background-repeat:no-repeat}.wx_video_play_btn{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);margin-top:-2px;font-size:0;border-width:0;background-color:transparent;padding:0;outline:0;z-index:2}.wx_video_play_btn:before{content:" ";display:inline-block;width:0;height:0;border-width:14px 0 14px 25px;border-color:transparent transparent transparent #fff;border-style:dotted dotted dotted solid}.wx_video_mask{position:absolute;top:0;left:0;right:0;bottom:0;z-index:1;background-color:rgba(0,0,0,0.5)}.place_audio_area{min-height:100px;background-color:#fdfdfd;display:block;margin:16px 0}.place_music_area{min-height:68px;background-color:#fdfdfd;display:block;margin:17px 0 16px}.rich_media_empty_extra{background-color:#fafafa}.appmsg_skin_default.rich_media_empty_extra{background-color:#fff}.appmsg_skin_default .rich_media_area_primary{background-color:#fff}.appmsg_skin_default .rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{background-color:#fff}.appmsg_style_default .rich_media_tool{padding-top:15px}.rich_media_title_ios{font-weight:700}.read-more__area{margin:30px 0}.read-more__desc{margin-bottom:10px}.read-more__article__extra{font-size:14px;color:rgba(0,0,0,0.5)}.read-more__article__item{margin-bottom:10px}</style>
+<style>
+        </style>
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/pc435ee6.css">
+<![endif]-->
+
+    </head>
+    <body id="activity-detail" class="zh_CN mm_appmsg  appmsg_skin_default appmsg_style_default">
+        
+<script nonce="196595741" type="text/javascript">
+    var biz = ""||"MzIyODYzNTU2OA==";
+    var sn = "" || ""|| "fed9091fa323011e1d8ace248043410f";
+    var mid = "" || ""|| "2247484643";
+    var idx = "" || "" || "1";
+    window.__allowLoadResFromMp = true; 
+    
+        
+</script>
+<script nonce="196595741" type="text/javascript">
+var page_begintime=+new Date,is_rumor="",norumor="";
+1*is_rumor&&!(1*norumor)&&biz&&mid&&(document.referrer&&-1!=document.referrer.indexOf("mp.weixin.qq.com/mp/rumor")||(location.href="http://mp.weixin.qq.com/mp/rumor?action=info&__biz="+biz+"&mid="+mid+"&idx="+idx+"&sn="+sn+"#wechat_redirect"));
+</script>
+<script nonce="196595741" type="text/javascript">
+var MutationObserver=window.WebKitMutationObserver||window.MutationObserver||window.MozMutationObserver,isDangerSrc=function(t){
+if(t){
+var e=t.match(/http(?:s)?:\/\/([^\/]+?)(\/|$)/);
+if(e&&!/qq\.com(\:8080)?$/.test(e[1])&&!/weishi\.com$/.test(e[1]))return!0;
+}
+return!1;
+},ishttp=0==location.href.indexOf("http://");
+-1==location.href.indexOf("safe=0")&&ishttp&&"function"==typeof MutationObserver&&"mp.weixin.qq.com"==location.host&&(window.__observer_data={
+count:0,
+exec_time:0,
+list:[]
+},window.__observer=new MutationObserver(function(t){
+window.__observer_data.count++;
+var e=new Date,r=[];
+t.forEach(function(t){
+for(var e=t.addedNodes,o=0;o<e.length;o++){
+var n=e[o];
+if("SCRIPT"===n.tagName){
+var i=n.src;
+isDangerSrc(i)&&(window.__observer_data.list.push(i),r.push(n)),!i&&window.__nonce_str&&n.getAttribute("nonce")!=window.__nonce_str&&(window.__observer_data.list.push("inlinescript_without_nonce"),
+r.push(n));
+}
+}
+});
+for(var o=0;o<r.length;o++){
+var n=r[o];
+n.parentNode&&n.parentNode.removeChild(n);
+}
+window.__observer_data.exec_time+=new Date-e;
+}),window.__observer.observe(document,{
+subtree:!0,
+childList:!0
+})),function(){
+if(-1==location.href.indexOf("safe=0")&&Math.random()<.01&&ishttp&&HTMLScriptElement.prototype.__lookupSetter__&&"undefined"!=typeof Object.defineProperty){
+window.__danger_src={
+xmlhttprequest:[],
+script_src:[],
+script_setAttribute:[]
+};
+var t="$"+Math.random();
+HTMLScriptElement.prototype.__old_method_script_src=HTMLScriptElement.prototype.__lookupSetter__("src"),
+HTMLScriptElement.prototype.__defineSetter__("src",function(t){
+t&&isDangerSrc(t)&&window.__danger_src.script_src.push(t),this.__old_method_script_src(t);
+});
+var e="element_setAttribute"+t;
+Object.defineProperty(Element.prototype,e,{
+value:Element.prototype.setAttribute,
+enumerable:!1
+}),Element.prototype.setAttribute=function(t,r){
+"SCRIPT"==this.tagName&&"src"==t&&isDangerSrc(r)&&window.__danger_src.script_setAttribute.push(r),
+this[e](t,r);
+};
+}
+}();
+</script>
+
+        <link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<script nonce="196595741" type="text/javascript">
+    String.prototype.html = function(encode) {
+        var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&yen;", "¥", "&amp;", "&"];
+        
+		
+		
+		
+		
+        
+        var replaceReverse = ["&", "&amp;", "¥", "&yen;", "<", "&lt;", ">", "&gt;", " ", "&nbsp;", '"', "&quot;", "'", "&#39;"];
+	    var target;
+	    if (encode) {
+	    	target = replaceReverse;
+	    } else {
+	    	target = replace;
+	    }
+        for (var i=0,str=this;i< target.length;i+= 2) {
+             str=str.replace(new RegExp(target[i],'g'),target[i+1]);
+        }
+        return str;
+    };
+
+    window.isInWeixinApp = function() {
+        return /MicroMessenger/.test(navigator.userAgent);
+    };
+
+    window.getQueryFromURL = function(url) {
+        url = url || 'http://qq.com/s?a=b#rd'; 
+        var tmp = url.split('?'),
+            query = (tmp[1] || "").split('#')[0].split('&'),
+            params = {};
+        for (var i=0; i<query.length; i++) {
+            var arg = query[i].split('=');
+            params[arg[0]] = arg[1];
+        }
+        if (params['pass_ticket']) {
+        	params['pass_ticket'] = encodeURIComponent(params['pass_ticket'].html(false).html(false).replace(/\s/g,"+"));
+        }
+        return params;
+    };
+
+    (function() {
+	    var params = getQueryFromURL(location.href);
+        window.uin = params['uin'] || "" || '';
+        window.key = params['key'] || "" || '';
+        window.wxtoken = params['wxtoken'] || '';
+        window.pass_ticket = params['pass_ticket'] || '';
+        window.appmsg_token = "";
+    })();
+
+    function wx_loaderror() {
+        if (location.pathname === '/bizmall/reward') {
+            new Image().src = '/mp/jsreport?key=96&content=reward_res_load_err&r=' + Math.random();
+        }
+    }
+
+</script>
+
+<script nonce="196595741" type="text/javascript">
+        window.__moon_report_uin = "0";
+            window.no_moon_ls = 0;
+    </script>
+
+        
+<script nonce="196595741" type="text/javascript">
+    var write_sceen_time = (+new Date()); 
+</script>
+
+<div id="js_article" class="rich_media">
+    
+    <div id="js_top_ad_area" class="top_banner"></div>
+    
+    <div class="rich_media_inner">
+
+        
+        
+        <div id="page-content" class="rich_media_area_primary">
+          <div class="rich_media_area_primary_inner">
+                                    
+                        
+
+            <div id="img-content">
+
+                
+                <h2 class="rich_media_title" id="activity-name">
+                    
+                    
+                    开源流量分析系统 Apache Spot 概述
+
+                                                                                </h2>
+                <div id="meta_content" class="rich_media_meta_list">
+                                                            <span id="copyright_logo" class="rich_media_meta rich_media_meta_text meta_tag_text">原创：</span>
+                                                            <span class="rich_media_meta rich_media_meta_text">
+                                                绿盟科技研究通讯
+                                            </span>
+                                        
+                                        <span class="rich_media_meta rich_media_meta_nickname" id="profileBt">
+                      <a href="javascript:void(0);" id="js_name">
+                        绿盟科技研究通讯                      </a>
+                      <div id="js_profile_qrcode" class="profile_container" style="display:none;">
+                          <div class="profile_inner">
+                              <strong class="profile_nickname">绿盟科技研究通讯</strong>
+                              <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">微信号</label>
+                              <span class="profile_meta_value">nsfocus_research</span>
+                              </p>
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">功能介绍</label>
+                              <span class="profile_meta_value">绿盟科技研究通讯-绿盟研究成果发布地，创新、孵化、布道，只玩最酷的安全技术</span>
+                              </p>
+                              
+                          </div>
+                          <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">
+                              <i class="profile_arrow arrow_out"></i>
+                              <i class="profile_arrow arrow_in"></i>
+                          </span>
+                      </div>
+                    </span>
+
+
+                    <em id="publish_time" class="rich_media_meta rich_media_meta_text"></em>
+
+
+
+
+
+                </div>
+                
+                
+                
+                
+                                                
+                                                                
+                                
+                
+                <div class="rich_media_content " id="js_content">
+                    
+
+                    
+
+                    
+                    
+                    <section data-role="outer" label="Powered by 135editor.com"><p><br  /></p><section class="_135editor" data-tools="135编辑器" data-id="32290" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><section style="clear: both;border-width: 0px;border-style: none;border-color: initial;margin-top: 5px;margin-bottom: 5px;box-sizing: border-box;"><section style="border-top: 2.5px solid #68b92e;border-right-color: #68b92e;border-bottom-color: #68b92e;border-left-color: #68b92e;font-size: 1em;font-weight: inherit;text-decoration: inherit;color: #fefefe;box-sizing: border-box;"><section style="border-width: 0px;border-style: initial;border-color: rgb(104, 185, 46);margin-top: 2px;overflow: hidden;color: inherit;box-sizing: border-box;"><section style="display: inline-block;font-size: 1em;font-family: inherit;font-weight: inherit;text-align: inherit;text-decoration: inherit;color: inherit;border-color: rgb(104, 185, 46);box-sizing: border-box;"><section class="135brush" data-bcless="darken" data-brushtype="text" style="display: inline-block;line-height: 1.4em;padding: 5px 10px;height: 32px;vertical-align: top;font-family: inherit;font-weight: bold;float: left;color: inherit;border-color: rgb(58, 103, 26);background: rgb(104, 185, 46);box-sizing: border-box !important;"><span style="font-size: 18px;">1. Apache Spot 是什么?</span></section><section style="display: inline-block;vertical-align: top;width: 0px;height: 0px;border-top: 32px solid rgb(104, 185, 46);border-right: 32px solid transparent;border-top-right-radius: 4px;border-bottom-left-radius: 2px;color: inherit;box-sizing: border-box !important;"></section></section></section></section></section></section><p style="text-align: center;margin-top: 15px;margin-bottom: 10px;"><img class="" data-copyright="0" data-ratio="0.5700934579439252" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hiayDdhDbxUYiaficrR9XdfZPZyAgyxDh7mEOnxo6TaM9qA4kiaVdKPhz2cMWfrEGH1GEZaAk7h7dNIPfOtx6vDbcQ/640?wx_fmt=png" data-type="png" data-w="107" style=""  /></p><p><span style="font-size: 14px;text-align: center;">Apache Spot 是一个基于网络流量和数据包分析，通过独特的机器学习方法，发现潜在安全威胁和未知网络攻击能力的开源方案。目前 Apache Spot 已支持对 Netflow、sflow、DNS、Proxy 的网络流量分析，主要依靠 HDFS、Hive 提供存储能力，Spark 提供计算能力，基于 LDA 算法提供无监督式机器学习能力，最终依赖 Jupyter 提供图形化交互能力。</span></p><p style="margin-top: 15px;margin-bottom: 25px;"><span style="font-size: 14px;">该项目由 Intel 和 Cloudera 向 Apache 基金会贡献，目前尚处于孵化阶段，最新发布版本为 Apache Spot 1.0。</span></p><h1 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h1><section class="_135editor" data-tools="135编辑器" data-id="32290" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><section style="clear: both;border-width: 0px;border-style: none;border-color: initial;margin-top: 5px;margin-bottom: 5px;box-sizing: border-box;"><section style="border-top: 2.5px solid #68b92e;border-right-color: #68b92e;border-bottom-color: #68b92e;border-left-color: #68b92e;font-size: 1em;font-weight: inherit;text-decoration: inherit;color: #fefefe;box-sizing: border-box;"><section style="border-width: 0px;border-style: initial;border-color: rgb(104, 185, 46);margin-top: 2px;overflow: hidden;color: inherit;box-sizing: border-box;"><section style="display: inline-block;font-size: 1em;font-family: inherit;font-weight: inherit;text-align: inherit;text-decoration: inherit;color: inherit;border-color: rgb(104, 185, 46);box-sizing: border-box;"><section class="135brush" data-bcless="darken" data-brushtype="text" style="display: inline-block;line-height: 1.4em;padding: 5px 10px;height: 32px;vertical-align: top;font-family: inherit;font-weight: bold;float: left;color: inherit;border-color: rgb(58, 103, 26);background: rgb(104, 185, 46);box-sizing: border-box !important;"><span style="font-size: 18px;">2. Apache Spot 能做什么？</span></section><section style="display: inline-block;vertical-align: top;width: 0px;height: 0px;border-top: 32px solid rgb(104, 185, 46);border-right: 32px solid transparent;border-top-right-radius: 4px;border-bottom-left-radius: 2px;color: inherit;box-sizing: border-box !important;"></section></section></section></section></section></section><h1 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h1><p style="margin-bottom: 15px;margin-top: 15px;"><span style="font-size: 14px;">Apache Spot 采集的数据包括网络流量、DNS 和 Proxy 数据包，其中网络流量又划分为外部流量(Perimeter Flows)和内部流量(Internal Flows)。利用这些数据可以做到：</span></p><p style="margin-top: 15px;margin-bottom: 15px;text-align: center;"><img class="" data-copyright="0" data-ratio="0.45207956600361665" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hiayDdhDbxUZLxZl7vo0ZZxWnZWeoicID9jsZzlXoDVPjqYEkRmTicQ3UuaUdbtZyjVzibgkMCVchrdvH8pbWg708g/640?wx_fmt=png" data-type="png" data-w="553" style=""  /></p><p><span style="font-size: 14px;">&nbsp;</span></p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p><strong><span style="font-size: 14px;">外部流量</span></strong></p><p style="margin-top: 10px;"><span style="font-size: 14px;">隐蔽扫描识别 Stealthy Scanning </span></p><p style="margin-top: 10px;"><span style="font-size: 14px;">旁路攻击检测 Side-Channel Data Escapes</span></p><p style="margin-top: 10px;"><span style="font-size: 14px;">反射攻击检测 Reflection Attacks</span></p><p style="margin-top: 10px;"><span style="font-size: 14px;">异常数据流发现 Unusual Data Flows</span></p><p style="margin-top: 10px;margin-bottom: 15px;"><span style="font-size: 14px;">信标行为发现 Beaconing</span></p></li><li><p><strong><span style="font-size: 14px;">外部流量 + DNS</span></strong></p><p style="margin-top: 10px;"><span style="font-size: 14px;">DNS隧道检测 DNS Tunneling</span></p><p style="margin-top: 10px;"><span style="font-size: 14px;">DNS隐蔽信道识别 Convert DNS Channels</span></p><p style="margin-top: 10px;"><span style="font-size: 14px;">内部DNS探测&nbsp;Internal DNS Recon</span></p></li><li><p style="margin-top: 15px;"><strong><span style="font-size: 14px;">外部流量 + DNS + Proxy</span></strong></p><p style="margin-top: 10px;"><span style="font-size: 14px;">跨站脚本攻击检测 Cross site scripting(XSS)</span></p><p style="margin-top: 10px;"><span style="font-size: 14px;">C&amp;C主机发现&nbsp;Command and Control</span></p><p style="margin-top: 10px;"><span style="font-size: 14px;">URL混淆检测 URL obfuscation</span></p><p><span style="font-size: 14px;">异常的POST数据发现&nbsp;Unusual Data POSTs</span></p></li><li><p style="margin-top: 15px;"><strong><span style="font-size: 14px;">外部流量 + DNS + Proxy + 内部流量</span></strong></p><p style="margin-top: 10px;"><span style="font-size: 14px;">横向移动检测 Lateral Movement</span></p><p style="margin-top: 10px;margin-bottom: 25px;"><span style="font-size: 14px;">完整的威胁可见性&nbsp;Complete Threat Visibility</span></p></li></ul><h1 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h1><section class="_135editor" data-tools="135编辑器" data-id="32290" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><section style="clear: both;border-width: 0px;border-style: none;border-color: initial;margin-top: 5px;margin-bottom: 5px;box-sizing: border-box;"><section style="border-top: 2.5px solid #68b92e;border-right-color: #68b92e;border-bottom-color: #68b92e;border-left-color: #68b92e;font-size: 1em;font-weight: inherit;text-decoration: inherit;color: #fefefe;box-sizing: border-box;"><section style="border-width: 0px;border-style: initial;border-color: rgb(104, 185, 46);margin-top: 2px;overflow: hidden;color: inherit;box-sizing: border-box;"><section style="display: inline-block;font-size: 1em;font-family: inherit;font-weight: inherit;text-align: inherit;text-decoration: inherit;color: inherit;border-color: rgb(104, 185, 46);box-sizing: border-box;"><section class="135brush" data-bcless="darken" data-brushtype="text" style="display: inline-block;line-height: 1.4em;padding: 5px 10px;height: 32px;vertical-align: top;font-family: inherit;font-weight: bold;float: left;color: inherit;border-color: rgb(58, 103, 26);background: rgb(104, 185, 46);box-sizing: border-box !important;"><span style="font-size: 18px;">3. Apache Spot 是怎么做的？</span></section><section style="display: inline-block;vertical-align: top;width: 0px;height: 0px;border-top: 32px solid rgb(104, 185, 46);border-right: 32px solid transparent;border-top-right-radius: 4px;border-bottom-left-radius: 2px;color: inherit;box-sizing: border-box !important;"></section></section></section></section></section></section><h1 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h1><p style="margin-top: 15px;margin-bottom: 15px;"><span style="font-size: 14px;">Apache Spot 利用开源且被优化过的解码器接入二进制网络流量数据和数据包，利用机器学习的方法（主要是 LDA 算法）从网络流量中分离出可疑流量，以及特征化独特的网络流量行为。经过上下文增强、噪声过滤、白名单和启发式算法等等一系列手段，最终产生少量且准确的安全威胁事件呈现给用户。</span></p><p style="text-align: center;margin-top: 15px;margin-bottom: 15px;"><img class="" data-copyright="0" data-ratio="0.8517179023508138" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hiayDdhDbxUZLxZl7vo0ZZxWnZWeoicID9ZkxYU8ICXY81NAWQyVrNhYFpPcLpAjib4MrzFZgcZ6cs8aKtD377bNg/640?wx_fmt=png" data-type="png" data-w="553" style=""  /></p><p><br  /></p><h1 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h1><section class="_135editor" data-tools="135编辑器" data-id="32290" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><section style="clear: both;border-width: 0px;border-style: none;border-color: initial;margin-top: 5px;margin-bottom: 5px;box-sizing: border-box;"><section style="border-top: 2.5px solid #68b92e;border-right-color: #68b92e;border-bottom-color: #68b92e;border-left-color: #68b92e;font-size: 1em;font-weight: inherit;text-decoration: inherit;color: #fefefe;box-sizing: border-box;"><section style="border-width: 0px;border-style: initial;border-color: rgb(104, 185, 46);margin-top: 2px;overflow: hidden;color: inherit;box-sizing: border-box;"><section style="display: inline-block;font-size: 1em;font-family: inherit;font-weight: inherit;text-align: inherit;text-decoration: inherit;color: inherit;border-color: rgb(104, 185, 46);box-sizing: border-box;"><section class="135brush" data-bcless="darken" data-brushtype="text" style="display: inline-block;line-height: 1.4em;padding: 5px 10px;height: 32px;vertical-align: top;font-family: inherit;font-weight: bold;float: left;color: inherit;border-color: rgb(58, 103, 26);background: rgb(104, 185, 46);box-sizing: border-box !important;"><span style="font-size: 18px;">4. Apache Spot 关键特性</span></section><section style="display: inline-block;vertical-align: top;width: 0px;height: 0px;border-top: 32px solid rgb(104, 185, 46);border-right: 32px solid transparent;border-top-right-radius: 4px;border-bottom-left-radius: 2px;color: inherit;box-sizing: border-box !important;"></section></section></section></section></section></section><h1 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h1><ul class=" list-paddingleft-2" style=""><li><p style="margin-top: 15px;"><strong><span style="font-size: 14px;">识别可疑DNS数据包 (Suspicious DNS Packets)</span></strong></p><p style="margin-top: 15px;"><span style="font-size: 14px;">利用深度包检测技术（Deep-packet Inspection）对DNS流量进行画像，经过可视化、正则化以及模式匹配处理，向安全分析师呈现出DNS流量数据中最有可能是威胁的部分。</span></p></li><li><p style="margin-top: 15px;"><strong><span style="font-size: 14px;">威胁应急响应 (Threat Incident and Response)</span></strong></p><p style="margin-top: 15px;"><span style="font-size: 14px;">给定一个IP地址，Apache Spot能够将跟该IP相关的所有数据按时间序列整合在一起，便于运维人员对威胁事件进行响应。</span></p></li><li><p style="margin-top: 15px;"><strong><span style="font-size: 14px;">可疑网络连接发现 (Suspicious Connects)</span></strong></p><p style="margin-top: 15px;"><span style="font-size: 14px;">通过机器学习的方法对在网络上进行通信的机器及其通信模式建立相应的模型，数十条原始数据在经过一系列处理后，仅剩余几百条，这些剩余的数据就是最有可能是威胁的部分。</span></p></li></ul><p><br  /></p><ul class=" list-paddingleft-2" style=""><li><p><strong><span style="font-size: 14px;caret-color: red;">故事板(Storyboard)</span></strong><br  /></p><p style="margin-top: 15px;"><span style="font-size: 14px;">安全分析师对威胁事件完成调查后，可以通过故事板去表现事件的来龙去脉，也就是说在故事板中，我们可以了解到攻击者是什么时候攻入系统的？都拿下了哪些机器？怎么拿下的？</span></p></li></ul><p><br  /></p><ul class=" list-paddingleft-2" style=""><li><p style="margin-top: 15px;"><strong><span style="font-size: 14px;">开放数据模型 (Open Data Models）</span></strong></p><p style="margin-top: 15px;"><span style="font-size: 14px;">为了让威胁检测模型的开发过程更加简单高效，保证个人、企业、社区输出的检测模型的兼容性，Apache Spot 对网络、终端、用户等相关数据进行了标准化定义，规范了这些数据在逻辑层以及物理层的形态。简而言之，开放数据模型保障了不同的开发者在用同一种“语言”在进行威胁检测模型的开发。</span></p></li><li><p style="margin-top: 15px;"><strong><span style="font-size: 14px;">协作 （Collaboration）</span></strong></p><p style="margin-top: 15px;"><span style="font-size: 14px;">Apache Spot 平台运行于Hadoop大数据平台之上，通过其定义的开放数据模型，使得个人、企业、社区开发者的产出可以无缝衔接。正如攻击者可以利用其它攻击者制作的攻击工具一样，防护方也能够使用其它防护者制作的防护工具。</span></p></li></ul><p><br  /></p><h1 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h1><section class="_135editor" data-tools="135编辑器" data-id="32290" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><section style="clear: both;border-width: 0px;border-style: none;border-color: initial;margin-top: 5px;margin-bottom: 5px;box-sizing: border-box;"><section style="border-top: 2.5px solid #68b92e;border-right-color: #68b92e;border-bottom-color: #68b92e;border-left-color: #68b92e;font-size: 1em;font-weight: inherit;text-decoration: inherit;color: #fefefe;box-sizing: border-box;"><section style="border-width: 0px;border-style: initial;border-color: rgb(104, 185, 46);margin-top: 2px;overflow: hidden;color: inherit;box-sizing: border-box;"><section style="display: inline-block;font-size: 1em;font-family: inherit;font-weight: inherit;text-align: inherit;text-decoration: inherit;color: inherit;border-color: rgb(104, 185, 46);box-sizing: border-box;"><section class="135brush" data-bcless="darken" data-brushtype="text" style="display: inline-block;line-height: 1.4em;padding: 5px 10px;height: 32px;vertical-align: top;font-family: inherit;font-weight: bold;float: left;color: inherit;border-color: rgb(58, 103, 26);background: rgb(104, 185, 46);box-sizing: border-box !important;"><span style="font-size: 18px;">5. Apache Spot 系统介绍</span></section><section style="display: inline-block;vertical-align: top;width: 0px;height: 0px;border-top: 32px solid rgb(104, 185, 46);border-right: 32px solid transparent;border-top-right-radius: 4px;border-bottom-left-radius: 2px;color: inherit;box-sizing: border-box !important;"></section></section></section><section style="border-width: 0px;border-style: initial;border-color: rgb(104, 185, 46);margin-top: 2px;overflow: hidden;color: inherit;box-sizing: border-box;"><section style="display: inline-block;font-size: 1em;font-family: inherit;font-weight: inherit;text-align: inherit;text-decoration: inherit;color: inherit;border-color: rgb(104, 185, 46);box-sizing: border-box;"><br  /></section></section></section></section></section><h1 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h1><section data-tools="135编辑器" data-id="33" data-color="#68b92e"><section class="_135editor" data-tools="135编辑器" data-id="33" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><section data-id="us1640979" class="_135editor" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><section class="_135editor" data-tools="135编辑器" data-id="33" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e" data-custom="#68b92e"><p style="margin-top: 8px;font-weight: bold;line-height: 28px;max-width: 100%;color: rgb(104, 185, 46);min-height: 32px;border-bottom: 2px solid rgb(104, 185, 46);border-top-color: rgb(104, 185, 46);border-right-color: rgb(104, 185, 46);border-left-color: rgb(104, 185, 46);text-align: justify;"><span class="autonum" placeholder="1" style="border-radius: 80% 100% 90% 20%;color: rgb(255, 255, 255);display: block;float: left;line-height: 20px;margin-right: 8px;max-width: 100%;padding: 4px 10px;background-color: rgb(104, 185, 46);">1</span><strong class="135brush" data-brushtype="text" style="letter-spacing: 2px;">系统架构</strong></p></section></section></section><p style="margin-bottom: 15px;margin-top: 15px;"><span style="font-size: 14px;caret-color: red;">Apache Spot项目使用Hadoop大数据生态的各种组件构建其数据分析平台。从数据采集、预处理到存储，从数据分析、结果呈现到交互操作，还集成了大量的开源软件来构建平台的能力。</span></p></section><p style="margin-top: 15px;margin-bottom: 25px;text-align: center;"><img class="" data-copyright="0" data-ratio="0.4936708860759494" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hiayDdhDbxUZLxZl7vo0ZZxWnZWeoicID9wtyTw9ezR85nY14HZRgq1OEf4QWBWrpgAeN27Aop27kobU4icmLWjdg/640?wx_fmt=png" data-type="png" data-w="553" style=""  /></p><section class="_135editor" data-tools="135编辑器" data-id="33" data-color="#68b92e" style="white-space: normal;border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><section data-id="us1640979" class="_135editor" data-color="#68b92e" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><section class="_135editor" data-tools="135编辑器" data-id="33" data-color="#68b92e" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><p style="margin-top: 8px;font-weight: bold;line-height: 28px;max-width: 100%;color: rgb(104, 185, 46);min-height: 32px;border-bottom: 2px solid rgb(104, 185, 46);border-top-color: rgb(104, 185, 46);border-right-color: rgb(104, 185, 46);border-left-color: rgb(104, 185, 46);text-align: justify;"><span class="autonum" placeholder="1" data-original-title="" title="" aria-describedby="tooltip282634" style="margin-right: 8px;padding: 4px 10px;border-radius: 80% 100% 90% 20%;color: rgb(255, 255, 255);display: block;float: left;line-height: 20px;max-width: 100%;background-color: rgb(104, 185, 46);">2</span><strong class="135brush" data-brushtype="text" style="letter-spacing: 2px;">组件视图</strong></p></section></section></section><ul class=" list-paddingleft-2" style=""><li><p style="margin-top: 15px;margin-bottom: 15px;"><span style="font-size: 14px;">spot-setup 系统配置、初始化</span></p></li><li><p style="margin-bottom: 15px;"><span style="font-size: 14px;">spot-ingest 数据采集</span></p></li><li><p style="margin-bottom: 15px;"><span style="font-size: 14px;">spot-ml 机器学习数据分析</span></p></li><li><p style="margin-bottom: 25px;"><span style="font-size: 14px;">spot-oa 用户交互界面</span></p></li></ul><h2 style="font-weight: bold;line-height: 1.6em;"></h2><section class="_135editor" data-tools="135编辑器" data-id="33" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><section data-id="us1640979" class="_135editor" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><section class="_135editor" data-tools="135编辑器" data-id="33" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><p style="margin-top: 8px;font-weight: bold;line-height: 28px;max-width: 100%;color: rgb(104, 185, 46);min-height: 32px;border-bottom: 2px solid rgb(104, 185, 46);border-top-color: rgb(104, 185, 46);border-right-color: rgb(104, 185, 46);border-left-color: rgb(104, 185, 46);text-align: justify;"><span class="autonum" placeholder="1" style="border-radius: 80% 100% 90% 20%;color: rgb(255, 255, 255);display: block;float: left;line-height: 20px;margin-right: 8px;max-width: 100%;padding: 4px 10px;background-color: rgb(104, 185, 46);" data-original-title="" title="">3</span><strong class="135brush" data-brushtype="text" style="letter-spacing: 2px;">数据流视图</strong></p></section></section></section><p style="margin-top: 15px;margin-bottom: 15px;"><span style="font-size: 14px;">下图详细呈现了Apache Spot整个平台的主要数据流，数据从数据源（左上）起始，先经过数据采集器进行解析处理，而后由流式处理组件完成入库，存储到HDFS中。之后，机器学习组件负责对数据进行分析计算，并将计算结果入库存储。分析结果最终通过用户界面呈现出来（右下）。</span></p><p style="margin-bottom: 25px;text-align: center;"><img class="" data-copyright="0" data-ratio="0.5081374321880651" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hiayDdhDbxUZLxZl7vo0ZZxWnZWeoicID95N4AcsEVfk9xWpOjNNWicNE4icNyib2ByrDRic4bBicticfv1jMFqSpKDhsQ/640?wx_fmt=png" data-type="png" data-w="553" style=""  /></p><section class="_135editor" data-tools="135编辑器" data-id="33" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><section data-id="us1640979" class="_135editor" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><section class="_135editor" data-tools="135编辑器" data-id="33" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><p style="margin-top: 8px;font-weight: bold;line-height: 28px;max-width: 100%;color: rgb(104, 185, 46);min-height: 32px;border-bottom: 2px solid rgb(104, 185, 46);border-top-color: rgb(104, 185, 46);border-right-color: rgb(104, 185, 46);border-left-color: rgb(104, 185, 46);text-align: justify;"><span class="autonum" placeholder="1" style="border-radius: 80% 100% 90% 20%;color: rgb(255, 255, 255);display: block;float: left;line-height: 20px;margin-right: 8px;max-width: 100%;padding: 4px 10px;background-color: rgb(104, 185, 46);" data-original-title="" title="" aria-describedby="tooltip439828">4</span><strong class="135brush" data-brushtype="text" style="letter-spacing: 2px;">服务视图</strong></p></section></section></section><p style="margin-top: 15px;"><span style="font-size: 14px;caret-color: red;"></span></p><p style="margin-top: 15px;margin-bottom: 15px;text-align: center;"><img class="" data-copyright="0" data-ratio="0.8969258589511754" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hiayDdhDbxUZLxZl7vo0ZZxWnZWeoicID9wkVCItTTQS4WVJLPHLM8EiaDwxbyFyicbkic5Kht98tvvwXwU086x8qAQ/640?wx_fmt=png" data-type="png" data-w="553" style=""  /></p><p style="margin-top: 15px;"><span style="font-size: 14px;caret-color: red;">上图是Apache Spot推荐的集群部署下，各个节点上部署的服务。其中：</span></p><p style="margin-top: 15px;"><span style="font-size: 14px;">Master 节点作为大数据平台的主节点，主要负责提供数据存储、检索及资源管理服务；</span></p><p style="margin-top: 15px;"><span style="font-size: 14px;">Cloudera Manager节点作为大数据平台的管理节点，也是Apache Spot平台的管理入口；</span></p><p style="margin-top: 15px;"><span style="font-size: 14px;">Worker 节点作为大数据平台的计算节点，主要负责提供数据分析能力；</span></p><p style="margin-top: 15px;margin-bottom: 25px;"><span style="font-size: 14px;">Edge 节点作为大数据平台的数据采集节点，主要负责从网络环境中采集数据。</span></p><h1 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h1><section class="_135editor" data-tools="135编辑器" data-id="32290" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><section style="clear: both;border-width: 0px;border-style: none;border-color: initial;margin-top: 5px;margin-bottom: 5px;box-sizing: border-box;"><section style="border-top: 2.5px solid #68b92e;border-right-color: #68b92e;border-bottom-color: #68b92e;border-left-color: #68b92e;font-size: 1em;font-weight: inherit;text-decoration: inherit;color: #fefefe;box-sizing: border-box;"><section style="border-width: 0px;border-style: initial;border-color: rgb(104, 185, 46);margin-top: 2px;overflow: hidden;color: inherit;box-sizing: border-box;"><section style="display: inline-block;font-size: 1em;font-family: inherit;font-weight: inherit;text-align: inherit;text-decoration: inherit;color: inherit;border-color: rgb(104, 185, 46);box-sizing: border-box;"><section class="135brush" data-bcless="darken" data-brushtype="text" style="display: inline-block;line-height: 1.4em;padding: 5px 10px;height: 32px;vertical-align: top;font-family: inherit;font-weight: bold;float: left;color: inherit;border-color: rgb(58, 103, 26);background: rgb(104, 185, 46);box-sizing: border-box !important;"><span style="font-size: 18px;">6. Apache Spot 组件介绍</span></section><section style="display: inline-block;vertical-align: top;width: 0px;height: 0px;border-top: 32px solid rgb(104, 185, 46);border-right: 32px solid transparent;border-top-right-radius: 4px;border-bottom-left-radius: 2px;color: inherit;box-sizing: border-box !important;"></section></section></section><section style="border-width: 0px;border-style: initial;border-color: rgb(104, 185, 46);margin-top: 2px;overflow: hidden;color: inherit;box-sizing: border-box;"><section style="display: inline-block;font-size: 1em;font-family: inherit;font-weight: inherit;text-align: inherit;text-decoration: inherit;color: inherit;border-color: rgb(104, 185, 46);box-sizing: border-box;"><br  /></section></section></section></section></section><h1 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h1><section class="_135editor" data-tools="135编辑器" data-id="33" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><section data-id="us1640979" class="_135editor" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><section class="_135editor" data-tools="135编辑器" data-id="33" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e" data-custom="#68b92e"><p style="margin-top: 8px;font-weight: bold;line-height: 28px;max-width: 100%;color: rgb(104, 185, 46);min-height: 32px;border-bottom: 2px solid rgb(104, 185, 46);border-top-color: rgb(104, 185, 46);border-right-color: rgb(104, 185, 46);border-left-color: rgb(104, 185, 46);text-align: justify;"><span class="autonum" placeholder="1" style="border-radius: 80% 100% 90% 20%;color: rgb(255, 255, 255);display: block;float: left;line-height: 20px;margin-right: 8px;max-width: 100%;padding: 4px 10px;background-color: rgb(104, 185, 46);">1</span><strong class="135brush" data-brushtype="text" style="letter-spacing: 2px;">配置组件 Spot-Setup</strong></p></section></section></section><p style="margin-top: 25px;"><span style="font-size: 14px;caret-color: red;">Spot-Setup 包含一系列脚本，分别用于初始化系统 HDFS 中的文件路径和 Hive 数据表结构，以及初始化系统配置。</span><br  /></p><p><br  /></p><h2 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h2><section class="_135editor" data-tools="135编辑器" data-id="33" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><section data-id="us1640979" class="_135editor" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><section class="_135editor" data-tools="135编辑器" data-id="33" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><p style="margin-top: 8px;font-weight: bold;line-height: 28px;max-width: 100%;color: rgb(104, 185, 46);min-height: 32px;border-bottom: 2px solid rgb(104, 185, 46);border-top-color: rgb(104, 185, 46);border-right-color: rgb(104, 185, 46);border-left-color: rgb(104, 185, 46);text-align: justify;"><span class="autonum" placeholder="1" style="border-radius: 80% 100% 90% 20%;color: rgb(255, 255, 255);display: block;float: left;line-height: 20px;margin-right: 8px;max-width: 100%;padding: 4px 10px;background-color: rgb(104, 185, 46);" data-original-title="" title="" aria-describedby="tooltip335478">2</span><strong class="135brush" data-brushtype="text" style="letter-spacing: 2px;">数据采集组件 Spot-Ingest</strong></p></section></section></section><p style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;margin-top: 15px;"><br  /></p><section style="margin-right: auto;margin-left: auto;border-width: initial;border-style: none;border-color: initial;display: inline-block;width: 100%;box-sizing: border-box;" data-width="100%"><p style="font-size: 18px;letter-spacing: -2px;display: inline-block;"><strong><span style="color: #68b92e;font-weight: bold;font-family: 宋体;">&gt;</span><span style="color: #68b92e;font-weight: 700;opacity: 0.7;font-family: 宋体;">&gt;</span><span style="color: #68b92e;font-weight: 700;opacity: 0.5;font-family: 宋体;">&gt;</span><span style="color: #68b92e;font-weight: 700;opacity: 0.3;font-family: 宋体;">&gt;</span></strong></p><section style="margin-left: 10px;color: #68b92e;display: inline-block;"><p class="135brush" data-brushtype="text" style="color: inherit;"><strong>2.1 架构视图</strong></p></section></section><p style="margin-bottom: 25px;text-align: center;margin-top: 15px;"><img class="" data-copyright="0" data-ratio="0.19529837251356238" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hiayDdhDbxUZLxZl7vo0ZZxWnZWeoicID94LLaXIG853biadyazicTQ1NAJBViaWTDCL9vFXcT9ia1hyz3wm8yzeIW7g/640?wx_fmt=png" data-type="png" data-w="553" style=""  /></p><section class="_135editor" data-tools="135编辑器" data-id="85988" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><section style="margin-right: auto;margin-left: auto;border-width: initial;border-style: none;border-color: initial;display: inline-block;width: 100%;box-sizing: border-box;" data-width="100%"><section style="font-size: 18px;letter-spacing: -2px;display: inline-block;box-sizing: border-box;"><strong><span style="color: #68B92E;font-weight: bold;font-family: 宋体;">&gt;</span><span style="color: #68B92E;font-weight: 700;opacity: 0.7;font-family: 宋体;">&gt;</span><span style="color: #68B92E;font-weight: 700;opacity: 0.5;font-family: 宋体;">&gt;</span><span style="color: #68B92E;font-weight: 700;opacity: 0.3;font-family: 宋体;">&gt;</span></strong></section><section style="margin-left: 10px;color: rgb(104, 185, 46);display: inline-block;"><p class="135brush" data-brushtype="text" style="color: inherit;"><strong>2.2 内部模块</strong></p></section></section></section><ul class=" list-paddingleft-2" style=""><li><p style="margin-top: 15px;"><strong><span style="font-size: 14px;">Spot-Collector</span></strong></p><p style="margin-top: 15px;"><span style="font-size: 14px;caret-color: red;">该模块负责在后台监控文件系统指定路径下，由网络工具产生的新文件，或者先前产生的已有数据文件，通过指定解析工具（如nfdump，tshark）转换为可读格式，并以原始格式存储到 HDFS 用于取证，以 avro-parquet 格式存储到 Hive 中以做 SQL 检索。</span></p><p style="margin-top: 15px;"><span style="font-size: 14px;">其中：</span></p><p style="margin-top: 15px;"><span style="font-size: 14px;">文件 &gt; 1MB 的将文件名称和在HDFS中的存储路径交给kafka；</span></p><p style="margin-top: 15px;"><span style="font-size: 14px;">文件 &lt; 1MB 的将其 Data Event 交给 Kafka，之后由 Spark Streaming处理（当前版本中仅 Proxy 数据由 Spark Streaming 处理）。</span></p></li><li><p style="margin-top: 15px;"><strong><span style="font-size: 14px;">Kafka</span></strong></p><p style="margin-top: 15px;"><span style="font-size: 14px;">Kafka 负责存储由 Collector 采集到的数据，以供 Spot Workers 解析处理。每个数据采集实例都会创建一个新的 Topic，当前版本包含三个采集实例，分别是 Flow, DNS, Proxy。每个 Topic 的 Partition 数量取决于 Spot Worker 的数量。</span></p></li><li><p style="margin-top: 15px;"><strong><span style="font-size: 14px;">Spot Workers</span></strong></p><p style="margin-top: 15px;"><span style="font-size: 14px;">Sport Worker 运行在后台，从指定的 Topic 的 Partitions， 以及 Hive 表中读取、解析数据，并将结果存储到 Hive 中，以供 Spot-ml 组件读取消费。</span></p><p style="margin-top: 15px;"><span style="font-size: 14px;">当前版本中存在两种类型的 Spot Worker：</span></p><p style="margin-top: 15px;"><span style="font-size: 14px;">A：Python 多线程实现，通过预置的解析器处理数据；</span></p><p style="margin-top: 15px;"><span style="font-size: 14px;">B：Spark-Streaming Workers 实现，通过 Spark-Streaming Context 从 kafka 中读取并处理数据。</span></p></li></ul><p><br  /></p><h2 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h2><section class="_135editor" data-tools="135编辑器" data-id="33" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><section data-id="us1640979" class="_135editor" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><section class="_135editor" data-tools="135编辑器" data-id="33" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><p style="margin-top: 8px;font-weight: bold;line-height: 28px;max-width: 100%;color: rgb(104, 185, 46);min-height: 32px;border-bottom: 2px solid rgb(104, 185, 46);border-top-color: rgb(104, 185, 46);border-right-color: rgb(104, 185, 46);border-left-color: rgb(104, 185, 46);text-align: justify;"><span class="autonum" placeholder="1" style="border-radius: 80% 100% 90% 20%;color: rgb(255, 255, 255);display: block;float: left;line-height: 20px;margin-right: 8px;max-width: 100%;padding: 4px 10px;background-color: rgb(104, 185, 46);" data-original-title="" title="" aria-describedby="tooltip882473">3</span><strong class="135brush" data-brushtype="text" style="letter-spacing: 2px;">机器学习组件 Spot-ML</strong></p></section></section></section><h2 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h2><p style="margin-top: 15px;"><span style="font-size: 14px;">Spot-ML 负责从采集到的 netflow、dns、proxy 数据中分析可疑连接，通过对一系列网络事件的分析来生成最不可能和最可疑的事件列表。它利用主体建模（Topic Model）来发现正常和异常的网络行为；将关联到某个 IP 的日志集合视作一个文档，利用 LDA (Latent Dirichlet Allocation ) 算法从中发现隐藏的语义结构。Spot-ML 为每个 IP 地址的网络行为建立概率模型，每一条网络日志都会被该模型进行评分，将其中得分较低的网络事件标记为“可疑”以作进一步分析。</span></p><p style="margin-top: 15px;"><span style="font-size: 14px;">LDA 算法是一个用于离散数据建模分析的生成概率模型，基于三层贝叶斯模型，适用于分析类似语料库的数据。在该模型中，文档中的每个单词均由一组潜在的主题混合而成。利用聚合、离散手段将网络流量中每一条网络日志转换为一个个单词。通过这种方法，可以将文档关联到 IP 地址，单词关联到网络日志（网络日志可关联到某个 IP），主题关联到网络活动画像。</span></p><p><br  /></p><h2 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h2><section class="_135editor" data-tools="135编辑器" data-id="33" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><section data-id="us1640979" class="_135editor" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><section class="_135editor" data-tools="135编辑器" data-id="33" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><p style="margin-top: 8px;font-weight: bold;line-height: 28px;max-width: 100%;color: rgb(104, 185, 46);min-height: 32px;border-bottom: 2px solid rgb(104, 185, 46);border-top-color: rgb(104, 185, 46);border-right-color: rgb(104, 185, 46);border-left-color: rgb(104, 185, 46);text-align: justify;"><span class="autonum" placeholder="1" style="border-radius: 80% 100% 90% 20%;color: rgb(255, 255, 255);display: block;float: left;line-height: 20px;margin-right: 8px;max-width: 100%;padding: 4px 10px;background-color: rgb(104, 185, 46);" data-original-title="" title="" aria-describedby="tooltip483589">4</span><strong class="135brush" data-brushtype="text" style="letter-spacing: 2px;">交互组件 Spot-OA</strong></p></section></section></section><h2 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h2><p style="margin-top: 15px;"><span style="font-size: 14px;">Spot-OA 基于 IPython、D3JS、jQuery、Bootstrap、ReactJS技术向用户提供数据处理、转换以及数据可视化的能力。当前版本主要通过 Suspicious、Threat Investigation、Story Board 三个视图页面提供针对 Flow、DNS、Proxy 事件的可视化分析能力。此外，通过 Ingest Summary Notebook 视图页面，提供了解指定时间段内数据采集情况的能力。</span></p><p><br  /></p><h3 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h3><section class="_135editor" data-tools="135编辑器" data-id="85988" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><section style="margin-right: auto;margin-left: auto;border-width: initial;border-style: none;border-color: initial;display: inline-block;width: 100%;box-sizing: border-box;" data-width="100%"><section style="font-size: 18px;letter-spacing: -2px;display: inline-block;box-sizing: border-box;"><strong><span style="color: #68B92E;font-weight: bold;font-family: 宋体;">&gt;</span><span style="color: #68B92E;font-weight: 700;opacity: 0.7;font-family: 宋体;">&gt;</span><span style="color: #68B92E;font-weight: 700;opacity: 0.5;font-family: 宋体;">&gt;</span><span style="color: #68B92E;font-weight: 700;opacity: 0.3;font-family: 宋体;">&gt;</span></strong></section><section style="margin-left: 10px;color: rgb(104, 185, 46);display: inline-block;"><p class="135brush" data-brushtype="text" style="color: inherit;"><strong>4.1 Suspicious 简介</strong></p></section></section></section><h3 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h3><p style="margin-top: 15px;"><span style="font-size: 14px;">Suspicious 视图页面用于呈现 Spot-ML 发现的可疑活动，主要由四个面板组成。</span></p><p style="margin-top: 15px;"><span style="font-size: 14px;">Suspicious 面板以数据列表的形式展现 Spot-ML 发现的可疑活动；Network View 面板以可视化的形式表现这些可疑活动；Details 面板用于挖掘某个可疑活动更为细节的信息。Notebook &nbsp;面板提供一种专家能力，通过人为介入的方式修正或改善机器学习模型。</span></p><p style="margin-top: 15px;margin-bottom: 15px;"><strong><span style="font-size: 14px;caret-color: red;">Netflow Suspicious：</span></strong></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.6003616636528029" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hiayDdhDbxUZLxZl7vo0ZZxWnZWeoicID96icCVeRpo7cWNJ6jGRXGRdOkibYt8pXufWJXeHz4FsvHk9oW4HzNFkNA/640?wx_fmt=png" data-type="png" data-w="553" style=""  /></p><p style="margin-top: 15px;margin-bottom: 15px;"><strong><span style="font-size: 14px;">DNS Suspicious:</span></strong></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.5117540687160941" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hiayDdhDbxUZLxZl7vo0ZZxWnZWeoicID9DlQiaiaf8ztHPRzcfjOMNEXPol0gCXLTlmtkzv72K8JIS1USsR5NVG9g/640?wx_fmt=png" data-type="png" data-w="553" style=""  /></p><p style="margin-top: 15px;margin-bottom: 15px;"><strong><span style="font-size: 14px;">&nbsp;</span><span style="font-size: 14px;caret-color: red;">Proxy Suspicious:</span></strong><br  /></p><p style="margin-bottom: 25px;text-align: center;"><img class="" data-copyright="0" data-ratio="0.6383363471971067" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hiayDdhDbxUZLxZl7vo0ZZxWnZWeoicID9ITNyXNLhry8QEHel1Dxk3KYT5phSVW39sVNAZ9bBCv6ib2RvPV6Y6dw/640?wx_fmt=png" data-type="png" data-w="553" style=""  /></p><section class="_135editor" data-tools="135编辑器" data-id="85988" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><section style="margin-right: auto;margin-left: auto;border-width: initial;border-style: none;border-color: initial;display: inline-block;width: 100%;box-sizing: border-box;" data-width="100%"><section style="font-size: 18px;letter-spacing: -2px;display: inline-block;box-sizing: border-box;"><strong><span style="color: #68B92E;font-weight: bold;font-family: 宋体;">&gt;</span><span style="color: #68B92E;font-weight: 700;opacity: 0.7;font-family: 宋体;">&gt;</span><span style="color: #68B92E;font-weight: 700;opacity: 0.5;font-family: 宋体;">&gt;</span><span style="color: #68B92E;font-weight: 700;opacity: 0.3;font-family: 宋体;">&gt;</span></strong></section><section style="margin-left: 10px;color: rgb(104, 185, 46);display: inline-block;"><p class="135brush" data-brushtype="text" style="color: inherit;"><strong>4.2 Threat Investigation 简介</strong></p></section></section></section><p style="margin-top: 15px;"><span style="font-size: 14px;">Threat Investigation 视图页面是分析结果展示在 Storyboard 之前的最后一步，安全分析师在这个页面对即将展示的分析结果进行最后一步核查。</span></p><p><br  /></p><h3 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h3><section class="_135editor" data-tools="135编辑器" data-id="85988" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><section style="margin-right: auto;margin-left: auto;border-width: initial;border-style: none;border-color: initial;display: inline-block;width: 100%;box-sizing: border-box;" data-width="100%"><section style="font-size: 18px;letter-spacing: -2px;display: inline-block;box-sizing: border-box;"><strong><span style="color: #68B92E;font-weight: bold;font-family: 宋体;">&gt;</span><span style="color: #68B92E;font-weight: 700;opacity: 0.7;font-family: 宋体;">&gt;</span><span style="color: #68B92E;font-weight: 700;opacity: 0.5;font-family: 宋体;">&gt;</span><span style="color: #68B92E;font-weight: 700;opacity: 0.3;font-family: 宋体;">&gt;</span></strong></section><section style="margin-left: 10px;color: rgb(104, 185, 46);display: inline-block;"><p class="135brush" data-brushtype="text" style="color: inherit;"><strong>4.3 Storyboard 简介</strong></p></section></section></section><h3 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h3><p style="margin-top: 15px;"><span style="font-size: 14px;">Storyboard 视图页面用于呈现系统最终的分析结果，供用户掌握高风险的安全威胁事件以及更进一步的信息。</span></p><p style="margin-top: 15px;margin-bottom: 15px;"><strong><span style="font-size: 14px;">Netflow Story Board:</span></strong></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.5858951175406871" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hiayDdhDbxUZLxZl7vo0ZZxWnZWeoicID968aMtMeI59CUAnibAuCS75BXFHatEX7F4FCUCMWJUqEia8ulBLK2WS5w/640?wx_fmt=png" data-type="png" data-w="553" style=""  /></p><p style="margin-top: 15px;margin-bottom: 15px;"><strong><span style="font-size: 14px;caret-color: red;">DNS Story Board:</span></strong><br  /></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.4267631103074141" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hiayDdhDbxUZLxZl7vo0ZZxWnZWeoicID9PSuFf29ic23gLDmUL3ooQWumlyQBfLyKRo1c4kOLdlAyF84Evdmvjgg/640?wx_fmt=png" data-type="png" data-w="553" style=""  /></p><p style="margin-top: 15px;margin-bottom: 15px;"><strong><span style="font-size: 14px;">Proxy Story Board:</span></strong></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.918625678119349" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hiayDdhDbxUZLxZl7vo0ZZxWnZWeoicID9KCodgHCsfnJblh9icNJpXpJNoGUXBaqFb0LkeWfC1v0cXI2ibNB9pSGw/640?wx_fmt=png" data-type="png" data-w="553" style=""  /></p><p><span style="font-size: 14px;">&nbsp;</span><br  /></p><h3 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h3><section class="_135editor" data-tools="135编辑器" data-id="85988" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><section style="margin-right: auto;margin-left: auto;border-width: initial;border-style: none;border-color: initial;display: inline-block;width: 100%;box-sizing: border-box;" data-width="100%"><section style="font-size: 18px;letter-spacing: -2px;display: inline-block;box-sizing: border-box;"><strong><span style="color: #68B92E;font-weight: bold;font-family: 宋体;">&gt;</span><span style="color: #68B92E;font-weight: 700;opacity: 0.7;font-family: 宋体;">&gt;</span><span style="color: #68B92E;font-weight: 700;opacity: 0.5;font-family: 宋体;">&gt;</span><span style="color: #68B92E;font-weight: 700;opacity: 0.3;font-family: 宋体;">&gt;</span></strong></section><section style="margin-left: 10px;color: rgb(104, 185, 46);display: inline-block;"><p class="135brush" data-brushtype="text" style="color: inherit;"><strong>4.4 Ingest Summary 简介</strong></p></section></section></section><h3 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h3><p style="margin-top: 15px;margin-bottom: 15px;"><span style="font-size: 14px;">Ingest Summary 用于了解系统的数据采集情况，可以查看采集的数据类型在指定时间段的数据量分布详情。</span></p><p style="text-align: center;margin-bottom: 25px;"><img class="" data-copyright="0" data-ratio="0.5045207956600362" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hiayDdhDbxUZLxZl7vo0ZZxWnZWeoicID9niah8U0q4ES5aKIIQWUTk36UVLvVwVK4t21t9O25RNuibjR7rbmeXpgQ/640?wx_fmt=png" data-type="png" data-w="553" style=""  /></p><h1 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h1><section class="_135editor" data-tools="135编辑器" data-id="32290" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><section style="clear: both;border-width: 0px;border-style: none;border-color: initial;margin-top: 5px;margin-bottom: 5px;box-sizing: border-box;"><section style="border-top: 2.5px solid #68b92e;border-right-color: #68b92e;border-bottom-color: #68b92e;border-left-color: #68b92e;font-size: 1em;font-weight: inherit;text-decoration: inherit;color: #fefefe;box-sizing: border-box;"><section style="border-width: 0px;border-style: initial;border-color: rgb(104, 185, 46);margin-top: 2px;overflow: hidden;color: inherit;box-sizing: border-box;"><section style="display: inline-block;font-size: 1em;font-family: inherit;font-weight: inherit;text-align: inherit;text-decoration: inherit;color: inherit;border-color: rgb(104, 185, 46);box-sizing: border-box;"><section class="135brush" data-bcless="darken" data-brushtype="text" style="display: inline-block;line-height: 1.4em;padding: 5px 10px;height: 32px;vertical-align: top;font-family: inherit;font-weight: bold;float: left;color: inherit;border-color: rgb(58, 103, 26);background: rgb(104, 185, 46);box-sizing: border-box !important;"><span style="font-size: 18px;">7. Apache Spot 环境&amp;部署</span></section><section style="display: inline-block;vertical-align: top;width: 0px;height: 0px;border-top: 32px solid rgb(104, 185, 46);border-right: 32px solid transparent;border-top-right-radius: 4px;border-bottom-left-radius: 2px;color: inherit;box-sizing: border-box !important;"></section></section></section><section style="border-width: 0px;border-style: initial;border-color: rgb(104, 185, 46);margin-top: 2px;overflow: hidden;color: inherit;box-sizing: border-box;"><section style="display: inline-block;font-size: 1em;font-family: inherit;font-weight: inherit;text-align: inherit;text-decoration: inherit;color: inherit;border-color: rgb(104, 185, 46);box-sizing: border-box;"><br  /></section></section></section></section></section><h1 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h1><section class="_135editor" data-tools="135编辑器" data-id="33" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><section data-id="us1640979" class="_135editor" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><section class="_135editor" data-tools="135编辑器" data-id="33" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e" data-custom="#68b92e"><p style="margin-top: 8px;font-weight: bold;line-height: 28px;max-width: 100%;color: rgb(104, 185, 46);min-height: 32px;border-bottom: 2px solid rgb(104, 185, 46);border-top-color: rgb(104, 185, 46);border-right-color: rgb(104, 185, 46);border-left-color: rgb(104, 185, 46);text-align: justify;"><span class="autonum" placeholder="1" style="border-radius: 80% 100% 90% 20%;color: rgb(255, 255, 255);display: block;float: left;line-height: 20px;margin-right: 8px;max-width: 100%;padding: 4px 10px;background-color: rgb(104, 185, 46);">1</span><strong class="135brush" data-brushtype="text" style="letter-spacing: 2px;">基础环境</strong></p></section></section></section><ul class=" list-paddingleft-2" style=""><li><p style="margin-top: 15px;margin-bottom: 15px;"><span style="font-size: 14px;">CDH 5.7+</span></p></li><li><p style="margin-bottom: 15px;"><span style="font-size: 14px;">Spark 2.1.0</span></p></li><li><p style="margin-bottom: 15px;"><span style="font-size: 14px;">YARN</span></p></li><li><p style="margin-bottom: 15px;"><span style="font-size: 14px;">Hive</span></p></li><li><p style="margin-bottom: 15px;"><span style="font-size: 14px;">IMPALA</span></p></li><li><p style="margin-bottom: 15px;"><span style="font-size: 14px;">KAFKA</span></p></li><li><p style="margin-bottom: 15px;"><span style="font-size: 14px;">SPARK(YARN)</span></p></li><li><p style="margin-bottom: 15px;"><span style="font-size: 14px;">Zookeeper</span></p></li></ul><p><br  /></p><h2 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h2><section class="_135editor" data-tools="135编辑器" data-id="33" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><section data-id="us1640979" class="_135editor" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><section class="_135editor" data-tools="135编辑器" data-id="33" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><p style="margin-top: 8px;font-weight: bold;line-height: 28px;max-width: 100%;color: rgb(104, 185, 46);min-height: 32px;border-bottom: 2px solid rgb(104, 185, 46);border-top-color: rgb(104, 185, 46);border-right-color: rgb(104, 185, 46);border-left-color: rgb(104, 185, 46);text-align: justify;"><span class="autonum" placeholder="1" style="border-radius: 80% 100% 90% 20%;color: rgb(255, 255, 255);display: block;float: left;line-height: 20px;margin-right: 8px;max-width: 100%;padding: 4px 10px;background-color: rgb(104, 185, 46);" data-original-title="" title="" aria-describedby="tooltip681043">2</span><strong class="135brush" data-brushtype="text" style="letter-spacing: 2px;">Docker 部署</strong></p></section></section></section><h2 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h2><p style="margin-top: 15px;"><span style="font-size: 14px;">下载镜像：</span></p><p style="margin-top: 15px;"><span style="font-size: 14px;">&gt; docker pull apachespot/spot-demo</span></p><p style="margin-top: 15px;"><span style="font-size: 14px;">启动镜像：</span></p><p style="margin-top: 15px;"><span style="font-size: 14px;">&gt; docker run -it -p 8889:8889 apachespot/spot-demo</span></p><p style="margin-top: 15px;"><span style="font-size: 14px;">访问地址：</span></p><p style="margin-top: 15px;"><span style="font-size: 14px;">http://localhost:8889/files/ui/flow/suspicious.html#date=2016-07-08</span></p><p><br  /></p><h2 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h2><section class="_135editor" data-tools="135编辑器" data-id="33" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><section data-id="us1640979" class="_135editor" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><section class="_135editor" data-tools="135编辑器" data-id="33" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><p style="margin-top: 8px;font-weight: bold;line-height: 28px;max-width: 100%;color: rgb(104, 185, 46);min-height: 32px;border-bottom: 2px solid rgb(104, 185, 46);border-top-color: rgb(104, 185, 46);border-right-color: rgb(104, 185, 46);border-left-color: rgb(104, 185, 46);text-align: justify;"><span class="autonum" placeholder="1" style="border-radius: 80% 100% 90% 20%;color: rgb(255, 255, 255);display: block;float: left;line-height: 20px;margin-right: 8px;max-width: 100%;padding: 4px 10px;background-color: rgb(104, 185, 46);" data-original-title="" title="" aria-describedby="tooltip828605">3</span><strong class="135brush" data-brushtype="text" style="letter-spacing: 2px;">单机部署</strong></p></section></section></section><h2 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h2><p style="margin-top: 15px;"><span style="font-size: 14px;">Apache Spot 项目 1.0 版本的成熟度还比较低，部署过程中需要人工安装、编译、配置若干基础组件，才能保证 Spot 组件的正常运行。又因为 Spot 当前的说明文档不够完善，对依赖的组件版本缺乏明确的说明，导致在部署过程中会浪费一些时间。</span></p><p style="margin-top: 15px;margin-bottom: 15px;"><span style="font-size: 14px;">部署安装的大致流程为：</span></p><section class="_135editor" data-tools="135编辑器" data-id="16" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#f5f5f4" data-custom="#f5f5f4"><section class="135brush layout" style="background-color: rgb(245, 245, 244);border-color: rgb(245, 245, 244);color: rgb(123, 123, 111);border-radius: 4px;font-size: 14px;text-align: justify;letter-spacing: 1.5px;line-height: 1.75em;padding: 1em 0.8em;box-sizing: border-box;"><p>1.&nbsp;Hadoop 大数据环境部署</p><p>2.&nbsp;Spot-setup 初始化配置</p><p>3.&nbsp;Spot-Ingest 组件配置数据采集</p><p>4.&nbsp;Spot-Ml 组件编译、部署</p><p>5.&nbsp;Spot-OA 组件构建、部署</p></section></section><p><br  /></p><h2 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h2><section class="_135editor" data-tools="135编辑器" data-id="33" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><section data-id="us1640979" class="_135editor" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><section class="_135editor" data-tools="135编辑器" data-id="33" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e" data-custom="#68b92e"><p style="margin-top: 8px;font-weight: bold;line-height: 28px;max-width: 100%;color: rgb(104, 185, 46);min-height: 32px;border-bottom: 2px solid rgb(104, 185, 46);border-top-color: rgb(104, 185, 46);border-right-color: rgb(104, 185, 46);border-left-color: rgb(104, 185, 46);text-align: justify;"><span class="autonum" placeholder="1" style="border-radius: 80% 100% 90% 20%;color: rgb(255, 255, 255);display: block;float: left;line-height: 20px;margin-right: 8px;max-width: 100%;padding: 4px 10px;background-color: rgb(104, 185, 46);">4</span><strong class="135brush" data-brushtype="text" style="letter-spacing: 2px;">集群部署</strong></p></section></section></section><h2 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h2><p style="margin-top: 15px;margin-bottom: 15px;"><span style="font-size: 14px;">Apache Spot 各组件推荐部署位置，结合 5.4 服务视图查看：</span></p><table cellspacing="0" width="568"><tbody><tr style="height:40px;" class="firstRow"><td width="233" valign="center" style="padding: 0px 7px;border-color: windowtext;"><p><span style="font-size: 14px;">Component</span></p></td><td width="335" valign="center" style="padding: 0px 7px;border-left: none;border-right-color: windowtext;border-top-color: windowtext;border-bottom-color: windowtext;"><p><span style="font-size: 14px;">Node</span></p></td></tr><tr style="height:40px;"><td width="233" valign="center" style="padding: 0px 7px;border-left-color: windowtext;border-right-color: windowtext;border-top: none;border-bottom-color: windowtext;"><p><span style="font-size: 14px;">spot-setup</span></p></td><td width="335" valign="center" style="padding: 0px 7px;border-left: none;border-right-color: windowtext;border-top: none;border-bottom-color: windowtext;"><p><span style="font-size: 14px;">Edge Server (Gateway)</span></p></td></tr><tr style="height:40px;"><td width="233" valign="center" style="padding: 0px 7px;border-left-color: windowtext;border-right-color: windowtext;border-top: none;border-bottom-color: windowtext;"><p><span style="font-size: 14px;">spot-ingest</span></p></td><td width="335" valign="center" style="padding: 0px 7px;border-left: none;border-right-color: windowtext;border-top: none;border-bottom-color: windowtext;"><p><span style="font-size: 14px;">Edge Server (Gateway)</span></p></td></tr><tr style="height:40px;"><td width="233" valign="center" style="padding: 0px 7px;border-left-color: windowtext;border-right-color: windowtext;border-top: none;border-bottom-color: windowtext;"><p><span style="font-size: 14px;">spot-ml</span></p></td><td width="335" valign="center" style="padding: 0px 7px;border-left: none;border-right-color: windowtext;border-top: none;border-bottom-color: windowtext;"><p><span style="font-size: 14px;">YARN Node Manager</span></p></td></tr><tr style="height:40px;"><td width="233" valign="center" style="padding: 0px 7px;border-left-color: windowtext;border-right-color: windowtext;border-top: none;border-bottom-color: windowtext;"><p><span style="font-size: 14px;">spot-oa</span></p></td><td width="335" valign="center" style="padding: 0px 7px;border-left: none;border-right-color: windowtext;border-top: none;border-bottom-color: windowtext;"><p><span style="font-size: 14px;">Node with Cloudera Manager</span></p></td></tr></tbody></table><p><br  /></p><h1 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h1><section class="_135editor" data-tools="135编辑器" data-id="32290" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e"><section style="clear: both;border-width: 0px;border-style: none;border-color: initial;margin-top: 5px;margin-bottom: 5px;box-sizing: border-box;"><section style="border-top: 2.5px solid #68b92e;border-right-color: #68b92e;border-bottom-color: #68b92e;border-left-color: #68b92e;font-size: 1em;font-weight: inherit;text-decoration: inherit;color: #fefefe;box-sizing: border-box;"><section style="border-width: 0px;border-style: initial;border-color: rgb(104, 185, 46);margin-top: 2px;overflow: hidden;color: inherit;box-sizing: border-box;"><section style="display: inline-block;font-size: 1em;font-family: inherit;font-weight: inherit;text-align: inherit;text-decoration: inherit;color: inherit;border-color: rgb(104, 185, 46);box-sizing: border-box;"><section class="135brush" data-bcless="darken" data-brushtype="text" style="display: inline-block;line-height: 1.4em;padding: 5px 10px;height: 32px;vertical-align: top;font-family: inherit;font-weight: bold;float: left;color: inherit;border-color: rgb(58, 103, 26);background: rgb(104, 185, 46);box-sizing: border-box !important;"><span style="font-size: 18px;">8. Apache Spot 数据采集</span></section><section style="display: inline-block;vertical-align: top;width: 0px;height: 0px;border-top: 32px solid rgb(104, 185, 46);border-right: 32px solid transparent;border-top-right-radius: 4px;border-bottom-left-radius: 2px;color: inherit;box-sizing: border-box !important;"></section></section></section></section></section></section><h1 style="font-weight: bold;line-height: 1.6em;"><span style="font-size: 14px;"></span></h1><p><br  /></p><section class="_135editor" data-tools="135编辑器" data-id="33" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><section data-id="us1640979" class="_135editor" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><section class="_135editor" data-tools="135编辑器" data-id="33" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e" data-custom="#68b92e"><p style="margin-top: 8px;font-weight: bold;font-size: 16px;line-height: 28px;max-width: 100%;color: rgb(104, 185, 46);min-height: 32px;border-bottom: 2px solid rgb(104, 185, 46);border-top-color: rgb(104, 185, 46);border-right-color: rgb(104, 185, 46);border-left-color: rgb(104, 185, 46);text-align: justify;"><span class="autonum" placeholder="1" style="border-radius: 80% 100% 90% 20%;color: rgb(255, 255, 255);display: block;float: left;line-height: 20px;margin-right: 8px;max-width: 100%;padding: 4px 10px;background-color: rgb(104, 185, 46);">1</span><strong class="135brush" data-brushtype="text" style="letter-spacing: 2px;">Proxy 数据采集</strong></p></section></section></section><p style="margin-top: 15px;margin-bottom: 25px;"><span style="font-size: 14px;caret-color: red;">将 Spot-Ingest 组件部署到 Proxy 服务器上，通过编辑数据采集组件配置文件（$SPOT_INGEST_HOME/ingest_conf.json）指定待采集 Proxy 服务器的日志路径来完成 Proxy 数据的采集。</span></p><section class="_135editor" data-tools="135编辑器" data-id="33" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><section data-id="us1640979" class="_135editor" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><section class="_135editor" data-tools="135编辑器" data-id="33" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e" data-custom="#68b92e"><p style="margin-top: 8px;font-weight: bold;line-height: 28px;max-width: 100%;color: rgb(104, 185, 46);min-height: 32px;border-bottom: 2px solid rgb(104, 185, 46);border-top-color: rgb(104, 185, 46);border-right-color: rgb(104, 185, 46);border-left-color: rgb(104, 185, 46);text-align: justify;"><span class="autonum" placeholder="1" style="border-radius: 80% 100% 90% 20%;color: rgb(255, 255, 255);display: block;float: left;line-height: 20px;margin-right: 8px;max-width: 100%;padding: 4px 10px;background-color: rgb(104, 185, 46);">2</span><strong class="135brush" data-brushtype="text" style="letter-spacing: 2px;">Flow 数据采集</strong></p></section></section></section><p style="margin-top: 15px;"><span style="font-size: 14px;"></span><span style="font-size: 14px;caret-color: red;">Spot-Ingest 依赖 spot-nfdump 解析流量数据包，可通过 nfdump 工具包中的 nfcapd 将接受 netflow 数据并保存到指定的文件。</span></p><p style="margin-top: 15px;"><strong><span style="font-size: 14px;">nfcapd 接收流量的方式示例：</span></strong></p><p style="margin-top: 15px;"><span style="font-size: 14px;">&gt; nfcapd -b 0.0.0.0 -p 515 -4 -t 60 -w -D -l /data/spot/flow</span></p><p style="margin-top: 15px;margin-bottom: 25px;"><span style="font-size: 14px;">注：绿盟 IPS 可产生 netflow 流量数据，在【系统】-&gt; 【系统配置】—&gt; 【NETFLOW配置】页面配置接收流量的地址即可。</span></p><section class="_135editor" data-tools="135编辑器" data-id="33" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><section data-id="us1640979" class="_135editor" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;"><section class="_135editor" data-tools="135编辑器" data-id="33" style="border-width: 0px;border-style: none;border-color: initial;box-sizing: border-box;" data-color="#68b92e" data-custom="#68b92e"><p style="margin-top: 8px;font-weight: bold;line-height: 28px;max-width: 100%;color: rgb(104, 185, 46);min-height: 32px;border-bottom: 2px solid rgb(104, 185, 46);border-top-color: rgb(104, 185, 46);border-right-color: rgb(104, 185, 46);border-left-color: rgb(104, 185, 46);text-align: justify;"><span class="autonum" placeholder="1" style="border-radius: 80% 100% 90% 20%;color: rgb(255, 255, 255);display: block;float: left;line-height: 20px;margin-right: 8px;max-width: 100%;padding: 4px 10px;background-color: rgb(104, 185, 46);">3</span><strong class="135brush" data-brushtype="text" style="letter-spacing: 2px;">DNS 数据采集</strong></p></section></section></section><p style="margin-top: 15px;"><span style="font-size: 14px;">Spot-Ingest 依赖 tshark 解析 DNS 数据包。</span></p><p style="margin-top: 15px;"><strong><span style="font-size: 14px;">使用 tshark 抓取 DNS 数据包保存为 pcap 文件示例：</span></strong></p><p style="margin-top: 15px;"><span style="font-size: 14px;">&gt; tshark -i em1 -b filesize:2 -w dns-dump.pcap udp port 53</span></p><p style="margin-top: 15px;margin-bottom: 15px;"><strong><span style="font-size: 14px;">使用 tcpdump 抓取 DNS 数据包保存为 pcap 文件示例：</span></strong></p><p><span style="font-size: 14px;">&gt; tcpdump -i eth1 -nt udp dst port 53 -s 0 -G 5 -w "dns-dump_%Y%m%d%H%M%S".pcap -Z root</span></p><p><br  /></p><p><span style="font-size: 14px;"><strong>参考链接：</strong></span></p><h1 style="font-weight: bold;line-height: 1.6em;"></h1><p style="margin-top: 15px;"><span style="font-size: 14px;">[1] Apache Spot Homepage （https://spot. apache.org/）</span></p><p style="margin-top: 15px;"><span style="font-size: 14px;">[2] Apache Spot Docker Homepage（https://hub. docker. com/r/apachespot/spot-demo/）</span></p><p style="margin-top: 15px;"><span style="font-size: 14px;">[3] Apache Spot Open Data Model 1（https://spot. incubator.apache.org/project-components/open-data-models/）</span></p><p style="margin-top: 15px;"><span style="font-size: 14px;">[4] Apache Spot Open Data model 2（https://github. com/apache/incubator-spot/blob/SPOT-181_ODM/docs/open-data-model.md）</span></p><p style="margin-top: 15px;"><span style="font-size: 14px;">[5] Splunk Common Information Model（http ://docs.splunk.com/ Documentation /CIM/ latest/ User/Overview）</span></p><section data-role="outer" label="Powered by 135editor.com" style="max-width: 100%;box-sizing: border-box !important;word-wrap: break-word !important;"><section data-role="outer" label="Powered by 135editor.com" style="max-width: 100%;box-sizing: border-box !important;word-wrap: break-word !important;"><p style="margin-top: 8px;margin-bottom: 8px;max-width: 100%;min-height: 1em;text-align: right;box-sizing: border-box !important;word-wrap: break-word !important;"><span style="max-width: 100%;font-size: 12px;box-sizing: border-box !important;word-wrap: break-word !important;"><br  /></span></p><p style="margin-top: 8px;margin-bottom: 8px;max-width: 100%;min-height: 1em;text-align: right;box-sizing: border-box !important;word-wrap: break-word !important;"><span style="max-width: 100%;font-size: 12px;box-sizing: border-box !important;word-wrap: break-word !important;">内容编辑：绿盟科技</span><span style="font-size: 12px;">&nbsp; 潘钧康&nbsp; &nbsp;&nbsp;</span><span style="font-size: 12px;">责任编辑：肖晴</span></p><p style="margin-top: 8px;margin-bottom: 8px;max-width: 100%;min-height: 1em;box-sizing: border-box !important;word-wrap: break-word !important;"><span style="max-width: 100%;font-size: 12px;box-sizing: border-box !important;word-wrap: break-word !important;overflow-wrap: break-word !important;"></span></p><p style="margin-top: 8px;margin-bottom: 8px;max-width: 100%;min-height: 1em;box-sizing: border-box !important;word-wrap: break-word !important;"><span style="max-width: 100%;font-size: 18px;box-sizing: border-box !important;word-wrap: break-word !important;"><strong style="max-width: 100%;box-sizing: border-box !important;word-wrap: break-word !important;"><span style="max-width: 100%;color: rgb(61, 167, 66);box-sizing: border-box !important;word-wrap: break-word !important;">往</span></strong></span><span style="max-width: 100%;box-sizing: border-box !important;word-wrap: break-word !important;"><strong style="max-width: 100%;box-sizing: border-box !important;word-wrap: break-word !important;">期回顾<span style="max-width: 100%;box-sizing: border-box !important;word-wrap: break-word !important;"></span></strong></span></p><ul class=" list-paddingleft-2" style=""><li><p style="max-width: 100%;min-height: 1em;line-height: 1.75em;box-sizing: border-box !important;word-wrap: break-word !important;"><a href="http://mp.weixin.qq.com/s?__biz=MzIyODYzNTU2OA==&amp;mid=2247484621&amp;idx=1&amp;sn=57b78ac22bb3ef38a8e03b400e9c5f56&amp;chksm=e84fa212df382b0482ef6f8794585ec1de79ac83561337d4faf568874b785865e04593c39a5f&amp;scene=21#wechat_redirect" target="_blank" style="text-decoration: underline;max-width: 100%;font-size: 14px;box-sizing: border-box !important;word-wrap: break-word !important;"><span style="max-width: 100%;font-size: 14px;box-sizing: border-box !important;word-wrap: break-word !important;">智能家居设备的另一种打开方式——如何控制局域网中的小米设备</span></a><br style="max-width: 100%;box-sizing: border-box !important;word-wrap: break-word !important;"  /></p></li><li><p style="max-width: 100%;min-height: 1em;box-sizing: border-box !important;word-wrap: break-word !important;"><a href="http://mp.weixin.qq.com/s?__biz=MzIyODYzNTU2OA==&amp;mid=2247484599&amp;idx=1&amp;sn=febbcc995ee519cd41945dab733b89ed&amp;chksm=e84fa268df382b7e2f78f4a3e4c30944bb709fe0a1d4a7d50c929dfe59d8be8de57ecc9cfc4f&amp;scene=21#wechat_redirect" target="_blank" style="text-decoration: underline;max-width: 100%;font-size: 14px;box-sizing: border-box !important;word-wrap: break-word !important;"><span style="max-width: 100%;font-size: 14px;box-sizing: border-box !important;word-wrap: break-word !important;">Drupal远程代码执行漏洞威胁态势分析</span></a><br style="max-width: 100%;box-sizing: border-box !important;word-wrap: break-word !important;"  /></p></li><li><p style="max-width: 100%;min-height: 1em;color: inherit;font-size: 12px;line-height: 1.75em;box-sizing: border-box !important;word-wrap: break-word !important;"><a href="http://mp.weixin.qq.com/s?__biz=MzIyODYzNTU2OA==&amp;mid=2247484574&amp;idx=1&amp;sn=0a7cab1120d57c78eac751e2f002374f&amp;chksm=e84fa241df382b5760555bf355e326c999715ab2c2e0051f9b67dfcfb43a9bced5202274e64c&amp;scene=21#wechat_redirect" target="_blank" style="text-decoration: underline;max-width: 100%;font-size: 14px;box-sizing: border-box !important;word-wrap: break-word !important;"><span style="max-width: 100%;font-size: 14px;box-sizing: border-box !important;word-wrap: break-word !important;">数据分析与业务安全</span></a><br style="max-width: 100%;box-sizing: border-box !important;word-wrap: break-word !important;"  /></p></li><li><p style="max-width: 100%;min-height: 1em;color: inherit;font-size: 12px;line-height: 1.75em;box-sizing: border-box !important;word-wrap: break-word !important;"><a href="http://mp.weixin.qq.com/s?__biz=MzIyODYzNTU2OA==&amp;mid=2247484009&amp;idx=1&amp;sn=9411779e0b73b5007712d0a0f4324d4c&amp;chksm=e84fa4b6df382da069a7092c4aecdc4dabccb13d77fc43c189450a250fc9c7daa85e2ba35276&amp;scene=21#wechat_redirect" target="_blank" style="max-width: 100%;font-size: 14px;box-sizing: border-box !important;word-wrap: break-word !important;text-decoration: underline;"><span style="max-width: 100%;font-size: 14px;box-sizing: border-box !important;word-wrap: break-word !important;">【招聘】绿盟科技创新中心实习生招聘公告（长期有效）</span></a><br style="max-width: 100%;box-sizing: border-box !important;word-wrap: break-word !important;"  /></p></li></ul><section data-color="rgb(245, 245, 244)" data-id="16" data-tools="135编辑器" data-custom="rgb(245, 245, 244)" style="max-width: 100%;box-sizing: border-box;word-wrap: break-word !important;"><section style="margin: 10px auto;padding: 15px;max-width: 100%;box-sizing: border-box;word-wrap: break-word !important;border-color: rgb(245, 245, 244);color: rgb(123, 123, 111);border-radius: 4px;background-color: rgb(245, 245, 244);"><p style="max-width: 100%;min-height: 1em;box-sizing: border-box !important;word-wrap: break-word !important;"><span style="max-width: 100%;font-size: 14px;box-sizing: border-box !important;word-wrap: break-word !important;">本公众号原创文章仅代表作者观点，不代表绿盟科技立场。所有原创内容版权均属绿盟科技研究通讯。未经授权，严禁任何媒体以及微信公众号复制、转载、摘编或以其他方式使用，转载须注明来自绿盟科技研究通讯并附上本文链接。</span></p></section></section><section style="margin: 5px;max-width: 100%;box-sizing: border-box;word-wrap: break-word !important;"><section style="margin-right: auto;margin-bottom: -2px;margin-left: auto;padding: 5px 5px 10px;max-width: 100%;box-sizing: border-box;color: rgb(111, 186, 44);text-align: center;border-color: rgb(111, 186, 44);border-bottom-width: 2px;border-bottom-style: solid;border-top-width: 2px;border-top-style: solid;word-wrap: break-word !important;overflow-wrap: break-word !important;"><p style="margin-top: 5px;margin-bottom: 5px;max-width: 100%;min-height: 1em;border-color: rgb(111, 186, 44);color: inherit;line-height: normal;box-sizing: border-box !important;word-wrap: break-word !important;overflow-wrap: break-word !important;"><strong style="max-width: 100%;box-sizing: border-box !important;word-wrap: break-word !important;overflow-wrap: break-word !important;"><span style="max-width: 100%;line-height: 28.8px;box-sizing: border-box !important;word-wrap: break-word !important;overflow-wrap: break-word !important;">关于我们</span></strong></p></section><section style="margin-right: auto;margin-left: auto;max-width: 100%;box-sizing: border-box;width: 0px;border-top: 0.6em solid rgb(111, 186, 44);border-bottom-color: rgb(111, 186, 44);height: 10px;color: inherit;word-wrap: break-word !important;overflow-wrap: break-word !important;border-left: 0.7em solid transparent !important;border-right: 0.7em solid transparent !important;"><br style="max-width: 100%;box-sizing: border-box !important;word-wrap: break-word !important;overflow-wrap: break-word !important;"  /></section></section><p style="max-width: 100%;min-height: 1em;box-sizing: border-box !important;word-wrap: break-word !important;"><span style="max-width: 100%;font-size: 12px;box-sizing: border-box !important;word-wrap: break-word !important;">绿盟科技研究通讯由绿盟科技创新中心负责运营，绿盟科技创新中心是绿盟科技的前沿技术研究部门。包括云安全实验室、安全大数据分析实验室和物联网安全实验室。团队成员由来自清华、北大、哈工大、中科院、北邮等多所重点院校的博士和硕士组成。</span><br style="max-width: 100%;box-sizing: border-box !important;word-wrap: break-word !important;"  /></p><p style="max-width: 100%;min-height: 1em;box-sizing: border-box !important;word-wrap: break-word !important;"><span style="max-width: 100%;font-size: 12px;box-sizing: border-box !important;word-wrap: break-word !important;overflow-wrap: break-word !important;">绿盟科技创新中心作为“中关村科技园区海淀园博士后工作站分站”的重要培养单位之一，与清华大学进行博士后联合培养，科研成果已涵盖各类国家课题项目、国家专利、国家标准、高水平学术论文、出版专业书籍等。</span></p><p style="margin-bottom: 10px;max-width: 100%;min-height: 1em;box-sizing: border-box !important;word-wrap: break-word !important;"><span style="max-width: 100%;font-size: 12px;box-sizing: border-box !important;word-wrap: break-word !important;overflow-wrap: break-word !important;">我们持续探索信息安全领域的前沿学术方向，从实践出发，结合公司资源和先进技术，实现概念级的原型系统，进而交付产品线孵化产品并创造巨大的经济价值。</span></p><p style="max-width: 100%;min-height: 1em;text-align: center;box-sizing: border-box !important;word-wrap: break-word !important;"><img class="" data-ratio="0.6" data-s="300,640" data-src="http://mmbiz.qpic.cn/mmbiz_jpg/hiayDdhDbxUbrbTJxY0Qv9BtgtXZsYVvaVUtlPicCUV6qDBGgZnrxicAMwvibG73JUu0w1UweTicfkuTRIyJyt77C5Q/640.jpeg?" data-type="jpeg" data-w="900" style="background-color: rgb(238, 237, 235);border-width: 1px;border-style: solid;border-color: rgb(238, 237, 235);background-size: 22px;background-position: center center;background-repeat: no-repeat;box-sizing: border-box !important;word-wrap: break-word !important;visibility: visible !important;width: 556px !important;" width="556"  /></p><p style="max-width: 100%;min-height: 1em;box-sizing: border-box !important;word-wrap: break-word !important;"><strong data-brushtype="text" style="max-width: 100%;color: rgb(104, 185, 46);box-sizing: border-box !important;word-wrap: break-word !important;overflow-wrap: break-word !important;">长按上方二维码，即可关注我们</strong></p></section></section></section>
+                </div>
+                <script nonce="196595741" type="text/javascript">
+                    var first_sceen__time = (+new Date());
+
+                    if ("" == 1 && document.getElementById('js_content')) {
+                        document.getElementById('js_content').addEventListener("selectstart",function(e){ e.preventDefault(); });
+                    }
+
+                    
+                    (function(){
+                        if (navigator.userAgent.indexOf("WindowsWechat") != -1){
+                            var link = document.createElement('link');
+                            var head = document.getElementsByTagName('head')[0];
+                            link.rel = 'stylesheet';
+                            link.type = 'text/css';
+                            link.href = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+                            head.appendChild(link);
+                        }
+                    })();
+                </script>
+
+                
+                <div class="ct_mpda_wrp" id="js_sponsor_ad_area" style="display:none;"></div>
+                
+                
+                <div class="read-more__area" id="js_more_read_area" style="display:none;">
+                    
+                </div>
+
+                
+                                <div class="reward_area tc reward_area_primary" id="js_preview_reward_author" style="display:none;">
+                    <div class="reward-avatar" style="display: none;" id="js_preview_reward_author_avatar">
+                        <img src="" alt="" id="js_preview_reward_author_head">
+                    </div>
+                    
+                                        <div class="reward-author" id="js_preview_reward_author_name">绿盟科技研究通讯</div>
+                                        <p class="reward_tips" id="js_preview_reward_author_wording" style="display:none;"></p>
+                    <p>
+                        <a class="reward_button" id='js_preview_reward_author_link' href="##"><span id="js_preview_reward_link_text">赞赏</span></a>
+                    </p>
+                </div>
+
+                <div class="reward_qrcode_area reward_area tc" id="js_preview_reward_qrcode" style="display:none;">
+                    <p class="tips_global">长按二维码向我转账</p>
+                    <p id="js_preview_reward_ios_wording" class="reward_tips" style="display:none;"></p>
+                    <span class="reward_qrcode_img_wrp"><img class="reward_qrcode_img" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_reward_qrcode.2x42f400.png"></span>
+                    <p class="tips_global">受苹果公司新规定影响，微信 iOS 版的赞赏功能被关闭，可通过二维码转账支持公众号。</p>
+                </div>
+                                
+                
+                            </div>
+                                    
+                        
+
+
+                        
+            <ul id="js_hotspot_area" class="article_extend_area"></ul>
+
+
+            
+
+            
+
+
+<div class="rich_media_tool" id="js_toobar3">
+
+        <a class="media_tool_meta meta_primary" id="js_view_source" href="##">阅读原文</a>
+        <div id="js_read_area3" class="media_tool_meta tips_global_primary meta_primary" style="display:none;">阅读 <span id="readNum3"></span></div>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_praise" id="like_old">
+        <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum_old"></span>
+    </span>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_like" id="like3">
+        <button class="like_btn" id="js_like_btn"> 
+          <span id="js_like_wording"> 好看</span><span class="like_num" id="likeNum3"></span>
+        </button>
+    </span>
+
+    <div id="js_like_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog weui-dialog_haokan">
+        <div class="weui-dialog__hd"><strong class="weui-dialog__title" id="educate_title">已推荐到看一看</strong></div>
+        <div class="weui-dialog__bd">
+          <img class="pic_haokan" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_haokan42f400.png">
+            你的朋友可以在“发现”-“看一看”看到你认为好看的文章。        </div>
+        <div class="weui-dialog__ft" id="educate_btn" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_default" id="js_cancel">取消</a>
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_confirm">推荐</a>
+        </div>
+        <div class="weui-dialog__ft" id="educate_btn2" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_acknowledge">我知道了</a>
+        </div>
+        </div>
+    </div>
+
+    <div id="js_unlike_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog">
+        
+        <div class="weui-dialog__bd">
+            已取消，“好看”想法已同步删除        </div>
+        <div class="weui-dialog__ft">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_unlike_know">知道了</a>
+        </div>
+        </div>
+    </div>
+
+    
+    </div>
+
+
+<div class="like_comment_wrp" id="js_a_like_comment" style="display: none;">
+  <div class="like_comment_inner">
+    <div class="like_comment_hd" style="display:none" id="js_like_title"></div>
+    <div class="like_comment_bd">
+      <div class="tips_global_primary like_comment_tips">
+        <i class="weui-icon-success"></i>已推荐到看一看<a href="javascript:;" class="like_comment_share_link" id="js_a_like_comment_share">和朋友分享想法</a>
+      </div>
+    </div>
+    <div class="like_comment_ft">
+      <span id="js_a_like_comment_msg" class="like_comment_msg" style="visibility:hidden">最多200字，当前共<span id="js_a_like_current_cnt"></span>字</span>
+      <button class="like_comment_btn" disabled="disabled" id="js_a_like_confirm">发送</button>
+    </div>
+  </div>
+</div>
+
+<div id="js_like_toast" style="display: none;">
+  <div class="weui-mask_transparent"></div>
+  <div class="weui-toast">
+    <i class="weui-icon-success-no-circle weui-icon_toast"></i>
+    <p class="weui-toast__content" id="js_toast_msg">已发送</p>
+  </div>
+</div>
+
+
+<div style="display: none;" id="js_b_comment_panel" class="like_comment_primary_pop">
+  <div class="like_comment_primary_wrp" id="js_b_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <h4 class="like_comment_primary_title">
+          朋友将在看一看看到        </h4>
+        <button id="js_b_like_confirm" class="like_comment_primary_btn">确定</button>
+      </div>
+      <div id='js_b_comment_text_first' class="like_comment_primary_bd">
+        <span class="tips_global_primary">
+          分享你的想法...        </span>
+      </div>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_1"></div>
+</div>
+
+<div style="display: none;" id="js_b_comment_final">
+  <div class="like_comment_primary_wrp editing" id="js_comment_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <button class="like_comment_primary_cancel" id="js_b_comment_cancel">取消</button>
+        <h4 class="like_comment_primary_title"> 分享想法到看一看 </h4>
+        <button class="like_comment_primary_btn" id="js_b_comment_confirm">确定</button>
+      </div>
+      <div class="like_comment_primary_bd">
+        <textarea class="like_comment_textarea weui-textarea" placeholder="分享你的想法..." id="js_b_comment_text_second"></textarea>
+      </div>
+      <span class="like_comment_msg" id="js_b_like_comment_msg" style="visibility: hidden;">最多200字，当前共<span id="js_b_like_current_cnt"></span>字</span>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_2"></div>
+</div>
+
+<div id="js_loading" style=" display: none;">
+    <div class="weui-mask_transparent"></div>
+    <div class="weui-toast">
+        <i class="weui-loading weui-icon_toast"></i>
+        <p class="weui-toast__content">发送中</p>
+    </div>
+</div>
+
+<div id="js_fail" style="display:none">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+    <div class="weui-dialog__bd">
+        网络异常，请稍后重试    </div>
+    <div class="weui-dialog__ft">
+      <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_fail_inform">知道了</a>
+    </div>
+    </div>
+</div>
+
+
+
+                      </div>
+        </div>
+
+        <div class="rich_media_area_primary sougou" id="sg_tj" style="display:none"></div>
+
+
+        
+        <div class="rich_media_area_extra">
+          <div class="rich_media_area_extra_inner">
+              
+              <div id="js_share_appmsg">
+              </div>
+
+              
+                            <div class="mpda_bottom_container" id="js_bottom_ad_area"></div>
+                            
+              <div id="js_iframetest" style="display:none;"></div>
+                            
+              <div class="rich_media_extra rich_media_extra_discuss" id="js_cmt_container" style="display:none">
+                
+
+                
+                <div class="discuss_mod" id="js_friend_cmt_area" style="display:none">
+                  
+                  
+                  
+                </div>
+
+                                <div class="discuss_mod" id="js_cmt_area" style="display:none">
+                </div>
+                              </div>
+          </div>
+        </div>
+
+        
+        <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">
+            <div class="qr_code_pc_inner">
+                <div class="qr_code_pc">
+                    <img id="js_pc_qr_code_img" class="qr_code_pc_img">
+                    <p>微信扫一扫<br>关注该公众号</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="js_pc_weapp_code" class="weui-desktop-popover weui-desktop-popover_pos-up-center weui-desktop-popover_img-text" style="display: none;">
+    <div class="weui-desktop-popover__content">
+        <div class="weui-desktop-popover__desc">
+            <img id="js_pc_weapp_code_img">
+            微信扫一扫<br>使用小程序<span id="js_pc_weapp_code_des"></span>        </div>
+    </div>
+</div>
+<div id="js_minipro_dialog" style="display:none;">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+        <div class="weui-dialog__bd">即将打开"<span id="js_minipro_dialog_name"></span>"小程序</div>
+        <div class="weui-dialog__ft">
+            <a id="js_minipro_dialog_cancel" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_default">取消</a>
+            <a id="js_minipro_dialog_ok" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_primary">打开</a>
+        </div>
+    </div>
+</div>
+
+        
+        <script nonce="196595741">
+    var __DEBUGINFO = {
+        debug_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/debug/console42f400.js",
+        safe_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/moonsafe42f400.js",
+        res_list: []
+    };
+</script>
+
+<script nonce="196595741" type="text/javascript">
+(function() {
+	var totalCount = 0,
+			finishCount = 0;
+
+	function _loadVConsolePlugin() {
+		window.vConsole = new window.VConsole();
+		while (window.vConsolePlugins.length > 0) {
+			var p = window.vConsolePlugins.shift();
+			window.vConsole.addPlugin(p);
+		}
+	}
+	
+	function _addVConsole(uri, cb) {
+		totalCount++;
+		var node = document.createElement('SCRIPT');
+		node.type = 'text/javascript';
+		node.src = uri;
+		node.setAttribute('nonce', '196595741');
+		if (cb) {
+			node.onload = cb;
+		}
+		document.getElementsByTagName('head')[0].appendChild(node);
+	}
+	if (
+		(document.cookie && document.cookie.indexOf('vconsole_open=1') > -1)
+		|| location.href.indexOf('vconsole=1') > -1
+	) {
+		window.vConsolePlugins = [];
+		_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/3.2.2/vconsole.min43429b.js', function() {
+			
+			_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/plugin/vconsole-mpopt/1.0.1/vconsole-mpopt42f400.js', _loadVConsolePlugin);
+		});
+	}
+})();
+</script>
+        
+<script nonce="196595741" type="text/javascript">
+if (location.href.match(/fontScale=\d+/) && /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+
+    var m=location.href.match(/fontScale=(\d*)/);
+    var map={
+        "94":1,
+        "100":2,
+        "109":3,
+        "119":4,
+        "131":5,
+    }
+    if(m&&m[1]&&map[m[1]]){
+        document.getElementsByTagName("body")[0].className+=" appmsg_skin_fontscale_"+map[m[1]];
+        console.log("appmsg_skin_fontscale_:"+map[m[1]]);
+    }
+}
+
+
+(function(){
+    if (window.__second_open__) return; 
+
+    
+
+    var first_js_time = +new Date();
+
+    var showDate="";
+    var svrDate=new Date("1549780413"*1000);
+    var createDate=new Date("1528436700"*1000);
+    var ct="1528436700"*1;
+    var publish_time = "2018-06-08" || "";
+    var cD={
+      year:createDate.getYear(),
+      month:createDate.getMonth()+1,
+      date:createDate.getDate()
+    };
+    
+    svrDate.setHours(0);
+    svrDate.setMinutes(0);
+    svrDate.setSeconds(0);
+    var todayDate=svrDate.getTime()/1000;
+    svrDate.setDate(1);
+    svrDate.setMonth(0);
+    var yearDate=svrDate.getTime()/1000;
+    
+    if(ct>=todayDate){
+      showDate="今天";
+    
+    }else if(ct>=todayDate-60*60*24){
+       showDate="昨天";
+    
+    }else if(ct>=todayDate-2*60*60*24){
+      showDate="前天";
+    }else if(ct>=todayDate-3*60*60*24){
+      showDate="3天前";
+    }else if(ct>=todayDate-4*60*60*24){
+      showDate="4天前";
+    }else if(ct>=todayDate-5*60*60*24){
+      showDate="5天前";
+    }else if(ct>=todayDate-6*60*60*24){
+      showDate="6天前";
+    }else if(ct>=todayDate-2*7*60*60*24){
+      showDate="1周前";
+    }else if(ct>=yearDate){
+      
+      
+      
+      showDate="%s月%s日".replace("%s",cD.month).replace("%s",cD.date);
+    }else{
+      showDate=publish_time;
+    };
+    if(document.getElementById("publish_time")){
+      document.getElementById("publish_time").innerText=showDate;
+    }
+})();
+</script>
+<script nonce="196595741" type="text/javascript">
+
+if (!window.console) window.console = { log: function() {} };
+
+if (typeof getComputedStyle == 'undefined') {
+    if (document.body.currentStyle) {
+        window.getComputedStyle = function(el) {
+            return el.currentStyle;
+        }
+    } else {
+        window.getComputedStyle = {};
+    }
+}
+(function(){
+    window.__zoom = 1;
+    
+    (function(){
+        var validArr = ","+([0.875, 1, 1.125, 1.25, 1.375]).join(",")+",";
+        var match = window.location.href.match(/winzoom=(\d+(?:\.\d+)?)/);
+        if (match && match[1]) {
+            var winzoom = parseFloat(match[1]);
+            if (validArr.indexOf(","+winzoom+",")>=0) {
+                window.__zoom = winzoom;
+            }
+        }
+    })();
+
+    var ua = navigator.userAgent.toLowerCase();
+    var re = new RegExp("msie ([0-9]+[\.0-9]*)");
+    var version;
+    if (re.exec(ua) != null) {
+        version = parseInt(RegExp.$1);
+    }
+    var isIE = false;
+    if (typeof version != 'undefined' && version >= 6 && version <= 9) {
+        isIE = true;
+    }
+    var getMaxWith=function(){
+        var container = document.getElementById('img-content');
+        var max_width = container.offsetWidth;
+        var container_padding = 0;
+        var container_style = getComputedStyle(container);
+        container_padding = parseFloat(container_style.paddingLeft) + parseFloat(container_style.paddingRight);
+        max_width -= container_padding;
+        if (!max_width) {
+            max_width = window.innerWidth - 30;      
+        }
+        return max_width;
+    };
+    var getParentWidth = function(dom){
+        var parent_width = 0;
+        var parent = dom.parentNode;
+        var outerWidth = 0;
+        while (true) {
+            if(!parent||parent.nodeType!=1) break;
+            var parent_style = getComputedStyle(parent);
+            if (!parent_style) break;
+            parent_width = parent.clientWidth - parseFloat(parent_style.paddingLeft) - parseFloat(parent_style.paddingRight) - outerWidth;
+            if (parent_width > 0) break;
+            outerWidth += parseFloat(parent_style.paddingLeft) + parseFloat(parent_style.paddingRight) + parseFloat(parent_style.marginLeft) + parseFloat(parent_style.marginRight) + parseFloat(parent_style.borderLeftWidth) + parseFloat(parent_style.borderRightWidth);
+            parent = parent.parentNode;
+        }
+        return parent_width;
+    }
+    var getOuterW=function(dom){
+        var style=getComputedStyle(dom),
+            w=0;
+        if(!!style){
+            w = parseFloat(style.paddingLeft) + parseFloat(style.paddingRight) + parseFloat(style.borderLeftWidth) + parseFloat(style.borderRightWidth);
+        }
+        return w;
+    };
+    var getOuterH =function(dom){
+        var style=getComputedStyle(dom),
+            h=0;
+        if(!!style){
+            h = parseFloat(style.paddingTop) + parseFloat(style.paddingBottom) + parseFloat(style.borderTopWidth) + parseFloat(style.borderBottomWidth);
+        }
+        return h;
+    };
+    var insertAfter = function(dom,afterDom){
+        var _p = afterDom.parentNode;
+        if(!_p){
+            return;
+        }
+        if(_p.lastChild === afterDom){
+            _p.appendChild(dom);
+        }else{
+            _p.insertBefore(dom,afterDom.nextSibling);
+        }
+    };
+    var getQuery = function(name,url){
+        
+        var u  = arguments[1] || window.location.search,
+            reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)"),
+            r = u.substr(u.indexOf("\?")+1).match(reg);
+        return r!=null?r[2]:"";
+    };
+
+    
+    function setImgSize(item, widthNum, widthUnit, ratio, breakParentWidth) {
+        setTimeout(function () {
+            var img_padding_border = getOuterW(item) || 0;
+            var img_padding_border_top_bottom = getOuterH(item) || 0;
+            
+            if (widthNum > getParentWidth(item) && !breakParentWidth) {
+                widthNum = getParentWidth(item);
+            }
+
+            height = (widthNum - img_padding_border) * ratio + img_padding_border_top_bottom;
+
+            if (isIE) {
+                var url = item.getAttribute('data-src');
+                item.src = url;
+            } else {
+                if(parseFloat(widthNum, 10) > 40 && height > 40 && breakParentWidth) {
+                    item.className += ' img_loading';
+                }
+                item.src = "data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            }
+            item.style.cssText += ";width: " + widthNum + widthUnit + " !important;";
+            item.style.cssText += ";height: " + height + widthUnit + " !important;";
+        }, 10);
+    }
+
+    (function(){
+        var images = document.getElementsByTagName('img');
+        var length = images.length;
+        var max_width = getMaxWith();
+        for (var i = 0; i < length; ++i) {
+            if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var imageItem = images[i];
+            var src_ = imageItem.getAttribute('data-src');
+            var realSrc = imageItem.getAttribute('src');
+            if (!src_ || realSrc) continue;
+            
+            var originWidth = imageItem.getAttribute('data-w');
+            var ratio_ = 1 * imageItem.getAttribute('data-ratio');
+
+            var height = 100;
+            if (ratio_ && ratio_ > 0) {
+                var parent_width = getParentWidth(imageItem) || max_width;
+                var initWidth = imageItem.style.width || imageItem.getAttribute('width') || originWidth || parent_width;
+                initWidth = parseFloat(initWidth, 10) > max_width ? max_width : initWidth;
+                
+                if (initWidth) {
+                    imageItem.setAttribute('_width', !isNaN(initWidth * 1) ? initWidth + 'px' : initWidth);
+                }
+                
+                if (typeof initWidth === 'string' && initWidth.indexOf('%') !== -1) {
+                    initWidth = parseFloat(initWidth.replace('%', ''), 10) / 100 * parent_width;
+                }
+                
+                if (initWidth === 'auto') {
+                    initWidth = originWidth;
+                }
+
+                var res = /^(\d+(?:\.\d+)?)([a-zA-Z%]+)?$/.exec(initWidth);
+                var widthNum = res && res.length >= 2 ? res[1] : 0;
+                var widthUnit = res && res.length >= 3 && res[2] ? res[2] : 'px';
+
+                
+                setImgSize(imageItem, widthNum, widthUnit, ratio_, true);
+                
+                (function (item, widthNumber, unit, ratio) {
+                    setTimeout(function () {
+                        setImgSize(item, widthNumber, unit, ratio, false);
+                    });
+                })(imageItem, widthNum, widthUnit, ratio_);
+            } else {
+                imageItem.style.cssText += ";visibility: hidden !important;";
+            }
+
+        }
+    })();
+    window.__videoDefaultRatio=16/9;
+    window.__getVideoWh = function(dom){
+        var max_width = getMaxWith(),
+            width = max_width,
+            ratio_ = dom.getAttribute('data-ratio')*1,
+            arr = [4/3, 16/9],
+            ret = arr[0],
+            abs = Math.abs(ret - ratio_);
+        if (!ratio_) { 
+            if (dom.getAttribute("data-mpvid")) { 
+                ratio_ = 16/9;
+            } else { 
+                ratio_ = 4/3;
+            }
+        } else { 
+            for (var j = 1, jl = arr.length; j < jl; j++) {
+                var _abs = Math.abs(arr[j] - ratio_);
+                if (_abs < abs) {
+                    abs = _abs;
+                    ret = arr[j];
+                }
+            }
+            ratio_ = ret;
+        }
+        
+        var parent_width = getParentWidth(dom)||max_width,
+            width = width > parent_width ? parent_width : width,
+            outerW = getOuterW(dom)||0,
+            outerH = getOuterH(dom)||0,
+            videoW = width - outerW,
+            videoH = videoW/ratio_,
+            height = videoH + outerH;
+        return {w:Math.ceil(width),h:Math.ceil(height),vh:videoH,vw:videoW,ratio:ratio_};
+    };
+
+
+    (function(){
+        var iframe = document.getElementsByTagName('iframe');
+        for (var i=0,il=iframe.length;i<il;i++) {
+            if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var a = iframe[i];
+            var src_ = a.getAttribute('src')||a.getAttribute('data-src')||"";
+            if(!/^http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)
+                && !/^http(s)*\:\/\/mp\.weixin\.qq\.com\/mp\/readtemplate\?t=pages\/video_player_tmpl/.test(src_)
+            ){
+                continue;
+            }
+            var vid = getQuery("vid",src_);
+            if(!vid){
+                continue;
+            }
+            vid=vid.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,"");
+            a.removeAttribute('src');
+            a.style.display = "none";
+            var obj = window.__getVideoWh(a),
+                videoPlaceHolderSpan = document.createElement('span'),
+                videoPlayerIconSpan = document.createElement('span'),
+                mydiv = document.createElement('img');
+
+            videoPlaceHolderSpan.className = "js_img_loading db";
+            videoPlaceHolderSpan.setAttribute("data-vid", vid);
+            
+
+            videoPlayerIconSpan.className = 'wx_video_context db'; 
+            videoPlayerIconSpan.style.display = 'none';
+            videoPlayerIconSpan.innerHTML = '<span class="wx_video_thumb_primary"></span><button class="wx_video_play_btn">播放</button><span class="wx_video_mask"></span>'; 
+
+            mydiv.className = "img_loading";
+
+            mydiv.src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            
+            
+            videoPlaceHolderSpan.style.cssText = "width: " + obj.w + "px !important;";
+            mydiv.style.cssText += ";width: " + obj.w + "px";
+            videoPlaceHolderSpan.appendChild(videoPlayerIconSpan);
+            videoPlaceHolderSpan.appendChild(mydiv);
+            insertAfter(videoPlaceHolderSpan, a); 
+            
+            a.style.cssText += ";width: " + obj.w + "px !important;";
+            a.setAttribute("width",obj.w);
+            if(window.__zoom!=1){
+                a.style.display = "block";
+                videoPlaceHolderSpan.style.display = "none";
+                a.setAttribute("_ratio",obj.ratio);
+                a.setAttribute("_vid",vid);
+            }else{
+                videoPlaceHolderSpan.style.cssText += "height: " + obj.h + "px !important;";
+                mydiv.style.cssText += "height: " + obj.h + "px !important;";
+                a.style.cssText += "height: " + obj.h + "px !important;";
+                a.setAttribute("height",obj.h);
+            }
+            a.setAttribute("data-vh",obj.vh);
+            a.setAttribute("data-vw",obj.vw);
+            if(a.getAttribute("data-mpvid")){
+                a.setAttribute("data-src",location.protocol+"//mp.weixin.qq.com/mp/readtemplate?t=pages/video_player_tmpl&auto=0&vid="+vid);
+            }else{
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+obj.vw+"&height="+obj.vh+"&auto=0");   
+            }            
+        }
+    })();
+    
+    (function(){
+        if(window.__zoom!=1){
+            if (!window.__second_open__) {
+                document.getElementById('page-content').style.zoom = window.__zoom;
+                var a = document.getElementById('activity-name');
+                var b = document.getElementById('meta_content');
+                if(!!a){
+                    a.style.zoom = 1/window.__zoom;
+                }
+                if(!!b){
+                    b.style.zoom = 1/window.__zoom;
+                }
+            }
+            var images = document.getElementsByTagName('img');
+            for (var i = 0,il=images.length;i<il;i++) {
+                if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                images[i].style.zoom = 1/window.__zoom;
+            }
+            var iframe = document.getElementsByTagName('iframe');
+            for (var i = 0,il=iframe.length;i<il;i++) {
+                if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                var a = iframe[i];
+                a.style.zoom = 1/window.__zoom;
+                var src_ = a.getAttribute('data-src')||"";
+                if(!/http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)){
+                    continue;
+                }
+                var ratio = a.getAttribute("_ratio");
+                var vid = a.getAttribute("_vid");
+                a.removeAttribute("_ratio");
+                a.removeAttribute("_vid");
+                var vw = a.offsetWidth - (getOuterW(a)||0);
+                var vh = vw/ratio;
+                var h = vh + (getOuterH(a)||0)
+                a.style.cssText += "height: " + h + "px !important;"
+                a.setAttribute("height",h);
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+vw+"&height="+vh+"&auto=0");
+                a.style.display = "none";
+                var parent = a.parentNode;
+                if(!parent){
+                    continue;
+                }
+                for(var j=0,jl=parent.children.length;j<jl;j++){
+                    var child = parent.children[j];
+                    if(child.className.indexOf("img_loading")>=0 && child.getAttribute("data-vid")==vid){
+                        child.style.cssText += "height: " + h + "px !important;";
+                        child.style.display = "";
+                    }
+                }
+            }
+        }
+    })();
+})();
+</script>
+<script nonce="196595741" type="text/javascript">
+    var new_appmsg = 1;
+    var item_show_type = "0";
+    var can_see_complaint = "0";
+    var not_in_mm_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm435ee6.css";
+    var windowwx_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+    var article_improve_combo_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo438c19.css";
+    var tid = "";
+    var aid = "";
+    var clientversion = "";
+    var appuin = ""||"MzIyODYzNTU2OA==";
+
+    var source = "";
+    var ascene = "";
+    var subscene = "";
+    var sessionid = ""||"";
+    var abtest_cookie = "";
+
+    var scene = 75;
+
+    var itemidx = "";
+    var appmsg_token   = "";
+    var _copyright_stat = "1";
+    var _ori_article_type = "科技互联网";
+
+    var is_follow = "";
+    var nickname = "绿盟科技研究通讯";
+    var appmsg_type = "9";
+    var ct = "1528436700";
+    var publish_time = "2018-06-08" || "";
+    var user_name = "gh_c697f316f2c4";
+    var user_name_new = "";
+    var fakeid   = "";
+    var version   = "";
+    var is_limit_user   = "0";
+    var round_head_img = "http://mmbiz.qpic.cn/mmbiz_png/hiayDdhDbxUbENAcdt5hdKa5aVKic2v3lstT6icZFv2bwe6xLxcw16zicLVcB6MHDLAic6rhmt351icUjJiaXYf5mkqSQ/0?wx_fmt=png";
+    var hd_head_img = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM49tZoOk1JzS9wxF4VhRrr7tMp0icURMC5ibC22sa3PhWibw/0"||"";
+    var ori_head_img_url = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM49tZoOk1JzS9wxF4VhRrr7tMp0icURMC5ibC22sa3PhWibw/132";
+    var msg_title = "开源流量分析系统 Apache Spot 概述";
+    var msg_desc = "Apache Spot 是一个基于网络流量和数据包分析，通过独特的机器学习方法，发现潜在安全威胁和未知网络攻击能力的开源方案。";
+    var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz_jpg/hiayDdhDbxUYiaficrR9XdfZPZyAgyxDh7mH10ZLbuia5fFS5VGbhI9VIuYHKyoxfngARQ4mQgfFJvBqhK2sRaX85w/0?wx_fmt=jpeg"; 
+    var cdn_url_1_1  = ""; 
+    var cdn_url_235_1 = ""; 
+    
+    var msg_link = "http://mp.weixin.qq.com/s?__biz=MzIyODYzNTU2OA==&amp;mid=2247484643&amp;idx=1&amp;sn=fed9091fa323011e1d8ace248043410f&amp;chksm=e84fa23cdf382b2af15deb485e4a159e77a0a5683972b16cc08b634c2b557e087b2dc3ab7f51#rd"; 
+    var user_uin = "0"*1;
+    var msg_source_url = 'http://blog.nsfocus.net/apache-spot/';
+    var img_format = 'jpeg';
+    var srcid = '';
+    var req_id = '1014wIFlwnCvYjqoZHkTMzMy';
+    var networkType;
+    var appmsgid = '' || ''|| "2247484643";
+    var comment_id = "316149727525732352" || "316149727525732352" * 1;
+    var comment_enabled = "" * 1;
+    var is_need_reward = "0" * 1;
+    var is_https_res = ("" * 1) && (location.protocol == "https:");
+    var msg_daily_idx = "1" || "";
+    var profileReportInfo = "" || "";
+
+    var devicetype = "";
+    var source_encode_biz = "";
+    var source_username = "";
+    
+    var reprint_ticket = "";
+    var source_mid = "";
+    var source_idx = "";
+    var source_biz = "";
+    var author_id = "";
+
+    
+    var optimizing_flag = "0" * 1;
+    var ad_abtest_padding = "0" * 1;
+
+    var show_comment = "";
+    var __appmsgCgiData = {
+        wxa_product : ""*1,
+        wxa_cps : ""*1,
+        show_msg_voice: "0"*1,
+        can_use_page : "0"*1,
+        is_wxg_stuff_uin : "0"*1,
+        card_pos : "",
+        copyright_stat : "1",
+        source_biz : "",
+        hd_head_img : "http://wx.qlogo.cn/mmhead/Q3auHgzwzM49tZoOk1JzS9wxF4VhRrr7tMp0icURMC5ibC22sa3PhWibw/0"||(window.location.protocol+"//"+window.location.host + "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_rumor_link.2x42f400.jpg")
+    };
+    var _empty_v = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/pages/voice/empty42f400.mp3";
+
+    var copyright_stat = "1" * 1;
+
+    var pay_fee = "" * 1;
+    var pay_timestamp = "";
+    var need_pay = "" * 1;
+
+    var need_report_cost = "0" * 1;
+    var use_tx_video_player = "0" * 1;
+    var appmsg_fe_filter = "contenteditable";
+
+    var friend_read_source = "" || "";
+    var friend_read_version = "" || "";
+    var friend_read_class_id = "" || "";
+
+    var is_only_read = "1" * 1;
+    var read_num = "" * 1;
+    var like_num = "" * 1;
+    var liked = "" == 'true' ? true : false;
+    var is_temp_url = "" ? 1 : 0;
+    var send_time = "";
+    var icon_emotion_switch = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch.2x42f400.png";
+    var icon_emotion_switch_active = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch_active.2x42f400.png";
+    var icon_loading_white = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif";
+    var icon_audio_unread = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/audio/icon_audio_unread42f400.png";
+    var icon_qqmusic_default = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_default.2x42f400.png";
+    var icon_qqmusic_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_source42f400.png";
+    var icon_kugou_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/kugou/icon_kugou_source42f400.png";
+
+    var topic_default_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/topic/pic_book_thumb.2x42f400.png';
+    var comment_edit_icon = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg_new/icon_edit42f400.png';
+    var comment_loading_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif';
+
+    var voice_in_appmsg = {
+        "1":"1"
+            };
+
+    var reprint_style = ''*1;
+    var wxa_img_alert = "" != 'false';
+
+    
+    var more_read_type = '0'*1;
+
+    
+    
+    
+    
+
+    
+    var weapp_sn_arr_json = "" || "";
+
+    
+    var ban_scene = "0" * 1;
+
+    var svr_time = "1549780413" * 1;
+    
+    var is_transfer_msg = ""*1||0;
+
+    var malicious_title_reason_id = "0" * 1; 
+    var malicious_content_type = "0" * 1; 
+
+    
+    var modify_time = "";
+
+    
+    var isprofileblock = "0";
+
+    
+    var hotspotInfoList = [
+                    ];
+
+        window.wxtoken = "777";
+        
+    
+    
+    
+    
+    window.is_login = '0' * 1; 
+
+    window.__moon_initcallback = function(){
+        if(!!window.__initCatch){
+            window.__initCatch({
+                idkey : 27611+2,
+                startKey : 0,
+                limit : 128,
+                badjsId: 43,
+                reportOpt : {
+                    uin : uin,
+                    biz : biz,
+                    mid : mid,
+                    idx : idx,
+                    sn  : sn
+                },
+                extInfo : {
+                    network_rate : 0.01,    
+                    badjs_rate: 0.1 
+                }
+            });
+        }
+    }
+        
+    var title ="绿盟科技研究通讯";
+
+    var is_new_msg=true;
+    
+    
+
+    var is_wash = '' * 1;
+</script>
+
+<script nonce="196595741" type="text/javascript">
+(function(_g){
+    _g.appmsg_like_type = "1" * 1 ? "1" * 1 : 1;
+    
+    _g.clientversion = "";
+    _g.passparam = ""; 
+    if(!_g.msg_link) {
+      _g.msg_link = "http://mp.weixin.qq.com/s?__biz=MzIyODYzNTU2OA==&amp;mid=2247484643&amp;idx=1&amp;sn=fed9091fa323011e1d8ace248043410f&amp;chksm=e84fa23cdf382b2af15deb485e4a159e77a0a5683972b16cc08b634c2b557e087b2dc3ab7f51#rd";
+    }
+    _g.appmsg_type = "9"; 
+    _g.devicetype = ""; 
+})(window);
+
+</script>
+
+
+        <script nonce="196595741">window.__moon_host = 'res.wx.qq.com';window.__moon_mainjs = 'appmsg/index.js';window.moon_map = {"a/appdialog_confirm.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm.html42f400.js","widget/wx_profile_dialog_primary.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/widget/wx_profile_dialog_primary.css42f400.js","pages/iframe_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/iframe_communicate42f400.js","new_video/player.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player.html433882.js","biz_wap/zepto/touch.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/touch42f400.js","biz_wap/zepto/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/event42f400.js","biz_wap/zepto/zepto.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/zepto42f400.js","page/pages/video.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/pages/video.css435ee6.js","a/tpl/smallbanner_msg_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_msg_tpl.html42f400.js","a/tpl/smallbanner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_info_tpl.html42f400.js","a/tpl/banner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_info_tpl.html42f400.js","a/tpl/promote_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/promote_tpl.html42f400.js","a/tpl/smallcard_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallcard_tpl.html42f400.js","a/tpl/info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/info_tpl.html42f400.js","a/tpl/cardticket_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cardticket_tpl.html42f400.js","a/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_tpl.html42f400.js","a/tpl/sponsor_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/sponsor_tpl.html42f400.js","a/tpl/new_cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/new_cpc_tpl.html42f400.js","appmsg/emotion/caret.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/caret42f400.js","biz_wap/utils/localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/localstorage42f400.js","appmsg/friend_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/friend_comment_tpl.html42f400.js","appmsg/comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_tpl.html42f400.js","biz_wap/utils/fakehash.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/fakehash42f400.js","appmsg/comment_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_report42f400.js","a/appdialog_confirm.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm42f400.js","new_video/player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player4306fd.js","a/tpl/mpda_bottom_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/mpda_bottom_tpl.html42f400.js","a/tpl/crt_size_map.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_size_map42f400.js","biz_wap/jsapi/cardticket.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/cardticket42f400.js","biz_common/jquery.md5.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/jquery.md542f400.js","biz_common/utils/emoji_panel_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_panel_data42f400.js","biz_common/utils/emoji_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_data42f400.js","appmsg/emotion/textarea.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/textarea42f400.js","appmsg/emotion/nav.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/nav42f400.js","appmsg/emotion/common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/common42f400.js","appmsg/emotion/slide.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/slide42f400.js","appmsg/emotion/dom.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/dom42f400.js","pages/music_report_conf.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_report_conf42f400.js","pages/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/report4306fd.js","pages/player_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/player_adaptor42f400.js","pages/music_player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_player42f400.js","appmsg/more_read_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read_tpl.html42f400.js","appmsg/retry_ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/retry_ajax42f400.js","complain/tips.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/complain/tips42f400.js","pages/loadscript.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/loadscript42f400.js","biz_wap/utils/ajax_load_js.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_load_js42f400.js","appmsg/comment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment4317dc.js","a/ios.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios42f400.js","a/android.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android42f400.js","a/profile.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile42f400.js","a/app_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/app_card430506.js","a/sponsor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor42f400.js","a/tpl/cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cpc_tpl.html42f400.js","a/video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/video42f400.js","a/a_config.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_config42f400.js","a/tpl/crt_tpl_manager.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_tpl_manager42f400.js","a/cpc_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/cpc_a_tpl.html42f400.js","a/sponsor_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor_a_tpl.html42f400.js","a/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_tpl.html42f400.js","a/mpshop.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpshop42f400.js","a/wxopen_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/wxopen_card42f400.js","a/card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/card42f400.js","biz_wap/utils/position.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/position42f400.js","a/a_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_report42f400.js","biz_wap/utils/show_time.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/show_time42f400.js","biz_common/utils/get_para_list.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/get_para_list42f400.js","biz_wap/utils/openUrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/openUrl42f400.js","a/a_sign.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_sign438181.js","appmsg/my_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/my_comment_tpl.html42f400.js","appmsg/cmt_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cmt_tpl.html42f400.js","sougou/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/a_tpl.html42f400.js","appmsg/emotion/emotion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/emotion42f400.js","biz_common/base64.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/base6442f400.js","biz_common/utils/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report42f400.js","appmsg/articleReport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/articleReport42f400.js","biz_wap/utils/hand_up_state.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/hand_up_state42f400.js","biz_common/utils/http.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/http42f400.js","biz_common/utils/cookie.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie42f400.js","appmsg/topic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/topic_tpl.html42f400.js","pages/weapp_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/weapp_tpl.html42f400.js","biz_common/utils/monitor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/monitor42f400.js","pages/voice_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_tpl.html42f400.js","pages/kugoumusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/kugoumusic_ctrl42f400.js","pages/qqmusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_ctrl42f400.js","pages/voice_component.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_component42f400.js","pages/qqmusic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_tpl.html42f400.js","new_video/ctl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/ctl4306fd.js","appmsg/open_url_with_webview.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/open_url_with_webview4380a9.js","appmsg/more_read.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read42f400.js","appmsg/reward_entry.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/reward_entry42f400.js","appmsg/like.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like43875f.js","pages/version4video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/version4video42f400.js","biz_wap/utils/storage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/storage42f400.js","appmsg/share_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share_tpl.html42f400.js","appmsg/appmsgext.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsgext430b95.js","appmsg/img_copyright_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/img_copyright_tpl.html42f400.js","pages/video_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_ctrl42f400.js","pages/create_txv.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/create_txv42f400.js","appmsg/comment_utils.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_utils42f400.js","biz_common/ui/imgonepx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx42f400.js","appmsg/malicious_wording.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/malicious_wording42f400.js","biz_common/utils/wxgspeedsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/wxgspeedsdk42f400.js","a/a.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a4382e5.js","rt/appmsg/getappmsgext.rt.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/rt/appmsg/getappmsgext.rt42f400.js","pages/video_communicate_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_communicate_adaptor433882.js","biz_wap/utils/ajax_wx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_wx42f400.js","biz_common/utils/respTypes.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/respTypes42f400.js","biz_wap/utils/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/log42f400.js","sougou/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/index42f400.js","biz_wap/safe/mutation_observer_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/mutation_observer_report42f400.js","appmsg/fereport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport438bee.js","appmsg/fereport_without_localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport_without_localstorage438bee.js","appmsg/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report42f400.js","appmsg/report_and_source.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source4380a9.js","appmsg/page_pos.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos431b87.js","appmsg/cdn_speed_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report42f400.js","appmsg/wxtopic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/wxtopic42f400.js","appmsg/weapp.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp433882.js","appmsg/weproduct.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weproduct42f400.js","appmsg/voicemsg.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voicemsg42f400.js","appmsg/autoread.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/autoread42f400.js","appmsg/voice.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voice42f400.js","appmsg/qqmusic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/qqmusic43440b.js","appmsg/iframe.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe433882.js","appmsg/product.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/product42f400.js","appmsg/review_image.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image435a90.js","appmsg/outer_link.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link433882.js","appmsg/copyright_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/copyright_report42f400.js","appmsg/async.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async438bee.js","biz_wap/ui/lazyload_img.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img42f400.js","biz_common/log/jserr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr42f400.js","appmsg/share.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share42f50a.js","appmsg/cdn_img_lib.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib42f400.js","appmsg/finance_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/finance_communicate42f400.js","page/appmsg_new/not_in_mm.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm.css435ee6.js","page/appmsg_new/combo.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo.css438c19.js","biz_wap/utils/wapsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/wapsdk42f400.js","a/mpAdAsync.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpAdAsync4317dc.js","biz_common/utils/url/parse.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse42f400.js","appmsg/appmsg_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsg_report435ac2.js","biz_common/moment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/moment42f400.js","biz_wap/jsapi/core.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core42f400.js","biz_common/dom/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event42f400.js","appmsg/test.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/test42f400.js","biz_wap/utils/mmversion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion42f400.js","appmsg/max_age.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/max_age42f400.js","biz_common/dom/attr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr42f400.js","biz_wap/utils/ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax42f400.js","appmsg/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/log42f400.js","biz_common/dom/class.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class42f400.js","biz_wap/utils/device.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/device42f400.js","appmsg/weapp_common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp_common42f400.js","biz_common/utils/string/html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html42f400.js","cps/tpl/list_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/list_tpl.html42f400.js","cps/tpl/card_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/card_tpl.html42f400.js","cps/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/banner_tpl.html42f400.js","biz_common/tmpl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl42f400.js","appmsg/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index438e37.js"};</script><script nonce="196595741" type="text/javascript" id="moon_inline" > window.__mooninline=1; window.setTimeout(function() {  function __moonf__(){
+if(!window.__moonhasinit){
+window.__moonhasinit=!0,window.__moonclientlog=[],window.__wxgspeeds&&(window.__wxgspeeds.moonloadedtime=+new Date),
+"object"!=typeof JSON&&(window.JSON={
+stringify:function(){
+return"";
+},
+parse:function(){
+return{};
+}
+});
+var e=function(){
+function e(e){
+try{
+var o;
+/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)?o="writeLog":/(Android)/i.test(navigator.userAgent)&&(o="log"),
+o&&t(o,e);
+}catch(n){
+throw console.error(n),n;
+}
+}
+function t(e,o){
+var n,r,i={};
+n=top!=window?top.window:window;
+try{
+r=n.WeixinJSBridge,i=n.document;
+}catch(a){}
+e&&r&&r.invoke?r.invoke(e,{
+level:"info",
+msg:"[WechatFe][moon]"+o
+}):setTimeout(function(){
+i.addEventListener?i.addEventListener("WeixinJSBridgeReady",function(){
+t(e,o);
+},!1):i.attachEvent&&(i.attachEvent("WeixinJSBridgeReady",function(){
+t(e,o);
+}),i.attachEvent("onWeixinJSBridgeReady",function(){
+t(e,o);
+}));
+},0);
+}
+var n;
+localStorage&&JSON.parse(localStorage.getItem("__WXLS__moonarg"))&&"fromls"==JSON.parse(localStorage.getItem("__WXLS__moonarg")).method&&(n=!0),
+e(" moon init, moon_inline:"+window.__mooninline+", moonls:"+n),function(){
+var e={},o={},t={};
+e.COMBO_UNLOAD=0,e.COMBO_LOADING=1,e.COMBO_LOADED=2;
+var n=function(e,t,n){
+if(!o[e]){
+o[e]=n;
+for(var r=3;r--;)try{
+moon.setItem(moon.prefix+e,n.toString()),moon.setItem(moon.prefix+e+"_ver",moon_map[e]);
+break;
+}catch(i){
+moon.clear();
+}
+}
+},r=window.alert;
+window.__alertList=[],window.alert=function(e){
+r(e),window.__alertList.push(e);
+};
+var i=function(e){
+if(!e||!o[e])return null;
+var n=o[e];
+if("function"==typeof n&&!t[e]){
+var a={},s={
+exports:a
+},c=n(i,a,s,r);
+n=o[e]=c||s.exports,t[e]=!0;
+}
+if(".css"===e.substr(-4)){
+var d=document.getElementById(e);
+if(!d){
+d=document.createElement("style"),d.id=e;
+var _=/url\s*\(\s*\/(\"(?:[^\\\"\r\n\f]|\\[\s\S])*\"|'(?:[^\\'\n\r\f]|\\[\s\S])*'|[^)}]+)\s*\)/g,m=window.testenv_reshost||window.__moon_host||"res.wx.qq.com";
+n=n.replace(_,"url(//"+m+"/$1)"),d.innerHTML=n,document.getElementsByTagName("head")[0].appendChild(d);
+}
+}
+return n;
+};
+e.combo_status=e.COMBO_UNLOAD,e.run=function(){
+var o=e.run.info,t=o&&o[0],n=o&&o[1];
+if(t&&e.combo_status==e.COMBO_LOADED){
+var r=i(t);
+n&&n(r);
+}
+},e.use=function(o,t){
+window.__wxgspeeds&&(window.__wxgspeeds.seajs_use_time=+new Date),e.run.info=[o,t],
+e.run();
+},window.define=n,window.seajs=e;
+}(),function(){
+if(window.__nonce_str){
+var e=document.createElement;
+document.createElement=function(o){
+var t=e.apply(this,arguments);
+return"object"==typeof o&&(o=o.toString()),"string"==typeof o&&"script"==o.toLowerCase()&&t.setAttribute("nonce",window.__nonce_str),
+t;
+};
+}
+window.addEventListener&&window.__DEBUGINFO&&Math.random()<.01&&window.addEventListener("load",function(){
+var e=document.createElement("script");
+e.src=__DEBUGINFO.safe_js,e.type="text/javascript",e.async=!0;
+var o=document.head||document.getElementsByTagName("head")[0];
+o.appendChild(e);
+});
+}(),function(){
+function t(e){
+return"[object Array]"===Object.prototype.toString.call(e);
+}
+function n(e){
+return"[object Object]"===Object.prototype.toString.call(e);
+}
+function r(e){
+var t=e.stack+" "+e.toString()||"";
+try{
+if(window.testenv_reshost){
+var n="http(s)?://"+window.testenv_reshost,r=new RegExp(n,"g");
+t=t.replace(r,"");
+}else t=t.replace(/http(s)?:\/\/res\.wx\.qq\.com/g,"");
+for(var r=/\/([^.]+)\/js\/(\S+?)\.js(\,|:)?/g;r.test(t);)t=t.replace(r,function(e,o,t,n){
+return t+n;
+});
+}catch(e){
+t=e.stack?e.stack:"";
+}
+var i=[];
+for(o in u)u.hasOwnProperty(o)&&i.push(o+":"+u[o]);
+return i.push("STK:"+t.replace(/\n/g,"")),i.join("|");
+}
+function i(e){
+if(!e){
+var o=window.onerror;
+window.onerror=function(){},f=setTimeout(function(){
+window.onerror=o,f=null;
+},50);
+}
+}
+function a(e,o,t){
+if(!/^mp\.weixin\.qq\.com$/.test(location.hostname)){
+var n=[];
+t=t.replace(location.href,(location.origin||"")+(location.pathname||"")).replace("#wechat_redirect","").replace("#rd","").split("&");
+for(var r=0,i=t.length;i>r;r++){
+var a=t[r].split("=");
+a[0]&&a[1]&&n.push(a[0]+"="+encodeURIComponent(a[1]));
+}
+var s=new window.Image;
+return void(s.src=(o+n.join("&")).substr(0,1024));
+}
+var c;
+if(window.ActiveXObject)try{
+c=new ActiveXObject("Msxml2.XMLHTTP");
+}catch(d){
+try{
+c=new ActiveXObject("Microsoft.XMLHTTP");
+}catch(_){
+c=!1;
+}
+}else window.XMLHttpRequest&&(c=new XMLHttpRequest);
+c&&(c.open(e,o,!0),c.setRequestHeader("cache-control","no-cache"),c.setRequestHeader("Content-Type","application/x-www-form-urlencoded; charset=UTF-8"),
+c.setRequestHeader("X-Requested-With","XMLHttpRequest"),c.send(t));
+}
+function s(e){
+return function(o,t){
+if("string"==typeof o)try{
+o=new Function(o);
+}catch(n){
+throw n;
+}
+var r=[].slice.call(arguments,2),a=o;
+return o=function(){
+try{
+return a.apply(this,r.length&&r||arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:j,
+log:"timeout_error;host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},e(o,t);
+};
+}
+function c(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this,a=t||function(){};
+return t=function(){
+try{
+return a.apply(r,arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:x,
+log:"listener_error;type:"+o+";host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},a.moon_lid=E,b[E]=t,E++,e.call(r,o,t,n);
+};
+}
+function d(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this;
+return t=b[t.moon_lid],e.call(r,o,t,n);
+};
+}
+var _,m,l,w,u,p,f,h=/MicroMessenger/i.test(navigator.userAgent),g=/MPAPP/i.test(navigator.userAgent),v=window.define,y=0,x=2,O=4,j=9,D=10;
+if(window.__initCatch=function(e){
+_=e.idkey,m=e.startKey||0,l=e.limit,w=e.badjsId,u=e.reportOpt||"",p=e.extInfo||{},
+p.rate=p.rate||.5;
+},window.__moon_report=function(e,o){
+var i=!1,s="";
+try{
+s=top.location.href;
+}catch(c){
+i=!0;
+}
+var d=.5;
+if(p&&p.rate&&(d=p.rate),o&&"number"==typeof o&&(d=o),!(!/mp\.weixin\.qq\.com/.test(location.href)&&!/payapp\.weixin\.qq\.com/.test(location.href)||Math.random()>d||!h&&!g||top!=window&&!i&&!/mp\.weixin\.qq\.com/.test(s))&&(n(e)&&(e=[e]),
+t(e)&&""!=_)){
+var u="",f=[],v=[],y=[],x=[];
+"number"!=typeof l&&(l=1/0);
+for(var j=0;j<e.length;j++){
+var D=e[j]||{};
+if(!(D.offset>l||"number"!=typeof D.offset||D.offset==O&&p&&p.network_rate&&Math.random()>=p.network_rate)){
+var b=1/0==l?m:m+D.offset;
+f[j]="[moon]"+_+"_"+b+";"+D.log+";"+r(D.e||{})||"",v[j]=b,y[j]=1;
+}
+}
+for(var E=0;E<v.length;E++)x[E]=_+"_"+v[E]+"_"+y[E],u=u+"&log"+E+"="+f[E];
+if(x.length>0){
+a("POST",location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?","idkey="+x.join(";")+"&r="+Math.random()+"&lc="+f.length+u);
+var d=1;
+if(p&&p.badjs_rate&&(d=p.badjs_rate),w&&Math.random()<d){
+u=u.replace(/uin\:(.)*\|biz\:(.)*\|mid\:(.)*\|idx\:(.)*\|sn\:(.)*\|/,"");
+var S=new Image,I="https://badjs.weixinbridge.com/badjs?id="+w+"&level=4&from="+encodeURIComponent(location.host)+"&msg="+encodeURIComponent(u);
+S.src=I.slice(0,1024);
+}
+}
+}
+},window.setTimeout=s(window.setTimeout),window.setInterval=s(window.setInterval),
+Math.random()<.01&&window.Document&&window.HTMLElement){
+var b={},E=0;
+Document.prototype.addEventListener=c(Document.prototype.addEventListener),Document.prototype.removeEventListener=d(Document.prototype.removeEventListener),
+HTMLElement.prototype.addEventListener=c(HTMLElement.prototype.addEventListener),
+HTMLElement.prototype.removeEventListener=d(HTMLElement.prototype.removeEventListener);
+}
+var S=window.navigator.userAgent;
+if((/ip(hone|ad|od)/i.test(S)||/android/i.test(S))&&!/windows phone/i.test(S)&&window.localStorage&&window.localStorage.setItem){
+var I=window.localStorage.setItem,L=0;
+window.localStorage.setItem=function(e,o){
+if(!(L>=10))try{
+I.call(window.localStorage,e,o);
+}catch(t){
+t.stack&&console&&console.error&&console.error("[TryCatch]"+t.stack),window.__moon_report([{
+offset:D,
+log:"localstorage_error;"+t.toString(),
+e:t
+}]),L++,L>=3&&window.moon&&window.moon.clear&&moon.clear();
+}
+};
+}
+window.seajs&&v&&(window.define=function(){
+for(var o,t=[],n=arguments&&arguments[0],a=0,s=arguments.length;s>a;a++){
+var c=o=arguments[a];
+"function"==typeof o&&(o=function(){
+try{
+return c.apply(this,arguments);
+}catch(o){
+throw"string"==typeof n&&console.error("[TryCatch][DefineeErr]id:"+n),o.stack&&console&&console.error&&console.error("[TryCatch]"+o.stack),
+_&&window.__moon_report&&(window.__moon_report([{
+offset:y,
+log:"define_error;id:"+n+";",
+e:o
+}]),i(f)),e(" [define_error]"+JSON.stringify(r(o))),o;
+}
+},o.toString=function(e){
+return function(){
+return e.toString();
+};
+}(arguments[a])),t.push(o);
+}
+return v.apply(this,t);
+});
+}(),function(o){
+function t(e,o,t){
+return window.__DEBUGINFO?(window.__DEBUGINFO.res_list||(window.__DEBUGINFO.res_list=[]),
+window.__DEBUGINFO.res_list[e]?(window.__DEBUGINFO.res_list[e][o]=t,!0):!1):!1;
+}
+function n(e){
+var o=new TextEncoder("utf-8").encode(e),t=crypto.subtle||crypto.webkitSubtle;
+return t.digest("SHA-256",o).then(function(e){
+return r(e);
+});
+}
+function r(e){
+for(var o=[],t=new DataView(e),n=0;n<t.byteLength;n+=4){
+var r=t.getUint32(n),i=r.toString(16),a="00000000",s=(a+i).slice(-a.length);
+o.push(s);
+}
+return o.join("");
+}
+function i(e,o,t){
+if("object"==typeof e){
+var n=Object.prototype.toString.call(e).replace(/^\[object (.+)\]$/,function(e,o){
+return o;
+});
+if(t=t||e,"Array"==n){
+for(var r=0,i=e.length;i>r;++r)if(o.call(t,e[r],r,e)===!1)return;
+}else{
+if("Object"!==n&&a!=e)throw"unsupport type";
+if(a==e){
+for(var r=e.length-1;r>=0;r--){
+var s=a.key(r),c=a.getItem(s);
+if(o.call(t,c,s,e)===!1)return;
+}
+return;
+}
+for(var r in e)if(e.hasOwnProperty(r)&&o.call(t,e[r],r,e)===!1)return;
+}
+}
+}
+var a=o.localStorage,s=document.head||document.getElementsByTagName("head")[0],c=1,d=11,_=12,m=13,l=window.__allowLoadResFromMp?1:2,w=window.__allowLoadResFromMp?1:0,u=l+w,p=window.testenv_reshost||window.__moon_host||"res.wx.qq.com",f=new RegExp("^(http(s)?:)?//"+p);
+window.__loadAllResFromMp&&(p="mp.weixin.qq.com",l=0,u=l+w);
+var h={
+prefix:"__MOON__",
+loaded:[],
+unload:[],
+clearSample:!0,
+hit_num:0,
+mod_num:0,
+version:1003,
+cacheData:{
+js_mod_num:0,
+js_hit_num:0,
+js_not_hit_num:0,
+js_expired_num:0,
+css_mod_num:0,
+css_hit_num:0,
+css_not_hit_num:0,
+css_expired_num:0
+},
+init:function(){
+h.loaded=[],h.unload=[];
+var e,t,r;
+if(window.no_moon_ls&&(h.clearSample=!0),a){
+var s="_moon_ver_key_",c=a.getItem(s);
+c!=h.version&&(h.clear(),a.setItem(s,h.version));
+}
+if((-1!=location.search.indexOf("no_moon1=1")||-1!=location.search.indexOf("no_lshttps=1"))&&h.clear(),
+a){
+var d=1*a.getItem(h.prefix+"clean_time"),_=+new Date;
+if(_-d>=1296e6){
+h.clear();
+try{
+!!a&&a.setItem(h.prefix+"clean_time",+new Date);
+}catch(m){}
+}
+}
+i(moon_map,function(i,s){
+if(t=h.prefix+s,r=!!i&&i.replace(f,""),e=!!a&&a.getItem(t),version=!!a&&(a.getItem(t+"_ver")||"").replace(f,""),
+h.mod_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_mod_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_mod_num++,
+h.clearSample||!e||r!=version)h.unload.push(r.replace(f,"")),r&&-1!=r.indexOf(".css")?e?r!=version&&h.cacheData.css_expired_num++:h.cacheData.css_not_hit_num++:r&&-1!=r.indexOf(".js")&&(e?r!=version&&h.cacheData.js_expired_num++:h.cacheData.js_not_hit_num++);else{
+if("https:"==location.protocol&&window.moon_hash_map&&window.moon_hash_map[s]&&window.crypto)try{
+n(e).then(function(e){
+window.moon_hash_map[s]!=e&&console.log(s);
+});
+}catch(c){}
+try{
+var d="//# sourceURL="+s+"\n//@ sourceURL="+s;
+o.eval.call(o,'define("'+s+'",[],'+e+")"+d),h.hit_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_hit_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_hit_num++;
+}catch(c){
+h.unload.push(r.replace(f,""));
+}
+}
+}),h.load(h.genUrl());
+},
+genUrl:function(){
+var e=h.unload;
+if(!e||e.length<=0)return[];
+var o,t,n="",r=[],i={},a=-1!=location.search.indexOf("no_moon2=1"),s="//"+p;
+-1!=location.href.indexOf("moon_debug2=1")&&(s="//mp.weixin.qq.com");
+for(var c=0,d=e.length;d>c;++c){
+/^\/(.*?)\//.test(e[c]);
+var _=/^\/(.*?)\//.exec(e[c]);
+_.length<2||!_[1]||(t=_[1],n=i[t],n?(o=n+","+e[c],o.length>1e3||a?(r.push(n+"?v="+h.version),
+n=location.protocol+s+e[c],i[t]=n):(n=o,i[t]=n)):(n=location.protocol+s+e[c],i[t]=n));
+}
+for(var m in i)i.hasOwnProperty(m)&&r.push(i[m]);
+return r;
+},
+load:function(e){
+if(window.__wxgspeeds&&(window.__wxgspeeds.mod_num=h.mod_num,window.__wxgspeeds.hit_num=h.hit_num),
+!e||e.length<=0)return seajs.combo_status=seajs.COMBO_LOADED,seajs.run(),console.debug&&console.debug("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num),
+void window.__moonclientlog.push("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num);
+seajs.combo_status=seajs.COMBO_LOADING;
+var o=0,t=+new Date;
+window.__wxgspeeds&&(window.__wxgspeeds.combo_times=[],window.__wxgspeeds.combo_times.push(t)),
+i(e,function(n){
+h.request(n,u,function(){
+if(window.__wxgspeeds&&window.__wxgspeeds.combo_times.push(+new Date),o++,o==e.length){
+var n=+new Date-t;
+window.__wxgspeeds&&(window.__wxgspeeds.mod_downloadtime=n),seajs.combo_status=seajs.COMBO_LOADED,
+seajs.run(),console.debug&&console.debug("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms"),
+window.__moonclientlog.push("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms");
+}
+});
+});
+},
+request:function(o,n,r){
+if(o){
+n=n||0,o.indexOf("mp.weixin.qq.com")>-1&&((new Image).src=location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?idkey=27613_32_1&r="+Math.random(),
+window.__moon_report([{
+offset:_,
+log:"load_script_from_mp: "+o
+}],1));
+var i=-1;
+window.__DEBUGINFO&&(__DEBUGINFO.res_list||(__DEBUGINFO.res_list=[]),__DEBUGINFO.res_list.push({
+type:"js",
+status:"pendding",
+start:+new Date,
+end:0,
+url:o
+}),i=__DEBUGINFO.res_list.length-1),-1!=location.search.indexOf("no_lshttps=1")&&(o=o.replace("http://","https://"));
+var a=document.createElement("script");
+a.src=o,a.type="text/javascript",a.async=!0,a.down_time=+new Date,a.onerror=function(s){
+t(i,"status","error"),t(i,"end",+new Date);
+var _=new Error(s);
+if(n>=0)if(w>n){
+var l=o.replace("res.wx.qq.com","mp.weixin.qq.com");
+h.request(l,n,r);
+}else h.request(o,n,r);else window.__moon_report&&window.__moon_report([{
+offset:c,
+log:"load_script_error: "+o,
+e:_
+}],1);
+if(n==w-1&&window.__moon_report([{
+offset:d,
+log:"load_script_error: "+o,
+e:_
+}],1),-1==n){
+var u="ua: "+window.navigator.userAgent+", time="+(+new Date-a.down_time)+", load_script_error -1 : "+o;
+window.__moon_report([{
+offset:m,
+log:u
+}],1);
+}
+window.__moonclientlog.push("moon load js error : "+o+", error -> "+_.toString()),
+e("moon_request_error url:"+o);
+},"undefined"!=typeof moon_crossorigin&&moon_crossorigin&&a.setAttribute("crossorigin",!0),
+a.onload=a.onreadystatechange=function(){
+t(i,"status","loaded"),t(i,"end",+new Date),!a||a.readyState&&!/loaded|complete/.test(a.readyState)||(t(i,"status","200"),
+a.onload=a.onreadystatechange=null,"function"==typeof r&&r());
+},n--,s.appendChild(a),e("moon_request url:"+o+" retry:"+n);
+}
+},
+setItem:function(e,o){
+!!a&&a.setItem(e,o);
+},
+clear:function(){
+a&&(i(a,function(e,o){
+~o.indexOf(h.prefix)&&a.removeItem(o);
+}),console.debug&&console.debug("[moon] clear"));
+},
+idkeyReport:function(e,o,t){
+t=t||1;
+var n=e+"_"+o+"_"+t;
+(new Image).src="/mp/jsmonitor?idkey="+n+"&r="+Math.random();
+}
+};
+seajs&&seajs.use&&"string"==typeof window.__moon_mainjs&&seajs.use(window.__moon_mainjs),
+window.moon=h;
+}(window),function(){
+try{
+Math.random()<1;
+}catch(e){}
+}(),window.moon.init();
+};
+e(),!!window.__moon_initcallback&&window.__moon_initcallback(),window.__wxgspeeds&&(window.__wxgspeeds.moonendtime=+new Date);
+}
+}
+__moonf__(); }, 25);</script><script nonce="196595741" type="text/javascript">
+    var real_show_page_time = +new Date();
+    if (!!window.addEventListener){
+        window.addEventListener("load", function(){
+            window.onload_endtime = +new Date();
+        });
+    }
+
+    
+    if(typeof seajs != 'undefined' && seajs.config){
+        try{
+            seajs.config({
+              'map': [
+                [ '.js', '.js?v=' + (+new Date())]
+              ]
+            });
+        }catch(e){
+            console.info('not support seajs config');
+        }
+    }
+
+    
+</script>
+
+    </body>
+    <script nonce="196595741" type="text/javascript">document.addEventListener("touchstart", function() {},false);</script>
+</html>
+

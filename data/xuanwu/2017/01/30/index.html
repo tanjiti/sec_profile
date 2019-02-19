@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/01/30" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/01/30</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/01/29/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/01/30/index.html">2017/01/30</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/01/31/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Android Tamer @AndroidTamer</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Tracking Android Security Updates across devices : Call for data  : <a href="https://androidtamer.com/tracking-android-security-update-across-devices/" rel="nofollow">https://androidtamer.com/tracking-android-security-update-across-devices/</a> : Please RT and please contribute.</p>
+<div class="translated" id="234489">
+<p>﻿"Android Tamer - 跟踪各个 Android 厂商手机的补丁更新状态︰   <a href="https://t.co/BOvqqQPalb" rel="nofollow">https://t.co/BOvqqQPalb</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Palo Alto Networks @PaloAltoNtwks</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  #ICYMI Here's part 3 of Exploring the Cybercrime Underground: Into the RAT Nest <a href="http://oak.ctx.ly/r/5e4ia" rel="nofollow">http://oak.ctx.ly/r/5e4ia</a> #Unit42</p>
+<div class="translated" id="234597">
+<p>﻿" 深入地下网络犯罪的老巢，来自 Palo Alto，Part 1：   <a href="http://researchcenter.paloaltonetworks.com/2016/08/unit42-exploring-the-cybercrime-underground-part-1-an-introduction/%C2%A0" rel="nofollow">http://researchcenter.paloaltonetworks.com/2016/08/unit42-exploring-the-cybercrime-underground-part-1-an-introduction/ </a> Part 2:   <a href="http://researchcenter.paloaltonetworks.com/2016/08/unit42-exploring-the-cybercrime-underground-part-2-the-forum-ecosystem/%C2%A0" rel="nofollow">http://researchcenter.paloaltonetworks.com/2016/08/unit42-exploring-the-cybercrime-underground-part-2-the-forum-ecosystem/ </a> Part 3:   <a href="http://researchcenter.paloaltonetworks.com/2017/01/unit42-exploring-cybercrime-underground-part-3-rat-nest/?adbsc=social69691516&amp;adbid=825825854492020736&amp;adbpl=tw&amp;adbpr=46153776" rel="nofollow">http://researchcenter.paloaltonetworks.com/2017/01/unit42-exploring-cybercrime-underground-part-3-rat-nest/?adbsc=social69691516&amp;adbid=825825854492020736&amp;adbpl=tw&amp;adbpr=46153776</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  shmoocon @shmoocon </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Conference </i>]  ShmooCon 2017 Videos are up at @ internetarchive <a href="https://archive.org/details/ShmooCon2017" rel="nofollow">https://archive.org/details/ShmooCon2017</a></p>
+<div class="translated" id="234525">
+<p>﻿"ShmooCon 2017 会议的视频可以在线观看和下载了：   <a href="https://t.co/MFDGPrgBTd" rel="nofollow">https://t.co/MFDGPrgBTd</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Hardware </i>]  Credit Card skimming and PIN harvesting in an EMV world : <a href="https://media.blackhat.com/bh-us-11/Laurie/BH_US_11_Laurie_Chip_Pin-Slides.pdf" rel="nofollow">https://media.blackhat.com/bh-us-11/Laurie/BH_US_11_Laurie_Chip_Pin-Slides.pdf</a> (Slides /#bhusa11) cc @ AndreaBarisani</p>
+<div class="translated" id="234479">
+<p>﻿" Credit Card skimming and PIN harvesting in an EMV world，来自 BlackHat USA 2011 年的一篇演讲︰   <a href="https://t.co/JGoLlSTLRX%C2%A0" rel="nofollow">https://t.co/JGoLlSTLRX </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> NetworkDevice </i>]  CVE-2017-3792 – Cisco TelePresence MCU affected by a Remote Code Execution issue <a href="http://securityaffairs.co/wordpress/55763/hacking/cisco-telepresence-mcu-flaw.html" rel="nofollow">http://securityaffairs.co/wordpress/55763/hacking/cisco-telepresence-mcu-flaw.html</a></p>
+<div class="translated" id="234420">
+<p>﻿" 思科的 TelePresence MCU 会议平台存在一个 RCE 漏洞（CVE-2017-3792），3 款设备型号受影响：   <a href="https://t.co/Vm9rq1xKZi" rel="nofollow">https://t.co/Vm9rq1xKZi</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/01/29/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/01/30/index.html">2017/01/30</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/01/31/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

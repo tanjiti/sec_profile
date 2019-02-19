@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/05/13" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/05/13</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+    color: #a7a7a7;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+
+
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 15px;
+    /*color: #a7a7a7;*/
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedheader{
+
+}
+
+.singlefeedlogo{
+    float: left;
+    /*width: 24px;*/
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.singlefeedlogo img{
+    float: left;
+    width: 13px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+
+    /*width: 80%;
+    height: 80%;*/
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.singlefeedtext p{
+    font-size: 15px;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        //console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        //console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            //console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/12/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/13/index.html">2017/05/13</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/14/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Exploiting the unexploitable with lesser known browser tricks : <a href="https://speakerdeck.com/filedescriptor/exploiting-the-unexploitable-with-lesser-known-browser-tricks" rel="nofollow">https://speakerdeck.com/filedescriptor/exploiting-the-unexploitable-with-lesser-known-browser-tricks</a>  (Slides) cc @ filedescriptor</p>
+<div class="translated" id="277837">
+<p>" 
+利用鲜为人知的浏览器小技巧实现 X-Frame-Options 相关 Web 漏洞的利用
+，来自Appsec EU 2017：   <a href="https://speakerdeck.com/filedescriptor/exploiting-the-unexploitable-with-lesser-known-browser-tricks" rel="nofollow">https://speakerdeck.com/filedescriptor/exploiting-the-unexploitable-with-lesser-known-browser-tricks</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  n3k @kiqueNissim </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Conference </i>]  Blackhat Asia Slides: <a href="https://www.blackhat.com/asia-17/briefings.html" rel="nofollow">https://www.blackhat.com/asia-17/briefings.html</a></p>
+<div class="translated" id="277752">
+<p>" Blackhat Asia Slides：   <a href="https://www.blackhat.com/asia-17/briefings.html" rel="nofollow">https://www.blackhat.com/asia-17/briefings.html</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Michael Allen @_Dark_Knight_ </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  [ PAPER ] Hacking iOS Applications - detailed testing guide | <a href="https://web.securityinnovation.com/hubfs/iOS%20Hacking%20Guide.pdf" rel="nofollow">https://web.securityinnovation.com/hubfs/iOS%20Hacking%20Guide.pdf</a> #reversing #iOS</p>
+<div class="translated" id="277626">
+<p>" Securiy Innovation 发布的一份非常详细的《Hacking iOS Applications》：   <a href="https://web.securityinnovation.com/hubfs/iOS%20Hacking%20Guide.pdf" rel="nofollow">https://web.securityinnovation.com/hubfs/iOS%20Hacking%20Guide.pdf</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Talos Group @TalosSecurity </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  Vulnerability Spotlight: Hangul Word Processor Remote Code Execution Vulnerability <a href="http://dlvr.it/P7FRmp" rel="nofollow">http://dlvr.it/P7FRmp</a></p>
+<div class="translated" id="277788">
+<p>"  Cisco Talos 的研究员发现一款韩文处理软件 Hangul Word Processor 存在远程代码执行漏洞(CVE-2017-2819)：   <a href="http://blog.talosintelligence.com/2017/05/vulnerability-spotlight-hangul-word.html?utm_source=dlvr.it&amp;utm_medium=twitter&amp;utm_campaign=Feed%3A+feedburner%2FTalos+%28Talos+Blog%29%C2%A0" rel="nofollow">http://blog.talosintelligence.com/2017/05/vulnerability-spotlight-hangul-word.html?utm_source=dlvr.it&amp;utm_medium=twitter&amp;utm_campaign=Feed%3A+feedburner%2FTalos+%28Talos+Blog%29 </a> 分析：    <a href="https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0320" rel="nofollow">https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0320</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>MalwareTracker.com @mwtracker</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Open source QuickSand.io Document Malware analysis tool updated with some safety and performance enhancements <a href="https://github.com/tylabs/quicksand_lite/releases/tag/01.01.002" rel="nofollow">https://github.com/tylabs/quicksand_lite/releases/tag/01.01.002</a></p>
+<div class="translated" id="277610">
+<p>" quicksand_lite - 分析可疑恶意文档的工具，可以识别不同编码下的 exploits 以及提取嵌入文档中的可执行文件：   <a href="https://github.com/tylabs/quicksand_lite" rel="nofollow">https://github.com/tylabs/quicksand_lite</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Florian Roth @cyb3rops </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Pulsar
+network fuzzer with automatic protocol learning and simulation capabilites 
+by @ hgascon
+<a href="https://github.com/hgascon/pulsar" rel="nofollow">https://github.com/hgascon/pulsar</a></p>
+<div class="translated" id="277654">
+<p>"  pulsar - 可自动化学习协议并模拟协议通信的网络 Fuzzing 工具：   <a href="https://github.com/hgascon/pulsar" rel="nofollow">https://github.com/hgascon/pulsar</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Cn33liz @Cneelis </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  JavaScript Reversed TCP Meterpreter Stager
+<a href="https://github.com/Cn33liz/JSMeter/blob/master/JSMeter.js" rel="nofollow">https://github.com/Cn33liz/JSMeter/blob/master/JSMeter.js</a>
+x86/x64 Compatible Stager (Native, No Shellcode)
+@ TheColonial @ tiraniddo</p>
+<div class="translated" id="277699">
+<p>" TCP Meterpreter Stager 的 JavaScript 版本：   <a href="https://github.com/Cn33liz/JSMeter" rel="nofollow">https://github.com/Cn33liz/JSMeter</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Sebastian Lekies @slekies </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Web Security </i>]  The slides for our (@kkotowicz, @sirdarckcat and my) talk about breaking XSS mitigations from @AppSecEU: <a href="https://t.co/qonErsWFMM" rel="nofollow">https://t.co/qonErsWFMM</a> #ROPXSS</p>
+<div class="translated" id="277838">
+<p>" 通过 Script Gadgets 绕过常用 XSS 缓解技术，来自 AppSecEU 2017：   <a href="http://sebastian-lekies.de/slides/appsec2017.pdf" rel="nofollow">http://sebastian-lekies.de/slides/appsec2017.pdf</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/12/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/13/index.html">2017/05/13</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/14/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

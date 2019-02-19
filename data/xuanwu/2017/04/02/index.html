@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/04/02" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/04/02</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+    color: #a7a7a7;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 15px;
+    /*color: #a7a7a7;*/
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.singlefeedtext p{
+    font-size: 15px;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        //console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        //console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            //console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/04/01/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/04/02/index.html">2017/04/02</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/04/03/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Legit BS @LegitBS_CTF </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Challenges </i>]  Registration for @ defcon CTF 2017 is now open. <a href="https://2017.legitbs.net/" rel="nofollow">https://2017.legitbs.net/</a></p>
+<div class="translated" id="260750">
+<p>﻿"defcon CTF 2017 现已开放报名：  <a href="https://t.co/xSaA3spjKd" rel="nofollow">https://t.co/xSaA3spjKd</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Maria Rigaki @mrigaki </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MachineLearning </i>]  Fun stuff: Generating Adversarial Malware Examples for Black-Box Attacks Based on GAN - <a href="https://arxiv.org/abs/1702.05983" rel="nofollow">https://arxiv.org/abs/1702.05983</a></p>
+<div class="translated" id="260851">
+<p>﻿"Generating Adversarial Malware Examples for Black-Box Attacks Based on GAN（paper）：   <a href="https://t.co/xKjZEpX24w" rel="nofollow">https://t.co/xKjZEpX24w</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Jon Sawyer @jcase </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mobile </i>]  SunShine now supports the Samsung Galaxy Note 7 - Unlock your bootloader before your phone bursts into flames <a href="https://t.co/l7ENUInbZo" rel="nofollow">https://t.co/l7ENUInbZo</a></p>
+<div class="translated" id="260925">
+<p>﻿"SunShine - HTC/摩托罗拉手机的 Bootloader 解锁工具：   <a href="https://t.co/l7ENUInbZo" rel="nofollow">https://t.co/l7ENUInbZo</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Bypassing Cylance :  Part 1 - Using VSAgent.exe : <a href="http://www.blackhillsinfosec.com/?p=5792" rel="nofollow">http://www.blackhillsinfosec.com/?p=5792</a> , Part 2: Using DNSCat2 : <a href="http://www.blackhillsinfosec.com/?p=5798" rel="nofollow">http://www.blackhillsinfosec.com/?p=5798</a></p>
+<div class="translated" id="260914">
+<p>﻿"绕过 Cylance Part 1:   <a href="https://t.co/40qk1okgcW%C2%A0" rel="nofollow">https://t.co/40qk1okgcW </a> part 2:   <a href="https://t.co/iNmwybYDQ9%C2%A0%C2%A0" rel="nofollow">https://t.co/iNmwybYDQ9  </a>  Part 3：  <a href="http://www.blackhillsinfosec.com/?p=5804" rel="nofollow">http://www.blackhillsinfosec.com/?p=5804</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Glenn @hiddenillusion </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Hunting for In-Memory Mimikatz with Sysmon, pt.3 :
+<a href="https://cyberwardog.blogspot.com/2017/04/chronicles-of-threat-hunter-hunting-for.html" rel="nofollow">https://cyberwardog.blogspot.com/2017/04/chronicles-of-threat-hunter-hunting-for.html</a> #dfir</p>
+<div class="translated" id="260916">
+<p>﻿"通过审计日志的方式追查 Mimikatz:   <a href="https://t.co/llkqIT3llZ" rel="nofollow">https://t.co/llkqIT3llZ</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Will @harmj0y </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  The slides for @tifkin_'s and my @BSidesNOLA "A Case Study in Attacking KeePass" presentation are up at <a href="https://t.co/ygIZ5ogiqg" rel="nofollow">https://t.co/ygIZ5ogiqg</a> #BSidesNola</p>
+<div class="translated" id="261023">
+<p>﻿"针对密码管理软件 KeePass 的攻击研究，来自 BSidesNola 2017：   <a href="https://t.co/ygIZ5ogiqg" rel="nofollow">https://t.co/ygIZ5ogiqg</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>McAfee Labs @McAfee_Labs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Our website offers dozens of free threat detection, decryption, and removal tools. See them here:… <a href="https://twitter.com/i/web/status/847962233137233920" rel="nofollow">https://twitter.com/i/web/status/847962233137233920</a></p>
+<div class="translated" id="260734">
+<p>﻿"McAfee 的免费安全工具集：   <a href="https://www.mcafee.com/us/downloads/free-tools/index.aspx#sf66700902" rel="nofollow">https://www.mcafee.com/us/downloads/free-tools/index.aspx#sf66700902</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  rev.ng : Suite of tools for binary analysis based on QEMU and LLVM : <a href="https://rev.ng/" rel="nofollow">https://rev.ng/</a></p>
+<div class="translated" id="260796">
+<p>﻿"rev.ng - 基于 QEMU 和 LLVM 的二进制工具套件︰   <a href="https://t.co/CFm17SuA0t" rel="nofollow">https://t.co/CFm17SuA0t</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  MimiPenguin - Dumping cleartext credentials from memory on Linux hosts <a href="https://github.com/huntergregal/mimipenguin" rel="nofollow">https://github.com/huntergregal/mimipenguin</a></p>
+<div class="translated" id="260825">
+<p>﻿"MimiPenguin - Linux 系统上的内存明文导出工具：    <a href="https://t.co/Iz2WMmnfQ6" rel="nofollow">https://t.co/Iz2WMmnfQ6</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/04/01/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/04/02/index.html">2017/04/02</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/04/03/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

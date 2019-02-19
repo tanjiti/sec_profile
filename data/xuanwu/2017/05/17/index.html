@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/05/17" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/05/17</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+    color: #a7a7a7;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+
+
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 15px;
+    /*color: #a7a7a7;*/
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedheader{
+
+}
+
+.singlefeedlogo{
+    float: left;
+    /*width: 24px;*/
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.singlefeedlogo img{
+    float: left;
+    width: 13px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+
+    /*width: 80%;
+    height: 80%;*/
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.singlefeedtext p{
+    font-size: 15px;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        //console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        //console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            //console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/16/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/17/index.html">2017/05/17</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/18/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Full Disclosure @SecLists</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Unpatched Mozilla Firefox v50 - v55 Stack Overflow DoS Vulnerability <a href="https://goo.gl/fb/j1YsBw" rel="nofollow">https://goo.gl/fb/j1YsBw</a> #FullDisclosure</p>
+<div class="translated" id="280248">
+<p>" Mozilla Firefox v50 - v55 存在栈溢出漏洞：   <a href="http://seclists.org/fulldisclosure/2017/May/62?utm_source=feedburner&amp;utm_medium=twitter&amp;utm_campaign=Feed%3A+seclists%2FFullDisclosure+%28Full+Disclosure%29" rel="nofollow">http://seclists.org/fulldisclosure/2017/May/62?utm_source=feedburner&amp;utm_medium=twitter&amp;utm_campaign=Feed%3A+seclists%2FFullDisclosure+%28Full+Disclosure%29</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Full Disclosure @SecLists</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Bug Bounty </i>]  PayPal Inc announces 2 new Bug Bounty Program Domains <a href="https://goo.gl/fb/XtS6HR" rel="nofollow">https://goo.gl/fb/XtS6HR</a> #FullDisclosure</p>
+<div class="translated" id="279838">
+<p>"  PayPal 公司发布了两个新加入 BUG 赏金计划的域名：   <a href="https://t.co/zYfow7MEQb" rel="nofollow">https://t.co/zYfow7MEQb</a>  "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Security Response @msftsecresponse</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Bug Bounty </i>]  Announcing that the Edge Bug Bounty Program will now run through until the end of June. Now finishing June 30, 2017:
+<a href="https://blogs.technet.microsoft.com/msrc/2017/05/16/extending-microsoft-edge-bounty-program/" rel="nofollow">https://blogs.technet.microsoft.com/msrc/2017/05/16/extending-microsoft-edge-bounty-program/</a></p>
+<div class="translated" id="280293">
+<p>" 微软决定延长 Edge Bounty 项目至 6 月 30 号：  <a href="https://t.co/TzfHRFJXS6" rel="nofollow">https://t.co/TzfHRFJXS6</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  netbiosX @netbiosX </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Cloud </i>]  Penetration Testing AWS Storage: Kicking the S3 Bucket <a href="https://rhinosecuritylabs.com/penetration-testing/penetration-testing-aws-storage/" rel="nofollow">https://rhinosecuritylabs.com/penetration-testing/penetration-testing-aws-storage/</a></p>
+<div class="translated" id="280159">
+<p>"  对 AWS STORAGE S3 BUCKET 的安全性测试与总结：   <a href="https://t.co/V6EHQDRDtN" rel="nofollow">https://t.co/V6EHQDRDtN</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>J Wolfgang Goerlich @jwgoerlich</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Industry News </i>]  Disney Hackers Threaten to Release Upcoming Movie: Report <a href="https://www.infosecurity-magazine.com/news/disney-hackers-threaten-to-release/" rel="nofollow">https://www.infosecurity-magazine.com/news/disney-hackers-threaten-to-release/</a></p>
+<div class="translated" id="280085">
+<p>" 据BBC报道，黑客威胁迪士尼，称如不交赎金，将提前公布即将上映的加勒比海盗五的部分片段：   <a href="http://www.bbc.com/news/entertainment-arts-39933406" rel="nofollow">http://www.bbc.com/news/entertainment-arts-39933406</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Mike_Mimoso @Mike_Mimoso</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Industry News </i>]  Dumps could include exploits, SWIFT data or nuclear/missile data stolen from US adversaries. <a href="https://threatpost.com/shadowbrokers-planning-monthly-exploit-data-dump-service/125710/" rel="nofollow">https://threatpost.com/shadowbrokers-planning-monthly-exploit-data-dump-service/125710/</a> via @ threatpost</p>
+<div class="translated" id="280091">
+<p>" 
+ShadowBrokers 组织昨天发了一篇文章，这篇文章介绍了他们 "拍卖方程式军火库" 的从商经历，鉴于 "业绩"不佳，他们决定从 6 月份开始开启全新的会员付费按月订阅模式。这次他们将放出浏览器、路由器、手机、支持 Windows 10 系统等新 Exploits：   <a href="https://steemit.com/shadowbrokers/@theshadowbrokers/oh-lordy-comey-wanna-cry-edition" rel="nofollow">https://steemit.com/shadowbrokers/@theshadowbrokers/oh-lordy-comey-wanna-cry-edition</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Jóseph Mlodzìanowskì @cedoxX</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Industry News </i>]  1.9 million Bell customer email addresses and' 1,700 names and phone numbers stolen in data breach... oops
+
+<a href="http://www.cbc.ca/beta/news/technology/bell-data-breach-customer-names-phone-numbers-emails-leak-1.4116608" rel="nofollow">http://www.cbc.ca/beta/news/technology/bell-data-breach-customer-names-phone-numbers-emails-leak-1.4116608</a></p>
+<div class="translated" id="279734">
+<p>" 加拿大电信巨头 Bell 公司 190 万用户 eamil 及 1700 用户姓名、电话信息泄露：   <a href="https://t.co/qqta2cavs9" rel="nofollow">https://t.co/qqta2cavs9</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  PayBreak - Generically recovering from ransomware including WannaCry/WannaCryptor <a href="https://eugenekolo.com/blog/paybreak-generically-recovering-from-ransomware-including-wannacry/" rel="nofollow">https://eugenekolo.com/blog/paybreak-generically-recovering-from-ransomware-including-wannacry/</a></p>
+<div class="translated" id="280129">
+<p>" 波士顿和伦敦大学的几位研究员提出了一个勒索软件还原的新方法 - PayBreak，这种方法记录勒索软件加密每个文件时的加密 key，利用记录下的加密 Key 最终还原所有文件。他们称这种方法对 WannaCry 也有效：   <a href="https://t.co/VPVlvAajuX" rel="nofollow">https://t.co/VPVlvAajuX</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>MWR Labs @mwrlabs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Remote COM scriptlets with no regsvr32 but more VBA <a href="https://labs.mwrinfosecurity.com/blog/dll-tricks-with-vba-to-improve-offensive-macro-capability/" rel="nofollow">https://labs.mwrinfosecurity.com/blog/dll-tricks-with-vba-to-improve-offensive-macro-capability/</a> by @ william_knows</p>
+<div class="translated" id="279959">
+<p>"  如何在 VBA 中与 DLL 交互，扩充宏的攻击能力：   <a href="https://t.co/Gqb3en3jss" rel="nofollow">https://t.co/Gqb3en3jss</a>  "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Hack the Virtual Memory : malloc, the heap &amp; the program break : <a href="https://blog.holbertonschool.com/hack-the-virtual-memory-malloc-the-heap-the-program-break/" rel="nofollow">https://blog.holbertonschool.com/hack-the-virtual-memory-malloc-the-heap-the-program-break/</a> cc @ julienbarbier42 <a href="https://t.co/9ZRQB8d7Or" rel="nofollow">https://t.co/9ZRQB8d7Or</a></p>
+<div class="translated" id="279750">
+<p>" Hack the Virtual Memory : malloc, the heap &amp; the program break ：   <a href="https://t.co/xotqocx17y" rel="nofollow">https://t.co/xotqocx17y</a>  "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C_7H35TUwAAlu00.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/C_7H35TUwAAlu00.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Project Zero Bugs @ProjectZeroBugs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  Adobe Flash: Heap Corruption in Margin Handling <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1174" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1174</a></p>
+<div class="translated" id="280097">
+<p>" Adobe Flash 在处理富文本 margin 时的堆破坏漏洞（CVE-2017-3061）：   <a href="https://t.co/JD7icHtqKp" rel="nofollow">https://t.co/JD7icHtqKp</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Costin Raiu @craiu</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> SecurityReport </i>]  All you need to know about the #Lazarus APT group in one paper: <a href="https://securelist.com/files/2017/04/Lazarus_Under_The_Hood_PDF_final.pdf" rel="nofollow">https://securelist.com/files/2017/04/Lazarus_Under_The_Hood_PDF_final.pdf</a></p>
+<div class="translated" id="279953">
+<p>" 昨天卡巴斯基发 Blog 称 WannaCry 勒索软件背后是 Lazarus 组织，4 月份卡巴斯基专门发过一份分析 Lazarus 组织的报告：   <a href="https://t.co/Vw3WEyAu9h" rel="nofollow">https://t.co/Vw3WEyAu9h</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  fsql : Search through your filesystem with SQL-esque queries : <a href="https://github.com/kshvmdn/fsql" rel="nofollow">https://github.com/kshvmdn/fsql</a> <a href="https://t.co/erNXGNMHN7" rel="nofollow">https://t.co/erNXGNMHN7</a></p>
+<div class="translated" id="279748">
+<p>"  fsql - 使用 SQL 语句对文件系统进行搜索的工具：   <a href="https://t.co/fehftikmrh%C2%A0" rel="nofollow">https://t.co/fehftikmrh </a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/tweet_video_thumb/C_7GIlPUwAAMjz9.jpg" target="_blank">
+<img src="http://pbs.twimg.com/tweet_video_thumb/C_7GIlPUwAAMjz9.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>NCC Group Infosec @NCCGroupInfosec</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  NCC Group Tool: WSSiP: A WebSocket Manipulation Proxy -
+<a href="https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2017/may/wssip-a-websocket-manipulation-proxy/" rel="nofollow">https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2017/may/wssip-a-websocket-manipulation-proxy/</a> #appsec #Pentesting</p>
+<div class="translated" id="280063">
+<p>" WSSiP - WebSocket 代理工具，用于查看、拦截或修改 WebSocket 数据包：   <a href="https://t.co/9gAVBwRK6K%C2%A0" rel="nofollow">https://t.co/9gAVBwRK6K </a> Gitub：   <a href="https://github.com/nccgroup/wssip" rel="nofollow">https://github.com/nccgroup/wssip</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Project Zero Bugs @ProjectZeroBugs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  Adobe Flash: Out-of-bounds read in getting TextField width <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1211" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1211</a></p>
+<div class="translated" id="280096">
+<p>" Adobe Flash 在获取 TextField width 时存在一个越界读漏洞（CVE-2017-3064）：   <a href="https://t.co/VY0ursd9pC" rel="nofollow">https://t.co/VY0ursd9pC</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Project Zero Bugs @ProjectZeroBugs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  Adobe Flash: Out-of-bounds write in hit test <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1210" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1210</a></p>
+<div class="translated" id="280101">
+<p>" Adobe Flash 通过 hit test 处罚的越界写漏洞：   <a href="https://t.co/laiw2Y0UFJ" rel="nofollow">https://t.co/laiw2Y0UFJ</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>James Forshaw @tiraniddo</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  For those that wanted it, here's a JScript version of the UAC bypass. <a href="https://gist.github.com/tyranid/254fc320411132c8e9bd71e178c9d429" rel="nofollow">https://gist.github.com/tyranid/254fc320411132c8e9bd71e178c9d429</a></p>
+<div class="translated" id="279834">
+<p>" 昨天推送了 James Forshaw 利用计划任务 Bypass UAC 的文章，之后他又公开了 PowerShell 和 JS 版本的 PoC 代码：   <a href="https://t.co/9uHL7oycPV" rel="nofollow">https://t.co/9uHL7oycPV</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via scarybeastsecurity.blogspot.com</p> -->
+<p>XuanwuSpider via scarybeastsecurity.blogspot.com</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Defend </i>]   ASLR、DEP、Cookie、CFI、CFG 等针对 Memory Corruption 漏洞利用的缓解措施极大的提高了攻击门槛和成本。但 Chris Evans 认为这些缓解措施都是从内存破坏漏洞触发后的副作用(side effect)角度出发的，并不是内存破坏本身，他这篇 Blog 介绍的就是他关于如何对抗内存破坏漏洞本身的思考：
+ <a href="https://scarybeastsecurity.blogspot.com/2017/05/are-we-doing-memory-corruption.html" rel="nofollow">https://scarybeastsecurity.blogspot.com/2017/05/are-we-doing-memory-corruption.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via 安全客</p> -->
+<p>XuanwuSpider via 安全客</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> MalwareAnalysis </i>]  WannaCry（想哭勒索蠕虫）技术分析，来自安全客： 
+<a href="http://bobao.360.cn/learning/detail/3860.html" rel="nofollow">http://bobao.360.cn/learning/detail/3860.html</a>  
+还有一篇相关分析： 
+ <a href="http://baesystemsai.blogspot.com/2017/05/wanacrypt0r-ransomworm.html" rel="nofollow">http://baesystemsai.blogspot.com/2017/05/wanacrypt0r-ransomworm.html</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via twitter</p> -->
+<p>XuanwuSpider via twitter</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Mobile </i>]  手机、Flash、SSD 都有一个加密的类 TPM 区域，称为 RPMB，可以存储一个不可复写的 Key: 
+<a href="https://twitter.com/dragosr/status/864342884606066688" rel="nofollow">https://twitter.com/dragosr/status/864342884606066688</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via freebuf</p> -->
+<p>XuanwuSpider via freebuf</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Others </i>]  某云用户网站入侵应急响应： <a href="http://www.freebuf.com/articles/network/134372.html" rel="nofollow">http://www.freebuf.com/articles/network/134372.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via hacks.mozilla.org</p> -->
+<p>XuanwuSpider via hacks.mozilla.org</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Programming </i>]  JavaScript JIT 编译器是如何工作的： 
+<a href="https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/" rel="nofollow">https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/16/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/17/index.html">2017/05/17</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/18/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

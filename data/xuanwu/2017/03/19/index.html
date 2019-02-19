@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/03/19" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/03/19</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+    color: #a7a7a7;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 15px;
+    /*color: #a7a7a7;*/
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.singlefeedtext p{
+    font-size: 15px;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        //console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        //console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            //console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/03/18/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/03/19/index.html">2017/03/19</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/03/20/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Scott Bauer @ScottyBauer1</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  <a href="https://goo.gl/hLE4JO" rel="nofollow">https://goo.gl/hLE4JO</a>
+PoCs for Android Vulns:
+CVE-2017-0451
+CVE-2017-0504
+CVE-2017-0516
+CVE-2017-0518
+CVE-2017-0519
+CVE-2017-0521</p>
+<div class="translated" id="255298">
+<p>﻿"Scott Bauer 公布了 5 个 Android 内核漏洞的 PoC（CVE-2017-0451/CVE-2017-0504/CVE-2017-0516/CVE-2017-0518/CVE-2017-0521）：   <a href="https://t.co/7UhKxTIVC9" rel="nofollow">https://t.co/7UhKxTIVC9</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  NotSoSecure @notsosecure </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  New #NotSoSecure blog:
+Pentesting Android Apps With FRIDA
+
+<a href="https://www.notsosecure.com/pentesting-android-apps-using-frida/" rel="nofollow">https://www.notsosecure.com/pentesting-android-apps-using-frida/</a></p>
+<div class="translated" id="255069">
+<p>﻿"使用 Frida 对 Android 应用进行渗透测试：   <a href="https://t.co/nDF4rQl9ZI" rel="nofollow">https://t.co/nDF4rQl9ZI</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Mobile Security @m0bile_security </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  #Nexus6P/#Nexus running #Nougat pwned with a complete #exploit chain #mobilesecurity #androidsecurity  #CSW2017 <a href="https://t.co/lalTTJvpz3" rel="nofollow">https://t.co/lalTTJvpz3</a></p>
+<div class="translated" id="255190">
+<p>﻿"Pwn2Own Mobile 2016 比赛中，我们是如何 PWN 掉运行 Android Nougat 的 Nexus6P/Pixel 手机的，来自 CanSecWest 2017 大会腾讯
+keen lab：   <a href="https://t.co/lalTTJvpz3" rel="nofollow">https://t.co/lalTTJvpz3</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Bad SSL :  <a href="https://badssl.com/" rel="nofollow">https://badssl.com/</a></p>
+<div class="translated" id="255280">
+<p>﻿"用于检测浏览器对 SSL 加密套件支持情况的一个网站:   <a href="https://t.co/mf2rL1FwGH" rel="nofollow">https://t.co/mf2rL1FwGH</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Francisco Alonso @revskills</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Conference </i>]  CanSecWest 2017 slides <a href="https://www.slideshare.net/mobile/CanSecWest" rel="nofollow">https://www.slideshare.net/mobile/CanSecWest</a></p>
+<div class="translated" id="255028">
+<p>﻿"CanSecWest 2017 大会议题幻灯片发出：   <a href="https://t.co/4qTd4ht9ub" rel="nofollow">https://t.co/4qTd4ht9ub</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Santosh Nagarakatte @santoshgnag </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Fuzzing </i>]  Fuzzing the OpenSSH daemon using AFL. <a href="http://vegardno.blogspot.fr/2017/03/fuzzing-openssh-daemon-using-afl.html" rel="nofollow">http://vegardno.blogspot.fr/2017/03/fuzzing-openssh-daemon-using-afl.html</a></p>
+<div class="translated" id="255181">
+<p>﻿"如何 fuzz OpenSSH daemon（sshd）：   <a href="https://t.co/eJfNvHrJCj" rel="nofollow">https://t.co/eJfNvHrJCj</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Industry News </i>]  McDonalds India is leaking 2.2 million users data <a href="https://hackernoon.com/mcdonalds-india-is-leaking-2-2-million-users-data-d5758b2eb3f8#.waev8il90" rel="nofollow">https://hackernoon.com/mcdonalds-india-is-leaking-2-2-million-users-data-d5758b2eb3f8#.waev8il90</a></p>
+<div class="translated" id="255081">
+<p>﻿"麦当劳印度区域网上订餐 app 泄漏 220 万用户数据，包括用户名、手机号、地址等个人信息：   <a href="https://t.co/7UQWF03woP" rel="nofollow">https://t.co/7UQWF03woP</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> IoTDevice </i>]  Wiretapping End-to-End Encrypted VoIP Calls : Real-World Attacks on ZRTP : <a href="https://www.ibr.cs.tu-bs.de/papers/schuermann-popets2017.pdf" rel="nofollow">https://www.ibr.cs.tu-bs.de/papers/schuermann-popets2017.pdf</a> (pdf) <a href="https://t.co/JGnaxphbIT" rel="nofollow">https://t.co/JGnaxphbIT</a></p>
+<div class="translated" id="255254">
+<p>﻿"窃听端到端加密 VoIP 呼叫之攻击现实世界中的 ZRTP 协议 :   <a href="https://t.co/Tmk4LS26df" rel="nofollow">https://t.co/Tmk4LS26df</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C7Np1gXVAAEM47X.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/C7Np1gXVAAEM47X.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MachineLearning </i>]  Building Safe AI : A Tutorial on Encrypted Deep Learning :  <a href="https://iamtrask.github.io/2017/03/17/safe-ai/" rel="nofollow">https://iamtrask.github.io/2017/03/17/safe-ai/</a> cc @ iamtrask</p>
+<div class="translated" id="255285">
+<p>﻿"构建安全 AI 教程之加密的深度学习︰   <a href="https://t.co/7bsB0SrA3w" rel="nofollow">https://t.co/7bsB0SrA3w</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Escaping from Restricted Shell and Gaining Root Access to SolarWinds Log &amp; Event Manager (SIEM) Product:… <a href="https://twitter.com/i/web/status/843135215916654592" rel="nofollow">https://twitter.com/i/web/status/843135215916654592</a></p>
+<div class="translated" id="255259">
+<p>﻿"意外之旅 4 之 SIEM（SolarWinds Log＆Event Management）漏洞挖掘: 从受限的 Shell 中逃逸并提升至 root 权限：   <a href="https://pentest.blog/unexpected-journey-4-escaping-from-restricted-shell-and-gaining-root-access-to-solarwinds-log-event-manager-siem-product/" rel="nofollow">https://pentest.blog/unexpected-journey-4-escaping-from-restricted-shell-and-gaining-root-access-to-solarwinds-log-event-manager-siem-product/</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  mysql-unsha1 : Authenticate against a MySQL server without knowing the cleartext password : <a href="https://github.com/cyrus-and/mysql-unsha1" rel="nofollow">https://github.com/cyrus-and/mysql-unsha1</a> cc @ cyrus_and</p>
+<div class="translated" id="255257">
+<p>﻿"mysql-unsha1: 在不知道 MySQL 明文密码的情况下绕过认证︰   <a href="https://t.co/y7Rl1L45jL" rel="nofollow">https://t.co/y7Rl1L45jL</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Protocol </i>]  Cisco IOS Remote Code Execution Vulnerability -&gt; <a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170317-cmp" rel="nofollow">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170317-cmp</a>, (Sat, Mar 18th) <a href="https://isc.sans.edu/diary/Cisco+IOS+Remote+Code+Execution+Vulnerability+-%3E+https:tools.cisco.comsecuritycentercontentCiscoSecurityAdvisorycisco-sa-20170317-cmp/22195" rel="nofollow">https://isc.sans.edu/diary/Cisco%2BIOS%2BRemote%2BCode%2BExecution%2BVulnerability%2B-%3E%2Bhttps%3Atools.cisco.comsecuritycentercontentCiscoSecurityAdvisorycisco-sa-20170317-cmp/22195</a></p>
+<div class="translated" id="255080">
+<p>﻿" Cisco IOS 和 IOS XE 软件群集管理协议存在远程代码执行漏洞（CVE-2017-3881）：   <a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170317-cmp" rel="nofollow">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170317-cmp</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Ulf Frisk @UlfFrisk </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  DMA into SMM on high-end servers using #PCILeech. Interesting #CanSecWest prez <a href="https://www.slideshare.net/CanSecWest/privilege-escalation-on-highend-servers-due-to-implementation-gaps-in-cpu-hotadd-flow" rel="nofollow">https://www.slideshare.net/CanSecWest/privilege-escalation-on-highend-servers-due-to-implementation-gaps-in-cpu-hotadd-flow</a></p>
+<div class="translated" id="255011">
+<p>﻿"滥用 Intel Hot-Add（无需断电，热插拔）特性的漏洞实现数据中心服务器的提权，来自 CanSecWest 2017 会议：   <a href="https://t.co/tQiQ4wNRG9" rel="nofollow">https://t.co/tQiQ4wNRG9</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Web Security </i>]  XSSJacking : Abusing Self-XSS and Clickjacking to trigger XSS : <a href="https://github.com/dxa4481/XSSJacking" rel="nofollow">https://github.com/dxa4481/XSSJacking</a></p>
+<div class="translated" id="255266">
+<p>﻿"XSSJacking 之结合点击劫持与 Self-XSS 以触发 XSS 攻击示例：   <a href="https://t.co/hlggFj81V4" rel="nofollow">https://t.co/hlggFj81V4</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  iarce @4Dgifts </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  "Win2k Dark Composition: Attacking the Shadow part of Graphic subsystem" @pgboy &amp;amp; @zhong_sf 
+CanSecWest 2017 slides
+<a href="https://t.co/rjiEah2S5p" rel="nofollow">https://t.co/rjiEah2S5p</a></p>
+<div class="translated" id="255045">
+<p>﻿"Win32k 位图合成（Direct Composition）的攻击界面、漏洞挖掘和利用，来自 CanSecWest 2017 大会 360 vulcan 团队:   <a href="https://t.co/rjiEah2S5p" rel="nofollow">https://t.co/rjiEah2S5p</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Jason Fossen @JasonFossen </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Detecting and Preventing PowerShell Downgrade Attacks, by @ Lee_Holmes (#infosec #cybersecurity):  <a href="http://www.leeholmes.com/blog/2017/03/17/detecting-and-preventing-powershell-downgrade-attacks/" rel="nofollow">http://www.leeholmes.com/blog/2017/03/17/detecting-and-preventing-powershell-downgrade-attacks/</a></p>
+<div class="translated" id="255052">
+<p>﻿"PowerShell 降级攻击的检测与防御:   <a href="https://t.co/E1EtWmap6w" rel="nofollow">https://t.co/E1EtWmap6w</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Full Disclosure @SecLists</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  TS Session Hijacking / Privilege escalation all windows versions <a href="https://goo.gl/fb/fOnij0" rel="nofollow">https://goo.gl/fb/fOnij0</a> #FullDisclosure</p>
+<div class="translated" id="255101">
+<p>﻿"多用户环境下，Windows 本地管理员可以劫持其他用户的 Terminal Services Session：   <a href="https://t.co/UPUdgwCHQY" rel="nofollow">https://t.co/UPUdgwCHQY</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> WirelessSecurity </i>]  SYSTEM-level Persistence via Intel PROSet Wireless RpcRtRemote.dll Backdoor <a href="http://x42.obscurechannel.com/?p=378" rel="nofollow">http://x42.obscurechannel.com/?p=378</a></p>
+<div class="translated" id="255079">
+<p>﻿"Intel PROSet Wireless 软件包存在一个 DLL 劫持漏洞，通过 RpcRtRemote.dll 可以实现一个 SYSTEM 权限的常驻攻击：   <a href="https://t.co/hO0zOGLNQF" rel="nofollow">https://t.co/hO0zOGLNQF</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Pralhad Chaskar‏ @c0d3xpl0it</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> WirelessSecurity </i>]  Enterprise WIFI Hacking with Hostapd-WPE <a href="https://goo.gl/gC3tk4" rel="nofollow">https://goo.gl/gC3tk4</a> #WiFi #Hacking #Hostapd-wpe</p>
+<div class="translated" id="255208">
+<p>﻿" 利用 Hostapd-WPE 渗透企业无线网络:   <a href="https://t.co/mKs3na9IBE" rel="nofollow">https://t.co/mKs3na9IBE</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/03/18/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/03/19/index.html">2017/03/19</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/03/20/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

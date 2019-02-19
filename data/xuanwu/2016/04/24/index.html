@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/04/24" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/04/24</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/04/23/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/04/24/index.html">2016/04/24</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/04/25/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  The Ghost Dragon (APT group) <a href="https://blog.cylance.com/the-ghost-dragon" rel="nofollow">https://blog.cylance.com/the-ghost-dragon</a></p>
+<div class="translated" id="127283">
+<p>﻿"Ghost Dragon APT 组织，主要攻击目标为中国和俄罗斯。来自 Cylance 的分析：   <a href="https://t.co/tAJiJLMdCE" rel="nofollow">https://t.co/tAJiJLMdCE</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Luca Carettoni @_ikki </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  Possible Jenkins Project Infrastructure Compromise <a href="https://jenkins.io/blog/2016/04/22/possible-infra-compromise/" rel="nofollow">https://jenkins.io/blog/2016/04/22/possible-infra-compromise/</a></p>
+<div class="translated" id="127384">
+<p>﻿"Jenkins 项目基础设施可能被黑， 官方 Blog：   <a href="https://t.co/y1wzndcVuT" rel="nofollow">https://t.co/y1wzndcVuT</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Dαve Cheney @davecheney </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Conference </i>]  Here's the slides (with speaker notes) from my #gocon talk. #golang <a href="http://dave.cheney.net/paste/gocon-spring-2016.pdf" rel="nofollow">http://dave.cheney.net/paste/gocon-spring-2016.pdf</a> <a href="https://t.co/IwITZaapuW" rel="nofollow">https://t.co/IwITZaapuW</a></p>
+<div class="translated" id="127383">
+<p>﻿"如何正确地处理 Go 程序中的错误， 来自 GoCon 会议：   <a href="https://t.co/GGPr7HJZYR" rel="nofollow">https://t.co/GGPr7HJZYR</a> <a href="https://t.co/IwITZaapuW" rel="nofollow">https://t.co/IwITZaapuW</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/Cgsb8oEUgAAUFXR.jpg" target="_blank">
+<img src="Cgsb8oEUgAAUFXR.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Casey Smith @subTee</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Detect </i>]  Hunting Threats - [Blog Post]
+<a href="http://subt0x10.blogspot.com/2016/04/hunting-threats-regsvr32exe-example.html" rel="nofollow">http://subt0x10.blogspot.com/2016/04/hunting-threats-regsvr32exe-example.html</a>
+Feedback Welcome.</p>
+<div class="translated" id="127607">
+<p>﻿"以 regsvr32.exe 为例谈威胁检测：   <a href="https://t.co/pL4NaKxulu%C2%A0" rel="nofollow">https://t.co/pL4NaKxulu </a> 作者在 ThreatHunting 峰会上的演讲 《像实战一样训练》：   <a href="http://files.sans.org/summit/Threat_Hunting_Incident_Response_Summit_2016/PDFs/Train-Like-You-Fight-Casey-Smith-FirstBank.pdf" rel="nofollow">http://files.sans.org/summit/Threat_Hunting_Incident_Response_Summit_2016/PDFs/Train-Like-You-Fight-Casey-Smith-FirstBank.pdf</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Enno Rey @Enno_Insinuator </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Hardware </i>]  Talkng #SS7: hr's @ sidnext2none's cool @ WEareTROOPERS "The known unknowns of SS7 and beyond"
+<a href="https://www.ernw.de/download/TSD2016_Known_Unknowns_of_SS7.pdf" rel="nofollow">https://www.ernw.de/download/TSD2016_Known_Unknowns_of_SS7.pdf</a> <a href="https://t.co/u8sXd1apek" rel="nofollow">https://t.co/u8sXd1apek</a></p>
+<div class="translated" id="127620">
+<p>﻿"关于 SS7，那些我们不知道的事儿：   <a href="https://t.co/2BCGFGGkh6" rel="nofollow">https://t.co/2BCGFGGkh6</a> <a href="https://t.co/u8sXd1apek" rel="nofollow">https://t.co/u8sXd1apek</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/Cgu5pn8W0AI5m2v.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/Cgu5pn8W0AI5m2v.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  iOS/OS X ImageIO null pointer dereference : <a href="https://www.landaire.net/blog/apple-imageio-denial-of-service/" rel="nofollow">https://www.landaire.net/blog/apple-imageio-denial-of-service/</a></p>
+<div class="translated" id="127297">
+<p>﻿"iOS/OS X ImageIO 框架在解析 PNG 图片格式时触发空指针解引用拒绝服务 ︰   <a href="https://t.co/9QeCSZSG31" rel="nofollow">https://t.co/9QeCSZSG31</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> IoTDevice </i>]  Development of novel dynamic binary analysis techniques for the security analysis of embedded devices : <a href="http://www.eurecom.fr/en/publication/4637/download/rs-publi-4637.pdf" rel="nofollow">http://www.eurecom.fr/en/publication/4637/download/rs-publi-4637.pdf</a> (pdf)</p>
+<div class="translated" id="127305">
+<p>﻿"一种新的嵌入式设备动态二进制分析技术， Paper ︰   <a href="https://t.co/LIeedmyhU2%C2%A0" rel="nofollow">https://t.co/LIeedmyhU2 </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Zachary Cutlip @zcutlip </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mac OS X </i>]  Concise summary of x86_64 syscall calling convention on OS X, by @ schultzdustin.
+<a href="http://dustin.schultz.io/blog/2010/11/15/mac-os-x-64-bit-assembly-system-calls/" rel="nofollow">http://dustin.schultz.io/blog/2010/11/15/mac-os-x-64-bit-assembly-system-calls/</a></p>
+<div class="translated" id="127292">
+<p>﻿"OS X X86_64 syscall 调用约定简明总结：    <a href="https://t.co/iuWHJRwRuO" rel="nofollow">https://t.co/iuWHJRwRuO</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Jóseph Mlodzìanowskì @cedoxX</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  Cryptoworms: The future of ransomware hell <a href="http://www.computerworld.com/article/3055488/security/cryptoworms-the-future-of-ransomware-hell.html" rel="nofollow">http://www.computerworld.com/article/3055488/security/cryptoworms-the-future-of-ransomware-hell.html</a></p>
+<div class="translated" id="127502">
+<p>﻿"Cryptoworms - 不久以后，就会出现能够自我传播的勒索软件：   <a href="https://t.co/WmMvR7ZhV8" rel="nofollow">https://t.co/WmMvR7ZhV8</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Francisco Ribeiro @blackthorne </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Concurrent JavaScript — Introduction <a href="http://flip.it/x0kSl" rel="nofollow">http://flip.it/x0kSl</a></p>
+<div class="translated" id="127528">
+<p>﻿"并发 JavaScript 介绍：   <a href="https://t.co/k7NL6x2cCm" rel="nofollow">https://t.co/k7NL6x2cCm</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> ReverseEngineering </i>]  Reversing the petya ransomware with constraint solvers : <a href="http://0xec.blogspot.in/2016/04/reversing-petya-ransomware-with.html" rel="nofollow">http://0xec.blogspot.in/2016/04/reversing-petya-ransomware-with.html</a> <a href="https://t.co/zoYm3HImsl" rel="nofollow">https://t.co/zoYm3HImsl</a></p>
+<div class="translated" id="127307">
+<p>﻿"用约束求解器逆向 Petya 勒索软件 ︰   <a href="https://t.co/DD06EybFDz" rel="nofollow">https://t.co/DD06EybFDz</a> <a href="https://t.co/zoYm3HImsl" rel="nofollow">https://t.co/zoYm3HImsl</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/Cgs8oyrUcAMWT0H.jpg" target="_blank">
+<img src="Cgs8oyrUcAMWT0H.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Cryptocat rewritten from scratch : <a href="https://crypto.cat/" rel="nofollow">https://crypto.cat/</a></p>
+<div class="translated" id="127299">
+<p>﻿"Cryptocat - 开源聊天工具，默认启用加密，保护隐私:   <a href="https://t.co/YpAR4dGujB" rel="nofollow">https://t.co/YpAR4dGujB</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>dragosr @dragosr</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  htcap, crawler that grabs Ajax calls, DOM changes, etc... dumps to sql-lite, calls external scanners (python) <a href="http://goo.gl/sPl3Yq" rel="nofollow">http://goo.gl/sPl3Yq</a></p>
+<div class="translated" id="127579">
+<p>﻿"htcap - Web 应用爬虫，通过劫持 Ajax 调用、监控 DOM 树的变化，递归爬取应用的所有页面：   <a href="https://t.co/3kRB48LxFs" rel="nofollow">https://t.co/3kRB48LxFs</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>dragosr @dragosr</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  SAM registry hive parser (python) <a href="http://goo.gl/pUkSs9" rel="nofollow">http://goo.gl/pUkSs9</a></p>
+<div class="translated" id="127585">
+<p>﻿"SAM 注册表 Hive 文件解析工具（Python):    <a href="https://t.co/gkTRgs9LwA" rel="nofollow">https://t.co/gkTRgs9LwA</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  PortcullisLabs @portcullislabs </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Downgrading the RDP protocol by example: <a href="https://labs.portcullis.co.uk/blog/downgrading-rdp-connections-and-how-to-avoid-it/" rel="nofollow">https://labs.portcullis.co.uk/blog/downgrading-rdp-connections-and-how-to-avoid-it/</a></p>
+<div class="translated" id="127530">
+<p>﻿"RDP 协议降级攻击以及如何避免 ︰   <a href="https://t.co/TFGkEdctYu" rel="nofollow">https://t.co/TFGkEdctYu</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Kelly Sommers @kellabyte </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  The architecture behind how Linux binaries running natively on Windows 10 works <a href="https://blogs.msdn.microsoft.com/wsl/2016/04/22/windows-subsystem-for-linux-overview/" rel="nofollow">https://blogs.msdn.microsoft.com/wsl/2016/04/22/windows-subsystem-for-linux-overview/</a></p>
+<div class="translated" id="127580">
+<p>﻿"Windows 10 Linux 子系统的架构 - Linux 二进制文件时在 Windows 10 系统是如何工作的(Pico Process)：   <a href="https://t.co/mRNBZawrZb" rel="nofollow">https://t.co/mRNBZawrZb</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/04/23/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/04/24/index.html">2016/04/24</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/04/25/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/08/12" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/08/12</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/08/11/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/08/12/index.html">2016/08/12</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/08/13/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Di Shen @returnsme</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Disclosure of CVE-2016-3842,Use-after-free vulnerability in Qualcomm MSM GPU driver <a href="http://retme.net/index.php/2016/08/11/cve-2016-3842.html" rel="nofollow">http://retme.net/index.php/2016/08/11/cve-2016-3842.html</a></p>
+<div class="translated" id="171316">
+<p>﻿" 高通 MSM GPU 驱动的一个 UAF 漏洞（CVE-2016-3842）：   <a href="https://t.co/uVcyS1BLxk" rel="nofollow">https://t.co/uVcyS1BLxk</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Huntress Labs @HuntressLabs </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  NetTraveler side-loads using Symantec EXE, hijacks legit services for #persistence. <a href="http://researchcenter.paloaltonetworks.com/2016/01/nettraveler-spear-phishing-email-targets-diplomat-of-uzbekistan/" rel="nofollow">http://researchcenter.paloaltonetworks.com/2016/01/nettraveler-spear-phishing-email-targets-diplomat-of-uzbekistan/</a> #DFIR <a href="https://t.co/suQ3y0VaaC" rel="nofollow">https://t.co/suQ3y0VaaC</a></p>
+<div class="translated" id="171452">
+<p>﻿"NetTraveler 钓鱼邮件攻击乌兹别克斯坦外交官员：    <a href="https://t.co/xDDbZG9oR2" rel="nofollow">https://t.co/xDDbZG9oR2</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CpgVHNRWYAA16hO.png" target="_blank">
+<img src="CpgVHNRWYAA16hO.png">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Project Zero Bugs @ProjectZeroBugs </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Microsoft Internet Explorer: Read AV in MSHTML!CMultiReadStreamLifetimeManager::ReleaseThreadStateInternal <a href="https://code.google.com/p/google-security-research/issues/detail?id=827" rel="nofollow">https://code.google.com/p/google-security-research/issues/detail?id=827</a></p>
+<div class="translated" id="171543">
+<p>﻿" IE 浏览器 MSHTML!CMultiReadStreamLifetimeManager::ReleaseThreadStateInternal 访问违例漏洞（CVE-2016-3288），来自 Project Zero Issue 827：   <a href="https://t.co/9vaT1xw4NJ" rel="nofollow">https://t.co/9vaT1xw4NJ</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Abdulrhman Alqabandi @Qab</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Chrome social engineering - Fool users into opening downloaded executable PoC: <a href="http://pastebin.com/raw/jb8Pp3AL" rel="nofollow">http://pastebin.com/raw/jb8Pp3AL</a> - #justmightwork</p>
+<div class="translated" id="171507">
+<p>﻿" 利用社会工程学方法诱导用户点击下载的可执行文件:   <a href="http://pastebin.com/raw/jb8Pp3AL" rel="nofollow">http://pastebin.com/raw/jb8Pp3AL</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Steve Weis @sweis </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Conference </i>]  CCS'16 accepted papers posted: <a href="https://www.sigsac.org/ccs/CCS2016/accepted-papers/" rel="nofollow">https://www.sigsac.org/ccs/CCS2016/accepted-papers/</a>
+
+Interesting there are multiple order-revealing/order-preserving crypto papers</p>
+<div class="translated" id="171215">
+<p>﻿"ACM CCS 2016 会议已审核通过的议题列表︰   <a href="https://t.co/YUDcHiyI14" rel="nofollow">https://t.co/YUDcHiyI14</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  MWR InfoSecurity @mwrinfosecurity </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  MWR releases Needle, its new open source modular framework for conducting security assessments of iOS applications: <a href="http://mwr.to/zr9x" rel="nofollow">http://mwr.to/zr9x</a></p>
+<div class="translated" id="171495">
+<p>﻿" Needle - NCC Group 开源的一个 iOS APP 安全性评估框架︰   <a href="https://t.co/rbKyNaas7U" rel="nofollow">https://t.co/rbKyNaas7U</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Chia-Chih Wu @chiachih_wu</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  Patch for CVE-2016-3857: <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=7de249964f5578e67b99699c5f0b405738d820a2" rel="nofollow">https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=7de249964f5578e67b99699c5f0b405738d820a2</a></p>
+<div class="translated" id="171223">
+<p>﻿" Linux 内核本地提权漏洞（CVE-2016-3857）的补丁提交日志︰   <a href="https://t.co/YwmzxYVeNx" rel="nofollow">https://t.co/YwmzxYVeNx</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Edgar Barbosa @embarbosa </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  "An In-Depth Analysis of Disassembly
+on Full-Scale x86/x64 Binaries" <a href="https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_andriesse.pdf" rel="nofollow">https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_andriesse.pdf</a> /cc @ capstone_engine</p>
+<div class="translated" id="171396">
+<p>﻿" x86/x64 二进制文件汇编代码静态深度分析，Paper：   <a href="https://t.co/l7FmQeBSvL" rel="nofollow">https://t.co/l7FmQeBSvL</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>jsoo @_jsoo_</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  BlueStacks App Player Privilege Escalation - <a href="http://blog.talosintel.com/2016/08/bluestacks-app-player-vulnerability.html" rel="nofollow">http://blog.talosintel.com/2016/08/bluestacks-app-player-vulnerability.html</a>
+by @ _Icewall</p>
+<div class="translated" id="171278">
+<p>﻿"BlueStacks 播放器应用在创建注册表键时权限控制不正确，导致可以以 SYSTEM 执行任意代码（CVE-2016-4288）：   <a href="https://t.co/AO8x5cVolC" rel="nofollow">https://t.co/AO8x5cVolC</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Unicorn Engine @unicorn_engine </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  A great talk by @ sk3wl in the last #DEFCON on how to integrate Unicorn engine with IDA Pro for code emulation: <a href="https://media.defcon.org/DEF%20CON%2024/DEF%20CON%2024%20presentations/DEFCON-24-Eagle-Sk3Wldbg-Emulating-with-Ida.pdf" rel="nofollow">https://media.defcon.org/DEF%20CON%2024/DEF%20CON%2024%20presentations/DEFCON-24-Eagle-Sk3Wldbg-Emulating-with-Ida.pdf</a></p>
+<div class="translated" id="171631">
+<p>﻿" sk3wldbg - 基于 Unicorn 引擎的 IDA Pro 模拟执行插件，作者在 DefCon 会议的演讲︰   <a href="https://t.co/G3EO6VBMas%C2%A0" rel="nofollow">https://t.co/G3EO6VBMas </a> 代码：   <a href="https://github.com/cseagle/sk3wldbg" rel="nofollow">https://github.com/cseagle/sk3wldbg</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Nico Waisman @nicowaisman </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Web Security </i>]  Found the paper on XS Search Timing Attack (BH 2016) <a href="http://u.cs.biu.ac.il/~herzbea/security/15-01-XSSearch.pdf" rel="nofollow">http://u.cs.biu.ac.il/~herzbea/security/15-01-XSSearch.pdf</a> / <a href="https://www.blackhat.com/docs/us-16/materials/us-16-Gelernter-Timing-Attacks-Have-Never-Been-So-Practical-Advanced-Cross-Site-Search-Attacks.pdf" rel="nofollow">https://www.blackhat.com/docs/us-16/materials/us-16-Gelernter-Timing-Attacks-Have-Never-Been-So-Practical-Advanced-Cross-Site-Search-Attacks.pdf</a> recommended by @  kiqueNissim</p>
+<div class="translated" id="171287">
+<p>﻿" 跨站搜索（Cross-Site Search）攻击，来自 BlackHat 会议的一篇演讲：   <a href="https://t.co/wuXNebXTKk" rel="nofollow">https://t.co/wuXNebXTKk</a>   作者在 2015 年曾经发表过一篇与此有关的 Paper：   <a href="http://u.cs.biu.ac.il/~herzbea/security/15-01-XSSearch.pdf%C2%A0" rel="nofollow">http://u.cs.biu.ac.il/~herzbea/security/15-01-XSSearch.pdf </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Backdoor keys allow attackers to the bypass UEFI Secure Boot <a href="http://securityaffairs.co/wordpress/50182/hacking/backdoor-keys-uefi-secure-boot.html" rel="nofollow">http://securityaffairs.co/wordpress/50182/hacking/backdoor-keys-uefi-secure-boot.html</a></p>
+<div class="translated" id="171280">
+<p>﻿"微软不小心泄漏了 Windows UEFI 安全启动的密钥，借此攻击者可以绕过 UEFI 的安全启动保护，来自 SecurityAffairs 的报道：   <a href="https://t.co/BMeKpKrYg4" rel="nofollow">https://t.co/BMeKpKrYg4</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>jsoo @_jsoo_</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Abusing Kerberos to NTLM fallback to defeat BitLocker FDE - <a href="https://blog.ahmednabeel.com/abusing-kerberos-to-ntlm-fallback-to-defeat-windows-authentication/" rel="nofollow">https://blog.ahmednabeel.com/abusing-kerberos-to-ntlm-fallback-to-defeat-windows-authentication/</a> by @ NabeelAhmedBE</p>
+<div class="translated" id="171217">
+<p>﻿"滥用 Kerberos NTLM fallback，绕过 BitLocker 全盘加密，这篇 Blog 介绍的是作者对 MS16-014 补丁的绕过方法：   <a href="https://t.co/Ml64VJIMfB" rel="nofollow">https://t.co/Ml64VJIMfB</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/08/11/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/08/12/index.html">2016/08/12</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/08/13/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

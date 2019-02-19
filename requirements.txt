@@ -1,0 +1,6 @@
+tldextract
+requests
+beautifulsoup4
+lxml
+matplotlib
+baidu-aip

@@ -1,0 +1,1692 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+
+
+        <script nonce="2139940995" type="text/javascript">
+            window.logs = {
+                pagetime: {}
+            };
+            window.logs.pagetime['html_begin'] = (+new Date());
+        </script>
+        <title>
+ 浅谈大型互联网的企业入侵检测及防护策略
+</title>
+        
+<style>.radius_avatar{display:inline-block;background-color:#fff;padding:3px;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;overflow:hidden;vertical-align:middle}.radius_avatar img{display:block;width:100%;height:100%;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;background-color:#eee}.rich_media_inner{word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.rich_media_area_primary{padding:20px 16px 12px;background-color:#fafafa}.rich_media_area_primary.voice{padding-top:66px}.rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{color:rgba(0,0,0,0.3);background-color:#fafafa}.rich_media_area_extra{padding:0 16px 24px}.rich_media_extra{padding-top:30px}.mpda_bottom_container .rich_media_extra{padding-top:24px}.mpda_bottom_container .rich_media_extra .mpad_more_list{right:-10px}html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;line-height:1.6}body{-webkit-touch-callout:none;font-family:-apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif;color:#333;background-color:#f2f2f2;letter-spacing:.034em}h1,h2,h3,h4,h5,h6{font-weight:400;font-size:16px}*{margin:0;padding:0}a{color:#576b95;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_title{font-size:22px;line-height:1.4;margin-bottom:14px}@supports(-webkit-overflow-scrolling:touch){.rich_media_title{font-weight:700}}.rich_media_meta_list{margin-bottom:22px;line-height:20px;font-size:0;word-wrap:break-word;word-break:break-all}.rich_media_meta_list em{font-style:normal}.rich_media_meta{display:inline-block;vertical-align:middle;margin:0 10px 10px 0;font-size:15px;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_meta.icon_appmsg_tag{margin-right:4px}.rich_media_meta.meta_tag_text{margin-right:0}.rich_media_meta_primary{display:block;margin-bottom:10px;font-size:15px}.meta_original_tag{padding:0 .5em;font-size:12px;line-height:1.4;background-color:#f2f2f2;color:#888}.meta_enterprise_tag img{width:30px;height:30px!important;display:block;position:relative;margin-top:-3px;border:0}.rich_media_meta_link{color:#576b95}.rich_media_meta_text{color:rgba(0,0,0,0.3)}.rich_media_meta_text.rich_media_meta_split{padding-left:10px}.rich_media_meta_text.rich_media_meta_split:before{position:absolute;top:50%;left:0;margin-top:-6px;content:' ';display:block;border-left:1px solid #888;width:200%;height:130%;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0}.rich_media_meta_text.article_modify_tag{position:relative}.rich_media_meta_nickname{position:relative}.rich_media_thumb_wrp{margin-bottom:6px}.rich_media_thumb_wrp .original_img_wrp{display:block}.rich_media_thumb{display:block;width:100%}.rich_media_content{overflow:hidden;color:#333;font-size:17px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;text-align:justify;position:relative;z-index:0}.rich_media_content *{max-width:100%!important;box-sizing:border-box!important;-webkit-box-sizing:border-box!important;word-wrap:break-word!important}.rich_media_content p{clear:both;min-height:1em}.rich_media_content em{font-style:italic}.rich_media_content fieldset{min-width:0}.rich_media_content .list-paddingleft-2{padding-left:2.2em}.rich_media_content .list-paddingleft-2 .list-paddingleft-2{padding-left:30px}.rich_media_content blockquote{margin:0;padding-left:10px;border-left:3px solid #dbdbdb}img{height:auto!important}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:portrait){.rich_media_area_extra{padding-bottom:34px}}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:landscape){.rich_media_area_primary{padding:20px 60px 15px 60px}.rich_media_area_extra{padding:0 60px 21px 60px}}@media screen and (min-width:1024px){.rich_media_area_primary_inner,.rich_media_area_extra_inner{max-width:677px;margin-left:auto;margin-right:auto}.rich_media_area_primary{padding-top:32px}}.appmsg_share_notice{font-size:16px;color:#888;position:relative;padding:1.25em 0;margin-bottom:1.75em}.appmsg_share_notice:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice_hd{font-weight:700;padding-bottom:.2em}.cell{padding:.8em 0;display:block;position:relative}.cell_hd,.cell_bd,.cell_ft{display:table-cell;vertical-align:middle;word-wrap:break-word;word-break:break-all;white-space:nowrap}.cell_primary{width:2000px;white-space:normal}.flex_cell{padding:10px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.flex_cell_primary{width:100%;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;box-flex:1;flex:1}.original_tool_area{display:block;padding:.75em 1em 0;-webkit-tap-highlight-color:rgba(0,0,0,0);color:#333;border:1px solid #eaeaea;margin:20px 0}.original_tool_area .tips_global{position:relative;padding-bottom:.5em;font-size:15px}.original_tool_area .tips_global:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dbdbdb;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:27px;height:27px;padding:0;margin-right:.5em}.original_tool_area .radius_avatar img{height:100%!important}.original_tool_area .flex_cell_bd{width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal}.original_tool_area .flex_cell_ft{font-size:14px;color:#888;padding-left:1em;white-space:nowrap}.original_tool_area .icon_access:after{content:" ";display:inline-block;height:8px;width:8px;border-width:1px 1px 0 0;border-color:#cbcad0;border-style:solid;transform:matrix(0.71,0.71,-0.71,0.71,0,0);-ms-transform:matrix(0.71,0.71,-0.71,0.71,0,0);-webkit-transform:matrix(0.71,0.71,-0.71,0.71,0,0);position:relative;top:-2px;top:-1px}.rich_media_global_msg{position:fixed;top:0;left:0;right:0;padding:.85em 35px .85em 15px;z-index:2;background-color:#c6e0f8;color:#888;font-size:12px}.rich_media_global_msg .icon_closed{position:absolute;right:15px;top:50%;margin-top:-5px;line-height:300px;overflow:hidden;-webkit-tap-highlight-color:rgba(0,0,0,0);background:transparent url(//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_appmsg_msg_closed_sprite.2x42f400.png) no-repeat 0 0;width:11px;height:11px;vertical-align:middle;display:inline-block;-webkit-background-size:100% auto;background-size:100% auto}.rich_media_global_msg .icon_closed:active{background-position:0 -17px}.rich_media_global_msg.voice{color:#1aad19;background-color:#e8f6e8;padding-left:43.3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.rich_media_global_msg.voice .ic_voice{position:absolute;top:50%;margin-top:-10px;left:15px;display:inline-block;width:13.3px;height:18.3px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAA3CAYAAAB+fggjAAAAAXNSR0IArs4c6QAACb9JREFUaAW9WX9wVMUd3917d5cf/Agp1OTuQgIlQqUoI1JI1Noojg2I+VU7hVrtDDpadRypgzKjU52x09KOdsS20ypSO/WPWttcAqhTOlSoU4FIoRUn0wEZIMndBUkwGEhyv97bfvaS97L77t3lHYUuc+z3935397vf/e4LJZfQnuPPsW0d25ZQzr9mELKSUnIVzHxB/Dh+lBOKf4OEk0FOyQAl/CyltIt5tL29d/V2FzIkLUQ4FA7dwon+KCF0Fee8rBBdS5aSs/D+PUrYbyKtkb9b9BzAlA7CERrqDN1DOH8C8HU57FwSGat6kBGypbcluhMwFj+75XWwemf1vHQqtZ0T3pCtelkp73uJ79s9bT39dqs5HQyFK79jcPIKFErtSgLHjPvQHQB0EFt2hDE2QHU6RMvpkODrw3o50Uk5p3w2N/SlUKhHTNZjskHBz2pi6ylbH22J/k3mOToYCAceIYT/AgYVPhxJQTkMQ792Ez/yQCY8d0fgRl0nj8J2G5z1mvSJ3qCMrYOTb5l0xQFBDIUDjxmcbzUFJnu621/kf/DUmlM9k7RLh4LtwRChxquck0bFCqWjxENuijXF/iXoioNVnZU36wZ5D7PTTCWsWhyp4uFYa+x1k3Y5ezj6oNgtdTVpL0Lo+mhr9BwO0Xib+/bcWYZB35Sdg/sXsOSNV8o5MXK0LfoKYXQDxpJOMZ8L1g8E33JQT6aeQRoJCOJEMxjxfCvSEtlnEq5Uj5h7Ayv2I8U+5w9du/va0oyD896ZV004RQKebIzQ53EQ/jJJubJQhUa2YBXPmqNgy8vPjZ67N+NgMh6/HwSfyURgniwqLvmJif8/+sNrY6O4XV5WxjKMuvHDQOl9uCksHmX0xydWn0hYBJfAgncXzBhNjjZSnX8Fq3ENdmWWUMUhS2Ebv5HrtjDNg/+B5IY4wos0cVukUskqUwj9xfKS2W9GSEwi5QdxFS5BMn54dGzkHkhOy0x18j9COY1O5VxmhGJylIxMjgUTC7WUkfrqJAkQpfuP3nFUElO4WUgwHHza0HU1wG1SGOi0jeSI+kf92hgZlXg0yajBV0gUwri4vqZud/O7PbhxkGiNvM5NWHKV3NN8LGQbuVdDsYIVzOzHOI+ygzYhR/RAxwdbELcPZDEp+Q+2YQcS2L+Zwc4gdSUQS7Oz5BwIKUqWyq5ApEdDsVmhBKaHnHDQVUg1uwKLkkm+USEScsbjId/ra+7fbaMThMHVdpoTjuyxXloqcUg+Eqe4WBb26/5hGXeCkynyfdA9Fo/SQeZlN/StjUQtmgQUFxVnKhyJlAUGOgP13OC3ygxGWZhhSYtkYqIicUHGnWCUluoFz8mzkRzOCf14Wfyikx2ThvQ0B6XZdvhi1QaoAfZHmiMf40xMJmih4BvxWQnbNCD3i/cunoYab4FMQwr5o4zb4Uh9ZMxOM3Fsf91YfPQfOAeLTJrouYc8K3rEII0ikBcKRLTEhUQNuo8E7NSGh4dnyDOFzIioOpxkZdqyXYGSAV2rMYjhIUamkL2ZcANvG+MWWS4DU/parDm2R8AiBj/Bz3IQe14DPKeDRho1hNyonFplhgp/mmaNhpH6s0VVToNFxR7TPcVFJVZdgMG4cNBq0LvRQhyA2vLaMyDrFouTL169KzBlGkEofdnScQYMXBI/raiuXC1fs4wz2iXLI+U0y7gd3tewL41IVhLvmM6X2eWycM7nZ9EEAXWgWDWPpjWg7tx8+IbD4llhNTadTn8XcWgVBphprbhbLQkngJK/ymTdoE/IuDPME5jYSYx1HLn3EH6/B77Rq/m+FG2L3d7X1Pe+kx5kCBJp4G0clDWmAJTD0db+NhO398GO4G3cMDJBbPIY9bShfgyb+OXqMwGPV9rrskFsc6t4fck0GRZPQ5GnZBpO4x/wvrAmKfP+FzjjYF9zn5i58s0ET8MX8hnGc+BxOGnFi8innBg7UUBsFaV6Pt1CeBMrKD73qG8CbPnKUHvg/lzG+tr6DlGWufJkEWQp/tjgyMBJPF+fWrhj4XSZeSlwJgaFIhyioY7gHvS3moYyK6TRO6JN0b0mzd6HOgIbEBK/gp7fzsOBGMLUX2Z+bWvvnb1T3sd2fYFbDgoET8/56UTqKEBrizDIeY1463tae1BGObeq9qrlBtXb4aRcmVvCmOjneFq+UFZW9lJ3Q3fee9lSmgAUBwUNd+N9CPjfTfDHO0pO+z1FK081nfpUoUuIuKPPD322Gav5OMjWBCURRBGN4GH0QCGvxSwHhcFguPLnGEip97AKXd5y39dPN5yOy4PaYXGrjKToRsTMIzg4M+38cZz+LNYWe8qZp1Izh0QlEVLfctMmzNb6gCP4GGxFcij5W7usHT++NjaI4uHpadr0KkbpZvAH7DKw9iRi98lsejbFcQWF2LJ/LvOe6Yl14m5eLavhU8gqkQdlWj5YnOSL+sXNWNFNmKT1NQsLkGAez3zcIHmfj44rKAYUd2Jxcek6HCP1cHD+Ig5DzonZnT3WdOyCWFGukRUIwkGTL069kdYz319MmlOf00EhjKpiWKPku7IiDF9X3RHMecvIsjIsPqdh1ewO3SXLOMF5HRQKvS39h5GNOmVlnZP1Mu4W9pZ5/4TDZh0ybHkt3iKOqcm0OaWDQpB52DZTQfQo+Vtl3C08kQGO2OStYtlGz6CuHJxZO3MPYnHYMsDJVSKpW3ghAOXKsxaPoup86q4c7F7cncSyHZANGen0Shl3C+PSPy/L4qmZ97525aAwiMLgQ8Uwp8tl3C2MASff00KJMRW3GXLtIFbwY1kXp/kaGXcL42AoDqHit6p5JxuuHfQwj1IvIhFO9QhyGk/QpskM/C3Gyo0y3YRdOzgnNOcTHJS0qYgVrBIfLE28gF75ToN3bySfrmsHM68tTo7JxuKJ+PUyPhWcqbQ5XarI+TRlZxQeENcOjitS5dMc5/oqu8F8+ODI4FrEoPVpBTfL8akK2YIc9DCiFAkoyTbUdNSU5XPK5Im/MQPeZOKZnpNdCu6AFOTgrJLZO2FDrogrUjyxPbQ/VOxgWyG9Fn71h6hoJkMC8exlvl8qQg6I66rE1A22Vz6PEuwZExe92CrQtmmU72U+fzQ9K/15XV1dsuudrhlc50t0XX8Izq1TdAh5I9rWf69Mc4ILdlCU9kNDn32ICvZS0wySAY2W+shSUdw6OSXTCtpioSgePZrPeydWTUncstF8MPRw1dFvunFO2CnYQaGEk3cSn8iWYyVeBGoImqtG6RHxQsQfEJVskE+34C22GxOfb8fiY40owtaAJ0qnciTxcvSlE7VfBPX3IQ8lb/U2R3dgBRGu7tt/AYJkZEGv/oaXAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.rich_media_global_msg.voice .icon_more{position:absolute;right:15px;top:50%;margin-top:-6.5px;width:8px;height:13px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAmCAYAAADeB1slAAAAAXNSR0IArs4c6QAAA49JREFUSA2tVk1IVFEUPveOmhQk1ibfvLFZSJtACqJIIpCIoB+imcFV2Z9ZUVnRomgRGFn2i6mFf5XVotCZMYmgIMhlq6BFENFiwjfPAosgFzXOvNu5o3fmeue98Y16F3PP+c453/fu/xCQmvZSWwwJaC0G6P8WND9IoTmbVFRycpqAdgBWkwRo94V960RsPn1aoPpN9RI6CR0WsDWcjAErtUiqTR/S18+HnNcSTv5zYrwDSatVMgLkH6aciwfj79WYW5+OT4xfsyPnBIgvwt872qBW45ZQzaMlJXCfMPJbDQgfRUoIhduVUW2TwArpaWyX+bnYU9JAAH44FaJIccqCW76Ib7NTjhOOvFPN/8q/IvE3cR+npFJgao9rkiSUXjD2GCNqzMnPbNPYjth3mqINlJAvTsk4kiJmWa3eQe8WpxwVzwjwgFFn/CorL29EkY9qovC5CFDrKq7JVoHl6zNTJCf53/lLk78SN/FcbJRx2cZCixC4ZATGXsu4as8YgQjGamN/q5atOotn4K3A1J4BUMbgsh7Wt6sx2bcV4AkjtSPJxkDjRQL0hVwg21zEglSzN+rdKeOybTtFcgK39ajWZDFWr+IZHxfGQ8mV0YA5nMGmDVcCPNcb8R5gYJ1UCWQfp6PFCI4NyZhrAV6EIiHGrPOAB0ImkW2c0la8u8ICc0wUCWrvC1dsw+3TnN6uanDaJ4zeiIfiA9wtWIAX8XspxeA6iuBlaN88hNzCNXk+JwFOuXJYW5tMQmc+EcqgzXGb2n9XFk1NstX5yKczl89JAF+6vRaBM1m5XAu//qkRGrtb8BThTtqH2/V0LmUWwbvsiREw8X0vcJHxxNbjNm3KUuVaMjmPFuWm2CPesHc/kp+yj06hFMhj/PIOOcfVFLk6xZT0G3vMTpmc27MusityZk/OBfKOwA05MPLIDJn3OJldcxTQotpBYOyEXVEWIw/NoInvuHOznSJfVDs0GzneNw9mI+eyOSPQI9phfCqPO38TFhHaFw/Eu/LliNiMESB5w6zkzD05F8mMYJr8mFC263Fa+vAadvXloj4toEcrjlgMjgrQrseHpBcfkm67WD6M6MN6lTWZeoZjyYxGLcB57MGnsEfF3fjU2G189QBpcUqmBLrnSs4504s8GjLxrwm5qYrg3dKFf6x6VbwQ3yOS/wz8+bS0ruwfELaBY2nyoNkn4gvW65GKRn4WForwP+dONHDaOHeZAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.preview_appmsg .rich_media_title{margin-top:2.3em}@media screen and (min-width:1024px){.rich_media_global_msg{position:relative;margin-bottom:32px}.preview_appmsg .rich_media_title.rich_media_title{margin-top:0}}.pages_reset{color:#333;line-height:1.6;font-size:16px;font-weight:400;font-style:normal;text-indent:0;letter-spacing:normal;text-align:left;text-decoration:none;white-space:normal}.weapp_element,.weapp_display_element,.mp-miniprogram{display:block;margin:1em 0}.share_audio_context{margin:16px 0}.weapp_text_link{font-size:17px}.weapp_text_link:before{content:'';display:inline-block;line-height:1;background-size:contain;background-repeat:no-repeat;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAB4RJREFUWAm1WUuMFGUQnn7szL5mdvbh7GwgEQUlS1weiagxxpigiUZeJgY1cMMDcDCGG8GLCWZvxHjh4BWUeDEsejBBEzWYKBBEiHAABBfCMOwsuzvszrvb+v6Zb7amt1ce0Up6qv6q+qq+/rv778dYkUeUqamp5dFodJPv++ts205blpX2PG8I5cTOiLol44zYZ8vl8vFkMnnlUVpZDwPK5/MpIbWrVqttFlLD0jwiBEHIaNbCGKJjQvai+I9Xq9VD8Xg8y9z76QcimM1mu3t6ej4UYh84jtOFxhBNJGxskhp5xIielZ37bHp6+tNUKnWPOYvp+xKcm5t7S4gclKIpFNGzsmjRkBnUOwNbZjQrtfZ2dnZ+vVgd+O1/CVqlUukjIXZYCqZADBuEJIllc4xh61zmaB9s7LDkHkYPwJgX1KEEx8fHO2TmjkjyPgLQmERIAjHajGnyjDGPOfQ3xvvQCz3ZS+sw5hYAsodbWBhNw4SNGCMBnR/MYS60jskhPyaHe7u4W5otmEGZ8v0gx2YsyDE0bc4Wx8glOe2Dn2No2hqPnuiNXC0tM9i4IA5LcksjNm0BNs417aMNAsRom3HoMD8wsu3QF06TIJaSRCJxXrDmamUBrVEYRejDmDY0JEgsLE4f8mkTj6tb1tsRLkEukiBY56Q4rizThI2okaNtjFlUx+Cr1vzIyTMz7uW/ik4mV7Yd24oMDrR5q1Z01Nav6a5yVsLwcvRS4CI1D5ge+MEdQhbgC1yECSQhjMNsYCGMQ2dzFeuLYxOxibuVBec3cpekY7XtWwZK8a75sMajj2yzcsd5BnccM4PCeg/JoQjJwAY4TFgUMeRjXK54kS/H6uR6e1xvw4vJyuNLYh5yrt8s2d//MtV2M1Nyvvo2F9u5LVUSJEJNPPtKrS7XdXdL6GOzG+LYqIJNUiShYyRDjRw2OXnmnntnsmInE663e3u6uHZVZy2ZsH1sa4Y7ant2DBURu3aj6Jz9c9YBVuNRhz6pvwlju1gsPikzaG78CKIxNgh1sAj91MhFztXrRQf2C+vi1Y721tMC/vZYPQb78rWCE8Tr/uCEJyZbrprNAAST4QOAIGj6qBnDGPjZgmeS0gNRc1jD8D1xx+y978/XJh4awl54nHOl8Do6STKoDarxg5gmxpj2yTEwbtZhDvSlKwUzy+lU1NPxFvz8EcSzpnnYXDCD3AtqFtOFGNM+kMBYx+DzPD/y86m8e+7SnBON2v7qlR01ncP6Gg9uriSlGSSAYyTDhl/7bmTK9tXxkj3ydFetL4lTqT5jyIdgTB/0qT9m3R9/zbvT+Yottfw3XuktJxP1Q61rh/QfcuUcHBKmzcIwdCILQE/crVpHj9+JZe7U17hSyau89lJPxYDVD3KJm5qpWWMnJqMIY+nZvKGv/NQT7ebwcicI5RhYiHBLYx30WQxObWNMyQm5Q0cy7ULK6up0/PUj3dWXn48bckEMGrGZkPJ3bhssunLmLR2qXzyIacxitvT2XZm9jABWMEmD6QPJYzILILdyeWf13Y39ZTSEMAeaQpuxZUujHn26fhCPmI6Dmy0OvIE1AyyqfYWiH7n6d9GJxWz/7df7FpBjLjQETag1Me1HPKxXwJfByXeLRViUYGiI3F/NSYr1raPdNoXh594S75nVT1Z/mUz6kAfhGJp2EI887gRy5Bw0M/g7ndQI0gZISJkpyU6WbTm7m8RYELnFkh+ZnK4/qCTiWF4XXtk6X5NkLjX7iz4rh9keAxBODaKNWKrf9Qd627yC3Cm++2m6DbHWYpHI2Im7UfFZqf6oN9DrmAsPWIquH8QjR8dRG2O88JszW56kTwvRYSayOYtD37xdsT8/ejtWq/nWsqXttdXDHdW+RNTHY9Vv5/IuTgPHtfxd7w0V04/V1ziND5IiCeTofsyTw3tRnqyfNY9b8qg1JkktXwo0EKAlg23eO2/2l7/5YaoNTyPYNIFEt6xxr/aVQQ75QTxJkEBYnDFocEKOqYQHVnn+uiCBLji1IBnCBiVZ+U6fv+dmshV7cqpq9fY4/tBg1HtudXe1zeyuRs9fHMRrEvQBQT9smb1Z+YphHljr3cWJF2gB7NOENAhAjrWGP9iIPuZhDOFYa/hD8KOxWOyAweAHEnxpqnvrvyyofbQZg4boZsEcjrUO4mX2Wl6a6jdhQeAtSoJ70YDNoIMFwmJoqImF5Wgf8jHGRhx0Y9vLNzrkNQligPdRuZpHgyDEKIixMPMQow82/dC04YdgzFwdg0+2Uf1OjPzmOYhBQ6xCoYCX9626WDOo9pqNqHUO7IfBy0XxYJ8+UHdiYuJ9AHQT2GGiycHmmLNDkmFY+JCPXrlcbqcMW28/iCNpEcHnt/3SwHzhQiEIG5JAGDYsN8yHGjil5Ir9BKVDa4U5ta/xveagNDCfRBhDQ5JczEaujhHb0FlclMFzLpDTepEEgxijAL6VSCNcPLPw6aa0oSEgTZsx+GFjwyIsenRmZmbkfuQMDj8PKrjjyCHZIw02im7eGokHAQhnFjZ8GAux/+8jOhoFhX9DCIG1EsPfD9jMC5j4/rO/If4BCiyOk7IAfLMAAAAASUVORK5CYII=');vertical-align:middle;font-size:11px;color:#888;margin-right:6px;margin-top:-3px;background-position:center;height:20px;width:20px}.flex_context{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center}.flex_bd{-webkit-box-flex:1;-webkit-flex:1;flex:1;word-wrap:break-word;word-break:break-all}.original_page{background-color:#fff;font-size:16px}.account_info{padding:0 0 20px}.account_info .flex_bd{padding-left:.85em}.radius_avatar.account_avatar{width:40px;height:40px;padding:0}.account_nickname{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;line-height:1.2;color:#576b95;font-size:14px}.account_nickname_inner{font-weight:400;vertical-align:top}.account_desc{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;color:#b2b2b2;font-size:13px;line-height:1.2;padding-top:.3em}.account_desc_inner{display:inline;vertical-align:top}.share_notice{margin-bottom:20px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.share_media{padding-bottom:18px}.original_panel{padding:20px;background-color:#fcfcfc;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;overflow:hidden;position:relative}.original_panel:after{content:" ";border:1px solid #d8d8d8;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;position:absolute;top:0;left:0;width:200%;height:200%;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}.original_panel .original_account{margin-bottom:18px;position:relative;z-index:1}.original_panel .original_account_avatar{width:28px;height:28px;padding:0}.original_panel .original_account_nickname{padding-left:.85em;font-size:15px;color:#576b95}.original_panel_title{font-size:23px;color:#000;margin:0 0 16px}.original_panel_content{color:#333}.original_panel_tool{padding-top:20px;position:relative;z-index:1}.original_cell_nickname{display:inline-block;vertical-align:middle;font-weight:400;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:8em;color:#000}.original_tool_area{padding:1.17em 0;border-width:0;position:relative}.original_tool_area:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:20px;height:20px;margin-right:.2em}.original_tool_area .flex_cell{padding:0;font-size:14px}.original_tool_area .icon_access:after{margin-right:4px;top:0}.preview_appmsg .rich_media_title{margin-top:1.5em}.preview_appmsg .account_info{padding-top:3em}.original_page{background-color:transparent}.account_info{-webkit-tap-highlight-color:rgba(0,0,0,0);outline:0;padding-bottom:20px;font-size:14px}.account_info.appmsg_account_info{padding-bottom:32px}.account_info .radius_avatar img{background-color:transparent}.share_notice{font-size:16px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.original_panel{background-color:#fafafa}.original_panel:after{border-color:#e6e6e6}.original_panel .original_account_avatar{width:30px;height:30px}.original_panel_tool{font-size:14px}.original_panel_tool a{color:#576b95}.original_panel_content{font-size:17px}.share_media{padding-bottom:30px}.icon_appmsg_tag{display:inline-block;vertical-align:middle;padding:0 .5em;font-size:12px;line-height:1.5;background-color:#c3c3c3;color:#fff;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:70%}.icon_appmsg_tag.primary{color:#3bb638;padding:4px .78em;background-color:rgba(9,187,7,0.08);font-size:12px;border-top-left-radius:.95em 50%;-moz-border-radius-topleft:.95em 50%;-webkit-border-top-left-radius:.95em 50%;border-top-right-radius:.95em 50%;-moz-border-radius-topright:.95em 50%;-webkit-border-top-right-radius:.95em 50%;border-bottom-left-radius:.95em 50%;-moz-border-radius-bottomleft:.95em 50%;-webkit-border-bottom-left-radius:.95em 50%;border-bottom-right-radius:.95em 50%;-moz-border-radius-bottomright:.95em 50%;-webkit-border-bottom-right-radius:.95em 50%}.icon_appmsg_tag.default{border:1px solid rgba(0,0,0,0.1);color:rgba(0,0,0,0.3);background-color:transparent;padding:0 .54em;font-size:15px;line-height:1.3;border-top-left-radius:.67em 50%;-moz-border-radius-topleft:.67em 50%;-webkit-border-top-left-radius:.67em 50%;border-top-right-radius:.67em 50%;-moz-border-radius-topright:.67em 50%;-webkit-border-top-right-radius:.67em 50%;border-bottom-left-radius:.67em 50%;-moz-border-radius-bottomleft:.67em 50%;-webkit-border-bottom-left-radius:.67em 50%;border-bottom-right-radius:.67em 50%;-moz-border-radius-bottomright:.67em 50%;-webkit-border-bottom-right-radius:.67em 50%}.rich_media_meta_list .icon_appmsg_tag.default{margin-top:-1px}.icon_appmsg_tag.title_tag{background-color:#d04b4e}.icon_global_tag_wrp{text-align:right;padding-bottom:12px}.icon_global_tag{background-color:rgba(118,118,118,0.16);color:rgba(0,0,0,0.41);line-height:2.2;border-top-left-radius:1em 50%;-moz-border-radius-topleft:1em 50%;-webkit-border-top-left-radius:1em 50%;border-bottom-left-radius:1em 50%;-moz-border-radius-bottomleft:1em 50%;-webkit-border-bottom-left-radius:1em 50%;padding:0 1.8em 0 1.34em;font-size:12px;margin-right:-24px;display:inline-block;vertical-align:top}.global_plain_btn{display:inline-block;vertical-align:middle;padding:0 1em;line-height:2;font-size:14px;-webkit-tap-highlight-color:rgba(0,0,0,0);border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px}.global_plain_btn.primary{color:#1aad19;border:1px solid currentColor}.global_plain_btn.primary:active{color:rgba(26,173,25,0.6)}.wx_video_context{color:#fefefe;position:relative;background-color:#000}.wx_video_thumb,.wx_video_thumb_primary{position:absolute;left:0;width:100%;height:100%!important;top:0}.wx_video_thumb_primary{-webkit-background-size:cover;background-size:cover;background-position:50% 50%;background-repeat:no-repeat}.wx_video_play_btn{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);margin-top:-2px;font-size:0;border-width:0;background-color:transparent;padding:0;outline:0;z-index:2}.wx_video_play_btn:before{content:" ";display:inline-block;width:0;height:0;border-width:14px 0 14px 25px;border-color:transparent transparent transparent #fff;border-style:dotted dotted dotted solid}.wx_video_mask{position:absolute;top:0;left:0;right:0;bottom:0;z-index:1;background-color:rgba(0,0,0,0.5)}.place_audio_area{min-height:100px;background-color:#fdfdfd;display:block;margin:16px 0}.place_music_area{min-height:68px;background-color:#fdfdfd;display:block;margin:17px 0 16px}.rich_media_empty_extra{background-color:#fafafa}.appmsg_skin_default.rich_media_empty_extra{background-color:#fff}.appmsg_skin_default .rich_media_area_primary{background-color:#fff}.appmsg_skin_default .rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{background-color:#fff}.appmsg_style_default .rich_media_tool{padding-top:15px}.rich_media_title_ios{font-weight:700}.read-more__area{margin:30px 0}.read-more__desc{margin-bottom:10px}.read-more__article__extra{font-size:14px;color:rgba(0,0,0,0.5)}.read-more__article__item{margin-bottom:10px}</style>
+<style>
+        </style>
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/pc435ee6.css">
+<![endif]-->
+
+    </head>
+    <body id="activity-detail" class="zh_CN mm_appmsg  appmsg_skin_default appmsg_style_default">
+        
+<script nonce="2139940995" type="text/javascript">
+    var biz = ""||"MjM5NjQ5MTI5OA==";
+    var sn = "" || ""|| "ad14b231b59bd7158db25da639b13115";
+    var mid = "" || ""|| "2651749345";
+    var idx = "" || "" || "1";
+    window.__allowLoadResFromMp = true; 
+    
+        
+</script>
+<script nonce="2139940995" type="text/javascript">
+var page_begintime=+new Date,is_rumor="",norumor="";
+1*is_rumor&&!(1*norumor)&&biz&&mid&&(document.referrer&&-1!=document.referrer.indexOf("mp.weixin.qq.com/mp/rumor")||(location.href="http://mp.weixin.qq.com/mp/rumor?action=info&__biz="+biz+"&mid="+mid+"&idx="+idx+"&sn="+sn+"#wechat_redirect"));
+</script>
+<script nonce="2139940995" type="text/javascript">
+var MutationObserver=window.WebKitMutationObserver||window.MutationObserver||window.MozMutationObserver,isDangerSrc=function(t){
+if(t){
+var e=t.match(/http(?:s)?:\/\/([^\/]+?)(\/|$)/);
+if(e&&!/qq\.com(\:8080)?$/.test(e[1])&&!/weishi\.com$/.test(e[1]))return!0;
+}
+return!1;
+},ishttp=0==location.href.indexOf("http://");
+-1==location.href.indexOf("safe=0")&&ishttp&&"function"==typeof MutationObserver&&"mp.weixin.qq.com"==location.host&&(window.__observer_data={
+count:0,
+exec_time:0,
+list:[]
+},window.__observer=new MutationObserver(function(t){
+window.__observer_data.count++;
+var e=new Date,r=[];
+t.forEach(function(t){
+for(var e=t.addedNodes,o=0;o<e.length;o++){
+var n=e[o];
+if("SCRIPT"===n.tagName){
+var i=n.src;
+isDangerSrc(i)&&(window.__observer_data.list.push(i),r.push(n)),!i&&window.__nonce_str&&n.getAttribute("nonce")!=window.__nonce_str&&(window.__observer_data.list.push("inlinescript_without_nonce"),
+r.push(n));
+}
+}
+});
+for(var o=0;o<r.length;o++){
+var n=r[o];
+n.parentNode&&n.parentNode.removeChild(n);
+}
+window.__observer_data.exec_time+=new Date-e;
+}),window.__observer.observe(document,{
+subtree:!0,
+childList:!0
+})),function(){
+if(-1==location.href.indexOf("safe=0")&&Math.random()<.01&&ishttp&&HTMLScriptElement.prototype.__lookupSetter__&&"undefined"!=typeof Object.defineProperty){
+window.__danger_src={
+xmlhttprequest:[],
+script_src:[],
+script_setAttribute:[]
+};
+var t="$"+Math.random();
+HTMLScriptElement.prototype.__old_method_script_src=HTMLScriptElement.prototype.__lookupSetter__("src"),
+HTMLScriptElement.prototype.__defineSetter__("src",function(t){
+t&&isDangerSrc(t)&&window.__danger_src.script_src.push(t),this.__old_method_script_src(t);
+});
+var e="element_setAttribute"+t;
+Object.defineProperty(Element.prototype,e,{
+value:Element.prototype.setAttribute,
+enumerable:!1
+}),Element.prototype.setAttribute=function(t,r){
+"SCRIPT"==this.tagName&&"src"==t&&isDangerSrc(r)&&window.__danger_src.script_setAttribute.push(r),
+this[e](t,r);
+};
+}
+}();
+</script>
+
+        <link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<script nonce="2139940995" type="text/javascript">
+    String.prototype.html = function(encode) {
+        var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&yen;", "¥", "&amp;", "&"];
+        
+		
+		
+		
+		
+        
+        var replaceReverse = ["&", "&amp;", "¥", "&yen;", "<", "&lt;", ">", "&gt;", " ", "&nbsp;", '"', "&quot;", "'", "&#39;"];
+	    var target;
+	    if (encode) {
+	    	target = replaceReverse;
+	    } else {
+	    	target = replace;
+	    }
+        for (var i=0,str=this;i< target.length;i+= 2) {
+             str=str.replace(new RegExp(target[i],'g'),target[i+1]);
+        }
+        return str;
+    };
+
+    window.isInWeixinApp = function() {
+        return /MicroMessenger/.test(navigator.userAgent);
+    };
+
+    window.getQueryFromURL = function(url) {
+        url = url || 'http://qq.com/s?a=b#rd'; 
+        var tmp = url.split('?'),
+            query = (tmp[1] || "").split('#')[0].split('&'),
+            params = {};
+        for (var i=0; i<query.length; i++) {
+            var arg = query[i].split('=');
+            params[arg[0]] = arg[1];
+        }
+        if (params['pass_ticket']) {
+        	params['pass_ticket'] = encodeURIComponent(params['pass_ticket'].html(false).html(false).replace(/\s/g,"+"));
+        }
+        return params;
+    };
+
+    (function() {
+	    var params = getQueryFromURL(location.href);
+        window.uin = params['uin'] || "" || '';
+        window.key = params['key'] || "" || '';
+        window.wxtoken = params['wxtoken'] || '';
+        window.pass_ticket = params['pass_ticket'] || '';
+        window.appmsg_token = "";
+    })();
+
+    function wx_loaderror() {
+        if (location.pathname === '/bizmall/reward') {
+            new Image().src = '/mp/jsreport?key=96&content=reward_res_load_err&r=' + Math.random();
+        }
+    }
+
+</script>
+
+<script nonce="2139940995" type="text/javascript">
+        window.__moon_report_uin = "0";
+            window.no_moon_ls = 0;
+    </script>
+
+        
+<script nonce="2139940995" type="text/javascript">
+    var write_sceen_time = (+new Date()); 
+</script>
+
+<div id="js_article" class="rich_media">
+    
+    <div id="js_top_ad_area" class="top_banner"></div>
+    
+    <div class="rich_media_inner">
+
+        
+        
+        <div id="page-content" class="rich_media_area_primary">
+          <div class="rich_media_area_primary_inner">
+                                    
+                        
+
+            <div id="img-content">
+
+                
+                <h2 class="rich_media_title" id="activity-name">
+                    
+                    
+                    浅谈大型互联网的企业入侵检测及防护策略
+
+                                                                                </h2>
+                <div id="meta_content" class="rich_media_meta_list">
+                                                            <span id="copyright_logo" class="rich_media_meta rich_media_meta_text meta_tag_text">原创：</span>
+                                                            <span class="rich_media_meta rich_media_meta_text">
+                                                弼政
+                                            </span>
+                                        
+                                        <span class="rich_media_meta rich_media_meta_nickname" id="profileBt">
+                      <a href="javascript:void(0);" id="js_name">
+                        美团技术团队                      </a>
+                      <div id="js_profile_qrcode" class="profile_container" style="display:none;">
+                          <div class="profile_inner">
+                              <strong class="profile_nickname">美团技术团队</strong>
+                              <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">微信号</label>
+                              <span class="profile_meta_value">meituantech</span>
+                              </p>
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">功能介绍</label>
+                              <span class="profile_meta_value">10000+工程师，如何支撑中国领先的生活服务电子商务平台？3.2亿消费者、500万商户、2000多个行业、几千亿交易额背后是哪些技术？这里是美团、大众点评、美团外卖、美团大零售等技术团队的对外窗口，每周推送技术文章、活动及招聘信息等。</span>
+                              </p>
+                              
+                          </div>
+                          <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">
+                              <i class="profile_arrow arrow_out"></i>
+                              <i class="profile_arrow arrow_in"></i>
+                          </span>
+                      </div>
+                    </span>
+
+
+                    <em id="publish_time" class="rich_media_meta rich_media_meta_text"></em>
+
+
+
+
+
+                </div>
+                
+                
+                
+                
+                                                
+                                                                
+                                
+                
+                <div class="rich_media_content " id="js_content">
+                    
+
+                    
+
+                    
+                    
+                    <section class="xmteditor" style="display:none;" data-tools="新媒体管家" data-label="powered by xmt.cn"></section><p style="max-width: 100%;min-height: 1em;white-space: normal;box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;margin-left: 0.5em;margin-right: 0.5em;" data-mpa-powered-by="yiban.io"><img class="" data-copyright="0" data-ratio="0.10546875" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hEx03cFgUsV6LYkM3uK5TAnl8DxXwdR4zA3FUoOfW6b1icLsE77CELpkNLzriajHTdibqkqVFYoldIoffibgkOslZA/640?wx_fmt=png" data-type="png" data-w="1280" style="box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;"></p><p style="max-width: 100%;min-height: 1em;white-space: normal;text-align: center;box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;margin-left: 0.5em;margin-right: 0.5em;"><strong style="max-width: 100%;box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;"><span style="max-width: 100%;color: rgb(136, 136, 136);font-size: 12px;letter-spacing: 1px;box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;">总第298篇</span></strong></p><p style="max-width: 100%;min-height: 1em;white-space: normal;text-align: center;box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;margin-left: 0.5em;margin-right: 0.5em;"><strong style="max-width: 100%;box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;"><span style="max-width: 100%;color: rgb(136, 136, 136);font-size: 12px;letter-spacing: 1px;box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;">2018年 第90篇</span></strong></p><section class="output_wrapper" style="font-size: 16px;line-height: 1.6;letter-spacing: 0px;margin-left: 0.5em;margin-right: 0.5em;"><h2 style="color: rgb(62, 62, 62);"><strong style="color: rgb(51, 51, 51);font-size: 20px;white-space: normal;max-width: 100%;box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;"><span style="max-width: 100%;color: rgb(49, 188, 173);box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;">前言</span></strong></h2><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">如何知道自己所在的企业是否被入侵了？是没人来“黑”，还是因自身感知能力不足，暂时还无法发现？其实，入侵检测是每一个大型互联网企业都要面对的严峻挑战。价值越高的公司，面临入侵的威胁也越大，即便是Yahoo这样的互联网鼻祖，在落幕（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">被收购</span><span style="font-size: 15px;">）时仍遭遇全量数据失窃的事情。安全无小事，一旦互联网公司被成功“入侵”，其后果将不堪想象。</span></p><p style="color: rgb(62, 62, 62);text-align: center;"><img class="" data-copyright="0" data-ratio="0.66640625" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_jpg/hEx03cFgUsXibicYtRt824nicRjKGTibicl7aBuPz9ARPvV8RGgyUNictBlyRHzfzRFAmQrg0ChwSYqhtRPniaZRYtu0A/640?wx_fmt=jpeg" data-type="jpeg" data-w="1280" style=""></p><figure style="color: inherit;font-size: inherit;line-height: inherit;"><figcaption style="line-height: inherit;margin-top: 10px;text-align: center;color: rgb(153, 153, 153);font-size: 0.7em;"></figcaption></figure><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">基于“攻防对抗”的考量，本文不会提及具体的入侵检测模型、算法和策略，那些希望直接照搬“入侵策略”的同学可能会感到失望。但是我们会将一部分运营思路分享出来，请各位同行指点，如能对后来者起到帮助的作用，那就更好了，也欢迎大家跟我们交流探讨。</span></p><h2 style="color: rgb(62, 62, 62);"><strong style="color: rgb(51, 51, 51);font-size: 20px;white-space: normal;max-width: 100%;box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;"><span style="max-width: 100%;color: rgb(49, 188, 173);box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;">入侵的定义</span></strong></h2><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">典型的入侵场景：</span></p><blockquote style="color: rgb(129, 145, 152);line-height: inherit;padding: 15px 15px 15px 1rem;font-size: 0.9em;margin-top: 1em;margin-bottom: 1em;border-left-width: 6px;border-left-color: rgb(220, 230, 240);background: rgb(242, 247, 251);overflow: auto;overflow-wrap: normal;word-break: normal;"><p style="font-size: inherit;color: inherit;line-height: inherit;"><span style="font-size: 15px;">黑客在很远的地方，通过网络远程控制目标的笔记本电脑/手机/服务器/网络设备，进而随意地读取目标的隐私数据，又或者使用目标系统上的功能，包括但不限于使用手机的麦克风监听目标，使用摄像头偷窥监控目标，使用目标设备的计算能力挖矿，使用目标设备的网络能力发动DDoS攻击等等。亦或是破解了一个服务的密码，进去查看敏感资料、控制门禁/红绿灯。以上这些都属于经典的入侵场景。</span></p></blockquote><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">我们可以给入侵下一个定义：就是黑客在未经授权的情况下，控制、使用我方资源（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">包括但不限于读写数据、执行命令、控制资源等</span><span style="font-size: 15px;">）达到各种目的。从广义上讲，黑客利用SQL注入漏洞窃取数据，或者拿到了目标域名在ISP中的帐号密码，以篡改DNS指向一个黑页，又或者找到了目标的社交帐号，在微博/QQ/邮箱上，对虚拟资产进行非授权的控制，都属于入侵的范畴。</span></p><h2 style="color: rgb(62, 62, 62);"><strong style="color: rgb(51, 51, 51);font-size: 20px;white-space: normal;"><span style="color: rgb(49, 188, 173);">针对企业的入侵检测</span></strong></h2><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">企业入侵检测的范围，多数情况下比较狭义：一般特指黑客对PC、系统、服务器、网络（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">包括办公网、生产网</span><span style="font-size: 15px;">）控制的行为。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">黑客对PC、服务器等主机资产的控制，最常见的方法是通过Shell去执行指令，获得Shell的这个动作叫做GetShell。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">比如通过Web服务的上传漏洞，拿到WebShell，或者利用RCE漏洞直接执行命令/代码（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">RCE环境变相的提供了一个Shell</span><span style="font-size: 15px;">）。另外，通过某种方式先植入“木马后门”，后续直接利用木马集成的SHELL功能对目标远程控制，这个也比较典型。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">因此，入侵检测可以重点关注GetShell这个动作，以及GetShell成功之后的恶意行为（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">为了扩大战果，黑客多半会利用Shell进行探测、翻找窃取、横向移动攻击其它内部目标，这些区别于好人的特性也可以作为重要的特征</span><span style="font-size: 15px;">）。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">有一些同行（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">包括商业产品</span><span style="font-size: 15px;">），喜欢报告GetShell之前的一些“外部扫描、攻击探测和尝试行为”，并美其名曰“态势感知”，告诉企业有人正在“试图攻击”。在笔者看来，实战价值并不大。包括美团在内的很多企业，基本上无时无刻都在遭受“不明身份”的攻击，知道了有人在“尝试”攻击，如果并不能有效地去行动，无法有效地对行动进行告警，除了耗费心力之外，并没有太大的实际价值。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">当我们习惯“攻击”是常态之后，就会在这样的常态下去解决问题，可以使用什么加固策略，哪些可以实现常态化的运营，如果有什么策略无法常态化运营，比如需要很多人加班临时突击守着，那这个策略多半在不久之后就会逐渐消逝掉。跟我们做不做这个策略，并没有本质上的区别。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">类似于SQL注入、XSS等一些不直接GetShell的Web攻击，暂时不在狭义的“入侵检测”考虑范围，建议可以划入“漏洞”、“威胁感知”等领域，另行再做探讨。当然，利用SQL注入、XSS等入口，进行了GetShell操作的，我们仍抓GetShell这个关键点，不必在乎漏洞入口在何处。</span></p><h2 style="color: rgb(62, 62, 62);"><strong style="color: rgb(51, 51, 51);font-size: 20px;white-space: normal;"><span style="color: rgb(49, 188, 173);">“入侵”和“内鬼”</span></strong></h2><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">与入侵接近的一种场景是“内鬼”。入侵本身是手段，GetShell只是起点，黑客GetShell的目标是为了之后对资源的控制和数据的窃取。而“内鬼”天然拥有合法的权限，可以合法接触敏感资产，但是基于工作以外的目的，他们对这些资源进行非法的处置，包括拷贝副本、转移外泄、篡改数据牟利等。</span></p><p style="color: rgb(62, 62, 62);text-align: center;"><img class="" data-copyright="0" data-ratio="0.66640625" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_jpg/hEx03cFgUsXibicYtRt824nicRjKGTibicl7auhIWkibZCWLIU7Kte9AYrgabiaJXZhxDQNicQmXA1K8osGG4yljs5UJaw/640?wx_fmt=jpeg" data-type="jpeg" data-w="1280" style=""></p><figure style="color: inherit;font-size: inherit;line-height: inherit;"><figcaption style="line-height: inherit;margin-top: 10px;text-align: center;color: rgb(153, 153, 153);font-size: 0.7em;"></figcaption></figure><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">内鬼的行为不在“入侵检测”的范畴，一般从内部风险控制的视角进行管理和审计，比如职责分离、双人审计等。也有数据防泄密产品（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">DLP</span><span style="font-size: 15px;">）对其进行辅助，这里不展开细说。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">有时候，黑客知道员工A有权限接触目标资产，便定向攻击A，再利用A的权限把数据窃取走，也定性为“入侵”。毕竟A不是主观恶意的“内鬼”。如果不能在黑客攻击A的那一刻捕获，或者无法区分黑客控制的A窃取数据和正常员工A的访问数据，那这个入侵检测也是失败的。</span></p><h2 style="color: rgb(62, 62, 62);"><strong style="color: rgb(51, 51, 51);font-size: 20px;white-space: normal;"><span style="color: rgb(49, 188, 173);">入侵检测的本质</span></strong></h2><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">前文已经讲过，入侵就是黑客可以不经过我们的同意，来操作我们的资产，在手段上并没有任何的限制。那么如何找出入侵行为和合法正常行为的区别，将其跟合法行为进行分开，就是“入侵发现”。在算法模型上，这算是一个标记问题（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">入侵、非入侵</span><span style="font-size: 15px;">）。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">可惜的是，入侵这种动作的“黑”样本特别稀少，想通过大量的带标签的数据，有监督的训练入侵检测模型，找出入侵的规律比较难。因此，入侵检测策略开发人员，往往需要投入大量的时间，去提炼更精准的表达模型，或者花更多的精力去构造“类似入侵”的模拟数据。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">一个经典的例子是，为了检测出WebShell，安全从业人员可以去GitHub上搜索一些公开的WebShell样本，数量大约不到1000个。而对于机器学习动辄百万级的训练需求，这些数据远远不够。况且GitHub上的这些样本集，从技术手法上来看，有单一技术手法生成的大量类似样本，也有一些对抗的手法样本缺失。因此，这样的训练，试图让AI去通过“大量的样本”掌握WebShell的特征并区分出它们，原则上不太可能完美地去实现。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">此时，针对已知样本做技术分类，提炼更精准的表达模型，被称为传统的特征工程。而传统的特征工程往往被视为效率低下的重复劳动，但效果往往比较稳定，毕竟加一个技术特征就可以稳定发现一类WebShell。而构造大量的恶意样本，虽然有机器学习、AI等光环加持，但在实际环境中往往难以获得成功：自动生成的样本很难描述WebShell本来的含义，多半描述的是自动生成的算法特征。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">另一个方面，入侵的区别是看行为本身是否“授权”，而授权与否本身是没有任何显著的区分特征的。因此，做入侵对抗的时候，如果能够通过某种加固，将合法的访问收敛到有限的通道，并且给该通道做出强有力的区分，也就能大大的降低入侵检测的成本。例如，对访问来源进行严格的认证，无论是自然人，还是程序API，都要求持有合法票据，而派发票据时，针对不同情况做多纬度的认证和授权，再用IAM针对这些票据记录和监控它们可以访问的范围，还能产生更底层的Log做异常访问模型感知。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">这个全生命周期的风控模型，也是Google的BeyondCorp无边界网络得以实施的前提和基础。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">因此，入侵检测的主要思路也就有2种：</span></p><ul style="" class=" list-paddingleft-2"><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">根据黑特征进行模式匹配（</span><span style="line-height: inherit;font-size: 15px;color: rgb(136, 136, 136);">例如WebShell关键字匹配</span><span style="color: inherit;line-height: inherit;font-size: 15px;">）。</span></p></li><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">根据业务历史行为（</span><span style="line-height: inherit;font-size: 15px;color: rgb(136, 136, 136);">生成基线模型</span><span style="color: inherit;line-height: inherit;font-size: 15px;">），对入侵行为做异常对比（</span><span style="line-height: inherit;font-size: 15px;color: rgb(136, 136, 136);">非白既黑</span><span style="color: inherit;line-height: inherit;font-size: 15px;">），如果业务的历史行为不够收敛，就用加固的手段对其进行收敛，再挑出不合规的小众异常行为。</span></p></li></ul><h2 style="color: rgb(62, 62, 62);"><br></h2><h2 style="color: rgb(62, 62, 62);"><strong style="color: rgb(51, 51, 51);font-size: 20px;white-space: normal;"><span style="color: rgb(49, 188, 173);">入侵检测与攻击向量</span></strong></h2><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">根据目标不同，可能暴露给黑客的攻击面会不同，黑客可能采用的入侵手法也就完全不同。比如，入侵我们的PC/笔记本电脑，还有入侵部署在机房/云上的服务器，攻击和防御的方法都有挺大的区别。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">针对一个明确的“目标”，它被访问的渠道可能是有限集，被攻击的必经路径也有限。“攻击方法”+“目标的攻击面”的组合，被称为“攻击向量”。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">因此，谈入侵检测模型效果时，需要先明确攻击向量，针对不同的攻击路径，采集对应的日志（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">数据</span><span style="font-size: 15px;">），才可能做对应的检测模型。比如，基于SSH登录后的Shell命令数据集，是不能用于检测WebShell的行为。而基于网络流量采集的数据，也不可能感知黑客是否在SSH后的Shell环境中执行了什么命令。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">基于此，如果有企业不提具体的场景，就说做好了APT感知模型，显然就是在“吹嘘”了。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">所以，入侵检测得先把各类攻击向量罗列出来，每一个细分场景分别采集数据（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">HIDS+NIDS+WAF+RASP+应用层日志+系统日志+PC……</span><span style="font-size: 15px;">），再结合公司的实际数据特性，作出适应公司实际情况的对应检测模型。不同公司的技术栈、数据规模、暴露的攻击面，都会对模型产生重大的影响。比如很多安全工作者特别擅长PHP下的WebShell检测，但是到了一个Java系的公司……</span></p><h2 style="color: rgb(62, 62, 62);"><strong style="color: rgb(51, 51, 51);font-size: 20px;white-space: normal;"><span style="color: rgb(49, 188, 173);">常见的入侵手法与应对</span></strong></h2><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">如果对黑客的常见入侵手法理解不足，就很难有的放矢，有时候甚至会陷入“政治正确”的陷阱里。比如渗透测试团队说，我们做了A动作，你们竟然没有发现，所以你们不行。而实际情况是，该场景可能不是一个完备的入侵链条，就算不发现该动作，对入侵检测效果可能也没有什么影响。每一个攻击向量对公司造成的危害，发生的概率如何进行排序，解决它耗费的成本和带来的收益如何，都需要有专业经验来做支撑与决策。</span></p><p style="color: rgb(62, 62, 62);text-align: center;"><img class="" data-copyright="0" data-ratio="0.75" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_jpg/hEx03cFgUsXibicYtRt824nicRjKGTibicl7aUnyrJmVD7r9PkFVbA0u4pmNVt1ahsWlwFSmtfUeO4YCO9kKGNicBdMQ/640?wx_fmt=jpeg" data-type="jpeg" data-w="1280" style=""></p><figure style="color: inherit;font-size: inherit;line-height: inherit;"><figcaption style="line-height: inherit;margin-top: 10px;text-align: center;color: rgb(153, 153, 153);font-size: 0.7em;"></figcaption></figure><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">现在简单介绍一下，黑客入侵教程里的经典流程（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">完整过程可以参考杀伤链模型</span><span style="font-size: 15px;">）：</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">入侵一个目标之前，黑客对该目标可能还不够了解，所以第一件事往往是“踩点”，也就是搜集信息，加深了解。比如，黑客需要知道，目标有哪些资产（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">域名、IP、服务</span><span style="font-size: 15px;">），它们各自的状态如何，是否存在已知的漏洞，管理它们的人有谁（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">以及如何合法的管理的</span><span style="font-size: 15px;">），存在哪些已知的泄漏信息（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">比如社工库里的密码等</span><span style="font-size: 15px;">）……</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">一旦踩点完成，熟练的黑客就会针对各种资产的特性，酝酿和逐个验证“攻击向量”的可行性，下文列举了常见的攻击方式和防御建议。</span></p><h3 style="color: rgb(62, 62, 62);"><span style="font-size: 18px;"><strong>高危服务入侵</strong></span></h3><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">所有的公共服务都是“高危服务”，因为该协议或者实现该协议的开源组件，可能存在已知的攻击方法（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">高级的攻击者甚至拥有对应的0day</span><span style="font-size: 15px;">），只要你的价值足够高，黑客有足够的动力和资源去挖掘，那么当你把高危服务开启到互联网，面向所有人都打开的那一刻，就相当于为黑客打开了“大门”。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">比如SSH、RDP这些运维管理相关的服务，是设计给管理员用的，只要知道密码/秘钥，任何人都能登录到服务器端，进而完成入侵。而黑客可能通过猜解密码（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">结合社工库的信息泄露、网盘检索或者暴力破解</span><span style="font-size: 15px;">），获得凭据。事实上这类攻击由于过于常见，黑客早就做成了全自动化的全互联网扫描的蠕虫类工具，云上购买的一个主机如果设置了一个弱口令，往往在几分钟内就会感染蠕虫病毒，就是因为这类自动化的攻击者实在是太多了。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">或许，你的密码设置得非常强壮，但是这并不是你可以把该服务继续暴露在互联网的理由，我们应该把这些端口限制好，只允许自己的IP（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">或者内部的堡垒主机</span><span style="font-size: 15px;">）访问，彻底断掉黑客通过它入侵我们的可能。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">与此类似的，MySQL、Redis、FTP、SMTP、MSSQL、Rsync等等，凡是自己用来管理服务器或者数据库、文件的服务，都不应该针对互联网无限制的开放。否则，蠕虫化的攻击工具会在短短几分钟内攻破我们的服务，甚至直接加密我们的数据，甚至要求我们支付比特币，进行敲诈勒索。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">还有一些高危服务存在RCE漏洞（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">远程命令执行</span><span style="font-size: 15px;">），只要端口开放，黑客就能利用现成的exp，直接GetShell，完成入侵。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;"><strong style="font-size: inherit;color: inherit;line-height: inherit;">防御建议</strong>： 针对每一个高危服务做入侵检测的成本较高，因为高危服务的具体所指非常的多，不一定存在通用的特征。所以，通过加固方式，收敛攻击入口性价比更高。禁止所有高危端口对互联网开放可能，这样能够减少90%以上的入侵概率。</span></p><h3 style="color: rgb(62, 62, 62);"><span style="font-size: 18px;"><strong>Web入侵</strong></span></h3><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">随着高危端口的加固，黑客知识库里的攻击手法很多都会失效了。但是Web服务是现代互联网公司的主要服务形式，不可能都关掉。于是，基于PHP、Java、ASP、ASP.NET、Node、C写的CGI等等动态的Web服务漏洞，就变成了黑客入侵的最主要入口。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">比如，利用上传功能直接上传一个WebShell，利用文件包含功能，直接引用执行一个远程的WebShell（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">或者代码</span><span style="font-size: 15px;">），然后利用代码执行的功能，直接当作Shell的入口执行任意命令，解析一些图片、视频的服务，上传一个恶意的样本，触发解析库的漏洞……</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">Web服务下的应用安全是一个专门的领域（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">道哥还专门写了本《白帽子讲Web安全》</span><span style="font-size: 15px;">），具体的攻防场景和对抗已经发展得非常成熟了。当然，由于它们都是由Web服务做为入口，所以入侵行为也会存在某种意义上的共性。相对而言，我们比较容易能够找到黑客GetShell和正常业务行为的一些区别。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">针对Web服务的入侵痕迹检测，可以考虑采集WAF日志、Access Log、Auditd记录的系统调用，或者Shell指令，以及网络层面Response相关的数据，提炼出被攻击成功的特征，建议我们将主要的精力放在这些方面。</span></p><h3 style="color: rgb(62, 62, 62);"><strong><span style="font-size: 18px;">0day入侵</span></strong></h3><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">通过泄漏的工具包来看，早些年NSA是拥有直接攻击Apache、Nginx这些服务的0day武器的。这意味着对手很可能完全不用在乎我们的代码和服务写成什么样，拿0day一打，神不知鬼不觉就GetShell了。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">但是对于入侵检测而言，这并不可怕：因为无论对手利用什么漏洞当入口，它所使用的Shellcode和之后的行为本身依然有共性。Apache存在0day漏洞被攻击，还是一个PHP页面存在低级的代码漏洞被利用，从入侵的行为上来看，说不定是完全一样的，入侵检测模型还可以通用。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">所以，把精力聚焦在有黑客GetShell入口和之后的行为上，可能比关注漏洞入口更有价值。当然，具体的漏洞利用还是要实际跟进，然后验证其行为是否符合预期。</span></p><h3 style="color: rgb(62, 62, 62);"><strong><span style="font-size: 18px;">办公终端入侵</span></strong></h3><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">绝大多数APT报告里，黑客是先对人（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">办公终端</span><span style="font-size: 15px;">）下手，比如发个邮件，哄骗我们打开后，控制我们的PC，再进行长期的观察/翻阅，拿到我们的合法凭据后，再到内网漫游。所以这些报告，多数集中在描述黑客用的木马行为以及家族代码相似度上。而反APT的产品、解决方案，多数也是在办公终端的系统调用层面，用类似的方法，检验“免杀木马”的行为。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">因此，EDR类的产品+邮件安全网关+办公网出口的行为审计+APT产品的沙箱等，联合起来，可以采集到对应的数据，并作出相似的入侵检测感知模型。而最重要的一点，是黑客喜欢关注内部的重要基础设施，包括但不限于AD域控、邮件服务器、密码管理系统、权限管理系统等，一旦拿下，就相当于成为了内网的“上帝”，可以为所欲为。所以对公司来说，重要基础设施要有针对性的攻防加固讨论，微软针对AD的攻防甚至还发过专门的加固白皮书。</span></p><h2 style="color: rgb(62, 62, 62);"><strong style="color: rgb(51, 51, 51);font-size: 20px;white-space: normal;"><span style="color: rgb(49, 188, 173);">入侵检测基本原则</span></strong></h2><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">不能把每一条告警都彻底跟进的模型，等同于无效模型。入侵发生后，再辩解之前其实有告警，只是太多了没跟过来/没查彻底，这是“马后炮”，等同于不具备发现能力，所以对于日均告警成千上万的产品，安全运营人员往往表示很无奈。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">我们必须屏蔽一些重复发生的相似告警，以集中精力把每一个告警都闭环掉。这会产生白名单，也就是漏报，因此模型的漏报是不可避免的。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">由于任何模型都会存在漏报，所以我们必须在多个纬度上做多个模型，形成关联和纵深。假设WebShell静态文本分析被黑客变形绕过了，在RASP（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">运行时环境</span><span style="font-size: 15px;">）的恶意调用还可以进行监控，这样可以选择接受单个模型的漏报，但在整体上仍然具备发现能力。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">既然每一个单一场景的模型都有误报漏报，我们做什么场景，不做什么场景，就需要考虑“性价比”。比如某些变形的WebShell可以写成跟业务代码非常相似，人的肉眼几乎无法识别，再追求一定要在文本分析上进行对抗，就是性价比很差的决策。如果通过RASP的检测方案，其性价比更高一些，也更具可行性一些。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">我们不太容易知道黑客所有的攻击手法，也不太可能针对每一种手法都建设策略（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">考虑到资源总是稀缺的</span><span style="font-size: 15px;">）。所以针对重点业务，需要可以通过加固的方式（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">还需要常态化监控加固的有效性</span><span style="font-size: 15px;">），让黑客能攻击的路径极度收敛，仅在关键环节进行对抗。起码能针对核心业务具备兜底的保护能力。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">基于上述几个原则，我们可以知道一个事实，或许我们永远不可能在单点上做到100%发现入侵，但是我们可以通过一些组合方式，让攻击者很难绕过所有的点。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">当老板或者蓝军挑战，某个单点的检测能力有缺失时，如果为了“政治正确”，在这个单点上进行无止境的投入，试图把单点做到100%能发现的能力，很多时候可能只是在试图制造一个“永动机”，纯粹浪费人力、资源，而不产生实际的收益。将节省下来的资源，高性价比的布置更多的纵深防御链条，效果显然会更好。</span></p><h2 style="color: rgb(62, 62, 62);"><strong style="color: rgb(51, 51, 51);font-size: 20px;white-space: normal;"><span style="color: rgb(49, 188, 173);">入侵检测产品的主流形态</span></strong></h2><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">入侵检测终究是要基于数据去建模，比如针对WebShell的检测，首先要识别Web目录，再对Web目录下的文件进行文本分析，这需要做一个采集器。基于Shell命令的入侵检测模型，需要获取所有Shell命令，这可能要Hook系统调用或者劫持Shell。基于网络IP信誉、流量payload进行检测，或者基于邮件网关对内容的检查，可能要植入网络边界中，对流量进行旁路采集。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">也有一些集大成者，基于多个Sensor，将各方日志进行采集后，汇总在一个SOC或者SIEM，再交由大数据平台进行综合分析。因此，业界的入侵检测相关的产品大致上就分成了以下的形态：</span></p><ul style="" class=" list-paddingleft-2"><li><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">主机Agent类：黑客攻击了主机后，在主机上进行的动作，可能会产生日志、进程、命令、网络等痕迹，那么在主机上部署一个采集器（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">也内含一部分检测规则</span><span style="font-size: 15px;">），就叫做基于主机的入侵检测系统，简称HIDS。</span></p></li><ul style="list-style-type: square;" class=" list-paddingleft-2"><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">典型的产品：OSSEC、青藤云、安骑士、安全狗，Google最近也发布了一个Alpha版本的类似产品 Cloud Security Command Center。当然，一些APT厂商，往往也有在主机上的Sensor/Agent，比如FireEye等。</span></p></li></ul><li><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">网络检测类：由于多数攻击向量是会通过网络对目标投放一些payload，或者控制目标的协议本身具备强特征，因此在网络层面具备识别的优势。</span></p></li><ul style="list-style-type: square;" class=" list-paddingleft-2"><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">典型的产品：Snort到商业的各种NIDS/NIPS，对应到APT级别，则还有类似于FireEye的NX之类的产品。</span></p></li></ul><li><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">日志集中存储分析类：这一类产品允许主机、网络设备、应用都输出各自的日志，集中到一个统一的后台，在这个后台，对各类日志进行综合的分析，判断是否可以关联的把一个入侵行为的多个路径刻画出来。例如A主机的Web访问日志里显示遭到了扫描和攻击尝试，继而主机层面多了一个陌生的进程和网络连接，最后A主机对内网其它主机进行了横向渗透尝试。</span></p></li><ul style="list-style-type: square;" class=" list-paddingleft-2"><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">典型的产品：LogRhythm、Splunk等SIEM类产品。</span></p></li></ul><li><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">APT沙箱：沙箱类产品更接近于一个云端版的高级杀毒软件，通过模拟执行观测行为，以对抗未知样本弱特征的特点。只不过它需要一个模拟运行的过程，性能开销较大，早期被认为是“性价比不高”的解决方案，但由于恶意文件在行为上的隐藏要难于特征上的对抗，因此现在也成为了APT产品的核心组件。通过网络流量、终端采集、服务器可疑样本提取、邮件附件提炼等拿到的未知样本，都可以提交到沙箱里跑一下行为，判断是否恶意。</span></p></li><ul style="list-style-type: square;" class=" list-paddingleft-2"><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">典型产品：FireEye、Palo Alto、Symantec、微步。</span></p></li></ul><li><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">终端入侵检测产品：移动端目前还没有实际的产品，也不太有必要。PC端首先必备的是杀毒软件，如果能够检测到恶意程序，一定程度上能够避免入侵。但是如果碰到免杀的高级0day和木马，杀毒软件可能会被绕过。借鉴服务器上HIDS的思路，也诞生了EDR的概念，主机除了有本地逻辑之外，更重要的是会采集更多的数据到后端，在后端进行综合分析和联动。也有人说下一代杀毒软件里都会带上EDR的能力，只不过目前销售还是分开在卖。</span></p></li><ul style="list-style-type: square;" class=" list-paddingleft-2"><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">典型产品：杀毒软件有Bit9、SEP、赛门铁克、卡巴斯基、McAfee ；EDR产品不枚举了，腾讯的iOA、阿里的阿里郎，一定程度上都是可以充当类似的角色；</span></p></li></ul></ul><h2 style="color: rgb(62, 62, 62);"><br></h2><h2 style="color: rgb(62, 62, 62);"><strong style="color: rgb(51, 51, 51);font-size: 20px;white-space: normal;"><span style="color: rgb(49, 188, 173);">入侵检测效果评价指标</span></strong></h2><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">首先，主动发现的入侵案例/所有入侵 = 主动发现率。这个指标一定是最直观的。比较麻烦的是分母，很多真实发生的入侵，如果外部不反馈，我们又没检测到，它就不会出现在分母里，所以有效发现率总是虚高的，谁能保证当前所有的入侵都发现了呢？（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">但是实际上，只要入侵次数足够多，不管是SRC收到的情报，还是“暗网”上报出来的一个大新闻，把客观上已经知悉的入侵列入分母，总还是能计算出一个主动发现率的。</span><span style="font-size: 15px;">）</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">另外，真实的入侵其实是一个低频行为，大型的互联网企业如果一年到头成百上千的被入侵，肯定也不正常。因此，如果很久没出现真实入侵案例，这个指标长期不变化，也无法刻画入侵检测能力是否在提升。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">所以，我们一般还会引入两个指标来观测：</span></p><ul style="" class=" list-paddingleft-2"><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">蓝军对抗主动发现率</span></p></li><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">已知场景覆盖率</span></p></li></ul><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">蓝军主动高频对抗和演习，可以弥补真实入侵事件低频的不足，但是由于蓝军掌握的攻击手法往往也是有限的，他们多次演习后，手法和场景可能会被罗列完毕。假设某一个场景建设方尚未补齐能力，蓝军同样的姿势演习100遍，增加100个未发现的演习案例，对建设方而言并没有更多的帮助。所以，把已知攻击手法的建成覆盖率拿出来，也是一个比较好的评价指标。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">入侵检测团队把精力聚焦在已知攻击手法的优先级评估和快速覆盖上，对建设到什么程度是满足需要的，要有自己的专业判断（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">参考入侵检测原则里的“性价比”原则</span><span style="font-size: 15px;">）。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">而宣布建成了一个场景的入侵发现能力，是要有基本的验收原则的：</span></p><ul style="" class=" list-paddingleft-2"><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">该场景日均工单 &lt; X单，峰值 &lt; Y单；当前所有场景日平均&lt;XX，峰值 &lt;YY，超出该指标的策略不予接收，因为过多的告警会导致有效信息被淹没，反而导致此前具备的能力被干扰，不如视为该场景尚未具备对抗能力。</span></p></li><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">同一个事件只告警首次，多次出现自动聚合。</span></p></li><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">具备误报自学习能力。</span></p></li><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">告警具备可读性（</span><span style="line-height: inherit;font-size: 15px;color: rgb(136, 136, 136);">有清晰的风险阐述、关键信息、处理指引、辅助信息或者索引，便于定性</span><span style="color: inherit;line-height: inherit;font-size: 15px;">），不鼓励Key-Value模式的告警，建议使用自然语言描述核心逻辑和响应流程。</span></p></li><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">有清晰的说明文档，自测报告（</span><span style="line-height: inherit;font-size: 15px;color: rgb(136, 136, 136);">就像交付了一个研发产品，产品文档和自测过程是质量的保障</span><span style="color: inherit;line-height: inherit;font-size: 15px;">）。</span></p></li><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">有蓝军针对该场景实战验收报告。</span></p></li><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">不建议调用微信、短信等接口发告警（</span><span style="line-height: inherit;font-size: 15px;color: rgb(136, 136, 136);">告警和事件的区别是，事件可以闭环，告警只是提醒</span><span style="color: inherit;line-height: inherit;font-size: 15px;">），统一的告警事件框架可以有效的管理事件确保闭环，还能提供长期的基础运营数据，比如止损效率、误报量/率。</span></p></li></ul><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">策略人员的文档应当说明当前模型对哪些情况具备感知能力，哪些前提下会无法告警（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">考验一个人对该场景和自己模型的理解能力</span><span style="font-size: 15px;">）。通过前述判断，可以对策略的成熟度形成自评分，0-100自由大致估算。单个场景往往很难达到100分，但那并没有关系，因为从80分提升到100分的边际成本可能变的很高。不建议追求极致，而是全盘审视，是否快速投入到下一个场景中去。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">如果某个不到满分的场景经常出现真实对抗，又没有交叉的其它策略进行弥补，那自评结论可能需要重审并提高验收的标准。至少解决工作中实际遇到的Case要优先考虑。</span></p><h2 style="color: rgb(62, 62, 62);"><strong style="color: rgb(51, 51, 51);font-size: 20px;white-space: normal;"><span style="color: rgb(49, 188, 173);">影响入侵检测的关键要素</span></strong></h2><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">讨论影响入侵检测的要素时，我们可以简单看看，曾经发生过哪些错误导致防守方不能主动发现入侵：</span></p><ul style="" class=" list-paddingleft-2"><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">依赖的数据丢失，比如HIDS在当事机器上，没部署安装/Agent挂了/数据上报过程丢失了/Bug了，或者后台传输链条中丢失数据。</span></p></li><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">策略脚本Bug，没启动（</span><span style="line-height: inherit;font-size: 15px;color: rgb(136, 136, 136);">事实上我们已经失去了这个策略感知能力了</span><span style="color: inherit;line-height: inherit;font-size: 15px;">）。</span></p></li><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">还没建设对应的策略（</span><span style="line-height: inherit;font-size: 15px;color: rgb(136, 136, 136);">很多时候入侵发生了才发现这个场景我们还没来得及建设对应的策略</span><span style="color: inherit;line-height: inherit;font-size: 15px;">）。</span></p></li><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">策略的灵敏度/成熟度不够（</span><span style="line-height: inherit;font-size: 15px;color: rgb(136, 136, 136);">比如扫描的阈值没达到，WebShell用了变形的对抗手法</span><span style="color: inherit;line-height: inherit;font-size: 15px;">）。</span></p></li><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">模型依赖的部分基础数据错误，做出了错误的判断。</span></p></li><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">成功告警了，但是负责应急同学错误的判断/没有跟进/辅助信息不足以定性，没有行动起来。</span></p></li></ul><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">所以实际上，要让一个入侵事件被捕获，我们需要入侵检测系统长时间、高质量、高可用的运行。这是一件非常专业的工作，超出了绝大多数安全工程师能力和意愿的范畴。所以建议指派专门的运营人员对以下目标负责：</span></p><ul style="" class=" list-paddingleft-2"><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">数据采集的完整性（</span><span style="line-height: inherit;font-size: 15px;color: rgb(136, 136, 136);">全链路的对账</span><span style="color: inherit;line-height: inherit;font-size: 15px;">）。</span></p></li><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">每一个策略时刻工作正常（</span><span style="line-height: inherit;font-size: 15px;color: rgb(136, 136, 136);">自动化拨测监控</span><span style="color: inherit;line-height: inherit;font-size: 15px;">）。</span></p></li><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">基础数据的准确性。</span></p></li><li><p><span style="color: inherit;line-height: inherit;font-size: 15px;">工单运营支撑平台及追溯辅助工具的便捷性。</span></p></li></ul><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">可能有些同学会想，影响入侵检测的关键要素，难道不是模型的有效性么？怎么全是这些乱七八糟的东西？</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">实际上，大型互联网企业的入侵检测系统日均数据量可能到达数百T，甚至更多。涉及到数十个业务模块，成百上千台机器。从数字规模上来说，不亚于一些中小型企业的整个数据中心。这样复杂的一个系统，要长期维持在高可用标准，本身就需要有SRE、QA等辅助角色的专业化支持。如果仅依靠个别安全工程师，很难让其研究安全攻防的时候，又兼顾到基础数据质量、服务的可用性和稳定性、发布时候的变更规范性、各类运营指标和运维故障的及时响应。最终的结果就是能力范围内可以发现的入侵，总是有各种意外“恰好”发现不了。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">所以，笔者认为，以多数安全团队运营质量之差，其实根本轮不到拼策略（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">技术</span><span style="font-size: 15px;">）。当然，一旦有资源投入去跟进这些辅助工作之后，入侵检测就真的需要拼策略了。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">此时，攻击手法有那么多，凭什么先选择这个场景建设？凭什么认为建设到某程度就足够满足当下的需要了？凭什么选择发现某些样本，而放弃另一些样本的对抗？</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">这些看似主观性的东西，非常考验专业判断力。而且在领导面前很容易背上“责任心不足”的帽子，比如为困难找借口而不是为目标找方法，这个手法黑客攻击了好多次，凭什么不解决，那个手法凭什么说在视野范围内，但是要明年再解决？</span></p><h2 style="color: rgb(62, 62, 62);"><strong style="color: rgb(51, 51, 51);font-size: 20px;white-space: normal;"><span style="color: rgb(49, 188, 173);">如何发现APT？</span></strong></h2><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="">所谓APT，就是高级持续威胁。既然是高级的，就意味着木马很大可能是免杀的（<span style="">不能靠杀毒软件或者普通的特征发现</span>），利用的漏洞也是高级的（<span style="">加固到牙齿可能也挡不住敌人进来的步伐</span>），攻击手法同样很高级（<span style="">攻击场景可能我们都没有见过</span>）。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">所以，实际上APT的意思，就约等于同于不能被发现的入侵。然而，业界总还有APT检测产品，解决方案的厂商在混饭吃，他们是怎么做的呢？</span></p><ul style="" class=" list-paddingleft-2"><li><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">木马免杀的，用沙箱+人工分析，哪怕效率低一些，还是试图做出定性，并快速的把IOC（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">威胁情报</span><span style="font-size: 15px;">）同步给其它客户，发现1例，全球客户都具备同样的感知能力。</span></p></li><li><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">流量加密变形对抗的，用异常检测的模型，把一些不认识的可疑的IP关系、payload给识别出来。当然，识别出来之后，也要运营人员跟进得仔细，才能定性。</span></p></li><li><p style="font-size: inherit;color: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">攻击手法高级的，还是会假定黑客就用鱼叉、水坑之类的已知手法去执行，然后在邮箱附件、PC终端等环节采集日志，对用户行为进行分析，UEBA试图寻找出用户异于平常的动作。</span></p></li></ul><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">那么，我们呢？笔者也没有什么好的办法，可以发现传说中的“免杀”的木马，但是我们可以针对已知的黑客攻击框架（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">比如Metasploit、Cobalt Strike</span><span style="font-size: 15px;">）生成的样本、行为进行一些特征的提取。我们可以假设已经有黑客控制了某一台机器，但是它试图进行横向扩散的时候，我们有一些模型可以识别这个主机的横向移动行为。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">笔者认为，世界上不存在100%能发现APT的方法。但是我们可以等待实施APT的团队犯错，只要我们的纵深足够的多，信息足够不对称，想要完全不触碰我们所有的铃铛，绝对存在一定的困难。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">甚至，攻击者如果需要小心翼翼的避开所有的检测逻辑，可能也会给对手一种心理上的震慑，这种震慑可能会延缓对手接近目标的速度，拉长时间。而在这个时间里，只要他犯错，就轮到我们出场了。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">前面所有的高标准，包括高覆盖、低误报，强制每一个告警跟进到底，“掘地三尺”的态度，都是在等待这一刻。抓到一个值得敬佩的对手，那种成就感，还是很值得回味的。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">所以，希望所有从事入侵检测的安全同行们都能坚持住，即使听过无数次“狼来了”，下一次看到告警，依然可以用最高的敬畏心去迎接对手（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">告警虐我千百遍，我待告警如初恋</span><span style="font-size: 15px;">）。</span></p><h2 style="color: rgb(62, 62, 62);"><strong style="color: rgb(51, 51, 51);font-size: 20px;white-space: normal;"><span style="color: rgb(49, 188, 173);">AI在入侵检测领域的正确姿势</span></strong></h2><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">最近这两年，如果不谈AI的话，貌似故事就不会完整。只不过，随着AI概念的火爆，很多人已经把传统的数据挖掘、统计分析等思想，比如分类、预测、聚类、关联之类的算法，都一律套在AI的帽子里。</span></p><p style="color: rgb(62, 62, 62);text-align: center;"><img class="" data-copyright="0" data-ratio="0.75" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_jpg/hEx03cFgUsXibicYtRt824nicRjKGTibicl7aQVUT6aD2lR1wB4y2caQltQAicQo5EH9IBysW0VJ8kFkRB5VjQS8iao1Q/640?wx_fmt=jpeg" data-type="jpeg" data-w="1280" style=""></p><figure style="color: inherit;font-size: inherit;line-height: inherit;"><figcaption style="line-height: inherit;margin-top: 10px;text-align: center;color: rgb(153, 153, 153);font-size: 0.7em;"></figcaption></figure><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">其实AI是一种现代的方法，在很多地方有非常实际的产出了。以WebShell的文本分析为例，我们可能需要花很长很长的时间，才能把上千个样本里隐含的几十种样本技术类型拆分开，又花更长的时间去一一建设模型（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">是的，在这样的场景下，特征工程真的是一个需要更长时间的工作</span><span style="font-size: 15px;">）。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">而使用AI，做好数据打标的工作，训练、调参，很快就能拿到一个实验室环境不那么过拟合的模型出来，迅速投产到生产环境上。熟练一点可能1-2个月就能做完了。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">在这种场景下，AI这种现代的方法，的确能极大的提高效率。但问题是，前文也提到过了，黑客的攻击黑样本、WebShell的样本，往往极其稀缺，它不可能是完备的能够描述黑客入侵的完整特征的。因此，AI产出的结果，无论是误报率还是漏报率，都会受训练方法和输入样本的影响较大，我们可以借助AI，但绝对不能完全交给AI。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">安全领域一个比较常见的现象是，将场景转变成标记问题，要难过于通过数学模型把标记的解给求出来。此时往往需要安全专家先行，算法专家再跟上，而不能直接让算法专家“孤军奋战”。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">针对一个具体的攻击场景，怎么样采集对应的入侵数据，思考这个入侵动作和正常行为的区别，这个特征的提取过程，往往决定了模型最终的效果。特征决定了效果的上限，而算法模型只能决定了有多接近这个上限。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">此前，笔者曾见过一个案例，AI团队产出了一个实验室环境效果极佳，误报率达到1/1000000的WebShell模型，但是投放到生产环境里初期日均告警6000单，完全无法运营，同时还存在不少漏报的情况。这些情况随着安全团队和AI工程师共同的努力，后来逐渐地解决。但是并未能成功的取代原有的特征工程模型。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">目前业界有许多产品、文章在实践AI，但遗憾的是，这些文章和产品大多“浅尝辄止”，没有在真实的环境中实践运营效果。一旦我们用前面的标准去要求它，就会发现，AI虽然是个好东西，但是绝对只是个“半成品”。真正的运营，往往需要传统的特征工程和AI并行，也需要持续地进行迭代。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">未来必然是AI的天下，但是有多少智能，前面可能就要铺垫多少人工。愿与同行们一起在这个路上继续探索下去，多多交流分享。</span></p><h2 style="color: rgb(62, 62, 62);"><strong style="color: rgb(51, 51, 51);font-size: 16px;white-space: normal;"><span style="color: rgb(49, 188, 173);">关于美团安全</span></strong></h2><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">美团安全部的大多数核心开发人员，拥有多年互联网以及安全领域实践经验，很多同学参与过大型互联网公司的安全体系建设，其中也不乏全球化安全运营人才，具备百万级IDC规模攻防对抗的经验。安全部也不乏CVE“挖掘圣手”，有受邀在Black Hat等国际顶级会议发言的讲者，当然还有很多漂亮的运营妹子。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">目前，美团安全部涉及的技术包括渗透测试、Web防护、二进制安全、内核安全、分布式开发、大数据分析、安全算法等等，同时还有全球合规与隐私保护等策略制定。我们正在建设一套百万级IDC规模、数十万终端接入的移动办公网络自适应安全体系，这套体系构建于零信任架构之上，横跨多种云基础设施，包括网络层、虚拟化/容器层、Server 软件层（</span><span style="font-size: 15px;color: rgb(136, 136, 136);">内核态/用户态</span><span style="font-size: 15px;">）、语言虚拟机层(</span><span style="font-size: 15px;color: rgb(136, 136, 136);">JVM/JS V8</span><span style="font-size: 15px;">)、Web应用层、数据访问层等，并能够基于大数据+机器学习技术构建全自动的安全事件感知系统，努力打造成业界最前沿的内置式安全架构和纵深防御体系。</span></p><p style="color: inherit;font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;">随着美团的高速发展，业务复杂度不断提升，安全部门面临更多的机遇和挑战。我们希望将更多代表业界最佳实践的安全项目落地，同时为更多的安全从业者提供一个广阔的发展平台，并提供更多在安全新兴领域不断探索的机会。</span></p><p style="font-size: inherit;line-height: inherit;margin-top: 1.5em;margin-bottom: 1.5em;"><span style="font-size: 15px;"><span style="color: rgb(136, 136, 136);font-family: -apple-system-font, system-ui, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif;font-size: 15px;text-align: justify;background-color: rgb(255, 255, 255);">欢迎加入</span><strong style="color: rgb(51, 51, 51);font-family: -apple-system-font, system-ui, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif;font-size: 15px;text-align: justify;white-space: normal;background-color: rgb(255, 255, 255);"><span style="color: rgb(0, 0, 0);">美团安全技术交流群</span></strong><span style="color: rgb(136, 136, 136);font-family: -apple-system-font, system-ui, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif;font-size: 15px;text-align: justify;background-color: rgb(255, 255, 255);">，跟作者零距离交流。进群方式：请加美美同学</span></span><span style="font-size: 15px;letter-spacing: 0px;color: rgb(136, 136, 136);font-family: -apple-system-font, system-ui, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif;text-align: justify;background-color: rgb(255, 255, 255);">微信（微信号：<strong>MTDPtech01）</strong>，美美会自动拉你进群。</span></p></section><p style="max-width: 100%;min-height: 1em;white-space: normal;color: rgb(51, 51, 51);text-align: center;box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;margin-left: 0.5em;margin-right: 0.5em;"><span style="max-width: 100%;font-size: 15px;color: rgb(136, 136, 136);box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;">----------&nbsp; END&nbsp; ----------</span></p><p data-source-line="194" style="max-width: 100%;min-height: 1em;white-space: normal;color: rgb(51, 51, 51);box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;margin-left: 0.5em;margin-right: 0.5em;"><span style="max-width: 100%;font-size: 16px;box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;"><strong style="max-width: 100%;box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;"><span style="max-width: 100%;color: rgb(49, 188, 173);box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;">招聘信息</span></strong></span></p><p style="max-width: 100%;min-height: 1em;white-space: normal;color: rgb(51, 51, 51);box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;margin-left: 0.5em;margin-right: 0.5em;"><br style="max-width: 100%;box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;"></p><section data-source="bj.96weixin.com" style="max-width: 100%;font-size: 16px;white-space: normal;box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;margin-left: 0.5em;margin-right: 0.5em;"><section style="padding: 20px 20px 15px;max-width: 100%;box-sizing: border-box;width: 670px;text-decoration: inherit;background-color: rgb(245, 245, 245);overflow-wrap: break-word !important;word-break: normal !important;"><p style="max-width: 100%;min-height: 1em;line-height: normal;box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;"><span style="font-size: 14px;text-decoration: inherit;">美团安全部正在招募Web&amp;二进制攻防、后台&amp;系统开发、机器学习&amp;算法等各路小伙伴。如果你想加入我们，欢迎简历请发至邮箱zhaoyan17@meituan.com</span><br></p><p style="max-width: 100%;min-height: 1em;line-height: normal;box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;"><span style="font-size: 14px;text-decoration: inherit;"><br></span></p><p><span style="font-size: 14px;">具体职位信息可参考</span><a href="https://mp.weixin.qq.com/s?__biz=MzI5MDc4MTM3Mg==&amp;mid=2247483885&amp;idx=1&amp;sn=b349cff6d4bb20f85cef7018844edb15&amp;scene=21#wechat_redirect" target="_blank"><strong><span style="font-size: 14px;">这里</span></strong></a></p><p><br></p><p><span style="font-size: 14px;">美团安全应急响应中心MTSRC主页：</span><a href="https://security.meituan.com/#/home" style="font-size: 14px;text-decoration: underline;"><span style="font-size: 14px;">security.meituan.com</span></a></p><p><br></p><p><span style="font-size: 14px;">欢迎关注<strong>美团安全应急响应中心</strong>MTSRC微信公众号</span></p></section></section><p data-source-line="194" style="max-width: 100%;min-height: 1em;white-space: normal;box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;margin-left: 0.5em;margin-right: 0.5em;"><br style="max-width: 100%;box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;"></p><p style="max-width: 100%;min-height: 1em;white-space: normal;box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;margin-left: 0.5em;margin-right: 0.5em;"><span style="max-width: 100%;font-size: 16px;box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;"><strong style="max-width: 100%;box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;"><span style="max-width: 100%;color: rgb(49, 188, 173);box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;">也许你还想看</span></strong></span></p><p style="max-width: 100%;min-height: 1em;white-space: normal;box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;margin-left: 0.5em;margin-right: 0.5em;"><span style="max-width: 100%;font-size: 16px;box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;"><strong style="max-width: 100%;box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;"><span style="max-width: 100%;color: rgb(49, 188, 173);box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;"><br style="max-width: 100%;box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;"></span></strong></span></p><p style="margin-left: 0.5em;margin-right: 0.5em;"><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ5MTI5OA==&amp;mid=2651748020&amp;idx=1&amp;sn=f4ac7e4016cd8170053c7e121f060498&amp;chksm=bd12aff98a6526ef96eecff3d22c4013ade8cbd783f4aec086ee2656879eddc070e92634ec73&amp;scene=21#wechat_redirect" target="_blank" style="font-size: 14px;text-decoration: underline;"><span style="font-size: 14px;">互联网企业：如何建设数据安全体系？</span></a></p><p style="margin-left: 0.5em;margin-right: 0.5em;"><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ5MTI5OA==&amp;mid=2651746923&amp;idx=2&amp;sn=da4a4d00c1c71dc0286437c7f1793584&amp;chksm=bd12ab268a6522309db8b6e6bd4c311adf878275df4dd16be08578045bbdd6cd06a625994bcd&amp;scene=21#wechat_redirect" target="_blank" style="font-size: 14px;text-decoration: underline;"><span style="font-size: 14px;">互联网企业安全之端口监控</span></a></p><p style="margin-left: 0.5em;margin-right: 0.5em;"><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjQ5MTI5OA==&amp;mid=2651746207&amp;idx=1&amp;sn=5660ab12626943d0515a9bf7c37888aa&amp;chksm=bd12b6d28a653fc409363343558b82c4a5b2705f40e2035c7124e7ba341c16401cdd3911755c&amp;scene=21#wechat_redirect" target="_blank" style="font-size: 14px;text-decoration: underline;"><span style="font-size: 14px;">从Google白皮书看企业安全最佳实践</span></a><br></p><p style="max-width: 100%;min-height: 1em;white-space: normal;box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;margin-left: 0.5em;margin-right: 0.5em;"><br style="max-width: 100%;box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;"><span style="max-width: 100%;font-size: 15px;box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;"></span></p><p style="max-width: 100%;min-height: 1em;white-space: normal;text-align: center;margin-left: 0.5em;margin-right: 0.5em;box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;"><img class="" data-copyright="0" data-ratio="0.44533333333333336" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/hEx03cFgUsV6LYkM3uK5TAnl8DxXwdR4YOAKWmYSpAtzV3P359bDG3cn3Vr4T6HMkvDSI8icUYsejmDnfa5CdpQ/640?wx_fmt=png" data-type="png" data-w="1875" style="box-sizing: border-box !important;overflow-wrap: break-word !important;word-break: normal !important;"></p>
+                </div>
+                <script nonce="2139940995" type="text/javascript">
+                    var first_sceen__time = (+new Date());
+
+                    if ("" == 1 && document.getElementById('js_content')) {
+                        document.getElementById('js_content').addEventListener("selectstart",function(e){ e.preventDefault(); });
+                    }
+
+                    
+                    (function(){
+                        if (navigator.userAgent.indexOf("WindowsWechat") != -1){
+                            var link = document.createElement('link');
+                            var head = document.getElementsByTagName('head')[0];
+                            link.rel = 'stylesheet';
+                            link.type = 'text/css';
+                            link.href = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+                            head.appendChild(link);
+                        }
+                    })();
+                </script>
+
+                
+                <div class="ct_mpda_wrp" id="js_sponsor_ad_area" style="display:none;"></div>
+                
+                
+                <div class="read-more__area" id="js_more_read_area" style="display:none;">
+                    
+                </div>
+
+                
+                                <div class="reward_area tc reward_area_primary" id="js_preview_reward_author" style="display:none;">
+                    <div class="reward-avatar" style="display: none;" id="js_preview_reward_author_avatar">
+                        <img src="" alt="" id="js_preview_reward_author_head">
+                    </div>
+                    
+                                        <div class="reward-author" id="js_preview_reward_author_name">弼政</div>
+                                        <p class="reward_tips" id="js_preview_reward_author_wording" style="display:none;"></p>
+                    <p>
+                        <a class="reward_button" id='js_preview_reward_author_link' href="##"><span id="js_preview_reward_link_text">赞赏</span></a>
+                    </p>
+                </div>
+
+                <div class="reward_qrcode_area reward_area tc" id="js_preview_reward_qrcode" style="display:none;">
+                    <p class="tips_global">长按二维码向我转账</p>
+                    <p id="js_preview_reward_ios_wording" class="reward_tips" style="display:none;"></p>
+                    <span class="reward_qrcode_img_wrp"><img class="reward_qrcode_img" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_reward_qrcode.2x42f400.png"></span>
+                    <p class="tips_global">受苹果公司新规定影响，微信 iOS 版的赞赏功能被关闭，可通过二维码转账支持公众号。</p>
+                </div>
+                                
+                
+                            </div>
+                                    
+                        <div class="article_modify_area tips_global_primary article_modify_area_primary">
+              文章已于<span id="js_modify_time"></span>修改            </div>
+                        
+
+
+                        
+            <ul id="js_hotspot_area" class="article_extend_area"></ul>
+
+
+            
+
+            
+
+
+<div class="rich_media_tool" id="js_toobar3">
+
+        <a class="media_tool_meta meta_primary" id="js_view_source" href="##">阅读原文</a>
+        <div id="js_read_area3" class="media_tool_meta tips_global_primary meta_primary" style="display:none;">阅读 <span id="readNum3"></span></div>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_praise" id="like_old">
+        <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum_old"></span>
+    </span>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_like" id="like3">
+        <button class="like_btn" id="js_like_btn"> 
+          <span id="js_like_wording"> 好看</span><span class="like_num" id="likeNum3"></span>
+        </button>
+    </span>
+
+    <div id="js_like_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog weui-dialog_haokan">
+        <div class="weui-dialog__hd"><strong class="weui-dialog__title" id="educate_title">已推荐到看一看</strong></div>
+        <div class="weui-dialog__bd">
+          <img class="pic_haokan" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_haokan42f400.png">
+            你的朋友可以在“发现”-“看一看”看到你认为好看的文章。        </div>
+        <div class="weui-dialog__ft" id="educate_btn" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_default" id="js_cancel">取消</a>
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_confirm">推荐</a>
+        </div>
+        <div class="weui-dialog__ft" id="educate_btn2" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_acknowledge">我知道了</a>
+        </div>
+        </div>
+    </div>
+
+    <div id="js_unlike_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog">
+        
+        <div class="weui-dialog__bd">
+            已取消，“好看”想法已同步删除        </div>
+        <div class="weui-dialog__ft">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_unlike_know">知道了</a>
+        </div>
+        </div>
+    </div>
+
+    
+    </div>
+
+
+<div class="like_comment_wrp" id="js_a_like_comment" style="display: none;">
+  <div class="like_comment_inner">
+    <div class="like_comment_hd" style="display:none" id="js_like_title"></div>
+    <div class="like_comment_bd">
+      <div class="tips_global_primary like_comment_tips">
+        <i class="weui-icon-success"></i>已推荐到看一看<a href="javascript:;" class="like_comment_share_link" id="js_a_like_comment_share">和朋友分享想法</a>
+      </div>
+    </div>
+    <div class="like_comment_ft">
+      <span id="js_a_like_comment_msg" class="like_comment_msg" style="visibility:hidden">最多200字，当前共<span id="js_a_like_current_cnt"></span>字</span>
+      <button class="like_comment_btn" disabled="disabled" id="js_a_like_confirm">发送</button>
+    </div>
+  </div>
+</div>
+
+<div id="js_like_toast" style="display: none;">
+  <div class="weui-mask_transparent"></div>
+  <div class="weui-toast">
+    <i class="weui-icon-success-no-circle weui-icon_toast"></i>
+    <p class="weui-toast__content" id="js_toast_msg">已发送</p>
+  </div>
+</div>
+
+
+<div style="display: none;" id="js_b_comment_panel" class="like_comment_primary_pop">
+  <div class="like_comment_primary_wrp" id="js_b_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <h4 class="like_comment_primary_title">
+          朋友将在看一看看到        </h4>
+        <button id="js_b_like_confirm" class="like_comment_primary_btn">确定</button>
+      </div>
+      <div id='js_b_comment_text_first' class="like_comment_primary_bd">
+        <span class="tips_global_primary">
+          分享你的想法...        </span>
+      </div>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_1"></div>
+</div>
+
+<div style="display: none;" id="js_b_comment_final">
+  <div class="like_comment_primary_wrp editing" id="js_comment_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <button class="like_comment_primary_cancel" id="js_b_comment_cancel">取消</button>
+        <h4 class="like_comment_primary_title"> 分享想法到看一看 </h4>
+        <button class="like_comment_primary_btn" id="js_b_comment_confirm">确定</button>
+      </div>
+      <div class="like_comment_primary_bd">
+        <textarea class="like_comment_textarea weui-textarea" placeholder="分享你的想法..." id="js_b_comment_text_second"></textarea>
+      </div>
+      <span class="like_comment_msg" id="js_b_like_comment_msg" style="visibility: hidden;">最多200字，当前共<span id="js_b_like_current_cnt"></span>字</span>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_2"></div>
+</div>
+
+<div id="js_loading" style=" display: none;">
+    <div class="weui-mask_transparent"></div>
+    <div class="weui-toast">
+        <i class="weui-loading weui-icon_toast"></i>
+        <p class="weui-toast__content">发送中</p>
+    </div>
+</div>
+
+<div id="js_fail" style="display:none">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+    <div class="weui-dialog__bd">
+        网络异常，请稍后重试    </div>
+    <div class="weui-dialog__ft">
+      <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_fail_inform">知道了</a>
+    </div>
+    </div>
+</div>
+
+
+
+                      </div>
+        </div>
+
+        <div class="rich_media_area_primary sougou" id="sg_tj" style="display:none"></div>
+
+
+        
+        <div class="rich_media_area_extra">
+          <div class="rich_media_area_extra_inner">
+              
+              <div id="js_share_appmsg">
+              </div>
+
+              
+                            <div class="mpda_bottom_container" id="js_bottom_ad_area"></div>
+                            
+              <div id="js_iframetest" style="display:none;"></div>
+                            
+              <div class="rich_media_extra rich_media_extra_discuss" id="js_cmt_container" style="display:none">
+                
+
+                
+                <div class="discuss_mod" id="js_friend_cmt_area" style="display:none">
+                  
+                  
+                  
+                </div>
+
+                                <div class="discuss_mod" id="js_cmt_area" style="display:none">
+                </div>
+                              </div>
+          </div>
+        </div>
+
+        
+        <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">
+            <div class="qr_code_pc_inner">
+                <div class="qr_code_pc">
+                    <img id="js_pc_qr_code_img" class="qr_code_pc_img">
+                    <p>微信扫一扫<br>关注该公众号</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="js_pc_weapp_code" class="weui-desktop-popover weui-desktop-popover_pos-up-center weui-desktop-popover_img-text" style="display: none;">
+    <div class="weui-desktop-popover__content">
+        <div class="weui-desktop-popover__desc">
+            <img id="js_pc_weapp_code_img">
+            微信扫一扫<br>使用小程序<span id="js_pc_weapp_code_des"></span>        </div>
+    </div>
+</div>
+<div id="js_minipro_dialog" style="display:none;">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+        <div class="weui-dialog__bd">即将打开"<span id="js_minipro_dialog_name"></span>"小程序</div>
+        <div class="weui-dialog__ft">
+            <a id="js_minipro_dialog_cancel" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_default">取消</a>
+            <a id="js_minipro_dialog_ok" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_primary">打开</a>
+        </div>
+    </div>
+</div>
+
+        
+        <script nonce="2139940995">
+    var __DEBUGINFO = {
+        debug_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/debug/console42f400.js",
+        safe_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/moonsafe42f400.js",
+        res_list: []
+    };
+</script>
+
+<script nonce="2139940995" type="text/javascript">
+(function() {
+	var totalCount = 0,
+			finishCount = 0;
+
+	function _loadVConsolePlugin() {
+		window.vConsole = new window.VConsole();
+		while (window.vConsolePlugins.length > 0) {
+			var p = window.vConsolePlugins.shift();
+			window.vConsole.addPlugin(p);
+		}
+	}
+	
+	function _addVConsole(uri, cb) {
+		totalCount++;
+		var node = document.createElement('SCRIPT');
+		node.type = 'text/javascript';
+		node.src = uri;
+		node.setAttribute('nonce', '2139940995');
+		if (cb) {
+			node.onload = cb;
+		}
+		document.getElementsByTagName('head')[0].appendChild(node);
+	}
+	if (
+		(document.cookie && document.cookie.indexOf('vconsole_open=1') > -1)
+		|| location.href.indexOf('vconsole=1') > -1
+	) {
+		window.vConsolePlugins = [];
+		_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/3.2.2/vconsole.min43429b.js', function() {
+			
+			_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/plugin/vconsole-mpopt/1.0.1/vconsole-mpopt42f400.js', _loadVConsolePlugin);
+		});
+	}
+})();
+</script>
+        
+<script nonce="2139940995" type="text/javascript">
+if (location.href.match(/fontScale=\d+/) && /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+
+    var m=location.href.match(/fontScale=(\d*)/);
+    var map={
+        "94":1,
+        "100":2,
+        "109":3,
+        "119":4,
+        "131":5,
+    }
+    if(m&&m[1]&&map[m[1]]){
+        document.getElementsByTagName("body")[0].className+=" appmsg_skin_fontscale_"+map[m[1]];
+        console.log("appmsg_skin_fontscale_:"+map[m[1]]);
+    }
+}
+
+
+(function(){
+    if (window.__second_open__) return; 
+
+    
+
+    var first_js_time = +new Date();
+
+    var showDate="";
+    var svrDate=new Date("1549780659"*1000);
+    var createDate=new Date("1541678310"*1000);
+    var ct="1541678310"*1;
+    var publish_time = "2018-11-08" || "";
+    var cD={
+      year:createDate.getYear(),
+      month:createDate.getMonth()+1,
+      date:createDate.getDate()
+    };
+    
+    svrDate.setHours(0);
+    svrDate.setMinutes(0);
+    svrDate.setSeconds(0);
+    var todayDate=svrDate.getTime()/1000;
+    svrDate.setDate(1);
+    svrDate.setMonth(0);
+    var yearDate=svrDate.getTime()/1000;
+    
+    if(ct>=todayDate){
+      showDate="今天";
+    
+    }else if(ct>=todayDate-60*60*24){
+       showDate="昨天";
+    
+    }else if(ct>=todayDate-2*60*60*24){
+      showDate="前天";
+    }else if(ct>=todayDate-3*60*60*24){
+      showDate="3天前";
+    }else if(ct>=todayDate-4*60*60*24){
+      showDate="4天前";
+    }else if(ct>=todayDate-5*60*60*24){
+      showDate="5天前";
+    }else if(ct>=todayDate-6*60*60*24){
+      showDate="6天前";
+    }else if(ct>=todayDate-2*7*60*60*24){
+      showDate="1周前";
+    }else if(ct>=yearDate){
+      
+      
+      
+      showDate="%s月%s日".replace("%s",cD.month).replace("%s",cD.date);
+    }else{
+      showDate=publish_time;
+    };
+    if(document.getElementById("publish_time")){
+      document.getElementById("publish_time").innerText=showDate;
+    }
+})();
+</script>
+<script nonce="2139940995" type="text/javascript">
+
+if (!window.console) window.console = { log: function() {} };
+
+if (typeof getComputedStyle == 'undefined') {
+    if (document.body.currentStyle) {
+        window.getComputedStyle = function(el) {
+            return el.currentStyle;
+        }
+    } else {
+        window.getComputedStyle = {};
+    }
+}
+(function(){
+    window.__zoom = 1;
+    
+    (function(){
+        var validArr = ","+([0.875, 1, 1.125, 1.25, 1.375]).join(",")+",";
+        var match = window.location.href.match(/winzoom=(\d+(?:\.\d+)?)/);
+        if (match && match[1]) {
+            var winzoom = parseFloat(match[1]);
+            if (validArr.indexOf(","+winzoom+",")>=0) {
+                window.__zoom = winzoom;
+            }
+        }
+    })();
+
+    var ua = navigator.userAgent.toLowerCase();
+    var re = new RegExp("msie ([0-9]+[\.0-9]*)");
+    var version;
+    if (re.exec(ua) != null) {
+        version = parseInt(RegExp.$1);
+    }
+    var isIE = false;
+    if (typeof version != 'undefined' && version >= 6 && version <= 9) {
+        isIE = true;
+    }
+    var getMaxWith=function(){
+        var container = document.getElementById('img-content');
+        var max_width = container.offsetWidth;
+        var container_padding = 0;
+        var container_style = getComputedStyle(container);
+        container_padding = parseFloat(container_style.paddingLeft) + parseFloat(container_style.paddingRight);
+        max_width -= container_padding;
+        if (!max_width) {
+            max_width = window.innerWidth - 30;      
+        }
+        return max_width;
+    };
+    var getParentWidth = function(dom){
+        var parent_width = 0;
+        var parent = dom.parentNode;
+        var outerWidth = 0;
+        while (true) {
+            if(!parent||parent.nodeType!=1) break;
+            var parent_style = getComputedStyle(parent);
+            if (!parent_style) break;
+            parent_width = parent.clientWidth - parseFloat(parent_style.paddingLeft) - parseFloat(parent_style.paddingRight) - outerWidth;
+            if (parent_width > 0) break;
+            outerWidth += parseFloat(parent_style.paddingLeft) + parseFloat(parent_style.paddingRight) + parseFloat(parent_style.marginLeft) + parseFloat(parent_style.marginRight) + parseFloat(parent_style.borderLeftWidth) + parseFloat(parent_style.borderRightWidth);
+            parent = parent.parentNode;
+        }
+        return parent_width;
+    }
+    var getOuterW=function(dom){
+        var style=getComputedStyle(dom),
+            w=0;
+        if(!!style){
+            w = parseFloat(style.paddingLeft) + parseFloat(style.paddingRight) + parseFloat(style.borderLeftWidth) + parseFloat(style.borderRightWidth);
+        }
+        return w;
+    };
+    var getOuterH =function(dom){
+        var style=getComputedStyle(dom),
+            h=0;
+        if(!!style){
+            h = parseFloat(style.paddingTop) + parseFloat(style.paddingBottom) + parseFloat(style.borderTopWidth) + parseFloat(style.borderBottomWidth);
+        }
+        return h;
+    };
+    var insertAfter = function(dom,afterDom){
+        var _p = afterDom.parentNode;
+        if(!_p){
+            return;
+        }
+        if(_p.lastChild === afterDom){
+            _p.appendChild(dom);
+        }else{
+            _p.insertBefore(dom,afterDom.nextSibling);
+        }
+    };
+    var getQuery = function(name,url){
+        
+        var u  = arguments[1] || window.location.search,
+            reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)"),
+            r = u.substr(u.indexOf("\?")+1).match(reg);
+        return r!=null?r[2]:"";
+    };
+
+    
+    function setImgSize(item, widthNum, widthUnit, ratio, breakParentWidth) {
+        setTimeout(function () {
+            var img_padding_border = getOuterW(item) || 0;
+            var img_padding_border_top_bottom = getOuterH(item) || 0;
+            
+            if (widthNum > getParentWidth(item) && !breakParentWidth) {
+                widthNum = getParentWidth(item);
+            }
+
+            height = (widthNum - img_padding_border) * ratio + img_padding_border_top_bottom;
+
+            if (isIE) {
+                var url = item.getAttribute('data-src');
+                item.src = url;
+            } else {
+                if(parseFloat(widthNum, 10) > 40 && height > 40 && breakParentWidth) {
+                    item.className += ' img_loading';
+                }
+                item.src = "data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            }
+            item.style.cssText += ";width: " + widthNum + widthUnit + " !important;";
+            item.style.cssText += ";height: " + height + widthUnit + " !important;";
+        }, 10);
+    }
+
+    (function(){
+        var images = document.getElementsByTagName('img');
+        var length = images.length;
+        var max_width = getMaxWith();
+        for (var i = 0; i < length; ++i) {
+            if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var imageItem = images[i];
+            var src_ = imageItem.getAttribute('data-src');
+            var realSrc = imageItem.getAttribute('src');
+            if (!src_ || realSrc) continue;
+            
+            var originWidth = imageItem.getAttribute('data-w');
+            var ratio_ = 1 * imageItem.getAttribute('data-ratio');
+
+            var height = 100;
+            if (ratio_ && ratio_ > 0) {
+                var parent_width = getParentWidth(imageItem) || max_width;
+                var initWidth = imageItem.style.width || imageItem.getAttribute('width') || originWidth || parent_width;
+                initWidth = parseFloat(initWidth, 10) > max_width ? max_width : initWidth;
+                
+                if (initWidth) {
+                    imageItem.setAttribute('_width', !isNaN(initWidth * 1) ? initWidth + 'px' : initWidth);
+                }
+                
+                if (typeof initWidth === 'string' && initWidth.indexOf('%') !== -1) {
+                    initWidth = parseFloat(initWidth.replace('%', ''), 10) / 100 * parent_width;
+                }
+                
+                if (initWidth === 'auto') {
+                    initWidth = originWidth;
+                }
+
+                var res = /^(\d+(?:\.\d+)?)([a-zA-Z%]+)?$/.exec(initWidth);
+                var widthNum = res && res.length >= 2 ? res[1] : 0;
+                var widthUnit = res && res.length >= 3 && res[2] ? res[2] : 'px';
+
+                
+                setImgSize(imageItem, widthNum, widthUnit, ratio_, true);
+                
+                (function (item, widthNumber, unit, ratio) {
+                    setTimeout(function () {
+                        setImgSize(item, widthNumber, unit, ratio, false);
+                    });
+                })(imageItem, widthNum, widthUnit, ratio_);
+            } else {
+                imageItem.style.cssText += ";visibility: hidden !important;";
+            }
+
+        }
+    })();
+    window.__videoDefaultRatio=16/9;
+    window.__getVideoWh = function(dom){
+        var max_width = getMaxWith(),
+            width = max_width,
+            ratio_ = dom.getAttribute('data-ratio')*1,
+            arr = [4/3, 16/9],
+            ret = arr[0],
+            abs = Math.abs(ret - ratio_);
+        if (!ratio_) { 
+            if (dom.getAttribute("data-mpvid")) { 
+                ratio_ = 16/9;
+            } else { 
+                ratio_ = 4/3;
+            }
+        } else { 
+            for (var j = 1, jl = arr.length; j < jl; j++) {
+                var _abs = Math.abs(arr[j] - ratio_);
+                if (_abs < abs) {
+                    abs = _abs;
+                    ret = arr[j];
+                }
+            }
+            ratio_ = ret;
+        }
+        
+        var parent_width = getParentWidth(dom)||max_width,
+            width = width > parent_width ? parent_width : width,
+            outerW = getOuterW(dom)||0,
+            outerH = getOuterH(dom)||0,
+            videoW = width - outerW,
+            videoH = videoW/ratio_,
+            height = videoH + outerH;
+        return {w:Math.ceil(width),h:Math.ceil(height),vh:videoH,vw:videoW,ratio:ratio_};
+    };
+
+
+    (function(){
+        var iframe = document.getElementsByTagName('iframe');
+        for (var i=0,il=iframe.length;i<il;i++) {
+            if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var a = iframe[i];
+            var src_ = a.getAttribute('src')||a.getAttribute('data-src')||"";
+            if(!/^http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)
+                && !/^http(s)*\:\/\/mp\.weixin\.qq\.com\/mp\/readtemplate\?t=pages\/video_player_tmpl/.test(src_)
+            ){
+                continue;
+            }
+            var vid = getQuery("vid",src_);
+            if(!vid){
+                continue;
+            }
+            vid=vid.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,"");
+            a.removeAttribute('src');
+            a.style.display = "none";
+            var obj = window.__getVideoWh(a),
+                videoPlaceHolderSpan = document.createElement('span'),
+                videoPlayerIconSpan = document.createElement('span'),
+                mydiv = document.createElement('img');
+
+            videoPlaceHolderSpan.className = "js_img_loading db";
+            videoPlaceHolderSpan.setAttribute("data-vid", vid);
+            
+
+            videoPlayerIconSpan.className = 'wx_video_context db'; 
+            videoPlayerIconSpan.style.display = 'none';
+            videoPlayerIconSpan.innerHTML = '<span class="wx_video_thumb_primary"></span><button class="wx_video_play_btn">播放</button><span class="wx_video_mask"></span>'; 
+
+            mydiv.className = "img_loading";
+
+            mydiv.src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            
+            
+            videoPlaceHolderSpan.style.cssText = "width: " + obj.w + "px !important;";
+            mydiv.style.cssText += ";width: " + obj.w + "px";
+            videoPlaceHolderSpan.appendChild(videoPlayerIconSpan);
+            videoPlaceHolderSpan.appendChild(mydiv);
+            insertAfter(videoPlaceHolderSpan, a); 
+            
+            a.style.cssText += ";width: " + obj.w + "px !important;";
+            a.setAttribute("width",obj.w);
+            if(window.__zoom!=1){
+                a.style.display = "block";
+                videoPlaceHolderSpan.style.display = "none";
+                a.setAttribute("_ratio",obj.ratio);
+                a.setAttribute("_vid",vid);
+            }else{
+                videoPlaceHolderSpan.style.cssText += "height: " + obj.h + "px !important;";
+                mydiv.style.cssText += "height: " + obj.h + "px !important;";
+                a.style.cssText += "height: " + obj.h + "px !important;";
+                a.setAttribute("height",obj.h);
+            }
+            a.setAttribute("data-vh",obj.vh);
+            a.setAttribute("data-vw",obj.vw);
+            if(a.getAttribute("data-mpvid")){
+                a.setAttribute("data-src",location.protocol+"//mp.weixin.qq.com/mp/readtemplate?t=pages/video_player_tmpl&auto=0&vid="+vid);
+            }else{
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+obj.vw+"&height="+obj.vh+"&auto=0");   
+            }            
+        }
+    })();
+    
+    (function(){
+        if(window.__zoom!=1){
+            if (!window.__second_open__) {
+                document.getElementById('page-content').style.zoom = window.__zoom;
+                var a = document.getElementById('activity-name');
+                var b = document.getElementById('meta_content');
+                if(!!a){
+                    a.style.zoom = 1/window.__zoom;
+                }
+                if(!!b){
+                    b.style.zoom = 1/window.__zoom;
+                }
+            }
+            var images = document.getElementsByTagName('img');
+            for (var i = 0,il=images.length;i<il;i++) {
+                if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                images[i].style.zoom = 1/window.__zoom;
+            }
+            var iframe = document.getElementsByTagName('iframe');
+            for (var i = 0,il=iframe.length;i<il;i++) {
+                if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                var a = iframe[i];
+                a.style.zoom = 1/window.__zoom;
+                var src_ = a.getAttribute('data-src')||"";
+                if(!/http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)){
+                    continue;
+                }
+                var ratio = a.getAttribute("_ratio");
+                var vid = a.getAttribute("_vid");
+                a.removeAttribute("_ratio");
+                a.removeAttribute("_vid");
+                var vw = a.offsetWidth - (getOuterW(a)||0);
+                var vh = vw/ratio;
+                var h = vh + (getOuterH(a)||0)
+                a.style.cssText += "height: " + h + "px !important;"
+                a.setAttribute("height",h);
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+vw+"&height="+vh+"&auto=0");
+                a.style.display = "none";
+                var parent = a.parentNode;
+                if(!parent){
+                    continue;
+                }
+                for(var j=0,jl=parent.children.length;j<jl;j++){
+                    var child = parent.children[j];
+                    if(child.className.indexOf("img_loading")>=0 && child.getAttribute("data-vid")==vid){
+                        child.style.cssText += "height: " + h + "px !important;";
+                        child.style.display = "";
+                    }
+                }
+            }
+        }
+    })();
+})();
+</script>
+<script nonce="2139940995" type="text/javascript">
+    var new_appmsg = 1;
+    var item_show_type = "0";
+    var can_see_complaint = "0";
+    var not_in_mm_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm435ee6.css";
+    var windowwx_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+    var article_improve_combo_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo438c19.css";
+    var tid = "";
+    var aid = "";
+    var clientversion = "";
+    var appuin = ""||"MjM5NjQ5MTI5OA==";
+
+    var source = "";
+    var ascene = "";
+    var subscene = "";
+    var sessionid = ""||"";
+    var abtest_cookie = "";
+
+    var scene = 75;
+
+    var itemidx = "";
+    var appmsg_token   = "";
+    var _copyright_stat = "1";
+    var _ori_article_type = "科技互联网";
+
+    var is_follow = "";
+    var nickname = "美团技术团队";
+    var appmsg_type = "9";
+    var ct = "1541678310";
+    var publish_time = "2018-11-08" || "";
+    var user_name = "gh_96d37a04e9bf";
+    var user_name_new = "";
+    var fakeid   = "";
+    var version   = "";
+    var is_limit_user   = "0";
+    var round_head_img = "http://mmbiz.qpic.cn/mmbiz_png/hEx03cFgUsXJmHS8siaz48xKOxGqQehNLkHe1cnUeqhKeBwaA1c0eFjCDiaLGiaYCL6UqCPwTnqpia3WdM9Uo8mPqg/0?wx_fmt=png";
+    var hd_head_img = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM5vhk5P7xlYy014w9hRdPMvUib3GdcebBaHiaYCvpWMGo6A/0"||"";
+    var ori_head_img_url = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM5vhk5P7xlYy014w9hRdPMvUib3GdcebBaHiaYCvpWMGo6A/132";
+    var msg_title = "浅谈大型互联网的企业入侵检测及防护策略";
+    var msg_desc = "如何知道自己所在的企业是否被入侵了？是没人来“黑”，还是因自身感知能力不足，暂时还无法发现？";
+    var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz_jpg/hEx03cFgUsXibicYtRt824nicRjKGTibicl7axCap29OJiaAqNGHE6kFmibD5ZYPE0n3daYarIyv5LfO8dibCBzysQtuYg/0?wx_fmt=jpeg"; 
+    var cdn_url_1_1  = "https://mmbiz.qlogo.cn/mmbiz_jpg/hEx03cFgUsXibicYtRt824nicRjKGTibicl7a5FukopcA47r9palLBqwoBCKmyTq5cbC3klsocY0qlicacMZlrG6mFAQ/0?wx_fmt=jpeg"; 
+    var cdn_url_235_1 = "https://mmbiz.qlogo.cn/mmbiz_jpg/hEx03cFgUsXibicYtRt824nicRjKGTibicl7axCap29OJiaAqNGHE6kFmibD5ZYPE0n3daYarIyv5LfO8dibCBzysQtuYg/0?wx_fmt=jpeg"; 
+    
+    var msg_link = "http://mp.weixin.qq.com/s?__biz=MjM5NjQ5MTI5OA==&amp;mid=2651749345&amp;idx=1&amp;sn=ad14b231b59bd7158db25da639b13115&amp;chksm=bd12a2ac8a652bba0e4fd999808e0ec6708f622519909d50924532c4b6f54302a5215c3cb86b#rd"; 
+    var user_uin = "0"*1;
+    var msg_source_url = 'https://tech.meituan.com/Intrusion_Detection_Security_Meituan.html';
+    var img_format = 'jpeg';
+    var srcid = '';
+    var req_id = '1014n3cc6uE0hRSn1kdul7iL';
+    var networkType;
+    var appmsgid = '' || ''|| "2651749345";
+    var comment_id = "538314416635002882" || "538314416635002882" * 1;
+    var comment_enabled = "" * 1;
+    var is_need_reward = "0" * 1;
+    var is_https_res = ("" * 1) && (location.protocol == "https:");
+    var msg_daily_idx = "1" || "";
+    var profileReportInfo = "" || "";
+
+    var devicetype = "";
+    var source_encode_biz = "";
+    var source_username = "";
+    
+    var reprint_ticket = "";
+    var source_mid = "";
+    var source_idx = "";
+    var source_biz = "";
+    var author_id = "";
+
+    
+    var optimizing_flag = "0" * 1;
+    var ad_abtest_padding = "0" * 1;
+
+    var show_comment = "";
+    var __appmsgCgiData = {
+        wxa_product : ""*1,
+        wxa_cps : ""*1,
+        show_msg_voice: "0"*1,
+        can_use_page : "0"*1,
+        is_wxg_stuff_uin : "0"*1,
+        card_pos : "",
+        copyright_stat : "1",
+        source_biz : "",
+        hd_head_img : "http://wx.qlogo.cn/mmhead/Q3auHgzwzM5vhk5P7xlYy014w9hRdPMvUib3GdcebBaHiaYCvpWMGo6A/0"||(window.location.protocol+"//"+window.location.host + "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_rumor_link.2x42f400.jpg")
+    };
+    var _empty_v = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/pages/voice/empty42f400.mp3";
+
+    var copyright_stat = "1" * 1;
+
+    var pay_fee = "" * 1;
+    var pay_timestamp = "";
+    var need_pay = "" * 1;
+
+    var need_report_cost = "0" * 1;
+    var use_tx_video_player = "0" * 1;
+    var appmsg_fe_filter = "contenteditable";
+
+    var friend_read_source = "" || "";
+    var friend_read_version = "" || "";
+    var friend_read_class_id = "" || "";
+
+    var is_only_read = "1" * 1;
+    var read_num = "" * 1;
+    var like_num = "" * 1;
+    var liked = "" == 'true' ? true : false;
+    var is_temp_url = "" ? 1 : 0;
+    var send_time = "";
+    var icon_emotion_switch = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch.2x42f400.png";
+    var icon_emotion_switch_active = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch_active.2x42f400.png";
+    var icon_loading_white = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif";
+    var icon_audio_unread = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/audio/icon_audio_unread42f400.png";
+    var icon_qqmusic_default = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_default.2x42f400.png";
+    var icon_qqmusic_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_source42f400.png";
+    var icon_kugou_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/kugou/icon_kugou_source42f400.png";
+
+    var topic_default_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/topic/pic_book_thumb.2x42f400.png';
+    var comment_edit_icon = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg_new/icon_edit42f400.png';
+    var comment_loading_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif';
+
+    var voice_in_appmsg = {
+        "1":"1"
+            };
+
+    var reprint_style = ''*1;
+    var wxa_img_alert = "" != 'false';
+
+    
+    var more_read_type = '0'*1;
+
+    
+    
+    
+    
+
+    
+    var weapp_sn_arr_json = "" || "";
+
+    
+    var ban_scene = "0" * 1;
+
+    var svr_time = "1549780659" * 1;
+    
+    var is_transfer_msg = ""*1||0;
+
+    var malicious_title_reason_id = "0" * 1; 
+    var malicious_content_type = "0" * 1; 
+
+    
+    var modify_time = "1541748502";
+
+    
+    var isprofileblock = "0";
+
+    
+    var hotspotInfoList = [
+                    ];
+
+        window.wxtoken = "777";
+        
+    
+    
+    
+    
+    window.is_login = '0' * 1; 
+
+    window.__moon_initcallback = function(){
+        if(!!window.__initCatch){
+            window.__initCatch({
+                idkey : 27611+2,
+                startKey : 0,
+                limit : 128,
+                badjsId: 43,
+                reportOpt : {
+                    uin : uin,
+                    biz : biz,
+                    mid : mid,
+                    idx : idx,
+                    sn  : sn
+                },
+                extInfo : {
+                    network_rate : 0.01,    
+                    badjs_rate: 0.1 
+                }
+            });
+        }
+    }
+        
+    var title ="美团技术团队";
+
+    var is_new_msg=true;
+    
+    
+
+    var is_wash = '' * 1;
+</script>
+
+<script nonce="2139940995" type="text/javascript">
+(function(_g){
+    _g.appmsg_like_type = "1" * 1 ? "1" * 1 : 1;
+    
+    _g.clientversion = "";
+    _g.passparam = ""; 
+    if(!_g.msg_link) {
+      _g.msg_link = "http://mp.weixin.qq.com/s?__biz=MjM5NjQ5MTI5OA==&amp;mid=2651749345&amp;idx=1&amp;sn=ad14b231b59bd7158db25da639b13115&amp;chksm=bd12a2ac8a652bba0e4fd999808e0ec6708f622519909d50924532c4b6f54302a5215c3cb86b#rd";
+    }
+    _g.appmsg_type = "9"; 
+    _g.devicetype = ""; 
+})(window);
+
+</script>
+
+
+        <script nonce="2139940995">window.__moon_host = 'res.wx.qq.com';window.__moon_mainjs = 'appmsg/index.js';window.moon_map = {"a/appdialog_confirm.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm.html42f400.js","widget/wx_profile_dialog_primary.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/widget/wx_profile_dialog_primary.css42f400.js","pages/iframe_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/iframe_communicate42f400.js","new_video/player.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player.html433882.js","biz_wap/zepto/touch.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/touch42f400.js","biz_wap/zepto/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/event42f400.js","biz_wap/zepto/zepto.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/zepto42f400.js","page/pages/video.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/pages/video.css435ee6.js","a/tpl/smallbanner_msg_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_msg_tpl.html42f400.js","a/tpl/smallbanner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_info_tpl.html42f400.js","a/tpl/banner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_info_tpl.html42f400.js","a/tpl/promote_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/promote_tpl.html42f400.js","a/tpl/smallcard_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallcard_tpl.html42f400.js","a/tpl/info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/info_tpl.html42f400.js","a/tpl/cardticket_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cardticket_tpl.html42f400.js","a/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_tpl.html42f400.js","a/tpl/sponsor_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/sponsor_tpl.html42f400.js","a/tpl/new_cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/new_cpc_tpl.html42f400.js","appmsg/emotion/caret.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/caret42f400.js","biz_wap/utils/localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/localstorage42f400.js","appmsg/friend_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/friend_comment_tpl.html42f400.js","appmsg/comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_tpl.html42f400.js","biz_wap/utils/fakehash.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/fakehash42f400.js","appmsg/comment_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_report42f400.js","a/appdialog_confirm.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm42f400.js","new_video/player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player4306fd.js","a/tpl/mpda_bottom_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/mpda_bottom_tpl.html42f400.js","a/tpl/crt_size_map.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_size_map42f400.js","biz_wap/jsapi/cardticket.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/cardticket42f400.js","biz_common/jquery.md5.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/jquery.md542f400.js","biz_common/utils/emoji_panel_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_panel_data42f400.js","biz_common/utils/emoji_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_data42f400.js","appmsg/emotion/textarea.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/textarea42f400.js","appmsg/emotion/nav.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/nav42f400.js","appmsg/emotion/common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/common42f400.js","appmsg/emotion/slide.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/slide42f400.js","appmsg/emotion/dom.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/dom42f400.js","pages/music_report_conf.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_report_conf42f400.js","pages/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/report4306fd.js","pages/player_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/player_adaptor42f400.js","pages/music_player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_player42f400.js","appmsg/more_read_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read_tpl.html42f400.js","appmsg/retry_ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/retry_ajax42f400.js","complain/tips.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/complain/tips42f400.js","pages/loadscript.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/loadscript42f400.js","biz_wap/utils/ajax_load_js.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_load_js42f400.js","appmsg/comment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment4317dc.js","a/ios.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios42f400.js","a/android.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android42f400.js","a/profile.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile42f400.js","a/app_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/app_card430506.js","a/sponsor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor42f400.js","a/tpl/cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cpc_tpl.html42f400.js","a/video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/video42f400.js","a/a_config.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_config42f400.js","a/tpl/crt_tpl_manager.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_tpl_manager42f400.js","a/cpc_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/cpc_a_tpl.html42f400.js","a/sponsor_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor_a_tpl.html42f400.js","a/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_tpl.html42f400.js","a/mpshop.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpshop42f400.js","a/wxopen_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/wxopen_card42f400.js","a/card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/card42f400.js","biz_wap/utils/position.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/position42f400.js","a/a_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_report42f400.js","biz_wap/utils/show_time.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/show_time42f400.js","biz_common/utils/get_para_list.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/get_para_list42f400.js","biz_wap/utils/openUrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/openUrl42f400.js","a/a_sign.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_sign438181.js","appmsg/my_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/my_comment_tpl.html42f400.js","appmsg/cmt_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cmt_tpl.html42f400.js","sougou/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/a_tpl.html42f400.js","appmsg/emotion/emotion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/emotion42f400.js","biz_common/base64.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/base6442f400.js","biz_common/utils/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report42f400.js","appmsg/articleReport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/articleReport42f400.js","biz_wap/utils/hand_up_state.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/hand_up_state42f400.js","biz_common/utils/http.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/http42f400.js","biz_common/utils/cookie.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie42f400.js","appmsg/topic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/topic_tpl.html42f400.js","pages/weapp_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/weapp_tpl.html42f400.js","biz_common/utils/monitor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/monitor42f400.js","pages/voice_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_tpl.html42f400.js","pages/kugoumusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/kugoumusic_ctrl42f400.js","pages/qqmusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_ctrl42f400.js","pages/voice_component.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_component42f400.js","pages/qqmusic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_tpl.html42f400.js","new_video/ctl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/ctl4306fd.js","appmsg/open_url_with_webview.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/open_url_with_webview4380a9.js","appmsg/more_read.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read42f400.js","appmsg/reward_entry.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/reward_entry42f400.js","appmsg/like.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like43875f.js","pages/version4video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/version4video42f400.js","biz_wap/utils/storage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/storage42f400.js","appmsg/share_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share_tpl.html42f400.js","appmsg/appmsgext.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsgext430b95.js","appmsg/img_copyright_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/img_copyright_tpl.html42f400.js","pages/video_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_ctrl42f400.js","pages/create_txv.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/create_txv42f400.js","appmsg/comment_utils.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_utils42f400.js","biz_common/ui/imgonepx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx42f400.js","appmsg/malicious_wording.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/malicious_wording42f400.js","biz_common/utils/wxgspeedsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/wxgspeedsdk42f400.js","a/a.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a4382e5.js","rt/appmsg/getappmsgext.rt.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/rt/appmsg/getappmsgext.rt42f400.js","pages/video_communicate_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_communicate_adaptor433882.js","biz_wap/utils/ajax_wx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_wx42f400.js","biz_common/utils/respTypes.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/respTypes42f400.js","biz_wap/utils/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/log42f400.js","sougou/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/index42f400.js","biz_wap/safe/mutation_observer_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/mutation_observer_report42f400.js","appmsg/fereport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport438bee.js","appmsg/fereport_without_localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport_without_localstorage438bee.js","appmsg/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report42f400.js","appmsg/report_and_source.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source4380a9.js","appmsg/page_pos.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos431b87.js","appmsg/cdn_speed_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report42f400.js","appmsg/wxtopic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/wxtopic42f400.js","appmsg/weapp.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp433882.js","appmsg/weproduct.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weproduct42f400.js","appmsg/voicemsg.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voicemsg42f400.js","appmsg/autoread.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/autoread42f400.js","appmsg/voice.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voice42f400.js","appmsg/qqmusic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/qqmusic43440b.js","appmsg/iframe.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe433882.js","appmsg/product.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/product42f400.js","appmsg/review_image.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image435a90.js","appmsg/outer_link.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link433882.js","appmsg/copyright_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/copyright_report42f400.js","appmsg/async.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async438bee.js","biz_wap/ui/lazyload_img.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img42f400.js","biz_common/log/jserr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr42f400.js","appmsg/share.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share42f50a.js","appmsg/cdn_img_lib.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib42f400.js","appmsg/finance_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/finance_communicate42f400.js","page/appmsg_new/not_in_mm.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm.css435ee6.js","page/appmsg_new/combo.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo.css438c19.js","biz_wap/utils/wapsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/wapsdk42f400.js","a/mpAdAsync.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpAdAsync4317dc.js","biz_common/utils/url/parse.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse42f400.js","appmsg/appmsg_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsg_report435ac2.js","biz_common/moment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/moment42f400.js","biz_wap/jsapi/core.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core42f400.js","biz_common/dom/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event42f400.js","appmsg/test.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/test42f400.js","biz_wap/utils/mmversion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion42f400.js","appmsg/max_age.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/max_age42f400.js","biz_common/dom/attr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr42f400.js","biz_wap/utils/ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax42f400.js","appmsg/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/log42f400.js","biz_common/dom/class.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class42f400.js","biz_wap/utils/device.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/device42f400.js","appmsg/weapp_common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp_common42f400.js","biz_common/utils/string/html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html42f400.js","cps/tpl/list_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/list_tpl.html42f400.js","cps/tpl/card_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/card_tpl.html42f400.js","cps/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/banner_tpl.html42f400.js","biz_common/tmpl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl42f400.js","appmsg/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index438e37.js"};</script><script nonce="2139940995" type="text/javascript" id="moon_inline" > window.__mooninline=1; window.setTimeout(function() {  function __moonf__(){
+if(!window.__moonhasinit){
+window.__moonhasinit=!0,window.__moonclientlog=[],window.__wxgspeeds&&(window.__wxgspeeds.moonloadedtime=+new Date),
+"object"!=typeof JSON&&(window.JSON={
+stringify:function(){
+return"";
+},
+parse:function(){
+return{};
+}
+});
+var e=function(){
+function e(e){
+try{
+var o;
+/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)?o="writeLog":/(Android)/i.test(navigator.userAgent)&&(o="log"),
+o&&t(o,e);
+}catch(n){
+throw console.error(n),n;
+}
+}
+function t(e,o){
+var n,r,i={};
+n=top!=window?top.window:window;
+try{
+r=n.WeixinJSBridge,i=n.document;
+}catch(a){}
+e&&r&&r.invoke?r.invoke(e,{
+level:"info",
+msg:"[WechatFe][moon]"+o
+}):setTimeout(function(){
+i.addEventListener?i.addEventListener("WeixinJSBridgeReady",function(){
+t(e,o);
+},!1):i.attachEvent&&(i.attachEvent("WeixinJSBridgeReady",function(){
+t(e,o);
+}),i.attachEvent("onWeixinJSBridgeReady",function(){
+t(e,o);
+}));
+},0);
+}
+var n;
+localStorage&&JSON.parse(localStorage.getItem("__WXLS__moonarg"))&&"fromls"==JSON.parse(localStorage.getItem("__WXLS__moonarg")).method&&(n=!0),
+e(" moon init, moon_inline:"+window.__mooninline+", moonls:"+n),function(){
+var e={},o={},t={};
+e.COMBO_UNLOAD=0,e.COMBO_LOADING=1,e.COMBO_LOADED=2;
+var n=function(e,t,n){
+if(!o[e]){
+o[e]=n;
+for(var r=3;r--;)try{
+moon.setItem(moon.prefix+e,n.toString()),moon.setItem(moon.prefix+e+"_ver",moon_map[e]);
+break;
+}catch(i){
+moon.clear();
+}
+}
+},r=window.alert;
+window.__alertList=[],window.alert=function(e){
+r(e),window.__alertList.push(e);
+};
+var i=function(e){
+if(!e||!o[e])return null;
+var n=o[e];
+if("function"==typeof n&&!t[e]){
+var a={},s={
+exports:a
+},c=n(i,a,s,r);
+n=o[e]=c||s.exports,t[e]=!0;
+}
+if(".css"===e.substr(-4)){
+var d=document.getElementById(e);
+if(!d){
+d=document.createElement("style"),d.id=e;
+var _=/url\s*\(\s*\/(\"(?:[^\\\"\r\n\f]|\\[\s\S])*\"|'(?:[^\\'\n\r\f]|\\[\s\S])*'|[^)}]+)\s*\)/g,m=window.testenv_reshost||window.__moon_host||"res.wx.qq.com";
+n=n.replace(_,"url(//"+m+"/$1)"),d.innerHTML=n,document.getElementsByTagName("head")[0].appendChild(d);
+}
+}
+return n;
+};
+e.combo_status=e.COMBO_UNLOAD,e.run=function(){
+var o=e.run.info,t=o&&o[0],n=o&&o[1];
+if(t&&e.combo_status==e.COMBO_LOADED){
+var r=i(t);
+n&&n(r);
+}
+},e.use=function(o,t){
+window.__wxgspeeds&&(window.__wxgspeeds.seajs_use_time=+new Date),e.run.info=[o,t],
+e.run();
+},window.define=n,window.seajs=e;
+}(),function(){
+if(window.__nonce_str){
+var e=document.createElement;
+document.createElement=function(o){
+var t=e.apply(this,arguments);
+return"object"==typeof o&&(o=o.toString()),"string"==typeof o&&"script"==o.toLowerCase()&&t.setAttribute("nonce",window.__nonce_str),
+t;
+};
+}
+window.addEventListener&&window.__DEBUGINFO&&Math.random()<.01&&window.addEventListener("load",function(){
+var e=document.createElement("script");
+e.src=__DEBUGINFO.safe_js,e.type="text/javascript",e.async=!0;
+var o=document.head||document.getElementsByTagName("head")[0];
+o.appendChild(e);
+});
+}(),function(){
+function t(e){
+return"[object Array]"===Object.prototype.toString.call(e);
+}
+function n(e){
+return"[object Object]"===Object.prototype.toString.call(e);
+}
+function r(e){
+var t=e.stack+" "+e.toString()||"";
+try{
+if(window.testenv_reshost){
+var n="http(s)?://"+window.testenv_reshost,r=new RegExp(n,"g");
+t=t.replace(r,"");
+}else t=t.replace(/http(s)?:\/\/res\.wx\.qq\.com/g,"");
+for(var r=/\/([^.]+)\/js\/(\S+?)\.js(\,|:)?/g;r.test(t);)t=t.replace(r,function(e,o,t,n){
+return t+n;
+});
+}catch(e){
+t=e.stack?e.stack:"";
+}
+var i=[];
+for(o in u)u.hasOwnProperty(o)&&i.push(o+":"+u[o]);
+return i.push("STK:"+t.replace(/\n/g,"")),i.join("|");
+}
+function i(e){
+if(!e){
+var o=window.onerror;
+window.onerror=function(){},f=setTimeout(function(){
+window.onerror=o,f=null;
+},50);
+}
+}
+function a(e,o,t){
+if(!/^mp\.weixin\.qq\.com$/.test(location.hostname)){
+var n=[];
+t=t.replace(location.href,(location.origin||"")+(location.pathname||"")).replace("#wechat_redirect","").replace("#rd","").split("&");
+for(var r=0,i=t.length;i>r;r++){
+var a=t[r].split("=");
+a[0]&&a[1]&&n.push(a[0]+"="+encodeURIComponent(a[1]));
+}
+var s=new window.Image;
+return void(s.src=(o+n.join("&")).substr(0,1024));
+}
+var c;
+if(window.ActiveXObject)try{
+c=new ActiveXObject("Msxml2.XMLHTTP");
+}catch(d){
+try{
+c=new ActiveXObject("Microsoft.XMLHTTP");
+}catch(_){
+c=!1;
+}
+}else window.XMLHttpRequest&&(c=new XMLHttpRequest);
+c&&(c.open(e,o,!0),c.setRequestHeader("cache-control","no-cache"),c.setRequestHeader("Content-Type","application/x-www-form-urlencoded; charset=UTF-8"),
+c.setRequestHeader("X-Requested-With","XMLHttpRequest"),c.send(t));
+}
+function s(e){
+return function(o,t){
+if("string"==typeof o)try{
+o=new Function(o);
+}catch(n){
+throw n;
+}
+var r=[].slice.call(arguments,2),a=o;
+return o=function(){
+try{
+return a.apply(this,r.length&&r||arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:j,
+log:"timeout_error;host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},e(o,t);
+};
+}
+function c(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this,a=t||function(){};
+return t=function(){
+try{
+return a.apply(r,arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:x,
+log:"listener_error;type:"+o+";host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},a.moon_lid=E,b[E]=t,E++,e.call(r,o,t,n);
+};
+}
+function d(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this;
+return t=b[t.moon_lid],e.call(r,o,t,n);
+};
+}
+var _,m,l,w,u,p,f,h=/MicroMessenger/i.test(navigator.userAgent),g=/MPAPP/i.test(navigator.userAgent),v=window.define,y=0,x=2,O=4,j=9,D=10;
+if(window.__initCatch=function(e){
+_=e.idkey,m=e.startKey||0,l=e.limit,w=e.badjsId,u=e.reportOpt||"",p=e.extInfo||{},
+p.rate=p.rate||.5;
+},window.__moon_report=function(e,o){
+var i=!1,s="";
+try{
+s=top.location.href;
+}catch(c){
+i=!0;
+}
+var d=.5;
+if(p&&p.rate&&(d=p.rate),o&&"number"==typeof o&&(d=o),!(!/mp\.weixin\.qq\.com/.test(location.href)&&!/payapp\.weixin\.qq\.com/.test(location.href)||Math.random()>d||!h&&!g||top!=window&&!i&&!/mp\.weixin\.qq\.com/.test(s))&&(n(e)&&(e=[e]),
+t(e)&&""!=_)){
+var u="",f=[],v=[],y=[],x=[];
+"number"!=typeof l&&(l=1/0);
+for(var j=0;j<e.length;j++){
+var D=e[j]||{};
+if(!(D.offset>l||"number"!=typeof D.offset||D.offset==O&&p&&p.network_rate&&Math.random()>=p.network_rate)){
+var b=1/0==l?m:m+D.offset;
+f[j]="[moon]"+_+"_"+b+";"+D.log+";"+r(D.e||{})||"",v[j]=b,y[j]=1;
+}
+}
+for(var E=0;E<v.length;E++)x[E]=_+"_"+v[E]+"_"+y[E],u=u+"&log"+E+"="+f[E];
+if(x.length>0){
+a("POST",location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?","idkey="+x.join(";")+"&r="+Math.random()+"&lc="+f.length+u);
+var d=1;
+if(p&&p.badjs_rate&&(d=p.badjs_rate),w&&Math.random()<d){
+u=u.replace(/uin\:(.)*\|biz\:(.)*\|mid\:(.)*\|idx\:(.)*\|sn\:(.)*\|/,"");
+var S=new Image,I="https://badjs.weixinbridge.com/badjs?id="+w+"&level=4&from="+encodeURIComponent(location.host)+"&msg="+encodeURIComponent(u);
+S.src=I.slice(0,1024);
+}
+}
+}
+},window.setTimeout=s(window.setTimeout),window.setInterval=s(window.setInterval),
+Math.random()<.01&&window.Document&&window.HTMLElement){
+var b={},E=0;
+Document.prototype.addEventListener=c(Document.prototype.addEventListener),Document.prototype.removeEventListener=d(Document.prototype.removeEventListener),
+HTMLElement.prototype.addEventListener=c(HTMLElement.prototype.addEventListener),
+HTMLElement.prototype.removeEventListener=d(HTMLElement.prototype.removeEventListener);
+}
+var S=window.navigator.userAgent;
+if((/ip(hone|ad|od)/i.test(S)||/android/i.test(S))&&!/windows phone/i.test(S)&&window.localStorage&&window.localStorage.setItem){
+var I=window.localStorage.setItem,L=0;
+window.localStorage.setItem=function(e,o){
+if(!(L>=10))try{
+I.call(window.localStorage,e,o);
+}catch(t){
+t.stack&&console&&console.error&&console.error("[TryCatch]"+t.stack),window.__moon_report([{
+offset:D,
+log:"localstorage_error;"+t.toString(),
+e:t
+}]),L++,L>=3&&window.moon&&window.moon.clear&&moon.clear();
+}
+};
+}
+window.seajs&&v&&(window.define=function(){
+for(var o,t=[],n=arguments&&arguments[0],a=0,s=arguments.length;s>a;a++){
+var c=o=arguments[a];
+"function"==typeof o&&(o=function(){
+try{
+return c.apply(this,arguments);
+}catch(o){
+throw"string"==typeof n&&console.error("[TryCatch][DefineeErr]id:"+n),o.stack&&console&&console.error&&console.error("[TryCatch]"+o.stack),
+_&&window.__moon_report&&(window.__moon_report([{
+offset:y,
+log:"define_error;id:"+n+";",
+e:o
+}]),i(f)),e(" [define_error]"+JSON.stringify(r(o))),o;
+}
+},o.toString=function(e){
+return function(){
+return e.toString();
+};
+}(arguments[a])),t.push(o);
+}
+return v.apply(this,t);
+});
+}(),function(o){
+function t(e,o,t){
+return window.__DEBUGINFO?(window.__DEBUGINFO.res_list||(window.__DEBUGINFO.res_list=[]),
+window.__DEBUGINFO.res_list[e]?(window.__DEBUGINFO.res_list[e][o]=t,!0):!1):!1;
+}
+function n(e){
+var o=new TextEncoder("utf-8").encode(e),t=crypto.subtle||crypto.webkitSubtle;
+return t.digest("SHA-256",o).then(function(e){
+return r(e);
+});
+}
+function r(e){
+for(var o=[],t=new DataView(e),n=0;n<t.byteLength;n+=4){
+var r=t.getUint32(n),i=r.toString(16),a="00000000",s=(a+i).slice(-a.length);
+o.push(s);
+}
+return o.join("");
+}
+function i(e,o,t){
+if("object"==typeof e){
+var n=Object.prototype.toString.call(e).replace(/^\[object (.+)\]$/,function(e,o){
+return o;
+});
+if(t=t||e,"Array"==n){
+for(var r=0,i=e.length;i>r;++r)if(o.call(t,e[r],r,e)===!1)return;
+}else{
+if("Object"!==n&&a!=e)throw"unsupport type";
+if(a==e){
+for(var r=e.length-1;r>=0;r--){
+var s=a.key(r),c=a.getItem(s);
+if(o.call(t,c,s,e)===!1)return;
+}
+return;
+}
+for(var r in e)if(e.hasOwnProperty(r)&&o.call(t,e[r],r,e)===!1)return;
+}
+}
+}
+var a=o.localStorage,s=document.head||document.getElementsByTagName("head")[0],c=1,d=11,_=12,m=13,l=window.__allowLoadResFromMp?1:2,w=window.__allowLoadResFromMp?1:0,u=l+w,p=window.testenv_reshost||window.__moon_host||"res.wx.qq.com",f=new RegExp("^(http(s)?:)?//"+p);
+window.__loadAllResFromMp&&(p="mp.weixin.qq.com",l=0,u=l+w);
+var h={
+prefix:"__MOON__",
+loaded:[],
+unload:[],
+clearSample:!0,
+hit_num:0,
+mod_num:0,
+version:1003,
+cacheData:{
+js_mod_num:0,
+js_hit_num:0,
+js_not_hit_num:0,
+js_expired_num:0,
+css_mod_num:0,
+css_hit_num:0,
+css_not_hit_num:0,
+css_expired_num:0
+},
+init:function(){
+h.loaded=[],h.unload=[];
+var e,t,r;
+if(window.no_moon_ls&&(h.clearSample=!0),a){
+var s="_moon_ver_key_",c=a.getItem(s);
+c!=h.version&&(h.clear(),a.setItem(s,h.version));
+}
+if((-1!=location.search.indexOf("no_moon1=1")||-1!=location.search.indexOf("no_lshttps=1"))&&h.clear(),
+a){
+var d=1*a.getItem(h.prefix+"clean_time"),_=+new Date;
+if(_-d>=1296e6){
+h.clear();
+try{
+!!a&&a.setItem(h.prefix+"clean_time",+new Date);
+}catch(m){}
+}
+}
+i(moon_map,function(i,s){
+if(t=h.prefix+s,r=!!i&&i.replace(f,""),e=!!a&&a.getItem(t),version=!!a&&(a.getItem(t+"_ver")||"").replace(f,""),
+h.mod_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_mod_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_mod_num++,
+h.clearSample||!e||r!=version)h.unload.push(r.replace(f,"")),r&&-1!=r.indexOf(".css")?e?r!=version&&h.cacheData.css_expired_num++:h.cacheData.css_not_hit_num++:r&&-1!=r.indexOf(".js")&&(e?r!=version&&h.cacheData.js_expired_num++:h.cacheData.js_not_hit_num++);else{
+if("https:"==location.protocol&&window.moon_hash_map&&window.moon_hash_map[s]&&window.crypto)try{
+n(e).then(function(e){
+window.moon_hash_map[s]!=e&&console.log(s);
+});
+}catch(c){}
+try{
+var d="//# sourceURL="+s+"\n//@ sourceURL="+s;
+o.eval.call(o,'define("'+s+'",[],'+e+")"+d),h.hit_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_hit_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_hit_num++;
+}catch(c){
+h.unload.push(r.replace(f,""));
+}
+}
+}),h.load(h.genUrl());
+},
+genUrl:function(){
+var e=h.unload;
+if(!e||e.length<=0)return[];
+var o,t,n="",r=[],i={},a=-1!=location.search.indexOf("no_moon2=1"),s="//"+p;
+-1!=location.href.indexOf("moon_debug2=1")&&(s="//mp.weixin.qq.com");
+for(var c=0,d=e.length;d>c;++c){
+/^\/(.*?)\//.test(e[c]);
+var _=/^\/(.*?)\//.exec(e[c]);
+_.length<2||!_[1]||(t=_[1],n=i[t],n?(o=n+","+e[c],o.length>1e3||a?(r.push(n+"?v="+h.version),
+n=location.protocol+s+e[c],i[t]=n):(n=o,i[t]=n)):(n=location.protocol+s+e[c],i[t]=n));
+}
+for(var m in i)i.hasOwnProperty(m)&&r.push(i[m]);
+return r;
+},
+load:function(e){
+if(window.__wxgspeeds&&(window.__wxgspeeds.mod_num=h.mod_num,window.__wxgspeeds.hit_num=h.hit_num),
+!e||e.length<=0)return seajs.combo_status=seajs.COMBO_LOADED,seajs.run(),console.debug&&console.debug("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num),
+void window.__moonclientlog.push("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num);
+seajs.combo_status=seajs.COMBO_LOADING;
+var o=0,t=+new Date;
+window.__wxgspeeds&&(window.__wxgspeeds.combo_times=[],window.__wxgspeeds.combo_times.push(t)),
+i(e,function(n){
+h.request(n,u,function(){
+if(window.__wxgspeeds&&window.__wxgspeeds.combo_times.push(+new Date),o++,o==e.length){
+var n=+new Date-t;
+window.__wxgspeeds&&(window.__wxgspeeds.mod_downloadtime=n),seajs.combo_status=seajs.COMBO_LOADED,
+seajs.run(),console.debug&&console.debug("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms"),
+window.__moonclientlog.push("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms");
+}
+});
+});
+},
+request:function(o,n,r){
+if(o){
+n=n||0,o.indexOf("mp.weixin.qq.com")>-1&&((new Image).src=location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?idkey=27613_32_1&r="+Math.random(),
+window.__moon_report([{
+offset:_,
+log:"load_script_from_mp: "+o
+}],1));
+var i=-1;
+window.__DEBUGINFO&&(__DEBUGINFO.res_list||(__DEBUGINFO.res_list=[]),__DEBUGINFO.res_list.push({
+type:"js",
+status:"pendding",
+start:+new Date,
+end:0,
+url:o
+}),i=__DEBUGINFO.res_list.length-1),-1!=location.search.indexOf("no_lshttps=1")&&(o=o.replace("http://","https://"));
+var a=document.createElement("script");
+a.src=o,a.type="text/javascript",a.async=!0,a.down_time=+new Date,a.onerror=function(s){
+t(i,"status","error"),t(i,"end",+new Date);
+var _=new Error(s);
+if(n>=0)if(w>n){
+var l=o.replace("res.wx.qq.com","mp.weixin.qq.com");
+h.request(l,n,r);
+}else h.request(o,n,r);else window.__moon_report&&window.__moon_report([{
+offset:c,
+log:"load_script_error: "+o,
+e:_
+}],1);
+if(n==w-1&&window.__moon_report([{
+offset:d,
+log:"load_script_error: "+o,
+e:_
+}],1),-1==n){
+var u="ua: "+window.navigator.userAgent+", time="+(+new Date-a.down_time)+", load_script_error -1 : "+o;
+window.__moon_report([{
+offset:m,
+log:u
+}],1);
+}
+window.__moonclientlog.push("moon load js error : "+o+", error -> "+_.toString()),
+e("moon_request_error url:"+o);
+},"undefined"!=typeof moon_crossorigin&&moon_crossorigin&&a.setAttribute("crossorigin",!0),
+a.onload=a.onreadystatechange=function(){
+t(i,"status","loaded"),t(i,"end",+new Date),!a||a.readyState&&!/loaded|complete/.test(a.readyState)||(t(i,"status","200"),
+a.onload=a.onreadystatechange=null,"function"==typeof r&&r());
+},n--,s.appendChild(a),e("moon_request url:"+o+" retry:"+n);
+}
+},
+setItem:function(e,o){
+!!a&&a.setItem(e,o);
+},
+clear:function(){
+a&&(i(a,function(e,o){
+~o.indexOf(h.prefix)&&a.removeItem(o);
+}),console.debug&&console.debug("[moon] clear"));
+},
+idkeyReport:function(e,o,t){
+t=t||1;
+var n=e+"_"+o+"_"+t;
+(new Image).src="/mp/jsmonitor?idkey="+n+"&r="+Math.random();
+}
+};
+seajs&&seajs.use&&"string"==typeof window.__moon_mainjs&&seajs.use(window.__moon_mainjs),
+window.moon=h;
+}(window),function(){
+try{
+Math.random()<1;
+}catch(e){}
+}(),window.moon.init();
+};
+e(),!!window.__moon_initcallback&&window.__moon_initcallback(),window.__wxgspeeds&&(window.__wxgspeeds.moonendtime=+new Date);
+}
+}
+__moonf__(); }, 25);</script><script nonce="2139940995" type="text/javascript">
+    var real_show_page_time = +new Date();
+    if (!!window.addEventListener){
+        window.addEventListener("load", function(){
+            window.onload_endtime = +new Date();
+        });
+    }
+
+    
+    if(typeof seajs != 'undefined' && seajs.config){
+        try{
+            seajs.config({
+              'map': [
+                [ '.js', '.js?v=' + (+new Date())]
+              ]
+            });
+        }catch(e){
+            console.info('not support seajs config');
+        }
+    }
+
+    
+</script>
+
+    </body>
+    <script nonce="2139940995" type="text/javascript">document.addEventListener("touchstart", function() {},false);</script>
+</html>
+

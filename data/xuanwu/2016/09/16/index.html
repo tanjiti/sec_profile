@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/09/16" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/09/16</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/09/15/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/09/16/index.html">2016/09/16</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/09/17/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Detect </i>]  How to Hunt: Detecting Persistence &amp; Evasion with the COM <a href="https://www.endgame.com/blog/how-hunt-detecting-persistence-evasion-com" rel="nofollow">https://www.endgame.com/blog/how-hunt-detecting-persistence-evasion-com</a></p>
+<div class="translated" id="183961">
+<p>﻿" Windows 系统从 COM 的角度检测攻击维持和逃逸技术：   <a href="https://t.co/6ZhPZ5K3YC" rel="nofollow">https://t.co/6ZhPZ5K3YC</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Exploit </i>]  Modern Vulnerability Exploitation - Shellcoding : <a href="https://drive.google.com/file/d/0B7qRLuwvXbWXT1htVUVpdjRZUmc/edit" rel="nofollow">https://drive.google.com/file/d/0B7qRLuwvXbWXT1htVUVpdjRZUmc/edit</a> , The Heap Overflow : <a href="https://drive.google.com/file/d/0B7qRLuwvXbWXdFFLUmhabldzS00/edit" rel="nofollow">https://drive.google.com/file/d/0B7qRLuwvXbWXdFFLUmhabldzS00/edit</a></p>
+<div class="translated" id="183873">
+<p>﻿" 漏洞利用之 Shellcode 开发：   <a href="https://drive.google.com/file/d/0B7qRLuwvXbWXT1htVUVpdjRZUmc/edit%C2%A0" rel="nofollow">https://drive.google.com/file/d/0B7qRLuwvXbWXT1htVUVpdjRZUmc/edit </a> 堆溢出：   <a href="https://drive.google.com/file/d/0B7qRLuwvXbWXdFFLUmhabldzS00/edit" rel="nofollow">https://drive.google.com/file/d/0B7qRLuwvXbWXdFFLUmhabldzS00/edit</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  DennisF @DennisF </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  Researcher Bypasses iOS Passcode Limit With NAND Mirroring <a href="https://www.onthewire.io/researcher-bypasses-ios-passcode-limit-with-nand-mirroring/" rel="nofollow">https://www.onthewire.io/researcher-bypasses-ios-passcode-limit-with-nand-mirroring/</a></p>
+<div class="translated" id="183918">
+<p>﻿"通过镜像 iOS NAND 内存破解锁屏密码：   <a href="https://t.co/gyGfFWkoIF" rel="nofollow">https://t.co/gyGfFWkoIF</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  NetBSD mail.local Privilege Escalation <a href="https://packetstormsecurity.com/files/138733/netbsd_mail_local.rb.txt" rel="nofollow">https://packetstormsecurity.com/files/138733/netbsd_mail_local.rb.txt</a></p>
+<div class="translated" id="183906">
+<p>﻿"NetBSD mail.local 提权漏洞（CVE-2016-6253）：   <a href="https://t.co/SFLdKlsSgw" rel="nofollow">https://t.co/SFLdKlsSgw</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  dragosr @dragosr </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mitigation </i>]  ROP to LOP <a href="https://goo.gl/rjqERk" rel="nofollow">https://goo.gl/rjqERk</a></p>
+<div class="translated" id="183743">
+<p>﻿" 从 ROP 到 LOP（Loop Oriented Programming），Bypass Control-Flow Enforcement：   <a href="https://t.co/8UhUKmubJM" rel="nofollow">https://t.co/8UhUKmubJM</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  NCC Group plc @NCCGroupplc </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> NetworkDevice </i>]  New NCC Group technical advisory: D-Link routers vulnerable to Remote Code Execution  <a href="https://www.nccgroup.trust/uk/our-research/d-link-routers-vulnerable-to-remote-code-execution-rce/?research=Technical+advisories" rel="nofollow">https://www.nccgroup.trust/uk/our-research/d-link-routers-vulnerable-to-remote-code-execution-rce/?research=Technical+advisories</a></p>
+<div class="translated" id="183808">
+<p>﻿" D-link 路由器多个版本存在远程代码执行漏洞（CVE-2016-5681）：   <a href="https://t.co/9zN3XqXfYA" rel="nofollow">https://t.co/9zN3XqXfYA</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Analysing and repurposing Spartan's CVE-2015-7645 <a href="http://contextis.com/resources/blog/analysing-and-repurposing-spartans-cve-2015-7645/" rel="nofollow">http://contextis.com/resources/blog/analysing-and-repurposing-spartans-cve-2015-7645/</a></p>
+<div class="translated" id="183854">
+<p>﻿" Spartan Exploit Kit 的 CVE-2015-7645 Flash EXP 的分析和再利用，来自 Context Blog：   <a href="https://t.co/YlYoGlHjRM" rel="nofollow">https://t.co/YlYoGlHjRM</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Mike_Mimoso @Mike_Mimoso</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Attack Leverages #Windows Safe Mode: <a href="https://threatpost.com/attack-leverages-windows-safe-mode/120622/" rel="nofollow">https://threatpost.com/attack-leverages-windows-safe-mode/120622/</a> via @ threatpost</p>
+<div class="translated" id="183948">
+<p>﻿" 远程攻击 Windows 安全模式（Safe Mode），禁用终端防护特性：   <a href="https://t.co/QlNj8catOq" rel="nofollow">https://t.co/QlNj8catOq</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Andrey Karpov @Code_Analysis </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  NullPointerException in C++ - Cristian Adam <a href="https://cristianadam.eu/20160914/nullpointerexception-in-c-plus-plus/" rel="nofollow">https://cristianadam.eu/20160914/nullpointerexception-in-c-plus-plus/</a> via @ cristianadam (#cpp, #null)</p>
+<div class="translated" id="183754">
+<p>﻿" C++ 的空指针异常以及在不同平台的异常处理：   <a href="https://t.co/SuB5Xxq8bM" rel="nofollow">https://t.co/SuB5Xxq8bM</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Pentest </i>]  WiFi Pentesting With a Pineapple NANO, OS X and BetterCap : <a href="https://www.evilsocket.net/2016/09/15/WiFi-Pineapple-NANO-OS-X-and-BetterCap-setup/" rel="nofollow">https://www.evilsocket.net/2016/09/15/WiFi-Pineapple-NANO-OS-X-and-BetterCap-setup/</a>  cc @ evilsocket</p>
+<div class="translated" id="183861">
+<p>﻿" Pineapple NANO, OS X 和 BetterCap 构建的 WiFi 渗透测试环境:   <a href="https://t.co/7XRNa5PhZm%C2%A0" rel="nofollow">https://t.co/7XRNa5PhZm </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>TrendLabs @TrendLabs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  New post: CVE-2016-6662 Advisory: Recent MySQL Code Execution/Privilege Escalation #0Day Vulnerability <a href="http://bit.ly/2cW7ynM" rel="nofollow">http://bit.ly/2cW7ynM</a>
+@ TrendMicro</p>
+<div class="translated" id="183670">
+<p>﻿" 趋势科技对最近的 MySQL 远程代码执行漏洞（CVE-2016-6662）的分析：   <a href="https://t.co/nrwwlXR1qz" rel="nofollow">https://t.co/nrwwlXR1qz</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Keypatch assembler 2.0 for IDA Pro : <a href="http://www.keystone-engine.org/keypatch2" rel="nofollow">http://www.keystone-engine.org/keypatch2</a> ,Tutorial : <a href="http://www.keystone-engine.org/keypatch/tutorial/" rel="nofollow">http://www.keystone-engine.org/keypatch/tutorial/</a></p>
+<div class="translated" id="183686">
+<p>﻿" IDA Pro 的汇编器插件 Keypatch 发布 2.0 版本:   <a href="https://t.co/XTDnYM6Gcq%C2%A0%C2%A0" rel="nofollow">https://t.co/XTDnYM6Gcq  </a> 教程︰   <a href="https://t.co/d5Svf7AELO" rel="nofollow">https://t.co/d5Svf7AELO</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  NCC Group plc @NCCGroupplc </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Blog post: Introducing BLESuite &amp; BLE-Replay: Python Tools for Rapid Assessment of Bluetooth Low Energy Peripherals <a href="https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2016/september/introducing-blesuite-and-ble-replay-python-tools-for-rapid-assessment-of-bluetooth-low-energy-peripherals/" rel="nofollow">https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2016/september/introducing-blesuite-and-ble-replay-python-tools-for-rapid-assessment-of-bluetooth-low-energy-peripherals/</a></p>
+<div class="translated" id="183720">
+<p>﻿" BLESuite 和 BLE-Replay - NCC Group 开源的蓝牙低功耗设备的测试工具，之前推送过：    <a href="https://t.co/0b8VaxLnHe" rel="nofollow">https://t.co/0b8VaxLnHe</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/09/15/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/09/16/index.html">2016/09/16</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/09/17/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

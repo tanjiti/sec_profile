@@ -1,0 +1,1689 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+
+
+        <script nonce="1079067167" type="text/javascript">
+            window.logs = {
+                pagetime: {}
+            };
+            window.logs.pagetime['html_begin'] = (+new Date());
+        </script>
+        <title>
+ 代码战争：伪装和狙杀——从“壳”到“病毒混淆器
+</title>
+        
+<style>.radius_avatar{display:inline-block;background-color:#fff;padding:3px;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;overflow:hidden;vertical-align:middle}.radius_avatar img{display:block;width:100%;height:100%;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;background-color:#eee}.rich_media_inner{word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.rich_media_area_primary{padding:20px 16px 12px;background-color:#fafafa}.rich_media_area_primary.voice{padding-top:66px}.rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{color:rgba(0,0,0,0.3);background-color:#fafafa}.rich_media_area_extra{padding:0 16px 24px}.rich_media_extra{padding-top:30px}.mpda_bottom_container .rich_media_extra{padding-top:24px}.mpda_bottom_container .rich_media_extra .mpad_more_list{right:-10px}html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;line-height:1.6}body{-webkit-touch-callout:none;font-family:-apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif;color:#333;background-color:#f2f2f2;letter-spacing:.034em}h1,h2,h3,h4,h5,h6{font-weight:400;font-size:16px}*{margin:0;padding:0}a{color:#576b95;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_title{font-size:22px;line-height:1.4;margin-bottom:14px}@supports(-webkit-overflow-scrolling:touch){.rich_media_title{font-weight:700}}.rich_media_meta_list{margin-bottom:22px;line-height:20px;font-size:0;word-wrap:break-word;word-break:break-all}.rich_media_meta_list em{font-style:normal}.rich_media_meta{display:inline-block;vertical-align:middle;margin:0 10px 10px 0;font-size:15px;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_meta.icon_appmsg_tag{margin-right:4px}.rich_media_meta.meta_tag_text{margin-right:0}.rich_media_meta_primary{display:block;margin-bottom:10px;font-size:15px}.meta_original_tag{padding:0 .5em;font-size:12px;line-height:1.4;background-color:#f2f2f2;color:#888}.meta_enterprise_tag img{width:30px;height:30px!important;display:block;position:relative;margin-top:-3px;border:0}.rich_media_meta_link{color:#576b95}.rich_media_meta_text{color:rgba(0,0,0,0.3)}.rich_media_meta_text.rich_media_meta_split{padding-left:10px}.rich_media_meta_text.rich_media_meta_split:before{position:absolute;top:50%;left:0;margin-top:-6px;content:' ';display:block;border-left:1px solid #888;width:200%;height:130%;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0}.rich_media_meta_text.article_modify_tag{position:relative}.rich_media_meta_nickname{position:relative}.rich_media_thumb_wrp{margin-bottom:6px}.rich_media_thumb_wrp .original_img_wrp{display:block}.rich_media_thumb{display:block;width:100%}.rich_media_content{overflow:hidden;color:#333;font-size:17px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;text-align:justify;position:relative;z-index:0}.rich_media_content *{max-width:100%!important;box-sizing:border-box!important;-webkit-box-sizing:border-box!important;word-wrap:break-word!important}.rich_media_content p{clear:both;min-height:1em}.rich_media_content em{font-style:italic}.rich_media_content fieldset{min-width:0}.rich_media_content .list-paddingleft-2{padding-left:2.2em}.rich_media_content .list-paddingleft-2 .list-paddingleft-2{padding-left:30px}.rich_media_content blockquote{margin:0;padding-left:10px;border-left:3px solid #dbdbdb}img{height:auto!important}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:portrait){.rich_media_area_extra{padding-bottom:34px}}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:landscape){.rich_media_area_primary{padding:20px 60px 15px 60px}.rich_media_area_extra{padding:0 60px 21px 60px}}@media screen and (min-width:1024px){.rich_media_area_primary_inner,.rich_media_area_extra_inner{max-width:677px;margin-left:auto;margin-right:auto}.rich_media_area_primary{padding-top:32px}}.appmsg_share_notice{font-size:16px;color:#888;position:relative;padding:1.25em 0;margin-bottom:1.75em}.appmsg_share_notice:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice_hd{font-weight:700;padding-bottom:.2em}.cell{padding:.8em 0;display:block;position:relative}.cell_hd,.cell_bd,.cell_ft{display:table-cell;vertical-align:middle;word-wrap:break-word;word-break:break-all;white-space:nowrap}.cell_primary{width:2000px;white-space:normal}.flex_cell{padding:10px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.flex_cell_primary{width:100%;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;box-flex:1;flex:1}.original_tool_area{display:block;padding:.75em 1em 0;-webkit-tap-highlight-color:rgba(0,0,0,0);color:#333;border:1px solid #eaeaea;margin:20px 0}.original_tool_area .tips_global{position:relative;padding-bottom:.5em;font-size:15px}.original_tool_area .tips_global:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dbdbdb;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:27px;height:27px;padding:0;margin-right:.5em}.original_tool_area .radius_avatar img{height:100%!important}.original_tool_area .flex_cell_bd{width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal}.original_tool_area .flex_cell_ft{font-size:14px;color:#888;padding-left:1em;white-space:nowrap}.original_tool_area .icon_access:after{content:" ";display:inline-block;height:8px;width:8px;border-width:1px 1px 0 0;border-color:#cbcad0;border-style:solid;transform:matrix(0.71,0.71,-0.71,0.71,0,0);-ms-transform:matrix(0.71,0.71,-0.71,0.71,0,0);-webkit-transform:matrix(0.71,0.71,-0.71,0.71,0,0);position:relative;top:-2px;top:-1px}.rich_media_global_msg{position:fixed;top:0;left:0;right:0;padding:.85em 35px .85em 15px;z-index:2;background-color:#c6e0f8;color:#888;font-size:12px}.rich_media_global_msg .icon_closed{position:absolute;right:15px;top:50%;margin-top:-5px;line-height:300px;overflow:hidden;-webkit-tap-highlight-color:rgba(0,0,0,0);background:transparent url(//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_appmsg_msg_closed_sprite.2x42f400.png) no-repeat 0 0;width:11px;height:11px;vertical-align:middle;display:inline-block;-webkit-background-size:100% auto;background-size:100% auto}.rich_media_global_msg .icon_closed:active{background-position:0 -17px}.rich_media_global_msg.voice{color:#1aad19;background-color:#e8f6e8;padding-left:43.3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.rich_media_global_msg.voice .ic_voice{position:absolute;top:50%;margin-top:-10px;left:15px;display:inline-block;width:13.3px;height:18.3px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAA3CAYAAAB+fggjAAAAAXNSR0IArs4c6QAACb9JREFUaAW9WX9wVMUd3917d5cf/Agp1OTuQgIlQqUoI1JI1Noojg2I+VU7hVrtDDpadRypgzKjU52x09KOdsS20ypSO/WPWttcAqhTOlSoU4FIoRUn0wEZIMndBUkwGEhyv97bfvaS97L77t3lHYUuc+z3935397vf/e4LJZfQnuPPsW0d25ZQzr9mELKSUnIVzHxB/Dh+lBOKf4OEk0FOyQAl/CyltIt5tL29d/V2FzIkLUQ4FA7dwon+KCF0Fee8rBBdS5aSs/D+PUrYbyKtkb9b9BzAlA7CERrqDN1DOH8C8HU57FwSGat6kBGypbcluhMwFj+75XWwemf1vHQqtZ0T3pCtelkp73uJ79s9bT39dqs5HQyFK79jcPIKFErtSgLHjPvQHQB0EFt2hDE2QHU6RMvpkODrw3o50Uk5p3w2N/SlUKhHTNZjskHBz2pi6ylbH22J/k3mOToYCAceIYT/AgYVPhxJQTkMQ792Ez/yQCY8d0fgRl0nj8J2G5z1mvSJ3qCMrYOTb5l0xQFBDIUDjxmcbzUFJnu621/kf/DUmlM9k7RLh4LtwRChxquck0bFCqWjxENuijXF/iXoioNVnZU36wZ5D7PTTCWsWhyp4uFYa+x1k3Y5ezj6oNgtdTVpL0Lo+mhr9BwO0Xib+/bcWYZB35Sdg/sXsOSNV8o5MXK0LfoKYXQDxpJOMZ8L1g8E33JQT6aeQRoJCOJEMxjxfCvSEtlnEq5Uj5h7Ayv2I8U+5w9du/va0oyD896ZV004RQKebIzQ53EQ/jJJubJQhUa2YBXPmqNgy8vPjZ67N+NgMh6/HwSfyURgniwqLvmJif8/+sNrY6O4XV5WxjKMuvHDQOl9uCksHmX0xydWn0hYBJfAgncXzBhNjjZSnX8Fq3ENdmWWUMUhS2Ebv5HrtjDNg/+B5IY4wos0cVukUskqUwj9xfKS2W9GSEwi5QdxFS5BMn54dGzkHkhOy0x18j9COY1O5VxmhGJylIxMjgUTC7WUkfrqJAkQpfuP3nFUElO4WUgwHHza0HU1wG1SGOi0jeSI+kf92hgZlXg0yajBV0gUwri4vqZud/O7PbhxkGiNvM5NWHKV3NN8LGQbuVdDsYIVzOzHOI+ygzYhR/RAxwdbELcPZDEp+Q+2YQcS2L+Zwc4gdSUQS7Oz5BwIKUqWyq5ApEdDsVmhBKaHnHDQVUg1uwKLkkm+USEScsbjId/ra+7fbaMThMHVdpoTjuyxXloqcUg+Eqe4WBb26/5hGXeCkynyfdA9Fo/SQeZlN/StjUQtmgQUFxVnKhyJlAUGOgP13OC3ygxGWZhhSYtkYqIicUHGnWCUluoFz8mzkRzOCf14Wfyikx2ThvQ0B6XZdvhi1QaoAfZHmiMf40xMJmih4BvxWQnbNCD3i/cunoYab4FMQwr5o4zb4Uh9ZMxOM3Fsf91YfPQfOAeLTJrouYc8K3rEII0ikBcKRLTEhUQNuo8E7NSGh4dnyDOFzIioOpxkZdqyXYGSAV2rMYjhIUamkL2ZcANvG+MWWS4DU/parDm2R8AiBj/Bz3IQe14DPKeDRho1hNyonFplhgp/mmaNhpH6s0VVToNFxR7TPcVFJVZdgMG4cNBq0LvRQhyA2vLaMyDrFouTL169KzBlGkEofdnScQYMXBI/raiuXC1fs4wz2iXLI+U0y7gd3tewL41IVhLvmM6X2eWycM7nZ9EEAXWgWDWPpjWg7tx8+IbD4llhNTadTn8XcWgVBphprbhbLQkngJK/ymTdoE/IuDPME5jYSYx1HLn3EH6/B77Rq/m+FG2L3d7X1Pe+kx5kCBJp4G0clDWmAJTD0db+NhO398GO4G3cMDJBbPIY9bShfgyb+OXqMwGPV9rrskFsc6t4fck0GRZPQ5GnZBpO4x/wvrAmKfP+FzjjYF9zn5i58s0ET8MX8hnGc+BxOGnFi8innBg7UUBsFaV6Pt1CeBMrKD73qG8CbPnKUHvg/lzG+tr6DlGWufJkEWQp/tjgyMBJPF+fWrhj4XSZeSlwJgaFIhyioY7gHvS3moYyK6TRO6JN0b0mzd6HOgIbEBK/gp7fzsOBGMLUX2Z+bWvvnb1T3sd2fYFbDgoET8/56UTqKEBrizDIeY1463tae1BGObeq9qrlBtXb4aRcmVvCmOjneFq+UFZW9lJ3Q3fee9lSmgAUBwUNd+N9CPjfTfDHO0pO+z1FK081nfpUoUuIuKPPD322Gav5OMjWBCURRBGN4GH0QCGvxSwHhcFguPLnGEip97AKXd5y39dPN5yOy4PaYXGrjKToRsTMIzg4M+38cZz+LNYWe8qZp1Izh0QlEVLfctMmzNb6gCP4GGxFcij5W7usHT++NjaI4uHpadr0KkbpZvAH7DKw9iRi98lsejbFcQWF2LJ/LvOe6Yl14m5eLavhU8gqkQdlWj5YnOSL+sXNWNFNmKT1NQsLkGAez3zcIHmfj44rKAYUd2Jxcek6HCP1cHD+Ig5DzonZnT3WdOyCWFGukRUIwkGTL069kdYz319MmlOf00EhjKpiWKPku7IiDF9X3RHMecvIsjIsPqdh1ewO3SXLOMF5HRQKvS39h5GNOmVlnZP1Mu4W9pZ5/4TDZh0ybHkt3iKOqcm0OaWDQpB52DZTQfQo+Vtl3C08kQGO2OStYtlGz6CuHJxZO3MPYnHYMsDJVSKpW3ghAOXKsxaPoup86q4c7F7cncSyHZANGen0Shl3C+PSPy/L4qmZ97525aAwiMLgQ8Uwp8tl3C2MASff00KJMRW3GXLtIFbwY1kXp/kaGXcL42AoDqHit6p5JxuuHfQwj1IvIhFO9QhyGk/QpskM/C3Gyo0y3YRdOzgnNOcTHJS0qYgVrBIfLE28gF75ToN3bySfrmsHM68tTo7JxuKJ+PUyPhWcqbQ5XarI+TRlZxQeENcOjitS5dMc5/oqu8F8+ODI4FrEoPVpBTfL8akK2YIc9DCiFAkoyTbUdNSU5XPK5Im/MQPeZOKZnpNdCu6AFOTgrJLZO2FDrogrUjyxPbQ/VOxgWyG9Fn71h6hoJkMC8exlvl8qQg6I66rE1A22Vz6PEuwZExe92CrQtmmU72U+fzQ9K/15XV1dsuudrhlc50t0XX8Izq1TdAh5I9rWf69Mc4ILdlCU9kNDn32ICvZS0wySAY2W+shSUdw6OSXTCtpioSgePZrPeydWTUncstF8MPRw1dFvunFO2CnYQaGEk3cSn8iWYyVeBGoImqtG6RHxQsQfEJVskE+34C22GxOfb8fiY40owtaAJ0qnciTxcvSlE7VfBPX3IQ8lb/U2R3dgBRGu7tt/AYJkZEGv/oaXAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.rich_media_global_msg.voice .icon_more{position:absolute;right:15px;top:50%;margin-top:-6.5px;width:8px;height:13px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAmCAYAAADeB1slAAAAAXNSR0IArs4c6QAAA49JREFUSA2tVk1IVFEUPveOmhQk1ibfvLFZSJtACqJIIpCIoB+imcFV2Z9ZUVnRomgRGFn2i6mFf5XVotCZMYmgIMhlq6BFENFiwjfPAosgFzXOvNu5o3fmeue98Y16F3PP+c453/fu/xCQmvZSWwwJaC0G6P8WND9IoTmbVFRycpqAdgBWkwRo94V960RsPn1aoPpN9RI6CR0WsDWcjAErtUiqTR/S18+HnNcSTv5zYrwDSatVMgLkH6aciwfj79WYW5+OT4xfsyPnBIgvwt872qBW45ZQzaMlJXCfMPJbDQgfRUoIhduVUW2TwArpaWyX+bnYU9JAAH44FaJIccqCW76Ib7NTjhOOvFPN/8q/IvE3cR+npFJgao9rkiSUXjD2GCNqzMnPbNPYjth3mqINlJAvTsk4kiJmWa3eQe8WpxwVzwjwgFFn/CorL29EkY9qovC5CFDrKq7JVoHl6zNTJCf53/lLk78SN/FcbJRx2cZCixC4ZATGXsu4as8YgQjGamN/q5atOotn4K3A1J4BUMbgsh7Wt6sx2bcV4AkjtSPJxkDjRQL0hVwg21zEglSzN+rdKeOybTtFcgK39ajWZDFWr+IZHxfGQ8mV0YA5nMGmDVcCPNcb8R5gYJ1UCWQfp6PFCI4NyZhrAV6EIiHGrPOAB0ImkW2c0la8u8ICc0wUCWrvC1dsw+3TnN6uanDaJ4zeiIfiA9wtWIAX8XspxeA6iuBlaN88hNzCNXk+JwFOuXJYW5tMQmc+EcqgzXGb2n9XFk1NstX5yKczl89JAF+6vRaBM1m5XAu//qkRGrtb8BThTtqH2/V0LmUWwbvsiREw8X0vcJHxxNbjNm3KUuVaMjmPFuWm2CPesHc/kp+yj06hFMhj/PIOOcfVFLk6xZT0G3vMTpmc27MusityZk/OBfKOwA05MPLIDJn3OJldcxTQotpBYOyEXVEWIw/NoInvuHOznSJfVDs0GzneNw9mI+eyOSPQI9phfCqPO38TFhHaFw/Eu/LliNiMESB5w6zkzD05F8mMYJr8mFC263Fa+vAadvXloj4toEcrjlgMjgrQrseHpBcfkm67WD6M6MN6lTWZeoZjyYxGLcB57MGnsEfF3fjU2G189QBpcUqmBLrnSs4504s8GjLxrwm5qYrg3dKFf6x6VbwQ3yOS/wz8+bS0ruwfELaBY2nyoNkn4gvW65GKRn4WForwP+dONHDaOHeZAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.preview_appmsg .rich_media_title{margin-top:2.3em}@media screen and (min-width:1024px){.rich_media_global_msg{position:relative;margin-bottom:32px}.preview_appmsg .rich_media_title.rich_media_title{margin-top:0}}.pages_reset{color:#333;line-height:1.6;font-size:16px;font-weight:400;font-style:normal;text-indent:0;letter-spacing:normal;text-align:left;text-decoration:none;white-space:normal}.weapp_element,.weapp_display_element,.mp-miniprogram{display:block;margin:1em 0}.share_audio_context{margin:16px 0}.weapp_text_link{font-size:17px}.weapp_text_link:before{content:'';display:inline-block;line-height:1;background-size:contain;background-repeat:no-repeat;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAB4RJREFUWAm1WUuMFGUQnn7szL5mdvbh7GwgEQUlS1weiagxxpigiUZeJgY1cMMDcDCGG8GLCWZvxHjh4BWUeDEsejBBEzWYKBBEiHAABBfCMOwsuzvszrvb+v6Zb7amt1ce0Up6qv6q+qq+/rv778dYkUeUqamp5dFodJPv++ts205blpX2PG8I5cTOiLol44zYZ8vl8vFkMnnlUVpZDwPK5/MpIbWrVqttFlLD0jwiBEHIaNbCGKJjQvai+I9Xq9VD8Xg8y9z76QcimM1mu3t6ej4UYh84jtOFxhBNJGxskhp5xIielZ37bHp6+tNUKnWPOYvp+xKcm5t7S4gclKIpFNGzsmjRkBnUOwNbZjQrtfZ2dnZ+vVgd+O1/CVqlUukjIXZYCqZADBuEJIllc4xh61zmaB9s7LDkHkYPwJgX1KEEx8fHO2TmjkjyPgLQmERIAjHajGnyjDGPOfQ3xvvQCz3ZS+sw5hYAsodbWBhNw4SNGCMBnR/MYS60jskhPyaHe7u4W5otmEGZ8v0gx2YsyDE0bc4Wx8glOe2Dn2No2hqPnuiNXC0tM9i4IA5LcksjNm0BNs417aMNAsRom3HoMD8wsu3QF06TIJaSRCJxXrDmamUBrVEYRejDmDY0JEgsLE4f8mkTj6tb1tsRLkEukiBY56Q4rizThI2okaNtjFlUx+Cr1vzIyTMz7uW/ik4mV7Yd24oMDrR5q1Z01Nav6a5yVsLwcvRS4CI1D5ge+MEdQhbgC1yECSQhjMNsYCGMQ2dzFeuLYxOxibuVBec3cpekY7XtWwZK8a75sMajj2yzcsd5BnccM4PCeg/JoQjJwAY4TFgUMeRjXK54kS/H6uR6e1xvw4vJyuNLYh5yrt8s2d//MtV2M1Nyvvo2F9u5LVUSJEJNPPtKrS7XdXdL6GOzG+LYqIJNUiShYyRDjRw2OXnmnntnsmInE663e3u6uHZVZy2ZsH1sa4Y7ant2DBURu3aj6Jz9c9YBVuNRhz6pvwlju1gsPikzaG78CKIxNgh1sAj91MhFztXrRQf2C+vi1Y721tMC/vZYPQb78rWCE8Tr/uCEJyZbrprNAAST4QOAIGj6qBnDGPjZgmeS0gNRc1jD8D1xx+y978/XJh4awl54nHOl8Do6STKoDarxg5gmxpj2yTEwbtZhDvSlKwUzy+lU1NPxFvz8EcSzpnnYXDCD3AtqFtOFGNM+kMBYx+DzPD/y86m8e+7SnBON2v7qlR01ncP6Gg9uriSlGSSAYyTDhl/7bmTK9tXxkj3ydFetL4lTqT5jyIdgTB/0qT9m3R9/zbvT+Yottfw3XuktJxP1Q61rh/QfcuUcHBKmzcIwdCILQE/crVpHj9+JZe7U17hSyau89lJPxYDVD3KJm5qpWWMnJqMIY+nZvKGv/NQT7ebwcicI5RhYiHBLYx30WQxObWNMyQm5Q0cy7ULK6up0/PUj3dWXn48bckEMGrGZkPJ3bhssunLmLR2qXzyIacxitvT2XZm9jABWMEmD6QPJYzILILdyeWf13Y39ZTSEMAeaQpuxZUujHn26fhCPmI6Dmy0OvIE1AyyqfYWiH7n6d9GJxWz/7df7FpBjLjQETag1Me1HPKxXwJfByXeLRViUYGiI3F/NSYr1raPdNoXh594S75nVT1Z/mUz6kAfhGJp2EI887gRy5Bw0M/g7ndQI0gZISJkpyU6WbTm7m8RYELnFkh+ZnK4/qCTiWF4XXtk6X5NkLjX7iz4rh9keAxBODaKNWKrf9Qd627yC3Cm++2m6DbHWYpHI2Im7UfFZqf6oN9DrmAsPWIquH8QjR8dRG2O88JszW56kTwvRYSayOYtD37xdsT8/ejtWq/nWsqXttdXDHdW+RNTHY9Vv5/IuTgPHtfxd7w0V04/V1ziND5IiCeTofsyTw3tRnqyfNY9b8qg1JkktXwo0EKAlg23eO2/2l7/5YaoNTyPYNIFEt6xxr/aVQQ75QTxJkEBYnDFocEKOqYQHVnn+uiCBLji1IBnCBiVZ+U6fv+dmshV7cqpq9fY4/tBg1HtudXe1zeyuRs9fHMRrEvQBQT9smb1Z+YphHljr3cWJF2gB7NOENAhAjrWGP9iIPuZhDOFYa/hD8KOxWOyAweAHEnxpqnvrvyyofbQZg4boZsEcjrUO4mX2Wl6a6jdhQeAtSoJ70YDNoIMFwmJoqImF5Wgf8jHGRhx0Y9vLNzrkNQligPdRuZpHgyDEKIixMPMQow82/dC04YdgzFwdg0+2Uf1OjPzmOYhBQ6xCoYCX9626WDOo9pqNqHUO7IfBy0XxYJ8+UHdiYuJ9AHQT2GGiycHmmLNDkmFY+JCPXrlcbqcMW28/iCNpEcHnt/3SwHzhQiEIG5JAGDYsN8yHGjil5Ir9BKVDa4U5ta/xveagNDCfRBhDQ5JczEaujhHb0FlclMFzLpDTepEEgxijAL6VSCNcPLPw6aa0oSEgTZsx+GFjwyIsenRmZmbkfuQMDj8PKrjjyCHZIw02im7eGokHAQhnFjZ8GAux/+8jOhoFhX9DCIG1EsPfD9jMC5j4/rO/If4BCiyOk7IAfLMAAAAASUVORK5CYII=');vertical-align:middle;font-size:11px;color:#888;margin-right:6px;margin-top:-3px;background-position:center;height:20px;width:20px}.flex_context{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center}.flex_bd{-webkit-box-flex:1;-webkit-flex:1;flex:1;word-wrap:break-word;word-break:break-all}.original_page{background-color:#fff;font-size:16px}.account_info{padding:0 0 20px}.account_info .flex_bd{padding-left:.85em}.radius_avatar.account_avatar{width:40px;height:40px;padding:0}.account_nickname{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;line-height:1.2;color:#576b95;font-size:14px}.account_nickname_inner{font-weight:400;vertical-align:top}.account_desc{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;color:#b2b2b2;font-size:13px;line-height:1.2;padding-top:.3em}.account_desc_inner{display:inline;vertical-align:top}.share_notice{margin-bottom:20px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.share_media{padding-bottom:18px}.original_panel{padding:20px;background-color:#fcfcfc;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;overflow:hidden;position:relative}.original_panel:after{content:" ";border:1px solid #d8d8d8;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;position:absolute;top:0;left:0;width:200%;height:200%;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}.original_panel .original_account{margin-bottom:18px;position:relative;z-index:1}.original_panel .original_account_avatar{width:28px;height:28px;padding:0}.original_panel .original_account_nickname{padding-left:.85em;font-size:15px;color:#576b95}.original_panel_title{font-size:23px;color:#000;margin:0 0 16px}.original_panel_content{color:#333}.original_panel_tool{padding-top:20px;position:relative;z-index:1}.original_cell_nickname{display:inline-block;vertical-align:middle;font-weight:400;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:8em;color:#000}.original_tool_area{padding:1.17em 0;border-width:0;position:relative}.original_tool_area:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:20px;height:20px;margin-right:.2em}.original_tool_area .flex_cell{padding:0;font-size:14px}.original_tool_area .icon_access:after{margin-right:4px;top:0}.preview_appmsg .rich_media_title{margin-top:1.5em}.preview_appmsg .account_info{padding-top:3em}.original_page{background-color:transparent}.account_info{-webkit-tap-highlight-color:rgba(0,0,0,0);outline:0;padding-bottom:20px;font-size:14px}.account_info.appmsg_account_info{padding-bottom:32px}.account_info .radius_avatar img{background-color:transparent}.share_notice{font-size:16px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.original_panel{background-color:#fafafa}.original_panel:after{border-color:#e6e6e6}.original_panel .original_account_avatar{width:30px;height:30px}.original_panel_tool{font-size:14px}.original_panel_tool a{color:#576b95}.original_panel_content{font-size:17px}.share_media{padding-bottom:30px}.icon_appmsg_tag{display:inline-block;vertical-align:middle;padding:0 .5em;font-size:12px;line-height:1.5;background-color:#c3c3c3;color:#fff;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:70%}.icon_appmsg_tag.primary{color:#3bb638;padding:4px .78em;background-color:rgba(9,187,7,0.08);font-size:12px;border-top-left-radius:.95em 50%;-moz-border-radius-topleft:.95em 50%;-webkit-border-top-left-radius:.95em 50%;border-top-right-radius:.95em 50%;-moz-border-radius-topright:.95em 50%;-webkit-border-top-right-radius:.95em 50%;border-bottom-left-radius:.95em 50%;-moz-border-radius-bottomleft:.95em 50%;-webkit-border-bottom-left-radius:.95em 50%;border-bottom-right-radius:.95em 50%;-moz-border-radius-bottomright:.95em 50%;-webkit-border-bottom-right-radius:.95em 50%}.icon_appmsg_tag.default{border:1px solid rgba(0,0,0,0.1);color:rgba(0,0,0,0.3);background-color:transparent;padding:0 .54em;font-size:15px;line-height:1.3;border-top-left-radius:.67em 50%;-moz-border-radius-topleft:.67em 50%;-webkit-border-top-left-radius:.67em 50%;border-top-right-radius:.67em 50%;-moz-border-radius-topright:.67em 50%;-webkit-border-top-right-radius:.67em 50%;border-bottom-left-radius:.67em 50%;-moz-border-radius-bottomleft:.67em 50%;-webkit-border-bottom-left-radius:.67em 50%;border-bottom-right-radius:.67em 50%;-moz-border-radius-bottomright:.67em 50%;-webkit-border-bottom-right-radius:.67em 50%}.rich_media_meta_list .icon_appmsg_tag.default{margin-top:-1px}.icon_appmsg_tag.title_tag{background-color:#d04b4e}.icon_global_tag_wrp{text-align:right;padding-bottom:12px}.icon_global_tag{background-color:rgba(118,118,118,0.16);color:rgba(0,0,0,0.41);line-height:2.2;border-top-left-radius:1em 50%;-moz-border-radius-topleft:1em 50%;-webkit-border-top-left-radius:1em 50%;border-bottom-left-radius:1em 50%;-moz-border-radius-bottomleft:1em 50%;-webkit-border-bottom-left-radius:1em 50%;padding:0 1.8em 0 1.34em;font-size:12px;margin-right:-24px;display:inline-block;vertical-align:top}.global_plain_btn{display:inline-block;vertical-align:middle;padding:0 1em;line-height:2;font-size:14px;-webkit-tap-highlight-color:rgba(0,0,0,0);border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px}.global_plain_btn.primary{color:#1aad19;border:1px solid currentColor}.global_plain_btn.primary:active{color:rgba(26,173,25,0.6)}.wx_video_context{color:#fefefe;position:relative;background-color:#000}.wx_video_thumb,.wx_video_thumb_primary{position:absolute;left:0;width:100%;height:100%!important;top:0}.wx_video_thumb_primary{-webkit-background-size:cover;background-size:cover;background-position:50% 50%;background-repeat:no-repeat}.wx_video_play_btn{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);margin-top:-2px;font-size:0;border-width:0;background-color:transparent;padding:0;outline:0;z-index:2}.wx_video_play_btn:before{content:" ";display:inline-block;width:0;height:0;border-width:14px 0 14px 25px;border-color:transparent transparent transparent #fff;border-style:dotted dotted dotted solid}.wx_video_mask{position:absolute;top:0;left:0;right:0;bottom:0;z-index:1;background-color:rgba(0,0,0,0.5)}.place_audio_area{min-height:100px;background-color:#fdfdfd;display:block;margin:16px 0}.place_music_area{min-height:68px;background-color:#fdfdfd;display:block;margin:17px 0 16px}.rich_media_empty_extra{background-color:#fafafa}.appmsg_skin_default.rich_media_empty_extra{background-color:#fff}.appmsg_skin_default .rich_media_area_primary{background-color:#fff}.appmsg_skin_default .rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{background-color:#fff}.appmsg_style_default .rich_media_tool{padding-top:15px}.rich_media_title_ios{font-weight:700}.read-more__area{margin:30px 0}.read-more__desc{margin-bottom:10px}.read-more__article__extra{font-size:14px;color:rgba(0,0,0,0.5)}.read-more__article__item{margin-bottom:10px}</style>
+<style>
+        </style>
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/pc435ee6.css">
+<![endif]-->
+
+    </head>
+    <body id="activity-detail" class="zh_CN mm_appmsg  appmsg_skin_default appmsg_style_default">
+        
+<script nonce="1079067167" type="text/javascript">
+    var biz = "MjM5Mjc3MDM2Mw=="||"";
+    var sn = "6e4daa40092d8abe79d98d43536c7a53" || ""|| "";
+    var mid = "2651132585" || ""|| "";
+    var idx = "1" || "" || "";
+    window.__allowLoadResFromMp = true; 
+    
+        
+</script>
+<script nonce="1079067167" type="text/javascript">
+var page_begintime=+new Date,is_rumor="",norumor="";
+1*is_rumor&&!(1*norumor)&&biz&&mid&&(document.referrer&&-1!=document.referrer.indexOf("mp.weixin.qq.com/mp/rumor")||(location.href="http://mp.weixin.qq.com/mp/rumor?action=info&__biz="+biz+"&mid="+mid+"&idx="+idx+"&sn="+sn+"#wechat_redirect"));
+</script>
+<script nonce="1079067167" type="text/javascript">
+var MutationObserver=window.WebKitMutationObserver||window.MutationObserver||window.MozMutationObserver,isDangerSrc=function(t){
+if(t){
+var e=t.match(/http(?:s)?:\/\/([^\/]+?)(\/|$)/);
+if(e&&!/qq\.com(\:8080)?$/.test(e[1])&&!/weishi\.com$/.test(e[1]))return!0;
+}
+return!1;
+},ishttp=0==location.href.indexOf("http://");
+-1==location.href.indexOf("safe=0")&&ishttp&&"function"==typeof MutationObserver&&"mp.weixin.qq.com"==location.host&&(window.__observer_data={
+count:0,
+exec_time:0,
+list:[]
+},window.__observer=new MutationObserver(function(t){
+window.__observer_data.count++;
+var e=new Date,r=[];
+t.forEach(function(t){
+for(var e=t.addedNodes,o=0;o<e.length;o++){
+var n=e[o];
+if("SCRIPT"===n.tagName){
+var i=n.src;
+isDangerSrc(i)&&(window.__observer_data.list.push(i),r.push(n)),!i&&window.__nonce_str&&n.getAttribute("nonce")!=window.__nonce_str&&(window.__observer_data.list.push("inlinescript_without_nonce"),
+r.push(n));
+}
+}
+});
+for(var o=0;o<r.length;o++){
+var n=r[o];
+n.parentNode&&n.parentNode.removeChild(n);
+}
+window.__observer_data.exec_time+=new Date-e;
+}),window.__observer.observe(document,{
+subtree:!0,
+childList:!0
+})),function(){
+if(-1==location.href.indexOf("safe=0")&&Math.random()<.01&&ishttp&&HTMLScriptElement.prototype.__lookupSetter__&&"undefined"!=typeof Object.defineProperty){
+window.__danger_src={
+xmlhttprequest:[],
+script_src:[],
+script_setAttribute:[]
+};
+var t="$"+Math.random();
+HTMLScriptElement.prototype.__old_method_script_src=HTMLScriptElement.prototype.__lookupSetter__("src"),
+HTMLScriptElement.prototype.__defineSetter__("src",function(t){
+t&&isDangerSrc(t)&&window.__danger_src.script_src.push(t),this.__old_method_script_src(t);
+});
+var e="element_setAttribute"+t;
+Object.defineProperty(Element.prototype,e,{
+value:Element.prototype.setAttribute,
+enumerable:!1
+}),Element.prototype.setAttribute=function(t,r){
+"SCRIPT"==this.tagName&&"src"==t&&isDangerSrc(r)&&window.__danger_src.script_setAttribute.push(r),
+this[e](t,r);
+};
+}
+}();
+</script>
+
+        <link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<script nonce="1079067167" type="text/javascript">
+    String.prototype.html = function(encode) {
+        var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&yen;", "¥", "&amp;", "&"];
+        
+		
+		
+		
+		
+        
+        var replaceReverse = ["&", "&amp;", "¥", "&yen;", "<", "&lt;", ">", "&gt;", " ", "&nbsp;", '"', "&quot;", "'", "&#39;"];
+	    var target;
+	    if (encode) {
+	    	target = replaceReverse;
+	    } else {
+	    	target = replace;
+	    }
+        for (var i=0,str=this;i< target.length;i+= 2) {
+             str=str.replace(new RegExp(target[i],'g'),target[i+1]);
+        }
+        return str;
+    };
+
+    window.isInWeixinApp = function() {
+        return /MicroMessenger/.test(navigator.userAgent);
+    };
+
+    window.getQueryFromURL = function(url) {
+        url = url || 'http://qq.com/s?a=b#rd'; 
+        var tmp = url.split('?'),
+            query = (tmp[1] || "").split('#')[0].split('&'),
+            params = {};
+        for (var i=0; i<query.length; i++) {
+            var arg = query[i].split('=');
+            params[arg[0]] = arg[1];
+        }
+        if (params['pass_ticket']) {
+        	params['pass_ticket'] = encodeURIComponent(params['pass_ticket'].html(false).html(false).replace(/\s/g,"+"));
+        }
+        return params;
+    };
+
+    (function() {
+	    var params = getQueryFromURL(location.href);
+        window.uin = params['uin'] || "" || '';
+        window.key = params['key'] || "" || '';
+        window.wxtoken = params['wxtoken'] || '';
+        window.pass_ticket = params['pass_ticket'] || '';
+        window.appmsg_token = "";
+    })();
+
+    function wx_loaderror() {
+        if (location.pathname === '/bizmall/reward') {
+            new Image().src = '/mp/jsreport?key=96&content=reward_res_load_err&r=' + Math.random();
+        }
+    }
+
+</script>
+
+<script nonce="1079067167" type="text/javascript">
+        window.__moon_report_uin = "0";
+            window.no_moon_ls = 0;
+    </script>
+
+        
+<script nonce="1079067167" type="text/javascript">
+    var write_sceen_time = (+new Date()); 
+</script>
+
+<div id="js_article" class="rich_media">
+    
+    <div id="js_top_ad_area" class="top_banner"></div>
+    
+    <div class="rich_media_inner">
+
+        
+        
+        <div id="page-content" class="rich_media_area_primary">
+          <div class="rich_media_area_primary_inner">
+                                    
+                        
+
+            <div id="img-content">
+
+                
+                <h2 class="rich_media_title" id="activity-name">
+                    
+                    
+                    代码战争：伪装和狙杀——从“壳”到“病毒混淆器
+
+                                                                                </h2>
+                <div id="meta_content" class="rich_media_meta_list">
+                                                                                <span class="rich_media_meta rich_media_meta_text">
+                                                此生长唸
+                                            </span>
+                                        
+                                        <span class="rich_media_meta rich_media_meta_nickname" id="profileBt">
+                      <a href="javascript:void(0);" id="js_name">
+                        吾爱破解论坛                      </a>
+                      <div id="js_profile_qrcode" class="profile_container" style="display:none;">
+                          <div class="profile_inner">
+                              <strong class="profile_nickname">吾爱破解论坛</strong>
+                              <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">微信号</label>
+                              <span class="profile_meta_value">pojie_52</span>
+                              </p>
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">功能介绍</label>
+                              <span class="profile_meta_value">吾爱破解论坛致力于软件安全与病毒分析的前沿，丰富的技术版块交相辉映，由无数热衷于软件加密解密及反病毒爱好者共同维护，留给世界一抹值得百年回眸的惊艳，沉淀百年来计算机应用之精华与优雅，任岁月流转，低调而奢华的技术交流与探索却是亘古不变。</span>
+                              </p>
+                              
+                          </div>
+                          <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">
+                              <i class="profile_arrow arrow_out"></i>
+                              <i class="profile_arrow arrow_in"></i>
+                          </span>
+                      </div>
+                    </span>
+
+
+                    <em id="publish_time" class="rich_media_meta rich_media_meta_text"></em>
+
+
+
+
+
+                </div>
+                
+                
+                
+                
+                                                
+                                                                
+                                
+                
+                <div class="rich_media_content " id="js_content">
+                    
+
+                    
+
+                    
+                    
+                    <p>一、前言<br  /></p><p>“壳”（Packer）——在安全领域同APT一样，是一个宽泛的概念，即指代一类对可执行代码及数据进行包装已达到隐藏、压缩或保护等目的的运行时代码。</p><p>在病毒与安全软件的代码对抗过程中，“壳”一直扮演着极为重要的角色。早期反病毒引擎仅能够扫描可执行文件最外层的特征（代码和数据）。“加壳”后的病毒由于原始病毒特征（代码和数据）被“壳”改变（压缩、加密等），则可以躲避反病毒引擎的查杀。随着这种对抗的不断发展，虽然很多病毒的核心特征变化并不大，但是“壳”的“免杀”能力在不断增强，不断地更新换代，长时间与安全软件进行着对抗。所以，在现今互联网大环境中，如果一个反病毒引擎不具备强大的“脱壳”能力，就不能对病毒进行有效查杀，最终落后于整个安全行业的发展。</p><p><br style="word-wrap: break-word;"  /></p><p>早期的“壳”通常以压缩目标程序为目的，如UPX、PECompact等经典的“压缩壳”等。随着软件知识产权意识的萌发，以保护程序代码及数据为目的的“壳”应运而生，此类“加密壳”、“保护壳”往往会利用花指令、反调试等手段干扰破解者对被保护代码和数据的“窥探”（包括静态和动态分析），Asprotect、VMProtect、ThemIDA便是其中一些经典的“保护壳”。</p><p>上述“压缩壳”、“加密壳”和“保护壳”由于加壳程序公开（免费或收费），所以安全工程师可以对”加壳“的过程和结果进行分析，从而可以通过代码识别程序是否被“加壳”、加了何种“壳”，进而“脱壳”，并可以将这种“脱壳”逻辑嵌入到反病毒引擎的扫描逻辑中，从而在一定程度上“解决”了“壳”的对抗。</p><p>然而近10年来，很多病毒作者通过“壳”和感染型病毒常用的多态、变形等技术编写非公开的“私有壳”对病毒代码进行保护，这类“壳”往往不仅包括上述公开“保护壳”的功能，并且外层的“壳”代码还会通过各种手段干扰、误导、对抗反病毒引擎的识别，比较典型的手段包括代码变形、入口伪装、高级语言包裹（High-Level Language Wrapper）等。安全领域为此类“壳”起了个更为“高大上”的名字：“病毒混淆器”（Obfuscator）。安全领域较早的关于“病毒混淆器”的详细分析可以参考2010年RECon大会上Pierre-Marc Bureau（来自ESET）和Joan Calvet对于C2Lop病毒外层的Swizzor混淆器的分析（https://recon.cx/2010/slides/Recon2010-UnderStaningSwizzorObfuscation.pdf）。</p><p><br style="word-wrap: break-word;"  /></p><p>“病毒混淆器”的出现使得传统反病毒引擎“认壳”才能“脱壳”的机制完全失效。更有意思的是，在很长一段时间，很多安全厂商由于一直以来依赖对“壳”和编译器的识别，完全没有意识到“病毒混淆器”的崛起，甚至根据“大数据”的分析发现“加壳”样本的比例不升反降，思忖一定是“现在反病毒引擎都能‘脱壳’，所以病毒作者也就不再‘加壳’了”。就像曾有人对笔者说的，“‘壳’的问题是个轮回的过程，从2008年以后壳就变得很少了”。然而，根据我们对大量病毒样本的分析，我们坚定的认为“壳”的问题并不是轮回，传统的“壳”早已被“病毒混淆器”这个更为复杂的概念意义上的“后代”所取代，并持续的进化着。</p><p>病毒制造者在“病毒混淆器”的帮助下，可以在短时间内批量生成大量“伪装”（变形）过的病毒样本并迅速传播。为了应对不断变化的病毒样本，云引擎和大数据人工智能学习的方法逐渐走进了人们的视野。但长期看来，上述两种对抗策略从根本上存在着不可逾越的瓶颈和数据资源的限制。而“通用脱壳”技术相较于前两者，虽需要长期的技术投入，但却可以获得更为持久、有效的查杀回报，无疑将成为未来解决“病毒混淆器”类问题的优选方案。</p><p><br style="word-wrap: break-word;"  /></p><p>下面我们针对这三种技术进行详细说明：</p><p><br style="word-wrap: break-word;"  /></p><p>1.&nbsp; &nbsp;&nbsp; &nbsp; 云查杀和云引擎</p><p>如今很多安全厂商的“云引擎”，主要是希望通过缩短反病毒引擎特征更新周期来与病毒作者拼速度，从而达到快速抑制病毒扩散的效果。当然，这显然不是“云安全”的本质，但由于篇幅所限，本文并不对“云安全”这一话题进行讨论。</p><p>“云引擎”虽然可以实时同步云端的计算结果，但由于网络带宽的限制，在有限的扫描时间内，云引擎只能在本地提取高度抽象的数据特征发送到云端进行匹配，所以一般云引擎会选择哈希类特征（通常是全文哈希）。而哈希类特征的检出能力与样本基本是1：1的关系，即一条哈希特征通常只能检出一个样本。</p><p>由于“云引擎”采用哈希类特征，所以每个“伪装”过的病毒样本对于云引擎来说都是全新的，都需要进行“鉴定”。我们并不需要进行精确的计算，就可以得出如下结论：“云引擎”从采集到样本并传到云端分析，到云端分析出结果，再到客户端能够请求到结果，这个周期远远长于病毒作者通过“病毒混淆器”批量生成变形病毒样本的周期。</p><p>虽然“云引擎”能够缩短反病毒引擎特征更新周期、提高安全产品的反应速度，但是对于“病毒混淆器”批量生成的变形病毒，起到的作用只不过是“掩耳盗铃”罢了。</p><p><br style="word-wrap: break-word;"  /></p><p>2.&nbsp; &nbsp;&nbsp; &nbsp; 利用大数据和“人工智能“，猜测病毒的“伪装“</p><p>近些年，国内一些安全软件发布了各自的基于大数据或“人工智能”的反病毒引擎。这些引擎本质上都是基于统计学算法，通过对海量样本以固定方法抽取特征，并对特征进行统计、分析，进而产生计算模型。依照计算模型对待扫描样本进行分类，进而预测新样本是否属于恶意分类。</p><p>在没有数据为依托的前提下，我不能对此类引擎的效果妄加揣测。但无论算法如何、样本如何选取，都逃不过一个重要条件，那就是对特征的抽取。我们不妨做如下假设：我们通过外貌、服饰、声音、举止等方面可以基本准确地判断一个人的性别，这就像扫描明文的恶意代码。如果将人关进房间，只有房间的颜色、外观等特征可见，而人本身相关的特征完全看不到，这就像是被混淆过的恶意代码。将大量的人随机安排进不同颜色，不同外观的房间，试问仅通过房间的颜色和外观，通过统计、分析，产生计算模型，并推测某一房间内人的性别是否可靠？我想答案是否定的。</p><p>无论是统计学或是人工智能算法，算法本身并没有任何问题，但如果不能戳穿病毒的“伪装”，不能抽取到有效的特征，一切都只会是徒劳。如果仅抽取样本的外层特征，“病毒混淆器”作者可以很轻易“伪装”出正常的程序结构、代码特征以及数据特征来躲过统计模型的预测，甚至可以”误导”并“污染”统计模型从而使此类反病毒引擎导致严重的误报。</p><p><br style="word-wrap: break-word;"  /></p><p>3.&nbsp; &nbsp;&nbsp; &nbsp; 通过“通用脱壳”戳穿病毒的“伪装”</p><p>“通用脱壳”（Generic Unpacking）就是最典型的用于戳穿病毒“伪装”的技术。简单来说，“通用脱壳”就是不对程序进行精确的“壳识别”，而是通过某些启发式逻辑评估待扫描是否可能被“加壳”（或者完全不评估是否可能“加壳”），并在虚拟沙盒中运行待扫描样本，使其在虚拟环境中还原被保护的代码、数据、行为，从而进行查毒。关于虚拟沙盒相关介绍可以参考《动若脱兔——火绒虚拟沙盒简介》一文相关章节，此处不再赘述。后文中，如无特别说明，“虚拟机”均指代虚拟沙盒。</p><p>“通用脱壳”技术对于处理“病毒混淆器”显然具有极大的帮助，如果反病毒引擎构造的虚拟环境足够逼真、虚拟沙盒的执行效率足够高，那么对于批量产生的变形病毒样本，反病毒引擎仅需要捕获其中部分样本则可以查杀后续的全部变种。纵观国内外也只有部分反病毒引擎在不同程度上实现了“通用脱壳“技术，国外包括MSE、ESET、Kaspersky、BitDefender、VIPRE在内的多款反病毒引擎，很早就引入了“通用脱壳”技术，并且多年来从未停止过对这方面的技术投入。火绒也在2013年实现了“通用脱壳”技术，并至今仍然持续保持着火绒虚拟沙盒的高速更新。关于“通用脱壳”相关介绍可以参考《反病毒”芯“技术——火绒反病毒引擎简介》一文相关章节，此处不再赘述。</p><p>在对大量样本的分析基础上，我们将“病毒混淆器”的大致进化过程进行了简单梳理，如下表所示。后续，本文将以”病毒混淆器“的“进化”过程为主轴，回溯“病毒混淆器”与反病毒引擎的对抗过程。后文中，如无特殊说明，“混淆器”均指代“病毒混淆器”。</p><p><img border="0" class="zoom" data-ratio="0.7985739750445633" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjJI6WkWEFBWB2nK24pczTWddKKDNWniaVME0ypZYiaLK8ycuVBOE6ZXibA/0?wx_fmt=png" data-type="png" data-w="1122" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>表1、混淆器进化过程总表<br style="word-wrap: break-word;"  /></p><p></p><p><br style="word-wrap: break-word;"  /></p>二、经典案例&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; 1.&nbsp;指令级混淆器——Conficker<p></p><p>Conficker的出现时间在2008年，作为最早使用混淆器的病毒家族之一，其对于整个病毒的“黑色产业链”发展有着里程碑式的意义。MS08-067这个漏洞利用门槛低、成功率高是这个病毒能够快速流行的主要原因，但能使该病毒能够长期处于“免杀”状态显然归功于其使用的变形混淆器。在该病毒流行的早期，国内外安全厂商在没有“通用脱壳”技术的状态下，只能采用批量入库的方式处理，从而很难有效通杀整个病毒家族。在Conficker“一战成名”之后，使用混淆器的病毒样本开始逐渐增多，“病毒混淆器”的“进化”也就此展开。</p><p></p><p><br style="word-wrap: break-word;"  /></p>1.1&nbsp; &nbsp;&nbsp;病毒行为<p></p><p>该病毒会尝试创建许多用于其进行病毒传播的网络连接，并禁用系统安全设置、阻止本地安全软件的正常升级。其主要传播途径为：U盘、网络共享、弱口令密码的共享计算机等。当病毒在一个局域网内部大范围传播后，会造成严重的网络阻塞。</p><p>通过火绒行为沙盒我们可以看到一些主要的病毒行为：</p><p><img border="0" class="zoom" data-ratio="0.7593856655290102" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjA1Y6ukSQO0IoVTpyH8yHabBohFxgxLmVa0QkcBpc6IV8GZZFULTUhw/0?wx_fmt=png" data-type="png" data-w="1172" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图1、火绒行为沙盒运行效果图</p><p></p><p><br style="word-wrap: break-word;"  /></p>1.2&nbsp; &nbsp;&nbsp;混淆器结构<p></p><p>Conficker家族的样本结构极为统一。最外层为混淆器，其主要功能为解密原有数据、对抗虚拟沙盒和反调试。经过混淆器的数据解密后，再向内一层是经过UPX压缩的Conficker病毒主体。如下图所示：</p><p><img border="0" class="zoom" data-ratio="1.2682481751824817" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjD8XHCRy4P7JXmGd7H0VoBFJPeEQ1GvSYKKluru2pVftPaF0aFkVPMg/0?wx_fmt=png" data-type="png" data-w="548" style="word-wrap: break-word; cursor: pointer; height: 1px; width: 1px;" width="548"></p><p>图2、Conficker病毒整体结构</p><p>虽然混淆器的逻辑并不十分复杂，但是其主要逻辑代码被切分成了很多小的逻辑块，随机打乱顺序后分布在整个混淆器代码中，逻辑块与逻辑块之间用jmp指令进行连接，jmp指令的跳转位置全部被存放在混淆器的跳转表中。</p><p><img border="0" class="zoom" data-ratio="1.0166666666666666" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjd7JGcFY87juqONowl2k5kqtWs95zUxbm9d1EEZ0ibSh2bV8tb7iboI1A/0?wx_fmt=png" data-type="png" data-w="960" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图3、混淆器跳转表示意图</p><p>其混淆器的解密过程并不复杂，本样本解密流程如下（dest代表目标字节，index为当前解密位置，shl_count为可变参数，decrypt_data为加密数据）：</p><p><img border="0" class="zoom" data-ratio="0.05213764337851929" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmj1H9dbBnziawPAeOhujTmribrH9bHxOExuMEYOKpYCDDCIWJBhOvCE5jw/0?wx_fmt=png" data-type="png" data-w="959" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图4、混淆器解密流程</p><p>通过对Conficker所使用的混淆器的分析，我们发现最初的混淆器只是通过对外层特征的混淆达到其与安全软件对抗的目的，对抗主要还停留在指令级。基于“通用脱壳”的反病毒引擎还是可以很从容地处理。</p><p>混淆代码运行结束后，我们可以看到内层的UPX相关代码。如下图所示：</p><p><img border="0" class="zoom" data-ratio="0.7972831765935214" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjGqakXGs5ic5bjTBvYTRCcLkaDVxSKrKLMWoAzSIvcNVWDpJpU9EvHTg/0?wx_fmt=png" data-type="png" data-w="957" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图5、内层UPX相关代码示意图</p><p></p><p><br style="word-wrap: break-word;"  /></p>1.3&nbsp; &nbsp;&nbsp;对抗手段<p></p><p>该混淆器由于出现时间比较早，采用的反调试、反虚拟机的手段还比较原始，利用rdtsc执行检测两次系统时间戳的间隔是否过长，如果间隔时间过长，则判定是在进行调试，从而结束病毒进程。此处逻辑也都是使用jmp指令进行连接，通过简单的反混淆之后我们可以清楚地看到其反调试、反虚拟机的具体逻辑。如下图所示：</p><p><img border="0" class="zoom" data-ratio="0.6544502617801047" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmj6PWysyFfSiaiasMlOpFKf3IW5icgkFgT9mNLibCNUM8ToWuGE6sbfKhG0g/0?wx_fmt=png" data-type="png" data-w="955" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图6、混淆器反调试相关代码</p><p></p><p><br style="word-wrap: break-word;"  /></p>2.虚拟环境对抗型混淆器——Ogimant<p></p><p>Ogimant是一个国外的著名“下载器”病毒家族，主要流行时间在2014前后，其所使用的混淆器在混淆能力上较Conficker家族已经有了“长足的进步”。随着”通用脱壳“技术的成熟，混淆器为了加强自己的“免杀能力”已经逐渐的开始使用一些简单的针对虚拟沙盒的对抗和检测技巧，其对抗和检测逻辑会根据不同样本而稍有不同。</p><p></p><p><br style="word-wrap: break-word;"  /></p>2.1&nbsp; &nbsp; 病毒行为<p></p><p>通过火绒行为沙盒，我们可以看到一些主要的病毒行为：</p><p><img border="0" class="zoom" data-ratio="0.9355531686358755" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjWt2ZjrmJ7Ca2ejSW8Cx6qeDmtTxVh0Xb5k70NvZm4NLiaO6ArMia4R2w/0?wx_fmt=png" data-type="png" data-w="931" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图7、Ogimant病毒的主要病毒行为</p><p></p><p><br style="word-wrap: break-word;"  /></p>2.2&nbsp; &nbsp;&nbsp;混淆器结构<p></p><p><br  /></p><p>该混淆器的总体结构比较简单，最外层是病毒混淆器，在混淆器运行完成后，原程序主映像区中就会解密出病毒本体。虽然总体结构比较简单，但其解密过程则稍微复杂一些。</p><p>首先，混淆器会在内存中将负责解密原始病毒PE文件的解密代码在堆区中进行解密并执行。</p><p><img border="0" class="zoom" data-ratio="1.012486992715921" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmj65KMaFvTTic2MPS6eNHppegG5dvnKukggWKLCYLSPgKoqVtv5hOyy9w/0?wx_fmt=png" data-type="png" data-w="961" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图8、解密代码</p><p>解密出解密代码之后，再由该解密代码利用8个字节的解密密钥对整个加密的病毒PE文件进行全文解密。解密代码如下图：</p><p><img border="0" class="zoom" data-ratio="1.125514403292181" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmj1AX8R92ibnGuqH0Ze7eMmZMz41zdmejDAPibU4SRO70gnxXvvLl9n0vA/0?wx_fmt=png" data-type="png" data-w="972" style="word-wrap: break-word; cursor: pointer; height: 1px; width: 1px;" width="600"></p><p>图9、Ogimant病毒原始PE文件解密代码</p><p>然后，在原进程的主映像区中将病毒的PE文件进行内存映射，将映射后的病毒数据以逐字节异或的方式备份起来，使用NtUnmapViewOfSection函数将原进程的主映像区内存释放，之后用备份数据将映射后的病毒数据重新在主映像区复原。由于加密与解密代码相似，我们只列出了加密代码，代码如下：</p><p><img border="0" class="zoom" data-ratio="0.4546402502606882" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjVBxEibPV1jESzPECUic69OW7KTycV0mzicxERkicqByMicrdP5iaPtV6bBXQ/0?wx_fmt=png" data-type="png" data-w="959" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图10、加密映射后的病毒PE文件代码</p><p>在完成了病毒文件的内存映射后，最后混淆器帮助病毒修复导入表后从病毒的映像入口点开始运行，混淆器的所有逻辑运行完毕。</p><p><br  /></p><p><br style="word-wrap: break-word;"  /></p><p>2.3&nbsp; &nbsp;&nbsp;对抗手段</p><p><br  /></p><p>相较于早期的混淆器，该混淆器使用了一些与虚拟沙盒对抗的技巧，如循环执行没有实际意义的代码试图使反病毒引擎的“通用脱壳“流程超时、检测API返回值、检测调用API出错后的LastError等，下面我们逐一举例。</p><p><img border="0" class="zoom" data-ratio="0.4430051813471503" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjJRdUv5qqqHOal7lC6icbfvWVVibazlbNb3aKoQsSB8qlKhqkVH1oVCWQ/0?wx_fmt=png" data-type="png" data-w="386" style="word-wrap: break-word; cursor: pointer; height: 1px; width: 1px;" width="386"></p><p>图11、混淆器拖慢虚拟机代码</p><p>通过上图我们看到，该混淆器大量调用VirtualAlloc函数申请内存，并填入垃圾数据再逐一释放。这样的混淆手段很大程度上的消耗了扫描效率，如果虚拟沙盒一味的按照其逻辑进行执行，最终都会因为超时而很难对其进行查杀。</p><p>相较于拖慢虚拟机而言，检测API LastError的检测手法则更加直接。在真实操作系统中setsockopt调用时五个参数如果全部为0时，LastError的值应该为0x276d，如果虚拟沙盒中环境不够真实，那么程序将无法为解密代码分配内存空间，从而造成异常。如下图所示：</p><p><img border="0" class="zoom" data-ratio="0.3854166666666667" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjMHXVgLFhcLiaN23KSzN5zXBCNianfFVqMRd01lI7Nl8Jkxzib3YGaz7zw/0?wx_fmt=png" data-type="png" data-w="960" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图12、混淆器检测API LastError代码</p><p>在其解密代码中，我们依然可以看到与虚拟沙盒对抗的相关代码。如下图，其代码中调用了Winscard.dll动态库中的SCardIntroduceCardTypeA函数，并检测器返回的错误号。与上文说到的检测函数LastError相近，其目的都是为了检测当前运行环境是否真实。</p><p><img border="0" class="zoom" data-ratio="0.30333333333333334" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmj5X7K8ibgE6cHuY2eTeziar2kRlPqhdqqhPDyLmYjBHZOY9X17P8YopmQ/0?wx_fmt=png" data-type="png" data-w="900" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图13、混淆器检测函数返回值代码</p><p>该混淆器还使用了GetTickCount函数来进行反调试，在Conficker使用的混淆器中我们已经介绍过类似手法，这里不再进行过多赘述。</p><p>在该混淆器中，相对于上述几种反虚拟机的手段之外，我们还发现其使用CreateProcessW函数开启新的自身进程并添加了命令行参数，新进程会通过检验命令行参数的方法判断是否执行后续逻辑代码。我们以此可以看到，混淆器的发展从单一、简单的检测方法，逐渐向系统化检测运行环境的方向进行发展。</p><p><img border="0" class="zoom" data-ratio="0.2" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjZphFGafibuj9rkNAZWRsrLkqlZvRjUCPVm6DQKfOcw3Vf9aZ4ggK4uA/0?wx_fmt=png" data-type="png" data-w="1090" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图14、利用进程命令参数对抗虚拟沙盒行为效果图</p><p>在我们所发现的混淆器中，经常会发现混淆器检测一些比较不常见的API，由于这些函数本身不容易被一般程序使用，所以在虚拟沙盒中通常也不会对其进行实现，这样就给了这些混淆器一个可乘之机。虽然这些的“稀奇古怪”的 API有一定的数量，但是API的数量也毕竟是有限的，经过我们对虚拟沙盒环境的不断进行完善，此类问题就都将会迎刃而解。</p><p><br  /></p><p><br style="word-wrap: break-word;"  /></p><p>3.虚拟环境对抗型混淆器——FakeAV</p><p><br  /></p><p>FakeAV的出现时间在2007年前后，该病毒主要以虚假病毒威胁进行欺骗，让用户相信当前系统已被病毒感染或存在严重问题需要付费进行修复，骗取用户钱财。在利益的驱使下，病毒制造者在保持病毒核心不变的情况下，不停地迭代混淆器来”免杀”，随之而来的变是更加“花样百出 ”的反虚拟机对抗手段。</p><p><br  /></p><p><br style="word-wrap: break-word;"  /></p><p>3.1&nbsp; &nbsp; 病毒行为</p><p><br  /></p><p>本报告中所述样本有一定的反虚拟机能力，经过简单的对抗后，我们可以看到该病毒的运行界面。在当前环境无任何安全威胁的情况下，谎报出若干各式各样的病毒，并提示用户付费购买其所为的“安全软件”。</p><p><img border="0" class="zoom" data-ratio="0.685785536159601" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjgj86h3Qv4WTWV19hFxoLCqjVG79z9ibHFA3qdVcbRjaXtlgy0ibfWexg/0?wx_fmt=png" data-type="png" data-w="802" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图15、FakeAV病毒运行界面</p><p><img border="0" class="zoom" data-ratio="0.78" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjSonXgUbfvw37BOGYZz0c8Skib84bXRdcDCfzyfRichmaDKpyb6XJOqfQ/0?wx_fmt=png" data-type="png" data-w="450" style="word-wrap: break-word; cursor: pointer;" width="450"></p><p>图16、FakeAV虚假报毒弹窗</p><p>通过火绒行为沙盒我们也可以看到该样本运行的一些细节，如下图所示：</p><p><img border="0" class="zoom" data-ratio="0.7040169133192389" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjXSlq40nq0Z3ic1ibz8KjkWohwDjAXqfe4gerHagtafFVSDN1JoZ18TUw/0?wx_fmt=png" data-type="png" data-w="1419" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图17、火绒行为沙盒运行效果图</p><p>FakeAV在火绒虚拟沙盒中运行后的内存特征如下：</p><p><img border="0" class="zoom" data-ratio="1.08870116156283" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjtqXjuYPLVBvMtqHOpX0svMl98wmDQCTvAa3Y9cucj4My8icaP2UPYdw/0?wx_fmt=png" data-type="png" data-w="947" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图18、FakeAV在火绒虚拟沙盒中运行后的内存特征</p><p><br  /></p><p><br style="word-wrap: break-word;"  /></p><p>3.2&nbsp; &nbsp; 混淆器结构</p><p><br  /></p><p>该混淆器先进行了反虚拟机的相关操作。在通过检测后，其会在堆区解密出用于还原原本病毒PE文件的一段解密代码。因为其解密代码中穿插有大量花指令，在对其代码进行过反混淆之后，我们得到了如下解密逻辑：</p><p><img border="0" class="zoom" data-ratio="0.6687116564417178" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjUV857wTFT2P6r4XvFmW7n1NmUAr3bEa2BOYria41UiclTampyY6MWTug/0?wx_fmt=png" data-type="png" data-w="978" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图19、解密代码示意图</p><p>最终负责解密病毒文件的代码分为两个部分。第一部分主要用于获取后面逻辑所用的API地址，并简单检测了ReadFile函数的入口点数据。检测函数入口点是一种对抗虚拟沙盒的手段，我们初步猜测，混淆器作者发现某家安全软件的虚拟沙盒中，其仿真的ReadFile函数入口为0x8B（很多Windows API入口都是8BFF:mov edi,edi）。在上述逻辑运行之后，再将解密代码释放到另外一块堆区中，对其的第二部分进行执行。</p><p>解密代码的第一部分具体逻辑如下图所示：</p><p><img border="0" class="zoom" data-ratio="1.4656652360515021" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjianmAjDa8YociaDu08XxRuCqBmcw1L1tMxs86KIzVlRkz33htU4hkjjw/0?wx_fmt=png" data-type="png" data-w="932" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图20、解密代码第一部分逻辑示意图</p><p>该解密代码的第二部分主要负责病毒PE文件的还原与加载。首先其从自身PE文件中读取被加密的病毒PE 文件，之后进行解密。经过PE文件映射、修复导入表、检测是否需要修复重定位表之后，开始执行病毒逻辑代码。</p><p>其主要流程如下：</p><p><img border="0" class="zoom" data-ratio="1.1629013079667063" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmj4qF2DTRxPVhTy4Pyz4yicBgZiacsJ1tKntAdTJB7XgLWQvEhJuQu7Liag/0?wx_fmt=png" data-type="png" data-w="841" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图21、病毒PE文件解密相关代码</p><p><img border="0" class="zoom" data-ratio="1.186700767263427" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjYRTvG1SLibLbCE8BtIibeXCnRMZfiajiaaOnTGdC7sjJPDq5GTDKfDTjLw/0?wx_fmt=png" data-type="png" data-w="782" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图22、恢复及加载病毒PE结构代码</p><p><br  /></p><p><br style="word-wrap: break-word;"  /></p><p>3.3&nbsp; &nbsp; 对抗手段</p><p><br  /></p><p>对于FakeAV所使用的混淆器来说，其使用了更加“疯狂”的反虚拟机手法。在混淆器运行之初，调用了若干的API来检测当前环境是否为真实环境。与之前的Ogimant混淆器中所使用的混淆方法相比，FakeAV混淆器所调用的系统API检测效果更加系统化，如：FindResourceA，需要对当前进程中的所有资源进行解析；SetCurrentDirectoryA，需要在虚拟沙盒中也模拟一个完整的文件系统。</p><p><img border="0" class="zoom" data-ratio="0.5924092409240924" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjOj8iaMaUswHHtD5m4E4kdLmGjQkFeA9B1CxqVeK7M3BNF2a7qlCMs9A/0?wx_fmt=png" data-type="png" data-w="606" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图23、FakeAV调用API检测运行环境效果图</p><p>除了上述这些监测点外，我们还发现了一些十分有意思的检测方法。该混淆器先调用GetCursorPos函数得到两次当前鼠标位置（其间会调用GetEnvironmentVariableA检测环境变量真实性），之后不断地调用 GetCursorPos函数，直到所得鼠标位置的x坐标与第一次不同的时候，才会执行后续逻辑。经过简单的反混淆处理之后，我们可以看到其基本的对抗虚拟沙盒的逻辑，如下图所示：</p><p><img border="0" class="zoom" data-ratio="0.2922077922077922" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjco4PoY22QQCZIwE30gx6zAVtbibpWXo1WxR8IBOLaNtdTzn3GYrZDQg/0?wx_fmt=png" data-type="png" data-w="924" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图24、FakeAV通过检测鼠标位置反虚拟机代码示意</p><p>随着混淆器技术的不断发展，混淆器检测虚拟沙盒的手段也不断更新换代。其所使用的检测方法要求虚拟沙盒中的运行环境与真实机中更加接近，这使得我们对于虚拟沙盒仿真的复杂程度也逐渐提升。虽然如此，但是对于虚拟沙盒的提升是对整个引擎综合能力的提升，一个良好仿真环境就如同庖丁手中的利刃，可以帮助我们剖开其表象，直达其本质。</p><p><br  /></p><p><br style="word-wrap: break-word;"  /></p><p>4.&nbsp; &nbsp;&nbsp; &nbsp; 虚拟环境对抗型混淆器——Upatre</p><p><br  /></p><p>Upatre是2013年左右开始流行的“下载器”病毒家族， 该家族主要通过将自己伪装成Email附件的形式进行传播，并附以发票、传票等欺骗性的文件名诱骗用户下载、运行，该病毒通常会将自己的图标设置为PDF图标。由于其所使用的混淆器十分复杂多变，所以如果不借助“通用脱壳”技术，仅仅使用静态特征对其进行查杀是十分困难的。这使得该家族在短时间之内大范围传播，甚至成为了很多勒索病毒的主要传播渠道，如：CryptoLocker。</p><p>混淆器整体结构与之前的混淆器相近，在此不再赘述。下面我们针对Upatre的病毒行为及其所使用的混淆器的反虚拟机的手段进行详细说明。</p><p><br  /></p><p><br style="word-wrap: break-word;"  /></p><p>4.1&nbsp; &nbsp; 病毒行为</p><p><br  /></p><p>其主要病毒行为比较简单，只是联网下载文件。如下图所示：</p><p><img border="0" class="zoom" data-ratio="0.8672839506172839" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjMFYbHz5RWEfHictmZbB7uedBkadOc4fWF6NiaKSH9lookwB8OW0pAr2Q/0?wx_fmt=png" data-type="png" data-w="972" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图25、行为沙盒运行效果图</p><p><br  /></p><p><br style="word-wrap: break-word;"  /></p><p>4.2&nbsp; &nbsp; 对抗手段</p><p><br  /></p><p>其混淆器使用的反虚拟机手段十分复杂，其主要使用了一些Windows图形控件的回调函数进行运行环境监测，如RichEdit、ListBox等。在本样本中其使用的是RichEdit，首先其利用SendMessage向RichEdit发送EM_SETBKGNDCOLOR消息将解密代码地址相对某区域的相对偏移设置改控件的背景颜色（由于在设置新的背景颜色时SendMessage函数会返回原来的背景色，所以在该混淆器中将其当作一个隐藏的数据存储空间），然后在其再次向该RichEdit发送消息时，获取其之前设置的数值。这一检测手段大大提高的虚拟沙盒的仿真难度，首先要对图形窗口的生命周期流程、消息的获取、派发等一系列窗口运行流程进行全面的仿真，其次还要对RichEdit、ListView等一系列控件进行仿真。</p><p><img border="0" class="zoom" data-ratio="0.6151898734177215" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjJKHh051WgLiaXURTYvVPdiakjjQNZKSXWibrp07DlSRY9WtbesKmmPvnA/0?wx_fmt=png" data-type="png" data-w="790" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图26、混淆器利用RichEdit检测虚拟沙盒代码展示</p><p>从行为中我们也可以观察出其反虚拟机的基本逻辑：</p><p><img border="0" class="zoom" data-ratio="0.5197103781174578" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjiadW3MtRJ78cqEhgX2ty8zTGJRk0mJezBHMaLTaFe1pNVUN8hibzvbOA/0?wx_fmt=png" data-type="png" data-w="1243" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图27、混淆器利用RichEdit检测虚拟沙盒效果图</p><p>早期混淆器的检测手法多为单一检测点的检测，比如注册表项、文件、API返回结果等，虽然在反虚拟机上确实在很短的一段时间内存在一定的效果，但对于虚拟沙盒来说，其依然可以通过添加这些运行环境有效地进行仿真。随着这种简单交锋的次数不断增多，虚拟沙盒的运行环境也越来越接近于真实的操作系统，混淆器制作者想要通过单一方法检测虚拟沙盒所要付出的成本也越来越高，这也促使了其对抗手段的又一次升级。从上述分析中，我们不难看出混淆器对运行环境的检测手法已经从单一检测点完全过渡到了系统化检测的新阶段。在这一层面进行对抗，就要求虚拟沙盒的仿真方面，在对抗初期投入大量的精力对其检测的整个系统框架进行整体仿真。因为只有进行仿真才能抓住病毒本质，从而跳出一味地使用外层特征查杀而被动挨打的局面。</p><p><br  /></p><p><br style="word-wrap: break-word;"  /></p><p>5.&nbsp; &nbsp;&nbsp; &nbsp; 虚拟环境对抗型混淆器——Tescrypt</p><p><br  /></p><p>Tescrypt是在2014年前后较为流行的勒索病毒，其已经给成千上万的受害者带来巨大的经济损失。其大面积爆发的主要原因也是因为其所使用的病毒混淆器。如本文中所提到的Tescrypt病毒样本，其包含有内外两层混淆逻辑，外层混淆效果较弱，主要用于加密内层数据、躲避静态查杀；内层混淆能力较强，主要用于对抗虚拟沙盒。</p><p><img border="0" class="zoom" data-ratio="1.2682481751824817" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjLFUUhtfaRbjrhxEx2D8qCo3JclqYHdics9vd8ice9Giav2ef7JU5qiaszg/0?wx_fmt=png" data-type="png" data-w="548" style="word-wrap: break-word; cursor: pointer;" width="548"></p><p>图28、Tescrypt样本结构图</p><p>由此我们推断，随着虚拟沙盒的越来越接近真实操作系统，混淆器在与虚拟沙盒进行对抗所需要付出的精力越来越大，最后混淆器的制作者将混淆工作进行了明确的分工。即外层混淆器使用代码级混淆、更改主要逻辑等方法与静态查杀进行对抗；内层混淆器使用系统化检测运行环境的方法与虚拟沙盒进行对抗。在这种分工模式下，致使多数安全软件很难对其所混淆后的样本进行有效查杀。</p><p><br  /></p><p><br style="word-wrap: break-word;"  /></p><p>5.1&nbsp; &nbsp; 病毒行为</p><p><br  /></p><p>其病毒行为主要以加密本地文件为主，我们通过行为沙盒看到一些主要的行为细节：</p><p><img border="0" class="zoom" data-ratio="0.35079051383399207" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjZGsfLfBDFzqCXTVdGcqt0bvrCjGfAAqIn7CCic9FKcLqImv53ribTdGQ/0?wx_fmt=png" data-type="png" data-w="2024" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图29、Tescrypt病毒行为示意图</p><p>Tescrypt病毒在在火绒虚拟沙盒中运行后的内存特征如下：</p><p><img border="0" class="zoom" data-ratio="0.5629709364908504" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjFia1MUh8lthD3DASvfdtVfdicHgBSbPlQDrrnnHT4lGIp1OzJRTjMCWA/0?wx_fmt=png" data-type="png" data-w="929" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图30、Tescrypt病毒在火绒虚拟沙盒中运行后的内存特征</p><p><br  /></p><p><br style="word-wrap: break-word;"  /></p><p>5.2&nbsp; &nbsp; 对抗手段</p><p><br  /></p><p>混淆器一路发展而来，混淆手段已经不断“推陈出新”升级了很多次，其主要目的是与虚拟沙盒进行对抗，从而绕过安全软件的查杀。Tescrypt家族作为一个曾大范围传播的勒索病毒家族，其所使用的混淆手段十分巧妙（因为外层混淆器与以往的高级壳类似，所以我们主要围绕其内层混淆器展开讨论）。</p><p>其内层混淆器主要使用了COM接口帮助其检测当前运行环境。其先创建了两个COM对象，FilgraphManager对象中可以调用IGraphBuilder接口中的AddFilter方法来添加Filter对象。其先添加了空的对象地址以检测错误，之后以创建出来的Filter对象以随机名调用AddFilter方法再次进行添加。添加之后在通过IGraphBuilder接口中的FindFilterByName方法查找并检测对象信息中名字和Filter对象的地址是否与之前添加的对象信息相匹配。</p><p><img border="0" class="zoom" data-ratio="0.5908798972382787" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjQlmqhxsZXbeWMndJOqEr0ZKOl8YZVX5WpawANkjSicqBfV8xSaWYXvw/0?wx_fmt=png" data-type="png" data-w="1557" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图31、通过COM接口检测虚拟沙盒代码示意图</p><p>与之前提到的Upatre家族所使用的混淆器相同，该混淆器也是通过系统化的检测手法对当前运行环境进行检测。根据我们以往所遇到的使用COM接口进行混淆的混淆器来说，此类混淆器多为使用两个COM对象相互配合从而达到检测运行环境的作用。用来进行反虚拟机的COM对象经常变换，Windows所提供的COM接口十分繁杂、多样，这就使得此类混淆器变化多端，从而也致使使用这种混淆器的病毒可以在短时间之内大范围进行传播。</p><p><br style="word-wrap: break-word;"  /></p><p>6.&nbsp; &nbsp;&nbsp; &nbsp; 高级语言混淆器</p><p>病毒混淆器除了使用上述方法与虚拟沙盒进行对抗外，还会使用一些高级语言制作病毒混淆器，如Visual C++、Visual Basic、C#等。这不光给<a target="_blank">病毒分析</a>人员制造了麻烦，也给虚拟沙盒带来了新的难题。</p><p><br  /></p><p><br style="word-wrap: break-word;"  /></p><p>6.1&nbsp; &nbsp; Visual C++混淆器——C2Lop</p><p><br  /></p><p>C2Lop病毒可以说开创了大规模使用高级语言混淆器的先河，其主要流行时间在2008年前后。在2010年的RECon大会上Pierre-Marc Bureau和Joan Calvet对于C2Lop病毒外层的混淆器（此前该混淆器被业内多家安全软件命名为Swizzor）的分析（https://recon.cx/2010/slides/Recon2010-UnderStaningSwizzorObfuscation.pdf）已十分详细，此处不再赘述分析过程。</p><p><img border="0" class="zoom" data-ratio="0.8088386433710175" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjqN9J4gms5jM8sXxMZlxjL0CR12zib6ybAaPyp8XPicLuukAOJ6KmLjBg/0?wx_fmt=png" data-type="png" data-w="973" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图32、Swizzor混淆器 “伪装“的Visual C++入口</p><p><img border="0" class="zoom" data-ratio="1.1522346368715084" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjtfqOGBshXvmIP2rol4iazvLT2m000QJRqTuYa4MhEXSQBibdic5LNnQJg/0?wx_fmt=png" data-type="png" data-w="716" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图33、Swizzor混淆器的WinMian函数</p><p>Swizzor混淆器与以前的加密不同的地方是其解密后的代码及数据全部都在堆区，所以在其运行后在主映像区提取到的数据与C2Lop病毒本体并无直接关系。Swizzor混淆器运行后，我们即可看到内层的C2Lop病毒本体。如下图所示：</p><p><img border="0" class="zoom" data-ratio="0.815653964984552" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjEGuia3MllDqWm3fDuNSFLNJcCyc4ibxkmJP8F3gaAxyH2aDJGSaRCSQA/0?wx_fmt=png" data-type="png" data-w="971" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图34、C2Lop病毒的真正入口</p><p><img border="0" class="zoom" data-ratio="0.9809264305177112" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmj0nIH9TkHnLPRuicTtKHcQJZiaC8LFMX9CZa9iaia3hFoSvMYn9v8xkpicmg/0?wx_fmt=png" data-type="png" data-w="734" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图35、C2Lop病毒WinMain函数</p><p>在火绒虚拟沙盒运行后，我们可以看到C2Lop病毒的内存特征。如下图所示：</p><p><img border="0" class="zoom" data-ratio="0.5967078189300411" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjFGlGwU9owez2XYpNAnpIgbqRxI9cST0FMdV7Xqg10lSwFvCuDwFTwQ/0?wx_fmt=png" data-type="png" data-w="729" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图36、C2Lop病毒在火绒虚拟沙盒中运行后的内存特征</p><p><br  /></p><p><br style="word-wrap: break-word;"  /></p><p>6.2&nbsp; &nbsp; Visual Basic混淆器——Zbot</p><p><br  /></p><p>Visual Basic是一种高级语言，其主要特点是程序主要运行在Visual Basic虚拟机中，所以为Visual Basic程序的调试造成了很大的困难。我们可以通过行为沙盒查看其主要病毒行为，如下图所示：</p><p><img border="0" class="zoom" data-ratio="1.0020242914979758" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjxlgDp1KWvF97n4RdQn0MbAt2wz75YJaiaht0iaJXgAXpnrGnuHUXQBrw/0?wx_fmt=png" data-type="png" data-w="988" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图37、使用Visual Basic混淆器的Zbot病毒运行效果图</p><p><img border="0" class="zoom" data-ratio="0.8347826086956521" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmj4jwZQ7VibUIibGOxgXCoUrz4sEsXvuIibALLWiaT2fHRiaFKHGHaicBKBACg/0?wx_fmt=png" data-type="png" data-w="1150" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图38、使用Visual Basic混淆器的Zbot病毒主要行为一览</p><p>通过上图我们可以看出，虽然此类混淆器使用了高级语言进行混淆，但是因为Visual Basic程序也基于x86指令集，所以只要针对Visual Basic程序中使用的关键函数进行仿真该类程序依然可以在虚拟沙盒中正确运行。</p><p><br  /></p><p><br style="word-wrap: break-word;"  /></p><p>6.3&nbsp; &nbsp; .Net混淆器</p><p><br  /></p><p>与Visual Basic程序相比，.Net程序的运行需要依托于IL指令和.Net运行时框架，这使得基于x86指令集的虚拟沙盒很难对其进行完整还原。就以我们所遇到的.Net混淆器——mpress进行具体说明。</p><p>该混淆器中的大部分代码都是对LZMAT的实现，该混淆器把用LZMAT算法压缩后的病毒数据存放在PE文件的一个指定位置上，通过解压缩将原本病毒文件进行还原。mpress混淆器中的类结构图：</p><p><img border="0" class="zoom" data-ratio="0.571830985915493" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmj8q3PWRgfeYUg8qEm75jSNaDZ8gO5eA4icN6Xt48zyJbKh6aZ47MSAKQ/0?wx_fmt=png" data-type="png" data-w="355" style="word-wrap: break-word; cursor: pointer;" width="355"></p><p>图39、mpress混淆器中的类机构图</p><p>其混淆器的主要逻辑就是使用LZMAT算法将原样本进行还原，并释放到指定目录进行执行。如下图：</p><p><img border="0" class="zoom" data-ratio="0.738045738045738" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjWYGLn5HjRuBVic42gRphVR8e7kXkTagtuRIQ7ZkG08iaSYcib1BkP5BqA/0?wx_fmt=png" data-type="png" data-w="962" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图40、混淆器解密代码</p><p><br  /></p><p><br style="word-wrap: break-word;"  /></p><p>7.&nbsp; &nbsp;&nbsp; &nbsp; AutoIt混淆器——Zbot</p><p><br  /></p><p>随着病毒混淆器与安全软件对抗的不断升级，我们发现了一些利用AutoIt脚本程序制作病毒混淆器。通常，这类混淆器用脚本作为病毒程序的加载器，其加载的病毒程序可以任意更替。再加之脚本混淆可以通过变量名替换、常量拆分等简单却十分有效的方法实现，所以即使安全软件在查杀过程中能够获取到脚本文件也很难对这类混淆器进行通杀。Zbot，作为一个在互联网中活跃多年的病毒家族，也曾在2012前后使用过AutoIt脚本所编写的病毒混淆器。在病毒的运行过程中，其不会直接释放出病毒文件，而是直接在内存中进行还原。</p><p><img border="0" class="zoom" data-ratio="0.5789473684210527" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjUWBIXwW3j6qia9bPVYH1eNLLziblT97KibP9zmAsOt9ejcCaSmIGkF6icg/0?wx_fmt=png" data-type="png" data-w="874" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图41、混淆器脚本示意图</p><p><br  /></p><p><br style="word-wrap: break-word;"  /></p><p>7.1&nbsp; &nbsp; 病毒行为</p><p><br  /></p><p>我们可以直观的看到，使用了AutoIt混淆器的Zbot病毒在火绒行为沙盒中的主要病毒行为。</p><p><img border="0" class="zoom" data-ratio="0.9264705882352942" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjPZQWBh6TpQW7J4K9ticIwf0udVxTqHECKq9ItzAiaL5Z86sePhRjAx9A/0?wx_fmt=png" data-type="png" data-w="952" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图42、火绒行为沙盒运行效果图</p><p><br  /></p><p><br style="word-wrap: break-word;"  /></p><p>7.2&nbsp; &nbsp;&nbsp;混淆器结构</p><p><br  /></p><p>通过对该样本的分析，我们对该混淆器的结构有了进一步的了解。Zbot病毒的二进制数据以字符串的形式存放在文件的尾部，数据的字符串之前是混淆器用来定位病毒数据的标记字符串。</p><p><img border="0" class="zoom" data-ratio="1.2682481751824817" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjxlSibVribrB8ps0Ir11uCibr9eoicliaqqUX68FFvVGlibWy5zyANXvo1exA/0?wx_fmt=png" data-type="png" data-w="548" style="word-wrap: break-word; cursor: pointer;" width="548"></p><p>图43、AutoIt混淆器结构概览</p><p>我们对图34中所示病毒脚本进行了反混淆之后，得到了原始的脚本代码。</p><p><img border="0" class="zoom" data-ratio="0.6330935251798561" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjYRKPTG9QkB6wJ8bib0WHydf1ya5JRv29ZAjSmPHNuX2rOBqaLD2OS8Q/0?wx_fmt=png" data-type="png" data-w="1112" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图44、整理后的混淆器脚本</p><p>如上图所示，混淆器脚本可以通过标记字符串“delimitador”找到Zbot病毒的二进制数据，virus_loader中所存放的就是混淆器用来加载Zbot病毒的汇编代码，之后将上述两段数据进行注册，最后通过AutoIt中的DllCall函数调用WindowsAPI（CallWindowProcW）将两块数据的地址以参数的形式传入，virus_loader为回调函数。</p><p><img border="0" class="zoom" data-ratio="0.10087173100871731" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjNrzZz3hVf1ibDU5p0lDtVuvQnaMeVwRFeHhNjwBZBLQxDpRpzJTGMjg/0?wx_fmt=png" data-type="png" data-w="803" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图45、混淆器回调函数调用示意</p><p>如上图，virus_loader主要负责将Zbot病毒的二进制数据注入到新进程中。首先，混淆器根据自己的使用需求分配内存，将这些内存地址添入提前准备好的结构中（如下图）。</p><p><img border="0" class="zoom" data-ratio="0.43537414965986393" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjf4SbkiaYGQicnYxWv0qCViazwxztBcnwgQBfqqTdBBajVTEnibogrITwlw/0?wx_fmt=png" data-type="png" data-w="735" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图46、混淆器调用数据结构示意图</p><p>之后，其将NT头复制到之前开辟的对应内存中，以挂起方式再次启动自身进程，利用NtUnmapViewOfSection卸载掉主模块之后重新在镜像基址位置开辟新空间。最后，通过NT头中的信息遍历节表，并将病毒的PE结构以每个节所对应的映射位置在内存中进行还原，在设置进程映像基址和EIP之后恢复主线程。</p><p><img border="0" class="zoom" data-ratio="1.1829608938547487" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjkQZMRKFBuribpMNvWV80xjPiap0mIiagyr00biasvSVdeiaic3Zxw6uSIbIw/0?wx_fmt=png" data-type="png" data-w="716" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图47、在内存中映射代码示意</p><p><img border="0" class="zoom" data-ratio="1.2191780821917808" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjiaWP1tXkYeslN4fYH7fLicOzr0KQC0bL4Cib8EodOUFg8iaHE3ia2mjYibicA/0?wx_fmt=png" data-type="png" data-w="730" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图48、恢复线程环境代码示意</p><p><br  /></p><p><br style="word-wrap: break-word;"  /></p><p>7.3&nbsp; &nbsp; 对抗手段</p><p><br  /></p><p>我们还注意到，在其申请内存的时候，其真实使用的内存大小总比调用VirtualAlloc申请内存时大4个字节。</p><p><img border="0" class="zoom" data-ratio="0.44964539007092197" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjLYoEiaM15cBGJktEcPspaicx9FL8YsZZRAB0P3cRKicnGcfibQzfb1Tbqg/0?wx_fmt=png" data-type="png" data-w="705" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图49、混淆器使用内存代码举例</p><p><img border="0" class="zoom" data-ratio="0.9154676258992805" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjVOnghEqr5DmrP8E7ib4KewTZJicsDLAMwoHncqMN5gGLjPtvA1WMficyQ/0?wx_fmt=png" data-type="png" data-w="" style="word-wrap: break-word; cursor: pointer;" width="556"></p><p>图50、混淆器申请内存代码举例</p><p>根据MSDN上微软给出VirtualAlloc函数说明，我们了解到该函数实际申请的空间大小为系统内存页大小的整数倍。根据混淆器传入的参数0x3C、0xF4，其实际申请大小为64K，这样频繁进行块分配试图对虚拟沙盒的内存占用造成负担。</p><p><br  /></p><p><br style="word-wrap: break-word;"  /></p><p>8.&nbsp; &nbsp;&nbsp; &nbsp; NSIS混淆器——Cerber</p><p><br  /></p><p>Cerber家族是在自2016年3月以来较为流行的勒索病毒家族，由于其所使用的混淆器复杂多变，其所使用混淆手段也多种多样。在该家族的大量样本中，我们发现很多使用NSIS混淆器进行混淆的Cerber样本。其主要特点是：加密的病毒以文件的方式被NSIS安装包释放到指定的安装目录，之后其用于还原病毒的Loader动态库会将Cerber病毒以注入的方式在新进程中进行还原。加密病毒源文件所用的加密密钥可以随意更改，加密后的数据也会随之进行变化；用来还原病毒的Loader动态库也可以任意变化还原流程或者进行代码级免杀。所以使得对于这类混淆器来讲，最有效的方法就是对其整个还原病毒流程进行完整还原。</p><p><br  /></p><p><br style="word-wrap: break-word;"  /></p><p>8.1&nbsp; &nbsp; 病毒行为</p><p><br  /></p><p>我们可以在行为沙盒看到其病毒还原的完整流程。首先其释放用于病毒还原的所有文件，如下图所示：</p><p><img border="0" class="zoom" data-ratio="0.8909382518043304" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjibI4pkGm1ab4mJVwfdzqoSwNr4VdaleEsSNIcsAC97F3Tv7J1RZbNjQ/0?wx_fmt=png" data-type="png" data-w="1247" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图51、NSIS混淆器释放文件效果图</p><p>释放文件后，混淆器会调用Services.dll中的Orchil函数以注入的方式将Cerber病毒进行还原，如下图所示：</p><p><img border="0" class="zoom" data-ratio="0.6825548141086749" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjxJUuAKPAiaT6C73YnE2jmGwsdk0iboHBsp7yn8t8BibH97fxjxUFXeHcg/0?wx_fmt=png" data-type="png" data-w="1049" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图52、NSIS混淆器以注入方式还原病毒效果图</p><p>最后我们可以得到其还原后的病毒文件，虽然外层混淆器千变万化，但是内层病毒行为完全相同，我们可以清楚看到Cerber运行的一些基本行为特征。如下图所示：</p><p><img border="0" class="zoom" data-ratio="0.5603511338697879" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmj1icjTDASM3pAbSVMS2RZ4Bh7zqkZRWZ926T492CCx2tj3em6YJJouow/0?wx_fmt=png" data-type="png" data-w="1367" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图53、混淆器解密后的Cerber病毒运行效果图</p><p><br  /></p><p><br style="word-wrap: break-word;"  /></p><p>8.2&nbsp; &nbsp; 混淆器结构</p><p><br  /></p><p>s混淆器整体是一个NSIS安装包，主体逻辑有NSIS脚本进行控制。在NSIS安装包中包括三个主要部分：用来恢复病毒程序的Loader动态库、混淆器所调用API名字的加密数据和病毒加密数据。如下图所示：</p><p><img border="0" class="zoom" data-ratio="1.2690839694656488" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjWbNhwdpSa3Zao0W1tjUol0B9BRM91BvTXZDSpHlgt2WtUI6E4fmjhw/0?wx_fmt=png" data-type="png" data-w="524" style="word-wrap: break-word; cursor: pointer;" width="524"></p><p>图54、NSIS混淆器的基本结构图</p><p>在本报告所提到的样本中，NSIS释放的文件如下：</p><p><img border="0" class="zoom" data-ratio="0.4937655860349127" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmj64WJRfdY7dbLSHKttfOzvJE410QLS8SDGrnDorzObicWqAml1hWWm4A/0?wx_fmt=png" data-type="png" data-w="401" style="word-wrap: break-word; cursor: pointer;" width="401"></p><p>图55、NSIS混淆器释放的文件一览</p><p>如上图，NardooDeposal.W文件中存放着还原病毒程序时需要使用系统函数名，我们下文将称其为函数数据；ShopDemise.RkT文件中存放着加密后的Cerber病毒数据，暂且称其病毒数据；Services.dll为用来还原病毒程序的Loader动态库。</p><p>Loader动态库首先会将函数数据进行解密，解密时所用的密钥即是函数数据的文件名“NardooDeposal.W”，通过解密之后我们可以看到其所使用的函数列表。由于在如下图所示：</p><p><img border="0" class="zoom" data-ratio="0.8988877654196158" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmj9ibEQRRTshGJO4SUgMz1goBXxC30ZVPc5Fj30DmDrJoVDvL6PiaOSVqQ/0?wx_fmt=png" data-type="png" data-w="989" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图56、函数数据解密过程</p><p>在恢复函数数据之后，Loader动态库再根据提前设定好的解密密钥“CaratSerinIntermittency”对加密的病毒数据进行解密。解密之后，再将病毒PE文件进行映射等操作，最后运行病毒代码。如下图所示：</p><p><img border="0" class="zoom" data-ratio="0.9932627526467758" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjp9g9gZJaDr77ds38zTcF5g0JxVYOkNB4xibfB0D4mIqEnVQdF4urv8w/0?wx_fmt=png" data-type="png" data-w="1039" style="word-wrap: break-word; cursor: pointer;" width="600"></p><p>图57、病毒数据解密示意图</p><p>根据我们对这类样本经验，在病毒混淆器中出现解密密钥、文件名和Loader动态库都会不断的进行变化，数据存放的结构也会进行不断变化。虽然混淆器中的这些关键点都会不断地改变、不断地进行免杀，但是该类混淆器的整体还原逻辑是不会改变的。不论中间环节如何改变，虚拟沙盒都将会原原本本的还原病毒行为，进而可以通过火绒的行为沙盒评估病毒行为并查杀。</p><p><br  /></p><p><br style="word-wrap: break-word;"  /></p><p>8.3&nbsp; &nbsp; 对抗手段</p><p><br  /></p><p>虽然此类混淆器已经将自己裹上了一层NSIS安装包的外衣，但是其所使用的对抗手段却一点也没有比以往混淆器要少。与以往的混淆器不同的是，NSIS混淆器所使用的对抗手段是在NSIS脚本中进行实现的，这就不单需要虚拟沙盒具有可以正常运行NSIS安装包能力，还需要与其脚本中对抗手法进行博弈。脚本中反虚拟机代码如下图所示：</p><p><img border="0" class="zoom" data-ratio="0.8724696356275303" data-src="http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmj5a5nAzO9zHdibswjl5ZO1Goibtbj2IZGibwvQ99PouDicAicm7vcDrz2gFQ/0?wx_fmt=png" data-type="png" data-w="494" style="word-wrap: break-word; cursor: pointer;" width="494"></p><p>图58、NSIS脚本反虚拟机代码</p><p>其脚本中首先其欲从comdlg32动态库中调用Chippewa函数，在真实系统中的comdlg32动态库中并不存在Chippewa函数，如果调用成功则无法正常运行，从而达到了检测虚拟沙盒的效果。</p><p>之后，检测一初值为0的变量是否大于预先设定好的一个非常大的数值，如果不满足条件则每次将变量加2，试图以此来拖慢在虚拟沙盒中的运行速度，导致扫描超时。与之前提到拖慢虚拟沙盒速度的方法相比，其整体逻辑都会由NSIS脚本的解释器进行执行，使得虚拟沙盒对于这种对抗手段更加复杂。</p><p><br style="word-wrap: break-word;"  /></p><p>三、总结</p><p>“特征”的时代永远不会过去，我们需要的只是发现“特征”的“眼睛”。</p><p>通过前文的分析，我们可以清晰地了解到，静态特征已不再能够有效地解决日益严峻的代码对抗问题。只有通过动态还原病毒本来的代码、数据以及行为，才能戳穿病毒的“伪装”，进而有效地解决此类问题。虚拟沙盒和动态防御，这两项技术则天然具备了上述特质，相信未来这两项技术将成为终端安全领域的制高点。</p><p>泡沫终将散去，安全必然回归本质。在这个病毒技术日新月异、不断推陈出新的年代，安全核心技术的迭代将是决定安全软件整体能力的基石。</p><p><br style="word-wrap: break-word;"  />附录</p><p>文中涉及样本SHA1：</p><table cellspacing="0" class="t_table" width="553"><tbody style="word-wrap: break-word;"><tr style="word-wrap: break-word;"><td width="331" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>病毒名</p></td><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>SHA1</p></td></tr><tr style="word-wrap: break-word;"><td width="331" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>Worm/Conficker(指令级混淆器)</p></td><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>19547db17e9f04572079d07eda5005af34f79d2e</p></td></tr><tr style="word-wrap: break-word;"><td width="331" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>TrojanDownloader/Ogimant（虚拟环境对抗型混淆器）</p></td><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>39575163c922fa90339ce84cee6b6abd758dbc68</p></td></tr><tr style="word-wrap: break-word;"><td width="331" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>Rogue/FakeAV.aj（虚拟环境对抗型混淆器）</p></td><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>3b392eb11bdb3b1c39f30c5dca4a91ec079c342f</p></td></tr><tr style="word-wrap: break-word;"><td width="331" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>HVM:TrojanDownloader/Upatre.gen!B（虚拟环境对抗型混淆器）</p></td><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>82c67dd7a41ea8f50af64305ea15d9acf4bd137a</p></td></tr><tr style="word-wrap: break-word;"><td width="331" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>Ransom/Tescrypt.d（虚拟环境对抗型混淆器）</p></td><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>0ffc994e247d2b108910e8bb6de3ef57439c51af</p></td></tr><tr style="word-wrap: break-word;"><td width="331" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>Trojan/C2Lop.gen!B(Visual C++ 混淆器)</p></td><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>262aad2b16408175d70d5ff9c672615f1648f770</p></td></tr><tr style="word-wrap: break-word;"><td width="331" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>HVM:Trojan/Injector.gen!A(Visual Basic 混淆器)</p></td><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>a8e20a4edbfc083fdeee18aa6da56d932ea35eb4</p></td></tr><tr style="word-wrap: break-word;"><td width="331" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>TrojanDropper/MSIL.Agent.e（.Net混淆器）</p></td><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>e42c142eef15fee35361724111d7486ac5fc6ae4</p></td></tr><tr style="word-wrap: break-word;"><td width="331" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>HVM:Trojan/Injector.gen!A（AutoIt混淆器）</p></td><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>2c28062f683a463885286db789418f28bc233a14</p></td></tr><tr style="word-wrap: break-word;"><td width="331" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>HVM:Trojan/Injector.gen!A(NSIS混淆器)</p></td><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>acc1128f30e7cf60203bbcf76a6e03248000829a</p></td></tr></tbody></table><p>与文中类似样本举例：</p><table cellspacing="0" class="t_table" width="553"><tbody style="word-wrap: break-word;"><tr style="word-wrap: break-word;"><td width="331" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>病毒名</p></td><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>SHA1</p></td></tr><tr style="word-wrap: break-word;"><td rowspan="4" width="331" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>Worm/Conficker(指令级混淆器)</p></td><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>48f690c5a08534ad4ea49a77daad83ee07171c28</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>4daab0e43fc83397a3c0a5a1526ca6d3a9f5897d</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>c1944388870f76dd8ac51eaae6788d274690f779</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>……</p></td></tr><tr style="word-wrap: break-word;"><td rowspan="4" width="331" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>TrojanDownloader/Ogimant（虚拟环境对抗型混淆器）</p></td><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>0134c5a3516b2534e1a7f35053aa0da85ecc3e0b</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>074da6a3bd7efa59982de255c9a95b7224ed0cc9</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>4efe62a8e41ec02acd8394cdd33f190761dc0c00</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>……</p></td></tr><tr style="word-wrap: break-word;"><td rowspan="4" width="331" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>Rogue/FakeAV.aj（虚拟环境对抗型混淆器）</p></td><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>2ddbd1e054f2e8f71fbd3e4fe2d609add803f1f7</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>3abc54a287b2f36bfd7e0b3dc587a082a5090d7c</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>3b5db8ce4095126ef183df32689b7eb1e08740aa</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>……</p></td></tr><tr style="word-wrap: break-word;"><td rowspan="4" width="331" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>HVM:TrojanDownloader/Upatre.gen!B（虚拟环境对抗型混淆器）</p></td><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>01faae2e965b01978e82e12f2e6fef24b0778e50</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>08f709774d793846036be4cef883de2a450f0674</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>0980f6ccd5963855bf8885c9394f007c51c87633</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>……</p></td></tr><tr style="word-wrap: break-word;"><td rowspan="4" width="331" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>Ransom/Tescrypt.d（虚拟环境对抗型混淆器）</p></td><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>35b1d6c19eaea0669cf5af92046648d857ce7fc3</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>93ff6f91575d4a08d20588186ea9ea7904159961</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>f1e0dadba836a1e31d3142253796792e93709aa6</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>……</p></td></tr><tr style="word-wrap: break-word;"><td rowspan="4" width="331" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>Trojan/C2Lop.gen!B(Visual C++ 混淆器)</p></td><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>88dd9102b8a15981f03c255adb42c611341f5ea1</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>a96edf881b75b2d25c0f55c2e6b1a63058811b59</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>b459cecc8241ae50e54666ae996ab0505d6484d8</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>……</p></td></tr><tr style="word-wrap: break-word;"><td rowspan="4" width="331" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>HVM:Trojan/Injector.gen!A(Visual Basic 混淆器)</p></td><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>06a93a31566b2e781af61f22032c241c165acfd3</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>071a66ebe01eed93e8d48aa253b8e76c79b31ad5</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>076b81f51023a13fde5f1c39d58dda543a04cb17</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>……</p></td></tr><tr style="word-wrap: break-word;"><td rowspan="4" width="331" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>TrojanDropper/MSIL.Agent.e（.Net混淆器）</p></td><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>1699ec1032ebda017ac96a6fbe58d224c2dd5aa9</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>7d980d2eb12f56f11bd9a3c0e1337e89be4c416e</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>954ae75ac05e2f167aaaefe3272c8a0eae574681</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>……</p></td></tr><tr style="word-wrap: break-word;"><td rowspan="4" width="331" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>HVM:Trojan/Injector.gen!A（AutoIt混淆器）</p></td><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>0f8ba86000cd4a730e14f4bf1bd869fccedde7f8</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>110e5255459c756e7e4b8f59ef1b4e36cfa12bc8</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>29af93063140ab59398466a9f00398661a94555f</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>……</p></td></tr><tr style="word-wrap: break-word;"><td rowspan="4" width="331" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>HVM:Trojan/Injector.gen!A(NSIS混淆器)</p></td><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>072e3ae98305a34668bc68b08c5f97e8589ab04d</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>0a759bbe9b31099e99570842b98b992454b9acd3</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>12aa1a435465e0904a126189b4b5d7bf5ca2cf84</p></td></tr><tr style="word-wrap: break-word;"><td width="222" style="word-wrap: break-word; padding: 4px; border-color: rgb(227, 237, 245); overflow: hidden;"><p>……</p></td></tr></tbody></table><p>病毒分析报告下载地址：https://pan.baidu.com/s/1i4RDmYx</p><p style="white-space: normal; line-height: 25.6px; word-wrap: break-word; font-family: Tahoma, Helvetica, SimSun, sans-serif;"><span style="word-wrap: break-word; font-size: 14px;"><span style="font-family: 微软雅黑; word-wrap: break-word;"><strong style="word-wrap: break-word;"><span style="word-wrap: break-word; color: rgb(0, 176, 80);"><strong style="word-wrap: break-word;"><span style="word-wrap: break-word; color: rgb(255, 255, 255); background-color: rgb(0, 176, 80);">--官方论坛</span></strong></span></strong><strong style="word-wrap: break-word;"><span style="word-wrap: break-word; color: rgb(0, 176, 80);"><strong style="word-wrap: break-word;"><span style="word-wrap: break-word; color: rgb(255, 255, 255); background-color: rgb(0, 176, 80);"></span></strong></span></strong></span></span></p><p style="white-space: normal; line-height: 25.6px; word-wrap: break-word; font-family: Tahoma, Helvetica, SimSun, sans-serif;"><span style="word-wrap: break-word; font-size: 14px;"><span style="font-family: 微软雅黑; word-wrap: break-word;">www.52pojie.cn</span></span></p><p style="white-space: normal; line-height: 25.6px;"><strong style="font-size: 14px;"><span style="color: rgb(255, 255, 255); background-color: rgb(0, 176, 80);"></span></strong></p><p style="white-space: normal; line-height: 25.6px; word-wrap: break-word; font-family: Tahoma, Helvetica, SimSun, sans-serif;"><strong style="font-family: 微软雅黑; word-wrap: break-word; font-size: 14px;"><span style="word-wrap: break-word; color: rgb(255, 255, 255); background-color: rgb(0, 176, 80);"></span></strong><strong style="font-family: 微软雅黑; word-wrap: break-word; font-size: 14px;"><span style="word-wrap: break-word; color: rgb(255, 255, 255); background-color: rgb(0, 176, 80);">--推荐给朋友</span></strong></p><p style="white-space: normal; line-height: 25.6px; word-wrap: break-word; font-family: Tahoma, Helvetica, SimSun, sans-serif;"><span style="word-wrap: break-word; font-size: 14px;"><span style="font-family: 微软雅黑; word-wrap: break-word;">公众微信号：吾爱破解论坛</span></span></p><p style="white-space: normal; line-height: 25.6px; word-wrap: break-word; font-family: Tahoma, Helvetica, SimSun, sans-serif;"><span style="word-wrap: break-word; font-size: 14px;"><span style="font-family: 微软雅黑; word-wrap: break-word;">或搜微信号：pojie_52</span></span></p><p style="white-space: normal; line-height: 25.6px; word-wrap: break-word; font-family: Tahoma, Helvetica, SimSun, sans-serif;"><img data-src="http://mmbiz.qpic.cn/mmbiz/LFPriaSjBUZLeDcXJbAR3BWwXeqptVRrTGgdqGkmia7DYOKyLLJoMjx7ZOdTcQ9OuwrnE2c2fg3R28ILNnPW7TZg/0?wx_fmt=jpeg" data-type="jpeg" data-ratio="0.5859938208032955" data-w="971"  /></p>
+                </div>
+                <script nonce="1079067167" type="text/javascript">
+                    var first_sceen__time = (+new Date());
+
+                    if ("" == 1 && document.getElementById('js_content')) {
+                        document.getElementById('js_content').addEventListener("selectstart",function(e){ e.preventDefault(); });
+                    }
+
+                    
+                    (function(){
+                        if (navigator.userAgent.indexOf("WindowsWechat") != -1){
+                            var link = document.createElement('link');
+                            var head = document.getElementsByTagName('head')[0];
+                            link.rel = 'stylesheet';
+                            link.type = 'text/css';
+                            link.href = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+                            head.appendChild(link);
+                        }
+                    })();
+                </script>
+
+                
+                <div class="ct_mpda_wrp" id="js_sponsor_ad_area" style="display:none;"></div>
+                
+                
+                <div class="read-more__area" id="js_more_read_area" style="display:none;">
+                    
+                </div>
+
+                
+                                <div class="reward_area tc reward_area_primary" id="js_preview_reward_author" style="display:none;">
+                    <div class="reward-avatar" style="display: none;" id="js_preview_reward_author_avatar">
+                        <img src="" alt="" id="js_preview_reward_author_head">
+                    </div>
+                    
+                                        <div class="reward-author" id="js_preview_reward_author_name">此生长唸</div>
+                                        <p class="reward_tips" id="js_preview_reward_author_wording" style="display:none;"></p>
+                    <p>
+                        <a class="reward_button" id='js_preview_reward_author_link' href="##"><span id="js_preview_reward_link_text">赞赏</span></a>
+                    </p>
+                </div>
+
+                <div class="reward_qrcode_area reward_area tc" id="js_preview_reward_qrcode" style="display:none;">
+                    <p class="tips_global">长按二维码向我转账</p>
+                    <p id="js_preview_reward_ios_wording" class="reward_tips" style="display:none;"></p>
+                    <span class="reward_qrcode_img_wrp"><img class="reward_qrcode_img" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_reward_qrcode.2x42f400.png"></span>
+                    <p class="tips_global">受苹果公司新规定影响，微信 iOS 版的赞赏功能被关闭，可通过二维码转账支持公众号。</p>
+                </div>
+                                
+                
+                            </div>
+                                    
+                        
+
+
+                        
+            <ul id="js_hotspot_area" class="article_extend_area"></ul>
+
+
+            
+
+            
+
+
+<div class="rich_media_tool" id="js_toobar3">
+
+        <a class="media_tool_meta meta_primary" id="js_view_source" href="##">阅读原文</a>
+        <div id="js_read_area3" class="media_tool_meta tips_global_primary meta_primary" style="display:none;">阅读 <span id="readNum3"></span></div>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_praise" id="like_old">
+        <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum_old"></span>
+    </span>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_like" id="like3">
+        <button class="like_btn" id="js_like_btn"> 
+          <span id="js_like_wording"> 好看</span><span class="like_num" id="likeNum3"></span>
+        </button>
+    </span>
+
+    <div id="js_like_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog weui-dialog_haokan">
+        <div class="weui-dialog__hd"><strong class="weui-dialog__title" id="educate_title">已推荐到看一看</strong></div>
+        <div class="weui-dialog__bd">
+          <img class="pic_haokan" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_haokan42f400.png">
+            你的朋友可以在“发现”-“看一看”看到你认为好看的文章。        </div>
+        <div class="weui-dialog__ft" id="educate_btn" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_default" id="js_cancel">取消</a>
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_confirm">推荐</a>
+        </div>
+        <div class="weui-dialog__ft" id="educate_btn2" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_acknowledge">我知道了</a>
+        </div>
+        </div>
+    </div>
+
+    <div id="js_unlike_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog">
+        
+        <div class="weui-dialog__bd">
+            已取消，“好看”想法已同步删除        </div>
+        <div class="weui-dialog__ft">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_unlike_know">知道了</a>
+        </div>
+        </div>
+    </div>
+
+    
+    </div>
+
+
+<div class="like_comment_wrp" id="js_a_like_comment" style="display: none;">
+  <div class="like_comment_inner">
+    <div class="like_comment_hd" style="display:none" id="js_like_title"></div>
+    <div class="like_comment_bd">
+      <div class="tips_global_primary like_comment_tips">
+        <i class="weui-icon-success"></i>已推荐到看一看<a href="javascript:;" class="like_comment_share_link" id="js_a_like_comment_share">和朋友分享想法</a>
+      </div>
+    </div>
+    <div class="like_comment_ft">
+      <span id="js_a_like_comment_msg" class="like_comment_msg" style="visibility:hidden">最多200字，当前共<span id="js_a_like_current_cnt"></span>字</span>
+      <button class="like_comment_btn" disabled="disabled" id="js_a_like_confirm">发送</button>
+    </div>
+  </div>
+</div>
+
+<div id="js_like_toast" style="display: none;">
+  <div class="weui-mask_transparent"></div>
+  <div class="weui-toast">
+    <i class="weui-icon-success-no-circle weui-icon_toast"></i>
+    <p class="weui-toast__content" id="js_toast_msg">已发送</p>
+  </div>
+</div>
+
+
+<div style="display: none;" id="js_b_comment_panel" class="like_comment_primary_pop">
+  <div class="like_comment_primary_wrp" id="js_b_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <h4 class="like_comment_primary_title">
+          朋友将在看一看看到        </h4>
+        <button id="js_b_like_confirm" class="like_comment_primary_btn">确定</button>
+      </div>
+      <div id='js_b_comment_text_first' class="like_comment_primary_bd">
+        <span class="tips_global_primary">
+          分享你的想法...        </span>
+      </div>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_1"></div>
+</div>
+
+<div style="display: none;" id="js_b_comment_final">
+  <div class="like_comment_primary_wrp editing" id="js_comment_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <button class="like_comment_primary_cancel" id="js_b_comment_cancel">取消</button>
+        <h4 class="like_comment_primary_title"> 分享想法到看一看 </h4>
+        <button class="like_comment_primary_btn" id="js_b_comment_confirm">确定</button>
+      </div>
+      <div class="like_comment_primary_bd">
+        <textarea class="like_comment_textarea weui-textarea" placeholder="分享你的想法..." id="js_b_comment_text_second"></textarea>
+      </div>
+      <span class="like_comment_msg" id="js_b_like_comment_msg" style="visibility: hidden;">最多200字，当前共<span id="js_b_like_current_cnt"></span>字</span>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_2"></div>
+</div>
+
+<div id="js_loading" style=" display: none;">
+    <div class="weui-mask_transparent"></div>
+    <div class="weui-toast">
+        <i class="weui-loading weui-icon_toast"></i>
+        <p class="weui-toast__content">发送中</p>
+    </div>
+</div>
+
+<div id="js_fail" style="display:none">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+    <div class="weui-dialog__bd">
+        网络异常，请稍后重试    </div>
+    <div class="weui-dialog__ft">
+      <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_fail_inform">知道了</a>
+    </div>
+    </div>
+</div>
+
+
+
+                      </div>
+        </div>
+
+        <div class="rich_media_area_primary sougou" id="sg_tj" style="display:none"></div>
+
+
+        
+        <div class="rich_media_area_extra">
+          <div class="rich_media_area_extra_inner">
+              
+              <div id="js_share_appmsg">
+              </div>
+
+              
+                            <div class="mpda_bottom_container" id="js_bottom_ad_area"></div>
+                            
+              <div id="js_iframetest" style="display:none;"></div>
+                            
+              <div class="rich_media_extra rich_media_extra_discuss" id="js_cmt_container" style="display:none">
+                
+
+                
+                <div class="discuss_mod" id="js_friend_cmt_area" style="display:none">
+                  
+                  
+                  
+                </div>
+
+                                <div class="discuss_mod" id="js_cmt_area" style="display:none">
+                </div>
+                              </div>
+          </div>
+        </div>
+
+        
+        <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">
+            <div class="qr_code_pc_inner">
+                <div class="qr_code_pc">
+                    <img id="js_pc_qr_code_img" class="qr_code_pc_img">
+                    <p>微信扫一扫<br>关注该公众号</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="js_pc_weapp_code" class="weui-desktop-popover weui-desktop-popover_pos-up-center weui-desktop-popover_img-text" style="display: none;">
+    <div class="weui-desktop-popover__content">
+        <div class="weui-desktop-popover__desc">
+            <img id="js_pc_weapp_code_img">
+            微信扫一扫<br>使用小程序<span id="js_pc_weapp_code_des"></span>        </div>
+    </div>
+</div>
+<div id="js_minipro_dialog" style="display:none;">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+        <div class="weui-dialog__bd">即将打开"<span id="js_minipro_dialog_name"></span>"小程序</div>
+        <div class="weui-dialog__ft">
+            <a id="js_minipro_dialog_cancel" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_default">取消</a>
+            <a id="js_minipro_dialog_ok" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_primary">打开</a>
+        </div>
+    </div>
+</div>
+
+        
+        <script nonce="1079067167">
+    var __DEBUGINFO = {
+        debug_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/debug/console42f400.js",
+        safe_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/moonsafe42f400.js",
+        res_list: []
+    };
+</script>
+
+<script nonce="1079067167" type="text/javascript">
+(function() {
+	var totalCount = 0,
+			finishCount = 0;
+
+	function _loadVConsolePlugin() {
+		window.vConsole = new window.VConsole();
+		while (window.vConsolePlugins.length > 0) {
+			var p = window.vConsolePlugins.shift();
+			window.vConsole.addPlugin(p);
+		}
+	}
+	
+	function _addVConsole(uri, cb) {
+		totalCount++;
+		var node = document.createElement('SCRIPT');
+		node.type = 'text/javascript';
+		node.src = uri;
+		node.setAttribute('nonce', '1079067167');
+		if (cb) {
+			node.onload = cb;
+		}
+		document.getElementsByTagName('head')[0].appendChild(node);
+	}
+	if (
+		(document.cookie && document.cookie.indexOf('vconsole_open=1') > -1)
+		|| location.href.indexOf('vconsole=1') > -1
+	) {
+		window.vConsolePlugins = [];
+		_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/3.2.2/vconsole.min43429b.js', function() {
+			
+			_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/plugin/vconsole-mpopt/1.0.1/vconsole-mpopt42f400.js', _loadVConsolePlugin);
+		});
+	}
+})();
+</script>
+        
+<script nonce="1079067167" type="text/javascript">
+if (location.href.match(/fontScale=\d+/) && /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+
+    var m=location.href.match(/fontScale=(\d*)/);
+    var map={
+        "94":1,
+        "100":2,
+        "109":3,
+        "119":4,
+        "131":5,
+    }
+    if(m&&m[1]&&map[m[1]]){
+        document.getElementsByTagName("body")[0].className+=" appmsg_skin_fontscale_"+map[m[1]];
+        console.log("appmsg_skin_fontscale_:"+map[m[1]]);
+    }
+}
+
+
+(function(){
+    if (window.__second_open__) return; 
+
+    
+
+    var first_js_time = +new Date();
+
+    var showDate="";
+    var svrDate=new Date("1549780409"*1000);
+    var createDate=new Date("1473148949"*1000);
+    var ct="1473148949"*1;
+    var publish_time = "2016-09-06" || "";
+    var cD={
+      year:createDate.getYear(),
+      month:createDate.getMonth()+1,
+      date:createDate.getDate()
+    };
+    
+    svrDate.setHours(0);
+    svrDate.setMinutes(0);
+    svrDate.setSeconds(0);
+    var todayDate=svrDate.getTime()/1000;
+    svrDate.setDate(1);
+    svrDate.setMonth(0);
+    var yearDate=svrDate.getTime()/1000;
+    
+    if(ct>=todayDate){
+      showDate="今天";
+    
+    }else if(ct>=todayDate-60*60*24){
+       showDate="昨天";
+    
+    }else if(ct>=todayDate-2*60*60*24){
+      showDate="前天";
+    }else if(ct>=todayDate-3*60*60*24){
+      showDate="3天前";
+    }else if(ct>=todayDate-4*60*60*24){
+      showDate="4天前";
+    }else if(ct>=todayDate-5*60*60*24){
+      showDate="5天前";
+    }else if(ct>=todayDate-6*60*60*24){
+      showDate="6天前";
+    }else if(ct>=todayDate-2*7*60*60*24){
+      showDate="1周前";
+    }else if(ct>=yearDate){
+      
+      
+      
+      showDate="%s月%s日".replace("%s",cD.month).replace("%s",cD.date);
+    }else{
+      showDate=publish_time;
+    };
+    if(document.getElementById("publish_time")){
+      document.getElementById("publish_time").innerText=showDate;
+    }
+})();
+</script>
+<script nonce="1079067167" type="text/javascript">
+
+if (!window.console) window.console = { log: function() {} };
+
+if (typeof getComputedStyle == 'undefined') {
+    if (document.body.currentStyle) {
+        window.getComputedStyle = function(el) {
+            return el.currentStyle;
+        }
+    } else {
+        window.getComputedStyle = {};
+    }
+}
+(function(){
+    window.__zoom = 1;
+    
+    (function(){
+        var validArr = ","+([0.875, 1, 1.125, 1.25, 1.375]).join(",")+",";
+        var match = window.location.href.match(/winzoom=(\d+(?:\.\d+)?)/);
+        if (match && match[1]) {
+            var winzoom = parseFloat(match[1]);
+            if (validArr.indexOf(","+winzoom+",")>=0) {
+                window.__zoom = winzoom;
+            }
+        }
+    })();
+
+    var ua = navigator.userAgent.toLowerCase();
+    var re = new RegExp("msie ([0-9]+[\.0-9]*)");
+    var version;
+    if (re.exec(ua) != null) {
+        version = parseInt(RegExp.$1);
+    }
+    var isIE = false;
+    if (typeof version != 'undefined' && version >= 6 && version <= 9) {
+        isIE = true;
+    }
+    var getMaxWith=function(){
+        var container = document.getElementById('img-content');
+        var max_width = container.offsetWidth;
+        var container_padding = 0;
+        var container_style = getComputedStyle(container);
+        container_padding = parseFloat(container_style.paddingLeft) + parseFloat(container_style.paddingRight);
+        max_width -= container_padding;
+        if (!max_width) {
+            max_width = window.innerWidth - 30;      
+        }
+        return max_width;
+    };
+    var getParentWidth = function(dom){
+        var parent_width = 0;
+        var parent = dom.parentNode;
+        var outerWidth = 0;
+        while (true) {
+            if(!parent||parent.nodeType!=1) break;
+            var parent_style = getComputedStyle(parent);
+            if (!parent_style) break;
+            parent_width = parent.clientWidth - parseFloat(parent_style.paddingLeft) - parseFloat(parent_style.paddingRight) - outerWidth;
+            if (parent_width > 0) break;
+            outerWidth += parseFloat(parent_style.paddingLeft) + parseFloat(parent_style.paddingRight) + parseFloat(parent_style.marginLeft) + parseFloat(parent_style.marginRight) + parseFloat(parent_style.borderLeftWidth) + parseFloat(parent_style.borderRightWidth);
+            parent = parent.parentNode;
+        }
+        return parent_width;
+    }
+    var getOuterW=function(dom){
+        var style=getComputedStyle(dom),
+            w=0;
+        if(!!style){
+            w = parseFloat(style.paddingLeft) + parseFloat(style.paddingRight) + parseFloat(style.borderLeftWidth) + parseFloat(style.borderRightWidth);
+        }
+        return w;
+    };
+    var getOuterH =function(dom){
+        var style=getComputedStyle(dom),
+            h=0;
+        if(!!style){
+            h = parseFloat(style.paddingTop) + parseFloat(style.paddingBottom) + parseFloat(style.borderTopWidth) + parseFloat(style.borderBottomWidth);
+        }
+        return h;
+    };
+    var insertAfter = function(dom,afterDom){
+        var _p = afterDom.parentNode;
+        if(!_p){
+            return;
+        }
+        if(_p.lastChild === afterDom){
+            _p.appendChild(dom);
+        }else{
+            _p.insertBefore(dom,afterDom.nextSibling);
+        }
+    };
+    var getQuery = function(name,url){
+        
+        var u  = arguments[1] || window.location.search,
+            reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)"),
+            r = u.substr(u.indexOf("\?")+1).match(reg);
+        return r!=null?r[2]:"";
+    };
+
+    
+    function setImgSize(item, widthNum, widthUnit, ratio, breakParentWidth) {
+        setTimeout(function () {
+            var img_padding_border = getOuterW(item) || 0;
+            var img_padding_border_top_bottom = getOuterH(item) || 0;
+            
+            if (widthNum > getParentWidth(item) && !breakParentWidth) {
+                widthNum = getParentWidth(item);
+            }
+
+            height = (widthNum - img_padding_border) * ratio + img_padding_border_top_bottom;
+
+            if (isIE) {
+                var url = item.getAttribute('data-src');
+                item.src = url;
+            } else {
+                if(parseFloat(widthNum, 10) > 40 && height > 40 && breakParentWidth) {
+                    item.className += ' img_loading';
+                }
+                item.src = "data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            }
+            item.style.cssText += ";width: " + widthNum + widthUnit + " !important;";
+            item.style.cssText += ";height: " + height + widthUnit + " !important;";
+        }, 10);
+    }
+
+    (function(){
+        var images = document.getElementsByTagName('img');
+        var length = images.length;
+        var max_width = getMaxWith();
+        for (var i = 0; i < length; ++i) {
+            if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var imageItem = images[i];
+            var src_ = imageItem.getAttribute('data-src');
+            var realSrc = imageItem.getAttribute('src');
+            if (!src_ || realSrc) continue;
+            
+            var originWidth = imageItem.getAttribute('data-w');
+            var ratio_ = 1 * imageItem.getAttribute('data-ratio');
+
+            var height = 100;
+            if (ratio_ && ratio_ > 0) {
+                var parent_width = getParentWidth(imageItem) || max_width;
+                var initWidth = imageItem.style.width || imageItem.getAttribute('width') || originWidth || parent_width;
+                initWidth = parseFloat(initWidth, 10) > max_width ? max_width : initWidth;
+                
+                if (initWidth) {
+                    imageItem.setAttribute('_width', !isNaN(initWidth * 1) ? initWidth + 'px' : initWidth);
+                }
+                
+                if (typeof initWidth === 'string' && initWidth.indexOf('%') !== -1) {
+                    initWidth = parseFloat(initWidth.replace('%', ''), 10) / 100 * parent_width;
+                }
+                
+                if (initWidth === 'auto') {
+                    initWidth = originWidth;
+                }
+
+                var res = /^(\d+(?:\.\d+)?)([a-zA-Z%]+)?$/.exec(initWidth);
+                var widthNum = res && res.length >= 2 ? res[1] : 0;
+                var widthUnit = res && res.length >= 3 && res[2] ? res[2] : 'px';
+
+                
+                setImgSize(imageItem, widthNum, widthUnit, ratio_, true);
+                
+                (function (item, widthNumber, unit, ratio) {
+                    setTimeout(function () {
+                        setImgSize(item, widthNumber, unit, ratio, false);
+                    });
+                })(imageItem, widthNum, widthUnit, ratio_);
+            } else {
+                imageItem.style.cssText += ";visibility: hidden !important;";
+            }
+
+        }
+    })();
+    window.__videoDefaultRatio=16/9;
+    window.__getVideoWh = function(dom){
+        var max_width = getMaxWith(),
+            width = max_width,
+            ratio_ = dom.getAttribute('data-ratio')*1,
+            arr = [4/3, 16/9],
+            ret = arr[0],
+            abs = Math.abs(ret - ratio_);
+        if (!ratio_) { 
+            if (dom.getAttribute("data-mpvid")) { 
+                ratio_ = 16/9;
+            } else { 
+                ratio_ = 4/3;
+            }
+        } else { 
+            for (var j = 1, jl = arr.length; j < jl; j++) {
+                var _abs = Math.abs(arr[j] - ratio_);
+                if (_abs < abs) {
+                    abs = _abs;
+                    ret = arr[j];
+                }
+            }
+            ratio_ = ret;
+        }
+        
+        var parent_width = getParentWidth(dom)||max_width,
+            width = width > parent_width ? parent_width : width,
+            outerW = getOuterW(dom)||0,
+            outerH = getOuterH(dom)||0,
+            videoW = width - outerW,
+            videoH = videoW/ratio_,
+            height = videoH + outerH;
+        return {w:Math.ceil(width),h:Math.ceil(height),vh:videoH,vw:videoW,ratio:ratio_};
+    };
+
+
+    (function(){
+        var iframe = document.getElementsByTagName('iframe');
+        for (var i=0,il=iframe.length;i<il;i++) {
+            if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var a = iframe[i];
+            var src_ = a.getAttribute('src')||a.getAttribute('data-src')||"";
+            if(!/^http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)
+                && !/^http(s)*\:\/\/mp\.weixin\.qq\.com\/mp\/readtemplate\?t=pages\/video_player_tmpl/.test(src_)
+            ){
+                continue;
+            }
+            var vid = getQuery("vid",src_);
+            if(!vid){
+                continue;
+            }
+            vid=vid.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,"");
+            a.removeAttribute('src');
+            a.style.display = "none";
+            var obj = window.__getVideoWh(a),
+                videoPlaceHolderSpan = document.createElement('span'),
+                videoPlayerIconSpan = document.createElement('span'),
+                mydiv = document.createElement('img');
+
+            videoPlaceHolderSpan.className = "js_img_loading db";
+            videoPlaceHolderSpan.setAttribute("data-vid", vid);
+            
+
+            videoPlayerIconSpan.className = 'wx_video_context db'; 
+            videoPlayerIconSpan.style.display = 'none';
+            videoPlayerIconSpan.innerHTML = '<span class="wx_video_thumb_primary"></span><button class="wx_video_play_btn">播放</button><span class="wx_video_mask"></span>'; 
+
+            mydiv.className = "img_loading";
+
+            mydiv.src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            
+            
+            videoPlaceHolderSpan.style.cssText = "width: " + obj.w + "px !important;";
+            mydiv.style.cssText += ";width: " + obj.w + "px";
+            videoPlaceHolderSpan.appendChild(videoPlayerIconSpan);
+            videoPlaceHolderSpan.appendChild(mydiv);
+            insertAfter(videoPlaceHolderSpan, a); 
+            
+            a.style.cssText += ";width: " + obj.w + "px !important;";
+            a.setAttribute("width",obj.w);
+            if(window.__zoom!=1){
+                a.style.display = "block";
+                videoPlaceHolderSpan.style.display = "none";
+                a.setAttribute("_ratio",obj.ratio);
+                a.setAttribute("_vid",vid);
+            }else{
+                videoPlaceHolderSpan.style.cssText += "height: " + obj.h + "px !important;";
+                mydiv.style.cssText += "height: " + obj.h + "px !important;";
+                a.style.cssText += "height: " + obj.h + "px !important;";
+                a.setAttribute("height",obj.h);
+            }
+            a.setAttribute("data-vh",obj.vh);
+            a.setAttribute("data-vw",obj.vw);
+            if(a.getAttribute("data-mpvid")){
+                a.setAttribute("data-src",location.protocol+"//mp.weixin.qq.com/mp/readtemplate?t=pages/video_player_tmpl&auto=0&vid="+vid);
+            }else{
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+obj.vw+"&height="+obj.vh+"&auto=0");   
+            }            
+        }
+    })();
+    
+    (function(){
+        if(window.__zoom!=1){
+            if (!window.__second_open__) {
+                document.getElementById('page-content').style.zoom = window.__zoom;
+                var a = document.getElementById('activity-name');
+                var b = document.getElementById('meta_content');
+                if(!!a){
+                    a.style.zoom = 1/window.__zoom;
+                }
+                if(!!b){
+                    b.style.zoom = 1/window.__zoom;
+                }
+            }
+            var images = document.getElementsByTagName('img');
+            for (var i = 0,il=images.length;i<il;i++) {
+                if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                images[i].style.zoom = 1/window.__zoom;
+            }
+            var iframe = document.getElementsByTagName('iframe');
+            for (var i = 0,il=iframe.length;i<il;i++) {
+                if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                var a = iframe[i];
+                a.style.zoom = 1/window.__zoom;
+                var src_ = a.getAttribute('data-src')||"";
+                if(!/http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)){
+                    continue;
+                }
+                var ratio = a.getAttribute("_ratio");
+                var vid = a.getAttribute("_vid");
+                a.removeAttribute("_ratio");
+                a.removeAttribute("_vid");
+                var vw = a.offsetWidth - (getOuterW(a)||0);
+                var vh = vw/ratio;
+                var h = vh + (getOuterH(a)||0)
+                a.style.cssText += "height: " + h + "px !important;"
+                a.setAttribute("height",h);
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+vw+"&height="+vh+"&auto=0");
+                a.style.display = "none";
+                var parent = a.parentNode;
+                if(!parent){
+                    continue;
+                }
+                for(var j=0,jl=parent.children.length;j<jl;j++){
+                    var child = parent.children[j];
+                    if(child.className.indexOf("img_loading")>=0 && child.getAttribute("data-vid")==vid){
+                        child.style.cssText += "height: " + h + "px !important;";
+                        child.style.display = "";
+                    }
+                }
+            }
+        }
+    })();
+})();
+</script>
+<script nonce="1079067167" type="text/javascript">
+    var new_appmsg = 1;
+    var item_show_type = "0";
+    var can_see_complaint = "0";
+    var not_in_mm_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm435ee6.css";
+    var windowwx_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+    var article_improve_combo_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo438c19.css";
+    var tid = "";
+    var aid = "";
+    var clientversion = "";
+    var appuin = "MjM5Mjc3MDM2Mw=="||"";
+
+    var source = "1";
+    var ascene = "";
+    var subscene = "";
+    var sessionid = ""||"";
+    var abtest_cookie = "";
+
+    var scene = 75;
+
+    var itemidx = "";
+    var appmsg_token   = "";
+    var _copyright_stat = "0";
+    var _ori_article_type = "";
+
+    var is_follow = "";
+    var nickname = "吾爱破解论坛";
+    var appmsg_type = "9";
+    var ct = "1473148949";
+    var publish_time = "2016-09-06" || "";
+    var user_name = "gh_fb242c15300f";
+    var user_name_new = "";
+    var fakeid   = "";
+    var version   = "";
+    var is_limit_user   = "0";
+    var round_head_img = "http://mmsns.qpic.cn/mmsns/LFPriaSjBUZKGJ6e3ahOG8KFMaic9NIoicZ52tP0YFAgsQjwWjialyl8GQ/0";
+    var hd_head_img = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM6aUYkA6TNveZWMD5ph9gkQWHUGV71Ng6gWy3fbWKQrow/0"||"";
+    var ori_head_img_url = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM6aUYkA6TNveZWMD5ph9gkQWHUGV71Ng6gWy3fbWKQrow/132";
+    var msg_title = "代码战争：伪装和狙杀——从“壳”到“病毒混淆器";
+    var msg_desc = "“壳”（Packer）——在安全领域同APT一样，是一个宽泛的概念，即指代一类对可执行代码及数据进行包装已达到隐藏、压缩或保护等目的的运行时代码。在病毒与安全软件的代码对抗过程中，“壳”一直扮演着极为重要的角色。";
+    var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz_png/LFPriaSjBUZIGM8rk2gwXmV5hONoAUHmjUdjoJuyTf0L9QgZLCiafZwc7c3DfZV8oibDToeDMNOjGbicOo1Y9YXH1w/0?wx_fmt=png"; 
+    var cdn_url_1_1  = ""; 
+    var cdn_url_235_1 = ""; 
+    
+    var msg_link = "http://mp.weixin.qq.com/s?__biz=MjM5Mjc3MDM2Mw==&amp;mid=2651132585&amp;idx=1&amp;sn=6e4daa40092d8abe79d98d43536c7a53#rd"; 
+    var user_uin = "0"*1;
+    var msg_source_url = 'http://www.52pojie.cn/thread-533458-1-1.html';
+    var img_format = 'png';
+    var srcid = '';
+    var req_id = '1014YMNqFvwHHnOuVYEjgcdY';
+    var networkType;
+    var appmsgid = '' || '2651132585'|| "";
+    var comment_id = "2023928021" || "2023928021" * 1;
+    var comment_enabled = "" * 1;
+    var is_need_reward = "0" * 1;
+    var is_https_res = ("" * 1) && (location.protocol == "https:");
+    var msg_daily_idx = "0" || "";
+    var profileReportInfo = "" || "";
+
+    var devicetype = "";
+    var source_encode_biz = "";
+    var source_username = "";
+    
+    var reprint_ticket = "";
+    var source_mid = "";
+    var source_idx = "";
+    var source_biz = "";
+    var author_id = "";
+
+    
+    var optimizing_flag = "0" * 1;
+    var ad_abtest_padding = "0" * 1;
+
+    var show_comment = "";
+    var __appmsgCgiData = {
+        wxa_product : ""*1,
+        wxa_cps : ""*1,
+        show_msg_voice: "0"*1,
+        can_use_page : "0"*1,
+        is_wxg_stuff_uin : "0"*1,
+        card_pos : "",
+        copyright_stat : "0",
+        source_biz : "",
+        hd_head_img : "http://wx.qlogo.cn/mmhead/Q3auHgzwzM6aUYkA6TNveZWMD5ph9gkQWHUGV71Ng6gWy3fbWKQrow/0"||(window.location.protocol+"//"+window.location.host + "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_rumor_link.2x42f400.jpg")
+    };
+    var _empty_v = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/pages/voice/empty42f400.mp3";
+
+    var copyright_stat = "0" * 1;
+
+    var pay_fee = "" * 1;
+    var pay_timestamp = "";
+    var need_pay = "" * 1;
+
+    var need_report_cost = "0" * 1;
+    var use_tx_video_player = "0" * 1;
+    var appmsg_fe_filter = "contenteditable";
+
+    var friend_read_source = "" || "";
+    var friend_read_version = "" || "";
+    var friend_read_class_id = "" || "";
+
+    var is_only_read = "1" * 1;
+    var read_num = "" * 1;
+    var like_num = "" * 1;
+    var liked = "" == 'true' ? true : false;
+    var is_temp_url = "" ? 1 : 0;
+    var send_time = "";
+    var icon_emotion_switch = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch.2x42f400.png";
+    var icon_emotion_switch_active = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch_active.2x42f400.png";
+    var icon_loading_white = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif";
+    var icon_audio_unread = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/audio/icon_audio_unread42f400.png";
+    var icon_qqmusic_default = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_default.2x42f400.png";
+    var icon_qqmusic_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_source42f400.png";
+    var icon_kugou_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/kugou/icon_kugou_source42f400.png";
+
+    var topic_default_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/topic/pic_book_thumb.2x42f400.png';
+    var comment_edit_icon = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg_new/icon_edit42f400.png';
+    var comment_loading_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif';
+
+    var voice_in_appmsg = {
+        "1":"1"
+            };
+
+    var reprint_style = ''*1;
+    var wxa_img_alert = "" != 'false';
+
+    
+    var more_read_type = '0'*1;
+
+    
+    
+    
+    
+
+    
+    var weapp_sn_arr_json = "" || "";
+
+    
+    var ban_scene = "0" * 1;
+
+    var svr_time = "1549780409" * 1;
+    
+    var is_transfer_msg = ""*1||0;
+
+    var malicious_title_reason_id = "0" * 1; 
+    var malicious_content_type = "0" * 1; 
+
+    
+    var modify_time = "";
+
+    
+    var isprofileblock = "0";
+
+    
+    var hotspotInfoList = [
+                    ];
+
+        window.wxtoken = "777";
+        
+    
+    
+    
+    
+    window.is_login = '0' * 1; 
+
+    window.__moon_initcallback = function(){
+        if(!!window.__initCatch){
+            window.__initCatch({
+                idkey : 27611+2,
+                startKey : 0,
+                limit : 128,
+                badjsId: 43,
+                reportOpt : {
+                    uin : uin,
+                    biz : biz,
+                    mid : mid,
+                    idx : idx,
+                    sn  : sn
+                },
+                extInfo : {
+                    network_rate : 0.01,    
+                    badjs_rate: 0.1 
+                }
+            });
+        }
+    }
+        
+    var title ="吾爱破解论坛";
+
+    var is_new_msg=true;
+    
+    
+
+    var is_wash = '' * 1;
+</script>
+
+<script nonce="1079067167" type="text/javascript">
+(function(_g){
+    _g.appmsg_like_type = "1" * 1 ? "1" * 1 : 1;
+    
+    _g.clientversion = "";
+    _g.passparam = ""; 
+    if(!_g.msg_link) {
+      _g.msg_link = "http://mp.weixin.qq.com/s?__biz=MjM5Mjc3MDM2Mw==&amp;mid=2651132585&amp;idx=1&amp;sn=6e4daa40092d8abe79d98d43536c7a53#rd";
+    }
+    _g.appmsg_type = "9"; 
+    _g.devicetype = ""; 
+})(window);
+
+</script>
+
+
+        <script nonce="1079067167">window.__moon_host = 'res.wx.qq.com';window.__moon_mainjs = 'appmsg/index.js';window.moon_map = {"a/appdialog_confirm.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm.html42f400.js","widget/wx_profile_dialog_primary.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/widget/wx_profile_dialog_primary.css42f400.js","pages/iframe_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/iframe_communicate42f400.js","new_video/player.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player.html433882.js","biz_wap/zepto/touch.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/touch42f400.js","biz_wap/zepto/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/event42f400.js","biz_wap/zepto/zepto.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/zepto42f400.js","page/pages/video.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/pages/video.css435ee6.js","a/tpl/smallbanner_msg_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_msg_tpl.html42f400.js","a/tpl/smallbanner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_info_tpl.html42f400.js","a/tpl/banner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_info_tpl.html42f400.js","a/tpl/promote_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/promote_tpl.html42f400.js","a/tpl/smallcard_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallcard_tpl.html42f400.js","a/tpl/info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/info_tpl.html42f400.js","a/tpl/cardticket_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cardticket_tpl.html42f400.js","a/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_tpl.html42f400.js","a/tpl/sponsor_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/sponsor_tpl.html42f400.js","a/tpl/new_cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/new_cpc_tpl.html42f400.js","appmsg/emotion/caret.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/caret42f400.js","biz_wap/utils/localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/localstorage42f400.js","appmsg/friend_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/friend_comment_tpl.html42f400.js","appmsg/comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_tpl.html42f400.js","biz_wap/utils/fakehash.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/fakehash42f400.js","appmsg/comment_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_report42f400.js","a/appdialog_confirm.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm42f400.js","new_video/player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player4306fd.js","a/tpl/mpda_bottom_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/mpda_bottom_tpl.html42f400.js","a/tpl/crt_size_map.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_size_map42f400.js","biz_wap/jsapi/cardticket.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/cardticket42f400.js","biz_common/jquery.md5.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/jquery.md542f400.js","biz_common/utils/emoji_panel_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_panel_data42f400.js","biz_common/utils/emoji_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_data42f400.js","appmsg/emotion/textarea.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/textarea42f400.js","appmsg/emotion/nav.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/nav42f400.js","appmsg/emotion/common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/common42f400.js","appmsg/emotion/slide.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/slide42f400.js","appmsg/emotion/dom.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/dom42f400.js","pages/music_report_conf.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_report_conf42f400.js","pages/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/report4306fd.js","pages/player_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/player_adaptor42f400.js","pages/music_player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_player42f400.js","appmsg/more_read_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read_tpl.html42f400.js","appmsg/retry_ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/retry_ajax42f400.js","complain/tips.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/complain/tips42f400.js","pages/loadscript.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/loadscript42f400.js","biz_wap/utils/ajax_load_js.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_load_js42f400.js","appmsg/comment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment4317dc.js","a/ios.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios42f400.js","a/android.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android42f400.js","a/profile.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile42f400.js","a/app_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/app_card430506.js","a/sponsor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor42f400.js","a/tpl/cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cpc_tpl.html42f400.js","a/video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/video42f400.js","a/a_config.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_config42f400.js","a/tpl/crt_tpl_manager.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_tpl_manager42f400.js","a/cpc_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/cpc_a_tpl.html42f400.js","a/sponsor_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor_a_tpl.html42f400.js","a/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_tpl.html42f400.js","a/mpshop.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpshop42f400.js","a/wxopen_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/wxopen_card42f400.js","a/card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/card42f400.js","biz_wap/utils/position.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/position42f400.js","a/a_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_report42f400.js","biz_wap/utils/show_time.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/show_time42f400.js","biz_common/utils/get_para_list.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/get_para_list42f400.js","biz_wap/utils/openUrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/openUrl42f400.js","a/a_sign.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_sign438181.js","appmsg/my_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/my_comment_tpl.html42f400.js","appmsg/cmt_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cmt_tpl.html42f400.js","sougou/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/a_tpl.html42f400.js","appmsg/emotion/emotion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/emotion42f400.js","biz_common/base64.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/base6442f400.js","biz_common/utils/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report42f400.js","appmsg/articleReport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/articleReport42f400.js","biz_wap/utils/hand_up_state.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/hand_up_state42f400.js","biz_common/utils/http.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/http42f400.js","biz_common/utils/cookie.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie42f400.js","appmsg/topic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/topic_tpl.html42f400.js","pages/weapp_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/weapp_tpl.html42f400.js","biz_common/utils/monitor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/monitor42f400.js","pages/voice_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_tpl.html42f400.js","pages/kugoumusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/kugoumusic_ctrl42f400.js","pages/qqmusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_ctrl42f400.js","pages/voice_component.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_component42f400.js","pages/qqmusic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_tpl.html42f400.js","new_video/ctl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/ctl4306fd.js","appmsg/open_url_with_webview.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/open_url_with_webview4380a9.js","appmsg/more_read.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read42f400.js","appmsg/reward_entry.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/reward_entry42f400.js","appmsg/like.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like43875f.js","pages/version4video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/version4video42f400.js","biz_wap/utils/storage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/storage42f400.js","appmsg/share_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share_tpl.html42f400.js","appmsg/appmsgext.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsgext430b95.js","appmsg/img_copyright_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/img_copyright_tpl.html42f400.js","pages/video_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_ctrl42f400.js","pages/create_txv.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/create_txv42f400.js","appmsg/comment_utils.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_utils42f400.js","biz_common/ui/imgonepx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx42f400.js","appmsg/malicious_wording.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/malicious_wording42f400.js","biz_common/utils/wxgspeedsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/wxgspeedsdk42f400.js","a/a.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a4382e5.js","rt/appmsg/getappmsgext.rt.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/rt/appmsg/getappmsgext.rt42f400.js","pages/video_communicate_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_communicate_adaptor433882.js","biz_wap/utils/ajax_wx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_wx42f400.js","biz_common/utils/respTypes.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/respTypes42f400.js","biz_wap/utils/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/log42f400.js","sougou/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/index42f400.js","biz_wap/safe/mutation_observer_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/mutation_observer_report42f400.js","appmsg/fereport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport438bee.js","appmsg/fereport_without_localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport_without_localstorage438bee.js","appmsg/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report42f400.js","appmsg/report_and_source.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source4380a9.js","appmsg/page_pos.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos431b87.js","appmsg/cdn_speed_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report42f400.js","appmsg/wxtopic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/wxtopic42f400.js","appmsg/weapp.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp433882.js","appmsg/weproduct.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weproduct42f400.js","appmsg/voicemsg.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voicemsg42f400.js","appmsg/autoread.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/autoread42f400.js","appmsg/voice.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voice42f400.js","appmsg/qqmusic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/qqmusic43440b.js","appmsg/iframe.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe433882.js","appmsg/product.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/product42f400.js","appmsg/review_image.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image435a90.js","appmsg/outer_link.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link433882.js","appmsg/copyright_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/copyright_report42f400.js","appmsg/async.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async438bee.js","biz_wap/ui/lazyload_img.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img42f400.js","biz_common/log/jserr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr42f400.js","appmsg/share.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share42f50a.js","appmsg/cdn_img_lib.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib42f400.js","appmsg/finance_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/finance_communicate42f400.js","page/appmsg_new/not_in_mm.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm.css435ee6.js","page/appmsg_new/combo.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo.css438c19.js","biz_wap/utils/wapsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/wapsdk42f400.js","a/mpAdAsync.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpAdAsync4317dc.js","biz_common/utils/url/parse.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse42f400.js","appmsg/appmsg_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsg_report435ac2.js","biz_common/moment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/moment42f400.js","biz_wap/jsapi/core.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core42f400.js","biz_common/dom/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event42f400.js","appmsg/test.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/test42f400.js","biz_wap/utils/mmversion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion42f400.js","appmsg/max_age.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/max_age42f400.js","biz_common/dom/attr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr42f400.js","biz_wap/utils/ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax42f400.js","appmsg/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/log42f400.js","biz_common/dom/class.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class42f400.js","biz_wap/utils/device.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/device42f400.js","appmsg/weapp_common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp_common42f400.js","biz_common/utils/string/html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html42f400.js","cps/tpl/list_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/list_tpl.html42f400.js","cps/tpl/card_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/card_tpl.html42f400.js","cps/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/banner_tpl.html42f400.js","biz_common/tmpl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl42f400.js","appmsg/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index438e37.js"};</script><script nonce="1079067167" type="text/javascript" id="moon_inline" > window.__mooninline=1; window.setTimeout(function() {  function __moonf__(){
+if(!window.__moonhasinit){
+window.__moonhasinit=!0,window.__moonclientlog=[],window.__wxgspeeds&&(window.__wxgspeeds.moonloadedtime=+new Date),
+"object"!=typeof JSON&&(window.JSON={
+stringify:function(){
+return"";
+},
+parse:function(){
+return{};
+}
+});
+var e=function(){
+function e(e){
+try{
+var o;
+/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)?o="writeLog":/(Android)/i.test(navigator.userAgent)&&(o="log"),
+o&&t(o,e);
+}catch(n){
+throw console.error(n),n;
+}
+}
+function t(e,o){
+var n,r,i={};
+n=top!=window?top.window:window;
+try{
+r=n.WeixinJSBridge,i=n.document;
+}catch(a){}
+e&&r&&r.invoke?r.invoke(e,{
+level:"info",
+msg:"[WechatFe][moon]"+o
+}):setTimeout(function(){
+i.addEventListener?i.addEventListener("WeixinJSBridgeReady",function(){
+t(e,o);
+},!1):i.attachEvent&&(i.attachEvent("WeixinJSBridgeReady",function(){
+t(e,o);
+}),i.attachEvent("onWeixinJSBridgeReady",function(){
+t(e,o);
+}));
+},0);
+}
+var n;
+localStorage&&JSON.parse(localStorage.getItem("__WXLS__moonarg"))&&"fromls"==JSON.parse(localStorage.getItem("__WXLS__moonarg")).method&&(n=!0),
+e(" moon init, moon_inline:"+window.__mooninline+", moonls:"+n),function(){
+var e={},o={},t={};
+e.COMBO_UNLOAD=0,e.COMBO_LOADING=1,e.COMBO_LOADED=2;
+var n=function(e,t,n){
+if(!o[e]){
+o[e]=n;
+for(var r=3;r--;)try{
+moon.setItem(moon.prefix+e,n.toString()),moon.setItem(moon.prefix+e+"_ver",moon_map[e]);
+break;
+}catch(i){
+moon.clear();
+}
+}
+},r=window.alert;
+window.__alertList=[],window.alert=function(e){
+r(e),window.__alertList.push(e);
+};
+var i=function(e){
+if(!e||!o[e])return null;
+var n=o[e];
+if("function"==typeof n&&!t[e]){
+var a={},s={
+exports:a
+},c=n(i,a,s,r);
+n=o[e]=c||s.exports,t[e]=!0;
+}
+if(".css"===e.substr(-4)){
+var d=document.getElementById(e);
+if(!d){
+d=document.createElement("style"),d.id=e;
+var _=/url\s*\(\s*\/(\"(?:[^\\\"\r\n\f]|\\[\s\S])*\"|'(?:[^\\'\n\r\f]|\\[\s\S])*'|[^)}]+)\s*\)/g,m=window.testenv_reshost||window.__moon_host||"res.wx.qq.com";
+n=n.replace(_,"url(//"+m+"/$1)"),d.innerHTML=n,document.getElementsByTagName("head")[0].appendChild(d);
+}
+}
+return n;
+};
+e.combo_status=e.COMBO_UNLOAD,e.run=function(){
+var o=e.run.info,t=o&&o[0],n=o&&o[1];
+if(t&&e.combo_status==e.COMBO_LOADED){
+var r=i(t);
+n&&n(r);
+}
+},e.use=function(o,t){
+window.__wxgspeeds&&(window.__wxgspeeds.seajs_use_time=+new Date),e.run.info=[o,t],
+e.run();
+},window.define=n,window.seajs=e;
+}(),function(){
+if(window.__nonce_str){
+var e=document.createElement;
+document.createElement=function(o){
+var t=e.apply(this,arguments);
+return"object"==typeof o&&(o=o.toString()),"string"==typeof o&&"script"==o.toLowerCase()&&t.setAttribute("nonce",window.__nonce_str),
+t;
+};
+}
+window.addEventListener&&window.__DEBUGINFO&&Math.random()<.01&&window.addEventListener("load",function(){
+var e=document.createElement("script");
+e.src=__DEBUGINFO.safe_js,e.type="text/javascript",e.async=!0;
+var o=document.head||document.getElementsByTagName("head")[0];
+o.appendChild(e);
+});
+}(),function(){
+function t(e){
+return"[object Array]"===Object.prototype.toString.call(e);
+}
+function n(e){
+return"[object Object]"===Object.prototype.toString.call(e);
+}
+function r(e){
+var t=e.stack+" "+e.toString()||"";
+try{
+if(window.testenv_reshost){
+var n="http(s)?://"+window.testenv_reshost,r=new RegExp(n,"g");
+t=t.replace(r,"");
+}else t=t.replace(/http(s)?:\/\/res\.wx\.qq\.com/g,"");
+for(var r=/\/([^.]+)\/js\/(\S+?)\.js(\,|:)?/g;r.test(t);)t=t.replace(r,function(e,o,t,n){
+return t+n;
+});
+}catch(e){
+t=e.stack?e.stack:"";
+}
+var i=[];
+for(o in u)u.hasOwnProperty(o)&&i.push(o+":"+u[o]);
+return i.push("STK:"+t.replace(/\n/g,"")),i.join("|");
+}
+function i(e){
+if(!e){
+var o=window.onerror;
+window.onerror=function(){},f=setTimeout(function(){
+window.onerror=o,f=null;
+},50);
+}
+}
+function a(e,o,t){
+if(!/^mp\.weixin\.qq\.com$/.test(location.hostname)){
+var n=[];
+t=t.replace(location.href,(location.origin||"")+(location.pathname||"")).replace("#wechat_redirect","").replace("#rd","").split("&");
+for(var r=0,i=t.length;i>r;r++){
+var a=t[r].split("=");
+a[0]&&a[1]&&n.push(a[0]+"="+encodeURIComponent(a[1]));
+}
+var s=new window.Image;
+return void(s.src=(o+n.join("&")).substr(0,1024));
+}
+var c;
+if(window.ActiveXObject)try{
+c=new ActiveXObject("Msxml2.XMLHTTP");
+}catch(d){
+try{
+c=new ActiveXObject("Microsoft.XMLHTTP");
+}catch(_){
+c=!1;
+}
+}else window.XMLHttpRequest&&(c=new XMLHttpRequest);
+c&&(c.open(e,o,!0),c.setRequestHeader("cache-control","no-cache"),c.setRequestHeader("Content-Type","application/x-www-form-urlencoded; charset=UTF-8"),
+c.setRequestHeader("X-Requested-With","XMLHttpRequest"),c.send(t));
+}
+function s(e){
+return function(o,t){
+if("string"==typeof o)try{
+o=new Function(o);
+}catch(n){
+throw n;
+}
+var r=[].slice.call(arguments,2),a=o;
+return o=function(){
+try{
+return a.apply(this,r.length&&r||arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:j,
+log:"timeout_error;host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},e(o,t);
+};
+}
+function c(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this,a=t||function(){};
+return t=function(){
+try{
+return a.apply(r,arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:x,
+log:"listener_error;type:"+o+";host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},a.moon_lid=E,b[E]=t,E++,e.call(r,o,t,n);
+};
+}
+function d(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this;
+return t=b[t.moon_lid],e.call(r,o,t,n);
+};
+}
+var _,m,l,w,u,p,f,h=/MicroMessenger/i.test(navigator.userAgent),g=/MPAPP/i.test(navigator.userAgent),v=window.define,y=0,x=2,O=4,j=9,D=10;
+if(window.__initCatch=function(e){
+_=e.idkey,m=e.startKey||0,l=e.limit,w=e.badjsId,u=e.reportOpt||"",p=e.extInfo||{},
+p.rate=p.rate||.5;
+},window.__moon_report=function(e,o){
+var i=!1,s="";
+try{
+s=top.location.href;
+}catch(c){
+i=!0;
+}
+var d=.5;
+if(p&&p.rate&&(d=p.rate),o&&"number"==typeof o&&(d=o),!(!/mp\.weixin\.qq\.com/.test(location.href)&&!/payapp\.weixin\.qq\.com/.test(location.href)||Math.random()>d||!h&&!g||top!=window&&!i&&!/mp\.weixin\.qq\.com/.test(s))&&(n(e)&&(e=[e]),
+t(e)&&""!=_)){
+var u="",f=[],v=[],y=[],x=[];
+"number"!=typeof l&&(l=1/0);
+for(var j=0;j<e.length;j++){
+var D=e[j]||{};
+if(!(D.offset>l||"number"!=typeof D.offset||D.offset==O&&p&&p.network_rate&&Math.random()>=p.network_rate)){
+var b=1/0==l?m:m+D.offset;
+f[j]="[moon]"+_+"_"+b+";"+D.log+";"+r(D.e||{})||"",v[j]=b,y[j]=1;
+}
+}
+for(var E=0;E<v.length;E++)x[E]=_+"_"+v[E]+"_"+y[E],u=u+"&log"+E+"="+f[E];
+if(x.length>0){
+a("POST",location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?","idkey="+x.join(";")+"&r="+Math.random()+"&lc="+f.length+u);
+var d=1;
+if(p&&p.badjs_rate&&(d=p.badjs_rate),w&&Math.random()<d){
+u=u.replace(/uin\:(.)*\|biz\:(.)*\|mid\:(.)*\|idx\:(.)*\|sn\:(.)*\|/,"");
+var S=new Image,I="https://badjs.weixinbridge.com/badjs?id="+w+"&level=4&from="+encodeURIComponent(location.host)+"&msg="+encodeURIComponent(u);
+S.src=I.slice(0,1024);
+}
+}
+}
+},window.setTimeout=s(window.setTimeout),window.setInterval=s(window.setInterval),
+Math.random()<.01&&window.Document&&window.HTMLElement){
+var b={},E=0;
+Document.prototype.addEventListener=c(Document.prototype.addEventListener),Document.prototype.removeEventListener=d(Document.prototype.removeEventListener),
+HTMLElement.prototype.addEventListener=c(HTMLElement.prototype.addEventListener),
+HTMLElement.prototype.removeEventListener=d(HTMLElement.prototype.removeEventListener);
+}
+var S=window.navigator.userAgent;
+if((/ip(hone|ad|od)/i.test(S)||/android/i.test(S))&&!/windows phone/i.test(S)&&window.localStorage&&window.localStorage.setItem){
+var I=window.localStorage.setItem,L=0;
+window.localStorage.setItem=function(e,o){
+if(!(L>=10))try{
+I.call(window.localStorage,e,o);
+}catch(t){
+t.stack&&console&&console.error&&console.error("[TryCatch]"+t.stack),window.__moon_report([{
+offset:D,
+log:"localstorage_error;"+t.toString(),
+e:t
+}]),L++,L>=3&&window.moon&&window.moon.clear&&moon.clear();
+}
+};
+}
+window.seajs&&v&&(window.define=function(){
+for(var o,t=[],n=arguments&&arguments[0],a=0,s=arguments.length;s>a;a++){
+var c=o=arguments[a];
+"function"==typeof o&&(o=function(){
+try{
+return c.apply(this,arguments);
+}catch(o){
+throw"string"==typeof n&&console.error("[TryCatch][DefineeErr]id:"+n),o.stack&&console&&console.error&&console.error("[TryCatch]"+o.stack),
+_&&window.__moon_report&&(window.__moon_report([{
+offset:y,
+log:"define_error;id:"+n+";",
+e:o
+}]),i(f)),e(" [define_error]"+JSON.stringify(r(o))),o;
+}
+},o.toString=function(e){
+return function(){
+return e.toString();
+};
+}(arguments[a])),t.push(o);
+}
+return v.apply(this,t);
+});
+}(),function(o){
+function t(e,o,t){
+return window.__DEBUGINFO?(window.__DEBUGINFO.res_list||(window.__DEBUGINFO.res_list=[]),
+window.__DEBUGINFO.res_list[e]?(window.__DEBUGINFO.res_list[e][o]=t,!0):!1):!1;
+}
+function n(e){
+var o=new TextEncoder("utf-8").encode(e),t=crypto.subtle||crypto.webkitSubtle;
+return t.digest("SHA-256",o).then(function(e){
+return r(e);
+});
+}
+function r(e){
+for(var o=[],t=new DataView(e),n=0;n<t.byteLength;n+=4){
+var r=t.getUint32(n),i=r.toString(16),a="00000000",s=(a+i).slice(-a.length);
+o.push(s);
+}
+return o.join("");
+}
+function i(e,o,t){
+if("object"==typeof e){
+var n=Object.prototype.toString.call(e).replace(/^\[object (.+)\]$/,function(e,o){
+return o;
+});
+if(t=t||e,"Array"==n){
+for(var r=0,i=e.length;i>r;++r)if(o.call(t,e[r],r,e)===!1)return;
+}else{
+if("Object"!==n&&a!=e)throw"unsupport type";
+if(a==e){
+for(var r=e.length-1;r>=0;r--){
+var s=a.key(r),c=a.getItem(s);
+if(o.call(t,c,s,e)===!1)return;
+}
+return;
+}
+for(var r in e)if(e.hasOwnProperty(r)&&o.call(t,e[r],r,e)===!1)return;
+}
+}
+}
+var a=o.localStorage,s=document.head||document.getElementsByTagName("head")[0],c=1,d=11,_=12,m=13,l=window.__allowLoadResFromMp?1:2,w=window.__allowLoadResFromMp?1:0,u=l+w,p=window.testenv_reshost||window.__moon_host||"res.wx.qq.com",f=new RegExp("^(http(s)?:)?//"+p);
+window.__loadAllResFromMp&&(p="mp.weixin.qq.com",l=0,u=l+w);
+var h={
+prefix:"__MOON__",
+loaded:[],
+unload:[],
+clearSample:!0,
+hit_num:0,
+mod_num:0,
+version:1003,
+cacheData:{
+js_mod_num:0,
+js_hit_num:0,
+js_not_hit_num:0,
+js_expired_num:0,
+css_mod_num:0,
+css_hit_num:0,
+css_not_hit_num:0,
+css_expired_num:0
+},
+init:function(){
+h.loaded=[],h.unload=[];
+var e,t,r;
+if(window.no_moon_ls&&(h.clearSample=!0),a){
+var s="_moon_ver_key_",c=a.getItem(s);
+c!=h.version&&(h.clear(),a.setItem(s,h.version));
+}
+if((-1!=location.search.indexOf("no_moon1=1")||-1!=location.search.indexOf("no_lshttps=1"))&&h.clear(),
+a){
+var d=1*a.getItem(h.prefix+"clean_time"),_=+new Date;
+if(_-d>=1296e6){
+h.clear();
+try{
+!!a&&a.setItem(h.prefix+"clean_time",+new Date);
+}catch(m){}
+}
+}
+i(moon_map,function(i,s){
+if(t=h.prefix+s,r=!!i&&i.replace(f,""),e=!!a&&a.getItem(t),version=!!a&&(a.getItem(t+"_ver")||"").replace(f,""),
+h.mod_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_mod_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_mod_num++,
+h.clearSample||!e||r!=version)h.unload.push(r.replace(f,"")),r&&-1!=r.indexOf(".css")?e?r!=version&&h.cacheData.css_expired_num++:h.cacheData.css_not_hit_num++:r&&-1!=r.indexOf(".js")&&(e?r!=version&&h.cacheData.js_expired_num++:h.cacheData.js_not_hit_num++);else{
+if("https:"==location.protocol&&window.moon_hash_map&&window.moon_hash_map[s]&&window.crypto)try{
+n(e).then(function(e){
+window.moon_hash_map[s]!=e&&console.log(s);
+});
+}catch(c){}
+try{
+var d="//# sourceURL="+s+"\n//@ sourceURL="+s;
+o.eval.call(o,'define("'+s+'",[],'+e+")"+d),h.hit_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_hit_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_hit_num++;
+}catch(c){
+h.unload.push(r.replace(f,""));
+}
+}
+}),h.load(h.genUrl());
+},
+genUrl:function(){
+var e=h.unload;
+if(!e||e.length<=0)return[];
+var o,t,n="",r=[],i={},a=-1!=location.search.indexOf("no_moon2=1"),s="//"+p;
+-1!=location.href.indexOf("moon_debug2=1")&&(s="//mp.weixin.qq.com");
+for(var c=0,d=e.length;d>c;++c){
+/^\/(.*?)\//.test(e[c]);
+var _=/^\/(.*?)\//.exec(e[c]);
+_.length<2||!_[1]||(t=_[1],n=i[t],n?(o=n+","+e[c],o.length>1e3||a?(r.push(n+"?v="+h.version),
+n=location.protocol+s+e[c],i[t]=n):(n=o,i[t]=n)):(n=location.protocol+s+e[c],i[t]=n));
+}
+for(var m in i)i.hasOwnProperty(m)&&r.push(i[m]);
+return r;
+},
+load:function(e){
+if(window.__wxgspeeds&&(window.__wxgspeeds.mod_num=h.mod_num,window.__wxgspeeds.hit_num=h.hit_num),
+!e||e.length<=0)return seajs.combo_status=seajs.COMBO_LOADED,seajs.run(),console.debug&&console.debug("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num),
+void window.__moonclientlog.push("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num);
+seajs.combo_status=seajs.COMBO_LOADING;
+var o=0,t=+new Date;
+window.__wxgspeeds&&(window.__wxgspeeds.combo_times=[],window.__wxgspeeds.combo_times.push(t)),
+i(e,function(n){
+h.request(n,u,function(){
+if(window.__wxgspeeds&&window.__wxgspeeds.combo_times.push(+new Date),o++,o==e.length){
+var n=+new Date-t;
+window.__wxgspeeds&&(window.__wxgspeeds.mod_downloadtime=n),seajs.combo_status=seajs.COMBO_LOADED,
+seajs.run(),console.debug&&console.debug("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms"),
+window.__moonclientlog.push("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms");
+}
+});
+});
+},
+request:function(o,n,r){
+if(o){
+n=n||0,o.indexOf("mp.weixin.qq.com")>-1&&((new Image).src=location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?idkey=27613_32_1&r="+Math.random(),
+window.__moon_report([{
+offset:_,
+log:"load_script_from_mp: "+o
+}],1));
+var i=-1;
+window.__DEBUGINFO&&(__DEBUGINFO.res_list||(__DEBUGINFO.res_list=[]),__DEBUGINFO.res_list.push({
+type:"js",
+status:"pendding",
+start:+new Date,
+end:0,
+url:o
+}),i=__DEBUGINFO.res_list.length-1),-1!=location.search.indexOf("no_lshttps=1")&&(o=o.replace("http://","https://"));
+var a=document.createElement("script");
+a.src=o,a.type="text/javascript",a.async=!0,a.down_time=+new Date,a.onerror=function(s){
+t(i,"status","error"),t(i,"end",+new Date);
+var _=new Error(s);
+if(n>=0)if(w>n){
+var l=o.replace("res.wx.qq.com","mp.weixin.qq.com");
+h.request(l,n,r);
+}else h.request(o,n,r);else window.__moon_report&&window.__moon_report([{
+offset:c,
+log:"load_script_error: "+o,
+e:_
+}],1);
+if(n==w-1&&window.__moon_report([{
+offset:d,
+log:"load_script_error: "+o,
+e:_
+}],1),-1==n){
+var u="ua: "+window.navigator.userAgent+", time="+(+new Date-a.down_time)+", load_script_error -1 : "+o;
+window.__moon_report([{
+offset:m,
+log:u
+}],1);
+}
+window.__moonclientlog.push("moon load js error : "+o+", error -> "+_.toString()),
+e("moon_request_error url:"+o);
+},"undefined"!=typeof moon_crossorigin&&moon_crossorigin&&a.setAttribute("crossorigin",!0),
+a.onload=a.onreadystatechange=function(){
+t(i,"status","loaded"),t(i,"end",+new Date),!a||a.readyState&&!/loaded|complete/.test(a.readyState)||(t(i,"status","200"),
+a.onload=a.onreadystatechange=null,"function"==typeof r&&r());
+},n--,s.appendChild(a),e("moon_request url:"+o+" retry:"+n);
+}
+},
+setItem:function(e,o){
+!!a&&a.setItem(e,o);
+},
+clear:function(){
+a&&(i(a,function(e,o){
+~o.indexOf(h.prefix)&&a.removeItem(o);
+}),console.debug&&console.debug("[moon] clear"));
+},
+idkeyReport:function(e,o,t){
+t=t||1;
+var n=e+"_"+o+"_"+t;
+(new Image).src="/mp/jsmonitor?idkey="+n+"&r="+Math.random();
+}
+};
+seajs&&seajs.use&&"string"==typeof window.__moon_mainjs&&seajs.use(window.__moon_mainjs),
+window.moon=h;
+}(window),function(){
+try{
+Math.random()<1;
+}catch(e){}
+}(),window.moon.init();
+};
+e(),!!window.__moon_initcallback&&window.__moon_initcallback(),window.__wxgspeeds&&(window.__wxgspeeds.moonendtime=+new Date);
+}
+}
+__moonf__(); }, 25);</script><script nonce="1079067167" type="text/javascript">
+    var real_show_page_time = +new Date();
+    if (!!window.addEventListener){
+        window.addEventListener("load", function(){
+            window.onload_endtime = +new Date();
+        });
+    }
+
+    
+    if(typeof seajs != 'undefined' && seajs.config){
+        try{
+            seajs.config({
+              'map': [
+                [ '.js', '.js?v=' + (+new Date())]
+              ]
+            });
+        }catch(e){
+            console.info('not support seajs config');
+        }
+    }
+
+    
+</script>
+
+    </body>
+    <script nonce="1079067167" type="text/javascript">document.addEventListener("touchstart", function() {},false);</script>
+</html>
+

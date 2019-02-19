@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/05/29" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/05/29</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/05/28/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/05/29/index.html">2016/05/29</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/05/30/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>PHR34K @unpacker</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  The OilRig Campaign: Attacks on Saudi Arabian Organizations Deliver Helminth Backdoor <a href="http://researchcenter.paloaltonetworks.com/2016/05/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/" rel="nofollow">http://researchcenter.paloaltonetworks.com/2016/05/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/</a></p>
+<div class="translated" id="141045">
+<p>﻿" OilRig 行动 - 针对沙特阿拉伯组织的定向攻击与 Helminth 后门，来自 Palo Alto Blog：   <a href="https://t.co/rzTbb4SsVr" rel="nofollow">https://t.co/rzTbb4SsVr</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Crypto </i>]  Breaking Naive ESSID WPA2 Key Generation Algorithms : <a href="http://conference.hitb.org/hitbsecconf2016ams/materials/D2T2%20-%20Peter%20blasty%20Geissler%20-%20Breaking%20Naive%20ESSID%20WPA2%20Key%20Generation%20Algorithms.pdf" rel="nofollow">http://conference.hitb.org/hitbsecconf2016ams/materials/D2T2%20-%20Peter%20blasty%20Geissler%20-%20Breaking%20Naive%20ESSID%20WPA2%20Key%20Generation%20Algorithms.pdf</a> (Slides) #HITB2016AMS <a href="https://t.co/qnNkIelblq" rel="nofollow">https://t.co/qnNkIelblq</a></p>
+<div class="translated" id="141114">
+<p>﻿" 攻击 ESSID WPA2 密钥生成算法，来自 HITB 阿姆斯特丹会议︰   <a href="https://t.co/74JdxfDn5y" rel="nofollow">https://t.co/74JdxfDn5y</a>     <a href="https://t.co/qnNkIelblq" rel="nofollow">https://t.co/qnNkIelblq</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CjilaXlVEAAavN4.jpg" target="_blank">
+<img src="CjilaXlVEAAavN4.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Detect </i>]  Exploit Kits : Hunting the Hunters : <a href="http://conference.hitb.org/hitbsecconf2016ams/materials/D1T1%20-%20Nick%20Biasini%20-%20Exploit%20Kits%20-%20Hunting%20the%20Hunters%20.pdf" rel="nofollow">http://conference.hitb.org/hitbsecconf2016ams/materials/D1T1%20-%20Nick%20Biasini%20-%20Exploit%20Kits%20-%20Hunting%20the%20Hunters%20.pdf</a> (Slides) #HITB2016AMS</p>
+<div class="translated" id="141014">
+<p>﻿" Exploit Kits : Hunting the Hunters，来自 HITB 阿姆斯特丹会议 ︰   <a href="https://t.co/3a2c6ci0wa" rel="nofollow">https://t.co/3a2c6ci0wa</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Exploit </i>]  Kernel Exploit Sample Hunting and Mining : <a href="http://conference.hitb.org/hitbsecconf2016ams/materials/D1T2%20-%20Broderick%20Aquilino%20and%20Wayne%20Low%20-%20Kernel%20Exploit%20Hunting%20and%20Mitigation.pdf" rel="nofollow">http://conference.hitb.org/hitbsecconf2016ams/materials/D1T2%20-%20Broderick%20Aquilino%20and%20Wayne%20Low%20-%20Kernel%20Exploit%20Hunting%20and%20Mitigation.pdf</a> (Slides) #HITB2016AMS</p>
+<div class="translated" id="141024">
+<p>﻿"内核漏洞利用样本的检测与挖掘，来自 HITB 阿姆斯特丹会议 ︰   <a href="https://t.co/BOhCAlnskZ" rel="nofollow">https://t.co/BOhCAlnskZ</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Hardware </i>]  Automobile Intrusion Detection : <a href="http://conference.hitb.org/hitbsecconf2016ams/materials/D2T1%20-%20Jun%20Li%20-%20CANSsee%20-%20An%20Automobile%20Intrusion%20Detection%20System.pdf" rel="nofollow">http://conference.hitb.org/hitbsecconf2016ams/materials/D2T1%20-%20Jun%20Li%20-%20CANSsee%20-%20An%20Automobile%20Intrusion%20Detection%20System.pdf</a> (Slides) #HITB2016AMS <a href="https://t.co/xxLmNlXFvO" rel="nofollow">https://t.co/xxLmNlXFvO</a></p>
+<div class="translated" id="141115">
+<p>﻿" CANSsee - 汽车入侵检测系统，来自 HITB 阿姆斯特丹会议 ︰   <a href="https://t.co/8SMbp87x9g" rel="nofollow">https://t.co/8SMbp87x9g</a>     <a href="https://t.co/xxLmNlXFvO" rel="nofollow">https://t.co/xxLmNlXFvO</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CjimgsmUkAAU-0h.jpg" target="_blank">
+<img src="CjimgsmUkAAU-0h.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Hardware </i>]  Cache side channel attacks: CPU Design as a security problem :  <a href="http://conference.hitb.org/hitbsecconf2016ams/materials/D2T1%20-%20Anders%20Fogh%20-%20Cache%20Side%20Channel%20Attacks.pdf" rel="nofollow">http://conference.hitb.org/hitbsecconf2016ams/materials/D2T1%20-%20Anders%20Fogh%20-%20Cache%20Side%20Channel%20Attacks.pdf</a> (Slides) cc: @ anders_fogh</p>
+<div class="translated" id="141018">
+<p>﻿" 缓存边信道攻击 - CPU 设计上的安全问题，来自 HITB 阿姆斯特丹会议︰   <a href="https://t.co/kP9JfY5jja" rel="nofollow">https://t.co/kP9JfY5jja</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Hardware </i>]  Create your own bad USB : <a href="http://conference.hitb.org/hitbsecconf2016ams/materials/D1T2%20-%20Seunghun%20Han%20-%20Create%20Your%20Own%20Bad%20USB%20Device.pdf" rel="nofollow">http://conference.hitb.org/hitbsecconf2016ams/materials/D1T2%20-%20Seunghun%20Han%20-%20Create%20Your%20Own%20Bad%20USB%20Device.pdf</a> (Slides) #HITB2016AMS</p>
+<div class="translated" id="141025">
+<p>﻿" 制作一个属于自己的 Bad USB， 来自 HITB 阿姆斯特丹会议:   <a href="https://t.co/A0uQ3KtxzJ%C2%A0" rel="nofollow">https://t.co/A0uQ3KtxzJ </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Thireus ☠ @Thireus </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  [Discussion] The iOS 9.3.2 jailbreak exploit is publicly available. <a href="https://www.reddit.com/r/jailbreak/comments/4lfi2y/discussion_the_ios_932_jailbreak_exploit_is/" rel="nofollow">https://www.reddit.com/r/jailbreak/comments/4lfi2y/discussion_the_ios_932_jailbreak_exploit_is/</a>
+
+Webkit exploit: <a href="https://github.com/WebKit/webkit/commit/98845d940e30529098eea7e496af02e14301c704" rel="nofollow">https://github.com/WebKit/webkit/commit/98845d940e30529098eea7e496af02e14301c704</a></p>
+<div class="translated" id="141247">
+<p>﻿" iOS 9.3.2 越狱已经有公开的视频了，而且其中所用的漏洞也公开了， Reddit 上的讨论：   <a href="https://t.co/TbdUgm4GUP%C2%A0%C2%A0%C2%A0" rel="nofollow">https://t.co/TbdUgm4GUP   </a> Webkit 的漏洞补丁提交日志︰   <a href="https://t.co/TxaqPMOXpB" rel="nofollow">https://t.co/TxaqPMOXpB</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Don A. Bailey @DonAndrewBailey </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Language </i>]  Slides from my #Erlang security talk at #lambdaconf are now available. Look for a white paper for more in depth info
+<a href="http://www.securitymouse.com/research" rel="nofollow">http://www.securitymouse.com/research</a></p>
+<div class="translated" id="141259">
+<p>﻿" Erlang 语言的安全模型：    <a href="https://t.co/Vktn0V4Tq5%C2%A0" rel="nofollow">https://t.co/Vktn0V4Tq5 </a> Slides：   <a href="https://drive.google.com/file/d/0Bz8Lmg2kodQiRXYwWVpGNXQtdG5hNG5GaDFFNF9UNXp4UXo4/view?pref=2&amp;pli=1" rel="nofollow">https://drive.google.com/file/d/0Bz8Lmg2kodQiRXYwWVpGNXQtdG5hNG5GaDFFNF9UNXp4UXo4/view?pref=2&amp;pli=1</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  Exploit Mitigation Techniques in OpenBSD : <a href="https://www.openbsd.org/papers/ven05-deraadt/index.html" rel="nofollow">https://www.openbsd.org/papers/ven05-deraadt/index.html</a> , <a href="https://www.openbsd.org/papers/ven05-deraadt/mgp00001.html" rel="nofollow">https://www.openbsd.org/papers/ven05-deraadt/mgp00001.html</a>  #b2b</p>
+<div class="translated" id="141168">
+<p>﻿" Exploit Mitigation Techniques in OpenBSD， 图片格式的 Slides︰   <a href="https://t.co/2cgRQoUgMe%E3%80%81" rel="nofollow">https://t.co/2cgRQoUgMe、</a> <a href="https://t.co/34NiDT7sai" rel="nofollow">https://t.co/34NiDT7sai</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Jóseph Mlodzìanowskì @cedoxX</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Network </i>]  My favorite packet tool: Tcpdump along with TcpTrace, Xplot ~ looking at network issues :
+PDF: <a href="https://fasterdata.es.net/assets/Uploads/20131016-TCPDumpTracePlot.pdf&amp;ved=0ahUKEwipv4jAv_3MAhUG2SYKHVD-C74QFggrMAU&amp;usg=AFQjCNGO2DmH2j-o4WKhK3R8V9FGHCsKdw&amp;sig2=g-Em6gYs5Be7TsY09_7xag" rel="nofollow">https://fasterdata.es.net/assets/Uploads/20131016-TCPDumpTracePlot.pdf&amp;ved=0ahUKEwipv4jAv_3MAhUG2SYKHVD-C74QFggrMAU&amp;usg=AFQjCNGO2DmH2j-o4WKhK3R8V9FGHCsKdw&amp;sig2=g-Em6gYs5Be7TsY09_7xag</a></p>
+<div class="translated" id="141220">
+<p>﻿" 利用 TCPDump、TCPTrace、XPlot 3 个工具调试网络问题:   <a href="https://t.co/59HDkeASBc" rel="nofollow">https://t.co/59HDkeASBc</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>PHR34K @unpacker</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Obfuscation </i>]  Decoding Obfuscated Strings in Adwind <a href="http://blog.jpcert.or.jp/2016/05/decoding-obfuscated-strings-in-adwind.html" rel="nofollow">http://blog.jpcert.or.jp/2016/05/decoding-obfuscated-strings-in-adwind.html</a></p>
+<div class="translated" id="141060">
+<p>﻿" 解码 Java 恶意软件 Adwind 混淆后的字符串，来自 JPCert Blog：   <a href="https://t.co/IvhVh0WZQq" rel="nofollow">https://t.co/IvhVh0WZQq</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  New Methods for Exploiting ORM Injections in Java Applications : <a href="http://conference.hitb.org/hitbsecconf2016ams/materials/D2T2%20-%20Mikhail%20Egorov%20and%20Sergey%20Soldatov%20-%20New%20Methods%20for%20Exploiting%20ORM%20Injections%20in%20Java%20Applications.pdf" rel="nofollow">http://conference.hitb.org/hitbsecconf2016ams/materials/D2T2%20-%20Mikhail%20Egorov%20and%20Sergey%20Soldatov%20-%20New%20Methods%20for%20Exploiting%20ORM%20Injections%20in%20Java%20Applications.pdf</a> (Slides) #HITB2016AMS</p>
+<div class="translated" id="141019">
+<p>﻿" Java 应用 ORM 注入新的攻击方法，来自 HITB 阿姆斯特丹会议 ︰   <a href="https://t.co/dSmjmMtDVD%C2%A0" rel="nofollow">https://t.co/dSmjmMtDVD </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Pentest </i>]  Reverse shell on a Node.js application : <a href="https://wiremask.eu/writeups/reverse-shell-on-a-nodejs-application/" rel="nofollow">https://wiremask.eu/writeups/reverse-shell-on-a-nodejs-application/</a></p>
+<div class="translated" id="141166">
+<p>﻿" 渗透测试时，如何通过 Node.js 应用反弹 Shell ︰   <a href="https://t.co/uQCZH3152b" rel="nofollow">https://t.co/uQCZH3152b</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Virtualization </i>]  Virtualization System Vulnerability Discovery Framework : <a href="http://conference.hitb.org/hitbsecconf2016ams/materials/D1T1%20-%20Tang%20Qing%20Hao%20-%20Virtualization%20System%20Vulnerability%20Discovery%20Framework.pdf" rel="nofollow">http://conference.hitb.org/hitbsecconf2016ams/materials/D1T1%20-%20Tang%20Qing%20Hao%20-%20Virtualization%20System%20Vulnerability%20Discovery%20Framework.pdf</a> (Slides) #HITB2016AMS</p>
+<div class="translated" id="141021">
+<p>﻿"虚拟化系统漏洞发现框架，来自 HITB 阿姆斯特丹会议︰   <a href="https://t.co/ixlVlUTGi3" rel="nofollow">https://t.co/ixlVlUTGi3</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  Escape From The Docker-KVM-QEMU Machine : <a href="http://conference.hitb.org/hitbsecconf2016ams/materials/D1T1%20-%20Shengping%20Wang%20and%20Xu%20Liu%20-%20Escape%20From%20The%20Docker-KVM-QEMU%20Machine.pdf" rel="nofollow">http://conference.hitb.org/hitbsecconf2016ams/materials/D1T1%20-%20Shengping%20Wang%20and%20Xu%20Liu%20-%20Escape%20From%20The%20Docker-KVM-QEMU%20Machine.pdf</a> (Slides) #HITB2016AMS</p>
+<div class="translated" id="141020">
+<p>﻿" 从 Docker/KVM-QEMU 虚拟机中逃逸，来自 HITB 阿姆斯特丹会议 ︰   <a href="https://t.co/mmSmXu2IiC%C2%A0" rel="nofollow">https://t.co/mmSmXu2IiC </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> WirelessSecurity </i>]  Forging Wireless Timing Signals to Attack the NTP Server : <a href="http://conference.hitb.org/hitbsecconf2016ams/materials/D2T1%20-%20Yuwei%20Zheng%20and%20Haoqi%20Shan%20-%20Forging%20a%20Wireless%20Time%20Signal%20to%20Attack%20NTP%20Servers.pdf" rel="nofollow">http://conference.hitb.org/hitbsecconf2016ams/materials/D2T1%20-%20Yuwei%20Zheng%20and%20Haoqi%20Shan%20-%20Forging%20a%20Wireless%20Time%20Signal%20to%20Attack%20NTP%20Servers.pdf</a> (Slides) #HITB2016AMS</p>
+<div class="translated" id="141023">
+<p>﻿"伪造无线授时信号，攻击 NTP 服务器，来自 HITB 阿姆斯特丹会议 ︰   <a href="https://t.co/0Sox2QhQZy" rel="nofollow">https://t.co/0Sox2QhQZy</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/05/28/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/05/29/index.html">2016/05/29</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/05/30/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

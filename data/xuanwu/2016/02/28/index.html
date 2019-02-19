@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/02/28" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/02/28</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/02/27/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/02/28/index.html">2016/02/28</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/02/29/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>J Wolfgang Goerlich @jwgoerlich</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Crypto </i>]  90 Percent of All SSL VPNs Use Insecure or Outdated Encryption <a href="http://news.softpedia.com/news/90-percent-of-all-ssl-vpn-use-insecure-or-outdated-encryption-501038.shtml" rel="nofollow">http://news.softpedia.com/news/90-percent-of-all-ssl-vpn-use-insecure-or-outdated-encryption-501038.shtml</a></p>
+<div class="translated" id="103988">
+<p>﻿"据 SoftPedia 报道：90% 的 SSL VPN 在使用不安全的或过时的加密：    <a href="https://t.co/RBWjcwtHwb" rel="nofollow">https://t.co/RBWjcwtHwb</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  vincent zimmer @vincentzimmer </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Defend </i>]  The Intel SGX Memory Encryption Engine: <a href="http://intel.ly/1Qjs24H" rel="nofollow">http://intel.ly/1Qjs24H</a> #IntelSoftware</p>
+<div class="translated" id="104013">
+<p>﻿"Intel SGX 内存加密引擎（含 PPT 和 Paper）:    <a href="https://t.co/fKumhLx7mf" rel="nofollow">https://t.co/fKumhLx7mf</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  JP Aumasson @veorq </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Hardware </i>]  Intel CPU bugs <a href="http://danluu.com/cpu-bugs/" rel="nofollow">http://danluu.com/cpu-bugs/</a></p>
+<div class="translated" id="104042">
+<p>﻿"2015 年我们看到了一些 Intel CPU 的 Bugs， 将来我们会看到更多：    <a href="https://t.co/3SG7qLFQNg" rel="nofollow">https://t.co/3SG7qLFQNg</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Objective-See @objective_see </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mac OS X </i>]  HackingTeam using native OS X crypto to protect malware -neat! New blog w/ sample + decryptions/dumpings/detections: <a href="https://objective-see.com/blog/blog_0x0D.html" rel="nofollow">https://objective-see.com/blog/blog_0x0D.html</a></p>
+<div class="translated" id="103884">
+<p>﻿"HackingTeam RCS 利用 OS X 加密组件加密恶意软件， 来自 Objective-See Blog :   <a href="https://t.co/3wWWlV81fk" rel="nofollow">https://t.co/3wWWlV81fk</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Sam Bowne @sambowne </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  My @ bsidessf "Exploit Development Training &amp; Competition" materials are up <a href="https://samsclass.info/#EVENTS" rel="nofollow">https://samsclass.info/#EVENTS</a></p>
+<div class="translated" id="103759">
+<p>﻿"Bsides SF 2016 会议 Linux 缓冲区漏洞利用开发培训资料：    <a href="https://t.co/Y26WXFzaL4" rel="nofollow">https://t.co/Y26WXFzaL4</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  QEMU unpriv account to host kernel ring0, exploitable in AMD based cpu systems <a href="https://lkml.org/lkml/2016/2/26/876" rel="nofollow">https://lkml.org/lkml/2016/2/26/876</a></p>
+<div class="translated" id="103798">
+<p>﻿"Robert Święcki 发现，AMD 系列 CPU 在处理 0x6000832 ucode 时存在 Bug，可以导致 QEMU Guest 向 Host Ring0 的逃逸，  来自 邮件列表：   <a href="https://t.co/rHdwfiiPtR" rel="nofollow">https://t.co/rHdwfiiPtR</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Pentest </i>]  JavaScript Phishing <a href="http://en.wooyun.io/2016/02/04/42.html" rel="nofollow">http://en.wooyun.io/2016/02/04/42.html</a></p>
+<div class="translated" id="103970">
+<p>﻿"JavaScript 钓鱼 - JavaScript 后门在渗透测试中的应用， 来自 Wooyun Drops， 中文版：    <a href="http://drops.wooyun.org/tips/12386" rel="nofollow">http://drops.wooyun.org/tips/12386</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  David Litchfield @dlitchfield </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  Security assessment of Oracle's eBusiness suite with PoCs for the more interesting web SQL injection issues <a href="http://www.davidlitchfield.com/AssessingOraclee-BusinessSuite11i.pdf" rel="nofollow">http://www.davidlitchfield.com/AssessingOraclee-BusinessSuite11i.pdf</a></p>
+<div class="translated" id="103790">
+<p>﻿"Oracle 电子商务套件 11i 版本 SQL 注入漏洞报告（2015 年 11 月）：    <a href="https://t.co/jhdpBjCn0T" rel="nofollow">https://t.co/jhdpBjCn0T</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  arshan @nahsra </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> ThirdParty </i>]  Writeup for my Jenkins pre-authentication RCE (CVE-2016-0792), which attacks XStream: <a href="https://www.contrastsecurity.com/security-influencers/serialization-must-die-act-2-xstream" rel="nofollow">https://www.contrastsecurity.com/security-influencers/serialization-must-die-act-2-xstream</a></p>
+<div class="translated" id="103847">
+<p>﻿"Jenkins 反序列化库 XStream RCE (CVE-2016-0792)， 来自 Contrast Security Blog:    <a href="https://t.co/mCapYcxYBM" rel="nofollow">https://t.co/mCapYcxYBM</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Darknet.org.uk @THEdarknet </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  New Post: Veil Framework – Antivirus Evasion Framework <a href="http://ift.tt/1R7P2Qs" rel="nofollow">http://ift.tt/1R7P2Qs</a> <a href="https://t.co/csKAOdL3Mc" rel="nofollow">https://t.co/csKAOdL3Mc</a></p>
+<div class="translated" id="103793">
+<p>﻿"Veil 框架 - 防病毒软件逃逸框架：    <a href="https://t.co/EypzJR1pJH" rel="nofollow">https://t.co/EypzJR1pJH</a> <a href="https://t.co/csKAOdL3Mc" rel="nofollow">https://t.co/csKAOdL3Mc</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CcKV8_gWAAE_XRJ.jpg" target="_blank">
+<img src="CcKV8_gWAAE_XRJ.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/02/27/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/02/28/index.html">2016/02/28</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/02/29/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

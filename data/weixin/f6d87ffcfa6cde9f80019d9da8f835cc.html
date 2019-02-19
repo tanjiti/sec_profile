@@ -1,0 +1,1685 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+
+
+        <script nonce="1038724880" type="text/javascript">
+            window.logs = {
+                pagetime: {}
+            };
+            window.logs.pagetime['html_begin'] = (+new Date());
+        </script>
+        <title>
+ 摩诃草APT组织针对我国敏感机构最新的网络攻击活动分析
+</title>
+        
+<style>.radius_avatar{display:inline-block;background-color:#fff;padding:3px;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;overflow:hidden;vertical-align:middle}.radius_avatar img{display:block;width:100%;height:100%;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;background-color:#eee}.rich_media_inner{word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.rich_media_area_primary{padding:20px 16px 12px;background-color:#fafafa}.rich_media_area_primary.voice{padding-top:66px}.rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{color:rgba(0,0,0,0.3);background-color:#fafafa}.rich_media_area_extra{padding:0 16px 24px}.rich_media_extra{padding-top:30px}.mpda_bottom_container .rich_media_extra{padding-top:24px}.mpda_bottom_container .rich_media_extra .mpad_more_list{right:-10px}html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;line-height:1.6}body{-webkit-touch-callout:none;font-family:-apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif;color:#333;background-color:#f2f2f2;letter-spacing:.034em}h1,h2,h3,h4,h5,h6{font-weight:400;font-size:16px}*{margin:0;padding:0}a{color:#576b95;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_title{font-size:22px;line-height:1.4;margin-bottom:14px}@supports(-webkit-overflow-scrolling:touch){.rich_media_title{font-weight:700}}.rich_media_meta_list{margin-bottom:22px;line-height:20px;font-size:0;word-wrap:break-word;word-break:break-all}.rich_media_meta_list em{font-style:normal}.rich_media_meta{display:inline-block;vertical-align:middle;margin:0 10px 10px 0;font-size:15px;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_meta.icon_appmsg_tag{margin-right:4px}.rich_media_meta.meta_tag_text{margin-right:0}.rich_media_meta_primary{display:block;margin-bottom:10px;font-size:15px}.meta_original_tag{padding:0 .5em;font-size:12px;line-height:1.4;background-color:#f2f2f2;color:#888}.meta_enterprise_tag img{width:30px;height:30px!important;display:block;position:relative;margin-top:-3px;border:0}.rich_media_meta_link{color:#576b95}.rich_media_meta_text{color:rgba(0,0,0,0.3)}.rich_media_meta_text.rich_media_meta_split{padding-left:10px}.rich_media_meta_text.rich_media_meta_split:before{position:absolute;top:50%;left:0;margin-top:-6px;content:' ';display:block;border-left:1px solid #888;width:200%;height:130%;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0}.rich_media_meta_text.article_modify_tag{position:relative}.rich_media_meta_nickname{position:relative}.rich_media_thumb_wrp{margin-bottom:6px}.rich_media_thumb_wrp .original_img_wrp{display:block}.rich_media_thumb{display:block;width:100%}.rich_media_content{overflow:hidden;color:#333;font-size:17px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;text-align:justify;position:relative;z-index:0}.rich_media_content *{max-width:100%!important;box-sizing:border-box!important;-webkit-box-sizing:border-box!important;word-wrap:break-word!important}.rich_media_content p{clear:both;min-height:1em}.rich_media_content em{font-style:italic}.rich_media_content fieldset{min-width:0}.rich_media_content .list-paddingleft-2{padding-left:2.2em}.rich_media_content .list-paddingleft-2 .list-paddingleft-2{padding-left:30px}.rich_media_content blockquote{margin:0;padding-left:10px;border-left:3px solid #dbdbdb}img{height:auto!important}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:portrait){.rich_media_area_extra{padding-bottom:34px}}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:landscape){.rich_media_area_primary{padding:20px 60px 15px 60px}.rich_media_area_extra{padding:0 60px 21px 60px}}@media screen and (min-width:1024px){.rich_media_area_primary_inner,.rich_media_area_extra_inner{max-width:677px;margin-left:auto;margin-right:auto}.rich_media_area_primary{padding-top:32px}}.appmsg_share_notice{font-size:16px;color:#888;position:relative;padding:1.25em 0;margin-bottom:1.75em}.appmsg_share_notice:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice_hd{font-weight:700;padding-bottom:.2em}.cell{padding:.8em 0;display:block;position:relative}.cell_hd,.cell_bd,.cell_ft{display:table-cell;vertical-align:middle;word-wrap:break-word;word-break:break-all;white-space:nowrap}.cell_primary{width:2000px;white-space:normal}.flex_cell{padding:10px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.flex_cell_primary{width:100%;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;box-flex:1;flex:1}.original_tool_area{display:block;padding:.75em 1em 0;-webkit-tap-highlight-color:rgba(0,0,0,0);color:#333;border:1px solid #eaeaea;margin:20px 0}.original_tool_area .tips_global{position:relative;padding-bottom:.5em;font-size:15px}.original_tool_area .tips_global:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dbdbdb;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:27px;height:27px;padding:0;margin-right:.5em}.original_tool_area .radius_avatar img{height:100%!important}.original_tool_area .flex_cell_bd{width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal}.original_tool_area .flex_cell_ft{font-size:14px;color:#888;padding-left:1em;white-space:nowrap}.original_tool_area .icon_access:after{content:" ";display:inline-block;height:8px;width:8px;border-width:1px 1px 0 0;border-color:#cbcad0;border-style:solid;transform:matrix(0.71,0.71,-0.71,0.71,0,0);-ms-transform:matrix(0.71,0.71,-0.71,0.71,0,0);-webkit-transform:matrix(0.71,0.71,-0.71,0.71,0,0);position:relative;top:-2px;top:-1px}.rich_media_global_msg{position:fixed;top:0;left:0;right:0;padding:.85em 35px .85em 15px;z-index:2;background-color:#c6e0f8;color:#888;font-size:12px}.rich_media_global_msg .icon_closed{position:absolute;right:15px;top:50%;margin-top:-5px;line-height:300px;overflow:hidden;-webkit-tap-highlight-color:rgba(0,0,0,0);background:transparent url(//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_appmsg_msg_closed_sprite.2x42f400.png) no-repeat 0 0;width:11px;height:11px;vertical-align:middle;display:inline-block;-webkit-background-size:100% auto;background-size:100% auto}.rich_media_global_msg .icon_closed:active{background-position:0 -17px}.rich_media_global_msg.voice{color:#1aad19;background-color:#e8f6e8;padding-left:43.3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.rich_media_global_msg.voice .ic_voice{position:absolute;top:50%;margin-top:-10px;left:15px;display:inline-block;width:13.3px;height:18.3px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAA3CAYAAAB+fggjAAAAAXNSR0IArs4c6QAACb9JREFUaAW9WX9wVMUd3917d5cf/Agp1OTuQgIlQqUoI1JI1Noojg2I+VU7hVrtDDpadRypgzKjU52x09KOdsS20ypSO/WPWttcAqhTOlSoU4FIoRUn0wEZIMndBUkwGEhyv97bfvaS97L77t3lHYUuc+z3935397vf/e4LJZfQnuPPsW0d25ZQzr9mELKSUnIVzHxB/Dh+lBOKf4OEk0FOyQAl/CyltIt5tL29d/V2FzIkLUQ4FA7dwon+KCF0Fee8rBBdS5aSs/D+PUrYbyKtkb9b9BzAlA7CERrqDN1DOH8C8HU57FwSGat6kBGypbcluhMwFj+75XWwemf1vHQqtZ0T3pCtelkp73uJ79s9bT39dqs5HQyFK79jcPIKFErtSgLHjPvQHQB0EFt2hDE2QHU6RMvpkODrw3o50Uk5p3w2N/SlUKhHTNZjskHBz2pi6ylbH22J/k3mOToYCAceIYT/AgYVPhxJQTkMQ792Ez/yQCY8d0fgRl0nj8J2G5z1mvSJ3qCMrYOTb5l0xQFBDIUDjxmcbzUFJnu621/kf/DUmlM9k7RLh4LtwRChxquck0bFCqWjxENuijXF/iXoioNVnZU36wZ5D7PTTCWsWhyp4uFYa+x1k3Y5ezj6oNgtdTVpL0Lo+mhr9BwO0Xib+/bcWYZB35Sdg/sXsOSNV8o5MXK0LfoKYXQDxpJOMZ8L1g8E33JQT6aeQRoJCOJEMxjxfCvSEtlnEq5Uj5h7Ayv2I8U+5w9du/va0oyD896ZV004RQKebIzQ53EQ/jJJubJQhUa2YBXPmqNgy8vPjZ67N+NgMh6/HwSfyURgniwqLvmJif8/+sNrY6O4XV5WxjKMuvHDQOl9uCksHmX0xydWn0hYBJfAgncXzBhNjjZSnX8Fq3ENdmWWUMUhS2Ebv5HrtjDNg/+B5IY4wos0cVukUskqUwj9xfKS2W9GSEwi5QdxFS5BMn54dGzkHkhOy0x18j9COY1O5VxmhGJylIxMjgUTC7WUkfrqJAkQpfuP3nFUElO4WUgwHHza0HU1wG1SGOi0jeSI+kf92hgZlXg0yajBV0gUwri4vqZud/O7PbhxkGiNvM5NWHKV3NN8LGQbuVdDsYIVzOzHOI+ygzYhR/RAxwdbELcPZDEp+Q+2YQcS2L+Zwc4gdSUQS7Oz5BwIKUqWyq5ApEdDsVmhBKaHnHDQVUg1uwKLkkm+USEScsbjId/ra+7fbaMThMHVdpoTjuyxXloqcUg+Eqe4WBb26/5hGXeCkynyfdA9Fo/SQeZlN/StjUQtmgQUFxVnKhyJlAUGOgP13OC3ygxGWZhhSYtkYqIicUHGnWCUluoFz8mzkRzOCf14Wfyikx2ThvQ0B6XZdvhi1QaoAfZHmiMf40xMJmih4BvxWQnbNCD3i/cunoYab4FMQwr5o4zb4Uh9ZMxOM3Fsf91YfPQfOAeLTJrouYc8K3rEII0ikBcKRLTEhUQNuo8E7NSGh4dnyDOFzIioOpxkZdqyXYGSAV2rMYjhIUamkL2ZcANvG+MWWS4DU/parDm2R8AiBj/Bz3IQe14DPKeDRho1hNyonFplhgp/mmaNhpH6s0VVToNFxR7TPcVFJVZdgMG4cNBq0LvRQhyA2vLaMyDrFouTL169KzBlGkEofdnScQYMXBI/raiuXC1fs4wz2iXLI+U0y7gd3tewL41IVhLvmM6X2eWycM7nZ9EEAXWgWDWPpjWg7tx8+IbD4llhNTadTn8XcWgVBphprbhbLQkngJK/ymTdoE/IuDPME5jYSYx1HLn3EH6/B77Rq/m+FG2L3d7X1Pe+kx5kCBJp4G0clDWmAJTD0db+NhO398GO4G3cMDJBbPIY9bShfgyb+OXqMwGPV9rrskFsc6t4fck0GRZPQ5GnZBpO4x/wvrAmKfP+FzjjYF9zn5i58s0ET8MX8hnGc+BxOGnFi8innBg7UUBsFaV6Pt1CeBMrKD73qG8CbPnKUHvg/lzG+tr6DlGWufJkEWQp/tjgyMBJPF+fWrhj4XSZeSlwJgaFIhyioY7gHvS3moYyK6TRO6JN0b0mzd6HOgIbEBK/gp7fzsOBGMLUX2Z+bWvvnb1T3sd2fYFbDgoET8/56UTqKEBrizDIeY1463tae1BGObeq9qrlBtXb4aRcmVvCmOjneFq+UFZW9lJ3Q3fee9lSmgAUBwUNd+N9CPjfTfDHO0pO+z1FK081nfpUoUuIuKPPD322Gav5OMjWBCURRBGN4GH0QCGvxSwHhcFguPLnGEip97AKXd5y39dPN5yOy4PaYXGrjKToRsTMIzg4M+38cZz+LNYWe8qZp1Izh0QlEVLfctMmzNb6gCP4GGxFcij5W7usHT++NjaI4uHpadr0KkbpZvAH7DKw9iRi98lsejbFcQWF2LJ/LvOe6Yl14m5eLavhU8gqkQdlWj5YnOSL+sXNWNFNmKT1NQsLkGAez3zcIHmfj44rKAYUd2Jxcek6HCP1cHD+Ig5DzonZnT3WdOyCWFGukRUIwkGTL069kdYz319MmlOf00EhjKpiWKPku7IiDF9X3RHMecvIsjIsPqdh1ewO3SXLOMF5HRQKvS39h5GNOmVlnZP1Mu4W9pZ5/4TDZh0ybHkt3iKOqcm0OaWDQpB52DZTQfQo+Vtl3C08kQGO2OStYtlGz6CuHJxZO3MPYnHYMsDJVSKpW3ghAOXKsxaPoup86q4c7F7cncSyHZANGen0Shl3C+PSPy/L4qmZ97525aAwiMLgQ8Uwp8tl3C2MASff00KJMRW3GXLtIFbwY1kXp/kaGXcL42AoDqHit6p5JxuuHfQwj1IvIhFO9QhyGk/QpskM/C3Gyo0y3YRdOzgnNOcTHJS0qYgVrBIfLE28gF75ToN3bySfrmsHM68tTo7JxuKJ+PUyPhWcqbQ5XarI+TRlZxQeENcOjitS5dMc5/oqu8F8+ODI4FrEoPVpBTfL8akK2YIc9DCiFAkoyTbUdNSU5XPK5Im/MQPeZOKZnpNdCu6AFOTgrJLZO2FDrogrUjyxPbQ/VOxgWyG9Fn71h6hoJkMC8exlvl8qQg6I66rE1A22Vz6PEuwZExe92CrQtmmU72U+fzQ9K/15XV1dsuudrhlc50t0XX8Izq1TdAh5I9rWf69Mc4ILdlCU9kNDn32ICvZS0wySAY2W+shSUdw6OSXTCtpioSgePZrPeydWTUncstF8MPRw1dFvunFO2CnYQaGEk3cSn8iWYyVeBGoImqtG6RHxQsQfEJVskE+34C22GxOfb8fiY40owtaAJ0qnciTxcvSlE7VfBPX3IQ8lb/U2R3dgBRGu7tt/AYJkZEGv/oaXAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.rich_media_global_msg.voice .icon_more{position:absolute;right:15px;top:50%;margin-top:-6.5px;width:8px;height:13px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAmCAYAAADeB1slAAAAAXNSR0IArs4c6QAAA49JREFUSA2tVk1IVFEUPveOmhQk1ibfvLFZSJtACqJIIpCIoB+imcFV2Z9ZUVnRomgRGFn2i6mFf5XVotCZMYmgIMhlq6BFENFiwjfPAosgFzXOvNu5o3fmeue98Y16F3PP+c453/fu/xCQmvZSWwwJaC0G6P8WND9IoTmbVFRycpqAdgBWkwRo94V960RsPn1aoPpN9RI6CR0WsDWcjAErtUiqTR/S18+HnNcSTv5zYrwDSatVMgLkH6aciwfj79WYW5+OT4xfsyPnBIgvwt872qBW45ZQzaMlJXCfMPJbDQgfRUoIhduVUW2TwArpaWyX+bnYU9JAAH44FaJIccqCW76Ib7NTjhOOvFPN/8q/IvE3cR+npFJgao9rkiSUXjD2GCNqzMnPbNPYjth3mqINlJAvTsk4kiJmWa3eQe8WpxwVzwjwgFFn/CorL29EkY9qovC5CFDrKq7JVoHl6zNTJCf53/lLk78SN/FcbJRx2cZCixC4ZATGXsu4as8YgQjGamN/q5atOotn4K3A1J4BUMbgsh7Wt6sx2bcV4AkjtSPJxkDjRQL0hVwg21zEglSzN+rdKeOybTtFcgK39ajWZDFWr+IZHxfGQ8mV0YA5nMGmDVcCPNcb8R5gYJ1UCWQfp6PFCI4NyZhrAV6EIiHGrPOAB0ImkW2c0la8u8ICc0wUCWrvC1dsw+3TnN6uanDaJ4zeiIfiA9wtWIAX8XspxeA6iuBlaN88hNzCNXk+JwFOuXJYW5tMQmc+EcqgzXGb2n9XFk1NstX5yKczl89JAF+6vRaBM1m5XAu//qkRGrtb8BThTtqH2/V0LmUWwbvsiREw8X0vcJHxxNbjNm3KUuVaMjmPFuWm2CPesHc/kp+yj06hFMhj/PIOOcfVFLk6xZT0G3vMTpmc27MusityZk/OBfKOwA05MPLIDJn3OJldcxTQotpBYOyEXVEWIw/NoInvuHOznSJfVDs0GzneNw9mI+eyOSPQI9phfCqPO38TFhHaFw/Eu/LliNiMESB5w6zkzD05F8mMYJr8mFC263Fa+vAadvXloj4toEcrjlgMjgrQrseHpBcfkm67WD6M6MN6lTWZeoZjyYxGLcB57MGnsEfF3fjU2G189QBpcUqmBLrnSs4504s8GjLxrwm5qYrg3dKFf6x6VbwQ3yOS/wz8+bS0ruwfELaBY2nyoNkn4gvW65GKRn4WForwP+dONHDaOHeZAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.preview_appmsg .rich_media_title{margin-top:2.3em}@media screen and (min-width:1024px){.rich_media_global_msg{position:relative;margin-bottom:32px}.preview_appmsg .rich_media_title.rich_media_title{margin-top:0}}.pages_reset{color:#333;line-height:1.6;font-size:16px;font-weight:400;font-style:normal;text-indent:0;letter-spacing:normal;text-align:left;text-decoration:none;white-space:normal}.weapp_element,.weapp_display_element,.mp-miniprogram{display:block;margin:1em 0}.share_audio_context{margin:16px 0}.weapp_text_link{font-size:17px}.weapp_text_link:before{content:'';display:inline-block;line-height:1;background-size:contain;background-repeat:no-repeat;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAB4RJREFUWAm1WUuMFGUQnn7szL5mdvbh7GwgEQUlS1weiagxxpigiUZeJgY1cMMDcDCGG8GLCWZvxHjh4BWUeDEsejBBEzWYKBBEiHAABBfCMOwsuzvszrvb+v6Zb7amt1ce0Up6qv6q+qq+/rv778dYkUeUqamp5dFodJPv++ts205blpX2PG8I5cTOiLol44zYZ8vl8vFkMnnlUVpZDwPK5/MpIbWrVqttFlLD0jwiBEHIaNbCGKJjQvai+I9Xq9VD8Xg8y9z76QcimM1mu3t6ej4UYh84jtOFxhBNJGxskhp5xIielZ37bHp6+tNUKnWPOYvp+xKcm5t7S4gclKIpFNGzsmjRkBnUOwNbZjQrtfZ2dnZ+vVgd+O1/CVqlUukjIXZYCqZADBuEJIllc4xh61zmaB9s7LDkHkYPwJgX1KEEx8fHO2TmjkjyPgLQmERIAjHajGnyjDGPOfQ3xvvQCz3ZS+sw5hYAsodbWBhNw4SNGCMBnR/MYS60jskhPyaHe7u4W5otmEGZ8v0gx2YsyDE0bc4Wx8glOe2Dn2No2hqPnuiNXC0tM9i4IA5LcksjNm0BNs417aMNAsRom3HoMD8wsu3QF06TIJaSRCJxXrDmamUBrVEYRejDmDY0JEgsLE4f8mkTj6tb1tsRLkEukiBY56Q4rizThI2okaNtjFlUx+Cr1vzIyTMz7uW/ik4mV7Yd24oMDrR5q1Z01Nav6a5yVsLwcvRS4CI1D5ge+MEdQhbgC1yECSQhjMNsYCGMQ2dzFeuLYxOxibuVBec3cpekY7XtWwZK8a75sMajj2yzcsd5BnccM4PCeg/JoQjJwAY4TFgUMeRjXK54kS/H6uR6e1xvw4vJyuNLYh5yrt8s2d//MtV2M1Nyvvo2F9u5LVUSJEJNPPtKrS7XdXdL6GOzG+LYqIJNUiShYyRDjRw2OXnmnntnsmInE663e3u6uHZVZy2ZsH1sa4Y7ant2DBURu3aj6Jz9c9YBVuNRhz6pvwlju1gsPikzaG78CKIxNgh1sAj91MhFztXrRQf2C+vi1Y721tMC/vZYPQb78rWCE8Tr/uCEJyZbrprNAAST4QOAIGj6qBnDGPjZgmeS0gNRc1jD8D1xx+y978/XJh4awl54nHOl8Do6STKoDarxg5gmxpj2yTEwbtZhDvSlKwUzy+lU1NPxFvz8EcSzpnnYXDCD3AtqFtOFGNM+kMBYx+DzPD/y86m8e+7SnBON2v7qlR01ncP6Gg9uriSlGSSAYyTDhl/7bmTK9tXxkj3ydFetL4lTqT5jyIdgTB/0qT9m3R9/zbvT+Yottfw3XuktJxP1Q61rh/QfcuUcHBKmzcIwdCILQE/crVpHj9+JZe7U17hSyau89lJPxYDVD3KJm5qpWWMnJqMIY+nZvKGv/NQT7ebwcicI5RhYiHBLYx30WQxObWNMyQm5Q0cy7ULK6up0/PUj3dWXn48bckEMGrGZkPJ3bhssunLmLR2qXzyIacxitvT2XZm9jABWMEmD6QPJYzILILdyeWf13Y39ZTSEMAeaQpuxZUujHn26fhCPmI6Dmy0OvIE1AyyqfYWiH7n6d9GJxWz/7df7FpBjLjQETag1Me1HPKxXwJfByXeLRViUYGiI3F/NSYr1raPdNoXh594S75nVT1Z/mUz6kAfhGJp2EI887gRy5Bw0M/g7ndQI0gZISJkpyU6WbTm7m8RYELnFkh+ZnK4/qCTiWF4XXtk6X5NkLjX7iz4rh9keAxBODaKNWKrf9Qd627yC3Cm++2m6DbHWYpHI2Im7UfFZqf6oN9DrmAsPWIquH8QjR8dRG2O88JszW56kTwvRYSayOYtD37xdsT8/ejtWq/nWsqXttdXDHdW+RNTHY9Vv5/IuTgPHtfxd7w0V04/V1ziND5IiCeTofsyTw3tRnqyfNY9b8qg1JkktXwo0EKAlg23eO2/2l7/5YaoNTyPYNIFEt6xxr/aVQQ75QTxJkEBYnDFocEKOqYQHVnn+uiCBLji1IBnCBiVZ+U6fv+dmshV7cqpq9fY4/tBg1HtudXe1zeyuRs9fHMRrEvQBQT9smb1Z+YphHljr3cWJF2gB7NOENAhAjrWGP9iIPuZhDOFYa/hD8KOxWOyAweAHEnxpqnvrvyyofbQZg4boZsEcjrUO4mX2Wl6a6jdhQeAtSoJ70YDNoIMFwmJoqImF5Wgf8jHGRhx0Y9vLNzrkNQligPdRuZpHgyDEKIixMPMQow82/dC04YdgzFwdg0+2Uf1OjPzmOYhBQ6xCoYCX9626WDOo9pqNqHUO7IfBy0XxYJ8+UHdiYuJ9AHQT2GGiycHmmLNDkmFY+JCPXrlcbqcMW28/iCNpEcHnt/3SwHzhQiEIG5JAGDYsN8yHGjil5Ir9BKVDa4U5ta/xveagNDCfRBhDQ5JczEaujhHb0FlclMFzLpDTepEEgxijAL6VSCNcPLPw6aa0oSEgTZsx+GFjwyIsenRmZmbkfuQMDj8PKrjjyCHZIw02im7eGokHAQhnFjZ8GAux/+8jOhoFhX9DCIG1EsPfD9jMC5j4/rO/If4BCiyOk7IAfLMAAAAASUVORK5CYII=');vertical-align:middle;font-size:11px;color:#888;margin-right:6px;margin-top:-3px;background-position:center;height:20px;width:20px}.flex_context{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center}.flex_bd{-webkit-box-flex:1;-webkit-flex:1;flex:1;word-wrap:break-word;word-break:break-all}.original_page{background-color:#fff;font-size:16px}.account_info{padding:0 0 20px}.account_info .flex_bd{padding-left:.85em}.radius_avatar.account_avatar{width:40px;height:40px;padding:0}.account_nickname{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;line-height:1.2;color:#576b95;font-size:14px}.account_nickname_inner{font-weight:400;vertical-align:top}.account_desc{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;color:#b2b2b2;font-size:13px;line-height:1.2;padding-top:.3em}.account_desc_inner{display:inline;vertical-align:top}.share_notice{margin-bottom:20px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.share_media{padding-bottom:18px}.original_panel{padding:20px;background-color:#fcfcfc;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;overflow:hidden;position:relative}.original_panel:after{content:" ";border:1px solid #d8d8d8;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;position:absolute;top:0;left:0;width:200%;height:200%;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}.original_panel .original_account{margin-bottom:18px;position:relative;z-index:1}.original_panel .original_account_avatar{width:28px;height:28px;padding:0}.original_panel .original_account_nickname{padding-left:.85em;font-size:15px;color:#576b95}.original_panel_title{font-size:23px;color:#000;margin:0 0 16px}.original_panel_content{color:#333}.original_panel_tool{padding-top:20px;position:relative;z-index:1}.original_cell_nickname{display:inline-block;vertical-align:middle;font-weight:400;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:8em;color:#000}.original_tool_area{padding:1.17em 0;border-width:0;position:relative}.original_tool_area:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:20px;height:20px;margin-right:.2em}.original_tool_area .flex_cell{padding:0;font-size:14px}.original_tool_area .icon_access:after{margin-right:4px;top:0}.preview_appmsg .rich_media_title{margin-top:1.5em}.preview_appmsg .account_info{padding-top:3em}.original_page{background-color:transparent}.account_info{-webkit-tap-highlight-color:rgba(0,0,0,0);outline:0;padding-bottom:20px;font-size:14px}.account_info.appmsg_account_info{padding-bottom:32px}.account_info .radius_avatar img{background-color:transparent}.share_notice{font-size:16px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.original_panel{background-color:#fafafa}.original_panel:after{border-color:#e6e6e6}.original_panel .original_account_avatar{width:30px;height:30px}.original_panel_tool{font-size:14px}.original_panel_tool a{color:#576b95}.original_panel_content{font-size:17px}.share_media{padding-bottom:30px}.icon_appmsg_tag{display:inline-block;vertical-align:middle;padding:0 .5em;font-size:12px;line-height:1.5;background-color:#c3c3c3;color:#fff;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:70%}.icon_appmsg_tag.primary{color:#3bb638;padding:4px .78em;background-color:rgba(9,187,7,0.08);font-size:12px;border-top-left-radius:.95em 50%;-moz-border-radius-topleft:.95em 50%;-webkit-border-top-left-radius:.95em 50%;border-top-right-radius:.95em 50%;-moz-border-radius-topright:.95em 50%;-webkit-border-top-right-radius:.95em 50%;border-bottom-left-radius:.95em 50%;-moz-border-radius-bottomleft:.95em 50%;-webkit-border-bottom-left-radius:.95em 50%;border-bottom-right-radius:.95em 50%;-moz-border-radius-bottomright:.95em 50%;-webkit-border-bottom-right-radius:.95em 50%}.icon_appmsg_tag.default{border:1px solid rgba(0,0,0,0.1);color:rgba(0,0,0,0.3);background-color:transparent;padding:0 .54em;font-size:15px;line-height:1.3;border-top-left-radius:.67em 50%;-moz-border-radius-topleft:.67em 50%;-webkit-border-top-left-radius:.67em 50%;border-top-right-radius:.67em 50%;-moz-border-radius-topright:.67em 50%;-webkit-border-top-right-radius:.67em 50%;border-bottom-left-radius:.67em 50%;-moz-border-radius-bottomleft:.67em 50%;-webkit-border-bottom-left-radius:.67em 50%;border-bottom-right-radius:.67em 50%;-moz-border-radius-bottomright:.67em 50%;-webkit-border-bottom-right-radius:.67em 50%}.rich_media_meta_list .icon_appmsg_tag.default{margin-top:-1px}.icon_appmsg_tag.title_tag{background-color:#d04b4e}.icon_global_tag_wrp{text-align:right;padding-bottom:12px}.icon_global_tag{background-color:rgba(118,118,118,0.16);color:rgba(0,0,0,0.41);line-height:2.2;border-top-left-radius:1em 50%;-moz-border-radius-topleft:1em 50%;-webkit-border-top-left-radius:1em 50%;border-bottom-left-radius:1em 50%;-moz-border-radius-bottomleft:1em 50%;-webkit-border-bottom-left-radius:1em 50%;padding:0 1.8em 0 1.34em;font-size:12px;margin-right:-24px;display:inline-block;vertical-align:top}.global_plain_btn{display:inline-block;vertical-align:middle;padding:0 1em;line-height:2;font-size:14px;-webkit-tap-highlight-color:rgba(0,0,0,0);border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px}.global_plain_btn.primary{color:#1aad19;border:1px solid currentColor}.global_plain_btn.primary:active{color:rgba(26,173,25,0.6)}.wx_video_context{color:#fefefe;position:relative;background-color:#000}.wx_video_thumb,.wx_video_thumb_primary{position:absolute;left:0;width:100%;height:100%!important;top:0}.wx_video_thumb_primary{-webkit-background-size:cover;background-size:cover;background-position:50% 50%;background-repeat:no-repeat}.wx_video_play_btn{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);margin-top:-2px;font-size:0;border-width:0;background-color:transparent;padding:0;outline:0;z-index:2}.wx_video_play_btn:before{content:" ";display:inline-block;width:0;height:0;border-width:14px 0 14px 25px;border-color:transparent transparent transparent #fff;border-style:dotted dotted dotted solid}.wx_video_mask{position:absolute;top:0;left:0;right:0;bottom:0;z-index:1;background-color:rgba(0,0,0,0.5)}.place_audio_area{min-height:100px;background-color:#fdfdfd;display:block;margin:16px 0}.place_music_area{min-height:68px;background-color:#fdfdfd;display:block;margin:17px 0 16px}.rich_media_empty_extra{background-color:#fafafa}.appmsg_skin_default.rich_media_empty_extra{background-color:#fff}.appmsg_skin_default .rich_media_area_primary{background-color:#fff}.appmsg_skin_default .rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{background-color:#fff}.appmsg_style_default .rich_media_tool{padding-top:15px}.rich_media_title_ios{font-weight:700}.read-more__area{margin:30px 0}.read-more__desc{margin-bottom:10px}.read-more__article__extra{font-size:14px;color:rgba(0,0,0,0.5)}.read-more__article__item{margin-bottom:10px}</style>
+<style>
+        </style>
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/pc435ee6.css">
+<![endif]-->
+
+    </head>
+    <body id="activity-detail" class="zh_CN mm_appmsg  appmsg_skin_default appmsg_style_default">
+        
+<script nonce="1038724880" type="text/javascript">
+    var biz = ""||"MzI2MDc2MDA4OA==";
+    var sn = "" || ""|| "4ed66928275e7804733d6bf27b1fba34";
+    var mid = "" || ""|| "2247484717";
+    var idx = "" || "" || "1";
+    window.__allowLoadResFromMp = true; 
+    
+        
+</script>
+<script nonce="1038724880" type="text/javascript">
+var page_begintime=+new Date,is_rumor="",norumor="";
+1*is_rumor&&!(1*norumor)&&biz&&mid&&(document.referrer&&-1!=document.referrer.indexOf("mp.weixin.qq.com/mp/rumor")||(location.href="http://mp.weixin.qq.com/mp/rumor?action=info&__biz="+biz+"&mid="+mid+"&idx="+idx+"&sn="+sn+"#wechat_redirect"));
+</script>
+<script nonce="1038724880" type="text/javascript">
+var MutationObserver=window.WebKitMutationObserver||window.MutationObserver||window.MozMutationObserver,isDangerSrc=function(t){
+if(t){
+var e=t.match(/http(?:s)?:\/\/([^\/]+?)(\/|$)/);
+if(e&&!/qq\.com(\:8080)?$/.test(e[1])&&!/weishi\.com$/.test(e[1]))return!0;
+}
+return!1;
+},ishttp=0==location.href.indexOf("http://");
+-1==location.href.indexOf("safe=0")&&ishttp&&"function"==typeof MutationObserver&&"mp.weixin.qq.com"==location.host&&(window.__observer_data={
+count:0,
+exec_time:0,
+list:[]
+},window.__observer=new MutationObserver(function(t){
+window.__observer_data.count++;
+var e=new Date,r=[];
+t.forEach(function(t){
+for(var e=t.addedNodes,o=0;o<e.length;o++){
+var n=e[o];
+if("SCRIPT"===n.tagName){
+var i=n.src;
+isDangerSrc(i)&&(window.__observer_data.list.push(i),r.push(n)),!i&&window.__nonce_str&&n.getAttribute("nonce")!=window.__nonce_str&&(window.__observer_data.list.push("inlinescript_without_nonce"),
+r.push(n));
+}
+}
+});
+for(var o=0;o<r.length;o++){
+var n=r[o];
+n.parentNode&&n.parentNode.removeChild(n);
+}
+window.__observer_data.exec_time+=new Date-e;
+}),window.__observer.observe(document,{
+subtree:!0,
+childList:!0
+})),function(){
+if(-1==location.href.indexOf("safe=0")&&Math.random()<.01&&ishttp&&HTMLScriptElement.prototype.__lookupSetter__&&"undefined"!=typeof Object.defineProperty){
+window.__danger_src={
+xmlhttprequest:[],
+script_src:[],
+script_setAttribute:[]
+};
+var t="$"+Math.random();
+HTMLScriptElement.prototype.__old_method_script_src=HTMLScriptElement.prototype.__lookupSetter__("src"),
+HTMLScriptElement.prototype.__defineSetter__("src",function(t){
+t&&isDangerSrc(t)&&window.__danger_src.script_src.push(t),this.__old_method_script_src(t);
+});
+var e="element_setAttribute"+t;
+Object.defineProperty(Element.prototype,e,{
+value:Element.prototype.setAttribute,
+enumerable:!1
+}),Element.prototype.setAttribute=function(t,r){
+"SCRIPT"==this.tagName&&"src"==t&&isDangerSrc(r)&&window.__danger_src.script_setAttribute.push(r),
+this[e](t,r);
+};
+}
+}();
+</script>
+
+        <link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<script nonce="1038724880" type="text/javascript">
+    String.prototype.html = function(encode) {
+        var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&yen;", "¥", "&amp;", "&"];
+        
+		
+		
+		
+		
+        
+        var replaceReverse = ["&", "&amp;", "¥", "&yen;", "<", "&lt;", ">", "&gt;", " ", "&nbsp;", '"', "&quot;", "'", "&#39;"];
+	    var target;
+	    if (encode) {
+	    	target = replaceReverse;
+	    } else {
+	    	target = replace;
+	    }
+        for (var i=0,str=this;i< target.length;i+= 2) {
+             str=str.replace(new RegExp(target[i],'g'),target[i+1]);
+        }
+        return str;
+    };
+
+    window.isInWeixinApp = function() {
+        return /MicroMessenger/.test(navigator.userAgent);
+    };
+
+    window.getQueryFromURL = function(url) {
+        url = url || 'http://qq.com/s?a=b#rd'; 
+        var tmp = url.split('?'),
+            query = (tmp[1] || "").split('#')[0].split('&'),
+            params = {};
+        for (var i=0; i<query.length; i++) {
+            var arg = query[i].split('=');
+            params[arg[0]] = arg[1];
+        }
+        if (params['pass_ticket']) {
+        	params['pass_ticket'] = encodeURIComponent(params['pass_ticket'].html(false).html(false).replace(/\s/g,"+"));
+        }
+        return params;
+    };
+
+    (function() {
+	    var params = getQueryFromURL(location.href);
+        window.uin = params['uin'] || "" || '';
+        window.key = params['key'] || "" || '';
+        window.wxtoken = params['wxtoken'] || '';
+        window.pass_ticket = params['pass_ticket'] || '';
+        window.appmsg_token = "";
+    })();
+
+    function wx_loaderror() {
+        if (location.pathname === '/bizmall/reward') {
+            new Image().src = '/mp/jsreport?key=96&content=reward_res_load_err&r=' + Math.random();
+        }
+    }
+
+</script>
+
+<script nonce="1038724880" type="text/javascript">
+        window.__moon_report_uin = "0";
+            window.no_moon_ls = 0;
+    </script>
+
+        
+<script nonce="1038724880" type="text/javascript">
+    var write_sceen_time = (+new Date()); 
+</script>
+
+<div id="js_article" class="rich_media">
+    
+    <div id="js_top_ad_area" class="top_banner"></div>
+    
+    <div class="rich_media_inner">
+
+        
+        
+        <div id="page-content" class="rich_media_area_primary">
+          <div class="rich_media_area_primary_inner">
+                                    
+                        
+
+            <div id="img-content">
+
+                
+                <h2 class="rich_media_title" id="activity-name">
+                    
+                    
+                    摩诃草APT组织针对我国敏感机构最新的网络攻击活动分析
+
+                                                                                </h2>
+                <div id="meta_content" class="rich_media_meta_list">
+                                                                                
+                                        <span class="rich_media_meta rich_media_meta_nickname" id="profileBt">
+                      <a href="javascript:void(0);" id="js_name">
+                        360威胁情报中心                      </a>
+                      <div id="js_profile_qrcode" class="profile_container" style="display:none;">
+                          <div class="profile_inner">
+                              <strong class="profile_nickname">360威胁情报中心</strong>
+                              <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">微信号</label>
+                              <span class="profile_meta_value"></span>
+                              </p>
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">功能介绍</label>
+                              <span class="profile_meta_value">威胁情报信息共享，事件预警通报，攻击事件分析报告，恶意软件分析报告</span>
+                              </p>
+                              
+                          </div>
+                          <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">
+                              <i class="profile_arrow arrow_out"></i>
+                              <i class="profile_arrow arrow_in"></i>
+                          </span>
+                      </div>
+                    </span>
+
+
+                    <em id="publish_time" class="rich_media_meta rich_media_meta_text"></em>
+
+
+
+
+
+                </div>
+                
+                
+                
+                
+                                                
+                                                                
+                                
+                
+                <div class="rich_media_content " id="js_content">
+                    
+
+                    
+
+                    
+                    
+                    <h2 class="line" data-line="0" style="box-sizing: border-box;margin-bottom: 0.5rem;line-height: 1.2;color: rgb(57, 71, 84);"><span style="font-size: 20px;"><strong style="box-sizing: border-box;">背景</strong></span></h2><p class="line" data-line="2" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">摩诃草组织（APT-C-09），又称HangOver、VICEROY TIGER、The Dropping Elephant、Patchwork，是一个来自于南亚地区的境外APT组织，该组织已持续活跃了8年。摩诃草组织最早由Norman安全公司于2013年曝光，该组织主要针对中国、巴基斯坦等亚洲地区和国家进行网络间谍活动。在针对中国地区的攻击中，该组织主要针对政府机构、科研教育领域进行攻击。</p><p class="line" data-line="4" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">在2018年春节前后，360威胁情报中心与360安全监测与响应中心协助用户处理了多起非常有针对性的鱼叉邮件攻击事件，发现了客户邮件系统中大量被投递的鱼叉邮件，被攻击的单位为某些重要敏感的政府机构。而经过溯源分析与关联，幕后团伙正是摩诃草组织（APT-C-09）。360威胁情报中心在本文中对本次攻击活动的过程与细节进行揭露，希望企业组织能够引起重视，并采取必要的应对措施。</p><h2 class="line" data-line="6" style="box-sizing: border-box;margin-bottom: 0.5rem;line-height: 1.2;color: rgb(57, 71, 84);"><span style="font-size: 20px;"><strong style="box-sizing: border-box;">鱼叉邮件</strong></span></h2><p class="line" data-line="8" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">2018年春节前后，一些重要敏感的政府机构接连收到一些带有链接的鱼叉邮件，诱导用户点击邮件的链接下载打开带漏洞的Office文档，一旦用户下载并打开文档，则会促发漏洞并继续下载执行远控木马长期控制用户电脑。</p><p class="line" data-line="10" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">攻击者向目标发送与其工作内容相关的邮件信息，并诱导目标通过邮件中的链接下载附件文档，部分鱼叉邮件如下：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.3684210526315789" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkicArP7I92iaFH7DuQdicuv3n1Tr6nlnzR7jIEYQutqvA1TR4wLMoIr3Cg/640?wx_fmt=png" data-type="png" data-w="817" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.28413284132841327" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkfB3fZT8iaibHRGL7nficy8zicvCMTbM3ibL2njLzxicSWiafrrU4REHKibgxbw/640?wx_fmt=png" data-type="png" data-w="813" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p class="line" data-line="16" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">而下载回来的文档则是利用了CVE-2017-8570的Office漏洞文档，360威胁情报中心曾在2018年1月首次公开分析了利用CVE-2017-8570进行攻击的野外样本（详见参考 [1]），由于该漏洞弥补了CVE-2017-0199的天生缺陷，可以看到该漏洞Exploit被公开后，马上就被摩诃草APT组织纳入使用。</p><h2 class="line" data-line="18" style="box-sizing: border-box;margin-bottom: 0.5rem;line-height: 1.2;color: rgb(57, 71, 84);"><span style="font-size: 20px;"><strong style="box-sizing: border-box;">样本分析</strong></span></h2><h3 class="line" data-line="20" style="box-sizing: border-box;margin-bottom: 0.5rem;color: rgb(57, 71, 84);"><span style="font-size: 18px;"><strong style="box-sizing: border-box;">样本执行过程</strong></span></h3><p class="line" data-line="22" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">目标用户一旦通过邮件中的链接下载并打开带有漏洞的Office文档，则会触发漏洞并执行恶意脚本，恶意脚本会继续下载执行远控木马，并筛选特定目标继续下发执行特定的木马模块，整个样本执行流程如下：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.9318497913769124" data-src="https://mmbiz.qpic.cn/mmbiz_jpg/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkPUR1kGSYicagkvmYg9UZruTFBW2nNS8G6jN6QevYQLuTG8YlyAkC5Sw/640?wx_fmt=jpeg" data-type="jpeg" data-w="719" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><h3 class="line" data-line="26" style="box-sizing: border-box;margin-bottom: 0.5rem;color: rgb(57, 71, 84);"><span style="font-size: 18px;"><strong style="box-sizing: border-box;">漏洞文档（CVE-2017-8570）分析</strong></span></h3><p class="line" data-line="28" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">下载回来的文档为利用CVE-2017-8570的漏洞文档（漏洞详细分析见参考[1]）。漏洞利用样本包含三个Objdata，其中两个为Package对象，一个为包含CVE-2017-8570漏洞的OLE2Link。样本利用RTF文档自动释放Package对象的特性，将包含的两个Package对象释放至%TMP%目录下，最后通过CVE-2017-8570触发执行释放的恶意脚本，再通过脚本执行释放的EXE文件，Objdata对象信息如下：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.6992592592592592" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkRJY0K6NHqdob7HkibBkwH2Gr2BPQ52fia5xFzHiakZDJNT0bxB0Mx8MWw/640?wx_fmt=png" data-type="png" data-w="675" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p class="line" data-line="32" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">包含漏洞的OLE2Link对象中设置File Moniker对应的文件为Z24UY3F0IYDULRD.sct脚本，漏洞触发后通过COM接口加载并执行：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.30786516853932583" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkvox8SBwicwbTicBTibhWAMvAj7OiaCiaHAd669iaRb6Jwaia5lrtUs0waNzicA/640?wx_fmt=png" data-type="png" data-w="1335" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p class="line" data-line="36" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">Z24UY3F0IYDULRD.sct为Scriptletfile，其主要功能为通过WScript.Shell接口启动执行%TMP%目录下的qrat.exe木马程序：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.3512345679012346" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkibHic0p7kcf9C1XibeoUDDdNnJ4xYXChKw8QOq3S3X4tmcxkXcfKNmSpA/640?wx_fmt=png" data-type="png" data-w="1620" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><h3 class="line" data-line="40" style="box-sizing: border-box;margin-bottom: 0.5rem;color: rgb(57, 71, 84);"><span style="font-size: 18px;"><strong style="box-sizing: border-box;">qrat.exe</strong></span></h3><p class="line" data-line="42" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">释放的qrat.exe为C#编译的Dropper，使用.NET Reactor 4.x加壳，程序内的Form1.dllcopy函数负责从资源中释放出Microsoft.Win32.TaskScheduler.dll，并释放到同目录下，Form1.Stask函数则设置计划任务，而Form1.execopy负责从资源中释放文件到：%appdata%\Microsoft Network\microsoft_network\1.0.0.0\ microsoft_network.exe，最后删除自身以及Microsoft.Win32.TaskScheduler.dll并退出：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="1" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkGUeklach6S49RM7RDT6wH5VibvEES06kbQ6KWmYWL2PGKwH3pzJ4CAA/640?wx_fmt=png" data-type="png" data-w="438" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.3050058207217695" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkYodBvWliaJrqKMlkUiby3jyfdsbDP15X2x3ghv09q0plBSeMwuuMnj6A/640?wx_fmt=png" data-type="png" data-w="859" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p class="line" data-line="48" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">主控程序会通过Microsoft.Win32.TaskScheduler.dll添加计划任务，使得释放的恶意程序microsoft_network.exe在每天0点启动，每5分钟重复执行一次，持续60天：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.5160955347871236" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkO9F16zCCUFltz3vr1RY2chMBqEwAqDtnDKvt3FYQHPlvZRXD3hWia8Q/640?wx_fmt=png" data-type="png" data-w="963" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p class="line" data-line="52" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">Microsoft.Win32.TaskScheduler.dll是一个计划任务的开源项目，带有AirVPN的正常签名，这有可能使得添加计划任务时能躲避杀毒软件的拦截：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="1.3019323671497585" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqklMoTcw5Caa5CSs5GEzQZMcT8GQ9QJVv170q81vaNQRU85IsPWBy1tA/640?wx_fmt=png" data-type="png" data-w="414" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="50%"  /></p><p class="line" data-line="56" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">microsoft_network.exe由C++编译，其会从从资源取数据，每1024字节解密一次：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.4369134515119917" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkT26CM4Z02PicvgNpibL3BYo53zlLHIUHqlibxSZsic6egjib7TeDNzlU7fw/640?wx_fmt=png" data-type="png" data-w="959" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p class="line" data-line="60" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">解密算法：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.49437229437229435" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkPItaoQ0BVEcw6JwradNnrptNoAfYpYibTBd8E1ElA4MzRVV4EzpLQbA/640?wx_fmt=png" data-type="png" data-w="1155" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p class="line" data-line="64" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">解密后的数据通过zlib解压：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.13915416098226466" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkTiapt6z5gCUMYlujg9GdLLDUMRJjrSsjia5PdCJibVUzAorOVzUJGuLkA/640?wx_fmt=png" data-type="png" data-w="733" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p class="line" data-line="68" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">解压后的PE为C#编写的DLL文件：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.5476190476190477" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkMTqaVjjIlm7MQ9TDU0MUSME5Qibibw4UkUumOtG6U8hCEtnia7gJ1CD3Q/640?wx_fmt=png" data-type="png" data-w="630" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p class="line" data-line="72" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">最后通过CLR寄宿在C++的进程空间中加载C# DLL程序，调用类名为”_._”中”___”函数：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.8402646502835539" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkmD3NmKcTJlscb94xv3uONbKxY44WVZSEQQXzHsvtIpqdw44kvNeaog/640?wx_fmt=png" data-type="png" data-w="1058" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p class="line" data-line="76" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">通过“___” 函数加载资源“_”并运行：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.45384615384615384" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkwriaUNzo64hNQ6mgKfHoUU3A2WkKVtEawkQnDwg1sHZ0N5TNZGuIKLA/640?wx_fmt=png" data-type="png" data-w="780" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><h3 class="line" data-line="80" style="box-sizing: border-box;margin-bottom: 0.5rem;color: rgb(57, 71, 84);"><span style="font-size: 18px;"><strong style="box-sizing: border-box;">xRAT</strong></span></h3><p class="line" data-line="82" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">最终被执行的模块为C#编写的远控程序，其代码被严重混淆，去混淆后，发现该木马结构与GitHub上的开源远控项目xRAT的某个版本的代码结构完全一致（2015年xRAT已改名为QuasarRAT）。因此确定主控木马为xRAT：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.619644723092999" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkFVltyuadcWpzEkj4So9c2rUjHYNI9n1UXmcXJqy7FbIwvDmw63TjXQ/640?wx_fmt=png" data-type="png" data-w="957" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p class="line" data-line="87" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">使用GitHub上下载的xRAT客户端源码进行编译，并劫持上线域名到本地成功上线：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.6050338818973863" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkib6Aquv79EuP8Pxea78C0mw9DJRJhF90Wqrgibt1ltFvSKyFltSYiaEGw/640?wx_fmt=png" data-type="png" data-w="1033" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><h4 class="line" data-line="91" style="box-sizing: border-box;margin-bottom: 0.5rem;color: rgb(57, 71, 84);"><strong><span style="font-size: 16px;">远控功能</span></strong></h4><p class="line" data-line="93" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">样本运行后，首先利用AES算法解密自身的配置文件：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.6214689265536724" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkWZ0mxku6ntG54ibTPJFFCIaKIVZlAEeOFEia4lxiaNCypm0uwbPibJ39nw/640?wx_fmt=png" data-type="png" data-w="885" style="width: 387px;height: 241px;"  /></p><p class="line" data-line="97" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">解密后的配置信息：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.4019607843137255" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkdtiarXNzcZp67H2iaRSZpRN2CblaMviab8EPselhXFDmnJJGmdCiaGNN1g/640?wx_fmt=png" data-type="png" data-w="408" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p class="line" data-line="101" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">C2地址为：tautiaos.com</p><p class="line" data-line="103" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">上线端口：23**8</p><p class="line" data-line="105" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">上线密码：g00gle@209.58.185.36</p><p class="line" data-line="107" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">解密完成后，获取本机得操作系统信息、IP地址、所属国家地区等信息，然后设置注册表启动项：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.7343565525383707" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkICichYeDU1F56yv4bfMgmPje5RcoRzUZwVyDtWbbia0uWHmv9JPdYaDA/640?wx_fmt=png" data-type="png" data-w="847" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p class="line" data-line="111" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">最后连接到C2服务器，将收集的信息传回C2服务器，并根据服务器端返回的数据进行命令分发，最终实现以下主要远控功能：</p><ul style="" class=" list-paddingleft-2"><li><p style="box-sizing: border-box;margin-bottom: 1rem;line-height: 1.714;text-indent: 25px;word-wrap: break-word;text-align: justify;"><span style="font-size: 14px;">文件管理</span></p></li><li><p style="box-sizing: border-box;margin-bottom: 1rem;line-height: 1.714;text-indent: 25px;word-wrap: break-word;text-align: justify;"><span style="font-size: 14px;">屏幕控制</span></p></li><li><p style="box-sizing: border-box;margin-bottom: 1rem;line-height: 1.714;text-indent: 25px;word-wrap: break-word;text-align: justify;"><span style="font-size: 14px;">上传执行</span></p></li><li><p style="box-sizing: border-box;margin-bottom: 1rem;line-height: 1.714;text-indent: 25px;word-wrap: break-word;text-align: justify;"><span style="font-size: 14px;">远程SHELL</span></p></li><li><p style="box-sizing: border-box;margin-bottom: 1rem;line-height: 1.714;text-indent: 25px;word-wrap: break-word;text-align: justify;"><span style="font-size: 14px;">进程管理</span></p></li><li><p style="box-sizing: border-box;margin-bottom: 1rem;line-height: 1.714;text-indent: 25px;word-wrap: break-word;text-align: justify;"><span style="font-size: 14px;">网站访问</span></p></li></ul><h3 class="line" data-line="125" style="box-sizing: border-box;margin-bottom: 0.5rem;color: rgb(57, 71, 84);"><span style="font-size: 18px;"><strong style="box-sizing: border-box;">筛选目标并下发特定模块</strong></span></h3><p class="line" data-line="127" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">攻击者会筛选感兴趣的目标进一步下发特定模块执行特定功能，通过360威胁情报数据平台的关联分析，捕获到以下特定模块：</p><table width="1108" style="width: 738px;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;"><strong style="box-sizing: border-box;">MD5</strong></span></td><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;"><strong style="box-sizing: border-box;">路径</strong></span></td><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;"><strong style="box-sizing: border-box;">功能</strong></span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">e42a8cef2e70d4f3c96c2b8073e7d396</span></td><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">%appdata%\winfont.exe</span></td><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">收集文件模块</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">0fa12f215b8c5cfed492d3c5ee2867b3</span></td><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">%appdata%\mssctlr.exe</span></td><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">键盘记录模块</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">5c3456d5932544b779fe814133344fdb</span></td><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">%appdata%\vsrss.exe</span></td><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">下载执行模块</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">f396b476413558266f3abd336e06cbfc</span></td><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">%appdata%\winupdate.exe</span></td><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">下载执行模块[测试版]</span></td></tr></tbody></table><h4 class="line" data-line="138" style="box-sizing: border-box;margin-bottom: 0.5rem;color: rgb(57, 71, 84);"><strong style="box-sizing: border-box;">文件收集</strong></h4><p class="line" data-line="140" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">winfont.exe为文档收集模块，主要功能为遍历计算机目录获取特定文档并发送给远程服务器，该样本会创建一个240000ms间隔的定时器，并每间隔240000ms遍历特定后缀文件：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="1.4770992366412214" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqk85zMoYVWeLD509j29kz0cD8GlFTvkoXz1r9JJ7JWWoD2Nibrd8LsRVA/640?wx_fmt=png" data-type="png" data-w="524" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p class="line" data-line="144" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">而在定时器函数内部，首先会获取过滤文件的后缀进行解密，解密前的文件夹名称字符串和文件类型字符串存储于TFORM1窗口中不同的TlistBox控件处，并通过发送类型为LB_GETTEXT消息到指定窗口，获取字符串进行解密：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.6737704918032786" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkxia7ObU4Q0PYfIDI6SS45hKX8oJwib70Wlv9JnISiblTWvXuGq3oQqV8w/640?wx_fmt=png" data-type="png" data-w="610" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p class="line" data-line="148" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">字符串解密算法为将字符串”odsf””qdsd”反转、拼接操作后，和0x1F按位与运算作为密钥，解密字符串：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="1.1687898089171975" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkwiaNYEMtrkuq7BlQSaD9JqHY7WFdicdmq1lks3icoiaIz33QT4Ekia3CibpQ/640?wx_fmt=png" data-type="png" data-w="628" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p class="line" data-line="152" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">解密后字符串如下：</p><center style="box-sizing: border-box;color: rgb(57, 71, 84);"><table width="1108" style="width: 738px;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">收集的文件类型</span></td><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">"doc"<br style="box-sizing: border-box;"  />"docx"<br style="box-sizing: border-box;"  />"xls"<br style="box-sizing: border-box;"  />"xlsx"<br style="box-sizing: border-box;"  />"pdf"<br style="box-sizing: border-box;"  />"ppt"<br style="box-sizing: border-box;"  />"pptx"<br style="box-sizing: border-box;"  />"csv"</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">排除的文件夹</span></td><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">"MSOCache"<br style="box-sizing: border-box;"  />"PerfLogs"<br style="box-sizing: border-box;"  />"Program Files"<br style="box-sizing: border-box;"  />"Program Files(x86)"<br style="box-sizing: border-box;"  />"ProgramData"<br style="box-sizing: border-box;"  />"Windows"<br style="box-sizing: border-box;"  />"Windows"<br style="box-sizing: border-box;"  />"AppData"<br style="box-sizing: border-box;"  />"Application Data"<br style="box-sizing: border-box;"  />"$Recycle.Bin"</span></td></tr></tbody></table></center><p class="line" data-line="161" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">遍历计算机文件夹，排除特定文件夹后，获取特定文件夹中文档文件，并将收集的文件完整路径写入文件%AppData%\Identities\log.dat中：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.723342939481268" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkNJCiaNQpzmhoFDz8PagrQ9nxFNI8ia0CaSz1dDqDibVpEn3yJhiaicrLicwA/640?wx_fmt=png" data-type="png" data-w="1041" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p class="line" data-line="165" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">再在目录Startup目录下创建快捷方式window updater.lnk指向自身，实现自启动：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.23751522533495736" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkG65fw7MgiaICuKbvc0NL2UicrGTeib2xWWt5Yp2RtVtuZP7gKc73qgRMQ/640?wx_fmt=png" data-type="png" data-w="821" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p class="line" data-line="169" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">最后构造POST包，将获取的.doc, .docx, .xls, .xlsx, .pdf, .ppt, .pptx, .csv类型文件内容直接通过HTTP表单提交的方式发送至远程服务器（http://saicgovcn.xyz/systemdb.php）。其中v1字段为字符串“Backup/用户名-计算机名/文件盘符”， Filename字段为发送文件的文件名：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.4681960375391032" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkzl5DfqNKiccehibxniaH9EZibGHdxPI9amDYYXmvQY5HdezIFZDDY1CYnA/640?wx_fmt=png" data-type="png" data-w="959" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p class="line" data-line="173" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">发送的数据包如下：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.37268847795163584" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqk3xydG29SBm5RiaOib5AnGmSrAQvfG8uu9picFy2QUOC20Fm7lqNJTF51Q/640?wx_fmt=png" data-type="png" data-w="703" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><h4 class="line" data-line="177" style="box-sizing: border-box;margin-bottom: 0.5rem;color: rgb(57, 71, 84);"><strong style="box-sizing: border-box;">键盘记录</strong></h4><p class="line" data-line="179" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">键盘记录的插件使用Dephi编写，其首先会创建一个指向自己的快捷方式，放置到启动目录下：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.3732142857142857" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqk1libTXbZ6icdrdtVUUTKLMQtGibTYUWwMFb4iciaggnG0cqAzlqOdy3zIicg/640?wx_fmt=png" data-type="png" data-w="560" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p class="line" data-line="183" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">然后通过GetKeyboardState记录击键内容，以及焦点窗口的标题，一起记录到本地文件中：</p><p class="line" data-line="185" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">%AppData%\Identities\version.dat</p><p class="line" data-line="187" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">记录格式如下：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.3408408408408408" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkarYd15xpHFbpATe736g5G6PichGRHUuB9MAicXdrU9nSoJ1fIvCzvSEg/640?wx_fmt=png" data-type="png" data-w="666" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p class="line" data-line="191" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">最后把键盘记录的信息通过form的形式提交到服务器：</p><p class="line" data-line="193" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">hxxp://sz81orgcn.com/autoupdate.php?v1=Dwrite/计算机名-用户名，如图：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.38155136268343814" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkHXxPkxGSvIyDBNbnSF8CWWe86icQecJZYRib0LHDsw0DFI6wX1Wp7PuQ/640?wx_fmt=png" data-type="png" data-w="954" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><h4 class="line" data-line="197" style="box-sizing: border-box;margin-bottom: 0.5rem;color: rgb(57, 71, 84);"><strong style="box-sizing: border-box;">下载执行</strong></h4><p class="line" data-line="199" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">vsrss.exe是一个下载执行模块，该模块会先创建自身的快捷方式到启动文件夹，然后设置两个定时器，第一个定时器每隔240秒会请求URL：</p><p class="line" data-line="201" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">http://ebeijingcn.live/templates/software.php</p><p class="line" data-line="203" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">然后通过返回的结果判断是否需要下载执行程序，如果返回的数据里有用于下载的URL，则通过UrlDownLoadToFile下载文件到%AppData%\Microsoft\Network目录并执行，另外一个定时器每隔180秒执行一次，会将机器名和一些杀软信息发送至服务器上。</p><p class="line" data-line="205" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">初始化的时候会解密出一些需要的字符串的路径和URL：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="1.0364145658263306" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkjmjrEyZGvHTKw7EH7wH1sYdqFT4D7icypCyLfOlribNHGawWZaK2gO6Q/640?wx_fmt=png" data-type="png" data-w="714" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p class="line" data-line="209" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">解密出URL：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.25" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqk1LaurUHiblKdqsK2JbUWltpvnPPsgeW6Yckmd4jIMLVQGzrxVEJWM6Q/640?wx_fmt=png" data-type="png" data-w="976" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p class="line" data-line="213" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">通过WQL查找杀软：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.27150837988826815" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkctPpUIPJ3DwdoYrgMZxziatlaPEqvUFARm3JojGdCxdAEyPb5rCmGRg/640?wx_fmt=png" data-type="png" data-w="895" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p class="line" data-line="217" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">机器码的算法是获取用户名和机器名，用_连接起来，然后和加密密钥{$%^^%$}运算生成256字节的字典，然后数据和生成的字典异或运算后(类RC4算法)，转换成hex值：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.13613861386138615" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkFZ2huM8O0Obe5BVPtA8gicbcM9rVb06FIQMkibiciaENpNUjgDKBPZgqsQ/640?wx_fmt=png" data-type="png" data-w="404" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p class="line" data-line="221" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">下图为生成字典的代码：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="1.2084006462035541" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkqR39PkuKTz5kAYmwQr440psn4HzKC57B0aRpyEvEPX2PkpQVcA4dAQ/640?wx_fmt=png" data-type="png" data-w="619" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p class="line" data-line="225" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">下图为和生成的字典运算生成加密数据的代码：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.41530054644808745" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkcoBMxO0fsEouBNBEiaxZCJcO4nCmJQW7hibWY5gMWgrIbUVx7oSndRhg/640?wx_fmt=png" data-type="png" data-w="915" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p class="line" data-line="229" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">定时器的内部的功能为每间隔240000ms执行一次请求URL操作，如果返回的数据是需要下载执行的，就会从返回的数据里取到URL下载文件并执行：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="1.0234680573663624" data-src="https://mmbiz.qpic.cn/mmbiz_jpg/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkJ2gyb052GxldxbRhf8ucZbXrDxXe8GaWCsffmtPxDA1YTxibwLhohVg/640?wx_fmt=jpeg" data-type="jpeg" data-w="767" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><p class="line" data-line="234" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">最后通过另外一个定时器每隔180000ms执行一次，触发定时器函数通过POST请求把其他的信息发送到URL： http://ebeijingcn.live/templates/software.php，请求格式为：</p><p class="line" data-line="236" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);"><code style="box-sizing: border-box;display: inline;padding: 2px;overflow-y: auto;">http://ebeijingcn.live/templates/software.php?cx=A44F63F1FFA477BCDB74FE69E54E94C20C2B0A&amp;b=A4457AF1E7A476BDDA35C449E331E0&amp;gt=A4457AF1E7A476BDDA35C449E331E09D48705E5ACACF76511A47C0&amp;tx=D06224ACBCFB41FC91678213A55A909A4E7C282CC0CD6F511847C0C778EA5553</code></p><p class="line" data-line="240" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">GET请求中的各参数含义：</p><table width="1108" style="width: 738px;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">GET参数</span></td><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">含义</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">b</span></td><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">机器标识</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">cx</span></td><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">杀软信息</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">gt</span></td><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">编码后的文件名</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">tx</span></td><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">编码后的文件HASH</span></td></tr></tbody></table><h2 class="line" data-line="250" style="box-sizing: border-box;margin-bottom: 0.5rem;line-height: 1.2;color: rgb(57, 71, 84);"><span style="font-size: 20px;"><strong style="box-sizing: border-box;">溯源与关联分析</strong></span></h2><h3 class="line" data-line="252" style="box-sizing: border-box;margin-bottom: 0.5rem;color: rgb(57, 71, 84);"><span style="font-size: 18px;"><strong style="box-sizing: border-box;">APT-C-09（摩诃草)</strong></span></h3><p class="line" data-line="254" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">通过对此次攻击中使用的下载者/远控代码结构分析、域名/IP关联分析，以及使用360威胁情报中心分析平台对相关样本和网络基础设施进行拓展，我们有理由相信此次攻击的幕后团伙为摩诃草APT组织（APT-C-09）。</p><p class="line" data-line="256" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">比如使用360威胁情报中心数据平台搜索一下其中一个C&amp;C IP地址：94.242.249.206，可以看到相关IP已经被打上摩诃草的标签，这表明该IP曾经被摩诃草做为网络基础设施使用过：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.5993227990970654" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkhgrJIic8DpypbFLMP5ehjq2RcPawPrnBan6Afu1kyAruia3owJZL6KGQ/640?wx_fmt=png" data-type="png" data-w="886" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><h3 class="line" data-line="260" style="box-sizing: border-box;margin-bottom: 0.5rem;color: rgb(57, 71, 84);"><span style="font-size: 18px;"><strong style="box-sizing: border-box;">目标范围</strong></span></h3><p class="line" data-line="262" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">通过360威胁情报数据平台的关联分析，在本次攻击活动中，摩诃草APT组织注册了大量与我国敏感单位/机构相关的相似域名，足以说明该团伙正在对我特定的领域进行定向攻击。由于相关信息的特殊性，相关仿冒域名均通过隐藏处理：</p><table width="1108" style="width: 738px;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">www.****-cn.org</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">relay.****-cn.org</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">www.*******ple-cn.com</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">www.*************lysis.org</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">report.*************lysis.org</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">www.********icy.net</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">www.*****mil.info</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">www.****news.today</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">***.***.armynews.today</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">www.****zan.xyz</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">******dia.xyz</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">web.******news.com</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">mail.******news.com</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">******news.com</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">******nter.com</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">mail.******nter.com</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">*****ovcn.xyz</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">ohos.******ol.com</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">news.*******ov-cn.org</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">mailcenter.******ry</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">mail.*****fr.top</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">jacques3b.*****fr.top</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">e4hjd3eed.*****ee.top</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">****ail.co</span></td></tr></tbody></table><h3 class="line" data-line="292" style="box-sizing: border-box;margin-bottom: 0.5rem;color: rgb(57, 71, 84);"><span style="font-size: 18px;"><strong style="box-sizing: border-box;">攻击时间</strong></span></h3><p class="line" data-line="294" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">根据360网络研究院的大网数据，对于tautiaos.com C&amp;C域名访问在2018年3月16日达到过一个高峰，暗示在这个时间点攻击者曾经发动过一大波攻击：</p><p style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;word-wrap: break-word;color: rgb(57, 71, 84);text-indent: 0em;"><img class="" data-ratio="0.33579335793357934" data-src="https://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqk4kMy3Uaj70za03yQcK8MaZjLkwOuXcIYiagAtolMZqIBTkX2reZHD2Q/640?wx_fmt=png" data-type="png" data-w="1355" style="box-sizing: border-box;margin: auto 20px auto auto;vertical-align: middle;border-style: none;padding: 3px;border-radius: 3px;box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;" width="70%"  /></p><h2 class="line" data-line="298" style="box-sizing: border-box;margin-bottom: 0.5rem;line-height: 1.2;color: rgb(57, 71, 84);"><span style="font-size: 20px;"><strong style="box-sizing: border-box;">防护建议</strong></span></h2><h3 class="line" data-line="300" style="box-sizing: border-box;margin-bottom: 0.5rem;color: rgb(57, 71, 84);"><span style="font-size: 18px;"><strong style="box-sizing: border-box;">强化企业信息安全建设</strong></span></h3><p class="line" data-line="302" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">360威胁情报中心和安全监测与响应中心再次提醒各企业用户，加强员工的安全意识培训是企业信息安全建设中最重要的一环，如有需要，企业用户可以建设态势感知，完善资产管理及持续监控能力，并积极引入威胁情报，以尽可能防御此类攻击。</p><h3 class="line" data-line="304" style="box-sizing: border-box;margin-bottom: 0.5rem;color: rgb(57, 71, 84);"><span style="font-size: 18px;"><strong style="box-sizing: border-box;">补丁修复</strong></span></h3><p class="line" data-line="306" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">针对此次攻击中所使用的Office漏洞CVE-2017-8570，软件厂商微软已经发布了漏洞相应的补丁，360威胁情报中心建议用户及时更新Office补丁修复漏洞：</p><p class="line" data-line="308" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-8570</p><h3 class="line" data-line="310" style="box-sizing: border-box;margin-bottom: 0.5rem;color: rgb(57, 71, 84);"><span style="font-size: 18px;"><strong style="box-sizing: border-box;">禁用“Package” ActiveX Control</strong></span></h3><p class="line" data-line="312" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">360威胁情报中心监控到利用RTF文档自动释放恶意Package对象到%TMP%目录的特性进行Office漏洞攻击的样本越来越多，包括本次攻击中利用了CVE-2017-8570的攻击样本以及最近的CVE-2017-11882等漏洞利用样本都使用了该技巧，所以360威胁情报中心建议用户如果不需要使用插入Package对象这类功能，可以在注册表中通过设置killbit的方式禁用，以彻底封堵这类攻击入口：</p><table width="1108" style="width: 738px;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;"><strong style="box-sizing: border-box;">执行命令行命令</strong></span></td><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;"><strong style="box-sizing: border-box;">说明</strong></span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;"><span style="font-size:14px;font-family:Calibri,sans-serif;">regadd "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Common\COMCompatibility\{F20DA720-C02F-11CE-927B-0800095AE340}" /v"Compatibility Flags" /t REG_DWORD /d 0x400</span></span></td><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">32位系统版本或64位系统中的64位版本</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;"><span style="font-size:14px;font-family:Calibri,sans-serif;">regadd "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\Common\COMCompatibility\{F20DA720-C02F-11CE-927B-0800095AE340}" /v"Compatibility Flags" /t REG_DWORD /d 0x400</span></span></td><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">64位系统中的32位版本</span></td></tr></tbody></table><h2 class="line" data-line="320" style="box-sizing: border-box;margin-bottom: 0.5rem;line-height: 1.2;color: rgb(57, 71, 84);"><span style="font-size: 20px;"><strong style="box-sizing: border-box;">总结</strong></span></h2><p class="line" data-line="322" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">从2009年至今，摩诃草组织针对中国的相关攻击活动几乎没有停止，相反从2015年开始更加活跃，该组织所采用的恶意代码非常繁杂，载荷投递的方式相对传统，主要是以鱼叉邮件进行恶意代码的传播。而防范鱼叉邮件攻击最有效的方式是加强对人的安全意识培训。所以360威胁情报中心再次提醒各单位/企业用户，加强员工的安全意识培训是企业信息安全建设中最重要的一环。</p><h2 class="line" data-line="324" style="box-sizing: border-box;margin-bottom: 0.5rem;line-height: 1.2;color: rgb(57, 71, 84);"><span style="font-size: 20px;"><strong style="box-sizing: border-box;">IOC</strong></span></h2><table width="1108" style="width: 738px;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;"><strong style="box-sizing: border-box;">C&amp;C</strong></span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">tautiaos.com</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">185.130.212.252</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">94.242.249.206</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;"><strong style="box-sizing: border-box;">仿冒域名</strong></span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">www.****-cn.org</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">relay.****-cn.org</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">www.*******ple-cn.com</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">www.*************lysis.org</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">report.*************lysis.org</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">www.********icy.net</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">www.*****mil.info</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">www.****news.today</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">***.***.armynews.today</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">www.****zan.xyz</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">******dia.xyz</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">web.******news.com</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">mail.******news.com</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">******news.com</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">******nter.com</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">mail.******nter.com</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">*****ovcn.xyz</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">ohos.******ol.com</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">news.*******ov-cn.org</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">mailcenter.******ry</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">mail.*****fr.top</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">jacques3b.*****fr.top</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">e4hjd3eed.*****ee.top</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">****ail.co</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;"><strong style="box-sizing: border-box;">URL</strong></span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">http://sz81orgcn.com/autoupdate.php</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">http://ebeijingcn.live/templates/software.php</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">http://ebeijingcn.live/update/software.php</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">http://saicgovcn.xyz/systemdb.php</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;"><strong style="box-sizing: border-box;">PDB</strong></span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(253, 253, 253);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">C:\Users\Win7\Desktop\spain\qiho\obj\x86\Release\Q360.pdb</span></td></tr><tr style="box-sizing: border-box;border-width: 1px;border-style: solid;border-color: rgb(223, 232, 254);background-color: rgb(236, 241, 254);"><td style="box-sizing: border-box;padding: 0.5rem;font-size: 0.95em;border-collapse: collapse;word-break: break-all;min-width: 120px;text-align: justify;"><span style="font-size: 14px;">C:\Users\TEST-AV\Desktop\RAT\Dual Ip rat\PK\Bin\Release\CryptoObfuscator_Output\Client.pdb</span></td></tr></tbody></table><h2 class="line" data-line="366" style="box-sizing: border-box;margin-bottom: 0.5rem;line-height: 1.2;color: rgb(57, 71, 84);"><span style="font-size: 20px;"><strong style="box-sizing: border-box;">参考</strong></span></h2><p class="line" data-line="368" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">[1].https://ti.360.net/blog/articles/analysis-of-cve-2017-8570/</p><p class="line" data-line="370" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">[2].https://www.anquanke.com/post/id/84333</p><p class="line" data-line="372" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">[3].https://archive.codeplex.com/?p=taskscheduler</p><p class="line" data-line="374" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);">[4].https://github.com/quasar/QuasarRAT/releases</p><p class="line" data-line="374" style="box-sizing: border-box;margin-bottom: 1rem;font-size: 14px;line-height: 1.714;text-indent: 25px;word-wrap: break-word;color: rgb(57, 71, 84);"><br  /></p><p><br  /></p>
+                </div>
+                <script nonce="1038724880" type="text/javascript">
+                    var first_sceen__time = (+new Date());
+
+                    if ("" == 1 && document.getElementById('js_content')) {
+                        document.getElementById('js_content').addEventListener("selectstart",function(e){ e.preventDefault(); });
+                    }
+
+                    
+                    (function(){
+                        if (navigator.userAgent.indexOf("WindowsWechat") != -1){
+                            var link = document.createElement('link');
+                            var head = document.getElementsByTagName('head')[0];
+                            link.rel = 'stylesheet';
+                            link.type = 'text/css';
+                            link.href = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+                            head.appendChild(link);
+                        }
+                    })();
+                </script>
+
+                
+                <div class="ct_mpda_wrp" id="js_sponsor_ad_area" style="display:none;"></div>
+                
+                
+                <div class="read-more__area" id="js_more_read_area" style="display:none;">
+                    
+                </div>
+
+                
+                                <div class="reward_area tc reward_area_primary" id="js_preview_reward_author" style="display:none;">
+                    <div class="reward-avatar" style="display: none;" id="js_preview_reward_author_avatar">
+                        <img src="" alt="" id="js_preview_reward_author_head">
+                    </div>
+                    
+                                        <div class="reward-author" id="js_preview_reward_author_name"></div>
+                                        <p class="reward_tips" id="js_preview_reward_author_wording" style="display:none;"></p>
+                    <p>
+                        <a class="reward_button" id='js_preview_reward_author_link' href="##"><span id="js_preview_reward_link_text">赞赏</span></a>
+                    </p>
+                </div>
+
+                <div class="reward_qrcode_area reward_area tc" id="js_preview_reward_qrcode" style="display:none;">
+                    <p class="tips_global">长按二维码向我转账</p>
+                    <p id="js_preview_reward_ios_wording" class="reward_tips" style="display:none;"></p>
+                    <span class="reward_qrcode_img_wrp"><img class="reward_qrcode_img" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_reward_qrcode.2x42f400.png"></span>
+                    <p class="tips_global">受苹果公司新规定影响，微信 iOS 版的赞赏功能被关闭，可通过二维码转账支持公众号。</p>
+                </div>
+                                
+                
+                            </div>
+                                        
+                                
+
+                        
+            <ul id="js_hotspot_area" class="article_extend_area"></ul>
+
+
+            
+
+            
+
+
+<div class="rich_media_tool" id="js_toobar3">
+
+        <a class="media_tool_meta meta_primary" id="js_view_source" href="##">阅读原文</a>
+        <div id="js_read_area3" class="media_tool_meta tips_global_primary meta_primary" style="display:none;">阅读 <span id="readNum3"></span></div>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_praise" id="like_old">
+        <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum_old"></span>
+    </span>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_like" id="like3">
+        <button class="like_btn" id="js_like_btn"> 
+          <span id="js_like_wording"> 好看</span><span class="like_num" id="likeNum3"></span>
+        </button>
+    </span>
+
+    <div id="js_like_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog weui-dialog_haokan">
+        <div class="weui-dialog__hd"><strong class="weui-dialog__title" id="educate_title">已推荐到看一看</strong></div>
+        <div class="weui-dialog__bd">
+          <img class="pic_haokan" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_haokan42f400.png">
+            你的朋友可以在“发现”-“看一看”看到你认为好看的文章。        </div>
+        <div class="weui-dialog__ft" id="educate_btn" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_default" id="js_cancel">取消</a>
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_confirm">推荐</a>
+        </div>
+        <div class="weui-dialog__ft" id="educate_btn2" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_acknowledge">我知道了</a>
+        </div>
+        </div>
+    </div>
+
+    <div id="js_unlike_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog">
+        
+        <div class="weui-dialog__bd">
+            已取消，“好看”想法已同步删除        </div>
+        <div class="weui-dialog__ft">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_unlike_know">知道了</a>
+        </div>
+        </div>
+    </div>
+
+    
+    </div>
+
+
+<div class="like_comment_wrp" id="js_a_like_comment" style="display: none;">
+  <div class="like_comment_inner">
+    <div class="like_comment_hd" style="display:none" id="js_like_title"></div>
+    <div class="like_comment_bd">
+      <div class="tips_global_primary like_comment_tips">
+        <i class="weui-icon-success"></i>已推荐到看一看<a href="javascript:;" class="like_comment_share_link" id="js_a_like_comment_share">和朋友分享想法</a>
+      </div>
+    </div>
+    <div class="like_comment_ft">
+      <span id="js_a_like_comment_msg" class="like_comment_msg" style="visibility:hidden">最多200字，当前共<span id="js_a_like_current_cnt"></span>字</span>
+      <button class="like_comment_btn" disabled="disabled" id="js_a_like_confirm">发送</button>
+    </div>
+  </div>
+</div>
+
+<div id="js_like_toast" style="display: none;">
+  <div class="weui-mask_transparent"></div>
+  <div class="weui-toast">
+    <i class="weui-icon-success-no-circle weui-icon_toast"></i>
+    <p class="weui-toast__content" id="js_toast_msg">已发送</p>
+  </div>
+</div>
+
+
+<div style="display: none;" id="js_b_comment_panel" class="like_comment_primary_pop">
+  <div class="like_comment_primary_wrp" id="js_b_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <h4 class="like_comment_primary_title">
+          朋友将在看一看看到        </h4>
+        <button id="js_b_like_confirm" class="like_comment_primary_btn">确定</button>
+      </div>
+      <div id='js_b_comment_text_first' class="like_comment_primary_bd">
+        <span class="tips_global_primary">
+          分享你的想法...        </span>
+      </div>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_1"></div>
+</div>
+
+<div style="display: none;" id="js_b_comment_final">
+  <div class="like_comment_primary_wrp editing" id="js_comment_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <button class="like_comment_primary_cancel" id="js_b_comment_cancel">取消</button>
+        <h4 class="like_comment_primary_title"> 分享想法到看一看 </h4>
+        <button class="like_comment_primary_btn" id="js_b_comment_confirm">确定</button>
+      </div>
+      <div class="like_comment_primary_bd">
+        <textarea class="like_comment_textarea weui-textarea" placeholder="分享你的想法..." id="js_b_comment_text_second"></textarea>
+      </div>
+      <span class="like_comment_msg" id="js_b_like_comment_msg" style="visibility: hidden;">最多200字，当前共<span id="js_b_like_current_cnt"></span>字</span>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_2"></div>
+</div>
+
+<div id="js_loading" style=" display: none;">
+    <div class="weui-mask_transparent"></div>
+    <div class="weui-toast">
+        <i class="weui-loading weui-icon_toast"></i>
+        <p class="weui-toast__content">发送中</p>
+    </div>
+</div>
+
+<div id="js_fail" style="display:none">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+    <div class="weui-dialog__bd">
+        网络异常，请稍后重试    </div>
+    <div class="weui-dialog__ft">
+      <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_fail_inform">知道了</a>
+    </div>
+    </div>
+</div>
+
+
+
+                      </div>
+        </div>
+
+        <div class="rich_media_area_primary sougou" id="sg_tj" style="display:none"></div>
+
+
+        
+        <div class="rich_media_area_extra">
+          <div class="rich_media_area_extra_inner">
+              
+              <div id="js_share_appmsg">
+              </div>
+
+              
+                            <div class="mpda_bottom_container" id="js_bottom_ad_area"></div>
+                            
+              <div id="js_iframetest" style="display:none;"></div>
+                            
+              <div class="rich_media_extra rich_media_extra_discuss" id="js_cmt_container" style="display:none">
+                
+
+                
+                <div class="discuss_mod" id="js_friend_cmt_area" style="display:none">
+                  
+                  
+                  
+                </div>
+
+                                <div class="discuss_mod" id="js_cmt_area" style="display:none">
+                </div>
+                              </div>
+          </div>
+        </div>
+
+        
+        <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">
+            <div class="qr_code_pc_inner">
+                <div class="qr_code_pc">
+                    <img id="js_pc_qr_code_img" class="qr_code_pc_img">
+                    <p>微信扫一扫<br>关注该公众号</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="js_pc_weapp_code" class="weui-desktop-popover weui-desktop-popover_pos-up-center weui-desktop-popover_img-text" style="display: none;">
+    <div class="weui-desktop-popover__content">
+        <div class="weui-desktop-popover__desc">
+            <img id="js_pc_weapp_code_img">
+            微信扫一扫<br>使用小程序<span id="js_pc_weapp_code_des"></span>        </div>
+    </div>
+</div>
+<div id="js_minipro_dialog" style="display:none;">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+        <div class="weui-dialog__bd">即将打开"<span id="js_minipro_dialog_name"></span>"小程序</div>
+        <div class="weui-dialog__ft">
+            <a id="js_minipro_dialog_cancel" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_default">取消</a>
+            <a id="js_minipro_dialog_ok" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_primary">打开</a>
+        </div>
+    </div>
+</div>
+
+        
+        <script nonce="1038724880">
+    var __DEBUGINFO = {
+        debug_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/debug/console42f400.js",
+        safe_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/moonsafe42f400.js",
+        res_list: []
+    };
+</script>
+
+<script nonce="1038724880" type="text/javascript">
+(function() {
+	var totalCount = 0,
+			finishCount = 0;
+
+	function _loadVConsolePlugin() {
+		window.vConsole = new window.VConsole();
+		while (window.vConsolePlugins.length > 0) {
+			var p = window.vConsolePlugins.shift();
+			window.vConsole.addPlugin(p);
+		}
+	}
+	
+	function _addVConsole(uri, cb) {
+		totalCount++;
+		var node = document.createElement('SCRIPT');
+		node.type = 'text/javascript';
+		node.src = uri;
+		node.setAttribute('nonce', '1038724880');
+		if (cb) {
+			node.onload = cb;
+		}
+		document.getElementsByTagName('head')[0].appendChild(node);
+	}
+	if (
+		(document.cookie && document.cookie.indexOf('vconsole_open=1') > -1)
+		|| location.href.indexOf('vconsole=1') > -1
+	) {
+		window.vConsolePlugins = [];
+		_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/3.2.2/vconsole.min43429b.js', function() {
+			
+			_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/plugin/vconsole-mpopt/1.0.1/vconsole-mpopt42f400.js', _loadVConsolePlugin);
+		});
+	}
+})();
+</script>
+        
+<script nonce="1038724880" type="text/javascript">
+if (location.href.match(/fontScale=\d+/) && /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+
+    var m=location.href.match(/fontScale=(\d*)/);
+    var map={
+        "94":1,
+        "100":2,
+        "109":3,
+        "119":4,
+        "131":5,
+    }
+    if(m&&m[1]&&map[m[1]]){
+        document.getElementsByTagName("body")[0].className+=" appmsg_skin_fontscale_"+map[m[1]];
+        console.log("appmsg_skin_fontscale_:"+map[m[1]]);
+    }
+}
+
+
+(function(){
+    if (window.__second_open__) return; 
+
+    
+
+    var first_js_time = +new Date();
+
+    var showDate="";
+    var svrDate=new Date("1549780639"*1000);
+    var createDate=new Date("1522401161"*1000);
+    var ct="1522401161"*1;
+    var publish_time = "2018-03-30" || "";
+    var cD={
+      year:createDate.getYear(),
+      month:createDate.getMonth()+1,
+      date:createDate.getDate()
+    };
+    
+    svrDate.setHours(0);
+    svrDate.setMinutes(0);
+    svrDate.setSeconds(0);
+    var todayDate=svrDate.getTime()/1000;
+    svrDate.setDate(1);
+    svrDate.setMonth(0);
+    var yearDate=svrDate.getTime()/1000;
+    
+    if(ct>=todayDate){
+      showDate="今天";
+    
+    }else if(ct>=todayDate-60*60*24){
+       showDate="昨天";
+    
+    }else if(ct>=todayDate-2*60*60*24){
+      showDate="前天";
+    }else if(ct>=todayDate-3*60*60*24){
+      showDate="3天前";
+    }else if(ct>=todayDate-4*60*60*24){
+      showDate="4天前";
+    }else if(ct>=todayDate-5*60*60*24){
+      showDate="5天前";
+    }else if(ct>=todayDate-6*60*60*24){
+      showDate="6天前";
+    }else if(ct>=todayDate-2*7*60*60*24){
+      showDate="1周前";
+    }else if(ct>=yearDate){
+      
+      
+      
+      showDate="%s月%s日".replace("%s",cD.month).replace("%s",cD.date);
+    }else{
+      showDate=publish_time;
+    };
+    if(document.getElementById("publish_time")){
+      document.getElementById("publish_time").innerText=showDate;
+    }
+})();
+</script>
+<script nonce="1038724880" type="text/javascript">
+
+if (!window.console) window.console = { log: function() {} };
+
+if (typeof getComputedStyle == 'undefined') {
+    if (document.body.currentStyle) {
+        window.getComputedStyle = function(el) {
+            return el.currentStyle;
+        }
+    } else {
+        window.getComputedStyle = {};
+    }
+}
+(function(){
+    window.__zoom = 1;
+    
+    (function(){
+        var validArr = ","+([0.875, 1, 1.125, 1.25, 1.375]).join(",")+",";
+        var match = window.location.href.match(/winzoom=(\d+(?:\.\d+)?)/);
+        if (match && match[1]) {
+            var winzoom = parseFloat(match[1]);
+            if (validArr.indexOf(","+winzoom+",")>=0) {
+                window.__zoom = winzoom;
+            }
+        }
+    })();
+
+    var ua = navigator.userAgent.toLowerCase();
+    var re = new RegExp("msie ([0-9]+[\.0-9]*)");
+    var version;
+    if (re.exec(ua) != null) {
+        version = parseInt(RegExp.$1);
+    }
+    var isIE = false;
+    if (typeof version != 'undefined' && version >= 6 && version <= 9) {
+        isIE = true;
+    }
+    var getMaxWith=function(){
+        var container = document.getElementById('img-content');
+        var max_width = container.offsetWidth;
+        var container_padding = 0;
+        var container_style = getComputedStyle(container);
+        container_padding = parseFloat(container_style.paddingLeft) + parseFloat(container_style.paddingRight);
+        max_width -= container_padding;
+        if (!max_width) {
+            max_width = window.innerWidth - 30;      
+        }
+        return max_width;
+    };
+    var getParentWidth = function(dom){
+        var parent_width = 0;
+        var parent = dom.parentNode;
+        var outerWidth = 0;
+        while (true) {
+            if(!parent||parent.nodeType!=1) break;
+            var parent_style = getComputedStyle(parent);
+            if (!parent_style) break;
+            parent_width = parent.clientWidth - parseFloat(parent_style.paddingLeft) - parseFloat(parent_style.paddingRight) - outerWidth;
+            if (parent_width > 0) break;
+            outerWidth += parseFloat(parent_style.paddingLeft) + parseFloat(parent_style.paddingRight) + parseFloat(parent_style.marginLeft) + parseFloat(parent_style.marginRight) + parseFloat(parent_style.borderLeftWidth) + parseFloat(parent_style.borderRightWidth);
+            parent = parent.parentNode;
+        }
+        return parent_width;
+    }
+    var getOuterW=function(dom){
+        var style=getComputedStyle(dom),
+            w=0;
+        if(!!style){
+            w = parseFloat(style.paddingLeft) + parseFloat(style.paddingRight) + parseFloat(style.borderLeftWidth) + parseFloat(style.borderRightWidth);
+        }
+        return w;
+    };
+    var getOuterH =function(dom){
+        var style=getComputedStyle(dom),
+            h=0;
+        if(!!style){
+            h = parseFloat(style.paddingTop) + parseFloat(style.paddingBottom) + parseFloat(style.borderTopWidth) + parseFloat(style.borderBottomWidth);
+        }
+        return h;
+    };
+    var insertAfter = function(dom,afterDom){
+        var _p = afterDom.parentNode;
+        if(!_p){
+            return;
+        }
+        if(_p.lastChild === afterDom){
+            _p.appendChild(dom);
+        }else{
+            _p.insertBefore(dom,afterDom.nextSibling);
+        }
+    };
+    var getQuery = function(name,url){
+        
+        var u  = arguments[1] || window.location.search,
+            reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)"),
+            r = u.substr(u.indexOf("\?")+1).match(reg);
+        return r!=null?r[2]:"";
+    };
+
+    
+    function setImgSize(item, widthNum, widthUnit, ratio, breakParentWidth) {
+        setTimeout(function () {
+            var img_padding_border = getOuterW(item) || 0;
+            var img_padding_border_top_bottom = getOuterH(item) || 0;
+            
+            if (widthNum > getParentWidth(item) && !breakParentWidth) {
+                widthNum = getParentWidth(item);
+            }
+
+            height = (widthNum - img_padding_border) * ratio + img_padding_border_top_bottom;
+
+            if (isIE) {
+                var url = item.getAttribute('data-src');
+                item.src = url;
+            } else {
+                if(parseFloat(widthNum, 10) > 40 && height > 40 && breakParentWidth) {
+                    item.className += ' img_loading';
+                }
+                item.src = "data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            }
+            item.style.cssText += ";width: " + widthNum + widthUnit + " !important;";
+            item.style.cssText += ";height: " + height + widthUnit + " !important;";
+        }, 10);
+    }
+
+    (function(){
+        var images = document.getElementsByTagName('img');
+        var length = images.length;
+        var max_width = getMaxWith();
+        for (var i = 0; i < length; ++i) {
+            if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var imageItem = images[i];
+            var src_ = imageItem.getAttribute('data-src');
+            var realSrc = imageItem.getAttribute('src');
+            if (!src_ || realSrc) continue;
+            
+            var originWidth = imageItem.getAttribute('data-w');
+            var ratio_ = 1 * imageItem.getAttribute('data-ratio');
+
+            var height = 100;
+            if (ratio_ && ratio_ > 0) {
+                var parent_width = getParentWidth(imageItem) || max_width;
+                var initWidth = imageItem.style.width || imageItem.getAttribute('width') || originWidth || parent_width;
+                initWidth = parseFloat(initWidth, 10) > max_width ? max_width : initWidth;
+                
+                if (initWidth) {
+                    imageItem.setAttribute('_width', !isNaN(initWidth * 1) ? initWidth + 'px' : initWidth);
+                }
+                
+                if (typeof initWidth === 'string' && initWidth.indexOf('%') !== -1) {
+                    initWidth = parseFloat(initWidth.replace('%', ''), 10) / 100 * parent_width;
+                }
+                
+                if (initWidth === 'auto') {
+                    initWidth = originWidth;
+                }
+
+                var res = /^(\d+(?:\.\d+)?)([a-zA-Z%]+)?$/.exec(initWidth);
+                var widthNum = res && res.length >= 2 ? res[1] : 0;
+                var widthUnit = res && res.length >= 3 && res[2] ? res[2] : 'px';
+
+                
+                setImgSize(imageItem, widthNum, widthUnit, ratio_, true);
+                
+                (function (item, widthNumber, unit, ratio) {
+                    setTimeout(function () {
+                        setImgSize(item, widthNumber, unit, ratio, false);
+                    });
+                })(imageItem, widthNum, widthUnit, ratio_);
+            } else {
+                imageItem.style.cssText += ";visibility: hidden !important;";
+            }
+
+        }
+    })();
+    window.__videoDefaultRatio=16/9;
+    window.__getVideoWh = function(dom){
+        var max_width = getMaxWith(),
+            width = max_width,
+            ratio_ = dom.getAttribute('data-ratio')*1,
+            arr = [4/3, 16/9],
+            ret = arr[0],
+            abs = Math.abs(ret - ratio_);
+        if (!ratio_) { 
+            if (dom.getAttribute("data-mpvid")) { 
+                ratio_ = 16/9;
+            } else { 
+                ratio_ = 4/3;
+            }
+        } else { 
+            for (var j = 1, jl = arr.length; j < jl; j++) {
+                var _abs = Math.abs(arr[j] - ratio_);
+                if (_abs < abs) {
+                    abs = _abs;
+                    ret = arr[j];
+                }
+            }
+            ratio_ = ret;
+        }
+        
+        var parent_width = getParentWidth(dom)||max_width,
+            width = width > parent_width ? parent_width : width,
+            outerW = getOuterW(dom)||0,
+            outerH = getOuterH(dom)||0,
+            videoW = width - outerW,
+            videoH = videoW/ratio_,
+            height = videoH + outerH;
+        return {w:Math.ceil(width),h:Math.ceil(height),vh:videoH,vw:videoW,ratio:ratio_};
+    };
+
+
+    (function(){
+        var iframe = document.getElementsByTagName('iframe');
+        for (var i=0,il=iframe.length;i<il;i++) {
+            if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var a = iframe[i];
+            var src_ = a.getAttribute('src')||a.getAttribute('data-src')||"";
+            if(!/^http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)
+                && !/^http(s)*\:\/\/mp\.weixin\.qq\.com\/mp\/readtemplate\?t=pages\/video_player_tmpl/.test(src_)
+            ){
+                continue;
+            }
+            var vid = getQuery("vid",src_);
+            if(!vid){
+                continue;
+            }
+            vid=vid.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,"");
+            a.removeAttribute('src');
+            a.style.display = "none";
+            var obj = window.__getVideoWh(a),
+                videoPlaceHolderSpan = document.createElement('span'),
+                videoPlayerIconSpan = document.createElement('span'),
+                mydiv = document.createElement('img');
+
+            videoPlaceHolderSpan.className = "js_img_loading db";
+            videoPlaceHolderSpan.setAttribute("data-vid", vid);
+            
+
+            videoPlayerIconSpan.className = 'wx_video_context db'; 
+            videoPlayerIconSpan.style.display = 'none';
+            videoPlayerIconSpan.innerHTML = '<span class="wx_video_thumb_primary"></span><button class="wx_video_play_btn">播放</button><span class="wx_video_mask"></span>'; 
+
+            mydiv.className = "img_loading";
+
+            mydiv.src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            
+            
+            videoPlaceHolderSpan.style.cssText = "width: " + obj.w + "px !important;";
+            mydiv.style.cssText += ";width: " + obj.w + "px";
+            videoPlaceHolderSpan.appendChild(videoPlayerIconSpan);
+            videoPlaceHolderSpan.appendChild(mydiv);
+            insertAfter(videoPlaceHolderSpan, a); 
+            
+            a.style.cssText += ";width: " + obj.w + "px !important;";
+            a.setAttribute("width",obj.w);
+            if(window.__zoom!=1){
+                a.style.display = "block";
+                videoPlaceHolderSpan.style.display = "none";
+                a.setAttribute("_ratio",obj.ratio);
+                a.setAttribute("_vid",vid);
+            }else{
+                videoPlaceHolderSpan.style.cssText += "height: " + obj.h + "px !important;";
+                mydiv.style.cssText += "height: " + obj.h + "px !important;";
+                a.style.cssText += "height: " + obj.h + "px !important;";
+                a.setAttribute("height",obj.h);
+            }
+            a.setAttribute("data-vh",obj.vh);
+            a.setAttribute("data-vw",obj.vw);
+            if(a.getAttribute("data-mpvid")){
+                a.setAttribute("data-src",location.protocol+"//mp.weixin.qq.com/mp/readtemplate?t=pages/video_player_tmpl&auto=0&vid="+vid);
+            }else{
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+obj.vw+"&height="+obj.vh+"&auto=0");   
+            }            
+        }
+    })();
+    
+    (function(){
+        if(window.__zoom!=1){
+            if (!window.__second_open__) {
+                document.getElementById('page-content').style.zoom = window.__zoom;
+                var a = document.getElementById('activity-name');
+                var b = document.getElementById('meta_content');
+                if(!!a){
+                    a.style.zoom = 1/window.__zoom;
+                }
+                if(!!b){
+                    b.style.zoom = 1/window.__zoom;
+                }
+            }
+            var images = document.getElementsByTagName('img');
+            for (var i = 0,il=images.length;i<il;i++) {
+                if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                images[i].style.zoom = 1/window.__zoom;
+            }
+            var iframe = document.getElementsByTagName('iframe');
+            for (var i = 0,il=iframe.length;i<il;i++) {
+                if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                var a = iframe[i];
+                a.style.zoom = 1/window.__zoom;
+                var src_ = a.getAttribute('data-src')||"";
+                if(!/http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)){
+                    continue;
+                }
+                var ratio = a.getAttribute("_ratio");
+                var vid = a.getAttribute("_vid");
+                a.removeAttribute("_ratio");
+                a.removeAttribute("_vid");
+                var vw = a.offsetWidth - (getOuterW(a)||0);
+                var vh = vw/ratio;
+                var h = vh + (getOuterH(a)||0)
+                a.style.cssText += "height: " + h + "px !important;"
+                a.setAttribute("height",h);
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+vw+"&height="+vh+"&auto=0");
+                a.style.display = "none";
+                var parent = a.parentNode;
+                if(!parent){
+                    continue;
+                }
+                for(var j=0,jl=parent.children.length;j<jl;j++){
+                    var child = parent.children[j];
+                    if(child.className.indexOf("img_loading")>=0 && child.getAttribute("data-vid")==vid){
+                        child.style.cssText += "height: " + h + "px !important;";
+                        child.style.display = "";
+                    }
+                }
+            }
+        }
+    })();
+})();
+</script>
+<script nonce="1038724880" type="text/javascript">
+    var new_appmsg = 1;
+    var item_show_type = "0";
+    var can_see_complaint = "0";
+    var not_in_mm_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm435ee6.css";
+    var windowwx_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+    var article_improve_combo_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo438c19.css";
+    var tid = "";
+    var aid = "";
+    var clientversion = "";
+    var appuin = ""||"MzI2MDc2MDA4OA==";
+
+    var source = "";
+    var ascene = "";
+    var subscene = "";
+    var sessionid = ""||"";
+    var abtest_cookie = "";
+
+    var scene = 75;
+
+    var itemidx = "";
+    var appmsg_token   = "";
+    var _copyright_stat = "0";
+    var _ori_article_type = "";
+
+    var is_follow = "";
+    var nickname = "360威胁情报中心";
+    var appmsg_type = "9";
+    var ct = "1522401161";
+    var publish_time = "2018-03-30" || "";
+    var user_name = "gh_166784eae33e";
+    var user_name_new = "";
+    var fakeid   = "";
+    var version   = "";
+    var is_limit_user   = "0";
+    var round_head_img = "http://mmbiz.qpic.cn/mmbiz_png/2AqAgxkehic9aydboJzUuics6L8haOJKqOEWdvEJUdEmfoy0jyMP9Fpqh2twm3Wjl8rVwia03ORvcvFxibssnoRbRQ/0?wx_fmt=png";
+    var hd_head_img = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM7I8QeMG3CujdN79zxbczFSY9gEiaG17Hey7ibH8kiadZlPw/0"||"";
+    var ori_head_img_url = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM7I8QeMG3CujdN79zxbczFSY9gEiaG17Hey7ibH8kiadZlPw/132";
+    var msg_title = "摩诃草APT组织针对我国敏感机构最新的网络攻击活动分析";
+    var msg_desc = "在2018年春节前后，360威胁情报中心与360安全监测与响应中心协助用户处理了多起非常有针对性的鱼叉邮件攻击事件，发现了客户邮件系统中大量被投递的鱼叉邮件，被攻击的单位为某些重要敏感的政府机构。";
+    var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz_jpg/2AqAgxkehic9ap2ZMtZYibAgMqviaMjqAqkp9wnWt0AN4icWb9dobB7lycdy1zibByiczSUZz9Bsqict6TFKMwc3GL7RA/0?wx_fmt=jpeg"; 
+    var cdn_url_1_1  = ""; 
+    var cdn_url_235_1 = ""; 
+    
+    var msg_link = "http://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&amp;mid=2247484717&amp;idx=1&amp;sn=4ed66928275e7804733d6bf27b1fba34&amp;chksm=ea65f25add127b4cd0444167cd6368a39e4ff0556f79879b8815776acd0190d9e50ddc812da5#rd"; 
+    var user_uin = "0"*1;
+    var msg_source_url = 'https://ti.360.net/blog/articles/analysis-of-apt-c-09-target-china/';
+    var img_format = 'jpeg';
+    var srcid = '';
+    var req_id = '1014UoDd4ZkHQl2YcOay9Y9V';
+    var networkType;
+    var appmsgid = '' || ''|| "2247484717";
+    var comment_id = "214897530658390016" || "214897530658390016" * 1;
+    var comment_enabled = "" * 1;
+    var is_need_reward = "0" * 1;
+    var is_https_res = ("" * 1) && (location.protocol == "https:");
+    var msg_daily_idx = "1" || "";
+    var profileReportInfo = "" || "";
+
+    var devicetype = "";
+    var source_encode_biz = "";
+    var source_username = "";
+    
+    var reprint_ticket = "";
+    var source_mid = "";
+    var source_idx = "";
+    var source_biz = "";
+    var author_id = "";
+
+    
+    var optimizing_flag = "0" * 1;
+    var ad_abtest_padding = "0" * 1;
+
+    var show_comment = "";
+    var __appmsgCgiData = {
+        wxa_product : ""*1,
+        wxa_cps : ""*1,
+        show_msg_voice: "0"*1,
+        can_use_page : "0"*1,
+        is_wxg_stuff_uin : "0"*1,
+        card_pos : "",
+        copyright_stat : "0",
+        source_biz : "",
+        hd_head_img : "http://wx.qlogo.cn/mmhead/Q3auHgzwzM7I8QeMG3CujdN79zxbczFSY9gEiaG17Hey7ibH8kiadZlPw/0"||(window.location.protocol+"//"+window.location.host + "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_rumor_link.2x42f400.jpg")
+    };
+    var _empty_v = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/pages/voice/empty42f400.mp3";
+
+    var copyright_stat = "0" * 1;
+
+    var pay_fee = "" * 1;
+    var pay_timestamp = "";
+    var need_pay = "" * 1;
+
+    var need_report_cost = "0" * 1;
+    var use_tx_video_player = "0" * 1;
+    var appmsg_fe_filter = "contenteditable";
+
+    var friend_read_source = "" || "";
+    var friend_read_version = "" || "";
+    var friend_read_class_id = "" || "";
+
+    var is_only_read = "1" * 1;
+    var read_num = "" * 1;
+    var like_num = "" * 1;
+    var liked = "" == 'true' ? true : false;
+    var is_temp_url = "" ? 1 : 0;
+    var send_time = "";
+    var icon_emotion_switch = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch.2x42f400.png";
+    var icon_emotion_switch_active = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch_active.2x42f400.png";
+    var icon_loading_white = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif";
+    var icon_audio_unread = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/audio/icon_audio_unread42f400.png";
+    var icon_qqmusic_default = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_default.2x42f400.png";
+    var icon_qqmusic_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_source42f400.png";
+    var icon_kugou_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/kugou/icon_kugou_source42f400.png";
+
+    var topic_default_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/topic/pic_book_thumb.2x42f400.png';
+    var comment_edit_icon = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg_new/icon_edit42f400.png';
+    var comment_loading_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif';
+
+    var voice_in_appmsg = {
+        "1":"1"
+            };
+
+    var reprint_style = ''*1;
+    var wxa_img_alert = "" != 'false';
+
+    
+    var more_read_type = '0'*1;
+
+    
+    
+    
+    
+
+    
+    var weapp_sn_arr_json = "" || "";
+
+    
+    var ban_scene = "0" * 1;
+
+    var svr_time = "1549780639" * 1;
+    
+    var is_transfer_msg = ""*1||0;
+
+    var malicious_title_reason_id = "0" * 1; 
+    var malicious_content_type = "0" * 1; 
+
+    
+    var modify_time = "";
+
+    
+    var isprofileblock = "0";
+
+    
+    var hotspotInfoList = [
+                    ];
+
+        window.wxtoken = "777";
+        
+    
+    
+    
+    
+    window.is_login = '0' * 1; 
+
+    window.__moon_initcallback = function(){
+        if(!!window.__initCatch){
+            window.__initCatch({
+                idkey : 27611+2,
+                startKey : 0,
+                limit : 128,
+                badjsId: 43,
+                reportOpt : {
+                    uin : uin,
+                    biz : biz,
+                    mid : mid,
+                    idx : idx,
+                    sn  : sn
+                },
+                extInfo : {
+                    network_rate : 0.01,    
+                    badjs_rate: 0.1 
+                }
+            });
+        }
+    }
+        
+    var title ="360威胁情报中心";
+
+    var is_new_msg=true;
+    
+    
+
+    var is_wash = '' * 1;
+</script>
+
+<script nonce="1038724880" type="text/javascript">
+(function(_g){
+    _g.appmsg_like_type = "1" * 1 ? "1" * 1 : 1;
+    
+    _g.clientversion = "";
+    _g.passparam = ""; 
+    if(!_g.msg_link) {
+      _g.msg_link = "http://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&amp;mid=2247484717&amp;idx=1&amp;sn=4ed66928275e7804733d6bf27b1fba34&amp;chksm=ea65f25add127b4cd0444167cd6368a39e4ff0556f79879b8815776acd0190d9e50ddc812da5#rd";
+    }
+    _g.appmsg_type = "9"; 
+    _g.devicetype = ""; 
+})(window);
+
+</script>
+
+
+        <script nonce="1038724880">window.__moon_host = 'res.wx.qq.com';window.__moon_mainjs = 'appmsg/index.js';window.moon_map = {"a/appdialog_confirm.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm.html42f400.js","widget/wx_profile_dialog_primary.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/widget/wx_profile_dialog_primary.css42f400.js","pages/iframe_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/iframe_communicate42f400.js","new_video/player.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player.html433882.js","biz_wap/zepto/touch.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/touch42f400.js","biz_wap/zepto/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/event42f400.js","biz_wap/zepto/zepto.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/zepto42f400.js","page/pages/video.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/pages/video.css435ee6.js","a/tpl/smallbanner_msg_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_msg_tpl.html42f400.js","a/tpl/smallbanner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_info_tpl.html42f400.js","a/tpl/banner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_info_tpl.html42f400.js","a/tpl/promote_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/promote_tpl.html42f400.js","a/tpl/smallcard_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallcard_tpl.html42f400.js","a/tpl/info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/info_tpl.html42f400.js","a/tpl/cardticket_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cardticket_tpl.html42f400.js","a/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_tpl.html42f400.js","a/tpl/sponsor_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/sponsor_tpl.html42f400.js","a/tpl/new_cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/new_cpc_tpl.html42f400.js","appmsg/emotion/caret.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/caret42f400.js","biz_wap/utils/localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/localstorage42f400.js","appmsg/friend_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/friend_comment_tpl.html42f400.js","appmsg/comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_tpl.html42f400.js","biz_wap/utils/fakehash.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/fakehash42f400.js","appmsg/comment_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_report42f400.js","a/appdialog_confirm.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm42f400.js","new_video/player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player4306fd.js","a/tpl/mpda_bottom_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/mpda_bottom_tpl.html42f400.js","a/tpl/crt_size_map.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_size_map42f400.js","biz_wap/jsapi/cardticket.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/cardticket42f400.js","biz_common/jquery.md5.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/jquery.md542f400.js","biz_common/utils/emoji_panel_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_panel_data42f400.js","biz_common/utils/emoji_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_data42f400.js","appmsg/emotion/textarea.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/textarea42f400.js","appmsg/emotion/nav.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/nav42f400.js","appmsg/emotion/common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/common42f400.js","appmsg/emotion/slide.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/slide42f400.js","appmsg/emotion/dom.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/dom42f400.js","pages/music_report_conf.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_report_conf42f400.js","pages/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/report4306fd.js","pages/player_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/player_adaptor42f400.js","pages/music_player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_player42f400.js","appmsg/more_read_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read_tpl.html42f400.js","appmsg/retry_ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/retry_ajax42f400.js","complain/tips.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/complain/tips42f400.js","pages/loadscript.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/loadscript42f400.js","biz_wap/utils/ajax_load_js.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_load_js42f400.js","appmsg/comment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment4317dc.js","a/ios.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios42f400.js","a/android.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android42f400.js","a/profile.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile42f400.js","a/app_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/app_card430506.js","a/sponsor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor42f400.js","a/tpl/cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cpc_tpl.html42f400.js","a/video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/video42f400.js","a/a_config.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_config42f400.js","a/tpl/crt_tpl_manager.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_tpl_manager42f400.js","a/cpc_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/cpc_a_tpl.html42f400.js","a/sponsor_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor_a_tpl.html42f400.js","a/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_tpl.html42f400.js","a/mpshop.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpshop42f400.js","a/wxopen_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/wxopen_card42f400.js","a/card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/card42f400.js","biz_wap/utils/position.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/position42f400.js","a/a_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_report42f400.js","biz_wap/utils/show_time.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/show_time42f400.js","biz_common/utils/get_para_list.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/get_para_list42f400.js","biz_wap/utils/openUrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/openUrl42f400.js","a/a_sign.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_sign438181.js","appmsg/my_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/my_comment_tpl.html42f400.js","appmsg/cmt_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cmt_tpl.html42f400.js","sougou/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/a_tpl.html42f400.js","appmsg/emotion/emotion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/emotion42f400.js","biz_common/base64.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/base6442f400.js","biz_common/utils/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report42f400.js","appmsg/articleReport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/articleReport42f400.js","biz_wap/utils/hand_up_state.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/hand_up_state42f400.js","biz_common/utils/http.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/http42f400.js","biz_common/utils/cookie.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie42f400.js","appmsg/topic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/topic_tpl.html42f400.js","pages/weapp_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/weapp_tpl.html42f400.js","biz_common/utils/monitor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/monitor42f400.js","pages/voice_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_tpl.html42f400.js","pages/kugoumusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/kugoumusic_ctrl42f400.js","pages/qqmusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_ctrl42f400.js","pages/voice_component.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_component42f400.js","pages/qqmusic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_tpl.html42f400.js","new_video/ctl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/ctl4306fd.js","appmsg/open_url_with_webview.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/open_url_with_webview4380a9.js","appmsg/more_read.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read42f400.js","appmsg/reward_entry.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/reward_entry42f400.js","appmsg/like.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like43875f.js","pages/version4video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/version4video42f400.js","biz_wap/utils/storage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/storage42f400.js","appmsg/share_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share_tpl.html42f400.js","appmsg/appmsgext.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsgext430b95.js","appmsg/img_copyright_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/img_copyright_tpl.html42f400.js","pages/video_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_ctrl42f400.js","pages/create_txv.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/create_txv42f400.js","appmsg/comment_utils.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_utils42f400.js","biz_common/ui/imgonepx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx42f400.js","appmsg/malicious_wording.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/malicious_wording42f400.js","biz_common/utils/wxgspeedsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/wxgspeedsdk42f400.js","a/a.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a4382e5.js","rt/appmsg/getappmsgext.rt.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/rt/appmsg/getappmsgext.rt42f400.js","pages/video_communicate_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_communicate_adaptor433882.js","biz_wap/utils/ajax_wx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_wx42f400.js","biz_common/utils/respTypes.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/respTypes42f400.js","biz_wap/utils/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/log42f400.js","sougou/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/index42f400.js","biz_wap/safe/mutation_observer_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/mutation_observer_report42f400.js","appmsg/fereport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport438bee.js","appmsg/fereport_without_localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport_without_localstorage438bee.js","appmsg/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report42f400.js","appmsg/report_and_source.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source4380a9.js","appmsg/page_pos.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos431b87.js","appmsg/cdn_speed_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report42f400.js","appmsg/wxtopic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/wxtopic42f400.js","appmsg/weapp.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp433882.js","appmsg/weproduct.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weproduct42f400.js","appmsg/voicemsg.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voicemsg42f400.js","appmsg/autoread.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/autoread42f400.js","appmsg/voice.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voice42f400.js","appmsg/qqmusic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/qqmusic43440b.js","appmsg/iframe.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe433882.js","appmsg/product.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/product42f400.js","appmsg/review_image.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image435a90.js","appmsg/outer_link.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link433882.js","appmsg/copyright_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/copyright_report42f400.js","appmsg/async.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async438bee.js","biz_wap/ui/lazyload_img.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img42f400.js","biz_common/log/jserr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr42f400.js","appmsg/share.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share42f50a.js","appmsg/cdn_img_lib.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib42f400.js","appmsg/finance_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/finance_communicate42f400.js","page/appmsg_new/not_in_mm.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm.css435ee6.js","page/appmsg_new/combo.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo.css438c19.js","biz_wap/utils/wapsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/wapsdk42f400.js","a/mpAdAsync.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpAdAsync4317dc.js","biz_common/utils/url/parse.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse42f400.js","appmsg/appmsg_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsg_report435ac2.js","biz_common/moment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/moment42f400.js","biz_wap/jsapi/core.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core42f400.js","biz_common/dom/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event42f400.js","appmsg/test.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/test42f400.js","biz_wap/utils/mmversion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion42f400.js","appmsg/max_age.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/max_age42f400.js","biz_common/dom/attr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr42f400.js","biz_wap/utils/ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax42f400.js","appmsg/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/log42f400.js","biz_common/dom/class.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class42f400.js","biz_wap/utils/device.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/device42f400.js","appmsg/weapp_common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp_common42f400.js","biz_common/utils/string/html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html42f400.js","cps/tpl/list_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/list_tpl.html42f400.js","cps/tpl/card_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/card_tpl.html42f400.js","cps/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/banner_tpl.html42f400.js","biz_common/tmpl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl42f400.js","appmsg/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index438e37.js"};</script><script nonce="1038724880" type="text/javascript" id="moon_inline" > window.__mooninline=1; window.setTimeout(function() {  function __moonf__(){
+if(!window.__moonhasinit){
+window.__moonhasinit=!0,window.__moonclientlog=[],window.__wxgspeeds&&(window.__wxgspeeds.moonloadedtime=+new Date),
+"object"!=typeof JSON&&(window.JSON={
+stringify:function(){
+return"";
+},
+parse:function(){
+return{};
+}
+});
+var e=function(){
+function e(e){
+try{
+var o;
+/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)?o="writeLog":/(Android)/i.test(navigator.userAgent)&&(o="log"),
+o&&t(o,e);
+}catch(n){
+throw console.error(n),n;
+}
+}
+function t(e,o){
+var n,r,i={};
+n=top!=window?top.window:window;
+try{
+r=n.WeixinJSBridge,i=n.document;
+}catch(a){}
+e&&r&&r.invoke?r.invoke(e,{
+level:"info",
+msg:"[WechatFe][moon]"+o
+}):setTimeout(function(){
+i.addEventListener?i.addEventListener("WeixinJSBridgeReady",function(){
+t(e,o);
+},!1):i.attachEvent&&(i.attachEvent("WeixinJSBridgeReady",function(){
+t(e,o);
+}),i.attachEvent("onWeixinJSBridgeReady",function(){
+t(e,o);
+}));
+},0);
+}
+var n;
+localStorage&&JSON.parse(localStorage.getItem("__WXLS__moonarg"))&&"fromls"==JSON.parse(localStorage.getItem("__WXLS__moonarg")).method&&(n=!0),
+e(" moon init, moon_inline:"+window.__mooninline+", moonls:"+n),function(){
+var e={},o={},t={};
+e.COMBO_UNLOAD=0,e.COMBO_LOADING=1,e.COMBO_LOADED=2;
+var n=function(e,t,n){
+if(!o[e]){
+o[e]=n;
+for(var r=3;r--;)try{
+moon.setItem(moon.prefix+e,n.toString()),moon.setItem(moon.prefix+e+"_ver",moon_map[e]);
+break;
+}catch(i){
+moon.clear();
+}
+}
+},r=window.alert;
+window.__alertList=[],window.alert=function(e){
+r(e),window.__alertList.push(e);
+};
+var i=function(e){
+if(!e||!o[e])return null;
+var n=o[e];
+if("function"==typeof n&&!t[e]){
+var a={},s={
+exports:a
+},c=n(i,a,s,r);
+n=o[e]=c||s.exports,t[e]=!0;
+}
+if(".css"===e.substr(-4)){
+var d=document.getElementById(e);
+if(!d){
+d=document.createElement("style"),d.id=e;
+var _=/url\s*\(\s*\/(\"(?:[^\\\"\r\n\f]|\\[\s\S])*\"|'(?:[^\\'\n\r\f]|\\[\s\S])*'|[^)}]+)\s*\)/g,m=window.testenv_reshost||window.__moon_host||"res.wx.qq.com";
+n=n.replace(_,"url(//"+m+"/$1)"),d.innerHTML=n,document.getElementsByTagName("head")[0].appendChild(d);
+}
+}
+return n;
+};
+e.combo_status=e.COMBO_UNLOAD,e.run=function(){
+var o=e.run.info,t=o&&o[0],n=o&&o[1];
+if(t&&e.combo_status==e.COMBO_LOADED){
+var r=i(t);
+n&&n(r);
+}
+},e.use=function(o,t){
+window.__wxgspeeds&&(window.__wxgspeeds.seajs_use_time=+new Date),e.run.info=[o,t],
+e.run();
+},window.define=n,window.seajs=e;
+}(),function(){
+if(window.__nonce_str){
+var e=document.createElement;
+document.createElement=function(o){
+var t=e.apply(this,arguments);
+return"object"==typeof o&&(o=o.toString()),"string"==typeof o&&"script"==o.toLowerCase()&&t.setAttribute("nonce",window.__nonce_str),
+t;
+};
+}
+window.addEventListener&&window.__DEBUGINFO&&Math.random()<.01&&window.addEventListener("load",function(){
+var e=document.createElement("script");
+e.src=__DEBUGINFO.safe_js,e.type="text/javascript",e.async=!0;
+var o=document.head||document.getElementsByTagName("head")[0];
+o.appendChild(e);
+});
+}(),function(){
+function t(e){
+return"[object Array]"===Object.prototype.toString.call(e);
+}
+function n(e){
+return"[object Object]"===Object.prototype.toString.call(e);
+}
+function r(e){
+var t=e.stack+" "+e.toString()||"";
+try{
+if(window.testenv_reshost){
+var n="http(s)?://"+window.testenv_reshost,r=new RegExp(n,"g");
+t=t.replace(r,"");
+}else t=t.replace(/http(s)?:\/\/res\.wx\.qq\.com/g,"");
+for(var r=/\/([^.]+)\/js\/(\S+?)\.js(\,|:)?/g;r.test(t);)t=t.replace(r,function(e,o,t,n){
+return t+n;
+});
+}catch(e){
+t=e.stack?e.stack:"";
+}
+var i=[];
+for(o in u)u.hasOwnProperty(o)&&i.push(o+":"+u[o]);
+return i.push("STK:"+t.replace(/\n/g,"")),i.join("|");
+}
+function i(e){
+if(!e){
+var o=window.onerror;
+window.onerror=function(){},f=setTimeout(function(){
+window.onerror=o,f=null;
+},50);
+}
+}
+function a(e,o,t){
+if(!/^mp\.weixin\.qq\.com$/.test(location.hostname)){
+var n=[];
+t=t.replace(location.href,(location.origin||"")+(location.pathname||"")).replace("#wechat_redirect","").replace("#rd","").split("&");
+for(var r=0,i=t.length;i>r;r++){
+var a=t[r].split("=");
+a[0]&&a[1]&&n.push(a[0]+"="+encodeURIComponent(a[1]));
+}
+var s=new window.Image;
+return void(s.src=(o+n.join("&")).substr(0,1024));
+}
+var c;
+if(window.ActiveXObject)try{
+c=new ActiveXObject("Msxml2.XMLHTTP");
+}catch(d){
+try{
+c=new ActiveXObject("Microsoft.XMLHTTP");
+}catch(_){
+c=!1;
+}
+}else window.XMLHttpRequest&&(c=new XMLHttpRequest);
+c&&(c.open(e,o,!0),c.setRequestHeader("cache-control","no-cache"),c.setRequestHeader("Content-Type","application/x-www-form-urlencoded; charset=UTF-8"),
+c.setRequestHeader("X-Requested-With","XMLHttpRequest"),c.send(t));
+}
+function s(e){
+return function(o,t){
+if("string"==typeof o)try{
+o=new Function(o);
+}catch(n){
+throw n;
+}
+var r=[].slice.call(arguments,2),a=o;
+return o=function(){
+try{
+return a.apply(this,r.length&&r||arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:j,
+log:"timeout_error;host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},e(o,t);
+};
+}
+function c(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this,a=t||function(){};
+return t=function(){
+try{
+return a.apply(r,arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:x,
+log:"listener_error;type:"+o+";host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},a.moon_lid=E,b[E]=t,E++,e.call(r,o,t,n);
+};
+}
+function d(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this;
+return t=b[t.moon_lid],e.call(r,o,t,n);
+};
+}
+var _,m,l,w,u,p,f,h=/MicroMessenger/i.test(navigator.userAgent),g=/MPAPP/i.test(navigator.userAgent),v=window.define,y=0,x=2,O=4,j=9,D=10;
+if(window.__initCatch=function(e){
+_=e.idkey,m=e.startKey||0,l=e.limit,w=e.badjsId,u=e.reportOpt||"",p=e.extInfo||{},
+p.rate=p.rate||.5;
+},window.__moon_report=function(e,o){
+var i=!1,s="";
+try{
+s=top.location.href;
+}catch(c){
+i=!0;
+}
+var d=.5;
+if(p&&p.rate&&(d=p.rate),o&&"number"==typeof o&&(d=o),!(!/mp\.weixin\.qq\.com/.test(location.href)&&!/payapp\.weixin\.qq\.com/.test(location.href)||Math.random()>d||!h&&!g||top!=window&&!i&&!/mp\.weixin\.qq\.com/.test(s))&&(n(e)&&(e=[e]),
+t(e)&&""!=_)){
+var u="",f=[],v=[],y=[],x=[];
+"number"!=typeof l&&(l=1/0);
+for(var j=0;j<e.length;j++){
+var D=e[j]||{};
+if(!(D.offset>l||"number"!=typeof D.offset||D.offset==O&&p&&p.network_rate&&Math.random()>=p.network_rate)){
+var b=1/0==l?m:m+D.offset;
+f[j]="[moon]"+_+"_"+b+";"+D.log+";"+r(D.e||{})||"",v[j]=b,y[j]=1;
+}
+}
+for(var E=0;E<v.length;E++)x[E]=_+"_"+v[E]+"_"+y[E],u=u+"&log"+E+"="+f[E];
+if(x.length>0){
+a("POST",location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?","idkey="+x.join(";")+"&r="+Math.random()+"&lc="+f.length+u);
+var d=1;
+if(p&&p.badjs_rate&&(d=p.badjs_rate),w&&Math.random()<d){
+u=u.replace(/uin\:(.)*\|biz\:(.)*\|mid\:(.)*\|idx\:(.)*\|sn\:(.)*\|/,"");
+var S=new Image,I="https://badjs.weixinbridge.com/badjs?id="+w+"&level=4&from="+encodeURIComponent(location.host)+"&msg="+encodeURIComponent(u);
+S.src=I.slice(0,1024);
+}
+}
+}
+},window.setTimeout=s(window.setTimeout),window.setInterval=s(window.setInterval),
+Math.random()<.01&&window.Document&&window.HTMLElement){
+var b={},E=0;
+Document.prototype.addEventListener=c(Document.prototype.addEventListener),Document.prototype.removeEventListener=d(Document.prototype.removeEventListener),
+HTMLElement.prototype.addEventListener=c(HTMLElement.prototype.addEventListener),
+HTMLElement.prototype.removeEventListener=d(HTMLElement.prototype.removeEventListener);
+}
+var S=window.navigator.userAgent;
+if((/ip(hone|ad|od)/i.test(S)||/android/i.test(S))&&!/windows phone/i.test(S)&&window.localStorage&&window.localStorage.setItem){
+var I=window.localStorage.setItem,L=0;
+window.localStorage.setItem=function(e,o){
+if(!(L>=10))try{
+I.call(window.localStorage,e,o);
+}catch(t){
+t.stack&&console&&console.error&&console.error("[TryCatch]"+t.stack),window.__moon_report([{
+offset:D,
+log:"localstorage_error;"+t.toString(),
+e:t
+}]),L++,L>=3&&window.moon&&window.moon.clear&&moon.clear();
+}
+};
+}
+window.seajs&&v&&(window.define=function(){
+for(var o,t=[],n=arguments&&arguments[0],a=0,s=arguments.length;s>a;a++){
+var c=o=arguments[a];
+"function"==typeof o&&(o=function(){
+try{
+return c.apply(this,arguments);
+}catch(o){
+throw"string"==typeof n&&console.error("[TryCatch][DefineeErr]id:"+n),o.stack&&console&&console.error&&console.error("[TryCatch]"+o.stack),
+_&&window.__moon_report&&(window.__moon_report([{
+offset:y,
+log:"define_error;id:"+n+";",
+e:o
+}]),i(f)),e(" [define_error]"+JSON.stringify(r(o))),o;
+}
+},o.toString=function(e){
+return function(){
+return e.toString();
+};
+}(arguments[a])),t.push(o);
+}
+return v.apply(this,t);
+});
+}(),function(o){
+function t(e,o,t){
+return window.__DEBUGINFO?(window.__DEBUGINFO.res_list||(window.__DEBUGINFO.res_list=[]),
+window.__DEBUGINFO.res_list[e]?(window.__DEBUGINFO.res_list[e][o]=t,!0):!1):!1;
+}
+function n(e){
+var o=new TextEncoder("utf-8").encode(e),t=crypto.subtle||crypto.webkitSubtle;
+return t.digest("SHA-256",o).then(function(e){
+return r(e);
+});
+}
+function r(e){
+for(var o=[],t=new DataView(e),n=0;n<t.byteLength;n+=4){
+var r=t.getUint32(n),i=r.toString(16),a="00000000",s=(a+i).slice(-a.length);
+o.push(s);
+}
+return o.join("");
+}
+function i(e,o,t){
+if("object"==typeof e){
+var n=Object.prototype.toString.call(e).replace(/^\[object (.+)\]$/,function(e,o){
+return o;
+});
+if(t=t||e,"Array"==n){
+for(var r=0,i=e.length;i>r;++r)if(o.call(t,e[r],r,e)===!1)return;
+}else{
+if("Object"!==n&&a!=e)throw"unsupport type";
+if(a==e){
+for(var r=e.length-1;r>=0;r--){
+var s=a.key(r),c=a.getItem(s);
+if(o.call(t,c,s,e)===!1)return;
+}
+return;
+}
+for(var r in e)if(e.hasOwnProperty(r)&&o.call(t,e[r],r,e)===!1)return;
+}
+}
+}
+var a=o.localStorage,s=document.head||document.getElementsByTagName("head")[0],c=1,d=11,_=12,m=13,l=window.__allowLoadResFromMp?1:2,w=window.__allowLoadResFromMp?1:0,u=l+w,p=window.testenv_reshost||window.__moon_host||"res.wx.qq.com",f=new RegExp("^(http(s)?:)?//"+p);
+window.__loadAllResFromMp&&(p="mp.weixin.qq.com",l=0,u=l+w);
+var h={
+prefix:"__MOON__",
+loaded:[],
+unload:[],
+clearSample:!0,
+hit_num:0,
+mod_num:0,
+version:1003,
+cacheData:{
+js_mod_num:0,
+js_hit_num:0,
+js_not_hit_num:0,
+js_expired_num:0,
+css_mod_num:0,
+css_hit_num:0,
+css_not_hit_num:0,
+css_expired_num:0
+},
+init:function(){
+h.loaded=[],h.unload=[];
+var e,t,r;
+if(window.no_moon_ls&&(h.clearSample=!0),a){
+var s="_moon_ver_key_",c=a.getItem(s);
+c!=h.version&&(h.clear(),a.setItem(s,h.version));
+}
+if((-1!=location.search.indexOf("no_moon1=1")||-1!=location.search.indexOf("no_lshttps=1"))&&h.clear(),
+a){
+var d=1*a.getItem(h.prefix+"clean_time"),_=+new Date;
+if(_-d>=1296e6){
+h.clear();
+try{
+!!a&&a.setItem(h.prefix+"clean_time",+new Date);
+}catch(m){}
+}
+}
+i(moon_map,function(i,s){
+if(t=h.prefix+s,r=!!i&&i.replace(f,""),e=!!a&&a.getItem(t),version=!!a&&(a.getItem(t+"_ver")||"").replace(f,""),
+h.mod_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_mod_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_mod_num++,
+h.clearSample||!e||r!=version)h.unload.push(r.replace(f,"")),r&&-1!=r.indexOf(".css")?e?r!=version&&h.cacheData.css_expired_num++:h.cacheData.css_not_hit_num++:r&&-1!=r.indexOf(".js")&&(e?r!=version&&h.cacheData.js_expired_num++:h.cacheData.js_not_hit_num++);else{
+if("https:"==location.protocol&&window.moon_hash_map&&window.moon_hash_map[s]&&window.crypto)try{
+n(e).then(function(e){
+window.moon_hash_map[s]!=e&&console.log(s);
+});
+}catch(c){}
+try{
+var d="//# sourceURL="+s+"\n//@ sourceURL="+s;
+o.eval.call(o,'define("'+s+'",[],'+e+")"+d),h.hit_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_hit_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_hit_num++;
+}catch(c){
+h.unload.push(r.replace(f,""));
+}
+}
+}),h.load(h.genUrl());
+},
+genUrl:function(){
+var e=h.unload;
+if(!e||e.length<=0)return[];
+var o,t,n="",r=[],i={},a=-1!=location.search.indexOf("no_moon2=1"),s="//"+p;
+-1!=location.href.indexOf("moon_debug2=1")&&(s="//mp.weixin.qq.com");
+for(var c=0,d=e.length;d>c;++c){
+/^\/(.*?)\//.test(e[c]);
+var _=/^\/(.*?)\//.exec(e[c]);
+_.length<2||!_[1]||(t=_[1],n=i[t],n?(o=n+","+e[c],o.length>1e3||a?(r.push(n+"?v="+h.version),
+n=location.protocol+s+e[c],i[t]=n):(n=o,i[t]=n)):(n=location.protocol+s+e[c],i[t]=n));
+}
+for(var m in i)i.hasOwnProperty(m)&&r.push(i[m]);
+return r;
+},
+load:function(e){
+if(window.__wxgspeeds&&(window.__wxgspeeds.mod_num=h.mod_num,window.__wxgspeeds.hit_num=h.hit_num),
+!e||e.length<=0)return seajs.combo_status=seajs.COMBO_LOADED,seajs.run(),console.debug&&console.debug("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num),
+void window.__moonclientlog.push("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num);
+seajs.combo_status=seajs.COMBO_LOADING;
+var o=0,t=+new Date;
+window.__wxgspeeds&&(window.__wxgspeeds.combo_times=[],window.__wxgspeeds.combo_times.push(t)),
+i(e,function(n){
+h.request(n,u,function(){
+if(window.__wxgspeeds&&window.__wxgspeeds.combo_times.push(+new Date),o++,o==e.length){
+var n=+new Date-t;
+window.__wxgspeeds&&(window.__wxgspeeds.mod_downloadtime=n),seajs.combo_status=seajs.COMBO_LOADED,
+seajs.run(),console.debug&&console.debug("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms"),
+window.__moonclientlog.push("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms");
+}
+});
+});
+},
+request:function(o,n,r){
+if(o){
+n=n||0,o.indexOf("mp.weixin.qq.com")>-1&&((new Image).src=location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?idkey=27613_32_1&r="+Math.random(),
+window.__moon_report([{
+offset:_,
+log:"load_script_from_mp: "+o
+}],1));
+var i=-1;
+window.__DEBUGINFO&&(__DEBUGINFO.res_list||(__DEBUGINFO.res_list=[]),__DEBUGINFO.res_list.push({
+type:"js",
+status:"pendding",
+start:+new Date,
+end:0,
+url:o
+}),i=__DEBUGINFO.res_list.length-1),-1!=location.search.indexOf("no_lshttps=1")&&(o=o.replace("http://","https://"));
+var a=document.createElement("script");
+a.src=o,a.type="text/javascript",a.async=!0,a.down_time=+new Date,a.onerror=function(s){
+t(i,"status","error"),t(i,"end",+new Date);
+var _=new Error(s);
+if(n>=0)if(w>n){
+var l=o.replace("res.wx.qq.com","mp.weixin.qq.com");
+h.request(l,n,r);
+}else h.request(o,n,r);else window.__moon_report&&window.__moon_report([{
+offset:c,
+log:"load_script_error: "+o,
+e:_
+}],1);
+if(n==w-1&&window.__moon_report([{
+offset:d,
+log:"load_script_error: "+o,
+e:_
+}],1),-1==n){
+var u="ua: "+window.navigator.userAgent+", time="+(+new Date-a.down_time)+", load_script_error -1 : "+o;
+window.__moon_report([{
+offset:m,
+log:u
+}],1);
+}
+window.__moonclientlog.push("moon load js error : "+o+", error -> "+_.toString()),
+e("moon_request_error url:"+o);
+},"undefined"!=typeof moon_crossorigin&&moon_crossorigin&&a.setAttribute("crossorigin",!0),
+a.onload=a.onreadystatechange=function(){
+t(i,"status","loaded"),t(i,"end",+new Date),!a||a.readyState&&!/loaded|complete/.test(a.readyState)||(t(i,"status","200"),
+a.onload=a.onreadystatechange=null,"function"==typeof r&&r());
+},n--,s.appendChild(a),e("moon_request url:"+o+" retry:"+n);
+}
+},
+setItem:function(e,o){
+!!a&&a.setItem(e,o);
+},
+clear:function(){
+a&&(i(a,function(e,o){
+~o.indexOf(h.prefix)&&a.removeItem(o);
+}),console.debug&&console.debug("[moon] clear"));
+},
+idkeyReport:function(e,o,t){
+t=t||1;
+var n=e+"_"+o+"_"+t;
+(new Image).src="/mp/jsmonitor?idkey="+n+"&r="+Math.random();
+}
+};
+seajs&&seajs.use&&"string"==typeof window.__moon_mainjs&&seajs.use(window.__moon_mainjs),
+window.moon=h;
+}(window),function(){
+try{
+Math.random()<1;
+}catch(e){}
+}(),window.moon.init();
+};
+e(),!!window.__moon_initcallback&&window.__moon_initcallback(),window.__wxgspeeds&&(window.__wxgspeeds.moonendtime=+new Date);
+}
+}
+__moonf__(); }, 25);</script><script nonce="1038724880" type="text/javascript">
+    var real_show_page_time = +new Date();
+    if (!!window.addEventListener){
+        window.addEventListener("load", function(){
+            window.onload_endtime = +new Date();
+        });
+    }
+
+    
+    if(typeof seajs != 'undefined' && seajs.config){
+        try{
+            seajs.config({
+              'map': [
+                [ '.js', '.js?v=' + (+new Date())]
+              ]
+            });
+        }catch(e){
+            console.info('not support seajs config');
+        }
+    }
+
+    
+</script>
+
+    </body>
+    <script nonce="1038724880" type="text/javascript">document.addEventListener("touchstart", function() {},false);</script>
+</html>
+

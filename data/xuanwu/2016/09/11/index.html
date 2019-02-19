@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/09/11" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/09/11</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/09/10/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/09/11/index.html">2016/09/11</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/09/12/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Marco Grassi @marcograss </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  A simple bug in Wickr Android I disclosed in 2014 - <a href="https://marcograss.github.io/security/android/bug/2016/09/10/a-2014-wickr-bug.html" rel="nofollow">https://marcograss.github.io/security/android/bug/2016/09/10/a-2014-wickr-bug.html</a></p>
+<div class="translated" id="182044">
+<p>﻿" marcograss 发现的一个 Android Wickr 消息通信 APP 的敏感信息泄露漏洞：   <a href="https://t.co/k5EhioeBqq" rel="nofollow">https://t.co/k5EhioeBqq</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Internet Explorer has a URL problem : <a href="http://blog.innerht.ml/internet-explorer-has-a-url-problem/" rel="nofollow">http://blog.innerht.ml/internet-explorer-has-a-url-problem/</a></p>
+<div class="translated" id="182088">
+<p>﻿" IE 浏览器 URL 跳转相关的一个小问题︰   <a href="https://t.co/8iJLfaDZAs" rel="nofollow">https://t.co/8iJLfaDZAs</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Nicolas Grégoire @Agarri_FR </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Debug </i>]  WinAppDbg 1.6 is out! <a href="https://twitter.com/mario_vilas/status/774656786011983872" rel="nofollow">https://twitter.com/mario_vilas/status/774656786011983872</a></p>
+<div class="translated" id="182137">
+<p>﻿"WinAppDbg 调试器更新 1.6 版本，WinAppDbg 由 Python 语言编写，使用非常方便、灵活：   <a href="https://github.com/MarioVilas/winappdbg" rel="nofollow">https://github.com/MarioVilas/winappdbg</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Hardware </i>]  General Motors Recalls 4.3 Million Vehicles Over a Software Bug <a href="http://gizmodo.com/general-motors-recalls-4-3-million-vehicles-over-a-soft-1786453219" rel="nofollow">http://gizmodo.com/general-motors-recalls-4-3-million-vehicles-over-a-soft-1786453219</a></p>
+<div class="translated" id="182043">
+<p>﻿"通用因为安全气囊相关的一个软件问题，召回 430 万辆汽车：   <a href="https://t.co/ZB1s3SPt4E" rel="nofollow">https://t.co/ZB1s3SPt4E</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  No Starch Press @nostarch </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Hardware </i>]  The Hardware Hacker is now in Early Access! @ bunniestudios <a href="http://nostarch.com/hardwarehacker" rel="nofollow">http://nostarch.com/hardwarehacker</a> <a href="https://t.co/HRqmEFng9s" rel="nofollow">https://t.co/HRqmEFng9s</a></p>
+<div class="translated" id="182156">
+<p>﻿"一本关于硬件的新书《The Hardware Hacker: Adventures in Making and Breaking Hardware》：   <a href="https://t.co/Nfftyr6rGs" rel="nofollow">https://t.co/Nfftyr6rGs</a> <a href="https://t.co/HRqmEFng9s" rel="nofollow">https://t.co/HRqmEFng9s</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/Co38ZjOVIAAZzQk.jpg" target="_blank">
+<img src="Co38ZjOVIAAZzQk.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  Randomizing the Linux kernel heap freelists : <a href="https://medium.com/@" rel="nofollow">https://medium.com/@</a> mxatone/randomizing-the-linux-kernel-heap-freelists-b899bb99c767#.2hfiiea07</p>
+<div class="translated" id="182096">
+<p>﻿" Linux 内核 4.8 版本的堆空闲列表随机化特性︰   <a href="https://t.co/ABdfFt9rYh" rel="nofollow">https://t.co/ABdfFt9rYh</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  DEY! @DEYCrypt </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  By @  n4x0r_ is Glibc Heap Analysis in Linux Systems with @  radareorg #r2con
+<a href="https://github.com/radareorg/r2con/blob/master/2016/talks/HeapAnalysis_r2.pdf" rel="nofollow">https://github.com/radareorg/r2con/blob/master/2016/talks/HeapAnalysis_r2.pdf</a> (slides)
+<a href="https://www.youtube.com/watch?v=Svm5V4leEho" rel="nofollow">https://www.youtube.com/watch?v=Svm5V4leEho</a> (video)</p>
+<div class="translated" id="182218">
+<p>﻿" 基于 Radare2 的 Linux 系统堆分析：   <a href="https://github.com/radareorg/r2con/blob/master/2016/talks/05-HeapAnalysis/HeapAnalysis_r2.pdf" rel="nofollow">https://github.com/radareorg/r2con/blob/master/2016/talks/05-HeapAnalysis/HeapAnalysis_r2.pdf</a>   r2Con 会议关于这个议题的视频：   <a href="https://t.co/Wqb1wYtQhb%C2%A0%C2%A0" rel="nofollow">https://t.co/Wqb1wYtQhb  </a> r2Con 会议所有的议题：   <a href="https://github.com/radareorg/r2con/tree/master/2016/talks" rel="nofollow">https://github.com/radareorg/r2con/tree/master/2016/talks</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> macOS </i>]  How Dropbox Hacks Your Mac : <a href="http://applehelpwriter.com/2016/08/29/discovering-how-dropbox-hacks-your-mac/" rel="nofollow">http://applehelpwriter.com/2016/08/29/discovering-how-dropbox-hacks-your-mac/</a></p>
+<div class="translated" id="182099">
+<p>﻿" How Dropbox Hacks Your Mac︰   <a href="https://t.co/Ujjdxijv4l" rel="nofollow">https://t.co/Ujjdxijv4l</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> NetworkDevice </i>]  CVE-2016-6399 – CISCO disclosed unpatched flaw in ACE products <a href="http://securityaffairs.co/wordpress/51147/security/cisco-cve-2016-6399-flaw.html" rel="nofollow">http://securityaffairs.co/wordpress/51147/security/cisco-cve-2016-6399-flaw.html</a></p>
+<div class="translated" id="182072">
+<p>﻿" 思科披露了 ACE 产品的一个高危拒绝服务漏洞（CVE-2016-6399）：    <a href="https://t.co/GdRy5eY3Pq" rel="nofollow">https://t.co/GdRy5eY3Pq</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Everything about the CSV Excel Macro Injection : <a href="http://blog.securelayer7.net/how-to-perform-csv-excel-macro-injection/" rel="nofollow">http://blog.securelayer7.net/how-to-perform-csv-excel-macro-injection/</a> <a href="https://t.co/cChBH7sq4Q" rel="nofollow">https://t.co/cChBH7sq4Q</a></p>
+<div class="translated" id="182093">
+<p>﻿" 关于 CSV Excel 宏注入攻击︰   <a href="https://t.co/i3kqw3OhqY" rel="nofollow">https://t.co/i3kqw3OhqY</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CsAYtHWVIAEfaLy.jpg" target="_blank">
+<img src="CsAYtHWVIAEfaLy.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  Adobe Flash: Use-after-free when returning Rectangle <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=842" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=842</a></p>
+<div class="translated" id="182011">
+<p>﻿"Adobe Flash 在返回矩形类实例时的 UAF 漏洞，来自 Project Zero Issue 842：   <a href="https://t.co/1oSOqv3hAR" rel="nofollow">https://t.co/1oSOqv3hAR</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Int'l Man of Leisure @The_IMOL </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  I love PeStudio for static malware analysis. #DFIR
+
+And @ aubsec may have written the authoritative guide on it: 
+<a href="https://aubsec.github.io/dfir/2016/09/01/pe-studio/" rel="nofollow">https://aubsec.github.io/dfir/2016/09/01/pe-studio/</a></p>
+<div class="translated" id="182106">
+<p>﻿" PeStudio - PE 文件静态分析工具︰   <a href="https://t.co/6uqZvTcEn7" rel="nofollow">https://t.co/6uqZvTcEn7</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/09/10/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/09/11/index.html">2016/09/11</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/09/12/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

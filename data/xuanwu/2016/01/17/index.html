@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/01/17" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/01/17</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/01/16/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/01/17/index.html">2016/01/17</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/01/18/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nikolaos Chrysaidos @virqdroid</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  A Survey on Detection Techniques of Android Malware - <a href="http://www.ijcssca.co.in/Archive/Vol1/Issue2/V1I2%20(2).pdf" rel="nofollow">http://www.ijcssca.co.in/Archive/Vol1/Issue2/V1I2%20(2).pdf</a></p>
+<div class="translated" id="86385">
+<p>﻿"Android 恶意软件检测技术调查， Paper:   <a href="https://t.co/zQlybYTlTO" rel="nofollow">https://t.co/zQlybYTlTO</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Security Response @threatintel </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  64% of Angler #ExploitKit attacks blocked by #Symantec IPS in 2015 targeted #Windows7 <a href="http://symc.ly/1mQhYo7" rel="nofollow">http://symc.ly/1mQhYo7</a> <a href="https://t.co/kjKcxkatvU" rel="nofollow">https://t.co/kjKcxkatvU</a></p>
+<div class="translated" id="86388">
+<p>﻿"2015 年 Symantec IPS 阻断的 Angler Exploit Kit 攻击中，针对 Windows 7 的攻击占 64%：   <a href="https://t.co/hPmorjWDmS" rel="nofollow">https://t.co/hPmorjWDmS</a> <a href="https://t.co/kjKcxkatvU" rel="nofollow">https://t.co/kjKcxkatvU</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CYxlsXUWAAEdU88.png" target="_blank">
+<img src="CYxlsXUWAAEdU88.png">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>.mario @0x6D6172696F</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Defend </i>]  Section 7.4 of the ".trust Technical Policy" is flawed &amp; leverages XSS - affecting even @ NCCGroupplc's own services <a href="https://whodoyou.trust/globalassets/documents/dot-trust-technical-policy.pdf" rel="nofollow">https://whodoyou.trust/globalassets/documents/dot-trust-technical-policy.pdf</a></p>
+<div class="translated" id="86405">
+<p>﻿"来自 NCC Group 的 '.trust Technical Policy' 白皮书， 这篇 Paper 介绍了 NCC Group 在网络安全加固方面总结的实践经验，涵盖的内容很广，包括网络、Web 应用、邮件、DNS 等：   <a href="https://t.co/Z5FZI9yfS7" rel="nofollow">https://t.co/Z5FZI9yfS7</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Fuzzing </i>]  Fuzzing automation with AFL and Jenkins : <a href="https://zubu.re/fuzzing-automation-afl-jenkins.html" rel="nofollow">https://zubu.re/fuzzing-automation-afl-jenkins.html</a></p>
+<div class="translated" id="86163">
+<p>﻿"借助 Jenkins 和 Docker，搭建一个自动化的 AFL Fuzz 框架:   <a href="https://t.co/nsVOb8z91U" rel="nofollow">https://t.co/nsVOb8z91U</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Enno Rey @Enno_Insinuator </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Hardware </i>]  Good overview: Security Attacks Against the Availability of LTE Mobility Networks
+<a href="http://web2-clone.research.att.com/export/sites/att_labs/techdocs/TD_101153.pdf" rel="nofollow">http://web2-clone.research.att.com/export/sites/att_labs/techdocs/TD_101153.pdf</a>
+#shmoocon <a href="https://t.co/i7uAvdilXb" rel="nofollow">https://t.co/i7uAvdilXb</a></p>
+<div class="translated" id="86463">
+<p>﻿"针对 LTE 移动网络可用性的安全攻击，来自美国 AT&amp;T 安全研究中心的 Paper:   <a href="https://t.co/i7uAvdilXb" rel="nofollow">https://t.co/i7uAvdilXb</a>     <a href="https://t.co/gm022bDimF" rel="nofollow">https://t.co/gm022bDimF</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CY3vR9DWcAAt97L.png" target="_blank">
+<img src="CY3vR9DWcAAt97L.png">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  nixCraft @nixcraft </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mac OS X </i>]  Sailor, a native and portable container system for NetBSD and Mac OS X <a href="https://github.com/NetBSDfr/sailor" rel="nofollow">https://github.com/NetBSDfr/sailor</a> #Unix #Jails #Sysadmin #developer</p>
+<div class="translated" id="86467">
+<p>﻿"Sailor - 可移植的容器系统，目前支持 NetBSD 和 Mac OS X :   <a href="https://t.co/lwE4I7547q" rel="nofollow">https://t.co/lwE4I7547q</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Refund attacks on Bitcoin’s Payment Protocol : <a href="https://eprint.iacr.org/2016/024.pdf" rel="nofollow">https://eprint.iacr.org/2016/024.pdf</a> (pdf)</p>
+<div class="translated" id="86160">
+<p>﻿"针对比特币支付协议的退款攻击, Paper:   <a href="https://t.co/magIZWE534" rel="nofollow">https://t.co/magIZWE534</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Dr. Memory: A Memory Checker Faster Than Valgrind : <a href="http://drmemory.org/" rel="nofollow">http://drmemory.org/</a></p>
+<div class="translated" id="86164">
+<p>﻿"Dr. Memory 是一个内存监控工具，用于识别内存相关的错误，如为初始化访问、Double Free、UAF、内存泄露等， Dr. Memory 基于 DynamoRIO，速度比 Valgrind 快:   <a href="https://t.co/jLkMLAvQre" rel="nofollow">https://t.co/jLkMLAvQre</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>jsoo @_jsoo_</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Handle_Disk - 一个磁盘分区恢复软件，能够实现从被损坏了分区表的磁盘镜像中恢复出可能的分区表。 
+<a href="https://github.com/purpleroc/hand_disk" rel="nofollow">https://github.com/purpleroc/hand_disk</a> <a href="https://t.co/pUAK70SmoX" rel="nofollow">https://t.co/pUAK70SmoX</a></p>
+<div class="translated" id="86270">
+<p>﻿"Handle_Disk - 一个磁盘分区恢复软件，能够实现从被损坏了分区表的磁盘镜像中恢复出可能的分区表：    <a href="https://t.co/XNVCfmOO8g" rel="nofollow">https://t.co/XNVCfmOO8g</a> <a href="https://t.co/pUAK70SmoX" rel="nofollow">https://t.co/pUAK70SmoX</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CY2CCGMUQAEpm0e.png" target="_blank">
+<img src="CY2CCGMUQAEpm0e.png">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Web Security </i>]  web2attack : Web hacking framework with tools,exploits by python : <a href="https://github.com/santatic/web2attack" rel="nofollow">https://github.com/santatic/web2attack</a></p>
+<div class="translated" id="86171">
+<p>﻿"web2attack - Web Hacking 框架，内嵌了多个 Web 漏洞的 Exploits，该框架用 Python 语言编写:   <a href="https://t.co/AnZT17kt0e" rel="nofollow">https://t.co/AnZT17kt0e</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Web Security </i>]  The Web Never Forgets : Persistent Tracking Mechanisms in the Wild : <a href="https://securehomes.esat.kuleuven.be/~gacar/persistent/the_web_never_forgets.pdf" rel="nofollow">https://securehomes.esat.kuleuven.be/~gacar/persistent/the_web_never_forgets.pdf</a> (pdf) cc: @ random_walker</p>
+<div class="translated" id="86178">
+<p>﻿"Web 网站忘不了你 - 3 种 Web 跟踪机制研究，包括 Canvas 指纹、evercookie 和 cookie syncing，来自比利时鲁汶大学的 Paper:   <a href="https://t.co/d4FPfOpmQd" rel="nofollow">https://t.co/d4FPfOpmQd</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Web Security </i>]  Phishing attack against LastPass <a href="https://www.seancassidy.me/lostpass.html" rel="nofollow">https://www.seancassidy.me/lostpass.html</a></p>
+<div class="translated" id="86438">
+<p>﻿"LostPass - 针对 LastPass 的钓鱼攻击   <a href="https://t.co/OhwA9O5FRF" rel="nofollow">https://t.co/OhwA9O5FRF</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Matt Nelson @enigma0x3 </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  My slides for the @ shmoocon #firetalk "Red Team Upgrades: Using SCCM for Malware Deployment" are up here: <a href="http://www.slideshare.net/enigma0x3/red-team-upgrades-using-sccm-for-malware-deployment-57117235" rel="nofollow">http://www.slideshare.net/enigma0x3/red-team-upgrades-using-sccm-for-malware-deployment-57117235</a></p>
+<div class="translated" id="86143">
+<p>﻿"滥用 SCCM（微软的系统中心配置管理器）部署恶意软件:   <a href="https://t.co/dpWywEmB9Z" rel="nofollow">https://t.co/dpWywEmB9Z</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/01/16/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/01/17/index.html">2016/01/17</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/01/18/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

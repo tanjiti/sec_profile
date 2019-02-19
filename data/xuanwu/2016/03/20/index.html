@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/03/20" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/03/20</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/03/19/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/03/20/index.html">2016/03/20</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/03/21/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Guang Gong @oldfresher</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  slide for 《Pwn a Nexus device with a single vulnerability》in CanSecWest and
+full exploit for CVE-2015-6764 <a href="https://github.com/secmob/cansecwest2016" rel="nofollow">https://github.com/secmob/cansecwest2016</a></p>
+<div class="translated" id="112973">
+<p>﻿"360 的 oldfresher 在 CanSecWest 2016 会议的演讲《Pwn a Nexus device with a single vulnerability》 Slides，还有他用于参加 Pwn2Own Mobile 2015 比赛的 Exploit（CVE-2015-6764）：    <a href="https://t.co/4t5yxQdZAw%C2%A0" rel="nofollow">https://t.co/4t5yxQdZAw </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Andrew Blaich @ablaich </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Android security advisory <a href="http://source.android.com/security/advisory/2016-03-18.html" rel="nofollow">http://source.android.com/security/advisory/2016-03-18.html</a></p>
+<div class="translated" id="113015">
+<p>﻿"Google 最近发现了一个 Android Root 应用，该应用利用一个本地提权漏洞实现 Root（CVE-2015-1805）， 漏洞公告：     <a href="https://t.co/LhuZlHYrN0" rel="nofollow">https://t.co/LhuZlHYrN0</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Kafeine @kafeine</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  A VAST malvertising attack <a href="https://www.proofpoint.com/us/threat-insight/post/vast-malvertising-attack" rel="nofollow">https://www.proofpoint.com/us/threat-insight/post/vast-malvertising-attack</a> <a href="https://t.co/XNc9nfKK7h" rel="nofollow">https://t.co/XNc9nfKK7h</a></p>
+<div class="translated" id="112963">
+<p>﻿"ProofPoint 最近观察到一个大型的恶意广告攻击，受攻击的网站包括 <a href="http://MSN.com" rel="nofollow">MSN.com</a> Foxnews.com，ProofPoint 表示，这是第一个利用视频传播恶意广告的攻击：    <a href="https://t.co/5OPPkaN99i" rel="nofollow">https://t.co/5OPPkaN99i</a> <a href="https://t.co/XNc9nfKK7h" rel="nofollow">https://t.co/XNc9nfKK7h</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/Cd36ZHgXIAAQxeE.jpg" target="_blank">
+<img src="Cd36ZHgXIAAQxeE.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Symantec @symantec</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  Phishers are using #YouTube channels to document and reveal their attacks. Learn more: <a href="http://symc.ly/1nMnxnG" rel="nofollow">http://symc.ly/1nMnxnG</a> <a href="https://t.co/nvAoPQhmeD" rel="nofollow">https://t.co/nvAoPQhmeD</a></p>
+<div class="translated" id="113148">
+<p>﻿"钓鱼攻击者创建 Youtube 视频频道，记录他们的攻击 ︰   <a href="https://t.co/bgZIPrsdbC" rel="nofollow">https://t.co/bgZIPrsdbC</a> <a href="https://t.co/nvAoPQhmeD" rel="nofollow">https://t.co/nvAoPQhmeD</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/tweet_video_thumb/Cd7zDm7WEAAM1Co.jpg" target="_blank">
+<img src="Cd7zDm7WEAAM1Co.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  File Descriptor @filedescriptor </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  A short blog post explaining XSS filter/auditor in response to the previous poll: <a href="http://blog.innerht.ml/the-misunderstood-x-xss-protection/" rel="nofollow">http://blog.innerht.ml/the-misunderstood-x-xss-protection/</a></p>
+<div class="translated" id="113151">
+<p>﻿"浏览器 XSS filter/auditor 保护的误解 - 哪种 XSS filter/auditor 设置最糟糕， Blog︰   <a href="https://t.co/SiZe4qA6Wv" rel="nofollow">https://t.co/SiZe4qA6Wv</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  iOS-URI-Schemes-Abuse <a href="https://github.com/pwnsdx/iOS-URI-Schemes-Abuse-PoC" rel="nofollow">https://github.com/pwnsdx/iOS-URI-Schemes-Abuse-PoC</a></p>
+<div class="translated" id="113108">
+<p>﻿"滥用 iOS URI Scheme， 5 个 URI Scheme Bug 的攻击 PoC， Github Repo：   <a href="https://t.co/iVZCjhZ49I" rel="nofollow">https://t.co/iVZCjhZ49I</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mac OS X </i>]  Pre-KeRanger Mac Ransomware <a href="http://avien.net/blog/pre-keranger-mac-ransomware/" rel="nofollow">http://avien.net/blog/pre-keranger-mac-ransomware/</a></p>
+<div class="translated" id="113172">
+<p>﻿"在 KeRanger 之前， Mac OS X 平台也出现过勒索软件，当时那个并不是真的加密用户的所有文件，只是弹个警告：   <a href="https://t.co/gLkOofjpzQ" rel="nofollow">https://t.co/gLkOofjpzQ</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  pdfkungfoo @pdfkungfoo </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mac OS X </i>]  Wow! #Apple has moved #CUPS to @  github:
+
+<a href="https://github.com/apple/cups" rel="nofollow">https://github.com/apple/cups</a>
+<a href="https://cups.org/pipermail/cups/2016-March/027580.html" rel="nofollow">https://cups.org/pipermail/cups/2016-March/027580.html</a></p>
+<div class="translated" id="113010">
+<p>﻿"Apple 开发的开源打印系统 CUPS 将代码托管移至 Github:   <a href="https://t.co/wqQXjaLtnl" rel="nofollow">https://t.co/wqQXjaLtnl</a> <a href="https://t.co/hSoKB52Vk3" rel="nofollow">https://t.co/hSoKB52Vk3</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>McAfee Labs @McAfee_Labs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  #5G networks could provide bandwidth for up to 50B smart devices, which means more security (and privacy) risks:
+<a href="http://intel.ly/22sBneI" rel="nofollow">http://intel.ly/22sBneI</a></p>
+<div class="translated" id="112954">
+<p>﻿"5G 网络带来更多机会的同时，也带来了更多的风险和挑战， 来自 McAfee Blog ︰   <a href="https://t.co/ZLJQbZ4gZz" rel="nofollow">https://t.co/ZLJQbZ4gZz</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Chris Palmer @fugueish </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  New blog post: My Slides From The Stanford Security Seminar <a href="https://noncombatant.org/2016/03/19/stanford-security-seminar/" rel="nofollow">https://noncombatant.org/2016/03/19/stanford-security-seminar/</a> #langsec</p>
+<div class="translated" id="112999">
+<p>﻿"斯坦福大学安全研讨会的一个演讲《Computers Are Languages》，谈计算机程序就是处理不同的协议和格式，在处理过程中会存在很多的安全问题：    <a href="https://t.co/TI85CjdZ6c" rel="nofollow">https://t.co/TI85CjdZ6c</a> #langsec"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Crackq @hashcrackq </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Crackq API is released! Roll your own client or integrate Crackq into existing projects <a href="https://hashcrack.org/crackq-api" rel="nofollow">https://hashcrack.org/crackq-api</a></p>
+<div class="translated" id="113073">
+<p>﻿"Crackq 是一个在线的基于分布式 GPU 的密码破解工具，现在 Crackq 开始提供 API 服务了：    <a href="https://t.co/Un9KQtZuBq" rel="nofollow">https://t.co/Un9KQtZuBq</a> Crackq"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  b33f @FuzzySec </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  BinDiff now available for free! - <a href="https://security.googleblog.com/2016/03/bindiff-now-available-for-free.html" rel="nofollow">https://security.googleblog.com/2016/03/bindiff-now-available-for-free.html</a></p>
+<div class="translated" id="113147">
+<p>﻿"BinDiff 免费下载了：    <a href="https://t.co/PJSVAydYfR%C2%A0" rel="nofollow">https://t.co/PJSVAydYfR </a> BinDiff 是一个二进制比对工具，对于补丁分析很有帮助. 还有一个类似的二进制比对工具 Diaphora:   <a href="https://github.com/joxeankoret/diaphora" rel="nofollow">https://github.com/joxeankoret/diaphora</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  David Marugán @RadioHacking </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> WirelessSecurity </i>]  OpenCellID is a collaborative project to create a free worldwide database of #GSM Cell IDs <a href="http://opencellid.org/" rel="nofollow">http://opencellid.org/</a> <a href="https://t.co/6MINGHqFHn" rel="nofollow">https://t.co/6MINGHqFHn</a></p>
+<div class="translated" id="112989">
+<p>﻿"OpenCellID  - 一个免费的全球 GSM Cell ID 数据库， 可以具体查看一个 Cell ID 的坐标、MCC、MNC、LAC、Cell ID 信息：    <a href="https://t.co/aAlZV3jvJ6" rel="nofollow">https://t.co/aAlZV3jvJ6</a>   能看到北京大约有 3000 多个 Cell ID"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/Cd3VyTsXEAAjm6Q.jpg" target="_blank">
+<img src="Cd3VyTsXEAAjm6Q.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/03/19/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/03/20/index.html">2016/03/20</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/03/21/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

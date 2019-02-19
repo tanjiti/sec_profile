@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/06/14" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/06/14</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    border-top: 1px solid #f0f0f0;
+    color: black;
+    margin-bottom: 30px;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+
+
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+
+.singleweibotext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+
+.singleweiboimage{
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin-left: 25px;
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedheader{
+
+}
+
+.singlefeedlogo{
+    float: left;
+    /*width: 24px;*/
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.singlefeedlogo img{
+    float: left;
+    width: 13px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+
+    /*width: 80%;
+    height: 80%;*/
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+.singlefeedtext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/06/13/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/06/14/index.html">2017/06/14</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/06/15/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Android ]</span>  
+3 月份的 Android 漏洞补丁修复了一个可以通过耳机触发的 Nexus 9 漏洞（CVE-2017-0510）。作者研究之后发现补丁依然可以绕过（CVE-2017-0648），该漏洞在本月已经修复：    <a href="https://alephsecurity.com/2017/06/13/nexus9-ephemeral-fiq/" rel="nofollow">https://alephsecurity.com/2017/06/13/nexus9-ephemeral-fiq/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  
+Internet Explorer add-on Installer 沙箱逃逸漏洞的利用(CVE-2015-1743)：    <a href="http://thomas-vanhoutte.blogspot.be/2017/06/one-of-my-first-sandbox-escapes-and-bugs.html" rel="nofollow">http://thomas-vanhoutte.blogspot.be/2017/06/one-of-my-first-sandbox-escapes-and-bugs.html</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  
+本月 Firefox 54 修复的 CVE-2017-7762: Addressbar spoofing in Reader mode 漏洞的 PoC：    <a href="https://twitter.com/shhnjk/status/874712568824299522" rel="nofollow">https://twitter.com/shhnjk/status/874712568824299522</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Detect ]</span>  
+ 在内存中检测恶意软件：   <a href="https://www.endgame.com/blog/technical-blog/hunting-memory" rel="nofollow">https://www.endgame.com/blog/technical-blog/hunting-memory</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Detect ]</span>  使用 Sysmon 与 Splunk 进行高级事件检测与威胁捕获：   <a href="http://security-research.dyndns.org/pub/slides/FIRST2017/FIRST-2017_Tom-Ueltschi_Sysmon_FINAL.pdf" rel="nofollow">http://security-research.dyndns.org/pub/slides/FIRST2017/FIRST-2017_Tom-Ueltschi_Sysmon_FINAL.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Industry News ]</span>  
+微软将在今年秋季的 Windows 10 RS3 中开始禁用 SMBv1 文件共享协议：    <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-to-disable-smbv1-in-windows-starting-this-fall/" rel="nofollow">https://www.bleepingcomputer.com/news/microsoft/microsoft-to-disable-smbv1-in-windows-starting-this-fall/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Linux ]</span>   在 Kali Linux 下使用 mingw 编译 Windows 漏洞利用程序：   <a href="http://www.hackingtutorials.org/exploit-tutorials/mingw-w64-how-to-compile-windows-exploits-on-kali-linux/" rel="nofollow">http://www.hackingtutorials.org/exploit-tutorials/mingw-w64-how-to-compile-windows-exploits-on-kali-linux/</a> </p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Malware ]</span>  
+借助 Apache mod_rewrite，钓鱼站可以实现随机返回 Payloads:   <a href="https://bluescreenofjeff.com/2017-06-13-serving-random-payloads-with-apache-mod_rewrite/" rel="nofollow">https://bluescreenofjeff.com/2017-06-13-serving-random-payloads-with-apache-mod_rewrite/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Malware ]</span>  
+Xavier - 趋势科技最近检测到一款会泄露用户信息的第三方木马广告库：   <a href="http://blog.trendmicro.com/trendlabs-security-intelligence/analyzing-xavier-information-stealing-ad-library-android/" rel="nofollow">http://blog.trendmicro.com/trendlabs-security-intelligence/analyzing-xavier-information-stealing-ad-library-android/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  恶意软件反调试分析的对抗 - Anti-Anti-Analysis：   <a href="http://resources.infosecinstitute.com/bypassing-malware-anti-analysis-techniques/" rel="nofollow">http://resources.infosecinstitute.com/bypassing-malware-anti-analysis-techniques/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Operating System ]</span>  Tails 3.0 版本发布，同时发布了多个安全补丁：   <a href="https://tails.boum.org/news/version_3.0/index.en.html" rel="nofollow">https://tails.boum.org/news/version_3.0/index.en.html</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DCOVAXFW0AAwLgH.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/DCOVAXFW0AAwLgH.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  针对 RSA Emergency Access Tokencode 的测试与研究：   <a href="https://t.co/60wG4pjd3Q" rel="nofollow">https://t.co/60wG4pjd3Q</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  
+如何利用 WHID Injector 将一个新鼠标改装成恶意 HID 设备：    <a href="http://securityaffairs.co/wordpress/60019/hacking/weaponize-mouse-whid-injector-fun-w00t.html" rel="nofollow">http://securityaffairs.co/wordpress/60019/hacking/weaponize-mouse-whid-injector-fun-w00t.html</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  
+编写兼容 base64 和纯字母数字的 Shellcode：   <a href="https://blog.skullsecurity.org/2017/solving-b-64-b-tuff-writing-base64-and-alphanumeric-shellcode" rel="nofollow">https://blog.skullsecurity.org/2017/solving-b-64-b-tuff-writing-base64-and-alphanumeric-shellcode</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ SecurityReport ]</span>  
+微软发布 6 月份的漏洞补丁公告，本月共修复了 92 漏洞，其中 17 个为高危级别。另外，其中有两个已经被用于实际攻击中，包括 LNK 的 RCE（CVE-2017-8464） 和 Windows 搜索服务的 RCE（CVE-2017-8543）：   <a href="https://portal.msrc.microsoft.com/en-US/security-guidance%C2%A0" rel="nofollow">https://portal.msrc.microsoft.com/en-US/security-guidance </a> <a href="http://blog.talosintelligence.com/2017/06/ms-tuesday.html%C2%A0%C2%A0" rel="nofollow">http://blog.talosintelligence.com/2017/06/ms-tuesday.html  </a> <a href="https://threatpost.com/microsoft-patches-two-critical-vulnerabilities-under-attack/126239/%C2%A0" rel="nofollow">https://threatpost.com/microsoft-patches-two-critical-vulnerabilities-under-attack/126239/ </a> 漏洞致谢信息：   <a href="https://portal.msrc.microsoft.com/en-us/security-guidance/acknowledgments" rel="nofollow">https://portal.msrc.microsoft.com/en-us/security-guidance/acknowledgments</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ SecurityReport ]</span>  
+Mozilla 发布 Firefox 54 版本，本次更新修复的漏洞列表：   <a href="https://www.mozilla.org/en-US/security/advisories/mfsa2017-15/" rel="nofollow">https://www.mozilla.org/en-US/security/advisories/mfsa2017-15/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ SecurityReport ]</span>  
+Adobe 今天也发布了 6 月份的漏洞补丁公告，共修复了涵盖 4 个产品的 21 个漏洞，其中包括 Flash 的 9 个漏洞：   <a href="https://threatpost.com/adobe-fixes-21-critical-vulnerabilities-with-june-patch-tuesday-update/126230/" rel="nofollow">https://threatpost.com/adobe-fixes-21-critical-vulnerabilities-with-june-patch-tuesday-update/126230/</a>
+</p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DCOXlOsUIAAxSQl.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/DCOXlOsUIAAxSQl.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ SecurityReport ]</span>  
+本月微软修复了几个 Device Guard Bypass 的漏洞：  1)    <a href="https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0215" rel="nofollow">https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0215</a>    2)    <a href="https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0216%C2%A0%C2%A0" rel="nofollow">https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0216  </a> 3)    <a href="https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0218%C2%A0" rel="nofollow">https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0218 </a> 4)    <a href="https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0219" rel="nofollow">https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2017-0219</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ SecurityReport ]</span>  
+微软在本月的更新中，再次例外地推送了 Windows XP 的补丁，用于修复 WannaCry 勒索软件所用的 SMB 漏洞（MS17-010）：   <a href="https://blogs.technet.microsoft.com/msrc/2017/06/13/june-2017-security-update-release/%C2%A0" rel="nofollow">https://blogs.technet.microsoft.com/msrc/2017/06/13/june-2017-security-update-release/ </a> <a href="https://threatpost.com/risk-of-destructive-cyber-attacks-prompts-microsoft-to-update-xp-again/126235/" rel="nofollow">https://threatpost.com/risk-of-destructive-cyber-attacks-prompts-microsoft-to-update-xp-again/126235/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  
+ EFI Swiss Knife - 研究员 fG 写了一个用于辅助 IDA UEFI 逆向的插件：    <a href="https://reverse.put.as/2017/06/13/efi-swiss-knife-an-ida-plugin-to-improve-uefi-reversing/" rel="nofollow">https://reverse.put.as/2017/06/13/efi-swiss-knife-an-ida-plugin-to-improve-uefi-reversing/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>   ground-control: 调试 SSRF / BLIND XSS / XXE 漏洞的脚本收集：    <a href="https://t.co/mzBa7UAqgO" rel="nofollow">https://t.co/mzBa7UAqgO</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>   WordSteal -  用于构造窃取远程机器 NetNTLM Hash 的 Word 文件的脚本：   <a href="https://t.co/HoVYrXmLZm" rel="nofollow">https://t.co/HoVYrXmLZm</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  
+利用 IEExec 实现 AppLocker Bypass：   <a href="https://pentestlab.blog/2017/06/13/applocker-bypass-ieexec/" rel="nofollow">https://pentestlab.blog/2017/06/13/applocker-bypass-ieexec/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Industry News ]</span>  微软本月的补丁更新中，开始封杀一款流氓软件捆绑器 - Xiazai，Xiazai 会捆绑安装第三方软件、强制绑定主页，看它的界面和来源，可能来自国内： 
+<a href="https://blogs.technet.microsoft.com/mmpc/2017/06/13/msrt-june-2017-removing-sneaky-xiazai/" rel="nofollow">https://blogs.technet.microsoft.com/mmpc/2017/06/13/msrt-june-2017-removing-sneaky-xiazai/</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Linux ]</span>  Linux sudo漏洞（CVE-2017-1000367）复现和利用思路分析，来自 FreeBuf： 
+<a href="http://www.freebuf.com/articles/system/136975.html" rel="nofollow">http://www.freebuf.com/articles/system/136975.html</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Others ]</span>  EvadeML - 利用遗传编程的方法自动化生成可以逃逸机器学习检测的样本： 
+<a href="http://evademl.org/gpevasion/" rel="nofollow">http://evademl.org/gpevasion/</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Tools ]</span>  PoolSprayer - 用于在 Windows 内核中实现 HeapSpray 的库：
+<a href="https://github.com/cbayet/PoolSprayer" rel="nofollow">https://github.com/cbayet/PoolSprayer</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Windows ]</span>  自动化挖掘 windows 内核信息泄漏漏洞，来自 IceSword Lab： <a href="http://www.iceswordlab.com/2017/06/14/Automatically-Discovering-Windows-Kernel-Information-Leak-Vulnerabilities_zh/" rel="nofollow">http://www.iceswordlab.com/2017/06/14/Automatically-Discovering-Windows-Kernel-Information-Leak-Vulnerabilities_zh/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Windows ]</span>  利用 Windows Defender 实现 SYSTEM 权限的任意文件删除能力： 
+<a href="https://github.com/SandboxEscaper/Def/blob/master/README.md" rel="nofollow">https://github.com/SandboxEscaper/Def/blob/master/README.md</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Windows ]</span>  利用 Sysinternals ProcDump 收集内核 Dump 数据（无需 Reboot）： 
+<a href="https://channel9.msdn.com/Shows/Defrag-Tools/Defrag-Tools-178-Sysinternals-ProcDump-v90" rel="nofollow">https://channel9.msdn.com/Shows/Defrag-Tools/Defrag-Tools-178-Sysinternals-ProcDump-v90</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/06/13/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/06/14/index.html">2017/06/14</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/06/15/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

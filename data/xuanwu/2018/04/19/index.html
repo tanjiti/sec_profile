@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2018/04/19" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2018/04/19</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    border-top: 1px solid #f0f0f0;
+    color: black;
+    margin-bottom: 30px;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+
+
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+
+.singleweibotext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+
+.singleweiboimage{
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin-left: 25px;
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedheader{
+
+}
+
+.singlefeedlogo{
+    float: left;
+    /*width: 24px;*/
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.singlefeedlogo img{
+    float: left;
+    width: 13px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+
+    /*width: 80%;
+    height: 80%;*/
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+.singlefeedtext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+<script charset="UTF-8" src="http://tajs.qq.com/stats?sId=64975755" type="text/javascript"></script>
+</meta></head>
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2018/04/18/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2018/04/19/index.html">2018/04/19</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/04/20/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Android ]</span>  绕过 Android 反仿真(Anti-Emulation) 保护 Part 2：   <a href="http://www.juanurs.com/Bypassing-Android-Anti-Emulation-Part-II/" rel="nofollow">http://www.juanurs.com/Bypassing-Android-Anti-Emulation-Part-II/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  在 Chrome 67 的安全面板中现已提供证书透明度信息：   <a href="https://twitter.com/ChromeDevTools/status/986628922816135168" rel="nofollow">https://twitter.com/ChromeDevTools/status/986628922816135168</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/Dal31eYUQAIKwu3.png" target="_blank">
+<img src="http://pbs.twimg.com/media/Dal31eYUQAIKwu3.png">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  Safari 技术预览版 54 发布：   <a href="https://webkit.org/blog/8232/release-notes-for-safari-technology-preview-54/" rel="nofollow">https://webkit.org/blog/8232/release-notes-for-safari-technology-preview-54/</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DbFJ7K8UwAAdpVy.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/DbFJ7K8UwAAdpVy.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  浏览器扩展应用安全 Part 1,作者分享讲解了几个自己挖到的漏洞（CVE-2018-5113, CVE-2018-5112, CVE-2018-5134 and CVE-2018-5135）：   <a href="http://leucosite.com/WebExtension-Security/" rel="nofollow">http://leucosite.com/WebExtension-Security/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  Microsoft Edge ACG bypass with OpenProcess()，目前处于未修复状态：   <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1552" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1552</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  谷歌宣布自 WebView 66 开始默认引入安全浏览功能以保护用户安全：   <a href="https://android-developers.googleblog.com/2018/04/protecting-webview-with-safe-browsing.html" rel="nofollow">https://android-developers.googleblog.com/2018/04/protecting-webview-with-safe-browsing.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Industry News ]</span>  英特尔允许反病毒引擎使用集成GPU进行恶意软件扫描：   <a href="https://www.bleepingcomputer.com/news/security/intel-to-allow-antivirus-engines-to-use-integrated-gpus-for-malware-scanning/" rel="nofollow">https://www.bleepingcomputer.com/news/security/intel-to-allow-antivirus-engines-to-use-integrated-gpus-for-malware-scanning/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Industry News ]</span>  微软为其新的 IoT 服务自行定制了 Linux 内核：   <a href="https://techcrunch.com/2018/04/16/microsoft-built-its-own-custom-linux-kernel-for-its-new-iot-service/" rel="nofollow">https://techcrunch.com/2018/04/16/microsoft-built-its-own-custom-linux-kernel-for-its-new-iot-service/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ iOS ]</span>  信任劫持（TrustJacking）--通过 iTunes Wi-Fi sync 特性获取iOS设备控制权 ，symantec 在 RSA 大会上公布此研究：   <a href="https://www.symantec.com/blogs/feature-stories/ios-trustjacking-dangerous-new-ios-vulnerability%C2%A0" rel="nofollow">https://www.symantec.com/blogs/feature-stories/ios-trustjacking-dangerous-new-ios-vulnerability </a> <a href="https://threatpost.com/ios-sync-glitch-lets-attackers-control-devices/131281/" rel="nofollow">https://threatpost.com/ios-sync-glitch-lets-attackers-control-devices/131281/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  Malwarebytes 对基于 Python 的广告软件 PBot 的分析：   <a href="https://blog.malwarebytes.com/threat-analysis/2018/04/pbot-python-based-adware/" rel="nofollow">https://blog.malwarebytes.com/threat-analysis/2018/04/pbot-python-based-adware/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  ridrelay - 在没有域账户密码的情况下依靠 SMB 中继收集活动目录信息的工具：   <a href="https://github.com/skorov/ridrelay" rel="nofollow">https://github.com/skorov/ridrelay</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>   对 .NET Core 2.1 性能提升的详细介绍：   <a href="https://blogs.msdn.microsoft.com/dotnet/2018/04/18/performance-improvements-in-net-core-2-1/" rel="nofollow">https://blogs.msdn.microsoft.com/dotnet/2018/04/18/performance-improvements-in-net-core-2-1/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Popular Software ]</span>  McAfee Labs 对历史上一些 Adobe Flash 漏洞的回顾总结：   <a href="https://securingtomorrow.mcafee.com/mcafee-labs/despite-decline-use-adobe-flash-vulnerabilities-will-continue-cause-concern/" rel="nofollow">https://securingtomorrow.mcafee.com/mcafee-labs/despite-decline-use-adobe-flash-vulnerabilities-will-continue-cause-concern/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Popular Software ]</span>  Whatsapp 的链接预览功能会泄漏用户真实 IP 地址：   <a href="https://medium.com/@kankrale.rahul/whatsapp-users-ip-disclosure-with-link-preview-feature-39a477f54fba" rel="nofollow">https://medium.com/@kankrale.rahul/whatsapp-users-ip-disclosure-with-link-preview-feature-39a477f54fba</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Programming ]</span>  利用 Node 及 Vue.js 创建一个基于用户兴趣的个性化视频推荐应用：   <a href="https://vuejsdevelopers.com/2018/04/16/video-vue-node-cloudinary/" rel="nofollow">https://vuejsdevelopers.com/2018/04/16/video-vue-node-cloudinary/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ SecurityAdvisory ]</span>  Oracle 发布 4 月重要安全更新，其中修复了一个 Oracle WebLogic Server 远程代码执行漏洞：   <a href="http://www.oracle.com/technetwork/security-advisory/cpuapr2018-3678067.html" rel="nofollow">http://www.oracle.com/technetwork/security-advisory/cpuapr2018-3678067.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  xHook - 用于 Android 原生 ELF 文件的 PLT 钩子库：   <a href="https://github.com/iqiyi/xHook" rel="nofollow">https://github.com/iqiyi/xHook</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  hashtopolis - 一个多平台C/S架构工具，用于将 hashcat 任务分发给多台计算机进行密码破解：   <a href="https://github.com/s3inlc/hashtopolis" rel="nofollow">https://github.com/s3inlc/hashtopolis</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  CEH 道德黑客认证考试备忘单：   <a href="https://adriancitu.com/2015/07/22/my-ceh-cheat-sheet/" rel="nofollow">https://adriancitu.com/2015/07/22/my-ceh-cheat-sheet/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>   ApiScout 作者对新增 ApiVectors 功能的介绍：   <a href="http://byte-atlas.blogspot.de/2018/04/apivectors.html" rel="nofollow">http://byte-atlas.blogspot.de/2018/04/apivectors.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  Polymorph 实时网络报文操作框架使用介绍：   <a href="https://www.exploit-db.com/docs/english/44457-polymorph-a-real-time-network-packet-manipulation-framework.pdf" rel="nofollow">https://www.exploit-db.com/docs/english/44457-polymorph-a-real-time-network-packet-manipulation-framework.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>   Jolokia RCE &amp; XSS 漏洞分析与利用(CVE-2018-1000130 、CVE-2018-1000129)：   <a href="https://blog.gdssecurity.com/labs/2018/4/18/jolokia-vulnerabilities-rce-xss.html" rel="nofollow">https://blog.gdssecurity.com/labs/2018/4/18/jolokia-vulnerabilities-rce-xss.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  Vigor ACS Unsafe Flex AMF Java 对象反序列化漏洞披露：   <a href="https://blogs.securiteam.com/index.php/archives/3681" rel="nofollow">https://blogs.securiteam.com/index.php/archives/3681</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DbCqzHiWkAA-jSU.png" target="_blank">
+<img src="http://pbs.twimg.com/media/DbCqzHiWkAA-jSU.png">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  Windows 漏洞利用技巧：通过 DiagHub 服务的 DCOM 对象实现对 Windows 10 任意文件写漏洞的利用，此方法可以被用于 Bypass Edge 的沙箱保护，来自 James Forshaw：   <a href="https://googleprojectzero.blogspot.com/2018/04/windows-exploitation-tricks-exploiting.html" rel="nofollow">https://googleprojectzero.blogspot.com/2018/04/windows-exploitation-tricks-exploiting.html</a></p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Conference ]</span>  TCTF/0CTF2018 XSS Writeup: <a href="https://paper.seebug.org/574/" rel="nofollow">https://paper.seebug.org/574/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ MalwareAnalysis ]</span>  “寄生推”SDK云控作恶，300多款应用不幸躺枪： <a href="http://www.freebuf.com/articles/terminal/168984.html" rel="nofollow">http://www.freebuf.com/articles/terminal/168984.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Popular Software ]</span>  Cisco WebEx 客户端远程代码执行漏洞披露（CVE-2018-0112） ： <a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180418-wbs" rel="nofollow">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180418-wbs</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Popular Software ]</span>  Cisco Adaptive Security Appliance VPN 客户端证书绕过漏洞披露(CVE-2018-0227)： <a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180418-asa1" rel="nofollow">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180418-asa1</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2018/04/18/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2018/04/19/index.html">2018/04/19</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/04/20/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

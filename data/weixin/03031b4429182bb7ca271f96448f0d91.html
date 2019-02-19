@@ -1,0 +1,1689 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+
+
+        <script nonce="2055485464" type="text/javascript">
+            window.logs = {
+                pagetime: {}
+            };
+            window.logs.pagetime['html_begin'] = (+new Date());
+        </script>
+        <title>
+ 【干货】Kaggle 数据挖掘比赛经验分享
+</title>
+        
+<style>.radius_avatar{display:inline-block;background-color:#fff;padding:3px;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;overflow:hidden;vertical-align:middle}.radius_avatar img{display:block;width:100%;height:100%;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;background-color:#eee}.rich_media_inner{word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.rich_media_area_primary{padding:20px 16px 12px;background-color:#fafafa}.rich_media_area_primary.voice{padding-top:66px}.rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{color:rgba(0,0,0,0.3);background-color:#fafafa}.rich_media_area_extra{padding:0 16px 24px}.rich_media_extra{padding-top:30px}.mpda_bottom_container .rich_media_extra{padding-top:24px}.mpda_bottom_container .rich_media_extra .mpad_more_list{right:-10px}html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;line-height:1.6}body{-webkit-touch-callout:none;font-family:-apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif;color:#333;background-color:#f2f2f2;letter-spacing:.034em}h1,h2,h3,h4,h5,h6{font-weight:400;font-size:16px}*{margin:0;padding:0}a{color:#576b95;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_title{font-size:22px;line-height:1.4;margin-bottom:14px}@supports(-webkit-overflow-scrolling:touch){.rich_media_title{font-weight:700}}.rich_media_meta_list{margin-bottom:22px;line-height:20px;font-size:0;word-wrap:break-word;word-break:break-all}.rich_media_meta_list em{font-style:normal}.rich_media_meta{display:inline-block;vertical-align:middle;margin:0 10px 10px 0;font-size:15px;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_meta.icon_appmsg_tag{margin-right:4px}.rich_media_meta.meta_tag_text{margin-right:0}.rich_media_meta_primary{display:block;margin-bottom:10px;font-size:15px}.meta_original_tag{padding:0 .5em;font-size:12px;line-height:1.4;background-color:#f2f2f2;color:#888}.meta_enterprise_tag img{width:30px;height:30px!important;display:block;position:relative;margin-top:-3px;border:0}.rich_media_meta_link{color:#576b95}.rich_media_meta_text{color:rgba(0,0,0,0.3)}.rich_media_meta_text.rich_media_meta_split{padding-left:10px}.rich_media_meta_text.rich_media_meta_split:before{position:absolute;top:50%;left:0;margin-top:-6px;content:' ';display:block;border-left:1px solid #888;width:200%;height:130%;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0}.rich_media_meta_text.article_modify_tag{position:relative}.rich_media_meta_nickname{position:relative}.rich_media_thumb_wrp{margin-bottom:6px}.rich_media_thumb_wrp .original_img_wrp{display:block}.rich_media_thumb{display:block;width:100%}.rich_media_content{overflow:hidden;color:#333;font-size:17px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;text-align:justify;position:relative;z-index:0}.rich_media_content *{max-width:100%!important;box-sizing:border-box!important;-webkit-box-sizing:border-box!important;word-wrap:break-word!important}.rich_media_content p{clear:both;min-height:1em}.rich_media_content em{font-style:italic}.rich_media_content fieldset{min-width:0}.rich_media_content .list-paddingleft-2{padding-left:2.2em}.rich_media_content .list-paddingleft-2 .list-paddingleft-2{padding-left:30px}.rich_media_content blockquote{margin:0;padding-left:10px;border-left:3px solid #dbdbdb}img{height:auto!important}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:portrait){.rich_media_area_extra{padding-bottom:34px}}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:landscape){.rich_media_area_primary{padding:20px 60px 15px 60px}.rich_media_area_extra{padding:0 60px 21px 60px}}@media screen and (min-width:1024px){.rich_media_area_primary_inner,.rich_media_area_extra_inner{max-width:677px;margin-left:auto;margin-right:auto}.rich_media_area_primary{padding-top:32px}}.appmsg_share_notice{font-size:16px;color:#888;position:relative;padding:1.25em 0;margin-bottom:1.75em}.appmsg_share_notice:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice_hd{font-weight:700;padding-bottom:.2em}.cell{padding:.8em 0;display:block;position:relative}.cell_hd,.cell_bd,.cell_ft{display:table-cell;vertical-align:middle;word-wrap:break-word;word-break:break-all;white-space:nowrap}.cell_primary{width:2000px;white-space:normal}.flex_cell{padding:10px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.flex_cell_primary{width:100%;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;box-flex:1;flex:1}.original_tool_area{display:block;padding:.75em 1em 0;-webkit-tap-highlight-color:rgba(0,0,0,0);color:#333;border:1px solid #eaeaea;margin:20px 0}.original_tool_area .tips_global{position:relative;padding-bottom:.5em;font-size:15px}.original_tool_area .tips_global:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dbdbdb;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:27px;height:27px;padding:0;margin-right:.5em}.original_tool_area .radius_avatar img{height:100%!important}.original_tool_area .flex_cell_bd{width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal}.original_tool_area .flex_cell_ft{font-size:14px;color:#888;padding-left:1em;white-space:nowrap}.original_tool_area .icon_access:after{content:" ";display:inline-block;height:8px;width:8px;border-width:1px 1px 0 0;border-color:#cbcad0;border-style:solid;transform:matrix(0.71,0.71,-0.71,0.71,0,0);-ms-transform:matrix(0.71,0.71,-0.71,0.71,0,0);-webkit-transform:matrix(0.71,0.71,-0.71,0.71,0,0);position:relative;top:-2px;top:-1px}.rich_media_global_msg{position:fixed;top:0;left:0;right:0;padding:.85em 35px .85em 15px;z-index:2;background-color:#c6e0f8;color:#888;font-size:12px}.rich_media_global_msg .icon_closed{position:absolute;right:15px;top:50%;margin-top:-5px;line-height:300px;overflow:hidden;-webkit-tap-highlight-color:rgba(0,0,0,0);background:transparent url(//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_appmsg_msg_closed_sprite.2x42f400.png) no-repeat 0 0;width:11px;height:11px;vertical-align:middle;display:inline-block;-webkit-background-size:100% auto;background-size:100% auto}.rich_media_global_msg .icon_closed:active{background-position:0 -17px}.rich_media_global_msg.voice{color:#1aad19;background-color:#e8f6e8;padding-left:43.3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.rich_media_global_msg.voice .ic_voice{position:absolute;top:50%;margin-top:-10px;left:15px;display:inline-block;width:13.3px;height:18.3px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAA3CAYAAAB+fggjAAAAAXNSR0IArs4c6QAACb9JREFUaAW9WX9wVMUd3917d5cf/Agp1OTuQgIlQqUoI1JI1Noojg2I+VU7hVrtDDpadRypgzKjU52x09KOdsS20ypSO/WPWttcAqhTOlSoU4FIoRUn0wEZIMndBUkwGEhyv97bfvaS97L77t3lHYUuc+z3935397vf/e4LJZfQnuPPsW0d25ZQzr9mELKSUnIVzHxB/Dh+lBOKf4OEk0FOyQAl/CyltIt5tL29d/V2FzIkLUQ4FA7dwon+KCF0Fee8rBBdS5aSs/D+PUrYbyKtkb9b9BzAlA7CERrqDN1DOH8C8HU57FwSGat6kBGypbcluhMwFj+75XWwemf1vHQqtZ0T3pCtelkp73uJ79s9bT39dqs5HQyFK79jcPIKFErtSgLHjPvQHQB0EFt2hDE2QHU6RMvpkODrw3o50Uk5p3w2N/SlUKhHTNZjskHBz2pi6ylbH22J/k3mOToYCAceIYT/AgYVPhxJQTkMQ792Ez/yQCY8d0fgRl0nj8J2G5z1mvSJ3qCMrYOTb5l0xQFBDIUDjxmcbzUFJnu621/kf/DUmlM9k7RLh4LtwRChxquck0bFCqWjxENuijXF/iXoioNVnZU36wZ5D7PTTCWsWhyp4uFYa+x1k3Y5ezj6oNgtdTVpL0Lo+mhr9BwO0Xib+/bcWYZB35Sdg/sXsOSNV8o5MXK0LfoKYXQDxpJOMZ8L1g8E33JQT6aeQRoJCOJEMxjxfCvSEtlnEq5Uj5h7Ayv2I8U+5w9du/va0oyD896ZV004RQKebIzQ53EQ/jJJubJQhUa2YBXPmqNgy8vPjZ67N+NgMh6/HwSfyURgniwqLvmJif8/+sNrY6O4XV5WxjKMuvHDQOl9uCksHmX0xydWn0hYBJfAgncXzBhNjjZSnX8Fq3ENdmWWUMUhS2Ebv5HrtjDNg/+B5IY4wos0cVukUskqUwj9xfKS2W9GSEwi5QdxFS5BMn54dGzkHkhOy0x18j9COY1O5VxmhGJylIxMjgUTC7WUkfrqJAkQpfuP3nFUElO4WUgwHHza0HU1wG1SGOi0jeSI+kf92hgZlXg0yajBV0gUwri4vqZud/O7PbhxkGiNvM5NWHKV3NN8LGQbuVdDsYIVzOzHOI+ygzYhR/RAxwdbELcPZDEp+Q+2YQcS2L+Zwc4gdSUQS7Oz5BwIKUqWyq5ApEdDsVmhBKaHnHDQVUg1uwKLkkm+USEScsbjId/ra+7fbaMThMHVdpoTjuyxXloqcUg+Eqe4WBb26/5hGXeCkynyfdA9Fo/SQeZlN/StjUQtmgQUFxVnKhyJlAUGOgP13OC3ygxGWZhhSYtkYqIicUHGnWCUluoFz8mzkRzOCf14Wfyikx2ThvQ0B6XZdvhi1QaoAfZHmiMf40xMJmih4BvxWQnbNCD3i/cunoYab4FMQwr5o4zb4Uh9ZMxOM3Fsf91YfPQfOAeLTJrouYc8K3rEII0ikBcKRLTEhUQNuo8E7NSGh4dnyDOFzIioOpxkZdqyXYGSAV2rMYjhIUamkL2ZcANvG+MWWS4DU/parDm2R8AiBj/Bz3IQe14DPKeDRho1hNyonFplhgp/mmaNhpH6s0VVToNFxR7TPcVFJVZdgMG4cNBq0LvRQhyA2vLaMyDrFouTL169KzBlGkEofdnScQYMXBI/raiuXC1fs4wz2iXLI+U0y7gd3tewL41IVhLvmM6X2eWycM7nZ9EEAXWgWDWPpjWg7tx8+IbD4llhNTadTn8XcWgVBphprbhbLQkngJK/ymTdoE/IuDPME5jYSYx1HLn3EH6/B77Rq/m+FG2L3d7X1Pe+kx5kCBJp4G0clDWmAJTD0db+NhO398GO4G3cMDJBbPIY9bShfgyb+OXqMwGPV9rrskFsc6t4fck0GRZPQ5GnZBpO4x/wvrAmKfP+FzjjYF9zn5i58s0ET8MX8hnGc+BxOGnFi8innBg7UUBsFaV6Pt1CeBMrKD73qG8CbPnKUHvg/lzG+tr6DlGWufJkEWQp/tjgyMBJPF+fWrhj4XSZeSlwJgaFIhyioY7gHvS3moYyK6TRO6JN0b0mzd6HOgIbEBK/gp7fzsOBGMLUX2Z+bWvvnb1T3sd2fYFbDgoET8/56UTqKEBrizDIeY1463tae1BGObeq9qrlBtXb4aRcmVvCmOjneFq+UFZW9lJ3Q3fee9lSmgAUBwUNd+N9CPjfTfDHO0pO+z1FK081nfpUoUuIuKPPD322Gav5OMjWBCURRBGN4GH0QCGvxSwHhcFguPLnGEip97AKXd5y39dPN5yOy4PaYXGrjKToRsTMIzg4M+38cZz+LNYWe8qZp1Izh0QlEVLfctMmzNb6gCP4GGxFcij5W7usHT++NjaI4uHpadr0KkbpZvAH7DKw9iRi98lsejbFcQWF2LJ/LvOe6Yl14m5eLavhU8gqkQdlWj5YnOSL+sXNWNFNmKT1NQsLkGAez3zcIHmfj44rKAYUd2Jxcek6HCP1cHD+Ig5DzonZnT3WdOyCWFGukRUIwkGTL069kdYz319MmlOf00EhjKpiWKPku7IiDF9X3RHMecvIsjIsPqdh1ewO3SXLOMF5HRQKvS39h5GNOmVlnZP1Mu4W9pZ5/4TDZh0ybHkt3iKOqcm0OaWDQpB52DZTQfQo+Vtl3C08kQGO2OStYtlGz6CuHJxZO3MPYnHYMsDJVSKpW3ghAOXKsxaPoup86q4c7F7cncSyHZANGen0Shl3C+PSPy/L4qmZ97525aAwiMLgQ8Uwp8tl3C2MASff00KJMRW3GXLtIFbwY1kXp/kaGXcL42AoDqHit6p5JxuuHfQwj1IvIhFO9QhyGk/QpskM/C3Gyo0y3YRdOzgnNOcTHJS0qYgVrBIfLE28gF75ToN3bySfrmsHM68tTo7JxuKJ+PUyPhWcqbQ5XarI+TRlZxQeENcOjitS5dMc5/oqu8F8+ODI4FrEoPVpBTfL8akK2YIc9DCiFAkoyTbUdNSU5XPK5Im/MQPeZOKZnpNdCu6AFOTgrJLZO2FDrogrUjyxPbQ/VOxgWyG9Fn71h6hoJkMC8exlvl8qQg6I66rE1A22Vz6PEuwZExe92CrQtmmU72U+fzQ9K/15XV1dsuudrhlc50t0XX8Izq1TdAh5I9rWf69Mc4ILdlCU9kNDn32ICvZS0wySAY2W+shSUdw6OSXTCtpioSgePZrPeydWTUncstF8MPRw1dFvunFO2CnYQaGEk3cSn8iWYyVeBGoImqtG6RHxQsQfEJVskE+34C22GxOfb8fiY40owtaAJ0qnciTxcvSlE7VfBPX3IQ8lb/U2R3dgBRGu7tt/AYJkZEGv/oaXAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.rich_media_global_msg.voice .icon_more{position:absolute;right:15px;top:50%;margin-top:-6.5px;width:8px;height:13px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAmCAYAAADeB1slAAAAAXNSR0IArs4c6QAAA49JREFUSA2tVk1IVFEUPveOmhQk1ibfvLFZSJtACqJIIpCIoB+imcFV2Z9ZUVnRomgRGFn2i6mFf5XVotCZMYmgIMhlq6BFENFiwjfPAosgFzXOvNu5o3fmeue98Y16F3PP+c453/fu/xCQmvZSWwwJaC0G6P8WND9IoTmbVFRycpqAdgBWkwRo94V960RsPn1aoPpN9RI6CR0WsDWcjAErtUiqTR/S18+HnNcSTv5zYrwDSatVMgLkH6aciwfj79WYW5+OT4xfsyPnBIgvwt872qBW45ZQzaMlJXCfMPJbDQgfRUoIhduVUW2TwArpaWyX+bnYU9JAAH44FaJIccqCW76Ib7NTjhOOvFPN/8q/IvE3cR+npFJgao9rkiSUXjD2GCNqzMnPbNPYjth3mqINlJAvTsk4kiJmWa3eQe8WpxwVzwjwgFFn/CorL29EkY9qovC5CFDrKq7JVoHl6zNTJCf53/lLk78SN/FcbJRx2cZCixC4ZATGXsu4as8YgQjGamN/q5atOotn4K3A1J4BUMbgsh7Wt6sx2bcV4AkjtSPJxkDjRQL0hVwg21zEglSzN+rdKeOybTtFcgK39ajWZDFWr+IZHxfGQ8mV0YA5nMGmDVcCPNcb8R5gYJ1UCWQfp6PFCI4NyZhrAV6EIiHGrPOAB0ImkW2c0la8u8ICc0wUCWrvC1dsw+3TnN6uanDaJ4zeiIfiA9wtWIAX8XspxeA6iuBlaN88hNzCNXk+JwFOuXJYW5tMQmc+EcqgzXGb2n9XFk1NstX5yKczl89JAF+6vRaBM1m5XAu//qkRGrtb8BThTtqH2/V0LmUWwbvsiREw8X0vcJHxxNbjNm3KUuVaMjmPFuWm2CPesHc/kp+yj06hFMhj/PIOOcfVFLk6xZT0G3vMTpmc27MusityZk/OBfKOwA05MPLIDJn3OJldcxTQotpBYOyEXVEWIw/NoInvuHOznSJfVDs0GzneNw9mI+eyOSPQI9phfCqPO38TFhHaFw/Eu/LliNiMESB5w6zkzD05F8mMYJr8mFC263Fa+vAadvXloj4toEcrjlgMjgrQrseHpBcfkm67WD6M6MN6lTWZeoZjyYxGLcB57MGnsEfF3fjU2G189QBpcUqmBLrnSs4504s8GjLxrwm5qYrg3dKFf6x6VbwQ3yOS/wz8+bS0ruwfELaBY2nyoNkn4gvW65GKRn4WForwP+dONHDaOHeZAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.preview_appmsg .rich_media_title{margin-top:2.3em}@media screen and (min-width:1024px){.rich_media_global_msg{position:relative;margin-bottom:32px}.preview_appmsg .rich_media_title.rich_media_title{margin-top:0}}.pages_reset{color:#333;line-height:1.6;font-size:16px;font-weight:400;font-style:normal;text-indent:0;letter-spacing:normal;text-align:left;text-decoration:none;white-space:normal}.weapp_element,.weapp_display_element,.mp-miniprogram{display:block;margin:1em 0}.share_audio_context{margin:16px 0}.weapp_text_link{font-size:17px}.weapp_text_link:before{content:'';display:inline-block;line-height:1;background-size:contain;background-repeat:no-repeat;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAB4RJREFUWAm1WUuMFGUQnn7szL5mdvbh7GwgEQUlS1weiagxxpigiUZeJgY1cMMDcDCGG8GLCWZvxHjh4BWUeDEsejBBEzWYKBBEiHAABBfCMOwsuzvszrvb+v6Zb7amt1ce0Up6qv6q+qq+/rv778dYkUeUqamp5dFodJPv++ts205blpX2PG8I5cTOiLol44zYZ8vl8vFkMnnlUVpZDwPK5/MpIbWrVqttFlLD0jwiBEHIaNbCGKJjQvai+I9Xq9VD8Xg8y9z76QcimM1mu3t6ej4UYh84jtOFxhBNJGxskhp5xIielZ37bHp6+tNUKnWPOYvp+xKcm5t7S4gclKIpFNGzsmjRkBnUOwNbZjQrtfZ2dnZ+vVgd+O1/CVqlUukjIXZYCqZADBuEJIllc4xh61zmaB9s7LDkHkYPwJgX1KEEx8fHO2TmjkjyPgLQmERIAjHajGnyjDGPOfQ3xvvQCz3ZS+sw5hYAsodbWBhNw4SNGCMBnR/MYS60jskhPyaHe7u4W5otmEGZ8v0gx2YsyDE0bc4Wx8glOe2Dn2No2hqPnuiNXC0tM9i4IA5LcksjNm0BNs417aMNAsRom3HoMD8wsu3QF06TIJaSRCJxXrDmamUBrVEYRejDmDY0JEgsLE4f8mkTj6tb1tsRLkEukiBY56Q4rizThI2okaNtjFlUx+Cr1vzIyTMz7uW/ik4mV7Yd24oMDrR5q1Z01Nav6a5yVsLwcvRS4CI1D5ge+MEdQhbgC1yECSQhjMNsYCGMQ2dzFeuLYxOxibuVBec3cpekY7XtWwZK8a75sMajj2yzcsd5BnccM4PCeg/JoQjJwAY4TFgUMeRjXK54kS/H6uR6e1xvw4vJyuNLYh5yrt8s2d//MtV2M1Nyvvo2F9u5LVUSJEJNPPtKrS7XdXdL6GOzG+LYqIJNUiShYyRDjRw2OXnmnntnsmInE663e3u6uHZVZy2ZsH1sa4Y7ant2DBURu3aj6Jz9c9YBVuNRhz6pvwlju1gsPikzaG78CKIxNgh1sAj91MhFztXrRQf2C+vi1Y721tMC/vZYPQb78rWCE8Tr/uCEJyZbrprNAAST4QOAIGj6qBnDGPjZgmeS0gNRc1jD8D1xx+y978/XJh4awl54nHOl8Do6STKoDarxg5gmxpj2yTEwbtZhDvSlKwUzy+lU1NPxFvz8EcSzpnnYXDCD3AtqFtOFGNM+kMBYx+DzPD/y86m8e+7SnBON2v7qlR01ncP6Gg9uriSlGSSAYyTDhl/7bmTK9tXxkj3ydFetL4lTqT5jyIdgTB/0qT9m3R9/zbvT+Yottfw3XuktJxP1Q61rh/QfcuUcHBKmzcIwdCILQE/crVpHj9+JZe7U17hSyau89lJPxYDVD3KJm5qpWWMnJqMIY+nZvKGv/NQT7ebwcicI5RhYiHBLYx30WQxObWNMyQm5Q0cy7ULK6up0/PUj3dWXn48bckEMGrGZkPJ3bhssunLmLR2qXzyIacxitvT2XZm9jABWMEmD6QPJYzILILdyeWf13Y39ZTSEMAeaQpuxZUujHn26fhCPmI6Dmy0OvIE1AyyqfYWiH7n6d9GJxWz/7df7FpBjLjQETag1Me1HPKxXwJfByXeLRViUYGiI3F/NSYr1raPdNoXh594S75nVT1Z/mUz6kAfhGJp2EI887gRy5Bw0M/g7ndQI0gZISJkpyU6WbTm7m8RYELnFkh+ZnK4/qCTiWF4XXtk6X5NkLjX7iz4rh9keAxBODaKNWKrf9Qd627yC3Cm++2m6DbHWYpHI2Im7UfFZqf6oN9DrmAsPWIquH8QjR8dRG2O88JszW56kTwvRYSayOYtD37xdsT8/ejtWq/nWsqXttdXDHdW+RNTHY9Vv5/IuTgPHtfxd7w0V04/V1ziND5IiCeTofsyTw3tRnqyfNY9b8qg1JkktXwo0EKAlg23eO2/2l7/5YaoNTyPYNIFEt6xxr/aVQQ75QTxJkEBYnDFocEKOqYQHVnn+uiCBLji1IBnCBiVZ+U6fv+dmshV7cqpq9fY4/tBg1HtudXe1zeyuRs9fHMRrEvQBQT9smb1Z+YphHljr3cWJF2gB7NOENAhAjrWGP9iIPuZhDOFYa/hD8KOxWOyAweAHEnxpqnvrvyyofbQZg4boZsEcjrUO4mX2Wl6a6jdhQeAtSoJ70YDNoIMFwmJoqImF5Wgf8jHGRhx0Y9vLNzrkNQligPdRuZpHgyDEKIixMPMQow82/dC04YdgzFwdg0+2Uf1OjPzmOYhBQ6xCoYCX9626WDOo9pqNqHUO7IfBy0XxYJ8+UHdiYuJ9AHQT2GGiycHmmLNDkmFY+JCPXrlcbqcMW28/iCNpEcHnt/3SwHzhQiEIG5JAGDYsN8yHGjil5Ir9BKVDa4U5ta/xveagNDCfRBhDQ5JczEaujhHb0FlclMFzLpDTepEEgxijAL6VSCNcPLPw6aa0oSEgTZsx+GFjwyIsenRmZmbkfuQMDj8PKrjjyCHZIw02im7eGokHAQhnFjZ8GAux/+8jOhoFhX9DCIG1EsPfD9jMC5j4/rO/If4BCiyOk7IAfLMAAAAASUVORK5CYII=');vertical-align:middle;font-size:11px;color:#888;margin-right:6px;margin-top:-3px;background-position:center;height:20px;width:20px}.flex_context{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center}.flex_bd{-webkit-box-flex:1;-webkit-flex:1;flex:1;word-wrap:break-word;word-break:break-all}.original_page{background-color:#fff;font-size:16px}.account_info{padding:0 0 20px}.account_info .flex_bd{padding-left:.85em}.radius_avatar.account_avatar{width:40px;height:40px;padding:0}.account_nickname{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;line-height:1.2;color:#576b95;font-size:14px}.account_nickname_inner{font-weight:400;vertical-align:top}.account_desc{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;color:#b2b2b2;font-size:13px;line-height:1.2;padding-top:.3em}.account_desc_inner{display:inline;vertical-align:top}.share_notice{margin-bottom:20px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.share_media{padding-bottom:18px}.original_panel{padding:20px;background-color:#fcfcfc;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;overflow:hidden;position:relative}.original_panel:after{content:" ";border:1px solid #d8d8d8;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;position:absolute;top:0;left:0;width:200%;height:200%;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}.original_panel .original_account{margin-bottom:18px;position:relative;z-index:1}.original_panel .original_account_avatar{width:28px;height:28px;padding:0}.original_panel .original_account_nickname{padding-left:.85em;font-size:15px;color:#576b95}.original_panel_title{font-size:23px;color:#000;margin:0 0 16px}.original_panel_content{color:#333}.original_panel_tool{padding-top:20px;position:relative;z-index:1}.original_cell_nickname{display:inline-block;vertical-align:middle;font-weight:400;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:8em;color:#000}.original_tool_area{padding:1.17em 0;border-width:0;position:relative}.original_tool_area:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:20px;height:20px;margin-right:.2em}.original_tool_area .flex_cell{padding:0;font-size:14px}.original_tool_area .icon_access:after{margin-right:4px;top:0}.preview_appmsg .rich_media_title{margin-top:1.5em}.preview_appmsg .account_info{padding-top:3em}.original_page{background-color:transparent}.account_info{-webkit-tap-highlight-color:rgba(0,0,0,0);outline:0;padding-bottom:20px;font-size:14px}.account_info.appmsg_account_info{padding-bottom:32px}.account_info .radius_avatar img{background-color:transparent}.share_notice{font-size:16px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.original_panel{background-color:#fafafa}.original_panel:after{border-color:#e6e6e6}.original_panel .original_account_avatar{width:30px;height:30px}.original_panel_tool{font-size:14px}.original_panel_tool a{color:#576b95}.original_panel_content{font-size:17px}.share_media{padding-bottom:30px}.icon_appmsg_tag{display:inline-block;vertical-align:middle;padding:0 .5em;font-size:12px;line-height:1.5;background-color:#c3c3c3;color:#fff;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:70%}.icon_appmsg_tag.primary{color:#3bb638;padding:4px .78em;background-color:rgba(9,187,7,0.08);font-size:12px;border-top-left-radius:.95em 50%;-moz-border-radius-topleft:.95em 50%;-webkit-border-top-left-radius:.95em 50%;border-top-right-radius:.95em 50%;-moz-border-radius-topright:.95em 50%;-webkit-border-top-right-radius:.95em 50%;border-bottom-left-radius:.95em 50%;-moz-border-radius-bottomleft:.95em 50%;-webkit-border-bottom-left-radius:.95em 50%;border-bottom-right-radius:.95em 50%;-moz-border-radius-bottomright:.95em 50%;-webkit-border-bottom-right-radius:.95em 50%}.icon_appmsg_tag.default{border:1px solid rgba(0,0,0,0.1);color:rgba(0,0,0,0.3);background-color:transparent;padding:0 .54em;font-size:15px;line-height:1.3;border-top-left-radius:.67em 50%;-moz-border-radius-topleft:.67em 50%;-webkit-border-top-left-radius:.67em 50%;border-top-right-radius:.67em 50%;-moz-border-radius-topright:.67em 50%;-webkit-border-top-right-radius:.67em 50%;border-bottom-left-radius:.67em 50%;-moz-border-radius-bottomleft:.67em 50%;-webkit-border-bottom-left-radius:.67em 50%;border-bottom-right-radius:.67em 50%;-moz-border-radius-bottomright:.67em 50%;-webkit-border-bottom-right-radius:.67em 50%}.rich_media_meta_list .icon_appmsg_tag.default{margin-top:-1px}.icon_appmsg_tag.title_tag{background-color:#d04b4e}.icon_global_tag_wrp{text-align:right;padding-bottom:12px}.icon_global_tag{background-color:rgba(118,118,118,0.16);color:rgba(0,0,0,0.41);line-height:2.2;border-top-left-radius:1em 50%;-moz-border-radius-topleft:1em 50%;-webkit-border-top-left-radius:1em 50%;border-bottom-left-radius:1em 50%;-moz-border-radius-bottomleft:1em 50%;-webkit-border-bottom-left-radius:1em 50%;padding:0 1.8em 0 1.34em;font-size:12px;margin-right:-24px;display:inline-block;vertical-align:top}.global_plain_btn{display:inline-block;vertical-align:middle;padding:0 1em;line-height:2;font-size:14px;-webkit-tap-highlight-color:rgba(0,0,0,0);border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px}.global_plain_btn.primary{color:#1aad19;border:1px solid currentColor}.global_plain_btn.primary:active{color:rgba(26,173,25,0.6)}.wx_video_context{color:#fefefe;position:relative;background-color:#000}.wx_video_thumb,.wx_video_thumb_primary{position:absolute;left:0;width:100%;height:100%!important;top:0}.wx_video_thumb_primary{-webkit-background-size:cover;background-size:cover;background-position:50% 50%;background-repeat:no-repeat}.wx_video_play_btn{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);margin-top:-2px;font-size:0;border-width:0;background-color:transparent;padding:0;outline:0;z-index:2}.wx_video_play_btn:before{content:" ";display:inline-block;width:0;height:0;border-width:14px 0 14px 25px;border-color:transparent transparent transparent #fff;border-style:dotted dotted dotted solid}.wx_video_mask{position:absolute;top:0;left:0;right:0;bottom:0;z-index:1;background-color:rgba(0,0,0,0.5)}.place_audio_area{min-height:100px;background-color:#fdfdfd;display:block;margin:16px 0}.place_music_area{min-height:68px;background-color:#fdfdfd;display:block;margin:17px 0 16px}.rich_media_empty_extra{background-color:#fafafa}.appmsg_skin_default.rich_media_empty_extra{background-color:#fff}.appmsg_skin_default .rich_media_area_primary{background-color:#fff}.appmsg_skin_default .rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{background-color:#fff}.appmsg_style_default .rich_media_tool{padding-top:15px}.rich_media_title_ios{font-weight:700}.read-more__area{margin:30px 0}.read-more__desc{margin-bottom:10px}.read-more__article__extra{font-size:14px;color:rgba(0,0,0,0.5)}.read-more__article__item{margin-bottom:10px}</style>
+<style>
+        </style>
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/pc435ee6.css">
+<![endif]-->
+
+    </head>
+    <body id="activity-detail" class="zh_CN mm_appmsg  appmsg_skin_default appmsg_style_default">
+        
+<script nonce="2055485464" type="text/javascript">
+    var biz = ""||"MzIzMzgzOTUxNA==";
+    var sn = "" || ""|| "5f044dabfaa726e292686287a1dd5ca4";
+    var mid = "" || ""|| "2247483678";
+    var idx = "" || "" || "1";
+    window.__allowLoadResFromMp = true; 
+    
+        
+</script>
+<script nonce="2055485464" type="text/javascript">
+var page_begintime=+new Date,is_rumor="",norumor="";
+1*is_rumor&&!(1*norumor)&&biz&&mid&&(document.referrer&&-1!=document.referrer.indexOf("mp.weixin.qq.com/mp/rumor")||(location.href="http://mp.weixin.qq.com/mp/rumor?action=info&__biz="+biz+"&mid="+mid+"&idx="+idx+"&sn="+sn+"#wechat_redirect"));
+</script>
+<script nonce="2055485464" type="text/javascript">
+var MutationObserver=window.WebKitMutationObserver||window.MutationObserver||window.MozMutationObserver,isDangerSrc=function(t){
+if(t){
+var e=t.match(/http(?:s)?:\/\/([^\/]+?)(\/|$)/);
+if(e&&!/qq\.com(\:8080)?$/.test(e[1])&&!/weishi\.com$/.test(e[1]))return!0;
+}
+return!1;
+},ishttp=0==location.href.indexOf("http://");
+-1==location.href.indexOf("safe=0")&&ishttp&&"function"==typeof MutationObserver&&"mp.weixin.qq.com"==location.host&&(window.__observer_data={
+count:0,
+exec_time:0,
+list:[]
+},window.__observer=new MutationObserver(function(t){
+window.__observer_data.count++;
+var e=new Date,r=[];
+t.forEach(function(t){
+for(var e=t.addedNodes,o=0;o<e.length;o++){
+var n=e[o];
+if("SCRIPT"===n.tagName){
+var i=n.src;
+isDangerSrc(i)&&(window.__observer_data.list.push(i),r.push(n)),!i&&window.__nonce_str&&n.getAttribute("nonce")!=window.__nonce_str&&(window.__observer_data.list.push("inlinescript_without_nonce"),
+r.push(n));
+}
+}
+});
+for(var o=0;o<r.length;o++){
+var n=r[o];
+n.parentNode&&n.parentNode.removeChild(n);
+}
+window.__observer_data.exec_time+=new Date-e;
+}),window.__observer.observe(document,{
+subtree:!0,
+childList:!0
+})),function(){
+if(-1==location.href.indexOf("safe=0")&&Math.random()<.01&&ishttp&&HTMLScriptElement.prototype.__lookupSetter__&&"undefined"!=typeof Object.defineProperty){
+window.__danger_src={
+xmlhttprequest:[],
+script_src:[],
+script_setAttribute:[]
+};
+var t="$"+Math.random();
+HTMLScriptElement.prototype.__old_method_script_src=HTMLScriptElement.prototype.__lookupSetter__("src"),
+HTMLScriptElement.prototype.__defineSetter__("src",function(t){
+t&&isDangerSrc(t)&&window.__danger_src.script_src.push(t),this.__old_method_script_src(t);
+});
+var e="element_setAttribute"+t;
+Object.defineProperty(Element.prototype,e,{
+value:Element.prototype.setAttribute,
+enumerable:!1
+}),Element.prototype.setAttribute=function(t,r){
+"SCRIPT"==this.tagName&&"src"==t&&isDangerSrc(r)&&window.__danger_src.script_setAttribute.push(r),
+this[e](t,r);
+};
+}
+}();
+</script>
+
+        <link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<script nonce="2055485464" type="text/javascript">
+    String.prototype.html = function(encode) {
+        var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&yen;", "¥", "&amp;", "&"];
+        
+		
+		
+		
+		
+        
+        var replaceReverse = ["&", "&amp;", "¥", "&yen;", "<", "&lt;", ">", "&gt;", " ", "&nbsp;", '"', "&quot;", "'", "&#39;"];
+	    var target;
+	    if (encode) {
+	    	target = replaceReverse;
+	    } else {
+	    	target = replace;
+	    }
+        for (var i=0,str=this;i< target.length;i+= 2) {
+             str=str.replace(new RegExp(target[i],'g'),target[i+1]);
+        }
+        return str;
+    };
+
+    window.isInWeixinApp = function() {
+        return /MicroMessenger/.test(navigator.userAgent);
+    };
+
+    window.getQueryFromURL = function(url) {
+        url = url || 'http://qq.com/s?a=b#rd'; 
+        var tmp = url.split('?'),
+            query = (tmp[1] || "").split('#')[0].split('&'),
+            params = {};
+        for (var i=0; i<query.length; i++) {
+            var arg = query[i].split('=');
+            params[arg[0]] = arg[1];
+        }
+        if (params['pass_ticket']) {
+        	params['pass_ticket'] = encodeURIComponent(params['pass_ticket'].html(false).html(false).replace(/\s/g,"+"));
+        }
+        return params;
+    };
+
+    (function() {
+	    var params = getQueryFromURL(location.href);
+        window.uin = params['uin'] || "" || '';
+        window.key = params['key'] || "" || '';
+        window.wxtoken = params['wxtoken'] || '';
+        window.pass_ticket = params['pass_ticket'] || '';
+        window.appmsg_token = "";
+    })();
+
+    function wx_loaderror() {
+        if (location.pathname === '/bizmall/reward') {
+            new Image().src = '/mp/jsreport?key=96&content=reward_res_load_err&r=' + Math.random();
+        }
+    }
+
+</script>
+
+<script nonce="2055485464" type="text/javascript">
+        window.__moon_report_uin = "0";
+            window.no_moon_ls = 0;
+    </script>
+
+        
+<script nonce="2055485464" type="text/javascript">
+    var write_sceen_time = (+new Date()); 
+</script>
+
+<div id="js_article" class="rich_media">
+    
+    <div id="js_top_ad_area" class="top_banner"></div>
+    
+    <div class="rich_media_inner">
+
+        
+        
+        <div id="page-content" class="rich_media_area_primary">
+          <div class="rich_media_area_primary_inner">
+                                    
+                        
+
+            <div id="img-content">
+
+                
+                <h2 class="rich_media_title" id="activity-name">
+                    
+                    
+                    【干货】Kaggle 数据挖掘比赛经验分享
+
+                                                                                </h2>
+                <div id="meta_content" class="rich_media_meta_list">
+                                                                                <span class="rich_media_meta rich_media_meta_text">
+                                                陈成龙
+                                            </span>
+                                        
+                                        <span class="rich_media_meta rich_media_meta_nickname" id="profileBt">
+                      <a href="javascript:void(0);" id="js_name">
+                        腾讯广告算法大赛                      </a>
+                      <div id="js_profile_qrcode" class="profile_container" style="display:none;">
+                          <div class="profile_inner">
+                              <strong class="profile_nickname">腾讯广告算法大赛</strong>
+                              <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">微信号</label>
+                              <span class="profile_meta_value">TSA-Contest</span>
+                              </p>
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">功能介绍</label>
+                              <span class="profile_meta_value"> 腾讯广告算法大赛官方账号。关注获取最新赛事资讯、掌握算法干货、了解选手心得。</span>
+                              </p>
+                              
+                          </div>
+                          <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">
+                              <i class="profile_arrow arrow_out"></i>
+                              <i class="profile_arrow arrow_in"></i>
+                          </span>
+                      </div>
+                    </span>
+
+
+                    <em id="publish_time" class="rich_media_meta rich_media_meta_text"></em>
+
+
+
+
+
+                </div>
+                
+                
+                
+                
+                                                
+                                                                
+                                
+                
+                <div class="rich_media_content " id="js_content">
+                    
+
+                    
+
+                    
+                    
+                    <section style="background-color: rgb(255, 255, 255); box-sizing: border-box;"><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style=" margin: 0.5em 0px;  box-sizing: border-box; "><section class="" style="background-color: rgb(160, 160, 160); height: 1px; box-sizing: border-box;"></section></section></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style=" margin: 15px 0%; transform: translate3d(0px, 0px, 0px); -webkit-transform: translate3d(0px, 0px, 0px); -moz-transform: translate3d(0px, 0px, 0px); -o-transform: translate3d(0px, 0px, 0px);  box-sizing: border-box; "><section class="" style="display: inline-block; vertical-align: top; width: 15%; padding: 0px 1px; box-sizing: border-box;"><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style=" margin-top: 10px; margin-bottom: 10px; text-align: center; transform: translate3d(0px, 0px, 0px); -webkit-transform: translate3d(0px, 0px, 0px); -moz-transform: translate3d(0px, 0px, 0px); -o-transform: translate3d(0px, 0px, 0px);  box-sizing: border-box; "><section class="" style="display: inline-block; vertical-align: top; border-left: 1px solid rgb(160, 160, 160); border-right: 1px solid rgb(160, 160, 160); padding: 0px 5px; color: rgb(160, 160, 160); box-sizing: border-box;"><p style="display: inline-block; width: 1em; margin: 0px 0.2em; float: right; clear: none; padding: 0px; box-sizing: border-box;"><strong style="box-sizing: border-box;">简</strong><strong style="letter-spacing: 0px; box-sizing: border-box;">介</strong></p><p class="" style="clear: both; font-size: 0px; line-height: 0; min-height: 0px; margin: 0px; padding: 0px; box-sizing: border-box;"><br style="box-sizing: border-box;"  /></p></section></section></section></section><section class="" style="display: inline-block; vertical-align: top; width: 85%; box-sizing: border-box;"><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style=" transform: translate3d(0px, 0px, 0px); -webkit-transform: translate3d(0px, 0px, 0px); -moz-transform: translate3d(0px, 0px, 0px); -o-transform: translate3d(0px, 0px, 0px);  box-sizing: border-box; "><section class="" style="text-align: justify; color: rgb(60, 58, 58); font-size: 14px; box-sizing: border-box;"><p style="white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;"><span style="color: rgb(136, 136, 136);">Kaggle&nbsp;于&nbsp;2010&nbsp;年创立，专注数据科学，机器学习竞赛的举办，是全球最大的数据科学社区和数据竞赛平台。笔者从&nbsp;2013&nbsp;年开始，陆续参加了多场&nbsp;Kaggle上面举办的比赛，相继获得了&nbsp;CrowdFlower&nbsp;搜索相关性比赛第一名（1326支队伍）和&nbsp;HomeDepot&nbsp;商品搜索相关性比赛第三名（2125支队伍），曾在&nbsp;Kaggle&nbsp;数据科学家排行榜排名全球第十，国内第一。笔者目前在腾讯社交与效果广告部任职数据挖掘工程师，负责&nbsp;Lookalike&nbsp;相似人群扩展相关工作。此文分享笔者在参加数据挖掘比赛过程中的一点心得体会。</span></p></section></section></section></section></section></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style=" margin: 0.5em 0px;  box-sizing: border-box; "><section class="" style="background-color: rgb(160, 160, 160); height: 1px; box-sizing: border-box;"></section></section></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style=" margin-top: 10px; margin-bottom: 10px;  box-sizing: border-box; "><section class="" style="width: 100%; border-bottom: 5px solid rgb(60, 58, 58); box-sizing: border-box;"><section class="" style="display: inline-block; vertical-align: bottom; margin-bottom: -5px; border-bottom: 5px solid rgb(160, 160, 160); min-width: 1em; text-align: center; font-size: 16px; padding: 0px 5px; box-sizing: border-box;"><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><strong style="box-sizing: border-box;">1.</strong></p></section><section class="" style="display: inline-block; vertical-align: bottom; font-size: 16px; box-sizing: border-box;"><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><strong style="box-sizing: border-box;">Kaggle&nbsp;基本介绍</strong></p></section></section></section></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style="   box-sizing: border-box; "><section class="" style="font-size: 14px; box-sizing: border-box;"><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">Kaggle&nbsp;于&nbsp;2010&nbsp;年创立，专注数据科学，机器学习竞赛的举办，是全球最大的数据科学社区和数据竞赛平台。在&nbsp;Kaggle&nbsp;上，企业或者研究机构发布商业和科研难题，悬赏吸引全球的数据科学家，通过众包的方式解决建模问题。而参赛者可以接触到丰富的真实数据，解决实际问题，角逐名次，赢取奖金。诸如&nbsp;Google，Facebook，Microsoft&nbsp;等知名科技公司均在&nbsp;Kaggle&nbsp;上面举办过数据挖掘比赛。2017年3月，Kaggle&nbsp;被&nbsp;Google&nbsp;CloudNext&nbsp;收购。</p><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><br style="box-sizing: border-box;"  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong style="box-sizing: border-box;"><span style="background-color: rgb(60, 58, 58); color: rgb(255, 255, 255); box-sizing: border-box;">1.1 参赛方式</span></strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">可以以个人或者组队的形式参加比赛。组队人数一般没有限制，但需要在&nbsp;Merger&nbsp;Deadline&nbsp;前完成组队。为了能参与到比赛中，需要在&nbsp;Entry&nbsp;Deadline&nbsp;前进行至少一次有效提交。最简单地，可以直接提交官方提供的&nbsp;Sample&nbsp;Submission。关于组队，建议先单独个人进行数据探索和模型构建，以个人身份进行比赛，在比赛后期（譬如离比赛结束还有&nbsp;2~3&nbsp;周）再进行组队，以充分发挥组队的效果（类似于模型集成，模型差异性越大，越有可能有助于效果的提升，超越单模型的效果）。当然也可以一开始就组好队，方便分工协作，讨论问题和碰撞火花。<br  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><br style="box-sizing: border-box;"  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">Kaggle&nbsp;对比赛的公正性相当重视。在比赛中，每个人只允许使用一个账号进行提交。在比赛结束后&nbsp;1~2&nbsp;周内，Kaggle&nbsp;会对使用多账号提交的&nbsp;Cheater&nbsp;进行剔除（一般会对&nbsp;Top&nbsp;100&nbsp;的队伍进行&nbsp;Cheater&nbsp;Detection）。在被剔除者的&nbsp;Kaggle&nbsp;个人页面上，该比赛的成绩也会被删除，相当于该选手从没参加过这个比赛。此外，队伍之间也不能私自分享代码或者数据，除非在论坛上面公开发布。</p><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><br style="box-sizing: border-box;"  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="letter-spacing: 0px; box-sizing: border-box;">比赛一般只提交测试集的预测结果，无需提交代码。每人（或每个队伍）每天有提交次数的限制，一般为2次或者5次，在&nbsp;Submission&nbsp;页面会有提示。</span><br style="box-sizing: border-box;"  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="background-color: rgb(60, 58, 58); color: rgb(255, 255, 255); box-sizing: border-box;"></span><br style="box-sizing: border-box;"  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong style="box-sizing: border-box;"><span style="background-color: rgb(60, 58, 58); color: rgb(255, 255, 255); box-sizing: border-box;">1.2 比赛获奖</span></strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="letter-spacing: 0px; box-sizing: border-box;">Kaggle&nbsp;比赛奖金丰厚，一般前三名均可以获得奖金。在最近落幕的第二届&nbsp;National&nbsp;Data&nbsp;Science&nbsp;Bowl&nbsp;中，总奖金池高达&nbsp;100W&nbsp;美刀，其中第一名可以获得&nbsp;50W&nbsp;美刀的奖励，即使是第十名也能收获&nbsp;2.5W&nbsp;美刀的奖金。</span><br style="box-sizing: border-box;"  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">&nbsp;</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">获奖的队伍需要在比赛结束后&nbsp;1~2&nbsp;周内，准备好可执行的代码以及&nbsp;README，算法说明文档等提交给&nbsp;Kaggle&nbsp;来进行获奖资格的审核。Kaggle&nbsp;会邀请获奖队伍在&nbsp;Kaggle&nbsp;Blog&nbsp;中发表&nbsp;Interview，来分享比赛故事和经验心得。对于某些比赛，Kaggle&nbsp;或者主办方会邀请获奖队伍进行电话/视频会议，获奖队伍进行&nbsp;Presentation，并与主办方团队进行交流。</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="background-color: rgb(60, 58, 58); color: rgb(255, 255, 255); box-sizing: border-box;"><br style="box-sizing: border-box;"  /></span></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="background-color: rgb(60, 58, 58); color: rgb(255, 255, 255); box-sizing: border-box;"><strong style="box-sizing: border-box;">1.3 比赛类型</strong></span></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">从&nbsp;Kaggle&nbsp;提供的官方分类来看，可以划分为以下类型（如下图1所示）：</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">◆ <strong>Featured</strong>：商业或科研难题，奖金一般较为丰厚；</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">◆&nbsp;<strong>Recruitment</strong>：比赛的奖励为面试机会；</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">◆&nbsp;<strong>Research</strong>：科研和学术性较强的比赛，也会有一定的奖金，一般需要较强的领域和专业知识；</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">◆&nbsp;<strong>Playground</strong>：提供一些公开的数据集用于尝试模型和算法；</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">◆&nbsp;<strong>Getting&nbsp;Started</strong>：提供一些简单的任务用于熟悉平台和比赛；</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">◆&nbsp;<strong>In&nbsp;Class</strong>：用于课堂项目作业或者考试。</p></section></section></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><p style="text-align: center; margin-top: 10px; margin-bottom: 10px; box-sizing: border-box; line-height: 1.75em;"><img class="" data-ratio="0.61875" data-w="640" data-src="http://mmbiz.qpic.cn/mmbiz_png/tq4iaariaCpMmFZwrogMZn2DqOZG9ctqaFMRqZRa05ib5wndicNaXzsmxibt0C7icT4gIDiaQ5V3ruk9EKIvfkYibzIhSA/0?wx_fmt=png" style="max-width: 100%; vertical-align: middle; box-sizing: border-box;"  /></p></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style="   box-sizing: border-box; "><section class="" style="text-align: center; font-size: 12px; color: rgb(132, 133, 134); box-sizing: border-box;"><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">图1.&nbsp;Kaggle&nbsp;比赛类型</p></section></section></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style="   box-sizing: border-box; "><section class="" style="font-size: 14px; color: rgb(60, 58, 58); box-sizing: border-box;"><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><br style="box-sizing: border-box;"  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong>从领域归属划分</strong>：包含搜索相关性，广告点击率预估，销量预估，贷款违约判定，癌症检测等。</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong>从任务目标划分</strong>：包含回归，分类（二分类，多分类，多标签），排序，混合体（分类+回归）等<span style="letter-spacing: 0px; box-sizing: border-box;">。</span></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong>从数据载体划分</strong>：包含文本，语音，图像和时序序列等。</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong>从特征形式划分</strong>：包含原始数据，明文特征，脱敏特征（特征的含义不清楚）等。</p><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><br style="box-sizing: border-box;"  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="background-color: rgb(60, 58, 58); box-sizing: border-box;"><strong style="box-sizing: border-box;"><span style="color: rgb(255, 255, 255); box-sizing: border-box;">1.4 比赛流程</span></strong></span></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">一个数据挖掘比赛的基本流程如下图2所示，具体的模块我将在下一章进行展开陈述。</p></section></section></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><p style="text-align: center; margin-top: 10px; margin-bottom: 10px; box-sizing: border-box; line-height: 1.75em;"><img class="" data-ratio="0.25" data-w="640" data-src="http://mmbiz.qpic.cn/mmbiz_png/tq4iaariaCpMmFZwrogMZn2DqOZG9ctqaFia9ibSgr1iaaiciaXeB2Hzd9dNs6zq3icibDw7c3uzQvSLibZfPFmhHwo1zBKw/0?wx_fmt=png" style="max-width: 100%; vertical-align: middle; box-sizing: border-box;"  /></p></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style="   box-sizing: border-box; "><section class="" style="text-align: center; font-size: 12px; color: rgb(132, 133, 134); box-sizing: border-box;"><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">图2.&nbsp;数据挖掘比赛基本流程</p></section></section></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style="   box-sizing: border-box; "><section class="" style="font-size: 14px; color: rgb(60, 58, 58); box-sizing: border-box;"><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><br style="box-sizing: border-box;"  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">这里想特别强调的一点是，Kaggle&nbsp;在计算得分的时候，有Public&nbsp;Leaderboard&nbsp;(LB)和&nbsp;Private&nbsp;LB&nbsp;之分。具体而言，参赛选手提交整个测试集的预测结果，Kaggle&nbsp;使用测试集的一部分计算得分和排名，实时显示在&nbsp;Public&nbsp;LB上，用于给选手提供及时的反馈和动态展示比赛的进行情况；测试集的剩余部分用于计算参赛选手的最终得分和排名，此即为&nbsp;Private&nbsp;LB，在比赛结束后会揭晓。用于计算&nbsp;Public&nbsp;LB&nbsp;和&nbsp;Private&nbsp;LB&nbsp;的数据有不同的划分方式，具体视比赛和数据的类型而定，一般有随机划分，按时间划分或者按一定规则划分。</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">&nbsp;</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">这个过程可以概括如下图3所示，其目的是避免模型过拟合，以得到泛化能力好的模型。如果不设置&nbsp;Private&nbsp;LB（即所有的测试数据都用于计算&nbsp;Public&nbsp;LB），选手不断地从&nbsp;Public&nbsp;LB（即测试集）中获得反馈，进而调整或筛选模型。这种情况下，测试集实际上是作为验证集参与到模型的构建和调优中来。<strong style="box-sizing: border-box;">Public&nbsp;LB上面的效果并非是在真实未知数据上面的效果，不能可靠地反映模型的效果。</strong>划分&nbsp;Public&nbsp;LB&nbsp;和&nbsp;Private&nbsp;LB&nbsp;这样的设置，也在提醒参赛者，我们建模的目标是要获得一个在未知数据上表现良好的模型，而并非仅仅是在已知数据上效果好。</p></section></section></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style=" text-align: center; margin-top: 10px; margin-bottom: 10px;  box-sizing: border-box; "><p style="line-height: 1.75em;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz_jpg/tq4iaariaCpMmFZwrogMZn2DqOZG9ctqaFRsUhItF1ictcDcksAHuhg9bXncIuIiaYia4rHSl9ImRaCDcYaIjVkdXpg/0?wx_fmt=jpeg" data-ratio="0.45722713864306785" data-w="339"  /></p></section></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style="   box-sizing: border-box; "><section class="" style="text-align: center; font-size: 12px; color: rgb(132, 133, 134); box-sizing: border-box;"><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">图3.&nbsp;划分&nbsp;Public&nbsp;LB&nbsp;和&nbsp;Private&nbsp;LB的目的</p><p style="line-height: 1.75em;"><span style="font-family: 微软雅黑; font-size: 12px;">（图参考&nbsp;Owenzhang&nbsp;的分享&nbsp;[1]）</span></p><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><br  /></p></section></section></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style=" margin-top: 10px; margin-bottom: 10px;  box-sizing: border-box; "><section class="Powered-by-XIUMI V5" powered-by="xiumi.us" style="white-space: normal; box-sizing: border-box;"><section class="" style="margin-top: 10px; margin-bottom: 10px; box-sizing: border-box;"><section class="" style="width: 556px; border-bottom: 5px solid rgb(60, 58, 58); box-sizing: border-box;"><section class="" style="margin-bottom: -5px; padding-right: 5px; padding-left: 5px; font-size: 16px; white-space: normal; background-color: rgb(255, 255, 255); display: inline-block; vertical-align: bottom; border-bottom: 5px solid rgb(160, 160, 160); min-width: 1em; text-align: center; box-sizing: border-box;"><p style="box-sizing: border-box;"><strong style="box-sizing: border-box;">&nbsp;2.</strong></p></section><section class="" style="font-size: 16px; white-space: normal; background-color: rgb(255, 255, 255); display: inline-block; vertical-align: bottom; box-sizing: border-box;"><p style="box-sizing: border-box;"><strong style="box-sizing: border-box;">数据挖掘比赛基本流程</strong></p></section><section class="" style="display: inline-block; vertical-align: bottom; font-size: 16px; box-sizing: border-box;"><p style="box-sizing: border-box;"><strong style="box-sizing: border-box;"></strong></p></section></section></section></section></section></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style="   box-sizing: border-box; "><section class="" style="font-size: 14px; color: rgb(60, 58, 58); box-sizing: border-box;"><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">从上面图2可以看到，做一个数据挖掘比赛，主要包含了数据分析，数据清洗，特征工程，模型训练和验证等四个大的模块，以下来一一对其进行介绍。</p><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><br style="box-sizing: border-box;"  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong><span style="background-color: rgb(60, 58, 58); color: rgb(255, 255, 255); box-sizing: border-box;">2.1 数据分析</span></strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="letter-spacing: 0px; box-sizing: border-box;">数据分析可能涉及以下方面：</span><br style="box-sizing: border-box;"  /></p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="color: rgb(60, 58, 58); font-size: 14px;  background-color: rgb(255, 255, 255);">◆</span> <strong>分析特征变量的分布</strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="color: rgb(60, 58, 58); font-size: 14px;  background-color: rgb(255, 255, 255);">◇</span> 特征变量为连续值：如果为长尾分布并且考虑使用线性模型，可以对变量进行幂变换或者对数变换。</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="color: rgb(60, 58, 58); font-size: 14px;  background-color: rgb(255, 255, 255);">◇</span> 特征变量为离散值：观察每个离散值的频率分布，对于频次较低的特征，可以考虑统一编码为“其他”类别。</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="color: rgb(60, 58, 58); font-size: 14px;  background-color: rgb(255, 255, 255);">◆</span>&nbsp;<strong>分析目标变量的分布</strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="color: rgb(60, 58, 58); font-size: 14px;  background-color: rgb(255, 255, 255);">◇</span>&nbsp;目标变量为连续值：查看其值域范围是否较大，如果较大，可以考虑对其进行对数变换，并以变换后的值作为新的目标变量进行建模（在这种情况下，需要对预测结果进行逆变换）。一般情况下，可以对连续变量进行Box-Cox变换。通过变换可以使得模型更好的优化，通常也会带来效果上的提升。</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="color: rgb(60, 58, 58); font-size: 14px;  background-color: rgb(255, 255, 255);">◇</span> 目标变量为离散值：如果数据分布不平衡，考虑是否需要上采样/下采样；如果目标变量在某个ID上面分布不平衡，在划分本地训练集和验证集的时候，需要考虑分层采样（Stratified&nbsp;Sampling）。</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="color: rgb(60, 58, 58); font-size: 14px;  background-color: rgb(255, 255, 255);">◆</span> <strong>分析</strong><strong>变量之间两两的分布和相关度</strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="color: rgb(60, 58, 58); font-size: 14px;  background-color: rgb(255, 255, 255);"><span style="color: rgb(60, 58, 58); font-size: 14px;  background-color: rgb(255, 255, 255);">◇</span>&nbsp;</span>可以用于发现高相关和共线性的特征。</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">&nbsp;</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">通过对数据进行探索性分析（甚至有些情况下需要肉眼观察样本），还可以有助于启发数据清洗和特征抽取，譬如缺失值和异常值的处理，文本数据是否需要进行拼写纠正等。</p><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><br style="box-sizing: border-box;"  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="background-color: rgb(60, 58, 58); color: rgb(255, 255, 255); box-sizing: border-box;"><strong style="box-sizing: border-box;"><span style="background-color: rgb(61, 58, 58); box-sizing: border-box;">2.2 数据清洗</span></strong></span></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">数据清洗是指对提供的原始数据进行一定的加工，使得其方便后续的特征抽取。其与特征抽取的界限有时也没有那么明确。常用的数据清洗一般包括：</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">◆&nbsp;<strong>数据的拼接</strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="letter-spacing: 0px; box-sizing: border-box;">◇ 提供的数据散落在多个文件，需要根据相应的键值进行数据的拼接。</span></p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="color: rgb(60, 58, 58); font-size: 14px;  background-color: rgb(255, 255, 255);">◆</span>&nbsp;<strong>特征缺失值的处理</strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="color: rgb(60, 58, 58); font-size: 14px;  background-color: rgb(255, 255, 255);">◇</span>&nbsp;特征值为连续值：按不同的分布类型对缺失值进行补全：偏正态分布，使用均值代替，可以保持数据的均值；偏长尾分布，使用中值代替，避免受&nbsp;outlier&nbsp;的影响；</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="color: rgb(60, 58, 58); font-size: 14px;  background-color: rgb(255, 255, 255);">◇</span> 特征值为离散值：使用众数代替。</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="color: rgb(60, 58, 58); font-size: 14px;  background-color: rgb(255, 255, 255);">◆</span>&nbsp;<strong>文本数据的清洗</strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="color: rgb(60, 58, 58); font-size: 14px;  background-color: rgb(255, 255, 255);">◇</span>&nbsp;在比赛当中，如果数据包含文本，往往需要进行大量的数据清洗工作。如去除HTML&nbsp;标签，分词，拼写纠正,&nbsp;同义词替换，去除停词，抽词干，数字和单位格式统一等。</p><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><br style="box-sizing: border-box;"  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="background-color: rgb(60, 58, 58); color: rgb(255, 255, 255); box-sizing: border-box;"><strong style="box-sizing: border-box;">2.3 特征工程</strong></span></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="letter-spacing: 0px; box-sizing: border-box;">有一种说法是，特征决定了效果的上限，而不同模型只是以不同的方式或不同的程度来逼近这个上限。这样来看，好的特征输入对于模型的效果至关重要，正所谓”Garbage&nbsp;in,&nbsp;garbage&nbsp;out”。要做好特征工程，往往跟领域知识和对问题的理解程度有很大的关系，也跟一个人的经验相关。特征工程的做法也是Case&nbsp;by&nbsp;Case，以下就一些点，谈谈自己的一些看法。</span><br style="box-sizing: border-box;"  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="letter-spacing: 0px; box-sizing: border-box;"><br style="box-sizing: border-box;"  /></span></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong style="box-sizing: border-box;"><span style=" color: rgb(60, 58, 58); box-sizing: border-box;">2.3.1 特征变换</span></strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">主要针对一些长尾分布的特征，需要进行幂变换或者对数变换，使得模型（LR或者DNN）能更好的优化。需要注意的是，Random&nbsp;Forest&nbsp;和&nbsp;GBDT&nbsp;等模型对单调的函数变换不敏感。其原因在于树模型在求解分裂点的时候，只考虑排序分位点。</p><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><br style="box-sizing: border-box;"  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong style="box-sizing: border-box;"><span style=" color: rgb(60, 58, 58); box-sizing: border-box;">2.3.2 特征编码</span></strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">对于离散的类别特征，往往需要进行必要的特征转换/编码才能将其作为特征输入到模型中。常用的编码方式有&nbsp;LabelEncoder，OneHotEncoder（sklearn里面的接口）。譬如对于”性别”这个特征（取值为男性和女性），使用这两种方式可以分别编码为{0,1}和{[1,0],&nbsp;[0,1]}。</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">&nbsp;</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">对于取值较多（如几十万）的类别特征（ID特征），直接进行OneHotEncoder编码会导致特征矩阵非常巨大，影响模型效果。可以使用如下的方式进行处理：</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">◆ 统计每个取值在样本中出现的频率，取&nbsp;Top&nbsp;N&nbsp;的取值进行&nbsp;One-hot&nbsp;编码，剩下的类别分到“其他“类目下，其中&nbsp;N&nbsp;需要根据模型效果进行调优；</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">◆&nbsp;统计每个&nbsp;ID&nbsp;特征的一些统计量（譬如历史平均点击率，历史平均浏览率）等代替该&nbsp;ID&nbsp;取值作为特征，具体可以参考&nbsp;Avazu&nbsp;点击率预估比赛第二名的获奖方案；</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">◆&nbsp;参考&nbsp;word2vec&nbsp;的方式，将每个类别特征的取值映射到一个连续的向量，对这个向量进行初始化，跟模型一起训练。训练结束后，可以同时得到每个ID的Embedding。具体的使用方式，可以参考&nbsp;Rossmann&nbsp;销量预估竞赛第三名的获奖方案，https://github.com/entron/entity-embedding-rossmann。</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">&nbsp;</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">对于&nbsp;Random&nbsp;Forest&nbsp;和&nbsp;GBDT&nbsp;等模型，如果类别特征存在较多的取值，可以直接使用&nbsp;LabelEncoder&nbsp;后的结果作为特征。</p><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><br style="box-sizing: border-box;"  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong><span style="background-color: rgb(60, 58, 58); color: rgb(255, 255, 255); box-sizing: border-box;">2.4 模型训练和验证</span></strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong><strong style="box-sizing: border-box;">2.4.1 模型选择</strong></strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="letter-spacing: 0px; box-sizing: border-box;">在处理好特征后，我们可以进行模型的训练和验证。</span></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">◆ 对于稀疏型特征（如文本特征，One-hot的ID类特征），我们一般使用线性模型，譬如&nbsp;Linear&nbsp;Regression&nbsp;或者&nbsp;Logistic&nbsp;Regression。Random&nbsp;Forest&nbsp;和&nbsp;GBDT&nbsp;等树模型不太适用于稀疏的特征，但可以先对特征进行降维（如PCA，SVD/LSA等），再使用这些特征。稀疏特征直接输入&nbsp;DNN&nbsp;会导致网络&nbsp;weight&nbsp;较多，不利于优化，也可以考虑先降维，或者对&nbsp;ID&nbsp;类特征使用&nbsp;Embedding&nbsp;的方式；</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">◆ 对于稠密型特征，推荐使用&nbsp;XGBoost&nbsp;进行建模，简单易用效果好；</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">◆ 数据中既有稀疏特征，又有稠密特征，可以考虑使用线性模型对稀疏特征进行建模，将其输出与稠密特征一起再输入&nbsp;XGBoost/DNN&nbsp;建模，具体可以参考2.5.2节&nbsp;Stacking&nbsp;部分。</p><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><br style="box-sizing: border-box;"  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong style="box-sizing: border-box;">2.4.2 调参和模型验证</strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">对于选定的特征和模型，我们往往还需要对模型进行超参数的调优，才能获得比较理想的效果。调参一般可以概括为以下三个步骤：</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">1.&nbsp;<strong>训练集和验证集的划分</strong>。根据比赛提供的训练集和测试集，模拟其划分方式对训练集进行划分为本地训练集和本地验证集。划分的方式视具体比赛和数据而定，常用的方式有：</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">a)&nbsp;随机划分：譬如随机采样&nbsp;70%&nbsp;作为训练集，剩余的&nbsp;30%&nbsp;作为测试集。在这种情况下，本地可以采用&nbsp;KFold&nbsp;或者&nbsp;Stratified&nbsp;KFold&nbsp;的方法来构造训练集和验证集。</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">b)&nbsp;按时间划分：一般对应于时序序列数据，譬如取前&nbsp;7&nbsp;天数据作为训练集，后&nbsp;1&nbsp;天数据作为测试集。这种情况下，划分本地训练集和验证集也需要按时间先后划分。常见的错误方式是随机划分，这种划分方式可能会导致模型效果被高估。</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">c)&nbsp;按某些规则划分：在&nbsp;HomeDepot&nbsp;搜索相关性比赛中，训练集和测试集中的&nbsp;Query&nbsp;集合并非完全重合，两者只有部分交集。而在另外一个相似的比赛中（CrowdFlower&nbsp;搜索相关性比赛），训练集和测试集具有完全一致的&nbsp;Query&nbsp;集合。对于&nbsp;HomeDepot&nbsp;这个比赛中，训练集和验证集数据的划分，需要考虑&nbsp;Query&nbsp;集合并非完全重合这个情况，其中的一种方法可以参考第三名的获奖方案，https://github.com/ChenglongChen/Kaggle_HomeDepot。</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">2.&nbsp;<strong>指定参数空间</strong>。在指定参数空间的时候，需要对模型参数以及其如何影响模型的效果有一定的了解，才能指定出合理的参数空间。譬如DNN或者XGBoost中学习率这个参数，一般就选&nbsp;0.01&nbsp;左右就&nbsp;OK&nbsp;了（太大可能会导致优化算法错过最优化点，太小导致优化收敛过慢）。再如&nbsp;Random&nbsp;Forest，一般设定树的棵数范围为&nbsp;100~200&nbsp;就能有不错的效果，当然也有人固定数棵数为&nbsp;500，然后只调整其他的超参数。</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">3. <strong>按照一定的方法进行参数搜索</strong>。常用的参数搜索方法有，Grid&nbsp;Search，Random&nbsp;Search以及一些自动化的方法（如&nbsp;Hyperopt）。其中，Hyperopt&nbsp;的方法，根据历史已经评估过的参数组合的效果，来推测本次评估使用哪个参数组合更有可能获得更好的效果。有关这些方法的介绍和对比，可以参考文献&nbsp;[2]。</p><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><br style="box-sizing: border-box;"  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong style="box-sizing: border-box;">2.4.3 适当利用&nbsp;Public&nbsp;LB&nbsp;的反馈</strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">在2.4.2节中我们提到本地验证（Local&nbsp;Validation）结果，当将预测结果提交到&nbsp;Kaggle&nbsp;上时，我们还会接收到&nbsp;Public&nbsp;LB&nbsp;的反馈结果。如果这两个结果的变化趋势是一致的，如&nbsp;Local&nbsp;Validation&nbsp;有提升，Public&nbsp;LB&nbsp;也有提升，我们可以借助&nbsp;Local&nbsp;Validation&nbsp;的变化来感知模型的演进情况，而无需靠大量的&nbsp;Submission。如果两者的变化趋势不一致，需要考虑2.4.2节中提及的本地训练集和验证集的划分方式，是否跟训练集和测试集的划分方式一致。</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">&nbsp;</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">另外，在以下一些情况下，往往&nbsp;Public&nbsp;LB&nbsp;反馈亦会提供有用信息，适当地使用这些反馈也许会给你带来优势。如图4所示，(a)和(b)表示数据与时间没有明显的关系（如图像分类），(c)和(d)表示数据随时间变化（如销量预估中的时序序列）。(a)和(b)的区别在于，训练集样本数相对于&nbsp;Public&nbsp;LB&nbsp;的量级大小，其中(a)中训练集样本数远超于&nbsp;Public&nbsp;LB&nbsp;的样本数，这种情况下基于训练集的&nbsp;Local&nbsp;Validation&nbsp;更可靠；而(b)中，训练集数目与&nbsp;Public&nbsp;LB&nbsp;相当，这种情况下，可以结合&nbsp;Public&nbsp;LB&nbsp;的反馈来指导模型的选择。一种融合的方式是根据&nbsp;Local&nbsp;Validation&nbsp;和&nbsp;Public&nbsp;LB&nbsp;的样本数目，按比例进行加权。譬如评估标准为正确率，Local&nbsp;Validation&nbsp;的样本数为&nbsp;N_l，正确率为&nbsp;A_l；Public&nbsp;LB&nbsp;的样本数为&nbsp;N_p，正确率为&nbsp;A_p。则可以使用融合后的指标：（N_l&nbsp;*&nbsp;A_l&nbsp;+&nbsp;N_p&nbsp;*&nbsp;A_p）/(N_l&nbsp;+&nbsp;N_p)，来进行模型的筛选。对于(c)和(d)，由于数据分布跟时间相关，很有必要使用&nbsp;Public&nbsp;LB&nbsp;的反馈来进行模型的选择，尤其对于(c)图所示的情况。</p></section></section></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><p style="text-align: center; margin-top: 10px; margin-bottom: 10px; box-sizing: border-box; line-height: 1.75em;"><img class="" data-ratio="1.4615384615384615" data-w="325" data-src="http://mmbiz.qpic.cn/mmbiz_jpg/tq4iaariaCpMmFZwrogMZn2DqOZG9ctqaFNLNPzsa4KkEVkpZMPibedkkE2hRyvuWkO7NO0Pu7VGOxszZmD4o8iaiag/0?wx_fmt=jpeg" style="max-width: 100%; vertical-align: middle; box-sizing: border-box;"  /></p></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style="   box-sizing: border-box; "><section class="" style="text-align: center; font-size: 12px; color: rgb(132, 133, 134); box-sizing: border-box;"><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">图4.&nbsp;适当利用&nbsp;Public&nbsp;LB&nbsp;的反馈</p><p style="line-height: 1.75em;"><span style="font-family: 微软雅黑; font-size: 12px;">（图参考&nbsp;Owenzhang&nbsp;的分享&nbsp;[1]）</span></p></section></section></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style="   box-sizing: border-box; "><section class="" style="font-size: 14px; color: rgb(60, 58, 58); box-sizing: border-box;"><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="background-color: rgb(60, 58, 58); color: rgb(255, 255, 255); box-sizing: border-box;"><br style="box-sizing: border-box;"  /></span></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong><span style="background-color: rgb(60, 58, 58); color: rgb(255, 255, 255); box-sizing: border-box;">2.5 模型集成</span></strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">如果想在比赛中获得名次，几乎都要进行模型集成（组队也是一种模型集成）。关于模型集成的介绍，已经有比较好的博文了，可以参考&nbsp;[3]。在这里，我简单介绍下常用的方法，以及个人的一些经验。</p><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><br style="box-sizing: border-box;"  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong style="box-sizing: border-box;">2.5.1 Averaging 和 Voting</strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">直接对多个模型的预测结果求平均或者投票。对于目标变量为连续值的任务，使用平均；对于目标变量为离散值的任务，使用投票的方式。</p><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><br style="box-sizing: border-box;"  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong style="box-sizing: border-box;">2.5.2 Stacking</strong></p></section></section></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><p style="text-align: center; margin-top: 10px; margin-bottom: 10px; box-sizing: border-box; line-height: 1.75em;"><img class="" data-ratio="0.58125" data-w="640" data-src="http://mmbiz.qpic.cn/mmbiz_png/tq4iaariaCpMmFZwrogMZn2DqOZG9ctqaFK5qGAwAIYic9vgGNIuGERiaBqFj5NXicTW2X8ib0ALTA6k89RUrxfyfG4w/0?wx_fmt=png" style="max-width: 100%; vertical-align: middle; box-sizing: border-box;"  /></p></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style="   box-sizing: border-box; "><section class="" style="text-align: center; font-size: 12px; color: rgb(132, 133, 134); box-sizing: border-box;"><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">图5.&nbsp;5-Fold&nbsp;Stacking</p><p style="line-height: 1.75em;"><span style="font-family: 微软雅黑; font-size: 12px;">（图参考&nbsp;Jeong-Yoon&nbsp;Lee&nbsp;的分享&nbsp;[4]）</span></p></section></section></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style="   box-sizing: border-box; "><section class="" style="font-size: 14px; color: rgb(60, 58, 58); box-sizing: border-box;"><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong style="box-sizing: border-box;"><br style="box-sizing: border-box;"  /></strong></p></section></section></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style="   box-sizing: border-box; "><section class="" style="font-size: 14px; color: rgb(60, 58, 58); box-sizing: border-box;"><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">图5展示了使用&nbsp;5-Fold&nbsp;进行一次&nbsp;Stacking&nbsp;的过程（当然在其上可以再叠加&nbsp;Stage&nbsp;2,&nbsp;Stage&nbsp;3&nbsp;等）。其主要的步骤如下：</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">1.&nbsp;<strong>数据集划分</strong>。将训练数据按照5-Fold进行划分（如果数据跟时间有关，需要按时间划分，更一般的划分方式请参考3.4.2节，这里不再赘述）；</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">2.&nbsp;<strong>基础模型训练 I</strong>（如图5第一行左半部分所示）。按照交叉验证（Cross&nbsp;Validation）的方法，在训练集（Training&nbsp;Fold）上面训练模型（如图灰色部分所示），并在验证集（Validation&nbsp;Fold）上面做预测，得到预测结果（如图黄色部分所示）。最后综合得到整个训练集上面的预测结果（如图第一个黄色部分的CV&nbsp;Prediction所示）。</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">3.&nbsp;<strong>基础模型训练 II</strong>（如图5第二和三行左半部分所示）。在全量的训练集上训练模型（如图第二行灰色部分所示），并在测试集上面做预测，得到预测结果（如图第三行虚线后绿色部分所示）。</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">4.&nbsp;<strong>Stage&nbsp;1 模型集成训练 I</strong>（如图5第一行右半部分所示）。将步骤&nbsp;2&nbsp;中得到的&nbsp;CV&nbsp;Prediction&nbsp;当作新的训练集，按照步骤&nbsp;2&nbsp;可以得到&nbsp;Stage&nbsp;1模型集成的&nbsp;CV&nbsp;Prediction。</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">5.&nbsp;<strong>Stage&nbsp;1 模型集成训练 II</strong>（如图5第二和三行右半部分所示）。将步骤&nbsp;2&nbsp;中得到的&nbsp;CV&nbsp;Prediction&nbsp;当作新的训练集和步骤&nbsp;3&nbsp;中得到的&nbsp;Prediction&nbsp;当作新的测试集，按照步骤&nbsp;3&nbsp;可以得到&nbsp;Stage&nbsp;1&nbsp;模型集成的测试集&nbsp;Prediction。此为&nbsp;Stage&nbsp;1&nbsp;的输出，可以提交至&nbsp;Kaggle&nbsp;验证其效果。</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">在图5中，基础模型只展示了一个，而实际应用中，基础模型可以多种多样，如SVM，DNN，XGBoost&nbsp;等。也可以相同的模型，不同的参数，或者不同的样本权重。重复4和5两个步骤，<span style="color: rgb(60, 58, 58); font-size: 14px;  background-color: rgb(255, 255, 255);">可以相继叠加&nbsp;Stage&nbsp;2,&nbsp;Stage&nbsp;3&nbsp;等模型。</span></p><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><br style="box-sizing: border-box;"  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong style="box-sizing: border-box;">2.5.3 Blending</strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">Blending&nbsp;与&nbsp;Stacking&nbsp;类似，但单独留出一部分数据（如&nbsp;20%）用于训练&nbsp;Stage&nbsp;X&nbsp;模型。</p><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><br style="box-sizing: border-box;"  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong style="box-sizing: border-box;">2.5.4 Bagging&nbsp;Ensemble&nbsp;Selection</strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">Bagging&nbsp;Ensemble&nbsp;Selection&nbsp;[5]&nbsp;是我在&nbsp;CrowdFlower&nbsp;搜索相关性比赛中使用的方法，其主要的优点在于可以以优化任意的指标来进行模型集成。这些指标可以是可导的（如&nbsp;LogLoss&nbsp;等）和不可导的（如正确率，AUC，Quadratic&nbsp;Weighted&nbsp;Kappa等）。它是一个前向贪婪算法，存在过拟合的可能性，作者在文献&nbsp;[5]&nbsp;中提出了一系列的方法（如&nbsp;Bagging）来降低这种风险，稳定集成模型的性能。使用这个方法，需要有成百上千的基础模型。为此，在&nbsp;CrowdFlower&nbsp;的比赛中，我把在调参过程中所有的中间模型以及相应的预测结果保留下来，作为基础模型。这样做的好处是，不仅仅能够找到最优的单模型（Best&nbsp;Single&nbsp;Model），而且所有的中间模型还可以参与模型集成，进一步提升效果。</p><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><br style="box-sizing: border-box;"  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong><span style="background-color: rgb(60, 58, 58); color: rgb(255, 255, 255); box-sizing: border-box;">2.6 自动化框架</span></strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">从上面的介绍可以看到，做一个数据挖掘比赛涉及到的模块非常多，若有一个较自动化的框架会使得整个过程更加的高效。在&nbsp;CrowdFlower&nbsp;比赛较前期，我对整一个项目的代码架构进行了重构，抽象出来特征工程，模型调参和验证，以及模型集成等三大模块，极大的提高了尝试新特征，新模型的效率，也是我最终能斩获名次的一个有利因素。这份代码开源在&nbsp;Github&nbsp;上面，目前是&nbsp;Github&nbsp;有关&nbsp;Kaggle&nbsp;竞赛解决方案的&nbsp;Most&nbsp;Stars，地址：https://github.com/ChenglongChen/Kaggle_CrowdFlower。</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">其主要包含以下部分：</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong style="box-sizing: border-box;">1.&nbsp;模块化特征工程</strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">a)&nbsp;接口统一，只需写少量的代码就能够生成新的特征；</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">b)&nbsp;自动将单独的特征拼接成特征矩阵。</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong style="box-sizing: border-box;">2.&nbsp;自动化模型调参和验证</strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">a)&nbsp;自定义训练集和验证集的划分方法；</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">b)&nbsp;使用&nbsp;Grid&nbsp;Search&nbsp;/&nbsp;Hyperopt&nbsp;等方法，对特定的模型在指定的参数空间进行调优，并记录最佳的模型参数以及相应的性能。</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong style="box-sizing: border-box;">3.&nbsp;自动化模型集成</strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">a)&nbsp;对于指定的基础模型，按照一定的方法（如Averaging/Stacking/Blending&nbsp;等）生成集成模型。</p><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><br style="box-sizing: border-box;"  /></p></section></section></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style=" margin-top: 10px; margin-bottom: 10px;  box-sizing: border-box; "><section class="Powered-by-XIUMI V5" powered-by="xiumi.us" style="white-space: normal; box-sizing: border-box;"><section class="" style="margin-top: 10px; margin-bottom: 10px; box-sizing: border-box;"><section class="Powered-by-XIUMI V5" powered-by="xiumi.us" style="box-sizing: border-box;"><section class="" style="margin-top: 10px; margin-bottom: 10px; box-sizing: border-box;"><section class="" style="width: 556px; border-bottom: 5px solid rgb(60, 58, 58); box-sizing: border-box;"><section class="" style="margin-bottom: -5px; padding-right: 5px; padding-left: 5px; font-size: 16px; background-color: rgb(255, 255, 255); display: inline-block; vertical-align: bottom; border-bottom: 5px solid rgb(160, 160, 160); min-width: 1em; text-align: center; box-sizing: border-box;"><p style="box-sizing: border-box;"><strong style="box-sizing: border-box;">3.</strong></p></section><section class="" style="font-size: 16px; background-color: rgb(255, 255, 255); display: inline-block; vertical-align: bottom; box-sizing: border-box;"><p style="box-sizing: border-box;"><strong>Kaggle竞赛方案盘点</strong></p></section></section></section></section></section></section><section class="Powered-by-XIUMI V5" powered-by="xiumi.us" style="white-space: normal; box-sizing: border-box;"><section class="" style="box-sizing: border-box;"><section class="" style="font-size: 14px; color: rgb(60, 58, 58); box-sizing: border-box;"><p style="box-sizing: border-box; line-height: 1.75em;">到目前为止，Kaggle&nbsp;平台上面已经举办了大大小小不同的赛事，覆盖图像分类，销量预估，搜索相关性，点击率预估等应用场景。在不少的比赛中，获胜者都会把自己的方案开源出来，并且非常乐于分享比赛经验和技巧心得。这些开源方案和经验分享对于广大的新手和老手来说，是入门和进阶非常好的参考资料。以下笔者结合自身的背景和兴趣，对不同场景的竞赛开源方案作一个简单的盘点，总结其常用的方法和工具，以期启发思路。<br  /></p></section></section></section></section></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style="   box-sizing: border-box; "><section class="" style="font-size: 14px; color: rgb(60, 58, 58); box-sizing: border-box;"><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><br style="box-sizing: border-box;"  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong><span style="background-color: rgb(60, 58, 58); color: rgb(255, 255, 255); box-sizing: border-box;">3.1 图像分类</span></strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong style="box-sizing: border-box;">3.1.1 任务名称</strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">National&nbsp;Data&nbsp;Science&nbsp;Bowl</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong style="box-sizing: border-box;">3.1.2 任务详情</strong><br  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">随着深度学习在视觉图像领域获得巨大成功，Kaggle&nbsp;上面出现了越来越多跟视觉图像相关的比赛。这些比赛的发布吸引了众多参赛选手，探索基于深度学习的方法来解决垂直领域的图像问题。NDSB就是其中一个比较早期的图像分类相关的比赛。这个比赛的目标是利用提供的大量的海洋浮游生物的二值图像，通过构建模型，从而实现自动分类。</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box;"><strong style="box-sizing: border-box;">3.1.3 获奖方案</strong><br  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">● <strong>1st&nbsp;place</strong>：Cyclic&nbsp;Pooling&nbsp;+&nbsp;Rolling&nbsp;Feature&nbsp;Maps&nbsp;+&nbsp;Unsupervised&nbsp;and&nbsp;Semi-Supervised&nbsp;Approaches。值得一提的是，这个队伍的主力队员也是Galaxy&nbsp;Zoo行星图像分类比赛的第一名，其也是Theano中基于FFT的Fast&nbsp;Conv的开发者。在两次比赛中，使用的都是&nbsp;Theano，而且用的非常溜。方案链接：http://benanne.github.io/2015/03/17/plankton.html</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">●&nbsp;<strong>2nd&nbsp;place</strong>：Deep&nbsp;CNN&nbsp;designing&nbsp;theory&nbsp;+&nbsp;VGG-like&nbsp;model&nbsp;+&nbsp;RReLU。这个队伍阵容也相当强大，有前MSRA&nbsp;的研究员Xudong&nbsp;Cao，还有大神Tianqi&nbsp;Chen，Naiyan&nbsp;Wang，Bing&nbsp;XU等。Tianqi&nbsp;等大神当时使用的是&nbsp;CXXNet（MXNet&nbsp;的前身），也在这个比赛中进行了推广。Tianqi&nbsp;大神另外一个大名鼎鼎的作品就是&nbsp;XGBoost，现在&nbsp;Kaggle&nbsp;上面几乎每场比赛的&nbsp;Top&nbsp;10&nbsp;队伍都会使用。方案链接：https://www.kaggle.com/c/datasciencebowl/discussion/13166</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">●&nbsp;<strong>17th&nbsp;place</strong>：Realtime&nbsp;data&nbsp;augmentation&nbsp;+&nbsp;BN&nbsp;+&nbsp;PReLU。方案链接：https://github.com/ChenglongChen/caffe-windows</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong style="box-sizing: border-box;">3.1.4 常用工具</strong><br  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong><span style="color: rgb(60, 58, 58); font-size: 14px;  background-color: rgb(255, 255, 255);">▲&nbsp;</span>Theano</strong>:&nbsp;http://deeplearning.net/software/theano/</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="color: rgb(60, 58, 58); font-size: 14px;  background-color: rgb(255, 255, 255);">▲&nbsp;</span><strong>Keras</strong>:&nbsp;https://keras.io/</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="color: rgb(60, 58, 58); font-size: 14px;  background-color: rgb(255, 255, 255);">▲&nbsp;</span><strong>Cuda-convnet2</strong>:&nbsp;https://github.com/akrizhevsky/cuda-convnet2</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="color: rgb(60, 58, 58); font-size: 14px;  background-color: rgb(255, 255, 255);">▲&nbsp;</span><strong>Caffe</strong>:&nbsp;http://caffe.berkeleyvision.org/</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="color: rgb(60, 58, 58); font-size: 14px;  background-color: rgb(255, 255, 255);">▲&nbsp;</span><strong>CXXNET</strong>:&nbsp;https://github.com/dmlc/cxxnet</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="color: rgb(60, 58, 58); font-size: 14px;  background-color: rgb(255, 255, 255);">▲&nbsp;</span><strong>MXNet</strong>:&nbsp;https://github.com/dmlc/mxnet</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="color: rgb(60, 58, 58); font-size: 14px;  background-color: rgb(255, 255, 255);">▲&nbsp;</span><strong>PaddlePaddle</strong>:&nbsp;http://www.paddlepaddle.org/cn/index.html</p><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><br style="box-sizing: border-box;"  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong><span style="background-color: rgb(60, 58, 58); color: rgb(255, 255, 255); box-sizing: border-box;">3.2 销量预估</span></strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong style="box-sizing: border-box;">3.2.1 任务名称</strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">Walmart&nbsp;Recruiting&nbsp;-&nbsp;Store&nbsp;Sales&nbsp;Forecasting</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong style="box-sizing: border-box;">3.2.2 任务详情</strong><br  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">Walmart&nbsp;提供&nbsp;2010-02-05&nbsp;到&nbsp;2012-11-01&nbsp;期间的周销售记录作为训练数据，需要参赛选手建立模型预测&nbsp;2012-11-02&nbsp;到&nbsp;2013-07-26&nbsp;周销售量。比赛提供的特征数据包含：Store&nbsp;ID,&nbsp;Department&nbsp;ID,&nbsp;CPI，气温，汽油价格，失业率，是否节假日等。</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong style="box-sizing: border-box;">3.2.3 获奖方案</strong><br  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">●&nbsp;<strong>1st&nbsp;place</strong>：Time&nbsp;series&nbsp;forecasting&nbsp;method:&nbsp;stlf&nbsp;+&nbsp;arima&nbsp;+&nbsp;ets。主要是基于时序序列的统计方法，大量使用了&nbsp;Rob&nbsp;J&nbsp;Hyndman&nbsp;的&nbsp;forecast&nbsp;R&nbsp;包。方案链接：https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/discussion/8125</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">●&nbsp;<strong>2nd&nbsp;place</strong>：Time&nbsp;series&nbsp;forecasting&nbsp;+&nbsp;ML:&nbsp;arima&nbsp;+&nbsp;RF&nbsp;+&nbsp;LR&nbsp;+&nbsp;PCR。时序序列的统计方法+传统机器学习方法的混合；方案链接：https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/discussion/8023</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">●&nbsp;<strong>16th&nbsp;place</strong>：Feature&nbsp;engineering&nbsp;+&nbsp;GBM。方案链接：https://github.com/ChenglongChen/Kaggle_Walmart-Recruiting-Store-Sales-Forecasting</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box;"><strong style="box-sizing: border-box;">3.2.4 常用工具</strong><br  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">▲ <strong>R&nbsp;forecast&nbsp;package</strong>:&nbsp;https://cran.r-project.org/web/packages/forecast/index.html</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">▲ <strong>R&nbsp;GBM&nbsp;package</strong>:&nbsp;https://cran.r-project.org/web/packages/gbm/index.html</p><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><br style="box-sizing: border-box;"  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong><span style="background-color: rgb(60, 58, 58); color: rgb(255, 255, 255); box-sizing: border-box;">3.3 搜索相关性</span></strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong style="box-sizing: border-box;">3.3.1 任务名称</strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">CrowdFlower&nbsp;Search&nbsp;Results&nbsp;Relevance</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box;"><strong style="box-sizing: border-box;">3.3.2 任务详情</strong><br  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">比赛要求选手利用约几万个&nbsp;(query,&nbsp;title,&nbsp;description)&nbsp;元组的数据作为训练样本，构建模型预测其相关性打分&nbsp;{1,&nbsp;2,&nbsp;3,&nbsp;4}。比赛提供了&nbsp;query,&nbsp;title和description的原始文本数据。比赛使用&nbsp;Quadratic&nbsp;Weighted&nbsp;Kappa&nbsp;作为评估标准，使得该任务有别于常见的回归和分类任务。</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box;"><strong style="box-sizing: border-box;">3.3.3 获奖方案</strong><br  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">●&nbsp;<strong>1st&nbsp;place</strong>：Data&nbsp;Cleaning&nbsp;+&nbsp;Feature&nbsp;Engineering&nbsp;+&nbsp;Base&nbsp;Model&nbsp;+&nbsp;Ensemble。对原始文本数据进行清洗后，提取了属性特征，距离特征和基于分组的统计特征等大量的特征，使用了不同的目标函数训练不同的模型（回归，分类，排序等），最后使用模型集成的方法对不同模型的预测结果进行融合。方案链接：https://github.com/ChenglongChen/Kaggle_CrowdFlower</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">●&nbsp;<strong>2nd&nbsp;place</strong>：A&nbsp;Similar&nbsp;Workflow</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">●&nbsp;<strong>3rd&nbsp;place</strong>：&nbsp;A&nbsp;Similar&nbsp;Workflow</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box;"><strong style="box-sizing: border-box;">3.3.4 常用工具</strong><br  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">▲&nbsp;<strong>NLTK:</strong>&nbsp;http://www.nltk.org/</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">▲&nbsp;<strong>Gensim</strong>:&nbsp;https://radimrehurek.com/gensim/</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">▲&nbsp;<strong>XGBoost</strong>:&nbsp;https://github.com/dmlc/xgboost</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">▲&nbsp;<strong>RGF</strong>:&nbsp;https://github.com/baidu/fast_rgf</p><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><br style="box-sizing: border-box;"  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong><span style="background-color: rgb(60, 58, 58); color: rgb(255, 255, 255); box-sizing: border-box;">3.4 点击率预估 I</span></strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong style="box-sizing: border-box;">3.4.1 任务名称</strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">Criteo&nbsp;Display&nbsp;Advertising&nbsp;Challenge</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box;"><strong style="box-sizing: border-box;">3.4.2 任务详情</strong><br  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">经典的点击率预估比赛。该比赛中提供了7天的训练数据，1&nbsp;天的测试数据。其中有13&nbsp;个整数特征，26&nbsp;个类别特征，均脱敏，因此无法知道具体特征含义。</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong style="box-sizing: border-box;">3.4.3 获奖方案</strong><br  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">●&nbsp;<strong>1st&nbsp;place</strong>：GBDT&nbsp;特征编码&nbsp;+&nbsp;FFM。台大的队伍，借鉴了Facebook的方案&nbsp;[6]，使用&nbsp;GBDT&nbsp;对特征进行编码，然后将编码后的特征以及其他特征输入到&nbsp;Field-aware&nbsp;Factorization&nbsp;Machine（FFM）&nbsp;中进行建模。方案链接：https://www.kaggle.com/c/criteo-display-ad-challenge/discussion/10555</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">● <strong>3rd&nbsp;place</strong>：Quadratic&nbsp;Feature&nbsp;Generation&nbsp;+&nbsp;FTRL。传统特征工程和&nbsp;FTRL&nbsp;线性模型的结合。方案链接：https://www.kaggle.com/c/criteo-display-ad-challenge/discussion/10534</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">●&nbsp;<strong>4th&nbsp;place</strong>：Feature&nbsp;Engineering&nbsp;+&nbsp;Sparse&nbsp;DNN</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong style="box-sizing: border-box;">3.4.4 常用工具</strong><br  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">▲&nbsp;<strong>Vowpal&nbsp;Wabbit</strong>:&nbsp;https://github.com/JohnLangford/vowpal_wabbit</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">▲&nbsp;<strong>XGBoost</strong>:&nbsp;https://github.com/dmlc/xgboost</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">▲&nbsp;<strong>LIBFFM</strong>:&nbsp;http://www.csie.ntu.edu.tw/~r01922136/libffm/</p><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><br style="box-sizing: border-box;"  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong><span style="background-color: rgb(60, 58, 58); color: rgb(255, 255, 255); box-sizing: border-box;">3.5 点击率预估 II</span></strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><strong style="box-sizing: border-box;">3.5.1 任务名称</strong></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">Avazu&nbsp;Click-Through&nbsp;Rate&nbsp;Prediction</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box;"><strong style="box-sizing: border-box;">3.5.2 任务详情</strong><br  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">点击率预估比赛。提供了&nbsp;10&nbsp;天的训练数据，1&nbsp;天的测试数据，并且提供时间，banner&nbsp;位置，site,&nbsp;app,&nbsp;device&nbsp;特征等，8个脱敏类别特征。</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box;"><strong style="box-sizing: border-box;">3.5.3 获奖方案</strong><br  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">●&nbsp;<strong>1st&nbsp;place</strong>：Feature&nbsp;Engineering&nbsp;+&nbsp;FFM&nbsp;+&nbsp;Ensemble。还是台大的队伍，这次比赛，他们大量使用了&nbsp;FFM，并只基于&nbsp;FFM&nbsp;进行集成。方案链接：https://www.kaggle.com/c/avazu-ctr-prediction/discussion/12608</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">●&nbsp;<strong>2nd&nbsp;place</strong>：Feature&nbsp;Engineering&nbsp;+&nbsp;GBDT&nbsp;特征编码&nbsp;+&nbsp;FFM&nbsp;+&nbsp;Blending。Owenzhang（曾经长时间雄霸&nbsp;Kaggle&nbsp;排行榜第一）的竞赛方案。Owenzhang&nbsp;的特征工程做得非常有参考价值。方案链接：https://github.com/owenzhang/kaggle-avazu</p><p style="margin: 5px 0px 0px; padding: 0px; box-sizing: border-box;"><strong style="box-sizing: border-box;">3.5.4 常用工具</strong><br  /></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">▲&nbsp;<strong>LIBFFM</strong>:&nbsp;http://www.csie.ntu.edu.tw/~r01922136/libffm/</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">▲&nbsp;<strong>XGBoost</strong>:&nbsp;https://github.com/dmlc/xgboost</p></section></section></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style=" margin-top: 10px; margin-bottom: 10px;  box-sizing: border-box; "><section class="Powered-by-XIUMI V5" powered-by="xiumi.us" style="white-space: normal; box-sizing: border-box;"><section class="" style="margin-top: 10px; margin-bottom: 10px; box-sizing: border-box;"><section class="Powered-by-XIUMI V5" powered-by="xiumi.us" style="box-sizing: border-box;"><section class="" style="margin-top: 10px; margin-bottom: 10px; box-sizing: border-box;"><section class="" style="width: 556px; border-bottom: 5px solid rgb(60, 58, 58); box-sizing: border-box;"><section class="" style="margin-bottom: -5px; padding-right: 5px; padding-left: 5px; font-size: 16px; background-color: rgb(255, 255, 255); display: inline-block; vertical-align: bottom; border-bottom: 5px solid rgb(160, 160, 160); min-width: 1em; text-align: center; box-sizing: border-box;"><p style="box-sizing: border-box;"><strong style="box-sizing: border-box;"><br  /></strong></p><p style="box-sizing: border-box;"><strong style="box-sizing: border-box;">&nbsp;4.</strong></p></section><section class="" style="font-size: 16px; background-color: rgb(255, 255, 255); display: inline-block; vertical-align: bottom; box-sizing: border-box;"><p style="box-sizing: border-box;"><strong style="box-sizing: border-box;">参考资料</strong></p></section></section></section></section></section></section></section></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style="   box-sizing: border-box; "><section class="" style="font-size: 14px; color: rgb(60, 58, 58); box-sizing: border-box;"><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">[1]&nbsp;Owenzhang&nbsp;的分享： Tips&nbsp;for&nbsp;Data&nbsp;Science&nbsp;Competitions</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;"><span style="letter-spacing: 0px; box-sizing: border-box;">[2]&nbsp;Algorithms&nbsp;for&nbsp;Hyper-Parameter&nbsp;Optimization</span></p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">[3]&nbsp;MLWave博客：Kaggle&nbsp;Ensembling&nbsp;Guide</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">[4]&nbsp;Jeong-Yoon&nbsp;Lee&nbsp;的分享：Winning&nbsp;Data&nbsp;Science&nbsp;Competitions</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">[5]&nbsp;Ensemble&nbsp;Selection&nbsp;from&nbsp;Libraries&nbsp;of&nbsp;Models</p><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">[6]&nbsp;Practical&nbsp;Lessons&nbsp;from&nbsp;Predicting&nbsp;Clicks&nbsp;on&nbsp;Ads&nbsp;at&nbsp;Facebook</p><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><br style="box-sizing: border-box;"  /></p></section></section></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style=" margin-top: 10px; margin-bottom: 10px;  box-sizing: border-box; "><section class="Powered-by-XIUMI V5" powered-by="xiumi.us" style="white-space: normal; box-sizing: border-box;"><section class="" style="margin-top: 10px; margin-bottom: 10px; box-sizing: border-box;"><section class="Powered-by-XIUMI V5" powered-by="xiumi.us" style="box-sizing: border-box;"><section class="" style="margin-top: 10px; margin-bottom: 10px; box-sizing: border-box;"><section class="" style="width: 556px; border-bottom: 5px solid rgb(60, 58, 58); box-sizing: border-box;"><section class="" style="margin-bottom: -5px; padding-right: 5px; padding-left: 5px; font-size: 16px; background-color: rgb(255, 255, 255); display: inline-block; vertical-align: bottom; border-bottom: 5px solid rgb(160, 160, 160); min-width: 1em; text-align: center; box-sizing: border-box;"><p style="box-sizing: border-box;"><strong style="box-sizing: border-box;">5.</strong></p></section><section class="" style="font-size: 16px; background-color: rgb(255, 255, 255); display: inline-block; vertical-align: bottom; box-sizing: border-box;"><p style="box-sizing: border-box;"><strong style="box-sizing: border-box;">结语</strong></p></section></section></section></section></section></section></section></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style="   box-sizing: border-box; "><section class="" style="font-size: 14px; color: rgb(60, 58, 58); box-sizing: border-box;"><p style="margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">作为曾经的学生党，十分感激和庆幸有&nbsp;Kaggle&nbsp;这样的平台，提供了不同领域极具挑战的任务以及丰富多样的数据。让我这种空有满（yi）腔（xie）理（wai）论（li）的数据挖掘小白，可以在真实的问题场景和业务数据中进行实操练手，提升自己的数据挖掘技能，一不小心，还能拿名次，赢奖金。如果你也跃跃欲试，不妨选一个合适的任务，开启数据挖掘之旅吧。哦，对了，我们部门今年举办了“腾讯社交广告高校算法大赛”，做移动&nbsp;App&nbsp;广告转化率预估，有大量的真实数据，丰厚的奖品和奖金，Top&nbsp;20队伍还能获得校招绿色通道，你要不要来试试？传送门：<span style="color: rgb(80, 125, 187); box-sizing: border-box;"><strong style="box-sizing: border-box;"><span style="text-decoration: underline; box-sizing: border-box;">http://algo.tpai.qq.com</span></strong></span></p></section></section></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style=" margin-top: 10px; margin-bottom: 10px;  box-sizing: border-box; "><p style="padding-bottom: 1.2em; box-sizing: border-box; line-height: 1.75em;"><br  /></p><section style="display: inline-block; vertical-align: top; line-height: 1em; height: 1em; margin-top: -0.5em; box-sizing: border-box;"><span style="display: inline-block; vertical-align: top; font-size: 80px; line-height: 1em; color: rgb(192, 200, 209); box-sizing: border-box;">“</span> <section style="width: 4em; border-bottom: 1px solid rgb(192, 200, 209); display: inline-block; vertical-align: middle; margin-top: 1.6em; margin-left: -0.6em; box-sizing: border-box;"></section></section><p><br  /></p><section class="" style="margin-top: -0.5em; padding: 10px; box-sizing: border-box;"><section class="Powered-by-XIUMI V5" style="box-sizing: border-box;" powered-by="xiumi.us"><section class="" style="   box-sizing: border-box; "><section class="" style="font-size: 14px; box-sizing: border-box;"><p style="clear: none; margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">更多详情，请登录活动官方网站：http://algo.tpai.qq.com</p><p style="clear: none; margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">大赛报名渠道：http://algo.tpai.qq.com/person/mobile/index&nbsp;</p><p style="clear: none; margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">报名方式当然还有：</p><p style="clear: none; margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">一言不合就送礼的算法大赛官方微信：TSA-Contest</p><p style="clear: none; margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">怕礼物太多的童鞋&nbsp;请谨慎关注~</p></section></section></section></section><section style="display: inline-block; height: 1em; float: right; line-height: 1; box-sizing: border-box;"><section style="display: inline-block; vertical-align: top; width: 4em; border-bottom: 1px solid rgb(192, 200, 209); box-sizing: border-box;"></section><span style="display: inline-block; vertical-align: top; font-size: 80px; margin-top: -0.11em; margin-left: -0.1em; color: rgb(192, 200, 209); box-sizing: border-box;">”</span></section></section></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><p style=" text-align: center; margin-top: 10px; margin-bottom: 10px;  box-sizing: border-box; "><br  /></p><p style=" text-align: center; margin-top: 10px; margin-bottom: 10px;  box-sizing: border-box; "><img class="" data-ratio="0.325" data-w="640" data-src="http://mmbiz.qpic.cn/mmbiz_jpg/tq4iaariaCpMmFZwrogMZn2DqOZG9ctqaFkkICgTSdTCl3VEzdDQ3exjeZEhUwkXtB5IWia2pMm2vOaialZoyz8kVQ/0?wx_fmt=jpeg" style="max-width: 100%; vertical-align: middle; box-sizing: border-box;"  /></p></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style=" margin: 10px 0%; transform: translate3d(0px, 0px, 0px); -webkit-transform: translate3d(0px, 0px, 0px); -moz-transform: translate3d(0px, 0px, 0px); -o-transform: translate3d(0px, 0px, 0px); text-align: center;  box-sizing: border-box; "><section class="" style="display: inline-block; width: 95%; vertical-align: top; padding: 10px; border-style: none; border-width: 2px; border-radius: 0px; border-color: rgb(5, 5, 5); box-shadow: rgb(105, 104, 104) 0px 0px 5px; box-sizing: border-box;"><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style=" margin: 8px 0% 18px; transform: translate3d(-10px, 0px, 0px); -webkit-transform: translate3d(-10px, 0px, 0px); -moz-transform: translate3d(-10px, 0px, 0px); -o-transform: translate3d(-10px, 0px, 0px); text-align: left;  box-sizing: border-box; "><section class="" style="display: inline-block; height: 2em; padding: 0.3em 0.5em; vertical-align: top; background-color: rgb(60, 58, 58); color: rgb(255, 255, 255); box-sizing: border-box;"><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><strong style="box-sizing: border-box;">作者简介</strong></p></section><section class="" style="width: 0.5em; display: inline-block; height: 2em; vertical-align: top; border-bottom: 1em solid rgb(60, 58, 58); border-top: 1em solid rgb(60, 58, 58); border-right: 1em solid transparent !important; box-sizing: border-box;"></section></section></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style=" font-size: 27.2px; margin: 0px 0% 10px;  box-sizing: border-box; "><section class="" style="display: inline-block; vertical-align: top; border-width: 2px; border-style: dashed; border-color: rgb(103, 99, 99); border-radius: 100%; box-sizing: border-box;"><section class="" style="width: 3em; height: 3em; border-radius: 100%; background-position: center center; background-repeat: no-repeat; background-size: cover; box-shadow: rgb(0, 0, 0) 0px 0px 0px; background-image: url(&quot;http://mmbiz.qpic.cn/mmbiz_png/tq4iaariaCpMmFZwrogMZn2DqOZG9ctqaF6MgtVGylF5ET52Ibcp89fPicz71Iia0RTs4ibGBUZtGgTzGkicC1zPT22w/0?wx_fmt=png&quot;); box-sizing: border-box;"><section class="" style="width: 100%; height: 100%; overflow: hidden; box-sizing: border-box;">&nbsp;<img class="" data-ratio="1" data-w="433" data-src="http://mmbiz.qpic.cn/mmbiz_png/tq4iaariaCpMmFZwrogMZn2DqOZG9ctqaF6MgtVGylF5ET52Ibcp89fPicz71Iia0RTs4ibGBUZtGgTzGkicC1zPT22w/0?wx_fmt=png" style="width: 100%; height: 100%; opacity: 0; box-sizing: border-box;" width="100%"  /></section></section></section></section></section><section class="Powered-by-XIUMI V5" style="box-sizing: border-box;" powered-by="xiumi.us"><section class="" style="   box-sizing: border-box; "><section class="" style="text-align: justify; font-size: 14px; line-height: 1.8; color: rgb(60, 58, 58); box-sizing: border-box;"><p style="white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box; line-height: 1.75em;">陈成龙,&nbsp;2015&nbsp;年博士毕业于中山大学，研究图像篡改检测，在图像领域顶级期刊IEEE TIP上发<span style="letter-spacing: 0px; box-sizing: border-box;">表论文2篇，Kaggle&nbsp;CrowdFlower&nbsp;和&nbsp;HomeDepot&nbsp;搜索相关性比赛分获第一和第三名，曾在&nbsp;Kaggle&nbsp;数据科学家排行榜上排名全球第十，国内第一。目前在腾讯社交与效果广告部任职数据挖掘工程师，负责&nbsp;Lookalike&nbsp;相似人群扩展相关工作。</span></p></section></section></section></section></section></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style="   box-sizing: border-box; "><section class="" style="display: inline-block; vertical-align: top; width: 12%; box-sizing: border-box;"><section class="Powered-by-XIUMI V5" style="box-sizing: border-box;" powered-by="xiumi.us"><section class="" style=" margin: 0.5em 0px;  box-sizing: border-box; "><img class="" data-ratio="0.6197183098591549" data-w="71" data-src="http://mmbiz.qpic.cn/mmbiz_gif/rvMC4GHH1aP2ibdoicMxY9xUBESicwqxSzy2yAOCDC4jQhPlOeeEl5VyhTIYAT68gicSt15WzduAghcHxKXx9uWiaxg/0?wx_fmt=gif" style="max-width: 100%; vertical-align: middle; box-sizing: border-box;"  /></section></section></section><section class="" style="display: inline-block; vertical-align: top; width: 88%; padding: 5px; box-sizing: border-box;"><section class="Powered-by-XIUMI V5" style="box-sizing: border-box;" powered-by="xiumi.us"><section class="" style="   box-sizing: border-box; "><section class="" style="font-size: 14px; box-sizing: border-box;"><p style="margin: 0px; padding: 0px; box-sizing: border-box;"><strong style="box-sizing: border-box;">点击阅读全文，立即参赛</strong></p></section></section></section></section></section></section></section><p><br  /></p>
+                </div>
+                <script nonce="2055485464" type="text/javascript">
+                    var first_sceen__time = (+new Date());
+
+                    if ("" == 1 && document.getElementById('js_content')) {
+                        document.getElementById('js_content').addEventListener("selectstart",function(e){ e.preventDefault(); });
+                    }
+
+                    
+                    (function(){
+                        if (navigator.userAgent.indexOf("WindowsWechat") != -1){
+                            var link = document.createElement('link');
+                            var head = document.getElementsByTagName('head')[0];
+                            link.rel = 'stylesheet';
+                            link.type = 'text/css';
+                            link.href = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+                            head.appendChild(link);
+                        }
+                    })();
+                </script>
+
+                
+                <div class="ct_mpda_wrp" id="js_sponsor_ad_area" style="display:none;"></div>
+                
+                
+                <div class="read-more__area" id="js_more_read_area" style="display:none;">
+                    
+                </div>
+
+                
+                                <div class="reward_area tc reward_area_primary" id="js_preview_reward_author" style="display:none;">
+                    <div class="reward-avatar" style="display: none;" id="js_preview_reward_author_avatar">
+                        <img src="" alt="" id="js_preview_reward_author_head">
+                    </div>
+                    
+                                        <div class="reward-author" id="js_preview_reward_author_name">陈成龙</div>
+                                        <p class="reward_tips" id="js_preview_reward_author_wording" style="display:none;"></p>
+                    <p>
+                        <a class="reward_button" id='js_preview_reward_author_link' href="##"><span id="js_preview_reward_link_text">赞赏</span></a>
+                    </p>
+                </div>
+
+                <div class="reward_qrcode_area reward_area tc" id="js_preview_reward_qrcode" style="display:none;">
+                    <p class="tips_global">长按二维码向我转账</p>
+                    <p id="js_preview_reward_ios_wording" class="reward_tips" style="display:none;"></p>
+                    <span class="reward_qrcode_img_wrp"><img class="reward_qrcode_img" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_reward_qrcode.2x42f400.png"></span>
+                    <p class="tips_global">受苹果公司新规定影响，微信 iOS 版的赞赏功能被关闭，可通过二维码转账支持公众号。</p>
+                </div>
+                                
+                
+                            </div>
+                                    
+                        
+
+
+                        
+            <ul id="js_hotspot_area" class="article_extend_area"></ul>
+
+
+            
+
+            
+
+
+<div class="rich_media_tool" id="js_toobar3">
+
+        <a class="media_tool_meta meta_primary" id="js_view_source" href="##">阅读原文</a>
+        <div id="js_read_area3" class="media_tool_meta tips_global_primary meta_primary" style="display:none;">阅读 <span id="readNum3"></span></div>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_praise" id="like_old">
+        <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum_old"></span>
+    </span>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_like" id="like3">
+        <button class="like_btn" id="js_like_btn"> 
+          <span id="js_like_wording"> 好看</span><span class="like_num" id="likeNum3"></span>
+        </button>
+    </span>
+
+    <div id="js_like_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog weui-dialog_haokan">
+        <div class="weui-dialog__hd"><strong class="weui-dialog__title" id="educate_title">已推荐到看一看</strong></div>
+        <div class="weui-dialog__bd">
+          <img class="pic_haokan" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_haokan42f400.png">
+            你的朋友可以在“发现”-“看一看”看到你认为好看的文章。        </div>
+        <div class="weui-dialog__ft" id="educate_btn" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_default" id="js_cancel">取消</a>
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_confirm">推荐</a>
+        </div>
+        <div class="weui-dialog__ft" id="educate_btn2" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_acknowledge">我知道了</a>
+        </div>
+        </div>
+    </div>
+
+    <div id="js_unlike_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog">
+        
+        <div class="weui-dialog__bd">
+            已取消，“好看”想法已同步删除        </div>
+        <div class="weui-dialog__ft">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_unlike_know">知道了</a>
+        </div>
+        </div>
+    </div>
+
+    
+    </div>
+
+
+<div class="like_comment_wrp" id="js_a_like_comment" style="display: none;">
+  <div class="like_comment_inner">
+    <div class="like_comment_hd" style="display:none" id="js_like_title"></div>
+    <div class="like_comment_bd">
+      <div class="tips_global_primary like_comment_tips">
+        <i class="weui-icon-success"></i>已推荐到看一看<a href="javascript:;" class="like_comment_share_link" id="js_a_like_comment_share">和朋友分享想法</a>
+      </div>
+    </div>
+    <div class="like_comment_ft">
+      <span id="js_a_like_comment_msg" class="like_comment_msg" style="visibility:hidden">最多200字，当前共<span id="js_a_like_current_cnt"></span>字</span>
+      <button class="like_comment_btn" disabled="disabled" id="js_a_like_confirm">发送</button>
+    </div>
+  </div>
+</div>
+
+<div id="js_like_toast" style="display: none;">
+  <div class="weui-mask_transparent"></div>
+  <div class="weui-toast">
+    <i class="weui-icon-success-no-circle weui-icon_toast"></i>
+    <p class="weui-toast__content" id="js_toast_msg">已发送</p>
+  </div>
+</div>
+
+
+<div style="display: none;" id="js_b_comment_panel" class="like_comment_primary_pop">
+  <div class="like_comment_primary_wrp" id="js_b_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <h4 class="like_comment_primary_title">
+          朋友将在看一看看到        </h4>
+        <button id="js_b_like_confirm" class="like_comment_primary_btn">确定</button>
+      </div>
+      <div id='js_b_comment_text_first' class="like_comment_primary_bd">
+        <span class="tips_global_primary">
+          分享你的想法...        </span>
+      </div>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_1"></div>
+</div>
+
+<div style="display: none;" id="js_b_comment_final">
+  <div class="like_comment_primary_wrp editing" id="js_comment_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <button class="like_comment_primary_cancel" id="js_b_comment_cancel">取消</button>
+        <h4 class="like_comment_primary_title"> 分享想法到看一看 </h4>
+        <button class="like_comment_primary_btn" id="js_b_comment_confirm">确定</button>
+      </div>
+      <div class="like_comment_primary_bd">
+        <textarea class="like_comment_textarea weui-textarea" placeholder="分享你的想法..." id="js_b_comment_text_second"></textarea>
+      </div>
+      <span class="like_comment_msg" id="js_b_like_comment_msg" style="visibility: hidden;">最多200字，当前共<span id="js_b_like_current_cnt"></span>字</span>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_2"></div>
+</div>
+
+<div id="js_loading" style=" display: none;">
+    <div class="weui-mask_transparent"></div>
+    <div class="weui-toast">
+        <i class="weui-loading weui-icon_toast"></i>
+        <p class="weui-toast__content">发送中</p>
+    </div>
+</div>
+
+<div id="js_fail" style="display:none">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+    <div class="weui-dialog__bd">
+        网络异常，请稍后重试    </div>
+    <div class="weui-dialog__ft">
+      <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_fail_inform">知道了</a>
+    </div>
+    </div>
+</div>
+
+
+
+                      </div>
+        </div>
+
+        <div class="rich_media_area_primary sougou" id="sg_tj" style="display:none"></div>
+
+
+        
+        <div class="rich_media_area_extra">
+          <div class="rich_media_area_extra_inner">
+              
+              <div id="js_share_appmsg">
+              </div>
+
+              
+                            <div class="mpda_bottom_container" id="js_bottom_ad_area"></div>
+                            
+              <div id="js_iframetest" style="display:none;"></div>
+                            
+              <div class="rich_media_extra rich_media_extra_discuss" id="js_cmt_container" style="display:none">
+                
+
+                
+                <div class="discuss_mod" id="js_friend_cmt_area" style="display:none">
+                  
+                  
+                  
+                </div>
+
+                                <div class="discuss_mod" id="js_cmt_area" style="display:none">
+                </div>
+                              </div>
+          </div>
+        </div>
+
+        
+        <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">
+            <div class="qr_code_pc_inner">
+                <div class="qr_code_pc">
+                    <img id="js_pc_qr_code_img" class="qr_code_pc_img">
+                    <p>微信扫一扫<br>关注该公众号</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="js_pc_weapp_code" class="weui-desktop-popover weui-desktop-popover_pos-up-center weui-desktop-popover_img-text" style="display: none;">
+    <div class="weui-desktop-popover__content">
+        <div class="weui-desktop-popover__desc">
+            <img id="js_pc_weapp_code_img">
+            微信扫一扫<br>使用小程序<span id="js_pc_weapp_code_des"></span>        </div>
+    </div>
+</div>
+<div id="js_minipro_dialog" style="display:none;">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+        <div class="weui-dialog__bd">即将打开"<span id="js_minipro_dialog_name"></span>"小程序</div>
+        <div class="weui-dialog__ft">
+            <a id="js_minipro_dialog_cancel" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_default">取消</a>
+            <a id="js_minipro_dialog_ok" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_primary">打开</a>
+        </div>
+    </div>
+</div>
+
+        
+        <script nonce="2055485464">
+    var __DEBUGINFO = {
+        debug_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/debug/console42f400.js",
+        safe_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/moonsafe42f400.js",
+        res_list: []
+    };
+</script>
+
+<script nonce="2055485464" type="text/javascript">
+(function() {
+	var totalCount = 0,
+			finishCount = 0;
+
+	function _loadVConsolePlugin() {
+		window.vConsole = new window.VConsole();
+		while (window.vConsolePlugins.length > 0) {
+			var p = window.vConsolePlugins.shift();
+			window.vConsole.addPlugin(p);
+		}
+	}
+	
+	function _addVConsole(uri, cb) {
+		totalCount++;
+		var node = document.createElement('SCRIPT');
+		node.type = 'text/javascript';
+		node.src = uri;
+		node.setAttribute('nonce', '2055485464');
+		if (cb) {
+			node.onload = cb;
+		}
+		document.getElementsByTagName('head')[0].appendChild(node);
+	}
+	if (
+		(document.cookie && document.cookie.indexOf('vconsole_open=1') > -1)
+		|| location.href.indexOf('vconsole=1') > -1
+	) {
+		window.vConsolePlugins = [];
+		_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/3.2.2/vconsole.min43429b.js', function() {
+			
+			_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/plugin/vconsole-mpopt/1.0.1/vconsole-mpopt42f400.js', _loadVConsolePlugin);
+		});
+	}
+})();
+</script>
+        
+<script nonce="2055485464" type="text/javascript">
+if (location.href.match(/fontScale=\d+/) && /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+
+    var m=location.href.match(/fontScale=(\d*)/);
+    var map={
+        "94":1,
+        "100":2,
+        "109":3,
+        "119":4,
+        "131":5,
+    }
+    if(m&&m[1]&&map[m[1]]){
+        document.getElementsByTagName("body")[0].className+=" appmsg_skin_fontscale_"+map[m[1]];
+        console.log("appmsg_skin_fontscale_:"+map[m[1]]);
+    }
+}
+
+
+(function(){
+    if (window.__second_open__) return; 
+
+    
+
+    var first_js_time = +new Date();
+
+    var showDate="";
+    var svrDate=new Date("1549780640"*1000);
+    var createDate=new Date("1494326831"*1000);
+    var ct="1494326831"*1;
+    var publish_time = "2017-05-09" || "";
+    var cD={
+      year:createDate.getYear(),
+      month:createDate.getMonth()+1,
+      date:createDate.getDate()
+    };
+    
+    svrDate.setHours(0);
+    svrDate.setMinutes(0);
+    svrDate.setSeconds(0);
+    var todayDate=svrDate.getTime()/1000;
+    svrDate.setDate(1);
+    svrDate.setMonth(0);
+    var yearDate=svrDate.getTime()/1000;
+    
+    if(ct>=todayDate){
+      showDate="今天";
+    
+    }else if(ct>=todayDate-60*60*24){
+       showDate="昨天";
+    
+    }else if(ct>=todayDate-2*60*60*24){
+      showDate="前天";
+    }else if(ct>=todayDate-3*60*60*24){
+      showDate="3天前";
+    }else if(ct>=todayDate-4*60*60*24){
+      showDate="4天前";
+    }else if(ct>=todayDate-5*60*60*24){
+      showDate="5天前";
+    }else if(ct>=todayDate-6*60*60*24){
+      showDate="6天前";
+    }else if(ct>=todayDate-2*7*60*60*24){
+      showDate="1周前";
+    }else if(ct>=yearDate){
+      
+      
+      
+      showDate="%s月%s日".replace("%s",cD.month).replace("%s",cD.date);
+    }else{
+      showDate=publish_time;
+    };
+    if(document.getElementById("publish_time")){
+      document.getElementById("publish_time").innerText=showDate;
+    }
+})();
+</script>
+<script nonce="2055485464" type="text/javascript">
+
+if (!window.console) window.console = { log: function() {} };
+
+if (typeof getComputedStyle == 'undefined') {
+    if (document.body.currentStyle) {
+        window.getComputedStyle = function(el) {
+            return el.currentStyle;
+        }
+    } else {
+        window.getComputedStyle = {};
+    }
+}
+(function(){
+    window.__zoom = 1;
+    
+    (function(){
+        var validArr = ","+([0.875, 1, 1.125, 1.25, 1.375]).join(",")+",";
+        var match = window.location.href.match(/winzoom=(\d+(?:\.\d+)?)/);
+        if (match && match[1]) {
+            var winzoom = parseFloat(match[1]);
+            if (validArr.indexOf(","+winzoom+",")>=0) {
+                window.__zoom = winzoom;
+            }
+        }
+    })();
+
+    var ua = navigator.userAgent.toLowerCase();
+    var re = new RegExp("msie ([0-9]+[\.0-9]*)");
+    var version;
+    if (re.exec(ua) != null) {
+        version = parseInt(RegExp.$1);
+    }
+    var isIE = false;
+    if (typeof version != 'undefined' && version >= 6 && version <= 9) {
+        isIE = true;
+    }
+    var getMaxWith=function(){
+        var container = document.getElementById('img-content');
+        var max_width = container.offsetWidth;
+        var container_padding = 0;
+        var container_style = getComputedStyle(container);
+        container_padding = parseFloat(container_style.paddingLeft) + parseFloat(container_style.paddingRight);
+        max_width -= container_padding;
+        if (!max_width) {
+            max_width = window.innerWidth - 30;      
+        }
+        return max_width;
+    };
+    var getParentWidth = function(dom){
+        var parent_width = 0;
+        var parent = dom.parentNode;
+        var outerWidth = 0;
+        while (true) {
+            if(!parent||parent.nodeType!=1) break;
+            var parent_style = getComputedStyle(parent);
+            if (!parent_style) break;
+            parent_width = parent.clientWidth - parseFloat(parent_style.paddingLeft) - parseFloat(parent_style.paddingRight) - outerWidth;
+            if (parent_width > 0) break;
+            outerWidth += parseFloat(parent_style.paddingLeft) + parseFloat(parent_style.paddingRight) + parseFloat(parent_style.marginLeft) + parseFloat(parent_style.marginRight) + parseFloat(parent_style.borderLeftWidth) + parseFloat(parent_style.borderRightWidth);
+            parent = parent.parentNode;
+        }
+        return parent_width;
+    }
+    var getOuterW=function(dom){
+        var style=getComputedStyle(dom),
+            w=0;
+        if(!!style){
+            w = parseFloat(style.paddingLeft) + parseFloat(style.paddingRight) + parseFloat(style.borderLeftWidth) + parseFloat(style.borderRightWidth);
+        }
+        return w;
+    };
+    var getOuterH =function(dom){
+        var style=getComputedStyle(dom),
+            h=0;
+        if(!!style){
+            h = parseFloat(style.paddingTop) + parseFloat(style.paddingBottom) + parseFloat(style.borderTopWidth) + parseFloat(style.borderBottomWidth);
+        }
+        return h;
+    };
+    var insertAfter = function(dom,afterDom){
+        var _p = afterDom.parentNode;
+        if(!_p){
+            return;
+        }
+        if(_p.lastChild === afterDom){
+            _p.appendChild(dom);
+        }else{
+            _p.insertBefore(dom,afterDom.nextSibling);
+        }
+    };
+    var getQuery = function(name,url){
+        
+        var u  = arguments[1] || window.location.search,
+            reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)"),
+            r = u.substr(u.indexOf("\?")+1).match(reg);
+        return r!=null?r[2]:"";
+    };
+
+    
+    function setImgSize(item, widthNum, widthUnit, ratio, breakParentWidth) {
+        setTimeout(function () {
+            var img_padding_border = getOuterW(item) || 0;
+            var img_padding_border_top_bottom = getOuterH(item) || 0;
+            
+            if (widthNum > getParentWidth(item) && !breakParentWidth) {
+                widthNum = getParentWidth(item);
+            }
+
+            height = (widthNum - img_padding_border) * ratio + img_padding_border_top_bottom;
+
+            if (isIE) {
+                var url = item.getAttribute('data-src');
+                item.src = url;
+            } else {
+                if(parseFloat(widthNum, 10) > 40 && height > 40 && breakParentWidth) {
+                    item.className += ' img_loading';
+                }
+                item.src = "data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            }
+            item.style.cssText += ";width: " + widthNum + widthUnit + " !important;";
+            item.style.cssText += ";height: " + height + widthUnit + " !important;";
+        }, 10);
+    }
+
+    (function(){
+        var images = document.getElementsByTagName('img');
+        var length = images.length;
+        var max_width = getMaxWith();
+        for (var i = 0; i < length; ++i) {
+            if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var imageItem = images[i];
+            var src_ = imageItem.getAttribute('data-src');
+            var realSrc = imageItem.getAttribute('src');
+            if (!src_ || realSrc) continue;
+            
+            var originWidth = imageItem.getAttribute('data-w');
+            var ratio_ = 1 * imageItem.getAttribute('data-ratio');
+
+            var height = 100;
+            if (ratio_ && ratio_ > 0) {
+                var parent_width = getParentWidth(imageItem) || max_width;
+                var initWidth = imageItem.style.width || imageItem.getAttribute('width') || originWidth || parent_width;
+                initWidth = parseFloat(initWidth, 10) > max_width ? max_width : initWidth;
+                
+                if (initWidth) {
+                    imageItem.setAttribute('_width', !isNaN(initWidth * 1) ? initWidth + 'px' : initWidth);
+                }
+                
+                if (typeof initWidth === 'string' && initWidth.indexOf('%') !== -1) {
+                    initWidth = parseFloat(initWidth.replace('%', ''), 10) / 100 * parent_width;
+                }
+                
+                if (initWidth === 'auto') {
+                    initWidth = originWidth;
+                }
+
+                var res = /^(\d+(?:\.\d+)?)([a-zA-Z%]+)?$/.exec(initWidth);
+                var widthNum = res && res.length >= 2 ? res[1] : 0;
+                var widthUnit = res && res.length >= 3 && res[2] ? res[2] : 'px';
+
+                
+                setImgSize(imageItem, widthNum, widthUnit, ratio_, true);
+                
+                (function (item, widthNumber, unit, ratio) {
+                    setTimeout(function () {
+                        setImgSize(item, widthNumber, unit, ratio, false);
+                    });
+                })(imageItem, widthNum, widthUnit, ratio_);
+            } else {
+                imageItem.style.cssText += ";visibility: hidden !important;";
+            }
+
+        }
+    })();
+    window.__videoDefaultRatio=16/9;
+    window.__getVideoWh = function(dom){
+        var max_width = getMaxWith(),
+            width = max_width,
+            ratio_ = dom.getAttribute('data-ratio')*1,
+            arr = [4/3, 16/9],
+            ret = arr[0],
+            abs = Math.abs(ret - ratio_);
+        if (!ratio_) { 
+            if (dom.getAttribute("data-mpvid")) { 
+                ratio_ = 16/9;
+            } else { 
+                ratio_ = 4/3;
+            }
+        } else { 
+            for (var j = 1, jl = arr.length; j < jl; j++) {
+                var _abs = Math.abs(arr[j] - ratio_);
+                if (_abs < abs) {
+                    abs = _abs;
+                    ret = arr[j];
+                }
+            }
+            ratio_ = ret;
+        }
+        
+        var parent_width = getParentWidth(dom)||max_width,
+            width = width > parent_width ? parent_width : width,
+            outerW = getOuterW(dom)||0,
+            outerH = getOuterH(dom)||0,
+            videoW = width - outerW,
+            videoH = videoW/ratio_,
+            height = videoH + outerH;
+        return {w:Math.ceil(width),h:Math.ceil(height),vh:videoH,vw:videoW,ratio:ratio_};
+    };
+
+
+    (function(){
+        var iframe = document.getElementsByTagName('iframe');
+        for (var i=0,il=iframe.length;i<il;i++) {
+            if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var a = iframe[i];
+            var src_ = a.getAttribute('src')||a.getAttribute('data-src')||"";
+            if(!/^http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)
+                && !/^http(s)*\:\/\/mp\.weixin\.qq\.com\/mp\/readtemplate\?t=pages\/video_player_tmpl/.test(src_)
+            ){
+                continue;
+            }
+            var vid = getQuery("vid",src_);
+            if(!vid){
+                continue;
+            }
+            vid=vid.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,"");
+            a.removeAttribute('src');
+            a.style.display = "none";
+            var obj = window.__getVideoWh(a),
+                videoPlaceHolderSpan = document.createElement('span'),
+                videoPlayerIconSpan = document.createElement('span'),
+                mydiv = document.createElement('img');
+
+            videoPlaceHolderSpan.className = "js_img_loading db";
+            videoPlaceHolderSpan.setAttribute("data-vid", vid);
+            
+
+            videoPlayerIconSpan.className = 'wx_video_context db'; 
+            videoPlayerIconSpan.style.display = 'none';
+            videoPlayerIconSpan.innerHTML = '<span class="wx_video_thumb_primary"></span><button class="wx_video_play_btn">播放</button><span class="wx_video_mask"></span>'; 
+
+            mydiv.className = "img_loading";
+
+            mydiv.src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            
+            
+            videoPlaceHolderSpan.style.cssText = "width: " + obj.w + "px !important;";
+            mydiv.style.cssText += ";width: " + obj.w + "px";
+            videoPlaceHolderSpan.appendChild(videoPlayerIconSpan);
+            videoPlaceHolderSpan.appendChild(mydiv);
+            insertAfter(videoPlaceHolderSpan, a); 
+            
+            a.style.cssText += ";width: " + obj.w + "px !important;";
+            a.setAttribute("width",obj.w);
+            if(window.__zoom!=1){
+                a.style.display = "block";
+                videoPlaceHolderSpan.style.display = "none";
+                a.setAttribute("_ratio",obj.ratio);
+                a.setAttribute("_vid",vid);
+            }else{
+                videoPlaceHolderSpan.style.cssText += "height: " + obj.h + "px !important;";
+                mydiv.style.cssText += "height: " + obj.h + "px !important;";
+                a.style.cssText += "height: " + obj.h + "px !important;";
+                a.setAttribute("height",obj.h);
+            }
+            a.setAttribute("data-vh",obj.vh);
+            a.setAttribute("data-vw",obj.vw);
+            if(a.getAttribute("data-mpvid")){
+                a.setAttribute("data-src",location.protocol+"//mp.weixin.qq.com/mp/readtemplate?t=pages/video_player_tmpl&auto=0&vid="+vid);
+            }else{
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+obj.vw+"&height="+obj.vh+"&auto=0");   
+            }            
+        }
+    })();
+    
+    (function(){
+        if(window.__zoom!=1){
+            if (!window.__second_open__) {
+                document.getElementById('page-content').style.zoom = window.__zoom;
+                var a = document.getElementById('activity-name');
+                var b = document.getElementById('meta_content');
+                if(!!a){
+                    a.style.zoom = 1/window.__zoom;
+                }
+                if(!!b){
+                    b.style.zoom = 1/window.__zoom;
+                }
+            }
+            var images = document.getElementsByTagName('img');
+            for (var i = 0,il=images.length;i<il;i++) {
+                if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                images[i].style.zoom = 1/window.__zoom;
+            }
+            var iframe = document.getElementsByTagName('iframe');
+            for (var i = 0,il=iframe.length;i<il;i++) {
+                if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                var a = iframe[i];
+                a.style.zoom = 1/window.__zoom;
+                var src_ = a.getAttribute('data-src')||"";
+                if(!/http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)){
+                    continue;
+                }
+                var ratio = a.getAttribute("_ratio");
+                var vid = a.getAttribute("_vid");
+                a.removeAttribute("_ratio");
+                a.removeAttribute("_vid");
+                var vw = a.offsetWidth - (getOuterW(a)||0);
+                var vh = vw/ratio;
+                var h = vh + (getOuterH(a)||0)
+                a.style.cssText += "height: " + h + "px !important;"
+                a.setAttribute("height",h);
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+vw+"&height="+vh+"&auto=0");
+                a.style.display = "none";
+                var parent = a.parentNode;
+                if(!parent){
+                    continue;
+                }
+                for(var j=0,jl=parent.children.length;j<jl;j++){
+                    var child = parent.children[j];
+                    if(child.className.indexOf("img_loading")>=0 && child.getAttribute("data-vid")==vid){
+                        child.style.cssText += "height: " + h + "px !important;";
+                        child.style.display = "";
+                    }
+                }
+            }
+        }
+    })();
+})();
+</script>
+<script nonce="2055485464" type="text/javascript">
+    var new_appmsg = 1;
+    var item_show_type = "0";
+    var can_see_complaint = "0";
+    var not_in_mm_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm435ee6.css";
+    var windowwx_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+    var article_improve_combo_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo438c19.css";
+    var tid = "";
+    var aid = "";
+    var clientversion = "";
+    var appuin = ""||"MzIzMzgzOTUxNA==";
+
+    var source = "";
+    var ascene = "";
+    var subscene = "";
+    var sessionid = ""||"";
+    var abtest_cookie = "";
+
+    var scene = 75;
+
+    var itemidx = "";
+    var appmsg_token   = "";
+    var _copyright_stat = "0";
+    var _ori_article_type = "";
+
+    var is_follow = "";
+    var nickname = "腾讯广告算法大赛";
+    var appmsg_type = "9";
+    var ct = "1494326831";
+    var publish_time = "2017-05-09" || "";
+    var user_name = "gh_64f89401a2c9";
+    var user_name_new = "";
+    var fakeid   = "";
+    var version   = "";
+    var is_limit_user   = "0";
+    var round_head_img = "http://mmbiz.qpic.cn/mmbiz_png/tq4iaariaCpMkReF3ics1gDsibkzibwcpHicaWiaFbLicYH6BZ0HTOOPyxL1nZamScXgobNV8CK3FCPPWQiaFCLz3a9vjBw/0?wx_fmt=png";
+    var hd_head_img = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM735LL0Nm5qNRWfmMhZVlAIBc0fjhVzVRW45g7FQetnuQ/0"||"";
+    var ori_head_img_url = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM735LL0Nm5qNRWfmMhZVlAIBc0fjhVzVRW45g7FQetnuQ/132";
+    var msg_title = "【干货】Kaggle 数据挖掘比赛经验分享";
+    var msg_desc = "腾讯社交与效果广告部数据挖掘工程师，Kaggle 数据科学家排行榜排名全球第十，国内第一的数据大神【干货分享】";
+    var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz_jpg/tq4iaariaCpMmFZwrogMZn2DqOZG9ctqaFVsaA0JXDqu487gQU4WpR1L26LcQEtehwGgTjl5ib81aNIkXBribebPZA/0"; 
+    var cdn_url_1_1  = ""; 
+    var cdn_url_235_1 = ""; 
+    
+    var msg_link = "http://mp.weixin.qq.com/s?__biz=MzIzMzgzOTUxNA==&amp;mid=2247483678&amp;idx=1&amp;sn=5f044dabfaa726e292686287a1dd5ca4&amp;chksm=e8fecfebdf8946fdabf71fd5c4c0e019144f105da993c12fa257c64f281ecfb3a7557f16b79e#rd"; 
+    var user_uin = "0"*1;
+    var msg_source_url = 'http://algo.tpai.qq.com';
+    var img_format = 'jpeg';
+    var srcid = '';
+    var req_id = '1014ZZWe3e5KHfs7cqve9y3A';
+    var networkType;
+    var appmsgid = '' || ''|| "2247483678";
+    var comment_id = "2745060136" || "2745060136" * 1;
+    var comment_enabled = "" * 1;
+    var is_need_reward = "0" * 1;
+    var is_https_res = ("" * 1) && (location.protocol == "https:");
+    var msg_daily_idx = "1" || "";
+    var profileReportInfo = "" || "";
+
+    var devicetype = "";
+    var source_encode_biz = "";
+    var source_username = "";
+    
+    var reprint_ticket = "";
+    var source_mid = "";
+    var source_idx = "";
+    var source_biz = "";
+    var author_id = "";
+
+    
+    var optimizing_flag = "0" * 1;
+    var ad_abtest_padding = "0" * 1;
+
+    var show_comment = "";
+    var __appmsgCgiData = {
+        wxa_product : ""*1,
+        wxa_cps : ""*1,
+        show_msg_voice: "0"*1,
+        can_use_page : "0"*1,
+        is_wxg_stuff_uin : "0"*1,
+        card_pos : "",
+        copyright_stat : "0",
+        source_biz : "",
+        hd_head_img : "http://wx.qlogo.cn/mmhead/Q3auHgzwzM735LL0Nm5qNRWfmMhZVlAIBc0fjhVzVRW45g7FQetnuQ/0"||(window.location.protocol+"//"+window.location.host + "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_rumor_link.2x42f400.jpg")
+    };
+    var _empty_v = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/pages/voice/empty42f400.mp3";
+
+    var copyright_stat = "0" * 1;
+
+    var pay_fee = "" * 1;
+    var pay_timestamp = "";
+    var need_pay = "" * 1;
+
+    var need_report_cost = "0" * 1;
+    var use_tx_video_player = "0" * 1;
+    var appmsg_fe_filter = "contenteditable";
+
+    var friend_read_source = "" || "";
+    var friend_read_version = "" || "";
+    var friend_read_class_id = "" || "";
+
+    var is_only_read = "1" * 1;
+    var read_num = "" * 1;
+    var like_num = "" * 1;
+    var liked = "" == 'true' ? true : false;
+    var is_temp_url = "" ? 1 : 0;
+    var send_time = "";
+    var icon_emotion_switch = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch.2x42f400.png";
+    var icon_emotion_switch_active = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch_active.2x42f400.png";
+    var icon_loading_white = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif";
+    var icon_audio_unread = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/audio/icon_audio_unread42f400.png";
+    var icon_qqmusic_default = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_default.2x42f400.png";
+    var icon_qqmusic_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_source42f400.png";
+    var icon_kugou_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/kugou/icon_kugou_source42f400.png";
+
+    var topic_default_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/topic/pic_book_thumb.2x42f400.png';
+    var comment_edit_icon = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg_new/icon_edit42f400.png';
+    var comment_loading_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif';
+
+    var voice_in_appmsg = {
+        "1":"1"
+            };
+
+    var reprint_style = ''*1;
+    var wxa_img_alert = "" != 'false';
+
+    
+    var more_read_type = '0'*1;
+
+    
+    
+    
+    
+
+    
+    var weapp_sn_arr_json = "" || "";
+
+    
+    var ban_scene = "0" * 1;
+
+    var svr_time = "1549780640" * 1;
+    
+    var is_transfer_msg = ""*1||0;
+
+    var malicious_title_reason_id = "0" * 1; 
+    var malicious_content_type = "0" * 1; 
+
+    
+    var modify_time = "";
+
+    
+    var isprofileblock = "0";
+
+    
+    var hotspotInfoList = [
+                    ];
+
+        window.wxtoken = "777";
+        
+    
+    
+    
+    
+    window.is_login = '0' * 1; 
+
+    window.__moon_initcallback = function(){
+        if(!!window.__initCatch){
+            window.__initCatch({
+                idkey : 27611+2,
+                startKey : 0,
+                limit : 128,
+                badjsId: 43,
+                reportOpt : {
+                    uin : uin,
+                    biz : biz,
+                    mid : mid,
+                    idx : idx,
+                    sn  : sn
+                },
+                extInfo : {
+                    network_rate : 0.01,    
+                    badjs_rate: 0.1 
+                }
+            });
+        }
+    }
+        
+    var title ="腾讯广告算法大赛";
+
+    var is_new_msg=true;
+    
+    
+
+    var is_wash = '' * 1;
+</script>
+
+<script nonce="2055485464" type="text/javascript">
+(function(_g){
+    _g.appmsg_like_type = "1" * 1 ? "1" * 1 : 1;
+    
+    _g.clientversion = "";
+    _g.passparam = ""; 
+    if(!_g.msg_link) {
+      _g.msg_link = "http://mp.weixin.qq.com/s?__biz=MzIzMzgzOTUxNA==&amp;mid=2247483678&amp;idx=1&amp;sn=5f044dabfaa726e292686287a1dd5ca4&amp;chksm=e8fecfebdf8946fdabf71fd5c4c0e019144f105da993c12fa257c64f281ecfb3a7557f16b79e#rd";
+    }
+    _g.appmsg_type = "9"; 
+    _g.devicetype = ""; 
+})(window);
+
+</script>
+
+
+        <script nonce="2055485464">window.__moon_host = 'res.wx.qq.com';window.__moon_mainjs = 'appmsg/index.js';window.moon_map = {"a/appdialog_confirm.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm.html42f400.js","widget/wx_profile_dialog_primary.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/widget/wx_profile_dialog_primary.css42f400.js","pages/iframe_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/iframe_communicate42f400.js","new_video/player.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player.html433882.js","biz_wap/zepto/touch.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/touch42f400.js","biz_wap/zepto/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/event42f400.js","biz_wap/zepto/zepto.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/zepto42f400.js","page/pages/video.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/pages/video.css435ee6.js","a/tpl/smallbanner_msg_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_msg_tpl.html42f400.js","a/tpl/smallbanner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_info_tpl.html42f400.js","a/tpl/banner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_info_tpl.html42f400.js","a/tpl/promote_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/promote_tpl.html42f400.js","a/tpl/smallcard_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallcard_tpl.html42f400.js","a/tpl/info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/info_tpl.html42f400.js","a/tpl/cardticket_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cardticket_tpl.html42f400.js","a/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_tpl.html42f400.js","a/tpl/sponsor_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/sponsor_tpl.html42f400.js","a/tpl/new_cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/new_cpc_tpl.html42f400.js","appmsg/emotion/caret.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/caret42f400.js","biz_wap/utils/localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/localstorage42f400.js","appmsg/friend_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/friend_comment_tpl.html42f400.js","appmsg/comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_tpl.html42f400.js","biz_wap/utils/fakehash.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/fakehash42f400.js","appmsg/comment_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_report42f400.js","a/appdialog_confirm.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm42f400.js","new_video/player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player4306fd.js","a/tpl/mpda_bottom_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/mpda_bottom_tpl.html42f400.js","a/tpl/crt_size_map.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_size_map42f400.js","biz_wap/jsapi/cardticket.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/cardticket42f400.js","biz_common/jquery.md5.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/jquery.md542f400.js","biz_common/utils/emoji_panel_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_panel_data42f400.js","biz_common/utils/emoji_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_data42f400.js","appmsg/emotion/textarea.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/textarea42f400.js","appmsg/emotion/nav.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/nav42f400.js","appmsg/emotion/common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/common42f400.js","appmsg/emotion/slide.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/slide42f400.js","appmsg/emotion/dom.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/dom42f400.js","pages/music_report_conf.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_report_conf42f400.js","pages/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/report4306fd.js","pages/player_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/player_adaptor42f400.js","pages/music_player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_player42f400.js","appmsg/more_read_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read_tpl.html42f400.js","appmsg/retry_ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/retry_ajax42f400.js","complain/tips.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/complain/tips42f400.js","pages/loadscript.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/loadscript42f400.js","biz_wap/utils/ajax_load_js.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_load_js42f400.js","appmsg/comment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment4317dc.js","a/ios.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios42f400.js","a/android.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android42f400.js","a/profile.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile42f400.js","a/app_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/app_card430506.js","a/sponsor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor42f400.js","a/tpl/cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cpc_tpl.html42f400.js","a/video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/video42f400.js","a/a_config.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_config42f400.js","a/tpl/crt_tpl_manager.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_tpl_manager42f400.js","a/cpc_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/cpc_a_tpl.html42f400.js","a/sponsor_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor_a_tpl.html42f400.js","a/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_tpl.html42f400.js","a/mpshop.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpshop42f400.js","a/wxopen_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/wxopen_card42f400.js","a/card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/card42f400.js","biz_wap/utils/position.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/position42f400.js","a/a_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_report42f400.js","biz_wap/utils/show_time.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/show_time42f400.js","biz_common/utils/get_para_list.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/get_para_list42f400.js","biz_wap/utils/openUrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/openUrl42f400.js","a/a_sign.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_sign438181.js","appmsg/my_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/my_comment_tpl.html42f400.js","appmsg/cmt_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cmt_tpl.html42f400.js","sougou/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/a_tpl.html42f400.js","appmsg/emotion/emotion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/emotion42f400.js","biz_common/base64.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/base6442f400.js","biz_common/utils/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report42f400.js","appmsg/articleReport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/articleReport42f400.js","biz_wap/utils/hand_up_state.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/hand_up_state42f400.js","biz_common/utils/http.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/http42f400.js","biz_common/utils/cookie.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie42f400.js","appmsg/topic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/topic_tpl.html42f400.js","pages/weapp_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/weapp_tpl.html42f400.js","biz_common/utils/monitor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/monitor42f400.js","pages/voice_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_tpl.html42f400.js","pages/kugoumusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/kugoumusic_ctrl42f400.js","pages/qqmusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_ctrl42f400.js","pages/voice_component.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_component42f400.js","pages/qqmusic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_tpl.html42f400.js","new_video/ctl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/ctl4306fd.js","appmsg/open_url_with_webview.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/open_url_with_webview4380a9.js","appmsg/more_read.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read42f400.js","appmsg/reward_entry.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/reward_entry42f400.js","appmsg/like.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like43875f.js","pages/version4video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/version4video42f400.js","biz_wap/utils/storage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/storage42f400.js","appmsg/share_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share_tpl.html42f400.js","appmsg/appmsgext.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsgext430b95.js","appmsg/img_copyright_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/img_copyright_tpl.html42f400.js","pages/video_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_ctrl42f400.js","pages/create_txv.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/create_txv42f400.js","appmsg/comment_utils.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_utils42f400.js","biz_common/ui/imgonepx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx42f400.js","appmsg/malicious_wording.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/malicious_wording42f400.js","biz_common/utils/wxgspeedsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/wxgspeedsdk42f400.js","a/a.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a4382e5.js","rt/appmsg/getappmsgext.rt.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/rt/appmsg/getappmsgext.rt42f400.js","pages/video_communicate_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_communicate_adaptor433882.js","biz_wap/utils/ajax_wx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_wx42f400.js","biz_common/utils/respTypes.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/respTypes42f400.js","biz_wap/utils/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/log42f400.js","sougou/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/index42f400.js","biz_wap/safe/mutation_observer_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/mutation_observer_report42f400.js","appmsg/fereport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport438bee.js","appmsg/fereport_without_localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport_without_localstorage438bee.js","appmsg/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report42f400.js","appmsg/report_and_source.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source4380a9.js","appmsg/page_pos.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos431b87.js","appmsg/cdn_speed_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report42f400.js","appmsg/wxtopic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/wxtopic42f400.js","appmsg/weapp.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp433882.js","appmsg/weproduct.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weproduct42f400.js","appmsg/voicemsg.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voicemsg42f400.js","appmsg/autoread.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/autoread42f400.js","appmsg/voice.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voice42f400.js","appmsg/qqmusic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/qqmusic43440b.js","appmsg/iframe.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe433882.js","appmsg/product.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/product42f400.js","appmsg/review_image.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image435a90.js","appmsg/outer_link.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link433882.js","appmsg/copyright_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/copyright_report42f400.js","appmsg/async.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async438bee.js","biz_wap/ui/lazyload_img.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img42f400.js","biz_common/log/jserr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr42f400.js","appmsg/share.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share42f50a.js","appmsg/cdn_img_lib.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib42f400.js","appmsg/finance_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/finance_communicate42f400.js","page/appmsg_new/not_in_mm.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm.css435ee6.js","page/appmsg_new/combo.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo.css438c19.js","biz_wap/utils/wapsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/wapsdk42f400.js","a/mpAdAsync.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpAdAsync4317dc.js","biz_common/utils/url/parse.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse42f400.js","appmsg/appmsg_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsg_report435ac2.js","biz_common/moment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/moment42f400.js","biz_wap/jsapi/core.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core42f400.js","biz_common/dom/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event42f400.js","appmsg/test.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/test42f400.js","biz_wap/utils/mmversion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion42f400.js","appmsg/max_age.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/max_age42f400.js","biz_common/dom/attr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr42f400.js","biz_wap/utils/ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax42f400.js","appmsg/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/log42f400.js","biz_common/dom/class.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class42f400.js","biz_wap/utils/device.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/device42f400.js","appmsg/weapp_common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp_common42f400.js","biz_common/utils/string/html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html42f400.js","cps/tpl/list_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/list_tpl.html42f400.js","cps/tpl/card_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/card_tpl.html42f400.js","cps/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/banner_tpl.html42f400.js","biz_common/tmpl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl42f400.js","appmsg/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index438e37.js"};</script><script nonce="2055485464" type="text/javascript" id="moon_inline" > window.__mooninline=1; window.setTimeout(function() {  function __moonf__(){
+if(!window.__moonhasinit){
+window.__moonhasinit=!0,window.__moonclientlog=[],window.__wxgspeeds&&(window.__wxgspeeds.moonloadedtime=+new Date),
+"object"!=typeof JSON&&(window.JSON={
+stringify:function(){
+return"";
+},
+parse:function(){
+return{};
+}
+});
+var e=function(){
+function e(e){
+try{
+var o;
+/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)?o="writeLog":/(Android)/i.test(navigator.userAgent)&&(o="log"),
+o&&t(o,e);
+}catch(n){
+throw console.error(n),n;
+}
+}
+function t(e,o){
+var n,r,i={};
+n=top!=window?top.window:window;
+try{
+r=n.WeixinJSBridge,i=n.document;
+}catch(a){}
+e&&r&&r.invoke?r.invoke(e,{
+level:"info",
+msg:"[WechatFe][moon]"+o
+}):setTimeout(function(){
+i.addEventListener?i.addEventListener("WeixinJSBridgeReady",function(){
+t(e,o);
+},!1):i.attachEvent&&(i.attachEvent("WeixinJSBridgeReady",function(){
+t(e,o);
+}),i.attachEvent("onWeixinJSBridgeReady",function(){
+t(e,o);
+}));
+},0);
+}
+var n;
+localStorage&&JSON.parse(localStorage.getItem("__WXLS__moonarg"))&&"fromls"==JSON.parse(localStorage.getItem("__WXLS__moonarg")).method&&(n=!0),
+e(" moon init, moon_inline:"+window.__mooninline+", moonls:"+n),function(){
+var e={},o={},t={};
+e.COMBO_UNLOAD=0,e.COMBO_LOADING=1,e.COMBO_LOADED=2;
+var n=function(e,t,n){
+if(!o[e]){
+o[e]=n;
+for(var r=3;r--;)try{
+moon.setItem(moon.prefix+e,n.toString()),moon.setItem(moon.prefix+e+"_ver",moon_map[e]);
+break;
+}catch(i){
+moon.clear();
+}
+}
+},r=window.alert;
+window.__alertList=[],window.alert=function(e){
+r(e),window.__alertList.push(e);
+};
+var i=function(e){
+if(!e||!o[e])return null;
+var n=o[e];
+if("function"==typeof n&&!t[e]){
+var a={},s={
+exports:a
+},c=n(i,a,s,r);
+n=o[e]=c||s.exports,t[e]=!0;
+}
+if(".css"===e.substr(-4)){
+var d=document.getElementById(e);
+if(!d){
+d=document.createElement("style"),d.id=e;
+var _=/url\s*\(\s*\/(\"(?:[^\\\"\r\n\f]|\\[\s\S])*\"|'(?:[^\\'\n\r\f]|\\[\s\S])*'|[^)}]+)\s*\)/g,m=window.testenv_reshost||window.__moon_host||"res.wx.qq.com";
+n=n.replace(_,"url(//"+m+"/$1)"),d.innerHTML=n,document.getElementsByTagName("head")[0].appendChild(d);
+}
+}
+return n;
+};
+e.combo_status=e.COMBO_UNLOAD,e.run=function(){
+var o=e.run.info,t=o&&o[0],n=o&&o[1];
+if(t&&e.combo_status==e.COMBO_LOADED){
+var r=i(t);
+n&&n(r);
+}
+},e.use=function(o,t){
+window.__wxgspeeds&&(window.__wxgspeeds.seajs_use_time=+new Date),e.run.info=[o,t],
+e.run();
+},window.define=n,window.seajs=e;
+}(),function(){
+if(window.__nonce_str){
+var e=document.createElement;
+document.createElement=function(o){
+var t=e.apply(this,arguments);
+return"object"==typeof o&&(o=o.toString()),"string"==typeof o&&"script"==o.toLowerCase()&&t.setAttribute("nonce",window.__nonce_str),
+t;
+};
+}
+window.addEventListener&&window.__DEBUGINFO&&Math.random()<.01&&window.addEventListener("load",function(){
+var e=document.createElement("script");
+e.src=__DEBUGINFO.safe_js,e.type="text/javascript",e.async=!0;
+var o=document.head||document.getElementsByTagName("head")[0];
+o.appendChild(e);
+});
+}(),function(){
+function t(e){
+return"[object Array]"===Object.prototype.toString.call(e);
+}
+function n(e){
+return"[object Object]"===Object.prototype.toString.call(e);
+}
+function r(e){
+var t=e.stack+" "+e.toString()||"";
+try{
+if(window.testenv_reshost){
+var n="http(s)?://"+window.testenv_reshost,r=new RegExp(n,"g");
+t=t.replace(r,"");
+}else t=t.replace(/http(s)?:\/\/res\.wx\.qq\.com/g,"");
+for(var r=/\/([^.]+)\/js\/(\S+?)\.js(\,|:)?/g;r.test(t);)t=t.replace(r,function(e,o,t,n){
+return t+n;
+});
+}catch(e){
+t=e.stack?e.stack:"";
+}
+var i=[];
+for(o in u)u.hasOwnProperty(o)&&i.push(o+":"+u[o]);
+return i.push("STK:"+t.replace(/\n/g,"")),i.join("|");
+}
+function i(e){
+if(!e){
+var o=window.onerror;
+window.onerror=function(){},f=setTimeout(function(){
+window.onerror=o,f=null;
+},50);
+}
+}
+function a(e,o,t){
+if(!/^mp\.weixin\.qq\.com$/.test(location.hostname)){
+var n=[];
+t=t.replace(location.href,(location.origin||"")+(location.pathname||"")).replace("#wechat_redirect","").replace("#rd","").split("&");
+for(var r=0,i=t.length;i>r;r++){
+var a=t[r].split("=");
+a[0]&&a[1]&&n.push(a[0]+"="+encodeURIComponent(a[1]));
+}
+var s=new window.Image;
+return void(s.src=(o+n.join("&")).substr(0,1024));
+}
+var c;
+if(window.ActiveXObject)try{
+c=new ActiveXObject("Msxml2.XMLHTTP");
+}catch(d){
+try{
+c=new ActiveXObject("Microsoft.XMLHTTP");
+}catch(_){
+c=!1;
+}
+}else window.XMLHttpRequest&&(c=new XMLHttpRequest);
+c&&(c.open(e,o,!0),c.setRequestHeader("cache-control","no-cache"),c.setRequestHeader("Content-Type","application/x-www-form-urlencoded; charset=UTF-8"),
+c.setRequestHeader("X-Requested-With","XMLHttpRequest"),c.send(t));
+}
+function s(e){
+return function(o,t){
+if("string"==typeof o)try{
+o=new Function(o);
+}catch(n){
+throw n;
+}
+var r=[].slice.call(arguments,2),a=o;
+return o=function(){
+try{
+return a.apply(this,r.length&&r||arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:j,
+log:"timeout_error;host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},e(o,t);
+};
+}
+function c(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this,a=t||function(){};
+return t=function(){
+try{
+return a.apply(r,arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:x,
+log:"listener_error;type:"+o+";host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},a.moon_lid=E,b[E]=t,E++,e.call(r,o,t,n);
+};
+}
+function d(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this;
+return t=b[t.moon_lid],e.call(r,o,t,n);
+};
+}
+var _,m,l,w,u,p,f,h=/MicroMessenger/i.test(navigator.userAgent),g=/MPAPP/i.test(navigator.userAgent),v=window.define,y=0,x=2,O=4,j=9,D=10;
+if(window.__initCatch=function(e){
+_=e.idkey,m=e.startKey||0,l=e.limit,w=e.badjsId,u=e.reportOpt||"",p=e.extInfo||{},
+p.rate=p.rate||.5;
+},window.__moon_report=function(e,o){
+var i=!1,s="";
+try{
+s=top.location.href;
+}catch(c){
+i=!0;
+}
+var d=.5;
+if(p&&p.rate&&(d=p.rate),o&&"number"==typeof o&&(d=o),!(!/mp\.weixin\.qq\.com/.test(location.href)&&!/payapp\.weixin\.qq\.com/.test(location.href)||Math.random()>d||!h&&!g||top!=window&&!i&&!/mp\.weixin\.qq\.com/.test(s))&&(n(e)&&(e=[e]),
+t(e)&&""!=_)){
+var u="",f=[],v=[],y=[],x=[];
+"number"!=typeof l&&(l=1/0);
+for(var j=0;j<e.length;j++){
+var D=e[j]||{};
+if(!(D.offset>l||"number"!=typeof D.offset||D.offset==O&&p&&p.network_rate&&Math.random()>=p.network_rate)){
+var b=1/0==l?m:m+D.offset;
+f[j]="[moon]"+_+"_"+b+";"+D.log+";"+r(D.e||{})||"",v[j]=b,y[j]=1;
+}
+}
+for(var E=0;E<v.length;E++)x[E]=_+"_"+v[E]+"_"+y[E],u=u+"&log"+E+"="+f[E];
+if(x.length>0){
+a("POST",location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?","idkey="+x.join(";")+"&r="+Math.random()+"&lc="+f.length+u);
+var d=1;
+if(p&&p.badjs_rate&&(d=p.badjs_rate),w&&Math.random()<d){
+u=u.replace(/uin\:(.)*\|biz\:(.)*\|mid\:(.)*\|idx\:(.)*\|sn\:(.)*\|/,"");
+var S=new Image,I="https://badjs.weixinbridge.com/badjs?id="+w+"&level=4&from="+encodeURIComponent(location.host)+"&msg="+encodeURIComponent(u);
+S.src=I.slice(0,1024);
+}
+}
+}
+},window.setTimeout=s(window.setTimeout),window.setInterval=s(window.setInterval),
+Math.random()<.01&&window.Document&&window.HTMLElement){
+var b={},E=0;
+Document.prototype.addEventListener=c(Document.prototype.addEventListener),Document.prototype.removeEventListener=d(Document.prototype.removeEventListener),
+HTMLElement.prototype.addEventListener=c(HTMLElement.prototype.addEventListener),
+HTMLElement.prototype.removeEventListener=d(HTMLElement.prototype.removeEventListener);
+}
+var S=window.navigator.userAgent;
+if((/ip(hone|ad|od)/i.test(S)||/android/i.test(S))&&!/windows phone/i.test(S)&&window.localStorage&&window.localStorage.setItem){
+var I=window.localStorage.setItem,L=0;
+window.localStorage.setItem=function(e,o){
+if(!(L>=10))try{
+I.call(window.localStorage,e,o);
+}catch(t){
+t.stack&&console&&console.error&&console.error("[TryCatch]"+t.stack),window.__moon_report([{
+offset:D,
+log:"localstorage_error;"+t.toString(),
+e:t
+}]),L++,L>=3&&window.moon&&window.moon.clear&&moon.clear();
+}
+};
+}
+window.seajs&&v&&(window.define=function(){
+for(var o,t=[],n=arguments&&arguments[0],a=0,s=arguments.length;s>a;a++){
+var c=o=arguments[a];
+"function"==typeof o&&(o=function(){
+try{
+return c.apply(this,arguments);
+}catch(o){
+throw"string"==typeof n&&console.error("[TryCatch][DefineeErr]id:"+n),o.stack&&console&&console.error&&console.error("[TryCatch]"+o.stack),
+_&&window.__moon_report&&(window.__moon_report([{
+offset:y,
+log:"define_error;id:"+n+";",
+e:o
+}]),i(f)),e(" [define_error]"+JSON.stringify(r(o))),o;
+}
+},o.toString=function(e){
+return function(){
+return e.toString();
+};
+}(arguments[a])),t.push(o);
+}
+return v.apply(this,t);
+});
+}(),function(o){
+function t(e,o,t){
+return window.__DEBUGINFO?(window.__DEBUGINFO.res_list||(window.__DEBUGINFO.res_list=[]),
+window.__DEBUGINFO.res_list[e]?(window.__DEBUGINFO.res_list[e][o]=t,!0):!1):!1;
+}
+function n(e){
+var o=new TextEncoder("utf-8").encode(e),t=crypto.subtle||crypto.webkitSubtle;
+return t.digest("SHA-256",o).then(function(e){
+return r(e);
+});
+}
+function r(e){
+for(var o=[],t=new DataView(e),n=0;n<t.byteLength;n+=4){
+var r=t.getUint32(n),i=r.toString(16),a="00000000",s=(a+i).slice(-a.length);
+o.push(s);
+}
+return o.join("");
+}
+function i(e,o,t){
+if("object"==typeof e){
+var n=Object.prototype.toString.call(e).replace(/^\[object (.+)\]$/,function(e,o){
+return o;
+});
+if(t=t||e,"Array"==n){
+for(var r=0,i=e.length;i>r;++r)if(o.call(t,e[r],r,e)===!1)return;
+}else{
+if("Object"!==n&&a!=e)throw"unsupport type";
+if(a==e){
+for(var r=e.length-1;r>=0;r--){
+var s=a.key(r),c=a.getItem(s);
+if(o.call(t,c,s,e)===!1)return;
+}
+return;
+}
+for(var r in e)if(e.hasOwnProperty(r)&&o.call(t,e[r],r,e)===!1)return;
+}
+}
+}
+var a=o.localStorage,s=document.head||document.getElementsByTagName("head")[0],c=1,d=11,_=12,m=13,l=window.__allowLoadResFromMp?1:2,w=window.__allowLoadResFromMp?1:0,u=l+w,p=window.testenv_reshost||window.__moon_host||"res.wx.qq.com",f=new RegExp("^(http(s)?:)?//"+p);
+window.__loadAllResFromMp&&(p="mp.weixin.qq.com",l=0,u=l+w);
+var h={
+prefix:"__MOON__",
+loaded:[],
+unload:[],
+clearSample:!0,
+hit_num:0,
+mod_num:0,
+version:1003,
+cacheData:{
+js_mod_num:0,
+js_hit_num:0,
+js_not_hit_num:0,
+js_expired_num:0,
+css_mod_num:0,
+css_hit_num:0,
+css_not_hit_num:0,
+css_expired_num:0
+},
+init:function(){
+h.loaded=[],h.unload=[];
+var e,t,r;
+if(window.no_moon_ls&&(h.clearSample=!0),a){
+var s="_moon_ver_key_",c=a.getItem(s);
+c!=h.version&&(h.clear(),a.setItem(s,h.version));
+}
+if((-1!=location.search.indexOf("no_moon1=1")||-1!=location.search.indexOf("no_lshttps=1"))&&h.clear(),
+a){
+var d=1*a.getItem(h.prefix+"clean_time"),_=+new Date;
+if(_-d>=1296e6){
+h.clear();
+try{
+!!a&&a.setItem(h.prefix+"clean_time",+new Date);
+}catch(m){}
+}
+}
+i(moon_map,function(i,s){
+if(t=h.prefix+s,r=!!i&&i.replace(f,""),e=!!a&&a.getItem(t),version=!!a&&(a.getItem(t+"_ver")||"").replace(f,""),
+h.mod_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_mod_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_mod_num++,
+h.clearSample||!e||r!=version)h.unload.push(r.replace(f,"")),r&&-1!=r.indexOf(".css")?e?r!=version&&h.cacheData.css_expired_num++:h.cacheData.css_not_hit_num++:r&&-1!=r.indexOf(".js")&&(e?r!=version&&h.cacheData.js_expired_num++:h.cacheData.js_not_hit_num++);else{
+if("https:"==location.protocol&&window.moon_hash_map&&window.moon_hash_map[s]&&window.crypto)try{
+n(e).then(function(e){
+window.moon_hash_map[s]!=e&&console.log(s);
+});
+}catch(c){}
+try{
+var d="//# sourceURL="+s+"\n//@ sourceURL="+s;
+o.eval.call(o,'define("'+s+'",[],'+e+")"+d),h.hit_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_hit_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_hit_num++;
+}catch(c){
+h.unload.push(r.replace(f,""));
+}
+}
+}),h.load(h.genUrl());
+},
+genUrl:function(){
+var e=h.unload;
+if(!e||e.length<=0)return[];
+var o,t,n="",r=[],i={},a=-1!=location.search.indexOf("no_moon2=1"),s="//"+p;
+-1!=location.href.indexOf("moon_debug2=1")&&(s="//mp.weixin.qq.com");
+for(var c=0,d=e.length;d>c;++c){
+/^\/(.*?)\//.test(e[c]);
+var _=/^\/(.*?)\//.exec(e[c]);
+_.length<2||!_[1]||(t=_[1],n=i[t],n?(o=n+","+e[c],o.length>1e3||a?(r.push(n+"?v="+h.version),
+n=location.protocol+s+e[c],i[t]=n):(n=o,i[t]=n)):(n=location.protocol+s+e[c],i[t]=n));
+}
+for(var m in i)i.hasOwnProperty(m)&&r.push(i[m]);
+return r;
+},
+load:function(e){
+if(window.__wxgspeeds&&(window.__wxgspeeds.mod_num=h.mod_num,window.__wxgspeeds.hit_num=h.hit_num),
+!e||e.length<=0)return seajs.combo_status=seajs.COMBO_LOADED,seajs.run(),console.debug&&console.debug("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num),
+void window.__moonclientlog.push("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num);
+seajs.combo_status=seajs.COMBO_LOADING;
+var o=0,t=+new Date;
+window.__wxgspeeds&&(window.__wxgspeeds.combo_times=[],window.__wxgspeeds.combo_times.push(t)),
+i(e,function(n){
+h.request(n,u,function(){
+if(window.__wxgspeeds&&window.__wxgspeeds.combo_times.push(+new Date),o++,o==e.length){
+var n=+new Date-t;
+window.__wxgspeeds&&(window.__wxgspeeds.mod_downloadtime=n),seajs.combo_status=seajs.COMBO_LOADED,
+seajs.run(),console.debug&&console.debug("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms"),
+window.__moonclientlog.push("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms");
+}
+});
+});
+},
+request:function(o,n,r){
+if(o){
+n=n||0,o.indexOf("mp.weixin.qq.com")>-1&&((new Image).src=location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?idkey=27613_32_1&r="+Math.random(),
+window.__moon_report([{
+offset:_,
+log:"load_script_from_mp: "+o
+}],1));
+var i=-1;
+window.__DEBUGINFO&&(__DEBUGINFO.res_list||(__DEBUGINFO.res_list=[]),__DEBUGINFO.res_list.push({
+type:"js",
+status:"pendding",
+start:+new Date,
+end:0,
+url:o
+}),i=__DEBUGINFO.res_list.length-1),-1!=location.search.indexOf("no_lshttps=1")&&(o=o.replace("http://","https://"));
+var a=document.createElement("script");
+a.src=o,a.type="text/javascript",a.async=!0,a.down_time=+new Date,a.onerror=function(s){
+t(i,"status","error"),t(i,"end",+new Date);
+var _=new Error(s);
+if(n>=0)if(w>n){
+var l=o.replace("res.wx.qq.com","mp.weixin.qq.com");
+h.request(l,n,r);
+}else h.request(o,n,r);else window.__moon_report&&window.__moon_report([{
+offset:c,
+log:"load_script_error: "+o,
+e:_
+}],1);
+if(n==w-1&&window.__moon_report([{
+offset:d,
+log:"load_script_error: "+o,
+e:_
+}],1),-1==n){
+var u="ua: "+window.navigator.userAgent+", time="+(+new Date-a.down_time)+", load_script_error -1 : "+o;
+window.__moon_report([{
+offset:m,
+log:u
+}],1);
+}
+window.__moonclientlog.push("moon load js error : "+o+", error -> "+_.toString()),
+e("moon_request_error url:"+o);
+},"undefined"!=typeof moon_crossorigin&&moon_crossorigin&&a.setAttribute("crossorigin",!0),
+a.onload=a.onreadystatechange=function(){
+t(i,"status","loaded"),t(i,"end",+new Date),!a||a.readyState&&!/loaded|complete/.test(a.readyState)||(t(i,"status","200"),
+a.onload=a.onreadystatechange=null,"function"==typeof r&&r());
+},n--,s.appendChild(a),e("moon_request url:"+o+" retry:"+n);
+}
+},
+setItem:function(e,o){
+!!a&&a.setItem(e,o);
+},
+clear:function(){
+a&&(i(a,function(e,o){
+~o.indexOf(h.prefix)&&a.removeItem(o);
+}),console.debug&&console.debug("[moon] clear"));
+},
+idkeyReport:function(e,o,t){
+t=t||1;
+var n=e+"_"+o+"_"+t;
+(new Image).src="/mp/jsmonitor?idkey="+n+"&r="+Math.random();
+}
+};
+seajs&&seajs.use&&"string"==typeof window.__moon_mainjs&&seajs.use(window.__moon_mainjs),
+window.moon=h;
+}(window),function(){
+try{
+Math.random()<1;
+}catch(e){}
+}(),window.moon.init();
+};
+e(),!!window.__moon_initcallback&&window.__moon_initcallback(),window.__wxgspeeds&&(window.__wxgspeeds.moonendtime=+new Date);
+}
+}
+__moonf__(); }, 25);</script><script nonce="2055485464" type="text/javascript">
+    var real_show_page_time = +new Date();
+    if (!!window.addEventListener){
+        window.addEventListener("load", function(){
+            window.onload_endtime = +new Date();
+        });
+    }
+
+    
+    if(typeof seajs != 'undefined' && seajs.config){
+        try{
+            seajs.config({
+              'map': [
+                [ '.js', '.js?v=' + (+new Date())]
+              ]
+            });
+        }catch(e){
+            console.info('not support seajs config');
+        }
+    }
+
+    
+</script>
+
+    </body>
+    <script nonce="2055485464" type="text/javascript">document.addEventListener("touchstart", function() {},false);</script>
+</html>
+

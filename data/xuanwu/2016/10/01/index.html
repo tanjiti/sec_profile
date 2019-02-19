@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/10/01" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/10/01</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/09/30/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/10/01/index.html">2016/10/01</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/10/02/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>PythonArsenal @PythonArsenal</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Debug </i>]  Web-PDB - web-interface for Python's built-in PDB debugger.It allows to debug Python scripts remotely in web-browser <a href="https://github.com/romanvm/python-web-pdb" rel="nofollow">https://github.com/romanvm/python-web-pdb</a></p>
+<div class="translated" id="189738">
+<p>﻿"Web-PDB - 通过浏览器远程调试 Python 的工具：   <a href="https://t.co/QWpgWCZVkz" rel="nofollow">https://t.co/QWpgWCZVkz</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> NetworkDevice </i>]  The Equation Group's Firewall Exploit Chain : <a href="https://www.ixiacom.com/company/blog/equation-groups-firewall-exploit-chain" rel="nofollow">https://www.ixiacom.com/company/blog/equation-groups-firewall-exploit-chain</a> <a href="https://t.co/DqnpoyRZYp" rel="nofollow">https://t.co/DqnpoyRZYp</a></p>
+<div class="translated" id="189751">
+<p>﻿" 前段时间泄漏的方程式组织 Exploit Kit 是如何 Exploit 思科防火墙的︰   <a href="https://t.co/8RcfnDmVwa" rel="nofollow">https://t.co/8RcfnDmVwa</a> <a href="https://t.co/DqnpoyRZYp" rel="nofollow">https://t.co/DqnpoyRZYp</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CtmrlQBUIAEAR-G.jpg" target="_blank">
+<img src="CtmrlQBUIAEAR-G.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>TrendLabs @TrendLabs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  New post: Helper for Haima iOS App Store Adds More Malicious Behavior <a href="http://bit.ly/2cGbOC5" rel="nofollow">http://bit.ly/2cGbOC5</a> @ TrendMicro</p>
+<div class="translated" id="189704">
+<p>﻿" 海马 iOS App Store 助手存在很多的恶意行为，来自趋势科技的分析：   <a href="https://t.co/FMqkT1FdSb" rel="nofollow">https://t.co/FMqkT1FdSb</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>FireF0X @hFireF0X</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  #DrWeb Linux/Mirai report <a href="https://st.drweb.com/static/new-www/news/2016/september/Investigation_of_Linux.Mirai_Trojan_family_en.pdf" rel="nofollow">https://st.drweb.com/static/new-www/news/2016/september/Investigation_of_Linux.Mirai_Trojan_family_en.pdf</a> Sample <a href="http://www.kernelmode.info/forum/viewtopic.php?f=16&amp;t=4477" rel="nofollow">http://www.kernelmode.info/forum/viewtopic.php?f=16&amp;t=4477</a> credits to @  Xylit0l, tWiCe, MMD staff.</p>
+<div class="translated" id="189882">
+<p>﻿" 来自 DrWeb 的 Linux Mirai 木马分析报告：   <a href="https://t.co/wac3BFFrvt" rel="nofollow">https://t.co/wac3BFFrvt</a>   样本：   <a href="https://t.co/gBCtigAwJs%C2%A0" rel="nofollow">https://t.co/gBCtigAwJs </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Project Zero Bugs @ProjectZeroBugs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  Adobe Flash: Crash in AVC slice decoding <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=861" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=861</a></p>
+<div class="translated" id="189974">
+<p>﻿" Adobe Flash: Crash in AVC slice decoding：   <a href="https://t.co/BHDXS3Kt6Q" rel="nofollow">https://t.co/BHDXS3Kt6Q</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Project Zero Bugs @ProjectZeroBugs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  Adobe Flash: Overflow in MP4 Processing <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=858" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=858</a></p>
+<div class="translated" id="189977">
+<p>﻿"Adobe Flash 在处理 MP4 文件格式时存在的溢出漏洞：   <a href="https://t.co/mPRRf4DowM" rel="nofollow">https://t.co/mPRRf4DowM</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Project Zero Bugs @ProjectZeroBugs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  VMWare Workstation vprintproxy.exe double-free in the handling of EMF (EMR_SMALLTEXTOUT record) <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=848" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=848</a></p>
+<div class="translated" id="189982">
+<p>﻿" VMWare Workstation 在处理 EMF 时存在的一个 Double Free 漏洞，来自 Project Zero Issue 848：   <a href="https://t.co/eQrfsz5hrO" rel="nofollow">https://t.co/eQrfsz5hrO</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  Vulnerability Spotlight: Redis CONFIG SET client-output-buffer-limit Code Execution Vulnerability <a href="http://blog.talosintel.com/2016/09/redis-vulnerability.html" rel="nofollow">http://blog.talosintel.com/2016/09/redis-vulnerability.html</a></p>
+<div class="translated" id="189896">
+<p>﻿" Redis CONFIG SET client-output-buffer-limit 远程代码执行漏洞：   <a href="https://t.co/FCpJaDsbdf" rel="nofollow">https://t.co/FCpJaDsbdf</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  argp @_argp </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> ReverseEngineering </i>]  Here's an IDA script I wrote to help with iBoot64 RE; it goes well with @xerub's img4 &amp;amp; the i5s keys he released ;)
+<a href="https://t.co/ugXjiOPvtw" rel="nofollow">https://t.co/ugXjiOPvtw</a></p>
+<div class="translated" id="189759">
+<p>﻿" iBoot64helper - 辅助逆向 iBoot64 的 IDA 脚本：   <a href="https://t.co/ugXjiOPvtw" rel="nofollow">https://t.co/ugXjiOPvtw</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/09/30/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/10/01/index.html">2016/10/01</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/10/02/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

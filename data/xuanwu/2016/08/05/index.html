@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/08/05" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/08/05</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/08/04/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/08/05/index.html">2016/08/05</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/08/06/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  NanHaiShu: RATing the South China Sea <a href="https://labsblog.f-secure.com/2016/08/04/nanhaishu-rating-the-south-china-sea/" rel="nofollow">https://labsblog.f-secure.com/2016/08/04/nanhaishu-rating-the-south-china-sea/</a></p>
+<div class="translated" id="168198">
+<p>﻿"NanHaiShu - 南.海_领_tu 相关的间谍攻击分析报告，来自 F-Secure：   <a href="https://t.co/qFJ28z26UE" rel="nofollow">https://t.co/qFJ28z26UE</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>lcamtuf @lcamtuf</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  CSS mix-blend-mode is bad for your browsing history (aka, patience is a virtue): <a href="https://lcamtuf.blogspot.com/2016/08/css-mix-blend-mode-is-bad-for-keeping.html" rel="nofollow">https://lcamtuf.blogspot.com/2016/08/css-mix-blend-mode-is-bad-for-keeping.html</a></p>
+<div class="translated" id="168280">
+<p>﻿"CSS 混合模式可以使攻击者更方便地探测你的浏览器历史记录︰   <a href="https://t.co/98uoYbXc1t" rel="nofollow">https://t.co/98uoYbXc1t</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  yan @bcrypt </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Crypto </i>]  Amazing new HTTPS exploit that uses browser javascript APIs (fetch + resource timing), no MITM needed: <a href="http://arstechnica.com/security/2016/08/new-attack-steals-ssns-e-mail-addresses-and-more-from-https-pages/" rel="nofollow">http://arstechnica.com/security/2016/08/new-attack-steals-ssns-e-mail-addresses-and-more-from-https-pages/</a></p>
+<div class="translated" id="167960">
+<p>﻿" HEIST - 一种新的 HTTPS 攻击方式，通过 TCP Window 还原出 HTTPS 加密实体的字节大小，来自 ArsTechnica 的报道︰   <a href="https://t.co/NQNvv5a9P9%C2%A0" rel="nofollow">https://t.co/NQNvv5a9P9 </a> 作者在 BlackHat 会议演讲的 Paper：   <a href="http://papers.mathyvanhoef.com/blackhat2016.pdf" rel="nofollow">http://papers.mathyvanhoef.com/blackhat2016.pdf</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Hossein Lotfi @hosselot </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Detect </i>]  CAPTURING 0DAY EXPLOITS WITH PERFECTLY PLACED HARDWARE TRAPS:
+<a href="https://www.blackhat.com/docs/us-16/materials/us-16-Pierce-Capturing-0days-With-PERFectly-Placed-Hardware-Traps.pdf" rel="nofollow">https://www.blackhat.com/docs/us-16/materials/us-16-Pierce-Capturing-0days-With-PERFectly-Placed-Hardware-Traps.pdf</a></p>
+<div class="translated" id="168212">
+<p>﻿" 用预设的完美硬件断点抓 0Day Exploits， 作者在 BlackHat 演讲的 PPT︰   <a href="https://t.co/s5Yt8Ayyk2%C2%A0%C2%A0" rel="nofollow">https://t.co/s5Yt8Ayyk2  </a> Paper:   <a href="https://www.blackhat.com/docs/us-16/materials/us-16-Pierce-Capturing-0days-With-PERFectly-Placed-Hardware-Traps-wp.pdf" rel="nofollow">https://www.blackhat.com/docs/us-16/materials/us-16-Pierce-Capturing-0days-With-PERFectly-Placed-Hardware-Traps-wp.pdf</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Pwn All The Things @pwnallthethings </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Exploit </i>]  What browser 0day in 2016 looks like: Technical break-down of the Pwn2Own browser (w/ full-chain to admin) exploits <a href="http://documents.trendmicro.com/assets/pdf/shell-on-earth.pdf" rel="nofollow">http://documents.trendmicro.com/assets/pdf/shell-on-earth.pdf</a></p>
+<div class="translated" id="168211">
+<p>﻿" 从浏览器到操作系统的沦陷 - 今年 Pwn2Own 比赛中的那些 0Day，来自趋势科技的 Paper：   <a href="https://t.co/LIwga4vQEx%C2%A0" rel="nofollow">https://t.co/LIwga4vQEx </a>; BlackHat 演讲的 PPT：   <a href="https://www.blackhat.com/docs/us-16/materials/us-16-Molinyawe-Shell-On-Earth-From-Browser-To-System-Compromise.pdf%C2%A0%C2%A0" rel="nofollow">https://www.blackhat.com/docs/us-16/materials/us-16-Molinyawe-Shell-On-Earth-From-Browser-To-System-Compromise.pdf  </a> BlackHat 已公开的 PPT 下载：   <a href="https://www.blackhat.com/us-16/briefings.html%C2%A0" rel="nofollow">https://www.blackhat.com/us-16/briefings.html </a> 另外为方便大家批量下载 PPT，写了一个简单的 JS 脚本（没有严格测试，可能会有错误，见谅）：   <a href="http://paste.ubuntu.com/22252810/" rel="nofollow">http://paste.ubuntu.com/22252810/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Joxean Koret @matalaz </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Exploit </i>]  Absolutely awesome paper: "Dedup Est Machina: Memory Deduplication as an Advanced Exploitation Vector"
+<a href="http://www.ieee-security.org/TC/SP2016/papers/0824a987.pdf" rel="nofollow">http://www.ieee-security.org/TC/SP2016/papers/0824a987.pdf</a></p>
+<div class="translated" id="168149">
+<p>﻿"Pwnie 大奖的评选结果出来了：   <a href="http://pwnies.com/winners/%C2%A0" rel="nofollow">http://pwnies.com/winners/ </a> 内存去重攻击获得最具创新奖项：   <a href="https://t.co/otYcYrriJT%C2%A0" rel="nofollow">https://t.co/otYcYrriJT </a> 内存去重本来是用于在多虚拟机环境降低内存消耗，但黑客也可以将它作为一个高级攻击向量，利用它实现逐字节的信息泄漏"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Hardware </i>]  #BHUSA2016 – Researcher explained how to hack any PC with a found USB drive <a href="http://securityaffairs.co/wordpress/49999/hacking/found-usb-drive-hack.html" rel="nofollow">http://securityaffairs.co/wordpress/49999/hacking/found-usb-drive-hack.html</a></p>
+<div class="translated" id="168409">
+<p>﻿" 用捡到的 U 盘黑掉任何 PC 机，来自 SecurityAffairs 的报道：   <a href="https://t.co/X5CH0C3kZ4%C2%A0" rel="nofollow">https://t.co/X5CH0C3kZ4 </a> 作者在 BlackHat 会议的演讲 PPT：   <a href="https://www.blackhat.com/docs/us-16/materials/us-16-Bursztein-Does-Dropping-USB-Drives-In-Parking-Lots-And-Other-Places-Really-Work.pdf" rel="nofollow">https://www.blackhat.com/docs/us-16/materials/us-16-Bursztein-Does-Dropping-USB-Drives-In-Parking-Lots-And-Other-Places-Really-Work.pdf</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Callum Jones @icj_ </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  #iOS 9.3.4 (13G35) has been released for 43 devices - <a href="https://ipsw.me/9.3.4" rel="nofollow">https://ipsw.me/9.3.4</a></p>
+<div class="translated" id="168501">
+<p>﻿" iOS 发布 9.3.4 更新，更新包的下载：   <a href="https://t.co/4gE3LE60WL%C2%A0" rel="nofollow">https://t.co/4gE3LE60WL </a> 官方的安全公告：   <a href="https://support.apple.com/zh-cn/HT207026" rel="nofollow">https://support.apple.com/zh-cn/HT207026</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  NELocker - A Javascript Ransomware Boilerplate <a href="https://blogs.forcepoint.com/security-labs/nelocker-javascript-ransomware-boilerplate" rel="nofollow">https://blogs.forcepoint.com/security-labs/nelocker-javascript-ransomware-boilerplate</a></p>
+<div class="translated" id="168244">
+<p>﻿" ForcePoint 对 Javascript 勒索软件 NELocker 的分析：   <a href="https://t.co/R8hZjqBvw3" rel="nofollow">https://t.co/R8hZjqBvw3</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  A look into Neutrino EK’s jQueryGate <a href="https://blog.malwarebytes.com/threat-analysis/exploits-threat-analysis/2016/08/a-look-into-neutrinos-jquerygate/" rel="nofollow">https://blog.malwarebytes.com/threat-analysis/exploits-threat-analysis/2016/08/a-look-into-neutrinos-jquerygate/</a></p>
+<div class="translated" id="167897">
+<p>﻿" Neutrino EK 的 jQueryGate '网关'分析：   <a href="https://t.co/CDmxyvJwSM" rel="nofollow">https://t.co/CDmxyvJwSM</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Hossein Lotfi @hosselot </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mitigation </i>]  USING EMET TO DISABLE EMET:
+<a href="https://www.blackhat.com/docs/us-16/materials/us-16-Alsaheel-Using-EMET-To-Disable-EMET.pdf" rel="nofollow">https://www.blackhat.com/docs/us-16/materials/us-16-Alsaheel-Using-EMET-To-Disable-EMET.pdf</a></p>
+<div class="translated" id="168214">
+<p>﻿" Using EMET to Disable EMET，来自 FireEye 研究员在 BlackHat 会议的演讲:   <a href="https://t.co/AXDld68Hwb" rel="nofollow">https://t.co/AXDld68Hwb</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>NCC Group @NCCGroupInfosec</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Network </i>]  NCC Group Tool: TCP tunneling over HTTP for web application servers - <a href="https://github.com/nccgroup/ABPTTS" rel="nofollow">https://github.com/nccgroup/ABPTTS</a> from #BlackHat2016 by @ 0x00C651E0</p>
+<div class="translated" id="168235">
+<p>﻿"ABPTTS - 基于 HTTP/HTTPS 的 TCP 隧道传输工具，NCC Group 开源的：   <a href="https://t.co/GBUrNoyrAq" rel="nofollow">https://t.co/GBUrNoyrAq</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Marco Grassi @marcograss </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> OpenSourceProject </i>]  [CVE-2016-6583] libtidy global buffer overflow - <a href="https://marcograss.github.io/bug/2016/08/03/libtidy-global-bof.html" rel="nofollow">https://marcograss.github.io/bug/2016/08/03/libtidy-global-bof.html</a></p>
+<div class="translated" id="168095">
+<p>﻿" HTML 解析库 libtidy 全局变量缓冲区溢出漏洞（CVE-2016-6583），来自 Marcograss Blog：   <a href="https://t.co/ZHcK69CD7G" rel="nofollow">https://t.co/ZHcK69CD7G</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  kmkz @kmkz_security </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  XML Schema, DTD, and Entity Attacks paper
+<a href="http://www.vsecurity.com/download/papers/XMLDTDEntityAttacks.pdf" rel="nofollow">http://www.vsecurity.com/download/papers/XMLDTDEntityAttacks.pdf</a></p>
+<div class="translated" id="168208">
+<p>﻿"XML、DTD 以及实体注入攻击 Paper：   <a href="https://t.co/UbvZqOTdPy" rel="nofollow">https://t.co/UbvZqOTdPy</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Matthias Kaiser @matthias_kaiser</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Here are the slides to our @ codewhitesec BH talk "Pwning Your Java Messaging With Deserialization Vulnerabilities": <a href="https://www.blackhat.com/docs/us-16/materials/us-16-Kaiser-Pwning-Your-Java-Messaging-With-Deserialization-Vulnerabilities.pdf" rel="nofollow">https://www.blackhat.com/docs/us-16/materials/us-16-Kaiser-Pwning-Your-Java-Messaging-With-Deserialization-Vulnerabilities.pdf</a></p>
+<div class="translated" id="168210">
+<p>﻿" 利用反序列化漏洞攻破 JMS（Java 消息服务），来自 BlackHat 会议:   <a href="https://t.co/Ug4s1AoOOM%C2%A0" rel="nofollow">https://t.co/Ug4s1AoOOM </a> 作者还公开了一个攻击工具：   <a href="https://github.com/matthiaskaiser/jmet" rel="nofollow">https://github.com/matthiaskaiser/jmet</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Iván @aszy</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  A Verified CompCert Front-End for a Memory Model supporting Pointer Arithmetic and Uninitialised Data <a href="http://www.irisa.fr/celtique/wilke/jar-16.pdf" rel="nofollow">http://www.irisa.fr/celtique/wilke/jar-16.pdf</a></p>
+<div class="translated" id="168018">
+<p>﻿" 这篇 Paper 提出了一个 CompCert C 编译器内存模型，其支持指针运算和未初始化数据的访问检查：   <a href="https://t.co/sVudXp1FUK" rel="nofollow">https://t.co/sVudXp1FUK</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Alvaro Muñoz @pwntester </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Paper and slides for our #blackhat talk today introducing “LDAP Entry Poisoning” and “JNDI Injection”, enjoy! <a href="https://www.blackhat.com/us-16/briefings.html#a-journey-from-jndi-ldap-manipulation-to-remote-code-execution-dream-land" rel="nofollow">https://www.blackhat.com/us-16/briefings.html#a-journey-from-jndi-ldap-manipulation-to-remote-code-execution-dream-land</a></p>
+<div class="translated" id="167893">
+<p>﻿" 通过 JNDI 引用注入攻击实现服务端远程代码执行，作者在 BlackHat 会议的演讲 PPT：   <a href="https://www.blackhat.com/docs/us-16/materials/us-16-Munoz-A-Journey-From-JNDI-LDAP-Manipulation-To-RCE.pdf%C2%A0" rel="nofollow">https://www.blackhat.com/docs/us-16/materials/us-16-Munoz-A-Journey-From-JNDI-LDAP-Manipulation-To-RCE.pdf </a> Paper：   <a href="https://www.blackhat.com/docs/us-16/materials/us-16-Munoz-A-Journey-From-JNDI-LDAP-Manipulation-To-RCE-wp.pdf" rel="nofollow">https://www.blackhat.com/docs/us-16/materials/us-16-Munoz-A-Journey-From-JNDI-LDAP-Manipulation-To-RCE-wp.pdf</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  stefan ortloff @googijh </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Researchers bypass chip and PIN protections at #BH2016 <a href="https://threatpost.com/researchers-bypass-chip-and-pin-protections-at-black-hat/119637/" rel="nofollow">https://threatpost.com/researchers-bypass-chip-and-pin-protections-at-black-hat/119637/</a></p>
+<div class="translated" id="168150">
+<p>﻿" 绕过支付卡的 Chip-and-Pin 保护，来自 ThreatPost 的报道：   <a href="https://t.co/magITyrgN1%C2%A0" rel="nofollow">https://t.co/magITyrgN1 </a> 作者在 BlackHat 会议的演讲 PPT：   <a href="https://www.blackhat.com/docs/us-16/materials/us-16-Valtman-Breaking-Payment-Points-of-Interaction.pdf" rel="nofollow">https://www.blackhat.com/docs/us-16/materials/us-16-Valtman-Breaking-Payment-Points-of-Interaction.pdf</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Oracle EBusiness Suite ‘Massive’ Attack Surface Assessed <a href="https://threatpost.com/oracle-ebusiness-suite-massive-attack-surface-assessed/119638/" rel="nofollow">https://threatpost.com/oracle-ebusiness-suite-massive-attack-surface-assessed/119638/</a></p>
+<div class="translated" id="167898">
+<p>﻿"攻击 Oracle EBusiness 套件，来自 ThreatPost 的报道：    <a href="https://t.co/oY9btXeHlt%C2%A0" rel="nofollow">https://t.co/oY9btXeHlt </a> 作者在 BlackHat 会议的演讲 PPT：   <a href="https://www.blackhat.com/docs/us-16/materials/us-16-Litchfield-Hackproofing-Oracle-eBusiness-Suite.pdf" rel="nofollow">https://www.blackhat.com/docs/us-16/materials/us-16-Litchfield-Hackproofing-Oracle-eBusiness-Suite.pdf</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  Vulnerability Spotlight: Multiple Arbitrary Code Execution Vulnerabilities Identified in Hancom Hangul Office <a href="http://blog.talosintel.com/2016/08/hancom-office-vulnerabilities.html" rel="nofollow">http://blog.talosintel.com/2016/08/hancom-office-vulnerabilities.html</a></p>
+<div class="translated" id="168410">
+<p>﻿" 韩国 Hancom Hangul Office 套件的多个漏洞，来自 Talos Blog：   <a href="https://t.co/otxwSgHJNs" rel="nofollow">https://t.co/otxwSgHJNs</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Protocol </i>]  Severe vulnerabilities discovered in HTTP/2 protocol <a href="http://www.zdnet.com/article/severe-vulnerabilities-discovered-in-http2-protocol/#ftag=RSSbaffb68" rel="nofollow">http://www.zdnet.com/article/severe-vulnerabilities-discovered-in-http2-protocol/#ftag=RSSbaffb68</a></p>
+<div class="translated" id="168243">
+<p>﻿" 研究员在 HTTP/2 协议中发现了 4 个严重漏洞，来自 ZDNet 的报道：   <a href="https://t.co/ABhv7wIUAy%C2%A0" rel="nofollow">https://t.co/ABhv7wIUAy </a> Paper：   <a href="http://www.imperva.com/docs/Imperva_HII_HTTP2.pdf" rel="nofollow">http://www.imperva.com/docs/Imperva_HII_HTTP2.pdf</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>TrendLabs @TrendLabs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Protocol </i>]  New post: BlackHat2016: badWPAD – The Doubtful Legacy of the WPAD Protocol <a href="http://bit.ly/2aYnaTu" rel="nofollow">http://bit.ly/2aYnaTu</a> @ TrendMicro</p>
+<div class="translated" id="168383">
+<p>﻿" badWPAD — 令人生疑的古老 WPAD 协议，来自趋势科技 Blog：   <a href="https://t.co/i7P0GNMUnU" rel="nofollow">https://t.co/i7P0GNMUnU</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Chris Gerritz @gerritzc </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> SecurityProduct </i>]  Posted slides from @ BSidesLV 2016 - Powershell-fu: Hunting on the Endpoint by @ gerritzc #bsides #cybersecurity <a href="http://www.slideshare.net/ChristopherGerritz/bsideslv-2016-powershell-hunting-on-the-endpoint-gerritz" rel="nofollow">http://www.slideshare.net/ChristopherGerritz/bsideslv-2016-powershell-hunting-on-the-endpoint-gerritz</a></p>
+<div class="translated" id="168294">
+<p>﻿" 基于 PowerShell 的终端防护解决方案，来自 BSidesLV 2016 会议：   <a href="https://t.co/pD3yFR5A8Y" rel="nofollow">https://t.co/pD3yFR5A8Y</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>PhysicalDrive0 @PhysicalDrive0</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> SecurityProduct </i>]  Captain Hook: Pirating AVS to Bypass Exploit Mitigations [PDF] <a href="https://www.blackhat.com/docs/us-16/materials/us-16-Yavo-Captain-Hook-Pirating-AVs-To-Bypass-Exploit-Mitigations.pdf" rel="nofollow">https://www.blackhat.com/docs/us-16/materials/us-16-Yavo-Captain-Hook-Pirating-AVs-To-Bypass-Exploit-Mitigations.pdf</a> #BHUSA2016</p>
+<div class="translated" id="168373">
+<p>﻿" 利用反病毒软件 Hook 引擎中的漏洞 Bypass Exploit Mitigations，来自 BlackHat 会议：   <a href="https://t.co/zwdvLx76Fj" rel="nofollow">https://t.co/zwdvLx76Fj</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>NCC Group @NCCGroupInfosec</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  NCC Group Tools: BLESuite - <a href="https://github.com/nccgroup/BLESuite" rel="nofollow">https://github.com/nccgroup/BLESuite</a> / <a href="https://github.com/nccgroup/BLESuite-CLI" rel="nofollow">https://github.com/nccgroup/BLESuite-CLI</a> / <a href="https://github.com/nccgroup/BLE-Replay" rel="nofollow">https://github.com/nccgroup/BLE-Replay</a> by  @   TTrabun &amp; @   Greg_NCC_Group</p>
+<div class="translated" id="167939">
+<p>﻿"BLESuite - 专门用于测试蓝牙低功耗设备的工具，NCC Group 团队开源的：   <a href="https://t.co/JXXAaAE9tT%C2%A0" rel="nofollow">https://t.co/JXXAaAE9tT </a> <a href="https://t.co/vOnL89yOP9%C2%A0" rel="nofollow">https://t.co/vOnL89yOP9 </a> <a href="https://t.co/Pzlm3XMmwS%C2%A0%C2%A0" rel="nofollow">https://t.co/Pzlm3XMmwS  </a> BlackHat 会议上刚好也有一个关于 BLE 的工具 - BLE Proxy， PPT：   <a href="https://www.blackhat.com/docs/us-16/materials/us-16-Jasek-GATTacking-Bluetooth-Smart-Devices-Introducing-a-New-BLE-Proxy-Tool.pdf%C2%A0" rel="nofollow">https://www.blackhat.com/docs/us-16/materials/us-16-Jasek-GATTacking-Bluetooth-Smart-Devices-Introducing-a-New-BLE-Proxy-Tool.pdf </a> Paper：   <a href="https://www.blackhat.com/docs/us-16/materials/us-16-Jasek-GATTacking-Bluetooth-Smart-Devices-Introducing-a-New-BLE-Proxy-Tool-wp.pdf" rel="nofollow">https://www.blackhat.com/docs/us-16/materials/us-16-Jasek-GATTacking-Bluetooth-Smart-Devices-Introducing-a-New-BLE-Proxy-Tool-wp.pdf</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Kinoma @Kinoma </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  @  badd1e Check out the IDE Kinoma Code <a href="http://kinoma.com/develop/code/" rel="nofollow">http://kinoma.com/develop/code/</a>, and the KinomaJS open source software tree at <a href="https://github.com/Kinoma/kinomajs" rel="nofollow">https://github.com/Kinoma/kinomajs</a>.</p>
+<div class="translated" id="168475">
+<p>﻿" Kinoma Code - 一种全新的 IoT IDE 编程开发环境：   <a href="https://t.co/HdyBNeUOoN%C2%A0" rel="nofollow">https://t.co/HdyBNeUOoN </a> 其中 KinomaJS 还开源了：    <a href="https://t.co/6R014xU6nE" rel="nofollow">https://t.co/6R014xU6nE</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>PythonArsenal @PythonArsenal</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Keypatch is a IDA Pro plugin for Keystone Assembler Engine. <a href="http://www.keystone-engine.org/keypatch/" rel="nofollow">http://www.keystone-engine.org/keypatch/</a></p>
+<div class="translated" id="168225">
+<p>﻿"Keypatch 工具发布了，是个基于 Keystone 的 IDA Pro 汇编引擎插件：   <a href="https://t.co/JiAFGBDjtN" rel="nofollow">https://t.co/JiAFGBDjtN</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  quarkslab @quarkslab </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Virtualization </i>]  [BLOG] Xen exploitation part 3: XSA-182, Qubes escape: <a href="http://blog.quarkslab.com/xen-exploitation-part-3-xsa-182-qubes-escape.html" rel="nofollow">http://blog.quarkslab.com/xen-exploitation-part-3-xsa-182-qubes-escape.html</a>  Final notes on finding Xen vm escape and exploitation</p>
+<div class="translated" id="168229">
+<p>﻿" Xen 漏洞利用之 XSA-182 Qubes 操作系统的逃逸，来自 QuarksLab Blog︰   <a href="https://t.co/Ki7xXS7ROE" rel="nofollow">https://t.co/Ki7xXS7ROE</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>jsoo @_jsoo_</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Virtualization </i>]  Xenpwn Breaking Paravirtualized Devices - <a href="https://www.blackhat.com/docs/us-16/materials/us-16-Wilhelm-Xenpwn-Breaking-Paravirtualized-Devices.pdf" rel="nofollow">https://www.blackhat.com/docs/us-16/materials/us-16-Wilhelm-Xenpwn-Breaking-Paravirtualized-Devices.pdf</a>
+<a href="https://www.blackhat.com/docs/us-16/materials/us-16-Wilhelm-Xenpwn-Breaking-Paravirtualized-Devices-wp.pdf" rel="nofollow">https://www.blackhat.com/docs/us-16/materials/us-16-Wilhelm-Xenpwn-Breaking-Paravirtualized-Devices-wp.pdf</a> by @  _fel1x</p>
+<div class="translated" id="168110">
+<p>﻿" 利用 Xenpwn 工具攻破半虚拟化的设备，作者在 BlackHat 会议演讲的 PPT：   <a href="https://t.co/btdB6yYL9I%C2%A0%C2%A0" rel="nofollow">https://t.co/btdB6yYL9I  </a> Paper：   <a href="https://t.co/DbX39AjAZs%C2%A0" rel="nofollow">https://t.co/DbX39AjAZs </a> Xenpwn 项目地址：   <a href="https://github.com/felixwilhelm/xenpwn" rel="nofollow">https://github.com/felixwilhelm/xenpwn</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Web Security </i>]  XML External Entity Injection Opens Door to Attacks, Theft <a href="https://blogs.mcafee.com/mcafee-labs/xml-external-entity-injection-opens-door-attacks-theft/" rel="nofollow">https://blogs.mcafee.com/mcafee-labs/xml-external-entity-injection-opens-door-attacks-theft/</a></p>
+<div class="translated" id="167896">
+<p>﻿"最近 McAfee 监控到了几起 XML 外部实体注入攻击：   <a href="https://t.co/5xd4blusxe" rel="nofollow">https://t.co/5xd4blusxe</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>jsoo @_jsoo_</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Into The Core In-Depth Exploration Of Windows 10 IoT Core - <a href="https://www.blackhat.com/docs/us-16/materials/us-16-Sabanal-Into-The-Core-In-Depth-Exploration-Of-Windows-10-IoT-Core-wp.pdf" rel="nofollow">https://www.blackhat.com/docs/us-16/materials/us-16-Sabanal-Into-The-Core-In-Depth-Exploration-Of-Windows-10-IoT-Core-wp.pdf</a>
+<a href="https://www.blackhat.com/docs/us-16/materials/us-16-Sabanal-Into-The-Core-In-Depth-Exploration-Of-Windows-10-IoT-Core.pdf" rel="nofollow">https://www.blackhat.com/docs/us-16/materials/us-16-Sabanal-Into-The-Core-In-Depth-Exploration-Of-Windows-10-IoT-Core.pdf</a> by @  polsab</p>
+<div class="translated" id="168106">
+<p>﻿" Windows 10 IoT 内核的深度剖析，作者在 BlackHat 会议演讲的 Paper：   <a href="https://t.co/p6eH1xQKGx%C2%A0%C2%A0" rel="nofollow">https://t.co/p6eH1xQKGx  </a> PPT：   <a href="https://t.co/RRAxhJRHgL" rel="nofollow">https://t.co/RRAxhJRHgL</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/08/04/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/08/05/index.html">2016/08/05</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/08/06/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

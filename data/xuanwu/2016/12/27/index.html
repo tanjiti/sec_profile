@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/12/27" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/12/27</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/12/26/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/12/27/index.html">2016/12/27</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/12/28/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>John Lambert @JohnLaTwC</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  If you manage Internet facing Windows boxes, here are 7 pages of post-compromise actions by RDP brute forcers: <a href="https://twitter.com/JohnLaTwC/status/778011783466319872" rel="nofollow">https://twitter.com/JohnLaTwC/status/778011783466319872</a> #DFIR</p>
+<div class="translated" id="222140">
+<p>﻿"John Lambert 在 Azure 云上抓到的一段攻击代码︰   <a href="https://onedrive.live.com/view.aspx?resid=F32A9F4F1477E49%21109&amp;ithint=file%2Cdocx&amp;app=Word&amp;authkey=%21ANzQTrmsTXSK9FM" rel="nofollow">https://onedrive.live.com/view.aspx?resid=F32A9F4F1477E49!109&amp;ithint=file%2cdocx&amp;app=Word&amp;authkey=!ANzQTrmsTXSK9FM</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  _kana @_kana </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Conference </i>]  CB16 slides are released! Cb16資料公開！ <a href="https://twitter.com/codeblue_jp/status/813302478322200576" rel="nofollow">https://twitter.com/codeblue_jp/status/813302478322200576</a></p>
+<div class="translated" id="222017">
+<p>﻿"CODE BLUE 2016 大会 ppt 放出：   <a href="https://t.co/puSgzqjJTB" rel="nofollow">https://t.co/puSgzqjJTB</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Max Bazaliy @mbazaliy </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  Pegasus Exploits report updated - <a href="https://info.lookout.com/rs/051-ESQ-475/images/pegasus-exploits-technical-details.pdf" rel="nofollow">https://info.lookout.com/rs/051-ESQ-475/images/pegasus-exploits-technical-details.pdf</a></p>
+<div class="translated" id="222009">
+<p>﻿"Lookout 更新了 iOS Pegasus 的漏洞利用分析报告：   <a href="https://t.co/ahg3sMZgNt" rel="nofollow">https://t.co/ahg3sMZgNt</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Meysam Firouzi @R00tkitSMM</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  iOS kernel heap review
+<a href="https://razygon.github.io/2016/09/23/iOS-kernel-heap-review-5-10/" rel="nofollow">https://razygon.github.io/2016/09/23/iOS-kernel-heap-review-5-10/</a></p>
+<div class="translated" id="222080">
+<p>﻿"重温 iOS 内核堆：   <a href="https://t.co/o0CoyexvfL" rel="nofollow">https://t.co/o0CoyexvfL</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Hacker News 20 @newsyc20 </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  Alpine Linux 3.5.0 released <a href="https://alpinelinux.org/posts/Alpine-3.5.0-released.html" rel="nofollow">https://alpinelinux.org/posts/Alpine-3.5.0-released.html</a> (<a href="http://bit.ly/2ixgbTa" rel="nofollow">http://bit.ly/2ixgbTa</a>)</p>
+<div class="translated" id="222145">
+<p>﻿"Alpine Linux 3.5.0 发布：   <a href="https://t.co/691vk1d3He" rel="nofollow">https://t.co/691vk1d3He</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  Creating an ELF Virus using Assembly : <a href="https://cranklin.wordpress.com/2016/12/26/how-to-create-a-virus-using-the-assembly-language/" rel="nofollow">https://cranklin.wordpress.com/2016/12/26/how-to-create-a-virus-using-the-assembly-language/</a> , Demo : <a href="https://www.youtube.com/watch?v=x5IHfDHhXOs" rel="nofollow">https://www.youtube.com/watch?v=x5IHfDHhXOs</a></p>
+<div class="translated" id="222070">
+<p>﻿"使用汇编语言来创建一个 ELF 病毒︰   <a href="https://t.co/DkVIaLM1jc%EF%BC%8CDemo%EF%B8%B0" rel="nofollow">https://t.co/DkVIaLM1jc，Demo︰</a> <a href="https://t.co/48Ijfmfwb1" rel="nofollow">https://t.co/48Ijfmfwb1</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Pentest </i>]  Pentesting Windows environments : Remote delivery of PowerShell payloads : <a href="https://akondrat.blogspot.in/2016/12/pentesting-windows-environments-remote.html" rel="nofollow">https://akondrat.blogspot.in/2016/12/pentesting-windows-environments-remote.html</a> <a href="https://t.co/lVBiqpm3Mi" rel="nofollow">https://t.co/lVBiqpm3Mi</a></p>
+<div class="translated" id="222040">
+<p>﻿"利用 PowerShell 对 Windows 环境进行远程渗透测试︰   <a href="https://t.co/tGFjxcl0D7" rel="nofollow">https://t.co/tGFjxcl0D7</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C0mPYRgVEAABK-x.jpg" target="_blank">
+<img src="C0mPYRgVEAABK-x.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Tiek Nimmers @tieknimmers </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Pentest </i>]  Controlling PC on ARM using Fault Injection @  #fdtc2016 <a href="https://goo.gl/zrxALi" rel="nofollow">https://goo.gl/zrxALi</a></p>
+<div class="translated" id="222103">
+<p>﻿"利用错误注入（Fault Injection）控制 PC（Paper）：   <a href="https://t.co/Xmk0z8qPnR" rel="nofollow">https://t.co/Xmk0z8qPnR</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> ReverseEngineering </i>]  ARM Reverse Engineering Exercises : <a href="https://github.com/rotlogix/arm_reverse_engineering_exercises/blob/master/README.md" rel="nofollow">https://github.com/rotlogix/arm_reverse_engineering_exercises/blob/master/README.md</a>    cc @ rotlogix</p>
+<div class="translated" id="222043">
+<p>﻿"ARM 逆向工程训练实例︰   <a href="https://t.co/Cb3wgXQZng" rel="nofollow">https://t.co/Cb3wgXQZng</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  ksm : A really simple and lightweight x64 hypervisor written in C : <a href="https://github.com/asamy/ksm" rel="nofollow">https://github.com/asamy/ksm</a> ,Details : <a href="https://asamy.github.io/ksm/" rel="nofollow">https://asamy.github.io/ksm/</a></p>
+<div class="translated" id="222041">
+<p>﻿"ksm -- 一个轻量级的 x64 虚拟机管理程序︰   <a href="https://t.co/8UWEdTrnjt%EF%BC%8C" rel="nofollow">https://t.co/8UWEdTrnjt，</a> 详细介绍︰   <a href="https://t.co/aXzVE890z7" rel="nofollow">https://t.co/aXzVE890z7</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>PythonArsenal @PythonArsenal</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  FRAPL - framework created to simplify dynamic instrumentation with Frida. Based on IDAPython, Frida <a href="https://github.com/FriedAppleTeam/FRAPL" rel="nofollow">https://github.com/FriedAppleTeam/FRAPL</a></p>
+<div class="translated" id="222170">
+<p>﻿"FRAPL -- 一个为 IDA 和 Frida 搭起'友谊'之桥梁的逆向工具：   <a href="https://t.co/DI9V9ZDXjo" rel="nofollow">https://t.co/DI9V9ZDXjo</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Pwn Scriptum @PwnScriptum </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  [CVE-2016-10033] PHPMailer - critical #0day #RCE (discovered by  @ dawid_golunski). Patch &amp; spread… <a href="https://t.co/9gH0srpLDL" rel="nofollow">https://t.co/9gH0srpLDL</a></p>
+<div class="translated" id="222059">
+<p>﻿"PHPMailer 被发现存在远程代码执行漏洞（CVE-2016-10033）：   <a href="https://t.co/9gH0srpLDL" rel="nofollow">https://t.co/9gH0srpLDL</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Odzhan @odzhancode </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Windows Shellcode: A PIC using 2048-bit key exchange, AES-256, SHA-3
+<a href="https://modexp.wordpress.com/2016/12/26/windows-pic/" rel="nofollow">https://modexp.wordpress.com/2016/12/26/windows-pic/</a> #infosec #security #crypto #shellcode</p>
+<div class="translated" id="222066">
+<p>﻿"用 C 语言来写 Shellcode：   <a href="https://t.co/lRJGaY16ox" rel="nofollow">https://t.co/lRJGaY16ox</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>雪碧0xroot @cn0Xroot</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> WirelessSecurity </i>]  SDR calibration via GSM FCCH using Kalibrate and LTE-Cell-Scanner on RTL-SDR and HackRF #SDR #HackRF #BladeRF <a href="https://medium.com/@" rel="nofollow">https://medium.com/@</a> rxseger/sdr-calibration-via-gsm-fcch-using-kalibrate-and-lte-cell-scanner-on-rtl-sdr-and-hackrf-193a7fb8a3eb#.ycc5td48q</p>
+<div class="translated" id="222058">
+<p>﻿"SDR calibration via GSM FCCH using Kalibrate and LTE-Cell-Scanner on RTL-SDR and HackRF：   <a href="https://t.co/Vtn9NIw895" rel="nofollow">https://t.co/Vtn9NIw895</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>雪碧0xroot @cn0Xroot</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> WirelessSecurity </i>]  Recording processing and playback of LTE signals
+using USRP devices.  [PDF] #SDR #USRP <a href="http://web.eng.fiu.edu/~iguvenc/projects/LTE_Signal_Record_and_Playback%20(Nadisanka).pdf" rel="nofollow">http://web.eng.fiu.edu/~iguvenc/projects/LTE_Signal_Record_and_Playback%20(Nadisanka).pdf</a> <a href="https://t.co/ZqqXhM4JdA" rel="nofollow">https://t.co/ZqqXhM4JdA</a></p>
+<div class="translated" id="222061">
+<p>﻿" 使用 USRP 设备来对 LTE 信号进行记录、处理和回放（PDF）：   <a href="https://t.co/rJxbQc6r0i" rel="nofollow">https://t.co/rJxbQc6r0i</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C0mp1GWUcAA70Ph.jpg" target="_blank">
+<img src="C0mp1GWUcAA70Ph.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/12/26/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/12/27/index.html">2016/12/27</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/12/28/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

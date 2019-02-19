@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/05/06" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/05/06</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+    color: #a7a7a7;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+
+
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 15px;
+    /*color: #a7a7a7;*/
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedheader{
+
+}
+
+.singlefeedlogo{
+    float: left;
+    /*width: 24px;*/
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.singlefeedlogo img{
+    float: left;
+    width: 13px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+
+    /*width: 80%;
+    height: 80%;*/
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.singlefeedtext p{
+    font-size: 15px;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        //console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        //console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            //console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/05/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/06/index.html">2017/05/06</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/07/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> IoTDevice </i>]  CAN bus reverse-engineering with Arduino and iOS <a href="https://medium.com/@" rel="nofollow">https://medium.com/@</a> alexandreblin/can-bus-reverse-engineering-with-arduino-and-ios-5627f2b1709a</p>
+<div class="translated" id="274802">
+<p>" 基于 iOS 和 Arduino 的 CAN Bus 逆向实战：   <a href="https://medium.com/@alexandreblin/can-bus-reverse-engineering-with-arduino-and-ios-5627f2b1709a" rel="nofollow">https://medium.com/@alexandreblin/can-bus-reverse-engineering-with-arduino-and-ios-5627f2b1709a</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Matthew Risck @Mateusz_Jozef </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  A Meterpreter and Windows proxy case <a href="https://medium.com/@" rel="nofollow">https://medium.com/@</a> br4nsh/a-meterpreter-and-windows-proxy-case-4af2b866f4a1</p>
+<div class="translated" id="274712">
+<p>" A Meterpreter and Windows proxy case：    <a href="https://medium.com/@br4nsh/a-meterpreter-and-windows-proxy-case-4af2b866f4a1" rel="nofollow">https://medium.com/@br4nsh/a-meterpreter-and-windows-proxy-case-4af2b866f4a1</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  cobbr @cobbr_io </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Slides from my "Obfuscating The Empire" presentation @ BSidesAustin yesterday: <a href="https://www.slideshare.net/RyanCobb16/obfuscating-the-empire" rel="nofollow">https://www.slideshare.net/RyanCobb16/obfuscating-the-empire</a></p>
+<div class="translated" id="274885">
+<p>"  混淆 PowerEmpire 以绕过 AMSI 查杀：   <a href="https://www.slideshare.net/RyanCobb16/obfuscating-the-empire" rel="nofollow">https://www.slideshare.net/RyanCobb16/obfuscating-the-empire</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Dᴀᴠɪᴅ Sᴏᴘᴀs @dsopas </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Programming </i>]  Go Secure Coding Practices guide v1.1.0 is out - <a href="https://github.com/Checkmarx/Go-SCP" rel="nofollow">https://github.com/Checkmarx/Go-SCP</a> #golang #owasp</p>
+<div class="translated" id="274771">
+<p>" Go-SCP - Go语言安全编码实践指南：   <a href="https://github.com/Checkmarx/Go-SCP" rel="nofollow">https://github.com/Checkmarx/Go-SCP</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Context @CTXIS </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> SecurityProduct </i>]  Exploiting Vulnerable Pandas: <a href="https://www.contextis.com/resources/blog/exploiting-vulnerable-pandas/" rel="nofollow">https://www.contextis.com/resources/blog/exploiting-vulnerable-pandas/</a> #Security #Infosec #Cybersecurity #Antivirus #vulnerability… <a href="https://t.co/nK5E12xZXj" rel="nofollow">https://t.co/nK5E12xZXj</a></p>
+<div class="translated" id="274838">
+<p>" 
+Android 版 Pandas 反病毒软件的软件更新过程存在漏洞（使用 HTTP 下载，下载文件校验不完善）：   <a href="https://www.contextis.com/resources/blog/exploiting-vulnerable-pandas/" rel="nofollow">https://www.contextis.com/resources/blog/exploiting-vulnerable-pandas/</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Build yourself a Linux : <a href="https://github.com/MichielDerhaeg/build-linux" rel="nofollow">https://github.com/MichielDerhaeg/build-linux</a></p>
+<div class="translated" id="274965">
+<p>" build-linux - 自己手动搭建小型 Linux 系统的教程 ：   <a href="https://github.com/MichielDerhaeg/build-linux" rel="nofollow">https://github.com/MichielDerhaeg/build-linux</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Bart @bartblaze </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Made a small tool to disable Intel AMT on Windows. Runs on both x86 and x64 Windows operating systems:
+<a href="https://t.co/0QYYHtnDUr" rel="nofollow">https://t.co/0QYYHtnDUr</a></p>
+<div class="translated" id="274737">
+<p>" Disable-Intel-AMT - 一个禁用 Intel AMT 的工具：   <a href="https://github.com/bartblaze/Disable-Intel-AMT" rel="nofollow">https://github.com/bartblaze/Disable-Intel-AMT</a>  "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Florian Roth @cyb3rops </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  certitude
+Python-based tool which aims at assessing the compromised perimeter during IR assignments
+<a href="https://github.com/CERT-W/certitude" rel="nofollow">https://github.com/CERT-W/certitude</a></p>
+<div class="translated" id="274942">
+<p>" 
+CERTitude - 应急响应处理时用于判断机器是否已经被攻破的工具：   <a href="https://github.com/CERT-W/certitude" rel="nofollow">https://github.com/CERT-W/certitude</a> 
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  TLS verification vulnerability in LibreSSL 2.5.1-2.5.3 :  <a href="http://seclists.org/oss-sec/2017/q2/145" rel="nofollow">http://seclists.org/oss-sec/2017/q2/145</a></p>
+<div class="translated" id="274960">
+<p>" LibreSSL v2.5.1 - v2.5.3 存在 TLS 验证漏洞（CVE-2017-8301）：   <a href="http://seclists.org/oss-sec/2017/q2/145" rel="nofollow">http://seclists.org/oss-sec/2017/q2/145</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  dukeBarman @dukebarman </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  Technical details of CVE-2017-5689 #Intel #AMT <a href="https://twitter.com/_embedi_/status/860541834606632961" rel="nofollow">https://twitter.com/_embedi_/status/860541834606632961</a></p>
+<div class="translated" id="275051">
+<p>" 
+Intel AMT Web 管理接口认证漏洞的分析：   <a href="https://www.embedi.com/files/white-papers/Silent-Bob-is-Silent.pdf%C2%A0%C2%A0" rel="nofollow">https://www.embedi.com/files/white-papers/Silent-Bob-is-Silent.pdf  </a> <a href="http://www.tenable.com/blog/rediscovering-the-intel-amt-vulnerability" rel="nofollow">http://www.tenable.com/blog/rediscovering-the-intel-amt-vulnerability</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/05/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/06/index.html">2017/05/06</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/07/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

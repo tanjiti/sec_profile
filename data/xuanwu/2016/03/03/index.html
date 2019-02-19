@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/03/03" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/03/03</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/03/02/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/03/03/index.html">2016/03/03</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/03/04/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Jóseph Mlodzìanowskì @cedoxX</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  Chinese Threat Intel Start-up Finds DarkHotel Exploiting Chinese Telecom <a href="http://www.darkreading.com/threat-intelligence/chinese-threat-intel-start-up-finds-darkhotel-exploiting-chinese-telecom/d/d-id/1324496" rel="nofollow">http://www.darkreading.com/threat-intelligence/chinese-threat-intel-start-up-finds-darkhotel-exploiting-chinese-telecom/d/d-id/1324496</a> @ sarapeters</p>
+<div class="translated" id="105488">
+<p>﻿"据国内威胁情报公司 ThreatBook(微步在线)透露, DarkHotel 攻击组织正在攻击中国和朝鲜的电信运营商, 而且至少已经攻陷了一个:   <a href="https://t.co/eMnv0GwVe3" rel="nofollow">https://t.co/eMnv0GwVe3</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>TrendLabs @TrendLabs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  Take a trip to the various cybercriminal underground economies all over the world: <a href="http://bit.ly/1OLuSKl" rel="nofollow">http://bit.ly/1OLuSKl</a> #DeepWeb</p>
+<div class="translated" id="105528">
+<p>﻿"TrendMicro 的&lt;暗网与网络犯罪调查报告&gt;, 探寻地下网络经济:   <a href="https://t.co/3Vpk3lXPHB" rel="nofollow">https://t.co/3Vpk3lXPHB</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  kurt baumgartner @k_sec </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Backdoor </i>]  The return of HackingTeam with new implants for OS X - Securelist <a href="http://bit.ly/1TnZY2P" rel="nofollow">http://bit.ly/1TnZY2P</a> some detail on the HT OSX implant</p>
+<div class="translated" id="105633">
+<p>﻿"HackingTeam 带着新后门回来了， 来自 Kaspersky 的分析：   <a href="https://t.co/yZLd1YyLeC" rel="nofollow">https://t.co/yZLd1YyLeC</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>securxcess @securxcess</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Defend </i>]  Google's DLP for Gmail Adds Optical Character Recognition | <a href="http://SecurityWeek.Com" rel="nofollow">http://SecurityWeek.Com</a> <a href="http://ow.ly/YXQiB" rel="nofollow">http://ow.ly/YXQiB</a></p>
+<div class="translated" id="105510">
+<p>﻿"Google 为 Gmail DLP 防御加入了光学字符识别特性:   <a href="https://t.co/73Ity5M10n" rel="nofollow">https://t.co/73Ity5M10n</a> <a href="https://t.co/NyMdsTpqyu" rel="nofollow">https://t.co/NyMdsTpqyu</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  fail0verflow @fail0verflow </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  We've released the PS4 kexec-style code to load the Linux kernel from Orbis OS. <a href="https://github.com/fail0verflow/ps4-kexec" rel="nofollow">https://github.com/fail0verflow/ps4-kexec</a> (exploit not included)</p>
+<div class="translated" id="105795">
+<p>﻿"作者实现了一个 PS4 Orbis OS kexec 系统调用,通过这个系统调用可以直接在 FreeBSD 中引导 Linux 内核:    <a href="https://t.co/kEaCRRmNTE" rel="nofollow">https://t.co/kEaCRRmNTE</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  patrick wardle @patrickwardle </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mac OS X </i>]  RSA Slides: "Let’s Play Doctor: Practical OS X Malware Detection &amp; Analysis" [PDF] <a href="https://www.synack.com/wp-content/uploads/2016/03/RSA_OSX_Malware.pdf" rel="nofollow">https://www.synack.com/wp-content/uploads/2016/03/RSA_OSX_Malware.pdf</a> #Synack #RSAC #OSXMalware</p>
+<div class="translated" id="105763">
+<p>﻿" 大家一起当医生 - OS X 恶意软件检测与分析实战， 来自 Synack 在 RSA 会议的演讲（PDF）：    <a href="https://t.co/QiwONyq5Jz" rel="nofollow">https://t.co/QiwONyq5Jz</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  Imminent Monitor 4 RAT Analysis – Further Into The RAT <a href="https://itsjack.cc/blog/2016/03/imminent-monitor-4-rat-analysis-further-into-the-rat/" rel="nofollow">https://itsjack.cc/blog/2016/03/imminent-monitor-4-rat-analysis-further-into-the-rat/</a></p>
+<div class="translated" id="105473">
+<p>﻿"Imminent Monitor 4 远控工具分析， Blog：    <a href="https://t.co/pVsuyTbZvU" rel="nofollow">https://t.co/pVsuyTbZvU</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Bart @bartblaze </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  The Turbo Campaign, Featuring #Derusbi for 64-bit Linux: <a href="https://www.fidelissecurity.com/sites/default/files/TA_Fidelis_Turbo_1602(3).pdf" rel="nofollow">https://www.fidelissecurity.com/sites/default/files/TA_Fidelis_Turbo_1602%283%29.pdf</a> (PDF) H/T @ shu_tom #malware</p>
+<div class="translated" id="105573">
+<p>﻿" 著名远控家族 Derusbi 在 Turbo 攻击行动中首次使用了一个 64 位 Linux 样本， 这个样本有很多特殊性， 来自 Fidelis Security 的分析报告（PDF）:    <a href="https://t.co/nTA1mvxZ2H" rel="nofollow">https://t.co/nTA1mvxZ2H</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>PHR34K @unpacker</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  New Malware ‘Rover’ Targets Indian Ambassador to Afghanistan <a href="http://researchcenter.paloaltonetworks.com/2016/02/new-malware-rover-targets-indian-ambassador-to-afghanistan/" rel="nofollow">http://researchcenter.paloaltonetworks.com/2016/02/new-malware-rover-targets-indian-ambassador-to-afghanistan/</a></p>
+<div class="translated" id="105418">
+<p>﻿"新恶意软件 'Rover' 通过邮件攻击印度驻阿富汗大使， 来自 Palo Alto 的分析：   <a href="https://t.co/UpNEnhXq5u" rel="nofollow">https://t.co/UpNEnhXq5u</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Christian @CheariX </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  We have summarized all DTD/XXE attacks that we know in our "DTD Cheat Sheet"
+<a href="http://web-in-security.blogspot.de/2016/03/xxe-cheat-sheet.html" rel="nofollow">http://web-in-security.blogspot.de/2016/03/xxe-cheat-sheet.html</a>
+Comments and new vectors are welcome!</p>
+<div class="translated" id="105622">
+<p>﻿"作者将所有的 DTD/XXE 攻击总结成了一份手册:   <a href="https://t.co/DIL05MCHGO" rel="nofollow">https://t.co/DIL05MCHGO</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Jóseph Mlodzìanowskì @cedoxX</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Microsoft Launches Windows 10 IoT Core Preview for Raspberry Pi 3 ~ 
+<a href="http://www.newsfactor.com/mobile/?sid=100966&amp;do=story" rel="nofollow">http://www.newsfactor.com/mobile/?sid=100966&amp;do=story</a></p>
+<div class="translated" id="105420">
+<p>﻿"为支持树莓派 3， 微软发布了一个 Windows 10 IoT Code Preview 更新：    <a href="https://t.co/COY6eFCcXk" rel="nofollow">https://t.co/COY6eFCcXk</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  TROOPERS Conference @WEareTROOPERS </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Pentest </i>]  .@ PyroTek3's "Unofficial Guide to Mimikatz &amp; Command Reference" updated
+<a href="https://adsecurity.org/?p=2696" rel="nofollow">https://adsecurity.org/?p=2696</a> <a href="https://t.co/twHUBnAGV2" rel="nofollow">https://t.co/twHUBnAGV2</a></p>
+<div class="translated" id="105809">
+<p>﻿"Mimikatz 非官方参考手册更新,本次更新涵盖了 Mimikatz v2.1 Alpha 版本的新模块和新特性:   <a href="https://t.co/fPwS8X2idV" rel="nofollow">https://t.co/fPwS8X2idV</a> <a href="https://t.co/twHUBnAGV2" rel="nofollow">https://t.co/twHUBnAGV2</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/Cckr3djWAAM2iro.jpg" target="_blank">
+<img src="Cckr3djWAAM2iro.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  NetSPI @NetSPI </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  New blog post from NetSPI: Java Deserialization Attacks with Burp <a href="http://ift.tt/1Si2EgT" rel="nofollow">http://ift.tt/1Si2EgT</a></p>
+<div class="translated" id="105665">
+<p>﻿" 来自 NetSPI 公司的 Eric Gruber 为 Burp 写了一个 Java 序列化攻击扩展， Blog：   <a href="https://t.co/f4yK7sLoXR%C2%A0" rel="nofollow">https://t.co/f4yK7sLoXR </a> Github：   <a href="https://github.com/NetSPI/Burp-Extensions/releases" rel="nofollow">https://github.com/NetSPI/Burp-Extensions/releases</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Coltuneac Alexandru @dekeeu </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Web Security </i>]  Finding a XSS in Microsoft OAuth Interface, a major risk for the security of the users' account  <a href="http://ownsecurity.blogspot.com/2016/03/finding-xss-in-microsoft-oauth.html" rel="nofollow">http://ownsecurity.blogspot.com/2016/03/finding-xss-in-microsoft-oauth.html</a> #infosec #bugbounty</p>
+<div class="translated" id="105595">
+<p>﻿"微软 OAuth 接口 XSS， Blog：   <a href="https://t.co/tc3hBtsrXL" rel="nofollow">https://t.co/tc3hBtsrXL</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Web Security </i>]  Widespread XSS Vulnerabilities in Ad Network Code Affecting Top Tier Publishers, Retailers <a href="http://randywestergren.com/widespread-xss-vulnerabilities-ad-network-code-affecting-top-tier-publishers-retailers/" rel="nofollow">http://randywestergren.com/widespread-xss-vulnerabilities-ad-network-code-affecting-top-tier-publishers-retailers/</a></p>
+<div class="translated" id="105634">
+<p>﻿"嵌入第三方广告代码的同时，也可能嵌入了 XSS - 由于当前广告行业的碎片化比较严重，使广告网络的代码也比较混乱。作者分析几个案例，这几个案例影响一些顶级的出版商、零售商：    <a href="https://t.co/KWnaLVRvGf" rel="nofollow">https://t.co/KWnaLVRvGf</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/03/02/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/03/03/index.html">2016/03/03</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/03/04/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

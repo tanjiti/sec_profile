@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/01/04" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/01/04</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/01/03/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/01/04/index.html">2016/01/04</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/01/05/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>PythonArsenal @PythonArsenal</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  ADVDroid - statically vetting Android apps based soot. Based on Androguard. <a href="https://github.com/Xbalien/ADVDroid" rel="nofollow">https://github.com/Xbalien/ADVDroid</a></p>
+<div class="translated" id="80403">
+<p>﻿"ADVDroid - Android 应用程序静态分析框架，基于 soot 和 Androguard：   <a href="https://t.co/BK8WrUQyFs" rel="nofollow">https://t.co/BK8WrUQyFs</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Anton Cherepanov @cherepanov74 </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  SSHBearDoor is backdoored SSH server used by BlackEnergy group, detected now only by ESET <a href="https://www.virustotal.com/en-gb/file/0969daac4adc84ab7b50d4f9ffb16c4e1a07c6dbfc968bd6649497c794a161cd/analysis/1451806935/" rel="nofollow">https://www.virustotal.com/en-gb/file/0969daac4adc84ab7b50d4f9ffb16c4e1a07c6dbfc968bd6649497c794a161cd/analysis/1451806935/</a> <a href="https://t.co/ByVuN3wc2E" rel="nofollow">https://t.co/ByVuN3wc2E</a></p>
+<div class="translated" id="80391">
+<p>﻿"SSHBearDoor 是一个 SSH Server 后门，BlackEnergy 家族利用这个后门攻击新闻媒体和电气能源行业，目前该样本只有 ESET 能够检测到： Virustotal 检测结果：   <a href="https://t.co/8aVaNV0Hlb%C2%A0" rel="nofollow">https://t.co/8aVaNV0Hlb </a> welivesecurity 对该样本的分析：  <a href="http://www.welivesecurity.com/2016/01/03/blackenergy-sshbeardoor-details-2015-attacks-ukrainian-news-media-electric-industry/%C2%A0" rel="nofollow">http://www.welivesecurity.com/2016/01/03/blackenergy-sshbeardoor-details-2015-attacks-ukrainian-news-media-electric-industry/ </a> <a href="https://t.co/ByVuN3wc2E" rel="nofollow">https://t.co/ByVuN3wc2E</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CXx5aRHWwAE2ant.png" target="_blank">
+<img src="CXx5aRHWwAE2ant.png">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  Analyzing Ransom32, the first JavaScript ransomware variant <a href="http://securityaffairs.co/wordpress/43250/cyber-crime/ransom32-crypto-ransomware.html" rel="nofollow">http://securityaffairs.co/wordpress/43250/cyber-crime/ransom32-crypto-ransomware.html</a></p>
+<div class="translated" id="80448">
+<p>﻿"Ransom32 - 第一个 JavaScript 勒索软件变种   <a href="https://t.co/bYCo6sAmsn" rel="nofollow">https://t.co/bYCo6sAmsn</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Fabio Pietrosanti @fpietrosanti </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Network </i>]  Detect Tor Exit doing sniffing by passively detecting unique DNS query
+
+<a href="https://github.com/NullHypothesis/exitmap/issues/37" rel="nofollow">https://github.com/NullHypothesis/exitmap/issues/37</a>
+
+Looking for feedback/comments!
+#tor #32c3</p>
+<div class="translated" id="80548">
+<p>﻿"通过被动观测 DNS 查询记录检测 Tor Exit Sniffer 节点   <a href="https://t.co/i4DJ3Tnm8f" rel="nofollow">https://t.co/i4DJ3Tnm8f</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Francisco Ribeiro @blackthorne </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Understanding CPython by Patching - part1: <a href="https://orenmn.wordpress.com/2015/12/25/understanding-cpython-by-patching-part-1/" rel="nofollow">https://orenmn.wordpress.com/2015/12/25/understanding-cpython-by-patching-part-1/</a> part2: <a href="https://orenmn.wordpress.com/2016/01/02/understanding-cpython-by-patching-part-2/" rel="nofollow">https://orenmn.wordpress.com/2016/01/02/understanding-cpython-by-patching-part-2/</a></p>
+<div class="translated" id="80527">
+<p>﻿"通过 Patch 的方法理解 CPython - Part 1:   <a href="https://t.co/JuFdsHpgJy" rel="nofollow">https://t.co/JuFdsHpgJy</a> Part 2:   <a href="https://t.co/NQU4mPfoEy" rel="nofollow">https://t.co/NQU4mPfoEy</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Andrey Sitnik @andreysitnik </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  VerbalExpression — regular expressions with normal words
+<a href="https://github.com/VerbalExpressions/JSVerbalExpressions" rel="nofollow">https://github.com/VerbalExpressions/JSVerbalExpressions</a> <a href="https://t.co/zUTJr9fJio" rel="nofollow">https://t.co/zUTJr9fJio</a></p>
+<div class="translated" id="80497">
+<p>﻿"VerbalExpression — 帮助构造复杂正则表达式的工具，仅需要输入一些普通字符    <a href="https://t.co/zUTJr9fJio%C2%A0" rel="nofollow">https://t.co/zUTJr9fJio </a> <a href="https://t.co/rPwFFHWr8P" rel="nofollow">https://t.co/rPwFFHWr8P</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CXtr6u0WAAAhVD1.jpg" target="_blank">
+<img src="CXtr6u0WAAAhVD1.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Vincent Bernat @vince2_ </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Caddy - The HTTP/2 Web Server with Fully Managed SSL <a href="https://caddyserver.com/" rel="nofollow">https://caddyserver.com/</a> (automatic HTTPS with Let's Encrypt)</p>
+<div class="translated" id="80533">
+<p>﻿"Caddy - HTTP/2 Web 服务器，支持 Let's Encrypt， 提供自动化的 HTTPS：   <a href="https://t.co/NADEq5Ou8H" rel="nofollow">https://t.co/NADEq5Ou8H</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>PHR34K @unpacker</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Reef – IDAPython plugin for finding Xrefs from a function <a href="http://www.reddit.com/r/ReverseEngineering/comments/3z25j9/reef_idapython_plugin_for_finding_xrefs_from_a/" rel="nofollow">http://www.reddit.com/r/ReverseEngineering/comments/3z25j9/reef_idapython_plugin_for_finding_xrefs_from_a/</a></p>
+<div class="translated" id="80546">
+<p>﻿"Reef - 用于查找函数内交叉引用的 IDAPython 插件：   <a href="https://t.co/4EVqWgapD3" rel="nofollow">https://t.co/4EVqWgapD3</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Florian Roth @Cyb3rOps </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  How Attackers Dump Active Directory Database Credentials
+by @ PyroTek3 
+<a href="https://adsecurity.org/?p=2398" rel="nofollow">https://adsecurity.org/?p=2398</a> <a href="https://t.co/BOuEr0vzIi" rel="nofollow">https://t.co/BOuEr0vzIi</a></p>
+<div class="translated" id="80530">
+<p>﻿"攻击者是如何 Dump 活动目录的数据库凭据的，来自 @PyroTek3   <a href="https://t.co/ry8sLIY0f3" rel="nofollow">https://t.co/ry8sLIY0f3</a> <a href="https://t.co/BOuEr0vzIi" rel="nofollow">https://t.co/BOuEr0vzIi</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CX0I9HpWEAEf2TN.png" target="_blank">
+<img src="CX0I9HpWEAEf2TN.png">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/01/03/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/01/04/index.html">2016/01/04</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/01/05/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

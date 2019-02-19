@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/08/20" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/08/20</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/08/19/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/08/20/index.html">2016/08/20</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/08/21/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Artsploit @artsploit </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Bug Bounty </i>]  [PayPal Bug Bounty] Node.js code injection vulnerability <a href="http://artsploit.blogspot.com/2016/08/pprce2.html" rel="nofollow">http://artsploit.blogspot.com/2016/08/pprce2.html</a> #bugbounty #nodejs #rce <a href="https://t.co/TDaWRxnkju" rel="nofollow">https://t.co/TDaWRxnkju</a></p>
+<div class="translated" id="174622">
+<p>﻿" <a href="http://demo.paypal.com" rel="nofollow">demo.paypal.com</a> Node.js 代码注入漏洞：   <a href="https://t.co/3dV5i5r88O" rel="nofollow">https://t.co/3dV5i5r88O</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CqNy8XXWIAAnylV.jpg" target="_blank">
+<img src="CqNy8XXWIAAnylV.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Wartortell @Wartortell </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Challenges </i>]  #LabyREnth Docs track solution blog is up: <a href="http://researchcenter.paloaltonetworks.com/2016/08/labyrenth-capture-the-flag-ctf-document-track-solutions/" rel="nofollow">http://researchcenter.paloaltonetworks.com/2016/08/labyrenth-capture-the-flag-ctf-document-track-solutions/</a></p>
+<div class="translated" id="174449">
+<p>﻿" Palo Alto 公开了 LabyREnth CTF 挑战比赛的解题方法︰   <a href="https://t.co/z4oHOymISU" rel="nofollow">https://t.co/z4oHOymISU</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Exploit </i>]  Exploiting WebKit on Vita 3.60 <a href="https://blog.xyz.is/2016/webkit-360.html" rel="nofollow">https://blog.xyz.is/2016/webkit-360.html</a></p>
+<div class="translated" id="174692">
+<p>﻿" Exploiting WebKit on Vita 3.60：   <a href="https://t.co/jFIKyGOql4" rel="nofollow">https://t.co/jFIKyGOql4</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>PHR34K @unpacker</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  Brazilian banking Trojans meet PowerShell <a href="https://securelist.com/blog/virus-watch/75831/brazilian-banking-trojans-meet-powershell/" rel="nofollow">https://securelist.com/blog/virus-watch/75831/brazilian-banking-trojans-meet-powershell/</a></p>
+<div class="translated" id="174444">
+<p>﻿"巴西银行木马开始将 PowerShell 作为其重要工具：   <a href="https://t.co/HtykPZQFSR" rel="nofollow">https://t.co/HtykPZQFSR</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Thomas Reed @thomasareed </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  New Mac malware OSX.FakeFileOpener discovered: <a href="https://blog.malwarebytes.com/threat-analysis/2016/08/pcvark-plays-dirty/?utm_source=twitter&amp;utm_medium=social" rel="nofollow">https://blog.malwarebytes.com/threat-analysis/2016/08/pcvark-plays-dirty/?utm_source=twitter&amp;utm_medium=social</a></p>
+<div class="translated" id="174741">
+<p>﻿" 一款新的 Mac OS X 恶意软件出现 - OSX.FakeFileOpener:   <a href="https://t.co/V3pNlPQ5Aa" rel="nofollow">https://t.co/V3pNlPQ5Aa</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>J Wolfgang Goerlich @jwgoerlich</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Network </i>]  Updated Whitepaper Available: AWS Best Practices for DDoS Resiliency <a href="http://blogs.aws.amazon.com/security/post/Tx6QAIBSQTJPHB/Updated-Whitepaper-Available-AWS-Best-Practices-for-DDoS-Resiliency" rel="nofollow">http://blogs.aws.amazon.com/security/post/Tx6QAIBSQTJPHB/Updated-Whitepaper-Available-AWS-Best-Practices-for-DDoS-Resiliency</a></p>
+<div class="translated" id="174677">
+<p>﻿" AWS DDoS 防御最佳实践白皮书：   <a href="https://t.co/EJt0d2KR64" rel="nofollow">https://t.co/EJt0d2KR64</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> NetworkDevice </i>]  A Wonderful (and !Secure) Router from China <a href="http://blog.ioactive.com/2016/08/multiple-vulnerabilities-in-bhu-wifi.html" rel="nofollow">http://blog.ioactive.com/2016/08/multiple-vulnerabilities-in-bhu-wifi.html</a></p>
+<div class="translated" id="174614">
+<p>﻿" 必虎 uRouter WiFi 路由器被曝多个漏洞，来自 IOActive：   <a href="https://t.co/IHevO4itpT" rel="nofollow">https://t.co/IHevO4itpT</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> NetworkDevice </i>]  Equation Group's BENIGNCERTAIN tool - a remote exploit to extract Cisco VPN private keys <a href="https://musalbas.com/2016/08/18/equation-group-benigncertain.html" rel="nofollow">https://musalbas.com/2016/08/18/equation-group-benigncertain.html</a></p>
+<div class="translated" id="174485">
+<p>﻿" 方程式组织泄漏压缩包中被忽视的一个工具 - BENIGNCERTAIN，这是个思科 VPN 私钥远程提取工具，看描述有点像 HeartBleed：   <a href="https://t.co/BFx1t3pFhb" rel="nofollow">https://t.co/BFx1t3pFhb</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Kostya Kortchinsky @crypt0ad </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Hyper-V bugs details released -- <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=688" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=688</a> <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=689" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=689</a> <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=690" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=690</a></p>
+<div class="translated" id="174463">
+<p>﻿" Project Zero 研究员发现了 Hyper-V vmswitch.sys 驱动的 3 个漏洞：   <a href="https://t.co/lU4zEBJXQA" rel="nofollow">https://t.co/lU4zEBJXQA</a> <a href="https://t.co/mcgcZAUHcD" rel="nofollow">https://t.co/mcgcZAUHcD</a> <a href="https://t.co/LAeBRAhFXH" rel="nofollow">https://t.co/LAeBRAhFXH</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Root Cause Analysis of Windows Kernel UAF Vulnerability lead to CVE-2016-3310 <a href="http://blog.fortinet.com/2016/08/17/root-cause-analysis-of-windows-kernel-uaf-vulnerability-lead-to-cve-2016-3310" rel="nofollow">http://blog.fortinet.com/2016/08/17/root-cause-analysis-of-windows-kernel-uaf-vulnerability-lead-to-cve-2016-3310</a></p>
+<div class="translated" id="174480">
+<p>﻿" Fortinet 研究员在分析 Project Zero 的 Windows 内核 UAF 漏洞（CVE-2015-6100）时，发现了另一条漏洞触发路径，而且微软的补丁并没有修复这条路径。于是就发现了 CVE-2016-3310：   <a href="https://t.co/z97lelCJWW" rel="nofollow">https://t.co/z97lelCJWW</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  b33f @FuzzySec </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Invoke-SMBShell, POC shell that uses encrypted SMB for communication - <a href="https://github.com/FuzzySecurity/PowerShell-Suite/blob/master/Invoke-SMBShell.ps1" rel="nofollow">https://github.com/FuzzySecurity/PowerShell-Suite/blob/master/Invoke-SMBShell.ps1</a> <a href="https://t.co/tXBRLyngj6" rel="nofollow">https://t.co/tXBRLyngj6</a></p>
+<div class="translated" id="174821">
+<p>﻿" SMBShell - 基于命名管道创建 SMB 加密 C&amp;C 信道：   <a href="https://t.co/ps9MUBDTGv" rel="nofollow">https://t.co/ps9MUBDTGv</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CqPzdzaWgAAc_4e.jpg" target="_blank">
+<img src="CqPzdzaWgAAc_4e.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/08/19/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/08/20/index.html">2016/08/20</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/08/21/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/09/17" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/09/17</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/09/16/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/09/17/index.html">2016/09/17</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/09/18/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Crypto </i>]  dingo : A caching DNS proxy for the Google DNS over HTTPS : <a href="https://github.com/pforemski/dingo" rel="nofollow">https://github.com/pforemski/dingo</a></p>
+<div class="translated" id="184414">
+<p>﻿" dingo - 一个缓存 DNS 代理。可以帮你加密所有的 DNS 流量︰   <a href="https://t.co/EnARlkHNqT" rel="nofollow">https://t.co/EnARlkHNqT</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Iván @aszy</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Detect </i>]  Approximating Attack Surfaces with Stack Traces <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2015/05/Aproximating-Attack-Surfaces-with-Stack-Traces.pdf" rel="nofollow">https://www.microsoft.com/en-us/research/wp-content/uploads/2015/05/Aproximating-Attack-Surfaces-with-Stack-Traces.pdf</a></p>
+<div class="translated" id="184171">
+<p>﻿" 从栈回溯信息中识别攻击界面，来自微软 2015 年公开的一篇 Paper：   <a href="https://t.co/roVgiZQF70" rel="nofollow">https://t.co/roVgiZQF70</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Bruce Dawson @BruceDawson0xB</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  I had fun investigating a compiler bug that touched on some obscure CPU behaviors - details are here:
+<a href="https://randomascii.wordpress.com/2016/09/16/everything-old-is-new-again-and-a-compiler-bug/" rel="nofollow">https://randomascii.wordpress.com/2016/09/16/everything-old-is-new-again-and-a-compiler-bug/</a></p>
+<div class="translated" id="184108">
+<p>﻿" Visual Studio 编译器代码生成相关的一个 Bug ︰   <a href="https://t.co/5k6tcv1RpL" rel="nofollow">https://t.co/5k6tcv1RpL</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Pentest </i>]  PowerMemory : Exploit the credentials present in files and memory : <a href="https://github.com/giMini/PowerMemory" rel="nofollow">https://github.com/giMini/PowerMemory</a></p>
+<div class="translated" id="184421">
+<p>﻿"PowerMemory - 攻击内存和文件中保存的凭据信息︰   <a href="https://t.co/0lYg1m47Kk" rel="nofollow">https://t.co/0lYg1m47Kk</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Config And Payload Extraction for Cuckoo Sandbox <a href="https://github.com/ctxis/CAPE" rel="nofollow">https://github.com/ctxis/CAPE</a></p>
+<div class="translated" id="184408">
+<p>﻿" CAPE -在 Cuckoo Sandbox 环境中配置和提取 Payload 的扩展：   <a href="https://t.co/0CI449xLyD" rel="nofollow">https://t.co/0CI449xLyD</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  Hunting For Vulnerabilities in Signal - Part 1 - Attachments MAC bypass <a href="https://pwnaccelerator.github.io/2016/signal-part1.html" rel="nofollow">https://pwnaccelerator.github.io/2016/signal-part1.html</a></p>
+<div class="translated" id="184067">
+<p>﻿" 2016Blackhat演讲中Hunting For Vulnerabilities in Signal 讲解 - Part 1：   <a href="https://t.co/wkiRZZHsDO" rel="nofollow">https://t.co/wkiRZZHsDO</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Benkow moʞuƎq @benkow_ </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  New excellent article by @ abu_y0ussef "The macabre dance of memory chunks" <a href="https://thisissecurity.net/2016/09/16/the-macabre-dance-of-memory-chunks/" rel="nofollow">https://thisissecurity.net/2016/09/16/the-macabre-dance-of-memory-chunks/</a> #exploit <a href="https://t.co/nBv0EhfUiV" rel="nofollow">https://t.co/nBv0EhfUiV</a></p>
+<div class="translated" id="184317">
+<p>﻿" 通过破坏 Memory Chunks size 实现堆溢出漏洞利用的文章：   <a href="https://thisissecurity.net/2016/09/16/the-macabre-dance-of-memory-chunks/" rel="nofollow">https://thisissecurity.net/2016/09/16/the-macabre-dance-of-memory-chunks/</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CsfMvQ-WAAAnV1-.jpg" target="_blank">
+<img src="CsfMvQ-WAAAnV1-.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Basic Windows Privilege Escalation <a href="http://thel3l.me/blog/winprivesc/index.html" rel="nofollow">http://thel3l.me/blog/winprivesc/index.html</a></p>
+<div class="translated" id="184319">
+<p>﻿" Windows 提权方法总结：   <a href="https://t.co/auaZDQjBbA" rel="nofollow">https://t.co/auaZDQjBbA</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>MWR Labs @mwrlabs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> WirelessSecurity </i>]  New blogpost - Piotr Osuch on using H-field Electromagnetic analysis to capture data transmitted over serial 
+<a href="https://labs.mwrinfosecurity.com/blog/h-field-electromagnetic-sniffing/" rel="nofollow">https://labs.mwrinfosecurity.com/blog/h-field-electromagnetic-sniffing/</a></p>
+<div class="translated" id="184138">
+<p>﻿" H-field 电磁 Sniffer，来自 MWR Labs：   <a href="https://t.co/DpBpZNbAcK" rel="nofollow">https://t.co/DpBpZNbAcK</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/09/16/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/09/17/index.html">2016/09/17</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/09/18/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

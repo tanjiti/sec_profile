@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/05/02" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/05/02</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+    color: #a7a7a7;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+
+
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 15px;
+    /*color: #a7a7a7;*/
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedheader{
+
+}
+
+.singlefeedlogo{
+    float: left;
+    /*width: 24px;*/
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.singlefeedlogo img{
+    float: left;
+    width: 13px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+
+    /*width: 80%;
+    height: 80%;*/
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.singlefeedtext p{
+    font-size: 15px;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        //console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        //console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            //console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/01/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/02/index.html">2017/05/02</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/03/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Dmitriy Evdokimov @evdokimovds </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  Researchers Hack Accelerometers with Sound Waves <a href="https://www.bleepingcomputer.com/news/hardware/researchers-hack-accelerometers-with-sound-waves/" rel="nofollow">https://www.bleepingcomputer.com/news/hardware/researchers-hack-accelerometers-with-sound-waves/</a> Technical paper: <a href="https://spqr.eecs.umich.edu/papers/trippel-IEEE-oaklawn-walnut-2017.pdf" rel="nofollow">https://spqr.eecs.umich.edu/papers/trippel-IEEE-oaklawn-walnut-2017.pdf</a></p>
+<div class="translated" id="272966">
+<p>﻿"来自美国两所高校的安全研究员发现利用声波攻击加速度传感器：   <a href="https://t.co/4ZZC1VxvHQ%C2%A0%C2%A0" rel="nofollow">https://t.co/4ZZC1VxvHQ  </a> paper︰   <a href="https://t.co/FQwXL0gz3s" rel="nofollow">https://t.co/FQwXL0gz3s</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Enno Rey @Enno_Insinuator </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Conference </i>]  Presentations of BlueHat IL
+<a href="https://microsoftrnd.co.il/bluehat/Pages/Presentations.aspx" rel="nofollow">https://microsoftrnd.co.il/bluehat/Pages/Presentations.aspx</a></p>
+<div class="translated" id="273169">
+<p>﻿"微软公开了 Blue Hat 2017 会议的 PPT 和视频：   <a href="https://t.co/B4tRPqC65L" rel="nofollow">https://t.co/B4tRPqC65L</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  TROOPERS Conference @WEareTROOPERS </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Conference </i>]  BSidesCharm 2017 Videos
+<a href="http://www.irongeek.com/i.php?page=videos%2Fbsidescharm2017%2Fmainlist" rel="nofollow">http://www.irongeek.com/i.php?page=videos/bsidescharm2017/mainlist</a>, via @ irongeek_adc</p>
+<div class="translated" id="273242">
+<p>﻿"2017 BSidesCharm 安全会议视频：    <a href="https://t.co/O2hMK8iWNi" rel="nofollow">https://t.co/O2hMK8iWNi</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  hack_lu @hack_lu </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Conference </i>]  The call for papers for @  hack_lu 2017 is now open <a href="https://2017.hack.lu/blog/Call-for-Papers/" rel="nofollow">https://2017.hack.lu/blog/Call-for-Papers/</a> <a href="https://2017.hack.lu/cfp/" rel="nofollow">https://2017.hack.lu/cfp/</a> #callforpapers #infosec #luxembourg</p>
+<div class="translated" id="273266">
+<p>﻿" hack.lu 2017 大会将于 10月 17-19 日期间举行，大会现已开始公开征集议题：   <a href="https://t.co/kOaDsN5OLB" rel="nofollow">https://t.co/kOaDsN5OLB</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  H4x0rD1r3c70ry @H4x0rD1r3c70ry </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Hardware </i>]  How to Set Up Kali Linux on the New $10 Raspberry Pi Zero W <a href="https://null-byte.wonderhowto.com/how-to/set-up-kali-linux-new-10-raspberry-pi-zero-w-0176819/?utm_source=dlvr.it&amp;utm_medium=twitter" rel="nofollow">https://null-byte.wonderhowto.com/how-to/set-up-kali-linux-new-10-raspberry-pi-zero-w-0176819/?utm_source=dlvr.it&amp;utm_medium=twitter</a> &lt;--Full Article <a href="https://t.co/hpueqkOVKO" rel="nofollow">https://t.co/hpueqkOVKO</a></p>
+<div class="translated" id="273246">
+<p>﻿"如何在树莓派 Zero W 上安装 kali Linux：   <a href="https://t.co/2LLhNLMt0F" rel="nofollow">https://t.co/2LLhNLMt0F</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Lee Holmes @Lee_Holmes </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Industry News </i>]  OpenSSH Security Testing Kick-Off: <a href="https://blogs.msdn.microsoft.com/powershell/2017/05/01/openssh-security-testing-kick-off/" rel="nofollow">https://blogs.msdn.microsoft.com/powershell/2017/05/01/openssh-security-testing-kick-off/</a> <a href="https://t.co/bfU2KKAgeA" rel="nofollow">https://t.co/bfU2KKAgeA</a></p>
+<div class="translated" id="273207">
+<p>﻿" 微软一直在致力于将 OpenSSH 移植到 Win32 平台，微软昨天宣布开始针对 OpenSSH 的安全测试项目，鼓励大家报告漏洞︰   <a href="https://t.co/HJS8V7YRZY" rel="nofollow">https://t.co/HJS8V7YRZY</a> <a href="https://t.co/bfU2KKAgeA" rel="nofollow">https://t.co/bfU2KKAgeA</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C-w5GNiXgAE8X19.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/C-w5GNiXgAE8X19.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Industry News </i>]  OpenSSH Removes SSHv1 Support :  <a href="http://undeadly.org/cgi?action=article&amp;sid=20170501005206" rel="nofollow">http://undeadly.org/cgi?action=article&amp;sid=20170501005206</a></p>
+<div class="translated" id="273030">
+<p>﻿"OpenSSH 将不再支持 SSHv1︰   <a href="https://t.co/Q7kdfRywGz" rel="nofollow">https://t.co/Q7kdfRywGz</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Mike_Mimoso @Mike_Mimoso</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Industry News </i>]  .@ Apple Revokes Certificate Used By #OSX/Dok Malware: <a href="https://threatpost.com/apple-revokes-certificate-used-by-osxdok-malware/125322/" rel="nofollow">https://threatpost.com/apple-revokes-certificate-used-by-osxdok-malware/125322/</a> via @ threatpost</p>
+<div class="translated" id="273290">
+<p>﻿"Apple 吊销了被恶意软件 OSX/DoK 所使用的开发者证书 ：   <a href="https://t.co/afpeSTeES8" rel="nofollow">https://t.co/afpeSTeES8</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Brendan Gregg @brendangregg </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  new blog post: USENIX/LISA 2016 Linux bcc/BPF Tools <a href="http://www.brendangregg.com/blog/2017-04-29/usenix-lisa-2016-bcc-bpf-tools.html" rel="nofollow">http://www.brendangregg.com/blog/2017-04-29/usenix-lisa-2016-bcc-bpf-tools.html</a> <a href="https://t.co/nu4L88BypG" rel="nofollow">https://t.co/nu4L88BypG</a></p>
+<div class="translated" id="273234">
+<p>﻿"Linux 4.X Tracing Tools: Using BPF Superpowers：  <a href="http://www.brendangregg.com/blog/2017-04-29/usenix-lisa-2016-bcc-bpf-tools.html" rel="nofollow">http://www.brendangregg.com/blog/2017-04-29/usenix-lisa-2016-bcc-bpf-tools.html</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C-moMdQVoAAsAuo.png" target="_blank">
+<img src="http://pbs.twimg.com/media/C-moMdQVoAAsAuo.png">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Justin Seitz @jms_dot_py </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  SMS Scam Investigation in 30 Minutes Or Less – Hunchly – Medium <a href="http://bit.ly/2oPafMW" rel="nofollow">http://bit.ly/2oPafMW</a></p>
+<div class="translated" id="273217">
+<p>﻿"从短信 goo.gl 短域名链接开始追踪钓鱼站的幕后控制者
+：   <a href="https://t.co/2kz6QD7S8y" rel="nofollow">https://t.co/2kz6QD7S8y</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Ben Hawkes @benhawkes </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Project Zero blog: "Exploiting .NET Managed DCOM" by @ tiraniddo - <a href="https://googleprojectzero.blogspot.com/2017/04/exploiting-net-managed-dcom.html" rel="nofollow">https://googleprojectzero.blogspot.com/2017/04/exploiting-net-managed-dcom.html</a></p>
+<div class="translated" id="273233">
+<p>﻿"上周推送过 James Forshaow 发现的 Dolby Audio X2 服务的提权漏洞，这个漏洞的背后原因是用 .NET 实现了跨特权边界的 DCOM，为此他专门写了一篇 Blog 详谈这个问题，《Exploiting .NET Managed DCOM》：   <a href="https://t.co/yrriYKD5Gd" rel="nofollow">https://t.co/yrriYKD5Gd</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Objective-See @objective_see </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  just published last blog in "Two Bugs, One Func()" mini series: "part iii: a kernel heap overflow" <a href="https://t.co/VTcBGNZYom" rel="nofollow">https://t.co/VTcBGNZYom</a> #kernelbug #macos</p>
+<div class="translated" id="273014">
+<p>﻿"Two Bugs, One Func()，Part 3: a kernel heap overflow：   <a href="https://t.co/VTcBGNZYom" rel="nofollow">https://t.co/VTcBGNZYom</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Adventures in JIT compilation: Part 3 - LLVM <a href="http://eli.thegreenplace.net/2017/adventures-in-jit-compilation-part-3-llvm/" rel="nofollow">http://eli.thegreenplace.net/2017/adventures-in-jit-compilation-part-3-llvm/</a></p>
+<div class="translated" id="273094">
+<p>﻿"之前推送过从头写一个 JIT 编译器系列文章，这次是 Part 3，作者介绍基于 LLVM 框架构建 JIT 编译器：   <a href="https://t.co/H04M8agpdr" rel="nofollow">https://t.co/H04M8agpdr</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Programming </i>]  Writing Optimized Windows Shellcode : <a href="https://dimitrifourny.github.io/2017/04/28/optimized-windows-shellcode/" rel="nofollow">https://dimitrifourny.github.io/2017/04/28/optimized-windows-shellcode/</a> cc @ DimitriFourny</p>
+<div class="translated" id="273022">
+<p>﻿"Windows Shellcode 编写指引：   <a href="https://dimitrifourny.github.io/2017/04/28/optimized-windows-shellcode/" rel="nofollow">https://dimitrifourny.github.io/2017/04/28/optimized-windows-shellcode/</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Mobile Security @m0bile_security </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> SecurityReport </i>]  Android Security Bulletin—May 2017 #MobileSecurity #AndroidSecurity
+<a href="https://source.android.com/security/bulletin/2017-05-01" rel="nofollow">https://source.android.com/security/bulletin/2017-05-01</a></p>
+<div class="translated" id="273225">
+<p>﻿"Android 5月安全公告 ：   <a href="https://t.co/zRRuwz5sr5" rel="nofollow">https://t.co/zRRuwz5sr5</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Tool for reverse engineering macOS/OS X
+<a href="https://github.com/steven-michaud/HookCase" rel="nofollow">https://github.com/steven-michaud/HookCase</a></p>
+<div class="translated" id="273178">
+<p>﻿"HookCase - macOS 上的一个逆向工具：   <a href="https://t.co/WxTzTZQW6P" rel="nofollow">https://t.co/WxTzTZQW6P</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Ubertooth – Open Source Bluetooth Sniffer <a href="https://www.darknet.org.uk/2017/05/ubertooth-open-source-bluetooth-sniffer/" rel="nofollow">https://www.darknet.org.uk/2017/05/ubertooth-open-source-bluetooth-sniffer/</a></p>
+<div class="translated" id="273192">
+<p>﻿"Ubertooth — — 一款开源的蓝牙嗅探器：   <a href="https://t.co/ERRRJ7OQQS%C2%A0" rel="nofollow">https://t.co/ERRRJ7OQQS </a> Github：   <a href="https://github.com/greatscottgadgets/ubertooth/" rel="nofollow">https://github.com/greatscottgadgets/ubertooth/</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Florian Roth @cyb3rops </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  80 #Linux Monitoring Tools for SysAdmins
+<a href="https://www.serverdensity.com/monitor/linux/how-to/" rel="nofollow">https://www.serverdensity.com/monitor/linux/how-to/</a> <a href="https://t.co/xb8dfe0GRG" rel="nofollow">https://t.co/xb8dfe0GRG</a></p>
+<div class="translated" id="273028">
+<p>﻿"一份汇集了 80 款 Linux 监控工具的列表：    <a href="https://t.co/LIPFHwRMwZ" rel="nofollow">https://t.co/LIPFHwRMwZ</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C-l_uHZW0AoIC-U.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/C-l_uHZW0AoIC-U.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Trammell Hudson™ @qrs </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  Intel security advisory SA-00075 / CVE-2017-5689, remote attack on the Management Engine: <a href="https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00075&amp;languageid=en-fr" rel="nofollow">https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00075&amp;languageid=en-fr</a> <a href="https://t.co/61TwShtTdv" rel="nofollow">https://t.co/61TwShtTdv</a></p>
+<div class="translated" id="273265">
+<p>﻿"2008 年之后生产的 Intel 平台管理引擎(ME)存在一个远程可以利用的漏洞，成功利用可以获得管理权限：  <a href="https://semiaccurate.com/2017/05/01/remote-security-exploit-2008-intel-platforms/%C2%A0%C2%A0" rel="nofollow">https://semiaccurate.com/2017/05/01/remote-security-exploit-2008-intel-platforms/  </a> 受影响的产品列表：   <a href="https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00075&amp;languageid=en-fr" rel="nofollow">https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00075&amp;;languageid=en-fr</a>
+"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Sean Metcalf @PyroTek3 </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  My @BSidesCharm talk #ActiveDirectory Threat Hunting include tables mapping audit categories to event ids (appendix… <a href="https://t.co/F7enmojgLf" rel="nofollow">https://t.co/F7enmojgLf</a></p>
+<div class="translated" id="273289">
+<p>﻿"来自 ADSecurity 的研究员在 SparkCon 会议关于活动目录、域、PowerShell、Kerberos 相关安全问题的演讲：   <a href="https://adsecurity.org/wp-content/uploads/2017/04/2017-SparkCon-CurrentStateofADSecurity-Metcalf-Final.pdf" rel="nofollow">https://adsecurity.org/wp-content/uploads/2017/04/2017-SparkCon-CurrentStateofADSecurity-Metcalf-Final.pdf</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  DLL Injection Using LoadLibrary in C : <a href="https://arvanaghi.com/blog/dll-injection-using-loadlibrary-in-C/" rel="nofollow">https://arvanaghi.com/blog/dll-injection-using-loadlibrary-in-C/</a> cc @ arvanaghi</p>
+<div class="translated" id="273035">
+<p>﻿"利用 LoadLibrary 进行  Windows DLL 注入：   <a href="https://t.co/qIXLWkpNJh" rel="nofollow">https://t.co/qIXLWkpNJh</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Bypassing Windows Attachment Manager : <a href="http://www.rvrsh3ll.net/blog/informational/bypassing-windows-attachment-manager/" rel="nofollow">http://www.rvrsh3ll.net/blog/informational/bypassing-windows-attachment-manager/</a> cc @ 424f424f</p>
+<div class="translated" id="273041">
+<p>﻿" 从 Windows XP SP2 开始，Windows 引入了 Windows Attachment Manager 保护特性，禁止从网络上下载的某些类型文件直接执行，这篇 Blog 介绍如何 Bypass 这项特性︰   <a href="https://t.co/TBoQN2cWXi" rel="nofollow">https://t.co/TBoQN2cWXi</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via Phrack</p> -->
+<p>XuanwuSpider via Phrack</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Vulnerability </i>]   QEMU RTL8139/PCNET 网卡模拟器漏洞的利用及虚拟机的逃逸（CVE-2015-5165/7504）：
+<a href="http://www.phrack.org/papers/vm-escape-qemu-case-study.html" rel="nofollow">http://www.phrack.org/papers/vm-escape-qemu-case-study.html</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/01/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/02/index.html">2017/05/02</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/03/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

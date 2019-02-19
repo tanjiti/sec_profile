@@ -1,0 +1,22 @@
+20190213	Detect	https://www.stuffithoughtiknew.com/2019/02/detecting-bloodhound.html	如何检测 BloodHound:   	stuffithoughtiknew.com	www.stuffithoughtiknew.com	/2019/02/detecting-bloodhound.html	
+20190213	Firmware	https://x86.lol/generic/2019/02/08/fingerprint.html	使用非法操作码对 x86 CPU 进行指纹识别:   	x86.lol	x86.lol	/generic/2019/02/08/fingerprint.html	
+20190213	IoTDevice	https://medium.com/tenable-techblog/make-it-rain-with-mikrotik-c90705459bc6	MikroTik RouterOS 漏洞挖掘技术分享:   	medium.com	medium.com	/tenable-techblog/make-it-rain-with-mikrotik-c90705459bc6	
+20190213	Linux	https://shenaniganslabs.io/2019/02/13/Dirty-Sock.html	Ubuntu Linux dirty_sock 本地提权漏洞利用:   	shenaniganslabs.io	shenaniganslabs.io	/2019/02/13/Dirty-Sock.html	
+20190213	Malware	https://arxiv.org/abs/1902.03256	SGX-ROP - 使用 Intel SGX 的 Enclave 恶意软件,paper:   https://arxiv.org/abs/1902.03256  PoC:   	arxiv.org	arxiv.org	/abs/1902.03256	
+20190213	Malware	https://github.com/sgxrop/sgxrop	SGX-ROP - 使用 Intel SGX 的 Enclave 恶意软件,paper:   https://arxiv.org/abs/1902.03256  PoC:   	github.com	github.com	/sgxrop/sgxrop	
+20190213	Malware	http://x86.lol/2019/02/12/steganography.html	在冗余的 x86 指令编码中隐藏数据:   	x86.lol	x86.lol	/2019/02/12/steganography.html	
+20190213	Pentest	https://www.youtube.com/watch?v=f3SXDBMGGb8	漏洞赏金中 XXE 盲打并使用 DNS 外带信息的实际案例视频讲解:   	youtube.com	www.youtube.com	/watch	
+20190213	Pentest	https://blog.redforce.io/sqli-extracting-data-without-knowing-columns-names/	在不知道 MySQL 列名的情况下泄露数据的 SQL 注入技巧:   	redforce.io	blog.redforce.io	/sqli-extracting-data-without-knowing-columns-names/	
+20190213	SecurityAdvisory	https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/51503ac5-e6d2-e811-a983-000d3a33c573	Microsoft 发布 2019 年 2 月安全更新:   https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/51503ac5-e6d2-e811-a983-000d3a33c573  致谢信息:   	microsoft.com	portal.msrc.microsoft.com	/en-us/security-guidance/releasenotedetail/51503ac5-e6d2-e811-a983-000d3a33c573	
+20190213	SecurityAdvisory	https://portal.msrc.microsoft.com/en-us/security-guidance/acknowledgments	Microsoft 发布 2019 年 2 月安全更新:   https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/51503ac5-e6d2-e811-a983-000d3a33c573  致谢信息:   	microsoft.com	portal.msrc.microsoft.com	/en-us/security-guidance/acknowledgments	
+20190213	Tools	https://github.com/V33RU/IoTSecurity101	IoTSecurity101 - IoT 安全方向优秀资源索引:   	github.com	github.com	/V33RU/IoTSecurity101	
+20190213	Tools	https://github.com/rasta-mouse/CookieMonster	CookieMonster - 从浏览器提取凭证和 cookie 的工具(目前仅支持  Chrome):   	github.com	github.com	/rasta-mouse/CookieMonster	
+20190213	Tools	https://github.com/gamozolabs/mesos	mesos - Windows 下的二进制代码覆盖调试工具:   	github.com	github.com	/gamozolabs/mesos	
+20190213	Tools	https://github.com/googleprojectzero/CompareCoverage	CompareCoverage  - 用于跟踪 C/C++ 中变量和缓冲区的实时变化并保存的工具:   	github.com	github.com	/googleprojectzero/CompareCoverage	
+20190213	Tools	https://github.com/secrary/idenLib	idenLib - 识别库函数的工具集:   	github.com	github.com	/secrary/idenLib	
+20190213	Tools	https://medium.com/@maarten.goet/defending-against-weaponized-hardware-windows-defender-atp-microsoft-intune-to-the-rescue-80aba28067fe	使用 Windows Defender ATP 检查 RubberDucky 及邪恶鼠标等硬件攻击:   	medium.com	medium.com	/@maarten.goet/defending-against-weaponized-hardware-windows-defender-atp-microsoft-intune-to-the-rescue-80aba28067fe	
+20190213	Virtualization	https://www.exploit-db.com/exploits/463592)	runc 容器逃逸漏洞(CVE-2019-5736)及利用介绍 : 1)  https://www.exploit-db.com/exploits/463592) https://github.com/feexd/pocs3) 	exploit-db.com	www.exploit-db.com	/exploits/463592)	
+20190213	Virtualization	https://github.com/feexd/pocs3)	runc 容器逃逸漏洞(CVE-2019-5736)及利用介绍 : 1)  https://www.exploit-db.com/exploits/463592) https://github.com/feexd/pocs3) 	github.com	github.com	/feexd/pocs3)	
+20190213	Virtualization	https://blog.dragonsector.pl/2019/02/cve-2019-5736-escape-from-docker-and.html	runc 容器逃逸漏洞(CVE-2019-5736)及利用介绍 : 1)  https://www.exploit-db.com/exploits/463592) https://github.com/feexd/pocs3) 	dragonsector.pl	blog.dragonsector.pl	/2019/02/cve-2019-5736-escape-from-docker-and.html	
+20190213	Vulnerability	https://thehackernews.com/2019/02/macos-mojave-privacy-hack.html	macOS Mojave 曝安全漏洞可访问受限目录,恶意软件可监控 Safari 访问历史:   	thehackernews.com	thehackernews.com	/2019/02/macos-mojave-privacy-hack.html	
+20190213	Vulnerability	https://www.linkedin.com/pulse/hacking-youtube-fun-profit-alexandru-coltuneac/	YouTube Studio 两处漏洞详情披露:   	linkedin.com	www.linkedin.com	/pulse/hacking-youtube-fun-profit-alexandru-coltuneac/	

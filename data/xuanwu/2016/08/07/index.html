@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/08/07" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/08/07</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/08/06/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/08/07/index.html">2016/08/07</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/08/08/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Full Disclosure @SecLists</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  CVE-2016-6526 Possible Privilege Escalation in telecom of Samsung Mobile… <a href="http://goo.gl/fb/If2rAr" rel="nofollow">http://goo.gl/fb/If2rAr</a> #FullDisclosure</p>
+<div class="translated" id="169062">
+<p>﻿"三星手机通讯 APP 可能存在的两个提取漏洞，来自 FullDisclosure 的公告，CVE-2016-6526：   <a href="http://seclists.org/fulldisclosure/2016/Aug/33" rel="nofollow">http://seclists.org/fulldisclosure/2016/Aug/33</a>   CVE-2016-6527：   <a href="http://seclists.org/fulldisclosure/2016/Aug/34" rel="nofollow">http://seclists.org/fulldisclosure/2016/Aug/34</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Abdulrhman Alqabandi @Qab</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  MP3/HTML polygot PoC for Firefox:
+<a href="http://pastebin.com/raw/x2bTAv4q" rel="nofollow">http://pastebin.com/raw/x2bTAv4q</a></p>
+<div class="translated" id="169230">
+<p>﻿"Firefox MP3/HTML polygot PoC︰   <a href="https://t.co/p7XsnUvVVE" rel="nofollow">https://t.co/p7XsnUvVVE</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Kenn White @kennwhite </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Cloud </i>]  Google Compute Engine disk encryption with customer-managed (off-cloud) keys released to production
+<a href="https://cloud.google.com/security/encryption-at-rest/resources/encryption-whitepaper.pdf" rel="nofollow">https://cloud.google.com/security/encryption-at-rest/resources/encryption-whitepaper.pdf</a> via @ jmckenty</p>
+<div class="translated" id="169162">
+<p>﻿" Google 云计算环境加密存储实现白皮书：   <a href="https://t.co/NaHDU8IBTB" rel="nofollow">https://t.co/NaHDU8IBTB</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  riusksk @riusksk </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Fuzzing </i>]  Guided in-process fuzzing of Chrome components <a href="http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/40jBXgzhCfQ/guided-in-process-fuzzing-of-chrome.html" rel="nofollow">http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/40jBXgzhCfQ/guided-in-process-fuzzing-of-chrome.html</a></p>
+<div class="translated" id="169212">
+<p>﻿" 基于 libFuzzer 的 Chrome 组件 Fuzz 方法，来自 Google 官方 Blog，这里提到了一种称为 in-process 的 Fuzz 方式，这种 Fuzz 不用每次都重启目标进程，而是在内存中直接变异 Fuzz：   <a href="https://security.googleblog.com/2016/08/guided-in-process-fuzzing-of-chrome.html%C2%A0" rel="nofollow">https://security.googleblog.com/2016/08/guided-in-process-fuzzing-of-chrome.html </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>flanker017 @flanker_hqd</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> macOS </i>]  Slides for our talk on sandboxes at #defcon24 <a href="https://goo.gl/eM4oSC" rel="nofollow">https://goo.gl/eM4oSC</a> @ marcograss <a href="https://t.co/v4aeBN0hqi" rel="nofollow">https://t.co/v4aeBN0hqi</a></p>
+<div class="translated" id="169363">
+<p>﻿" 科恩实验室 Flanker 在 DefCon24 会议的演讲《Escaping The Sandbox By Not Breaking It》，关于 OS X 系统 Safari 和 Chrome 的沙箱逃逸：   <a href="https://speakerdeck.com/flankerhqd/escaping-the-sandbox-by-not-breaking-it" rel="nofollow">https://speakerdeck.com/flankerhqd/escaping-the-sandbox-by-not-breaking-it</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CpM8yRIW8AATvlI.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/CpM8yRIW8AATvlI.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Erik Loman @erikloman </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mitigation </i>]  Microsoft EMET 5.51 is out <a href="https://www.microsoft.com/en-us/download/details.aspx?id=53354" rel="nofollow">https://www.microsoft.com/en-us/download/details.aspx?id=53354</a> <a href="https://t.co/AZB5IY2leO" rel="nofollow">https://t.co/AZB5IY2leO</a></p>
+<div class="translated" id="169245">
+<p>﻿"微软漏洞利用缓解工具 EMET 5.51 版本下载：   <a href="https://t.co/q8omg5AE1T" rel="nofollow">https://t.co/q8omg5AE1T</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CpJp3IjWgAAKoAE.jpg" target="_blank">
+<img src="CpJp3IjWgAAKoAE.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>CTurt @CTurtE</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Very nice work by @ Fire30_! Thanks for sharing: <a href="https://github.com/Fire30/PS4-3.55-Code-Execution-PoC" rel="nofollow">https://github.com/Fire30/PS4-3.55-Code-Execution-PoC</a></p>
+<div class="translated" id="169378">
+<p>﻿" PS4 3.55 代码执行 PoC︰   <a href="https://t.co/8EeMwfgCE8%C2%A0" rel="nofollow">https://t.co/8EeMwfgCE8 </a> 利用的是一个 WebKit 漏洞"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Will @harmj0y </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Pentest </i>]  slides for @ 424f424f's, @ Killswitch_GUI's, and my "Building an EmPyre with Python" @ BSidesLV presentation are up at <a href="http://www.slideshare.net/harmj0y/building-an-empyre-with-python" rel="nofollow">http://www.slideshare.net/harmj0y/building-an-empyre-with-python</a></p>
+<div class="translated" id="169178">
+<p>﻿" Building an EmPyre with Python，EmPyre 是一个渗透测试工具：   <a href="https://t.co/3sv2hOKRaL" rel="nofollow">https://t.co/3sv2hOKRaL</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Full Disclosure @SecLists</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> SecurityProduct </i>]  Kaspersky Safe Browser iOS Application - MITM SSL Certificate Vulnerability… <a href="http://goo.gl/fb/DEuDXu" rel="nofollow">http://goo.gl/fb/DEuDXu</a> #FullDisclosure</p>
+<div class="translated" id="169065">
+<p>﻿"卡巴斯基安全浏览器 iOS APP 存在 SSL 证书中间人劫持漏洞，来自 FullDisclosure 公告：   <a href="https://t.co/ykGoiZSgdr" rel="nofollow">https://t.co/ykGoiZSgdr</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  John Matherly @achillean </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  The evolution of 3D visuals at Shodan: ICS Radar: <a href="https://ics-radar.shodan.io/" rel="nofollow">https://ics-radar.shodan.io/</a> Shodan 3D: <a href="https://3d.shodan.io/" rel="nofollow">https://3d.shodan.io/</a> and now <a href="https://simple.shodan.io/" rel="nofollow">https://simple.shodan.io/</a></p>
+<div class="translated" id="169331">
+<p>﻿" Shodan 支持 3D 可视化展示了，酷炫。ICS 雷达︰   <a href="https://t.co/iyEgmxCnWO%C2%A0" rel="nofollow">https://t.co/iyEgmxCnWO </a> Shodan 3D API 以及相关的介绍:   <a href="https://t.co/Lh5TsnrWNP%C2%A0%C2%A0" rel="nofollow">https://t.co/Lh5TsnrWNP  </a> 搜索结果 3D 展示：   <a href="https://t.co/gwLnLHdyKr%C2%A0" rel="nofollow">https://t.co/gwLnLHdyKr </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Bryan Lowe @BigBroLowe </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  #BloodHound Domain Admin mapping tool released at #defcon2016 by @ _wald0 @ CptJesus @ harmj0y <a href="http://bit.ly/GetBloodHound" rel="nofollow">http://bit.ly/GetBloodHound</a> <a href="https://t.co/jfGaiaUbd6" rel="nofollow">https://t.co/jfGaiaUbd6</a></p>
+<div class="translated" id="169400">
+<p>﻿" BloodHound - AD 域管理员的六度空间探测工具，通过图的形式帮助管理员发现 AD 域内节点间的关系：   <a href="https://t.co/EnwZ3g0ZHB" rel="nofollow">https://t.co/EnwZ3g0ZHB</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CpNGRBqVMAA2ywe.jpg" target="_blank">
+<img src="CpNGRBqVMAA2ywe.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>NCC Group @NCCGroupInfosec</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  NCC Group Tool: BinProxy - a proxy for arbitrary TCP connections - <a href="https://github.com/nccgroup/BinProxy" rel="nofollow">https://github.com/nccgroup/BinProxy</a> by Ryan #BlackHat2016</p>
+<div class="translated" id="169185">
+<p>﻿" BinProxy - NCC Group 开源的一个 TCP 连接代理工具：   <a href="https://t.co/Q8VLA3To3U%C2%A0" rel="nofollow">https://t.co/Q8VLA3To3U </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Damien Cauquil @virtualabs </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> WirelessSecurity </i>]  Slides of my talk @ defcon about Bluetooth Smart Man in the Middle is now online <a href="https://speakerdeck.com/virtualabs/btlejuice-the-bluetooth-smart-mitm-framework" rel="nofollow">https://speakerdeck.com/virtualabs/btlejuice-the-bluetooth-smart-mitm-framework#</a></p>
+<div class="translated" id="169336">
+<p>﻿" 智能蓝牙中间人攻击框架，来自 DefCon 会议的演讲：   <a href="https://t.co/BBN2E8wJbx" rel="nofollow">https://t.co/BBN2E8wJbx</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/08/06/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/08/07/index.html">2016/08/07</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/08/08/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/09/13" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/09/13</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    border-top: 1px solid #f0f0f0;
+    color: black;
+    margin-bottom: 30px;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+
+
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+
+.singleweibotext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+
+.singleweiboimage{
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin-left: 25px;
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedheader{
+
+}
+
+.singlefeedlogo{
+    float: left;
+    /*width: 24px;*/
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.singlefeedlogo img{
+    float: left;
+    width: 13px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+
+    /*width: 80%;
+    height: 80%;*/
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+.singlefeedtext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/09/12/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/09/13/index.html">2017/09/13</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/09/14/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Android ]</span>  Android 点击欺诈应用可被用于建立 DDoS 僵尸网络：  <a href="https://securingtomorrow.mcafee.com/mcafee-labs/android-click-fraud-app-repurposed-ddos-botnet/#sf113324137" rel="nofollow">https://securingtomorrow.mcafee.com/mcafee-labs/android-click-fraud-app-repurposed-ddos-botnet/#sf113324137</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ IoTDevice ]</span>  逆向 OBi200 谷歌语音设备 Part 2：   <a href="https://randywestergren.com/reverse-engineering-obi200-google-voice-appliance-part-2/%C2%A0" rel="nofollow">https://randywestergren.com/reverse-engineering-obi200-google-voice-appliance-part-2/ </a> Part 1:   <a href="https://randywestergren.com/reverse-engineering-obi200-google-voice-appliance-part-1/" rel="nofollow">https://randywestergren.com/reverse-engineering-obi200-google-voice-appliance-part-1/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ IoTDevice ]</span>  ARM exploitation for IoT - part 2:   <a href="https://quequero.org/2017/09/arm-exploitation-iot-episode-2" rel="nofollow">https://quequero.org/2017/09/arm-exploitation-iot-episode-2</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DJhjCLeX0AAobp-.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/DJhjCLeX0AAobp-.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ MachineLearning ]</span>  
+利用深度神经网络从普通图片推理出 3D 立体面部纹理，Paper：  <a href="https://arxiv.org/pdf/1612.00523v1.pdf" rel="nofollow">https://arxiv.org/pdf/1612.00523v1.pdf</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ macOS ]</span>  
+ 苹果  macOS 10.12 差分隐私保护（Differential Privacy）的实现，Paper：   <a href="https://arxiv.org/pdf/1709.02753.pdf" rel="nofollow">https://arxiv.org/pdf/1709.02753.pdf</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Popular Software ]</span>  
+本月 Windows 修复的漏洞中，其中有一个 Microsoft Office RTF 的漏洞已经在野外被利用，FireEye 发现它被用于投递 FINSPY（CVE-2017-8759）：  <a href="https://www.fireeye.com/blog/threat-research/2017/09/zero-day-used-to-distribute-finspy.html%C2%A0" rel="nofollow">https://www.fireeye.com/blog/threat-research/2017/09/zero-day-used-to-distribute-finspy.html </a> <a href="https://blogs.technet.microsoft.com/mmpc/2017/09/12/exploit-for-cve-2017-8759-detected-and-neutralized/" rel="nofollow">https://blogs.technet.microsoft.com/mmpc/2017/09/12/exploit-for-cve-2017-8759-detected-and-neutralized/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Popular Software ]</span>   VMware 发布 AppDefense，可限制虚拟服务器上运行应用程序的类型：   <a href="https://www.networkworld.com/article/3222858/data-center/vmware-adds-whitelist-security-to-the-hypervisor.html" rel="nofollow">https://www.networkworld.com/article/3222858/data-center/vmware-adds-whitelist-security-to-the-hypervisor.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ SecurityAdvisory ]</span>  
+ Xen 发布漏洞公告，修复了 XSA-231、XSA-232、XSA-233、XSA-234 4 个漏洞，从拒绝服务到系统提权：  <a href="https://github.com/QubesOS/qubes-secpack/blob/master/QSBs/qsb-033-2017.txt" rel="nofollow">https://github.com/QubesOS/qubes-secpack/blob/master/QSBs/qsb-033-2017.txt</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ SecurityAdvisory ]</span>  
+Adobe 发布本月漏洞公告，修复 RoboHelp、Adobe Flash Player、ColdFusion 3 款产品的多个漏洞：  <a href="https://helpx.adobe.com/security.html" rel="nofollow">https://helpx.adobe.com/security.html</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  本地提权思维导图：   <a href="https://twitter.com/s4gi_/status/866501430374301696/photo/1" rel="nofollow">https://twitter.com/s4gi_/status/866501430374301696/photo/1</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DAZsE2VUQAA_bpZ.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/DAZsE2VUQAA_bpZ.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  windows-event-forwarding - 一款使用 Windows 事件转发来进行事件的检测与响应的工具：   <a href="https://github.com/palantir/windows-event-forwarding" rel="nofollow">https://github.com/palantir/windows-event-forwarding</a> </p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  
+Sysinternals 的 Sysmon、Process Monitor、Autoruns、AccessChk 工具有更新：   <a href="https://blogs.technet.microsoft.com/sysinternals/2017/09/12/sysinternals-update-sysmon-v6-1-process-monitor-v3-4-autoruns-v13-8-accesschk-v6-11/" rel="nofollow">https://blogs.technet.microsoft.com/sysinternals/2017/09/12/sysinternals-update-sysmon-v6-1-process-monitor-v3-4-autoruns-v13-8-accesschk-v6-11/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  间谍 VS 间谍: 针对麦克风漏洞的操纵与检测：   <a href="https://gsec.hitb.org/materials/sg2017/WHITEPAPER%20-%20Veronica%20Valeros%20and%20Sebastian%20Garcia%20-%20A%20Modern%20Study%20of%20Microphone%20Bugs.pdf" rel="nofollow">https://gsec.hitb.org/materials/sg2017/WHITEPAPER%20-%20Veronica%20Valeros%20and%20Sebastian%20Garcia%20-%20A%20Modern%20Study%20of%20Microphone%20Bugs.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  Windows kernel pool spraying fun - Part 2 - More objects :   <a href="https://theevilbit.blogspot.com/2017/09/windows-kernel-pool-spraying-fun-part-2.html" rel="nofollow">https://theevilbit.blogspot.com/2017/09/windows-kernel-pool-spraying-fun-part-2.html</a> </p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  Managed object internals, Part 3 ：   <a href="https://blogs.msdn.microsoft.com/seteplia/2017/09/12/managed-object-internals-part-3-the-layout-of-a-managed-array-3/" rel="nofollow">https://blogs.msdn.microsoft.com/seteplia/2017/09/12/managed-object-internals-part-3-the-layout-of-a-managed-array-3/</a> ； Managed object internals， Part 2：  <a href="https://blogs.msdn.microsoft.com/seteplia/2017/09/06/managed-object-internals-part-2-object-header-layout-and-the-cost-of-locking/" rel="nofollow">https://blogs.msdn.microsoft.com/seteplia/2017/09/06/managed-object-internals-part-2-object-header-layout-and-the-cost-of-locking/</a> ； Managed object internals, Part 1：   <a href="https://blogs.msdn.microsoft.com/seteplia/2017/05/26/managed-object-internals-part-1-layout/" rel="nofollow">https://blogs.msdn.microsoft.com/seteplia/2017/05/26/managed-object-internals-part-1-layout/</a> </p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>   使用  Windows 事件转发进行网络防御：   <a href="https://medium.com/@palantir/windows-event-forwarding-for-network-defense-cb208d5ff86f" rel="nofollow">https://medium.com/@palantir/windows-event-forwarding-for-network-defense-cb208d5ff86f</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ WirelessSecurity ]</span>  
+BlueBorne - Armis Labs 公开的一个新攻击面，通过蓝牙攻击 PC、手机（Android/iOS）、IoT 等几乎所有的设备。攻击也不需要蓝牙配对：  <a href="https://www.armis.com/blueborne/" rel="nofollow">https://www.armis.com/blueborne/</a> <a href="https://threatpost.com/wireless-blueborne-attacks-target-billions-of-bluetooth-devices/127921/" rel="nofollow">https://threatpost.com/wireless-blueborne-attacks-target-billions-of-bluetooth-devices/127921/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Browser ]</span>  “Elements kinds” in V8 - V8 的对象元素种类： 
+<a href="https://v8project.blogspot.com/2017/09/elements-kinds-in-v8.html" rel="nofollow">https://v8project.blogspot.com/2017/09/elements-kinds-in-v8.html</a> </p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Industry News ]</span>  Kromtech 安全中心的人发现 超过 4000 个 ElasticSearch 服务器托管着 PoS 恶意软件(AlinaPOS、 JackPOS)：
+ <a href="https://www.bleepingcomputer.com/news/security/over-4-000-elasticsearch-servers-found-hosting-pos-malware-files/" rel="nofollow">https://www.bleepingcomputer.com/news/security/over-4-000-elasticsearch-servers-found-hosting-pos-malware-files/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ iOS ]</span>  Evasi0n6 Jailbreak by Evad3rs for iOS 6.0-6.1.2： <a href="https://github.com/OpenJailbreak/evasi0n6" rel="nofollow">https://github.com/OpenJailbreak/evasi0n6</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ MalwareAnalysis ]</span>  在细节中捕捉恶魔-2017世界物联网博览会信息安全高峰论坛议题: <a href="https://mp.weixin.qq.com/s/mLMoA_LTkgP3JXcl-2OG8Q" rel="nofollow">https://mp.weixin.qq.com/s/mLMoA_LTkgP3JXcl-2OG8Q</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Mobile ]</span>  Intra-Library Collusion,智能手机中潜在的隐私噩梦： <a href="https://arxiv.org/pdf/1708.03520.pdf" rel="nofollow">https://arxiv.org/pdf/1708.03520.pdf</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ SecurityAdvisory ]</span>  微软发布 9 月份漏洞补丁：
+<a href="http://blog.talosintelligence.com/2017/09/ms-tuesday.html" rel="nofollow">http://blog.talosintelligence.com/2017/09/ms-tuesday.html</a> 
+ZDI 对补丁日的总结：
+ <a href="https://www.thezdi.com/blog/2017/9/12/the-september-2017-security-update-review" rel="nofollow">https://www.thezdi.com/blog/2017/9/12/the-september-2017-security-update-review</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Tools ]</span>  Intel / AMD CPU Internals： <a href="https://github.com/OpenJailbreak/evasi0n6" rel="nofollow">https://github.com/OpenJailbreak/evasi0n6</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/09/12/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/09/13/index.html">2017/09/13</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/09/14/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

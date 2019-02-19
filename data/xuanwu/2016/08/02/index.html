@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/08/02" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/08/02</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/08/01/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/08/02/index.html">2016/08/02</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/08/03/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Chia-Chih Wu @chiachih_wu</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Linux Kernel Arbitrary Mem Write ID'ed by @ coreteam: CVE-2016-3857. All ARM machines w/ OABI support are vulnerable! <a href="https://source.android.com/security/bulletin/2016-08-01.html" rel="nofollow">https://source.android.com/security/bulletin/2016-08-01.html</a></p>
+<div class="translated" id="166564">
+<p>﻿" Android 官方发布了 8 月份的漏洞公告：   <a href="https://t.co/SruS0vOCei" rel="nofollow">https://t.co/SruS0vOCei</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>PHR34K @unpacker</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  Kaspersky DDoS Intelligence Report for Q2 2016 <a href="https://securelist.com/analysis/quarterly-malware-reports/75513/kaspersky-ddos-intelligence-report-for-q2-2016/" rel="nofollow">https://securelist.com/analysis/quarterly-malware-reports/75513/kaspersky-ddos-intelligence-report-for-q2-2016/</a></p>
+<div class="translated" id="166489">
+<p>﻿"卡巴斯基 2016 第二季度 DDoS 情报报告：   <a href="https://t.co/8H0CruM79V" rel="nofollow">https://t.co/8H0CruM79V</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Andre Pawlowski @sqall01 </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Finally, it is published: this was my whiteboard while reverse engineering IE's JS engine <a href="https://www.syssec.rub.de/research/publications/detile-fine-grained-information-leak-detection/" rel="nofollow">https://www.syssec.rub.de/research/publications/detile-fine-grained-information-leak-detection/</a> <a href="https://t.co/exSzf7hqEm" rel="nofollow">https://t.co/exSzf7hqEm</a></p>
+<div class="translated" id="166486">
+<p>﻿" Detile - 脚本引擎中的细粒度信息泄漏检测：   <a href="https://www.syssec.rub.de/media/emma/veroeffentlichungen/2016/07/29/detile_info_leak_detection_dimva16.pdf" rel="nofollow">https://www.syssec.rub.de/media/emma/veroeffentlichungen/2016/07/29/detile_info_leak_detection_dimva16.pdf</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/Cox1ABqWEAEDhIx.jpg" target="_blank">
+<img src="Cox1ABqWEAEDhIx.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  hasherezade @hasherezade </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Detect </i>]  Making your Shellcode Undetectable using .NET <a href="https://osandamalith.com/2016/08/01/making-your-shellcode-undetectable-using-net/" rel="nofollow">https://osandamalith.com/2016/08/01/making-your-shellcode-undetectable-using-net/</a> via @ OsandaMalith</p>
+<div class="translated" id="166382">
+<p>﻿" 基于 .NET 工具，实现 Shellcode 的免杀：   <a href="https://t.co/l6KgtHRsv9" rel="nofollow">https://t.co/l6KgtHRsv9</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Iván @aszy</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Fuzzing </i>]  Dynamic Symbolic Execution with Interpolation Based Path Merging <a href="https://www.sec.in.tum.de/assets/Uploads/ibing16interpolmerge.pdf" rel="nofollow">https://www.sec.in.tum.de/assets/Uploads/ibing16interpolmerge.pdf</a></p>
+<div class="translated" id="166364">
+<p>﻿"通过插值路径合并算法解决符号执行中的路径爆炸问题，Paper：   <a href="https://t.co/UhfxRJckmo" rel="nofollow">https://t.co/UhfxRJckmo</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  How to steal $2,999.99 in less than 2 minutes with Venmo and Siri <a href="http://www.martinvigo.com/steal-2999-99-minute-venmo-siri/" rel="nofollow">http://www.martinvigo.com/steal-2999-99-minute-venmo-siri/</a></p>
+<div class="translated" id="166633">
+<p>﻿" 滥用手机支付 APP Venmo 和 Siri，两分钟不到，偷 2999.99 刀：   <a href="https://t.co/CrvGl5ekd4" rel="nofollow">https://t.co/CrvGl5ekd4</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  Linux &gt;= 4.5 double fetch leading to heap overflow <a href="https://cxsecurity.com/issue/WLB-2016080002" rel="nofollow">https://cxsecurity.com/issue/WLB-2016080002</a></p>
+<div class="translated" id="166505">
+<p>﻿"Linux &gt;= 4.5 Double Fetch 导致的堆溢出 PoC：   <a href="https://t.co/9VrdfdQ08i" rel="nofollow">https://t.co/9VrdfdQ08i</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Mike_Mimoso @Mike_Mimoso</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mitigation </i>]  New Technique Checks Mitigation Bypasses Earlier: <a href="https://threatpost.com/new-technique-checks-mitigation-bypasses-earlier/119568/" rel="nofollow">https://threatpost.com/new-technique-checks-mitigation-bypasses-earlier/119568/</a> via @ threatpost</p>
+<div class="translated" id="166544">
+<p>﻿" 本周的 BlackHat 会议上，Endgame 团队研究员将提出一种新的 ROP 防御方法，称为硬件辅助的 CFI︰   <a href="https://t.co/HSr7oFD8xI%C2%A0" rel="nofollow">https://t.co/HSr7oFD8xI </a> 关于 ROP 的检测，比较知名的有三个：   <a href="http://securitygossip.com/blog/2016/08/01/2016-08-01/" rel="nofollow">http://securitygossip.com/blog/2016/08/01/2016-08-01/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Damien Miller @damienmiller </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> OpenSourceProject </i>]  OpenSSH 7.3 released <a href="http://www.openssh.com/txt/release-7.3" rel="nofollow">http://www.openssh.com/txt/release-7.3</a> minor security fixes, a few small features &amp; bugfixes. Final release with SSH1 server support!</p>
+<div class="translated" id="166451">
+<p>﻿"OpenSSH 7.3 版本发布，本次更新修复了多个漏洞：   <a href="https://t.co/yK4g5UE4oE" rel="nofollow">https://t.co/yK4g5UE4oE</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Eduard Kovacs @EduardKovacs </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> OpenSourceProject </i>]  A flaw related to how Intel’s Crosswalk handles SSL certificates exposes mobile apps to MitM attacks <a href="http://www.securityweek.com/ssl-flaw-intel-crosswalk-exposes-apps-mitm-attacks" rel="nofollow">http://www.securityweek.com/ssl-flaw-intel-crosswalk-exposes-apps-mitm-attacks</a></p>
+<div class="translated" id="166608">
+<p>﻿" Intel 开源组件 Crosswalk 在处理 SSL 证书时存在漏洞，多款手机 APP 可被中间人劫持攻击：   <a href="https://t.co/mum1cs9rRI" rel="nofollow">https://t.co/mum1cs9rRI</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  zl @quine </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Our Vuln Research team (here at @  cylanceinc) disclosed some issues in the Crestron AM-100: <a href="https://github.com/CylanceVulnResearch/disclosures/blob/master/CLVA-2016-05-001.md" rel="nofollow">https://github.com/CylanceVulnResearch/disclosures/blob/master/CLVA-2016-05-001.md</a> <a href="https://github.com/CylanceVulnResearch/disclosures/blob/master/CLVA-2016-05-002.md" rel="nofollow">https://github.com/CylanceVulnResearch/disclosures/blob/master/CLVA-2016-05-002.md</a></p>
+<div class="translated" id="166681">
+<p>﻿" Cylance 团队在 Crestron AM-100 会议简报解决方案系统中发现了两个漏洞︰   <a href="https://t.co/jHc0i4btU0" rel="nofollow">https://t.co/jHc0i4btU0</a> <a href="https://t.co/6mDBxzckQC" rel="nofollow">https://t.co/6mDBxzckQC</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Giuseppe `N3mes1s` @gN3mes1s</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Driver Signing changes in Windows 10, version 1607 - <a href="https://blogs.msdn.microsoft.com/windows_hardware_certification/2016/07/26/driver-signing-changes-in-windows-10-version-1607/" rel="nofollow">https://blogs.msdn.microsoft.com/windows_hardware_certification/2016/07/26/driver-signing-changes-in-windows-10-version-1607/</a></p>
+<div class="translated" id="166429">
+<p>﻿"从 Windows 10 1607 版本开始，没有 Windows 开发者中心签名的硬件驱动将不会被加载：    <a href="https://t.co/abBEfv1Rgu" rel="nofollow">https://t.co/abBEfv1Rgu</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Christian @CheariX </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Our paper "How to Break Microsoft Rights Management Services" will be presented at #woot16.
+Results in short:
+<a href="https://web-in-security.blogspot.de/2016/07/how-to-break-microsoft-rights.html" rel="nofollow">https://web-in-security.blogspot.de/2016/07/how-to-break-microsoft-rights.html</a></p>
+<div class="translated" id="166366">
+<p>﻿" 如何攻击 Windows 权限管理服务（RMS）︰   <a href="https://t.co/jqN7UaMLtH" rel="nofollow">https://t.co/jqN7UaMLtH</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Kyle Hanslovan @KyleHanslovan </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Slick technique to make Win10 call LoadLibrary on DLL pointed to by Registry when accepting RDP sessions. #DFIR <a href="https://twitter.com/Hexacorn/status/758778031964028929" rel="nofollow">https://twitter.com/Hexacorn/status/758778031964028929</a></p>
+<div class="translated" id="166650">
+<p>﻿" Windows 10 在接受远程桌面（RDP）会话时，会读取某个注册表项，并尝试加载该表项 PATH 路径指定的 DLL：   <a href="http://www.hexacorn.com/blog/2016/07/28/beyond-good-ol-run-key-part-43/" rel="nofollow">http://www.hexacorn.com/blog/2016/07/28/beyond-good-ol-run-key-part-43/</a>   注册表项为： HKLM\SYSTEM\CurrentControlSet\Control\Terminal Server\AddIns\TestDVCPlugin "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/08/01/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/08/02/index.html">2016/08/02</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/08/03/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/03/06" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/03/06</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/03/05/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/03/06/index.html">2016/03/06</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/03/07/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Metaphor - a (real) real-life Stagefright exploit (bypassed ASLR for Stagefright) : <a href="https://raw.githubusercontent.com/NorthBit/Public/master/NorthBit-Metaphor.pdf" rel="nofollow">https://raw.githubusercontent.com/NorthBit/Public/master/NorthBit-Metaphor.pdf</a>  cc: @ _arkon</p>
+<div class="translated" id="106892">
+<p>﻿"Metaphor - 为 Stagefright 写一个能绕过 ASLR 的 Exploit（CVE-2015-3864，PDF）:    <a href="https://t.co/L9szXJrXic%C2%A0" rel="nofollow">https://t.co/L9szXJrXic </a> 这篇 Paper 的作者为 NorthBit 团队"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Francisco Alonso @revskills </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  This Chrome high severity bug I've reported 21 days ago is fixed ublink::PaintArtifact::appendToWebDisplayItemList <a href="https://gist.github.com/revskills/a40e500bb3d987acb5af" rel="nofollow">https://gist.github.com/revskills/a40e500bb3d987acb5af</a></p>
+<div class="translated" id="106987">
+<p>﻿"21 天前 revskills 报告给 Chrome 的 UAF 漏洞被修复了， 漏洞 Crash 调用栈信息：    <a href="https://t.co/1dXGIVJN5E" rel="nofollow">https://t.co/1dXGIVJN5E</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>HackSys Team @HackSysTeam</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Debug </i>]  @ standa_t <a href="http://code.google.com/p/hyperdbg" rel="nofollow">http://code.google.com/p/hyperdbg</a></p>
+<div class="translated" id="106864">
+<p>﻿"hyperdbg - 基于硬件虚拟化的内核调试器， Google Code：  <a href="https://code.google.com/archive/p/hyperdbg/" rel="nofollow">https://code.google.com/archive/p/hyperdbg/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Exploit </i>]  Understanding the Heap &amp; Exploiting Heap Overflows : <a href="http://www.mathyvanhoef.com/2013/02/understanding-heap-exploiting-heap.html" rel="nofollow">http://www.mathyvanhoef.com/2013/02/understanding-heap-exploiting-heap.html</a> #b2b</p>
+<div class="translated" id="106916">
+<p>﻿"堆溢出漏洞及其利用（Linux）， 2013 年的一篇 Blog:    <a href="https://t.co/L9enM9I5Ia" rel="nofollow">https://t.co/L9enM9I5Ia</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Ryan @Fuzion24</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  Nice article on 'breaking' kernel aslr for Linux: <a href="https://github.com/xairy/kaslr-bypass-via-prefetch" rel="nofollow">https://github.com/xairy/kaslr-bypass-via-prefetch</a> by @ andreyknvl</p>
+<div class="translated" id="106992">
+<p>﻿"通过 Prefetch 指令绕过 Linux 内核 KASLR， PoC：    <a href="https://t.co/kaD6NjzVOo" rel="nofollow">https://t.co/kaD6NjzVOo</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Enno Rey @Enno_Insinuator </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mac OS X </i>]  OS X Hardening Guide (written for Mountain Lion, but most points still apply)
+<a href="https://www.ernw.de/download/hardening/ERNW_Checklist_OSX_Hardening.pdf" rel="nofollow">https://www.ernw.de/download/hardening/ERNW_Checklist_OSX_Hardening.pdf</a> [PDF] <a href="https://t.co/ao7zMjQtTO" rel="nofollow">https://t.co/ao7zMjQtTO</a></p>
+<div class="translated" id="106880">
+<p>﻿"OS X 10.8 安全加固指南，2013 年的一篇 Paper：   <a href="https://t.co/Cqqm0PYN4V" rel="nofollow">https://t.co/Cqqm0PYN4V</a> [PDF]   <a href="https://t.co/ao7zMjQtTO" rel="nofollow">https://t.co/ao7zMjQtTO</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CcxoKB4WIAAmOLZ.jpg" target="_blank">
+<img src="CcxoKB4WIAAmOLZ.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  CacheKit: Evading Memory Introspection Using Cache Incoherence : <a href="http://www.cs.wm.edu/~ksun/publications/CacheKit-eurosp2016.pdf" rel="nofollow">http://www.cs.wm.edu/~ksun/publications/CacheKit-eurosp2016.pdf</a> (pdf)</p>
+<div class="translated" id="106893">
+<p>﻿"CacheKit: 利用缓存不一致性逃逸内存自省，Paper:   <a href="https://t.co/ZPUqfErxQL" rel="nofollow">https://t.co/ZPUqfErxQL</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> ThirdParty </i>]  Malformed Private Keys Lead To Heap Corruption In Openssl’s B2i_pvk_bio : <a href="https://wartalker.me/a/56d62d1aeff2a2688884a075" rel="nofollow">https://wartalker.me/a/56d62d1aeff2a2688884a075</a></p>
+<div class="translated" id="106881">
+<p>﻿"特殊构造的私钥文件可以触发 OpenSSL B2i_pvk_bio 函数堆破坏， Blog:    <a href="https://t.co/sfAWELLF9m" rel="nofollow">https://t.co/sfAWELLF9m</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Trillium Toolkit Leads to Widespread Malware <a href="https://blogs.mcafee.com/mcafee-labs/trillium-toolkit-leads-widespread-malware/" rel="nofollow">https://blogs.mcafee.com/mcafee-labs/trillium-toolkit-leads-widespread-malware/</a></p>
+<div class="translated" id="106824">
+<p>﻿"Trillium  工具可以生成恶意软件下载器， 攻击者常常使用这个工具，上周 Trillium v3 版本刚刚被破解：    <a href="https://t.co/1tB3TSmXO2" rel="nofollow">https://t.co/1tB3TSmXO2</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Ransomware tracker : <a href="https://ransomwaretracker.abuse.ch/" rel="nofollow">https://ransomwaretracker.abuse.ch/</a></p>
+<div class="translated" id="106891">
+<p>﻿"勒索软件跟踪器:   <a href="https://t.co/UCKJ1EvWKq" rel="nofollow">https://t.co/UCKJ1EvWKq</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/03/05/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/03/06/index.html">2016/03/06</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/03/07/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

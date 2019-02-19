@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/03/25" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/03/25</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+    color: #a7a7a7;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 15px;
+    /*color: #a7a7a7;*/
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.singlefeedtext p{
+    font-size: 15px;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        //console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        //console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            //console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/03/24/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/03/25/index.html">2017/03/25</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/03/26/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  x33fcon @x33fcon </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Brilliant writeup about hunting #Bloodhound inside corporate network <a href="https://community.hpe.com/t5/Security-Research/Where-s-wald0-Sniffing-out-the-Bloodhound/ba-p/6919030" rel="nofollow">https://community.hpe.com/t5/Security-Research/Where-s-wald0-Sniffing-out-the-Bloodhound/ba-p/6919030</a></p>
+<div class="translated" id="257558">
+<p>﻿"HP 这篇 Blog 介绍了一款威胁可视化工具 - Veris’s ATD：   <a href="https://t.co/R5MqwsLH7T" rel="nofollow">https://t.co/R5MqwsLH7T</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Detecting deserialization bugs with DNS exfiltration : <a href="http://gosecure.net/2017/03/22/detecting-deserialization-bugs-with-dns-exfiltration/" rel="nofollow">http://gosecure.net/2017/03/22/detecting-deserialization-bugs-with-dns-exfiltration/</a></p>
+<div class="translated" id="257739">
+<p>﻿"借助 DNS 解析来检测 Java 反序列化漏洞︰   <a href="https://t.co/fDxoU1DBpK" rel="nofollow">https://t.co/fDxoU1DBpK</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Ostinato – A Network Traffic Generator and Analyzer :  <a href="http://ostinato.org/" rel="nofollow">http://ostinato.org/</a> , Demo : <a href="https://youtu.be/On64lQYEFlY" rel="nofollow">https://youtu.be/On64lQYEFlY</a> <a href="https://t.co/GKoycY5EVc" rel="nofollow">https://t.co/GKoycY5EVc</a></p>
+<div class="translated" id="257798">
+<p>﻿"Ostinato —— 一个网络流量生成与分析工具，同时也提供 Python API 以便自动化网络测试︰   <a href="https://t.co/yU1wIaTu6S%EF%BC%8CDemo%EF%B8%B0" rel="nofollow">https://t.co/yU1wIaTu6S，Demo︰</a> <a href="https://t.co/1g4aUgyf4Z" rel="nofollow">https://t.co/1g4aUgyf4Z</a> <a href="https://t.co/GKoycY5EVc" rel="nofollow">https://t.co/GKoycY5EVc</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C7sRY5RXgAAk3Pn.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/C7sRY5RXgAAk3Pn.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  hashview : A web front-end for password cracking and analytics : <a href="https://github.com/hashview/hashview" rel="nofollow">https://github.com/hashview/hashview</a> ,More : <a href="http://www.hashview.io/" rel="nofollow">http://www.hashview.io/</a></p>
+<div class="translated" id="257828">
+<p>﻿"hashview -- hashcat 密码破解的 Web 可视化和管理平台︰   <a href="https://t.co/zoay8x3wj7%C2%A0" rel="nofollow">https://t.co/zoay8x3wj7 </a> 更多︰   <a href="https://t.co/wgLprwVCGq" rel="nofollow">https://t.co/wgLprwVCGq</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Shahriyar Jalayeri @ponez </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Security Patch Analysis for Binaries
+<a href="http://sist.shanghaitech.edu.cn/faculty/songfu/publications/icse17.pdf" rel="nofollow">http://sist.shanghaitech.edu.cn/faculty/songfu/publications/icse17.pdf</a>
+<a href="https://sites.google.com/site/binaryanalysisicse2017/home" rel="nofollow">https://sites.google.com/site/binaryanalysisicse2017/home</a> /cc @  Laughing_Mantis</p>
+<div class="translated" id="257637">
+<p>﻿"SPAIN - 这篇 Paper 介绍了一个针对二进制程序的大规模补丁分析框架：   <a href="https://t.co/hnnqyBZXf4" rel="nofollow">https://t.co/hnnqyBZXf4</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>NCC Group @NCCGroupInfosec</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  NCC Group Advisory: D-LINK DIR-850L pre-auth web admin interface stack-based buffer overflow - <a href="https://www.nccgroup.trust/uk/our-research/d-link-dir-850l-web-admin-interface-vulnerable-to-stack-based-buffer-overflow/?research=Technical+advisories" rel="nofollow">https://www.nccgroup.trust/uk/our-research/d-link-dir-850l-web-admin-interface-vulnerable-to-stack-based-buffer-overflow/?research=Technical+advisories</a> by @ zlowram_</p>
+<div class="translated" id="257764">
+<p>﻿"D-LINK DIR-850 L Web 管理界面存在栈溢出漏洞：   <a href="https://t.co/US9IWvjq0g" rel="nofollow">https://t.co/US9IWvjq0g</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/03/24/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/03/25/index.html">2017/03/25</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/03/26/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

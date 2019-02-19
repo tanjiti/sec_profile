@@ -1,0 +1,5 @@
+.DS_Store
+.idea
+*.pyc
+*/*.pyc
+nlp_analysis.py

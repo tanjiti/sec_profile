@@ -1,0 +1,1689 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+
+
+        <script nonce="409633490" type="text/javascript">
+            window.logs = {
+                pagetime: {}
+            };
+            window.logs.pagetime['html_begin'] = (+new Date());
+        </script>
+        <title>
+ APT 攻击链及事件响应策略
+</title>
+        
+<style>.radius_avatar{display:inline-block;background-color:#fff;padding:3px;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;overflow:hidden;vertical-align:middle}.radius_avatar img{display:block;width:100%;height:100%;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;background-color:#eee}.rich_media_inner{word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.rich_media_area_primary{padding:20px 16px 12px;background-color:#fafafa}.rich_media_area_primary.voice{padding-top:66px}.rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{color:rgba(0,0,0,0.3);background-color:#fafafa}.rich_media_area_extra{padding:0 16px 24px}.rich_media_extra{padding-top:30px}.mpda_bottom_container .rich_media_extra{padding-top:24px}.mpda_bottom_container .rich_media_extra .mpad_more_list{right:-10px}html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;line-height:1.6}body{-webkit-touch-callout:none;font-family:-apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif;color:#333;background-color:#f2f2f2;letter-spacing:.034em}h1,h2,h3,h4,h5,h6{font-weight:400;font-size:16px}*{margin:0;padding:0}a{color:#576b95;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_title{font-size:22px;line-height:1.4;margin-bottom:14px}@supports(-webkit-overflow-scrolling:touch){.rich_media_title{font-weight:700}}.rich_media_meta_list{margin-bottom:22px;line-height:20px;font-size:0;word-wrap:break-word;word-break:break-all}.rich_media_meta_list em{font-style:normal}.rich_media_meta{display:inline-block;vertical-align:middle;margin:0 10px 10px 0;font-size:15px;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_meta.icon_appmsg_tag{margin-right:4px}.rich_media_meta.meta_tag_text{margin-right:0}.rich_media_meta_primary{display:block;margin-bottom:10px;font-size:15px}.meta_original_tag{padding:0 .5em;font-size:12px;line-height:1.4;background-color:#f2f2f2;color:#888}.meta_enterprise_tag img{width:30px;height:30px!important;display:block;position:relative;margin-top:-3px;border:0}.rich_media_meta_link{color:#576b95}.rich_media_meta_text{color:rgba(0,0,0,0.3)}.rich_media_meta_text.rich_media_meta_split{padding-left:10px}.rich_media_meta_text.rich_media_meta_split:before{position:absolute;top:50%;left:0;margin-top:-6px;content:' ';display:block;border-left:1px solid #888;width:200%;height:130%;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0}.rich_media_meta_text.article_modify_tag{position:relative}.rich_media_meta_nickname{position:relative}.rich_media_thumb_wrp{margin-bottom:6px}.rich_media_thumb_wrp .original_img_wrp{display:block}.rich_media_thumb{display:block;width:100%}.rich_media_content{overflow:hidden;color:#333;font-size:17px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;text-align:justify;position:relative;z-index:0}.rich_media_content *{max-width:100%!important;box-sizing:border-box!important;-webkit-box-sizing:border-box!important;word-wrap:break-word!important}.rich_media_content p{clear:both;min-height:1em}.rich_media_content em{font-style:italic}.rich_media_content fieldset{min-width:0}.rich_media_content .list-paddingleft-2{padding-left:2.2em}.rich_media_content .list-paddingleft-2 .list-paddingleft-2{padding-left:30px}.rich_media_content blockquote{margin:0;padding-left:10px;border-left:3px solid #dbdbdb}img{height:auto!important}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:portrait){.rich_media_area_extra{padding-bottom:34px}}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:landscape){.rich_media_area_primary{padding:20px 60px 15px 60px}.rich_media_area_extra{padding:0 60px 21px 60px}}@media screen and (min-width:1024px){.rich_media_area_primary_inner,.rich_media_area_extra_inner{max-width:677px;margin-left:auto;margin-right:auto}.rich_media_area_primary{padding-top:32px}}.appmsg_share_notice{font-size:16px;color:#888;position:relative;padding:1.25em 0;margin-bottom:1.75em}.appmsg_share_notice:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice_hd{font-weight:700;padding-bottom:.2em}.cell{padding:.8em 0;display:block;position:relative}.cell_hd,.cell_bd,.cell_ft{display:table-cell;vertical-align:middle;word-wrap:break-word;word-break:break-all;white-space:nowrap}.cell_primary{width:2000px;white-space:normal}.flex_cell{padding:10px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.flex_cell_primary{width:100%;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;box-flex:1;flex:1}.original_tool_area{display:block;padding:.75em 1em 0;-webkit-tap-highlight-color:rgba(0,0,0,0);color:#333;border:1px solid #eaeaea;margin:20px 0}.original_tool_area .tips_global{position:relative;padding-bottom:.5em;font-size:15px}.original_tool_area .tips_global:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dbdbdb;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:27px;height:27px;padding:0;margin-right:.5em}.original_tool_area .radius_avatar img{height:100%!important}.original_tool_area .flex_cell_bd{width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal}.original_tool_area .flex_cell_ft{font-size:14px;color:#888;padding-left:1em;white-space:nowrap}.original_tool_area .icon_access:after{content:" ";display:inline-block;height:8px;width:8px;border-width:1px 1px 0 0;border-color:#cbcad0;border-style:solid;transform:matrix(0.71,0.71,-0.71,0.71,0,0);-ms-transform:matrix(0.71,0.71,-0.71,0.71,0,0);-webkit-transform:matrix(0.71,0.71,-0.71,0.71,0,0);position:relative;top:-2px;top:-1px}.rich_media_global_msg{position:fixed;top:0;left:0;right:0;padding:.85em 35px .85em 15px;z-index:2;background-color:#c6e0f8;color:#888;font-size:12px}.rich_media_global_msg .icon_closed{position:absolute;right:15px;top:50%;margin-top:-5px;line-height:300px;overflow:hidden;-webkit-tap-highlight-color:rgba(0,0,0,0);background:transparent url(//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_appmsg_msg_closed_sprite.2x42f400.png) no-repeat 0 0;width:11px;height:11px;vertical-align:middle;display:inline-block;-webkit-background-size:100% auto;background-size:100% auto}.rich_media_global_msg .icon_closed:active{background-position:0 -17px}.rich_media_global_msg.voice{color:#1aad19;background-color:#e8f6e8;padding-left:43.3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.rich_media_global_msg.voice .ic_voice{position:absolute;top:50%;margin-top:-10px;left:15px;display:inline-block;width:13.3px;height:18.3px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAA3CAYAAAB+fggjAAAAAXNSR0IArs4c6QAACb9JREFUaAW9WX9wVMUd3917d5cf/Agp1OTuQgIlQqUoI1JI1Noojg2I+VU7hVrtDDpadRypgzKjU52x09KOdsS20ypSO/WPWttcAqhTOlSoU4FIoRUn0wEZIMndBUkwGEhyv97bfvaS97L77t3lHYUuc+z3935397vf/e4LJZfQnuPPsW0d25ZQzr9mELKSUnIVzHxB/Dh+lBOKf4OEk0FOyQAl/CyltIt5tL29d/V2FzIkLUQ4FA7dwon+KCF0Fee8rBBdS5aSs/D+PUrYbyKtkb9b9BzAlA7CERrqDN1DOH8C8HU57FwSGat6kBGypbcluhMwFj+75XWwemf1vHQqtZ0T3pCtelkp73uJ79s9bT39dqs5HQyFK79jcPIKFErtSgLHjPvQHQB0EFt2hDE2QHU6RMvpkODrw3o50Uk5p3w2N/SlUKhHTNZjskHBz2pi6ylbH22J/k3mOToYCAceIYT/AgYVPhxJQTkMQ792Ez/yQCY8d0fgRl0nj8J2G5z1mvSJ3qCMrYOTb5l0xQFBDIUDjxmcbzUFJnu621/kf/DUmlM9k7RLh4LtwRChxquck0bFCqWjxENuijXF/iXoioNVnZU36wZ5D7PTTCWsWhyp4uFYa+x1k3Y5ezj6oNgtdTVpL0Lo+mhr9BwO0Xib+/bcWYZB35Sdg/sXsOSNV8o5MXK0LfoKYXQDxpJOMZ8L1g8E33JQT6aeQRoJCOJEMxjxfCvSEtlnEq5Uj5h7Ayv2I8U+5w9du/va0oyD896ZV004RQKebIzQ53EQ/jJJubJQhUa2YBXPmqNgy8vPjZ67N+NgMh6/HwSfyURgniwqLvmJif8/+sNrY6O4XV5WxjKMuvHDQOl9uCksHmX0xydWn0hYBJfAgncXzBhNjjZSnX8Fq3ENdmWWUMUhS2Ebv5HrtjDNg/+B5IY4wos0cVukUskqUwj9xfKS2W9GSEwi5QdxFS5BMn54dGzkHkhOy0x18j9COY1O5VxmhGJylIxMjgUTC7WUkfrqJAkQpfuP3nFUElO4WUgwHHza0HU1wG1SGOi0jeSI+kf92hgZlXg0yajBV0gUwri4vqZud/O7PbhxkGiNvM5NWHKV3NN8LGQbuVdDsYIVzOzHOI+ygzYhR/RAxwdbELcPZDEp+Q+2YQcS2L+Zwc4gdSUQS7Oz5BwIKUqWyq5ApEdDsVmhBKaHnHDQVUg1uwKLkkm+USEScsbjId/ra+7fbaMThMHVdpoTjuyxXloqcUg+Eqe4WBb26/5hGXeCkynyfdA9Fo/SQeZlN/StjUQtmgQUFxVnKhyJlAUGOgP13OC3ygxGWZhhSYtkYqIicUHGnWCUluoFz8mzkRzOCf14Wfyikx2ThvQ0B6XZdvhi1QaoAfZHmiMf40xMJmih4BvxWQnbNCD3i/cunoYab4FMQwr5o4zb4Uh9ZMxOM3Fsf91YfPQfOAeLTJrouYc8K3rEII0ikBcKRLTEhUQNuo8E7NSGh4dnyDOFzIioOpxkZdqyXYGSAV2rMYjhIUamkL2ZcANvG+MWWS4DU/parDm2R8AiBj/Bz3IQe14DPKeDRho1hNyonFplhgp/mmaNhpH6s0VVToNFxR7TPcVFJVZdgMG4cNBq0LvRQhyA2vLaMyDrFouTL169KzBlGkEofdnScQYMXBI/raiuXC1fs4wz2iXLI+U0y7gd3tewL41IVhLvmM6X2eWycM7nZ9EEAXWgWDWPpjWg7tx8+IbD4llhNTadTn8XcWgVBphprbhbLQkngJK/ymTdoE/IuDPME5jYSYx1HLn3EH6/B77Rq/m+FG2L3d7X1Pe+kx5kCBJp4G0clDWmAJTD0db+NhO398GO4G3cMDJBbPIY9bShfgyb+OXqMwGPV9rrskFsc6t4fck0GRZPQ5GnZBpO4x/wvrAmKfP+FzjjYF9zn5i58s0ET8MX8hnGc+BxOGnFi8innBg7UUBsFaV6Pt1CeBMrKD73qG8CbPnKUHvg/lzG+tr6DlGWufJkEWQp/tjgyMBJPF+fWrhj4XSZeSlwJgaFIhyioY7gHvS3moYyK6TRO6JN0b0mzd6HOgIbEBK/gp7fzsOBGMLUX2Z+bWvvnb1T3sd2fYFbDgoET8/56UTqKEBrizDIeY1463tae1BGObeq9qrlBtXb4aRcmVvCmOjneFq+UFZW9lJ3Q3fee9lSmgAUBwUNd+N9CPjfTfDHO0pO+z1FK081nfpUoUuIuKPPD322Gav5OMjWBCURRBGN4GH0QCGvxSwHhcFguPLnGEip97AKXd5y39dPN5yOy4PaYXGrjKToRsTMIzg4M+38cZz+LNYWe8qZp1Izh0QlEVLfctMmzNb6gCP4GGxFcij5W7usHT++NjaI4uHpadr0KkbpZvAH7DKw9iRi98lsejbFcQWF2LJ/LvOe6Yl14m5eLavhU8gqkQdlWj5YnOSL+sXNWNFNmKT1NQsLkGAez3zcIHmfj44rKAYUd2Jxcek6HCP1cHD+Ig5DzonZnT3WdOyCWFGukRUIwkGTL069kdYz319MmlOf00EhjKpiWKPku7IiDF9X3RHMecvIsjIsPqdh1ewO3SXLOMF5HRQKvS39h5GNOmVlnZP1Mu4W9pZ5/4TDZh0ybHkt3iKOqcm0OaWDQpB52DZTQfQo+Vtl3C08kQGO2OStYtlGz6CuHJxZO3MPYnHYMsDJVSKpW3ghAOXKsxaPoup86q4c7F7cncSyHZANGen0Shl3C+PSPy/L4qmZ97525aAwiMLgQ8Uwp8tl3C2MASff00KJMRW3GXLtIFbwY1kXp/kaGXcL42AoDqHit6p5JxuuHfQwj1IvIhFO9QhyGk/QpskM/C3Gyo0y3YRdOzgnNOcTHJS0qYgVrBIfLE28gF75ToN3bySfrmsHM68tTo7JxuKJ+PUyPhWcqbQ5XarI+TRlZxQeENcOjitS5dMc5/oqu8F8+ODI4FrEoPVpBTfL8akK2YIc9DCiFAkoyTbUdNSU5XPK5Im/MQPeZOKZnpNdCu6AFOTgrJLZO2FDrogrUjyxPbQ/VOxgWyG9Fn71h6hoJkMC8exlvl8qQg6I66rE1A22Vz6PEuwZExe92CrQtmmU72U+fzQ9K/15XV1dsuudrhlc50t0XX8Izq1TdAh5I9rWf69Mc4ILdlCU9kNDn32ICvZS0wySAY2W+shSUdw6OSXTCtpioSgePZrPeydWTUncstF8MPRw1dFvunFO2CnYQaGEk3cSn8iWYyVeBGoImqtG6RHxQsQfEJVskE+34C22GxOfb8fiY40owtaAJ0qnciTxcvSlE7VfBPX3IQ8lb/U2R3dgBRGu7tt/AYJkZEGv/oaXAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.rich_media_global_msg.voice .icon_more{position:absolute;right:15px;top:50%;margin-top:-6.5px;width:8px;height:13px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAmCAYAAADeB1slAAAAAXNSR0IArs4c6QAAA49JREFUSA2tVk1IVFEUPveOmhQk1ibfvLFZSJtACqJIIpCIoB+imcFV2Z9ZUVnRomgRGFn2i6mFf5XVotCZMYmgIMhlq6BFENFiwjfPAosgFzXOvNu5o3fmeue98Y16F3PP+c453/fu/xCQmvZSWwwJaC0G6P8WND9IoTmbVFRycpqAdgBWkwRo94V960RsPn1aoPpN9RI6CR0WsDWcjAErtUiqTR/S18+HnNcSTv5zYrwDSatVMgLkH6aciwfj79WYW5+OT4xfsyPnBIgvwt872qBW45ZQzaMlJXCfMPJbDQgfRUoIhduVUW2TwArpaWyX+bnYU9JAAH44FaJIccqCW76Ib7NTjhOOvFPN/8q/IvE3cR+npFJgao9rkiSUXjD2GCNqzMnPbNPYjth3mqINlJAvTsk4kiJmWa3eQe8WpxwVzwjwgFFn/CorL29EkY9qovC5CFDrKq7JVoHl6zNTJCf53/lLk78SN/FcbJRx2cZCixC4ZATGXsu4as8YgQjGamN/q5atOotn4K3A1J4BUMbgsh7Wt6sx2bcV4AkjtSPJxkDjRQL0hVwg21zEglSzN+rdKeOybTtFcgK39ajWZDFWr+IZHxfGQ8mV0YA5nMGmDVcCPNcb8R5gYJ1UCWQfp6PFCI4NyZhrAV6EIiHGrPOAB0ImkW2c0la8u8ICc0wUCWrvC1dsw+3TnN6uanDaJ4zeiIfiA9wtWIAX8XspxeA6iuBlaN88hNzCNXk+JwFOuXJYW5tMQmc+EcqgzXGb2n9XFk1NstX5yKczl89JAF+6vRaBM1m5XAu//qkRGrtb8BThTtqH2/V0LmUWwbvsiREw8X0vcJHxxNbjNm3KUuVaMjmPFuWm2CPesHc/kp+yj06hFMhj/PIOOcfVFLk6xZT0G3vMTpmc27MusityZk/OBfKOwA05MPLIDJn3OJldcxTQotpBYOyEXVEWIw/NoInvuHOznSJfVDs0GzneNw9mI+eyOSPQI9phfCqPO38TFhHaFw/Eu/LliNiMESB5w6zkzD05F8mMYJr8mFC263Fa+vAadvXloj4toEcrjlgMjgrQrseHpBcfkm67WD6M6MN6lTWZeoZjyYxGLcB57MGnsEfF3fjU2G189QBpcUqmBLrnSs4504s8GjLxrwm5qYrg3dKFf6x6VbwQ3yOS/wz8+bS0ruwfELaBY2nyoNkn4gvW65GKRn4WForwP+dONHDaOHeZAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.preview_appmsg .rich_media_title{margin-top:2.3em}@media screen and (min-width:1024px){.rich_media_global_msg{position:relative;margin-bottom:32px}.preview_appmsg .rich_media_title.rich_media_title{margin-top:0}}.pages_reset{color:#333;line-height:1.6;font-size:16px;font-weight:400;font-style:normal;text-indent:0;letter-spacing:normal;text-align:left;text-decoration:none;white-space:normal}.weapp_element,.weapp_display_element,.mp-miniprogram{display:block;margin:1em 0}.share_audio_context{margin:16px 0}.weapp_text_link{font-size:17px}.weapp_text_link:before{content:'';display:inline-block;line-height:1;background-size:contain;background-repeat:no-repeat;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAB4RJREFUWAm1WUuMFGUQnn7szL5mdvbh7GwgEQUlS1weiagxxpigiUZeJgY1cMMDcDCGG8GLCWZvxHjh4BWUeDEsejBBEzWYKBBEiHAABBfCMOwsuzvszrvb+v6Zb7amt1ce0Up6qv6q+qq+/rv778dYkUeUqamp5dFodJPv++ts205blpX2PG8I5cTOiLol44zYZ8vl8vFkMnnlUVpZDwPK5/MpIbWrVqttFlLD0jwiBEHIaNbCGKJjQvai+I9Xq9VD8Xg8y9z76QcimM1mu3t6ej4UYh84jtOFxhBNJGxskhp5xIielZ37bHp6+tNUKnWPOYvp+xKcm5t7S4gclKIpFNGzsmjRkBnUOwNbZjQrtfZ2dnZ+vVgd+O1/CVqlUukjIXZYCqZADBuEJIllc4xh61zmaB9s7LDkHkYPwJgX1KEEx8fHO2TmjkjyPgLQmERIAjHajGnyjDGPOfQ3xvvQCz3ZS+sw5hYAsodbWBhNw4SNGCMBnR/MYS60jskhPyaHe7u4W5otmEGZ8v0gx2YsyDE0bc4Wx8glOe2Dn2No2hqPnuiNXC0tM9i4IA5LcksjNm0BNs417aMNAsRom3HoMD8wsu3QF06TIJaSRCJxXrDmamUBrVEYRejDmDY0JEgsLE4f8mkTj6tb1tsRLkEukiBY56Q4rizThI2okaNtjFlUx+Cr1vzIyTMz7uW/ik4mV7Yd24oMDrR5q1Z01Nav6a5yVsLwcvRS4CI1D5ge+MEdQhbgC1yECSQhjMNsYCGMQ2dzFeuLYxOxibuVBec3cpekY7XtWwZK8a75sMajj2yzcsd5BnccM4PCeg/JoQjJwAY4TFgUMeRjXK54kS/H6uR6e1xvw4vJyuNLYh5yrt8s2d//MtV2M1Nyvvo2F9u5LVUSJEJNPPtKrS7XdXdL6GOzG+LYqIJNUiShYyRDjRw2OXnmnntnsmInE663e3u6uHZVZy2ZsH1sa4Y7ant2DBURu3aj6Jz9c9YBVuNRhz6pvwlju1gsPikzaG78CKIxNgh1sAj91MhFztXrRQf2C+vi1Y721tMC/vZYPQb78rWCE8Tr/uCEJyZbrprNAAST4QOAIGj6qBnDGPjZgmeS0gNRc1jD8D1xx+y978/XJh4awl54nHOl8Do6STKoDarxg5gmxpj2yTEwbtZhDvSlKwUzy+lU1NPxFvz8EcSzpnnYXDCD3AtqFtOFGNM+kMBYx+DzPD/y86m8e+7SnBON2v7qlR01ncP6Gg9uriSlGSSAYyTDhl/7bmTK9tXxkj3ydFetL4lTqT5jyIdgTB/0qT9m3R9/zbvT+Yottfw3XuktJxP1Q61rh/QfcuUcHBKmzcIwdCILQE/crVpHj9+JZe7U17hSyau89lJPxYDVD3KJm5qpWWMnJqMIY+nZvKGv/NQT7ebwcicI5RhYiHBLYx30WQxObWNMyQm5Q0cy7ULK6up0/PUj3dWXn48bckEMGrGZkPJ3bhssunLmLR2qXzyIacxitvT2XZm9jABWMEmD6QPJYzILILdyeWf13Y39ZTSEMAeaQpuxZUujHn26fhCPmI6Dmy0OvIE1AyyqfYWiH7n6d9GJxWz/7df7FpBjLjQETag1Me1HPKxXwJfByXeLRViUYGiI3F/NSYr1raPdNoXh594S75nVT1Z/mUz6kAfhGJp2EI887gRy5Bw0M/g7ndQI0gZISJkpyU6WbTm7m8RYELnFkh+ZnK4/qCTiWF4XXtk6X5NkLjX7iz4rh9keAxBODaKNWKrf9Qd627yC3Cm++2m6DbHWYpHI2Im7UfFZqf6oN9DrmAsPWIquH8QjR8dRG2O88JszW56kTwvRYSayOYtD37xdsT8/ejtWq/nWsqXttdXDHdW+RNTHY9Vv5/IuTgPHtfxd7w0V04/V1ziND5IiCeTofsyTw3tRnqyfNY9b8qg1JkktXwo0EKAlg23eO2/2l7/5YaoNTyPYNIFEt6xxr/aVQQ75QTxJkEBYnDFocEKOqYQHVnn+uiCBLji1IBnCBiVZ+U6fv+dmshV7cqpq9fY4/tBg1HtudXe1zeyuRs9fHMRrEvQBQT9smb1Z+YphHljr3cWJF2gB7NOENAhAjrWGP9iIPuZhDOFYa/hD8KOxWOyAweAHEnxpqnvrvyyofbQZg4boZsEcjrUO4mX2Wl6a6jdhQeAtSoJ70YDNoIMFwmJoqImF5Wgf8jHGRhx0Y9vLNzrkNQligPdRuZpHgyDEKIixMPMQow82/dC04YdgzFwdg0+2Uf1OjPzmOYhBQ6xCoYCX9626WDOo9pqNqHUO7IfBy0XxYJ8+UHdiYuJ9AHQT2GGiycHmmLNDkmFY+JCPXrlcbqcMW28/iCNpEcHnt/3SwHzhQiEIG5JAGDYsN8yHGjil5Ir9BKVDa4U5ta/xveagNDCfRBhDQ5JczEaujhHb0FlclMFzLpDTepEEgxijAL6VSCNcPLPw6aa0oSEgTZsx+GFjwyIsenRmZmbkfuQMDj8PKrjjyCHZIw02im7eGokHAQhnFjZ8GAux/+8jOhoFhX9DCIG1EsPfD9jMC5j4/rO/If4BCiyOk7IAfLMAAAAASUVORK5CYII=');vertical-align:middle;font-size:11px;color:#888;margin-right:6px;margin-top:-3px;background-position:center;height:20px;width:20px}.flex_context{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center}.flex_bd{-webkit-box-flex:1;-webkit-flex:1;flex:1;word-wrap:break-word;word-break:break-all}.original_page{background-color:#fff;font-size:16px}.account_info{padding:0 0 20px}.account_info .flex_bd{padding-left:.85em}.radius_avatar.account_avatar{width:40px;height:40px;padding:0}.account_nickname{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;line-height:1.2;color:#576b95;font-size:14px}.account_nickname_inner{font-weight:400;vertical-align:top}.account_desc{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;color:#b2b2b2;font-size:13px;line-height:1.2;padding-top:.3em}.account_desc_inner{display:inline;vertical-align:top}.share_notice{margin-bottom:20px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.share_media{padding-bottom:18px}.original_panel{padding:20px;background-color:#fcfcfc;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;overflow:hidden;position:relative}.original_panel:after{content:" ";border:1px solid #d8d8d8;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;position:absolute;top:0;left:0;width:200%;height:200%;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}.original_panel .original_account{margin-bottom:18px;position:relative;z-index:1}.original_panel .original_account_avatar{width:28px;height:28px;padding:0}.original_panel .original_account_nickname{padding-left:.85em;font-size:15px;color:#576b95}.original_panel_title{font-size:23px;color:#000;margin:0 0 16px}.original_panel_content{color:#333}.original_panel_tool{padding-top:20px;position:relative;z-index:1}.original_cell_nickname{display:inline-block;vertical-align:middle;font-weight:400;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:8em;color:#000}.original_tool_area{padding:1.17em 0;border-width:0;position:relative}.original_tool_area:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:20px;height:20px;margin-right:.2em}.original_tool_area .flex_cell{padding:0;font-size:14px}.original_tool_area .icon_access:after{margin-right:4px;top:0}.preview_appmsg .rich_media_title{margin-top:1.5em}.preview_appmsg .account_info{padding-top:3em}.original_page{background-color:transparent}.account_info{-webkit-tap-highlight-color:rgba(0,0,0,0);outline:0;padding-bottom:20px;font-size:14px}.account_info.appmsg_account_info{padding-bottom:32px}.account_info .radius_avatar img{background-color:transparent}.share_notice{font-size:16px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.original_panel{background-color:#fafafa}.original_panel:after{border-color:#e6e6e6}.original_panel .original_account_avatar{width:30px;height:30px}.original_panel_tool{font-size:14px}.original_panel_tool a{color:#576b95}.original_panel_content{font-size:17px}.share_media{padding-bottom:30px}.icon_appmsg_tag{display:inline-block;vertical-align:middle;padding:0 .5em;font-size:12px;line-height:1.5;background-color:#c3c3c3;color:#fff;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:70%}.icon_appmsg_tag.primary{color:#3bb638;padding:4px .78em;background-color:rgba(9,187,7,0.08);font-size:12px;border-top-left-radius:.95em 50%;-moz-border-radius-topleft:.95em 50%;-webkit-border-top-left-radius:.95em 50%;border-top-right-radius:.95em 50%;-moz-border-radius-topright:.95em 50%;-webkit-border-top-right-radius:.95em 50%;border-bottom-left-radius:.95em 50%;-moz-border-radius-bottomleft:.95em 50%;-webkit-border-bottom-left-radius:.95em 50%;border-bottom-right-radius:.95em 50%;-moz-border-radius-bottomright:.95em 50%;-webkit-border-bottom-right-radius:.95em 50%}.icon_appmsg_tag.default{border:1px solid rgba(0,0,0,0.1);color:rgba(0,0,0,0.3);background-color:transparent;padding:0 .54em;font-size:15px;line-height:1.3;border-top-left-radius:.67em 50%;-moz-border-radius-topleft:.67em 50%;-webkit-border-top-left-radius:.67em 50%;border-top-right-radius:.67em 50%;-moz-border-radius-topright:.67em 50%;-webkit-border-top-right-radius:.67em 50%;border-bottom-left-radius:.67em 50%;-moz-border-radius-bottomleft:.67em 50%;-webkit-border-bottom-left-radius:.67em 50%;border-bottom-right-radius:.67em 50%;-moz-border-radius-bottomright:.67em 50%;-webkit-border-bottom-right-radius:.67em 50%}.rich_media_meta_list .icon_appmsg_tag.default{margin-top:-1px}.icon_appmsg_tag.title_tag{background-color:#d04b4e}.icon_global_tag_wrp{text-align:right;padding-bottom:12px}.icon_global_tag{background-color:rgba(118,118,118,0.16);color:rgba(0,0,0,0.41);line-height:2.2;border-top-left-radius:1em 50%;-moz-border-radius-topleft:1em 50%;-webkit-border-top-left-radius:1em 50%;border-bottom-left-radius:1em 50%;-moz-border-radius-bottomleft:1em 50%;-webkit-border-bottom-left-radius:1em 50%;padding:0 1.8em 0 1.34em;font-size:12px;margin-right:-24px;display:inline-block;vertical-align:top}.global_plain_btn{display:inline-block;vertical-align:middle;padding:0 1em;line-height:2;font-size:14px;-webkit-tap-highlight-color:rgba(0,0,0,0);border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px}.global_plain_btn.primary{color:#1aad19;border:1px solid currentColor}.global_plain_btn.primary:active{color:rgba(26,173,25,0.6)}.wx_video_context{color:#fefefe;position:relative;background-color:#000}.wx_video_thumb,.wx_video_thumb_primary{position:absolute;left:0;width:100%;height:100%!important;top:0}.wx_video_thumb_primary{-webkit-background-size:cover;background-size:cover;background-position:50% 50%;background-repeat:no-repeat}.wx_video_play_btn{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);margin-top:-2px;font-size:0;border-width:0;background-color:transparent;padding:0;outline:0;z-index:2}.wx_video_play_btn:before{content:" ";display:inline-block;width:0;height:0;border-width:14px 0 14px 25px;border-color:transparent transparent transparent #fff;border-style:dotted dotted dotted solid}.wx_video_mask{position:absolute;top:0;left:0;right:0;bottom:0;z-index:1;background-color:rgba(0,0,0,0.5)}.place_audio_area{min-height:100px;background-color:#fdfdfd;display:block;margin:16px 0}.place_music_area{min-height:68px;background-color:#fdfdfd;display:block;margin:17px 0 16px}.rich_media_empty_extra{background-color:#fafafa}.appmsg_skin_default.rich_media_empty_extra{background-color:#fff}.appmsg_skin_default .rich_media_area_primary{background-color:#fff}.appmsg_skin_default .rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{background-color:#fff}.appmsg_style_default .rich_media_tool{padding-top:15px}.rich_media_title_ios{font-weight:700}.read-more__area{margin:30px 0}.read-more__desc{margin-bottom:10px}.read-more__article__extra{font-size:14px;color:rgba(0,0,0,0.5)}.read-more__article__item{margin-bottom:10px}</style>
+<style>
+        </style>
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/pc435ee6.css">
+<![endif]-->
+
+    </head>
+    <body id="activity-detail" class="zh_CN mm_appmsg  appmsg_skin_default appmsg_style_default">
+        
+<script nonce="409633490" type="text/javascript">
+    var biz = ""||"MzI5MDQ2NjExOQ==";
+    var sn = "" || ""|| "67253f6bbe85fe65c79540d2e8cae70d";
+    var mid = "" || ""|| "2247488249";
+    var idx = "" || "" || "1";
+    window.__allowLoadResFromMp = true; 
+    
+        
+</script>
+<script nonce="409633490" type="text/javascript">
+var page_begintime=+new Date,is_rumor="",norumor="";
+1*is_rumor&&!(1*norumor)&&biz&&mid&&(document.referrer&&-1!=document.referrer.indexOf("mp.weixin.qq.com/mp/rumor")||(location.href="http://mp.weixin.qq.com/mp/rumor?action=info&__biz="+biz+"&mid="+mid+"&idx="+idx+"&sn="+sn+"#wechat_redirect"));
+</script>
+<script nonce="409633490" type="text/javascript">
+var MutationObserver=window.WebKitMutationObserver||window.MutationObserver||window.MozMutationObserver,isDangerSrc=function(t){
+if(t){
+var e=t.match(/http(?:s)?:\/\/([^\/]+?)(\/|$)/);
+if(e&&!/qq\.com(\:8080)?$/.test(e[1])&&!/weishi\.com$/.test(e[1]))return!0;
+}
+return!1;
+},ishttp=0==location.href.indexOf("http://");
+-1==location.href.indexOf("safe=0")&&ishttp&&"function"==typeof MutationObserver&&"mp.weixin.qq.com"==location.host&&(window.__observer_data={
+count:0,
+exec_time:0,
+list:[]
+},window.__observer=new MutationObserver(function(t){
+window.__observer_data.count++;
+var e=new Date,r=[];
+t.forEach(function(t){
+for(var e=t.addedNodes,o=0;o<e.length;o++){
+var n=e[o];
+if("SCRIPT"===n.tagName){
+var i=n.src;
+isDangerSrc(i)&&(window.__observer_data.list.push(i),r.push(n)),!i&&window.__nonce_str&&n.getAttribute("nonce")!=window.__nonce_str&&(window.__observer_data.list.push("inlinescript_without_nonce"),
+r.push(n));
+}
+}
+});
+for(var o=0;o<r.length;o++){
+var n=r[o];
+n.parentNode&&n.parentNode.removeChild(n);
+}
+window.__observer_data.exec_time+=new Date-e;
+}),window.__observer.observe(document,{
+subtree:!0,
+childList:!0
+})),function(){
+if(-1==location.href.indexOf("safe=0")&&Math.random()<.01&&ishttp&&HTMLScriptElement.prototype.__lookupSetter__&&"undefined"!=typeof Object.defineProperty){
+window.__danger_src={
+xmlhttprequest:[],
+script_src:[],
+script_setAttribute:[]
+};
+var t="$"+Math.random();
+HTMLScriptElement.prototype.__old_method_script_src=HTMLScriptElement.prototype.__lookupSetter__("src"),
+HTMLScriptElement.prototype.__defineSetter__("src",function(t){
+t&&isDangerSrc(t)&&window.__danger_src.script_src.push(t),this.__old_method_script_src(t);
+});
+var e="element_setAttribute"+t;
+Object.defineProperty(Element.prototype,e,{
+value:Element.prototype.setAttribute,
+enumerable:!1
+}),Element.prototype.setAttribute=function(t,r){
+"SCRIPT"==this.tagName&&"src"==t&&isDangerSrc(r)&&window.__danger_src.script_setAttribute.push(r),
+this[e](t,r);
+};
+}
+}();
+</script>
+
+        <link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<script nonce="409633490" type="text/javascript">
+    String.prototype.html = function(encode) {
+        var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&yen;", "¥", "&amp;", "&"];
+        
+		
+		
+		
+		
+        
+        var replaceReverse = ["&", "&amp;", "¥", "&yen;", "<", "&lt;", ">", "&gt;", " ", "&nbsp;", '"', "&quot;", "'", "&#39;"];
+	    var target;
+	    if (encode) {
+	    	target = replaceReverse;
+	    } else {
+	    	target = replace;
+	    }
+        for (var i=0,str=this;i< target.length;i+= 2) {
+             str=str.replace(new RegExp(target[i],'g'),target[i+1]);
+        }
+        return str;
+    };
+
+    window.isInWeixinApp = function() {
+        return /MicroMessenger/.test(navigator.userAgent);
+    };
+
+    window.getQueryFromURL = function(url) {
+        url = url || 'http://qq.com/s?a=b#rd'; 
+        var tmp = url.split('?'),
+            query = (tmp[1] || "").split('#')[0].split('&'),
+            params = {};
+        for (var i=0; i<query.length; i++) {
+            var arg = query[i].split('=');
+            params[arg[0]] = arg[1];
+        }
+        if (params['pass_ticket']) {
+        	params['pass_ticket'] = encodeURIComponent(params['pass_ticket'].html(false).html(false).replace(/\s/g,"+"));
+        }
+        return params;
+    };
+
+    (function() {
+	    var params = getQueryFromURL(location.href);
+        window.uin = params['uin'] || "" || '';
+        window.key = params['key'] || "" || '';
+        window.wxtoken = params['wxtoken'] || '';
+        window.pass_ticket = params['pass_ticket'] || '';
+        window.appmsg_token = "";
+    })();
+
+    function wx_loaderror() {
+        if (location.pathname === '/bizmall/reward') {
+            new Image().src = '/mp/jsreport?key=96&content=reward_res_load_err&r=' + Math.random();
+        }
+    }
+
+</script>
+
+<script nonce="409633490" type="text/javascript">
+        window.__moon_report_uin = "0";
+            window.no_moon_ls = 0;
+    </script>
+
+        
+<script nonce="409633490" type="text/javascript">
+    var write_sceen_time = (+new Date()); 
+</script>
+
+<div id="js_article" class="rich_media">
+    
+    <div id="js_top_ad_area" class="top_banner"></div>
+    
+    <div class="rich_media_inner">
+
+        
+        
+        <div id="page-content" class="rich_media_area_primary">
+          <div class="rich_media_area_primary_inner">
+                                    
+                        
+
+            <div id="img-content">
+
+                
+                <h2 class="rich_media_title" id="activity-name">
+                    
+                    
+                    APT 攻击链及事件响应策略
+
+                                                                                </h2>
+                <div id="meta_content" class="rich_media_meta_list">
+                                                            <span id="copyright_logo" class="rich_media_meta rich_media_meta_text meta_tag_text">原创：</span>
+                                                            <span class="rich_media_meta rich_media_meta_text">
+                                                Cherishao
+                                            </span>
+                                        
+                                        <span class="rich_media_meta rich_media_meta_nickname" id="profileBt">
+                      <a href="javascript:void(0);" id="js_name">
+                        信安之路                      </a>
+                      <div id="js_profile_qrcode" class="profile_container" style="display:none;">
+                          <div class="profile_inner">
+                              <strong class="profile_nickname">信安之路</strong>
+                              <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">微信号</label>
+                              <span class="profile_meta_value">xazlsec</span>
+                              </p>
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">功能介绍</label>
+                              <span class="profile_meta_value">专注分享信息安全技术学习与实践的点点滴滴，打造自由学习、交流、分享的安全平台，争做安全从业人员的好帮手！</span>
+                              </p>
+                              
+                          </div>
+                          <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">
+                              <i class="profile_arrow arrow_out"></i>
+                              <i class="profile_arrow arrow_in"></i>
+                          </span>
+                      </div>
+                    </span>
+
+
+                    <em id="publish_time" class="rich_media_meta rich_media_meta_text"></em>
+
+
+
+
+
+                </div>
+                
+                
+                
+                
+                                                
+                                                                
+                                
+                
+                <div class="rich_media_content " id="js_content">
+                    
+
+                    
+
+                    
+                    
+                    <blockquote cid="n0" mdtype="blockquote" style="font-size: 16px;white-space: normal;box-sizing: border-box;margin-top: 30px;margin-bottom: 1rem;border-left-width: 5px;border-left-color: rgb(221, 221, 221);padding-left: 0.5em;font-family: &quot;Source Han Serif SC&quot;, serif;color: rgb(85, 85, 85);caret-color: rgb(85, 85, 85);letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><p cid="n2" mdtype="paragraph" class="md-end-block" style="box-sizing: border-box;orphans: 4;margin-bottom: 1rem;white-space: pre-wrap;"><span md-inline="plain" class="md-expand" style="box-sizing: border-box;">本文作者：</span><span md-inline="strong" class="" style="box-sizing: border-box;"><strong style="box-sizing: border-box;">Cherishao</strong></span><span md-inline="plain" style="box-sizing: border-box;">（信安之路作者团队成员 &amp; 信安之路应急响应小组组长）</span></p><p cid="n3" mdtype="paragraph" class="md-end-block" style="box-sizing: border-box;orphans: 4;margin-top: 1rem;white-space: pre-wrap;"><span md-inline="plain" style="box-sizing: border-box;">小组招新：</span><span md-inline="link" class="" style="box-sizing: border-box;"><a spellcheck="false" href="http://mp.weixin.qq.com/s?__biz=MzI5MDQ2NjExOQ==&amp;mid=2247488089&amp;idx=1&amp;sn=6556274a07774c4a4280dc2c564f4914&amp;chksm=ec1e2271db69ab67a26803bf5f9f59602f27a25d537bba7c89620c8e96297984bec97342e880&amp;scene=21#wechat_redirect" style="box-sizing: border-box;cursor: pointer;color: rgb(37, 143, 184);-webkit-user-drag: none;"><span md-inline="plain" style="box-sizing: border-box;">信安之路应急响应小组招募志同道合的朋友</span></a></span></p></blockquote><p cid="n4" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">首先我们来思考一个问题，APT攻击事件和传统的网络攻击有什么明显区别呢？我相信，很多安全的小伙伴都会说，相比于传统的安全攻击事件来说，APT攻击事件更持久，更有针对性，那APT攻击事件的攻击流程和预防APT事件的响应流程又是怎么一回事呢？接下来，让我们一起来学习下卡巴斯基给出的官方指南]：</span></p><blockquote cid="n5" mdtype="blockquote" style="font-size: 16px;white-space: normal;box-sizing: border-box;margin-top: 1rem;margin-bottom: 1rem;border-left-width: 5px;border-left-color: rgb(221, 221, 221);padding-left: 0.5em;font-family: &quot;Source Han Serif SC&quot;, serif;color: rgb(85, 85, 85);caret-color: rgb(85, 85, 85);letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><p cid="n6" mdtype="paragraph" class="md-end-block" style="box-sizing: border-box;orphans: 4;white-space: pre-wrap;"><span md-inline="url" spellcheck="false" style="box-sizing: border-box;word-break: break-all;">https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07171449/Incident_Response_Guide_eng.pdf</span></p></blockquote><h3 cid="n7" mdtype="heading" class="md-end-block md-heading" style="box-sizing: border-box;break-after: avoid-page;break-inside: avoid;orphans: 2;font-size: 1.2em;margin-top: 1em;margin-bottom: 1em;font-weight: bold;line-height: 1.43em;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">前言</span></h3><p cid="n8" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">在过去几年中网络环境虽然没有发生大的变化，但是随着信息化的不断发展，网络犯罪分子的攻击机会及攻击面也在不断扩大增多。他们更专注于针对性的攻击、更有效地利用受害者的弱点，同时不断提高着自身警惕性。</span></p><p cid="n9" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">对于这种针对性的攻击（以下简称 APT 攻击），很多公司的安全服务部门往往没有做好准备：通常情况下公司的员工低估了现代网络攻击的速度，保密性和效率，并且不承认传统的安全方法是多么无效。使用传统的预防工具，如反恶意软件产品、IDS/IPS 、安全检测工具、结合 SIEM 和抗 APT 等检测解决方案，这种昂贵的复合体在针对 APT 攻击时也有可能无法充分发挥其效果。如果不从本质上去了解所发生的安全事件，是什么样的安全事件，也就很难去预防。</span></p><p cid="n10" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">因此，本文主要介绍了 APT 攻击事件的整个攻击链及事件响应需要重点关注的对象，目的也是为了让更多的人了解，APT 攻击事件的攻击环节，这样在我们遇到具体的 APT 事件时，才能在第一时间进行相关级别的事件响应。</span></p><h3 cid="n11" mdtype="heading" class="md-end-block md-heading" style="box-sizing: border-box;break-after: avoid-page;break-inside: avoid;orphans: 2;font-size: 1.2em;margin-top: 1em;margin-bottom: 1em;font-weight: bold;line-height: 1.43em;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">APT 攻击（计划攻击）</span></h3><p cid="n12" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">APT 攻击，我们指的是由攻击者（Hacker）准备的高级攻击行动。这里不包括一般的攻击行为，例如网站挂马、加外链等；任何 APT 攻击的基本原则包括详细的准备和逐步战略，在这里，我们将 APT 攻击所设计的阶段的序列（称为杀伤链），下面我们将以从 ATM 窃取资金的 APT 攻击活动为例具体介绍杀伤链的相关步骤。</span></p><h4 cid="n13" mdtype="heading" class="md-end-block md-heading" style="box-sizing: border-box;break-after: avoid-page;break-inside: avoid;orphans: 2;font-size: 1.1em;margin-top: 1em;margin-bottom: 1em;font-weight: bold;line-height: 1.4em;color: rgb(67, 134, 0);white-space: pre-wrap;width: inherit;font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">1. 侦察阶段</span></h4><p cid="n14" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">在该阶段，首先要做的就是信息收集，这里需要收集有关银行及其数据资产的公开信息。利用收集到的信息确定公司的组织结构、技术堆栈、信息安全措施等，在该阶段为了获取更详细的信息往往也会对该银行的员工进行社工（在论坛和社交网站上收集信息，特别是那些专业性质的信息）</span></p><h4 cid="n15" mdtype="heading" class="md-end-block md-heading" style="box-sizing: border-box;break-after: avoid-page;break-inside: avoid;orphans: 2;font-size: 1.1em;margin-top: 1em;margin-bottom: 1em;font-weight: bold;line-height: 1.4em;color: rgb(67, 134, 0);white-space: pre-wrap;width: inherit;font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">2. </span><span md-inline="strong" class="" style="box-sizing: border-box;">工具选择（武器化阶段）</span></h4><p cid="n16" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">攻击者在获取到详细的信息之后，会结合相关的信息选取相关的工具，他们可能会使用新的或已经存在的可利用的安全漏洞（0 day 或 N day）的恶意软件，在该阶段也会选择恶意软件的 payload。</span></p><h4 cid="n17" mdtype="heading" class="md-end-block md-heading" style="box-sizing: border-box;break-after: avoid-page;break-inside: avoid;orphans: 2;font-size: 1.1em;margin-top: 1em;margin-bottom: 1em;font-weight: bold;line-height: 1.4em;color: rgb(67, 134, 0);white-space: pre-wrap;width: inherit;font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">3. </span><span md-inline="strong" class="" style="box-sizing: border-box;">钓鱼阶段</span></h4><p cid="n18" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">在该阶段，主要是利用构造好的恶意软件，电子邮件附件，网络钓鱼链接或受感染的 USB 设备进行水坑攻击（感染目标组织员工访问的站点），在我们的案例中，攻击者使用鱼叉式网络钓鱼，代表金融监管机构 - 俄罗斯联邦中央银行（俄罗斯银行）向特定银行员工发送电子邮件。该电子邮件包含利用 Adobe Reader 中的漏洞的PDF文档。</span></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.6401925391095066" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/sGfPWsuKAfcqvicHaPWIMhUT3hicATTSbWLrNG2oqzRWBQtEM0MDGSiaNr8ndEA3oj02B3mwMiaXwQ8UXZBcA06Xgw/640?wx_fmt=png" data-type="png" data-w="831" style=""  /></p><h4 cid="n20" mdtype="heading" class="md-end-block md-heading" style="box-sizing: border-box;break-after: avoid-page;break-inside: avoid;orphans: 2;font-size: 1.1em;margin-top: 1em;margin-bottom: 1em;font-weight: bold;line-height: 1.4em;color: rgb(67, 134, 0);white-space: pre-wrap;width: inherit;font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">4. </span><span md-inline="strong" class="" style="box-sizing: border-box;">载荷投递阶段</span></h4><p cid="n21" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">钓鱼成功（例如，员工打开附件），则利用漏洞下载 payload,通常，它包含执行攻击后续阶段所需的工具。在我们的示例中，它是一个特洛伊木马下载程序，一旦安装，就会在下次打开计算机时从攻击者的服务器上下载僵尸程序。如果钓鱼失败，网络犯罪分子通常也不会放弃;他们采取一步（或几个步骤）以更改使用的攻击媒介或恶意软件。</span></p><h4 cid="n22" mdtype="heading" class="md-end-block md-heading" style="box-sizing: border-box;break-after: avoid-page;break-inside: avoid;orphans: 2;font-size: 1.1em;margin-top: 1em;margin-bottom: 1em;font-weight: bold;line-height: 1.4em;color: rgb(67, 134, 0);white-space: pre-wrap;width: inherit;font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">5. </span><span md-inline="strong" class="" style="box-sizing: border-box;">感染阶段</span></h4><p cid="n23" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">恶意软件会感染计算机，以便在重新启动或安装更新后无法检测或删除它。例如，上面的木马下载程序在Windows启动时注册自己，并在那里添加了一个机器人。当下次启动受感染的PC时，特洛伊木马会检查系统中的机器人，并在必要时重新加载它。</span></p><p cid="n24" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">反过来，机器人不断出现在计算机的内存中。为了避免用户怀疑，它在熟悉的系统应用程序下被屏蔽，例如lsass.exe（本地安全认证服务器）。</span></p><p cid="n25" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">安装的恶意软件会感染计算机并隐藏好自身，以便在重新启动或安装更新后无法检测或删除它。例如，上面的木马下载程序在 Windows 启动时注册自己，并在那里添加了一个后门程序。当受感染的 PC 下次启动时，木马会检查系统中的后门，并在必要时重新加载它。</span></p><p cid="n26" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">为了避免用户怀疑，它通常隐藏在用户熟悉的进程下并且品比来自安全服务器的检查，例如 lsass.exe（本地安全认证服务器）。</span></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.5980746089049338" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/sGfPWsuKAfcqvicHaPWIMhUT3hicATTSbW6j4MCJ4RhUAS9SdAnfl0UIXUzfXmf1kG83WiaNTxapFBPAicfyuYFhpA/640?wx_fmt=png" data-type="png" data-w="831" style=""  /></p><h4 cid="n28" mdtype="heading" class="md-end-block md-heading" style="box-sizing: border-box;break-after: avoid-page;break-inside: avoid;orphans: 2;font-size: 1.1em;margin-top: 1em;margin-bottom: 1em;font-weight: bold;line-height: 1.4em;color: rgb(67, 134, 0);white-space: pre-wrap;width: inherit;font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">6. 内网移动阶段</span></h4><p cid="n29" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">在此阶段，恶意软件会等待来自攻击者的命令。接收命令的最常用方法是连接属于攻击者的 C＆C 服务器（大多时候只是一个样本存储跳板）。这就是我们样例中的恶意软件所做的事情：当它第一次处理 C＆C 服务器时，它收到了执行进一步扩散（横向移动）的命令，并开始连接到公司网络内其它的计算机，如果受感染的计算机无法直接访问 Internet 并且无法直接连接到 C＆C 服务器，则攻击者可以将其它软件发送到受感染的计算机，在组织的网络中部署代理服务器，或者感染物理介质以克服“网络安全隔离措施””。</span></p><h4 cid="n30" mdtype="heading" class="md-end-block md-heading" style="box-sizing: border-box;break-after: avoid-page;break-inside: avoid;orphans: 2;font-size: 1.1em;margin-top: 1em;margin-bottom: 1em;font-weight: bold;line-height: 1.4em;color: rgb(67, 134, 0);white-space: pre-wrap;width: inherit;font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">7. 目标行动阶段</span></h4><p cid="n31" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">现在，网络犯罪分子可以处理，受感染计算机上的数据：复制，修改或删除它。如果未找到必要的信息，攻击者可能会尝试感染其他计算机，以增加可用信息量或获取允许其达到其主要目标的其他信息。</span></p><p cid="n32" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">我们示例中的恶意软件感染了其他 PC，以搜索可以作为管理员登录的计算机。一旦找到这样的机器，机器人就转向 C＆C 服务器下载 Mimikatz 程序和 Ammyy Admin 远程管理工具。</span> </p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.50661853188929" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/sGfPWsuKAfcqvicHaPWIMhUT3hicATTSbWtX5I0ZXLV9IlPXL98K8Jib9ZiayqFeFtUlZLqlkca8a9jp2ia4Y7mr7Ig/640?wx_fmt=png" data-type="png" data-w="831" style=""  /></p><p cid="n34" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="strong" class="" style="box-sizing: border-box;"><strong style="box-sizing: border-box;">Mimikatz 执行的例子。所有登录名和密码都以清晰的视图输入，包括 Active Directory 用户密码。</strong></span><br  /></p><p cid="n35" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">如果成功，恶意软件可以连接到 ATM 网关并对 ATM 发起攻击：例如，它可以在 ATM 中实现一个程序，当检测到特殊的塑料卡时，该程序将分配现金，攻击的最后阶段是删除并隐藏受感染系统中的任何恶意软件痕迹，尽管这些活动通常不包含在杀伤链中。</span></p><p cid="n36" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">事件调查的有效性以及对受影响组织的物质和声誉损害的程度直接取决于检测到攻击的阶段。</span></p><p cid="n37" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="image" data-src="APT%E6%94%BB%E5%87%BB%E9%93%BE%E5%8F%8A%E4%BA%8B%E4%BB%B6%E5%93%8D%E5%BA%94%E7%AD%96%E7%95%A5.files/APT%E6%94%BB%E5%87%BB%E9%93%BE%E5%8F%8A%E4%BA%8B%E4%BB%B6%E5%93%8D%E5%BA%94%E7%AD%96%E7%95%A52469.png" class="md-image md-img-error" style="box-sizing: border-box;min-width: 10px;min-height: 10px;word-break: break-all;font-family: monospace;"></span></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.4548736462093863" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/sGfPWsuKAfcqvicHaPWIMhUT3hicATTSbWsByKEyh47R28Dzo4eSSjI78nib9qySibiabxKiciaicOHdo86BVia8sdwyq8A/640?wx_fmt=png" data-type="png" data-w="831" style=""  /><span style="caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;font-size: 16px;letter-spacing: 1.5px;orphans: 4;white-space: pre-wrap;background-color: rgb(255, 255, 255);"> </span></p><p cid="n38" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">如果在“目标行动”阶段（后期检测）检测到攻击，则表示信息安全服务无法抵御攻击。在这种情况下，受影响的公司应重新考虑其预防方法。</span></p><h3 cid="n39" mdtype="heading" class="md-end-block md-heading" style="box-sizing: border-box;break-after: avoid-page;break-inside: avoid;orphans: 2;font-size: 1.2em;margin-top: 1em;margin-bottom: 1em;font-weight: bold;line-height: 1.43em;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">事件响应保护策略（我的网络是我的城堡）</span></h3><p cid="n40" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">我们从网络犯罪分子的角度分析了目标攻击的阶段; 现在让我们从受影响公司的信息安全人员的角度（防守方）来看待它。双方工作背后的基本原则基本相同：都需要精心准备和循序渐进的战略。不同的是，所使用的工具及截然不同的目标：</span></p><p cid="n41" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">1、减轻攻击造成的伤害;</span></p><p cid="n42" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">2、尽快恢复信息系统的初始状态;</span></p><p cid="n43" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">3、制定指示以防止将来发生类似事件。</span></p><p cid="n44" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="strong" class="" style="box-sizing: border-box;"><strong style="box-sizing: border-box;">这些目标主要分两个阶段实现：一、事故调查，二、系统恢复。调查必须确定：</strong></span></p><p cid="n45" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">1、初始攻击向量;</span></p><p cid="n46" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">2、攻击者使用的恶意软件，漏洞利用程序和其他工具;</span></p><p cid="n47" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">3、攻击目标（受影响的网络，系统和数据）;</span></p><p cid="n48" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">4、对组织的损害程度（包括声誉损害）;</span></p><p cid="n49" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">5、攻击阶段（是否完成并实现目标）;</span></p><p cid="n50" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">6、时间帧（攻击开始和结束的时间，在系统中检测到的时间和信息安全服务的响应时间）。</span></p><p cid="n51" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">调查完成后，需要根据调查期间获得的信息制定可实施的系统恢复计划。总体而言，事件响应保护策略如下所示：</span></p><p cid="n52" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="image" data-src="2920.png" class="md-image md-img-loaded" style="box-sizing: border-box;min-width: 10px;min-height: 10px;word-break: break-all;font-family: monospace;vertical-align: top;text-align: center;"></span></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.4380264741275572" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/sGfPWsuKAfcqvicHaPWIMhUT3hicATTSbWib9bnmAV70OiaCQy7XUNtVxspeRCdRME42STeaibjaNqXMm1Uu8fsEgBg/640?wx_fmt=png" data-type="png" data-w="831" style=""  /></p><h3 cid="n53" mdtype="heading" class="md-end-block md-heading" style="box-sizing: border-box;break-after: avoid-page;break-inside: avoid;orphans: 2;font-size: 1.2em;margin-top: 1em;margin-bottom: 1em;font-weight: bold;line-height: 1.43em;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">事件响应阶段</span></h3><p cid="n54" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">与目标攻击的各个阶段一样，接下来我们将更详细地分析反APT攻击所涉及的各个阶段。</span></p><h4 cid="n55" mdtype="heading" class="md-end-block md-heading" style="box-sizing: border-box;break-after: avoid-page;break-inside: avoid;orphans: 2;font-size: 1.1em;margin-top: 1em;margin-bottom: 1em;font-weight: bold;line-height: 1.4em;color: rgb(67, 134, 0);white-space: pre-wrap;width: inherit;font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">1. 准备阶段</span></h4><p cid="n56" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">准备工作包括制定流程和策略以及选择工具。首先，我们需要创建一个多级安全系统，可以抵御使用多个攻击媒介的入侵者。保护水平可分为两组。</span></p><p cid="n57" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="strong" class="" style="box-sizing: border-box;"><strong style="box-sizing: border-box;">第一组包括安装旨在防止攻击的工具（预防）：</strong></span></p><p cid="n58" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">1) 工作站安全解决方案；</span></p><blockquote cid="n59" mdtype="blockquote" style="font-size: 16px;white-space: normal;box-sizing: border-box;margin-top: 1rem;margin-bottom: 1rem;border-left-width: 5px;border-left-color: rgb(221, 221, 221);padding-left: 0.5em;font-family: &quot;Source Han Serif SC&quot;, serif;color: rgb(85, 85, 85);caret-color: rgb(85, 85, 85);letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><p cid="n60" mdtype="paragraph" class="md-end-block" style="box-sizing: border-box;orphans: 4;white-space: pre-wrap;"><span md-inline="url" spellcheck="false" style="box-sizing: border-box;word-break: break-all;">https://www.kaspersky.com/small-to-medium-business-security/endpoint-select</span></p></blockquote><p cid="n61" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">2) 入侵检测和入侵防御系统（IDS/IPS）;</span></p><p cid="n62" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">3) 防火墙保护 Internet 网关;</span></p><p cid="n63" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">4) 代理服务器来控制 Internet 访问。</span></p><p cid="n64" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="strong" class="" style="box-sizing: border-box;"><strong style="box-sizing: border-box;">第二组包含旨在检测威胁的解决方案（检测）：</strong></span></p><p cid="n65" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">1) 具有集成威胁报告组件的 SIEM 系统，用于监控信息系统中发生的事件;</span></p><p cid="n66" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">2) 反 APT 系统，用于比较各种安全机制提供的检测到的威胁数据;</span></p><blockquote cid="n67" mdtype="blockquote" style="font-size: 16px;white-space: normal;box-sizing: border-box;margin-top: 1rem;margin-bottom: 1rem;border-left-width: 5px;border-left-color: rgb(221, 221, 221);padding-left: 0.5em;font-family: &quot;Source Han Serif SC&quot;, serif;color: rgb(85, 85, 85);caret-color: rgb(85, 85, 85);letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><p cid="n68" mdtype="paragraph" class="md-end-block" style="box-sizing: border-box;orphans: 4;white-space: pre-wrap;"><span md-inline="url" spellcheck="false" style="box-sizing: border-box;word-break: break-all;">https://www.kaspersky.com/enterprise-security/cybersecurity-services</span></p></blockquote><p cid="n69" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">3) 蜜罐 - 一种特殊的虚假对象，用于网络攻击，由信息安全服务机构隔离并密切监控;</span></p><p cid="n70" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">4) EDR 系统（用于检测和响应端点上的威胁的工具），可提高对端点上发生的事件的认识，并实现自动遏制和消除威胁。</span></p><p cid="n71" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">我们选择的组织就是为意外攻击做好准备。ATM 与银行的主网络分离，对子网的访问仅限于授权用户。</span></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.5114320096269555" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/sGfPWsuKAfcqvicHaPWIMhUT3hicATTSbWgcPFATwBNHuPkXWlWgp3iaQYdLDB0L1CSB32mOVgZHPmSkIBdd8dcIw/640?wx_fmt=png" data-type="png" data-w="831" style=""  /></p><p cid="n72" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="image" data-src="3556.png" class="md-image md-img-loaded" style="box-sizing: border-box;min-width: 10px;min-height: 10px;word-break: break-all;font-family: monospace;vertical-align: top;text-align: center;"></span></p><p cid="n73" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="strong" class="" style="box-sizing: border-box;"><strong style="box-sizing: border-box;">被攻击组织的网络</strong></span></p><p cid="n74" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">SIEM 系统用于监视和分析网络上发生的事件。它收集有关所有员工用于访问 Internet 的代理服务器的网络连接的信息;卡巴斯基实验室安全专家提供的集成威胁数据源;通过Postfix邮件服务器发送的电子邮件通知，包括有关标题，DKIM 签名等的信息;SIEM 还在企业 IT 基础架构的任何工作站上收到有关安全解决方案激活的信息。</span></p><p cid="n75" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">另一个是渗透测试，以预测网络攻击的可能矢量。公司的 IT 专家和第三方组织都可以模拟企业网络的渗透。后一种选择更昂贵，但更可取：专门从事笔测试的组织拥有丰富的经验，并且能够更好地了解当前的威胁向量。</span></p><p cid="n76" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">最后，很重要的一点是-安全培训即教育企业的员工。这包括针对所有员工的内部网络安全培训：应该让他们了解公司的安全策略，并知道在发生网络攻击时该怎么做。培训还包括针对负责公司信息安全的专家的专有培训，以及有关公司内外安全事件的信息积累（本地威胁情报事件库的构建）。这些信息可能来自不同的来源，例如内部公司报告或专门分析网络威胁的第三方组织，例如卡巴斯基威胁情报平台:</span></p><blockquote cid="n77" mdtype="blockquote" style="font-size: 16px;white-space: normal;box-sizing: border-box;margin-top: 1rem;margin-bottom: 1rem;border-left-width: 5px;border-left-color: rgb(221, 221, 221);padding-left: 0.5em;font-family: &quot;Source Han Serif SC&quot;, serif;color: rgb(85, 85, 85);caret-color: rgb(85, 85, 85);letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><p cid="n78" mdtype="paragraph" class="md-end-block" style="box-sizing: border-box;orphans: 4;white-space: pre-wrap;"><span md-inline="url" spellcheck="false" style="box-sizing: border-box;word-break: break-all;">https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2017/08/20080249/Kaspersky_Threat_Intelligence_Services.pdf</span></p></blockquote><h4 cid="n79" mdtype="heading" class="md-end-block md-heading" style="box-sizing: border-box;break-after: avoid-page;break-inside: avoid;orphans: 2;font-size: 1.1em;margin-top: 1em;margin-bottom: 1em;font-weight: bold;line-height: 1.4em;color: rgb(67, 134, 0);white-space: pre-wrap;width: inherit;font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">2. 识别阶段</span></h4><p cid="n80" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">在这个阶段，有必要确定它是否实际上是一个事件。只有这样才能引起警报并且同事发出警告。为了识别事件，使用了所谓的触发器 - 表示网络攻击的事件。其中包括工作站尝试连接到已知的恶意 C＆C 服务器，安全软件性能出现错误或失败，用户权限意外更改，网络上的未知程序等等。</span></p><p cid="n81" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">有关这些事件的信息可能来自各种来源。在这里，我们将考虑两种关键类型的触发器：</span></p><p cid="n82" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="strong" class="" style="box-sizing: border-box;"><strong style="box-sizing: border-box;">EPP 管理系统生成的触发器。</strong></span><span md-inline="plain" style="box-sizing: border-box;">当其中一个工作站上的安全解决方案检测到威胁时，它会生成一个事件并将其发送到管理系统。但是，并非所有事件都是触发器：例如，指示检测到恶意程序的事件之后可能会出现有关其中和的事件。在这种情况下，除非在同一台机器上或同一用户经常出现这种情况，否则不需要进行调查。</span></p><p cid="n83" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="strong" class="" style="box-sizing: border-box;"><strong style="box-sizing: border-box;">SIEM 系统生成的事件触发器。</strong></span><span md-inline="plain" style="box-sizing: border-box;">SIEM 系统可以从大量安全控制中累积数据，包括代理服务器和防火墙。触发器仅被视为基于比较传入数据和威胁报告而创建的事件。</span></p><p cid="n84" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">为了识别事件，将信息安全服务可用的信息与已知的妥协指标（IOC）列表进行比较。公共报告，威胁数据馈送，静态和动态样本分析工具等可用于此阶，在不启动测试样本的情况下执行静态分析，并包括收集各种指示符，例如包含URL或电子邮件地址等的字符串。动态分析涉及在受保护环境（沙箱:</span></p><blockquote cid="n85" mdtype="blockquote" style="font-size: 16px;white-space: normal;box-sizing: border-box;margin-top: 1rem;margin-bottom: 1rem;border-left-width: 5px;border-left-color: rgb(221, 221, 221);padding-left: 0.5em;font-family: &quot;Source Han Serif SC&quot;, serif;color: rgb(85, 85, 85);caret-color: rgb(85, 85, 85);letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><p cid="n86" mdtype="paragraph" class="md-end-block" style="box-sizing: border-box;orphans: 4;white-space: pre-wrap;"><span md-inline="url" spellcheck="false" style="box-sizing: border-box;word-break: break-all;">https://securelist.com/threats/sandbox-glossary/?utm_source=securelist&amp;utm_medium=blog</span></p></blockquote><p cid="n87" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">）或隔离计算机上按顺序执行调查中的程序识别样本的行为并收集威胁指标。</span></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="0.7569193742478941" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_png/sGfPWsuKAfcqvicHaPWIMhUT3hicATTSbWhqduqL0OyCyz0AKbm0Uxl99NjrhJPUcxJ6EaPysiapdDKDdfcb4PygQ/640?wx_fmt=png" data-type="png" data-w="831" style=""  /></p><p cid="n88" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="image" data-src="4813.png" class="md-image md-img-loaded" style="box-sizing: border-box;min-width: 10px;min-height: 10px;word-break: break-all;font-family: monospace;vertical-align: top;text-align: center;"></span></p><p cid="n89" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="strong" class="" style="box-sizing: border-box;"><strong style="box-sizing: border-box;">IOC 检测周期</strong></span></p><p cid="n90" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">从上图可以看出，收集 IOC 是一个循环过程。基于来自 SIEM 系统的初始信息，生成识别方案，这导致识别新的妥协指标。</span></p><p cid="n91" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">以下是威胁数据源如何用于识别鱼叉式网络钓鱼攻击的示例 - 在我们的示例中，是附带利用 Adobe Reader 漏洞的附加 PDF 文档的电子邮件。</span></p><ol class="ol-list list-paddingleft-2" start="" cid="n92" mdtype="list" style=""><li><p cid="n94" mdtype="paragraph" class="md-end-block" style="box-sizing: border-box;orphans: 4;margin-bottom: 0.5rem;white-space: pre-wrap;"><span md-inline="plain" style="box-sizing: border-box;">SIEM 将使用 IP 信誉数据源检测发送电子邮件的服务器的 IP 地址。</span></p></li><li><p cid="n96" mdtype="paragraph" class="md-end-block" style="box-sizing: border-box;orphans: 4;margin-bottom: 0.5rem;white-space: pre-wrap;"><span md-inline="plain" style="box-sizing: border-box;">SIEM 将使用恶意 URL 数据 Feed 检测加载机器人的请求。</span></p></li><li><p cid="n98" mdtype="paragraph" class="md-end-block" style="box-sizing: border-box;orphans: 4;margin-bottom: 0.5rem;white-space: pre-wrap;"><span md-inline="plain" style="box-sizing: border-box;">SIEM 将使用 Botnet C＆C URL 数据馈送检测对 C＆C 服务器的请求。</span></p></li><li><p cid="n100" mdtype="paragraph" class="md-end-block" style="box-sizing: border-box;orphans: 4;margin-bottom: 0.5rem;white-space: pre-wrap;"><span md-inline="plain" style="box-sizing: border-box;">将通过工作站的安全解决方案检测并删除 Mimikatz; 有关检测的信息将发送给 SIEM。</span></p></li></ol><p cid="n101" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">因此，在早期阶段，可以以四种不同的方式检测攻击。这也意味着该公司将受到最小的损害。</span></p><h4 cid="n102" mdtype="heading" class="md-end-block md-heading" style="box-sizing: border-box;break-after: avoid-page;break-inside: avoid;orphans: 2;font-size: 1.1em;margin-top: 1em;margin-bottom: 1em;font-weight: bold;line-height: 1.4em;color: rgb(67, 134, 0);white-space: pre-wrap;width: inherit;font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">3.遏制阶段</span></h4><p cid="n103" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">假设由于工作量繁重，信息安全服务无法响应第一个警报，并且当响应时，攻击已进入第六阶段（内网移动阶段），即恶意软件已成功渗透到公司的计算机上网络并试图联系 C＆C 服务器，SIEM 系统已收到该事件的通知。</span></p><p cid="n104" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">在这种情况下，安全专家应识别所有受感染的计算机并更改安全规则以防止感染通过网络传播。此外，他们应该重新配置信息系统，以确保公司在没有受感染机器的情况下持续运行。接下来介绍 3 点需要做的。</span></p><h5 cid="n105" mdtype="heading" class="md-end-block md-heading" style="box-sizing: border-box;break-after: avoid-page;break-inside: avoid;orphans: 2;font-size: 1em;margin-top: 1em;margin-bottom: 1em;font-weight: bold;line-height: 1.4em;color: rgb(14, 87, 150);white-space: pre-wrap;width: inherit;font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">1）隔离受感染的计算机</span></h5><p cid="n106" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">应识别所有受感染的计算机，例如，通过在 SIEM 中查找对已知 C＆C 地址的所有呼叫 - 然后将其置于隔离网络中。在这种情况下，应更改路由策略以防止受感染计算机与公司网络上的其他计算机之间的通信，以及受感染计算机与 Internet 的连接。</span></p><p cid="n107" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">还建议使用特殊服务检查 C＆C 地址，例如威胁查找。因此，这不仅提供了与 C＆C 服务器交互的机器人的哈希值，还提供了机器人联系的其他地址。之后，值得在扩展的指标列表中重复 SIEM 中的搜索，因为相同的机器人可能已经与不同计算机上的多个 C＆C 服务器进行了交互。必须隔离并检查所有已识别的受感染工作站。</span></p><p cid="n108" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">在这种情况下，不应关闭受感染的计算机，因为这会使调查复杂化。具体来说，某些类型的恶意程序只使用计算机的 RAM 而不在硬盘上创建文件。一旦系统收到关闭信号，其他恶意软件可以删除 IOC。</span></p><p cid="n109" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">此外，建议不要（主要是物理上）断开受影响 PC 的本地网络连接。某些类型的恶意软件监视连接状态，如果连接在一段时间内不可用，恶意软件可以开始删除其在计算机上的痕迹，从而破坏任何 IOC。同时，限制受感染计算机对内部和外部网络的访问是有意义的（例如，通过阻止使用 iptables 传输数据包）。如果通过 C＆C 地址搜索未提供预期结果或如何识别恶意软件应采取的措施的更多信息，可以阅读本指南的完整版本。</span></p><h5 cid="n110" mdtype="heading" class="md-end-block md-heading" style="box-sizing: border-box;break-after: avoid-page;break-inside: avoid;orphans: 2;font-size: 1em;margin-top: 1em;margin-bottom: 1em;font-weight: bold;line-height: 1.4em;color: rgb(14, 87, 150);white-space: pre-wrap;width: inherit;font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">2）创建内存转储和硬盘转储</span></h5><p cid="n111" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">通过分析受感染计算机的内存转储和硬盘转储，您可以获得与攻击相关的恶意软件和 IOC 样本。通过对这些样本的研究，您可以了解如何处理感染并确定威胁的载体，以防止使用类似情况重复感染。可以使用特殊软件（例如 Forensic Toolkit）收集转储。</span></p><h5 cid="n112" mdtype="heading" class="md-end-block md-heading" style="box-sizing: border-box;break-after: avoid-page;break-inside: avoid;orphans: 2;font-size: 1em;margin-top: 1em;margin-bottom: 1em;font-weight: bold;line-height: 1.4em;color: rgb(14, 87, 150);white-space: pre-wrap;width: inherit;font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">3）保持系统性能</span></h5><p cid="n113" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">在受感染的计算机被隔离后，应采取措施来维护信息系统的运行。例如，如果公司网络上的多台服务器遭到入侵，则应对路由策略进行更改，以将工作负载从受感染服务器重定向到其他服务器。</span></p><h4 cid="n114" mdtype="heading" class="md-end-block md-heading" style="box-sizing: border-box;break-after: avoid-page;break-inside: avoid;orphans: 2;font-size: 1.1em;margin-top: 1em;margin-bottom: 1em;font-weight: bold;line-height: 1.4em;color: rgb(67, 134, 0);white-space: pre-wrap;width: inherit;font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">4. 根除阶段</span></h4><p cid="n115" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">此阶段的目标是将受损信息系统恢复到攻击前的状态。这包括删除可能已留在受感染计算机上的恶意软件和所有工件，以及还原信息系统的初始配置。</span></p><p cid="n116" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">有两种可能的策略：完全重新安装受感染设备的操作系统或只删除任何恶意软件。第一个选项适用于为工作站使用标准软件集的组织。在这种情况下，您可以使用系统映像恢复后者的操作。移动电话和其他设备可以重置为出厂设置，在第二种情况下，可以使用专用工具和实用程序检测恶意软件创建的工件。</span></p><h5 cid="n117" mdtype="heading" class="md-end-block md-heading" style="box-sizing: border-box;break-after: avoid-page;break-inside: avoid;orphans: 2;font-size: 1em;margin-top: 1em;margin-bottom: 1em;font-weight: bold;line-height: 1.4em;color: rgb(14, 87, 150);white-space: pre-wrap;width: inherit;font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">1. 恢复阶段</span></h5><p cid="n118" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">在此阶段，先前受到攻击的计算机将重新连接到网络。信息安全专家继续监控这些机器的状态，以确保完全消除威胁。</span></p><h5 cid="n119" mdtype="heading" class="md-end-block md-heading" style="box-sizing: border-box;break-after: avoid-page;break-inside: avoid;orphans: 2;font-size: 1em;margin-top: 1em;margin-bottom: 1em;font-weight: bold;line-height: 1.4em;color: rgb(14, 87, 150);white-space: pre-wrap;width: inherit;font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">2. </span><span md-inline="strong" class="" style="box-sizing: border-box;">总结报告</span></h5><p cid="n120" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">调查完成后，信息安全服务部门必须提交一份报告，其中包含以下问题的答案：</span></p><p cid="n121" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">事件何时发现并确定了谁？</span></p><p cid="n122" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">事件的规模是多少？哪些物品受事件影响？</span></p><p cid="n123" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">如何执行遏制，根除和恢复阶段？</span><span md-inline="tab" class="md-tab" style="box-sizing: border-box;">	</span></p><p cid="n124" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">在事件响应的哪个阶段，信息安全专家的行动是否需要纠正？</span></p><p cid="n125" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">根据该报告和调查期间获得的信息，有必要制定措施，以防止今后发生类似事件。这些可以包括安全策略的更改和公司资源的配置，员工信息安全培训等。事件响应过程中获得的妥协指标可用于检测将来此类攻击。</span></p><h3 cid="n126" mdtype="heading" class="md-end-block md-heading" style="box-sizing: border-box;break-after: avoid-page;break-inside: avoid;orphans: 2;font-size: 1.2em;margin-top: 1em;margin-bottom: 1em;font-weight: bold;line-height: 1.43em;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">安全事件优先级设置</span></h3><p cid="n127" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">安全专家可能必须同时回应几个事件。在这种情况下，正确设置优先级并尽快关注主要威胁非常重要 - 这将最大限度地减少攻击的潜在损害。</span></p><p cid="n128" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="strong" class="" style="box-sizing: border-box;"><strong style="box-sizing: border-box;">我们建议根据以下因素确定事件的严重程度：</strong></span></p><p cid="n129" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">受感染PC所在的网段;</span></p><p cid="n130" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">存储在受感染计算机上的数据的价值;</span></p><p cid="n131" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">影响同一台PC的其他事件的类型和数量;</span></p><p cid="n132" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">给定事件的妥协指标的可靠性。</span></p><p cid="n133" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">应该注意的是，应该首先保存的服务器或网段的选择，以及可以牺牲的工作站的选择取决于组织的具体情况。</span></p><p cid="n134" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">如果源自其中一个来源的事件包括在 APT 威胁报告中</span></p><blockquote cid="n135" mdtype="blockquote" style="font-size: 16px;white-space: normal;box-sizing: border-box;margin-top: 1rem;margin-bottom: 1rem;border-left-width: 5px;border-left-color: rgb(221, 221, 221);padding-left: 0.5em;font-family: &quot;Source Han Serif SC&quot;, serif;color: rgb(85, 85, 85);caret-color: rgb(85, 85, 85);letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><p cid="n136" mdtype="paragraph" class="md-end-block" style="box-sizing: border-box;orphans: 4;white-space: pre-wrap;"><span md-inline="url" spellcheck="false" style="box-sizing: border-box;word-break: break-all;">https://securelist.com/all/?tag=538</span></p></blockquote><p cid="n137" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">发布的 IOC，或者有证据表明与先前在 APT 攻击中使用的 C＆C 服务器进行交互，我们建议首先处理这些事件。完整版“事件响应指南”中描述的工具和实用程序可以提供帮助。</span></p><h3 cid="n138" mdtype="heading" class="md-end-block md-heading" style="box-sizing: border-box;break-after: avoid-page;break-inside: avoid;orphans: 2;font-size: 1.2em;margin-top: 1em;margin-bottom: 1em;font-weight: bold;line-height: 1.43em;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">结语</span></h3><p cid="n139" mdtype="paragraph" class="md-end-block" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" style="box-sizing: border-box;">本文只是介绍了 APT 攻击的主要攻击链及常规的 APT 事件响应策略，简单的一文也不可能涵盖现代网络犯罪分子可以使用的整个武器库，描述所有现有的攻击媒介，也无法为信息安全人员制定分步指南，来帮助应对每一个事件，因为现代 APT 攻击变得非常复杂和多样化，即使是一系列文章也可能还不够，但是，我们希望我们关于识别事件和响应事件的建议将有助于信息安全人员为构建可靠的多层次业务保护奠定坚实的基础。----卡巴斯基（官方建议）</span></p><p cid="n140" mdtype="paragraph" class="md-end-block md-focus" style="font-size: 16px;box-sizing: border-box;orphans: 4;margin-top: 1rem;margin-bottom: 1rem;white-space: pre-wrap;width: inherit;caret-color: rgb(85, 85, 85);color: rgb(85, 85, 85);font-family: &quot;Source Han Sans SC&quot;, sans-serif;letter-spacing: 1.5px;background-color: rgb(255, 255, 255);"><span md-inline="plain" class="md-expand" style="box-sizing: border-box;">在反病毒及反 APT 攻击方面，卡巴斯基还是很厉害的了，因为他们有自己的样本库，有丰富的样本数据来源及资深的安全大佬，潜心向大佬学习，本文因为作者英语水平有限，若有翻译不适之处，请以原文为主，关于详细的指南可通过文章首的链接获得，最后热烈欢迎对此方面感兴趣的朋友与我交流。</span></p><p style="text-align: center;"><img class="" data-copyright="0" data-ratio="1" data-s="300,640" data-src="https://mmbiz.qpic.cn/mmbiz_jpg/sGfPWsuKAffGLh75BtAQ6MCDMgztzVq2Ry6DG3C51OicHRcibEzaFkjdh9SBeh2iblnAANSZdjoVaMiaiadc8LH8bmA/640?wx_fmt=jpeg" data-type="jpeg" data-w="1152" style=""  /></p>
+                </div>
+                <script nonce="409633490" type="text/javascript">
+                    var first_sceen__time = (+new Date());
+
+                    if ("" == 1 && document.getElementById('js_content')) {
+                        document.getElementById('js_content').addEventListener("selectstart",function(e){ e.preventDefault(); });
+                    }
+
+                    
+                    (function(){
+                        if (navigator.userAgent.indexOf("WindowsWechat") != -1){
+                            var link = document.createElement('link');
+                            var head = document.getElementsByTagName('head')[0];
+                            link.rel = 'stylesheet';
+                            link.type = 'text/css';
+                            link.href = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+                            head.appendChild(link);
+                        }
+                    })();
+                </script>
+
+                
+                <div class="ct_mpda_wrp" id="js_sponsor_ad_area" style="display:none;"></div>
+                
+                
+                <div class="read-more__area" id="js_more_read_area" style="display:none;">
+                    
+                </div>
+
+                
+                                <div class="reward_area tc reward_area_primary" id="js_preview_reward_author" style="display:none;">
+                    <div class="reward-avatar" style="display: none;" id="js_preview_reward_author_avatar">
+                        <img src="" alt="" id="js_preview_reward_author_head">
+                    </div>
+                    
+                                        <div class="reward-author" id="js_preview_reward_author_name">Cherishao</div>
+                                        <p class="reward_tips" id="js_preview_reward_author_wording" style="display:none;"></p>
+                    <p>
+                        <a class="reward_button" id='js_preview_reward_author_link' href="##"><span id="js_preview_reward_link_text">赞赏</span></a>
+                    </p>
+                </div>
+
+                <div class="reward_qrcode_area reward_area tc" id="js_preview_reward_qrcode" style="display:none;">
+                    <p class="tips_global">长按二维码向我转账</p>
+                    <p id="js_preview_reward_ios_wording" class="reward_tips" style="display:none;"></p>
+                    <span class="reward_qrcode_img_wrp"><img class="reward_qrcode_img" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_reward_qrcode.2x42f400.png"></span>
+                    <p class="tips_global">受苹果公司新规定影响，微信 iOS 版的赞赏功能被关闭，可通过二维码转账支持公众号。</p>
+                </div>
+                                
+                
+                            </div>
+                                    
+                        
+
+
+                        
+            <ul id="js_hotspot_area" class="article_extend_area"></ul>
+
+
+            
+
+            
+
+
+<div class="rich_media_tool" id="js_toobar3">
+
+        <div id="js_read_area3" class="media_tool_meta tips_global_primary meta_primary" style="display:none;">阅读 <span id="readNum3"></span></div>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_praise" id="like_old">
+        <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum_old"></span>
+    </span>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_like" id="like3">
+        <button class="like_btn" id="js_like_btn"> 
+          <span id="js_like_wording"> 好看</span><span class="like_num" id="likeNum3"></span>
+        </button>
+    </span>
+
+    <div id="js_like_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog weui-dialog_haokan">
+        <div class="weui-dialog__hd"><strong class="weui-dialog__title" id="educate_title">已推荐到看一看</strong></div>
+        <div class="weui-dialog__bd">
+          <img class="pic_haokan" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_haokan42f400.png">
+            你的朋友可以在“发现”-“看一看”看到你认为好看的文章。        </div>
+        <div class="weui-dialog__ft" id="educate_btn" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_default" id="js_cancel">取消</a>
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_confirm">推荐</a>
+        </div>
+        <div class="weui-dialog__ft" id="educate_btn2" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_acknowledge">我知道了</a>
+        </div>
+        </div>
+    </div>
+
+    <div id="js_unlike_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog">
+        
+        <div class="weui-dialog__bd">
+            已取消，“好看”想法已同步删除        </div>
+        <div class="weui-dialog__ft">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_unlike_know">知道了</a>
+        </div>
+        </div>
+    </div>
+
+    
+    </div>
+
+
+<div class="like_comment_wrp" id="js_a_like_comment" style="display: none;">
+  <div class="like_comment_inner">
+    <div class="like_comment_hd" style="display:none" id="js_like_title"></div>
+    <div class="like_comment_bd">
+      <div class="tips_global_primary like_comment_tips">
+        <i class="weui-icon-success"></i>已推荐到看一看<a href="javascript:;" class="like_comment_share_link" id="js_a_like_comment_share">和朋友分享想法</a>
+      </div>
+    </div>
+    <div class="like_comment_ft">
+      <span id="js_a_like_comment_msg" class="like_comment_msg" style="visibility:hidden">最多200字，当前共<span id="js_a_like_current_cnt"></span>字</span>
+      <button class="like_comment_btn" disabled="disabled" id="js_a_like_confirm">发送</button>
+    </div>
+  </div>
+</div>
+
+<div id="js_like_toast" style="display: none;">
+  <div class="weui-mask_transparent"></div>
+  <div class="weui-toast">
+    <i class="weui-icon-success-no-circle weui-icon_toast"></i>
+    <p class="weui-toast__content" id="js_toast_msg">已发送</p>
+  </div>
+</div>
+
+
+<div style="display: none;" id="js_b_comment_panel" class="like_comment_primary_pop">
+  <div class="like_comment_primary_wrp" id="js_b_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <h4 class="like_comment_primary_title">
+          朋友将在看一看看到        </h4>
+        <button id="js_b_like_confirm" class="like_comment_primary_btn">确定</button>
+      </div>
+      <div id='js_b_comment_text_first' class="like_comment_primary_bd">
+        <span class="tips_global_primary">
+          分享你的想法...        </span>
+      </div>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_1"></div>
+</div>
+
+<div style="display: none;" id="js_b_comment_final">
+  <div class="like_comment_primary_wrp editing" id="js_comment_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <button class="like_comment_primary_cancel" id="js_b_comment_cancel">取消</button>
+        <h4 class="like_comment_primary_title"> 分享想法到看一看 </h4>
+        <button class="like_comment_primary_btn" id="js_b_comment_confirm">确定</button>
+      </div>
+      <div class="like_comment_primary_bd">
+        <textarea class="like_comment_textarea weui-textarea" placeholder="分享你的想法..." id="js_b_comment_text_second"></textarea>
+      </div>
+      <span class="like_comment_msg" id="js_b_like_comment_msg" style="visibility: hidden;">最多200字，当前共<span id="js_b_like_current_cnt"></span>字</span>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_2"></div>
+</div>
+
+<div id="js_loading" style=" display: none;">
+    <div class="weui-mask_transparent"></div>
+    <div class="weui-toast">
+        <i class="weui-loading weui-icon_toast"></i>
+        <p class="weui-toast__content">发送中</p>
+    </div>
+</div>
+
+<div id="js_fail" style="display:none">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+    <div class="weui-dialog__bd">
+        网络异常，请稍后重试    </div>
+    <div class="weui-dialog__ft">
+      <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_fail_inform">知道了</a>
+    </div>
+    </div>
+</div>
+
+
+
+                      </div>
+        </div>
+
+        <div class="rich_media_area_primary sougou" id="sg_tj" style="display:none"></div>
+
+
+        
+        <div class="rich_media_area_extra">
+          <div class="rich_media_area_extra_inner">
+              
+              <div id="js_share_appmsg">
+              </div>
+
+              
+                            <div class="mpda_bottom_container" id="js_bottom_ad_area"></div>
+                            
+              <div id="js_iframetest" style="display:none;"></div>
+                            
+              <div class="rich_media_extra rich_media_extra_discuss" id="js_cmt_container" style="display:none">
+                
+
+                
+                <div class="discuss_mod" id="js_friend_cmt_area" style="display:none">
+                  
+                  
+                  
+                </div>
+
+                                <div class="discuss_mod" id="js_cmt_area" style="display:none">
+                </div>
+                              </div>
+          </div>
+        </div>
+
+        
+        <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">
+            <div class="qr_code_pc_inner">
+                <div class="qr_code_pc">
+                    <img id="js_pc_qr_code_img" class="qr_code_pc_img">
+                    <p>微信扫一扫<br>关注该公众号</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="js_pc_weapp_code" class="weui-desktop-popover weui-desktop-popover_pos-up-center weui-desktop-popover_img-text" style="display: none;">
+    <div class="weui-desktop-popover__content">
+        <div class="weui-desktop-popover__desc">
+            <img id="js_pc_weapp_code_img">
+            微信扫一扫<br>使用小程序<span id="js_pc_weapp_code_des"></span>        </div>
+    </div>
+</div>
+<div id="js_minipro_dialog" style="display:none;">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+        <div class="weui-dialog__bd">即将打开"<span id="js_minipro_dialog_name"></span>"小程序</div>
+        <div class="weui-dialog__ft">
+            <a id="js_minipro_dialog_cancel" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_default">取消</a>
+            <a id="js_minipro_dialog_ok" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_primary">打开</a>
+        </div>
+    </div>
+</div>
+
+        
+        <script nonce="409633490">
+    var __DEBUGINFO = {
+        debug_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/debug/console42f400.js",
+        safe_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/moonsafe42f400.js",
+        res_list: []
+    };
+</script>
+
+<script nonce="409633490" type="text/javascript">
+(function() {
+	var totalCount = 0,
+			finishCount = 0;
+
+	function _loadVConsolePlugin() {
+		window.vConsole = new window.VConsole();
+		while (window.vConsolePlugins.length > 0) {
+			var p = window.vConsolePlugins.shift();
+			window.vConsole.addPlugin(p);
+		}
+	}
+	
+	function _addVConsole(uri, cb) {
+		totalCount++;
+		var node = document.createElement('SCRIPT');
+		node.type = 'text/javascript';
+		node.src = uri;
+		node.setAttribute('nonce', '409633490');
+		if (cb) {
+			node.onload = cb;
+		}
+		document.getElementsByTagName('head')[0].appendChild(node);
+	}
+	if (
+		(document.cookie && document.cookie.indexOf('vconsole_open=1') > -1)
+		|| location.href.indexOf('vconsole=1') > -1
+	) {
+		window.vConsolePlugins = [];
+		_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/3.2.2/vconsole.min43429b.js', function() {
+			
+			_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/plugin/vconsole-mpopt/1.0.1/vconsole-mpopt42f400.js', _loadVConsolePlugin);
+		});
+	}
+})();
+</script>
+        
+<script nonce="409633490" type="text/javascript">
+if (location.href.match(/fontScale=\d+/) && /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+
+    var m=location.href.match(/fontScale=(\d*)/);
+    var map={
+        "94":1,
+        "100":2,
+        "109":3,
+        "119":4,
+        "131":5,
+    }
+    if(m&&m[1]&&map[m[1]]){
+        document.getElementsByTagName("body")[0].className+=" appmsg_skin_fontscale_"+map[m[1]];
+        console.log("appmsg_skin_fontscale_:"+map[m[1]]);
+    }
+}
+
+
+(function(){
+    if (window.__second_open__) return; 
+
+    
+
+    var first_js_time = +new Date();
+
+    var showDate="";
+    var svrDate=new Date("1549780504"*1000);
+    var createDate=new Date("1536457061"*1000);
+    var ct="1536457061"*1;
+    var publish_time = "2018-09-09" || "";
+    var cD={
+      year:createDate.getYear(),
+      month:createDate.getMonth()+1,
+      date:createDate.getDate()
+    };
+    
+    svrDate.setHours(0);
+    svrDate.setMinutes(0);
+    svrDate.setSeconds(0);
+    var todayDate=svrDate.getTime()/1000;
+    svrDate.setDate(1);
+    svrDate.setMonth(0);
+    var yearDate=svrDate.getTime()/1000;
+    
+    if(ct>=todayDate){
+      showDate="今天";
+    
+    }else if(ct>=todayDate-60*60*24){
+       showDate="昨天";
+    
+    }else if(ct>=todayDate-2*60*60*24){
+      showDate="前天";
+    }else if(ct>=todayDate-3*60*60*24){
+      showDate="3天前";
+    }else if(ct>=todayDate-4*60*60*24){
+      showDate="4天前";
+    }else if(ct>=todayDate-5*60*60*24){
+      showDate="5天前";
+    }else if(ct>=todayDate-6*60*60*24){
+      showDate="6天前";
+    }else if(ct>=todayDate-2*7*60*60*24){
+      showDate="1周前";
+    }else if(ct>=yearDate){
+      
+      
+      
+      showDate="%s月%s日".replace("%s",cD.month).replace("%s",cD.date);
+    }else{
+      showDate=publish_time;
+    };
+    if(document.getElementById("publish_time")){
+      document.getElementById("publish_time").innerText=showDate;
+    }
+})();
+</script>
+<script nonce="409633490" type="text/javascript">
+
+if (!window.console) window.console = { log: function() {} };
+
+if (typeof getComputedStyle == 'undefined') {
+    if (document.body.currentStyle) {
+        window.getComputedStyle = function(el) {
+            return el.currentStyle;
+        }
+    } else {
+        window.getComputedStyle = {};
+    }
+}
+(function(){
+    window.__zoom = 1;
+    
+    (function(){
+        var validArr = ","+([0.875, 1, 1.125, 1.25, 1.375]).join(",")+",";
+        var match = window.location.href.match(/winzoom=(\d+(?:\.\d+)?)/);
+        if (match && match[1]) {
+            var winzoom = parseFloat(match[1]);
+            if (validArr.indexOf(","+winzoom+",")>=0) {
+                window.__zoom = winzoom;
+            }
+        }
+    })();
+
+    var ua = navigator.userAgent.toLowerCase();
+    var re = new RegExp("msie ([0-9]+[\.0-9]*)");
+    var version;
+    if (re.exec(ua) != null) {
+        version = parseInt(RegExp.$1);
+    }
+    var isIE = false;
+    if (typeof version != 'undefined' && version >= 6 && version <= 9) {
+        isIE = true;
+    }
+    var getMaxWith=function(){
+        var container = document.getElementById('img-content');
+        var max_width = container.offsetWidth;
+        var container_padding = 0;
+        var container_style = getComputedStyle(container);
+        container_padding = parseFloat(container_style.paddingLeft) + parseFloat(container_style.paddingRight);
+        max_width -= container_padding;
+        if (!max_width) {
+            max_width = window.innerWidth - 30;      
+        }
+        return max_width;
+    };
+    var getParentWidth = function(dom){
+        var parent_width = 0;
+        var parent = dom.parentNode;
+        var outerWidth = 0;
+        while (true) {
+            if(!parent||parent.nodeType!=1) break;
+            var parent_style = getComputedStyle(parent);
+            if (!parent_style) break;
+            parent_width = parent.clientWidth - parseFloat(parent_style.paddingLeft) - parseFloat(parent_style.paddingRight) - outerWidth;
+            if (parent_width > 0) break;
+            outerWidth += parseFloat(parent_style.paddingLeft) + parseFloat(parent_style.paddingRight) + parseFloat(parent_style.marginLeft) + parseFloat(parent_style.marginRight) + parseFloat(parent_style.borderLeftWidth) + parseFloat(parent_style.borderRightWidth);
+            parent = parent.parentNode;
+        }
+        return parent_width;
+    }
+    var getOuterW=function(dom){
+        var style=getComputedStyle(dom),
+            w=0;
+        if(!!style){
+            w = parseFloat(style.paddingLeft) + parseFloat(style.paddingRight) + parseFloat(style.borderLeftWidth) + parseFloat(style.borderRightWidth);
+        }
+        return w;
+    };
+    var getOuterH =function(dom){
+        var style=getComputedStyle(dom),
+            h=0;
+        if(!!style){
+            h = parseFloat(style.paddingTop) + parseFloat(style.paddingBottom) + parseFloat(style.borderTopWidth) + parseFloat(style.borderBottomWidth);
+        }
+        return h;
+    };
+    var insertAfter = function(dom,afterDom){
+        var _p = afterDom.parentNode;
+        if(!_p){
+            return;
+        }
+        if(_p.lastChild === afterDom){
+            _p.appendChild(dom);
+        }else{
+            _p.insertBefore(dom,afterDom.nextSibling);
+        }
+    };
+    var getQuery = function(name,url){
+        
+        var u  = arguments[1] || window.location.search,
+            reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)"),
+            r = u.substr(u.indexOf("\?")+1).match(reg);
+        return r!=null?r[2]:"";
+    };
+
+    
+    function setImgSize(item, widthNum, widthUnit, ratio, breakParentWidth) {
+        setTimeout(function () {
+            var img_padding_border = getOuterW(item) || 0;
+            var img_padding_border_top_bottom = getOuterH(item) || 0;
+            
+            if (widthNum > getParentWidth(item) && !breakParentWidth) {
+                widthNum = getParentWidth(item);
+            }
+
+            height = (widthNum - img_padding_border) * ratio + img_padding_border_top_bottom;
+
+            if (isIE) {
+                var url = item.getAttribute('data-src');
+                item.src = url;
+            } else {
+                if(parseFloat(widthNum, 10) > 40 && height > 40 && breakParentWidth) {
+                    item.className += ' img_loading';
+                }
+                item.src = "data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            }
+            item.style.cssText += ";width: " + widthNum + widthUnit + " !important;";
+            item.style.cssText += ";height: " + height + widthUnit + " !important;";
+        }, 10);
+    }
+
+    (function(){
+        var images = document.getElementsByTagName('img');
+        var length = images.length;
+        var max_width = getMaxWith();
+        for (var i = 0; i < length; ++i) {
+            if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var imageItem = images[i];
+            var src_ = imageItem.getAttribute('data-src');
+            var realSrc = imageItem.getAttribute('src');
+            if (!src_ || realSrc) continue;
+            
+            var originWidth = imageItem.getAttribute('data-w');
+            var ratio_ = 1 * imageItem.getAttribute('data-ratio');
+
+            var height = 100;
+            if (ratio_ && ratio_ > 0) {
+                var parent_width = getParentWidth(imageItem) || max_width;
+                var initWidth = imageItem.style.width || imageItem.getAttribute('width') || originWidth || parent_width;
+                initWidth = parseFloat(initWidth, 10) > max_width ? max_width : initWidth;
+                
+                if (initWidth) {
+                    imageItem.setAttribute('_width', !isNaN(initWidth * 1) ? initWidth + 'px' : initWidth);
+                }
+                
+                if (typeof initWidth === 'string' && initWidth.indexOf('%') !== -1) {
+                    initWidth = parseFloat(initWidth.replace('%', ''), 10) / 100 * parent_width;
+                }
+                
+                if (initWidth === 'auto') {
+                    initWidth = originWidth;
+                }
+
+                var res = /^(\d+(?:\.\d+)?)([a-zA-Z%]+)?$/.exec(initWidth);
+                var widthNum = res && res.length >= 2 ? res[1] : 0;
+                var widthUnit = res && res.length >= 3 && res[2] ? res[2] : 'px';
+
+                
+                setImgSize(imageItem, widthNum, widthUnit, ratio_, true);
+                
+                (function (item, widthNumber, unit, ratio) {
+                    setTimeout(function () {
+                        setImgSize(item, widthNumber, unit, ratio, false);
+                    });
+                })(imageItem, widthNum, widthUnit, ratio_);
+            } else {
+                imageItem.style.cssText += ";visibility: hidden !important;";
+            }
+
+        }
+    })();
+    window.__videoDefaultRatio=16/9;
+    window.__getVideoWh = function(dom){
+        var max_width = getMaxWith(),
+            width = max_width,
+            ratio_ = dom.getAttribute('data-ratio')*1,
+            arr = [4/3, 16/9],
+            ret = arr[0],
+            abs = Math.abs(ret - ratio_);
+        if (!ratio_) { 
+            if (dom.getAttribute("data-mpvid")) { 
+                ratio_ = 16/9;
+            } else { 
+                ratio_ = 4/3;
+            }
+        } else { 
+            for (var j = 1, jl = arr.length; j < jl; j++) {
+                var _abs = Math.abs(arr[j] - ratio_);
+                if (_abs < abs) {
+                    abs = _abs;
+                    ret = arr[j];
+                }
+            }
+            ratio_ = ret;
+        }
+        
+        var parent_width = getParentWidth(dom)||max_width,
+            width = width > parent_width ? parent_width : width,
+            outerW = getOuterW(dom)||0,
+            outerH = getOuterH(dom)||0,
+            videoW = width - outerW,
+            videoH = videoW/ratio_,
+            height = videoH + outerH;
+        return {w:Math.ceil(width),h:Math.ceil(height),vh:videoH,vw:videoW,ratio:ratio_};
+    };
+
+
+    (function(){
+        var iframe = document.getElementsByTagName('iframe');
+        for (var i=0,il=iframe.length;i<il;i++) {
+            if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var a = iframe[i];
+            var src_ = a.getAttribute('src')||a.getAttribute('data-src')||"";
+            if(!/^http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)
+                && !/^http(s)*\:\/\/mp\.weixin\.qq\.com\/mp\/readtemplate\?t=pages\/video_player_tmpl/.test(src_)
+            ){
+                continue;
+            }
+            var vid = getQuery("vid",src_);
+            if(!vid){
+                continue;
+            }
+            vid=vid.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,"");
+            a.removeAttribute('src');
+            a.style.display = "none";
+            var obj = window.__getVideoWh(a),
+                videoPlaceHolderSpan = document.createElement('span'),
+                videoPlayerIconSpan = document.createElement('span'),
+                mydiv = document.createElement('img');
+
+            videoPlaceHolderSpan.className = "js_img_loading db";
+            videoPlaceHolderSpan.setAttribute("data-vid", vid);
+            
+
+            videoPlayerIconSpan.className = 'wx_video_context db'; 
+            videoPlayerIconSpan.style.display = 'none';
+            videoPlayerIconSpan.innerHTML = '<span class="wx_video_thumb_primary"></span><button class="wx_video_play_btn">播放</button><span class="wx_video_mask"></span>'; 
+
+            mydiv.className = "img_loading";
+
+            mydiv.src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            
+            
+            videoPlaceHolderSpan.style.cssText = "width: " + obj.w + "px !important;";
+            mydiv.style.cssText += ";width: " + obj.w + "px";
+            videoPlaceHolderSpan.appendChild(videoPlayerIconSpan);
+            videoPlaceHolderSpan.appendChild(mydiv);
+            insertAfter(videoPlaceHolderSpan, a); 
+            
+            a.style.cssText += ";width: " + obj.w + "px !important;";
+            a.setAttribute("width",obj.w);
+            if(window.__zoom!=1){
+                a.style.display = "block";
+                videoPlaceHolderSpan.style.display = "none";
+                a.setAttribute("_ratio",obj.ratio);
+                a.setAttribute("_vid",vid);
+            }else{
+                videoPlaceHolderSpan.style.cssText += "height: " + obj.h + "px !important;";
+                mydiv.style.cssText += "height: " + obj.h + "px !important;";
+                a.style.cssText += "height: " + obj.h + "px !important;";
+                a.setAttribute("height",obj.h);
+            }
+            a.setAttribute("data-vh",obj.vh);
+            a.setAttribute("data-vw",obj.vw);
+            if(a.getAttribute("data-mpvid")){
+                a.setAttribute("data-src",location.protocol+"//mp.weixin.qq.com/mp/readtemplate?t=pages/video_player_tmpl&auto=0&vid="+vid);
+            }else{
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+obj.vw+"&height="+obj.vh+"&auto=0");   
+            }            
+        }
+    })();
+    
+    (function(){
+        if(window.__zoom!=1){
+            if (!window.__second_open__) {
+                document.getElementById('page-content').style.zoom = window.__zoom;
+                var a = document.getElementById('activity-name');
+                var b = document.getElementById('meta_content');
+                if(!!a){
+                    a.style.zoom = 1/window.__zoom;
+                }
+                if(!!b){
+                    b.style.zoom = 1/window.__zoom;
+                }
+            }
+            var images = document.getElementsByTagName('img');
+            for (var i = 0,il=images.length;i<il;i++) {
+                if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                images[i].style.zoom = 1/window.__zoom;
+            }
+            var iframe = document.getElementsByTagName('iframe');
+            for (var i = 0,il=iframe.length;i<il;i++) {
+                if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                var a = iframe[i];
+                a.style.zoom = 1/window.__zoom;
+                var src_ = a.getAttribute('data-src')||"";
+                if(!/http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)){
+                    continue;
+                }
+                var ratio = a.getAttribute("_ratio");
+                var vid = a.getAttribute("_vid");
+                a.removeAttribute("_ratio");
+                a.removeAttribute("_vid");
+                var vw = a.offsetWidth - (getOuterW(a)||0);
+                var vh = vw/ratio;
+                var h = vh + (getOuterH(a)||0)
+                a.style.cssText += "height: " + h + "px !important;"
+                a.setAttribute("height",h);
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+vw+"&height="+vh+"&auto=0");
+                a.style.display = "none";
+                var parent = a.parentNode;
+                if(!parent){
+                    continue;
+                }
+                for(var j=0,jl=parent.children.length;j<jl;j++){
+                    var child = parent.children[j];
+                    if(child.className.indexOf("img_loading")>=0 && child.getAttribute("data-vid")==vid){
+                        child.style.cssText += "height: " + h + "px !important;";
+                        child.style.display = "";
+                    }
+                }
+            }
+        }
+    })();
+})();
+</script>
+<script nonce="409633490" type="text/javascript">
+    var new_appmsg = 1;
+    var item_show_type = "0";
+    var can_see_complaint = "0";
+    var not_in_mm_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm435ee6.css";
+    var windowwx_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+    var article_improve_combo_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo438c19.css";
+    var tid = "";
+    var aid = "";
+    var clientversion = "";
+    var appuin = ""||"MzI5MDQ2NjExOQ==";
+
+    var source = "";
+    var ascene = "";
+    var subscene = "";
+    var sessionid = ""||"";
+    var abtest_cookie = "";
+
+    var scene = 75;
+
+    var itemidx = "";
+    var appmsg_token   = "";
+    var _copyright_stat = "1";
+    var _ori_article_type = "科技互联网";
+
+    var is_follow = "";
+    var nickname = "信安之路";
+    var appmsg_type = "9";
+    var ct = "1536457061";
+    var publish_time = "2018-09-09" || "";
+    var user_name = "gh_ad6a23e7ba45";
+    var user_name_new = "";
+    var fakeid   = "";
+    var version   = "";
+    var is_limit_user   = "0";
+    var round_head_img = "http://mmbiz.qpic.cn/mmbiz_png/sGfPWsuKAfdTGQLM9V45MicHa2CEiajknjGGIaDnbZjicfcIRJvbIJVf5btLXW6LHxAZO9xfEfMeaCecTichqKn6Mw/0?wx_fmt=png";
+    var hd_head_img = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM7lpOnOdqSlZ3Vavc3W1USBZQetibPnrzDXdNx43gCfs7g/0"||"";
+    var ori_head_img_url = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM7lpOnOdqSlZ3Vavc3W1USBZQetibPnrzDXdNx43gCfs7g/132";
+    var msg_title = "APT 攻击链及事件响应策略";
+    var msg_desc = "首先我们来思考一个问题，APT攻击事件和传统的网络攻击有什么明显区别呢？我相信，很多安全的小伙伴都会说，相比于传统的安全攻击事件来说，APT攻击事件更持久，更有针对性，那APT攻击事件的攻击流程和预防APT事件的响应流程又是怎么一回事呢";
+    var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz_jpg/sGfPWsuKAfcqvicHaPWIMhUT3hicATTSbWWh6gWwUibmGOVbV5Y9eksYu3wePpxvNyP51tEIYwgYVFM6Xd19IAH8Q/0?wx_fmt=jpeg"; 
+    var cdn_url_1_1  = ""; 
+    var cdn_url_235_1 = ""; 
+    
+    var msg_link = "http://mp.weixin.qq.com/s?__biz=MzI5MDQ2NjExOQ==&amp;mid=2247488249&amp;idx=1&amp;sn=67253f6bbe85fe65c79540d2e8cae70d&amp;chksm=ec1e22d1db69abc7d26693a90843ef253b53ea55674b64890bb45290baad69601ce0ba354854#rd"; 
+    var user_uin = "0"*1;
+    var msg_source_url = '';
+    var img_format = 'jpeg';
+    var srcid = '';
+    var req_id = '10147ygEhwBPbLyskoALUpra';
+    var networkType;
+    var appmsgid = '' || ''|| "2247488249";
+    var comment_id = "450716387745234944" || "450716387745234944" * 1;
+    var comment_enabled = "" * 1;
+    var is_need_reward = "0" * 1;
+    var is_https_res = ("" * 1) && (location.protocol == "https:");
+    var msg_daily_idx = "1" || "";
+    var profileReportInfo = "" || "";
+
+    var devicetype = "";
+    var source_encode_biz = "";
+    var source_username = "";
+    
+    var reprint_ticket = "";
+    var source_mid = "";
+    var source_idx = "";
+    var source_biz = "";
+    var author_id = "";
+
+    
+    var optimizing_flag = "0" * 1;
+    var ad_abtest_padding = "0" * 1;
+
+    var show_comment = "";
+    var __appmsgCgiData = {
+        wxa_product : ""*1,
+        wxa_cps : ""*1,
+        show_msg_voice: "0"*1,
+        can_use_page : "0"*1,
+        is_wxg_stuff_uin : "0"*1,
+        card_pos : "",
+        copyright_stat : "1",
+        source_biz : "",
+        hd_head_img : "http://wx.qlogo.cn/mmhead/Q3auHgzwzM7lpOnOdqSlZ3Vavc3W1USBZQetibPnrzDXdNx43gCfs7g/0"||(window.location.protocol+"//"+window.location.host + "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_rumor_link.2x42f400.jpg")
+    };
+    var _empty_v = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/pages/voice/empty42f400.mp3";
+
+    var copyright_stat = "1" * 1;
+
+    var pay_fee = "" * 1;
+    var pay_timestamp = "";
+    var need_pay = "" * 1;
+
+    var need_report_cost = "0" * 1;
+    var use_tx_video_player = "0" * 1;
+    var appmsg_fe_filter = "contenteditable";
+
+    var friend_read_source = "" || "";
+    var friend_read_version = "" || "";
+    var friend_read_class_id = "" || "";
+
+    var is_only_read = "1" * 1;
+    var read_num = "" * 1;
+    var like_num = "" * 1;
+    var liked = "" == 'true' ? true : false;
+    var is_temp_url = "" ? 1 : 0;
+    var send_time = "";
+    var icon_emotion_switch = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch.2x42f400.png";
+    var icon_emotion_switch_active = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch_active.2x42f400.png";
+    var icon_loading_white = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif";
+    var icon_audio_unread = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/audio/icon_audio_unread42f400.png";
+    var icon_qqmusic_default = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_default.2x42f400.png";
+    var icon_qqmusic_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_source42f400.png";
+    var icon_kugou_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/kugou/icon_kugou_source42f400.png";
+
+    var topic_default_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/topic/pic_book_thumb.2x42f400.png';
+    var comment_edit_icon = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg_new/icon_edit42f400.png';
+    var comment_loading_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif';
+
+    var voice_in_appmsg = {
+        "1":"1"
+            };
+
+    var reprint_style = ''*1;
+    var wxa_img_alert = "" != 'false';
+
+    
+    var more_read_type = '0'*1;
+
+    
+    
+    
+    
+
+    
+    var weapp_sn_arr_json = "" || "";
+
+    
+    var ban_scene = "0" * 1;
+
+    var svr_time = "1549780504" * 1;
+    
+    var is_transfer_msg = ""*1||0;
+
+    var malicious_title_reason_id = "0" * 1; 
+    var malicious_content_type = "0" * 1; 
+
+    
+    var modify_time = "";
+
+    
+    var isprofileblock = "0";
+
+    
+    var hotspotInfoList = [
+                    ];
+
+        window.wxtoken = "777";
+        
+    
+    
+    
+    
+    window.is_login = '0' * 1; 
+
+    window.__moon_initcallback = function(){
+        if(!!window.__initCatch){
+            window.__initCatch({
+                idkey : 27611+2,
+                startKey : 0,
+                limit : 128,
+                badjsId: 43,
+                reportOpt : {
+                    uin : uin,
+                    biz : biz,
+                    mid : mid,
+                    idx : idx,
+                    sn  : sn
+                },
+                extInfo : {
+                    network_rate : 0.01,    
+                    badjs_rate: 0.1 
+                }
+            });
+        }
+    }
+        
+    var title ="信安之路";
+
+    var is_new_msg=true;
+    
+    
+
+    var is_wash = '' * 1;
+</script>
+
+<script nonce="409633490" type="text/javascript">
+(function(_g){
+    _g.appmsg_like_type = "1" * 1 ? "1" * 1 : 1;
+    
+    _g.clientversion = "";
+    _g.passparam = ""; 
+    if(!_g.msg_link) {
+      _g.msg_link = "http://mp.weixin.qq.com/s?__biz=MzI5MDQ2NjExOQ==&amp;mid=2247488249&amp;idx=1&amp;sn=67253f6bbe85fe65c79540d2e8cae70d&amp;chksm=ec1e22d1db69abc7d26693a90843ef253b53ea55674b64890bb45290baad69601ce0ba354854#rd";
+    }
+    _g.appmsg_type = "9"; 
+    _g.devicetype = ""; 
+})(window);
+
+</script>
+
+
+        <script nonce="409633490">window.__moon_host = 'res.wx.qq.com';window.__moon_mainjs = 'appmsg/index.js';window.moon_map = {"a/appdialog_confirm.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm.html42f400.js","widget/wx_profile_dialog_primary.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/widget/wx_profile_dialog_primary.css42f400.js","pages/iframe_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/iframe_communicate42f400.js","new_video/player.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player.html433882.js","biz_wap/zepto/touch.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/touch42f400.js","biz_wap/zepto/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/event42f400.js","biz_wap/zepto/zepto.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/zepto42f400.js","page/pages/video.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/pages/video.css435ee6.js","a/tpl/smallbanner_msg_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_msg_tpl.html42f400.js","a/tpl/smallbanner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_info_tpl.html42f400.js","a/tpl/banner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_info_tpl.html42f400.js","a/tpl/promote_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/promote_tpl.html42f400.js","a/tpl/smallcard_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallcard_tpl.html42f400.js","a/tpl/info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/info_tpl.html42f400.js","a/tpl/cardticket_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cardticket_tpl.html42f400.js","a/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_tpl.html42f400.js","a/tpl/sponsor_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/sponsor_tpl.html42f400.js","a/tpl/new_cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/new_cpc_tpl.html42f400.js","appmsg/emotion/caret.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/caret42f400.js","biz_wap/utils/localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/localstorage42f400.js","appmsg/friend_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/friend_comment_tpl.html42f400.js","appmsg/comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_tpl.html42f400.js","biz_wap/utils/fakehash.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/fakehash42f400.js","appmsg/comment_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_report42f400.js","a/appdialog_confirm.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm42f400.js","new_video/player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player4306fd.js","a/tpl/mpda_bottom_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/mpda_bottom_tpl.html42f400.js","a/tpl/crt_size_map.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_size_map42f400.js","biz_wap/jsapi/cardticket.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/cardticket42f400.js","biz_common/jquery.md5.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/jquery.md542f400.js","biz_common/utils/emoji_panel_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_panel_data42f400.js","biz_common/utils/emoji_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_data42f400.js","appmsg/emotion/textarea.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/textarea42f400.js","appmsg/emotion/nav.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/nav42f400.js","appmsg/emotion/common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/common42f400.js","appmsg/emotion/slide.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/slide42f400.js","appmsg/emotion/dom.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/dom42f400.js","pages/music_report_conf.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_report_conf42f400.js","pages/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/report4306fd.js","pages/player_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/player_adaptor42f400.js","pages/music_player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_player42f400.js","appmsg/more_read_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read_tpl.html42f400.js","appmsg/retry_ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/retry_ajax42f400.js","complain/tips.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/complain/tips42f400.js","pages/loadscript.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/loadscript42f400.js","biz_wap/utils/ajax_load_js.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_load_js42f400.js","appmsg/comment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment4317dc.js","a/ios.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios42f400.js","a/android.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android42f400.js","a/profile.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile42f400.js","a/app_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/app_card430506.js","a/sponsor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor42f400.js","a/tpl/cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cpc_tpl.html42f400.js","a/video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/video42f400.js","a/a_config.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_config42f400.js","a/tpl/crt_tpl_manager.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_tpl_manager42f400.js","a/cpc_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/cpc_a_tpl.html42f400.js","a/sponsor_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor_a_tpl.html42f400.js","a/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_tpl.html42f400.js","a/mpshop.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpshop42f400.js","a/wxopen_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/wxopen_card42f400.js","a/card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/card42f400.js","biz_wap/utils/position.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/position42f400.js","a/a_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_report42f400.js","biz_wap/utils/show_time.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/show_time42f400.js","biz_common/utils/get_para_list.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/get_para_list42f400.js","biz_wap/utils/openUrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/openUrl42f400.js","a/a_sign.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_sign438181.js","appmsg/my_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/my_comment_tpl.html42f400.js","appmsg/cmt_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cmt_tpl.html42f400.js","sougou/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/a_tpl.html42f400.js","appmsg/emotion/emotion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/emotion42f400.js","biz_common/base64.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/base6442f400.js","biz_common/utils/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report42f400.js","appmsg/articleReport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/articleReport42f400.js","biz_wap/utils/hand_up_state.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/hand_up_state42f400.js","biz_common/utils/http.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/http42f400.js","biz_common/utils/cookie.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie42f400.js","appmsg/topic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/topic_tpl.html42f400.js","pages/weapp_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/weapp_tpl.html42f400.js","biz_common/utils/monitor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/monitor42f400.js","pages/voice_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_tpl.html42f400.js","pages/kugoumusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/kugoumusic_ctrl42f400.js","pages/qqmusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_ctrl42f400.js","pages/voice_component.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_component42f400.js","pages/qqmusic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_tpl.html42f400.js","new_video/ctl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/ctl4306fd.js","appmsg/open_url_with_webview.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/open_url_with_webview4380a9.js","appmsg/more_read.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read42f400.js","appmsg/reward_entry.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/reward_entry42f400.js","appmsg/like.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like43875f.js","pages/version4video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/version4video42f400.js","biz_wap/utils/storage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/storage42f400.js","appmsg/share_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share_tpl.html42f400.js","appmsg/appmsgext.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsgext430b95.js","appmsg/img_copyright_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/img_copyright_tpl.html42f400.js","pages/video_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_ctrl42f400.js","pages/create_txv.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/create_txv42f400.js","appmsg/comment_utils.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_utils42f400.js","biz_common/ui/imgonepx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx42f400.js","appmsg/malicious_wording.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/malicious_wording42f400.js","biz_common/utils/wxgspeedsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/wxgspeedsdk42f400.js","a/a.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a4382e5.js","rt/appmsg/getappmsgext.rt.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/rt/appmsg/getappmsgext.rt42f400.js","pages/video_communicate_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_communicate_adaptor433882.js","biz_wap/utils/ajax_wx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_wx42f400.js","biz_common/utils/respTypes.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/respTypes42f400.js","biz_wap/utils/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/log42f400.js","sougou/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/index42f400.js","biz_wap/safe/mutation_observer_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/mutation_observer_report42f400.js","appmsg/fereport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport438bee.js","appmsg/fereport_without_localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport_without_localstorage438bee.js","appmsg/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report42f400.js","appmsg/report_and_source.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source4380a9.js","appmsg/page_pos.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos431b87.js","appmsg/cdn_speed_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report42f400.js","appmsg/wxtopic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/wxtopic42f400.js","appmsg/weapp.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp433882.js","appmsg/weproduct.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weproduct42f400.js","appmsg/voicemsg.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voicemsg42f400.js","appmsg/autoread.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/autoread42f400.js","appmsg/voice.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voice42f400.js","appmsg/qqmusic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/qqmusic43440b.js","appmsg/iframe.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe433882.js","appmsg/product.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/product42f400.js","appmsg/review_image.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image435a90.js","appmsg/outer_link.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link433882.js","appmsg/copyright_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/copyright_report42f400.js","appmsg/async.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async438bee.js","biz_wap/ui/lazyload_img.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img42f400.js","biz_common/log/jserr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr42f400.js","appmsg/share.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share42f50a.js","appmsg/cdn_img_lib.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib42f400.js","appmsg/finance_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/finance_communicate42f400.js","page/appmsg_new/not_in_mm.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm.css435ee6.js","page/appmsg_new/combo.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo.css438c19.js","biz_wap/utils/wapsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/wapsdk42f400.js","a/mpAdAsync.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpAdAsync4317dc.js","biz_common/utils/url/parse.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse42f400.js","appmsg/appmsg_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsg_report435ac2.js","biz_common/moment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/moment42f400.js","biz_wap/jsapi/core.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core42f400.js","biz_common/dom/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event42f400.js","appmsg/test.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/test42f400.js","biz_wap/utils/mmversion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion42f400.js","appmsg/max_age.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/max_age42f400.js","biz_common/dom/attr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr42f400.js","biz_wap/utils/ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax42f400.js","appmsg/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/log42f400.js","biz_common/dom/class.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class42f400.js","biz_wap/utils/device.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/device42f400.js","appmsg/weapp_common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp_common42f400.js","biz_common/utils/string/html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html42f400.js","cps/tpl/list_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/list_tpl.html42f400.js","cps/tpl/card_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/card_tpl.html42f400.js","cps/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/banner_tpl.html42f400.js","biz_common/tmpl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl42f400.js","appmsg/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index438e37.js"};</script><script nonce="409633490" type="text/javascript" id="moon_inline" > window.__mooninline=1; window.setTimeout(function() {  function __moonf__(){
+if(!window.__moonhasinit){
+window.__moonhasinit=!0,window.__moonclientlog=[],window.__wxgspeeds&&(window.__wxgspeeds.moonloadedtime=+new Date),
+"object"!=typeof JSON&&(window.JSON={
+stringify:function(){
+return"";
+},
+parse:function(){
+return{};
+}
+});
+var e=function(){
+function e(e){
+try{
+var o;
+/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)?o="writeLog":/(Android)/i.test(navigator.userAgent)&&(o="log"),
+o&&t(o,e);
+}catch(n){
+throw console.error(n),n;
+}
+}
+function t(e,o){
+var n,r,i={};
+n=top!=window?top.window:window;
+try{
+r=n.WeixinJSBridge,i=n.document;
+}catch(a){}
+e&&r&&r.invoke?r.invoke(e,{
+level:"info",
+msg:"[WechatFe][moon]"+o
+}):setTimeout(function(){
+i.addEventListener?i.addEventListener("WeixinJSBridgeReady",function(){
+t(e,o);
+},!1):i.attachEvent&&(i.attachEvent("WeixinJSBridgeReady",function(){
+t(e,o);
+}),i.attachEvent("onWeixinJSBridgeReady",function(){
+t(e,o);
+}));
+},0);
+}
+var n;
+localStorage&&JSON.parse(localStorage.getItem("__WXLS__moonarg"))&&"fromls"==JSON.parse(localStorage.getItem("__WXLS__moonarg")).method&&(n=!0),
+e(" moon init, moon_inline:"+window.__mooninline+", moonls:"+n),function(){
+var e={},o={},t={};
+e.COMBO_UNLOAD=0,e.COMBO_LOADING=1,e.COMBO_LOADED=2;
+var n=function(e,t,n){
+if(!o[e]){
+o[e]=n;
+for(var r=3;r--;)try{
+moon.setItem(moon.prefix+e,n.toString()),moon.setItem(moon.prefix+e+"_ver",moon_map[e]);
+break;
+}catch(i){
+moon.clear();
+}
+}
+},r=window.alert;
+window.__alertList=[],window.alert=function(e){
+r(e),window.__alertList.push(e);
+};
+var i=function(e){
+if(!e||!o[e])return null;
+var n=o[e];
+if("function"==typeof n&&!t[e]){
+var a={},s={
+exports:a
+},c=n(i,a,s,r);
+n=o[e]=c||s.exports,t[e]=!0;
+}
+if(".css"===e.substr(-4)){
+var d=document.getElementById(e);
+if(!d){
+d=document.createElement("style"),d.id=e;
+var _=/url\s*\(\s*\/(\"(?:[^\\\"\r\n\f]|\\[\s\S])*\"|'(?:[^\\'\n\r\f]|\\[\s\S])*'|[^)}]+)\s*\)/g,m=window.testenv_reshost||window.__moon_host||"res.wx.qq.com";
+n=n.replace(_,"url(//"+m+"/$1)"),d.innerHTML=n,document.getElementsByTagName("head")[0].appendChild(d);
+}
+}
+return n;
+};
+e.combo_status=e.COMBO_UNLOAD,e.run=function(){
+var o=e.run.info,t=o&&o[0],n=o&&o[1];
+if(t&&e.combo_status==e.COMBO_LOADED){
+var r=i(t);
+n&&n(r);
+}
+},e.use=function(o,t){
+window.__wxgspeeds&&(window.__wxgspeeds.seajs_use_time=+new Date),e.run.info=[o,t],
+e.run();
+},window.define=n,window.seajs=e;
+}(),function(){
+if(window.__nonce_str){
+var e=document.createElement;
+document.createElement=function(o){
+var t=e.apply(this,arguments);
+return"object"==typeof o&&(o=o.toString()),"string"==typeof o&&"script"==o.toLowerCase()&&t.setAttribute("nonce",window.__nonce_str),
+t;
+};
+}
+window.addEventListener&&window.__DEBUGINFO&&Math.random()<.01&&window.addEventListener("load",function(){
+var e=document.createElement("script");
+e.src=__DEBUGINFO.safe_js,e.type="text/javascript",e.async=!0;
+var o=document.head||document.getElementsByTagName("head")[0];
+o.appendChild(e);
+});
+}(),function(){
+function t(e){
+return"[object Array]"===Object.prototype.toString.call(e);
+}
+function n(e){
+return"[object Object]"===Object.prototype.toString.call(e);
+}
+function r(e){
+var t=e.stack+" "+e.toString()||"";
+try{
+if(window.testenv_reshost){
+var n="http(s)?://"+window.testenv_reshost,r=new RegExp(n,"g");
+t=t.replace(r,"");
+}else t=t.replace(/http(s)?:\/\/res\.wx\.qq\.com/g,"");
+for(var r=/\/([^.]+)\/js\/(\S+?)\.js(\,|:)?/g;r.test(t);)t=t.replace(r,function(e,o,t,n){
+return t+n;
+});
+}catch(e){
+t=e.stack?e.stack:"";
+}
+var i=[];
+for(o in u)u.hasOwnProperty(o)&&i.push(o+":"+u[o]);
+return i.push("STK:"+t.replace(/\n/g,"")),i.join("|");
+}
+function i(e){
+if(!e){
+var o=window.onerror;
+window.onerror=function(){},f=setTimeout(function(){
+window.onerror=o,f=null;
+},50);
+}
+}
+function a(e,o,t){
+if(!/^mp\.weixin\.qq\.com$/.test(location.hostname)){
+var n=[];
+t=t.replace(location.href,(location.origin||"")+(location.pathname||"")).replace("#wechat_redirect","").replace("#rd","").split("&");
+for(var r=0,i=t.length;i>r;r++){
+var a=t[r].split("=");
+a[0]&&a[1]&&n.push(a[0]+"="+encodeURIComponent(a[1]));
+}
+var s=new window.Image;
+return void(s.src=(o+n.join("&")).substr(0,1024));
+}
+var c;
+if(window.ActiveXObject)try{
+c=new ActiveXObject("Msxml2.XMLHTTP");
+}catch(d){
+try{
+c=new ActiveXObject("Microsoft.XMLHTTP");
+}catch(_){
+c=!1;
+}
+}else window.XMLHttpRequest&&(c=new XMLHttpRequest);
+c&&(c.open(e,o,!0),c.setRequestHeader("cache-control","no-cache"),c.setRequestHeader("Content-Type","application/x-www-form-urlencoded; charset=UTF-8"),
+c.setRequestHeader("X-Requested-With","XMLHttpRequest"),c.send(t));
+}
+function s(e){
+return function(o,t){
+if("string"==typeof o)try{
+o=new Function(o);
+}catch(n){
+throw n;
+}
+var r=[].slice.call(arguments,2),a=o;
+return o=function(){
+try{
+return a.apply(this,r.length&&r||arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:j,
+log:"timeout_error;host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},e(o,t);
+};
+}
+function c(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this,a=t||function(){};
+return t=function(){
+try{
+return a.apply(r,arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:x,
+log:"listener_error;type:"+o+";host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},a.moon_lid=E,b[E]=t,E++,e.call(r,o,t,n);
+};
+}
+function d(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this;
+return t=b[t.moon_lid],e.call(r,o,t,n);
+};
+}
+var _,m,l,w,u,p,f,h=/MicroMessenger/i.test(navigator.userAgent),g=/MPAPP/i.test(navigator.userAgent),v=window.define,y=0,x=2,O=4,j=9,D=10;
+if(window.__initCatch=function(e){
+_=e.idkey,m=e.startKey||0,l=e.limit,w=e.badjsId,u=e.reportOpt||"",p=e.extInfo||{},
+p.rate=p.rate||.5;
+},window.__moon_report=function(e,o){
+var i=!1,s="";
+try{
+s=top.location.href;
+}catch(c){
+i=!0;
+}
+var d=.5;
+if(p&&p.rate&&(d=p.rate),o&&"number"==typeof o&&(d=o),!(!/mp\.weixin\.qq\.com/.test(location.href)&&!/payapp\.weixin\.qq\.com/.test(location.href)||Math.random()>d||!h&&!g||top!=window&&!i&&!/mp\.weixin\.qq\.com/.test(s))&&(n(e)&&(e=[e]),
+t(e)&&""!=_)){
+var u="",f=[],v=[],y=[],x=[];
+"number"!=typeof l&&(l=1/0);
+for(var j=0;j<e.length;j++){
+var D=e[j]||{};
+if(!(D.offset>l||"number"!=typeof D.offset||D.offset==O&&p&&p.network_rate&&Math.random()>=p.network_rate)){
+var b=1/0==l?m:m+D.offset;
+f[j]="[moon]"+_+"_"+b+";"+D.log+";"+r(D.e||{})||"",v[j]=b,y[j]=1;
+}
+}
+for(var E=0;E<v.length;E++)x[E]=_+"_"+v[E]+"_"+y[E],u=u+"&log"+E+"="+f[E];
+if(x.length>0){
+a("POST",location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?","idkey="+x.join(";")+"&r="+Math.random()+"&lc="+f.length+u);
+var d=1;
+if(p&&p.badjs_rate&&(d=p.badjs_rate),w&&Math.random()<d){
+u=u.replace(/uin\:(.)*\|biz\:(.)*\|mid\:(.)*\|idx\:(.)*\|sn\:(.)*\|/,"");
+var S=new Image,I="https://badjs.weixinbridge.com/badjs?id="+w+"&level=4&from="+encodeURIComponent(location.host)+"&msg="+encodeURIComponent(u);
+S.src=I.slice(0,1024);
+}
+}
+}
+},window.setTimeout=s(window.setTimeout),window.setInterval=s(window.setInterval),
+Math.random()<.01&&window.Document&&window.HTMLElement){
+var b={},E=0;
+Document.prototype.addEventListener=c(Document.prototype.addEventListener),Document.prototype.removeEventListener=d(Document.prototype.removeEventListener),
+HTMLElement.prototype.addEventListener=c(HTMLElement.prototype.addEventListener),
+HTMLElement.prototype.removeEventListener=d(HTMLElement.prototype.removeEventListener);
+}
+var S=window.navigator.userAgent;
+if((/ip(hone|ad|od)/i.test(S)||/android/i.test(S))&&!/windows phone/i.test(S)&&window.localStorage&&window.localStorage.setItem){
+var I=window.localStorage.setItem,L=0;
+window.localStorage.setItem=function(e,o){
+if(!(L>=10))try{
+I.call(window.localStorage,e,o);
+}catch(t){
+t.stack&&console&&console.error&&console.error("[TryCatch]"+t.stack),window.__moon_report([{
+offset:D,
+log:"localstorage_error;"+t.toString(),
+e:t
+}]),L++,L>=3&&window.moon&&window.moon.clear&&moon.clear();
+}
+};
+}
+window.seajs&&v&&(window.define=function(){
+for(var o,t=[],n=arguments&&arguments[0],a=0,s=arguments.length;s>a;a++){
+var c=o=arguments[a];
+"function"==typeof o&&(o=function(){
+try{
+return c.apply(this,arguments);
+}catch(o){
+throw"string"==typeof n&&console.error("[TryCatch][DefineeErr]id:"+n),o.stack&&console&&console.error&&console.error("[TryCatch]"+o.stack),
+_&&window.__moon_report&&(window.__moon_report([{
+offset:y,
+log:"define_error;id:"+n+";",
+e:o
+}]),i(f)),e(" [define_error]"+JSON.stringify(r(o))),o;
+}
+},o.toString=function(e){
+return function(){
+return e.toString();
+};
+}(arguments[a])),t.push(o);
+}
+return v.apply(this,t);
+});
+}(),function(o){
+function t(e,o,t){
+return window.__DEBUGINFO?(window.__DEBUGINFO.res_list||(window.__DEBUGINFO.res_list=[]),
+window.__DEBUGINFO.res_list[e]?(window.__DEBUGINFO.res_list[e][o]=t,!0):!1):!1;
+}
+function n(e){
+var o=new TextEncoder("utf-8").encode(e),t=crypto.subtle||crypto.webkitSubtle;
+return t.digest("SHA-256",o).then(function(e){
+return r(e);
+});
+}
+function r(e){
+for(var o=[],t=new DataView(e),n=0;n<t.byteLength;n+=4){
+var r=t.getUint32(n),i=r.toString(16),a="00000000",s=(a+i).slice(-a.length);
+o.push(s);
+}
+return o.join("");
+}
+function i(e,o,t){
+if("object"==typeof e){
+var n=Object.prototype.toString.call(e).replace(/^\[object (.+)\]$/,function(e,o){
+return o;
+});
+if(t=t||e,"Array"==n){
+for(var r=0,i=e.length;i>r;++r)if(o.call(t,e[r],r,e)===!1)return;
+}else{
+if("Object"!==n&&a!=e)throw"unsupport type";
+if(a==e){
+for(var r=e.length-1;r>=0;r--){
+var s=a.key(r),c=a.getItem(s);
+if(o.call(t,c,s,e)===!1)return;
+}
+return;
+}
+for(var r in e)if(e.hasOwnProperty(r)&&o.call(t,e[r],r,e)===!1)return;
+}
+}
+}
+var a=o.localStorage,s=document.head||document.getElementsByTagName("head")[0],c=1,d=11,_=12,m=13,l=window.__allowLoadResFromMp?1:2,w=window.__allowLoadResFromMp?1:0,u=l+w,p=window.testenv_reshost||window.__moon_host||"res.wx.qq.com",f=new RegExp("^(http(s)?:)?//"+p);
+window.__loadAllResFromMp&&(p="mp.weixin.qq.com",l=0,u=l+w);
+var h={
+prefix:"__MOON__",
+loaded:[],
+unload:[],
+clearSample:!0,
+hit_num:0,
+mod_num:0,
+version:1003,
+cacheData:{
+js_mod_num:0,
+js_hit_num:0,
+js_not_hit_num:0,
+js_expired_num:0,
+css_mod_num:0,
+css_hit_num:0,
+css_not_hit_num:0,
+css_expired_num:0
+},
+init:function(){
+h.loaded=[],h.unload=[];
+var e,t,r;
+if(window.no_moon_ls&&(h.clearSample=!0),a){
+var s="_moon_ver_key_",c=a.getItem(s);
+c!=h.version&&(h.clear(),a.setItem(s,h.version));
+}
+if((-1!=location.search.indexOf("no_moon1=1")||-1!=location.search.indexOf("no_lshttps=1"))&&h.clear(),
+a){
+var d=1*a.getItem(h.prefix+"clean_time"),_=+new Date;
+if(_-d>=1296e6){
+h.clear();
+try{
+!!a&&a.setItem(h.prefix+"clean_time",+new Date);
+}catch(m){}
+}
+}
+i(moon_map,function(i,s){
+if(t=h.prefix+s,r=!!i&&i.replace(f,""),e=!!a&&a.getItem(t),version=!!a&&(a.getItem(t+"_ver")||"").replace(f,""),
+h.mod_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_mod_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_mod_num++,
+h.clearSample||!e||r!=version)h.unload.push(r.replace(f,"")),r&&-1!=r.indexOf(".css")?e?r!=version&&h.cacheData.css_expired_num++:h.cacheData.css_not_hit_num++:r&&-1!=r.indexOf(".js")&&(e?r!=version&&h.cacheData.js_expired_num++:h.cacheData.js_not_hit_num++);else{
+if("https:"==location.protocol&&window.moon_hash_map&&window.moon_hash_map[s]&&window.crypto)try{
+n(e).then(function(e){
+window.moon_hash_map[s]!=e&&console.log(s);
+});
+}catch(c){}
+try{
+var d="//# sourceURL="+s+"\n//@ sourceURL="+s;
+o.eval.call(o,'define("'+s+'",[],'+e+")"+d),h.hit_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_hit_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_hit_num++;
+}catch(c){
+h.unload.push(r.replace(f,""));
+}
+}
+}),h.load(h.genUrl());
+},
+genUrl:function(){
+var e=h.unload;
+if(!e||e.length<=0)return[];
+var o,t,n="",r=[],i={},a=-1!=location.search.indexOf("no_moon2=1"),s="//"+p;
+-1!=location.href.indexOf("moon_debug2=1")&&(s="//mp.weixin.qq.com");
+for(var c=0,d=e.length;d>c;++c){
+/^\/(.*?)\//.test(e[c]);
+var _=/^\/(.*?)\//.exec(e[c]);
+_.length<2||!_[1]||(t=_[1],n=i[t],n?(o=n+","+e[c],o.length>1e3||a?(r.push(n+"?v="+h.version),
+n=location.protocol+s+e[c],i[t]=n):(n=o,i[t]=n)):(n=location.protocol+s+e[c],i[t]=n));
+}
+for(var m in i)i.hasOwnProperty(m)&&r.push(i[m]);
+return r;
+},
+load:function(e){
+if(window.__wxgspeeds&&(window.__wxgspeeds.mod_num=h.mod_num,window.__wxgspeeds.hit_num=h.hit_num),
+!e||e.length<=0)return seajs.combo_status=seajs.COMBO_LOADED,seajs.run(),console.debug&&console.debug("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num),
+void window.__moonclientlog.push("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num);
+seajs.combo_status=seajs.COMBO_LOADING;
+var o=0,t=+new Date;
+window.__wxgspeeds&&(window.__wxgspeeds.combo_times=[],window.__wxgspeeds.combo_times.push(t)),
+i(e,function(n){
+h.request(n,u,function(){
+if(window.__wxgspeeds&&window.__wxgspeeds.combo_times.push(+new Date),o++,o==e.length){
+var n=+new Date-t;
+window.__wxgspeeds&&(window.__wxgspeeds.mod_downloadtime=n),seajs.combo_status=seajs.COMBO_LOADED,
+seajs.run(),console.debug&&console.debug("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms"),
+window.__moonclientlog.push("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms");
+}
+});
+});
+},
+request:function(o,n,r){
+if(o){
+n=n||0,o.indexOf("mp.weixin.qq.com")>-1&&((new Image).src=location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?idkey=27613_32_1&r="+Math.random(),
+window.__moon_report([{
+offset:_,
+log:"load_script_from_mp: "+o
+}],1));
+var i=-1;
+window.__DEBUGINFO&&(__DEBUGINFO.res_list||(__DEBUGINFO.res_list=[]),__DEBUGINFO.res_list.push({
+type:"js",
+status:"pendding",
+start:+new Date,
+end:0,
+url:o
+}),i=__DEBUGINFO.res_list.length-1),-1!=location.search.indexOf("no_lshttps=1")&&(o=o.replace("http://","https://"));
+var a=document.createElement("script");
+a.src=o,a.type="text/javascript",a.async=!0,a.down_time=+new Date,a.onerror=function(s){
+t(i,"status","error"),t(i,"end",+new Date);
+var _=new Error(s);
+if(n>=0)if(w>n){
+var l=o.replace("res.wx.qq.com","mp.weixin.qq.com");
+h.request(l,n,r);
+}else h.request(o,n,r);else window.__moon_report&&window.__moon_report([{
+offset:c,
+log:"load_script_error: "+o,
+e:_
+}],1);
+if(n==w-1&&window.__moon_report([{
+offset:d,
+log:"load_script_error: "+o,
+e:_
+}],1),-1==n){
+var u="ua: "+window.navigator.userAgent+", time="+(+new Date-a.down_time)+", load_script_error -1 : "+o;
+window.__moon_report([{
+offset:m,
+log:u
+}],1);
+}
+window.__moonclientlog.push("moon load js error : "+o+", error -> "+_.toString()),
+e("moon_request_error url:"+o);
+},"undefined"!=typeof moon_crossorigin&&moon_crossorigin&&a.setAttribute("crossorigin",!0),
+a.onload=a.onreadystatechange=function(){
+t(i,"status","loaded"),t(i,"end",+new Date),!a||a.readyState&&!/loaded|complete/.test(a.readyState)||(t(i,"status","200"),
+a.onload=a.onreadystatechange=null,"function"==typeof r&&r());
+},n--,s.appendChild(a),e("moon_request url:"+o+" retry:"+n);
+}
+},
+setItem:function(e,o){
+!!a&&a.setItem(e,o);
+},
+clear:function(){
+a&&(i(a,function(e,o){
+~o.indexOf(h.prefix)&&a.removeItem(o);
+}),console.debug&&console.debug("[moon] clear"));
+},
+idkeyReport:function(e,o,t){
+t=t||1;
+var n=e+"_"+o+"_"+t;
+(new Image).src="/mp/jsmonitor?idkey="+n+"&r="+Math.random();
+}
+};
+seajs&&seajs.use&&"string"==typeof window.__moon_mainjs&&seajs.use(window.__moon_mainjs),
+window.moon=h;
+}(window),function(){
+try{
+Math.random()<1;
+}catch(e){}
+}(),window.moon.init();
+};
+e(),!!window.__moon_initcallback&&window.__moon_initcallback(),window.__wxgspeeds&&(window.__wxgspeeds.moonendtime=+new Date);
+}
+}
+__moonf__(); }, 25);</script><script nonce="409633490" type="text/javascript">
+    var real_show_page_time = +new Date();
+    if (!!window.addEventListener){
+        window.addEventListener("load", function(){
+            window.onload_endtime = +new Date();
+        });
+    }
+
+    
+    if(typeof seajs != 'undefined' && seajs.config){
+        try{
+            seajs.config({
+              'map': [
+                [ '.js', '.js?v=' + (+new Date())]
+              ]
+            });
+        }catch(e){
+            console.info('not support seajs config');
+        }
+    }
+
+    
+</script>
+
+    </body>
+    <script nonce="409633490" type="text/javascript">document.addEventListener("touchstart", function() {},false);</script>
+</html>
+

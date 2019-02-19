@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/03/02" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/03/02</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/03/01/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/03/02/index.html">2016/03/02</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/03/03/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>TrendLabs @TrendLabs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  New post: Netflix and Uber Users: Cybercriminals’ Latest Favored Hacking Targets? <a href="http://bit.ly/1pmASo0" rel="nofollow">http://bit.ly/1pmASo0</a> @ TrendMicro</p>
+<div class="translated" id="105041">
+<p>﻿"Netflix 和 Uber 用户是目前网络犯罪分子最喜欢的攻击目标, 来自 TrendMicro Blog:   <a href="https://t.co/lp1IzgyepT" rel="nofollow">https://t.co/lp1IzgyepT</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Arrigo Triulzi @cynicalsecurity</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Crypto </i>]  Oh, this is more fun than SSLv2… a timing attack!
+
+“CacheBleed: A Timing Attack on OpenSSL Constant Time RSA”
+
+<a href="https://ssrg.nicta.com.au/projects/TS/cachebleed/cachebleed.pdf" rel="nofollow">https://ssrg.nicta.com.au/projects/TS/cachebleed/cachebleed.pdf</a></p>
+<div class="translated" id="105050">
+<p>﻿"CacheBleed - OpenSSL 常量时间 Timing Attack 攻击, 作者证明了分散聚集(scatter-gather)方法并不能保证时间是个常量. Paper:     <a href="https://t.co/plH2hTQaD2" rel="nofollow">https://t.co/plH2hTQaD2</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Windows Blogs @windowsblog </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Defend </i>]  Announcing Windows Defender Advanced Threat Protection <a href="http://blogs.windows.com/windowsexperience/?p=110553" rel="nofollow">http://blogs.windows.com/windowsexperience/?p=110553</a> <a href="https://t.co/FNFr4MY1W5" rel="nofollow">https://t.co/FNFr4MY1W5</a></p>
+<div class="translated" id="105035">
+<p>﻿"微软宣布推出面向企业用户的 Windows Defender 高级威胁保护服务:   <a href="https://t.co/EqFDoD15kY" rel="nofollow">https://t.co/EqFDoD15kY</a> <a href="https://t.co/FNFr4MY1W5" rel="nofollow">https://t.co/FNFr4MY1W5</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CcdS-QhUMAABreB.jpg" target="_blank">
+<img src="CcdS-QhUMAABreB.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>FireEye @FireEye</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Defend </i>]  Learn how #gov is protecting systems from #cyberattacks                     
+<a href="http://bddy.me/1Rj2pxl" rel="nofollow">http://bddy.me/1Rj2pxl</a> #RSAC <a href="https://t.co/HOwWliNXvU" rel="nofollow">https://t.co/HOwWliNXvU</a></p>
+<div class="translated" id="105091">
+<p>﻿"在威胁日益增长的时代，如何构建国家级网络安全计划， 来自 FireEye 的 Paper：    <a href="https://t.co/z61a7E5MXh" rel="nofollow">https://t.co/z61a7E5MXh</a>     <a href="https://t.co/HOwWliNXvU" rel="nofollow">https://t.co/HOwWliNXvU</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CceJHRcUMAAbM-b.png" target="_blank">
+<img src="CceJHRcUMAAbM-b.png">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  azet @a_z_e_t </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Hardware </i>]  PoC for radio transmissions from air-gapped computers: <a href="https://github.com/fulldecent/system-bus-radio" rel="nofollow">https://github.com/fulldecent/system-bus-radio</a></p>
+<div class="translated" id="104895">
+<p>﻿"在不借助额外无线电硬件的情况下,从物理隔绝的 PC 中发射无线电. PoC 代码:   <a href="https://t.co/Fj9Qy6KMry" rel="nofollow">https://t.co/Fj9Qy6KMry</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  patrick wardle @patrickwardle </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  neat blog post by one of coworkers: "Tracing Objective-C method calls on ARM64" <a href="http://nologic.github.io/blog/2016/02/28/ARM64-method-tracing/" rel="nofollow">http://nologic.github.io/blog/2016/02/28/ARM64-method-tracing/</a> + open source tool :)</p>
+<div class="translated" id="104864">
+<p>﻿" 在 ARM64 上 Trace Objective-C 方法调用， 来自 NoLogic Blog， 作者还开源了他的工具：    <a href="https://t.co/t9a725mJFq" rel="nofollow">https://t.co/t9a725mJFq</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Steve T-S @stroughtonsmith </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  iOS 9.3 enables MDM to enforce homescreen layouts, black/whitelist apps, and enforce notification settings <a href="https://developer.apple.com/enterprise/ConfigurationProfileReference.pdf" rel="nofollow">https://developer.apple.com/enterprise/ConfigurationProfileReference.pdf</a></p>
+<div class="translated" id="105130">
+<p>﻿"iOS 9.3 通过启用 MDM 强化主屏幕布局、应用黑/白名单和通知设置， 来自官方 iOS 配置概要手册：   <a href="https://t.co/fjOqfFYzY9" rel="nofollow">https://t.co/fjOqfFYzY9</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mac OS X </i>]  Largely undetected Mac malware suggests disgraced HackingTeam has returned <a href="http://arstechnica.com/security/2016/02/largely-undetected-mac-malware-suggests-disgraced-hackingteam-has-returned/" rel="nofollow">http://arstechnica.com/security/2016/02/largely-undetected-mac-malware-suggests-disgraced-hackingteam-has-returned/</a></p>
+<div class="translated" id="104884">
+<p>﻿"一款 Mac 恶意样本(只有 10/56 的主流杀软可以检测)表明 HackingTeam 归来了, 来自 ArsTechnica 的报道:    <a href="https://t.co/yyqLo9AaL6%C2%A0" rel="nofollow">https://t.co/yyqLo9AaL6 </a> 更详细的技术分析:   <a href="https://reverse.put.as/2016/02/29/the-italian-morons-are-back-what-are-they-up-to-this-time/" rel="nofollow">https://reverse.put.as/2016/02/29/the-italian-morons-are-back-what-are-they-up-to-this-time/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  Angler Attempts to Slip the Hook <a href="http://blog.talosintel.com/2016/03/angler-slips-hook.html" rel="nofollow">http://blog.talosintel.com/2016/03/angler-slips-hook.html</a></p>
+<div class="translated" id="105236">
+<p>﻿"Angler Exploit Kit 一直在更新升级, Talos 这篇 Blog 分析 Angler 最新的一些变化和技巧:   <a href="https://t.co/sIsJdO1v6V" rel="nofollow">https://t.co/sIsJdO1v6V</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>TrendLabs @TrendLabs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  New post: Threat Actors Behind “Shrouded Crossbow” Creates BIFROSE for UNIX <a href="http://bit.ly/1QRX2uw" rel="nofollow">http://bit.ly/1QRX2uw</a> @ TrendMicro</p>
+<div class="translated" id="105248">
+<p>﻿"TrendMicro 在最近的 'Shrouded Crossbow' 攻击行动中发现，攻击者重写了一个 Unix 版本的 BIFROSE：   <a href="https://t.co/oug8wS2ErB" rel="nofollow">https://t.co/oug8wS2ErB</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  Operation Fingerprint: A Look Into Several Angler Exploit Kit Malvertising Campaigns <a href="https://blog.malwarebytes.org/malvertising-2/2016/03/ofp/" rel="nofollow">https://blog.malwarebytes.org/malvertising-2/2016/03/ofp/</a></p>
+<div class="translated" id="105222">
+<p>﻿"指纹行动（Operation Fingerprint） -  Angler Exploit Kit 的几次恶意广告攻击调查， 来自 MalwareBytes 的分析报告：   <a href="https://t.co/ELeVETRNT6" rel="nofollow">https://t.co/ELeVETRNT6</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Raj Samani @Raj_Samani </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  Here is our WP on targeted #ransomware and more worryingly "keys are unique for each encrypted file." <a href="http://www.intelsecurity.com/advanced-threat-research/content/Analysis_SamSa_Ransomware.pdf" rel="nofollow">http://www.intelsecurity.com/advanced-threat-research/content/Analysis_SamSa_Ransomware.pdf</a></p>
+<div class="translated" id="105335">
+<p>﻿"定向勒索攻击到来了, 来自 IntelSecurity 对 SamSa 勒索软件的分析报告(PDF):   <a href="https://t.co/cRQ9bis2cZ" rel="nofollow">https://t.co/cRQ9bis2cZ</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  Look Into Locky <a href="https://blog.malwarebytes.org/intelligence/2016/03/look-into-locky/" rel="nofollow">https://blog.malwarebytes.org/intelligence/2016/03/look-into-locky/</a></p>
+<div class="translated" id="105209">
+<p>﻿"MalwareBytes 对 Locky 勒索软件的分析:   <a href="https://t.co/rUGjqvGq7E" rel="nofollow">https://t.co/rUGjqvGq7E</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Network </i>]  Packet Injection Attacks in the Wild <a href="https://www.netresec.com/?page=Blog&amp;month=2016-03&amp;post=Packet-Injection-Attacks-in-the-Wild" rel="nofollow">https://www.netresec.com/?page=Blog&amp;month=2016-03&amp;post=Packet-Injection-Attacks-in-the-Wild</a></p>
+<div class="translated" id="105224">
+<p>﻿" 野外数据包注入攻击 - NetreSec 谈我国运营商数据包注入的问题：   <a href="https://t.co/Nv8fOiuCQv%C2%A0" rel="nofollow">https://t.co/Nv8fOiuCQv </a> 里面还引用了一篇 Paper 《运营商对网站内容的注入攻击》：   <a href="http://arxiv.org/abs/1602.07128" rel="nofollow">http://arxiv.org/abs/1602.07128</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Kenn White @kennwhite </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Network </i>]  New cross-protocol attack published: DROWN. Shared certs/keys on SSLv2 &amp; TLS gear vulnerable
+<a href="https://www.drownattack.com/drown-attack-paper.pdf" rel="nofollow">https://www.drownattack.com/drown-attack-paper.pdf</a> <a href="https://t.co/P3OJ1OMqRd" rel="nofollow">https://t.co/P3OJ1OMqRd</a></p>
+<div class="translated" id="105062">
+<p>﻿"DROWN -  新的跨协议攻击方法， 用 SSLv2 破坏 TLS 加密， Paper：    <a href="https://t.co/2o66f7b48w%C2%A0" rel="nofollow">https://t.co/2o66f7b48w </a> 作者还为这个攻击搭建了一个网站 :   <a href="https://drownattack.com/" rel="nofollow">https://drownattack.com/</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CcdxtktUsAA6Qbj.jpg" target="_blank">
+<img src="CcdxtktUsAA6Qbj.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  John Matherly @achillean </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Network </i>]  How to get a list of the most common SSL certificate fingerprints in less than 5 seconds: <a href="https://asciinema.org/a/37867" rel="nofollow">https://asciinema.org/a/37867</a></p>
+<div class="translated" id="104821">
+<p>﻿"如果通过 Shodan 引擎命令行工具获取最常见的 SSL 证书指纹列表(视频):   <a href="https://t.co/KlBgRUBRly" rel="nofollow">https://t.co/KlBgRUBRly</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>ange @angealbertini</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  "Maths boffins invent lottery prediction system"
+<a href="https://twitter.com/ThomasBaigneres/status/704605514861318145" rel="nofollow">https://twitter.com/ThomasBaigneres/status/704605514861318145</a>
+via @ cryptopathe <a href="https://t.co/sKTVTkEgD0" rel="nofollow">https://t.co/sKTVTkEgD0</a></p>
+<div class="translated" id="105005">
+<p>﻿"有位数学家发明了一个彩票预测系统:   <a href="https://www.lottosonline.com/lottery-news/story/Maths_boffins_invent_lottery_prediction_system_name_it_The_Million_Dollar_Curve" rel="nofollow">https://www.lottosonline.com/lottery-news/story/Maths_boffins_invent_lottery_prediction_system_name_it_The_Million_Dollar_Curve</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CcdNugbWAAA8DxO.jpg" target="_blank">
+<img src="CcdNugbWAAA8DxO.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Java Code Geeks @javacodegeeks </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Apache Hadoop Tutorial – The ULTIMATE Guide (PDF Download) - #hadoop #java <a href="http://buff.ly/1OHlG9P" rel="nofollow">http://buff.ly/1OHlG9P</a> <a href="https://t.co/mIRisrUscL" rel="nofollow">https://t.co/mIRisrUscL</a></p>
+<div class="translated" id="104938">
+<p>﻿"Apache Hadoop 终极指南 (书)：    <a href="https://t.co/fl8gofEzmP" rel="nofollow">https://t.co/fl8gofEzmP</a> <a href="https://t.co/mIRisrUscL" rel="nofollow">https://t.co/mIRisrUscL</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CccpO3gW8AEvdc2.png" target="_blank">
+<img src="CccpO3gW8AEvdc2.png">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Open Source Security @oss_security </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  CVE request Qemu: OOB access in address_space_rw leads to segmentation fault:    Hello,
+
+Qemu emulator built t... <a href="http://bit.ly/21zklOY" rel="nofollow">http://bit.ly/21zklOY</a></p>
+<div class="translated" id="105079">
+<p>﻿" Qemu address_space_rw 越界访问拒绝服务漏洞，影响 1.6.0～2.3.1 版本。 安全公告：   <a href="https://t.co/LhAOchUz5q" rel="nofollow">https://t.co/LhAOchUz5q</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Xavier Mertens @xme </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Do you know that @  DidierStevens’s toolbox is available on github (<a href="https://github.com/DidierStevens/DidierStevensSuite" rel="nofollow">https://github.com/DidierStevens/DidierStevensSuite</a>) or in a zip archive (<a href="http://didierstevens.com/files/software/DidierStevensSuite.zip)" rel="nofollow">http://didierstevens.com/files/software/DidierStevensSuite.zip)?</a></p>
+<div class="translated" id="104963">
+<p>﻿"DidierStevens 开源了他自己的工具库, 主要是一些用于恶意代码分析的工具:   <a href="https://t.co/kyBcxHLr2W%C2%A0" rel="nofollow">https://t.co/kyBcxHLr2W </a> <a href="https://t.co/QGTgkyYbXx" rel="nofollow">https://t.co/QGTgkyYbXx</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Capstone Engine @capstone_engine </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Redress is a cool cross platform binary disassembler written in Java &amp; based on Capstone
+
+<a href="https://github.com/binarybird/Redress-Disassembler" rel="nofollow">https://github.com/binarybird/Redress-Disassembler</a> <a href="https://t.co/4m29cBlXOq" rel="nofollow">https://t.co/4m29cBlXOq</a></p>
+<div class="translated" id="104829">
+<p>﻿"Redress - 跨平台的二进制反汇编工具， Java 语言编写，基于 Capstone， Github Repo：    <a href="https://t.co/N0F27bQLCO" rel="nofollow">https://t.co/N0F27bQLCO</a> <a href="https://t.co/4m29cBlXOq" rel="nofollow">https://t.co/4m29cBlXOq</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CcbWE7MUAAAHfFV.png" target="_blank">
+<img src="CcbWE7MUAAAHfFV.png">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/03/01/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/03/02/index.html">2016/03/02</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/03/03/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

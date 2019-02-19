@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/02/28" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/02/28</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/02/27/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/02/28/index.html">2017/02/28</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/03/01/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Binni Shah @binitamshah </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Hunting bugs in the Microsoft Edge Script Engine : <a href="https://recon.cx/2017/brussels/resources/slides/RECON-BRX-2017-Your_Chakra_Is_Not_Aligned.pdf" rel="nofollow">https://recon.cx/2017/brussels/resources/slides/RECON-BRX-2017-Your_Chakra_Is_Not_Aligned.pdf</a> (Slides) cc @ natashenka   #reconbrx</p>
+<div class="translated" id="246307">
+<p>﻿"Microsoft Edge 脚本引擎 Chakra 的漏洞挖掘，来自 RECON BRX 2017:   <a href="https://t.co/iGeaGPaUzt" rel="nofollow">https://t.co/iGeaGPaUzt</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  IPSW Downloads @iOSReleases </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  #iOS 10.3 (14E5260b) OTA [Beta: #iOS103DevBeta4] has been released for 36 devices <a href="https://ipsw.me/otas/10.3" rel="nofollow">https://ipsw.me/otas/10.3</a></p>
+<div class="translated" id="246502">
+<p>﻿"iOS 10.3 OTA 固件下载:   <a href="https://t.co/A8MktuVACK" rel="nofollow">https://t.co/A8MktuVACK</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Unit 42 @Unit42_Intel</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  #Unit42 observes threat group distributing new, custom developed malware. Learn more about the Gamaredon Group: <a href="http://oak.ctx.ly/r/5gexr" rel="nofollow">http://oak.ctx.ly/r/5gexr</a></p>
+<div class="translated" id="246637">
+<p>﻿" 从 2013 年到现在，Gamaredon 攻击组织的工具集的进化︰   <a href="https://t.co/b2e71y7y81" rel="nofollow">https://t.co/b2e71y7y81</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  NCC Group @NCCGroupInfosec </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  NCC Group Blog: Latest ISM RAT analysis used by a group called Greenbug - <a href="https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2017/february/ism-rat/" rel="nofollow">https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2017/february/ism-rat/</a> by our Cyber Defence Ops malware team</p>
+<div class="translated" id="246572">
+<p>﻿"解析远程访问木马 Greenbug：    <a href="https://t.co/4na2yh45HW" rel="nofollow">https://t.co/4na2yh45HW</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Threatpost @threatpost</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  #Necurs botnet adds SOCKS/HTTP proxy, learns new #DDoS trick - <a href="http://bit.ly/2lgvtwp" rel="nofollow">http://bit.ly/2lgvtwp</a></p>
+<div class="translated" id="246407">
+<p>﻿"习得新 DDoS 技能的 Necurs botnet：   <a href="https://t.co/p1V7kuKG6L" rel="nofollow">https://t.co/p1V7kuKG6L</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Emiliano DC @emilianodc_ </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  #NDSS17 Today Enrico presents MaMaDroid, our paper on Android malware detection from API calls behavior. Read it at… <a href="https://t.co/DZmdJsc4MR" rel="nofollow">https://t.co/DZmdJsc4MR</a></p>
+<div class="translated" id="246426">
+<p>﻿"MaMaDroid: 利用行为模式建立 Markov 链用于检测安卓恶意软件：   <a href="https://arxiv.org/pdf/1612.04433.pdf" rel="nofollow">https://arxiv.org/pdf/1612.04433.pdf</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Giuseppe `N3mes1s` @gN3mes1s</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mitigation </i>]  The Chakra Exploit and the Limitations of Modern Mitigation Techniques - <a href="https://www.endgame.com/blog/chakra-exploit-and-limitations-modern-mitigation-techniques" rel="nofollow">https://www.endgame.com/blog/chakra-exploit-and-limitations-modern-mitigation-techniques</a></p>
+<div class="translated" id="246440">
+<p>﻿" Chakra 的漏洞利用及现代缓解技术的局限性：   <a href="https://t.co/1LBluAGpmC" rel="nofollow">https://t.co/1LBluAGpmC</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mobile </i>]  SSD Advisory – HTC Sync Remote Code Execution <a href="https://blogs.securiteam.com/index.php/archives/3026" rel="nofollow">https://blogs.securiteam.com/index.php/archives/3026</a></p>
+<div class="translated" id="246409">
+<p>﻿"HTC Sync 软件 v3.3.63 版本被发现了一个远程代码执行漏洞：   <a href="https://t.co/d4DwZCY6gU" rel="nofollow">https://t.co/d4DwZCY6gU</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Operating System </i>]  How I ended up writing a new real-time kernel : <a href="https://dmitryfrank.com/articles/how_i_ended_up_writing_my_own_kernel" rel="nofollow">https://dmitryfrank.com/articles/how_i_ended_up_writing_my_own_kernel</a> <a href="https://t.co/HvLJ3bogXz" rel="nofollow">https://t.co/HvLJ3bogXz</a></p>
+<div class="translated" id="246385">
+<p>﻿" 如何实现一个实时内核︰   <a href="https://t.co/U9N6wNhZRU" rel="nofollow">https://t.co/U9N6wNhZRU</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C5rMwJ0XEAEUXEO.jpg" target="_blank">
+<img src="C5rMwJ0XEAEUXEO.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  ROP Primer - Walkthrough of Level 0: <a href="https://xpnsec.tumblr.com/post/156417043491/rop-primer-walkthrough-of-level-0" rel="nofollow">https://xpnsec.tumblr.com/post/156417043491/rop-primer-walkthrough-of-level-0</a> , Lvl - 1 : <a href="https://xpnsec.tumblr.com/post/156575450701/rop-primer-walkthrough-of-level-1" rel="nofollow">https://xpnsec.tumblr.com/post/156575450701/rop-primer-walkthrough-of-level-1</a> , Lvl 2: <a href="https://xpnsec.tumblr.com/post/156732742881/rop-primer-walkthrough-of-level-2" rel="nofollow">https://xpnsec.tumblr.com/post/156732742881/rop-primer-walkthrough-of-level-2</a>  cc @   _xpn_</p>
+<div class="translated" id="246290">
+<p>﻿"ROP Primer - Walkthrough of Level ︰   <a href="https://t.co/h6vKmOzW9c%C2%A0" rel="nofollow">https://t.co/h6vKmOzW9c </a> Lvl -1:   <a href="https://t.co/IzCBFjt0f9%C2%A0" rel="nofollow">https://t.co/IzCBFjt0f9 </a> Lvl -2:   <a href="https://t.co/SnXuL7jtPI" rel="nofollow">https://t.co/SnXuL7jtPI</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  wezmaster @wezmaster </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Pentest </i>]  OS Command Injection to Meterpreter <a href="https://hack2rule.wordpress.com/2017/02/25/os-command-injection-to-meterpreter" rel="nofollow">https://hack2rule.wordpress.com/2017/02/25/os-command-injection-to-meterpreter</a> <a href="https://t.co/1E1xXNhVgS" rel="nofollow">https://t.co/1E1xXNhVgS</a></p>
+<div class="translated" id="246276">
+<p>﻿"利用 OS 命令注入获取 Meterpreter Session：   <a href="https://t.co/9GXDjUNuXd" rel="nofollow">https://t.co/9GXDjUNuXd</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C5fNsDkU8AEDzrw.jpg" target="_blank">
+<img src="C5fNsDkU8AEDzrw.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Mike_Mimoso @Mike_Mimoso</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  The project integrates #OpenPGP into #Gmail via a #Chrome extension. #E2EMail <a href="https://threatpost.com/google-releases-e2email-to-open-source/123923/" rel="nofollow">https://threatpost.com/google-releases-e2email-to-open-source/123923/</a> via @ threatpost</p>
+<div class="translated" id="246495">
+<p>﻿"Google 将 E2EMail 开源了：   <a href="https://t.co/ZgxF9CsPCY" rel="nofollow">https://t.co/ZgxF9CsPCY</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  Multiple remote code execution vulnerabilities in Iceni Argus PDF Content Extraction affect MarkLogic  <a href="http://blogs.cisco.com/security/talos/vulnerability-spotlight-multiple-remote-code-execution-vulnerabilities-in-iceni-argus-pdf-content-extraction-affect-marklogic" rel="nofollow">http://blogs.cisco.com/security/talos/vulnerability-spotlight-multiple-remote-code-execution-vulnerabilities-in-iceni-argus-pdf-content-extraction-affect-marklogic</a></p>
+<div class="translated" id="246501">
+<p>﻿"Iceni  Argus PDF Content Extraction 中存在多个 RCE 漏洞：   <a href="https://t.co/JRHM1EHEod" rel="nofollow">https://t.co/JRHM1EHEod</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Full Disclosure @SecLists</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> SecurityProduct </i>]  CVE-2016-9892 - Remote Code Execution as Root via ESET Endpoint Antivirus 6 <a href="https://goo.gl/fb/8rFncV" rel="nofollow">https://goo.gl/fb/8rFncV</a> #FullDisclosure</p>
+<div class="translated" id="246552">
+<p>﻿"ESET 终端反病毒软件存在一个 Root 远程代码执行漏洞（CVE-2016-9892）：   <a href="https://t.co/gojtdnkxKe" rel="nofollow">https://t.co/gojtdnkxKe</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Waylon Grange @professor__plum </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Just posted my source code to GitHub for reflectively loading a Windows kernel driver
+<a href="https://github.com/Professor-plum/Reflective-Driver-Loader" rel="nofollow">https://github.com/Professor-plum/Reflective-Driver-Loader</a></p>
+<div class="translated" id="246596">
+<p>﻿" Reflective-Driver-Loader -- 用于绕过 KMCS 并从内存将驱动加载到内核的工具：   <a href="https://t.co/ljtYJpPbcC" rel="nofollow">https://t.co/ljtYJpPbcC</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  haveIbeenHarvested - Automated HaveIbeenPwned lookups using theharvester results <a href="https://github.com/depthsecurity/haveIbeenHarvested" rel="nofollow">https://github.com/depthsecurity/haveIbeenHarvested</a></p>
+<div class="translated" id="246506">
+<p>﻿"haveIbeenHarvested -- 可用于判断个人在网络上的信息泄露情况：   <a href="https://t.co/JlSHZI0UOm" rel="nofollow">https://t.co/JlSHZI0UOm</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Morten Schenk @Blomster81</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  First post in a series on Windows kernel shellcode on Windows 10 <a href="https://improsec.com/blog//windows-kernel-shellcode-on-windows-10-part-1" rel="nofollow">https://improsec.com/blog//windows-kernel-shellcode-on-windows-10-part-1</a></p>
+<div class="translated" id="246365">
+<p>﻿"Windows kernel shellcode on Windows 10，Windows 10 提升权限时的 Token 窃取技巧：   <a href="https://t.co/M85q221LSM" rel="nofollow">https://t.co/M85q221LSM</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Cn33liz @Cneelis </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  x64 version of my HEVD StackOverflow exploit with SMEP Bypass <a href="https://github.com/Cn33liz/HSEVD-StackOverflowX64/blob/master/HS-StackOverflowX64/HS-StackOverflowX64.c" rel="nofollow">https://github.com/Cn33liz/HSEVD-StackOverflowX64/blob/master/HS-StackOverflowX64/HS-StackOverflowX64.c</a>
+Works on Windows 8.1 x64 (ver… <a href="https://t.co/m2Fj4nAHiT" rel="nofollow">https://t.co/m2Fj4nAHiT</a></p>
+<div class="translated" id="246382">
+<p>﻿" HEVD 栈溢出漏洞驱动的利用代码（x64，Bypass SMEP）：   <a href="https://t.co/XHAeJrF9W7%C2%A0" rel="nofollow">https://t.co/XHAeJrF9W7 </a> <a href="https://t.co/m2Fj4nAHiT" rel="nofollow">https://t.co/m2Fj4nAHiT</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>j00ru//vx @j00ru</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  This week's release: Windows Kernel Local Denial-of-Service #2: win32k!NtDCompositionBeginFrame (Windows 8-10), <a href="http://j00ru.vexillium.org/?p=3151" rel="nofollow">http://j00ru.vexillium.org/?p=3151</a></p>
+<div class="translated" id="246416">
+<p>﻿"Windows 内核本地拒绝服务 #2: win32k!NtDCompositionBeginFrame (Windows 8-10)：   <a href="https://t.co/lvvvACkGBw" rel="nofollow">https://t.co/lvvvACkGBw</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/02/27/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/02/28/index.html">2017/02/28</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/03/01/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

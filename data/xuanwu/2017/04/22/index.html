@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/04/22" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/04/22</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+    color: #a7a7a7;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 15px;
+    /*color: #a7a7a7;*/
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.singlefeedtext p{
+    font-size: 15px;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        //console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        //console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            //console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/04/21/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/04/22/index.html">2017/04/22</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/04/23/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Francisco Alonso @revskills</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Discontinuing the hardened Tor Browser series <a href="https://blog.torproject.org/blog/discontinuing-hardened-tor-browser-series" rel="nofollow">https://blog.torproject.org/blog/discontinuing-hardened-tor-browser-series</a></p>
+<div class="translated" id="269280">
+<p>﻿"TOR 官方表示将停止发布 "安全增强版"的 TOR 浏览器 ：   <a href="https://t.co/AaCpyBWlJb" rel="nofollow">https://t.co/AaCpyBWlJb</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Ruxcon @ruxcon </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Conference </i>]  Ruxcon (21-22 October, Australia) Call For Presentations released: <a href="https://ruxcon.org.au/cfp" rel="nofollow">https://ruxcon.org.au/cfp</a></p>
+<div class="translated" id="269344">
+<p>﻿"Ruxcon 大会（10月 21-22 日） 开始公开征集议题︰   <a href="https://t.co/lxp7R1HfNX" rel="nofollow">https://t.co/lxp7R1HfNX</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  LiveOverflow @LiveOverflow </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Crypto </i>]  Recover a RSA private key from multiple bad public keys in order to forge a sig. Quick intro to the math of RSA:
+
+<a href="https://t.co/49L5O6S7oM" rel="nofollow">https://t.co/49L5O6S7oM</a></p>
+<div class="translated" id="269466">
+<p>﻿"从公钥中恢复 RSA 私钥 （video）︰   <a href="https://t.co/49L5O6S7oM" rel="nofollow">https://t.co/49L5O6S7oM</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Digital Trends @DigitalTrends </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  Hajime is a ‘white worm’ that infects and secures vulnerable IoT devices <a href="http://bit.ly/2p2XY6n" rel="nofollow">http://bit.ly/2p2XY6n</a></p>
+<div class="translated" id="269415">
+<p>﻿"蠕虫 Hajime 会感染并加固存在漏洞的 IoT 设备：   <a href="https://t.co/PcKTx545Va" rel="nofollow">https://t.co/PcKTx545Va</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Talos Group @TalosSecurity </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  Threat Spotlight: Mighty Morphin Malware Purveyors: Locky Returns Via Necurs <a href="http://dlvr.it/NxwTkp" rel="nofollow">http://dlvr.it/NxwTkp</a> <a href="https://t.co/AIkl54wuVI" rel="nofollow">https://t.co/AIkl54wuVI</a></p>
+<div class="translated" id="269463">
+<p>﻿" Locky 勒索软件借 Necurs 僵尸网络再次回归：   <a href="https://t.co/4bextGI2Ah" rel="nofollow">https://t.co/4bextGI2Ah</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Ashar Javed @soaj1664ashar </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Network </i>]  HTTP Security Response Headers ... 
+<a href="https://blog.appcanary.com/2017/http-security-headers.html" rel="nofollow">https://blog.appcanary.com/2017/http-security-headers.html</a> + <a href="https://www.smashingmagazine.com/2017/04/secure-web-app-http-headers/" rel="nofollow">https://www.smashingmagazine.com/2017/04/secure-web-app-http-headers/</a> +  <a href="https://scotthelme.co.uk/hardening-your-http-response-headers/" rel="nofollow">https://scotthelme.co.uk/hardening-your-http-response-headers/</a> + <a href="https://t.co/p4f3QrSTkB" rel="nofollow">https://t.co/p4f3QrSTkB</a></p>
+<div class="translated" id="269257">
+<p>﻿"关于 HTTP Headers 的几篇文章，也介绍了不同 Headers 对安全性的影响：   <a href="https://t.co/brgbEZaW9C" rel="nofollow">https://t.co/brgbEZaW9C</a> +   <a href="https://t.co/OGD1F9VtrZ" rel="nofollow">https://t.co/OGD1F9VtrZ</a> +   <a href="https://t.co/coPKsGBi7c" rel="nofollow">https://t.co/coPKsGBi7c</a> +   <a href="https://t.co/p4f3QrSTkB" rel="nofollow">https://t.co/p4f3QrSTkB</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Evilcry_ @Blackmond_</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  ARM Releases Machine Readable Architecture Specification - <a href="https://alastairreid.github.io/alastairreid.github.io/ARM-v8a-xml-release/" rel="nofollow">https://alastairreid.github.io/alastairreid.github.io/ARM-v8a-xml-release/</a></p>
+<div class="translated" id="269354">
+<p>﻿"ARM 发布了可机读格式的 ARM v8-A 处理器的架构规范：   <a href="https://t.co/ZvLU1L7liF" rel="nofollow">https://t.co/ZvLU1L7liF</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>b33f @FuzzySec</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  #PowerShell Kernel pwn for @ HackSysTeam Uninitialized Heap Variable =&gt; <a href="https://github.com/FuzzySecurity/HackSysTeam-PSKernelPwn/blob/master/Kernel_UninitializedHeapVar.ps1" rel="nofollow">https://github.com/FuzzySecurity/HackSysTeam-PSKernelPwn/blob/master/Kernel_UninitializedHeapVar.ps1</a> <a href="https://t.co/Cv7Xhz6u4d" rel="nofollow">https://t.co/Cv7Xhz6u4d</a></p>
+<div class="translated" id="269489">
+<p>﻿"HackSysTeam 的未初始化堆变量漏洞利用脚本：   <a href="https://t.co/TBdMdlMDTi" rel="nofollow">https://t.co/TBdMdlMDTi</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C99-45GXkAE9UgW.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/C99-45GXkAE9UgW.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>MWR Labs @mwrlabs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  Abusing native Microsoft Office functionality to gain persistence <a href="https://labs.mwrinfosecurity.com/blog/add-in-opportunities-for-office-persistence/" rel="nofollow">https://labs.mwrinfosecurity.com/blog/add-in-opportunities-for-office-persistence/</a></p>
+<div class="translated" id="269275">
+<p>﻿"在 Microsoft Office 中，有多少种方法可以帮助攻击者实现常驻（Persistence）？：   <a href="https://t.co/zf6Lqm9hTx" rel="nofollow">https://t.co/zf6Lqm9hTx</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  pyt - Security static analysis tool for Python <a href="https://github.com/python-security/pyt" rel="nofollow">https://github.com/python-security/pyt</a></p>
+<div class="translated" id="269334">
+<p>﻿"pyt - 一个 Python Web 应用静态分析工具：   <a href="https://t.co/X1vRiMKXjm" rel="nofollow">https://t.co/X1vRiMKXjm</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Frank Denis @jedisct1 </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  RT @ libber: Releasing <a href="https://github.com/uber/focuson" rel="nofollow">https://github.com/uber/focuson</a> - a python static analysis tool to find security bugs using dataflow analysis.</p>
+<div class="translated" id="269349">
+<p>﻿"focuson -  一款用于挖掘基于 flask 编写的Python Web 应用漏洞的工具：   <a href="https://t.co/5R2rEjSv1V-python" rel="nofollow">https://t.co/5R2rEjSv1V-python</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Abusing Exchange Mailbox Permissions with MailSniper :  <a href="http://www.blackhillsinfosec.com/?p=5871" rel="nofollow">http://www.blackhillsinfosec.com/?p=5871</a> cc @ dafthack <a href="https://t.co/YJ5vbtkytv" rel="nofollow">https://t.co/YJ5vbtkytv</a></p>
+<div class="translated" id="269430">
+<p>﻿" Microsoft Exchange 允许用户向其他用户授予不同级别权限，比如允许读自己的收件箱。这篇文章，作者写了一个工具 MailSniper 用于发现这种威胁：   <a href="https://t.co/nunw6Lj4LK" rel="nofollow">https://t.co/nunw6Lj4LK</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C99Y61aW0AApinb.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/C99Y61aW0AApinb.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Unicorn Engine @unicorn_engine </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Best news: Thanks to Zak Escano, Unicorn now supports MSVC, so you can build Unicorn with Visual Studio on Windows!
+
+<a href="https://t.co/POO5Oy3h0j" rel="nofollow">https://t.co/POO5Oy3h0j</a></p>
+<div class="translated" id="269285">
+<p>﻿"Unicorn 模拟器引擎支持在 Windows 系统中编译了，需要 VS2012：   <a href="https://t.co/POO5Oy3h0j" rel="nofollow">https://t.co/POO5Oy3h0j</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Project Zero Bugs @ProjectZeroBugs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  Oracle VirtualBox Guest Additions (Shared Folders) double-free from unprivileged Windows user-mode guest code <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1227" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1227</a></p>
+<div class="translated" id="269223">
+<p>﻿"（CVE-2017-3587）VirtualBox 共享文件夹特性 UAF 漏洞（通过 nt!NtQueryDirectoryFile 系统调用触发）：   <a href="https://t.co/DeqZXSYeuD" rel="nofollow">https://t.co/DeqZXSYeuD</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/04/21/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/04/22/index.html">2017/04/22</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/04/23/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

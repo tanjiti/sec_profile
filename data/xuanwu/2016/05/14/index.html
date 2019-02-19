@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/05/14" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/05/14</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/05/13/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/05/14/index.html">2016/05/14</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/05/15/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nikolaos Chrysaidos @virqdroid</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Android-Security-Reference - KeyStore - <a href="https://github.com/doridori/Android-Security-Reference/blob/master/api/keystore.md" rel="nofollow">https://github.com/doridori/Android-Security-Reference/blob/master/api/keystore.md</a></p>
+<div class="translated" id="135222">
+<p>﻿" Android 安全手册之 KeyStore：   <a href="https://t.co/YnqBSPBBe7%C2%A0" rel="nofollow">https://t.co/YnqBSPBBe7 </a> 该作者还整理了很多其他组件的笔记：   <a href="https://github.com/doridori/Android-Security-Reference%C2%A0" rel="nofollow">https://github.com/doridori/Android-Security-Reference </a> 其中还有一个链接整理了一些 HackingTeam 泄漏的 Exploits:   <a href="https://github.com/f47h3r/hackingteam_exploits" rel="nofollow">https://github.com/f47h3r/hackingteam_exploits</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Mike_Mimoso @Mike_Mimoso</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  SWIFT Warns of Second Bank Attack via PDF Malware: <a href="https://threatpost.com/swift-warns-of-second-bank-attack-via-pdf-malware/118078/" rel="nofollow">https://threatpost.com/swift-warns-of-second-bank-attack-via-pdf-malware/118078/</a> via @ threatpost</p>
+<div class="translated" id="135312">
+<p>﻿"SWIFT（环球金融电信协会）警告称，3 月初孟加拉国中央银行被黑客攻击后，近期又有一家银行遭到攻击，黑客绕过了这家银行的风险控制系统，进入了资金转移系统。这两次攻击手法非常相似，来自 ThreatPost 的报道：   <a href="https://t.co/B4tXlsChYV" rel="nofollow">https://t.co/B4tXlsChYV</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Backdoor </i>]  Gdog – Python Windows Backdoor With Gmail Command &amp; Control <a href="http://www.darknet.org.uk/2016/05/gdog-python-windows-backdoor-gmail-command-control/" rel="nofollow">http://www.darknet.org.uk/2016/05/gdog-python-windows-backdoor-gmail-command-control/</a></p>
+<div class="translated" id="135339">
+<p>﻿"Gdog — 基于 Gmail 实现 C&amp;C 的 Windows 后门，Python 语言编写：   <a href="https://t.co/fdcCkH5cCF" rel="nofollow">https://t.co/fdcCkH5cCF</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Attacking Browser Extensions : <a href="http://nicolas.golubovic.net/thesis/master.pdf" rel="nofollow">http://nicolas.golubovic.net/thesis/master.pdf</a> (pdf)</p>
+<div class="translated" id="135252">
+<p>﻿"前两周推送过这篇《攻击浏览器扩展（Firefox/Chrome）》的 Paper︰   <a href="https://t.co/gQc55VywtN%C2%A0" rel="nofollow">https://t.co/gQc55VywtN </a> 这两天作者又公开了相关的测试工具和示例代码：   <a href="https://github.com/qll/attacking-browser-extensions%C2%A0" rel="nofollow">https://github.com/qll/attacking-browser-extensions </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>.mario @0x6D6172696F</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Bug 1266397 - Popup blocker bypass using Flash <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1266397" rel="nofollow">https://bugzilla.mozilla.org/show_bug.cgi?id=1266397</a> &lt; "I really do not have the time to look at this now."</p>
+<div class="translated" id="135259">
+<p>﻿" 用 Flash 绕过 Firefox 的弹框保护，来自 Firefox Bug 1266397：   <a href="https://t.co/LLuLaJGHjE%C2%A0" rel="nofollow">https://t.co/LLuLaJGHjE </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  4B5F5F4B @4b5f5f4b </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Exploit for another OOB bug CVE-2016-1646 in V8. Great thanks @ oldfresher for his generous sharing.
+<a href="https://github.com/4B5F5F4B/Exploits/tree/master/CVE-2016-1646" rel="nofollow">https://github.com/4B5F5F4B/Exploits/tree/master/CVE-2016-1646</a></p>
+<div class="translated" id="135143">
+<p>﻿" KK 为 Chrome v8 CVE-2016-1646 写的 Exploit, 在 Windows 10、 Chrome 46.0.2490.0 版本上测试通过：    <a href="https://t.co/1smKuferaO" rel="nofollow">https://t.co/1smKuferaO</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Detect </i>]  Detecting ImageTragick with Burp Suite Pro <a href="https://blog.silentsignal.eu/2016/05/13/detecting-imagetragick-with-burp-suite-pro/" rel="nofollow">https://blog.silentsignal.eu/2016/05/13/detecting-imagetragick-with-burp-suite-pro/</a></p>
+<div class="translated" id="135338">
+<p>﻿" 用 BurpSuite Pro 检测 ImageTragick 漏洞：   <a href="https://t.co/BNj3EeYxEv" rel="nofollow">https://t.co/BNj3EeYxEv</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  Latest Petya Ransomware Strain Comes with a Failsafe: Mischa <a href="https://threatpost.com/latest-petya-ransomware-strain-comes-with-a-failsafe-mischa/118072/" rel="nofollow">https://threatpost.com/latest-petya-ransomware-strain-comes-with-a-failsafe-mischa/118072/</a></p>
+<div class="translated" id="135342">
+<p>﻿" 最新的 Petya 勒索软件加了一个故障保护功能，如果用 Petya 没有获取到管理员权限，它就切换为 Plan B - Mischa， 来自 ThreatPost 的报道：   <a href="https://t.co/SJMunSw9L0" rel="nofollow">https://t.co/SJMunSw9L0</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Cerbero Profiler @cprofiler </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  Malware in a MSG: <a href="http://cerbero-blog.com/?p=1625" rel="nofollow">http://cerbero-blog.com/?p=1625</a> <a href="https://t.co/7UElizXLLa" rel="nofollow">https://t.co/7UElizXLLa</a></p>
+<div class="translated" id="135148">
+<p>﻿" .msg（Outlook 邮件文件）中的恶意软件，来自 Cerbero Blog ︰   <a href="https://t.co/GQmo2dy1j2" rel="nofollow">https://t.co/GQmo2dy1j2</a> <a href="https://t.co/7UElizXLLa" rel="nofollow">https://t.co/7UElizXLLa</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CiUSTj3W0AAqOEw.jpg" target="_blank">
+<img src="CiUSTj3W0AAqOEw.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Network </i>]  VPN over DNS : <a href="http://www.shellntel.com/blog/2016/3/30/vpn-over-dns-1" rel="nofollow">http://www.shellntel.com/blog/2016/3/30/vpn-over-dns-1</a> <a href="https://t.co/1tFmBR5VNf" rel="nofollow">https://t.co/1tFmBR5VNf</a></p>
+<div class="translated" id="135224">
+<p>﻿"基于 DNS 协议的 VPN:   <a href="https://t.co/EOtrTRZiM2" rel="nofollow">https://t.co/EOtrTRZiM2</a> <a href="https://t.co/1tFmBR5VNf" rel="nofollow">https://t.co/1tFmBR5VNf</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CiVPXa_U4AAeT_y.jpg" target="_blank">
+<img src="CiVPXa_U4AAeT_y.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Obfuscation </i>]  A study on obfuscation techniques for Android malware : <a href="http://midlab.diag.uniroma1.it/articoli/matteo_pomilia_master_thesis.pdf" rel="nofollow">http://midlab.diag.uniroma1.it/articoli/matteo_pomilia_master_thesis.pdf</a> (pdf)</p>
+<div class="translated" id="135257">
+<p>﻿" Android 恶意软件混淆技术研究 ︰   <a href="https://t.co/nY0cWhhwIs" rel="nofollow">https://t.co/nY0cWhhwIs</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  CloudFlare @CloudFlare </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> OpenSourceProject </i>]  Open sourcing our NGINX HTTP/2 + SPDY code <a href="https://blog.cloudflare.com/open-sourcing-our-nginx-http-2-spdy-code/" rel="nofollow">https://blog.cloudflare.com/open-sourcing-our-nginx-http-2-spdy-code/</a></p>
+<div class="translated" id="135234">
+<p>﻿" CloudFlare 开源了自己的 NGINX HTTP/2 + SPDY 代码：   <a href="https://t.co/JHZ2qDTUBU" rel="nofollow">https://t.co/JHZ2qDTUBU</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>PhysicalDrive0 @PhysicalDrive0</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  Flash Vulnerability CVE-2016-4117 Shares Similarities With Older Pawn Storm Exploit <a href="http://blog.trendmicro.com/trendlabs-security-intelligence/new-flash-vulnerability-cve-2016-4117-shares-similarities-with-older-pawn-storm-exploit/" rel="nofollow">http://blog.trendmicro.com/trendlabs-security-intelligence/new-flash-vulnerability-cve-2016-4117-shares-similarities-with-older-pawn-storm-exploit/</a></p>
+<div class="translated" id="135376">
+<p>﻿"CVE-2016-4117 Flash 漏洞与之前的 Pawn Storm Exploit 有很多相似性：   <a href="https://t.co/iSXJtyJbt1" rel="nofollow">https://t.co/iSXJtyJbt1</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Full Disclosure @SecLists</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Web Security </i>]  Webshell for IIS <a href="http://goo.gl/fb/HJ7FxP" rel="nofollow">http://goo.gl/fb/HJ7FxP</a> #FullDisclosure</p>
+<div class="translated" id="135290">
+<p>﻿" IIS 8 上可用的 Webshell：   <a href="https://t.co/zKXZ0s9FLG" rel="nofollow">https://t.co/zKXZ0s9FLG</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Casey Smith @subTee</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  This is worth reviewing (2011)
+[PDF] The Dangers of Per-User COM Objects
+<a href="https://www.virusbulletin.com/uploads/pdf/conference_slides/2011/Larimer-VB2011.pdf" rel="nofollow">https://www.virusbulletin.com/uploads/pdf/conference_slides/2011/Larimer-VB2011.pdf</a></p>
+<div class="translated" id="135334">
+<p>﻿" Per-User COM 对象的危险，来自 Virus Bulletin 2011 会议的一篇演讲：   <a href="https://t.co/nZFDt1pHir%C2%A0" rel="nofollow">https://t.co/nZFDt1pHir </a> 这篇演讲的 Paper:   <a href="http://codetastrophe.com/Larimer-VB2011.pdf" rel="nofollow">http://codetastrophe.com/Larimer-VB2011.pdf</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Casey Smith @subTee</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Create and install self-signed certificates in Windows Nano Server
+<a href="https://gist.github.com/subTee/b092cf7b46de222e82c0808270c431ad" rel="nofollow">https://gist.github.com/subTee/b092cf7b46de222e82c0808270c431ad</a>
+via X509 COM <a href="https://t.co/dwfBcM6tES" rel="nofollow">https://t.co/dwfBcM6tES</a></p>
+<div class="translated" id="135394">
+<p>﻿"在 Windows Nano Server 上通过 X509 COM 创建并安装自签名证书：   <a href="https://t.co/nFQUIvb48O" rel="nofollow">https://t.co/nFQUIvb48O</a> COM   <a href="https://t.co/dwfBcM6tES" rel="nofollow">https://t.co/dwfBcM6tES</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CiX0L6WU4AAcCZv.jpg" target="_blank">
+<img src="CiX0L6WU4AAcCZv.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/05/13/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/05/14/index.html">2016/05/14</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/05/15/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

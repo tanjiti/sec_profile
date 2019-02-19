@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/11/06" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/11/06</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/11/05/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/11/06/index.html">2016/11/06</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/11/07/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Federico Maggi @phretor </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Source code of #HelDroid, the #Android #Ransomware analysis tool I presented at @BlackHatEvents yesterday morning: <a href="https://t.co/tNDYAcQICr" rel="nofollow">https://t.co/tNDYAcQICr</a></p>
+<div class="translated" id="204419">
+<p>﻿"HelDroid -- 一个用于分析 Android 恶意软件的工具︰   <a href="https://t.co/tNDYAcQICr" rel="nofollow">https://t.co/tNDYAcQICr</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Enno Rey @Enno_Insinuator </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Firmware </i>]  We told you - "A Quantitative Analysis of Insecurity of Embedded
+Network Devices: Results of a Wide-Area Scan"… <a href="https://t.co/6bZOLa3IOo" rel="nofollow">https://t.co/6bZOLa3IOo</a></p>
+<div class="translated" id="204386">
+<p>﻿"A Quantitative Analysis of Insecurity of Embedded Network Devices: Results of a Wide-Area Scan（paper）：   <a href="https://t.co/6bZOLa3IOo" rel="nofollow">https://t.co/6bZOLa3IOo</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Hardware </i>]  Don't be a Dummy ! : A Crash Course in Automotive Security : <a href="https://speakerdeck.com/utkanos/dont-be-a-dummy-a-crash-course-in-automotive-security-ekoparty-2016" rel="nofollow">https://speakerdeck.com/utkanos/dont-be-a-dummy-a-crash-course-in-automotive-security-ekoparty-2016</a> (Slides)</p>
+<div class="translated" id="204291">
+<p>﻿" 汽车安全速成教程︰   <a href="https://t.co/O0eIujdOVx" rel="nofollow">https://t.co/O0eIujdOVx</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Securing Domain Controllers to Improve Active Directory Security : <a href="https://adsecurity.org/?p=3377" rel="nofollow">https://adsecurity.org/?p=3377</a> cc @ PyroTek3 <a href="https://t.co/LgIys0UJTB" rel="nofollow">https://t.co/LgIys0UJTB</a></p>
+<div class="translated" id="204296">
+<p>﻿"通过保障 Domain Controllers 的安全来提高 Active Directory 的安全性：   <a href="https://adsecurity.org/?p=3377" rel="nofollow">https://adsecurity.org/?p=3377</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/Cwf9uMFUQAAHHRa.jpg" target="_blank">
+<img src="Cwf9uMFUQAAHHRa.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Steganography (Part 3) : <a href="http://www.blackhillsinfosec.com/?p=5394" rel="nofollow">http://www.blackhillsinfosec.com/?p=5394</a> ,Part 2 : <a href="http://www.blackhillsinfosec.com/?p=5350" rel="nofollow">http://www.blackhillsinfosec.com/?p=5350</a> , Part 1 : <a href="http://www.blackhillsinfosec.com/?p=5338" rel="nofollow">http://www.blackhillsinfosec.com/?p=5338</a></p>
+<div class="translated" id="204306">
+<p>﻿"隐写术(Part 1)：   <a href="https://t.co/EjffNB6070%C2%A0" rel="nofollow">https://t.co/EjffNB6070 </a> (Part 2)：   <a href="https://t.co/WT8KD8kYuF" rel="nofollow">https://t.co/WT8KD8kYuF</a> (Part 3)：   <a href="https://t.co/sAwihDBbIq" rel="nofollow">https://t.co/sAwihDBbIq</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  An IDA Pro Plugin For Windows Driver Reversing : <a href="https://labs.mwrinfosecurity.com/tools/win-driver-tool/" rel="nofollow">https://labs.mwrinfosecurity.com/tools/win-driver-tool/</a> , Github : <a href="https://github.com/mwrlabs/win_driver_plugin" rel="nofollow">https://github.com/mwrlabs/win_driver_plugin</a></p>
+<div class="translated" id="204304">
+<p>﻿"一个可用来逆向 Windows 驱动的 IDA Pro 插件：   <a href="https://github.com/mwrlabs/win_driver_plugin" rel="nofollow">https://github.com/mwrlabs/win_driver_plugin</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  OpenDoor - OWASP Directory Access Scanner <a href="http://www.kitploit.com/2016/11/opendoor-owasp-directory-access-scanner.html" rel="nofollow">http://www.kitploit.com/2016/11/opendoor-owasp-directory-access-scanner.html</a></p>
+<div class="translated" id="204382">
+<p>﻿"OpenDoor -- 网站目录扫描器：   <a href="https://t.co/ng2wFbIXLK" rel="nofollow">https://t.co/ng2wFbIXLK</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Full Disclosure @SecLists</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Web Security </i>]  Bypass Imperva by confusing HTTP Pollution Normalization Engine <a href="https://goo.gl/fb/7eZvQY" rel="nofollow">https://goo.gl/fb/7eZvQY</a> #FullDisclosure</p>
+<div class="translated" id="204238">
+<p>﻿"可通过特殊的 HTTP 参数绕过 Imperva：   <a href="https://t.co/A8RCGG1gkf" rel="nofollow">https://t.co/A8RCGG1gkf</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Francisco Alonso @revskills </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Web Security </i>]  Introducing FlyWeb <a href="https://flyweb.github.io/posts/2016/11/01/introducing-flyweb.html" rel="nofollow">https://flyweb.github.io/posts/2016/11/01/introducing-flyweb.html</a></p>
+<div class="translated" id="204284">
+<p>﻿" FlyWeb - 将本地的文件和服务暴露给附近浏览器的一个库：   <a href="https://t.co/z8vor5gLGU" rel="nofollow">https://t.co/z8vor5gLGU</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Dawn of hardened Windows Kernel : <a href="http://www.slideshare.net/PeterHlavaty/you-didnt-see-its-coming-dawn-of-hardened-windows-kernel" rel="nofollow">http://www.slideshare.net/PeterHlavaty/you-didnt-see-its-coming-dawn-of-hardened-windows-kernel</a> (Slides) cc @ zer0mem</p>
+<div class="translated" id="204307">
+<p>﻿"Dawn of hardened Windows Kernel,来自腾讯科恩实验室的 Peter 在 2016 BlueHat 上的议题（Slides)：      <a href="https://t.co/5uKE6tcBhr" rel="nofollow">https://t.co/5uKE6tcBhr</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/11/05/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/11/06/index.html">2016/11/06</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/11/07/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/06/25" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/06/25</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/06/24/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/06/25/index.html">2016/06/25</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/06/26/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>PHR34K @unpacker</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  How to: Testing Android Application Security, Part 2 <a href="https://blogs.mcafee.com/mcafee-labs/testing-android-application-security-part-2/" rel="nofollow">https://blogs.mcafee.com/mcafee-labs/testing-android-application-security-part-2/</a></p>
+<div class="translated" id="150831">
+<p>﻿" Android APP 安全性测试 Part 2，来自 McAfee Blog：    <a href="https://t.co/yopKit11e0" rel="nofollow">https://t.co/yopKit11e0</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  SiD @S1D_ </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Conference </i>]  Slides from Digital Investigations Conference are available here <a href="http://www.digitalinvestigationsconference.com/downloads/Presentations_DIC_2016_Zurich.zip" rel="nofollow">http://www.digitalinvestigationsconference.com/downloads/Presentations_DIC_2016_Zurich.zip</a>, included what's new in #EnCase v8 ! #forensics</p>
+<div class="translated" id="151090">
+<p>﻿" 数字取证调查会议的所有 PPT 下载：   <a href="https://t.co/f7fq95UhMl" rel="nofollow">https://t.co/f7fq95UhMl</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Axelle Ap. @cryptax </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> IoTDevice </i>]  My slides at #area41 are available here: <a href="https://fortiguard.com/paper/area-41-reversing-internet-of-things-from-mobile-applications" rel="nofollow">https://fortiguard.com/paper/area-41-reversing-internet-of-things-from-mobile-applications</a> #reverse #IoT #toothbrush #smartglasses</p>
+<div class="translated" id="150998">
+<p>﻿" AREA 41 会议一篇关于 IoT 逆向的演讲 ︰   <a href="https://t.co/DWLAfr0fdH" rel="nofollow">https://t.co/DWLAfr0fdH</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Security Aspects of Flash,HTML5,and Video in the Ad Tech Industry : <a href="http://www.geoedge.com/downloads/documents/Security_Aspects_of_HTML5_in_Video_Ads.pdf" rel="nofollow">http://www.geoedge.com/downloads/documents/Security_Aspects_of_HTML5_in_Video_Ads.pdf</a> (pdf) <a href="https://t.co/5citIayEBN" rel="nofollow">https://t.co/5citIayEBN</a></p>
+<div class="translated" id="151087">
+<p>﻿" 广告行业所涉及的 Flash、HTML5、Video 的安全性分析，来自 GeoEdge 的报告 ︰   <a href="https://t.co/JDT8DUTT2m%C2%A0" rel="nofollow">https://t.co/JDT8DUTT2m </a> <a href="https://t.co/5citIayEBN" rel="nofollow">https://t.co/5citIayEBN</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CltwdwTVEAEaZkx.jpg" target="_blank">
+<img src="CltwdwTVEAEaZkx.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Pentest </i>]  Fansmitter : Acoustic Data Exfiltration from (Speakerless) Air-Gapped Computers :  <a href="https://arxiv.org/ftp/arxiv/papers/1606/1606.05915.pdf" rel="nofollow">https://arxiv.org/ftp/arxiv/papers/1606/1606.05915.pdf</a> (pdf)</p>
+<div class="translated" id="151138">
+<p>﻿"Fansmitter - 利用声学方法从物理隔绝计算机中泄漏数据的方法︰   <a href="https://t.co/hNZ7z7IgrO" rel="nofollow">https://t.co/hNZ7z7IgrO</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Nico Golde @iamnion </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> ReverseEngineering </i>]  another hexagon/qdsp6 IDA processor module <a href="https://github.com/ANSSI-FR/nogaxeh" rel="nofollow">https://github.com/ANSSI-FR/nogaxeh</a> by ANSSI, nice!</p>
+<div class="translated" id="151251">
+<p>﻿" nogaxeh - 用于分析高通 Hexagon 处理器架构指令的 IDA 模块：   <a href="https://t.co/sm6pwIhojY%C2%A0" rel="nofollow">https://t.co/sm6pwIhojY </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> SecurityProduct </i>]  Antivirus As a Threat <a href="http://blog.ptsecurity.com/2016/06/antivirus-as-threat.html" rel="nofollow">http://blog.ptsecurity.com/2016/06/antivirus-as-threat.html</a></p>
+<div class="translated" id="151123">
+<p>﻿" 反病毒软件自身的安全性已经成为一种威胁，来自 PtSecurity 的调查分析：   <a href="https://t.co/tyEvyk51W9" rel="nofollow">https://t.co/tyEvyk51W9</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>FireF0X @hFireF0X</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  MS failed fix of InetMgr UAC exploit explained in details <a href="http://www.kernelmode.info/forum/viewtopic.php?f=11&amp;t=3643&amp;p=28762#p28762" rel="nofollow">http://www.kernelmode.info/forum/viewtopic.php?f=11&amp;t=3643&amp;p=28762#p28762</a> #uacme</p>
+<div class="translated" id="150914">
+<p>﻿" 微软修复 InetMgr UAC Bypass 漏洞的补丁存在问题，来自 KernelMode 论坛的讨论：   <a href="https://t.co/zDE8Xc9adh%C2%A0" rel="nofollow">https://t.co/zDE8Xc9adh </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/06/24/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/06/25/index.html">2016/06/25</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/06/26/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

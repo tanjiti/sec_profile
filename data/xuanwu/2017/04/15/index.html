@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/04/15" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/04/15</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+    color: #a7a7a7;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 15px;
+    /*color: #a7a7a7;*/
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.singlefeedtext p{
+    font-size: 15px;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        //console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        //console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            //console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/04/14/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/04/15/index.html">2017/04/15</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/04/16/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Mobile Security @m0bile_security </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  iOS Kernel Integrity Protection bypass #MobileSecurity #iOSsecurity 
+<a href="https://xerub.github.io/ios/kpp/2017/04/13/tick-tock.html" rel="nofollow">https://xerub.github.io/ios/kpp/2017/04/13/tick-tock.html</a></p>
+<div class="translated" id="266601">
+<p>﻿"iOS 9 开始引入的内核完整性保护（KPP）功能是如何实现的：   <a href="https://t.co/lQKwqiPMLK" rel="nofollow">https://t.co/lQKwqiPMLK</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> IoTDevice </i>]  OBD-II Dongle Attack : Stopping a Moving Car via Bluetooth : <a href="https://argus-sec.com/remote-attack-bosch-drivelog-connector-dongle/" rel="nofollow">https://argus-sec.com/remote-attack-bosch-drivelog-connector-dongle/</a> <a href="https://t.co/qid2H1OL2F" rel="nofollow">https://t.co/qid2H1OL2F</a></p>
+<div class="translated" id="266653">
+<p>﻿"博世的 Drivelog Connector OBD-II 电子狗存在漏洞，攻击者可以远程关闭汽车的发动机引擎︰   <a href="https://t.co/AZ5Z58SqHe" rel="nofollow">https://t.co/AZ5Z58SqHe</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C9Y9zT8WsAEBgKd.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/C9Y9zT8WsAEBgKd.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  JaromirHorejsi @JaromirHorejsi </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  My latest blog post about TeamSpy, malware abusing TeamViewer
+
+<a href="https://blog.avast.com/a-deeper-look-into-malware-abusing-teamviewer" rel="nofollow">https://blog.avast.com/a-deeper-look-into-malware-abusing-teamviewer</a></p>
+<div class="translated" id="266353">
+<p>﻿" 深度分析滥用 Teamviewer 的后门 - TeamSpy：   <a href="https://t.co/gnJEnplmL6" rel="nofollow">https://t.co/gnJEnplmL6</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  The Power of Data-Oriented Attacks : Bypassing Memory Mitigation Using Data-Only Exploitation Technique (Part II) : <a href="http://conference.hitb.org/hitbsecconf2017ams/materials/D2T1%20-%20Bing%20Sun%20and%20Chong%20Xu%20-%20Bypassing%20Memory%20Mitigation%20Using%20Data-Only%20Exploitation%20Techniques.pdf" rel="nofollow">http://conference.hitb.org/hitbsecconf2017ams/materials/D2T1%20-%20Bing%20Sun%20and%20Chong%20Xu%20-%20Bypassing%20Memory%20Mitigation%20Using%20Data-Only%20Exploitation%20Techniques.pdf</a></p>
+<div class="translated" id="266550">
+<p>﻿"数据攻击的威力 - 利用 Data-Only 技术突破内存利用缓解措施 Part 2，来自 McAfee 研究员在 HITB 2017 Ams 的演讲:   <a href="https://t.co/085M7wKg0X%C2%A0%C2%A0" rel="nofollow">https://t.co/085M7wKg0X  </a> Part 1 于 Blackhat Asia 上放出过：   <a href="https://www.blackhat.com/docs/asia-17/materials/asia-17-Sun-The-Power-Of-Data-Oriented-Attacks-Bypassing-Memory-Mitigation-Using-Data-Only-Exploitation-Technique.pdf" rel="nofollow">https://www.blackhat.com/docs/asia-17/materials/asia-17-Sun-The-Power-Of-Data-Oriented-Attacks-Bypassing-Memory-Mitigation-Using-Data-Only-Exploitation-Technique.pdf</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  HITBSecConf @HITBSecConf </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  #HITB2017AMS D2T1 - Trammel Hudson - Bootstrapping Systems with Open Source Firmware - <a href="http://conference.hitb.org/hitbsecconf2017ams/materials/D2T1%20-%20Trammel%20Hudson%20-%20Bootstrapping%20Systems%20with%20Open%20Source%20Firmware.pdf" rel="nofollow">http://conference.hitb.org/hitbsecconf2017ams/materials/D2T1%20-%20Trammel%20Hudson%20-%20Bootstrapping%20Systems%20with%20Open%20Source%20Firmware.pdf</a></p>
+<div class="translated" id="266612">
+<p>﻿"基于开源固件(coreboot)加强系统启动过程中的安全性，来自 HITB AMS 2017 会议：   <a href="https://t.co/4BW4eWCgfv" rel="nofollow">https://t.co/4BW4eWCgfv</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Fault Injection Attacks on Secure Boot : <a href="http://conference.hitb.org/hitbsecconf2017ams/materials/D1T4%20-%20Niek%20Timmers%20and%20Albert%20Spruyt%20-%20Fault%20Injection%20Attacks%20On%20Secure%20Boot.pdf" rel="nofollow">http://conference.hitb.org/hitbsecconf2017ams/materials/D1T4%20-%20Niek%20Timmers%20and%20Albert%20Spruyt%20-%20Fault%20Injection%20Attacks%20On%20Secure%20Boot.pdf</a> (Slides) #HITB2017AMS  cc @ tieknimmers</p>
+<div class="translated" id="266394">
+<p>﻿"Fault Injection Attacks on Secure Boot ，HITB 2017 AMS 大会︰   <a href="https://t.co/SBQG4wNzC2" rel="nofollow">https://t.co/SBQG4wNzC2</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  Hacking Customer Information Control System : <a href="http://conference.hitb.org/hitbsecconf2017ams/materials/D1T1%20-%20Ayoub%20Elaassal%20-%20Hacking%20Customer%20Information%20System.pdf" rel="nofollow">http://conference.hitb.org/hitbsecconf2017ams/materials/D1T1%20-%20Ayoub%20Elaassal%20-%20Hacking%20Customer%20Information%20System.pdf</a>  (Slides) cc @ ayoul3__ #HITB2017AMS</p>
+<div class="translated" id="266365">
+<p>﻿"攻击客户信息控制系统（CICS），来自 HITB 2017 AMS 大会︰   <a href="https://t.co/f8jKad1ksu" rel="nofollow">https://t.co/f8jKad1ksu</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Full Disclosure @SecLists</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  Adobe Creative Cloud Desktop Application &lt;= v4.0.0.185 Privilege Escalation <a href="https://goo.gl/fb/rYoVxv" rel="nofollow">https://goo.gl/fb/rYoVxv</a> #FullDisclosure</p>
+<div class="translated" id="266405">
+<p>﻿"Adobe Creative Cloud Desktop Application &lt;= v4.0.0.185 由于目录 ACL 设置不当引起的提取漏洞（CVE-2017-3006）：   <a href="https://t.co/dEdzsRv1pn" rel="nofollow">https://t.co/dEdzsRv1pn</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  x0rz @x0rz </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Zippybeer authenticated RCE through SMB (445/tcp) on Windows domain controllers <a href="https://github.com/x0rz/EQGRP_Lost_in_Translation/blob/master/windows/exploits/Zippybeer-1.0.2.py" rel="nofollow">https://github.com/x0rz/EQGRP_Lost_in_Translation/blob/master/windows/exploits/Zippybeer-1.0.2.py</a> #EquationGroup #ShadowBrokers</p>
+<div class="translated" id="266525">
+<p>﻿"程式组织泄露的第二批利用工具公开了，这次泄露了很多 Windows/Swift 相关的攻击工具，Windows 平台的主要是 SMB 和 RDP 相关的 0Day Exploits：解压后的代码：   <a href="https://github.com/x0rz/EQGRP_Lost_in_Translation" rel="nofollow">https://github.com/x0rz/EQGRP_Lost_in_Translation</a>   
+还有一些相关的文章：《NSA 0day ETERNALBLUE  漏洞利用》：   <a href="https://xianzhi.aliyun.com/forum/mobile/read/1512.html%C2%A0" rel="nofollow">https://xianzhi.aliyun.com/forum/mobile/read/1512.html </a> 
+《Latest Shadow Brokers dump — owning SWIFT Alliance Access, Cisco and Windows》：   <a href="https://medium.com/@networksecurity/latest-shadow-brokers-dump-owning-swift-alliance-access-cisco-and-windows-7b7782270e70%C2%A0" rel="nofollow">https://medium.com/@networksecurity/latest-shadow-brokers-dump-owning-swift-alliance-access-cisco-and-windows-7b7782270e70 </a> 
+ 
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  HITBMedia @HITBMedia </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  #HITB2017AMS D2T3 - James Forshaw - Introduction to Logical Privilege Escalation on Windows - <a href="http://conference.hitb.org/hitbsecconf2017ams/materials/D2T3%20-%20James%20Forshaw%20-%20Introduction%20to%20Logical%20Privilege%20Escalation%20on%20Windows.pdf" rel="nofollow">http://conference.hitb.org/hitbsecconf2017ams/materials/D2T3%20-%20James%20Forshaw%20-%20Introduction%20to%20Logical%20Privilege%20Escalation%20on%20Windows.pdf</a></p>
+<div class="translated" id="266566">
+<p>﻿"Windows 上的逻辑权限提升，来自 HITB2017AMS Workshop 上 James Forshaw 演讲：   <a href="https://t.co/rYgPeTH9B4" rel="nofollow">https://t.co/rYgPeTH9B4</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  netbiosX @netbiosX </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  [New Post] Privilege Escalation via Hot Potato <a href="https://pentestlab.blog/2017/04/13/hot-potato/" rel="nofollow">https://pentestlab.blog/2017/04/13/hot-potato/</a> #pentestlab #hotpotato #pentest #Pentesting</p>
+<div class="translated" id="266334">
+<p>﻿" Windows 提权技术之 Hot Potato：   <a href="https://t.co/E7LQibsZhg" rel="nofollow">https://t.co/E7LQibsZhg</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Setting up a Shiny Development Environment within Linux on Windows 10 : <a href="https://www.hanselman.com/blog/SettingUpAShinyDevelopmentEnvironmentWithinLinuxOnWindows10.aspx" rel="nofollow">https://www.hanselman.com/blog/SettingUpAShinyDevelopmentEnvironmentWithinLinuxOnWindows10.aspx</a> <a href="https://t.co/y28E7cnYb2" rel="nofollow">https://t.co/y28E7cnYb2</a></p>
+<div class="translated" id="266396">
+<p>﻿" 在 Win10 的 Linux 子系统里搭建酷炫的开发环境︰   <a href="https://t.co/4ceYaVlt7N" rel="nofollow">https://t.co/4ceYaVlt7N</a> <a href="https://t.co/y28E7cnYb2" rel="nofollow">https://t.co/y28E7cnYb2</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C9XL2qpVoAAZx9v.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/C9XL2qpVoAAZx9v.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> WirelessSecurity </i>]  Lure10 : Exploiting Windows Automatic Wireless Association Algorithm : <a href="http://conference.hitb.org/hitbsecconf2017ams/materials/D1T4%20-%20George%20Chatzisofroniou%20-%20Exploiting%20Windows%20Automatic%20Wireless%20Association%20Algorithm.pdf" rel="nofollow">http://conference.hitb.org/hitbsecconf2017ams/materials/D1T4%20-%20George%20Chatzisofroniou%20-%20Exploiting%20Windows%20Automatic%20Wireless%20Association%20Algorithm.pdf</a> (Slides) #HITB2017AMS cc @ _sophron</p>
+<div class="translated" id="266381">
+<p>﻿"攻击 Windows 10 中的 Wi-Fi Sense 自动连接功能，这个功能是通过 '众包' 模式实现的，来自 HITB 2017 AMS 大会︰   <a href="https://t.co/iG37ph80Bu" rel="nofollow">https://t.co/iG37ph80Bu</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> WirelessSecurity </i>]  So You Want to Hack Radios - A Primer on Wireless Reverse Engineering : <a href="http://conference.hitb.org/hitbsecconf2017ams/materials/D1T4%20-%20Marc%20Newlin%20and%20Matt%20Knight%20-%20So%20You%20Want%20to%20Hack%20Radios.pdf" rel="nofollow">http://conference.hitb.org/hitbsecconf2017ams/materials/D1T4%20-%20Marc%20Newlin%20and%20Matt%20Knight%20-%20So%20You%20Want%20to%20Hack%20Radios.pdf</a> (Slides) #HITB2017AMS  cc @ marcnewlin</p>
+<div class="translated" id="266388">
+<p>﻿"想要破解 Radios？ -- 无线逆向入门教程，来自 HITB 2017 AMS  :   <a href="https://t.co/NWBe8sYUMX" rel="nofollow">https://t.co/NWBe8sYUMX</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/04/14/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/04/15/index.html">2017/04/15</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/04/16/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

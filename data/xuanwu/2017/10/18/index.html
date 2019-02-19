@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/10/18" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/10/18</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    border-top: 1px solid #f0f0f0;
+    color: black;
+    margin-bottom: 30px;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+
+
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+
+.singleweibotext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+
+.singleweiboimage{
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin-left: 25px;
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedheader{
+
+}
+
+.singlefeedlogo{
+    float: left;
+    /*width: 24px;*/
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.singlefeedlogo img{
+    float: left;
+    width: 13px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+
+    /*width: 80%;
+    height: 80%;*/
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+.singlefeedtext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/10/17/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/10/18/index.html">2017/10/18</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/10/19/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Industry News ]</span>  Oracle 在本次的季度重要更新中修补了 250 个漏洞：   <a href="https://threatpost.com/oracle-patches-250-bugs-in-quarterly-critical-patch-update/128484/" rel="nofollow">https://threatpost.com/oracle-patches-250-bugs-in-quarterly-critical-patch-update/128484/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Industry News ]</span>  lenovo 修复了其下 Android tablet、 Vibe 系列及 Zuk 系列手机中的多个漏洞：   <a href="https://threatpost.com/lenovo-quietly-patches-massive-bug-impacting-its-android-tablets-and-zuk-vibe-phones/128489/" rel="nofollow">https://threatpost.com/lenovo-quietly-patches-massive-bug-impacting-its-android-tablets-and-zuk-vibe-phones/128489/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Industry News ]</span>  
+ 据前员工透露，微软用于跟踪 Bugs 的内部秘密数据库四年前（2013）被黑了：   <a href="http://www.reuters.com/article/us-microsoft-cyber-insight/exclusive-microsoft-responded-quietly-after-detecting-secret-database-hack-in-2013-idUSKBN1CM0D0" rel="nofollow">http://www.reuters.com/article/us-microsoft-cyber-insight/exclusive-microsoft-responded-quietly-after-detecting-secret-database-hack-in-2013-idUSKBN1CM0D0</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Industry News ]</span>  
+台湾商业银行 FEIB 被抢劫事件调查中发现了多个 Lazarus 组织的攻击工具：   <a href="https://baesystemsai.blogspot.com/2017/10/taiwan-heist-lazarus-tools.html" rel="nofollow">https://baesystemsai.blogspot.com/2017/10/taiwan-heist-lazarus-tools.html</a>
+</p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DMUd62iWkAAru85.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/DMUd62iWkAAru85.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Linux ]</span>  Linux Kernel AF_PACKET Use-After-Free：   <a href="https://blogs.securiteam.com/index.php/archives/3484" rel="nofollow">https://blogs.securiteam.com/index.php/archives/3484</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DMVpc-eW0AELZb5.png" target="_blank">
+<img src="http://pbs.twimg.com/media/DMVpc-eW0AELZb5.png">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Popular Software ]</span>  
+据 ZDI 统计，PDF 阅读器有很大一部分漏洞出在图片转 PDF 的功能中。ZDI 这篇 Blog 介绍如何高效地 Fuzz 和分析 Foxit Reader 的图片转 PDF 特性：   <a href="https://www.zerodayinitiative.com/blog/2017/10/17/wrapping-the-converter-within-foxit-reader" rel="nofollow">https://www.zerodayinitiative.com/blog/2017/10/17/wrapping-the-converter-within-foxit-reader</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  
+Ohm - 为 JavaScript 写一个其他语言的 Parser：   <a href="https://nextjournal.com/dubroy/ohm-parsing-made-easy" rel="nofollow">https://nextjournal.com/dubroy/ohm-parsing-made-easy</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  
+用于辅助 IDA 逆向的多个脚本工具：   <a href="https://github.com/1111joe1111/ida_ea" rel="nofollow">https://github.com/1111joe1111/ida_ea</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  
+Windows 10 今天正式发布并推送秋季大版本更新（Fall Creators Update），新版本中 Edge 浏览器也相应地升级到了 EdgeHTML 16 版本。新版本的变化：    <a href="https://blogs.windows.com/windowsexperience/2017/10/17/get-windows-10-fall-creators-update/#F3ViIjLUAaCLgl1a.97%C2%A0" rel="nofollow">https://blogs.windows.com/windowsexperience/2017/10/17/get-windows-10-fall-creators-update/#F3ViIjLUAaCLgl1a.97 </a> <a href="https://blogs.windows.com/windowsexperience/2017/10/17/whats-new-windows-10-fall-creators-update/%C2%A0" rel="nofollow">https://blogs.windows.com/windowsexperience/2017/10/17/whats-new-windows-10-fall-creators-update/ </a> <a href="https://blogs.windows.com/msedgedev/2017/10/17/edgehtml-16-fall-creators-update/" rel="nofollow">https://blogs.windows.com/msedgedev/2017/10/17/edgehtml-16-fall-creators-update/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>   Windows WDK 1709 (16299/RS3) 也发布了：   <a href="https://www.osr.com/blog/2017/10/17/wdk-1709-aka-16299-aka-rs3-released/%C2%A0" rel="nofollow">https://www.osr.com/blog/2017/10/17/wdk-1709-aka-16299-aka-rs3-released/ </a></p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Browser ]</span>  Chrome 发布 62.0.3202.62 版本，本次更新修复了多达 35 个漏洞：  <a href="https://chromereleases.googleblog.com/2017/10/stable-channel-update-for-desktop.html" rel="nofollow">https://chromereleases.googleblog.com/2017/10/stable-channel-update-for-desktop.html</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Browser ]</span>   除了 Firefox 浏览器，今天更新的 Windows 10 中，EdgeHTML 16 也开始支持 CSS Grid Layout 特性，来自 Mozilla Firefox Blog 对该特性的介绍： 
+<a href="https://hacks.mozilla.org/2017/10/an-introduction-to-css-grid-layout-part-1/" rel="nofollow">https://hacks.mozilla.org/2017/10/an-introduction-to-css-grid-layout-part-1/</a>
+<a href="https://hacks.mozilla.org/2017/10/an-introduction-to-css-grid-layout-part-2/" rel="nofollow">https://hacks.mozilla.org/2017/10/an-introduction-to-css-grid-layout-part-2/</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Industry News ]</span>  Linus Torvalds 表示定向 Fuzzing 正在帮助 Linux 操作系统提升安全性： 
+<a href="http://www.zdnet.com/article/linus-torvalds-says-targeted-fuzzing-is-improving-linux-security/" rel="nofollow">http://www.zdnet.com/article/linus-torvalds-says-targeted-fuzzing-is-improving-linux-security/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ iOS ]</span>  Apple iOS 10.2 (14C92) CVE-2017-7115 Exploit，漏洞由 project Zero 发现：Apple: Multiple Race Conditions in PCIe Message Ring protocol leading to OOB Write and OOB Read： 
+<a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1317" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1317</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ IoTDevice ]</span>  Hacking 蓝牙智能门锁，来自 Brucon 会议： 
+<a href="https://smartlockpicking.com/slides/BruCON0x09_2017_Hacking_Bluetooth_Smart_locks.pdf" rel="nofollow">https://smartlockpicking.com/slides/BruCON0x09_2017_Hacking_Bluetooth_Smart_locks.pdf</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Others ]</span>  0Day 漏洞和他们的 Exploits 的一生（The Life and Times of Zero-Day Vulnerabilities and Their Exploits），来自 Rand 研究团队的报告： 
+<a href="https://www.rand.org/pubs/research_reports/RR1751.html" rel="nofollow">https://www.rand.org/pubs/research_reports/RR1751.html</a> </p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Tools ]</span>  lucky-js-fuzz - 研究员 blast 开源的 JS Fuzzer：  
+<a href="https://github.com/blastxiang/lucky-js-fuzz" rel="nofollow">https://github.com/blastxiang/lucky-js-fuzz</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Tools ]</span>  Aktaion - 用于研究 Exploit 和钓鱼检测的开源机器学习工具和样本：
+<a href="https://github.com/jzadeh/Aktaion" rel="nofollow">https://github.com/jzadeh/Aktaion</a> </p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Vulnerability ]</span>  海洋CMS（SEACMS）v6.55执行任意代码漏洞及其补丁绕过方法： <a href="http://blog.jowto.com/?p=278" rel="nofollow">http://blog.jowto.com/?p=278</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Web Security ]</span>  WebUSB：一个网页是如何从你的手机中盗窃数据的（含PoC）： <a href="http://www.freebuf.com/articles/web/150335.html" rel="nofollow">http://www.freebuf.com/articles/web/150335.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Windows ]</span>  最新CVE-2017-11826漏洞利用样本分析： <a href="http://www.freebuf.com/vuls/150607.html" rel="nofollow">http://www.freebuf.com/vuls/150607.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Windows ]</span>  利用 Non-paged Kernel Pool Feng Shui 技术在 64 位 Windows 7 上攻击 HEVD 驱动的 UAF 漏洞： 
+<a href="https://securityinsecurity.github.io/exploiting-hevd-use-after-free/" rel="nofollow">https://securityinsecurity.github.io/exploiting-hevd-use-after-free/</a> </p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ WirelessSecurity ]</span>  “WPA2被破解”是啥意思？连个WiFi，我的账号密码丑照就全泄露了？！：
+ <a href="https://mp.weixin.qq.com/s/nJj57YsvGMZj3egw_zLrlg" rel="nofollow">https://mp.weixin.qq.com/s/nJj57YsvGMZj3egw_zLrlg</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/10/17/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/10/18/index.html">2017/10/18</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/10/19/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/11/28" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/11/28</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    border-top: 1px solid #f0f0f0;
+    color: black;
+    margin-bottom: 30px;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+
+
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+
+.singleweibotext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+
+.singleweiboimage{
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin-left: 25px;
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedheader{
+
+}
+
+.singlefeedlogo{
+    float: left;
+    /*width: 24px;*/
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.singlefeedlogo img{
+    float: left;
+    width: 13px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+
+    /*width: 80%;
+    height: 80%;*/
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+.singlefeedtext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/11/27/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/11/28/index.html">2017/11/28</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/11/29/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Android ]</span>    Behind the PWN of a TrustZone。在 Android 设备的 TrustZone 中执行代码。来自 Nick Stephens 在 GeekPwn 上海站的分享：   <a href="https://www.slideshare.net/GeekPwnKeen/nick-stephenshow-does-someone-unlock-your-phone-with-nose%C2%A0" rel="nofollow">https://www.slideshare.net/GeekPwnKeen/nick-stephenshow-does-someone-unlock-your-phone-with-nose </a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Conference ]</span>  H2HC 2017 Slides/Materials/Presentations：   <a href="https://github.com/h2hconference/2017" rel="nofollow">https://github.com/h2hconference/2017</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Industry News ]</span>   LLVM 编译器将要支持 Intel 的 Control-Flow Enforcement Technology - Shadow Stack：   <a href="https://reviews.llvm.org/rL318996%C2%A0" rel="nofollow">https://reviews.llvm.org/rL318996 </a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ macOS ]</span>  
+在 macOS 10.13 上挂载 APFS 和 4K 镜像：   <a href="https://www.mac4n6.com/blog/2017/11/26/mount-all-the-things-mounting-apfs-and-4k-disk-images-on-macos-1013" rel="nofollow">https://www.mac4n6.com/blog/2017/11/26/mount-all-the-things-mounting-apfs-and-4k-disk-images-on-macos-1013</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Malware ]</span>  新公开的漏洞利用代码被用于传播 Mirai 变种：   <a href="https://threatpost.com/newly-published-exploit-code-used-to-spread-marai-variant/128998/" rel="nofollow">https://threatpost.com/newly-published-exploit-code-used-to-spread-marai-variant/128998/</a> </p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DPrL6d7WAAQdVEu.jpg" target="_blank">
+<img src="DPrL6d7WAAQdVEu.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>   寻找公开可访问的 DigitalOcean Spaces 存储：   <a href="https://blog.appsecco.com/hunting-publicly-accessible-digitalocean-spaces-for-pentesters-9516a4cd3c87" rel="nofollow">https://blog.appsecco.com/hunting-publicly-accessible-digitalocean-spaces-for-pentesters-9516a4cd3c87</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Popular Software ]</span>  
+Sysmon 6.20 新版的变化：   <a href="https://www.darkoperator.com/blog/2017/11/24/operational-look-at-sysinternals-sysmon-620-update" rel="nofollow">https://www.darkoperator.com/blog/2017/11/24/operational-look-at-sysinternals-sysmon-620-update</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ SecurityReport ]</span>  卡巴斯基实验室对市面上 IoT 设备安全性的分析:   <a href="https://securelist.com/iot-lottery/83300/" rel="nofollow">https://securelist.com/iot-lottery/83300/</a> </p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>   CryKeX - Linux内存加密密钥提取工具：   <a href="https://github.com/cryptolok/CryKeX" rel="nofollow">https://github.com/cryptolok/CryKeX</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DPlO78AWAAANpGp.jpg" target="_blank">
+<img src="DPlO78AWAAANpGp.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>   RamFuzz - 基于深度神经网络、自动化生成单元测试用例的 C++ 代码 Fuzzing：   <a href="https://github.com/dekimir/RamFuzz/blob/master/sci/ramfuzz.md%C2%A0" rel="nofollow">https://github.com/dekimir/RamFuzz/blob/master/sci/ramfuzz.md </a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>   linux-explorer - 用于 Linux 现场取证的工具箱：   <a href="https://github.com/intezer/linux-explorer" rel="nofollow">https://github.com/intezer/linux-explorer</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Virtualization ]</span>  如何在 Azeria Labs 的 ARM 逆向虚拟机实验环境中测试栈溢出：   <a href="https://azeria-labs.com/part-3-stack-overflow-challenges/" rel="nofollow">https://azeria-labs.com/part-3-stack-overflow-challenges/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>   Synology StorageManager smart.cgi 远程命令执行漏洞披露：   <a href="https://blogs.securiteam.com/index.php/archives/3540" rel="nofollow">https://blogs.securiteam.com/index.php/archives/3540</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Web Security ]</span>   如何在7分钟黑掉40个网站：   <a href="https://hackernoon.com/how-i-hacked-40-websites-in-7-minutes-5b4c28bc8824" rel="nofollow">https://hackernoon.com/how-i-hacked-40-websites-in-7-minutes-5b4c28bc8824</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DPpERTDXUAI1HPQ.jpg" target="_blank">
+<img src="DPpERTDXUAI1HPQ.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Web Security ]</span>   Bypassing SAML 2.0 SSO with XML Signature Attacks：   <a href="http://research.aurainfosec.io/bypassing-saml20-SSO/%C2%A0%C2%A0" rel="nofollow">http://research.aurainfosec.io/bypassing-saml20-SSO/  </a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  
+如何配置 Device Guard Policy，为自己的 Surface 笔记本实现可执行文件白名单防护策略：   <a href="https://posts.specterops.io/adventures-in-extremely-strict-device-guard-policy-configuration-part-1-device-drivers-fd1a281b35a8" rel="nofollow">https://posts.specterops.io/adventures-in-extremely-strict-device-guard-policy-configuration-part-1-device-drivers-fd1a281b35a8</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  
+利用 Windows 内核 NtQuerySystemInformation Warbird Class 的漏洞实现内核漏洞的提取利用。漏洞由 Project Zero mjurczyk 发现，这篇 Blog 作者为 Secarma 团队的 Adam（XPN）：  <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1391&amp;can=1&amp;q=&amp;sort=-id%C2%A0" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1391&amp;can=1&amp;q=&amp;sort=-id </a>
+<a href="https://blog.xpnsec.com/windows-warbird-privesc/" rel="nofollow">https://blog.xpnsec.com/windows-warbird-privesc/</a></p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Android ]</span>  Android Gmail 附件下载目录穿越漏洞，来自 Project Zero： 
+<a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1342" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1342</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Crypto ]</span>  SecurityIntelligence 团队搭建了一个密码爆破系统 - Cracken，这篇 Blog 介绍其硬件配置： 
+<a href="https://securityintelligence.com/the-cracken-in-action-a-password-cracking-adventure/" rel="nofollow">https://securityintelligence.com/the-cracken-in-action-a-password-cracking-adventure/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Industry News ]</span>  火绒安全警报：“Win10之家”首页被植入病毒 与多家知名网站互为友链： <a href="https://mp.weixin.qq.com/s/vJsd3F1nn5HMCByuTCMzFw" rel="nofollow">https://mp.weixin.qq.com/s/vJsd3F1nn5HMCByuTCMzFw</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Industry News ]</span>  那位泄露了 NSA Hacking Tools 的人究竟是谁？： <a href="https://krebsonsecurity.com/2017/11/who-was-the-nsa-contractor-arrested-for-leaking-the-shadow-brokers-hacking-tools/" rel="nofollow">https://krebsonsecurity.com/2017/11/who-was-the-nsa-contractor-arrested-for-leaking-the-shadow-brokers-hacking-tools/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Malware ]</span>  Tizi - Google 最近发现的一款针对非洲国家的后门间谍 APP 家族，Tizi 具有 ROOT 能力，专门用于偷取用户社交媒体 APP 的敏感信息： 
+<a href="https://security.googleblog.com/2017/11/tizi-detecting-and-blocking-socially.html" rel="nofollow">https://security.googleblog.com/2017/11/tizi-detecting-and-blocking-socially.html</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ MalwareAnalysis ]</span>  “夭折”的供应链攻击 - Defraggler被植入后门代码分析： <a href="https://mp.weixin.qq.com/s/RJZylxqQaUX3EYAcBsOznQ" rel="nofollow">https://mp.weixin.qq.com/s/RJZylxqQaUX3EYAcBsOznQ</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Network ]</span>  中共中央办公厅、国务院办公厅日前印发《推进互联网协议第六版（IPv6）规模部署行动计划》。下面是之前我们推送过的部分 IPv6 协议相关的资料： 
+
+IPv6 数据包构造与安全测试框架 - Chiron： <a href="https://t.co/vdZo7MgqLo" rel="nofollow">https://t.co/vdZo7MgqLo</a> 
+
+ Paper： <a href="https://t.co/OichK9UTmv" rel="nofollow">https://t.co/OichK9UTmv</a> 
+
+为什么保障 IPv6 安全性那么困难：https://www.troopers.de/media/filer_public/42/1a/421a0a30-0a35-486a-b25e-7eea27f18ef7/troopers14-why_ipv6_security_is_so_hard-structural_deficits_of_ipv6_and_their_implications-enno_rey.pdf 
+
+
+关于 Cisco 网络设备 IPv6 ACL 策略配置的几篇文章， Part 3： <a href="https://t.co/vR70j3qpSl" rel="nofollow">https://t.co/vR70j3qpSl</a> 
+
+   Part 2： <a href="https://t.co/r5mjVeTD52" rel="nofollow">https://t.co/r5mjVeTD52</a> 
+
+   Part 1： <a href="https://t.co/MfSgtq9PRm" rel="nofollow">https://t.co/MfSgtq9PRm</a> 
+
+IPv6 网络中 MLD 协议对安全的影响， Paper： <a href="https://t.co/zSFjMAh6pj" rel="nofollow">https://t.co/zSFjMAh6pj</a> 
+
+Windows Server IPv6 安全加固指南，来自 ERNW 2014 年的一篇文档： <a href="https://t.co/gujjasrbWb" rel="nofollow">https://t.co/gujjasrbWb</a> 
+
+ipv6tools - 用于对启用 IPv6 的网络做健壮性测试的工具： <a href="https://t.co/0PlfOaAIJ9" rel="nofollow">https://t.co/0PlfOaAIJ9</a> 
+
+Wireshark 中的 IPv6 协议分析：https://insinuator.net/2016/03/troopers-16-wireshark-in-ip-version-6/ 
+
+  <a href="https://www.troopers.de/media/filer_public/9c/c5/9cc5e4e1-1f2c-4d0b-9f69-87059eb9e931/ernw_tr16_ipv6_secsummit_ipv6-in-wireshark_jcarrell.pdf" rel="nofollow">https://www.troopers.de/media/filer_public/9c/c5/9cc5e4e1-1f2c-4d0b-9f69-87059eb9e931/ernw_tr16_ipv6_secsummit_ipv6-in-wireshark_jcarrell.pdf</a> 
+
+
+IPv6-only WiFi 体验的几点思考， 来自 Troopers 2016 会议： <a href="https://t.co/I4FmlkVDcp" rel="nofollow">https://t.co/I4FmlkVDcp</a> 
+
+IPv6 攻击与防御完整指南， 来自 SANS 2012 年的一篇 Paper： <a href="https://t.co/rCbAL114gv" rel="nofollow">https://t.co/rCbAL114gv</a> 
+
+ 还有两个相关链接: <a href="https://github.com/Teino1978-Corp/Teino1978-Corp-APV6" rel="nofollow">https://github.com/Teino1978-Corp/Teino1978-Corp-APV6</a>
+<a href="https://gist.github.com/Teino1978-Corp/c7a855d0c0eaa348273b" rel="nofollow">https://gist.github.com/Teino1978-Corp/c7a855d0c0eaa348273b</a> 
+
+企业中的 IPv6 安全战略, 来自 Troopers IPv6 安全峰会： <a href="https://t.co/06JfHY4WRc" rel="nofollow">https://t.co/06JfHY4WRc</a> 
+
+MrLooquer - 结合开源情报技术和数据挖掘技术, 创建实时 IPv6 部署情况图： <a href="https://www.mrlooquer.com/" rel="nofollow">https://www.mrlooquer.com/</a> 
+
+异常的 IPv6 分片以及操作系统的响应： <a href="https://t.co/235EsVKr2m" rel="nofollow">https://t.co/235EsVKr2m</a> 
+
+隐私不是一种选择: 攻击 IPv6 隐私扩展 <a href="https://t.co/65tv8FgPYo" rel="nofollow">https://t.co/65tv8FgPYo</a> 
+
+Juniper 设备之前修复了一个 IPv6 DDoS 漏洞： <a href="https://t.co/kOQvN1uur9" rel="nofollow">https://t.co/kOQvN1uur9</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Others ]</span>  OpenATS续篇：搭建自己的卫星地球站：
+ <a href="http://www.freebuf.com/articles/wireless/153793.html" rel="nofollow">http://www.freebuf.com/articles/wireless/153793.html</a>
+GitHub: <a href="https://github.com/OpenATS/OpenATS" rel="nofollow">https://github.com/OpenATS/OpenATS</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Others ]</span>  关于“猥琐流，文/Superhei：https://zhuanlan.zhihu.com/p/31450257?group_id=918510616457957376</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Popular Software ]</span>  危机四伏的Office高危漏洞CVE-2017-11882： <a href="http://www.freebuf.com/news/154968.html" rel="nofollow">http://www.freebuf.com/news/154968.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Popular Software ]</span>  CVE-2017-11882漏洞复现和利用： <a href="http://www.freebuf.com/vuls/154978.html" rel="nofollow">http://www.freebuf.com/vuls/154978.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Popular Software ]</span>  MobSF框架及源代码分析： <a href="http://www.mottoin.com/96841.html" rel="nofollow">http://www.mottoin.com/96841.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ ReverseEngineering ]</span>  针对 Furby Connect 应用的逆向分析： <a href="https://www.contextis.com/blog/dont-feed-them-after-midnight-reverse-engineering-the-furby-connect" rel="nofollow">https://www.contextis.com/blog/dont-feed-them-after-midnight-reverse-engineering-the-furby-connect</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ SecurityProduct ]</span>  Ikraus Anti Virus 远程代码执行漏洞： <a href="https://blogs.securiteam.com/index.php/archives/3542" rel="nofollow">https://blogs.securiteam.com/index.php/archives/3542</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Vulnerability ]</span>  Image removal vulnerability in Facebook polling feature： <a href="https://blog.darabi.me/2017/11/image-removal-vulnerability-in-facebook.html" rel="nofollow">https://blog.darabi.me/2017/11/image-removal-vulnerability-in-facebook.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Web Security ]</span>  NCC Group 对 CakePHP MVC Web 框架的审计报告： 
+<a href="https://www.nccgroup.trust/us/our-research/cakephp-security-assessment/?research=Public+Reports" rel="nofollow">https://www.nccgroup.trust/us/our-research/cakephp-security-assessment/?research=Public+Reports</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/11/27/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/11/28/index.html">2017/11/28</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/11/29/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

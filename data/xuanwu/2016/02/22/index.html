@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/02/22" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/02/22</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/02/21/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/02/22/index.html">2016/02/22</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/02/23/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Debug </i>]  Tool Added: The "Ultimate" anti debugging reference <a href="http://www.woodmann.com/collaborative/knowledge/index.php/The_%22Ultimate%22_anti_debugging_reference" rel="nofollow">http://www.woodmann.com/collaborative/knowledge/index.php/The_%22Ultimate%22_anti_debugging_reference</a></p>
+<div class="translated" id="101356">
+<p>﻿"终极版反调试手册：   <a href="https://t.co/iqiATWf4Qu" rel="nofollow">https://t.co/iqiATWf4Qu</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>PHR34K @unpacker</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Forensics </i>]  Hunting for Executable Code in Windows Environments, (Thu, Feb 18th) <a href="https://isc.sans.edu/diary.html?storyid=20745&amp;rss=" rel="nofollow">https://isc.sans.edu/diary.html?storyid=20745&amp;rss</a></p>
+<div class="translated" id="101581">
+<p>﻿"通过 PE Capture 工具发现系统中正在运行的可执行程序，用于取证分析：   <a href="https://t.co/cY2Ja9yFZk" rel="nofollow">https://t.co/cY2Ja9yFZk</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Hardware </i>]  Guide to Digital Signal Processing : <a href="http://www.dspguide.com/pdfbook.htm" rel="nofollow">http://www.dspguide.com/pdfbook.htm</a></p>
+<div class="translated" id="101423">
+<p>﻿"数字信号处理指南（在线图书）， 来自 DSP Guide:   <a href="https://t.co/Gutwihht6Z" rel="nofollow">https://t.co/Gutwihht6Z</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Hardware </i>]  GPS hacking (PART 1) <a href="http://en.wooyun.io/2016/02/04/41.html" rel="nofollow">http://en.wooyun.io/2016/02/04/41.html</a></p>
+<div class="translated" id="101360">
+<p>﻿"狗汪汪玩转无线电 -- GPS Hacking (上）， 来自 Wooyun Drops， 作者为 Kevin2600， 英文版：   <a href="https://t.co/2FKSMKNQ5s%C2%A0" rel="nofollow">https://t.co/2FKSMKNQ5s </a> 中文版：   <a href="http://drops.wooyun.org/tips/11155" rel="nofollow">http://drops.wooyun.org/tips/11155</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  Linux Mint ISOs were replaced with trojanized versions : <a href="http://blog.linuxmint.com/?p=2994" rel="nofollow">http://blog.linuxmint.com/?p=2994</a></p>
+<div class="translated" id="101416">
+<p>﻿"Linux Mint 官方 Blog 发表声明： 2 月 20 号下载 Mint ISO 镜像的用户请检查镜像的完整性， 有可能下载到的是黑客修改过的后门版本:   <a href="https://t.co/IsjEKZ7wzA" rel="nofollow">https://t.co/IsjEKZ7wzA</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  Feeling Locky (Ransomware): <a href="http://community.hpe.com/t5/Security-Research/Feeling-Locky/ba-p/6833983#.VsnBylR97qP" rel="nofollow">http://community.hpe.com/t5/Security-Research/Feeling-Locky/ba-p/6833983#.VsnBylR97qP</a></p>
+<div class="translated" id="101418">
+<p>﻿"HP 安全团队对 Locky 勒索软件的应急响应和分析:   <a href="https://t.co/eFRo3qPb4g" rel="nofollow">https://t.co/eFRo3qPb4g</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  n3k @kiqueNissim </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mitigation </i>]  Breaking KASLR with micro architecture Part 1: <a href="http://dreamsofastone.blogspot.com.ar/2016/02/breaking-kasrl-with-micro-architecture.html?m=1" rel="nofollow">http://dreamsofastone.blogspot.com.ar/2016/02/breaking-kasrl-with-micro-architecture.html?m=1</a> by @ anders_fogh</p>
+<div class="translated" id="101369">
+<p>﻿"从 CPU 微体系架构的角度看 KASLR 的对抗， Blog：   <a href="https://t.co/ETa3wwQCCq" rel="nofollow">https://t.co/ETa3wwQCCq</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  argp @_argp </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  All my previous paper notes (in markdown format) are now here: <a href="https://github.com/argp/argp.github.io/tree/master/_posts/paper-notes" rel="nofollow">https://github.com/argp/argp.github.io/tree/master/_posts/paper-notes</a></p>
+<div class="translated" id="101535">
+<p>﻿"argp 以前发表过的一些 Paper 和笔记， Github Repo:   <a href="https://t.co/17USlvoTct" rel="nofollow">https://t.co/17USlvoTct</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Palo Alto Networks @PaloAltoNtwks</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  #ICYMI Actionable Threat Intelligence: The key to efficient and comprehensive #security <a href="http://bit.ly/1OmGmnh" rel="nofollow">http://bit.ly/1OmGmnh</a></p>
+<div class="translated" id="101295">
+<p>﻿"可提供行动决定支撑的威胁情报解决方案， 来自 Palo Alto 产品白皮书：   <a href="https://t.co/7EhpSAD3gR" rel="nofollow">https://t.co/7EhpSAD3gR</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>John Lambert @JohnLaTwC</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Thanks to @ TalBeerySec, @ adamshostack, and Erica E for reviewing my #infosec attack surface post: <a href="http://blogs.technet.com/b/johnla/archive/2016/02/20/how-infosec-security-controls-create-vulnerability.aspx" rel="nofollow">http://blogs.technet.com/b/johnla/archive/2016/02/20/how-infosec-security-controls-create-vulnerability.aspx</a></p>
+<div class="translated" id="101561">
+<p>﻿"信息安全管控本身是如何成为入侵的突破口的， 来自 Technet Blog， 作者为 John Lambert:   <a href="https://t.co/qhBO5SuaSt" rel="nofollow">https://t.co/qhBO5SuaSt</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Vitaly Osipov @agelastic </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Handy "How Google's Web Crawler Bypasses Paywalls" <a href="http://elaineou.com/2016/02/19/how-to-use-chrome-extensions-to-bypass-paywalls/" rel="nofollow">http://elaineou.com/2016/02/19/how-to-use-chrome-extensions-to-bypass-paywalls/</a></p>
+<div class="translated" id="101323">
+<p>﻿"Google 的网站爬虫是如何绕过 Paywalls 的：   <a href="https://t.co/YzYx2h9Cor%C2%A0" rel="nofollow">https://t.co/YzYx2h9Cor </a> Paywall 是一种阻止非付费用户免费阅读的屏蔽系统 "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>J Wolfgang Goerlich @jwgoerlich</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> SecurityProduct </i>]  More insecure security software: Comodo’s on-by-default VNC app <a href="http://arstechnica.com/security/2016/02/more-insecure-security-software-comodos-on-by-default-vnc-app/" rel="nofollow">http://arstechnica.com/security/2016/02/more-insecure-security-software-comodos-on-by-default-vnc-app/</a></p>
+<div class="translated" id="101544">
+<p>﻿"Comodo 安全软件默认安装并启用 VNC 服务， 来自 Ars Technica 的报道：   <a href="https://t.co/zOvOG12Anx%C2%A0" rel="nofollow">https://t.co/zOvOG12Anx </a> Project Zero 的 Issue：    <a href="https://code.google.com/p/google-security-research/issues/detail?id=703%C2%A0" rel="nofollow">https://code.google.com/p/google-security-research/issues/detail?id=703 </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> ThirdParty </i>]  Breaking homegrown crypto : <a href="https://kivikakk.ee/cryptography/2016/02/20/breaking-homegrown-crypto.html" rel="nofollow">https://kivikakk.ee/cryptography/2016/02/20/breaking-homegrown-crypto.html</a></p>
+<div class="translated" id="101414">
+<p>﻿"PHP 框架 CodeIgniter 的加解密模块的破解:   <a href="https://t.co/osR1RSOL73" rel="nofollow">https://t.co/osR1RSOL73</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  mcafee-sitelist-pwd-decryption : Password decryption tool for the McAfee SiteList.xml file : <a href="https://github.com/funoverip/mcafee-sitelist-pwd-decryption" rel="nofollow">https://github.com/funoverip/mcafee-sitelist-pwd-decryption</a> cc: @ funoverip</p>
+<div class="translated" id="101428">
+<p>﻿"mcafee-sitelist-pwd-decryption - McAfee SiteList.xml 文件密码解密工具， Github Repo:   <a href="https://t.co/EfNF7WydMd" rel="nofollow">https://t.co/EfNF7WydMd</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Puzzor @Puzzorsj </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  It is said Microsoft added download prompts in Edge in Windows 10 Redstone 14267. <a href="http://wccftech.com/windows-10-redstone-build-14267-released-with-several-improvements/" rel="nofollow">http://wccftech.com/windows-10-redstone-build-14267-released-with-several-improvements/</a> @ HaifeiLi</p>
+<div class="translated" id="101490">
+<p>﻿"Windows 10 RedStone 14267 版本的 Edge 增加了下载确认提示， 14267 版本修复的 Bug 和新添加的特性：   <a href="https://t.co/tMONmMgOGd" rel="nofollow">https://t.co/tMONmMgOGd</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/02/21/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/02/22/index.html">2016/02/22</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/02/23/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

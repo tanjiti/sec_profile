@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/05/02" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/05/02</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/05/01/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/05/02/index.html">2016/05/02</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/05/03/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Dalvik Virtual Execution with SmaliVM : <a href="http://calebfenton.github.io/2016/04/30/dalvik-virtual-execution-with-smalivm/" rel="nofollow">http://calebfenton.github.io/2016/04/30/dalvik-virtual-execution-with-smalivm/</a></p>
+<div class="translated" id="130258">
+<p>﻿"基于 SmaliVM 的 Dalvik 虚拟执行技术:   <a href="https://t.co/drdBxq1IjE" rel="nofollow">https://t.co/drdBxq1IjE</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> IoTDevice </i>]  Practical Reverse Engineering a Router(Part 2) : <a href="http://jcjc-dev.com/2016/04/29/reversing-huawei-router-2-scouting-firmware/" rel="nofollow">http://jcjc-dev.com/2016/04/29/reversing-huawei-router-2-scouting-firmware/</a> , Part 1 : <a href="http://jcjc-dev.com/2016/04/08/reversing-huawei-router-1-find-uart/" rel="nofollow">http://jcjc-dev.com/2016/04/08/reversing-huawei-router-1-find-uart/</a></p>
+<div class="translated" id="130266">
+<p>﻿"上个月推送过一篇《嵌入式逆向，寻找华为 HG533 路由器的调试端口》：    <a href="https://t.co/ikP0YPvWQ8%C2%A0" rel="nofollow">https://t.co/ikP0YPvWQ8 </a> 这次作者继续写了第二篇 《探索华为路由器的固件》 :   <a href="https://t.co/WcCKZvGG20" rel="nofollow">https://t.co/WcCKZvGG20</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  Inline assembly - Linux Assembly Prg: <a href="https://github.com/0xAX/linux-insides/blob/master/Theory/asm.md" rel="nofollow">https://github.com/0xAX/linux-insides/blob/master/Theory/asm.md</a> //linux-insides* series cont'd cc: @ 0xAX</p>
+<div class="translated" id="130352">
+<p>﻿" Linux Insides 系列文章 - 内联汇编:   <a href="https://t.co/8r1xALs8RZ" rel="nofollow">https://t.co/8r1xALs8RZ</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Network </i>]  Understanding high Mpps DDoS attacks <a href="https://www.incapsula.com/blog/throughput-forwarding-rate-ddos-attacks.html" rel="nofollow">https://www.incapsula.com/blog/throughput-forwarding-rate-ddos-attacks.html</a></p>
+<div class="translated" id="130287">
+<p>﻿"高 Mpps DDoS 攻击中转发率和吞吐量的区别：    <a href="https://t.co/j1IEBkWnCR" rel="nofollow">https://t.co/j1IEBkWnCR</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Giuseppe `N3mes1s` @gN3mes1s</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> OpenSourceProject </i>]  Lavabit code opensourced - <a href="https://github.com/lavabit" rel="nofollow">https://github.com/lavabit</a></p>
+<div class="translated" id="130281">
+<p>﻿"加密电子邮件服务 Lavabit 开源：    <a href="https://t.co/3PYQnsvXdc" rel="nofollow">https://t.co/3PYQnsvXdc</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  How Russia Works on Intercepting Messaging Apps : <a href="https://www.bellingcat.com/news/2016/04/30/russia-telegram-hack/" rel="nofollow">https://www.bellingcat.com/news/2016/04/30/russia-telegram-hack/</a></p>
+<div class="translated" id="130259">
+<p>﻿"俄罗斯是如何劫持消息通讯 APP 的 ︰   <a href="https://t.co/pzo5kp2fOT" rel="nofollow">https://t.co/pzo5kp2fOT</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Design of the RISC-V Instruction Set Architecture : <a href="http://www.eecs.berkeley.edu/~waterman/papers/phd-thesis.pdf" rel="nofollow">http://www.eecs.berkeley.edu/~waterman/papers/phd-thesis.pdf</a> (pdf)</p>
+<div class="translated" id="130299">
+<p>﻿" RISC-V 指令集体系结构设计 ︰   <a href="https://t.co/TVElOhdRY9" rel="nofollow">https://t.co/TVElOhdRY9</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  How to Create a Simple Python WebSocket Server Using Tornado : <a href="https://www.toptal.com/tornado/simple-python-websocket-server#employ-just-quality-engineers-today" rel="nofollow">https://www.toptal.com/tornado/simple-python-websocket-server#employ-just-quality-engineers-today</a></p>
+<div class="translated" id="130305">
+<p>﻿" 利用 Tornado 写一个简单的 Python WebSocket Server︰   <a href="https://t.co/4SOMA8kjmv" rel="nofollow">https://t.co/4SOMA8kjmv</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  EopMon : Elevation of privilege detector based on HyperPlatform : <a href="https://github.com/tandasat/EopMon" rel="nofollow">https://github.com/tandasat/EopMon</a></p>
+<div class="translated" id="130261">
+<p>﻿"EopMon - 基于 Hypervisor 的提权检测工具:   <a href="https://t.co/2Z1LqoB02A" rel="nofollow">https://t.co/2Z1LqoB02A</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  radare @radareorg </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  New blog post: Using Rasm2! <a href="http://radare.today/posts/rasm/" rel="nofollow">http://radare.today/posts/rasm/</a></p>
+<div class="translated" id="130296">
+<p>﻿"逆向分析框架 Radare2 的 RAsm API 介绍：   <a href="https://t.co/fptS2H7C1Y" rel="nofollow">https://t.co/fptS2H7C1Y</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/05/01/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/05/02/index.html">2016/05/02</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/05/03/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

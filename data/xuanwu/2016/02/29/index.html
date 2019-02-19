@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/02/29" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/02/29</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/02/28/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/02/29/index.html">2016/02/29</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/03/01/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  rotlogix @rotlogix </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  [Blog] Remote Code Execution in the Baidu Browser for Android <a href="http://bit.ly/1oP2KRS" rel="nofollow">http://bit.ly/1oP2KRS</a> #android #mobile #security</p>
+<div class="translated" id="104195">
+<p>﻿"百度 Android 浏览器 RCE， 来自 Lifeform-Labs Blog:    <a href="https://t.co/yLU5UjBrqD" rel="nofollow">https://t.co/yLU5UjBrqD</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  reddit 보안 봇 @reddit_sec_bot </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Fuzzing </i>]  [ReverseEngineering]Quick introduction into SAT/SMT solvers and symbolic execution <a href="http://yurichev.com/tmp/SAT_SMT_DRAFT.pdf" rel="nofollow">http://yurichev.com/tmp/SAT_SMT_DRAFT.pdf</a></p>
+<div class="translated" id="104164">
+<p>﻿"SAT/SMT 求解器和符号执行介绍：   <a href="https://t.co/qzyEb91Vev" rel="nofollow">https://t.co/qzyEb91Vev</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Abdulrhman Alqabandi @Qab </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Fuzzing </i>]  Little HTML event attributes fuzzer - <a href="http://pastebin.com/AayLzNyB" rel="nofollow">http://pastebin.com/AayLzNyB</a> - #chrome and #firefox only</p>
+<div class="translated" id="104190">
+<p>﻿"HTML 事件属性 fuzzer， 只支持 Chrome 和 Firefox， 来自 Pastebin：    <a href="https://t.co/y2p6q6n3JC" rel="nofollow">https://t.co/y2p6q6n3JC</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Landon Fuller @landonfuller </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mac OS X </i>]  Apple blacklisted their own enet driver in a silent security update, SIP prevents fixing: <a href="http://forums.macrumors.com/threads/software-update-031-51913-will-break-your-ethernet-driver.1958521/" rel="nofollow">http://forums.macrumors.com/threads/software-update-031-51913-will-break-your-ethernet-driver.1958521/</a> <a href="https://t.co/i8YIfs6jhf" rel="nofollow">https://t.co/i8YIfs6jhf</a></p>
+<div class="translated" id="104054">
+<p>﻿"Apple 在一次静默安全更新中拉黑了以太网网卡驱动:   <a href="https://t.co/PJQ0q5WEK4%C2%A0" rel="nofollow">https://t.co/PJQ0q5WEK4 </a> <a href="https://t.co/i8YIfs6jhf" rel="nofollow">https://t.co/i8YIfs6jhf</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CcPviuDUkAAleS1.jpg" target="_blank">
+<img src="CcPviuDUkAAleS1.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  Coding python malware <a href="http://www.primalsecurity.net/0xc-python-tutorial-python-malware/" rel="nofollow">http://www.primalsecurity.net/0xc-python-tutorial-python-malware/</a></p>
+<div class="translated" id="104094">
+<p>﻿"如何用 Python 和 PyInstaller 编写 Windows 恶意代码， Blog：   <a href="https://t.co/Fi0e0vXQYG" rel="nofollow">https://t.co/Fi0e0vXQYG</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Jóseph Mlodzìanowskì @cedoxX</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Network </i>]  Google Project Shield DoS Mitigation Service Is Free to News Sites <a href="http://mobile.eweek.com/security/google-project-shield-dos-mitigation-service-is-free-to-news-sites.html" rel="nofollow">http://mobile.eweek.com/security/google-project-shield-dos-mitigation-service-is-free-to-news-sites.html</a></p>
+<div class="translated" id="104083">
+<p>﻿"Google Shield（盾牌）项目免费为新闻网站提供 DoS 攻击缓解服务：   <a href="https://t.co/Sr9oJKpVPZ" rel="nofollow">https://t.co/Sr9oJKpVPZ</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Rust Language @rustlang </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  ASM.JS code Using Rust and Emscripten <a href="http://ashleysommer.com.au/how-to/articles/asm-js-code-using-rust-and-emscripten" rel="nofollow">http://ashleysommer.com.au/how-to/articles/asm-js-code-using-rust-and-emscripten</a></p>
+<div class="translated" id="104307">
+<p>﻿"通过 Rust 语言和 Emscripten 编译器生成 Asm.js 代码， Blog：   <a href="https://t.co/P6hOe6Z6JU" rel="nofollow">https://t.co/P6hOe6Z6JU</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Pentest </i>]  Getting Domain Admin with Kerberos Unconstrained Delegation <a href="http://www.labofapenetrationtester.com/2016/02/getting-domain-admin-with-kerberos-unconstrained-delegation.html" rel="nofollow">http://www.labofapenetrationtester.com/2016/02/getting-domain-admin-with-kerberos-unconstrained-delegation.html</a></p>
+<div class="translated" id="104264">
+<p>﻿"通过 Kerberos Unconstrained Delegation 获取域管理权限：   <a href="https://t.co/WxxrtdoOEI%C2%A0" rel="nofollow">https://t.co/WxxrtdoOEI </a> 关于 Kerberos Unconstrained Delegation， 参考微软的文档：   <a href="https://technet.microsoft.com/en-us/library/cc995228.aspx" rel="nofollow">https://technet.microsoft.com/en-us/library/cc995228.aspx</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  yappare @yappare </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  A Quite Rare MSSQL Injection <a href="http://c0rni3sm.blogspot.com/2016/02/a-quite-rare-mssql-injection.html" rel="nofollow">http://c0rni3sm.blogspot.com/2016/02/a-quite-rare-mssql-injection.html</a> #bugbounty</p>
+<div class="translated" id="104077">
+<p>﻿"一个非常罕见的 MSSQL 注入漏洞案例， Blog：   <a href="https://t.co/bMex3axfwV" rel="nofollow">https://t.co/bMex3axfwV</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Ptrace Security GmbH @ptracesecurity </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> ThirdParty </i>]  OpenSSL CVE-2016-0799: heap corruption via BIO_printf <a href="https://guidovranken.wordpress.com/2016/02/27/openssl-cve-2016-0799-heap-corruption-via-bio_printf/" rel="nofollow">https://guidovranken.wordpress.com/2016/02/27/openssl-cve-2016-0799-heap-corruption-via-bio_printf/</a> #exploitdev #hacking #infosec <a href="https://t.co/Qk1RDUnJaP" rel="nofollow">https://t.co/Qk1RDUnJaP</a></p>
+<div class="translated" id="104371">
+<p>﻿"OpenSSL BIO_printf 堆破坏漏洞（CVE-2016-0799）:    <a href="https://t.co/2FhLdGR7Kb" rel="nofollow">https://t.co/2FhLdGR7Kb</a> 修复后的版本还没有发布， Github 上的代码 Patch：   <a href="https://github.com/openssl/openssl/commit/9cb177301fdab492e4cfef376b28339afe3ef663%C2%A0" rel="nofollow">https://github.com/openssl/openssl/commit/9cb177301fdab492e4cfef376b28339afe3ef663 </a> <a href="https://t.co/Qk1RDUnJaP" rel="nofollow">https://t.co/Qk1RDUnJaP</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CcVS1G_WoAAuhKR.jpg" target="_blank">
+<img src="CcVS1G_WoAAuhKR.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  TROOPERS Conference @WEareTROOPERS </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Virtualization </i>]  Xen XSA 155: Double fetches in paravirtualized devices <a href="https://www.insinuator.net/2015/12/xen-xsa-155-double-fetches-in-paravirtualized-devices/" rel="nofollow">https://www.insinuator.net/2015/12/xen-xsa-155-double-fetches-in-paravirtualized-devices/</a> &lt; @ _fel1x to provide demo &amp; PoC at @ SyScan &amp; @ InfiltrateCon</p>
+<div class="translated" id="104147">
+<p>﻿"Xen XSA 155 - XEN 半虚拟化设备 Double Fetch 漏洞：   <a href="https://t.co/Ne9KquDSYt" rel="nofollow">https://t.co/Ne9KquDSYt</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Sergey Belov @sergeybelove </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Web Security </i>]  21 0day XSS on yahoo - <a href="https://blog.sergeybelove.ru/2016/02/21-0day-xss-on-yahoo-after-1-year/" rel="nofollow">https://blog.sergeybelove.ru/2016/02/21-0day-xss-on-yahoo-after-1-year/</a> (just want to write someting to my blog again, lol)</p>
+<div class="translated" id="104066">
+<p>﻿"Yahoo XSS 0Day， 影响 21 个域名， 都两年了还没有修复：   <a href="https://t.co/GEc2AuvURq" rel="nofollow">https://t.co/GEc2AuvURq</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/02/28/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/02/29/index.html">2016/02/29</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/03/01/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

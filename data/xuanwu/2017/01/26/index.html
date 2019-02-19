@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/01/26" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/01/26</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/01/25/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/01/26/index.html">2017/01/26</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/01/27/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  ZDI-17-054: Apple Safari SearchInputType Type Confusion Remote Code Execution Vulnerability <a href="http://www.zerodayinitiative.com/advisories/ZDI-17-054/" rel="nofollow">http://www.zerodayinitiative.com/advisories/ZDI-17-054/</a></p>
+<div class="translated" id="232718">
+<p>﻿"ZDI-17-054: Apple Safari SearchInputType Type Confusion Remote Code Execution Vulnerability：   <a href="https://t.co/jmI1DR11ms" rel="nofollow">https://t.co/jmI1DR11ms</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Project Zero Bugs @ProjectZeroBugs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  iOS/MacOS kernel UaF due to lack of locking in host_self_trap <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1034" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1034</a></p>
+<div class="translated" id="233059">
+<p>﻿"iOS/MacOS kernel UaF due to lack of locking in host_self_trap，来自 Project Zero：   <a href="https://t.co/8FdFpRatbH" rel="nofollow">https://t.co/8FdFpRatbH</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Kevin Jones @vcsjones </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  iOS 10.3 will will stop trusting SHA1 certificates issued by CAs in the default trust store. <a href="http://www.redmondpie.com/ios-10.3-release-notes-changelog-whats-new-according-to-apple/" rel="nofollow">http://www.redmondpie.com/ios-10.3-release-notes-changelog-whats-new-according-to-apple/</a></p>
+<div class="translated" id="232651">
+<p>﻿"iOS 10.3 将不再信任默认证书列表中 CA 颁发的 SHA1 证书：   <a href="https://t.co/0pEl2TP3C6" rel="nofollow">https://t.co/0pEl2TP3C6</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Project Zero Bugs @ProjectZeroBugs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> macOS </i>]  MacOS kernel use after free due to bad reference counting when creating new user clients <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=975" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=975</a></p>
+<div class="translated" id="233061">
+<p>﻿"MacOS 内核在 create user client 时因引用计数错误存在一个 UAF 漏洞，来自 Project Zero：   <a href="https://t.co/7pKMmSoaoG" rel="nofollow">https://t.co/7pKMmSoaoG</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Wandering Glitch @WanderingGlitch</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> macOS </i>]  macOS 10.12.3 source is out: <a href="https://opensource.apple.com/release/macos-10123.html" rel="nofollow">https://opensource.apple.com/release/macos-10123.html</a></p>
+<div class="translated" id="232889">
+<p>﻿"macOS 10.12.3 源码公开︰   <a href="https://t.co/jkNzkvhXBZ" rel="nofollow">https://t.co/jkNzkvhXBZ</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Cesar Cerrudo @cesarcer </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mitigation </i>]  Cool blog post "Harmful prefetch on Intel" <a href="http://blog.ioactive.com/2017/01/harmful-prefetch-on-intel.html" rel="nofollow">http://blog.ioactive.com/2017/01/harmful-prefetch-on-intel.html</a> by @ kiqueNissim @ IOActive #kernelhacking</p>
+<div class="translated" id="232893">
+<p>﻿" Harmful prefetch on Intel - Intel 的 Prefetch 指令可以被用于 Bypass ASLR：   <a href="https://t.co/SqyaOFuNxZ%C2%A0" rel="nofollow">https://t.co/SqyaOFuNxZ </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Dave dwizzzle Weston @dwizzzleMSFT</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  New blog, detecting targeted attacks from #BARIUM and #LEAD in #WDATP <a href="https://blogs.technet.microsoft.com/mmpc/2017/01/25/detecting-threat-actors-in-recent-german-industrial-attacks-with-windows-defender-atp/" rel="nofollow">https://blogs.technet.microsoft.com/mmpc/2017/01/25/detecting-threat-actors-in-recent-german-industrial-attacks-with-windows-defender-atp/</a></p>
+<div class="translated" id="232901">
+<p>﻿"通过 Windows Defender ATP 检测最近德国 winnti 背后的攻击者：   <a href="https://t.co/T5tEutphIq" rel="nofollow">https://t.co/T5tEutphIq</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  This book reads you - exploiting services and readers that support the ePub book format  <a href="https://s1gnalcha0s.github.io/epub/2017/01/25/This-book-reads-you.html" rel="nofollow">https://s1gnalcha0s.github.io/epub/2017/01/25/This-book-reads-you.html</a></p>
+<div class="translated" id="232925">
+<p>﻿"This book reads you - 攻击支持 ePub 格式的服务和阅读器：   <a href="https://t.co/utw3AGRCtJ" rel="nofollow">https://t.co/utw3AGRCtJ</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  Oracle WebLogic RMI Registry UnicastRef Object Deserialization of Untrusted Data Remote Code Execution Vulnerability <a href="http://www.zerodayinitiative.com/advisories/ZDI-17-055/" rel="nofollow">http://www.zerodayinitiative.com/advisories/ZDI-17-055/</a></p>
+<div class="translated" id="232719">
+<p>﻿"Oracle WebLogic RMI Registry UnicastRef Object Deserialization of Untrusted Data Remote Code Execution Vulnerability，来自 ZDI：   <a href="https://t.co/PwVkPk9WNk" rel="nofollow">https://t.co/PwVkPk9WNk</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Florian Roth @cyb3rops </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Glazier
+automating the installation of the Microsoft Windows operating system on various device platforms
+by @Google <a href="https://t.co/njxKsteGnJ" rel="nofollow">https://t.co/njxKsteGnJ</a></p>
+<div class="translated" id="232713">
+<p>﻿"glazier - 在各设备平台自动化安装 Windows 操作系统的工具：   <a href="https://t.co/njxKsteGnJ" rel="nofollow">https://t.co/njxKsteGnJ</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  buherator @buherator </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Web Security </i>]  CVE-2016-9838 - Joomla! Account Takeover and RCE writeup <a href="https://www.ambionics.io/blog/cve-2016-9838-joomla-account-takeover-and-remote-code-execution" rel="nofollow">https://www.ambionics.io/blog/cve-2016-9838-joomla-account-takeover-and-remote-code-execution</a></p>
+<div class="translated" id="233057">
+<p>﻿"Joomla CVE-2016-9838 用户提权漏洞的分析：   <a href="https://t.co/9zjcCXaSRj" rel="nofollow">https://t.co/9zjcCXaSRj</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/01/25/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/01/26/index.html">2017/01/26</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/01/27/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

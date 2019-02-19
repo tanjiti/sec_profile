@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/05/10" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/05/10</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+    color: #a7a7a7;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+
+
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 15px;
+    /*color: #a7a7a7;*/
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedheader{
+
+}
+
+.singlefeedlogo{
+    float: left;
+    /*width: 24px;*/
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.singlefeedlogo img{
+    float: left;
+    width: 13px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+
+    /*width: 80%;
+    height: 80%;*/
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.singlefeedtext p{
+    font-size: 15px;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        //console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        //console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            //console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/09/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/10/index.html">2017/05/10</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/11/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Manuel Caballero @magicmac2000</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  MS Edge - Spoofing the Malware Page was patched today *and bypassed* again. Spoof the user again! (1 byte change) ?… <a href="https://twitter.com/i/web/status/862063751742337024" rel="nofollow">https://twitter.com/i/web/status/862063751742337024</a></p>
+<div class="translated" id="276491">
+<p>" 
+Edge 浏览器 SmartScreen 警告页欺骗，可以绕过今天的补丁：   <a href="https://www.cracking.com.ar/demos/edgesmartscreen/patch-bypass-2.html" rel="nofollow">https://www.cracking.com.ar/demos/edgesmartscreen/patch-bypass-2.html</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Hossein Lotfi @hosselot </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Details of CVE-2016-9066 exploitation: a Cross-mmap Overflow in Firefox:
+<a href="https://saelo.github.io/posts/firefox-script-loader-overflow.html" rel="nofollow">https://saelo.github.io/posts/firefox-script-loader-overflow.html</a></p>
+<div class="translated" id="276288">
+<p>" CVE-2016-9066 漏洞分析： Firefox 中的 Cross-mmap 溢出的漏洞：   <a href="https://t.co/m5dtryqb9p" rel="nofollow">https://t.co/m5dtryqb9p</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  David das Neves @david_das_neves </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Conference </i>]  Powershell Conference Europe 2017 Material #PSConfEU <a href="https://github.com/psconfeu/2017" rel="nofollow">https://github.com/psconfeu/2017</a></p>
+<div class="translated" id="276283">
+<p>" Powershell Conference Europe 2017 Material ：   <a href="https://github.com/psconfeu/2017" rel="nofollow">https://github.com/psconfeu/2017</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Fuzzing </i>]  Fuzzing Apache httpd server with American Fuzzy Lop + persistent mode (+2k exec/sec) <a href="https://animal0day.blogspot.co.uk/2017/05/fuzzing-apache-httpd-server-with.html" rel="nofollow">https://animal0day.blogspot.co.uk/2017/05/fuzzing-apache-httpd-server-with.html</a></p>
+<div class="translated" id="276297">
+<p>" 利用 AFL Fuzz Apache httpd server： 
+  <a href="https://animal0day.blogspot.co.uk/2017/05/fuzzing-apache-httpd-server-with.html" rel="nofollow">https://animal0day.blogspot.co.uk/2017/05/fuzzing-apache-httpd-server-with.html</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Project Zero Bugs @ProjectZeroBugs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mobile </i>]  LG: Bad alloca calls in liblg_parser_mkv.so <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1102" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1102</a></p>
+<div class="translated" id="276186">
+<p>" 
+Project Zero 公开了 LG Android 手机 mkvparser 的 3 个漏洞：  1）   <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1102%C2%A0" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1102 </a> 2）   <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1124%C2%A0" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1124 </a> 3）   <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1117%C2%A0" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1117 </a> 
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Jun LI @bravo_fighter </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mobile </i>]  We have found vulnerabilities in 3G&amp;amp;4G cellular networks, we can reset your bank passwords by hijacking/interceptin… <a href="https://t.co/ySUPb5doHF" rel="nofollow">https://t.co/ySUPb5doHF</a></p>
+<div class="translated" id="276204">
+<p>" 
+360 的研究员公开了一段视频，展示 3G&amp;4G 蜂窝网络的漏洞，称可以劫持短信和语音呼叫：   <a href="https://twitter.com/i/web/status/859617047881363456" rel="nofollow">https://twitter.com/i/web/status/859617047881363456</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Guillaume Delugré @lapinhib0u </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  IDA script for understanding ARM coprocessor instructions <a href="https://github.com/gdelugre/ida-arm-system-highlight" rel="nofollow">https://github.com/gdelugre/ida-arm-system-highlight</a></p>
+<div class="translated" id="276381">
+<p>"  ida-arm-system-highlight - 用于高亮显示并解码 ARM 系统指令的 IDA 脚本：   <a href="https://github.com/gdelugre/ida-arm-system-highlight" rel="nofollow">https://github.com/gdelugre/ida-arm-system-highlight</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Matthew Risck @Mateusz_Jozef </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  DOUBLEPULSAR Usermode Analysis: Generic Reflective DLL Loader <a href="https://countercept.com/our-thinking/doublepulsar-usermode-analysis-generic-reflective-dll-loader/" rel="nofollow">https://countercept.com/our-thinking/doublepulsar-usermode-analysis-generic-reflective-dll-loader/</a></p>
+<div class="translated" id="276446">
+<p>" 
+ShadowBrokers DOUBLEPULSAR 用户态 Shellcode 分析：   <a href="https://countercept.com/our-thinking/doublepulsar-usermode-analysis-generic-reflective-dll-loader/" rel="nofollow">https://countercept.com/our-thinking/doublepulsar-usermode-analysis-generic-reflective-dll-loader/</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Nikhil Mittal @nikhil_mitt </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Pentest </i>]  [Blog]
+Abusing DNSAdmins privilege for escalation in Active Directory. #RedTeam #ActiveDirectory… <a href="https://t.co/EL13AoAzUK" rel="nofollow">https://t.co/EL13AoAzUK</a></p>
+<div class="translated" id="276410">
+<p>" 在域环境中滥用 DNSAdmins 以实现权限提升：   <a href="http://www.labofapenetrationtester.com/2017/05/abusing-dnsadmins-privilege-for-escalation-in-active-directory.html" rel="nofollow">http://www.labofapenetrationtester.com/2017/05/abusing-dnsadmins-privilege-for-escalation-in-active-directory.html</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Threatpost @threatpost</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> SecurityReport </i>]  Adobe patches seven critical vulnerabilities in Flash, AEM - <a href="http://bit.ly/2pvIOnM" rel="nofollow">http://bit.ly/2pvIOnM</a> #PatchTuesday</p>
+<div class="translated" id="276331">
+<p>"  Adobe 发布漏洞公告，本次修复了 Flash 和 AEM 中的共 8 个漏洞，其中7个是高危漏洞：   <a href="https://threatpost.com/adobe-patches-seven-critical-vulnerabilities-in-flash-aem/125539/" rel="nofollow">https://threatpost.com/adobe-patches-seven-critical-vulnerabilities-in-flash-aem/125539/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Dave dwizzzle Weston @dwizzzleMSFT</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> SecurityReport </i>]  Windows Offensive Security Team crushing patch Tuesday again with SMB RCEs <a href="https://portal.msrc.microsoft.com/en-us/security-guidance/acknowledgments" rel="nofollow">https://portal.msrc.microsoft.com/en-us/security-guidance/acknowledgments</a></p>
+<div class="translated" id="276393">
+<p>" 
+微软发布本月的漏洞补丁，公告信息：   <a href="https://portal.msrc.microsoft.com/en-us/security-guidance%C2%A0" rel="nofollow">https://portal.msrc.microsoft.com/en-us/security-guidance </a> 漏洞致谢信息：   <a href="https://portal.msrc.microsoft.com/en-us/security-guidance/acknowledgments" rel="nofollow">https://portal.msrc.microsoft.com/en-us/security-guidance/acknowledgments</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  ? Benjamin Delpy @gentilkiwi </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Just updated #mimilib (&amp;lt;33k)
+Security Package, Password Filter, DNS Srv Plugin, DHCP Srv Callout &amp;amp; WindDBG extensio… <a href="https://t.co/AV0hRUIS2u" rel="nofollow">https://t.co/AV0hRUIS2u</a></p>
+<div class="translated" id="276144">
+<p>"  mimilib 现已支持 DHCP Callout、DNS Plugin、Coffee 等功能：   <a href="https://github.com/gentilkiwi/mimikatz/commit/22eaf29e75a0da2628991d7efdaf68563ce0b340" rel="nofollow">https://github.com/gentilkiwi/mimikatz/commit/22eaf29e75a0da2628991d7efdaf68563ce0b340</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Tavis Ormandy @taviso</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Remotely Exploitable Type Confusion in Windows 8, 10, Windows Server and more found by @ natashenka and me <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1252" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1252</a></p>
+<div class="translated" id="276085">
+<p>" 
+关于昨天推送中提到的 Tavis 发现的"近期最严重"的漏洞。该漏洞存在于微软的反病毒引擎（MsMpEng）中，是个远程可以利用的类型混淆漏洞：   <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1252&amp;desc=5%C2%A0%C2%A0" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1252&amp;;desc=5  </a> 微软发布紧急补丁修复次漏洞：   <a href="https://technet.microsoft.com/en-us/library/security/4022344.aspx" rel="nofollow">https://technet.microsoft.com/en-us/library/security/4022344.aspx</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>FireEye @FireEye</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  EPS processing zero-days exploited by multiple threat actors <a href="http://bddy.me/2psJFEH" rel="nofollow">http://bddy.me/2psJFEH</a> #Malware #0days <a href="https://t.co/yr5zq3vYLS" rel="nofollow">https://t.co/yr5zq3vYLS</a></p>
+<div class="translated" id="276399">
+<p>" 微软今天修复的漏洞中，包括 3 个已经在野外利用的 0Day，两个 Office EPS(Encapsulated PostScript) 0Day + 一个 Win32k 提权 0Day，根据这三个 0Day 释放的 Payload 信息，FireEye 怀疑和俄罗斯 Turla、APT28 有关，此次攻击的目标为欧洲外交和军事组织，来自 FireEye 的详细分析：   <a href="https://www.fireeye.com/blog/threat-research/2017/05/eps-processing-zero-days.html" rel="nofollow">https://www.fireeye.com/blog/threat-research/2017/05/eps-processing-zero-days.html</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C_aByZuW0AAnrbI.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/C_aByZuW0AAnrbI.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  James van den Berg @JamesvandenBerg </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  #Microsoft Introducing Project #Sauron – Centralised Storage of Windows Events – Domain Controller Edition… <a href="https://t.co/IyqX6wzkRO" rel="nofollow">https://t.co/IyqX6wzkRO</a></p>
+<div class="translated" id="276151">
+<p>" 
+Project Sauron - 索伦项目，为域环境中的 Windows 事件日志提供中心化地存储管理：   <a href="https://blogs.technet.microsoft.com/russellt/2017/05/09/project-sauron-introduction/" rel="nofollow">https://blogs.technet.microsoft.com/russellt/2017/05/09/project-sauron-introduction/</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Project Zero Bugs @ProjectZeroBugs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  MsMpEng: UIF decoder will spin forever processing sparse blocks <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1248" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1248</a></p>
+<div class="translated" id="276476">
+<p>" 
+Windows 反病毒引擎 MsMpEng 除了昨天的 mpscript 漏洞，还有一个 UIF 图片解码拒绝服务漏洞：   <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1248" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1248</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via Chromium Blog</p> -->
+<p>XuanwuSpider via Chromium Blog</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Browser </i>]  Chrome 浏览器对于扩展的处理一直有个例外情况，扩展（extensions）内嵌的 iframe 会和扩展同属一个进程，所以 iframe 的漏洞将导致特权 API 的泄露。为了解决这个问题，Chrome 56 决定将扩展内嵌 iframe 隔离到独立进程渲染： 
+<a href="https://blog.chromium.org/2017/05/improving-extension-security-with-out.html" rel="nofollow">https://blog.chromium.org/2017/05/improving-extension-security-with-out.html</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via Github</p> -->
+<p>XuanwuSpider via Github</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Industry News </i>]   比特币开源项目 Bitcoin 鼓励开发者尽快支持 libFuzzer，尽早发现安全漏洞： 
+<a href="https://github.com/bitcoin/bitcoin/issues/10364" rel="nofollow">https://github.com/bitcoin/bitcoin/issues/10364</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via mcafee</p> -->
+<p>XuanwuSpider via mcafee</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Vulnerability </i>]   OpenSSL Encrypt-Then-MAC 握手协商拒绝服务漏洞（CVE-2017-3733）： 
+<a href="https://securingtomorrow.mcafee.com/mcafee-labs/vulnerable-openssl-handshake-renegotiation-can-trigger-denial-service/" rel="nofollow">https://securingtomorrow.mcafee.com/mcafee-labs/vulnerable-openssl-handshake-renegotiation-can-trigger-denial-service/</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/09/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/10/index.html">2017/05/10</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/11/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

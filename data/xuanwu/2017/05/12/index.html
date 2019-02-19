@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/05/12" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/05/12</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+    color: #a7a7a7;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+
+
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 15px;
+    /*color: #a7a7a7;*/
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedheader{
+
+}
+
+.singlefeedlogo{
+    float: left;
+    /*width: 24px;*/
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.singlefeedlogo img{
+    float: left;
+    width: 13px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+
+    /*width: 80%;
+    height: 80%;*/
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.singlefeedtext p{
+    font-size: 15px;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        //console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        //console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            //console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/11/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/12/index.html">2017/05/12</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/13/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Francisco Alonso @revskills</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Bug Bounty </i>]  Relaunching Mozilla’s Web Security Bounty Program (RCE critical Sites now $5000) <a href="https://blog.mozilla.org/security/2017/05/11/relaunching-web-bug-bounty-program/" rel="nofollow">https://blog.mozilla.org/security/2017/05/11/relaunching-web-bug-bounty-program/</a></p>
+<div class="translated" id="277305">
+<p>" 
+Mozilla 发起了针对 Web 平台的 Bug Bounty 项目：   <a href="https://blog.mozilla.org/security/2017/05/11/relaunching-web-bug-bounty-program/" rel="nofollow">https://blog.mozilla.org/security/2017/05/11/relaunching-web-bug-bounty-program/</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  THS @__ths__ </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Industry News </i>]  We discovered a keylogger in a  recent HP audio driver package. <a href="https://www.modzero.ch/modlog/archives/2017/05/11/en_keylogger_in_hewlett-packard_audio_driver/index.html" rel="nofollow">https://www.modzero.ch/modlog/archives/2017/05/11/en_keylogger_in_hewlett-packard_audio_driver/index.html</a> -
+ CVE-2017-8360</p>
+<div class="translated" id="277145">
+<p>" 
+惠普(HP)预装的 Audio Driver 驱动套件中被发现了一个 Keylogger 键盘记录程序，至少从 2015 年底就存在了。这个 Keylogger 携带音频芯片厂商 Conexant 的签名。用户可以自己检查一下这个文件是否存在： C:\Windows\System32\MicTray.exe：   <a href="https://www.modzero.ch/modlog/archives/2017/05/11/en_keylogger_in_hewlett-packard_audio_driver/index.html" rel="nofollow">https://www.modzero.ch/modlog/archives/2017/05/11/en_keylogger_in_hewlett-packard_audio_driver/index.html</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  Password stealing malware - OSX/Proton.B broken down and Reverse engineered : <a href="https://www.cybereason.com/labs-proton-b-what-this-mac-malware-actually-does/" rel="nofollow">https://www.cybereason.com/labs-proton-b-what-this-mac-malware-actually-does/</a> cc @ 0xAmit</p>
+<div class="translated" id="277254">
+<p>"  对上次 HandBrake 被攻击事件中安插的恶意软件 - Proton 的详细分析：   <a href="https://www.cybereason.com/labs-proton-b-what-this-mac-malware-actually-does/" rel="nofollow">https://www.cybereason.com/labs-proton-b-what-this-mac-malware-actually-does/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Aleph Research @alephsecurity</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mobile </i>]  OnePlus OTAs: Analysis &amp; Exploitation (CVE-2017-5948, CVE-2017-8850/1, CVE-2016-10370) <a href="https://alephsecurity.com/2017/05/11/oneplus-ota/" rel="nofollow">https://alephsecurity.com/2017/05/11/oneplus-ota/</a></p>
+<div class="translated" id="277326">
+<p>" 
+ OnePlus OTA 升级中的中间人劫持漏洞的分析和利用，影响 OnePlus One/X/2/3/3T：   <a href="https://alephsecurity.com/2017/05/11/oneplus-ota/" rel="nofollow">https://alephsecurity.com/2017/05/11/oneplus-ota/</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Liam Hagan @hagan_23 </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Network </i>]  Domain fronting with PoshC2 - <a href="https://inyour.network/blog/2017/Domain-Fronting-PoshC2/" rel="nofollow">https://inyour.network/blog/2017/Domain-Fronting-PoshC2/</a></p>
+<div class="translated" id="277122">
+<p>" 在 PoshC2 中使用 Domain Fronting 技术隐藏可疑流量传输： <a href="https://inyour.network/blog/2017/Domain-Fronting-PoshC2/" rel="nofollow">https://inyour.network/blog/2017/Domain-Fronting-PoshC2/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Chris Evans @scarybeasts</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> OpenSourceProject </i>]  [blog] [0day] Proving <a href="http://Box.com" rel="nofollow">http://Box.com</a> fixed ASLR via ImageMagick uninitialized zlib stream buffer: <a href="https://scarybeastsecurity.blogspot.com/2017/05/0day-proving-boxcom-fixed-aslr-via.html" rel="nofollow">https://scarybeastsecurity.blogspot.com/2017/05/0day-proving-boxcom-fixed-aslr-via.html</a></p>
+<div class="translated" id="277438">
+<p>" 
+利用 ImageMagick PSD 文件 Decoder 的一个 0Day 验证 Box.com 服务器修复了之前他报告的 ASLR 问题：   <a href="https://scarybeastsecurity.blogspot.com/2017/05/0day-proving-boxcom-fixed-aslr-via.html" rel="nofollow">https://scarybeastsecurity.blogspot.com/2017/05/0day-proving-boxcom-fixed-aslr-via.html</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Security Assessment of OpenVPN <a href="http://blog.quarkslab.com/security-assessment-of-openvpn.html" rel="nofollow">http://blog.quarkslab.com/security-assessment-of-openvpn.html</a></p>
+<div class="translated" id="277302">
+<p>" 
+ 开源项目 OpenVPN 2.4.0 版本的安全审计报告：   <a href="http://blog.quarkslab.com/security-assessment-of-openvpn.html" rel="nofollow">http://blog.quarkslab.com/security-assessment-of-openvpn.html</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Evilcry_ @Blackmond_</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  How my car insurance exposed my position - <a href="https://www.andreascarpino.it/posts/how-my-car-insurance-exposed-my-position.html" rel="nofollow">https://www.andreascarpino.it/posts/how-my-car-insurance-exposed-my-position.html</a></p>
+<div class="translated" id="277147">
+<p>" 
+汽车保险公司给我的卫星设备实时暴露着我的位置：   <a href="https://www.andreascarpino.it/posts/how-my-car-insurance-exposed-my-position.html" rel="nofollow">https://www.andreascarpino.it/posts/how-my-car-insurance-exposed-my-position.html</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Dawid Golunski @dawid_golunski </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  Another day another #RCE #0day  - #Vanilla Forums 2.3 -Patch it up #infosec 
+Advisory&amp;amp;PoC #exploit at #Exploit_Box… <a href="https://t.co/oIfExshob2" rel="nofollow">https://t.co/oIfExshob2</a></p>
+<div class="translated" id="277277">
+<p>"  Vanilla Forums &lt;= 2.3 无需认证的远程代码执行漏洞的分析与利用（ CVE-2016-10033）：   <a href="https://exploitbox.io/vuln/Vanilla-Forums-Exploit-RCE-0day-Remote-Code-Exec-CVE-2016-10033.html" rel="nofollow">https://exploitbox.io/vuln/Vanilla-Forums-Exploit-RCE-0day-Remote-Code-Exec-CVE-2016-10033.html</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  &amp;#8232; @garethheyes </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Sandbox </i>]  DOM based Angular sandbox escapes <a href="http://blog.portswigger.net/2017/05/dom-based-angularjs-sandbox-escapes.html" rel="nofollow">http://blog.portswigger.net/2017/05/dom-based-angularjs-sandbox-escapes.html</a></p>
+<div class="translated" id="277516">
+<p>" 
+基于 DOM 的 AngularJS 沙箱逃逸：   <a href="http://blog.portswigger.net/2017/05/dom-based-angularjs-sandbox-escapes.html" rel="nofollow">http://blog.portswigger.net/2017/05/dom-based-angularjs-sandbox-escapes.html</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Gixy : Nginx Configuration Static Analyzer (prevents security misconfiguration and automate flaw detection) :  <a href="https://github.com/yandex/gixy" rel="nofollow">https://github.com/yandex/gixy</a></p>
+<div class="translated" id="277258">
+<p>" Gixy - Nginx 配置静态分析工具：   <a href="https://t.co/afq4gb6i9k" rel="nofollow">https://t.co/afq4gb6i9k</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Francisco Alonso @revskills</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  KMSAN (KernelMemorySanitier) <a href="https://github.com/google/kmsan" rel="nofollow">https://github.com/google/kmsan</a></p>
+<div class="translated" id="277386">
+<p>" 
+kmsan（KernelMemorySanitier）- Google 开源的用于检测 Linux 内核未初始化内存漏洞的工具：   <a href="https://github.com/google/kmsan" rel="nofollow">https://github.com/google/kmsan</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  HexRaysPyTools :  An IDAPython framework targeting Hex-Rays and classes/structures : <a href="https://github.com/igogo-x86/HexRaysPyTools" rel="nofollow">https://github.com/igogo-x86/HexRaysPyTools</a></p>
+<div class="translated" id="277212">
+<p>" HexRaysPyTools - IDA 的一个插件，用于辅助创建类/结构体的信息：   <a href="https://github.com/igogo-x86/HexRaysPyTools%C2%A0" rel="nofollow">https://github.com/igogo-x86/HexRaysPyTools </a> <a href="https://github.com/igogo-x86/HexRaysPyTools/blob/master/zeronights_2016.pptx" rel="nofollow">https://github.com/igogo-x86/HexRaysPyTools/blob/master/zeronights_2016.pptx</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Blue Frost Security @bluefrostsec </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Windows 10 HAL’s Heap – Extinction of the "HalpInterruptController" Table Exploitation Technique by @NicoEconomou <a href="https://t.co/yG1ss5ho5k" rel="nofollow">https://t.co/yG1ss5ho5k</a></p>
+<div class="translated" id="277160">
+<p>" 
+Windows 10 Creators Update 版本开始，基于固定地址（0xffd00000）的 HalpInterruptController Table 利用技术绝迹了，这个地址开始随机了：   <a href="https://labs.bluefrostsecurity.de/blog/2017/05/11/windows-10-hals-heap-extinction-of-the-halpinterruptcontroller-table-exploitation-technique/" rel="nofollow">https://labs.bluefrostsecurity.de/blog/2017/05/11/windows-10-hals-heap-extinction-of-the-halpinterruptcontroller-table-exploitation-technique/</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  netbiosX @netbiosX </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  [New Post] AppLocker Bypass - Script Rules <a href="https://pentestlab.blog/2017/05/11/applocker-bypass-regsvr32/" rel="nofollow">https://pentestlab.blog/2017/05/11/applocker-bypass-regsvr32/</a> #pentestlab #pentest #regsvr32</p>
+<div class="translated" id="277172">
+<p>"  利用 Regsvr32 绕过 Applocker 的限制策略 ：   <a href="https://pentestlab.blog/2017/05/11/applocker-bypass-regsvr32/" rel="nofollow">https://pentestlab.blog/2017/05/11/applocker-bypass-regsvr32/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via azure.microsoft.com</p> -->
+<p>XuanwuSpider via azure.microsoft.com</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Others </i>]   微软 Azure Cosmos 分布式数据库服务的技术概览： 
+<a href="https://azure.microsoft.com/en-us/blog/a-technical-overview-of-azure-cosmos-db/" rel="nofollow">https://azure.microsoft.com/en-us/blog/a-technical-overview-of-azure-cosmos-db/</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/11/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/12/index.html">2017/05/12</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/13/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

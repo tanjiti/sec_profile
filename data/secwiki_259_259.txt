@@ -1,0 +1,57 @@
+20190211	事件	https://nosec.org/home/detail/2234.html	暗网出现大量疑似中国大陆航空客户数据售卖	nosec.org	nosec.org	/home/detail/2234.html
+20190211	新闻	https://www.kiwisec.com/news/detail/5c613ef0c649181e28b81d9a.html	关于开展支付安全风险专项排查工作的通知-解读	kiwisec.com	www.kiwisec.com	/news/detail/5c613ef0c649181e28b81d9a.html
+20190211	新闻	https://www.aqniu.com/industry/43694.html	从RSA 2019创新沙盒“十强”看网络安全技术动向	aqniu.com	www.aqniu.com	/industry/43694.html
+20190211	文档	https://pan.baidu.com/share/init?surl=zMFI4l0DemcPBowgNY3tDA	2018网安领域重磅报告全集 提取码: 8hai	baidu.com	pan.baidu.com	/share/init
+20190211	数据挖掘	https://github.com/LinXueyuanStdio/PythonDataMining	Python数据挖掘与实战	github.com	github.com	/LinXueyuanStdio/PythonDataMining
+20190211	运维安全	https://mp.weixin.qq.com/s/mSikxVFvrsGnl6Eflbx1GQ	Tide(潮汐)网络空间探测平台检索思路分享	qq.com	mp.weixin.qq.com	/s/mSikxVFvrsGnl6Eflbx1GQ
+20190211	运维安全	https://mp.weixin.qq.com/s/hk8I_93fyS5NWholu6v8_Q	将军令：数据安全平台建设实践	qq.com	mp.weixin.qq.com	/s/hk8I_93fyS5NWholu6v8_Q
+20190211	Web安全	https://www.freebuf.com/vuls/195090.html	邮件钓鱼攻击与溯源	freebuf.com	www.freebuf.com	/vuls/195090.html
+20190211	编程技术	https://nosec.org/home/detail/2241.html	DNSGrep——超快速DNS记录查询	nosec.org	nosec.org	/home/detail/2241.html
+20190211	杂志	https://www.sec-wiki.com/weekly/258	SecWiki周刊（第258期)	sec-wiki.com	www.sec-wiki.com	/weekly/258
+20190211	Web安全	https://nosec.org/home/detail/2233.html	利用Google从公开的Trello面板中的获得大量敏感信息	nosec.org	nosec.org	/home/detail/2233.html
+20190211	Web安全	https://www.exploit-db.com/exploits/46349	CentOS Web Panel 0.9.8.763 存储型 XSS 漏洞披露	exploit-db.com	www.exploit-db.com	/exploits/46349
+20190211	Web安全	https://github.com/vngkv123/aSiagaming/tree/master/Chrome-v8-906043	Chrome V8 中类型错误导致的越界读写漏洞与利用介绍	github.com	github.com	/vngkv123/aSiagaming/tree/master/Chrome-v8-906043
+20190211	Web安全	https://github.com/3gstudent/Pentest-and-Development-Tips	A collection of pentest and development tips	github.com	github.com	/3gstudent/Pentest-and-Development-Tips
+20190211	其它	https://mp.weixin.qq.com/s/OS4iCYjqG7fW2ti9NN9f2w	从生产安全体系视角看数据安全	qq.com	mp.weixin.qq.com	/s/OS4iCYjqG7fW2ti9NN9f2w
+20190211	运维安全	https://shenaniganslabs.io/2019/02/13/Dirty-Sock.html	Ubuntu Linux dirty_sock 本地提权漏洞利用	shenaniganslabs.io	shenaniganslabs.io	/2019/02/13/Dirty-Sock.html
+20190211	比赛	https://www.anquanke.com/post/id/170708	HackIM 2019 Web记录	anquanke.com	www.anquanke.com	/post/id/170708
+20190211	Web安全	https://nosec.org/home/detail/2245.html	如何在不知道MySQL列名的情况下注入出数据？	nosec.org	nosec.org	/home/detail/2245.html
+20190211	Web安全	https://www.linkedin.com/pulse/hacking-youtube-fun-profit-alexandru-coltuneac/	YouTube Studio 两处漏洞详情披露	linkedin.com	www.linkedin.com	/pulse/hacking-youtube-fun-profit-alexandru-coltuneac/
+20190211	恶意分析	https://maxkersten.nl/binary-analysis-course/malware-analysis/lnk-isesteroids-powershell-dropper/	分析银行木马的恶意 LNK 快捷方式及由 ISESteroids 混淆的 Powershell Dropper	maxkersten.nl	maxkersten.nl	/binary-analysis-course/malware-analysis/lnk-isesteroids-powershell-dropper/
+20190211	设备安全	https://www.freebuf.com/articles/wireless/195129.html	我所了解的物联网设备渗透测试手段（硬件篇）	freebuf.com	www.freebuf.com	/articles/wireless/195129.html
+20190211	Web安全	http://www.4hou.com/technology/16125.html	反向RDP攻击：RDP客户端上的代码执行	4hou.com	www.4hou.com	/technology/16125.html
+20190211	Web安全	https://www.exploit-db.com/exploits/46350	Webiness Inventory 2.3 email 参数 SQL 注入漏洞披露	exploit-db.com	www.exploit-db.com	/exploits/46350
+20190211	漏洞分析	https://github.com/c0ny1/xxe-lab	xxe-lab: 各种语言版本的XXE漏洞Demo	github.com	github.com	/c0ny1/xxe-lab
+20190211	恶意分析	https://osandamalith.com/2019/02/11/linux-reverse-engineering-ctfs-for-beginners/	Linux Reverse Engineering CTFs for Beginners	osandamalith.com	osandamalith.com	/2019/02/11/linux-reverse-engineering-ctfs-for-beginners/
+20190211	文档	https://files.alicdn.com/tpsservice/a053a6ea4fdb8140d108f22d6e590063.pdf	2018年云上挖矿分析报告	alicdn.com	files.alicdn.com	/tpsservice/a053a6ea4fdb8140d108f22d6e590063.pdf
+20190211	恶意分析	https://medium.com/@quoscient/ethereum-threat-actors-part-1-dotnet-downloader-using-ethereum-transactions-for-c-c-updates-a6e244d6a402	使用以太坊交易进行 C&C 通信的 .NET 下载者分析	medium.com	medium.com	/@quoscient/ethereum-threat-actors-part-1-dotnet-downloader-using-ethereum-transactions-for-c-c-updates-a6e244d6a402
+20190211	移动安全	https://www.freebuf.com/articles/rookie/195107.html	记一次微信数据库解密过程	freebuf.com	www.freebuf.com	/articles/rookie/195107.html
+20190211	漏洞分析	https://security.tencent.com/index.php/blog/msg/129	拒绝超长函数，从两个curl远程漏洞说起	tencent.com	security.tencent.com	/index.php/blog/msg/129
+20190211	恶意分析	https://blog.malwarebytes.com/threat-analysis/2019/02/exploit-kits-winter-2019-review/	Exploit kits: winter 2019 review	malwarebytes.com	blog.malwarebytes.com	/threat-analysis/2019/02/exploit-kits-winter-2019-review/
+20190211	漏洞分析	https://paper.seebug.org/808/	从 0 开始学 Linux 内核之 android 内核栈溢出 ROP 利用	seebug.org	paper.seebug.org	/808/
+20190211	比赛	https://mp.weixin.qq.com/s/2Mh68gfbG_5gKnoICuRmeA	Byte Cup 2018国际机器学习竞赛夺冠记	qq.com	mp.weixin.qq.com	/s/2Mh68gfbG_5gKnoICuRmeA
+20190211	运维安全	https://mp.weixin.qq.com/s/WHhTZSf0JZK5KVH-o6NAoA	基于通用技术的企业安全运营架构	qq.com	mp.weixin.qq.com	/s/WHhTZSf0JZK5KVH-o6NAoA
+20190211	观点	https://www.freebuf.com/articles/others-articles/195497.html	坚持不懈：历时一年的Cissp备考之路	freebuf.com	www.freebuf.com	/articles/others-articles/195497.html
+20190211	Web安全	https://www.mohamedharon.com/2019/02/ssrf-server-side-request-forgery-in.html	[SSRF] Server Side Request Forgery in a private Program developers.example.com	mohamedharon.com	www.mohamedharon.com	/2019/02/ssrf-server-side-request-forgery-in.html
+20190211	Web安全	https://bugs.chromium.org/p/chromium/issues/detail?id=890576	Google Chrome skia::SkTDPQueue::insert 堆溢出漏洞披露(CVE-2018-18338)	chromium.org	bugs.chromium.org	/p/chromium/issues/detail
+20190211	漏洞分析	https://0x00sec.org/t/point-of-no-c3-linux-kernel-exploitation-part-0/11585	Linux 内核漏洞利用开发教程	0x00sec.org	0x00sec.org	/t/point-of-no-c3-linux-kernel-exploitation-part-0/11585
+20190211	取证分析	https://mp.weixin.qq.com/s/irYv_U1qew33vAf_9lCbFg	Moloch 那些不得不说的事	qq.com	mp.weixin.qq.com	/s/irYv_U1qew33vAf_9lCbFg
+20190211	漏洞分析	https://blog.dragonsector.pl/2019/02/cve-2019-5736-escape-from-docker-and.html	CVE-2019-5736: Escape from Docker and Kubernetes containers to root on host	dragonsector.pl	blog.dragonsector.pl	/2019/02/cve-2019-5736-escape-from-docker-and.html
+20190211	恶意分析	http://www.4hou.com/web/15939.html	GreyEnergy与Zebrocy活动存在交叉	4hou.com	www.4hou.com	/web/15939.html
+20190211	恶意分析	https://mp.weixin.qq.com/s/hKsItaIkwqdbmtvvhG6DYg	APT detection based on machine learning	qq.com	mp.weixin.qq.com	/s/hKsItaIkwqdbmtvvhG6DYg
+20190211	漏洞分析	https://www.talosintelligence.com/reports/TALOS-2018-0714	Acrobat Reader DC 文本字段 comb 属性远程代码执行漏洞披露(CVE-2019-7039)	talosintelligence.com	www.talosintelligence.com	/reports/TALOS-2018-0714
+20190211	漏洞分析	https://vmcall.github.io/reversal/2019/02/10/battleye-anticheat.html	BattlEye anticheat: analysis and mitigation	github.io	vmcall.github.io	/reversal/2019/02/10/battleye-anticheat.html
+20190211	设备安全	http://blog.topsec.com.cn/archives/3711	Tenda n301路由器固件分析	topsec.com.cn	blog.topsec.com.cn	/archives/3711
+20190211	运维安全	https://github.com/Microsoft/MSRC-Security-Research/blob/master/presentations/2019_02_BlueHatIL/2019_01%20-%20BlueHatIL%20-%20Trends%2C%20challenge%2C%20and%20shifts%20in%20software%20vulnerability%20mitigation.pdf	BlueHat IL 2019 PPT: 软件漏洞缓解机制的趋势、挑战及战略转变	github.com	github.com	/Microsoft/MSRC-Security-Research/blob/master/presentations/2019_02_BlueHatIL/2019_01%20-%20BlueHatIL%20-%20Trends%2C%20challenge%2C%20and%20shifts%20in%20software%20vulnerability%20mitigation.pdf
+20190211	数据挖掘	https://github.com/sophiabiancalatessa/FakeNewsDeepLearning	FakeNewsDeepLearning: Opening the Black-Box of Deep Learning Based Detector	github.com	github.com	/sophiabiancalatessa/FakeNewsDeepLearning
+20190211	漏洞分析	https://tyranidslair.blogspot.com/2019/02/accessing-access-tokens-for-uiaccess.html	Windows Access Tokens UIAccess 属性及绕过 UAC 的方法	blogspot.com	tyranidslair.blogspot.com	/2019/02/accessing-access-tokens-for-uiaccess.html
+20190211	Web安全	https://www.freebuf.com/articles/web/195563.html	为Nginx加入一个使用深度学习的软WAF	freebuf.com	www.freebuf.com	/articles/web/195563.html
+20190211	数据挖掘	https://mp.weixin.qq.com/s/zIvsOB6G4YOnWq669VCqyg	个性化推荐研究进展（可解释性、鲁棒性和公平性）	qq.com	mp.weixin.qq.com	/s/zIvsOB6G4YOnWq669VCqyg
+20190211	漏洞分析	https://nosec.org/home/detail/2246.html	利用谷歌翻译对Facebook和谷歌用户进行钓鱼攻击	nosec.org	nosec.org	/home/detail/2246.html
+20190211	漏洞分析	https://www.ixiacom.com/company/blog/how-use-fuzzing-security-research	How to Use Fuzzing in Security Research	ixiacom.com	www.ixiacom.com	/company/blog/how-use-fuzzing-security-research
+20190211	漏洞分析	https://blog.quarkslab.com/reverse-engineering-a-philips-trimedia-cpu-based-ip-camera-part-2.html	Reverse Engineering a Philips TriMedia CPU based IP camera - Part 2	quarkslab.com	blog.quarkslab.com	/reverse-engineering-a-philips-trimedia-cpu-based-ip-camera-part-2.html
+20190211	漏洞分析	https://www.freebuf.com/vuls/194619.html	Angr AEG：堆溢出之Exploit自动生成	freebuf.com	www.freebuf.com	/vuls/194619.html
+20190211	漏洞分析	https://www.thinkings.org/2019/02/14/github-desktop-mac-2rce.html	Github Desktop RCEx2 for Mac latest Version	thinkings.org	www.thinkings.org	/2019/02/14/github-desktop-mac-2rce.html
+20190211	运维安全	https://www.freebuf.com/news/195452.html	AlienVault-OTX及OTX Endpoint Security使用及介绍	freebuf.com	www.freebuf.com	/news/195452.html
+20190211	文档	https://images.seebug.org/archive/idn-visual-security-deep-thinking.pdf	IDN Visual Security Deep Thinking	seebug.org	images.seebug.org	/archive/idn-visual-security-deep-thinking.pdf
+20190211	移动安全	https://theevilbit.blogspot.com/2019/02/macos-keylogging-through-hid-device.html	macOS - keylogging through HID device interface	blogspot.com	theevilbit.blogspot.com	/2019/02/macos-keylogging-through-hid-device.html

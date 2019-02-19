@@ -1,0 +1,1685 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+
+
+        <script nonce="1623233646" type="text/javascript">
+            window.logs = {
+                pagetime: {}
+            };
+            window.logs.pagetime['html_begin'] = (+new Date());
+        </script>
+        <title>
+ 利用蜜罐采集攻击者行为信息
+</title>
+        
+<style>.radius_avatar{display:inline-block;background-color:#fff;padding:3px;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;overflow:hidden;vertical-align:middle}.radius_avatar img{display:block;width:100%;height:100%;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;background-color:#eee}.rich_media_inner{word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.rich_media_area_primary{padding:20px 16px 12px;background-color:#fafafa}.rich_media_area_primary.voice{padding-top:66px}.rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{color:rgba(0,0,0,0.3);background-color:#fafafa}.rich_media_area_extra{padding:0 16px 24px}.rich_media_extra{padding-top:30px}.mpda_bottom_container .rich_media_extra{padding-top:24px}.mpda_bottom_container .rich_media_extra .mpad_more_list{right:-10px}html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;line-height:1.6}body{-webkit-touch-callout:none;font-family:-apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif;color:#333;background-color:#f2f2f2;letter-spacing:.034em}h1,h2,h3,h4,h5,h6{font-weight:400;font-size:16px}*{margin:0;padding:0}a{color:#576b95;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_title{font-size:22px;line-height:1.4;margin-bottom:14px}@supports(-webkit-overflow-scrolling:touch){.rich_media_title{font-weight:700}}.rich_media_meta_list{margin-bottom:22px;line-height:20px;font-size:0;word-wrap:break-word;word-break:break-all}.rich_media_meta_list em{font-style:normal}.rich_media_meta{display:inline-block;vertical-align:middle;margin:0 10px 10px 0;font-size:15px;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_meta.icon_appmsg_tag{margin-right:4px}.rich_media_meta.meta_tag_text{margin-right:0}.rich_media_meta_primary{display:block;margin-bottom:10px;font-size:15px}.meta_original_tag{padding:0 .5em;font-size:12px;line-height:1.4;background-color:#f2f2f2;color:#888}.meta_enterprise_tag img{width:30px;height:30px!important;display:block;position:relative;margin-top:-3px;border:0}.rich_media_meta_link{color:#576b95}.rich_media_meta_text{color:rgba(0,0,0,0.3)}.rich_media_meta_text.rich_media_meta_split{padding-left:10px}.rich_media_meta_text.rich_media_meta_split:before{position:absolute;top:50%;left:0;margin-top:-6px;content:' ';display:block;border-left:1px solid #888;width:200%;height:130%;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0}.rich_media_meta_text.article_modify_tag{position:relative}.rich_media_meta_nickname{position:relative}.rich_media_thumb_wrp{margin-bottom:6px}.rich_media_thumb_wrp .original_img_wrp{display:block}.rich_media_thumb{display:block;width:100%}.rich_media_content{overflow:hidden;color:#333;font-size:17px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;text-align:justify;position:relative;z-index:0}.rich_media_content *{max-width:100%!important;box-sizing:border-box!important;-webkit-box-sizing:border-box!important;word-wrap:break-word!important}.rich_media_content p{clear:both;min-height:1em}.rich_media_content em{font-style:italic}.rich_media_content fieldset{min-width:0}.rich_media_content .list-paddingleft-2{padding-left:2.2em}.rich_media_content .list-paddingleft-2 .list-paddingleft-2{padding-left:30px}.rich_media_content blockquote{margin:0;padding-left:10px;border-left:3px solid #dbdbdb}img{height:auto!important}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:portrait){.rich_media_area_extra{padding-bottom:34px}}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:landscape){.rich_media_area_primary{padding:20px 60px 15px 60px}.rich_media_area_extra{padding:0 60px 21px 60px}}@media screen and (min-width:1024px){.rich_media_area_primary_inner,.rich_media_area_extra_inner{max-width:677px;margin-left:auto;margin-right:auto}.rich_media_area_primary{padding-top:32px}}.appmsg_share_notice{font-size:16px;color:#888;position:relative;padding:1.25em 0;margin-bottom:1.75em}.appmsg_share_notice:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice_hd{font-weight:700;padding-bottom:.2em}.cell{padding:.8em 0;display:block;position:relative}.cell_hd,.cell_bd,.cell_ft{display:table-cell;vertical-align:middle;word-wrap:break-word;word-break:break-all;white-space:nowrap}.cell_primary{width:2000px;white-space:normal}.flex_cell{padding:10px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.flex_cell_primary{width:100%;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;box-flex:1;flex:1}.original_tool_area{display:block;padding:.75em 1em 0;-webkit-tap-highlight-color:rgba(0,0,0,0);color:#333;border:1px solid #eaeaea;margin:20px 0}.original_tool_area .tips_global{position:relative;padding-bottom:.5em;font-size:15px}.original_tool_area .tips_global:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dbdbdb;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:27px;height:27px;padding:0;margin-right:.5em}.original_tool_area .radius_avatar img{height:100%!important}.original_tool_area .flex_cell_bd{width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal}.original_tool_area .flex_cell_ft{font-size:14px;color:#888;padding-left:1em;white-space:nowrap}.original_tool_area .icon_access:after{content:" ";display:inline-block;height:8px;width:8px;border-width:1px 1px 0 0;border-color:#cbcad0;border-style:solid;transform:matrix(0.71,0.71,-0.71,0.71,0,0);-ms-transform:matrix(0.71,0.71,-0.71,0.71,0,0);-webkit-transform:matrix(0.71,0.71,-0.71,0.71,0,0);position:relative;top:-2px;top:-1px}.rich_media_global_msg{position:fixed;top:0;left:0;right:0;padding:.85em 35px .85em 15px;z-index:2;background-color:#c6e0f8;color:#888;font-size:12px}.rich_media_global_msg .icon_closed{position:absolute;right:15px;top:50%;margin-top:-5px;line-height:300px;overflow:hidden;-webkit-tap-highlight-color:rgba(0,0,0,0);background:transparent url(//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_appmsg_msg_closed_sprite.2x42f400.png) no-repeat 0 0;width:11px;height:11px;vertical-align:middle;display:inline-block;-webkit-background-size:100% auto;background-size:100% auto}.rich_media_global_msg .icon_closed:active{background-position:0 -17px}.rich_media_global_msg.voice{color:#1aad19;background-color:#e8f6e8;padding-left:43.3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.rich_media_global_msg.voice .ic_voice{position:absolute;top:50%;margin-top:-10px;left:15px;display:inline-block;width:13.3px;height:18.3px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAA3CAYAAAB+fggjAAAAAXNSR0IArs4c6QAACb9JREFUaAW9WX9wVMUd3917d5cf/Agp1OTuQgIlQqUoI1JI1Noojg2I+VU7hVrtDDpadRypgzKjU52x09KOdsS20ypSO/WPWttcAqhTOlSoU4FIoRUn0wEZIMndBUkwGEhyv97bfvaS97L77t3lHYUuc+z3935397vf/e4LJZfQnuPPsW0d25ZQzr9mELKSUnIVzHxB/Dh+lBOKf4OEk0FOyQAl/CyltIt5tL29d/V2FzIkLUQ4FA7dwon+KCF0Fee8rBBdS5aSs/D+PUrYbyKtkb9b9BzAlA7CERrqDN1DOH8C8HU57FwSGat6kBGypbcluhMwFj+75XWwemf1vHQqtZ0T3pCtelkp73uJ79s9bT39dqs5HQyFK79jcPIKFErtSgLHjPvQHQB0EFt2hDE2QHU6RMvpkODrw3o50Uk5p3w2N/SlUKhHTNZjskHBz2pi6ylbH22J/k3mOToYCAceIYT/AgYVPhxJQTkMQ792Ez/yQCY8d0fgRl0nj8J2G5z1mvSJ3qCMrYOTb5l0xQFBDIUDjxmcbzUFJnu621/kf/DUmlM9k7RLh4LtwRChxquck0bFCqWjxENuijXF/iXoioNVnZU36wZ5D7PTTCWsWhyp4uFYa+x1k3Y5ezj6oNgtdTVpL0Lo+mhr9BwO0Xib+/bcWYZB35Sdg/sXsOSNV8o5MXK0LfoKYXQDxpJOMZ8L1g8E33JQT6aeQRoJCOJEMxjxfCvSEtlnEq5Uj5h7Ayv2I8U+5w9du/va0oyD896ZV004RQKebIzQ53EQ/jJJubJQhUa2YBXPmqNgy8vPjZ67N+NgMh6/HwSfyURgniwqLvmJif8/+sNrY6O4XV5WxjKMuvHDQOl9uCksHmX0xydWn0hYBJfAgncXzBhNjjZSnX8Fq3ENdmWWUMUhS2Ebv5HrtjDNg/+B5IY4wos0cVukUskqUwj9xfKS2W9GSEwi5QdxFS5BMn54dGzkHkhOy0x18j9COY1O5VxmhGJylIxMjgUTC7WUkfrqJAkQpfuP3nFUElO4WUgwHHza0HU1wG1SGOi0jeSI+kf92hgZlXg0yajBV0gUwri4vqZud/O7PbhxkGiNvM5NWHKV3NN8LGQbuVdDsYIVzOzHOI+ygzYhR/RAxwdbELcPZDEp+Q+2YQcS2L+Zwc4gdSUQS7Oz5BwIKUqWyq5ApEdDsVmhBKaHnHDQVUg1uwKLkkm+USEScsbjId/ra+7fbaMThMHVdpoTjuyxXloqcUg+Eqe4WBb26/5hGXeCkynyfdA9Fo/SQeZlN/StjUQtmgQUFxVnKhyJlAUGOgP13OC3ygxGWZhhSYtkYqIicUHGnWCUluoFz8mzkRzOCf14Wfyikx2ThvQ0B6XZdvhi1QaoAfZHmiMf40xMJmih4BvxWQnbNCD3i/cunoYab4FMQwr5o4zb4Uh9ZMxOM3Fsf91YfPQfOAeLTJrouYc8K3rEII0ikBcKRLTEhUQNuo8E7NSGh4dnyDOFzIioOpxkZdqyXYGSAV2rMYjhIUamkL2ZcANvG+MWWS4DU/parDm2R8AiBj/Bz3IQe14DPKeDRho1hNyonFplhgp/mmaNhpH6s0VVToNFxR7TPcVFJVZdgMG4cNBq0LvRQhyA2vLaMyDrFouTL169KzBlGkEofdnScQYMXBI/raiuXC1fs4wz2iXLI+U0y7gd3tewL41IVhLvmM6X2eWycM7nZ9EEAXWgWDWPpjWg7tx8+IbD4llhNTadTn8XcWgVBphprbhbLQkngJK/ymTdoE/IuDPME5jYSYx1HLn3EH6/B77Rq/m+FG2L3d7X1Pe+kx5kCBJp4G0clDWmAJTD0db+NhO398GO4G3cMDJBbPIY9bShfgyb+OXqMwGPV9rrskFsc6t4fck0GRZPQ5GnZBpO4x/wvrAmKfP+FzjjYF9zn5i58s0ET8MX8hnGc+BxOGnFi8innBg7UUBsFaV6Pt1CeBMrKD73qG8CbPnKUHvg/lzG+tr6DlGWufJkEWQp/tjgyMBJPF+fWrhj4XSZeSlwJgaFIhyioY7gHvS3moYyK6TRO6JN0b0mzd6HOgIbEBK/gp7fzsOBGMLUX2Z+bWvvnb1T3sd2fYFbDgoET8/56UTqKEBrizDIeY1463tae1BGObeq9qrlBtXb4aRcmVvCmOjneFq+UFZW9lJ3Q3fee9lSmgAUBwUNd+N9CPjfTfDHO0pO+z1FK081nfpUoUuIuKPPD322Gav5OMjWBCURRBGN4GH0QCGvxSwHhcFguPLnGEip97AKXd5y39dPN5yOy4PaYXGrjKToRsTMIzg4M+38cZz+LNYWe8qZp1Izh0QlEVLfctMmzNb6gCP4GGxFcij5W7usHT++NjaI4uHpadr0KkbpZvAH7DKw9iRi98lsejbFcQWF2LJ/LvOe6Yl14m5eLavhU8gqkQdlWj5YnOSL+sXNWNFNmKT1NQsLkGAez3zcIHmfj44rKAYUd2Jxcek6HCP1cHD+Ig5DzonZnT3WdOyCWFGukRUIwkGTL069kdYz319MmlOf00EhjKpiWKPku7IiDF9X3RHMecvIsjIsPqdh1ewO3SXLOMF5HRQKvS39h5GNOmVlnZP1Mu4W9pZ5/4TDZh0ybHkt3iKOqcm0OaWDQpB52DZTQfQo+Vtl3C08kQGO2OStYtlGz6CuHJxZO3MPYnHYMsDJVSKpW3ghAOXKsxaPoup86q4c7F7cncSyHZANGen0Shl3C+PSPy/L4qmZ97525aAwiMLgQ8Uwp8tl3C2MASff00KJMRW3GXLtIFbwY1kXp/kaGXcL42AoDqHit6p5JxuuHfQwj1IvIhFO9QhyGk/QpskM/C3Gyo0y3YRdOzgnNOcTHJS0qYgVrBIfLE28gF75ToN3bySfrmsHM68tTo7JxuKJ+PUyPhWcqbQ5XarI+TRlZxQeENcOjitS5dMc5/oqu8F8+ODI4FrEoPVpBTfL8akK2YIc9DCiFAkoyTbUdNSU5XPK5Im/MQPeZOKZnpNdCu6AFOTgrJLZO2FDrogrUjyxPbQ/VOxgWyG9Fn71h6hoJkMC8exlvl8qQg6I66rE1A22Vz6PEuwZExe92CrQtmmU72U+fzQ9K/15XV1dsuudrhlc50t0XX8Izq1TdAh5I9rWf69Mc4ILdlCU9kNDn32ICvZS0wySAY2W+shSUdw6OSXTCtpioSgePZrPeydWTUncstF8MPRw1dFvunFO2CnYQaGEk3cSn8iWYyVeBGoImqtG6RHxQsQfEJVskE+34C22GxOfb8fiY40owtaAJ0qnciTxcvSlE7VfBPX3IQ8lb/U2R3dgBRGu7tt/AYJkZEGv/oaXAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.rich_media_global_msg.voice .icon_more{position:absolute;right:15px;top:50%;margin-top:-6.5px;width:8px;height:13px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAmCAYAAADeB1slAAAAAXNSR0IArs4c6QAAA49JREFUSA2tVk1IVFEUPveOmhQk1ibfvLFZSJtACqJIIpCIoB+imcFV2Z9ZUVnRomgRGFn2i6mFf5XVotCZMYmgIMhlq6BFENFiwjfPAosgFzXOvNu5o3fmeue98Y16F3PP+c453/fu/xCQmvZSWwwJaC0G6P8WND9IoTmbVFRycpqAdgBWkwRo94V960RsPn1aoPpN9RI6CR0WsDWcjAErtUiqTR/S18+HnNcSTv5zYrwDSatVMgLkH6aciwfj79WYW5+OT4xfsyPnBIgvwt872qBW45ZQzaMlJXCfMPJbDQgfRUoIhduVUW2TwArpaWyX+bnYU9JAAH44FaJIccqCW76Ib7NTjhOOvFPN/8q/IvE3cR+npFJgao9rkiSUXjD2GCNqzMnPbNPYjth3mqINlJAvTsk4kiJmWa3eQe8WpxwVzwjwgFFn/CorL29EkY9qovC5CFDrKq7JVoHl6zNTJCf53/lLk78SN/FcbJRx2cZCixC4ZATGXsu4as8YgQjGamN/q5atOotn4K3A1J4BUMbgsh7Wt6sx2bcV4AkjtSPJxkDjRQL0hVwg21zEglSzN+rdKeOybTtFcgK39ajWZDFWr+IZHxfGQ8mV0YA5nMGmDVcCPNcb8R5gYJ1UCWQfp6PFCI4NyZhrAV6EIiHGrPOAB0ImkW2c0la8u8ICc0wUCWrvC1dsw+3TnN6uanDaJ4zeiIfiA9wtWIAX8XspxeA6iuBlaN88hNzCNXk+JwFOuXJYW5tMQmc+EcqgzXGb2n9XFk1NstX5yKczl89JAF+6vRaBM1m5XAu//qkRGrtb8BThTtqH2/V0LmUWwbvsiREw8X0vcJHxxNbjNm3KUuVaMjmPFuWm2CPesHc/kp+yj06hFMhj/PIOOcfVFLk6xZT0G3vMTpmc27MusityZk/OBfKOwA05MPLIDJn3OJldcxTQotpBYOyEXVEWIw/NoInvuHOznSJfVDs0GzneNw9mI+eyOSPQI9phfCqPO38TFhHaFw/Eu/LliNiMESB5w6zkzD05F8mMYJr8mFC263Fa+vAadvXloj4toEcrjlgMjgrQrseHpBcfkm67WD6M6MN6lTWZeoZjyYxGLcB57MGnsEfF3fjU2G189QBpcUqmBLrnSs4504s8GjLxrwm5qYrg3dKFf6x6VbwQ3yOS/wz8+bS0ruwfELaBY2nyoNkn4gvW65GKRn4WForwP+dONHDaOHeZAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.preview_appmsg .rich_media_title{margin-top:2.3em}@media screen and (min-width:1024px){.rich_media_global_msg{position:relative;margin-bottom:32px}.preview_appmsg .rich_media_title.rich_media_title{margin-top:0}}.pages_reset{color:#333;line-height:1.6;font-size:16px;font-weight:400;font-style:normal;text-indent:0;letter-spacing:normal;text-align:left;text-decoration:none;white-space:normal}.weapp_element,.weapp_display_element,.mp-miniprogram{display:block;margin:1em 0}.share_audio_context{margin:16px 0}.weapp_text_link{font-size:17px}.weapp_text_link:before{content:'';display:inline-block;line-height:1;background-size:contain;background-repeat:no-repeat;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAB4RJREFUWAm1WUuMFGUQnn7szL5mdvbh7GwgEQUlS1weiagxxpigiUZeJgY1cMMDcDCGG8GLCWZvxHjh4BWUeDEsejBBEzWYKBBEiHAABBfCMOwsuzvszrvb+v6Zb7amt1ce0Up6qv6q+qq+/rv778dYkUeUqamp5dFodJPv++ts205blpX2PG8I5cTOiLol44zYZ8vl8vFkMnnlUVpZDwPK5/MpIbWrVqttFlLD0jwiBEHIaNbCGKJjQvai+I9Xq9VD8Xg8y9z76QcimM1mu3t6ej4UYh84jtOFxhBNJGxskhp5xIielZ37bHp6+tNUKnWPOYvp+xKcm5t7S4gclKIpFNGzsmjRkBnUOwNbZjQrtfZ2dnZ+vVgd+O1/CVqlUukjIXZYCqZADBuEJIllc4xh61zmaB9s7LDkHkYPwJgX1KEEx8fHO2TmjkjyPgLQmERIAjHajGnyjDGPOfQ3xvvQCz3ZS+sw5hYAsodbWBhNw4SNGCMBnR/MYS60jskhPyaHe7u4W5otmEGZ8v0gx2YsyDE0bc4Wx8glOe2Dn2No2hqPnuiNXC0tM9i4IA5LcksjNm0BNs417aMNAsRom3HoMD8wsu3QF06TIJaSRCJxXrDmamUBrVEYRejDmDY0JEgsLE4f8mkTj6tb1tsRLkEukiBY56Q4rizThI2okaNtjFlUx+Cr1vzIyTMz7uW/ik4mV7Yd24oMDrR5q1Z01Nav6a5yVsLwcvRS4CI1D5ge+MEdQhbgC1yECSQhjMNsYCGMQ2dzFeuLYxOxibuVBec3cpekY7XtWwZK8a75sMajj2yzcsd5BnccM4PCeg/JoQjJwAY4TFgUMeRjXK54kS/H6uR6e1xvw4vJyuNLYh5yrt8s2d//MtV2M1Nyvvo2F9u5LVUSJEJNPPtKrS7XdXdL6GOzG+LYqIJNUiShYyRDjRw2OXnmnntnsmInE663e3u6uHZVZy2ZsH1sa4Y7ant2DBURu3aj6Jz9c9YBVuNRhz6pvwlju1gsPikzaG78CKIxNgh1sAj91MhFztXrRQf2C+vi1Y721tMC/vZYPQb78rWCE8Tr/uCEJyZbrprNAAST4QOAIGj6qBnDGPjZgmeS0gNRc1jD8D1xx+y978/XJh4awl54nHOl8Do6STKoDarxg5gmxpj2yTEwbtZhDvSlKwUzy+lU1NPxFvz8EcSzpnnYXDCD3AtqFtOFGNM+kMBYx+DzPD/y86m8e+7SnBON2v7qlR01ncP6Gg9uriSlGSSAYyTDhl/7bmTK9tXxkj3ydFetL4lTqT5jyIdgTB/0qT9m3R9/zbvT+Yottfw3XuktJxP1Q61rh/QfcuUcHBKmzcIwdCILQE/crVpHj9+JZe7U17hSyau89lJPxYDVD3KJm5qpWWMnJqMIY+nZvKGv/NQT7ebwcicI5RhYiHBLYx30WQxObWNMyQm5Q0cy7ULK6up0/PUj3dWXn48bckEMGrGZkPJ3bhssunLmLR2qXzyIacxitvT2XZm9jABWMEmD6QPJYzILILdyeWf13Y39ZTSEMAeaQpuxZUujHn26fhCPmI6Dmy0OvIE1AyyqfYWiH7n6d9GJxWz/7df7FpBjLjQETag1Me1HPKxXwJfByXeLRViUYGiI3F/NSYr1raPdNoXh594S75nVT1Z/mUz6kAfhGJp2EI887gRy5Bw0M/g7ndQI0gZISJkpyU6WbTm7m8RYELnFkh+ZnK4/qCTiWF4XXtk6X5NkLjX7iz4rh9keAxBODaKNWKrf9Qd627yC3Cm++2m6DbHWYpHI2Im7UfFZqf6oN9DrmAsPWIquH8QjR8dRG2O88JszW56kTwvRYSayOYtD37xdsT8/ejtWq/nWsqXttdXDHdW+RNTHY9Vv5/IuTgPHtfxd7w0V04/V1ziND5IiCeTofsyTw3tRnqyfNY9b8qg1JkktXwo0EKAlg23eO2/2l7/5YaoNTyPYNIFEt6xxr/aVQQ75QTxJkEBYnDFocEKOqYQHVnn+uiCBLji1IBnCBiVZ+U6fv+dmshV7cqpq9fY4/tBg1HtudXe1zeyuRs9fHMRrEvQBQT9smb1Z+YphHljr3cWJF2gB7NOENAhAjrWGP9iIPuZhDOFYa/hD8KOxWOyAweAHEnxpqnvrvyyofbQZg4boZsEcjrUO4mX2Wl6a6jdhQeAtSoJ70YDNoIMFwmJoqImF5Wgf8jHGRhx0Y9vLNzrkNQligPdRuZpHgyDEKIixMPMQow82/dC04YdgzFwdg0+2Uf1OjPzmOYhBQ6xCoYCX9626WDOo9pqNqHUO7IfBy0XxYJ8+UHdiYuJ9AHQT2GGiycHmmLNDkmFY+JCPXrlcbqcMW28/iCNpEcHnt/3SwHzhQiEIG5JAGDYsN8yHGjil5Ir9BKVDa4U5ta/xveagNDCfRBhDQ5JczEaujhHb0FlclMFzLpDTepEEgxijAL6VSCNcPLPw6aa0oSEgTZsx+GFjwyIsenRmZmbkfuQMDj8PKrjjyCHZIw02im7eGokHAQhnFjZ8GAux/+8jOhoFhX9DCIG1EsPfD9jMC5j4/rO/If4BCiyOk7IAfLMAAAAASUVORK5CYII=');vertical-align:middle;font-size:11px;color:#888;margin-right:6px;margin-top:-3px;background-position:center;height:20px;width:20px}.flex_context{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center}.flex_bd{-webkit-box-flex:1;-webkit-flex:1;flex:1;word-wrap:break-word;word-break:break-all}.original_page{background-color:#fff;font-size:16px}.account_info{padding:0 0 20px}.account_info .flex_bd{padding-left:.85em}.radius_avatar.account_avatar{width:40px;height:40px;padding:0}.account_nickname{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;line-height:1.2;color:#576b95;font-size:14px}.account_nickname_inner{font-weight:400;vertical-align:top}.account_desc{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;color:#b2b2b2;font-size:13px;line-height:1.2;padding-top:.3em}.account_desc_inner{display:inline;vertical-align:top}.share_notice{margin-bottom:20px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.share_media{padding-bottom:18px}.original_panel{padding:20px;background-color:#fcfcfc;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;overflow:hidden;position:relative}.original_panel:after{content:" ";border:1px solid #d8d8d8;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;position:absolute;top:0;left:0;width:200%;height:200%;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}.original_panel .original_account{margin-bottom:18px;position:relative;z-index:1}.original_panel .original_account_avatar{width:28px;height:28px;padding:0}.original_panel .original_account_nickname{padding-left:.85em;font-size:15px;color:#576b95}.original_panel_title{font-size:23px;color:#000;margin:0 0 16px}.original_panel_content{color:#333}.original_panel_tool{padding-top:20px;position:relative;z-index:1}.original_cell_nickname{display:inline-block;vertical-align:middle;font-weight:400;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:8em;color:#000}.original_tool_area{padding:1.17em 0;border-width:0;position:relative}.original_tool_area:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:20px;height:20px;margin-right:.2em}.original_tool_area .flex_cell{padding:0;font-size:14px}.original_tool_area .icon_access:after{margin-right:4px;top:0}.preview_appmsg .rich_media_title{margin-top:1.5em}.preview_appmsg .account_info{padding-top:3em}.original_page{background-color:transparent}.account_info{-webkit-tap-highlight-color:rgba(0,0,0,0);outline:0;padding-bottom:20px;font-size:14px}.account_info.appmsg_account_info{padding-bottom:32px}.account_info .radius_avatar img{background-color:transparent}.share_notice{font-size:16px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.original_panel{background-color:#fafafa}.original_panel:after{border-color:#e6e6e6}.original_panel .original_account_avatar{width:30px;height:30px}.original_panel_tool{font-size:14px}.original_panel_tool a{color:#576b95}.original_panel_content{font-size:17px}.share_media{padding-bottom:30px}.icon_appmsg_tag{display:inline-block;vertical-align:middle;padding:0 .5em;font-size:12px;line-height:1.5;background-color:#c3c3c3;color:#fff;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:70%}.icon_appmsg_tag.primary{color:#3bb638;padding:4px .78em;background-color:rgba(9,187,7,0.08);font-size:12px;border-top-left-radius:.95em 50%;-moz-border-radius-topleft:.95em 50%;-webkit-border-top-left-radius:.95em 50%;border-top-right-radius:.95em 50%;-moz-border-radius-topright:.95em 50%;-webkit-border-top-right-radius:.95em 50%;border-bottom-left-radius:.95em 50%;-moz-border-radius-bottomleft:.95em 50%;-webkit-border-bottom-left-radius:.95em 50%;border-bottom-right-radius:.95em 50%;-moz-border-radius-bottomright:.95em 50%;-webkit-border-bottom-right-radius:.95em 50%}.icon_appmsg_tag.default{border:1px solid rgba(0,0,0,0.1);color:rgba(0,0,0,0.3);background-color:transparent;padding:0 .54em;font-size:15px;line-height:1.3;border-top-left-radius:.67em 50%;-moz-border-radius-topleft:.67em 50%;-webkit-border-top-left-radius:.67em 50%;border-top-right-radius:.67em 50%;-moz-border-radius-topright:.67em 50%;-webkit-border-top-right-radius:.67em 50%;border-bottom-left-radius:.67em 50%;-moz-border-radius-bottomleft:.67em 50%;-webkit-border-bottom-left-radius:.67em 50%;border-bottom-right-radius:.67em 50%;-moz-border-radius-bottomright:.67em 50%;-webkit-border-bottom-right-radius:.67em 50%}.rich_media_meta_list .icon_appmsg_tag.default{margin-top:-1px}.icon_appmsg_tag.title_tag{background-color:#d04b4e}.icon_global_tag_wrp{text-align:right;padding-bottom:12px}.icon_global_tag{background-color:rgba(118,118,118,0.16);color:rgba(0,0,0,0.41);line-height:2.2;border-top-left-radius:1em 50%;-moz-border-radius-topleft:1em 50%;-webkit-border-top-left-radius:1em 50%;border-bottom-left-radius:1em 50%;-moz-border-radius-bottomleft:1em 50%;-webkit-border-bottom-left-radius:1em 50%;padding:0 1.8em 0 1.34em;font-size:12px;margin-right:-24px;display:inline-block;vertical-align:top}.global_plain_btn{display:inline-block;vertical-align:middle;padding:0 1em;line-height:2;font-size:14px;-webkit-tap-highlight-color:rgba(0,0,0,0);border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px}.global_plain_btn.primary{color:#1aad19;border:1px solid currentColor}.global_plain_btn.primary:active{color:rgba(26,173,25,0.6)}.wx_video_context{color:#fefefe;position:relative;background-color:#000}.wx_video_thumb,.wx_video_thumb_primary{position:absolute;left:0;width:100%;height:100%!important;top:0}.wx_video_thumb_primary{-webkit-background-size:cover;background-size:cover;background-position:50% 50%;background-repeat:no-repeat}.wx_video_play_btn{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);margin-top:-2px;font-size:0;border-width:0;background-color:transparent;padding:0;outline:0;z-index:2}.wx_video_play_btn:before{content:" ";display:inline-block;width:0;height:0;border-width:14px 0 14px 25px;border-color:transparent transparent transparent #fff;border-style:dotted dotted dotted solid}.wx_video_mask{position:absolute;top:0;left:0;right:0;bottom:0;z-index:1;background-color:rgba(0,0,0,0.5)}.place_audio_area{min-height:100px;background-color:#fdfdfd;display:block;margin:16px 0}.place_music_area{min-height:68px;background-color:#fdfdfd;display:block;margin:17px 0 16px}.rich_media_empty_extra{background-color:#fafafa}.appmsg_skin_default.rich_media_empty_extra{background-color:#fff}.appmsg_skin_default .rich_media_area_primary{background-color:#fff}.appmsg_skin_default .rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{background-color:#fff}.appmsg_style_default .rich_media_tool{padding-top:15px}.rich_media_title_ios{font-weight:700}.read-more__area{margin:30px 0}.read-more__desc{margin-bottom:10px}.read-more__article__extra{font-size:14px;color:rgba(0,0,0,0.5)}.read-more__article__item{margin-bottom:10px}</style>
+<style>
+        </style>
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/pc435ee6.css">
+<![endif]-->
+
+    </head>
+    <body id="activity-detail" class="zh_CN mm_appmsg  appmsg_skin_default appmsg_style_default">
+        
+<script nonce="1623233646" type="text/javascript">
+    var biz = "MjM5OTk4MDE2MA=="||"";
+    var sn = "ccaad8721860582326af1dd8325e019e" || ""|| "";
+    var mid = "2655111862" || ""|| "";
+    var idx = "3" || "" || "";
+    window.__allowLoadResFromMp = true; 
+    
+        
+</script>
+<script nonce="1623233646" type="text/javascript">
+var page_begintime=+new Date,is_rumor="",norumor="";
+1*is_rumor&&!(1*norumor)&&biz&&mid&&(document.referrer&&-1!=document.referrer.indexOf("mp.weixin.qq.com/mp/rumor")||(location.href="http://mp.weixin.qq.com/mp/rumor?action=info&__biz="+biz+"&mid="+mid+"&idx="+idx+"&sn="+sn+"#wechat_redirect"));
+</script>
+<script nonce="1623233646" type="text/javascript">
+var MutationObserver=window.WebKitMutationObserver||window.MutationObserver||window.MozMutationObserver,isDangerSrc=function(t){
+if(t){
+var e=t.match(/http(?:s)?:\/\/([^\/]+?)(\/|$)/);
+if(e&&!/qq\.com(\:8080)?$/.test(e[1])&&!/weishi\.com$/.test(e[1]))return!0;
+}
+return!1;
+},ishttp=0==location.href.indexOf("http://");
+-1==location.href.indexOf("safe=0")&&ishttp&&"function"==typeof MutationObserver&&"mp.weixin.qq.com"==location.host&&(window.__observer_data={
+count:0,
+exec_time:0,
+list:[]
+},window.__observer=new MutationObserver(function(t){
+window.__observer_data.count++;
+var e=new Date,r=[];
+t.forEach(function(t){
+for(var e=t.addedNodes,o=0;o<e.length;o++){
+var n=e[o];
+if("SCRIPT"===n.tagName){
+var i=n.src;
+isDangerSrc(i)&&(window.__observer_data.list.push(i),r.push(n)),!i&&window.__nonce_str&&n.getAttribute("nonce")!=window.__nonce_str&&(window.__observer_data.list.push("inlinescript_without_nonce"),
+r.push(n));
+}
+}
+});
+for(var o=0;o<r.length;o++){
+var n=r[o];
+n.parentNode&&n.parentNode.removeChild(n);
+}
+window.__observer_data.exec_time+=new Date-e;
+}),window.__observer.observe(document,{
+subtree:!0,
+childList:!0
+})),function(){
+if(-1==location.href.indexOf("safe=0")&&Math.random()<.01&&ishttp&&HTMLScriptElement.prototype.__lookupSetter__&&"undefined"!=typeof Object.defineProperty){
+window.__danger_src={
+xmlhttprequest:[],
+script_src:[],
+script_setAttribute:[]
+};
+var t="$"+Math.random();
+HTMLScriptElement.prototype.__old_method_script_src=HTMLScriptElement.prototype.__lookupSetter__("src"),
+HTMLScriptElement.prototype.__defineSetter__("src",function(t){
+t&&isDangerSrc(t)&&window.__danger_src.script_src.push(t),this.__old_method_script_src(t);
+});
+var e="element_setAttribute"+t;
+Object.defineProperty(Element.prototype,e,{
+value:Element.prototype.setAttribute,
+enumerable:!1
+}),Element.prototype.setAttribute=function(t,r){
+"SCRIPT"==this.tagName&&"src"==t&&isDangerSrc(r)&&window.__danger_src.script_setAttribute.push(r),
+this[e](t,r);
+};
+}
+}();
+</script>
+
+        <link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<script nonce="1623233646" type="text/javascript">
+    String.prototype.html = function(encode) {
+        var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&yen;", "¥", "&amp;", "&"];
+        
+		
+		
+		
+		
+        
+        var replaceReverse = ["&", "&amp;", "¥", "&yen;", "<", "&lt;", ">", "&gt;", " ", "&nbsp;", '"', "&quot;", "'", "&#39;"];
+	    var target;
+	    if (encode) {
+	    	target = replaceReverse;
+	    } else {
+	    	target = replace;
+	    }
+        for (var i=0,str=this;i< target.length;i+= 2) {
+             str=str.replace(new RegExp(target[i],'g'),target[i+1]);
+        }
+        return str;
+    };
+
+    window.isInWeixinApp = function() {
+        return /MicroMessenger/.test(navigator.userAgent);
+    };
+
+    window.getQueryFromURL = function(url) {
+        url = url || 'http://qq.com/s?a=b#rd'; 
+        var tmp = url.split('?'),
+            query = (tmp[1] || "").split('#')[0].split('&'),
+            params = {};
+        for (var i=0; i<query.length; i++) {
+            var arg = query[i].split('=');
+            params[arg[0]] = arg[1];
+        }
+        if (params['pass_ticket']) {
+        	params['pass_ticket'] = encodeURIComponent(params['pass_ticket'].html(false).html(false).replace(/\s/g,"+"));
+        }
+        return params;
+    };
+
+    (function() {
+	    var params = getQueryFromURL(location.href);
+        window.uin = params['uin'] || "" || '';
+        window.key = params['key'] || "" || '';
+        window.wxtoken = params['wxtoken'] || '';
+        window.pass_ticket = params['pass_ticket'] || '';
+        window.appmsg_token = "";
+    })();
+
+    function wx_loaderror() {
+        if (location.pathname === '/bizmall/reward') {
+            new Image().src = '/mp/jsreport?key=96&content=reward_res_load_err&r=' + Math.random();
+        }
+    }
+
+</script>
+
+<script nonce="1623233646" type="text/javascript">
+        window.__moon_report_uin = "0";
+            window.no_moon_ls = 0;
+    </script>
+
+        
+<script nonce="1623233646" type="text/javascript">
+    var write_sceen_time = (+new Date()); 
+</script>
+
+<div id="js_article" class="rich_media">
+    
+    <div id="js_top_ad_area" class="top_banner"></div>
+    
+    <div class="rich_media_inner">
+
+        
+        
+        <div id="page-content" class="rich_media_area_primary">
+          <div class="rich_media_area_primary_inner">
+                                    
+                        
+
+            <div id="img-content">
+
+                
+                <h2 class="rich_media_title" id="activity-name">
+                    
+                    
+                    利用蜜罐采集攻击者行为信息
+
+                                                                                </h2>
+                <div id="meta_content" class="rich_media_meta_list">
+                                                                                
+                                        <span class="rich_media_meta rich_media_meta_nickname" id="profileBt">
+                      <a href="javascript:void(0);" id="js_name">
+                        计算机与网络安全                      </a>
+                      <div id="js_profile_qrcode" class="profile_container" style="display:none;">
+                          <div class="profile_inner">
+                              <strong class="profile_nickname">计算机与网络安全</strong>
+                              <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">微信号</label>
+                              <span class="profile_meta_value">Computer-network</span>
+                              </p>
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">功能介绍</label>
+                              <span class="profile_meta_value">网络安全公益宣传，网络安全知识启蒙。</span>
+                              </p>
+                              
+                          </div>
+                          <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">
+                              <i class="profile_arrow arrow_out"></i>
+                              <i class="profile_arrow arrow_in"></i>
+                          </span>
+                      </div>
+                    </span>
+
+
+                    <em id="publish_time" class="rich_media_meta rich_media_meta_text"></em>
+
+
+
+
+
+                </div>
+                
+                
+                
+                
+                                                
+                                                                
+                                
+                
+                <div class="rich_media_content " id="js_content">
+                    
+
+                    
+
+                    
+                    
+                    <center style="text-align: left;">关联微信群，请回复公众号：<span style="color: rgb(0, 209, 0);">微信群</span></center><center style="text-align: left;">关联QQ群：<span style="color: rgb(255, 0, 0);">16004488</span><hr  /><p style="text-align: left; white-space: normal;">现如今Web攻击已经成为了互联网安全的一个主要威胁，人们对它进行了很多研究，特别详细地分析了攻击是如何进行，如何传播的。但是，对于当Web被攻陷时的攻击者的典型行为研究却很少。<strong>本文描述了一个设计、执行、配置有500个完整功能的蜜罐技术网站，从而可以提供多种不同服务，目的就是要吸引攻击者，采集攻击者在攻击过程中和攻击后的行为信息。</strong>在100天的实验过程中，我们的系统自动采集、处理和规整了85000个在大概6000次攻击后留下的文件，并把攻击者的攻击路线标记成了不同类别，以区分它们在每次利用Web应用漏洞过程中的行为。</p><p><br  />&nbsp;</p><p><span style="color: rgb(171, 25, 66); font-size: 18px; background-color: rgb(214, 214, 214);"><strong>一、引言</strong></span></p><p><br  />&nbsp;</p><p>Web攻击是对人们经济和知识财产造成破坏的主要原因之一。去年，这种攻击的数量不断在增长，复杂程度也在增加，并且目标多是政府和高利润的公司，窃取个人信息的同时造成了数百万欧元的经济损失。使用台式机、笔记本和智能手机上网的人数的不断增加，这就有了很吸引人的攻击目标，从而使他们走上了犯罪的道路。</p><p><br  />&nbsp;</p><p>这种趋势也已经成为了学术研究之一。事实上，快速的看下前些年发表的论文，会发现与Web攻击和防守相关的文章很多。这些研究大多数关注于一些普通的与Web应用、Web服务器或是浏览器相关的漏洞，通过这些漏洞来拿下目标。其余的剖析了针对内部构件的特殊攻击活动[5,13,17]，或是提出新的保护机制来减少现有的攻击。</p><p><br  />&nbsp;</p><p>结果就是几乎所有的Web攻击场景都被详细的研究了：攻击者是怎么扫描Web和使用Google dorks发现可以应用的漏洞的，他们是怎样进行自动攻击的，以及他们是怎样给最终用户传递恶意内容的。然而，这些工作还是留下了很多的谜题。实际上，没有一篇学术文章提到一般的攻击者在完成攻击过程中以及之后的详尽活动。有时候，攻击者只是为了要得到存储在服务器上的信息，例如通过使用SQL注入来盗取用户的证书。然而，在大多数情况下，攻击者想要维持这些机器的访问并把它们作为更大的恶意设备的一部分（例如制造僵尸网络或是给访问这个网页的用户传递恶意文件）。</p><p><br  />&nbsp;</p><p>但是现在的文献大多关注的是如何使人上当的主题，如路过式下载和黑帽式SEO，而这些只是冰山一角。现实生活中，互联网每天都在发生着大量的恶意行为，这些吸引媒体眼球和安全企业注意的高利润网络犯罪的目的亦各不相同。</p><p><br  />&nbsp;</p><p>基于以上方向的研究之所以没有完成是因为几乎所有项目中的蜜罐中所使用的都是虚假或伪造的应用。这就意味着没有真实的攻击被完整执行，通常情况下，攻击者在漏洞“消失”前往往都会完成所有的攻击步骤。</p><p><span style="line-height: 1.6;"></span></p><p><span style="line-height: 1.6;">为了了解不同类型攻击者的动机，杀毒软件公司大多是依靠他们客户报告的信息。如最近由Commtouch和StopBadware组织的调查，就是由600个被攻陷的网站的所有者填写的问卷完成，问卷内容是关于攻击者拿下网站做了什么。结果非常有意思，但是调查过程不是自动的，且很难重复进行，且无法保证用户（多数时候是非安全行业）能够成功地识别攻击类型。</span></p><p><span style="line-height: 1.6;"></span></p><p>本文第一次全面地分析了Web攻击者的行为，我们把分析的重点放在两个方面：</p><p>1）渗透攻击阶段，我们主要研究在应用程序被攻下前攻击者的表现；</p><p>2）后渗透攻击阶段，我们测试攻击者在拿下目标后会做什么。</p><p>第一阶段是分析攻击Web应用的方法和技术（即：怎么做），然而第二阶段是来推断这些攻击的原因和目的（即：为什么）。</p><p><br  />&nbsp;</p><p>因此，本文中我们没有分析一般的SQL注入攻击或是跨站点脚本漏洞。我们的蜜罐技术被应用于吸引和监控那些要控制Web应用的行为。我们的结果有个有意思的趋势是大部分攻击者的表现都很狂野，例如我们鉴定了4个不同的时期以及13个攻击者梦寐以求的目标。我们也提供了一些在蜜罐行为甄别中发现的有趣的攻击场景详情。</p><p><br  />&nbsp;</p><p>本文的其他内容如下：在第2节，我们探索了当前Web蜜罐技术的现状和Web攻击的检测与分析。第3节，描述了我们配置的蜜罐服务的网络架构。第4节，详细的介绍了系统的配置和在实验过程中收集数据的方法。最后，第5和第6节总结了我们在渗透攻击阶段和后渗透攻击阶段中攻击者行为的研究结果。第7节，总结全文和对未来这个方向的展望。</p><p><br  />&nbsp;</p><p><span style="color: rgb(171, 25, 66); font-size: 18px; background-color: rgb(214, 214, 214);"><strong>二、相关工作</strong></span></p><p><br  /></p><p>目前，蜜罐作为检测Web攻击和可疑行为的工具，他们被分成两类：客户端蜜罐，它主要是通过主动访问网站或是执行文件来检测漏洞。服务器端蜜罐，使用一个或是更多的漏洞服务来吸引攻击者。</p><p><br  />&nbsp;</p><p>在这个研究中，我们主要关心第2类，因为我们的目的就是要研究攻击者在拿下站点后的行为。过去的几年里几个服务器端蜜罐已经被建议使用，使用蜜罐来提供真实和可能的服务。其实我们可以将蜜罐分为两类：低交互蜜罐和高交互蜜罐。第一种蜜罐提供模拟服务，所以能观察攻击但是不能被攻击者利用。这种蜜罐的能力是有限的，但是能够收集关于Web探针信息和自动攻击行为。相关研究有honeyd[21]，Leurre.com[20]和SGNET[16]，能够仿真运行系统和服务。另一方面，高交互蜜罐[19]为攻击者提供了一个能被利用的全功能环境。蜜罐技术可以更好地用来洞察攻击者的手法，但是这需要更高要求的设备及维护费用。由于可以利用用虚拟机配置高交互蜜罐，所以在被攻击后可以恢复到初始状态。</p><p><br  />&nbsp;</p><p>对于Web应用的攻击常常是通过配置Web蜜罐。Google Hack Honeypot[3]作为低交互Web蜜罐的一种（设计成用来吸引通过搜索引擎来发现Web漏洞的攻击者），Glastopf[24]和DShieldWeb Honeypot project[4]通过使用模板来仿制Web攻击应用。John等[14]人使用了另外一种低交互的Web蜜罐，使用辅助搜索引擎日志，这个系统能够通过搜索标准来观察和鉴定来自攻击者的恶意查询并配置蜜罐页面。不幸的是使用低交互方法采集结果时，限制了爬虫和自动脚本的访问。任何手动注入都会被错过，因为人们能够快速辨别出系统是一个陷阱，不是一个具有真实功能的应用。除此之外，这个研究收集了一些有意思的关于自动攻击的详情[14]。例如使用引擎蜘蛛爬过后，作者发现蜜罐页面被攻击的平均时间是12天，本地文件泄漏的漏洞在攻击后很容易看到，剩余40%的恶意请求是通过请求蜜罐接收的。其他很常见的攻击模式包括试图访问特定文件（例如：Web安装脚本），寻找有漏洞的远程文件。所有的模式的共同特点是都适用于自动攻击，因为它们只需要接触一些特定的路径或是在URL查询的字符串中注入计算好的数据。作者也提出了适合本文的设备，但这些设备没有被使用，因为他们关注的是攻击者使用攻击后的蜜罐服务器作为其他攻击跳板。我们将在3.1处解释如何处理这些。</p><p><br  /></p><p>如果对研究攻击者的真正活动感兴趣，就要基于高交互蜜罐并采用不同的方式。在这方面的最初的尝试是使用HIAT工具[18]。不幸的是在对这个工具进行评估时没有什么有意思的发现，因为它只运行了几天时间，这个蜜罐仅受到了8000次点击，大多数还是通过良性爬虫。据我们所知，这是第一次大规模评估后渗透攻击阶段攻击者Web行为的研究。</p><p><br  /></p><p>然而，一些类似的工作如根据交互性shell在运行SSH[19,23]的高交互蜜罐上的攻击者行为划分已经有人做了。这个研究中的一些有意思的发现是攻击者关注他们的机器，因为特别的任务（例如在机器上运行的扫描和SSH暴力破解攻击和他们通常用的攻击是不同的）。并且他们中的很多人不是很懂攻击，仅使用很简单的攻击方法和一系列的命令，这意味着大多数的攻击者仅仅是按照入门级教程上的攻击步骤来进行操作的。于此同时，在SSH蜜罐上使用的命令需要针对软件配置进行，并尝试安装恶意软件，例如僵尸脚本。我们会在第6节进行。</p><p><br  /></p><p>最后我们的研究关注的是把分类的文件上传到蜜罐，一些已经发表的关于如何侦测相似源代码文件的的文章，特别是抄袭检测的[6,26]。其他一些相似的框架也被提出来，用来检测图片和其他多媒体格式，也是为了达到相同的目的。不幸的是我们看到了一堆文件上传到蜜罐，并且他们大多数存在源代码、二进制数据或是文档混淆的现象（就体现了大多数的抄袭检测是无效的）。而且很多抄袭检测工具和算法对资源的要求很高，很难应用到大的数据库上。这些原因使得抄袭检测不能满足我们的需求，任何类似指纹文件及分类问题，在取证领域都得到了研究。特别是基于上面想法的很多相似的文章在过去的几年中也得到了发表[15，25]。这个方法被证实是有效、快速的，在侦测这类相似性问题上，这些是基于字节流来表示数据的。我们选择使用这种方式，在我们的研究过程中使用的是在文献[15,25]中提到的两种工具。</p><p><br  /></p><p><span style="color: rgb(171, 25, 66); font-size: 18px; background-color: rgb(214, 214, 214);"><strong>三、HoneyProxy</strong></span></p><p><br  /></p><p>我们的蜜罐系统由很多的网站组成（我们的实验中是500），每一个都包含5种最常见或是众所周知有漏洞的内容管理系统。17个预装了PHPWebshell，还有一个是静态网站。</p><p><br  /></p><p>我们解决了在我们的设备上托管的所有Web应用大规模独立安装管理的问题。7台隔离的虚拟机使用的是VMWare服务器。在主机提供商那里，我们只安装了一个ad-hoc代理脚本（HoneyProxy）来将所有接收到的流量传到我们服务器上的VM上。这就能够让我们集中采集数据，而且还能够区分来自主机的不同响应。图1展示了系统的高阶预览。</p><p><br  /></p><p><strong>PHP代理加入两个自定义头到每个访问者的请求中：</strong></p><p><br  /></p><ul style="list-style-type: disc;" class=" list-paddingleft-2"><li><p><strong>X-Forwarded-For：</strong>这是用于代理的标准头文件，用来设置客户端的真实IP地址。如果客户端的头文件已经设置，最后X-Forwarded-For会列出所有以前看到的IP，并且维持和追踪所有客户通过的代理。</p></li><li><p><strong>X-Server-Path：</strong>这个自定义头是通过PHP代理来设置，以让我们能够在分析虚拟机上的请求日志时了解请求域名的来源。例如：X-Server-Path: http://sub1.site.com/。</p></li></ul><p><br  /></p><p>这两个头文件只在主机提供者的网站和蜜罐的虚拟服务器上追踪目标，对于蜜罐的使用者并不可见。</p><p><br  /></p><p><span style="color: rgb(0, 128, 255);"><strong>3.1、容器</strong></span></p><p><br  /></p><p>每台虚拟机都需要进行合理的配置，以容纳攻击者攻击的同时避免被攻击者对蜜罐造成损害。尤其是，我们阻断了对外连接（否则可能会导致外部主机被被攻击），修补了有漏洞的博客和论坛程序源代码，从而隐藏垃圾邮件发送者发布的邮件（可能导致的恶意广告链接），并且调整了文件系统的权限让攻击者能够攻击他们，但无法控制机器或是改变每个应用程序的主要源代码。尽管如此，攻击者上传的恶意文件仍然存在着危险，我们通过在固定的时间间隔内还原每个虚拟机到原始状态来处理这一问题。</p><p><br  /></p><p>下面，我们简要的介绍在蜜罐机上可能进行的滥用行为，并展示我们自己的阻止或缓解方法。</p><p><br  /></p><p style="text-align: center;"><img style="width: auto !important; height: auto !important; visibility: visible !important;" data-src="http://mmbiz.qpic.cn/mmbiz/mbeDyxcszeGt14RkTA8vrFH359uWQbxJVHJtCBErxVPZNaboKnHgKLymIyUVyhsGI5hYb1skWibj78ibILcYlP7A/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" data-ratio="0.24820143884892087" data-w="" data-type="png" data-s="300,640" data-src="http://mmbiz.qpic.cn/mmbiz/mbeDyxcszeGt14RkTA8vrFH359uWQbxJVHJtCBErxVPZNaboKnHgKLymIyUVyhsGI5hYb1skWibj78ibILcYlP7A/0?wx_fmt=png"  /><br  /></p><p style="text-align: center;"><span style="font-size: 14px;">图1、系统的高阶结构分布</span></p><p><br  /></p><ul style="list-style-type: disc;" class=" list-paddingleft-2"><li><p>获得机器最高权限。我们使用安装了更新软件和安全补丁的虚拟机来处理这个问题。在每台虚拟机上，Web服务和所有对外服务均使用非特权用户身份来运行。当然，这个解决方案无法阻止0-day攻击，但是我们会尽量来限制攻击面，在仅有3个服务（apache、sshd、mysqld）的机器上运行，其中只有Web服务器暴露在互联网下。我们考虑了利用0-day远程对apache进行攻击的可能性，也可能成为现实，届时绝大多数互联网应用皆会受其影响。</p></li><li><p>使用蜜罐作为垫脚石来发动攻击和邮件活动。这可能是在配置一个功能齐全的蜜罐之前要部署最为重要的部分。在我们的例子中，我们常常使用iptables规则来阻止（和记录）除了已经建立的连接以外的虚拟机的出站流量。IRC端口（6667）的规则是个例外，在第4和第6节会有详细的介绍。</p></li><li><p>托管和发布非法内容（如：钓鱼页面）。在有远程文件上传漏洞时，威胁是很难避免的。然而，通过限制上传目录内容的权利，通过防止改变所有现有的HTML和PHP文件，这些能够降低发布非法内容的风险。此外，我们也可以检测到每个VM文件系统的改变，当检测到了一个文件改变，系统就会储存下这个快照。然后虚拟机以规定的时间间隔来恢复到原始状态，从而防止潜在内容传给受害人或是被搜索引擎收录。</p></li><li><p>推销非法产品和服务（如：垃圾邮件链接）。另一个问题是由应用程序引发的，作为它们基本工作的一部分，允许用户编写并发表评论。任何的博客和论坛CMS都存在这个问题。这些应用很容易成为垃圾邮件的目标，我们会在5.3.1节中进行说明，此外托管蜜罐时确保由机器人发出的链接和帖子不会被任何最终用户访问或被搜索引擎检索是很重要的。我们通过修改包括论坛应用的源代码来解决这个问题（也就是Wordpress和Simple Machines Forum），注释掉负责显示帖子内容的代码。利用这个改进，攻击者仍然有发布消息的可能（用来采集这些消息），但是导航的帖子和评论只能显示空白消息。</p></li></ul><p><br  /></p><p>这些措施限制了我们从蜜罐上采集的信息（例如，攻击者上传的反向连接脚本会被我们的防火墙阻止），但是我们认为这是防止我们的设备被恶意利用的必要手段。</p><p><br  /></p><p><span style="color: rgb(0, 128, 255);"><strong>3.2、数据采集和分析</strong></span></p><p><br  /></p><p>我们使用两个信息来研究攻击行为：来自HTTP请求的日志，和攻击者获取受害主机权限后修改或是生成的文件。</p><p><br  /></p><p>我们开发了一些分析HTTP请求日志的工具，使我们能够识别出已知的良性爬虫，对我们的Web应用进行的已知攻击，同时获得详细统计数据（接受请求数量和类型、User-Agent、IP地址、每个访问者的地理信息、Referer头的分析，和请求间时间间隔的分析）。我们的分析工具也能够把相对应时区攻击者的时间标准化，检测攻击中可能存在的联系（例如一个自动脚本感染后的Web应用程序上传了一个文件，紧接着另一个IP地址访问了这个上传文件）。我们也开发了一个对于最常见的使用PHP Webshell的HTTP请求日志的解析器，使我们能够提取请求命令并了解攻击者在我们系统上的所作所为。</p><p><br  /></p><p>我们采用两种方式检测上传和修改文件：Web服务日志和来自监控的文件快照。Web服务日志上有上传文件的记录，每个通过我们蜜罐上传文件的过程都会在apache的mod_secruity记录上。在虚拟机的监控目录的文件快照是修改或生产的原文件以及系统上的被解压的压缩文档或加密文件记录的主要来源。我们能够从这些原中提取的文件有85567个，其中的34259个文件是唯一的。</p><p><br  /></p><p>由于我们收集了大量的唯一文件，手动文件分析变得不太可行。因此，为了减轻分析所采集数据的压力，我们首先根据它们的类型归到一起，来看下它们和其他文件有什么事实上的不同。这就需要我们进行类似地下产业那样相同的做法，例如在改变用户名、登录凭证、或是植入后门后，重新进行相同的攻击或是钓鱼攻击。</p><p><br  /></p><p>首先，我们使用Linux file工具对文件进行分类，把他们放到10个宏观的类里：源代码、图片、可执行文件、数据、文档、文本、HTML文件、链接、多媒体等。</p><p><br  /></p><p>然后我们对同一类型诸多文件进行查看，这些文件只是少数字节不同（由于剪切和粘贴会产生空白）或是源代码注释中存在不同。因此，要提高我们的对比结果，我们要提前处理每个文件并把它转成规范形式。作为规整化的一部分，我们删除所有的双空格、制表符、换行符以及所有的注释（C类型和bash类型），最后进行标准化处理新行，并在代码中分离出电子邮箱地址。对于HTML文件，我们使用html2text工具来分离出所有的HTML标签。</p><p><br  /></p><p>PHP文件使用了一个附加前处理的步骤。我们发现大量的PHP文件上传到我们的蜜罐上，导致了与Web应用的混淆。这种形式的文件即使是使用自动工具也很难检测到用不同方式编码的相似文件的相同之处。为了克服这个问题，我们建立了一个基于evalhook PHP[10]扩展的PHP自动反混淆工具，包含动态代码评估功能的模块，来实现一步一步对PHP代码的反混淆。我们在没有Web应用的时候在虚拟机上部署了我们的工具（避免发生远程计算机攻击或是扫描，因为一些混淆的脚本可能会实现远程连接或是攻击），同时对每个文件进行至少一级的反混淆操作（例如，嵌套调用eval()），并保存反混淆代码。</p><p><br  /></p><p>我们的方法可以让我们反混淆几乎所有已混淆的PHP文件（例如，gzip和base64编码和解码，使用eval()函数的动态评估）。我们唯一不能反混淆的PHP文件是带有错误终止（往往是因为语法错误）以及使用专门的商业编码工具的文件，如Zend Optimizer或是ionCube PHP Encoder。但是我们观察到仅有3个样本使用了这些工具进行编码。</p><p><br  /></p><p>总的来说，我们成功的反混淆了1217个截然不同的文件，占到我们收集的源代码的24%。有意思的是，每个文件都被正常的编码多次，需要平均9次反混淆操作还原PHP代码（有些样本需要惊人的101次）。</p><p><br  /></p><p><span style="color: rgb(0, 128, 255);"><strong>3.2.1、相似性归类</strong></span></p><p><br  /></p><p>一旦规整化步骤完成，就可以计算在相同类型文件中两两之间的相似性，我们使用了2种进行相似性检测的标准化工具ssdeep[15]和sdhash[25]。然后，我们使用简单的分类算法对所有的文件进行分类，相似值大于0.5的被分到同一个组中。</p><p><br  /></p><p>在我们不能找到类似的元素时，就会放弃该文件。对于其余的部分，我们进行手动分析，根据他们的不同目的分成不同的类别。因为文件已经根据相似性进行分组，对每个组的文件进行分析就成必须（如打开和检查内容）。在这个阶段里，我们能够定义多个文件类别，能够让我们更好地了解攻击者的意图。另外，这一步让我们对有趣的攻击有了新的见解，其中的一些会在下面的部分通过深入的例子进行介绍。</p><p><br  /></p><p><span style="color: rgb(171, 25, 66); font-size: 18px; background-color: rgb(214, 214, 214);"><strong>四、配置系统</strong></span></p><p><br  /></p><p>500个蜜罐代理部署到了共享主机计划上，这些主机选用了8个国际上最流行的互联网虚拟主机提供商的主机（来自美国、法国、德国和荷兰）。为了让蜜罐代理能够正常工作，每个供应商必须支持通过PHP使用cURL库，同时支持除了80和443端口以外的其他端口对外连接。</p><p><br  /></p><p>为了能使用户登录我们的蜜罐网页，我们在GoDaddy.com上购买了100域名，同时带有隐私保护。这些域名被平均分配在.COM、.ORG和.net顶级域名中，并均匀地分配给提供商主机。对于每个提供商，我们为每个域名配置了4个附加的子域名，这样就有了5个不同的网站（为保证蜜罐的匿名性，我们叫它们www.site.com、sub1.site.com、sub2.site.com、sub3.site.com和sub4.site.com），最后，我们在首页上公布这500个域名，在研究小组的网站上以透明的方式进行连接，这种方法已经由MUTER[18]等出于类似目的提出。</p><p>我们使用修改后的ftp-deploy脚本[11]分批上传我们给500个网站定制的PHP代理。这就简化了发布和更新PHP代理的操作，并统一了上传文件到服务器上的操作。由于与.htaccess、ModRewrite以及cURL的结合，我们可以把用户的请求透明地转发到对应虚拟机的适当URL上。任何尝试读取一个不存在的资源，或是访问代理页面都会显示空白页面给用户。在不考虑账户的时间线攻击或是入侵主机提供商服务器前提下，访问者无法知道他们访问的是代理。</p><p><br  /></p><p>安装在每个网站上的蜜罐系统都是由索引文件、PHP代理脚本和配置文件组成的。索引文件是网站的主页，它会连接到存在漏洞的Web应用上或是其他蜜罐网站，这些是根据配置文件的内容来定的。</p><p><br  /></p><p>每个子域名的连接结构是不同的，如图1（a）中所示。实际上，同一个域名下的每个子域最多和其他2个不同的子域名连接。我们建立的连接图就是为了检测来自系统的可能导致自动连接和执行自动攻击或扫描的流量。</p><p><br  /></p><p><span style="color: rgb(0, 128, 255);"><strong>4.1、安装Web应用</strong></span></p><p><br  /></p><p>我们在7台虚拟机上总共安装了5个有漏洞的CMS，这些CMS是最知名的内容管理系统，同时在我们开始部署时就具有漏洞。对于每个CMS我们都选择了一个有大量漏洞的版本，或者至少有一个能让攻击者完全控制的应用程序漏洞。我们也限制选择发布时间不超过5年的CMS版本，来保证我们网站可以吸引攻击者。</p><p><br  /></p><p>我们这样选择的目的是出于攻击者选择低门槛目标的想法。另一方面，我们的蜜罐可能会错过精致而不落俗套的攻击，这些攻击主要针对著名机构或是知名网站。然而，这些攻击不容易通过蜜罐来研究，因此不在我们研究的范围内。</p><p>表1描述了安装在7台虚拟机上的应用漏洞、发布的时间、应用特点以及存在的漏洞。我们已经安装了WordPress 2.8的两个实例，一个使用CAPCHA来保护评论，另一个没有使用CAPCHA保护，这是为查看是否有攻击者会手动注册虚假账号，还是系统自动解决CAPCHA。但似乎没有这种情况，因为我们没有接收到任何被CAPTCHA保护的博客上的评论。因此我们不会讨论在文章其余部分讨论的这部分内容。</p><p><br  /></p><p><span style="color: rgb(0, 128, 255);"><strong>4.2、收集数据</strong></span></p><p><br  /></p><p>从2011年12月23日开始，我们收集了运行了100天虚拟机上的日志。所有的结果出自这7台机器的日志。</p><p><br  /></p><p>总的来说，我们收集了9.5千兆的原始HTTP请求，由大概11.0M的GET和1.9M的POST。我们的蜜罐被超过了73000个不同的IP地址访问过，这些IP地址跨越了178个国家和超过11，000的用户代理。这要比之前John等人在低交互蜜罐上[14]观察到的幅值上大一倍。此外，我们还提取超过85，000个在攻击我们的网址过程中上传或是修改的文件。</p><p><br  /></p><p>有两种不同的方式来处理我们收集的数据：一是通过看Web日志来确定和研究攻击；另一种是通过分析攻击者上传和修改的文件来尽量和目标建立关联。接下来的两节会从这两个视角进行描述。</p><p><br  /></p><p><span style="color: rgb(255, 104, 39); background-color: rgb(214, 214, 214);"><strong><span style="color: rgb(255, 104, 39); font-size: 16px; background-color: rgb(214, 214, 214);">五、渗透攻击和后渗透攻击行为</span></strong></span></p><p><br  /></p><p>为了能单纯的使用蜜罐来更好的分析攻击者的行为，我们决定把攻击分为4个不同的阶段：发现、侦察、渗透攻击和后渗透攻击。发现阶段描述攻击者如何找到他们的目标，例如通过搜索引擎查询或是通过简单的IP地址扫描。侦察阶段包括被访问网页的相关信息，如使用自动爬虫或是手动接入一个匿名的代理。在渗透攻击阶段，我们描述了对我们的Web应用程序进行攻击的数量和类型。有些攻击达到了他们的最终目标（如使一个网页重新指向一个恶意网站），但是一些只是进行了上传操作。在这种情况下，上传的文件通常是Webshell，攻击者利用该文件稍后进行手动登入被攻击系统并继续进行攻击行为。我们把这之后的阶段叫做后渗透攻击阶段。</p><p><br  /></p><p>表1简要说明安装到蜜罐虚拟机上的应用程序特点和可以利用的漏洞列表。</p><p><br  /></p><p style="text-align: center;"><img style="width: auto !important; height: auto !important; visibility: visible !important;" data-src="http://mmbiz.qpic.cn/mmbiz/mbeDyxcszeGt14RkTA8vrFH359uWQbxJcoZQBGksSvEIazLEf5Qds4VMdBA0GLJdsfjUHgPPDIClHuX5GObQfQ/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" data-ratio="0.447841726618705" data-w="" data-type="png" data-s="300,640" data-src="http://mmbiz.qpic.cn/mmbiz/mbeDyxcszeGt14RkTA8vrFH359uWQbxJcoZQBGksSvEIazLEf5Qds4VMdBA0GLJdsfjUHgPPDIClHuX5GObQfQ/0?wx_fmt=png"  /><br  /></p><p style="text-align: center;"><span style="font-size: 14px;">表1、蜜罐虚拟机上安装的应用程序</span></p><p><br  /></p><p>要呈现所有可能行为的组合是很难的。并不是每一次攻击都会出现这几个阶段（如侦察和渗透攻击可能在一个阶段中执行），而一些访问并不会导致任何实质性的攻击，有时甚至不能将来自不同IP地址的同一个攻击者的不同行为关联在一起。但是，通过在每个阶段中收集的数据中提炼常见模式，我们能够在我们的实验观察中识别出“典型的攻击形态”。这些信息可以进行如下概括：</p><p><br  /></p><p>1、69.8％的攻击者使用搜索机器人来访问页面。这样的搜索经常试图隐藏User-Agent，或是伪装成合法的浏览器或是搜索引擎爬虫。</p><p><br  /></p><p>2、当侦察鉴定这是攻击目标后的几秒钟，第二阶段的自动系统会访问该页面并执行真正的渗透攻击。这通常是单独的一个不能伪造用户代理的脚本，因此，常常出现例如libwww/perl的字符串。</p><p><br  /></p><p>3、如何漏洞允许攻击者上传文件，在这种情况下，46%的渗透攻击机器人会上传Webshell。此外，大多数的攻击者会成幂次方的上传相同的文件（平均9，有时多达30），大致可以肯定攻击是成功的。</p><p><br  /></p><p>4、平均在3小时26分钟后，攻击者通过之前上传的shell登录机器。这个和攻击者进行交互的平均登录时间是5分37秒。</p><p><br  /></p><p>虽然这代表了从我们数据库中提取的最常见的行为，但我们也观察到了很多其他行为组合，我们会在其余的章节中进行描述。最后，要提的是攻击者行为会随着应用和利用漏洞的不同而发生改变。因此，我们应该说之前的描述总结了针对osCommerce 2.2的最常见攻击行为（迄今为止在我们蜜罐上遭受攻击次数最多的Web应用）。</p><p><br  /></p><p>图2对每个阶段的特征进行了快速的总结。在余下的章节中有更多的信息和统计数据。然后，根据在渗透攻击或后渗透攻击时期上传和修改文件的分析，我们在第6节将会根据实验观察来努力总结不同的攻击目标和动机。</p><p><br  /></p><p style="text-align: center;"><img style="width: auto !important; height: auto !important; visibility: visible !important;" data-src="http://mmbiz.qpic.cn/mmbiz/mbeDyxcszeGt14RkTA8vrFH359uWQbxJQuSRqHBAkDn3uD7ia34GHGyjziaSKEjU8FTMuebqVtCCjibayLEicXzzQw/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" data-ratio="0.4460431654676259" data-w="" data-type="png" data-s="300,640" data-src="http://mmbiz.qpic.cn/mmbiz/mbeDyxcszeGt14RkTA8vrFH359uWQbxJQuSRqHBAkDn3uD7ia34GHGyjziaSKEjU8FTMuebqVtCCjibayLEicXzzQw/0?wx_fmt=png"  /><br  /><span style="font-size: 14px;">图2、攻击的四个阶段</span></p><p><br  /></p><p style="text-align: center;"><img style="width: auto !important; height: auto !important; visibility: visible !important;" data-src="http://mmbiz.qpic.cn/mmbiz/mbeDyxcszeGt14RkTA8vrFH359uWQbxJ8m79Ufzkma8wEOB4KR1cKFvM6VichGAZ9T7aTKHKLia9SbdpzibItP59A/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" data-ratio="0.670863309352518" data-w="" data-type="png" data-s="300,640" data-src="http://mmbiz.qpic.cn/mmbiz/mbeDyxcszeGt14RkTA8vrFH359uWQbxJ8m79Ufzkma8wEOB4KR1cKFvM6VichGAZ9T7aTKHKLia9SbdpzibItP59A/0?wx_fmt=png"  /><br  /><span style="font-size: 14px;">图3、研究过程中蜜罐系统接收到的HTTP请求量</span></p><p><br  /></p><p style="text-align: center;"><img style="width: auto !important; height: auto !important; visibility: visible !important;" data-src="http://mmbiz.qpic.cn/mmbiz/mbeDyxcszeGt14RkTA8vrFH359uWQbxJB5EVG7Dediao26EVrIbD6o01NM0xqOGqd5QtMEYK0qXJ6DvriaEZImRg/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" data-ratio="0.8938848920863309" data-w="" data-type="png" data-s="300,640" data-src="http://mmbiz.qpic.cn/mmbiz/mbeDyxcszeGt14RkTA8vrFH359uWQbxJB5EVG7Dediao26EVrIbD6o01NM0xqOGqd5QtMEYK0qXJ6DvriaEZImRg/0?wx_fmt=png"  /><br  /></p><p style="text-align: center;"><span style="font-size: 14px;">图4、来自各国的请求数量</span></p><p><br  /></p><p><span style="color: rgb(0, 128, 255);"><strong>5.1、发现阶段</strong></span></p><p><br  /></p><p>第一次HTTP请求进入我们的蜜罐代理是在我们配置好蜜罐后的10分钟里，来自Google机器人。第一次直接请求我们的虚拟机（在8002端口）是在搭建后的1小时50分钟。</p><p><br  /></p><p>在最初的几天里，多数流量是由良性Web爬虫造成，因此我们设计了一个简单的解决方法，在余下的流量里筛选出良性爬虫产生的流量。因为单独的HTTP头文件是不可信的（如攻击者常常在他们所用的脚本里使用“Googlebot”的User-Agent），我们收集了机器人的公开信息，我们把这些信息与日志中提取的信息结合并在WHOIS结果中进行确认，以鉴别来自已知公司的爬虫。通过结合User-Agent字符串和关联到已知企业范围的IP地址，我们可以鉴定14种来自1965个不同的IP地址的不同爬虫。尽管这不并非完整的爬虫列表（如约翰等人[14]使用了一个更复杂的技术来鉴定16种Web爬虫），但足够成功过滤由爬虫产生的流量。</p><p><br  /></p><p>在图3中显示了关于请求的统计学数据。良性爬虫的请求相对稳定，但是随着时间的流逝，蜜罐会被搜索引擎索引并被连接到黑客论坛或是连接到链接养殖场上，恶意僵尸或是爬虫的请求数量同时也呈线性增加。</p><p><br  /></p><p>当绘制这些统计数据时，我们在访问模式上也确定了一些可疑的流量，在一些情况下，短短的几个小时我们的应用就被一些特别的IP地址访问（和每天平均192次相比），这清晰地表明一个僵尸网络正在扫描我们的网站。</p><p><br  /></p><p>有趣的是，在系统搭建好后的2小时10分钟，当论坛开始接受一些自动注册时我们就观察到了第一个可疑行为。然而，论坛上的第一个帖子出现在4天后的12月27号。更令人惊奇的事实是，从爬虫的第一次访问恰好带来了第一次攻击：在我们的蜜罐配置好后的4小时30分钟。在波兰的浏览器访问了我们的osCommerce应用程序并通过文件上传漏洞上传了恶意PHP脚本到蜜罐。图4总结了我们的蜜罐收到的访问（良性爬虫除外），并通过地理地址将它们进行了划分。</p><p><br  /></p><p><span style="color: rgb(0, 128, 255);"><strong>5.1.1、Referer分析</strong></span></p><p><br  /></p><p>分析HTTP头中的Referer（无论何时都可用）可以帮助我们确定访问者是怎么在Web上发现蜜罐的。根据结果我们可以区分两类主要的用户：使用搜索引擎来寻找应用程序漏洞的攻击者，和通过邮件或是公共论坛上发帖来进行钓鱼的受害者（我们将在6.8节介绍这个现象）。</p><p><br  /></p><p>Referer集中共有66449人次访问了我们的蜜罐页面。出现的最频繁的是搜索引擎，其次是是Web邮件和公共论坛。其中来自Google的记录有17156条，攻击者用来寻找我们网站时所使用的其他搜索引擎有Yandex（1016条）、Bing（263条）、Yahoo（98条）。最后，其他的15746次请求来自几个公共的Web论坛，部分论坛属于黑客组织，部分来源是垃圾邮件机器人。</p><p><br  /></p><p>最后我们通过从网页搜索引擎上的Referer集提取了搜索查询（当用于恶意目的时也叫做“dorks”）。我们的分析表明攻击者使用的搜索条件高度依赖于部署在蜜罐上的应用。例如，访问Joomla应用最常用的dork包含有‘joomla allows you’字样，同时Simple Machines Forum可以通过搜索‘powered by SMF’来查到。我们的机器包含的公开Webshell也可以通过类似‘inurl:c99.php’、‘[cyber anarchy shell]’甚至是‘[ftp buteforcer][security info][processes][mysql][php-code][encoder][backdoor][back-connection][home][enumerate][md5-lookup][word-lists][milw0rm it!][search] [selfkill][about]’来搜索到。后面的查询尽管很长，但仍然有超过150次的Web shell访问来自于它。更可能的搜索来源是通过‘intitle’：因为脚本的名字和标题常会被攻击者自定义，相比搜索固定的url类型或是网页主题，搜索它们的文字内容更可能返回更多结果。一些专用的搜索引擎也有被用到，如devilfinder.com，有141次访问Web shell是通过该搜索引擎。这个搜索引擎声称和一般的搜索引擎比会显示更多低排名的结果，且不会储存任何搜索数据，相同的Web页面最多可以返回多达300条记录，这就很适合攻击者寻找dorks和长长的漏洞网站列表。</p><p><br  /></p><p><span style="color: rgb(0, 128, 255);"><strong>5.2、侦察阶段</strong></span></p><p><br  /></p><p>在移除良性爬虫流量后，我们的蜜罐接收到的大部分流量都来源不明，其中许多是源于自动的HTTP请求。在研究过程中，我们发现这些请求大部分是针对我们蜜罐的攻击或垃圾邮件。</p><p><br  /></p><p>然而，区分攻击者是手动访问还是自动访问还是很难的。我们把下面的三个准则作为自动请求的标志：</p><p><br  /></p><ul style="list-style-type: disc;" class=" list-paddingleft-2"><li><p><strong>间隔时间。</strong>如果请求来自相同的IP地址，到达的频率高于某个阀值。我们就会认为流量来源于一个可能的恶意机器。</p></li><li><p><strong>图片请求。</strong>自动化系统特别需要优化其请求速度，几乎从来不会要求来自系统的图像或是演示相关的内容。扫描访问者的Web日志，那些从来没有请求图像或是CSS内容是自动扫描的一个简单特点。</p></li><li><p><strong>子域名访问模式。</strong>如第4节中说，我们配置的每个网站都包含很多根据预定的模式相互连接的子域名。如果在很短的时间里有相同的IP访问，根据我们的模式，那么这很有可能是一个自动化的爬虫。</p></li></ul><p><br  /></p><p>例如，在移除良性爬虫流量之后，系统在不接收图片请求的情况总共接收到了9.5M的访问量，与之相比，系统被请求图片和演示内容时才接收到1.8M访问量。相反，只有641个IP地址（对于13.4K的访问量）是按照精确的访问连接访问网站的，其中60%的访问遵循广度优先的原则。</p><p><br  /></p><p>85%自动化请求是针对我们的论坛应用程序，都是注册虚假用户信息和发布垃圾邮件的请求。余下的1.4M请求直接指向剩余的6个蜜罐应用程序，95K是模仿已知搜索引擎User-Agent的流量，还有264K的流量是在多个User-Agent相互切换访问的结果。余下的请求不包含任何可疑的用户代理字符串，没有按照域名路径，也不请求图片，所以我们把它们归类为机器人请求。</p><p><br  /></p><p><span style="color: rgb(0, 128, 255);"><strong>5.3、渗透攻击阶段</strong></span></p><p><br  /></p><p>首要的工作是通过解析、搜索日志文件中的攻击痕迹来检查渗透攻击企图。幸运的是在已经知晓Web应用程序漏洞的情况下，我们可以通过一系列正则表达式在日志中快速、稳定的检索攻击信息。</p><p><br  /></p><p>总体而言，我们记录了444种不同的渗透攻击会话。一个有趣发现是其中的310种使用了两个或是多个User-Agent字符串，正如第5节所说，这种情况在使用侦察机器人和自动攻击脚本来提高攻击速度并快速寻找目标时便会发生。特别是，我们所观察的三分之二（294个）的渗透攻击会话所使用的User-Agent与LibWWW Perl库（libwww/perl）相关。</p><p><br  /></p><p>在这样的一些渗透攻击会话中，攻击者试图掩饰他使用的良性机器人工具和浏览器。在渗透攻击会话中常被使用的一些爬虫User-Agent字符串是：FreeWebMonitoring、Gigabot/3.0、gsa-crawler、IlTrovatore-Setaccio/1.2、bingbot/2.0和Googlebot/2.1。</p><p><br  /></p><p>每个渗透攻击会话最显著的副作用是上传或修改受害主机上的文件。特别奇怪的是，我们注意到渗透攻击会话中上传文件时平均会上传9.75次。这种奇怪的现象可以用这样的事实来解释，大多数渗透攻击工具都是自动执行的，攻击者无法实时查看攻击是否成功，多次上传相同的文件可以增加文件上传成功的几率。</p><p><br  /></p><p style="text-align: center;"><img style="width: auto !important; height: auto !important; visibility: visible !important;" data-src="http://mmbiz.qpic.cn/mmbiz/mbeDyxcszeGt14RkTA8vrFH359uWQbxJz1Dl0ibX7Qjr3k2J0CjKKian5DXYQ08TuQtq46ptMUSc5sRm4AwoHsKw/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" data-ratio="0.8830935251798561" data-w="" data-type="png" data-s="300,640" data-src="http://mmbiz.qpic.cn/mmbiz/mbeDyxcszeGt14RkTA8vrFH359uWQbxJz1Dl0ibX7Qjr3k2J0CjKKian5DXYQ08TuQtq46ptMUSc5sRm4AwoHsKw/0?wx_fmt=png"  /><br  /></p><p style="text-align: center;"><span style="font-size: 14px;">图5、攻击会话的时间分布</span></p><p><br  /></p><p>使用3.2节所介绍的方法，我们将上传到蜜罐的文件自动归类为漏洞利用服务的结果。然后，我们把渗透攻击会话信息和收集文件的分类结果进行关联，这个阶段的分析结果显示攻击会话所上传文件的构成：45.75%的文件是Webshell，17.25%的文件是钓鱼文件（简单的HTML页面或是完整的钓鱼攻击包），1.75%的文件是自动下载和远程URL执行文件，1.5%的文件是本地信息搜集文件。最终，32.75%的上传文件无法用我们的系统进行归类，因为它们与我们所观察的其他文件没有相似之处，或者是与我们研究无关的多媒体文件和图片（例如，用于篡改页面的图片或音乐）。</p><p><br  /></p><p>图5显示了我们的蜜罐遭受攻击的规整时间，该值是计算机根据IP地址所在地理位置的时区调整后的数值。同样，这些数值无法反应攻击者在代理情况下使用不同IP地址进行攻击的正确数值。然而，该图显示了在渗透攻击和后渗透攻击阶段在白天进行的明显趋势。尤其是我们观察到的交互会话中只有很少发生在凌晨4点到上午10点，可能是因为攻击者也需要休息的缘故。有趣的是在渗透攻击阶段绝大多数自动化攻击的时间分布上也显示了类似的趋势（尽管不清晰）。这可能受感染的僵尸主机进行扫描的结果，而这些主机在晚上便会被用户关掉。</p><p><br  /></p><p>搜索我们攻击日志来得到关于直接访问我们虚拟机的攻击者信息，这些攻击者没有通过蜜罐代理访问，我们发现这种攻击数量不多，但仍然有相当数量的攻击是直接攻击蜜罐的IP:PORT。特别是，我们发现这种攻击中的25次是针对蜜罐上的电子商务应用，19次是针对主机上的webshell和静态网站。在这两种情况下，攻击者可以使用之前的漏洞来提取我们机器的IP地址（保存在被许多攻击者经常下载的osCommerce配置文件中，或是通过交互shell来检查机器），并在之后的攻击中用到这些信息。</p><p><br  /></p><p><span style="color: rgb(0, 128, 255);"><strong>5.3.1、发帖</strong></span></p><p><br  /></p><p>在第一天的运行后，我们的论坛应用程序收到大量的访问流量，大部分流量是虚假注册和垃圾邮件机器人发出的。我们分析了机器数据库的每一个快照，目的是提取论坛帖子和嵌入其中的每一条URL信息。这让我们鉴别和分类了几种垃圾邮件和链接养殖场，同时发现了一些恶意出售论坛账号的行为。</p><p><br  /></p><p>在我们的研究中，共有68201条唯一信息被发布，这些信息来自15753个用户使用的3144唯一IP地址。每天论坛的数据体现出高流量留言板是典型的媒介：平均每天发帖604条（最高达3085条），在高峰时刻平均有232个用户在线（最多达403个）。</p><p><br  /></p><p>更让人吃惊的是论坛注册者的数量要比发帖的数量大的多：平均每天1907次注册，在2012年3月23日达到最大的14400次。这种现象非常常见，在我们论坛上进行操作的33.8%IP地址都至少创建了一个虚假账户，但是从来不发帖，这表明对于犯罪者来说或许有完成自动注册的某种激励，或许这比垃圾邮件活动更能获得价值。我们设想这些虚假论坛账号可以在黑市上进行出售。我们确实发现了1260个账号是由同一个IP地址创建的，几天之后使用其他的IP来发布消息，这不一定能证实我们的推论，但是至少说明论坛垃圾信息已经成为一种复杂的生态体系，且在一次垃圾信息或链接养殖场的幕后找出其中某个人员现如今是非常难的。</p><p><br  /></p><p>进一步查看注册用户和发布垃圾信息的IP地址发现，这些IP大部分来自于美国或东欧国家（主要是俄罗斯、乌克兰、波兰、拉脱维亚、罗马尼亚）。在我们的论坛上活跃着6687个不同的IP地址（至少发了一个帖子或是注册了一个或是多个账号），其中，36.8%来自美国，24.6%来自东欧。如果只考虑至少在论坛上发一次帖子的IP地址，那么国家的覆盖率就会彻底不同，这种情况下，来自美国的IP地址占了62.3%（东欧的IP地址占21.2%）。</p><p><br  /></p><p>最后，我们把论坛上的所有帖子根据关键字进行了简单分类。这样就可以让我们快速鉴别常见的垃圾邮件主题和活动。通过这种方法，我们能够自动分类63763条信息(占总数的93.5%)。</p><p><br  /></p><p>我们提取出来的主题信息趋势说明最常见的主题类型是药品（占分类消息的55%，最高每天有2000条信息），其次是搜索引擎优化（SEO）和电子产品（11%）、成人内容（8%）、卫生保健和家庭安全（6%）。</p><p><br  /></p><p>我们使用了两种自动的分析工具来对所有帖子中的链接进行一个深入分析来检测恶意网页，即Google安全浏览器[22]和Wepawet[8]。这两种工具的检测结果说明我们从论坛上提取的221423个URL中只是很少的一部分（2248条，大概1%）包含恶意或是可能有害的链接。</p><p><br  /></p><p><span style="color: rgb(0, 128, 255);"><strong>5.4、后渗透攻击阶段</strong></span></p><p><br  /></p><p>后渗透攻击阶段主要是分析攻击者和被感染的机器之间的联系。在我们的实验中，是通过在渗透攻击阶段安装Webshell，或是通过访问预先安装到我们的虚拟机上的公开Web shell增加收集的数据。</p><p>后渗透攻击阶段分析中值得特别关注，因为在交互会话中攻击者可以发出任意指令。然而，这些Webshell不会有任何会话概念：它们仅仅是无状态条件下通过HTTP请求接收命令并提供响应而已。</p><p><br  /></p><p>在我们的实验中，我们总共接收到了74497次shell命令。这些命令从简单文件系统中衍变而来对文件进行检查和编辑，以及复杂到上传新文件和执行Web扫描等任务。</p><p><br  /></p><p>为了更好的理解这个数字代表了什么，我们决定将每次接收的来自同一个IP地址的独立命令在虚拟“交互会话”中组合起来，同时连续命令之间的时间间隔少于5分钟。</p><p><br  /></p><p>根据这个定义，我们注册了232个交互会话作为渗透攻击的结果，我们预装了8268个shell，平均每个会话持续5分37秒，然而，其中我们注册的9个会话用时都在一个小时以上。依据系统命令的响应，最长的会话来自沙特阿拉伯，该会话向shell发送了663条命令，包括几个文件的手动编辑。</p><p><br  /></p><p>有趣的是，在攻击过程中最常见的一个行为是上传自定义的shell，即使攻击者攻入系统时使用的是在系统上已经存在的shell。因为攻击者知道使用其他人安装的shell含有后门并泄露他们信息的可能性更高。除了我们工具所提供的17个shell，我们还定义了HTTP模式来匹配攻击者上传的常见自定义shell，由此我们可以分析他们发出的命令。</p><p><br  /></p><p>在83%的情况下，攻击者试图使用至少一个主动命令（上传或是编辑文件、更改文件权限、创建文件或是目录、扫描主机、关闭进程、连接数据库、发送邮件等）。其余的会话纯粹是被动行为，攻击者仅仅是浏览我们的系统、下载源码和配置文件。</p><p><br  /></p><p>最后，在61%的会话中攻击者会上传一个新文件，50%的会话会试图修改机器上已存在的文件（其中的13%是页面篡改）。对于这些独立命令，最常用的是读取和列出文件和目录，随后是在系统上编辑文件、上传文件、运行命令、列出运行中进程以及下载文件。</p><p><br  /></p><p><span style="color: rgb(172, 57, 255); background-color: rgb(214, 214, 214);"><strong><span style="font-size: 16px; background-color: rgb(214, 214, 214);">六、攻击目标</span></strong></span></p><p><strong><span style="font-size: 16px;"></span></strong>&nbsp;</p><p>在本节中，我们把关心的重点从攻击方法转向攻击动机。换句话说，我们会试图去了解攻击者在拿下网站后会做什么。他们是否会安装僵尸服务，他们是否会试图获取主机的管理员权限，他们是否会在应用程序中插入代码、植入后门或是恶意的iFrame。</p><p><img style="width: auto !important; height: auto !important; visibility: visible !important;" data-src="http://mmbiz.qpic.cn/mmbiz/mbeDyxcszeGt14RkTA8vrFH359uWQbxJLQDmO3rKXMFYaz7ozKH88fiaibqL6mk3Gdv3n428ic4hfLCvWwxDyLp9A/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" data-ratio="0.5089928057553957" data-w="" data-type="png" data-s="300,640" data-src="http://mmbiz.qpic.cn/mmbiz/mbeDyxcszeGt14RkTA8vrFH359uWQbxJLQDmO3rKXMFYaz7ozKH88fiaibqL6mk3Gdv3n428ic4hfLCvWwxDyLp9A/0?wx_fmt=png"  /></p><p><span style="font-size: 12px;">表2、分类结果</span></p><p><img style="width: auto !important; height: auto !important; visibility: visible !important;" data-src="http://mmbiz.qpic.cn/mmbiz/mbeDyxcszeGt14RkTA8vrFH359uWQbxJec8OfKHUkNIFvry9lhEqbSxwMzZfTxkAYvMKLpPiaq4O28zDu9LGjWw/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" data-ratio="0.6942446043165468" data-w="" data-type="png" data-s="300,640" data-src="http://mmbiz.qpic.cn/mmbiz/mbeDyxcszeGt14RkTA8vrFH359uWQbxJec8OfKHUkNIFvry9lhEqbSxwMzZfTxkAYvMKLpPiaq4O28zDu9LGjWw/0?wx_fmt=png"  /><br  /></p><p><span style="font-size: 12px;">图6、基于特殊文件上传的攻击行为</span></p><p>为了回答这些问题，我们分析了在渗透攻击阶段上传的文件，和在后渗透攻击时期创建和修改的文件。正如我们在第3节中提到的我们对每个文件的内容进行了规整，根据它们的相似性进行了归类。最后，我们手动标记了每个类型，以区分这些文件的目的。表2总结了归类的结果，我们的蜜罐收集了86.4%的单一文件。关于这些文件，图6展示了文件目的的类别。例如，在实验中我们观察到的1.7%文件是用来升级在感染的机器上提升权限，这不同于说1.7%的攻击者要提升机器权限。不幸的是，我们并不是总能将这些文件和攻击者的攻击行为对应起来。因此，我们通过鉴别在攻击期间上传特定文件的每个特定IP地址所完成的特定行为对攻击者行为进行评估。仅仅通过攻击者的IP地址来鉴别攻击者并不总是正确，但是这还是提供了一个近似的合理性。因此如果我们说某一类攻击的预计攻击概率有20%，这就意味着一个攻击者在他/她的操作中所上传的5个文件中至少有一个文件属于这类攻击。</p><p><br  /></p><p>只有14%的攻击者上传了至少属于两个不同类别的多个文件。这就意味着大多数的攻击者都有一个精确的目标，或是攻击者在常常的改变他们的IP地址，使我们很难跟踪他们。</p><p><br  /></p><p><span style="color: rgb(172, 57, 255); background-color: rgb(214, 214, 214);"><strong><span style="color: rgb(172, 57, 255); font-size: 16px; background-color: rgb(214, 214, 214);">七、结论</span></strong></span></p><p><strong><span style="font-size: 16px;"></span></strong>&nbsp;</p><p>在本文中，我们介绍了基于多种有漏洞的真实Web应用的蜜罐服务实施和配置。通过采集的数据，我们研究了攻击者在拿下目标前、攻击过程中以及攻击之后的行为。</p><p><br  /></p><p>我们研究的结果给人们提供了一个在Web上当前状态下利用漏洞行为的有趣见解。一方面，我们能够证实某个类型攻击的趋势，如东欧国家垃圾评论的活动，同时有很多的骗局和钓鱼Web活动在非洲进行着[12]。药品广告似乎是垃圾邮件和垃圾评论中中最常见的主题，正如最近的研究发现的那样[9]。</p><p><br  />&nbsp;</p><p>另一方面，我们也能够观察和研究大量的人工攻击，以及把感染目标从Web服务变成IRC僵尸服务。这说明通常认为已经过时的攻击行为还仍然很流行（特别在年轻的犯罪者中）且占据了站点攻击绝大部分比例。</p><p><br  />&nbsp;</p><p>我们当前的工作正朝着一个完全自动的、实时监控的蜜罐进行，以能够识别、分类每一次攻击，并用可视化方式显示攻击趋势和被攻击的目标。</p><hr  />扩展阅读，点下面超链接：<span style="line-height: 0px; display: none;">‍</span><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=402124502&amp;idx=3&amp;sn=cd775dd129c13f417e8624ad6438db9e#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=402124502&amp;idx=3&amp;sn=cd775dd129c13f417e8624ad6438db9e#wechat_redirect"><span style="color: rgb(0, 102, 204); text-decoration: underline;">她发明了WiFi</span></a> &nbsp; &nbsp;<a href="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=407073679&amp;idx=3&amp;sn=bf00bbd9c19acccb490e6141f81c6fdd&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=407073679&amp;idx=3&amp;sn=bf00bbd9c19acccb490e6141f81c6fdd&amp;scene=21#wechat_redirect"><span style="color: rgb(0, 102, 204); text-decoration: underline;">T级攻防：大规模DDOS防御架构</span></a></p><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=405308779&amp;idx=3&amp;sn=d160178c292f9a61b718b019df30770b&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=405308779&amp;idx=3&amp;sn=d160178c292f9a61b718b019df30770b&amp;scene=21#wechat_redirect"><span style="color: rgb(0, 102, 204); text-decoration: underline;">手机关掉这些功能</span></a> &nbsp; &nbsp; &nbsp;<a href="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=405549284&amp;idx=3&amp;sn=d60605b406927d27a69c42bb6dee7b07&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=405549284&amp;idx=3&amp;sn=d60605b406927d27a69c42bb6dee7b07&amp;scene=21#wechat_redirect"><span style="color: rgb(0, 102, 204); text-decoration: underline;">黑掉一台根本不联网的电脑</span></a></p><p><span style="color: rgb(0, 102, 204); text-decoration: underline;">攻下隔壁女生路由器后</span> &nbsp;<a href="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=209150549&amp;idx=2&amp;sn=48c14c5ad8a43c722b221afd681bc85f&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=209150549&amp;idx=2&amp;sn=48c14c5ad8a43c722b221afd681bc85f&amp;scene=21#wechat_redirect"><span style="color: rgb(0, 102, 204); text-decoration: underline;">网站渗透思路全方面总结</span></a></p><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=407039906&amp;idx=3&amp;sn=580b22b9d1e1d20045c4041d3b572ef9&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=407039906&amp;idx=3&amp;sn=580b22b9d1e1d20045c4041d3b572ef9&amp;scene=21#wechat_redirect"><span style="color: rgb(0, 102, 204); text-decoration: underline;">他是最牛黑客</span></a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=401364270&amp;idx=3&amp;sn=c1cee6b5f6183abf956074e6a21fee70&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=401364270&amp;idx=3&amp;sn=c1cee6b5f6183abf956074e6a21fee70&amp;scene=21#wechat_redirect"><span style="color: rgb(0, 102, 204); text-decoration: underline;">网络：小明……</span></a></p><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=404765986&amp;idx=3&amp;sn=563dad29eed8421c91048b2b482f4b13&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=404765986&amp;idx=3&amp;sn=563dad29eed8421c91048b2b482f4b13&amp;scene=21#wechat_redirect"><span style="color: rgb(0, 102, 204); text-decoration: underline;">QQ是如何监控你的聊天记录的</span></a> <a style="color: rgb(0, 0, 0); text-decoration: underline;" href="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=2655111819&amp;idx=2&amp;sn=d54f82831c81ea723e2c8045cc4e45ca&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=2655111819&amp;idx=2&amp;sn=d54f82831c81ea723e2c8045cc4e45ca&amp;scene=21#wechat_redirect"><strong><span style="color: rgb(0, 0, 0);">数据恢复工具软件</span></strong></a></p><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=405435258&amp;idx=2&amp;sn=3e2ab2eafc8161cc2ea0095e75e33759&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=405435258&amp;idx=2&amp;sn=3e2ab2eafc8161cc2ea0095e75e33759&amp;scene=21#wechat_redirect"><span style="color: rgb(0, 102, 204); text-decoration: underline;">怎样获取他人计算机ip地址</span></a><a style="color: rgb(255, 104, 39); text-decoration: underline;" href="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=2655111816&amp;idx=2&amp;sn=27a9add3d29aea2097e465774ff4216a&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=2655111816&amp;idx=2&amp;sn=27a9add3d29aea2097e465774ff4216a&amp;scene=21#wechat_redirect"><span style="color: rgb(255, 104, 39);">多功能U盘启动工具盘</span></a></p><p><a style="color: rgb(0, 102, 204); text-decoration: underline;" href="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=406368072&amp;idx=3&amp;sn=8c9179ff4d6de3f6d3bfb0f6a3fb7259&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=406368072&amp;idx=3&amp;sn=8c9179ff4d6de3f6d3bfb0f6a3fb7259&amp;scene=21#wechat_redirect"><span style="color: rgb(0, 102, 204); text-decoration: underline;">主机被入侵过程报告</span></a><a style="color: rgb(0, 128, 255); text-decoration: underline;" href="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=405835626&amp;idx=3&amp;sn=1ae34969958946bc34a8bdbe31964c33&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=405835626&amp;idx=3&amp;sn=1ae34969958946bc34a8bdbe31964c33&amp;scene=21#wechat_redirect"></a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=211465415&amp;idx=2&amp;sn=524374da093ad16172fa8fcaeba7fde4&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=211465415&amp;idx=2&amp;sn=524374da093ad16172fa8fcaeba7fde4&amp;scene=21#wechat_redirect"><span style="color: rgb(0, 102, 204); text-decoration: underline;">十大算法</span></a><br  /><a style="color: rgb(0, 102, 204); text-decoration: underline;" href="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=406437633&amp;idx=3&amp;sn=843ff19dedc3d79df4834b43919ba33c&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=406437633&amp;idx=3&amp;sn=843ff19dedc3d79df4834b43919ba33c&amp;scene=21#wechat_redirect"><span style="color: rgb(0, 102, 204); text-decoration: underline;">揭开网警神秘面纱</span></a><span style="color: rgb(0, 102, 204); text-decoration: underline;"> </span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=404855625&amp;idx=3&amp;sn=79730e39839b3b777cc4b5c4d7b8bfed&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=404855625&amp;idx=3&amp;sn=79730e39839b3b777cc4b5c4d7b8bfed&amp;scene=21#wechat_redirect"><span style="color: rgb(0, 102, 204); text-decoration: underline;">2016热门IT职业岗位</span></a></p><p><a style="color: rgb(0, 102, 204); text-decoration: underline;" href="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=406242778&amp;idx=3&amp;sn=2e30c75879a1daf3d03781000011cd45&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=406242778&amp;idx=3&amp;sn=2e30c75879a1daf3d03781000011cd45&amp;scene=21#wechat_redirect"><span style="color: rgb(0, 102, 204); text-decoration: underline;"></span></a><a style="color: rgb(0, 102, 204); text-decoration: underline;" href="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=406242778&amp;idx=3&amp;sn=2e30c75879a1daf3d03781000011cd45&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=406242778&amp;idx=3&amp;sn=2e30c75879a1daf3d03781000011cd45&amp;scene=21#wechat_redirect"><span style="color: rgb(0, 102, 204); text-decoration: underline;"></span></a><a style="color: rgb(0, 102, 204); text-decoration: underline;" href="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=406242778&amp;idx=3&amp;sn=2e30c75879a1daf3d03781000011cd45&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=406242778&amp;idx=3&amp;sn=2e30c75879a1daf3d03781000011cd45&amp;scene=21#wechat_redirect"><span style="color: rgb(0, 102, 204); text-decoration: underline;">你还在蹭WiFi吗</span></a> &nbsp; &nbsp; &nbsp; &nbsp; <a href="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=405599232&amp;idx=2&amp;sn=0737c3e8780610f034218b848c449496&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=405599232&amp;idx=2&amp;sn=0737c3e8780610f034218b848c449496&amp;scene=21#wechat_redirect"><span style="color: rgb(0, 102, 204); text-decoration: underline;">黑客足迹清除</span></a> &nbsp; &nbsp; &nbsp; &nbsp;<a style="color: rgb(64, 118, 0); text-decoration: underline;" href="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=2655111835&amp;idx=2&amp;sn=c9202aac7e70509072b34a6a56fb38a7&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=2655111835&amp;idx=2&amp;sn=c9202aac7e70509072b34a6a56fb38a7&amp;scene=21#wechat_redirect"><strong><span style="color: rgb(64, 118, 0);">免费教程</span></strong></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=405599232&amp;idx=2&amp;sn=0737c3e8780610f034218b848c449496&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=405599232&amp;idx=2&amp;sn=0737c3e8780610f034218b848c449496&amp;scene=21#wechat_redirect"><span style="color: rgb(0, 102, 204); text-decoration: underline;"></span></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=405599232&amp;idx=2&amp;sn=0737c3e8780610f034218b848c449496&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=405599232&amp;idx=2&amp;sn=0737c3e8780610f034218b848c449496&amp;scene=21#wechat_redirect"><span style="color: rgb(0, 102, 204); text-decoration: underline;"></span></a></p><p><a style="color: rgb(0, 102, 204); text-decoration: underline;" href="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=2655111795&amp;idx=2&amp;sn=074bd07da21d4e5f7decdf47df8b420a&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=2655111795&amp;idx=2&amp;sn=074bd07da21d4e5f7decdf47df8b420a&amp;scene=21#wechat_redirect"><span style="color: rgb(0, 102, 204); text-decoration: underline;">电话&quot;响一声就挂&quot;，背后阴谋大</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=406684686&amp;idx=2&amp;sn=c52699e94d3f037284073c7f753b351e&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=406684686&amp;idx=2&amp;sn=c52699e94d3f037284073c7f753b351e&amp;scene=21#wechat_redirect"><span style="color: rgb(255, 0, 0); text-decoration: underline;">电脑选购指南</span></a></p></center>
+                </div>
+                <script nonce="1623233646" type="text/javascript">
+                    var first_sceen__time = (+new Date());
+
+                    if ("" == 1 && document.getElementById('js_content')) {
+                        document.getElementById('js_content').addEventListener("selectstart",function(e){ e.preventDefault(); });
+                    }
+
+                    
+                    (function(){
+                        if (navigator.userAgent.indexOf("WindowsWechat") != -1){
+                            var link = document.createElement('link');
+                            var head = document.getElementsByTagName('head')[0];
+                            link.rel = 'stylesheet';
+                            link.type = 'text/css';
+                            link.href = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+                            head.appendChild(link);
+                        }
+                    })();
+                </script>
+
+                
+                <div class="ct_mpda_wrp" id="js_sponsor_ad_area" style="display:none;"></div>
+                
+                
+                <div class="read-more__area" id="js_more_read_area" style="display:none;">
+                    
+                </div>
+
+                
+                                <div class="reward_area tc reward_area_primary" id="js_preview_reward_author" style="display:none;">
+                    <div class="reward-avatar" style="display: none;" id="js_preview_reward_author_avatar">
+                        <img src="" alt="" id="js_preview_reward_author_head">
+                    </div>
+                    
+                                        <div class="reward-author" id="js_preview_reward_author_name"></div>
+                                        <p class="reward_tips" id="js_preview_reward_author_wording" style="display:none;"></p>
+                    <p>
+                        <a class="reward_button" id='js_preview_reward_author_link' href="##"><span id="js_preview_reward_link_text">赞赏</span></a>
+                    </p>
+                </div>
+
+                <div class="reward_qrcode_area reward_area tc" id="js_preview_reward_qrcode" style="display:none;">
+                    <p class="tips_global">长按二维码向我转账</p>
+                    <p id="js_preview_reward_ios_wording" class="reward_tips" style="display:none;"></p>
+                    <span class="reward_qrcode_img_wrp"><img class="reward_qrcode_img" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_reward_qrcode.2x42f400.png"></span>
+                    <p class="tips_global">受苹果公司新规定影响，微信 iOS 版的赞赏功能被关闭，可通过二维码转账支持公众号。</p>
+                </div>
+                                
+                
+                            </div>
+                                        
+                                
+
+                        
+            <ul id="js_hotspot_area" class="article_extend_area"></ul>
+
+
+            
+
+            
+
+
+<div class="rich_media_tool" id="js_toobar3">
+
+        <a class="media_tool_meta meta_primary" id="js_view_source" href="##">阅读原文</a>
+        <div id="js_read_area3" class="media_tool_meta tips_global_primary meta_primary" style="display:none;">阅读 <span id="readNum3"></span></div>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_praise" id="like_old">
+        <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum_old"></span>
+    </span>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_like" id="like3">
+        <button class="like_btn" id="js_like_btn"> 
+          <span id="js_like_wording"> 好看</span><span class="like_num" id="likeNum3"></span>
+        </button>
+    </span>
+
+    <div id="js_like_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog weui-dialog_haokan">
+        <div class="weui-dialog__hd"><strong class="weui-dialog__title" id="educate_title">已推荐到看一看</strong></div>
+        <div class="weui-dialog__bd">
+          <img class="pic_haokan" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_haokan42f400.png">
+            你的朋友可以在“发现”-“看一看”看到你认为好看的文章。        </div>
+        <div class="weui-dialog__ft" id="educate_btn" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_default" id="js_cancel">取消</a>
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_confirm">推荐</a>
+        </div>
+        <div class="weui-dialog__ft" id="educate_btn2" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_acknowledge">我知道了</a>
+        </div>
+        </div>
+    </div>
+
+    <div id="js_unlike_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog">
+        
+        <div class="weui-dialog__bd">
+            已取消，“好看”想法已同步删除        </div>
+        <div class="weui-dialog__ft">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_unlike_know">知道了</a>
+        </div>
+        </div>
+    </div>
+
+    
+    </div>
+
+
+<div class="like_comment_wrp" id="js_a_like_comment" style="display: none;">
+  <div class="like_comment_inner">
+    <div class="like_comment_hd" style="display:none" id="js_like_title"></div>
+    <div class="like_comment_bd">
+      <div class="tips_global_primary like_comment_tips">
+        <i class="weui-icon-success"></i>已推荐到看一看<a href="javascript:;" class="like_comment_share_link" id="js_a_like_comment_share">和朋友分享想法</a>
+      </div>
+    </div>
+    <div class="like_comment_ft">
+      <span id="js_a_like_comment_msg" class="like_comment_msg" style="visibility:hidden">最多200字，当前共<span id="js_a_like_current_cnt"></span>字</span>
+      <button class="like_comment_btn" disabled="disabled" id="js_a_like_confirm">发送</button>
+    </div>
+  </div>
+</div>
+
+<div id="js_like_toast" style="display: none;">
+  <div class="weui-mask_transparent"></div>
+  <div class="weui-toast">
+    <i class="weui-icon-success-no-circle weui-icon_toast"></i>
+    <p class="weui-toast__content" id="js_toast_msg">已发送</p>
+  </div>
+</div>
+
+
+<div style="display: none;" id="js_b_comment_panel" class="like_comment_primary_pop">
+  <div class="like_comment_primary_wrp" id="js_b_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <h4 class="like_comment_primary_title">
+          朋友将在看一看看到        </h4>
+        <button id="js_b_like_confirm" class="like_comment_primary_btn">确定</button>
+      </div>
+      <div id='js_b_comment_text_first' class="like_comment_primary_bd">
+        <span class="tips_global_primary">
+          分享你的想法...        </span>
+      </div>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_1"></div>
+</div>
+
+<div style="display: none;" id="js_b_comment_final">
+  <div class="like_comment_primary_wrp editing" id="js_comment_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <button class="like_comment_primary_cancel" id="js_b_comment_cancel">取消</button>
+        <h4 class="like_comment_primary_title"> 分享想法到看一看 </h4>
+        <button class="like_comment_primary_btn" id="js_b_comment_confirm">确定</button>
+      </div>
+      <div class="like_comment_primary_bd">
+        <textarea class="like_comment_textarea weui-textarea" placeholder="分享你的想法..." id="js_b_comment_text_second"></textarea>
+      </div>
+      <span class="like_comment_msg" id="js_b_like_comment_msg" style="visibility: hidden;">最多200字，当前共<span id="js_b_like_current_cnt"></span>字</span>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_2"></div>
+</div>
+
+<div id="js_loading" style=" display: none;">
+    <div class="weui-mask_transparent"></div>
+    <div class="weui-toast">
+        <i class="weui-loading weui-icon_toast"></i>
+        <p class="weui-toast__content">发送中</p>
+    </div>
+</div>
+
+<div id="js_fail" style="display:none">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+    <div class="weui-dialog__bd">
+        网络异常，请稍后重试    </div>
+    <div class="weui-dialog__ft">
+      <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_fail_inform">知道了</a>
+    </div>
+    </div>
+</div>
+
+
+
+                      </div>
+        </div>
+
+        <div class="rich_media_area_primary sougou" id="sg_tj" style="display:none"></div>
+
+
+        
+        <div class="rich_media_area_extra">
+          <div class="rich_media_area_extra_inner">
+              
+              <div id="js_share_appmsg">
+              </div>
+
+              
+                            <div class="mpda_bottom_container" id="js_bottom_ad_area"></div>
+                            
+              <div id="js_iframetest" style="display:none;"></div>
+                            
+              <div class="rich_media_extra rich_media_extra_discuss" id="js_cmt_container" style="display:none">
+                
+
+                
+                <div class="discuss_mod" id="js_friend_cmt_area" style="display:none">
+                  
+                  
+                  
+                </div>
+
+                                <div class="discuss_mod" id="js_cmt_area" style="display:none">
+                </div>
+                              </div>
+          </div>
+        </div>
+
+        
+        <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">
+            <div class="qr_code_pc_inner">
+                <div class="qr_code_pc">
+                    <img id="js_pc_qr_code_img" class="qr_code_pc_img">
+                    <p>微信扫一扫<br>关注该公众号</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="js_pc_weapp_code" class="weui-desktop-popover weui-desktop-popover_pos-up-center weui-desktop-popover_img-text" style="display: none;">
+    <div class="weui-desktop-popover__content">
+        <div class="weui-desktop-popover__desc">
+            <img id="js_pc_weapp_code_img">
+            微信扫一扫<br>使用小程序<span id="js_pc_weapp_code_des"></span>        </div>
+    </div>
+</div>
+<div id="js_minipro_dialog" style="display:none;">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+        <div class="weui-dialog__bd">即将打开"<span id="js_minipro_dialog_name"></span>"小程序</div>
+        <div class="weui-dialog__ft">
+            <a id="js_minipro_dialog_cancel" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_default">取消</a>
+            <a id="js_minipro_dialog_ok" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_primary">打开</a>
+        </div>
+    </div>
+</div>
+
+        
+        <script nonce="1623233646">
+    var __DEBUGINFO = {
+        debug_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/debug/console42f400.js",
+        safe_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/moonsafe42f400.js",
+        res_list: []
+    };
+</script>
+
+<script nonce="1623233646" type="text/javascript">
+(function() {
+	var totalCount = 0,
+			finishCount = 0;
+
+	function _loadVConsolePlugin() {
+		window.vConsole = new window.VConsole();
+		while (window.vConsolePlugins.length > 0) {
+			var p = window.vConsolePlugins.shift();
+			window.vConsole.addPlugin(p);
+		}
+	}
+	
+	function _addVConsole(uri, cb) {
+		totalCount++;
+		var node = document.createElement('SCRIPT');
+		node.type = 'text/javascript';
+		node.src = uri;
+		node.setAttribute('nonce', '1623233646');
+		if (cb) {
+			node.onload = cb;
+		}
+		document.getElementsByTagName('head')[0].appendChild(node);
+	}
+	if (
+		(document.cookie && document.cookie.indexOf('vconsole_open=1') > -1)
+		|| location.href.indexOf('vconsole=1') > -1
+	) {
+		window.vConsolePlugins = [];
+		_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/3.2.2/vconsole.min43429b.js', function() {
+			
+			_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/plugin/vconsole-mpopt/1.0.1/vconsole-mpopt42f400.js', _loadVConsolePlugin);
+		});
+	}
+})();
+</script>
+        
+<script nonce="1623233646" type="text/javascript">
+if (location.href.match(/fontScale=\d+/) && /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+
+    var m=location.href.match(/fontScale=(\d*)/);
+    var map={
+        "94":1,
+        "100":2,
+        "109":3,
+        "119":4,
+        "131":5,
+    }
+    if(m&&m[1]&&map[m[1]]){
+        document.getElementsByTagName("body")[0].className+=" appmsg_skin_fontscale_"+map[m[1]];
+        console.log("appmsg_skin_fontscale_:"+map[m[1]]);
+    }
+}
+
+
+(function(){
+    if (window.__second_open__) return; 
+
+    
+
+    var first_js_time = +new Date();
+
+    var showDate="";
+    var svrDate=new Date("1549780655"*1000);
+    var createDate=new Date("1461898118"*1000);
+    var ct="1461898118"*1;
+    var publish_time = "2016-04-29" || "";
+    var cD={
+      year:createDate.getYear(),
+      month:createDate.getMonth()+1,
+      date:createDate.getDate()
+    };
+    
+    svrDate.setHours(0);
+    svrDate.setMinutes(0);
+    svrDate.setSeconds(0);
+    var todayDate=svrDate.getTime()/1000;
+    svrDate.setDate(1);
+    svrDate.setMonth(0);
+    var yearDate=svrDate.getTime()/1000;
+    
+    if(ct>=todayDate){
+      showDate="今天";
+    
+    }else if(ct>=todayDate-60*60*24){
+       showDate="昨天";
+    
+    }else if(ct>=todayDate-2*60*60*24){
+      showDate="前天";
+    }else if(ct>=todayDate-3*60*60*24){
+      showDate="3天前";
+    }else if(ct>=todayDate-4*60*60*24){
+      showDate="4天前";
+    }else if(ct>=todayDate-5*60*60*24){
+      showDate="5天前";
+    }else if(ct>=todayDate-6*60*60*24){
+      showDate="6天前";
+    }else if(ct>=todayDate-2*7*60*60*24){
+      showDate="1周前";
+    }else if(ct>=yearDate){
+      
+      
+      
+      showDate="%s月%s日".replace("%s",cD.month).replace("%s",cD.date);
+    }else{
+      showDate=publish_time;
+    };
+    if(document.getElementById("publish_time")){
+      document.getElementById("publish_time").innerText=showDate;
+    }
+})();
+</script>
+<script nonce="1623233646" type="text/javascript">
+
+if (!window.console) window.console = { log: function() {} };
+
+if (typeof getComputedStyle == 'undefined') {
+    if (document.body.currentStyle) {
+        window.getComputedStyle = function(el) {
+            return el.currentStyle;
+        }
+    } else {
+        window.getComputedStyle = {};
+    }
+}
+(function(){
+    window.__zoom = 1;
+    
+    (function(){
+        var validArr = ","+([0.875, 1, 1.125, 1.25, 1.375]).join(",")+",";
+        var match = window.location.href.match(/winzoom=(\d+(?:\.\d+)?)/);
+        if (match && match[1]) {
+            var winzoom = parseFloat(match[1]);
+            if (validArr.indexOf(","+winzoom+",")>=0) {
+                window.__zoom = winzoom;
+            }
+        }
+    })();
+
+    var ua = navigator.userAgent.toLowerCase();
+    var re = new RegExp("msie ([0-9]+[\.0-9]*)");
+    var version;
+    if (re.exec(ua) != null) {
+        version = parseInt(RegExp.$1);
+    }
+    var isIE = false;
+    if (typeof version != 'undefined' && version >= 6 && version <= 9) {
+        isIE = true;
+    }
+    var getMaxWith=function(){
+        var container = document.getElementById('img-content');
+        var max_width = container.offsetWidth;
+        var container_padding = 0;
+        var container_style = getComputedStyle(container);
+        container_padding = parseFloat(container_style.paddingLeft) + parseFloat(container_style.paddingRight);
+        max_width -= container_padding;
+        if (!max_width) {
+            max_width = window.innerWidth - 30;      
+        }
+        return max_width;
+    };
+    var getParentWidth = function(dom){
+        var parent_width = 0;
+        var parent = dom.parentNode;
+        var outerWidth = 0;
+        while (true) {
+            if(!parent||parent.nodeType!=1) break;
+            var parent_style = getComputedStyle(parent);
+            if (!parent_style) break;
+            parent_width = parent.clientWidth - parseFloat(parent_style.paddingLeft) - parseFloat(parent_style.paddingRight) - outerWidth;
+            if (parent_width > 0) break;
+            outerWidth += parseFloat(parent_style.paddingLeft) + parseFloat(parent_style.paddingRight) + parseFloat(parent_style.marginLeft) + parseFloat(parent_style.marginRight) + parseFloat(parent_style.borderLeftWidth) + parseFloat(parent_style.borderRightWidth);
+            parent = parent.parentNode;
+        }
+        return parent_width;
+    }
+    var getOuterW=function(dom){
+        var style=getComputedStyle(dom),
+            w=0;
+        if(!!style){
+            w = parseFloat(style.paddingLeft) + parseFloat(style.paddingRight) + parseFloat(style.borderLeftWidth) + parseFloat(style.borderRightWidth);
+        }
+        return w;
+    };
+    var getOuterH =function(dom){
+        var style=getComputedStyle(dom),
+            h=0;
+        if(!!style){
+            h = parseFloat(style.paddingTop) + parseFloat(style.paddingBottom) + parseFloat(style.borderTopWidth) + parseFloat(style.borderBottomWidth);
+        }
+        return h;
+    };
+    var insertAfter = function(dom,afterDom){
+        var _p = afterDom.parentNode;
+        if(!_p){
+            return;
+        }
+        if(_p.lastChild === afterDom){
+            _p.appendChild(dom);
+        }else{
+            _p.insertBefore(dom,afterDom.nextSibling);
+        }
+    };
+    var getQuery = function(name,url){
+        
+        var u  = arguments[1] || window.location.search,
+            reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)"),
+            r = u.substr(u.indexOf("\?")+1).match(reg);
+        return r!=null?r[2]:"";
+    };
+
+    
+    function setImgSize(item, widthNum, widthUnit, ratio, breakParentWidth) {
+        setTimeout(function () {
+            var img_padding_border = getOuterW(item) || 0;
+            var img_padding_border_top_bottom = getOuterH(item) || 0;
+            
+            if (widthNum > getParentWidth(item) && !breakParentWidth) {
+                widthNum = getParentWidth(item);
+            }
+
+            height = (widthNum - img_padding_border) * ratio + img_padding_border_top_bottom;
+
+            if (isIE) {
+                var url = item.getAttribute('data-src');
+                item.src = url;
+            } else {
+                if(parseFloat(widthNum, 10) > 40 && height > 40 && breakParentWidth) {
+                    item.className += ' img_loading';
+                }
+                item.src = "data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            }
+            item.style.cssText += ";width: " + widthNum + widthUnit + " !important;";
+            item.style.cssText += ";height: " + height + widthUnit + " !important;";
+        }, 10);
+    }
+
+    (function(){
+        var images = document.getElementsByTagName('img');
+        var length = images.length;
+        var max_width = getMaxWith();
+        for (var i = 0; i < length; ++i) {
+            if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var imageItem = images[i];
+            var src_ = imageItem.getAttribute('data-src');
+            var realSrc = imageItem.getAttribute('src');
+            if (!src_ || realSrc) continue;
+            
+            var originWidth = imageItem.getAttribute('data-w');
+            var ratio_ = 1 * imageItem.getAttribute('data-ratio');
+
+            var height = 100;
+            if (ratio_ && ratio_ > 0) {
+                var parent_width = getParentWidth(imageItem) || max_width;
+                var initWidth = imageItem.style.width || imageItem.getAttribute('width') || originWidth || parent_width;
+                initWidth = parseFloat(initWidth, 10) > max_width ? max_width : initWidth;
+                
+                if (initWidth) {
+                    imageItem.setAttribute('_width', !isNaN(initWidth * 1) ? initWidth + 'px' : initWidth);
+                }
+                
+                if (typeof initWidth === 'string' && initWidth.indexOf('%') !== -1) {
+                    initWidth = parseFloat(initWidth.replace('%', ''), 10) / 100 * parent_width;
+                }
+                
+                if (initWidth === 'auto') {
+                    initWidth = originWidth;
+                }
+
+                var res = /^(\d+(?:\.\d+)?)([a-zA-Z%]+)?$/.exec(initWidth);
+                var widthNum = res && res.length >= 2 ? res[1] : 0;
+                var widthUnit = res && res.length >= 3 && res[2] ? res[2] : 'px';
+
+                
+                setImgSize(imageItem, widthNum, widthUnit, ratio_, true);
+                
+                (function (item, widthNumber, unit, ratio) {
+                    setTimeout(function () {
+                        setImgSize(item, widthNumber, unit, ratio, false);
+                    });
+                })(imageItem, widthNum, widthUnit, ratio_);
+            } else {
+                imageItem.style.cssText += ";visibility: hidden !important;";
+            }
+
+        }
+    })();
+    window.__videoDefaultRatio=16/9;
+    window.__getVideoWh = function(dom){
+        var max_width = getMaxWith(),
+            width = max_width,
+            ratio_ = dom.getAttribute('data-ratio')*1,
+            arr = [4/3, 16/9],
+            ret = arr[0],
+            abs = Math.abs(ret - ratio_);
+        if (!ratio_) { 
+            if (dom.getAttribute("data-mpvid")) { 
+                ratio_ = 16/9;
+            } else { 
+                ratio_ = 4/3;
+            }
+        } else { 
+            for (var j = 1, jl = arr.length; j < jl; j++) {
+                var _abs = Math.abs(arr[j] - ratio_);
+                if (_abs < abs) {
+                    abs = _abs;
+                    ret = arr[j];
+                }
+            }
+            ratio_ = ret;
+        }
+        
+        var parent_width = getParentWidth(dom)||max_width,
+            width = width > parent_width ? parent_width : width,
+            outerW = getOuterW(dom)||0,
+            outerH = getOuterH(dom)||0,
+            videoW = width - outerW,
+            videoH = videoW/ratio_,
+            height = videoH + outerH;
+        return {w:Math.ceil(width),h:Math.ceil(height),vh:videoH,vw:videoW,ratio:ratio_};
+    };
+
+
+    (function(){
+        var iframe = document.getElementsByTagName('iframe');
+        for (var i=0,il=iframe.length;i<il;i++) {
+            if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var a = iframe[i];
+            var src_ = a.getAttribute('src')||a.getAttribute('data-src')||"";
+            if(!/^http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)
+                && !/^http(s)*\:\/\/mp\.weixin\.qq\.com\/mp\/readtemplate\?t=pages\/video_player_tmpl/.test(src_)
+            ){
+                continue;
+            }
+            var vid = getQuery("vid",src_);
+            if(!vid){
+                continue;
+            }
+            vid=vid.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,"");
+            a.removeAttribute('src');
+            a.style.display = "none";
+            var obj = window.__getVideoWh(a),
+                videoPlaceHolderSpan = document.createElement('span'),
+                videoPlayerIconSpan = document.createElement('span'),
+                mydiv = document.createElement('img');
+
+            videoPlaceHolderSpan.className = "js_img_loading db";
+            videoPlaceHolderSpan.setAttribute("data-vid", vid);
+            
+
+            videoPlayerIconSpan.className = 'wx_video_context db'; 
+            videoPlayerIconSpan.style.display = 'none';
+            videoPlayerIconSpan.innerHTML = '<span class="wx_video_thumb_primary"></span><button class="wx_video_play_btn">播放</button><span class="wx_video_mask"></span>'; 
+
+            mydiv.className = "img_loading";
+
+            mydiv.src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            
+            
+            videoPlaceHolderSpan.style.cssText = "width: " + obj.w + "px !important;";
+            mydiv.style.cssText += ";width: " + obj.w + "px";
+            videoPlaceHolderSpan.appendChild(videoPlayerIconSpan);
+            videoPlaceHolderSpan.appendChild(mydiv);
+            insertAfter(videoPlaceHolderSpan, a); 
+            
+            a.style.cssText += ";width: " + obj.w + "px !important;";
+            a.setAttribute("width",obj.w);
+            if(window.__zoom!=1){
+                a.style.display = "block";
+                videoPlaceHolderSpan.style.display = "none";
+                a.setAttribute("_ratio",obj.ratio);
+                a.setAttribute("_vid",vid);
+            }else{
+                videoPlaceHolderSpan.style.cssText += "height: " + obj.h + "px !important;";
+                mydiv.style.cssText += "height: " + obj.h + "px !important;";
+                a.style.cssText += "height: " + obj.h + "px !important;";
+                a.setAttribute("height",obj.h);
+            }
+            a.setAttribute("data-vh",obj.vh);
+            a.setAttribute("data-vw",obj.vw);
+            if(a.getAttribute("data-mpvid")){
+                a.setAttribute("data-src",location.protocol+"//mp.weixin.qq.com/mp/readtemplate?t=pages/video_player_tmpl&auto=0&vid="+vid);
+            }else{
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+obj.vw+"&height="+obj.vh+"&auto=0");   
+            }            
+        }
+    })();
+    
+    (function(){
+        if(window.__zoom!=1){
+            if (!window.__second_open__) {
+                document.getElementById('page-content').style.zoom = window.__zoom;
+                var a = document.getElementById('activity-name');
+                var b = document.getElementById('meta_content');
+                if(!!a){
+                    a.style.zoom = 1/window.__zoom;
+                }
+                if(!!b){
+                    b.style.zoom = 1/window.__zoom;
+                }
+            }
+            var images = document.getElementsByTagName('img');
+            for (var i = 0,il=images.length;i<il;i++) {
+                if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                images[i].style.zoom = 1/window.__zoom;
+            }
+            var iframe = document.getElementsByTagName('iframe');
+            for (var i = 0,il=iframe.length;i<il;i++) {
+                if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                var a = iframe[i];
+                a.style.zoom = 1/window.__zoom;
+                var src_ = a.getAttribute('data-src')||"";
+                if(!/http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)){
+                    continue;
+                }
+                var ratio = a.getAttribute("_ratio");
+                var vid = a.getAttribute("_vid");
+                a.removeAttribute("_ratio");
+                a.removeAttribute("_vid");
+                var vw = a.offsetWidth - (getOuterW(a)||0);
+                var vh = vw/ratio;
+                var h = vh + (getOuterH(a)||0)
+                a.style.cssText += "height: " + h + "px !important;"
+                a.setAttribute("height",h);
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+vw+"&height="+vh+"&auto=0");
+                a.style.display = "none";
+                var parent = a.parentNode;
+                if(!parent){
+                    continue;
+                }
+                for(var j=0,jl=parent.children.length;j<jl;j++){
+                    var child = parent.children[j];
+                    if(child.className.indexOf("img_loading")>=0 && child.getAttribute("data-vid")==vid){
+                        child.style.cssText += "height: " + h + "px !important;";
+                        child.style.display = "";
+                    }
+                }
+            }
+        }
+    })();
+})();
+</script>
+<script nonce="1623233646" type="text/javascript">
+    var new_appmsg = 1;
+    var item_show_type = "0";
+    var can_see_complaint = "0";
+    var not_in_mm_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm435ee6.css";
+    var windowwx_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+    var article_improve_combo_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo438c19.css";
+    var tid = "";
+    var aid = "";
+    var clientversion = "";
+    var appuin = "MjM5OTk4MDE2MA=="||"";
+
+    var source = "";
+    var ascene = "";
+    var subscene = "";
+    var sessionid = ""||"";
+    var abtest_cookie = "";
+
+    var scene = 75;
+
+    var itemidx = "";
+    var appmsg_token   = "";
+    var _copyright_stat = "0";
+    var _ori_article_type = "";
+
+    var is_follow = "";
+    var nickname = "计算机与网络安全";
+    var appmsg_type = "9";
+    var ct = "1461898118";
+    var publish_time = "2016-04-29" || "";
+    var user_name = "gh_81b7247a0086";
+    var user_name_new = "";
+    var fakeid   = "";
+    var version   = "";
+    var is_limit_user   = "0";
+    var round_head_img = "http://mmbiz.qpic.cn/mmbiz_png/VcRPEU1K2odcbSoUF6BV2ibYV5TzHPib2DAsYI8GPL3dPuqoB87Y2GdliaBy3nKicsvQkgpCicCL9eZt8LEuYOxWFaw/0?wx_fmt=png";
+    var hd_head_img = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM5MROYFLtRia1xDWiaruAQAGVBMkSWYuGskc1Pib21nB2gbw/0"||"";
+    var ori_head_img_url = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM5MROYFLtRia1xDWiaruAQAGVBMkSWYuGskc1Pib21nB2gbw/132";
+    var msg_title = "利用蜜罐采集攻击者行为信息";
+    var msg_desc = "关联微信群，请回复公众号：微信群关联QQ群：16004488现如今Web攻击已经成为了互联网安全的一个主要威";
+    var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz/VcRPEU1K2oesjLrnfria5UibLyslqibaJrKWN20rG7sue3un6VlXo2mYUn0tNAQoKg5AQ6ibJSrZdLaJ3nXT58aZmQ/0?wx_fmt=jpeg"; 
+    var cdn_url_1_1  = ""; 
+    var cdn_url_235_1 = ""; 
+    
+    var msg_link = "http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=2655111862&amp;idx=3&amp;sn=ccaad8721860582326af1dd8325e019e#rd"; 
+    var user_uin = "0"*1;
+    var msg_source_url = 'http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==\x26amp;mid=206429487\x26amp;idx=1\x26amp;sn=ee6ae4acc4ef60c9404974e416ae89ff#rd';
+    var img_format = 'jpeg';
+    var srcid = '';
+    var req_id = '1014YDomuv7Bw9iu2xCSS8eN';
+    var networkType;
+    var appmsgid = '' || '2655111862'|| "";
+    var comment_id = "2655660586" || "2655660586" * 1;
+    var comment_enabled = "" * 1;
+    var is_need_reward = "0" * 1;
+    var is_https_res = ("" * 1) && (location.protocol == "https:");
+    var msg_daily_idx = "0" || "";
+    var profileReportInfo = "" || "";
+
+    var devicetype = "";
+    var source_encode_biz = "";
+    var source_username = "";
+    
+    var reprint_ticket = "";
+    var source_mid = "";
+    var source_idx = "";
+    var source_biz = "";
+    var author_id = "";
+
+    
+    var optimizing_flag = "0" * 1;
+    var ad_abtest_padding = "0" * 1;
+
+    var show_comment = "";
+    var __appmsgCgiData = {
+        wxa_product : ""*1,
+        wxa_cps : ""*1,
+        show_msg_voice: "0"*1,
+        can_use_page : "0"*1,
+        is_wxg_stuff_uin : "0"*1,
+        card_pos : "",
+        copyright_stat : "0",
+        source_biz : "",
+        hd_head_img : "http://wx.qlogo.cn/mmhead/Q3auHgzwzM5MROYFLtRia1xDWiaruAQAGVBMkSWYuGskc1Pib21nB2gbw/0"||(window.location.protocol+"//"+window.location.host + "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_rumor_link.2x42f400.jpg")
+    };
+    var _empty_v = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/pages/voice/empty42f400.mp3";
+
+    var copyright_stat = "0" * 1;
+
+    var pay_fee = "" * 1;
+    var pay_timestamp = "";
+    var need_pay = "" * 1;
+
+    var need_report_cost = "0" * 1;
+    var use_tx_video_player = "0" * 1;
+    var appmsg_fe_filter = "contenteditable";
+
+    var friend_read_source = "" || "";
+    var friend_read_version = "" || "";
+    var friend_read_class_id = "" || "";
+
+    var is_only_read = "1" * 1;
+    var read_num = "" * 1;
+    var like_num = "" * 1;
+    var liked = "" == 'true' ? true : false;
+    var is_temp_url = "" ? 1 : 0;
+    var send_time = "";
+    var icon_emotion_switch = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch.2x42f400.png";
+    var icon_emotion_switch_active = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch_active.2x42f400.png";
+    var icon_loading_white = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif";
+    var icon_audio_unread = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/audio/icon_audio_unread42f400.png";
+    var icon_qqmusic_default = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_default.2x42f400.png";
+    var icon_qqmusic_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_source42f400.png";
+    var icon_kugou_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/kugou/icon_kugou_source42f400.png";
+
+    var topic_default_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/topic/pic_book_thumb.2x42f400.png';
+    var comment_edit_icon = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg_new/icon_edit42f400.png';
+    var comment_loading_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif';
+
+    var voice_in_appmsg = {
+        "1":"1"
+            };
+
+    var reprint_style = ''*1;
+    var wxa_img_alert = "" != 'false';
+
+    
+    var more_read_type = '0'*1;
+
+    
+    
+    
+    
+
+    
+    var weapp_sn_arr_json = "" || "";
+
+    
+    var ban_scene = "0" * 1;
+
+    var svr_time = "1549780655" * 1;
+    
+    var is_transfer_msg = ""*1||0;
+
+    var malicious_title_reason_id = "0" * 1; 
+    var malicious_content_type = "0" * 1; 
+
+    
+    var modify_time = "";
+
+    
+    var isprofileblock = "0";
+
+    
+    var hotspotInfoList = [
+                    ];
+
+        window.wxtoken = "777";
+        
+    
+    
+    
+    
+    window.is_login = '0' * 1; 
+
+    window.__moon_initcallback = function(){
+        if(!!window.__initCatch){
+            window.__initCatch({
+                idkey : 27611+2,
+                startKey : 0,
+                limit : 128,
+                badjsId: 43,
+                reportOpt : {
+                    uin : uin,
+                    biz : biz,
+                    mid : mid,
+                    idx : idx,
+                    sn  : sn
+                },
+                extInfo : {
+                    network_rate : 0.01,    
+                    badjs_rate: 0.1 
+                }
+            });
+        }
+    }
+        
+    var title ="计算机与网络安全";
+
+    var is_new_msg=true;
+    
+    
+
+    var is_wash = '' * 1;
+</script>
+
+<script nonce="1623233646" type="text/javascript">
+(function(_g){
+    _g.appmsg_like_type = "1" * 1 ? "1" * 1 : 1;
+    
+    _g.clientversion = "";
+    _g.passparam = ""; 
+    if(!_g.msg_link) {
+      _g.msg_link = "http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&amp;mid=2655111862&amp;idx=3&amp;sn=ccaad8721860582326af1dd8325e019e#rd";
+    }
+    _g.appmsg_type = "9"; 
+    _g.devicetype = ""; 
+})(window);
+
+</script>
+
+
+        <script nonce="1623233646">window.__moon_host = 'res.wx.qq.com';window.__moon_mainjs = 'appmsg/index.js';window.moon_map = {"a/appdialog_confirm.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm.html42f400.js","widget/wx_profile_dialog_primary.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/widget/wx_profile_dialog_primary.css42f400.js","pages/iframe_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/iframe_communicate42f400.js","new_video/player.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player.html433882.js","biz_wap/zepto/touch.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/touch42f400.js","biz_wap/zepto/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/event42f400.js","biz_wap/zepto/zepto.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/zepto42f400.js","page/pages/video.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/pages/video.css435ee6.js","a/tpl/smallbanner_msg_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_msg_tpl.html42f400.js","a/tpl/smallbanner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_info_tpl.html42f400.js","a/tpl/banner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_info_tpl.html42f400.js","a/tpl/promote_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/promote_tpl.html42f400.js","a/tpl/smallcard_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallcard_tpl.html42f400.js","a/tpl/info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/info_tpl.html42f400.js","a/tpl/cardticket_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cardticket_tpl.html42f400.js","a/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_tpl.html42f400.js","a/tpl/sponsor_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/sponsor_tpl.html42f400.js","a/tpl/new_cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/new_cpc_tpl.html42f400.js","appmsg/emotion/caret.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/caret42f400.js","biz_wap/utils/localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/localstorage42f400.js","appmsg/friend_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/friend_comment_tpl.html42f400.js","appmsg/comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_tpl.html42f400.js","biz_wap/utils/fakehash.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/fakehash42f400.js","appmsg/comment_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_report42f400.js","a/appdialog_confirm.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm42f400.js","new_video/player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player4306fd.js","a/tpl/mpda_bottom_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/mpda_bottom_tpl.html42f400.js","a/tpl/crt_size_map.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_size_map42f400.js","biz_wap/jsapi/cardticket.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/cardticket42f400.js","biz_common/jquery.md5.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/jquery.md542f400.js","biz_common/utils/emoji_panel_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_panel_data42f400.js","biz_common/utils/emoji_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_data42f400.js","appmsg/emotion/textarea.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/textarea42f400.js","appmsg/emotion/nav.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/nav42f400.js","appmsg/emotion/common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/common42f400.js","appmsg/emotion/slide.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/slide42f400.js","appmsg/emotion/dom.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/dom42f400.js","pages/music_report_conf.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_report_conf42f400.js","pages/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/report4306fd.js","pages/player_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/player_adaptor42f400.js","pages/music_player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_player42f400.js","appmsg/more_read_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read_tpl.html42f400.js","appmsg/retry_ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/retry_ajax42f400.js","complain/tips.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/complain/tips42f400.js","pages/loadscript.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/loadscript42f400.js","biz_wap/utils/ajax_load_js.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_load_js42f400.js","appmsg/comment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment4317dc.js","a/ios.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios42f400.js","a/android.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android42f400.js","a/profile.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile42f400.js","a/app_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/app_card430506.js","a/sponsor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor42f400.js","a/tpl/cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cpc_tpl.html42f400.js","a/video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/video42f400.js","a/a_config.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_config42f400.js","a/tpl/crt_tpl_manager.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_tpl_manager42f400.js","a/cpc_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/cpc_a_tpl.html42f400.js","a/sponsor_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor_a_tpl.html42f400.js","a/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_tpl.html42f400.js","a/mpshop.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpshop42f400.js","a/wxopen_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/wxopen_card42f400.js","a/card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/card42f400.js","biz_wap/utils/position.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/position42f400.js","a/a_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_report42f400.js","biz_wap/utils/show_time.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/show_time42f400.js","biz_common/utils/get_para_list.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/get_para_list42f400.js","biz_wap/utils/openUrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/openUrl42f400.js","a/a_sign.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_sign438181.js","appmsg/my_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/my_comment_tpl.html42f400.js","appmsg/cmt_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cmt_tpl.html42f400.js","sougou/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/a_tpl.html42f400.js","appmsg/emotion/emotion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/emotion42f400.js","biz_common/base64.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/base6442f400.js","biz_common/utils/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report42f400.js","appmsg/articleReport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/articleReport42f400.js","biz_wap/utils/hand_up_state.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/hand_up_state42f400.js","biz_common/utils/http.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/http42f400.js","biz_common/utils/cookie.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie42f400.js","appmsg/topic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/topic_tpl.html42f400.js","pages/weapp_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/weapp_tpl.html42f400.js","biz_common/utils/monitor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/monitor42f400.js","pages/voice_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_tpl.html42f400.js","pages/kugoumusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/kugoumusic_ctrl42f400.js","pages/qqmusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_ctrl42f400.js","pages/voice_component.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_component42f400.js","pages/qqmusic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_tpl.html42f400.js","new_video/ctl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/ctl4306fd.js","appmsg/open_url_with_webview.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/open_url_with_webview4380a9.js","appmsg/more_read.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read42f400.js","appmsg/reward_entry.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/reward_entry42f400.js","appmsg/like.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like43875f.js","pages/version4video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/version4video42f400.js","biz_wap/utils/storage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/storage42f400.js","appmsg/share_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share_tpl.html42f400.js","appmsg/appmsgext.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsgext430b95.js","appmsg/img_copyright_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/img_copyright_tpl.html42f400.js","pages/video_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_ctrl42f400.js","pages/create_txv.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/create_txv42f400.js","appmsg/comment_utils.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_utils42f400.js","biz_common/ui/imgonepx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx42f400.js","appmsg/malicious_wording.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/malicious_wording42f400.js","biz_common/utils/wxgspeedsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/wxgspeedsdk42f400.js","a/a.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a4382e5.js","rt/appmsg/getappmsgext.rt.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/rt/appmsg/getappmsgext.rt42f400.js","pages/video_communicate_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_communicate_adaptor433882.js","biz_wap/utils/ajax_wx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_wx42f400.js","biz_common/utils/respTypes.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/respTypes42f400.js","biz_wap/utils/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/log42f400.js","sougou/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/index42f400.js","biz_wap/safe/mutation_observer_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/mutation_observer_report42f400.js","appmsg/fereport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport438bee.js","appmsg/fereport_without_localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport_without_localstorage438bee.js","appmsg/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report42f400.js","appmsg/report_and_source.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source4380a9.js","appmsg/page_pos.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos431b87.js","appmsg/cdn_speed_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report42f400.js","appmsg/wxtopic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/wxtopic42f400.js","appmsg/weapp.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp433882.js","appmsg/weproduct.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weproduct42f400.js","appmsg/voicemsg.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voicemsg42f400.js","appmsg/autoread.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/autoread42f400.js","appmsg/voice.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voice42f400.js","appmsg/qqmusic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/qqmusic43440b.js","appmsg/iframe.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe433882.js","appmsg/product.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/product42f400.js","appmsg/review_image.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image435a90.js","appmsg/outer_link.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link433882.js","appmsg/copyright_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/copyright_report42f400.js","appmsg/async.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async438bee.js","biz_wap/ui/lazyload_img.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img42f400.js","biz_common/log/jserr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr42f400.js","appmsg/share.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share42f50a.js","appmsg/cdn_img_lib.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib42f400.js","appmsg/finance_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/finance_communicate42f400.js","page/appmsg_new/not_in_mm.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm.css435ee6.js","page/appmsg_new/combo.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo.css438c19.js","biz_wap/utils/wapsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/wapsdk42f400.js","a/mpAdAsync.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpAdAsync4317dc.js","biz_common/utils/url/parse.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse42f400.js","appmsg/appmsg_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsg_report435ac2.js","biz_common/moment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/moment42f400.js","biz_wap/jsapi/core.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core42f400.js","biz_common/dom/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event42f400.js","appmsg/test.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/test42f400.js","biz_wap/utils/mmversion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion42f400.js","appmsg/max_age.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/max_age42f400.js","biz_common/dom/attr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr42f400.js","biz_wap/utils/ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax42f400.js","appmsg/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/log42f400.js","biz_common/dom/class.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class42f400.js","biz_wap/utils/device.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/device42f400.js","appmsg/weapp_common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp_common42f400.js","biz_common/utils/string/html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html42f400.js","cps/tpl/list_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/list_tpl.html42f400.js","cps/tpl/card_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/card_tpl.html42f400.js","cps/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/banner_tpl.html42f400.js","biz_common/tmpl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl42f400.js","appmsg/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index438e37.js"};</script><script nonce="1623233646" type="text/javascript" id="moon_inline" > window.__mooninline=1; window.setTimeout(function() {  function __moonf__(){
+if(!window.__moonhasinit){
+window.__moonhasinit=!0,window.__moonclientlog=[],window.__wxgspeeds&&(window.__wxgspeeds.moonloadedtime=+new Date),
+"object"!=typeof JSON&&(window.JSON={
+stringify:function(){
+return"";
+},
+parse:function(){
+return{};
+}
+});
+var e=function(){
+function e(e){
+try{
+var o;
+/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)?o="writeLog":/(Android)/i.test(navigator.userAgent)&&(o="log"),
+o&&t(o,e);
+}catch(n){
+throw console.error(n),n;
+}
+}
+function t(e,o){
+var n,r,i={};
+n=top!=window?top.window:window;
+try{
+r=n.WeixinJSBridge,i=n.document;
+}catch(a){}
+e&&r&&r.invoke?r.invoke(e,{
+level:"info",
+msg:"[WechatFe][moon]"+o
+}):setTimeout(function(){
+i.addEventListener?i.addEventListener("WeixinJSBridgeReady",function(){
+t(e,o);
+},!1):i.attachEvent&&(i.attachEvent("WeixinJSBridgeReady",function(){
+t(e,o);
+}),i.attachEvent("onWeixinJSBridgeReady",function(){
+t(e,o);
+}));
+},0);
+}
+var n;
+localStorage&&JSON.parse(localStorage.getItem("__WXLS__moonarg"))&&"fromls"==JSON.parse(localStorage.getItem("__WXLS__moonarg")).method&&(n=!0),
+e(" moon init, moon_inline:"+window.__mooninline+", moonls:"+n),function(){
+var e={},o={},t={};
+e.COMBO_UNLOAD=0,e.COMBO_LOADING=1,e.COMBO_LOADED=2;
+var n=function(e,t,n){
+if(!o[e]){
+o[e]=n;
+for(var r=3;r--;)try{
+moon.setItem(moon.prefix+e,n.toString()),moon.setItem(moon.prefix+e+"_ver",moon_map[e]);
+break;
+}catch(i){
+moon.clear();
+}
+}
+},r=window.alert;
+window.__alertList=[],window.alert=function(e){
+r(e),window.__alertList.push(e);
+};
+var i=function(e){
+if(!e||!o[e])return null;
+var n=o[e];
+if("function"==typeof n&&!t[e]){
+var a={},s={
+exports:a
+},c=n(i,a,s,r);
+n=o[e]=c||s.exports,t[e]=!0;
+}
+if(".css"===e.substr(-4)){
+var d=document.getElementById(e);
+if(!d){
+d=document.createElement("style"),d.id=e;
+var _=/url\s*\(\s*\/(\"(?:[^\\\"\r\n\f]|\\[\s\S])*\"|'(?:[^\\'\n\r\f]|\\[\s\S])*'|[^)}]+)\s*\)/g,m=window.testenv_reshost||window.__moon_host||"res.wx.qq.com";
+n=n.replace(_,"url(//"+m+"/$1)"),d.innerHTML=n,document.getElementsByTagName("head")[0].appendChild(d);
+}
+}
+return n;
+};
+e.combo_status=e.COMBO_UNLOAD,e.run=function(){
+var o=e.run.info,t=o&&o[0],n=o&&o[1];
+if(t&&e.combo_status==e.COMBO_LOADED){
+var r=i(t);
+n&&n(r);
+}
+},e.use=function(o,t){
+window.__wxgspeeds&&(window.__wxgspeeds.seajs_use_time=+new Date),e.run.info=[o,t],
+e.run();
+},window.define=n,window.seajs=e;
+}(),function(){
+if(window.__nonce_str){
+var e=document.createElement;
+document.createElement=function(o){
+var t=e.apply(this,arguments);
+return"object"==typeof o&&(o=o.toString()),"string"==typeof o&&"script"==o.toLowerCase()&&t.setAttribute("nonce",window.__nonce_str),
+t;
+};
+}
+window.addEventListener&&window.__DEBUGINFO&&Math.random()<.01&&window.addEventListener("load",function(){
+var e=document.createElement("script");
+e.src=__DEBUGINFO.safe_js,e.type="text/javascript",e.async=!0;
+var o=document.head||document.getElementsByTagName("head")[0];
+o.appendChild(e);
+});
+}(),function(){
+function t(e){
+return"[object Array]"===Object.prototype.toString.call(e);
+}
+function n(e){
+return"[object Object]"===Object.prototype.toString.call(e);
+}
+function r(e){
+var t=e.stack+" "+e.toString()||"";
+try{
+if(window.testenv_reshost){
+var n="http(s)?://"+window.testenv_reshost,r=new RegExp(n,"g");
+t=t.replace(r,"");
+}else t=t.replace(/http(s)?:\/\/res\.wx\.qq\.com/g,"");
+for(var r=/\/([^.]+)\/js\/(\S+?)\.js(\,|:)?/g;r.test(t);)t=t.replace(r,function(e,o,t,n){
+return t+n;
+});
+}catch(e){
+t=e.stack?e.stack:"";
+}
+var i=[];
+for(o in u)u.hasOwnProperty(o)&&i.push(o+":"+u[o]);
+return i.push("STK:"+t.replace(/\n/g,"")),i.join("|");
+}
+function i(e){
+if(!e){
+var o=window.onerror;
+window.onerror=function(){},f=setTimeout(function(){
+window.onerror=o,f=null;
+},50);
+}
+}
+function a(e,o,t){
+if(!/^mp\.weixin\.qq\.com$/.test(location.hostname)){
+var n=[];
+t=t.replace(location.href,(location.origin||"")+(location.pathname||"")).replace("#wechat_redirect","").replace("#rd","").split("&");
+for(var r=0,i=t.length;i>r;r++){
+var a=t[r].split("=");
+a[0]&&a[1]&&n.push(a[0]+"="+encodeURIComponent(a[1]));
+}
+var s=new window.Image;
+return void(s.src=(o+n.join("&")).substr(0,1024));
+}
+var c;
+if(window.ActiveXObject)try{
+c=new ActiveXObject("Msxml2.XMLHTTP");
+}catch(d){
+try{
+c=new ActiveXObject("Microsoft.XMLHTTP");
+}catch(_){
+c=!1;
+}
+}else window.XMLHttpRequest&&(c=new XMLHttpRequest);
+c&&(c.open(e,o,!0),c.setRequestHeader("cache-control","no-cache"),c.setRequestHeader("Content-Type","application/x-www-form-urlencoded; charset=UTF-8"),
+c.setRequestHeader("X-Requested-With","XMLHttpRequest"),c.send(t));
+}
+function s(e){
+return function(o,t){
+if("string"==typeof o)try{
+o=new Function(o);
+}catch(n){
+throw n;
+}
+var r=[].slice.call(arguments,2),a=o;
+return o=function(){
+try{
+return a.apply(this,r.length&&r||arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:j,
+log:"timeout_error;host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},e(o,t);
+};
+}
+function c(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this,a=t||function(){};
+return t=function(){
+try{
+return a.apply(r,arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:x,
+log:"listener_error;type:"+o+";host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},a.moon_lid=E,b[E]=t,E++,e.call(r,o,t,n);
+};
+}
+function d(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this;
+return t=b[t.moon_lid],e.call(r,o,t,n);
+};
+}
+var _,m,l,w,u,p,f,h=/MicroMessenger/i.test(navigator.userAgent),g=/MPAPP/i.test(navigator.userAgent),v=window.define,y=0,x=2,O=4,j=9,D=10;
+if(window.__initCatch=function(e){
+_=e.idkey,m=e.startKey||0,l=e.limit,w=e.badjsId,u=e.reportOpt||"",p=e.extInfo||{},
+p.rate=p.rate||.5;
+},window.__moon_report=function(e,o){
+var i=!1,s="";
+try{
+s=top.location.href;
+}catch(c){
+i=!0;
+}
+var d=.5;
+if(p&&p.rate&&(d=p.rate),o&&"number"==typeof o&&(d=o),!(!/mp\.weixin\.qq\.com/.test(location.href)&&!/payapp\.weixin\.qq\.com/.test(location.href)||Math.random()>d||!h&&!g||top!=window&&!i&&!/mp\.weixin\.qq\.com/.test(s))&&(n(e)&&(e=[e]),
+t(e)&&""!=_)){
+var u="",f=[],v=[],y=[],x=[];
+"number"!=typeof l&&(l=1/0);
+for(var j=0;j<e.length;j++){
+var D=e[j]||{};
+if(!(D.offset>l||"number"!=typeof D.offset||D.offset==O&&p&&p.network_rate&&Math.random()>=p.network_rate)){
+var b=1/0==l?m:m+D.offset;
+f[j]="[moon]"+_+"_"+b+";"+D.log+";"+r(D.e||{})||"",v[j]=b,y[j]=1;
+}
+}
+for(var E=0;E<v.length;E++)x[E]=_+"_"+v[E]+"_"+y[E],u=u+"&log"+E+"="+f[E];
+if(x.length>0){
+a("POST",location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?","idkey="+x.join(";")+"&r="+Math.random()+"&lc="+f.length+u);
+var d=1;
+if(p&&p.badjs_rate&&(d=p.badjs_rate),w&&Math.random()<d){
+u=u.replace(/uin\:(.)*\|biz\:(.)*\|mid\:(.)*\|idx\:(.)*\|sn\:(.)*\|/,"");
+var S=new Image,I="https://badjs.weixinbridge.com/badjs?id="+w+"&level=4&from="+encodeURIComponent(location.host)+"&msg="+encodeURIComponent(u);
+S.src=I.slice(0,1024);
+}
+}
+}
+},window.setTimeout=s(window.setTimeout),window.setInterval=s(window.setInterval),
+Math.random()<.01&&window.Document&&window.HTMLElement){
+var b={},E=0;
+Document.prototype.addEventListener=c(Document.prototype.addEventListener),Document.prototype.removeEventListener=d(Document.prototype.removeEventListener),
+HTMLElement.prototype.addEventListener=c(HTMLElement.prototype.addEventListener),
+HTMLElement.prototype.removeEventListener=d(HTMLElement.prototype.removeEventListener);
+}
+var S=window.navigator.userAgent;
+if((/ip(hone|ad|od)/i.test(S)||/android/i.test(S))&&!/windows phone/i.test(S)&&window.localStorage&&window.localStorage.setItem){
+var I=window.localStorage.setItem,L=0;
+window.localStorage.setItem=function(e,o){
+if(!(L>=10))try{
+I.call(window.localStorage,e,o);
+}catch(t){
+t.stack&&console&&console.error&&console.error("[TryCatch]"+t.stack),window.__moon_report([{
+offset:D,
+log:"localstorage_error;"+t.toString(),
+e:t
+}]),L++,L>=3&&window.moon&&window.moon.clear&&moon.clear();
+}
+};
+}
+window.seajs&&v&&(window.define=function(){
+for(var o,t=[],n=arguments&&arguments[0],a=0,s=arguments.length;s>a;a++){
+var c=o=arguments[a];
+"function"==typeof o&&(o=function(){
+try{
+return c.apply(this,arguments);
+}catch(o){
+throw"string"==typeof n&&console.error("[TryCatch][DefineeErr]id:"+n),o.stack&&console&&console.error&&console.error("[TryCatch]"+o.stack),
+_&&window.__moon_report&&(window.__moon_report([{
+offset:y,
+log:"define_error;id:"+n+";",
+e:o
+}]),i(f)),e(" [define_error]"+JSON.stringify(r(o))),o;
+}
+},o.toString=function(e){
+return function(){
+return e.toString();
+};
+}(arguments[a])),t.push(o);
+}
+return v.apply(this,t);
+});
+}(),function(o){
+function t(e,o,t){
+return window.__DEBUGINFO?(window.__DEBUGINFO.res_list||(window.__DEBUGINFO.res_list=[]),
+window.__DEBUGINFO.res_list[e]?(window.__DEBUGINFO.res_list[e][o]=t,!0):!1):!1;
+}
+function n(e){
+var o=new TextEncoder("utf-8").encode(e),t=crypto.subtle||crypto.webkitSubtle;
+return t.digest("SHA-256",o).then(function(e){
+return r(e);
+});
+}
+function r(e){
+for(var o=[],t=new DataView(e),n=0;n<t.byteLength;n+=4){
+var r=t.getUint32(n),i=r.toString(16),a="00000000",s=(a+i).slice(-a.length);
+o.push(s);
+}
+return o.join("");
+}
+function i(e,o,t){
+if("object"==typeof e){
+var n=Object.prototype.toString.call(e).replace(/^\[object (.+)\]$/,function(e,o){
+return o;
+});
+if(t=t||e,"Array"==n){
+for(var r=0,i=e.length;i>r;++r)if(o.call(t,e[r],r,e)===!1)return;
+}else{
+if("Object"!==n&&a!=e)throw"unsupport type";
+if(a==e){
+for(var r=e.length-1;r>=0;r--){
+var s=a.key(r),c=a.getItem(s);
+if(o.call(t,c,s,e)===!1)return;
+}
+return;
+}
+for(var r in e)if(e.hasOwnProperty(r)&&o.call(t,e[r],r,e)===!1)return;
+}
+}
+}
+var a=o.localStorage,s=document.head||document.getElementsByTagName("head")[0],c=1,d=11,_=12,m=13,l=window.__allowLoadResFromMp?1:2,w=window.__allowLoadResFromMp?1:0,u=l+w,p=window.testenv_reshost||window.__moon_host||"res.wx.qq.com",f=new RegExp("^(http(s)?:)?//"+p);
+window.__loadAllResFromMp&&(p="mp.weixin.qq.com",l=0,u=l+w);
+var h={
+prefix:"__MOON__",
+loaded:[],
+unload:[],
+clearSample:!0,
+hit_num:0,
+mod_num:0,
+version:1003,
+cacheData:{
+js_mod_num:0,
+js_hit_num:0,
+js_not_hit_num:0,
+js_expired_num:0,
+css_mod_num:0,
+css_hit_num:0,
+css_not_hit_num:0,
+css_expired_num:0
+},
+init:function(){
+h.loaded=[],h.unload=[];
+var e,t,r;
+if(window.no_moon_ls&&(h.clearSample=!0),a){
+var s="_moon_ver_key_",c=a.getItem(s);
+c!=h.version&&(h.clear(),a.setItem(s,h.version));
+}
+if((-1!=location.search.indexOf("no_moon1=1")||-1!=location.search.indexOf("no_lshttps=1"))&&h.clear(),
+a){
+var d=1*a.getItem(h.prefix+"clean_time"),_=+new Date;
+if(_-d>=1296e6){
+h.clear();
+try{
+!!a&&a.setItem(h.prefix+"clean_time",+new Date);
+}catch(m){}
+}
+}
+i(moon_map,function(i,s){
+if(t=h.prefix+s,r=!!i&&i.replace(f,""),e=!!a&&a.getItem(t),version=!!a&&(a.getItem(t+"_ver")||"").replace(f,""),
+h.mod_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_mod_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_mod_num++,
+h.clearSample||!e||r!=version)h.unload.push(r.replace(f,"")),r&&-1!=r.indexOf(".css")?e?r!=version&&h.cacheData.css_expired_num++:h.cacheData.css_not_hit_num++:r&&-1!=r.indexOf(".js")&&(e?r!=version&&h.cacheData.js_expired_num++:h.cacheData.js_not_hit_num++);else{
+if("https:"==location.protocol&&window.moon_hash_map&&window.moon_hash_map[s]&&window.crypto)try{
+n(e).then(function(e){
+window.moon_hash_map[s]!=e&&console.log(s);
+});
+}catch(c){}
+try{
+var d="//# sourceURL="+s+"\n//@ sourceURL="+s;
+o.eval.call(o,'define("'+s+'",[],'+e+")"+d),h.hit_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_hit_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_hit_num++;
+}catch(c){
+h.unload.push(r.replace(f,""));
+}
+}
+}),h.load(h.genUrl());
+},
+genUrl:function(){
+var e=h.unload;
+if(!e||e.length<=0)return[];
+var o,t,n="",r=[],i={},a=-1!=location.search.indexOf("no_moon2=1"),s="//"+p;
+-1!=location.href.indexOf("moon_debug2=1")&&(s="//mp.weixin.qq.com");
+for(var c=0,d=e.length;d>c;++c){
+/^\/(.*?)\//.test(e[c]);
+var _=/^\/(.*?)\//.exec(e[c]);
+_.length<2||!_[1]||(t=_[1],n=i[t],n?(o=n+","+e[c],o.length>1e3||a?(r.push(n+"?v="+h.version),
+n=location.protocol+s+e[c],i[t]=n):(n=o,i[t]=n)):(n=location.protocol+s+e[c],i[t]=n));
+}
+for(var m in i)i.hasOwnProperty(m)&&r.push(i[m]);
+return r;
+},
+load:function(e){
+if(window.__wxgspeeds&&(window.__wxgspeeds.mod_num=h.mod_num,window.__wxgspeeds.hit_num=h.hit_num),
+!e||e.length<=0)return seajs.combo_status=seajs.COMBO_LOADED,seajs.run(),console.debug&&console.debug("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num),
+void window.__moonclientlog.push("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num);
+seajs.combo_status=seajs.COMBO_LOADING;
+var o=0,t=+new Date;
+window.__wxgspeeds&&(window.__wxgspeeds.combo_times=[],window.__wxgspeeds.combo_times.push(t)),
+i(e,function(n){
+h.request(n,u,function(){
+if(window.__wxgspeeds&&window.__wxgspeeds.combo_times.push(+new Date),o++,o==e.length){
+var n=+new Date-t;
+window.__wxgspeeds&&(window.__wxgspeeds.mod_downloadtime=n),seajs.combo_status=seajs.COMBO_LOADED,
+seajs.run(),console.debug&&console.debug("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms"),
+window.__moonclientlog.push("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms");
+}
+});
+});
+},
+request:function(o,n,r){
+if(o){
+n=n||0,o.indexOf("mp.weixin.qq.com")>-1&&((new Image).src=location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?idkey=27613_32_1&r="+Math.random(),
+window.__moon_report([{
+offset:_,
+log:"load_script_from_mp: "+o
+}],1));
+var i=-1;
+window.__DEBUGINFO&&(__DEBUGINFO.res_list||(__DEBUGINFO.res_list=[]),__DEBUGINFO.res_list.push({
+type:"js",
+status:"pendding",
+start:+new Date,
+end:0,
+url:o
+}),i=__DEBUGINFO.res_list.length-1),-1!=location.search.indexOf("no_lshttps=1")&&(o=o.replace("http://","https://"));
+var a=document.createElement("script");
+a.src=o,a.type="text/javascript",a.async=!0,a.down_time=+new Date,a.onerror=function(s){
+t(i,"status","error"),t(i,"end",+new Date);
+var _=new Error(s);
+if(n>=0)if(w>n){
+var l=o.replace("res.wx.qq.com","mp.weixin.qq.com");
+h.request(l,n,r);
+}else h.request(o,n,r);else window.__moon_report&&window.__moon_report([{
+offset:c,
+log:"load_script_error: "+o,
+e:_
+}],1);
+if(n==w-1&&window.__moon_report([{
+offset:d,
+log:"load_script_error: "+o,
+e:_
+}],1),-1==n){
+var u="ua: "+window.navigator.userAgent+", time="+(+new Date-a.down_time)+", load_script_error -1 : "+o;
+window.__moon_report([{
+offset:m,
+log:u
+}],1);
+}
+window.__moonclientlog.push("moon load js error : "+o+", error -> "+_.toString()),
+e("moon_request_error url:"+o);
+},"undefined"!=typeof moon_crossorigin&&moon_crossorigin&&a.setAttribute("crossorigin",!0),
+a.onload=a.onreadystatechange=function(){
+t(i,"status","loaded"),t(i,"end",+new Date),!a||a.readyState&&!/loaded|complete/.test(a.readyState)||(t(i,"status","200"),
+a.onload=a.onreadystatechange=null,"function"==typeof r&&r());
+},n--,s.appendChild(a),e("moon_request url:"+o+" retry:"+n);
+}
+},
+setItem:function(e,o){
+!!a&&a.setItem(e,o);
+},
+clear:function(){
+a&&(i(a,function(e,o){
+~o.indexOf(h.prefix)&&a.removeItem(o);
+}),console.debug&&console.debug("[moon] clear"));
+},
+idkeyReport:function(e,o,t){
+t=t||1;
+var n=e+"_"+o+"_"+t;
+(new Image).src="/mp/jsmonitor?idkey="+n+"&r="+Math.random();
+}
+};
+seajs&&seajs.use&&"string"==typeof window.__moon_mainjs&&seajs.use(window.__moon_mainjs),
+window.moon=h;
+}(window),function(){
+try{
+Math.random()<1;
+}catch(e){}
+}(),window.moon.init();
+};
+e(),!!window.__moon_initcallback&&window.__moon_initcallback(),window.__wxgspeeds&&(window.__wxgspeeds.moonendtime=+new Date);
+}
+}
+__moonf__(); }, 25);</script><script nonce="1623233646" type="text/javascript">
+    var real_show_page_time = +new Date();
+    if (!!window.addEventListener){
+        window.addEventListener("load", function(){
+            window.onload_endtime = +new Date();
+        });
+    }
+
+    
+    if(typeof seajs != 'undefined' && seajs.config){
+        try{
+            seajs.config({
+              'map': [
+                [ '.js', '.js?v=' + (+new Date())]
+              ]
+            });
+        }catch(e){
+            console.info('not support seajs config');
+        }
+    }
+
+    
+</script>
+
+    </body>
+    <script nonce="1623233646" type="text/javascript">document.addEventListener("touchstart", function() {},false);</script>
+</html>
+

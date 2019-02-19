@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/10/17" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/10/17</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    border-top: 1px solid #f0f0f0;
+    color: black;
+    margin-bottom: 30px;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+
+
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+
+.singleweibotext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+
+.singleweiboimage{
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin-left: 25px;
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedheader{
+
+}
+
+.singlefeedlogo{
+    float: left;
+    /*width: 24px;*/
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.singlefeedlogo img{
+    float: left;
+    width: 13px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+
+    /*width: 80%;
+    height: 80%;*/
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+.singlefeedtext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/10/16/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/10/17/index.html">2017/10/17</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/10/18/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Android ]</span>  
+ Exploiting on CVE-2016-6787，CVE-2016-6787 漏洞是位于 Android 内核 perf 子系统中的提权漏洞：   <a href="https://hardenedlinux.github.io/system-security/2017/10/16/Exploiting-on-CVE-2016-6787.html" rel="nofollow">https://hardenedlinux.github.io/system-security/2017/10/16/Exploiting-on-CVE-2016-6787.html</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ APT ]</span>  卡巴斯基实验室对 BlackOasis APT 行动的调查分析：    <a href="https://securelist.com/blackoasis-apt-and-new-targeted-attacks-leveraging-zero-day-exploit/82732/" rel="nofollow">https://securelist.com/blackoasis-apt-and-new-targeted-attacks-leveraging-zero-day-exploit/82732/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Industry News ]</span>  Adobe 修复了在 Black Oasis APT 行动中使用的 Flash 0day：   <a href="https://threatpost.com/adobe-patches-flash-zero-day-exploited-by-black-oasis-apt/128467/" rel="nofollow">https://threatpost.com/adobe-patches-flash-zero-day-exploited-by-black-oasis-apt/128467/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ IoTDevice ]</span>  IoT 安全攻击面介绍：   <a href="https://www.peerlyst.com/posts/getting-started-with-iot-security-mapping-the-attack-surface-aditya-gupta" rel="nofollow">https://www.peerlyst.com/posts/getting-started-with-iot-security-mapping-the-attack-surface-aditya-gupta</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DML0dDfW4AEzHaM.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/DML0dDfW4AEzHaM.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Linux ]</span>  
+ Linux 内核 fsnotify 实现过程中的条件竞争本地提权漏洞 Exploit（CVE-2017-7533）：   <a href="https://github.com/hardenedlinux/offensive_poc/tree/master/CVE-2017-7533" rel="nofollow">https://github.com/hardenedlinux/offensive_poc/tree/master/CVE-2017-7533</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>   Cisco ASA 系列文章 5：libptmalloc 的 GDB 调试插件。来自 NCC Group：   <a href="https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2017/october/cisco-asa-blog-series-part-five-libptmalloc-gdb-plugin/%C2%A0" rel="nofollow">https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2017/october/cisco-asa-blog-series-part-five-libptmalloc-gdb-plugin/ </a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DMRbETpWAAEebR-.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/DMRbETpWAAEebR-.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ SecurityAdvisory ]</span>  Adobe Flash Player 远程代码执行漏洞补丁发布( CVE-2017-10952 ) ：   <a href="https://helpx.adobe.com/security/products/flash-player/apsb17-32.html" rel="nofollow">https://helpx.adobe.com/security/products/flash-player/apsb17-32.html</a> </p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>   WinDBG Anti-RootKit 扩展 v2.5 RC2 版本：  <a href="https://sww-it.ru/2017-10-16/1474%C2%A0" rel="nofollow">https://sww-it.ru/2017-10-16/1474 </a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DMQDZz3W4AAT27W.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/DMQDZz3W4AAT27W.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>   WHID - WiFi HID Injector - An USB Rubberducky / BadUSB On Steroids：  <a href="https://github.com/whid-injector/WHID%C2%A0" rel="nofollow">https://github.com/whid-injector/WHID </a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  DbgShell - A PowerShell front-end for the Windows debugger engine：   <a href="https://github.com/Microsoft/DbgShell/" rel="nofollow">https://github.com/Microsoft/DbgShell/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  
+Passionfruit - 长亭科技开源的一款 iOS APP 黑客分析工具：   <a href="https://github.com/chaitin/passionfruit" rel="nofollow">https://github.com/chaitin/passionfruit</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  Adobe ColdFusion RMI Registry.bind() 反序列化远程代码执行漏洞披露：    <a href="https://www.nccgroup.trust/uk/our-research/technical-advisory-adobe-coldfusion-rmi-registry.bind-deserialisation-rce/?research=Technical+advisories" rel="nofollow">https://www.nccgroup.trust/uk/our-research/technical-advisory-adobe-coldfusion-rmi-registry.bind-deserialisation-rce/?research=Technical+advisories</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>   LLVM 编译器中的空指针解引用漏洞（llvm::ScalarEvolution::getMulExpr）：   <a href="https://bugs.llvm.org/show_bug.cgi?id=34968%C2%A0" rel="nofollow">https://bugs.llvm.org/show_bug.cgi?id=34968 </a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  
+Windows 内核 nt!RtlpCopyLegacyContextX86 Kernel Pool 信息泄露漏洞（CVE-2017-11784）：   <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1311" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1311</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  
+基于 Windows 事件日志定位和解码恶意 PowerShell 脚本：   <a href="http://az4n6.blogspot.com/2017/10/finding-and-decoding-malicious.html" rel="nofollow">http://az4n6.blogspot.com/2017/10/finding-and-decoding-malicious.html</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ WirelessSecurity ]</span>  
+Wi-Fi WPA2 协议被曝安全漏洞。Clients 加入 WPA2 网络的 Four-way 握手过程中攻击者可以发起 Key Reinstallation 攻击，成功之后可以实现数据包被解密、数据包重放、TCP 链路劫持等：  <a href="https://threatpost.com/krack-attack-devastates-wi-fi-security/128461/%C2%A0" rel="nofollow">https://threatpost.com/krack-attack-devastates-wi-fi-security/128461/ </a> <a href="https://www.krackattacks.com/%C2%A0" rel="nofollow">https://www.krackattacks.com/ </a> <a href="https://papers.mathyvanhoef.com/ccs2017.pdf" rel="nofollow">https://papers.mathyvanhoef.com/ccs2017.pdf</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Android ]</span>  Android APP SSL 相关漏洞的研究报告《Danger is My Middle Name: Experimenting with SSL Vulnerabilities in Android Apps》： 
+<a href="https://arxiv.org/ftp/arxiv/papers/1505/1505.00589.pdf" rel="nofollow">https://arxiv.org/ftp/arxiv/papers/1505/1505.00589.pdf</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Browser ]</span>  深入剖析 WebKit： <a href="http://www.starming.com/2017/10/11/deeply-analyse-webkit/" rel="nofollow">http://www.starming.com/2017/10/11/deeply-analyse-webkit/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Browser ]</span>  Browser UI Security 技术白皮书，来自 腾讯玄武实验室 xisigr： <a href="http://xlab.tencent.com/cn/2017/10/16/browser-ui-security-whitepaper/" rel="nofollow">http://xlab.tencent.com/cn/2017/10/16/browser-ui-security-whitepaper/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Industry News ]</span>   网络安全监控工具 Bro 昨天修复了其 ContentLine 组件的一个越界写漏洞： 
+<a href="http://blog.bro.org/2017/10/bro-252-242-release-security-update.html" rel="nofollow">http://blog.bro.org/2017/10/bro-252-242-release-security-update.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Industry News ]</span>  Chrome 官方最近从三个方面着手解决 Windows 版 Chrome 用户被 Unwanted Software 影响用户体验的问题： 
+<a href="https://www.blog.google/products/chrome/cleaner-safer-web-chrome-cleanup/" rel="nofollow">https://www.blog.google/products/chrome/cleaner-safer-web-chrome-cleanup/</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Malware ]</span>  热门游戏被病毒团伙利用 每天感染数十万台电脑： <a href="https://mp.weixin.qq.com/s/1Y8Pam_RfvbdPnkOIEB9Fg" rel="nofollow">https://mp.weixin.qq.com/s/1Y8Pam_RfvbdPnkOIEB9Fg</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Others ]</span>  威胁情报在安全运维中的应用，来自 <a href="http://360:https://www.slideshare.net/JeremyLi10/application-of-threat-intelligence-in-security-operation" rel="nofollow">360：https://www.slideshare.net/JeremyLi10/application-of-threat-intelligence-in-security-operation</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Others ]</span>  利用内存破坏实现Python沙盒逃逸： <a href="https://mp.weixin.qq.com/s/s9fAskmp4Bb42OYsiQJFaw" rel="nofollow">https://mp.weixin.qq.com/s/s9fAskmp4Bb42OYsiQJFaw</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Programming ]</span>  Lua程序逆向之Luac文件格式分析： <a href="https://mp.weixin.qq.com/s/aVZw7iZVbyXYfYPo8fpH_w" rel="nofollow">https://mp.weixin.qq.com/s/aVZw7iZVbyXYfYPo8fpH_w</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ SecurityProduct ]</span>  Ikraus 反病毒软件远程代码执行漏洞披露，含POC：
+ <a href="https://blogs.securiteam.com/index.php/archives/3485" rel="nofollow">https://blogs.securiteam.com/index.php/archives/3485</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Tools ]</span>  macSubstrate - Substrate for macOS，macOS 系统中跨进程注入代码的工具，类似于 iOS 中的 Cydia Substrate： 
+<a href="https://github.com/wzqcongcong/macSubstrate" rel="nofollow">https://github.com/wzqcongcong/macSubstrate</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Vulnerability ]</span>  ROCA: Vulnerable RSA generation (CVE-2017-15361)，Infineon Technologies AG 公司产的智能卡、Token和硬件芯片的密钥生成过程存在漏洞，存在因数分解（factorization）攻击： 
+<a href="https://crocs.fi.muni.cz/public/papers/rsa_ccs17" rel="nofollow">https://crocs.fi.muni.cz/public/papers/rsa_ccs17</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Windows ]</span>  内存注入利用“WinSxS”绕过UAC保护代码开源： <a href="https://mp.weixin.qq.com/s/loRg8-FSfDIZg9_YIWurhg" rel="nofollow">https://mp.weixin.qq.com/s/loRg8-FSfDIZg9_YIWurhg</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ WirelessSecurity ]</span>  思科官网公开了 WiFi WPA KRACK 攻击相关的多个漏洞的介绍： 
+<a href="https://blogs.cisco.com/security/wpa-vulns" rel="nofollow">https://blogs.cisco.com/security/wpa-vulns</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/10/16/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/10/17/index.html">2017/10/17</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/10/18/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

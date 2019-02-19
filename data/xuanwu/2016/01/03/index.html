@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/01/03" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/01/03</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/01/02/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/01/03/index.html">2016/01/03</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/01/04/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>jsoo @_jsoo_</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Security Assessment of BlackBerry Messenger for Android - <a href="https://cedricvb.be/wp-content/files/bbm-report.pdf" rel="nofollow">https://cedricvb.be/wp-content/files/bbm-report.pdf</a></p>
+<div class="translated" id="80169">
+<p>﻿"即时通信工具 BlackBerry Messenger Android 版本安全评估   <a href="https://t.co/O9Fi5AunjC" rel="nofollow">https://t.co/O9Fi5AunjC</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>dragosr @dragosr</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  CopperheadOS - security hardened Android <a href="http://goo.gl/GzrXCU" rel="nofollow">http://goo.gl/GzrXCU</a></p>
+<div class="translated" id="80286">
+<p>﻿"CopperheadOS - 安全加固版本的 Android 系统，开源：   <a href="https://t.co/y1RNGLJ19D" rel="nofollow">https://t.co/y1RNGLJ19D</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Device </i>]  UPC Router WPA2 pass recovery tool : <a href="http://haxx.in/upc_keys.c" rel="nofollow">http://haxx.in/upc_keys.c</a></p>
+<div class="translated" id="80044">
+<p>﻿"UPC 路由器 WPA2 密码恢复工具， .c 文件下载:   <a href="https://t.co/Bz9W3O4vNu" rel="nofollow">https://t.co/Bz9W3O4vNu</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>HackSys Team @HackSysTeam</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Fuzzing </i>]  Retweeted Binni Shah (@  binitamshah):
+
+The Art of Fuzzing without Fuzzing : <a href="https://github.com/bnagy/slides/blob/master/fuzzing_without_pub.pdf" rel="nofollow">https://github.com/bnagy/slides/blob/master/fuzzing_without_pub.pdf</a> (Slides) cc:... <a href="http://fb.me/7XzHCOHpr" rel="nofollow">http://fb.me/7XzHCOHpr</a></p>
+<div class="translated" id="80136">
+<p>﻿"The Art of Fuzzing without Fuzzing，来自 Ben Nagy Github:   <a href="https://t.co/Ou39znI1HQ%C2%A0" rel="nofollow">https://t.co/Ou39znI1HQ </a> <a href="https://t.co/zW70JvvuL0" rel="nofollow">https://t.co/zW70JvvuL0</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  itrace ios private methods <a href="https://github.com/waruqi/itrace" rel="nofollow">https://github.com/waruqi/itrace</a></p>
+<div class="translated" id="80264">
+<p>﻿"itrace - Trace iOS/Mac 的私有方法，来自 waruqi   <a href="https://t.co/Jbg3zngYjP" rel="nofollow">https://t.co/Jbg3zngYjP</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  CVE-2014-2851 Linux Kernel group_info UAF Exploitation <a href="https://cyseclabs.com/page?n=02012016" rel="nofollow">https://cyseclabs.com/page?n=02012016</a></p>
+<div class="translated" id="80155">
+<p>﻿"Linux 内核 group_info UAF 漏洞利用（CVE-2014-2851）   <a href="https://t.co/AJDk9aJVtO" rel="nofollow">https://t.co/AJDk9aJVtO</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Tom Keetch @tkeetch </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  Blog Post: Compiler-Introduced Double-Fetch Vulnerabilities – Understanding XSA-155 - <a href="http://tkeetch.co.uk/blog/?p=58" rel="nofollow">http://tkeetch.co.uk/blog/?p=58</a></p>
+<div class="translated" id="80175">
+<p>﻿"编译器引入的 Double-Fetch 漏洞（XSA-155），共享内存应该被标记为 volatile，避免编译器优化引入 Double-Fetch Bug:    <a href="https://t.co/3CKTrJkIUl" rel="nofollow">https://t.co/3CKTrJkIUl</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  MaL DeveL @maldevel </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  "Linux Kernel pptp_bind()  pptp_connect() Validation Flaw Lets Local Users View Portions of System Memory" <a href="http://www.securitytracker.com/id/1034549" rel="nofollow">http://www.securitytracker.com/id/1034549</a></p>
+<div class="translated" id="80207">
+<p>﻿"Linux 内核 pptp_bind() pptp_connect() 验证缺陷允许本地用户查看部分的系统内存(CVE-2015-8569)：   <a href="https://t.co/MebPn0TnIE" rel="nofollow">https://t.co/MebPn0TnIE</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Sarah Edwards @iamevltwin </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mac OS X </i>]  Manual Analysis of ‘NSKeyedArchiver’ Formatted Plist Files - A Review of the NEW OS X 10.11 “Recent Items” #DFIR <a href="http://www.mac4n6.com/blog/2016/1/1/manual-analysis-of-nskeyedarchiver-formatted-plist-files-a-review-of-the-new-os-x-1011-recent-items" rel="nofollow">http://www.mac4n6.com/blog/2016/1/1/manual-analysis-of-nskeyedarchiver-formatted-plist-files-a-review-of-the-new-os-x-1011-recent-items</a></p>
+<div class="translated" id="80121">
+<p>﻿"手动分析 'NSKeyedArchiver' 格式的 Plist 文件， OS X 10.11 版本的新 'Recent Items'：   <a href="https://t.co/fyrERX94NL" rel="nofollow">https://t.co/fyrERX94NL</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Network </i>]  DHCPwn - A DHCP IP exhaustion tool <a href="https://github.com/mschwager/dhcpwn" rel="nofollow">https://github.com/mschwager/dhcpwn</a></p>
+<div class="translated" id="80263">
+<p>﻿"DHCPwn - DHCP IP 耗尽工具   <a href="https://t.co/aAmztAXkMB" rel="nofollow">https://t.co/aAmztAXkMB</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>HackSys Team @HackSysTeam</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Retweeted Binni Shah (@  binitamshah):
+
+Writing an OS in Rust - Remap the Kernel : <a href="http://os.phil-opp.com/remap-the-kernel.html" rel="nofollow">http://os.phil-opp.com/remap-the-kernel.html</a> <a href="http://fb.me/3OX1epjxa" rel="nofollow">http://fb.me/3OX1epjxa</a></p>
+<div class="translated" id="80137">
+<p>﻿"用 Rust 语言写一个操作系统系列 - 内核重映射:    <a href="https://t.co/0aRaXC8G8l" rel="nofollow">https://t.co/0aRaXC8G8l</a> <a href="https://t.co/cVUggjClmX" rel="nofollow">https://t.co/cVUggjClmX</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Daniel Bilar @daniel_bilar </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Comparison of airgap bypass techniques <a href="https://t.co/u1Tbj6Z1wl" rel="nofollow">https://t.co/u1Tbj6Z1wl</a></p>
+<div class="translated" id="80171">
+<p>﻿"物理隔离 Bypass 技术比较：   <a href="https://t.co/u1Tbj6Z1wl" rel="nofollow">https://t.co/u1Tbj6Z1wl</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CXbtR9hUoAAaxfR.png" target="_blank">
+<img src="CXbtR9hUoAAaxfR.png">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  SamEtMax @sam_et_max </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  BTFS (bittorrent filesystem) <a href="https://github.com/johang/btfs" rel="nofollow">https://github.com/johang/btfs</a></p>
+<div class="translated" id="80269">
+<p>﻿"BTFS (bittorrent 文件系统)：   <a href="https://t.co/PZSlatupPI" rel="nofollow">https://t.co/PZSlatupPI</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  (An ((Even Better) Lisp) Interpreter (in Python)) : <a href="http://norvig.com/lispy2.html" rel="nofollow">http://norvig.com/lispy2.html</a></p>
+<div class="translated" id="80059">
+<p>﻿"一个更好的 Lisp 解释器(Python 写的):   <a href="https://t.co/zQI3cYj7Rn" rel="nofollow">https://t.co/zQI3cYj7Rn</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Kostya Kortchinsky @crypt0ad </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  ICYMI Windows Insider Preview: Nested Virtualization -- <a href="http://blogs.technet.com/b/virtualization/archive/2015/10/13/windows-insider-preview-nested-virtualization.aspx" rel="nofollow">http://blogs.technet.com/b/virtualization/archive/2015/10/13/windows-insider-preview-nested-virtualization.aspx</a></p>
+<div class="translated" id="80118">
+<p>﻿"微软 Technet Blog：Windows Insider Preview: 嵌套的虚拟化， 2015 年 10 月份的 Blog：   <a href="https://t.co/Tu7PuiU3XZ" rel="nofollow">https://t.co/Tu7PuiU3XZ</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Pentest </i>]  Redteam Cheatsheet : <a href="https://github.com/mdsecresearch/Publications/blob/master/cheatsheets/RedRelease.pdf" rel="nofollow">https://github.com/mdsecresearch/Publications/blob/master/cheatsheets/RedRelease.pdf</a> cc: @ domchell || @ hackerfantastic</p>
+<div class="translated" id="80074">
+<p>﻿"Redteam（渗透测试者）的备忘单:   <a href="https://t.co/MfApz5yXJC" rel="nofollow">https://t.co/MfApz5yXJC</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Georgia Weidman @georgiaweidman </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Sandbox </i>]  DLL Injection and much more in Python from @ s7ephen <a href="https://s7ephen.github.io/SandKit/" rel="nofollow">https://s7ephen.github.io/SandKit/</a></p>
+<div class="translated" id="80227">
+<p>﻿"SandKit - 沙箱技术研究辅助工具   <a href="https://t.co/ed9du50XrY" rel="nofollow">https://t.co/ed9du50XrY</a> Github 项目：   <a href="https://github.com/s7ephen/SandKit" rel="nofollow">https://github.com/s7ephen/SandKit</a> 很久没有更新了"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Christiaan Beek @ChristiaanBeek </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  A Unikernel Firewall for QubesOS: <a href="http://roscidus.com/blog/blog/2016/01/01/a-unikernel-firewall-for-qubesos/" rel="nofollow">http://roscidus.com/blog/blog/2016/01/01/a-unikernel-firewall-for-qubesos/</a></p>
+<div class="translated" id="80068">
+<p>﻿"用于 QubesOS 的防火墙， QubesOS 是运行在 XEN 中的桌面操作系统:   <a href="https://t.co/bWDqwe0x1e" rel="nofollow">https://t.co/bWDqwe0x1e</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/01/02/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/01/03/index.html">2016/01/03</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/01/04/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

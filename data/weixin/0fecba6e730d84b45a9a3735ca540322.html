@@ -1,0 +1,1692 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+
+
+        <script nonce="268828899" type="text/javascript">
+            window.logs = {
+                pagetime: {}
+            };
+            window.logs.pagetime['html_begin'] = (+new Date());
+        </script>
+        <title>
+ 【安天】Xcode非官方版本恶意代码污染事件（XcodeGhost）的分析与综述
+</title>
+        
+<style>.radius_avatar{display:inline-block;background-color:#fff;padding:3px;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;overflow:hidden;vertical-align:middle}.radius_avatar img{display:block;width:100%;height:100%;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;background-color:#eee}.rich_media_inner{word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.rich_media_area_primary{padding:20px 16px 12px;background-color:#fafafa}.rich_media_area_primary.voice{padding-top:66px}.rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{color:rgba(0,0,0,0.3);background-color:#fafafa}.rich_media_area_extra{padding:0 16px 24px}.rich_media_extra{padding-top:30px}.mpda_bottom_container .rich_media_extra{padding-top:24px}.mpda_bottom_container .rich_media_extra .mpad_more_list{right:-10px}html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;line-height:1.6}body{-webkit-touch-callout:none;font-family:-apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif;color:#333;background-color:#f2f2f2;letter-spacing:.034em}h1,h2,h3,h4,h5,h6{font-weight:400;font-size:16px}*{margin:0;padding:0}a{color:#576b95;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_title{font-size:22px;line-height:1.4;margin-bottom:14px}@supports(-webkit-overflow-scrolling:touch){.rich_media_title{font-weight:700}}.rich_media_meta_list{margin-bottom:22px;line-height:20px;font-size:0;word-wrap:break-word;word-break:break-all}.rich_media_meta_list em{font-style:normal}.rich_media_meta{display:inline-block;vertical-align:middle;margin:0 10px 10px 0;font-size:15px;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_meta.icon_appmsg_tag{margin-right:4px}.rich_media_meta.meta_tag_text{margin-right:0}.rich_media_meta_primary{display:block;margin-bottom:10px;font-size:15px}.meta_original_tag{padding:0 .5em;font-size:12px;line-height:1.4;background-color:#f2f2f2;color:#888}.meta_enterprise_tag img{width:30px;height:30px!important;display:block;position:relative;margin-top:-3px;border:0}.rich_media_meta_link{color:#576b95}.rich_media_meta_text{color:rgba(0,0,0,0.3)}.rich_media_meta_text.rich_media_meta_split{padding-left:10px}.rich_media_meta_text.rich_media_meta_split:before{position:absolute;top:50%;left:0;margin-top:-6px;content:' ';display:block;border-left:1px solid #888;width:200%;height:130%;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0}.rich_media_meta_text.article_modify_tag{position:relative}.rich_media_meta_nickname{position:relative}.rich_media_thumb_wrp{margin-bottom:6px}.rich_media_thumb_wrp .original_img_wrp{display:block}.rich_media_thumb{display:block;width:100%}.rich_media_content{overflow:hidden;color:#333;font-size:17px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;text-align:justify;position:relative;z-index:0}.rich_media_content *{max-width:100%!important;box-sizing:border-box!important;-webkit-box-sizing:border-box!important;word-wrap:break-word!important}.rich_media_content p{clear:both;min-height:1em}.rich_media_content em{font-style:italic}.rich_media_content fieldset{min-width:0}.rich_media_content .list-paddingleft-2{padding-left:2.2em}.rich_media_content .list-paddingleft-2 .list-paddingleft-2{padding-left:30px}.rich_media_content blockquote{margin:0;padding-left:10px;border-left:3px solid #dbdbdb}img{height:auto!important}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:portrait){.rich_media_area_extra{padding-bottom:34px}}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:landscape){.rich_media_area_primary{padding:20px 60px 15px 60px}.rich_media_area_extra{padding:0 60px 21px 60px}}@media screen and (min-width:1024px){.rich_media_area_primary_inner,.rich_media_area_extra_inner{max-width:677px;margin-left:auto;margin-right:auto}.rich_media_area_primary{padding-top:32px}}.appmsg_share_notice{font-size:16px;color:#888;position:relative;padding:1.25em 0;margin-bottom:1.75em}.appmsg_share_notice:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice_hd{font-weight:700;padding-bottom:.2em}.cell{padding:.8em 0;display:block;position:relative}.cell_hd,.cell_bd,.cell_ft{display:table-cell;vertical-align:middle;word-wrap:break-word;word-break:break-all;white-space:nowrap}.cell_primary{width:2000px;white-space:normal}.flex_cell{padding:10px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.flex_cell_primary{width:100%;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;box-flex:1;flex:1}.original_tool_area{display:block;padding:.75em 1em 0;-webkit-tap-highlight-color:rgba(0,0,0,0);color:#333;border:1px solid #eaeaea;margin:20px 0}.original_tool_area .tips_global{position:relative;padding-bottom:.5em;font-size:15px}.original_tool_area .tips_global:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dbdbdb;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:27px;height:27px;padding:0;margin-right:.5em}.original_tool_area .radius_avatar img{height:100%!important}.original_tool_area .flex_cell_bd{width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal}.original_tool_area .flex_cell_ft{font-size:14px;color:#888;padding-left:1em;white-space:nowrap}.original_tool_area .icon_access:after{content:" ";display:inline-block;height:8px;width:8px;border-width:1px 1px 0 0;border-color:#cbcad0;border-style:solid;transform:matrix(0.71,0.71,-0.71,0.71,0,0);-ms-transform:matrix(0.71,0.71,-0.71,0.71,0,0);-webkit-transform:matrix(0.71,0.71,-0.71,0.71,0,0);position:relative;top:-2px;top:-1px}.rich_media_global_msg{position:fixed;top:0;left:0;right:0;padding:.85em 35px .85em 15px;z-index:2;background-color:#c6e0f8;color:#888;font-size:12px}.rich_media_global_msg .icon_closed{position:absolute;right:15px;top:50%;margin-top:-5px;line-height:300px;overflow:hidden;-webkit-tap-highlight-color:rgba(0,0,0,0);background:transparent url(//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_appmsg_msg_closed_sprite.2x42f400.png) no-repeat 0 0;width:11px;height:11px;vertical-align:middle;display:inline-block;-webkit-background-size:100% auto;background-size:100% auto}.rich_media_global_msg .icon_closed:active{background-position:0 -17px}.rich_media_global_msg.voice{color:#1aad19;background-color:#e8f6e8;padding-left:43.3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.rich_media_global_msg.voice .ic_voice{position:absolute;top:50%;margin-top:-10px;left:15px;display:inline-block;width:13.3px;height:18.3px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAA3CAYAAAB+fggjAAAAAXNSR0IArs4c6QAACb9JREFUaAW9WX9wVMUd3917d5cf/Agp1OTuQgIlQqUoI1JI1Noojg2I+VU7hVrtDDpadRypgzKjU52x09KOdsS20ypSO/WPWttcAqhTOlSoU4FIoRUn0wEZIMndBUkwGEhyv97bfvaS97L77t3lHYUuc+z3935397vf/e4LJZfQnuPPsW0d25ZQzr9mELKSUnIVzHxB/Dh+lBOKf4OEk0FOyQAl/CyltIt5tL29d/V2FzIkLUQ4FA7dwon+KCF0Fee8rBBdS5aSs/D+PUrYbyKtkb9b9BzAlA7CERrqDN1DOH8C8HU57FwSGat6kBGypbcluhMwFj+75XWwemf1vHQqtZ0T3pCtelkp73uJ79s9bT39dqs5HQyFK79jcPIKFErtSgLHjPvQHQB0EFt2hDE2QHU6RMvpkODrw3o50Uk5p3w2N/SlUKhHTNZjskHBz2pi6ylbH22J/k3mOToYCAceIYT/AgYVPhxJQTkMQ792Ez/yQCY8d0fgRl0nj8J2G5z1mvSJ3qCMrYOTb5l0xQFBDIUDjxmcbzUFJnu621/kf/DUmlM9k7RLh4LtwRChxquck0bFCqWjxENuijXF/iXoioNVnZU36wZ5D7PTTCWsWhyp4uFYa+x1k3Y5ezj6oNgtdTVpL0Lo+mhr9BwO0Xib+/bcWYZB35Sdg/sXsOSNV8o5MXK0LfoKYXQDxpJOMZ8L1g8E33JQT6aeQRoJCOJEMxjxfCvSEtlnEq5Uj5h7Ayv2I8U+5w9du/va0oyD896ZV004RQKebIzQ53EQ/jJJubJQhUa2YBXPmqNgy8vPjZ67N+NgMh6/HwSfyURgniwqLvmJif8/+sNrY6O4XV5WxjKMuvHDQOl9uCksHmX0xydWn0hYBJfAgncXzBhNjjZSnX8Fq3ENdmWWUMUhS2Ebv5HrtjDNg/+B5IY4wos0cVukUskqUwj9xfKS2W9GSEwi5QdxFS5BMn54dGzkHkhOy0x18j9COY1O5VxmhGJylIxMjgUTC7WUkfrqJAkQpfuP3nFUElO4WUgwHHza0HU1wG1SGOi0jeSI+kf92hgZlXg0yajBV0gUwri4vqZud/O7PbhxkGiNvM5NWHKV3NN8LGQbuVdDsYIVzOzHOI+ygzYhR/RAxwdbELcPZDEp+Q+2YQcS2L+Zwc4gdSUQS7Oz5BwIKUqWyq5ApEdDsVmhBKaHnHDQVUg1uwKLkkm+USEScsbjId/ra+7fbaMThMHVdpoTjuyxXloqcUg+Eqe4WBb26/5hGXeCkynyfdA9Fo/SQeZlN/StjUQtmgQUFxVnKhyJlAUGOgP13OC3ygxGWZhhSYtkYqIicUHGnWCUluoFz8mzkRzOCf14Wfyikx2ThvQ0B6XZdvhi1QaoAfZHmiMf40xMJmih4BvxWQnbNCD3i/cunoYab4FMQwr5o4zb4Uh9ZMxOM3Fsf91YfPQfOAeLTJrouYc8K3rEII0ikBcKRLTEhUQNuo8E7NSGh4dnyDOFzIioOpxkZdqyXYGSAV2rMYjhIUamkL2ZcANvG+MWWS4DU/parDm2R8AiBj/Bz3IQe14DPKeDRho1hNyonFplhgp/mmaNhpH6s0VVToNFxR7TPcVFJVZdgMG4cNBq0LvRQhyA2vLaMyDrFouTL169KzBlGkEofdnScQYMXBI/raiuXC1fs4wz2iXLI+U0y7gd3tewL41IVhLvmM6X2eWycM7nZ9EEAXWgWDWPpjWg7tx8+IbD4llhNTadTn8XcWgVBphprbhbLQkngJK/ymTdoE/IuDPME5jYSYx1HLn3EH6/B77Rq/m+FG2L3d7X1Pe+kx5kCBJp4G0clDWmAJTD0db+NhO398GO4G3cMDJBbPIY9bShfgyb+OXqMwGPV9rrskFsc6t4fck0GRZPQ5GnZBpO4x/wvrAmKfP+FzjjYF9zn5i58s0ET8MX8hnGc+BxOGnFi8innBg7UUBsFaV6Pt1CeBMrKD73qG8CbPnKUHvg/lzG+tr6DlGWufJkEWQp/tjgyMBJPF+fWrhj4XSZeSlwJgaFIhyioY7gHvS3moYyK6TRO6JN0b0mzd6HOgIbEBK/gp7fzsOBGMLUX2Z+bWvvnb1T3sd2fYFbDgoET8/56UTqKEBrizDIeY1463tae1BGObeq9qrlBtXb4aRcmVvCmOjneFq+UFZW9lJ3Q3fee9lSmgAUBwUNd+N9CPjfTfDHO0pO+z1FK081nfpUoUuIuKPPD322Gav5OMjWBCURRBGN4GH0QCGvxSwHhcFguPLnGEip97AKXd5y39dPN5yOy4PaYXGrjKToRsTMIzg4M+38cZz+LNYWe8qZp1Izh0QlEVLfctMmzNb6gCP4GGxFcij5W7usHT++NjaI4uHpadr0KkbpZvAH7DKw9iRi98lsejbFcQWF2LJ/LvOe6Yl14m5eLavhU8gqkQdlWj5YnOSL+sXNWNFNmKT1NQsLkGAez3zcIHmfj44rKAYUd2Jxcek6HCP1cHD+Ig5DzonZnT3WdOyCWFGukRUIwkGTL069kdYz319MmlOf00EhjKpiWKPku7IiDF9X3RHMecvIsjIsPqdh1ewO3SXLOMF5HRQKvS39h5GNOmVlnZP1Mu4W9pZ5/4TDZh0ybHkt3iKOqcm0OaWDQpB52DZTQfQo+Vtl3C08kQGO2OStYtlGz6CuHJxZO3MPYnHYMsDJVSKpW3ghAOXKsxaPoup86q4c7F7cncSyHZANGen0Shl3C+PSPy/L4qmZ97525aAwiMLgQ8Uwp8tl3C2MASff00KJMRW3GXLtIFbwY1kXp/kaGXcL42AoDqHit6p5JxuuHfQwj1IvIhFO9QhyGk/QpskM/C3Gyo0y3YRdOzgnNOcTHJS0qYgVrBIfLE28gF75ToN3bySfrmsHM68tTo7JxuKJ+PUyPhWcqbQ5XarI+TRlZxQeENcOjitS5dMc5/oqu8F8+ODI4FrEoPVpBTfL8akK2YIc9DCiFAkoyTbUdNSU5XPK5Im/MQPeZOKZnpNdCu6AFOTgrJLZO2FDrogrUjyxPbQ/VOxgWyG9Fn71h6hoJkMC8exlvl8qQg6I66rE1A22Vz6PEuwZExe92CrQtmmU72U+fzQ9K/15XV1dsuudrhlc50t0XX8Izq1TdAh5I9rWf69Mc4ILdlCU9kNDn32ICvZS0wySAY2W+shSUdw6OSXTCtpioSgePZrPeydWTUncstF8MPRw1dFvunFO2CnYQaGEk3cSn8iWYyVeBGoImqtG6RHxQsQfEJVskE+34C22GxOfb8fiY40owtaAJ0qnciTxcvSlE7VfBPX3IQ8lb/U2R3dgBRGu7tt/AYJkZEGv/oaXAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.rich_media_global_msg.voice .icon_more{position:absolute;right:15px;top:50%;margin-top:-6.5px;width:8px;height:13px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAmCAYAAADeB1slAAAAAXNSR0IArs4c6QAAA49JREFUSA2tVk1IVFEUPveOmhQk1ibfvLFZSJtACqJIIpCIoB+imcFV2Z9ZUVnRomgRGFn2i6mFf5XVotCZMYmgIMhlq6BFENFiwjfPAosgFzXOvNu5o3fmeue98Y16F3PP+c453/fu/xCQmvZSWwwJaC0G6P8WND9IoTmbVFRycpqAdgBWkwRo94V960RsPn1aoPpN9RI6CR0WsDWcjAErtUiqTR/S18+HnNcSTv5zYrwDSatVMgLkH6aciwfj79WYW5+OT4xfsyPnBIgvwt872qBW45ZQzaMlJXCfMPJbDQgfRUoIhduVUW2TwArpaWyX+bnYU9JAAH44FaJIccqCW76Ib7NTjhOOvFPN/8q/IvE3cR+npFJgao9rkiSUXjD2GCNqzMnPbNPYjth3mqINlJAvTsk4kiJmWa3eQe8WpxwVzwjwgFFn/CorL29EkY9qovC5CFDrKq7JVoHl6zNTJCf53/lLk78SN/FcbJRx2cZCixC4ZATGXsu4as8YgQjGamN/q5atOotn4K3A1J4BUMbgsh7Wt6sx2bcV4AkjtSPJxkDjRQL0hVwg21zEglSzN+rdKeOybTtFcgK39ajWZDFWr+IZHxfGQ8mV0YA5nMGmDVcCPNcb8R5gYJ1UCWQfp6PFCI4NyZhrAV6EIiHGrPOAB0ImkW2c0la8u8ICc0wUCWrvC1dsw+3TnN6uanDaJ4zeiIfiA9wtWIAX8XspxeA6iuBlaN88hNzCNXk+JwFOuXJYW5tMQmc+EcqgzXGb2n9XFk1NstX5yKczl89JAF+6vRaBM1m5XAu//qkRGrtb8BThTtqH2/V0LmUWwbvsiREw8X0vcJHxxNbjNm3KUuVaMjmPFuWm2CPesHc/kp+yj06hFMhj/PIOOcfVFLk6xZT0G3vMTpmc27MusityZk/OBfKOwA05MPLIDJn3OJldcxTQotpBYOyEXVEWIw/NoInvuHOznSJfVDs0GzneNw9mI+eyOSPQI9phfCqPO38TFhHaFw/Eu/LliNiMESB5w6zkzD05F8mMYJr8mFC263Fa+vAadvXloj4toEcrjlgMjgrQrseHpBcfkm67WD6M6MN6lTWZeoZjyYxGLcB57MGnsEfF3fjU2G189QBpcUqmBLrnSs4504s8GjLxrwm5qYrg3dKFf6x6VbwQ3yOS/wz8+bS0ruwfELaBY2nyoNkn4gvW65GKRn4WForwP+dONHDaOHeZAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.preview_appmsg .rich_media_title{margin-top:2.3em}@media screen and (min-width:1024px){.rich_media_global_msg{position:relative;margin-bottom:32px}.preview_appmsg .rich_media_title.rich_media_title{margin-top:0}}.pages_reset{color:#333;line-height:1.6;font-size:16px;font-weight:400;font-style:normal;text-indent:0;letter-spacing:normal;text-align:left;text-decoration:none;white-space:normal}.weapp_element,.weapp_display_element,.mp-miniprogram{display:block;margin:1em 0}.share_audio_context{margin:16px 0}.weapp_text_link{font-size:17px}.weapp_text_link:before{content:'';display:inline-block;line-height:1;background-size:contain;background-repeat:no-repeat;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAB4RJREFUWAm1WUuMFGUQnn7szL5mdvbh7GwgEQUlS1weiagxxpigiUZeJgY1cMMDcDCGG8GLCWZvxHjh4BWUeDEsejBBEzWYKBBEiHAABBfCMOwsuzvszrvb+v6Zb7amt1ce0Up6qv6q+qq+/rv778dYkUeUqamp5dFodJPv++ts205blpX2PG8I5cTOiLol44zYZ8vl8vFkMnnlUVpZDwPK5/MpIbWrVqttFlLD0jwiBEHIaNbCGKJjQvai+I9Xq9VD8Xg8y9z76QcimM1mu3t6ej4UYh84jtOFxhBNJGxskhp5xIielZ37bHp6+tNUKnWPOYvp+xKcm5t7S4gclKIpFNGzsmjRkBnUOwNbZjQrtfZ2dnZ+vVgd+O1/CVqlUukjIXZYCqZADBuEJIllc4xh61zmaB9s7LDkHkYPwJgX1KEEx8fHO2TmjkjyPgLQmERIAjHajGnyjDGPOfQ3xvvQCz3ZS+sw5hYAsodbWBhNw4SNGCMBnR/MYS60jskhPyaHe7u4W5otmEGZ8v0gx2YsyDE0bc4Wx8glOe2Dn2No2hqPnuiNXC0tM9i4IA5LcksjNm0BNs417aMNAsRom3HoMD8wsu3QF06TIJaSRCJxXrDmamUBrVEYRejDmDY0JEgsLE4f8mkTj6tb1tsRLkEukiBY56Q4rizThI2okaNtjFlUx+Cr1vzIyTMz7uW/ik4mV7Yd24oMDrR5q1Z01Nav6a5yVsLwcvRS4CI1D5ge+MEdQhbgC1yECSQhjMNsYCGMQ2dzFeuLYxOxibuVBec3cpekY7XtWwZK8a75sMajj2yzcsd5BnccM4PCeg/JoQjJwAY4TFgUMeRjXK54kS/H6uR6e1xvw4vJyuNLYh5yrt8s2d//MtV2M1Nyvvo2F9u5LVUSJEJNPPtKrS7XdXdL6GOzG+LYqIJNUiShYyRDjRw2OXnmnntnsmInE663e3u6uHZVZy2ZsH1sa4Y7ant2DBURu3aj6Jz9c9YBVuNRhz6pvwlju1gsPikzaG78CKIxNgh1sAj91MhFztXrRQf2C+vi1Y721tMC/vZYPQb78rWCE8Tr/uCEJyZbrprNAAST4QOAIGj6qBnDGPjZgmeS0gNRc1jD8D1xx+y978/XJh4awl54nHOl8Do6STKoDarxg5gmxpj2yTEwbtZhDvSlKwUzy+lU1NPxFvz8EcSzpnnYXDCD3AtqFtOFGNM+kMBYx+DzPD/y86m8e+7SnBON2v7qlR01ncP6Gg9uriSlGSSAYyTDhl/7bmTK9tXxkj3ydFetL4lTqT5jyIdgTB/0qT9m3R9/zbvT+Yottfw3XuktJxP1Q61rh/QfcuUcHBKmzcIwdCILQE/crVpHj9+JZe7U17hSyau89lJPxYDVD3KJm5qpWWMnJqMIY+nZvKGv/NQT7ebwcicI5RhYiHBLYx30WQxObWNMyQm5Q0cy7ULK6up0/PUj3dWXn48bckEMGrGZkPJ3bhssunLmLR2qXzyIacxitvT2XZm9jABWMEmD6QPJYzILILdyeWf13Y39ZTSEMAeaQpuxZUujHn26fhCPmI6Dmy0OvIE1AyyqfYWiH7n6d9GJxWz/7df7FpBjLjQETag1Me1HPKxXwJfByXeLRViUYGiI3F/NSYr1raPdNoXh594S75nVT1Z/mUz6kAfhGJp2EI887gRy5Bw0M/g7ndQI0gZISJkpyU6WbTm7m8RYELnFkh+ZnK4/qCTiWF4XXtk6X5NkLjX7iz4rh9keAxBODaKNWKrf9Qd627yC3Cm++2m6DbHWYpHI2Im7UfFZqf6oN9DrmAsPWIquH8QjR8dRG2O88JszW56kTwvRYSayOYtD37xdsT8/ejtWq/nWsqXttdXDHdW+RNTHY9Vv5/IuTgPHtfxd7w0V04/V1ziND5IiCeTofsyTw3tRnqyfNY9b8qg1JkktXwo0EKAlg23eO2/2l7/5YaoNTyPYNIFEt6xxr/aVQQ75QTxJkEBYnDFocEKOqYQHVnn+uiCBLji1IBnCBiVZ+U6fv+dmshV7cqpq9fY4/tBg1HtudXe1zeyuRs9fHMRrEvQBQT9smb1Z+YphHljr3cWJF2gB7NOENAhAjrWGP9iIPuZhDOFYa/hD8KOxWOyAweAHEnxpqnvrvyyofbQZg4boZsEcjrUO4mX2Wl6a6jdhQeAtSoJ70YDNoIMFwmJoqImF5Wgf8jHGRhx0Y9vLNzrkNQligPdRuZpHgyDEKIixMPMQow82/dC04YdgzFwdg0+2Uf1OjPzmOYhBQ6xCoYCX9626WDOo9pqNqHUO7IfBy0XxYJ8+UHdiYuJ9AHQT2GGiycHmmLNDkmFY+JCPXrlcbqcMW28/iCNpEcHnt/3SwHzhQiEIG5JAGDYsN8yHGjil5Ir9BKVDa4U5ta/xveagNDCfRBhDQ5JczEaujhHb0FlclMFzLpDTepEEgxijAL6VSCNcPLPw6aa0oSEgTZsx+GFjwyIsenRmZmbkfuQMDj8PKrjjyCHZIw02im7eGokHAQhnFjZ8GAux/+8jOhoFhX9DCIG1EsPfD9jMC5j4/rO/If4BCiyOk7IAfLMAAAAASUVORK5CYII=');vertical-align:middle;font-size:11px;color:#888;margin-right:6px;margin-top:-3px;background-position:center;height:20px;width:20px}.flex_context{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center}.flex_bd{-webkit-box-flex:1;-webkit-flex:1;flex:1;word-wrap:break-word;word-break:break-all}.original_page{background-color:#fff;font-size:16px}.account_info{padding:0 0 20px}.account_info .flex_bd{padding-left:.85em}.radius_avatar.account_avatar{width:40px;height:40px;padding:0}.account_nickname{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;line-height:1.2;color:#576b95;font-size:14px}.account_nickname_inner{font-weight:400;vertical-align:top}.account_desc{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;color:#b2b2b2;font-size:13px;line-height:1.2;padding-top:.3em}.account_desc_inner{display:inline;vertical-align:top}.share_notice{margin-bottom:20px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.share_media{padding-bottom:18px}.original_panel{padding:20px;background-color:#fcfcfc;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;overflow:hidden;position:relative}.original_panel:after{content:" ";border:1px solid #d8d8d8;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;position:absolute;top:0;left:0;width:200%;height:200%;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}.original_panel .original_account{margin-bottom:18px;position:relative;z-index:1}.original_panel .original_account_avatar{width:28px;height:28px;padding:0}.original_panel .original_account_nickname{padding-left:.85em;font-size:15px;color:#576b95}.original_panel_title{font-size:23px;color:#000;margin:0 0 16px}.original_panel_content{color:#333}.original_panel_tool{padding-top:20px;position:relative;z-index:1}.original_cell_nickname{display:inline-block;vertical-align:middle;font-weight:400;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:8em;color:#000}.original_tool_area{padding:1.17em 0;border-width:0;position:relative}.original_tool_area:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:20px;height:20px;margin-right:.2em}.original_tool_area .flex_cell{padding:0;font-size:14px}.original_tool_area .icon_access:after{margin-right:4px;top:0}.preview_appmsg .rich_media_title{margin-top:1.5em}.preview_appmsg .account_info{padding-top:3em}.original_page{background-color:transparent}.account_info{-webkit-tap-highlight-color:rgba(0,0,0,0);outline:0;padding-bottom:20px;font-size:14px}.account_info.appmsg_account_info{padding-bottom:32px}.account_info .radius_avatar img{background-color:transparent}.share_notice{font-size:16px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.original_panel{background-color:#fafafa}.original_panel:after{border-color:#e6e6e6}.original_panel .original_account_avatar{width:30px;height:30px}.original_panel_tool{font-size:14px}.original_panel_tool a{color:#576b95}.original_panel_content{font-size:17px}.share_media{padding-bottom:30px}.icon_appmsg_tag{display:inline-block;vertical-align:middle;padding:0 .5em;font-size:12px;line-height:1.5;background-color:#c3c3c3;color:#fff;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:70%}.icon_appmsg_tag.primary{color:#3bb638;padding:4px .78em;background-color:rgba(9,187,7,0.08);font-size:12px;border-top-left-radius:.95em 50%;-moz-border-radius-topleft:.95em 50%;-webkit-border-top-left-radius:.95em 50%;border-top-right-radius:.95em 50%;-moz-border-radius-topright:.95em 50%;-webkit-border-top-right-radius:.95em 50%;border-bottom-left-radius:.95em 50%;-moz-border-radius-bottomleft:.95em 50%;-webkit-border-bottom-left-radius:.95em 50%;border-bottom-right-radius:.95em 50%;-moz-border-radius-bottomright:.95em 50%;-webkit-border-bottom-right-radius:.95em 50%}.icon_appmsg_tag.default{border:1px solid rgba(0,0,0,0.1);color:rgba(0,0,0,0.3);background-color:transparent;padding:0 .54em;font-size:15px;line-height:1.3;border-top-left-radius:.67em 50%;-moz-border-radius-topleft:.67em 50%;-webkit-border-top-left-radius:.67em 50%;border-top-right-radius:.67em 50%;-moz-border-radius-topright:.67em 50%;-webkit-border-top-right-radius:.67em 50%;border-bottom-left-radius:.67em 50%;-moz-border-radius-bottomleft:.67em 50%;-webkit-border-bottom-left-radius:.67em 50%;border-bottom-right-radius:.67em 50%;-moz-border-radius-bottomright:.67em 50%;-webkit-border-bottom-right-radius:.67em 50%}.rich_media_meta_list .icon_appmsg_tag.default{margin-top:-1px}.icon_appmsg_tag.title_tag{background-color:#d04b4e}.icon_global_tag_wrp{text-align:right;padding-bottom:12px}.icon_global_tag{background-color:rgba(118,118,118,0.16);color:rgba(0,0,0,0.41);line-height:2.2;border-top-left-radius:1em 50%;-moz-border-radius-topleft:1em 50%;-webkit-border-top-left-radius:1em 50%;border-bottom-left-radius:1em 50%;-moz-border-radius-bottomleft:1em 50%;-webkit-border-bottom-left-radius:1em 50%;padding:0 1.8em 0 1.34em;font-size:12px;margin-right:-24px;display:inline-block;vertical-align:top}.global_plain_btn{display:inline-block;vertical-align:middle;padding:0 1em;line-height:2;font-size:14px;-webkit-tap-highlight-color:rgba(0,0,0,0);border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px}.global_plain_btn.primary{color:#1aad19;border:1px solid currentColor}.global_plain_btn.primary:active{color:rgba(26,173,25,0.6)}.wx_video_context{color:#fefefe;position:relative;background-color:#000}.wx_video_thumb,.wx_video_thumb_primary{position:absolute;left:0;width:100%;height:100%!important;top:0}.wx_video_thumb_primary{-webkit-background-size:cover;background-size:cover;background-position:50% 50%;background-repeat:no-repeat}.wx_video_play_btn{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);margin-top:-2px;font-size:0;border-width:0;background-color:transparent;padding:0;outline:0;z-index:2}.wx_video_play_btn:before{content:" ";display:inline-block;width:0;height:0;border-width:14px 0 14px 25px;border-color:transparent transparent transparent #fff;border-style:dotted dotted dotted solid}.wx_video_mask{position:absolute;top:0;left:0;right:0;bottom:0;z-index:1;background-color:rgba(0,0,0,0.5)}.place_audio_area{min-height:100px;background-color:#fdfdfd;display:block;margin:16px 0}.place_music_area{min-height:68px;background-color:#fdfdfd;display:block;margin:17px 0 16px}.rich_media_empty_extra{background-color:#fafafa}.appmsg_skin_default.rich_media_empty_extra{background-color:#fff}.appmsg_skin_default .rich_media_area_primary{background-color:#fff}.appmsg_skin_default .rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{background-color:#fff}.appmsg_style_default .rich_media_tool{padding-top:15px}.rich_media_title_ios{font-weight:700}.read-more__area{margin:30px 0}.read-more__desc{margin-bottom:10px}.read-more__article__extra{font-size:14px;color:rgba(0,0,0,0.5)}.read-more__article__item{margin-bottom:10px}</style>
+<style>
+        </style>
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/pc435ee6.css">
+<![endif]-->
+
+    </head>
+    <body id="activity-detail" class="zh_CN mm_appmsg  appmsg_skin_default appmsg_style_default">
+        
+<script nonce="268828899" type="text/javascript">
+    var biz = "MjM5MTA3Nzk4MQ=="||"";
+    var sn = "0be9595fe5e4e9e43b749f53297c2f48" || ""|| "";
+    var mid = "211283363" || ""|| "";
+    var idx = "1" || "" || "";
+    window.__allowLoadResFromMp = true; 
+    
+        
+</script>
+<script nonce="268828899" type="text/javascript">
+var page_begintime=+new Date,is_rumor="",norumor="";
+1*is_rumor&&!(1*norumor)&&biz&&mid&&(document.referrer&&-1!=document.referrer.indexOf("mp.weixin.qq.com/mp/rumor")||(location.href="http://mp.weixin.qq.com/mp/rumor?action=info&__biz="+biz+"&mid="+mid+"&idx="+idx+"&sn="+sn+"#wechat_redirect"));
+</script>
+<script nonce="268828899" type="text/javascript">
+var MutationObserver=window.WebKitMutationObserver||window.MutationObserver||window.MozMutationObserver,isDangerSrc=function(t){
+if(t){
+var e=t.match(/http(?:s)?:\/\/([^\/]+?)(\/|$)/);
+if(e&&!/qq\.com(\:8080)?$/.test(e[1])&&!/weishi\.com$/.test(e[1]))return!0;
+}
+return!1;
+},ishttp=0==location.href.indexOf("http://");
+-1==location.href.indexOf("safe=0")&&ishttp&&"function"==typeof MutationObserver&&"mp.weixin.qq.com"==location.host&&(window.__observer_data={
+count:0,
+exec_time:0,
+list:[]
+},window.__observer=new MutationObserver(function(t){
+window.__observer_data.count++;
+var e=new Date,r=[];
+t.forEach(function(t){
+for(var e=t.addedNodes,o=0;o<e.length;o++){
+var n=e[o];
+if("SCRIPT"===n.tagName){
+var i=n.src;
+isDangerSrc(i)&&(window.__observer_data.list.push(i),r.push(n)),!i&&window.__nonce_str&&n.getAttribute("nonce")!=window.__nonce_str&&(window.__observer_data.list.push("inlinescript_without_nonce"),
+r.push(n));
+}
+}
+});
+for(var o=0;o<r.length;o++){
+var n=r[o];
+n.parentNode&&n.parentNode.removeChild(n);
+}
+window.__observer_data.exec_time+=new Date-e;
+}),window.__observer.observe(document,{
+subtree:!0,
+childList:!0
+})),function(){
+if(-1==location.href.indexOf("safe=0")&&Math.random()<.01&&ishttp&&HTMLScriptElement.prototype.__lookupSetter__&&"undefined"!=typeof Object.defineProperty){
+window.__danger_src={
+xmlhttprequest:[],
+script_src:[],
+script_setAttribute:[]
+};
+var t="$"+Math.random();
+HTMLScriptElement.prototype.__old_method_script_src=HTMLScriptElement.prototype.__lookupSetter__("src"),
+HTMLScriptElement.prototype.__defineSetter__("src",function(t){
+t&&isDangerSrc(t)&&window.__danger_src.script_src.push(t),this.__old_method_script_src(t);
+});
+var e="element_setAttribute"+t;
+Object.defineProperty(Element.prototype,e,{
+value:Element.prototype.setAttribute,
+enumerable:!1
+}),Element.prototype.setAttribute=function(t,r){
+"SCRIPT"==this.tagName&&"src"==t&&isDangerSrc(r)&&window.__danger_src.script_setAttribute.push(r),
+this[e](t,r);
+};
+}
+}();
+</script>
+
+        <link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<script nonce="268828899" type="text/javascript">
+    String.prototype.html = function(encode) {
+        var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&yen;", "¥", "&amp;", "&"];
+        
+		
+		
+		
+		
+        
+        var replaceReverse = ["&", "&amp;", "¥", "&yen;", "<", "&lt;", ">", "&gt;", " ", "&nbsp;", '"', "&quot;", "'", "&#39;"];
+	    var target;
+	    if (encode) {
+	    	target = replaceReverse;
+	    } else {
+	    	target = replace;
+	    }
+        for (var i=0,str=this;i< target.length;i+= 2) {
+             str=str.replace(new RegExp(target[i],'g'),target[i+1]);
+        }
+        return str;
+    };
+
+    window.isInWeixinApp = function() {
+        return /MicroMessenger/.test(navigator.userAgent);
+    };
+
+    window.getQueryFromURL = function(url) {
+        url = url || 'http://qq.com/s?a=b#rd'; 
+        var tmp = url.split('?'),
+            query = (tmp[1] || "").split('#')[0].split('&'),
+            params = {};
+        for (var i=0; i<query.length; i++) {
+            var arg = query[i].split('=');
+            params[arg[0]] = arg[1];
+        }
+        if (params['pass_ticket']) {
+        	params['pass_ticket'] = encodeURIComponent(params['pass_ticket'].html(false).html(false).replace(/\s/g,"+"));
+        }
+        return params;
+    };
+
+    (function() {
+	    var params = getQueryFromURL(location.href);
+        window.uin = params['uin'] || "" || '';
+        window.key = params['key'] || "" || '';
+        window.wxtoken = params['wxtoken'] || '';
+        window.pass_ticket = params['pass_ticket'] || '';
+        window.appmsg_token = "";
+    })();
+
+    function wx_loaderror() {
+        if (location.pathname === '/bizmall/reward') {
+            new Image().src = '/mp/jsreport?key=96&content=reward_res_load_err&r=' + Math.random();
+        }
+    }
+
+</script>
+
+<script nonce="268828899" type="text/javascript">
+        window.__moon_report_uin = "0";
+            window.no_moon_ls = 0;
+    </script>
+
+        
+<script nonce="268828899" type="text/javascript">
+    var write_sceen_time = (+new Date()); 
+</script>
+
+<div id="js_article" class="rich_media">
+    
+    <div id="js_top_ad_area" class="top_banner"></div>
+    
+    <div class="rich_media_inner">
+
+        
+        
+        <div id="page-content" class="rich_media_area_primary">
+          <div class="rich_media_area_primary_inner">
+                                    
+                        
+
+            <div id="img-content">
+
+                
+                <h2 class="rich_media_title" id="activity-name">
+                    
+                    
+                    【安天】Xcode非官方版本恶意代码污染事件（XcodeGhost）的分析与综述
+
+                                                                                </h2>
+                <div id="meta_content" class="rich_media_meta_list">
+                                                                                
+                                        <span class="rich_media_meta rich_media_meta_nickname" id="profileBt">
+                      <a href="javascript:void(0);" id="js_name">
+                        安天                      </a>
+                      <div id="js_profile_qrcode" class="profile_container" style="display:none;">
+                          <div class="profile_inner">
+                              <strong class="profile_nickname">安天</strong>
+                              <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">微信号</label>
+                              <span class="profile_meta_value">Antiylab</span>
+                              </p>
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">功能介绍</label>
+                              <span class="profile_meta_value">安天是领先的专注于威胁检测防御技术和先进解决方案的网络安全提供商。安天依托自主先进的威胁检测引擎等系列核心技术和专家团队，为用户提供端点防护、流量监测、深度分析、威胁情报和态势感知等相关产品、解决方案与服务。</span>
+                              </p>
+                              
+                          </div>
+                          <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">
+                              <i class="profile_arrow arrow_out"></i>
+                              <i class="profile_arrow arrow_in"></i>
+                          </span>
+                      </div>
+                    </span>
+
+
+                    <em id="publish_time" class="rich_media_meta rich_media_meta_text"></em>
+
+
+
+
+
+                </div>
+                
+                
+                
+                
+                                                
+                                                                
+                                
+                
+                <div class="rich_media_content " id="js_content">
+                    
+
+                    
+
+                    
+                    
+                    <p style="text-align: center;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZo4vPM5ia6rOeCickM1PQEuxMia3DKkZz65JQMsGzXGkjLibEoian2MmHKAww/0?wx_fmt=png" data-ratio="1.4758620689655173" data-w="435"  /><br  /></p><section class="wxqq-borderTopColor wxqq-borderBottomColor" style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; display: inline-block; height: 2em; line-height: 1em; border-top-width: 1.1em; border-top-style: solid; border-top-color: rgb(0, 187, 236); border-bottom-width: 1.1em; border-bottom-style: solid; border-bottom-color: rgb(0, 187, 236); border-right-width: 1em; border-right-style: solid; border-right-color: transparent; word-wrap: break-word !important;"><section style="margin: -1em 0px 0px; padding: 0.5em 1em; max-width: 100%; height: 2em; color: white; white-space: nowrap; text-overflow: ellipsis; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">摘要</strong></section></section><p><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 16px; color: rgb(54, 96, 146);">Xcode 是由苹果公司发布的运行在操作系统Mac OS X上的集成开发工具（IDE），是开发OS X 和 iOS 应用程序的最主流工具。</span></p><p style="line-height: 1.5em;"><span style="font-size: 16px; color: rgb(54, 96, 146);">  <br  /></span></p><p style="line-height: 1.5em;"><span style="font-size: 16px; color: rgb(54, 96, 146);">2015年9月14日起，一例Xcode非官方版本恶意代码污染事件逐步被关注，并成为社会热点事件。多数分析者将这一事件称为“XcodeGhost”。攻击者通过对Xcode进行篡改，加入恶意模块，并进行各种传播活动，使大量开发者使用被污染过的版本，建立开发环境。经过被污染过的Xcode版本编译出的App程序，将被植入恶意逻辑，其中包括向攻击者注册的域名回传若干信息，并可能导致弹窗攻击和被远程控制的风险。<br  /></span></p><p style="line-height: 1.5em;"><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 16px; color: rgb(54, 96, 146);">本事件由腾讯相关安全团队发现，并上报国家互联网应急中心，国家互联网应急中心发出了公开预警，此后PaolAlto Network、360、盘古、阿里、i春秋等安全厂商和团队机构，对事件进行了大量跟进分析、处理解读。目前，已有分析团队发现著名的游戏开发工具Unity 3D也被同一作者进行了地下供应链污染，因此会影响更多的操作系统平台。截止到本版本报告发布，尚未发现“XcodeGhost”对其他开发环境的影响，但安天分析小组基于JAVA代码和Native代码的开发特点，同样发出了相关风险预警。<br  /></span></p><p style="line-height: 1.5em;"><span style="font-size: 16px; color: rgb(54, 96, 146);"><br  /></span></p><p style="line-height: 1.5em;"><span style="font-size: 16px; color: rgb(54, 96, 146);">截止到2015年9月20日，各方已经累计发现当前已确认共692种（如按版本号计算为858个）App曾受到污染，受影响的厂商中包括了微信、滴滴、网易云音乐等著名应用。<br  /></span></p><p style="line-height: 1.5em;"><span style="font-size: 16px; color: rgb(54, 96, 146);"><br  /></span></p><p style="line-height: 1.5em;"><span style="font-size: 16px; color: rgb(54, 96, 146);">从确定性的行为来看，尽管有些人认为这一恶意代码窃取的信息“价值有限”，但从其感染面积、感染数量和可能带来的衍生风险来看，其可能是移动安全史上最为严重的恶意代码感染事件，目前来看唯有此前臭名昭著的CarrierIQ能与之比肩。但与CarrierIQ具有强力的“官方”推广方不同，这次事件是采用了非官方供应链（工具链）污染的方式，其反应出了我国互联网厂商研发“野蛮生长”，安全意识低下的现状。长期以来，业界从供应链角度对安全的全景审视并不足够，但供应链上的各个环节，都有可能影响到最终产品和最终使用场景的安全性。在这个维度上，开发工具、固件、外设等“非核心环节”的安全风险，并不低于操作系统，而利用其攻击的难度可能更低。因此仅关注供应链的基础和核心环节是不够的，而同时，我们必须高度面对现实，深刻分析长期困扰我国信息系统安全的地下供应链问题，并进行有效地综合治理。</span><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 20px; font-family: 宋体;"><br  /></span></p><p style="line-height: 1.5em;"><span style="color: rgb(0, 112, 192); font-size: 24px;"><strong><span style="color: rgb(0, 112, 192); font-family: 宋体;">1、背景</span></strong></span></p><hr  /><p style="line-height: 1.5em;"><span style="font-size:14px;font-family:宋体"></span></p><p style="line-height: 1.5em;">Xcode<span style="font-family:宋体">是由苹果公司开发的运行在操作系统</span>Mac OS X<span style="font-family:宋体">上的集成开发工具（</span>IDE<span style="font-family:宋体">），是开发</span>OS X <span style="font-family:宋体">和</span> iOS <span style="font-family:宋体">应用程序的最快捷的方式，其具有统一的用户界面设计，同时编码、测试、调试都在一个简单的窗口内完成。</span><sup>[1]</sup></p><p style="line-height: 1.5em;"><sup><br  /></sup></p><p style="line-height: 1.5em;"><span style="font-family:宋体">自</span>2015<span style="font-family:宋体">年</span>9<span style="font-family:宋体">月</span>14<span style="font-family:宋体">日起，一例</span>Xcode<span style="font-family:宋体">非官方供应链污染事件在国家互联网应急中心发布预警后，被广泛关注，多数分析者将这一事件称之为“</span>XcodeGhost<span style="font-family:宋体">”。攻击者通过对</span>Xcode<span style="font-family:宋体">进行篡改，加入恶意模块，进行各种传播活动，使大量开发者获取到相关上述版本，建立开发环境，此时经过被污染过的</span>Xcode<span style="font-family:宋体">版本编译出的</span>App<span style="font-family:宋体">程序，将被植入恶意逻辑，其中包括向攻击者注册的域名回传若干信息，并可能导致弹窗攻击和被远程控制的风险。</span></p><p style="line-height: 1.5em;"><span style="font-family:宋体"><br  /></span></p><p style="line-height: 1.5em;"><span style="font-family:宋体">截止到</span>2015<span style="font-family:宋体">年</span>9<span style="font-family:宋体">月</span>20<span style="font-family:宋体">日，各方已经累计发现共</span>692<span style="font-family:宋体">种（如按版本号计算为</span>858<span style="font-family:宋体">个）</span>App<span style="font-family:宋体">确认受到感染。同时，有分析团队认为，相同的攻击者或团队可能已经对安卓开发平台采用同样的思路进行了攻击尝试。从其感染面积、感染数量和可能带来的衍生风险来看，其可能是移动安全史上最为严重的恶意代码感染事件之一，从影响范围上来看能与之比肩的仅有此前臭名昭著的</span>CarrierIQ<sup>[2]</sup><span style="font-family:宋体">。</span></p><p style="line-height: 1.5em;"><span style="font-family:宋体"><br  /></span></p><p style="line-height: 1.5em;"><span style="font-family:宋体">目前，</span>Unity 3D<span style="font-family:宋体">也被发现由同一作者采取攻击</span>Xcode<span style="font-family:宋体">手法类似的思路进行了地下供应链污染。</span></p><p style="line-height: 1.5em;"><span style="font-family:宋体"><br  /></span></p><p style="line-height: 1.5em;"><span style="font-family:宋体">鉴于此事态的严重性，安天安全研究与应急处理中心（</span>Antiy CERT<span style="font-family:宋体">）与安天移动安全公司（</span>AVL Team<span style="font-family:宋体">）组成联合分析小组，结合自身分析进展与兄弟安全团队的分析成果，形成此报告。</span></p><p style="line-height: 1.5em;"><span style="font-family:宋体"><br  /></span></p><p style="line-height: 1.5em;"><span style="color: rgb(0, 112, 192); font-size: 24px;"><strong><span style="color: rgb(0, 112, 192); font-family: 宋体;">2、作用机理与影响</span></strong></span></p><hr  /><p style="line-height: 1.5em;"><span style="font-family:宋体"><br  /></span></p><p style="line-height: 1.5em;">安天根据Xcode非官方供应链污染事件的相关信息形成了图2-1，其整体污染路径为官方Xcode被攻击者植入恶意代码后，由攻击者上传到百度云网盘等网络位置，再通过论坛传播等方式广播下载地址，导致被App开发者获取，同时对于攻击者是否利用下载工具通过下载重定向方式扩大散布，也有较多猜测。有多个互联网公司采用被污染过的Xcode开发编译出了被污染的App，并将其提交至苹果App Store，且通过了苹果的安全审核，在用户获取相关App进行安装后，相关应用会被感染并回传信息至攻击者指定域名。</p><p style="line-height: 1.5em;"><span style="font-family:宋体"><br  /></span></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6TebsuH5Xf3eePDGre0FTY4Uwse7n5SlFRkjLgrtrWiaxdFOA1QPzKic3OtCL2JBFJ5EkX8z8SSdfsw/0?wx_fmt=jpeg" data-ratio="0.7628458498023716" data-w=""  /><br  /><span style="color: rgb(0, 112, 192);"><strong><span style="font-family: 宋体; font-size: 18px;"></span></strong></span><span style="font-family:宋体"></span></p><p style="text-align: center; line-height: 1.5em;"><span style="font-size: 12px;">图2‑1  Xcode非官方供应链污染事件示意图</span></p><p style="line-height: 1.5em;"><span style="color: rgb(0, 112, 192); font-size: 18px;"><strong><span style="color: rgb(0, 112, 192);"><br  /></span></strong></span></p><p style="line-height: 1.5em;"><span style="color: rgb(0, 112, 192); font-size: 18px;"><strong><span style="color: rgb(0, 112, 192);">2.1  作用机理</span></strong></span><span style="font-size: 16px;"><br  /></span></p><p style="line-height: 1.5em;"><strong style="color: rgb(0, 112, 192); line-height: 1.5em;"><span style="">※  </span>2.1.1  样本信息</strong><br  /></p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p style="line-height: 1.5em;"><span style="font-size: 16px;">文件名：CoreService</span></p></li><li><p style="line-height: 1.5em;"><span style="font-size: 16px;">位于Xcode位置：（iOS、iOS模拟器、MacOSX三个平台）<br  />./Developer/Platforms/iPhoneOS.platform/Developer/SDKs/Library/Frameworks/CoreServices.framework/CoreService<br  />./Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/Library/Frameworks/CoreServices.framework/CoreService<br  />./Developer/Platforms/MacOSX.platform/Developer/SDKs/Library/Frameworks/CoreServices.framework/CoreService</span></p></li><li><p style="line-height: 1.5em;"><span style="font-size: 16px;">样本形态：库文件（iOS、iOS模拟器、MacOSX三个平台）</span></p></li></ul><p><br  /></p><p style="text-align: center; line-height: 1.5em;"><span style="font-size: 12px;">表2‑1  样本信息</span></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZoTx45A8KsJ94oHcicBC1wXly0p4AIyaK7djuaLw0FxJiaVrdN3NzY5Cww/0?wx_fmt=png" data-ratio="0.5039525691699605" data-w=""  /></p><p style="line-height: 1.5em;"><strong><span style="font-size: 16px;"><br  /></span></strong></p><p style="line-height: 1.5em;"><strong><span style="font-size: 16px;"><strong style="color: rgb(0, 112, 192); white-space: normal;"><span style="">※  </span></strong><span style="font-size: 16px; color: rgb(0, 112, 192);">2.1.2  感染方式</span><br  /></span></strong></p><h4 style="line-height: 1.5em;"><span style="color: rgb(149, 55, 52);"><strong><span style="font-size: 16px;">2.1.2.1攻击机理</span></strong><strong><span style="font-size: 16px;"></span></strong></span></h4><p style="line-height: 1.5em;"><span style="font-family:宋体">这次攻击本质上是通过攻击</span>Xcode<span style="font-family:宋体">间接攻击了自动化构建和编译环境，目前开发者不论是使用</span>XcodeServer<span style="font-family:宋体">还是基于第三方工具或自研发工具都需要基于</span>Xcode<span style="font-family:宋体">。而这次如此大面积的国内产品中招，则只能反映大量产品研发团队在产品开发和构建环境的维护以及安全意识上都呈现出比较大的问题。</span></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZoyNjk0u5ibXY15bDYWxUam3YXsyvnaRVL1MCzTjib9kYPSB1WnHhJlRpg/0?wx_fmt=png" data-ratio="0.5830039525691699" data-w=""  /></p><p style="text-align: center; line-height: 1.5em;"><span style="font-size: 12px;">图2‑2  基于Xcode的开发流程（第三方图片）[4]</span></p><p style="line-height: 1.5em;"><span style="font-size: 12px;"><br  /></span></p><p style="line-height: 1.5em;"><strong>1.<span style="font-weight: normal;font-stretch: normal;font-size: 9px"> </span></strong><strong><span style="font-family:宋体">恶意插件植入</span>Xcode</strong><strong><span style="font-family:宋体">方式</span></strong></p><p style="line-height: 1.5em;"><strong><span style="font-family:宋体"></span></strong></p><p style="line-height: 1.5em;"><span style="font-family:宋体">也许出于对</span>Xcode<span style="font-family:宋体">稳定性和植入方便性的考虑，恶意代码实际并没有对</span>Xcode<span style="font-family:宋体">工具进行太多修改，主要是添加了如下文件：</span></p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p style="line-height: 1.5em;"><strong><span style="font-family:宋体">针对</span> iOS</strong></p></li></ul><p style="line-height: 1.5em;">♠Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/Library/Frameworks/CoreServices.framework/CoreService</p><p style="line-height: 1.5em;"><span style="line-height: 24px;">♠</span>Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/Library/PrivateFrameworks/IDEBundleInjection.framework</p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p style="line-height: 1.5em;"><strong>针对 iOS 模拟器</strong></p></li></ul><p style="line-height: 1.5em;"><span style="font-family: Wingdings; font-stretch: normal; font-size: 9px; line-height: 24px;">♠</span>Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/Library/Frameworks/CoreServices.framework/CoreService</p><p style="line-height: 1.5em;"><span style="font-family: Wingdings; line-height: 24px;">♠</span>Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/Library/PrivateFrameworks/IDEBundleInjection.framework</p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p style="line-height: 1.5em;"><strong>针对 Mac OS X</strong></p></li></ul><p style="line-height: 1.5em;"><span style="font-family: Wingdings; line-height: 24px;">♠</span>Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/Library/Frameworks/CoreServices.framework/CoreService</p><p style="line-height: 1.5em;"><span style="font-family:Wingdings"><span style="line-height: 24px;">♠</span><span style="font-stretch: normal;font-size: 9px"> </span></span>Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/Library/PrivateFrameworks/IDEBundleInjection.framework</p><p style="line-height: 1.5em;"><span style="font-family:宋体">以及修改了配置文件：</span></p><p style="line-height: 1.5em;"><span style="font-family: Wingdings; line-height: 24px;">♠</span>Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/Ld.xcspec</p><p style="margin-left: 56px; line-height: 1.5em;"><strong><br  /></strong></p><p style="line-height: 1.5em;"><strong>2.恶意插件植入App方式</strong></p><p style="margin-left: 56px; line-height: 1.5em;"><span style="font-family:Wingdings"><br  /></span></p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p style="line-height: 1.5em;">被攻击的开发环节：编译App项目部分；</p></li><li><p style="line-height: 1.5em;">恶意代码植入机理：通过修改Xcode配置文件，导致编译Linking时程序强制加载恶意库文件；</p></li><li><p>修改的配置文件：Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/Ld.xcspec</p></li><li><p style="line-height: 1.5em;">添加的语句：</p><p>“-force_load$(PLATFORM_DEVELOPER_SDK_DIR)/Library/Frameworks/CoreServices.framework/CoreService”</p></li></ul><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZol6nzTusEBbibc3FegMAp7CHcO4iacubfhwvndBnT94tkPHd7Yqt38gVg/0?wx_fmt=png" data-ratio="0.08300395256916997" data-w=""  /></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZoqpYibRX6DNfNKa0ia3M55M0GD0AicgwyxZV15gCjUlFQ2nyoYJpCQQFTw/0?wx_fmt=png" data-ratio="0.1067193675889328" data-w=""  /></p><p style="text-align: center; line-height: 1.5em;"><span style="font-size: 12px;">图2‑3  受感染Xcode与官方版本配置文件对比</span></p><p style="line-height: 1.5em;"><span style="font-size: 12px;"><br  /></span></p><p style="line-height: 1.5em;"><span style="color: rgb(192, 0, 0);"><strong><span style="font-size: 16px;">2.1.2.2  恶意代码运行时间</span></strong></span></p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p style="line-height: 1.5em;">恶意代码植入位置：UIWindow (didFinishLaunchingWithOptions)<span style="font-family:宋体">；</span></p></li><li><p style="line-height: 1.5em;">恶意代码启动时间：App启动后，开启准备展示第一个页面时恶意代码已经执行了；</p></li><li><p style="line-height: 1.5em;">iOS应用启动流程：从代码执行流程来看，图2-4中每一步都可以作为恶意代码植入点，且其框架基本都是由模板自动生成，而UIWindow为iOS App启动后展示页面时执行。</p><p><br  /></p></li></ul><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZohregP7iaetBWpbscAI60RibXPxJuTKfic9nPGRfjrDVxfRKQJlmUyEIbA/0?wx_fmt=png" data-ratio="0.5652173913043478" data-w=""  /><br  /></p><p style="text-align: center; line-height: 1.5em;"><span style="font-size: 12px;">图2‑4  iOS应用启动流程（第三方图片）[5]</span></p><p><br  /></p><p><br  /></p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p style="line-height: 1.5em;">UIWindow生成方式：<span style="line-height: 1.5em; font-family: 宋体;">通常通过模板建立工程时，</span><span style="line-height: 1.5em;">Xcode</span><span style="line-height: 1.5em; font-family: 宋体;">会自动生成一个</span><span style="line-height: 1.5em;">Window</span><span style="line-height: 1.5em; font-family: 宋体;">，然后让它变成</span><span style="line-height: 1.5em;">keyWindow</span><span style="line-height: 1.5em; font-family: 宋体;">并显示出来；由于是模板自动生成，所以很多时候开发人员都容易忽略这个</span><span style="line-height: 1.5em;">UIWindow</span><span style="line-height: 1.5em; font-family: 宋体;">对象，这也是此次</span><span style="line-height: 1.5em;">Xcode</span><span style="line-height: 1.5em; font-family: 宋体;">被植入恶意代码位置的原因之一。</span></p></li><li><p style="line-height: 1.5em;">恶意代码启动时机分析：<span style="line-height: 1.5em; font-family: 宋体;">恶意代码植入于</span><span style="line-height: 1.5em;">UIWindow (didFinishLaunchingWithOptions)</span><span style="line-height: 1.5em; font-family: 宋体;">中，其入口点为：</span><span style="line-height: 1.5em;"> __UIWindow_didFinishLaunchingWithOptions__makeKeyAndVisible_</span><span style="line-height: 1.5em; font-family: 宋体;">；</span><span style="line-height: 1.5em;">UIWindow</span><span style="line-height: 1.5em; font-family: 宋体;">是作为包含了其他所有</span><span style="line-height: 1.5em;">View</span><span style="line-height: 1.5em; font-family: 宋体;">的一个容器，每一个程序里面都会有一个</span><span style="line-height: 1.5em;">UIWindow</span><span style="line-height: 1.5em; font-family: 宋体;">；而</span><span style="line-height: 1.5em;">didFinishLaunchingWithOptions</span><span style="line-height: 1.5em; font-family: 宋体;">里面的代码会在</span><span style="line-height: 1.5em;">UIWindow</span><span style="line-height: 1.5em; font-family: 宋体;">启动时执行，即被感染</span><span style="line-height: 1.5em;">App</span><span style="line-height: 1.5em; font-family: 宋体;">在启动时的开始准备展示界面就已经在执行被植入的恶意代码了。</span></p></li></ul><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZoUIu5Vwlic9diaL5Uaocdia3S0uia8iaME97ZWgYv3grDwuk6kDuoxgjQ3IA/0?wx_fmt=png" data-ratio="0.3339920948616601" data-w=""  /></p><p style="text-align: center; line-height: 1.5em;"><span style="font-size: 12px;">图2‑5  恶意插件植入的代码入口点</span></p><p style="line-height: 1.5em;"><span style="font-size: 12px;"><strong style="white-space: normal;"><strong style="color: rgb(0, 112, 192);"><span style="">※ </span></strong></strong><span style="font-size: 16px; color: rgb(0, 112, 192);"><strong>2.1.3  危害分析</strong></span><br  /></span></p><p><span style="color: rgb(192, 0, 0);"><strong>2.1.3.1  上传隐私</strong><strong style="color: rgb(0, 112, 192); font-size: 12px; line-height: 1.5em;"><span style="font-size: 16px;"></span></strong></span><br  /></p><p style="line-height: 1.5em;"><span style="line-height: 1.5em; font-family: 宋体;">恶意代码上传的信息主要有：时间戳、应用名、包名、系统版本、语言、国家、网络信息等；同时还有被感染</span><span style="line-height: 1.5em;">App</span><span style="line-height: 1.5em; font-family: 宋体;">的运行状态：</span><span style="line-height: 1.5em;">launch</span><span style="line-height: 1.5em; font-family: 宋体;">、</span><span style="line-height: 1.5em;">runing</span><span style="line-height: 1.5em; font-family: 宋体;">、</span><span style="line-height: 1.5em;">suspend</span><span style="line-height: 1.5em; font-family: 宋体;">、</span><span style="line-height: 1.5em;">terminate</span><span style="line-height: 1.5em; font-family: 宋体;">、</span><span style="line-height: 1.5em;">resignActive</span><span style="line-height: 1.5em; font-family: 宋体;">、</span><span style="line-height: 1.5em; color: rgb(62, 62, 62);">AlertView</span><span style="line-height: 1.5em; font-family: 宋体; color: rgb(62, 62, 62);">。</span><br  /></p><p style="line-height: 1.5em;"><span style="font-family:宋体;color:#3E3E3E">所有信息通过</span><span style="color:#3E3E3E">DES</span><span style="font-family:宋体;color:#3E3E3E">加密后</span><span style="color:#3E3E3E">POST</span><span style="font-family:宋体;color:#3E3E3E">上传到服务器：</span></p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p>init.icloud-analysis.com<br  /></p></li><li><p>init.crash-analytics.com<br  /></p></li><li><p>init.icloud-diagnostics.com</p></li></ul><p style="line-height: 1.5em;"><span style="font-family:宋体">其中</span>6.0<span style="font-family:宋体">版本</span>URL<span style="font-family:宋体">为字符串形式，而到</span>7.0<span style="font-family:宋体">版本</span>URL<span style="font-family:宋体">则进化到字符拼接，</span><span style="color:#3E3E3E">7.0</span><span style="font-family:宋体;color:#3E3E3E">版本中还可以获取应用剪贴板信息。</span></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZoDYoT6CklVwwFibBB6XKNkmdzD2p29IicZibLJKnHOLxiaf9Wic1hBWibf7icQ/0?wx_fmt=png" data-ratio="1.323607427055703" data-w="377"  /></p><p style="margin-top: 8px; margin-bottom: 8px; text-align: center; line-height: 1.5em;"><span style="color: rgb(0, 0, 0); font-size: 12px;"><span style="color: rgb(0, 0, 0); font-family: 黑体;">图</span>2‑6  <span style="color: rgb(0, 0, 0); font-family: 黑体;">获取上传的信息</span></span></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZodBu3nc96PAMMkWiay4lNibXZ8VHBcTFb5eD3icZPNh3DMt2bu2H2cZkaw/0?wx_fmt=png" data-ratio="0.17193675889328064" data-w=""  /></p><p style="margin-top: 8px; margin-bottom: 8px; text-align: center; line-height: 1.5em;"><span style="font-size: 12px;"><span style="font-family: 黑体;">图</span>2‑7  6.0<span style="font-family: 黑体;">版本中</span>URL<span style="font-family: 黑体;">为字符串形式</span></span></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZot388qfRaQdPPrlroHoYv5rjLJmrlfQI9PztJObUnNPHC7A4kc1Corg/0?wx_fmt=png" data-ratio="1.007905138339921" data-w=""  /></p><p style="text-align: center; line-height: 1.5em;"><span style="font-size: 12px;">图2‑8  7.0版本中URL字符拼接形式</span></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZojbODibRO2IbzAo6w0S332OtSyqcicWiaQB0h79pvT8ia9jzUKqyoWoDobA/0?wx_fmt=png" data-ratio="0.658102766798419" data-w=""  /></p><p style="text-align: center; line-height: 1.5em;"><span style="font-size: 12px;">图2‑9  7.0版本获取应用剪贴板信息</span></p><p style="line-height: 1.5em;"><span style="font-size: 16px; color: rgb(0, 112, 192);"><strong><br  /></strong></span></p><p style="line-height: 1.5em;"><span style="font-size: 16px; color: rgb(192, 0, 0);"><strong>2.1.3.2  任意弹窗</strong></span></p><p style="line-height: 1.5em;"><span style="font-size: 16px; color: rgb(192, 0, 0);"><strong><br  /></strong></span></p><p style="line-height: 1.5em;"><span style="font-family:宋体">恶意代码可以远程设置任意应用的弹窗信息，包括弹框标题、内容、推广应用</span>ID<span style="font-family:宋体">、取消按钮、确认按钮；需要注意的是该部分代码并没有使用输入框控件，同时也并无进一步的数据回传代码，因此是不能直接高仿伪造系统弹窗，钓鱼获取</span>Apple ID<span style="font-family:宋体">输入和密码输入的（这点在诸多已公开分析报告中均有一定误导性）。</span></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZo9U9JgAT1hYRKftxyVw4iccljPnqmYNqp0UPXhh90tibtliafdHQtbXicKw/0?wx_fmt=png" data-ratio="0.42292490118577075" data-w=""  /></p><p style="text-align: center; line-height: 1.5em;"><span style="font-size: 12px;">图2‑10  远程设置弹窗信息</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-family:宋体">但是由于弹窗内容可以任意设定，攻击者完全可以使用弹窗进行欺诈通知。</span></p><p style="line-height: 1.5em;"><span style="font-family: 宋体; color: rgb(192, 0, 0);"><br  /></span></p><p style="line-height: 1.5em;"><span style="color: rgb(192, 0, 0);"><strong>2.1.3.3  远控模块</strong></span><br  /></p><p style="line-height: 1.5em;"><strong><br  /></strong></p><p style="line-height: 1.5em;"><strong>1.OpenURL远控</strong></p><p style="line-height: 1.5em;"><span style="font-family:宋体">恶意代码包含了一个使用</span>OpenURL<span style="font-family:宋体">的远控模块，该模块可以用来执行从服务器获取到的</span>URL scheme<span style="font-family:宋体">，其使用</span>canOpenURL<span style="font-family:宋体">获取设备上定义的</span>URL scheme<span style="font-family:宋体">信息，并从服务器获取</span>URL scheme<span style="font-family:宋体">通过</span>OpenURL<span style="font-family:宋体">执行。</span></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZoVQlibVThl8jYqDuVGcrW8oqpEeIDPGFEj8F303JGbGI4grCEL04aPQw/0?wx_fmt=png" data-ratio="0.26679841897233203" data-w=""  /></p><p style="text-align: center; line-height: 1.5em;"><span style="font-size: 12px;">图2‑11  canOpenURL获取信息，执行从服务器获取的URLscheme</span></p><p><br  /></p><p style="line-height: 1.5em;"><strong>2.URL scheme能力</strong></p><p style="line-height: 1.5em;">URL scheme<span style="font-family:宋体">功能强大，通过</span>OpenURL<span style="font-family:宋体">可用实现很多功能；但需要注意的是，</span>URL scheme<span style="font-family:宋体">所能达到的功能与目标</span>App<span style="font-family:宋体">权限有关，如拨打电话、发送短信需要被感染应用具有相应权限。但如果其他</span>App<span style="font-family:宋体">或系统组件有</span>URL scheme <span style="font-family:宋体">解析漏洞、</span>Webview<span style="font-family:宋体">漏洞等，则能相应执行更多行为。</span></p><p style="line-height: 1.5em;"><span style="font-family:宋体">由于服务器已经关闭，同时该样本也没有明显证据表明具体使用了哪些</span>URL scheme<span style="font-family:宋体">，以下为我们分析的恶意代码所能做到的行为：</span></p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p style="line-height: 1.5em;">调用App</p></li><li><p style="line-height: 1.5em;">拨打电话</p></li><li><p style="line-height: 1.5em;">发送短信</p></li><li><p style="line-height: 1.5em;">发送邮件</p></li><li><p style="line-height: 1.5em;">获取剪贴板信息</p></li><li><p style="line-height: 1.5em;">打开网页，如打开高仿Apple的钓鱼网站</p></li><li><p style="line-height: 1.5em;">结合弹窗推广应用，App Store&amp;企业证书应用皆可</p></li></ul><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZoXyXuCcdVOibtYI2JXCRS1PiaE78RwShrec63BogYCpQjy4BOFXP6xfUg/0?wx_fmt=png" data-ratio="0.43873517786561267" data-w=""  /></p><p style="text-align: center; line-height: 1.5em;"><span style="font-size: 12px;">图2‑12  设置推广应用appID和对应URL scheme</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-family:宋体">另外推广应用时候，由于弹窗所有信息皆可远程设置，当把”取消“按钮显示为”安装“，”安装“按钮显示为”取消“，极易误导用户安装推广的应用。</span></p><p style="line-height: 1.5em;"><span style="font-family:宋体"><br  /></span></p><p style="line-height: 1.5em;"><span style="color: rgb(0, 112, 192); font-size: 18px;"><strong><strong style="line-height: 1.5em; white-space: normal; color: rgb(0, 112, 192);"><span style="">※ </span></strong><span style="color: rgb(0, 112, 192); font-size: 16px;">2.1.4 中间人利用</span></strong></span></p><p style="line-height: 1.5em;"><span style="font-family:宋体">虽然恶意代码使用的域名已经被封，但由于其通信数据只是采用了</span>DES<span style="font-family:宋体">简单加密，很容易被中间人重定向接管所有控制。当使用中间人攻击、</span>DNS<span style="font-family:宋体">污染时，攻击者只需要将样本中服务器域名解析到自己的服务器，即可接管利用所有被感染设备，进而获取隐私、弹窗欺诈、远程控制等。</span></p><p style="line-height: 1.5em;"><span style="font-family:宋体">其中恶意代码使用的</span>DES<span style="font-family:宋体">密钥生成比较巧妙，是先定义一个字符串</span>”stringWithFormat“<span style="font-family:宋体">，再截取最大密钥长度，即前八个字符</span>“stringWi”<span style="font-family:宋体">。</span></p><p style="line-height: 1.5em;">DES<span style="font-family:宋体">标准密钥长度为</span>56<span style="font-family:宋体">位，加上</span>8<span style="font-family:宋体">个奇偶校验位，共</span>64bit<span style="font-family:宋体">即</span>8<span style="font-family:宋体">个字节。</span></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZoep9smo4gj5fEGdARmOMvQNEBp05VuOT3F1IQYD4x56NiaYahyObYsXQ/0?wx_fmt=png" data-ratio="0.20355731225296442" data-w=""  /></p><p style="text-align: center; line-height: 1.5em;"><span style="font-size: 12px;">图2‑13  DES密钥生成方式</span></p><p style="line-height: 1.5em;"><span style="font-family:宋体">所以即便恶意代码服务器已经失活，依然建议用户及时更新被感染</span>App<span style="font-family:宋体">版本，若仍未更新版本的</span>App<span style="font-family:宋体">，建议立即卸载或尽量不要在公共</span>WiFi<span style="font-family:宋体">环境下使用，请等待新版本发布。</span></p><h2><span style="color: rgb(0, 112, 192);"><strong><span style="font-size: 16px;">2.2  影响面分析</span></strong><strong><span style="font-size: 16px;"></span></strong></span></h2><p style="line-height: 1.5em;"><span style="font-family:宋体">截止到</span>2015<span style="font-family:宋体">年</span>9<span style="font-family:宋体">月</span>22<span style="font-family:宋体">日凌晨</span>3<span style="font-family:宋体">时，通过各安全厂商累计发现的数据显示，当前已确认共</span>692<span style="font-family:宋体">种（按照版本号计算</span>858<span style="font-family:宋体">个）</span>App<span style="font-family:宋体">受到感染，其中影响较大的包括微信、高德地图、滴滴出行（打车）、</span>58<span style="font-family:宋体">同城、豆瓣阅读、凯立德导航、平安证券、网易云音乐、优酷、天涯社区、百度音乐等应用的多个版本。</span>（详情请参见<a>附录三</a>。）</p><p style="line-height: 1.5em;"><span style="color: rgb(255, 0, 0);"><strong><em><span style="font-family: 宋体;">注：需要说明的是，根据相关消息，这一事件是腾讯在自查中发现并上报给</span>CNCERT</em></strong><strong><em><span style="font-family: 宋体;">的。</span></em></strong></span></p><p style="line-height: 1.5em;"><span style="font-family:宋体">安天依托国内一份</span>2014<span style="font-family:宋体">年度</span>iOSTOP 200<span style="font-family:宋体">排行的信息</span><sup>[3]</sup><span style="font-family:宋体">进行了</span>App<span style="font-family:宋体">检测，共发现有</span>6<span style="font-family:宋体">款</span>App<span style="font-family:宋体">受到影响，在表</span>2-1<span style="font-family:宋体">中已用红色字体突出显示。</span></p><p style="line-height: 1.5em;"><span style="font-family:宋体"></span></p><p style="text-align: center; line-height: 1.5em;"><span style="font-size: 12px;">表2‑2  App Store Top200中受影响App统计，红色为受到影响软件</span></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZoiaaphlxb5LricRFZwMDhDhkrdxlu0UjeyVOtA20nopq8gak756XiaADwg/0?wx_fmt=png" data-ratio="3.3258426966292136" data-w="178"  /></p><p style="margin-top: 10px; line-height: 1.5em;"><span style="font-family:宋体">目前，已有其他分析团队示警著名手机游戏开发平台</span>Unity 3D<span style="font-family:宋体">也被同一作者植入了恶意代码，与攻击</span>Xcode<span style="font-family:宋体">手法一样，但安天分析小组没有跟进分析。</span></p><p style="margin-top: 10px; line-height: 1.5em;"><span style="font-family:宋体"><br  /></span></p><p style="margin-top: 10px; line-height: 1.5em;"><span style="color: rgb(0, 112, 192); font-size: 24px;"><strong><span style="color: rgb(0, 112, 192); font-family: 宋体;">3.</span><span style="color: rgb(0, 112, 192);">扩散、组织分析</span></strong></span></p><hr  /><p><br  /></p><h2><span style="font-size: 16px; color: rgb(0, 112, 192);">※</span> <span style="font-size: 16px; color: rgb(0, 112, 192);">3.1  传播分析</span></h2><p style="line-height: 1.5em;"><span style="font-family:宋体">攻击者使用了多个账号，在多个不同网站或论坛进行传播被植入恶意代码的</span>Xcode<span style="font-family:宋体">，以下是我们对其传播账号及传播信息的脑图化整理：</span></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZocDb4Ka9NsH3PMXAmAAoAutZIicib6qFZxOONRat8KFCraV23ic0beERuA/0?wx_fmt=png" data-ratio="0.38537549407114624" data-w=""  /></p><p style="text-align: center; line-height: 1.5em;"><span style="font-size: 12px;">图3‑1  传播马甲关联分析图</span></p><p style="line-height: 1.5em;"><span style="font-size: 12px;"></span></p><p style="line-height: 1.5em;"><span style="font-family:宋体">被植入恶意代码的</span>Xcode<span style="font-family:宋体">由攻击者上传至百度云网盘，然后通过国内几个知名论坛发布传播，传播的论坛包括：</span>51CTO<span style="font-family:宋体">技术论坛、威锋网论坛、</span>unity<span style="font-family:宋体">圣典、</span>9ria<span style="font-family:宋体">论坛和</span>swiftmi<span style="font-family:宋体">。我们通过跟踪发现其最早发布是在“</span><a data-ratio="0" data-w="15" name="OLE_LINK56"></a><a data-ratio="0" data-w="15" name="OLE_LINK55"></a>unity<span style="font-family:宋体">圣典”，进行传播的时间为</span>2015<span style="font-family:宋体">年</span>3<span style="font-family:宋体">月</span>16<span style="font-family:宋体">日，攻击者在每个论坛的</span>ID<span style="font-family:宋体">及所发的百度云盘下载地址都不相同，详情参见表</span>3-1<span style="font-family:宋体">。</span></p><p><br  /></p><p style="text-align: center; line-height: 1.5em;"><span style="font-size: 12px;">表3‑1  传播论坛情况</span></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZo8kiasLyR7AfOtbdUJsG33UhmicmrpdSyYJN3ho882R8atNPGyS2Xw3Tw/0?wx_fmt=png" data-ratio="0.8458498023715415" data-w=""  /></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZoPaFTZcBdzdoeCoYNsywcRGy1JMysWu5l7PA4CxShtG6pWJvAUBlJ5g/0?wx_fmt=png" data-ratio="1.1538461538461537" data-w="312"  /><br  /></p><p style="text-align: center; line-height: 1.5em;"><span style="font-size: 12px;">图3‑2  作者百度云网盘</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-family:宋体">以威锋论坛传播为例，这个帖子本身是一个旧帖，首次发布于</span>2012<span style="font-family:宋体">年，并在</span>2015<span style="font-family:宋体">年</span>6<span style="font-family:宋体">月</span>15<span style="font-family:宋体">日进行最后编辑，作者用旧帖“占坑”的目的，是为了增加下载者对此帖信任度，如图</span>3-3<span style="font-family:宋体">。</span></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZoUBLofu1aUcibnSU8ticuZUA7GHE7laSS8lsSvwVh66R4NXTTvqm5RkEw/0?wx_fmt=png" data-ratio="0.6205533596837944" data-w=""  /><br  /><span style="font-size: 12px;">图3‑3  通过威锋网传播</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-family:宋体">此外，微博上有网友说</span>Xcode<span style="font-family:宋体">传播是通过迅雷下载重定向传播，会导致输入官方下载地址下载到错误版本，但后来同一网友又澄清是自己看错了导致，并删除了原帖。有关截图参见图</span>3-4<span style="font-family:宋体">、图</span>3-5<span style="font-family:宋体">：</span></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZouiaqb5wJUoHToUDKNfHef0mpJ0utrZxVyTtbbof6I97ZdP5dZSbcnaA/0?wx_fmt=png" data-ratio="0.29446640316205536" data-w=""  /></p><p style="text-align: center; line-height: 1.5em;"><span style="font-size: 12px;">图3‑4  证明截图1微博发贴已删</span></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZojxbpXFcjuOUZlHicXUibsqytqPQ5Y57q3svFCPMcBhSq946sQDu4jBBA/0?wx_fmt=png" data-ratio="0.3577075098814229" data-w=""  /></p><p style="text-align: center; line-height: 1.5em;"><span style="font-size: 12px;">图3‑5  证明截图2微博发贴已删</span></p><p><br  /></p><p style="line-height: 1.5em;">2015<span style="font-family:宋体">年</span>9<span style="font-family:宋体">月</span>19<span style="font-family:宋体">日该网友公开澄清是自己记错了，误把百度云盘链接直接拷贝到迅雷下载地址里了，以下是网友的公开声明。</span></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZoNGSXTjQRDXWFX656vKbCFv4Hjv9QOEMMfiaLEDF67uYQ8qAav3Y7FOQ/0?wx_fmt=png" data-ratio="1.2244224422442245" data-w="303"  /></p><p style="text-align: center; line-height: 1.5em;"><span style="font-size: 12px;">图3‑6  网友澄清证明</span></p><p style="line-height: 1.5em;"><span style="font-size: 12px;"><br  /></span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-family:宋体">但在地下社区中，确实一直存在针对迅雷污染，使迅雷下载到重定向恶意代码的方法讨论，而且由于类似感染可能获得巨大的经济利益，我们并不能完全排除这种下载污染，有可能通过流量劫持等方式来配合。同时亦有网友反馈迅雷存在直接下载和离线下载所得到的文件大小不同的情况。受时间所限，安天分析小组未对这些传言进行进一步验证。</span></p><p style="line-height: 1.5em;"><span style="font-family: 宋体; font-size: 16px;"><br  /></span></p><p style="line-height: 1.5em;"><span style="font-size: 16px;"><strong style="color: rgb(0, 112, 192); font-size: 18px; line-height: 1.5em;">※ </strong><strong><span style="font-size: 16px; color: rgb(0, 112, 192);">3.2  攻击者情况猜测</span></strong></span><br  /></p><p style="line-height: 1.5em;"><span style="color: rgb(0, 112, 192); font-size: 18px;"><br  /></span></p><p style="line-height: 1.5em;">此前根据相关安全团队的信息检索，认为攻击者可能是X工业大学的一名学生。从攻击者具备污染了多个平台的开发能力，并已经确定对iOS用户产生了严重影响，开发能力覆盖前台、后台，掌握社工技巧，具备SEO优化的意识。从其综合能力来看，有可能不是个体作业，而是一个小的团伙、或者存在其他方式协同的可能性。同时，根据相对可信的消息，相关云资源使用者每月向数据汇聚点亚马逊支付数千美元，其应该有较高的获益。</p><p style="line-height: 1.5em;">但此前关于攻击者的亚马逊资费每月数十万美元的猜测，我们认为有误，因为亚马逊从计费上是单向收费的，而相关猜测是双向计算的。</p><p style="line-height: 1.5em;"><br  /></p><p style="line-height: 1.5em;"><span style="font-size: 16px;">※ <strong><span style="color: rgb(0, 112, 192);">3.3  开发环节的安全问题分析</span></strong></span><br  /></p><p style="line-height: 1.5em;"><span style="color: rgb(0, 112, 192); font-size: 18px;"><br  /></span></p><p style="line-height: 1.5em;">导致大量原厂发布的App遭到污染的重要原因是，开发团队未坚持原厂下载，也并未验证所下载的开发工具的数字签名。</p><p style="line-height: 1.5em;">我们发现有很多分析团队向开发者提供了完整的官方Xcode文件的Hash，但显然直接对应用进行数字签名验证可能是更高效的方法。</p><p style="line-height: 1.5em;"><br  /></p><p style="line-height: 1.5em;"><strong><span style="color: rgb(0, 112, 192); font-size: 16px;"> 3.3.1  Mac&amp;iOS app签名方式</span></strong><br  /></p><p style="line-height: 1.5em;">OS X和iOS应用使用相同的签名方式，即：</p><p style="line-height: 1.5em;">1.在程序包中新建 _CodeSignature/CodeResources 文件，存储了被签名的程序包中所有文件的摘要信息；</p><p style="line-height: 1.5em;">2.使用私钥 Private Key 对摘要进行加密，完成代码签名。</p><p style="line-height: 1.5em;"><strong style="line-height: 1.5em;"><span style="color: rgb(0, 112, 192); font-size: 18px;"><br  /></span></strong></p><p style="line-height: 1.5em;"><span style="font-size: 16px;"><strong style="line-height: 1.5em;"><span style="color: rgb(0, 112, 192);">3.3.2  Mac上官方签名工具codesign验证App方式</span></strong></span><br  /></p><p style="line-height: 1.5em;">Mac上可以使用官方codesign工具对Mac&amp;iOS App进行签名验证。</p><p style="line-height: 1.5em;">codesign工具属于Xcode Command Line Tools套件之一，可以使用如下方式获取安装，推荐使用1、2方式：</p><p style="line-height: 1.5em;">1. Terminal里执行：Xcode-select –install；</p><p style="line-height: 1.5em;">2.Mac AppStore里安装；</p><p style="line-height: 1.5em;">3.安装 brew 后执行 brew doctor 自动安装；</p><p style="line-height: 1.5em;">4.在Developer Apple网站下载安装：<a>https://developer.apple.com/downloads/</a></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZo6cxJrqibI96jUtXHkPrOo97xXwhLwjhLsAZLGnFhQn8ApxWNjAhot1Q/0?wx_fmt=png" data-ratio="0.2964426877470356" data-w=""  /></p><p style="text-align: center; line-height: 1.5em;"><span style="font-size: 12px;">图3‑7  Developer Apple上的Command LineTools工具</span></p><p><br  /></p><h4><span style="font-size: 16px; color: rgb(192, 0, 0);">3.3.2.1  获取app签名证书信息</span></h4><p style="line-height: 1.5em;"><span style="font-family:宋体">使用</span>codesign -vv-d xxx.app <span style="font-family:宋体">指令可以获取</span>app<span style="font-family:宋体">的签名信息。</span></p><p style="line-height: 1.5em;"><span style="font-family:宋体">如验证官方</span>Xcode7.0<span style="font-family:宋体">，方框内</span>Authority<span style="font-family:宋体">信息即该应用的证书信息，其中：</span></p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p>Authority=Apple Root CA，表示发布证书的CA机构，又称为证书授权中心；</p></li><li><p>Authority=Apple WorldwideDeveloper Relations Certification Authority，表示证书的颁发中心，为Apple的认证部门；</p></li><li><p>Authority=Apple Mac OSApplication Signing，表示证书所有者，即该应用属于Mac App Store签名发布。</p></li></ul><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZoib6oKKe6z2PoVB6LVGocQov1YU1ggFb7JpqNhYWutzG7jJ26Ul8n0Sg/0?wx_fmt=png" data-ratio="0.3814229249011858" data-w=""  /></p><p style="text-align: center; line-height: 1.5em;"><span style="font-size: 12px;">图3‑8  官方Xcode7.0签名信息</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-family:宋体">而验证含</span>XcodeGhost<span style="font-family:宋体">恶意插件的</span>Xcode6.4<span style="font-family:宋体">应用，其所有者为“</span>Software Signing<span style="font-family:宋体">”，说明非</span>Mac App Store<span style="font-family:宋体">官方渠道发布。</span></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZo6hZTnkRfTmQ1ELQ1HxRXyHjibRZKNVrtUAw0eAjUSLMe168Jfh6Up0Q/0?wx_fmt=png" data-ratio="0.3794466403162055" data-w=""  /></p><p style="text-align: center; line-height: 1.5em;"><span style="font-size: 12px;">图3‑9  恶意Xcode签名信息</span></p><p><br  /></p><h4><span style="font-size: 16px; color: rgb(192, 0, 0);">3.3.2.2  验证app的合法性</span></h4><p style="line-height: 1.5em;"><span style="font-family:宋体">为了达到给所有文件设置签名的目的，签名的过程中会在程序包（即</span>Example.app<span style="font-family:宋体">）中新建一个叫做</span> _CodeSignatue/CodeResources <span style="font-family:宋体">的文件，这个文件中存储了被签名的程序包中所有文件的签名。</span></p><p style="line-height: 1.5em;"><span style="font-family:宋体">使用</span>codesign--verify xxx.app <span style="font-family:宋体">指令可以根据</span>_CodeSignatue/CodeResources<span style="font-family:宋体">文件验证</span>App<span style="font-family:宋体">的合法性</span></p><p style="text-indent: 0px; line-height: 1.5em;"><span style="font-family:宋体">校验官方</span>Xcode<span style="font-family:宋体">应用，验证通过，将没有任何提示。</span></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZoEu8EbCDSmEqO94tOIhAaLbD26K2mje4WIuy81q325juY1BK3rBMy7g/0?wx_fmt=png" data-ratio="0.11521739130434783" data-w="460"  /></p><p style="text-align: center; line-height: 1.5em;"><span style="font-size: 12px;">图3‑10  官方Xcode签名校验合法</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-family:宋体">校验含</span>XcodeGhost<span style="font-family:宋体">恶意插件的</span>Xcode<span style="font-family:宋体">应用，验证失败，会出现提示，说明该应用在签名之后被修改过。</span></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZoCx3pNHicuULIl1WkTZO02GGiayOuue6fJCAoUSY5PqeYM4NibxrCUTJeQ/0?wx_fmt=png" data-ratio="0.09881422924901186" data-w=""  /></p><p style="text-align: center; line-height: 1.5em;"><span style="font-size: 12px;">图3‑11  恶意Xcode签名校验失败</span></p><p><br  /></p><h3><span style="font-size: 16px; color: rgb(0, 112, 192);">3.3.3  官方推荐Xcode验证工具spclt</span></h3><p><span style="font-size: 16px;">鉴于此事件影响重大，苹果官方于2015年9月22日发布文章[6]推荐使用spclt工具校验Xcode合法性。</span></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZoCvANs6tv9mftEOkgiaeyC9cUbPVVJ4sH2Vzq5qPelAibCQicOOibpnGALg/0?wx_fmt=png" data-ratio="0.3595959595959596" data-w="495"  /></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZoxFILhSjHue0wianRBUt3dsNkW1TDoLS1El9FGuCnZYUV9kibxFCzSvWA/0?wx_fmt=png" data-ratio="0.19532908704883228" data-w="471"  /></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZoaqrM9SGlaDxib17nBHL4tKZkdFJZprYHVibrwQEgribncx5dFQTuDMFcA/0?wx_fmt=png" data-ratio="0.6875" data-w="464"  /></p><p style="text-align: center; line-height: 1.5em;"><span style="font-size: 12px;">图3‑12  官方推荐使用spctl工具校验Xcode合法性</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-family:宋体">如图</span>3-13<span style="font-family:宋体">，上面为正版</span>Xcode<span style="font-family:宋体">验证信息，表明来源为</span>Mac App Store<span style="font-family:宋体">；而下面为恶意</span>Xcode<span style="font-family:宋体">工具验证信息，没有任何来源信息；</span></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZo94iaF6aqibrp5Fur5UAiaCAjQ2HvMp1hbakPYXpXfQJw9vxc4mZpt3HCg/0?wx_fmt=png" data-ratio="0.26877470355731226" data-w=""  /></p><p style="text-align: center; line-height: 1.5em;"><span style="font-size: 12px;">图3‑13  使用spctl工具校验Xcode来源</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-family:宋体">关于此前</span>Xcode<span style="font-family:宋体">加载较慢的问题一直被诟病，其存在国内网络设施方面的问题，但苹果未投入足够</span>CDN<span style="font-family:宋体">资源也是一个因素。我们注意到苹果在申明中提及会改善国内相关下载体验，但无论体验如何，原厂获取、本地可信分发建立与维护，都应该是开发者需要建立的规则。</span></p><h1><span style="color: rgb(0, 112, 192); font-size: 20px;"><strong>4、Android风险预警</strong></span></h1><hr  /><h1 style="line-height: 1.5em;"><span style="font-size: 16px;"></span></h1><h2><span style="font-size: 16px; color: rgb(0, 112, 192);">4.1  预警背景</span></h2><p style="line-height: 1.5em;"><span style="font-family:宋体">在</span>XcodeGhost<span style="font-family:宋体">事件发生后，安天分析人员尝试进行了其他平台的非官方通道开发工具审查，但由于我们的资源获取能力等因素所限，尽管检查了大量包和镜像，却并未在其他开发平台发现更多问题。但正如兄弟团队发现</span>Unity 3D<span style="font-family:宋体">被同样污染的问题一样，这并不意味着其他开发平台不存在其他问题。</span></p><p style="line-height: 1.5em;"><span style="font-family:宋体">由于</span>Android<span style="font-family:Calibri,sans-serif">的开发环境在国内</span><span style="font-family:宋体">获取较为困难</span><span style="font-family:Calibri,sans-serif">，使得部分开发者会选择从在线网盘等渠道下载离线更新包的方式来取代在线更新</span><span style="font-family:宋体">，因此我们将</span>Android<span style="font-family:宋体">开发生产环境作为重点预警对象。</span></p><p style="line-height: 1.5em;"><span style="font-family:Calibri,sans-serif">目前</span>Android<span style="font-family:Calibri,sans-serif">下的开发生产环境</span><span style="font-family:宋体">如图</span>4-1<span style="font-family:宋体">所示，其可以分成开发流程、自动化构建和发布三部分。</span></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZoRoolmUpFRLxib6MXEgANyIk6kXVmHiafwTpPiaWUb8Sg08GOd7RoBy5Zw/0?wx_fmt=png" data-ratio="0.4624505928853755" data-w=""  /></p><p style="text-align: center; line-height: 1.5em;"><span style="font-size: 12px;">图4‑1  Xcode安卓开发生产环境示意图</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-family:宋体">通过分析，无论开发者是否使用</span>IDE<span style="font-family:宋体">环境进行开发或者自动化构建，都会使用到</span>Android SDK<span style="font-family:宋体">和</span>Android NDK<span style="font-family:宋体">，并且默认官网下载的</span>zip<span style="font-family:宋体">中只包含有</span>SDK Manager<span style="font-family:宋体">，不同</span>API<span style="font-family:宋体">版本的构建工具和</span>lib<span style="font-family:宋体">库均需要开发者在线下载，并且在在线云盘中有大量的离线包分享。</span></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZoZZibeN4I02KpHVvOagmgaI6EXcGHAXpEBAgbUqwGbI0xlKUSkXPtkTw/0?wx_fmt=png" data-ratio="1.0771812080536913" data-w="298"  /></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZoD8yuFEAJKFJwSP8AiavibaK9mDiaibKnqFKJ4Y0R7nRwXlCPzxSdd16pWg/0?wx_fmt=png" data-ratio="0.9791666666666666" data-w="288"  /></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZobVpSibGxgnNXw3lj38UAZyVlzCStkfpDnsn3CsGOgbZoyDTPvmLWpmg/0?wx_fmt=png" data-ratio="0.7508650519031141" data-w="289"  /></p><p style="text-align: center; line-height: 1.5em;"><span style="font-size: 12px;">图4‑2  通过搜索引擎可以看到在百度网盘资源中有多份Android开发工具包</span></p><p><br  /></p><p style="line-height: 1.5em;"><span style="font-family:宋体">下文我们将</span><span style="font-family:Calibri,sans-serif">分别</span><span style="font-family:宋体">说明</span>JAVA<span style="font-family:Calibri,sans-serif">代码和</span>Native<span style="font-family:Calibri,sans-serif">代码的开发生产环境</span><span style="font-family:宋体">面临的污染风险，为避免我们的分析被攻击者利用，分析小组对公开版本报告中的本部分做了大篇幅删减，相关论述是希望兄弟团队共同对污染的可能性进行排查，以降低风险。</span></p><p style="line-height: 1.5em;"><strong style="color: rgb(0, 112, 192);"><br  /></strong></p><p style="line-height: 1.5em;"><strong style="color: rgb(0, 112, 192);">4.2  JAVA代码开发生产环境的风险</strong></p><p style="line-height: 1.5em;"><span style="font-family:宋体">在</span>Android<span style="font-family:宋体">开发中，</span>JAVA<span style="font-family:宋体">代码开发和编译主要由</span>Android SDK<span style="font-family:宋体">提供，其中除了编译工具和</span>Ant<span style="font-family:宋体">编译脚本外，还提供了系统</span>jar<span style="font-family:宋体">库，用于版本兼容的</span>support<span style="font-family:宋体">库，以及一些官方其他支持库。</span></p><p style="line-height: 1.5em;">JAVA<span style="font-family:宋体">开发生产环境被污染的风险，可能存在如下情况：</span></p><ol class=" list-paddingleft-2" style="list-style-type: decimal;"><li><p style="line-height: 1.5em;"><span style="font-family: 宋体;">污染代码在编译过程中被植入，或者随</span>apk<span style="font-family: 宋体;">打包的</span>jar<span style="font-family: 宋体;">库植入；</span></p></li></ol><p style="line-height: 1.5em;"><span style="font-family: 宋体;"></span>2.<span style="font-family: 宋体;">污染代码需要被主动调用，如在一个类被加载的时候去调用。</span></p><p style="line-height: 1.5em;">Android SDK<span style="font-family:宋体">中最大的风险是</span>jar<span style="font-family:宋体">库没有普遍采用签名验证机制，存在被篡改风险。</span></p><p style="text-align: center; line-height: 1.5em;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZop2XsHH24aB6bB0gonnb0l0KNHCXVcOr2oF20pkNXicDWaVAdxeg5dzA/0?wx_fmt=png" data-ratio="0.06719367588932806" data-w=""  /></p><p style="text-align: center; line-height: 1.5em;"><span style="font-size: 12px;">图4‑3  验证部分.jar的数字签名</span></p><p><strong style="color: rgb(0, 112, 192);"><br  /></strong></p><p><strong style="color: rgb(0, 112, 192);">4.3  Native代码开发生产环境的风险</strong><br  /></p><p style="line-height: 1.5em;"><span style="font-family:Calibri,sans-serif">同样，</span>Native<span style="font-family:Calibri,sans-serif">代码开发生产环境</span><span style="font-family:宋体">被污染的风险，可能存在如下情况</span><span style="font-family:Calibri,sans-serif">：</span></p><ol class=" list-paddingleft-2" style="list-style-type: decimal;"><li><p style="line-height: 1.5em;"><span style="font-family: Calibri, sans-serif;">污染代码跟随编译过程进入构建的模块，Native代码开发生产环境</span><span style="font-family: 宋体;">存在如下污染问题</span><span style="font-family: Calibri, sans-serif;">：</span></p></li></ol><p style="line-height: 1.5em;"><span style="font-family: Calibri, sans-serif;"></span>  1)<span style="font-family: 宋体;">污染</span><span style="font-family: Calibri, sans-serif;">头文件</span><span style="font-family: 宋体;">被污染；</span></p><p style="line-height: 1.5em;">2)<span style="font-family: Calibri, sans-serif;">ndk-build编译脚本</span><span style="font-family: 宋体;">被污染；</span></p><p style="line-height: 1.5em;">3)<span style="font-family: Calibri, sans-serif;">crt运行</span><span style="font-family: 宋体;">的</span><span style="font-family: Calibri, sans-serif;">.o库</span><span style="font-family: 宋体;">被污染。</span></p><p style="line-height: 1.5em;">2.<span style="font-family: Calibri, sans-serif;">污染代码必须能够自动执行，污染代码可能被编译到</span>.init_proc<span style="font-family: Calibri, sans-serif;">或者</span>.init_array<span style="font-family: Calibri, sans-serif;">节；</span></p><p style="line-height: 1.5em;">3.<span style="font-family: 宋体;">存在某处</span><span style="font-family: Calibri, sans-serif;">主动调用静态库的extern方法</span><span style="font-family: 宋体;">。</span></p><h1><span style="color: rgb(0, 112, 192); font-size: 20px;"><strong>5、全景的安全视野才能减少盲点</strong></span></h1><p style="line-height: 1.5em;"><span style="font-size: 18px; color: rgb(0, 112, 192);"></span></p><hr  /><p style="margin-bottom: 8px; line-height: 1.5em;"><span style="font-family:宋体"><br  /></span></p><p style="margin-bottom: 8px; line-height: 1.5em;"><span style="font-family:宋体">如果对这一事件进行定性，我们将其称之为一系列严重的“地下供应链”（工具链）污染事件，在当前移动互联网研发过度追求效率、安全意识低下的现状下，连锁形成了重大后果。从目前分析来看其污染源可能是地下黑产，并穿透了若干道应有的安全篱笆。同时值得深思的是，在今年</span>3<span style="font-family:宋体">月份的时候斯诺登曝光的一份文档显示：美国情报机构曾考虑通过对</span>Xcode(4.1)SDK<span style="font-family:宋体">进行污染，从而绕过苹果</span>App Store<span style="font-family:宋体">的安全审查机制，最终将带毒</span>App<span style="font-family:宋体">放到正规的苹果应用商店里。长期起来，国内安全的焦虑过多地集中围绕着</span>CPU<span style="font-family:宋体">和操作系统等少数环节的的自主化展开，但有其他几方面问题没有得到足够关注。</span></p><p style="margin-bottom: 8px; line-height: 1.5em;"><strong><span style="font-family:宋体">1.从供应链上看：</span></strong><span style="font-family: 宋体;">供应链上的各个环节，都有可能影响到最终产品和最终使用场景的安全性。在这个维度上，开发工具、固件、外设等“非核心环节”的安全风险，并不低于操作系统，而利用其攻击的难度可能更低。因此仅关注供应链的基础和核心环节是不够的。而同时，在实际应用场景中，往往存在着因盗版、汉化、破解等问题带来的地下供应链，以及下载重定向、第三方分发源等带来的不确定性，这些因素，在过去已经给信息系统制造了大量隐患。</span></p><p style="margin-bottom: 8px; line-height: 1.5em;"><span style="font-family: 宋体;"></span><strong>2.<span style="font-family:宋体">从场景和时域关联上看：</span></strong><span style="font-family: 宋体;">开发商、分销商、配送通道的安全性与使用场景的安全同样重要，因此只关注最终场景的安全是不够的。苹果在中国缺少足够的</span>CDN<span style="font-family: 宋体;">资源投入，尽管因其产品的强势，让中国的开发者和用户都能容忍，但无疑也助动了地下工具链的成长。而国内的网络速度和效率问题，看似一个体验问题，但其最终也同样可以转化为安全问题。</span></p><p style="margin-bottom: 8px; line-height: 1.5em;"><strong>3.<span style="font-family:宋体">从权限上看：</span></strong><span style="font-family: 宋体;">在数据读取能力上，居于底层的操作系统和居于上层的应用程序可能是一致的，即使操作系统做出种种分层访问、沙箱隔离等限制，一旦受到污染程序进入系统，其攻击难度就瞬间从远程利用降低为提权，因此只关注操作系统的“底层”安全是不够的，追求系统数据安全和持续运维才是目的。而同时，在移动平台上，无论是安卓提供的安全产品与应用平权的策略，还是苹果彻底将反病毒产品逐出</span>App Store<span style="font-family: 宋体;">的方法，最终都导致安全厂商难以给予其更多的支持、防护和协同。从而使这些互联网霸王龙陷于与寄生虫们不可能取胜的战争当中。</span></p><p style="margin-bottom: 8px; line-height: 1.5em;"><strong>4.</strong><strong><span style="font-family:宋体">从信息链上看：</span></strong><span style="font-family: 宋体;">互联网模式不是传统的信息流转，而是基于用户的方便性追求而进行的信息采集、聚合与分析，用户需要用主动提供信息来置换对应服务，因此，仅用传统的控制思维是不够的。而从这一恶意代码所表现出的信息采集和提交的特性来看，其似乎与常态的互联网客户端十分接近，这或许也是其未能被更早发现的原因。</span></p><p style="margin-bottom: 8px; line-height: 1.5em;"><span style="font-family:宋体">从被现行发现的</span>Xcode<span style="font-family:宋体">到之后被关注到的</span>U3D<span style="font-family:宋体">，以及我们预警的安卓开发平台的可能性，一系列非官方版本污染事件涉及到了上述每个问题的层面，其正是通过工具链污染绕过了多个开发厂商的自我安全审核，与号称非常严格的苹果应用商店的上架审核（也许对苹果来说，这个“多余”的模块就像一个新增的广告联盟的插件）。而一批开发者不坚持原厂获取开发工具，不审查工具的数字签名，这些都暴露了</span>App<span style="font-family:宋体">开发领域的野蛮生长，忽视安全的现状。而这种被污染的</span>App<span style="font-family:宋体">到达用户终端后，并不需要依赖获取更高权限，依然可以获取大量有价值的信息，但一旦与漏洞利用结合，就有可能形成巨大的威力。而同时，其也采用了与互联网客户端类似的信息采集聚合方式，而数据的聚合点，则位于境外的云服务平台上。从而使事件变成的多边、多角的复杂关系。</span></p><p style="margin-bottom: 8px; line-height: 1.5em;"><span style="font-family:宋体">对于苹果公司在此事中的表现，我们除了期待苹果在中国有更多的</span>CDN<span style="font-family:宋体">投入来改善下载体验外，我们想引用我们的同事在</span>2012<span style="font-family:宋体">年所写的两段文字：“作为一个选择全封闭、不兼容产业模式的商业帝国，苹果公司取得的巨大成就在于其对体验极致的追求和近乎完美的产业定位设计。但如果把第三方安全支撑能力完全摒弃在外，一个自身已经成为复杂巨系统的体系，怎么可能具备独善其身的能力呢”、“对安全厂商高度排斥，如果不求变革，这些都将导致其陷入漫长的一个人的战斗。”</span></p><p style="margin-bottom: 8px; line-height: 1.5em;"><span style="font-family:宋体">这一问题再度提醒我们，要跳出单点迷思，从完整供应链、信息链角度，形成全景的安全视野、安全建模与评价、感知能力。同时，我们也要再度提醒，我们需要警惕“建立一个完全自闭合的供应链与自循环的信息链方能安全自保”的小农安全观的卷土重来，在互联网和社会生活场景下，这本身就不可能实现。而中国政企网络的市场空间，完全不足以保证一个健康的闭环供应链的有效生存，更谈不上还需要支撑这个闭环供应链安全性的持续改进。</span></p><p style="line-height: 1.5em;"><span style="font-family:宋体">同时，我们也需要看到，网络地下黑产的泛滥与无孔不入，其不仅将危害网民的安全，也会带来更多纵深的安全风险，其让国家安全的防护边界变得模糊。因此在这一问题上投入更多的资源，进行更为强力、有效的综合治理，于国于民都非常必要。</span></p><p style="line-height: 1.5em;"><br  /></p><fieldset class="wxqq-borderTopColor wxqq-borderRightColor wxqq-borderBottomColor wxqq-borderLeftColor" style="margin: 0px; padding: 5px; max-width: 100%; border: 1px solid rgb(247, 8, 48); box-sizing: border-box !important; word-wrap: break-word !important;"><legend style="margin: 0px 10px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span class="wxqq-bg" style="margin: 0px; padding: 5px 10px; max-width: 100%; color: rgb(255, 255, 255); font-weight: bold; border-radius: 5px; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(247, 8, 48);">外一篇：我们的检讨</span></legend><blockquote style="padding-top: 10px; padding-right: 10px; padding-bottom: 10px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><p style="white-space: normal; line-height: 1.5em;">我们一直在追求“一小时启动、同时打赢两场战争”的分析对抗能力，但针对这次XcodeGhost事件，一周的时间过去了，我们却未能及时交卷。尽管我们有分布在四个城市的传统、网络、移动、追溯的四个分析团队，但当在同一个领域的两个事件接踵到达时，我们出现了严重的指挥和衔接问题，我们的局部兵力和能力也暴露出了不足。但也许，这种密集到达的挑战正是安全威胁的常态。</p><p style="white-space: normal; line-height: 1.5em;">带着惭愧，分析小组还想多做一段检讨，安天作为追求先进检测能力的安全厂商，在重大恶意代码疫情发生时的沉默，就是一种没有充分履行社会责任的体现。当我们的研判组未能在第一时间把事件提升到A级响应，当安天安全研究与应急处理中心（Antiy CERT）的同事们想当然的认为移动安全公司的分析组（AVL Team）一定会响应此事，当AVL Team的分析组因跟进某事件分析，决定推迟分析启动48小时，却没有进行互通汇报…..这种防守失位就已经达成。我们突然联想到，传说中某国火箭在发射过程中的一个愚蠢的失败教训——因整流罩未能打开，卫星未能成功入轨，而原因是卫星方认为火箭方会下达这个指令，而火箭方认为卫星方会下达这个指令，最终两方都没有下达指令。而我们自己这次就是如此地愚蠢，这一切同样表明，对于安全厂商自身来说，一个全面、贯通的决策链和能力链多么重要。</p><p style="white-space: normal; line-height: 1.5em;">而我们在报告中编写中遇到的另一问题，也值得我们自己警醒和反思。本报告昨晚被安天总工办叫停的一个原因，是因为Android风险预警一节写得过于详细，且完全是站在攻方视角的审视。为此，分析小组的同事们再次受到如下团队基本立场的教育：以保障用户价值为最终目的；以形成工程能力为基本方法；具备推导攻方手段的逆向思维；坚持改善防御水平的正义立场。</p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; line-height: 1.5em;">同时值得欣慰的是针对XcodeGhost事件，从官方应急机构的提前预警，到多个厂商的接力分析，网络安全界展示了集体的力量，在此安天分析团队向最早发现事件、并做了大量分析的腾讯安全团队、向本次最早发出公开预警的国家互联网应急中心、向本次在大洋彼岸最先做出细腻分析工作的、我们曾经的同事ClaudXiao、向及时跟进做出大量分析、应急和解读工作的360、阿里安全、盘古、百度等团队表示敬意。</p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; line-height: 1.5em;">最后，还是要做个广告，在AV-C移动安全下半年的测试中，安天移动安全团队（AVL Team）出品的AVL SDK for Android引擎，再次获得100%恶意代码检出率，从而成为唯一一款在上下半年的测试中均取得100%检出率的安全产品。我们想用这一成绩告诉我们的用户，以及使用我们引擎的合作伙伴用户——我们有能力保护你们！</p><p class="ue_t" style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><br  /></p></blockquote></fieldset><p style=""><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"  /></p><p style="white-space: normal;"><em><strong><span style="font-size: 14px; color: rgb(255, 0, 0);">注：本分析报告错漏缺点在所难免，敬请业内专家和研究者回帖指点批评指正。</span></strong></em></p><p style="white-space: normal;"><em><strong><span style="font-size: 14px; color: rgb(255, 0, 0);">本分析报告由安天安全研究与应急处理中心（安天CERT）编撰，如您认为对网络安全业有价值，请转载时注明，并附上链接。</span></strong></em></p><p><br  /></p><p><br  /></p><section style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><section class="awb-s1" style="margin: 0.3em 0px; padding: 0px; max-width: 100%; height: 0.3em; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(0, 187, 236);"></section><section class="awb-s3" style="margin: 0px; padding: 0.5em; max-width: 100%; border: 1px solid rgb(0, 187, 236); box-shadow: rgb(226, 226, 226) 0em 1em 0.1em -0.8em; font-size: 1em; line-height: 1.6em; box-sizing: border-box !important; word-wrap: break-word !important; background-color: white;"><strong>点击下方“阅读全文”获取安天原版报告</strong></section><section class="awb-s4" style="margin: 0px; padding: 0px; max-width: 100%; color: rgb(0, 187, 236); font-size: 2em; box-sizing: border-box !important; word-wrap: break-word !important;">↓↓↓</section></section><p><br  /></p><blockquote class="wxqq-bg" style="padding: 5px 15px; border: 0px; white-space: normal; line-height: 25px; max-width: 100%; color: rgb(255, 255, 255); font-weight: bold; border-radius: 5px 5px 0px 0px; background-color: rgb(17, 138, 219);">安天</blockquote><blockquote class="wxqq-borderTopColor wxqq-borderRightColor wxqq-borderBottomColor wxqq-borderLeftColor" style="padding: 10px 15px 20px; border-width: 1px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-color: rgb(17, 138, 219); white-space: normal; line-height: 25px; max-width: 100%; border-radius: 0px 0px 5px 5px;"><p><span style="font-size: 14px;">安天从反病毒引擎研发团队起步，目前已发展成为拥有四个研发中心、监控预警能力覆盖全国、产品与服务辐射多个国家的先进安全产品供应商。安天历经十五年持续积累，形成了海量安全威胁知识库，并综合应用网络检测、主机防御、未知威胁鉴定、大数据分析、安全可视化等方面经验，推出了应对持续、高级威胁（APT）的先进产品和解决方案。安天技术实力得到行业管理机构、客户和伙伴的认可，安天已连续四届蝉联国家级安全应急支撑单位资质，亦是CNNVD六家一级支撑单位之一。安天移动检测引擎获得全球首个AV-TEST（2013）年度奖项的中国产品，全球超过十家以上的著名安全厂商都选择安天作为检测能力合作伙伴。</span></p><p><span style="font-size: 14px;">关于反病毒引擎请访问：</span></p><p><span style="font-size: 14px;">http://www.antiy.com（中文）</span></p><p><span style="font-size: 14px;">http://www.antiy.net（英文）</span></p><p><span style="font-size: 14px;"><br  />关于安天反APT相关产品信息请访问：</span></p><p><span style="font-size: 14px;">http://www.antiy.cn</span></p><p><br  /></p></blockquote>
+                </div>
+                <script nonce="268828899" type="text/javascript">
+                    var first_sceen__time = (+new Date());
+
+                    if ("" == 1 && document.getElementById('js_content')) {
+                        document.getElementById('js_content').addEventListener("selectstart",function(e){ e.preventDefault(); });
+                    }
+
+                    
+                    (function(){
+                        if (navigator.userAgent.indexOf("WindowsWechat") != -1){
+                            var link = document.createElement('link');
+                            var head = document.getElementsByTagName('head')[0];
+                            link.rel = 'stylesheet';
+                            link.type = 'text/css';
+                            link.href = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+                            head.appendChild(link);
+                        }
+                    })();
+                </script>
+
+                
+                <div class="ct_mpda_wrp" id="js_sponsor_ad_area" style="display:none;"></div>
+                
+                
+                <div class="read-more__area" id="js_more_read_area" style="display:none;">
+                    
+                </div>
+
+                
+                                <div class="reward_area tc reward_area_primary" id="js_preview_reward_author" style="display:none;">
+                    <div class="reward-avatar" style="display: none;" id="js_preview_reward_author_avatar">
+                        <img src="" alt="" id="js_preview_reward_author_head">
+                    </div>
+                    
+                                        <div class="reward-author" id="js_preview_reward_author_name"></div>
+                                        <p class="reward_tips" id="js_preview_reward_author_wording" style="display:none;"></p>
+                    <p>
+                        <a class="reward_button" id='js_preview_reward_author_link' href="##"><span id="js_preview_reward_link_text">赞赏</span></a>
+                    </p>
+                </div>
+
+                <div class="reward_qrcode_area reward_area tc" id="js_preview_reward_qrcode" style="display:none;">
+                    <p class="tips_global">长按二维码向我转账</p>
+                    <p id="js_preview_reward_ios_wording" class="reward_tips" style="display:none;"></p>
+                    <span class="reward_qrcode_img_wrp"><img class="reward_qrcode_img" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_reward_qrcode.2x42f400.png"></span>
+                    <p class="tips_global">受苹果公司新规定影响，微信 iOS 版的赞赏功能被关闭，可通过二维码转账支持公众号。</p>
+                </div>
+                                
+                
+                            </div>
+                                        
+                                
+
+                        
+            <ul id="js_hotspot_area" class="article_extend_area"></ul>
+
+
+            
+
+            
+
+
+<div class="rich_media_tool" id="js_toobar3">
+
+        <a class="media_tool_meta meta_primary" id="js_view_source" href="##">阅读原文</a>
+        <div id="js_read_area3" class="media_tool_meta tips_global_primary meta_primary" style="display:none;">阅读 <span id="readNum3"></span></div>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_praise" id="like_old">
+        <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum_old"></span>
+    </span>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_like" id="like3">
+        <button class="like_btn" id="js_like_btn"> 
+          <span id="js_like_wording"> 好看</span><span class="like_num" id="likeNum3"></span>
+        </button>
+    </span>
+
+    <div id="js_like_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog weui-dialog_haokan">
+        <div class="weui-dialog__hd"><strong class="weui-dialog__title" id="educate_title">已推荐到看一看</strong></div>
+        <div class="weui-dialog__bd">
+          <img class="pic_haokan" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_haokan42f400.png">
+            你的朋友可以在“发现”-“看一看”看到你认为好看的文章。        </div>
+        <div class="weui-dialog__ft" id="educate_btn" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_default" id="js_cancel">取消</a>
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_confirm">推荐</a>
+        </div>
+        <div class="weui-dialog__ft" id="educate_btn2" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_acknowledge">我知道了</a>
+        </div>
+        </div>
+    </div>
+
+    <div id="js_unlike_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog">
+        
+        <div class="weui-dialog__bd">
+            已取消，“好看”想法已同步删除        </div>
+        <div class="weui-dialog__ft">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_unlike_know">知道了</a>
+        </div>
+        </div>
+    </div>
+
+    
+    </div>
+
+
+<div class="like_comment_wrp" id="js_a_like_comment" style="display: none;">
+  <div class="like_comment_inner">
+    <div class="like_comment_hd" style="display:none" id="js_like_title"></div>
+    <div class="like_comment_bd">
+      <div class="tips_global_primary like_comment_tips">
+        <i class="weui-icon-success"></i>已推荐到看一看<a href="javascript:;" class="like_comment_share_link" id="js_a_like_comment_share">和朋友分享想法</a>
+      </div>
+    </div>
+    <div class="like_comment_ft">
+      <span id="js_a_like_comment_msg" class="like_comment_msg" style="visibility:hidden">最多200字，当前共<span id="js_a_like_current_cnt"></span>字</span>
+      <button class="like_comment_btn" disabled="disabled" id="js_a_like_confirm">发送</button>
+    </div>
+  </div>
+</div>
+
+<div id="js_like_toast" style="display: none;">
+  <div class="weui-mask_transparent"></div>
+  <div class="weui-toast">
+    <i class="weui-icon-success-no-circle weui-icon_toast"></i>
+    <p class="weui-toast__content" id="js_toast_msg">已发送</p>
+  </div>
+</div>
+
+
+<div style="display: none;" id="js_b_comment_panel" class="like_comment_primary_pop">
+  <div class="like_comment_primary_wrp" id="js_b_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <h4 class="like_comment_primary_title">
+          朋友将在看一看看到        </h4>
+        <button id="js_b_like_confirm" class="like_comment_primary_btn">确定</button>
+      </div>
+      <div id='js_b_comment_text_first' class="like_comment_primary_bd">
+        <span class="tips_global_primary">
+          分享你的想法...        </span>
+      </div>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_1"></div>
+</div>
+
+<div style="display: none;" id="js_b_comment_final">
+  <div class="like_comment_primary_wrp editing" id="js_comment_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <button class="like_comment_primary_cancel" id="js_b_comment_cancel">取消</button>
+        <h4 class="like_comment_primary_title"> 分享想法到看一看 </h4>
+        <button class="like_comment_primary_btn" id="js_b_comment_confirm">确定</button>
+      </div>
+      <div class="like_comment_primary_bd">
+        <textarea class="like_comment_textarea weui-textarea" placeholder="分享你的想法..." id="js_b_comment_text_second"></textarea>
+      </div>
+      <span class="like_comment_msg" id="js_b_like_comment_msg" style="visibility: hidden;">最多200字，当前共<span id="js_b_like_current_cnt"></span>字</span>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_2"></div>
+</div>
+
+<div id="js_loading" style=" display: none;">
+    <div class="weui-mask_transparent"></div>
+    <div class="weui-toast">
+        <i class="weui-loading weui-icon_toast"></i>
+        <p class="weui-toast__content">发送中</p>
+    </div>
+</div>
+
+<div id="js_fail" style="display:none">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+    <div class="weui-dialog__bd">
+        网络异常，请稍后重试    </div>
+    <div class="weui-dialog__ft">
+      <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_fail_inform">知道了</a>
+    </div>
+    </div>
+</div>
+
+
+
+                      </div>
+        </div>
+
+        <div class="rich_media_area_primary sougou" id="sg_tj" style="display:none"></div>
+
+
+        
+        <div class="rich_media_area_extra">
+          <div class="rich_media_area_extra_inner">
+              
+              <div id="js_share_appmsg">
+              </div>
+
+              
+                            <div class="mpda_bottom_container" id="js_bottom_ad_area"></div>
+                            
+              <div id="js_iframetest" style="display:none;"></div>
+                            
+              <div class="rich_media_extra rich_media_extra_discuss" id="js_cmt_container" style="display:none">
+                
+
+                
+                <div class="discuss_mod" id="js_friend_cmt_area" style="display:none">
+                  
+                  
+                  
+                </div>
+
+                                <div class="discuss_mod" id="js_preview_cmt" style="display:none">
+                  <div class="discuss_container">
+                    <div class="mod_title_context">
+                        <p class="discuss_icon_tips tc">
+                            <a href="javascript:;" id="js_preview_cmt_write">留言</a>
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                              </div>
+          </div>
+        </div>
+
+        
+        <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">
+            <div class="qr_code_pc_inner">
+                <div class="qr_code_pc">
+                    <img id="js_pc_qr_code_img" class="qr_code_pc_img">
+                    <p>微信扫一扫<br>关注该公众号</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="js_pc_weapp_code" class="weui-desktop-popover weui-desktop-popover_pos-up-center weui-desktop-popover_img-text" style="display: none;">
+    <div class="weui-desktop-popover__content">
+        <div class="weui-desktop-popover__desc">
+            <img id="js_pc_weapp_code_img">
+            微信扫一扫<br>使用小程序<span id="js_pc_weapp_code_des"></span>        </div>
+    </div>
+</div>
+<div id="js_minipro_dialog" style="display:none;">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+        <div class="weui-dialog__bd">即将打开"<span id="js_minipro_dialog_name"></span>"小程序</div>
+        <div class="weui-dialog__ft">
+            <a id="js_minipro_dialog_cancel" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_default">取消</a>
+            <a id="js_minipro_dialog_ok" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_primary">打开</a>
+        </div>
+    </div>
+</div>
+
+        
+        <script nonce="268828899">
+    var __DEBUGINFO = {
+        debug_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/debug/console42f400.js",
+        safe_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/moonsafe42f400.js",
+        res_list: []
+    };
+</script>
+
+<script nonce="268828899" type="text/javascript">
+(function() {
+	var totalCount = 0,
+			finishCount = 0;
+
+	function _loadVConsolePlugin() {
+		window.vConsole = new window.VConsole();
+		while (window.vConsolePlugins.length > 0) {
+			var p = window.vConsolePlugins.shift();
+			window.vConsole.addPlugin(p);
+		}
+	}
+	
+	function _addVConsole(uri, cb) {
+		totalCount++;
+		var node = document.createElement('SCRIPT');
+		node.type = 'text/javascript';
+		node.src = uri;
+		node.setAttribute('nonce', '268828899');
+		if (cb) {
+			node.onload = cb;
+		}
+		document.getElementsByTagName('head')[0].appendChild(node);
+	}
+	if (
+		(document.cookie && document.cookie.indexOf('vconsole_open=1') > -1)
+		|| location.href.indexOf('vconsole=1') > -1
+	) {
+		window.vConsolePlugins = [];
+		_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/3.2.2/vconsole.min43429b.js', function() {
+			
+			_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/plugin/vconsole-mpopt/1.0.1/vconsole-mpopt42f400.js', _loadVConsolePlugin);
+		});
+	}
+})();
+</script>
+        
+<script nonce="268828899" type="text/javascript">
+if (location.href.match(/fontScale=\d+/) && /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+
+    var m=location.href.match(/fontScale=(\d*)/);
+    var map={
+        "94":1,
+        "100":2,
+        "109":3,
+        "119":4,
+        "131":5,
+    }
+    if(m&&m[1]&&map[m[1]]){
+        document.getElementsByTagName("body")[0].className+=" appmsg_skin_fontscale_"+map[m[1]];
+        console.log("appmsg_skin_fontscale_:"+map[m[1]]);
+    }
+}
+
+
+(function(){
+    if (window.__second_open__) return; 
+
+    
+
+    var first_js_time = +new Date();
+
+    var showDate="";
+    var svrDate=new Date("1549780426"*1000);
+    var createDate=new Date("1443018748"*1000);
+    var ct="1443018748"*1;
+    var publish_time = "2015-09-24" || "";
+    var cD={
+      year:createDate.getYear(),
+      month:createDate.getMonth()+1,
+      date:createDate.getDate()
+    };
+    
+    svrDate.setHours(0);
+    svrDate.setMinutes(0);
+    svrDate.setSeconds(0);
+    var todayDate=svrDate.getTime()/1000;
+    svrDate.setDate(1);
+    svrDate.setMonth(0);
+    var yearDate=svrDate.getTime()/1000;
+    
+    if(ct>=todayDate){
+      showDate="今天";
+    
+    }else if(ct>=todayDate-60*60*24){
+       showDate="昨天";
+    
+    }else if(ct>=todayDate-2*60*60*24){
+      showDate="前天";
+    }else if(ct>=todayDate-3*60*60*24){
+      showDate="3天前";
+    }else if(ct>=todayDate-4*60*60*24){
+      showDate="4天前";
+    }else if(ct>=todayDate-5*60*60*24){
+      showDate="5天前";
+    }else if(ct>=todayDate-6*60*60*24){
+      showDate="6天前";
+    }else if(ct>=todayDate-2*7*60*60*24){
+      showDate="1周前";
+    }else if(ct>=yearDate){
+      
+      
+      
+      showDate="%s月%s日".replace("%s",cD.month).replace("%s",cD.date);
+    }else{
+      showDate=publish_time;
+    };
+    if(document.getElementById("publish_time")){
+      document.getElementById("publish_time").innerText=showDate;
+    }
+})();
+</script>
+<script nonce="268828899" type="text/javascript">
+
+if (!window.console) window.console = { log: function() {} };
+
+if (typeof getComputedStyle == 'undefined') {
+    if (document.body.currentStyle) {
+        window.getComputedStyle = function(el) {
+            return el.currentStyle;
+        }
+    } else {
+        window.getComputedStyle = {};
+    }
+}
+(function(){
+    window.__zoom = 1;
+    
+    (function(){
+        var validArr = ","+([0.875, 1, 1.125, 1.25, 1.375]).join(",")+",";
+        var match = window.location.href.match(/winzoom=(\d+(?:\.\d+)?)/);
+        if (match && match[1]) {
+            var winzoom = parseFloat(match[1]);
+            if (validArr.indexOf(","+winzoom+",")>=0) {
+                window.__zoom = winzoom;
+            }
+        }
+    })();
+
+    var ua = navigator.userAgent.toLowerCase();
+    var re = new RegExp("msie ([0-9]+[\.0-9]*)");
+    var version;
+    if (re.exec(ua) != null) {
+        version = parseInt(RegExp.$1);
+    }
+    var isIE = false;
+    if (typeof version != 'undefined' && version >= 6 && version <= 9) {
+        isIE = true;
+    }
+    var getMaxWith=function(){
+        var container = document.getElementById('img-content');
+        var max_width = container.offsetWidth;
+        var container_padding = 0;
+        var container_style = getComputedStyle(container);
+        container_padding = parseFloat(container_style.paddingLeft) + parseFloat(container_style.paddingRight);
+        max_width -= container_padding;
+        if (!max_width) {
+            max_width = window.innerWidth - 30;      
+        }
+        return max_width;
+    };
+    var getParentWidth = function(dom){
+        var parent_width = 0;
+        var parent = dom.parentNode;
+        var outerWidth = 0;
+        while (true) {
+            if(!parent||parent.nodeType!=1) break;
+            var parent_style = getComputedStyle(parent);
+            if (!parent_style) break;
+            parent_width = parent.clientWidth - parseFloat(parent_style.paddingLeft) - parseFloat(parent_style.paddingRight) - outerWidth;
+            if (parent_width > 0) break;
+            outerWidth += parseFloat(parent_style.paddingLeft) + parseFloat(parent_style.paddingRight) + parseFloat(parent_style.marginLeft) + parseFloat(parent_style.marginRight) + parseFloat(parent_style.borderLeftWidth) + parseFloat(parent_style.borderRightWidth);
+            parent = parent.parentNode;
+        }
+        return parent_width;
+    }
+    var getOuterW=function(dom){
+        var style=getComputedStyle(dom),
+            w=0;
+        if(!!style){
+            w = parseFloat(style.paddingLeft) + parseFloat(style.paddingRight) + parseFloat(style.borderLeftWidth) + parseFloat(style.borderRightWidth);
+        }
+        return w;
+    };
+    var getOuterH =function(dom){
+        var style=getComputedStyle(dom),
+            h=0;
+        if(!!style){
+            h = parseFloat(style.paddingTop) + parseFloat(style.paddingBottom) + parseFloat(style.borderTopWidth) + parseFloat(style.borderBottomWidth);
+        }
+        return h;
+    };
+    var insertAfter = function(dom,afterDom){
+        var _p = afterDom.parentNode;
+        if(!_p){
+            return;
+        }
+        if(_p.lastChild === afterDom){
+            _p.appendChild(dom);
+        }else{
+            _p.insertBefore(dom,afterDom.nextSibling);
+        }
+    };
+    var getQuery = function(name,url){
+        
+        var u  = arguments[1] || window.location.search,
+            reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)"),
+            r = u.substr(u.indexOf("\?")+1).match(reg);
+        return r!=null?r[2]:"";
+    };
+
+    
+    function setImgSize(item, widthNum, widthUnit, ratio, breakParentWidth) {
+        setTimeout(function () {
+            var img_padding_border = getOuterW(item) || 0;
+            var img_padding_border_top_bottom = getOuterH(item) || 0;
+            
+            if (widthNum > getParentWidth(item) && !breakParentWidth) {
+                widthNum = getParentWidth(item);
+            }
+
+            height = (widthNum - img_padding_border) * ratio + img_padding_border_top_bottom;
+
+            if (isIE) {
+                var url = item.getAttribute('data-src');
+                item.src = url;
+            } else {
+                if(parseFloat(widthNum, 10) > 40 && height > 40 && breakParentWidth) {
+                    item.className += ' img_loading';
+                }
+                item.src = "data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            }
+            item.style.cssText += ";width: " + widthNum + widthUnit + " !important;";
+            item.style.cssText += ";height: " + height + widthUnit + " !important;";
+        }, 10);
+    }
+
+    (function(){
+        var images = document.getElementsByTagName('img');
+        var length = images.length;
+        var max_width = getMaxWith();
+        for (var i = 0; i < length; ++i) {
+            if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var imageItem = images[i];
+            var src_ = imageItem.getAttribute('data-src');
+            var realSrc = imageItem.getAttribute('src');
+            if (!src_ || realSrc) continue;
+            
+            var originWidth = imageItem.getAttribute('data-w');
+            var ratio_ = 1 * imageItem.getAttribute('data-ratio');
+
+            var height = 100;
+            if (ratio_ && ratio_ > 0) {
+                var parent_width = getParentWidth(imageItem) || max_width;
+                var initWidth = imageItem.style.width || imageItem.getAttribute('width') || originWidth || parent_width;
+                initWidth = parseFloat(initWidth, 10) > max_width ? max_width : initWidth;
+                
+                if (initWidth) {
+                    imageItem.setAttribute('_width', !isNaN(initWidth * 1) ? initWidth + 'px' : initWidth);
+                }
+                
+                if (typeof initWidth === 'string' && initWidth.indexOf('%') !== -1) {
+                    initWidth = parseFloat(initWidth.replace('%', ''), 10) / 100 * parent_width;
+                }
+                
+                if (initWidth === 'auto') {
+                    initWidth = originWidth;
+                }
+
+                var res = /^(\d+(?:\.\d+)?)([a-zA-Z%]+)?$/.exec(initWidth);
+                var widthNum = res && res.length >= 2 ? res[1] : 0;
+                var widthUnit = res && res.length >= 3 && res[2] ? res[2] : 'px';
+
+                
+                setImgSize(imageItem, widthNum, widthUnit, ratio_, true);
+                
+                (function (item, widthNumber, unit, ratio) {
+                    setTimeout(function () {
+                        setImgSize(item, widthNumber, unit, ratio, false);
+                    });
+                })(imageItem, widthNum, widthUnit, ratio_);
+            } else {
+                imageItem.style.cssText += ";visibility: hidden !important;";
+            }
+
+        }
+    })();
+    window.__videoDefaultRatio=16/9;
+    window.__getVideoWh = function(dom){
+        var max_width = getMaxWith(),
+            width = max_width,
+            ratio_ = dom.getAttribute('data-ratio')*1,
+            arr = [4/3, 16/9],
+            ret = arr[0],
+            abs = Math.abs(ret - ratio_);
+        if (!ratio_) { 
+            if (dom.getAttribute("data-mpvid")) { 
+                ratio_ = 16/9;
+            } else { 
+                ratio_ = 4/3;
+            }
+        } else { 
+            for (var j = 1, jl = arr.length; j < jl; j++) {
+                var _abs = Math.abs(arr[j] - ratio_);
+                if (_abs < abs) {
+                    abs = _abs;
+                    ret = arr[j];
+                }
+            }
+            ratio_ = ret;
+        }
+        
+        var parent_width = getParentWidth(dom)||max_width,
+            width = width > parent_width ? parent_width : width,
+            outerW = getOuterW(dom)||0,
+            outerH = getOuterH(dom)||0,
+            videoW = width - outerW,
+            videoH = videoW/ratio_,
+            height = videoH + outerH;
+        return {w:Math.ceil(width),h:Math.ceil(height),vh:videoH,vw:videoW,ratio:ratio_};
+    };
+
+
+    (function(){
+        var iframe = document.getElementsByTagName('iframe');
+        for (var i=0,il=iframe.length;i<il;i++) {
+            if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var a = iframe[i];
+            var src_ = a.getAttribute('src')||a.getAttribute('data-src')||"";
+            if(!/^http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)
+                && !/^http(s)*\:\/\/mp\.weixin\.qq\.com\/mp\/readtemplate\?t=pages\/video_player_tmpl/.test(src_)
+            ){
+                continue;
+            }
+            var vid = getQuery("vid",src_);
+            if(!vid){
+                continue;
+            }
+            vid=vid.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,"");
+            a.removeAttribute('src');
+            a.style.display = "none";
+            var obj = window.__getVideoWh(a),
+                videoPlaceHolderSpan = document.createElement('span'),
+                videoPlayerIconSpan = document.createElement('span'),
+                mydiv = document.createElement('img');
+
+            videoPlaceHolderSpan.className = "js_img_loading db";
+            videoPlaceHolderSpan.setAttribute("data-vid", vid);
+            
+
+            videoPlayerIconSpan.className = 'wx_video_context db'; 
+            videoPlayerIconSpan.style.display = 'none';
+            videoPlayerIconSpan.innerHTML = '<span class="wx_video_thumb_primary"></span><button class="wx_video_play_btn">播放</button><span class="wx_video_mask"></span>'; 
+
+            mydiv.className = "img_loading";
+
+            mydiv.src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            
+            
+            videoPlaceHolderSpan.style.cssText = "width: " + obj.w + "px !important;";
+            mydiv.style.cssText += ";width: " + obj.w + "px";
+            videoPlaceHolderSpan.appendChild(videoPlayerIconSpan);
+            videoPlaceHolderSpan.appendChild(mydiv);
+            insertAfter(videoPlaceHolderSpan, a); 
+            
+            a.style.cssText += ";width: " + obj.w + "px !important;";
+            a.setAttribute("width",obj.w);
+            if(window.__zoom!=1){
+                a.style.display = "block";
+                videoPlaceHolderSpan.style.display = "none";
+                a.setAttribute("_ratio",obj.ratio);
+                a.setAttribute("_vid",vid);
+            }else{
+                videoPlaceHolderSpan.style.cssText += "height: " + obj.h + "px !important;";
+                mydiv.style.cssText += "height: " + obj.h + "px !important;";
+                a.style.cssText += "height: " + obj.h + "px !important;";
+                a.setAttribute("height",obj.h);
+            }
+            a.setAttribute("data-vh",obj.vh);
+            a.setAttribute("data-vw",obj.vw);
+            if(a.getAttribute("data-mpvid")){
+                a.setAttribute("data-src",location.protocol+"//mp.weixin.qq.com/mp/readtemplate?t=pages/video_player_tmpl&auto=0&vid="+vid);
+            }else{
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+obj.vw+"&height="+obj.vh+"&auto=0");   
+            }            
+        }
+    })();
+    
+    (function(){
+        if(window.__zoom!=1){
+            if (!window.__second_open__) {
+                document.getElementById('page-content').style.zoom = window.__zoom;
+                var a = document.getElementById('activity-name');
+                var b = document.getElementById('meta_content');
+                if(!!a){
+                    a.style.zoom = 1/window.__zoom;
+                }
+                if(!!b){
+                    b.style.zoom = 1/window.__zoom;
+                }
+            }
+            var images = document.getElementsByTagName('img');
+            for (var i = 0,il=images.length;i<il;i++) {
+                if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                images[i].style.zoom = 1/window.__zoom;
+            }
+            var iframe = document.getElementsByTagName('iframe');
+            for (var i = 0,il=iframe.length;i<il;i++) {
+                if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                var a = iframe[i];
+                a.style.zoom = 1/window.__zoom;
+                var src_ = a.getAttribute('data-src')||"";
+                if(!/http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)){
+                    continue;
+                }
+                var ratio = a.getAttribute("_ratio");
+                var vid = a.getAttribute("_vid");
+                a.removeAttribute("_ratio");
+                a.removeAttribute("_vid");
+                var vw = a.offsetWidth - (getOuterW(a)||0);
+                var vh = vw/ratio;
+                var h = vh + (getOuterH(a)||0)
+                a.style.cssText += "height: " + h + "px !important;"
+                a.setAttribute("height",h);
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+vw+"&height="+vh+"&auto=0");
+                a.style.display = "none";
+                var parent = a.parentNode;
+                if(!parent){
+                    continue;
+                }
+                for(var j=0,jl=parent.children.length;j<jl;j++){
+                    var child = parent.children[j];
+                    if(child.className.indexOf("img_loading")>=0 && child.getAttribute("data-vid")==vid){
+                        child.style.cssText += "height: " + h + "px !important;";
+                        child.style.display = "";
+                    }
+                }
+            }
+        }
+    })();
+})();
+</script>
+<script nonce="268828899" type="text/javascript">
+    var new_appmsg = 1;
+    var item_show_type = "0";
+    var can_see_complaint = "0";
+    var not_in_mm_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm435ee6.css";
+    var windowwx_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+    var article_improve_combo_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo438c19.css";
+    var tid = "";
+    var aid = "";
+    var clientversion = "";
+    var appuin = "MjM5MTA3Nzk4MQ=="||"";
+
+    var source = "1";
+    var ascene = "";
+    var subscene = "";
+    var sessionid = ""||"";
+    var abtest_cookie = "";
+
+    var scene = 75;
+
+    var itemidx = "";
+    var appmsg_token   = "";
+    var _copyright_stat = "0";
+    var _ori_article_type = "";
+
+    var is_follow = "";
+    var nickname = "安天";
+    var appmsg_type = "6";
+    var ct = "1443018748";
+    var publish_time = "2015-09-24" || "";
+    var user_name = "gh_070944efd7fb";
+    var user_name_new = "";
+    var fakeid   = "";
+    var version   = "";
+    var is_limit_user   = "0";
+    var round_head_img = "http://mmsns.qpic.cn/mmsns/krU5D4C1q6SI87JCHLpPwha7TL99ADWicoS6aFW83N6PwfRzP81c8fA/0";
+    var hd_head_img = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM577gOM1HTCEy46sGWDjL4Z1FlRXxW9qG0aGicrwGHlYKw/0"||"";
+    var ori_head_img_url = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM577gOM1HTCEy46sGWDjL4Z1FlRXxW9qG0aGicrwGHlYKw/132";
+    var msg_title = "【安天】Xcode非官方版本恶意代码污染事件（XcodeGhost）的分析与综述";
+    var msg_desc = "报告数度返工后姗姗来迟，分析小组预警安卓存在类似风险，并反思供应链安全。";
+    var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz/krU5D4C1q6QibLBau6spEhjVy2tuLCuZoEyDoC0Bocs3JtAib6dcnURGOhjxBiax64IlvibqK9QPU8fBO50WLSttvg/0?wx_fmt=jpeg"; 
+    var cdn_url_1_1  = ""; 
+    var cdn_url_235_1 = ""; 
+    
+    var msg_link = "http://mp.weixin.qq.com/s?__biz=MjM5MTA3Nzk4MQ==&amp;mid=211283363&amp;idx=1&amp;sn=0be9595fe5e4e9e43b749f53297c2f48#rd"; 
+    var user_uin = "0"*1;
+    var msg_source_url = 'http://www.antiy.com/response/xcodeghost.html';
+    var img_format = 'jpeg';
+    var srcid = '';
+    var req_id = '1014RqWHWvbCPXY1DBFQ3swU';
+    var networkType;
+    var appmsgid = '' || '211283363'|| "";
+    var comment_id = "0" || "0" * 1;
+    var comment_enabled = "" * 1;
+    var is_need_reward = "0" * 1;
+    var is_https_res = ("" * 1) && (location.protocol == "https:");
+    var msg_daily_idx = "0" || "";
+    var profileReportInfo = "" || "";
+
+    var devicetype = "";
+    var source_encode_biz = "";
+    var source_username = "";
+    
+    var reprint_ticket = "";
+    var source_mid = "";
+    var source_idx = "";
+    var source_biz = "";
+    var author_id = "";
+
+    
+    var optimizing_flag = "0" * 1;
+    var ad_abtest_padding = "0" * 1;
+
+    var show_comment = "";
+    var __appmsgCgiData = {
+        wxa_product : ""*1,
+        wxa_cps : ""*1,
+        show_msg_voice: "0"*1,
+        can_use_page : "0"*1,
+        is_wxg_stuff_uin : "0"*1,
+        card_pos : "",
+        copyright_stat : "0",
+        source_biz : "",
+        hd_head_img : "http://wx.qlogo.cn/mmhead/Q3auHgzwzM577gOM1HTCEy46sGWDjL4Z1FlRXxW9qG0aGicrwGHlYKw/0"||(window.location.protocol+"//"+window.location.host + "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_rumor_link.2x42f400.jpg")
+    };
+    var _empty_v = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/pages/voice/empty42f400.mp3";
+
+    var copyright_stat = "0" * 1;
+
+    var pay_fee = "" * 1;
+    var pay_timestamp = "";
+    var need_pay = "" * 1;
+
+    var need_report_cost = "0" * 1;
+    var use_tx_video_player = "0" * 1;
+    var appmsg_fe_filter = "contenteditable";
+
+    var friend_read_source = "" || "";
+    var friend_read_version = "" || "";
+    var friend_read_class_id = "" || "";
+
+    var is_only_read = "1" * 1;
+    var read_num = "" * 1;
+    var like_num = "" * 1;
+    var liked = "" == 'true' ? true : false;
+    var is_temp_url = "" ? 1 : 0;
+    var send_time = "";
+    var icon_emotion_switch = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch.2x42f400.png";
+    var icon_emotion_switch_active = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch_active.2x42f400.png";
+    var icon_loading_white = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif";
+    var icon_audio_unread = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/audio/icon_audio_unread42f400.png";
+    var icon_qqmusic_default = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_default.2x42f400.png";
+    var icon_qqmusic_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_source42f400.png";
+    var icon_kugou_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/kugou/icon_kugou_source42f400.png";
+
+    var topic_default_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/topic/pic_book_thumb.2x42f400.png';
+    var comment_edit_icon = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg_new/icon_edit42f400.png';
+    var comment_loading_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif';
+
+    var voice_in_appmsg = {
+        "1":"1"
+            };
+
+    var reprint_style = ''*1;
+    var wxa_img_alert = "" != 'false';
+
+    
+    var more_read_type = '0'*1;
+
+    
+    
+    
+    
+
+    
+    var weapp_sn_arr_json = "" || "";
+
+    
+    var ban_scene = "0" * 1;
+
+    var svr_time = "1549780426" * 1;
+    
+    var is_transfer_msg = ""*1||0;
+
+    var malicious_title_reason_id = "0" * 1; 
+    var malicious_content_type = "0" * 1; 
+
+    
+    var modify_time = "";
+
+    
+    var isprofileblock = "0";
+
+    
+    var hotspotInfoList = [
+                    ];
+
+        window.wxtoken = "777";
+        
+    
+    
+    
+    
+    window.is_login = '0' * 1; 
+
+    window.__moon_initcallback = function(){
+        if(!!window.__initCatch){
+            window.__initCatch({
+                idkey : 27611+2,
+                startKey : 0,
+                limit : 128,
+                badjsId: 43,
+                reportOpt : {
+                    uin : uin,
+                    biz : biz,
+                    mid : mid,
+                    idx : idx,
+                    sn  : sn
+                },
+                extInfo : {
+                    network_rate : 0.01,    
+                    badjs_rate: 0.1 
+                }
+            });
+        }
+    }
+        
+    var title ="安天";
+
+    var is_new_msg=true;
+    
+    
+
+    var is_wash = '' * 1;
+</script>
+
+<script nonce="268828899" type="text/javascript">
+(function(_g){
+    _g.appmsg_like_type = "1" * 1 ? "1" * 1 : 1;
+    
+    _g.clientversion = "";
+    _g.passparam = ""; 
+    if(!_g.msg_link) {
+      _g.msg_link = "http://mp.weixin.qq.com/s?__biz=MjM5MTA3Nzk4MQ==&amp;mid=211283363&amp;idx=1&amp;sn=0be9595fe5e4e9e43b749f53297c2f48#rd";
+    }
+    _g.appmsg_type = "6"; 
+    _g.devicetype = ""; 
+})(window);
+
+</script>
+
+
+        <script nonce="268828899">window.__moon_host = 'res.wx.qq.com';window.__moon_mainjs = 'appmsg/index.js';window.moon_map = {"a/appdialog_confirm.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm.html42f400.js","widget/wx_profile_dialog_primary.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/widget/wx_profile_dialog_primary.css42f400.js","pages/iframe_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/iframe_communicate42f400.js","new_video/player.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player.html433882.js","biz_wap/zepto/touch.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/touch42f400.js","biz_wap/zepto/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/event42f400.js","biz_wap/zepto/zepto.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/zepto42f400.js","page/pages/video.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/pages/video.css435ee6.js","a/tpl/smallbanner_msg_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_msg_tpl.html42f400.js","a/tpl/smallbanner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_info_tpl.html42f400.js","a/tpl/banner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_info_tpl.html42f400.js","a/tpl/promote_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/promote_tpl.html42f400.js","a/tpl/smallcard_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallcard_tpl.html42f400.js","a/tpl/info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/info_tpl.html42f400.js","a/tpl/cardticket_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cardticket_tpl.html42f400.js","a/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_tpl.html42f400.js","a/tpl/sponsor_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/sponsor_tpl.html42f400.js","a/tpl/new_cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/new_cpc_tpl.html42f400.js","appmsg/emotion/caret.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/caret42f400.js","biz_wap/utils/localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/localstorage42f400.js","appmsg/friend_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/friend_comment_tpl.html42f400.js","appmsg/comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_tpl.html42f400.js","biz_wap/utils/fakehash.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/fakehash42f400.js","appmsg/comment_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_report42f400.js","a/appdialog_confirm.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm42f400.js","new_video/player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player4306fd.js","a/tpl/mpda_bottom_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/mpda_bottom_tpl.html42f400.js","a/tpl/crt_size_map.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_size_map42f400.js","biz_wap/jsapi/cardticket.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/cardticket42f400.js","biz_common/jquery.md5.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/jquery.md542f400.js","biz_common/utils/emoji_panel_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_panel_data42f400.js","biz_common/utils/emoji_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_data42f400.js","appmsg/emotion/textarea.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/textarea42f400.js","appmsg/emotion/nav.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/nav42f400.js","appmsg/emotion/common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/common42f400.js","appmsg/emotion/slide.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/slide42f400.js","appmsg/emotion/dom.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/dom42f400.js","pages/music_report_conf.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_report_conf42f400.js","pages/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/report4306fd.js","pages/player_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/player_adaptor42f400.js","pages/music_player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_player42f400.js","appmsg/more_read_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read_tpl.html42f400.js","appmsg/retry_ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/retry_ajax42f400.js","complain/tips.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/complain/tips42f400.js","pages/loadscript.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/loadscript42f400.js","biz_wap/utils/ajax_load_js.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_load_js42f400.js","appmsg/comment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment4317dc.js","a/ios.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios42f400.js","a/android.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android42f400.js","a/profile.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile42f400.js","a/app_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/app_card430506.js","a/sponsor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor42f400.js","a/tpl/cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cpc_tpl.html42f400.js","a/video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/video42f400.js","a/a_config.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_config42f400.js","a/tpl/crt_tpl_manager.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_tpl_manager42f400.js","a/cpc_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/cpc_a_tpl.html42f400.js","a/sponsor_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor_a_tpl.html42f400.js","a/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_tpl.html42f400.js","a/mpshop.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpshop42f400.js","a/wxopen_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/wxopen_card42f400.js","a/card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/card42f400.js","biz_wap/utils/position.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/position42f400.js","a/a_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_report42f400.js","biz_wap/utils/show_time.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/show_time42f400.js","biz_common/utils/get_para_list.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/get_para_list42f400.js","biz_wap/utils/openUrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/openUrl42f400.js","a/a_sign.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_sign438181.js","appmsg/my_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/my_comment_tpl.html42f400.js","appmsg/cmt_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cmt_tpl.html42f400.js","sougou/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/a_tpl.html42f400.js","appmsg/emotion/emotion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/emotion42f400.js","biz_common/base64.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/base6442f400.js","biz_common/utils/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report42f400.js","appmsg/articleReport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/articleReport42f400.js","biz_wap/utils/hand_up_state.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/hand_up_state42f400.js","biz_common/utils/http.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/http42f400.js","biz_common/utils/cookie.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie42f400.js","appmsg/topic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/topic_tpl.html42f400.js","pages/weapp_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/weapp_tpl.html42f400.js","biz_common/utils/monitor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/monitor42f400.js","pages/voice_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_tpl.html42f400.js","pages/kugoumusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/kugoumusic_ctrl42f400.js","pages/qqmusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_ctrl42f400.js","pages/voice_component.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_component42f400.js","pages/qqmusic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_tpl.html42f400.js","new_video/ctl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/ctl4306fd.js","appmsg/open_url_with_webview.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/open_url_with_webview4380a9.js","appmsg/more_read.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read42f400.js","appmsg/reward_entry.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/reward_entry42f400.js","appmsg/like.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like43875f.js","pages/version4video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/version4video42f400.js","biz_wap/utils/storage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/storage42f400.js","appmsg/share_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share_tpl.html42f400.js","appmsg/appmsgext.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsgext430b95.js","appmsg/img_copyright_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/img_copyright_tpl.html42f400.js","pages/video_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_ctrl42f400.js","pages/create_txv.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/create_txv42f400.js","appmsg/comment_utils.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_utils42f400.js","biz_common/ui/imgonepx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx42f400.js","appmsg/malicious_wording.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/malicious_wording42f400.js","biz_common/utils/wxgspeedsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/wxgspeedsdk42f400.js","a/a.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a4382e5.js","rt/appmsg/getappmsgext.rt.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/rt/appmsg/getappmsgext.rt42f400.js","pages/video_communicate_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_communicate_adaptor433882.js","biz_wap/utils/ajax_wx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_wx42f400.js","biz_common/utils/respTypes.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/respTypes42f400.js","biz_wap/utils/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/log42f400.js","sougou/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/index42f400.js","biz_wap/safe/mutation_observer_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/mutation_observer_report42f400.js","appmsg/fereport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport438bee.js","appmsg/fereport_without_localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport_without_localstorage438bee.js","appmsg/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report42f400.js","appmsg/report_and_source.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source4380a9.js","appmsg/page_pos.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos431b87.js","appmsg/cdn_speed_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report42f400.js","appmsg/wxtopic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/wxtopic42f400.js","appmsg/weapp.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp433882.js","appmsg/weproduct.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weproduct42f400.js","appmsg/voicemsg.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voicemsg42f400.js","appmsg/autoread.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/autoread42f400.js","appmsg/voice.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voice42f400.js","appmsg/qqmusic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/qqmusic43440b.js","appmsg/iframe.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe433882.js","appmsg/product.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/product42f400.js","appmsg/review_image.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image435a90.js","appmsg/outer_link.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link433882.js","appmsg/copyright_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/copyright_report42f400.js","appmsg/async.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async438bee.js","biz_wap/ui/lazyload_img.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img42f400.js","biz_common/log/jserr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr42f400.js","appmsg/share.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share42f50a.js","appmsg/cdn_img_lib.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib42f400.js","appmsg/finance_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/finance_communicate42f400.js","page/appmsg_new/not_in_mm.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm.css435ee6.js","page/appmsg_new/combo.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo.css438c19.js","biz_wap/utils/wapsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/wapsdk42f400.js","a/mpAdAsync.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpAdAsync4317dc.js","biz_common/utils/url/parse.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse42f400.js","appmsg/appmsg_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsg_report435ac2.js","biz_common/moment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/moment42f400.js","biz_wap/jsapi/core.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core42f400.js","biz_common/dom/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event42f400.js","appmsg/test.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/test42f400.js","biz_wap/utils/mmversion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion42f400.js","appmsg/max_age.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/max_age42f400.js","biz_common/dom/attr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr42f400.js","biz_wap/utils/ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax42f400.js","appmsg/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/log42f400.js","biz_common/dom/class.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class42f400.js","biz_wap/utils/device.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/device42f400.js","appmsg/weapp_common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp_common42f400.js","biz_common/utils/string/html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html42f400.js","cps/tpl/list_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/list_tpl.html42f400.js","cps/tpl/card_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/card_tpl.html42f400.js","cps/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/banner_tpl.html42f400.js","biz_common/tmpl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl42f400.js","appmsg/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index438e37.js"};</script><script nonce="268828899" type="text/javascript" id="moon_inline" > window.__mooninline=1; window.setTimeout(function() {  function __moonf__(){
+if(!window.__moonhasinit){
+window.__moonhasinit=!0,window.__moonclientlog=[],window.__wxgspeeds&&(window.__wxgspeeds.moonloadedtime=+new Date),
+"object"!=typeof JSON&&(window.JSON={
+stringify:function(){
+return"";
+},
+parse:function(){
+return{};
+}
+});
+var e=function(){
+function e(e){
+try{
+var o;
+/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)?o="writeLog":/(Android)/i.test(navigator.userAgent)&&(o="log"),
+o&&t(o,e);
+}catch(n){
+throw console.error(n),n;
+}
+}
+function t(e,o){
+var n,r,i={};
+n=top!=window?top.window:window;
+try{
+r=n.WeixinJSBridge,i=n.document;
+}catch(a){}
+e&&r&&r.invoke?r.invoke(e,{
+level:"info",
+msg:"[WechatFe][moon]"+o
+}):setTimeout(function(){
+i.addEventListener?i.addEventListener("WeixinJSBridgeReady",function(){
+t(e,o);
+},!1):i.attachEvent&&(i.attachEvent("WeixinJSBridgeReady",function(){
+t(e,o);
+}),i.attachEvent("onWeixinJSBridgeReady",function(){
+t(e,o);
+}));
+},0);
+}
+var n;
+localStorage&&JSON.parse(localStorage.getItem("__WXLS__moonarg"))&&"fromls"==JSON.parse(localStorage.getItem("__WXLS__moonarg")).method&&(n=!0),
+e(" moon init, moon_inline:"+window.__mooninline+", moonls:"+n),function(){
+var e={},o={},t={};
+e.COMBO_UNLOAD=0,e.COMBO_LOADING=1,e.COMBO_LOADED=2;
+var n=function(e,t,n){
+if(!o[e]){
+o[e]=n;
+for(var r=3;r--;)try{
+moon.setItem(moon.prefix+e,n.toString()),moon.setItem(moon.prefix+e+"_ver",moon_map[e]);
+break;
+}catch(i){
+moon.clear();
+}
+}
+},r=window.alert;
+window.__alertList=[],window.alert=function(e){
+r(e),window.__alertList.push(e);
+};
+var i=function(e){
+if(!e||!o[e])return null;
+var n=o[e];
+if("function"==typeof n&&!t[e]){
+var a={},s={
+exports:a
+},c=n(i,a,s,r);
+n=o[e]=c||s.exports,t[e]=!0;
+}
+if(".css"===e.substr(-4)){
+var d=document.getElementById(e);
+if(!d){
+d=document.createElement("style"),d.id=e;
+var _=/url\s*\(\s*\/(\"(?:[^\\\"\r\n\f]|\\[\s\S])*\"|'(?:[^\\'\n\r\f]|\\[\s\S])*'|[^)}]+)\s*\)/g,m=window.testenv_reshost||window.__moon_host||"res.wx.qq.com";
+n=n.replace(_,"url(//"+m+"/$1)"),d.innerHTML=n,document.getElementsByTagName("head")[0].appendChild(d);
+}
+}
+return n;
+};
+e.combo_status=e.COMBO_UNLOAD,e.run=function(){
+var o=e.run.info,t=o&&o[0],n=o&&o[1];
+if(t&&e.combo_status==e.COMBO_LOADED){
+var r=i(t);
+n&&n(r);
+}
+},e.use=function(o,t){
+window.__wxgspeeds&&(window.__wxgspeeds.seajs_use_time=+new Date),e.run.info=[o,t],
+e.run();
+},window.define=n,window.seajs=e;
+}(),function(){
+if(window.__nonce_str){
+var e=document.createElement;
+document.createElement=function(o){
+var t=e.apply(this,arguments);
+return"object"==typeof o&&(o=o.toString()),"string"==typeof o&&"script"==o.toLowerCase()&&t.setAttribute("nonce",window.__nonce_str),
+t;
+};
+}
+window.addEventListener&&window.__DEBUGINFO&&Math.random()<.01&&window.addEventListener("load",function(){
+var e=document.createElement("script");
+e.src=__DEBUGINFO.safe_js,e.type="text/javascript",e.async=!0;
+var o=document.head||document.getElementsByTagName("head")[0];
+o.appendChild(e);
+});
+}(),function(){
+function t(e){
+return"[object Array]"===Object.prototype.toString.call(e);
+}
+function n(e){
+return"[object Object]"===Object.prototype.toString.call(e);
+}
+function r(e){
+var t=e.stack+" "+e.toString()||"";
+try{
+if(window.testenv_reshost){
+var n="http(s)?://"+window.testenv_reshost,r=new RegExp(n,"g");
+t=t.replace(r,"");
+}else t=t.replace(/http(s)?:\/\/res\.wx\.qq\.com/g,"");
+for(var r=/\/([^.]+)\/js\/(\S+?)\.js(\,|:)?/g;r.test(t);)t=t.replace(r,function(e,o,t,n){
+return t+n;
+});
+}catch(e){
+t=e.stack?e.stack:"";
+}
+var i=[];
+for(o in u)u.hasOwnProperty(o)&&i.push(o+":"+u[o]);
+return i.push("STK:"+t.replace(/\n/g,"")),i.join("|");
+}
+function i(e){
+if(!e){
+var o=window.onerror;
+window.onerror=function(){},f=setTimeout(function(){
+window.onerror=o,f=null;
+},50);
+}
+}
+function a(e,o,t){
+if(!/^mp\.weixin\.qq\.com$/.test(location.hostname)){
+var n=[];
+t=t.replace(location.href,(location.origin||"")+(location.pathname||"")).replace("#wechat_redirect","").replace("#rd","").split("&");
+for(var r=0,i=t.length;i>r;r++){
+var a=t[r].split("=");
+a[0]&&a[1]&&n.push(a[0]+"="+encodeURIComponent(a[1]));
+}
+var s=new window.Image;
+return void(s.src=(o+n.join("&")).substr(0,1024));
+}
+var c;
+if(window.ActiveXObject)try{
+c=new ActiveXObject("Msxml2.XMLHTTP");
+}catch(d){
+try{
+c=new ActiveXObject("Microsoft.XMLHTTP");
+}catch(_){
+c=!1;
+}
+}else window.XMLHttpRequest&&(c=new XMLHttpRequest);
+c&&(c.open(e,o,!0),c.setRequestHeader("cache-control","no-cache"),c.setRequestHeader("Content-Type","application/x-www-form-urlencoded; charset=UTF-8"),
+c.setRequestHeader("X-Requested-With","XMLHttpRequest"),c.send(t));
+}
+function s(e){
+return function(o,t){
+if("string"==typeof o)try{
+o=new Function(o);
+}catch(n){
+throw n;
+}
+var r=[].slice.call(arguments,2),a=o;
+return o=function(){
+try{
+return a.apply(this,r.length&&r||arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:j,
+log:"timeout_error;host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},e(o,t);
+};
+}
+function c(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this,a=t||function(){};
+return t=function(){
+try{
+return a.apply(r,arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:x,
+log:"listener_error;type:"+o+";host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},a.moon_lid=E,b[E]=t,E++,e.call(r,o,t,n);
+};
+}
+function d(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this;
+return t=b[t.moon_lid],e.call(r,o,t,n);
+};
+}
+var _,m,l,w,u,p,f,h=/MicroMessenger/i.test(navigator.userAgent),g=/MPAPP/i.test(navigator.userAgent),v=window.define,y=0,x=2,O=4,j=9,D=10;
+if(window.__initCatch=function(e){
+_=e.idkey,m=e.startKey||0,l=e.limit,w=e.badjsId,u=e.reportOpt||"",p=e.extInfo||{},
+p.rate=p.rate||.5;
+},window.__moon_report=function(e,o){
+var i=!1,s="";
+try{
+s=top.location.href;
+}catch(c){
+i=!0;
+}
+var d=.5;
+if(p&&p.rate&&(d=p.rate),o&&"number"==typeof o&&(d=o),!(!/mp\.weixin\.qq\.com/.test(location.href)&&!/payapp\.weixin\.qq\.com/.test(location.href)||Math.random()>d||!h&&!g||top!=window&&!i&&!/mp\.weixin\.qq\.com/.test(s))&&(n(e)&&(e=[e]),
+t(e)&&""!=_)){
+var u="",f=[],v=[],y=[],x=[];
+"number"!=typeof l&&(l=1/0);
+for(var j=0;j<e.length;j++){
+var D=e[j]||{};
+if(!(D.offset>l||"number"!=typeof D.offset||D.offset==O&&p&&p.network_rate&&Math.random()>=p.network_rate)){
+var b=1/0==l?m:m+D.offset;
+f[j]="[moon]"+_+"_"+b+";"+D.log+";"+r(D.e||{})||"",v[j]=b,y[j]=1;
+}
+}
+for(var E=0;E<v.length;E++)x[E]=_+"_"+v[E]+"_"+y[E],u=u+"&log"+E+"="+f[E];
+if(x.length>0){
+a("POST",location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?","idkey="+x.join(";")+"&r="+Math.random()+"&lc="+f.length+u);
+var d=1;
+if(p&&p.badjs_rate&&(d=p.badjs_rate),w&&Math.random()<d){
+u=u.replace(/uin\:(.)*\|biz\:(.)*\|mid\:(.)*\|idx\:(.)*\|sn\:(.)*\|/,"");
+var S=new Image,I="https://badjs.weixinbridge.com/badjs?id="+w+"&level=4&from="+encodeURIComponent(location.host)+"&msg="+encodeURIComponent(u);
+S.src=I.slice(0,1024);
+}
+}
+}
+},window.setTimeout=s(window.setTimeout),window.setInterval=s(window.setInterval),
+Math.random()<.01&&window.Document&&window.HTMLElement){
+var b={},E=0;
+Document.prototype.addEventListener=c(Document.prototype.addEventListener),Document.prototype.removeEventListener=d(Document.prototype.removeEventListener),
+HTMLElement.prototype.addEventListener=c(HTMLElement.prototype.addEventListener),
+HTMLElement.prototype.removeEventListener=d(HTMLElement.prototype.removeEventListener);
+}
+var S=window.navigator.userAgent;
+if((/ip(hone|ad|od)/i.test(S)||/android/i.test(S))&&!/windows phone/i.test(S)&&window.localStorage&&window.localStorage.setItem){
+var I=window.localStorage.setItem,L=0;
+window.localStorage.setItem=function(e,o){
+if(!(L>=10))try{
+I.call(window.localStorage,e,o);
+}catch(t){
+t.stack&&console&&console.error&&console.error("[TryCatch]"+t.stack),window.__moon_report([{
+offset:D,
+log:"localstorage_error;"+t.toString(),
+e:t
+}]),L++,L>=3&&window.moon&&window.moon.clear&&moon.clear();
+}
+};
+}
+window.seajs&&v&&(window.define=function(){
+for(var o,t=[],n=arguments&&arguments[0],a=0,s=arguments.length;s>a;a++){
+var c=o=arguments[a];
+"function"==typeof o&&(o=function(){
+try{
+return c.apply(this,arguments);
+}catch(o){
+throw"string"==typeof n&&console.error("[TryCatch][DefineeErr]id:"+n),o.stack&&console&&console.error&&console.error("[TryCatch]"+o.stack),
+_&&window.__moon_report&&(window.__moon_report([{
+offset:y,
+log:"define_error;id:"+n+";",
+e:o
+}]),i(f)),e(" [define_error]"+JSON.stringify(r(o))),o;
+}
+},o.toString=function(e){
+return function(){
+return e.toString();
+};
+}(arguments[a])),t.push(o);
+}
+return v.apply(this,t);
+});
+}(),function(o){
+function t(e,o,t){
+return window.__DEBUGINFO?(window.__DEBUGINFO.res_list||(window.__DEBUGINFO.res_list=[]),
+window.__DEBUGINFO.res_list[e]?(window.__DEBUGINFO.res_list[e][o]=t,!0):!1):!1;
+}
+function n(e){
+var o=new TextEncoder("utf-8").encode(e),t=crypto.subtle||crypto.webkitSubtle;
+return t.digest("SHA-256",o).then(function(e){
+return r(e);
+});
+}
+function r(e){
+for(var o=[],t=new DataView(e),n=0;n<t.byteLength;n+=4){
+var r=t.getUint32(n),i=r.toString(16),a="00000000",s=(a+i).slice(-a.length);
+o.push(s);
+}
+return o.join("");
+}
+function i(e,o,t){
+if("object"==typeof e){
+var n=Object.prototype.toString.call(e).replace(/^\[object (.+)\]$/,function(e,o){
+return o;
+});
+if(t=t||e,"Array"==n){
+for(var r=0,i=e.length;i>r;++r)if(o.call(t,e[r],r,e)===!1)return;
+}else{
+if("Object"!==n&&a!=e)throw"unsupport type";
+if(a==e){
+for(var r=e.length-1;r>=0;r--){
+var s=a.key(r),c=a.getItem(s);
+if(o.call(t,c,s,e)===!1)return;
+}
+return;
+}
+for(var r in e)if(e.hasOwnProperty(r)&&o.call(t,e[r],r,e)===!1)return;
+}
+}
+}
+var a=o.localStorage,s=document.head||document.getElementsByTagName("head")[0],c=1,d=11,_=12,m=13,l=window.__allowLoadResFromMp?1:2,w=window.__allowLoadResFromMp?1:0,u=l+w,p=window.testenv_reshost||window.__moon_host||"res.wx.qq.com",f=new RegExp("^(http(s)?:)?//"+p);
+window.__loadAllResFromMp&&(p="mp.weixin.qq.com",l=0,u=l+w);
+var h={
+prefix:"__MOON__",
+loaded:[],
+unload:[],
+clearSample:!0,
+hit_num:0,
+mod_num:0,
+version:1003,
+cacheData:{
+js_mod_num:0,
+js_hit_num:0,
+js_not_hit_num:0,
+js_expired_num:0,
+css_mod_num:0,
+css_hit_num:0,
+css_not_hit_num:0,
+css_expired_num:0
+},
+init:function(){
+h.loaded=[],h.unload=[];
+var e,t,r;
+if(window.no_moon_ls&&(h.clearSample=!0),a){
+var s="_moon_ver_key_",c=a.getItem(s);
+c!=h.version&&(h.clear(),a.setItem(s,h.version));
+}
+if((-1!=location.search.indexOf("no_moon1=1")||-1!=location.search.indexOf("no_lshttps=1"))&&h.clear(),
+a){
+var d=1*a.getItem(h.prefix+"clean_time"),_=+new Date;
+if(_-d>=1296e6){
+h.clear();
+try{
+!!a&&a.setItem(h.prefix+"clean_time",+new Date);
+}catch(m){}
+}
+}
+i(moon_map,function(i,s){
+if(t=h.prefix+s,r=!!i&&i.replace(f,""),e=!!a&&a.getItem(t),version=!!a&&(a.getItem(t+"_ver")||"").replace(f,""),
+h.mod_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_mod_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_mod_num++,
+h.clearSample||!e||r!=version)h.unload.push(r.replace(f,"")),r&&-1!=r.indexOf(".css")?e?r!=version&&h.cacheData.css_expired_num++:h.cacheData.css_not_hit_num++:r&&-1!=r.indexOf(".js")&&(e?r!=version&&h.cacheData.js_expired_num++:h.cacheData.js_not_hit_num++);else{
+if("https:"==location.protocol&&window.moon_hash_map&&window.moon_hash_map[s]&&window.crypto)try{
+n(e).then(function(e){
+window.moon_hash_map[s]!=e&&console.log(s);
+});
+}catch(c){}
+try{
+var d="//# sourceURL="+s+"\n//@ sourceURL="+s;
+o.eval.call(o,'define("'+s+'",[],'+e+")"+d),h.hit_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_hit_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_hit_num++;
+}catch(c){
+h.unload.push(r.replace(f,""));
+}
+}
+}),h.load(h.genUrl());
+},
+genUrl:function(){
+var e=h.unload;
+if(!e||e.length<=0)return[];
+var o,t,n="",r=[],i={},a=-1!=location.search.indexOf("no_moon2=1"),s="//"+p;
+-1!=location.href.indexOf("moon_debug2=1")&&(s="//mp.weixin.qq.com");
+for(var c=0,d=e.length;d>c;++c){
+/^\/(.*?)\//.test(e[c]);
+var _=/^\/(.*?)\//.exec(e[c]);
+_.length<2||!_[1]||(t=_[1],n=i[t],n?(o=n+","+e[c],o.length>1e3||a?(r.push(n+"?v="+h.version),
+n=location.protocol+s+e[c],i[t]=n):(n=o,i[t]=n)):(n=location.protocol+s+e[c],i[t]=n));
+}
+for(var m in i)i.hasOwnProperty(m)&&r.push(i[m]);
+return r;
+},
+load:function(e){
+if(window.__wxgspeeds&&(window.__wxgspeeds.mod_num=h.mod_num,window.__wxgspeeds.hit_num=h.hit_num),
+!e||e.length<=0)return seajs.combo_status=seajs.COMBO_LOADED,seajs.run(),console.debug&&console.debug("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num),
+void window.__moonclientlog.push("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num);
+seajs.combo_status=seajs.COMBO_LOADING;
+var o=0,t=+new Date;
+window.__wxgspeeds&&(window.__wxgspeeds.combo_times=[],window.__wxgspeeds.combo_times.push(t)),
+i(e,function(n){
+h.request(n,u,function(){
+if(window.__wxgspeeds&&window.__wxgspeeds.combo_times.push(+new Date),o++,o==e.length){
+var n=+new Date-t;
+window.__wxgspeeds&&(window.__wxgspeeds.mod_downloadtime=n),seajs.combo_status=seajs.COMBO_LOADED,
+seajs.run(),console.debug&&console.debug("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms"),
+window.__moonclientlog.push("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms");
+}
+});
+});
+},
+request:function(o,n,r){
+if(o){
+n=n||0,o.indexOf("mp.weixin.qq.com")>-1&&((new Image).src=location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?idkey=27613_32_1&r="+Math.random(),
+window.__moon_report([{
+offset:_,
+log:"load_script_from_mp: "+o
+}],1));
+var i=-1;
+window.__DEBUGINFO&&(__DEBUGINFO.res_list||(__DEBUGINFO.res_list=[]),__DEBUGINFO.res_list.push({
+type:"js",
+status:"pendding",
+start:+new Date,
+end:0,
+url:o
+}),i=__DEBUGINFO.res_list.length-1),-1!=location.search.indexOf("no_lshttps=1")&&(o=o.replace("http://","https://"));
+var a=document.createElement("script");
+a.src=o,a.type="text/javascript",a.async=!0,a.down_time=+new Date,a.onerror=function(s){
+t(i,"status","error"),t(i,"end",+new Date);
+var _=new Error(s);
+if(n>=0)if(w>n){
+var l=o.replace("res.wx.qq.com","mp.weixin.qq.com");
+h.request(l,n,r);
+}else h.request(o,n,r);else window.__moon_report&&window.__moon_report([{
+offset:c,
+log:"load_script_error: "+o,
+e:_
+}],1);
+if(n==w-1&&window.__moon_report([{
+offset:d,
+log:"load_script_error: "+o,
+e:_
+}],1),-1==n){
+var u="ua: "+window.navigator.userAgent+", time="+(+new Date-a.down_time)+", load_script_error -1 : "+o;
+window.__moon_report([{
+offset:m,
+log:u
+}],1);
+}
+window.__moonclientlog.push("moon load js error : "+o+", error -> "+_.toString()),
+e("moon_request_error url:"+o);
+},"undefined"!=typeof moon_crossorigin&&moon_crossorigin&&a.setAttribute("crossorigin",!0),
+a.onload=a.onreadystatechange=function(){
+t(i,"status","loaded"),t(i,"end",+new Date),!a||a.readyState&&!/loaded|complete/.test(a.readyState)||(t(i,"status","200"),
+a.onload=a.onreadystatechange=null,"function"==typeof r&&r());
+},n--,s.appendChild(a),e("moon_request url:"+o+" retry:"+n);
+}
+},
+setItem:function(e,o){
+!!a&&a.setItem(e,o);
+},
+clear:function(){
+a&&(i(a,function(e,o){
+~o.indexOf(h.prefix)&&a.removeItem(o);
+}),console.debug&&console.debug("[moon] clear"));
+},
+idkeyReport:function(e,o,t){
+t=t||1;
+var n=e+"_"+o+"_"+t;
+(new Image).src="/mp/jsmonitor?idkey="+n+"&r="+Math.random();
+}
+};
+seajs&&seajs.use&&"string"==typeof window.__moon_mainjs&&seajs.use(window.__moon_mainjs),
+window.moon=h;
+}(window),function(){
+try{
+Math.random()<1;
+}catch(e){}
+}(),window.moon.init();
+};
+e(),!!window.__moon_initcallback&&window.__moon_initcallback(),window.__wxgspeeds&&(window.__wxgspeeds.moonendtime=+new Date);
+}
+}
+__moonf__(); }, 25);</script><script nonce="268828899" type="text/javascript">
+    var real_show_page_time = +new Date();
+    if (!!window.addEventListener){
+        window.addEventListener("load", function(){
+            window.onload_endtime = +new Date();
+        });
+    }
+
+    
+    if(typeof seajs != 'undefined' && seajs.config){
+        try{
+            seajs.config({
+              'map': [
+                [ '.js', '.js?v=' + (+new Date())]
+              ]
+            });
+        }catch(e){
+            console.info('not support seajs config');
+        }
+    }
+
+    
+</script>
+
+    </body>
+    <script nonce="268828899" type="text/javascript">document.addEventListener("touchstart", function() {},false);</script>
+</html>
+

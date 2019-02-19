@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/07/17" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/07/17</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/07/16/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/07/17/index.html">2016/07/17</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/07/18/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Nick Sullivan @grittygrease </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Very powerful and usable Android IPC firewall by @ Davidwuuuuuuuu presented at @ SummerC0n <a href="https://github.com/dxwu/AndroidBinder" rel="nofollow">https://github.com/dxwu/AndroidBinder</a>, also does GPS spoofing.</p>
+<div class="translated" id="160271">
+<p>﻿" AndroidBinder - Android 内核 IPC 防火墙：   <a href="https://t.co/tRRz756yEY" rel="nofollow">https://t.co/tRRz756yEY</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Jóseph Mlodzìanowskì @cedoxX</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  Ubuntu Forums hack exposes 2 million users, hacker takes users, pwd, salt (no Tequila)  <a href="http://zd.net/29Z9Opw" rel="nofollow">http://zd.net/29Z9Opw</a> #cyber #hacker #security</p>
+<div class="translated" id="160203">
+<p>﻿"Ubuntu 论坛上周四被黑，200 万用户密码信息被窃取：   <a href="https://t.co/auZAvmqZ8s" rel="nofollow">https://t.co/auZAvmqZ8s</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Dmitry Vostokov @DumpAnalysis </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Debug </i>]  Working MEX WinDbg extension download link <a href="https://www.microsoft.com/en-us/download/details.aspx?id=53304" rel="nofollow">https://www.microsoft.com/en-us/download/details.aspx?id=53304</a> <a href="http://fb.me/1eoJU3ZpA" rel="nofollow">http://fb.me/1eoJU3ZpA</a></p>
+<div class="translated" id="160229">
+<p>﻿" WinDbg 调试器托管代码（Managed-code）调试扩展 MEX 可以下载了：   <a href="https://t.co/210AhR9gtR%C2%A0" rel="nofollow">https://t.co/210AhR9gtR </a> 微软 Blog：   <a href="https://blogs.technet.microsoft.com/yongrhee/2016/07/15/the-managed-code-debugging-extension-mex-is-now-publicly-available-for-download/" rel="nofollow">https://blogs.technet.microsoft.com/yongrhee/2016/07/15/the-managed-code-debugging-extension-mex-is-now-publicly-available-for-download/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  tyler bohan @1blankwall1 </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> macOS </i>]  @ SummerC0n Up next!!! Slide deck tool research etc... <a href="https://github.com/blankwall/MacHeap" rel="nofollow">https://github.com/blankwall/MacHeap</a></p>
+<div class="translated" id="160245">
+<p>﻿" MacHeap - Mac OS X 内存分配插桩工具：   <a href="https://t.co/W2P0I6ppZd" rel="nofollow">https://t.co/W2P0I6ppZd</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>jsoo @_jsoo_</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  I'll post daily phishing links here instead. <a href="http://www.vxsecurity.sg/daily-phishing-sites/" rel="nofollow">http://www.vxsecurity.sg/daily-phishing-sites/</a> #phishing</p>
+<div class="translated" id="160023">
+<p>﻿" 每日钓鱼站点追踪：   <a href="https://t.co/Cyns9Md9On" rel="nofollow">https://t.co/Cyns9Md9On</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Jérôme Segura @jeromesegura </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  Neutrino EK picks up momentum in recent attacks <a href="https://blog.malwarebytes.com/cybercrime/2016/07/neutrino-ek-picks-up-momentum-in-recent-attacks/" rel="nofollow">https://blog.malwarebytes.com/cybercrime/2016/07/neutrino-ek-picks-up-momentum-in-recent-attacks/</a> <a href="https://t.co/8ENvG3KRM1" rel="nofollow">https://t.co/8ENvG3KRM1</a></p>
+<div class="translated" id="160184">
+<p>﻿" Neutrino EK 最近修改了着陆页（Landing Page）的源码，并且集成了一个新的 IE 脚本引擎 CVE-2016-0189 Exploit：   <a href="https://t.co/3ojcwUDWeM%C2%A0" rel="nofollow">https://t.co/3ojcwUDWeM </a>;   <a href="http://securityaffairs.co/wordpress/49383/cyber-crime/neutrino-ek-ie-flaw.html%C2%A0" rel="nofollow">http://securityaffairs.co/wordpress/49383/cyber-crime/neutrino-ek-ie-flaw.html </a> <a href="https://www.fireeye.com/blog/threat-research/2016/07/exploit_kits_quickly.html" rel="nofollow">https://www.fireeye.com/blog/threat-research/2016/07/exploit_kits_quickly.html</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CnakYPUUsAA8RGt.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/CnakYPUUsAA8RGt.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> NetworkDevice </i>]  Juniper Crypto Bug Let Attackers Eavesdrop on Router, Switch Traffic <a href="https://threatpost.com/juniper-crypto-bug-lets-attackers-eavesdrop-on-router-switch-traffic/119319/" rel="nofollow">https://threatpost.com/juniper-crypto-bug-lets-attackers-eavesdrop-on-router-switch-traffic/119319/</a></p>
+<div class="translated" id="160076">
+<p>﻿" Juniper 上周修复了一个加密方面的漏洞，成功利用该漏洞，黑客可以以中间人方式窃听路由器和交换机的加密流量，来自 ThreatPost 的报道：   <a href="https://t.co/YvWBq5OuVq" rel="nofollow">https://t.co/YvWBq5OuVq</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> OpenSourceProject </i>]  Basic internals of malloc <a href="https://sourceware.org/glibc/wiki/MallocInternals" rel="nofollow">https://sourceware.org/glibc/wiki/MallocInternals</a></p>
+<div class="translated" id="160003">
+<p>﻿" Glibc 库内存分配的细节：   <a href="https://t.co/REJ6qPQRq5" rel="nofollow">https://t.co/REJ6qPQRq5</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  hanno @hanno </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> OpenSourceProject </i>]  7-Zip fuzzing <a href="https://blog.fuzzing-project.org/49-Multiple-issues-in-p7zip.html" rel="nofollow">https://blog.fuzzing-project.org/49-Multiple-issues-in-p7zip.html</a> one wonders if the appliance vendors ever test the code they integrate</p>
+<div class="translated" id="159958">
+<p>﻿" 安全研究员用 AFL Fuzz p7zip 压缩工具的成果：   <a href="https://t.co/jDwqKOwHfb" rel="nofollow">https://t.co/jDwqKOwHfb</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Insinuator @Insinuator </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  New blog post: Gotta Catch ‘Em All! – WORLDWIDE! (or how to spoof GPS to cheat at Pokémon GO) <a href="https://www.insinuator.net/2016/07/gotta-catch-em-all-worldwide-or-how-to-spoof-gps-to-cheat-at-pokemon-go/" rel="nofollow">https://www.insinuator.net/2016/07/gotta-catch-em-all-worldwide-or-how-to-spoof-gps-to-cheat-at-pokemon-go/</a></p>
+<div class="translated" id="160113">
+<p>﻿" 如何通过欺骗 GPS 的方式在 Pokémon GO 游戏中作弊：   <a href="https://t.co/vf1PWzczPN" rel="nofollow">https://t.co/vf1PWzczPN</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  How I Could Steal Money from Instagram, Google and Microsoft
+<a href="https://www.arneswinnen.net/2016/07/how-i-could-steal-money-from-instagram-google-and-microsoft/" rel="nofollow">https://www.arneswinnen.net/2016/07/how-i-could-steal-money-from-instagram-google-and-microsoft/</a></p>
+<div class="translated" id="160253">
+<p>﻿" 我是如何从 Instagram、Google、微软偷钱的：   <a href="https://t.co/bNBwgBlcA1%C2%A0" rel="nofollow">https://t.co/bNBwgBlcA1 </a> 作者的方法是滥用这几个公司提供的语言电话验证服务，拨打高价的付费电话"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Scott Sutherland @_nullbind </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Pentest </i>]  [BLOG] PowerUpSQL: A PowerShell Toolkit for Attacking SQL Server
+<a href="https://blog.netspi.com/powerupsql-powershell-toolkit-attacking-sql-server/" rel="nofollow">https://blog.netspi.com/powerupsql-powershell-toolkit-attacking-sql-server/</a>
+- I hope you like it as much as we do. Have fun! :)</p>
+<div class="translated" id="159943">
+<p>﻿" PowerUpSQL - 专门用于攻击 SQL Server 的 PowerShell 工具套件：   <a href="https://blog.netspi.com/powerupsql-powershell-toolkit-attacking-sql-server/" rel="nofollow">https://blog.netspi.com/powerupsql-powershell-toolkit-attacking-sql-server/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Evilcry_ @Blackmond_ </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  An intel 64 symbolic emulator - <a href="https://github.com/feliam/pysymemu" rel="nofollow">https://github.com/feliam/pysymemu</a></p>
+<div class="translated" id="160060">
+<p>﻿" PySymEmu - 支持 Intel x86/x64 的符号执行工具：   <a href="https://t.co/uIBclTeeU2" rel="nofollow">https://t.co/uIBclTeeU2</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Hacker News 20 @newsyc20 </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  ANZ Bank's security incident response tool open sourced <a href="http://bit.ly/29Kwxch" rel="nofollow">http://bit.ly/29Kwxch</a> (<a href="http://bit.ly/29KwcGw" rel="nofollow">http://bit.ly/29KwcGw</a>)</p>
+<div class="translated" id="160176">
+<p>﻿" ANZ（澳新）银行开源了自己的安全应急响应工具 nightHawk：   <a href="https://t.co/xidBq3Lp8Y%C2%A0%C2%A0" rel="nofollow">https://t.co/xidBq3Lp8Y  </a> GitHub Repo：   <a href="https://github.com/biggiesmallsAG/nightHawkResponse%C2%A0" rel="nofollow">https://github.com/biggiesmallsAG/nightHawkResponse </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/07/16/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/07/17/index.html">2016/07/17</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/07/18/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

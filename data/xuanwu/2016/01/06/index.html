@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/01/06" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/01/06</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/01/05/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/01/06/index.html">2016/01/06</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/01/07/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Hacker News @newsycombinator </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Android++ (native development and debugging for Visual Studio) is now open-source <a href="https://github.com/webbju/android-plus-plus" rel="nofollow">https://github.com/webbju/android-plus-plus</a></p>
+<div class="translated" id="81309">
+<p>﻿"Android++  - 用于实现 Visual Studio 开发和调试 Android Native 应用的工具   <a href="https://t.co/VMs2b8LF05" rel="nofollow">https://t.co/VMs2b8LF05</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  DEF CON @_defcon_ </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attrack </i>]  First known hacker-caused power outage signals troubling escalation <a href="http://ow.ly/39IsX9" rel="nofollow">http://ow.ly/39IsX9</a></p>
+<div class="translated" id="81330">
+<p>﻿"上周乌克兰数十万家庭断电，这是第一个已知的由黑客造成的断电事故   <a href="https://t.co/y2bhla05Sw" rel="nofollow">https://t.co/y2bhla05Sw</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Piotr Kijewski @piotrkijewski </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Detect </i>]  Applying machine learning to malware analysis slowly being demystified, see clustering 101: <a href="http://blog.deepviz.com/2016/01/04/the-basics-of-clustering-behind-deepviz-part-2/" rel="nofollow">http://blog.deepviz.com/2016/01/04/the-basics-of-clustering-behind-deepviz-part-2/</a> <a href="http://blog.deepviz.com/2015/12/23/the-basics-of-clustering-behind-deepviz-part-1/" rel="nofollow">http://blog.deepviz.com/2015/12/23/the-basics-of-clustering-behind-deepviz-part-1/</a></p>
+<div class="translated" id="80901">
+<p>﻿"机器学习在恶意软件分析中的应用， Part 2 聚类算法：   <a href="https://t.co/DMyMRhinTI%C2%A0" rel="nofollow">https://t.co/DMyMRhinTI </a> Part 1:   <a href="https://t.co/FoeBXtf0bn%C2%A0" rel="nofollow">https://t.co/FoeBXtf0bn </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Chaouki Bekrar @cBekrar</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Fuzzing </i>]  FuzTip: Always enable Special Pool when fuzzing Windows Fonts/Kernel:
+"verifier.exe /flags 0x1 /driver Win32k.sys" (&amp;amp; atmfd.dll). Saves time</p>
+<div class="translated" id="81029">
+<p>﻿"Fuzz 小建议: 在 Fuzz Windows 字体和内核时启用 Special Pool， 可以节省时间，启用方法: 'verifier.exe /flags 0x1 /driver Win32k.sys'(&amp; atmfd.dll)"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  c0d3inj3cT @c0d3inj3cT </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  DLL loading technique in #ZeroAccess and #Sirefef : <a href="http://goo.gl/lTrXc4" rel="nofollow">http://goo.gl/lTrXc4</a> cc: @ hFireF0X @ TheEnergyStory</p>
+<div class="translated" id="80987">
+<p>﻿"木马样本 ZeroAccess/Sirefef 所用的 DLL 加载技术:   <a href="https://t.co/Nr1WjtlARx" rel="nofollow">https://t.co/Nr1WjtlARx</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Eric Lawrence @ericlaw </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Network </i>]  Debugging With Wireshark: TLS <a href="http://lukasa.co.uk/2016/01/Debugging_With_Wireshark_TLS/" rel="nofollow">http://lukasa.co.uk/2016/01/Debugging_With_Wireshark_TLS/</a> via @ lukasaoz</p>
+<div class="translated" id="81349">
+<p>﻿"用 Wireshark 排查 TLS 出错的情况   <a href="https://t.co/gBP8DMI83b" rel="nofollow">https://t.co/gBP8DMI83b</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>☩MalwareMustDie @MalwareMustDie</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  @MalwareMustDie More on PHP/MySQL web shell injection: Malicious DLL Dropper &amp;amp; Binary Injection Shell by PRC crooks <a href="https://t.co/TRHT3oRlhP" rel="nofollow">https://t.co/TRHT3oRlhP</a></p>
+<div class="translated" id="80986">
+<p>﻿"MalwareMustDie 又捕获了一些新样本，除了 DDoS 服务外，样本中还发现了一些 WebShell， WebShell 中内嵌了用于攻击 ElasticSearch 和 WMI 的工具   <a href="https://t.co/TRHT3oRlhP%C2%A0" rel="nofollow">https://t.co/TRHT3oRlhP </a> Blog:   <a href="http://blog.malwaremustdie.org/2016/01/mmd-0048-2016-ddostf-new-elf-windows.html" rel="nofollow">http://blog.malwaremustdie.org/2016/01/mmd-0048-2016-ddostf-new-elf-windows.html</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CX735PtUQAAA-d3.png" target="_blank">
+<img src="http://pbs.twimg.com/media/CX735PtUQAAA-d3.png">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Zerodium @Zerodium</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Adobe added isolated heap to Flash. This month we pay $100K (with sandbox) and $65K (without sandbox) per #exploit bypassing this mitigation</p>
+<div class="translated" id="81015">
+<p>﻿"Adobe 为 Flash 加入了 Isolated Heap。这个月我们将会花 10 万（包括沙箱）/6.5 万（不包括沙箱）美元的奖金奖励绕过这项缓解措施的 Exploit "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Jackson Shaw @JacksonShaw </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  10 Cloud Security Predictions for 2016 <a href="http://buff.ly/1OKs7PT" rel="nofollow">http://buff.ly/1OKs7PT</a></p>
+<div class="translated" id="81290">
+<p>﻿"SecurityPlanet 对 2016 年云安全发展趋势预测的 10 个观点   <a href="https://t.co/hufYHtocrt" rel="nofollow">https://t.co/hufYHtocrt</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Threatpost @threatpost</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  PoC code published for Cisco Jabber client STARTTLS downgrade attack: <a href="https://threatpost.com/cisco-jabber-client-vulnerable-to-man-in-the-middle-attack/115769/" rel="nofollow">https://threatpost.com/cisco-jabber-client-vulnerable-to-man-in-the-middle-attack/115769/</a> via @ threatpost</p>
+<div class="translated" id="81077">
+<p>﻿"Cisco Jabber 客户端 STARTTLS 降级攻击 PoC，来自 ThreatPost Blog：   <a href="https://t.co/tLdoDzRIpZ" rel="nofollow">https://t.co/tLdoDzRIpZ</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Pau Oliva @pof</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  My presentation about '(Un)Trusted Execution Environments' @  noconname 2015: [PDF] <a href="https://docs.google.com/uc?id=0B1vYN8cImxr9d180UkEySDFLcDg&amp;export=download" rel="nofollow">https://docs.google.com/uc?id=0B1vYN8cImxr9d180UkEySDFLcDg&amp;export=download</a>
+video: <a href="https://vimeo.com/150787883" rel="nofollow">https://vimeo.com/150787883</a></p>
+<div class="translated" id="81143">
+<p>﻿"非可信执行环境，主要是关于 Android 系统   <a href="https://t.co/vFATxEa7sy" rel="nofollow">https://t.co/vFATxEa7sy</a>:   <a href="https://t.co/P9igiTuiVe" rel="nofollow">https://t.co/P9igiTuiVe</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>A. Hacker @armitagehacker</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Pentest </i>]  (Cobalt Strike's) Interoperability with the Metasploit Framework <a href="http://blog.cobaltstrike.com/2016/01/05/interoperability-with-the-metasploit-framework/" rel="nofollow">http://blog.cobaltstrike.com/2016/01/05/interoperability-with-the-metasploit-framework/</a></p>
+<div class="translated" id="81251">
+<p>﻿"Cobalt Strike 攻击框架和 Metasploit 框架的协同使用   <a href="https://t.co/53Xlwfynrw" rel="nofollow">https://t.co/53Xlwfynrw</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  Atlassian Confluence XSS / Insecure Direct Object Reference <a href="https://cxsecurity.com/issue/WLB-2016010018" rel="nofollow">https://cxsecurity.com/issue/WLB-2016010018</a></p>
+<div class="translated" id="81010">
+<p>﻿"Atlassian 开发的团队协作工具 Confluence 存在 XSS 和不安全的对象引用漏洞（CVE-2015-8398/CVE-2015-8399）   <a href="https://t.co/qIK9YiSrfM" rel="nofollow">https://t.co/qIK9YiSrfM</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  Apache LDAP / Directory Studio Command Injection <a href="https://cxsecurity.com/issue/WLB-2016010020" rel="nofollow">https://cxsecurity.com/issue/WLB-2016010020</a></p>
+<div class="translated" id="81011">
+<p>﻿"Apache LDAP/ Directory Studio 命令注入漏洞（CVE-2015-5349）    <a href="https://t.co/QUtrMOGPTC" rel="nofollow">https://t.co/QUtrMOGPTC</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Mark Russinovich @markrussinovich </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Just published a bunch of cool Sysinternals updates: Sysmon, Sigcheck, Procexp, AccessChk, Autoruns <a href="http://blogs.technet.com/b/sysinternals/archive/2016/01/05/update-sigcheck-v2-4-sysmon-v3-2-process-explorer-v16-1-autoruns-v13-51-accesschk-v6-01.aspx" rel="nofollow">http://blogs.technet.com/b/sysinternals/archive/2016/01/05/update-sigcheck-v2-4-sysmon-v3-2-process-explorer-v16-1-autoruns-v13-51-accesschk-v6-01.aspx</a></p>
+<div class="translated" id="81198">
+<p>﻿"Sysinternals 工具更新，包括: Sysmon， Sigcheck， Procexp， AccessChk，Autoruns，   <a href="https://t.co/vDV8BVutnV" rel="nofollow">https://t.co/vDV8BVutnV</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>PythonArsenal @PythonArsenal</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  MyRop - Rop tool for ARM. Based on Capstone. <a href="https://github.com/hitmoon/MyRop" rel="nofollow">https://github.com/hitmoon/MyRop</a></p>
+<div class="translated" id="81047">
+<p>﻿"MyRop - 基于 Capstone 反汇编引擎的 ROP 工具，用于 ARM 平台   <a href="https://t.co/GstJUEMTto" rel="nofollow">https://t.co/GstJUEMTto</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>NCC Group @NCCGroupInfosec</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  NCC Group Blog: Remote Exploitation of Microsoft Office DLL Hijacking (MS15-132) via Browsers - <a href="https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2016/january/remote-exploitation-of-microsoft-office-dll-hijacking-ms15-132-via-browsers/" rel="nofollow">https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2016/january/remote-exploitation-of-microsoft-office-dll-hijacking-ms15-132-via-browsers/</a> by @ buffaloverflow</p>
+<div class="translated" id="81008">
+<p>﻿"NCC Group Blog: 通过浏览器触发 Office DLL 劫持（MS15-132）   <a href="https://t.co/sGZhLudUZu" rel="nofollow">https://t.co/sGZhLudUZu</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Florian Roth @Cyb3rOps </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Web Security </i>]  HTML5 Security Cheat Sheet <a href="http://feedproxy.google.com/~r/HelpNetSecurity/~3/uFVYxF2LLRA/secworld.php" rel="nofollow">http://feedproxy.google.com/~r/HelpNetSecurity/~3/uFVYxF2LLRA/secworld.php</a></p>
+<div class="translated" id="81128">
+<p>﻿"来自 OWASP 的 HTML5 Security Cheat Sheet:   <a href="https://t.co/cHMafJvBky" rel="nofollow">https://t.co/cHMafJvBky</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Enno Rey @Enno_Insinuator </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Very useful: "Windows Process Memory Usage Demystified"
+<a href="http://blogs.microsoft.co.il/sasha/2016/01/05/windows-process-memory-usage-demystified/" rel="nofollow">http://blogs.microsoft.co.il/sasha/2016/01/05/windows-process-memory-usage-demystified/</a> <a href="https://t.co/hSP32XRBRY" rel="nofollow">https://t.co/hSP32XRBRY</a></p>
+<div class="translated" id="81124">
+<p>﻿"Windows 进程内存使用情况详解    <a href="https://t.co/hSP32XRBRY%C2%A0" rel="nofollow">https://t.co/hSP32XRBRY </a> <a href="https://t.co/T7svQIzeee" rel="nofollow">https://t.co/T7svQIzeee</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CX9rfKIWAAEHIHp.png" target="_blank">
+<img src="CX9rfKIWAAEHIHp.png">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/01/05/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/01/06/index.html">2016/01/06</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/01/07/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

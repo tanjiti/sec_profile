@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/08/04" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/08/04</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    border-top: 1px solid #f0f0f0;
+    color: black;
+    margin-bottom: 30px;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+
+
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+
+.singleweibotext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+
+.singleweiboimage{
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin-left: 25px;
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedheader{
+
+}
+
+.singlefeedlogo{
+    float: left;
+    /*width: 24px;*/
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.singlefeedlogo img{
+    float: left;
+    width: 13px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+
+    /*width: 80%;
+    height: 80%;*/
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+.singlefeedtext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/08/03/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/08/04/index.html">2017/08/04</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/08/05/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Android ]</span>  
+Android 的 A/B (Seamless) 无缝热补丁更新技术介绍：   <a href="https://source.android.com/devices/tech/ota/ab_updates" rel="nofollow">https://source.android.com/devices/tech/ota/ab_updates</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Backdoor ]</span>   利用 Gmail 作为 C&amp;C 通信机制的 Gcat/Gdog 后门介绍：   <a href="https://pentestlab.blog/2017/08/03/command-and-control-gmail/" rel="nofollow">https://pentestlab.blog/2017/08/03/command-and-control-gmail/</a> </p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Defend ]</span>  
+ Cloak - 利用基于硬件的事务型内存方法，实现对基于缓存的侧信道攻击的防护：  <a href="https://gruss.cc/files/cloak.pdf" rel="nofollow">https://gruss.cc/files/cloak.pdf</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ iOS ]</span>  
+CVE-2017-7047 Triple_Fetch漏洞与利用技术分析，科恩实验室陈良对 Ian Beer CVE-2017-7047 利用代码的分析。这是个 XPC 进程间通信对象序列化相关的共享内存 Double Fetch 漏洞，服务端读的时候客户端可以修改。文章中详细分析了 Ian Beer 如何利用 Objective-c NSXPC 接口将 Double Fetch 一步步转化成代码执行的：   <a href="http://keenlab.tencent.com/zh/2017/08/02/CVE-2017-7047-Triple-Fetch-bug-and-vulnerability-analysis/" rel="nofollow">http://keenlab.tencent.com/zh/2017/08/02/CVE-2017-7047-Triple-Fetch-bug-and-vulnerability-analysis/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ IoTDevice ]</span>   由 Loftek 和 VStartcam 生产的两款消费级网络摄像头存在大量漏洞：   <a href="https://threatpost.com/two-popular-ip-cameras-riddled-with-vulnerabilities/127172/" rel="nofollow">https://threatpost.com/two-popular-ip-cameras-riddled-with-vulnerabilities/127172/</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DGVHtXRVYAAHhFL.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/DGVHtXRVYAAHhFL.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Linux ]</span>  
+ Red Hat Enterprise Linux 7.4 版本开始集成 USBGuard 软件框架，利用黑白名单等技术抵御流氓 USB 设备的攻击：   <a href="http://rhelblog.redhat.com/2017/08/03/built-in-protection-against-usb-security-attacks-with-usbguard/" rel="nofollow">http://rhelblog.redhat.com/2017/08/03/built-in-protection-against-usb-security-attacks-with-usbguard/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Malware ]</span>  超过 20 款的 BankBot 移动端恶意软件进驻 Google Play 商店：   <a href="https://securityintelligence.com/after-big-takedown-efforts-20-more-bankbot-mobile-malware-apps-make-it-into-google-play/" rel="nofollow">https://securityintelligence.com/after-big-takedown-efforts-20-more-bankbot-mobile-malware-apps-make-it-into-google-play/</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DGS9dCyUIAAukFm.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/DGS9dCyUIAAukFm.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Network ]</span>  如何使用 Bro 2.51 在 ESXi 6.5 的 Ubuntu 16.04.2 虚拟机上监控网络流量：   <a href="https://www.blackhillsinfosec.com/monitor-network-traffic-virtualized-bro-2-51-ubuntu-16-04-2-esxi-6-5/" rel="nofollow">https://www.blackhillsinfosec.com/monitor-network-traffic-virtualized-bro-2-51-ubuntu-16-04-2-esxi-6-5/</a> </p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  当代网络攻击中的隐写术介绍：   <a href="https://securelist.com/steganography-in-contemporary-cyberattacks/79276/" rel="nofollow">https://securelist.com/steganography-in-contemporary-cyberattacks/79276/</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DGUjL4iUIAAEQwg.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/DGUjL4iUIAAEQwg.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>   3亿6千万可免费下载的被黑密码使用方式介绍：   <a href="https://www.troyhunt.com/introducing-306-million-freely-downloadable-pwned-passwords/" rel="nofollow">https://www.troyhunt.com/introducing-306-million-freely-downloadable-pwned-passwords/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  koadic - 基于 JScript 实现的 Windows Rootkit，适用于 Windows 全版本:   <a href="https://github.com/zerosum0x0/koadic" rel="nofollow">https://github.com/zerosum0x0/koadic</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>   3652fa - 绕过 Office 365 多因素认证抓取密码：   <a href="https://github.com/technion/3652fa" rel="nofollow">https://github.com/technion/3652fa</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  
+WikiLeaks 昨天公开了 CIA 的一个新项目- Dumbo，Dumbo 会挂起所有摄像头、麦克风等设备相关的进程，同时它也能篡改设备的数据记录：   <a href="https://wikileaks.org/vault7/#Dumbo" rel="nofollow">https://wikileaks.org/vault7/#Dumbo</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  
+ ZDI 之前分析了一个 VMware drag-and-drop 相关的 UAF 漏洞，这个漏洞通过一个叫做 "Backdoor" 的 RPC 接口触发，今天这篇 Blog ZDI 写了一个工具用于 Backdoor 接口的辅助分析、Fuzz 和 Exploit 开发：   <a href="https://www.zerodayinitiative.com/blog/2017/8/1/pythonizing-the-vmware-backdoor" rel="nofollow">https://www.zerodayinitiative.com/blog/2017/8/1/pythonizing-the-vmware-backdoor</a>
+</p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DGUcVokVwAAPYAe.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/DGUcVokVwAAPYAe.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  
+ Windows Defender ATP 平台引入机器学习技术实现基于行为的入侵检测：   <a href="https://blogs.technet.microsoft.com/mmpc/2017/08/03/windows-defender-atp-machine-learning-detecting-new-and-unusual-breach-activity/?platform=hootsuite" rel="nofollow">https://blogs.technet.microsoft.com/mmpc/2017/08/03/windows-defender-atp-machine-learning-detecting-new-and-unusual-breach-activity/?platform=hootsuite</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>   通过向 Windows Scripting Host (WSH) 已签名脚本中注入代码，绕过 Windows 对 WSH 文件签名才能执行的保护：  <a href="https://enigma0x3.net/2017/08/03/wsh-injection-a-case-study/%C2%A0" rel="nofollow">https://enigma0x3.net/2017/08/03/wsh-injection-a-case-study/ </a>
+</p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Android ]</span>  这两天 BlackHat 新公开了几篇议题的 PPT，其中有一篇介绍 Android 在降低攻击界面方面的努力及成果，包括 Android N Mediaserver、Android O Webview、SELinux、Linux 内核等：
+<a href="https://www.blackhat.com/docs/us-17/thursday/us-17-Kralevich-Honey-I-Shrunk-The-Attack-Surface-Adventures-In-Android-Security-Hardening.pdf" rel="nofollow">https://www.blackhat.com/docs/us-17/thursday/us-17-Kralevich-Honey-I-Shrunk-The-Attack-Surface-Adventures-In-Android-Security-Hardening.pdf</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Industry News ]</span>  阻击 WannaCry 病毒拯救了世界，他却被抓了: <a href="https://view.inews.qq.com/a/TEC2017080400832505" rel="nofollow">https://view.inews.qq.com/a/TEC2017080400832505</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ IoTDevice ]</span>  嵌入式设备硬件PCB级逆向：
+ <a href="http://mp.weixin.qq.com/s/aaV_ZwBcXCkO5s7pplV6xQ" rel="nofollow">http://mp.weixin.qq.com/s/aaV_ZwBcXCkO5s7pplV6xQ</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Linux ]</span>   Green Hills的 Dan O’Dowd 于 2004 年发表的名为 Linux in Defense 的系列文章通过一系列的分析试图向公众解释为什么 Linux 内核不适合一些场景特别是国家防御，来自 hardenedlinux 的新浪微博： 
+<a href="http://weibo.com/5654890146/FfnMWoK3v?type=comment" rel="nofollow">http://weibo.com/5654890146/FfnMWoK3v?type=comment</a> </p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Malware ]</span>  恶性病毒Kuzzle“攻破”安全厂商白名单 用户重装系统也难以清除: <a href="http://mp.weixin.qq.com/s/wXrOAtkFIgGfnJgVXnCh7Q" rel="nofollow">http://mp.weixin.qq.com/s/wXrOAtkFIgGfnJgVXnCh7Q</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Malware ]</span>  “沙虫”二代来袭，office全线沦陷: 
+ <a href="http://mp.weixin.qq.com/s/i1GnrfVn8Bf6zk4VRPpenQ" rel="nofollow">http://mp.weixin.qq.com/s/i1GnrfVn8Bf6zk4VRPpenQ</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Virtualization ]</span>  Project Zero 昨天公开了两个 VirtualBox 的 DLL UNC 路径检查绕过导致的本地提权漏洞，VirtualBox: Windows Process DLL UNC Path Signature Bypass EoP： 
+<a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1296" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1296</a>
+<a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1257" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1257</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Vulnerability ]</span>  DotNetNuke 任意代码执行漏洞 (CVE-2017-9822) 分析预警： 
+<a href="http://paper.seebug.org/365/" rel="nofollow">http://paper.seebug.org/365/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Windows ]</span>   James Forshaw 对 Windows 10 S Device Guard 的分析（四），InstallUtil 的滥用： 
+<a href="https://tyranidslair.blogspot.com/2017/08/dg-on-windows-10-s-abusing-installutil.html" rel="nofollow">https://tyranidslair.blogspot.com/2017/08/dg-on-windows-10-s-abusing-installutil.html</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/08/03/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/08/04/index.html">2017/08/04</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/08/05/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

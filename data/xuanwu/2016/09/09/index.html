@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/09/09" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/09/09</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/09/08/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/09/09/index.html">2016/09/09</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/09/10/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Nikolay Elenkov @kapitanpetko </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Official documentation about Android 7's file-based encryption (FBE) <a href="https://source.android.com/security/encryption/file-based.html" rel="nofollow">https://source.android.com/security/encryption/file-based.html</a></p>
+<div class="translated" id="181299">
+<p>﻿" Android 7 基于文件的加密 (FBE) 特性的文档：   <a href="https://t.co/o7nOFC8wZw" rel="nofollow">https://t.co/o7nOFC8wZw</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Luander @luanderock </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Samsung Android Security Updates for September: <a href="http://security.samsungmobile.com/smrupdate.html#SMR-SEP-2016" rel="nofollow">http://security.samsungmobile.com/smrupdate.html#SMR-SEP-2016</a></p>
+<div class="translated" id="181337">
+<p>﻿" 三星发布 9 月份的 Android 漏洞公告︰   <a href="https://t.co/DpP12N0h8B" rel="nofollow">https://t.co/DpP12N0h8B</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Łukasz @maldr0id </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Interesting and very detailed survey about the ELF based #Android #malware
+
+<a href="http://www.cmcm.com/blog/en/security/2016-09-07/1027.html" rel="nofollow">http://www.cmcm.com/blog/en/security/2016-09-07/1027.html</a></p>
+<div class="translated" id="181120">
+<p>﻿" Android ELF 病毒调查报告：   <a href="https://t.co/hTFABMIVW4" rel="nofollow">https://t.co/hTFABMIVW4</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  How to: Testing Android Application Security, Part 3 <a href="https://blogs.mcafee.com/mcafee-labs/testing-android-application-security-part-3/" rel="nofollow">https://blogs.mcafee.com/mcafee-labs/testing-android-application-security-part-3/</a></p>
+<div class="translated" id="181396">
+<p>﻿"如何测试 Android APP 的安全性 Part 3， 来自 McAfee Blog：   <a href="https://t.co/ykbmb8fQFM" rel="nofollow">https://t.co/ykbmb8fQFM</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Mike_Mimoso @Mike_Mimoso</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  . #Chrome to Label Some HTTP Sites ‘Not Secure’ in 2017: <a href="https://threatpost.com/chrome-to-label-some-http-sites-not-secure-in-2017/120452/" rel="nofollow">https://threatpost.com/chrome-to-label-some-http-sites-not-secure-in-2017/120452/</a> via @ threatpost</p>
+<div class="translated" id="181492">
+<p>﻿" 2017 年 1 月开始，Chrome 会标记 HTTP 网站为 '非安全'，用户导航至 HTTP 网站时将会被提示：   <a href="https://t.co/8Q2cpdd8pG" rel="nofollow">https://t.co/8Q2cpdd8pG</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  Zepto ransomware now introduces new features to better encrypt your files <a href="https://blog.avast.com/zepto-ransomware-now-introduces-new-features-to-better-encrypt-your-files" rel="nofollow">https://blog.avast.com/zepto-ransomware-now-introduces-new-features-to-better-encrypt-your-files</a></p>
+<div class="translated" id="181400">
+<p>﻿"Zepto 勒索软件添加新特性，以便更好的加密文件，来自 Avast Blog：   <a href="https://t.co/7fTyyLy9of" rel="nofollow">https://t.co/7fTyyLy9of</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Common Python Vulnerabilities <a href="https://access.redhat.com/blogs/766093/posts/2592591" rel="nofollow">https://access.redhat.com/blogs/766093/posts/2592591</a></p>
+<div class="translated" id="181207">
+<p>﻿"常见的 Python 代码漏洞：   <a href="https://t.co/5ORTCkzrt2" rel="nofollow">https://t.co/5ORTCkzrt2</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  [webapps] - Adobe ColdFusion &amp;lt; 11 Update 10 - XML External Entity Injection <a href="https://www.exploit-db.com/exploits/40346/" rel="nofollow">https://www.exploit-db.com/exploits/40346/</a></p>
+<div class="translated" id="181105">
+<p>﻿"Adobe ColdFusion 11 之前的版本都存在 XML 实体注入漏洞：   <a href="https://t.co/7qDKS2MGj8" rel="nofollow">https://t.co/7qDKS2MGj8</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Threatpost @threatpost</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  This week's @ WordPress update resolves a XSS + path traversal vuln - <a href="http://bit.ly/2cgIB42" rel="nofollow">http://bit.ly/2cgIB42</a></p>
+<div class="translated" id="181362">
+<p>﻿" WordPress 更新 4.6.1 版本，修复了一个 XSS 和一个路径遍历漏洞：    <a href="https://t.co/O0liIscLRm" rel="nofollow">https://t.co/O0liIscLRm</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  [webapps] - Zabbix 2.0 - 3.0.3 - SQL Injection <a href="https://www.exploit-db.com/exploits/40353/" rel="nofollow">https://www.exploit-db.com/exploits/40353/</a></p>
+<div class="translated" id="181410">
+<p>﻿"Zabbix 2.0 - 3.0.3 SQL 注入 Exploit：   <a href="https://t.co/UuopYeaJie" rel="nofollow">https://t.co/UuopYeaJie</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>NCC Group @NCCGroupInfosec</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  NCC Group Blog: nOBEX - a tool for #fuzzing #Bluetooth PBAP and MAP clients in automotive infotainment systems -https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2016/september/introducing-nobex-a-tool-for-testing-bluetooth-phone-and-messaging-profiles/</p>
+<div class="translated" id="181131">
+<p>﻿" nOBEX - NCC Group 开源的一个专门测试蓝牙通讯协议的工具：   <a href="https://t.co/DHWozBJsQQ" rel="nofollow">https://t.co/DHWozBJsQQ</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Yuriy Bulygin @c7zero </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  Xen 4.4 host crash, potential host privilege escalation in EVTCHNOP_init_control hypercall with invalid GFN <a href="https://twitter.com/c7zero/status/773901616814567424" rel="nofollow">https://twitter.com/c7zero/status/773901616814567424</a></p>
+<div class="translated" id="181435">
+<p>﻿" XSA-188 - Xen FIFO 事件通道处理代码中的一个 UAF 漏洞（CVE-2016-7154）：   <a href="https://xenbits.xen.org/xsa/advisory-188.html" rel="nofollow">https://xenbits.xen.org/xsa/advisory-188.html</a>   昨天 XSA 一下子修复了 4 个 Xen 的漏洞，关于这四个漏洞的简要介绍：   <a href="http://www.theregister.co.uk/2016/09/08/xen_security_bugs/" rel="nofollow">http://www.theregister.co.uk/2016/09/08/xen_security_bugs/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Web Security </i>]  Hunting HTML5 postMessage Vulnerabilities : <a href="https://www.exploit-db.com/docs/40287.pdf" rel="nofollow">https://www.exploit-db.com/docs/40287.pdf</a> (pdf)</p>
+<div class="translated" id="181538">
+<p>﻿"Hunting HTML5 postMessage Vulnerabilities，HTML 5 提供了两种跨站通信的方法：postMessage 和 CORS︰   <a href="https://t.co/sMddKMYI7k" rel="nofollow">https://t.co/sMddKMYI7k</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Matt Graeber @mattifestation</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Using Device Guard to Mitigate Against Device Guard Bypasses <a href="http://www.exploit-monday.com/2016/09/using-device-guard-to-mitigate-against.html" rel="nofollow">http://www.exploit-monday.com/2016/09/using-device-guard-to-mitigate-against.html</a> #DFIR #PowerShell</p>
+<div class="translated" id="181342">
+<p>﻿" 如何通过 Device Guard 解决 Windows 用户态代码完整性检查（UMCI）的绕过问题：   <a href="https://t.co/OtFTyg2Mi3" rel="nofollow">https://t.co/OtFTyg2Mi3</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/09/08/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/09/09/index.html">2016/09/09</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/09/10/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

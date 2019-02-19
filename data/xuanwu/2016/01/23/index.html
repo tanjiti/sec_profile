@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/01/23" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/01/23</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/01/22/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/01/23/index.html">2016/01/23</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/01/24/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>TrendLabs @TrendLabs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  New post: Operation Emmental Revisited: Malicious Apps Lock Users Out <a href="http://bit.ly/1ZQt91W" rel="nofollow">http://bit.ly/1ZQt91W</a> @ TrendMicro</p>
+<div class="translated" id="88610">
+<p>﻿"Operation Emmental - 恶意 APP 被安装之后，攻击者远程修改手机的锁屏密码，在用户费劲尝试密码的时候，后台劫持银行的短信，实现交易，来自 TrendMicro Blog:   <a href="https://t.co/g4SRjfgi18%C2%A0" rel="nofollow">https://t.co/g4SRjfgi18 </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Nikolay Elenkov @kapitanpetko </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Apparently Nexus kernel debug cables are also open source: <a href="https://android.googlesource.com/device/google/debugcable/+/master" rel="nofollow">https://android.googlesource.com/device/google/debugcable/+/master</a></p>
+<div class="translated" id="88715">
+<p>﻿"Android Nexus 内核调试线缆设计文档，包括 PCB/BOM 等等文档:   <a href="https://t.co/Y1UxFWICZf" rel="nofollow">https://t.co/Y1UxFWICZf</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Android Spywaller: Firewall-Style Antivirus Blocking <a href="http://blog.fortinet.com/post/android-spywaller-firewall-style-antivirus-blocking" rel="nofollow">http://blog.fortinet.com/post/android-spywaller-firewall-style-antivirus-blocking</a></p>
+<div class="translated" id="88806">
+<p>﻿"Android Spywaller - 恶意软件利用 DroidWall 防火墙禁用 Qihoo 360 的安全应用，之前推送过 Symantec 关于这个攻击的介绍，这次是 Fortinet Blog 对这个过程的详细技术分析：    <a href="https://t.co/CFEBiVWdJj" rel="nofollow">https://t.co/CFEBiVWdJj</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>TrendLabs @TrendLabs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  A look at notable incidents involving Operation #PawnStorm: <a href="http://bit.ly/1JW0Ojn" rel="nofollow">http://bit.ly/1JW0Ojn</a> #targetedattack</p>
+<div class="translated" id="88896">
+<p>﻿"PawnStorm 行动的最新进展，来自 TrendMicro Blog：   <a href="https://t.co/ezN9hM5Jvy" rel="nofollow">https://t.co/ezN9hM5Jvy</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>McAfee Labs @McAfee_Labs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Defend </i>]  Defending your organization from macro #malware is easier than you think. Learn how: <a href="http://intel.ly/20hUJly" rel="nofollow">http://intel.ly/20hUJly</a></p>
+<div class="translated" id="88575">
+<p>﻿"对抗宏恶意软件:   <a href="https://t.co/YYCdK6uhzy" rel="nofollow">https://t.co/YYCdK6uhzy</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Hardware </i>]  Insecure by design: protocols for encrypted phone calls <a href="https://www.benthamsgaze.org/2016/01/19/insecure-by-design-protocols-for-encrypted-phone-calls/" rel="nofollow">https://www.benthamsgaze.org/2016/01/19/insecure-by-design-protocols-for-encrypted-phone-calls/</a></p>
+<div class="translated" id="88739">
+<p>﻿"设计上就不安全：加密电话协议。这篇 Blog 提到英国政府将 MIKEY-SAKKE 作为加密电话协议，然而这个协议本身对安全的考虑就不够完善，可能会导致大规模的无察觉地监视，来自 Bentham's Gaze Blog:   <a href="https://t.co/XCsnWlXisW" rel="nofollow">https://t.co/XCsnWlXisW</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Evilcry_ @Blackmond_ </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> IoTDevice </i>]  C7824WIP - IP Camera : Security Review - <a href="http://www.fontenay-ronan.fr/c7824wip-security-review/" rel="nofollow">http://www.fontenay-ronan.fr/c7824wip-security-review/</a></p>
+<div class="translated" id="88668">
+<p>﻿"威视达康（Vstarcam） C7824WIP 网络摄像头安全性综述：   <a href="https://t.co/f5tfVXMGI8" rel="nofollow">https://t.co/f5tfVXMGI8</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Iván @aszy</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  Security Analysis of Linux Kernel Features for Embedded Software Systems in Vehicles <a href="https://hal.archives-ouvertes.fr/hal-01193025/document" rel="nofollow">https://hal.archives-ouvertes.fr/hal-01193025/document</a></p>
+<div class="translated" id="88722">
+<p>﻿"车载嵌入式系统中 Linux 内核在保护用户态应用方面的一些安全特性， Paper：   <a href="https://t.co/4w5QStJeZQ" rel="nofollow">https://t.co/4w5QStJeZQ</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mac OS X </i>]  ZDI-16-020: Apple OS X IOAcceleratorFamily2 Out-Of-Bounds Indexing Privilege Escalation Vulnerability <a href="http://www.zerodayinitiative.com/advisories/ZDI-16-020/" rel="nofollow">http://www.zerodayinitiative.com/advisories/ZDI-16-020/</a></p>
+<div class="translated" id="88899">
+<p>﻿"Apple OS X IOAcceleratorFamily2 数组索引越界访问漏洞，通过这个漏洞可以实现提权，来自 ZDI 公告 ZDI-16-020:    <a href="https://t.co/fUHyBIrl7E" rel="nofollow">https://t.co/fUHyBIrl7E</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Kimberly @StopMalvertisin </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Network </i>]  Cisco Blog | Overcoming the DNS “Blind Spot” <a href="http://bit.ly/1ZGQ2Qc" rel="nofollow">http://bit.ly/1ZGQ2Qc</a></p>
+<div class="translated" id="88762">
+<p>﻿"对 DNS 信息的监控对于发现攻击入侵很有必要，然而现在这么做的公司还比较少，来自 Cisco Blog：   <a href="https://t.co/wWYnY2RZlU" rel="nofollow">https://t.co/wWYnY2RZlU</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  AV Comparatives @AV_Comparatives </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  The AV-Comparatives Summary Report 2015 is now available! <a href="http://www.av-comparatives.org/summary-reports/" rel="nofollow">http://www.av-comparatives.org/summary-reports/</a></p>
+<div class="translated" id="88852">
+<p>﻿"AV-Comparatives 2015 年总结报告， AV-Comparatives 是一家国际性的独立评测结构，专门从事反病毒软件的评测：    <a href="https://t.co/hfHfJTaH04" rel="nofollow">https://t.co/hfHfJTaH04</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Frank Denis @jedisct1 </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Google free course on deep learning <a href="https://www.udacity.com/course/deep-learning--ud730" rel="nofollow">https://www.udacity.com/course/deep-learning--ud730</a></p>
+<div class="translated" id="88827">
+<p>﻿"Google 的深度学习在线课程：   <a href="https://t.co/NihZ7voinN" rel="nofollow">https://t.co/NihZ7voinN</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Pentest </i>]  backdoorme : powerful auto-backdooring utility : <a href="https://github.com/Kkevsterrr/backdoorme" rel="nofollow">https://github.com/Kkevsterrr/backdoorme</a></p>
+<div class="translated" id="88602">
+<p>﻿"backdoorme: 功能强大的 Unix 后门实用工具，自动化地创建和部署后门:   <a href="https://t.co/WrWpg2Uq9f" rel="nofollow">https://t.co/WrWpg2Uq9f</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  ZDI-16-023: Oracle GoldenGate Veridata File Upload Remote Code Execution Vulnerability <a href="http://www.zerodayinitiative.com/advisories/ZDI-16-023/" rel="nofollow">http://www.zerodayinitiative.com/advisories/ZDI-16-023/</a></p>
+<div class="translated" id="88903">
+<p>﻿"Oracle GoldenGate mgr 进程监听本地 TCP 7809 端口，进程对连接的认证不够完善，可以实现任意文件写，最终实现 SYSTEM 远程代码执行，来自 ZDI 公告 ZDI-16-023：   <a href="https://t.co/maPwP14pZd" rel="nofollow">https://t.co/maPwP14pZd</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>James Forshaw @tiraniddo</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Opening the correct file in Windows can be pretty tricky, even for Microsoft devs. <a href="https://code.google.com/p/google-security-research/issues/detail?id=589" rel="nofollow">https://code.google.com/p/google-security-research/issues/detail?id=589</a> and <a href="https://code.google.com/p/google-security-research/issues/detail?id=573" rel="nofollow">https://code.google.com/p/google-security-research/issues/detail?id=573</a> :-D</p>
+<div class="translated" id="88870">
+<p>﻿"在 Windows 中打开正确的文件是件很棘手的事，甚至对微软开发者也是： Issue 589 &lt;Windows: Sandboxed Mount Reparse Point Creation Mitigation Bypass Redux 2 &gt;：   <a href="https://t.co/H5igmajfkz%C2%A0" rel="nofollow">https://t.co/H5igmajfkz </a> Issue 573 &lt;Windows: Sandboxed Mount Reparse Point Creation Mitigation Bypass Redux &gt;:    <a href="https://t.co/9aCzHMPRkT" rel="nofollow">https://t.co/9aCzHMPRkT</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/01/22/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/01/23/index.html">2016/01/23</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/01/24/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

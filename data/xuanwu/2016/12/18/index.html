@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/12/18" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/12/18</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/12/17/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/12/18/index.html">2016/12/18</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/12/19/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>.mario @0x6D6172696F</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Content Security Policy: Embedded Enforcement 
+<a href="https://w3c.github.io/webappsec-csp/embedded/" rel="nofollow">https://w3c.github.io/webappsec-csp/embedded/</a> via @ mikewest</p>
+<div class="translated" id="219151">
+<p>﻿"CSP新机制：嵌入式策略强制；新机制允许在 Web 页面中嵌入一个嵌套的浏览器 context，同时可强制执行一组指定的内容安全策略：   <a href="https://t.co/Al4SQzPsSo" rel="nofollow">https://t.co/Al4SQzPsSo</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Daniel Bilar @daniel_bilar </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Hardware </i>]  Two sw-only defenses against #Rowhammer <a href="https://arxiv.org/pdf/1611.08396v1" rel="nofollow">https://arxiv.org/pdf/1611.08396v1</a> [x86, ARM; phys mem alloc part. into sec domains,… <a href="https://t.co/SarViYXiFl" rel="nofollow">https://t.co/SarViYXiFl</a></p>
+<div class="translated" id="219398">
+<p>﻿"两种针对 Rowhammer 攻击的防御方法（Paper）：   <a href="https://t.co/CiSCtdTzud" rel="nofollow">https://t.co/CiSCtdTzud</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  Linux/x86 - /bin/bash -c Arbitrary Command Execution Shellcode (72 bytes) : <a href="https://www.exploit-db.com/exploits/40924/" rel="nofollow">https://www.exploit-db.com/exploits/40924/</a></p>
+<div class="translated" id="219186">
+<p>﻿"Linux/x86-/ bin/bash -c 任意代码执行 Shellcode ︰   <a href="https://t.co/lgLkBpz4zv" rel="nofollow">https://t.co/lgLkBpz4zv</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> macOS </i>]  Hacking Apple Mac encryption password in Just 30 Seconds with PCILeech device <a href="http://securityaffairs.co/wordpress/54477/hacking/pcileech-hacking-mac.html" rel="nofollow">http://securityaffairs.co/wordpress/54477/hacking/pcileech-hacking-mac.html</a></p>
+<div class="translated" id="219144">
+<p>﻿"利用 PCILeech 设备 30 秒 hack Apple Mac：   <a href="https://t.co/13J5BBKyvr" rel="nofollow">https://t.co/13J5BBKyvr</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Mike_Mimoso @Mike_Mimoso</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  SQL Injection Attack is Tied to Election Commission Breach: <a href="https://threatpost.com/sql-injection-attack-is-tied-to-election-commission-breach/122571/" rel="nofollow">https://threatpost.com/sql-injection-attack-is-tied-to-election-commission-breach/122571/</a> via @ threatpost</p>
+<div class="translated" id="219210">
+<p>﻿"美国选举委员会表示其可能遭受了黑客攻击：   <a href="https://t.co/s3qKrGQtCZ" rel="nofollow">https://t.co/s3qKrGQtCZ</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>John Lambert @JohnLaTwC</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  1200 line obfuscated #PowerShell malware threat, dropped by Word Macro ENJOY INTERNETZ <a href="https://pastebin.com/V1F1hRg7" rel="nofollow">https://pastebin.com/V1F1hRg7</a> #DFIR <a href="https://t.co/LaDT2bR14F" rel="nofollow">https://t.co/LaDT2bR14F</a></p>
+<div class="translated" id="219273">
+<p>﻿"第一个利用 word 宏病毒释放 Powershell 的样本：   <a href="https://t.co/ZnpTtl45mU" rel="nofollow">https://t.co/ZnpTtl45mU</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/tweet_video_thumb/Cz4_VftVQAEGuqg.jpg" target="_blank">
+<img src="Cz4_VftVQAEGuqg.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Review of recent shadow brokers leak <a href="https://www.myhackerhouse.com/merry-haxmas-shadowbrokers-strike-again/" rel="nofollow">https://www.myhackerhouse.com/merry-haxmas-shadowbrokers-strike-again/</a></p>
+<div class="translated" id="219353">
+<p>﻿"shadow brokers 公开售卖方程式组织文件：   <a href="https://t.co/1hK5WCOauT%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0" rel="nofollow">https://t.co/1hK5WCOauT     </a> 详情：   <a href="https://bit.no.com:43110/theshadowbrokers.bit/" rel="nofollow">https://bit.no.com:43110/theshadowbrokers.bit/</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Jaime Blasco @jaimeblascob </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Spear Phishing attacks hits industrial companies <a href="https://ics-cert.kaspersky.com/2016/12/16/spear-phishing-attack-hits-industrial-companies/" rel="nofollow">https://ics-cert.kaspersky.com/2016/12/16/spear-phishing-attack-hits-industrial-companies/</a> by @ kaspersky IOC's in @ alienvault @ OTX <a href="https://t.co/DqSNwuFtYA" rel="nofollow">https://t.co/DqSNwuFtYA</a></p>
+<div class="translated" id="219380">
+<p>﻿"鱼叉式钓鱼攻击瞄准工业公司：   <a href="https://t.co/DqSNwuFtYA" rel="nofollow">https://t.co/DqSNwuFtYA</a> <a href="https://t.co/3MFPfQCj8y" rel="nofollow">https://t.co/3MFPfQCj8y</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Alyosha Sintsov @asintsov</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> SecurityProduct </i>]  Ring3 hooks: Norton Security StackPivot exploit mitigation baypss  (too easy): <a href="http://asintsov.blogspot.de/2016/12/bypassing-exploit-protection-of-norton.html" rel="nofollow">http://asintsov.blogspot.de/2016/12/bypassing-exploit-protection-of-norton.html</a> cc:@ DefconRussia streams</p>
+<div class="translated" id="219116">
+<p>﻿"绕过诺顿的漏洞利用保护机制︰   <a href="https://t.co/qGri9ns5Qh" rel="nofollow">https://t.co/qGri9ns5Qh</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Intel XED: The X86 Encoder Decoder : <a href="https://intelxed.github.io/" rel="nofollow">https://intelxed.github.io/</a></p>
+<div class="translated" id="219183">
+<p>﻿"Intel XED 开源︰Intel X86 编解码器︰   <a href="https://t.co/bG0ruq0OB9" rel="nofollow">https://t.co/bG0ruq0OB9</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>McAfee Labs @McAfee_Labs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  ‘SSL Death Alert’ (CVE-2016-8610) can cause denial of service to OpenSSL Servers. See our patch analysis:… <a href="https://twitter.com/i/web/status/809937942835818497" rel="nofollow">https://twitter.com/i/web/status/809937942835818497</a></p>
+<div class="translated" id="219099">
+<p>﻿"对可导致拒绝服务的 'SSL Death Alert'漏洞补丁分析 (CVE-2016-8610) ：   <a href="https://t.co/4WaKmVrpsx" rel="nofollow">https://t.co/4WaKmVrpsx</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/12/17/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/12/18/index.html">2016/12/18</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/12/19/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/05/31" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/05/31</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+    color: #a7a7a7;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+
+
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 15px;
+    /*color: #a7a7a7;*/
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedheader{
+
+}
+
+.singlefeedlogo{
+    float: left;
+    /*width: 24px;*/
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.singlefeedlogo img{
+    float: left;
+    width: 13px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+
+    /*width: 80%;
+    height: 80%;*/
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.singlefeedtext p{
+    font-size: 15px;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        //console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        //console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            //console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/30/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/31/index.html">2017/05/31</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/06/01/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  theshadowbrokers @shadowbrokerss </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Industry News </i>]  TheShadowBrokers Monthly Dump Service – June 2017 — Steemit <a href="https://steemit.com/shadowbrokers/@" rel="nofollow">https://steemit.com/shadowbrokers/@</a> theshadowbrokers/theshadowbrokers-monthly-dump-service-june-2017 #shadowbrokers #equationgroup</p>
+<div class="translated" id="285685">
+<p>" ShadowBrokers 组织的付费订阅模式开始了：   <a href="https://t.co/jrAFZu8ieu" rel="nofollow">https://t.co/jrAFZu8ieu</a>  "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  Linux kernel: stack buffer overflow with controlled payload in get_options() function  <a href="http://seclists.org/oss-sec/2017/q2/344" rel="nofollow">http://seclists.org/oss-sec/2017/q2/344</a></p>
+<div class="translated" id="285736">
+<p>" Linux 内核命令行解析 get_options 栈缓冲区溢出漏洞：   <a href="https://t.co/RiXy3Jw43a" rel="nofollow">https://t.co/RiXy3Jw43a</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Daniel Bilar @daniel_bilar </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  WIP ebook on heap internals (glibc 'malloc' &amp; 'free') &amp; intro to heap exploitation <a href="https://heap-exploitation.dhavalkapil.com/" rel="nofollow">https://heap-exploitation.dhavalkapil.com/</a> [see… <a href="https://t.co/cjDUssqFUO" rel="nofollow">https://t.co/cjDUssqFUO</a></p>
+<div class="translated" id="285754">
+<p>"  Glibc Heap Exploitation（在线电子书），介绍的是 glibc 内存的申请和释放的内幕，以及堆利用的一些技术：   <a href="https://t.co/wsQb8WfKvp" rel="nofollow">https://t.co/wsQb8WfKvp</a>  "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  x0rz @x0rz </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  Linux sudo's get_process_ttyname() root privilege escalation (CVE-2017-1000367) <a href="http://www.openwall.com/lists/oss-security/2017/05/30/16" rel="nofollow">http://www.openwall.com/lists/oss-security/2017/05/30/16</a> #linux… <a href="https://t.co/fn156kxllX" rel="nofollow">https://t.co/fn156kxllX</a></p>
+<div class="translated" id="285917">
+<p>"  Linux Sudo get_process_ttynam() Root 本地提权漏洞（CVE-2017-1000367）：   <a href="http://www.openwall.com/lists/oss-security/2017/05/30/16" rel="nofollow">http://www.openwall.com/lists/oss-security/2017/05/30/16</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  l0ss @mikeloss </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Best. Citrix. Escape. Ever. <a href="https://www.pentestpartners.com/security-blog/breaking-out-of-citrix-and-other-restricted-desktop-environments" rel="nofollow">https://www.pentestpartners.com/security-blog/breaking-out-of-citrix-and-other-restricted-desktop-environments</a> <a href="https://t.co/iEwgUUTyf7" rel="nofollow">https://t.co/iEwgUUTyf7</a></p>
+<div class="translated" id="285592">
+<p>" Citrix 及其他桌面受限虚拟化环境的逃逸，这类桌面虚拟化方案用于为应用提供一个受限的执行环境：   <a href="https://t.co/msK70Vo9fi%C2%A0" rel="nofollow">https://t.co/msK70Vo9fi </a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DA_pPLYVwAQPCKs.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/DA_pPLYVwAQPCKs.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> SecurityProduct </i>]  [webapps] Trend Micro Deep Security version 6.5 - XML External Entity Injection/ Remote Code Execution <a href="https://www.exploit-db.com/exploits/42089/" rel="nofollow">https://www.exploit-db.com/exploits/42089/</a></p>
+<div class="translated" id="285945">
+<p>"  Trend Micro Deep Security V6.5 XXE实体化注入漏洞/本地提权漏洞/远程代码执行漏洞 PoC：   <a href="https://t.co/Jyv8APt0zz" rel="nofollow">https://t.co/Jyv8APt0zz</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  expdevBadChars - Bad Characters highlighter for exploit development : <a href="https://howucan.gr/scripts-tools/2198-expdevbadchars-bad-characters-highlighter-for-exploit-development/" rel="nofollow">https://howucan.gr/scripts-tools/2198-expdevbadchars-bad-characters-highlighter-for-exploit-development/</a></p>
+<div class="translated" id="285759">
+<p>" expdevBadChars - 漏洞利用开发中的 Bad Characters 高亮工具：   <a href="https://t.co/NZ8TcJ6dls" rel="nofollow">https://t.co/NZ8TcJ6dls</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Avast releases decryptor tool for AES_NI ransomware <a href="https://blog.avast.com/avast-releases-decryptor-tool-for-aes_ni-ransomware" rel="nofollow">https://blog.avast.com/avast-releases-decryptor-tool-for-aes_ni-ransomware</a></p>
+<div class="translated" id="285803">
+<p>"  Avast 发布了针对 AES_NI 勒索软件的解密程序：   <a href="https://t.co/9PT6AaSykX" rel="nofollow">https://t.co/9PT6AaSykX</a>  "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Summit Route @SummitRoute </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Learn about "Free tools for auditing the security of an AWS account" in my latest post: <a href="https://summitroute.com/blog/2017/05/30/free_tools_for_auditing_the_security_of_an_aws_account/" rel="nofollow">https://summitroute.com/blog/2017/05/30/free_tools_for_auditing_the_security_of_an_aws_account/</a> <a href="https://t.co/ULRpnjMgxU" rel="nofollow">https://t.co/ULRpnjMgxU</a></p>
+<div class="translated" id="285821">
+<p>"  审计 AWS 账户安全性的免费工具介绍：   <a href="https://t.co/eZnd90oFGZ%C2%A0" rel="nofollow">https://t.co/eZnd90oFGZ </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Dennis Yurichev @yurichev </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Using PIN DBI for XOR interception <a href="https://yurichev.com/blog/PIN_XOR/" rel="nofollow">https://yurichev.com/blog/PIN_XOR/</a></p>
+<div class="translated" id="285941">
+<p>" 利用 Intel 二进制插桩工具（DPI）劫持所有的 XOR 指令：   <a href="https://t.co/NoV35ykcvI" rel="nofollow">https://t.co/NoV35ykcvI</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  Cross-origin brute-forcing of Github SAML and 2FA recovery codes <a href="http://blog.intothesymmetry.com/2017/05/cross-origin-brute-forcing-of-saml-and.html" rel="nofollow">http://blog.intothesymmetry.com/2017/05/cross-origin-brute-forcing-of-saml-and.html</a></p>
+<div class="translated" id="285744">
+<p>" 跨域爆破 GitHub SAML 和双因素认证的还原码：   <a href="https://t.co/pGCEYEP2kz" rel="nofollow">https://t.co/pGCEYEP2kz</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  Everything you need to know about the new Split Tunnel SMTP Exploit : <a href="https://blog.securolytics.io/2017/05/split-tunnel-smtp-exploit-explained/" rel="nofollow">https://blog.securolytics.io/2017/05/split-tunnel-smtp-exploit-explained/</a> <a href="https://t.co/JKq1v27X14" rel="nofollow">https://t.co/JKq1v27X14</a></p>
+<div class="translated" id="285748">
+<p>"  Split Tunnel SMTP Exploit - Bypass 邮件网关，利用邮件加密套件的漏洞直接向邮件服务器注入恶意 Payload：   <a href="https://t.co/wxNIczcLx2" rel="nofollow">https://t.co/wxNIczcLx2</a> <a href="https://t.co/JKq1v27X14" rel="nofollow">https://t.co/JKq1v27X14</a>  "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DBEjTStUIAA32Jt.png" target="_blank">
+<img src="http://pbs.twimg.com/media/DBEjTStUIAA32Jt.png">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  A PoC Demonstrating how UAC was Fundamentally Broken from Day 1 :  <a href="https://gist.github.com/tyranid/9ffef5962a642d4a1bb8e4ee7e3bebc5" rel="nofollow">https://gist.github.com/tyranid/9ffef5962a642d4a1bb8e4ee7e3bebc5</a></p>
+<div class="translated" id="285737">
+<p>" 在 Vista+ 系统上 Bypass UAC 的 PowerShell 脚本：   <a href="https://t.co/mPVeBScRzy" rel="nofollow">https://t.co/mPVeBScRzy</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Starting with Windows Kernel Exploitation (Part 1) – Setting up the lab : <a href="https://hshrzd.wordpress.com/2017/05/28/starting-with-windows-kernel-exploitation-part-1-setting-up-the-lab/" rel="nofollow">https://hshrzd.wordpress.com/2017/05/28/starting-with-windows-kernel-exploitation-part-1-setting-up-the-lab/</a></p>
+<div class="translated" id="285740">
+<p>"  学习 Windows 内核漏洞利用 第1部分 搭建实验环境：   <a href="https://t.co/DZJ51jOmle" rel="nofollow">https://t.co/DZJ51jOmle</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  x0rz @x0rz </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Windows MsMpEng remotely exploitable UaF due to design issue in GC engine (CVE-2017-8540) <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1258" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1258</a> #vulnerability #windows</p>
+<div class="translated" id="285791">
+<p>" GC 引擎的设计问题导致的 Windows MsMpEng 的远程 UAF（CVE-2017-8540）：   <a href="https://t.co/EWM739NZZA" rel="nofollow">https://t.co/EWM739NZZA</a>  "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via nccgroup</p> -->
+<p>XuanwuSpider via nccgroup</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Defend </i>]  来自内部员工的威胁以及如何防御，来自 NCC Group 的 Paper：  
+<a href="https://www.nccgroup.trust/uk/our-research/understanding-the-insider-threat-and-how-to-mitigate-it/" rel="nofollow">https://www.nccgroup.trust/uk/our-research/understanding-the-insider-threat-and-how-to-mitigate-it/</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via www.dfir.training</p> -->
+<p>XuanwuSpider via www.dfir.training</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Forensics </i>]  DFIR 网站收集的安全工具列表，以取证为主，也有一些其他方向的工具：   
+<a href="http://www.dfir.training/index.php/tools/malware-analysis/371-cuckoo-sandbox" rel="nofollow">http://www.dfir.training/index.php/tools/malware-analysis/371-cuckoo-sandbox</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via 看雪论坛</p> -->
+<p>XuanwuSpider via 看雪论坛</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> macOS </i>]  macOS 10.12.2本地提权和XNU port 堆风水： 
+<a href="https://mp.weixin.qq.com/s/BtRoG4b4sNauaia-8jmL2g" rel="nofollow">https://mp.weixin.qq.com/s/BtRoG4b4sNauaia-8jmL2g</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via  Innovera 公开的一份关于移动安全渗透测试的研究报告，介绍了移动安全渗透测试时常用的工具、并有结合 DIVA(Damn Insecure and Vulnerable App) 实验环境的实践：
+https://www.exploit-db.com/docs/42080.pdf
+www.exploit-db.com</p> -->
+<p>XuanwuSpider via  Innovera 公开的一份关于移动安全渗透测试的研究报告，介绍了移动安全渗透测试时常用的工具、并有结合 DIVA(Damn Insecure and Vulnerable App) 实验环境的实践：
+https://www.exploit-db.com/docs/42080.pdf
+www.exploit-db.com</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Mobile </i>]   Innovera 公开的一份关于移动安全渗透测试的研究报告，介绍了移动安全渗透测试时常用的工具、并有结合 DIVA(Damn Insecure and Vulnerable App) 实验环境的实践：  
+<a href="https://www.exploit-db.com/docs/42080.pdf" rel="nofollow">https://www.exploit-db.com/docs/42080.pdf</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via Github</p> -->
+<p>XuanwuSpider via Github</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Tools </i>]  SSL 中间人劫持小工具，C# 实现，采用子签名 CA 证书：  
+<a href="https://gist.github.com/subTee/61b8e7852e5ed8212cddd039285ea324" rel="nofollow">https://gist.github.com/subTee/61b8e7852e5ed8212cddd039285ea324</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via delxu.blog.51cto.com</p> -->
+<p>XuanwuSpider via delxu.blog.51cto.com</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Virtualization </i>]  图解VMware内存机制：  
+<a href="http://delxu.blog.51cto.com/975660/288682" rel="nofollow">http://delxu.blog.51cto.com/975660/288682</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via www.cnblogs.com</p> -->
+<p>XuanwuSpider via www.cnblogs.com</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Vulnerability </i>]  RuntimeBroker ClipboardBroker EoP 漏洞的分析(CVE-2017-0211)： 
+<a href="http://www.cnblogs.com/Danny-Wei/p/6869115.html" rel="nofollow">http://www.cnblogs.com/Danny-Wei/p/6869115.html</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via seclists.org</p> -->
+<p>XuanwuSpider via seclists.org</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Vulnerability </i>]  开源 RADIUS 认证服务器 FreeRADIUS Server 刚刚修复了一个远程可以利用的漏洞，该漏洞与 TLS Session Cache 有关：  
+  《CVE-2017-9148 FreeRADIUS TLS resumption authentication bypass》：
+<a href="https://t.co/wK5OCQzmko" rel="nofollow">https://t.co/wK5OCQzmko</a>
+<a href="http://seclists.org/oss-sec/2017/q2/342" rel="nofollow">http://seclists.org/oss-sec/2017/q2/342</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/30/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/31/index.html">2017/05/31</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/06/01/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

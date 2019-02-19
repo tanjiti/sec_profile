@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/01/24" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/01/24</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/01/23/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/01/24/index.html">2016/01/24</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/01/25/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Chris Rohlf @chrisrohlf</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  I wrote some more stuff on PartitionAlloc <a href="http://struct.github.io/partition_alloc.html" rel="nofollow">http://struct.github.io/partition_alloc.html</a> - Next is adding delayed frees. Not enough time in the day...</p>
+<div class="translated" id="89032">
+<p>﻿"PartitionAlloc 浅析 - PartitionAlloc 是 Chrome 浏览器的默认堆分配器，来自 Chris Rohlf Blog：   <a href="https://t.co/pcKdh9ARtn" rel="nofollow">https://t.co/pcKdh9ARtn</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  takeshix @_takeshix </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  My PoC for FreeBSD-SA-16:01.sctp/CVE-2016-1879 #ICMPv6 #SCTP DOS: <a href="https://gist.github.com/takeshixx/5bdd15e3d450c1e29b06" rel="nofollow">https://gist.github.com/takeshixx/5bdd15e3d450c1e29b06</a> <a href="https://www.freebsd.org/security/advisories/FreeBSD-SA-16:01.sctp.asc" rel="nofollow">https://www.freebsd.org/security/advisories/FreeBSD-SA-16:01.sctp.asc</a> #FreeBSD #IPv6</p>
+<div class="translated" id="89031">
+<p>﻿"FreeBSD SCTP ICMPv6 error message 处理漏洞 (CVE-2016-1879) PoC :   <a href="https://t.co/BP3nGRys3t" rel="nofollow">https://t.co/BP3nGRys3t</a>     <a href="https://t.co/qxrbCTqwqv" rel="nofollow">https://t.co/qxrbCTqwqv</a> 另外一篇来自 Positive Research Center 的 Blog 参考：   <a href="http://blog.ptsecurity.com/2016/01/severe-vulnerabilities-detected-in.html?m=1" rel="nofollow">http://blog.ptsecurity.com/2016/01/severe-vulnerabilities-detected-in.html?m=1</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mac OS X </i>]  Reversing Apple’s syslogd bug : <a href="https://reverse.put.as/2016/01/22/reversing-apples-syslogd-bug/" rel="nofollow">https://reverse.put.as/2016/01/22/reversing-apples-syslogd-bug/</a> cc: @ osxreverser</p>
+<div class="translated" id="89082">
+<p>﻿"Apple syslogd Bug 逆向，来自 osxreverser Blog:   <a href="https://t.co/WmYTTP7vLF" rel="nofollow">https://t.co/WmYTTP7vLF</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  yan @bcrypt </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  pretty happy that @ brave on iOS will be the first iOS browser to implement @ HTTPSEverywhere. <a href="https://github.com/brave/browser-ios/commit/bf6e064d4d52782a8d4f144f59f0184b503d6e58" rel="nofollow">https://github.com/brave/browser-ios/commit/bf6e064d4d52782a8d4f144f59f0184b503d6e58</a></p>
+<div class="translated" id="89026">
+<p>﻿"Browser-iOS - 开源 iOS 浏览器，项目地址：   <a href="https://github.com/brave/browser-ios" rel="nofollow">https://github.com/brave/browser-ios</a> ，现在支持 HTTPS Everywhere 了，官方网站：   <a href="https://www.brave.com/" rel="nofollow">https://www.brave.com/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Nadim Kobeissi @kaepora </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> SecurityProduct </i>]  The SSH backdoor found in Fortinet's FortiOS now being discovered in other products: <a href="http://arstechnica.com/security/2016/01/secret-ssh-backdoor-in-fortinet-hardware-found-in-more-products/" rel="nofollow">http://arstechnica.com/security/2016/01/secret-ssh-backdoor-in-fortinet-hardware-found-in-more-products/</a></p>
+<div class="translated" id="89160">
+<p>﻿"FortiOS SSH 后门事件后，Fortinet 调查发现在其他产品中也存在该后门:   <a href="https://t.co/lWySoKsnh5" rel="nofollow">https://t.co/lWySoKsnh5</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Web Security </i>]  Covert Timing Channels based on HTTP Cache Headers : <a href="http://www.slideshare.net/dnkolegov/wh102014" rel="nofollow">http://www.slideshare.net/dnkolegov/wh102014</a> (Slides*)</p>
+<div class="translated" id="89085">
+<p>﻿"基于 HTTP Cache Headers 的隐蔽时间信道:   <a href="https://t.co/9Ce7TjrdDA" rel="nofollow">https://t.co/9Ce7TjrdDA</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Evilcry_ @Blackmond_ </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  tracking down a hang from user mode to kernel and finding a NIC driver bug - <a href="http://blogs.msdn.com/b/ntdebugging/archive/2016/01/22/virtual-machine-managment-hangs-on-windows-server-2012-r2-hyper-v-host.aspx" rel="nofollow">http://blogs.msdn.com/b/ntdebugging/archive/2016/01/22/virtual-machine-managment-hangs-on-windows-server-2012-r2-hyper-v-host.aspx</a></p>
+<div class="translated" id="89117">
+<p>﻿"虚拟机管理程序挂起 Bug 的调试分析 -   <a href="https://t.co/ROM8RyRFw9" rel="nofollow">https://t.co/ROM8RyRFw9</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Jason Fossen @JasonFossen </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  New #Windows10 security baseline guidance from #Microsoft, including GPOs and ADMX templates: <a href="http://blogs.technet.com/b/secguide/archive/2016/01/22/security-baseline-for-windows-10-v1511-quot-threshold-2-quot-final.aspx" rel="nofollow">http://blogs.technet.com/b/secguide/archive/2016/01/22/security-baseline-for-windows-10-v1511-quot-threshold-2-quot-final.aspx</a></p>
+<div class="translated" id="89216">
+<p>﻿"Windows10 Security Baseline Final 版:   <a href="https://t.co/0NhoI5F4iq" rel="nofollow">https://t.co/0NhoI5F4iq</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Casey Smith @subTee</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Execute a .NET Assembly from the Windows Event Log. 
+[Blog Post]
+You Can Run And You Can Hide
+<a href="http://subt0x10.blogspot.com/2016/01/you-can-run-and-you-can-hide.html" rel="nofollow">http://subt0x10.blogspot.com/2016/01/you-can-run-and-you-can-hide.html</a>
+Feedback Welcome.</p>
+<div class="translated" id="89048">
+<p>﻿"安全软件对写入磁盘的文件的检查越来越严格，对于恶意软件来说，还能把文件存在哪呢？ Windows Event Log。这篇 Blog 介绍如何从 Windows Event Log 执行 .NET Assembly，另外还有原型代码，来自 subTee Blog：    <a href="https://t.co/xxqXLiwHLX%E3%80%82" rel="nofollow">https://t.co/xxqXLiwHLX。</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/01/23/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/01/24/index.html">2016/01/24</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/01/25/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

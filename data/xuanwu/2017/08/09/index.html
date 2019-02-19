@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/08/09" name="description">
+<meta content="index, follow" name="robots"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/08/09</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    border-top: 1px solid #f0f0f0;
+    color: black;
+    margin-bottom: 30px;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+
+
+.singleweibotext a{
+    text-decoration: none;
+    /*color: #37485b;*/
+    color: #a7a7a7;
+}
+
+.singleweibotext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    color: black;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+
+.singleweiboimage{
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin-left: 25px;
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedheader{
+
+}
+
+.singlefeedlogo{
+    float: left;
+    /*width: 24px;*/
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.singlefeedlogo img{
+    float: left;
+    width: 13px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+
+    /*width: 80%;
+    height: 80%;*/
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+.singlefeedtext .category{
+    font-style: italic;
+    color: #a7a7a7;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/08/08/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/08/09/index.html">2017/08/09</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/08/10/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ APT ]</span>   Kaspersky 发布 2017 年第二季度 APT 趋势报告：  <a href="https://securelist.com/apt-trends-report-q2-2017/79332/%C2%A0" rel="nofollow">https://securelist.com/apt-trends-report-q2-2017/79332/ </a> </p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  Tor 浏览器 7.0.4 发布：  <a href="https://t.co/XQzHtLbXLx" rel="nofollow">https://t.co/XQzHtLbXLx</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Data Breach ]</span>  德克萨斯州的 Power Quality 工程公司泄露了 Dell、SBC、Freescale、Oracle 的敏感电力基础设施数据：   <a href="https://threatpost.com/engineering-firm-leaks-sensitive-data-on-dell-sbc-and-oracle/127290/" rel="nofollow">https://threatpost.com/engineering-firm-leaks-sensitive-data-on-dell-sbc-and-oracle/127290/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Industry News ]</span>  微软表示从 9 月份开始将不再信任 WoSign 的 StartCom 证书：   <a href="https://blogs.technet.microsoft.com/mmpc/2017/08/08/microsoft-to-remove-wosign-and-startcom-certificates-in-windows-10/" rel="nofollow">https://blogs.technet.microsoft.com/mmpc/2017/08/08/microsoft-to-remove-wosign-and-startcom-certificates-in-windows-10/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Linux ]</span>  利用 Trace Compass 开源工具在 Linux 系统可视化分析 CoreCLR 的事件日志：   <a href="http://tooslowexception.com/analyzing-runtime-coreclr-events-from-linux-trace-compass/?utm_content=buffer8479d&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer" rel="nofollow">http://tooslowexception.com/analyzing-runtime-coreclr-events-from-linux-trace-compass/?utm_content=buffer8479d&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ MachineLearning ]</span>  信息安全方向的人工智能技术介绍：   <a href="http://defense.ballastsecurity.net/static/IntroductionToArtificialIntelligenceForSecurityProfessionals_Cylance.pdf" rel="nofollow">http://defense.ballastsecurity.net/static/IntroductionToArtificialIntelligenceForSecurityProfessionals_Cylance.pdf</a> </p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Malware ]</span>  Android 银行木马软件也开始滥用 Android 的 Accessibility 服务攻击用户：   <a href="http://b0n1.blogspot.com/2017/08/android-banking-trojan-misuses.html" rel="nofollow">http://b0n1.blogspot.com/2017/08/android-banking-trojan-misuses.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  Fortinet 对新的 GlobeImposter 勒索软件变种的分析：   <a href="https://blog.fortinet.com/2017/08/05/analysis-of-new-globeimposter-ransomware-variant?elq_source=socialmedia&amp;utm_source=TWITTER&amp;utm_id=70186&amp;linkId=40692175" rel="nofollow">https://blog.fortinet.com/2017/08/05/analysis-of-new-globeimposter-ransomware-variant?elq_source=socialmedia&amp;utm_source=TWITTER&amp;utm_id=70186&amp;linkId=40692175</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  MSRC 发 Blog 公布了 2017 TOP 100 的安全研究员名单：  <a href="https://blogs.technet.microsoft.com/msrc/2017/08/07/the-msrc-2017-list-of-top-100-security-researchers" rel="nofollow">https://blogs.technet.microsoft.com/msrc/2017/08/07/the-msrc-2017-list-of-top-100-security-researchers</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>   内存操作指令: load 与 store：  <a href="https://azeria-labs.com/memory-instructions-load-and-store-part-4/" rel="nofollow">https://azeria-labs.com/memory-instructions-load-and-store-part-4/</a> </p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/tweet_video_thumb/DGsomwfXsAEt3_I.jpg" target="_blank">
+<img src="http://pbs.twimg.com/tweet_video_thumb/DGsomwfXsAEt3_I.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Popular Software ]</span>  Adobe Flash 也发布了本月的漏洞公告，共修复了两个漏洞，其中一个为高危：   <a href="https://threatpost.com/flash-player-marches-toward-end-patches-two-code-execution-bugs-in-latest-update/127288/" rel="nofollow">https://threatpost.com/flash-player-marches-toward-end-patches-two-code-execution-bugs-in-latest-update/127288/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Popular Software ]</span>  追寻恶意 NPM 包：  <a href="https://duo.com/blog/hunting-malicious-npm-packages" rel="nofollow">https://duo.com/blog/hunting-malicious-npm-packages</a> </p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ SecurityAdvisory ]</span>   Microsoft 发布 8 月漏洞公告：   <a href="https://portal.msrc.microsoft.com/en-us/security-guidance" rel="nofollow">https://portal.msrc.microsoft.com/en-us/security-guidance</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ SecurityAdvisory ]</span>  Google 发布 Android 8 月漏洞公告：   <a href="https://source.android.com/security/bulletin/2017-08-01" rel="nofollow">https://source.android.com/security/bulletin/2017-08-01</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  check_all_apks - 检测已知的安卓恶意应用的脚本：   <a href="https://github.com/kudelskisecurity/check_all_apks" rel="nofollow">https://github.com/kudelskisecurity/check_all_apks</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  如何在 QEMU/KVM 虚拟机环境中安装 OS X El Capitan 和 macOS Sierra：   <a href="https://github.com/kholia/OSX-KVM" rel="nofollow">https://github.com/kholia/OSX-KVM</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  uEmu - 基于 Unicorn 实现的 IDA CPU 模拟器插件，之前还推送过一个类似的 idaemu：  <a href="https://github.com/alexhude/uEmu" rel="nofollow">https://github.com/alexhude/uEmu</a> <a href="https://github.com/36hours/idaemu" rel="nofollow">https://github.com/36hours/idaemu</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  Swizzler2 - 协助分析 MDM / EMS iOS 应用程序的工具：   <a href="https://github.com/vtky/Swizzler2" rel="nofollow">https://github.com/vtky/Swizzler2</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>   趋势科技安全研究员发现 F2FS 文件系统存在漏洞可导致 Android 及 Linux 上的内存损坏，甚至是内核态的代码执行（CVE-2017-10663, CVE-2017-10662, CVE-2017-0750）：   <a href="http://blog.trendmicro.com/trendlabs-security-intelligence/vulnerability-f2fs-file-system-leads-memory-corruption-android-linux/" rel="nofollow">http://blog.trendmicro.com/trendlabs-security-intelligence/vulnerability-f2fs-file-system-leads-memory-corruption-android-linux/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  Windows 今天发布的补丁修复了 Windows Search 相关 RCE 严重漏洞(CVE-2017-8620)：   <a href="https://threatpost.com/microsoft-patches-critical-windows-search-vulnerability/127303/" rel="nofollow">https://threatpost.com/microsoft-patches-critical-windows-search-vulnerability/127303/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  来自 Project Zero 的 Windows 漏洞利用技巧系列文章，如何将任意目录创建漏洞转化成任意文件读：   <a href="https://googleprojectzero.blogspot.com/2017/08/windows-exploitation-tricks-arbitrary.html" rel="nofollow">https://googleprojectzero.blogspot.com/2017/08/windows-exploitation-tricks-arbitrary.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  ZDI 对本月 Microsoft 漏洞公告的梳理：   <a href="https://www.zerodayinitiative.com/blog/2017/8/8/the-august-2017-security-update-review" rel="nofollow">https://www.zerodayinitiative.com/blog/2017/8/8/the-august-2017-security-update-review</a> Talos 对本月 Microsoft 漏洞公告的整理：   <a href="http://blog.talosintelligence.com/2017/08/ms-tuesday.html" rel="nofollow">http://blog.talosintelligence.com/2017/08/ms-tuesday.html</a></p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Android ]</span>  Android 7.0 之后分区加密、Bootloaders 被锁，导出数据不容易了。这篇 Blog 以取证的目的，介绍如何从 Android 7.0 的三星 Galaxy S7 中导出数据： 
+<a href="https://articles.forensicfocus.com/2017/08/08/physical-imaging-of-a-samsung-galaxy-s7-smartphone-running-android-7-0/" rel="nofollow">https://articles.forensicfocus.com/2017/08/08/physical-imaging-of-a-samsung-galaxy-s7-smartphone-running-android-7-0/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Firmware ]</span>  你信用卡上脱落的 EMV 芯片有什么安全隐患，攻击者可以拿它干什么： 
+<a href="https://www.trustwave.com/Resources/SpiderLabs-Blog/Chip-Off-the-Old-EMV/" rel="nofollow">https://www.trustwave.com/Resources/SpiderLabs-Blog/Chip-Off-the-Old-EMV/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Industry News ]</span>  GitHub 的代码库中有用户直接将密码放到了自己的代码库中： 
+<a href="http://www.freebuf.com/column/143633.html" rel="nofollow">http://www.freebuf.com/column/143633.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Linux ]</span>  对 Linux Kernel Double-free 类型漏洞的较通用利用方法，来自 Hardened GNU/Linux： 
+<a href="https://hardenedlinux.github.io/system-security/2017/08/08/exploit_linux_kernel_double-free_flaws.html" rel="nofollow">https://hardenedlinux.github.io/system-security/2017/08/08/exploit_linux_kernel_double-free_flaws.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Mobile ]</span>  4G 网络基础设施存在的漏洞威胁，来自 Positive Blog： 
+<a href="http://blog.ptsecurity.com/2017/08/4g-networks-infrastructure-still.html" rel="nofollow">http://blog.ptsecurity.com/2017/08/4g-networks-infrastructure-still.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Mobile ]</span>  高通加解密引擎提权漏洞解析: 
+<a href="http://paper.seebug.org/372/" rel="nofollow">http://paper.seebug.org/372/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Popular Software ]</span>  Talos 公开了一个 Adobe Reader DC Parser 的类型混淆 RCE 漏洞（CVE-2017-11263），漏洞发生在 AcroForm 的解析过程： 
+<a href="http://blog.talosintelligence.com/2017/08/adobe-reader-dc-parser.html" rel="nofollow">http://blog.talosintelligence.com/2017/08/adobe-reader-dc-parser.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Popular Software ]</span>  Metinfo5.3.17前台SQL注入漏洞分析: 
+<a href="http://paper.seebug.org/371/" rel="nofollow">http://paper.seebug.org/371/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ SecurityProduct ]</span>   F-Secure 反病毒软件在处理微软 TNEF 邮件附件格式时存在一个任意地址 Free 漏洞，该漏洞可以成功 RCE： 
+<a href="https://landave.io/2017/08/f-secure-anti-virus-arbitrary-free-vulnerability-via-tnef/" rel="nofollow">https://landave.io/2017/08/f-secure-anti-virus-arbitrary-free-vulnerability-via-tnef/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Tools ]</span>  osx-and-ios-security-awesome : <a href="https://github.com/ashishb/osx-and-ios-security-awesome" rel="nofollow">https://github.com/ashishb/osx-and-ios-security-awesome</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Web Security ]</span>  看我如何从54G日志中溯源web应用攻击路径: 
+<a href="https://secvul.com/topics/715.html" rel="nofollow">https://secvul.com/topics/715.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+<img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">
+</img></div>
+<div class="singlefeedtext">
+<p><span class="category">[ Windows ]</span>  Windows环境下的信息收集: 
+<a href="https://mp.weixin.qq.com/s/37xtTdjVetMg5P1WaJvYvA" rel="nofollow">https://mp.weixin.qq.com/s/37xtTdjVetMg5P1WaJvYvA</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/08/08/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/08/09/index.html">2017/08/09</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/08/10/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

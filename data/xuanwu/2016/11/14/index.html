@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/11/14" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/11/14</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/11/13/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/11/14/index.html">2016/11/14</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/11/15/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Jóseph Mlodzìanowskì @cedoxX</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  The iOS Reverse Engineering Toolkit is toolkit designed to automate common tasks with iOS penetration testing.
+
+<a href="https://github.com/S3Jensen/iRET" rel="nofollow">https://github.com/S3Jensen/iRET</a></p>
+<div class="translated" id="207481">
+<p>﻿"IOS 逆向工具套件，可用来进行 IOS 渗透测试：   <a href="https://t.co/UVzv6YBsce" rel="nofollow">https://t.co/UVzv6YBsce</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Giuseppe `N3mes1s` @gN3mes1s</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  File signatures needed - Integrity Measurement Architecture - interesting slides on signature verification on Linux <a href="https://www.linuxplumbersconf.org/2016/ocw//system/presentations/3933/original/FileSignaturesNeeded.pdf" rel="nofollow">https://www.linuxplumbersconf.org/2016/ocw//system/presentations/3933/original/FileSignaturesNeeded.pdf</a></p>
+<div class="translated" id="207428">
+<p>﻿"File signatures needed， 关于 Linux 上的签名认证（slides）：   <a href="https://t.co/B04pSOIwTg" rel="nofollow">https://t.co/B04pSOIwTg</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Jóseph Mlodzìanowskì @cedoxX</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  A collection of awesome lists for hackers, pentesters &amp; security researchers
+
+<a href="https://github.com/Hack-with-Github/Awesome-Hacking" rel="nofollow">https://github.com/Hack-with-Github/Awesome-Hacking</a></p>
+<div class="translated" id="207482">
+<p>﻿"一个为安全研究人员收集的资源列表：   <a href="https://t.co/TNvUZ00pC4" rel="nofollow">https://t.co/TNvUZ00pC4</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Dougall @dougallj </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Exploiting @ Dolphin_Emu - Part 1: Writing a portable, reliable exploit for macOS. <a href="https://dougallj.wordpress.com/2016/11/13/exploiting-dolphin-part-1/" rel="nofollow">https://dougallj.wordpress.com/2016/11/13/exploiting-dolphin-part-1/</a></p>
+<div class="translated" id="207483">
+<p>﻿"攻击 macOS 上的 Dolphin：   <a href="https://t.co/gOJNjghJF8" rel="nofollow">https://t.co/gOJNjghJF8</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  ChrisJohnRiley ? @ChrisJohnRiley </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  #DeepSec Nice comparison of ROP tools (src: <a href="https://nebelwelt.net/publications/files/16STM.pdf" rel="nofollow">https://nebelwelt.net/publications/files/16STM.pdf</a>) <a href="https://t.co/kxaL77Wldj" rel="nofollow">https://t.co/kxaL77Wldj</a></p>
+<div class="translated" id="207545">
+<p>﻿"ROP 工具对比：   <a href="https://t.co/Pc2BLrUo9A" rel="nofollow">https://t.co/Pc2BLrUo9A</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/Cw5SRiAXEAA6t4c.jpg" target="_blank">
+<img src="Cw5SRiAXEAA6t4c.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  hanno @hanno </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Slides for @ BSidesVienna talk about TLS <a href="https://www.int21.de/slides/bsidesvienna-2016-tls/" rel="nofollow">https://www.int21.de/slides/bsidesvienna-2016-tls/</a></p>
+<div class="translated" id="207348">
+<p>﻿"The law of broken TLS implementations（slides）：   <a href="https://t.co/AF5yqGe9X6" rel="nofollow">https://t.co/AF5yqGe9X6</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>John Lambert @JohnLaTwC</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Python script to [recursively] decode common encoded #PowerShell scripts (gzip, deflate, <a href="http://B64)https://gist.github.com/anonymous/f0b9a85e25ea097f810b4d79e9e005a5" rel="nofollow">B64)https://gist.github.com/anonymous/f0b9a85e25ea097f810b4d79e9e005a5</a> <a href="https://t.co/Uy6hIXooxz" rel="nofollow">https://t.co/Uy6hIXooxz</a></p>
+<div class="translated" id="207477">
+<p>﻿"PowerShell decoder -- 可用来解码常见的 PowerShell 编码脚本：   <a href="https://t.co/1fAGw31a0s" rel="nofollow">https://t.co/1fAGw31a0s</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/tweet_video_thumb/CxJko6UVIAAZx3e.jpg" target="_blank">
+<img src="CxJko6UVIAAZx3e.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>John Lambert @JohnLaTwC</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  @ mattifestation @ Carlos_Perez @ FixTheExchange @ Lee_Holmes It uses @ invisig0th's vivisect disassembler <a href="https://github.com/vivisect/vivisect" rel="nofollow">https://github.com/vivisect/vivisect</a></p>
+<div class="translated" id="207488">
+<p>﻿"vivisect -- PE/Elf/Mach-O/Blob 二进制文件分析框架：   <a href="https://t.co/mI4t9NtLyK" rel="nofollow">https://t.co/mI4t9NtLyK</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  alexander knorr @opexxx </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  EMET Mitigation test kit <a href="https://github.com/0xbadfca11/mitigation_test" rel="nofollow">https://github.com/0xbadfca11/mitigation_test</a>
+
+— Security Art Work (Securityartwork) November 13, 2016</p>
+<div class="translated" id="207564">
+<p>﻿"EMET 缓解测试套件：   <a href="https://t.co/eIHSPcMJa4" rel="nofollow">https://t.co/eIHSPcMJa4</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  Facebook Private Phone Number Enumeration <a href="https://averagesecurityguy.github.io/2016/09/07/facebook-private-phone-enumeration/" rel="nofollow">https://averagesecurityguy.github.io/2016/09/07/facebook-private-phone-enumeration/</a></p>
+<div class="translated" id="207404">
+<p>﻿"Facebook 私人电话号码枚举：   <a href="https://t.co/FIntLMJ4fdpocGitHub" rel="nofollow">https://t.co/FIntLMJ4fdpocGitHub</a>:   <a href="https://github.com/averagesecurityguy/pocs/blob/master/fb_phone_enum.py" rel="nofollow">https://github.com/averagesecurityguy/pocs/blob/master/fb_phone_enum.py</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  CODE BLUE JP 2016 - DeathNote of Microsoft Windows Kernel <a href="http://www.slideshare.net/PeterHlavaty/deathnote-of-microsoft-windows-kernel" rel="nofollow">http://www.slideshare.net/PeterHlavaty/deathnote-of-microsoft-windows-kernel</a></p>
+<div class="translated" id="207529">
+<p>﻿"DeathNote of Microsoft Windows Kernel，来 Code Blue JP 2016 腾讯科恩实验室 Peter Hlavaty：   <a href="https://t.co/8Zjjn4mUMJ" rel="nofollow">https://t.co/8Zjjn4mUMJ</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Alejandro Ramos @aramosf </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> WirelessSecurity </i>]  WiFi-Pumpkin, Framework for Rogue Wi-Fi Access Point Attack: <a href="https://github.com/P0cL4bs/WiFi-Pumpkin" rel="nofollow">https://github.com/P0cL4bs/WiFi-Pumpkin</a></p>
+<div class="translated" id="207420">
+<p>﻿"WiFi-Pumpkin --  一个 wifi 攻击框架︰   <a href="https://t.co/6FQbIUNyD7" rel="nofollow">https://t.co/6FQbIUNyD7</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/11/13/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/11/14/index.html">2016/11/14</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/11/15/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

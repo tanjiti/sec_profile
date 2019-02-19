@@ -1,0 +1,1688 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+
+
+        <script nonce="581111034" type="text/javascript">
+            window.logs = {
+                pagetime: {}
+            };
+            window.logs.pagetime['html_begin'] = (+new Date());
+        </script>
+        <title>
+ 干货 | 那些你不知道的爬虫反爬虫套路
+</title>
+        
+<style>.radius_avatar{display:inline-block;background-color:#fff;padding:3px;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;overflow:hidden;vertical-align:middle}.radius_avatar img{display:block;width:100%;height:100%;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;background-color:#eee}.rich_media_inner{word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.rich_media_area_primary{padding:20px 16px 12px;background-color:#fafafa}.rich_media_area_primary.voice{padding-top:66px}.rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{color:rgba(0,0,0,0.3);background-color:#fafafa}.rich_media_area_extra{padding:0 16px 24px}.rich_media_extra{padding-top:30px}.mpda_bottom_container .rich_media_extra{padding-top:24px}.mpda_bottom_container .rich_media_extra .mpad_more_list{right:-10px}html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;line-height:1.6}body{-webkit-touch-callout:none;font-family:-apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif;color:#333;background-color:#f2f2f2;letter-spacing:.034em}h1,h2,h3,h4,h5,h6{font-weight:400;font-size:16px}*{margin:0;padding:0}a{color:#576b95;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_title{font-size:22px;line-height:1.4;margin-bottom:14px}@supports(-webkit-overflow-scrolling:touch){.rich_media_title{font-weight:700}}.rich_media_meta_list{margin-bottom:22px;line-height:20px;font-size:0;word-wrap:break-word;word-break:break-all}.rich_media_meta_list em{font-style:normal}.rich_media_meta{display:inline-block;vertical-align:middle;margin:0 10px 10px 0;font-size:15px;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_meta.icon_appmsg_tag{margin-right:4px}.rich_media_meta.meta_tag_text{margin-right:0}.rich_media_meta_primary{display:block;margin-bottom:10px;font-size:15px}.meta_original_tag{padding:0 .5em;font-size:12px;line-height:1.4;background-color:#f2f2f2;color:#888}.meta_enterprise_tag img{width:30px;height:30px!important;display:block;position:relative;margin-top:-3px;border:0}.rich_media_meta_link{color:#576b95}.rich_media_meta_text{color:rgba(0,0,0,0.3)}.rich_media_meta_text.rich_media_meta_split{padding-left:10px}.rich_media_meta_text.rich_media_meta_split:before{position:absolute;top:50%;left:0;margin-top:-6px;content:' ';display:block;border-left:1px solid #888;width:200%;height:130%;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0}.rich_media_meta_text.article_modify_tag{position:relative}.rich_media_meta_nickname{position:relative}.rich_media_thumb_wrp{margin-bottom:6px}.rich_media_thumb_wrp .original_img_wrp{display:block}.rich_media_thumb{display:block;width:100%}.rich_media_content{overflow:hidden;color:#333;font-size:17px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;text-align:justify;position:relative;z-index:0}.rich_media_content *{max-width:100%!important;box-sizing:border-box!important;-webkit-box-sizing:border-box!important;word-wrap:break-word!important}.rich_media_content p{clear:both;min-height:1em}.rich_media_content em{font-style:italic}.rich_media_content fieldset{min-width:0}.rich_media_content .list-paddingleft-2{padding-left:2.2em}.rich_media_content .list-paddingleft-2 .list-paddingleft-2{padding-left:30px}.rich_media_content blockquote{margin:0;padding-left:10px;border-left:3px solid #dbdbdb}img{height:auto!important}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:portrait){.rich_media_area_extra{padding-bottom:34px}}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:landscape){.rich_media_area_primary{padding:20px 60px 15px 60px}.rich_media_area_extra{padding:0 60px 21px 60px}}@media screen and (min-width:1024px){.rich_media_area_primary_inner,.rich_media_area_extra_inner{max-width:677px;margin-left:auto;margin-right:auto}.rich_media_area_primary{padding-top:32px}}.appmsg_share_notice{font-size:16px;color:#888;position:relative;padding:1.25em 0;margin-bottom:1.75em}.appmsg_share_notice:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice_hd{font-weight:700;padding-bottom:.2em}.cell{padding:.8em 0;display:block;position:relative}.cell_hd,.cell_bd,.cell_ft{display:table-cell;vertical-align:middle;word-wrap:break-word;word-break:break-all;white-space:nowrap}.cell_primary{width:2000px;white-space:normal}.flex_cell{padding:10px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.flex_cell_primary{width:100%;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;box-flex:1;flex:1}.original_tool_area{display:block;padding:.75em 1em 0;-webkit-tap-highlight-color:rgba(0,0,0,0);color:#333;border:1px solid #eaeaea;margin:20px 0}.original_tool_area .tips_global{position:relative;padding-bottom:.5em;font-size:15px}.original_tool_area .tips_global:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dbdbdb;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:27px;height:27px;padding:0;margin-right:.5em}.original_tool_area .radius_avatar img{height:100%!important}.original_tool_area .flex_cell_bd{width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal}.original_tool_area .flex_cell_ft{font-size:14px;color:#888;padding-left:1em;white-space:nowrap}.original_tool_area .icon_access:after{content:" ";display:inline-block;height:8px;width:8px;border-width:1px 1px 0 0;border-color:#cbcad0;border-style:solid;transform:matrix(0.71,0.71,-0.71,0.71,0,0);-ms-transform:matrix(0.71,0.71,-0.71,0.71,0,0);-webkit-transform:matrix(0.71,0.71,-0.71,0.71,0,0);position:relative;top:-2px;top:-1px}.rich_media_global_msg{position:fixed;top:0;left:0;right:0;padding:.85em 35px .85em 15px;z-index:2;background-color:#c6e0f8;color:#888;font-size:12px}.rich_media_global_msg .icon_closed{position:absolute;right:15px;top:50%;margin-top:-5px;line-height:300px;overflow:hidden;-webkit-tap-highlight-color:rgba(0,0,0,0);background:transparent url(//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_appmsg_msg_closed_sprite.2x42f400.png) no-repeat 0 0;width:11px;height:11px;vertical-align:middle;display:inline-block;-webkit-background-size:100% auto;background-size:100% auto}.rich_media_global_msg .icon_closed:active{background-position:0 -17px}.rich_media_global_msg.voice{color:#1aad19;background-color:#e8f6e8;padding-left:43.3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.rich_media_global_msg.voice .ic_voice{position:absolute;top:50%;margin-top:-10px;left:15px;display:inline-block;width:13.3px;height:18.3px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAA3CAYAAAB+fggjAAAAAXNSR0IArs4c6QAACb9JREFUaAW9WX9wVMUd3917d5cf/Agp1OTuQgIlQqUoI1JI1Noojg2I+VU7hVrtDDpadRypgzKjU52x09KOdsS20ypSO/WPWttcAqhTOlSoU4FIoRUn0wEZIMndBUkwGEhyv97bfvaS97L77t3lHYUuc+z3935397vf/e4LJZfQnuPPsW0d25ZQzr9mELKSUnIVzHxB/Dh+lBOKf4OEk0FOyQAl/CyltIt5tL29d/V2FzIkLUQ4FA7dwon+KCF0Fee8rBBdS5aSs/D+PUrYbyKtkb9b9BzAlA7CERrqDN1DOH8C8HU57FwSGat6kBGypbcluhMwFj+75XWwemf1vHQqtZ0T3pCtelkp73uJ79s9bT39dqs5HQyFK79jcPIKFErtSgLHjPvQHQB0EFt2hDE2QHU6RMvpkODrw3o50Uk5p3w2N/SlUKhHTNZjskHBz2pi6ylbH22J/k3mOToYCAceIYT/AgYVPhxJQTkMQ792Ez/yQCY8d0fgRl0nj8J2G5z1mvSJ3qCMrYOTb5l0xQFBDIUDjxmcbzUFJnu621/kf/DUmlM9k7RLh4LtwRChxquck0bFCqWjxENuijXF/iXoioNVnZU36wZ5D7PTTCWsWhyp4uFYa+x1k3Y5ezj6oNgtdTVpL0Lo+mhr9BwO0Xib+/bcWYZB35Sdg/sXsOSNV8o5MXK0LfoKYXQDxpJOMZ8L1g8E33JQT6aeQRoJCOJEMxjxfCvSEtlnEq5Uj5h7Ayv2I8U+5w9du/va0oyD896ZV004RQKebIzQ53EQ/jJJubJQhUa2YBXPmqNgy8vPjZ67N+NgMh6/HwSfyURgniwqLvmJif8/+sNrY6O4XV5WxjKMuvHDQOl9uCksHmX0xydWn0hYBJfAgncXzBhNjjZSnX8Fq3ENdmWWUMUhS2Ebv5HrtjDNg/+B5IY4wos0cVukUskqUwj9xfKS2W9GSEwi5QdxFS5BMn54dGzkHkhOy0x18j9COY1O5VxmhGJylIxMjgUTC7WUkfrqJAkQpfuP3nFUElO4WUgwHHza0HU1wG1SGOi0jeSI+kf92hgZlXg0yajBV0gUwri4vqZud/O7PbhxkGiNvM5NWHKV3NN8LGQbuVdDsYIVzOzHOI+ygzYhR/RAxwdbELcPZDEp+Q+2YQcS2L+Zwc4gdSUQS7Oz5BwIKUqWyq5ApEdDsVmhBKaHnHDQVUg1uwKLkkm+USEScsbjId/ra+7fbaMThMHVdpoTjuyxXloqcUg+Eqe4WBb26/5hGXeCkynyfdA9Fo/SQeZlN/StjUQtmgQUFxVnKhyJlAUGOgP13OC3ygxGWZhhSYtkYqIicUHGnWCUluoFz8mzkRzOCf14Wfyikx2ThvQ0B6XZdvhi1QaoAfZHmiMf40xMJmih4BvxWQnbNCD3i/cunoYab4FMQwr5o4zb4Uh9ZMxOM3Fsf91YfPQfOAeLTJrouYc8K3rEII0ikBcKRLTEhUQNuo8E7NSGh4dnyDOFzIioOpxkZdqyXYGSAV2rMYjhIUamkL2ZcANvG+MWWS4DU/parDm2R8AiBj/Bz3IQe14DPKeDRho1hNyonFplhgp/mmaNhpH6s0VVToNFxR7TPcVFJVZdgMG4cNBq0LvRQhyA2vLaMyDrFouTL169KzBlGkEofdnScQYMXBI/raiuXC1fs4wz2iXLI+U0y7gd3tewL41IVhLvmM6X2eWycM7nZ9EEAXWgWDWPpjWg7tx8+IbD4llhNTadTn8XcWgVBphprbhbLQkngJK/ymTdoE/IuDPME5jYSYx1HLn3EH6/B77Rq/m+FG2L3d7X1Pe+kx5kCBJp4G0clDWmAJTD0db+NhO398GO4G3cMDJBbPIY9bShfgyb+OXqMwGPV9rrskFsc6t4fck0GRZPQ5GnZBpO4x/wvrAmKfP+FzjjYF9zn5i58s0ET8MX8hnGc+BxOGnFi8innBg7UUBsFaV6Pt1CeBMrKD73qG8CbPnKUHvg/lzG+tr6DlGWufJkEWQp/tjgyMBJPF+fWrhj4XSZeSlwJgaFIhyioY7gHvS3moYyK6TRO6JN0b0mzd6HOgIbEBK/gp7fzsOBGMLUX2Z+bWvvnb1T3sd2fYFbDgoET8/56UTqKEBrizDIeY1463tae1BGObeq9qrlBtXb4aRcmVvCmOjneFq+UFZW9lJ3Q3fee9lSmgAUBwUNd+N9CPjfTfDHO0pO+z1FK081nfpUoUuIuKPPD322Gav5OMjWBCURRBGN4GH0QCGvxSwHhcFguPLnGEip97AKXd5y39dPN5yOy4PaYXGrjKToRsTMIzg4M+38cZz+LNYWe8qZp1Izh0QlEVLfctMmzNb6gCP4GGxFcij5W7usHT++NjaI4uHpadr0KkbpZvAH7DKw9iRi98lsejbFcQWF2LJ/LvOe6Yl14m5eLavhU8gqkQdlWj5YnOSL+sXNWNFNmKT1NQsLkGAez3zcIHmfj44rKAYUd2Jxcek6HCP1cHD+Ig5DzonZnT3WdOyCWFGukRUIwkGTL069kdYz319MmlOf00EhjKpiWKPku7IiDF9X3RHMecvIsjIsPqdh1ewO3SXLOMF5HRQKvS39h5GNOmVlnZP1Mu4W9pZ5/4TDZh0ybHkt3iKOqcm0OaWDQpB52DZTQfQo+Vtl3C08kQGO2OStYtlGz6CuHJxZO3MPYnHYMsDJVSKpW3ghAOXKsxaPoup86q4c7F7cncSyHZANGen0Shl3C+PSPy/L4qmZ97525aAwiMLgQ8Uwp8tl3C2MASff00KJMRW3GXLtIFbwY1kXp/kaGXcL42AoDqHit6p5JxuuHfQwj1IvIhFO9QhyGk/QpskM/C3Gyo0y3YRdOzgnNOcTHJS0qYgVrBIfLE28gF75ToN3bySfrmsHM68tTo7JxuKJ+PUyPhWcqbQ5XarI+TRlZxQeENcOjitS5dMc5/oqu8F8+ODI4FrEoPVpBTfL8akK2YIc9DCiFAkoyTbUdNSU5XPK5Im/MQPeZOKZnpNdCu6AFOTgrJLZO2FDrogrUjyxPbQ/VOxgWyG9Fn71h6hoJkMC8exlvl8qQg6I66rE1A22Vz6PEuwZExe92CrQtmmU72U+fzQ9K/15XV1dsuudrhlc50t0XX8Izq1TdAh5I9rWf69Mc4ILdlCU9kNDn32ICvZS0wySAY2W+shSUdw6OSXTCtpioSgePZrPeydWTUncstF8MPRw1dFvunFO2CnYQaGEk3cSn8iWYyVeBGoImqtG6RHxQsQfEJVskE+34C22GxOfb8fiY40owtaAJ0qnciTxcvSlE7VfBPX3IQ8lb/U2R3dgBRGu7tt/AYJkZEGv/oaXAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.rich_media_global_msg.voice .icon_more{position:absolute;right:15px;top:50%;margin-top:-6.5px;width:8px;height:13px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAmCAYAAADeB1slAAAAAXNSR0IArs4c6QAAA49JREFUSA2tVk1IVFEUPveOmhQk1ibfvLFZSJtACqJIIpCIoB+imcFV2Z9ZUVnRomgRGFn2i6mFf5XVotCZMYmgIMhlq6BFENFiwjfPAosgFzXOvNu5o3fmeue98Y16F3PP+c453/fu/xCQmvZSWwwJaC0G6P8WND9IoTmbVFRycpqAdgBWkwRo94V960RsPn1aoPpN9RI6CR0WsDWcjAErtUiqTR/S18+HnNcSTv5zYrwDSatVMgLkH6aciwfj79WYW5+OT4xfsyPnBIgvwt872qBW45ZQzaMlJXCfMPJbDQgfRUoIhduVUW2TwArpaWyX+bnYU9JAAH44FaJIccqCW76Ib7NTjhOOvFPN/8q/IvE3cR+npFJgao9rkiSUXjD2GCNqzMnPbNPYjth3mqINlJAvTsk4kiJmWa3eQe8WpxwVzwjwgFFn/CorL29EkY9qovC5CFDrKq7JVoHl6zNTJCf53/lLk78SN/FcbJRx2cZCixC4ZATGXsu4as8YgQjGamN/q5atOotn4K3A1J4BUMbgsh7Wt6sx2bcV4AkjtSPJxkDjRQL0hVwg21zEglSzN+rdKeOybTtFcgK39ajWZDFWr+IZHxfGQ8mV0YA5nMGmDVcCPNcb8R5gYJ1UCWQfp6PFCI4NyZhrAV6EIiHGrPOAB0ImkW2c0la8u8ICc0wUCWrvC1dsw+3TnN6uanDaJ4zeiIfiA9wtWIAX8XspxeA6iuBlaN88hNzCNXk+JwFOuXJYW5tMQmc+EcqgzXGb2n9XFk1NstX5yKczl89JAF+6vRaBM1m5XAu//qkRGrtb8BThTtqH2/V0LmUWwbvsiREw8X0vcJHxxNbjNm3KUuVaMjmPFuWm2CPesHc/kp+yj06hFMhj/PIOOcfVFLk6xZT0G3vMTpmc27MusityZk/OBfKOwA05MPLIDJn3OJldcxTQotpBYOyEXVEWIw/NoInvuHOznSJfVDs0GzneNw9mI+eyOSPQI9phfCqPO38TFhHaFw/Eu/LliNiMESB5w6zkzD05F8mMYJr8mFC263Fa+vAadvXloj4toEcrjlgMjgrQrseHpBcfkm67WD6M6MN6lTWZeoZjyYxGLcB57MGnsEfF3fjU2G189QBpcUqmBLrnSs4504s8GjLxrwm5qYrg3dKFf6x6VbwQ3yOS/wz8+bS0ruwfELaBY2nyoNkn4gvW65GKRn4WForwP+dONHDaOHeZAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.preview_appmsg .rich_media_title{margin-top:2.3em}@media screen and (min-width:1024px){.rich_media_global_msg{position:relative;margin-bottom:32px}.preview_appmsg .rich_media_title.rich_media_title{margin-top:0}}.pages_reset{color:#333;line-height:1.6;font-size:16px;font-weight:400;font-style:normal;text-indent:0;letter-spacing:normal;text-align:left;text-decoration:none;white-space:normal}.weapp_element,.weapp_display_element,.mp-miniprogram{display:block;margin:1em 0}.share_audio_context{margin:16px 0}.weapp_text_link{font-size:17px}.weapp_text_link:before{content:'';display:inline-block;line-height:1;background-size:contain;background-repeat:no-repeat;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAB4RJREFUWAm1WUuMFGUQnn7szL5mdvbh7GwgEQUlS1weiagxxpigiUZeJgY1cMMDcDCGG8GLCWZvxHjh4BWUeDEsejBBEzWYKBBEiHAABBfCMOwsuzvszrvb+v6Zb7amt1ce0Up6qv6q+qq+/rv778dYkUeUqamp5dFodJPv++ts205blpX2PG8I5cTOiLol44zYZ8vl8vFkMnnlUVpZDwPK5/MpIbWrVqttFlLD0jwiBEHIaNbCGKJjQvai+I9Xq9VD8Xg8y9z76QcimM1mu3t6ej4UYh84jtOFxhBNJGxskhp5xIielZ37bHp6+tNUKnWPOYvp+xKcm5t7S4gclKIpFNGzsmjRkBnUOwNbZjQrtfZ2dnZ+vVgd+O1/CVqlUukjIXZYCqZADBuEJIllc4xh61zmaB9s7LDkHkYPwJgX1KEEx8fHO2TmjkjyPgLQmERIAjHajGnyjDGPOfQ3xvvQCz3ZS+sw5hYAsodbWBhNw4SNGCMBnR/MYS60jskhPyaHe7u4W5otmEGZ8v0gx2YsyDE0bc4Wx8glOe2Dn2No2hqPnuiNXC0tM9i4IA5LcksjNm0BNs417aMNAsRom3HoMD8wsu3QF06TIJaSRCJxXrDmamUBrVEYRejDmDY0JEgsLE4f8mkTj6tb1tsRLkEukiBY56Q4rizThI2okaNtjFlUx+Cr1vzIyTMz7uW/ik4mV7Yd24oMDrR5q1Z01Nav6a5yVsLwcvRS4CI1D5ge+MEdQhbgC1yECSQhjMNsYCGMQ2dzFeuLYxOxibuVBec3cpekY7XtWwZK8a75sMajj2yzcsd5BnccM4PCeg/JoQjJwAY4TFgUMeRjXK54kS/H6uR6e1xvw4vJyuNLYh5yrt8s2d//MtV2M1Nyvvo2F9u5LVUSJEJNPPtKrS7XdXdL6GOzG+LYqIJNUiShYyRDjRw2OXnmnntnsmInE663e3u6uHZVZy2ZsH1sa4Y7ant2DBURu3aj6Jz9c9YBVuNRhz6pvwlju1gsPikzaG78CKIxNgh1sAj91MhFztXrRQf2C+vi1Y721tMC/vZYPQb78rWCE8Tr/uCEJyZbrprNAAST4QOAIGj6qBnDGPjZgmeS0gNRc1jD8D1xx+y978/XJh4awl54nHOl8Do6STKoDarxg5gmxpj2yTEwbtZhDvSlKwUzy+lU1NPxFvz8EcSzpnnYXDCD3AtqFtOFGNM+kMBYx+DzPD/y86m8e+7SnBON2v7qlR01ncP6Gg9uriSlGSSAYyTDhl/7bmTK9tXxkj3ydFetL4lTqT5jyIdgTB/0qT9m3R9/zbvT+Yottfw3XuktJxP1Q61rh/QfcuUcHBKmzcIwdCILQE/crVpHj9+JZe7U17hSyau89lJPxYDVD3KJm5qpWWMnJqMIY+nZvKGv/NQT7ebwcicI5RhYiHBLYx30WQxObWNMyQm5Q0cy7ULK6up0/PUj3dWXn48bckEMGrGZkPJ3bhssunLmLR2qXzyIacxitvT2XZm9jABWMEmD6QPJYzILILdyeWf13Y39ZTSEMAeaQpuxZUujHn26fhCPmI6Dmy0OvIE1AyyqfYWiH7n6d9GJxWz/7df7FpBjLjQETag1Me1HPKxXwJfByXeLRViUYGiI3F/NSYr1raPdNoXh594S75nVT1Z/mUz6kAfhGJp2EI887gRy5Bw0M/g7ndQI0gZISJkpyU6WbTm7m8RYELnFkh+ZnK4/qCTiWF4XXtk6X5NkLjX7iz4rh9keAxBODaKNWKrf9Qd627yC3Cm++2m6DbHWYpHI2Im7UfFZqf6oN9DrmAsPWIquH8QjR8dRG2O88JszW56kTwvRYSayOYtD37xdsT8/ejtWq/nWsqXttdXDHdW+RNTHY9Vv5/IuTgPHtfxd7w0V04/V1ziND5IiCeTofsyTw3tRnqyfNY9b8qg1JkktXwo0EKAlg23eO2/2l7/5YaoNTyPYNIFEt6xxr/aVQQ75QTxJkEBYnDFocEKOqYQHVnn+uiCBLji1IBnCBiVZ+U6fv+dmshV7cqpq9fY4/tBg1HtudXe1zeyuRs9fHMRrEvQBQT9smb1Z+YphHljr3cWJF2gB7NOENAhAjrWGP9iIPuZhDOFYa/hD8KOxWOyAweAHEnxpqnvrvyyofbQZg4boZsEcjrUO4mX2Wl6a6jdhQeAtSoJ70YDNoIMFwmJoqImF5Wgf8jHGRhx0Y9vLNzrkNQligPdRuZpHgyDEKIixMPMQow82/dC04YdgzFwdg0+2Uf1OjPzmOYhBQ6xCoYCX9626WDOo9pqNqHUO7IfBy0XxYJ8+UHdiYuJ9AHQT2GGiycHmmLNDkmFY+JCPXrlcbqcMW28/iCNpEcHnt/3SwHzhQiEIG5JAGDYsN8yHGjil5Ir9BKVDa4U5ta/xveagNDCfRBhDQ5JczEaujhHb0FlclMFzLpDTepEEgxijAL6VSCNcPLPw6aa0oSEgTZsx+GFjwyIsenRmZmbkfuQMDj8PKrjjyCHZIw02im7eGokHAQhnFjZ8GAux/+8jOhoFhX9DCIG1EsPfD9jMC5j4/rO/If4BCiyOk7IAfLMAAAAASUVORK5CYII=');vertical-align:middle;font-size:11px;color:#888;margin-right:6px;margin-top:-3px;background-position:center;height:20px;width:20px}.flex_context{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center}.flex_bd{-webkit-box-flex:1;-webkit-flex:1;flex:1;word-wrap:break-word;word-break:break-all}.original_page{background-color:#fff;font-size:16px}.account_info{padding:0 0 20px}.account_info .flex_bd{padding-left:.85em}.radius_avatar.account_avatar{width:40px;height:40px;padding:0}.account_nickname{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;line-height:1.2;color:#576b95;font-size:14px}.account_nickname_inner{font-weight:400;vertical-align:top}.account_desc{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;color:#b2b2b2;font-size:13px;line-height:1.2;padding-top:.3em}.account_desc_inner{display:inline;vertical-align:top}.share_notice{margin-bottom:20px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.share_media{padding-bottom:18px}.original_panel{padding:20px;background-color:#fcfcfc;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;overflow:hidden;position:relative}.original_panel:after{content:" ";border:1px solid #d8d8d8;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;position:absolute;top:0;left:0;width:200%;height:200%;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}.original_panel .original_account{margin-bottom:18px;position:relative;z-index:1}.original_panel .original_account_avatar{width:28px;height:28px;padding:0}.original_panel .original_account_nickname{padding-left:.85em;font-size:15px;color:#576b95}.original_panel_title{font-size:23px;color:#000;margin:0 0 16px}.original_panel_content{color:#333}.original_panel_tool{padding-top:20px;position:relative;z-index:1}.original_cell_nickname{display:inline-block;vertical-align:middle;font-weight:400;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:8em;color:#000}.original_tool_area{padding:1.17em 0;border-width:0;position:relative}.original_tool_area:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:20px;height:20px;margin-right:.2em}.original_tool_area .flex_cell{padding:0;font-size:14px}.original_tool_area .icon_access:after{margin-right:4px;top:0}.preview_appmsg .rich_media_title{margin-top:1.5em}.preview_appmsg .account_info{padding-top:3em}.original_page{background-color:transparent}.account_info{-webkit-tap-highlight-color:rgba(0,0,0,0);outline:0;padding-bottom:20px;font-size:14px}.account_info.appmsg_account_info{padding-bottom:32px}.account_info .radius_avatar img{background-color:transparent}.share_notice{font-size:16px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.original_panel{background-color:#fafafa}.original_panel:after{border-color:#e6e6e6}.original_panel .original_account_avatar{width:30px;height:30px}.original_panel_tool{font-size:14px}.original_panel_tool a{color:#576b95}.original_panel_content{font-size:17px}.share_media{padding-bottom:30px}.icon_appmsg_tag{display:inline-block;vertical-align:middle;padding:0 .5em;font-size:12px;line-height:1.5;background-color:#c3c3c3;color:#fff;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:70%}.icon_appmsg_tag.primary{color:#3bb638;padding:4px .78em;background-color:rgba(9,187,7,0.08);font-size:12px;border-top-left-radius:.95em 50%;-moz-border-radius-topleft:.95em 50%;-webkit-border-top-left-radius:.95em 50%;border-top-right-radius:.95em 50%;-moz-border-radius-topright:.95em 50%;-webkit-border-top-right-radius:.95em 50%;border-bottom-left-radius:.95em 50%;-moz-border-radius-bottomleft:.95em 50%;-webkit-border-bottom-left-radius:.95em 50%;border-bottom-right-radius:.95em 50%;-moz-border-radius-bottomright:.95em 50%;-webkit-border-bottom-right-radius:.95em 50%}.icon_appmsg_tag.default{border:1px solid rgba(0,0,0,0.1);color:rgba(0,0,0,0.3);background-color:transparent;padding:0 .54em;font-size:15px;line-height:1.3;border-top-left-radius:.67em 50%;-moz-border-radius-topleft:.67em 50%;-webkit-border-top-left-radius:.67em 50%;border-top-right-radius:.67em 50%;-moz-border-radius-topright:.67em 50%;-webkit-border-top-right-radius:.67em 50%;border-bottom-left-radius:.67em 50%;-moz-border-radius-bottomleft:.67em 50%;-webkit-border-bottom-left-radius:.67em 50%;border-bottom-right-radius:.67em 50%;-moz-border-radius-bottomright:.67em 50%;-webkit-border-bottom-right-radius:.67em 50%}.rich_media_meta_list .icon_appmsg_tag.default{margin-top:-1px}.icon_appmsg_tag.title_tag{background-color:#d04b4e}.icon_global_tag_wrp{text-align:right;padding-bottom:12px}.icon_global_tag{background-color:rgba(118,118,118,0.16);color:rgba(0,0,0,0.41);line-height:2.2;border-top-left-radius:1em 50%;-moz-border-radius-topleft:1em 50%;-webkit-border-top-left-radius:1em 50%;border-bottom-left-radius:1em 50%;-moz-border-radius-bottomleft:1em 50%;-webkit-border-bottom-left-radius:1em 50%;padding:0 1.8em 0 1.34em;font-size:12px;margin-right:-24px;display:inline-block;vertical-align:top}.global_plain_btn{display:inline-block;vertical-align:middle;padding:0 1em;line-height:2;font-size:14px;-webkit-tap-highlight-color:rgba(0,0,0,0);border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px}.global_plain_btn.primary{color:#1aad19;border:1px solid currentColor}.global_plain_btn.primary:active{color:rgba(26,173,25,0.6)}.wx_video_context{color:#fefefe;position:relative;background-color:#000}.wx_video_thumb,.wx_video_thumb_primary{position:absolute;left:0;width:100%;height:100%!important;top:0}.wx_video_thumb_primary{-webkit-background-size:cover;background-size:cover;background-position:50% 50%;background-repeat:no-repeat}.wx_video_play_btn{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);margin-top:-2px;font-size:0;border-width:0;background-color:transparent;padding:0;outline:0;z-index:2}.wx_video_play_btn:before{content:" ";display:inline-block;width:0;height:0;border-width:14px 0 14px 25px;border-color:transparent transparent transparent #fff;border-style:dotted dotted dotted solid}.wx_video_mask{position:absolute;top:0;left:0;right:0;bottom:0;z-index:1;background-color:rgba(0,0,0,0.5)}.place_audio_area{min-height:100px;background-color:#fdfdfd;display:block;margin:16px 0}.place_music_area{min-height:68px;background-color:#fdfdfd;display:block;margin:17px 0 16px}.rich_media_empty_extra{background-color:#fafafa}.appmsg_skin_default.rich_media_empty_extra{background-color:#fff}.appmsg_skin_default .rich_media_area_primary{background-color:#fff}.appmsg_skin_default .rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{background-color:#fff}.appmsg_style_default .rich_media_tool{padding-top:15px}.rich_media_title_ios{font-weight:700}.read-more__area{margin:30px 0}.read-more__desc{margin-bottom:10px}.read-more__article__extra{font-size:14px;color:rgba(0,0,0,0.5)}.read-more__article__item{margin-bottom:10px}</style>
+<style>
+        </style>
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/pc435ee6.css">
+<![endif]-->
+
+    </head>
+    <body id="activity-detail" class="zh_CN mm_appmsg  appmsg_skin_default appmsg_style_default">
+        
+<script nonce="581111034" type="text/javascript">
+    var biz = "MjM5MDI3MjA5MQ=="||"";
+    var sn = "51426072d8ad4c4496795127e9c9f1ae" || ""|| "";
+    var mid = "2697266133" || ""|| "";
+    var idx = "1" || "" || "";
+    window.__allowLoadResFromMp = true; 
+    
+        
+</script>
+<script nonce="581111034" type="text/javascript">
+var page_begintime=+new Date,is_rumor="",norumor="";
+1*is_rumor&&!(1*norumor)&&biz&&mid&&(document.referrer&&-1!=document.referrer.indexOf("mp.weixin.qq.com/mp/rumor")||(location.href="http://mp.weixin.qq.com/mp/rumor?action=info&__biz="+biz+"&mid="+mid+"&idx="+idx+"&sn="+sn+"#wechat_redirect"));
+</script>
+<script nonce="581111034" type="text/javascript">
+var MutationObserver=window.WebKitMutationObserver||window.MutationObserver||window.MozMutationObserver,isDangerSrc=function(t){
+if(t){
+var e=t.match(/http(?:s)?:\/\/([^\/]+?)(\/|$)/);
+if(e&&!/qq\.com(\:8080)?$/.test(e[1])&&!/weishi\.com$/.test(e[1]))return!0;
+}
+return!1;
+},ishttp=0==location.href.indexOf("http://");
+-1==location.href.indexOf("safe=0")&&ishttp&&"function"==typeof MutationObserver&&"mp.weixin.qq.com"==location.host&&(window.__observer_data={
+count:0,
+exec_time:0,
+list:[]
+},window.__observer=new MutationObserver(function(t){
+window.__observer_data.count++;
+var e=new Date,r=[];
+t.forEach(function(t){
+for(var e=t.addedNodes,o=0;o<e.length;o++){
+var n=e[o];
+if("SCRIPT"===n.tagName){
+var i=n.src;
+isDangerSrc(i)&&(window.__observer_data.list.push(i),r.push(n)),!i&&window.__nonce_str&&n.getAttribute("nonce")!=window.__nonce_str&&(window.__observer_data.list.push("inlinescript_without_nonce"),
+r.push(n));
+}
+}
+});
+for(var o=0;o<r.length;o++){
+var n=r[o];
+n.parentNode&&n.parentNode.removeChild(n);
+}
+window.__observer_data.exec_time+=new Date-e;
+}),window.__observer.observe(document,{
+subtree:!0,
+childList:!0
+})),function(){
+if(-1==location.href.indexOf("safe=0")&&Math.random()<.01&&ishttp&&HTMLScriptElement.prototype.__lookupSetter__&&"undefined"!=typeof Object.defineProperty){
+window.__danger_src={
+xmlhttprequest:[],
+script_src:[],
+script_setAttribute:[]
+};
+var t="$"+Math.random();
+HTMLScriptElement.prototype.__old_method_script_src=HTMLScriptElement.prototype.__lookupSetter__("src"),
+HTMLScriptElement.prototype.__defineSetter__("src",function(t){
+t&&isDangerSrc(t)&&window.__danger_src.script_src.push(t),this.__old_method_script_src(t);
+});
+var e="element_setAttribute"+t;
+Object.defineProperty(Element.prototype,e,{
+value:Element.prototype.setAttribute,
+enumerable:!1
+}),Element.prototype.setAttribute=function(t,r){
+"SCRIPT"==this.tagName&&"src"==t&&isDangerSrc(r)&&window.__danger_src.script_setAttribute.push(r),
+this[e](t,r);
+};
+}
+}();
+</script>
+
+        <link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<script nonce="581111034" type="text/javascript">
+    String.prototype.html = function(encode) {
+        var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&yen;", "¥", "&amp;", "&"];
+        
+		
+		
+		
+		
+        
+        var replaceReverse = ["&", "&amp;", "¥", "&yen;", "<", "&lt;", ">", "&gt;", " ", "&nbsp;", '"', "&quot;", "'", "&#39;"];
+	    var target;
+	    if (encode) {
+	    	target = replaceReverse;
+	    } else {
+	    	target = replace;
+	    }
+        for (var i=0,str=this;i< target.length;i+= 2) {
+             str=str.replace(new RegExp(target[i],'g'),target[i+1]);
+        }
+        return str;
+    };
+
+    window.isInWeixinApp = function() {
+        return /MicroMessenger/.test(navigator.userAgent);
+    };
+
+    window.getQueryFromURL = function(url) {
+        url = url || 'http://qq.com/s?a=b#rd'; 
+        var tmp = url.split('?'),
+            query = (tmp[1] || "").split('#')[0].split('&'),
+            params = {};
+        for (var i=0; i<query.length; i++) {
+            var arg = query[i].split('=');
+            params[arg[0]] = arg[1];
+        }
+        if (params['pass_ticket']) {
+        	params['pass_ticket'] = encodeURIComponent(params['pass_ticket'].html(false).html(false).replace(/\s/g,"+"));
+        }
+        return params;
+    };
+
+    (function() {
+	    var params = getQueryFromURL(location.href);
+        window.uin = params['uin'] || "" || '';
+        window.key = params['key'] || "" || '';
+        window.wxtoken = params['wxtoken'] || '';
+        window.pass_ticket = params['pass_ticket'] || '';
+        window.appmsg_token = "";
+    })();
+
+    function wx_loaderror() {
+        if (location.pathname === '/bizmall/reward') {
+            new Image().src = '/mp/jsreport?key=96&content=reward_res_load_err&r=' + Math.random();
+        }
+    }
+
+</script>
+
+<script nonce="581111034" type="text/javascript">
+        window.__moon_report_uin = "0";
+            window.no_moon_ls = 0;
+    </script>
+
+        
+<script nonce="581111034" type="text/javascript">
+    var write_sceen_time = (+new Date()); 
+</script>
+
+<div id="js_article" class="rich_media">
+    
+    <div id="js_top_ad_area" class="top_banner"></div>
+    
+    <div class="rich_media_inner">
+
+        
+        
+        <div id="page-content" class="rich_media_area_primary">
+          <div class="rich_media_area_primary_inner">
+                                    
+                        
+
+            <div id="img-content">
+
+                
+                <h2 class="rich_media_title" id="activity-name">
+                    
+                    
+                    干货 | 那些你不知道的爬虫反爬虫套路
+
+                                                                                </h2>
+                <div id="meta_content" class="rich_media_meta_list">
+                                                                                <span class="rich_media_meta rich_media_meta_text">
+                                                崔广宇
+                                            </span>
+                                        
+                                        <span class="rich_media_meta rich_media_meta_nickname" id="profileBt">
+                      <a href="javascript:void(0);" id="js_name">
+                        携程技术中心                      </a>
+                      <div id="js_profile_qrcode" class="profile_container" style="display:none;">
+                          <div class="profile_inner">
+                              <strong class="profile_nickname">携程技术中心</strong>
+                              <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">微信号</label>
+                              <span class="profile_meta_value">ctriptech</span>
+                              </p>
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">功能介绍</label>
+                              <span class="profile_meta_value">携程技术中心官方平台</span>
+                              </p>
+                              
+                          </div>
+                          <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">
+                              <i class="profile_arrow arrow_out"></i>
+                              <i class="profile_arrow arrow_in"></i>
+                          </span>
+                      </div>
+                    </span>
+
+
+                    <em id="publish_time" class="rich_media_meta rich_media_meta_text"></em>
+
+
+
+
+
+                </div>
+                
+                
+                
+                
+                                                
+                                                                
+                                
+                
+                <div class="rich_media_content " id="js_content">
+                    
+
+                    
+
+                    
+                    
+                    <p style="line-height: 30px; text-indent: 0em; background: white;"><span style="font-size: 16px; color: rgb(0, 0, 0); font-family: 微软雅黑, sans-serif;"></span></p><section style="font-size: 16px; line-height: 23.2727279663086px; white-space: normal; max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section class="" powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section class="" style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section class="" style="padding-right: 1em; padding-left: 1em; max-width: 100%; box-sizing: border-box; display: inline-block; text-align: center; word-wrap: break-word !important;"><span class="" style="padding: 0.3em 0.5em; max-width: 100%; box-sizing: border-box; display: inline-block; border-radius: 0.5em; font-size: 14.08px; text-shadow: rgb(204, 204, 204) 4px 3px; color: rgb(32, 119, 218); word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; font-size: 16px; box-sizing: border-box !important; word-wrap: break-word !important;">作者简介</span></strong></section></span>&nbsp;</section><section class="" style="margin-top: -1em; padding: 20px 10px 10px; max-width: 100%; box-sizing: border-box; border: 1px solid rgb(192, 200, 209); text-align: center; word-wrap: break-word !important; background-color: rgb(239, 239, 239);"><section class="" powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section class="" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section class="" style="max-width: 100%; box-sizing: border-box; text-align: left; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><p style="max-width: 100%; min-height: 1em; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; font-family: 微软雅黑, sans-serif; font-size: 14px; line-height: 23.2727279663086px; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; line-height: 23.2727279663086px;">崔广宇，携程酒店研发部开发经理，与去哪儿艺龙的反爬虫同事是好基友。携程技术中心“非著名”段子手。</span></span></p></section></section></section></section></section></section></section></section><p style="line-height: 23.2727279663086px; white-space: normal;"><br  /></p><p style="line-height: 30px; text-indent: 0em; background: white;"><span style="font-size: 16px; color: rgb(0, 0, 0); font-family: 微软雅黑, sans-serif;"></span></p><section style="box-sizing: border-box; background-color: rgb(255, 255, 255);"><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style=" margin-top: 0.5em; margin-bottom: 0.5em;  box-sizing: border-box; "><section class="" style="display: inline-block; border-radius: 0.5em; padding: 0.3em 0.5em; color: rgb(255, 255, 255); box-shadow: rgb(165, 165, 165) 0.2em 0.2em 0.1em; box-sizing: border-box; background-color: rgb(32, 119, 218);"><p style="box-sizing: border-box;"><strong>前言</strong></p></section></section></section></section><p style="line-height: 30px; text-indent: 0em; background: white;"><br  /></p><p style="line-height: 30px; text-indent: 0em; background: white;"><span style="font-family: 微软雅黑, sans-serif; text-indent: 20px; line-height: 1.6; color: rgb(0, 0, 0);">爬虫与反爬虫，是一个很不阳光的行业。</span></p><p style="line-height: 30px; text-indent: 0em; background: white;"><span style="font-family: 微软雅黑, sans-serif; text-indent: 20px; line-height: 1.6; color: rgb(0, 0, 0);"><br  /></span></p><p style="line-height: 30px; text-indent: 0em; background: white;"><span style="font-family: 微软雅黑, sans-serif; text-indent: 20px; line-height: 1.6; color: rgb(0, 0, 0);">这里说的不阳光，有两个含义。</span></p><p style="line-height: 30px; text-indent: 0em; background: white;"><span style="font-family: 微软雅黑, sans-serif; text-indent: 20px; line-height: 1.6; color: rgb(0, 0, 0);"><br  /></span></p><p style="line-height: 30px; text-indent: 0em; background: white;"><span style="font-family: 微软雅黑, sans-serif; text-indent: 20px; line-height: 1.6; color: rgb(0, 0, 0);">第一是，这个行业是隐藏在地下的，一般很少被曝光出来。很多公司对外都不会宣称自己有爬虫团队，甚至隐瞒自己有反爬虫团队的事实。这可能是出于公司战略角度来看的，与技术无关。</span></p><p style="line-height: 30px; text-indent: 0em; background: white;"><span style="font-family: 微软雅黑, sans-serif; line-height: 1.6; text-indent: 20px; color: rgb(0, 0, 0);"><br  /></span></p><p style="line-height: 30px; text-indent: 0em; background: white;"><span style="font-family: 微软雅黑, sans-serif; line-height: 1.6; text-indent: 20px; color: rgb(0, 0, 0);">第二是，这个行业并不是一个很积极向上的行业。很多人在这个行业摸爬滚打了多年，积攒了大量的经验，但是悲哀的发现，这些经验很难兑换成闪光的简历。面试的时候，因为双方爬虫理念或者反爬虫理念不同，也很可能互不认可，影响自己的求职之路。本来程序员就有“文人相轻”的倾向，何况理念真的大不同。</span></p><p style="line-height: 30px; text-indent: 0em; background: white;"><span style="font-family: 微软雅黑, sans-serif; text-indent: 20px; line-height: 1.6; color: rgb(0, 0, 0);"><br  /></span></p><p style="line-height: 30px; text-indent: 0em; background: white;"><span style="font-family: 微软雅黑, sans-serif; text-indent: 20px; line-height: 1.6; color: rgb(0, 0, 0);">然而这就是程序员的宿命。不管这个行业有多么的不阳光，依然无法阻挡大量的人进入这个行业，因为有公司的需求。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">那么，公司到底有什么样的需求，导致了我们真的需要爬虫/反爬虫呢？</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">反爬虫很好理解，有了爬虫我们自然要反爬虫。对于程序员来说，哪怕仅仅是出于“我就是要证明我技术比你好”的目的，也会去做。对于公司来说，意义更加重大，最少，也能降低服务器负载，光凭这一点，反爬虫就有充足的生存价值。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">那么爬虫呢？</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">最早的爬虫起源于搜索引擎。搜索引擎是善意的爬虫，可以检索你的一切信息，并提供给其他用户访问。为此他们还专门定义了robots.txt文件，作为君子协定，这是一个双赢的局面。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">然而事情很快被一些人破坏了。爬虫很快就变的不再“君子”了。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">后来有了“大数据”。无数的媒体鼓吹大数据是未来的趋势，吸引了一批又一批的炮灰去创办大数据公司。这些人手头根本没有大数据，他们的数据只要用一个U盘就可以装的下，怎么好意思叫大数据呢？这么点数据根本忽悠不了投资者。于是他们开始写爬虫，拼命地爬取各个公司的数据。很快他们的数据，就无法用一个U盘装下了。这个时候终于可以休息休息，然后出去吹嘘融资啦。</span></p><p style="text-indent: 0em;"><span style="color: rgb(0, 0, 0);"><span style="color: rgb(0, 0, 0); font-family: 微软雅黑, sans-serif;"><br  /></span></span></p><p style="text-indent: 0em;"><span style="color: rgb(0, 0, 0);"><span style="color: rgb(0, 0, 0); font-family: 微软雅黑, sans-serif;">然而可悲的是，大容量U盘不断地在发布。他们总是在拼命地追赶存储增加的速度。</span><span style="color: rgb(0, 0, 0); font-family: Wingdings;">L</span></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">以上是爬虫与反爬虫的历史。</span></p><h1 style="text-indent: 0em;"><a name="_Toc480968239" style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: underline;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></a></h1><h1 style="text-indent: 0em;"><a name="_Toc480968239" style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: none;"><strong><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"></span></strong></a></h1><section style="box-sizing: border-box; background-color: rgb(255, 255, 255);"><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style=" margin-top: 0.5em; margin-bottom: 0.5em;  box-sizing: border-box; "><section class="" style="display: inline-block; border-radius: 0.5em; padding: 0.3em 0.5em; color: rgb(255, 255, 255); box-shadow: rgb(165, 165, 165) 0.2em 0.2em 0.1em; box-sizing: border-box; background-color: rgb(32, 119, 218);"><h1 style="line-height: 23.2727279663086px; text-indent: 0em; white-space: normal;"><a name="_Toc480968239" style="color: rgb(255, 255, 255); font-family: 微软雅黑, sans-serif; text-decoration: none;"><span style="color: rgb(255, 255, 255);"><strong>一、爬虫反爬虫运行现状</strong></span></a></h1></section></section></section></section><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">电子商务行业的爬虫与反爬虫更有趣一些，最初的爬虫需求来源于比价。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">这是某些电商网站的核心业务。大家如果买商品的时候，是一个价格敏感型用户的话，很可能用过网上的比价功能(真心很好用啊)。毫无悬念，他们会使用爬虫技术来爬取所有相关电商的价格。他们的爬虫还是比较温柔的，对大家的服务器不会造成太大的压力。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">然而，这并不意味着大家喜欢被他爬取。毕竟这对其他电商是不利的。于是需要通过技术手段来做反爬虫。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">按照技术人员的想法，对方用技术怼过来，我们就要用技术怼回去，不能怂啊。这个想法是很好的，但是实际应用起来根本不是这么回事。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">诚然，技术是很重要的，但是实际操作上，更重要的是套路。谁的套路更深，谁就能玩弄对方于鼓掌之中。谁的套路不行，有再好的技术，也只能被耍的团团转。这个虽然有点伤技术人员的自尊，然而，我们也不是第一天被伤自尊了。大家应该早就习惯了吧。</span></p><h2 style="text-indent: 0em;"><a name="_Toc480968240" style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: underline;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></a></h2><h2 style="text-indent: 0em;"><a name="_Toc480968240" style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: none;"><strong><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">1</span></strong></a><strong><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: none;">、真实世界的爬虫比例</span></strong></h2><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">大家应该听过一句话吧，大概意思是说，整个互联网上大概有50%以上的流量其实是爬虫。第一次听这句话的时候，我还不是很相信，我觉得这个说法实在是太夸张了。怎么可能爬虫比人还多呢？ 爬虫毕竟只是个辅助而已。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">现在做了这么久的反爬虫，我依然觉得这句话太夸张了。50%？你在逗我？就这么少的量？</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">举个例子，某公司，某个页面的接口，每分钟访问量是1.2万左右。这里面有多少是正常用户呢？ </span></p><p style="text-indent: 0em;"><span style="color: rgb(0, 0, 0); font-family: 微软雅黑, sans-serif;"><br  /></span></p><p style="text-indent: 0em;"><span style="color: rgb(0, 0, 0); font-family: 微软雅黑, sans-serif;">50%？60%？还是？</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">正确答案是：500以下。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">也就是说，一个单独的页面，12000的访问量里，有500是正常用户，其余是爬虫。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">注意，统计爬虫的时候，考虑到你不可能识别出所有的爬虫，因此，这500个用户里面，其实还隐藏着一些爬虫。那么爬虫率大概是：</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">(12000-500)/12000=95.8%</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">这个数字你猜到了吗？</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">这么大的爬虫量，这么少的用户量，大家到底是在干什么？是什么原因导致了明明是百人级别的生意，却需要万级别的爬虫来做辅助？ 95%以上，19保1？</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">答案可能会相当令人喷饭。这些爬虫大部分是由于决策失误导致的。</span></p><h2 style="text-indent: 0em;"><a name="_Toc480968241" style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: underline;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></a></h2><h2 style="text-indent: 0em;"><a name="_Toc480968241" style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: none;"><strong><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">2</span></strong></a><strong><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: none;">、哭笑不得的决策思路</span></strong></h2><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">举个例子，这个世界存在3家公司，售卖相同的电商产品。三家公司的名字分别是A，B，C。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">这个时候，客户去A公司查询了下某商品的价格，看了下发现价格不好。于是他不打算买了。他对整个行业的订单贡献为0。 </span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">然而A公司的后台会检测到，我们有个客户流失了，原因是他来查询了一个商品，这个商品我们的价格不好。没关系，我去爬爬别人试试。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">于是他分别爬取了B公司和C公司。</span></p><p style="text-indent: 0em;"><span style="color: rgb(0, 0, 0); font-family: 微软雅黑, sans-serif;"><br  /></span></p><p style="text-indent: 0em;"><span style="color: rgb(0, 0, 0); font-family: 微软雅黑, sans-serif;">B公司的后台检测到有人来查询价格，但是呢，最终没有下单。他会认为，嗯，我们流失了一个客户。怎么办呢？</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">我可以爬爬看，别人什么价格。于是他爬取了A和C。</span></p><p style="text-indent: 0em;"><span style="color: rgb(0, 0, 0); font-family: 微软雅黑, sans-serif;"><br  /></span></p><p style="text-indent: 0em;"><span style="color: rgb(0, 0, 0); font-family: 微软雅黑, sans-serif;">C公司的后台检测到有人来查询价格。。。。。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">过了一段时间，三家公司的服务器分别报警，访问量过高。三家公司的CTO也很纳闷，没有生成任何订单啊，怎么访问量这么高？ 一定是其他两家禽兽写的爬虫没有限制好频率。妈的，老子要报仇。于是分别做反爬虫，不让对方抓自己的数据。然后进一步强化自己的爬虫团队抓别人的数据。一定要做到：宁叫我抓天下人，休叫天下人抓我。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">然后，做反爬虫的就要加班天天研究如何拦截爬虫。做爬虫的被拦截了，就要天天研究如何破解反爬虫策略。大家就这么把资源全都浪费在没用的地方了。直到大家合并了，才会心平气和的坐下来谈谈，都少抓点。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">最近国内的公司有大量的合并，我猜这种“心平气和”应该不少吧？</span></p><h1 style="text-indent: 0em;"><a name="_Toc480968242" style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: underline;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></a></h1><h1 style="text-indent: 0em;"><a name="_Toc480968242" style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: none;"><strong><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"></span></strong></a></h1><section style="box-sizing: border-box; background-color: rgb(255, 255, 255);"><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style=" margin-top: 0.5em; margin-bottom: 0.5em;  box-sizing: border-box; "><section class="" style="display: inline-block; border-radius: 0.5em; padding: 0.3em 0.5em; color: rgb(255, 255, 255); box-shadow: rgb(165, 165, 165) 0.2em 0.2em 0.1em; box-sizing: border-box; background-color: rgb(32, 119, 218);"><h1 style="line-height: 23.2727279663086px; text-indent: 0em; white-space: normal;"><a name="_Toc480968242" style="color: rgb(255, 255, 255); font-family: 微软雅黑, sans-serif; text-decoration: none;"><span style="color: rgb(255, 255, 255);"><strong>二、爬虫反爬虫技术现状</strong></span></a></h1></section></section></section></section><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">下面我们谈谈，爬虫和反爬虫分别都是怎么做的。</span></p><h2 style="text-indent: 0em;"><a name="_Toc480968243" style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: underline;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></a></h2><h2 style="text-indent: 0em;"><a name="_Toc480968243" style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: none;"><strong><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">1</span></strong></a><strong><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: none;">、为python平反</span></strong></h2><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">首先是爬虫。爬虫教程你到处都可以搜的到，大部分是python写的。我曾经在一篇文章提到过：用python写的爬虫是最薄弱的，因为天生并不适合破解反爬虫逻辑，因为反爬虫都是用javascript来处理。然而慢慢的，我发现这个理解有点问题（当然我如果说我当时是出于工作需要而有意黑python你们信吗。。。）。</span></p><p style="text-indent: 0em;"><span style="color: rgb(0, 0, 0); font-family: 微软雅黑, sans-serif;"><br  /></span></p><p style="text-indent: 0em;"><span style="color: rgb(0, 0, 0); font-family: 微软雅黑, sans-serif;">Python的确不适合写反爬虫逻辑，但是python是一门胶水语言，他适合捆绑任何一种框架。而反爬虫策略经常会变化的翻天覆地，需要对代码进行大刀阔斧的重构，甚至重写。这种情况下，python不失为一种合适的解决方案。　</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">举个例子，你之前是用selenium爬取对方的站点，后来你发现自己被封了，而且封锁方式十分隐蔽，完全搞不清到底是如何封的，你会怎么办？你会跟踪selenium的源码来找到出错的地方吗？</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">你不会。你只会换个框架，用另一种方式来爬取。然后你就把两个框架都浅尝辄止地用了下，一个都没有深入研究过。因为没等你研究好，也许人家又换方式了。你不得不再找个框架来爬取。毕竟，老板等着明天早上开会要数据呢。老板一般都是早上八九点开会，所以你七点之前必须搞定。等你厌倦了，打算换个工作的时候，简历上又只能写“了解ｎ个框架的使用”，仅此而已。　</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">这就是爬虫工程师的宿命，爬虫工程师比外包还可怜。外包虽然不容易积累技术，但是好歹有正常上下班时间，爬虫工程师连这个权利都没有。　</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">然而反爬虫工程师就不可怜了吗？也不是的。反爬虫有个天生的死穴，就是：误伤率。　</span></p><h2 style="text-indent: 0em;"><a name="_Toc480968244" style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: underline;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></a></h2><h2 style="text-indent: 0em;"><a name="_Toc480968244" style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: none;"><strong><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">2</span></strong></a><strong><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: none;">、无法绕开的误伤率</span></strong></h2><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">我们首先谈谈，面对对方的爬虫，你的第一反应是什么？</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">如果限定时间的话，大部分人给我的答案都是：封杀对方的IP。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">然而，问题就出在，IP不是每人一个的。大的公司有出口IP，ISP有的时候会劫持流量让你们走代理，有的人天生喜欢挂代理，有的人为了翻墙24小时挂vpn，最坑的是，现在是移动互联网时代，你如果封了一个IP？不好意思，这是中国联通的4G网络，5分钟之前还是别人，5分钟之后就换人了哦！</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">因此，封IP的误伤指数最高。并且，效果又是最差的。因为现在即使是最菜的新手，也知道用代理池了。你们可以去淘宝看下，几十万的代理价值多少钱。我们就不谈到处都有的免费代理了。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">也有人说：我可以扫描对方端口，如果开放了代理端口，那就意味着是个代理，我就可以封杀了呀。　</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">事实是残酷的。我曾经封杀过一个IP，因为他开放了一个代理端口，而且是个很小众的代理端口。不出一天就有人来报事件，说我们一个分公司被拦截了。我一查IP，还真是我封的IP。我就很郁闷地问他们IT，开这个端口干什么？他说做邮件服务器啊。我说为啥要用这么奇怪的端口？他说，这不是怕别人猜出来么？我就随便取了个。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">扫描端口的进阶版，还有一种方式，就是去订单库查找这个IP是否下过订单，如果没有，那么就是安全的。如果有，那就不安全。有很多网站会使用这个方法。然而这其实只是一种自欺欺人的办法而已。只需要下一单，就可以永久洗白自己的IP，天下还有比这更便宜的生意吗？</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">因此，封IP，以及封IP的进阶版：扫描端口再封IP，都是没用的。根本不要考虑从IP下手，因为对手会用大量的时间考虑如何躲避IP封锁，你干嘛和人家硬刚呢。这没有任何意义。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">那么，下一步你会考虑到什么？</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">很多站点的工程师会考虑：既然没办法阻止对方，那我就让它变的不可读吧。我会用图片来渲染关键信息，比如价格。这样，人眼可见，机器识别不出来。　</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">这个想法曾经是正确的，然而，坑爹的技术发展，带给我们一个坑爹的技术，叫机器学习。顺便带动了一个行业的迅猛发展，叫OCR。很快，识别图像就不再是任何难题了。甚至连人眼都很难识别的验证码，有的OCR都能搞定，比我肉眼识别率都高。更何况，现在有了打码平台，用资本都可以搞定，都不需要技术。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">那么，下一步你会考虑什么？</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">这个时候，后端工程师已经没有太多的办法可以搞了。　</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">不过后端搞不定的事情，一般都推给前端啊，前端从来都是后端搞不定问题时的背锅侠。　多少年来我们都是这么过来的。前端工程师这个时候就要勇敢地站出来了：</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; text-indent: 0em; line-height: 1.6;">“都不要得瑟了，来比比谁的前端知识牛逼，你牛逼我就让你爬。”</span><br  /></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">我不知道这篇文章的读者里有多少前端工程师，我只是想顺便提一下：你们以后将会是更加抢手的人才。　</span></p><h2 style="text-indent: 0em;"><a name="_Toc480968245" style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: underline;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></a></h2><h2 style="text-indent: 0em;"><a name="_Toc480968245" style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: none;"><strong><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">3</span></strong></a><strong><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: none;">、前端工程师的逆袭</span></strong></h2><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">我们知道，一个数据要显示到前端，不仅仅是后端输出就完事了，前端要做大量的事情，　比如取到json之后，至少要用template转成html吧？ 这已经是步骤最少最简单的了。然后你总要用css渲染下吧？ 这也不是什么难事。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">等等，你还记得自己第一次做这个事情的时候的经历吗？真的，不是什么难事吗？</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">有没有经历过，一个html标签拼错，或者没有闭合，导致页面错乱？一个css没弄好，导致整个页面都不知道飘到哪去了？</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">这些事情，你是不是很想让别人再经历一次？</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">这件事情充分说明了：让一个资深的前端工程师来把事情搞复杂一点，对方如果配备了资深前端工程师来破解，也需要耗费3倍以上的时间。毕竟是读别人的代码，别人写代码用了一分钟，你总是要读两分钟，然后骂一分钟吧？这已经算很少的了。如果对方没有配备前端工程师。。。那么经过一段时间，他们会成长为前端工程师。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">之后，由于前端工程师的待遇比爬虫工程师稍好一些，他们很快会离职做前端，既缓解了前端人才缺口，又可以让对方缺人，重招。而他们一般是招后端做爬虫，这些人需要再接受一次折磨，再次成长为前端工程师。这不是很好的事情吗。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">所以，如果你手下的爬虫工程师离职率很高，请仔细思考下，是不是自己的招聘方向有问题。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">那么前端最坑爹的技术是什么呢？前端最坑爹的，也是最强大的，就是我们的：javascript。</span></p><p style="text-indent: 0em;"><span style="color: rgb(0, 0, 0); font-family: 微软雅黑, sans-serif;"><br  /></span></p><p style="text-indent: 0em;"><span style="color: rgb(0, 0, 0); font-family: 微软雅黑, sans-serif;">Javascript有大量的花样可以玩，毫不夸张的说，一周换一个feature(bug)给对方学习，一年不带重样的。这个时候你就相当于一个面试官，对方要通过你的面试才行。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">举个例子，Array.prototype里，有没有map啊？什么时候有啊？你说你是xx浏览器，那你这个应该是有还是应该没有啊？你说这个可以有啊？可是这个真没有啊。那[]能不能在string里面获取字符啊？哪个浏览器可以哪个不行啊？咦你为什么支持webkit前缀啊？等等，刚刚你还支持怎么现在不支持了啊？你声明的不对啊。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">这些对于前端都是简单的知识，已经习以为常了。但是对于后端来说简直就是噩梦。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">然而，前端人员自己作死，研究出了一个东西，叫：nodejs。基于v8，秒杀所有的js运行。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">不过nodejs实现了大量的feature，都是浏览器不存在的。你随随便便访问一些东西（比如你为什么会支持process.exit），都会把node坑的好惨好惨。而且。。。浏览器里的js，你拉到后台用nodejs跑，你是不是想到了什么安全漏洞？这个是不是叫，代码与数据混合？如果他在js里跑点恶心的代码，浏览器不支持但是node支持怎么办？ </span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">还好，爬虫工程师还有phantomjs。但是，你怎么没有定位啊？ 哈哈，你终于模拟出了定位，但是不对啊，根据我当前设置的安全策略你现在不应该能定位啊？你是怎么定出来的？连phantomjs的作者自己都维护不下去了，你真的愿意继续用吗？</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">当然了，最终，所有的反爬虫策略都逃不脱被破解的命运。但是这需要时间，反爬虫需要做的就是频繁发布，拖垮对方。如果对方两天可以破解你的系统，你就一天一发布，那么你就是安全的。这个系统甚至可以改名叫做“每天一道反爬题，轻轻松松学前端”。</span></p><h2 style="text-indent: 0em;"><a name="_Toc480968246" style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: underline;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></a></h2><h2 style="text-indent: 0em;"><a name="_Toc480968246" style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: none;"><strong><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">4</span></strong><strong><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"></span></strong></a><span style="text-decoration: none;"><strong><span style="text-decoration: none; font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">、误伤，还是误伤</span></strong></span></h2><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">这又回到了我们开始提到的“误伤率”的问题了。我们知道，发布越频繁，出问题的概率越高。那么，如何在频繁发布的情况下，还能做到少出问题呢？</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">此外还有一个问题，我们写了大量的“不可读代码”给对方，的确能给对方造成大量的压力，但是，这些代码我们自己也要维护啊。如果有一天忽然说，没人爬我们了，你们把代码下线掉吧。这个时候写代码的人已经不在了，你们怎么知道如何下线这些代码呢？</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">这两个问题我暂时不能公布我们的做法，但是大家都是聪明人，应该都是有自己的方案的，软件行业之所以忙的不得了，无非就是在折腾两件事，一个是如何将代码拆分开，一个是如何将代码合并起来。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">关于误伤率，我只提一个小的tip：你可以只开启反爬虫，但是不拦截，先放着，发统计信息给自己，相当于模拟演练。等统计的差不多了，发现真的开启了也不会有什么问题，那就开启拦截或者开启造假。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">这里就引发了一个问题，往往一个公司的各个频道，爬取难度是不一样的。原因就是，误伤检测这种东西与业务相关，公司的基础部门很难做出通用的。只能各个部门自己做。甚至有的部门做了有的没做。因此引发了爬虫界一个奇葩的通用做法：如果PC页面爬不到，　就去H5试试。如果H5很麻烦，就去PC碰碰运气。</span></p><h1 style="text-indent: 0em;"><a name="_Toc480968247" style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: underline;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></a></h1><h1 style="text-indent: 0em;"><a name="_Toc480968247" style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: none;"><strong><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"></span></strong></a></h1><section style="box-sizing: border-box; background-color: rgb(255, 255, 255);"><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style=" margin-top: 0.5em; margin-bottom: 0.5em;  box-sizing: border-box; "><section class="" style="display: inline-block; border-radius: 0.5em; padding: 0.3em 0.5em; color: rgb(255, 255, 255); box-shadow: rgb(165, 165, 165) 0.2em 0.2em 0.1em; box-sizing: border-box; background-color: rgb(32, 119, 218);"><h1 style="line-height: 23.2727279663086px; text-indent: 0em; white-space: normal;"><a name="_Toc480968247" style="color: rgb(255, 255, 255); font-family: 微软雅黑, sans-serif; text-decoration: none;"><span style="color: rgb(255, 255, 255);"><strong>三、爬虫反爬虫套路现状</strong></span></a></h1></section></section></section></section><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">那么一旦有发现对方数据造假怎么办？</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">早期的时候，大家都是要抽查数据，通过数据来检测对方是否有造假。这个需要人工核对，成本非常高。可是那已经是洪荒时代的事情了。如果你们公司还在通过这种方式来检测，说明你们的技术还比较落伍。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">之前我们的竞争对手是这么干的：他们会抓取我们两次，一次是他们解密出来key之后，用正经方式来抓取，这次的结果定为A。一次是不带key，直接来抓，这次的结果定为B。根据前文描述，我们可以知道，B一定是错误的。那么如果A与B相等，说明自己中招了。这个时候会停掉爬虫，重新破解。</span></p><h2 style="text-indent: 0em;"><a name="_Toc480968248" style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: underline;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></a></h2><h2 style="text-indent: 0em;"><a name="_Toc480968248" style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: underline;"><strong><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">1</span></strong></a><strong><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">、不要回应</span></strong></h2><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">所以之前有一篇关于爬虫的文章，说如何破解我们的。一直有人要我回复下。我一直觉得没什么可以回复的。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">第一，反爬虫被破解了是正常的。这个世界上有个万能的爬虫手段，叫“人肉爬虫”。假设我们就是有钱，在印度开个分公司，每天雇便宜的劳动力用鼠标直接来点，你能拿我怎么办？第二，我们真正关心的是后续的这些套路。而我读了那篇文章，发现只是调用了selenium并且拿到了结果，就认为自己成功了。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">我相信你读到这里，应该已经明白为什么我不愿意回复了。我们最重要的是工作，而不是谁打谁的脸。大家如果经常混技术社区就会发现，每天热衷于打别人脸的，一般技术都不是很好。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">当然这并不代表我们技术天下第一什么的。我们每天面对大量的爬虫，还是遇到过很多高手的。就如同武侠小说里一样，高手一般都比较低调，他们默默地拿走数据，很难被发现，而且频率极低，不会影响我们的考评。你们应该明白，这是智商与情商兼具的高手了。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">我们还碰到拉走我们js，砍掉无用的部分直接解出key，相当高效不拖泥带水的爬虫，一点废请求都没有（相比某些爬虫教程，总是教你多访问写没用的url免得被发现，真的不知道高到哪里去了。这样做除了会导致机器报警，导致对方加班封锁以外，对你自己没有任何好处）。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">而我们能发现这一点仅仅是是因为他低调地写了一篇博客，通篇只介绍技术，没有提任何没用的东西。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">这里我只是顺便发了点小牢骚，就是希望后续不要总是有人让我回应一些关于爬虫的文章。线下我认识很多爬虫工程师，水平真的很好，也真的很低调（不然你以为我是怎么知道如何对付爬虫的。。。），大家都是一起混的，不会产生“一定要互相打脸”的情绪。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">顺便打个小广告，如果你对这个行业有兴趣，可以考虑联系HR加入我们哦。反爬虫工程师可以加入携程，爬虫工程师可以加入去哪儿。</span></p><h2 style="text-indent: 0em;"><a name="_Toc480968249" style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: underline;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></a></h2><h2 style="text-indent: 0em;"><a name="_Toc480968249" style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: underline;"><strong><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">2</span></strong></a><strong><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">、进化</span></strong></h2><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">早期我们和竞争对手打的时候，双方的技术都比较初级。后来慢慢的，爬虫在升级，反爬虫也在升级。这个我们称为“进化”。我们曾经给对方放过水，来试图拖慢他们的进化速度。然而，效果不是特别理想。爬虫是否进化，取决于爬虫工程师自己的KPI，而不是反爬虫的进化速度。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">后期打到白热化的时候，用的技术越来越匪夷所思。举个例子，很多人会提，做反爬虫会用到canvas指纹，并认为是最高境界。其实这个东西对于反爬虫来说也只是个辅助，canvas指纹的含义是，因为不同硬件对canvas支持不同，因此你只要画一个很复杂的canvas，那么得出的image，总是存在像素级别的误差。考虑到爬虫代码都是统一的，就算起selenium，也是ghost的，因此指纹一般都是一致的，因此绕过几率非常低。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">但是！这个东西天生有两个缺陷。第一是，无法验证合法性。当然了，你可以用非对称加密来保证合法，但是这个并不靠谱。其次，canvas的冲突概率非常高，远远不是作者宣称的那样，冲突率极低。也许在国外冲突是比较低，因为国外的语言比较多。但是国内公司通常是IT统一装机，无论是软件还是硬件都惊人的一致。我们测试canvas指纹的时候，在携程内部随便找了20多台机器，得出的指纹都完全一样，一丁点差别都没有。因此，有些“高级技巧”其实一点都不实用。</span></p><h2 style="text-indent: 0em;"><a name="_Toc480968250" style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: underline;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></a></h2><h2 style="text-indent: 0em;"><a name="_Toc480968250" style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: underline;"><strong><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">3</span></strong></a><strong><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">、法律途径</span></strong></h2><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">此外就是大家可能都考虑过的：爬虫违法吗？能起诉对方让对方不爬吗？法务给的答案到是很干脆，可以，前提是证据。遗憾的是，这个世界上大部分的爬虫爬取数据是不会公布到自己网站的，只是用于自己的数据分析。因此，即使有一些关于爬虫的官司做为先例，并且已经打完了，依然对我们没有任何帮助。反爬虫，在对方足够低调的情况下，注定还是个技术活。</span></p><h2 style="text-indent: 0em;"><a name="_Toc480968251" style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: underline;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></a></h2><h2 style="text-indent: 0em;"><a name="_Toc480968251" style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: underline;"><strong><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">4</span></strong></a><strong><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">、搞事情，立Flag</span></strong></h2><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">到了后来，我们已经不再局限于打打技术了。反爬虫的代码里我们经常埋点小彩蛋给对方，比如写点注释给对方。双方通过互相交战，频繁发布，居然聊的挺high的。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">比如问问对方，北京房价是不是很高啊？对方回应，欧巴，我可是凭本事吃饭哦。继续问，摇到号了吗？诸如此类等等。这样的事情你来我往的，很容易动摇对方的军心，还是很有作用的。试想一下，如果你的爬虫工程师在大年三十还苦逼加班的时候，看到对方留言说自己拿到了n个月的年终奖，你觉得你的工程师，离辞职还远吗？</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">最后，我们终于搞出了大动作，觉得一定可以坑对方很久了。我们还特意去一家小火锅店吃了一顿，庆祝一下，准备明天上线。大家都知道，一般立flag的下场都比较惨的。两个小时的自助火锅，我们刚吃五分钟，就得到了我们投资竞争对手的消息。后面的一个多小时，团队气氛都很尴尬，谁也说不出什么话。我们组有个实习生，后来鼓足勇气问了我一个问题：</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">“我还能留下来吗？”</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">毕竟，大部分情况下，技术还是要屈服于资本的力量。</span></p><h1 style="text-indent: 0em;"><a name="_Toc480968252" style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0); text-decoration: underline;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></a></h1><h1 style="text-indent: 0em;"><a name="_Toc480968252" style="color: rgb(0, 0, 0); text-decoration: none;"><span style="color: rgb(0, 0, 0);"><strong><span style="color: rgb(0, 0, 0); font-family: 微软雅黑, sans-serif;"></span></strong></span></a></h1><section style="box-sizing: border-box; background-color: rgb(255, 255, 255);"><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style=" margin-top: 0.5em; margin-bottom: 0.5em;  box-sizing: border-box; "><section class="" style="display: inline-block; border-radius: 0.5em; padding: 0.3em 0.5em; color: rgb(255, 255, 255); box-shadow: rgb(165, 165, 165) 0.2em 0.2em 0.1em; box-sizing: border-box; background-color: rgb(32, 119, 218);"><h1 style="line-height: 23.2727279663086px; text-indent: 0em; white-space: normal;"><a name="_Toc480968252" style="color: rgb(255, 255, 255); text-decoration: none;"><span style="color: rgb(255, 255, 255);"><strong><span style="color: rgb(255, 255, 255); font-family: 微软雅黑, sans-serif;">四、爬虫反爬虫的未来</span></strong><strong><span style="color: rgb(255, 255, 255); font-family: 微软雅黑, sans-serif;"></span></strong></span></a></h1></section></section></section></section><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">与竞争对手和解之后，我们去拜访对方，大家坐在了一起。之前网上自称妹子的，一个个都是五大三粗的汉子，这让我们相当绝望，在场唯一的一个妹子还是我们自己带过去的（就是上面提到的实习生），感觉套路了这么久，最终还是被对方套路了。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">好在，吃的喝的都很好，大家玩的还是比较high的。后续就是和平年代啦，大家不打仗了，反爬虫的逻辑扔在那做个防御，然后就开放白名单允许对方爬取了。群里经常叫的就是：xxx你怎么频率这么高，xxx你为什么这个接口没给我开放，为什么我爬的东西不对我靠你是不是把我封了啊。诸如此类的。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">和平年代的反爬虫比战争年代还难做。因为战争年代，误伤率只要不是太高，公司就可以接受。和平年代大家不能搞事情，误伤率稍稍多一点，就会有人叫：好好的不赚钱，瞎搞什么搞。此外，战争年代只要不拦截用户，就不算误伤。和平年代还要考虑白名单，拦截了合作伙伴也是误伤。因此各方面会更保守一些。不过，总体来说还是和平年代比较happy。毕竟，谁会喜欢没事加班</span><span style="font-family: 微软雅黑, sans-serif; text-indent: 0em; line-height: 1.6;">玩呢。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">然而和平持续的不是很久，很快就有了新的竞争对手选择爬虫来与我们打。毕竟，这是一个利益驱使的世界。只要有大量的利润，资本家就会杀人放火，这不是我们这些技术人员可以决定的。我们希望天下无虫，但是我们又有什么权利呢。</span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);"><br  /></span></p><p style="text-indent: 0em;"><span style="font-family: 微软雅黑, sans-serif; color: rgb(0, 0, 0);">好在，这样可以催生更多的职位，顺便提高大家的身价，也算是个好事情吧。</span></p><p style="text-indent: 0em;"><br  /></p><p style="line-height: 23.2727279663086px; white-space: normal;"><strong style="color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6000003814697px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">推荐阅读：</strong><br  /></p><p style="font-size: 16px; white-space: normal; line-height: 25.6000003814697px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"  /></p><blockquote style="font-size: 16px; white-space: normal; line-height: 25.6000003814697px; max-width: 100%; color: rgb(62, 62, 62); box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><ul class=" list-paddingleft-2" style="list-style-type: square;"><li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MDI3MjA5MQ==&amp;mid=2697266120&amp;idx=2&amp;sn=ef64c3741a100ee22e0ea67fe965a91e&amp;chksm=8376fcfcb40175ea76d9a5cfc1a2250560c3cc36f2fcf3a11aeb68c43d65e618b643360c9067&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5MDI3MjA5MQ==&amp;mid=2697266120&amp;idx=2&amp;sn=ef64c3741a100ee22e0ea67fe965a91e&amp;chksm=8376fcfcb40175ea76d9a5cfc1a2250560c3cc36f2fcf3a11aeb68c43d65e618b643360c9067&amp;scene=21#wechat_redirect" style="text-decoration: underline;">携程用户数据采集与分析系统</a></p></li><li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MDI3MjA5MQ==&amp;mid=2697266120&amp;idx=1&amp;sn=04fb8239190d50025a1b5774f9b80991&amp;chksm=8376fcfcb40175eabd489729a56e2fb26801a0b54a2fd65b86cd4b3876444f02aad8fe7bc5a7&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5MDI3MjA5MQ==&amp;mid=2697266120&amp;idx=1&amp;sn=04fb8239190d50025a1b5774f9b80991&amp;chksm=8376fcfcb40175eabd489729a56e2fb26801a0b54a2fd65b86cd4b3876444f02aad8fe7bc5a7&amp;scene=21#wechat_redirect" style="text-decoration: underline;">MVP模式在携程酒店的应用和扩展</a><br  /></p></li><li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MDI3MjA5MQ==&amp;mid=2697266056&amp;idx=2&amp;sn=f7801044644980e9948ac56f180a4bec&amp;chksm=8376fcbcb40175aa8c19c1d1fe2ee69274a182e658796f056bd7514aafaa7baadd5b3f0cf520&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5MDI3MjA5MQ==&amp;mid=2697266056&amp;idx=2&amp;sn=f7801044644980e9948ac56f180a4bec&amp;chksm=8376fcbcb40175aa8c19c1d1fe2ee69274a182e658796f056bd7514aafaa7baadd5b3f0cf520&amp;scene=21#wechat_redirect" style="text-decoration: underline;">携程酒店浏览客户流失概率预测</a></p></li><li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MDI3MjA5MQ==&amp;mid=2697266019&amp;idx=1&amp;sn=fa503cbe204cb1748b56cd21da75d8cb&amp;chksm=8376fc57b40175413e05a305deabeb294558b4cc68ec8bb82170ac89a2aaad29bc8d3ed6f342&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5MDI3MjA5MQ==&amp;mid=2697266019&amp;idx=1&amp;sn=fa503cbe204cb1748b56cd21da75d8cb&amp;chksm=8376fc57b40175413e05a305deabeb294558b4cc68ec8bb82170ac89a2aaad29bc8d3ed6f342&amp;scene=21#wechat_redirect" style="text-decoration: underline;">模型优化不得不思考的几个问题</a></p></li><li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MDI3MjA5MQ==&amp;mid=2697266009&amp;idx=1&amp;sn=06f64043fdeb3cfcc2f1c39f0cdb2ac2&amp;chksm=8376fc6db401757b58dff170b7dcffc796a52510ec722812e32894082431c24985048a8011c2&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5MDI3MjA5MQ==&amp;mid=2697266009&amp;idx=1&amp;sn=06f64043fdeb3cfcc2f1c39f0cdb2ac2&amp;chksm=8376fc6db401757b58dff170b7dcffc796a52510ec722812e32894082431c24985048a8011c2&amp;scene=21#wechat_redirect" style="text-decoration: underline;">携程开源Redis多数据中心解决方案XPipe</a></p></li><li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MDI3MjA5MQ==&amp;mid=2697265992&amp;idx=1&amp;sn=1f25de2820d1f0f7d1013f5520d4d9b0&amp;chksm=8376fc7cb401756aa2ec535c9017137c344355d4855254e690e1d8958de4b516cfcba659c56c&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MjM5MDI3MjA5MQ==&amp;mid=2697265992&amp;idx=1&amp;sn=1f25de2820d1f0f7d1013f5520d4d9b0&amp;chksm=8376fc7cb401756aa2ec535c9017137c344355d4855254e690e1d8958de4b516cfcba659c56c&amp;scene=21#wechat_redirect" style="text-decoration: underline;">携程实时用户行为系统实践</a></p></li></ul></blockquote><p><br  /></p><p><img data-ratio="0.7779783393501805" data-s="300,640" data-src="http://mmbiz.qpic.cn/mmbiz_png/kEeDgfCVf1eibTrdEiaAafpT4uOHzJITpghDh9meNmaZo6dUnMUJJqO4ZYWOh0ic4KWPWUgjoIOoBGoljgtPfNlvA/640?wx_fmt=png" data-type="png" data-w="554" style="text-align: center; line-height: 25.6000003814697px; white-space: pre-wrap; box-sizing: border-box !important; word-wrap: break-word !important; width: auto !important; visibility: visible !important;"  /></p>
+                </div>
+                <script nonce="581111034" type="text/javascript">
+                    var first_sceen__time = (+new Date());
+
+                    if ("" == 1 && document.getElementById('js_content')) {
+                        document.getElementById('js_content').addEventListener("selectstart",function(e){ e.preventDefault(); });
+                    }
+
+                    
+                    (function(){
+                        if (navigator.userAgent.indexOf("WindowsWechat") != -1){
+                            var link = document.createElement('link');
+                            var head = document.getElementsByTagName('head')[0];
+                            link.rel = 'stylesheet';
+                            link.type = 'text/css';
+                            link.href = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+                            head.appendChild(link);
+                        }
+                    })();
+                </script>
+
+                
+                <div class="ct_mpda_wrp" id="js_sponsor_ad_area" style="display:none;"></div>
+                
+                
+                <div class="read-more__area" id="js_more_read_area" style="display:none;">
+                    
+                </div>
+
+                
+                                <div class="reward_area tc reward_area_primary" id="js_preview_reward_author" style="display:none;">
+                    <div class="reward-avatar" style="display: none;" id="js_preview_reward_author_avatar">
+                        <img src="" alt="" id="js_preview_reward_author_head">
+                    </div>
+                    
+                                        <div class="reward-author" id="js_preview_reward_author_name">崔广宇</div>
+                                        <p class="reward_tips" id="js_preview_reward_author_wording" style="display:none;"></p>
+                    <p>
+                        <a class="reward_button" id='js_preview_reward_author_link' href="##"><span id="js_preview_reward_link_text">赞赏</span></a>
+                    </p>
+                </div>
+
+                <div class="reward_qrcode_area reward_area tc" id="js_preview_reward_qrcode" style="display:none;">
+                    <p class="tips_global">长按二维码向我转账</p>
+                    <p id="js_preview_reward_ios_wording" class="reward_tips" style="display:none;"></p>
+                    <span class="reward_qrcode_img_wrp"><img class="reward_qrcode_img" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_reward_qrcode.2x42f400.png"></span>
+                    <p class="tips_global">受苹果公司新规定影响，微信 iOS 版的赞赏功能被关闭，可通过二维码转账支持公众号。</p>
+                </div>
+                                
+                
+                            </div>
+                                    
+                        
+
+
+                        
+            <ul id="js_hotspot_area" class="article_extend_area"></ul>
+
+
+            
+
+            
+
+
+<div class="rich_media_tool" id="js_toobar3">
+
+        <div id="js_read_area3" class="media_tool_meta tips_global_primary meta_primary" style="display:none;">阅读 <span id="readNum3"></span></div>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_praise" id="like_old">
+        <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum_old"></span>
+    </span>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_like" id="like3">
+        <button class="like_btn" id="js_like_btn"> 
+          <span id="js_like_wording"> 好看</span><span class="like_num" id="likeNum3"></span>
+        </button>
+    </span>
+
+    <div id="js_like_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog weui-dialog_haokan">
+        <div class="weui-dialog__hd"><strong class="weui-dialog__title" id="educate_title">已推荐到看一看</strong></div>
+        <div class="weui-dialog__bd">
+          <img class="pic_haokan" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_haokan42f400.png">
+            你的朋友可以在“发现”-“看一看”看到你认为好看的文章。        </div>
+        <div class="weui-dialog__ft" id="educate_btn" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_default" id="js_cancel">取消</a>
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_confirm">推荐</a>
+        </div>
+        <div class="weui-dialog__ft" id="educate_btn2" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_acknowledge">我知道了</a>
+        </div>
+        </div>
+    </div>
+
+    <div id="js_unlike_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog">
+        
+        <div class="weui-dialog__bd">
+            已取消，“好看”想法已同步删除        </div>
+        <div class="weui-dialog__ft">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_unlike_know">知道了</a>
+        </div>
+        </div>
+    </div>
+
+    
+    </div>
+
+
+<div class="like_comment_wrp" id="js_a_like_comment" style="display: none;">
+  <div class="like_comment_inner">
+    <div class="like_comment_hd" style="display:none" id="js_like_title"></div>
+    <div class="like_comment_bd">
+      <div class="tips_global_primary like_comment_tips">
+        <i class="weui-icon-success"></i>已推荐到看一看<a href="javascript:;" class="like_comment_share_link" id="js_a_like_comment_share">和朋友分享想法</a>
+      </div>
+    </div>
+    <div class="like_comment_ft">
+      <span id="js_a_like_comment_msg" class="like_comment_msg" style="visibility:hidden">最多200字，当前共<span id="js_a_like_current_cnt"></span>字</span>
+      <button class="like_comment_btn" disabled="disabled" id="js_a_like_confirm">发送</button>
+    </div>
+  </div>
+</div>
+
+<div id="js_like_toast" style="display: none;">
+  <div class="weui-mask_transparent"></div>
+  <div class="weui-toast">
+    <i class="weui-icon-success-no-circle weui-icon_toast"></i>
+    <p class="weui-toast__content" id="js_toast_msg">已发送</p>
+  </div>
+</div>
+
+
+<div style="display: none;" id="js_b_comment_panel" class="like_comment_primary_pop">
+  <div class="like_comment_primary_wrp" id="js_b_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <h4 class="like_comment_primary_title">
+          朋友将在看一看看到        </h4>
+        <button id="js_b_like_confirm" class="like_comment_primary_btn">确定</button>
+      </div>
+      <div id='js_b_comment_text_first' class="like_comment_primary_bd">
+        <span class="tips_global_primary">
+          分享你的想法...        </span>
+      </div>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_1"></div>
+</div>
+
+<div style="display: none;" id="js_b_comment_final">
+  <div class="like_comment_primary_wrp editing" id="js_comment_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <button class="like_comment_primary_cancel" id="js_b_comment_cancel">取消</button>
+        <h4 class="like_comment_primary_title"> 分享想法到看一看 </h4>
+        <button class="like_comment_primary_btn" id="js_b_comment_confirm">确定</button>
+      </div>
+      <div class="like_comment_primary_bd">
+        <textarea class="like_comment_textarea weui-textarea" placeholder="分享你的想法..." id="js_b_comment_text_second"></textarea>
+      </div>
+      <span class="like_comment_msg" id="js_b_like_comment_msg" style="visibility: hidden;">最多200字，当前共<span id="js_b_like_current_cnt"></span>字</span>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_2"></div>
+</div>
+
+<div id="js_loading" style=" display: none;">
+    <div class="weui-mask_transparent"></div>
+    <div class="weui-toast">
+        <i class="weui-loading weui-icon_toast"></i>
+        <p class="weui-toast__content">发送中</p>
+    </div>
+</div>
+
+<div id="js_fail" style="display:none">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+    <div class="weui-dialog__bd">
+        网络异常，请稍后重试    </div>
+    <div class="weui-dialog__ft">
+      <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_fail_inform">知道了</a>
+    </div>
+    </div>
+</div>
+
+
+
+                      </div>
+        </div>
+
+        <div class="rich_media_area_primary sougou" id="sg_tj" style="display:none"></div>
+
+
+        
+        <div class="rich_media_area_extra">
+          <div class="rich_media_area_extra_inner">
+              
+              <div id="js_share_appmsg">
+              </div>
+
+              
+                            <div class="mpda_bottom_container" id="js_bottom_ad_area"></div>
+                            
+              <div id="js_iframetest" style="display:none;"></div>
+                            
+              <div class="rich_media_extra rich_media_extra_discuss" id="js_cmt_container" style="display:none">
+                
+
+                
+                <div class="discuss_mod" id="js_friend_cmt_area" style="display:none">
+                  
+                  
+                  
+                </div>
+
+                                <div class="discuss_mod" id="js_cmt_area" style="display:none">
+                </div>
+                              </div>
+          </div>
+        </div>
+
+        
+        <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">
+            <div class="qr_code_pc_inner">
+                <div class="qr_code_pc">
+                    <img id="js_pc_qr_code_img" class="qr_code_pc_img">
+                    <p>微信扫一扫<br>关注该公众号</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="js_pc_weapp_code" class="weui-desktop-popover weui-desktop-popover_pos-up-center weui-desktop-popover_img-text" style="display: none;">
+    <div class="weui-desktop-popover__content">
+        <div class="weui-desktop-popover__desc">
+            <img id="js_pc_weapp_code_img">
+            微信扫一扫<br>使用小程序<span id="js_pc_weapp_code_des"></span>        </div>
+    </div>
+</div>
+<div id="js_minipro_dialog" style="display:none;">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+        <div class="weui-dialog__bd">即将打开"<span id="js_minipro_dialog_name"></span>"小程序</div>
+        <div class="weui-dialog__ft">
+            <a id="js_minipro_dialog_cancel" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_default">取消</a>
+            <a id="js_minipro_dialog_ok" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_primary">打开</a>
+        </div>
+    </div>
+</div>
+
+        
+        <script nonce="581111034">
+    var __DEBUGINFO = {
+        debug_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/debug/console42f400.js",
+        safe_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/moonsafe42f400.js",
+        res_list: []
+    };
+</script>
+
+<script nonce="581111034" type="text/javascript">
+(function() {
+	var totalCount = 0,
+			finishCount = 0;
+
+	function _loadVConsolePlugin() {
+		window.vConsole = new window.VConsole();
+		while (window.vConsolePlugins.length > 0) {
+			var p = window.vConsolePlugins.shift();
+			window.vConsole.addPlugin(p);
+		}
+	}
+	
+	function _addVConsole(uri, cb) {
+		totalCount++;
+		var node = document.createElement('SCRIPT');
+		node.type = 'text/javascript';
+		node.src = uri;
+		node.setAttribute('nonce', '581111034');
+		if (cb) {
+			node.onload = cb;
+		}
+		document.getElementsByTagName('head')[0].appendChild(node);
+	}
+	if (
+		(document.cookie && document.cookie.indexOf('vconsole_open=1') > -1)
+		|| location.href.indexOf('vconsole=1') > -1
+	) {
+		window.vConsolePlugins = [];
+		_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/3.2.2/vconsole.min43429b.js', function() {
+			
+			_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/plugin/vconsole-mpopt/1.0.1/vconsole-mpopt42f400.js', _loadVConsolePlugin);
+		});
+	}
+})();
+</script>
+        
+<script nonce="581111034" type="text/javascript">
+if (location.href.match(/fontScale=\d+/) && /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+
+    var m=location.href.match(/fontScale=(\d*)/);
+    var map={
+        "94":1,
+        "100":2,
+        "109":3,
+        "119":4,
+        "131":5,
+    }
+    if(m&&m[1]&&map[m[1]]){
+        document.getElementsByTagName("body")[0].className+=" appmsg_skin_fontscale_"+map[m[1]];
+        console.log("appmsg_skin_fontscale_:"+map[m[1]]);
+    }
+}
+
+
+(function(){
+    if (window.__second_open__) return; 
+
+    
+
+    var first_js_time = +new Date();
+
+    var showDate="";
+    var svrDate=new Date("1549780669"*1000);
+    var createDate=new Date("1495461756"*1000);
+    var ct="1495461756"*1;
+    var publish_time = "2017-05-22" || "";
+    var cD={
+      year:createDate.getYear(),
+      month:createDate.getMonth()+1,
+      date:createDate.getDate()
+    };
+    
+    svrDate.setHours(0);
+    svrDate.setMinutes(0);
+    svrDate.setSeconds(0);
+    var todayDate=svrDate.getTime()/1000;
+    svrDate.setDate(1);
+    svrDate.setMonth(0);
+    var yearDate=svrDate.getTime()/1000;
+    
+    if(ct>=todayDate){
+      showDate="今天";
+    
+    }else if(ct>=todayDate-60*60*24){
+       showDate="昨天";
+    
+    }else if(ct>=todayDate-2*60*60*24){
+      showDate="前天";
+    }else if(ct>=todayDate-3*60*60*24){
+      showDate="3天前";
+    }else if(ct>=todayDate-4*60*60*24){
+      showDate="4天前";
+    }else if(ct>=todayDate-5*60*60*24){
+      showDate="5天前";
+    }else if(ct>=todayDate-6*60*60*24){
+      showDate="6天前";
+    }else if(ct>=todayDate-2*7*60*60*24){
+      showDate="1周前";
+    }else if(ct>=yearDate){
+      
+      
+      
+      showDate="%s月%s日".replace("%s",cD.month).replace("%s",cD.date);
+    }else{
+      showDate=publish_time;
+    };
+    if(document.getElementById("publish_time")){
+      document.getElementById("publish_time").innerText=showDate;
+    }
+})();
+</script>
+<script nonce="581111034" type="text/javascript">
+
+if (!window.console) window.console = { log: function() {} };
+
+if (typeof getComputedStyle == 'undefined') {
+    if (document.body.currentStyle) {
+        window.getComputedStyle = function(el) {
+            return el.currentStyle;
+        }
+    } else {
+        window.getComputedStyle = {};
+    }
+}
+(function(){
+    window.__zoom = 1;
+    
+    (function(){
+        var validArr = ","+([0.875, 1, 1.125, 1.25, 1.375]).join(",")+",";
+        var match = window.location.href.match(/winzoom=(\d+(?:\.\d+)?)/);
+        if (match && match[1]) {
+            var winzoom = parseFloat(match[1]);
+            if (validArr.indexOf(","+winzoom+",")>=0) {
+                window.__zoom = winzoom;
+            }
+        }
+    })();
+
+    var ua = navigator.userAgent.toLowerCase();
+    var re = new RegExp("msie ([0-9]+[\.0-9]*)");
+    var version;
+    if (re.exec(ua) != null) {
+        version = parseInt(RegExp.$1);
+    }
+    var isIE = false;
+    if (typeof version != 'undefined' && version >= 6 && version <= 9) {
+        isIE = true;
+    }
+    var getMaxWith=function(){
+        var container = document.getElementById('img-content');
+        var max_width = container.offsetWidth;
+        var container_padding = 0;
+        var container_style = getComputedStyle(container);
+        container_padding = parseFloat(container_style.paddingLeft) + parseFloat(container_style.paddingRight);
+        max_width -= container_padding;
+        if (!max_width) {
+            max_width = window.innerWidth - 30;      
+        }
+        return max_width;
+    };
+    var getParentWidth = function(dom){
+        var parent_width = 0;
+        var parent = dom.parentNode;
+        var outerWidth = 0;
+        while (true) {
+            if(!parent||parent.nodeType!=1) break;
+            var parent_style = getComputedStyle(parent);
+            if (!parent_style) break;
+            parent_width = parent.clientWidth - parseFloat(parent_style.paddingLeft) - parseFloat(parent_style.paddingRight) - outerWidth;
+            if (parent_width > 0) break;
+            outerWidth += parseFloat(parent_style.paddingLeft) + parseFloat(parent_style.paddingRight) + parseFloat(parent_style.marginLeft) + parseFloat(parent_style.marginRight) + parseFloat(parent_style.borderLeftWidth) + parseFloat(parent_style.borderRightWidth);
+            parent = parent.parentNode;
+        }
+        return parent_width;
+    }
+    var getOuterW=function(dom){
+        var style=getComputedStyle(dom),
+            w=0;
+        if(!!style){
+            w = parseFloat(style.paddingLeft) + parseFloat(style.paddingRight) + parseFloat(style.borderLeftWidth) + parseFloat(style.borderRightWidth);
+        }
+        return w;
+    };
+    var getOuterH =function(dom){
+        var style=getComputedStyle(dom),
+            h=0;
+        if(!!style){
+            h = parseFloat(style.paddingTop) + parseFloat(style.paddingBottom) + parseFloat(style.borderTopWidth) + parseFloat(style.borderBottomWidth);
+        }
+        return h;
+    };
+    var insertAfter = function(dom,afterDom){
+        var _p = afterDom.parentNode;
+        if(!_p){
+            return;
+        }
+        if(_p.lastChild === afterDom){
+            _p.appendChild(dom);
+        }else{
+            _p.insertBefore(dom,afterDom.nextSibling);
+        }
+    };
+    var getQuery = function(name,url){
+        
+        var u  = arguments[1] || window.location.search,
+            reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)"),
+            r = u.substr(u.indexOf("\?")+1).match(reg);
+        return r!=null?r[2]:"";
+    };
+
+    
+    function setImgSize(item, widthNum, widthUnit, ratio, breakParentWidth) {
+        setTimeout(function () {
+            var img_padding_border = getOuterW(item) || 0;
+            var img_padding_border_top_bottom = getOuterH(item) || 0;
+            
+            if (widthNum > getParentWidth(item) && !breakParentWidth) {
+                widthNum = getParentWidth(item);
+            }
+
+            height = (widthNum - img_padding_border) * ratio + img_padding_border_top_bottom;
+
+            if (isIE) {
+                var url = item.getAttribute('data-src');
+                item.src = url;
+            } else {
+                if(parseFloat(widthNum, 10) > 40 && height > 40 && breakParentWidth) {
+                    item.className += ' img_loading';
+                }
+                item.src = "data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            }
+            item.style.cssText += ";width: " + widthNum + widthUnit + " !important;";
+            item.style.cssText += ";height: " + height + widthUnit + " !important;";
+        }, 10);
+    }
+
+    (function(){
+        var images = document.getElementsByTagName('img');
+        var length = images.length;
+        var max_width = getMaxWith();
+        for (var i = 0; i < length; ++i) {
+            if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var imageItem = images[i];
+            var src_ = imageItem.getAttribute('data-src');
+            var realSrc = imageItem.getAttribute('src');
+            if (!src_ || realSrc) continue;
+            
+            var originWidth = imageItem.getAttribute('data-w');
+            var ratio_ = 1 * imageItem.getAttribute('data-ratio');
+
+            var height = 100;
+            if (ratio_ && ratio_ > 0) {
+                var parent_width = getParentWidth(imageItem) || max_width;
+                var initWidth = imageItem.style.width || imageItem.getAttribute('width') || originWidth || parent_width;
+                initWidth = parseFloat(initWidth, 10) > max_width ? max_width : initWidth;
+                
+                if (initWidth) {
+                    imageItem.setAttribute('_width', !isNaN(initWidth * 1) ? initWidth + 'px' : initWidth);
+                }
+                
+                if (typeof initWidth === 'string' && initWidth.indexOf('%') !== -1) {
+                    initWidth = parseFloat(initWidth.replace('%', ''), 10) / 100 * parent_width;
+                }
+                
+                if (initWidth === 'auto') {
+                    initWidth = originWidth;
+                }
+
+                var res = /^(\d+(?:\.\d+)?)([a-zA-Z%]+)?$/.exec(initWidth);
+                var widthNum = res && res.length >= 2 ? res[1] : 0;
+                var widthUnit = res && res.length >= 3 && res[2] ? res[2] : 'px';
+
+                
+                setImgSize(imageItem, widthNum, widthUnit, ratio_, true);
+                
+                (function (item, widthNumber, unit, ratio) {
+                    setTimeout(function () {
+                        setImgSize(item, widthNumber, unit, ratio, false);
+                    });
+                })(imageItem, widthNum, widthUnit, ratio_);
+            } else {
+                imageItem.style.cssText += ";visibility: hidden !important;";
+            }
+
+        }
+    })();
+    window.__videoDefaultRatio=16/9;
+    window.__getVideoWh = function(dom){
+        var max_width = getMaxWith(),
+            width = max_width,
+            ratio_ = dom.getAttribute('data-ratio')*1,
+            arr = [4/3, 16/9],
+            ret = arr[0],
+            abs = Math.abs(ret - ratio_);
+        if (!ratio_) { 
+            if (dom.getAttribute("data-mpvid")) { 
+                ratio_ = 16/9;
+            } else { 
+                ratio_ = 4/3;
+            }
+        } else { 
+            for (var j = 1, jl = arr.length; j < jl; j++) {
+                var _abs = Math.abs(arr[j] - ratio_);
+                if (_abs < abs) {
+                    abs = _abs;
+                    ret = arr[j];
+                }
+            }
+            ratio_ = ret;
+        }
+        
+        var parent_width = getParentWidth(dom)||max_width,
+            width = width > parent_width ? parent_width : width,
+            outerW = getOuterW(dom)||0,
+            outerH = getOuterH(dom)||0,
+            videoW = width - outerW,
+            videoH = videoW/ratio_,
+            height = videoH + outerH;
+        return {w:Math.ceil(width),h:Math.ceil(height),vh:videoH,vw:videoW,ratio:ratio_};
+    };
+
+
+    (function(){
+        var iframe = document.getElementsByTagName('iframe');
+        for (var i=0,il=iframe.length;i<il;i++) {
+            if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var a = iframe[i];
+            var src_ = a.getAttribute('src')||a.getAttribute('data-src')||"";
+            if(!/^http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)
+                && !/^http(s)*\:\/\/mp\.weixin\.qq\.com\/mp\/readtemplate\?t=pages\/video_player_tmpl/.test(src_)
+            ){
+                continue;
+            }
+            var vid = getQuery("vid",src_);
+            if(!vid){
+                continue;
+            }
+            vid=vid.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,"");
+            a.removeAttribute('src');
+            a.style.display = "none";
+            var obj = window.__getVideoWh(a),
+                videoPlaceHolderSpan = document.createElement('span'),
+                videoPlayerIconSpan = document.createElement('span'),
+                mydiv = document.createElement('img');
+
+            videoPlaceHolderSpan.className = "js_img_loading db";
+            videoPlaceHolderSpan.setAttribute("data-vid", vid);
+            
+
+            videoPlayerIconSpan.className = 'wx_video_context db'; 
+            videoPlayerIconSpan.style.display = 'none';
+            videoPlayerIconSpan.innerHTML = '<span class="wx_video_thumb_primary"></span><button class="wx_video_play_btn">播放</button><span class="wx_video_mask"></span>'; 
+
+            mydiv.className = "img_loading";
+
+            mydiv.src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            
+            
+            videoPlaceHolderSpan.style.cssText = "width: " + obj.w + "px !important;";
+            mydiv.style.cssText += ";width: " + obj.w + "px";
+            videoPlaceHolderSpan.appendChild(videoPlayerIconSpan);
+            videoPlaceHolderSpan.appendChild(mydiv);
+            insertAfter(videoPlaceHolderSpan, a); 
+            
+            a.style.cssText += ";width: " + obj.w + "px !important;";
+            a.setAttribute("width",obj.w);
+            if(window.__zoom!=1){
+                a.style.display = "block";
+                videoPlaceHolderSpan.style.display = "none";
+                a.setAttribute("_ratio",obj.ratio);
+                a.setAttribute("_vid",vid);
+            }else{
+                videoPlaceHolderSpan.style.cssText += "height: " + obj.h + "px !important;";
+                mydiv.style.cssText += "height: " + obj.h + "px !important;";
+                a.style.cssText += "height: " + obj.h + "px !important;";
+                a.setAttribute("height",obj.h);
+            }
+            a.setAttribute("data-vh",obj.vh);
+            a.setAttribute("data-vw",obj.vw);
+            if(a.getAttribute("data-mpvid")){
+                a.setAttribute("data-src",location.protocol+"//mp.weixin.qq.com/mp/readtemplate?t=pages/video_player_tmpl&auto=0&vid="+vid);
+            }else{
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+obj.vw+"&height="+obj.vh+"&auto=0");   
+            }            
+        }
+    })();
+    
+    (function(){
+        if(window.__zoom!=1){
+            if (!window.__second_open__) {
+                document.getElementById('page-content').style.zoom = window.__zoom;
+                var a = document.getElementById('activity-name');
+                var b = document.getElementById('meta_content');
+                if(!!a){
+                    a.style.zoom = 1/window.__zoom;
+                }
+                if(!!b){
+                    b.style.zoom = 1/window.__zoom;
+                }
+            }
+            var images = document.getElementsByTagName('img');
+            for (var i = 0,il=images.length;i<il;i++) {
+                if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                images[i].style.zoom = 1/window.__zoom;
+            }
+            var iframe = document.getElementsByTagName('iframe');
+            for (var i = 0,il=iframe.length;i<il;i++) {
+                if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                var a = iframe[i];
+                a.style.zoom = 1/window.__zoom;
+                var src_ = a.getAttribute('data-src')||"";
+                if(!/http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)){
+                    continue;
+                }
+                var ratio = a.getAttribute("_ratio");
+                var vid = a.getAttribute("_vid");
+                a.removeAttribute("_ratio");
+                a.removeAttribute("_vid");
+                var vw = a.offsetWidth - (getOuterW(a)||0);
+                var vh = vw/ratio;
+                var h = vh + (getOuterH(a)||0)
+                a.style.cssText += "height: " + h + "px !important;"
+                a.setAttribute("height",h);
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+vw+"&height="+vh+"&auto=0");
+                a.style.display = "none";
+                var parent = a.parentNode;
+                if(!parent){
+                    continue;
+                }
+                for(var j=0,jl=parent.children.length;j<jl;j++){
+                    var child = parent.children[j];
+                    if(child.className.indexOf("img_loading")>=0 && child.getAttribute("data-vid")==vid){
+                        child.style.cssText += "height: " + h + "px !important;";
+                        child.style.display = "";
+                    }
+                }
+            }
+        }
+    })();
+})();
+</script>
+<script nonce="581111034" type="text/javascript">
+    var new_appmsg = 1;
+    var item_show_type = "0";
+    var can_see_complaint = "0";
+    var not_in_mm_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm435ee6.css";
+    var windowwx_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+    var article_improve_combo_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo438c19.css";
+    var tid = "";
+    var aid = "";
+    var clientversion = "";
+    var appuin = "MjM5MDI3MjA5MQ=="||"";
+
+    var source = "";
+    var ascene = "";
+    var subscene = "";
+    var sessionid = ""||"";
+    var abtest_cookie = "";
+
+    var scene = 75;
+
+    var itemidx = "";
+    var appmsg_token   = "";
+    var _copyright_stat = "0";
+    var _ori_article_type = "";
+
+    var is_follow = "";
+    var nickname = "携程技术中心";
+    var appmsg_type = "9";
+    var ct = "1495461756";
+    var publish_time = "2017-05-22" || "";
+    var user_name = "gh_50842354ef49";
+    var user_name_new = "";
+    var fakeid   = "";
+    var version   = "";
+    var is_limit_user   = "0";
+    var round_head_img = "http://mmbiz.qpic.cn/mmbiz/kEeDgfCVf1cvObLoiboniaXjl97VqpDCkpeSrNs3H4EAYbtUZhbFfib8dr0R1ARGCqYb6jqaJxAhaCG4whpcbmjgw/0";
+    var hd_head_img = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM5kcibOOL9X7Xzibf3ICllkd1WbcNaVEdrxtktoOd9YEmcg/0"||"";
+    var ori_head_img_url = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM5kcibOOL9X7Xzibf3ICllkd1WbcNaVEdrxtktoOd9YEmcg/132";
+    var msg_title = "干货 | 那些你不知道的爬虫反爬虫套路";
+    var msg_desc = "爬虫与反爬虫，是一个很不阳光的行业。";
+    var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz_png/kEeDgfCVf1fbzTia7lW7kxJvZ0WgibStcRjmiafGI6ibuT11Xicobm1vibf51waABmgflPrIQpDPUrE5UCIrt6zPb4SA/0?wx_fmt=png"; 
+    var cdn_url_1_1  = ""; 
+    var cdn_url_235_1 = ""; 
+    
+    var msg_link = "http://mp.weixin.qq.com/s?__biz=MjM5MDI3MjA5MQ==&amp;mid=2697266133&amp;idx=1&amp;sn=51426072d8ad4c4496795127e9c9f1ae&amp;chksm=8376fce1b40175f76724b8be9d5bfcda3d3759c4fc30f9ee38f776dd832bd5171034e6a3e89d#rd"; 
+    var user_uin = "0"*1;
+    var msg_source_url = '';
+    var img_format = 'png';
+    var srcid = '';
+    var req_id = '1014JM317kwlw6HFMy0lXifQ';
+    var networkType;
+    var appmsgid = '' || '2697266133'|| "";
+    var comment_id = "2735454179" || "2735454179" * 1;
+    var comment_enabled = "" * 1;
+    var is_need_reward = "0" * 1;
+    var is_https_res = ("" * 1) && (location.protocol == "https:");
+    var msg_daily_idx = "1" || "";
+    var profileReportInfo = "" || "";
+
+    var devicetype = "";
+    var source_encode_biz = "";
+    var source_username = "";
+    
+    var reprint_ticket = "";
+    var source_mid = "";
+    var source_idx = "";
+    var source_biz = "";
+    var author_id = "";
+
+    
+    var optimizing_flag = "0" * 1;
+    var ad_abtest_padding = "0" * 1;
+
+    var show_comment = "";
+    var __appmsgCgiData = {
+        wxa_product : ""*1,
+        wxa_cps : ""*1,
+        show_msg_voice: "0"*1,
+        can_use_page : "0"*1,
+        is_wxg_stuff_uin : "0"*1,
+        card_pos : "",
+        copyright_stat : "0",
+        source_biz : "",
+        hd_head_img : "http://wx.qlogo.cn/mmhead/Q3auHgzwzM5kcibOOL9X7Xzibf3ICllkd1WbcNaVEdrxtktoOd9YEmcg/0"||(window.location.protocol+"//"+window.location.host + "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_rumor_link.2x42f400.jpg")
+    };
+    var _empty_v = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/pages/voice/empty42f400.mp3";
+
+    var copyright_stat = "0" * 1;
+
+    var pay_fee = "" * 1;
+    var pay_timestamp = "";
+    var need_pay = "" * 1;
+
+    var need_report_cost = "0" * 1;
+    var use_tx_video_player = "0" * 1;
+    var appmsg_fe_filter = "contenteditable";
+
+    var friend_read_source = "" || "";
+    var friend_read_version = "" || "";
+    var friend_read_class_id = "" || "";
+
+    var is_only_read = "1" * 1;
+    var read_num = "" * 1;
+    var like_num = "" * 1;
+    var liked = "" == 'true' ? true : false;
+    var is_temp_url = "" ? 1 : 0;
+    var send_time = "";
+    var icon_emotion_switch = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch.2x42f400.png";
+    var icon_emotion_switch_active = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch_active.2x42f400.png";
+    var icon_loading_white = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif";
+    var icon_audio_unread = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/audio/icon_audio_unread42f400.png";
+    var icon_qqmusic_default = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_default.2x42f400.png";
+    var icon_qqmusic_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_source42f400.png";
+    var icon_kugou_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/kugou/icon_kugou_source42f400.png";
+
+    var topic_default_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/topic/pic_book_thumb.2x42f400.png';
+    var comment_edit_icon = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg_new/icon_edit42f400.png';
+    var comment_loading_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif';
+
+    var voice_in_appmsg = {
+        "1":"1"
+            };
+
+    var reprint_style = ''*1;
+    var wxa_img_alert = "" != 'false';
+
+    
+    var more_read_type = '0'*1;
+
+    
+    
+    
+    
+
+    
+    var weapp_sn_arr_json = "" || "";
+
+    
+    var ban_scene = "0" * 1;
+
+    var svr_time = "1549780669" * 1;
+    
+    var is_transfer_msg = ""*1||0;
+
+    var malicious_title_reason_id = "0" * 1; 
+    var malicious_content_type = "0" * 1; 
+
+    
+    var modify_time = "";
+
+    
+    var isprofileblock = "0";
+
+    
+    var hotspotInfoList = [
+                    ];
+
+        window.wxtoken = "777";
+        
+    
+    
+    
+    
+    window.is_login = '0' * 1; 
+
+    window.__moon_initcallback = function(){
+        if(!!window.__initCatch){
+            window.__initCatch({
+                idkey : 27611+2,
+                startKey : 0,
+                limit : 128,
+                badjsId: 43,
+                reportOpt : {
+                    uin : uin,
+                    biz : biz,
+                    mid : mid,
+                    idx : idx,
+                    sn  : sn
+                },
+                extInfo : {
+                    network_rate : 0.01,    
+                    badjs_rate: 0.1 
+                }
+            });
+        }
+    }
+        
+    var title ="携程技术中心";
+
+    var is_new_msg=true;
+    
+    
+
+    var is_wash = '' * 1;
+</script>
+
+<script nonce="581111034" type="text/javascript">
+(function(_g){
+    _g.appmsg_like_type = "1" * 1 ? "1" * 1 : 1;
+    
+    _g.clientversion = "";
+    _g.passparam = ""; 
+    if(!_g.msg_link) {
+      _g.msg_link = "http://mp.weixin.qq.com/s?__biz=MjM5MDI3MjA5MQ==&amp;mid=2697266133&amp;idx=1&amp;sn=51426072d8ad4c4496795127e9c9f1ae&amp;chksm=8376fce1b40175f76724b8be9d5bfcda3d3759c4fc30f9ee38f776dd832bd5171034e6a3e89d#rd";
+    }
+    _g.appmsg_type = "9"; 
+    _g.devicetype = ""; 
+})(window);
+
+</script>
+
+
+        <script nonce="581111034">window.__moon_host = 'res.wx.qq.com';window.__moon_mainjs = 'appmsg/index.js';window.moon_map = {"a/appdialog_confirm.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm.html42f400.js","widget/wx_profile_dialog_primary.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/widget/wx_profile_dialog_primary.css42f400.js","pages/iframe_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/iframe_communicate42f400.js","new_video/player.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player.html433882.js","biz_wap/zepto/touch.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/touch42f400.js","biz_wap/zepto/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/event42f400.js","biz_wap/zepto/zepto.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/zepto42f400.js","page/pages/video.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/pages/video.css435ee6.js","a/tpl/smallbanner_msg_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_msg_tpl.html42f400.js","a/tpl/smallbanner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_info_tpl.html42f400.js","a/tpl/banner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_info_tpl.html42f400.js","a/tpl/promote_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/promote_tpl.html42f400.js","a/tpl/smallcard_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallcard_tpl.html42f400.js","a/tpl/info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/info_tpl.html42f400.js","a/tpl/cardticket_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cardticket_tpl.html42f400.js","a/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_tpl.html42f400.js","a/tpl/sponsor_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/sponsor_tpl.html42f400.js","a/tpl/new_cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/new_cpc_tpl.html42f400.js","appmsg/emotion/caret.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/caret42f400.js","biz_wap/utils/localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/localstorage42f400.js","appmsg/friend_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/friend_comment_tpl.html42f400.js","appmsg/comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_tpl.html42f400.js","biz_wap/utils/fakehash.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/fakehash42f400.js","appmsg/comment_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_report42f400.js","a/appdialog_confirm.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm42f400.js","new_video/player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player4306fd.js","a/tpl/mpda_bottom_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/mpda_bottom_tpl.html42f400.js","a/tpl/crt_size_map.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_size_map42f400.js","biz_wap/jsapi/cardticket.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/cardticket42f400.js","biz_common/jquery.md5.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/jquery.md542f400.js","biz_common/utils/emoji_panel_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_panel_data42f400.js","biz_common/utils/emoji_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_data42f400.js","appmsg/emotion/textarea.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/textarea42f400.js","appmsg/emotion/nav.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/nav42f400.js","appmsg/emotion/common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/common42f400.js","appmsg/emotion/slide.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/slide42f400.js","appmsg/emotion/dom.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/dom42f400.js","pages/music_report_conf.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_report_conf42f400.js","pages/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/report4306fd.js","pages/player_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/player_adaptor42f400.js","pages/music_player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_player42f400.js","appmsg/more_read_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read_tpl.html42f400.js","appmsg/retry_ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/retry_ajax42f400.js","complain/tips.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/complain/tips42f400.js","pages/loadscript.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/loadscript42f400.js","biz_wap/utils/ajax_load_js.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_load_js42f400.js","appmsg/comment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment4317dc.js","a/ios.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios42f400.js","a/android.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android42f400.js","a/profile.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile42f400.js","a/app_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/app_card430506.js","a/sponsor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor42f400.js","a/tpl/cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cpc_tpl.html42f400.js","a/video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/video42f400.js","a/a_config.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_config42f400.js","a/tpl/crt_tpl_manager.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_tpl_manager42f400.js","a/cpc_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/cpc_a_tpl.html42f400.js","a/sponsor_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor_a_tpl.html42f400.js","a/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_tpl.html42f400.js","a/mpshop.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpshop42f400.js","a/wxopen_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/wxopen_card42f400.js","a/card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/card42f400.js","biz_wap/utils/position.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/position42f400.js","a/a_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_report42f400.js","biz_wap/utils/show_time.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/show_time42f400.js","biz_common/utils/get_para_list.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/get_para_list42f400.js","biz_wap/utils/openUrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/openUrl42f400.js","a/a_sign.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_sign438181.js","appmsg/my_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/my_comment_tpl.html42f400.js","appmsg/cmt_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cmt_tpl.html42f400.js","sougou/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/a_tpl.html42f400.js","appmsg/emotion/emotion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/emotion42f400.js","biz_common/base64.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/base6442f400.js","biz_common/utils/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report42f400.js","appmsg/articleReport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/articleReport42f400.js","biz_wap/utils/hand_up_state.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/hand_up_state42f400.js","biz_common/utils/http.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/http42f400.js","biz_common/utils/cookie.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie42f400.js","appmsg/topic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/topic_tpl.html42f400.js","pages/weapp_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/weapp_tpl.html42f400.js","biz_common/utils/monitor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/monitor42f400.js","pages/voice_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_tpl.html42f400.js","pages/kugoumusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/kugoumusic_ctrl42f400.js","pages/qqmusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_ctrl42f400.js","pages/voice_component.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_component42f400.js","pages/qqmusic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_tpl.html42f400.js","new_video/ctl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/ctl4306fd.js","appmsg/open_url_with_webview.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/open_url_with_webview4380a9.js","appmsg/more_read.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read42f400.js","appmsg/reward_entry.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/reward_entry42f400.js","appmsg/like.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like43875f.js","pages/version4video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/version4video42f400.js","biz_wap/utils/storage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/storage42f400.js","appmsg/share_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share_tpl.html42f400.js","appmsg/appmsgext.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsgext430b95.js","appmsg/img_copyright_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/img_copyright_tpl.html42f400.js","pages/video_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_ctrl42f400.js","pages/create_txv.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/create_txv42f400.js","appmsg/comment_utils.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_utils42f400.js","biz_common/ui/imgonepx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx42f400.js","appmsg/malicious_wording.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/malicious_wording42f400.js","biz_common/utils/wxgspeedsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/wxgspeedsdk42f400.js","a/a.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a4382e5.js","rt/appmsg/getappmsgext.rt.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/rt/appmsg/getappmsgext.rt42f400.js","pages/video_communicate_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_communicate_adaptor433882.js","biz_wap/utils/ajax_wx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_wx42f400.js","biz_common/utils/respTypes.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/respTypes42f400.js","biz_wap/utils/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/log42f400.js","sougou/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/index42f400.js","biz_wap/safe/mutation_observer_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/mutation_observer_report42f400.js","appmsg/fereport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport438bee.js","appmsg/fereport_without_localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport_without_localstorage438bee.js","appmsg/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report42f400.js","appmsg/report_and_source.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source4380a9.js","appmsg/page_pos.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos431b87.js","appmsg/cdn_speed_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report42f400.js","appmsg/wxtopic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/wxtopic42f400.js","appmsg/weapp.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp433882.js","appmsg/weproduct.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weproduct42f400.js","appmsg/voicemsg.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voicemsg42f400.js","appmsg/autoread.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/autoread42f400.js","appmsg/voice.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voice42f400.js","appmsg/qqmusic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/qqmusic43440b.js","appmsg/iframe.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe433882.js","appmsg/product.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/product42f400.js","appmsg/review_image.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image435a90.js","appmsg/outer_link.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link433882.js","appmsg/copyright_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/copyright_report42f400.js","appmsg/async.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async438bee.js","biz_wap/ui/lazyload_img.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img42f400.js","biz_common/log/jserr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr42f400.js","appmsg/share.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share42f50a.js","appmsg/cdn_img_lib.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib42f400.js","appmsg/finance_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/finance_communicate42f400.js","page/appmsg_new/not_in_mm.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm.css435ee6.js","page/appmsg_new/combo.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo.css438c19.js","biz_wap/utils/wapsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/wapsdk42f400.js","a/mpAdAsync.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpAdAsync4317dc.js","biz_common/utils/url/parse.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse42f400.js","appmsg/appmsg_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsg_report435ac2.js","biz_common/moment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/moment42f400.js","biz_wap/jsapi/core.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core42f400.js","biz_common/dom/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event42f400.js","appmsg/test.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/test42f400.js","biz_wap/utils/mmversion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion42f400.js","appmsg/max_age.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/max_age42f400.js","biz_common/dom/attr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr42f400.js","biz_wap/utils/ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax42f400.js","appmsg/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/log42f400.js","biz_common/dom/class.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class42f400.js","biz_wap/utils/device.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/device42f400.js","appmsg/weapp_common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp_common42f400.js","biz_common/utils/string/html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html42f400.js","cps/tpl/list_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/list_tpl.html42f400.js","cps/tpl/card_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/card_tpl.html42f400.js","cps/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/banner_tpl.html42f400.js","biz_common/tmpl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl42f400.js","appmsg/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index438e37.js"};</script><script nonce="581111034" type="text/javascript" id="moon_inline" > window.__mooninline=1; window.setTimeout(function() {  function __moonf__(){
+if(!window.__moonhasinit){
+window.__moonhasinit=!0,window.__moonclientlog=[],window.__wxgspeeds&&(window.__wxgspeeds.moonloadedtime=+new Date),
+"object"!=typeof JSON&&(window.JSON={
+stringify:function(){
+return"";
+},
+parse:function(){
+return{};
+}
+});
+var e=function(){
+function e(e){
+try{
+var o;
+/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)?o="writeLog":/(Android)/i.test(navigator.userAgent)&&(o="log"),
+o&&t(o,e);
+}catch(n){
+throw console.error(n),n;
+}
+}
+function t(e,o){
+var n,r,i={};
+n=top!=window?top.window:window;
+try{
+r=n.WeixinJSBridge,i=n.document;
+}catch(a){}
+e&&r&&r.invoke?r.invoke(e,{
+level:"info",
+msg:"[WechatFe][moon]"+o
+}):setTimeout(function(){
+i.addEventListener?i.addEventListener("WeixinJSBridgeReady",function(){
+t(e,o);
+},!1):i.attachEvent&&(i.attachEvent("WeixinJSBridgeReady",function(){
+t(e,o);
+}),i.attachEvent("onWeixinJSBridgeReady",function(){
+t(e,o);
+}));
+},0);
+}
+var n;
+localStorage&&JSON.parse(localStorage.getItem("__WXLS__moonarg"))&&"fromls"==JSON.parse(localStorage.getItem("__WXLS__moonarg")).method&&(n=!0),
+e(" moon init, moon_inline:"+window.__mooninline+", moonls:"+n),function(){
+var e={},o={},t={};
+e.COMBO_UNLOAD=0,e.COMBO_LOADING=1,e.COMBO_LOADED=2;
+var n=function(e,t,n){
+if(!o[e]){
+o[e]=n;
+for(var r=3;r--;)try{
+moon.setItem(moon.prefix+e,n.toString()),moon.setItem(moon.prefix+e+"_ver",moon_map[e]);
+break;
+}catch(i){
+moon.clear();
+}
+}
+},r=window.alert;
+window.__alertList=[],window.alert=function(e){
+r(e),window.__alertList.push(e);
+};
+var i=function(e){
+if(!e||!o[e])return null;
+var n=o[e];
+if("function"==typeof n&&!t[e]){
+var a={},s={
+exports:a
+},c=n(i,a,s,r);
+n=o[e]=c||s.exports,t[e]=!0;
+}
+if(".css"===e.substr(-4)){
+var d=document.getElementById(e);
+if(!d){
+d=document.createElement("style"),d.id=e;
+var _=/url\s*\(\s*\/(\"(?:[^\\\"\r\n\f]|\\[\s\S])*\"|'(?:[^\\'\n\r\f]|\\[\s\S])*'|[^)}]+)\s*\)/g,m=window.testenv_reshost||window.__moon_host||"res.wx.qq.com";
+n=n.replace(_,"url(//"+m+"/$1)"),d.innerHTML=n,document.getElementsByTagName("head")[0].appendChild(d);
+}
+}
+return n;
+};
+e.combo_status=e.COMBO_UNLOAD,e.run=function(){
+var o=e.run.info,t=o&&o[0],n=o&&o[1];
+if(t&&e.combo_status==e.COMBO_LOADED){
+var r=i(t);
+n&&n(r);
+}
+},e.use=function(o,t){
+window.__wxgspeeds&&(window.__wxgspeeds.seajs_use_time=+new Date),e.run.info=[o,t],
+e.run();
+},window.define=n,window.seajs=e;
+}(),function(){
+if(window.__nonce_str){
+var e=document.createElement;
+document.createElement=function(o){
+var t=e.apply(this,arguments);
+return"object"==typeof o&&(o=o.toString()),"string"==typeof o&&"script"==o.toLowerCase()&&t.setAttribute("nonce",window.__nonce_str),
+t;
+};
+}
+window.addEventListener&&window.__DEBUGINFO&&Math.random()<.01&&window.addEventListener("load",function(){
+var e=document.createElement("script");
+e.src=__DEBUGINFO.safe_js,e.type="text/javascript",e.async=!0;
+var o=document.head||document.getElementsByTagName("head")[0];
+o.appendChild(e);
+});
+}(),function(){
+function t(e){
+return"[object Array]"===Object.prototype.toString.call(e);
+}
+function n(e){
+return"[object Object]"===Object.prototype.toString.call(e);
+}
+function r(e){
+var t=e.stack+" "+e.toString()||"";
+try{
+if(window.testenv_reshost){
+var n="http(s)?://"+window.testenv_reshost,r=new RegExp(n,"g");
+t=t.replace(r,"");
+}else t=t.replace(/http(s)?:\/\/res\.wx\.qq\.com/g,"");
+for(var r=/\/([^.]+)\/js\/(\S+?)\.js(\,|:)?/g;r.test(t);)t=t.replace(r,function(e,o,t,n){
+return t+n;
+});
+}catch(e){
+t=e.stack?e.stack:"";
+}
+var i=[];
+for(o in u)u.hasOwnProperty(o)&&i.push(o+":"+u[o]);
+return i.push("STK:"+t.replace(/\n/g,"")),i.join("|");
+}
+function i(e){
+if(!e){
+var o=window.onerror;
+window.onerror=function(){},f=setTimeout(function(){
+window.onerror=o,f=null;
+},50);
+}
+}
+function a(e,o,t){
+if(!/^mp\.weixin\.qq\.com$/.test(location.hostname)){
+var n=[];
+t=t.replace(location.href,(location.origin||"")+(location.pathname||"")).replace("#wechat_redirect","").replace("#rd","").split("&");
+for(var r=0,i=t.length;i>r;r++){
+var a=t[r].split("=");
+a[0]&&a[1]&&n.push(a[0]+"="+encodeURIComponent(a[1]));
+}
+var s=new window.Image;
+return void(s.src=(o+n.join("&")).substr(0,1024));
+}
+var c;
+if(window.ActiveXObject)try{
+c=new ActiveXObject("Msxml2.XMLHTTP");
+}catch(d){
+try{
+c=new ActiveXObject("Microsoft.XMLHTTP");
+}catch(_){
+c=!1;
+}
+}else window.XMLHttpRequest&&(c=new XMLHttpRequest);
+c&&(c.open(e,o,!0),c.setRequestHeader("cache-control","no-cache"),c.setRequestHeader("Content-Type","application/x-www-form-urlencoded; charset=UTF-8"),
+c.setRequestHeader("X-Requested-With","XMLHttpRequest"),c.send(t));
+}
+function s(e){
+return function(o,t){
+if("string"==typeof o)try{
+o=new Function(o);
+}catch(n){
+throw n;
+}
+var r=[].slice.call(arguments,2),a=o;
+return o=function(){
+try{
+return a.apply(this,r.length&&r||arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:j,
+log:"timeout_error;host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},e(o,t);
+};
+}
+function c(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this,a=t||function(){};
+return t=function(){
+try{
+return a.apply(r,arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:x,
+log:"listener_error;type:"+o+";host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},a.moon_lid=E,b[E]=t,E++,e.call(r,o,t,n);
+};
+}
+function d(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this;
+return t=b[t.moon_lid],e.call(r,o,t,n);
+};
+}
+var _,m,l,w,u,p,f,h=/MicroMessenger/i.test(navigator.userAgent),g=/MPAPP/i.test(navigator.userAgent),v=window.define,y=0,x=2,O=4,j=9,D=10;
+if(window.__initCatch=function(e){
+_=e.idkey,m=e.startKey||0,l=e.limit,w=e.badjsId,u=e.reportOpt||"",p=e.extInfo||{},
+p.rate=p.rate||.5;
+},window.__moon_report=function(e,o){
+var i=!1,s="";
+try{
+s=top.location.href;
+}catch(c){
+i=!0;
+}
+var d=.5;
+if(p&&p.rate&&(d=p.rate),o&&"number"==typeof o&&(d=o),!(!/mp\.weixin\.qq\.com/.test(location.href)&&!/payapp\.weixin\.qq\.com/.test(location.href)||Math.random()>d||!h&&!g||top!=window&&!i&&!/mp\.weixin\.qq\.com/.test(s))&&(n(e)&&(e=[e]),
+t(e)&&""!=_)){
+var u="",f=[],v=[],y=[],x=[];
+"number"!=typeof l&&(l=1/0);
+for(var j=0;j<e.length;j++){
+var D=e[j]||{};
+if(!(D.offset>l||"number"!=typeof D.offset||D.offset==O&&p&&p.network_rate&&Math.random()>=p.network_rate)){
+var b=1/0==l?m:m+D.offset;
+f[j]="[moon]"+_+"_"+b+";"+D.log+";"+r(D.e||{})||"",v[j]=b,y[j]=1;
+}
+}
+for(var E=0;E<v.length;E++)x[E]=_+"_"+v[E]+"_"+y[E],u=u+"&log"+E+"="+f[E];
+if(x.length>0){
+a("POST",location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?","idkey="+x.join(";")+"&r="+Math.random()+"&lc="+f.length+u);
+var d=1;
+if(p&&p.badjs_rate&&(d=p.badjs_rate),w&&Math.random()<d){
+u=u.replace(/uin\:(.)*\|biz\:(.)*\|mid\:(.)*\|idx\:(.)*\|sn\:(.)*\|/,"");
+var S=new Image,I="https://badjs.weixinbridge.com/badjs?id="+w+"&level=4&from="+encodeURIComponent(location.host)+"&msg="+encodeURIComponent(u);
+S.src=I.slice(0,1024);
+}
+}
+}
+},window.setTimeout=s(window.setTimeout),window.setInterval=s(window.setInterval),
+Math.random()<.01&&window.Document&&window.HTMLElement){
+var b={},E=0;
+Document.prototype.addEventListener=c(Document.prototype.addEventListener),Document.prototype.removeEventListener=d(Document.prototype.removeEventListener),
+HTMLElement.prototype.addEventListener=c(HTMLElement.prototype.addEventListener),
+HTMLElement.prototype.removeEventListener=d(HTMLElement.prototype.removeEventListener);
+}
+var S=window.navigator.userAgent;
+if((/ip(hone|ad|od)/i.test(S)||/android/i.test(S))&&!/windows phone/i.test(S)&&window.localStorage&&window.localStorage.setItem){
+var I=window.localStorage.setItem,L=0;
+window.localStorage.setItem=function(e,o){
+if(!(L>=10))try{
+I.call(window.localStorage,e,o);
+}catch(t){
+t.stack&&console&&console.error&&console.error("[TryCatch]"+t.stack),window.__moon_report([{
+offset:D,
+log:"localstorage_error;"+t.toString(),
+e:t
+}]),L++,L>=3&&window.moon&&window.moon.clear&&moon.clear();
+}
+};
+}
+window.seajs&&v&&(window.define=function(){
+for(var o,t=[],n=arguments&&arguments[0],a=0,s=arguments.length;s>a;a++){
+var c=o=arguments[a];
+"function"==typeof o&&(o=function(){
+try{
+return c.apply(this,arguments);
+}catch(o){
+throw"string"==typeof n&&console.error("[TryCatch][DefineeErr]id:"+n),o.stack&&console&&console.error&&console.error("[TryCatch]"+o.stack),
+_&&window.__moon_report&&(window.__moon_report([{
+offset:y,
+log:"define_error;id:"+n+";",
+e:o
+}]),i(f)),e(" [define_error]"+JSON.stringify(r(o))),o;
+}
+},o.toString=function(e){
+return function(){
+return e.toString();
+};
+}(arguments[a])),t.push(o);
+}
+return v.apply(this,t);
+});
+}(),function(o){
+function t(e,o,t){
+return window.__DEBUGINFO?(window.__DEBUGINFO.res_list||(window.__DEBUGINFO.res_list=[]),
+window.__DEBUGINFO.res_list[e]?(window.__DEBUGINFO.res_list[e][o]=t,!0):!1):!1;
+}
+function n(e){
+var o=new TextEncoder("utf-8").encode(e),t=crypto.subtle||crypto.webkitSubtle;
+return t.digest("SHA-256",o).then(function(e){
+return r(e);
+});
+}
+function r(e){
+for(var o=[],t=new DataView(e),n=0;n<t.byteLength;n+=4){
+var r=t.getUint32(n),i=r.toString(16),a="00000000",s=(a+i).slice(-a.length);
+o.push(s);
+}
+return o.join("");
+}
+function i(e,o,t){
+if("object"==typeof e){
+var n=Object.prototype.toString.call(e).replace(/^\[object (.+)\]$/,function(e,o){
+return o;
+});
+if(t=t||e,"Array"==n){
+for(var r=0,i=e.length;i>r;++r)if(o.call(t,e[r],r,e)===!1)return;
+}else{
+if("Object"!==n&&a!=e)throw"unsupport type";
+if(a==e){
+for(var r=e.length-1;r>=0;r--){
+var s=a.key(r),c=a.getItem(s);
+if(o.call(t,c,s,e)===!1)return;
+}
+return;
+}
+for(var r in e)if(e.hasOwnProperty(r)&&o.call(t,e[r],r,e)===!1)return;
+}
+}
+}
+var a=o.localStorage,s=document.head||document.getElementsByTagName("head")[0],c=1,d=11,_=12,m=13,l=window.__allowLoadResFromMp?1:2,w=window.__allowLoadResFromMp?1:0,u=l+w,p=window.testenv_reshost||window.__moon_host||"res.wx.qq.com",f=new RegExp("^(http(s)?:)?//"+p);
+window.__loadAllResFromMp&&(p="mp.weixin.qq.com",l=0,u=l+w);
+var h={
+prefix:"__MOON__",
+loaded:[],
+unload:[],
+clearSample:!0,
+hit_num:0,
+mod_num:0,
+version:1003,
+cacheData:{
+js_mod_num:0,
+js_hit_num:0,
+js_not_hit_num:0,
+js_expired_num:0,
+css_mod_num:0,
+css_hit_num:0,
+css_not_hit_num:0,
+css_expired_num:0
+},
+init:function(){
+h.loaded=[],h.unload=[];
+var e,t,r;
+if(window.no_moon_ls&&(h.clearSample=!0),a){
+var s="_moon_ver_key_",c=a.getItem(s);
+c!=h.version&&(h.clear(),a.setItem(s,h.version));
+}
+if((-1!=location.search.indexOf("no_moon1=1")||-1!=location.search.indexOf("no_lshttps=1"))&&h.clear(),
+a){
+var d=1*a.getItem(h.prefix+"clean_time"),_=+new Date;
+if(_-d>=1296e6){
+h.clear();
+try{
+!!a&&a.setItem(h.prefix+"clean_time",+new Date);
+}catch(m){}
+}
+}
+i(moon_map,function(i,s){
+if(t=h.prefix+s,r=!!i&&i.replace(f,""),e=!!a&&a.getItem(t),version=!!a&&(a.getItem(t+"_ver")||"").replace(f,""),
+h.mod_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_mod_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_mod_num++,
+h.clearSample||!e||r!=version)h.unload.push(r.replace(f,"")),r&&-1!=r.indexOf(".css")?e?r!=version&&h.cacheData.css_expired_num++:h.cacheData.css_not_hit_num++:r&&-1!=r.indexOf(".js")&&(e?r!=version&&h.cacheData.js_expired_num++:h.cacheData.js_not_hit_num++);else{
+if("https:"==location.protocol&&window.moon_hash_map&&window.moon_hash_map[s]&&window.crypto)try{
+n(e).then(function(e){
+window.moon_hash_map[s]!=e&&console.log(s);
+});
+}catch(c){}
+try{
+var d="//# sourceURL="+s+"\n//@ sourceURL="+s;
+o.eval.call(o,'define("'+s+'",[],'+e+")"+d),h.hit_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_hit_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_hit_num++;
+}catch(c){
+h.unload.push(r.replace(f,""));
+}
+}
+}),h.load(h.genUrl());
+},
+genUrl:function(){
+var e=h.unload;
+if(!e||e.length<=0)return[];
+var o,t,n="",r=[],i={},a=-1!=location.search.indexOf("no_moon2=1"),s="//"+p;
+-1!=location.href.indexOf("moon_debug2=1")&&(s="//mp.weixin.qq.com");
+for(var c=0,d=e.length;d>c;++c){
+/^\/(.*?)\//.test(e[c]);
+var _=/^\/(.*?)\//.exec(e[c]);
+_.length<2||!_[1]||(t=_[1],n=i[t],n?(o=n+","+e[c],o.length>1e3||a?(r.push(n+"?v="+h.version),
+n=location.protocol+s+e[c],i[t]=n):(n=o,i[t]=n)):(n=location.protocol+s+e[c],i[t]=n));
+}
+for(var m in i)i.hasOwnProperty(m)&&r.push(i[m]);
+return r;
+},
+load:function(e){
+if(window.__wxgspeeds&&(window.__wxgspeeds.mod_num=h.mod_num,window.__wxgspeeds.hit_num=h.hit_num),
+!e||e.length<=0)return seajs.combo_status=seajs.COMBO_LOADED,seajs.run(),console.debug&&console.debug("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num),
+void window.__moonclientlog.push("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num);
+seajs.combo_status=seajs.COMBO_LOADING;
+var o=0,t=+new Date;
+window.__wxgspeeds&&(window.__wxgspeeds.combo_times=[],window.__wxgspeeds.combo_times.push(t)),
+i(e,function(n){
+h.request(n,u,function(){
+if(window.__wxgspeeds&&window.__wxgspeeds.combo_times.push(+new Date),o++,o==e.length){
+var n=+new Date-t;
+window.__wxgspeeds&&(window.__wxgspeeds.mod_downloadtime=n),seajs.combo_status=seajs.COMBO_LOADED,
+seajs.run(),console.debug&&console.debug("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms"),
+window.__moonclientlog.push("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms");
+}
+});
+});
+},
+request:function(o,n,r){
+if(o){
+n=n||0,o.indexOf("mp.weixin.qq.com")>-1&&((new Image).src=location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?idkey=27613_32_1&r="+Math.random(),
+window.__moon_report([{
+offset:_,
+log:"load_script_from_mp: "+o
+}],1));
+var i=-1;
+window.__DEBUGINFO&&(__DEBUGINFO.res_list||(__DEBUGINFO.res_list=[]),__DEBUGINFO.res_list.push({
+type:"js",
+status:"pendding",
+start:+new Date,
+end:0,
+url:o
+}),i=__DEBUGINFO.res_list.length-1),-1!=location.search.indexOf("no_lshttps=1")&&(o=o.replace("http://","https://"));
+var a=document.createElement("script");
+a.src=o,a.type="text/javascript",a.async=!0,a.down_time=+new Date,a.onerror=function(s){
+t(i,"status","error"),t(i,"end",+new Date);
+var _=new Error(s);
+if(n>=0)if(w>n){
+var l=o.replace("res.wx.qq.com","mp.weixin.qq.com");
+h.request(l,n,r);
+}else h.request(o,n,r);else window.__moon_report&&window.__moon_report([{
+offset:c,
+log:"load_script_error: "+o,
+e:_
+}],1);
+if(n==w-1&&window.__moon_report([{
+offset:d,
+log:"load_script_error: "+o,
+e:_
+}],1),-1==n){
+var u="ua: "+window.navigator.userAgent+", time="+(+new Date-a.down_time)+", load_script_error -1 : "+o;
+window.__moon_report([{
+offset:m,
+log:u
+}],1);
+}
+window.__moonclientlog.push("moon load js error : "+o+", error -> "+_.toString()),
+e("moon_request_error url:"+o);
+},"undefined"!=typeof moon_crossorigin&&moon_crossorigin&&a.setAttribute("crossorigin",!0),
+a.onload=a.onreadystatechange=function(){
+t(i,"status","loaded"),t(i,"end",+new Date),!a||a.readyState&&!/loaded|complete/.test(a.readyState)||(t(i,"status","200"),
+a.onload=a.onreadystatechange=null,"function"==typeof r&&r());
+},n--,s.appendChild(a),e("moon_request url:"+o+" retry:"+n);
+}
+},
+setItem:function(e,o){
+!!a&&a.setItem(e,o);
+},
+clear:function(){
+a&&(i(a,function(e,o){
+~o.indexOf(h.prefix)&&a.removeItem(o);
+}),console.debug&&console.debug("[moon] clear"));
+},
+idkeyReport:function(e,o,t){
+t=t||1;
+var n=e+"_"+o+"_"+t;
+(new Image).src="/mp/jsmonitor?idkey="+n+"&r="+Math.random();
+}
+};
+seajs&&seajs.use&&"string"==typeof window.__moon_mainjs&&seajs.use(window.__moon_mainjs),
+window.moon=h;
+}(window),function(){
+try{
+Math.random()<1;
+}catch(e){}
+}(),window.moon.init();
+};
+e(),!!window.__moon_initcallback&&window.__moon_initcallback(),window.__wxgspeeds&&(window.__wxgspeeds.moonendtime=+new Date);
+}
+}
+__moonf__(); }, 25);</script><script nonce="581111034" type="text/javascript">
+    var real_show_page_time = +new Date();
+    if (!!window.addEventListener){
+        window.addEventListener("load", function(){
+            window.onload_endtime = +new Date();
+        });
+    }
+
+    
+    if(typeof seajs != 'undefined' && seajs.config){
+        try{
+            seajs.config({
+              'map': [
+                [ '.js', '.js?v=' + (+new Date())]
+              ]
+            });
+        }catch(e){
+            console.info('not support seajs config');
+        }
+    }
+
+    
+</script>
+
+    </body>
+    <script nonce="581111034" type="text/javascript">document.addEventListener("touchstart", function() {},false);</script>
+</html>
+

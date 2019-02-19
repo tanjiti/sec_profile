@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/02/02" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/02/02</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/02/01/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/02/02/index.html">2017/02/02</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/02/03/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Project Zero Bugs @ProjectZeroBugs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Android: RKP Memory Corruption via "rkp_set_init_page_ro" <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=984" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=984</a></p>
+<div class="translated" id="236073">
+<p>﻿" Samsung: RKP Memory Corruption via "rkp_set_init_page_ro"：   <a href="https://t.co/GNjYcLFazY" rel="nofollow">https://t.co/GNjYcLFazY</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Virus Bulletin @virusbtn </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  New paper: The journey and evolution of God Mode in 2016: CVE-2016-0189 <a href="https://www.virusbulletin.com/virusbulletin/2017/01/journey-and-evolution-god-mode-2016-cve-2016-0189/" rel="nofollow">https://www.virusbulletin.com/virusbulletin/2017/01/journey-and-evolution-god-mode-2016-cve-2016-0189/</a> <a href="https://t.co/2YR5NUxUdY" rel="nofollow">https://t.co/2YR5NUxUdY</a></p>
+<div class="translated" id="235972">
+<p>﻿" 2016 年 'God Mode' 的演化历程︰ IE VBScript CVE-2016-0189：   <a href="https://t.co/GWtAEgoGeH" rel="nofollow">https://t.co/GWtAEgoGeH</a> <a href="https://t.co/2YR5NUxUdY" rel="nofollow">https://t.co/2YR5NUxUdY</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C3f1-FzWMAAZeCU.jpg" target="_blank">
+<img src="C3f1-FzWMAAZeCU.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Quan @Quanbto </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Bug Bounty </i>]  Annual Google VRP Blog is out! <a href="https://security.googleblog.com/2017/01/vulnerability-rewards-program-2016-year.html" rel="nofollow">https://security.googleblog.com/2017/01/vulnerability-rewards-program-2016-year.html</a></p>
+<div class="translated" id="235740">
+<p>﻿" Google VRP（漏洞奖励项目） 2016 年总结：   <a href="https://t.co/UWCtwen3PE" rel="nofollow">https://t.co/UWCtwen3PE</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Fuzzing </i>]  Fuzzing results for various interpreters.
+<a href="https://github.com/dyjakan/interpreter-bugs" rel="nofollow">https://github.com/dyjakan/interpreter-bugs</a></p>
+<div class="translated" id="236123">
+<p>﻿" 研究员 Andrzej Dyjak 对 PHP/Python 等解释器的 Fuzz 结果：    <a href="https://t.co/iJFWSC27Do" rel="nofollow">https://t.co/iJFWSC27Do</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Ben Hawkes @benhawkes </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  Ian Beer's exploit for CVE-2017-2370 (kernel memory r/w on iOS 10.2):
+<a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1004" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1004</a></p>
+<div class="translated" id="235912">
+<p>﻿"iOS/MacOS 用户态指针被内核当作长度处理（CVE-2017-2370）:   <a href="https://t.co/Bw6dmviTzz" rel="nofollow">https://t.co/Bw6dmviTzz</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Mike_Mimoso @Mike_Mimoso</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  Three of the vulnerabilities fixed were branded “medium” severity by #OpenSSL #Ubuntu #Linux <a href="https://threatpost.com/latest-ubuntu-update-includes-openssl-fixes/123513/" rel="nofollow">https://threatpost.com/latest-ubuntu-update-includes-openssl-fixes/123513/</a> via @ threatpost</p>
+<div class="translated" id="236102">
+<p>﻿" Ubuntu 上周发布安全更新，其中包括 3 个 OpenSSL 的中危漏洞：   <a href="https://t.co/RI21YrGhq1" rel="nofollow">https://t.co/RI21YrGhq1</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Jacob Soo @_jsoo_</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  MBR勒索木马再度来袭：GoldenEye分析
+<a href="http://www.freebuf.com/articles/system/124134.html" rel="nofollow">http://www.freebuf.com/articles/system/124134.html</a></p>
+<div class="translated" id="235766">
+<p>﻿"MBR勒索木马再度来袭：GoldenEye分析：   <a href="https://t.co/YovSxhn7T8" rel="nofollow">https://t.co/YovSxhn7T8</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Andrew Arnott @aarnott </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> OpenSourceProject </i>]  Microsoft.VisualStudio.Threading is now OSS under the MIT license. <a href="https://github.com/microsoft/vs-threading" rel="nofollow">https://github.com/microsoft/vs-threading</a></p>
+<div class="translated" id="236032">
+<p>﻿"跨平台库 Microsoft.VisualStudio.Threading 开源了：   <a href="https://t.co/TLxwASPCsh" rel="nofollow">https://t.co/TLxwASPCsh</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  GitLab deleted some of your data, accidentally that is     <a href="https://docs.google.com/document/d/1GCK53YDcBWQveod9kfzW-VCxIABGiryG7_z_6jHdVik/pub" rel="nofollow">https://docs.google.com/document/d/1GCK53YDcBWQveod9kfzW-VCxIABGiryG7_z_6jHdVik/pub</a></p>
+<div class="translated" id="236080">
+<p>﻿"GitLab 不小心删除数据库事件的经过：   <a href="https://t.co/GxKd9AjcBQ%C2%A0" rel="nofollow">https://t.co/GxKd9AjcBQ </a> 不想看英文的，可以阅读酷壳上的这篇文章：   <a href="http://coolshell.cn/articles/17680.html" rel="nofollow">http://coolshell.cn/articles/17680.html</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  mandatory/MattBryant @IAmMandatory </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  New Blog Post: Hacking Guatemala’s DNS – Spying on Active Directory Users By Exploiting a TLD Misconfiguration <a href="https://t.co/ZEiyCXH1Rp" rel="nofollow">https://t.co/ZEiyCXH1Rp</a></p>
+<div class="translated" id="235707">
+<p>﻿" Hacking 危地马拉的 DNS — 利用错误配置的 TLD 监视 Active Directory 用户：   <a href="https://t.co/ZEiyCXH1Rp" rel="nofollow">https://t.co/ZEiyCXH1Rp</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Aurelien Thierry @yaps8 </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Here are our slides from #reconbrx (cc @  coldshell) <a href="https://drive.google.com/open?id=0B7tZ-FlDxlt8RE5nSVlIdlJiSFk" rel="nofollow">https://drive.google.com/open?id=0B7tZ-FlDxlt8RE5nSVlIdlJiSFk</a> <a href="https://twitter.com/binitamshah/status/826092521684078599" rel="nofollow">https://twitter.com/binitamshah/status/826092521684078599</a></p>
+<div class="translated" id="236013">
+<p>﻿"grap - 定义和匹配二进制程序中的图模型，来自 RECon 会议：   <a href="https://t.co/Lzv1V9qe6w" rel="nofollow">https://t.co/Lzv1V9qe6w</a> <a href="https://t.co/UC1qKIFqVw" rel="nofollow">https://t.co/UC1qKIFqVw</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Jacob Soo @_jsoo_</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  安全客2016年刊—汇聚全年安全圈优秀技术文章
+<a href="http://bobao.360.cn/download/book/security-geek-2016-A.pdf" rel="nofollow">http://bobao.360.cn/download/book/security-geek-2016-A.pdf</a>
+<a href="http://bobao.360.cn/download/book/security-geek-2016-B.pdf" rel="nofollow">http://bobao.360.cn/download/book/security-geek-2016-B.pdf</a></p>
+<div class="translated" id="235770">
+<p>﻿"安全客 2016 年刊 — 汇聚全年安全圈优秀技术文章：   <a href="https://t.co/L56w7LFZ7b" rel="nofollow">https://t.co/L56w7LFZ7b</a> <a href="https://t.co/HhVdGhOn0F" rel="nofollow">https://t.co/HhVdGhOn0F</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Erlend Oftedal @webtonull </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Web Security </i>]  Time to patch your Jenkins again: <a href="https://wiki.jenkins-ci.org/display/SECURITY/Jenkins+Security+Advisory+2017-02-01" rel="nofollow">https://wiki.jenkins-ci.org/display/SECURITY/Jenkins+Security+Advisory+2017-02-01</a></p>
+<div class="translated" id="236063">
+<p>﻿"Java jenkins 2 月份的安全公告︰   <a href="https://t.co/hDPLRlL32s" rel="nofollow">https://t.co/hDPLRlL32s</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Casey Smith @subTee </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  [Interesting Read] 
+Abusing native Windows functions for shellcode execution
+<a href="http://ropgadget.com/posts/abusing_win_functions.html" rel="nofollow">http://ropgadget.com/posts/abusing_win_functions.html</a></p>
+<div class="translated" id="235725">
+<p>﻿" 滥用带有 callback 参数的 Windows Native API 实现 Shellcode 的执行：   <a href="https://t.co/Y3HVw8vntw" rel="nofollow">https://t.co/Y3HVw8vntw</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/02/01/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/02/02/index.html">2017/02/02</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/02/03/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/03/04" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/03/04</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/03/03/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/03/04/index.html">2016/03/04</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/03/05/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Carlos Castillo @carlosacastillo </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Attack on Zygote: a new twist in the evolution of mobile threats <a href="https://goo.gl/SjQ1mk" rel="nofollow">https://goo.gl/SjQ1mk</a></p>
+<div class="translated" id="106192">
+<p>﻿"对 Zygote 的攻击 - 手机上的威胁一直在进化发展, 攻击者开始用 ROOT 工具传播复杂的手机木马. 来自 Kaspersky Blog:    <a href="https://t.co/BkSqUl3IJ5" rel="nofollow">https://t.co/BkSqUl3IJ5</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Paul Sabanal @polsab </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  @ MarkYason on WinRT PDF: <a href="https://securityintelligence.com/winrt-pdf-a-potential-route-for-attacking-edge/" rel="nofollow">https://securityintelligence.com/winrt-pdf-a-potential-route-for-attacking-edge/</a></p>
+<div class="translated" id="106101">
+<p>﻿"WinRT PDF 是 Edge 浏览器的一个新的攻击界面, WinRT PDF 是 Edge 浏览器用于处理 PDF 文件的类库,最早出现在 Windows 8:   <a href="https://t.co/GNUuNSQNS5%C2%A0" rel="nofollow">https://t.co/GNUuNSQNS5 </a> 这篇 Blog 的作者 Mark Yason 在这几天的 RSA 2016 会议上也有一个相关的演讲&lt; EdgeHTML 引擎的攻击界面和漏洞利用缓解技术&gt;:   <a href="http://www.rsaconference.com/writable/presentations/file_upload/hta-w04-understanding-the-attack-surface-and-attack-resilience-of-edgehtml.pdf" rel="nofollow">http://www.rsaconference.com/writable/presentations/file_upload/hta-w04-understanding-the-attack-surface-and-attack-resilience-of-edgehtml.pdf</a> Edge "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Mark Russinovich @markrussinovich </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Defend </i>]  Slides from my @ RSAConference session, "Machine Learning and the Cloud: Disrupting Threat Detection and Prevention" <a href="https://onedrive.live.com/redir?resid=D026B4699190F1E6%212574&amp;authkey=%21AP2orZJTO6RhYiM&amp;ithint=file%2Cpptx" rel="nofollow">https://onedrive.live.com/redir?resid=D026B4699190F1E6!2574&amp;authkey=!AP2orZJTO6RhYiM&amp;ithint=file%2cpptx</a></p>
+<div class="translated" id="105921">
+<p>﻿"基于机器学习和云的威胁检测、防护技术， 来自微软在 RSA 2016 会议的演讲（Slides）：    <a href="https://t.co/BntSOeTP7z" rel="nofollow">https://t.co/BntSOeTP7z</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Nͣͥͬͩͣ̂̂̂̂̂̂̂̂̂̂ @irongeek_adc </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Defend </i>]  Sucker-punching Malware: A Case Study in Using Bad Malware Design Against Attackers
+ Bambenek, Modi for @ bsidessf <a href="http://ig2.me/bm" rel="nofollow">http://ig2.me/bm</a></p>
+<div class="translated" id="105981">
+<p>﻿" 利用恶意软件设计上的错误反击攻击者， 来自 Bsides 会议（视频）：    <a href="https://t.co/AHxBl6EXq7" rel="nofollow">https://t.co/AHxBl6EXq7</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Mark Russinovich @markrussinovich </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Detect </i>]  Slides from my @ RSAConference session "Tracking Hackers on Your Network with Sysinternals Sysmon" <a href="https://onedrive.live.com/redir?resid=D026B4699190F1E6%212575&amp;authkey=%21AGFBok7JLkOZSgE&amp;ithint=file%2Cpptx" rel="nofollow">https://onedrive.live.com/redir?resid=D026B4699190F1E6!2575&amp;authkey=!AGFBok7JLkOZSgE&amp;ithint=file%2cpptx</a></p>
+<div class="translated" id="105922">
+<p>﻿"利用 Sysinternals Sysmon 工具追踪内网中的黑客，黑客是怎么攻击进来的？横向渗透了吗？  来自 RSA 2016 会议（Slides）：   <a href="https://t.co/vDxc5Dp0uO" rel="nofollow">https://t.co/vDxc5Dp0uO</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Nͣͥͬͩͣ̂̂̂̂̂̂̂̂̂̂ @irongeek_adc </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Detect </i>]  Advanced techniques for real-time detection of polymorphic malware
+ Ajit Thyagarajan fpr @ bsidessf <a href="http://ig2.me/bv" rel="nofollow">http://ig2.me/bv</a></p>
+<div class="translated" id="105972">
+<p>﻿"多态恶意软件的实时检测技术， 来自 Ajit Thyagarajan 在 BsidesSF 2016 会议的演讲（视频）：    <a href="https://t.co/y6ZY0Rp3K0" rel="nofollow">https://t.co/y6ZY0Rp3K0</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Nͣͥͬͩͣ̂̂̂̂̂̂̂̂̂̂ @irongeek_adc </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Detect </i>]  The Ransomware Threat: Tracking the Digital Footprints
+ Kevin Bottomley for @ bsidessf <a href="http://ig2.me/bq" rel="nofollow">http://ig2.me/bq</a></p>
+<div class="translated" id="105977">
+<p>﻿"跟踪勒索软件的数字指纹信息, 来自 Bsides 2016 会议(视频):   <a href="https://t.co/Rr80KeNene" rel="nofollow">https://t.co/Rr80KeNene</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Fuzzing </i>]  Coverage-guided kernel fuzzing with syzkaller  <a href="https://lwn.net/SubscriberLink/677764/02236e45d8b181f0/" rel="nofollow">https://lwn.net/SubscriberLink/677764/02236e45d8b181f0/</a></p>
+<div class="translated" id="106040">
+<p>﻿"基于 syzkaller、 覆盖率为制导的 Linux 内核 Fuzz, 来自 LWN 网站:    <a href="https://t.co/lygxfssJcs" rel="nofollow">https://t.co/lygxfssJcs</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  halvarflake @halvarflake </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Hardware </i>]  I am giving a short talk tonight in Singapore (on lessons I learnt from Rowhammer). My slides are here: <a href="https://docs.google.com/presentation/d/1x7syhRv8Kxi78fpbcp4vSsslriGOj5cuHUgCUuZcZ3U/edit?usp=sharing" rel="nofollow">https://docs.google.com/presentation/d/1x7syhRv8Kxi78fpbcp4vSsslriGOj5cuHUgCUuZcZ3U/edit?usp=sharing</a></p>
+<div class="translated" id="105971">
+<p>﻿"Rowhammer 教会我的三件事儿(PDF):   <a href="https://t.co/Wn3S1vlefg" rel="nofollow">https://t.co/Wn3S1vlefg</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Matt Oh @ohjeongwook</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> IoTDevice </i>]  Rediscovering NetUSB vulnerability <a href="http://blog.newskysecurity.com/2016/02/rediscovery-of-netusb-vulnerability-in-broadband-routers/" rel="nofollow">http://blog.newskysecurity.com/2016/02/rediscovery-of-netusb-vulnerability-in-broadband-routers/</a></p>
+<div class="translated" id="105942">
+<p>﻿"Netgear R6050 路由器 NetUSB 缓冲区溢出漏洞的再次发现(之前被 SEC Consult 发现并报告过, CVE-2015-3036):   <a href="https://t.co/XxQby2MmxL" rel="nofollow">https://t.co/XxQby2MmxL</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  TDSS botnet: full disclosure : <a href="http://www.nobunkum.ru/analytics/en-tdss-botnet" rel="nofollow">http://www.nobunkum.ru/analytics/en-tdss-botnet</a></p>
+<div class="translated" id="106082">
+<p>﻿"TDSS 僵尸网络全面披露, Blog:   <a href="https://t.co/Cp5hoBgouC" rel="nofollow">https://t.co/Cp5hoBgouC</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Fabio Assolini @assolini </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  First step in cross-platform Trojan bankers from Brazil done | Securelist <a href="https://securelist.com/blog/research/74051/first-step-in-cross-platform-trojan-bankers-from-brazil-done/" rel="nofollow">https://securelist.com/blog/research/74051/first-step-in-cross-platform-trojan-bankers-from-brazil-done/</a> (by @ dimitribest) <a href="https://t.co/QjakXsRHEn" rel="nofollow">https://t.co/QjakXsRHEn</a></p>
+<div class="translated" id="106106">
+<p>﻿"kaspersky 对来自巴西的跨平台木马的初始组件 'Banloader' 的分析:   <a href="https://t.co/qhePzZpfay" rel="nofollow">https://t.co/qhePzZpfay</a> <a href="https://t.co/QjakXsRHEn%C2%A0" rel="nofollow">https://t.co/QjakXsRHEn </a> 这款木马可以运行在 Linux, OS X, Windows. Blog 中提到, 巴西的攻击者们一直在和俄罗斯 '同事们' 比赛 "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CcosMZ5WwAA_DCQ.jpg" target="_blank">
+<img src="CcosMZ5WwAA_DCQ.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>securxcess @securxcess</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  PHP ransomware attacks blogs, websites, content managers and more… – Naked Security <a href="http://ow.ly/Z0vlj" rel="nofollow">http://ow.ly/Z0vlj</a></p>
+<div class="translated" id="105883">
+<p>﻿"PHP 勒索攻击，攻击博客、网站、CMS等等， 来自 Naked Security Blog：   <a href="https://t.co/JaynQ8C5Ir" rel="nofollow">https://t.co/JaynQ8C5Ir</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Wayne Crowder @wacbass </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  Excellent #malware research blog by @ benkow_ about hunting for indicators on a TeslaCrypt server. <a href="http://thisissecurity.net/2016/03/02/lets-ride-with-teslacrypt/" rel="nofollow">http://thisissecurity.net/2016/03/02/lets-ride-with-teslacrypt/</a> #ransomware #yolo</p>
+<div class="translated" id="105894">
+<p>﻿" TeslaCrypt  勒索软件的攻击向量和回连服务器分析， Blog：    <a href="https://t.co/kA3tmWqPQy" rel="nofollow">https://t.co/kA3tmWqPQy</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>TrendLabs @TrendLabs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  New post: Macro Malware Strides in New Direction, Uses Forms to Store its Code <a href="http://bit.ly/1Qvmlxh" rel="nofollow">http://bit.ly/1Qvmlxh</a> @ TrendMicro</p>
+<div class="translated" id="106212">
+<p>﻿"宏恶意软件的新攻击方向 - 把代码放入 UserForm（用户窗体）中， 来自 TrendMicro Blog：   <a href="https://t.co/NXlrzPPEeM" rel="nofollow">https://t.co/NXlrzPPEeM</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Cuckoo Sandbox @cuckoosandbox </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  Loading Cuckoo Sandbox results in IDA Pro <a href="https://github.com/arbor-jjones/idataco" rel="nofollow">https://github.com/arbor-jjones/idataco</a></p>
+<div class="translated" id="106079">
+<p>﻿"将 Cuckoo 沙盒的分析结果导入 IDA Pro，用于恶意软件分析， Github Repo：    <a href="https://t.co/8NdBNGd4L1%C2%A0" rel="nofollow">https://t.co/8NdBNGd4L1 </a> 这个分析工具、方法作者专门在 RuxCon 会议讲过一次， 这个 Repo 中有这个 Slides"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  SANS DFIR @sansforensics </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  Zena Forensics Blog: Analysis of a Dridex maldoc pre-Locky - The latest trends on the security threat landscape... <a href="http://ow.ly/3bWEdV" rel="nofollow">http://ow.ly/3bWEdV</a></p>
+<div class="translated" id="105965">
+<p>﻿"Zena Blog 对 Dridex 样本简单分析后认为， Locky 和 Dridex 背后的攻击者是同一个：    <a href="https://t.co/fGBunQN828" rel="nofollow">https://t.co/fGBunQN828</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>securxcess @securxcess</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> NetworkDevice </i>]  Cisco Nexus 3000 Series and 3500 Platform Switches Insecure Default Credentials Vulnerability <a href="http://ow.ly/Z0pgV" rel="nofollow">http://ow.ly/Z0pgV</a></p>
+<div class="translated" id="105868">
+<p>﻿"Cisco Nexus 3000 系列和 3500 平台交换机默认静态密码漏洞, 来自 Cisco 的公告:    <a href="https://t.co/G7lhO4nIwN" rel="nofollow">https://t.co/G7lhO4nIwN</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Quequero @quequero</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Decompiler Design: <a href="http://www.backerstreet.com/decompiler/introduction.htm" rel="nofollow">http://www.backerstreet.com/decompiler/introduction.htm</a> in case somebody feels adventurous <a href="https://t.co/hbtG5RwUBB" rel="nofollow">https://t.co/hbtG5RwUBB</a></p>
+<div class="translated" id="106140">
+<p>﻿"反编译器设计文档:   <a href="https://t.co/PraOnZ7wlR%C2%A0" rel="nofollow">https://t.co/PraOnZ7wlR </a> <a href="https://t.co/hbtG5RwUBB" rel="nofollow">https://t.co/hbtG5RwUBB</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CcpAfr-XIAEoW03.jpg" target="_blank">
+<img src="CcpAfr-XIAEoW03.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Sandbox </i>]  AppLocker Execution Prevention Bypass <a href="https://packetstormsecurity.com/files/136057/applocker_bypass.rb.txt" rel="nofollow">https://packetstormsecurity.com/files/136057/applocker_bypass.rb.txt</a></p>
+<div class="translated" id="105930">
+<p>﻿"AppLocker 执行保护 Bypass PoC：   <a href="https://t.co/vwkG0vlyJr%C2%A0" rel="nofollow">https://t.co/vwkG0vlyJr </a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>jsoo @_jsoo_</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> ThirdParty </i>]  OpenSSL CVE-2016-0800和CVE-2016-0703漏洞修复细节拾趣 - <a href="http://blogs.360.cn/blog/openssl-cve-2016-0800%E5%92%8Ccve-2016-0703%E6%BC%8F%E6%B4%9E%E4%BF%AE%E5%A4%8D%E7%BB%86%E8%8A%82%E6%8B%BE%E8%B6%A3/" rel="nofollow">http://blogs.360.cn/blog/openssl-cve-2016-0800%e5%92%8ccve-2016-0703%e6%bc%8f%e6%b4%9e%e4%bf%ae%e5%a4%8d%e7%bb%86%e8%8a%82%e6%8b%be%e8%b6%a3/</a></p>
+<div class="translated" id="106165">
+<p>﻿"OpenSSL CVE-2016-0800 和 CVE-2016-0703 漏洞修复细节拾趣, 来自 360 Blog:   <a href="https://t.co/wLnyDHVjWM" rel="nofollow">https://t.co/wLnyDHVjWM</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Florian Roth @Cyb3rOps </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  <a href="http://commandlinefu.com" rel="nofollow">http://commandlinefu.com</a>
+Still my fav page for command line hacks
+&gt; All-time sort by votes
+<a href="http://www.commandlinefu.com/commands/browse/sort-by-votes" rel="nofollow">http://www.commandlinefu.com/commands/browse/sort-by-votes</a> <a href="https://t.co/zirFX2oJZk" rel="nofollow">https://t.co/zirFX2oJZk</a></p>
+<div class="translated" id="106112">
+<p>﻿"  <a href="https://t.co/2Sg036AvLt" rel="nofollow">https://t.co/2Sg036AvLt</a> 按投票排名的命令行工具:   <a href="https://t.co/C5rSn2JnXa" rel="nofollow">https://t.co/C5rSn2JnXa</a> <a href="https://t.co/zirFX2oJZk" rel="nofollow">https://t.co/zirFX2oJZk</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CcovtWWWwAEwqdS.jpg" target="_blank">
+<img src="CcovtWWWwAEwqdS.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Xavier Mertens @xme </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  [/dev/random] Running #MISP in a #Docker Container <a href="https://blog.rootshell.be/?p=30204" rel="nofollow">https://blog.rootshell.be/?p=30204</a></p>
+<div class="translated" id="106205">
+<p>﻿"在 Docker 容器中运行 MISP(恶意软件共享平台):   <a href="https://t.co/c0nnY3eaWs%C2%A0" rel="nofollow">https://t.co/c0nnY3eaWs </a> MISP 是一个用于在多个合作厂商之间交换 IOC 信息的平台, Github Repo:   <a href="https://github.com/MISP/MISP" rel="nofollow">https://github.com/MISP/MISP</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Satoshi Tanda @standa_t</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Virtualization </i>]  Wrote a hypervisor as a platform on Windows. Let me know if you find any issues. <a href="https://github.com/tandasat/HyperPlatform" rel="nofollow">https://github.com/tandasat/HyperPlatform</a></p>
+<div class="translated" id="106074">
+<p>﻿"HyperPlatform - 为 Windows 写的一个基于 Intel VT-x 的 hypervisor, Github Repo:     <a href="https://t.co/qeR1hQnXb3" rel="nofollow">https://t.co/qeR1hQnXb3</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Satoshi Tanda @standa_t </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Amazing work. Positive Research Center: Microsoft Windows 8.1 Kernel Patch Protection Analysis &amp; Attack Vectors <a href="http://blog.ptsecurity.com/2014/09/microsoft-windows-81-kernel-patch.html" rel="nofollow">http://blog.ptsecurity.com/2014/09/microsoft-windows-81-kernel-patch.html</a></p>
+<div class="translated" id="106157">
+<p>﻿" Windows 8.1 Kernel Patch 保护技术和攻击向量分析， 来自 PtSecurity 2014 年的一篇 Blog：    <a href="http://t.co/h4GsgkObsg" rel="nofollow">http://t.co/h4GsgkObsg</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Giuseppe `N3mes1s` @gN3mes1s</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Windows 10 Device Guard and Credential Guard Demystified - <a href="http://blogs.technet.com/b/ash/archive/2016/03/02/windows-10-device-guard-and-credential-guard-demystified.aspx" rel="nofollow">http://blogs.technet.com/b/ash/archive/2016/03/02/windows-10-device-guard-and-credential-guard-demystified.aspx</a></p>
+<div class="translated" id="105944">
+<p>﻿"Windows 10 Device Guard 和 Credential Guard 特性探究, 来自 Ash de Zylva 的 Blog:   <a href="https://t.co/ZNnBnGSZwh" rel="nofollow">https://t.co/ZNnBnGSZwh</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/03/03/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/03/04/index.html">2016/03/04</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/03/05/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

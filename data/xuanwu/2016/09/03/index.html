@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/09/03" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/09/03</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/09/02/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/09/03/index.html">2016/09/03</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/09/04/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Black Hat @BlackHatEvents</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Conference </i>]  “Breaking BHAD: Abusing Belkin Home Automation Devices” heap overflow, SQL injection, &amp; code injection 0-days #BHEU <a href="http://ow.ly/EcWg303Oem0" rel="nofollow">http://ow.ly/EcWg303Oem0</a></p>
+<div class="translated" id="179352">
+<p>﻿" BlackHat Europe 会议将于 11 月 3 ～ 4 号在伦敦举办，会议的大部分议题已经公布了：   <a href="https://www.blackhat.com/eu-16/briefings.html" rel="nofollow">https://www.blackhat.com/eu-16/briefings.html</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nikolaos Chrysaidos @virqdroid</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  A Peek Under the Hood of iOS Malware
+Paper: <a href="https://webdiis.unizar.es/~ricardo/files/papers/GR-WMA-16.pdf" rel="nofollow">https://webdiis.unizar.es/~ricardo/files/papers/GR-WMA-16.pdf</a>
+Samples: <a href="https://webdiis.unizar.es/~ricardo/software-tools/supplementary-research-material/ios-malware-samples/" rel="nofollow">https://webdiis.unizar.es/~ricardo/software-tools/supplementary-research-material/ios-malware-samples/</a> (by @  RicardoJRdez)</p>
+<div class="translated" id="179338">
+<p>﻿" 对 2009-2015 年间的 36 个 iOS 恶意软件家族的分析，Paper ︰   <a href="https://t.co/k7VvPCb1OB%C2%A0%C2%A0" rel="nofollow">https://t.co/k7VvPCb1OB  </a> 样本︰   <a href="https://t.co/xKlLu9GE0B" rel="nofollow">https://t.co/xKlLu9GE0B</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Mike_Mimoso @Mike_Mimoso</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  .@ Apple Patches #Trident Vulnerabilities in #OSX, #Safari: <a href="https://threatpost.com/apple-patches-trident-vulnerabilities-in-os-x-safari/120336/" rel="nofollow">https://threatpost.com/apple-patches-trident-vulnerabilities-in-os-x-safari/120336/</a> via @ threatpost</p>
+<div class="translated" id="179360">
+<p>﻿" 前两周 iOS 被曝了 3 个漏洞，之后 iOS 9.3.5 版本发布，修复了这些漏洞。这两天苹果也为 OS X 和 Safari 发布了针对这些漏洞的补丁更新:   <a href="https://t.co/21adneBw7J" rel="nofollow">https://t.co/21adneBw7J</a> 通过 @threatpost"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Bit Curves @bitcurves </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  Analysis and PoC of the iOS &amp; OSX PEGASUS kernel exploit by @ i0n1c (great example of deserialization use-after-free)
+<a href="http://sektioneins.de/en/blog/16-09-02-pegasus-ios-kernel-vulnerability-explained.html" rel="nofollow">http://sektioneins.de/en/blog/16-09-02-pegasus-ios-kernel-vulnerability-explained.html</a></p>
+<div class="translated" id="179451">
+<p>﻿" PEGASUS iOS 内核漏洞的分析（CVE-2016-4656，附 PoC）：    <a href="https://t.co/xteEFdDxa8" rel="nofollow">https://t.co/xteEFdDxa8</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Iván @aszy</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  Counter-measures against stack buffer overflows in GNU/Linux operating systems <a href="http://ac.els-cdn.com/S1877050916303039/1-s2.0-S1877050916303039-main.pdf?_tid=f21d2dc4-70f5-11e6-99a0-00000aab0f27&amp;acdnat=1472811411_8134597dca7b9d6ace3dd5b3f1032110" rel="nofollow">http://ac.els-cdn.com/S1877050916303039/1-s2.0-S1877050916303039-main.pdf?_tid=f21d2dc4-70f5-11e6-99a0-00000aab0f27&amp;acdnat=1472811411_8134597dca7b9d6ace3dd5b3f1032110</a></p>
+<div class="translated" id="179318">
+<p>﻿" GNU/Linux 操作系统针对栈缓冲区溢出漏洞的对策，Paper：   <a href="https://t.co/KfEFlMBBLj" rel="nofollow">https://t.co/KfEFlMBBLj</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Artem I. Baranov @artem_i_baranov </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  Our analysis of TorrentLocker crypto-ransomware evolution <a href="http://www.welivesecurity.com/2016/09/01/torrentlocker-crypto-ransomware-still-active-using-tactics/" rel="nofollow">http://www.welivesecurity.com/2016/09/01/torrentlocker-crypto-ransomware-still-active-using-tactics/</a> #malware #ransomware #filecoder #cybercrime</p>
+<div class="translated" id="179227">
+<p>﻿" TorrentLocker 加密勒索软件依然在活着：   <a href="https://t.co/V48NXYjbnl" rel="nofollow">https://t.co/V48NXYjbnl</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Quequero @quequero</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  Ursnif malware: Deep Technical Dive: <a href="http://www.seculert.com/blogs/ursnif-deep-technical-dive" rel="nofollow">http://www.seculert.com/blogs/ursnif-deep-technical-dive</a> <a href="https://t.co/Oe5p8NcWDQ" rel="nofollow">https://t.co/Oe5p8NcWDQ</a></p>
+<div class="translated" id="179322">
+<p>﻿"Ursnif 恶意软件技术分析，Ursnif 可以从浏览器和 Outlook 偷数据︰   <a href="https://t.co/vIKXbsMODW" rel="nofollow">https://t.co/vIKXbsMODW</a> <a href="https://t.co/Oe5p8NcWDQ" rel="nofollow">https://t.co/Oe5p8NcWDQ</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CrWAtLTVYAArK6b.png" target="_blank">
+<img src="CrWAtLTVYAArK6b.png">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Jackson Davis @jcdavis </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  How the JVM compares your strings using the craziest x86 instruction you've never heard of <a href="http://jcdav.is/2016/09/01/How-the-JVM-compares-your-strings/" rel="nofollow">http://jcdav.is/2016/09/01/How-the-JVM-compares-your-strings/</a> (new blog post)</p>
+<div class="translated" id="179237">
+<p>﻿" Java 虚拟机 JVM 是如何比较字符串的：   <a href="https://t.co/54N4iFURQa" rel="nofollow">https://t.co/54N4iFURQa</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Hakin9 @Hakin9 </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Pentest </i>]  DyMerge - Dynamic Dictionary Merger <a href="http://bit.ly/2cvwodZ" rel="nofollow">http://bit.ly/2cvwodZ</a> #github #hacking #hackers #pentest #infosec #cyber <a href="https://t.co/HEGvbw2CtB" rel="nofollow">https://t.co/HEGvbw2CtB</a></p>
+<div class="translated" id="179436">
+<p>﻿"DyMerge - 动态字典合并工具：   <a href="https://t.co/RWDWdVUoI9" rel="nofollow">https://t.co/RWDWdVUoI9</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CrWMlvkWgAApJy-.jpg" target="_blank">
+<img src="CrWMlvkWgAApJy-.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Matt Graeber @mattifestation</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  This is cool. MS is starting to document process mitigation options Group Policy settings. <a href="https://technet.microsoft.com/en-us/itpro/windows/keep-secure/override-mitigation-options-for-app-related-security-policies" rel="nofollow">https://technet.microsoft.com/en-us/itpro/windows/keep-secure/override-mitigation-options-for-app-related-security-policies</a> So is EMET dead on Win10?</p>
+<div class="translated" id="179223">
+<p>﻿" 利用组策略改写进程缓解选项，强化 APP 相关的安全配置：   <a href="https://t.co/LcwQKGL2ZH" rel="nofollow">https://t.co/LcwQKGL2ZH</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Jacob Soo @_jsoo_</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Didn't know there was such a project.
+
+Destroy Windows 10 Spying - <a href="https://github.com/Nummer/Destroy-Windows-10-Spying" rel="nofollow">https://github.com/Nummer/Destroy-Windows-10-Spying</a></p>
+<div class="translated" id="179293">
+<p>﻿" Destroy Windows 10 Spying - 禁用 Windows 10 与隐私、监控相关的模块和服务：   <a href="https://t.co/oUxf0g6Eky" rel="nofollow">https://t.co/oUxf0g6Eky</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/09/02/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/09/03/index.html">2016/09/03</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/09/04/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

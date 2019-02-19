@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/06/20" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/06/20</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/06/19/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/06/20/index.html">2016/06/20</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/06/21/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Peter Pi @heisecode</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Upload some Android/Mac/iOS POCs, not well written but can take a look <a href="https://github.com/heisecode/Bug_POCs" rel="nofollow">https://github.com/heisecode/Bug_POCs</a> <a href="https://twitter.com/heisecode/status/743564423881601024" rel="nofollow">https://twitter.com/heisecode/status/743564423881601024</a></p>
+<div class="translated" id="148739">
+<p>﻿" 研究员 heisecode 公开了几个 iOS/Android 相关的漏洞 PoC：   <a href="https://t.co/SEyuMcOmNF" rel="nofollow">https://t.co/SEyuMcOmNF</a> <a href="https://t.co/nc1kc48CrT" rel="nofollow">https://t.co/nc1kc48CrT</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Jacob Rossi @jacobrossi </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Making HTTPS fast in Microsoft Edge. The road to 0-RTT with TLS 1.3, TCP Fast Open, TLS False Start, and HTTP/2 <a href="https://blogs.windows.com/msedgedev/2016/06/15/building-a-faster-and-more-secure-web-with-tcp-fast-open-tls-false-start-and-tls-1-3/" rel="nofollow">https://blogs.windows.com/msedgedev/2016/06/15/building-a-faster-and-more-secure-web-with-tcp-fast-open-tls-false-start-and-tls-1-3/</a></p>
+<div class="translated" id="148781">
+<p>﻿" 通过 TCP Fast Open、TLS False Start 以及 TLS 1.3，实现更快更安全地 Web 浏览体验：   <a href="https://t.co/9UVJzp9v6Y" rel="nofollow">https://t.co/9UVJzp9v6Y</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Ange @angealbertini</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  Linux file system hierarchy
+(free PDF poster) <a href="https://www.blackmoreops.com/2015/06/18/linux-file-system-hierarchy-v2-0/" rel="nofollow">https://www.blackmoreops.com/2015/06/18/linux-file-system-hierarchy-v2-0/</a> <a href="https://t.co/ACYjQlkxQV" rel="nofollow">https://t.co/ACYjQlkxQV</a></p>
+<div class="translated" id="148817">
+<p>﻿"Linux 文件系统目录结构（一张图展示）：   <a href="https://t.co/6DkLGHZG5q" rel="nofollow">https://t.co/6DkLGHZG5q</a> <a href="https://t.co/ACYjQlkxQV" rel="nofollow">https://t.co/ACYjQlkxQV</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/ClTu6npWAAAaoUg.jpg" target="_blank">
+<img src="ClTu6npWAAAaoUg.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Maarten @maartenvhb </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MachineLearning </i>]  Good read on crafting adversarial input to defeat neural network-based malware classifiers. <a href="http://bit.ly/1OwQZLo" rel="nofollow">http://bit.ly/1OwQZLo</a></p>
+<div class="translated" id="148977">
+<p>﻿" 构造畸形输入，对抗基于神经网络的恶意软件分类器，Paper：   <a href="https://t.co/8hktGYwXUn" rel="nofollow">https://t.co/8hktGYwXUn</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Arrigo Triulzi @cynicalsecurity</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  PoC||GTFO 0x12 is now available on the neighbourly EU mirror <a href="https://www.alchemistowl.org/pocorgtfo/" rel="nofollow">https://www.alchemistowl.org/pocorgtfo/</a> #IPv6 #SSL /cc @ travisgoodspeed</p>
+<div class="translated" id="148886">
+<p>﻿"PoC||GTFO 杂志第 12 期出版：   <a href="https://t.co/qD2iVPJ0x6" rel="nofollow">https://t.co/qD2iVPJ0x6</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Keystone Engine @keystone_engine </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  AssemblyBo, a fun Telegram bot to encode/decode assembly using Keystone &amp; @ capstone_engine!
+
+<a href="https://github.com/mbikovitsky/AssemblyBot" rel="nofollow">https://github.com/mbikovitsky/AssemblyBot</a> <a href="https://t.co/dwGurcDDrq" rel="nofollow">https://t.co/dwGurcDDrq</a></p>
+<div class="translated" id="148829">
+<p>﻿"AssemblyBo - 基于 Keystone 和 Capstone 的一个汇编、反汇编机器人：   <a href="https://t.co/j4hA42kZx9" rel="nofollow">https://t.co/j4hA42kZx9</a> <a href="https://t.co/dwGurcDDrq" rel="nofollow">https://t.co/dwGurcDDrq</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/ClUEoWjXEAAaA8e.jpg" target="_blank">
+<img src="ClUEoWjXEAAaA8e.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Virtualization </i>]  Monitoring &amp; Controlling Kernel-mode Events by HyperPlatform : <a href="http://tandasat.github.io/HyperPlatform/recon2016/REcon2016_presentation.pdf" rel="nofollow">http://tandasat.github.io/HyperPlatform/recon2016/REcon2016_presentation.pdf</a> (pdf) <a href="https://t.co/dzZBsqmeVX" rel="nofollow">https://t.co/dzZBsqmeVX</a></p>
+<div class="translated" id="148731">
+<p>﻿" 通过 HyperPlatform 虚拟化工具监控和控制内核态事件，来自 RECon 2016 会议︰   <a href="https://t.co/lmDgMO1Jwz" rel="nofollow">https://t.co/lmDgMO1Jwz</a>     <a href="https://t.co/dzZBsqmeVX" rel="nofollow">https://t.co/dzZBsqmeVX</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/ClSZKq3VYAEu8RW.jpg" target="_blank">
+<img src="ClSZKq3VYAEu8RW.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Web Security </i>]  The Genesis of an XSS Worm - Part I <a href="http://brutelogic.com.br/blog/genesis-xss-worm-part-i/" rel="nofollow">http://brutelogic.com.br/blog/genesis-xss-worm-part-i/</a></p>
+<div class="translated" id="148718">
+<p>﻿"XSS 蠕虫的成因，Part 1：   <a href="https://t.co/sQnfONANeC" rel="nofollow">https://t.co/sQnfONANeC</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Cyberwarfare @CyberWarfaRRe </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Recovering BitLocker Keys on Windows 8.1 and 10 | Advanced Threats,Intelligence Technolog <a href="http://www.rightrelevance.com/search/articles/hero?article=5ecc62ca305b5f79d374bf729af29ef7581fb554&amp;query=cyberwarfare&amp;taccount=cyberwarfarre" rel="nofollow">http://www.rightrelevance.com/search/articles/hero?article=5ecc62ca305b5f79d374bf729af29ef7581fb554&amp;query=cyberwarfare&amp;taccount=cyberwarfarre</a> <a href="https://t.co/uLpRvaNpbt" rel="nofollow">https://t.co/uLpRvaNpbt</a></p>
+<div class="translated" id="148803">
+<p>﻿" 在 Windows 8.1 和 Windows 10 上还原 BitLocker 密钥：   <a href="https://t.co/UkCI3zqXWL" rel="nofollow">https://t.co/UkCI3zqXWL</a> <a href="https://t.co/uLpRvaNpbt" rel="nofollow">https://t.co/uLpRvaNpbt</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/ClTSud1UoAEMWVZ.jpg" target="_blank">
+<img src="ClTSud1UoAEMWVZ.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/06/19/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/06/20/index.html">2016/06/20</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/06/21/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

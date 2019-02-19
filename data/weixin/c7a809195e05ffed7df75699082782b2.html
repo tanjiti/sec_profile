@@ -1,0 +1,1689 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+
+
+        <script nonce="961660229" type="text/javascript">
+            window.logs = {
+                pagetime: {}
+            };
+            window.logs.pagetime['html_begin'] = (+new Date());
+        </script>
+        <title>
+ 如何防范算法求逆
+</title>
+        
+<style>.radius_avatar{display:inline-block;background-color:#fff;padding:3px;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;overflow:hidden;vertical-align:middle}.radius_avatar img{display:block;width:100%;height:100%;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;background-color:#eee}.rich_media_inner{word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.rich_media_area_primary{padding:20px 16px 12px;background-color:#fafafa}.rich_media_area_primary.voice{padding-top:66px}.rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{color:rgba(0,0,0,0.3);background-color:#fafafa}.rich_media_area_extra{padding:0 16px 24px}.rich_media_extra{padding-top:30px}.mpda_bottom_container .rich_media_extra{padding-top:24px}.mpda_bottom_container .rich_media_extra .mpad_more_list{right:-10px}html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;line-height:1.6}body{-webkit-touch-callout:none;font-family:-apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif;color:#333;background-color:#f2f2f2;letter-spacing:.034em}h1,h2,h3,h4,h5,h6{font-weight:400;font-size:16px}*{margin:0;padding:0}a{color:#576b95;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_title{font-size:22px;line-height:1.4;margin-bottom:14px}@supports(-webkit-overflow-scrolling:touch){.rich_media_title{font-weight:700}}.rich_media_meta_list{margin-bottom:22px;line-height:20px;font-size:0;word-wrap:break-word;word-break:break-all}.rich_media_meta_list em{font-style:normal}.rich_media_meta{display:inline-block;vertical-align:middle;margin:0 10px 10px 0;font-size:15px;-webkit-tap-highlight-color:rgba(0,0,0,0)}.rich_media_meta.icon_appmsg_tag{margin-right:4px}.rich_media_meta.meta_tag_text{margin-right:0}.rich_media_meta_primary{display:block;margin-bottom:10px;font-size:15px}.meta_original_tag{padding:0 .5em;font-size:12px;line-height:1.4;background-color:#f2f2f2;color:#888}.meta_enterprise_tag img{width:30px;height:30px!important;display:block;position:relative;margin-top:-3px;border:0}.rich_media_meta_link{color:#576b95}.rich_media_meta_text{color:rgba(0,0,0,0.3)}.rich_media_meta_text.rich_media_meta_split{padding-left:10px}.rich_media_meta_text.rich_media_meta_split:before{position:absolute;top:50%;left:0;margin-top:-6px;content:' ';display:block;border-left:1px solid #888;width:200%;height:130%;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0}.rich_media_meta_text.article_modify_tag{position:relative}.rich_media_meta_nickname{position:relative}.rich_media_thumb_wrp{margin-bottom:6px}.rich_media_thumb_wrp .original_img_wrp{display:block}.rich_media_thumb{display:block;width:100%}.rich_media_content{overflow:hidden;color:#333;font-size:17px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;text-align:justify;position:relative;z-index:0}.rich_media_content *{max-width:100%!important;box-sizing:border-box!important;-webkit-box-sizing:border-box!important;word-wrap:break-word!important}.rich_media_content p{clear:both;min-height:1em}.rich_media_content em{font-style:italic}.rich_media_content fieldset{min-width:0}.rich_media_content .list-paddingleft-2{padding-left:2.2em}.rich_media_content .list-paddingleft-2 .list-paddingleft-2{padding-left:30px}.rich_media_content blockquote{margin:0;padding-left:10px;border-left:3px solid #dbdbdb}img{height:auto!important}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:portrait){.rich_media_area_extra{padding-bottom:34px}}@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:landscape){.rich_media_area_primary{padding:20px 60px 15px 60px}.rich_media_area_extra{padding:0 60px 21px 60px}}@media screen and (min-width:1024px){.rich_media_area_primary_inner,.rich_media_area_extra_inner{max-width:677px;margin-left:auto;margin-right:auto}.rich_media_area_primary{padding-top:32px}}.appmsg_share_notice{font-size:16px;color:#888;position:relative;padding:1.25em 0;margin-bottom:1.75em}.appmsg_share_notice:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.appmsg_share_notice_hd{font-weight:700;padding-bottom:.2em}.cell{padding:.8em 0;display:block;position:relative}.cell_hd,.cell_bd,.cell_ft{display:table-cell;vertical-align:middle;word-wrap:break-word;word-break:break-all;white-space:nowrap}.cell_primary{width:2000px;white-space:normal}.flex_cell{padding:10px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.flex_cell_primary{width:100%;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;box-flex:1;flex:1}.original_tool_area{display:block;padding:.75em 1em 0;-webkit-tap-highlight-color:rgba(0,0,0,0);color:#333;border:1px solid #eaeaea;margin:20px 0}.original_tool_area .tips_global{position:relative;padding-bottom:.5em;font-size:15px}.original_tool_area .tips_global:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dbdbdb;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:27px;height:27px;padding:0;margin-right:.5em}.original_tool_area .radius_avatar img{height:100%!important}.original_tool_area .flex_cell_bd{width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal}.original_tool_area .flex_cell_ft{font-size:14px;color:#888;padding-left:1em;white-space:nowrap}.original_tool_area .icon_access:after{content:" ";display:inline-block;height:8px;width:8px;border-width:1px 1px 0 0;border-color:#cbcad0;border-style:solid;transform:matrix(0.71,0.71,-0.71,0.71,0,0);-ms-transform:matrix(0.71,0.71,-0.71,0.71,0,0);-webkit-transform:matrix(0.71,0.71,-0.71,0.71,0,0);position:relative;top:-2px;top:-1px}.rich_media_global_msg{position:fixed;top:0;left:0;right:0;padding:.85em 35px .85em 15px;z-index:2;background-color:#c6e0f8;color:#888;font-size:12px}.rich_media_global_msg .icon_closed{position:absolute;right:15px;top:50%;margin-top:-5px;line-height:300px;overflow:hidden;-webkit-tap-highlight-color:rgba(0,0,0,0);background:transparent url(//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_appmsg_msg_closed_sprite.2x42f400.png) no-repeat 0 0;width:11px;height:11px;vertical-align:middle;display:inline-block;-webkit-background-size:100% auto;background-size:100% auto}.rich_media_global_msg .icon_closed:active{background-position:0 -17px}.rich_media_global_msg.voice{color:#1aad19;background-color:#e8f6e8;padding-left:43.3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.rich_media_global_msg.voice .ic_voice{position:absolute;top:50%;margin-top:-10px;left:15px;display:inline-block;width:13.3px;height:18.3px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAA3CAYAAAB+fggjAAAAAXNSR0IArs4c6QAACb9JREFUaAW9WX9wVMUd3917d5cf/Agp1OTuQgIlQqUoI1JI1Noojg2I+VU7hVrtDDpadRypgzKjU52x09KOdsS20ypSO/WPWttcAqhTOlSoU4FIoRUn0wEZIMndBUkwGEhyv97bfvaS97L77t3lHYUuc+z3935397vf/e4LJZfQnuPPsW0d25ZQzr9mELKSUnIVzHxB/Dh+lBOKf4OEk0FOyQAl/CyltIt5tL29d/V2FzIkLUQ4FA7dwon+KCF0Fee8rBBdS5aSs/D+PUrYbyKtkb9b9BzAlA7CERrqDN1DOH8C8HU57FwSGat6kBGypbcluhMwFj+75XWwemf1vHQqtZ0T3pCtelkp73uJ79s9bT39dqs5HQyFK79jcPIKFErtSgLHjPvQHQB0EFt2hDE2QHU6RMvpkODrw3o50Uk5p3w2N/SlUKhHTNZjskHBz2pi6ylbH22J/k3mOToYCAceIYT/AgYVPhxJQTkMQ792Ez/yQCY8d0fgRl0nj8J2G5z1mvSJ3qCMrYOTb5l0xQFBDIUDjxmcbzUFJnu621/kf/DUmlM9k7RLh4LtwRChxquck0bFCqWjxENuijXF/iXoioNVnZU36wZ5D7PTTCWsWhyp4uFYa+x1k3Y5ezj6oNgtdTVpL0Lo+mhr9BwO0Xib+/bcWYZB35Sdg/sXsOSNV8o5MXK0LfoKYXQDxpJOMZ8L1g8E33JQT6aeQRoJCOJEMxjxfCvSEtlnEq5Uj5h7Ayv2I8U+5w9du/va0oyD896ZV004RQKebIzQ53EQ/jJJubJQhUa2YBXPmqNgy8vPjZ67N+NgMh6/HwSfyURgniwqLvmJif8/+sNrY6O4XV5WxjKMuvHDQOl9uCksHmX0xydWn0hYBJfAgncXzBhNjjZSnX8Fq3ENdmWWUMUhS2Ebv5HrtjDNg/+B5IY4wos0cVukUskqUwj9xfKS2W9GSEwi5QdxFS5BMn54dGzkHkhOy0x18j9COY1O5VxmhGJylIxMjgUTC7WUkfrqJAkQpfuP3nFUElO4WUgwHHza0HU1wG1SGOi0jeSI+kf92hgZlXg0yajBV0gUwri4vqZud/O7PbhxkGiNvM5NWHKV3NN8LGQbuVdDsYIVzOzHOI+ygzYhR/RAxwdbELcPZDEp+Q+2YQcS2L+Zwc4gdSUQS7Oz5BwIKUqWyq5ApEdDsVmhBKaHnHDQVUg1uwKLkkm+USEScsbjId/ra+7fbaMThMHVdpoTjuyxXloqcUg+Eqe4WBb26/5hGXeCkynyfdA9Fo/SQeZlN/StjUQtmgQUFxVnKhyJlAUGOgP13OC3ygxGWZhhSYtkYqIicUHGnWCUluoFz8mzkRzOCf14Wfyikx2ThvQ0B6XZdvhi1QaoAfZHmiMf40xMJmih4BvxWQnbNCD3i/cunoYab4FMQwr5o4zb4Uh9ZMxOM3Fsf91YfPQfOAeLTJrouYc8K3rEII0ikBcKRLTEhUQNuo8E7NSGh4dnyDOFzIioOpxkZdqyXYGSAV2rMYjhIUamkL2ZcANvG+MWWS4DU/parDm2R8AiBj/Bz3IQe14DPKeDRho1hNyonFplhgp/mmaNhpH6s0VVToNFxR7TPcVFJVZdgMG4cNBq0LvRQhyA2vLaMyDrFouTL169KzBlGkEofdnScQYMXBI/raiuXC1fs4wz2iXLI+U0y7gd3tewL41IVhLvmM6X2eWycM7nZ9EEAXWgWDWPpjWg7tx8+IbD4llhNTadTn8XcWgVBphprbhbLQkngJK/ymTdoE/IuDPME5jYSYx1HLn3EH6/B77Rq/m+FG2L3d7X1Pe+kx5kCBJp4G0clDWmAJTD0db+NhO398GO4G3cMDJBbPIY9bShfgyb+OXqMwGPV9rrskFsc6t4fck0GRZPQ5GnZBpO4x/wvrAmKfP+FzjjYF9zn5i58s0ET8MX8hnGc+BxOGnFi8innBg7UUBsFaV6Pt1CeBMrKD73qG8CbPnKUHvg/lzG+tr6DlGWufJkEWQp/tjgyMBJPF+fWrhj4XSZeSlwJgaFIhyioY7gHvS3moYyK6TRO6JN0b0mzd6HOgIbEBK/gp7fzsOBGMLUX2Z+bWvvnb1T3sd2fYFbDgoET8/56UTqKEBrizDIeY1463tae1BGObeq9qrlBtXb4aRcmVvCmOjneFq+UFZW9lJ3Q3fee9lSmgAUBwUNd+N9CPjfTfDHO0pO+z1FK081nfpUoUuIuKPPD322Gav5OMjWBCURRBGN4GH0QCGvxSwHhcFguPLnGEip97AKXd5y39dPN5yOy4PaYXGrjKToRsTMIzg4M+38cZz+LNYWe8qZp1Izh0QlEVLfctMmzNb6gCP4GGxFcij5W7usHT++NjaI4uHpadr0KkbpZvAH7DKw9iRi98lsejbFcQWF2LJ/LvOe6Yl14m5eLavhU8gqkQdlWj5YnOSL+sXNWNFNmKT1NQsLkGAez3zcIHmfj44rKAYUd2Jxcek6HCP1cHD+Ig5DzonZnT3WdOyCWFGukRUIwkGTL069kdYz319MmlOf00EhjKpiWKPku7IiDF9X3RHMecvIsjIsPqdh1ewO3SXLOMF5HRQKvS39h5GNOmVlnZP1Mu4W9pZ5/4TDZh0ybHkt3iKOqcm0OaWDQpB52DZTQfQo+Vtl3C08kQGO2OStYtlGz6CuHJxZO3MPYnHYMsDJVSKpW3ghAOXKsxaPoup86q4c7F7cncSyHZANGen0Shl3C+PSPy/L4qmZ97525aAwiMLgQ8Uwp8tl3C2MASff00KJMRW3GXLtIFbwY1kXp/kaGXcL42AoDqHit6p5JxuuHfQwj1IvIhFO9QhyGk/QpskM/C3Gyo0y3YRdOzgnNOcTHJS0qYgVrBIfLE28gF75ToN3bySfrmsHM68tTo7JxuKJ+PUyPhWcqbQ5XarI+TRlZxQeENcOjitS5dMc5/oqu8F8+ODI4FrEoPVpBTfL8akK2YIc9DCiFAkoyTbUdNSU5XPK5Im/MQPeZOKZnpNdCu6AFOTgrJLZO2FDrogrUjyxPbQ/VOxgWyG9Fn71h6hoJkMC8exlvl8qQg6I66rE1A22Vz6PEuwZExe92CrQtmmU72U+fzQ9K/15XV1dsuudrhlc50t0XX8Izq1TdAh5I9rWf69Mc4ILdlCU9kNDn32ICvZS0wySAY2W+shSUdw6OSXTCtpioSgePZrPeydWTUncstF8MPRw1dFvunFO2CnYQaGEk3cSn8iWYyVeBGoImqtG6RHxQsQfEJVskE+34C22GxOfb8fiY40owtaAJ0qnciTxcvSlE7VfBPX3IQ8lb/U2R3dgBRGu7tt/AYJkZEGv/oaXAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.rich_media_global_msg.voice .icon_more{position:absolute;right:15px;top:50%;margin-top:-6.5px;width:8px;height:13px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAmCAYAAADeB1slAAAAAXNSR0IArs4c6QAAA49JREFUSA2tVk1IVFEUPveOmhQk1ibfvLFZSJtACqJIIpCIoB+imcFV2Z9ZUVnRomgRGFn2i6mFf5XVotCZMYmgIMhlq6BFENFiwjfPAosgFzXOvNu5o3fmeue98Y16F3PP+c453/fu/xCQmvZSWwwJaC0G6P8WND9IoTmbVFRycpqAdgBWkwRo94V960RsPn1aoPpN9RI6CR0WsDWcjAErtUiqTR/S18+HnNcSTv5zYrwDSatVMgLkH6aciwfj79WYW5+OT4xfsyPnBIgvwt872qBW45ZQzaMlJXCfMPJbDQgfRUoIhduVUW2TwArpaWyX+bnYU9JAAH44FaJIccqCW76Ib7NTjhOOvFPN/8q/IvE3cR+npFJgao9rkiSUXjD2GCNqzMnPbNPYjth3mqINlJAvTsk4kiJmWa3eQe8WpxwVzwjwgFFn/CorL29EkY9qovC5CFDrKq7JVoHl6zNTJCf53/lLk78SN/FcbJRx2cZCixC4ZATGXsu4as8YgQjGamN/q5atOotn4K3A1J4BUMbgsh7Wt6sx2bcV4AkjtSPJxkDjRQL0hVwg21zEglSzN+rdKeOybTtFcgK39ajWZDFWr+IZHxfGQ8mV0YA5nMGmDVcCPNcb8R5gYJ1UCWQfp6PFCI4NyZhrAV6EIiHGrPOAB0ImkW2c0la8u8ICc0wUCWrvC1dsw+3TnN6uanDaJ4zeiIfiA9wtWIAX8XspxeA6iuBlaN88hNzCNXk+JwFOuXJYW5tMQmc+EcqgzXGb2n9XFk1NstX5yKczl89JAF+6vRaBM1m5XAu//qkRGrtb8BThTtqH2/V0LmUWwbvsiREw8X0vcJHxxNbjNm3KUuVaMjmPFuWm2CPesHc/kp+yj06hFMhj/PIOOcfVFLk6xZT0G3vMTpmc27MusityZk/OBfKOwA05MPLIDJn3OJldcxTQotpBYOyEXVEWIw/NoInvuHOznSJfVDs0GzneNw9mI+eyOSPQI9phfCqPO38TFhHaFw/Eu/LliNiMESB5w6zkzD05F8mMYJr8mFC263Fa+vAadvXloj4toEcrjlgMjgrQrseHpBcfkm67WD6M6MN6lTWZeoZjyYxGLcB57MGnsEfF3fjU2G189QBpcUqmBLrnSs4504s8GjLxrwm5qYrg3dKFf6x6VbwQ3yOS/wz8+bS0ruwfELaBY2nyoNkn4gvW65GKRn4WForwP+dONHDaOHeZAAAAAElFTkSuQmCC) no-repeat center;background-size:contain}.preview_appmsg .rich_media_title{margin-top:2.3em}@media screen and (min-width:1024px){.rich_media_global_msg{position:relative;margin-bottom:32px}.preview_appmsg .rich_media_title.rich_media_title{margin-top:0}}.pages_reset{color:#333;line-height:1.6;font-size:16px;font-weight:400;font-style:normal;text-indent:0;letter-spacing:normal;text-align:left;text-decoration:none;white-space:normal}.weapp_element,.weapp_display_element,.mp-miniprogram{display:block;margin:1em 0}.share_audio_context{margin:16px 0}.weapp_text_link{font-size:17px}.weapp_text_link:before{content:'';display:inline-block;line-height:1;background-size:contain;background-repeat:no-repeat;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAB4RJREFUWAm1WUuMFGUQnn7szL5mdvbh7GwgEQUlS1weiagxxpigiUZeJgY1cMMDcDCGG8GLCWZvxHjh4BWUeDEsejBBEzWYKBBEiHAABBfCMOwsuzvszrvb+v6Zb7amt1ce0Up6qv6q+qq+/rv778dYkUeUqamp5dFodJPv++ts205blpX2PG8I5cTOiLol44zYZ8vl8vFkMnnlUVpZDwPK5/MpIbWrVqttFlLD0jwiBEHIaNbCGKJjQvai+I9Xq9VD8Xg8y9z76QcimM1mu3t6ej4UYh84jtOFxhBNJGxskhp5xIielZ37bHp6+tNUKnWPOYvp+xKcm5t7S4gclKIpFNGzsmjRkBnUOwNbZjQrtfZ2dnZ+vVgd+O1/CVqlUukjIXZYCqZADBuEJIllc4xh61zmaB9s7LDkHkYPwJgX1KEEx8fHO2TmjkjyPgLQmERIAjHajGnyjDGPOfQ3xvvQCz3ZS+sw5hYAsodbWBhNw4SNGCMBnR/MYS60jskhPyaHe7u4W5otmEGZ8v0gx2YsyDE0bc4Wx8glOe2Dn2No2hqPnuiNXC0tM9i4IA5LcksjNm0BNs417aMNAsRom3HoMD8wsu3QF06TIJaSRCJxXrDmamUBrVEYRejDmDY0JEgsLE4f8mkTj6tb1tsRLkEukiBY56Q4rizThI2okaNtjFlUx+Cr1vzIyTMz7uW/ik4mV7Yd24oMDrR5q1Z01Nav6a5yVsLwcvRS4CI1D5ge+MEdQhbgC1yECSQhjMNsYCGMQ2dzFeuLYxOxibuVBec3cpekY7XtWwZK8a75sMajj2yzcsd5BnccM4PCeg/JoQjJwAY4TFgUMeRjXK54kS/H6uR6e1xvw4vJyuNLYh5yrt8s2d//MtV2M1Nyvvo2F9u5LVUSJEJNPPtKrS7XdXdL6GOzG+LYqIJNUiShYyRDjRw2OXnmnntnsmInE663e3u6uHZVZy2ZsH1sa4Y7ant2DBURu3aj6Jz9c9YBVuNRhz6pvwlju1gsPikzaG78CKIxNgh1sAj91MhFztXrRQf2C+vi1Y721tMC/vZYPQb78rWCE8Tr/uCEJyZbrprNAAST4QOAIGj6qBnDGPjZgmeS0gNRc1jD8D1xx+y978/XJh4awl54nHOl8Do6STKoDarxg5gmxpj2yTEwbtZhDvSlKwUzy+lU1NPxFvz8EcSzpnnYXDCD3AtqFtOFGNM+kMBYx+DzPD/y86m8e+7SnBON2v7qlR01ncP6Gg9uriSlGSSAYyTDhl/7bmTK9tXxkj3ydFetL4lTqT5jyIdgTB/0qT9m3R9/zbvT+Yottfw3XuktJxP1Q61rh/QfcuUcHBKmzcIwdCILQE/crVpHj9+JZe7U17hSyau89lJPxYDVD3KJm5qpWWMnJqMIY+nZvKGv/NQT7ebwcicI5RhYiHBLYx30WQxObWNMyQm5Q0cy7ULK6up0/PUj3dWXn48bckEMGrGZkPJ3bhssunLmLR2qXzyIacxitvT2XZm9jABWMEmD6QPJYzILILdyeWf13Y39ZTSEMAeaQpuxZUujHn26fhCPmI6Dmy0OvIE1AyyqfYWiH7n6d9GJxWz/7df7FpBjLjQETag1Me1HPKxXwJfByXeLRViUYGiI3F/NSYr1raPdNoXh594S75nVT1Z/mUz6kAfhGJp2EI887gRy5Bw0M/g7ndQI0gZISJkpyU6WbTm7m8RYELnFkh+ZnK4/qCTiWF4XXtk6X5NkLjX7iz4rh9keAxBODaKNWKrf9Qd627yC3Cm++2m6DbHWYpHI2Im7UfFZqf6oN9DrmAsPWIquH8QjR8dRG2O88JszW56kTwvRYSayOYtD37xdsT8/ejtWq/nWsqXttdXDHdW+RNTHY9Vv5/IuTgPHtfxd7w0V04/V1ziND5IiCeTofsyTw3tRnqyfNY9b8qg1JkktXwo0EKAlg23eO2/2l7/5YaoNTyPYNIFEt6xxr/aVQQ75QTxJkEBYnDFocEKOqYQHVnn+uiCBLji1IBnCBiVZ+U6fv+dmshV7cqpq9fY4/tBg1HtudXe1zeyuRs9fHMRrEvQBQT9smb1Z+YphHljr3cWJF2gB7NOENAhAjrWGP9iIPuZhDOFYa/hD8KOxWOyAweAHEnxpqnvrvyyofbQZg4boZsEcjrUO4mX2Wl6a6jdhQeAtSoJ70YDNoIMFwmJoqImF5Wgf8jHGRhx0Y9vLNzrkNQligPdRuZpHgyDEKIixMPMQow82/dC04YdgzFwdg0+2Uf1OjPzmOYhBQ6xCoYCX9626WDOo9pqNqHUO7IfBy0XxYJ8+UHdiYuJ9AHQT2GGiycHmmLNDkmFY+JCPXrlcbqcMW28/iCNpEcHnt/3SwHzhQiEIG5JAGDYsN8yHGjil5Ir9BKVDa4U5ta/xveagNDCfRBhDQ5JczEaujhHb0FlclMFzLpDTepEEgxijAL6VSCNcPLPw6aa0oSEgTZsx+GFjwyIsenRmZmbkfuQMDj8PKrjjyCHZIw02im7eGokHAQhnFjZ8GAux/+8jOhoFhX9DCIG1EsPfD9jMC5j4/rO/If4BCiyOk7IAfLMAAAAASUVORK5CYII=');vertical-align:middle;font-size:11px;color:#888;margin-right:6px;margin-top:-3px;background-position:center;height:20px;width:20px}.flex_context{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center}.flex_bd{-webkit-box-flex:1;-webkit-flex:1;flex:1;word-wrap:break-word;word-break:break-all}.original_page{background-color:#fff;font-size:16px}.account_info{padding:0 0 20px}.account_info .flex_bd{padding-left:.85em}.radius_avatar.account_avatar{width:40px;height:40px;padding:0}.account_nickname{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;line-height:1.2;color:#576b95;font-size:14px}.account_nickname_inner{font-weight:400;vertical-align:top}.account_desc{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;color:#b2b2b2;font-size:13px;line-height:1.2;padding-top:.3em}.account_desc_inner{display:inline;vertical-align:top}.share_notice{margin-bottom:20px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.share_media{padding-bottom:18px}.original_panel{padding:20px;background-color:#fcfcfc;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;overflow:hidden;position:relative}.original_panel:after{content:" ";border:1px solid #d8d8d8;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;position:absolute;top:0;left:0;width:200%;height:200%;-webkit-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;transform-origin:0 0;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}.original_panel .original_account{margin-bottom:18px;position:relative;z-index:1}.original_panel .original_account_avatar{width:28px;height:28px;padding:0}.original_panel .original_account_nickname{padding-left:.85em;font-size:15px;color:#576b95}.original_panel_title{font-size:23px;color:#000;margin:0 0 16px}.original_panel_content{color:#333}.original_panel_tool{padding-top:20px;position:relative;z-index:1}.original_cell_nickname{display:inline-block;vertical-align:middle;font-weight:400;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:8em;color:#000}.original_tool_area{padding:1.17em 0;border-width:0;position:relative}.original_tool_area:before{content:" ";position:absolute;left:0;top:0;right:0;height:1px;border-top:1px solid #dfdfdf;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dfdfdf;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:20px;height:20px;margin-right:.2em}.original_tool_area .flex_cell{padding:0;font-size:14px}.original_tool_area .icon_access:after{margin-right:4px;top:0}.preview_appmsg .rich_media_title{margin-top:1.5em}.preview_appmsg .account_info{padding-top:3em}.original_page{background-color:transparent}.account_info{-webkit-tap-highlight-color:rgba(0,0,0,0);outline:0;padding-bottom:20px;font-size:14px}.account_info.appmsg_account_info{padding-bottom:32px}.account_info .radius_avatar img{background-color:transparent}.share_notice{font-size:16px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.original_panel{background-color:#fafafa}.original_panel:after{border-color:#e6e6e6}.original_panel .original_account_avatar{width:30px;height:30px}.original_panel_tool{font-size:14px}.original_panel_tool a{color:#576b95}.original_panel_content{font-size:17px}.share_media{padding-bottom:30px}.icon_appmsg_tag{display:inline-block;vertical-align:middle;padding:0 .5em;font-size:12px;line-height:1.5;background-color:#c3c3c3;color:#fff;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;max-width:70%}.icon_appmsg_tag.primary{color:#3bb638;padding:4px .78em;background-color:rgba(9,187,7,0.08);font-size:12px;border-top-left-radius:.95em 50%;-moz-border-radius-topleft:.95em 50%;-webkit-border-top-left-radius:.95em 50%;border-top-right-radius:.95em 50%;-moz-border-radius-topright:.95em 50%;-webkit-border-top-right-radius:.95em 50%;border-bottom-left-radius:.95em 50%;-moz-border-radius-bottomleft:.95em 50%;-webkit-border-bottom-left-radius:.95em 50%;border-bottom-right-radius:.95em 50%;-moz-border-radius-bottomright:.95em 50%;-webkit-border-bottom-right-radius:.95em 50%}.icon_appmsg_tag.default{border:1px solid rgba(0,0,0,0.1);color:rgba(0,0,0,0.3);background-color:transparent;padding:0 .54em;font-size:15px;line-height:1.3;border-top-left-radius:.67em 50%;-moz-border-radius-topleft:.67em 50%;-webkit-border-top-left-radius:.67em 50%;border-top-right-radius:.67em 50%;-moz-border-radius-topright:.67em 50%;-webkit-border-top-right-radius:.67em 50%;border-bottom-left-radius:.67em 50%;-moz-border-radius-bottomleft:.67em 50%;-webkit-border-bottom-left-radius:.67em 50%;border-bottom-right-radius:.67em 50%;-moz-border-radius-bottomright:.67em 50%;-webkit-border-bottom-right-radius:.67em 50%}.rich_media_meta_list .icon_appmsg_tag.default{margin-top:-1px}.icon_appmsg_tag.title_tag{background-color:#d04b4e}.icon_global_tag_wrp{text-align:right;padding-bottom:12px}.icon_global_tag{background-color:rgba(118,118,118,0.16);color:rgba(0,0,0,0.41);line-height:2.2;border-top-left-radius:1em 50%;-moz-border-radius-topleft:1em 50%;-webkit-border-top-left-radius:1em 50%;border-bottom-left-radius:1em 50%;-moz-border-radius-bottomleft:1em 50%;-webkit-border-bottom-left-radius:1em 50%;padding:0 1.8em 0 1.34em;font-size:12px;margin-right:-24px;display:inline-block;vertical-align:top}.global_plain_btn{display:inline-block;vertical-align:middle;padding:0 1em;line-height:2;font-size:14px;-webkit-tap-highlight-color:rgba(0,0,0,0);border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px}.global_plain_btn.primary{color:#1aad19;border:1px solid currentColor}.global_plain_btn.primary:active{color:rgba(26,173,25,0.6)}.wx_video_context{color:#fefefe;position:relative;background-color:#000}.wx_video_thumb,.wx_video_thumb_primary{position:absolute;left:0;width:100%;height:100%!important;top:0}.wx_video_thumb_primary{-webkit-background-size:cover;background-size:cover;background-position:50% 50%;background-repeat:no-repeat}.wx_video_play_btn{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);margin-top:-2px;font-size:0;border-width:0;background-color:transparent;padding:0;outline:0;z-index:2}.wx_video_play_btn:before{content:" ";display:inline-block;width:0;height:0;border-width:14px 0 14px 25px;border-color:transparent transparent transparent #fff;border-style:dotted dotted dotted solid}.wx_video_mask{position:absolute;top:0;left:0;right:0;bottom:0;z-index:1;background-color:rgba(0,0,0,0.5)}.place_audio_area{min-height:100px;background-color:#fdfdfd;display:block;margin:16px 0}.place_music_area{min-height:68px;background-color:#fdfdfd;display:block;margin:17px 0 16px}.rich_media_empty_extra{background-color:#fafafa}.appmsg_skin_default.rich_media_empty_extra{background-color:#fff}.appmsg_skin_default .rich_media_area_primary{background-color:#fff}.appmsg_skin_default .rich_media_area_primary .weui-loadmore_line .weui-loadmore__tips{background-color:#fff}.appmsg_style_default .rich_media_tool{padding-top:15px}.rich_media_title_ios{font-weight:700}.read-more__area{margin:30px 0}.read-more__desc{margin-bottom:10px}.read-more__article__extra{font-size:14px;color:rgba(0,0,0,0.5)}.read-more__article__item{margin-bottom:10px}</style>
+<style>
+        </style>
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/pc435ee6.css">
+<![endif]-->
+
+    </head>
+    <body id="activity-detail" class="zh_CN mm_appmsg  appmsg_skin_default appmsg_style_default">
+        
+<script nonce="961660229" type="text/javascript">
+    var biz = "MjM5NTc2MDYxMw=="||"";
+    var sn = "648c360da5b14d669e6b6e65ad852579" || ""|| "";
+    var mid = "2458279395" || ""|| "";
+    var idx = "1" || "" || "";
+    window.__allowLoadResFromMp = true; 
+    
+        
+</script>
+<script nonce="961660229" type="text/javascript">
+var page_begintime=+new Date,is_rumor="",norumor="";
+1*is_rumor&&!(1*norumor)&&biz&&mid&&(document.referrer&&-1!=document.referrer.indexOf("mp.weixin.qq.com/mp/rumor")||(location.href="http://mp.weixin.qq.com/mp/rumor?action=info&__biz="+biz+"&mid="+mid+"&idx="+idx+"&sn="+sn+"#wechat_redirect"));
+</script>
+<script nonce="961660229" type="text/javascript">
+var MutationObserver=window.WebKitMutationObserver||window.MutationObserver||window.MozMutationObserver,isDangerSrc=function(t){
+if(t){
+var e=t.match(/http(?:s)?:\/\/([^\/]+?)(\/|$)/);
+if(e&&!/qq\.com(\:8080)?$/.test(e[1])&&!/weishi\.com$/.test(e[1]))return!0;
+}
+return!1;
+},ishttp=0==location.href.indexOf("http://");
+-1==location.href.indexOf("safe=0")&&ishttp&&"function"==typeof MutationObserver&&"mp.weixin.qq.com"==location.host&&(window.__observer_data={
+count:0,
+exec_time:0,
+list:[]
+},window.__observer=new MutationObserver(function(t){
+window.__observer_data.count++;
+var e=new Date,r=[];
+t.forEach(function(t){
+for(var e=t.addedNodes,o=0;o<e.length;o++){
+var n=e[o];
+if("SCRIPT"===n.tagName){
+var i=n.src;
+isDangerSrc(i)&&(window.__observer_data.list.push(i),r.push(n)),!i&&window.__nonce_str&&n.getAttribute("nonce")!=window.__nonce_str&&(window.__observer_data.list.push("inlinescript_without_nonce"),
+r.push(n));
+}
+}
+});
+for(var o=0;o<r.length;o++){
+var n=r[o];
+n.parentNode&&n.parentNode.removeChild(n);
+}
+window.__observer_data.exec_time+=new Date-e;
+}),window.__observer.observe(document,{
+subtree:!0,
+childList:!0
+})),function(){
+if(-1==location.href.indexOf("safe=0")&&Math.random()<.01&&ishttp&&HTMLScriptElement.prototype.__lookupSetter__&&"undefined"!=typeof Object.defineProperty){
+window.__danger_src={
+xmlhttprequest:[],
+script_src:[],
+script_setAttribute:[]
+};
+var t="$"+Math.random();
+HTMLScriptElement.prototype.__old_method_script_src=HTMLScriptElement.prototype.__lookupSetter__("src"),
+HTMLScriptElement.prototype.__defineSetter__("src",function(t){
+t&&isDangerSrc(t)&&window.__danger_src.script_src.push(t),this.__old_method_script_src(t);
+});
+var e="element_setAttribute"+t;
+Object.defineProperty(Element.prototype,e,{
+value:Element.prototype.setAttribute,
+enumerable:!1
+}),Element.prototype.setAttribute=function(t,r){
+"SCRIPT"==this.tagName&&"src"==t&&isDangerSrc(r)&&window.__danger_src.script_setAttribute.push(r),
+this[e](t,r);
+};
+}
+}();
+</script>
+
+        <link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<script nonce="961660229" type="text/javascript">
+    String.prototype.html = function(encode) {
+        var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&yen;", "¥", "&amp;", "&"];
+        
+		
+		
+		
+		
+        
+        var replaceReverse = ["&", "&amp;", "¥", "&yen;", "<", "&lt;", ">", "&gt;", " ", "&nbsp;", '"', "&quot;", "'", "&#39;"];
+	    var target;
+	    if (encode) {
+	    	target = replaceReverse;
+	    } else {
+	    	target = replace;
+	    }
+        for (var i=0,str=this;i< target.length;i+= 2) {
+             str=str.replace(new RegExp(target[i],'g'),target[i+1]);
+        }
+        return str;
+    };
+
+    window.isInWeixinApp = function() {
+        return /MicroMessenger/.test(navigator.userAgent);
+    };
+
+    window.getQueryFromURL = function(url) {
+        url = url || 'http://qq.com/s?a=b#rd'; 
+        var tmp = url.split('?'),
+            query = (tmp[1] || "").split('#')[0].split('&'),
+            params = {};
+        for (var i=0; i<query.length; i++) {
+            var arg = query[i].split('=');
+            params[arg[0]] = arg[1];
+        }
+        if (params['pass_ticket']) {
+        	params['pass_ticket'] = encodeURIComponent(params['pass_ticket'].html(false).html(false).replace(/\s/g,"+"));
+        }
+        return params;
+    };
+
+    (function() {
+	    var params = getQueryFromURL(location.href);
+        window.uin = params['uin'] || "" || '';
+        window.key = params['key'] || "" || '';
+        window.wxtoken = params['wxtoken'] || '';
+        window.pass_ticket = params['pass_ticket'] || '';
+        window.appmsg_token = "";
+    })();
+
+    function wx_loaderror() {
+        if (location.pathname === '/bizmall/reward') {
+            new Image().src = '/mp/jsreport?key=96&content=reward_res_load_err&r=' + Math.random();
+        }
+    }
+
+</script>
+
+<script nonce="961660229" type="text/javascript">
+        window.__moon_report_uin = "0";
+            window.no_moon_ls = 0;
+    </script>
+
+        
+<script nonce="961660229" type="text/javascript">
+    var write_sceen_time = (+new Date()); 
+</script>
+
+<div id="js_article" class="rich_media">
+    
+    <div id="js_top_ad_area" class="top_banner"></div>
+    
+    <div class="rich_media_inner">
+
+        
+        
+        <div id="page-content" class="rich_media_area_primary">
+          <div class="rich_media_area_primary_inner">
+                                    
+                        
+
+            <div id="img-content">
+
+                
+                <h2 class="rich_media_title" id="activity-name">
+                    
+                    
+                    如何防范算法求逆
+
+                                                                                </h2>
+                <div id="meta_content" class="rich_media_meta_list">
+                                                            <span id="copyright_logo" class="rich_media_meta rich_media_meta_text meta_tag_text">原创：</span>
+                                                            <span class="rich_media_meta rich_media_meta_text">
+                                                刘方
+                                            </span>
+                                        
+                                        <span class="rich_media_meta rich_media_meta_nickname" id="profileBt">
+                      <a href="javascript:void(0);" id="js_name">
+                        看雪学院                      </a>
+                      <div id="js_profile_qrcode" class="profile_container" style="display:none;">
+                          <div class="profile_inner">
+                              <strong class="profile_nickname">看雪学院</strong>
+                              <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">微信号</label>
+                              <span class="profile_meta_value">ikanxue</span>
+                              </p>
+
+                              <p class="profile_meta">
+                              <label class="profile_meta_label">功能介绍</label>
+                              <span class="profile_meta_value">致力于移动与安全研究的开发者社区，看雪学院(kanxue.com)官方微信公众帐号。</span>
+                              </p>
+                              
+                          </div>
+                          <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">
+                              <i class="profile_arrow arrow_out"></i>
+                              <i class="profile_arrow arrow_in"></i>
+                          </span>
+                      </div>
+                    </span>
+
+
+                    <em id="publish_time" class="rich_media_meta rich_media_meta_text"></em>
+
+
+
+
+
+                </div>
+                
+                
+                
+                
+                                                
+                                                                
+                                
+                
+                <div class="rich_media_content " id="js_content">
+                    
+
+                    
+
+                    
+                    
+                    <p><br  /></p><p style="text-indent: 28px; border: none; padding: 0px;"><span style="font-family:楷体_GB2312">假如您不幸遇到对Win32应用环境有足够了解的对手，以至于您的软件最终还是被凶悍的调试器任意蹂躏。但是您还远没有被打败，如果反调试技术（Anti-Debug）作为软件保护的第一道防线已经失守，您的对手只不过是掌握了一大堆汇编代码而已，毕竟代码和算法之间还是有相当距离的，所以您还有第二道防线可守——抗分析。在这道防线里，您有很多办法可以限制破解者掌握您的加密算法，从而阻止注册机或者破解补丁的出现。</span></p><p><br  /></p><p><br  /></p><p style="text-align:center"><span style="font-family:黑体">一、前言</span></p><p style="text-indent:28px"><span style="font-family:宋体">软件保护的目的是只向合法用户提供完整的功能，所以软件保护必然要包括验证用户合法性的环节，而这一环节通常采用注册码验证的方式实现。</span></p><p style="margin-left:28px"><span style="font-family:宋体">（</span><span style="font-family:Arial,sans-serif">1</span><span style="font-family:宋体">）用户向软件作者提交用户码</span><span style="font-family:Arial,sans-serif">U</span><span style="font-family:宋体">，申请注册。</span></p><p style="margin-left:28px"><span style="font-family:宋体">（</span><span style="font-family:Arial,sans-serif">2</span><span style="font-family:宋体">）软件作者计算出注册码</span><span style="font-family:Arial,sans-serif">R = f(U)</span><span style="font-family:宋体">，回复给合法用户。</span></p><p style="margin-left:28px"><span style="font-family:宋体">（</span><span style="font-family:Arial,sans-serif">3</span><span style="font-family:宋体">）用户在软件注册界面输入</span><span style="font-family:Arial,sans-serif">U</span><span style="font-family:宋体">和</span><span style="font-family:Arial,sans-serif">R</span><span style="font-family:宋体">。</span></p><p style="margin-left:28px"><span style="font-family:宋体">（</span><span style="font-family:Arial,sans-serif">4</span><span style="font-family:宋体">）软件验证</span><span style="font-family:Arial,sans-serif">F(U,R)</span><span style="font-family:宋体">的值是否合法来判定用户的合法性。</span></p><p style="text-indent:28px"><span style="font-family:宋体">其中一些常用术语说明如下：</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（1）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">用户码</span><span style="font-family:Arial,sans-serif">U</span><span style="font-family:宋体">：用于区别用户身份。它可能仅仅是用户自定义的一个用户名，这种形式的用户码与用户身份弱相关，假如一对合法的用户码、注册码被公开，则任何人都可以用来对软件进行注册；它也可能是用户机器的硬件特征码，这种形式的用户码与用户身份强相关，可以有效防止一次注册，多人享用的局面出现，但对于合法用户而言很不方便，一旦更换或升级机器，就必须重新申清注册码。</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（2）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">注册码</span><span style="font-family:Arial,sans-serif">R</span><span style="font-family:宋体">：用于验证用户身份。它可能与用户码具有惟一对应关系，也可能同一个用户码有若干个注册码相对应，也可能同一个注册码有若干个用户码相对应。如果用户码和注册码的取值空间非常大，即使用户码与注册码不是惟一对应关系，非法用户“碰巧”得到一对合法的用户码、注册码的概率也是微乎其微。</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（3）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">注册机：我们把</span><span style="font-family:Arial,sans-serif">R = f(U) </span><span style="font-family:宋体">中的小</span><span style="font-family:Arial,sans-serif">f</span><span style="font-family:宋体">称为注册机，掌握了注册机就有能力针对任何用户码计算出相应的注册码。</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（4）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">验证函数：我们把</span><span style="font-family:Arial,sans-serif">F(U,R) </span><span style="font-family:宋体">中的大</span><span style="font-family:Arial,sans-serif">F</span><span style="font-family:宋体">称为验证函数，软件使用验证函数验证注册码的合法性，即，当且仅当</span><span style="font-family:Arial,sans-serif">R = f(U) </span><span style="font-family:宋体">成立时，</span><span style="font-family:Arial,sans-serif">F(U,R) </span><span style="font-family:宋体">取合法值。</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（5）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">算法求逆：我们把破解者通过验证函数</span><span style="font-family:Arial,sans-serif">F</span><span style="font-family:宋体">推导注册机</span><span style="font-family:Arial,sans-serif">f</span><span style="font-family:宋体">的过程称为算法求逆，所以验证函数</span><span style="font-family:Arial,sans-serif">F</span><span style="font-family:宋体">的构造非常关键。</span></p><p style="text-indent:28px"><span style="font-family:宋体">在软件注册保护的“初级阶段”，验证函数与注册机没有本质区别，即：</span><span style="font-family:Arial,sans-serif">F(U,R) = f(U)-R</span><span style="font-family:宋体">。这样做很危险，验证函数自身就包含注册机，破解者只需要跟踪软件的运行，直接将软件验证函数中计算</span><span style="font-family:Arial,sans-serif">f(U) </span><span style="font-family:宋体">的汇编代码拷贝下来就可以当注册机用，甚至根本不需要了解</span><span style="font-family:Arial,sans-serif">f</span><span style="font-family:宋体">的算法过程。</span></p><p style="text-indent:28px"><span style="font-family:宋体">改进的做法是先求出</span><span style="font-family:Arial,sans-serif">f</span><span style="font-family:宋体">的反函数</span><span style="font-family:Arial,sans-serif">f<sup>-1</sup></span><span style="font-family:宋体">，使：</span><span style="font-family:Arial,sans-serif">U= f<sup>-1</sup>(R)</span><span style="font-family:宋体">，然后令</span><span style="font-family:Arial,sans-serif">F(U,R) = f<sup>-1</sup>(R)-U</span><span style="font-family:宋体">。这样做安全了许多，软件本身不包含注册机</span><span style="font-family:Arial,sans-serif">f</span><span style="font-family:宋体">，破解者必须在充分了解</span><span style="font-family:Arial,sans-serif">f<sup>-1</sup></span><span style="font-family:宋体">算法过程的基础上才能分析推导出注册机</span><span style="font-family:Arial,sans-serif">f</span><span style="font-family:宋体">。可能会有读者感到疑惑：假如破解者先指定</span><span style="font-family:Arial,sans-serif">R</span><span style="font-family:宋体">，然后直接利用验证函数计算出</span><span style="font-family:Arial,sans-serif">U = f<sup>-1</sup>(R)</span><span style="font-family:宋体">，不就可以使用</span><span style="font-family:Arial,sans-serif">U</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">R</span><span style="font-family:宋体">来注册了吗，何必要一定要推导</span><span style="font-family:Arial,sans-serif">f</span><span style="font-family:宋体">呢？在实际应用中，由于</span><span style="font-family:Arial,sans-serif">U</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">R</span><span style="font-family:宋体">通常以字符串的形式给出，而验证函数通常采用数值运算，所以一般会将</span><span style="font-family:Arial,sans-serif">U</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">R</span><span style="font-family:宋体">转换成数值形式</span><span style="font-family:Arial,sans-serif">U’</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">R’</span><span style="font-family:宋体">，则注册机</span><span style="font-family:Arial,sans-serif">f</span><span style="font-family:宋体">及注册机的反函数</span><span style="font-family:Arial,sans-serif">f<sup>-1</sup></span><span style="font-family:宋体">实际上都是复合函数，验证函数由于只需要检验</span><span style="font-family:Arial,sans-serif">U’</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">R’</span><span style="font-family:宋体">的合法性，可以不完全等于</span><span style="font-family:Arial,sans-serif">f<sup>-1</sup></span><span style="font-family:宋体">。</span></p><table cellspacing="0" cellpadding="0"><tbody><tr><td width="93" colspan="2" valign="top" style="border-color: windowtext; border-width: 1px; padding: 0px 7px;"><p><span style="font-family:宋体">假设：</span></p></td><td width="406" valign="top" style="border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-style: none; padding: 0px 7px;"><p><span style="font-family:Arial,sans-serif">U’ &nbsp;= f1(U)</span><span style="font-family:宋体">，</span><span style="font-family:Arial,sans-serif">R’ = f2(U’)</span><span style="font-family:宋体">，</span><span style="font-family:Arial,sans-serif">R &nbsp;= f3(R’)</span></p></td></tr><tr><td width="45" rowspan="3" style="border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: none; padding: 0px 7px;"><p><span style="font-family:宋体">则：</span></p></td><td width="48" valign="top" style="border-top-style: none; border-left-style: none; border-bottom-color: windowtext; border-bottom-width: 1px; border-right-color: windowtext; border-right-width: 1px; padding: 0px 7px;"><p><span style="font-family:Arial,sans-serif">f</span></p></td><td width="406" valign="top" style="border-top-style: none; border-left-style: none; border-bottom-color: windowtext; border-bottom-width: 1px; border-right-color: windowtext; border-right-width: 1px; padding: 0px 7px;"><p><span style="font-family:Arial,sans-serif">R &nbsp;= f(U) = f3(f2(f1(U)))</span></p></td></tr><tr><td width="48" valign="top" style="border-top-style: none; border-left-style: none; border-bottom-color: windowtext; border-bottom-width: 1px; border-right-color: windowtext; border-right-width: 1px; padding: 0px 7px;"><p><span style="font-family:Arial,sans-serif">f<sup>-1</sup></span></p></td><td width="406" valign="top" style="border-top-style: none; border-left-style: none; border-bottom-color: windowtext; border-bottom-width: 1px; border-right-color: windowtext; border-right-width: 1px; padding: 0px 7px;"><p><span style="font-family:Arial,sans-serif">U &nbsp;= f<sup>-1 </sup>(R) = f1<sup>-1</sup>(f2<sup>-1</sup>(f3<sup>-1</sup>(R)))</span></p></td></tr><tr><td width="48" valign="top" style="border-top-style: none; border-left-style: none; border-bottom-color: windowtext; border-bottom-width: 1px; border-right-color: windowtext; border-right-width: 1px; padding: 0px 7px;"><p><span style="font-family:Arial,sans-serif">F</span></p></td><td width="406" valign="top" style="border-top-style: none; border-left-style: none; border-bottom-color: windowtext; border-bottom-width: 1px; border-right-color: windowtext; border-right-width: 1px; padding: 0px 7px;"><p><span style="font-family:Arial,sans-serif">F(U,R) &nbsp;= f2<sup>-1</sup>(f3<sup>-1</sup>(R))-f1(U)</span></p></td></tr></tbody></table><p style="text-indent:28px"><span style="font-family:宋体">看起来破解者通过</span><span style="font-family:Arial,sans-serif">F(U,R) = f2<sup>-1</sup>(f3<sup>-1</sup>(R))-f1(U) </span><span style="font-family:宋体">推导</span><span style="font-family:Arial,sans-serif">f<sup>-1</sup></span><span style="font-family:宋体">比推导</span><span style="font-family:Arial,sans-serif">f</span><span style="font-family:宋体">要容易，关键在于</span><span style="font-family:Arial,sans-serif">f1</span><span style="font-family:宋体">通常是建立在</span><span style="font-family:Arial,sans-serif">ASCII</span><span style="font-family:宋体">编码表之上的一个变换，所以即使推导出</span><span style="font-family:Arial,sans-serif">f<sup>-1</sup></span><span style="font-family:宋体">也没有多大价值：</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（1）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">在</span><span style="font-family:Arial,sans-serif">256</span><span style="font-family:宋体">个</span><span style="font-family:Arial,sans-serif">ASCII</span><span style="font-family:宋体">字符中只有</span><span style="font-family:Arial,sans-serif">95</span><span style="font-family:宋体">个可以使用键盘输入，假如</span><span style="font-family:Arial,sans-serif">U</span><span style="font-family:宋体">在</span><span style="font-family:Arial,sans-serif">8</span><span style="font-family:宋体">位以上，则随机选择</span><span style="font-family:Arial,sans-serif">R</span><span style="font-family:宋体">，利用</span><span style="font-family:Arial,sans-serif">f<sup>-1</sup> (R) </span><span style="font-family:宋体">计算出“可用”的</span><span style="font-family:Arial,sans-serif">U</span><span style="font-family:宋体">的概率只有区区</span><span style="font-family:Arial,sans-serif">0.00037</span><span style="font-family:宋体">而已。</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（2）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:Arial,sans-serif">U</span><span style="font-family:宋体">可能还被规定为一种特定的格式，例如电子邮件地址格式，则直接利用</span><span style="font-family:Arial,sans-serif">f<sup>-1</sup></span><span style="font-family:宋体">进行计算几乎等于穷举。</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（3）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">用户不一定能够自由选择</span><span style="font-family:Arial,sans-serif">U</span><span style="font-family:宋体">，例如</span><span style="font-family:Arial,sans-serif">U</span><span style="font-family:宋体">为机器特征码，在这种情况下，</span><span style="font-family:Arial,sans-serif"> f<sup>-1</sup></span><span style="font-family:宋体">则完全没有直接利用价值。</span></p><p style="text-indent:28px"><span style="font-family:宋体">当然，既然破解者在将</span><span style="font-family:Arial,sans-serif">U’</span><span style="font-family:宋体">转换成</span><span style="font-family:Arial,sans-serif">U</span><span style="font-family:宋体">时会遇上“不可显示，无法输入”字符的麻烦，所以软件作者在注册机中将</span><span style="font-family:Arial,sans-serif">R’</span><span style="font-family:宋体">转换成</span><span style="font-family:Arial,sans-serif">R</span><span style="font-family:宋体">时会遇上同样的麻烦。通常可以直接将</span><span style="font-family:Arial,sans-serif">R</span><span style="font-family:宋体">用数字表示，另一个常用的办法是“进制查表法”，例如将</span><span style="font-family:Arial,sans-serif">19760510</span><span style="font-family:宋体">转换成</span><span style="font-family:Arial,sans-serif">36</span><span style="font-family:宋体">进制后会变成一个五位数：</span><span style="font-family:Arial,sans-serif">11 27 19 11 2</span><span style="font-family:宋体">，如果用</span><span style="font-family:Arial,sans-serif">0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</span><span style="font-family:宋体">表示</span><span style="font-family:Arial,sans-serif">36</span><span style="font-family:宋体">进制下的数字，则</span><span style="font-family:Arial,sans-serif">19760510</span><span style="font-family:宋体">就被转化成为“</span><span style="font-family:Arial,sans-serif">BRJB2</span><span style="font-family:宋体">”。</span></p><p style="text-indent:28px"><span style="font-family:宋体">以上是软件注册算法的一些基本概念，而要防范破解者对注册算法求逆，还需要专门的手段：</span></p><p style="margin-left:52px"><span style="font-family:Arial,sans-serif">1.<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp; </span></span><span style="font-family:宋体">巧妙构造</span><span style="font-family:Arial,sans-serif">f</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">f<sup>-1</sup></span><span style="font-family:宋体">，使得通过</span><span style="font-family:Arial,sans-serif">f<sup>-1</sup></span><span style="font-family:宋体">求</span><span style="font-family:Arial,sans-serif">f</span><span style="font-family:宋体">在计算上不可行。</span></p><p style="margin-left:52px"><span style="font-family:Arial,sans-serif">2.<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp; </span></span><span style="font-family:宋体">巧妙构造</span><span style="font-family:Arial,sans-serif">F</span><span style="font-family:宋体">，使</span><span style="font-family:Arial,sans-serif">F</span><span style="font-family:宋体">与</span><span style="font-family:Arial,sans-serif">f</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">f<sup>-1</sup></span><span style="font-family:宋体">都不直接相关。</span></p><p style="text-indent:28px"><span style="font-family:宋体">下面我们将一起来研究如何运用“堡垒战术”、“游击战术”和“陷阱战术”三大战术来实现以上手段。</span></p><p style="text-indent:28px"><span style="font-family:Arial,sans-serif">&nbsp;</span></p><p style="text-align:center"><span style="font-family:黑体">二、</span><span style="font-family:黑体">堡垒</span><span style="font-family:黑体">战术</span></p><p style="text-indent:28px"><span style="font-family:宋体">事实上，在通信领域人们很早就开始了身份验证的研究，并发展出了散列加密和非对称加密等优秀的密码学算法，其中的</span><span style="font-family:Arial,sans-serif">MD5</span><span style="font-family:宋体">算法和</span><span style="font-family:Arial,sans-serif">RSA</span><span style="font-family:宋体">算法非常适合在软件注册算法中运用。</span></p><p style="text-indent:28px"><span style="font-family:Arial,sans-serif">MD5</span><span style="font-family:宋体">散列算法的原理是：</span></p><p style="margin-left:77px">（1）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:宋体">定义四个</span><span style="font-family:Arial,sans-serif">32</span><span style="font-family:宋体">位常量：</span>A=0x01234567<span style="font-family:宋体">，</span>B=0x89abcdef<span style="font-family:宋体">，</span>C=0xfedcba98<span style="font-family:宋体">，</span>D=0x76543210</p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（2）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">将明文文本按一定的拆分和填充规则变成</span><span style="font-family:Arial,sans-serif">32</span><span style="font-family:宋体">位分组信息，设组数为</span>n</p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（3）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">将</span><span style="font-family:Arial,sans-serif">A</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">B</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">C</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">D</span><span style="font-family:宋体">与各组分组信息进行</span><span style="font-family:Arial,sans-serif">n</span><span style="font-family:宋体">轮非线性变换，最终得到</span><span style="font-family:Arial,sans-serif">A’</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">B’</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">C’</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">D’</span><span style="font-family:宋体">。</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（4）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">合并</span><span style="font-family:Arial,sans-serif">A’</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">B’</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">C’</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">D’</span><span style="font-family:宋体">为一个</span><span style="font-family:Arial,sans-serif">128</span><span style="font-family:宋体">位的消息。</span></p><p style="margin-left:28px"><span style="font-family:Arial,sans-serif">&nbsp;</span></p><p style="margin-left:28px"><span style="font-family:Arial,sans-serif">MD5</span><span style="font-family:宋体">算法的特点是：</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（1）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">任意长度的消息最终都可变换成一个被称为“消息摘要”的固定长度（</span><span style="font-family:Arial,sans-serif">128</span><span style="font-family:宋体">位）的散列值。</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（2）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">相同的消息其消息摘要固定不变，不同的消息造成相同消息摘要的情况称为“冲突”，这种情况肯定存在，但至今还没有实例发现。</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（3）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">由消息摘要无法逆推消息。</span></p><p style="text-indent:28px"><span style="font-family:Arial,sans-serif">MD5</span><span style="font-family:宋体">算法通常并不被直接用来对消息进行加密，因为不存在逆算法，所以加密之后无法解密，这样的加密是没有应用价值的，</span><span style="font-family:Arial,sans-serif">MD5</span><span style="font-family:宋体">算法的用途在于数字签名。例如甲和乙进行通信，甲仅仅将明文</span><span style="font-family:Arial,sans-serif">A</span><span style="font-family:宋体">加密为</span><span style="font-family:Arial,sans-serif">B</span><span style="font-family:宋体">传送给乙是不够的，因为即使密文</span><span style="font-family:Arial,sans-serif">B</span><span style="font-family:宋体">的加密强度再高也只能防止在传输的过程中被解密而泄漏内容，却不能防止破坏者直接篡改密文</span><span style="font-family:Arial,sans-serif">B</span><span style="font-family:宋体">。乙收到</span><span style="font-family:Arial,sans-serif">B</span><span style="font-family:宋体">后解密得到</span><span style="font-family:Arial,sans-serif">A</span><span style="font-family:宋体">，也无法确定</span><span style="font-family:Arial,sans-serif">A</span><span style="font-family:宋体">所包含的内容的真实性。所以甲在发送</span><span style="font-family:Arial,sans-serif">B</span><span style="font-family:宋体">的同时通常会在</span><span style="font-family:Arial,sans-serif">A</span><span style="font-family:宋体">之后署名然后计算</span><span style="font-family:Arial,sans-serif">C = MD5(A)</span><span style="font-family:宋体">，将</span><span style="font-family:Arial,sans-serif">B</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">C</span><span style="font-family:宋体">一起发送给乙。乙收到</span><span style="font-family:Arial,sans-serif">B</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">C</span><span style="font-family:宋体">后，首先解密</span><span style="font-family:Arial,sans-serif">B</span><span style="font-family:宋体">得到</span><span style="font-family:Arial,sans-serif">A</span><span style="font-family:宋体">，然后同样计算</span><span style="font-family:Arial,sans-serif">C = MD5(A)</span><span style="font-family:宋体">，若计算出的</span><span style="font-family:Arial,sans-serif">C</span><span style="font-family:宋体">与收到的</span><span style="font-family:Arial,sans-serif">C</span><span style="font-family:宋体">相同，则可确定</span><span style="font-family:Arial,sans-serif">A</span><span style="font-family:宋体">真实可靠。</span></p><p style="text-indent:28px"><span style="font-family:宋体">同样</span><span style="font-family:Arial,sans-serif">MD5</span><span style="font-family:宋体">算法也不适合直接被用来做注册机，假如使用</span><span style="font-family:Arial,sans-serif">R = MD5(U) </span><span style="font-family:宋体">做注册机，由于</span><span style="font-family:Arial,sans-serif">MD5</span><span style="font-family:宋体">不存在反函数，验证函数将不得不包含注册机。但是我们用以下办法使用</span><span style="font-family:Arial,sans-serif">MD5</span><span style="font-family:宋体">算法：</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（1）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">设注册机</span><span style="font-family:Arial,sans-serif">f</span><span style="font-family:宋体">为：</span><span style="font-family:Arial,sans-serif">R= f(U)</span><span style="font-family:宋体">。</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（2）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">设</span><span style="font-family:Arial,sans-serif">MD5(a) = b</span><span style="font-family:宋体">。</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（3）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">令验证函数</span><span style="font-family:Arial,sans-serif">F</span><span style="font-family:宋体">为：</span><span style="font-family:Arial,sans-serif">F(U,R)= MD5 [ f<sup>-1</sup>(R)-U + a ] </span></p><p style="text-indent:28px"><span style="font-family:宋体">显然</span><span style="font-family:Arial,sans-serif">F</span><span style="font-family:宋体">的合法值应该为</span><span style="font-family:Arial,sans-serif">b</span><span style="font-family:宋体">，只要</span><span style="font-family:Arial,sans-serif">U</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">R</span><span style="font-family:宋体">满足</span><span style="font-family:Arial,sans-serif">R=f(U)</span><span style="font-family:宋体">，</span><span style="font-family:Arial,sans-serif">F</span><span style="font-family:宋体">一定等于</span><span style="font-family:Arial,sans-serif">b</span><span style="font-family:宋体">。由于</span><span style="font-family:Arial,sans-serif">MD5</span><span style="font-family:宋体">不可逆，破解者无法通过</span><span style="font-family:Arial,sans-serif">b</span><span style="font-family:宋体">获知</span><span style="font-family:Arial,sans-serif">f<sup>-1</sup>(R)-U+ a</span><span style="font-family:宋体">应该等于</span><span style="font-family:Arial,sans-serif">a</span><span style="font-family:宋体">，也就无法获得</span><span style="font-family:Arial,sans-serif">f<sup>-1</sup></span><span style="font-family:宋体">的准确表达式，更无法获得注册机</span><span style="font-family:Arial,sans-serif">f</span><span style="font-family:宋体">。至于</span><span style="font-family:Arial,sans-serif">f<sup>-1</sup>(R)-U+ a</span><span style="font-family:宋体">表达示中虽然含有</span><span style="font-family:Arial,sans-serif">a</span><span style="font-family:宋体">，但破解者无法判断</span><span style="font-family:Arial,sans-serif">a</span><span style="font-family:宋体">和</span><span style="font-family:Arial,sans-serif">f<sup>-1</sup></span><span style="font-family:宋体">的关系。例如：</span><span style="font-family:Arial,sans-serif">U = f<sup>-1</sup>(R) = R * 5 + 19</span><span style="font-family:宋体">，</span><span style="font-family:Arial,sans-serif">a= 7</span><span style="font-family:宋体">，则：</span><span style="font-family:Arial,sans-serif">F(U,R) = MD5(R*5+26-U)</span><span style="font-family:宋体">，</span><span style="font-family:Arial,sans-serif">a</span><span style="font-family:宋体">和</span><span style="font-family:Arial,sans-serif">f<sup>-1</sup></span><span style="font-family:宋体">融为一体，叫破解者如何分得清？</span></p><p style="text-indent:28px"><span style="font-family:宋体">实际上利用</span><span style="font-family:Arial,sans-serif">MD5</span><span style="font-family:宋体">算法还有很多方法可以构造</span><span style="font-family:Arial,sans-serif">F</span><span style="font-family:宋体">，让破解者根本看不出</span><span style="font-family:Arial,sans-serif">F</span><span style="font-family:宋体">和</span><span style="font-family:Arial,sans-serif">f</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">f<sup>-1</sup></span><span style="font-family:宋体">的关系，就更谈不上求逆了。这里只是举了一个极端简单的例子而已，相信读者完全能够进行精彩的发挥。</span><span style="font-family:Arial,sans-serif">MD5</span><span style="font-family:宋体">算法使用非常广泛，也几乎没有什么算法实现上的漏洞，各位可以通过</span><span style="font-family:Arial,sans-serif">google</span><span style="font-family:宋体">搜索到大量的实现</span><span style="font-family:Arial,sans-serif">MD5</span><span style="font-family:宋体">算法的函数库，按照文档说明直接调用。</span></p><p style="text-indent:28px"><span style="font-family:宋体">当然，</span><span style="font-family:Arial,sans-serif">MD5</span><span style="font-family:宋体">算法也有它的缺陷，正因为</span><span style="font-family:Arial,sans-serif">MD5</span><span style="font-family:宋体">完全不可逆，所以</span><span style="font-family:Arial,sans-serif">a</span><span style="font-family:宋体">必须为常数，一旦破解组织获得了一对合法的</span><span style="font-family:Arial,sans-serif">U</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">R</span><span style="font-family:宋体">，他们就可以跟踪到合法的</span><span style="font-family:Arial,sans-serif">a</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">b</span><span style="font-family:宋体">值，从而获得</span><span style="font-family:Arial,sans-serif">f<sup>-1</sup></span><span style="font-family:宋体">，并进一步推导出注册机</span><span style="font-family:Arial,sans-serif">f</span><span style="font-family:宋体">。当然，前提是他们必须先设法获得一对合法的</span><span style="font-family:Arial,sans-serif">U</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">R</span><span style="font-family:宋体">。</span></p><p style="text-indent:28px"><span style="font-family:Arial,sans-serif">RSA</span><span style="font-family:宋体">非对称算法的原理是（其证明过程使用数论学中的费马定理和欧拉推论，有兴趣的朋友请自行查阅，这里从略）：</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（1）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">选择两个互不相同的素数</span><span style="font-family:Arial,sans-serif">p</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">q</span><span style="font-family:宋体">，令</span><span style="font-family:Arial,sans-serif">n=pq</span><span style="font-family:宋体">，</span><span style="font-family:Arial,sans-serif">m=(p-1)(q-1)</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（2）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">选择素数</span><span style="font-family:Arial,sans-serif">e&lt;n </span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（3）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">计算</span><span style="font-family:Arial,sans-serif">d</span><span style="font-family:宋体">满足</span><span style="font-family:Arial,sans-serif">edmod m = 1</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（4）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">对于任意</span><span style="font-family:Arial,sans-serif">A&lt;n</span><span style="font-family:宋体">，若</span><span style="font-family:Arial,sans-serif">B=A<sup>e</sup>mod n</span><span style="font-family:宋体">，则</span><span style="font-family:Arial,sans-serif">A=B<sup>d</sup> mod n</span></p><p style="text-indent:28px"><span style="font-family:宋体">可见在机密通信开始之前，收信方可随机生成</span><span style="font-family:Arial,sans-serif">n</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">e</span><span style="font-family:宋体">和</span><span style="font-family:Arial,sans-serif">d</span><span style="font-family:宋体">，然后将</span><span style="font-family:Arial,sans-serif">n</span><span style="font-family:宋体">和</span><span style="font-family:Arial,sans-serif">e</span><span style="font-family:宋体">作为公钥发送给发信方；发信方将机密信息</span><span style="font-family:Arial,sans-serif">A</span><span style="font-family:宋体">加密为密文</span><span style="font-family:Arial,sans-serif">B=A<sup>e</sup>mod n</span><span style="font-family:宋体">；收信方收到密文</span><span style="font-family:Arial,sans-serif">B</span><span style="font-family:宋体">后用私钥</span><span style="font-family:Arial,sans-serif">d</span><span style="font-family:宋体">进行解密得到明文</span><span style="font-family:Arial,sans-serif">A=B<sup>d</sup> mod n</span><span style="font-family:宋体">，当然机密信息</span><span style="font-family:Arial,sans-serif">A</span><span style="font-family:宋体">必须</span><span style="font-family:Arial,sans-serif">&lt;n</span><span style="font-family:宋体">，否则可将</span><span style="font-family:Arial,sans-serif">A</span><span style="font-family:宋体">拆分为</span><span style="font-family:Arial,sans-serif">&lt;n</span><span style="font-family:宋体">的片断</span><span style="font-family:Arial,sans-serif">A<sub>i</sub></span><span style="font-family:宋体">再进行加密发送。</span></p><p style="text-indent:28px"><span style="font-family:宋体">如果通信过程被第三者监听，由于</span><span style="font-family:Arial,sans-serif">d</span><span style="font-family:宋体">不在通信过程中出现，监听者最多可获取</span><span style="font-family:Arial,sans-serif">n</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">e</span><span style="font-family:宋体">和密文</span><span style="font-family:Arial,sans-serif">B</span><span style="font-family:宋体">，在不知道</span><span style="font-family:Arial,sans-serif">d</span><span style="font-family:宋体">的情况下无法获取明文</span><span style="font-family:Arial,sans-serif">A=B<sup>d</sup> mod n</span><span style="font-family:宋体">，如果监听者希望通过</span><span style="font-family:Arial,sans-serif">n</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">e</span><span style="font-family:宋体">推导</span><span style="font-family:Arial,sans-serif">d</span><span style="font-family:宋体">，由</span><span style="font-family:Arial,sans-serif">d</span><span style="font-family:宋体">的生成过程可知，他需要对</span><span style="font-family:Arial,sans-serif">n</span><span style="font-family:宋体">进行质因数分解获得</span><span style="font-family:Arial,sans-serif">p</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">q</span><span style="font-family:宋体">，众所周知，计算</span><span style="font-family:Arial,sans-serif">n=pq</span><span style="font-family:宋体">很容易，但计算</span><span style="font-family:Arial,sans-serif">pq=n</span><span style="font-family:宋体">则困难得多。假如</span><span style="font-family:Arial,sans-serif">n</span><span style="font-family:宋体">足够大，例如</span><span style="font-family:Arial,sans-serif">1024bit</span><span style="font-family:宋体">，则对</span><span style="font-family:Arial,sans-serif">n</span><span style="font-family:宋体">进行质因数分解的代价按照现有的计算水平测算，需要动用上千万美元的计算机系统耗时一年的时间！</span></p><p style="text-indent:28px"><span style="font-family:Arial,sans-serif">RSA</span><span style="font-family:宋体">算法很容易在软件保护中进行应用：</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（1）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">软件作者使用：</span><span style="font-family:Arial,sans-serif">R = U<sup>d</sup> mod n</span><span style="font-family:宋体">作为注册机</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（2）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">软件使用：</span><span style="font-family:Arial,sans-serif">U = R<sup>e</sup> mod n</span><span style="font-family:宋体">作为验证函数</span></p><p style="text-indent:28px"><span style="font-family:宋体">破解者即使跟踪软件运行的全过程，也不到</span><span style="font-family:Arial,sans-serif">d</span><span style="font-family:宋体">，无法写出注册机，当然，</span><span style="font-family:Arial,sans-serif">RSA</span><span style="font-family:宋体">算法并不容易编程实现，它具有几个难点：</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（1）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">如何处理大数运算，目前主流</span><span style="font-family:Arial,sans-serif">RSA </span><span style="font-family:宋体">算法都建立在</span><span style="font-family:Arial,sans-serif">1024</span><span style="font-family:宋体">位的大数运算之上。而大多数的编译器只能支持到</span><span style="font-family:Arial,sans-serif">64</span><span style="font-family:宋体">位的整数运算，这远远达不到</span><span style="font-family:Arial,sans-serif">RSA </span><span style="font-family:宋体">的需要。</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（2）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">如何快速进行模幂运算</span><span style="font-family:Arial,sans-serif">B = A<sup>e</sup> mod N</span><span style="font-family:宋体">，这里面包含大量的数学技巧，其中蒙哥马利算法甚至可以让这一运算过程根本不出现最耗时的除法运算。</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（3）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">如何快速求解同余方程</span><span style="font-family:Arial,sans-serif"> XY mod M = 1</span><span style="font-family:宋体">。</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（4）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">如何快速获取指定长度的随机素数。</span></p><p style="text-indent:28px"><span style="font-family:宋体">事实上，这些问题并不是各自独立的，它们互有关联，环环相套。假如各位有兴趣自己动手来实现</span><span style="font-family:Arial,sans-serif">RSA</span><span style="font-family:宋体">算法，相信随着这些问题逐一迎刃而解，您也会逐渐意识到</span><span style="font-family:Arial,sans-serif">RSA</span><span style="font-family:宋体">算法真的是一种“优美”的算法。</span></p><p style="text-indent:28px"><span style="font-family:宋体">有很多开放源码函数库实现了</span><span style="font-family:Arial,sans-serif">RSA</span><span style="font-family:宋体">算法，如</span><span style="font-family:Arial,sans-serif">crypto++</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">miracl</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">freelip</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">rsaref</span><span style="font-family:宋体">等，软件作者可以利用这些函数库对自己的软件进行</span><span style="font-family:Arial,sans-serif">RSA</span><span style="font-family:宋体">保护。这些函数库俺都有过研究，代码效率的确是很不错的，运行速度很快，但感觉要么使用的数据结构过于复杂，要么编码风格杂乱无章，俺的水平和耐心都实在有限，以至于无法读懂这些东西。由于</span><span style="font-family:Arial,sans-serif">RSA</span><span style="font-family:宋体">算法原理比较复杂，限于篇幅，这里不能加以全面介绍，有兴趣的朋友可以到看雪论坛（</span><span style="font-family:Arial,sans-serif"><a>www.pediy.com</a></span><span style="font-family:宋体">）查阅在下拙文《</span><span style="font-family:Arial,sans-serif">RSA</span><span style="font-family:宋体">与大数运算》，包含了详细的原理介绍和简单易懂的</span><span style="font-family:Arial,sans-serif">MFC</span><span style="font-family:宋体">源代码。</span></p><p style="text-indent:28px"><span style="font-family:宋体">基本上进行</span><span style="font-family:Arial,sans-serif">RSA</span><span style="font-family:宋体">算法保护的软件可以说是建立了一座坚不可摧的堡垒，但是我们都知道马其顿防线的故事，由于</span><span style="font-family:Arial,sans-serif">RSA</span><span style="font-family:宋体">算法众所周知，再加上软件作者通常会采用公共函数库来实现</span><span style="font-family:Arial,sans-serif">RSA</span><span style="font-family:宋体">算法，所以使用</span><span style="font-family:Arial,sans-serif">RSA</span><span style="font-family:宋体">算法也存在一些风险：</span></p><p style="margin-left:48px"><span style="font-family:Arial,sans-serif">1、</span><span style="font-family:Arial,sans-serif">RSA</span><span style="font-family:宋体">算法本身虽然足够坚固，但使用者往往全盘采用第三方公用代码。这些代码可能含有漏洞，而全世界有大量的资深破解者在研究这些代码的漏洞，一旦发现漏洞，软件的安全性就可能成为陪葬品，因为每一种公开的固定代码都必然包含一些特征串，通过搜索特征串可以轻松获知哪些软件使用了含有缺陷的代码。</span></p><p><span style="font-family:Arial,sans-serif">&nbsp;</span></p><p style="margin-left:48px"><span style="font-family:Arial,sans-serif">2、</span><span style="font-family:Arial,sans-serif">RSA</span><span style="font-family:宋体">算法的使用者往往并不了解算法细节，可能因错误使用</span><span style="font-family:Arial,sans-serif">RSA</span><span style="font-family:宋体">而在不知不觉之中遭遇非常规手段的攻击，例如在不同的软件作品中使用不同的</span><span style="font-family:Arial,sans-serif">e</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">d</span><span style="font-family:宋体">但使用相同的</span><span style="font-family:Arial,sans-serif">n</span><span style="font-family:宋体">而遭到“公共模组攻击”，或在电子邮件等通信加密领域使用</span><span style="font-family:Arial,sans-serif">e</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">d</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">n</span><span style="font-family:宋体">而遭到“选择密文攻击”等等。</span></p><p style="margin-left:48px"><span style="font-family:Arial,sans-serif">3、</span><span style="font-family:宋体">另外</span><span style="font-family:Arial,sans-serif">RSA</span><span style="font-family:宋体">算法原理看起来加解密过程可以互换，但在通信领域由于密文的解密过程并不暴露给窃听者，所以其加解密过程虽然同为模幂运算，但实际实现过程往往并不一致，在解密端通常会采用“中国剩余定理”进行加速，而中国剩余定理中包含对原始数据</span><span style="font-family:Arial,sans-serif">p</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">q</span><span style="font-family:宋体">的引用。这一类函数库在软件保护中使用时要非常小心，一旦软件作者选择了错误的</span><span style="font-family:Arial,sans-serif">RSA</span><span style="font-family:宋体">库函数，在验证函数中使用了中国剩余定理，则会导致</span><span style="font-family:Arial,sans-serif">RSA</span><span style="font-family:宋体">防线如同虚设。</span></p><p style="margin-left:48px"><span style="font-family:Arial,sans-serif">4、</span><span style="font-family:宋体">某些函数库在生成随机素数时，采用“伪随机数产生器”，即在完全相同的初始条件下会产生完全相同的“随机数”序列。破解者如果得到该函数库，就可以根据</span><span style="font-family:Arial,sans-serif">n</span><span style="font-family:宋体">值推断</span><span style="font-family:Arial,sans-serif">p</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">q</span><span style="font-family:宋体">生成过程，从而攻破</span><span style="font-family:Arial,sans-serif">RSA</span><span style="font-family:宋体">防线。</span></p><p style="margin-left:48px"><span style="font-family:Arial,sans-serif">5、</span><span style="font-family:Arial,sans-serif">RSA</span><span style="font-family:宋体">算法中存在若干由某些特殊素数构造而成的“弱密钥”，某些函数库在生成随机素数时，没有淘汰这些特殊素数，导致</span><span style="font-family:Arial,sans-serif">RSA</span><span style="font-family:宋体">防线在数论高手面前虚弱无力。</span></p><p style="text-indent:28px"><span style="font-family:宋体">虽然对软件实施</span><span style="font-family:Arial,sans-serif">RSA</span><span style="font-family:宋体">保护存在一定的风险，但是毕竟</span><span style="font-family:Arial,sans-serif">RSA</span><span style="font-family:宋体">算法非常复杂，可以乐观地估计，</span><span style="font-family:Arial,sans-serif"> RSA</span><span style="font-family:宋体">算法足以让</span><span style="font-family:Arial,sans-serif">90%</span><span style="font-family:宋体">以上的破解者面对晦涩的汇编代码好一阵子找不到北。</span></p><p style="text-indent:28px"><span style="font-family:宋体">这一节基本上都借用了通信领域的密码学知识，事实上密码学知识在软件保护上大有用武之地，各位如果潜心加以研究，一定还会发现“堡垒”其实还有很多种建造方法。</span></p><p>&nbsp;</p><p style="text-align:center"><span style="font-family:黑体">三、游击战术</span></p><p style="text-indent:28px"><span style="font-family:宋体">游击战第一宗旨：化整为零。对付强大的对手非常有效。而软件保护中的游击战术就是将验证函数</span><span style="font-family:Arial,sans-serif">F</span><span style="font-family:宋体">“肢解”成多个互不相同的</span><span style="font-family:Arial,sans-serif">Fi</span><span style="font-family:宋体">，然后将这些</span><span style="font-family:Arial,sans-serif">Fi</span><span style="font-family:宋体">尽可能藏到隐蔽的程序角落。</span></p><p style="text-indent:28px"><span style="font-family:宋体">通过任意一个</span><span style="font-family:Arial,sans-serif">Fi</span><span style="font-family:宋体">的验证都只是注册码合法的必要条件，而非充分条件，真正合法的注册码能够通过所有的</span><span style="font-family:Arial,sans-serif">Fi</span><span style="font-family:宋体">的验证。破解者找到</span><span style="font-family:Arial,sans-serif">Fi</span><span style="font-family:宋体">其中的任一个或任意几个，只要不能将所有的</span><span style="font-family:Arial,sans-serif">Fi</span><span style="font-family:宋体">一网打尽，他就无法一睹</span><span style="font-family:Arial,sans-serif">F</span><span style="font-family:宋体">的全貌，无法进行算法求逆，无法得到注册机。</span></p><p style="text-indent:28px"><span style="font-family:宋体">当然，将</span><span style="font-family:Arial,sans-serif">F</span><span style="font-family:宋体">分解成一系列必要非充分的</span><span style="font-family:Arial,sans-serif">Fi</span><span style="font-family:宋体">也不是一件容易的事情，需要较专业的数学知识，但是我们至少可以使用分段函数来简单地实现这一目标：</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（1）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">将</span><span style="font-family:Arial,sans-serif">R</span><span style="font-family:宋体">切分成多段</span><span style="font-family:Arial,sans-serif">Ri</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（2）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">构造不同的</span><span style="font-family:Arial,sans-serif">f</span><span style="font-family:宋体">算法使得：</span><span style="font-family:Arial,sans-serif">Ri = fi(U)</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（3）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">令</span><span style="font-family:Arial,sans-serif">Fi=fi</span><span style="font-family:宋体">的反函数</span><span style="font-family:Arial,sans-serif">fi<sup>-1</sup></span></p><p style="text-indent:28px"><span style="font-family:宋体">这样做虽然有点麻烦，但绝对是值得的。例如我们可以让</span><span style="font-family:Arial,sans-serif">F1</span><span style="font-family:宋体">使用</span><span style="font-family:Arial,sans-serif">MD5</span><span style="font-family:宋体">算法，</span><span style="font-family:Arial,sans-serif">F2</span><span style="font-family:宋体">使用</span><span style="font-family:Arial,sans-serif">RSA</span><span style="font-family:宋体">算法，</span><span style="font-family:Arial,sans-serif">F3</span><span style="font-family:宋体">使用自定义不知名算法，在用户输入注册码后仅仅使用</span><span style="font-family:Arial,sans-serif">F1</span><span style="font-family:宋体">进行验证，并将注册码以密文形式写入自定义格式的数据文件，然后如果验证通过（不妨假定破解者总是有办法让它通过的）就恭喜注册成功。另外两个验证函数藏起来，只有使用者执行特定的操作时才被调用，例如在用户进行存档操作或使用某些高级功能的时候将注册码读出来再次验证，俺甚至碰到过一个软件在软件被关闭时响应窗口</span><span style="font-family:Arial,sans-serif">Destory</span><span style="font-family:宋体">消息来调用一个验证函数。一旦任何一个验证函数发现注册码非法，就清除注册码并将软件恢复为未注册状态，甚至可以更极端地选择“自杀”。</span></p><p style="text-indent:28px"><span style="font-family:宋体">游击战第二宗旨：虚虚实实。对于破解者来说，遇到游击战术会非常被动，除非他找到的验证函数已经能够将</span><span style="font-family:Arial,sans-serif">U</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">R</span><span style="font-family:宋体">形成一对一的对应关系，否则永远不能确定软件中是否还埋藏着其他的验证函数，而事实上软件作者根本没有必要让</span><span style="font-family:Arial,sans-serif">U</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">R</span><span style="font-family:宋体">形成一对一的对应关系，验证函数个数的不确定性的确很容易让试图制作注册机的破解者懊恼不已。</span></p><p style="text-indent:28px"><span style="font-family:宋体">假如运用一点简单的线性代数的知识，我们可以将</span><span style="font-family:Arial,sans-serif">Ri</span><span style="font-family:宋体">的其中几个（注意只是其中几个，而不是全部）和</span><span style="font-family:Arial,sans-serif">Fi</span><span style="font-family:宋体">关联起来：</span></p><p style="margin-left:28px"><span style="font-family:宋体">设：</span><span style="font-family:Arial,sans-serif">Ra = 3U</span><span style="font-family:宋体">，</span><span style="font-family:Arial,sans-serif">Rb= 5U</span><span style="font-family:宋体">，</span><span style="font-family:Arial,sans-serif">Rc = 7U</span><span style="font-family:宋体">，则：</span></p><p style="margin-left:28px"><span style="font-family:Arial,sans-serif">&nbsp;</span></p><p style="text-indent:28px"><span style="font-family:Arial,sans-serif">Fa = 7Ra + 11Rb + 5Rc – 111U</span></p><p style="text-indent:28px"><span style="font-family:Arial,sans-serif">Fb = 11Ra + 7Rb + 3Rc – 89U</span></p><p style="text-indent:28px"><span style="font-family:Arial,sans-serif">Fc = 5Ra + 3Rb + 11Rc – 107U</span></p><p style="text-indent:28px"><span style="font-family:宋体">这样破解者找到</span><span style="font-family:Arial,sans-serif">Fa</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">Fb</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">Fc</span><span style="font-family:宋体">中的任意一个，甚至无法求出</span><span style="font-family:Arial,sans-serif">R</span><span style="font-family:宋体">哪怕是小小的一段，一个更好的主意是让参与到线性方程组中的</span><span style="font-family:Arial,sans-serif">Ri</span><span style="font-family:宋体">的个数稍稍大于使用线性方程的验证函数的个数，软件作者手里持有线性方程的某一组特定解作为注册机，而破解者则无法了解验证函数到底有几个，就像鬼子永远搞不清楚八路军到底有多少，以至于最后歇斯底里地见人就认为是“八路的干活”。</span></p><p style="text-indent:28px"><span style="font-family:宋体">如果将一对</span><span style="font-family:Arial,sans-serif">U</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">R</span><span style="font-family:宋体">作为纵横坐标，看作平面上的一点，将注册机</span><span style="font-family:Arial,sans-serif">f</span><span style="font-family:宋体">看作由合法</span><span style="font-family:Arial,sans-serif">U</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">R</span><span style="font-family:宋体">连成的一段平面曲线，我们还可以构造多个空间曲面方程作为验证函数</span><span style="font-family:Arial,sans-serif">F</span><span style="font-family:宋体">，条件是</span><span style="font-family:Arial,sans-serif">f</span><span style="font-family:宋体">落在这些空间曲面之上，如果稍稍了解空间解析几何的知识，相信各位可以构造出无数个曲面方程作为验证函数，甚至还可以考虑使用参数方程，这样即使破解者获得了所有的</span><span style="font-family:Arial,sans-serif">Fi</span><span style="font-family:宋体">，也要有精深的解几功力才能求出</span><span style="font-family:Arial,sans-serif">f</span><span style="font-family:宋体">。</span></p><p style="text-indent:28px"><span style="font-family:宋体">我们必须反复强调数学知识的重要性，不管是数论、代数、线性代数、几何、解析几何，还是微积分（俺个人认为利用傅立叶变换作验证函数将会非常有趣）、概率论，都可以拿来作为软件保护的武器。请相信，如果你具备了</span><span style="font-family:Arial,sans-serif">3</span><span style="font-family:宋体">成的数学功力，就足以将</span><span style="font-family:Arial,sans-serif">6</span><span style="font-family:宋体">成功力以下的对手折磨致死，因为你和他掌握着不对称的信息量。</span></p><p style="text-indent:28px"><span style="font-family:宋体">游击战第三宗旨：战略转移。游击队也经常会被鬼子扫荡，因为游击队的行踪经常会被汉奸告密。我们的游击战术的致命弱点在于，每一个验证函数都必须访问注册码，而注册码的源头只有一个：用户从注册界面输入的那一个。破解者会跟踪程序从注册界面读入注册码的过程，并监控存放注册码的内存地址，一旦验证函数访问这一地址就会泄漏行踪，这样注册码实际上成为了破解者寻找验证函数的一把钥匙，理论上他只要牢牢地抓着这把钥匙不放，就一定会找到所有的验证函数。应对的办法就是大规模的转移，游击战嘛，就是要能“跑”，将鬼子拖死、累死，软件必须不停的将注册码“搬家”，搬家的方法要多样化：</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（1）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">内存拷贝，这种常规做法容易被破解者的</span><span style="font-family:Arial,sans-serif">bpm</span><span style="font-family:宋体">内存监控断点识破。</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（2）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">写入注册表或文件，然后在另一处代码中再读入到另一个内存地址，这种办法会被破解者的注册表、文件监视工具识破。</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（3）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">一次将注册码拷贝到多个地址，让破解者无法确定哪一个地址是注册码的新家，当然如果敌人坚忍不拔，个个都追，至少也可以消耗敌人大量的精力。</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（4）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">在反复使用同一个函数搬家后突然使用另一个前半部分代码相同而后半部分不同的函数进行搬家。这种方法很容易让疲惫的敌人一不小心就将注册码跟丢。</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（5）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">将注册码肢解后一部分一部分地“偷运”到不同的地址然后再组装，这种办法很容易让敌人疏于防备。</span></p><p style="margin-left:77px"><span style="font-family:Arial,sans-serif">（6）<span style="font-stretch: normal;font-size: 9px;line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style="font-family:宋体">将以上方法反复使用，如果仅仅靠</span><span style="font-family:Arial,sans-serif">copy&amp;paste</span><span style="font-family:宋体">就可以将对手逼成神经病，何乐而不为呢？</span></p><p style="text-indent:28px"><span style="font-family:宋体">事实上主动权永远掌握在你的手里，你还可以自创多如牛毛的搬家大法来对付可怜的破解者。可能您会一不小心遇上一个精力过人孜孜不倦神勇无比的对手最终将您的游击队一一肃清，但是请相信，只要您认真贯彻了游击战术的三大宗旨，灵活结合使用，一定会让</span>90%<span style="font-family:宋体">以上的破解者像无头苍蝇一样乱转一气之后恼羞成怒关机投降。当然您可能会受到很多口头“关照”，如“变态”、“</span>#$%$*^<span style="font-family:宋体">”等等，但是这只能说明您的对手缺乏风度，并不会对您造成任何实质性的影响。</span></p><p style="text-indent:28px">&nbsp;</p><p style="text-align:center"><span style="font-family:黑体">四、陷阱战术</span></p><p style="text-indent:28px"><span style="font-family:宋体">所谓“陷阱”，是要让破解者误入歧途，陷入困惑之中无法自拔，我们不应该一味试图编制让破解者读不懂的代码，那不是一件容易的事情，而且抱着这样的目标很容易犯自以为是、低估对手的错误。我们的任务最好是引诱对手犯自以为是的错误，让他在并没有完全弄懂验证过程时却自以为懂了。当然，将要介绍的“陷阱”，只是俺个人的一些研究思路，或许只能博高手一笑，但希望至少能够对各位有所启发，起到抛砖引玉的作用。</span></p><p style="text-indent:28px"><span style="font-family:宋体">第一个陷阱俺称之为“随机陷阱”，原理是准备多个验证函数，程序每次运行时仅仅随机调用其中的某一个。其中随机数的产生可以放在程序头，由于应用程序通常会有大量的数据初始化工作，再加上随机数产生函数代码本身也比较晦涩难懂，夹杂在其中生成一个随机数应该是很隐蔽的。这样破解者在跟踪程序之后通常会自以为程序只有一个验证函数，于是放心地发布了注册机，而其他人使用该注册机进行注册时，由于程序生成了不同的随机数，调用了不同的验证函数，注册自然失败。</span></p><p style="text-indent:28px"><span style="font-family:宋体">不幸的是您无法判断您的对手的功力和习惯，有些功力一般的菜鸟（像俺这样的）或者是某些有特殊习惯的高手往往会将您的程序跟踪好几遍，甚至几十遍，您的随机陷阱就会被发现。所以俺强烈建议您不妨将其中一个验证函数被随机调用的概率控制在</span><span style="font-family:Arial,sans-serif">1%</span><span style="font-family:宋体">左右。这样做的坏处是会出现一些并不完整的注册机，却能够让您的软件在注册状态下运行好多次。好处是根据心理学家的研究，人类总是对自己关系越深却又无法控制的东西最感兴趣，一旦某人千方百计找来一个不完整的注册机注册了您的软件，他会认为“哈哈，现在这东西是俺的了！”那种感觉当然会很好，他和您的软件的关系在心理上的亲密程度一般绝不会比他掏腰包买来的软件差，而一旦哪天他突然发现您的软件识破了他的非法身份，他会很失落，那感觉肯定会很不好，极有可能他会忍不住将“自己的东西”拿回来的冲动，哪怕是掏腰包。这样的话，恭喜您获得了一个分外的注册用户。您还会获得附带的收获：您的对手，破解者的声誉受到了打击，事实上众多的破解高手并不靠破解生活，他们在乎的其实就是所谓的声誉，您的这一次打击很可能会让他灰心丧气，失去了继续破解的兴趣，这样的话，恭喜您除掉了一个难缠的敌人。</span></p><p style="text-indent:28px"><span style="font-family:宋体">第二个陷阱俺称之为“整数陷阱”，由于通常验证函数都将用户码与注册码转换成整数进行运算，我们可以利用破解者的这一经验作一些手脚。例如我们将用户码拆分成两个整数</span><span style="font-family:Arial,sans-serif">U1</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">U2</span><span style="font-family:宋体">，注册码也拆分成两个整数</span><span style="font-family:Arial,sans-serif">R1</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">R2</span><span style="font-family:宋体">，注册机为</span><span style="font-family:Arial,sans-serif">R1=U1+115</span><span style="font-family:宋体">，</span><span style="font-family:Arial,sans-serif">R2=U2+351</span><span style="font-family:宋体">，验证函数有两个，其中</span><span style="font-family:Arial,sans-serif">F1</span><span style="font-family:宋体">为：</span><span style="font-family:Arial,sans-serif">[(R1-U1)<sup>2</sup>+ (R2-U2)<sup>2</sup>]<sup>1/2 </sup>=369</span><span style="font-family:宋体">，</span><span style="font-family:Arial,sans-serif">F2</span><span style="font-family:宋体">为：</span><span style="font-family:Arial,sans-serif">(R2-U2)/(R1-U1)=3</span><span style="font-family:宋体">，我们将</span><span style="font-family:Arial,sans-serif">F1</span><span style="font-family:宋体">暴露，将</span><span style="font-family:Arial,sans-serif">F2</span><span style="font-family:宋体">隐藏。这样破解者找到</span><span style="font-family:Arial,sans-serif">F1</span><span style="font-family:宋体">后首先会发现验证过程包含了</span><span style="font-family:Arial,sans-serif">U</span><span style="font-family:宋体">、</span><span style="font-family:Arial,sans-serif">R</span><span style="font-family:宋体">的完整信息，而且</span><span style="font-family:Arial,sans-serif">F1</span><span style="font-family:宋体">显然是一个勾股方程，查表可得其唯一整数解为</span><span style="font-family:Arial,sans-serif">R1-U1=81</span><span style="font-family:宋体">，</span><span style="font-family:Arial,sans-serif">R2-U2=360</span><span style="font-family:宋体">，很容易自以为是的认为注册机为</span><span style="font-family:Arial,sans-serif">R1=U1+81</span><span style="font-family:宋体">，</span><span style="font-family:Arial,sans-serif">R2=U2+360</span><span style="font-family:宋体">。然而偏偏我们使用的不是</span><span style="font-family:Arial,sans-serif">F1</span><span style="font-family:宋体">的整数解，却在计算机的计算下恰好满足</span><span style="font-family:Arial,sans-serif">F1</span><span style="font-family:宋体">。其实可以将</span><span style="font-family:Arial,sans-serif">U</span><span style="font-family:宋体">看作平面坐标系上的一个点，满足</span><span style="font-family:Arial,sans-serif">F1</span><span style="font-family:宋体">的是以</span><span style="font-family:Arial,sans-serif">U</span><span style="font-family:宋体">为圆心，</span><span style="font-family:Arial,sans-serif">369</span><span style="font-family:宋体">为半径的圆；满足</span><span style="font-family:Arial,sans-serif">F2</span><span style="font-family:宋体">的是经过</span><span style="font-family:Arial,sans-serif">U</span><span style="font-family:宋体">且斜率为</span><span style="font-family:Arial,sans-serif">3</span><span style="font-family:宋体">的直线；</span><span style="font-family:Arial,sans-serif">F1</span><span style="font-family:宋体">和</span><span style="font-family:Arial,sans-serif">F2</span><span style="font-family:宋体">的交点才是合法的</span><span style="font-family:Arial,sans-serif">R</span><span style="font-family:宋体">。我们所学习的数学函数绝大多数都是连续函数，而计算机处理的却是离散值，所以这一类的陷阱很容易构造，但是破解者要识破，就不见得有那么容易了。</span></p><p style="text-indent:28px"><span style="font-family:宋体">第三个陷阱俺称之为“函数陷阱”，破解高手通常对自己的分析归纳能力很自信，当他们在跟踪程序的过程中遇到函数调用时，喜欢分几次传递不同的参数给函数，试图从返回值的变化中分析归纳出函数的作用，我们可以投其所好构造陷阱。首先我们暴露</span><span style="font-family:Arial,sans-serif">F1</span><span style="font-family:宋体">，</span><span style="font-family:Arial,sans-serif">F1</span><span style="font-family:宋体">读入</span></p><p><span style="font-family:Arial,sans-serif">R</span><span style="font-family:宋体">作为参数，返回值为</span><span style="font-family:Arial,sans-serif">R’</span><span style="font-family:宋体">并且</span><span style="font-family:Arial,sans-serif">R’</span><span style="font-family:宋体">与</span><span style="font-family:Arial,sans-serif">R</span><span style="font-family:宋体">有一定的对应规律，紧接着验证</span><span style="font-family:Arial,sans-serif">R’=U</span><span style="font-family:宋体">，让破解者误以为</span><span style="font-family:Arial,sans-serif">F1</span><span style="font-family:宋体">的功能仅仅是</span><span style="font-family:Arial,sans-serif">F1(R)=R’</span><span style="font-family:宋体">。而其实</span><span style="font-family:Arial,sans-serif">F1</span><span style="font-family:宋体">的功能是明修栈道，暗渡陈仓，在返回</span><span style="font-family:Arial,sans-serif">R’</span><span style="font-family:宋体">之前将</span><span style="font-family:Arial,sans-serif">R’</span><span style="font-family:宋体">写入了一个变量地址。在另一处埋伏的</span><span style="font-family:Arial,sans-serif">F2</span><span style="font-family:宋体">会将该变量地址中的</span><span style="font-family:Arial,sans-serif">R’</span><span style="font-family:宋体">还原成</span><span style="font-family:Arial,sans-serif">R</span><span style="font-family:宋体">并进行完全不同的验证。这种陷阱是很容易让猛兽跌跟斗，对付乱蹦乱跳的小兔子却往往并不见效，破解菜鸟们总是看见</span><span style="font-family:Arial,sans-serif">call</span><span style="font-family:宋体">就下意识地按</span><span style="font-family:Arial,sans-serif">F8</span><span style="font-family:宋体">跟进去，就像打</span><span style="font-family:Arial,sans-serif">CS</span><span style="font-family:宋体">的菜鸟看见敌人就扣住扳机不肯撒手一样，拦都拦不住，那也没有办法。</span></p><p style="text-indent:28px"><span style="font-family:宋体">以上几个例子都有一定的发挥空间，也可以结合使用，归根结底，陷阱战术的精髓在于利用对手的经验误导对手。俺认为各位有必要研究研究破解者的习惯和爱好，设计出更强悍的独门陷阱来对付越来越强壮的</span><span style="font-family:Arial,sans-serif">crackers</span><span style="font-family:宋体">。</span></p><p style="text-indent:28px"><span style="font-family:Arial,sans-serif">&nbsp;</span></p><p style="text-align:center"><span style="font-family:黑体">五、结语</span></p><p style="text-indent:28px"><span style="font-family:宋体">对算法求逆的防范可以阻止注册机的传播，但是不能有效地阻止破解补丁的流毒，各位还需将防范暴力破解等技术用上。</span></p><p style="text-indent:28px"><span style="font-family:Arial,sans-serif">&nbsp;</span></p><p style="text-indent:28px"><span style="font-family:Arial,sans-serif"></span></p><p style="line-height: 25.6000003814697px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; font-family: 宋体, verdana, geneva, lucida, &#39;lucida grande&#39;, arial, helvetica, sans-serif; font-size: 12px; line-height: 25.59375px; box-sizing: border-box !important; word-wrap: break-word !important;">看雪众测：<a target="_blank" data_ue_src="http://" style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">http://ce.kanxue.com</a></span></p><p style="line-height: 25.6000003814697px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; font-family: 宋体, verdana, geneva, lucida, &#39;lucida grande&#39;, arial, helvetica, sans-serif; font-size: 12px; line-height: 25.59375px; box-sizing: border-box !important; word-wrap: break-word !important;">看雪论坛：<a target="_blank" data_ue_src="http://" style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">http://bbs.pediy.com/</a></span></p><p style="line-height: 25.6000003814697px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; font-family: 宋体, verdana, geneva, lucida, &#39;lucida grande&#39;, arial, helvetica, sans-serif; font-size: 12px; line-height: 25.6000003814697px; box-sizing: border-box !important; word-wrap: break-word !important;"> &nbsp; &nbsp; <img data-s="300,640" data-type="png" data-ratio="1" data-w="90" width="auto" data-src="http://mmbiz.qpic.cn/mmbiz_png/1UG7KPNHN8FukI98ZmiaXDQn1XUiawIEDK0icchNYW3SzicqdBOXJdTmSa4Fhb1IsDiabpClrmMGpJJwDKS8Zu7fJQg/640?wx_fmt=png" style="box-sizing: border-box !important; word-wrap: break-word !important; width: auto !important; visibility: visible !important;"  /></span></p><p style="line-height: 25.6000003814697px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; font-family: 宋体, verdana, geneva, lucida, &#39;lucida grande&#39;, arial, helvetica, sans-serif; font-size: 12px; line-height: 25.6000003814697px; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; line-height: 25.6000003814697px; box-sizing: border-box !important; word-wrap: break-word !important;">-----</span>微信ID：ikanxue-----</span></p><p style="line-height: 25.6000003814697px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; font-family: 宋体, verdana, geneva, lucida, &#39;lucida grande&#39;, arial, helvetica, sans-serif; font-size: 12px; line-height: 25.6000003814697px; box-sizing: border-box !important; word-wrap: break-word !important;">看雪学院，致力于安全研究16年！</span></p>
+                </div>
+                <script nonce="961660229" type="text/javascript">
+                    var first_sceen__time = (+new Date());
+
+                    if ("" == 1 && document.getElementById('js_content')) {
+                        document.getElementById('js_content').addEventListener("selectstart",function(e){ e.preventDefault(); });
+                    }
+
+                    
+                    (function(){
+                        if (navigator.userAgent.indexOf("WindowsWechat") != -1){
+                            var link = document.createElement('link');
+                            var head = document.getElementsByTagName('head')[0];
+                            link.rel = 'stylesheet';
+                            link.type = 'text/css';
+                            link.href = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+                            head.appendChild(link);
+                        }
+                    })();
+                </script>
+
+                
+                <div class="ct_mpda_wrp" id="js_sponsor_ad_area" style="display:none;"></div>
+                
+                
+                <div class="read-more__area" id="js_more_read_area" style="display:none;">
+                    
+                </div>
+
+                
+                                <div class="reward_area tc reward_area_primary" id="js_preview_reward_author" style="display:none;">
+                    <div class="reward-avatar" style="display: none;" id="js_preview_reward_author_avatar">
+                        <img src="" alt="" id="js_preview_reward_author_head">
+                    </div>
+                    
+                                        <div class="reward-author" id="js_preview_reward_author_name">刘方</div>
+                                        <p class="reward_tips" id="js_preview_reward_author_wording" style="display:none;"></p>
+                    <p>
+                        <a class="reward_button" id='js_preview_reward_author_link' href="##"><span id="js_preview_reward_link_text">赞赏</span></a>
+                    </p>
+                </div>
+
+                <div class="reward_qrcode_area reward_area tc" id="js_preview_reward_qrcode" style="display:none;">
+                    <p class="tips_global">长按二维码向我转账</p>
+                    <p id="js_preview_reward_ios_wording" class="reward_tips" style="display:none;"></p>
+                    <span class="reward_qrcode_img_wrp"><img class="reward_qrcode_img" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_reward_qrcode.2x42f400.png"></span>
+                    <p class="tips_global">受苹果公司新规定影响，微信 iOS 版的赞赏功能被关闭，可通过二维码转账支持公众号。</p>
+                </div>
+                                
+                
+                            </div>
+                                    
+                        
+
+
+                        
+            <ul id="js_hotspot_area" class="article_extend_area"></ul>
+
+
+            
+
+            
+
+
+<div class="rich_media_tool" id="js_toobar3">
+
+        <div id="js_read_area3" class="media_tool_meta tips_global_primary meta_primary" style="display:none;">阅读 <span id="readNum3"></span></div>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_praise" id="like_old">
+        <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum_old"></span>
+    </span>
+
+    <span style="display:none;" class="media_tool_meta meta_extra meta_like" id="like3">
+        <button class="like_btn" id="js_like_btn"> 
+          <span id="js_like_wording"> 好看</span><span class="like_num" id="likeNum3"></span>
+        </button>
+    </span>
+
+    <div id="js_like_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog weui-dialog_haokan">
+        <div class="weui-dialog__hd"><strong class="weui-dialog__title" id="educate_title">已推荐到看一看</strong></div>
+        <div class="weui-dialog__bd">
+          <img class="pic_haokan" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_haokan42f400.png">
+            你的朋友可以在“发现”-“看一看”看到你认为好看的文章。        </div>
+        <div class="weui-dialog__ft" id="educate_btn" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_default" id="js_cancel">取消</a>
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_confirm">推荐</a>
+        </div>
+        <div class="weui-dialog__ft" id="educate_btn2" style="display: none">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_acknowledge">我知道了</a>
+        </div>
+        </div>
+    </div>
+
+    <div id="js_unlike_educate" style="display:none">
+        <div class="weui-mask"></div>
+        <div class="weui-dialog">
+        
+        <div class="weui-dialog__bd">
+            已取消，“好看”想法已同步删除        </div>
+        <div class="weui-dialog__ft">
+          <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_unlike_know">知道了</a>
+        </div>
+        </div>
+    </div>
+
+    
+    </div>
+
+
+<div class="like_comment_wrp" id="js_a_like_comment" style="display: none;">
+  <div class="like_comment_inner">
+    <div class="like_comment_hd" style="display:none" id="js_like_title"></div>
+    <div class="like_comment_bd">
+      <div class="tips_global_primary like_comment_tips">
+        <i class="weui-icon-success"></i>已推荐到看一看<a href="javascript:;" class="like_comment_share_link" id="js_a_like_comment_share">和朋友分享想法</a>
+      </div>
+    </div>
+    <div class="like_comment_ft">
+      <span id="js_a_like_comment_msg" class="like_comment_msg" style="visibility:hidden">最多200字，当前共<span id="js_a_like_current_cnt"></span>字</span>
+      <button class="like_comment_btn" disabled="disabled" id="js_a_like_confirm">发送</button>
+    </div>
+  </div>
+</div>
+
+<div id="js_like_toast" style="display: none;">
+  <div class="weui-mask_transparent"></div>
+  <div class="weui-toast">
+    <i class="weui-icon-success-no-circle weui-icon_toast"></i>
+    <p class="weui-toast__content" id="js_toast_msg">已发送</p>
+  </div>
+</div>
+
+
+<div style="display: none;" id="js_b_comment_panel" class="like_comment_primary_pop">
+  <div class="like_comment_primary_wrp" id="js_b_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <h4 class="like_comment_primary_title">
+          朋友将在看一看看到        </h4>
+        <button id="js_b_like_confirm" class="like_comment_primary_btn">确定</button>
+      </div>
+      <div id='js_b_comment_text_first' class="like_comment_primary_bd">
+        <span class="tips_global_primary">
+          分享你的想法...        </span>
+      </div>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_1"></div>
+</div>
+
+<div style="display: none;" id="js_b_comment_final">
+  <div class="like_comment_primary_wrp editing" id="js_comment_wrp">
+    <div class="like_comment_primary_inner">
+      <div class="like_comment_primary_hd">
+        <button class="like_comment_primary_cancel" id="js_b_comment_cancel">取消</button>
+        <h4 class="like_comment_primary_title"> 分享想法到看一看 </h4>
+        <button class="like_comment_primary_btn" id="js_b_comment_confirm">确定</button>
+      </div>
+      <div class="like_comment_primary_bd">
+        <textarea class="like_comment_textarea weui-textarea" placeholder="分享你的想法..." id="js_b_comment_text_second"></textarea>
+      </div>
+      <span class="like_comment_msg" id="js_b_like_comment_msg" style="visibility: hidden;">最多200字，当前共<span id="js_b_like_current_cnt"></span>字</span>
+    </div>
+  </div>
+  <div class="like_comment_primary_mask" id="js_mask_2"></div>
+</div>
+
+<div id="js_loading" style=" display: none;">
+    <div class="weui-mask_transparent"></div>
+    <div class="weui-toast">
+        <i class="weui-loading weui-icon_toast"></i>
+        <p class="weui-toast__content">发送中</p>
+    </div>
+</div>
+
+<div id="js_fail" style="display:none">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+    <div class="weui-dialog__bd">
+        网络异常，请稍后重试    </div>
+    <div class="weui-dialog__ft">
+      <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="js_fail_inform">知道了</a>
+    </div>
+    </div>
+</div>
+
+
+
+                      </div>
+        </div>
+
+        <div class="rich_media_area_primary sougou" id="sg_tj" style="display:none"></div>
+
+
+        
+        <div class="rich_media_area_extra">
+          <div class="rich_media_area_extra_inner">
+              
+              <div id="js_share_appmsg">
+              </div>
+
+              
+                            <div class="mpda_bottom_container" id="js_bottom_ad_area"></div>
+                            
+              <div id="js_iframetest" style="display:none;"></div>
+                            
+              <div class="rich_media_extra rich_media_extra_discuss" id="js_cmt_container" style="display:none">
+                
+
+                
+                <div class="discuss_mod" id="js_friend_cmt_area" style="display:none">
+                  
+                  
+                  
+                </div>
+
+                                <div class="discuss_mod" id="js_cmt_area" style="display:none">
+                </div>
+                              </div>
+          </div>
+        </div>
+
+        
+        <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">
+            <div class="qr_code_pc_inner">
+                <div class="qr_code_pc">
+                    <img id="js_pc_qr_code_img" class="qr_code_pc_img">
+                    <p>微信扫一扫<br>关注该公众号</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="js_pc_weapp_code" class="weui-desktop-popover weui-desktop-popover_pos-up-center weui-desktop-popover_img-text" style="display: none;">
+    <div class="weui-desktop-popover__content">
+        <div class="weui-desktop-popover__desc">
+            <img id="js_pc_weapp_code_img">
+            微信扫一扫<br>使用小程序<span id="js_pc_weapp_code_des"></span>        </div>
+    </div>
+</div>
+<div id="js_minipro_dialog" style="display:none;">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+        <div class="weui-dialog__bd">即将打开"<span id="js_minipro_dialog_name"></span>"小程序</div>
+        <div class="weui-dialog__ft">
+            <a id="js_minipro_dialog_cancel" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_default">取消</a>
+            <a id="js_minipro_dialog_ok" href="javascript:void(0);" class="weui-dialog__btn weui-dialog__btn_primary">打开</a>
+        </div>
+    </div>
+</div>
+
+        
+        <script nonce="961660229">
+    var __DEBUGINFO = {
+        debug_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/debug/console42f400.js",
+        safe_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/moonsafe42f400.js",
+        res_list: []
+    };
+</script>
+
+<script nonce="961660229" type="text/javascript">
+(function() {
+	var totalCount = 0,
+			finishCount = 0;
+
+	function _loadVConsolePlugin() {
+		window.vConsole = new window.VConsole();
+		while (window.vConsolePlugins.length > 0) {
+			var p = window.vConsolePlugins.shift();
+			window.vConsole.addPlugin(p);
+		}
+	}
+	
+	function _addVConsole(uri, cb) {
+		totalCount++;
+		var node = document.createElement('SCRIPT');
+		node.type = 'text/javascript';
+		node.src = uri;
+		node.setAttribute('nonce', '961660229');
+		if (cb) {
+			node.onload = cb;
+		}
+		document.getElementsByTagName('head')[0].appendChild(node);
+	}
+	if (
+		(document.cookie && document.cookie.indexOf('vconsole_open=1') > -1)
+		|| location.href.indexOf('vconsole=1') > -1
+	) {
+		window.vConsolePlugins = [];
+		_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/3.2.2/vconsole.min43429b.js', function() {
+			
+			_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/plugin/vconsole-mpopt/1.0.1/vconsole-mpopt42f400.js', _loadVConsolePlugin);
+		});
+	}
+})();
+</script>
+        
+<script nonce="961660229" type="text/javascript">
+if (location.href.match(/fontScale=\d+/) && /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+
+    var m=location.href.match(/fontScale=(\d*)/);
+    var map={
+        "94":1,
+        "100":2,
+        "109":3,
+        "119":4,
+        "131":5,
+    }
+    if(m&&m[1]&&map[m[1]]){
+        document.getElementsByTagName("body")[0].className+=" appmsg_skin_fontscale_"+map[m[1]];
+        console.log("appmsg_skin_fontscale_:"+map[m[1]]);
+    }
+}
+
+
+(function(){
+    if (window.__second_open__) return; 
+
+    
+
+    var first_js_time = +new Date();
+
+    var showDate="";
+    var svrDate=new Date("1549780487"*1000);
+    var createDate=new Date("1472470214"*1000);
+    var ct="1472470214"*1;
+    var publish_time = "2016-08-29" || "";
+    var cD={
+      year:createDate.getYear(),
+      month:createDate.getMonth()+1,
+      date:createDate.getDate()
+    };
+    
+    svrDate.setHours(0);
+    svrDate.setMinutes(0);
+    svrDate.setSeconds(0);
+    var todayDate=svrDate.getTime()/1000;
+    svrDate.setDate(1);
+    svrDate.setMonth(0);
+    var yearDate=svrDate.getTime()/1000;
+    
+    if(ct>=todayDate){
+      showDate="今天";
+    
+    }else if(ct>=todayDate-60*60*24){
+       showDate="昨天";
+    
+    }else if(ct>=todayDate-2*60*60*24){
+      showDate="前天";
+    }else if(ct>=todayDate-3*60*60*24){
+      showDate="3天前";
+    }else if(ct>=todayDate-4*60*60*24){
+      showDate="4天前";
+    }else if(ct>=todayDate-5*60*60*24){
+      showDate="5天前";
+    }else if(ct>=todayDate-6*60*60*24){
+      showDate="6天前";
+    }else if(ct>=todayDate-2*7*60*60*24){
+      showDate="1周前";
+    }else if(ct>=yearDate){
+      
+      
+      
+      showDate="%s月%s日".replace("%s",cD.month).replace("%s",cD.date);
+    }else{
+      showDate=publish_time;
+    };
+    if(document.getElementById("publish_time")){
+      document.getElementById("publish_time").innerText=showDate;
+    }
+})();
+</script>
+<script nonce="961660229" type="text/javascript">
+
+if (!window.console) window.console = { log: function() {} };
+
+if (typeof getComputedStyle == 'undefined') {
+    if (document.body.currentStyle) {
+        window.getComputedStyle = function(el) {
+            return el.currentStyle;
+        }
+    } else {
+        window.getComputedStyle = {};
+    }
+}
+(function(){
+    window.__zoom = 1;
+    
+    (function(){
+        var validArr = ","+([0.875, 1, 1.125, 1.25, 1.375]).join(",")+",";
+        var match = window.location.href.match(/winzoom=(\d+(?:\.\d+)?)/);
+        if (match && match[1]) {
+            var winzoom = parseFloat(match[1]);
+            if (validArr.indexOf(","+winzoom+",")>=0) {
+                window.__zoom = winzoom;
+            }
+        }
+    })();
+
+    var ua = navigator.userAgent.toLowerCase();
+    var re = new RegExp("msie ([0-9]+[\.0-9]*)");
+    var version;
+    if (re.exec(ua) != null) {
+        version = parseInt(RegExp.$1);
+    }
+    var isIE = false;
+    if (typeof version != 'undefined' && version >= 6 && version <= 9) {
+        isIE = true;
+    }
+    var getMaxWith=function(){
+        var container = document.getElementById('img-content');
+        var max_width = container.offsetWidth;
+        var container_padding = 0;
+        var container_style = getComputedStyle(container);
+        container_padding = parseFloat(container_style.paddingLeft) + parseFloat(container_style.paddingRight);
+        max_width -= container_padding;
+        if (!max_width) {
+            max_width = window.innerWidth - 30;      
+        }
+        return max_width;
+    };
+    var getParentWidth = function(dom){
+        var parent_width = 0;
+        var parent = dom.parentNode;
+        var outerWidth = 0;
+        while (true) {
+            if(!parent||parent.nodeType!=1) break;
+            var parent_style = getComputedStyle(parent);
+            if (!parent_style) break;
+            parent_width = parent.clientWidth - parseFloat(parent_style.paddingLeft) - parseFloat(parent_style.paddingRight) - outerWidth;
+            if (parent_width > 0) break;
+            outerWidth += parseFloat(parent_style.paddingLeft) + parseFloat(parent_style.paddingRight) + parseFloat(parent_style.marginLeft) + parseFloat(parent_style.marginRight) + parseFloat(parent_style.borderLeftWidth) + parseFloat(parent_style.borderRightWidth);
+            parent = parent.parentNode;
+        }
+        return parent_width;
+    }
+    var getOuterW=function(dom){
+        var style=getComputedStyle(dom),
+            w=0;
+        if(!!style){
+            w = parseFloat(style.paddingLeft) + parseFloat(style.paddingRight) + parseFloat(style.borderLeftWidth) + parseFloat(style.borderRightWidth);
+        }
+        return w;
+    };
+    var getOuterH =function(dom){
+        var style=getComputedStyle(dom),
+            h=0;
+        if(!!style){
+            h = parseFloat(style.paddingTop) + parseFloat(style.paddingBottom) + parseFloat(style.borderTopWidth) + parseFloat(style.borderBottomWidth);
+        }
+        return h;
+    };
+    var insertAfter = function(dom,afterDom){
+        var _p = afterDom.parentNode;
+        if(!_p){
+            return;
+        }
+        if(_p.lastChild === afterDom){
+            _p.appendChild(dom);
+        }else{
+            _p.insertBefore(dom,afterDom.nextSibling);
+        }
+    };
+    var getQuery = function(name,url){
+        
+        var u  = arguments[1] || window.location.search,
+            reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)"),
+            r = u.substr(u.indexOf("\?")+1).match(reg);
+        return r!=null?r[2]:"";
+    };
+
+    
+    function setImgSize(item, widthNum, widthUnit, ratio, breakParentWidth) {
+        setTimeout(function () {
+            var img_padding_border = getOuterW(item) || 0;
+            var img_padding_border_top_bottom = getOuterH(item) || 0;
+            
+            if (widthNum > getParentWidth(item) && !breakParentWidth) {
+                widthNum = getParentWidth(item);
+            }
+
+            height = (widthNum - img_padding_border) * ratio + img_padding_border_top_bottom;
+
+            if (isIE) {
+                var url = item.getAttribute('data-src');
+                item.src = url;
+            } else {
+                if(parseFloat(widthNum, 10) > 40 && height > 40 && breakParentWidth) {
+                    item.className += ' img_loading';
+                }
+                item.src = "data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            }
+            item.style.cssText += ";width: " + widthNum + widthUnit + " !important;";
+            item.style.cssText += ";height: " + height + widthUnit + " !important;";
+        }, 10);
+    }
+
+    (function(){
+        var images = document.getElementsByTagName('img');
+        var length = images.length;
+        var max_width = getMaxWith();
+        for (var i = 0; i < length; ++i) {
+            if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var imageItem = images[i];
+            var src_ = imageItem.getAttribute('data-src');
+            var realSrc = imageItem.getAttribute('src');
+            if (!src_ || realSrc) continue;
+            
+            var originWidth = imageItem.getAttribute('data-w');
+            var ratio_ = 1 * imageItem.getAttribute('data-ratio');
+
+            var height = 100;
+            if (ratio_ && ratio_ > 0) {
+                var parent_width = getParentWidth(imageItem) || max_width;
+                var initWidth = imageItem.style.width || imageItem.getAttribute('width') || originWidth || parent_width;
+                initWidth = parseFloat(initWidth, 10) > max_width ? max_width : initWidth;
+                
+                if (initWidth) {
+                    imageItem.setAttribute('_width', !isNaN(initWidth * 1) ? initWidth + 'px' : initWidth);
+                }
+                
+                if (typeof initWidth === 'string' && initWidth.indexOf('%') !== -1) {
+                    initWidth = parseFloat(initWidth.replace('%', ''), 10) / 100 * parent_width;
+                }
+                
+                if (initWidth === 'auto') {
+                    initWidth = originWidth;
+                }
+
+                var res = /^(\d+(?:\.\d+)?)([a-zA-Z%]+)?$/.exec(initWidth);
+                var widthNum = res && res.length >= 2 ? res[1] : 0;
+                var widthUnit = res && res.length >= 3 && res[2] ? res[2] : 'px';
+
+                
+                setImgSize(imageItem, widthNum, widthUnit, ratio_, true);
+                
+                (function (item, widthNumber, unit, ratio) {
+                    setTimeout(function () {
+                        setImgSize(item, widthNumber, unit, ratio, false);
+                    });
+                })(imageItem, widthNum, widthUnit, ratio_);
+            } else {
+                imageItem.style.cssText += ";visibility: hidden !important;";
+            }
+
+        }
+    })();
+    window.__videoDefaultRatio=16/9;
+    window.__getVideoWh = function(dom){
+        var max_width = getMaxWith(),
+            width = max_width,
+            ratio_ = dom.getAttribute('data-ratio')*1,
+            arr = [4/3, 16/9],
+            ret = arr[0],
+            abs = Math.abs(ret - ratio_);
+        if (!ratio_) { 
+            if (dom.getAttribute("data-mpvid")) { 
+                ratio_ = 16/9;
+            } else { 
+                ratio_ = 4/3;
+            }
+        } else { 
+            for (var j = 1, jl = arr.length; j < jl; j++) {
+                var _abs = Math.abs(arr[j] - ratio_);
+                if (_abs < abs) {
+                    abs = _abs;
+                    ret = arr[j];
+                }
+            }
+            ratio_ = ret;
+        }
+        
+        var parent_width = getParentWidth(dom)||max_width,
+            width = width > parent_width ? parent_width : width,
+            outerW = getOuterW(dom)||0,
+            outerH = getOuterH(dom)||0,
+            videoW = width - outerW,
+            videoH = videoW/ratio_,
+            height = videoH + outerH;
+        return {w:Math.ceil(width),h:Math.ceil(height),vh:videoH,vw:videoW,ratio:ratio_};
+    };
+
+
+    (function(){
+        var iframe = document.getElementsByTagName('iframe');
+        for (var i=0,il=iframe.length;i<il;i++) {
+            if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                continue;
+            }
+            var a = iframe[i];
+            var src_ = a.getAttribute('src')||a.getAttribute('data-src')||"";
+            if(!/^http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)
+                && !/^http(s)*\:\/\/mp\.weixin\.qq\.com\/mp\/readtemplate\?t=pages\/video_player_tmpl/.test(src_)
+            ){
+                continue;
+            }
+            var vid = getQuery("vid",src_);
+            if(!vid){
+                continue;
+            }
+            vid=vid.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,"");
+            a.removeAttribute('src');
+            a.style.display = "none";
+            var obj = window.__getVideoWh(a),
+                videoPlaceHolderSpan = document.createElement('span'),
+                videoPlayerIconSpan = document.createElement('span'),
+                mydiv = document.createElement('img');
+
+            videoPlaceHolderSpan.className = "js_img_loading db";
+            videoPlaceHolderSpan.setAttribute("data-vid", vid);
+            
+
+            videoPlayerIconSpan.className = 'wx_video_context db'; 
+            videoPlayerIconSpan.style.display = 'none';
+            videoPlayerIconSpan.innerHTML = '<span class="wx_video_thumb_primary"></span><button class="wx_video_play_btn">播放</button><span class="wx_video_mask"></span>'; 
+
+            mydiv.className = "img_loading";
+
+            mydiv.src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==";
+            
+            
+            videoPlaceHolderSpan.style.cssText = "width: " + obj.w + "px !important;";
+            mydiv.style.cssText += ";width: " + obj.w + "px";
+            videoPlaceHolderSpan.appendChild(videoPlayerIconSpan);
+            videoPlaceHolderSpan.appendChild(mydiv);
+            insertAfter(videoPlaceHolderSpan, a); 
+            
+            a.style.cssText += ";width: " + obj.w + "px !important;";
+            a.setAttribute("width",obj.w);
+            if(window.__zoom!=1){
+                a.style.display = "block";
+                videoPlaceHolderSpan.style.display = "none";
+                a.setAttribute("_ratio",obj.ratio);
+                a.setAttribute("_vid",vid);
+            }else{
+                videoPlaceHolderSpan.style.cssText += "height: " + obj.h + "px !important;";
+                mydiv.style.cssText += "height: " + obj.h + "px !important;";
+                a.style.cssText += "height: " + obj.h + "px !important;";
+                a.setAttribute("height",obj.h);
+            }
+            a.setAttribute("data-vh",obj.vh);
+            a.setAttribute("data-vw",obj.vw);
+            if(a.getAttribute("data-mpvid")){
+                a.setAttribute("data-src",location.protocol+"//mp.weixin.qq.com/mp/readtemplate?t=pages/video_player_tmpl&auto=0&vid="+vid);
+            }else{
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+obj.vw+"&height="+obj.vh+"&auto=0");   
+            }            
+        }
+    })();
+    
+    (function(){
+        if(window.__zoom!=1){
+            if (!window.__second_open__) {
+                document.getElementById('page-content').style.zoom = window.__zoom;
+                var a = document.getElementById('activity-name');
+                var b = document.getElementById('meta_content');
+                if(!!a){
+                    a.style.zoom = 1/window.__zoom;
+                }
+                if(!!b){
+                    b.style.zoom = 1/window.__zoom;
+                }
+            }
+            var images = document.getElementsByTagName('img');
+            for (var i = 0,il=images.length;i<il;i++) {
+                if (window.__second_open__ && images[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                images[i].style.zoom = 1/window.__zoom;
+            }
+            var iframe = document.getElementsByTagName('iframe');
+            for (var i = 0,il=iframe.length;i<il;i++) {
+                if (window.__second_open__ && iframe[i].getAttribute('__sec_open_place_holder__')) {
+                    continue;
+                }
+                var a = iframe[i];
+                a.style.zoom = 1/window.__zoom;
+                var src_ = a.getAttribute('data-src')||"";
+                if(!/http(s)*\:\/\/v\.qq\.com\/iframe\/(preview|player)\.html\?/.test(src_)){
+                    continue;
+                }
+                var ratio = a.getAttribute("_ratio");
+                var vid = a.getAttribute("_vid");
+                a.removeAttribute("_ratio");
+                a.removeAttribute("_vid");
+                var vw = a.offsetWidth - (getOuterW(a)||0);
+                var vh = vw/ratio;
+                var h = vh + (getOuterH(a)||0)
+                a.style.cssText += "height: " + h + "px !important;"
+                a.setAttribute("height",h);
+                a.setAttribute("data-src",location.protocol+"//v.qq.com/iframe/player.html?vid="+ vid + "&width="+vw+"&height="+vh+"&auto=0");
+                a.style.display = "none";
+                var parent = a.parentNode;
+                if(!parent){
+                    continue;
+                }
+                for(var j=0,jl=parent.children.length;j<jl;j++){
+                    var child = parent.children[j];
+                    if(child.className.indexOf("img_loading")>=0 && child.getAttribute("data-vid")==vid){
+                        child.style.cssText += "height: " + h + "px !important;";
+                        child.style.display = "";
+                    }
+                }
+            }
+        }
+    })();
+})();
+</script>
+<script nonce="961660229" type="text/javascript">
+    var new_appmsg = 1;
+    var item_show_type = "0";
+    var can_see_complaint = "0";
+    var not_in_mm_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm435ee6.css";
+    var windowwx_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/winwx435ee6.css";
+    var article_improve_combo_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo438c19.css";
+    var tid = "";
+    var aid = "";
+    var clientversion = "";
+    var appuin = "MjM5NTc2MDYxMw=="||"";
+
+    var source = "1";
+    var ascene = "";
+    var subscene = "";
+    var sessionid = ""||"";
+    var abtest_cookie = "";
+
+    var scene = 75;
+
+    var itemidx = "";
+    var appmsg_token   = "";
+    var _copyright_stat = "1";
+    var _ori_article_type = "科技互联网";
+
+    var is_follow = "";
+    var nickname = "看雪学院";
+    var appmsg_type = "9";
+    var ct = "1472470214";
+    var publish_time = "2016-08-29" || "";
+    var user_name = "gh_e7e71fe92c19";
+    var user_name_new = "";
+    var fakeid   = "";
+    var version   = "";
+    var is_limit_user   = "0";
+    var round_head_img = "http://mmbiz.qpic.cn/mmbiz_png/1UG7KPNHN8EicL3Zro7jhicicgKt2Q5RcYiarynDWVmCyJVvRxZtCGW7ias84mO3ibO84LEwluvNWTh8lVwGwVBwbicBw/0?wx_fmt=png";
+    var hd_head_img = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM5ic838F3ibmJb7ZEDRKNyjTSxQPoRubH2dC55frR0ibakFQ/0"||"";
+    var ori_head_img_url = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM5ic838F3ibmJb7ZEDRKNyjTSxQPoRubH2dC55frR0ibakFQ/132";
+    var msg_title = "如何防范算法求逆";
+    var msg_desc = "软件保护方式的设计应在一开始就作为软件开发的一部分来考虑，列入开发计划和开发成本中，并在保护强度、成本、易用性之间进行折衷考虑，选择一个合适的平衡点。";
+    var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz_jpg/1UG7KPNHN8FjqwkaVhBoV7B77DL4IE4GAG0qeJod6ktw1TNsib6EQZ0GiadcyXf0FU74B8y1X7A9uInJHFnGMFUA/0?wx_fmt=jpeg"; 
+    var cdn_url_1_1  = ""; 
+    var cdn_url_235_1 = ""; 
+    
+    var msg_link = "http://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&amp;mid=2458279395&amp;idx=1&amp;sn=648c360da5b14d669e6b6e65ad852579#rd"; 
+    var user_uin = "0"*1;
+    var msg_source_url = '';
+    var img_format = 'jpeg';
+    var srcid = '';
+    var req_id = '10143sbdgGwKisP6TdmlORsu';
+    var networkType;
+    var appmsgid = '' || '2458279395'|| "";
+    var comment_id = "566811722" || "566811722" * 1;
+    var comment_enabled = "" * 1;
+    var is_need_reward = "0" * 1;
+    var is_https_res = ("" * 1) && (location.protocol == "https:");
+    var msg_daily_idx = "0" || "";
+    var profileReportInfo = "" || "";
+
+    var devicetype = "";
+    var source_encode_biz = "";
+    var source_username = "";
+    
+    var reprint_ticket = "";
+    var source_mid = "";
+    var source_idx = "";
+    var source_biz = "";
+    var author_id = "";
+
+    
+    var optimizing_flag = "0" * 1;
+    var ad_abtest_padding = "0" * 1;
+
+    var show_comment = "";
+    var __appmsgCgiData = {
+        wxa_product : ""*1,
+        wxa_cps : ""*1,
+        show_msg_voice: "0"*1,
+        can_use_page : "0"*1,
+        is_wxg_stuff_uin : "0"*1,
+        card_pos : "",
+        copyright_stat : "1",
+        source_biz : "",
+        hd_head_img : "http://wx.qlogo.cn/mmhead/Q3auHgzwzM5ic838F3ibmJb7ZEDRKNyjTSxQPoRubH2dC55frR0ibakFQ/0"||(window.location.protocol+"//"+window.location.host + "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_rumor_link.2x42f400.jpg")
+    };
+    var _empty_v = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/pages/voice/empty42f400.mp3";
+
+    var copyright_stat = "1" * 1;
+
+    var pay_fee = "" * 1;
+    var pay_timestamp = "";
+    var need_pay = "" * 1;
+
+    var need_report_cost = "0" * 1;
+    var use_tx_video_player = "0" * 1;
+    var appmsg_fe_filter = "contenteditable";
+
+    var friend_read_source = "" || "";
+    var friend_read_version = "" || "";
+    var friend_read_class_id = "" || "";
+
+    var is_only_read = "1" * 1;
+    var read_num = "" * 1;
+    var like_num = "" * 1;
+    var liked = "" == 'true' ? true : false;
+    var is_temp_url = "" ? 1 : 0;
+    var send_time = "";
+    var icon_emotion_switch = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch.2x42f400.png";
+    var icon_emotion_switch_active = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch_active.2x42f400.png";
+    var icon_loading_white = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif";
+    var icon_audio_unread = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/audio/icon_audio_unread42f400.png";
+    var icon_qqmusic_default = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_default.2x42f400.png";
+    var icon_qqmusic_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_source42f400.png";
+    var icon_kugou_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/kugou/icon_kugou_source42f400.png";
+
+    var topic_default_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/topic/pic_book_thumb.2x42f400.png';
+    var comment_edit_icon = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg_new/icon_edit42f400.png';
+    var comment_loading_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white42f400.gif';
+
+    var voice_in_appmsg = {
+        "1":"1"
+            };
+
+    var reprint_style = ''*1;
+    var wxa_img_alert = "" != 'false';
+
+    
+    var more_read_type = '0'*1;
+
+    
+    
+    
+    
+
+    
+    var weapp_sn_arr_json = "" || "";
+
+    
+    var ban_scene = "0" * 1;
+
+    var svr_time = "1549780487" * 1;
+    
+    var is_transfer_msg = ""*1||0;
+
+    var malicious_title_reason_id = "0" * 1; 
+    var malicious_content_type = "0" * 1; 
+
+    
+    var modify_time = "";
+
+    
+    var isprofileblock = "0";
+
+    
+    var hotspotInfoList = [
+                    ];
+
+        window.wxtoken = "777";
+        
+    
+    
+    
+    
+    window.is_login = '0' * 1; 
+
+    window.__moon_initcallback = function(){
+        if(!!window.__initCatch){
+            window.__initCatch({
+                idkey : 27611+2,
+                startKey : 0,
+                limit : 128,
+                badjsId: 43,
+                reportOpt : {
+                    uin : uin,
+                    biz : biz,
+                    mid : mid,
+                    idx : idx,
+                    sn  : sn
+                },
+                extInfo : {
+                    network_rate : 0.01,    
+                    badjs_rate: 0.1 
+                }
+            });
+        }
+    }
+        
+    var title ="看雪学院";
+
+    var is_new_msg=true;
+    
+    
+
+    var is_wash = '' * 1;
+</script>
+
+<script nonce="961660229" type="text/javascript">
+(function(_g){
+    _g.appmsg_like_type = "1" * 1 ? "1" * 1 : 1;
+    
+    _g.clientversion = "";
+    _g.passparam = ""; 
+    if(!_g.msg_link) {
+      _g.msg_link = "http://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&amp;mid=2458279395&amp;idx=1&amp;sn=648c360da5b14d669e6b6e65ad852579#rd";
+    }
+    _g.appmsg_type = "9"; 
+    _g.devicetype = ""; 
+})(window);
+
+</script>
+
+
+        <script nonce="961660229">window.__moon_host = 'res.wx.qq.com';window.__moon_mainjs = 'appmsg/index.js';window.moon_map = {"a/appdialog_confirm.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm.html42f400.js","widget/wx_profile_dialog_primary.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/widget/wx_profile_dialog_primary.css42f400.js","pages/iframe_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/iframe_communicate42f400.js","new_video/player.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player.html433882.js","biz_wap/zepto/touch.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/touch42f400.js","biz_wap/zepto/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/event42f400.js","biz_wap/zepto/zepto.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/zepto42f400.js","page/pages/video.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/pages/video.css435ee6.js","a/tpl/smallbanner_msg_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_msg_tpl.html42f400.js","a/tpl/smallbanner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallbanner_info_tpl.html42f400.js","a/tpl/banner_info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_info_tpl.html42f400.js","a/tpl/promote_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/promote_tpl.html42f400.js","a/tpl/smallcard_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/smallcard_tpl.html42f400.js","a/tpl/info_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/info_tpl.html42f400.js","a/tpl/cardticket_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cardticket_tpl.html42f400.js","a/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/banner_tpl.html42f400.js","a/tpl/sponsor_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/sponsor_tpl.html42f400.js","a/tpl/new_cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/new_cpc_tpl.html42f400.js","appmsg/emotion/caret.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/caret42f400.js","biz_wap/utils/localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/localstorage42f400.js","appmsg/friend_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/friend_comment_tpl.html42f400.js","appmsg/comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_tpl.html42f400.js","biz_wap/utils/fakehash.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/fakehash42f400.js","appmsg/comment_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_report42f400.js","a/appdialog_confirm.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm42f400.js","new_video/player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player4306fd.js","a/tpl/mpda_bottom_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/mpda_bottom_tpl.html42f400.js","a/tpl/crt_size_map.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_size_map42f400.js","biz_wap/jsapi/cardticket.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/cardticket42f400.js","biz_common/jquery.md5.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/jquery.md542f400.js","biz_common/utils/emoji_panel_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_panel_data42f400.js","biz_common/utils/emoji_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_data42f400.js","appmsg/emotion/textarea.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/textarea42f400.js","appmsg/emotion/nav.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/nav42f400.js","appmsg/emotion/common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/common42f400.js","appmsg/emotion/slide.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/slide42f400.js","appmsg/emotion/dom.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/dom42f400.js","pages/music_report_conf.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_report_conf42f400.js","pages/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/report4306fd.js","pages/player_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/player_adaptor42f400.js","pages/music_player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_player42f400.js","appmsg/more_read_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read_tpl.html42f400.js","appmsg/retry_ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/retry_ajax42f400.js","complain/tips.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/complain/tips42f400.js","pages/loadscript.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/loadscript42f400.js","biz_wap/utils/ajax_load_js.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_load_js42f400.js","appmsg/comment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment4317dc.js","a/ios.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios42f400.js","a/android.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android42f400.js","a/profile.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile42f400.js","a/app_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/app_card430506.js","a/sponsor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor42f400.js","a/tpl/cpc_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/cpc_tpl.html42f400.js","a/video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/video42f400.js","a/a_config.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_config42f400.js","a/tpl/crt_tpl_manager.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/tpl/crt_tpl_manager42f400.js","a/cpc_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/cpc_a_tpl.html42f400.js","a/sponsor_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor_a_tpl.html42f400.js","a/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_tpl.html42f400.js","a/mpshop.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpshop42f400.js","a/wxopen_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/wxopen_card42f400.js","a/card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/card42f400.js","biz_wap/utils/position.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/position42f400.js","a/a_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_report42f400.js","biz_wap/utils/show_time.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/show_time42f400.js","biz_common/utils/get_para_list.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/get_para_list42f400.js","biz_wap/utils/openUrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/openUrl42f400.js","a/a_sign.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_sign438181.js","appmsg/my_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/my_comment_tpl.html42f400.js","appmsg/cmt_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cmt_tpl.html42f400.js","sougou/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/a_tpl.html42f400.js","appmsg/emotion/emotion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/emotion42f400.js","biz_common/base64.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/base6442f400.js","biz_common/utils/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report42f400.js","appmsg/articleReport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/articleReport42f400.js","biz_wap/utils/hand_up_state.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/hand_up_state42f400.js","biz_common/utils/http.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/http42f400.js","biz_common/utils/cookie.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie42f400.js","appmsg/topic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/topic_tpl.html42f400.js","pages/weapp_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/weapp_tpl.html42f400.js","biz_common/utils/monitor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/monitor42f400.js","pages/voice_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_tpl.html42f400.js","pages/kugoumusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/kugoumusic_ctrl42f400.js","pages/qqmusic_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_ctrl42f400.js","pages/voice_component.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_component42f400.js","pages/qqmusic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_tpl.html42f400.js","new_video/ctl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/ctl4306fd.js","appmsg/open_url_with_webview.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/open_url_with_webview4380a9.js","appmsg/more_read.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/more_read42f400.js","appmsg/reward_entry.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/reward_entry42f400.js","appmsg/like.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like43875f.js","pages/version4video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/version4video42f400.js","biz_wap/utils/storage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/storage42f400.js","appmsg/share_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share_tpl.html42f400.js","appmsg/appmsgext.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsgext430b95.js","appmsg/img_copyright_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/img_copyright_tpl.html42f400.js","pages/video_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_ctrl42f400.js","pages/create_txv.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/create_txv42f400.js","appmsg/comment_utils.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment_utils42f400.js","biz_common/ui/imgonepx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx42f400.js","appmsg/malicious_wording.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/malicious_wording42f400.js","biz_common/utils/wxgspeedsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/wxgspeedsdk42f400.js","a/a.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a4382e5.js","rt/appmsg/getappmsgext.rt.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/rt/appmsg/getappmsgext.rt42f400.js","pages/video_communicate_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_communicate_adaptor433882.js","biz_wap/utils/ajax_wx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_wx42f400.js","biz_common/utils/respTypes.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/respTypes42f400.js","biz_wap/utils/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/log42f400.js","sougou/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/index42f400.js","biz_wap/safe/mutation_observer_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/mutation_observer_report42f400.js","appmsg/fereport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport438bee.js","appmsg/fereport_without_localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport_without_localstorage438bee.js","appmsg/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report42f400.js","appmsg/report_and_source.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source4380a9.js","appmsg/page_pos.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos431b87.js","appmsg/cdn_speed_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report42f400.js","appmsg/wxtopic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/wxtopic42f400.js","appmsg/weapp.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp433882.js","appmsg/weproduct.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weproduct42f400.js","appmsg/voicemsg.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voicemsg42f400.js","appmsg/autoread.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/autoread42f400.js","appmsg/voice.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voice42f400.js","appmsg/qqmusic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/qqmusic43440b.js","appmsg/iframe.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe433882.js","appmsg/product.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/product42f400.js","appmsg/review_image.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image435a90.js","appmsg/outer_link.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link433882.js","appmsg/copyright_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/copyright_report42f400.js","appmsg/async.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async438bee.js","biz_wap/ui/lazyload_img.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img42f400.js","biz_common/log/jserr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr42f400.js","appmsg/share.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share42f50a.js","appmsg/cdn_img_lib.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib42f400.js","appmsg/finance_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/finance_communicate42f400.js","page/appmsg_new/not_in_mm.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/not_in_mm.css435ee6.js","page/appmsg_new/combo.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg_new/combo.css438c19.js","biz_wap/utils/wapsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/wapsdk42f400.js","a/mpAdAsync.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpAdAsync4317dc.js","biz_common/utils/url/parse.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse42f400.js","appmsg/appmsg_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/appmsg_report435ac2.js","biz_common/moment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/moment42f400.js","biz_wap/jsapi/core.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core42f400.js","biz_common/dom/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event42f400.js","appmsg/test.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/test42f400.js","biz_wap/utils/mmversion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion42f400.js","appmsg/max_age.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/max_age42f400.js","biz_common/dom/attr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr42f400.js","biz_wap/utils/ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax42f400.js","appmsg/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/log42f400.js","biz_common/dom/class.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class42f400.js","biz_wap/utils/device.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/device42f400.js","appmsg/weapp_common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp_common42f400.js","biz_common/utils/string/html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html42f400.js","cps/tpl/list_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/list_tpl.html42f400.js","cps/tpl/card_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/card_tpl.html42f400.js","cps/tpl/banner_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cps/tpl/banner_tpl.html42f400.js","biz_common/tmpl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl42f400.js","appmsg/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index438e37.js"};</script><script nonce="961660229" type="text/javascript" id="moon_inline" > window.__mooninline=1; window.setTimeout(function() {  function __moonf__(){
+if(!window.__moonhasinit){
+window.__moonhasinit=!0,window.__moonclientlog=[],window.__wxgspeeds&&(window.__wxgspeeds.moonloadedtime=+new Date),
+"object"!=typeof JSON&&(window.JSON={
+stringify:function(){
+return"";
+},
+parse:function(){
+return{};
+}
+});
+var e=function(){
+function e(e){
+try{
+var o;
+/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)?o="writeLog":/(Android)/i.test(navigator.userAgent)&&(o="log"),
+o&&t(o,e);
+}catch(n){
+throw console.error(n),n;
+}
+}
+function t(e,o){
+var n,r,i={};
+n=top!=window?top.window:window;
+try{
+r=n.WeixinJSBridge,i=n.document;
+}catch(a){}
+e&&r&&r.invoke?r.invoke(e,{
+level:"info",
+msg:"[WechatFe][moon]"+o
+}):setTimeout(function(){
+i.addEventListener?i.addEventListener("WeixinJSBridgeReady",function(){
+t(e,o);
+},!1):i.attachEvent&&(i.attachEvent("WeixinJSBridgeReady",function(){
+t(e,o);
+}),i.attachEvent("onWeixinJSBridgeReady",function(){
+t(e,o);
+}));
+},0);
+}
+var n;
+localStorage&&JSON.parse(localStorage.getItem("__WXLS__moonarg"))&&"fromls"==JSON.parse(localStorage.getItem("__WXLS__moonarg")).method&&(n=!0),
+e(" moon init, moon_inline:"+window.__mooninline+", moonls:"+n),function(){
+var e={},o={},t={};
+e.COMBO_UNLOAD=0,e.COMBO_LOADING=1,e.COMBO_LOADED=2;
+var n=function(e,t,n){
+if(!o[e]){
+o[e]=n;
+for(var r=3;r--;)try{
+moon.setItem(moon.prefix+e,n.toString()),moon.setItem(moon.prefix+e+"_ver",moon_map[e]);
+break;
+}catch(i){
+moon.clear();
+}
+}
+},r=window.alert;
+window.__alertList=[],window.alert=function(e){
+r(e),window.__alertList.push(e);
+};
+var i=function(e){
+if(!e||!o[e])return null;
+var n=o[e];
+if("function"==typeof n&&!t[e]){
+var a={},s={
+exports:a
+},c=n(i,a,s,r);
+n=o[e]=c||s.exports,t[e]=!0;
+}
+if(".css"===e.substr(-4)){
+var d=document.getElementById(e);
+if(!d){
+d=document.createElement("style"),d.id=e;
+var _=/url\s*\(\s*\/(\"(?:[^\\\"\r\n\f]|\\[\s\S])*\"|'(?:[^\\'\n\r\f]|\\[\s\S])*'|[^)}]+)\s*\)/g,m=window.testenv_reshost||window.__moon_host||"res.wx.qq.com";
+n=n.replace(_,"url(//"+m+"/$1)"),d.innerHTML=n,document.getElementsByTagName("head")[0].appendChild(d);
+}
+}
+return n;
+};
+e.combo_status=e.COMBO_UNLOAD,e.run=function(){
+var o=e.run.info,t=o&&o[0],n=o&&o[1];
+if(t&&e.combo_status==e.COMBO_LOADED){
+var r=i(t);
+n&&n(r);
+}
+},e.use=function(o,t){
+window.__wxgspeeds&&(window.__wxgspeeds.seajs_use_time=+new Date),e.run.info=[o,t],
+e.run();
+},window.define=n,window.seajs=e;
+}(),function(){
+if(window.__nonce_str){
+var e=document.createElement;
+document.createElement=function(o){
+var t=e.apply(this,arguments);
+return"object"==typeof o&&(o=o.toString()),"string"==typeof o&&"script"==o.toLowerCase()&&t.setAttribute("nonce",window.__nonce_str),
+t;
+};
+}
+window.addEventListener&&window.__DEBUGINFO&&Math.random()<.01&&window.addEventListener("load",function(){
+var e=document.createElement("script");
+e.src=__DEBUGINFO.safe_js,e.type="text/javascript",e.async=!0;
+var o=document.head||document.getElementsByTagName("head")[0];
+o.appendChild(e);
+});
+}(),function(){
+function t(e){
+return"[object Array]"===Object.prototype.toString.call(e);
+}
+function n(e){
+return"[object Object]"===Object.prototype.toString.call(e);
+}
+function r(e){
+var t=e.stack+" "+e.toString()||"";
+try{
+if(window.testenv_reshost){
+var n="http(s)?://"+window.testenv_reshost,r=new RegExp(n,"g");
+t=t.replace(r,"");
+}else t=t.replace(/http(s)?:\/\/res\.wx\.qq\.com/g,"");
+for(var r=/\/([^.]+)\/js\/(\S+?)\.js(\,|:)?/g;r.test(t);)t=t.replace(r,function(e,o,t,n){
+return t+n;
+});
+}catch(e){
+t=e.stack?e.stack:"";
+}
+var i=[];
+for(o in u)u.hasOwnProperty(o)&&i.push(o+":"+u[o]);
+return i.push("STK:"+t.replace(/\n/g,"")),i.join("|");
+}
+function i(e){
+if(!e){
+var o=window.onerror;
+window.onerror=function(){},f=setTimeout(function(){
+window.onerror=o,f=null;
+},50);
+}
+}
+function a(e,o,t){
+if(!/^mp\.weixin\.qq\.com$/.test(location.hostname)){
+var n=[];
+t=t.replace(location.href,(location.origin||"")+(location.pathname||"")).replace("#wechat_redirect","").replace("#rd","").split("&");
+for(var r=0,i=t.length;i>r;r++){
+var a=t[r].split("=");
+a[0]&&a[1]&&n.push(a[0]+"="+encodeURIComponent(a[1]));
+}
+var s=new window.Image;
+return void(s.src=(o+n.join("&")).substr(0,1024));
+}
+var c;
+if(window.ActiveXObject)try{
+c=new ActiveXObject("Msxml2.XMLHTTP");
+}catch(d){
+try{
+c=new ActiveXObject("Microsoft.XMLHTTP");
+}catch(_){
+c=!1;
+}
+}else window.XMLHttpRequest&&(c=new XMLHttpRequest);
+c&&(c.open(e,o,!0),c.setRequestHeader("cache-control","no-cache"),c.setRequestHeader("Content-Type","application/x-www-form-urlencoded; charset=UTF-8"),
+c.setRequestHeader("X-Requested-With","XMLHttpRequest"),c.send(t));
+}
+function s(e){
+return function(o,t){
+if("string"==typeof o)try{
+o=new Function(o);
+}catch(n){
+throw n;
+}
+var r=[].slice.call(arguments,2),a=o;
+return o=function(){
+try{
+return a.apply(this,r.length&&r||arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:j,
+log:"timeout_error;host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},e(o,t);
+};
+}
+function c(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this,a=t||function(){};
+return t=function(){
+try{
+return a.apply(r,arguments);
+}catch(e){
+throw e.stack&&console&&console.error&&console.error("[TryCatch]"+e.stack),_&&window.__moon_report&&(window.__moon_report([{
+offset:x,
+log:"listener_error;type:"+o+";host:"+location.host,
+e:e
+}]),i(f)),e;
+}
+},a.moon_lid=E,b[E]=t,E++,e.call(r,o,t,n);
+};
+}
+function d(e){
+return function(o,t,n){
+if("undefined"==typeof n)var n=!1;
+var r=this;
+return t=b[t.moon_lid],e.call(r,o,t,n);
+};
+}
+var _,m,l,w,u,p,f,h=/MicroMessenger/i.test(navigator.userAgent),g=/MPAPP/i.test(navigator.userAgent),v=window.define,y=0,x=2,O=4,j=9,D=10;
+if(window.__initCatch=function(e){
+_=e.idkey,m=e.startKey||0,l=e.limit,w=e.badjsId,u=e.reportOpt||"",p=e.extInfo||{},
+p.rate=p.rate||.5;
+},window.__moon_report=function(e,o){
+var i=!1,s="";
+try{
+s=top.location.href;
+}catch(c){
+i=!0;
+}
+var d=.5;
+if(p&&p.rate&&(d=p.rate),o&&"number"==typeof o&&(d=o),!(!/mp\.weixin\.qq\.com/.test(location.href)&&!/payapp\.weixin\.qq\.com/.test(location.href)||Math.random()>d||!h&&!g||top!=window&&!i&&!/mp\.weixin\.qq\.com/.test(s))&&(n(e)&&(e=[e]),
+t(e)&&""!=_)){
+var u="",f=[],v=[],y=[],x=[];
+"number"!=typeof l&&(l=1/0);
+for(var j=0;j<e.length;j++){
+var D=e[j]||{};
+if(!(D.offset>l||"number"!=typeof D.offset||D.offset==O&&p&&p.network_rate&&Math.random()>=p.network_rate)){
+var b=1/0==l?m:m+D.offset;
+f[j]="[moon]"+_+"_"+b+";"+D.log+";"+r(D.e||{})||"",v[j]=b,y[j]=1;
+}
+}
+for(var E=0;E<v.length;E++)x[E]=_+"_"+v[E]+"_"+y[E],u=u+"&log"+E+"="+f[E];
+if(x.length>0){
+a("POST",location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?","idkey="+x.join(";")+"&r="+Math.random()+"&lc="+f.length+u);
+var d=1;
+if(p&&p.badjs_rate&&(d=p.badjs_rate),w&&Math.random()<d){
+u=u.replace(/uin\:(.)*\|biz\:(.)*\|mid\:(.)*\|idx\:(.)*\|sn\:(.)*\|/,"");
+var S=new Image,I="https://badjs.weixinbridge.com/badjs?id="+w+"&level=4&from="+encodeURIComponent(location.host)+"&msg="+encodeURIComponent(u);
+S.src=I.slice(0,1024);
+}
+}
+}
+},window.setTimeout=s(window.setTimeout),window.setInterval=s(window.setInterval),
+Math.random()<.01&&window.Document&&window.HTMLElement){
+var b={},E=0;
+Document.prototype.addEventListener=c(Document.prototype.addEventListener),Document.prototype.removeEventListener=d(Document.prototype.removeEventListener),
+HTMLElement.prototype.addEventListener=c(HTMLElement.prototype.addEventListener),
+HTMLElement.prototype.removeEventListener=d(HTMLElement.prototype.removeEventListener);
+}
+var S=window.navigator.userAgent;
+if((/ip(hone|ad|od)/i.test(S)||/android/i.test(S))&&!/windows phone/i.test(S)&&window.localStorage&&window.localStorage.setItem){
+var I=window.localStorage.setItem,L=0;
+window.localStorage.setItem=function(e,o){
+if(!(L>=10))try{
+I.call(window.localStorage,e,o);
+}catch(t){
+t.stack&&console&&console.error&&console.error("[TryCatch]"+t.stack),window.__moon_report([{
+offset:D,
+log:"localstorage_error;"+t.toString(),
+e:t
+}]),L++,L>=3&&window.moon&&window.moon.clear&&moon.clear();
+}
+};
+}
+window.seajs&&v&&(window.define=function(){
+for(var o,t=[],n=arguments&&arguments[0],a=0,s=arguments.length;s>a;a++){
+var c=o=arguments[a];
+"function"==typeof o&&(o=function(){
+try{
+return c.apply(this,arguments);
+}catch(o){
+throw"string"==typeof n&&console.error("[TryCatch][DefineeErr]id:"+n),o.stack&&console&&console.error&&console.error("[TryCatch]"+o.stack),
+_&&window.__moon_report&&(window.__moon_report([{
+offset:y,
+log:"define_error;id:"+n+";",
+e:o
+}]),i(f)),e(" [define_error]"+JSON.stringify(r(o))),o;
+}
+},o.toString=function(e){
+return function(){
+return e.toString();
+};
+}(arguments[a])),t.push(o);
+}
+return v.apply(this,t);
+});
+}(),function(o){
+function t(e,o,t){
+return window.__DEBUGINFO?(window.__DEBUGINFO.res_list||(window.__DEBUGINFO.res_list=[]),
+window.__DEBUGINFO.res_list[e]?(window.__DEBUGINFO.res_list[e][o]=t,!0):!1):!1;
+}
+function n(e){
+var o=new TextEncoder("utf-8").encode(e),t=crypto.subtle||crypto.webkitSubtle;
+return t.digest("SHA-256",o).then(function(e){
+return r(e);
+});
+}
+function r(e){
+for(var o=[],t=new DataView(e),n=0;n<t.byteLength;n+=4){
+var r=t.getUint32(n),i=r.toString(16),a="00000000",s=(a+i).slice(-a.length);
+o.push(s);
+}
+return o.join("");
+}
+function i(e,o,t){
+if("object"==typeof e){
+var n=Object.prototype.toString.call(e).replace(/^\[object (.+)\]$/,function(e,o){
+return o;
+});
+if(t=t||e,"Array"==n){
+for(var r=0,i=e.length;i>r;++r)if(o.call(t,e[r],r,e)===!1)return;
+}else{
+if("Object"!==n&&a!=e)throw"unsupport type";
+if(a==e){
+for(var r=e.length-1;r>=0;r--){
+var s=a.key(r),c=a.getItem(s);
+if(o.call(t,c,s,e)===!1)return;
+}
+return;
+}
+for(var r in e)if(e.hasOwnProperty(r)&&o.call(t,e[r],r,e)===!1)return;
+}
+}
+}
+var a=o.localStorage,s=document.head||document.getElementsByTagName("head")[0],c=1,d=11,_=12,m=13,l=window.__allowLoadResFromMp?1:2,w=window.__allowLoadResFromMp?1:0,u=l+w,p=window.testenv_reshost||window.__moon_host||"res.wx.qq.com",f=new RegExp("^(http(s)?:)?//"+p);
+window.__loadAllResFromMp&&(p="mp.weixin.qq.com",l=0,u=l+w);
+var h={
+prefix:"__MOON__",
+loaded:[],
+unload:[],
+clearSample:!0,
+hit_num:0,
+mod_num:0,
+version:1003,
+cacheData:{
+js_mod_num:0,
+js_hit_num:0,
+js_not_hit_num:0,
+js_expired_num:0,
+css_mod_num:0,
+css_hit_num:0,
+css_not_hit_num:0,
+css_expired_num:0
+},
+init:function(){
+h.loaded=[],h.unload=[];
+var e,t,r;
+if(window.no_moon_ls&&(h.clearSample=!0),a){
+var s="_moon_ver_key_",c=a.getItem(s);
+c!=h.version&&(h.clear(),a.setItem(s,h.version));
+}
+if((-1!=location.search.indexOf("no_moon1=1")||-1!=location.search.indexOf("no_lshttps=1"))&&h.clear(),
+a){
+var d=1*a.getItem(h.prefix+"clean_time"),_=+new Date;
+if(_-d>=1296e6){
+h.clear();
+try{
+!!a&&a.setItem(h.prefix+"clean_time",+new Date);
+}catch(m){}
+}
+}
+i(moon_map,function(i,s){
+if(t=h.prefix+s,r=!!i&&i.replace(f,""),e=!!a&&a.getItem(t),version=!!a&&(a.getItem(t+"_ver")||"").replace(f,""),
+h.mod_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_mod_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_mod_num++,
+h.clearSample||!e||r!=version)h.unload.push(r.replace(f,"")),r&&-1!=r.indexOf(".css")?e?r!=version&&h.cacheData.css_expired_num++:h.cacheData.css_not_hit_num++:r&&-1!=r.indexOf(".js")&&(e?r!=version&&h.cacheData.js_expired_num++:h.cacheData.js_not_hit_num++);else{
+if("https:"==location.protocol&&window.moon_hash_map&&window.moon_hash_map[s]&&window.crypto)try{
+n(e).then(function(e){
+window.moon_hash_map[s]!=e&&console.log(s);
+});
+}catch(c){}
+try{
+var d="//# sourceURL="+s+"\n//@ sourceURL="+s;
+o.eval.call(o,'define("'+s+'",[],'+e+")"+d),h.hit_num++,r&&-1!=r.indexOf(".css")?h.cacheData.css_hit_num++:r&&-1!=r.indexOf(".js")&&h.cacheData.js_hit_num++;
+}catch(c){
+h.unload.push(r.replace(f,""));
+}
+}
+}),h.load(h.genUrl());
+},
+genUrl:function(){
+var e=h.unload;
+if(!e||e.length<=0)return[];
+var o,t,n="",r=[],i={},a=-1!=location.search.indexOf("no_moon2=1"),s="//"+p;
+-1!=location.href.indexOf("moon_debug2=1")&&(s="//mp.weixin.qq.com");
+for(var c=0,d=e.length;d>c;++c){
+/^\/(.*?)\//.test(e[c]);
+var _=/^\/(.*?)\//.exec(e[c]);
+_.length<2||!_[1]||(t=_[1],n=i[t],n?(o=n+","+e[c],o.length>1e3||a?(r.push(n+"?v="+h.version),
+n=location.protocol+s+e[c],i[t]=n):(n=o,i[t]=n)):(n=location.protocol+s+e[c],i[t]=n));
+}
+for(var m in i)i.hasOwnProperty(m)&&r.push(i[m]);
+return r;
+},
+load:function(e){
+if(window.__wxgspeeds&&(window.__wxgspeeds.mod_num=h.mod_num,window.__wxgspeeds.hit_num=h.hit_num),
+!e||e.length<=0)return seajs.combo_status=seajs.COMBO_LOADED,seajs.run(),console.debug&&console.debug("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num),
+void window.__moonclientlog.push("[moon] load js complete, all in cache, cost time : 0ms, total count : "+h.mod_num+", hit num: "+h.hit_num);
+seajs.combo_status=seajs.COMBO_LOADING;
+var o=0,t=+new Date;
+window.__wxgspeeds&&(window.__wxgspeeds.combo_times=[],window.__wxgspeeds.combo_times.push(t)),
+i(e,function(n){
+h.request(n,u,function(){
+if(window.__wxgspeeds&&window.__wxgspeeds.combo_times.push(+new Date),o++,o==e.length){
+var n=+new Date-t;
+window.__wxgspeeds&&(window.__wxgspeeds.mod_downloadtime=n),seajs.combo_status=seajs.COMBO_LOADED,
+seajs.run(),console.debug&&console.debug("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms"),
+window.__moonclientlog.push("[moon] load js complete, url num : "+e.length+", total mod count : "+h.mod_num+", hit num: "+h.hit_num+", use time : "+n+"ms");
+}
+});
+});
+},
+request:function(o,n,r){
+if(o){
+n=n||0,o.indexOf("mp.weixin.qq.com")>-1&&((new Image).src=location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?idkey=27613_32_1&r="+Math.random(),
+window.__moon_report([{
+offset:_,
+log:"load_script_from_mp: "+o
+}],1));
+var i=-1;
+window.__DEBUGINFO&&(__DEBUGINFO.res_list||(__DEBUGINFO.res_list=[]),__DEBUGINFO.res_list.push({
+type:"js",
+status:"pendding",
+start:+new Date,
+end:0,
+url:o
+}),i=__DEBUGINFO.res_list.length-1),-1!=location.search.indexOf("no_lshttps=1")&&(o=o.replace("http://","https://"));
+var a=document.createElement("script");
+a.src=o,a.type="text/javascript",a.async=!0,a.down_time=+new Date,a.onerror=function(s){
+t(i,"status","error"),t(i,"end",+new Date);
+var _=new Error(s);
+if(n>=0)if(w>n){
+var l=o.replace("res.wx.qq.com","mp.weixin.qq.com");
+h.request(l,n,r);
+}else h.request(o,n,r);else window.__moon_report&&window.__moon_report([{
+offset:c,
+log:"load_script_error: "+o,
+e:_
+}],1);
+if(n==w-1&&window.__moon_report([{
+offset:d,
+log:"load_script_error: "+o,
+e:_
+}],1),-1==n){
+var u="ua: "+window.navigator.userAgent+", time="+(+new Date-a.down_time)+", load_script_error -1 : "+o;
+window.__moon_report([{
+offset:m,
+log:u
+}],1);
+}
+window.__moonclientlog.push("moon load js error : "+o+", error -> "+_.toString()),
+e("moon_request_error url:"+o);
+},"undefined"!=typeof moon_crossorigin&&moon_crossorigin&&a.setAttribute("crossorigin",!0),
+a.onload=a.onreadystatechange=function(){
+t(i,"status","loaded"),t(i,"end",+new Date),!a||a.readyState&&!/loaded|complete/.test(a.readyState)||(t(i,"status","200"),
+a.onload=a.onreadystatechange=null,"function"==typeof r&&r());
+},n--,s.appendChild(a),e("moon_request url:"+o+" retry:"+n);
+}
+},
+setItem:function(e,o){
+!!a&&a.setItem(e,o);
+},
+clear:function(){
+a&&(i(a,function(e,o){
+~o.indexOf(h.prefix)&&a.removeItem(o);
+}),console.debug&&console.debug("[moon] clear"));
+},
+idkeyReport:function(e,o,t){
+t=t||1;
+var n=e+"_"+o+"_"+t;
+(new Image).src="/mp/jsmonitor?idkey="+n+"&r="+Math.random();
+}
+};
+seajs&&seajs.use&&"string"==typeof window.__moon_mainjs&&seajs.use(window.__moon_mainjs),
+window.moon=h;
+}(window),function(){
+try{
+Math.random()<1;
+}catch(e){}
+}(),window.moon.init();
+};
+e(),!!window.__moon_initcallback&&window.__moon_initcallback(),window.__wxgspeeds&&(window.__wxgspeeds.moonendtime=+new Date);
+}
+}
+__moonf__(); }, 25);</script><script nonce="961660229" type="text/javascript">
+    var real_show_page_time = +new Date();
+    if (!!window.addEventListener){
+        window.addEventListener("load", function(){
+            window.onload_endtime = +new Date();
+        });
+    }
+
+    
+    if(typeof seajs != 'undefined' && seajs.config){
+        try{
+            seajs.config({
+              'map': [
+                [ '.js', '.js?v=' + (+new Date())]
+              ]
+            });
+        }catch(e){
+            console.info('not support seajs config');
+        }
+    }
+
+    
+</script>
+
+    </body>
+    <script nonce="961660229" type="text/javascript">document.addEventListener("touchstart", function() {},false);</script>
+</html>
+

@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/09/15" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/09/15</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/09/14/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/09/15/index.html">2016/09/15</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/09/16/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Android Tamer @AndroidTamer</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Reverse Engineering Xiaomi’s Analytics app. https less remote code execution in all devices <a href="https://www.thijsbroenink.com/2016/09/xiaomis-analytics-app-reverse-engineered/" rel="nofollow">https://www.thijsbroenink.com/2016/09/xiaomis-analytics-app-reverse-engineered/</a> by @ thijs_br</p>
+<div class="translated" id="183518">
+<p>﻿" 小米预装 APP AnalyticsCore 的逆向分析：   <a href="https://t.co/KP2T9eOxqg" rel="nofollow">https://t.co/KP2T9eOxqg</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Microsoft Edge Dev @MSEdgeDev </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Blocking out-of-date Flash ActiveX controls <a href="https://blogs.windows.com/msedgedev/2016/09/13/blocking-out-of-date-flash/" rel="nofollow">https://blogs.windows.com/msedgedev/2016/09/13/blocking-out-of-date-flash/</a></p>
+<div class="translated" id="183631">
+<p>﻿" 从 2016 年 10 月 16 号开始，微软将阻止过期的 Flash ActiveX 控件的加载执行：   <a href="https://t.co/dDsS794fK2" rel="nofollow">https://t.co/dDsS794fK2</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Introducing the Firefox debugger.html (modern JavaScript debugger) : <a href="https://hacks.mozilla.org/2016/09/introducing-debugger-html/" rel="nofollow">https://hacks.mozilla.org/2016/09/introducing-debugger-html/</a></p>
+<div class="translated" id="183507">
+<p>﻿" debugger.html - Firefox 浏览器的 JavaScript 调试器︰   <a href="https://t.co/UNuRu5MX0b" rel="nofollow">https://t.co/UNuRu5MX0b</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Embedded Systems @embedsys </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Debug </i>]  Tips for Productive Debugging with GDB <a href="https://metricpanda.com/tips-for-productive-debugging-with-gdb" rel="nofollow">https://metricpanda.com/tips-for-productive-debugging-with-gdb</a></p>
+<div class="translated" id="183391">
+<p>﻿" GDB 调试器使用的一些小建议：   <a href="https://t.co/E1o1slkdUv" rel="nofollow">https://t.co/E1o1slkdUv</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  argp @_argp </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  Pangu's writeup on CVE-2016-4655, an XNU stack infoleak in OSUnserializeBinary; orig: <a href="http://blog.pangu.io/cve-2016-4655/" rel="nofollow">http://blog.pangu.io/cve-2016-4655/</a>; eng: <a href="https://translate.google.com/translate?sl=zh-CN&amp;tl=en&amp;js=y&amp;prev=_t&amp;hl=en&amp;ie=UTF-8&amp;u=http%3A%2F%2Fblog.pangu.io%2Fcve-2016-4655%2F&amp;edit-text=" rel="nofollow">https://translate.google.com/translate?sl=zh-CN&amp;tl=en&amp;js=y&amp;prev=_t&amp;hl=en&amp;ie=UTF-8&amp;u=http%3A%2F%2Fblog.pangu.io%2Fcve-2016-4655%2F&amp;edit-text=</a></p>
+<div class="translated" id="183346">
+<p>﻿" 盘古团队对本月 iOS 10 修复的 OSUnserializeBinary 信息泄漏漏洞的分析（CVE-2016-4655）：   <a href="http://blog.pangu.io/cve-2016-4655/" rel="nofollow">http://blog.pangu.io/cve-2016-4655/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  heige @80vul </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  《BadURLScheme in iOS》 <a href="http://paper.seebug.org/42/" rel="nofollow">http://paper.seebug.org/42/</a></p>
+<div class="translated" id="183348">
+<p>﻿" 知道创宇黑哥发表的一篇关于 iOS BadURLScheme 漏洞的分析，据文中介绍，这个漏洞主要是在 iOS 对于 URL Scheme 及其在 UIWebView 等控件的自动诊断识别等处理机制下导致跨应用 XSS 漏洞：   <a href="https://t.co/B4S6baw8TF" rel="nofollow">https://t.co/B4S6baw8TF</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Jeff Johnson @lapcatsoftware </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> macOS </i>]  New LLDB Debugging Guide <a href="https://developer.apple.com/library/content/documentation/General/Conceptual/lldb-guide/chapters/Introduction.html" rel="nofollow">https://developer.apple.com/library/content/documentation/General/Conceptual/lldb-guide/chapters/Introduction.html</a></p>
+<div class="translated" id="183601">
+<p>﻿" LLDB 调试指南：   <a href="https://t.co/wbyzvq5J2J" rel="nofollow">https://t.co/wbyzvq5J2J</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  hasherezade @hasherezade </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  My slides from today's presentation at #SCS2016 (English version): <a href="https://drive.google.com/open?id=0Bzb5kQFOXkiSWkVZUG1BU0lnbVE" rel="nofollow">https://drive.google.com/open?id=0Bzb5kQFOXkiSWkVZUG1BU0lnbVE</a></p>
+<div class="translated" id="183407">
+<p>﻿" SCS 2016 会议一篇关于 Petya 勒索软件的演讲 PPT︰   <a href="https://t.co/A7PKZCgPaz" rel="nofollow">https://t.co/A7PKZCgPaz</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>TrendLabs @TrendLabs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  New post: BkSoD by Ransomware: HDDCryptor Uses Commercial Tools to Encrypt Network Shares and Lock HDDs <a href="http://bit.ly/2cnnpq0" rel="nofollow">http://bit.ly/2cnnpq0</a> @ TrendMicro</p>
+<div class="translated" id="183472">
+<p>﻿" HDDCryptor - 利用商业工具加密网络共享和硬盘的勒索软件：   <a href="https://t.co/nFV8IzweD8" rel="nofollow">https://t.co/nFV8IzweD8</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Jurriaan Bremer @skier_t </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Building zer0m0n (@ cuckoosandbox kernel driver) using the non-existing 64-bit ReactOS Build Environment on Ubuntu <a href="https://cuckoo.sh/blog/zer0m0n-rosbe.html" rel="nofollow">https://cuckoo.sh/blog/zer0m0n-rosbe.html</a></p>
+<div class="translated" id="183589">
+<p>﻿" Cuckoo Sandbox 内核驱动模块 zer0m0n 与 ReactOS 构建环境：   <a href="https://t.co/I1Fz6pQ6E1" rel="nofollow">https://t.co/I1Fz6pQ6E1</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>REhints @REhints</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  #CodeXplorer binaries for IDASDK v6.95 on GitHub: <a href="https://github.com/REhints/HexRaysCodeXplorer/tree/master/bin/v2.0%20[BlackHat%20Edition]/IDA%206.95/Win" rel="nofollow">https://github.com/REhints/HexRaysCodeXplorer/tree/master/bin/v2.0%20%5BBlackHat%20Edition%5D/IDA%206.95/Win</a> Working on next version with refactored TypeREconstruction engine</p>
+<div class="translated" id="183227">
+<p>﻿"IDA v6.95 版本兼容的 HexRaysCodeXplorer 代码导航插件下载︰   <a href="https://t.co/6IXj7tVFdv" rel="nofollow">https://t.co/6IXj7tVFdv</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Mohamed Saher @halsten </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Kernel Pool Monitor gets revived by Pavel Yosifovich (<a href="http://blogs.microsoft.co.il/pavely/2016/09/14/kernel-pool-monitor-the-gui-version/" rel="nofollow">http://blogs.microsoft.co.il/pavely/2016/09/14/kernel-pool-monitor-the-gui-version/</a>) #Kernel #Windows</p>
+<div class="translated" id="183389">
+<p>﻿" Windows Kernel Pool Monitor 工具：   <a href="https://t.co/ePncypS38s" rel="nofollow">https://t.co/ePncypS38s</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/09/14/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/09/15/index.html">2016/09/15</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/09/16/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

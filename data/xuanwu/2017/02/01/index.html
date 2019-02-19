@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/02/01" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/02/01</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/01/31/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/02/01/index.html">2017/02/01</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/02/02/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Android: RKP EL1 Code Loading Bypass <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=981" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=981</a></p>
+<div class="translated" id="235544">
+<p>﻿"三星 Android RKP 相关的三个漏洞：   <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=980" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=980</a> <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=981" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=981</a> <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=982" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=982</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Project Zero Bugs @ProjectZeroBugs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Apple WebKit: Type confusion in RenderBox with accessibility enabled <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1038" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1038</a></p>
+<div class="translated" id="235533">
+<p>﻿" WebCore::AXObjectCache::gAccessibilityEnabed 启用时，WebKit RenderBox 存在一个类型混淆漏洞（CVE-2017-2373）：   <a href="https://t.co/R3J3jFvXd1" rel="nofollow">https://t.co/R3J3jFvXd1</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Project Zero Bugs @ProjectZeroBugs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Apple WebKit: Type confusion in HTMLKeygenElement <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=999" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=999</a></p>
+<div class="translated" id="235534">
+<p>﻿" Apple WebKit: Type confusion in HTMLKeygenElement（CVE-2017-2369）：   <a href="https://t.co/KwI7aCz5Da" rel="nofollow">https://t.co/KwI7aCz5Da</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Ivan Fratric @ifsecure</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Also derestricted some other bugs: <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=994" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=994</a>, 999 (userAgentShadowRoot fun, affecting both Blink and WebKit) and 1038.</p>
+<div class="translated" id="235541">
+<p>﻿" Google Chrome: Type confusion in HTMLKeygenElement::shadowSelect()，Chrome 55 版本已经修复该漏洞︰   <a href="https://t.co/ERxPwwO29I" rel="nofollow">https://t.co/ERxPwwO29I</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Francisco Alonso @revskills</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Open-sourcing Chrome on iOS!
+<a href="https://blog.chromium.org/2017/01/open-sourcing-chrome-on-ios.html" rel="nofollow">https://blog.chromium.org/2017/01/open-sourcing-chrome-on-ios.html</a></p>
+<div class="translated" id="235586">
+<p>﻿"iOS 版本的 Chrome 开源了：   <a href="https://t.co/FM6jnquzlJ" rel="nofollow">https://t.co/FM6jnquzlJ</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  benmmurphy @benmmurphy </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  local privilege escalation in #illumos via permissions not being enforced in /proc <a href="http://benmmurphy.github.io/blog/2017/01/31/local-privilege-escalation-in-illumos-via-slash-proc/" rel="nofollow">http://benmmurphy.github.io/blog/2017/01/31/local-privilege-escalation-in-illumos-via-slash-proc/</a> <a href="https://t.co/EqXucUWB1o" rel="nofollow">https://t.co/EqXucUWB1o</a></p>
+<div class="translated" id="235353">
+<p>﻿" Illumos 基于 /proc 实现的本地提权（Illumos 是 OpenSolaris 的衍生版本）：   <a href="https://t.co/mWFXdUexXn" rel="nofollow">https://t.co/mWFXdUexXn</a> <a href="https://t.co/EqXucUWB1o" rel="nofollow">https://t.co/EqXucUWB1o</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  EyePyramid: An Archaeological Journey <a href="http://blog.talosintel.com/2017/01/Eye-Pyramid.html" rel="nofollow">http://blog.talosintel.com/2017/01/Eye-Pyramid.html</a></p>
+<div class="translated" id="235216">
+<p>﻿" 恶意软件 EyePyramid 的考古之旅：   <a href="https://t.co/XHPtquntTh" rel="nofollow">https://t.co/XHPtquntTh</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> NetworkDevice </i>]  Bypassing Authentication on NETGEAR Routers :  <a href="https://www.trustwave.com/Resources/SpiderLabs-Blog/CVE-2017-5521--Bypassing-Authentication-on-NETGEAR-Routers/" rel="nofollow">https://www.trustwave.com/Resources/SpiderLabs-Blog/CVE-2017-5521--Bypassing-Authentication-on-NETGEAR-Routers/</a> cc @ Simon_Kenin //CVE-2017-5521</p>
+<div class="translated" id="235393">
+<p>﻿"绕过 Netgear 路由器上的身份验证（CVE-2017-5521）︰   <a href="https://t.co/bnJQKapTYX" rel="nofollow">https://t.co/bnJQKapTYX</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  NETRESEC @netresec </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  41 vulnerabilities in #tcpdump, most of which are remotely exploitable!
+Upgrade to tcpdump 4.9.0.1 ASAP!… <a href="https://t.co/l30ezSMYeo" rel="nofollow">https://t.co/l30ezSMYeo</a></p>
+<div class="translated" id="235174">
+<p>﻿"tcpdump 发布安全公告，修复了 41 个漏洞，其中有部分可以远程利用：   <a href="https://t.co/l30ezSMYeo" rel="nofollow">https://t.co/l30ezSMYeo</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  From Mimikatz to Kekeo, Passing by New Microsoft Security Technologies <a href="https://onedrive.live.com/view.aspx?resid=A352EBC5934F0254%213316&amp;ithint=file%2Cpptx&amp;app=PowerPoint" rel="nofollow">https://onedrive.live.com/view.aspx?resid=A352EBC5934F0254!3316&amp;ithint=file%2cpptx&amp;app=PowerPoint</a></p>
+<div class="translated" id="235208">
+<p>﻿"从 Mimikatz 到 Kekeo，以及微软新引入的安全技术：   <a href="https://t.co/CU71LolLZQ" rel="nofollow">https://t.co/CU71LolLZQ</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  hanno @hanno </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  PHP Crashers <a href="https://github.com/hannob/php-crashers" rel="nofollow">https://github.com/hannob/php-crashers</a> scripts that cause segfaults in PHP</p>
+<div class="translated" id="235312">
+<p>﻿"能够使 PHP 解释器发生段错误崩溃的几个脚本：   <a href="https://t.co/ZF4PBbP5HT" rel="nofollow">https://t.co/ZF4PBbP5HT</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Virtualization </i>]  VirtualBox Privilege Escalation <a href="https://packetstormsecurity.com/files/140791/virtualbox-escalate.txt" rel="nofollow">https://packetstormsecurity.com/files/140791/virtualbox-escalate.txt</a></p>
+<div class="translated" id="235223">
+<p>﻿" VirtualBox 5.1.14 提权漏洞(CVE-2017-3316)，附 PoC：   <a href="https://t.co/9GV2fzJgAi" rel="nofollow">https://t.co/9GV2fzJgAi</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Web Security </i>]  5 ways to File upload vulnerability Exploitation <a href="http://www.hackingarticles.in/5-ways-file-upload-vulnerability-exploitation/" rel="nofollow">http://www.hackingarticles.in/5-ways-file-upload-vulnerability-exploitation/</a></p>
+<div class="translated" id="235224">
+<p>﻿"文件上传漏洞的 5 种利用方法：   <a href="https://t.co/Sh9YefxaVO" rel="nofollow">https://t.co/Sh9YefxaVO</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/01/31/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/02/01/index.html">2017/02/01</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/02/02/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

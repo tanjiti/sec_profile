@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/11/03" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2016/11/03</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/11/02/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/11/03/index.html">2016/11/03</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/11/04/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Mike_Mimoso @Mike_Mimoso</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Belkin’s WeMo Gear Can Hack Android Phones: <a href="https://threatpost.com/belkins-wemo-gear-can-hack-android-phones/121730/" rel="nofollow">https://threatpost.com/belkins-wemo-gear-can-hack-android-phones/121730/</a> via @ threatpost</p>
+<div class="translated" id="203146">
+<p>﻿" Belkin 办公自动化系统 WeMo 存在漏洞，攻击者可以控制家庭自动化设备：   <a href="https://t.co/UCVCHOhSLj" rel="nofollow">https://t.co/UCVCHOhSLj</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  alexander knorr @opexxx </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> macOS </i>]  A new MacOS kernel extension using Capstone inside: AppleALC to add native HD audio support for unofficially codecshttp://bit.ly/2f03v6h
+
+—…</p>
+<div class="translated" id="202926">
+<p>﻿"AppleALC - 一款开源的 OS X 内核扩展，用于启用 Native OS X HD Audio：    <a href="http://bit.ly/2f03v6h" rel="nofollow">http://bit.ly/2f03v6h</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  New IoT Linux IRCTelnet Botnet Wreaks Havoc <a href="http://bestsecuritysearch.com/new-iot-linux-irctelnet-botnet-wreaks-havoc/" rel="nofollow">http://bestsecuritysearch.com/new-iot-linux-irctelnet-botnet-wreaks-havoc/</a></p>
+<div class="translated" id="203007">
+<p>﻿"IoT Linux IRCTelnet 僵尸网络 ：  <a href="https://t.co/TF4XVO3M5o" rel="nofollow">https://t.co/TF4XVO3M5o</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Th0m4s @nyx__o </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  @  GoSecure_Inc and @  ESET collaboration on #Linux #Moose #IoT <a href="http://gosecure.net/2016/11/02/exposing-the-ego-market-the-cybercrime-performed-by-the-linux-moose-botnet/" rel="nofollow">http://gosecure.net/2016/11/02/exposing-the-ego-market-the-cybercrime-performed-by-the-linux-moose-botnet/</a> <a href="http://www.welivesecurity.com/2016/11/02/linuxmoose-still-breathing/" rel="nofollow">http://www.welivesecurity.com/2016/11/02/linuxmoose-still-breathing/</a></p>
+<div class="translated" id="203094">
+<p>﻿"针对 Linux/Moose 恶意软件的分析：  <a href="http://www.welivesecurity.com/2016/11/02/linuxmoose-still-breathing/" rel="nofollow">http://www.welivesecurity.com/2016/11/02/linuxmoose-still-breathing/</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Tencent's Xuanwu Lab @XuanwuLab</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mitigation </i>]  Microsoft introduced a new exploit mitigation "RFG" in Windows 10 Redstone 2 14942 to protect return address: <a href="http://xlab.tencent.com/en/2016/11/02/return-flow-guard/" rel="nofollow">http://xlab.tencent.com/en/2016/11/02/return-flow-guard/</a></p>
+<div class="translated" id="202939">
+<p>﻿" 微软在 Windows 10 Redstone 2 14942 版本中加入 'RFG' 缓解措施，用于在 CFG 的基础上加强对返回地址的防护︰   <a href="http://xlab.tencent.com/cn/2016/11/02/return-flow-guard/" rel="nofollow">http://xlab.tencent.com/cn/2016/11/02/return-flow-guard/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Bypassing Two-Factor Authentication on OWA and Office365 Portals <a href="http://www.blackhillsinfosec.com/?p=5396" rel="nofollow">http://www.blackhillsinfosec.com/?p=5396</a></p>
+<div class="translated" id="203027">
+<p>﻿"在 OWA 和 Office365 门户网站   <a href="https://t.co/0yP6D7oT28" rel="nofollow">https://t.co/0yP6D7oT28</a> 上绕过双因素身份验证"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Justin Seitz @jms_dot_py </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  SMS Scam Investigation in 30 Minutes Or Less – Medium <a href="http://bit.ly/2fenhMq" rel="nofollow">http://bit.ly/2fenhMq</a></p>
+<div class="translated" id="203138">
+<p>﻿"诈骗短信调查：   <a href="https://t.co/DzrtHU1w4c" rel="nofollow">https://t.co/DzrtHU1w4c</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  [local] - MySQL / MariaDB / PerconaDB - 'root' Privilege Escalation <a href="https://www.exploit-db.com/exploits/40679/" rel="nofollow">https://www.exploit-db.com/exploits/40679/</a></p>
+<div class="translated" id="202892">
+<p>﻿"MySQL / MariaDB / PerconaDB-提权/条件竞争漏洞：   <a href="https://t.co/XFdg6ocNF0" rel="nofollow">https://t.co/XFdg6ocNF0</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Yifan @yifanlu </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  3) SDK with plugin and kernel module support! Davee will release in the morning. Updated specifications: <a href="https://t.co/jtNuOJIRxl" rel="nofollow">https://t.co/jtNuOJIRxl</a></p>
+<div class="translated" id="202915">
+<p>﻿"Vita SDK 手册︰   <a href="https://t.co/jtNuOJIRxl" rel="nofollow">https://t.co/jtNuOJIRxl</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Yifan @yifanlu </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Vita kernel explosion! We are releasing a CFW framework and three other things: <a href="https://yifan.lu/2016/11/01/taihen-cfw-framework-for-ps-vita/" rel="nofollow">https://yifan.lu/2016/11/01/taihen-cfw-framework-for-ps-vita/</a></p>
+<div class="translated" id="202918">
+<p>﻿" taiHEN - 为 PS Vita 编写应用级和内核级 Patch 的框架︰   <a href="https://t.co/xLG5IhUdkF" rel="nofollow">https://t.co/xLG5IhUdkF</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Targeted Bruteforcing – Mining patterns in passwords to make bruteforcing easy <a href="http://fsecurify.com/targeted-bruteforcing-mining-patterns-to-make-brute-forcing-easy/" rel="nofollow">http://fsecurify.com/targeted-bruteforcing-mining-patterns-to-make-brute-forcing-easy/</a></p>
+<div class="translated" id="203181">
+<p>﻿" 有针对性的密码暴力破解技术：   <a href="https://t.co/8s6jIPBpjy" rel="nofollow">https://t.co/8s6jIPBpjy</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  SHARCS @sharcs_project </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  #SHARCS paper has been published on CCS 2016: Drammer: Deterministic Rowhammer Attacks on Mobile Platforms <a href="https://t.co/LJehqAYQhQ" rel="nofollow">https://t.co/LJehqAYQhQ</a></p>
+<div class="translated" id="202933">
+<p>﻿" SHARCS 已公开的 Papers 列表：   <a href="https://t.co/LJehqAYQhQ%C2%A0" rel="nofollow">https://t.co/LJehqAYQhQ </a> 其中新增加了 CCS 2016 会议上谈移动平台 Rowhammer 攻击的 Paper"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>スカイラインド‼ @berendjanwever</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  #DailyBug #MSIE11 MSHTML CView::CalculateImageImmunity UAF
+
+Details and repro in my blog post at
+<a href="http://blog.skylined.nl/20161102001.html" rel="nofollow">http://blog.skylined.nl/20161102001.html</a></p>
+<div class="translated" id="202944">
+<p>﻿" IE 11 MSHTML CView::CalculateImageImmunity UAF：   <a href="https://t.co/Ivve3tKDRR" rel="nofollow">https://t.co/Ivve3tKDRR</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Full Disclosure @SecLists</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  CVE-2016-8583 - Alienvault OSSIM/USM Reflected XSS <a href="https://goo.gl/fb/lyC7T1" rel="nofollow">https://goo.gl/fb/lyC7T1</a> #FullDisclosure</p>
+<div class="translated" id="202851">
+<p>﻿"安全管理软件 Alienvault OSSIM/USM 中存在反射型 XSS（CVE-2016-8583）：   <a href="https://t.co/Zn3KNmWZZa%C2%A0" rel="nofollow">https://t.co/Zn3KNmWZZa </a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Cure53 @cure53berlin </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  DOMPurify 0.8.4 is out, with updated MentalJS demo &amp;amp; more powerful hooks, ready for custom HTML element handling <a href="https://t.co/AZBBkw8giF" rel="nofollow">https://t.co/AZBBkw8giF</a></p>
+<div class="translated" id="203063">
+<p>﻿"DOMPurify 0.8.4 发布，更新了 MentalJS 沙箱   <a href="https://t.co/AZBBkw8giF%C2%A0" rel="nofollow">https://t.co/AZBBkw8giF </a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  Andrey Karpov @Code_Analysis </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Static code analyzer for Ubuntu. <a href="http://insights.ubuntu.com/2016/11/02/static-code-analyzer-for-ubuntu/" rel="nofollow">http://insights.ubuntu.com/2016/11/02/static-code-analyzer-for-ubuntu/</a> (#ubuntu, #devops, #programming, #cpp, #codeanalysis,… <a href="https://t.co/lP9K8pRG0M" rel="nofollow">https://t.co/lP9K8pRG0M</a></p>
+<div class="translated" id="202965">
+<p>﻿" PVS-Studio 的开发者为 Ubuntu 移植了一个版本，用于发现 Linux 系统的漏洞：    <a href="https://t.co/oNC3VQnIwX" rel="nofollow">https://t.co/oNC3VQnIwX</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://xlab.tencent.com/cn/secnews/2016-03-09/rss_logo.png" width="12px" height="12px" align="left">Xuanwu Spider via 安卓巴士</p> -->
+<p><img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">Xuanwu Spider via 安卓巴士</img></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Android </i>]  Android线上Bug热修复分析 ： <a href="http://mp.weixin.qq.com/s?__biz=MzA3MjgwNDIzNQ%3D%3D&amp;mid=2651939553&amp;idx=1&amp;sn=70337aa12319dbb01ba974c1bf30405f&amp;chksm=84fd7005b38af913108a09ff581464a657935bb241682cf7f9618bfb5566ba80b9cf6e3b8938&amp;scene=0#wechat_redirect" rel="nofollow">http://mp.weixin.qq.com/s?__biz=MzA3MjgwNDIzNQ==&amp;mid=2651939553&amp;idx=1&amp;sn=70337aa12319dbb01ba974c1bf30405f&amp;chksm=84fd7005b38af913108a09ff581464a657935bb241682cf7f9618bfb5566ba80b9cf6e3b8938&amp;scene=0#wechat_redirect</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://xlab.tencent.com/cn/secnews/2016-03-09/rss_logo.png" width="12px" height="12px" align="left">Xuanwu Spider via 初心を忘れず</p> -->
+<p><img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">Xuanwu Spider via 初心を忘れず</img></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> IoTDevice </i>]  Pwn A Camera Step by Step (Web ver.)（一步步 Pwn 掉摄像头）： <a href="https://ricterz.me/posts/Pwn%20A%20Camera%20Step%20by%20Step%20(Web%20ver.)?_=1478057500480" rel="nofollow">https://ricterz.me/posts/Pwn%20A%20Camera%20Step%20by%20Step%20%28Web%20ver.%29?_=1478057500480</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://xlab.tencent.com/cn/secnews/2016-03-09/rss_logo.png" width="12px" height="12px" align="left">Xuanwu Spider via Seebug</p> -->
+<p><img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">Xuanwu Spider via Seebug</img></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> OpenSourceProject </i>]  MySQL / MariaDB / PerconaDB 提权/条件竞争漏洞（CVE-2016-6663）： <a href="https://www.seebug.org/vuldb/ssvid-92510" rel="nofollow">https://www.seebug.org/vuldb/ssvid-92510</a>   MySQL / MariaDB / PerconaDB 权限提升漏洞（CVE-2016-6664） ： <a href="https://www.seebug.org/vuldb/ssvid-92513" rel="nofollow">https://www.seebug.org/vuldb/ssvid-92513</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://xlab.tencent.com/cn/secnews/2016-03-09/rss_logo.png" width="12px" height="12px" align="left">Xuanwu Spider via Solidot</p> -->
+<p><img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">Xuanwu Spider via Solidot</img></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Browser </i>]  因隐私担忧 Firefox 移除对电池状态API的支持： <a href="http://www.solidot.org/story?sid=50220" rel="nofollow">http://www.solidot.org/story?sid=50220</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://xlab.tencent.com/cn/secnews/2016-03-09/rss_logo.png" width="12px" height="12px" align="left">Xuanwu Spider via Cisco Talos</p> -->
+<p><img align="left" height="12px" src="6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px">Xuanwu Spider via Cisco Talos</img></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Windows </i>]  Windows 10 AHCACHE.SYS 远程拒绝服务漏洞： <a href="http://blog.talosintel.com/2016/11/vulnerability-spotlight-windows-10.html" rel="nofollow">http://blog.talosintel.com/2016/11/vulnerability-spotlight-windows-10.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2016/11/02/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/11/03/index.html">2016/11/03</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/11/04/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>

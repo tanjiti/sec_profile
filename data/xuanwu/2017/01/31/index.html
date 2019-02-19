@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/01/31" name="description">
+<meta content="index, follow" name="robots"/>
+<title>腾讯玄武实验室安全动态推送(Tencent Xuanwu Lab Security Daily News) - 2017/01/31</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+
+
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+
+/* manualpost style*/
+
+#manualfeedlist li{
+    list-style: none;
+}
+
+#manualfeedlist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+.singlemanualfeed{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.singlefeedauthor{
+    height: 24px;
+    /*width: 35%;*/
+    margin-left: 5px;
+}
+
+.singlefeedauthor p{
+    margin: 0 0px;
+    color: #a7a7a7;
+}
+
+
+.singlefeedtext a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+
+.feedcomments{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family: "Source Code Pro", "微软雅黑", "Consolas", "Courier";
+}
+
+.feedcomments p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.feedcomments button{
+    display: none;
+    margin: 5px;
+    color: #666;
+    height: 24px;
+    text-decoration: none;
+}
+
+.singlefeedimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.singlefeedauthor img{
+    max-height: 12px;
+    max-width: 12px;
+}
+
+hr{
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</meta></head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/01/30/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/01/31/index.html">2017/01/31</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/02/01/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>b33f @FuzzySec</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  Exposing EITest campaign: Following a Malware distribution campaign - <a href="https://blog.brillantit.com/exposing-eitest-campaign/" rel="nofollow">https://blog.brillantit.com/exposing-eitest-campaign/</a></p>
+<div class="translated" id="234916">
+<p>﻿"揭露 EITest 攻击行动：   <a href="https://t.co/jrUfIRbjgN" rel="nofollow">https://t.co/jrUfIRbjgN</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  (((JaysonEStreet))) @jaysonstreet </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  How to change Firefox’s Sandbox security level <a href="http://www.ghacks.net/2017/01/23/how-to-change-firefoxs-sandbox-security-level/" rel="nofollow">http://www.ghacks.net/2017/01/23/how-to-change-firefoxs-sandbox-security-level/</a></p>
+<div class="translated" id="235036">
+<p>﻿"如何修改 Firefox 沙箱的 Security Level：   <a href="https://t.co/rbvsnl7igK" rel="nofollow">https://t.co/rbvsnl7igK</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Robert Swiecki @robertswiecki</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Fuzzing </i>]  Fuzzing OpenSSL1.1.0 and Apache2.4 with hongfuzz: step-by-step examples + powerful corpora: <a href="https://goo.gl/hrczuT" rel="nofollow">https://goo.gl/hrczuT</a> <a href="https://goo.gl/6B9WVf" rel="nofollow">https://goo.gl/6B9WVf</a></p>
+<div class="translated" id="234856">
+<p>﻿"Fuzzing OpenSSL1.1.0 and Apache2.4 with hongfuzz︰   <a href="https://t.co/bTwb1ObiH9" rel="nofollow">https://t.co/bTwb1ObiH9</a> <a href="https://t.co/TbLM408sES" rel="nofollow">https://t.co/TbLM408sES</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  iOS Jailbreak @GreenPois0n_JB </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  iOS 10.2 Yalu Jailbreak Now Supports All 64-bit Devices except iPhone 7 and iPad Air 2  <a href="http://ow.ly/aM7n308tTnQ" rel="nofollow">http://ow.ly/aM7n308tTnQ</a>  #Apple</p>
+<div class="translated" id="234863">
+<p>﻿"iOS 10.2 Yalu 越狱工具现在支持 iPhone 7 和 iPad Air 2 以外的所有 64 位设备了：   <a href="https://t.co/tbvfYij1vx" rel="nofollow">https://t.co/tbvfYij1vx</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>PHR34K @unpacker</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  The Analysis Of Equation Drug —The Fourth Analysis Report Of Equation Group <a href="http://www.antiy.net/p/the-analysis-of-equation-drug-the-fourth-analysis-report-of-equation-group/" rel="nofollow">http://www.antiy.net/p/the-analysis-of-equation-drug-the-fourth-analysis-report-of-equation-group/</a></p>
+<div class="translated" id="234625">
+<p>﻿"方程式组织EQUATION DRUG平台解析 — 方程式组织系列分析报告之四，来自安天：   <a href="http://www.antiy.com/response/EQUATION_DRUG/EQUATION_DRUG.html" rel="nofollow">http://www.antiy.com/response/EQUATION_DRUG/EQUATION_DRUG.html</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Palo Alto Networks @PaloAltoNtwks</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  #ICYMI #Unit42 analyzes new threat technique in latest blog post: Farming Malicious Documents to Unravel Ransomware <a href="http://oak.ctx.ly/r/5e51o" rel="nofollow">http://oak.ctx.ly/r/5e51o</a></p>
+<div class="translated" id="234631">
+<p>﻿" Palo Alto 对 SAGE 2.0 勒索软件 Word 样本的详细分析：   <a href="https://t.co/bJWsHOlCV4" rel="nofollow">https://t.co/bJWsHOlCV4</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> SecurityProduct </i>]  avet : AntiVirus Evasion Tool : <a href="https://github.com/govolution/avet" rel="nofollow">https://github.com/govolution/avet</a> , Details : <a href="https://govolutionde.files.wordpress.com/2014/05/avevasion_pentestmag.pdf" rel="nofollow">https://govolutionde.files.wordpress.com/2014/05/avevasion_pentestmag.pdf</a> (pdf) cc @  DanielX4v3r</p>
+<div class="translated" id="234771">
+<p>﻿"avet - 杀软逃逸工具︰   <a href="https://t.co/PGwmBSLZcP%C2%A0%C2%A0" rel="nofollow">https://t.co/PGwmBSLZcP  </a> 相关的技术 Paper︰   <a href="https://t.co/4MjIycXbgb" rel="nofollow">https://t.co/4MjIycXbgb</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>  MWR Labs @mwrlabs </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Leaking GDI Objects Post Windows 10 Anniversary Edition by @ FuzzySec <a href="https://labs.mwrinfosecurity.com/blog/a-tale-of-bitmaps/" rel="nofollow">https://labs.mwrinfosecurity.com/blog/a-tale-of-bitmaps/</a> <a href="https://t.co/gQJvspFVhY" rel="nofollow">https://t.co/gQJvspFVhY</a></p>
+<div class="translated" id="234996">
+<p>﻿" Bitmaps 的故事 - 在 Windows 10 周年更新之后泄漏 GDI 对象：   <a href="https://t.co/Dx00FSXtBw" rel="nofollow">https://t.co/Dx00FSXtBw</a> <a href="https://t.co/gQJvspFVhY" rel="nofollow">https://t.co/gQJvspFVhY</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C3MVBC1XAAE_v_k.png" target="_blank">
+<img src="C3MVBC1XAAE_v_k.png">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/01/30/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/01/31/index.html">2017/01/31</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/02/01/index.html">Next</a>
+</div>
+</hr></div>
+</div>
+</body>
+</html>
