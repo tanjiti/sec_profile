@@ -200,7 +200,7 @@ group by twitter_account order by c desc`
 
 ![语言占比](data/img/language/语言占比.jpeg)
 
-> 
+> python 遥遥领先
 
 
 # 总结
