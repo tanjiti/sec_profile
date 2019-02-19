@@ -198,13 +198,16 @@ group by twitter_account order by c desc`
 
 ### 安全人员最爱用的编程语言
 
-![语言占比](data/img/language/语言占比.jpeg)
+![语言占比](data/img/language/最喜欢语言占比.jpeg)
 
-> python 遥遥领先
+> python 毫无悬念的位居榜首，go 正在大规模流行中，PowerShell windows渗透最爱，Rust号称最安全的语言，JavaJupyter、Scala由于数据分析而崛起
+
+[所有语言](data/github_lang.txt)
+
+> 安全人员特有的小众语言，例如bro、YARA
 
 
 # 总结
-
 
 
 > 与国内安全媒体的日新月异，国外的安全媒体都历史悠久。
