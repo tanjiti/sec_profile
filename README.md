@@ -196,11 +196,11 @@ group by twitter_account order by c desc`
 
 # ToDo
 
-- [] github探宝
+-[] github探宝
 
-- [] medium账号提取
+-[] medium账号提取
 
-- [] 微信自动关注 
+-[] 微信自动关注 
 
 
 
