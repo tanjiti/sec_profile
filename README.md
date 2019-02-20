@@ -1,4 +1,3 @@
-[TOC]
 
 # 爬取secwiki和xuanwu.github.io,分析安全信息站点、安全趋势、安全工作者账号(twitter,weixin,github等)
 
@@ -144,8 +143,6 @@ group by twitter_account order by c desc`
 
 ![github_private_topn](data/img/github_private_topn.png)
 
-
-`select github_id,p_stars,p_repositories,p_followers,p_following,p_projects,repo_star,repo_forks , p_profile,p_url,p_company,p_loc,count(*) as c from github  where github_type=0 group by github_id order by c desc , p_followers desc `
 
 
 
