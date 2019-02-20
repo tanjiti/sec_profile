@@ -5,11 +5,9 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 
 import logging
-import codecs
 
 import re
 
-from mills import path
 from mills import SQLiteOper
 from mills import get_title
 
@@ -23,12 +21,11 @@ def update_domain(so, retry=3, timeout=10, proxy=None):
     :param proxy:
     :return:
     """
-    for table in ["secwiki_detail","xuanwu_detail"]:
+    for table in ["secwiki_detail", "xuanwu_detail"]:
 
         sql = 'select distinct domain  ' \
               'from {table} ' \
               'where domain_name is null or domain_name="" order by domain '.format(table=table)
-
 
         result = so.query(sql)
         for item in result:
@@ -38,8 +35,6 @@ def update_domain(so, retry=3, timeout=10, proxy=None):
             if not k:
                 continue
             title = get_title(k, proxy=proxy, retry=retry, timeout=timeout)
-
-
 
             if title:
                 title = re.sub('\x22', '', title)
@@ -55,6 +50,7 @@ def update_domain(so, retry=3, timeout=10, proxy=None):
                 except Exception as e:
                     logging.error("[update_sql]: %s str(%s)" % (update_sql, str(e)))
 
+
 def get_domain_name(so, source="secwiki", topn=5000):
     """
 
@@ -63,8 +59,7 @@ def get_domain_name(so, source="secwiki", topn=5000):
     :param topn:
     :return:
     """
-    sql = "select domain,domain_name,count(path) as c from %s_detail group by domain order by c desc" %source
-
+    sql = "select domain,domain_name,count(path) as c from %s_detail group by domain order by c desc" % source
 
     ret = so.query(sql)
 
@@ -74,8 +69,8 @@ def get_domain_name(so, source="secwiki", topn=5000):
         for r in ret:
 
             if i < topn:
-                domain,domain_name,c = r
-                print domain,domain_name,c
+                domain, domain_name, c = r
+                print domain, domain_name, c
             else:
                 break
             i = i + 1
@@ -88,6 +83,6 @@ if __name__ == "__main__":
     so = SQLiteOper("data/scrap.db")
 
     update_domain(so, retry=1, timeout=10, proxy=proxy)
-    #获得安全网站排序列表
-    for source in ["secwiki", "xuanwu",'github']: #
-       get_domain_name(so, source=source, topn=50)
+    # 获得安全网站排序列表
+    for source in ["secwiki", "xuanwu"]:  #
+        get_domain_name(so, source=source, topn=50)

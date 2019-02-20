@@ -20,6 +20,7 @@ from mills import get_github_info
 from mills import get_twitter_info
 from mills import d2sql
 from mills import strip_n
+from mills import get_title
 
 def scrap_item(i=1):
     """
@@ -138,6 +139,27 @@ def parse_item(html_hd,so=None,proxy=None):
             root_domain = ext.domain + "." + ext.suffix
 
             title = strip_n(title)
+            domain_name = ""
+            try:
+                domain_name = get_title(domain)
+            except Exception as e:
+                logging.error("[get_domain_name]: %s %s" %(domain_name,str(e)))
+            if domain_name:
+
+                domain_name = re.sub('\x22', '', domain_name)
+                domain_name = re.sub('\x27', '', domain_name)
+                update_sql = "update {table} set domain_name='{title}' where domain='{domain}';".format(
+                    table="secwiki_detail",
+                    title=domain_name,
+                    domain=domain
+                )
+                try:
+                    so.execute(update_sql)
+                    print update_sql
+                except Exception as e:
+                    logging.error("[update_sql]: %s str(%s)" % (update_sql, str(e)))
+
+
             sql = ""
 
             if url.find("://twitter.com") != -1:
