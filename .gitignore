@@ -3,7 +3,8 @@
 *.pyc
 */*.pyc
 nlp_analysis.py
-data/
-!data/img/*
-!data/img/*/*
+data/*
+data/*/*
 !data/scrap.db
+!data/img/
+!data/github_lang.txt
