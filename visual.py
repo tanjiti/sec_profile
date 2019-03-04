@@ -177,7 +177,23 @@ def main_pie():
 
     draw_pie(so, tag="language", top=25)
 
+def draw_table(so,source="secwiki",top=10):
+    """
 
+    :param so:
+    :param source:
+    :param top:
+    :return:
+    """
+
+def main_table():
+    """
+
+    :return:
+    """
+    so = SQLiteOper("data/scrap.db")
+    for source in ["secwiki","xuanwu"]:
+        draw_table(so,source=source,top=10)
 
 if __name__ == "__main__":
     """
