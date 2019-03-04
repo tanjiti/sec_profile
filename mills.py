@@ -574,7 +574,7 @@ def get_request(url,
                     retry = 0
             else:
 
-                logging.error("[REQUEST]: retry:%d %s %s" % (retry, url, e))
+                logging.info("[REQUEST]: retry:%d %s %s" % (retry, url, e))
 
                 retry = retry - 1
 
