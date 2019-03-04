@@ -185,6 +185,7 @@ def draw_table(so,source="secwiki",top=10):
     :param top:
     :return:
     """
+    pass
 
 def main_table():
     """

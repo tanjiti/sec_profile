@@ -30,9 +30,9 @@ Vim	25
 HCL	19
 Kotlin	18
 Emacs	18
+OCaml	18
 Haskell	18
 Vue	17
-OCaml	17
 Groovy	17
 CoffeeScript	15
 Elixir	13
@@ -44,10 +44,10 @@ Bro	12
 YARA	10
 Verilog	9
 ActionScript	9
-Objective-C++	8
 Smarty	8
 MATLAB	8
 Puppet	8
+Objective-C++	7
 Logos	7
 Roff	7
 Smali	7

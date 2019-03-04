@@ -69,7 +69,8 @@ def scraw(so, proxy=None, delta=3):
                                     str(get_title(overview["domain"], proxy=proxy))
 
                                 if overview:
-                                    sql = d2sql(overview, table="secwiki_today_detail")
+                                    sql = d2sql(overview, table="secwiki_today_detail",
+                                                action="INSERT OR IGNORE ")
 
                                     if sql:
                                         try:

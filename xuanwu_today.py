@@ -17,15 +17,18 @@ from mills import SQLiteOper
 from mills import get_github_info
 from mills import get_weixin_info
 from mills import get_twitter_info
+from mills import get_special_date
 
 
-def scraw(so, proxy=None):
+def scraw(so, proxy=None, delta=2):
     """
 
     :param so:
     :param proxy:
     :return:
     """
+    ts_list = [get_special_date(delta, format="%Y%m%d") for delta in range(0, 0 - delta, -1)]
+
     url = "https://sec.today/pulses/"
     r = get_request(url)
     if r:
@@ -75,8 +78,10 @@ def scraw(so, proxy=None):
                                 if domain_ts:
                                     domain, ts = domain_ts
                                     overview["domain"] = domain
-                                    overview["domain_name"] = str(get_title(overview["domain"], proxy=proxy))
                                     overview["ts"] = ts
+                                    if ts not in ts_list:
+                                        continue
+                                    overview["domain_name"] = str(get_title(overview["domain"], proxy=proxy))
 
                         card_text_chinese = row.find("p", class_="card-text my-1")
                         if card_text_chinese:
@@ -84,7 +89,7 @@ def scraw(so, proxy=None):
                             overview["title"] = card_text_chinese
 
                         if overview:
-                            sql = d2sql(overview, table="xuanwu_today_detail")
+                            sql = d2sql(overview, table="xuanwu_today_detail", action="INSERT OR IGNORE ")
 
                             if sql:
                                 try:
@@ -131,12 +136,10 @@ def scraw(so, proxy=None):
 
                             if sql:
                                 try:
-                                    #print sql
+                                    # print sql
                                     so.execute(sql)
                                 except Exception as e:
                                     logging.error("[sql]: %s %s" % (sql, str(e)))
-
-
 
 
 if __name__ == "__main__":
