@@ -6,5 +6,6 @@ nlp_analysis.py
 data/*
 data/*/*
 !data/scrap.db
-!data/img/
+!data/img/*
+!data/img/*/*
 !data/github_lang.txt
