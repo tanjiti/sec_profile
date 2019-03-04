@@ -541,6 +541,7 @@ def get_request(url,
                     ret = True
                 else:
                     ret = r
+
                 retry = 0
 
             elif r.reason == "Not Found":
@@ -555,9 +556,27 @@ def get_request(url,
                 retry = retry - 1
 
         except Exception as e:
-            logging.error("[REQUEST]: retry:%d %s %s" % (retry, url, str(e)))
 
-            retry = retry - 1
+
+            e = str(e)
+
+
+            if  is_get_real_url:
+                ret = parse_request_error_str(e)
+                if ret:
+
+                    content = "<html><head><title>%s</title></head>" \
+                              "<body>%s</body></html>" % (ret, url)
+
+                    with codecs.open(fname, mode='wb') as fw:
+                        fw.write(content)
+                    ret = True
+                    retry = 0
+            else:
+
+                logging.error("[REQUEST]: retry:%d %s %s" % (retry, url, e))
+
+                retry = retry - 1
 
     return ret
 
@@ -809,6 +828,26 @@ def parse_sec_today_url(st):
         return domain, ts
 
 
+def parse_request_error_str(st):
+    """
+
+    :param st:
+    :return:
+    """
+
+    pattern = re.compile(
+        r"HTTPS?ConnectionPool\(host='([^\x22]+)', port=(\d+)\): Max retries exceeded with url: (/\S*) \(")
+    match = re.match(pattern, st)
+    if match:
+        host, port, url = match.groups()
+        port = str(port)
+        if port == 443:
+            ret = "https://%s%s" % (host, url)
+        else:
+            ret = "http://%s%s" % (host, url)
+        return ret
+
+
 if __name__ == "__main__":
     """
     """
@@ -820,10 +859,17 @@ if __name__ == "__main__":
     # print json.dumps(ret, indent=4)
     # print d2sql(ret)
     url = "https://sec.today/pulses/15647d0b-ad62-4c24-82ef-6bb4b23fd5f3/"
-    # print get_redirect_url(url,issql=False)
     st = "github.com • 1 day ago Tools"
 
     # st="pcsxcetrasupport3.wordpress.com • 1 day, 8 hours ago MalwareAnalysis"
     st = "source_day helpx.adobe.com • 2 days, 9 hours ago Popular Software"
     st = "d4stiny.github.io • 7 hours ago SecurityProduct"
-    parse_sec_today_url(st)
+    # parse_sec_today_url(st)
+    st = "HTTPSConnectionPool(host='gist.github.com', port=443): Max retries exceeded with url: /allyshka/f159c0b43f1374f87f2c3817d6401fd6 (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x109da00d0>, 'Connection to gist.github.com timed out. (connect timeout=10)'))"
+
+    # st="HTTPConnectionPool(host='speakerdeck.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x10a93fc50>, 'Connection to speakerdeck.com timed out. (connect timeout=10)'))"
+
+    url = "https://sec.today/pulses/faee0dc9-8eb5-4ed5-a054-9f96390965c5/"
+
+    print get_redirect_url(url,issql=False)
+    #print parse_request_error_str(st)

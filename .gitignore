@@ -4,4 +4,6 @@
 */*.pyc
 nlp_analysis.py
 data/*
+!data/img/*
+!data/secwiki/*
 !data/scrap.db
