@@ -12,17 +12,17 @@
 
 ### secwiki信息源TOPN
 
-![2014-信息源占比-secwiki](data/img/domain/2014-信息源占比-secwiki.jpeg)
+![2014-信息源占比-secwiki](data/img/domain/2014-信息源占比-secwiki.png)
 
-![2015-信息源占比-secwiki](data/img/domain/2015-信息源占比-secwiki.jpeg)
+![2015-信息源占比-secwiki](data/img/domain/2015-信息源占比-secwiki.png)
 
-![2016-信息源占比-secwiki](data/img/domain/2016-信息源占比-secwiki.jpeg)
+![2016-信息源占比-secwiki](data/img/domain/2016-信息源占比-secwiki.png)
 
-![2017-信息源占比-secwiki](data/img/domain/2017-信息源占比-secwiki.jpeg)
+![2017-信息源占比-secwiki](data/img/domain/2017-信息源占比-secwiki.png)
 
-![2018-信息源占比-secwiki](data/img/domain/2018-信息源占比-secwiki.jpeg)
+![2018-信息源占比-secwiki](data/img/domain/2018-信息源占比-secwiki.png)
 
-![2019-信息源占比-secwiki](data/img/domain/2019-信息源占比-secwiki.jpeg)
+![2019-信息源占比-secwiki](data/img/domain/2019-信息源占比-secwiki.png)
 
 > 2014, 国内安全媒体三巨头乌云，freebuf与91ri，博客形式媒体达到顶峰，论坛式媒体开始没落 
 
