@@ -258,7 +258,7 @@ def parse_item(fname, so=None, proxy=None):
                                         if d:
                                             sql = d2sql(d, table="twitter")
 
-                                    elif url.find("//weixin.qq.com") != -1:
+                                    elif url.find("weixin.qq.com") != -1:
                                         d = get_weixin_info(url, cur_day, tag)
 
                                         if d:

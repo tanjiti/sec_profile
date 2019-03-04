@@ -42,13 +42,13 @@
 
 ### xuanwu信息源TOPN
 
-![2016-信息源占比-xuanwu](data/img/domain/2016-信息源占比-xuanwu.jpeg)
+![2016-信息源占比-xuanwu](data/img/domain/2016-信息源占比-xuanwu.png)
 
-![2017-信息源占比-xuanwu](data/img/domain/2017-信息源占比-xuanwu.jpeg)
+![2017-信息源占比-xuanwu](data/img/domain/2017-信息源占比-xuanwu.png)
 
-![2018-信息源占比-xuanwu](data/img/domain/2018-信息源占比-xuanwu.jpeg)
+![2018-信息源占比-xuanwu](data/img/domain/2018-信息源占比-xuanwu.png)
 
-![2019-信息源占比-xuanwu](data/img/domain/2019-信息源占比-xuanwu.jpeg)
+![2019-信息源占比-xuanwu](data/img/domain/2019-信息源占比-xuanwu.png)
 
 
 > 如果说secwiki走的平民资讯风(风雨无阻日更)，xuanwu走的就是个人fan qiang 挖洞风（上班更）
@@ -59,7 +59,7 @@
 
 > 2018, twitter虽然一直名列前三（但比例一直在下降，由11.03到7.79到3.66), 漏洞获取源exploit-db的关注比例扩大，开始增加对论文网站arxiv.org与威胁情报厂商talosintelligence的关注
 
-
+> 2019, 2曰14日后，xuanwu实验室放弃了静态博客，改用Feed流的方式
 
 
 
@@ -195,7 +195,7 @@ group by twitter_account order by c desc`
 
 ### 安全人员最爱用的编程语言
 
-![语言占比](data/img/language/最喜欢语言占比.jpeg)
+![语言占比](data/img/language/最喜欢语言占比.png)
 
 > python 毫无悬念的位居榜首，go 正在大规模流行中，PowerShell windows渗透最爱，Rust号称最安全的语言，JavaJupyter、Scala由于数据分析而崛起
 

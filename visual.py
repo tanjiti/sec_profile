@@ -22,12 +22,20 @@ def info_source(so, table="secwiki_detail", year="", top=100, tag="domain"):
     :param tag: domain 或者 tag
     :return:
     """
+    if table == "xuanwu_detail" and int(year) >= 2019:
+        table = "xuanwu_today_detail"
+
+    if table == "secwiki_detail" and int(year) >= 2019 and tag=="domain":
+        table = "secwiki_today_detail"
+
     od = OrderedDict()
-    sql = 'select {tag},count(path) as c ' \
+    sql = 'select {tag},count(url) as c ' \
           'from {table} ' \
           'where ts like "%{year}%" ' \
           'group by {tag} ' \
           'order by c desc '.format(table=table, year=year, tag=tag)
+
+
 
     result = so.query(sql)
     for item in result:
@@ -45,6 +53,7 @@ def info_source(so, table="secwiki_detail", year="", top=100, tag="domain"):
         else:
             break
         i = i + 1
+
     return od_perct
 
 
@@ -94,12 +103,14 @@ def draw_pie(so, source="secwiki", year="", tag="domain", top=10):
     :return:
     """
     if tag != "language":
+
         ods = info_source(so, table="{source}_detail".format(source=source),
                           top=top,
                           year=str(year),
                           tag=tag)
     else:
         ods = statistict_github_language(so, topn=top)
+
 
     labels = []
     values = []
@@ -138,12 +149,12 @@ def draw_pie(so, source="secwiki", year="", tag="domain", top=10):
     else:
         return
 
-    plt.title(title_pie)
+    plt.title(unicode(title_pie))
 
     fdir = path("data/img/%s" % tag)
     if not os.path.exists(fdir):
         os.mkdir(fdir)
-    fpath = path(fdir, "%s.jpeg" % title_pie)
+    fpath = path(fdir, "%s.png" % title_pie)
 
     plt.legend(labels, loc='upper right', fontsize=5)
 
@@ -152,8 +163,10 @@ def draw_pie(so, source="secwiki", year="", tag="domain", top=10):
     plt.close()
 
 
-if __name__ == "__main__":
+def main_pie():
     """
+
+    :return:
     """
     so = SQLiteOper("data/scrap.db")
 
@@ -163,3 +176,11 @@ if __name__ == "__main__":
                 draw_pie(so, source=source, year=str(year), tag=tag, top=10)
 
     draw_pie(so, tag="language", top=25)
+
+
+
+if __name__ == "__main__":
+    """
+    """
+    main_pie()
+
