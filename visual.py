@@ -25,7 +25,7 @@ def info_source(so, table="secwiki_detail", year="", top=100, tag="domain"):
     if table == "xuanwu_detail" and int(year) >= 2019:
         table = "xuanwu_today_detail"
 
-    if table == "secwiki_detail" and int(year) >= 2019 and tag=="domain":
+    if table == "secwiki_detail" and int(year) >= 2019 and tag == "domain":
         table = "secwiki_today_detail"
 
     od = OrderedDict()
@@ -34,8 +34,6 @@ def info_source(so, table="secwiki_detail", year="", top=100, tag="domain"):
           'where ts like "%{year}%" ' \
           'group by {tag} ' \
           'order by c desc '.format(table=table, year=year, tag=tag)
-
-
 
     result = so.query(sql)
     for item in result:
@@ -111,7 +109,6 @@ def draw_pie(so, source="secwiki", year="", tag="domain", top=10):
     else:
         ods = statistict_github_language(so, topn=top)
 
-
     labels = []
     values = []
     if not ods:
@@ -123,44 +120,50 @@ def draw_pie(so, source="secwiki", year="", tag="domain", top=10):
     labels.append("other")
     values.append(1 - sum(values))
 
-    explode = [0.1 for _ in range(0, top + 1)]
+    explode = [0.1 for _ in range(0, len(labels))]
     explode[-1] = 0  # 凸显
 
-    plt.rcParams['font.sans-serif'] = ['SimHei']  # 解决中文乱码
-    plt.rcParams['axes.unicode_minus'] = False  # 坐标轴负号的处理
-    plt.axes(aspect='equal')  # 设置x，y轴刻度一致，这样饼图才能是圆的
-    plt.pie(values,  # 指定绘图的数据
-            explode=explode,  # 指定饼图某些部分的突出显示，即呈现爆炸式
-            labels=labels,  # 为饼图添加标签说明，类似于图例说明
-            labeldistance=1.2,  # 设置各扇形标签（图例）与圆心的距离；
-            pctdistance=0.6,  # ：设置百分比标签与圆心的距离；
-            startangle=90,  # 设置饼图的初始摆放角度；
-            shadow=True,  # 是否添加饼图的阴影效果；
-            autopct='%3.2f%%')
+    try:
+        plt.rcParams['font.sans-serif'] = ['SimHei']  # 解决中文乱码
+        plt.rcParams['axes.unicode_minus'] = False  # 坐标轴负号的处理
+        plt.axes(aspect='equal')  # 设置x，y轴刻度一致，这样饼图才能是圆的
+        plt.pie(values,  # 指定绘图的数据
+                explode=explode,  # 指定饼图某些部分的突出显示，即呈现爆炸式
+                labels=labels,  # 为饼图添加标签说明，类似于图例说明
+                labeldistance=1.2,  # 设置各扇形标签（图例）与圆心的距离；
+                pctdistance=0.6,  # ：设置百分比标签与圆心的距离；
+                startangle=90,  # 设置饼图的初始摆放角度；
+                shadow=True,  # 是否添加饼图的阴影效果；
+                autopct='%3.2f%%')
 
-    if tag == "domain":
-        title_pie = "%s-信息源占比-%s" % (year, source)
-    elif tag == "tag":
-        title_pie = "%s-信息类型占比-%s" % (year, source)
-    elif tag == "language":
+        if tag == "domain":
+            title_pie = "%s-信息源占比-%s" % (year, source)
+        elif tag == "tag":
+            title_pie = "%s-信息类型占比-%s" % (year, source)
+        elif tag == "language":
 
-        title_pie = "最喜欢语言占比"
+            title_pie = "最喜欢语言占比"
 
-    else:
-        return
+        else:
+            return
 
-    plt.title(unicode(title_pie))
+        plt.title(unicode(title_pie))
 
-    fdir = path("data/img/%s" % tag)
-    if not os.path.exists(fdir):
-        os.mkdir(fdir)
-    fpath = path(fdir, "%s.png" % title_pie)
+        fdir = path("data/img/%s" % tag)
+        if not os.path.exists(fdir):
+            os.mkdir(fdir)
+        fpath = path(fdir, "%s.png" % title_pie)
 
-    plt.legend(labels, loc='upper right', fontsize=5)
+        plt.legend(labels, loc='upper right', fontsize=5)
 
-    plt.savefig(fpath)
+        plt.savefig(fpath)
 
-    plt.close()
+        plt.close()
+    except Exception as e:
+        print source, year, tag
+        print len(labels), labels
+        print len(values), values
+        print len(explode), explode
 
 
 def main_pie():
@@ -177,7 +180,8 @@ def main_pie():
 
     draw_pie(so, tag="language", top=25)
 
-def draw_table(so,source="secwiki",top=10):
+
+def draw_table(so, source="weixin", top=10):
     """
 
     :param so:
@@ -185,7 +189,19 @@ def draw_table(so,source="secwiki",top=10):
     :param top:
     :return:
     """
-    pass
+    if source == "weixin":
+        sql = "select nickname_english,weixin_no,count(url) as c,url from weixin where ts like '2019%' and nickname_english != '' group by nickname_english order by c desc"
+    else:
+        return
+
+    try:
+        ret = so.query(sql)
+    except Exception as e:
+        print sql, str(e)
+        return
+    for nickname_english, weixin_no, count, url in ret:
+        print nickname_english, weixin_no, url
+
 
 def main_table():
     """
@@ -193,11 +209,10 @@ def main_table():
     :return:
     """
     so = SQLiteOper("data/scrap.db")
-    for source in ["secwiki","xuanwu"]:
-        draw_table(so,source=source,top=10)
+    draw_table(so, top=10)
+
 
 if __name__ == "__main__":
     """
     """
-    main_pie()
-
+    main_table()

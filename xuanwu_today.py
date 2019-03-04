@@ -41,6 +41,7 @@ def scraw(so, proxy=None, delta=2):
         if soup:
             rows = soup.find_all("div", class_='row')
 
+
             if rows:
 
                 for row in rows:
