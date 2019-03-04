@@ -156,17 +156,17 @@ group by twitter_account order by c desc`
 
 ### secwiki技术TOPN
 
-![2014-信息类型占比-secwiki](data/img/tag/2014-信息类型占比-secwiki.jpeg)
+![2014-信息类型占比-secwiki](data/img/tag/2014-信息类型占比-secwiki.png)
 
-![2015-信息类型占比-secwiki](data/img/tag/2015-信息类型占比-secwiki.jpeg)
+![2015-信息类型占比-secwiki](data/img/tag/2015-信息类型占比-secwiki.png)
 
-![2016-信息类型占比-secwiki](data/img/tag/2016-信息类型占比-secwiki.jpeg)
+![2016-信息类型占比-secwiki](data/img/tag/2016-信息类型占比-secwiki.png)
 
-![2017-信息类型占比-secwiki](data/img/tag/2017-信息类型占比-secwiki.jpeg)
+![2017-信息类型占比-secwiki](data/img/tag/2017-信息类型占比-secwiki.png)
 
-![2018-信息类型占比-secwiki](data/img/tag/2018-信息类型占比-secwiki.jpeg)
+![2018-信息类型占比-secwiki](data/img/tag/2018-信息类型占比-secwiki.png)
 
-![2019-信息类型占比-secwiki](data/img/tag/2019-信息类型占比-secwiki.jpeg)
+![2019-信息类型占比-secwiki](data/img/tag/2019-信息类型占比-secwiki.png)
 
 > web安全、漏洞分析、恶意分析、运维安全占据技术文章的50%，挖洞渗透是安全的主旋律
 
@@ -178,13 +178,13 @@ group by twitter_account order by c desc`
 
 ### xuanwu技术TOPN
 
-![2016-信息类型占比-xuanwu](data/img/tag/2016-信息类型占比-xuanwu.jpeg)
+![2016-信息类型占比-xuanwu](data/img/tag/2016-信息类型占比-xuanwu.png)
 
-![2017-信息类型占比-xuanwu](data/img/tag/2017-信息类型占比-xuanwu.jpeg)
+![2017-信息类型占比-xuanwu](data/img/tag/2017-信息类型占比-xuanwu.png)
 
-![2018-信息类型占比-xuanwu](data/img/tag/2018-信息类型占比-xuanwu.jpeg)
+![2018-信息类型占比-xuanwu](data/img/tag/2018-信息类型占比-xuanwu.png)
 
-![2019-信息类型占比-xuanwu](data/img/tag/2019-信息类型占比-xuanwu.jpeg)
+![2019-信息类型占比-xuanwu](data/img/tag/2019-信息类型占比-xuanwu.png)
 
 > 实验室以挖洞为主，特别关注windows浏览器的漏洞 
 
