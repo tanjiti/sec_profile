@@ -3,8 +3,7 @@
 *.pyc
 */*.pyc
 nlp_analysis.py
-data/*
+data/
 !data/img/*
 !data/img/*/*
-!data/secwiki/*
 !data/scrap.db
