@@ -62,12 +62,13 @@ def strip_n(st):
     :param st:
     :return:
     """
-    if st is None:
+    if not st:
         return st
+
     st = re.sub(r'\n', ' ', st)
     st = re.sub(r'\s+', ' ', st)
-    st = re.sub('\x22', '', st)
-    st = re.sub('\x27', '', st)
+    st = re.sub(r'\x22', '', st)
+    st = re.sub(r'\x27', '', st)
 
     st = st.strip()
     return st
@@ -348,19 +349,18 @@ def get_github_info(url="", title="", ts="", tag="",
             repo_language = set()
 
             # repo
-            for aa in soup.find_all('span',class_=re.compile('repo-language-color')):
+            for aa in soup.find_all('span', class_=re.compile('repo-language-color')):
                 aa_p = aa.parent
                 if aa_p:
                     aa_p = strip_n(aa_p.get_text())
                     if aa_p:
-                        p = re.split(r'\s+',aa_p)
+                        p = re.split(r'\s+', aa_p)
                         if len(p) > 0:
                             repo_language.add(p[0])
             if repo_language:
                 repo_language = ",".join(repo_language)
             else:
                 repo_language = ""
-
 
             overview["repo_lang"] = repo_language
 
@@ -414,13 +414,12 @@ def get_github_info(url="", title="", ts="", tag="",
                     if aa:
                         parts = re.split("\s+", aa)
 
-
                         if len(parts) == 2:
                             t = re.sub(',', '.', parts[1])
                             p = re.match('(\d+\.*\d*)([km]*)', t)
                             if p:
                                 n, d = p.groups()
-                                #print n,d,parts[0]
+                                # print n,d,parts[0]
 
                                 if d == 'k':
                                     t = int(float(n) * 1000)
@@ -528,14 +527,14 @@ def get_request(url,
 
                         # exists redirect
                         if is_get_real_url:
-                            content = "<html><head><title>%s</title></head></html>" % r.url
+                            content = "<html><head><title>%s</title></head>" \
+                                      "<body>%s</body></html>" % (r.url, url)
                         else:
                             content = r.content
 
 
                     else:
                         content = r.content
-
 
                     with codecs.open(fname, mode='wb') as fw:
                         fw.write(content)
@@ -572,7 +571,8 @@ def get_title(url, proxy=None, retry=1, timeout=10):
     :param timeout:
     :return:
     """
-
+    if not url:
+        return
     if not url.startswith("http"):
         url_all = "http://%s" % url
     else:
@@ -695,7 +695,8 @@ def get_redirect_url(url,
                      isnew=False,
                      retry=1,
                      timeout=10,
-                     source="secwiki"):
+                     source="secwiki",
+                     issql=True):
     """
 
     :param urls:
@@ -758,7 +759,11 @@ def get_redirect_url(url,
                         source=source
 
                     )
-                    return sql
+                    if issql:
+
+                        return sql
+                    else:
+                        return {"domain": domain, "url": title}
 
 
 def d2sql(d, table="github", action="replace"):
@@ -782,16 +787,43 @@ def d2sql(d, table="github", action="replace"):
     return sql
 
 
+def parse_sec_today_url(st):
+    """
+
+    :param st:
+    :return:
+    """
+    if not st:
+        return
+
+    pattern = re.compile("^(\S+)\D+(\d+)(.+ago)")
+    match = re.match(pattern, st)
+    if match:
+        domain, delta, day_detail = match.groups()
+        if not day_detail.find("day") != -1:
+            delta = 0
+        else:
+            delta = 0 - int(delta)
+        ts = get_special_date(delta=delta)
+
+        return domain, ts
+
+
 if __name__ == "__main__":
     """
     """
     import json
 
-
     url = "https://github.com/FuzzySecurity"
-    ret = get_github_info(url, title="fefe",isnew=True)
+    ret = get_github_info(url, title="fefe", isnew=True)
 
-    print json.dumps(ret, indent=4)
-    print d2sql(ret)
+    # print json.dumps(ret, indent=4)
+    # print d2sql(ret)
+    url = "https://sec.today/pulses/15647d0b-ad62-4c24-82ef-6bb4b23fd5f3/"
+    # print get_redirect_url(url,issql=False)
+    st = "github.com • 1 day ago Tools"
 
-    #print get_redirect_url(url)
+    # st="pcsxcetrasupport3.wordpress.com • 1 day, 8 hours ago MalwareAnalysis"
+    st = "source_day helpx.adobe.com • 2 days, 9 hours ago Popular Software"
+    st = "d4stiny.github.io • 7 hours ago SecurityProduct"
+    parse_sec_today_url(st)

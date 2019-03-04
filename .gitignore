@@ -3,3 +3,5 @@
 *.pyc
 */*.pyc
 nlp_analysis.py
+data/*
+!data/scrap.db
