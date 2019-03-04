@@ -552,7 +552,7 @@ def get_request(url,
 
             else:
 
-                logging.warning("[url]: retry:%d %s, %s" % (retry, url, r.reason))
+                logging.info("[url]: retry:%d %s, %s" % (retry, url, r.reason))
                 retry = retry - 1
 
         except Exception as e:

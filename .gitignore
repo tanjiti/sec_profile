@@ -7,3 +7,6 @@ nlp_analysis.py
 !data/img/*
 !data/img/*/*
 !data/github_lang.txt
+data/githubcom/
+data/sec_url/
+data/weixin/
