@@ -25,7 +25,7 @@ def info_source(so, table="secwiki_detail", year="", top=100, tag="domain"):
     if table == "xuanwu_detail" and int(year) >= 2019:
         table = "xuanwu_today_detail"
 
-    if table == "secwiki_detail" and int(year) >= 2019 and tag == "domain":
+    if table == "secwiki_detail" and int(year) >= 2019:
         table = "secwiki_today_detail"
 
     od = OrderedDict()
@@ -125,7 +125,7 @@ def draw_pie(so, source="secwiki", year="", tag="domain", top=10):
 
     try:
         plt.rcParams['font.sans-serif'] = ['SimHei']  # 解决中文乱码
-        plt.rcParams['axes.unicode_minus'] = False  # 坐标轴负号的处理
+        #plt.rcParams['axes.unicode_minus'] = False  # 坐标轴负号的处理
         plt.axes(aspect='equal')  # 设置x，y轴刻度一致，这样饼图才能是圆的
         plt.pie(values,  # 指定绘图的数据
                 explode=explode,  # 指定饼图某些部分的突出显示，即呈现爆炸式

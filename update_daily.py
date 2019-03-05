@@ -18,10 +18,10 @@ def main():
     """
     proxy = None
     so = SQLiteOper("data/scrap.db")
-    # secwiki_scraw(so, proxy=proxy, delta=2)
-    # xuanwu_scraw(so, proxy=proxy, delta=2)
+    secwiki_scraw(so, proxy=proxy, delta=2)
+    xuanwu_scraw(so, proxy=proxy, delta=2)
 
 
 if __name__ == "__main__":
-    main()
+    #main()
     visual.main_pie()
