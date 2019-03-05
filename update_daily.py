@@ -23,5 +23,6 @@ def main():
 
 
 if __name__ == "__main__":
-    #main()
+    main()
     visual.main_pie()
+    visual.main_table()

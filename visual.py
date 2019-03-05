@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 
 from mills import SQLiteOper
 from mills import path
+from mills import get_special_date
 
 
 def info_source(so, table="secwiki_detail", year="", top=100, tag="domain"):
@@ -125,7 +126,7 @@ def draw_pie(so, source="secwiki", year="", tag="domain", top=10):
 
     try:
         plt.rcParams['font.sans-serif'] = ['SimHei']  # 解决中文乱码
-        #plt.rcParams['axes.unicode_minus'] = False  # 坐标轴负号的处理
+        # plt.rcParams['axes.unicode_minus'] = False  # 坐标轴负号的处理
         plt.axes(aspect='equal')  # 设置x，y轴刻度一致，这样饼图才能是圆的
         plt.pie(values,  # 指定绘图的数据
                 explode=explode,  # 指定饼图某些部分的突出显示，即呈现爆炸式
@@ -181,7 +182,7 @@ def main_pie():
     draw_pie(so, tag="language", top=25)
 
 
-def draw_table(so, source="weixin", top=10):
+def draw_table(so, source="weixin", top=100, year="2019"):
     """
 
     :param so:
@@ -190,17 +191,39 @@ def draw_table(so, source="weixin", top=10):
     :return:
     """
     if source == "weixin":
-        sql = "select nickname_english,weixin_no,count(url) as c,url from weixin where ts like '2019%' and nickname_english != '' group by nickname_english order by c desc"
+        sql = "select nickname_english,weixin_no,url,title,count(*) as c from weixin where ts like '{year}%' and nickname_english != '' group by nickname_english order by c desc limit {top} "
+        header = ["nickname_english", "weixin_no", "url", "title"]
+
+    elif source == "github_org":
+        sql = "select github_id,url,title,org_url,org_profile,org_geo," \
+              "org_repositories,org_people,org_projects," \
+              "repo_lang,repo_star,repo_forks," \
+              "count(*) as c from github  where github_type=1 and ts like '{year}%' group by github_id order by repo_forks desc,org_repositories desc,org_projects desc limit {top} "
+        header = ["github_id", "url", "title", "org_url", "org_profile", "org_geo", "org_repositories",
+                  "org_people", "org_projects", "repo_lang", "repo_star", "repo_forks"]
+
+    elif source == "github_private":
+        sql = "select github_id,url,title,p_url,p_profile,p_loc,p_company," \
+              "p_repositories,p_projects," \
+              "p_stars,p_followers,p_following," \
+              "repo_lang,repo_star,repo_forks ," \
+              "count(*) as c from github  where github_type=0 and ts like '{year}%' group by github_id order by p_followers desc limit {top}"
+        header = ["github_id", "url", "title", "p_url", "p_profile", "p_loc", "p_company", "p_repositories",
+                  "p_projects", "p_stars", "p_followers", "p_following", "repo_lang", "repo_star", "repo_forks "]
     else:
         return
 
     try:
-        ret = so.query(sql)
+        ret = so.query(sql.format(top=top, year=year))
     except Exception as e:
         print sql, str(e)
         return
-    for nickname_english, weixin_no, count, url in ret:
-        print nickname_english, weixin_no, url
+
+    print "\t".join(header)
+    for r in ret:
+        st = "\t".join([str(_) for _ in r[0:-1]])
+        print st
+    print "\n"
 
 
 def main_table():
@@ -209,7 +232,11 @@ def main_table():
     :return:
     """
     so = SQLiteOper("data/scrap.db")
-    draw_table(so, top=10)
+    sources = ["weixin", "github_org", "github_private"]
+
+    year = get_special_date(delta=0,format="%Y%m")
+    for source in sources:
+        draw_table(so, top=100, source=source,year=year)
 
 
 if __name__ == "__main__":
