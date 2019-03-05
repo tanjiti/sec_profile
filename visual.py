@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import os
 import re
+import codecs
 import sys
 
 reload(sys)
@@ -56,14 +57,17 @@ def info_source(so, table="secwiki_detail", year="", top=100, tag="domain"):
     return od_perct
 
 
-def statistict_github_language(so, topn=132, reverse=True):
+def statistict_github_language(so, topn=132, reverse=True, year=''):
     """
 
     :param so:
     :return:
     """
+
     lang_dict = {}
-    sql = "select distinct repo_lang from github where repo_lang is not null or repo_lang != ''"
+    sql = "select distinct repo_lang from github where ts like '{year}%' and (repo_lang is not null or repo_lang != '')".format(
+        year=year)
+    # print sql
     result = so.query(sql)
     if result:
         for item in result:
@@ -88,7 +92,7 @@ def statistict_github_language(so, topn=132, reverse=True):
         else:
             break
         i = i + 1
-    fname = path("data", "github_lang.txt")
+    fname = path("data", "%s_github_lang.txt" % year)
     with open(fname, mode='wb') as fw:
         for k, v in vd.items():
             fw.write("%s\t%s%s" % (k, v, os.linesep))
@@ -108,7 +112,7 @@ def draw_pie(so, source="secwiki", year="", tag="domain", top=10):
                           year=str(year),
                           tag=tag)
     else:
-        ods = statistict_github_language(so, topn=top)
+        ods = statistict_github_language(so, topn=top, year=year)
 
     labels = []
     values = []
@@ -143,7 +147,7 @@ def draw_pie(so, source="secwiki", year="", tag="domain", top=10):
             title_pie = "%s-信息类型占比-%s" % (year, source)
         elif tag == "language":
 
-            title_pie = "最喜欢语言占比"
+            title_pie = "%s-最喜欢语言占比" % (year)
 
         else:
             return
@@ -167,7 +171,7 @@ def draw_pie(so, source="secwiki", year="", tag="domain", top=10):
         print len(explode), explode
 
 
-def main_pie():
+def main_pie(year):
     """
 
     :return:
@@ -176,10 +180,9 @@ def main_pie():
 
     for tag in ["domain", "tag"]:
         for source in ["secwiki", "xuanwu"]:
-            for year in [2014, 2015, 2016, 2017, 2018, 2019]:
-                draw_pie(so, source=source, year=str(year), tag=tag, top=10)
+            draw_pie(so, source=source, year=str(year), tag=tag, top=10)
 
-    draw_pie(so, tag="language", top=25)
+    draw_pie(so, tag="language", top=25, year=year)
 
 
 def draw_table(so, source="weixin", top=100, year="2019"):
@@ -219,27 +222,115 @@ def draw_table(so, source="weixin", top=100, year="2019"):
         print sql, str(e)
         return
 
-    print "\t".join(header)
+    rets = []
+    rets.append(header)
+
     for r in ret:
-        st = "\t".join([str(_) for _ in r[0:-1]])
-        print st
-    print "\n"
+        rets.append(list(r))
+    return rets
 
 
-def main_table():
+def markdown_table(rets):
+    """
+
+    :param rets:
+    :return:
+    """
+    markdown_rets = []
+    if not rets:
+        return
+
+    header = rets[0]
+    header_str = " | ".join(header)
+    header_str = "| %s| " % header_str
+    header_sep = ["---" for _ in rets[0]]
+    header_sep_str = " | ".join(header_sep)
+    header_sep_str = "| %s| " % header_sep_str
+
+    markdown_rets.append(header_str)
+    markdown_rets.append(header_sep_str)
+
+    for ret in rets[1:]:
+        column_str = " | ".join([str(_) for _ in ret])
+        column_str = "| %s| " % column_str
+        markdown_rets.append(column_str)
+
+    return markdown_rets
+
+
+def draw_readme(fpath=None):
     """
 
     :return:
     """
+
+    if fpath is None:
+        fpath = "README.md"
+
+    tables_rets = []
     so = SQLiteOper("data/scrap.db")
+    year = get_special_date(delta=0, format="%Y%m")
+    # update
+    main_pie(year)
+
+    # update weixin,github
     sources = ["weixin", "github_org", "github_private"]
 
-    year = get_special_date(delta=0,format="%Y%m")
+    d = {
+        "weixin": "微信公众号",
+        "github_org": "组织github账号",
+        "github_private": "私人github账号"
+    }
+
     for source in sources:
-        draw_table(so, top=100, source=source,year=year)
+        rets = draw_table(so, top=100, source=source, year=year)
+        if rets:
+
+            markdown_rets = markdown_table(rets)
+            if markdown_rets:
+                tables_rets.append("# %s 推荐" % d.get(source, source))
+                for markdown_ret in markdown_rets:
+                    tables_rets.append(markdown_ret)
+                tables_rets.append(os.linesep)
+
+    with codecs.open(fpath, mode='wb') as fr:
+        fr.write("# [数据年报](README_YEAR.md)")
+        fr.write(os.linesep)
+        fr.write('# %s 信息源与信息类型占比' % year)
+        fr.write(os.linesep)
+        fr.write('![{year}-信息源占比-secwiki](data/img/domain/{year}-信息源占比-secwiki.png)'.
+                 format(year=year))
+        fr.write(os.linesep)
+        fr.write(os.linesep)
+        fr.write('![{year}-信息源占比-xuanwu](data/img/domain/{year}-信息源占比-xuanwu.png)'.
+                 format(year=year))
+        fr.write(os.linesep)
+        fr.write(os.linesep)
+        fr.write('![{year}-信息类型占比-secwiki](data/img/tag/{year}-信息类型占比-secwiki.png)'.
+                 format(year=year))
+        fr.write(os.linesep)
+        fr.write(os.linesep)
+        fr.write('![{year}-信息类型占比-xuanwu](data/img/tag/{year}-信息类型占比-xuanwu.png)'.
+                 format(year=year))
+        fr.write(os.linesep)
+        fr.write(os.linesep)
+
+        fr.write('![{year}-最喜欢语言占比](data/img/language/{year}-最喜欢语言占比.png)'.format(year=year))
+        fr.write(os.linesep)
+        fr.write(os.linesep)
+
+        st = os.linesep.join(tables_rets)
+        fr.write(st)
+        fr.write(os.linesep)
+        fr.write(os.linesep)
+
+        fr.write('# 日更新程序')
+        fr.write(os.linesep)
+        fr.write('`python update_daily.py`')
 
 
 if __name__ == "__main__":
     """
     """
-    main_table()
+    fpath = "README.md"
+    draw_readme(fpath)

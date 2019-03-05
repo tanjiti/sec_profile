@@ -1,0 +1,16 @@
+Python	6
+JavaScript	3
+C#	3
+C	2
+Java	2
+C++	2
+Visual	2
+Objective-C	2
+PowerShell	2
+TypeScript	1
+Swift	1
+OCaml	1
+HTML	1
+Shell	1
+Batchfile	1
+Go	1

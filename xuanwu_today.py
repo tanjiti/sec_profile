@@ -66,10 +66,14 @@ def scraw(so, proxy=None, delta=2):
 
                         card_text = row.find("div", class_="card-text")
                         if card_text:
-                            card_text_type = card_text.find("span", class_="badge badge-light")
-                            if card_text_type:
-                                card_text_type = strip_n(card_text_type.get_text())
-                                overview["tag"] = card_text_type
+                            card_text_types = card_text.find_all("span", class_="pulse_tags_display")
+                            if card_text_types:
+                                tags = []
+                                for card_text_type in card_text_types:
+                                    card_text_type = strip_n(card_text_type.get_text())
+                                    if card_text_type:
+                                        tags.append(card_text_type)
+                                overview["tag"] = ",".join(tags)
 
                             card_text_source_day = card_text.find("small", class_="text-muted")
                             if card_text_source_day:
