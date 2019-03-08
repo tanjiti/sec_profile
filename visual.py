@@ -198,20 +198,20 @@ def draw_table(so, source="weixin", top=100, year="2019"):
         header = ["nickname_english", "weixin_no", "url", "title"]
 
     elif source == "github_org":
-        sql = "select github_id,url,title,org_url,org_profile,org_geo," \
+        sql = "select github_id,title,url,org_url,org_profile,org_geo," \
               "org_repositories,org_people,org_projects," \
               "repo_lang,repo_star,repo_forks," \
               "count(*) as c from github  where github_type=1 and ts like '{year}%' group by github_id order by repo_forks desc,org_repositories desc,org_projects desc limit {top} "
-        header = ["github_id", "url", "title", "org_url", "org_profile", "org_geo", "org_repositories",
+        header = ["github_id", "title", "url", "org_url", "org_profile", "org_geo", "org_repositories",
                   "org_people", "org_projects", "repo_lang", "repo_star", "repo_forks"]
 
     elif source == "github_private":
-        sql = "select github_id,url,title,p_url,p_profile,p_loc,p_company," \
+        sql = "select github_id,title,url,p_url,p_profile,p_loc,p_company," \
               "p_repositories,p_projects," \
               "p_stars,p_followers,p_following," \
               "repo_lang,repo_star,repo_forks ," \
               "count(*) as c from github  where github_type=0 and ts like '{year}%' group by github_id order by p_followers desc limit {top}"
-        header = ["github_id", "url", "title", "p_url", "p_profile", "p_loc", "p_company", "p_repositories",
+        header = ["github_id", "title", "url", "p_url", "p_profile", "p_loc", "p_company", "p_repositories",
                   "p_projects", "p_stars", "p_followers", "p_following", "repo_lang", "repo_star", "repo_forks "]
     else:
         return

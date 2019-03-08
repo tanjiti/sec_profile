@@ -10,8 +10,10 @@ from bs4 import BeautifulSoup
 from mills import get_request
 from mills import strip_n
 from mills import parse_sec_today_url
+from mills import parse_domain_tag
 from mills import d2sql
 from mills import get_title
+
 from mills import get_redirect_url
 from mills import SQLiteOper
 from mills import get_github_info
@@ -41,7 +43,6 @@ def scraw(so, proxy=None, delta=2):
         if soup:
             rows = soup.find_all("div", class_='row')
 
-
             if rows:
 
                 for row in rows:
@@ -66,7 +67,7 @@ def scraw(so, proxy=None, delta=2):
 
                         card_text = row.find("div", class_="card-text")
                         if card_text:
-                            card_text_types = card_text.find_all("span", class_="pulse_tags_display")
+                            card_text_types = card_text.find_all("span", class_="pulse-tags-display")
                             if card_text_types:
                                 tags = []
                                 for card_text_type in card_text_types:
@@ -75,18 +76,30 @@ def scraw(so, proxy=None, delta=2):
                                         tags.append(card_text_type)
                                 overview["tag"] = ",".join(tags)
 
-                            card_text_source_day = card_text.find("small", class_="text-muted")
-                            if card_text_source_day:
-                                card_text_source_day = strip_n(card_text_source_day.get_text())
+                            card_text_domain = card_text.find("small", class_="text-muted")
 
-                                domain_ts = parse_sec_today_url(card_text_source_day)
-                                if domain_ts:
-                                    domain, ts = domain_ts
+                            if card_text_domain:
+                                card_text_domain = strip_n(card_text_domain.get_text())
+                                domain = parse_domain_tag(card_text_domain)
+                                if domain:
                                     overview["domain"] = domain
-                                    overview["ts"] = ts
-                                    if ts not in ts_list:
-                                        continue
                                     overview["domain_name"] = str(get_title(overview["domain"], proxy=proxy))
+
+                        card_text_ts = row.find("cite")
+                        if card_text_ts:
+                            card_text_ts = strip_n(card_text_ts.get_text())
+                            domain_ts = parse_sec_today_url(card_text_ts)
+                            print card_text_ts, domain_ts
+
+                            if domain_ts:
+                                domain, ts = domain_ts
+                            else:
+                                ts = get_special_date()
+
+                            overview["ts"] = ts
+                            if ts not in ts_list:
+                                continue
+                                #
 
                         card_text_chinese = row.find("p", class_="card-text my-1")
                         if card_text_chinese:
@@ -98,6 +111,7 @@ def scraw(so, proxy=None, delta=2):
 
                             if sql:
                                 try:
+
                                     so.execute(sql)
                                 except Exception as e:
                                     logging.error("[sec_total_sql]: sql(%s) error(%s)" % (sql, str(e)))
@@ -113,6 +127,7 @@ def scraw(so, proxy=None, delta=2):
                                 url=overview.get("url")
                             )
                             print st
+                            # print sql
 
                             url = overview.get("url")
                             ts = overview.get("ts")

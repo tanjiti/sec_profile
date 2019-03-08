@@ -805,6 +805,19 @@ def d2sql(d, table="github", action="replace"):
     )
     return sql
 
+def parse_domain_tag(st):
+    """
+
+    :param st:
+    :return:
+    """
+    if not st:
+        return
+    pattern = re.compile("^(\S+)\s+")
+    match = re.match(pattern, st)
+    if match:
+        domain = match.groups()
+        return domain[0]
 
 def parse_sec_today_url(st):
     """
@@ -815,7 +828,7 @@ def parse_sec_today_url(st):
     if not st:
         return
 
-    pattern = re.compile("^(\S+)\D+(\d+)(.+ago)")
+    pattern = re.compile("^(\S+)\D+(\d*)(.+ago)")
     match = re.match(pattern, st)
     if match:
         domain, delta, day_detail = match.groups()
@@ -864,12 +877,14 @@ if __name__ == "__main__":
     # st="pcsxcetrasupport3.wordpress.com • 1 day, 8 hours ago MalwareAnalysis"
     st = "source_day helpx.adobe.com • 2 days, 9 hours ago Popular Software"
     st = "d4stiny.github.io • 7 hours ago SecurityProduct"
-    # parse_sec_today_url(st)
+    st = "&#8226; 1 日 之前"
+    print parse_sec_today_url(st)
+
     st = "HTTPSConnectionPool(host='gist.github.com', port=443): Max retries exceeded with url: /allyshka/f159c0b43f1374f87f2c3817d6401fd6 (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x109da00d0>, 'Connection to gist.github.com timed out. (connect timeout=10)'))"
 
     # st="HTTPConnectionPool(host='speakerdeck.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x10a93fc50>, 'Connection to speakerdeck.com timed out. (connect timeout=10)'))"
 
-    url = "https://sec.today/pulses/faee0dc9-8eb5-4ed5-a054-9f96390965c5/"
+    #url = "https://sec.today/pulses/faee0dc9-8eb5-4ed5-a054-9f96390965c5/"
 
-    print get_redirect_url(url,issql=False)
+    #print get_redirect_url(url,issql=False)
     #print parse_request_error_str(st)
