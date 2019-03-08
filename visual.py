@@ -194,7 +194,7 @@ def draw_table(so, source="weixin", top=100, year="2019"):
     :return:
     """
     if source == "weixin":
-        sql = "select nickname_english,weixin_no,url,title,count(*) as c from weixin where ts like '{year}%' and nickname_english != '' group by nickname_english order by c desc limit {top} "
+        sql = "select nickname_english,weixin_no,url,title,count(*) as c from weixin where ts like '{year}%' and nickname_english != '' group by nickname_english order by ts desc limit {top} "
         header = ["nickname_english", "weixin_no", "url", "title"]
 
     elif source == "github_org":

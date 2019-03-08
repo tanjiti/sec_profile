@@ -18,7 +18,7 @@ def scraw():
     """
     proxy = None
     so = SQLiteOper("data/scrap.db")
-    #secwiki_scraw(so, proxy=proxy, delta=2)
+    secwiki_scraw(so, proxy=proxy, delta=2)
 
     xuanwu_scraw(so, proxy=proxy, delta=2)
 

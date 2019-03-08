@@ -13,17 +13,17 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
-| Ms08067安全实验室 | Ms08067_com | https://mp.weixin.qq.com/s/xGYfxdp_TQmXiuWvC1sN-g | 步步为营之游走于内网 | 1| 
-| 丁爸 情报分析师的工具箱 | dingba2016 | https://mp.weixin.qq.com/s/_ndxkqPfgPjaT_fD82RVvQ | 【情报】数字化时代与美国情报部门的开源信息利用 | 1| 
-| 凌天实验室 |  | https://mp.weixin.qq.com/s/59Bj4qk-ClV2eqLu8SKniQ | Cobalt Strike 证书修改 | 1| 
-| 安全学术圈 | secquan | https://mp.weixin.qq.com/s/bvQo-VHWdOEisR2adxx6yA | Abusing Web Browsers for Persistent and Stealthy Computation | 1| 
-| 安在 | AnZer_SH | https://mp.weixin.qq.com/s/LOrxA4EUB9xecvelTeBQKg | 新锐 | 盛华安张颖：左手SIEM右手服装设计的美女博士 | 1| 
 | 数据安全与取证 | Cflab_net | https://mp.weixin.qq.com/s/ES83wSU-WBrUONGjCN6jYw | 果断收藏！电子取证最全清单 | 1| 
-| 数说安全 | SSAQ2016 | https://mp.weixin.qq.com/s/agrm_Xgi1GJP3vmCiL4aVg | 2019年全球网络安全热词排行榜 | 1| 
 | 绿盟科技研究通讯 | nsfocus_research | https://mp.weixin.qq.com/s/1-yCu8dvp5GzOfK1i4LIhg | 【RSA2019创新沙盒回顾】技术层面看RSA的创新沙盒 | 1| 
 | 网安一起行_上海网警 | shanghaiwangjing | https://mp.weixin.qq.com/s/gAS2cFaWMUdY0s6sT6ZtHw | 一图看懂网络安全执法检查 | 1| 
-| 美团技术团队 | meituantech | https://mp.weixin.qq.com/s/inKDcHLaP4M2ZbpxACORXw | 根因分析初探：一种报警聚类算法在业务系统的落地实施 | 1| 
+| 安全学术圈 | secquan | https://mp.weixin.qq.com/s/bvQo-VHWdOEisR2adxx6yA | Abusing Web Browsers for Persistent and Stealthy Computation | 1| 
 | 腾讯安全应急响应中心 | tsrc_team | https://mp.weixin.qq.com/s/rjcOK3A83oKHkpNgbm9Lbg | AI繁荣下的隐忧——Google Tensorflow安全风险剖析 | 1| 
+| Ms08067安全实验室 | Ms08067_com | https://mp.weixin.qq.com/s/xGYfxdp_TQmXiuWvC1sN-g | 步步为营之游走于内网 | 1| 
+| 凌天实验室 |  | https://mp.weixin.qq.com/s/59Bj4qk-ClV2eqLu8SKniQ | Cobalt Strike 证书修改 | 1| 
+| 安在 | AnZer_SH | https://mp.weixin.qq.com/s/LOrxA4EUB9xecvelTeBQKg | 新锐 | 盛华安张颖：左手SIEM右手服装设计的美女博士 | 1| 
+| 数说安全 | SSAQ2016 | https://mp.weixin.qq.com/s/agrm_Xgi1GJP3vmCiL4aVg | 2019年全球网络安全热词排行榜 | 1| 
+| 丁爸 情报分析师的工具箱 | dingba2016 | https://mp.weixin.qq.com/s/_ndxkqPfgPjaT_fD82RVvQ | 【情报】数字化时代与美国情报部门的开源信息利用 | 1| 
+| 美团技术团队 | meituantech | https://mp.weixin.qq.com/s/inKDcHLaP4M2ZbpxACORXw | 根因分析初探：一种报警聚类算法在业务系统的落地实施 | 1| 
 
 
 # 组织github账号 推荐
