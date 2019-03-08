@@ -89,7 +89,7 @@ def scraw(so, proxy=None, delta=2):
                         if card_text_ts:
                             card_text_ts = strip_n(card_text_ts.get_text())
                             domain_ts = parse_sec_today_url(card_text_ts)
-                            print card_text_ts, domain_ts
+                            #print card_text_ts, domain_ts
 
                             if domain_ts:
                                 domain, ts = domain_ts
