@@ -48,7 +48,24 @@ def scraw(so, proxy=None, delta=2):
                 for row in rows:
 
                     if row:
+
                         overview = {}
+
+                        card_text_ts = row.find("cite")
+                        if card_text_ts:
+                            card_text_ts = strip_n(card_text_ts.get_text())
+                            domain_ts = parse_sec_today_url(card_text_ts)
+                            # print card_text_ts, domain_ts
+
+                            if domain_ts:
+                                domain, ts = domain_ts
+                            else:
+                                ts = get_special_date()
+
+                            overview["ts"] = ts
+                            if ts not in ts_list:
+
+                                continue
 
                         card_title = row.find("h5", class_="card-title")
                         if card_title:
@@ -64,6 +81,7 @@ def scraw(so, proxy=None, delta=2):
                                 overview["domain"] = url_details.get("domain")
                             else:
                                 overview["url"] = sec_url
+
 
                         card_text = row.find("div", class_="card-text")
                         if card_text:
@@ -85,21 +103,9 @@ def scraw(so, proxy=None, delta=2):
                                     overview["domain"] = domain
                                     overview["domain_name"] = str(get_title(overview["domain"], proxy=proxy))
 
-                        card_text_ts = row.find("cite")
-                        if card_text_ts:
-                            card_text_ts = strip_n(card_text_ts.get_text())
-                            domain_ts = parse_sec_today_url(card_text_ts)
-                            #print card_text_ts, domain_ts
 
-                            if domain_ts:
-                                domain, ts = domain_ts
-                            else:
-                                ts = get_special_date()
 
-                            overview["ts"] = ts
-                            if ts not in ts_list:
-                                continue
-                                #
+
 
                         card_text_chinese = row.find("p", class_="card-text my-1")
                         if card_text_chinese:

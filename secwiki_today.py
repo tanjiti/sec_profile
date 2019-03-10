@@ -49,9 +49,11 @@ def scraw(so, proxy=None, delta=3):
 
                     if row:
 
+
                         cur_ts = row.get_text()
                         if cur_ts in ts_list:
                             a = row.next_sibling
+
                             if a:
                                 url = a.get("href")
 

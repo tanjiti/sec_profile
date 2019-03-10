@@ -1,0 +1,12 @@
+#/bin/bash
+
+FWDIR="$(dirname "$0")"
+export PYTHONSTARTUP="$FWDIR/.baidu-aip-boostrap.py"
+echo "# -*- coding: utf-8 -*-" > $PYTHONSTARTUP
+echo "import sys" >> $PYTHONSTARTUP
+echo "from aip import *" >> $PYTHONSTARTUP
+echo "print '''" >> $PYTHONSTARTUP
+echo " ------ welcome to use baidu aip, the best ai sdk! ------" >> $PYTHONSTARTUP
+echo "'''" >> $PYTHONSTARTUP
+echo "sys.ps1 = 'baidu-aip >>>'" >> $PYTHONSTARTUP
+python

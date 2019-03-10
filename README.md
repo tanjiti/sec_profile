@@ -50,12 +50,12 @@
 | bitsadmin | Windows 漏洞利用辅助工具 | https://github.com/bitsadmin/wesng | None |  | Netherlands | None | 9 | 0 | 2 | 46 | 0 | C#,Python,Visual,Batchfile,PowerShell | 238 | 35 | 1| 
 | MichaelGrafnetter | 使用 DSInternal 离线攻击活动目录：https://www.dsinternals.com/wp-content/uploads/HIP_AD_Offline_Attacks.pdf | https://github.com/MichaelGrafnetter/DSInternals/releases | https://www.dsinternals.com |  | Prague, Czech Republic | None | 5 | 0 | 9 | 43 | 0 | C# | 339 | 64 | 1| 
 | ze0r | Win32k 特权提升漏洞 CVE-2018-8639 漏洞利用 | https://github.com/ze0r/CVE-2018-8639-exp/ | None |  | None | None | 3 | 0 | 2 | 34 | 3 | Python,C++ | 53 | 28 | 1| 
-| codemayq | 中文公开聊天语料库 | https://github.com/codemayq/chaotbot_corpus_Chinese | None | new bird in nlp | Beijing China | Peking University | 3 | 0 | 203 | 29 | 11 | Python | 243 | 78 | 1| 
+| codemayq | 中文公开聊天语料库 | https://github.com/codemayq/chaotbot_corpus_Chinese | None | new bird in nlp | Beijing China | Peking University | 3 | 0 | 203 | 31 | 11 | Python | 253 | 80 | 1| 
 | BusesCanFly | Automate discovering and dropping payloads on LAN Raspberr... | https://github.com/BusesCanFly/rpi-hunter | None | I make things, I break things. ¯\_(ツ)_/¯ ‮‮‮ | Somewhere in a linux server | None | 5 | 0 | 416 | 26 | 58 | Python,CSS | 129 | 21 | 1| 
 | wish-i-was | femida: Automated blind-xss search for Burp Suite | https://github.com/wish-i-was/femida | None | Twitter https://twitter.com/wish_iwas | None | None | 1 | 0 | 1 | 16 | 2 | Python | 90 | 22 | 1| 
 | stevenaldinger | stevenaldinger/decker: Declarative penetration testing orc... | https://github.com/stevenaldinger/decker | https://www.linkedin.com/in/steven-aldinger-7a32a774/ |  | None | None | 50 | 0 | 48 | 13 | 8 | Go,Shell,Dockerfile | 142 | 7 | 1| 
+| SolomonSklash | chomp-scan: 用于简化Bug Bounty/Penetration Test探测阶段的... | https://github.com/SolomonSklash/chomp-scan | None | Penetration tester at FIS Global. | Remote | FIS Global | 16 | 0 | 510 | 12 | 9 | Python,Shell,Vim | 102 | 22 | 1| 
 | redaelli | imago-forensics - Python 实现的图像数字取证工具 | https://github.com/redaelli/imago-forensics | None | I’m a cyber security enthusiast. blog: https://www.forensics-matters.com/ twitter: @solventred | None | None | 1 | 0 | 9 | 12 | 16 | Python | 66 | 12 | 1| 
-| SolomonSklash | chomp-scan: 用于简化Bug Bounty/Penetration Test探测阶段的... | https://github.com/SolomonSklash/chomp-scan | None | Penetration tester at FIS Global. | Remote | FIS Global | 16 | 0 | 511 | 9 | 9 | Python,Shell,Vim | 89 | 20 | 1| 
 | grigoritchy | (browser exploit)Webkit JavascriptCore array unshift race condition, it leads to RCE. | https://github.com/grigoritchy/unshift-racy | None |  | None | None | 1 | 0 | 0 | 7 | 0 | JavaScript | 11 | 4 | 1| 
 | k8scop | k8s-security-dashboard: A security monitoring solution for... | https://github.com/k8scop/k8s-security-dashboard | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 
