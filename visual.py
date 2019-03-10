@@ -9,6 +9,10 @@ sys.setdefaultencoding('utf8')
 from collections import OrderedDict
 import matplotlib.pyplot as plt
 
+
+import matplotlib
+print(matplotlib.matplotlib_fname())
+
 from mills import SQLiteOper
 from mills import path
 from mills import get_special_date
@@ -129,8 +133,10 @@ def draw_pie(so, source="secwiki", year="", tag="domain", top=10):
     explode[-1] = 0  # 凸显
 
     try:
+        #plt.rcParams['font.sans-serif'] = ['MicrosoftYaHei']
         plt.rcParams['font.sans-serif'] = ['SimHei']  # 解决中文乱码
-        # plt.rcParams['axes.unicode_minus'] = False  # 坐标轴负号的处理
+        plt.rcParams['font.family'] = 'sans-serif'
+        plt.rcParams['axes.unicode_minus'] = False  # 坐标轴负号的处理
         plt.axes(aspect='equal')  # 设置x，y轴刻度一致，这样饼图才能是圆的
         plt.pie(values,  # 指定绘图的数据
                 explode=explode,  # 指定饼图某些部分的突出显示，即呈现爆炸式
