@@ -40,6 +40,8 @@
 # 私人github账号 推荐
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
+| s0md3v | 绕过 WAF 的 XSS 检测机制研究 | https://github.com/s0md3v/MyPapers/tree/master/Bypassing-XSS-detection-mechanisms | https://github.com/s0md3v | I make things, I break things and I make things that break things. Twitter: @s0md3v | None | None | 29 | 0 | 0 | 2100 | 0 | Python,JavaScript | 6100 | 704 | 1| 
+| trimstray | reload.sh - 通过 SSH 实现重装、恢复以及擦除系统的脚本 | https://github.com/trimstray/reload.sh | https://trimstray.github.io/ | BIO_read(wbio, buf, 4096) | Poland | None | 16 | 0 | 868 | 1200 | 270 | Shell | 17900 | 1600 | 1| 
 | unixpickle | 一款针对 Go 二进制和包的混淆工具 | https://github.com/unixpickle/gobfuscate | https://aqnichol.com | Web developer, math geek, and AI enthusiast. | San Francisco, CA | None | 544 | 0 | 147 | 994 | 50 | Python,Go,Objective-C,JavaScript | 590 | 175 | 1| 
 | tyranid | The Windows Sandbox Paradox （Flashback），来自 James Forshaw | https://github.com/tyranid/infosec-presentations/blob/master/Nullcon/2019/The%20Windows%20Sandbox%20Paradox%20(Flashback).pdf | None |  | None | None | 31 | 0 | 0 | 638 | 2 | C#,Python,C | 700 | 197 | 1| 
 | EtherDream | jsproxy: 一个基于浏览器端 JS 实现的在线代理 | https://github.com/EtherDream/jsproxy | None | [Geeker, Hacker) | Hangzhou, China | None | 20 | 0 | 162 | 619 | 5 | JavaScript | 137 | 55 | 1| 
@@ -47,6 +49,7 @@
 | jakeajames | Patchfinders for offsets used in bazads PAC bypass | https://github.com/jakeajames/jelbrekLib/blob/master/patchfinder64.m | None | A random guy on the internet. | Antartica | None | 68 | 0 | 4 | 438 | 7 | Logos,C | 291 | 133 | 1| 
 | rvrsh3ll | 将 shellcode 隐藏在资源文件中再通过 CPL 加载执行的POC | https://github.com/rvrsh3ll/CPLResourceRunner | None | I hack code together and hope it works. | NOVA | None | 118 | 0 | 19 | 299 | 9 | Python,C#,HTML,PowerShell | 377 | 114 | 1| 
 | ExpLife0011 | 优秀 Windows 内核漏洞利用方向资源收集 | https://github.com/ExpLife0011/awesome-windows-kernel-security-development/blob/master/README.md | None |  | None | None | 2700 | 0 | 2900 | 210 | 444 | Python,C,PowerShell,C++ | 514 | 185 | 1| 
+| mpgn | Apache Solr RCE POC（CVE-2019-0192） | https://github.com/mpgn/CVE-2019-0192/ | https://github.com/QuokkaLight | ̿ ̿̿̿\̵͇̿̿\=(•̪●)=/̵͇̿̿/̿̿ ̿ ̿ ̿ | Paris | @QuokkaLight | 30 | 0 | 149 | 139 | 14 | Python,HTML,Java | 121 | 37 | 1| 
 | houjingyi233 | houjingyi233/CPU-vulnerabiility-collections | https://github.com/houjingyi233/CPU-vulnerabiility-collections | http://houjingyi233.com | security researcher | None | None | 22 | 0 | 633 | 111 | 0 | Visual,Java,C++ | 107 | 54 | 1| 
 | xmendez | 模糊测试及暴力破解工具收集的分享：https://twitter.com/Alra3ees/status/1103563481641611264 | https://github.com/xmendez/wfuzz/ | http://wfuzz.org | IT Security Consultant | Security Researcher; Twitter: @x4vi_mendez | None | None | 4 | 0 | 6 | 98 | 1 | Python,Ruby | 1700 | 407 | 1| 
 | a13xp0p0v | kernel-hack-drill - Linux 内核漏洞利用开发实验项目 | https://github.com/a13xp0p0v/kernel-hack-drill | https://twitter.com/a13xp0p0v | Linux Kernel Developer & Security Researcher | None | None | 5 | 0 | 0 | 93 | 3 | Python,Go,C,HTML | 420 | 43 | 1| 
