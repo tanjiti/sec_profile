@@ -22,12 +22,15 @@ from mills import d2sql
 from mills import strip_n
 from mills import get_title
 
+
 def scrap_item(i=1):
     """
     爬取单个页面
     :return:
     """
     url = "https://www.sec-wiki.com/weekly/{i}".format(i=i)
+    if not os.path.exists(path("data/secwiki")):
+        os.mkdir(path("data/secwiki"))
     fname = path("data/secwiki/{i}_week.html".format(i=i))
     logging.info("[SCRAP_PAGE]: %s" % url)
     try:
@@ -92,7 +95,10 @@ def scrap_latest():
         logging.error("[REQUEST]: %s %s" % (url, str(e)))
 
     nos = sort_fname(glob.glob("data/secwiki/*.html"))
-    last_no = max(nos.keys())
+    if nos:
+        last_no = max(nos.keys())
+    else:
+        last_no = 0
     if cur_no > 0:
 
         if cur_no > last_no:
@@ -100,7 +106,7 @@ def scrap_latest():
             return fnames
 
 
-def parse_item(html_hd,so=None,proxy=None):
+def parse_item(html_hd, so=None, proxy=None):
     """
     解析单个页面
     :param page:
@@ -139,11 +145,12 @@ def parse_item(html_hd,so=None,proxy=None):
             root_domain = ext.domain + "." + ext.suffix
 
             title = strip_n(title)
+
             domain_name = ""
             try:
                 domain_name = get_title(domain)
             except Exception as e:
-                logging.error("[get_domain_name]: %s %s" %(domain_name,str(e)))
+                logging.error("[get_domain_name]: %s %s" % (domain_name, str(e)))
             if domain_name:
 
                 domain_name = re.sub('\x22', '', domain_name)
@@ -159,26 +166,25 @@ def parse_item(html_hd,so=None,proxy=None):
                 except Exception as e:
                     logging.error("[update_sql]: %s str(%s)" % (update_sql, str(e)))
 
-
             sql = ""
 
             if url.find("://twitter.com") != -1:
 
-                d = get_twitter_info(url,title,ts=ts,tag=tag,proxy=proxy)
+                d = get_twitter_info(url, title, ts=ts, tag=tag, proxy=proxy)
 
                 if d:
-                    sql = d2sql(d,table="twitter")
+                    sql = d2sql(d, table="twitter")
 
             elif url.find("weixin.qq.com") != -1:
-                d = get_weixin_info(url,ts,tag)
+                d = get_weixin_info(url, ts, tag)
 
                 if d:
-                    sql = d2sql(d,table="weixin")
+                    sql = d2sql(d, table="weixin")
             elif url.find("//github.com") != -1:
-                d = get_github_info(url,title,ts=ts,tag=tag)
+                d = get_github_info(url, title, ts=ts, tag=tag)
 
                 if d:
-                    sql = d2sql(d,table='github')
+                    sql = d2sql(d, table='github')
 
             if sql:
                 try:
@@ -186,14 +192,13 @@ def parse_item(html_hd,so=None,proxy=None):
                     so.execute(sql)
                 except Exception as e:
                     logging.error("[sql]: %s %s" % (sql, str(e)))
+
             result = (ts, tag, url, title, root_domain, domain, url_path)
-
-
 
             yield result
 
 
-def parse_all(fnames=None, renew=False,proxy=None):
+def parse_all(fnames=None, renew=False, proxy=None):
     """
     批量解析页面
     :param fnames:
@@ -236,7 +241,7 @@ def parse_all(fnames=None, renew=False,proxy=None):
 
         with open(fname, mode='r') as html_hd:
             results_list = {}
-            for content in parse_item(html_hd,so=so,proxy=proxy):
+            for content in parse_item(html_hd, so=so, proxy=proxy):
                 if content:
                     k = content[0] + content[2]
 

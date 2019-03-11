@@ -12,3 +12,5 @@ data/sec_url/
 data/weixin/
 data/img/.DS_Store
 venv/*
+!data/secwiki/*
+!data/secwiki*
