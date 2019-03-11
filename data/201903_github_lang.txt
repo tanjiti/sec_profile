@@ -4,8 +4,8 @@ JavaScript	7
 HTML	7
 C++	7
 Shell	6
+Go	6
 C#	5
-Go	5
 PowerShell	5
 Java	4
 Visual	3
