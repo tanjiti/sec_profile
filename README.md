@@ -13,6 +13,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 我的安全视界观 | CANI_Security | https://mp.weixin.qq.com/s/zRPENsWRrL3s9fdUQUC1Dw | 【基础安全】堡垒机的自动化功能实践4 | 4| 
 | 仙人掌情报站 | sec-cactus | https://mp.weixin.qq.com/s/vxQpnWKBYxzM4aZ3kFw4UA | 董祎铖：态势感知从入坑到重生 | 1| 
 | 数据安全与取证 | Cflab_net | https://mp.weixin.qq.com/s/ES83wSU-WBrUONGjCN6jYw | 果断收藏！电子取证最全清单 | 1| 
 | 绿盟科技研究通讯 | nsfocus_research | https://mp.weixin.qq.com/s/1-yCu8dvp5GzOfK1i4LIhg | 【RSA2019创新沙盒回顾】技术层面看RSA的创新沙盒 | 1| 
@@ -30,6 +31,7 @@
 # 组织github账号 推荐
 | github_id | title | url | org_url | org_profile | org_geo | org_repositories | org_people | org_projects | repo_lang | repo_star | repo_forks| 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
+| Microsoft | ChakraCore 的 3 月补丁发布 | https://github.com/Microsoft/ChakraCore/pull/6016 | https://opensource.microsoft.com | Open source, from Microsoft with love | Redmond, WA | 2297 | 4314 | 0 | C,TypeScript,CMake,C#,JavaScript,C++,PowerShell,Python,Objective-C,HTML,F#,Java,Jupyter | 71200 | 9500 | 1| 
 | MicrosoftEdge | 用于调试基于 Chromium 的浏览器扩展的工具 | https://github.com/MicrosoftEdge/JsDbg | None | Microsoft Edge open source projects - demos, tools, data | None | 64 | 266 | 0 | C#,JavaScript,C++,Python,HTML,PowerShell | 2000 | 267 | 1| 
 | appsecco | using-docker-kubernetes-for-automating-appsec-and-osint-wo... | https://github.com/appsecco/using-docker-kubernetes-for-automating-appsec-and-osint-workflows | http://appsecco.com | PRAGMATIC SECURITY ADVICE. PRACTICAL HELP. KEEPING YOU SAFE. | London, Bangalore, Boston | 31 | 5 | 0 | Shell,Python,JavaScript,Visual,HTML,ActionScript,PHP,CSS | 357 | 97 | 1| 
 | facebook | 通过同态散列算法安全地发布更新 - https://code.fb.com/security/homomorphic-hashing/ | https://github.com/facebook/folly/blob/master/folly/experimental/crypto/LtHash.cpp | https://opensource.fb.com | We are working to build community through open source technology. NB: members must have two-factor auth. | Menlo Park, California | 161 | 187 | 0 | C,TypeScript,Java,Python,JavaScript,OCaml,C++,Objective-C,Swift | 0 | 0 | 1| 
@@ -69,8 +71,10 @@
 | SolomonSklash | chomp-scan: 用于简化Bug Bounty/Penetration Test探测阶段的... | https://github.com/SolomonSklash/chomp-scan | None | Penetration tester at FIS Global. | Remote | FIS Global | 16 | 0 | 510 | 12 | 9 | Python,Shell,Vim | 102 | 22 | 1| 
 | redaelli | imago-forensics - Python 实现的图像数字取证工具 | https://github.com/redaelli/imago-forensics | None | I’m a cyber security enthusiast. blog: https://www.forensics-matters.com/ twitter: @solventred | None | None | 1 | 0 | 9 | 12 | 16 | Python | 66 | 12 | 1| 
 | CoreyD97 | Stepper: A natural evolution of Burp Suites Repeater tool | https://github.com/CoreyD97/Stepper | https://github.com/nccgroup | Security Consultant @nccgroup UK. | United Kingdom | NCC Group | 8 | 0 | 6 | 11 | 2 | JavaScript,Java | 9 | 3 | 1| 
+| antonioCoco | 一款自带混淆的ASPX类型的Webshell | https://github.com/antonioCoco/SharPyShell | None | @splinter_code | Italy | None | 1 | 0 | 3 | 10 | 7 | Python | 103 | 16 | 1| 
 | 0xpwntester | Sysmon v9.0 优秀配置文件分享 | https://github.com/0xpwntester/Sysmon | None |  | None | None | 8 | 0 | 4 | 8 | 3 | Python,ASP,Batchfile,PowerShell,C++ | 26 | 6 | 1| 
 | grigoritchy | (browser exploit)Webkit JavascriptCore array unshift race condition, it leads to RCE. | https://github.com/grigoritchy/unshift-racy | None |  | None | None | 1 | 0 | 0 | 7 | 0 | JavaScript | 11 | 4 | 1| 
+| BloodHoundAD | 域渗透神器 BloodHound2.1.0 发布 | https://github.com/BloodHoundAD/BloodHound/releases/tag/2.1.0 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C#,Python,PowerShell | 0 | 0 | 1| 
 | k8scop | k8s-security-dashboard: A security monitoring solution for... | https://github.com/k8scop/k8s-security-dashboard | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 
 
