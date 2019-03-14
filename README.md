@@ -13,6 +13,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 中通安全应急响应中心 | ZTO_SRC | https://mp.weixin.qq.com/s/inANTt-97Rjfr6Rf5lJ07A | 中通内网安全之外发流量管理 | 1| 
 | 我的安全视界观 | CANI_Security | https://mp.weixin.qq.com/s/zRPENsWRrL3s9fdUQUC1Dw | 【基础安全】堡垒机的自动化功能实践4 | 4| 
 | 仙人掌情报站 | sec-cactus | https://mp.weixin.qq.com/s/vxQpnWKBYxzM4aZ3kFw4UA | 董祎铖：态势感知从入坑到重生 | 1| 
 | 数据安全与取证 | Cflab_net | https://mp.weixin.qq.com/s/ES83wSU-WBrUONGjCN6jYw | 果断收藏！电子取证最全清单 | 1| 
@@ -58,6 +59,7 @@
 | houjingyi233 | houjingyi233/CPU-vulnerabiility-collections | https://github.com/houjingyi233/CPU-vulnerabiility-collections | http://houjingyi233.com | security researcher | None | None | 22 | 0 | 633 | 111 | 0 | Visual,Java,C++ | 107 | 54 | 1| 
 | xmendez | 模糊测试及暴力破解工具收集的分享：https://twitter.com/Alra3ees/status/1103563481641611264 | https://github.com/xmendez/wfuzz/ | http://wfuzz.org | IT Security Consultant | Security Researcher; Twitter: @x4vi_mendez | None | None | 4 | 0 | 6 | 98 | 1 | Python,Ruby | 1700 | 407 | 1| 
 | a13xp0p0v | kernel-hack-drill - Linux 内核漏洞利用开发实验项目 | https://github.com/a13xp0p0v/kernel-hack-drill | https://twitter.com/a13xp0p0v | Linux Kernel Developer & Security Researcher | None | None | 5 | 0 | 0 | 93 | 3 | Python,Go,C,HTML | 420 | 43 | 1| 
+| decoder-it | powershellveryless - 绕过 Powershell 受限语言模式及 AMSI 的工具 | https://github.com/decoder-it/powershellveryless/ | None |  | None | None | 9 | 0 | 1 | 63 | 0 | C#,PowerShell,C++ | 129 | 48 | 1| 
 | mcw0 | HiSilicon DVR 黑客笔记 | https://github.com/mcw0/pwn-hisilicon-dvr/blob/master/README.adoc | None |  | None | None | 5 | 0 | 3 | 57 | 2 | Python | 208 | 87 | 1| 
 | bitsadmin | Windows 漏洞利用辅助工具 | https://github.com/bitsadmin/wesng | None |  | Netherlands | None | 9 | 0 | 2 | 46 | 0 | C#,Python,Visual,Batchfile,PowerShell | 238 | 35 | 1| 
 | MichaelGrafnetter | 使用 DSInternal 离线攻击活动目录：https://www.dsinternals.com/wp-content/uploads/HIP_AD_Offline_Attacks.pdf | https://github.com/MichaelGrafnetter/DSInternals/releases | https://www.dsinternals.com |  | Prague, Czech Republic | None | 5 | 0 | 9 | 43 | 0 | C# | 339 | 64 | 1| 
@@ -67,6 +69,7 @@
 | BusesCanFly | Automate discovering and dropping payloads on LAN Raspberr... | https://github.com/BusesCanFly/rpi-hunter | None | I make things, I break things. ¯\_(ツ)_/¯ ‮‮‮ | Somewhere in a linux server | None | 5 | 0 | 416 | 26 | 58 | Python,CSS | 129 | 21 | 1| 
 | si9int | Inserting arbitrary files into Google Earth Projects Archi... | https://github.com/si9int/OFFSEC-Archive/blob/master/web/Inserting%20arbitrary%20files%20into%20Google%20Earth%20Projects%20Archives.pdf | https://si9int.sh | - Whitehat in own definition - | None | None | 8 | 0 | 18 | 23 | 0 | Python | 173 | 27 | 1| 
 | wish-i-was | femida: Automated blind-xss search for Burp Suite | https://github.com/wish-i-was/femida | None | Twitter https://twitter.com/wish_iwas | None | None | 1 | 0 | 1 | 16 | 2 | Python | 90 | 22 | 1| 
+| Bypass007 | Nessus_to_report: Nessus中文报告自动化脚本 | https://github.com/Bypass007/Nessus_to_report | None | A free man | None | None | 4 | 0 | 1 | 13 | 0 | Python | 24 | 8 | 1| 
 | stevenaldinger | stevenaldinger/decker: Declarative penetration testing orc... | https://github.com/stevenaldinger/decker | https://www.linkedin.com/in/steven-aldinger-7a32a774/ |  | None | None | 50 | 0 | 48 | 13 | 8 | Go,Shell,Dockerfile | 142 | 7 | 1| 
 | SolomonSklash | chomp-scan: 用于简化Bug Bounty/Penetration Test探测阶段的... | https://github.com/SolomonSklash/chomp-scan | None | Penetration tester at FIS Global. | Remote | FIS Global | 16 | 0 | 510 | 12 | 9 | Python,Shell,Vim | 102 | 22 | 1| 
 | redaelli | imago-forensics - Python 实现的图像数字取证工具 | https://github.com/redaelli/imago-forensics | None | I’m a cyber security enthusiast. blog: https://www.forensics-matters.com/ twitter: @solventred | None | None | 1 | 0 | 9 | 12 | 16 | Python | 66 | 12 | 1| 
