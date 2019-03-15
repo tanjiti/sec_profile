@@ -1,11 +1,11 @@
-Python	23
-C	12
+Python	25
+C	13
+C++	11
 JavaScript	10
-C++	10
+PowerShell	10
 HTML	9
-PowerShell	9
-C#	8
-Java	7
+C#	9
+Java	8
 Shell	7
 Go	6
 Visual	3
@@ -14,8 +14,10 @@ CSS	3
 TypeScript	2
 Ruby	2
 Batchfile	2
+PHP	2
 Dockerfile	1
 Assembly	1
+CoffeeScript	1
 Logos	1
 Jupyter	1
 CMake	1
@@ -26,4 +28,3 @@ F#	1
 Brainfuck	1
 ActionScript	1
 ASP	1
-PHP	1
