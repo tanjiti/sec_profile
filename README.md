@@ -13,6 +13,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| Alfred数据室 | Alfred_Lab | https://mp.weixin.qq.com/s/j1kgf2RR7jssbWa7uWC-uA | 用大数据扒一扒蔡徐坤的真假流量粉 | Alfred数据室 | 1| 
+| 透雾 | wxWinder | https://mp.weixin.qq.com/s/DCtKYK3Xw_pbdNCUF593Lg | 使用Keras和Tensorflow检测恶意url请求 | 1| 
 | 中通安全应急响应中心 | ZTO_SRC | https://mp.weixin.qq.com/s/inANTt-97Rjfr6Rf5lJ07A | 中通内网安全之外发流量管理 | 1| 
 | 我的安全视界观 | CANI_Security | https://mp.weixin.qq.com/s/zRPENsWRrL3s9fdUQUC1Dw | 【基础安全】堡垒机的自动化功能实践4 | 4| 
 | 仙人掌情报站 | sec-cactus | https://mp.weixin.qq.com/s/vxQpnWKBYxzM4aZ3kFw4UA | 董祎铖：态势感知从入坑到重生 | 1| 
@@ -24,7 +26,7 @@
 | Ms08067安全实验室 | Ms08067_com | https://mp.weixin.qq.com/s/xGYfxdp_TQmXiuWvC1sN-g | 步步为营之游走于内网 | 1| 
 | 凌天实验室 |  | https://mp.weixin.qq.com/s/59Bj4qk-ClV2eqLu8SKniQ | Cobalt Strike 证书修改 | 1| 
 | 安在 | AnZer_SH | https://mp.weixin.qq.com/s/LOrxA4EUB9xecvelTeBQKg | 新锐 | 盛华安张颖：左手SIEM右手服装设计的美女博士 | 1| 
-| 数说安全 | SSAQ2016 | https://mp.weixin.qq.com/s/agrm_Xgi1GJP3vmCiL4aVg | 2019年全球网络安全热词排行榜 | 1| 
+| 数说安全 | SSAQ2016 | https://mp.weixin.qq.com/s/agrm_Xgi1GJP3vmCiL4aVg | 2019年全球网络安全热词排行榜 | 2| 
 | 丁爸 情报分析师的工具箱 | dingba2016 | https://mp.weixin.qq.com/s/_ndxkqPfgPjaT_fD82RVvQ | 【情报】数字化时代与美国情报部门的开源信息利用 | 1| 
 | 美团技术团队 | meituantech | https://mp.weixin.qq.com/s/inKDcHLaP4M2ZbpxACORXw | 根因分析初探：一种报警聚类算法在业务系统的落地实施 | 1| 
 
@@ -82,6 +84,7 @@
 | grigoritchy | (browser exploit)Webkit JavascriptCore array unshift race condition, it leads to RCE. | https://github.com/grigoritchy/unshift-racy | None |  | None | None | 1 | 0 | 0 | 7 | 0 | JavaScript | 11 | 4 | 1| 
 | JarekMSFT | MSRC 成员对 Microsoft bug bounty 的介绍、如何 润色 报... | https://github.com/JarekMSFT/Presentations/blob/master/Getting%20to%2010K_Nullcon2019.pdf | None |  | None | None | 2 | 0 | 0 | 2 | 0 |  | 3 | 1 | 1| 
 | BloodHoundAD | 域渗透神器 BloodHound2.1.0 发布 | https://github.com/BloodHoundAD/BloodHound/releases/tag/2.1.0 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C#,Python,PowerShell | 0 | 0 | 1| 
+| firecracker-microvm | firecracker：Secure and fast microVMs for serverless compu... | https://github.com/firecracker-microvm/firecracker | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Shell,Rust | 0 | 0 | 1| 
 | k8scop | k8s-security-dashboard: A security monitoring solution for... | https://github.com/k8scop/k8s-security-dashboard | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 
 

@@ -6,8 +6,8 @@ PowerShell	10
 HTML	9
 C#	9
 Java	8
-Shell	7
-Go	6
+Shell	8
+Go	7
 Visual	3
 Objective-C	3
 CSS	3
@@ -18,6 +18,7 @@ PHP	2
 Dockerfile	1
 Assembly	1
 CoffeeScript	1
+Rust	1
 Logos	1
 Jupyter	1
 CMake	1
