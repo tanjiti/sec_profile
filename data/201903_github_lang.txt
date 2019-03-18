@@ -1,7 +1,7 @@
-Python	25
+Python	26
 C	13
+JavaScript	11
 C++	11
-JavaScript	10
 PowerShell	10
 HTML	9
 C#	9
@@ -11,10 +11,10 @@ Go	7
 Visual	3
 Objective-C	3
 CSS	3
+PHP	3
 TypeScript	2
 Ruby	2
 Batchfile	2
-PHP	2
 Dockerfile	1
 Assembly	1
 CoffeeScript	1

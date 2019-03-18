@@ -63,6 +63,7 @@
 | houjingyi233 | houjingyi233/CPU-vulnerabiility-collections | https://github.com/houjingyi233/CPU-vulnerabiility-collections | http://houjingyi233.com | security researcher | None | None | 22 | 0 | 633 | 111 | 0 | Visual,Java,C++ | 107 | 54 | 1| 
 | xmendez | 模糊测试及暴力破解工具收集的分享：https://twitter.com/Alra3ees/status/1103563481641611264 | https://github.com/xmendez/wfuzz/ | http://wfuzz.org | IT Security Consultant | Security Researcher; Twitter: @x4vi_mendez | None | None | 4 | 0 | 6 | 98 | 1 | Python,Ruby | 1700 | 407 | 1| 
 | a13xp0p0v | kernel-hack-drill - Linux 内核漏洞利用开发实验项目 | https://github.com/a13xp0p0v/kernel-hack-drill | https://twitter.com/a13xp0p0v | Linux Kernel Developer & Security Researcher | None | None | 5 | 0 | 0 | 93 | 3 | Python,Go,C,HTML | 420 | 43 | 1| 
+| TheKingOfDuck | MySQLMonitor: MySQL实时监控工具（黑盒测试辅助工具） | https://github.com/TheKingOfDuck/MySQLMonitor | None |  | None | None | 58 | 0 | 8 | 65 | 2 | Python,PHP,JavaScript | 69 | 14 | 1| 
 | decoder-it | powershellveryless - 绕过 Powershell 受限语言模式及 AMSI 的工具 | https://github.com/decoder-it/powershellveryless/ | None |  | None | None | 9 | 0 | 1 | 63 | 0 | C#,PowerShell,C++ | 129 | 48 | 1| 
 | mcw0 | HiSilicon DVR 黑客笔记 | https://github.com/mcw0/pwn-hisilicon-dvr/blob/master/README.adoc | None |  | None | None | 5 | 0 | 3 | 57 | 2 | Python | 208 | 87 | 1| 
 | bitsadmin | Windows 漏洞利用辅助工具 | https://github.com/bitsadmin/wesng | None |  | Netherlands | None | 9 | 0 | 2 | 46 | 0 | C#,Python,Visual,Batchfile,PowerShell | 238 | 35 | 1| 
@@ -86,6 +87,7 @@
 | BloodHoundAD | 域渗透神器 BloodHound2.1.0 发布 | https://github.com/BloodHoundAD/BloodHound/releases/tag/2.1.0 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C#,Python,PowerShell | 0 | 0 | 1| 
 | firecracker-microvm | firecracker：Secure and fast microVMs for serverless compu... | https://github.com/firecracker-microvm/firecracker | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Shell,Rust | 0 | 0 | 1| 
 | k8scop | k8s-security-dashboard: A security monitoring solution for... | https://github.com/k8scop/k8s-security-dashboard | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
+| xsleaks | 一些可能导致跨域信息泄漏的 DOM API 收集 | https://github.com/xsleaks/xsleaks/wiki/Browser-Side-Channels | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 
 
 
