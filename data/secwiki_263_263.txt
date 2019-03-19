@@ -1,0 +1,53 @@
+20190311	法规	http://gkml.samr.gov.cn/nsjg/rzjgs/201903/t20190315_292035.html?from=timeline&isappinstalled=0	中央网信办关于开展App安全认证工作的公告	samr.gov.cn	gkml.samr.gov.cn	/nsjg/rzjgs/201903/t20190315_292035.html
+20190311	观点	https://mp.weixin.qq.com/s/2JsDvnAGz4d1w1dg0qvChA	肖力：从RSA2019看安全技术发展的十个机遇	qq.com	mp.weixin.qq.com	/s/2JsDvnAGz4d1w1dg0qvChA
+20190311	Web安全	http://blog.securelayer7.net/api-penetration-testing-with-owasp-2017-test-cases/	API 渗透测试基础介绍	securelayer7.net	blog.securelayer7.net	/api-penetration-testing-with-owasp-2017-test-cases/
+20190311	其它	https://kingx.me/Thinking-about-Red-Teaming.html	红蓝对抗-大型互联网企业安全蓝军建设	kingx.me	kingx.me	/Thinking-about-Red-Teaming.html
+20190311	其它	https://bloodzer0.github.io/ossa/business/captcha/	验证码安全	github.io	bloodzer0.github.io	/ossa/business/captcha/
+20190311	Web安全	https://www.freebuf.com/sectool/196849.html	Goscan：一款功能强大的交互式网络扫描工具	freebuf.com	www.freebuf.com	/sectool/196849.html
+20190311	取证分析	http://drivertom.blogspot.com/2019/03/blog-post_16.html	入侵钓鱼站并溯源	blogspot.com	drivertom.blogspot.com	/2019/03/blog-post_16.html
+20190311	运维安全	https://mp.weixin.qq.com/s/N8rtlk4Ai-Kb9QXW4Q77Lg	堡垒机的自动化功能实践-1	qq.com	mp.weixin.qq.com	/s/N8rtlk4Ai-Kb9QXW4Q77Lg
+20190311	取证分析	https://mp.weixin.qq.com/s/inANTt-97Rjfr6Rf5lJ07A	中通内网安全之外发流量管理	qq.com	mp.weixin.qq.com	/s/inANTt-97Rjfr6Rf5lJ07A
+20190311	数据挖掘	https://mp.weixin.qq.com/s/vxQpnWKBYxzM4aZ3kFw4UA	董祎铖：态势感知从入坑到重生	qq.com	mp.weixin.qq.com	/s/vxQpnWKBYxzM4aZ3kFw4UA
+20190311	Web安全	https://github.com/s0md3v/MyPapers/tree/master/Bypassing-XSS-detection-mechanisms	绕过 WAF 的 XSS 检测机制研究	github.com	github.com	/s0md3v/MyPapers/tree/master/Bypassing-XSS-detection-mechanisms
+20190311	Web安全	https://nosec.org/home/detail/2324.html	Metinfo利用sql注入快速getshell	nosec.org	nosec.org	/home/detail/2324.html
+20190311	运维安全	https://security.tencent.com/index.php/blog/msg/132	旧树开新花—再谈GitHub监控	tencent.com	security.tencent.com	/index.php/blog/msg/132
+20190311	运维安全	https://xz.aliyun.com/t/4276	Kubernetes安全入门	aliyun.com	xz.aliyun.com	/t/4276
+20190311	Web安全	https://github.com/mpgn/CVE-2019-0192/	Apache Solr RCE POC（CVE-2019-0192）	github.com	github.com	/mpgn/CVE-2019-0192/
+20190311	数据挖掘	https://mp.weixin.qq.com/s/j1kgf2RR7jssbWa7uWC-uA	用大数据扒一扒蔡徐坤的真假流量粉	qq.com	mp.weixin.qq.com	/s/j1kgf2RR7jssbWa7uWC-uA
+20190311	设备安全	https://www.4hou.com/reverse/16759.html	对小米Mi Band 2的破解	4hou.com	www.4hou.com	/reverse/16759.html
+20190311	漏洞分析	https://www.freebuf.com/articles/network/197025.html	WinRAR远程代码执行漏洞结合Metasploit+Ngrok实现远程上线	freebuf.com	www.freebuf.com	/articles/network/197025.html
+20190311	杂志	https://www.sec-wiki.com/weekly/262	SecWiki周刊（第262期)	sec-wiki.com	www.sec-wiki.com	/weekly/262
+20190311	漏洞分析	https://github.com/ExpLife0011/awesome-windows-kernel-security-development/blob/master/README.md	优秀 Windows 内核漏洞利用方向资源收集	github.com	github.com	/ExpLife0011/awesome-windows-kernel-security-development/blob/master/README.md
+20190311	工具	https://github.com/Bypass007/Nessus_to_report	Nessus_to_report: Nessus中文报告自动化脚本	github.com	github.com	/Bypass007/Nessus_to_report
+20190311	恶意分析	https://www.aqniu.com/vendor/44748.html	威胁建模模型ATT&CK	aqniu.com	www.aqniu.com	/vendor/44748.html
+20190311	漏洞分析	https://nosec.org/home/detail/2329.html	如何利用汽车警报器去攻击300多万辆汽车	nosec.org	nosec.org	/home/detail/2329.html
+20190311	运维安全	https://mp.weixin.qq.com/s/zRPENsWRrL3s9fdUQUC1Dw	堡垒机的自动化功能实践-4	qq.com	mp.weixin.qq.com	/s/zRPENsWRrL3s9fdUQUC1Dw
+20190311	Web安全	https://nosec.org/home/detail/2335.html	利用WebSocket跨站劫持（CSWH）漏洞接管帐户	nosec.org	nosec.org	/home/detail/2335.html
+20190311	Web安全	https://brutelogic.com.br/blog/xss-limited-input-formats/	XSS in Limited Input Formats	brutelogic.com.br	brutelogic.com.br	/blog/xss-limited-input-formats/
+20190311	漏洞分析	https://quitten.github.io/StackStorm/	StackStorm - From Originull to RCE - CVE-2019-9580	github.io	quitten.github.io	/StackStorm/
+20190311	Web安全	https://ijustwannared.team/2019/03/11/browser-pivot-for-chrome/	劫持 Chrome 会话以绕过多因素认证	ijustwannared.team	ijustwannared.team	/2019/03/11/browser-pivot-for-chrome/
+20190311	Web安全	https://lucifaer.com/2019/03/11/Attack%20Spring%20Boot%20Actuator%20via%20jolokia%20Part%201/	Attack Spring Boot Actuator via jolokia Part 1	lucifaer.com	lucifaer.com	/2019/03/11/Attack%20Spring%20Boot%20Actuator%20via%20jolokia%20Part%201/
+20190311	数据挖掘	https://mp.weixin.qq.com/s/WD6A7Y9-4bPSysEm9QeXjg	暗网黑产交易中dark jargons(黑话)的检测与理解	qq.com	mp.weixin.qq.com	/s/WD6A7Y9-4bPSysEm9QeXjg
+20190311	数据挖掘	https://mp.weixin.qq.com/s/DCtKYK3Xw_pbdNCUF593Lg	使用Keras和Tensorflow检测恶意URL请求	qq.com	mp.weixin.qq.com	/s/DCtKYK3Xw_pbdNCUF593Lg
+20190311	Web安全	https://webrtchacks.com/fuzzing-janus/	通过 libFuzzer 对 Janus 进行 fuzzing	webrtchacks.com	webrtchacks.com	/fuzzing-janus/
+20190311	恶意分析	https://www.freebuf.com/articles/network/197574.html	软件供应链安全威胁：从“奥创纪元”到“无限战争”	freebuf.com	www.freebuf.com	/articles/network/197574.html
+20190311	设备安全	https://hakin9.org/how-i-hacked-my-xiaomi-miband-2-fitness-tracker%e2%80%8a-%e2%80%8aa-step-by-step-linux-guide-by-andrey-nikishaev/	如何进行对 Xiaomi MiBand 2 的攻击	hakin9.org	hakin9.org	/how-i-hacked-my-xiaomi-miband-2-fitness-tracker%e2%80%8a-%e2%80%8aa-step-by-step-linux-guide-by-andrey-nikishaev/
+20190311	Web安全	https://generaleg0x01.com/2019/03/10/escalating-ssrf-to-rce/	Escalating SSRF to RCE	generaleg0x01.com	generaleg0x01.com	/2019/03/10/escalating-ssrf-to-rce/
+20190311	Web安全	https://www.anquanke.com/post/id/172920	.NET高级代码审计（第二课） Json.Net反序列化漏洞	anquanke.com	www.anquanke.com	/post/id/172920
+20190311	数据挖掘	https://www.aqniu.com/vendor/44785.html	采用NLP机器学习来进行自动化合规风险治理	aqniu.com	www.aqniu.com	/vendor/44785.html
+20190311	运维安全	https://mp.weixin.qq.com/s/sAQV0NEdIf05ofIxcIp-zg	堡垒机的自动化功能实践-2	qq.com	mp.weixin.qq.com	/s/sAQV0NEdIf05ofIxcIp-zg
+20190311	其它	https://github.com/JarekMSFT/Presentations/blob/master/Getting%20to%2010K_Nullcon2019.pdf	MSRC 成员对 Microsoft bug bounty 的介绍、如何  润色  报告及获得更高的奖金	github.com	github.com	/JarekMSFT/Presentations/blob/master/Getting%20to%2010K_Nullcon2019.pdf
+20190311	移动安全	http://www.520monkey.com/archives/1319	Android逆向之旅—最右App的签名算法解析(ARM指令学习喜欢篇)	520monkey.com	www.520monkey.com	/archives/1319
+20190311	工具	https://github.com/CoreyD97/Stepper	Stepper: A natural evolution of Burp Suites Repeater tool	github.com	github.com	/CoreyD97/Stepper
+20190311	工具	https://github.com/0xpwntester/Sysmon	Sysmon configuration and scripts	github.com	github.com	/0xpwntester/Sysmon
+20190311	比赛	https://blog.skullsecurity.org/2019/some-crypto-challenges-author-writeup-from-bsidessf-ctf	some-crypto-challenges-author-writeup-from-bsidessf-ctf	skullsecurity.org	blog.skullsecurity.org	/2019/some-crypto-challenges-author-writeup-from-bsidessf-ctf
+20190311	Web安全	http://zeroyu.xyz/2019/03/11/NAVEX-Precise-and-Scalable-Exploit-Generation-for-Dynamic-Web-Applications/	NAVEX->Precise and Scalable Exploit Generation for Dynamic Web Applications	zeroyu.xyz	zeroyu.xyz	/2019/03/11/NAVEX-Precise-and-Scalable-Exploit-Generation-for-Dynamic-Web-Applications/
+20190311	运维安全	https://mp.weixin.qq.com/s/kRiIZSsKo0Hjtxu-6B6M8w	堡垒机的自动化功能实践-3	qq.com	mp.weixin.qq.com	/s/kRiIZSsKo0Hjtxu-6B6M8w
+20190311	工具	https://github.com/jgamblin/CarHackingTools	CarHackingTools: Install and Configure Common Car Hacking Tools.	github.com	github.com	/jgamblin/CarHackingTools
+20190311	恶意分析	https://tyranidslair.blogspot.com/2019/03/windows-object-case-sensitivity.html	windows-object-case-sensitivity	blogspot.com	tyranidslair.blogspot.com	/2019/03/windows-object-case-sensitivity.html
+20190311	恶意分析	https://www.fireeye.com/blog/threat-research/2019/03/clustering-and-associating-attacker-activity-at-scale.html	clustering-and-associating-attacker-activity-at-scale	fireeye.com	www.fireeye.com	/blog/threat-research/2019/03/clustering-and-associating-attacker-activity-at-scale.html
+20190311	取证分析	https://github.com/firecracker-microvm/firecracker	firecracker：Secure and fast microVMs for serverless computing	github.com	github.com	/firecracker-microvm/firecracker
+20190311	工具	https://medium.com/@0x0FFB347/writing-a-password-protected-reverse-shell-linux-x64-5f4d3a28d91a	Writing a Password Protected Reverse Shell (Linux/x64)	medium.com	medium.com	/@0x0FFB347/writing-a-password-protected-reverse-shell-linux-x64-5f4d3a28d91a
+20190311	恶意分析	https://cflaws.blog/2019/03/10/ramblings-about-mitre-attck-carbonblack-response-and-powershell/	Ramblings about MITRE ATT&CK, CarbonBlack Response, and Powershell	cflaws.blog	cflaws.blog	/2019/03/10/ramblings-about-mitre-attck-carbonblack-response-and-powershell/
+20190311	Web安全	https://github.com/si9int/OFFSEC-Archive/blob/master/web/Inserting%20arbitrary%20files%20into%20Google%20Earth%20Projects%20Archives.pdf	Inserting arbitrary files into Google Earth Projects Archives	github.com	github.com	/si9int/OFFSEC-Archive/blob/master/web/Inserting%20arbitrary%20files%20into%20Google%20Earth%20Projects%20Archives.pdf
+20190311	恶意分析	https://www.securityartwork.es/2019/03/13/orangeworm-group-kwampirs-analysis-update/	orangeworm-group-kwampirs-analysis-update	securityartwork.es	www.securityartwork.es	/2019/03/13/orangeworm-group-kwampirs-analysis-update/

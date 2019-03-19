@@ -4,6 +4,7 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf8')
 import logging
+import re
 
 from bs4 import BeautifulSoup
 
@@ -51,6 +52,50 @@ def scraw(so, proxy=None, delta=2):
 
                         overview = {}
 
+                        card_title = row.find("h5", class_="card-title")
+                        if card_title:
+                            card_title_text = strip_n(card_title.get_text())
+                            card_title_url = card_title.find("a", class_="text-dark").get("href")
+                            overview["title_english"] = card_title_text
+                            sec_url = "https://sec.today%s" % card_title_url
+
+                            url_details = get_redirect_url(sec_url, root_dir="data/sec_url",
+                                                           issql=False, proxy=proxy)
+                            if url_details:
+                                overview["url"] = url_details.get("url")
+                                overview["domain"] = url_details.get("domain")
+                            else:
+                                overview["url"] = sec_url
+
+                        card_text_chinese = row.find("p", class_="card-text my-1")
+                        if card_text_chinese:
+                            card_text_chinese = strip_n(card_text_chinese.find("q").get_text())
+                            overview["title"] = card_text_chinese
+
+                        card_text = row.find("small", class_=re.compile(r"card-subtitle"))
+                        if card_text:
+
+
+                            card_text_domain = strip_n(card_text.get_text())
+                            domain = parse_domain_tag(card_text_domain)
+                            if domain:
+                                overview["domain"] = domain
+                                overview["domain_name"] = str(get_title(overview["domain"], proxy=proxy))
+
+
+
+                            card_text_types = card_text.find_all("span", class_=re.compile(r"badge-tag"))
+                            if card_text_types:
+                                tags = []
+                                for card_text_type in card_text_types:
+                                    card_text_type = strip_n(card_text_type.get_text())
+                                    if card_text_type:
+                                        tags.append(card_text_type)
+                                overview["tag"] = ",".join(tags)
+
+
+
+
                         card_text_ts = row.find("cite")
                         if card_text_ts:
                             card_text_ts = strip_n(card_text_ts.get_text())
@@ -67,50 +112,14 @@ def scraw(so, proxy=None, delta=2):
 
                                 continue
 
-                        card_title = row.find("h5", class_="card-title")
-                        if card_title:
-                            card_title_text = strip_n(card_title.get_text())
-                            card_title_url = card_title.find("a", class_="text-dark").get("href")
-                            overview["title_english"] = card_title_text
-                            sec_url = "https://sec.today%s" % card_title_url
-
-                            url_details = get_redirect_url(sec_url, root_dir="data/sec_url",
-                                                           issql=False, proxy=proxy)
-                            if url_details:
-                                overview["url"] = url_details.get("url")
-                                overview["domain"] = url_details.get("domain")
-                            else:
-                                overview["url"] = sec_url
-
-
-                        card_text = row.find("div", class_="card-text")
-                        if card_text:
-                            card_text_types = card_text.find_all("span", class_="pulse-tags-display")
-                            if card_text_types:
-                                tags = []
-                                for card_text_type in card_text_types:
-                                    card_text_type = strip_n(card_text_type.get_text())
-                                    if card_text_type:
-                                        tags.append(card_text_type)
-                                overview["tag"] = ",".join(tags)
-
-                            card_text_domain = card_text.find("small", class_="text-muted")
-
-                            if card_text_domain:
-                                card_text_domain = strip_n(card_text_domain.get_text())
-                                domain = parse_domain_tag(card_text_domain)
-                                if domain:
-                                    overview["domain"] = domain
-                                    overview["domain_name"] = str(get_title(overview["domain"], proxy=proxy))
 
 
 
 
 
-                        card_text_chinese = row.find("p", class_="card-text my-1")
-                        if card_text_chinese:
-                            card_text_chinese = strip_n(card_text_chinese.find("q").get_text())
-                            overview["title"] = card_text_chinese
+
+
+
 
                         if overview:
                             sql = d2sql(overview, table="xuanwu_today_detail", action="INSERT OR IGNORE ")
