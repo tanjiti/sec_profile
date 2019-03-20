@@ -13,6 +13,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 阿里巴巴机器智能 |  | https://mp.weixin.qq.com/s/kv-ZrOF4nnxXoQwFOodzjA | 异常检测的N种方法，阿里工程师都盘出来了 | 1| 
 | Alfred数据室 | Alfred_Lab | https://mp.weixin.qq.com/s/j1kgf2RR7jssbWa7uWC-uA | 用大数据扒一扒蔡徐坤的真假流量粉 | Alfred数据室 | 1| 
 | 中通安全应急响应中心 | ZTO_SRC | https://mp.weixin.qq.com/s/inANTt-97Rjfr6Rf5lJ07A | 中通内网安全之外发流量管理 | 1| 
 | 仙人掌情报站 | sec-cactus | https://mp.weixin.qq.com/s/vxQpnWKBYxzM4aZ3kFw4UA | 董祎铖：态势感知从入坑到重生 | 1| 
@@ -21,7 +22,7 @@
 | 数据安全与取证 | Cflab_net | https://mp.weixin.qq.com/s/ES83wSU-WBrUONGjCN6jYw | 果断收藏！电子取证最全清单 | 1| 
 | 绿盟科技研究通讯 | nsfocus_research | https://mp.weixin.qq.com/s/1-yCu8dvp5GzOfK1i4LIhg | 【RSA2019创新沙盒回顾】技术层面看RSA的创新沙盒 | 1| 
 | 网安一起行_上海网警 | shanghaiwangjing | https://mp.weixin.qq.com/s/gAS2cFaWMUdY0s6sT6ZtHw | 一图看懂网络安全执法检查 | 1| 
-| 安全学术圈 | secquan | https://mp.weixin.qq.com/s/bvQo-VHWdOEisR2adxx6yA | Abusing Web Browsers for Persistent and Stealthy Computation | 2| 
+| 安全学术圈 | secquan | https://mp.weixin.qq.com/s/bvQo-VHWdOEisR2adxx6yA | Abusing Web Browsers for Persistent and Stealthy Computation | 3| 
 | 腾讯安全应急响应中心 | tsrc_team | https://mp.weixin.qq.com/s/rjcOK3A83oKHkpNgbm9Lbg | AI繁荣下的隐忧——Google Tensorflow安全风险剖析 | 1| 
 | Ms08067安全实验室 | Ms08067_com | https://mp.weixin.qq.com/s/xGYfxdp_TQmXiuWvC1sN-g | 步步为营之游走于内网 | 1| 
 | 凌天实验室 |  | https://mp.weixin.qq.com/s/59Bj4qk-ClV2eqLu8SKniQ | Cobalt Strike 证书修改 | 1| 
