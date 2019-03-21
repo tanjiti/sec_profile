@@ -13,6 +13,10 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| DI数据智能 |  | https://mp.weixin.qq.com/s/z6Gfdp6ly0WdKjbrvhCACw | 基于对抗生成式模仿学习的实体和事件的联合抽取 | 1| 
+| 二当家的12138 |  | https://mp.weixin.qq.com/s/z6Al0LT8Kqw_p_onhTyV2w | S&P 2019 （四）1~2月份议题速览 | 1| 
+| 数字观星 | shuziguanxing | https://mp.weixin.qq.com/s/ehO5UWBlGuLmFCSPef_oyw | 春分 | 宜驱退灰暗威胁，忌大意无动于衷 | 1| 
+| 爱奇艺安全应急响应中心 | iqiyi_71src | https://mp.weixin.qq.com/s/TGswXl9cuwlRmaVsZs46hA | 堡垒机：爱奇艺海量服务器安全运维平台的建设 | 1| 
 | 阿里巴巴机器智能 |  | https://mp.weixin.qq.com/s/kv-ZrOF4nnxXoQwFOodzjA | 异常检测的N种方法，阿里工程师都盘出来了 | 1| 
 | Alfred数据室 | Alfred_Lab | https://mp.weixin.qq.com/s/j1kgf2RR7jssbWa7uWC-uA | 用大数据扒一扒蔡徐坤的真假流量粉 | Alfred数据室 | 1| 
 | 中通安全应急响应中心 | ZTO_SRC | https://mp.weixin.qq.com/s/inANTt-97Rjfr6Rf5lJ07A | 中通内网安全之外发流量管理 | 1| 
@@ -26,7 +30,7 @@
 | 腾讯安全应急响应中心 | tsrc_team | https://mp.weixin.qq.com/s/rjcOK3A83oKHkpNgbm9Lbg | AI繁荣下的隐忧——Google Tensorflow安全风险剖析 | 1| 
 | Ms08067安全实验室 | Ms08067_com | https://mp.weixin.qq.com/s/xGYfxdp_TQmXiuWvC1sN-g | 步步为营之游走于内网 | 1| 
 | 凌天实验室 |  | https://mp.weixin.qq.com/s/59Bj4qk-ClV2eqLu8SKniQ | Cobalt Strike 证书修改 | 1| 
-| 安在 | AnZer_SH | https://mp.weixin.qq.com/s/LOrxA4EUB9xecvelTeBQKg | 新锐 | 盛华安张颖：左手SIEM右手服装设计的美女博士 | 1| 
+| 安在 | AnZer_SH | https://mp.weixin.qq.com/s/LOrxA4EUB9xecvelTeBQKg | 新锐 | 盛华安张颖：左手SIEM右手服装设计的美女博士 | 2| 
 | 数说安全 | SSAQ2016 | https://mp.weixin.qq.com/s/agrm_Xgi1GJP3vmCiL4aVg | 2019年全球网络安全热词排行榜 | 2| 
 | 丁爸 情报分析师的工具箱 | dingba2016 | https://mp.weixin.qq.com/s/_ndxkqPfgPjaT_fD82RVvQ | 【情报】数字化时代与美国情报部门的开源信息利用 | 1| 
 | 美团技术团队 | meituantech | https://mp.weixin.qq.com/s/inKDcHLaP4M2ZbpxACORXw | 根因分析初探：一种报警聚类算法在业务系统的落地实施 | 1| 
@@ -40,6 +44,7 @@
 | appsecco | using-docker-kubernetes-for-automating-appsec-and-osint-wo... | https://github.com/appsecco/using-docker-kubernetes-for-automating-appsec-and-osint-workflows | http://appsecco.com | PRAGMATIC SECURITY ADVICE. PRACTICAL HELP. KEEPING YOU SAFE. | London, Bangalore, Boston | 31 | 5 | 0 | Shell,Python,JavaScript,Visual,HTML,ActionScript,PHP,CSS | 357 | 97 | 1| 
 | facebook | 通过同态散列算法安全地发布更新 - https://code.fb.com/security/homomorphic-hashing/ | https://github.com/facebook/folly/blob/master/folly/experimental/crypto/LtHash.cpp | https://opensource.fb.com | We are working to build community through open source technology. NB: members must have two-factor auth. | Menlo Park, California | 161 | 187 | 0 | C,TypeScript,Java,Python,JavaScript,OCaml,C++,Objective-C,Swift | 0 | 0 | 1| 
 | RUB-NDS | TLS-Attacker-BurpExtension - 检测 TLS 安全的BurpSuite 插件 | https://github.com/RUB-NDS/TLS-Attacker-BurpExtension | https://www.nds.ruhr-uni-bochum.de/ | Research and development at the Chair for Network and Data Security concentrates on cryptographic protocols, Internet and XML security. | Ruhr University Bochum | 57 | 7 | 0 | Python,CoffeeScript,PHP,Java,C++ | 0 | 0 | 1| 
+| fireeye | FireEye 开源 Windows 事件追踪辅助工具 - SilkETW | https://github.com/fireeye/SilkETW | http://blog.fireeye.com |  | Milpitas, CA | 44 | 1 | 0 | C,Vue,Python,C++,C#,Visual,Go,PowerShell,CSS | 0 | 0 | 1| 
 | HexHive | SMoTherSpectre PoC | https://github.com/HexHive/SMoTherSpectre | http://hexhive.github.io | Enforcing memory safety guarantees and type safety guarantees at the compiler and runtime level | http://hexhive.github.io | 23 | 2 | 0 | Python,C,HTML,Brainfuck,C++ | 0 | 0 | 1| 
 | 360-A-Team | LuWu: 红队基础设施自动化部署工具 | https://github.com/360-A-Team/LuWu | mailto:cert@360.net | 360 A-TEAM is a research team affiliated with 360 ESG. Committed to Web security, APT offensive and defensive, forward-looking attack and defense tools research | cert@360.net | 14 | 3 | 0 | C,Shell,Java,Python,C++,Go,PowerShell | 0 | 0 | 1| 
 | SafeBreach-Labs | SirepRAT: Remote Command Execution as SYSTEM on Windows Io... | https://github.com/SafeBreach-Labs/SirepRAT | http://www.safebreach.com | SafeBreach Labs | Worldwide | 12 | 2 | 0 | Python,Shell | 0 | 0 | 1| 
@@ -72,6 +77,7 @@
 | MichaelGrafnetter | 使用 DSInternal 离线攻击活动目录：https://www.dsinternals.com/wp-content/uploads/HIP_AD_Offline_Attacks.pdf | https://github.com/MichaelGrafnetter/DSInternals/releases | https://www.dsinternals.com |  | Prague, Czech Republic | None | 5 | 0 | 9 | 43 | 0 | C# | 339 | 64 | 1| 
 | zznop | bn-genesis - 协助分析 SEGA Genesis ROM 的 Binary Ninja 插件 | https://github.com/zznop/bn-genesis | None |  | Dayton, Ohio | None | 12 | 0 | 116 | 36 | 17 | Python,Java,C,Assembly | 71 | 12 | 1| 
 | ze0r | Win32k 特权提升漏洞 CVE-2018-8639 漏洞利用 | https://github.com/ze0r/CVE-2018-8639-exp/ | None |  | None | None | 3 | 0 | 2 | 34 | 3 | Python,C++ | 53 | 28 | 1| 
+| dsnezhkov | zombieant - 逃避 Linux EDR 检测的工具 | https://github.com/dsnezhkov/zombieant/ | None |  | None | None | 33 | 0 | 170 | 33 | 8 | C#,Python,C,Go,C++ | 78 | 16 | 1| 
 | codemayq | 中文公开聊天语料库 | https://github.com/codemayq/chaotbot_corpus_Chinese | None | new bird in nlp | Beijing China | Peking University | 3 | 0 | 203 | 31 | 11 | Python | 253 | 80 | 1| 
 | AdrianVollmer | PowerHub - 辅助 PowerSploit 绕过杀毒软件检测和应用白名单的 Web 应用 | https://github.com/AdrianVollmer/PowerHub | https://github.com/SySS-Research | @mr_mitm | Tübingen, Germany | SySS GmbH @SySS-Research | 8 | 0 | 33 | 29 | 13 | Python,C,Ruby,PowerShell | 126 | 15 | 1| 
 | BusesCanFly | Automate discovering and dropping payloads on LAN Raspberr... | https://github.com/BusesCanFly/rpi-hunter | None | I make things, I break things. ¯\_(ツ)_/¯ ‮‮‮ | Somewhere in a linux server | None | 5 | 0 | 416 | 26 | 58 | Python,CSS | 129 | 21 | 1| 
