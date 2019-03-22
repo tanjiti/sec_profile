@@ -13,6 +13,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 中科院信息科技战略情报 | xxkjzlqb | https://mp.weixin.qq.com/s/FHPhXYTeDlkAZ42N7-XVaQ | 美公布2020财年预算 国防部96亿美元资助网络活动 | 1| 
+| 安天 | Antiylab | https://mp.weixin.qq.com/s/S0D3GPmhOKu65KAPpL_i_g | 国际黑产组织针对部分东亚国家金融从业者攻击活动的报告 | 1| 
 | DI数据智能 |  | https://mp.weixin.qq.com/s/z6Gfdp6ly0WdKjbrvhCACw | 基于对抗生成式模仿学习的实体和事件的联合抽取 | 1| 
 | 二当家的12138 |  | https://mp.weixin.qq.com/s/z6Al0LT8Kqw_p_onhTyV2w | S&P 2019 （四）1~2月份议题速览 | 1| 
 | 数字观星 | shuziguanxing | https://mp.weixin.qq.com/s/ehO5UWBlGuLmFCSPef_oyw | 春分 | 宜驱退灰暗威胁，忌大意无动于衷 | 1| 
@@ -26,12 +28,12 @@
 | 数据安全与取证 | Cflab_net | https://mp.weixin.qq.com/s/ES83wSU-WBrUONGjCN6jYw | 果断收藏！电子取证最全清单 | 1| 
 | 绿盟科技研究通讯 | nsfocus_research | https://mp.weixin.qq.com/s/1-yCu8dvp5GzOfK1i4LIhg | 【RSA2019创新沙盒回顾】技术层面看RSA的创新沙盒 | 1| 
 | 网安一起行_上海网警 | shanghaiwangjing | https://mp.weixin.qq.com/s/gAS2cFaWMUdY0s6sT6ZtHw | 一图看懂网络安全执法检查 | 1| 
-| 安全学术圈 | secquan | https://mp.weixin.qq.com/s/bvQo-VHWdOEisR2adxx6yA | Abusing Web Browsers for Persistent and Stealthy Computation | 3| 
+| 安全学术圈 | secquan | https://mp.weixin.qq.com/s/bvQo-VHWdOEisR2adxx6yA | Abusing Web Browsers for Persistent and Stealthy Computation | 4| 
 | 腾讯安全应急响应中心 | tsrc_team | https://mp.weixin.qq.com/s/rjcOK3A83oKHkpNgbm9Lbg | AI繁荣下的隐忧——Google Tensorflow安全风险剖析 | 1| 
 | Ms08067安全实验室 | Ms08067_com | https://mp.weixin.qq.com/s/xGYfxdp_TQmXiuWvC1sN-g | 步步为营之游走于内网 | 1| 
 | 凌天实验室 |  | https://mp.weixin.qq.com/s/59Bj4qk-ClV2eqLu8SKniQ | Cobalt Strike 证书修改 | 1| 
 | 安在 | AnZer_SH | https://mp.weixin.qq.com/s/LOrxA4EUB9xecvelTeBQKg | 新锐 | 盛华安张颖：左手SIEM右手服装设计的美女博士 | 2| 
-| 数说安全 | SSAQ2016 | https://mp.weixin.qq.com/s/agrm_Xgi1GJP3vmCiL4aVg | 2019年全球网络安全热词排行榜 | 2| 
+| 数说安全 | SSAQ2016 | https://mp.weixin.qq.com/s/agrm_Xgi1GJP3vmCiL4aVg | 2019年全球网络安全热词排行榜 | 3| 
 | 丁爸 情报分析师的工具箱 | dingba2016 | https://mp.weixin.qq.com/s/_ndxkqPfgPjaT_fD82RVvQ | 【情报】数字化时代与美国情报部门的开源信息利用 | 1| 
 | 美团技术团队 | meituantech | https://mp.weixin.qq.com/s/inKDcHLaP4M2ZbpxACORXw | 根因分析初探：一种报警聚类算法在业务系统的落地实施 | 1| 
 
@@ -84,6 +86,7 @@
 | si9int | Inserting arbitrary files into Google Earth Projects Archives | https://github.com/si9int/OFFSEC-Archive/blob/master/web/Inserting%20arbitrary%20files%20into%20Google%20Earth%20Projects%20Archives.pdf | https://si9int.sh | Whitehat in own definition. | None | None | 8 | 0 | 18 | 23 | 0 | Python | 173 | 27 | 1| 
 | chrisnas | DebuggingExtensions - 一款可以用于 Windows 和 Linux 的 .NET Core 控制台的调试工具 | https://github.com/chrisnas/DebuggingExtensions/releases/tag/v1.6 | None |  | None | None | 9 | 0 | 2 | 18 | 1 | C#,PowerShell | 102 | 13 | 1| 
 | wish-i-was | femida: Automated blind-xss search for Burp Suite | https://github.com/wish-i-was/femida | None | Twitter https://twitter.com/wish_iwas | None | None | 1 | 0 | 1 | 16 | 2 | Python | 90 | 22 | 1| 
+| alexfrancow | A-Detector: An anomaly-based intrusion detection system. | https://github.com/alexfrancow/A-Detector | https://twitter.com/alexfrancow | SysAdmin, Pentester and Python developer. Future OSCP and computer engineer. | A Coruña, Spain | None | 20 | 0 | 44 | 14 | 13 | Python,Ruby | 24 | 1 | 1| 
 | Bypass007 | Nessus_to_report: Nessus中文报告自动化脚本 | https://github.com/Bypass007/Nessus_to_report | None | A free man | None | None | 4 | 0 | 2 | 13 | 0 | Python | 37 | 14 | 1| 
 | stevenaldinger | stevenaldinger/decker: Declarative penetration testing orc... | https://github.com/stevenaldinger/decker | https://www.linkedin.com/in/steven-aldinger-7a32a774/ |  | None | None | 50 | 0 | 48 | 13 | 8 | Go,Shell,Dockerfile | 142 | 7 | 1| 
 | CoreyD97 | Stepper: A natural evolution of Burp Suites Repeater tool | https://github.com/CoreyD97/Stepper | https://github.com/nccgroup | Security Consultant @nccgroup UK. | United Kingdom | NCC Group | 8 | 0 | 6 | 12 | 2 | JavaScript,Java | 18 | 3 | 1| 
@@ -93,6 +96,7 @@
 | 0xpwntester | Sysmon configuration and scripts | https://github.com/0xpwntester/Sysmon | None |  | None | None | 9 | 0 | 5 | 9 | 3 | ASP,Python,C++,C#,Batchfile,PowerShell | 45 | 9 | 1| 
 | grigoritchy | (browser exploit)Webkit JavascriptCore array unshift race condition, it leads to RCE. | https://github.com/grigoritchy/unshift-racy | None |  | None | None | 1 | 0 | 0 | 7 | 0 | JavaScript | 11 | 4 | 1| 
 | Frint0 | email-enum - 通过搜索主流社交网站判断邮箱是否注册的工具 | https://github.com/Frint0/email-enum | https://pwnable.club | Pro Expert Elite Master Hacker | Los Angeles | None | 3 | 0 | 1 | 5 | 1 | Python,CSS | 167 | 27 | 1| 
+| JuxhinDB | OOB-Server: A Bind9 server for pentesters to use for Out-o... | https://github.com/JuxhinDB/OOB-Server | https://blog.digital-horror.com |  | Malta | None | 12 | 0 | 49 | 5 | 2 | Python,Shell,Java,Rust | 32 | 11 | 1| 
 | JarekMSFT | MSRC 成员对 Microsoft bug bounty 的介绍、如何 润色 报告及获得更高的奖金 | https://github.com/JarekMSFT/Presentations/blob/master/Getting%20to%2010K_Nullcon2019.pdf | None |  | None | None | 2 | 0 | 0 | 2 | 0 |  | 3 | 1 | 1| 
 | BloodHoundAD | 域渗透神器 BloodHound2.1.0 发布 | https://github.com/BloodHoundAD/BloodHound/releases/tag/2.1.0 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C#,Python,PowerShell | 0 | 0 | 1| 
 | firecracker-microvm | firecracker：Secure and fast microVMs for serverless computing | https://github.com/firecracker-microvm/firecracker | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Shell,Rust | 0 | 0 | 1| 
