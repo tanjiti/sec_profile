@@ -13,6 +13,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 51CTO技术栈 | blog51cto | https://mp.weixin.qq.com/s/UV6NoI6-Y3Zh4BR-m5jP8w | 让Elasticsearch飞起来！百亿级实时查询优化实战 | 1| 
 | 中科院信息科技战略情报 | xxkjzlqb | https://mp.weixin.qq.com/s/FHPhXYTeDlkAZ42N7-XVaQ | 美公布2020财年预算 国防部96亿美元资助网络活动 | 1| 
 | 安天 | Antiylab | https://mp.weixin.qq.com/s/S0D3GPmhOKu65KAPpL_i_g | 国际黑产组织针对部分东亚国家金融从业者攻击活动的报告 | 1| 
 | DI数据智能 |  | https://mp.weixin.qq.com/s/z6Gfdp6ly0WdKjbrvhCACw | 基于对抗生成式模仿学习的实体和事件的联合抽取 | 1| 
@@ -34,7 +35,7 @@
 | 凌天实验室 |  | https://mp.weixin.qq.com/s/59Bj4qk-ClV2eqLu8SKniQ | Cobalt Strike 证书修改 | 1| 
 | 安在 | AnZer_SH | https://mp.weixin.qq.com/s/LOrxA4EUB9xecvelTeBQKg | 新锐 | 盛华安张颖：左手SIEM右手服装设计的美女博士 | 2| 
 | 数说安全 | SSAQ2016 | https://mp.weixin.qq.com/s/agrm_Xgi1GJP3vmCiL4aVg | 2019年全球网络安全热词排行榜 | 3| 
-| 丁爸 情报分析师的工具箱 | dingba2016 | https://mp.weixin.qq.com/s/_ndxkqPfgPjaT_fD82RVvQ | 【情报】数字化时代与美国情报部门的开源信息利用 | 1| 
+| 丁爸 情报分析师的工具箱 | dingba2016 | https://mp.weixin.qq.com/s/_ndxkqPfgPjaT_fD82RVvQ | 【情报】数字化时代与美国情报部门的开源信息利用 | 2| 
 | 美团技术团队 | meituantech | https://mp.weixin.qq.com/s/inKDcHLaP4M2ZbpxACORXw | 根因分析初探：一种报警聚类算法在业务系统的落地实施 | 1| 
 
 
