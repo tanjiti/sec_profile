@@ -37,6 +37,7 @@ def scraw(so, proxy=None, delta=3):
         try:
             soup = BeautifulSoup(r.content, 'lxml')
 
+
         except Exception as e:
             logging.error("GET %s  failed : %s" % (url, repr(e)))
             return
