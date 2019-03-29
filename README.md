@@ -15,7 +15,7 @@
 | --- | --- | --- | ---| 
 | 信安之路 | xazlsec | https://mp.weixin.qq.com/s/5gwJpqj7ysue19OcoPI16A | IoT 设备固件分析之网络协议 fuzz | 1| 
 | 天融信阿尔法实验室 |  | https://mp.weixin.qq.com/s/RL8_kDoHcZoED1G_BBxlWw | PHP内核层解析反序列化漏洞 | 1| 
-| 360威胁情报中心 |  | https://mp.weixin.qq.com/s/p2pmW_JH7DgPt5o-HYmTpw | KBuster：以伪造韩国银行APP的韩国黑产活动披露 | 1| 
+| 360威胁情报中心 |  | https://mp.weixin.qq.com/s/p2pmW_JH7DgPt5o-HYmTpw | KBuster：以伪造韩国银行APP的韩国黑产活动披露 | 2| 
 | 蓝海科学 | BlueOceanScience | https://mp.weixin.qq.com/s/MOJCYDN-W9KObOZpc6kx1g | Google 基础架构安全设计概述 | 1| 
 | 51CTO技术栈 | blog51cto | https://mp.weixin.qq.com/s/UV6NoI6-Y3Zh4BR-m5jP8w | 让Elasticsearch飞起来！百亿级实时查询优化实战 | 1| 
 | DI数据智能 |  | https://mp.weixin.qq.com/s/z6Gfdp6ly0WdKjbrvhCACw | 基于对抗生成式模仿学习的实体和事件的联合抽取 | 1| 
@@ -61,6 +61,8 @@
 | Coalfire-Research | npk - 由 AWS 无服务器组件实现的分布式散列破解平台 | https://github.com/Coalfire-Research/npk | http://www.coalfirelabs.com | Advancing the state of the Infosec industry by providing cutting-edge research, open-source tools and tradecraft | http://www.coalfirelabs.com | 13 | 0 | 0 | C,Python,JavaScript,Lua,PowerShell,HCL | 0 | 0 | 1| 
 | SafeBreach-Labs | SirepRAT: Remote Command Execution as SYSTEM on Windows Io... | https://github.com/SafeBreach-Labs/SirepRAT | http://www.safebreach.com | SafeBreach Labs | Worldwide | 12 | 2 | 0 | Python,Shell | 0 | 0 | 1| 
 | RhinoSecurityLabs | CVE-2018-8024: Apache Spark XSS vulnerability in UI | https://github.com/RhinoSecurityLabs/CVEs/tree/master/CVE-2018-8024 | https://rhinosecuritylabs.com | A boutique penetration testing and security assessment firm in Seattle, WA. | Seattle, WA | 10 | 0 | 0 | Python,JavaScript,PowerShell,HCL | 0 | 0 | 1| 
+| GhostPack | harmj0y开源了 DPAPI 的 C#实现工具，关于DPAPI 的作用可以配合https://www.harmj0y.net/blog/redteaming/operational-guidance-for-offensive-user-dpapi-abuse/这篇文章一起食用 | https://github.com/GhostPack/SharpDPAPI | None | A collection of security related toolsets. | None | 8 | 0 | 0 | C# | 0 | 0 | 1| 
+| mitre-attack | BZAR - 使用 Bro/Zeek 网络安全监控检测 ATT&CK 活动的项目 | https://github.com/mitre-attack/car/tree/master/implementations/bzar | mailto:attack@mitre.org |  | attack@mitre.org | 6 | 0 | 0 | Bro,TypeScript,HTML,Python,JavaScript | 0 | 0 | 1| 
 | BSidesSF | BSidesSF CTF 2019 源码、DockerFile 及解决方案发布 | https://github.com/BSidesSF/ctf-2019-release/tree/master/challenges | https://bsidessf.org | Security BSides San Francisco | San Francisco, CA | 4 | 4 | 0 | C,HTML,Ruby,CSS | 0 | 0 | 1| 
 
 
@@ -105,6 +107,7 @@
 | imjdl | SearchApp: 小型网络空间搜索引擎 | https://github.com/imjdl/SearchApp | http://blog.blackarch.xyz | Read The Fucking Source Code | China | undergraduate | 103 | 0 | 280 | 29 | 141 | C,Shell,XSLT,Python,C#,PHP,PowerShell,CSS | 45 | 9 | 1| 
 | BusesCanFly | Automate discovering and dropping payloads on LAN Raspberr... | https://github.com/BusesCanFly/rpi-hunter | None | I make things, I break things. ¯\_(ツ)_/¯ ‮‮‮ | Somewhere in a linux server | None | 5 | 0 | 416 | 26 | 58 | Python,CSS | 129 | 21 | 1| 
 | si9int | Inserting arbitrary files into Google Earth Projects Archives | https://github.com/si9int/OFFSEC-Archive/blob/master/web/Inserting%20arbitrary%20files%20into%20Google%20Earth%20Projects%20Archives.pdf | https://si9int.sh | Whitehat in own definition. | None | None | 8 | 0 | 18 | 23 | 0 | Python | 173 | 27 | 1| 
+| Darkabode | zerokit - GAPZ Bootkit 源码 | https://github.com/Darkabode/zerokit | None |  | None | None | 6 | 0 | 0 | 18 | 0 | C,Java,C++ | 84 | 33 | 1| 
 | chrisnas | DebuggingExtensions - 一款可以用于 Windows 和 Linux 的 .NET Core 控制台的调试工具 | https://github.com/chrisnas/DebuggingExtensions/releases/tag/v1.6 | None |  | None | None | 9 | 0 | 2 | 18 | 1 | C#,PowerShell | 102 | 13 | 1| 
 | wish-i-was | femida: Automated blind-xss search for Burp Suite | https://github.com/wish-i-was/femida | None | Twitter https://twitter.com/wish_iwas | None | None | 1 | 0 | 1 | 16 | 2 | Python | 90 | 22 | 1| 
 | alexfrancow | A-Detector: An anomaly-based intrusion detection system. | https://github.com/alexfrancow/A-Detector | https://twitter.com/alexfrancow | SysAdmin, Pentester and Python developer. Future OSCP and computer engineer. | A Coruña, Spain | None | 20 | 0 | 44 | 14 | 13 | Python,Ruby | 24 | 1 | 1| 
