@@ -1,4 +1,4 @@
-Python	44
+Python	45
 C	24
 JavaScript	20
 C++	20
@@ -21,6 +21,7 @@ HCL	2
 Emacs	2
 Jupyter	2
 Batchfile	2
+Swift	2
 Vim	2
 ActionScript	2
 Objective-C++	1
@@ -35,7 +36,6 @@ Vue	1
 XSLT	1
 CMake	1
 FreeMarker	1
-Swift	1
 OCaml	1
 Bro	1
 F#	1
