@@ -303,6 +303,8 @@ def draw_readme(fpath=None):
     with codecs.open(fpath, mode='wb') as fr:
         fr.write("# [数据年报](README_YEAR.md)")
         fr.write(os.linesep)
+        fr.write("# [数据月报-3月](README_3.md)")
+        fr.write(os.linesep)
         fr.write('# %s 信息源与信息类型占比' % year)
         fr.write(os.linesep)
         fr.write('![{year}-信息源占比-secwiki](data/img/domain/{year}-信息源占比-secwiki.png)'.
