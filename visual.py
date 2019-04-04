@@ -341,5 +341,5 @@ def draw_readme(fpath=None):
 if __name__ == "__main__":
     """
     """
-    fpath = "README.md"
+    fpath = "README_3.md"
     draw_readme(fpath)
