@@ -277,7 +277,7 @@ def draw_readme(fpath=None):
     so = SQLiteOper("data/scrap.db")
     year = get_special_date(delta=0, format="%Y%m")
     # update
-    #year='201903'
+
     main_pie(year)
 
     # update weixin,github
@@ -342,4 +342,4 @@ if __name__ == "__main__":
     """
     """
     fpath = "README.md"
-    draw_readme(fpath)
+    draw_readme()
