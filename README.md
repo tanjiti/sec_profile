@@ -14,6 +14,10 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 半佛仙人 | banfoSB | https://mp.weixin.qq.com/s/AK6_wP_JtMW5DxzRyWaXXg | 屠夫遇上路霸丨揭秘高利贷与黑产的血色战争 | 1| 
+| 图灵人工智能 | TuringAI01 | https://mp.weixin.qq.com/s/Yd0wjUQ03XINnMFLkPkBJg | 人工智能的现状与未来 | 1| 
+| 格友 |  | https://mp.weixin.qq.com/s/3Ft6205f8kUoCuGzB-hPtg | 在调试器里看QQLive捉迷藏 | 1| 
+| 集智俱乐部 | swarma_org | https://mp.weixin.qq.com/s/vsCAE-6e0jpX8wPw6Sd9eA | 使用深度神经网络对 Twitter进行威胁检测 | 网络科学论文速递16篇 | 1| 
 | 360核心安全 | CoreSec360 | https://mp.weixin.qq.com/s/r-jAWFjtOxgd-JyVStFvsg | APT战争中脚本攻击的兵法之道 | 1| 
 | 安全学术圈 | secquan | https://mp.weixin.qq.com/s/ZHcikLKeF9ZJg9kyrX-UrA | S&P 2019 论文录用列表 | 1| 
 | 网安国际 | inforsec | https://mp.weixin.qq.com/s/enasXD14SMzj1Cx5grGD3w | 谁劫持了我的DNS：全球域名解析路径劫持测量与分析 | 1| 
@@ -39,6 +43,7 @@
 | zer0yu | 网络空间安全的RSS订阅 | https://github.com/zer0yu/CyberSecurityRSS | http://zeroyu.xyz/ | Every light needs a shadow. You just have to learn how to control it,use it when you need it. | None | None | 28 | 0 | 1900 | 162 | 1100 | Python,C,CSS | 44 | 16 | 1| 
 | djhohnstein | CSharpSetThreadContext - 由 C# 开发的通过 CreateRemoteThread 和 SetThreadContext 执行shellcode 以逃避 Get-InjectedThread 检测的工具 | https://github.com/djhohnstein/CSharpSetThreadContext | https://popeax.io | Operator at SpecterOps. Kali Contributor. | Seattle, WA | None | 48 | 0 | 5 | 130 | 2 | C# | 154 | 35 | 1| 
 | Mattiwatti | EfiGuard - x64 UEFI bootkit，在启动时修补 Windows 启动管理器以禁用 PatchGuard 和驱动程序签名验证(DSE) | https://github.com/Mattiwatti/EfiGuard | None |  | The Netherlands | None | 19 | 0 | 13 | 87 | 3 | C,Assembly,C++ | 227 | 61 | 1| 
+| 0x36 | iOS上的沙箱逃逸漏洞（A11平台，版本<12.2） | https://github.com/0x36/powend | None | . | Morocco | None | 6 | 0 | 23 | 79 | 0 | C,Makefile | 138 | 36 | 1| 
 | DimopoulosElias | alpc-mmc-uac-bypass - 通过 ALPC 绕过 UAC 的项目 | https://github.com/DimopoulosElias/alpc-mmc-uac-bypass | https://www.linkedin.com/in/dimopouloselias |  | None | None | 5 | 0 | 11 | 15 | 2 | Python,C,C++ | 43 | 10 | 1| 
 
 
