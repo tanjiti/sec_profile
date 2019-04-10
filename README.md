@@ -14,6 +14,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 国防科技要闻 | CDSTIC | https://mp.weixin.qq.com/s/LXR853Z4E5peVYq89tXKZA | DARPA 2020财年研发预算 人工智能应用研究投资急剧增长 | 1| 
+| 天融信阿尔法实验室 |  | https://mp.weixin.qq.com/s/kwp5uxom7Amrj6S_-g8r4Q | 天融信关于ThinkPHP5.1框架结合RCE漏洞的深入分析 | 1| 
+| 秦安战略 | qinan1128 | https://mp.weixin.qq.com/s/VCG3QPP4dwcfNlZFC_nnSQ | 中国网络安全产业发展报告 | 1| 
 | 京东数字科技研究院 |  | https://mp.weixin.qq.com/s/2afk7pLqgzpUnXgmQgMNEw | 编译 | Palantir中标美国军方8亿美元人工智能系统研发采购计划 | 1| 
 | 梅子酒的书札 | a960596293_book | https://mp.weixin.qq.com/s/rlSyABoulRKygPmwfcUuXA | 西湖论剑2019 WriteUp | 1| 
 | 360核心安全 | CoreSec360 | https://mp.weixin.qq.com/s/r-jAWFjtOxgd-JyVStFvsg | APT战争中脚本攻击的兵法之道 | 1| 
@@ -32,6 +35,9 @@
 | mwrlabs | SharpGPOAbuse - MWR Labs 开发的基于 C# 的工具，用于滥用 GPO 编辑权限攻击该 GPO 控制的对象 | https://github.com/mwrlabs/SharpGPOAbuse | http://labs.mwrinfosecurity.com/ |  | Basingstoke, Johannesburg, London, Manchester, Singapore, New York | 43 | 0 | 0 | C,Java,Python,JavaScript,C++,C#,Objective-C,Assembly,Ruby,PowerShell,CSS | 1700 | 501 | 1| 
 | REhints | 从 UEFI 固件攻击硬件可信任架构(HROT) ，来自 offensive 2019 大会 | https://github.com/REhints/Publications/blob/master/Conferences/Bypassing%20Hardware%20Root%20of%20Trust/offcon2019_final.pdf | http://REhints.com |  | http://REhints.com | 10 | 2 | 0 | Python,C,Assembly,CSS,C++ | 1200 | 249 | 1| 
 | google | vulncode-db - 漏洞及漏洞代码整合数据库 | https://github.com/google/vulncode-db | https://opensource.google.com/ | Google ❤️ Open Source | https://opensource.google.com/ | 1447 | 2479 | 0 | C,Java,Python,Kotlin,JavaScript,Haskell,C++,Dart,HTML,Go,PHP | 0 | 0 | 1| 
+| fox-it | adconnectdump - 从 Azure AD Connect 服务器中导出凭证的工具 | https://github.com/fox-it/adconnectdump | https://www.fox-it.com/ |  | https://www.fox-it.com/ | 31 | 1 | 0 | C,Shell,Python,Bro,HTML,Ruby,PowerShell | 0 | 0 | 1| 
+| RhinoSecurityLabs | Apache Axis 由于代码中加载过期域名托管的资源导致的远程代码执行漏洞详情披露（CVE-2019-0227） | https://github.com/RhinoSecurityLabs/CVEs/blob/master/CVE-2019-0227/README.md | https://rhinosecuritylabs.com | A boutique penetration testing and security assessment firm in Seattle, WA. | Seattle, WA | 10 | 0 | 0 | Python,JavaScript,PowerShell,HCL | 0 | 0 | 1| 
+| Nothing2Hide | pcap_ioc: Python library to extract potential IOCs from a ... | https://github.com/Nothing2Hide/pcap_ioc | https://nothing2hide.org/ | Des outils pour protéger linformation | Internet | 9 | 0 | 0 | Python,Shell,PHP,CSS | 0 | 0 | 1| 
 
 
 # 私人github账号 推荐
@@ -39,6 +45,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | ruanyf | document-style-guide: 中文技术文档的写作规范 | https://github.com/ruanyf/document-style-guide | https://twitter.com/ruanyf |  | Shanghai, China | None | 54 | 0 | 233 | 50300 | 0 | JavaScript | 15700 | 6900 | 1| 
 | taviso | swisstable - 访问 Abseil Swiss Tables 的小型 C 封装库 | https://github.com/taviso/swisstable | None |  | None | None | 11 | 0 | 9 | 1100 | 1 | C | 2600 | 193 | 1| 
+| k8gege | K8tools: K8工具合集 | https://github.com/k8gege/K8tools | https://www.cnblogs.com/k8gege/ |  | None | None | 6 | 0 | 3 | 237 | 1 | C#,Ruby,PowerShell,C++ | 845 | 320 | 1| 
 | hlldz | APC-PPID - 通过 APC 注入创建进程并伪造父进程的项目 | https://github.com/hlldz/APC-PPID | https://artofpwn.com | Pwner, Red Teamer | İstanbul, Türkiye | None | 5 | 0 | 179 | 214 | 22 | Python,PowerShell,C++ | 691 | 159 | 1| 
 | ustayready | fireprox - AWS API Gateway 管理工具，用于动态创建 HTTP 传递代理以实现唯一的 IP 轮换 | https://github.com/ustayready/fireprox | None | divergent thinker/breaker and researcher of stuff | None | None | 39 | 0 | 7 | 194 | 7 | Python,C#,HTML | 702 | 147 | 1| 
 | Viralmaniar | I-See-You: Bash and Javascript tool to find the exact location of user | https://github.com/Viralmaniar/I-See-You | https://twitter.com/maniarviral |  | Melbourne, Victoria, Australia | None | 35 | 0 | 220 | 192 | 93 | Python | 705 | 105 | 1| 
@@ -48,6 +55,8 @@
 | Mattiwatti | EfiGuard - x64 UEFI bootkit，在启动时修补 Windows 启动管理器以禁用 PatchGuard 和驱动程序签名验证(DSE) | https://github.com/Mattiwatti/EfiGuard | None |  | The Netherlands | None | 19 | 0 | 13 | 87 | 3 | C,Assembly,C++ | 227 | 61 | 1| 
 | 0x36 | iOS上的沙箱逃逸漏洞（A11平台，版本<12.2） | https://github.com/0x36/powend | None | . | Morocco | None | 6 | 0 | 23 | 79 | 0 | C,Makefile | 138 | 36 | 1| 
 | cfreal | Apache 本地提权漏洞 Exploit（CVE-2019-0211） | https://github.com/cfreal/exploits/tree/master/CVE-2019-0211-apache | https://github.com/ambionics |  | None | @ambionics | 2 | 0 | 3 | 46 | 0 | PHP,HTML | 281 | 45 | 1| 
+| leeberg | BlueHive - 基于 PowerShell 实现的活动目录密罐用户管理项目，并且带仪表盘以可视化展示结果 | https://github.com/leeberg/BlueHive | http://www.leealanberg.com | Product Manager, Automation Engineer, Content Producer, EX Microsoft MVP, Nerd | Madison, Wisconsin, United States | None | 35 | 0 | 85 | 26 | 64 | C# | 4 | 0 | 1| 
+| lis912 | Evaluation_tools: 等级保护测评工具 | https://github.com/lis912/Evaluation_tools | None | 时不时拧巴的菜鸡一只。 | None | None | 8 | 0 | 12 | 24 | 0 | Go,Rust,Shell,HTML,CSS | 97 | 35 | 1| 
 | crypto-cypher | 《Privacy for Identities: The Art of Pseudonymity》发布，主要探讨信息安全，隐私权和大规模监控 | https://github.com/crypto-cypher/privacy-for-identities/blob/master/PrivacyForIdentities%20-%20Prerelease.pdf | https://twitter.com/CryptoCypher | Networking. OpSec. Privacy. Coding. Just another paranoid cypherpunk whos terrible at calculus. Dreaming big. | None | None | 7 | 0 | 7 | 20 | 7 | Shell | 32 | 5 | 1| 
 | DimopoulosElias | alpc-mmc-uac-bypass - 通过 ALPC 绕过 UAC 的项目 | https://github.com/DimopoulosElias/alpc-mmc-uac-bypass | https://www.linkedin.com/in/dimopouloselias |  | None | None | 5 | 0 | 11 | 15 | 2 | Python,C,C++ | 43 | 10 | 1| 
 | sumas | OSCP-Cheatsheet-God - OSCP 考试备忘清单 | https://github.com/sumas/OSCP-Cheatsheet-God | None |  | None | None | 18 | 0 | 1 | 14 | 1 | Python,JavaScript,Java,PHP | 124 | 31 | 1| 
