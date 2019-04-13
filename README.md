@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 数说安全 | SSAQ2016 | https://mp.weixin.qq.com/s/alJyvGi8FPygIe1IYYj2_A | 科创板观察报告：恒安嘉新、安博通、山石和安恒篇 | 1| 
 | 国防科技要闻 | CDSTIC | https://mp.weixin.qq.com/s/LXR853Z4E5peVYq89tXKZA | DARPA 2020财年研发预算 人工智能应用研究投资急剧增长 | 1| 
 | 天融信阿尔法实验室 |  | https://mp.weixin.qq.com/s/kwp5uxom7Amrj6S_-g8r4Q | 天融信关于ThinkPHP5.1框架结合RCE漏洞的深入分析 | 1| 
 | 秦安战略 | qinan1128 | https://mp.weixin.qq.com/s/VCG3QPP4dwcfNlZFC_nnSQ | 中国网络安全产业发展报告 | 1| 
@@ -57,6 +58,7 @@
 | Mattiwatti | EfiGuard - x64 UEFI bootkit，在启动时修补 Windows 启动管理器以禁用 PatchGuard 和驱动程序签名验证(DSE) | https://github.com/Mattiwatti/EfiGuard | None |  | The Netherlands | None | 19 | 0 | 13 | 87 | 3 | C,Assembly,C++ | 227 | 61 | 1| 
 | 0x36 | iOS上的沙箱逃逸漏洞（A11平台，版本<12.2） | https://github.com/0x36/powend | None | . | Morocco | None | 6 | 0 | 23 | 79 | 0 | C,Makefile | 138 | 36 | 1| 
 | cfreal | Apache 本地提权漏洞 Exploit（CVE-2019-0211） | https://github.com/cfreal/exploits/tree/master/CVE-2019-0211-apache | https://github.com/ambionics |  | None | @ambionics | 2 | 0 | 3 | 46 | 0 | PHP,HTML | 281 | 45 | 1| 
+| iSafeBlue | 一张渗透测试思维导图 | https://github.com/iSafeBlue/Mind-Map/ | https://b1ue.cn | Security Researcher , Java Development Engineer | None | None | 9 | 0 | 248 | 38 | 35 | JavaScript,Java | 207 | 56 | 1| 
 | leeberg | BlueHive - 基于 PowerShell 实现的活动目录密罐用户管理项目，并且带仪表盘以可视化展示结果 | https://github.com/leeberg/BlueHive | http://www.leealanberg.com | Product Manager, Automation Engineer, Content Producer, EX Microsoft MVP, Nerd | Madison, Wisconsin, United States | None | 35 | 0 | 85 | 26 | 64 | C# | 4 | 0 | 1| 
 | lis912 | Evaluation_tools: 等级保护测评工具 | https://github.com/lis912/Evaluation_tools | None | 时不时拧巴的菜鸡一只。 | None | None | 8 | 0 | 12 | 24 | 0 | Go,Rust,Shell,HTML,CSS | 97 | 35 | 1| 
 | crypto-cypher | 《Privacy for Identities: The Art of Pseudonymity》发布，主要探讨信息安全，隐私权和大规模监控 | https://github.com/crypto-cypher/privacy-for-identities/blob/master/PrivacyForIdentities%20-%20Prerelease.pdf | https://twitter.com/CryptoCypher | Networking. OpSec. Privacy. Coding. Just another paranoid cypherpunk whos terrible at calculus. Dreaming big. | None | None | 7 | 0 | 7 | 20 | 7 | Shell | 32 | 5 | 1| 
