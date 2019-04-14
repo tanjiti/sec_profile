@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 我的安全视界观 | CANI_Security | https://mp.weixin.qq.com/s?__biz=MzI3Njk2OTIzOQ==&mid=2247484307&idx=1&sn=3758ef809f9a456d7ed83a2954487f5b&chksm=eb6c21ebdc1ba8fd8888ccf93043b0abc5107b0a96671419bbc8b3795260feded5292248338e&token=748595180&lang=zh_CN#rd | 【SDL最初实践】安全需求 | 1| 
 | 数说安全 | SSAQ2016 | https://mp.weixin.qq.com/s/alJyvGi8FPygIe1IYYj2_A | 科创板观察报告：恒安嘉新、安博通、山石和安恒篇 | 1| 
 | 国防科技要闻 | CDSTIC | https://mp.weixin.qq.com/s/LXR853Z4E5peVYq89tXKZA | DARPA 2020财年研发预算 人工智能应用研究投资急剧增长 | 1| 
 | 天融信阿尔法实验室 |  | https://mp.weixin.qq.com/s/kwp5uxom7Amrj6S_-g8r4Q | 天融信关于ThinkPHP5.1框架结合RCE漏洞的深入分析 | 1| 
