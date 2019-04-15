@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| DJ的札记 | DJ_notes | https://mp.weixin.qq.com/s/pWZ3rRrRHOVMpxUc_vWgAg | 真真假假的创新 - RSAC2019之三 | 1| 
 | 我的安全视界观 | CANI_Security | https://mp.weixin.qq.com/s?__biz=MzI3Njk2OTIzOQ==&mid=2247484307&idx=1&sn=3758ef809f9a456d7ed83a2954487f5b&chksm=eb6c21ebdc1ba8fd8888ccf93043b0abc5107b0a96671419bbc8b3795260feded5292248338e&token=748595180&lang=zh_CN#rd | 【SDL最初实践】安全需求 | 1| 
 | 数说安全 | SSAQ2016 | https://mp.weixin.qq.com/s/alJyvGi8FPygIe1IYYj2_A | 科创板观察报告：恒安嘉新、安博通、山石和安恒篇 | 1| 
 | 国防科技要闻 | CDSTIC | https://mp.weixin.qq.com/s/LXR853Z4E5peVYq89tXKZA | DARPA 2020财年研发预算 人工智能应用研究投资急剧增长 | 1| 
@@ -49,6 +50,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | ruanyf | document-style-guide: 中文技术文档的写作规范 | https://github.com/ruanyf/document-style-guide | https://twitter.com/ruanyf |  | Shanghai, China | None | 54 | 0 | 233 | 50300 | 0 | JavaScript | 15700 | 6900 | 1| 
 | taviso | swisstable - 访问 Abseil Swiss Tables 的小型 C 封装库 | https://github.com/taviso/swisstable | None |  | None | None | 11 | 0 | 9 | 1100 | 1 | C | 2600 | 193 | 1| 
+| clone95 | Virgilio: Your new Mentor for Data Science E-Learning | https://github.com/clone95/Virgilio | None | I graduated in Italy in IT Engineering, and im currently having my internship in a shiny AI startup. | Bologna, Italy | None | 22 | 0 | 14 | 604 | 27 | Python,Jupyter | 9000 | 1700 | 1| 
 | k8gege | K8tools: K8工具合集 | https://github.com/k8gege/K8tools | https://www.cnblogs.com/k8gege/ |  | None | None | 6 | 0 | 3 | 237 | 1 | C#,Ruby,PowerShell,C++ | 845 | 320 | 1| 
 | hlldz | APC-PPID - 通过 APC 注入创建进程并伪造父进程的项目 | https://github.com/hlldz/APC-PPID | https://artofpwn.com | Pwner, Red Teamer | İstanbul, Türkiye | None | 5 | 0 | 179 | 214 | 22 | Python,PowerShell,C++ | 691 | 159 | 1| 
 | ustayready | fireprox - AWS API Gateway 管理工具，用于动态创建 HTTP 传递代理以实现唯一的 IP 轮换 | https://github.com/ustayready/fireprox | None | divergent thinker/breaker and researcher of stuff | None | None | 39 | 0 | 7 | 194 | 7 | Python,C#,HTML | 702 | 147 | 1| 
@@ -65,6 +67,7 @@
 | crypto-cypher | 《Privacy for Identities: The Art of Pseudonymity》发布，主要探讨信息安全，隐私权和大规模监控 | https://github.com/crypto-cypher/privacy-for-identities/blob/master/PrivacyForIdentities%20-%20Prerelease.pdf | https://twitter.com/CryptoCypher | Networking. OpSec. Privacy. Coding. Just another paranoid cypherpunk whos terrible at calculus. Dreaming big. | None | None | 7 | 0 | 7 | 20 | 7 | Shell | 32 | 5 | 1| 
 | DimopoulosElias | alpc-mmc-uac-bypass - 通过 ALPC 绕过 UAC 的项目 | https://github.com/DimopoulosElias/alpc-mmc-uac-bypass | https://www.linkedin.com/in/dimopouloselias |  | None | None | 5 | 0 | 11 | 15 | 2 | Python,C,C++ | 43 | 10 | 1| 
 | sumas | OSCP-Cheatsheet-God - OSCP 考试备忘清单 | https://github.com/sumas/OSCP-Cheatsheet-God | None |  | None | None | 18 | 0 | 1 | 14 | 1 | Python,JavaScript,Java,PHP | 124 | 31 | 1| 
+| PokemonGoTeam | CRYPTOPOKEMON: Simple C++ cryptolocker Blowfish CBC | https://github.com/PokemonGoTeam/CRYPTOPOKEMON | http://pokemongo.icu |  | Kiev, Ukraine | PokemonGo | 1 | 0 | 0 | 7 | 0 | C++ | 10 | 3 | 1| 
 | mykter | aws-security-cert-service-notes - AWS 服务安全认证学习笔记 | https://github.com/mykter/aws-security-cert-service-notes | http://mykter.com |  | UK | None | 20 | 0 | 29 | 2 | 0 | Python,C,TypeScript | 272 | 52 | 1| 
 
 

@@ -1,7 +1,7 @@
-Python	15
+Python	16
 C	12
 JavaScript	9
-C++	7
+C++	8
 Java	6
 HTML	6
 CSS	6
@@ -20,6 +20,7 @@ Rust	1
 Lua	1
 Dockerfile	1
 Dart	1
+Jupyter	1
 Kotlin	1
 Objective-C	1
 Bro	1
