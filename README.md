@@ -46,6 +46,7 @@
 | Coalfire-Research | DeathMetal - 针对 Intel AMT 的攻击工具集 | https://github.com/Coalfire-Research/DeathMetal | http://www.coalfirelabs.com | Advancing the state of the Infosec industry by providing cutting-edge research, open-source tools and tradecraft | http://www.coalfirelabs.com | 14 | 0 | 0 | C,Python,JavaScript,Lua,PowerShell,HCL | 0 | 0 | 1| 
 | RhinoSecurityLabs | Apache Axis 由于代码中加载过期域名托管的资源导致的远程代码执行漏洞详情披露（CVE-2019-0227） | https://github.com/RhinoSecurityLabs/CVEs/blob/master/CVE-2019-0227/README.md | https://rhinosecuritylabs.com | A boutique penetration testing and security assessment firm in Seattle, WA. | Seattle, WA | 10 | 0 | 0 | Python,JavaScript,PowerShell,HCL | 0 | 0 | 1| 
 | Nothing2Hide | pcap_ioc: Python library to extract potential IOCs from a ... | https://github.com/Nothing2Hide/pcap_ioc | https://nothing2hide.org/ | Des outils pour protéger linformation | Internet | 9 | 0 | 0 | Python,Shell,PHP,CSS | 0 | 0 | 1| 
+| sophoslabs | While parsing an HTML5 stream in concert with custom HTML elements. This results in the stream parser object being freed while still in use. | https://github.com/sophoslabs/CVE-2018-18500/ | https://www.sophos.com/en-us/labs.aspx |  | https://www.sophos.com/en-us/labs.aspx | 4 | 0 | 0 | Python,HTML | 0 | 0 | 1| 
 
 
 # 私人github账号 推荐
@@ -53,10 +54,12 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | ruanyf | document-style-guide: 中文技术文档的写作规范 | https://github.com/ruanyf/document-style-guide | https://twitter.com/ruanyf |  | Shanghai, China | None | 54 | 0 | 233 | 50300 | 0 | JavaScript | 15700 | 6900 | 1| 
 | taviso | swisstable - 访问 Abseil Swiss Tables 的小型 C 封装库 | https://github.com/taviso/swisstable | None |  | None | None | 11 | 0 | 9 | 1100 | 1 | C | 2600 | 193 | 1| 
+| jas502n | Weblogic 任意文件上传漏洞（CVE-2019-2618）的 Exploit | https://github.com/jas502n/cve-2019-2618/ | None | 1.misc 2.crypto 3. web 4. reverse 5. android 6. pwn 7. elf | None | None | 129 | 0 | 103 | 661 | 109 | Python,C,Shell,JavaScript,PHP | 294 | 106 | 1| 
 | clone95 | Virgilio: Your new Mentor for Data Science E-Learning | https://github.com/clone95/Virgilio | None | I graduated in Italy in IT Engineering, and im currently having my internship in a shiny AI startup. | Bologna, Italy | None | 22 | 0 | 14 | 604 | 27 | Python,Jupyter | 9000 | 1700 | 1| 
 | travisgoodspeed | 利用 GHIDRA 逆向 Tytera MD380 的固件 | https://github.com/travisgoodspeed/md380tools/wiki/GHIDRA | None |  | None | None | 31 | 0 | 35 | 593 | 24 | Python,C,C++ | 593 | 190 | 1| 
 | k8gege | K8tools: K8工具合集 | https://github.com/k8gege/K8tools | https://www.cnblogs.com/k8gege/ |  | None | None | 6 | 0 | 3 | 237 | 1 | C#,Ruby,PowerShell,C++ | 845 | 320 | 1| 
 | hlldz | APC-PPID - 通过 APC 注入创建进程并伪造父进程的项目 | https://github.com/hlldz/APC-PPID | https://artofpwn.com | Pwner, Red Teamer | İstanbul, Türkiye | None | 5 | 0 | 179 | 214 | 22 | Python,PowerShell,C++ | 691 | 159 | 1| 
+| pyn3rd | Apache Tomcat 远程代码执行漏洞（CVE-2019-0232），可以通过 Windows enableCmdLineArguments 触发 | https://github.com/pyn3rd/CVE-2019-0232/ | https://twitter.com/pyn3rd |  | Hangzhou | Alibaba Group | 7 | 0 | 0 | 210 | 0 | Python,Batchfile,Java | 118 | 46 | 1| 
 | ustayready | fireprox - AWS API Gateway 管理工具，用于动态创建 HTTP 传递代理以实现唯一的 IP 轮换 | https://github.com/ustayready/fireprox | None | divergent thinker/breaker and researcher of stuff | None | None | 39 | 0 | 7 | 194 | 7 | Python,C#,HTML | 702 | 147 | 1| 
 | Viralmaniar | I-See-You: Bash and Javascript tool to find the exact location of user | https://github.com/Viralmaniar/I-See-You | https://twitter.com/maniarviral |  | Melbourne, Victoria, Australia | None | 35 | 0 | 220 | 192 | 93 | Python | 705 | 105 | 1| 
 | zer0yu | 网络空间安全的RSS订阅 | https://github.com/zer0yu/CyberSecurityRSS | http://zeroyu.xyz/ | Every light needs a shadow. You just have to learn how to control it,use it when you need it. | None | None | 28 | 0 | 1900 | 162 | 1100 | Python,C,CSS | 44 | 16 | 1| 
@@ -64,6 +67,7 @@
 | eoftedal | Istio/Envoy 目录穿越漏洞详情披露(CVE-2019-9901) | https://github.com/eoftedal/writings/blob/master/published/CVE-2019-9901-path-traversal.md | http://erlend.oftedal.no/blog |  | Oslo, Norway | None | 73 | 0 | 384 | 103 | 67 | C#,JavaScript,Java | 172 | 11 | 1| 
 | Mattiwatti | EfiGuard - x64 UEFI bootkit，在启动时修补 Windows 启动管理器以禁用 PatchGuard 和驱动程序签名验证(DSE) | https://github.com/Mattiwatti/EfiGuard | None |  | The Netherlands | None | 19 | 0 | 13 | 87 | 3 | C,Assembly,C++ | 227 | 61 | 1| 
 | 0x36 | iOS上的沙箱逃逸漏洞（A11平台，版本<12.2） | https://github.com/0x36/powend | None | . | Morocco | None | 6 | 0 | 23 | 79 | 0 | C,Makefile | 138 | 36 | 1| 
+| jthuraisamy | Synaptics 音频 Windows 内核驱动 CxUtilSvc 本地提权漏洞（CVE-2019-9730） | https://github.com/jthuraisamy/CVE-2019-9730/ | http://jackson.thuraisamy.me |  | None | None | 22 | 0 | 37 | 50 | 8 | C#,Python,C,JavaScript,Java | 40 | 9 | 1| 
 | cfreal | Apache 本地提权漏洞 Exploit（CVE-2019-0211） | https://github.com/cfreal/exploits/tree/master/CVE-2019-0211-apache | https://github.com/ambionics |  | None | @ambionics | 2 | 0 | 3 | 46 | 0 | PHP,HTML | 281 | 45 | 1| 
 | iSafeBlue | 一张渗透测试思维导图 | https://github.com/iSafeBlue/Mind-Map/ | https://b1ue.cn | Security Researcher , Java Development Engineer | None | None | 9 | 0 | 248 | 38 | 35 | JavaScript,Java | 207 | 56 | 1| 
 | leeberg | BlueHive - 基于 PowerShell 实现的活动目录密罐用户管理项目，并且带仪表盘以可视化展示结果 | https://github.com/leeberg/BlueHive | http://www.leealanberg.com | Product Manager, Automation Engineer, Content Producer, EX Microsoft MVP, Nerd | Madison, Wisconsin, United States | None | 35 | 0 | 85 | 26 | 64 | C# | 4 | 0 | 1| 
@@ -73,6 +77,7 @@
 | sumas | OSCP-Cheatsheet-God - OSCP 考试备忘清单 | https://github.com/sumas/OSCP-Cheatsheet-God | None |  | None | None | 18 | 0 | 1 | 14 | 1 | Python,JavaScript,Java,PHP | 124 | 31 | 1| 
 | PokemonGoTeam | CRYPTOPOKEMON: Simple C++ cryptolocker Blowfish CBC | https://github.com/PokemonGoTeam/CRYPTOPOKEMON | http://pokemongo.icu |  | Kiev, Ukraine | PokemonGo | 1 | 0 | 0 | 7 | 0 | C++ | 10 | 3 | 1| 
 | mykter | aws-security-cert-service-notes - AWS 服务安全认证学习笔记 | https://github.com/mykter/aws-security-cert-service-notes | http://mykter.com |  | UK | None | 20 | 0 | 29 | 2 | 0 | Python,C,TypeScript | 272 | 52 | 1| 
+| AngelCtulhu | Wordpress Support Candy 插件的文件上传漏洞 | https://github.com/AngelCtulhu/CVE-2019-11223/ | http://cert.kalasag.com.ph |  | Pasig | 8Layer Technologies Inc. | 2 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 
 
 
