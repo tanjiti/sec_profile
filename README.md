@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 安在 | AnZer_SH | https://mp.weixin.qq.com/s/OYPooeIZp8hq4JebOHDJMg | 下一代SIEM@AI：从UEBA到SOAR | 1| 
 | 安全小飞侠 | AvFisher | https://mp.weixin.qq.com/s/cyxC4Of4Ic9c_vujQayTLg | Red Team从0到1的实践与思考 | 1| 
 | 深度学习自然语言处理 | zenRRan | https://mp.weixin.qq.com/s/PVoQI85YkDSzlA46FRU1OQ | 刘知远：NLP研究入门之道（一） | 1| 
 | DJ的札记 | DJ_notes | https://mp.weixin.qq.com/s/pWZ3rRrRHOVMpxUc_vWgAg | 真真假假的创新 - RSAC2019之三 | 1| 
