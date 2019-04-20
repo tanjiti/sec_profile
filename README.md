@@ -14,6 +14,12 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 中国保密协会科学技术分会 |  | https://mp.weixin.qq.com/s/jJyq7bYuq1xxGXpfnmKP3g | 企业海外机构信息安全保密风险分析及对策建议 | 1| 
+| 信口杂谈 |  | https://mp.weixin.qq.com/s/OvTHpWXCwCH-k0jf8cQBTg | 乱弹网络空间X检索 | 1| 
+| 安全牛 | aqniu-wx | https://mp.weixin.qq.com/s/EWn9ktce3KB4P6zi4slnTA | 一文洞悉DAST、SAST、IAST ——Web应用安全测试技术对比浅谈 | 1| 
+| 水滴安全实验室 | EversecLab | https://mp.weixin.qq.com/s/ptimjyH9wlamO83nPZMa-Q | 2019年僵尸网络主动监测报告（第一期） | 1| 
+| 秘猿科技Cryptape | Cryptape | https://mp.weixin.qq.com/s/bhWaKtVTqOLlJ1lj362rNA | 隐私币应用全景观察 | 1| 
+| 银河安全实验室 | Galaxy-Lab | https://mp.weixin.qq.com/s/RPLGCwb6do2LbIodFGoGBQ | 针对VxWorks设备的分析工具VxHunter介绍 | 1| 
 | 安在 | AnZer_SH | https://mp.weixin.qq.com/s/OYPooeIZp8hq4JebOHDJMg | 下一代SIEM@AI：从UEBA到SOAR | 1| 
 | 安全小飞侠 | AvFisher | https://mp.weixin.qq.com/s/cyxC4Of4Ic9c_vujQayTLg | Red Team从0到1的实践与思考 | 1| 
 | 深度学习自然语言处理 | zenRRan | https://mp.weixin.qq.com/s/PVoQI85YkDSzlA46FRU1OQ | 刘知远：NLP研究入门之道（一） | 1| 
@@ -45,6 +51,7 @@
 | fox-it | adconnectdump - 从 Azure AD Connect 服务器中导出凭证的工具 | https://github.com/fox-it/adconnectdump | https://www.fox-it.com/ |  | https://www.fox-it.com/ | 31 | 1 | 0 | C,Shell,Python,Bro,HTML,Ruby,PowerShell | 0 | 0 | 1| 
 | Coalfire-Research | DeathMetal - 针对 Intel AMT 的攻击工具集 | https://github.com/Coalfire-Research/DeathMetal | http://www.coalfirelabs.com | Advancing the state of the Infosec industry by providing cutting-edge research, open-source tools and tradecraft | http://www.coalfirelabs.com | 14 | 0 | 0 | C,Python,JavaScript,Lua,PowerShell,HCL | 0 | 0 | 1| 
 | RhinoSecurityLabs | Apache Axis 由于代码中加载过期域名托管的资源导致的远程代码执行漏洞详情披露（CVE-2019-0227） | https://github.com/RhinoSecurityLabs/CVEs/blob/master/CVE-2019-0227/README.md | https://rhinosecuritylabs.com | A boutique penetration testing and security assessment firm in Seattle, WA. | Seattle, WA | 10 | 0 | 0 | Python,JavaScript,PowerShell,HCL | 0 | 0 | 1| 
+| DigitalSecurity | nrf5x芯片固件反编译工具 | https://github.com/DigitalSecurity/nrf5x-tools | http://www.digitalsecurity.fr |  | Paris, France | 9 | 2 | 0 | Python,C,JavaScript,C++ | 0 | 0 | 1| 
 | Nothing2Hide | pcap_ioc: Python library to extract potential IOCs from a ... | https://github.com/Nothing2Hide/pcap_ioc | https://nothing2hide.org/ | Des outils pour protéger linformation | Internet | 9 | 0 | 0 | Python,Shell,PHP,CSS | 0 | 0 | 1| 
 | sophoslabs | While parsing an HTML5 stream in concert with custom HTML elements. This results in the stream parser object being freed while still in use. | https://github.com/sophoslabs/CVE-2018-18500/ | https://www.sophos.com/en-us/labs.aspx |  | https://www.sophos.com/en-us/labs.aspx | 4 | 0 | 0 | Python,HTML | 0 | 0 | 1| 
 
@@ -70,9 +77,10 @@
 | jthuraisamy | Synaptics 音频 Windows 内核驱动 CxUtilSvc 本地提权漏洞（CVE-2019-9730） | https://github.com/jthuraisamy/CVE-2019-9730/ | http://jackson.thuraisamy.me |  | None | None | 22 | 0 | 37 | 50 | 8 | C#,Python,C,JavaScript,Java | 40 | 9 | 1| 
 | cfreal | Apache 本地提权漏洞 Exploit（CVE-2019-0211） | https://github.com/cfreal/exploits/tree/master/CVE-2019-0211-apache | https://github.com/ambionics |  | None | @ambionics | 2 | 0 | 3 | 46 | 0 | PHP,HTML | 281 | 45 | 1| 
 | iSafeBlue | 一张渗透测试思维导图 | https://github.com/iSafeBlue/Mind-Map/ | https://b1ue.cn | Security Researcher , Java Development Engineer | None | None | 9 | 0 | 248 | 38 | 35 | JavaScript,Java | 207 | 56 | 1| 
-| leeberg | BlueHive - 基于 PowerShell 实现的活动目录密罐用户管理项目，并且带仪表盘以可视化展示结果 | https://github.com/leeberg/BlueHive | http://www.leealanberg.com | Product Manager, Automation Engineer, Content Producer, EX Microsoft MVP, Nerd | Madison, Wisconsin, United States | None | 35 | 0 | 85 | 26 | 64 | C# | 4 | 0 | 1| 
+| leeberg | BlueHive - 基于 PowerShell 实现的活动目录密罐用户管理项目，并且带仪表盘以可视化展示结果 | https://github.com/leeberg/BlueHive | http://www.leealanberg.com | Product Manager, Automation Engineer, Content Producer, EX Microsoft MVP, Nerd | Madison, Wisconsin, United States | None | 35 | 0 | 85 | 26 | 64 | C# | 4 | 0 | 2| 
 | lis912 | Evaluation_tools: 等级保护测评工具 | https://github.com/lis912/Evaluation_tools | None | 时不时拧巴的菜鸡一只。 | None | None | 8 | 0 | 12 | 24 | 0 | Go,Rust,Shell,HTML,CSS | 97 | 35 | 1| 
 | crypto-cypher | 《Privacy for Identities: The Art of Pseudonymity》发布，主要探讨信息安全，隐私权和大规模监控 | https://github.com/crypto-cypher/privacy-for-identities/blob/master/PrivacyForIdentities%20-%20Prerelease.pdf | https://twitter.com/CryptoCypher | Networking. OpSec. Privacy. Coding. Just another paranoid cypherpunk whos terrible at calculus. Dreaming big. | None | None | 7 | 0 | 7 | 20 | 7 | Shell | 32 | 5 | 1| 
+| batteryshark | 商用硬件Token设备软件实现中安全问题 | https://github.com/batteryshark/writeups/tree/master/20190417 | None |  | New York, NY | Stonefish Systems | 46 | 0 | 2 | 17 | 0 | Python,C | 24 | 2 | 1| 
 | DimopoulosElias | alpc-mmc-uac-bypass - 通过 ALPC 绕过 UAC 的项目 | https://github.com/DimopoulosElias/alpc-mmc-uac-bypass | https://www.linkedin.com/in/dimopouloselias |  | None | None | 5 | 0 | 11 | 15 | 2 | Python,C,C++ | 43 | 10 | 1| 
 | sumas | OSCP-Cheatsheet-God - OSCP 考试备忘清单 | https://github.com/sumas/OSCP-Cheatsheet-God | None |  | None | None | 18 | 0 | 1 | 14 | 1 | Python,JavaScript,Java,PHP | 124 | 31 | 1| 
 | PokemonGoTeam | CRYPTOPOKEMON: Simple C++ cryptolocker Blowfish CBC | https://github.com/PokemonGoTeam/CRYPTOPOKEMON | http://pokemongo.icu |  | Kiev, Ukraine | PokemonGo | 1 | 0 | 0 | 7 | 0 | C++ | 10 | 3 | 1| 
