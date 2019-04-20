@@ -14,9 +14,10 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| InfoQ | infoqchina | https://mp.weixin.qq.com/s/MLvd1AmxE9YnkWWmB9L9VQ | 腾讯云鼎实验室掌门人Killer谈网络安全 | 1| 
 | 中国保密协会科学技术分会 |  | https://mp.weixin.qq.com/s/jJyq7bYuq1xxGXpfnmKP3g | 企业海外机构信息安全保密风险分析及对策建议 | 1| 
 | 信口杂谈 |  | https://mp.weixin.qq.com/s/OvTHpWXCwCH-k0jf8cQBTg | 乱弹网络空间X检索 | 1| 
-| 安全牛 | aqniu-wx | https://mp.weixin.qq.com/s/EWn9ktce3KB4P6zi4slnTA | 一文洞悉DAST、SAST、IAST ——Web应用安全测试技术对比浅谈 | 1| 
+| 安全牛 | aqniu-wx | https://mp.weixin.qq.com/s/EWn9ktce3KB4P6zi4slnTA | 一文洞悉DAST、SAST、IAST ——Web应用安全测试技术对比浅谈 | 2| 
 | 水滴安全实验室 | EversecLab | https://mp.weixin.qq.com/s/ptimjyH9wlamO83nPZMa-Q | 2019年僵尸网络主动监测报告（第一期） | 1| 
 | 秘猿科技Cryptape | Cryptape | https://mp.weixin.qq.com/s/bhWaKtVTqOLlJ1lj362rNA | 隐私币应用全景观察 | 1| 
 | 银河安全实验室 | Galaxy-Lab | https://mp.weixin.qq.com/s/RPLGCwb6do2LbIodFGoGBQ | 针对VxWorks设备的分析工具VxHunter介绍 | 1| 
