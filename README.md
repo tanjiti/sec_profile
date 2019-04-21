@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 待字闺中 | daiziguizhongren | https://mp.weixin.qq.com/s/aw5V95kelBslFv-ScxUVMw | 理清弄透：加密&解密、签名&验签 | 1| 
 | InfoQ | infoqchina | https://mp.weixin.qq.com/s/MLvd1AmxE9YnkWWmB9L9VQ | 腾讯云鼎实验室掌门人Killer谈网络安全 | 1| 
 | 中国保密协会科学技术分会 |  | https://mp.weixin.qq.com/s/jJyq7bYuq1xxGXpfnmKP3g | 企业海外机构信息安全保密风险分析及对策建议 | 1| 
 | 信口杂谈 |  | https://mp.weixin.qq.com/s/OvTHpWXCwCH-k0jf8cQBTg | 乱弹网络空间X检索 | 1| 
