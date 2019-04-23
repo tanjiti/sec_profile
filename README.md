@@ -14,26 +14,27 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 象帕大人 | shanpasama | https://mp.weixin.qq.com/s?__biz=MzAwODExNzk4Mw==&mid=2652259275&idx=1&sn=e4555ac45d605bb012279cc89d67e6ee&chksm=8091287bb7e6a16d330a6241a54c0be4db1fee32b0b3a2a3b0dd153de4814b64a6591fde7511&mpshare=1&scene=1&srcid=&key=8e787c7b9fab69d8f8b1b578e72312c | RD-10射频探测器-隐藏摄像头侦查器中文手册 | 1| 
 | 科奖在线 | kejijiangli | https://mp.weixin.qq.com/s/6vLwQ7PMwn0X2zzJlnhjaA | 牛！清华吴子牛教授浅谈论文写作，赶紧收藏！ | 1| 
-| 待字闺中 | daiziguizhongren | https://mp.weixin.qq.com/s/aw5V95kelBslFv-ScxUVMw | 理清弄透：加密&解密、签名&验签 | 1| 
+| DJ的札记 | DJ_notes | https://mp.weixin.qq.com/s/pWZ3rRrRHOVMpxUc_vWgAg | 真真假假的创新 - RSAC2019之三 | 1| 
 | InfoQ | infoqchina | https://mp.weixin.qq.com/s/MLvd1AmxE9YnkWWmB9L9VQ | 腾讯云鼎实验室掌门人Killer谈网络安全 | 1| 
 | 中国保密协会科学技术分会 |  | https://mp.weixin.qq.com/s/jJyq7bYuq1xxGXpfnmKP3g | 企业海外机构信息安全保密风险分析及对策建议 | 1| 
 | 信口杂谈 |  | https://mp.weixin.qq.com/s/OvTHpWXCwCH-k0jf8cQBTg | 乱弹网络空间X检索 | 1| 
-| 安全牛 | aqniu-wx | https://mp.weixin.qq.com/s/EWn9ktce3KB4P6zi4slnTA | 一文洞悉DAST、SAST、IAST ——Web应用安全测试技术对比浅谈 | 2| 
+| 安全小飞侠 | AvFisher | https://mp.weixin.qq.com/s/cyxC4Of4Ic9c_vujQayTLg | Red Team从0到1的实践与思考 | 1| 
+| 安全牛 | aqniu-wx | https://mp.weixin.qq.com/s/uY9EzJAg7OtJKgcFYwOVEA | 全球最大网络安全演习北约“锁盾”：法国夺冠 | 2| 
+| 安在 | AnZer_SH | https://mp.weixin.qq.com/s/OYPooeIZp8hq4JebOHDJMg | 下一代SIEM@AI：从UEBA到SOAR | 1| 
+| 待字闺中 | daiziguizhongren | https://mp.weixin.qq.com/s/aw5V95kelBslFv-ScxUVMw | 理清弄透：加密&解密、签名&验签 | 1| 
 | 水滴安全实验室 | EversecLab | https://mp.weixin.qq.com/s/ptimjyH9wlamO83nPZMa-Q | 2019年僵尸网络主动监测报告（第一期） | 1| 
+| 深度学习自然语言处理 | zenRRan | https://mp.weixin.qq.com/s/PVoQI85YkDSzlA46FRU1OQ | 刘知远：NLP研究入门之道（一） | 1| 
 | 秘猿科技Cryptape | Cryptape | https://mp.weixin.qq.com/s/bhWaKtVTqOLlJ1lj362rNA | 隐私币应用全景观察 | 1| 
 | 银河安全实验室 | Galaxy-Lab | https://mp.weixin.qq.com/s/RPLGCwb6do2LbIodFGoGBQ | 针对VxWorks设备的分析工具VxHunter介绍 | 1| 
-| 安在 | AnZer_SH | https://mp.weixin.qq.com/s/OYPooeIZp8hq4JebOHDJMg | 下一代SIEM@AI：从UEBA到SOAR | 1| 
-| 安全小飞侠 | AvFisher | https://mp.weixin.qq.com/s/cyxC4Of4Ic9c_vujQayTLg | Red Team从0到1的实践与思考 | 1| 
-| 深度学习自然语言处理 | zenRRan | https://mp.weixin.qq.com/s/PVoQI85YkDSzlA46FRU1OQ | 刘知远：NLP研究入门之道（一） | 1| 
-| DJ的札记 | DJ_notes | https://mp.weixin.qq.com/s/pWZ3rRrRHOVMpxUc_vWgAg | 真真假假的创新 - RSAC2019之三 | 1| 
-| 我的安全视界观 | CANI_Security | https://mp.weixin.qq.com/s?__biz=MzI3Njk2OTIzOQ==&mid=2247484307&idx=1&sn=3758ef809f9a456d7ed83a2954487f5b&chksm=eb6c21ebdc1ba8fd8888ccf93043b0abc5107b0a96671419bbc8b3795260feded5292248338e&token=748595180&lang=zh_CN#rd | 【SDL最初实践】安全需求 | 1| 
-| 数说安全 | SSAQ2016 | https://mp.weixin.qq.com/s/alJyvGi8FPygIe1IYYj2_A | 科创板观察报告：恒安嘉新、安博通、山石和安恒篇 | 2| 
+| 我的安全视界观 | CANI_Security | https://mp.weixin.qq.com/s?__biz=MzI3Njk2OTIzOQ==&mid=2247484307&idx=1&sn=3758ef809f9a456d7ed83a2954487f5b&chksm=eb6c21ebdc1ba8fd8888ccf93043b0abc5107b0a96671419bbc8b3795260feded5292248338e&token=748595180&lang=zh_CN#rd | 【SDL最初实践】安全需求 | 2| 
+| 京东数字科技研究院 |  | https://mp.weixin.qq.com/s/2afk7pLqgzpUnXgmQgMNEw | 编译 | Palantir中标美国军方8亿美元人工智能系统研发采购计划 | 1| 
 | 国防科技要闻 | CDSTIC | https://mp.weixin.qq.com/s/LXR853Z4E5peVYq89tXKZA | DARPA 2020财年研发预算 人工智能应用研究投资急剧增长 | 1| 
 | 天融信阿尔法实验室 |  | https://mp.weixin.qq.com/s/kwp5uxom7Amrj6S_-g8r4Q | 天融信关于ThinkPHP5.1框架结合RCE漏洞的深入分析 | 1| 
-| 秦安战略 | qinan1128 | https://mp.weixin.qq.com/s/VCG3QPP4dwcfNlZFC_nnSQ | 中国网络安全产业发展报告 | 1| 
-| 京东数字科技研究院 |  | https://mp.weixin.qq.com/s/2afk7pLqgzpUnXgmQgMNEw | 编译 | Palantir中标美国军方8亿美元人工智能系统研发采购计划 | 1| 
+| 数说安全 | SSAQ2016 | https://mp.weixin.qq.com/s/alJyvGi8FPygIe1IYYj2_A | 科创板观察报告：恒安嘉新、安博通、山石和安恒篇 | 2| 
 | 梅子酒的书札 | a960596293_book | https://mp.weixin.qq.com/s/rlSyABoulRKygPmwfcUuXA | 西湖论剑2019 WriteUp | 1| 
+| 秦安战略 | qinan1128 | https://mp.weixin.qq.com/s/VCG3QPP4dwcfNlZFC_nnSQ | 中国网络安全产业发展报告 | 1| 
 | 360核心安全 | CoreSec360 | https://mp.weixin.qq.com/s/r-jAWFjtOxgd-JyVStFvsg | APT战争中脚本攻击的兵法之道 | 1| 
 | TideSec安全团队 | TideSec | https://mp.weixin.qq.com/s/X0mCJECAzyqxDBwhlP_3hg | Weblogic漏洞——从入门到放弃 | 12| 
 | 半佛仙人 | banfoSB | https://mp.weixin.qq.com/s/AK6_wP_JtMW5DxzRyWaXXg | 屠夫遇上路霸丨揭秘高利贷与黑产的血色战争 | 1| 
@@ -56,7 +57,7 @@
 | Coalfire-Research | DeathMetal - 针对 Intel AMT 的攻击工具集 | https://github.com/Coalfire-Research/DeathMetal | http://www.coalfirelabs.com | Advancing the state of the Infosec industry by providing cutting-edge research, open-source tools and tradecraft | http://www.coalfirelabs.com | 14 | 0 | 0 | C,Python,JavaScript,Lua,PowerShell,HCL | 0 | 0 | 1| 
 | RhinoSecurityLabs | Apache Axis 由于代码中加载过期域名托管的资源导致的远程代码执行漏洞详情披露（CVE-2019-0227） | https://github.com/RhinoSecurityLabs/CVEs/blob/master/CVE-2019-0227/README.md | https://rhinosecuritylabs.com | A boutique penetration testing and security assessment firm in Seattle, WA. | Seattle, WA | 10 | 0 | 0 | Python,JavaScript,PowerShell,HCL | 0 | 0 | 1| 
 | DigitalSecurity | nrf5x芯片固件反编译工具 | https://github.com/DigitalSecurity/nrf5x-tools | http://www.digitalsecurity.fr |  | Paris, France | 9 | 2 | 0 | Python,C,JavaScript,C++ | 0 | 0 | 1| 
-| Nothing2Hide | pcap_ioc: Python library to extract potential IOCs from a ... | https://github.com/Nothing2Hide/pcap_ioc | https://nothing2hide.org/ | Des outils pour protéger linformation | Internet | 9 | 0 | 0 | Python,Shell,PHP,CSS | 0 | 0 | 1| 
+| Nothing2Hide | pcap_ioc: Python library to extract potential IOCs from a pcap file | https://github.com/Nothing2Hide/pcap_ioc | https://nothing2hide.org/ | Des outils pour protéger linformation | Internet | 9 | 0 | 0 | Python,Shell,PHP,CSS | 0 | 0 | 1| 
 | sophoslabs | While parsing an HTML5 stream in concert with custom HTML elements. This results in the stream parser object being freed while still in use. | https://github.com/sophoslabs/CVE-2018-18500/ | https://www.sophos.com/en-us/labs.aspx |  | https://www.sophos.com/en-us/labs.aspx | 4 | 0 | 0 | Python,HTML | 0 | 0 | 1| 
 
 
@@ -83,7 +84,7 @@
 | Mattiwatti | EfiGuard - x64 UEFI bootkit，在启动时修补 Windows 启动管理器以禁用 PatchGuard 和驱动程序签名验证(DSE) | https://github.com/Mattiwatti/EfiGuard | None |  | The Netherlands | None | 19 | 0 | 13 | 87 | 3 | C,Assembly,C++ | 227 | 61 | 1| 
 | 0x36 | iOS上的沙箱逃逸漏洞（A11平台，版本<12.2） | https://github.com/0x36/powend | None | . | Morocco | None | 6 | 0 | 23 | 79 | 0 | C,Makefile | 138 | 36 | 1| 
 | jthuraisamy | Synaptics 音频 Windows 内核驱动 CxUtilSvc 本地提权漏洞（CVE-2019-9730） | https://github.com/jthuraisamy/CVE-2019-9730/ | http://jackson.thuraisamy.me |  | None | None | 22 | 0 | 37 | 50 | 8 | C#,Python,C,JavaScript,Java | 40 | 9 | 1| 
-| cfreal | Apache 本地提权漏洞 Exploit（CVE-2019-0211） | https://github.com/cfreal/exploits/tree/master/CVE-2019-0211-apache | https://github.com/ambionics |  | None | @ambionics | 2 | 0 | 3 | 46 | 0 | PHP,HTML | 281 | 45 | 1| 
+| cfreal | Apache 本地提权漏洞 CVE-2019-0211 Exploit | https://github.com/cfreal/exploits/tree/master/CVE-2019-0211-apache | https://github.com/ambionics |  | None | @ambionics | 2 | 0 | 3 | 46 | 0 | PHP,HTML | 281 | 45 | 1| 
 | chris408 | ct-exposer: discovers sub-domains by searching Certificate... | https://github.com/chris408/ct-exposer | https://linkedin.com/in/chris408 | chris408.com | None | None | 9 | 0 | 6 | 41 | 6 | Python,C | 286 | 60 | 1| 
 | iSafeBlue | 一张渗透测试思维导图 | https://github.com/iSafeBlue/Mind-Map/ | https://b1ue.cn | Security Researcher , Java Development Engineer | None | None | 9 | 0 | 248 | 38 | 35 | JavaScript,Java | 207 | 56 | 1| 
 | 7kbstorm | 7kbscan-WebPathBrute Web路径暴力探测工具 | https://github.com/7kbstorm/7kbscan-WebPathBrute | https://www.7kb.org | Red Team | None | None | 26 | 0 | 0 | 27 | 0 | C++,XSLT | 43 | 13 | 1| 
@@ -96,6 +97,7 @@
 | PokemonGoTeam | CRYPTOPOKEMON: Simple C++ cryptolocker Blowfish CBC | https://github.com/PokemonGoTeam/CRYPTOPOKEMON | http://pokemongo.icu |  | Kiev, Ukraine | PokemonGo | 1 | 0 | 0 | 7 | 0 | C++ | 10 | 3 | 1| 
 | mykter | aws-security-cert-service-notes - AWS 服务安全认证学习笔记 | https://github.com/mykter/aws-security-cert-service-notes | http://mykter.com |  | UK | None | 20 | 0 | 29 | 2 | 0 | Python,C,TypeScript | 272 | 52 | 1| 
 | AngelCtulhu | Wordpress Support Candy 插件的文件上传漏洞 | https://github.com/AngelCtulhu/CVE-2019-11223/ | http://cert.kalasag.com.ph |  | Pasig | 8Layer Technologies Inc. | 2 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
+| tea-deliverers | PlaidCTF 2019 比赛的 Writeup | https://github.com/tea-deliverers/ctf-writeups/blob/master/pctf2019/PlaidCTF2019_Writeup_Tea_Deliverers.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 
 
 
