@@ -14,7 +14,10 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
-| 象帕大人 | shanpasama | https://mp.weixin.qq.com/s?__biz=MzAwODExNzk4Mw==&mid=2652259275&idx=1&sn=e4555ac45d605bb012279cc89d67e6ee&chksm=8091287bb7e6a16d330a6241a54c0be4db1fee32b0b3a2a3b0dd153de4814b64a6591fde7511&mpshare=1&scene=1&srcid=&key=8e787c7b9fab69d8f8b1b578e72312c | RD-10射频探测器-隐藏摄像头侦查器中文手册 | 1| 
+| 嘶吼专业版 | Pro4hou | https://mp.weixin.qq.com/s/gYUCTLi2GpmatGOcRODZwA | 对APT34泄露工具的分析——PoisonFrog和Glimpse | 1| 
+| 浙大学报英文版 | zdxbywb | https://mp.weixin.qq.com/s/4ue0JlvJNbSTjzUM9NDejA | 研究生第一篇学术论文常犯问题总结 | 1| 
+| 自主可控新鲜事 | ZZKK-IT | https://mp.weixin.qq.com/s/1AMEdl_YMXt0jjHl5RYP3A | 自主可控政策全景图（建议收藏） | 1| 
+| 象帕大人 | shanpasama | https://mp.weixin.qq.com/s?__biz=MzAwODExNzk4Mw==&mid=2652259275&idx=1&sn=e4555ac45d605bb012279cc89d67e6ee&chksm=8091287bb7e6a16d330a6241a54c0be4db1fee32b0b3a2a3b0dd153de4814b64a6591fde7511&mpshare=1&scene=1&srcid=&key=8e787c7b9fab69d8f8b1b578e72312c | RD-10射频探测器-隐藏摄像头侦查器中文手册 | 2| 
 | 科奖在线 | kejijiangli | https://mp.weixin.qq.com/s/6vLwQ7PMwn0X2zzJlnhjaA | 牛！清华吴子牛教授浅谈论文写作，赶紧收藏！ | 1| 
 | DJ的札记 | DJ_notes | https://mp.weixin.qq.com/s/pWZ3rRrRHOVMpxUc_vWgAg | 真真假假的创新 - RSAC2019之三 | 1| 
 | InfoQ | infoqchina | https://mp.weixin.qq.com/s/MLvd1AmxE9YnkWWmB9L9VQ | 腾讯云鼎实验室掌门人Killer谈网络安全 | 1| 
@@ -50,15 +53,19 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | mwrlabs | SharpGPOAbuse - MWR Labs 开发的基于 C# 的工具，用于滥用 GPO 编辑权限攻击该 GPO 控制的对象 | https://github.com/mwrlabs/SharpGPOAbuse | http://labs.mwrinfosecurity.com/ |  | Basingstoke, Johannesburg, London, Manchester, Singapore, New York | 43 | 0 | 0 | C,Java,Python,JavaScript,C++,C#,Objective-C,Assembly,Ruby,PowerShell,CSS | 1700 | 501 | 1| 
 | REhints | 从 UEFI 固件攻击硬件可信任架构(HROT) ，来自 offensive 2019 大会 | https://github.com/REhints/Publications/blob/master/Conferences/Bypassing%20Hardware%20Root%20of%20Trust/offcon2019_final.pdf | http://REhints.com |  | http://REhints.com | 10 | 2 | 0 | Python,C,Assembly,CSS,C++ | 1200 | 249 | 1| 
-| google | vulncode-db - 漏洞及漏洞代码整合数据库 | https://github.com/google/vulncode-db | https://opensource.google.com/ | Google ❤️ Open Source | https://opensource.google.com/ | 1447 | 2479 | 0 | C,Java,Python,Kotlin,JavaScript,Haskell,C++,Dart,HTML,Go,PHP | 0 | 0 | 1| 
+| google | vulncode-db - 漏洞及漏洞代码整合数据库 | https://github.com/google/vulncode-db | https://opensource.google.com/ | Google ❤️ Open Source | https://opensource.google.com/ | 1447 | 2479 | 0 | C,Java,Python,Kotlin,JavaScript,Haskell,C++,Dart,HTML,Go,PHP | 0 | 0 | 2| 
 | rapid7 | Metasploit 框架新增了一个 LibreOffice CVE-2018-16858 漏洞的利用代码，该漏洞通过 Document 事件触发脚本代码执行 | https://github.com/rapid7/metasploit-framework/commit/22085113ad67c0716b7b0aa6adfdaf9f7c8b48f0 | http://www.rapid7.com/ |  | Boston, MA | 232 | 0 | 0 | C,Shell,Java,Python,JavaScript,HTML,Go,Ruby | 0 | 0 | 1| 
+| facebook | osquery - Facebook 开源的基于 SQL 实现的操作系统插桩、监控、分析框架 | https://github.com/facebook/osquery | https://opensource.fb.com | We are working to build community through open source technology. NB: members must have two-factor auth. | Menlo Park, California | 158 | 185 | 0 | C,Java,Python,JavaScript,OCaml,C++,Objective-C,Haskell,Swift | 0 | 0 | 1| 
 | OWASP | QRLJacking - 扫描恶意二维码劫持用户登录回话的社工技术分享 | https://github.com/OWASP/QRLJacking/tree/master/QRLJacker | http://www.owasp.org | The OWASP Foundation | http://www.owasp.org | 145 | 26 | 0 | C,Shell,Java,Python,Dockerfile,JavaScript,Perl,HTML,Go,Ruby,CSS | 0 | 0 | 2| 
 | fox-it | adconnectdump - 从 Azure AD Connect 服务器中导出凭证的工具 | https://github.com/fox-it/adconnectdump | https://www.fox-it.com/ |  | https://www.fox-it.com/ | 31 | 1 | 0 | C,Shell,Python,Bro,HTML,Ruby,PowerShell | 0 | 0 | 1| 
+| comaeio | OPCDE 2019 会议的资料公开了 | https://github.com/comaeio/OPCDE/blob/master/README.md | http://www.comae.io |  | Dubai, UAE | 24 | 0 | 0 | C,Java,JavaScript,C++,Nginx,Smarty,PowerShell | 0 | 0 | 1| 
 | Coalfire-Research | DeathMetal - 针对 Intel AMT 的攻击工具集 | https://github.com/Coalfire-Research/DeathMetal | http://www.coalfirelabs.com | Advancing the state of the Infosec industry by providing cutting-edge research, open-source tools and tradecraft | http://www.coalfirelabs.com | 14 | 0 | 0 | C,Python,JavaScript,Lua,PowerShell,HCL | 0 | 0 | 1| 
 | RhinoSecurityLabs | Apache Axis 由于代码中加载过期域名托管的资源导致的远程代码执行漏洞详情披露（CVE-2019-0227） | https://github.com/RhinoSecurityLabs/CVEs/blob/master/CVE-2019-0227/README.md | https://rhinosecuritylabs.com | A boutique penetration testing and security assessment firm in Seattle, WA. | Seattle, WA | 10 | 0 | 0 | Python,JavaScript,PowerShell,HCL | 0 | 0 | 1| 
 | DigitalSecurity | nrf5x芯片固件反编译工具 | https://github.com/DigitalSecurity/nrf5x-tools | http://www.digitalsecurity.fr |  | Paris, France | 9 | 2 | 0 | Python,C,JavaScript,C++ | 0 | 0 | 1| 
+| NLua | NLua - Bridge between Lua and the .NET | https://github.com/NLua/NLua | http://nlua.org |  | http://nlua.org | 9 | 1 | 0 | C#,Lua,C,Shell,Perl | 0 | 0 | 1| 
 | Nothing2Hide | pcap_ioc: Python library to extract potential IOCs from a pcap file | https://github.com/Nothing2Hide/pcap_ioc | https://nothing2hide.org/ | Des outils pour protéger linformation | Internet | 9 | 0 | 0 | Python,Shell,PHP,CSS | 0 | 0 | 1| 
 | sophoslabs | While parsing an HTML5 stream in concert with custom HTML elements. This results in the stream parser object being freed while still in use. | https://github.com/sophoslabs/CVE-2018-18500/ | https://www.sophos.com/en-us/labs.aspx |  | https://www.sophos.com/en-us/labs.aspx | 4 | 0 | 0 | Python,HTML | 0 | 0 | 1| 
+| opensec-cn | VTest - 漏洞测试辅助系统 | https://github.com/opensec-cn/vtest | https://opensec-cn.github.io |  | https://opensec-cn.github.io | 3 | 5 | 0 | Python,Go,HTML | 0 | 0 | 1| 
 
 
 # 私人github账号 推荐
@@ -70,7 +77,9 @@
 | jas502n | Weblogic 任意文件上传漏洞（CVE-2019-2618）的 Exploit | https://github.com/jas502n/cve-2019-2618/ | None | 1.misc 2.crypto 3. web 4. reverse 5. android 6. pwn 7. elf | None | None | 129 | 0 | 103 | 661 | 109 | Python,C,Shell,JavaScript,PHP | 294 | 106 | 1| 
 | clone95 | Virgilio: Your new Mentor for Data Science E-Learning | https://github.com/clone95/Virgilio | None | I graduated in Italy in IT Engineering, and im currently having my internship in a shiny AI startup. | Bologna, Italy | None | 22 | 0 | 14 | 604 | 27 | Python,Jupyter | 9000 | 1700 | 1| 
 | travisgoodspeed | 利用 GHIDRA 逆向 Tytera MD380 的固件 | https://github.com/travisgoodspeed/md380tools/wiki/GHIDRA | None |  | None | None | 31 | 0 | 35 | 593 | 24 | Python,C,C++ | 593 | 190 | 1| 
+| ChiChou | 前两周 ChiChou 公开了多个 macOS 平台的多个应用的漏洞利用代码，包括微软 Microsoft AutoUpdate、Adobe Creative Cloud Desktop 以及 Feedback Assistant | https://github.com/ChiChou/sploits | https://github.com/alipay | 我要卖掉我的代码 浪迹天涯 | Beijing, China | @alipay | 53 | 0 | 1500 | 551 | 242 | Logos,C,Shell,JavaScript,C++,Objective-C,Vue | 1100 | 152 | 1| 
 | xerub | voucher_swap - Exploit for P0 issue 1731 on iOS 12.1.2 | https://github.com/xerub/voucher_swap | None |  | None | None | 29 | 0 | 0 | 447 | 0 | Python,C | 191 | 86 | 1| 
+| sebastienros | Jint - Javascript interpreter for .NET，在 Javascript 中运行 .NET 平台的代码 | https://github.com/sebastienros/jint | http://about.me/sebastienros |  | Bellevue, WA | Microsoft | 61 | 0 | 10 | 378 | 0 | C# | 2600 | 902 | 1| 
 | mjg59 | mjg59 为 Linux 内核提交了一个 Patch，支持用户态请求内核清空引用计数为 0 的内存页，防止重要密钥信息在进程崩溃、内存换页等场景下被泄漏。 | https://github.com/mjg59/linux/commit/cd2bb1eb23ededafc2f301f8bc5561523daa96e6 | https://github.com/google |  | Oakland | @google | 73 | 0 | 2 | 356 | 0 | Python,C | 632 | 250 | 1| 
 | k8gege | K8tools: K8工具合集 | https://github.com/k8gege/K8tools | https://www.cnblogs.com/k8gege/ |  | None | None | 6 | 0 | 3 | 237 | 1 | C#,Ruby,PowerShell,C++ | 845 | 320 | 1| 
 | hlldz | APC-PPID - 通过 APC 注入创建进程并伪造父进程的项目 | https://github.com/hlldz/APC-PPID | https://artofpwn.com | Pwner, Red Teamer | İstanbul, Türkiye | None | 5 | 0 | 179 | 214 | 22 | Python,PowerShell,C++ | 691 | 159 | 1| 
@@ -95,6 +104,7 @@
 | DimopoulosElias | alpc-mmc-uac-bypass - 通过 ALPC 绕过 UAC 的项目 | https://github.com/DimopoulosElias/alpc-mmc-uac-bypass | https://www.linkedin.com/in/dimopouloselias |  | None | None | 5 | 0 | 11 | 15 | 2 | Python,C,C++ | 43 | 10 | 1| 
 | sumas | OSCP-Cheatsheet-God - OSCP 考试备忘清单 | https://github.com/sumas/OSCP-Cheatsheet-God | None |  | None | None | 18 | 0 | 1 | 14 | 1 | Python,JavaScript,Java,PHP | 124 | 31 | 1| 
 | PokemonGoTeam | CRYPTOPOKEMON: Simple C++ cryptolocker Blowfish CBC | https://github.com/PokemonGoTeam/CRYPTOPOKEMON | http://pokemongo.icu |  | Kiev, Ukraine | PokemonGo | 1 | 0 | 0 | 7 | 0 | C++ | 10 | 3 | 1| 
+| chipik | SAP Gateway ACL 错误配置漏洞的 Exploit | https://github.com/chipik/SAP_GW_RCE_exploit | None | https://twitter.com/_chipik | None | None | 5 | 0 | 2 | 2 | 1 | Python | 4 | 2 | 1| 
 | mykter | aws-security-cert-service-notes - AWS 服务安全认证学习笔记 | https://github.com/mykter/aws-security-cert-service-notes | http://mykter.com |  | UK | None | 20 | 0 | 29 | 2 | 0 | Python,C,TypeScript | 272 | 52 | 1| 
 | AngelCtulhu | Wordpress Support Candy 插件的文件上传漏洞 | https://github.com/AngelCtulhu/CVE-2019-11223/ | http://cert.kalasag.com.ph |  | Pasig | 8Layer Technologies Inc. | 2 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | tea-deliverers | PlaidCTF 2019 比赛的 Writeup | https://github.com/tea-deliverers/ctf-writeups/blob/master/pctf2019/PlaidCTF2019_Writeup_Tea_Deliverers.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
