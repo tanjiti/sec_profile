@@ -14,6 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 中国信息安全 | chinainfosec | https://mp.weixin.qq.com/s/XO38NB5whYHxcr9RaoBFXw | 独家首发 | 《话说安全》走进“2019 西湖论剑” | 1| 
+| 情报杂志 |  | https://mp.weixin.qq.com/s/0N8vOoO2B6a79XGG5I-j0w | 美国高端智库的政策专家储备及其人才吸引机制研究———以兰德公司为例 | 1| 
 | 嘶吼专业版 | Pro4hou | https://mp.weixin.qq.com/s/gYUCTLi2GpmatGOcRODZwA | 对APT34泄露工具的分析——PoisonFrog和Glimpse | 1| 
 | 浙大学报英文版 | zdxbywb | https://mp.weixin.qq.com/s/4ue0JlvJNbSTjzUM9NDejA | 研究生第一篇学术论文常犯问题总结 | 1| 
 | 自主可控新鲜事 | ZZKK-IT | https://mp.weixin.qq.com/s/1AMEdl_YMXt0jjHl5RYP3A | 自主可控政策全景图（建议收藏） | 1| 
@@ -42,7 +44,7 @@
 | TideSec安全团队 | TideSec | https://mp.weixin.qq.com/s/X0mCJECAzyqxDBwhlP_3hg | Weblogic漏洞——从入门到放弃 | 12| 
 | 半佛仙人 | banfoSB | https://mp.weixin.qq.com/s/AK6_wP_JtMW5DxzRyWaXXg | 屠夫遇上路霸丨揭秘高利贷与黑产的血色战争 | 1| 
 | 图灵人工智能 | TuringAI01 | https://mp.weixin.qq.com/s/Yd0wjUQ03XINnMFLkPkBJg | 人工智能的现状与未来 | 1| 
-| 安全学术圈 | secquan | https://mp.weixin.qq.com/s/ZHcikLKeF9ZJg9kyrX-UrA | S&P 2019 论文录用列表 | 1| 
+| 安全学术圈 | secquan | https://mp.weixin.qq.com/s/ZHcikLKeF9ZJg9kyrX-UrA | S&P 2019 论文录用列表 | 2| 
 | 格友 |  | https://mp.weixin.qq.com/s/3Ft6205f8kUoCuGzB-hPtg | 在调试器里看QQLive捉迷藏 | 1| 
 | 网安国际 | inforsec | https://mp.weixin.qq.com/s/enasXD14SMzj1Cx5grGD3w | 谁劫持了我的DNS：全球域名解析路径劫持测量与分析 | 1| 
 | 集智俱乐部 | swarma_org | https://mp.weixin.qq.com/s/vsCAE-6e0jpX8wPw6Sd9eA | 使用深度神经网络对 Twitter进行威胁检测 | 网络科学论文速递16篇 | 1| 
@@ -51,6 +53,7 @@
 # 组织github账号 推荐
 | github_id | title | url | org_url | org_profile | org_geo | org_repositories | org_people | org_projects | repo_lang | repo_star | repo_forks| 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
+| Microsoft | hcsshim - 微软开源的利用 Windows Host Compute Service (HCS) 管理 Windows 容器的软件包 | https://github.com/Microsoft/hcsshim | https://opensource.microsoft.com | Open source, from Microsoft with love | Redmond, WA | 2392 | 4273 | 0 | C,TypeScript,Java,Vue,C#,JavaScript,C++,Python,Objective-C,HTML,F#,Jupyter,Ruby,PowerShell,HCL | 74300 | 10100 | 1| 
 | mwrlabs | SharpGPOAbuse - MWR Labs 开发的基于 C# 的工具，用于滥用 GPO 编辑权限攻击该 GPO 控制的对象 | https://github.com/mwrlabs/SharpGPOAbuse | http://labs.mwrinfosecurity.com/ |  | Basingstoke, Johannesburg, London, Manchester, Singapore, New York | 43 | 0 | 0 | C,Java,Python,JavaScript,C++,C#,Objective-C,Assembly,Ruby,PowerShell,CSS | 1700 | 501 | 1| 
 | REhints | 从 UEFI 固件攻击硬件可信任架构(HROT) ，来自 offensive 2019 大会 | https://github.com/REhints/Publications/blob/master/Conferences/Bypassing%20Hardware%20Root%20of%20Trust/offcon2019_final.pdf | http://REhints.com |  | http://REhints.com | 10 | 2 | 0 | Python,C,Assembly,CSS,C++ | 1200 | 249 | 1| 
 | google | vulncode-db - 漏洞及漏洞代码整合数据库 | https://github.com/google/vulncode-db | https://opensource.google.com/ | Google ❤️ Open Source | https://opensource.google.com/ | 1447 | 2479 | 0 | C,Java,Python,Kotlin,JavaScript,Haskell,C++,Dart,HTML,Go,PHP | 0 | 0 | 2| 
@@ -74,14 +77,16 @@
 | ruanyf | document-style-guide: 中文技术文档的写作规范 | https://github.com/ruanyf/document-style-guide | https://twitter.com/ruanyf |  | Shanghai, China | None | 54 | 0 | 233 | 50300 | 0 | JavaScript | 15700 | 6900 | 1| 
 | openbilibili | 哔哩哔哩（bilibili）站的源码疑似泄漏 | https://github.com/openbilibili/go-common | None |  | None | None | 0 | 0 | 0 | 2200 | 0 |  | 0 | 0 | 1| 
 | taviso | swisstable - 访问 Abseil Swiss Tables 的小型 C 封装库 | https://github.com/taviso/swisstable | None |  | None | None | 11 | 0 | 9 | 1100 | 1 | C | 2600 | 193 | 1| 
-| jas502n | Weblogic 任意文件上传漏洞（CVE-2019-2618）的 Exploit | https://github.com/jas502n/cve-2019-2618/ | None | 1.misc 2.crypto 3. web 4. reverse 5. android 6. pwn 7. elf | None | None | 129 | 0 | 103 | 661 | 109 | Python,C,Shell,JavaScript,PHP | 294 | 106 | 1| 
+| jas502n | Weblogic 任意文件上传漏洞（CVE-2019-2618）的 Exploit | https://github.com/jas502n/cve-2019-2618/ | None | 1.misc 2.crypto 3. web 4. reverse 5. android 6. pwn 7. elf | None | None | 129 | 0 | 103 | 661 | 109 | Python,C,Shell,JavaScript,PHP | 294 | 106 | 3| 
 | clone95 | Virgilio: Your new Mentor for Data Science E-Learning | https://github.com/clone95/Virgilio | None | I graduated in Italy in IT Engineering, and im currently having my internship in a shiny AI startup. | Bologna, Italy | None | 22 | 0 | 14 | 604 | 27 | Python,Jupyter | 9000 | 1700 | 1| 
 | travisgoodspeed | 利用 GHIDRA 逆向 Tytera MD380 的固件 | https://github.com/travisgoodspeed/md380tools/wiki/GHIDRA | None |  | None | None | 31 | 0 | 35 | 593 | 24 | Python,C,C++ | 593 | 190 | 1| 
 | ChiChou | 前两周 ChiChou 公开了多个 macOS 平台的多个应用的漏洞利用代码，包括微软 Microsoft AutoUpdate、Adobe Creative Cloud Desktop 以及 Feedback Assistant | https://github.com/ChiChou/sploits | https://github.com/alipay | 我要卖掉我的代码 浪迹天涯 | Beijing, China | @alipay | 53 | 0 | 1500 | 551 | 242 | Logos,C,Shell,JavaScript,C++,Objective-C,Vue | 1100 | 152 | 1| 
 | xerub | voucher_swap - Exploit for P0 issue 1731 on iOS 12.1.2 | https://github.com/xerub/voucher_swap | None |  | None | None | 29 | 0 | 0 | 447 | 0 | Python,C | 191 | 86 | 1| 
+| We5ter | Open-Source Obfuscated Command Detection Tool | https://github.com/We5ter/Flerken | https://lightrains.org | You are being watched. Anywhere. Anytime. | Chengdu,China | None | 11 | 0 | 1200 | 410 | 100 | Python,CSS | 3400 | 1300 | 1| 
 | sebastienros | Jint - Javascript interpreter for .NET，在 Javascript 中运行 .NET 平台的代码 | https://github.com/sebastienros/jint | http://about.me/sebastienros |  | Bellevue, WA | Microsoft | 61 | 0 | 10 | 378 | 0 | C# | 2600 | 902 | 1| 
 | mjg59 | mjg59 为 Linux 内核提交了一个 Patch，支持用户态请求内核清空引用计数为 0 的内存页，防止重要密钥信息在进程崩溃、内存换页等场景下被泄漏。 | https://github.com/mjg59/linux/commit/cd2bb1eb23ededafc2f301f8bc5561523daa96e6 | https://github.com/google |  | Oakland | @google | 73 | 0 | 2 | 356 | 0 | Python,C | 632 | 250 | 1| 
 | k8gege | K8tools: K8工具合集 | https://github.com/k8gege/K8tools | https://www.cnblogs.com/k8gege/ |  | None | None | 6 | 0 | 3 | 237 | 1 | C#,Ruby,PowerShell,C++ | 845 | 320 | 1| 
+| frizb | WAF 和 XSS Filter Bypass 的 Payloads | https://github.com/frizb/Bypassing-Web-Application-Firewalls | None |  | None | None | 32 | 0 | 259 | 220 | 10 | Python,Batchfile,HTML | 349 | 95 | 1| 
 | hlldz | APC-PPID - 通过 APC 注入创建进程并伪造父进程的项目 | https://github.com/hlldz/APC-PPID | https://artofpwn.com | Pwner, Red Teamer | İstanbul, Türkiye | None | 5 | 0 | 179 | 214 | 22 | Python,PowerShell,C++ | 691 | 159 | 1| 
 | pyn3rd | Apache Tomcat 远程代码执行漏洞（CVE-2019-0232），可以通过 Windows enableCmdLineArguments 触发 | https://github.com/pyn3rd/CVE-2019-0232/ | https://twitter.com/pyn3rd |  | Hangzhou | Alibaba Group | 7 | 0 | 0 | 210 | 0 | Python,Batchfile,Java | 118 | 46 | 1| 
 | ustayready | fireprox - AWS API Gateway 管理工具，用于动态创建 HTTP 传递代理以实现唯一的 IP 轮换 | https://github.com/ustayready/fireprox | None | divergent thinker/breaker and researcher of stuff | None | None | 39 | 0 | 7 | 194 | 7 | Python,C#,HTML | 702 | 147 | 1| 
@@ -94,6 +99,7 @@
 | eoftedal | Istio/Envoy 目录穿越漏洞详情披露(CVE-2019-9901) | https://github.com/eoftedal/writings/blob/master/published/CVE-2019-9901-path-traversal.md | http://erlend.oftedal.no/blog |  | Oslo, Norway | None | 73 | 0 | 384 | 103 | 67 | C#,JavaScript,Java | 172 | 11 | 1| 
 | Mattiwatti | EfiGuard - x64 UEFI bootkit，在启动时修补 Windows 启动管理器以禁用 PatchGuard 和驱动程序签名验证(DSE) | https://github.com/Mattiwatti/EfiGuard | None |  | The Netherlands | None | 19 | 0 | 13 | 87 | 3 | C,Assembly,C++ | 227 | 61 | 1| 
 | 0x36 | iOS上的沙箱逃逸漏洞（A11平台，版本<12.2） | https://github.com/0x36/powend | None | . | Morocco | None | 6 | 0 | 23 | 79 | 0 | C,Makefile | 138 | 36 | 1| 
+| aleenzz | MYSQL SQL 注入 Bypass 技巧总结 | https://github.com/aleenzz/MYSQL_SQL_BYPASS_WIKI | None | 发现问题,解决问题 | None | 404 | 11 | 0 | 24 | 78 | 31 | Python | 288 | 74 | 1| 
 | jthuraisamy | Synaptics 音频 Windows 内核驱动 CxUtilSvc 本地提权漏洞（CVE-2019-9730） | https://github.com/jthuraisamy/CVE-2019-9730/ | http://jackson.thuraisamy.me |  | None | None | 22 | 0 | 37 | 50 | 8 | C#,Python,C,JavaScript,Java | 40 | 9 | 1| 
 | cfreal | Apache 本地提权漏洞 CVE-2019-0211 Exploit | https://github.com/cfreal/exploits/tree/master/CVE-2019-0211-apache | https://github.com/ambionics |  | None | @ambionics | 2 | 0 | 3 | 46 | 0 | PHP,HTML | 281 | 45 | 1| 
 | chris408 | ct-exposer: discovers sub-domains by searching Certificate... | https://github.com/chris408/ct-exposer | https://linkedin.com/in/chris408 | chris408.com | None | None | 9 | 0 | 6 | 41 | 6 | Python,C | 286 | 60 | 1| 
