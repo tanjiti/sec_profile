@@ -16,13 +16,13 @@
 | --- | --- | --- | ---| 
 | 中通安全应急响应中心 | ZTO_SRC | https://mp.weixin.qq.com/s/kWK9PL_C2IW_T9i_A1Mlsw | 中通同安漏洞管理系统 | 1| 
 | 人工智能头条 | AI_Thinker | https://mp.weixin.qq.com/s/PVzVNI7jMzHPcUbL7UaCIQ | 什么是语义角色标注？ | 1| 
-| 中国信息安全 | chinainfosec | https://mp.weixin.qq.com/s/XO38NB5whYHxcr9RaoBFXw | 独家首发 | 《话说安全》走进“2019 西湖论剑” | 1| 
-| 情报杂志 |  | https://mp.weixin.qq.com/s/0N8vOoO2B6a79XGG5I-j0w | 美国高端智库的政策专家储备及其人才吸引机制研究———以兰德公司为例 | 1| 
-| 嘶吼专业版 | Pro4hou | https://mp.weixin.qq.com/s/gYUCTLi2GpmatGOcRODZwA | 对APT34泄露工具的分析——PoisonFrog和Glimpse | 1| 
-| 浙大学报英文版 | zdxbywb | https://mp.weixin.qq.com/s/4ue0JlvJNbSTjzUM9NDejA | 研究生第一篇学术论文常犯问题总结 | 1| 
-| 自主可控新鲜事 | ZZKK-IT | https://mp.weixin.qq.com/s/1AMEdl_YMXt0jjHl5RYP3A | 自主可控政策全景图（建议收藏） | 1| 
 | 象帕大人 | shanpasama | https://mp.weixin.qq.com/s?__biz=MzAwODExNzk4Mw==&mid=2652259275&idx=1&sn=e4555ac45d605bb012279cc89d67e6ee&chksm=8091287bb7e6a16d330a6241a54c0be4db1fee32b0b3a2a3b0dd153de4814b64a6591fde7511&mpshare=1&scene=1&srcid=&key=8e787c7b9fab69d8f8b1b578e72312c | RD-10射频探测器-隐藏摄像头侦查器中文手册 | 2| 
+| 中国信息安全 | chinainfosec | https://mp.weixin.qq.com/s/XO38NB5whYHxcr9RaoBFXw | 独家首发 | 《话说安全》走进“2019 西湖论剑” | 1| 
+| 嘶吼专业版 | Pro4hou | https://mp.weixin.qq.com/s/gYUCTLi2GpmatGOcRODZwA | 对APT34泄露工具的分析——PoisonFrog和Glimpse | 1| 
+| 情报杂志 |  | https://mp.weixin.qq.com/s/0N8vOoO2B6a79XGG5I-j0w | 美国高端智库的政策专家储备及其人才吸引机制研究———以兰德公司为例 | 1| 
+| 浙大学报英文版 | zdxbywb | https://mp.weixin.qq.com/s/4ue0JlvJNbSTjzUM9NDejA | 研究生第一篇学术论文常犯问题总结 | 1| 
 | 科奖在线 | kejijiangli | https://mp.weixin.qq.com/s/6vLwQ7PMwn0X2zzJlnhjaA | 牛！清华吴子牛教授浅谈论文写作，赶紧收藏！ | 1| 
+| 自主可控新鲜事 | ZZKK-IT | https://mp.weixin.qq.com/s/1AMEdl_YMXt0jjHl5RYP3A | 自主可控政策全景图（建议收藏） | 1| 
 | DJ的札记 | DJ_notes | https://mp.weixin.qq.com/s/pWZ3rRrRHOVMpxUc_vWgAg | 真真假假的创新 - RSAC2019之三 | 1| 
 | InfoQ | infoqchina | https://mp.weixin.qq.com/s/MLvd1AmxE9YnkWWmB9L9VQ | 腾讯云鼎实验室掌门人Killer谈网络安全 | 2| 
 | 中国保密协会科学技术分会 |  | https://mp.weixin.qq.com/s/jJyq7bYuq1xxGXpfnmKP3g | 企业海外机构信息安全保密风险分析及对策建议 | 1| 
@@ -43,7 +43,7 @@
 | 梅子酒的书札 | a960596293_book | https://mp.weixin.qq.com/s/rlSyABoulRKygPmwfcUuXA | 西湖论剑2019 WriteUp | 1| 
 | 秦安战略 | qinan1128 | https://mp.weixin.qq.com/s/VCG3QPP4dwcfNlZFC_nnSQ | 中国网络安全产业发展报告 | 1| 
 | 360核心安全 | CoreSec360 | https://mp.weixin.qq.com/s/r-jAWFjtOxgd-JyVStFvsg | APT战争中脚本攻击的兵法之道 | 1| 
-| TideSec安全团队 | TideSec | https://mp.weixin.qq.com/s/X0mCJECAzyqxDBwhlP_3hg | Weblogic漏洞——从入门到放弃 | 12| 
+| TideSec安全团队 | TideSec | https://mp.weixin.qq.com/s/X0mCJECAzyqxDBwhlP_3hg | Weblogic漏洞——从入门到放弃 | 16| 
 | 半佛仙人 | banfoSB | https://mp.weixin.qq.com/s/AK6_wP_JtMW5DxzRyWaXXg | 屠夫遇上路霸丨揭秘高利贷与黑产的血色战争 | 1| 
 | 图灵人工智能 | TuringAI01 | https://mp.weixin.qq.com/s/Yd0wjUQ03XINnMFLkPkBJg | 人工智能的现状与未来 | 1| 
 | 安全学术圈 | secquan | https://mp.weixin.qq.com/s/ZHcikLKeF9ZJg9kyrX-UrA | S&P 2019 论文录用列表 | 2| 
@@ -84,7 +84,7 @@
 | travisgoodspeed | 利用 GHIDRA 逆向 Tytera MD380 的固件 | https://github.com/travisgoodspeed/md380tools/wiki/GHIDRA | None |  | None | None | 31 | 0 | 35 | 593 | 24 | Python,C,C++ | 593 | 190 | 1| 
 | ChiChou | 前两周 ChiChou 公开了多个 macOS 平台的多个应用的漏洞利用代码，包括微软 Microsoft AutoUpdate、Adobe Creative Cloud Desktop 以及 Feedback Assistant | https://github.com/ChiChou/sploits | https://github.com/alipay | 我要卖掉我的代码 浪迹天涯 | Beijing, China | @alipay | 53 | 0 | 1500 | 551 | 242 | Logos,C,Shell,JavaScript,C++,Objective-C,Vue | 1100 | 152 | 1| 
 | xerub | voucher_swap - Exploit for P0 issue 1731 on iOS 12.1.2 | https://github.com/xerub/voucher_swap | None |  | None | None | 29 | 0 | 0 | 447 | 0 | Python,C | 191 | 86 | 1| 
-| We5ter | Open-Source Obfuscated Command Detection Tool | https://github.com/We5ter/Flerken | https://lightrains.org | You are being watched. Anywhere. Anytime. | Chengdu,China | None | 11 | 0 | 1200 | 410 | 100 | Python,CSS | 3400 | 1300 | 1| 
+| We5ter | 开源powershell CMD bash命令混淆检测工具 | https://github.com/We5ter/Flerken | https://lightrains.org | You are being watched. Anywhere. Anytime. | Chengdu,China | None | 11 | 0 | 1200 | 410 | 100 | Python,CSS | 3400 | 1300 | 1| 
 | Lucifer1993 | cmsprint: CMS和中间件指纹库 | https://github.com/Lucifer1993/cmsprint | None | 安全圈职业炮灰 | None | None | 24 | 0 | 302 | 404 | 25 | Python,Ruby | 876 | 396 | 1| 
 | sebastienros | Jint - Javascript interpreter for .NET，在 Javascript 中运行 .NET 平台的代码 | https://github.com/sebastienros/jint | http://about.me/sebastienros |  | Bellevue, WA | Microsoft | 61 | 0 | 10 | 378 | 0 | C# | 2600 | 902 | 1| 
 | mjg59 | mjg59 为 Linux 内核提交了一个 Patch，支持用户态请求内核清空引用计数为 0 的内存页，防止重要密钥信息在进程崩溃、内存换页等场景下被泄漏。 | https://github.com/mjg59/linux/commit/cd2bb1eb23ededafc2f301f8bc5561523daa96e6 | https://github.com/google |  | Oakland | @google | 73 | 0 | 2 | 356 | 0 | Python,C | 632 | 250 | 1| 
@@ -105,7 +105,7 @@
 | aleenzz | MYSQL SQL 注入 Bypass 技巧总结 | https://github.com/aleenzz/MYSQL_SQL_BYPASS_WIKI | None | 发现问题,解决问题 | None | 404 | 11 | 0 | 24 | 78 | 31 | Python | 288 | 74 | 1| 
 | jthuraisamy | Synaptics 音频 Windows 内核驱动 CxUtilSvc 本地提权漏洞（CVE-2019-9730） | https://github.com/jthuraisamy/CVE-2019-9730/ | http://jackson.thuraisamy.me |  | None | None | 22 | 0 | 37 | 50 | 8 | C#,Python,C,JavaScript,Java | 40 | 9 | 1| 
 | cfreal | Apache 本地提权漏洞 CVE-2019-0211 Exploit | https://github.com/cfreal/exploits/tree/master/CVE-2019-0211-apache | https://github.com/ambionics |  | None | @ambionics | 2 | 0 | 3 | 46 | 0 | PHP,HTML | 281 | 45 | 1| 
-| chris408 | ct-exposer: discovers sub-domains by searching Certificate... | https://github.com/chris408/ct-exposer | https://linkedin.com/in/chris408 | chris408.com | None | None | 9 | 0 | 6 | 41 | 6 | Python,C | 286 | 60 | 1| 
+| chris408 | ct-exposer: discovers sub-domains by searching Certificate Transparency logs | https://github.com/chris408/ct-exposer | https://linkedin.com/in/chris408 | chris408.com | None | None | 9 | 0 | 6 | 41 | 6 | Python,C | 286 | 60 | 1| 
 | iSafeBlue | 一张渗透测试思维导图 | https://github.com/iSafeBlue/Mind-Map/ | https://b1ue.cn | Security Researcher , Java Development Engineer | None | None | 9 | 0 | 248 | 38 | 35 | JavaScript,Java | 207 | 56 | 1| 
 | 7kbstorm | 7kbscan-WebPathBrute Web路径暴力探测工具 | https://github.com/7kbstorm/7kbscan-WebPathBrute | https://www.7kb.org | Red Team | None | None | 26 | 0 | 0 | 27 | 0 | C++,XSLT | 43 | 13 | 1| 
 | leeberg | BlueHive - 基于 PowerShell 实现的活动目录密罐用户管理项目，并且带仪表盘以可视化展示结果 | https://github.com/leeberg/BlueHive | http://www.leealanberg.com | Product Manager, Automation Engineer, Content Producer, EX Microsoft MVP, Nerd | Madison, Wisconsin, United States | None | 35 | 0 | 85 | 26 | 64 | C# | 4 | 0 | 2| 
