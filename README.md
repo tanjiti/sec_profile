@@ -43,7 +43,7 @@
 | 梅子酒的书札 | a960596293_book | https://mp.weixin.qq.com/s/rlSyABoulRKygPmwfcUuXA | 西湖论剑2019 WriteUp | 1| 
 | 秦安战略 | qinan1128 | https://mp.weixin.qq.com/s/VCG3QPP4dwcfNlZFC_nnSQ | 中国网络安全产业发展报告 | 1| 
 | 360核心安全 | CoreSec360 | https://mp.weixin.qq.com/s/r-jAWFjtOxgd-JyVStFvsg | APT战争中脚本攻击的兵法之道 | 1| 
-| TideSec安全团队 | TideSec | https://mp.weixin.qq.com/s/X0mCJECAzyqxDBwhlP_3hg | Weblogic漏洞——从入门到放弃 | 16| 
+| TideSec安全团队 | TideSec | https://mp.weixin.qq.com/s/X0mCJECAzyqxDBwhlP_3hg | Weblogic漏洞——从入门到放弃 | 18| 
 | 半佛仙人 | banfoSB | https://mp.weixin.qq.com/s/AK6_wP_JtMW5DxzRyWaXXg | 屠夫遇上路霸丨揭秘高利贷与黑产的血色战争 | 1| 
 | 图灵人工智能 | TuringAI01 | https://mp.weixin.qq.com/s/Yd0wjUQ03XINnMFLkPkBJg | 人工智能的现状与未来 | 1| 
 | 安全学术圈 | secquan | https://mp.weixin.qq.com/s/ZHcikLKeF9ZJg9kyrX-UrA | S&P 2019 论文录用列表 | 2| 
