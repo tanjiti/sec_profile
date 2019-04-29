@@ -14,6 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 中通安全应急响应中心 | ZTO_SRC | https://mp.weixin.qq.com/s/kWK9PL_C2IW_T9i_A1Mlsw | 中通同安漏洞管理系统 | 1| 
+| 人工智能头条 | AI_Thinker | https://mp.weixin.qq.com/s/PVzVNI7jMzHPcUbL7UaCIQ | 什么是语义角色标注？ | 1| 
 | 中国信息安全 | chinainfosec | https://mp.weixin.qq.com/s/XO38NB5whYHxcr9RaoBFXw | 独家首发 | 《话说安全》走进“2019 西湖论剑” | 1| 
 | 情报杂志 |  | https://mp.weixin.qq.com/s/0N8vOoO2B6a79XGG5I-j0w | 美国高端智库的政策专家储备及其人才吸引机制研究———以兰德公司为例 | 1| 
 | 嘶吼专业版 | Pro4hou | https://mp.weixin.qq.com/s/gYUCTLi2GpmatGOcRODZwA | 对APT34泄露工具的分析——PoisonFrog和Glimpse | 1| 
@@ -22,7 +24,7 @@
 | 象帕大人 | shanpasama | https://mp.weixin.qq.com/s?__biz=MzAwODExNzk4Mw==&mid=2652259275&idx=1&sn=e4555ac45d605bb012279cc89d67e6ee&chksm=8091287bb7e6a16d330a6241a54c0be4db1fee32b0b3a2a3b0dd153de4814b64a6591fde7511&mpshare=1&scene=1&srcid=&key=8e787c7b9fab69d8f8b1b578e72312c | RD-10射频探测器-隐藏摄像头侦查器中文手册 | 2| 
 | 科奖在线 | kejijiangli | https://mp.weixin.qq.com/s/6vLwQ7PMwn0X2zzJlnhjaA | 牛！清华吴子牛教授浅谈论文写作，赶紧收藏！ | 1| 
 | DJ的札记 | DJ_notes | https://mp.weixin.qq.com/s/pWZ3rRrRHOVMpxUc_vWgAg | 真真假假的创新 - RSAC2019之三 | 1| 
-| InfoQ | infoqchina | https://mp.weixin.qq.com/s/MLvd1AmxE9YnkWWmB9L9VQ | 腾讯云鼎实验室掌门人Killer谈网络安全 | 1| 
+| InfoQ | infoqchina | https://mp.weixin.qq.com/s/MLvd1AmxE9YnkWWmB9L9VQ | 腾讯云鼎实验室掌门人Killer谈网络安全 | 2| 
 | 中国保密协会科学技术分会 |  | https://mp.weixin.qq.com/s/jJyq7bYuq1xxGXpfnmKP3g | 企业海外机构信息安全保密风险分析及对策建议 | 1| 
 | 信口杂谈 |  | https://mp.weixin.qq.com/s/OvTHpWXCwCH-k0jf8cQBTg | 乱弹网络空间X检索 | 1| 
 | 安全小飞侠 | AvFisher | https://mp.weixin.qq.com/s/cyxC4Of4Ic9c_vujQayTLg | Red Team从0到1的实践与思考 | 1| 
@@ -83,6 +85,7 @@
 | ChiChou | 前两周 ChiChou 公开了多个 macOS 平台的多个应用的漏洞利用代码，包括微软 Microsoft AutoUpdate、Adobe Creative Cloud Desktop 以及 Feedback Assistant | https://github.com/ChiChou/sploits | https://github.com/alipay | 我要卖掉我的代码 浪迹天涯 | Beijing, China | @alipay | 53 | 0 | 1500 | 551 | 242 | Logos,C,Shell,JavaScript,C++,Objective-C,Vue | 1100 | 152 | 1| 
 | xerub | voucher_swap - Exploit for P0 issue 1731 on iOS 12.1.2 | https://github.com/xerub/voucher_swap | None |  | None | None | 29 | 0 | 0 | 447 | 0 | Python,C | 191 | 86 | 1| 
 | We5ter | Open-Source Obfuscated Command Detection Tool | https://github.com/We5ter/Flerken | https://lightrains.org | You are being watched. Anywhere. Anytime. | Chengdu,China | None | 11 | 0 | 1200 | 410 | 100 | Python,CSS | 3400 | 1300 | 1| 
+| Lucifer1993 | cmsprint: CMS和中间件指纹库 | https://github.com/Lucifer1993/cmsprint | None | 安全圈职业炮灰 | None | None | 24 | 0 | 302 | 404 | 25 | Python,Ruby | 876 | 396 | 1| 
 | sebastienros | Jint - Javascript interpreter for .NET，在 Javascript 中运行 .NET 平台的代码 | https://github.com/sebastienros/jint | http://about.me/sebastienros |  | Bellevue, WA | Microsoft | 61 | 0 | 10 | 378 | 0 | C# | 2600 | 902 | 1| 
 | mjg59 | mjg59 为 Linux 内核提交了一个 Patch，支持用户态请求内核清空引用计数为 0 的内存页，防止重要密钥信息在进程崩溃、内存换页等场景下被泄漏。 | https://github.com/mjg59/linux/commit/cd2bb1eb23ededafc2f301f8bc5561523daa96e6 | https://github.com/google |  | Oakland | @google | 73 | 0 | 2 | 356 | 0 | Python,C | 632 | 250 | 1| 
 | k8gege | K8tools: K8工具合集 | https://github.com/k8gege/K8tools | https://www.cnblogs.com/k8gege/ |  | None | None | 6 | 0 | 3 | 237 | 1 | C#,Ruby,PowerShell,C++ | 845 | 320 | 1| 
@@ -111,7 +114,10 @@
 | batteryshark | 商用硬件Token设备软件实现中安全问题 | https://github.com/batteryshark/writeups/tree/master/20190417 | None |  | New York, NY | Stonefish Systems | 46 | 0 | 2 | 17 | 0 | Python,C | 24 | 2 | 1| 
 | DimopoulosElias | alpc-mmc-uac-bypass - 通过 ALPC 绕过 UAC 的项目 | https://github.com/DimopoulosElias/alpc-mmc-uac-bypass | https://www.linkedin.com/in/dimopouloselias |  | None | None | 5 | 0 | 11 | 15 | 2 | Python,C,C++ | 43 | 10 | 1| 
 | sumas | OSCP-Cheatsheet-God - OSCP 考试备忘清单 | https://github.com/sumas/OSCP-Cheatsheet-God | None |  | None | None | 18 | 0 | 1 | 14 | 1 | Python,JavaScript,Java,PHP | 124 | 31 | 1| 
+| locoz666 | 手把手教你写爬虫 | https://github.com/locoz666/spider-article | None |  | ShenZhen | Midu(www.midu.com) | 3 | 0 | 33 | 13 | 2 | JavaScript | 41 | 16 | 1| 
+| hongphipham95 | 研究员 hongphipham95 公开 KMPlayer 和 VirualBox 的很多漏洞分析文章，昨天新增一篇 VirtualBox Intel PRO 1000 设备模拟整数溢出漏洞的分析 | https://github.com/hongphipham95/Vulnerabilities | None |  | Viet Nam | None | 6 | 0 | 79 | 12 | 9 | Python,Java,C++ | 13 | 3 | 1| 
 | PokemonGoTeam | CRYPTOPOKEMON: Simple C++ cryptolocker Blowfish CBC | https://github.com/PokemonGoTeam/CRYPTOPOKEMON | http://pokemongo.icu |  | Kiev, Ukraine | PokemonGo | 1 | 0 | 0 | 7 | 0 | C++ | 10 | 3 | 1| 
+| attakercyebr | DVR 摄像头漏洞攻击脚本（CVE-2018-2019） | https://github.com/attakercyebr/hack4lx_CVE-2018-2019 | https://t.me/hack4lx | The black hat hacker team leader just came out for destruction M4nifest0 Cyber security team™ | Romania | @os20ir | 18 | 0 | 21 | 4 | 17 | Python,Visual,Shell | 6 | 3 | 1| 
 | chipik | SAP Gateway ACL 错误配置漏洞的 Exploit | https://github.com/chipik/SAP_GW_RCE_exploit | None | https://twitter.com/_chipik | None | None | 5 | 0 | 2 | 2 | 1 | Python | 4 | 2 | 1| 
 | mykter | aws-security-cert-service-notes - AWS 服务安全认证学习笔记 | https://github.com/mykter/aws-security-cert-service-notes | http://mykter.com |  | UK | None | 20 | 0 | 29 | 2 | 0 | Python,C,TypeScript | 272 | 52 | 1| 
 | AngelCtulhu | Wordpress Support Candy 插件的文件上传漏洞 | https://github.com/AngelCtulhu/CVE-2019-11223/ | http://cert.kalasag.com.ph |  | Pasig | 8Layer Technologies Inc. | 2 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
