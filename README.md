@@ -14,6 +14,11 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 中国保密协会科学技术分会 |  | https://mp.weixin.qq.com/s/zw0gcF2oSfpUxLEfOY4oxw | 数据驱动的网络安全风险事件预测技术探讨 | 1| 
+| 中国信息安全 | chinainfosec | https://mp.weixin.qq.com/s/og_7zPM7a-axjc85BKzmAg | 专题 | 十八大以来我国主要电子政务政策法规汇编 | 1| 
+| 安在 | AnZer_SH | https://mp.weixin.qq.com/s/EfTJdLsL_2bleoRsobxOUw | 百家 | 吕毅：浅析组织IT和安全战略 | 1| 
+| 终结诈骗 | antifraud2 | https://mp.weixin.qq.com/s/eDq-QpEHjZieX-pjmDQFCg | 东南亚30万骗子，正在毁掉中国三代人！ | 1| 
+| 逢人斗智斗勇 | xiaopigfly | https://mp.weixin.qq.com/s/qv3pYEzi08DMydqUj1dSRw | 深入浅出略谈威胁情报 | 1| 
 
 
 # 组织github账号 推荐
