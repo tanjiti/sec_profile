@@ -1,0 +1,33 @@
+20190429	法规	http://www.djbh.net/webdev/web/HomeWebAction.do?p=getZxdt&id=8a818256675e91ab016a621adf3a010d&xx=a57ea59e9f6cf27b129f9bf21f7111ee	2019年公安机关网络安全执法检查自查表	djbh.net	www.djbh.net	/webdev/web/HomeWebAction.do
+20190429	事件	https://nosec.org/home/detail/2538.html	美国又曝出大型信息泄露事件，涉及8000万美国家庭	nosec.org	nosec.org	/home/detail/2538.html
+20190429	新闻	https://mp.weixin.qq.com/s/wL15_qP9iYae4J70XyncXw	5G生态系统： 对美国国防部的风险与机遇	qq.com	mp.weixin.qq.com	/s/wL15_qP9iYae4J70XyncXw
+20190429	观点	https://mp.weixin.qq.com/s/eDq-QpEHjZieX-pjmDQFCg	东南亚30万骗子，正在毁掉中国三代人	qq.com	mp.weixin.qq.com	/s/eDq-QpEHjZieX-pjmDQFCg
+20190429	法规	https://mp.weixin.qq.com/s/og_7zPM7a-axjc85BKzmAg	十八大以来我国主要电子政务政策法规汇编	qq.com	mp.weixin.qq.com	/s/og_7zPM7a-axjc85BKzmAg
+20190429	其它	https://china.kyodonews.net/news/2019/04/00bab9f2c589.html	日本政府已基本决定在防卫省编制和持有电脑病毒	kyodonews.net	china.kyodonews.net	/news/2019/04/00bab9f2c589.html
+20190429	新闻	https://www.jiemian.com/article/3090493.html	轻松监听手机信息，AI是如何窃取隐私、监控社会的？	jiemian.com	www.jiemian.com	/article/3090493.html
+20190429	新闻	https://nosec.org/home/detail/2549.html	数百名开发人员的Git仓库被勒索，微软也未能幸免	nosec.org	nosec.org	/home/detail/2549.html
+20190429	人物	https://mp.weixin.qq.com/s/EfTJdLsL_2bleoRsobxOUw	吕毅：浅析组织IT和安全战略	qq.com	mp.weixin.qq.com	/s/EfTJdLsL_2bleoRsobxOUw
+20190429	Web安全	https://mp.weixin.qq.com/s/EpDS21jQfckcM0C9mRk73w	渗透测试中信息收集的那些事	qq.com	mp.weixin.qq.com	/s/EpDS21jQfckcM0C9mRk73w
+20190429	恶意分析	https://mp.weixin.qq.com/s/6qelj476wlbA3hUAHyrApA	缓冲区溢出-原理和简单利用	qq.com	mp.weixin.qq.com	/s/6qelj476wlbA3hUAHyrApA
+20190429	恶意分析	https://mp.weixin.qq.com/s/IB6sfhQCp7U94L1KtBxb9A	隐蔽信道：隐形网络	qq.com	mp.weixin.qq.com	/s/IB6sfhQCp7U94L1KtBxb9A
+20190429	运维安全	https://www.infoq.cn/article/OEvTEQIjGuJXqbfc-We2	民生银行 OpenStack 安全加固探索与实践	infoq.cn	www.infoq.cn	/article/OEvTEQIjGuJXqbfc-We2
+20190429	漏洞分析	https://nosec.org/home/detail/2534.html	利用LAPS武器化CVE-2019-0841	nosec.org	nosec.org	/home/detail/2534.html
+20190429	取证分析	https://mp.weixin.qq.com/s/p53Vf4Xw0Zp03SvOmGTQxg	从美国对APT10攻击的溯源看美国应急响应中心的追溯能力	qq.com	mp.weixin.qq.com	/s/p53Vf4Xw0Zp03SvOmGTQxg
+20190429	漏洞分析	https://nosec.org/home/detail/2535.html	PDFReacter：从SSRF到RCE	nosec.org	nosec.org	/home/detail/2535.html
+20190429	恶意分析	https://www.freebuf.com/articles/database/202303.html	APT34泄密武器分析报告	freebuf.com	www.freebuf.com	/articles/database/202303.html
+20190429	漏洞分析	https://nosec.org/home/detail/2537.html	利用简单图片欺骗AI监测系统	nosec.org	nosec.org	/home/detail/2537.html
+20190429	运维安全	https://mp.weixin.qq.com/s/JER0OTnIuueMYbZ0rF8VQA	中通数据安全体系建设	qq.com	mp.weixin.qq.com	/s/JER0OTnIuueMYbZ0rF8VQA
+20190429	取证分析	https://www.freebuf.com/articles/es/201845.html	防代码泄漏的监控系统架构与实践	freebuf.com	www.freebuf.com	/articles/es/201845.html
+20190429	数据挖掘	https://www.cnblogs.com/LittleHann/p/8656621.html	DNS Tunnel隧道隐蔽通信实验 && 尝试复现特征向量化思维方式检测	cnblogs.com	www.cnblogs.com	/LittleHann/p/8656621.html
+20190429	观点	https://mp.weixin.qq.com/s/qv3pYEzi08DMydqUj1dSRw	深入浅出略谈威胁情报	qq.com	mp.weixin.qq.com	/s/qv3pYEzi08DMydqUj1dSRw
+20190429	Web安全	https://xz.aliyun.com/t/5004	Kerberos Security	aliyun.com	xz.aliyun.com	/t/5004
+20190429	Web安全	https://blog.donot.me/pentest-case-1/	迂回渗透某APP站点	donot.me	blog.donot.me	/pentest-case-1/
+20190429	数据挖掘	http://www.zmonster.me/2019/04/30/neo4j-introduction.html	图数据库 Neo4j 的部署、数据导入和简单使用	zmonster.me	www.zmonster.me	/2019/04/30/neo4j-introduction.html
+20190429	恶意分析	https://posts.specterops.io/designing-peer-to-peer-command-and-control-ad2c61740456	Designing Peer-To-Peer Command and Control	specterops.io	posts.specterops.io	/designing-peer-to-peer-command-and-control-ad2c61740456
+20190429	数据挖掘	https://mp.weixin.qq.com/s/zw0gcF2oSfpUxLEfOY4oxw	数据驱动的网络安全风险事件预测技术探讨	qq.com	mp.weixin.qq.com	/s/zw0gcF2oSfpUxLEfOY4oxw
+20190429	Web安全	https://mp.weixin.qq.com/s/bvnAQz0T36dOiZ8jEnZkTA	从后渗透分析应急响应的那些事儿（一）基础入侵篇	qq.com	mp.weixin.qq.com	/s/bvnAQz0T36dOiZ8jEnZkTA
+20190429	Web安全	https://mp.weixin.qq.com/s/D-ZURBxmCaQUeI-Czt7mOw	大批量Kindeditor文件上传事件的漏洞分析	qq.com	mp.weixin.qq.com	/s/D-ZURBxmCaQUeI-Czt7mOw
+20190429	Web安全	https://mp.weixin.qq.com/s/C91nxTVLBUpapSKwjHSbWQ	VulnHub靶机学习——Billu_b0x实战记录	qq.com	mp.weixin.qq.com	/s/C91nxTVLBUpapSKwjHSbWQ
+20190429	数据挖掘	https://mp.weixin.qq.com/s/N-DJjnUuQHg0FzAi-onZKg	从知识工程到知识图谱全面回顾	qq.com	mp.weixin.qq.com	/s/N-DJjnUuQHg0FzAi-onZKg
+20190429	Web安全	https://mp.weixin.qq.com/s/yaTyGAxNq1AmQ3oQd1MgOw	Proxy_Pool自动化代理搜集+评估+存储+展示工具	qq.com	mp.weixin.qq.com	/s/yaTyGAxNq1AmQ3oQd1MgOw
+20190429	Web安全	https://mp.weixin.qq.com/s/gSRmtU3BnyH0EpT5Mmplyw	VulnHub靶机学习——JIS-CTF实战记录	qq.com	mp.weixin.qq.com	/s/gSRmtU3BnyH0EpT5Mmplyw
