@@ -1,5 +1,5 @@
-Python	6
-JavaScript	5
+Python	7
+JavaScript	6
 Shell	4
 HTML	4
 C++	3
@@ -12,8 +12,10 @@ Java	1
 Swift	1
 Objective-C	1
 Puppet	1
+CSS	1
 POV-Ray	1
 Elixir	1
+PHP	1
 Ruby	1
 PowerShell	1
 Rust	1
