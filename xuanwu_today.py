@@ -42,7 +42,8 @@ def scraw(so, proxy=None, delta=2):
             logging.error("GET %s  failed : %s" % (url, repr(e)))
             return
         if soup:
-            rows = soup.find_all("div", class_='row')
+            rows = soup.find_all("div", class_='card-body')
+
 
             if rows:
 
@@ -50,17 +51,19 @@ def scraw(so, proxy=None, delta=2):
 
                     if row:
 
+
                         overview = {}
 
                         card_title = row.find("h5", class_="card-title")
+
                         if card_title:
                             card_title_text = strip_n(card_title.get_text())
                             card_title_url = card_title.find("a", class_="text-dark").get("href")
                             overview["title_english"] = card_title_text
                             sec_url = "https://sec.today%s" % card_title_url
 
-                            url_details = get_redirect_url(sec_url, root_dir="data/sec_url",
-                                                           issql=False, proxy=proxy)
+                            url_details = get_redirect_url(sec_url, root_dir="data/sec_url",issql=False, proxy=proxy)
+                            #url_details = None
                             if url_details:
                                 overview["url"] = url_details.get("url")
                                 overview["domain"] = url_details.get("domain")
