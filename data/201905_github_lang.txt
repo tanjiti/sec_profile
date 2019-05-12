@@ -1,4 +1,4 @@
-Python	12
+Python	13
 JavaScript	10
 Shell	7
 HTML	6
@@ -12,6 +12,7 @@ Objective-C	2
 Ruby	2
 Go	2
 PowerShell	2
+Perl	1
 Lua	1
 YARA	1
 Rust	1

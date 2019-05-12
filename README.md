@@ -15,6 +15,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 安全树洞 | treeholeofsec | https://mp.weixin.qq.com/s?__biz=MzU2NzkwNTQxNg==&mid=2247483719&idx=1&sn=1f68582237b3ece6f07bdf3be60fc1ec&chksm=fc975ca0cbe0d5b65824d2ec0bf2b11a2d26d69f6935371c73114db689fc3a56a13eeb6eeefb&token=1697253642&lang=zh_CN#rd |  | 1| 
 | 国际安全简报 | securitybrief | https://mp.weixin.qq.com/s/tHjveTuc1bi0TxmJKwMoGw |  | 1| 
 | 情报分析师 | qingbaoxueyuan | https://mp.weixin.qq.com/s/ULHbGTI1YosdZG23aAE4Qw |  | 1| 
 
@@ -30,6 +31,7 @@
 | Cisco-Talos | Talos 团队开源了一批用于 Fuzz ClamAV 杀软的种子文件 | https://github.com/Cisco-Talos/clamav-fuzz-corpus | http://www.talosintelligence.com | The official Organizational account of the Talos Group at Cisco | http://www.talosintelligence.com | 36 | 0 | 0 | C,Shell,Python,JavaScript,C++,Lua,HTML,PHP | 0 | 0 | 1| 
 | advanced-threat-research | McAfee 高级威胁研究团队开源了一个辅助寻找 ROP Gadget 的工具 - xbypass，xbypass 可以帮我们找到可以绕过 XML 文件格式字符限制的 Gadget 地址 | https://github.com/advanced-threat-research/xbypass | https://www.mcafee.com/enterprise/en-us/threat-center/advanced-threat-research.html |  | https://www.mcafee.com/enterprise/en-us/threat-center/advanced-threat-research.html | 4 | 0 | 0 | Python,YARA | 0 | 0 | 1| 
 | openitsystem | itops: 基于Python + Django的AD\Exchange管理系统 | https://github.com/openitsystem/itops?from=timeline | https://www.opscaff.com | 为行业提供更好的开源IT系统 | https://www.opscaff.com | 4 | 0 | 0 | Python,Shell,JavaScript | 0 | 0 | 1| 
+| redhuntlabs | List of Awesome Asset Discovery Resources | https://github.com/redhuntlabs/Awesome-Asset-Discovery | http://redhuntlabs.com/ | Discover and Assess your Attack Surface | http://redhuntlabs.com/ | 3 | 2 | 0 | Python | 0 | 0 | 1| 
 | webarx-security | wpbullet: A static code analysis for WordPress (and PHP) | https://github.com/webarx-security/wpbullet | https://www.webarxsecurity.com/ | WebARX is a cyber security company focusing on web application security. | https://www.webarxsecurity.com/ | 1 | 0 | 0 | Python | 0 | 0 | 1| 
 
 
@@ -43,6 +45,7 @@
 | DrDonk | Patch VMware ESXi 以支持 VMware 安装 macOS 系统的工具，支持 VMware ESXi 6.5 and 6.7 | https://github.com/DrDonk/esxi-unlocker | None |  | None | None | 14 | 0 | 0 | 180 | 0 | Python,C,Shell,JavaScript | 902 | 179 | 1| 
 | vulmon | 在线漏洞搜索引擎 Vulmon 开源了一个本地漏洞检测工具 Vulmap，Vulmap 在本地机器探测安装的软件列表然后请求 Vulmon 的漏洞数据找到可被利用的漏洞及利用代码 | https://github.com/vulmon/Vulmap | https://github.com/yavuzatlas | Open source tools of Vulmon @yavuzatlas @ozelfatih | None | None | 1 | 0 | 1 | 13 | 0 | Python | 171 | 25 | 1| 
 | lyxhh | HTTPDecrypt: 利用HTTP协议 远程加解密数据包，实现Burp一条龙... | https://github.com/lyxhh/lxhToolHTTPDecrypt | None |  | None | None | 5 | 0 | 172 | 9 | 0 | Python,JavaScript,HTML | 156 | 38 | 1| 
+| KTN1990 | WordPress Ninja Forms File Uploads 插件任意文件上传漏洞 PoC（CVE-2019-10869） | https://github.com/KTN1990/CVE-2019-10869/blob/master/README.md | https://www.facebook.com/KtN.1990 | 𝖍𝖆𝖈𝖐 𝖙𝖔 𝖑𝖎𝖛𝖊 𝖆𝖓𝖉 𝖑𝖎𝖛𝖊 𝖙𝖔 𝖍𝖆𝖈𝖐 | DZ | ⓪ⓧ⑥⑥⑥ | 11 | 0 | 8 | 6 | 3 | Python,Perl | 7 | 0 | 1| 
 | idapython | IDA Pro IDAPython 项目的源代码 | https://github.com/idapython/src | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 
 
