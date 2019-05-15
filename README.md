@@ -15,6 +15,10 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| PaperWeekly | paperweekly | https://mp.weixin.qq.com/s/FLXeHnLo03r-8qfUX48VHw |  | 1| 
+| 威胁猎人 | ThreatHunter | https://mp.weixin.qq.com/s/r7EY1zcydTmaaEY91H1m5A |  | 1| 
+| 有无科技法 | youwulaw | https://mp.weixin.qq.com/s/dqXA8KT_zFJWEx39RGd9Qg |  | 1| 
+| 阿里安全响应中心 | alisrc | https://mp.weixin.qq.com/s/iifhFE8S_3E5d5MvGRbVow |  | 1| 
 | TideSec安全团队 | TideSec | https://mp.weixin.qq.com/s/Fuc6r86k7eZ3nDvW5ZfcNQ |  | 2| 
 | 国际安全简报 | securitybrief | https://mp.weixin.qq.com/s/tHjveTuc1bi0TxmJKwMoGw |  | 1| 
 | 情报分析师 | qingbaoxueyuan | https://mp.weixin.qq.com/s/ULHbGTI1YosdZG23aAE4Qw |  | 1| 
