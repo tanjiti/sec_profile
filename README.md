@@ -19,7 +19,7 @@
 | 威胁猎人 | ThreatHunter | https://mp.weixin.qq.com/s/r7EY1zcydTmaaEY91H1m5A |  | 1| 
 | 有无科技法 | youwulaw | https://mp.weixin.qq.com/s/dqXA8KT_zFJWEx39RGd9Qg |  | 1| 
 | 阿里安全响应中心 | alisrc | https://mp.weixin.qq.com/s/iifhFE8S_3E5d5MvGRbVow |  | 1| 
-| TideSec安全团队 | TideSec | https://mp.weixin.qq.com/s/Fuc6r86k7eZ3nDvW5ZfcNQ |  | 2| 
+| TideSec安全团队 | TideSec | https://mp.weixin.qq.com/s/Fuc6r86k7eZ3nDvW5ZfcNQ |  | 3| 
 | 国际安全简报 | securitybrief | https://mp.weixin.qq.com/s/tHjveTuc1bi0TxmJKwMoGw |  | 1| 
 | 情报分析师 | qingbaoxueyuan | https://mp.weixin.qq.com/s/ULHbGTI1YosdZG23aAE4Qw |  | 1| 
 | DappReview | dappreview | https://mp.weixin.qq.com/s/aInEaYdS9X7HP7FbzWl6AQ?from=timeline |  | 2| 
@@ -32,8 +32,11 @@
 # 组织github账号 推荐
 | github_id | title | url | org_url | org_profile | org_geo | org_repositories | org_people | org_projects | repo_lang | repo_star | repo_forks| 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
+| Microsoft | SpeculationControl - 微软开发的用于获得当前 CPU Speculative Execution 相关缓解措施启用状态的脚本 | https://github.com/Microsoft/SpeculationControl | https://opensource.microsoft.com | Open source, from Microsoft with love | Redmond, WA | 2457 | 4265 | 0 | C,TypeScript,CMake,C#,JavaScript,C++,Python,Objective-C,HTML,PowerShell,CSS | 76000 | 10400 | 1| 
 | angr | Phuzzer - 用于与 AFL Fuzzer 交互的 Python Wrapper 工具 | https://github.com/angr/phuzzer | http://angr.horse | Next-generation binary analysis framework! | http://angr.horse | 30 | 16 | 0 | C,Shell,Python,C++,HTML,POV-Ray | 3500 | 600 | 1| 
 | nccgroup | Blackbox protobuf - NCC Group 开源的用于解码和编辑 Protobuf 数据包的 Burp Suite 扩展 | https://github.com/nccgroup/blackboxprotobuf | https://www.nccgroup.trust | Please report all security issues to security at nccgroup dot com | Global | 180 | 15 | 0 | C,Shell,Java,Python,JavaScript,TypeScript,C#,HTML,Elixir,Go,Rust | 692 | 63 | 1| 
+| google | tarpc - Google 开源的 Rust 语言的 RPC 框架库 | https://github.com/google/tarpc | https://opensource.google.com/ | Google ❤️ Open Source | https://opensource.google.com/ | 1472 | 2533 | 0 | C,Shell,Jupyter,Python,JavaScript,C++,Dart,HTML,Go,Java,Rust | 0 | 0 | 1| 
+| intel | ModernFW - Intel 开源的一个实现性项目，旨在为云主机服务器提供一个最小可用的平台固件 | https://github.com/intel/ModernFW | mailto:webmaster@linux.intel.com |  | webmaster@linux.intel.com | 616 | 23 | 0 | C,Shell,Java,Python,JavaScript,C++,TypeScript,Go,Rust | 0 | 0 | 1| 
 | monzo | response: Monzos real-time incident response and reporting tool | https://github.com/monzo/response | https://monzo.com/ | We’re building the best bank on the planet. | London, UK | 101 | 29 | 0 | Python,Ruby,JavaScript,C++,Objective-C,Puppet,Go,Swift | 0 | 0 | 1| 
 | quarkslab | Quarkslab 公开了很多他们团队近几年在安全会议上做过的演讲的资料 | https://github.com/quarkslab/conf-presentations | http://www.quarkslab.com |  | http://www.quarkslab.com | 46 | 2 | 0 | Python,Shell,TeX,JavaScript,C++ | 0 | 0 | 1| 
 | AzureAD | Microsoft Authentication Library (MSAL) - AzureAD 团队开源的用于 Azure Active Directory 认证的 Python 库 | https://github.com/AzureAD/microsoft-authentication-library-for-python | http://azure.microsoft.com/en-us/services/active-directory/ |  | Redmond, WA | 37 | 82 | 0 | C,TypeScript,Java,C#,JavaScript,Python,Objective-C,HTML,PHP,Ruby,PowerShell | 0 | 0 | 1| 
