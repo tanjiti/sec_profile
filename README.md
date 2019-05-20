@@ -15,6 +15,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 安全学术圈 | secquan | https://mp.weixin.qq.com/s/cSjoVgxjOAuIUlewX9iIoA |  | 1| 
 | 中关村杂志 | zgcmagazine | https://mp.weixin.qq.com/s/GryQEbF3wxAmT7e-76X-mw |  | 1| 
 | 嘶吼专业版 | Pro4hou | https://mp.weixin.qq.com/s/NC9bSf1QGXugPBPYVgaEsQ |  | 1| 
 | 奇安信威胁情报中心 |  | https://mp.weixin.qq.com/s/xegDRXu9A0YMx3v8_E86Ow |  | 1| 
