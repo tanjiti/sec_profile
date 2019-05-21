@@ -4,12 +4,12 @@ C	16
 Shell	14
 C++	14
 HTML	11
-C#	9
+C#	10
 Go	8
 Objective-C	7
+PowerShell	7
 TypeScript	6
 Java	6
-PowerShell	6
 CSS	4
 PHP	4
 Ruby	3
