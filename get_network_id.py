@@ -121,5 +121,5 @@ if __name__ == "__main__":
     so = SQLiteOper("data/scrap.db")
 
     # 获得安全从业人员账号
-    for source in ['github']: #,'weixin',  'twitter']:
+    for source in ['github','weixin']: #,  'twitter']:
         get_network_id(so, source=source)

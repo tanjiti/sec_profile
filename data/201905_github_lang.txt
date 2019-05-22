@@ -1,15 +1,15 @@
-Python	28
+Python	26
 JavaScript	20
 C	16
-Shell	14
-C++	14
-HTML	12
+C++	15
+Shell	13
+HTML	10
 C#	10
-Go	8
 Objective-C	7
-PowerShell	7
+Go	7
 TypeScript	6
 Java	6
+PowerShell	6
 CSS	4
 PHP	4
 Ruby	3
@@ -20,6 +20,7 @@ Perl	1
 Jsonnet	1
 Lua	1
 Rich	1
+Dockerfile	1
 YARA	1
 Assembly	1
 AngelScript	1
@@ -30,6 +31,4 @@ Vue	1
 TeX	1
 POV-Ray	1
 Swift	1
-OCaml	1
 Pascal	1
-Puppet	1
