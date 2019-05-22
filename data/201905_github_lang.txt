@@ -3,7 +3,7 @@ JavaScript	20
 C	16
 Shell	14
 C++	14
-HTML	11
+HTML	12
 C#	10
 Go	8
 Objective-C	7
