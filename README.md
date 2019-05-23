@@ -15,9 +15,11 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
-| TideSec安全团队 | TideSec | https://mp.weixin.qq.com/s/-19rmEhN7T_VQJKYZntHCQ |  | 6| 
+| 学蚁致用 | sudo_i | https://mp.weixin.qq.com/s/u8_d8MXvFuwOyIMZZMBsog |  | 1| 
+| 阿里技术 | ali_tech | https://mp.weixin.qq.com/s/w7SbAHxZsmHqFtTG8ZAXNg |  | 1| 
 | SIGAI | SIGAICN | https://mp.weixin.qq.com/s/fRBdRo8eI1N_bUqh7k7I3A |  | 1| 
 | PaperWeekly | paperweekly | https://mp.weixin.qq.com/s/FLXeHnLo03r-8qfUX48VHw |  | 1| 
+| TideSec安全团队 | TideSec | https://mp.weixin.qq.com/s/v92dLQSgLXv7JVkc8AUyvA |  | 6| 
 | 中关村杂志 | zgcmagazine | https://mp.weixin.qq.com/s/GryQEbF3wxAmT7e-76X-mw |  | 1| 
 | 嘶吼专业版 | Pro4hou | https://mp.weixin.qq.com/s/NC9bSf1QGXugPBPYVgaEsQ |  | 1| 
 | 奇安信威胁情报中心 |  | https://mp.weixin.qq.com/s/xegDRXu9A0YMx3v8_E86Ow |  | 1| 
@@ -25,9 +27,9 @@
 | 安全学术圈 | secquan | https://mp.weixin.qq.com/s/cSjoVgxjOAuIUlewX9iIoA |  | 1| 
 | 有无科技法 | youwulaw | https://mp.weixin.qq.com/s/dqXA8KT_zFJWEx39RGd9Qg |  | 1| 
 | 绿盟科技 | NSFOCUS-weixin | https://mp.weixin.qq.com/s/Agy_I_TjwiJjvPL4q7j6nQ |  | 1| 
-| 阿里安全响应中心 | alisrc | https://mp.weixin.qq.com/s/iifhFE8S_3E5d5MvGRbVow |  | 2| 
+| 阿里安全响应中心 | alisrc | https://mp.weixin.qq.com/s/8UuCC76DHYOuAtpF5MiOQg |  | 2| 
 | 黑鸟 | blackorbird | https://mp.weixin.qq.com/s/QaYPI8z4bXLUChuOrNxC-A |  | 1| 
-| DappReview | dappreview | https://mp.weixin.qq.com/s/aInEaYdS9X7HP7FbzWl6AQ?from=timeline |  | 2| 
+| DappReview | dappreview | https://mp.weixin.qq.com/s/9Cl6-ZmAi-U3Qi6cPVZJxQ?from=timeline |  | 2| 
 | 国际安全简报 | securitybrief | https://mp.weixin.qq.com/s/tHjveTuc1bi0TxmJKwMoGw |  | 1| 
 | 安全树洞 | treeholeofsec | https://mp.weixin.qq.com/s?__biz=MzU2NzkwNTQxNg==&mid=2247483719&idx=1&sn=1f68582237b3ece6f07bdf3be60fc1ec&chksm=fc975ca0cbe0d5b65824d2ec0bf2b11a2d26d69f6935371c73114db689fc3a56a13eeb6eeefb&token=1697253642&lang=zh_CN#rd |  | 1| 
 | 安在 | AnZer_SH | https://mp.weixin.qq.com/s/3UYObnoZV_g-AZFdSoxJLg |  | 1| 
@@ -43,7 +45,7 @@
 | microsoft | AttackSurfaceAnalyzer - 微软开源了一个用于分析软件对系统攻击面影响的工具，Diff 软件安装前后对系统安全配置的影响 | https://github.com/microsoft/AttackSurfaceAnalyzer | https://opensource.microsoft.com | Open source, from Microsoft with love | Redmond, WA | 2457 | 4265 | 0 | Jupyter,TypeScript,CMake,C#,JavaScript,C++,Python,Objective-C,HTML,Rich,Go,Java,PowerShell,CSS | 76100 | 10400 | 1| 
 | angr | Phuzzer - 用于与 AFL Fuzzer 交互的 Python Wrapper 工具 | https://github.com/angr/phuzzer | http://angr.horse | Next-generation binary analysis framework! | http://angr.horse | 30 | 16 | 0 | C,Shell,Python,C++,HTML,POV-Ray | 3500 | 600 | 1| 
 | nccgroup | Blackbox protobuf - NCC Group 开源的用于解码和编辑 Protobuf 数据包的 Burp Suite 扩展 | https://github.com/nccgroup/blackboxprotobuf | https://www.nccgroup.trust | Please report all security issues to security at nccgroup dot com | Global | 180 | 15 | 0 | C,Shell,Java,Python,JavaScript,TypeScript,C#,HTML,Elixir,Go,Rust | 692 | 63 | 1| 
-| google | tarpc - Google 开源的 Rust 语言的 RPC 框架库 | https://github.com/google/tarpc | https://opensource.google.com/ | Google ❤️ Open Source | https://opensource.google.com/ | 1472 | 2533 | 0 | C,Shell,Jupyter,Python,JavaScript,C++,Dart,HTML,Go,Java,Rust | 0 | 0 | 2| 
+| google | UIforETW - Google 为 Windows ETW 事件追踪写的 UI 可视化界面 | https://github.com/google/UIforETW/releases/tag/v1.51 | https://opensource.google.com/ | Google ❤️ Open Source | https://opensource.google.com/ | 1474 | 2538 | 0 | C,Java,Python,JavaScript,C++,Jsonnet,HTML,Go | 0 | 0 | 2| 
 | intel | ModernFW - Intel 开源的一个实现性项目，旨在为云主机服务器提供一个最小可用的平台固件 | https://github.com/intel/ModernFW | mailto:webmaster@linux.intel.com |  | webmaster@linux.intel.com | 616 | 23 | 0 | C,Shell,Java,Python,JavaScript,C++,TypeScript,Go,Rust | 0 | 0 | 1| 
 | monzo | response: Monzos real-time incident response and reporting tool | https://github.com/monzo/response | https://monzo.com/ | We’re building the best bank on the planet. | London, UK | 110 | 31 | 0 | Python,Ruby,JavaScript,C++,Objective-C,Swift,Go,Dockerfile | 0 | 0 | 1| 
 | quarkslab | Quarkslab 公开了很多他们团队近几年在安全会议上做过的演讲的资料 | https://github.com/quarkslab/conf-presentations | http://www.quarkslab.com |  | http://www.quarkslab.com | 46 | 2 | 0 | Python,Shell,TeX,JavaScript,C++ | 0 | 0 | 1| 
@@ -72,6 +74,7 @@
 | yeyintminthuhtut | Browser、Mitigation 、Kernel 等漏洞利用相关研究 | https://github.com/yeyintminthuhtut/Awesome-Advanced-Windows-Exploitation-References | http://pentest.space | Twitter @yeyint_mth | Singapore | None | 287 | 0 | 477 | 223 | 19 | Shell | 0 | 0 | 1| 
 | DrDonk | Patch VMware ESXi 以支持 VMware 安装 macOS 系统的工具，支持 VMware ESXi 6.5 and 6.7 | https://github.com/DrDonk/esxi-unlocker | None |  | None | None | 14 | 0 | 0 | 180 | 0 | Python,C,Shell,JavaScript | 902 | 179 | 1| 
 | secgroundzero | tetanus: Helper script for mangling CS payloads | https://github.com/secgroundzero/tetanus | None |  | None | None | 10 | 0 | 4 | 157 | 7 | Python,C#,JavaScript,Shell | 2100 | 285 | 1| 
+| yadox666 | 硬件黑客的工具箱，里面涵盖了硬件安全各个领域中使用的软件和硬件工具的介绍和推荐。 | https://github.com/yadox666/The-Hackers-Hardware-Toolkit/blob/master/TheHackersHardwareToolkit.pdf | https://twitter.com/yadox | Yago Hansen is a recognized authority in IT security topics. He successfully managed projects related to the design of Security technologies and devices. | Madrid | Mundo Hacker | 8 | 0 | 1 | 78 | 1 | Python | 863 | 103 | 1| 
 | qingxp9 | macOS Mojave 10.14.4 802.1X 组件网络流量劫持逻辑漏洞的 PoC | https://github.com/qingxp9/CVE-2019-6203-PoC | https://qingxp9.github.io/ | Wireless Security Researcher | None | 360 PegasusTeam | 18 | 0 | 118 | 52 | 22 | Python,C,Shell | 3800 | 859 | 1| 
 | Bypass007 | 应急响应实战笔记 | https://github.com/Bypass007/Emergency-Response-Notes | None | 欢迎关注公众号Bypass--，专注于信息安全。 | Xiamen, China | None | 4 | 0 | 3 | 50 | 0 | Python | 152 | 56 | 1| 
 | digital-missiles | 上周爆出 CVE-2019-0708 远程桌面服务的蠕虫级 RCE 漏洞，但是一只没有 PoC 公开出来。昨天 GitHub 上 digital-missiles 公开了一个可以触达漏洞函数路径的 PoC，不会引起拒绝服务。 | https://github.com/digital-missiles/CVE-2019-0708-PoC-Hitting-Path | None |  | None | None | 1 | 0 | 0 | 27 | 0 | Python | 183 | 67 | 1| 
