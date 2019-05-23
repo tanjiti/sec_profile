@@ -53,6 +53,7 @@
 | advanced-threat-research | McAfee 高级威胁研究团队开源了一个辅助寻找 ROP Gadget 的工具 - xbypass，xbypass 可以帮我们找到可以绕过 XML 文件格式字符限制的 Gadget 地址 | https://github.com/advanced-threat-research/xbypass | https://www.mcafee.com/enterprise/en-us/threat-center/advanced-threat-research.html |  | https://www.mcafee.com/enterprise/en-us/threat-center/advanced-threat-research.html | 4 | 0 | 0 | Python,YARA | 0 | 0 | 1| 
 | openitsystem | itops: 基于Python + Django的AD\Exchange管理系统 | https://github.com/openitsystem/itops?from=timeline | https://www.opscaff.com | 为行业提供更好的开源IT系统 | https://www.opscaff.com | 4 | 0 | 0 | Python,Shell,JavaScript | 0 | 0 | 1| 
 | redhuntlabs | List of Awesome Asset Discovery Resources | https://github.com/redhuntlabs/Awesome-Asset-Discovery | http://redhuntlabs.com/ | Discover and Assess your Attack Surface | http://redhuntlabs.com/ | 3 | 2 | 0 | Python | 0 | 0 | 1| 
+| QBDI | QBDI - QuarksLab 开源的一款二进制动态插桩框架，支持 Linux, macOS, Android, iOS 和 Windows。 | https://github.com/QBDI/QBDI | https://qbdi.quarkslab.com | QuarkslaB Dynamic binary Instrumentation | Quarkslab | 2 | 2 | 0 | HTML,C++ | 0 | 0 | 1| 
 | webarx-security | wpbullet: A static code analysis for WordPress (and PHP) | https://github.com/webarx-security/wpbullet | https://www.webarxsecurity.com/ | WebARX is a cyber security company focusing on web application security. | https://www.webarxsecurity.com/ | 1 | 0 | 0 | Python | 0 | 0 | 1| 
 
 
