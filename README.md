@@ -34,7 +34,7 @@
 | 国际安全简报 | securitybrief | https://mp.weixin.qq.com/s/tHjveTuc1bi0TxmJKwMoGw |  | 1| 
 | 安全树洞 | treeholeofsec | https://mp.weixin.qq.com/s?__biz=MzU2NzkwNTQxNg==&mid=2247483719&idx=1&sn=1f68582237b3ece6f07bdf3be60fc1ec&chksm=fc975ca0cbe0d5b65824d2ec0bf2b11a2d26d69f6935371c73114db689fc3a56a13eeb6eeefb&token=1697253642&lang=zh_CN#rd |  | 1| 
 | 安在 | AnZer_SH | https://mp.weixin.qq.com/s/3UYObnoZV_g-AZFdSoxJLg |  | 1| 
-| 情报分析师 | qingbaoxueyuan | https://mp.weixin.qq.com/s/ULHbGTI1YosdZG23aAE4Qw |  | 1| 
+| 情报分析师 | qingbaoxueyuan | https://mp.weixin.qq.com/s/ULHbGTI1YosdZG23aAE4Qw |  | 2| 
 | 数字经济与社会 |  | https://mp.weixin.qq.com/s/sktQAoNeE-3na9lBPm9nzg |  | 1| 
 | 这里是河马 |  | https://mp.weixin.qq.com/s/FupNkLOOWAabvnC3Yob_uw |  | 1| 
 
@@ -44,6 +44,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | Microsoft | SpeculationControl - 微软开发的用于获得当前 CPU Speculative Execution 相关缓解措施启用状态的脚本 | https://github.com/Microsoft/SpeculationControl | https://opensource.microsoft.com | Open source, from Microsoft with love | Redmond, WA | 2457 | 4265 | 0 | C,TypeScript,CMake,C#,JavaScript,C++,Python,Objective-C,HTML,PowerShell,CSS | 76000 | 10400 | 1| 
 | microsoft | AttackSurfaceAnalyzer - 微软开源了一个用于分析软件对系统攻击面影响的工具，Diff 软件安装前后对系统安全配置的影响 | https://github.com/microsoft/AttackSurfaceAnalyzer | https://opensource.microsoft.com | Open source, from Microsoft with love | Redmond, WA | 2457 | 4265 | 0 | Jupyter,TypeScript,CMake,C#,JavaScript,C++,Python,Objective-C,HTML,Rich,Go,Java,PowerShell,CSS | 76100 | 10400 | 1| 
+| paypal | yurita: Anomaly detection framework @ PayPal | https://github.com/paypal/yurita | http://developer.paypal.com/ |  | San Jose, CA | 181 | 32 | 0 | Shell,Java,Clojure,Scala,C#,JavaScript,Python,Objective-C,Go,PHP,Ruby | 1800 | 938 | 1| 
 | angr | Phuzzer - 用于与 AFL Fuzzer 交互的 Python Wrapper 工具 | https://github.com/angr/phuzzer | http://angr.horse | Next-generation binary analysis framework! | http://angr.horse | 30 | 16 | 0 | C,Shell,Python,C++,HTML,POV-Ray | 3500 | 600 | 1| 
 | nccgroup | Blackbox protobuf - NCC Group 开源的用于解码和编辑 Protobuf 数据包的 Burp Suite 扩展 | https://github.com/nccgroup/blackboxprotobuf | https://www.nccgroup.trust | Please report all security issues to security at nccgroup dot com | Global | 180 | 15 | 0 | C,Shell,Java,Python,JavaScript,TypeScript,C#,HTML,Elixir,Go,Rust | 692 | 63 | 1| 
 | google | tarpc - Google 开源的 Rust 语言的 RPC 框架库 | https://github.com/google/tarpc | https://opensource.google.com/ | Google ❤️ Open Source | https://opensource.google.com/ | 1472 | 2533 | 0 | C,Shell,Jupyter,Python,JavaScript,C++,Dart,HTML,Go,Java,Rust | 0 | 0 | 2| 
