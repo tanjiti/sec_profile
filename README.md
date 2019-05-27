@@ -15,12 +15,13 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
-| 绿盟科技研究通讯 | nsfocus_research | https://mp.weixin.qq.com/s/15Avw3KTnmGIftxYhK34mQ |  | 1| 
-| 学蚁致用 | sudo_i | https://mp.weixin.qq.com/s/u8_d8MXvFuwOyIMZZMBsog |  | 1| 
-| 阿里技术 | ali_tech | https://mp.weixin.qq.com/s/w7SbAHxZsmHqFtTG8ZAXNg |  | 1| 
-| TideSec安全团队 | TideSec | https://mp.weixin.qq.com/s/-19rmEhN7T_VQJKYZntHCQ |  | 8| 
+| 苹果资本 | Applefunds | https://mp.weixin.qq.com/s/pyJYZZqrdiVjjtCdRaxkOw |  | 1| 
 | SIGAI | SIGAICN | https://mp.weixin.qq.com/s/fRBdRo8eI1N_bUqh7k7I3A |  | 1| 
+| 学蚁致用 | sudo_i | https://mp.weixin.qq.com/s/u8_d8MXvFuwOyIMZZMBsog |  | 1| 
+| 绿盟科技研究通讯 | nsfocus_research | https://mp.weixin.qq.com/s/15Avw3KTnmGIftxYhK34mQ |  | 1| 
+| 阿里技术 | ali_tech | https://mp.weixin.qq.com/s/w7SbAHxZsmHqFtTG8ZAXNg |  | 1| 
 | PaperWeekly | paperweekly | https://mp.weixin.qq.com/s/FLXeHnLo03r-8qfUX48VHw |  | 1| 
+| TideSec安全团队 | TideSec | https://mp.weixin.qq.com/s/lz5cAvLbYIdAQ3aRiiseYg |  | 8| 
 | 中关村杂志 | zgcmagazine | https://mp.weixin.qq.com/s/GryQEbF3wxAmT7e-76X-mw |  | 1| 
 | 嘶吼专业版 | Pro4hou | https://mp.weixin.qq.com/s/NC9bSf1QGXugPBPYVgaEsQ |  | 1| 
 | 奇安信威胁情报中心 |  | https://mp.weixin.qq.com/s/xegDRXu9A0YMx3v8_E86Ow |  | 1| 
@@ -72,14 +73,14 @@
 | rasta-mouse | Watson - 用于探测 Windows 环境缺失补丁枚举可利用本地提权漏洞的工具 | https://github.com/rasta-mouse/Watson/tree/2.0 | https://github.com/ZeroPointSecurity |  | None | @ZeroPointSecurity | 20 | 0 | 58 | 373 | 7 | C#,PowerShell | 0 | 0 | 1| 
 | xorrior | CobaltStrike 基于 WebSockets 的 C2 远控组件 | https://github.com/xorrior/raven | https://www.xorrior.com | PowerShell, C#, Obj-C, macOS Security, Red Team Operator | None | SpecterOps | 53 | 0 | 93 | 363 | 9 | C#,Objective-C,PowerShell,C++ | 358 | 82 | 1| 
 | Tuhinshubhra | ExtAnalysis: Browser Extension Analysis Framework | https://github.com/Tuhinshubhra/ExtAnalysis | https://twitter.com/r3dhax0r | I code and hack for fun! | ... | None | 13 | 0 | 2 | 316 | 0 | Python,PHP,JavaScript,CSS | 0 | 0 | 1| 
-| ExpLife0011 | CVE-2019-0803: Win32k Elevation of Privilege Poc | https://github.com/ExpLife0011/CVE-2019-0803 | None |  | None | None | 2800 | 0 | 3000 | 283 | 486 | C,Assembly,Python,AngelScript,C++,C# | 666 | 227 | 1| 
+| ExpLife0011 | CVE-2019-0803: Win32k Elevation of Privilege Poc | https://github.com/ExpLife0011/CVE-2019-0803 | None |  | None | None | 2800 | 0 | 3000 | 288 | 489 | Python,C#,C,Assembly,C++ | 672 | 227 | 1| 
 | yeyintminthuhtut | Browser、Mitigation 、Kernel 等漏洞利用相关研究 | https://github.com/yeyintminthuhtut/Awesome-Advanced-Windows-Exploitation-References | http://pentest.space | Twitter @yeyint_mth | Singapore | None | 287 | 0 | 477 | 223 | 19 | Shell | 0 | 0 | 1| 
 | DrDonk | Patch VMware ESXi 以支持 VMware 安装 macOS 系统的工具，支持 VMware ESXi 6.5 and 6.7 | https://github.com/DrDonk/esxi-unlocker | None |  | None | None | 14 | 0 | 0 | 180 | 0 | Python,C,Shell,JavaScript | 902 | 179 | 1| 
 | secgroundzero | tetanus: Helper script for mangling CS payloads | https://github.com/secgroundzero/tetanus | None |  | None | None | 10 | 0 | 4 | 157 | 7 | Python,C#,JavaScript,Shell | 2100 | 285 | 1| 
+| Bypass007 | 应急响应实战笔记 | https://github.com/Bypass007/Emergency-Response-Notes | None | 欢迎关注公众号Bypass--，专注于信息安全。 | Xiamen, China | None | 4 | 0 | 3 | 133 | 0 | Python | 806 | 164 | 1| 
 | patois | HRDevHelper - IDA HexRays 反汇编工具的插件，用于支持实时查看反编译后 C 代码的 ctree 信息 | https://github.com/patois/HRDevHelper | None | Yo, was github? | 127.0.0.1 | None | 32 | 0 | 233 | 86 | 48 | Python | 184 | 19 | 1| 
 | yadox666 | 硬件黑客的工具箱，里面涵盖了硬件安全各个领域中使用的软件和硬件工具的介绍和推荐。 | https://github.com/yadox666/The-Hackers-Hardware-Toolkit/blob/master/TheHackersHardwareToolkit.pdf | https://twitter.com/yadox | Yago Hansen is a recognized authority in IT security topics. He successfully managed projects related to the design of Security technologies and devices. | Madrid | Mundo Hacker | 8 | 0 | 1 | 78 | 1 | Python | 863 | 103 | 1| 
 | qingxp9 | macOS Mojave 10.14.4 802.1X 组件网络流量劫持逻辑漏洞的 PoC | https://github.com/qingxp9/CVE-2019-6203-PoC | https://qingxp9.github.io/ | Wireless Security Researcher | None | 360 PegasusTeam | 18 | 0 | 118 | 52 | 22 | Python,C,Shell | 3800 | 859 | 1| 
-| Bypass007 | 应急响应实战笔记 | https://github.com/Bypass007/Emergency-Response-Notes | None | 欢迎关注公众号Bypass--，专注于信息安全。 | Xiamen, China | None | 4 | 0 | 3 | 50 | 0 | Python | 152 | 56 | 1| 
 | terjanq | 一款JS编码工具，可以将 JS 编码成仅含有 /[a-z().]/ 字符的代码 | https://github.com/terjanq/JS-Alpha/tree/master | None | Student of Informatics and Mathematics at University of Wroclaw | None | None | 21 | 0 | 17 | 28 | 7 | HTML,JavaScript,C++ | 166 | 7 | 1| 
 | digital-missiles | 上周爆出 CVE-2019-0708 远程桌面服务的蠕虫级 RCE 漏洞，但是一只没有 PoC 公开出来。昨天 GitHub 上 digital-missiles 公开了一个可以触达漏洞函数路径的 PoC，不会引起拒绝服务。 | https://github.com/digital-missiles/CVE-2019-0708-PoC-Hitting-Path | None |  | None | None | 1 | 0 | 0 | 27 | 0 | Python | 183 | 67 | 1| 
 | zerobyte-id | Bashter: Web Crawler, Scanner, and Analyzer Framework (Shell-Script based) | https://github.com/zerobyte-id/Bashter | https://zerobyte.id | Dumb Repo | None | None | 11 | 0 | 3 | 26 | 0 | Shell,JavaScript,PHP | 0 | 0 | 1| 
@@ -87,9 +88,9 @@
 | lyxhh | HTTPDecrypt: 利用HTTP协议 远程加解密数据包，实现Burp一条龙服务 | https://github.com/lyxhh/lxhToolHTTPDecrypt | None |  | None | None | 5 | 0 | 169 | 23 | 0 | Python,JavaScript,HTML | 354 | 112 | 1| 
 | vulmon | Vulmap: Vulmap Online Local Vulnerability Scanners Project | https://github.com/vulmon/Vulmap | https://github.com/yavuzatlas | Open source tools of Vulmon @yavuzatlas @ozelfatih | None | None | 1 | 0 | 1 | 20 | 0 | Python | 0 | 0 | 1| 
 | linhlhq | 微软 2 月份修复的 SharePoint RCE 漏洞的 PoC 代码（CVE-2019-0604） | https://github.com/linhlhq/CVE-2019-0604 | https://twitter.com/linhlhq |  | None | None | 53 | 0 | 2 | 17 | 3 | C,C#,C++,Python,Pascal,Go,PowerShell | 75 | 45 | 1| 
-| W00t3k | Awesome-Cellular-Hacking | https://github.com/W00t3k/Awesome-Cellular-Hacking | None | Wireless eap peap lootbooty | None | Lootb00ty Inc. | 599 | 0 | 85 | 7 | 3 | Python,C | 35 | 7 | 1| 
+| W00t3k | Awesome-Cellular-Hacking | https://github.com/W00t3k/Awesome-Cellular-Hacking | None | Wireless eap peap lootbooty | None | Lootb00ty Inc. | 601 | 0 | 85 | 9 | 3 | Python,C,HTML | 71 | 8 | 1| 
 | KTN1990 | WordPress Ninja Forms File Uploads 插件任意文件上传漏洞 PoC（CVE-2019-10869） | https://github.com/KTN1990/CVE-2019-10869/blob/master/README.md | https://www.facebook.com/KtN.1990 | 𝖍𝖆𝖈𝖐 𝖙𝖔 𝖑𝖎𝖛𝖊 𝖆𝖓𝖉 𝖑𝖎𝖛𝖊 𝖙𝖔 𝖍𝖆𝖈𝖐 | DZ | ⓪ⓧ⑥⑥⑥ | 11 | 0 | 8 | 6 | 3 | Python,Perl | 7 | 0 | 1| 
-| sharepub | CheckVM-Sandbox | https://github.com/sharepub/CheckVM-Sandbox | None |  | None | None | 1 | 0 | 0 | 3 | 0 | C++ | 49 | 15 | 1| 
+| sharepub | CheckVM-Sandbox | https://github.com/sharepub/CheckVM-Sandbox | None |  | None | None | 1 | 0 | 0 | 3 | 0 | C++ | 70 | 17 | 1| 
 | YanxinTang | Watermark: 网页添加水印的库 | https://github.com/YanxinTang/Watermark | https://yanx.in | Frontend Developer | None | None | 13 | 0 | 65 | 0 | 2 | JavaScript | 0 | 0 | 1| 
 | idapython | IDA Pro IDAPython 项目的源代码 | https://github.com/idapython/src | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 

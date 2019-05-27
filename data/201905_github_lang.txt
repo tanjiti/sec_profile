@@ -3,7 +3,7 @@ JavaScript	22
 C++	17
 C	16
 Shell	14
-HTML	12
+HTML	13
 C#	11
 Objective-C	8
 Go	8
@@ -24,7 +24,6 @@ Rich	1
 Dockerfile	1
 YARA	1
 Assembly	1
-AngelScript	1
 Tcl	1
 Dart	1
 Elixir	1

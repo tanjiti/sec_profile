@@ -1,0 +1,68 @@
+20190520	新闻	https://mp.weixin.qq.com/s/AUwNbrUuiE7DldWeK9QcOA	远不止FBI和CIA——美国情报机构红宝书	qq.com	mp.weixin.qq.com	/s/AUwNbrUuiE7DldWeK9QcOA
+20190520	法规	http://www.cac.gov.cn/2019-05/24/c_1124532846.htm	关于《网络安全审查办法（征求意见稿）》公开征求意见	cac.gov.cn	www.cac.gov.cn	/2019-05/24/c_1124532846.htm
+20190520	观点	https://mp.weixin.qq.com/s/pyJYZZqrdiVjjtCdRaxkOw	网络安全行业不会一家独大	qq.com	mp.weixin.qq.com	/s/pyJYZZqrdiVjjtCdRaxkOw
+20190520	运维安全	https://github.com/Bypass007/Emergency-Response-Notes	应急响应实战笔记	github.com	github.com	/Bypass007/Emergency-Response-Notes
+20190520	漏洞分析	https://wazehell.io/2019/05/22/cve-2019-0708-technical-analysis-rdp-rce/	CVE-2019-0708 Technical Analysis (RDP-RCE)	wazehell.io	wazehell.io	/2019/05/22/cve-2019-0708-technical-analysis-rdp-rce/
+20190520	Web安全	https://payloads.online/archivers/2019-05-21/1?from=timeline	鱼叉攻击-尝试	payloads.online	payloads.online	/archivers/2019-05-21/1
+20190520	Web安全	https://3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-%E6%99%AE%E9%80%9A%E7%94%A8%E6%88%B7%E6%9D%83%E9%99%90%E8%8E%B7%E5%BE%97DNS%E8%AE%B0%E5%BD%95/	域渗透——普通用户权限获得DNS记录	github.io	3gstudent.github.io	/%E5%9F%9F%E6%B8%97%E9%80%8F-%E6%99%AE%E9%80%9A%E7%94%A8%E6%88%B7%E6%9D%83%E9%99%90%E8%8E%B7%E5%BE%97DNS%E8%AE%B0%E5%BD%95/
+20190520	Web安全	https://mp.weixin.qq.com/s/u8_d8MXvFuwOyIMZZMBsog	蚁剑绕WAF进化图鉴	qq.com	mp.weixin.qq.com	/s/u8_d8MXvFuwOyIMZZMBsog
+20190520	工具	https://nosec.org/home/detail/2651.html	Acunetix Vulnerability Scanner现可进行网络安全扫描	nosec.org	nosec.org	/home/detail/2651.html
+20190520	Web安全	https://nosec.org/home/detail/2654.html	无需括号和分号的XSS	nosec.org	nosec.org	/home/detail/2654.html
+20190520	其它	https://mp.weixin.qq.com/s/-19rmEhN7T_VQJKYZntHCQ	CTF中常见编码、代码混淆及加解密	qq.com	mp.weixin.qq.com	/s/-19rmEhN7T_VQJKYZntHCQ
+20190520	工具	https://mp.weixin.qq.com/s/ZbahHqET6ePysrqUFgeNYA	分布式web漏洞扫描平台WDScanner v1.1版本发布	qq.com	mp.weixin.qq.com	/s/ZbahHqET6ePysrqUFgeNYA
+20190520	其它	https://xz.aliyun.com/t/5218	RCTF 2019 Web Writeup	aliyun.com	xz.aliyun.com	/t/5218
+20190520	Web安全	https://mp.weixin.qq.com/s/BBnbrDQ2EcXbz5AZF6PY8g	从后渗透分析应急响应的那些事儿（二）免杀初识篇	qq.com	mp.weixin.qq.com	/s/BBnbrDQ2EcXbz5AZF6PY8g
+20190520	Web安全	https://nosec.org/home/detail/2661.html	如何将XSS漏洞从中危提升到严重	nosec.org	nosec.org	/home/detail/2661.html
+20190520	数据挖掘	https://mp.weixin.qq.com/s/fRBdRo8eI1N_bUqh7k7I3A	深度学习算法地图	qq.com	mp.weixin.qq.com	/s/fRBdRo8eI1N_bUqh7k7I3A
+20190520	其它	https://nosec.org/home/detail/2662.html	我生命中最昂贵的经历：SIM卡移植攻击	nosec.org	nosec.org	/home/detail/2662.html
+20190520	数据挖掘	https://mp.weixin.qq.com/s/w7SbAHxZsmHqFtTG8ZAXNg	异常检测的N种方法	qq.com	mp.weixin.qq.com	/s/w7SbAHxZsmHqFtTG8ZAXNg
+20190520	比赛	https://www.anquanke.com/post/id/178909	第一届HDCTF Write up	anquanke.com	www.anquanke.com	/post/id/178909
+20190520	工具	https://nosec.org/home/detail/2663.html	Pymetasploit3：使用Python3实现Metasploit自动化	nosec.org	nosec.org	/home/detail/2663.html
+20190520	设备安全	https://mp.weixin.qq.com/s/LS125u6qFxUoXm2CwnPepw	智能摄像头安全分析及案例参考	qq.com	mp.weixin.qq.com	/s/LS125u6qFxUoXm2CwnPepw
+20190520	运维安全	https://bypass007.github.io/Emergency-Response-Notes/	应急响应笔记	github.io	bypass007.github.io	/Emergency-Response-Notes/
+20190520	漏洞分析	https://blog.exodusintel.com/2019/05/19/pwn2own-2019-microsoft-edge-renderer-exploitation-cve-2019-9999-part-1/	Microsoft Edge Renderer Exploitation (CVE-2019-0940). Part 1	exodusintel.com	blog.exodusintel.com	/2019/05/19/pwn2own-2019-microsoft-edge-renderer-exploitation-cve-2019-9999-part-1/
+20190520	漏洞分析	https://xz.aliyun.com/t/5198	APT28分析之CVE-2015-1641样本分析	aliyun.com	xz.aliyun.com	/t/5198
+20190520	工具	https://github.com/ExpLife0011/CVE-2019-0803	CVE-2019-0803: Win32k Elevation of Privilege Poc	github.com	github.com	/ExpLife0011/CVE-2019-0803
+20190520	漏洞分析	http://lordofpwn.kr/index.php/writeup/cve-2019-8506-javascriptcore-exploit/	CVE-2019-8506 JavaScriptCore exploit	lordofpwn.kr	lordofpwn.kr	/index.php/writeup/cve-2019-8506-javascriptcore-exploit/
+20190520	工具	https://antonioparata.blogspot.com/2019/05/sojobo-yet-another-binary-analysis.html	Sojobo - Yet another binary analysis framework	blogspot.com	antonioparata.blogspot.com	/2019/05/sojobo-yet-another-binary-analysis.html
+20190520	Web安全	https://www.cnblogs.com/aichenxy/p/7207319.html	jQuery 安全模型解释	cnblogs.com	www.cnblogs.com	/aichenxy/p/7207319.html
+20190520	移动安全	http://blog.nsfocus.net/app-vulnerability-exploitation-combination-boxing/	APP漏洞利用组合拳——应用克隆案例分析	nsfocus.net	blog.nsfocus.net	/app-vulnerability-exploitation-combination-boxing/
+20190520	Web安全	https://blog.zsxsoft.com/post/40	从Zend虚拟机分析PHP加密扩展	zsxsoft.com	blog.zsxsoft.com	/post/40
+20190520	Web安全	https://nosec.org/home/detail/2664.html	西部数码MyCloud NAS命令执行漏洞	nosec.org	nosec.org	/home/detail/2664.html
+20190520	漏洞分析	https://blog.zecops.com/vulnerabilities/analysis-and-poc-of-content-filter-kernel-use-after-free/	iOS/OSX Content Filter Kernel UAF Analysis + POC	zecops.com	blog.zecops.com	/vulnerabilities/analysis-and-poc-of-content-filter-kernel-use-after-free/
+20190520	工具	https://github.com/sharepub/CheckVM-Sandbox	CheckVM-Sandbox	github.com	github.com	/sharepub/CheckVM-Sandbox
+20190520	漏洞分析	https://www.symbo1.com/articles/2019/05/21/hacking-facebook-the-hard-way.html	Hacking Facebook the Hard Way	symbo1.com	www.symbo1.com	/articles/2019/05/21/hacking-facebook-the-hard-way.html
+20190520	其它	https://github.com/W00t3k/Awesome-Cellular-Hacking	Awesome-Cellular-Hacking	github.com	github.com	/W00t3k/Awesome-Cellular-Hacking
+20190520	恶意分析	https://www.matteomalvica.com/blog/2019/05/18/elf-injection/	Injecting shellcode into x64 ELF binaries	matteomalvica.com	www.matteomalvica.com	/blog/2019/05/18/elf-injection/
+20190520	Web安全	https://portswigger.net/blog/xss-without-parentheses-and-semi-colons	XSS without parentheses and semi-colons	portswigger.net	portswigger.net	/blog/xss-without-parentheses-and-semi-colons
+20190520	漏洞分析	https://blog.ammaraskar.com/iclicker-reverse-engineering/	Reverse Engineering the iClicker Base Station	ammaraskar.com	blog.ammaraskar.com	/iclicker-reverse-engineering/
+20190520	比赛	https://xz.aliyun.com/t/5195	国赛-bbvvmm-SM4逆向分析，虚拟机指令分析	aliyun.com	xz.aliyun.com	/t/5195
+20190520	漏洞分析	https://medium.com/tenable-techblog/stealing-downloads-from-slack-users-be6829a55f63	Stealing Downloads from Slack Users	medium.com	medium.com	/tenable-techblog/stealing-downloads-from-slack-users-be6829a55f63
+20190520	恶意分析	https://modexp.wordpress.com/2019/05/19/shellcode-getprocaddress/	Using the Exception Directory to find GetProcAddress	wordpress.com	modexp.wordpress.com	/2019/05/19/shellcode-getprocaddress/
+20190520	恶意分析	https://medium.com/@nishanmaharjan17/reversing-golang-binaries-part-1-c273b2ca5333	Reversing Golang Binaries: Part-1	medium.com	medium.com	/@nishanmaharjan17/reversing-golang-binaries-part-1-c273b2ca5333
+20190520	移动安全	https://mp.weixin.qq.com/s/e2DQ18txynHqwplCROsoEA	【移动安全】移动应用安全基础篇——破掉iOS加密数据	qq.com	mp.weixin.qq.com	/s/e2DQ18txynHqwplCROsoEA
+20190520	漏洞分析	https://blog.exodusintel.com/2019/05/17/windows-within-windows/	ESCAPING THE CHROME SANDBOX WITH A WIN32K NDAY	exodusintel.com	blog.exodusintel.com	/2019/05/17/windows-within-windows/
+20190520	漏洞分析	https://speakerdeck.com/bo0om/2000day-in-safari	2000day in Safari	speakerdeck.com	speakerdeck.com	/bo0om/2000day-in-safari
+20190520	Web安全	https://bloodzer0.github.io/ossa/application-security/code-audit/sonarqube-error/	SonarQube踩坑记	github.io	bloodzer0.github.io	/ossa/application-security/code-audit/sonarqube-error/
+20190520	工具	https://medium.com/@labunskya/secret-telegrams-bdd2035b6e84	Even more secret Telegrams	medium.com	medium.com	/@labunskya/secret-telegrams-bdd2035b6e84
+20190520	Web安全	https://www.komodosec.com/post/mime-sniffing-xss	Is MIME Sniffing XSS a real thing?	komodosec.com	www.komodosec.com	/post/mime-sniffing-xss
+20190520	Web安全	https://gauravnarwani.com/xssed-my-way-to-1000/	XSSed my way to 1000$	gauravnarwani.com	gauravnarwani.com	/xssed-my-way-to-1000/
+20190520	漏洞分析	https://liveoverflow.com/getting-into-browser-exploitation-new-series-introduction-browser-0x00/	Getting Into Browser Exploitation	liveoverflow.com	liveoverflow.com	/getting-into-browser-exploitation-new-series-introduction-browser-0x00/
+20190520	工具	https://gitlab.com/badbounty/dvcw	An extremely insecure Ethereum cryptowallet	gitlab.com	gitlab.com	/badbounty/dvcw
+20190520	其它	https://medium.com/coinmonks/the-most-expensive-lesson-of-my-life-details-of-sim-port-hack-35de11517124?sk=4c29b27bacb2eff038ec8fe4d40cd615	Details of SIM port hack	medium.com	medium.com	/coinmonks/the-most-expensive-lesson-of-my-life-details-of-sim-port-hack-35de11517124
+20190520	Web安全	https://bnbdr.github.io/posts/wd/	WD My Cloud RCE	github.io	bnbdr.github.io	/posts/wd/
+20190520	恶意分析	https://medium.com/@nishanmaharjan17/reversing-golang-binaries-part-2-26f522264d01	Reversing Golang Binaries: Part-2	medium.com	medium.com	/@nishanmaharjan17/reversing-golang-binaries-part-2-26f522264d01
+20190520	移动安全	https://grepharder.github.io/blog/0x04_calling_ios_native_functions_from_python_using_frida_and_rpc.html	Calling iOS Native Functions from Python Using Frida and RPC	github.io	grepharder.github.io	/blog/0x04_calling_ios_native_functions_from_python_using_frida_and_rpc.html
+20190520	Web安全	https://omespino.com/write-up-google-bug-bounty-lfi-on-production-servers-in-redacted-google-com-13337-usd/	LFI ON PRODUCTION SERVERS in springboard.google.com – $13,337USD	omespino.com	omespino.com	/write-up-google-bug-bounty-lfi-on-production-servers-in-redacted-google-com-13337-usd/
+20190520	运维安全	https://d1.awsstatic.com/whitepapers/aws_security_incident_response.pdf	AWS Security Incident Response Guide	awsstatic.com	d1.awsstatic.com	/whitepapers/aws_security_incident_response.pdf
+20190520	恶意分析	https://techcommunity.microsoft.com/t5/Windows-Defender-ATP/Incident-response-at-your-fingertips-with-Microsoft-Defender-ATP/ba-p/614894	Incident response at your fingertips with Microsoft Defender ATP live response	microsoft.com	techcommunity.microsoft.com	/t5/Windows-Defender-ATP/Incident-response-at-your-fingertips-with-Microsoft-Defender-ATP/ba-p/614894
+20190520	漏洞分析	https://shenaniganslabs.io/2019/05/21/LXD-LPE.html	Linux Privilege Escalation via LXD & Hijacked UNIX Socket Credentials	shenaniganslabs.io	shenaniganslabs.io	/2019/05/21/LXD-LPE.html
+20190520	恶意分析	https://0x00sec.org/t/a-curious-case-of-malwarebytes/13746	A Curious Case of Malwarebytes	0x00sec.org	0x00sec.org	/t/a-curious-case-of-malwarebytes/13746
+20190520	恶意分析	https://itblogr.com/tier-of-threat-actors-cheatsheet/	The Tier of Threat Actors – Cheatsheet	itblogr.com	itblogr.com	/tier-of-threat-actors-cheatsheet/
+20190520	取证分析	https://github.com/paypal/yurita	yurita: Anomaly detection framework @ PayPal	github.com	github.com	/paypal/yurita
+20190520	恶意分析	https://www.evilsocket.net/2019/05/22/How-to-create-a-Malware-detection-system-with-Machine-Learning/	How to Create a Malware Detection System With Machine Learning	evilsocket.net	www.evilsocket.net	/2019/05/22/How-to-create-a-Malware-detection-system-with-Machine-Learning/
+20190520	漏洞分析	https://zeropwn.github.io/2019-05-22-fun-with-uri-handlers/	Fun With Custom URI Schemes	github.io	zeropwn.github.io	/2019-05-22-fun-with-uri-handlers/
+20190520	数据挖掘	https://www.cdxy.me/?p=806	DataCon 2019: 1st place solution of malicious DNS traffic & DGA analysis	cdxy.me	www.cdxy.me	/
+20190520	数据挖掘	https://mp.weixin.qq.com/s/15Avw3KTnmGIftxYhK34mQ	智能威胁分析之图数据构建	qq.com	mp.weixin.qq.com	/s/15Avw3KTnmGIftxYhK34mQ
+20190520	Web安全	https://www.tttang.com/archive/1290/	Make Redirection Evil Again: URL Parser Issues in OAuth	tttang.com	www.tttang.com	/archive/1290/
+20190520	数据挖掘	https://medium.com/code-gin/detecting-patterns-with-unsupervised-learning-88ba737d4f34	Detecting Patterns with Unsupervised Learning	medium.com	medium.com	/code-gin/detecting-patterns-with-unsupervised-learning-88ba737d4f34
