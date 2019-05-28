@@ -1,11 +1,11 @@
-Python	27
+Python	29
 JavaScript	22
-C	18
-C++	17
+C	19
+C++	18
+HTML	15
 Shell	14
-HTML	13
-C#	12
-Java	8
+C#	13
+Java	9
 Objective-C	8
 Go	8
 TypeScript	6
@@ -17,6 +17,7 @@ Rust	3
 Jupyter	2
 CMake	2
 Scala	1
+Makefile	1
 Perl	1
 Jsonnet	1
 Lua	1
@@ -24,6 +25,7 @@ Rich	1
 Dockerfile	1
 YARA	1
 Assembly	1
+Filebench	1
 Tcl	1
 Dart	1
 Elixir	1
@@ -31,5 +33,6 @@ Vue	1
 TeX	1
 POV-Ray	1
 Clojure	1
+Smali	1
 Swift	1
 Pascal	1
