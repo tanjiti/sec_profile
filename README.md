@@ -15,14 +15,15 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| TideSec安全团队 | TideSec | https://mp.weixin.qq.com/s/tAMqC8NpgkXDGAgZHtLd7A |  | 11| 
 | 奇安信集团 | qianxin-keji | https://mp.weixin.qq.com/s/sfUQnFBlkRKf4uRDIVkG5Q |  | 1| 
 | 苹果资本 | Applefunds | https://mp.weixin.qq.com/s/pyJYZZqrdiVjjtCdRaxkOw |  | 1| 
+| 情报分析师 | qingbaoxueyuan | https://mp.weixin.qq.com/s/AUwNbrUuiE7DldWeK9QcOA |  | 2| 
 | SIGAI | SIGAICN | https://mp.weixin.qq.com/s/fRBdRo8eI1N_bUqh7k7I3A |  | 1| 
 | 学蚁致用 | sudo_i | https://mp.weixin.qq.com/s/u8_d8MXvFuwOyIMZZMBsog |  | 1| 
 | 绿盟科技研究通讯 | nsfocus_research | https://mp.weixin.qq.com/s/15Avw3KTnmGIftxYhK34mQ |  | 1| 
 | 阿里技术 | ali_tech | https://mp.weixin.qq.com/s/w7SbAHxZsmHqFtTG8ZAXNg |  | 1| 
 | PaperWeekly | paperweekly | https://mp.weixin.qq.com/s/FLXeHnLo03r-8qfUX48VHw |  | 1| 
-| TideSec安全团队 | TideSec | https://mp.weixin.qq.com/s/lz5cAvLbYIdAQ3aRiiseYg |  | 11| 
 | 中关村杂志 | zgcmagazine | https://mp.weixin.qq.com/s/GryQEbF3wxAmT7e-76X-mw |  | 1| 
 | 嘶吼专业版 | Pro4hou | https://mp.weixin.qq.com/s/NC9bSf1QGXugPBPYVgaEsQ |  | 1| 
 | 奇安信威胁情报中心 |  | https://mp.weixin.qq.com/s/xegDRXu9A0YMx3v8_E86Ow |  | 1| 
@@ -30,13 +31,12 @@
 | 安全学术圈 | secquan | https://mp.weixin.qq.com/s/cSjoVgxjOAuIUlewX9iIoA |  | 1| 
 | 有无科技法 | youwulaw | https://mp.weixin.qq.com/s/dqXA8KT_zFJWEx39RGd9Qg |  | 1| 
 | 绿盟科技 | NSFOCUS-weixin | https://mp.weixin.qq.com/s/Agy_I_TjwiJjvPL4q7j6nQ |  | 1| 
-| 阿里安全响应中心 | alisrc | https://mp.weixin.qq.com/s/iifhFE8S_3E5d5MvGRbVow |  | 2| 
+| 阿里安全响应中心 | alisrc | https://mp.weixin.qq.com/s/8UuCC76DHYOuAtpF5MiOQg |  | 2| 
 | 黑鸟 | blackorbird | https://mp.weixin.qq.com/s/QaYPI8z4bXLUChuOrNxC-A |  | 1| 
-| DappReview | dappreview | https://mp.weixin.qq.com/s/aInEaYdS9X7HP7FbzWl6AQ?from=timeline |  | 2| 
+| DappReview | dappreview | https://mp.weixin.qq.com/s/9Cl6-ZmAi-U3Qi6cPVZJxQ?from=timeline |  | 2| 
 | 国际安全简报 | securitybrief | https://mp.weixin.qq.com/s/tHjveTuc1bi0TxmJKwMoGw |  | 1| 
 | 安全树洞 | treeholeofsec | https://mp.weixin.qq.com/s?__biz=MzU2NzkwNTQxNg==&mid=2247483719&idx=1&sn=1f68582237b3ece6f07bdf3be60fc1ec&chksm=fc975ca0cbe0d5b65824d2ec0bf2b11a2d26d69f6935371c73114db689fc3a56a13eeb6eeefb&token=1697253642&lang=zh_CN#rd |  | 1| 
 | 安在 | AnZer_SH | https://mp.weixin.qq.com/s/3UYObnoZV_g-AZFdSoxJLg |  | 1| 
-| 情报分析师 | qingbaoxueyuan | https://mp.weixin.qq.com/s/ULHbGTI1YosdZG23aAE4Qw |  | 2| 
 | 数字经济与社会 |  | https://mp.weixin.qq.com/s/sktQAoNeE-3na9lBPm9nzg |  | 1| 
 | 这里是河马 |  | https://mp.weixin.qq.com/s/FupNkLOOWAabvnC3Yob_uw |  | 1| 
 
@@ -49,7 +49,7 @@
 | paypal | yurita: Anomaly detection framework @ PayPal | https://github.com/paypal/yurita | http://developer.paypal.com/ |  | San Jose, CA | 181 | 32 | 0 | Shell,Java,Clojure,Scala,C#,JavaScript,Python,Objective-C,Go,PHP,Ruby | 1800 | 938 | 1| 
 | angr | Phuzzer - 用于与 AFL Fuzzer 交互的 Python Wrapper 工具 | https://github.com/angr/phuzzer | http://angr.horse | Next-generation binary analysis framework! | http://angr.horse | 30 | 16 | 0 | C,Shell,Python,C++,HTML,POV-Ray | 3500 | 600 | 1| 
 | nccgroup | Blackbox protobuf - NCC Group 开源的用于解码和编辑 Protobuf 数据包的 Burp Suite 扩展 | https://github.com/nccgroup/blackboxprotobuf | https://www.nccgroup.trust | Please report all security issues to security at nccgroup dot com | Global | 180 | 15 | 0 | C,Shell,Java,Python,JavaScript,TypeScript,C#,HTML,Elixir,Go,Rust | 692 | 63 | 1| 
-| google | tarpc - Google 开源的 Rust 语言的 RPC 框架库 | https://github.com/google/tarpc | https://opensource.google.com/ | Google ❤️ Open Source | https://opensource.google.com/ | 1472 | 2533 | 0 | C,Shell,Jupyter,Python,JavaScript,C++,Dart,HTML,Go,Java,Rust | 0 | 0 | 2| 
+| google | UIforETW - Google 为 Windows ETW 事件追踪写的 UI 可视化界面 | https://github.com/google/UIforETW/releases/tag/v1.51 | https://opensource.google.com/ | Google ❤️ Open Source | https://opensource.google.com/ | 1474 | 2538 | 0 | C,Java,Python,JavaScript,C++,Jsonnet,HTML,Go | 0 | 0 | 2| 
 | intel | ModernFW - Intel 开源的一个实现性项目，旨在为云主机服务器提供一个最小可用的平台固件 | https://github.com/intel/ModernFW | mailto:webmaster@linux.intel.com |  | webmaster@linux.intel.com | 616 | 23 | 0 | C,Shell,Java,Python,JavaScript,C++,TypeScript,Go,Rust | 0 | 0 | 1| 
 | monzo | response: Monzos real-time incident response and reporting tool | https://github.com/monzo/response | https://monzo.com/ | We’re building the best bank on the planet. | London, UK | 110 | 31 | 0 | Python,Ruby,JavaScript,C++,Objective-C,Swift,Go,Dockerfile | 0 | 0 | 1| 
 | quarkslab | Quarkslab 公开了很多他们团队近几年在安全会议上做过的演讲的资料 | https://github.com/quarkslab/conf-presentations | http://www.quarkslab.com |  | http://www.quarkslab.com | 46 | 2 | 0 | Python,Shell,TeX,JavaScript,C++ | 0 | 0 | 1| 
