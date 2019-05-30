@@ -15,8 +15,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
-| TideSec安全团队 | TideSec | https://mp.weixin.qq.com/s/tAMqC8NpgkXDGAgZHtLd7A |  | 11| 
-| 奇安信集团 | qianxin-keji | https://mp.weixin.qq.com/s/sfUQnFBlkRKf4uRDIVkG5Q |  | 1| 
+| TideSec安全团队 | TideSec | https://mp.weixin.qq.com/s/tAMqC8NpgkXDGAgZHtLd7A | CTF中的隐写术总结 | 11| 
+| 奇安信集团 | qianxin-keji | https://mp.weixin.qq.com/s/sfUQnFBlkRKf4uRDIVkG5Q | 一次攻防实战演习复盘总结 | 1| 
 | 苹果资本 | Applefunds | https://mp.weixin.qq.com/s/pyJYZZqrdiVjjtCdRaxkOw |  | 1| 
 | 情报分析师 | qingbaoxueyuan | https://mp.weixin.qq.com/s/AUwNbrUuiE7DldWeK9QcOA |  | 2| 
 | SIGAI | SIGAICN | https://mp.weixin.qq.com/s/fRBdRo8eI1N_bUqh7k7I3A |  | 1| 

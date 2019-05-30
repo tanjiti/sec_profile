@@ -179,7 +179,13 @@ def get_weixin_info(url="", ts="", tag="", max_redirects=30, proxy=None, root_di
                 logging.error("GET title of %s failed : %s" % (url, repr(e)))
                 return
 
-            title = soup.find('title')
+            title = soup.find('h2',class_="rich_media_title")
+            if title:
+                title = title.text
+                if title:
+                    title = strip_n(title)
+
+
 
             rich_media_meta_list = soup.find("div", class_="rich_media_meta_list")
 
@@ -208,10 +214,7 @@ def get_weixin_info(url="", ts="", tag="", max_redirects=30, proxy=None, root_di
                             weixin_no = profile_metas[0].text
                             weixin_subject = profile_metas[1].text
 
-            if title:
-                title = title.get_text()
-            else:
-                title = ""
+
 
             if not nickname_english:
                 return
@@ -886,5 +889,9 @@ if __name__ == "__main__":
 
     url = "https://sec.today/pulses/faee0dc9-8eb5-4ed5-a054-9f96390965c5/"
 
-    print get_redirect_url(url,issql=False)
+    #print get_redirect_url(url,issql=False)
     #print parse_request_error_str(st)
+
+
+    print get_weixin_info(url="https://mp.weixin.qq.com/s/tAMqC8NpgkXDGAgZHtLd7A")
+

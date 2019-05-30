@@ -110,6 +110,7 @@ def scraw(so, proxy=None, delta=3):
                                         d = get_weixin_info(url, ts, tag)
 
                                         if d:
+
                                             sql = d2sql(d, table="weixin")
                                     elif url.find("//github.com") != -1:
                                         d = get_github_info(url, title, ts=ts, tag=tag)
