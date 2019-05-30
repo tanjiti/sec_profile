@@ -119,7 +119,7 @@ def scraw(so, proxy=None, delta=3):
 
                                     if sql:
                                         try:
-                                            #print sql
+                                            print sql
                                             so.execute(sql)
                                         except Exception as e:
                                             logging.error("[sql]: %s %s" % (sql, str(e)))
