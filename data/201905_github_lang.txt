@@ -1,12 +1,12 @@
-Python	31
+Python	34
 JavaScript	22
 C	21
-C++	19
+C++	20
 HTML	15
 Shell	14
 C#	13
+Go	10
 Java	9
-Go	9
 Objective-C	8
 TypeScript	6
 PowerShell	6
@@ -35,4 +35,5 @@ POV-Ray	1
 Clojure	1
 Smali	1
 Swift	1
+OCaml	1
 Pascal	1
