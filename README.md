@@ -15,6 +15,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 绿盟科技行业BG第一业务本部 |  | https://mp.weixin.qq.com/s/AVRYyob-bQdRRQ8i15SK3w |  | 1| 
 | 苹果资本 | Applefunds | https://mp.weixin.qq.com/s/pyJYZZqrdiVjjtCdRaxkOw |  | 1| 
 | SIGAI | SIGAICN | https://mp.weixin.qq.com/s/fRBdRo8eI1N_bUqh7k7I3A |  | 1| 
 | 学蚁致用 | sudo_i | https://mp.weixin.qq.com/s/u8_d8MXvFuwOyIMZZMBsog |  | 1| 
@@ -73,15 +74,18 @@
 | zerosum0x0 | 研究员 zerosum0x0 公开 Windows RDP RCE CVE-2019-0708 漏洞的扫描器 | https://github.com/zerosum0x0/CVE-2019-0708 | https://zerosum0x0.blogspot.com |  | USSA | None | 83 | 0 | 23 | 697 | 2 | Python,C#,C,C++ | 1300 | 362 | 1| 
 | SandboxEscaper | SandboxEscaper公开了一个task scheduler服务未正确模拟client令牌导致LPE的0day。 | https://github.com/SandboxEscaper/polarbearrepo | None |  | None | None | 1 | 0 | 0 | 692 | 0 | C++ | 157 | 88 | 1| 
 | ChiChou | 研究员 CodeColorist 公开了一个 iOS 12.3 刚刚修复的 medialibraryd CVE-2019-8577 漏洞的 PoC 代码 | https://github.com/ChiChou/sploits/tree/master/NotByMe/CVE-2019-8577 | https://github.com/alipay | 我要卖掉我的代码 浪迹天涯 | Beijing, China | @alipay | 55 | 0 | 1500 | 588 | 245 | Objective-C,JavaScript,C,Vue | 1100 | 155 | 1| 
+| Ekultek | BlueKeep - Ekultek 研究员公开 Windows RDP CVE-2019-0708 RCE PoC | https://github.com/Ekultek/BlueKeep | None | U3VjY2VzcyBpcyBpbiB0aGUgZXllIG9mIHRoZSBiZWhvbGRlci4= | None | None | 89 | 0 | 122 | 497 | 11 | Python,C++ | 3700 | 952 | 1| 
 | rasta-mouse | Watson - 用于探测 Windows 环境缺失补丁枚举可利用本地提权漏洞的工具 | https://github.com/rasta-mouse/Watson/tree/2.0 | https://github.com/ZeroPointSecurity |  | None | @ZeroPointSecurity | 20 | 0 | 58 | 373 | 7 | C#,PowerShell | 0 | 0 | 1| 
 | xorrior | CobaltStrike 基于 WebSockets 的 C2 远控组件 | https://github.com/xorrior/raven | https://www.xorrior.com | PowerShell, C#, Obj-C, macOS Security, Red Team Operator | None | SpecterOps | 53 | 0 | 93 | 363 | 9 | C#,Objective-C,PowerShell,C++ | 358 | 82 | 1| 
 | xoofx | 基于 .NET 写的一个 C/C++ Parser 工具，可以得到 full AST、macros 信息 | https://github.com/xoofx/CppAst | https://github.com/Unity-Technologies |  | Grenoble - France | @Unity-Technologies | 58 | 0 | 209 | 339 | 19 | C# | 1500 | 417 | 1| 
 | Tuhinshubhra | ExtAnalysis: Browser Extension Analysis Framework | https://github.com/Tuhinshubhra/ExtAnalysis | https://twitter.com/r3dhax0r | I code and hack for fun! | ... | None | 13 | 0 | 2 | 316 | 0 | Python,PHP,JavaScript,CSS | 0 | 0 | 1| 
+| 0x4D31 | 大规模网络指纹探测与数据聚类分析，作者利用网络指纹信息追踪攻击者及攻击工具，同时发布了一个工具 FATT。来自 AusCERT 2019 会议 | https://github.com/0x4D31/Presentations | https://github.com/salesforce | Lead Threat Detection Engineer @salesforce | Sydney, Australia | None | 21 | 0 | 1100 | 307 | 77 | Python,Go | 793 | 164 | 1| 
 | ExpLife0011 | CVE-2019-0803: Win32k Elevation of Privilege Poc | https://github.com/ExpLife0011/CVE-2019-0803 | None |  | None | None | 2800 | 0 | 3000 | 288 | 489 | Python,C#,C,Assembly,C++ | 672 | 227 | 1| 
 | yeyintminthuhtut | Browser、Mitigation 、Kernel 等漏洞利用相关研究 | https://github.com/yeyintminthuhtut/Awesome-Advanced-Windows-Exploitation-References | http://pentest.space | Twitter @yeyint_mth | Singapore | None | 287 | 0 | 477 | 223 | 19 | Shell | 0 | 0 | 1| 
 | DrDonk | Patch VMware ESXi 以支持 VMware 安装 macOS 系统的工具，支持 VMware ESXi 6.5 and 6.7 | https://github.com/DrDonk/esxi-unlocker | None |  | None | None | 14 | 0 | 0 | 180 | 0 | Python,C,Shell,JavaScript | 902 | 179 | 1| 
 | secgroundzero | tetanus: Helper script for mangling CS payloads | https://github.com/secgroundzero/tetanus | None |  | None | None | 10 | 0 | 4 | 157 | 7 | Python,C#,JavaScript,Shell | 2100 | 285 | 1| 
 | Bypass007 | 应急响应实战笔记 | https://github.com/Bypass007/Emergency-Response-Notes | None | 欢迎关注公众号Bypass--，专注于信息安全。 | Xiamen, China | None | 4 | 0 | 3 | 133 | 0 | Python | 806 | 164 | 1| 
+| guedou | 为 Ghidra 逆向框架提供对东芝 MeP-c4 处理器架构的支持，源文件 | https://github.com/guedou/ghidra-processor-mep | None |  | Paris, France | None | 29 | 0 | 73 | 108 | 0 | Python,OCaml | 3900 | 881 | 1| 
 | patois | HRDevHelper - IDA HexRays 反汇编工具的插件，用于支持实时查看反编译后 C 代码的 ctree 信息 | https://github.com/patois/HRDevHelper | None | Yo, was github? | 127.0.0.1 | None | 32 | 0 | 233 | 86 | 48 | Python | 184 | 19 | 1| 
 | yadox666 | 硬件黑客的工具箱，里面涵盖了硬件安全各个领域中使用的软件和硬件工具的介绍和推荐。 | https://github.com/yadox666/The-Hackers-Hardware-Toolkit/blob/master/TheHackersHardwareToolkit.pdf | https://twitter.com/yadox | Yago Hansen is a recognized authority in IT security topics. He successfully managed projects related to the design of Security technologies and devices. | Madrid | Mundo Hacker | 8 | 0 | 1 | 78 | 1 | Python | 863 | 103 | 1| 
 | tarafans | XuWen在zer0con上关于js和DOM fuzz的议题，提出了一种Emulation-based generation的fuzz思路。 | https://github.com/tarafans/collections/blob/master/ZeroCon2019.pdf | https://gts3.org/~wen |  | Atlanta | Georgia Tech | 20 | 0 | 5 | 75 | 10 | Python,C,HTML | 17 | 4 | 1| 
