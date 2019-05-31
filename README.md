@@ -15,30 +15,30 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
-| TideSec安全团队 | TideSec | https://mp.weixin.qq.com/s/tAMqC8NpgkXDGAgZHtLd7A | CTF中的隐写术总结 | 11| 
 | 奇安信集团 | qianxin-keji | https://mp.weixin.qq.com/s/sfUQnFBlkRKf4uRDIVkG5Q | 一次攻防实战演习复盘总结 | 1| 
-| 苹果资本 | Applefunds | https://mp.weixin.qq.com/s/pyJYZZqrdiVjjtCdRaxkOw |  | 1| 
-| 情报分析师 | qingbaoxueyuan | https://mp.weixin.qq.com/s/AUwNbrUuiE7DldWeK9QcOA |  | 2| 
-| SIGAI | SIGAICN | https://mp.weixin.qq.com/s/fRBdRo8eI1N_bUqh7k7I3A |  | 1| 
-| 学蚁致用 | sudo_i | https://mp.weixin.qq.com/s/u8_d8MXvFuwOyIMZZMBsog |  | 1| 
-| 绿盟科技研究通讯 | nsfocus_research | https://mp.weixin.qq.com/s/15Avw3KTnmGIftxYhK34mQ |  | 1| 
-| 阿里技术 | ali_tech | https://mp.weixin.qq.com/s/w7SbAHxZsmHqFtTG8ZAXNg |  | 1| 
-| PaperWeekly | paperweekly | https://mp.weixin.qq.com/s/FLXeHnLo03r-8qfUX48VHw |  | 1| 
-| 中关村杂志 | zgcmagazine | https://mp.weixin.qq.com/s/GryQEbF3wxAmT7e-76X-mw |  | 1| 
-| 嘶吼专业版 | Pro4hou | https://mp.weixin.qq.com/s/NC9bSf1QGXugPBPYVgaEsQ |  | 1| 
-| 奇安信威胁情报中心 |  | https://mp.weixin.qq.com/s/xegDRXu9A0YMx3v8_E86Ow |  | 1| 
-| 威胁猎人 | ThreatHunter | https://mp.weixin.qq.com/s/r7EY1zcydTmaaEY91H1m5A |  | 1| 
-| 安全学术圈 | secquan | https://mp.weixin.qq.com/s/cSjoVgxjOAuIUlewX9iIoA |  | 1| 
-| 有无科技法 | youwulaw | https://mp.weixin.qq.com/s/dqXA8KT_zFJWEx39RGd9Qg |  | 1| 
-| 绿盟科技 | NSFOCUS-weixin | https://mp.weixin.qq.com/s/Agy_I_TjwiJjvPL4q7j6nQ |  | 1| 
-| 阿里安全响应中心 | alisrc | https://mp.weixin.qq.com/s/8UuCC76DHYOuAtpF5MiOQg |  | 2| 
-| 黑鸟 | blackorbird | https://mp.weixin.qq.com/s/QaYPI8z4bXLUChuOrNxC-A |  | 1| 
-| DappReview | dappreview | https://mp.weixin.qq.com/s/9Cl6-ZmAi-U3Qi6cPVZJxQ?from=timeline |  | 2| 
-| 国际安全简报 | securitybrief | https://mp.weixin.qq.com/s/tHjveTuc1bi0TxmJKwMoGw |  | 1| 
-| 安全树洞 | treeholeofsec | https://mp.weixin.qq.com/s?__biz=MzU2NzkwNTQxNg==&mid=2247483719&idx=1&sn=1f68582237b3ece6f07bdf3be60fc1ec&chksm=fc975ca0cbe0d5b65824d2ec0bf2b11a2d26d69f6935371c73114db689fc3a56a13eeb6eeefb&token=1697253642&lang=zh_CN#rd |  | 1| 
-| 安在 | AnZer_SH | https://mp.weixin.qq.com/s/3UYObnoZV_g-AZFdSoxJLg |  | 1| 
-| 数字经济与社会 |  | https://mp.weixin.qq.com/s/sktQAoNeE-3na9lBPm9nzg |  | 1| 
-| 这里是河马 |  | https://mp.weixin.qq.com/s/FupNkLOOWAabvnC3Yob_uw |  | 1| 
+| SIGAI | SIGAICN | https://mp.weixin.qq.com/s/fRBdRo8eI1N_bUqh7k7I3A | 深度学习算法地图 | 1| 
+| TideSec安全团队 | TideSec | https://mp.weixin.qq.com/s/-19rmEhN7T_VQJKYZntHCQ | CTF中常见编码、代码混淆及加解密 | 11| 
+| 学蚁致用 | sudo_i | https://mp.weixin.qq.com/s/u8_d8MXvFuwOyIMZZMBsog | 蚁剑绕WAF进化图鉴 | 1| 
+| 情报分析师 | qingbaoxueyuan | https://mp.weixin.qq.com/s/AUwNbrUuiE7DldWeK9QcOA | 远不止FBI和CIA——美国情报机构红宝书 | 2| 
+| 绿盟科技研究通讯 | nsfocus_research | https://mp.weixin.qq.com/s/15Avw3KTnmGIftxYhK34mQ | 智能威胁分析之图数据构建 | 1| 
+| 苹果资本 | Applefunds | https://mp.weixin.qq.com/s/pyJYZZqrdiVjjtCdRaxkOw | 网络安全行业不会一家独大 | 1| 
+| 阿里技术 | ali_tech | https://mp.weixin.qq.com/s/w7SbAHxZsmHqFtTG8ZAXNg | 异常检测的N种方法，阿里工程师都盘出来了 | 1| 
+| PaperWeekly | paperweekly | https://mp.weixin.qq.com/s/FLXeHnLo03r-8qfUX48VHw | 基于小样本学习的意图识别冷启动 | 1| 
+| 中关村杂志 | zgcmagazine | https://mp.weixin.qq.com/s/GryQEbF3wxAmT7e-76X-mw | “网安卫士”刘文懋 | 1| 
+| 嘶吼专业版 | Pro4hou | https://mp.weixin.qq.com/s/NC9bSf1QGXugPBPYVgaEsQ | CVE-2019-3568： WhatsApp 0 day漏洞分析 | 1| 
+| 奇安信威胁情报中心 |  | https://mp.weixin.qq.com/s/xegDRXu9A0YMx3v8_E86Ow | 海量信息如何处理? 推荐几个优质开源情报分析源 | 1| 
+| 威胁猎人 | ThreatHunter | https://mp.weixin.qq.com/s/r7EY1zcydTmaaEY91H1m5A | 如何利用开源风控系统（星云）防止撞库？ | 1| 
+| 安全学术圈 | secquan | https://mp.weixin.qq.com/s/cSjoVgxjOAuIUlewX9iIoA | DNS Cache-Based User Tracking | 1| 
+| 有无科技法 | youwulaw | https://mp.weixin.qq.com/s/dqXA8KT_zFJWEx39RGd9Qg | 重磅！最新！网络存证未获取法院支持判决书全文！| 网络存证 | 1| 
+| 绿盟科技 | NSFOCUS-weixin | https://mp.weixin.qq.com/s/Agy_I_TjwiJjvPL4q7j6nQ | 威胁情报的“魔力” | 1| 
+| 阿里安全响应中心 | alisrc | https://mp.weixin.qq.com/s/8UuCC76DHYOuAtpF5MiOQg | Powershell攻击指南黑客后渗透之道系列——基础篇 | 2| 
+| 黑鸟 | blackorbird | https://mp.weixin.qq.com/s/QaYPI8z4bXLUChuOrNxC-A | 欲亲临国内外网络战争现场，关注他们就够了 | 1| 
+| DappReview | dappreview | https://mp.weixin.qq.com/s/9Cl6-ZmAi-U3Qi6cPVZJxQ?from=timeline | 2600万TRX被盗背后的罗生门 - 第二集 | 2| 
+| 国际安全简报 | securitybrief | https://mp.weixin.qq.com/s/tHjveTuc1bi0TxmJKwMoGw | 赛门铁克公司加入美国防部的网络威胁情报共享项目 | 1| 
+| 安全树洞 | treeholeofsec | https://mp.weixin.qq.com/s?__biz=MzU2NzkwNTQxNg==&mid=2247483719&idx=1&sn=1f68582237b3ece6f07bdf3be60fc1ec&chksm=fc975ca0cbe0d5b65824d2ec0bf2b11a2d26d69f6935371c73114db689fc3a56a13eeb6eeefb&token=1697253642&lang=zh_CN#rd | 关于请教问题、一些圈子以及简历 | 1| 
+| 安在 | AnZer_SH | https://mp.weixin.qq.com/s/3UYObnoZV_g-AZFdSoxJLg | 人物 | 饿了么王彬：安全即是公平 实现要靠运营 | 1| 
+| 数字经济与社会 |  | https://mp.weixin.qq.com/s/sktQAoNeE-3na9lBPm9nzg | 布拉格5G安全大会 “布拉格提案” | 1| 
+| 这里是河马 |  | https://mp.weixin.qq.com/s/FupNkLOOWAabvnC3Yob_uw | XMLDecoder解析流程分析 | 1| 
 
 
 # 组织github账号 推荐
