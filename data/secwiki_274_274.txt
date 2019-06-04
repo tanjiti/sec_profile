@@ -1,0 +1,38 @@
+20190527	法规	http://www.cac.gov.cn/2019-05/28/c_1124546022.htm	数据安全管理办法（征求意见稿）	cac.gov.cn	www.cac.gov.cn	/2019-05/28/c_1124546022.htm
+20190527	Web安全	https://mp.weixin.qq.com/s/sfUQnFBlkRKf4uRDIVkG5Q	一次攻防实战演习复盘总结	qq.com	mp.weixin.qq.com	/s/sfUQnFBlkRKf4uRDIVkG5Q
+20190527	漏洞分析	https://mp.weixin.qq.com/s/dhry2nxTyN4C0BUeBvOdZQ	ApacheTomca远程执行代码（CVE-2019-0232）漏洞浅析和复现	qq.com	mp.weixin.qq.com	/s/dhry2nxTyN4C0BUeBvOdZQ
+20190527	其它	https://bloodzer0.github.io/ossa/business/account/	账户安全	github.io	bloodzer0.github.io	/ossa/business/account/
+20190527	Web安全	https://bloodzer0.github.io/ossa/other-security-branch/security-operation/pst/	产品安全设计checklist	github.io	bloodzer0.github.io	/ossa/other-security-branch/security-operation/pst/
+20190527	漏洞分析	https://www.malwaretech.com/2019/05/analysis-of-cve-2019-0708-bluekeep.html	Analysis of CVE-2019-0708 (BlueKeep)	malwaretech.com	www.malwaretech.com	/2019/05/analysis-of-cve-2019-0708-bluekeep.html
+20190527	运维安全	https://bloodzer0.github.io/ossa/infrastructure-security/container/tools/	容器安全工具	github.io	bloodzer0.github.io	/ossa/infrastructure-security/container/tools/
+20190527	比赛	https://tttang.com/archive/1301/	2019 强网杯online Web Writeup	tttang.com	tttang.com	/archive/1301/
+20190527	恶意分析	https://github.com/jiansiting/Decryption-Tools	Decryption-Tools: 勒索病毒解密工具的汇总	github.com	github.com	/jiansiting/Decryption-Tools
+20190527	其它	https://blog.spoock.com/2019/05/26/netstat-learn/	netstat源代码调试&原理分析	spoock.com	blog.spoock.com	/2019/05/26/netstat-learn/
+20190527	数据挖掘	https://github.com/ReAbout/datacon	datacon比赛方向三-攻击源与攻击者分析writeup	github.com	github.com	/ReAbout/datacon
+20190527	移动安全	http://www.h4ck.org.cn/2019/05/%e4%b8%80%e5%bc%a0%e5%9b%be%e7%89%87%e5%9c%a8%e5%be%ae%e4%bf%a1%e4%b8%ad%e7%82%b9%e5%bc%80%e8%ae%a9%e8%8b%b9%e6%9e%9c%e6%89%8b%e6%9c%ba%e9%87%8d%e5%90%af-%e7%9a%84%e7%ae%80%e5%8d%95%e5%88%86%e6%9e%90/	一张图片在微信中点开让苹果手机重启 的简单分析	h4ck.org.cn	www.h4ck.org.cn	/2019/05/%e4%b8%80%e5%bc%a0%e5%9b%be%e7%89%87%e5%9c%a8%e5%be%ae%e4%bf%a1%e4%b8%ad%e7%82%b9%e5%bc%80%e8%ae%a9%e8%8b%b9%e6%9e%9c%e6%89%8b%e6%9c%ba%e9%87%8d%e5%90%af-%e7%9a%84%e7%ae%80%e5%8d%95%e5%88%86%e6%9e%90/
+20190527	其它	https://mp.weixin.qq.com/s/tAMqC8NpgkXDGAgZHtLd7A	CTF中的隐写术总结	qq.com	mp.weixin.qq.com	/s/tAMqC8NpgkXDGAgZHtLd7A
+20190527	运维安全	https://bloodzer0.github.io/ossa/infrastructure-security/container/	容器安全建设	github.io	bloodzer0.github.io	/ossa/infrastructure-security/container/
+20190527	Web安全	https://xz.aliyun.com/t/5277	某CMS组合漏洞至Getshell	aliyun.com	xz.aliyun.com	/t/5277
+20190527	Web安全	https://paper.seebug.org/933/	利用 JAVA 调试协议 JDWP 实现反弹 shell	seebug.org	paper.seebug.org	/933/
+20190527	漏洞分析	https://medium.com/@straightblast426/a-debugging-primer-with-cve-2019-0708-ccfa266682f6	A Debugging Primer with CVE-2019–0708	medium.com	medium.com	/@straightblast426/a-debugging-primer-with-cve-2019-0708-ccfa266682f6
+20190527	数据挖掘	http://4o4notfound.org/index.php/archives/190/	当安全遇上NLP	4o4notfound.org	4o4notfound.org	/index.php/archives/190/
+20190527	Web安全	https://rcoil.me/2019/05/%E6%B0%B8%E4%B9%85%E6%80%A7%20WMIC%20%E4%BA%8B%E4%BB%B6%E8%AE%A2%E9%98%85%20-%20%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81%EF%BC%88%E4%B8%89%EF%BC%89/	永久性 WMIC 事件订阅 - 权限维持(三）	rcoil.me	rcoil.me	/2019/05/%E6%B0%B8%E4%B9%85%E6%80%A7%20WMIC%20%E4%BA%8B%E4%BB%B6%E8%AE%A2%E9%98%85%20-%20%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81%EF%BC%88%E4%B8%89%EF%BC%89/
+20190527	取证分析	https://mp.weixin.qq.com/s/AVRYyob-bQdRRQ8i15SK3w	军工行业工控安全防护思路	qq.com	mp.weixin.qq.com	/s/AVRYyob-bQdRRQ8i15SK3w
+20190527	取证分析	https://www.freebuf.com/geek/204516.html	跟我一起学习玩转二维码	freebuf.com	www.freebuf.com	/geek/204516.html
+20190527	取证分析	https://www.freebuf.com/articles/network/203494.html	应急响应处置流程Windows篇	freebuf.com	www.freebuf.com	/articles/network/203494.html
+20190527	比赛	https://github.com/CTFTraining/CTFTraining	CTFTraining: CTF Training 经典赛题复现环境	github.com	github.com	/CTFTraining/CTFTraining
+20190527	漏洞分析	https://phoenhex.re/2019-05-26/attribution-is-hard-at-least-for-dock	Attribution is hard — at least for Dock: A Safari sandbox escape & LPE	phoenhex.re	phoenhex.re	/2019-05-26/attribution-is-hard-at-least-for-dock
+20190527	漏洞分析	https://xz.aliyun.com/t/5248	CVE-2018-12067及类似漏洞分析与相关思考	aliyun.com	xz.aliyun.com	/t/5248
+20190527	Web安全	https://rcoil.me/2019/05/Microsoft%20Office%20-%20%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81%EF%BC%88%E4%B8%80%EF%BC%89/	Microsoft Office - 权限维持(一)	rcoil.me	rcoil.me	/2019/05/Microsoft%20Office%20-%20%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81%EF%BC%88%E4%B8%80%EF%BC%89/
+20190527	移动安全	https://mp.weixin.qq.com/s/BnYglYcsC-X43pgHfpDXgg	iOS砸壳从入门到放弃	qq.com	mp.weixin.qq.com	/s/BnYglYcsC-X43pgHfpDXgg
+20190527	漏洞分析	https://www.komodosec.com/post/when-all-else-fails-find-a-0-day	InfluxDB authentication bypass 0day	komodosec.com	www.komodosec.com	/post/when-all-else-fails-find-a-0-day
+20190527	比赛	https://www.anquanke.com/post/id/179216	ISCC2019部分writeup	anquanke.com	www.anquanke.com	/post/id/179216
+20190527	漏洞分析	https://paper.seebug.org/934/	netstat 源代码调试 & 原理分析	seebug.org	paper.seebug.org	/934/
+20190527	Web安全	https://anotherhackerblog.com/exploiting-file-uploads-pt1/	Exploiting File Uploads Pt. 1 – MIME Sniffing to Stored XSS	anotherhackerblog.com	anotherhackerblog.com	/exploiting-file-uploads-pt1/
+20190527	恶意分析	https://posts.specterops.io/threat-hunting-with-jupyter-notebooks-part-1-your-first-notebook-9a99a781fde7?gi=6e2ca22b44b7	Threat Hunting with Jupyter Notebooks— Part 1: Your First Notebook	specterops.io	posts.specterops.io	/threat-hunting-with-jupyter-notebooks-part-1-your-first-notebook-9a99a781fde7
+20190527	比赛	https://paper.seebug.org/932/	MIMIC Defense CTF 2019 final writeup	seebug.org	paper.seebug.org	/932/
+20190527	其它	https://www.cnblogs.com/Lyckerr/p/8624076.html	使用Gpg4Win+Outlook Express实现发送和接收加密邮件	cnblogs.com	www.cnblogs.com	/Lyckerr/p/8624076.html
+20190527	漏洞分析	https://www.twistlock.com/labs-blog/breaking-out-of-coresos-rkt-3-new-cves/	Breaking Out of rkt – 3 New Unpatched CVEs	twistlock.com	www.twistlock.com	/labs-blog/breaking-out-of-coresos-rkt-3-new-cves/
+20190527	恶意分析	https://www.guardicore.com/2019/05/nansh0u-campaign-hackers-arsenal-grows-stronger/	nansh0u-campaign-hackers-arsenal-grows-stronger	guardicore.com	www.guardicore.com	/2019/05/nansh0u-campaign-hackers-arsenal-grows-stronger/
+20190527	恶意分析	https://www.intezer.com/blog-hiddenwasp-malware-targeting-linux-systems/	HiddenWasp Malware Stings Targeted Linux Systems	intezer.com	www.intezer.com	/blog-hiddenwasp-malware-targeting-linux-systems/
+20190527	取证分析	https://posts.specterops.io/diving-into-the-security-analysts-mind-b1708668e8d4	Diving into the Security Analysts Mind	specterops.io	posts.specterops.io	/diving-into-the-security-analysts-mind-b1708668e8d4
