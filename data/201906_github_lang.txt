@@ -1,5 +1,5 @@
-Python	3
-JavaScript	3
+Python	4
+JavaScript	4
 C++	3
 C	2
 C#	2
