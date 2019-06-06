@@ -24,17 +24,19 @@ def scraw():
 
     xuanwu_scraw(so, proxy=proxy, delta=3)
 
+
 def update_github():
     """
 
     :return:
     """
     ts = get_special_date(format="%Y-%m-%d %H:%m:%S")
-    cmd = "git add . && git commit -m '%s' && git push origin master" %(ts)
+    cmd = "git add . && git commit -m '%s' && git push origin master" % (ts)
 
     ret = os.system(cmd)
     if ret != 0:
-        print "%s failed" %cmd
+        print "%s failed" % cmd
+
 
 if __name__ == "__main__":
     """
