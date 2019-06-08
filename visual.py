@@ -277,6 +277,7 @@ def draw_readme(fpath=None):
     so = SQLiteOper("data/scrap.db")
     year = get_special_date(delta=0, format="%Y%m")
 
+
     # update
 
     main_pie(year)
@@ -303,6 +304,8 @@ def draw_readme(fpath=None):
 
     with codecs.open(fpath, mode='wb') as fr:
         fr.write("# [数据年报](README_YEAR.md)")
+        fr.write(os.linesep)
+        fr.write("# [数据月报-5月](README_5.md)")
         fr.write(os.linesep)
         fr.write("# [数据月报-4月](README_4.md)")
         fr.write(os.linesep)
