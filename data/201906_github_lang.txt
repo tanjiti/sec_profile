@@ -1,7 +1,7 @@
-Python	6
-JavaScript	5
+Python	7
+JavaScript	6
+C	5
 C++	5
-C	4
 HTML	4
 C#	3
 ASP	1
