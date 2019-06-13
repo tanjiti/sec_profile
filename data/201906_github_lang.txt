@@ -1,6 +1,6 @@
-Python	8
+Python	9
+C	6
 JavaScript	6
-C	5
 C++	5
 HTML	4
 C#	3
