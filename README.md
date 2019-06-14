@@ -16,8 +16,12 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
-| 网安网事 |  | https://mp.weixin.qq.com/s/sNyqz3infRfvS__1zc9wjQ | 网安独角兽CrowdStrike IPO分析（二） | 2| 
+| 仙人掌情报站 | sec-cactus | https://mp.weixin.qq.com/s/Tx9nHxvp9ezd0hf1PZcmiQ | [搬砖手册]基于Packetbeat探索搭建轻量级网络流量监测系统 | 1| 
+| 学蚁致用 | sudo_i | https://mp.weixin.qq.com/s/j4Dqhko9nnxeuDkLZKftDA | Defcon China 1.0 胸卡破解笔记 | 1| 
+| 美团安全应急响应中心 |  | https://mp.weixin.qq.com/s/YQn1FQICk1esxvBCHZntFA | 安全架构评审实战 | 1| 
+| 腾讯科恩实验室 | KeenSecurityLab | https://mp.weixin.qq.com/s/sb2hndSGn_IpMWmSGC4rPg | 《2018年Android应用安全白皮书》重磅发布：超98%Android应用存有安全风险 | 1| 
 | 安全小飞侠 | AvFisher | https://mp.weixin.qq.com/s/rmd8CvQKRMQWFR1o3t7I8w | 企业安全建设的体系思考与落地实践 | 1| 
+| 网安网事 |  | https://mp.weixin.qq.com/s/YHmQDUZze_qbmebaRlTKGg | 网安独角兽CrowdStrike IPO分析（一） | 2| 
 | 信安之路 | xazlsec | https://mp.weixin.qq.com/s/M-J4FhGA5zg1WZCA9-Houg | DataCon 的 DNS 恶意流量检查一题回顾 | 1| 
 | FreeBuf | freebuf | https://mp.weixin.qq.com/s/vBYxrmnBoM-Abl_y1v4DtA | 基于EVE-NG平台上构建企业内网攻防环境 | 1| 
 | HLB虎狼帮 | hlbhulangbang | https://mp.weixin.qq.com/s/tNI54MlsN9bFKnm9kL6G-Q | ESET分析了Turla APT对武器化PowerShell的使用 | 1| 
@@ -36,6 +40,7 @@
 # 私人github账号 推荐
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
+| Xyntax | 研究员 Xyntax 公开了多个 Paper，主要方向是安全数据分析和威胁防御 | https://github.com/Xyntax/slides | https://www.cdxy.me | Web developer, security researcher and data analyst. | Hangzhou,China | Alibaba Cloud | 50 | 0 | 297 | 901 | 86 | Python,HTML,PowerShell | 1100 | 579 | 1| 
 | LinusHenze | KeySteal是一个针对macOS<=10.14.3 Keychain漏洞利用程序，允许在没有用户提示的情况下访问Keychain中的密码。 | https://github.com/LinusHenze/Keysteal | None |  | Germany | None | 5 | 0 | 0 | 143 | 0 | C,JavaScript,Objective-C,C++ | 321 | 86 | 1| 
 | al0ne | Vxscan: python3写的综合扫描工具 | https://github.com/al0ne/Vxscan | None | 入侵检测/流量分析/应急溯源 | china | None | 11 | 0 | 528 | 143 | 181 | Python,Shell | 0 | 0 | 1| 
 | bkth | bkth在SSTIC 2019上演讲《A tale of Chakra bugs through the years》，详细讲解了微软Edge浏览器脚本引擎ChakraCore的各种漏洞。 | https://github.com/bkth/Tale-Of-Chakra-Bugs | https://twitter.com/bkth_ | Security Researcher, CTF player, I like JavaScript but probably not in the same way as most people ;) | France | None | 14 | 0 | 15 | 138 | 3 | Python,C,JavaScript | 76 | 14 | 1| 
@@ -44,6 +49,7 @@
 | lowleveldesign | 用于 trace .NET 程序网络通信流量的工具 | https://github.com/lowleveldesign/dotnet-netrace | https://lowleveldesign.org | System Engineer • Interested in profiling, security, and OS internals | Poland | None | 19 | 0 | 91 | 91 | 0 | C#,ASP,C++ | 489 | 44 | 1| 
 | mk-fg | 通过 AppArmor Linux 内核安全模块限制应用程序访问权限 | https://github.com/mk-fg/apparmor-profiles | http://fraggod.net | Random foss user, tinkerer, dev and freelancer. Mirror: http://fraggod.net/code/git/ | Yekaterinburg, RU | None | 80 | 0 | 22 | 76 | 0 | Python | 201 | 35 | 1| 
 | husthuke | awesome-knowledge-graph: 整理知识图谱相关学习资料 | https://github.com/husthuke/awesome-knowledge-graph | https://husthuke.github.io/ |  | beijing | VIPKID | 31 | 0 | 234 | 72 | 31 | Jupyter,HTML,Java,CSS | 267 | 53 | 1| 
+| Kira-cxy | 科恩实验室 Kira-cxy 在 TenSec 2019 会议关于虚拟化以及 QEMU slirp:tcp_emu 堆溢出虚拟机逃逸漏洞（CVE-2019-6778）的分析 | https://github.com/Kira-cxy/qemu-vm-escape | None | baby security researcher | None | None | 4 | 0 | 337 | 51 | 97 | C,HTML,C++ | 73 | 14 | 1| 
 | numirias | 通过 VIM 对 modelines 特殊格式的支持可以实现任意代码执行。漏洞影响 Vim < 8.1.1365, Neovim < 0.3.6 版本 | https://github.com/numirias/security/blob/master/doc/2019-06-04_ace-vim-neovim.md | https://twitter.com/rawsec | Infosec fanboy | Europe | None | 18 | 0 | 40 | 44 | 5 | Python,JavaScript | 270 | 13 | 1| 
 | Sheisback | Win32k CreateWindowEx 函数 UAF Exploit | https://github.com/Sheisback/CVE-2019-0859-1day-Exploit | http://sheisback.xyz |  | None | None | 66 | 0 | 10 | 27 | 4 | Python,C#,C,JavaScript,C++ | 56 | 19 | 1| 
 | tikazyq | crawlab: 基于Celery的爬虫分布式爬虫管理平台 | https://github.com/tikazyq/crawlab/blob/master/README-zh.md | None |  | Chongqing, China | None | 35 | 0 | 98 | 24 | 19 | Python,Vue | 0 | 0 | 1| 

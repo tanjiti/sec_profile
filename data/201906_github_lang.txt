@@ -1,11 +1,12 @@
-Python	11
+Python	12
+HTML	8
+C	7
 JavaScript	7
-C	6
-C++	6
-HTML	6
+C++	7
 C#	3
 Java	2
 Shell	2
+PowerShell	2
 ASP	1
 Vue	1
 Lua	1
@@ -15,5 +16,4 @@ Go	1
 Jupyter	1
 PHP	1
 Ruby	1
-PowerShell	1
 CSS	1
