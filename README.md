@@ -16,6 +16,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 现代军事 | xiandaijunshi | https://mp.weixin.qq.com/s/dW-k_LlWZt04pakFuvfX8A | 解读德国情报工作建设 | 1| 
 | 网络法前哨 | cyberlawing | https://mp.weixin.qq.com/s/P21rRO_tFo9ZDCrbDdIHGA | 公安部｜通报净网2019专项行动典型案例 | 1| 
 | 仙人掌情报站 | sec-cactus | https://mp.weixin.qq.com/s/Tx9nHxvp9ezd0hf1PZcmiQ | [搬砖手册]基于Packetbeat探索搭建轻量级网络流量监测系统 | 1| 
 | 学蚁致用 | sudo_i | https://mp.weixin.qq.com/s/j4Dqhko9nnxeuDkLZKftDA | Defcon China 1.0 胸卡破解笔记 | 1| 
