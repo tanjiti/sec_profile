@@ -1,0 +1,35 @@
+20190610	法规	https://mp.weixin.qq.com/s/P21rRO_tFo9ZDCrbDdIHGA	通报净网2019专项行动典型案例	qq.com	mp.weixin.qq.com	/s/P21rRO_tFo9ZDCrbDdIHGA
+20190610	新闻	https://mp.weixin.qq.com/s/kfnlzwHbfNHgVXEiX2-1sg	美国被爆料入侵俄罗斯电网	qq.com	mp.weixin.qq.com	/s/kfnlzwHbfNHgVXEiX2-1sg
+20190610	法规	http://www.cac.gov.cn/2019-06/13/c_1124613618.htm	个人信息出境安全评估办法（征求意见稿）	cac.gov.cn	www.cac.gov.cn	/2019-06/13/c_1124613618.htm
+20190610	观点	https://mp.weixin.qq.com/s/dW-k_LlWZt04pakFuvfX8A	解读德国情报工作建设	qq.com	mp.weixin.qq.com	/s/dW-k_LlWZt04pakFuvfX8A
+20190610	Web安全	https://github.com/al0ne/Vxscan	Vxscan: python3写的综合扫描工具	github.com	github.com	/al0ne/Vxscan
+20190610	Web安全	https://nosec.org/home/detail/2709.html	Coremail敏感文件泄露	nosec.org	nosec.org	/home/detail/2709.html
+20190610	会议	https://media.defcon.org/DEF%20CON%20China%201/	DEF CON China 1 presentations	defcon.org	media.defcon.org	/DEF%20CON%20China%201/
+20190610	Web安全	https://nosec.org/home/detail/2711.html	Weblogic最新反序列化远程命令执行漏洞(绕过 CVE-2019-2725 补丁)	nosec.org	nosec.org	/home/detail/2711.html
+20190610	恶意分析	https://mp.weixin.qq.com/s/ex1etM205ed8Hv8vCvQ0JQ	为你揭开谍中谍的好戏	qq.com	mp.weixin.qq.com	/s/ex1etM205ed8Hv8vCvQ0JQ
+20190610	运维安全	https://mp.weixin.qq.com/s/rmd8CvQKRMQWFR1o3t7I8w	企业安全建设的体系思考与落地实践	qq.com	mp.weixin.qq.com	/s/rmd8CvQKRMQWFR1o3t7I8w
+20190610	数据挖掘	https://zhuanlan.zhihu.com/p/68538874	机器学习方法在二进制分析中的应用与思考	zhihu.com	zhuanlan.zhihu.com	/p/68538874
+20190610	Web安全	https://github.com/chaitin/xray	xray：HTTP 代理进行被动扫描	github.com	github.com	/chaitin/xray
+20190610	恶意分析	https://medium.com/mitre-attack/getting-started-with-attack-cti-4eb205be4b2f	Getting Started with ATT&CK: Threat Intelligence	medium.com	medium.com	/mitre-attack/getting-started-with-attack-cti-4eb205be4b2f
+20190610	设备安全	https://mp.weixin.qq.com/s/j4Dqhko9nnxeuDkLZKftDA	Defcon China 1.0 胸卡破解笔记	qq.com	mp.weixin.qq.com	/s/j4Dqhko9nnxeuDkLZKftDA
+20190610	数据挖掘	https://github.com/husthuke/awesome-knowledge-graph	awesome-knowledge-graph: 整理知识图谱相关学习资料	github.com	github.com	/husthuke/awesome-knowledge-graph
+20190610	取证分析	https://zhuanlan.zhihu.com/p/68780251	安全分析中的威胁情报（一）	zhihu.com	zhuanlan.zhihu.com	/p/68780251
+20190610	观点	https://mp.weixin.qq.com/s/YHmQDUZze_qbmebaRlTKGg	网安独角兽CrowdStrike IPO分析（一）	qq.com	mp.weixin.qq.com	/s/YHmQDUZze_qbmebaRlTKGg
+20190610	比赛	https://zhuanlan.zhihu.com/p/68800032	首届云安全挑战赛之线上热身赛解题分享	zhihu.com	zhuanlan.zhihu.com	/p/68800032
+20190610	漏洞分析	https://www.freebuf.com/vuls/204874.html	细说CVE-2010-2883从原理分析到样本构造	freebuf.com	www.freebuf.com	/vuls/204874.html
+20190610	漏洞分析	https://xz.aliyun.com/t/5380	基于污点分析的XSS漏洞辅助挖掘的一种方式	aliyun.com	xz.aliyun.com	/t/5380
+20190610	运维安全	https://mp.weixin.qq.com/s/YQn1FQICk1esxvBCHZntFA	安全架构评审实战	qq.com	mp.weixin.qq.com	/s/YQn1FQICk1esxvBCHZntFA
+20190610	移动安全	https://mp.weixin.qq.com/s/sb2hndSGn_IpMWmSGC4rPg	2018年Android应用安全白皮书	qq.com	mp.weixin.qq.com	/s/sb2hndSGn_IpMWmSGC4rPg
+20190610	恶意分析	https://mp.weixin.qq.com/s/Tx9nHxvp9ezd0hf1PZcmiQ	基于Packetbeat探索搭建轻量级网络流量监测系统	qq.com	mp.weixin.qq.com	/s/Tx9nHxvp9ezd0hf1PZcmiQ
+20190610	漏洞分析	https://blog.rapid7.com/2019/06/12/heap-overflow-exploitation-on-windows-10-explained/	Heap Overflow Exploitation on Windows 10 Explained	rapid7.com	blog.rapid7.com	/2019/06/12/heap-overflow-exploitation-on-windows-10-explained/
+20190610	观点	https://mp.weixin.qq.com/s/mQYaX-WGDZIIW26koGxTzQ	网络空间安全学科简论	qq.com	mp.weixin.qq.com	/s/mQYaX-WGDZIIW26koGxTzQ
+20190610	数据挖掘	https://github.com/tikazyq/crawlab/blob/master/README-zh.md	crawlab: 基于Celery的爬虫分布式爬虫管理平台	github.com	github.com	/tikazyq/crawlab/blob/master/README-zh.md
+20190610	恶意分析	https://www.kaspersky.com/blog/evaluating-threat-intelligence/26952/	Evaluating threat intelligence sources	kaspersky.com	www.kaspersky.com	/blog/evaluating-threat-intelligence/26952/
+20190610	Web安全	https://www.freebuf.com/articles/web/205690.html	2019强网杯Web部分Writeup	freebuf.com	www.freebuf.com	/articles/web/205690.html
+20190610	数据挖掘	https://xz.aliyun.com/t/5378	无监督异常检测模型原理与安全实践	aliyun.com	xz.aliyun.com	/t/5378
+20190610	数据挖掘	https://github.com/momosecurity/aswan	aswan: 陌陌风控系统静态规则引擎	github.com	github.com	/momosecurity/aswan
+20190610	观点	https://mp.weixin.qq.com/s/sNyqz3infRfvS__1zc9wjQ	网安独角兽CrowdStrike IPO分析（二）	qq.com	mp.weixin.qq.com	/s/sNyqz3infRfvS__1zc9wjQ
+20190610	设备安全	https://www.4hou.com/reverse/18455.html	针对Belkin Surf N300路由器的硬件逆向研究	4hou.com	www.4hou.com	/reverse/18455.html
+20190610	运维安全	https://www.freebuf.com/articles/system/110027.html	OPENVAS源码编译解析	freebuf.com	www.freebuf.com	/articles/system/110027.html
+20190610	比赛	http://www.zerokeeper.com/pwn/pwnabletw-hacknote-wp.html	pwnable.tw hacknote wp	zerokeeper.com	www.zerokeeper.com	/pwn/pwnabletw-hacknote-wp.html
+20190610	漏洞分析	https://www.freebuf.com/sectool/205520.html	从Charles破解历程了解Javassist使用	freebuf.com	www.freebuf.com	/sectool/205520.html
