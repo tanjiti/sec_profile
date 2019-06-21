@@ -16,6 +16,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 专注安管平台 |  | https://mp.weixin.qq.com/s/dBw_z9oNoTRUQNVTkf1l_w | Gartner2019年十大安全项目详解 | 1| 
+| 新浪安全中心 |  | https://mp.weixin.qq.com/s/3N3eJzTaMwbznL_aofOjnQ | 自助安全扫描与代码审计系统架构实践 | 1| 
 | 数说安全 | SSAQ2016 | https://mp.weixin.qq.com/s/3mfChyt7r4rn07tHg_q8NA | 上市网络安全公司现状及战略分析 | 1| 
 | 国家电网报 | stategridnews | https://mp.weixin.qq.com/s/0p_QrSpJuGSc3IaQB2NMMw | 阿根廷全国大停电 | 1| 
 | 红队攻防揭秘 | klionsec | https://mp.weixin.qq.com/s/x0txdB7tMEIg1W4v_ZK7Tg | CobaltStrike+MetaSploit 实战联动 | 1| 
