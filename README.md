@@ -17,9 +17,9 @@
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
 | 专注安管平台 |  | https://mp.weixin.qq.com/s/dBw_z9oNoTRUQNVTkf1l_w | Gartner2019年十大安全项目详解 | 1| 
-| 新浪安全中心 |  | https://mp.weixin.qq.com/s/3N3eJzTaMwbznL_aofOjnQ | 自助安全扫描与代码审计系统架构实践 | 1| 
-| 数说安全 | SSAQ2016 | https://mp.weixin.qq.com/s/3mfChyt7r4rn07tHg_q8NA | 上市网络安全公司现状及战略分析 | 1| 
 | 国家电网报 | stategridnews | https://mp.weixin.qq.com/s/0p_QrSpJuGSc3IaQB2NMMw | 阿根廷全国大停电 | 1| 
+| 数说安全 | SSAQ2016 | https://mp.weixin.qq.com/s/3mfChyt7r4rn07tHg_q8NA | 上市网络安全公司现状及战略分析 | 1| 
+| 新浪安全中心 |  | https://mp.weixin.qq.com/s/3N3eJzTaMwbznL_aofOjnQ | 自助安全扫描与代码审计系统架构实践 | 1| 
 | 红队攻防揭秘 | klionsec | https://mp.weixin.qq.com/s/x0txdB7tMEIg1W4v_ZK7Tg | CobaltStrike+MetaSploit 实战联动 | 1| 
 | 环球时报 | hqsbwx | https://mp.weixin.qq.com/s/kfnlzwHbfNHgVXEiX2-1sg | 美国被爆料入侵俄罗斯电网，特朗普怒怼纽约时报叛国 | 1| 
 | 现代军事 | xiandaijunshi | https://mp.weixin.qq.com/s/dW-k_LlWZt04pakFuvfX8A | 解读德国情报工作建设 | 1| 
@@ -42,10 +42,12 @@
 | github_id | title | url | org_url | org_profile | org_geo | org_repositories | org_people | org_projects | repo_lang | repo_star | repo_forks| 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | nccgroup | BKScan - 支持对开启密码验证（NLA）的 RDP 机器扫描 CVE-2019-0708 漏洞 | https://github.com/nccgroup/BKScan | https://www.nccgroup.trust | Please report all security issues to security at nccgroup dot com | Global | 181 | 15 | 0 | C,Shell,Java,Python,Ruby,JavaScript,C#,HTML,Elixir,Go,Dockerfile,Rust | 725 | 81 | 1| 
+| mozilla | MozDef - Mozilla 开源的一个企业级防御平台，用于安全事件和应急响应地自动化处理 | https://github.com/mozilla/MozDef | https://wiki.mozilla.org/Github | This technology could fall into the right hands. | Mountain View, California | 2041 | 283 | 35 | Shell,FreeMarker,Python,Kotlin,JavaScript,C++,TypeScript,HTML,CSS | 0 | 0 | 1| 
 | Coalfire-Research | Slackor - Go 语言写的一个 C&C 服务器，基于 Slack | https://github.com/Coalfire-Research/Slackor | http://www.coalfirelabs.com | Advancing the state of the Infosec industry by providing cutting-edge research, open-source tools and tradecraft | http://www.coalfirelabs.com | 17 | 0 | 0 | C,Python,JavaScript,Lua,Go,PowerShell,HCL | 0 | 0 | 1| 
 | chaitin | xray：HTTP 代理进行被动扫描 | https://github.com/chaitin/xray | http://chaitin.com | 长亭科技 | Beijing | 17 | 8 | 0 | TypeScript,Python,JavaScript,C++,Lua,HTML,Go | 0 | 0 | 1| 
 | doyensec | Electronegativity - 在基于 Electron 实现的应用中检查安全配置不当问题的工具 | https://github.com/doyensec/electronegativity | https://doyensec.com | Doyensec works at the intersection of software development and offensive engineering. We discover vulnerabilities others cannot, and help mitigate the risk. | San Francisco / Warsaw | 12 | 1 | 0 | Python,C,JavaScript,Java | 0 | 0 | 1| 
 | RhinoSecurityLabs | Rhino Security Labs 在 GitHub 发布的云安全相关 Repo，目前公开了 AWS 相关的一些工具 | https://github.com/RhinoSecurityLabs/Cloud-Security-Research | https://rhinosecuritylabs.com | A boutique penetration testing and security assessment firm in Seattle, WA. | Seattle, WA | 11 | 0 | 0 | Python,JavaScript,PowerShell,HCL | 0 | 0 | 1| 
+| sophoslabs | SophosLabs 公开了 Windows ActiveX Data Objects (ADO) UAF 漏洞（CVE-2019-0888）的 PoC | https://github.com/sophoslabs/CVE-2019-0888/ | https://www.sophos.com/en-us/labs.aspx |  | https://www.sophos.com/en-us/labs.aspx | 6 | 0 | 0 | Python,HTML | 0 | 0 | 1| 
 | cw-leia | 自定义的智能卡分析测试套件，包含软件和硬件 ，设备使用于Chipwhisperer | https://github.com/cw-leia | None | LEIA: the Lab Embedded ISO7816 Analyzer A Custom Smartcard Reader for the ChipWhisperer by @ANSSI-FR | None | 4 | 0 | 0 | C,Shell,HTML | 0 | 0 | 1| 
 | momosecurity | 陌陌开源的风控系统静态规则引擎 | https://github.com/momosecurity/aswan | https://security.immomo.com | 陌陌安全 | Beijing, China | 3 | 0 | 0 | Python,PHP,Java | 0 | 0 | 1| 
 
