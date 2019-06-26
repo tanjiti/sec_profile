@@ -65,6 +65,7 @@
 | grayddq | GScan: Linux主机侧Checklist的自动全面化检测 | https://github.com/grayddq/GScan | None | 一位喜欢原创的安全工作者！ | None | None | 14 | 0 | 0 | 327 | 0 | Python | 305 | 99 | 1| 
 | piglei | Python 工匠 | https://github.com/piglei/one-python-craftsman | http://www.zlovezl.cn | A Python programmer who enjoys writing and reading beautiful codes. Also coding in Go, JavaScript. | ShenZhen, China | Tencent | 24 | 0 | 1400 | 301 | 93 | Python,Go,JavaScript | 730 | 106 | 1| 
 | Viralmaniar | PeekABoo - 渗透测试中，利用 PowerShell remoting 开启目标主机远程桌面的工具 | https://github.com/Viralmaniar/PeekABoo | https://twitter.com/maniarviral |  | Melbourne, Victoria, Australia | None | 37 | 0 | 223 | 228 | 93 | Python,Shell,JavaScript | 737 | 112 | 1| 
+| mgeeky | Stracciatella - Bypass AMSI 和 Script Block Logging 加载执行 PowerShell 脚本的工具 | https://github.com/mgeeky/Stracciatella | https://www.linkedin.com/in/mariuszban/ | Sencha-inspired Offensive Security engineer, doing heaps of penetration testings, packet craftings, reverse engineering and exploits/tools development. | None | None | 52 | 0 | 1100 | 225 | 77 | Python,C#,PowerShell,C++ | 225 | 66 | 1| 
 | LinusHenze | KeySteal是一个针对macOS<=10.14.3 Keychain漏洞利用程序，允许在没有用户提示的情况下访问Keychain中的密码。 | https://github.com/LinusHenze/Keysteal | None |  | Germany | None | 5 | 0 | 0 | 143 | 0 | C,JavaScript,Objective-C,C++ | 321 | 86 | 1| 
 | al0ne | Vxscan: python3写的综合扫描工具 | https://github.com/al0ne/Vxscan | None | 入侵检测/流量分析/应急溯源 | china | None | 11 | 0 | 528 | 140 | 180 | Python,Shell | 155 | 29 | 1| 
 | bkth | bkth在SSTIC 2019上演讲《A tale of Chakra bugs through the years》，详细讲解了微软Edge浏览器脚本引擎ChakraCore的各种漏洞。 | https://github.com/bkth/Tale-Of-Chakra-Bugs | https://twitter.com/bkth_ | Security Researcher, CTF player, I like JavaScript but probably not in the same way as most people ;) | France | None | 14 | 0 | 15 | 138 | 3 | Python,C,JavaScript | 76 | 14 | 1| 
@@ -74,12 +75,14 @@
 | mk-fg | 通过 AppArmor Linux 内核安全模块限制应用程序访问权限 | https://github.com/mk-fg/apparmor-profiles | http://fraggod.net | Random foss user, tinkerer, dev and freelancer. Mirror: http://fraggod.net/code/git/ | Yekaterinburg, RU | None | 80 | 0 | 22 | 76 | 0 | Python | 201 | 35 | 1| 
 | husthuke | awesome-knowledge-graph: 整理知识图谱相关学习资料 | https://github.com/husthuke/awesome-knowledge-graph | https://husthuke.github.io/ |  | beijing | VIPKID | 31 | 0 | 234 | 74 | 31 | Jupyter,HTML,Java,CSS | 282 | 62 | 1| 
 | Kira-cxy | 科恩实验室 Kira-cxy 在 TenSec 2019 会议关于虚拟化以及 QEMU slirp:tcp_emu 堆溢出虚拟机逃逸漏洞（CVE-2019-6778）的分析 | https://github.com/Kira-cxy/qemu-vm-escape | None | baby security researcher | None | None | 4 | 0 | 337 | 63 | 97 | C,HTML,C++ | 101 | 18 | 1| 
+| b1ack0wl | Linux Mint 18.3-19.1 yelp 命令注入 Bug PoC | https://github.com/b1ack0wl/linux_mint_poc | None |  | None | None | 11 | 0 | 12 | 59 | 0 | Python,Shell,HTML,Ruby,Propeller | 20 | 3 | 1| 
 | RanchoIce | 湛泸实验室 RanchoIce 在 ZeroNights 2018 会议演讲《From Graphic Mode To God Mode - Discovery Vulnerabilities of GPU Virtualization》的 PPT | https://github.com/RanchoIce/ZeroNights2018// | https://twitter.com/RanchoIce | Researcher of Tencent Security ZhanluLab | None | ZhanluLab | 61 | 0 | 0 | 48 | 11 | Ruby,PowerShell,C++ | 19 | 12 | 1| 
 | numirias | 通过 VIM 对 modelines 特殊格式的支持可以实现任意代码执行。漏洞影响 Vim < 8.1.1365, Neovim < 0.3.6 版本 | https://github.com/numirias/security/blob/master/doc/2019-06-04_ace-vim-neovim.md | https://twitter.com/rawsec | Infosec fanboy | Europe | None | 18 | 0 | 40 | 44 | 5 | Python,JavaScript | 270 | 13 | 1| 
 | 0xffff0800 | MuddyWater 组织的 Muddyc3 C2 源码泄漏 | https://github.com/0xffff0800/muddyc3 | https://www.twitter.com/0xffff0800 | Security Researcher, Malware Analyst | Shenzhen Guangdong China | None | 1 | 0 | 0 | 39 | 0 | Python | 103 | 67 | 1| 
 | kam800 | macOS 平台的一款 Mach-O 混淆工具 | https://github.com/kam800/MachObfuscator | None |  | Poland | None | 9 | 0 | 467 | 37 | 11 | Ruby,Objective-C,Swift,C | 193 | 20 | 1| 
 | Sheisback | Win32k CreateWindowEx 函数 UAF Exploit | https://github.com/Sheisback/CVE-2019-0859-1day-Exploit | http://sheisback.xyz |  | None | None | 66 | 0 | 10 | 27 | 4 | Python,C#,C,JavaScript,C++ | 56 | 19 | 1| 
 | tikazyq | crawlab: 基于Celery的爬虫分布式爬虫管理平台 | https://github.com/tikazyq/crawlab/blob/master/README-zh.md | None |  | Chongqing, China | None | 35 | 0 | 98 | 24 | 19 | Python,Vue | 527 | 100 | 1| 
+| hannespayer | V8 Team在PLDI上办的v8讲座的资料 | https://github.com/hannespayer/v8-tutorial-pldi2019 | None |  | None | None | 4 | 0 | 0 | 22 | 0 | C++ | 12800 | 2500 | 1| 
 | trombastic | 基于 Django 实现的开源 SCADA 系统，支持多种工控协议 | https://github.com/trombastic/PyScada | http://martin-schroeder.net |  | Berlin | Technische Universität Berlin | 11 | 0 | 8 | 19 | 0 | Python,JavaScript | 138 | 52 | 1| 
 | rutkai | pentest-bookmarks - 渗透测试相关的资料收集 | https://github.com/rutkai/pentest-bookmarks | http://rutkai.hu/ |  | Hungary | LogMeIn | 14 | 0 | 42 | 15 | 0 | HTML,JavaScript,PHP | 9 | 6 | 1| 
 | No-Github | Dork-Admin: 盘点近年来的数据泄露事件 | https://github.com/No-Github/Dork-Admin | None | 井底之蛙 | remote | None | 30 | 0 | 574 | 14 | 10 | HTML | 132 | 7 | 1| 
@@ -90,6 +93,7 @@
 | mfthomps | RESim - 基于 Simics 模拟器的全系统模拟动态分析工具。 | https://github.com/mfthomps/RESim | None |  | None | None | 6 | 0 | 0 | 4 | 1 | Python,C#,HTML | 21 | 9 | 1| 
 | PINGXcpost | F-NAScan-PLUS 安服资产搜集 | https://github.com/PINGXcpost/F-NAScan-PLUS | http://hackhat.net |  | None | None | 7 | 0 | 0 | 1 | 0 | Python,Shell,PowerShell | 19 | 8 | 1| 
 | hungryfoolou | CVE漏洞信息爬取 | https://github.com/hungryfoolou/Vulnerability_Mining/tree/master/craw | None |  | None | XiDian University | 6 | 0 | 10 | 0 | 3 | Python,C,HTML | 75 | 39 | 1| 
+| tarantula-team | 开源防火墙 fSense 2.4.4-p2 - 2.4.4-p3 XSS 漏洞 PoC（CVE-2019-12949） | https://github.com/tarantula-team/CVE-2019-12949/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 
 
 
