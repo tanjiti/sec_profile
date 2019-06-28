@@ -1,8 +1,8 @@
-Python	31
+Python	33
+HTML	17
 C	17
-HTML	16
-C++	15
-JavaScript	13
+C++	16
+JavaScript	15
 Shell	10
 PowerShell	10
 Ruby	7

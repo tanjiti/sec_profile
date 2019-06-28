@@ -16,6 +16,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 安全泰式柑汁 | ts_sec | https://mp.weixin.qq.com/s/q2KdfZ0Wa8rkGT9i6Vjh3g | 2019HW行动防守总结 | 1| 
 | Bypass | Bypass-- | https://mp.weixin.qq.com/s/CtnHy9X7_csTwrG5KJvDjg | Web日志安全分析技巧 | 1| 
 | 信息化协同创新专委会 | CF-ICI | https://mp.weixin.qq.com/s/riKGPdyu8ekOy-WuEkyVoQ | 国内外颠覆性技术研究进展跟踪与研究方法总结 | 1| 
 | 看雪学院 | ikanxue | https://mp.weixin.qq.com/s/uPe2HHsNc44YBBUum4jogg | 如何实现 Https拦截进行 非常规“抓包” | 1| 
@@ -47,6 +48,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | tianocore | Intel(r) Boot Guard 用于缓解 CVE-2019-11098 TOCTOU 漏洞的代码实现 | https://github.com/tianocore/edk2-staging/tree/BootGuardTocTouVulnerabilityMitigation | http://www.tianocore.org |  | http://www.tianocore.org | 0 | 0 | 0 | Python,C,HTML,Batchfile,C++ | 1200 | 796 | 1| 
 | nccgroup | BKScan - 支持对开启密码验证（NLA）的 RDP 机器扫描 CVE-2019-0708 漏洞 | https://github.com/nccgroup/BKScan | https://www.nccgroup.trust | Please report all security issues to security at nccgroup dot com | Global | 181 | 15 | 0 | C,Shell,Java,Python,Ruby,JavaScript,C#,HTML,Elixir,Go,Dockerfile,Rust | 725 | 81 | 1| 
+| OpenCTI-Platform | OpenCTI - 一款开源的威胁情报平台，支持对情报信息的结构化存储、关联可视化 | https://github.com/OpenCTI-Platform/opencti | https://www.opencti.io | Open Cyber Threat Intelligence Platform, supported by @ANSSI-FR, @certeu and @LuatixHQ. | France | 0 | 0 | 0 | Python,JavaScript,HTML | 47 | 7 | 1| 
 | mozilla | MozDef - Mozilla 开源的一个企业级防御平台，用于安全事件和应急响应地自动化处理 | https://github.com/mozilla/MozDef | https://wiki.mozilla.org/Github | This technology could fall into the right hands. | Mountain View, California | 2041 | 283 | 35 | Shell,FreeMarker,Python,Kotlin,JavaScript,C++,TypeScript,HTML,CSS | 0 | 0 | 1| 
 | Coalfire-Research | Slackor - Go 语言写的一个 C&C 服务器，基于 Slack | https://github.com/Coalfire-Research/Slackor | http://www.coalfirelabs.com | Advancing the state of the Infosec industry by providing cutting-edge research, open-source tools and tradecraft | http://www.coalfirelabs.com | 17 | 0 | 0 | C,Python,JavaScript,Lua,Go,PowerShell,HCL | 0 | 0 | 1| 
 | chaitin | xray：HTTP 代理进行被动扫描 | https://github.com/chaitin/xray | http://chaitin.com | 长亭科技 | Beijing | 17 | 8 | 0 | TypeScript,Python,JavaScript,C++,Lua,HTML,Go | 0 | 0 | 1| 
@@ -65,6 +67,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | Ridter | CVE-2019-1040 从普通域账号到域管理员权限的利用脚本，利用的是Exchange账号进行 NTLM Relay 到 LDAP 然后给普通权限账号添加DCSYNC权限。 | https://github.com/Ridter/CVE-2019-1040 | https://evi1cg.me |  | None | None | 106 | 0 | 425 | 944 | 20 | Python,C,C++ | 1900 | 404 | 1| 
 | Xyntax | 研究员 Xyntax 公开了多个 Paper，主要方向是安全数据分析和威胁防御 | https://github.com/Xyntax/slides | https://www.cdxy.me | Web developer, security researcher and data analyst. | Hangzhou,China | Alibaba Cloud | 50 | 0 | 297 | 902 | 86 | Python,HTML,PowerShell | 1100 | 579 | 1| 
+| 0vercl0k | 一个对 Hyper-V WinHv API 的 python binding | https://github.com/0vercl0k/pywinhv | https://doar-e.github.com/ |  | US/FR | None | 16 | 0 | 7 | 719 | 0 | Python,JavaScript,C++ | 773 | 160 | 1| 
 | grayddq | GScan: Linux主机侧Checklist的自动全面化检测 | https://github.com/grayddq/GScan | None | 一位喜欢原创的安全工作者！ | None | None | 14 | 0 | 0 | 327 | 0 | Python | 305 | 99 | 1| 
 | piglei | Python 工匠 | https://github.com/piglei/one-python-craftsman | http://www.zlovezl.cn | A Python programmer who enjoys writing and reading beautiful codes. Also coding in Go, JavaScript. | ShenZhen, China | Tencent | 24 | 0 | 1400 | 301 | 93 | Python,Go,JavaScript | 730 | 106 | 1| 
 | Viralmaniar | PeekABoo - 渗透测试中，利用 PowerShell remoting 开启目标主机远程桌面的工具 | https://github.com/Viralmaniar/PeekABoo | https://twitter.com/maniarviral |  | Melbourne, Victoria, Australia | None | 37 | 0 | 223 | 228 | 93 | Python,Shell,JavaScript | 737 | 112 | 1| 
