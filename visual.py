@@ -271,7 +271,7 @@ def draw_readme(fpath=None):
     """
 
     if fpath is None:
-        fpath = "README.md"
+        fpath = "README_6.md"
 
     tables_rets = []
     so = SQLiteOper("data/scrap.db")
