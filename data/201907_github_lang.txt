@@ -1,0 +1,13 @@
+Python	2
+TypeScript	1
+Java	1
+JavaScript	1
+C++	1
+C#	1
+HTML	1
+HCL	1
+Rich	1
+Go	1
+Jupyter	1
+PowerShell	1
+CSS	1

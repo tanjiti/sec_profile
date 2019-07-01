@@ -1,0 +1,28 @@
+20190624	新闻	https://mp.weixin.qq.com/s/riKGPdyu8ekOy-WuEkyVoQ	国内外颠覆性技术研究进展跟踪与研究方法总结	qq.com	mp.weixin.qq.com	/s/riKGPdyu8ekOy-WuEkyVoQ
+20190624	Web安全	https://bithack.io/forum/352	复盘攻防，再聊安全	bithack.io	bithack.io	/forum/352
+20190624	取证分析	https://mp.weixin.qq.com/s/uPe2HHsNc44YBBUum4jogg	如何实现 Https拦截进行 非常规“抓包”	qq.com	mp.weixin.qq.com	/s/uPe2HHsNc44YBBUum4jogg
+20190624	Web安全	https://bloodzer0.github.io/ossa/infrastructure-security/host-security/log-analysis/get-ip/	三种手段透过nginx代理获取客户端真实IP	github.io	bloodzer0.github.io	/ossa/infrastructure-security/host-security/log-analysis/get-ip/
+20190624	会议	https://paper.seebug.org/961/	TenSec 2019 安全议题 ppt 公开	seebug.org	paper.seebug.org	/961/
+20190624	Web安全	https://www.freebuf.com/sectool/204457.html	TrackRay：打造一款自己的渗透测试框架	freebuf.com	www.freebuf.com	/sectool/204457.html
+20190624	会议	https://www.hackinn.com/index.php/archives/452/	SANS 2019年全年会议资料	hackinn.com	www.hackinn.com	/index.php/archives/452/
+20190624	Web安全	https://mp.weixin.qq.com/s/mEVxuFTr8VHCnxm1K7j4jw	从零开始Java代码审计系列(一)	qq.com	mp.weixin.qq.com	/s/mEVxuFTr8VHCnxm1K7j4jw
+20190624	漏洞分析	https://www.anquanke.com/post/id/180714	路由器0day漏洞挖掘实战	anquanke.com	www.anquanke.com	/post/id/180714
+20190624	Web安全	https://blog.o1hy.com/2019/06/15/ptToolsChromeExtension/	一款ChromeHTTP请求重放插件	o1hy.com	blog.o1hy.com	/2019/06/15/ptToolsChromeExtension/
+20190624	取证分析	https://mp.weixin.qq.com/s/CtnHy9X7_csTwrG5KJvDjg	Web日志安全分析技巧	qq.com	mp.weixin.qq.com	/s/CtnHy9X7_csTwrG5KJvDjg
+20190624	数据挖掘	https://juejin.im/post/5cf943875188251346598949	一文读懂链路追踪	juejin.im	juejin.im	/post/5cf943875188251346598949
+20190624	杂志	https://www.sec-wiki.com/weekly/277	SecWiki周刊（第277期)	sec-wiki.com	www.sec-wiki.com	/weekly/277
+20190624	设备安全	https://www.anquanke.com/post/id/180831	深入分析Ewon Flexy物联网路由器（上）	anquanke.com	www.anquanke.com	/post/id/180831
+20190624	Web安全	https://www.freebuf.com/articles/web/205760.html	Web攻击检测机器学习深度实践	freebuf.com	www.freebuf.com	/articles/web/205760.html
+20190624	数据挖掘	https://zhangslob.github.io/docs/	数据采集从入门到放弃	github.io	zhangslob.github.io	/docs/
+20190624	设备安全	https://xz.aliyun.com/t/5468	强网杯线下Router-路由器漏洞挖掘	aliyun.com	xz.aliyun.com	/t/5468
+20190624	Web安全	https://bloodzer0.github.io/ossa/log_analysis/weblog/	Web日志字段解析	github.io	bloodzer0.github.io	/ossa/log_analysis/weblog/
+20190624	论文	https://zhuanlan.zhihu.com/p/70982640	针对机器学习模型的成员推理攻击	zhihu.com	zhuanlan.zhihu.com	/p/70982640
+20190624	设备安全	https://www.freebuf.com/vuls/205987.html	一个工控漏洞引发的思考	freebuf.com	www.freebuf.com	/vuls/205987.html
+20190624	设备安全	https://www.anquanke.com/post/id/180864	深入分析Ewon Flexy物联网路由器（下）	anquanke.com	www.anquanke.com	/post/id/180864
+20190624	运维安全	https://bloodzer0.github.io/ossa/log_analysis/elkf-sn/	Centos7 安装与配置ELK7.2+filebeat采集日志	github.io	bloodzer0.github.io	/ossa/log_analysis/elkf-sn/
+20190624	运维安全	https://bloodzer0.github.io/ossa/intrusion_detection/wazuh/	Centos7 安装与配置wazuh3.9	github.io	bloodzer0.github.io	/ossa/intrusion_detection/wazuh/
+20190624	会议	http://riusksk.me/2019/06/29/Infiltrate2019%E8%AE%AE%E9%A2%98%E5%AD%A6%E4%B9%A0/	Infiltrate2019议题学习	riusksk.me	riusksk.me	/2019/06/29/Infiltrate2019%E8%AE%AE%E9%A2%98%E5%AD%A6%E4%B9%A0/
+20190624	漏洞分析	https://xz.aliyun.com/t/5483	Laravel5.7反序列化漏洞之RCE链挖掘	aliyun.com	xz.aliyun.com	/t/5483
+20190624	取证分析	https://github.com/OpenCTI-Platform/opencti	Open Cyber Threat Intelligence Platform	github.com	github.com	/OpenCTI-Platform/opencti
+20190624	比赛	https://xz.aliyun.com/t/5503	Google2019CTF web 解题思路	aliyun.com	xz.aliyun.com	/t/5503
+20190624	恶意分析	https://xz.aliyun.com/t/5463	macOS恶意软件驻留技术分析	aliyun.com	xz.aliyun.com	/t/5463

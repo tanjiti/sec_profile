@@ -3,107 +3,33 @@
 # [数据月报-5月](README_5.md)
 # [数据月报-4月](README_4.md)
 # [数据月报-3月](README_3.md)
-# 201906 信息源与信息类型占比
-![201906-信息源占比-secwiki](data/img/domain/201906-信息源占比-secwiki.png)
+# 201907 信息源与信息类型占比
+![201907-信息源占比-secwiki](data/img/domain/201907-信息源占比-secwiki.png)
 
-![201906-信息源占比-xuanwu](data/img/domain/201906-信息源占比-xuanwu.png)
+![201907-信息源占比-xuanwu](data/img/domain/201907-信息源占比-xuanwu.png)
 
-![201906-信息类型占比-secwiki](data/img/tag/201906-信息类型占比-secwiki.png)
+![201907-信息类型占比-secwiki](data/img/tag/201907-信息类型占比-secwiki.png)
 
-![201906-信息类型占比-xuanwu](data/img/tag/201906-信息类型占比-xuanwu.png)
+![201907-信息类型占比-xuanwu](data/img/tag/201907-信息类型占比-xuanwu.png)
 
-![201906-最喜欢语言占比](data/img/language/201906-最喜欢语言占比.png)
+![201907-最喜欢语言占比](data/img/language/201907-最喜欢语言占比.png)
 
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
-| 安全泰式柑汁 | ts_sec | https://mp.weixin.qq.com/s/q2KdfZ0Wa8rkGT9i6Vjh3g | 2019HW行动防守总结 | 1| 
-| Bypass | Bypass-- | https://mp.weixin.qq.com/s/CtnHy9X7_csTwrG5KJvDjg | Web日志安全分析技巧 | 1| 
-| 信息化协同创新专委会 | CF-ICI | https://mp.weixin.qq.com/s/riKGPdyu8ekOy-WuEkyVoQ | 国内外颠覆性技术研究进展跟踪与研究方法总结 | 1| 
-| 看雪学院 | ikanxue | https://mp.weixin.qq.com/s/uPe2HHsNc44YBBUum4jogg | 如何实现 Https拦截进行 非常规“抓包” | 1| 
-| 阿里安全响应中心 | alisrc | https://mp.weixin.qq.com/s/mEVxuFTr8VHCnxm1K7j4jw | 从零开始java代码审计系列(一) | 1| 
-| 专注安管平台 |  | https://mp.weixin.qq.com/s/dBw_z9oNoTRUQNVTkf1l_w | Gartner2019年十大安全项目详解 | 1| 
-| 国家电网报 | stategridnews | https://mp.weixin.qq.com/s/0p_QrSpJuGSc3IaQB2NMMw | 阿根廷全国大停电 | 1| 
-| 数说安全 | SSAQ2016 | https://mp.weixin.qq.com/s/3mfChyt7r4rn07tHg_q8NA | 上市网络安全公司现状及战略分析 | 1| 
-| 新浪安全中心 |  | https://mp.weixin.qq.com/s/3N3eJzTaMwbznL_aofOjnQ | 自助安全扫描与代码审计系统架构实践 | 1| 
-| 红队攻防揭秘 | klionsec | https://mp.weixin.qq.com/s/x0txdB7tMEIg1W4v_ZK7Tg | CobaltStrike+MetaSploit 实战联动 | 1| 
-| 环球时报 | hqsbwx | https://mp.weixin.qq.com/s/kfnlzwHbfNHgVXEiX2-1sg | 美国被爆料入侵俄罗斯电网，特朗普怒怼纽约时报叛国 | 1| 
-| 现代军事 | xiandaijunshi | https://mp.weixin.qq.com/s/dW-k_LlWZt04pakFuvfX8A | 解读德国情报工作建设 | 1| 
-| 网络法前哨 | cyberlawing | https://mp.weixin.qq.com/s/P21rRO_tFo9ZDCrbDdIHGA | 公安部｜通报净网2019专项行动典型案例 | 1| 
-| 仙人掌情报站 | sec-cactus | https://mp.weixin.qq.com/s/Tx9nHxvp9ezd0hf1PZcmiQ | [搬砖手册]基于Packetbeat探索搭建轻量级网络流量监测系统 | 1| 
-| 学蚁致用 | sudo_i | https://mp.weixin.qq.com/s/j4Dqhko9nnxeuDkLZKftDA | Defcon China 1.0 胸卡破解笔记 | 1| 
-| 安全小飞侠 | AvFisher | https://mp.weixin.qq.com/s/rmd8CvQKRMQWFR1o3t7I8w | 企业安全建设的体系思考与落地实践 | 1| 
-| 网安网事 |  | https://mp.weixin.qq.com/s/YHmQDUZze_qbmebaRlTKGg | 网安独角兽CrowdStrike IPO分析（一） | 2| 
-| 网络与信息安全学报 | cjnis2015 | https://mp.weixin.qq.com/s/mQYaX-WGDZIIW26koGxTzQ | 网络空间安全学科简论 | 1| 
-| 美团安全应急响应中心 |  | https://mp.weixin.qq.com/s/YQn1FQICk1esxvBCHZntFA | 安全架构评审实战 | 1| 
-| 腾讯科恩实验室 | KeenSecurityLab | https://mp.weixin.qq.com/s/sb2hndSGn_IpMWmSGC4rPg | 《2018年Android应用安全白皮书》重磅发布：超98%Android应用存有安全风险 | 1| 
-| 信安之路 | xazlsec | https://mp.weixin.qq.com/s/M-J4FhGA5zg1WZCA9-Houg | DataCon 的 DNS 恶意流量检查一题回顾 | 1| 
-| FreeBuf | freebuf | https://mp.weixin.qq.com/s/vBYxrmnBoM-Abl_y1v4DtA | 基于EVE-NG平台上构建企业内网攻防环境 | 1| 
-| HLB虎狼帮 | hlbhulangbang | https://mp.weixin.qq.com/s/tNI54MlsN9bFKnm9kL6G-Q | ESET分析了Turla APT对武器化PowerShell的使用 | 1| 
-| 奇安信威胁情报中心 |  | https://mp.weixin.qq.com/s/QINNIBQDY2bvLi795LsOoA | 银钩：针对国内网银用户的钓鱼的攻击活动 | 2| 
-| 安天 | Antiylab | https://mp.weixin.qq.com/s/3ZQhn32NB6p-LwndB2o2zQ | 安天发布“方程式组织”攻击中东SWIFT服务商事件复盘分析报告 | 1| 
 
 
 # 组织github账号 推荐
 | github_id | title | url | org_url | org_profile | org_geo | org_repositories | org_people | org_projects | repo_lang | repo_star | repo_forks| 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
-| tianocore | Intel(r) Boot Guard 用于缓解 CVE-2019-11098 TOCTOU 漏洞的代码实现 | https://github.com/tianocore/edk2-staging/tree/BootGuardTocTouVulnerabilityMitigation | http://www.tianocore.org |  | http://www.tianocore.org | 0 | 0 | 0 | Python,C,HTML,Batchfile,C++ | 1200 | 796 | 1| 
-| nccgroup | BKScan - 支持对开启密码验证（NLA）的 RDP 机器扫描 CVE-2019-0708 漏洞 | https://github.com/nccgroup/BKScan | https://www.nccgroup.trust | Please report all security issues to security at nccgroup dot com | Global | 181 | 15 | 0 | C,Shell,Java,Python,Ruby,JavaScript,C#,HTML,Elixir,Go,Dockerfile,Rust | 725 | 81 | 1| 
-| OpenCTI-Platform | OpenCTI - 一款开源的威胁情报平台，支持对情报信息的结构化存储、关联可视化 | https://github.com/OpenCTI-Platform/opencti | https://www.opencti.io | Open Cyber Threat Intelligence Platform, supported by @ANSSI-FR, @certeu and @LuatixHQ. | France | 0 | 0 | 0 | Python,JavaScript,HTML | 47 | 7 | 1| 
-| mozilla | MozDef - Mozilla 开源的一个企业级防御平台，用于安全事件和应急响应地自动化处理 | https://github.com/mozilla/MozDef | https://wiki.mozilla.org/Github | This technology could fall into the right hands. | Mountain View, California | 2041 | 283 | 35 | Shell,FreeMarker,Python,Kotlin,JavaScript,C++,TypeScript,HTML,CSS | 0 | 0 | 1| 
-| Coalfire-Research | Slackor - Go 语言写的一个 C&C 服务器，基于 Slack | https://github.com/Coalfire-Research/Slackor | http://www.coalfirelabs.com | Advancing the state of the Infosec industry by providing cutting-edge research, open-source tools and tradecraft | http://www.coalfirelabs.com | 17 | 0 | 0 | C,Python,JavaScript,Lua,Go,PowerShell,HCL | 0 | 0 | 1| 
-| chaitin | xray：HTTP 代理进行被动扫描 | https://github.com/chaitin/xray | http://chaitin.com | 长亭科技 | Beijing | 17 | 8 | 0 | TypeScript,Python,JavaScript,C++,Lua,HTML,Go | 0 | 0 | 1| 
-| doyensec | Electronegativity - 在基于 Electron 实现的应用中检查安全配置不当问题的工具 | https://github.com/doyensec/electronegativity | https://doyensec.com | Doyensec works at the intersection of software development and offensive engineering. We discover vulnerabilities others cannot, and help mitigate the risk. | San Francisco / Warsaw | 12 | 1 | 0 | Python,C,JavaScript,Java | 0 | 0 | 1| 
-| RhinoSecurityLabs | Rhino Security Labs 在 GitHub 发布的云安全相关 Repo，目前公开了 AWS 相关的一些工具 | https://github.com/RhinoSecurityLabs/Cloud-Security-Research | https://rhinosecuritylabs.com | A boutique penetration testing and security assessment firm in Seattle, WA. | Seattle, WA | 11 | 0 | 0 | Python,JavaScript,PowerShell,HCL | 0 | 0 | 1| 
-| sophoslabs | SophosLabs 公开了 Windows ActiveX Data Objects (ADO) UAF 漏洞（CVE-2019-0888）的 PoC | https://github.com/sophoslabs/CVE-2019-0888/ | https://www.sophos.com/en-us/labs.aspx |  | https://www.sophos.com/en-us/labs.aspx | 6 | 0 | 0 | Python,HTML | 0 | 0 | 1| 
-| cw-leia | 自定义的智能卡分析测试套件，包含软件和硬件 ，设备使用于Chipwhisperer | https://github.com/cw-leia | None | LEIA: the Lab Embedded ISO7816 Analyzer A Custom Smartcard Reader for the ChipWhisperer by @ANSSI-FR | None | 4 | 0 | 0 | C,Shell,HTML | 0 | 0 | 1| 
-| momosecurity | 陌陌开源的风控系统静态规则引擎 | https://github.com/momosecurity/aswan | https://security.immomo.com | 陌陌安全 | Beijing, China | 3 | 0 | 0 | Python,PHP,Java | 0 | 0 | 1| 
-| HexHive | RetroWrite: 让闭源binary支持AFL和ASAN的Binary rewriting 工具 | https://github.com/HexHive/retrowrite/tree/master/docker | http://hexhive.github.io | Enforcing memory safety guarantees and type safety guarantees at the compiler and runtime level | http://hexhive.github.io | 0 | 0 | 0 | Python,C,HTML,Brainfuck,C++ | 0 | 0 | 1| 
-| emsec | 用于逆向门级网表的框架工具，主要是针对FPGA逻辑门电路的逆向。 | https://github.com/emsec/hal | http://emsec.rub.de |  | Germany | 0 | 0 | 0 | C,CMake,VHDL,AGS,C++,Ruby | 0 | 0 | 1| 
-| fox-it | 针对 NTLM MIC 绕过的扫描工具，其思路为使用正确的账号密码信息然后修改 NTLM 认证过程中的 flag 信息来确定是否存在漏洞 | https://github.com/fox-it/cve-2019-1040-scanner | https://www.fox-it.com/ |  | https://www.fox-it.com/ | 0 | 0 | 0 | C,Shell,Python,Bro,HTML,Ruby,PowerShell | 0 | 0 | 1| 
+| microsoft | 微软开源 Windows 10 使用的 Windows Subsystem for Linux 2 (WSL2) 版本 Linux 内核的源码 | https://github.com/microsoft/WSL2-Linux-Kernel | https://opensource.microsoft.com | Open source, from Microsoft with love | Redmond, WA | 0 | 0 | 0 | TypeScript,Java,C#,JavaScript,C++,Python,HTML,CSS,Rich,Go,Jupyter,PowerShell,HCL | 79000 | 11000 | 1| 
 
 
 # 私人github账号 推荐
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
-| Ridter | CVE-2019-1040 从普通域账号到域管理员权限的利用脚本，利用的是Exchange账号进行 NTLM Relay 到 LDAP 然后给普通权限账号添加DCSYNC权限。 | https://github.com/Ridter/CVE-2019-1040 | https://evi1cg.me |  | None | None | 106 | 0 | 425 | 944 | 20 | Python,C,C++ | 1900 | 404 | 1| 
-| Xyntax | 研究员 Xyntax 公开了多个 Paper，主要方向是安全数据分析和威胁防御 | https://github.com/Xyntax/slides | https://www.cdxy.me | Web developer, security researcher and data analyst. | Hangzhou,China | Alibaba Cloud | 50 | 0 | 297 | 902 | 86 | Python,HTML,PowerShell | 1100 | 579 | 1| 
-| 0vercl0k | 一个对 Hyper-V WinHv API 的 python binding | https://github.com/0vercl0k/pywinhv | https://doar-e.github.com/ |  | US/FR | None | 16 | 0 | 7 | 719 | 0 | Python,JavaScript,C++ | 773 | 160 | 1| 
-| grayddq | GScan: Linux主机侧Checklist的自动全面化检测 | https://github.com/grayddq/GScan | None | 一位喜欢原创的安全工作者！ | None | None | 14 | 0 | 0 | 327 | 0 | Python | 305 | 99 | 1| 
-| piglei | Python 工匠 | https://github.com/piglei/one-python-craftsman | http://www.zlovezl.cn | A Python programmer who enjoys writing and reading beautiful codes. Also coding in Go, JavaScript. | ShenZhen, China | Tencent | 24 | 0 | 1400 | 301 | 93 | Python,Go,JavaScript | 730 | 106 | 1| 
-| Viralmaniar | PeekABoo - 渗透测试中，利用 PowerShell remoting 开启目标主机远程桌面的工具 | https://github.com/Viralmaniar/PeekABoo | https://twitter.com/maniarviral |  | Melbourne, Victoria, Australia | None | 37 | 0 | 223 | 228 | 93 | Python,Shell,JavaScript | 737 | 112 | 1| 
-| mgeeky | Stracciatella - Bypass AMSI 和 Script Block Logging 加载执行 PowerShell 脚本的工具 | https://github.com/mgeeky/Stracciatella | https://www.linkedin.com/in/mariuszban/ | Sencha-inspired Offensive Security engineer, doing heaps of penetration testings, packet craftings, reverse engineering and exploits/tools development. | None | None | 52 | 0 | 1100 | 225 | 77 | Python,C#,PowerShell,C++ | 225 | 66 | 1| 
-| olafhartong | Sysmon 监控手册，用一张图介绍了各个 Event ID 及其附属字段的含义 | https://github.com/olafhartong/sysmon-cheatsheet | http://olafhartong.nl |  | The Netherlands | None | 51 | 0 | 61 | 164 | 4 | Python,Shell,Batchfile,PowerShell,C# | 489 | 73 | 1| 
-| LinusHenze | KeySteal是一个针对macOS<=10.14.3 Keychain漏洞利用程序，允许在没有用户提示的情况下访问Keychain中的密码。 | https://github.com/LinusHenze/Keysteal | None |  | Germany | None | 5 | 0 | 0 | 143 | 0 | C,JavaScript,Objective-C,C++ | 321 | 86 | 1| 
-| al0ne | Vxscan: python3写的综合扫描工具 | https://github.com/al0ne/Vxscan | None | 入侵检测/流量分析/应急溯源 | china | None | 11 | 0 | 528 | 140 | 180 | Python,Shell | 155 | 29 | 1| 
-| bkth | bkth在SSTIC 2019上演讲《A tale of Chakra bugs through the years》，详细讲解了微软Edge浏览器脚本引擎ChakraCore的各种漏洞。 | https://github.com/bkth/Tale-Of-Chakra-Bugs | https://twitter.com/bkth_ | Security Researcher, CTF player, I like JavaScript but probably not in the same way as most people ;) | France | None | 14 | 0 | 15 | 138 | 3 | Python,C,JavaScript | 76 | 14 | 1| 
-| kkamagui | Shadow-box - 基于虚拟化技术实现的一个轻量级的 Linux 操作系统监控框架 | https://github.com/kkamagui/shadow-box-for-x86 | http://kkamagui.github.io | Researcher. USENIX Security, HITBSecConf, Black Hat, beVX, KIMCHICON Speaker. Linux Kernel Contributor. Author of 64-bit multicore OS principles and structure. | South Korea | National Security Research Institute of South Korea | 34 | 0 | 32 | 128 | 2 | Python,C | 138 | 34 | 1| 
-| enovella | APKiD - APK 样本自我防护（加壳、混淆）产品的识别，来自 NowSecure 研究员 Eduardo Novella | https://github.com/enovella/cve-bio-enovella/blob/master/slides/APKiD-NowSecure-Connect19-enovella.pdf | https://github.com/nowsecure | Mobile Security Researcher | London, UK | @nowsecure | 140 | 0 | 86 | 106 | 54 | Python,C,JavaScript,Java | 95 | 19 | 1| 
-| lowleveldesign | 用于 trace .NET 程序网络通信流量的工具 | https://github.com/lowleveldesign/dotnet-netrace | https://lowleveldesign.org | System Engineer • Interested in profiling, security, and OS internals | Poland | None | 19 | 0 | 91 | 91 | 0 | C#,ASP,C++ | 489 | 44 | 1| 
-| mk-fg | 通过 AppArmor Linux 内核安全模块限制应用程序访问权限 | https://github.com/mk-fg/apparmor-profiles | http://fraggod.net | Random foss user, tinkerer, dev and freelancer. Mirror: http://fraggod.net/code/git/ | Yekaterinburg, RU | None | 80 | 0 | 22 | 76 | 0 | Python | 201 | 35 | 1| 
-| husthuke | awesome-knowledge-graph: 整理知识图谱相关学习资料 | https://github.com/husthuke/awesome-knowledge-graph | https://husthuke.github.io/ |  | beijing | VIPKID | 31 | 0 | 234 | 74 | 31 | Jupyter,HTML,Java,CSS | 282 | 62 | 1| 
-| Kira-cxy | 科恩实验室 Kira-cxy 在 TenSec 2019 会议关于虚拟化以及 QEMU slirp:tcp_emu 堆溢出虚拟机逃逸漏洞（CVE-2019-6778）的分析 | https://github.com/Kira-cxy/qemu-vm-escape | None | baby security researcher | None | None | 4 | 0 | 337 | 63 | 97 | C,HTML,C++ | 101 | 18 | 1| 
-| b1ack0wl | Linux Mint 18.3-19.1 yelp 命令注入 Bug PoC | https://github.com/b1ack0wl/linux_mint_poc | None |  | None | None | 11 | 0 | 12 | 59 | 0 | Python,Shell,HTML,Ruby,Propeller | 20 | 3 | 1| 
-| RanchoIce | 湛泸实验室 RanchoIce 在 ZeroNights 2018 会议演讲《From Graphic Mode To God Mode - Discovery Vulnerabilities of GPU Virtualization》的 PPT | https://github.com/RanchoIce/ZeroNights2018// | https://twitter.com/RanchoIce | Researcher of Tencent Security ZhanluLab | None | ZhanluLab | 61 | 0 | 0 | 48 | 11 | Ruby,PowerShell,C++ | 19 | 12 | 1| 
-| numirias | 通过 VIM 对 modelines 特殊格式的支持可以实现任意代码执行。漏洞影响 Vim < 8.1.1365, Neovim < 0.3.6 版本 | https://github.com/numirias/security/blob/master/doc/2019-06-04_ace-vim-neovim.md | https://twitter.com/rawsec | Infosec fanboy | Europe | None | 18 | 0 | 40 | 44 | 5 | Python,JavaScript | 270 | 13 | 1| 
-| 0xffff0800 | MuddyWater 组织的 Muddyc3 C2 源码泄漏 | https://github.com/0xffff0800/muddyc3 | https://www.twitter.com/0xffff0800 | Security Researcher, Malware Analyst | Shenzhen Guangdong China | None | 1 | 0 | 0 | 39 | 0 | Python | 103 | 67 | 1| 
-| kam800 | macOS 平台的一款 Mach-O 混淆工具 | https://github.com/kam800/MachObfuscator | None |  | Poland | None | 9 | 0 | 467 | 37 | 11 | Ruby,Objective-C,Swift,C | 193 | 20 | 1| 
-| Sheisback | Win32k CreateWindowEx 函数 UAF Exploit | https://github.com/Sheisback/CVE-2019-0859-1day-Exploit | http://sheisback.xyz |  | None | None | 66 | 0 | 10 | 27 | 4 | Python,C#,C,JavaScript,C++ | 56 | 19 | 1| 
-| tikazyq | crawlab: 基于Celery的爬虫分布式爬虫管理平台 | https://github.com/tikazyq/crawlab/blob/master/README-zh.md | None |  | Chongqing, China | None | 35 | 0 | 98 | 24 | 19 | Python,Vue | 527 | 100 | 1| 
-| hannespayer | V8 Team在PLDI上办的v8讲座的资料 | https://github.com/hannespayer/v8-tutorial-pldi2019 | None |  | None | None | 4 | 0 | 0 | 22 | 0 | C++ | 12800 | 2500 | 1| 
-| trombastic | 基于 Django 实现的开源 SCADA 系统，支持多种工控协议 | https://github.com/trombastic/PyScada | http://martin-schroeder.net |  | Berlin | Technische Universität Berlin | 11 | 0 | 8 | 19 | 0 | Python,JavaScript | 138 | 52 | 1| 
-| rutkai | pentest-bookmarks - 渗透测试相关的资料收集 | https://github.com/rutkai/pentest-bookmarks | http://rutkai.hu/ |  | Hungary | LogMeIn | 14 | 0 | 42 | 15 | 0 | HTML,JavaScript,PHP | 9 | 6 | 1| 
-| No-Github | Dork-Admin: 盘点近年来的数据泄露事件 | https://github.com/No-Github/Dork-Admin | None | 井底之蛙 | remote | None | 30 | 0 | 574 | 14 | 10 | HTML | 132 | 7 | 1| 
-| anx1ang | anx1ang 收集的主流 Web 框架的漏洞攻击代码 | https://github.com/anx1ang/Poc_Pentest | None |  | None | None | 56 | 0 | 74 | 14 | 18 | Python,C,JavaScript | 62 | 15 | 1| 
-| cwerling | 分析和解析AMD安全处理器的固件工具包 | https://github.com/cwerling/psptool | None |  | Berlin | None | 2 | 0 | 10 | 10 | 0 | Python | 27 | 1 | 1| 
-| cdisselkoen | pitchfork - 基于 argr，利用符号执行的方式检测 CPU Spectre 漏洞 | https://github.com/cdisselkoen/pitchfork | https://cseweb.ucsd.edu/~cdisselk | PhD student at UC San Diego | None | None | 33 | 0 | 3 | 9 | 0 | C++ | 0 | 0 | 1| 
-| yogeshshe1ke | MobaTek MobaXterm 个人版 SSH 私钥泄漏漏洞（CVE-2019-7690） | https://github.com/yogeshshe1ke/CVE/ | https://twitter.com/yogesh_she1ke | Software Security | Binary Reversing | Exploitation | Bengaluru, India | None | 6 | 0 | 231 | 7 | 25 | Python,Ruby,PowerShell,C++ | 3 | 0 | 1| 
-| mfthomps | RESim - 基于 Simics 模拟器的全系统模拟动态分析工具。 | https://github.com/mfthomps/RESim | None |  | None | None | 6 | 0 | 0 | 4 | 1 | Python,C#,HTML | 21 | 9 | 1| 
-| AzizMea | Exim 远程命令执行漏洞（CVE-2019-10149）Exploit | https://github.com/AzizMea/CVE-2019-10149-privilege-escalation | None |  | riyadh | None | 3 | 0 | 0 | 1 | 0 | Python,PowerShell | 1 | 2 | 1| 
-| PINGXcpost | F-NAScan-PLUS 安服资产搜集 | https://github.com/PINGXcpost/F-NAScan-PLUS | http://hackhat.net |  | None | None | 7 | 0 | 0 | 1 | 0 | Python,Shell,PowerShell | 19 | 8 | 1| 
-| fkie-cad | cwe_checker:基于漏洞Pattern在Binary中搜索漏洞的BAP插件 | https://github.com/fkie-cad/cwe_checker | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Python,OCaml,C++,Emacs,Dockerfile | 0 | 0 | 1| 
-| hungryfoolou | CVE漏洞信息爬取 | https://github.com/hungryfoolou/Vulnerability_Mining/tree/master/craw | None |  | None | XiDian University | 6 | 0 | 10 | 0 | 3 | Python,C,HTML | 75 | 39 | 1| 
-| tarantula-team | 开源防火墙 fSense 2.4.4-p2 - 2.4.4-p3 XSS 漏洞 PoC（CVE-2019-12949） | https://github.com/tarantula-team/CVE-2019-12949/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
+| maddiestone | 谷歌安全团队成员在Recon 2019会议上分享的Android病毒逆向分析，病毒通过各种反射和混淆隐藏自身真实payload，但通过仔细逆向，仍然能够将其分析清楚，毕竟Java编译之后的代码语义的留存还是挺多的 | https://github.com/maddiestone/ConPresentations/blob/master/REcon2019.PathToThePayload.pdf | http://twitter.com/maddiestone |  | None | None | 3 | 0 | 2 | 160 | 1 | Python | 436 | 91 | 1| 
+| blaCCkHatHacEEkr | 渗透测试、红队攻击、网络安全资源大集合 | https://github.com/blaCCkHatHacEEkr/PENTESTING-BIBLE | https://twitter.com/cry__pto | MalwareHacker||OSPentester||NetworkBreaker||ForensicsExpert||SocialEngineeringPro||WebProtector||: ::::::::::GPG:68E11CD1:::::::::: | syria | None | 2 | 0 | 21 | 16 | 13 |  | 85 | 19 | 1| 
 
 
 
