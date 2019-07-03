@@ -1,9 +1,11 @@
+C	3
 Python	3
 Java	2
-C	1
+C++	2
 TypeScript	1
+Objective-C++	1
+LLVM	1
 JavaScript	1
-C++	1
 C#	1
 HTML	1
 HCL	1
