@@ -17,6 +17,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 奇安信威胁情报中心 |  | https://mp.weixin.qq.com/s/As902I82uYq5eYQHhUToaA | 全球高级持续性威胁（APT）2019年中报告 | 1| 
+| 安全牛 | aqniu-wx | https://mp.weixin.qq.com/s/ftcks4wPVNmKMpODvOcfBQ | 国内四大UEBA解决方案 | 1| 
+| 继之宫 |  | https://mp.weixin.qq.com/s/wpBeoTEC7g-wFX-DA61gmA | 威胁剑魔杂谈 | 1| 
 | nmask | nmask-article | https://mp.weixin.qq.com/s/yZFdVXPDh2O_qN_S1DsBPw | 当子域名遇上搜索引擎 | 1| 
 | 高效运维 | greatops | https://mp.weixin.qq.com/s/7A4lI1zeE5_BljzbKkInbw | 利用 ELK 搭建 Docker 容器化应用日志中心 | 1| 
 
@@ -26,6 +29,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | microsoft | 微软开源 Windows 10 使用的 Windows Subsystem for Linux 2 (WSL2) 版本 Linux 内核的源码 | https://github.com/microsoft/WSL2-Linux-Kernel | https://opensource.microsoft.com | Open source, from Microsoft with love | Redmond, WA | 0 | 0 | 0 | TypeScript,Java,C#,JavaScript,C++,Python,HTML,CSS,Rich,Go,Jupyter,PowerShell,HCL | 79000 | 11000 | 1| 
 | ipasimulator | ipasim - Windows 平台的一款 iOS 模拟器 | https://github.com/ipasimulator/ipasim | None | iOS emulator for Windows | None | 0 | 0 | 0 | C,LLVM,Objective-C++,C++ | 104 | 16 | 1| 
+| fgsect | 用AFL-Unicorn来fuzz内核，集合了afl的覆盖率和unicorn的局部模拟执行 | https://github.com/fgsect/unicorefuzz | https://www.isti.tu-berlin.de/security_in_telecommunications/menue/overview/ | The Computer Security Group at Berlin University of Technology | Berlin, Germany | 0 | 0 | 0 | Python,JavaScript | 0 | 0 | 1| 
 
 
 # 私人github账号 推荐
@@ -33,6 +37,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | pasta-auto | 丰田公司开发了一套汽车ECU系统的测试工具，包含软件和硬件，repo里面有这套工具的相关介绍，目前应该是在售的状态。 | https://github.com/pasta-auto/PASTA1.0 | None |  | None | None | 1 | 0 | 0 | 262 | 0 | C | 49 | 11 | 1| 
 | maddiestone | 谷歌安全团队成员在Recon 2019会议上分享的Android病毒逆向分析，病毒通过各种反射和混淆隐藏自身真实payload，但通过仔细逆向，仍然能够将其分析清楚，毕竟Java编译之后的代码语义的留存还是挺多的 | https://github.com/maddiestone/ConPresentations/blob/master/REcon2019.PathToThePayload.pdf | http://twitter.com/maddiestone |  | None | None | 3 | 0 | 2 | 160 | 1 | Python | 436 | 91 | 1| 
+| niemand-sec | AntiCheat-Testing-Framework - 游戏反外挂测试框架，作者在 Recon2019 会议有一个关于这个工具的演讲 | https://github.com/niemand-sec/AntiCheat-Testing-Framework | None | Twitter: @niemand_sec | None | None | 23 | 0 | 21 | 32 | 4 | C#,Python,C++ | 102 | 21 | 1| 
 | Alexandre-Bartel | DOSBox 模拟器缓冲区溢出漏洞 CVE-2019-12594 Exploit | https://github.com/Alexandre-Bartel/CVE-2019-12594/ | https://www.abartel.net |  | None | None | 15 | 0 | 4 | 26 | 1 | Python,C,Java | 7 | 2 | 1| 
 | blaCCkHatHacEEkr | 渗透测试、红队攻击、网络安全资源大集合 | https://github.com/blaCCkHatHacEEkr/PENTESTING-BIBLE | https://twitter.com/cry__pto | MalwareHacker||OSPentester||NetworkBreaker||ForensicsExpert||SocialEngineeringPro||WebProtector||: ::::::::::GPG:68E11CD1:::::::::: | syria | None | 2 | 0 | 21 | 16 | 13 |  | 85 | 19 | 1| 
 

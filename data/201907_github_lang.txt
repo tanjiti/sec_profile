@@ -1,12 +1,12 @@
+Python	5
 C	3
-Python	3
+C++	3
 Java	2
-C++	2
+JavaScript	2
+C#	2
 TypeScript	1
 Objective-C++	1
 LLVM	1
-JavaScript	1
-C#	1
 HTML	1
 HCL	1
 Rich	1
