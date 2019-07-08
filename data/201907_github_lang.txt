@@ -1,5 +1,5 @@
-Python	6
-C	4
+Python	7
+C	5
 C++	4
 Java	3
 JavaScript	3
@@ -8,9 +8,11 @@ C#	2
 TypeScript	1
 Objective-C++	1
 LLVM	1
+Haskell	1
 HCL	1
 Rich	1
 Go	1
 Jupyter	1
+PHP	1
 PowerShell	1
 CSS	1
