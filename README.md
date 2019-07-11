@@ -17,6 +17,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| ADLab | v_adlab | https://mp.weixin.qq.com/s/suXWmn_PM6zmm3loYO1Zgw | 启明星辰ADLab：智能音箱网络安全与隐私研究报告 | 1| 
+| APT攻击 | cncg_team | https://mp.weixin.qq.com/s/1w6-HwD2u9GRP6IMm5xScg | 展望未来的APT发展之路 | 1| 
+| 赵武的自留地 |  | https://mp.weixin.qq.com/s/kVfyoD_zRnSrQjpL4HfYAQ | 网络安全这点屁事 | 1| 
 | nmask | nmask-article | https://mp.weixin.qq.com/s/yZFdVXPDh2O_qN_S1DsBPw | 当子域名遇上搜索引擎 | 1| 
 | 奇安信威胁情报中心 |  | https://mp.weixin.qq.com/s/As902I82uYq5eYQHhUToaA | 全球高级持续性威胁（APT）2019年中报告 | 1| 
 | 安全学术圈 | secquan | https://mp.weixin.qq.com/s/zKv3wKEXRT8CgOnVHOXi0Q | 骗局的艺术：剖析以太坊智能合约中的蜜罐 | 1| 
@@ -32,14 +35,17 @@
 | microsoft | 微软开源 Windows 10 使用的 Windows Subsystem for Linux 2 (WSL2) 版本 Linux 内核的源码 | https://github.com/microsoft/WSL2-Linux-Kernel | https://opensource.microsoft.com | Open source, from Microsoft with love | Redmond, WA | 0 | 0 | 0 | TypeScript,Java,C#,JavaScript,C++,Python,HTML,CSS,Rich,Go,Jupyter,PowerShell,HCL | 79000 | 11000 | 1| 
 | ipasimulator | ipasim - Windows 平台的一款 iOS 模拟器 | https://github.com/ipasimulator/ipasim | None | iOS emulator for Windows | None | 0 | 0 | 0 | C,LLVM,Objective-C++,C++ | 104 | 16 | 1| 
 | fgsect | 用AFL-Unicorn来fuzz内核，集合了afl的覆盖率和unicorn的局部模拟执行 | https://github.com/fgsect/unicorefuzz | https://www.isti.tu-berlin.de/security_in_telecommunications/menue/overview/ | The Computer Security Group at Berlin University of Technology | Berlin, Germany | 0 | 0 | 0 | Python,JavaScript | 0 | 0 | 1| 
+| rabobank-cdc | DeTTECT - 基于 ATT&CK 框架，用于帮助防御团队评估日志质量、检测覆盖度的工具 | https://github.com/rabobank-cdc/DeTTECT | https://www.rabobank.com | Open source tools developed by Rabobanks CDC | https://www.rabobank.com | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 
 
 # 私人github账号 推荐
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
+| boy-hack | w13scan: 被动扫描器 | https://github.com/boy-hack/w13scan?from=timeline | https://www.hacking8.com/ | Hacking tools just for fun ~ | china | None | 29 | 0 | 118 | 809 | 15 | Python,CSS | 797 | 287 | 1| 
 | pasta-auto | 丰田公司开发了一套汽车ECU系统的测试工具，包含软件和硬件，repo里面有这套工具的相关介绍，目前应该是在售的状态。 | https://github.com/pasta-auto/PASTA1.0 | None |  | None | None | 1 | 0 | 0 | 262 | 0 | C | 49 | 11 | 1| 
 | Bypass007 | Safety-Project-Collection: 收集一些比较优秀的开源安全项目 | https://github.com/Bypass007/Safety-Project-Collection | None | 欢迎关注公众号Bypass--，专注于信息安全。 | Xiamen, China | None | 4 | 0 | 4 | 221 | 0 | Java | 1100 | 274 | 1| 
 | maddiestone | 谷歌安全团队成员在Recon 2019会议上分享的Android病毒逆向分析，病毒通过各种反射和混淆隐藏自身真实payload，但通过仔细逆向，仍然能够将其分析清楚，毕竟Java编译之后的代码语义的留存还是挺多的 | https://github.com/maddiestone/ConPresentations/blob/master/REcon2019.PathToThePayload.pdf | http://twitter.com/maddiestone |  | None | None | 3 | 0 | 2 | 160 | 1 | Python | 436 | 91 | 1| 
+| milabs | awesome-linux-rootkits - Linux 平台 Rootkits 相关的资料收集 | https://github.com/milabs/awesome-linux-rootkits | None | Linux kernel addict, security researcher, reverse engineer | Russia, Moscow | None | 27 | 0 | 440 | 119 | 71 | C | 282 | 48 | 1| 
 | luguanxing | Cheating-Plugin-Program: 从零开始研究外挂设计原理 | https://github.com/luguanxing/Cheating-Plugin-Program | http://luguanxing.online:8080 |  | None | None | 17 | 0 | 7 | 102 | 2 | C,JavaScript,HTML,C++ | 412 | 106 | 1| 
 | niemand-sec | AntiCheat-Testing-Framework - 游戏反外挂测试框架，作者在 Recon2019 会议有一个关于这个工具的演讲 | https://github.com/niemand-sec/AntiCheat-Testing-Framework | None | Twitter: @niemand_sec | None | None | 23 | 0 | 21 | 32 | 4 | C#,Python,C++ | 102 | 21 | 1| 
 | Alexandre-Bartel | DOSBox 模拟器缓冲区溢出漏洞 CVE-2019-12594 Exploit | https://github.com/Alexandre-Bartel/CVE-2019-12594/ | https://www.abartel.net |  | None | None | 15 | 0 | 4 | 26 | 1 | Python,C,Java | 7 | 2 | 1| 

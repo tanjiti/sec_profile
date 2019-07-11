@@ -1,10 +1,11 @@
-Python	7
+Python	8
 C	5
 C++	4
 Java	3
 JavaScript	3
 HTML	3
 C#	2
+CSS	2
 TypeScript	1
 Objective-C++	1
 LLVM	1
@@ -15,4 +16,3 @@ Go	1
 Jupyter	1
 PHP	1
 PowerShell	1
-CSS	1
