@@ -17,6 +17,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| SecPulse安全脉搏 | SecPulse | https://mp.weixin.qq.com/s/yXA4BRbMfJNPQ68_-Nme6g | 网络安全学习方法论之体系的重要性 | 1| 
+| 勾陈安全实验室 | PolarisLab | https://mp.weixin.qq.com/s/Y03VVF3sD9N0_H6TQlxYuQ | Knife：一个将有用的小功能加入Burp Suite右键菜单的插件 | 1| 
 | SecWiki | SecWiki | https://mp.weixin.qq.com/s/ZFsrfCjtwrBiRaak1mbhsg | 福利—中国互联网安全领袖峰会门票！ | 1| 
 | ADLab | v_adlab | https://mp.weixin.qq.com/s/suXWmn_PM6zmm3loYO1Zgw | 启明星辰ADLab：智能音箱网络安全与隐私研究报告 | 1| 
 | APT攻击 | cncg_team | https://mp.weixin.qq.com/s/1w6-HwD2u9GRP6IMm5xScg | 展望未来的APT发展之路 | 1| 
@@ -45,6 +47,7 @@
 | boy-hack | w13scan: 被动扫描器 | https://github.com/boy-hack/w13scan?from=timeline | https://www.hacking8.com/ | Hacking tools just for fun ~ | china | None | 29 | 0 | 118 | 809 | 15 | Python,CSS | 797 | 287 | 1| 
 | infosecn1nja | awesome-mitre-attack - 与 Mitre ATT&CK 攻击防御框架有关的工具和资料收集 | https://github.com/infosecn1nja/awesome-mitre-attack | None | Red Teamer and Security Researcher | Jakarta, Indonesia | None | 31 | 0 | 575 | 508 | 56 | Python,Shell,PowerShell | 4600 | 1500 | 1| 
 | pasta-auto | 丰田公司开发了一套汽车ECU系统的测试工具，包含软件和硬件，repo里面有这套工具的相关介绍，目前应该是在售的状态。 | https://github.com/pasta-auto/PASTA1.0 | None |  | None | None | 1 | 0 | 0 | 262 | 0 | C | 49 | 11 | 1| 
+| RUB-SysSec | NEMO：一款猜测password的工具，通过使用马尔可夫模型可以更高效地选择变异策略 | https://github.com/RUB-SysSec/NEMO// | https://syssec.rub.de |  | Bochum, Germany | Ruhr-University Bochum | 21 | 0 | 11 | 228 | 0 | Python,C,C++ | 370 | 102 | 1| 
 | Bypass007 | Safety-Project-Collection: 收集一些比较优秀的开源安全项目 | https://github.com/Bypass007/Safety-Project-Collection | None | 欢迎关注公众号Bypass--，专注于信息安全。 | Xiamen, China | None | 4 | 0 | 4 | 221 | 0 | Java | 1100 | 274 | 1| 
 | 13o-bbr-bbq | 机器学习与安全相关的一些资料汇总 | https://github.com/13o-bbr-bbq/machine_learning_security | None | Im an engineer, Machine Learning hacker and CISSP. Speaker at Black Hat Arsenal, DEFCON Demo Labs/AI Village, Pycon, CODE BLUE etc., | Tokyo, Japan. | None | 9 | 0 | 25 | 185 | 1 | Python | 875 | 319 | 1| 
 | maddiestone | 谷歌安全团队成员在Recon 2019会议上分享的Android病毒逆向分析，病毒通过各种反射和混淆隐藏自身真实payload，但通过仔细逆向，仍然能够将其分析清楚，毕竟Java编译之后的代码语义的留存还是挺多的 | https://github.com/maddiestone/ConPresentations/blob/master/REcon2019.PathToThePayload.pdf | http://twitter.com/maddiestone |  | None | None | 3 | 0 | 2 | 160 | 1 | Python | 436 | 91 | 1| 
@@ -53,8 +56,10 @@
 | niemand-sec | AntiCheat-Testing-Framework - 游戏反外挂测试框架，作者在 Recon2019 会议有一个关于这个工具的演讲 | https://github.com/niemand-sec/AntiCheat-Testing-Framework | None | Twitter: @niemand_sec | None | None | 23 | 0 | 21 | 32 | 4 | C#,Python,C++ | 102 | 21 | 1| 
 | Alexandre-Bartel | DOSBox 模拟器缓冲区溢出漏洞 CVE-2019-12594 Exploit | https://github.com/Alexandre-Bartel/CVE-2019-12594/ | https://www.abartel.net |  | None | None | 15 | 0 | 4 | 26 | 1 | Python,C,Java | 7 | 2 | 1| 
 | KibodWapon | Axis-1.4-RCE-Poc: Axis | https://github.com/KibodWapon/Axis-1.4-RCE-Poc | https://kibodwapon.github.io/ |  | None | None | 4 | 0 | 5 | 21 | 0 | Python,HTML | 97 | 59 | 1| 
+| Rman0fCN | 阿里云安全恶意程序检测比赛的一个参赛代码 | https://github.com/Rman0fCN/ML_Malware_detect | None | Stu from HITsz | None | None | 48 | 0 | 76 | 20 | 67 | Python,PHP,JavaScript,Smarty | 43 | 10 | 1| 
 | paul-axe | paul-axe 公开的 WCTF 2019 P Door 赛题的 writeup | https://github.com/paul-axe/ctf/tree/master/wctf2019/p-door | None |  | None | None | 5 | 0 | 94 | 19 | 10 | Python,C,PHP,Haskell | 7 | 1 | 1| 
 | blaCCkHatHacEEkr | 渗透测试、红队攻击、网络安全资源大集合 | https://github.com/blaCCkHatHacEEkr/PENTESTING-BIBLE | https://twitter.com/cry__pto | MalwareHacker||OSPentester||NetworkBreaker||ForensicsExpert||SocialEngineeringPro||WebProtector||: ::::::::::GPG:68E11CD1:::::::::: | syria | None | 2 | 0 | 21 | 16 | 13 |  | 85 | 19 | 1| 
+| XiaoXiaoGuaiXiaShi | OpenSource-HoneyPot: 对开源蜜罐的学习研究与理解 | https://github.com/XiaoXiaoGuaiXiaShi/OpenSource-HoneyPot | None | 信息安全学习者 | None | None | 3 | 0 | 80 | 7 | 38 | Python,JavaScript | 12 | 1 | 1| 
 
 
 
