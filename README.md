@@ -17,13 +17,14 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
-| 绿盟科技研究通讯 | nsfocus_research | https://mp.weixin.qq.com/s/1jutuzIq3xlkFejUFbLFFA | Graph Mining：审视世界的眼睛 | 1| 
-| PolarisLab | PolarisLab | https://mp.weixin.qq.com/s/KQ_17nJBPRcOTn-rPBRKTQ | Hacking WildFly | 1| 
-| SecPulse安全脉搏 | SecPulse | https://mp.weixin.qq.com/s/yXA4BRbMfJNPQ68_-Nme6g | 网络安全学习方法论之体系的重要性 | 1| 
-| 勾陈安全实验室 | PolarisLab | https://mp.weixin.qq.com/s/Y03VVF3sD9N0_H6TQlxYuQ | Knife：一个将有用的小功能加入Burp Suite右键菜单的插件 | 1| 
-| SecWiki | SecWiki | https://mp.weixin.qq.com/s/ZFsrfCjtwrBiRaak1mbhsg | 福利—中国互联网安全领袖峰会门票！ | 1| 
+| 国科军通科技 | gkjtkj | https://mp.weixin.qq.com/s/7_osWtZV3UZ5KuaoIzt7rA | 揭秘：中国自主可控行业全景图 | 1| 
 | ADLab | v_adlab | https://mp.weixin.qq.com/s/suXWmn_PM6zmm3loYO1Zgw | 启明星辰ADLab：智能音箱网络安全与隐私研究报告 | 1| 
 | APT攻击 | cncg_team | https://mp.weixin.qq.com/s/1w6-HwD2u9GRP6IMm5xScg | 展望未来的APT发展之路 | 1| 
+| PolarisLab | PolarisLab | https://mp.weixin.qq.com/s/KQ_17nJBPRcOTn-rPBRKTQ | Hacking WildFly | 1| 
+| SecPulse安全脉搏 | SecPulse | https://mp.weixin.qq.com/s/yXA4BRbMfJNPQ68_-Nme6g | 网络安全学习方法论之体系的重要性 | 1| 
+| SecWiki | SecWiki | https://mp.weixin.qq.com/s/ZFsrfCjtwrBiRaak1mbhsg | 福利—中国互联网安全领袖峰会门票！ | 1| 
+| 勾陈安全实验室 | PolarisLab | https://mp.weixin.qq.com/s/Y03VVF3sD9N0_H6TQlxYuQ | Knife：一个将有用的小功能加入Burp Suite右键菜单的插件 | 1| 
+| 绿盟科技研究通讯 | nsfocus_research | https://mp.weixin.qq.com/s/1jutuzIq3xlkFejUFbLFFA | Graph Mining：审视世界的眼睛 | 1| 
 | 赵武的自留地 |  | https://mp.weixin.qq.com/s/kVfyoD_zRnSrQjpL4HfYAQ | 网络安全这点屁事 | 1| 
 | nmask | nmask-article | https://mp.weixin.qq.com/s/yZFdVXPDh2O_qN_S1DsBPw | 当子域名遇上搜索引擎 | 1| 
 | 奇安信威胁情报中心 |  | https://mp.weixin.qq.com/s/As902I82uYq5eYQHhUToaA | 全球高级持续性威胁（APT）2019年中报告 | 1| 
@@ -37,7 +38,7 @@
 # 组织github账号 推荐
 | github_id | title | url | org_url | org_profile | org_geo | org_repositories | org_people | org_projects | repo_lang | repo_star | repo_forks| 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
-| microsoft | 微软开源 Windows 10 使用的 Windows Subsystem for Linux 2 (WSL2) 版本 Linux 内核的源码 | https://github.com/microsoft/WSL2-Linux-Kernel | https://opensource.microsoft.com | Open source, from Microsoft with love | Redmond, WA | 0 | 0 | 0 | TypeScript,Java,C#,JavaScript,C++,Python,HTML,CSS,Rich,Go,Jupyter,PowerShell,HCL | 79000 | 11000 | 1| 
+| microsoft | 微软开源 Windows 10 使用的 Windows Subsystem for Linux 2 (WSL2) 版本 Linux 内核的源码 | https://github.com/microsoft/WSL2-Linux-Kernel | https://opensource.microsoft.com | Open source, from Microsoft with love | Redmond, WA | 0 | 0 | 0 | TypeScript,Java,C#,JavaScript,C++,Python,HTML,CSS,Rich,Go,Jupyter,PowerShell,HCL | 79000 | 11000 | 2| 
 | ipasimulator | ipasim - Windows 平台的一款 iOS 模拟器 | https://github.com/ipasimulator/ipasim | None | iOS emulator for Windows | None | 0 | 0 | 0 | C,LLVM,Objective-C++,C++ | 104 | 16 | 1| 
 | fgsect | 用AFL-Unicorn来fuzz内核，集合了afl的覆盖率和unicorn的局部模拟执行 | https://github.com/fgsect/unicorefuzz | https://www.isti.tu-berlin.de/security_in_telecommunications/menue/overview/ | The Computer Security Group at Berlin University of Technology | Berlin, Germany | 0 | 0 | 0 | Python,JavaScript | 0 | 0 | 1| 
 | rabobank-cdc | DeTTECT - 基于 ATT&CK 框架，用于帮助防御团队评估日志质量、检测覆盖度的工具 | https://github.com/rabobank-cdc/DeTTECT | https://www.rabobank.com | Open source tools developed by Rabobanks CDC | https://www.rabobank.com | 0 | 0 | 0 | Python | 0 | 0 | 1| 
@@ -57,11 +58,13 @@
 | maddiestone | 谷歌安全团队成员在Recon 2019会议上分享的Android病毒逆向分析，病毒通过各种反射和混淆隐藏自身真实payload，但通过仔细逆向，仍然能够将其分析清楚，毕竟Java编译之后的代码语义的留存还是挺多的 | https://github.com/maddiestone/ConPresentations/blob/master/REcon2019.PathToThePayload.pdf | http://twitter.com/maddiestone |  | None | None | 3 | 0 | 2 | 160 | 1 | Python | 436 | 91 | 1| 
 | milabs | awesome-linux-rootkits - Linux 平台 Rootkits 相关的资料收集 | https://github.com/milabs/awesome-linux-rootkits | None | Linux kernel addict, security researcher, reverse engineer | Russia, Moscow | None | 27 | 0 | 440 | 119 | 71 | C | 282 | 48 | 1| 
 | luguanxing | Cheating-Plugin-Program: 从零开始研究外挂设计原理 | https://github.com/luguanxing/Cheating-Plugin-Program | http://luguanxing.online:8080 |  | None | None | 17 | 0 | 7 | 102 | 2 | C,JavaScript,HTML,C++ | 412 | 106 | 1| 
-| r35tart | 分享一些有趣的渗透案例 | https://github.com/r35tart/Penetration_Testing_Case | http://R3start.net | 人若无名，便可潜心练剑。 | None | None | 51 | 0 | 130 | 95 | 5 | Python | 307 | 113 | 1| 
+| r35tart | R3start 总结的一些日常渗透测试项目的案例 | https://github.com/r35tart/Penetration_Testing_Case | http://R3start.net | 人若无名，便可潜心练剑。 | None | None | 51 | 0 | 130 | 95 | 5 | Python | 307 | 113 | 1| 
+| theLSA | dz-ml-rce.py：discuz ml RCE漏洞检测工具 | https://github.com/theLSA/discuz-ml-rce | http://www.lsablog.com | I like network security,penestration and programming(python,c/c++,php,java,ect),welcome to communicate with me! | China | None | 27 | 0 | 15 | 60 | 14 | Python | 71 | 35 | 1| 
 | niemand-sec | AntiCheat-Testing-Framework - 游戏反外挂测试框架，作者在 Recon2019 会议有一个关于这个工具的演讲 | https://github.com/niemand-sec/AntiCheat-Testing-Framework | None | Twitter: @niemand_sec | None | None | 23 | 0 | 21 | 32 | 4 | C#,Python,C++ | 102 | 21 | 1| 
 | Alexandre-Bartel | DOSBox 模拟器缓冲区溢出漏洞 CVE-2019-12594 Exploit | https://github.com/Alexandre-Bartel/CVE-2019-12594/ | https://www.abartel.net |  | None | None | 15 | 0 | 4 | 26 | 1 | Python,C,Java | 7 | 2 | 1| 
 | KibodWapon | Axis-1.4-RCE-Poc: Axis | https://github.com/KibodWapon/Axis-1.4-RCE-Poc | https://kibodwapon.github.io/ |  | None | None | 4 | 0 | 5 | 21 | 0 | Python,HTML | 97 | 59 | 1| 
-| Rman0fCN | 阿里云安全恶意程序检测比赛的一个参赛代码 | https://github.com/Rman0fCN/ML_Malware_detect | None | Stu from HITsz | None | None | 48 | 0 | 76 | 20 | 67 | Python,PHP,JavaScript,Smarty | 43 | 10 | 1| 
+| MagicZer0 | fastjson 1.2.46 版本 RCE Exploit | https://github.com/MagicZer0/fastjson-rce-exploit | None | web security researcher, like coding. | None | None | 8 | 0 | 6 | 20 | 4 | HTML,Java,PHP | 59 | 21 | 1| 
+| Rman0fCN | ML_Malware_detect: 阿里云安全恶意程序检测比赛 | https://github.com/Rman0fCN/ML_Malware_detect | None | Stu from HITsz | None | None | 48 | 0 | 76 | 20 | 67 | Python,PHP,JavaScript,Smarty | 43 | 10 | 1| 
 | paul-axe | paul-axe 公开的 WCTF 2019 P Door 赛题的 writeup | https://github.com/paul-axe/ctf/tree/master/wctf2019/p-door | None |  | None | None | 5 | 0 | 94 | 19 | 10 | Python,C,PHP,Haskell | 7 | 1 | 1| 
 | blaCCkHatHacEEkr | 渗透测试、红队攻击、网络安全资源大集合 | https://github.com/blaCCkHatHacEEkr/PENTESTING-BIBLE | https://twitter.com/cry__pto | MalwareHacker||OSPentester||NetworkBreaker||ForensicsExpert||SocialEngineeringPro||WebProtector||: ::::::::::GPG:68E11CD1:::::::::: | syria | None | 2 | 0 | 21 | 16 | 13 |  | 85 | 19 | 1| 
 | XiaoXiaoGuaiXiaShi | OpenSource-HoneyPot: 对开源蜜罐的学习研究与理解 | https://github.com/XiaoXiaoGuaiXiaShi/OpenSource-HoneyPot | None | 信息安全学习者 | None | None | 3 | 0 | 80 | 7 | 38 | Python,JavaScript | 12 | 1 | 1| 
