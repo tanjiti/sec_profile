@@ -17,6 +17,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| GartnerInc | GartnerChina | https://mp.weixin.qq.com/s/HMvGOiUIwjMKBNE2j5qIBQ | 自动化在现代安全中的运用 | 1| 
+| 阿里安全响应中心 | alisrc | https://mp.weixin.qq.com/s/as4WP7RkGaXVI6enlMDktg | 浅析Redis中SSRF的利用 | 1| 
 | 国科军通科技 | gkjtkj | https://mp.weixin.qq.com/s/7_osWtZV3UZ5KuaoIzt7rA | 揭秘：中国自主可控行业全景图 | 1| 
 | ADLab | v_adlab | https://mp.weixin.qq.com/s/suXWmn_PM6zmm3loYO1Zgw | 启明星辰ADLab：智能音箱网络安全与隐私研究报告 | 1| 
 | APT攻击 | cncg_team | https://mp.weixin.qq.com/s/1w6-HwD2u9GRP6IMm5xScg | 展望未来的APT发展之路 | 1| 
@@ -60,12 +62,15 @@
 | luguanxing | Cheating-Plugin-Program: 从零开始研究外挂设计原理 | https://github.com/luguanxing/Cheating-Plugin-Program | http://luguanxing.online:8080 |  | None | None | 17 | 0 | 7 | 102 | 2 | C,JavaScript,HTML,C++ | 412 | 106 | 1| 
 | r35tart | R3start 总结的一些日常渗透测试项目的案例 | https://github.com/r35tart/Penetration_Testing_Case | http://R3start.net | 人若无名，便可潜心练剑。 | None | None | 51 | 0 | 130 | 95 | 5 | Python | 307 | 113 | 1| 
 | theLSA | dz-ml-rce.py：discuz ml RCE漏洞检测工具 | https://github.com/theLSA/discuz-ml-rce | http://www.lsablog.com | I like network security,penestration and programming(python,c/c++,php,java,ect),welcome to communicate with me! | China | None | 27 | 0 | 15 | 60 | 14 | Python | 71 | 35 | 1| 
+| xinali | Adobe Font Development Kit for OpenType 套件相关的漏洞分析 | https://github.com/xinali/AfdkoFuzz/ | None | Malware Analysis, Coder & Antiy Lab | Harbin,China | Jilin University | 14 | 0 | 121 | 52 | 56 | Python,HTML,Dockerfile,C++,Vue | 85 | 37 | 1| 
+| marcinguy | Android 7月补丁修复的Media Framework漏洞CVE-2019-2107的PoC | https://github.com/marcinguy/CVE-2019-2107 | None |  | Berlin, Germany | None | 39 | 0 | 11 | 44 | 28 | Python,C | 52 | 13 | 1| 
 | niemand-sec | AntiCheat-Testing-Framework - 游戏反外挂测试框架，作者在 Recon2019 会议有一个关于这个工具的演讲 | https://github.com/niemand-sec/AntiCheat-Testing-Framework | None | Twitter: @niemand_sec | None | None | 23 | 0 | 21 | 32 | 4 | C#,Python,C++ | 102 | 21 | 1| 
 | Alexandre-Bartel | DOSBox 模拟器缓冲区溢出漏洞 CVE-2019-12594 Exploit | https://github.com/Alexandre-Bartel/CVE-2019-12594/ | https://www.abartel.net |  | None | None | 15 | 0 | 4 | 26 | 1 | Python,C,Java | 7 | 2 | 1| 
 | KibodWapon | Axis-1.4-RCE-Poc: Axis | https://github.com/KibodWapon/Axis-1.4-RCE-Poc | https://kibodwapon.github.io/ |  | None | None | 4 | 0 | 5 | 21 | 0 | Python,HTML | 97 | 59 | 1| 
 | MagicZer0 | fastjson 1.2.46 版本 RCE Exploit | https://github.com/MagicZer0/fastjson-rce-exploit | None | web security researcher, like coding. | None | None | 8 | 0 | 6 | 20 | 4 | HTML,Java,PHP | 59 | 21 | 1| 
 | Rman0fCN | ML_Malware_detect: 阿里云安全恶意程序检测比赛 | https://github.com/Rman0fCN/ML_Malware_detect | None | Stu from HITsz | None | None | 48 | 0 | 76 | 20 | 67 | Python,PHP,JavaScript,Smarty | 43 | 10 | 1| 
 | paul-axe | paul-axe 公开的 WCTF 2019 P Door 赛题的 writeup | https://github.com/paul-axe/ctf/tree/master/wctf2019/p-door | None |  | None | None | 5 | 0 | 94 | 19 | 10 | Python,C,PHP,Haskell | 7 | 1 | 1| 
+| yangruiqiyr | 一个用Intel VT-X/EPT实现的类似Sysinternals Process Monitor的工具 | https://github.com/yangruiqiyr/Syscall-Monitor | None | Weak chicken in weak chicken | None | None | 74 | 0 | 57 | 18 | 34 | Python,C,PHP,Java,C++ | 1 | 0 | 1| 
 | blaCCkHatHacEEkr | 渗透测试、红队攻击、网络安全资源大集合 | https://github.com/blaCCkHatHacEEkr/PENTESTING-BIBLE | https://twitter.com/cry__pto | MalwareHacker||OSPentester||NetworkBreaker||ForensicsExpert||SocialEngineeringPro||WebProtector||: ::::::::::GPG:68E11CD1:::::::::: | syria | None | 2 | 0 | 21 | 16 | 13 |  | 85 | 19 | 1| 
 | rndinfosecguy | Scavenger: Crawler searching for credential leaks on paste... | https://github.com/rndinfosecguy/Scavenger | https://twitter.com/rnd_infosec_guy | Just an information security guy marching down his path. | /dev/null | None | 2 | 0 | 2 | 16 | 7 | Python,JavaScript | 114 | 27 | 1| 
 | XiaoXiaoGuaiXiaShi | OpenSource-HoneyPot: 对开源蜜罐的学习研究与理解 | https://github.com/XiaoXiaoGuaiXiaShi/OpenSource-HoneyPot | None | 信息安全学习者 | None | None | 3 | 0 | 80 | 7 | 38 | Python,JavaScript | 12 | 1 | 1| 
