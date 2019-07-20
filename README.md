@@ -17,6 +17,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 国科漏斗社区 | Goktech_Security | https://mp.weixin.qq.com/s/VPaAYUu_W3MTOmfmgVxUjA | 线下赛AWD训练平台搭建手册 | 1| 
 | GartnerInc | GartnerChina | https://mp.weixin.qq.com/s/HMvGOiUIwjMKBNE2j5qIBQ | 自动化在现代安全中的运用 | 1| 
 | 阿里安全响应中心 | alisrc | https://mp.weixin.qq.com/s/as4WP7RkGaXVI6enlMDktg | 浅析Redis中SSRF的利用 | 1| 
 | 国科军通科技 | gkjtkj | https://mp.weixin.qq.com/s/7_osWtZV3UZ5KuaoIzt7rA | 揭秘：中国自主可控行业全景图 | 1| 
@@ -43,6 +44,7 @@
 | microsoft | 微软开源 Windows 10 使用的 Windows Subsystem for Linux 2 (WSL2) 版本 Linux 内核的源码 | https://github.com/microsoft/WSL2-Linux-Kernel | https://opensource.microsoft.com | Open source, from Microsoft with love | Redmond, WA | 0 | 0 | 0 | TypeScript,Java,C#,JavaScript,C++,Python,HTML,CSS,Rich,Go,Jupyter,PowerShell,HCL | 79000 | 11000 | 2| 
 | ipasimulator | ipasim - Windows 平台的一款 iOS 模拟器 | https://github.com/ipasimulator/ipasim | None | iOS emulator for Windows | None | 0 | 0 | 0 | C,LLVM,Objective-C++,C++ | 104 | 16 | 1| 
 | fgsect | 用AFL-Unicorn来fuzz内核，集合了afl的覆盖率和unicorn的局部模拟执行 | https://github.com/fgsect/unicorefuzz | https://www.isti.tu-berlin.de/security_in_telecommunications/menue/overview/ | The Computer Security Group at Berlin University of Technology | Berlin, Germany | 0 | 0 | 0 | Python,JavaScript | 0 | 0 | 1| 
+| googleprojectzero | Project Zero 团队在 GitHub 上创建的用于记录文档和工具的 Repo | https://github.com/googleprojectzero/p0tools | https://googleprojectzero.blogspot.com | Projects by Google Project Zero | https://googleprojectzero.blogspot.com | 0 | 0 | 0 | C,C#,C++,Python,HTML,Swift | 0 | 0 | 1| 
 | rabobank-cdc | DeTTECT - 基于 ATT&CK 框架，用于帮助防御团队评估日志质量、检测覆盖度的工具 | https://github.com/rabobank-cdc/DeTTECT | https://www.rabobank.com | Open source tools developed by Rabobanks CDC | https://www.rabobank.com | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 
 
