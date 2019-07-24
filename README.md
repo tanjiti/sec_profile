@@ -17,10 +17,11 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
-| 国科漏斗社区 | Goktech_Security | https://mp.weixin.qq.com/s/VPaAYUu_W3MTOmfmgVxUjA | 线下赛AWD训练平台搭建手册 | 1| 
+| SDL安全实践 |  | https://mp.weixin.qq.com/s/Y-56kD2zGTakaMKJoD9JsQ | 基于元数据提取的渗透测试案例 | 1| 
 | GartnerInc | GartnerChina | https://mp.weixin.qq.com/s/HMvGOiUIwjMKBNE2j5qIBQ | 自动化在现代安全中的运用 | 1| 
-| 阿里安全响应中心 | alisrc | https://mp.weixin.qq.com/s/as4WP7RkGaXVI6enlMDktg | 浅析Redis中SSRF的利用 | 1| 
 | 国科军通科技 | gkjtkj | https://mp.weixin.qq.com/s/7_osWtZV3UZ5KuaoIzt7rA | 揭秘：中国自主可控行业全景图 | 1| 
+| 国科漏斗社区 | Goktech_Security | https://mp.weixin.qq.com/s/VPaAYUu_W3MTOmfmgVxUjA | 线下赛AWD训练平台搭建手册 | 1| 
+| 阿里安全响应中心 | alisrc | https://mp.weixin.qq.com/s/as4WP7RkGaXVI6enlMDktg | 浅析Redis中SSRF的利用 | 1| 
 | ADLab | v_adlab | https://mp.weixin.qq.com/s/suXWmn_PM6zmm3loYO1Zgw | 启明星辰ADLab：智能音箱网络安全与隐私研究报告 | 1| 
 | APT攻击 | cncg_team | https://mp.weixin.qq.com/s/1w6-HwD2u9GRP6IMm5xScg | 展望未来的APT发展之路 | 1| 
 | PolarisLab | PolarisLab | https://mp.weixin.qq.com/s/KQ_17nJBPRcOTn-rPBRKTQ | Hacking WildFly | 1| 
@@ -31,7 +32,7 @@
 | 赵武的自留地 |  | https://mp.weixin.qq.com/s/kVfyoD_zRnSrQjpL4HfYAQ | 网络安全这点屁事 | 1| 
 | nmask | nmask-article | https://mp.weixin.qq.com/s/yZFdVXPDh2O_qN_S1DsBPw | 当子域名遇上搜索引擎 | 1| 
 | 奇安信威胁情报中心 |  | https://mp.weixin.qq.com/s/As902I82uYq5eYQHhUToaA | 全球高级持续性威胁（APT）2019年中报告 | 1| 
-| 安全学术圈 | secquan | https://mp.weixin.qq.com/s/zKv3wKEXRT8CgOnVHOXi0Q | 骗局的艺术：剖析以太坊智能合约中的蜜罐 | 1| 
+| 安全学术圈 | secquan | https://mp.weixin.qq.com/s/zKv3wKEXRT8CgOnVHOXi0Q | 骗局的艺术：剖析以太坊智能合约中的蜜罐 | 2| 
 | 安全牛 | aqniu-wx | https://mp.weixin.qq.com/s/ftcks4wPVNmKMpODvOcfBQ | 国内四大UEBA解决方案 | 1| 
 | 漏洞战争 | vulwar | https://mp.weixin.qq.com/s/79k5bxGr1ykCpN4lSeiTqw | 关于漏洞挖掘的一点想法 | 1| 
 | 继之宫 |  | https://mp.weixin.qq.com/s/wpBeoTEC7g-wFX-DA61gmA | 威胁剑魔杂谈 | 1| 
@@ -44,6 +45,7 @@
 | microsoft | 微软开源 Windows 10 使用的 Windows Subsystem for Linux 2 (WSL2) 版本 Linux 内核的源码 | https://github.com/microsoft/WSL2-Linux-Kernel | https://opensource.microsoft.com | Open source, from Microsoft with love | Redmond, WA | 0 | 0 | 0 | TypeScript,Java,C#,JavaScript,C++,Python,HTML,CSS,Rich,Go,Jupyter,PowerShell,HCL | 79000 | 11000 | 2| 
 | ipasimulator | ipasim - Windows 平台的一款 iOS 模拟器 | https://github.com/ipasimulator/ipasim | None | iOS emulator for Windows | None | 0 | 0 | 0 | C,LLVM,Objective-C++,C++ | 104 | 16 | 1| 
 | fgsect | 用AFL-Unicorn来fuzz内核，集合了afl的覆盖率和unicorn的局部模拟执行 | https://github.com/fgsect/unicorefuzz | https://www.isti.tu-berlin.de/security_in_telecommunications/menue/overview/ | The Computer Security Group at Berlin University of Technology | Berlin, Germany | 0 | 0 | 0 | Python,JavaScript | 0 | 0 | 1| 
+| fireeye | flare_emu-IDA的分析功能被进一步拓展，将Unicorn的仿真框架融入其中，增添了若干功能强大的指令，对多种类型的分析工作有着很大的帮助。 | https://github.com/fireeye/flare-emu | https://www.fireeye.com/blog.html |  | Milpitas, CA | 0 | 0 | 0 | C,Vue,Python,JavaScript,C++,C#,Go,PowerShell | 0 | 0 | 1| 
 | googleprojectzero | Project Zero 团队在 GitHub 上创建的用于记录文档和工具的 Repo | https://github.com/googleprojectzero/p0tools | https://googleprojectzero.blogspot.com | Projects by Google Project Zero | https://googleprojectzero.blogspot.com | 0 | 0 | 0 | C,C#,C++,Python,HTML,Swift | 0 | 0 | 1| 
 | rabobank-cdc | DeTTECT - 基于 ATT&CK 框架，用于帮助防御团队评估日志质量、检测覆盖度的工具 | https://github.com/rabobank-cdc/DeTTECT | https://www.rabobank.com | Open source tools developed by Rabobanks CDC | https://www.rabobank.com | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 
@@ -74,8 +76,10 @@
 | paul-axe | paul-axe 公开的 WCTF 2019 P Door 赛题的 writeup | https://github.com/paul-axe/ctf/tree/master/wctf2019/p-door | None |  | None | None | 5 | 0 | 94 | 19 | 10 | Python,C,PHP,Haskell | 7 | 1 | 1| 
 | yangruiqiyr | 一个用Intel VT-X/EPT实现的类似Sysinternals Process Monitor的工具 | https://github.com/yangruiqiyr/Syscall-Monitor | None | Weak chicken in weak chicken | None | None | 74 | 0 | 57 | 18 | 34 | Python,C,PHP,Java,C++ | 1 | 0 | 1| 
 | blaCCkHatHacEEkr | 渗透测试、红队攻击、网络安全资源大集合 | https://github.com/blaCCkHatHacEEkr/PENTESTING-BIBLE | https://twitter.com/cry__pto | MalwareHacker||OSPentester||NetworkBreaker||ForensicsExpert||SocialEngineeringPro||WebProtector||: ::::::::::GPG:68E11CD1:::::::::: | syria | None | 2 | 0 | 21 | 16 | 13 |  | 85 | 19 | 1| 
-| rndinfosecguy | Scavenger: Crawler searching for credential leaks on paste... | https://github.com/rndinfosecguy/Scavenger | https://twitter.com/rnd_infosec_guy | Just an information security guy marching down his path. | /dev/null | None | 2 | 0 | 2 | 16 | 7 | Python,JavaScript | 114 | 27 | 1| 
+| rndinfosecguy | Scavenger: Crawler searching for credential leaks on paste sites | https://github.com/rndinfosecguy/Scavenger | https://twitter.com/rnd_infosec_guy | Just an information security guy marching down his path. | /dev/null | None | 2 | 0 | 2 | 16 | 7 | Python,JavaScript | 114 | 27 | 1| 
+| kirk-sayre-work | 恶意 VB 脚本样本的分析 | https://github.com/kirk-sayre-work/talks | None | I do cyber security work for Walmart. | None | Walmart | 7 | 0 | 3 | 10 | 0 | Python,C#,JavaScript | 39 | 6 | 1| 
 | XiaoXiaoGuaiXiaShi | OpenSource-HoneyPot: 对开源蜜罐的学习研究与理解 | https://github.com/XiaoXiaoGuaiXiaShi/OpenSource-HoneyPot | None | 信息安全学习者 | None | None | 3 | 0 | 80 | 7 | 38 | Python,JavaScript | 12 | 1 | 1| 
+| skydive-project | Skydive可用以对网络拓扑及协议进行实时分析，以图像的方式清晰展现。 | https://github.com/skydive-project/skydive | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,HTML,JavaScript,Puppet | 0 | 0 | 1| 
 | xiangpasama | 京东SRC小课堂系列文章 | https://github.com/xiangpasama/JDSRC-Small-Classroom | None |  | None | None | 1 | 0 | 0 | 0 | 0 |  | 34 | 9 | 1| 
 
 
