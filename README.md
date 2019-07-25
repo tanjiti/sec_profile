@@ -17,7 +17,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
-| SDL安全实践 |  | https://mp.weixin.qq.com/s/Y-56kD2zGTakaMKJoD9JsQ | 基于元数据提取的渗透测试案例 | 1| 
+| SDL安全实践 |  | https://mp.weixin.qq.com/s/yGvwRF5Q9YLHo1LZqfBqtQ | 业界代码安全分析软件介绍 | 13| 
 | GartnerInc | GartnerChina | https://mp.weixin.qq.com/s/HMvGOiUIwjMKBNE2j5qIBQ | 自动化在现代安全中的运用 | 1| 
 | 国科军通科技 | gkjtkj | https://mp.weixin.qq.com/s/7_osWtZV3UZ5KuaoIzt7rA | 揭秘：中国自主可控行业全景图 | 1| 
 | 国科漏斗社区 | Goktech_Security | https://mp.weixin.qq.com/s/VPaAYUu_W3MTOmfmgVxUjA | 线下赛AWD训练平台搭建手册 | 1| 
@@ -57,9 +57,11 @@
 | boy-hack | w13scan: 被动扫描器 | https://github.com/boy-hack/w13scan?from=timeline | https://www.hacking8.com/ | Hacking tools just for fun ~ | china | None | 29 | 0 | 118 | 809 | 15 | Python,CSS | 797 | 287 | 1| 
 | ismailtasdelen | Red Team Hardware Toolkit | https://github.com/ismailtasdelen/redteam-hardware-toolkit | http://ismailtasdelen.com | Hi, My name is Ismail Tasdelen. As a security researcher. Im working Penetration Tester at Ernst & Young. Remember to follow and support. Have a great day. 😇 | Istanbul | Ernst & Young | 97 | 0 | 783 | 733 | 467 | Python,Shell,HTML | 591 | 164 | 1| 
 | infosecn1nja | awesome-mitre-attack - 与 Mitre ATT&CK 攻击防御框架有关的工具和资料收集 | https://github.com/infosecn1nja/awesome-mitre-attack | None | Red Teamer and Security Researcher | Jakarta, Indonesia | None | 31 | 0 | 575 | 508 | 56 | Python,Shell,PowerShell | 4600 | 1500 | 1| 
+| zodiacon | zodiacon 开源了一个工具，用于查看内核对象类型的句柄和对象 | https://github.com/zodiacon/KernelObjectView | http://scorpiosoftware.net |  | Israel | None | 56 | 0 | 106 | 503 | 9 | C#,C,C++ | 714 | 208 | 1| 
 | pasta-auto | 丰田公司开发了一套汽车ECU系统的测试工具，包含软件和硬件，repo里面有这套工具的相关介绍，目前应该是在售的状态。 | https://github.com/pasta-auto/PASTA1.0 | None |  | None | None | 1 | 0 | 0 | 262 | 0 | C | 49 | 11 | 1| 
 | RUB-SysSec | NEMO：一款猜测password的工具，通过使用马尔可夫模型可以更高效地选择变异策略 | https://github.com/RUB-SysSec/NEMO// | https://syssec.rub.de |  | Bochum, Germany | Ruhr-University Bochum | 21 | 0 | 11 | 228 | 0 | Python,C,C++ | 370 | 102 | 1| 
 | Bypass007 | Safety-Project-Collection: 收集一些比较优秀的开源安全项目 | https://github.com/Bypass007/Safety-Project-Collection | None | 欢迎关注公众号Bypass--，专注于信息安全。 | Xiamen, China | None | 4 | 0 | 4 | 221 | 0 | Java | 1100 | 274 | 1| 
+| bcoles | bcoles 收集的 Linux 内核 Exploits | https://github.com/bcoles/kernel-exploits | https://itsecuritysolutions.org | ` rm -rf /* ` | ` rm -rf /* ` | ` rm -rf /* ` | 29 | 0 | 62 | 217 | 19 | Python,C,Shell,Ruby | 17100 | 8400 | 1| 
 | 13o-bbr-bbq | 机器学习与安全相关的一些资料汇总 | https://github.com/13o-bbr-bbq/machine_learning_security | None | Im an engineer, Machine Learning hacker and CISSP. Speaker at Black Hat Arsenal, DEFCON Demo Labs/AI Village, Pycon, CODE BLUE etc., | Tokyo, Japan. | None | 9 | 0 | 25 | 185 | 1 | Python | 875 | 319 | 1| 
 | maddiestone | 谷歌安全团队成员在Recon 2019会议上分享的Android病毒逆向分析，病毒通过各种反射和混淆隐藏自身真实payload，但通过仔细逆向，仍然能够将其分析清楚，毕竟Java编译之后的代码语义的留存还是挺多的 | https://github.com/maddiestone/ConPresentations/blob/master/REcon2019.PathToThePayload.pdf | http://twitter.com/maddiestone |  | None | None | 3 | 0 | 2 | 160 | 1 | Python | 436 | 91 | 1| 
 | milabs | awesome-linux-rootkits - Linux 平台 Rootkits 相关的资料收集 | https://github.com/milabs/awesome-linux-rootkits | None | Linux kernel addict, security researcher, reverse engineer | Russia, Moscow | None | 27 | 0 | 440 | 119 | 71 | C | 282 | 48 | 1| 
