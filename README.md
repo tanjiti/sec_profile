@@ -17,22 +17,25 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
-| SDL安全实践 |  | https://mp.weixin.qq.com/s/yGvwRF5Q9YLHo1LZqfBqtQ | 业界代码安全分析软件介绍 | 13| 
+| 公安三所网络安全法律研究中心 |  | https://mp.weixin.qq.com/s/d85LGOF-GubW6I7bGZ2Ovw | 《新时代的中国国防》白皮书发布，多处涉及网络安全 | 1| 
+| 时间之外沉浮事 | tasnrh | https://mp.weixin.qq.com/s/OoCTXMYALjDQvCEOXvG2ZQ | ThreatGEN：Red vs. Blue--在游戏中学习网络安全技能 | 1| 
+| 机器学习研究会 |  | https://mp.weixin.qq.com/s/D1Qvh-kqcmtp6pkH-CwPmg | 深度学习中的Normalization模型 | 1| 
+| SDL安全实践 |  | https://mp.weixin.qq.com/s/r7sk8yUiVCGUnWPK5i9z5Q | 基层安全管理者需要具备的素质 | 13| 
 | GartnerInc | GartnerChina | https://mp.weixin.qq.com/s/HMvGOiUIwjMKBNE2j5qIBQ | 自动化在现代安全中的运用 | 1| 
 | 国科军通科技 | gkjtkj | https://mp.weixin.qq.com/s/7_osWtZV3UZ5KuaoIzt7rA | 揭秘：中国自主可控行业全景图 | 1| 
 | 国科漏斗社区 | Goktech_Security | https://mp.weixin.qq.com/s/VPaAYUu_W3MTOmfmgVxUjA | 线下赛AWD训练平台搭建手册 | 1| 
 | 阿里安全响应中心 | alisrc | https://mp.weixin.qq.com/s/as4WP7RkGaXVI6enlMDktg | 浅析Redis中SSRF的利用 | 1| 
 | ADLab | v_adlab | https://mp.weixin.qq.com/s/suXWmn_PM6zmm3loYO1Zgw | 启明星辰ADLab：智能音箱网络安全与隐私研究报告 | 1| 
 | APT攻击 | cncg_team | https://mp.weixin.qq.com/s/1w6-HwD2u9GRP6IMm5xScg | 展望未来的APT发展之路 | 1| 
-| PolarisLab | PolarisLab | https://mp.weixin.qq.com/s/KQ_17nJBPRcOTn-rPBRKTQ | Hacking WildFly | 1| 
+| PolarisLab | PolarisLab | https://mp.weixin.qq.com/s/KQ_17nJBPRcOTn-rPBRKTQ | Hacking WildFly | 2| 
 | SecPulse安全脉搏 | SecPulse | https://mp.weixin.qq.com/s/yXA4BRbMfJNPQ68_-Nme6g | 网络安全学习方法论之体系的重要性 | 1| 
 | SecWiki | SecWiki | https://mp.weixin.qq.com/s/ZFsrfCjtwrBiRaak1mbhsg | 福利—中国互联网安全领袖峰会门票！ | 1| 
 | 勾陈安全实验室 | PolarisLab | https://mp.weixin.qq.com/s/Y03VVF3sD9N0_H6TQlxYuQ | Knife：一个将有用的小功能加入Burp Suite右键菜单的插件 | 1| 
-| 绿盟科技研究通讯 | nsfocus_research | https://mp.weixin.qq.com/s/1jutuzIq3xlkFejUFbLFFA | Graph Mining：审视世界的眼睛 | 1| 
+| 绿盟科技研究通讯 | nsfocus_research | https://mp.weixin.qq.com/s/1jutuzIq3xlkFejUFbLFFA | Graph Mining：审视世界的眼睛 | 2| 
 | 赵武的自留地 |  | https://mp.weixin.qq.com/s/kVfyoD_zRnSrQjpL4HfYAQ | 网络安全这点屁事 | 1| 
 | nmask | nmask-article | https://mp.weixin.qq.com/s/yZFdVXPDh2O_qN_S1DsBPw | 当子域名遇上搜索引擎 | 1| 
 | 奇安信威胁情报中心 |  | https://mp.weixin.qq.com/s/As902I82uYq5eYQHhUToaA | 全球高级持续性威胁（APT）2019年中报告 | 1| 
-| 安全学术圈 | secquan | https://mp.weixin.qq.com/s/zKv3wKEXRT8CgOnVHOXi0Q | 骗局的艺术：剖析以太坊智能合约中的蜜罐 | 2| 
+| 安全学术圈 | secquan | https://mp.weixin.qq.com/s/zKv3wKEXRT8CgOnVHOXi0Q | 骗局的艺术：剖析以太坊智能合约中的蜜罐 | 3| 
 | 安全牛 | aqniu-wx | https://mp.weixin.qq.com/s/ftcks4wPVNmKMpODvOcfBQ | 国内四大UEBA解决方案 | 1| 
 | 漏洞战争 | vulwar | https://mp.weixin.qq.com/s/79k5bxGr1ykCpN4lSeiTqw | 关于漏洞挖掘的一点想法 | 1| 
 | 继之宫 |  | https://mp.weixin.qq.com/s/wpBeoTEC7g-wFX-DA61gmA | 威胁剑魔杂谈 | 1| 
