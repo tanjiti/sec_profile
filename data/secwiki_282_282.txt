@@ -1,0 +1,33 @@
+20190722	新闻	https://mp.weixin.qq.com/s/d85LGOF-GubW6I7bGZ2Ovw	《新时代的中国国防》白皮书发布，多处涉及网络安全	qq.com	mp.weixin.qq.com	/s/d85LGOF-GubW6I7bGZ2Ovw
+20190722	新闻	https://www.solidot.org/story?sid=61455	美俄的网络威胁都针对民用基础设施	solidot.org	www.solidot.org	/story
+20190722	其它	https://mp.weixin.qq.com/s/OoCTXMYALjDQvCEOXvG2ZQ	ThreatGEN：Red vs. Blue--在游戏中学习网络安全技能	qq.com	mp.weixin.qq.com	/s/OoCTXMYALjDQvCEOXvG2ZQ
+20190722	Web安全	https://javasec.cn/index.php/archives/193/	代码审计-dubbo admin <=2.6.1远程命令执行漏洞	javasec.cn	javasec.cn	/index.php/archives/193/
+20190722	Web安全	https://mp.weixin.qq.com/s/DRHmwihDwsoZHS8rrlwlHg	GitHub安全最佳实践	qq.com	mp.weixin.qq.com	/s/DRHmwihDwsoZHS8rrlwlHg
+20190722	数据挖掘	https://mp.weixin.qq.com/s/Y-56kD2zGTakaMKJoD9JsQ	基于元数据提取的渗透测试案例	qq.com	mp.weixin.qq.com	/s/Y-56kD2zGTakaMKJoD9JsQ
+20190722	Web安全	https://www.cnblogs.com/xsserhaha/p/11246074.html	前端加密之使用Firefox来解密	cnblogs.com	www.cnblogs.com	/xsserhaha/p/11246074.html
+20190722	漏洞分析	https://kylingit.com/blog/sa-core-2019-008-drupal%E8%AE%BF%E9%97%AE%E7%BB%95%E8%BF%87%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/	SA-CORE-2019-008 DRUPAL 访问绕过漏洞分析	kylingit.com	kylingit.com	/blog/sa-core-2019-008-drupal%E8%AE%BF%E9%97%AE%E7%BB%95%E8%BF%87%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/
+20190722	取证分析	https://mp.weixin.qq.com/s/Jqfc8N_6EfDF4EB4GAnGMw	Reading the Tea Leaves：威胁情报的对比分析	qq.com	mp.weixin.qq.com	/s/Jqfc8N_6EfDF4EB4GAnGMw
+20190722	Web安全	https://mp.weixin.qq.com/s/yGvwRF5Q9YLHo1LZqfBqtQ	业界代码安全分析软件介绍	qq.com	mp.weixin.qq.com	/s/yGvwRF5Q9YLHo1LZqfBqtQ
+20190722	恶意分析	https://nosec.org/home/detail/2809.html	哈萨克斯坦拦截HTTPS流量事件的详细分析	nosec.org	nosec.org	/home/detail/2809.html
+20190722	Web安全	https://mp.weixin.qq.com/s/vW6IgaA_Imc7-_Bac9XNQg	SOFA-Hessian反序列漏洞	qq.com	mp.weixin.qq.com	/s/vW6IgaA_Imc7-_Bac9XNQg
+20190722	Web安全	https://mp.weixin.qq.com/s/vnDytPBUP72hoFfSOzES2A	JNI技术绕过rasp防护实现jsp webshell	qq.com	mp.weixin.qq.com	/s/vnDytPBUP72hoFfSOzES2A
+20190722	Web安全	https://mp.weixin.qq.com/s/VBI4IHKAfDn5PYQMesw5Sg	从微软、FB、华为的网络安全备忘录说开去	qq.com	mp.weixin.qq.com	/s/VBI4IHKAfDn5PYQMesw5Sg
+20190722	其它	https://nosec.org/home/detail/2803.html	创建一个可隐秘接管AD中对象的后门	nosec.org	nosec.org	/home/detail/2803.html
+20190722	Web安全	https://mp.weixin.qq.com/s/QKV7PD11BIFvt-ND2iqHrw	书评-《企业级自动化代码安全扫描实战》	qq.com	mp.weixin.qq.com	/s/QKV7PD11BIFvt-ND2iqHrw
+20190722	取证分析	https://xz.aliyun.com/t/5728	反溯源-cs和msf域名上线	aliyun.com	xz.aliyun.com	/t/5728
+20190722	Web安全	https://mp.weixin.qq.com/s/XIZU03tHvf61X8XkJxK0Bg	SDL安全设计工具，一款支持多人协作实施威胁建模的微信小程序	qq.com	mp.weixin.qq.com	/s/XIZU03tHvf61X8XkJxK0Bg
+20190722	恶意分析	https://nosec.org/home/detail/2807.html	记一次对恶意LNK文件的分析	nosec.org	nosec.org	/home/detail/2807.html
+20190722	Web安全	https://mp.weixin.qq.com/s/_BG0T0uJZhYUpM_NUmSmqA	供应链安全系列-攻击编译阶段（一）	qq.com	mp.weixin.qq.com	/s/_BG0T0uJZhYUpM_NUmSmqA
+20190722	其它	https://mp.weixin.qq.com/s/uMla2_Iqc2h5hyRAZk-64A	谷歌学术指标2019年（计算机安全及加密）	qq.com	mp.weixin.qq.com	/s/uMla2_Iqc2h5hyRAZk-64A
+20190722	Web安全	https://mp.weixin.qq.com/s/9z5DKipgAm2QdU4xg7NJeg	软件安全构建成熟度模型 (BSIMM) 介绍	qq.com	mp.weixin.qq.com	/s/9z5DKipgAm2QdU4xg7NJeg
+20190722	漏洞分析	https://xz.aliyun.com/t/5705	路由器漏洞分析系列(4):CVE-2019-7297 7298 D-Link DIR-823G 命令注入漏洞分析及复现	aliyun.com	xz.aliyun.com	/t/5705
+20190722	恶意分析	https://mp.weixin.qq.com/s/ojfjlJEdGSIjrR2ptYhPSw	病毒武器智能化技术现状与运用趋势	qq.com	mp.weixin.qq.com	/s/ojfjlJEdGSIjrR2ptYhPSw
+20190722	Web安全	https://mp.weixin.qq.com/s/fZ1Or_mRt9j8uANkgJM5-A	Jackson CVE-2019-12384 Anatomy Of a Vulnerability Class	qq.com	mp.weixin.qq.com	/s/fZ1Or_mRt9j8uANkgJM5-A
+20190722	Web安全	https://mp.weixin.qq.com/s/iOIxEZK-H9VeGGRmmGewsQ	可信计算和可信赖计算的渊源	qq.com	mp.weixin.qq.com	/s/iOIxEZK-H9VeGGRmmGewsQ
+20190722	Web安全	https://mp.weixin.qq.com/s/r7sk8yUiVCGUnWPK5i9z5Q	基层安全管理者需要具备的素质	qq.com	mp.weixin.qq.com	/s/r7sk8yUiVCGUnWPK5i9z5Q
+20190722	数据挖掘	https://mp.weixin.qq.com/s/iDcBCK7eU2AmpgmO6grXhQ	对抗样本原理分析	qq.com	mp.weixin.qq.com	/s/iDcBCK7eU2AmpgmO6grXhQ
+20190722	漏洞分析	https://xz.aliyun.com/t/5702	路由器漏洞分析系列(3):CVE-2018-20057 DIR-619L&605L后门漏洞分析及复现	aliyun.com	xz.aliyun.com	/t/5702
+20190722	数据挖掘	https://mp.weixin.qq.com/s/D1Qvh-kqcmtp6pkH-CwPmg	深度学习中的Normalization模型	qq.com	mp.weixin.qq.com	/s/D1Qvh-kqcmtp6pkH-CwPmg
+20190722	Web安全	https://mp.weixin.qq.com/s/kV2nXuBywUnkj_VWA7CftQ	威胁建模系统教程-简介和工具（一）	qq.com	mp.weixin.qq.com	/s/kV2nXuBywUnkj_VWA7CftQ
+20190722	漏洞分析	https://blog.mozilla.org/security/2019/07/10/grizzly/	Grizzly Browser Fuzzing Framework	mozilla.org	blog.mozilla.org	/security/2019/07/10/grizzly/
+20190722	恶意分析	https://mp.weixin.qq.com/s/X5PyWgQFZ11wLx8gpFtXOg	MesaTEE安全形式化验证实践	qq.com	mp.weixin.qq.com	/s/X5PyWgQFZ11wLx8gpFtXOg

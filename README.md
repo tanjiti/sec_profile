@@ -19,10 +19,10 @@
 | --- | --- | --- | ---| 
 | 百度安全实验室 | BaiduX_lab | https://mp.weixin.qq.com/s/X5PyWgQFZ11wLx8gpFtXOg | 聪明人的笨功夫 -- MesaTEE安全形式化验证实践 | 1| 
 | 网络空间安全军民融合创新中心 | jmrh1226 | https://mp.weixin.qq.com/s/ojfjlJEdGSIjrR2ptYhPSw | 病毒武器智能化技术现状与运用趋势 | 1| 
+| SDL安全实践 |  | https://mp.weixin.qq.com/s/DRHmwihDwsoZHS8rrlwlHg | GitHub安全最佳实践 | 13| 
 | 公安三所网络安全法律研究中心 |  | https://mp.weixin.qq.com/s/d85LGOF-GubW6I7bGZ2Ovw | 《新时代的中国国防》白皮书发布，多处涉及网络安全 | 1| 
 | 时间之外沉浮事 | tasnrh | https://mp.weixin.qq.com/s/OoCTXMYALjDQvCEOXvG2ZQ | ThreatGEN：Red vs. Blue--在游戏中学习网络安全技能 | 1| 
 | 机器学习研究会 |  | https://mp.weixin.qq.com/s/D1Qvh-kqcmtp6pkH-CwPmg | 深度学习中的Normalization模型 | 1| 
-| SDL安全实践 |  | https://mp.weixin.qq.com/s/r7sk8yUiVCGUnWPK5i9z5Q | 基层安全管理者需要具备的素质 | 13| 
 | GartnerInc | GartnerChina | https://mp.weixin.qq.com/s/HMvGOiUIwjMKBNE2j5qIBQ | 自动化在现代安全中的运用 | 1| 
 | 国科军通科技 | gkjtkj | https://mp.weixin.qq.com/s/7_osWtZV3UZ5KuaoIzt7rA | 揭秘：中国自主可控行业全景图 | 1| 
 | 国科漏斗社区 | Goktech_Security | https://mp.weixin.qq.com/s/VPaAYUu_W3MTOmfmgVxUjA | 线下赛AWD训练平台搭建手册 | 1| 
