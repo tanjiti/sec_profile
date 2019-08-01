@@ -41,7 +41,7 @@ def update_github():
 if __name__ == "__main__":
     """
     """
-    #scraw()
+    scraw()
 
     visual.draw_readme()
 

@@ -277,7 +277,7 @@ def draw_readme(fpath=None):
     tables_rets = []
     so = SQLiteOper("data/scrap.db")
     year = get_special_date(delta=0, format="%Y%m")
-  
+
 
 
     # update
