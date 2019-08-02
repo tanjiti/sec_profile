@@ -33,7 +33,8 @@ def scraw(so, proxy=None, delta=2):
     ts_list = [get_special_date(delta, format="%Y%m%d") for delta in range(0, 0 - delta, -1)]
 
     url = "https://sec.today/pulses/"
-    r = get_request(url)
+    r = get_request(url, proxy=proxy)
+
     if r:
         try:
             soup = BeautifulSoup(r.content, 'lxml')
@@ -44,13 +45,11 @@ def scraw(so, proxy=None, delta=2):
         if soup:
             rows = soup.find_all("div", class_='card-body')
 
-
             if rows:
 
                 for row in rows:
 
                     if row:
-
 
                         overview = {}
 
@@ -62,8 +61,8 @@ def scraw(so, proxy=None, delta=2):
                             overview["title_english"] = card_title_text
                             sec_url = "https://sec.today%s" % card_title_url
 
-                            url_details = get_redirect_url(sec_url, root_dir="data/sec_url",issql=False, proxy=proxy)
-                            #url_details = None
+                            url_details = get_redirect_url(sec_url, root_dir="data/sec_url", issql=False, proxy=proxy)
+                            # url_details = None
                             if url_details:
                                 overview["url"] = url_details.get("url")
                                 overview["domain"] = url_details.get("domain")
@@ -78,14 +77,11 @@ def scraw(so, proxy=None, delta=2):
                         card_text = row.find("small", class_=re.compile(r"card-subtitle"))
                         if card_text:
 
-
                             card_text_domain = strip_n(card_text.get_text())
                             domain = parse_domain_tag(card_text_domain)
                             if domain:
                                 overview["domain"] = domain
                                 overview["domain_name"] = str(get_title(overview["domain"], proxy=proxy))
-
-
 
                             card_text_types = card_text.find_all("span", class_=re.compile(r"badge-tag"))
                             if card_text_types:
@@ -95,9 +91,6 @@ def scraw(so, proxy=None, delta=2):
                                     if card_text_type:
                                         tags.append(card_text_type)
                                 overview["tag"] = ",".join(tags)
-
-
-
 
                         card_text_ts = row.find("cite")
                         if card_text_ts:
@@ -112,17 +105,7 @@ def scraw(so, proxy=None, delta=2):
 
                             overview["ts"] = ts
                             if ts not in ts_list:
-
                                 continue
-
-
-
-
-
-
-
-
-
 
                         if overview:
                             sql = d2sql(overview, table="xuanwu_today_detail", action="INSERT OR IGNORE ")
@@ -183,6 +166,10 @@ def scraw(so, proxy=None, delta=2):
 if __name__ == "__main__":
     """
     """
+    proxy = {
+        "socks:": "socks://127.0.0.1:8420",
+
+    }
     proxy = None
     so = SQLiteOper("data/scrap.db")
     scraw(so, proxy=proxy)

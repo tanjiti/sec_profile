@@ -513,6 +513,8 @@ def get_request(url,
 
     s.proxies = proxy
 
+
+
     while retry > 0:
         try:
 
@@ -522,6 +524,8 @@ def get_request(url,
                           timeout=timeout
 
                           )
+
+
 
             if r.reason == "OK":
 
@@ -560,7 +564,7 @@ def get_request(url,
 
         except Exception as e:
 
-
+            print e
             e = str(e)
 
 
