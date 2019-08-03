@@ -18,6 +18,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 孟极实验室 | mengjiteam | https://mp.weixin.qq.com/s/HDZUsTbffeGhgwu1FOWQNg | 一条命令实现端口复用后门 | 1| 
 | Docker | dockerone | https://mp.weixin.qq.com/s/H9ExikY7bd2-YVEqGZmsOA | 容器日志采集利器：Filebeat深度剖析与实践 | 1| 
 
 
