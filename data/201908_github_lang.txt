@@ -4,9 +4,9 @@ Java	2
 Ruby	2
 JavaScript	1
 Makefile	1
-Julia	1
-Lua	1
 C++	1
+Lua	1
+Julia	1
 PHP	1
 PowerShell	1
 CSS	1
