@@ -1,0 +1,39 @@
+20190729	新闻	https://mp.weixin.qq.com/s/9C94jzfD3M2zPVpQCfDppw	CrowdStrike深度分析	qq.com	mp.weixin.qq.com	/s/9C94jzfD3M2zPVpQCfDppw
+20190729	会议	https://www.threatbook.cn/event/2019	2019 网络安全分析与情报大会PPT	threatbook.cn	www.threatbook.cn	/event/2019
+20190729	工具	https://thief.one/2019/08/01/1/	CTF在线工具平台	thief.one	thief.one	/2019/08/01/1/
+20190729	Web安全	https://mp.weixin.qq.com/s/HDZUsTbffeGhgwu1FOWQNg	一条命令实现端口复用后门	qq.com	mp.weixin.qq.com	/s/HDZUsTbffeGhgwu1FOWQNg
+20190729	会议	https://mp.weixin.qq.com/s/TCKOmHt2MbeMI6MO5zq4HQ	Black hat USA 2019 议题预览	qq.com	mp.weixin.qq.com	/s/TCKOmHt2MbeMI6MO5zq4HQ
+20190729	Web安全	https://uknowsec.cn/posts/notes/Mimikatz%E6%98%8E%E6%96%87%E5%AF%86%E7%A0%81%E6%8A%93%E5%8F%96.html	Mimikatz明文密码抓取	uknowsec.cn	uknowsec.cn	/posts/notes/Mimikatz%E6%98%8E%E6%96%87%E5%AF%86%E7%A0%81%E6%8A%93%E5%8F%96.html
+20190729	恶意分析	https://mp.weixin.qq.com/s/RCXrCHJl4w4CTeLk_HPzQA	webshell中的分离免杀实践-java篇	qq.com	mp.weixin.qq.com	/s/RCXrCHJl4w4CTeLk_HPzQA
+20190729	漏洞分析	https://mp.weixin.qq.com/s/07B4noqGHaQ8dHWqC_qSWQ	一篇读懂22种密码应用模式	qq.com	mp.weixin.qq.com	/s/07B4noqGHaQ8dHWqC_qSWQ
+20190729	漏洞分析	https://nosec.org/home/detail/2813.html	XStream CVE-2019-10173漏洞分析	nosec.org	nosec.org	/home/detail/2813.html
+20190729	Web安全	https://xz.aliyun.com/t/5832	一次真实axis2渗透测试	aliyun.com	xz.aliyun.com	/t/5832
+20190729	运维安全	https://bloodzer0.github.io/ossa/log_analysis/log_analysis/	日志分析架构	github.io	bloodzer0.github.io	/ossa/log_analysis/log_analysis/
+20190729	工具	http://blog.digital-forensics.it/2019/07/huawei-backup-decryptor.html	Huawei backup decryptor	digital-forensics.it	blog.digital-forensics.it	/2019/07/huawei-backup-decryptor.html
+20190729	Web安全	https://www.4hou.com/penetration/19448.html	域渗透—DCSync	4hou.com	www.4hou.com	/penetration/19448.html
+20190729	Web安全	https://mp.weixin.qq.com/s/81gI5nFHSVYR5w648Z2oJQ	Commix命令注入靶场空格过滤的绕过测试	qq.com	mp.weixin.qq.com	/s/81gI5nFHSVYR5w648Z2oJQ
+20190729	其它	https://bloodzer0.github.io/ossa/security_notes/zh-en/	安全中英文对应	github.io	bloodzer0.github.io	/ossa/security_notes/zh-en/
+20190729	比赛	https://xz.aliyun.com/t/5793	2019年四川省大学生信息安全技术大赛AWD简单分析	aliyun.com	xz.aliyun.com	/t/5793
+20190729	Web安全	https://www.ch1ng.com/blog/185.html	对新型变形一句话木马的分析	ch1ng.com	www.ch1ng.com	/blog/185.html
+20190729	取证分析	https://github.com/xdite/internet-security	互联网资安风控实战	github.com	github.com	/xdite/internet-security
+20190729	Web安全	http://www.polaris-lab.com/index.php/archives/658/	CVE-2019-10173 Xstream 1.4.10版本远程代码执行漏洞	polaris-lab.com	www.polaris-lab.com	/index.php/archives/658/
+20190729	恶意分析	https://xz.aliyun.com/t/5756	关于对antSword(蚁剑)进行流量混淆处理的解决方案	aliyun.com	xz.aliyun.com	/t/5756
+20190729	比赛	https://xz.aliyun.com/t/5749	论菜鸡pwn手如何在无网环境下生存	aliyun.com	xz.aliyun.com	/t/5749
+20190729	漏洞分析	https://mp.weixin.qq.com/s/XQL_taBhPkCHGZOBc24MyQ	初识「零知识」与「证明」	qq.com	mp.weixin.qq.com	/s/XQL_taBhPkCHGZOBc24MyQ
+20190729	数据挖掘	https://mp.weixin.qq.com/s/LchpngIIBqDwejWbFV3E8A	如何用风控拯救下架的小红书	qq.com	mp.weixin.qq.com	/s/LchpngIIBqDwejWbFV3E8A
+20190729	漏洞分析	https://mp.weixin.qq.com/s/KtGISQPKIHCpooRuIvoNrg	工业集散控制系统的脆弱性分析	qq.com	mp.weixin.qq.com	/s/KtGISQPKIHCpooRuIvoNrg
+20190729	数据挖掘	https://github.com/cmcmsec/dpia	dpia: GDPR个人数据合规评估	github.com	github.com	/cmcmsec/dpia
+20190729	杂志	https://www.sec-wiki.com/weekly/282	SecWiki周刊（第282期)	sec-wiki.com	www.sec-wiki.com	/weekly/282
+20190729	取证分析	https://medium.com/@0x4d31/rdp-client-fingerprinting-9e7ac219f7f4	RDP Fingerprinting: Profiling RDP Clients with JA3 and RDFP	medium.com	medium.com	/@0x4d31/rdp-client-fingerprinting-9e7ac219f7f4
+20190729	文档	https://share.weiyun.com/5iBMlcP	FP50优秀网络安全解决方案白皮书	weiyun.com	share.weiyun.com	/5iBMlcP
+20190729	Web安全	https://nosec.org/home/detail/2827.html	使用源服务器IP地址绕过Cloudflare WAF	nosec.org	nosec.org	/home/detail/2827.html
+20190729	漏洞分析	https://xz.aliyun.com/t/5816	国赛决赛laravel的另一种不完美做法	aliyun.com	xz.aliyun.com	/t/5816
+20190729	文档	https://share.weiyun.com/5x2s8IQ	中国产业互联网安全发展研究报告	weiyun.com	share.weiyun.com	/5x2s8IQ
+20190729	其它	https://www.kiwisec.com/news/detail/5d3ab544c649181e28b820a7.html	智能汽车安全风险及防护技术分析	kiwisec.com	www.kiwisec.com	/news/detail/5d3ab544c649181e28b820a7.html
+20190729	取证分析	https://mp.weixin.qq.com/s/H9ExikY7bd2-YVEqGZmsOA	容器日志采集利器：Filebeat深度剖析与实践	qq.com	mp.weixin.qq.com	/s/H9ExikY7bd2-YVEqGZmsOA
+20190729	比赛	https://forum.90sec.com/t/topic/261	某工控 CTF 线上赛隐信道数据安全分析题解	90sec.com	forum.90sec.com	/t/topic/261
+20190729	漏洞分析	https://www.anquanke.com/post/id/183202	由一道工控路由器固件逆向题目看命令执行漏洞	anquanke.com	www.anquanke.com	/post/id/183202
+20190729	移动安全	https://github.com/hanbinglengyue/FART	FART: ART环境下自动化脱壳方案	github.com	github.com	/hanbinglengyue/FART
+20190729	漏洞分析	https://blog.xpnsec.com/analysing-rpc-with-ghidra-neo4j/	Analysing RPC With Ghidra and Neo4j	xpnsec.com	blog.xpnsec.com	/analysing-rpc-with-ghidra-neo4j/
+20190729	观点	https://mp.weixin.qq.com/s/iywreVZ81o_bYKhuCHQl6Q	AI加持，威胁免疫—工业互联网安全体系建设	qq.com	mp.weixin.qq.com	/s/iywreVZ81o_bYKhuCHQl6Q
+20190729	恶意分析	https://arxiv.org/abs/1908.00200	KiloGrams: Very Large N-Grams for Malware Classification	arxiv.org	arxiv.org	/abs/1908.00200
