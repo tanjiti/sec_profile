@@ -18,6 +18,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| SIGAI | SIGAICN | https://mp.weixin.qq.com/s/b4_OdxgxsK8CCU5b8qCEfw | NLP技术也能帮助程序分析？ | 1| 
 | 安全学术圈 | secquan | https://mp.weixin.qq.com/s/6_cEwkqFX-oeuLk6thZUcQ | ​利用无人机通过激光与物理隔离设备建立隐蔽信道 | 1| 
 | 水滴安全实验室 | EversecLab | https://mp.weixin.qq.com/s/KPw81stOcBthxZHlanS0BA | 物联网固件漏洞挖掘——经典命令执行漏洞分析复现 | 1| 
 | 孟极实验室 | mengjiteam | https://mp.weixin.qq.com/s/HDZUsTbffeGhgwu1FOWQNg | 一条命令实现端口复用后门 | 1| 

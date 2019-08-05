@@ -166,10 +166,10 @@ def scraw(so, proxy=None, delta=2):
 if __name__ == "__main__":
     """
     """
-    proxy = {
-        "socks:": "socks://127.0.0.1:8420",
+    #proxy = {
+     #   "socks:": "socks://127.0.0.1:8420",
 
-    }
-    #proxy = None
+    #}
+    proxy = None
     so = SQLiteOper("data/scrap.db")
     scraw(so, proxy=proxy)
