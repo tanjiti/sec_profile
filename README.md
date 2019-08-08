@@ -18,6 +18,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| ChaMd5安全团队 | chamd5sec | https://mp.weixin.qq.com/s/rCqposktwlWdYjVfY4K1lA | De1CTF 2019-WriteUp-PWN | 2| 
+| 威胁情报小屋 |  | https://mp.weixin.qq.com/s/IrM60hbB6dWdbWxpFbO1lA | 海莲花攻击手法概述 | 1| 
 | APT攻击 | cncg_team | https://mp.weixin.qq.com/s/d9AYfW9r8RjCZxxs9jjheA | APT29之来去影无踪——特殊的CnC渠道 | 1| 
 | 绿盟科技 | NSFOCUS-weixin | https://mp.weixin.qq.com/s/pHYpHw1PuLddW2NJZZzA6A | 2019TechWorld技术嘉年华精华大放送【附PPT下载】 | 1| 
 | SIGAI | SIGAICN | https://mp.weixin.qq.com/s/b4_OdxgxsK8CCU5b8qCEfw | NLP技术也能帮助程序分析？ | 1| 
@@ -30,6 +32,7 @@
 | github_id | title | url | org_url | org_profile | org_geo | org_repositories | org_people | org_projects | repo_lang | repo_star | repo_forks| 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | pywinauto | pywinauto - Python 实现的 Windows 平台 GUI 自动化测试工具，可以向 UI 组件发送鼠标和键盘事件 | https://github.com/pywinauto/pywinauto | http://pywinauto.github.io/ | Windows GUI Automation with Python | http://pywinauto.github.io/ | 0 | 0 | 0 | Python,CSS,C++ | 1600 | 337 | 1| 
+| CENSUS | Windows 10 RS2/RS3 Bypass GDI pushlock Mitigation 的两个技巧 | https://github.com/CENSUS/windows_10_rs2_rs3_exploitation_primitives | http://census-labs.com/ |  | Greece | 0 | 0 | 0 | Python,C++ | 0 | 0 | 1| 
 | Riscure | 用AFL Fuzz OP-TEE的系统调用 | https://github.com/Riscure/optee_fuzzer | http://www.riscure.com | Riscure Security Lab | http://www.riscure.com | 0 | 0 | 0 | Python,C,Julia | 0 | 0 | 1| 
 | ucsb-seclab | sasi：基于Angr来清除二进制中冗余代码的工具，相对已有工具的性能提高主要来源于它能更加准确完整地恢复CFG | https://github.com/ucsb-seclab/sasi | http://seclab.cs.ucsb.edu | The Computer Security Group at UC Santa Barbara | Santa Barbara | 0 | 0 | 0 | Python,C,Java,C++ | 0 | 0 | 1| 
 
@@ -45,6 +48,7 @@
 | cobbr | SharpSploit - C# 语言编写的基于 .NET 的后渗透测试工具 | https://github.com/cobbr/SharpSploit | https://cobbr.io |  | Dallas, TX | SpecterOps | 17 | 0 | 48 | 230 | 1 | C#,PowerShell | 570 | 89 | 1| 
 | 1522402210 | 一套 webkit 完整 rce 的详细分析 (render rce+sbx) | https://github.com/1522402210/Issue-198327 | None | BlockChain Fans | None | None | 599 | 0 | 3800 | 198 | 1700 | Python,Go,PowerShell,C++ | 289 | 111 | 1| 
 | rockbruno | swiftshield - Swift/OBJ-C 代码混淆工具 | https://github.com/rockbruno/swiftshield | https://github.com/ifood | Software Engineer (iOS) at @ifood, Writer https://swiftrocks.com | Brazil | @ifood | 41 | 0 | 15 | 159 | 0 | Java,Ruby,Swift,C++ | 48700 | 7800 | 1| 
+| lazyparser | SpiderMonkey Internals - SpiderMonkey JavaScript 引擎学习相关的笔记 | https://github.com/lazyparser/spidermonkey-internals | http://lazyparser.com |  | None | None | 48 | 0 | 199 | 134 | 62 | HTML | 93 | 53 | 1| 
 | butterflyhack | linux蓝牙模块空指针引用漏洞PoC。 | https://github.com/butterflyhack/CVE-2019-10207/ | None |  | None | None | 129 | 0 | 19 | 13 | 28 | Python,C,Java | 15 | 7 | 1| 
 | chame1eon | jni 函数调用 trace 模块，基于 frida | https://github.com/chame1eon/jnitrace | None |  | None | None | 3 | 0 | 0 | 5 | 0 | Python,Lua,JavaScript | 71 | 9 | 1| 
 
