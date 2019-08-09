@@ -1,8 +1,8 @@
-Python	9
+Python	10
 C++	6
+C	4
 Java	4
 HTML	4
-C	3
 Go	3
 CSS	3
 JavaScript	2
