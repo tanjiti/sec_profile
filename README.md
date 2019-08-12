@@ -18,15 +18,17 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
-| 天融信阿尔法实验室 |  | https://mp.weixin.qq.com/s/Vh1ZyAIQjGY1WSomN7HWgQ | ATT&CK之后门持久化（二） | 2| 
-| 汉客儿 |  | https://mp.weixin.qq.com/s/wna8pBu1s_jNI8kDeBGEwA | 一次美丽的误会引发对函数调用保护的思考 | 1| 
-| ChaMd5安全团队 | chamd5sec | https://mp.weixin.qq.com/s/rCqposktwlWdYjVfY4K1lA | De1CTF 2019-WriteUp-PWN | 2| 
-| 威胁情报小屋 |  | https://mp.weixin.qq.com/s/IrM60hbB6dWdbWxpFbO1lA | 海莲花攻击手法概述 | 1| 
+| 奇安信 CERT |  | https://mp.weixin.qq.com/s/qxkV_7MZVhUYYq5QGcwCtQ | WebLogic安全研究报告 | 1| 
+| 安全喷子 |  | https://mp.weixin.qq.com/s/xxU0R5eVcP_42VVd2DQeXQ | 网络安全“圣地”之行 | 1| 
 | APT攻击 | cncg_team | https://mp.weixin.qq.com/s/d9AYfW9r8RjCZxxs9jjheA | APT29之来去影无踪——特殊的CnC渠道 | 1| 
-| 绿盟科技 | NSFOCUS-weixin | https://mp.weixin.qq.com/s/pHYpHw1PuLddW2NJZZzA6A | 2019TechWorld技术嘉年华精华大放送【附PPT下载】 | 1| 
+| ChaMd5安全团队 | chamd5sec | https://mp.weixin.qq.com/s/EN8cch8uO8Qnfb_eewbw9w | De1CTF 2019-WriteUp | 2| 
 | SIGAI | SIGAICN | https://mp.weixin.qq.com/s/b4_OdxgxsK8CCU5b8qCEfw | NLP技术也能帮助程序分析？ | 1| 
-| 安全学术圈 | secquan | https://mp.weixin.qq.com/s/6_cEwkqFX-oeuLk6thZUcQ | ​利用无人机通过激光与物理隔离设备建立隐蔽信道 | 1| 
+| 天融信阿尔法实验室 |  | https://mp.weixin.qq.com/s/SavldFETaFea3l7kVX2RyA | ATT&CK之后门持久化（一） | 2| 
+| 威胁情报小屋 |  | https://mp.weixin.qq.com/s/IrM60hbB6dWdbWxpFbO1lA | 海莲花攻击手法概述 | 1| 
+| 安全学术圈 | secquan | https://mp.weixin.qq.com/s/6_cEwkqFX-oeuLk6thZUcQ | ​利用无人机通过激光与物理隔离设备建立隐蔽信道 | 2| 
 | 水滴安全实验室 | EversecLab | https://mp.weixin.qq.com/s/KPw81stOcBthxZHlanS0BA | 物联网固件漏洞挖掘——经典命令执行漏洞分析复现 | 1| 
+| 汉客儿 |  | https://mp.weixin.qq.com/s/wna8pBu1s_jNI8kDeBGEwA | 一次美丽的误会引发对函数调用保护的思考 | 1| 
+| 绿盟科技 | NSFOCUS-weixin | https://mp.weixin.qq.com/s/pHYpHw1PuLddW2NJZZzA6A | 2019TechWorld技术嘉年华精华大放送【附PPT下载】 | 1| 
 | 孟极实验室 | mengjiteam | https://mp.weixin.qq.com/s/HDZUsTbffeGhgwu1FOWQNg | 一条命令实现端口复用后门 | 1| 
 
 
@@ -43,6 +45,7 @@
 # 私人github账号 推荐
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
+| jas502n | 开源企业搜索平台 Solr 被发现 DataImport Handler RCE | https://github.com/jas502n/CVE-2019-0193 | None | 1.misc 2.crypto 3. web 4. reverse 5. android 6. pwn 7. elf | None | None | 160 | 0 | 174 | 1100 | 134 | Python,C#,C,Shell | 301 | 110 | 1| 
 | shmilylty | OneForAll 一款功能强大的子域收集工具 | https://github.com/shmilylty/OneForAll | https://github.com/Qihoo360 | Information security researcher, CTF enthusiast. | Beijing, China | @Qihoo360 | 108 | 0 | 992 | 753 | 116 | Python,Go,JavaScript,HTML | 747 | 216 | 1| 
 | Kevin-Robertson | Windows网络协议层攻击套件包括 SMB LLMNR NBNS mDNS DNS | https://github.com/Kevin-Robertson/InveighZero | https://github.com/NetSPI |  | None | @NetSPI | 7 | 0 | 226 | 364 | 8 | C#,PowerShell | 929 | 231 | 1| 
 | zer0yu | Berserker-针对Pentest或者CTF的一个fuzz payload项目 | https://github.com/zer0yu/Berserker | http://zeroyu.xyz/ | Red Team@PolarisLab / CTFer->Web@LZ | None | None | 34 | 0 | 2300 | 268 | 1300 | Python,HTML,CSS | 292 | 43 | 1| 
@@ -55,8 +58,10 @@
 | brompwnie | Break out the Box (BOtB) - Blackhat Arsenal 会议上公开的一款用于容器分析和常见容器漏洞利用的工具 | https://github.com/brompwnie/botb/releases/tag/1.2.0 | https://twitter.com/brompwnie | Keyboard wrangler ⌨️ | None | None | 18 | 0 | 9 | 62 | 14 | CSS,Go,Java,Smali,C++ | 462 | 213 | 1| 
 | NotMedic | rdp-tunnel: Pre-compiled tools to tunnel TCP over RDP Conn... | https://github.com/NotMedic/rdp-tunnel | None |  | None | None | 16 | 0 | 2 | 40 | 0 | HTML,C,JavaScript,PowerShell,C++ | 219 | 36 | 1| 
 | Ch1ngg | AggressorScript-CreateCloneHiddenAccount | https://github.com/Ch1ngg/AggressorScript-CreateCloneHiddenAccount | https://www.ch1ng.com/ |  | no | no | 7 | 0 | 99 | 21 | 14 | C#,Python,ASP,Java,PowerShell | 16 | 5 | 1| 
+| baronpan | SysmonHunter：一个简单的基于ATT&CK的Sysmon日志狩猎工具 | https://github.com/baronpan/SysmonHunter | http://threatmobile.blogspot.com |  | None | None | 11 | 0 | 10 | 17 | 5 | Python,Batchfile,JavaScript,Java,PowerShell | 31 | 7 | 1| 
 | butterflyhack | linux蓝牙模块空指针引用漏洞PoC。 | https://github.com/butterflyhack/CVE-2019-10207/ | None |  | None | None | 129 | 0 | 19 | 13 | 28 | Python,C,Java | 15 | 7 | 1| 
 | chame1eon | jni 函数调用 trace 模块，基于 frida | https://github.com/chame1eon/jnitrace | None |  | None | None | 3 | 0 | 0 | 5 | 0 | Python,Lua,JavaScript | 71 | 9 | 1| 
+| lion-gu | IOC Explorer：自动化关联失陷指标的工具 | https://github.com/lion-gu/ioc-explorer | None |  | None | None | 1 | 0 | 3 | 2 | 0 | Python | 22 | 2 | 1| 
 
 
 

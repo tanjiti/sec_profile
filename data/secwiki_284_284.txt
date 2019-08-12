@@ -1,0 +1,42 @@
+20190805	法规	http://www.cac.gov.cn/2019-08/08/c_1124853418.htm	信息安全技术 移动互联网应用（App）收集个人信息基本规范（草案）	cac.gov.cn	www.cac.gov.cn	/2019-08/08/c_1124853418.htm
+20190805	恶意分析	https://www.solidot.org/story?sid=61621	俄罗斯政府黑客利用物联网入侵网络	solidot.org	www.solidot.org	/story
+20190805	恶意分析	https://www.solidot.org/story?sid=61658	Electron 应用容易修改植入后门	solidot.org	www.solidot.org	/story
+20190805	其它	https://sec.thief.one/	安全聚合平台	thief.one	sec.thief.one	/
+20190805	会议	https://mp.weixin.qq.com/s/pHYpHw1PuLddW2NJZZzA6A	2019TechWorld技术嘉年华PPT	qq.com	mp.weixin.qq.com	/s/pHYpHw1PuLddW2NJZZzA6A
+20190805	其它	https://nosec.org/home/detail/2844.html	Nmap中一些常用的NSE脚本	nosec.org	nosec.org	/home/detail/2844.html
+20190805	Web安全	https://github.com/shmilylty/OneForAll	OneForAll 一款功能强大的子域收集工具	github.com	github.com	/shmilylty/OneForAll
+20190805	取证分析	https://mp.weixin.qq.com/s/IrM60hbB6dWdbWxpFbO1lA	海莲花攻击手法概述	qq.com	mp.weixin.qq.com	/s/IrM60hbB6dWdbWxpFbO1lA
+20190805	Web安全	https://nosec.org/home/detail/2846.html	FOFA网络空间站——北京站演讲嘉宾PPT	nosec.org	nosec.org	/home/detail/2846.html
+20190805	恶意分析	https://mp.weixin.qq.com/s/d9AYfW9r8RjCZxxs9jjheA	APT29之来去影无踪—特殊的CnC渠道	qq.com	mp.weixin.qq.com	/s/d9AYfW9r8RjCZxxs9jjheA
+20190805	比赛	http://www.ciscn.cn/upload/file/20190805/1565012814495201.pdf	2019全国大学生信息安全竞赛-作品赛决赛作品获奖名单	ciscn.cn	www.ciscn.cn	/upload/file/20190805/1565012814495201.pdf
+20190805	设备安全	https://mp.weixin.qq.com/s/KPw81stOcBthxZHlanS0BA	物联网固件漏洞挖掘——经典命令执行漏洞分析复现	qq.com	mp.weixin.qq.com	/s/KPw81stOcBthxZHlanS0BA
+20190805	Web安全	https://www.4hou.com/info/news/19267.html	实例讲解二阶SQL注入	4hou.com	www.4hou.com	/info/news/19267.html
+20190805	漏洞分析	https://nosec.org/home/detail/2831.html	Django JSONField/HStoreField SQL 注入漏洞（CVE-2019-14234）的复现与分析	nosec.org	nosec.org	/home/detail/2831.html
+20190805	Web安全	https://mp.weixin.qq.com/s/SavldFETaFea3l7kVX2RyA	ATT&CK之后门持久化（一）	qq.com	mp.weixin.qq.com	/s/SavldFETaFea3l7kVX2RyA
+20190805	恶意分析	https://www.4hou.com/technology/19488.html	对APT34泄露工具的分析——Jason	4hou.com	www.4hou.com	/technology/19488.html
+20190805	比赛	https://mp.weixin.qq.com/s/EN8cch8uO8Qnfb_eewbw9w	De1CTF 2019-WriteUp	qq.com	mp.weixin.qq.com	/s/EN8cch8uO8Qnfb_eewbw9w
+20190805	比赛	https://mp.weixin.qq.com/s/rCqposktwlWdYjVfY4K1lA	De1CTF 2019-WriteUp-PWN	qq.com	mp.weixin.qq.com	/s/rCqposktwlWdYjVfY4K1lA
+20190805	取证分析	https://gitee.com/lauix/HFish	HFish: 一款企业安全主动攻击型蜜罐钓鱼框架系统	gitee.com	gitee.com	/lauix/HFish
+20190805	Web安全	https://mp.weixin.qq.com/s/Vh1ZyAIQjGY1WSomN7HWgQ	ATT&CK之后门持久化（二）	qq.com	mp.weixin.qq.com	/s/Vh1ZyAIQjGY1WSomN7HWgQ
+20190805	漏洞分析	https://nosec.org/home/detail/2835.html	Capital One银行数据泄漏事件分析	nosec.org	nosec.org	/home/detail/2835.html
+20190805	漏洞分析	https://mp.weixin.qq.com/s/b4_OdxgxsK8CCU5b8qCEfw	NLP技术也能帮助程序分析	qq.com	mp.weixin.qq.com	/s/b4_OdxgxsK8CCU5b8qCEfw
+20190805	恶意分析	https://blog.netlab.360.com/some-fiberhome-routers-are-being-utilized-as-ssh-tunneling-proxy-nodes/	一些Fiberhome路由器正在被利用为SSH隧道代理节点	360.com	blog.netlab.360.com	/some-fiberhome-routers-are-being-utilized-as-ssh-tunneling-proxy-nodes/
+20190805	Web安全	https://nullsweep.com/http-security-headers-a-complete-guide/	HTTP Security Headers - A Complete Guide	nullsweep.com	nullsweep.com	/http-security-headers-a-complete-guide/
+20190805	设备安全	https://www.anquanke.com/post/id/183326	分析Belkin SURF路由器中的多个漏洞	anquanke.com	www.anquanke.com	/post/id/183326
+20190805	漏洞分析	https://anhkgg.com/wechat-pc-study-technical-article-sets/	微信逆向分析相关研究技术文章收集	anhkgg.com	anhkgg.com	/wechat-pc-study-technical-article-sets/
+20190805	设备安全	https://www.freebuf.com/vuls/208779.html	一个工控漏洞引发的思考（续）	freebuf.com	www.freebuf.com	/vuls/208779.html
+20190805	Web安全	https://www.freebuf.com/articles/network/210027.html	HTTPS劫持研究	freebuf.com	www.freebuf.com	/articles/network/210027.html
+20190805	Web安全	https://github.com/zer0yu/Berserker	Berserker-针对Pentest或者CTF的一个fuzz payload项目	github.com	github.com	/zer0yu/Berserker
+20190805	其它	https://mp.weixin.qq.com/s/6_cEwkqFX-oeuLk6thZUcQ	​利用无人机通过激光与物理隔离设备建立隐蔽信道	qq.com	mp.weixin.qq.com	/s/6_cEwkqFX-oeuLk6thZUcQ
+20190805	杂志	https://www.sec-wiki.com/weekly/283	SecWiki周刊（第283期)	sec-wiki.com	www.sec-wiki.com	/weekly/283
+20190805	编程技术	https://mp.weixin.qq.com/s/wna8pBu1s_jNI8kDeBGEwA	一次美丽的误会引发对函数调用保护的思考	qq.com	mp.weixin.qq.com	/s/wna8pBu1s_jNI8kDeBGEwA
+20190805	设备安全	https://medium.com/cruise/firmware-security-fwanalyzer-dcbd95cef717	Automating Firmware Security with FwAnalyzer	medium.com	medium.com	/cruise/firmware-security-fwanalyzer-dcbd95cef717
+20190805	漏洞分析	https://www.anquanke.com/post/id/183330	Fuzz闭源的PDF阅读器	anquanke.com	www.anquanke.com	/post/id/183330
+20190805	Web安全	https://xz.aliyun.com/t/5887	CobaltStrike插件开发官方指南 Part1	aliyun.com	xz.aliyun.com	/t/5887
+20190805	漏洞分析	https://a13xp0p0v.github.io/2019/08/10/cfu.html	Case study: Searching for a vulnerability pattern in the Linux kernel	github.io	a13xp0p0v.github.io	/2019/08/10/cfu.html
+20190805	漏洞分析	http://blog.orange.tw/2019/08/attacking-ssl-vpn-part-2-breaking-the-fortigate-ssl-vpn.html	Attacking SSL VPN - Part 2: Breaking the Fortigate SSL VPN	orange.tw	blog.orange.tw	/2019/08/attacking-ssl-vpn-part-2-breaking-the-fortigate-ssl-vpn.html
+20190805	漏洞分析	https://labs.bluefrostsecurity.de/blog/2019/08/08/escaping-the-chrome-sandbox-via-an-indexeddb-race-condition/	Escaping the Chrome Sandbox via an IndexedDB Race Condition	bluefrostsecurity.de	labs.bluefrostsecurity.de	/blog/2019/08/08/escaping-the-chrome-sandbox-via-an-indexeddb-race-condition/
+20190805	恶意分析	https://github.com/NotMedic/rdp-tunnel	rdp-tunnel: Pre-compiled tools to tunnel TCP over RDP Connections	github.com	github.com	/NotMedic/rdp-tunnel
+20190805	设备安全	https://xz.aliyun.com/t/5884	SURF路由器安全漏洞研究	aliyun.com	xz.aliyun.com	/t/5884
+20190805	工具	https://github.com/Ch1ngg/AggressorScript-CreateCloneHiddenAccount	AggressorScript-CreateCloneHiddenAccount	github.com	github.com	/Ch1ngg/AggressorScript-CreateCloneHiddenAccount
+20190805	Web安全	https://xz.aliyun.com/t/5892	CobaltStrike插件开发官方指南 Part2	aliyun.com	xz.aliyun.com	/t/5892

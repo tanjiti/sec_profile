@@ -12,12 +12,12 @@ from mills import get_special_date
 import visual
 
 
-def scraw():
+def scraw(proxy=None):
     """
 
     :return:
     """
-    proxy = None
+
     so = SQLiteOper("data/scrap.db")
 
     secwiki_scraw(so, proxy=proxy, delta=3)
@@ -41,7 +41,12 @@ def update_github():
 if __name__ == "__main__":
     """
     """
-    scraw()
+    proxy = {
+        "socks:": "socks://127.0.0.1:8420",
+
+    }
+
+    scraw(proxy=proxy)
 
     visual.draw_readme()
 
