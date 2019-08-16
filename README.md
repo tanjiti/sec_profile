@@ -27,7 +27,7 @@
 | 威胁情报小屋 |  | https://mp.weixin.qq.com/s/IrM60hbB6dWdbWxpFbO1lA | 海莲花攻击手法概述 | 1| 
 | 安全学术圈 | secquan | https://mp.weixin.qq.com/s/6_cEwkqFX-oeuLk6thZUcQ | ​利用无人机通过激光与物理隔离设备建立隐蔽信道 | 2| 
 | 水滴安全实验室 | EversecLab | https://mp.weixin.qq.com/s/KPw81stOcBthxZHlanS0BA | 物联网固件漏洞挖掘——经典命令执行漏洞分析复现 | 1| 
-| 汉客儿 |  | https://mp.weixin.qq.com/s/wna8pBu1s_jNI8kDeBGEwA | 一次美丽的误会引发对函数调用保护的思考 | 1| 
+| 汉客儿 |  | https://mp.weixin.qq.com/s/wna8pBu1s_jNI8kDeBGEwA | 一次美丽的误会引发对函数调用保护的思考 | 2| 
 | 绿盟科技 | NSFOCUS-weixin | https://mp.weixin.qq.com/s/pHYpHw1PuLddW2NJZZzA6A | 2019TechWorld技术嘉年华精华大放送【附PPT下载】 | 1| 
 | 孟极实验室 | mengjiteam | https://mp.weixin.qq.com/s/HDZUsTbffeGhgwu1FOWQNg | 一条命令实现端口复用后门 | 1| 
 
@@ -36,8 +36,9 @@
 | github_id | title | url | org_url | org_profile | org_geo | org_repositories | org_people | org_projects | repo_lang | repo_star | repo_forks| 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | pywinauto | pywinauto - Python 实现的 Windows 平台 GUI 自动化测试工具，可以向 UI 组件发送鼠标和键盘事件 | https://github.com/pywinauto/pywinauto | http://pywinauto.github.io/ | Windows GUI Automation with Python | http://pywinauto.github.io/ | 0 | 0 | 0 | Python,CSS,C++ | 1600 | 337 | 1| 
-| nccgroup | nccgroup团队基于Sulley构造的一个对网络协议进行模糊测试的工具。 | https://github.com/nccgroup/fuzzowski | https://www.nccgroup.trust | Please report all security issues to security at nccgroup dot com | Global | 0 | 0 | 0 | C,Shell,Java,Python,JavaScript,C++,C#,HTML,Elixir,Ruby,PowerShell,Rust | 760 | 104 | 1| 
+| nccgroup | fuzzowski: the Network Protocol Fuzzer that we will want t... | https://github.com/nccgroup/fuzzowski | https://www.nccgroup.trust | Please report all security issues to security at nccgroup dot com | Global | 0 | 0 | 0 | C,Shell,Java,Python,JavaScript,C++,C#,HTML,Elixir,Ruby,PowerShell,Rust | 760 | 104 | 1| 
 | CENSUS | Windows 10 RS2/RS3 Bypass GDI pushlock Mitigation 的两个技巧 | https://github.com/CENSUS/windows_10_rs2_rs3_exploitation_primitives | http://census-labs.com/ |  | Greece | 0 | 0 | 0 | Python,C++ | 0 | 0 | 1| 
+| Netflix | Several DoS conditions in certain HTTP/2 implementations | https://github.com/Netflix/security-bulletins/blob/master/advisories/third-party/2019-002.md | http://netflix.github.io/ | Netflix Open Source Platform | Los Gatos, California | 0 | 0 | 0 | Groovy,TypeScript,Java,Scala,Python,JavaScript,C++,Shell,Go,Clojure,Ruby | 0 | 0 | 1| 
 | Riscure | 用AFL Fuzz OP-TEE的系统调用 | https://github.com/Riscure/optee_fuzzer | http://www.riscure.com | Riscure Security Lab | http://www.riscure.com | 0 | 0 | 0 | Python,C,Julia | 0 | 0 | 1| 
 | ssd-secure-disclosure | 详细介绍了iOS安全缓解措施的一步步进化 | https://github.com/ssd-secure-disclosure/typhooncon2019/blob/master/Siguza%20-%20Mitigations.pdf | https://ssd-disclosure.com/ | SSD helps security researchers turn their skills in uncovering security vulnerabilities into a career. | https://ssd-disclosure.com/ | 0 | 0 | 0 | Python,C | 0 | 0 | 1| 
 | ucsb-seclab | sasi：基于Angr来清除二进制中冗余代码的工具，相对已有工具的性能提高主要来源于它能更加准确完整地恢复CFG | https://github.com/ucsb-seclab/sasi | http://seclab.cs.ucsb.edu | The Computer Security Group at UC Santa Barbara | Santa Barbara | 0 | 0 | 0 | Python,C,Java,C++ | 0 | 0 | 1| 
@@ -47,7 +48,7 @@
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | s0md3v | goop: Google Search Scraper | https://github.com/s0md3v/goop | https://github.com/s0md3v | I make things, I break things and I make things that break things. Twitter: @s0md3v | None | None | 31 | 0 | 0 | 2600 | 0 | Python,JavaScript | 6900 | 868 | 1| 
-| smealum | 爱感（LOVENSE）Hush 情趣用品的漏洞利用代码 | https://github.com/smealum/butthax | http://smealum.net |  | None | None | 38 | 0 | 15 | 1200 | 2 | C,Assembly | 468 | 137 | 1| 
+| smealum | butthax: lovense hush buttplug exploit chain | https://github.com/smealum/butthax | http://smealum.net |  | None | None | 38 | 0 | 15 | 1200 | 2 | C,Assembly | 468 | 137 | 1| 
 | jas502n | 开源企业搜索平台 Solr 被发现 DataImport Handler RCE | https://github.com/jas502n/CVE-2019-0193 | None | 1.misc 2.crypto 3. web 4. reverse 5. android 6. pwn 7. elf | None | None | 160 | 0 | 174 | 1100 | 134 | Python,C#,C,Shell | 301 | 110 | 1| 
 | shmilylty | OneForAll 一款功能强大的子域收集工具 | https://github.com/shmilylty/OneForAll | https://github.com/Qihoo360 | Information security researcher, CTF enthusiast. | Beijing, China | @Qihoo360 | 108 | 0 | 992 | 753 | 116 | Python,Go,JavaScript,HTML | 747 | 216 | 1| 
 | Kevin-Robertson | Windows网络协议层攻击套件包括 SMB LLMNR NBNS mDNS DNS | https://github.com/Kevin-Robertson/InveighZero | https://github.com/NetSPI |  | None | @NetSPI | 7 | 0 | 226 | 364 | 8 | C#,PowerShell | 929 | 231 | 1| 
