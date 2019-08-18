@@ -45,6 +45,7 @@ if __name__ == "__main__":
         "socks:": "socks://127.0.0.1:8420",
 
     }
+    proxy = None
 
     scraw(proxy=proxy)
 
