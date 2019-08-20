@@ -18,6 +18,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| PolarisLab | PolarisLab | https://mp.weixin.qq.com/s/wnCWeZqXDqbas6HBOxhBlw | 利用SSH隧道反弹Shell | 1| 
+| 小强说 | xiaoqiangcall | https://mp.weixin.qq.com/s/zbAwTDZ5IuRCMkuIDo82Cw | 从ATT&CK看威胁情报的发展和应用趋势 | 1| 
+| 道法术 |  | https://mp.weixin.qq.com/s/sedpOhSxEGSdaxX8SACIMA | [法]从SOAR中求解应用安全建设强运营突围之法 | 1| 
 | 奇安信 CERT |  | https://mp.weixin.qq.com/s/qxkV_7MZVhUYYq5QGcwCtQ | WebLogic安全研究报告 | 1| 
 | 安全喷子 |  | https://mp.weixin.qq.com/s/xxU0R5eVcP_42VVd2DQeXQ | 网络安全“圣地”之行 | 1| 
 | APT攻击 | cncg_team | https://mp.weixin.qq.com/s/d9AYfW9r8RjCZxxs9jjheA | APT29之来去影无踪——特殊的CnC渠道 | 1| 
@@ -36,7 +39,7 @@
 | github_id | title | url | org_url | org_profile | org_geo | org_repositories | org_people | org_projects | repo_lang | repo_star | repo_forks| 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | pywinauto | pywinauto - Python 实现的 Windows 平台 GUI 自动化测试工具，可以向 UI 组件发送鼠标和键盘事件 | https://github.com/pywinauto/pywinauto | http://pywinauto.github.io/ | Windows GUI Automation with Python | http://pywinauto.github.io/ | 0 | 0 | 0 | Python,CSS,C++ | 1600 | 337 | 1| 
-| nccgroup | fuzzowski: the Network Protocol Fuzzer that we will want t... | https://github.com/nccgroup/fuzzowski | https://www.nccgroup.trust | Please report all security issues to security at nccgroup dot com | Global | 0 | 0 | 0 | C,Shell,Java,Python,JavaScript,C++,C#,HTML,Elixir,Ruby,PowerShell,Rust | 760 | 104 | 1| 
+| nccgroup | fuzzowski: the Network Protocol Fuzzer that we will want to use. | https://github.com/nccgroup/fuzzowski | https://www.nccgroup.trust | Please report all security issues to security at nccgroup dot com | Global | 0 | 0 | 0 | C,Shell,Java,Python,JavaScript,C++,C#,HTML,Elixir,Ruby,PowerShell,Rust | 760 | 104 | 1| 
 | nowsecure | NowSecure 开源的一款用于剖析 iOS/macOS Apple AirDrop 协议的工具，基于 Frida 实现 | https://github.com/nowsecure/airspy | https://www.nowsecure.com | We secure Mobile Devices, Enterprises, & Mobile Apps | https://www.nowsecure.com | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,SaltStack,CSS | 435 | 99 | 1| 
 | CENSUS | Windows 10 RS2/RS3 Bypass GDI pushlock Mitigation 的两个技巧 | https://github.com/CENSUS/windows_10_rs2_rs3_exploitation_primitives | http://census-labs.com/ |  | Greece | 0 | 0 | 0 | Python,C++ | 0 | 0 | 1| 
 | Netflix | Several DoS conditions in certain HTTP/2 implementations | https://github.com/Netflix/security-bulletins/blob/master/advisories/third-party/2019-002.md | http://netflix.github.io/ | Netflix Open Source Platform | Los Gatos, California | 0 | 0 | 0 | Groovy,TypeScript,Java,Scala,Python,JavaScript,C++,Shell,Go,Clojure,Ruby | 0 | 0 | 1| 
@@ -52,7 +55,7 @@
 | smealum | butthax: lovense hush buttplug exploit chain | https://github.com/smealum/butthax | http://smealum.net |  | None | None | 38 | 0 | 15 | 1200 | 2 | C,Assembly | 468 | 137 | 1| 
 | jas502n | 开源企业搜索平台 Solr 被发现 DataImport Handler RCE | https://github.com/jas502n/CVE-2019-0193 | None | 1.misc 2.crypto 3. web 4. reverse 5. android 6. pwn 7. elf | None | None | 160 | 0 | 174 | 1100 | 134 | Python,C#,C,Shell | 301 | 110 | 1| 
 | shmilylty | OneForAll 一款功能强大的子域收集工具 | https://github.com/shmilylty/OneForAll | https://github.com/Qihoo360 | Information security researcher, CTF enthusiast. | Beijing, China | @Qihoo360 | 108 | 0 | 992 | 753 | 116 | Python,Go,JavaScript,HTML | 747 | 216 | 1| 
-| secrary | Dr.Semu - Malware Detection and Classification Tool Based ... | https://github.com/secrary/DrSemu | https://secrary.com | @_qaz_qaz | https://keybase.io/khasaia | None | 19 | 0 | 200 | 393 | 20 | Python,C++ | 871 | 186 | 1| 
+| secrary | Dr.Semu - Malware Detection and Classification Tool Based on Dynamic Behavior | https://github.com/secrary/DrSemu | https://secrary.com | @_qaz_qaz | https://keybase.io/khasaia | None | 19 | 0 | 200 | 393 | 20 | Python,C++ | 871 | 186 | 1| 
 | Kevin-Robertson | Windows网络协议层攻击套件包括 SMB LLMNR NBNS mDNS DNS | https://github.com/Kevin-Robertson/InveighZero | https://github.com/NetSPI |  | None | @NetSPI | 7 | 0 | 226 | 364 | 8 | C#,PowerShell | 929 | 231 | 1| 
 | zer0yu | Berserker-针对Pentest或者CTF的一个fuzz payload项目 | https://github.com/zer0yu/Berserker | http://zeroyu.xyz/ | Red Team@PolarisLab / CTFer->Web@LZ | None | None | 34 | 0 | 2300 | 268 | 1300 | Python,HTML,CSS | 292 | 43 | 1| 
 | rk700 | 之前推过AFL-Unicorn项目可以让AFL fuzz能用Unicorn模拟的闭源binary，这个uniFuzzer项目很类似，是要把libfuzzer应用在闭源binary上 | https://github.com/rk700/uniFuzzer// | http://rk700.github.io |  | None | None | 18 | 0 | 57 | 248 | 2 | Python,C,Java | 606 | 161 | 1| 
@@ -64,17 +67,22 @@
 | rockbruno | swiftshield - Swift/OBJ-C 代码混淆工具 | https://github.com/rockbruno/swiftshield | https://github.com/ifood | Software Engineer (iOS) at @ifood, Writer https://swiftrocks.com | Brazil | @ifood | 41 | 0 | 15 | 159 | 0 | Java,Ruby,Swift,C++ | 48700 | 7800 | 1| 
 | lazyparser | SpiderMonkey Internals - SpiderMonkey JavaScript 引擎学习相关的笔记 | https://github.com/lazyparser/spidermonkey-internals | http://lazyparser.com |  | None | None | 48 | 0 | 199 | 134 | 62 | HTML | 93 | 53 | 1| 
 | brompwnie | Break out the Box (BOtB) - Blackhat Arsenal 会议上公开的一款用于容器分析和常见容器漏洞利用的工具 | https://github.com/brompwnie/botb/releases/tag/1.2.0 | https://twitter.com/brompwnie | Keyboard wrangler ⌨️ | None | None | 18 | 0 | 9 | 62 | 14 | CSS,Go,Java,Smali,C++ | 462 | 213 | 1| 
+| shogunlab | Hyper-V 漏洞及利用相关的资料收集 | https://github.com/shogunlab/awesome-hyper-v-exploitation | http://www.shogunlab.com | Vulnerability Researcher at Shogun Lab. The lab was started to help organizations find security flaws in their software. | Canada | Shogun Lab | 8 | 0 | 395 | 49 | 24 | Python,Swift,Ruby | 114 | 27 | 1| 
 | NotMedic | rdp-tunnel: Pre-compiled tools to tunnel TCP over RDP Conn... | https://github.com/NotMedic/rdp-tunnel | None |  | None | None | 16 | 0 | 2 | 40 | 0 | HTML,C,JavaScript,PowerShell,C++ | 219 | 36 | 1| 
 | dahall | Vanara - 方便从 .NET 调用 Windows Native API 而写的 .NET 字节码库 | https://github.com/dahall/Vanara | None | Ive been writing and designing code for over 20 years for both commercial and open source use. I work as a CTO for tech firm. | United States | None | 14 | 0 | 2 | 38 | 0 | C# | 304 | 69 | 1| 
 | superhedgy | AttackSurfaceMapper - 一款开源的情报搜集工具 | https://github.com/superhedgy/AttackSurfaceMapper | https://github.com/SpiderLabs | Just another InfoSec Ninja! My Latest open source tool is HostHunter: github.com/SpiderLabs/HostHunter/ | United Kingdom | @SpiderLabs | 4 | 0 | 89 | 34 | 11 | Python,Shell | 292 | 41 | 1| 
 | artsploit | solr-injection: Apache Solr Injection Research | https://github.com/artsploit/solr-injection | https://artsploit.blogspot.com/ |  | None | Veracode | 5 | 0 | 8 | 28 | 0 | PHP,Java | 191 | 16 | 1| 
 | Ch1ngg | AggressorScript-CreateCloneHiddenAccount | https://github.com/Ch1ngg/AggressorScript-CreateCloneHiddenAccount | https://www.ch1ng.com/ |  | no | no | 7 | 0 | 99 | 21 | 14 | C#,Python,ASP,Java,PowerShell | 16 | 5 | 2| 
+| vigneshsrao | CVE-2019-11707 Firefox IonMonkey JIT类型混淆漏洞的完整exploit利用代码。 | https://github.com/vigneshsrao/CVE-2019-11707 | https://github.com/teambi0s | Cyber Security Enthusiast. Does pwning and forensics for Team bi0s. | None | @teambi0s | 24 | 0 | 4 | 21 | 5 | Python,JavaScript,Java | 22 | 4 | 1| 
 | baronpan | SysmonHunter：一个简单的基于ATT&CK的Sysmon日志狩猎工具 | https://github.com/baronpan/SysmonHunter | http://threatmobile.blogspot.com |  | None | None | 11 | 0 | 10 | 17 | 5 | Python,Batchfile,JavaScript,Java,PowerShell | 31 | 7 | 1| 
 | butterflyhack | linux蓝牙模块空指针引用漏洞PoC。 | https://github.com/butterflyhack/CVE-2019-10207/ | None |  | None | None | 129 | 0 | 19 | 13 | 28 | Python,C,Java | 15 | 7 | 1| 
 | kabachook | Kubernetes 容器管理系统安全相关的资料收集 | https://github.com/kabachook/k8s-security | None | Making coziness via tech. Fan of Docker🐋 and CTF🚩, do backend(Nodejs and Python), done a bit of ML, also DevOps | None | None | 11 | 0 | 160 | 11 | 5 | Jupyter,Shell,JavaScript,PHP | 10 | 1 | 1| 
 | chame1eon | jni 函数调用 trace 模块，基于 frida | https://github.com/chame1eon/jnitrace | None |  | None | None | 3 | 0 | 0 | 5 | 0 | Python,Lua,JavaScript | 71 | 9 | 1| 
 | lion-gu | IOC Explorer：自动化关联失陷指标的工具 | https://github.com/lion-gu/ioc-explorer | None |  | None | None | 1 | 0 | 3 | 2 | 0 | Python | 22 | 2 | 1| 
 | MegadodoPublications | Mautic Remote Code Execution | https://github.com/MegadodoPublications/exploits/blob/master/mautic.md | None |  | Germany | None | 1 | 0 | 0 | 1 | 0 |  | 4 | 1 | 1| 
+| PSGumshoe | 用于从 Windows 各类日志和缓存中收集取证信息的 PowerShell 模块 | https://github.com/PSGumshoe/PSGumshoe/releases/tag/v1.1 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | PowerShell | 0 | 0 | 1| 
+| SCUBSRGroup | SCUBSRGroup 整理的关于软件漏洞自动化利用（AEG）方向的技术资料 | https://github.com/SCUBSRGroup/Automatic-Exploit-Generation | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,HTML,C++ | 28 | 13 | 1| 
+| fkie-cad | 嵌入式与 IoT 安全方向的资料 | https://github.com/fkie-cad/awesome-embedded-and-iot-security | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Python,OCaml,C++,Emacs,Dockerfile | 0 | 0 | 1| 
 
 
 
