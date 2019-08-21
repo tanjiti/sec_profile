@@ -18,6 +18,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| TideSec安全团队 | TideSec | https://mp.weixin.qq.com/s/FcX6C-3mXckmRe0J-TTsfA | 【移动安全】安卓常见脱壳方法 | 3| 
+| 网信军民融合 | wxjmrh | https://mp.weixin.qq.com/s/lHTNtsA6Pc-FGGoQoO6AUw | “战斗民族”俄罗斯网络空间作战研究 | 1| 
+| 小米安全中心 | misrc_team | https://mp.weixin.qq.com/s/urbFms6AiUb7uu_IGj3LXQ | 【技术分享】漏洞扫描技巧篇-Web 漏洞扫描器 | 1| 
 | PolarisLab | PolarisLab | https://mp.weixin.qq.com/s/wnCWeZqXDqbas6HBOxhBlw | 利用SSH隧道反弹Shell | 1| 
 | 小强说 | xiaoqiangcall | https://mp.weixin.qq.com/s/zbAwTDZ5IuRCMkuIDo82Cw | 从ATT&CK看威胁情报的发展和应用趋势 | 1| 
 | 道法术 |  | https://mp.weixin.qq.com/s/sedpOhSxEGSdaxX8SACIMA | [法]从SOAR中求解应用安全建设强运营突围之法 | 1| 
@@ -28,7 +31,7 @@
 | SIGAI | SIGAICN | https://mp.weixin.qq.com/s/b4_OdxgxsK8CCU5b8qCEfw | NLP技术也能帮助程序分析？ | 1| 
 | 天融信阿尔法实验室 |  | https://mp.weixin.qq.com/s/SavldFETaFea3l7kVX2RyA | ATT&CK之后门持久化（一） | 2| 
 | 威胁情报小屋 |  | https://mp.weixin.qq.com/s/IrM60hbB6dWdbWxpFbO1lA | 海莲花攻击手法概述 | 1| 
-| 安全学术圈 | secquan | https://mp.weixin.qq.com/s/6_cEwkqFX-oeuLk6thZUcQ | ​利用无人机通过激光与物理隔离设备建立隐蔽信道 | 2| 
+| 安全学术圈 | secquan | https://mp.weixin.qq.com/s/6_cEwkqFX-oeuLk6thZUcQ | ​利用无人机通过激光与物理隔离设备建立隐蔽信道 | 3| 
 | 水滴安全实验室 | EversecLab | https://mp.weixin.qq.com/s/KPw81stOcBthxZHlanS0BA | 物联网固件漏洞挖掘——经典命令执行漏洞分析复现 | 1| 
 | 汉客儿 |  | https://mp.weixin.qq.com/s/wna8pBu1s_jNI8kDeBGEwA | 一次美丽的误会引发对函数调用保护的思考 | 2| 
 | 绿盟科技 | NSFOCUS-weixin | https://mp.weixin.qq.com/s/pHYpHw1PuLddW2NJZZzA6A | 2019TechWorld技术嘉年华精华大放送【附PPT下载】 | 1| 
