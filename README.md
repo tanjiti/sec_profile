@@ -18,6 +18,11 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| baronpan |  | https://mp.weixin.qq.com/s/nqQmlWcemAGopy898I4cNg | 基于 ATT&CK 的 APT 威胁跟踪和狩猎 | 1| 
+| 安全牛 | aqniu-wx | https://mp.weixin.qq.com/s/EeKghha0lKOIhJgB1sHKEg | 80 余家参展商：BCS 2019 盛况空前 | 2| 
+| 天御攻防实验室 | TianyuLab | https://mp.weixin.qq.com/s/CzrQoLdpVUHrXGTMrkWHPQ | 实战化ATT&CK™：威胁情报 | 2| 
+| 绿盟科技研究通讯 | nsfocus_research | https://mp.weixin.qq.com/s/j9eXRPu_YYLGyzFiz2fj4g | NDSS 2019议题解读：从运营商角度清除Mirai僵尸网络 | 1| 
+| 网络空间安全军民融合创新中心 | jmrh1226 | https://mp.weixin.qq.com/s/eTqE3GXnyvutwJ5MAkaR7g | 美军网络空间军事思想与能力体系综述 | 1| 
 | TideSec安全团队 | TideSec | https://mp.weixin.qq.com/s/FcX6C-3mXckmRe0J-TTsfA | 【移动安全】安卓常见脱壳方法 | 3| 
 | 网信军民融合 | wxjmrh | https://mp.weixin.qq.com/s/lHTNtsA6Pc-FGGoQoO6AUw | “战斗民族”俄罗斯网络空间作战研究 | 1| 
 | 小米安全中心 | misrc_team | https://mp.weixin.qq.com/s/urbFms6AiUb7uu_IGj3LXQ | 【技术分享】漏洞扫描技巧篇-Web 漏洞扫描器 | 1| 
@@ -44,9 +49,11 @@
 | pywinauto | pywinauto - Python 实现的 Windows 平台 GUI 自动化测试工具，可以向 UI 组件发送鼠标和键盘事件 | https://github.com/pywinauto/pywinauto | http://pywinauto.github.io/ | Windows GUI Automation with Python | http://pywinauto.github.io/ | 0 | 0 | 0 | Python,CSS,C++ | 1600 | 337 | 1| 
 | nccgroup | fuzzowski: the Network Protocol Fuzzer that we will want to use. | https://github.com/nccgroup/fuzzowski | https://www.nccgroup.trust | Please report all security issues to security at nccgroup dot com | Global | 0 | 0 | 0 | C,Shell,Java,Python,JavaScript,C++,C#,HTML,Elixir,Ruby,PowerShell,Rust | 760 | 104 | 1| 
 | nowsecure | NowSecure 开源的一款用于剖析 iOS/macOS Apple AirDrop 协议的工具，基于 Frida 实现 | https://github.com/nowsecure/airspy | https://www.nowsecure.com | We secure Mobile Devices, Enterprises, & Mobile Apps | https://www.nowsecure.com | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,SaltStack,CSS | 435 | 99 | 1| 
+| BlueTeamLabs | 利用 Sysmon 和 MITRE ATT&CK 框架实现威胁检测的实践 | https://github.com/BlueTeamLabs/sentinel-attack | https://blueteamlabs.io |  | https://blueteamlabs.io | 0 | 0 | 0 | Jupyter | 0 | 0 | 1| 
 | CENSUS | Windows 10 RS2/RS3 Bypass GDI pushlock Mitigation 的两个技巧 | https://github.com/CENSUS/windows_10_rs2_rs3_exploitation_primitives | http://census-labs.com/ |  | Greece | 0 | 0 | 0 | Python,C++ | 0 | 0 | 1| 
 | Netflix | Several DoS conditions in certain HTTP/2 implementations | https://github.com/Netflix/security-bulletins/blob/master/advisories/third-party/2019-002.md | http://netflix.github.io/ | Netflix Open Source Platform | Los Gatos, California | 0 | 0 | 0 | Groovy,TypeScript,Java,Scala,Python,JavaScript,C++,Shell,Go,Clojure,Ruby | 0 | 0 | 1| 
 | Riscure | 用AFL Fuzz OP-TEE的系统调用 | https://github.com/Riscure/optee_fuzzer | http://www.riscure.com | Riscure Security Lab | http://www.riscure.com | 0 | 0 | 0 | Python,C,Julia | 0 | 0 | 1| 
+| qilingframework | Qiling - 二进制模拟执行框架，可以以沙箱模式模拟执行多种架构的代码 | https://github.com/qilingframework/qiling | None | Cross Platform and Multi Architecture Lightweight Sandbox | qiling.io | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | ssd-secure-disclosure | 详细介绍了iOS安全缓解措施的一步步进化 | https://github.com/ssd-secure-disclosure/typhooncon2019/blob/master/Siguza%20-%20Mitigations.pdf | https://ssd-disclosure.com/ | SSD helps security researchers turn their skills in uncovering security vulnerabilities into a career. | https://ssd-disclosure.com/ | 0 | 0 | 0 | Python,C | 0 | 0 | 1| 
 | ucsb-seclab | sasi：基于Angr来清除二进制中冗余代码的工具，相对已有工具的性能提高主要来源于它能更加准确完整地恢复CFG | https://github.com/ucsb-seclab/sasi | http://seclab.cs.ucsb.edu | The Computer Security Group at UC Santa Barbara | Santa Barbara | 0 | 0 | 0 | Python,C,Java,C++ | 0 | 0 | 1| 
 
@@ -62,6 +69,7 @@
 | fdiskyou | 用于枚举进程 Mitigation 状态的 WinDbg 调试器插件 | https://github.com/fdiskyou/iris | http://deniable.org | Shut Up and Hack. | London, UK | None | 65 | 0 | 125 | 547 | 28 | Python,C,C++ | 862 | 258 | 1| 
 | secrary | Dr.Semu - Malware Detection and Classification Tool Based on Dynamic Behavior | https://github.com/secrary/DrSemu | https://secrary.com | @_qaz_qaz | https://keybase.io/khasaia | None | 19 | 0 | 200 | 393 | 20 | Python,C++ | 871 | 186 | 1| 
 | Kevin-Robertson | Windows网络协议层攻击套件包括 SMB LLMNR NBNS mDNS DNS | https://github.com/Kevin-Robertson/InveighZero | https://github.com/NetSPI |  | None | @NetSPI | 7 | 0 | 226 | 364 | 8 | C#,PowerShell | 929 | 231 | 1| 
+| caseysmithrc | 在 Windows Script Hosts 的上下文中执行任意 .NET 汇编代码，来自 DerbyCon2019 | https://github.com/caseysmithrc/DerbyCon2019 | None |  | None | None | 234 | 0 | 7 | 330 | 0 | C,C#,C++,F#,Go,PHP,Ruby,PowerShell | 55 | 25 | 1| 
 | zer0yu | Berserker-针对Pentest或者CTF的一个fuzz payload项目 | https://github.com/zer0yu/Berserker | http://zeroyu.xyz/ | Red Team@PolarisLab / CTFer->Web@LZ | None | None | 34 | 0 | 2300 | 268 | 1300 | Python,HTML,CSS | 292 | 43 | 1| 
 | rk700 | 之前推过AFL-Unicorn项目可以让AFL fuzz能用Unicorn模拟的闭源binary，这个uniFuzzer项目很类似，是要把libfuzzer应用在闭源binary上 | https://github.com/rk700/uniFuzzer// | http://rk700.github.io |  | None | None | 18 | 0 | 57 | 248 | 2 | Python,C,Java | 606 | 161 | 1| 
 | RUB-SysSec | 波鸿鲁尔大学关于如何在二进制程序中对抗 Fuzz 自动化发现漏洞的研究 | https://github.com/RUB-SysSec/antifuzz | https://syssec.rub.de |  | Bochum, Germany | Ruhr-University Bochum | 22 | 0 | 0 | 241 | 0 | Python,C,C++ | 381 | 104 | 1| 
@@ -75,11 +83,12 @@
 | Mel0day | BCS 2019 红队行动会议重点内容 | https://github.com/Mel0day/RedTeam-BCS | None |  | None | None | 116 | 0 | 304 | 91 | 20 | Python,Ruby | 210 | 56 | 1| 
 | brompwnie | Break out the Box (BOtB) - Blackhat Arsenal 会议上公开的一款用于容器分析和常见容器漏洞利用的工具 | https://github.com/brompwnie/botb/releases/tag/1.2.0 | https://twitter.com/brompwnie | Keyboard wrangler ⌨️ | None | None | 18 | 0 | 9 | 62 | 14 | CSS,Go,Java,Smali,C++ | 462 | 213 | 1| 
 | shogunlab | Hyper-V 漏洞及利用相关的资料收集 | https://github.com/shogunlab/awesome-hyper-v-exploitation | http://www.shogunlab.com | Vulnerability Researcher at Shogun Lab. The lab was started to help organizations find security flaws in their software. | Canada | Shogun Lab | 8 | 0 | 395 | 49 | 24 | Python,Swift,Ruby | 114 | 27 | 1| 
+| sailay1996 | Windows 10 LPE (UAC Bypass) in Windows Store (WSReset.exe) | https://github.com/sailay1996/UAC_bypass_windows_store | https://heynowyouseeme.blogspot.com/ | @404death | Myanmar | None | 169 | 0 | 5 | 41 | 2 | C,Shell,Python,JavaScript,C++,PowerShell | 75 | 23 | 1| 
 | NotMedic | rdp-tunnel: Pre-compiled tools to tunnel TCP over RDP Conn... | https://github.com/NotMedic/rdp-tunnel | None |  | None | None | 16 | 0 | 2 | 40 | 0 | HTML,C,JavaScript,PowerShell,C++ | 219 | 36 | 1| 
 | dahall | Vanara - 方便从 .NET 调用 Windows Native API 而写的 .NET 字节码库 | https://github.com/dahall/Vanara | None | Ive been writing and designing code for over 20 years for both commercial and open source use. I work as a CTO for tech firm. | United States | None | 14 | 0 | 2 | 38 | 0 | C# | 304 | 69 | 1| 
 | superhedgy | AttackSurfaceMapper - 一款开源的情报搜集工具 | https://github.com/superhedgy/AttackSurfaceMapper | https://github.com/SpiderLabs | Just another InfoSec Ninja! My Latest open source tool is HostHunter: github.com/SpiderLabs/HostHunter/ | United Kingdom | @SpiderLabs | 4 | 0 | 89 | 34 | 11 | Python,Shell | 292 | 41 | 1| 
 | artsploit | solr-injection: Apache Solr Injection Research | https://github.com/artsploit/solr-injection | https://artsploit.blogspot.com/ |  | None | Veracode | 5 | 0 | 8 | 28 | 0 | PHP,Java | 191 | 16 | 1| 
-| Ch1ngg | AggressorScript-CreateCloneHiddenAccount | https://github.com/Ch1ngg/AggressorScript-CreateCloneHiddenAccount | https://www.ch1ng.com/ |  | no | no | 7 | 0 | 99 | 21 | 14 | C#,Python,ASP,Java,PowerShell | 16 | 5 | 2| 
+| Ch1ngg | AggressorScript-CreateCloneHiddenAccount | https://github.com/Ch1ngg/AggressorScript-CreateCloneHiddenAccount | https://www.ch1ng.com/ |  | no | no | 7 | 0 | 99 | 21 | 14 | C#,Python,ASP,Java,PowerShell | 16 | 5 | 3| 
 | vigneshsrao | CVE-2019-11707 Firefox IonMonkey JIT类型混淆漏洞的完整exploit利用代码。 | https://github.com/vigneshsrao/CVE-2019-11707 | https://github.com/teambi0s | Cyber Security Enthusiast. Does pwning and forensics for Team bi0s. | None | @teambi0s | 24 | 0 | 4 | 21 | 5 | Python,JavaScript,Java | 22 | 4 | 1| 
 | dvur12 | 基带安全研究相关的资料整理 | https://github.com/dvur12/awesome-baseband-research | https://twitter.com/dvur12 |  | Israel | TroopsLabs | 36 | 0 | 81 | 20 | 15 | Python,C,C++ | 30 | 10 | 1| 
 | baronpan | SysmonHunter：一个简单的基于ATT&CK的Sysmon日志狩猎工具 | https://github.com/baronpan/SysmonHunter | http://threatmobile.blogspot.com |  | None | None | 11 | 0 | 10 | 17 | 5 | Python,Batchfile,JavaScript,Java,PowerShell | 31 | 7 | 1| 
