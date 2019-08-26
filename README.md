@@ -18,9 +18,10 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 我的安全视界观 | CANI_Security | https://mp.weixin.qq.com/s/fr_txtLPrAL1yDIyq6uiJg | 【SDL最初实践】安全设计 | 1| 
 | baronpan |  | https://mp.weixin.qq.com/s/nqQmlWcemAGopy898I4cNg | 基于 ATT&CK 的 APT 威胁跟踪和狩猎 | 1| 
-| 安全牛 | aqniu-wx | https://mp.weixin.qq.com/s/EeKghha0lKOIhJgB1sHKEg | 80 余家参展商：BCS 2019 盛况空前 | 2| 
 | 天御攻防实验室 | TianyuLab | https://mp.weixin.qq.com/s/CzrQoLdpVUHrXGTMrkWHPQ | 实战化ATT&CK™：威胁情报 | 2| 
+| 安全牛 | aqniu-wx | https://mp.weixin.qq.com/s/Mj8RDrFl6HcWH2GsH-mXhQ | 史上最强安全创业大赛：BCS 2019 安全创客汇 | 2| 
 | 绿盟科技研究通讯 | nsfocus_research | https://mp.weixin.qq.com/s/j9eXRPu_YYLGyzFiz2fj4g | NDSS 2019议题解读：从运营商角度清除Mirai僵尸网络 | 1| 
 | 网络空间安全军民融合创新中心 | jmrh1226 | https://mp.weixin.qq.com/s/eTqE3GXnyvutwJ5MAkaR7g | 美军网络空间军事思想与能力体系综述 | 1| 
 | TideSec安全团队 | TideSec | https://mp.weixin.qq.com/s/FcX6C-3mXckmRe0J-TTsfA | 【移动安全】安卓常见脱壳方法 | 3| 
@@ -67,6 +68,7 @@
 | vysecurity | DomainFrontingLists: A list of Domain Frontable Domains by... | https://github.com/vysecurity/DomainFrontingLists | https://github.com/vysecurity | @vysecurity | Hong Kong | SYON | 646 | 0 | 581 | 892 | 56 | Python,C#,PowerShell | 761 | 194 | 1| 
 | shmilylty | OneForAll 一款功能强大的子域收集工具 | https://github.com/shmilylty/OneForAll | https://github.com/Qihoo360 | Information security researcher, CTF enthusiast. | Beijing, China | @Qihoo360 | 108 | 0 | 992 | 753 | 116 | Python,Go,JavaScript,HTML | 747 | 216 | 1| 
 | fdiskyou | 用于枚举进程 Mitigation 状态的 WinDbg 调试器插件 | https://github.com/fdiskyou/iris | http://deniable.org | Shut Up and Hack. | London, UK | None | 65 | 0 | 125 | 547 | 28 | Python,C,C++ | 862 | 258 | 1| 
+| zodiacon | Windows 系统查看 Job 对象的工具 | https://github.com/zodiacon/JobExplorer | http://scorpiosoftware.net |  | Israel | None | 58 | 0 | 107 | 528 | 9 | C#,C,C++ | 733 | 218 | 1| 
 | secrary | Dr.Semu - Malware Detection and Classification Tool Based on Dynamic Behavior | https://github.com/secrary/DrSemu | https://secrary.com | @_qaz_qaz | https://keybase.io/khasaia | None | 19 | 0 | 200 | 393 | 20 | Python,C++ | 871 | 186 | 1| 
 | Kevin-Robertson | Windows网络协议层攻击套件包括 SMB LLMNR NBNS mDNS DNS | https://github.com/Kevin-Robertson/InveighZero | https://github.com/NetSPI |  | None | @NetSPI | 7 | 0 | 226 | 364 | 8 | C#,PowerShell | 929 | 231 | 1| 
 | caseysmithrc | 在 Windows Script Hosts 的上下文中执行任意 .NET 汇编代码，来自 DerbyCon2019 | https://github.com/caseysmithrc/DerbyCon2019 | None |  | None | None | 234 | 0 | 7 | 330 | 0 | C,C#,C++,F#,Go,PHP,Ruby,PowerShell | 55 | 25 | 1| 
@@ -83,6 +85,7 @@
 | Mel0day | BCS 2019 红队行动会议重点内容 | https://github.com/Mel0day/RedTeam-BCS | None |  | None | None | 116 | 0 | 304 | 91 | 20 | Python,Ruby | 210 | 56 | 1| 
 | brompwnie | Break out the Box (BOtB) - Blackhat Arsenal 会议上公开的一款用于容器分析和常见容器漏洞利用的工具 | https://github.com/brompwnie/botb/releases/tag/1.2.0 | https://twitter.com/brompwnie | Keyboard wrangler ⌨️ | None | None | 18 | 0 | 9 | 62 | 14 | CSS,Go,Java,Smali,C++ | 462 | 213 | 1| 
 | shogunlab | Hyper-V 漏洞及利用相关的资料收集 | https://github.com/shogunlab/awesome-hyper-v-exploitation | http://www.shogunlab.com | Vulnerability Researcher at Shogun Lab. The lab was started to help organizations find security flaws in their software. | Canada | Shogun Lab | 8 | 0 | 395 | 49 | 24 | Python,Swift,Ruby | 114 | 27 | 1| 
+| intelstormteam | 针对 CPU 分支预测侧信道攻击的一种 Mitigation 防御方法 | https://github.com/intelstormteam/Papers/blob/master/2019-Randpoline_A_Software_Mitigation_for_Branch_Target_Injection_Attacks_v1.42.pdf | https://twitter.com/intelstormteam | Intel STrategic Offensive Research & Mitigations Team (STORM) | None | Intel Corporation | 6 | 0 | 0 | 46 | 7 | C++ | 8 | 6 | 1| 
 | sailay1996 | Windows 10 LPE (UAC Bypass) in Windows Store (WSReset.exe) | https://github.com/sailay1996/UAC_bypass_windows_store | https://heynowyouseeme.blogspot.com/ | @404death | Myanmar | None | 169 | 0 | 5 | 41 | 2 | C,Shell,Python,JavaScript,C++,PowerShell | 75 | 23 | 1| 
 | NotMedic | rdp-tunnel: Pre-compiled tools to tunnel TCP over RDP Conn... | https://github.com/NotMedic/rdp-tunnel | None |  | None | None | 16 | 0 | 2 | 40 | 0 | HTML,C,JavaScript,PowerShell,C++ | 219 | 36 | 1| 
 | dahall | Vanara - 方便从 .NET 调用 Windows Native API 而写的 .NET 字节码库 | https://github.com/dahall/Vanara | None | Ive been writing and designing code for over 20 years for both commercial and open source use. I work as a CTO for tech firm. | United States | None | 14 | 0 | 2 | 38 | 0 | C# | 304 | 69 | 1| 
@@ -95,8 +98,10 @@
 | butterflyhack | linux蓝牙模块空指针引用漏洞PoC。 | https://github.com/butterflyhack/CVE-2019-10207/ | None |  | None | None | 129 | 0 | 19 | 13 | 28 | Python,C,Java | 15 | 7 | 1| 
 | kabachook | Kubernetes 容器管理系统安全相关的资料收集 | https://github.com/kabachook/k8s-security | None | Making coziness via tech. Fan of Docker🐋 and CTF🚩, do backend(Nodejs and Python), done a bit of ML, also DevOps | None | None | 11 | 0 | 160 | 11 | 5 | Jupyter,Shell,JavaScript,PHP | 10 | 1 | 1| 
 | chame1eon | jni 函数调用 trace 模块，基于 frida | https://github.com/chame1eon/jnitrace | None |  | None | None | 3 | 0 | 0 | 5 | 0 | Python,Lua,JavaScript | 71 | 9 | 1| 
+| tim124058 | 华硕智能家居 App 和 HG100 网关漏洞利用代码（ CVE-2019-11061、CVE-2019-11063） | https://github.com/tim124058/ASUS-SmartHome-Exploit/ | None |  | None | None | 27 | 0 | 3 | 3 | 3 | Python,HTML,C++ | 16 | 5 | 1| 
 | lion-gu | IOC Explorer：自动化关联失陷指标的工具 | https://github.com/lion-gu/ioc-explorer | None |  | None | None | 1 | 0 | 3 | 2 | 0 | Python | 22 | 2 | 1| 
 | MegadodoPublications | Mautic Remote Code Execution | https://github.com/MegadodoPublications/exploits/blob/master/mautic.md | None |  | Germany | None | 1 | 0 | 0 | 1 | 0 |  | 4 | 1 | 1| 
+| MotherFuzzers | 湾区一个关于Fuzzing的workshop的分享内容，三个议题涵盖了c/c++，web应用等不同目标的Fuzzing技巧 | https://github.com/MotherFuzzers/meetups/blob/master/README.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | PSGumshoe | 用于从 Windows 各类日志和缓存中收集取证信息的 PowerShell 模块 | https://github.com/PSGumshoe/PSGumshoe/releases/tag/v1.1 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | PowerShell | 0 | 0 | 1| 
 | SCUBSRGroup | SCUBSRGroup 整理的关于软件漏洞自动化利用（AEG）方向的技术资料 | https://github.com/SCUBSRGroup/Automatic-Exploit-Generation | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,HTML,C++ | 28 | 13 | 1| 
 | fkie-cad | 嵌入式与 IoT 安全方向的资料 | https://github.com/fkie-cad/awesome-embedded-and-iot-security | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Python,OCaml,C++,Emacs,Dockerfile | 0 | 0 | 1| 

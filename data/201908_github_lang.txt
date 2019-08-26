@@ -1,12 +1,12 @@
-Python	28
+Python	29
+C++	17
+C	15
 Java	14
-C	14
-C++	14
 JavaScript	12
 PowerShell	12
-C#	9
+C#	10
 Shell	8
-HTML	7
+HTML	8
 Ruby	7
 Go	5
 CSS	4
