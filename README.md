@@ -18,6 +18,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 美团安全应急响应中心 |  | https://mp.weixin.qq.com/s/skgrUPBZ4X5L3IpL_x4oUQ | KCon大会 | 美团安全分享APT检测设备的扩展研究 | 1| 
 | 我的安全视界观 | CANI_Security | https://mp.weixin.qq.com/s/fr_txtLPrAL1yDIyq6uiJg | 【SDL最初实践】安全设计 | 1| 
 | baronpan |  | https://mp.weixin.qq.com/s/nqQmlWcemAGopy898I4cNg | 基于 ATT&CK 的 APT 威胁跟踪和狩猎 | 1| 
 | 天御攻防实验室 | TianyuLab | https://mp.weixin.qq.com/s/CzrQoLdpVUHrXGTMrkWHPQ | 实战化ATT&CK™：威胁情报 | 2| 
@@ -54,6 +55,7 @@
 | CENSUS | Windows 10 RS2/RS3 Bypass GDI pushlock Mitigation 的两个技巧 | https://github.com/CENSUS/windows_10_rs2_rs3_exploitation_primitives | http://census-labs.com/ |  | Greece | 0 | 0 | 0 | Python,C++ | 0 | 0 | 1| 
 | Netflix | Several DoS conditions in certain HTTP/2 implementations | https://github.com/Netflix/security-bulletins/blob/master/advisories/third-party/2019-002.md | http://netflix.github.io/ | Netflix Open Source Platform | Los Gatos, California | 0 | 0 | 0 | Groovy,TypeScript,Java,Scala,Python,JavaScript,C++,Shell,Go,Clojure,Ruby | 0 | 0 | 1| 
 | Riscure | 用AFL Fuzz OP-TEE的系统调用 | https://github.com/Riscure/optee_fuzzer | http://www.riscure.com | Riscure Security Lab | http://www.riscure.com | 0 | 0 | 0 | Python,C,Julia | 0 | 0 | 1| 
+| google | Google 建了一个 Fuzzing Repo，用来放 Fuzzing 相关的文档、教程等资源 | https://github.com/google/fuzzing | https://opensource.google.com/ | Google ❤️ Open Source | https://opensource.google.com/ | 0 | 0 | 0 | C,Java,Python,JavaScript,C++,HTML,Go,Jupyter | 0 | 0 | 1| 
 | qilingframework | Qiling - 二进制模拟执行框架，可以以沙箱模式模拟执行多种架构的代码 | https://github.com/qilingframework/qiling | None | Cross Platform and Multi Architecture Lightweight Sandbox | qiling.io | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | ssd-secure-disclosure | 详细介绍了iOS安全缓解措施的一步步进化 | https://github.com/ssd-secure-disclosure/typhooncon2019/blob/master/Siguza%20-%20Mitigations.pdf | https://ssd-disclosure.com/ | SSD helps security researchers turn their skills in uncovering security vulnerabilities into a career. | https://ssd-disclosure.com/ | 0 | 0 | 0 | Python,C | 0 | 0 | 1| 
 | ucsb-seclab | sasi：基于Angr来清除二进制中冗余代码的工具，相对已有工具的性能提高主要来源于它能更加准确完整地恢复CFG | https://github.com/ucsb-seclab/sasi | http://seclab.cs.ucsb.edu | The Computer Security Group at UC Santa Barbara | Santa Barbara | 0 | 0 | 0 | Python,C,Java,C++ | 0 | 0 | 1| 
@@ -91,6 +93,7 @@
 | dahall | Vanara - 方便从 .NET 调用 Windows Native API 而写的 .NET 字节码库 | https://github.com/dahall/Vanara | None | Ive been writing and designing code for over 20 years for both commercial and open source use. I work as a CTO for tech firm. | United States | None | 14 | 0 | 2 | 38 | 0 | C# | 304 | 69 | 1| 
 | superhedgy | AttackSurfaceMapper - 一款开源的情报搜集工具 | https://github.com/superhedgy/AttackSurfaceMapper | https://github.com/SpiderLabs | Just another InfoSec Ninja! My Latest open source tool is HostHunter: github.com/SpiderLabs/HostHunter/ | United Kingdom | @SpiderLabs | 4 | 0 | 89 | 34 | 11 | Python,Shell | 292 | 41 | 1| 
 | artsploit | solr-injection: Apache Solr Injection Research | https://github.com/artsploit/solr-injection | https://artsploit.blogspot.com/ |  | None | Veracode | 5 | 0 | 8 | 28 | 0 | PHP,Java | 191 | 16 | 1| 
+| hyrathon | 《Android平台上NFC相关漏洞的研究》议题作者发现的漏洞 PoCs | https://github.com/hyrathon/PoCs | None | Android Security Researcher | Beijing, PRC | None | 59 | 0 | 341 | 26 | 35 | C,JavaScript,Java,C++ | 21 | 5 | 2| 
 | Ch1ngg | AggressorScript-CreateCloneHiddenAccount | https://github.com/Ch1ngg/AggressorScript-CreateCloneHiddenAccount | https://www.ch1ng.com/ |  | no | no | 7 | 0 | 99 | 21 | 14 | C#,Python,ASP,Java,PowerShell | 16 | 5 | 3| 
 | vigneshsrao | CVE-2019-11707 Firefox IonMonkey JIT类型混淆漏洞的完整exploit利用代码。 | https://github.com/vigneshsrao/CVE-2019-11707 | https://github.com/teambi0s | Cyber Security Enthusiast. Does pwning and forensics for Team bi0s. | None | @teambi0s | 24 | 0 | 4 | 21 | 5 | Python,JavaScript,Java | 22 | 4 | 1| 
 | dvur12 | 基带安全研究相关的资料整理 | https://github.com/dvur12/awesome-baseband-research | https://twitter.com/dvur12 |  | Israel | TroopsLabs | 36 | 0 | 81 | 20 | 15 | Python,C,C++ | 30 | 10 | 1| 
@@ -105,6 +108,8 @@
 | PSGumshoe | 用于从 Windows 各类日志和缓存中收集取证信息的 PowerShell 模块 | https://github.com/PSGumshoe/PSGumshoe/releases/tag/v1.1 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | PowerShell | 0 | 0 | 1| 
 | SCUBSRGroup | SCUBSRGroup 整理的关于软件漏洞自动化利用（AEG）方向的技术资料 | https://github.com/SCUBSRGroup/Automatic-Exploit-Generation | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,HTML,C++ | 28 | 13 | 1| 
 | fkie-cad | 嵌入式与 IoT 安全方向的资料 | https://github.com/fkie-cad/awesome-embedded-and-iot-security | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Python,OCaml,C++,Emacs,Dockerfile | 0 | 0 | 1| 
+| goretk | GoRE - 用于分析 Go 二进制文件的工具库 | https://github.com/goretk/gore | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Go,Shell,HTML | 0 | 0 | 1| 
+| jmpsec | osctrl: Fast and efficient osquery management | https://github.com/jmpsec/osctrl | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,CSS | 0 | 0 | 1| 
 
 
 
