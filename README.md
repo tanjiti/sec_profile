@@ -28,7 +28,7 @@
 | TideSec安全团队 | TideSec | https://mp.weixin.qq.com/s/FcX6C-3mXckmRe0J-TTsfA | 【移动安全】安卓常见脱壳方法 | 3| 
 | 网信军民融合 | wxjmrh | https://mp.weixin.qq.com/s/lHTNtsA6Pc-FGGoQoO6AUw | “战斗民族”俄罗斯网络空间作战研究 | 1| 
 | 小米安全中心 | misrc_team | https://mp.weixin.qq.com/s/urbFms6AiUb7uu_IGj3LXQ | 【技术分享】漏洞扫描技巧篇-Web 漏洞扫描器 | 1| 
-| PolarisLab | PolarisLab | https://mp.weixin.qq.com/s/wnCWeZqXDqbas6HBOxhBlw | 利用SSH隧道反弹Shell | 1| 
+| PolarisLab | PolarisLab | https://mp.weixin.qq.com/s/wnCWeZqXDqbas6HBOxhBlw | 利用SSH隧道反弹Shell | 2| 
 | 小强说 | xiaoqiangcall | https://mp.weixin.qq.com/s/zbAwTDZ5IuRCMkuIDo82Cw | 从ATT&CK看威胁情报的发展和应用趋势 | 1| 
 | 道法术 |  | https://mp.weixin.qq.com/s/sedpOhSxEGSdaxX8SACIMA | [法]从SOAR中求解应用安全建设强运营突围之法 | 1| 
 | 奇安信 CERT |  | https://mp.weixin.qq.com/s/qxkV_7MZVhUYYq5QGcwCtQ | WebLogic安全研究报告 | 1| 
@@ -64,6 +64,7 @@
 # 私人github账号 推荐
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
+| evilsocket | OpenSnitch - macOS Little Snitch 应用防火墙的 Linux 移植版 | https://github.com/evilsocket/opensnitch | https://www.evilsocket.net |  | Italy | Zimperium | 115 | 0 | 14 | 3900 | 0 | Go,Python,JavaScript | 5700 | 538 | 1| 
 | s0md3v | goop: Google Search Scraper | https://github.com/s0md3v/goop | https://github.com/s0md3v | I make things, I break things and I make things that break things. Twitter: @s0md3v | None | None | 31 | 0 | 0 | 2600 | 0 | Python,JavaScript | 6900 | 868 | 1| 
 | smealum | butthax: lovense hush buttplug exploit chain | https://github.com/smealum/butthax | http://smealum.net |  | None | None | 38 | 0 | 15 | 1200 | 2 | C,Assembly | 468 | 137 | 1| 
 | jas502n | 开源企业搜索平台 Solr 被发现 DataImport Handler RCE | https://github.com/jas502n/CVE-2019-0193 | None | 1.misc 2.crypto 3. web 4. reverse 5. android 6. pwn 7. elf | None | None | 160 | 0 | 174 | 1100 | 134 | Python,C#,C,Shell | 301 | 110 | 1| 
@@ -92,6 +93,7 @@
 | NotMedic | rdp-tunnel: Pre-compiled tools to tunnel TCP over RDP Conn... | https://github.com/NotMedic/rdp-tunnel | None |  | None | None | 16 | 0 | 2 | 40 | 0 | HTML,C,JavaScript,PowerShell,C++ | 219 | 36 | 1| 
 | dahall | Vanara - 方便从 .NET 调用 Windows Native API 而写的 .NET 字节码库 | https://github.com/dahall/Vanara | None | Ive been writing and designing code for over 20 years for both commercial and open source use. I work as a CTO for tech firm. | United States | None | 14 | 0 | 2 | 38 | 0 | C# | 304 | 69 | 1| 
 | superhedgy | AttackSurfaceMapper - 一款开源的情报搜集工具 | https://github.com/superhedgy/AttackSurfaceMapper | https://github.com/SpiderLabs | Just another InfoSec Ninja! My Latest open source tool is HostHunter: github.com/SpiderLabs/HostHunter/ | United Kingdom | @SpiderLabs | 4 | 0 | 89 | 34 | 11 | Python,Shell | 292 | 41 | 1| 
+| CaijiOrz | Fastjson <= 1.2.47 远程命令执行漏洞利用工具及方法 | https://github.com/CaijiOrz/fastjson-1.2.47-RCE | https://www.sec.kim/ | A true master is an eternal student | Chongqing China | None | 11 | 0 | 216 | 33 | 108 | Python,Ruby,HTML,Java | 22 | 11 | 1| 
 | artsploit | solr-injection: Apache Solr Injection Research | https://github.com/artsploit/solr-injection | https://artsploit.blogspot.com/ |  | None | Veracode | 5 | 0 | 8 | 28 | 0 | PHP,Java | 191 | 16 | 1| 
 | hyrathon | 《Android平台上NFC相关漏洞的研究》议题作者发现的漏洞 PoCs | https://github.com/hyrathon/PoCs | None | Android Security Researcher | Beijing, PRC | None | 59 | 0 | 341 | 26 | 35 | C,JavaScript,Java,C++ | 21 | 5 | 2| 
 | Ch1ngg | AggressorScript-CreateCloneHiddenAccount | https://github.com/Ch1ngg/AggressorScript-CreateCloneHiddenAccount | https://www.ch1ng.com/ |  | no | no | 7 | 0 | 99 | 21 | 14 | C#,Python,ASP,Java,PowerShell | 16 | 5 | 3| 
@@ -108,8 +110,10 @@
 | PSGumshoe | 用于从 Windows 各类日志和缓存中收集取证信息的 PowerShell 模块 | https://github.com/PSGumshoe/PSGumshoe/releases/tag/v1.1 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | PowerShell | 0 | 0 | 1| 
 | SCUBSRGroup | SCUBSRGroup 整理的关于软件漏洞自动化利用（AEG）方向的技术资料 | https://github.com/SCUBSRGroup/Automatic-Exploit-Generation | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,HTML,C++ | 28 | 13 | 1| 
 | fkie-cad | 嵌入式与 IoT 安全方向的资料 | https://github.com/fkie-cad/awesome-embedded-and-iot-security | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Python,OCaml,C++,Emacs,Dockerfile | 0 | 0 | 1| 
+| googleprojectzero | j00ru 开源了一个 Linux 版本的 DLL Loader，用于加载 Windows FontSub.dll | https://github.com/googleprojectzero/BrokenType/tree/master/fontsub-dll-on-linux | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,C#,C++,Python,HTML,Swift | 0 | 0 | 1| 
 | goretk | GoRE - 用于分析 Go 二进制文件的工具库 | https://github.com/goretk/gore | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Go,Shell,HTML | 0 | 0 | 1| 
 | jmpsec | osctrl: Fast and efficient osquery management | https://github.com/jmpsec/osctrl | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,CSS | 0 | 0 | 1| 
+| telspacesystems | 华硕 Windows 触摸板驱动 AsusPTPFilter.sys 存在拒绝服务漏洞（CVE-2019-10709） | https://github.com/telspacesystems/Asus-DOS/ | https://www.telspace.co.za |  | South Africa | Telspace Systems | 2 | 0 | 0 | 0 | 0 | Python | 0 | 1 | 1| 
 
 
 
