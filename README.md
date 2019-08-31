@@ -18,18 +18,18 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| PolarisLab | PolarisLab | https://mp.weixin.qq.com/s/qzsKoiv1pR5To4kwnNQR8w | RASP Agent技术划水 | 2| 
 | 美团安全应急响应中心 |  | https://mp.weixin.qq.com/s/skgrUPBZ4X5L3IpL_x4oUQ | KCon大会 | 美团安全分享APT检测设备的扩展研究 | 1| 
 | 我的安全视界观 | CANI_Security | https://mp.weixin.qq.com/s/fr_txtLPrAL1yDIyq6uiJg | 【SDL最初实践】安全设计 | 1| 
+| TideSec安全团队 | TideSec | https://mp.weixin.qq.com/s/0hvD_afmLNQW9bQZzvk0OA | 【实战分享】记一次对某医院HIS系统的渗透测试 | 3| 
 | baronpan |  | https://mp.weixin.qq.com/s/nqQmlWcemAGopy898I4cNg | 基于 ATT&CK 的 APT 威胁跟踪和狩猎 | 1| 
 | 天御攻防实验室 | TianyuLab | https://mp.weixin.qq.com/s/CzrQoLdpVUHrXGTMrkWHPQ | 实战化ATT&CK™：威胁情报 | 2| 
-| 安全牛 | aqniu-wx | https://mp.weixin.qq.com/s/Mj8RDrFl6HcWH2GsH-mXhQ | 史上最强安全创业大赛：BCS 2019 安全创客汇 | 2| 
-| 绿盟科技研究通讯 | nsfocus_research | https://mp.weixin.qq.com/s/j9eXRPu_YYLGyzFiz2fj4g | NDSS 2019议题解读：从运营商角度清除Mirai僵尸网络 | 1| 
-| 网络空间安全军民融合创新中心 | jmrh1226 | https://mp.weixin.qq.com/s/eTqE3GXnyvutwJ5MAkaR7g | 美军网络空间军事思想与能力体系综述 | 1| 
-| TideSec安全团队 | TideSec | https://mp.weixin.qq.com/s/FcX6C-3mXckmRe0J-TTsfA | 【移动安全】安卓常见脱壳方法 | 3| 
-| 网信军民融合 | wxjmrh | https://mp.weixin.qq.com/s/lHTNtsA6Pc-FGGoQoO6AUw | “战斗民族”俄罗斯网络空间作战研究 | 1| 
-| 小米安全中心 | misrc_team | https://mp.weixin.qq.com/s/urbFms6AiUb7uu_IGj3LXQ | 【技术分享】漏洞扫描技巧篇-Web 漏洞扫描器 | 1| 
-| PolarisLab | PolarisLab | https://mp.weixin.qq.com/s/wnCWeZqXDqbas6HBOxhBlw | 利用SSH隧道反弹Shell | 2| 
+| 安全牛 | aqniu-wx | https://mp.weixin.qq.com/s/EeKghha0lKOIhJgB1sHKEg | 80 余家参展商：BCS 2019 盛况空前 | 2| 
 | 小强说 | xiaoqiangcall | https://mp.weixin.qq.com/s/zbAwTDZ5IuRCMkuIDo82Cw | 从ATT&CK看威胁情报的发展和应用趋势 | 1| 
+| 小米安全中心 | misrc_team | https://mp.weixin.qq.com/s/urbFms6AiUb7uu_IGj3LXQ | 【技术分享】漏洞扫描技巧篇-Web 漏洞扫描器 | 1| 
+| 绿盟科技研究通讯 | nsfocus_research | https://mp.weixin.qq.com/s/j9eXRPu_YYLGyzFiz2fj4g | NDSS 2019议题解读：从运营商角度清除Mirai僵尸网络 | 1| 
+| 网信军民融合 | wxjmrh | https://mp.weixin.qq.com/s/lHTNtsA6Pc-FGGoQoO6AUw | “战斗民族”俄罗斯网络空间作战研究 | 1| 
+| 网络空间安全军民融合创新中心 | jmrh1226 | https://mp.weixin.qq.com/s/eTqE3GXnyvutwJ5MAkaR7g | 美军网络空间军事思想与能力体系综述 | 1| 
 | 道法术 |  | https://mp.weixin.qq.com/s/sedpOhSxEGSdaxX8SACIMA | [法]从SOAR中求解应用安全建设强运营突围之法 | 1| 
 | 奇安信 CERT |  | https://mp.weixin.qq.com/s/qxkV_7MZVhUYYq5QGcwCtQ | WebLogic安全研究报告 | 1| 
 | 安全喷子 |  | https://mp.weixin.qq.com/s/xxU0R5eVcP_42VVd2DQeXQ | 网络安全“圣地”之行 | 1| 
@@ -68,7 +68,7 @@
 | s0md3v | goop: Google Search Scraper | https://github.com/s0md3v/goop | https://github.com/s0md3v | I make things, I break things and I make things that break things. Twitter: @s0md3v | None | None | 31 | 0 | 0 | 2600 | 0 | Python,JavaScript | 6900 | 868 | 1| 
 | smealum | butthax: lovense hush buttplug exploit chain | https://github.com/smealum/butthax | http://smealum.net |  | None | None | 38 | 0 | 15 | 1200 | 2 | C,Assembly | 468 | 137 | 1| 
 | jas502n | 开源企业搜索平台 Solr 被发现 DataImport Handler RCE | https://github.com/jas502n/CVE-2019-0193 | None | 1.misc 2.crypto 3. web 4. reverse 5. android 6. pwn 7. elf | None | None | 160 | 0 | 174 | 1100 | 134 | Python,C#,C,Shell | 301 | 110 | 1| 
-| vysecurity | DomainFrontingLists: A list of Domain Frontable Domains by... | https://github.com/vysecurity/DomainFrontingLists | https://github.com/vysecurity | @vysecurity | Hong Kong | SYON | 646 | 0 | 581 | 892 | 56 | Python,C#,PowerShell | 761 | 194 | 1| 
+| vysecurity | DomainFrontingLists: A list of Domain Frontable Domains by CDN | https://github.com/vysecurity/DomainFrontingLists | https://github.com/vysecurity | @vysecurity | Hong Kong | SYON | 646 | 0 | 581 | 892 | 56 | Python,C#,PowerShell | 761 | 194 | 1| 
 | shmilylty | OneForAll 一款功能强大的子域收集工具 | https://github.com/shmilylty/OneForAll | https://github.com/Qihoo360 | Information security researcher, CTF enthusiast. | Beijing, China | @Qihoo360 | 108 | 0 | 992 | 753 | 116 | Python,Go,JavaScript,HTML | 747 | 216 | 1| 
 | fdiskyou | 用于枚举进程 Mitigation 状态的 WinDbg 调试器插件 | https://github.com/fdiskyou/iris | http://deniable.org | Shut Up and Hack. | London, UK | None | 65 | 0 | 125 | 547 | 28 | Python,C,C++ | 862 | 258 | 1| 
 | zodiacon | Windows 系统查看 Job 对象的工具 | https://github.com/zodiacon/JobExplorer | http://scorpiosoftware.net |  | Israel | None | 58 | 0 | 107 | 528 | 9 | C#,C,C++ | 733 | 218 | 1| 
