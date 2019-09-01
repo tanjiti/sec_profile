@@ -47,7 +47,7 @@ if __name__ == "__main__":
     }
     proxy = None
 
-    #scraw(proxy=proxy)
+    scraw(proxy=proxy)
 
     visual.draw_readme()
 
