@@ -271,13 +271,13 @@ def draw_readme(fpath=None):
     """
 
     if fpath is None:
-        fpath = "README_8.md"
+        fpath = "README.md"
 
 
     tables_rets = []
     so = SQLiteOper("data/scrap.db")
     year = get_special_date(delta=0, format="%Y%m")
-    year=201908
+   
 
 
 
