@@ -1,1 +1,6 @@
-HTML	1
+C	3
+Python	2
+HTML	2
+C#	1
+C++	1
+Swift	1

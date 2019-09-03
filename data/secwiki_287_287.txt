@@ -1,0 +1,31 @@
+20190826	法规	http://www.miit.gov.cn/n1146285/n1146352/n3054355/n3057724/n3057729/c7281215/content.html	关于印发加强工业互联网安全工作的指导意见的通知	miit.gov.cn	www.miit.gov.cn	/n1146285/n1146352/n3054355/n3057724/n3057729/c7281215/content.html
+20190826	运维安全	https://bloodzer0.github.io/ossa/red_vs_blue/port/	端口渗透	github.io	bloodzer0.github.io	/ossa/red_vs_blue/port/
+20190826	会议	https://paper.seebug.org/1023/	KCon 2019 议题 PPT 公开	seebug.org	paper.seebug.org	/1023/
+20190826	Web安全	https://blog.csdn.net/weixin_45134156/article/details/99822070	教你如何搭建威胁情报库	csdn.net	blog.csdn.net	/weixin_45134156/article/details/99822070
+20190826	Web安全	https://mp.weixin.qq.com/s/fr_txtLPrAL1yDIyq6uiJg	SDL最初实践-安全设计	qq.com	mp.weixin.qq.com	/s/fr_txtLPrAL1yDIyq6uiJg
+20190826	编程技术	http://0cx.cc/translate_vuln_with_awvs.jspx	快速翻译awvs的漏洞库内容	0cx.cc	0cx.cc	/translate_vuln_with_awvs.jspx
+20190826	其它	https://paper.seebug.org/1021/	腾讯安全：2019上半年企业安全总结	seebug.org	paper.seebug.org	/1021/
+20190826	漏洞分析	https://nosec.org/home/detail/2904.html	Pulse Secure SSL VPN任意文件读取	nosec.org	nosec.org	/home/detail/2904.html
+20190826	Web安全	https://blog.donot.me/pentest-theory/	由外到内入侵渗透的点面线问题	donot.me	blog.donot.me	/pentest-theory/
+20190826	恶意分析	https://mp.weixin.qq.com/s/skgrUPBZ4X5L3IpL_x4oUQ	APT检测设备的扩展研究	qq.com	mp.weixin.qq.com	/s/skgrUPBZ4X5L3IpL_x4oUQ
+20190826	杂志	https://www.sec-wiki.com/weekly/286	SecWiki周刊（第286期)	sec-wiki.com	www.sec-wiki.com	/weekly/286
+20190826	Web安全	https://textslashplain.com/2019/08/11/spying-on-https/	Spying on HTTPS	textslashplain.com	textslashplain.com	/2019/08/11/spying-on-https/
+20190826	漏洞分析	https://unit42.paloaltonetworks.com/exploitation-of-windows-cve-2019-0708-bluekeep-three-ways-to-write-data-into-the-kernel-with-rdp-pdu/	CVE-2019-0708 (BlueKeep): Three Ways to Write Data into the Kernel with RDP PDU	paloaltonetworks.com	unit42.paloaltonetworks.com	/exploitation-of-windows-cve-2019-0708-bluekeep-three-ways-to-write-data-into-the-kernel-with-rdp-pdu/
+20190826	数据挖掘	https://xz.aliyun.com/t/6117	基于访问日志的异常请求检测	aliyun.com	xz.aliyun.com	/t/6117
+20190826	运维安全	https://github.com/jmpsec/osctrl	osctrl: Fast and efficient osquery management	github.com	github.com	/jmpsec/osctrl
+20190826	漏洞分析	https://xz.aliyun.com/t/6116	华为路由器 H532G 漏洞分析	aliyun.com	xz.aliyun.com	/t/6116
+20190826	漏洞分析	https://googleprojectzero.blogspot.com/2019/08/jsc-exploits.html	JSC Exploits	blogspot.com	googleprojectzero.blogspot.com	/2019/08/jsc-exploits.html
+20190826	Web安全	https://uknowsec.cn/posts/notes/%E5%9F%9F%E6%B8%97%E9%80%8F-%E8%8E%B7%E5%8F%96NTDS.dit.html	域渗透-获取NTDS.dit	uknowsec.cn	uknowsec.cn	/posts/notes/%E5%9F%9F%E6%B8%97%E9%80%8F-%E8%8E%B7%E5%8F%96NTDS.dit.html
+20190826	漏洞分析	https://www.anquanke.com/post/id/184954	USB Fuzzing技术总结	anquanke.com	www.anquanke.com	/post/id/184954
+20190826	移动安全	https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-1.html	In-the-wild iOS Exploit Chain 1	blogspot.com	googleprojectzero.blogspot.com	/2019/08/in-wild-ios-exploit-chain-1.html
+20190826	Web安全	https://omespino.com/write-up-private-bug-bounty-usd-rce-as-root-on-marathon-instance/	RCE as root on Marathon-Mesos instance	omespino.com	omespino.com	/write-up-private-bug-bounty-usd-rce-as-root-on-marathon-instance/
+20190826	设备安全	https://xz.aliyun.com/t/6053	固件修改及编译记录	aliyun.com	xz.aliyun.com	/t/6053
+20190826	运维安全	https://security.tencent.com/index.php/blog/msg/136	Blade：企业安全研究团队建设运营思考	tencent.com	security.tencent.com	/index.php/blog/msg/136
+20190826	设备安全	https://xz.aliyun.com/t/6073	TP Link SR20 ACE漏洞分析	aliyun.com	xz.aliyun.com	/t/6073
+20190826	Web安全	https://mp.weixin.qq.com/s/qzsKoiv1pR5To4kwnNQR8w	RASP Agent技术划水	qq.com	mp.weixin.qq.com	/s/qzsKoiv1pR5To4kwnNQR8w
+20190826	Web安全	https://www.fortinet.com/blog/threat-research/wordpress-plugin-sql-injection-vulnerability.html	Multiple WordPress Plugins SQL Injection Vulnerabilities	fortinet.com	www.fortinet.com	/blog/threat-research/wordpress-plugin-sql-injection-vulnerability.html
+20190826	漏洞分析	https://xz.aliyun.com/t/6149	拦截Android Flutter应用程序流量的研究	aliyun.com	xz.aliyun.com	/t/6149
+20190826	移动安全	https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-3.html	In-the-wild iOS Exploit Chain 3	blogspot.com	googleprojectzero.blogspot.com	/2019/08/in-wild-ios-exploit-chain-3.html
+20190826	移动安全	https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-5.html	In-the-wild iOS Exploit Chain 5	blogspot.com	googleprojectzero.blogspot.com	/2019/08/in-wild-ios-exploit-chain-5.html
+20190826	移动安全	https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-4.html	In-the-wild iOS Exploit Chain 4	blogspot.com	googleprojectzero.blogspot.com	/2019/08/in-wild-ios-exploit-chain-4.html
+20190826	移动安全	https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-2.html	In-the-wild iOS Exploit Chain 2	blogspot.com	googleprojectzero.blogspot.com	/2019/08/in-wild-ios-exploit-chain-2.html
