@@ -19,6 +19,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 贝塔安全实验室 | BetaSecLab | https://mp.weixin.qq.com/s/AdrOhuA0mpjCtdpWjPC1jg | 网络空间搜索引擎的魅力 | 2| 
 | PaperWeekly | paperweekly | https://mp.weixin.qq.com/s/hIGmW_J5xEvLUXa4hFHzsA | 百度实体链接比赛后记：行为建模和实体链接（含代码分享） | 1| 
 | PolarisLab | PolarisLab | https://mp.weixin.qq.com/s/ab9GKXfaNeGLiBbp6_jh-A | 利用ptrace和memfd_create混淆程序名和参数 | 1| 
 | 新智元 | AI_era | https://mp.weixin.qq.com/s/KqyF7epXWRhaT4spGWHXSw | Nature封面重磅：社交网络影响集体决策，或改变选举结果！ | 1| 
