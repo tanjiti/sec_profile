@@ -21,12 +21,12 @@
 | --- | --- | --- | ---| 
 | 贝塔安全实验室 | BetaSecLab | https://mp.weixin.qq.com/s/AdrOhuA0mpjCtdpWjPC1jg | 网络空间搜索引擎的魅力 | 2| 
 | PaperWeekly | paperweekly | https://mp.weixin.qq.com/s/hIGmW_J5xEvLUXa4hFHzsA | 百度实体链接比赛后记：行为建模和实体链接（含代码分享） | 1| 
-| PolarisLab | PolarisLab | https://mp.weixin.qq.com/s/ab9GKXfaNeGLiBbp6_jh-A | 利用ptrace和memfd_create混淆程序名和参数 | 1| 
-| 新智元 | AI_era | https://mp.weixin.qq.com/s/KqyF7epXWRhaT4spGWHXSw | Nature封面重磅：社交网络影响集体决策，或改变选举结果！ | 1| 
-| 青藤云安全资讯 | qingtengyun | https://mp.weixin.qq.com/s/6BEY9qpi0rfk1_T1k1lWmg | 一种基于欺骗防御的入侵检测技术研究 | 1| 
+| PolarisLab | PolarisLab | https://mp.weixin.qq.com/s/gz77Yy3yKPM10JsDg1oyiw | Linux环境下无文件执行elf | 2| 
 | 中通安全应急响应中心 | ZTO_SRC | https://mp.weixin.qq.com/s/vwF7aTvk-U-SnJqO3f80gA | 中通安全开源项目之越权漏洞自动化检测 | 1| 
 | 君哥的体历 | jungedetili | https://mp.weixin.qq.com/s/JJkQ8S4qw0RigOoA9Xzhyw | 企业如何构建有效的安全运营体系 | 1| 
 | 数说安全 | SSAQ2016 | https://mp.weixin.qq.com/s/huQKnnsQtLn0uVZj-wz0Uw | 2019年上半年上市网络安全公司经营简报 | 1| 
+| 新智元 | AI_era | https://mp.weixin.qq.com/s/KqyF7epXWRhaT4spGWHXSw | Nature封面重磅：社交网络影响集体决策，或改变选举结果！ | 1| 
+| 青藤云安全资讯 | qingtengyun | https://mp.weixin.qq.com/s/6BEY9qpi0rfk1_T1k1lWmg | 一种基于欺骗防御的入侵检测技术研究 | 1| 
 
 
 # 组织github账号 推荐
@@ -47,7 +47,7 @@
 | StrangerealIntel | 针对以色列某未知 APT 恶意样本的分析报告 | https://github.com/StrangerealIntel/CyberThreatIntel/blob/master/Israel/APT/Unknown/26-08-19/Malware%20analysis%2026-08-19.md | None |  | None | None | 1 | 0 | 0 | 19 | 0 | Visual | 67 | 14 | 1| 
 | SVF-tools | SVF - 针对 C/C++ 程序的指针和过程依赖静态分析工具 | https://github.com/SVF-tools/SVF | None |  | None | None | 4 | 0 | 0 | 12 | 0 | C,C++ | 284 | 93 | 1| 
 | dplusec | 端对端加密的微信聊天插件 | https://github.com/dplusec/tgwechat | None |  | None | None | 2 | 0 | 0 | 1 | 0 | HTML | 15 | 4 | 1| 
-| fireeye | fireeye/SharPersist | https://github.com/fireeye/SharPersist | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Vue,Python,JavaScript,C++,C#,Go,PowerShell | 0 | 0 | 1| 
+| fireeye | fireeye/SharPersist | https://github.com/fireeye/SharPersist | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Vue,Python,JavaScript,C++,C#,Go,PowerShell | 0 | 0 | 2| 
 | google | Google 开源了一个实现差分隐私算法的 C++ 库 | https://github.com/google/differential-privacy/tree/master/differential_privacy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Java,Python,JavaScript,C++,Dart,HTML,Go | 0 | 0 | 1| 
 | googleprojectzero | DrSancov - j00ru 开源的一款 DynamoRIO 插件，用于在动态插桩中输出 ASAN/ SanitizerCoverage 框架支持的格式方便进一步做分析 | https://github.com/googleprojectzero/DrSancov | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,C#,C++,Python,HTML,Swift | 0 | 0 | 1| 
 
