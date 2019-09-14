@@ -19,7 +19,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
-| 安全乐观主义 |  | https://mp.weixin.qq.com/s/nys9M0PY_THidgD-KqzGPg | 浅谈块存储的安全配置 | 3| 
+| 安全乐观主义 |  | https://mp.weixin.qq.com/s/ornyzKd3uqjgUHEmdHGIJQ | 使用方舟编译器检查Fastjson OOM问题 | 3| 
 | 水滴安全实验室 | EversecLab | https://mp.weixin.qq.com/s/gpVMcPjfP2HDZisZhy0fig | 物联网漏洞挖掘入门--DLINK-DIR-645路由器栈溢出漏洞分析复现 | 1| 
 | 银河安全实验室 | Galaxy-Lab | https://mp.weixin.qq.com/s/rT53P9EW4xLFV9JLbnLroQ | D-Link DIR-816 A2路由器安全研究分享 | 1| 
 | FreeBuf企业安全 | freebuf_ent | https://mp.weixin.qq.com/s/BJlXOsBtPGVVU2cVs72TqQ | 全程带阻：记一次授权网络攻防演练 | 1| 
@@ -43,6 +43,7 @@
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | mame82 | Logitech Unifying Vulnerabilities | https://github.com/mame82/UnifyingVulnsDisclosureRepo/tree/master/vulnerability_reports | https://www.twitter.com/mame82 |  | None | None | 69 | 0 | 44 | 509 | 17 | Python,Go,C,JavaScript | 2500 | 517 | 1| 
+| wonderkun | CTFENV: 为应对CTF比赛而搭建的各种环境 | https://github.com/wonderkun/CTFENV | None |  | None | None | 70 | 0 | 410 | 199 | 152 | Python,C,PHP,Dockerfile | 454 | 150 | 1| 
 | matteyeux | 用于加载 Apple SecureROM 的 IDA 插件 | https://github.com/matteyeux/srom64helper | https://github.com/alterway | Sysadmin. Sometimes I write code | Paris | @alterway | 107 | 0 | 115 | 184 | 136 | Python,C | 10 | 4 | 1| 
 | uknowsec | 域渗透学习笔记 | https://github.com/uknowsec/Active-Directory-Pentest-Notes | http://uknowsec.cn | 不忘初心，方得始终 | Nanjing | None | 90 | 0 | 415 | 77 | 150 | Python,PHP | 95 | 15 | 1| 
 | Ch1ngg | JWTPyCrack-JWT攻击脚本 | https://github.com/Ch1ngg/JWTPyCrack | https://www.ch1ng.com/ |  | no | no | 14 | 0 | 121 | 76 | 18 | Python,C#,ASP,Java | 40 | 10 | 1| 
@@ -58,6 +59,8 @@
 | SVF-tools | SVF - 针对 C/C++ 程序的指针和过程依赖静态分析工具 | https://github.com/SVF-tools/SVF | None |  | None | None | 4 | 0 | 0 | 12 | 0 | C,C++ | 284 | 93 | 1| 
 | MoonLight-SteinsGate | LearnAFL--knowledge-learn evolutionary fuzzer | https://github.com/MoonLight-SteinsGate/LearnAFL | None |  | None | None | 2 | 0 | 1 | 1 | 0 | C,C++ | 8 | 3 | 1| 
 | dplusec | 端对端加密的微信聊天插件 | https://github.com/dplusec/tgwechat | None |  | None | None | 2 | 0 | 0 | 1 | 0 | HTML | 15 | 4 | 1| 
+| FederatedAI | FATE: 联邦学习开源项目 | https://github.com/FederatedAI/FATE | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Java,CSS | 703 | 203 | 1| 
+| Netis | packet-agent: 云环境网络流量镜像项目 | https://github.com/Netis/packet-agent/blob/master/README-zh-Hans.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,C++ | 0 | 0 | 1| 
 | defenxor | dsiem: Security event correlation engine for ELK stack | https://github.com/defenxor/dsiem?from=timeline | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,HTML | 0 | 0 | 1| 
 | fireeye | fireeye/SharPersist | https://github.com/fireeye/SharPersist | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Vue,Python,JavaScript,C++,C#,Go,PowerShell | 0 | 0 | 2| 
 | google | Google 开源了一个实现差分隐私算法的 C++ 库 | https://github.com/google/differential-privacy/tree/master/differential_privacy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Java,Python,JavaScript,C++,Dart,HTML,Go | 0 | 0 | 1| 
