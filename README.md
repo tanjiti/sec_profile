@@ -54,6 +54,7 @@
 | lucasg | 基于 IDA 脚本实现的枚举系统 RPC 接口的工具 | https://github.com/lucasg/findrpc | None |  | None | None | 24 | 0 | 33 | 54 | 3 | C#,Python,C,TeX,CSS | 1600 | 128 | 1| 
 | 0x7ff | PoC for setting nonce without triggering KPP/KTRR/PAC | https://github.com/0x7ff/dimentio | None | Monero: 42XMRm2cADx8tN3FxA9i2n852PNUTS1JSaDrqdBnxKkiW44WTQMvawFHXmYwxJmhhoKruQHE8bFNjH9BsWH35BjeETyG8fE | None | None | 10 | 0 | 0 | 49 | 6 | C | 28 | 9 | 1| 
 | 0xDezzy | 攻击 Pulse Secure Connect VPN 服务的 Exploit 代码 | https://github.com/0xDezzy/CVE-2019-11539 | None | Houston based Security Researcher and Red Teamer | Houston, Texas | EY | 93 | 0 | 124 | 41 | 52 | Python,KiCad,JavaScript,C++ | 68 | 15 | 1| 
+| allpaca | V8Harvest - V8 代码库近期回归测试样本的分析，方便分析 v8 的漏洞 | https://github.com/allpaca/V8Harvest | None |  | None | None | 46 | 0 | 37 | 40 | 4 | JavaScript,C++ | 96 | 20 | 1| 
 | c0d3p1ut0s | Java反序列化漏洞自动挖掘方法 | https://github.com/c0d3p1ut0s/Conference | https://c0d3p1ut0s.github.io/ |  | Hangzhou China | None | 6 | 0 | 2 | 37 | 0 | Python,HTML,Java | 92 | 17 | 1| 
 | ION28 | BLUESPAWN - 用于辅助蓝队实现 Windows 系统主动防御的监控工具 | https://github.com/ION28/BLUESPAWN/blob/master/README.md | https://metactf.com |  | None | MetaCTF | 8 | 0 | 165 | 28 | 29 | JavaScript,C++ | 60 | 16 | 1| 
 | Areizen | 一款基于 Android 模拟器和 Frida 实现的 Android 恶意软件分析的沙盒 | https://github.com/Areizen/Android-Malware-Sandbox | None |  | None | None | 16 | 0 | 2 | 19 | 2 | Python,Shell,JavaScript | 86 | 23 | 1| 
