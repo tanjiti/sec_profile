@@ -19,6 +19,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| ChaMd5安全团队 | chamd5sec | https://mp.weixin.qq.com/s/NtOgVw0uFXndJ7b1-G-0iw | SUCTF-WriteUp(下) | 2| 
 | APT攻击 | cncg_team | https://mp.weixin.qq.com/s/PlrPBMRejmaROkR0oLvtuw | Google的安全机制 | 1| 
 | 网络空间安全军民融合创新中心 | jmrh1226 | https://mp.weixin.qq.com/s/9yRAitNrgN4I6iDaxbNvTA | 美国网络威胁归因的能力与影响探析 | 1| 
 | 安全乐观主义 |  | https://mp.weixin.qq.com/s/ornyzKd3uqjgUHEmdHGIJQ | 使用方舟编译器检查Fastjson OOM问题 | 3| 
@@ -26,7 +27,7 @@
 | 银河安全实验室 | Galaxy-Lab | https://mp.weixin.qq.com/s/rT53P9EW4xLFV9JLbnLroQ | D-Link DIR-816 A2路由器安全研究分享 | 1| 
 | FreeBuf企业安全 | freebuf_ent | https://mp.weixin.qq.com/s/BJlXOsBtPGVVU2cVs72TqQ | 全程带阻：记一次授权网络攻防演练 | 1| 
 | 人民公安报 | rmgabs | https://mp.weixin.qq.com/s/B64olNuiuu1HQUkdD3u0fg | 新中国成立70年来公安科技信息化工作回眸 | 1| 
-| 贝塔安全实验室 | BetaSecLab | https://mp.weixin.qq.com/s/AdrOhuA0mpjCtdpWjPC1jg | 网络空间搜索引擎的魅力 | 2| 
+| 贝塔安全实验室 | BetaSecLab | https://mp.weixin.qq.com/s/AdrOhuA0mpjCtdpWjPC1jg | 网络空间搜索引擎的魅力 | 3| 
 | PaperWeekly | paperweekly | https://mp.weixin.qq.com/s/hIGmW_J5xEvLUXa4hFHzsA | 百度实体链接比赛后记：行为建模和实体链接（含代码分享） | 1| 
 | PolarisLab | PolarisLab | https://mp.weixin.qq.com/s/gz77Yy3yKPM10JsDg1oyiw | Linux环境下无文件执行elf | 2| 
 | 中通安全应急响应中心 | ZTO_SRC | https://mp.weixin.qq.com/s/vwF7aTvk-U-SnJqO3f80gA | 中通安全开源项目之越权漏洞自动化检测 | 1| 
@@ -44,6 +45,7 @@
 # 私人github账号 推荐
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
+| ChiChou | RealWorldCTF 2019 Dezhou Insrumentz macOS 比赛题的源码 | https://github.com/ChiChou/DezhouInstrumenz | https://github.com/alipay | 我要卖掉我的代码 浪迹天涯 | Beijing, China | @alipay | 57 | 0 | 1500 | 665 | 252 | Objective-C,Vue,JavaScript,C | 1200 | 170 | 1| 
 | mame82 | Logitech Unifying Vulnerabilities | https://github.com/mame82/UnifyingVulnsDisclosureRepo/tree/master/vulnerability_reports | https://www.twitter.com/mame82 |  | None | None | 69 | 0 | 44 | 509 | 17 | Python,Go,C,JavaScript | 2500 | 517 | 1| 
 | wonderkun | CTFENV: 为应对CTF比赛而搭建的各种环境 | https://github.com/wonderkun/CTFENV | None |  | None | None | 70 | 0 | 410 | 199 | 152 | Python,C,PHP,Dockerfile | 454 | 150 | 1| 
 | matteyeux | 用于加载 Apple SecureROM 的 IDA 插件 | https://github.com/matteyeux/srom64helper | https://github.com/alterway | Sysadmin. Sometimes I write code | Paris | @alterway | 107 | 0 | 115 | 184 | 136 | Python,C | 10 | 4 | 1| 
@@ -60,13 +62,17 @@
 | c0d3p1ut0s | Java反序列化漏洞自动挖掘方法 | https://github.com/c0d3p1ut0s/Conference | https://c0d3p1ut0s.github.io/ |  | Hangzhou China | None | 6 | 0 | 2 | 37 | 0 | Python,HTML,Java | 92 | 17 | 1| 
 | A2nkF | 研究员 A2nkF 公开了一个 macOS 内核 0Day Exploit | https://github.com/A2nkF/macOS-Kernel-Exploit/ | https://twitter.com/A2nkF_ |  | None | None | 14 | 0 | 21 | 32 | 15 | Python,C,C++ | 106 | 18 | 1| 
 | ION28 | BLUESPAWN - 用于辅助蓝队实现 Windows 系统主动防御的监控工具 | https://github.com/ION28/BLUESPAWN/blob/master/README.md | https://metactf.com |  | None | MetaCTF | 8 | 0 | 165 | 28 | 29 | JavaScript,C++ | 60 | 16 | 1| 
+| gnebbia | pdlist: A passive subdomain finder | https://github.com/gnebbia/pdlist | None |  | Italy | None | 231 | 0 | 225 | 20 | 5 | C,XSLT,Python,JavaScript,Makefile,Perl,HTML,Go,PowerShell | 104 | 14 | 1| 
 | Areizen | 一款基于 Android 模拟器和 Frida 实现的 Android 恶意软件分析的沙盒 | https://github.com/Areizen/Android-Malware-Sandbox | None |  | None | None | 16 | 0 | 2 | 19 | 2 | Python,Shell,JavaScript | 86 | 23 | 1| 
 | StrangerealIntel | 针对以色列某未知 APT 恶意样本的分析报告 | https://github.com/StrangerealIntel/CyberThreatIntel/blob/master/Israel/APT/Unknown/26-08-19/Malware%20analysis%2026-08-19.md | None |  | None | None | 1 | 0 | 0 | 19 | 0 | Visual | 67 | 14 | 1| 
 | SVF-tools | SVF - 针对 C/C++ 程序的指针和过程依赖静态分析工具 | https://github.com/SVF-tools/SVF | None |  | None | None | 4 | 0 | 0 | 12 | 0 | C,C++ | 284 | 93 | 1| 
+| dogangcr | vulnerable-sso: vulnerable single sign on | https://github.com/dogangcr/vulnerable-sso | None |  | None | None | 2 | 0 | 9 | 3 | 1 | Java | 80 | 11 | 1| 
 | MoonLight-SteinsGate | LearnAFL--knowledge-learn evolutionary fuzzer | https://github.com/MoonLight-SteinsGate/LearnAFL | None |  | None | None | 2 | 0 | 1 | 1 | 0 | C,C++ | 8 | 3 | 1| 
 | dplusec | 端对端加密的微信聊天插件 | https://github.com/dplusec/tgwechat | None |  | None | None | 2 | 0 | 0 | 1 | 0 | HTML | 15 | 4 | 1| 
 | FederatedAI | FATE: 联邦学习开源项目 | https://github.com/FederatedAI/FATE | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Java,CSS | 703 | 203 | 1| 
 | Netis | packet-agent: 云环境网络流量镜像项目 | https://github.com/Netis/packet-agent/blob/master/README-zh-Hans.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,C++ | 0 | 0 | 1| 
+| QAX-A-Team | LuWu: 红队基础设施自动化部署工具 | https://github.com/QAX-A-Team/LuWu | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Python,C++,Go,PowerShell | 0 | 0 | 1| 
+| Tencent | TencentOS tiny - 腾讯开源的面向物联网领域的实时操作系统 | https://github.com/Tencent/TencentOS-tiny | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Java,Python,Kotlin,JavaScript,C++,Lua,Go,PHP,CSS,C# | 23200 | 5900 | 1| 
 | defenxor | dsiem: Security event correlation engine for ELK stack | https://github.com/defenxor/dsiem?from=timeline | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,HTML | 0 | 0 | 1| 
 | fireeye | fireeye/SharPersist | https://github.com/fireeye/SharPersist | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Vue,Python,JavaScript,C++,C#,Go,PowerShell | 0 | 0 | 2| 
 | google | Google 开源了一个实现差分隐私算法的 C++ 库 | https://github.com/google/differential-privacy/tree/master/differential_privacy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Java,Python,JavaScript,C++,Dart,HTML,Go | 0 | 0 | 1| 
