@@ -19,6 +19,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 奇安信威胁情报中心 |  | https://mp.weixin.qq.com/s/9kqvLPTwVktGmxrgyvUZZA | PhpStudyGhost后门供应链攻击事件及相关IOC | 1| 
 | ChaMd5安全团队 | chamd5sec | https://mp.weixin.qq.com/s/NtOgVw0uFXndJ7b1-G-0iw | SUCTF-WriteUp(下) | 2| 
 | APT攻击 | cncg_team | https://mp.weixin.qq.com/s/PlrPBMRejmaROkR0oLvtuw | Google的安全机制 | 1| 
 | 网络空间安全军民融合创新中心 | jmrh1226 | https://mp.weixin.qq.com/s/9yRAitNrgN4I6iDaxbNvTA | 美国网络威胁归因的能力与影响探析 | 1| 
@@ -52,6 +53,7 @@
 | 4B5F5F4B | 研究员 4B5F5F4B 为 Hyper-V RCE(CVE-2017-007) 漏洞写的 PoC | https://github.com/4B5F5F4B/HyperV | None |  | None | None | 20 | 0 | 508 | 114 | 80 | Shell,C,HTML,C++ | 125 | 51 | 1| 
 | uknowsec | 域渗透学习笔记 | https://github.com/uknowsec/Active-Directory-Pentest-Notes | http://uknowsec.cn | 不忘初心，方得始终 | Nanjing | None | 90 | 0 | 415 | 77 | 150 | Python,PHP | 95 | 15 | 1| 
 | Ch1ngg | JWTPyCrack-JWT攻击脚本 | https://github.com/Ch1ngg/JWTPyCrack | https://www.ch1ng.com/ |  | no | no | 14 | 0 | 121 | 76 | 18 | Python,C#,ASP,Java | 40 | 10 | 1| 
+| d0c-s4vage | gramfuzz - 通过定义语法规则生成 Fuzz 测试样本数据的工具 | https://github.com/d0c-s4vage/gramfuzz | None |  | None | None | 56 | 0 | 37 | 75 | 1 | Python,JavaScript,Vim | 149 | 29 | 1| 
 | theLSA | PC客户端（C-S架构）渗透测试checklist | https://github.com/theLSA/CS-checklist | http://www.lsablog.com | I like network security,penestration and programming(python,c/c++,php,java,ect),welcome to communicate with me! | China | None | 29 | 0 | 18 | 67 | 18 | Python,Ruby | 80 | 40 | 1| 
 | jakkdu | fuzzilli的quickjs patch, Happy hacking :) | https://github.com/jakkdu/fuzzilli-for-quickjs | http://jakkdu.github.io |  | Atlanta | Georgia Institute of Technology | 13 | 0 | 49 | 65 | 6 | Python,TeX,Ruby | 11 | 3 | 1| 
 | lucasg | 基于 IDA 脚本实现的枚举系统 RPC 接口的工具 | https://github.com/lucasg/findrpc | None |  | None | None | 24 | 0 | 33 | 54 | 3 | C#,Python,C,TeX,CSS | 1600 | 128 | 1| 
@@ -74,6 +76,7 @@
 | QAX-A-Team | LuWu: 红队基础设施自动化部署工具 | https://github.com/QAX-A-Team/LuWu | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Python,C++,Go,PowerShell | 0 | 0 | 1| 
 | Tencent | TencentOS tiny - 腾讯开源的面向物联网领域的实时操作系统 | https://github.com/Tencent/TencentOS-tiny | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Java,Python,Kotlin,JavaScript,C++,Lua,Go,PHP,CSS,C# | 23200 | 5900 | 1| 
 | defenxor | dsiem: Security event correlation engine for ELK stack | https://github.com/defenxor/dsiem?from=timeline | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,HTML | 0 | 0 | 1| 
+| eth-sri | 利用机器学习的方法还原（推测）被 strip 过的二进制程序的调试符号信息 | https://github.com/eth-sri/debin | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,D,Python,Mathematica,C++,C#,HTML,SMT,JavaScript | 0 | 0 | 1| 
 | fireeye | fireeye/SharPersist | https://github.com/fireeye/SharPersist | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Vue,Python,JavaScript,C++,C#,Go,PowerShell | 0 | 0 | 2| 
 | google | Google 开源了一个实现差分隐私算法的 C++ 库 | https://github.com/google/differential-privacy/tree/master/differential_privacy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Java,Python,JavaScript,C++,Dart,HTML,Go | 0 | 0 | 1| 
 | googleprojectzero | DrSancov - j00ru 开源的一款 DynamoRIO 插件，用于在动态插桩中输出 ASAN/ SanitizerCoverage 框架支持的格式方便进一步做分析 | https://github.com/googleprojectzero/DrSancov | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,C#,C++,Python,HTML,Swift | 0 | 0 | 1| 
