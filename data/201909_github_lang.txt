@@ -1,8 +1,8 @@
-Python	23
-C	18
+Python	25
+C	20
+C++	14
 JavaScript	13
-C++	13
-Java	9
+Java	10
 HTML	9
 Go	9
 C#	8
@@ -23,6 +23,7 @@ ASP	1
 Dart	1
 KiCad	1
 Visual	1
+Rust	1
 Jupyter	1
 D	1
 XSLT	1
