@@ -48,6 +48,7 @@
 # 私人github账号 推荐
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
+| jas502n | CVE-2019-8451 JIRA未授权SSRF漏洞POC。 | https://github.com/jas502n/CVE-2019-8451 | https://twitter.com/jas502n | 1.misc 2.crypto 3. web 4. reverse 5. android 6. pwn 7. elf | Hong Kong | jas502n | 194 | 0 | 250 | 1200 | 149 | C,Shell,Java,Objective-C++,Python,C#,PHP | 301 | 114 | 1| 
 | ChiChou | RealWorldCTF 2019 Dezhou Insrumentz macOS 比赛题的源码 | https://github.com/ChiChou/DezhouInstrumenz | https://github.com/alipay | 我要卖掉我的代码 浪迹天涯 | Beijing, China | @alipay | 57 | 0 | 1500 | 665 | 252 | Objective-C,Vue,JavaScript,C | 1200 | 170 | 1| 
 | mame82 | Logitech Unifying Vulnerabilities | https://github.com/mame82/UnifyingVulnsDisclosureRepo/tree/master/vulnerability_reports | https://www.twitter.com/mame82 |  | None | None | 69 | 0 | 44 | 509 | 17 | Python,Go,C,JavaScript | 2500 | 517 | 1| 
 | RUB-SysSec | Fuzz中一个常见问题是Checksum或者Magic Value，以前的方法大多是通过符号执行的方法去求解约束，但这样的方法比较复杂。Red­queen这篇文章提出了一种更为简单的思路，即基于VMI来获取比较指令或者函数调用指令的参数，用这个参数来指导变异。具体实现依赖Intel PT。 | https://github.com/RUB-SysSec/redqueen | https://syssec.rub.de |  | Bochum, Germany | Ruhr-University Bochum | 25 | 0 | 0 | 254 | 0 | Python,C,Rust | 390 | 105 | 1| 
