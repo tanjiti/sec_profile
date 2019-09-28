@@ -19,6 +19,10 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 90Sec Team | hk90sec | https://mp.weixin.qq.com/s?__biz=Mzg3NzE5OTA5NQ==&mid=2247483807&idx=1&sn=59be50aa5cc735f055db596269a857ce&chksm=cf27ea07f8506311d1c421e48d17deeebc19d569b037e0eb6c83656fee30fd9d59cc8228e372&token=2130309421&lang=zh_CN#rd | 域渗透总结 | 1| 
+| 我的安全视界观 | CANI_Security | https://mp.weixin.qq.com/s/ObEF5r5xQNrv53DV2Cm_sQ | 【SDL最初实践】安全开发 | 1| 
+| 360智库 |  | https://mp.weixin.qq.com/s/NcpsTiVKaMj_NTzRydaSag | 网络战的战术实践与战略思考 | 1| 
+| 嘶吼专业版 | Pro4hou | https://mp.weixin.qq.com/s/kLjX6pMpA-v8Wh2LZK6dJw | 俄罗斯APT图谱 | 1| 
 | 奇安信威胁情报中心 |  | https://mp.weixin.qq.com/s/9kqvLPTwVktGmxrgyvUZZA | PhpStudyGhost后门供应链攻击事件及相关IOC | 1| 
 | 等级保护测评 | zgdjbh | https://mp.weixin.qq.com/s/zD-jjZLrAWyE4NPjpguRwg | 江苏网警发布第六批网络安全行政执法典型案例 | 1| 
 | 安全学术圈 | secquan | https://mp.weixin.qq.com/s/H6X-BfR7AqTz9xYWBx_Usg | 基于HIN传导分类的恶意域名识别系统 | 1| 
@@ -76,6 +80,7 @@
 | dogangcr | vulnerable-sso: vulnerable single sign on | https://github.com/dogangcr/vulnerable-sso | None |  | None | None | 2 | 0 | 9 | 3 | 1 | Java | 80 | 11 | 1| 
 | MoonLight-SteinsGate | LearnAFL--knowledge-learn evolutionary fuzzer | https://github.com/MoonLight-SteinsGate/LearnAFL | None |  | None | None | 2 | 0 | 1 | 1 | 0 | C,C++ | 8 | 3 | 1| 
 | dplusec | 端对端加密的微信聊天插件 | https://github.com/dplusec/tgwechat | None |  | None | None | 2 | 0 | 0 | 1 | 0 | HTML | 15 | 4 | 1| 
+| 0Kee-Team | JavaProbe: 一款Java应用运行时信息收集工具 | https://github.com/0Kee-Team/JavaProbe?from=timeline&isappinstalled=0 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java | 0 | 0 | 1| 
 | FederatedAI | FATE: 联邦学习开源项目 | https://github.com/FederatedAI/FATE | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Java,CSS | 703 | 203 | 1| 
 | Netis | packet-agent: 云环境网络流量镜像项目 | https://github.com/Netis/packet-agent/blob/master/README-zh-Hans.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,C++ | 0 | 0 | 1| 
 | QAX-A-Team | LuWu: 红队基础设施自动化部署工具 | https://github.com/QAX-A-Team/LuWu | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Python,C++,Go,PowerShell | 0 | 0 | 1| 
