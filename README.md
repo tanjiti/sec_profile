@@ -20,21 +20,22 @@
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
 | 90Sec Team | hk90sec | https://mp.weixin.qq.com/s?__biz=Mzg3NzE5OTA5NQ==&mid=2247483807&idx=1&sn=59be50aa5cc735f055db596269a857ce&chksm=cf27ea07f8506311d1c421e48d17deeebc19d569b037e0eb6c83656fee30fd9d59cc8228e372&token=2130309421&lang=zh_CN#rd | 域渗透总结 | 1| 
+| 信息安全最新论文技术交流 |  | https://mp.weixin.qq.com/s/F0tes4QbhQyv14PFokFYuQ | NIST SP800-207:零信任架构草案 | 1| 
 | 我的安全视界观 | CANI_Security | https://mp.weixin.qq.com/s/ObEF5r5xQNrv53DV2Cm_sQ | 【SDL最初实践】安全开发 | 1| 
 | 360智库 |  | https://mp.weixin.qq.com/s/NcpsTiVKaMj_NTzRydaSag | 网络战的战术实践与战略思考 | 1| 
 | 嘶吼专业版 | Pro4hou | https://mp.weixin.qq.com/s/kLjX6pMpA-v8Wh2LZK6dJw | 俄罗斯APT图谱 | 1| 
 | 奇安信威胁情报中心 |  | https://mp.weixin.qq.com/s/9kqvLPTwVktGmxrgyvUZZA | PhpStudyGhost后门供应链攻击事件及相关IOC | 1| 
 | 等级保护测评 | zgdjbh | https://mp.weixin.qq.com/s/zD-jjZLrAWyE4NPjpguRwg | 江苏网警发布第六批网络安全行政执法典型案例 | 1| 
 | 安全学术圈 | secquan | https://mp.weixin.qq.com/s/H6X-BfR7AqTz9xYWBx_Usg | 基于HIN传导分类的恶意域名识别系统 | 1| 
-| ChaMd5安全团队 | chamd5sec | https://mp.weixin.qq.com/s/NtOgVw0uFXndJ7b1-G-0iw | SUCTF-WriteUp(下) | 2| 
+| ChaMd5安全团队 | chamd5sec | https://mp.weixin.qq.com/s/bgWwPPjFsiviFxMgNxjUIg | SUCTF-WriteUp(上) | 2| 
 | APT攻击 | cncg_team | https://mp.weixin.qq.com/s/PlrPBMRejmaROkR0oLvtuw | Google的安全机制 | 1| 
-| 网络空间安全军民融合创新中心 | jmrh1226 | https://mp.weixin.qq.com/s/9yRAitNrgN4I6iDaxbNvTA | 美国网络威胁归因的能力与影响探析 | 1| 
-| 安全乐观主义 |  | https://mp.weixin.qq.com/s/ornyzKd3uqjgUHEmdHGIJQ | 使用方舟编译器检查Fastjson OOM问题 | 3| 
-| 水滴安全实验室 | EversecLab | https://mp.weixin.qq.com/s/gpVMcPjfP2HDZisZhy0fig | 物联网漏洞挖掘入门--DLINK-DIR-645路由器栈溢出漏洞分析复现 | 1| 
-| 银河安全实验室 | Galaxy-Lab | https://mp.weixin.qq.com/s/rT53P9EW4xLFV9JLbnLroQ | D-Link DIR-816 A2路由器安全研究分享 | 1| 
 | FreeBuf企业安全 | freebuf_ent | https://mp.weixin.qq.com/s/BJlXOsBtPGVVU2cVs72TqQ | 全程带阻：记一次授权网络攻防演练 | 1| 
 | 人民公安报 | rmgabs | https://mp.weixin.qq.com/s/B64olNuiuu1HQUkdD3u0fg | 新中国成立70年来公安科技信息化工作回眸 | 1| 
-| 贝塔安全实验室 | BetaSecLab | https://mp.weixin.qq.com/s/AdrOhuA0mpjCtdpWjPC1jg | 网络空间搜索引擎的魅力 | 3| 
+| 安全乐观主义 |  | https://mp.weixin.qq.com/s/ornyzKd3uqjgUHEmdHGIJQ | 使用方舟编译器检查Fastjson OOM问题 | 3| 
+| 水滴安全实验室 | EversecLab | https://mp.weixin.qq.com/s/gpVMcPjfP2HDZisZhy0fig | 物联网漏洞挖掘入门--DLINK-DIR-645路由器栈溢出漏洞分析复现 | 1| 
+| 网络空间安全军民融合创新中心 | jmrh1226 | https://mp.weixin.qq.com/s/9yRAitNrgN4I6iDaxbNvTA | 美国网络威胁归因的能力与影响探析 | 1| 
+| 银河安全实验室 | Galaxy-Lab | https://mp.weixin.qq.com/s/rT53P9EW4xLFV9JLbnLroQ | D-Link DIR-816 A2路由器安全研究分享 | 1| 
+| 贝塔安全实验室 | BetaSecLab | https://mp.weixin.qq.com/s/AdrOhuA0mpjCtdpWjPC1jg | 网络空间搜索引擎的魅力 | 4| 
 | PaperWeekly | paperweekly | https://mp.weixin.qq.com/s/hIGmW_J5xEvLUXa4hFHzsA | 百度实体链接比赛后记：行为建模和实体链接（含代码分享） | 1| 
 | PolarisLab | PolarisLab | https://mp.weixin.qq.com/s/gz77Yy3yKPM10JsDg1oyiw | Linux环境下无文件执行elf | 2| 
 | 中通安全应急响应中心 | ZTO_SRC | https://mp.weixin.qq.com/s/vwF7aTvk-U-SnJqO3f80gA | 中通安全开源项目之越权漏洞自动化检测 | 1| 
