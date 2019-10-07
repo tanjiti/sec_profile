@@ -1,0 +1,51 @@
+20190923	新闻	https://mp.weixin.qq.com/s/zD-jjZLrAWyE4NPjpguRwg	江苏网警发布第六批网络安全行政执法典型案例	qq.com	mp.weixin.qq.com	/s/zD-jjZLrAWyE4NPjpguRwg
+20190923	新闻	https://m.21jingji.com/article/20190927/herald/6cbc8365dcdf265b0da4893c233643fb.html	工信部：力争到2025年网络安全产业规模超过2000亿	21jingji.com	m.21jingji.com	/article/20190927/herald/6cbc8365dcdf265b0da4893c233643fb.html
+20190923	Web安全	https://thief.one/2019/09/27/1/	记一次利用00进行短信轰炸的渗透手法	thief.one	thief.one	/2019/09/27/1/
+20190923	恶意分析	https://nosec.org/home/detail/2990.html	PHPStudy后门动态分析	nosec.org	nosec.org	/home/detail/2990.html
+20190923	Web安全	https://paper.seebug.org/1043/	RDP 登录日志取证与清除	seebug.org	paper.seebug.org	/1043/
+20190923	杂志	https://www.sec-wiki.com/weekly/290	SecWiki周刊（第290期)	sec-wiki.com	www.sec-wiki.com	/weekly/290
+20190923	取证分析	http://www.arkteam.net/?p=4461	基于日志分析的攻击检测和场景还原相关技术	arkteam.net	www.arkteam.net	/
+20190923	Web安全	https://mp.weixin.qq.com/s/H6X-BfR7AqTz9xYWBx_Usg	基于HIN传导分类的恶意域名识别系统	qq.com	mp.weixin.qq.com	/s/H6X-BfR7AqTz9xYWBx_Usg
+20190923	恶意分析	https://www.freebuf.com/articles/system/214591.html	复盘网络战：乌克兰二次断电事件分析	freebuf.com	www.freebuf.com	/articles/system/214591.html
+20190923	观点	https://mp.weixin.qq.com/s/NcpsTiVKaMj_NTzRydaSag	网络战的战术实践与战略思考	qq.com	mp.weixin.qq.com	/s/NcpsTiVKaMj_NTzRydaSag
+20190923	漏洞分析	https://blog.knownsec.com/2019/09/thinkphp-%e5%8f%8d%e5%ba%8f%e5%88%97%e5%8c%96%e5%88%a9%e7%94%a8%e9%93%be%e6%b7%b1%e5%85%a5%e5%88%86%e6%9e%90/	Thinkphp 反序列化利用链深入分析	knownsec.com	blog.knownsec.com	/2019/09/thinkphp-%e5%8f%8d%e5%ba%8f%e5%88%97%e5%8c%96%e5%88%a9%e7%94%a8%e9%93%be%e6%b7%b1%e5%85%a5%e5%88%86%e6%9e%90/
+20190923	编程技术	https://mp.weixin.qq.com/s/kLjX6pMpA-v8Wh2LZK6dJw	俄罗斯APT图谱	qq.com	mp.weixin.qq.com	/s/kLjX6pMpA-v8Wh2LZK6dJw
+20190923	编程技术	https://github.com/0Kee-Team/JavaProbe?from=timeline&isappinstalled=0	JavaProbe: 一款Java应用运行时信息收集工具	github.com	github.com	/0Kee-Team/JavaProbe
+20190923	Web安全	https://www.anquanke.com/post/id/187415	浅谈RASP	anquanke.com	www.anquanke.com	/post/id/187415
+20190923	Web安全	https://www.chabug.org/web/999.html	metinfo 6.2.0正则匹配不严谨导致注入+getshell组合拳	chabug.org	www.chabug.org	/web/999.html
+20190923	观点	https://www.aqniu.com/tools-tech/56242.html	ATT&CK 随笔系列之一：右脑知攻、左脑知防	aqniu.com	www.aqniu.com	/tools-tech/56242.html
+20190923	观点	https://zhuanlan.zhihu.com/p/84591095	再谈安全运营	zhihu.com	zhuanlan.zhihu.com	/p/84591095
+20190923	其它	https://mp.weixin.qq.com/s/F0tes4QbhQyv14PFokFYuQ	NIST SP800-207:零信任架构草案	qq.com	mp.weixin.qq.com	/s/F0tes4QbhQyv14PFokFYuQ
+20190923	Web安全	https://mp.weixin.qq.com/s/ObEF5r5xQNrv53DV2Cm_sQ	SDL最初实践-安全开发	qq.com	mp.weixin.qq.com	/s/ObEF5r5xQNrv53DV2Cm_sQ
+20190923	编程技术	https://juejin.im/post/5d4cbc0cf265da038f47fa37	开发者必知必会的 WebSocket 协议	juejin.im	juejin.im	/post/5d4cbc0cf265da038f47fa37
+20190923	编程技术	https://www.freebuf.com/sectool/213642.html	Pyshark：使用了WirdShark的Python数据包解析工具（Tshark）	freebuf.com	www.freebuf.com	/sectool/213642.html
+20190923	恶意分析	https://www.anquanke.com/post/id/186953	Powershell 进阶—基于Powershell的远控分析	anquanke.com	www.anquanke.com	/post/id/186953
+20190923	恶意分析	https://newtonpaul.com/static-malware-analysis-with-ole-tools-and-cyber-chef/	Static Malware Analysis with OLE Tools and CyberChef	newtonpaul.com	newtonpaul.com	/static-malware-analysis-with-ole-tools-and-cyber-chef/
+20190923	漏洞分析	https://www.4hou.com/info/news/20264.html	Palo Alto Global Protect 网关设备格式化字符串漏洞分析(CVE-2019-1579)	4hou.com	www.4hou.com	/info/news/20264.html
+20190923	漏洞分析	http://blog.topsec.com.cn/lolbins%e8%af%a6%e8%a7%a3/	LOLBins详解: Living-Off-the-Land Binaries	topsec.com.cn	blog.topsec.com.cn	/lolbins%e8%af%a6%e8%a7%a3/
+20190930	移动安全	https://mp.weixin.qq.com/s/-citnkfwGai7KQCIp9G99w	反弹shell的学习总结 - Part 1	qq.com	mp.weixin.qq.com	/s/-citnkfwGai7KQCIp9G99w
+20190930	取证分析	https://mp.weixin.qq.com/s/iDVOOmdkBRDrZZDnAeEB_A	美国中央情报局网络武器库分析与披露	qq.com	mp.weixin.qq.com	/s/iDVOOmdkBRDrZZDnAeEB_A
+20190930	漏洞分析	https://paper.seebug.org/1045/	物联网安全从入门到入坑	seebug.org	paper.seebug.org	/1045/
+20190930	工具	https://gobies.org/	Goby：Attack surface mapping tool	gobies.org	gobies.org	/
+20190930	Web安全	https://github.com/theLSA/vbulletin5-rce	vbulletin5 rce漏洞检测工具	github.com	github.com	/theLSA/vbulletin5-rce
+20190930	漏洞分析	https://github.com/seecode-audit/seecode-audit	seecode-audit: SeeCode Audit 代码审计管理系统	github.com	github.com	/seecode-audit/seecode-audit
+20190930	Web安全	https://xz.aliyun.com/t/6447	建立加密socks5转发的两种方法	aliyun.com	xz.aliyun.com	/t/6447
+20190930	Web安全	https://www.anquanke.com/post/id/187748	一次利用泛微OA最新漏洞攻击活动分析拓展	anquanke.com	www.anquanke.com	/post/id/187748
+20190930	论文	https://mp.weixin.qq.com/s/gcBN3slkqwkDW_I24OB_ug	浅析公共GitHub存储库中的秘密泄露	qq.com	mp.weixin.qq.com	/s/gcBN3slkqwkDW_I24OB_ug
+20190930	运维安全	https://mp.weixin.qq.com/s/3p7e27JF6NV6C0_DEPiaqg	利用Citrix Receiver浏览器进行渗透	qq.com	mp.weixin.qq.com	/s/3p7e27JF6NV6C0_DEPiaqg
+20190930	取证分析	https://mp.weixin.qq.com/s/0s1SuWPqAReuRjdp2OsAXw	震网事件的九年再复盘与思考	qq.com	mp.weixin.qq.com	/s/0s1SuWPqAReuRjdp2OsAXw
+20190930	比赛	https://xz.aliyun.com/t/5960	2019工业信息安全技能大赛个人线上赛第一场(前5道)writeup	aliyun.com	xz.aliyun.com	/t/5960
+20190930	恶意分析	https://www.4hou.com/system/20596.html	攻击链分析标准化	4hou.com	www.4hou.com	/system/20596.html
+20190930	运维安全	https://github.com/open-cmdb/cmdb	cmdb: CMDB 配置管理系统 资产管理系统	github.com	github.com	/open-cmdb/cmdb
+20190930	运维安全	https://github.com/ouqiang/gocron	gocron: 定时任务管理系统	github.com	github.com	/ouqiang/gocron
+20190930	比赛	https://xz.aliyun.com/t/6431	“第五空间”网络安全线下赛PWN部分WRITEUP	aliyun.com	xz.aliyun.com	/t/6431
+20190930	比赛	https://xz.aliyun.com/t/6445	2019工业信息安全技能大赛个人线上赛第二场(5道) writeup	aliyun.com	xz.aliyun.com	/t/6445
+20190930	比赛	https://www.anquanke.com/post/id/187516	OGeek CTF 2019 线下决赛 pwn 题解	anquanke.com	www.anquanke.com	/post/id/187516
+20190930	取证分析	https://xz.aliyun.com/t/6461	windows中常见后门持久化方法总结	aliyun.com	xz.aliyun.com	/t/6461
+20190930	杂志	https://www.sec-wiki.com/weekly/291	SecWiki周刊（第291期)	sec-wiki.com	www.sec-wiki.com	/weekly/291
+20190930	数据挖掘	http://4o4notfound.org/index.php/archives/202/	半监督学习的思考和安全尝试	4o4notfound.org	4o4notfound.org	/index.php/archives/202/
+20190930	比赛	https://xz.aliyun.com/t/6458	2019浙江省大学生网络与信息安全竞赛决赛部分WriteUp	aliyun.com	xz.aliyun.com	/t/6458
+20190930	恶意分析	https://github.com/guardicore/labs_campaigns	labs_campaigns 攻击团队IOC信息	github.com	github.com	/guardicore/labs_campaigns
+20190930	编程技术	https://mp.weixin.qq.com/s/spmYrBPK9kuEoOixl9yRRA	沙箱：概述	qq.com	mp.weixin.qq.com	/s/spmYrBPK9kuEoOixl9yRRA
+20190930	漏洞分析	https://xz.aliyun.com/t/6457	基于qemu和unicorn的Fuzz技术分析	aliyun.com	xz.aliyun.com	/t/6457
+20190930	恶意分析	https://medium.com/@Sebdraven/malicious-document-targets-vietnamese-officials-acb3b9d8b80a	Malicious document targets Vietnamese officials	medium.com	medium.com	/@Sebdraven/malicious-document-targets-vietnamese-officials-acb3b9d8b80a

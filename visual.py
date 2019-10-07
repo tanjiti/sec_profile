@@ -9,8 +9,8 @@ sys.setdefaultencoding('utf8')
 from collections import OrderedDict
 import matplotlib.pyplot as plt
 
-
 import matplotlib
+
 print(matplotlib.matplotlib_fname())
 
 from mills import SQLiteOper
@@ -133,7 +133,7 @@ def draw_pie(so, source="secwiki", year="", tag="domain", top=10):
     explode[-1] = 0  # 凸显
 
     try:
-        #plt.rcParams['font.sans-serif'] = ['MicrosoftYaHei']
+        # plt.rcParams['font.sans-serif'] = ['MicrosoftYaHei']
         plt.rcParams['font.sans-serif'] = ['SimHei']  # 解决中文乱码
         plt.rcParams['font.family'] = 'sans-serif'
         plt.rcParams['axes.unicode_minus'] = False  # 坐标轴负号的处理
@@ -273,13 +273,9 @@ def draw_readme(fpath=None):
     if fpath is None:
         fpath = "README.md"
 
-
     tables_rets = []
     so = SQLiteOper("data/scrap.db")
     year = get_special_date(delta=0, format="%Y%m")
-
-
-
 
     # update
 
@@ -307,6 +303,8 @@ def draw_readme(fpath=None):
 
     with codecs.open(fpath, mode='wb') as fr:
         fr.write("# [数据年报](README_YEAR.md)")
+        fr.write(os.linesep)
+        fr.write("# [数据月报-9月](README_9.md)")
         fr.write(os.linesep)
         fr.write("# [数据月报-8月](README_8.md)")
         fr.write(os.linesep)
