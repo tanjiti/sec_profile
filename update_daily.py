@@ -20,9 +20,9 @@ def scraw(proxy=None):
 
     so = SQLiteOper("data/scrap.db")
 
-    secwiki_scraw(so, proxy=proxy, delta=3)
+    secwiki_scraw(so, proxy=proxy, delta=9)
 
-    xuanwu_scraw(so, proxy=proxy, delta=3)
+    xuanwu_scraw(so, proxy=proxy, delta=9)
 
 
 def update_github():
