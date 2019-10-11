@@ -23,7 +23,7 @@
 | 湛卢工作室 | xuehao_studio | https://mp.weixin.qq.com/s/g-vlNmn4uQKUnBKZ7LMJvA | SRC漏洞挖掘实用技巧 | 2| 
 | 汉客儿 |  | https://mp.weixin.qq.com/s/spmYrBPK9kuEoOixl9yRRA | 沙箱：概述 | 1| 
 | 安全学术圈 | secquan | https://mp.weixin.qq.com/s/gcBN3slkqwkDW_I24OB_ug | 浅析公共GitHub存储库中的秘密泄露 | 1| 
-| 贝塔安全实验室 | BetaSecLab | https://mp.weixin.qq.com/s/-citnkfwGai7KQCIp9G99w | 反弹shell的学习总结 - Part 1 | 2| 
+| 贝塔安全实验室 | BetaSecLab | https://mp.weixin.qq.com/s/-citnkfwGai7KQCIp9G99w | 反弹shell的学习总结 - Part 1 | 3| 
 
 
 # 组织github账号 推荐
@@ -42,6 +42,7 @@
 | Ch1ngg | Cobalt Strike - 使用其他方式抓取密码/dump hash | https://github.com/Ch1ngg/AggressorScript-RunDumpHash | https://www.ch1ng.com/ |  | no | no | 15 | 0 | 145 | 84 | 18 | Python,C#,ASP,Java,PowerShell | 44 | 11 | 1| 
 | open-cmdb | cmdb: CMDB 配置管理系统 资产管理系统 | https://github.com/open-cmdb/cmdb | None |  | Shanghai | None | 2 | 0 | 2 | 35 | 0 | Python,JavaScript | 413 | 166 | 1| 
 | MicrosoftDocs | 微软公开 Windows Driver Kit 相关的文档 | https://github.com/MicrosoftDocs/windows-driver-docs | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,HTML,C#,JavaScript,Python,Shell,PowerShell | 3100 | 8200 | 1| 
+| advanced-threat-research | Repository of YARA rules made by McAfee ATR Team | https://github.com/advanced-threat-research/Yara-Rules | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,YARA,HTML | 0 | 0 | 1| 
 | guardicore | labs_campaigns 攻击团队IOC信息 | https://github.com/guardicore/labs_campaigns | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,CoffeeScript,C# | 0 | 0 | 1| 
 | zaproxy | zaproxy - OWASP Zed Attack Proxy (ZAP)，一个用于辅助 Web 应用安全性测试的工具 | https://github.com/zaproxy/zaproxy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java,C#,JavaScript,Python,HTML,Go,PHP,Rust | 6300 | 1200 | 1| 
 
