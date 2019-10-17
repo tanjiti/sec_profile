@@ -1,0 +1,42 @@
+20191007	事件	https://nosec.org/home/detail/3018.html	有黑客正拍卖一个包含9200万巴西公民详细信息的数据库	nosec.org	nosec.org	/home/detail/3018.html
+20191007	新闻	https://nosec.org/home/detail/3021.html	Facebook、Twitter涉嫌违反欧盟GDPR 或面临数十亿美元罚款	nosec.org	nosec.org	/home/detail/3021.html
+20191007	Web安全	https://mp.weixin.qq.com/s/g-vlNmn4uQKUnBKZ7LMJvA	SRC漏洞挖掘实用技巧	qq.com	mp.weixin.qq.com	/s/g-vlNmn4uQKUnBKZ7LMJvA
+20191007	Web安全	https://mp.weixin.qq.com/s/o6aUI-sk0A7fSDMTinoMNg	红蓝对抗——加密Webshell“冰蝎”攻防	qq.com	mp.weixin.qq.com	/s/o6aUI-sk0A7fSDMTinoMNg
+20191007	Web安全	https://xz.aliyun.com/t/6502	Web安全Day8 - XXE实战攻防	aliyun.com	xz.aliyun.com	/t/6502
+20191007	漏洞分析	https://nosec.org/home/detail/3030.html	泛微E-cology OA系统SQL注入漏洞	nosec.org	nosec.org	/home/detail/3030.html
+20191007	Web安全	https://xz.aliyun.com/t/6498	Hacking Windows 备忘录	aliyun.com	xz.aliyun.com	/t/6498
+20191007	工具	https://github.com/Ch1ngg/AggressorScript-RunDumpHash	Cobalt Strike - 使用其他方式抓取密码/dump hash	github.com	github.com	/Ch1ngg/AggressorScript-RunDumpHash
+20191007	运维安全	https://www.sec-un.org/%e8%b5%84%e4%ba%a7%e5%8d%81%e9%97%ae/	资产十问	sec-un.org	www.sec-un.org	/%e8%b5%84%e4%ba%a7%e5%8d%81%e9%97%ae/
+20191007	Web安全	https://github.com/0Kee-Team/CatchMail	CatchMail: 收集邮箱的工具	github.com	github.com	/0Kee-Team/CatchMail
+20191007	漏洞分析	https://xz.aliyun.com/t/6467	ThinkPHP5.1.X反序列化利用链	aliyun.com	xz.aliyun.com	/t/6467
+20191007	漏洞分析	https://nosec.org/home/detail/3027.html	CVE-2019-1315：基于错误报告机制的Windows提权漏洞	nosec.org	nosec.org	/home/detail/3027.html
+20191007	事件	https://nosec.org/home/detail/3038.html	TeamViewer疑似被入侵事件分析	nosec.org	nosec.org	/home/detail/3038.html
+20191007	漏洞分析	https://nosec.org/home/detail/3020.html	D-Link路由器曝出RCE漏洞，牵涉多个型号	nosec.org	nosec.org	/home/detail/3020.html
+20191007	其它	https://www.sec-un.org/%e7%be%8e%e5%9b%bd%e6%94%bf%e5%ba%9c%e6%8c%81%e7%bb%ad%e6%b7%b1%e5%85%a5%e5%bc%80%e5%b1%95%e7%88%b1%e5%9b%a0%e6%96%af%e5%9d%a6%e9%a1%b9%e7%9b%ae%e4%bb%a5%e6%8f%90%e5%8d%87%e7%bd%91%e7%bb%9c%e5%a8%81/	美国政府持续深入开展爱因斯坦项目以提升网络威胁感知能力（2019）	sec-un.org	www.sec-un.org	/%e7%be%8e%e5%9b%bd%e6%94%bf%e5%ba%9c%e6%8c%81%e7%bb%ad%e6%b7%b1%e5%85%a5%e5%bc%80%e5%b1%95%e7%88%b1%e5%9b%a0%e6%96%af%e5%9d%a6%e9%a1%b9%e7%9b%ae%e4%bb%a5%e6%8f%90%e5%8d%87%e7%bd%91%e7%bb%9c%e5%a8%81/
+20191007	杂志	https://www.sec-wiki.com/weekly/292	SecWiki周刊（第292期)	sec-wiki.com	www.sec-wiki.com	/weekly/292
+20191007	比赛	https://xz.aliyun.com/t/6477	“北极星杯”AWD线上赛复盘	aliyun.com	xz.aliyun.com	/t/6477
+20191007	Web安全	https://paper.seebug.org/1048/	协议层的攻击—HTTP请求走私	seebug.org	paper.seebug.org	/1048/
+20191007	Web安全	https://mp.weixin.qq.com/s/2bkCRZf6_An2fWEdXbHxrg	php反序列化靶机实战	qq.com	mp.weixin.qq.com	/s/2bkCRZf6_An2fWEdXbHxrg
+20191007	取证分析	https://mp.weixin.qq.com/s/qfthyNQ3E_TruEbREcIJzg	ATT&CK一般性学习笔记	qq.com	mp.weixin.qq.com	/s/qfthyNQ3E_TruEbREcIJzg
+20191007	取证分析	https://www.freebuf.com/articles/web/216301.html	基于mitmproxy的被动扫描代理	freebuf.com	www.freebuf.com	/articles/web/216301.html
+20191007	其它	https://mp.weixin.qq.com/s/T5EqLfqSCU8JRp6Ez4vdpg	浅析DARPA的运作机制	qq.com	mp.weixin.qq.com	/s/T5EqLfqSCU8JRp6Ez4vdpg
+20191007	漏洞分析	https://nosec.org/home/detail/3034.html	CVE-2019-17059：Cyber​​oam SSL VPN的RCE漏洞	nosec.org	nosec.org	/home/detail/3034.html
+20191007	设备安全	http://jzgkchina.com/node/1273	一小时完成上位机SCADA	jzgkchina.com	jzgkchina.com	/node/1273
+20191007	漏洞分析	https://nosec.org/home/detail/3022.html	vBulletin再修复高危RCE和SQL注入漏洞	nosec.org	nosec.org	/home/detail/3022.html
+20191007	取证分析	https://www.anquanke.com/post/id/187998	一文看懂ATT&CK框架以及使用场景实例	anquanke.com	www.anquanke.com	/post/id/187998
+20191007	Web安全	https://devco.re/blog/2019/10/09/def-strategy/	以攻擊者的角度制定防禦策略	devco.re	devco.re	/blog/2019/10/09/def-strategy/
+20191007	取证分析	https://www.4hou.com/technology/20718.html	从Exchange服务器上搜索和导出邮件	4hou.com	www.4hou.com	/technology/20718.html
+20191007	漏洞分析	https://mp.weixin.qq.com/s/4KcpS4eNGQ8bL6DTM4K0aQ	[CVE-2019-9535] Iterm2命令执行的不完整复现	qq.com	mp.weixin.qq.com	/s/4KcpS4eNGQ8bL6DTM4K0aQ
+20191007	漏洞分析	https://www.anquanke.com/post/id/188138	PDF调试技巧剖析	anquanke.com	www.anquanke.com	/post/id/188138
+20191007	漏洞分析	http://blog.umangis.me/the-art-of-webkit-exploitation/	The Art of WebKit Exploitation	umangis.me	blog.umangis.me	/the-art-of-webkit-exploitation/
+20191007	Web安全	https://3gstudent.github.io/3gstudent.github.io/SharpSniper%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/	SharpSniper利用分析	github.io	3gstudent.github.io	/3gstudent.github.io/SharpSniper%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/
+20191007	恶意分析	https://github.com/advanced-threat-research/Yara-Rules	Repository of YARA rules made by McAfee ATR Team	github.com	github.com	/advanced-threat-research/Yara-Rules
+20191007	无线安全	https://www.anquanke.com/post/id/188340	侧信道攻击，从喊666到入门之—错误注入攻击白盒	anquanke.com	www.anquanke.com	/post/id/188340
+20191007	Web安全	https://github.com/Dliv3/Venom	Venom - A Multi-hop Proxy for Penetration Testers	github.com	github.com	/Dliv3/Venom
+20191007	恶意分析	https://www.unb.ca/cic/datasets/ids.html	ISCX-IDS-2012 intrusion detection evaluation dataset	unb.ca	www.unb.ca	/cic/datasets/ids.html
+20191007	漏洞分析	https://5alt.me/2019/10/HackMD%20Stored%20XSS%20and%20HackMD%20Desktop%20RCE/	HackMD Stored XSS and HackMD Desktop RCE	5alt.me	5alt.me	/2019/10/HackMD%20Stored%20XSS%20and%20HackMD%20Desktop%20RCE/
+20191007	漏洞分析	https://awakened1712.github.io/hacking/hacking-whatsapp-gif-rce/	How a double-free bug in WhatsApp turns to RCE	github.io	awakened1712.github.io	/hacking/hacking-whatsapp-gif-rce/
+20191007	文档	https://github.com/blaCCkHatHacEEkr/PENTESTING-BIBLE	PENTESTING-BIBLE	github.com	github.com	/blaCCkHatHacEEkr/PENTESTING-BIBLE
+20191007	设备安全	https://www.anquanke.com/post/id/187792	工控安全入门（五）—— plc逆向初探	anquanke.com	www.anquanke.com	/post/id/187792
+20191007	恶意分析	https://github.com/danielbohannon/Revoke-Obfuscation	Revoke-Obfuscation: PowerShell Obfuscation Detection Framework	github.com	github.com	/danielbohannon/Revoke-Obfuscation
+20191007	漏洞分析	https://www.anquanke.com/post/id/187875	在PWN题中绕过lea esp以及关于Ret2dl的一些补充	anquanke.com	www.anquanke.com	/post/id/187875
