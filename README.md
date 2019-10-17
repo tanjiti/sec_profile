@@ -30,7 +30,7 @@
 | 湛卢工作室 | xuehao_studio | https://mp.weixin.qq.com/s/g-vlNmn4uQKUnBKZ7LMJvA | SRC漏洞挖掘实用技巧 | 2| 
 | 汉客儿 |  | https://mp.weixin.qq.com/s/spmYrBPK9kuEoOixl9yRRA | 沙箱：概述 | 1| 
 | 安全学术圈 | secquan | https://mp.weixin.qq.com/s/gcBN3slkqwkDW_I24OB_ug | 浅析公共GitHub存储库中的秘密泄露 | 2| 
-| 贝塔安全实验室 | BetaSecLab | https://mp.weixin.qq.com/s/-citnkfwGai7KQCIp9G99w | 反弹shell的学习总结 - Part 1 | 3| 
+| 贝塔安全实验室 | BetaSecLab | https://mp.weixin.qq.com/s/-citnkfwGai7KQCIp9G99w | 反弹shell的学习总结 - Part 1 | 4| 
 
 
 # 组织github账号 推荐
@@ -43,6 +43,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | evilsocket | evilsocket 开源的一个利用深度学习技术辅助攻击 WiFi 的工具 | https://github.com/evilsocket/pwnagotchi/releases/tag/v1.0.0RC4 | https://www.evilsocket.net |  | Italy | Zimperium | 118 | 0 | 14 | 4100 | 0 | Go,Python,JavaScript,CSS | 6000 | 573 | 1| 
 | byt3bl33d3r | 利用脚本语言处理 .NET Payloads，实现 BYOI Payloads | https://github.com/byt3bl33d3r/Slides/blob/master/RT%20Level%209000%2B%2B_BsidesPR.pdf | https://byt3bl33d3r.github.io | C Y B E R | Error: Unable to resolve | BlackHills InfoSec | 98 | 0 | 1100 | 3000 | 120 | Python,PowerShell,HCL,Boo | 3000 | 795 | 1| 
+| taviso | Tavis Ormandy 开源了一个用于与 CEF Debugger 交互的工具 | https://github.com/taviso/cefdebug | None |  | None | None | 12 | 0 | 16 | 1500 | 1 | C | 2700 | 225 | 1| 
 | tyranid | James Forshaw 开源了一个攻击存在 CVE-2014-1806 / CVE-2014-4149 漏洞的 .NET Remoting Services 的工具 | https://github.com/tyranid/ExploitRemotingService | None |  | None | None | 32 | 0 | 0 | 806 | 2 | C#,Python,C | 851 | 227 | 1| 
 | infosecn1nja | SharpDoor - Patch termsrv.dll 实现 RDP (Remote Desktop) Multi-Session 的支持 | https://github.com/infosecn1nja/SharpDoor | None | Security Researcher/Red/Purple Teaming/Adversary Simulation/Threat Hunter. Contributors of Atomic Red Team, PS Empire, Mitre ATT&CK Framework, LOLBas, and more. | Jakarta, Indonesia | None | 32 | 0 | 656 | 643 | 71 | Python,C#,Shell | 2600 | 739 | 1| 
 | al0ne | Suricata安装部署&丢包优化&性能调优&规则调整&Pfring设置 | https://github.com/al0ne/suricata_optimize | None | Emergency response, security analysis | United States | None | 13 | 0 | 613 | 272 | 225 | Python,Dockerfile,Shell,Makefile | 793 | 230 | 1| 
@@ -50,12 +51,15 @@
 | monoxgas | BlackHat USA 会议上有一个关于 C&C（命令控制）技术的议题，作者最近将相关的工具也公开了 | https://github.com/monoxgas/FlyingAFalseFlag | None |  | Utah, United States | Silent Break Security | 16 | 0 | 31 | 145 | 1 | C#,Python,PowerShell,C++ | 488 | 143 | 1| 
 | theLSA | vbulletin5 rce漏洞检测工具 | https://github.com/theLSA/vbulletin5-rce | http://www.lsablog.com | I like network security,penestration and programming(python,c/c++,php,java,ect),welcome to communicate with me! | China | None | 33 | 0 | 19 | 90 | 19 | Python | 134 | 42 | 1| 
 | Ch1ngg | Cobalt Strike - 使用其他方式抓取密码/dump hash | https://github.com/Ch1ngg/AggressorScript-RunDumpHash | https://www.ch1ng.com/ |  | no | no | 15 | 0 | 145 | 84 | 18 | Python,C#,ASP,Java,PowerShell | 44 | 11 | 1| 
+| 0xcpu | Windows 10 20H1 18999 新加了一个特性 AltSystemCallHandlers，可以实现 KiSystemCall 的 HOOK 回调 | https://github.com/0xcpu/WinAltSyscallHandler | None | nothing interesting | None | None | 16 | 0 | 1300 | 52 | 112 | Python,C,C++,Rust | 48 | 11 | 1| 
 | open-cmdb | cmdb: CMDB 配置管理系统 资产管理系统 | https://github.com/open-cmdb/cmdb | None |  | Shanghai | None | 2 | 0 | 2 | 35 | 0 | Python,JavaScript | 413 | 166 | 1| 
 | daddycocoaman | Bypass Python 3.8 版本新增的 Runtime Audit Hooks 安全审计特性 | https://github.com/daddycocoaman/SlidePresentations/blob/master/2019/BypassingPython38AuditHooks.pptx | None |  | None | None | 10 | 0 | 11 | 25 | 1 | Python,PowerShell,Boo | 43 | 9 | 1| 
 | bsauce | Fuzz 方向的几篇 Paper 的解读 | https://github.com/bsauce/Some-Papers-About-Fuzzing | https://www.jianshu.com/u/a12c5b882be2 |  | None | None | 18 | 0 | 48 | 16 | 17 | Python,C,CSS,C++ | 25 | 6 | 1| 
 | MicrosoftDocs | 微软公开 Windows Driver Kit 相关的文档 | https://github.com/MicrosoftDocs/windows-driver-docs | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,HTML,C#,JavaScript,Python,Shell,PowerShell | 3100 | 8200 | 1| 
 | advanced-threat-research | Repository of YARA rules made by McAfee ATR Team | https://github.com/advanced-threat-research/Yara-Rules | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,YARA,HTML | 0 | 0 | 1| 
 | guardicore | labs_campaigns 攻击团队IOC信息 | https://github.com/guardicore/labs_campaigns | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,CoffeeScript,C# | 0 | 0 | 1| 
+| nccgroup | acCOMplice - 用于发现和利用 COM 劫持的工具，作者 9 月份在 DerbyCON 会议有过一次关于这个工具的演讲 | https://github.com/nccgroup/acCOMplice | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,C#,HTML,Shell,Elixir,Go,PowerShell,Rust | 874 | 157 | 1| 
+| palantir | Windows Exploit Guard 相关的资料整理 | https://github.com/palantir/exploitguard | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Groovy,TypeScript,Java,Scala,Python,JavaScript,Shell,Go,Rust | 0 | 0 | 1| 
 | zaproxy | zaproxy - OWASP Zed Attack Proxy (ZAP)，一个用于辅助 Web 应用安全性测试的工具 | https://github.com/zaproxy/zaproxy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java,C#,JavaScript,Python,HTML,Go,PHP,Rust | 6300 | 1200 | 1| 
 
 
