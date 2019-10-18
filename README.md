@@ -20,13 +20,15 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 云众可信 | yunzhongkexin | https://mp.weixin.qq.com/s/gLPfnR2mZKduof5nL8nH3w | 原创干货 | 暗网知识小科普 | 1| 
+| 穿过丛林 |  | https://mp.weixin.qq.com/s/-g2MLk7i0QBToxdE-RHjSw | 容器云安全防御机制动态评估与优化框架 | 1| 
 | Viola后花园 | Viola_deepblue | https://mp.weixin.qq.com/s/daH3UatnuUvkFIq9BrZPyg | Signal Sciences 下一代WAF | 1| 
 | 专注安管平台 |  | https://mp.weixin.qq.com/s/3KPU2Ke6HsgeovQXduTU1Q | 从一份工作说明书看DHS的SOC运营内容与要求 | 1| 
 | 青藤云安全资讯 | qingtengyun | https://mp.weixin.qq.com/s/bEUGuEQDuxVVi7f6mfnuTQ | 细述MITRE ATT＆CK框架的实施和使用方式 | 1| 
 | App个人信息举报 | app_grxxjb | https://mp.weixin.qq.com/s/Ly8XIfKanX3bgeZLe0QyeA | 专题研究 | 手机设备识别码类型分析 | 1| 
 | 暗影安全实验室 | Eversec_Lab | https://mp.weixin.qq.com/s/ZxsyB4ELKdV84eHh6zn1iQ | 反间谍之旅003 | 1| 
 | 电网头条 | sgcctop | https://mp.weixin.qq.com/s/gWLm5KMfkSlhNr0ptmIYwQ | 刚刚，国家电网公司发布《泛在电力物联网白皮书2019》 | 1| 
-| 绿盟科技研究通讯 | nsfocus_research | https://mp.weixin.qq.com/s/UDvX0HiPYlF5POe1FUhpuA | 初探加密流量识别 | 1| 
+| 绿盟科技研究通讯 | nsfocus_research | https://mp.weixin.qq.com/s/UDvX0HiPYlF5POe1FUhpuA | 初探加密流量识别 | 2| 
 | 军鹰资讯 | JoinInformation | https://mp.weixin.qq.com/s/T5EqLfqSCU8JRp6Ez4vdpg | 浅析DARPA的运作机制（内附报告下载链接） | 1| 
 | 分类乐色桶 |  | https://mp.weixin.qq.com/s/4KcpS4eNGQ8bL6DTM4K0aQ | [CVE-2019-9535] Iterm2命令执行的不完整复现 | 1| 
 | 湛卢工作室 | xuehao_studio | https://mp.weixin.qq.com/s/g-vlNmn4uQKUnBKZ7LMJvA | SRC漏洞挖掘实用技巧 | 2| 

@@ -3,6 +3,7 @@ import sys
 
 reload(sys)
 sys.setdefaultencoding('utf8')
+import signal, functools
 import codecs
 import datetime
 import hashlib
@@ -15,6 +16,24 @@ from urlparse import urlparse
 import requests
 import tldextract
 from bs4 import BeautifulSoup
+
+class TimeoutError(Exception): pass
+
+def timeout_wrapper(seconds, other_thing):
+    def _wapper(func):
+        def timeout_handler(signum, frame):
+            other_thing()
+            signal.alarm(seconds)
+
+        signal.signal(signal.SIGALRM, timeout_handler)
+        signal.alarm(seconds)
+
+        return func
+    return _wapper
+
+def do_other_thing():
+    return
+
 
 
 def list2str(l):
@@ -482,7 +501,7 @@ def get_github_info(url="", title="", ts="", tag="",
 
     return overview
 
-
+@timeout_wrapper(1, do_other_thing)
 def get_request(url,
                 max_redirects=30,
                 proxy=None,
@@ -587,7 +606,7 @@ def get_request(url,
 
     return ret
 
-
+@timeout_wrapper(1, do_other_thing)
 def get_title(url, proxy=None, retry=1, timeout=10):
     """
 
@@ -714,7 +733,7 @@ def get_twitter_info(url, title="", ts="", tag="",
             }
             return overview
 
-
+@timeout_wrapper(1, do_other_thing)
 def get_redirect_url(url,
                      proxy=None,
                      root_dir="data/shorturl",
@@ -785,6 +804,7 @@ def get_redirect_url(url,
                         source=source
 
                     )
+
                     if issql:
 
                         return sql
@@ -866,6 +886,7 @@ def parse_request_error_str(st):
         else:
             ret = "http://%s%s" % (host, url)
         return ret
+
 
 
 if __name__ == "__main__":

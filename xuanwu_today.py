@@ -62,7 +62,7 @@ def scraw(so, proxy=None, delta=2):
                             sec_url = "https://sec.today%s" % card_title_url
 
                             url_details = get_redirect_url(sec_url, root_dir="data/sec_url", issql=False, proxy=proxy)
-                            # url_details = None
+
                             if url_details:
                                 overview["url"] = url_details.get("url")
                                 overview["domain"] = url_details.get("domain")
@@ -80,8 +80,12 @@ def scraw(so, proxy=None, delta=2):
                             card_text_domain = strip_n(card_text.get_text())
                             domain = parse_domain_tag(card_text_domain)
                             if domain:
-                                overview["domain"] = domain
-                                overview["domain_name"] = str(get_title(overview["domain"], proxy=proxy))
+                                if domain.find('.') == -1:
+                                    overview["domain"] = ""
+                                    overview["domain_name"] = domain
+                                else:
+                                    overview["domain"] = domain
+                                    overview["domain_name"] = str(get_title(overview["domain"], proxy=proxy))
 
                             card_text_types = card_text.find_all("span", class_=re.compile(r"badge-tag"))
                             if card_text_types:
@@ -166,10 +170,10 @@ def scraw(so, proxy=None, delta=2):
 if __name__ == "__main__":
     """
     """
-    #proxy = {
-     #   "socks:": "socks://127.0.0.1:8420",
+    # proxy = {
+    #   "socks:": "socks://127.0.0.1:8420",
 
-    #}
+    # }
     proxy = None
     so = SQLiteOper("data/scrap.db")
-    scraw(so, proxy=proxy)
+    scraw(so, proxy=proxy, delta=7)

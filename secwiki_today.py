@@ -36,8 +36,6 @@ def scraw(so, proxy=None, delta=3):
     if r:
         try:
             soup = BeautifulSoup(r.content, 'lxml')
-
-
         except Exception as e:
             logging.error("GET %s  failed : %s" % (url, repr(e)))
             return
@@ -49,7 +47,6 @@ def scraw(so, proxy=None, delta=3):
                 for row in rows:
 
                     if row:
-
 
                         cur_ts = row.get_text()
                         if cur_ts in ts_list:
@@ -110,7 +107,6 @@ def scraw(so, proxy=None, delta=3):
                                         d = get_weixin_info(url, ts, tag)
 
                                         if d:
-
                                             sql = d2sql(d, table="weixin")
                                     elif url.find("//github.com") != -1:
                                         d = get_github_info(url, title, ts=ts, tag=tag)
@@ -131,4 +127,4 @@ if __name__ == "__main__":
     """
     proxy = None
     so = SQLiteOper("data/scrap.db")
-    scraw(so, proxy=proxy)
+    scraw(so, proxy=proxy, delta=7)
