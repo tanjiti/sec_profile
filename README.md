@@ -20,6 +20,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
+| 川云安全团队 | cyunsec | https://mp.weixin.qq.com/s/3r41HE3bnNHhWOw42uziTQ | Kibana < 6.6.1 代码执行漏洞复现笔记 | 1| 
 | 云众可信 | yunzhongkexin | https://mp.weixin.qq.com/s/gLPfnR2mZKduof5nL8nH3w | 原创干货 | 暗网知识小科普 | 1| 
 | 穿过丛林 |  | https://mp.weixin.qq.com/s/-g2MLk7i0QBToxdE-RHjSw | 容器云安全防御机制动态评估与优化框架 | 1| 
 | Viola后花园 | Viola_deepblue | https://mp.weixin.qq.com/s/daH3UatnuUvkFIq9BrZPyg | Signal Sciences 下一代WAF | 1| 
