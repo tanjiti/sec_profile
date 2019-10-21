@@ -20,7 +20,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | url | title| 
 | --- | --- | --- | ---| 
-| jaxsec |  | https://mp.weixin.qq.com/s?__biz=MzI5OTYzMjU1OA==&mid=2247483714&idx=1&sn=9bf3542d52160c2dcae3a761ceb28875&chksm=ec92d383dbe55a95e12e698bcfbd10c5b086976c42b72d3aaa19eccb7f3c42122554a7811a59&mpshare=1&scene=23&srcid=&sharer_sharetime=1571485944735&sha | Rodolfo Assis (Brute Logic) - XSS Cheat Sheet (2018)（中英对照） | 1| 
+| jaxsec |  | https://mp.weixin.qq.com/s?__biz=MzI5OTYzMjU1OA==&mid=2247483759&idx=1&sn=13cc7388d74532d0c77e2429e5c0ea2e&chksm=ec92d3aedbe55ab8573dad78ea7f0c68c3eae83c1fb585b9ee058f7d4d9b11b062d3566c5b92&mpshare=1&scene=23&srcid=&sharer_sharetime=1571632808853&sha | Linux For Pentester: socat Privilege Escalation(中英对照) | 3| 
 | 川云安全团队 | cyunsec | https://mp.weixin.qq.com/s/3r41HE3bnNHhWOw42uziTQ | Kibana < 6.6.1 代码执行漏洞复现笔记 | 1| 
 | 云众可信 | yunzhongkexin | https://mp.weixin.qq.com/s/gLPfnR2mZKduof5nL8nH3w | 原创干货 | 暗网知识小科普 | 1| 
 | 穿过丛林 |  | https://mp.weixin.qq.com/s/-g2MLk7i0QBToxdE-RHjSw | 容器云安全防御机制动态评估与优化框架 | 1| 
@@ -68,6 +68,7 @@
 | 0Kee-Team | CatchMail: 收集邮箱的工具 | https://github.com/0Kee-Team/CatchMail | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Java | 0 | 0 | 1| 
 | MicrosoftDocs | 微软公开 Windows Driver Kit 相关的文档 | https://github.com/MicrosoftDocs/windows-driver-docs | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,HTML,C#,JavaScript,Python,Shell,PowerShell | 3100 | 8200 | 1| 
 | advanced-threat-research | Repository of YARA rules made by McAfee ATR Team | https://github.com/advanced-threat-research/Yara-Rules | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,YARA,HTML | 0 | 0 | 1| 
+| fuzzitdev | Jsfuzz: coverage-guided fuzz testing for Javascript | https://github.com/fuzzitdev/jsfuzz | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,CMake,Dockerfile,C++,Swift,HCL,Go,Java,Ruby,Rust | 234 | 11 | 1| 
 | guardicore | labs_campaigns 攻击团队IOC信息 | https://github.com/guardicore/labs_campaigns | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,CoffeeScript,C# | 0 | 0 | 1| 
 | nccgroup | acCOMplice - 用于发现和利用 COM 劫持的工具，作者 9 月份在 DerbyCON 会议有过一次关于这个工具的演讲 | https://github.com/nccgroup/acCOMplice | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,C#,HTML,Shell,Elixir,Go,PowerShell,Rust | 874 | 157 | 1| 
 | palantir | Windows Exploit Guard 相关的资料整理 | https://github.com/palantir/exploitguard | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Groovy,TypeScript,Java,Scala,Python,JavaScript,Shell,Go,Rust | 0 | 0 | 1| 
