@@ -18,26 +18,26 @@
 ![201910-最喜欢语言占比](data/img/language/201910-最喜欢语言占比.png)
 
 # 微信公众号 推荐
-| nickname_english | weixin_no | url | title| 
+| nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
-| jaxsec |  | https://mp.weixin.qq.com/s?__biz=MzI5OTYzMjU1OA==&mid=2247483759&idx=1&sn=13cc7388d74532d0c77e2429e5c0ea2e&chksm=ec92d3aedbe55ab8573dad78ea7f0c68c3eae83c1fb585b9ee058f7d4d9b11b062d3566c5b92&mpshare=1&scene=23&srcid=&sharer_sharetime=1571632808853&sha | Linux For Pentester: socat Privilege Escalation(中英对照) | 3| 
-| 川云安全团队 | cyunsec | https://mp.weixin.qq.com/s/3r41HE3bnNHhWOw42uziTQ | Kibana < 6.6.1 代码执行漏洞复现笔记 | 1| 
-| 云众可信 | yunzhongkexin | https://mp.weixin.qq.com/s/gLPfnR2mZKduof5nL8nH3w | 原创干货 | 暗网知识小科普 | 1| 
-| 穿过丛林 |  | https://mp.weixin.qq.com/s/-g2MLk7i0QBToxdE-RHjSw | 容器云安全防御机制动态评估与优化框架 | 1| 
-| Viola后花园 | Viola_deepblue | https://mp.weixin.qq.com/s/daH3UatnuUvkFIq9BrZPyg | Signal Sciences 下一代WAF | 1| 
-| 专注安管平台 |  | https://mp.weixin.qq.com/s/3KPU2Ke6HsgeovQXduTU1Q | 从一份工作说明书看DHS的SOC运营内容与要求 | 1| 
-| 青藤云安全资讯 | qingtengyun | https://mp.weixin.qq.com/s/bEUGuEQDuxVVi7f6mfnuTQ | 细述MITRE ATT＆CK框架的实施和使用方式 | 1| 
-| App个人信息举报 | app_grxxjb | https://mp.weixin.qq.com/s/Ly8XIfKanX3bgeZLe0QyeA | 专题研究 | 手机设备识别码类型分析 | 1| 
-| 暗影安全实验室 | Eversec_Lab | https://mp.weixin.qq.com/s/ZxsyB4ELKdV84eHh6zn1iQ | 反间谍之旅003 | 1| 
-| 电网头条 | sgcctop | https://mp.weixin.qq.com/s/gWLm5KMfkSlhNr0ptmIYwQ | 刚刚，国家电网公司发布《泛在电力物联网白皮书2019》 | 1| 
-| 绿盟科技研究通讯 | nsfocus_research | https://mp.weixin.qq.com/s/UDvX0HiPYlF5POe1FUhpuA | 初探加密流量识别 | 2| 
-| 军鹰资讯 | JoinInformation | https://mp.weixin.qq.com/s/T5EqLfqSCU8JRp6Ez4vdpg | 浅析DARPA的运作机制（内附报告下载链接） | 1| 
-| 分类乐色桶 |  | https://mp.weixin.qq.com/s/4KcpS4eNGQ8bL6DTM4K0aQ | [CVE-2019-9535] Iterm2命令执行的不完整复现 | 1| 
-| 湛卢工作室 | xuehao_studio | https://mp.weixin.qq.com/s/g-vlNmn4uQKUnBKZ7LMJvA | SRC漏洞挖掘实用技巧 | 2| 
-| 看雪学院 | ikanxue | https://mp.weixin.qq.com/s/qfthyNQ3E_TruEbREcIJzg | ATT&CK一般性学习笔记 | 1| 
-| 汉客儿 |  | https://mp.weixin.qq.com/s/spmYrBPK9kuEoOixl9yRRA | 沙箱：概述 | 1| 
-| 安全学术圈 | secquan | https://mp.weixin.qq.com/s/gcBN3slkqwkDW_I24OB_ug | 浅析公共GitHub存储库中的秘密泄露 | 2| 
-| 贝塔安全实验室 | BetaSecLab | https://mp.weixin.qq.com/s/-citnkfwGai7KQCIp9G99w | 反弹shell的学习总结 - Part 1 | 4| 
+| jaxsec |  | Linux For Pentester: socat Privilege Escalation(中英对照) | https://mp.weixin.qq.com/s?__biz=MzI5OTYzMjU1OA==&mid=2247483759&idx=1&sn=13cc7388d74532d0c77e2429e5c0ea2e&chksm=ec92d3aedbe55ab8573dad78ea7f0c68c3eae83c1fb585b9ee058f7d4d9b11b062d3566c5b92&mpshare=1&scene=23&srcid=&sharer_sharetime=1571632808853&sha | 3| 
+| App个人信息举报 | app_grxxjb | 专题研究 | 手机设备识别码类型分析 | https://mp.weixin.qq.com/s/Ly8XIfKanX3bgeZLe0QyeA | 1| 
+| Viola后花园 | Viola_deepblue | Signal Sciences 下一代WAF | https://mp.weixin.qq.com/s/daH3UatnuUvkFIq9BrZPyg | 1| 
+| 专注安管平台 |  | 从一份工作说明书看DHS的SOC运营内容与要求 | https://mp.weixin.qq.com/s/3KPU2Ke6HsgeovQXduTU1Q | 1| 
+| 云众可信 | yunzhongkexin | 原创干货 | 暗网知识小科普 | https://mp.weixin.qq.com/s/gLPfnR2mZKduof5nL8nH3w | 1| 
+| 川云安全团队 | cyunsec | Kibana < 6.6.1 代码执行漏洞复现笔记 | https://mp.weixin.qq.com/s/3r41HE3bnNHhWOw42uziTQ | 1| 
+| 暗影安全实验室 | Eversec_Lab | 反间谍之旅003 | https://mp.weixin.qq.com/s/ZxsyB4ELKdV84eHh6zn1iQ | 1| 
+| 电网头条 | sgcctop | 刚刚，国家电网公司发布《泛在电力物联网白皮书2019》 | https://mp.weixin.qq.com/s/gWLm5KMfkSlhNr0ptmIYwQ | 1| 
+| 穿过丛林 |  | 容器云安全防御机制动态评估与优化框架 | https://mp.weixin.qq.com/s/-g2MLk7i0QBToxdE-RHjSw | 1| 
+| 绿盟科技研究通讯 | nsfocus_research | DGA域名的今生前世：缘起、检测、与发展 | https://mp.weixin.qq.com/s/xbf0Qbppk8R0nx89Pb4YTg | 2| 
+| 青藤云安全资讯 | qingtengyun | 细述MITRE ATT＆CK框架的实施和使用方式 | https://mp.weixin.qq.com/s/bEUGuEQDuxVVi7f6mfnuTQ | 1| 
+| 军鹰资讯 | JoinInformation | 浅析DARPA的运作机制（内附报告下载链接） | https://mp.weixin.qq.com/s/T5EqLfqSCU8JRp6Ez4vdpg | 1| 
+| 分类乐色桶 |  | [CVE-2019-9535] Iterm2命令执行的不完整复现 | https://mp.weixin.qq.com/s/4KcpS4eNGQ8bL6DTM4K0aQ | 1| 
+| 湛卢工作室 | xuehao_studio | SRC漏洞挖掘实用技巧 | https://mp.weixin.qq.com/s/g-vlNmn4uQKUnBKZ7LMJvA | 2| 
+| 看雪学院 | ikanxue | ATT&CK一般性学习笔记 | https://mp.weixin.qq.com/s/qfthyNQ3E_TruEbREcIJzg | 1| 
+| 汉客儿 |  | 沙箱：概述 | https://mp.weixin.qq.com/s/spmYrBPK9kuEoOixl9yRRA | 1| 
+| 安全学术圈 | secquan | 浅析公共GitHub存储库中的秘密泄露 | https://mp.weixin.qq.com/s/gcBN3slkqwkDW_I24OB_ug | 2| 
+| 贝塔安全实验室 | BetaSecLab | 反弹shell的学习总结 - Part 1 | https://mp.weixin.qq.com/s/-citnkfwGai7KQCIp9G99w | 4| 
 
 
 # 组织github账号 推荐

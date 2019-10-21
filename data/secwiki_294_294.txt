@@ -1,0 +1,39 @@
+20191014	新闻	https://nosec.org/home/detail/3054.html	Cyberbit：某国际机场一半以上工作站都已被挖矿软件占领	nosec.org	nosec.org	/home/detail/3054.html
+20191014	新闻	https://nosec.org/home/detail/3023.html	照片泄露个人隐私 日本偶像粉丝通过偶像瞳孔倒影实施跟踪并猥亵	nosec.org	nosec.org	/home/detail/3023.html
+20191014	新闻	https://nosec.org/home/detail/3048.html	儿童信息网络泄露严重 日本法律界推动专门立法工作补短板	nosec.org	nosec.org	/home/detail/3048.html
+20191014	事件	https://nosec.org/home/detail/3049.html	黑客通过AWS API密钥窃取到Imperva数据	nosec.org	nosec.org	/home/detail/3049.html
+20191014	工具	https://www.freebuf.com/sectool/215644.html	史上最全Windows安全工具锦集	freebuf.com	www.freebuf.com	/sectool/215644.html
+20191014	取证分析	https://mp.weixin.qq.com/s/gLPfnR2mZKduof5nL8nH3w	暗网知识小科普	qq.com	mp.weixin.qq.com	/s/gLPfnR2mZKduof5nL8nH3w
+20191014	工具	http://scz.617.cn/misc/201910151519.txt	新版burp-loader-keygen-2.jar	617.cn	scz.617.cn	/misc/201910151519.txt
+20191014	运维安全	https://mp.weixin.qq.com/s/daH3UatnuUvkFIq9BrZPyg	Signal Sciences 下一代WAF	qq.com	mp.weixin.qq.com	/s/daH3UatnuUvkFIq9BrZPyg
+20191014	漏洞分析	https://nosec.org/home/detail/3047.html	如何绕过大写过滤器实现XSS攻击	nosec.org	nosec.org	/home/detail/3047.html
+20191014	会议	https://cyberweek.ae/materials/	HITB CyberWeek 会议议题 PPT	cyberweek.ae	cyberweek.ae	/materials/
+20191014	工具	https://www.52pojie.cn/thread-1038295-1-1.html	新版burp-loader-keygen-2.jar	52pojie.cn	www.52pojie.cn	/thread-1038295-1-1.html
+20191014	漏洞分析	https://nosec.org/home/detail/3056.html	绕过雷蛇官网的动态验证码	nosec.org	nosec.org	/home/detail/3056.html
+20191014	Web安全	https://xz.aliyun.com/t/6539	jsonp的一些安全问题	aliyun.com	xz.aliyun.com	/t/6539
+20191014	Web安全	https://mp.weixin.qq.com/s/ABLJsP2HTe2L_QMLzCV67g	打造不一样的Shfit映像劫持后门	qq.com	mp.weixin.qq.com	/s/ABLJsP2HTe2L_QMLzCV67g
+20191014	漏洞分析	http://scz.617.cn:8/misc/201910170937.txt	Charles 4.5.1逆向工程	617.cn	scz.617.cn:8	/misc/201910170937.txt
+20191014	Web安全	https://mp.weixin.qq.com/s/3r41HE3bnNHhWOw42uziTQ	Kibana < 6.6.1 代码执行漏洞复现笔记	qq.com	mp.weixin.qq.com	/s/3r41HE3bnNHhWOw42uziTQ
+20191014	漏洞分析	https://www.anquanke.com/post/id/187894	CVE-2019-0547 Windows DHCP Client 代码执行漏洞分析	anquanke.com	www.anquanke.com	/post/id/187894
+20191014	Web安全	https://xz.aliyun.com/t/6504	eve-ng搭建攻防域环境	aliyun.com	xz.aliyun.com	/t/6504
+20191014	运维安全	https://mp.weixin.qq.com/s/bEUGuEQDuxVVi7f6mfnuTQ	细述MITRE ATT＆CK框架的实施和使用方式	qq.com	mp.weixin.qq.com	/s/bEUGuEQDuxVVi7f6mfnuTQ
+20191014	漏洞分析	https://nosec.org/home/detail/2955.html	通过进程创建模拟技术挖掘本地提权漏洞	nosec.org	nosec.org	/home/detail/2955.html
+20191014	杂志	https://www.sec-wiki.com/weekly/293	SecWiki周刊（第293期)	sec-wiki.com	www.sec-wiki.com	/weekly/293
+20191014	恶意分析	https://mp.weixin.qq.com/s/xbf0Qbppk8R0nx89Pb4YTg	DGA域名的今生前世：缘起、检测、与发展	qq.com	mp.weixin.qq.com	/s/xbf0Qbppk8R0nx89Pb4YTg
+20191014	取证分析	https://www.anquanke.com/post/id/188510	如何利用开源工具收集美国关键基础设施情报	anquanke.com	www.anquanke.com	/post/id/188510
+20191014	取证分析	https://mp.weixin.qq.com/s/3KPU2Ke6HsgeovQXduTU1Q	从一份工作说明书看DHS的SOC运营内容与要求	qq.com	mp.weixin.qq.com	/s/3KPU2Ke6HsgeovQXduTU1Q
+20191014	恶意分析	https://nosec.org/home/detail/3052.html	利用Mcafee管理工具绕过McAfee杀毒软件	nosec.org	nosec.org	/home/detail/3052.html
+20191014	运维安全	https://paper.seebug.org/1054/	Suricata 万兆环境部署优化	seebug.org	paper.seebug.org	/1054/
+20191014	Web安全	http://blog.blankshell.com/2019/10/14/web%e6%bc%8f%e6%b4%9eexploit%e7%bc%96%e5%86%99-java%e7%af%87%ef%bc%88%e4%b8%80%ef%bc%89/	Web漏洞Exploit编写——Java篇（一）	blankshell.com	blog.blankshell.com	/2019/10/14/web%e6%bc%8f%e6%b4%9eexploit%e7%bc%96%e5%86%99-java%e7%af%87%ef%bc%88%e4%b8%80%ef%bc%89/
+20191014	其它	https://paper.seebug.org/1052/	从 Masscan, Zmap 源码分析到开发实践	seebug.org	paper.seebug.org	/1052/
+20191014	取证分析	https://mp.weixin.qq.com/s/Ly8XIfKanX3bgeZLe0QyeA	手机设备识别码类型分析	qq.com	mp.weixin.qq.com	/s/Ly8XIfKanX3bgeZLe0QyeA
+20191014	恶意分析	https://mp.weixin.qq.com/s/UDvX0HiPYlF5POe1FUhpuA	初探加密流量识别	qq.com	mp.weixin.qq.com	/s/UDvX0HiPYlF5POe1FUhpuA
+20191014	运维安全	https://mp.weixin.qq.com/s/-g2MLk7i0QBToxdE-RHjSw	容器云安全防御机制动态评估与优化框架	qq.com	mp.weixin.qq.com	/s/-g2MLk7i0QBToxdE-RHjSw
+20191014	恶意分析	https://securelist.com/apt-trends-report-q3-2019/94530/	APT trends report Q3 2019	securelist.com	securelist.com	/apt-trends-report-q3-2019/94530/
+20191014	运维安全	https://github.com/al0ne/suricata_optimize	Suricata安装部署&丢包优化&性能调优&规则调整&Pfring设置	github.com	github.com	/al0ne/suricata_optimize
+20191014	恶意分析	https://mp.weixin.qq.com/s/ZxsyB4ELKdV84eHh6zn1iQ	反间谍之旅003	qq.com	mp.weixin.qq.com	/s/ZxsyB4ELKdV84eHh6zn1iQ
+20191014	比赛	https://xz.aliyun.com/t/6507	v8 exploit - RealWorld CTF2019 accessible	aliyun.com	xz.aliyun.com	/t/6507
+20191014	论文	https://mp.weixin.qq.com/s/OKvainfalhDiDfvH8nAqXA	SecureComm 2019 论文录用列表	qq.com	mp.weixin.qq.com	/s/OKvainfalhDiDfvH8nAqXA
+20191014	漏洞分析	https://xz.aliyun.com/t/6505	Windows样本高级静态分析之识别汇编中C代码结构(switch)	aliyun.com	xz.aliyun.com	/t/6505
+20191014	观点	https://www.freebuf.com/articles/paper/214560.html	2019中国信息安全自主可控行业政策盘点及网络安全行业分析	freebuf.com	www.freebuf.com	/articles/paper/214560.html
+20191014	其它	https://mp.weixin.qq.com/s/gWLm5KMfkSlhNr0ptmIYwQ	泛在电力物联网白皮书2019	qq.com	mp.weixin.qq.com	/s/gWLm5KMfkSlhNr0ptmIYwQ
