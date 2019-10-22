@@ -20,23 +20,26 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 安全客 | anquanbobao | 针对海最新顶会fuzz论文分享 | https://mp.weixin.qq.com/s/BmuwRouYB3AGsVae3koGOQ | 1| 
+| 安全小飞侠 | AvFisher | 基于MITRE ATT&CK的Red Teaming行动实践 | https://mp.weixin.qq.com/s/u1cPkGegyRpw3oyKaBMf1w | 1| 
+| 安全牛 | aqniu-wx | ATT&CK随笔系列之二：偷天陷阱 | https://mp.weixin.qq.com/s/iTh41vvRRZLat2k-RgiyFw | 2| 
 | jaxsec |  | Linux For Pentester: socat Privilege Escalation(中英对照) | https://mp.weixin.qq.com/s?__biz=MzI5OTYzMjU1OA==&mid=2247483759&idx=1&sn=13cc7388d74532d0c77e2429e5c0ea2e&chksm=ec92d3aedbe55ab8573dad78ea7f0c68c3eae83c1fb585b9ee058f7d4d9b11b062d3566c5b92&mpshare=1&scene=23&srcid=&sharer_sharetime=1571632808853&sha | 3| 
+| 川云安全团队 | cyunsec | Kibana < 6.6.1 代码执行漏洞复现笔记 | https://mp.weixin.qq.com/s/3r41HE3bnNHhWOw42uziTQ | 1| 
+| 云众可信 | yunzhongkexin | 原创干货 | 暗网知识小科普 | https://mp.weixin.qq.com/s/gLPfnR2mZKduof5nL8nH3w | 1| 
+| 穿过丛林 |  | 容器云安全防御机制动态评估与优化框架 | https://mp.weixin.qq.com/s/-g2MLk7i0QBToxdE-RHjSw | 1| 
 | App个人信息举报 | app_grxxjb | 专题研究 | 手机设备识别码类型分析 | https://mp.weixin.qq.com/s/Ly8XIfKanX3bgeZLe0QyeA | 1| 
 | Viola后花园 | Viola_deepblue | Signal Sciences 下一代WAF | https://mp.weixin.qq.com/s/daH3UatnuUvkFIq9BrZPyg | 1| 
 | 专注安管平台 |  | 从一份工作说明书看DHS的SOC运营内容与要求 | https://mp.weixin.qq.com/s/3KPU2Ke6HsgeovQXduTU1Q | 1| 
-| 云众可信 | yunzhongkexin | 原创干货 | 暗网知识小科普 | https://mp.weixin.qq.com/s/gLPfnR2mZKduof5nL8nH3w | 1| 
-| 川云安全团队 | cyunsec | Kibana < 6.6.1 代码执行漏洞复现笔记 | https://mp.weixin.qq.com/s/3r41HE3bnNHhWOw42uziTQ | 1| 
 | 暗影安全实验室 | Eversec_Lab | 反间谍之旅003 | https://mp.weixin.qq.com/s/ZxsyB4ELKdV84eHh6zn1iQ | 1| 
 | 电网头条 | sgcctop | 刚刚，国家电网公司发布《泛在电力物联网白皮书2019》 | https://mp.weixin.qq.com/s/gWLm5KMfkSlhNr0ptmIYwQ | 1| 
-| 穿过丛林 |  | 容器云安全防御机制动态评估与优化框架 | https://mp.weixin.qq.com/s/-g2MLk7i0QBToxdE-RHjSw | 1| 
-| 绿盟科技研究通讯 | nsfocus_research | DGA域名的今生前世：缘起、检测、与发展 | https://mp.weixin.qq.com/s/xbf0Qbppk8R0nx89Pb4YTg | 2| 
+| 绿盟科技研究通讯 | nsfocus_research | 初探加密流量识别 | https://mp.weixin.qq.com/s/UDvX0HiPYlF5POe1FUhpuA | 2| 
 | 青藤云安全资讯 | qingtengyun | 细述MITRE ATT＆CK框架的实施和使用方式 | https://mp.weixin.qq.com/s/bEUGuEQDuxVVi7f6mfnuTQ | 1| 
 | 军鹰资讯 | JoinInformation | 浅析DARPA的运作机制（内附报告下载链接） | https://mp.weixin.qq.com/s/T5EqLfqSCU8JRp6Ez4vdpg | 1| 
 | 分类乐色桶 |  | [CVE-2019-9535] Iterm2命令执行的不完整复现 | https://mp.weixin.qq.com/s/4KcpS4eNGQ8bL6DTM4K0aQ | 1| 
 | 湛卢工作室 | xuehao_studio | SRC漏洞挖掘实用技巧 | https://mp.weixin.qq.com/s/g-vlNmn4uQKUnBKZ7LMJvA | 2| 
 | 看雪学院 | ikanxue | ATT&CK一般性学习笔记 | https://mp.weixin.qq.com/s/qfthyNQ3E_TruEbREcIJzg | 1| 
 | 汉客儿 |  | 沙箱：概述 | https://mp.weixin.qq.com/s/spmYrBPK9kuEoOixl9yRRA | 1| 
-| 安全学术圈 | secquan | 浅析公共GitHub存储库中的秘密泄露 | https://mp.weixin.qq.com/s/gcBN3slkqwkDW_I24OB_ug | 2| 
+| 安全学术圈 | secquan | 浅析公共GitHub存储库中的秘密泄露 | https://mp.weixin.qq.com/s/gcBN3slkqwkDW_I24OB_ug | 3| 
 | 贝塔安全实验室 | BetaSecLab | 反弹shell的学习总结 - Part 1 | https://mp.weixin.qq.com/s/-citnkfwGai7KQCIp9G99w | 4| 
 
 
@@ -53,6 +56,7 @@
 | taviso | Tavis Ormandy 开源了一个用于与 CEF Debugger 交互的工具 | https://github.com/taviso/cefdebug | None |  | None | None | 12 | 0 | 16 | 1500 | 1 | C | 2700 | 225 | 1| 
 | tyranid | James Forshaw 开源了一个攻击存在 CVE-2014-1806 / CVE-2014-4149 漏洞的 .NET Remoting Services 的工具 | https://github.com/tyranid/ExploitRemotingService | None |  | None | None | 32 | 0 | 0 | 806 | 2 | C#,Python,C | 851 | 227 | 1| 
 | infosecn1nja | SharpDoor - Patch termsrv.dll 实现 RDP (Remote Desktop) Multi-Session 的支持 | https://github.com/infosecn1nja/SharpDoor | None | Security Researcher/Red/Purple Teaming/Adversary Simulation/Threat Hunter. Contributors of Atomic Red Team, PS Empire, Mitre ATT&CK Framework, LOLBas, and more. | Jakarta, Indonesia | None | 32 | 0 | 656 | 643 | 71 | Python,C#,Shell | 2600 | 739 | 1| 
+| vstinner | Python Security - 记录 Python 历史漏洞及补丁版本信息的 Repo | https://github.com/vstinner/python-security | https://github.com/python | I am paid by Red Hat to maintain Python upstream (python.org) and downstream (RHEL, Fedora). @python core-dev. | France | Red Hat | 32 | 0 | 7 | 642 | 0 | Python | 299 | 34 | 1| 
 | danielbohannon | Revoke-Obfuscation: PowerShell Obfuscation Detection Framework | https://github.com/danielbohannon/Revoke-Obfuscation | http://danielbohannon.com | Principal Applied Security Researcher (prev IR Consultant) | Washington, D.C. | Mandiant | 7 | 0 | 0 | 533 | 5 | PowerShell | 1300 | 345 | 1| 
 | Dliv3 | Venom - A Multi-hop Proxy for Penetration Testers | https://github.com/Dliv3/Venom | https://twitter.com/D1iv3 | BUPT | CTF | 天枢(Dubhe) | Tencent Security Xuanwu Lab | China, Beijing | BUPT | 59 | 0 | 1200 | 348 | 176 | Go,C,JavaScript,Java,PowerShell | 3200 | 1200 | 1| 
 | al0ne | Suricata安装部署&丢包优化&性能调优&规则调整&Pfring设置 | https://github.com/al0ne/suricata_optimize | None | Emergency response, security analysis | United States | None | 13 | 0 | 613 | 272 | 225 | Python,Dockerfile,Shell,Makefile | 793 | 230 | 1| 
