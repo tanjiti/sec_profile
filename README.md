@@ -20,6 +20,10 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| FreeBuf | freebuf | 企业安全无间道之抓内鬼 | https://mp.weixin.qq.com/s/9z0eFephjLsq2zJz4rrs9A | 1| 
+| 凌天实验室 | LT_labs | 勒索解密工具整理篇 | https://mp.weixin.qq.com/s/T6zSWZ-qMit-8gR4Itmknw | 1| 
+| 奇安信 CERT |  | BROP技术研究 | https://mp.weixin.qq.com/s/Old4dKS2aDp1TETTn0WzoQ | 1| 
+| 奇安信威胁情报中心 |  | 揭密：当年奥运会背后的网络暗战和幕后网军真相 | https://mp.weixin.qq.com/s/anC86mOuuaH09lnWMEVXEw | 1| 
 | 安全客 | anquanbobao | 针对海最新顶会fuzz论文分享 | https://mp.weixin.qq.com/s/BmuwRouYB3AGsVae3koGOQ | 1| 
 | 安全小飞侠 | AvFisher | 基于MITRE ATT&CK的Red Teaming行动实践 | https://mp.weixin.qq.com/s/u1cPkGegyRpw3oyKaBMf1w | 1| 
 | 安全牛 | aqniu-wx | ATT&CK随笔系列之二：偷天陷阱 | https://mp.weixin.qq.com/s/iTh41vvRRZLat2k-RgiyFw | 2| 
@@ -58,7 +62,9 @@
 | infosecn1nja | SharpDoor - Patch termsrv.dll 实现 RDP (Remote Desktop) Multi-Session 的支持 | https://github.com/infosecn1nja/SharpDoor | None | Security Researcher/Red/Purple Teaming/Adversary Simulation/Threat Hunter. Contributors of Atomic Red Team, PS Empire, Mitre ATT&CK Framework, LOLBas, and more. | Jakarta, Indonesia | None | 32 | 0 | 656 | 643 | 71 | Python,C#,Shell | 2600 | 739 | 1| 
 | vstinner | Python Security - 记录 Python 历史漏洞及补丁版本信息的 Repo | https://github.com/vstinner/python-security | https://github.com/python | I am paid by Red Hat to maintain Python upstream (python.org) and downstream (RHEL, Fedora). @python core-dev. | France | Red Hat | 32 | 0 | 7 | 642 | 0 | Python | 299 | 34 | 1| 
 | danielbohannon | Revoke-Obfuscation: PowerShell Obfuscation Detection Framework | https://github.com/danielbohannon/Revoke-Obfuscation | http://danielbohannon.com | Principal Applied Security Researcher (prev IR Consultant) | Washington, D.C. | Mandiant | 7 | 0 | 0 | 533 | 5 | PowerShell | 1300 | 345 | 1| 
+| LandGrey | Kibana CVE-2019-7609 RCE Exploit | https://github.com/LandGrey/CVE-2019-7609/ | https://landgrey.me | I learn cyber sec | Earth | None | 15 | 0 | 1100 | 425 | 44 | Python,ASP | 1000 | 285 | 1| 
 | Dliv3 | Venom - A Multi-hop Proxy for Penetration Testers | https://github.com/Dliv3/Venom | https://twitter.com/D1iv3 | BUPT | CTF | 天枢(Dubhe) | Tencent Security Xuanwu Lab | China, Beijing | BUPT | 59 | 0 | 1200 | 348 | 176 | Go,C,JavaScript,Java,PowerShell | 3200 | 1200 | 1| 
+| leebaird | 基于 Metasploit 写的一款自动化渗透测试工具 | https://github.com/leebaird/discover | None |  | None | None | 3 | 0 | 49 | 344 | 2 | Python,Shell,PHP | 1700 | 515 | 1| 
 | al0ne | Suricata安装部署&丢包优化&性能调优&规则调整&Pfring设置 | https://github.com/al0ne/suricata_optimize | None | Emergency response, security analysis | United States | None | 13 | 0 | 613 | 272 | 225 | Python,Dockerfile,Shell,Makefile | 793 | 230 | 1| 
 | ouqiang | gocron: 定时任务管理系统 | https://github.com/ouqiang/gocron | None | to be a better man | Xiamen, China | None | 12 | 0 | 106 | 186 | 1 | Go,PHP | 1900 | 433 | 1| 
 | monoxgas | BlackHat USA 会议上有一个关于 C&C（命令控制）技术的议题，作者最近将相关的工具也公开了 | https://github.com/monoxgas/FlyingAFalseFlag | None |  | Utah, United States | Silent Break Security | 16 | 0 | 31 | 145 | 1 | C#,Python,PowerShell,C++ | 488 | 143 | 1| 
