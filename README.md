@@ -20,6 +20,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| TideSec安全团队 | TideSec | 应急响应实例分享 | https://mp.weixin.qq.com/s/Aal5nnp9zUR6cLtoKVaJrw | 3| 
+| 学术plus | caeit-e | 美国国防部2019年消费账单出炉，竟频频打脸！ | https://mp.weixin.qq.com/s/Hk_BfBPz0TGqFNblGb_m5A | 1| 
+| 深度传送门 | deep_deliver | RecSys 2019参会总结及推荐精读论文 | https://mp.weixin.qq.com/s/NrhIEcY0-76g88-GA01kww | 1| 
 | FreeBuf | freebuf | 企业安全无间道之抓内鬼 | https://mp.weixin.qq.com/s/9z0eFephjLsq2zJz4rrs9A | 1| 
 | 凌天实验室 | LT_labs | 勒索解密工具整理篇 | https://mp.weixin.qq.com/s/T6zSWZ-qMit-8gR4Itmknw | 1| 
 | 奇安信 CERT |  | BROP技术研究 | https://mp.weixin.qq.com/s/Old4dKS2aDp1TETTn0WzoQ | 1| 
@@ -43,7 +46,7 @@
 | 湛卢工作室 | xuehao_studio | SRC漏洞挖掘实用技巧 | https://mp.weixin.qq.com/s/g-vlNmn4uQKUnBKZ7LMJvA | 2| 
 | 看雪学院 | ikanxue | ATT&CK一般性学习笔记 | https://mp.weixin.qq.com/s/qfthyNQ3E_TruEbREcIJzg | 1| 
 | 汉客儿 |  | 沙箱：概述 | https://mp.weixin.qq.com/s/spmYrBPK9kuEoOixl9yRRA | 1| 
-| 安全学术圈 | secquan | 浅析公共GitHub存储库中的秘密泄露 | https://mp.weixin.qq.com/s/gcBN3slkqwkDW_I24OB_ug | 3| 
+| 安全学术圈 | secquan | 浅析公共GitHub存储库中的秘密泄露 | https://mp.weixin.qq.com/s/gcBN3slkqwkDW_I24OB_ug | 4| 
 | 贝塔安全实验室 | BetaSecLab | 反弹shell的学习总结 - Part 1 | https://mp.weixin.qq.com/s/-citnkfwGai7KQCIp9G99w | 4| 
 
 
