@@ -20,6 +20,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 腾讯技术工程 | Tencent_TEG | 机器学习模型可解释性的详尽介绍 | https://mp.weixin.qq.com/s/JEIxzuPDrbvSJjpHExaI_w | 1| 
 | AD风险实验室 |  | 业务安全的资源层攻防时代 | https://mp.weixin.qq.com/s/nkf5yRrAw-IA5_ROD6Za4g | 1| 
 | SecWiki | SecWiki | SecWiki安全招聘（第25期） | https://mp.weixin.qq.com/s/NslzE1ObdRKPLeGWV2Axyw | 1| 
 | TideSec安全团队 | TideSec | 应急响应实例分享 | https://mp.weixin.qq.com/s/Aal5nnp9zUR6cLtoKVaJrw | 3| 
