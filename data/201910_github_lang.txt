@@ -1,11 +1,11 @@
 Python	21
+JavaScript	9
+C	9
 Java	8
-JavaScript	8
-C	8
 C#	8
 PowerShell	8
+Shell	7
 Go	7
-Shell	6
 C++	6
 TypeScript	5
 Rust	5
@@ -19,6 +19,8 @@ HCL	2
 Scala	1
 Makefile	1
 YARA	1
+Assembly	1
+Arduino	1
 CoffeeScript	1
 Elixir	1
 Swift	1
