@@ -1,11 +1,11 @@
-Python	21
-JavaScript	9
-C	9
-Java	8
+Python	23
+JavaScript	11
+Java	10
+C	10
 C#	8
+Go	8
 PowerShell	8
 Shell	7
-Go	7
 C++	6
 TypeScript	5
 Rust	5
@@ -25,5 +25,8 @@ CoffeeScript	1
 Elixir	1
 Swift	1
 Groovy	1
+Vue	1
+Jupyter	1
 CMake	1
 Ruby	1
+Vim	1

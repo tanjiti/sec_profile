@@ -20,21 +20,22 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 丁爸 情报分析师的工具箱 | dingba2016 | 【美国情报】图解NSA的48个Ant监控工具 | https://mp.weixin.qq.com/s/gpM1Ze2ofLXt5ernZBOudw | 1| 
 | 腾讯技术工程 | Tencent_TEG | 机器学习模型可解释性的详尽介绍 | https://mp.weixin.qq.com/s/JEIxzuPDrbvSJjpHExaI_w | 1| 
-| AD风险实验室 |  | 业务安全的资源层攻防时代 | https://mp.weixin.qq.com/s/nkf5yRrAw-IA5_ROD6Za4g | 1| 
 | SecWiki | SecWiki | SecWiki安全招聘（第25期） | https://mp.weixin.qq.com/s/NslzE1ObdRKPLeGWV2Axyw | 1| 
-| TideSec安全团队 | TideSec | 应急响应实例分享 | https://mp.weixin.qq.com/s/Aal5nnp9zUR6cLtoKVaJrw | 3| 
 | 学术plus | caeit-e | 美国国防部2019年消费账单出炉，竟频频打脸！ | https://mp.weixin.qq.com/s/Hk_BfBPz0TGqFNblGb_m5A | 1| 
-| 时间之外沉浮事 | tasnrh | 网络空间靶场发展态势综述 | https://mp.weixin.qq.com/s/McTaM1MIuLsXAmubPqr0LQ | 1| 
-| 深度传送门 | deep_deliver | RecSys 2019参会总结及推荐精读论文 | https://mp.weixin.qq.com/s/NrhIEcY0-76g88-GA01kww | 1| 
+| 奇安信威胁情报中心 |  | 揭密：当年奥运会背后的网络暗战和幕后网军真相 | https://mp.weixin.qq.com/s/anC86mOuuaH09lnWMEVXEw | 1| 
+| AD风险实验室 |  | 业务安全的资源层攻防时代 | https://mp.weixin.qq.com/s/nkf5yRrAw-IA5_ROD6Za4g | 1| 
 | FreeBuf | freebuf | 企业安全无间道之抓内鬼 | https://mp.weixin.qq.com/s/9z0eFephjLsq2zJz4rrs9A | 1| 
+| TideSec安全团队 | TideSec | 应急响应实例分享 | https://mp.weixin.qq.com/s/Aal5nnp9zUR6cLtoKVaJrw | 3| 
+| jaxsec |  | Linux For Pentester: socat Privilege Escalation(中英对照) | https://mp.weixin.qq.com/s?__biz=MzI5OTYzMjU1OA==&mid=2247483759&idx=1&sn=13cc7388d74532d0c77e2429e5c0ea2e&chksm=ec92d3aedbe55ab8573dad78ea7f0c68c3eae83c1fb585b9ee058f7d4d9b11b062d3566c5b92&mpshare=1&scene=23&srcid=&sharer_sharetime=1571632808853&sha | 3| 
 | 凌天实验室 | LT_labs | 勒索解密工具整理篇 | https://mp.weixin.qq.com/s/T6zSWZ-qMit-8gR4Itmknw | 1| 
 | 奇安信 CERT |  | BROP技术研究 | https://mp.weixin.qq.com/s/Old4dKS2aDp1TETTn0WzoQ | 1| 
-| 奇安信威胁情报中心 |  | 揭密：当年奥运会背后的网络暗战和幕后网军真相 | https://mp.weixin.qq.com/s/anC86mOuuaH09lnWMEVXEw | 1| 
 | 安全客 | anquanbobao | 针对海最新顶会fuzz论文分享 | https://mp.weixin.qq.com/s/BmuwRouYB3AGsVae3koGOQ | 1| 
 | 安全小飞侠 | AvFisher | 基于MITRE ATT&CK的Red Teaming行动实践 | https://mp.weixin.qq.com/s/u1cPkGegyRpw3oyKaBMf1w | 1| 
-| 安全牛 | aqniu-wx | ATT&CK随笔系列之二：偷天陷阱 | https://mp.weixin.qq.com/s/iTh41vvRRZLat2k-RgiyFw | 2| 
-| jaxsec |  | Linux For Pentester: socat Privilege Escalation(中英对照) | https://mp.weixin.qq.com/s?__biz=MzI5OTYzMjU1OA==&mid=2247483759&idx=1&sn=13cc7388d74532d0c77e2429e5c0ea2e&chksm=ec92d3aedbe55ab8573dad78ea7f0c68c3eae83c1fb585b9ee058f7d4d9b11b062d3566c5b92&mpshare=1&scene=23&srcid=&sharer_sharetime=1571632808853&sha | 3| 
+| 安全牛 | aqniu-wx | ATT&CK 随笔系列之一：右脑知攻、左脑知防 | https://mp.weixin.qq.com/s/sxlMUwLqLBi-CJQV41DWaA | 2| 
+| 时间之外沉浮事 | tasnrh | 网络空间靶场发展态势综述 | https://mp.weixin.qq.com/s/McTaM1MIuLsXAmubPqr0LQ | 1| 
+| 深度传送门 | deep_deliver | RecSys 2019参会总结及推荐精读论文 | https://mp.weixin.qq.com/s/NrhIEcY0-76g88-GA01kww | 1| 
 | 川云安全团队 | cyunsec | Kibana < 6.6.1 代码执行漏洞复现笔记 | https://mp.weixin.qq.com/s/3r41HE3bnNHhWOw42uziTQ | 1| 
 | 云众可信 | yunzhongkexin | 原创干货 | 暗网知识小科普 | https://mp.weixin.qq.com/s/gLPfnR2mZKduof5nL8nH3w | 1| 
 | 穿过丛林 |  | 容器云安全防御机制动态评估与优化框架 | https://mp.weixin.qq.com/s/-g2MLk7i0QBToxdE-RHjSw | 1| 
@@ -78,12 +79,15 @@
 | theLSA | vbulletin5 rce漏洞检测工具 | https://github.com/theLSA/vbulletin5-rce | http://www.lsablog.com | I like network security,penestration and programming(python,c/c++,php,java,ect),welcome to communicate with me! | China | None | 33 | 0 | 19 | 90 | 19 | Python | 134 | 42 | 1| 
 | Ch1ngg | Cobalt Strike - 使用其他方式抓取密码/dump hash | https://github.com/Ch1ngg/AggressorScript-RunDumpHash | https://www.ch1ng.com/ |  | no | no | 15 | 0 | 145 | 84 | 18 | Python,C#,ASP,Java,PowerShell | 44 | 11 | 1| 
 | 0xcpu | Windows 10 20H1 18999 新加了一个特性 AltSystemCallHandlers，可以实现 KiSystemCall 的 HOOK 回调 | https://github.com/0xcpu/WinAltSyscallHandler | None | nothing interesting | None | None | 16 | 0 | 1300 | 52 | 112 | Python,C,C++,Rust | 48 | 11 | 1| 
+| yyhsong | iDataV: 大屏数据可视化示例 | https://github.com/yyhsong/iDataV | None | Just coding for fun. | None | None | 13 | 0 | 31 | 42 | 0 | JavaScript | 875 | 368 | 1| 
 | therealsaumil | ARM-X - 基于 Qemu 模拟执行 IoT 设备 ARM 固件的框架 | https://github.com/therealsaumil/armx | https://twitter.com/therealsaumil |  | None | None | 8 | 0 | 0 | 36 | 2 | Shell,C,JavaScript,Assembly,Arduino | 170 | 32 | 1| 
 | open-cmdb | cmdb: CMDB 配置管理系统 资产管理系统 | https://github.com/open-cmdb/cmdb | None |  | Shanghai | None | 2 | 0 | 2 | 35 | 0 | Python,JavaScript | 413 | 166 | 1| 
 | daddycocoaman | Bypass Python 3.8 版本新增的 Runtime Audit Hooks 安全审计特性 | https://github.com/daddycocoaman/SlidePresentations/blob/master/2019/BypassingPython38AuditHooks.pptx | None |  | None | None | 10 | 0 | 11 | 25 | 1 | Python,PowerShell,Boo | 43 | 9 | 1| 
+| JonGates | jon: LINUX系统攻防工具箱 | https://github.com/JonGates/jon | http://blog.jongates.cn | birl | None | 597.com | 10 | 0 | 118 | 21 | 7 | Go,C,JavaScript | 104 | 28 | 1| 
+| GuidoPaul | CAIL2019: 中国法研杯司法人工智能挑战赛之相似案例匹配第一名... | https://github.com/GuidoPaul/CAIL2019 | http://www.baosl.com/ |  | None | None | 20 | 0 | 124 | 19 | 12 | Python,Jupyter,Java,Vim | 68 | 24 | 1| 
 | blaCCkHatHacEEkr | PENTESTING-BIBLE | https://github.com/blaCCkHatHacEEkr/PENTESTING-BIBLE | https://twitter.com/cry__pto | MalwareHacker||OSPentester||NetworkBreaker||ForensicsExpert||SocialEngineeringPro||WebProtector||: ::::::::::GPG:68E11CD1:::::::::: | syria | None | 2 | 0 | 21 | 16 | 13 |  | 85 | 19 | 1| 
 | bsauce | Fuzz 方向的几篇 Paper 的解读 | https://github.com/bsauce/Some-Papers-About-Fuzzing | https://www.jianshu.com/u/a12c5b882be2 |  | None | None | 18 | 0 | 48 | 16 | 17 | Python,C,CSS,C++ | 25 | 6 | 1| 
-| 0Kee-Team | CatchMail: 收集邮箱的工具 | https://github.com/0Kee-Team/CatchMail | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Java | 0 | 0 | 1| 
+| 0Kee-Team | CatchMail: 收集邮箱的工具 | https://github.com/0Kee-Team/CatchMail | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Java | 0 | 0 | 2| 
 | MicrosoftDocs | 微软公开 Windows Driver Kit 相关的文档 | https://github.com/MicrosoftDocs/windows-driver-docs | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,HTML,C#,JavaScript,Python,Shell,PowerShell | 3100 | 8200 | 1| 
 | advanced-threat-research | Repository of YARA rules made by McAfee ATR Team | https://github.com/advanced-threat-research/Yara-Rules | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,YARA,HTML | 0 | 0 | 1| 
 | fuzzitdev | Jsfuzz: coverage-guided fuzz testing for Javascript | https://github.com/fuzzitdev/jsfuzz | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,CMake,Dockerfile,C++,Swift,HCL,Go,Java,Ruby,Rust | 234 | 11 | 1| 
