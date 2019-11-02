@@ -1,9 +1,0 @@
-C	2
-Shell	1
-Java	1
-XSLT	1
-C#	1
-C++	1
-Python	1
-Erlang	1
-PowerShell	1
