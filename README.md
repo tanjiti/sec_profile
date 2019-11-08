@@ -21,13 +21,17 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| AI科技评论 | aitechtalk | 数据挖掘领头人韩家炜教授：如何从无结构文本到有用的知识？ | https://mp.weixin.qq.com/s/aKGh9wOdWsleSted_iEmBQ | 1| 
+| baronpan |  | 浅谈“归因” | https://mp.weixin.qq.com/s/WILKc7v_lJqoodiWCz9zog | 1| 
+| 安全牛 | aqniu-wx | 中国网络安全细分领域矩阵图(Matrix 2019.11)发布 | https://mp.weixin.qq.com/s/K1l7VKXE_UMTzmGkYgRGXg | 2| 
+| 汉客儿 |  | 华为手机副总裁不拦着友商使用多屏协同，于是我... | https://mp.weixin.qq.com/s/RnFXcn_Lj3lfQguv8EQeJw | 2| 
+| 现代服务产业技术创新战略联盟 |  | 深度学习实体关系抽取研究综述（下） | https://mp.weixin.qq.com/s/vefsmswv8aTA1zF5lJ_WxA | 3| 
+| 绿盟科技研究通讯 | nsfocus_research | 2019年度容器安全现状分析 | https://mp.weixin.qq.com/s/jtDlMe5SprpZfIfXryAjzg | 1| 
 | 情报分析师 | qingbaofenxishi | 社交网络在开源安全情报中的应用（一） | https://mp.weixin.qq.com/s/QTcvAtaSe1jWvGTg9ZcfiQ | 1| 
 | 青藤云安全资讯 | qingtengyun | 基于ATT&CK框架的红蓝对抗，有效提升检测能力 | https://mp.weixin.qq.com/s/hpc3hIfZxWx11pwKvSy7Ww | 1| 
-| 安全牛 | aqniu-wx | 从本质看未来：对网络安全行业的深度思考 | https://mp.weixin.qq.com/s/pYxoDxpSQSu867lmIbsWyg | 1| 
 | 时间之外沉浮事 | tasnrh | 网络空间靶场发展态势综述①JIOR | https://mp.weixin.qq.com/s/B_oA7FCkFnRj4WOyVeFGmA | 1| 
 | 星维九州 |  | 流量加密也不怕！多种姿势检测冰蝎 | https://mp.weixin.qq.com/s/ciAQNdL1YJ9B1HX7TMEDzA | 1| 
 | 漏洞战争 | vulwar | Android应用逻辑漏洞半自动化挖掘思路 | https://mp.weixin.qq.com/s/tFFe_LOs0e1Po8nj9ifmKg | 1| 
-| 汉客儿 |  | 注入技术系列：一个批量验证DLL劫持的工具 | https://mp.weixin.qq.com/s/qaKCG1RkBOnr3SkG9Oc1pA | 1| 
 | ChaMd5安全团队 | chamd5sec | 详细分析Solr的CVE-2019-0193以及velocity模板注入新洞 | https://mp.weixin.qq.com/s/gl35WFkxhAbuw7BNQa1FiQ | 2| 
 | 美团安全应急响应中心 |  | 大型互联网公司数据安全实践 | https://mp.weixin.qq.com/s/DtGLFwcwNMCZseOKOAOC9Q | 1| 
 
