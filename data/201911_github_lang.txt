@@ -1,3 +1,8 @@
-Python	2
+Python	4
+HTML	3
+C	1
 Shell	1
-HTML	1
+Java	1
+Lua	1
+C#	1
+PowerShell	1
