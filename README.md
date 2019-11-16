@@ -21,26 +21,28 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
-| 安全乐观主义 |  | 代码审计工具Fortify 17.10及Mac平台license版本 | https://mp.weixin.qq.com/s/OuZFGEnPwavCBHrfsEK0IQ | 10| 
+| PaperWeekly | paperweekly | ACL 2019开源论文 | 基于Attention的知识图谱关系预测 | https://mp.weixin.qq.com/s/JAWDIN3FnPgHb_hrXI7Obw | 1| 
+| 君哥的体历 | jungedetili | 漏洞之王：漫谈高阶漏洞攻防演进和现实威胁 | https://mp.weixin.qq.com/s/Y6IpGYG8J8BjluOaFwNRpQ | 1| 
+| 法学学术前沿 | frontiers-of-law | 前沿| 刘艳红：网络爬虫行为的刑事规制 | https://mp.weixin.qq.com/s/O9ue3cZjw5kfVFyFkoaeUg | 1| 
+| 等级保护测评 | zgdjbh | 公安部通报“净网2019”专项行动情况及典型案例 | https://mp.weixin.qq.com/s/GaIn1X9QRb5WMQQctjLvEA | 1| 
+| 安全乐观主义 |  | 倒计时三天-谈谈互联网的删除和被遗忘权 | https://mp.weixin.qq.com/s/SSdkOb-L-ykj1CR477S54Q | 10| 
 | 七夜安全博客 | qiye_safe | 漫谈威胁建模下的安全通信 | https://mp.weixin.qq.com/s/m-ouMuBGX4BhHohV52Kykg | 1| 
 | 奇门遁甲安全 |  | 浅谈新手入门级红蓝对抗系列之——Sysmon攻防 | https://mp.weixin.qq.com/s/_RcHF1vXPp1cnzXvGWnGvQ | 1| 
 | 南方法治报 | nffzb1433 | 广东公安“净网2019”专项行动典型网络违法犯罪案例 | https://mp.weixin.qq.com/s/XIAaaZetvfLa5KO-7Q6rlg | 1| 
 | 安全喷子 |  | ATT&CK 实战指南 | https://mp.weixin.qq.com/s/-K5B_ZdxLxN7oSCVfWMWpg | 1| 
 | 开放知识图谱 | OpenKG-CN | 论文浅尝 | 探索将预训练语言模型用于事件抽取和事件生成 | https://mp.weixin.qq.com/s/8G-d3VT_I6ucRVrGm4VO2A | 1| 
+| 时间之外沉浮事 | tasnrh | 美空军网络空间训练靶场（SIMTEX） | https://mp.weixin.qq.com/s/Y0HLoMKa7qDyPfq5PdgiRA | 4| 
 | 水滴安全实验室 | EversecLab | 汽车安全测试Checklist | https://mp.weixin.qq.com/s/Pbru2pe-KeptQ909w4pk9w | 1| 
 | AI科技评论 | aitechtalk | 数据挖掘领头人韩家炜教授：如何从无结构文本到有用的知识？ | https://mp.weixin.qq.com/s/aKGh9wOdWsleSted_iEmBQ | 1| 
 | baronpan |  | 浅谈“归因” | https://mp.weixin.qq.com/s/WILKc7v_lJqoodiWCz9zog | 1| 
-| 现代服务产业技术创新战略联盟 |  | 深度学习实体关系抽取研究综述（下） | https://mp.weixin.qq.com/s/vefsmswv8aTA1zF5lJ_WxA | 3| 
-| 绿盟科技研究通讯 | nsfocus_research | 2019年度容器安全现状分析 | https://mp.weixin.qq.com/s/jtDlMe5SprpZfIfXryAjzg | 1| 
+| 安全牛 | aqniu-wx | 从本质看未来：对网络安全行业的深度思考 | https://mp.weixin.qq.com/s/pYxoDxpSQSu867lmIbsWyg | 3| 
 | 情报分析师 | qingbaofenxishi | 社交网络在开源安全情报中的应用（一） | https://mp.weixin.qq.com/s/QTcvAtaSe1jWvGTg9ZcfiQ | 1| 
-| 青藤云安全资讯 | qingtengyun | 基于ATT&CK框架的红蓝对抗，有效提升检测能力 | https://mp.weixin.qq.com/s/hpc3hIfZxWx11pwKvSy7Ww | 1| 
-| 安全牛 | aqniu-wx | 从本质看未来：对网络安全行业的深度思考 | https://mp.weixin.qq.com/s/pYxoDxpSQSu867lmIbsWyg | 2| 
-| 时间之外沉浮事 | tasnrh | 网络空间靶场发展态势综述①JIOR | https://mp.weixin.qq.com/s/B_oA7FCkFnRj4WOyVeFGmA | 3| 
 | 星维九州 |  | 流量加密也不怕！多种姿势检测冰蝎 | https://mp.weixin.qq.com/s/ciAQNdL1YJ9B1HX7TMEDzA | 1| 
+| 汉客儿 |  | 华为手机副总裁不拦着友商使用多屏协同，于是我... | https://mp.weixin.qq.com/s/RnFXcn_Lj3lfQguv8EQeJw | 1| 
 | 漏洞战争 | vulwar | Android应用逻辑漏洞半自动化挖掘思路 | https://mp.weixin.qq.com/s/tFFe_LOs0e1Po8nj9ifmKg | 1| 
-| 汉客儿 |  | 注入技术系列：一个批量验证DLL劫持的工具 | https://mp.weixin.qq.com/s/qaKCG1RkBOnr3SkG9Oc1pA | 2| 
-| ChaMd5安全团队 | chamd5sec | 详细分析Solr的CVE-2019-0193以及velocity模板注入新洞 | https://mp.weixin.qq.com/s/gl35WFkxhAbuw7BNQa1FiQ | 2| 
-| 美团安全应急响应中心 |  | 大型互联网公司数据安全实践 | https://mp.weixin.qq.com/s/DtGLFwcwNMCZseOKOAOC9Q | 1| 
+| 现代服务产业技术创新战略联盟 |  | 深度学习实体关系抽取研究综述(上) | https://mp.weixin.qq.com/s/_1bWSYIeGpkJyrSfSNhVdw | 3| 
+| 绿盟科技研究通讯 | nsfocus_research | 2019年度容器安全现状分析 | https://mp.weixin.qq.com/s/jtDlMe5SprpZfIfXryAjzg | 2| 
+| 青藤云安全资讯 | qingtengyun | 基于ATT&CK框架的红蓝对抗，有效提升检测能力 | https://mp.weixin.qq.com/s/hpc3hIfZxWx11pwKvSy7Ww | 1| 
 
 
 # 组织github账号 推荐

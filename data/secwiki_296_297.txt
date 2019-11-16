@@ -1,0 +1,49 @@
+20191028	Web安全	https://mp.weixin.qq.com/s/pvc0xrBK6wP-lJMOPONr2w	[翻译] 看我如何利用PHP的0day黑掉Pornhub并获得2W美刀奖励	qq.com	mp.weixin.qq.com	/s/pvc0xrBK6wP-lJMOPONr2w
+20191028	数据挖掘	https://mp.weixin.qq.com/s/DtGLFwcwNMCZseOKOAOC9Q	大型互联网公司数据安全实践	qq.com	mp.weixin.qq.com	/s/DtGLFwcwNMCZseOKOAOC9Q
+20191028	Web安全	https://xz.aliyun.com/t/6617	深入了解子域名挖掘tricks	aliyun.com	xz.aliyun.com	/t/6617
+20191028	Web安全	https://mp.weixin.qq.com/s/gl35WFkxhAbuw7BNQa1FiQ	详细分析Solr的CVE-2019-0193以及velocity模板注入新洞	qq.com	mp.weixin.qq.com	/s/gl35WFkxhAbuw7BNQa1FiQ
+20191028	取证分析	https://www.4hou.com/system/21107.html	从零开始学威胁狩猎：手把手教你用 Jupyter Notebook 分析安全事件（二）	4hou.com	www.4hou.com	/system/21107.html
+20191028	Web安全	https://www.securityinfo.cn/2019/10/31/%E3%80%90%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0%E3%80%91Apache%20Solr%20Velocity%E6%A8%A1%E7%89%88%E6%B3%A8%E5%85%A5%E8%BF%9C%E7%A8%8B%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E%E9%A2%84%E8%AD%A6/#more	Apache Solr Velocity模版注入远程命令执行漏洞预警	securityinfo.cn	www.securityinfo.cn	/2019/10/31/%E3%80%90%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0%E3%80%91Apache%20Solr%20Velocity%E6%A8%A1%E7%89%88%E6%B3%A8%E5%85%A5%E8%BF%9C%E7%A8%8B%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E%E9%A2%84%E8%AD%A6/
+20191028	漏洞分析	https://lorexxar.cn/2019/10/25/php-fpm-rce/	PHP-fpm 远程代码执行漏洞(CVE-2019-11043)分析	lorexxar.cn	lorexxar.cn	/2019/10/25/php-fpm-rce/
+20191028	数据挖掘	https://github.com/404notf0und/Security-Data-Analysis-and-Visualization	2018-2020青年安全圈-活跃技术博主/博客	github.com	github.com	/404notf0und/Security-Data-Analysis-and-Visualization
+20191028	杂志	https://www.sec-wiki.com/weekly/295	SecWiki周刊（第295期)	sec-wiki.com	www.sec-wiki.com	/weekly/295
+20191028	恶意分析	https://mp.weixin.qq.com/s/OAiBXoti1AV-iFmZkpRIFA	一种快速、不区分格式的检测恶意Web内容的深度学习方法	qq.com	mp.weixin.qq.com	/s/OAiBXoti1AV-iFmZkpRIFA
+20191028	编程技术	https://mp.weixin.qq.com/s/qaKCG1RkBOnr3SkG9Oc1pA	注入技术系列：一个批量验证DLL劫持的工具	qq.com	mp.weixin.qq.com	/s/qaKCG1RkBOnr3SkG9Oc1pA
+20191028	数据挖掘	https://mp.weixin.qq.com/s/ucRjPxvbSaq9rjnbbHOP3g	情报大数据中的语义管理	qq.com	mp.weixin.qq.com	/s/ucRjPxvbSaq9rjnbbHOP3g
+20191028	取证分析	https://csis.gmu.edu/noel/pubs/2016_Cognitive_Computing_chapter.pdf	CyGraph: Graph-Based Analytics and Visualization for Cybersecurity	gmu.edu	csis.gmu.edu	/noel/pubs/2016_Cognitive_Computing_chapter.pdf
+20191028	文档	https://www.tc260.org.cn/upload/2019-10-29/1572340054453026854.pdf	物联网安全标准化白皮书（2019版）	tc260.org.cn	www.tc260.org.cn	/upload/2019-10-29/1572340054453026854.pdf
+20191028	视频	https://www.bilibili.com/video/av69455099/	伯克利课程：深度强化学习 (2019)	bilibili.com	www.bilibili.com	/video/av69455099/
+20191028	漏洞分析	https://blog.trailofbits.com/2019/10/31/destroying-x86_64-instruction-decoders-with-differential-fuzzing/	Destroying x86_64 instruction decoders with differential fuzzing	trailofbits.com	blog.trailofbits.com	/2019/10/31/destroying-x86_64-instruction-decoders-with-differential-fuzzing/
+20191028	文档	https://www.tc260.org.cn/front/postDetail.html?id=20191031151659	人工智能安全标准化白皮书（2019版）	tc260.org.cn	www.tc260.org.cn	/front/postDetail.html
+20191104	观点	https://mp.weixin.qq.com/s/pYxoDxpSQSu867lmIbsWyg	从本质看未来：对网络安全行业的深度思考	qq.com	mp.weixin.qq.com	/s/pYxoDxpSQSu867lmIbsWyg
+20191104	其它	https://mp.weixin.qq.com/s/K1l7VKXE_UMTzmGkYgRGXg	中国网络安全细分领域矩阵图(Matrix 2019.11)发布	qq.com	mp.weixin.qq.com	/s/K1l7VKXE_UMTzmGkYgRGXg
+20191104	取证分析	https://mp.weixin.qq.com/s/ciAQNdL1YJ9B1HX7TMEDzA	多种姿势检测冰蝎加密流量	qq.com	mp.weixin.qq.com	/s/ciAQNdL1YJ9B1HX7TMEDzA
+20191104	Web安全	https://github.com/biggerwing/nsfocus-rsas-knowledge-base	绿盟科技漏洞扫描器(RSAS)漏洞知识库	github.com	github.com	/biggerwing/nsfocus-rsas-knowledge-base
+20191104	Web安全	https://github.com/rootclay/Powershell-Attack-Guide	Powershell攻击指南----黑客后渗透之道	github.com	github.com	/rootclay/Powershell-Attack-Guide
+20191104	恶意分析	https://www.freebuf.com/articles/network/216388.html	APT35研究白皮书（一）	freebuf.com	www.freebuf.com	/articles/network/216388.html
+20191104	其它	https://mp.weixin.qq.com/s/B_oA7FCkFnRj4WOyVeFGmA	网络空间靶场发展态势综述-JIOR	qq.com	mp.weixin.qq.com	/s/B_oA7FCkFnRj4WOyVeFGmA
+20191104	取证分析	https://mp.weixin.qq.com/s/hpc3hIfZxWx11pwKvSy7Ww	基于ATT&CK框架的红蓝对抗	qq.com	mp.weixin.qq.com	/s/hpc3hIfZxWx11pwKvSy7Ww
+20191104	数据挖掘	https://blog.csdn.net/together_cz/article/details/86640784	Python可视化利器Yellowbrick实践	csdn.net	blog.csdn.net	/together_cz/article/details/86640784
+20191104	Web安全	https://xz.aliyun.com/t/6683	关于子域名劫持的一些总结	aliyun.com	xz.aliyun.com	/t/6683
+20191104	取证分析	https://mp.weixin.qq.com/s/QTcvAtaSe1jWvGTg9ZcfiQ	社交网络在开源安全情报中的应用（一）	qq.com	mp.weixin.qq.com	/s/QTcvAtaSe1jWvGTg9ZcfiQ
+20191104	移动安全	https://mp.weixin.qq.com/s/tFFe_LOs0e1Po8nj9ifmKg	Android应用逻辑漏洞半自动化挖掘思路	qq.com	mp.weixin.qq.com	/s/tFFe_LOs0e1Po8nj9ifmKg
+20191104	数据挖掘	https://github.com/wfh45678/radar	radar: 实时风控引擎(Risk Engine)	github.com	github.com	/wfh45678/radar
+20191104	漏洞分析	https://xz.aliyun.com/t/6665	Shellcode编码技术	aliyun.com	xz.aliyun.com	/t/6665
+20191104	漏洞分析	https://mp.weixin.qq.com/s/jtDlMe5SprpZfIfXryAjzg	2019年度容器安全现状分析	qq.com	mp.weixin.qq.com	/s/jtDlMe5SprpZfIfXryAjzg
+20191104	编程技术	https://mp.weixin.qq.com/s/RnFXcn_Lj3lfQguv8EQeJw	华为手机副总裁不拦着友商使用多屏协同，于是我...	qq.com	mp.weixin.qq.com	/s/RnFXcn_Lj3lfQguv8EQeJw
+20191104	恶意分析	https://www.freebuf.com/articles/network/216557.html	APT35研究白皮书（二）	freebuf.com	www.freebuf.com	/articles/network/216557.html
+20191104	Web安全	http://rui0.cn/archives/1175	聊聊对目前Passive IAST的思考	rui0.cn	rui0.cn	/archives/1175
+20191104	恶意分析	https://green-m.me//2019/11/06/encrypt-reverse-shell/	对基础 shell 进行流量混淆	green-m.me	green-m.me	//2019/11/06/encrypt-reverse-shell/
+20191104	Web安全	https://xz.aliyun.com/t/6699	PHP反序列化拓展攻击详解--phar	aliyun.com	xz.aliyun.com	/t/6699
+20191104	其它	https://mp.weixin.qq.com/s/HKRVbjizwN3SeIvroXV_5g	网络空间靶场发展态势综述②JCOR	qq.com	mp.weixin.qq.com	/s/HKRVbjizwN3SeIvroXV_5g
+20191104	杂志	https://www.sec-wiki.com/weekly/296	SecWiki周刊（第296期)	sec-wiki.com	www.sec-wiki.com	/weekly/296
+20191104	漏洞分析	https://blog.teddykatz.com/2019/11/05/github-oauth-bypass.html	Bypassing GitHub OAuth flow	teddykatz.com	blog.teddykatz.com	/2019/11/05/github-oauth-bypass.html
+20191104	数据挖掘	https://mp.weixin.qq.com/s/aKGh9wOdWsleSted_iEmBQ	数据挖掘领头人韩家炜教授：如何从无结构文本到有用的知识？	qq.com	mp.weixin.qq.com	/s/aKGh9wOdWsleSted_iEmBQ
+20191104	漏洞分析	https://iwantmore.pizza/posts/cve-2019-1414.html	CVE-2019-1414 a Local Command Execution in Visual Studio Code	iwantmore.pizza	iwantmore.pizza	/posts/cve-2019-1414.html
+20191104	取证分析	https://mp.weixin.qq.com/s/WILKc7v_lJqoodiWCz9zog	浅谈“归因”	qq.com	mp.weixin.qq.com	/s/WILKc7v_lJqoodiWCz9zog
+20191104	数据挖掘	https://mp.weixin.qq.com/s/_1bWSYIeGpkJyrSfSNhVdw	深度学习实体关系抽取研究综述(上)	qq.com	mp.weixin.qq.com	/s/_1bWSYIeGpkJyrSfSNhVdw
+20191104	数据挖掘	https://mp.weixin.qq.com/s/vefsmswv8aTA1zF5lJ_WxA	深度学习实体关系抽取研究综述（下）	qq.com	mp.weixin.qq.com	/s/vefsmswv8aTA1zF5lJ_WxA
+20191104	数据挖掘	https://mp.weixin.qq.com/s/-_jSyABp6oti_PbILrHqtg	深度学习实体关系抽取研究综述（中）	qq.com	mp.weixin.qq.com	/s/-_jSyABp6oti_PbILrHqtg
+20191104	编程技术	https://tech.meituan.com/2019/11/07/java-dynamic-debugging-technology.html	Java 动态调试技术原理及实践	meituan.com	tech.meituan.com	/2019/11/07/java-dynamic-debugging-technology.html
+20191104	移动安全	https://tech.meituan.com/2019/11/07/android-static-code-canning.html	Android静态代码扫描效率优化与实践	meituan.com	tech.meituan.com	/2019/11/07/android-static-code-canning.html
+20191104	漏洞分析	https://www.anquanke.com/post/id/190533	Chakra漏洞调试笔记5-CVE-2019-0861复现	anquanke.com	www.anquanke.com	/post/id/190533
