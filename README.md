@@ -21,13 +21,15 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| Python中文社区 | python-china | 微软开源可解释机器学习框架 interpret 实践 | https://mp.weixin.qq.com/s/adkQr051QFzID4tEtPwjyQ | 1| 
+| ADLab | v_adlab | 启明星辰ADLab：关于近日门罗币供应链攻击事件分析 | https://mp.weixin.qq.com/s/3B9e0FltRSYWyu96NQp5Tw | 1| 
 | 赵武的自留地 |  | 网络空间测绘的生与死（二） | https://mp.weixin.qq.com/s/CRMP9CblEWGvTFhul3G-Mw | 2| 
 | 网信中国 | cacweixin | 国家互联网信息办公室关于《网络安全威胁信息发布管理办法（征求意见稿）》公开征求意见的通知 | https://mp.weixin.qq.com/s/uu3fnM8OzC8JRcIiJkIX8w | 1| 
-| 复旦白泽战队 | fdwhitzard | 白泽带你去参会@CCS19, London, UK丨论文分享（上） | https://mp.weixin.qq.com/s/gYqamT3WXiyj79mjBQYRiA | 1| 
+| 复旦白泽战队 | fdwhitzard | 白泽带你去参会@CCS19, London, UK丨论文分享（上） | https://mp.weixin.qq.com/s/gYqamT3WXiyj79mjBQYRiA | 2| 
 | 安恒信息 | DBAPP2013 | 如何基于沙箱的威胁情报平台上搭建ATT&CK展示界面？ | https://mp.weixin.qq.com/s/YcQRAkRRo63OnRYWokl0nw | 1| 
 | 最高人民法院 | ch_zgrmfy | 司法大数据专题报告：网络犯罪特点和趋势 | https://mp.weixin.qq.com/s/ZxYS6Dwa2XVOZ8ku-PbKog | 1| 
 | 404 Not F0und |  | 从Black Hat Speaker到国内外研究者：强化学习的安全应用 | https://mp.weixin.qq.com/s/YcH2P38_N4aZtGAc2ktkJw | 1| 
-| heysec | bloodzer007 | 计算机与网络安全系列书单推荐 | https://mp.weixin.qq.com/s/kEH85B2L8hsTKQjaSluTVQ | 1| 
+| heysec | bloodzer007 | 计算机与网络安全系列书单推荐 | https://mp.weixin.qq.com/s/kEH85B2L8hsTKQjaSluTVQ | 2| 
 | PaperWeekly | paperweekly | ACL 2019开源论文 | 基于Attention的知识图谱关系预测 | https://mp.weixin.qq.com/s/JAWDIN3FnPgHb_hrXI7Obw | 1| 
 | 君哥的体历 | jungedetili | 漏洞之王：漫谈高阶漏洞攻防演进和现实威胁 | https://mp.weixin.qq.com/s/Y6IpGYG8J8BjluOaFwNRpQ | 1| 
 | 法学学术前沿 | frontiers-of-law | 前沿| 刘艳红：网络爬虫行为的刑事规制 | https://mp.weixin.qq.com/s/O9ue3cZjw5kfVFyFkoaeUg | 1| 
@@ -43,7 +45,7 @@
 | baronpan |  | 浅谈“归因” | https://mp.weixin.qq.com/s/WILKc7v_lJqoodiWCz9zog | 1| 
 | 安全牛 | aqniu-wx | 从本质看未来：对网络安全行业的深度思考 | https://mp.weixin.qq.com/s/pYxoDxpSQSu867lmIbsWyg | 3| 
 | 情报分析师 | qingbaofenxishi | 社交网络在开源安全情报中的应用（一） | https://mp.weixin.qq.com/s/QTcvAtaSe1jWvGTg9ZcfiQ | 1| 
-| 时间之外沉浮事 | tasnrh | 网络空间靶场发展态势综述①JIOR | https://mp.weixin.qq.com/s/B_oA7FCkFnRj4WOyVeFGmA | 4| 
+| 时间之外沉浮事 | tasnrh | 网络空间靶场发展态势综述①JIOR | https://mp.weixin.qq.com/s/B_oA7FCkFnRj4WOyVeFGmA | 5| 
 | 星维九州 |  | 流量加密也不怕！多种姿势检测冰蝎 | https://mp.weixin.qq.com/s/ciAQNdL1YJ9B1HX7TMEDzA | 1| 
 | 汉客儿 |  | 华为手机副总裁不拦着友商使用多屏协同，于是我... | https://mp.weixin.qq.com/s/RnFXcn_Lj3lfQguv8EQeJw | 1| 
 | 漏洞战争 | vulwar | Android应用逻辑漏洞半自动化挖掘思路 | https://mp.weixin.qq.com/s/tFFe_LOs0e1Po8nj9ifmKg | 2| 
@@ -64,7 +66,9 @@
 | phantom0301 | PTEye: 代理黑盒漏洞审计工具 | https://github.com/phantom0301/PTEye | http://phantom0301.github.io/ | Free and Share | Chengdu | None | 80 | 0 | 32 | 279 | 10 | Python,JavaScript,PowerShell | 81 | 9 | 1| 
 | bettenW | 2019腾讯广告算法大赛完整代码（冠军） | https://github.com/bettenW/Tencent2019_Finals_Rank1st | http://zhuanlan.zhihu.com/DataAI | 鱼遇雨欲语与余 | China, Beijing | 京东集团，算法工程师 | 12 | 0 | 46 | 260 | 6 | Python,Jupyter | 235 | 83 | 1| 
 | h2hconference | Hackers to Hackers(H2HC) 2019 会议的议题 PPT 公开了 | https://github.com/h2hconference/2019 | https://www.h2hc.com.br | Hackers To Hackers Conference (H2HC) é uma conferência organizada por pessoas que trabalham ou que estão diretamente envolvidas com pesquisas e desenvolvimento | Brazil | H2HC | 18 | 0 | 0 | 203 | 0 | Python,HTML | 50 | 12 | 1| 
+| npubird | 东南大学《知识图谱》研究生课程 | https://github.com/npubird/KnowledgeGraphCourse | http://npubird.github.io |  | None | Southeast University | 68 | 0 | 56 | 87 | 2 | Python,HTML,Java,JavaScript | 1100 | 376 | 1| 
 | rootclay | Powershell攻击指南----黑客后渗透之道 | https://github.com/rootclay/Powershell-Attack-Guide | http://rootclay.com | A man who wants to be a ... | beijing | 360 | 34 | 0 | 401 | 80 | 81 | Python,C#,HTML,PowerShell | 298 | 87 | 1| 
+| 86hh | 利用 Control Flow Guard 实现对 PE32 文件 EntryPoint 混淆的恶意代码 PoC | https://github.com/86hh/POC-viruses/tree/master/Senshi.A | None |  | None | None | 10 | 0 | 1 | 67 | 1 | Assembly | 94 | 26 | 1| 
 | 1120362990 | vulnerability-list: 渗透测试中快速检测常见中间件、组件的高... | https://github.com/1120362990/vulnerability-list | None | web安全-渗透测试-python | None | None | 5 | 0 | 193 | 56 | 58 | Python,Java | 269 | 61 | 1| 
 | DeepSpaceHarbor | 人工智能（AI）安全方向的资料整理 | https://github.com/DeepSpaceHarbor/Awesome-AI-Security | None |  | ¯\_(ツ)_/¯ | None | 8 | 0 | 15 | 52 | 1 | HTML | 882 | 134 | 1| 
 | mohuihui | antispy: Windows下手工杀毒辅助工具开源 | https://github.com/mohuihui/antispy | None | QQ & WeChat：454858525 | None | Alibaba | 9 | 0 | 5 | 46 | 2 | C,Java,Objective-C | 242 | 133 | 1| 
@@ -77,6 +81,7 @@
 | wfh45678 | radar: 实时风控引擎(Risk Engine) | https://github.com/wfh45678/radar | http://radar.pgmmer.top | 它山之石，可以攻玉 | China/ShangHai | 票易通 | 2 | 0 | 18 | 6 | 1 | Java | 99 | 37 | 1| 
 | android-hacker | 无 ROOT 版本 Xposed - VirtualXposed 新增对 Android 10 系统的支持 | https://github.com/android-hacker/VirtualXposed/releases/tag/0.18.0 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Kotlin,JavaScript,Java | 0 | 0 | 1| 
 | microsoft | 微软研究员关于内存安全的一个演讲《Quest Memory Safety》 | https://github.com/microsoft/MSRC-Security-Research/tree/master/presentations/2019_09_Ekoparty | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,CMake,Python,JavaScript,C++,C#,Rich,Dockerfile,PowerShell | 0 | 0 | 1| 
+| pan-unit42 | Powershell自动反混淆工具 | https://github.com/pan-unit42/public_tools/tree/master/powershellprofiler | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,PHP,CSS | 0 | 0 | 1| 
 
 
 
