@@ -1,13 +1,14 @@
-Python	13
+Python	14
+C	5
 Java	5
 HTML	5
-C	4
 JavaScript	4
 PowerShell	3
 C++	2
 TypeScript	2
 C#	2
 PHP	2
+CSS	2
 Shell	1
 Lua	1
 Kotlin	1
@@ -18,4 +19,3 @@ Assembly	1
 Jupyter	1
 CMake	1
 Dockerfile	1
-CSS	1
