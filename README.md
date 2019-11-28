@@ -21,6 +21,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 秦萧 |  | 记一次应急响应实战 | https://mp.weixin.qq.com/s/iIAPsEbHnywvL1l7YXA8sQ | 1| 
+| FreeBuf | freebuf | 论企业如何快速建立SDL流程 | https://mp.weixin.qq.com/s/fIfMGD5HvjN_MVlVb3yriQ | 1| 
+| 企业安全工作实录 | xiaohuangsec | 安全运营三部曲之安全生态与安全国际 | https://mp.weixin.qq.com/s/Fwk_Q7TE5pyq77_-IEp1mg | 1| 
 | Python中文社区 | python-china | 微软开源可解释机器学习框架 interpret 实践 | https://mp.weixin.qq.com/s/adkQr051QFzID4tEtPwjyQ | 1| 
 | ADLab | v_adlab | 启明星辰ADLab：关于近日门罗币供应链攻击事件分析 | https://mp.weixin.qq.com/s/3B9e0FltRSYWyu96NQp5Tw | 1| 
 | 网信中国 | cacweixin | 国家互联网信息办公室关于《网络安全威胁信息发布管理办法（征求意见稿）》公开征求意见的通知 | https://mp.weixin.qq.com/s/uu3fnM8OzC8JRcIiJkIX8w | 1| 
@@ -75,6 +78,7 @@
 | mohuihui | antispy: Windows下手工杀毒辅助工具开源 | https://github.com/mohuihui/antispy | None | QQ & WeChat：454858525 | None | Alibaba | 9 | 0 | 5 | 46 | 2 | C,Java,Objective-C | 242 | 133 | 1| 
 | biggerwing | 绿盟科技漏洞扫描器(RSAS)漏洞知识库 | https://github.com/biggerwing/nsfocus-rsas-knowledge-base | None | YmlnZ2VyLndpbmdAZ21haWwuY29tCg== | None | None | 79 | 0 | 13 | 44 | 1 | Python,Lua,C,HTML | 141 | 42 | 1| 
 | momika233 | ClamAV 反病毒软件 0Day Exploit | https://github.com/momika233/ClamAV_0Day_exploit/ | https://twitter.com/momika233 | momika233 | Korea | None | 4 | 0 | 4 | 34 | 0 | Python | 97 | 24 | 1| 
+| atrosinenko | Linux内核快速模糊测试工具的集合 | https://github.com/atrosinenko/kbdysch | None |  | Saint-Petersburg, Russia | None | 33 | 0 | 78 | 22 | 1 | C,C++,Scala | 59 | 2 | 1| 
 | xrkk | 跟 IDA Pro 有关的资源收集，当前包括的工具个数 450 左右 | https://github.com/xrkk/awesome-ida | None |  | None | None | 7 | 0 | 1400 | 21 | 0 | Python,TypeScript | 403 | 69 | 1| 
 | Magpol | 利用 FRiDA 爆破 Samsung S7 Edge FDE 全盘加密 | https://github.com/Magpol/fridafde | https://twitter.com/may_pol17 | All things Android - Forensics | None | None | 4 | 0 | 1 | 8 | 1 | Python,Shell | 21 | 3 | 1| 
 | Microsvuln | AFL Fuzz 相关的资料整理 | https://github.com/Microsvuln/Awesome-AFL | None |  | None | None | 6 | 0 | 2 | 7 | 1 | C | 124 | 8 | 1| 
