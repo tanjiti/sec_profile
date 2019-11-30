@@ -331,8 +331,8 @@ def draw_readme(fpath=None):
                  format(year=year))
         fr.write(os.linesep)
         fr.write(os.linesep)
-        fr.write('![{year}-信息类型占比-secwiki](data/img/tag/{year}-信息类型占比-secwiki.png)'.
-                 format(year=year))
+        #fr.write('![{year}-信息类型占比-secwiki](data/img/tag/{year}-信息类型占比-secwiki.png)'.
+         #        format(year=year))
         fr.write(os.linesep)
         fr.write(os.linesep)
         fr.write('![{year}-信息类型占比-xuanwu](data/img/tag/{year}-信息类型占比-xuanwu.png)'.

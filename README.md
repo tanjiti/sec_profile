@@ -12,7 +12,7 @@
 
 ![201911-信息源占比-xuanwu](data/img/domain/201911-信息源占比-xuanwu.png)
 
-![201911-信息类型占比-secwiki](data/img/tag/201911-信息类型占比-secwiki.png)
+
 
 ![201911-信息类型占比-xuanwu](data/img/tag/201911-信息类型占比-xuanwu.png)
 
