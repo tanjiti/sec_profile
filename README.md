@@ -35,7 +35,7 @@
 | 安恒信息 | DBAPP2013 | 如何基于沙箱的威胁情报平台上搭建ATT&CK展示界面？ | https://mp.weixin.qq.com/s/YcQRAkRRo63OnRYWokl0nw | 1| 
 | 赵武的自留地 |  | 网络空间测绘的生与死（一） | https://mp.weixin.qq.com/s/TWGUSmSaXc56KW9CzfPOCQ | 2| 
 | PaperWeekly | paperweekly | ACL 2019开源论文 | 基于Attention的知识图谱关系预测 | https://mp.weixin.qq.com/s/JAWDIN3FnPgHb_hrXI7Obw | 1| 
-| 君哥的体历 | jungedetili | 漏洞之王：漫谈高阶漏洞攻防演进和现实威胁 | https://mp.weixin.qq.com/s/Y6IpGYG8J8BjluOaFwNRpQ | 1| 
+| 君哥的体历 | jungedetili | 漏洞之王：漫谈高阶漏洞攻防演进和现实威胁 | https://mp.weixin.qq.com/s/Y6IpGYG8J8BjluOaFwNRpQ | 2| 
 | 法学学术前沿 | frontiers-of-law | 前沿| 刘艳红：网络爬虫行为的刑事规制 | https://mp.weixin.qq.com/s/O9ue3cZjw5kfVFyFkoaeUg | 1| 
 | 等级保护测评 | zgdjbh | 公安部通报“净网2019”专项行动情况及典型案例 | https://mp.weixin.qq.com/s/GaIn1X9QRb5WMQQctjLvEA | 1| 
 | 安全乐观主义 |  | 倒计时三天-谈谈互联网的删除和被遗忘权 | https://mp.weixin.qq.com/s/SSdkOb-L-ykj1CR477S54Q | 10| 
