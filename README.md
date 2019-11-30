@@ -21,6 +21,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| TideSec安全团队 | TideSec | 攻防演练对抗赛之初识文件钓鱼 | https://mp.weixin.qq.com/s/lhg71lVHfp9PY1m8sYXA_A | 6| 
 | 秦萧 |  | 记一次应急响应实战 | https://mp.weixin.qq.com/s/iIAPsEbHnywvL1l7YXA8sQ | 1| 
 | FreeBuf | freebuf | 论企业如何快速建立SDL流程 | https://mp.weixin.qq.com/s/fIfMGD5HvjN_MVlVb3yriQ | 1| 
 | 企业安全工作实录 | xiaohuangsec | 安全运营三部曲之安全生态与安全国际 | https://mp.weixin.qq.com/s/Fwk_Q7TE5pyq77_-IEp1mg | 1| 
