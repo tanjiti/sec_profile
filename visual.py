@@ -305,6 +305,8 @@ def draw_readme(fpath=None):
     with codecs.open(fpath, mode='wb') as fr:
         fr.write("# [数据年报](README_YEAR.md)")
         fr.write(os.linesep)
+        fr.write("# [数据月报-11月](README_11.md)")
+        fr.write(os.linesep)
         fr.write("# [数据月报-10月](README_10.md)")
         fr.write(os.linesep)
         fr.write("# [数据月报-9月](README_9.md)")
