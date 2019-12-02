@@ -22,6 +22,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| heysec | bloodzer007 | 利用SSH隧道构建多级tunnel | https://mp.weixin.qq.com/s/jg_7bKqwfeYh1ErTtljKYw | 1| 
 
 
 # 组织github账号 推荐
