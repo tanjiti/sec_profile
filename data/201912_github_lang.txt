@@ -1,0 +1,9 @@
+Python	3
+HTML	3
+YARA	1
+C	1
+Java	1
+JavaScript	1
+C++	1
+Go	1
+TSQL	1
