@@ -1,8 +1,9 @@
-Python	3
+Python	4
 HTML	3
-YARA	1
+WebAssembly	1
 C	1
 Java	1
+YARA	1
 JavaScript	1
 C++	1
 Go	1
