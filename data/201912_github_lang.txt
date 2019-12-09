@@ -4,9 +4,9 @@ HTML	3
 C	2
 JavaScript	2
 C++	2
-WebAssembly	1
-Shell	1
 YARA	1
+Shell	1
+WebAssembly	1
 C#	1
 Go	1
 TSQL	1
