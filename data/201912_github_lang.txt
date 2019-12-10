@@ -1,13 +1,15 @@
 Python	5
+C	3
 Java	3
 HTML	3
-C	2
+Shell	2
 JavaScript	2
 C++	2
 YARA	1
-Shell	1
 WebAssembly	1
+Vim	1
 C#	1
+Batchfile	1
 Go	1
 TSQL	1
 PowerShell	1

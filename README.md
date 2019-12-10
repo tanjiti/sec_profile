@@ -22,6 +22,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 穿过丛林 |  | DARPA HIVE计划及其最新进展 | https://mp.weixin.qq.com/s/_lzrhylYo9Z941ChqIgJIQ | 1| 
 | 腾讯御见威胁情报中心 |  | “海莲花”(OceanLotus)组织2019年针对中国大陆的攻击活动汇总 | https://mp.weixin.qq.com/s/OA09fndsHfpLVxeo7DnjYg | 1| 
 | FreeBuf | freebuf | 2010年以来重大网络安全事件盘点 | https://mp.weixin.qq.com/s/kv64D0fqBwJ3J3pkDFqI3A | 1| 
 | 赵武的自留地 |  | 网络空间测绘的生与死（三） | https://mp.weixin.qq.com/s/jffEOTF3n028USQujIzmmw | 1| 
@@ -32,7 +33,7 @@
 | 时间之外沉浮事 | tasnrh | 靶场发展态势⑤美国防部企业级赛博靶场环境（DECRE） | https://mp.weixin.qq.com/s/mAeld9GbLN9Ps-M5wgelfw | 2| 
 | 维他命安全 | VitaminSecurity | 卡巴斯基2019年Q3垃圾邮件与钓鱼攻击报告 | https://mp.weixin.qq.com/s/JE5J6misSPhzCjyKB0MxCA | 1| 
 | 绿盟科技研究通讯 | nsfocus_research | 浅析容器安全与EDR的异同 | https://mp.weixin.qq.com/s/FfaeXbeVf3omO2Q8r6ztXw | 2| 
-| heysec | bloodzer007 | 利用SSH隧道构建多级tunnel | https://mp.weixin.qq.com/s/jg_7bKqwfeYh1ErTtljKYw | 1| 
+| heysec | bloodzer007 | 利用SSH隧道构建多级tunnel | https://mp.weixin.qq.com/s/jg_7bKqwfeYh1ErTtljKYw | 2| 
 
 
 # 组织github账号 推荐
@@ -53,6 +54,7 @@
 | immunityinc | Immunity 开源了一个用于进程调试和 Trace 的库 - libptrace | https://github.com/immunityinc/libptrace | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 0 | 0 | 1| 
 | openworldoperations | 一种高级的网络钓鱼技术，可让攻击者设置有效的域和SSL证书，请注意防范 | https://github.com/openworldoperations/FISHY | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,HTML | 15 | 4 | 1| 
 | pdbpp | pdb++ - Python debugger（pdb）的增强版 | https://github.com/pdbpp/pdbpp | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
+| vim | 8.1.2136 补丁：释放window内存与fuzzer的 autocmd命令一起使用 | https://github.com/vim/vim/commit/ec66c41d84e574baf8009dbc0bd088d2bc5b2421 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,C,Batchfile,Vim | 0 | 0 | 1| 
 
 
 
