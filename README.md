@@ -22,6 +22,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 盘古实验室 | PanguLab | 从研究者视角看漏洞研究之2010年代 | https://mp.weixin.qq.com/s/UBZv0pd7Nr-o-NMxjV53RQ | 1| 
 | 穿过丛林 |  | DARPA HIVE计划及其最新进展 | https://mp.weixin.qq.com/s/_lzrhylYo9Z941ChqIgJIQ | 1| 
 | 腾讯御见威胁情报中心 |  | “海莲花”(OceanLotus)组织2019年针对中国大陆的攻击活动汇总 | https://mp.weixin.qq.com/s/OA09fndsHfpLVxeo7DnjYg | 1| 
 | FreeBuf | freebuf | 2010年以来重大网络安全事件盘点 | https://mp.weixin.qq.com/s/kv64D0fqBwJ3J3pkDFqI3A | 1| 
@@ -47,6 +48,8 @@
 | HiddenStrawberry | 中国爬虫违法违规案例汇总 | https://github.com/HiddenStrawberry/Crawler_Illegal_Cases_In_China | None | 资深前爬虫行业从业者 合作微信 hiddenstrawberry（备注Github） | Beijing/Shenyang/Tianjin | YiduCloud | 22 | 0 | 13 | 116 | 5 | Python,HTML | 914 | 151 | 1| 
 | heibaiying | BigData-Notes: 大数据入门指南 | https://github.com/heibaiying/BigData-Notes | https://blog.csdn.net/m0_37809146 | 博客：https://blog.csdn.net/m0_37809146 | shanghai | None | 2 | 0 | 20 | 80 | 0 | Java | 2900 | 755 | 1| 
 | RedDrip7 | RedDrip7团队收集恶意软件家族样本，帮助安全社区对抗恶意软件和针对性攻击。 | https://github.com/RedDrip7/APT_Digital_Weapon | https://ti.qianxin.com/blog/ | Technical Twitter of QiAnXin Technology, leading Chinese security vendor. It is operated by RedDrip Team which focuses on malware, APT and threat intelligence. | China | Qianxin | 3 | 0 | 0 | 74 | 0 |  | 122 | 23 | 1| 
+| Cherishao | APT-Sample Files | https://github.com/Cherishao/APT-Sample | https://cherishao.github.io/ | Malware researcher && APT Follow | Analyze threats,Blue/Red Team methodology, Networks, Malware Analysis,Reverse Engineering🕵️‍♂️ BTC:17iDHpUqe9XGpGJ2cMBUVciq | ChengDu | None | 68 | 1 | 346 | 29 | 31 | Python,HTML | 47 | 24 | 1| 
+| daikerSec | Windows 内网协议学习 | https://github.com/daikerSec/windows_protocol/blob/master/SUMMARY.md | None |  | None | None | 4 | 0 | 16 | 9 | 4 | Go,HTML,CSS | 9 | 2 | 1| 
 | bd249ce4 | QBAnalyzer: automates extracting artifacts and binaries | https://github.com/bd249ce4/QBAnalyzer | None |  | None | None | 2 | 0 | 0 | 1 | 0 | YARA,HTML | 3 | 1 | 1| 
 | FSecureLABS | FSecure Labs 开源了一款用于 AWS 云上资源关联关系可视化的工具 | https://github.com/FSecureLABS/awspx | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Python,JavaScript,C++,C#,PowerShell | 2000 | 549 | 1| 
 | NoneAge | 交易所安全测试系列指南文档 | https://github.com/NoneAge/BlockchainSecurityTutorial | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,WebAssembly | 0 | 0 | 1| 
