@@ -22,6 +22,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 行业研究报告 | report88 | 2018-2019年网络安全行业深度报告 | https://mp.weixin.qq.com/s/z-LN2AlMezEmJVekbDndcw | 1| 
 | 编程技术宇宙 | ProgramUniverse | 我是一个流氓软件线程 | https://mp.weixin.qq.com/s/-ggUa3aWkjjHjr9VwQL9TQ | 1| 
 | 贝塔安全实验室 | BetaSecLab | 绕过CDN查找真实IP方法总结 | https://mp.weixin.qq.com/s/_qHGB3l58KU01tBOki5uag | 1| 
 | 盘古实验室 | PanguLab | 从研究者视角看漏洞研究之2010年代 | https://mp.weixin.qq.com/s/UBZv0pd7Nr-o-NMxjV53RQ | 1| 
@@ -47,6 +48,7 @@
 # 私人github账号 推荐
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
+| PaulSec | Shodan.io Android版官方应用程序 | https://github.com/PaulSec/Shodan.io-mobile-app/issues | https://paulsec.github.io/ | I cant promise anything but Ill do my best. | France | None | 93 | 0 | 503 | 811 | 26 | Python | 2800 | 361 | 1| 
 | maddiestone | Maddie Stone 在 Jailbreak Security Summit 会议关于 Whats App 0Day 漏洞分析的 PPT | https://github.com/maddiestone/ConPresentations/blob/master/Jailbreak2019.WhatsUpWithWhatsApp.pdf | http://twitter.com/maddiestone |  | None | None | 4 | 0 | 2 | 242 | 1 | Python | 524 | 105 | 1| 
 | HiddenStrawberry | 中国爬虫违法违规案例汇总 | https://github.com/HiddenStrawberry/Crawler_Illegal_Cases_In_China | None | 资深前爬虫行业从业者 合作微信 hiddenstrawberry（备注Github） | Beijing/Shenyang/Tianjin | YiduCloud | 22 | 0 | 13 | 116 | 5 | Python,HTML | 914 | 151 | 1| 
 | heibaiying | BigData-Notes: 大数据入门指南 | https://github.com/heibaiying/BigData-Notes | https://blog.csdn.net/m0_37809146 | 博客：https://blog.csdn.net/m0_37809146 | shanghai | None | 2 | 0 | 20 | 80 | 0 | Java | 2900 | 755 | 1| 
