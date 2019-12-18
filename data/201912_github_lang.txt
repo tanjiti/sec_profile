@@ -1,9 +1,9 @@
-Python	6
+Python	7
 HTML	5
 C	4
+Shell	3
 Java	3
 C++	3
-Shell	2
 JavaScript	2
 Go	2
 YARA	1
@@ -13,7 +13,8 @@ Makefile	1
 Vim	1
 C#	1
 Batchfile	1
-HCL	1
+CSS	1
+Rich	1
 TSQL	1
 PowerShell	1
-CSS	1
+HCL	1
