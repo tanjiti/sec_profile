@@ -22,7 +22,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 继之宫 |  | 关于安全运营中心的几个问题 | https://mp.weixin.qq.com/s/w_kfBpkXU7WdfkwSl-KSnA | 1| 
 | Hacking就是好玩 |  | 对乌云漏洞库payload的整理以及Burp辅助插件 | https://mp.weixin.qq.com/s/9RHVsw-HtAfo1UuPAqXZEw | 1| 
+| 嘶吼专业版 | Pro4hou | 直击北向峰会现场|“避危乘势，经略变局” | https://mp.weixin.qq.com/s/lRAyLyBJtquMrMTmTHnYUQ | 1| 
 | 七夜安全博客 | qiye_safe | 反弹shell-逃逸基于execve的命令监控(上) | https://mp.weixin.qq.com/s?__biz=MzIwODIxMjc4MQ==&mid=2651004359&idx=1&sn=4b2c6e06df652af95876e9b858e9711b&chksm=8cf13b85bb86b293f5b73d0a680dcbbd2e584cac216d94d3f84d0c0a53c3b74318d83518a6ee&token=1889883351&lang=zh_CN#rd | 1| 
 | 学术plus | caeit-e | 人工智能在国防领域的七大应用 | https://mp.weixin.qq.com/s/v4NDZFo81kJKDlrROI5FqA | 1| 
 | 湛卢工作室 | xuehao_studio | 道德骇客CEH之入门介绍 | https://mp.weixin.qq.com/s/s6oL7p1hY_VotJMjtB7fVg | 1| 
@@ -41,7 +43,7 @@
 | Docker | dockerone | Kubernetes 下零信任安全架构分析 | https://mp.weixin.qq.com/s/WybnFRHiGy1joLFyQyba0g | 1| 
 | FreeBuf | freebuf | 2010年以来重大网络安全事件盘点 | https://mp.weixin.qq.com/s/kv64D0fqBwJ3J3pkDFqI3A | 1| 
 | TideSec安全团队 | TideSec | 一文解密所有WebLogic密文 | https://mp.weixin.qq.com/s/HY0X3koYVEIotYIQZi680w | 6| 
-| heysec | bloodzer007 | 利用SSH隧道构建多级tunnel | https://mp.weixin.qq.com/s/jg_7bKqwfeYh1ErTtljKYw | 3| 
+| heysec | bloodzer007 | 利用SSH隧道构建多级tunnel | https://mp.weixin.qq.com/s/jg_7bKqwfeYh1ErTtljKYw | 4| 
 | 云众可信 | yunzhongkexin | 原创干货 | 【工具分享】AssetScan内网脆弱面分析工具 | https://mp.weixin.qq.com/s/dCP3PsjZYDY0f2wJX4dC4w | 1| 
 | 时间之外沉浮事 | tasnrh | 靶场发展态势⑤美国防部企业级赛博靶场环境（DECRE） | https://mp.weixin.qq.com/s/mAeld9GbLN9Ps-M5wgelfw | 3| 
 | 牵着蜗牛遛弯儿 | lau_cyun | 浅谈工控CTF中网络数据分析的思路 | https://mp.weixin.qq.com/s/bR1t53-YHSKWmFawT5t0Kg | 1| 
