@@ -22,6 +22,11 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| DJ的札记 | DJ_notes | 下一座圣杯 - 2019 | https://mp.weixin.qq.com/s/6Kli-u6LEInoliTVQgdrFQ | 1| 
+| OWASP | OWASP_CHINA | 2019年度OWASP中国项目总结 | https://mp.weixin.qq.com/s/hcdA7R36RsSV40TnIu2fJg | 1| 
+| 天融信阿尔法实验室 |  | ATT&CK之防御逃逸（二） | https://mp.weixin.qq.com/s/9IeSIFofiT58X8iu1BqW0Q | 2| 
+| 轩辕实验室 |  | 基于卷积神经网络的入侵检测进行检测Dos攻击 | https://mp.weixin.qq.com/s/yRQwHVPuYHM67yAo15hPOw | 1| 
+| 阿里安全响应中心 | alisrc | 【走心分享】白帽成长建议 | https://mp.weixin.qq.com/s/ZXRI6KUtu6IwCYrjuy_3Tg | 1| 
 | 继之宫 |  | 关于安全运营中心的几个问题 | https://mp.weixin.qq.com/s/w_kfBpkXU7WdfkwSl-KSnA | 1| 
 | Hacking就是好玩 |  | 对乌云漏洞库payload的整理以及Burp辅助插件 | https://mp.weixin.qq.com/s/9RHVsw-HtAfo1UuPAqXZEw | 1| 
 | 嘶吼专业版 | Pro4hou | 直击北向峰会现场|“避危乘势，经略变局” | https://mp.weixin.qq.com/s/lRAyLyBJtquMrMTmTHnYUQ | 1| 
@@ -29,7 +34,7 @@
 | 学术plus | caeit-e | 人工智能在国防领域的七大应用 | https://mp.weixin.qq.com/s/v4NDZFo81kJKDlrROI5FqA | 1| 
 | 湛卢工作室 | xuehao_studio | 道德骇客CEH之入门介绍 | https://mp.weixin.qq.com/s/s6oL7p1hY_VotJMjtB7fVg | 1| 
 | 青藤云安全资讯 | qingtengyun | ATT&CK框架：攻击者最常用的TOP7攻击技术及其检测策略 | https://mp.weixin.qq.com/s/02AcOPzTaA7dChHqye2wEg | 1| 
-| qz安全情报分析 | lookvul | 浅谈无文件攻击 | https://mp.weixin.qq.com/s/9mWqwPF6KAwbMlZSE4rRBw | 1| 
+| qz安全情报分析 | lookvul | 浅谈无文件攻击 | https://mp.weixin.qq.com/s/9mWqwPF6KAwbMlZSE4rRBw | 2| 
 | 信息安全与通信保密杂志社 | cismag2013 | 开源软件的网络安全问题 | https://mp.weixin.qq.com/s/TCb4kLH6N3JlCnyo6x2L1Q | 1| 
 | 国际安全智库 | guoji-anquanzhiku | “震网”十年谜底终浮水面, 伊朗核计划流产源于内鬼“间谍行动” | https://mp.weixin.qq.com/s/ORW8qWCpgQFJh8-bsaIg3w | 1| 
 | 奇安信威胁情报中心 |  | 为什么ATT&CK对APT关联归属分析用处不大 | https://mp.weixin.qq.com/s/Cb7tROj0BXSOxnqyjftlRw | 1| 
@@ -41,13 +46,13 @@
 | 穿过丛林 |  | DARPA HIVE计划及其最新进展 | https://mp.weixin.qq.com/s/_lzrhylYo9Z941ChqIgJIQ | 1| 
 | 盘古实验室 | PanguLab | 从研究者视角看漏洞研究之2010年代 | https://mp.weixin.qq.com/s/UBZv0pd7Nr-o-NMxjV53RQ | 1| 
 | Docker | dockerone | Kubernetes 下零信任安全架构分析 | https://mp.weixin.qq.com/s/WybnFRHiGy1joLFyQyba0g | 1| 
-| FreeBuf | freebuf | 2010年以来重大网络安全事件盘点 | https://mp.weixin.qq.com/s/kv64D0fqBwJ3J3pkDFqI3A | 1| 
+| FreeBuf | freebuf | 2010年以来重大网络安全事件盘点 | https://mp.weixin.qq.com/s/kv64D0fqBwJ3J3pkDFqI3A | 2| 
 | TideSec安全团队 | TideSec | 一文解密所有WebLogic密文 | https://mp.weixin.qq.com/s/HY0X3koYVEIotYIQZi680w | 6| 
 | heysec | bloodzer007 | 利用SSH隧道构建多级tunnel | https://mp.weixin.qq.com/s/jg_7bKqwfeYh1ErTtljKYw | 4| 
 | 云众可信 | yunzhongkexin | 原创干货 | 【工具分享】AssetScan内网脆弱面分析工具 | https://mp.weixin.qq.com/s/dCP3PsjZYDY0f2wJX4dC4w | 1| 
 | 时间之外沉浮事 | tasnrh | 靶场发展态势⑤美国防部企业级赛博靶场环境（DECRE） | https://mp.weixin.qq.com/s/mAeld9GbLN9Ps-M5wgelfw | 3| 
 | 牵着蜗牛遛弯儿 | lau_cyun | 浅谈工控CTF中网络数据分析的思路 | https://mp.weixin.qq.com/s/bR1t53-YHSKWmFawT5t0Kg | 1| 
-| 维他命安全 | VitaminSecurity | 卡巴斯基2019年Q3垃圾邮件与钓鱼攻击报告 | https://mp.weixin.qq.com/s/JE5J6misSPhzCjyKB0MxCA | 1| 
+| 维他命安全 | VitaminSecurity | 卡巴斯基2019年Q3垃圾邮件与钓鱼攻击报告 | https://mp.weixin.qq.com/s/JE5J6misSPhzCjyKB0MxCA | 2| 
 | 绿盟科技研究通讯 | nsfocus_research | 五年之后的回顾--磊科路由器后门利用情况分析 | https://mp.weixin.qq.com/s/6djU9_yl8px9oimxCRQd5A | 4| 
 | 腾讯御见威胁情报中心 |  | “海莲花”(OceanLotus)组织2019年针对中国大陆的攻击活动汇总 | https://mp.weixin.qq.com/s/OA09fndsHfpLVxeo7DnjYg | 1| 
 | 赵武的自留地 |  | 网络空间测绘的生与死（三） | https://mp.weixin.qq.com/s/jffEOTF3n028USQujIzmmw | 1| 
@@ -81,6 +86,7 @@
 | immunityinc | Immunity 开源了一个用于进程调试和 Trace 的库 - libptrace | https://github.com/immunityinc/libptrace | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 0 | 0 | 1| 
 | openworldoperations | 一种高级的网络钓鱼技术，可让攻击者设置有效的域和SSL证书，请注意防范 | https://github.com/openworldoperations/FISHY | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,HTML | 15 | 4 | 1| 
 | pdbpp | pdb++ - Python debugger（pdb）的增强版 | https://github.com/pdbpp/pdbpp | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
+| seemoo-lab | Nexmon - 一款支持 Broadcom/Cypress WiFi 芯片的固件 Patch 框架，基于框架可以编写自己的补丁，启用监听模式 | https://github.com/seemoo-lab/nexmon | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Jupyter,Python,JavaScript,C++,TeX,Objective-C,HTML,MATLAB,Java | 3300 | 274 | 1| 
 | sslab-gatech | QSYM - 为混合 Fuzz 定制的符号执行引擎 | https://github.com/sslab-gatech/qsym | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Filebench,Python,Makefile,C++,HTML,HCL | 0 | 0 | 1| 
 | ucsb-seclab | KARONTE: Detecting Insecure Multi-binary Interactions in E... | https://github.com/ucsb-seclab/karonte?from=timeline | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Java,Python,JavaScript,C++,Dockerfile | 0 | 0 | 1| 
 | uds-se | 关于 Fuzz 的书《Generating Software Tests》的原始文件 | https://github.com/uds-se/fuzzingbook | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,LLVM,Java,Python,Kotlin,JavaScript,Shell,Objective-C,HTML,Jupyter,R,Dockerfile | 0 | 0 | 1| 
