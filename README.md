@@ -22,6 +22,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 安全祖师爷 |  | PowerShell渗透–Empire | https://mp.weixin.qq.com/s/giBR-rnpm51cDE4aude2tg | 1| 
+| 数世咨询 |  | 数世咨询：2019年网络安全大事记 | https://mp.weixin.qq.com/s/APOEaYrubmWupFRPbbjfkw | 1| 
+| 飞虎行业观察 | flyingtiger018 | RSA和McAfee的2020年安全威胁预测 | https://mp.weixin.qq.com/s/gUOO1kDB_wuZ32nKAZjM0g | 1| 
 | 天地和兴 | bjtdhxkj | 针对ICS的网络攻击20强——谈天说地Part2 | https://mp.weixin.qq.com/s/TS1m4XoTI3f36ZY8vtLkwg | 2| 
 | 雷神众测 | thorsrc | 论⾼级攻防团队建设⽅法论之思想的重要性（上） | https://mp.weixin.qq.com/s/nFvGQqeFvSYaEFksbi8FLw | 1| 
 | DJ的札记 | DJ_notes | 下一座圣杯 - 2019 | https://mp.weixin.qq.com/s/6Kli-u6LEInoliTVQgdrFQ | 1| 
@@ -50,12 +53,12 @@
 | Docker | dockerone | Kubernetes 下零信任安全架构分析 | https://mp.weixin.qq.com/s/WybnFRHiGy1joLFyQyba0g | 1| 
 | FreeBuf | freebuf | 2010年以来重大网络安全事件盘点 | https://mp.weixin.qq.com/s/kv64D0fqBwJ3J3pkDFqI3A | 2| 
 | TideSec安全团队 | TideSec | 一文解密所有WebLogic密文 | https://mp.weixin.qq.com/s/HY0X3koYVEIotYIQZi680w | 6| 
-| heysec | bloodzer007 | 利用SSH隧道构建多级tunnel | https://mp.weixin.qq.com/s/jg_7bKqwfeYh1ErTtljKYw | 4| 
+| heysec | bloodzer007 | 利用SSH隧道构建多级tunnel | https://mp.weixin.qq.com/s/jg_7bKqwfeYh1ErTtljKYw | 5| 
 | 云众可信 | yunzhongkexin | 原创干货 | 【工具分享】AssetScan内网脆弱面分析工具 | https://mp.weixin.qq.com/s/dCP3PsjZYDY0f2wJX4dC4w | 1| 
 | 时间之外沉浮事 | tasnrh | 靶场发展态势⑤美国防部企业级赛博靶场环境（DECRE） | https://mp.weixin.qq.com/s/mAeld9GbLN9Ps-M5wgelfw | 4| 
 | 牵着蜗牛遛弯儿 | lau_cyun | 浅谈工控CTF中网络数据分析的思路 | https://mp.weixin.qq.com/s/bR1t53-YHSKWmFawT5t0Kg | 1| 
 | 维他命安全 | VitaminSecurity | 卡巴斯基2019年Q3垃圾邮件与钓鱼攻击报告 | https://mp.weixin.qq.com/s/JE5J6misSPhzCjyKB0MxCA | 2| 
-| 绿盟科技研究通讯 | nsfocus_research | 五年之后的回顾--磊科路由器后门利用情况分析 | https://mp.weixin.qq.com/s/6djU9_yl8px9oimxCRQd5A | 4| 
+| 绿盟科技研究通讯 | nsfocus_research | 五年之后的回顾--磊科路由器后门利用情况分析 | https://mp.weixin.qq.com/s/6djU9_yl8px9oimxCRQd5A | 5| 
 | 腾讯御见威胁情报中心 |  | “海莲花”(OceanLotus)组织2019年针对中国大陆的攻击活动汇总 | https://mp.weixin.qq.com/s/OA09fndsHfpLVxeo7DnjYg | 1| 
 | 赵武的自留地 |  | 网络空间测绘的生与死（三） | https://mp.weixin.qq.com/s/jffEOTF3n028USQujIzmmw | 1| 
 
@@ -68,19 +71,24 @@
 # 私人github账号 推荐
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
+| nikic | PHP-Fuzzer - 基于代码覆盖反馈信息 Fuzz PHP libraries | https://github.com/nikic/PHP-Fuzzer | https://nikic.github.io/ |  | Berlin, Germany | JetBrains | 71 | 0 | 72 | 4000 | 24 | C,PHP | 26100 | 5900 | 1| 
 | k8gege | Ladon: 大型内网渗透扫描器&Cobalt Strike | https://github.com/k8gege/Ladon | https://k8gege.org |  | USA | FBI | 24 | 0 | 17 | 1400 | 1 | C#,Python,PowerShell | 2300 | 1100 | 1| 
 | PaulSec | Shodan.io Android版官方应用程序 | https://github.com/PaulSec/Shodan.io-mobile-app/issues | https://paulsec.github.io/ | I cant promise anything but Ill do my best. | France | None | 93 | 0 | 503 | 811 | 26 | Python | 2800 | 361 | 1| 
+| TideSec | Web指纹识别技术研究与优化实现 | https://github.com/TideSec/TideFinger/blob/master/Web%E6%8C%87%E7%BA%B9%E8%AF%86%E5%88%AB%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6%E4%B8%8E%E4%BC%98%E5%8C%96%E5%AE%9E%E7%8E%B0.md | http://www.TideSec.com | 一心不动，大巧不工。 | China | Tide | 21 | 0 | 207 | 726 | 23 | C,Shell,Java,Python,PHP,Ruby | 947 | 341 | 1| 
 | maddiestone | Maddie Stone 在 Jailbreak Security Summit 会议关于 Whats App 0Day 漏洞分析的 PPT | https://github.com/maddiestone/ConPresentations/blob/master/Jailbreak2019.WhatsUpWithWhatsApp.pdf | http://twitter.com/maddiestone |  | None | None | 4 | 0 | 2 | 242 | 1 | Python | 524 | 105 | 1| 
 | HiddenStrawberry | 中国爬虫违法违规案例汇总 | https://github.com/HiddenStrawberry/Crawler_Illegal_Cases_In_China | None | 资深前爬虫行业从业者 合作微信 hiddenstrawberry（备注Github） | Beijing/Shenyang/Tianjin | YiduCloud | 22 | 0 | 13 | 116 | 5 | Python,HTML | 914 | 151 | 1| 
+| wrlu | SecIoT-Web: IoT漏洞检测平台 | https://github.com/wrlu/SecIoT-Web | https://wrlu.cn | Mobile & IoT Security Researcher; Java & Python Developer. | Beijing, China | Huawei | 26 | 0 | 41 | 100 | 33 | Python,TSQL,JavaScript,Java | 20 | 9 | 1| 
 | MatthewPierson | 利用 OTA Blobs 实现 iOS 降级的工具 | https://github.com/MatthewPierson/Vieux | https://twitter.com/mosk_i | I downgrade iPhones =) | None | None | 10 | 0 | 0 | 95 | 1 | Python,Shell,Rich | 95 | 27 | 1| 
 | heibaiying | BigData-Notes: 大数据入门指南 | https://github.com/heibaiying/BigData-Notes | https://blog.csdn.net/m0_37809146 | 博客：https://blog.csdn.net/m0_37809146 | shanghai | None | 2 | 0 | 20 | 80 | 0 | Java | 2900 | 755 | 1| 
 | RedDrip7 | RedDrip7团队收集恶意软件家族样本，帮助安全社区对抗恶意软件和针对性攻击。 | https://github.com/RedDrip7/APT_Digital_Weapon | https://ti.qianxin.com/blog/ | Technical Twitter of QiAnXin Technology, leading Chinese security vendor. It is operated by RedDrip Team which focuses on malware, APT and threat intelligence. | China | Qianxin | 3 | 0 | 0 | 74 | 0 |  | 122 | 23 | 1| 
+| avishayil | 模拟 Capital One 数据泄露漏洞环境的云配置文件 | https://github.com/avishayil/caponeme | https://github.com/cyberark | Cloud & DevOps Engineer @ CyberArk | Israel | @cyberark | 23 | 0 | 52 | 32 | 0 | Java,Python,JavaScript,Objective-C,Dockerfile,CSS | 435 | 102 | 1| 
 | Cherishao | APT-Sample Files | https://github.com/Cherishao/APT-Sample | https://cherishao.github.io/ | Malware researcher && APT Follow | Analyze threats,Blue/Red Team methodology, Networks, Malware Analysis,Reverse Engineering🕵️‍♂️ BTC:17iDHpUqe9XGpGJ2cMBUVciq | ChengDu | None | 68 | 1 | 346 | 29 | 31 | Python,HTML | 47 | 24 | 1| 
 | echowei | DeepTraffic: Deep Learning models for network traffic clas... | https://github.com/echowei/DeepTraffic | None |  | Beijing | None | 1 | 0 | 1 | 29 | 0 | Python | 153 | 117 | 1| 
 | shadow-horse | CVE-2019-17571/Apache Log4j 1.2.X 存在反序列化远程代码执行漏洞 | https://github.com/shadow-horse/CVE-2019-17571 | None | Penetration, Vulnerability Research, SDL, STRIDE | None | None | 23 | 0 | 61 | 25 | 7 | Python,JavaScript,Java,HTML,CSS | 5 | 1 | 1| 
 | daikerSec | Windows 内网协议学习 | https://github.com/daikerSec/windows_protocol/blob/master/SUMMARY.md | None |  | None | None | 4 | 0 | 16 | 9 | 4 | Go,HTML,CSS | 9 | 2 | 1| 
 | OYE93 | Chinese-NLP-Corpus: Collections of Chinese NLP corpus | https://github.com/OYE93/Chinese-NLP-Corpus | https://oyeblog.com/ |  | None | None | 16 | 0 | 2 | 8 | 0 | Python,HTML,Dockerfile,CSS | 110 | 18 | 1| 
 | bd249ce4 | QBAnalyzer: automates extracting artifacts and binaries | https://github.com/bd249ce4/QBAnalyzer | None |  | None | None | 2 | 0 | 0 | 1 | 0 | YARA,HTML | 3 | 1 | 1| 
+| 0Kee-Team | 0Kee Team 开源的用于收集 URL 入口的爬虫，基于 Headless Chrome 编写 | https://github.com/0Kee-Team/crawlergo | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Vue,Java | 0 | 0 | 1| 
 | FSecureLABS | FSecure Labs 开源了一款用于 AWS 云上资源关联关系可视化的工具 | https://github.com/FSecureLABS/awspx | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Python,JavaScript,C++,C#,PowerShell | 2000 | 549 | 1| 
 | NoneAge | 交易所安全测试系列指南文档 | https://github.com/NoneAge/BlockchainSecurityTutorial | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,WebAssembly | 0 | 0 | 1| 
 | apachecn | 面向机器学习的特征工程 | https://github.com/apachecn/fe4ml-zh | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Jupyter,Scala,Python,JavaScript,HTML,PHP,CSS | 22200 | 7800 | 1| 
