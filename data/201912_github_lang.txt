@@ -1,8 +1,8 @@
-Python	22
+Python	23
 Java	13
 HTML	13
 C	13
-JavaScript	11
+JavaScript	12
 Shell	8
 C++	7
 CSS	7
