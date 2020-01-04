@@ -24,10 +24,10 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 白帽子的成长之路 | whitehat_day | CTF比赛中Linux环境中绕过受限的shell或bash环境的多种方式 | https://mp.weixin.qq.com/s/O7n93QpLwuCCQySpZe-CkA | 2| 
 | Bypass | Bypass-- | JWT攻击手册：如何入侵你的Token | https://mp.weixin.qq.com/s/BH-gmMpHUkMvBcSBgJWnwA | 4| 
 | Gcow安全团队 | Gcow666 | 游荡于中巴两国的魅影——响尾蛇(SideWinder) APT组织针对巴基斯坦最近的活动以及2019年该组织的活动总结 | https://mp.weixin.qq.com/s/CZrdslzEs4iwlaTzJH7Ubg | 1| 
 | 安全喷子 |  | 云安全的未来 | https://mp.weixin.qq.com/s/MfjRfJ04fnRY8gI5s6BA8g | 1| 
-| 白帽子的成长之路 | whitehat_day | 渗透测试Window平台中 Certutil的使用 | https://mp.weixin.qq.com/s/4jZBIRqbQ7UR7BXz2zdZtA | 1| 
 | 穿过丛林 |  | 优秀博士系统能力培养（PPT） | https://mp.weixin.qq.com/s/9zKM6hQZOYRjr5IeawgsKA | 1| 
 | 腾讯科恩实验室 | KeenSecurityLab | 在Tesla Model S上实现Wi-Fi协议栈漏洞的利用 | https://mp.weixin.qq.com/s/rULdN3wVKyR3GlGBhunpoQ | 1| 
 | 君哥的体历 | jungedetili | 2020安全工作展望 | https://mp.weixin.qq.com/s/mihqZ0BJAgee1bEm1ZJAQw | 1| 
