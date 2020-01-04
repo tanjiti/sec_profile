@@ -219,6 +219,15 @@ def draw_table(so, source="weixin", top=100, year="2019"):
               "count(*) as c from github  where github_type=0 and ts like '{year}%' group by github_id order by p_followers desc limit {top}"
         header = ["github_id", "title", "url", "p_url", "p_profile", "p_loc", "p_company", "p_repositories",
                   "p_projects", "p_stars", "p_followers", "p_following", "repo_lang", "repo_star", "repo_forks "]
+
+    elif source == "medium_xuanwu":
+        sql = "select title,url from xuanwu_today_detail where url like '%medium.com%' and ts like '{year}%' "
+        header = ["title", "url"]
+    elif source == "medium_secwiki":
+        sql = "select title,url from secwiki_today_detail where url like '%medium.com%' and ts like '{year}%' "
+        header = ["title", "url"]
+
+
     else:
         return
 
@@ -277,14 +286,12 @@ def draw_readme(fpath=None):
     so = SQLiteOper("data/scrap.db")
     year = get_special_date(delta=0, format="%Y%m")
 
-
-
     # update
 
     main_pie(year)
 
     # update weixin,github
-    sources = ["weixin", "github_org", "github_private"]
+    sources = ["weixin", "github_org", "github_private", "medium_xuanwu", "medium_secwiki"]
 
     d = {
         "weixin": "微信公众号",
@@ -338,8 +345,8 @@ def draw_readme(fpath=None):
                  format(year=year))
         fr.write(os.linesep)
         fr.write(os.linesep)
-        #fr.write('![{year}-信息类型占比-secwiki](data/img/tag/{year}-信息类型占比-secwiki.png)'.
-         #        format(year=year))
+        # fr.write('![{year}-信息类型占比-secwiki](data/img/tag/{year}-信息类型占比-secwiki.png)'.
+        #        format(year=year))
         fr.write(os.linesep)
         fr.write(os.linesep)
         fr.write('![{year}-信息类型占比-xuanwu](data/img/tag/{year}-信息类型占比-xuanwu.png)'.

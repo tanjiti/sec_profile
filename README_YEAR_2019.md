@@ -1,4 +1,4 @@
-# [数据年报](README_YEAR_2019.md)
+# [2019数据年报](README_YEAR_2019.md)
 # [数据年报](README_YEAR.md)
 # [数据月报-12月](README_12.md)
 # [数据月报-11月](README_11.md)
@@ -312,6 +312,141 @@
 | hlldz | APC-PPID - 通过 APC 注入创建进程并伪造父进程的项目 | https://github.com/hlldz/APC-PPID | https://artofpwn.com | Pwner, Red Teamer | İstanbul, Türkiye | None | 5 | 0 | 179 | 214 | 22 | Python,PowerShell,C++ | 691 | 159 | 1| 
 | zer0yu | 网络空间安全的RSS订阅 | https://github.com/zer0yu/CyberSecurityRSS | http://zeroyu.xyz/ | Every light needs a shadow. You just have to learn how to control it,use it when you need it. | None | None | 29 | 0 | 2100 | 214 | 1100 | Python,C,CSS | 0 | 0 | 2| 
 | pyn3rd | Apache Tomcat 远程代码执行漏洞（CVE-2019-0232），可以通过 Windows enableCmdLineArguments 触发 | https://github.com/pyn3rd/CVE-2019-0232/ | https://twitter.com/pyn3rd |  | Hangzhou | Alibaba Group | 7 | 0 | 0 | 210 | 0 | Python,Batchfile,Java | 118 | 46 | 1| 
+
+
+# medium_xuanwu 推荐
+| title | url| 
+| --- | ---| 
+| 从 Xceedium Xsuite 远程代码执行漏洞到域管权限的实际案例 | http://medium.com/@DanielC7/remote-code-execution-gaining-domain-admin-privileges-due-to-a-typo-dbf8773df767| 
+| MikroTik RouterOS SMB 服务无需认证的 RCE 漏洞挖掘与利用(CVE-2018–7445) | http://medium.com/@maxi./finding-and-exploiting-cve-2018-7445-f3103f163cc1| 
+| 通过 Excel 文件执行命令以反弹 Meterpreter shell 的不同方法 | http://medium.com/@Bank_Security/ms-excel-weaponization-techniques-79ac51610bf5| 
+| 微软针对云网络安全打造的 SIEM 解决方案 - Azure Sentinel 介绍 | http://medium.com/@maarten.goet/microsoft-azure-sentinel-not-your-daddys-splunk-3775bda28f39| 
+| 红队评估物理环境安全性常用的五种方式 | http://medium.com/@adam.toscher/top-5-ways-the-red-team-breached-and-assessed-the-physical-environment-fa567695b354| 
+| Vimeo 从 SSRF 到 SSH Key 泄漏 | http://medium.com/@rootxharsh_90844/vimeo-ssrf-with-code-execution-potential-68c774ba7c1e| 
+| 编写受密码保护的反弹 Shell (Linux/x64) | http://medium.com/@0x0FFB347/writing-a-password-protected-reverse-shell-linux-x64-5f4d3a28d91a| 
+| 我是如何在 redacted.com 挖到 Blind XSS 的 | http://medium.com/@newp_th/how-i-find-blind-xss-vulnerability-in-redacted-com-33af18b56869| 
+| 如何为 WinDbg 和 LLDB 编写 ClrMD 扩展 | http://medium.com/@kevingosse/writing-clrmd-extensions-for-windbg-and-lldb-916427956f66| 
+| 从 RCE 到 LDAP 信息泄漏 | http://medium.com/@thbcn/from-rce-to-ldap-access-9ce4f9d2fd78| 
+| 分析 Metasploit Linux/x64 reverse shell payload | http://medium.com/@0x0FFB347/analysis-of-some-metasploit-network-payloads-linux-x64-ab8a8d11bbae| 
+| PostgreSQL 从 9.3 到 11.2 版本的认证用户任意命令执行漏洞披露（CVE-2019–9193） | http://medium.com/greenwolf-security/authenticated-arbitrary-command-execution-on-postgresql-9-3-latest-cd18945914d5| 
+| 跨站点内容和状态类型泄漏 | http://medium.com/@terjanq/cross-site-content-and-status-types-leakage-ef2dab0a492| 
+| XPWN 2018 Safari sandbox escape 中文版：https://weibo.com/ttarticle/p/show?id=2309404354112320866984 | http://medium.com/p/one-liner-safari-sandbox-escape-exploit-91082ddbe6ef| 
+| 使用 Sboxr 自动化发现和利用 DOM XSS - Part 1 | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fblog.appsecco.com%2Fautomating-discovery-and-exploiting-dom-client-xss-vulnerabilities-using-sboxr-part-1-2e55c120c9e1| 
+| 使用 BadUSB 攻击路由设备控制目标网络 | http://medium.com/tenable-techblog/owning-the-network-with-badusb-72daa45d1b00| 
+| 使用 Sboxr 自动发现并利用 DOM XSS 漏洞 -  Part 2 | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fblog.appsecco.com%2Fautomating-discovery-and-exploiting-dom-client-xss-vulnerabilities-using-sboxr-part-2-3b5c494148e0| 
+| 使用 ATT&CK Datamap 可视化展示潜在威胁 | http://medium.com/@olafhartong/assess-your-data-potential-with-att-ck-datamap-f44884cfed11| 
+| 滥用 macOS 的 Folder Actions 功能实现持久化控制 | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fposts.specterops.io%2Ffolder-actions-for-persistence-on-macos-8923f222343d| 
+| 深入理解 Apple 的二进制属性列表 plist 格式 | http://medium.com/@karaiskc/understanding-apples-binary-property-list-format-281e6da00dbd| 
+| 使用 SSH Tunnel 进行端口转发和搭建 Socks5 代理 | http://medium.com/tarkalabs/power-of-ssh-tunneling-cf82bc56da67| 
+| 绕过域账户认证失败锁定次数限制的技巧 | http://medium.com/@markmotig/bypassing-ad-account-lockout-for-a-compromised-account-5c908d663de8| 
+| 利用 HTML 注入漏洞泄漏用户数据 | http://medium.com/@d0nut/better-exfiltration-via-html-injection-31c72a2dae8b| 
+| 作者发现阿里巴巴多个站点加载了 alipay 某个域名，该域名中返回的内容是可以通过 cookie 控制的，于是作者在 alipay 其他的子域名上找到了一处反射型 XSS(曲折的绕过了 WAF，cookie 设置的限制)，通过此 XSS 设置上恶意的 cookie 后来完成账号的窃取。 | http://link.medium.com/jNotfTcVSV| 
+| Rootpipe Reborn - macOS TimeMachine diagnose 扩展 Root 命令注入漏洞分析 | http://medium.com/@CodeColorist/rootpipe-reborn-part-i-cve-2019-8513-timemachine-root-command-injection-47e056b3cb43?source=friends_link&sk=3970823f97714fac1d04d75325e3cbac| 
+| 基于P4wnP1镜像将Raspberry Pi Zero W变成badUSB设备，最终实现逃脱杀毒软件检测的安全研究 | http://medium.com/@fbotes2/advance-av-evasion-symantec-and-p4wnp1-usb-c7899bcbc6af| 
+| 法国政府推出了一款通讯工具 Tchap，宣称比 Telegram 更加安全。研究员 Elliot Alderson 通过分析发了一个邮箱验证的漏洞，成功以 Tchap 雇员的身份登录了软件。 | http://medium.com/@fs0c131y/tchap-the-super-not-secure-app-of-the-french-government-84b31517d144?source=friends_link&sk=59e15e44ba75dd78d7248262a4c8f0b7| 
+| 我是如何在 OWASP ModSecurity Core Rule Set (CRS) 中发现 5 个正则表达式拒绝服务漏洞的 | http://medium.com/@somdevsangwan/how-i-found-5-redos-vulnerabilities-in-mod-security-crs-ce8474877e6e?sk=c64852245215d6fead387acbd394b7db| 
+| Venator - SpecterOps 开发的一款用于 macOS 平台恶意软件行为检测的工具，这个工具会搜集可能会暴露恶意软件行为痕迹的信息，包括：launch_agents、browser extensions、bash_history 等等 | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fposts.specterops.io%2Fintroducing-venator-a-macos-tool-for-proactive-detection-34055a017e56%3Fsource%3Drss----f05f8696e3cc---4| 
+| 如何利用 Confluence 未授权 RCE 漏洞（CVE-2019-3396）在6小时内黑掉 50+ 公司 | http://link.medium.com/l0IpOUJXeW| 
+| 组合 4 个 CSRF 漏洞搞定公司的账户 | http://medium.com/a-bugz-life/4x-csrfs-chained-for-company-account-takeover-f9fada416986| 
+| CORS（跨域资源共享）错误配置漏洞的高级利用 | http://link.medium.com/UTKkk4wvGW| 
+| 利用 Slack Windows 版本客户端的漏洞窃取 Slack 用户下载的所有文件 | http://link.medium.com/eFLkuCEvLW| 
+| WordPress 5.0.0 RCE(CVE-2019–6977) 漏洞的详细分析 | http://medium.com/@knownsec404team/the-detailed-analysis-of-wordpress-5-0-rce-a171ed719681| 
+| CVE-2019–0708 Windows RDP RCE 漏洞的影响面有多大，以及如何利用 Sigma 规则、Elastic、ArcSight 检测这种攻击 | http://medium.com/@ab_65156/proactive-detection-content-cve-2019-0708-vs-mitre-att-ck-sigma-elastic-and-arcsight-22f9ebae7d82| 
+| 搭建一个 Drupal Core RCE（CVE-2019–6340 ）漏洞的蜜罐 | http://medium.com/@SecurityBender/building-a-real-world-web-honeypot-for-cve-2019-6340-rce-in-drupal-core-f4240f989c3f| 
+| 本地攻击三星手机 ContainerAgent APP 的导出组件，导致持久化的本地DOS | http://medium.com/@fs0c131y/how-to-brick-all-samsung-phones-6aae4389bea| 
+| 基于 Windows 渗透搭建的 CTF，包括了完整的域渗透流程，还是值得一看。 | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fblog.ettic.ca%2Fnorthsec-2019-windows-track-writeup-69d5bcf06abd| 
+| V8 引擎编译及调试环境的搭建 | http://medium.com/@stankoja/v8-bug-hunting-part-1-setting-up-the-debug-environment-7ef34dc6f2de| 
+| 作者详细介绍了逆向分析Spotify.app并hook其功能获取数据的过程。 | http://medium.com/@lerner98/skiptracing-reversing-spotify-app-3a6df367287d| 
+| V8 Bug Hunting 之 JS 类型对象的内存布局 | http://medium.com/@stankoja/v8-bug-hunting-part-2-memory-representation-of-js-types-ea37571276b8| 
+| ATT&CK 威胁建模方法在企业威胁感知方面的应用，分 3 个不同的级别针对不同规模的企业 | http://medium.com/mitre-attack/getting-started-with-attack-cti-4eb205be4b2f| 
+| Windows SetThreadContext API 剖析 | http://medium.com/tenable-techblog/api-series-setthreadcontext-d08c9f84458d| 
+| 在云上搭建一个 Burp Collaborator 服务器的方法 | http://medium.com/bugbountywriteup/deploy-a-private-burp-collaborator-server-in-azure-f0d932ae1d70| 
+| Mybb 18.20 存储型 XSS 漏洞以及 RCE 利用过程分析 | http://medium.com/@knownsec404team/the-analysis-of-mybb-18-20-from-stored-xss-to-rce-7234d7cc0e72?postPublishedType=initial| 
+| 文章详细介绍了从越狱手机中dump出app的二进制文件，获取class及method的方法，利用frida hook程序，最后注入了一个动态库到目标程序的过程。 | http://medium.com/@lerner98/skiptracing-part-2-ios-3c610205858b| 
+| 利用“白”的程序执行“黑”的程序来绕过杀毒检测 | http://medium.com/@reegun/update-nuget-squirrel-uncontrolled-endpoints-leads-to-arbitrary-code-execution-b55295144b56| 
+| 针对Arlo相机设备功能及安全性的一次深入分析 | http://medium.com/tenable-techblog/an-analysis-of-arlo-6f1b691236b5| 
+| 编译、刷入、然后调试三星手机内核的系列的结尾篇。在这个系列中，作者非常详细列出了各类工具的使用方法、需要输入的命令和一些问题的解决方法，可以说很良心了，是调试三星手机内核很好的入门篇 | http://medium.com/@alex91ar/debugging-the-samsung-android-kernel-part-3-c27e916c9a7d| 
+| Windows 系统雷蛇环绕音频服务 1.1.63.0 版本存在因文件/目录权限设置不当导致的本地提权漏洞 | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fposts.specterops.io%2Fcve-2019-13142-razer-surround-1-1-63-0-eop-f18c52b8be0c| 
+| 视频会议系统Zoom的Mac客户端存在多个安全漏洞，可能导致拒绝服务和信息泄漏 | http://medium.com/@jonathan.leitschuh/zoom-zero-day-4-million-webcams-maybe-an-rce-just-get-them-to-visit-your-website-ac75c83f4ef5| 
+| Citrix SD-WAN下三个漏洞及攻击手段介绍 | http://medium.com/tenable-techblog/an-exploit-chain-against-citrix-sd-wan-709db08fb4ac| 
+| Jira把联系管理员处的表单数据当成freemarker模板解析，导致前台RCE。 | http://medium.com/@ruvlol/rce-in-jira-cve-2019-11581-901b845f0f| 
+| Comodo杀毒软件存在安全漏洞，可以从其沙箱中直接获得SYSTEM权限 | http://medium.com/tenable-techblog/comodo-from-sandbox-to-system-cve-2019-3969-b6a34cc85e67| 
+| AI 与机器学习的安全性问题研究 | http://link.medium.com/5FVO5CWpAY| 
+| Opera Android 浏览器地址栏欺骗（CVE-2019–12278）漏洞的分析 | http://medium.com/@justm0rph3u5/opera-android-address-bar-spoofing-cve-2019-12278-9ffcfd6c508c| 
+| 上周发生的 Capital One 数据泄漏事件的技术分析 | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fblog.cloudsploit.com%2Fa-technical-analysis-of-the-capital-one-hack-a9b43d7c8aea%3F| 
+| 来自 DEF CON 27 会议上针对 MikroTik RouterOS 系统的漏洞利用研究 | http://medium.com/tenable-techblog/routeros-post-exploitation-784c08044790| 
+| 基于时间的侧信道攻击，实现准确识别请求是被WAF直接拦截or被WAF过滤后传递到服务器。 | http://medium.com/@0xInfection/fingerprinting-waf-rules-via-timing-based-side-channel-attacks-cd29c48fb56| 
+| 逃逸基于机器学习技术的恶意软件检测，这是作者今年参加 DEFCON AI Village 的 Writeup | http://medium.com/@william.fleshman/evading-machine-learning-malware-classifiers-ce52dabdb713| 
+| 从 Windows 客户端漏洞利用到获取 Kubernetes Cluster 管理员权限 | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fblog.appsecco.com%2Ffrom-thick-client-exploitation-to-becoming-kubernetes-cluster-admin-the-story-of-a-fun-bug-we-fe92a7e70aa2| 
+| Qualcomm driver on the Dell XPS 本地提权漏洞披露 | http://medium.com/tenable-techblog/kernel-write-what-where-in-qualcomm-driver-lpe-f08389f6fce9| 
+| Process Reimaging 杀软逃逸行为的检测 | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fposts.specterops.io%2Fyou-can-run-but-you-cant-hide-detecting-process-reimaging-behavior-e6bb9a10c40b| 
+| 作者介绍了用自己的工具 Shhmon 卸载 Sysmon 的相关技术分析 | http://medium.com/p/shhmon-silencing-sysmon-via-driver-unload-682b5be57650| 
+| 利用 FireEye 开源的 SilkETW 工具实现基于 ETW Events 的威胁检测 | http://medium.com/threat-hunters-forge/threat-hunting-with-etw-events-and-helk-part-1-installing-silketw-6eb74815e4a0| 
+| 利用上传文件到服务器和服务器上传文件到Amazon S3的时间空隙，通过本地文件包含实现了RCE。 | http://medium.com/@YoKoKho/race-condition-that-could-result-to-rce-a-story-with-an-app-that-temporary-stored-an-uploaded-9a4065368ba3| 
+| 一个 DLL 注入导致的本地提权漏洞 | http://medium.com/@bazyli.michal/more-than-a-penetration-test-cve-2019-1082-647ba2e59034| 
+| 作者介绍了一种绕过 Microsoft-Windows-Threat-Intelligence 机制向线程注入 APC 的方法——借助 kenel APC 向线程注入 user APC | http://medium.com/@philiptsukerman/bypassing-the-microsoft-windows-threat-intelligence-kernel-apc-injection-sensor-92266433e0b0| 
+| 对基于物联网的出勤设备进行渗透测试 | http://medium.com/bugbountywriteup/pentesting-an-iot-based-biometric-attendance-device-10c0efd69392| 
+| XSS 高级技巧之 Bypass Uppercase filters | http://medium.com/@Master_SEC/bypass-uppercase-filters-like-a-pro-xss-advanced-methods-daf7a82673ce| 
+| 入门教程-如何探索网络摄像的漏洞（固件） | http://medium.com/@knownsec404team/getting-started-tutorial-how-to-explore-the-camera-vulnerability-firmware-c405e25ed177| 
+| 如何用使用burp套件扩展插件（taborator）利用exploit远程文件包含/带外资源加载(HTTP)测试 | http://link.medium.com/RKQJyWPJSZ| 
+| Proftpd 被发现缓冲区溢出漏洞（CVE-2019–18217），影响 1.3.6b 之前版本 | http://medium.com/@social_62682/proftpd-buffer-overflow-cve-2019-18217-281503c527e6| 
+| Online WebAssembly Terminal - 一款在浏览器中直接执行 WebAssembly 模块的网站 | http://medium.com/wasmer/webassembly-sh-408b010c14db| 
+| Understanding usbmux and the iOS lockdown service，了解 iTunes、Xcode 是如何与 iOS 设备交互的 | http://medium.com/@jon.gabilondo.angulo_7635/understanding-usbmux-and-the-ios-lockdown-service-7f2a1dfd07ae| 
+| Facebook Creator Studio Session 过期 Bypass 漏洞的分析 | http://medium.com/bugbountywriteup/session-expiration-bypass-in-facebook-creator-app-b4f65cc64ce4?source=rss----7b722bfd1b8d---4| 
+| 作者分析入侵JSON Web令牌(JWT)过程 | http://link.medium.com/2rXn12vA80| 
+| wolfssl CVE-2019–18840 被发现堆溢出漏洞 | http://medium.com/@social_62682/heap-overflow-in-wolfssl-cve-2019-18840-185d233c27de| 
+| Symantec 终端防护软件本地 SYSTEM 提权漏洞（CVE-2019–12757）的分析 | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fposts.specterops.io%2Fcve-2019-12757-local-privilege-escalation-in-symantec-endpoint-protection-1f7fd5c859c6| 
+| 在Node.JS中实现Steam API介绍 | http://medium.com/florence-development/working-with-node-js-stream-api-60c12437a1be| 
+| 利用红外线攻击 Android Smart TV 的细节 | http://medium.com/@drakkars/hacking-an-android-tv-in-2-minutes-7b6f29518ff3| 
+| 调试Samsung Android内核 第三部分：如何为三星内核启用USB串行调试 | http://medium.com/@alex91ar/debugging-the-samsung-android-kernel-part-3-a6a7f762fcd6?source=friends_link&sk=635b789114be318db3b28e454b4069d7| 
+| 入侵XML数据 -使用XPATH注入获得数据访问 | http://link.medium.com/WJD9QOxs91| 
+| 从LTE服务退回到3G-CSFB详解 | http://link.medium.com/3HOw2oexi2| 
+| 利用 DeviceIoControl 清理 NTFS 的 meta data | http://medium.com/@grzegorztworek/cleaning-ntfs-artifacts-with-fsctl-clean-volume-metadata-bd29afef290c?source=friends_link&sk=6ef94fc3bdf764386990c6644905fcbb| 
+| 一款新的恶意广告样本 macOS Bundlore Loader 分析 | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fblog.confiant.com%2Fnew-macos-bundlore-loader-analysis-ca16d19c058c| 
+| 作者介绍在Chrome中使用WebRTC ICE服务器进行对端口扫描的新技术。 | http://medium.com/tenable-techblog/using-webrtc-ice-servers-for-port-scanning-in-chrome-ce17b19dd474| 
+| 威胁报告ATT＆CK映射器（TRAM）是基于Web的工具，可自动提取对手的行为进行分析，将其映射到ATT＆CK。 | http://medium.com/mitre-attack/automating-mapping-to-attack-tram-1bb1b44bda76| 
+| 滥用 SourceMappingURL 实现 Javascript Anti Debugging | http://medium.com/@weizmangal/javascript-anti-debugging-some-next-level-sh-t-part-1-abusing-sourcemappingurl-da91ff948e66| 
+| 作者分析Apache Olingo中存在反序列化安全漏洞（CVE-2019-17556） | http://medium.com/bugbountywriteup/cve-2019-17556-unsafe-deserialization-in-apache-olingo-8ebb41b66817?source=rss----7b722bfd1b8d---4| 
+| CVE-2019-17556: Unsafe deserialization in Apache Olingo | http://medium.com/bugbountywriteup/cve-2019-17556-unsafe-deserialization-in-apache-olingo-8ebb41b66817| 
+| 双因素认证（2FA）绕过技术的总结 | http://medium.com/@surendirans7777/2fa-bypass-techniques-32ec135fb7fe| 
+
+
+# medium_secwiki 推荐
+| title | url| 
+| --- | ---| 
+| SVG XLink SSRF fingerprinting libraries version – Arbaz H... | https://medium.com/@arbazhussain/svg-xlink-ssrf-fingerprinting-libraries-version-450ebecc2f3c| 
+| Finding and exploiting CVE-2018–7445 | https://medium.com/@maxi./finding-and-exploiting-cve-2018-7445-f3103f163cc1| 
+| Host Header Poisoning in IBM Websphere | https://medium.com/@x41x41x41/host-header-poisoning-in-ibm-websphere-3d459a990f00| 
+| 3 XSS in ProtonMail for iOS – Vladimir Metnew – Medium | https://medium.com/@vladimirmetnew/3-xss-in-protonmail-for-ios-95f8e4b17054| 
+| Writing a Password Protected Reverse Shell (Linux/x64) | https://medium.com/@0x0FFB347/writing-a-password-protected-reverse-shell-linux-x64-5f4d3a28d91a| 
+| Writing a Custom Shellcode Encoder | https://medium.com/@0x0FFB347/writing-a-custom-shellcode-encoder-31816e767611| 
+| SigintOS: A Wireless Pentest Distro Review | https://medium.com/@tomac/sigintos-a-wireless-pentest-distro-review-a7ea93ee8f8b| 
+| Reflected XSS in SolarWinds Database Performance Analyzer | https://medium.com/greenwolf-security/reflected-xss-in-solarwinds-database-performance-analyzer-988bd7a5cd5| 
+| 使用 BadUSB 攻击路由设备控制目标网络 | https://medium.com/tenable-techblog/owning-the-network-with-badusb-72daa45d1b00| 
+| Android Cloak and Dagger Attack | https://medium.com/@targetpractice/cloak-and-dagger-malware-techniques-demystified-c4d8a035b94e| 
+| Multiple Vulnerabilities + WAF bypass to Account Takeover | https://medium.com/@y.shahinzadeh/chaining-multiple-vulnerabilities-waf-bypass-to-account-takeover-in-almost-all-alibabas-websites-f8643eaa2855| 
+| How to start learning Digital Forensics | https://medium.com/@a.alwashli/how-to-start-learning-digital-forensics-8038bcc9af6a| 
+| An Old Cisco OpenSSH Bug | https://medium.com/tenable-techblog/an-old-cisco-openssh-bug-342ce6679f61| 
+| Stealing Downloads from Slack Users | https://medium.com/tenable-techblog/stealing-downloads-from-slack-users-be6829a55f63| 
+| Reversing Golang Binaries: Part-2 | https://medium.com/@nishanmaharjan17/reversing-golang-binaries-part-2-26f522264d01| 
+| Reversing Golang Binaries: Part-1 | https://medium.com/@nishanmaharjan17/reversing-golang-binaries-part-1-c273b2ca5333| 
+| Even more secret Telegrams | https://medium.com/@labunskya/secret-telegrams-bdd2035b6e84| 
+| Details of SIM port hack | https://medium.com/coinmonks/the-most-expensive-lesson-of-my-life-details-of-sim-port-hack-35de11517124?sk=4c29b27bacb2eff038ec8fe4d40cd615| 
+| Detecting Patterns with Unsupervised Learning | https://medium.com/code-gin/detecting-patterns-with-unsupervised-learning-88ba737d4f34| 
+| A Debugging Primer with CVE-2019–0708 | https://medium.com/@straightblast426/a-debugging-primer-with-cve-2019-0708-ccfa266682f6| 
+| Getting Started with ATT&CK: Threat Intelligence | https://medium.com/mitre-attack/getting-started-with-attack-cti-4eb205be4b2f| 
+| Getting Started with ATT&CK: Detection and Analytics | https://medium.com/mitre-attack/getting-started-with-attack-detection-a8e49e4960d0| 
+| Assess your data potential with ATT&CK Datamap | https://medium.com/@olafhartong/assess-your-data-potential-with-att-ck-datamap-f44884cfed11| 
+| A Top 10 Reading List if You’re Getting Started in Cyber ... | https://medium.com/katies-five-cents/a-top-10-reading-list-if-youre-getting-started-in-cyber-threat-intelligence-c11a18fc9798| 
+| CTI Reading List | https://medium.com/@sroberts/cti-reading-list-a93ccdd7469c| 
+| Auxiliary Loss Optimization for Hypothesis Augmentation fo... | https://medium.com/@jason_trost/auxiliary-loss-optimization-for-hypothesis-augmentation-for-dga-domain-detection-98c382082514| 
+| Automating Firmware Security with FwAnalyzer | https://medium.com/cruise/firmware-security-fwanalyzer-dcbd95cef717| 
+| Meteor Blind NoSQL Injection | https://medium.com/rangeforce/meteor-blind-nosql-injection-29211775cd01| 
+| RouterOS Post Exploitation | https://medium.com/tenable-techblog/routeros-post-exploitation-784c08044790| 
+| Top 10 Browser Extensions for Hackers & OSINT Researchers | https://medium.com/@NullByteWht/top-10-browser-extensions-for-hackers-osint-researchers-fca19b469158| 
+| Malicious document targets Vietnamese officials | https://medium.com/@Sebdraven/malicious-document-targets-vietnamese-officials-acb3b9d8b80a| 
+| Threat Hunter Playbook+Mordor Datasets+BinderHub=Infrastru... | https://medium.com/threat-hunters-forge/threat-hunter-playbook-mordor-datasets-binderhub-open-infrastructure-for-open-8c8aee3d8b4| 
+| The Githubification of InfoSec | https://medium.com/@johnlatwc/the-githubification-of-infosec-afbdbfaad1d1| 
 
 
 

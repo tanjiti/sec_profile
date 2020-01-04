@@ -46,6 +46,18 @@
 | lightswitch05 | php-version-audit - 根据 PHP 版本检测已知漏洞 | https://github.com/lightswitch05/php-version-audit | None |  | None | None | 42 | 0 | 32 | 47 | 22 | Python,PHP | 82 | 13 | 1| 
 
 
+# medium_xuanwu 推荐
+| title | url| 
+| --- | ---| 
+| CyberTruck Challenge 2019中一例Android CTF题目详解 | http://medium.com/bugbountywriteup/cybertruck-challenge-2019-android-ctf-e39c7f796530| 
+| 逆向 Web Assembly (WASM) 字节码 | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fanee.me%2Freversing-web-assembly-wasm-dd59eb2a52d4| 
+
+
+# medium_secwiki 推荐
+| title | url| 
+| --- | ---| 
+
+
 
 # 日更新程序
 `python update_daily.py`
