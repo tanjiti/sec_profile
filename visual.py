@@ -271,7 +271,7 @@ def draw_readme(fpath=None):
     """
 
     if fpath is None:
-        fpath = "README_.md"
+        fpath = "README.md"
 
     tables_rets = []
     so = SQLiteOper("data/scrap.db")
@@ -304,7 +304,7 @@ def draw_readme(fpath=None):
                 tables_rets.append(os.linesep)
 
     with codecs.open(fpath, mode='wb') as fr:
-        fr.write("# [数据年报](README_YEAR_2019.md)")
+        fr.write("# [2019数据年报](README_YEAR_2019.md)")
         fr.write(os.linesep)
         fr.write("# [数据年报](README_YEAR.md)")
         fr.write(os.linesep)
