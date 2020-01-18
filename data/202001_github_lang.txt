@@ -1,14 +1,14 @@
 Python	11
+C	5
 HTML	5
-C	4
 JavaScript	4
 C++	4
+Ruby	4
 Java	3
 C#	3
 Shell	3
 Go	3
 PHP	3
-Ruby	3
 PowerShell	3
 Perl	2
 CSS	2
