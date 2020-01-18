@@ -29,24 +29,25 @@
 | 虎符智库 |  | 情报内生：高级威胁检测的必要条件 | https://mp.weixin.qq.com/s/U3XKIh0ffdzuCJihnJL7Lw | 1| 
 | ADLab | v_adlab | ThinkPHP6任意文件操作漏洞分析 | https://mp.weixin.qq.com/s/UPu6cE20l24T6fkYOlSUJw | 1| 
 | 数世咨询 |  | 数世咨询：中国网络安全能力图谱（2020年1月） | https://mp.weixin.qq.com/s/Qwhr6SlzFDqHB2b6Q6awdw | 1| 
+| heysec | bloodzer007 | 日志分析系列(外传三):平台安全性 | https://mp.weixin.qq.com/s/T2ejCKe8G1E8Ims1AKoi7Q | 2| 
 | 平凡路上 |  | 科恩面试与实习感想 | https://mp.weixin.qq.com/s/GiIIUZbzq2IOp5-arkUCfg | 1| 
-| 编程技术宇宙 | ProgramUniverse | DDoS攻击：无限战争 | https://mp.weixin.qq.com/s/JTr1-5nPtseAYXfvJdamVg | 1| 
+| 编程技术宇宙 | ProgramUniverse | DDoS攻击：无限战争 | https://mp.weixin.qq.com/s/JTr1-5nPtseAYXfvJdamVg | 3| 
 | 鱼塘领路人 | KingofSaltedFish | 威胁情报系列（一）：什么是威胁情报 | https://mp.weixin.qq.com/s/f9G818SGijdfS13KjLnFoA | 1| 
-| 看雪学院 | ikanxue | CVE-2017-11882理论以及实战样本分析 | https://mp.weixin.qq.com/s/d3owzqQFhHNVoPFIyxWZsQ | 1| 
 | SudoNLP |  | 2019年NLP领域总结回顾 | https://mp.weixin.qq.com/s/7ROSm_wQNMAKLWUR0djVLQ | 1| 
+| 专注安管平台 |  | 谈谈情报引领的安全体系建设落地 | https://mp.weixin.qq.com/s/uLP2DzH5W2PcLCKZl7Cpsw | 1| 
 | 中通安全应急响应中心 | ZTO_SRC | 中通安全开源项目之分布式被动安全扫描 | https://mp.weixin.qq.com/s/VwhALBXqIPOh87Ll3ISVHQ | 1| 
-| 安全引擎 | SecEngine | Java动态类加载，当FastJson遇上内网 | https://mp.weixin.qq.com/s/ou3L-IU1CNr9EGkpjH2u0w | 1| 
-| 绿盟科技 | NSFOCUS-weixin | 基于ATT&CK+SOAR的运营实践 | https://mp.weixin.qq.com/s/Z1sAbpSYZXYBO5qpgvjXlQ | 1| 
-| 软件安全智能并行分析实验室 |  | 学术报告|针对物联网设备的模糊测试概述 | https://mp.weixin.qq.com/s/pbOOkxrV0HJFzQicJ0m6Cg | 1| 
-| 奇安信威胁情报中心 |  | 2019年移动安全总结 | https://mp.weixin.qq.com/s/p41sAdGJzHx-CuulwycMJw | 1| 
-| 水滴安全实验室 | EversecLab | 2019僵尸网络DDoS攻击监测总结 | https://mp.weixin.qq.com/s/FGt-y3KxGPRP-FT2ubDOZA | 1| 
 | 关键基础设施安全应急响应中心 | CII-SRC | 原创 | IPv6地址扫描方法研究综述 | https://mp.weixin.qq.com/s/N87PZ783qY1JBe5Xm_tDsg | 1| 
+| 奇安信威胁情报中心 |  | 2019年移动安全总结 | https://mp.weixin.qq.com/s/p41sAdGJzHx-CuulwycMJw | 1| 
 | 安全学术圈 | secquan | 恶意域名检测中的流量特征分析 | https://mp.weixin.qq.com/s/rvPo_ufBwvdAUoVIv__xCg | 1| 
+| 安全引擎 | SecEngine | Java动态类加载，当FastJson遇上内网 | https://mp.weixin.qq.com/s/ou3L-IU1CNr9EGkpjH2u0w | 1| 
 | 新一代信息科技战略研究中心 | casitclic | DARPA发布战略框架文件《保障国家安全的突破性技术和新能力》 | https://mp.weixin.qq.com/s/D23I3qEpMs8eOFKy8w2RJg | 1| 
+| 时间之外沉浮事 | tasnrh | 商业网络培训靶场的发展态势综述 | https://mp.weixin.qq.com/s/Cjd7CCR0kZESP2GHX1oOvQ | 1| 
+| 水滴安全实验室 | EversecLab | 2019僵尸网络DDoS攻击监测总结 | https://mp.weixin.qq.com/s/FGt-y3KxGPRP-FT2ubDOZA | 1| 
+| 看雪学院 | ikanxue | CVE-2017-11882理论以及实战样本分析 | https://mp.weixin.qq.com/s/d3owzqQFhHNVoPFIyxWZsQ | 1| 
+| 绿盟科技 | NSFOCUS-weixin | 基于ATT&CK+SOAR的运营实践 | https://mp.weixin.qq.com/s/Z1sAbpSYZXYBO5qpgvjXlQ | 1| 
 | 腾讯安全应急响应中心 | tsrc_team | 物联网安全系列之远程破解Google Home | https://mp.weixin.qq.com/s/4kO3pU_tCDZmgj2CkROzMg | 2| 
 | 腾讯安全智能 | TX_Security_AI | 大数据安全分析平台搭建&相关经验分享 | https://mp.weixin.qq.com/s/hvLN83rPiNLw6cmrYDRPpA | 1| 
-| 时间之外沉浮事 | tasnrh | 商业网络培训靶场的发展态势综述 | https://mp.weixin.qq.com/s/Cjd7CCR0kZESP2GHX1oOvQ | 1| 
-| heysec | bloodzer007 | 日志分析系列(二):平台实现篇 | https://mp.weixin.qq.com/s/uc-fHmIseYuxrRSkCxYeaQ | 2| 
+| 软件安全智能并行分析实验室 |  | 学术报告|针对物联网设备的模糊测试概述 | https://mp.weixin.qq.com/s/pbOOkxrV0HJFzQicJ0m6Cg | 1| 
 | FEEI |  | 一个安全工程师的2019 | https://mp.weixin.qq.com/s/rr2f1RxFTjLSGlqxaG-aog | 1| 
 | 白帽子的成长之路 | whitehat_day | CTF比赛中Linux环境中绕过受限的shell或bash环境的多种方式 | https://mp.weixin.qq.com/s/O7n93QpLwuCCQySpZe-CkA | 2| 
 | Gcow安全团队 | Gcow666 | 游荡于中巴两国的魅影——响尾蛇(SideWinder) APT组织针对巴基斯坦最近的活动以及2019年该组织的活动总结 | https://mp.weixin.qq.com/s/CZrdslzEs4iwlaTzJH7Ubg | 1| 
