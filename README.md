@@ -25,6 +25,7 @@
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
 | Ms08067安全实验室 | Ms08067_com | 【奇思淫技】TP5最新getshell漏洞 | https://mp.weixin.qq.com/s/INgJlMPMF_ZDT7YgACQpqw | 4| 
+| 知识工场 | fudankw | 肖仰华： 知识图谱下半场-机遇与挑战 | https://mp.weixin.qq.com/s/IW4rBc7Z9f2ByKjQR2MTjw | 1| 
 | 贝塔安全实验室 | BetaSecLab | 某大学渗透测试实战靶场报告-Part2 | https://mp.weixin.qq.com/s/L9LsSwRWDuZedAZQjz0YvA | 2| 
 | 我的安全视界观 | CANI_Security | 【SDL最初实践】安全审核 | https://mp.weixin.qq.com/s/2tpPkYzdyYnS1g4vGDWFhg | 2| 
 | 电科防务 | CETC-ETDR | 世界网络战领域2019年发展回顾与2020年展望 | https://mp.weixin.qq.com/s/Mx3H2Za7hI9ZZIaZedmXBQ | 1| 
@@ -77,6 +78,7 @@
 | itm4n | PrivescCheck - 用于探测 Windows 是否存在可以被用于本地提权的错误配置 | https://github.com/itm4n/PrivescCheck | https://itm4n.github.io/ | Pentester | Paris | None | 8 | 0 | 27 | 109 | 11 | VBA,PowerShell,C++ | 321 | 87 | 1| 
 | insightglacier | Apache Shiro 反序列化漏洞扫描与利用工具 | https://github.com/insightglacier/Shiro_exploit | http:/www.shellpub.com | Security Research | Beijing | Shellpub | 65 | 0 | 352 | 87 | 220 | Python,C,PHP,CSS,C++ | 44 | 26 | 1| 
 | BatchDrake | SigDigger - 基于 QT 编写的数字信号分析工具 | https://github.com/BatchDrake/SigDigger | http://actinid.org | I code for fun. Interested in reverse engineering, astronomy, microkernel design, radio and digital signal processing. EA1IYR | Madrid, Spain | None | 25 | 0 | 5 | 81 | 4 | C,CSS,C++ | 95 | 13 | 1| 
+| mai-lang-chai | CMS、中间件漏洞检测利用合集 | https://github.com/mai-lang-chai/Middleware-Vulnerability-detection | https://mai-lang-chai.github.io | 🗝 under Control😎 | None | None | 19 | 0 | 15 | 57 | 8 | Python | 93 | 32 | 1| 
 | ollypwn | GitHub 出现疑似昨天微软修复的 CVE-2020-0601 证书验证欺骗漏洞的 PoC | https://github.com/ollypwn/cve-2020-0601 | None | https://twitter.com/ollypwn | Copenhagen, Denmark | None | 2 | 0 | 0 | 49 | 0 | C,Ruby | 574 | 149 | 1| 
 | lightswitch05 | php-version-audit - 根据 PHP 版本检测已知漏洞 | https://github.com/lightswitch05/php-version-audit | None |  | None | None | 42 | 0 | 32 | 47 | 22 | Python,PHP | 82 | 13 | 1| 
 | Ascotbe | Medusa: 美杜莎扫描器 | https://github.com/Ascotbe/Medusa | https://www.ascotbe.com/ | 在？来个女朋友？喵喵喵？ | 一切都是命运石之门的选择 | None | 12 | 0 | 75 | 26 | 1 | Python,HTML,C++ | 125 | 24 | 1| 
@@ -87,7 +89,6 @@
 | appsecco | DVNA – Damn Vulnerable NodeJS Application | https://github.com/appsecco/dvna | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Java,Python,JavaScript,C#,Visual,HTML,ActionScript,PHP,CSS | 439 | 129 | 1| 
 | bobfuzzer | Linux kernel 5.0.0-rc7 f2fs 文件系统溢出漏洞 PoC | https://github.com/bobfuzzer/CVE/tree/master/CVE-2019-19927 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 21 | 13 | 1| 
 | github | Github Security Lab 关于 CodeQL 的分享《Bug hunting with CodeQL》 | https://github.com/github/security-lab/blob/master/Meetup/2019-11/presentations/Bug%20hunting%20with%20CodeQL.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Python,JavaScript,C++,Haskell,CoffeeScript,HTML,Shell,Go,Ruby,C# | 23100 | 3500 | 2| 
-| mai-lang-chai | CMS、中间件漏洞检测利用合集 | https://github.com/mai-lang-chai/Middleware-Vulnerability-detection | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | ztosec | Hunter 中通DevSecOps闭环方案 | https://github.com/ztosec/hunter | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Go,Java | 0 | 0 | 1| 
 
 
