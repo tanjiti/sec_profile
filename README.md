@@ -24,6 +24,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| SecWiki | SecWiki | SecWiki安全周刊-2019年卷 | https://mp.weixin.qq.com/s/SMP8oljiNkABclpVfKux3w | 1| 
 | 漏洞战争 | vulwar | 从研究者的视角看Fuzzing技术发展30年 | https://mp.weixin.qq.com/s/rSoQvFhuv8R2kA3efbpJxA | 1| 
 | 知识工场 | fudankw | 肖仰华： 知识图谱下半场-机遇与挑战 | https://mp.weixin.qq.com/s/IW4rBc7Z9f2ByKjQR2MTjw | 1| 
 | 贝塔安全实验室 | BetaSecLab | 某大学渗透测试实战靶场报告-Part2 | https://mp.weixin.qq.com/s/L9LsSwRWDuZedAZQjz0YvA | 2| 
