@@ -24,6 +24,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| APT攻击 | cncg_team | 对zimbra邮服认证机制的一些探索 | https://mp.weixin.qq.com/s/u-p6_srzby1bbejqClmf-A | 1| 
+| 中国计算机学会 | ccfvoice | CCCF译文 | 工业级知识图谱：经验与挑战 | https://mp.weixin.qq.com/s/4Fdpik3EtEng-ri_7tGM0A | 1| 
+| 白日放歌须纵9 |  | 从产品视角重新定义“检测”和“分析” | https://mp.weixin.qq.com/s/oq3T1fSKAHeDfWZNpciXSw | 1| 
 | SecWiki | SecWiki | SecWiki安全周刊-2019年卷 | https://mp.weixin.qq.com/s/SMP8oljiNkABclpVfKux3w | 1| 
 | 漏洞战争 | vulwar | 从研究者的视角看Fuzzing技术发展30年 | https://mp.weixin.qq.com/s/rSoQvFhuv8R2kA3efbpJxA | 1| 
 | 知识工场 | fudankw | 肖仰华： 知识图谱下半场-机遇与挑战 | https://mp.weixin.qq.com/s/IW4rBc7Z9f2ByKjQR2MTjw | 1| 
