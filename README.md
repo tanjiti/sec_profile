@@ -25,6 +25,10 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| ChaMd5安全团队 | chamd5sec | CTF学习交流群 第五期writeup大放送 | https://mp.weixin.qq.com/s/Gw-H40A06y5CzpSJkQ4DfQ | 2| 
+| Ms08067安全实验室 | Ms08067_com | 【HTB系列】靶机Bitlab的渗透测试 | https://mp.weixin.qq.com/s/ShACPmfP2gASTFY0trQLSw | 1| 
+| 看雪学院 | ikanxue | 机器学习在二进制代码相似性分析中的应用 | https://mp.weixin.qq.com/s/QGhA2LanCq5KSUYT5uBf9A | 1| 
+| 绿盟科技研究通讯 | nsfocus_research | 零信任原生安全：超越云原生安全 | https://mp.weixin.qq.com/s/hOcMlzQJ4jPlROc4Rvvk5Q | 1| 
 
 
 # 组织github账号 推荐
