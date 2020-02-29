@@ -25,6 +25,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 道法术 |  | 利用CodeQL寻找Java Deserialization Vulnerabilities | https://mp.weixin.qq.com/s/wlDWTxXHjbZJqmzLCM-z_w | 1| 
+| 七夜安全博客 | qiye_safe | linux无文件执行— fexecve 揭秘 | https://mp.weixin.qq.com/s/Hywbb1ZnRo6n4gFFp5rbcQ | 2| 
 | 字节跳动技术团队 | toutiaotechblog | 字节跳动自研万亿级图数据库 & 图计算实践 | https://mp.weixin.qq.com/s/uYP8Eyz36JyTWska0hvtuA | 1| 
 | 安恒信息安全研究院 |  | 入侵分析钻石模型学习笔记 | https://mp.weixin.qq.com/s/akb1SLiXj8ts3-RxiXks2w | 1| 
 | 奇安信安全服务 |  | 红队实战攻防技术分享：Linux后门总结-各类隐藏技能 | https://mp.weixin.qq.com/s/B5cam9QN8eDHFuaFjBD34Q | 1| 
@@ -34,7 +36,7 @@
 | 关键基础设施安全应急响应中心 | CII-SRC | 原创 | 固件攻击研究综述 | https://mp.weixin.qq.com/s/Qjvirq2sVO9nPBauBRGS4Q | 1| 
 | 悬剑武器库 |  | WebShell免杀之JSP | https://mp.weixin.qq.com/s/YJtfQTvowVr2azqBWGla1Q | 1| 
 | 数说安全 | SSAQ2016 | 谈谈2020年RSA创新沙盒10强及其对中国创业者的价值 | https://mp.weixin.qq.com/s/z0xsJGSMWbQy60_QmArmQA | 1| 
-| 时间之外沉浮事 | tasnrh | CrystalNet：超逼真地仿真大型生产网络 | https://mp.weixin.qq.com/s/wI6amI2-Urj7HJSw6sMoJQ | 2| 
+| 时间之外沉浮事 | tasnrh | CrystalNet：超逼真地仿真大型生产网络 | https://mp.weixin.qq.com/s/wI6amI2-Urj7HJSw6sMoJQ | 3| 
 | 腾讯御见威胁情报中心 |  | 2019勒索病毒专题报告 | https://mp.weixin.qq.com/s/DzfUlKXkkMuBJS0UrdboSw | 1| 
 | 360企业安全集团 |  | “美女与野兽”，Transparent Tribe启用新资产对印度空军发起特定攻击 | https://mp.weixin.qq.com/s/YY2h73A6KiFjnfjsJtWGNQ | 1| 
 | 网络空间安全军民融合创新中心 | jmrh1226 | 从美国防部“2021财年预算提案” 看美军网络空间建设趋势特点 | https://mp.weixin.qq.com/s/ysG4z8UrfEZTlBovGTWcZw | 1| 
@@ -73,6 +75,7 @@
 | threedr3am | Java安全相关的漏洞和技术demo | https://github.com/threedr3am/learnjavabug | https://threedr3am.github.io |  | None | None | 30 | 0 | 159 | 142 | 27 | Java | 514 | 102 | 1| 
 | insightglacier | Golang实现的x86下的Meterpreter reverse tcp | https://github.com/insightglacier/go_meterpreter | http:/www.shellpub.com | Security Research | Beijing | Shellpub | 79 | 0 | 423 | 92 | 232 | C,ASP,Java,Python,C++,TypeScript,C#,HTML,Go,PHP | 150 | 63 | 1| 
 | beader | 首届中文NL2SQL挑战赛决赛第3名方案+代码 | https://github.com/beader/tianchi_nl2sql | None |  | 上海 | None | 20 | 0 | 396 | 90 | 3 | Python,Shell,Jupyter | 148 | 57 | 1| 
+| JavierOlmedo | Joplin markdown 笔记软件被发现 XSS 任意文件读漏洞（CVE-2020-9038） | https://github.com/JavierOlmedo/CVE-2020-9038// | https://hackpuntes.com | 👨‍💻 Security Researcher & Ethical Hacker | Toledo, Spain | None | 117 | 0 | 753 | 86 | 230 | Python,JavaScript,Visual,HTML,Go,CSS | 186 | 38 | 1| 
 | SoftwareGift | CVPR2019 面部识别欺骗检测比赛的代码 | https://github.com/SoftwareGift/FeatherNets_Face-Anti-spoofing-Attack-Detection-Challenge-CVPR2019 | None | I am a graduate student at Huazhong University of Science and Technology, focusing on mobile network design and face anti-spoofing. | None | None | 64 | 0 | 738 | 60 | 12 | Python,C++ | 563 | 194 | 1| 
 | insanitybit | grapl: Graph platform for Detection and Response | https://github.com/insanitybit/grapl | http://insanitybit.com |  | New York | None | 69 | 0 | 27 | 60 | 0 | Rust | 275 | 21 | 1| 
 | mai-lang-chai | CMS、中间件漏洞检测利用合集 | https://github.com/mai-lang-chai/Middleware-Vulnerability-detection | https://mai-lang-chai.github.io | 🗝 under Control😎 | None | None | 19 | 0 | 15 | 57 | 8 | Python | 93 | 32 | 1| 
@@ -81,6 +84,7 @@
 | yoava333 | Bug on the Windshield - Fuzzing the Windows kernel，来自 OffensiveCon 2020 会议 | https://github.com/yoava333/presentations/blob/master/Fuzzing%20the%20Windows%20Kernel%20-%20OffensiveCon%202020.pdf | None |  | None | None | 15 | 0 | 16 | 22 | 0 | Go,Java,Rust | 17 | 1 | 1| 
 | sisoc-tokyo | Real-time detection of high-risk attacks leveraging Kerber... | https://github.com/sisoc-tokyo/Real-timeDetectionAD_jornal | None |  | None | None | 23 | 0 | 2 | 20 | 0 | Python,HTML | 71 | 9 | 1| 
 | HE-Wenjian | CVE-2019-14615 - Intel iGPU 信息泄露漏洞的分析文档和 Demo 代码 | https://github.com/HE-Wenjian/iGPU-Leak | None | PhD Candidate | Hong Kong | HKUST: Hong Kong Univ. of Science and Technology | 4 | 0 | 40 | 7 | 7 | C,HTML | 8 | 2 | 1| 
+| reddelexc | Top disclosed reports from HackerOne | https://github.com/reddelexc/hackerone-reports | None |  | Russia | Kontur | 2 | 0 | 30 | 4 | 0 | Python | 89 | 21 | 1| 
 | Microsoft | ApplicationInspector - 微软开源的源码分析工具 | https://github.com/Microsoft/ApplicationInspector | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Jupyter,C#,JavaScript,C++,Python,Objective-C,Rich,CMake,PowerShell,CSS | 0 | 0 | 1| 
 | QAX-A-Team | PandaSniper: Linux C2 框架demo | https://github.com/QAX-A-Team/PandaSniper?from=timeline | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,C#,C++,Python,Go,PowerShell | 0 | 0 | 1| 
 | codeplutos | MySQL客户端jdbc反序列化漏洞payload | https://github.com/codeplutos/MySQL-JDBC-Deserialization-Payload | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java,C++ | 107 | 20 | 1| 
@@ -96,6 +100,7 @@
 | Hacking IoT devices with Focaccia-Board | http://medium.com/@LucaBongiorni/hacking-iot-devices-with-focaccia-board-8c4e009ed488| 
 | iOS 越狱和应用渗透必备工具 | http://medium.com/@ved_wayal/jailbreak-and-stuff-kickstart-tools-and-techniques-for-ios-application-pentesting-6fa53a3987ab| 
 | 详解 DeFi 协议 bZx 两次被黑始末 | http://link.medium.com/uOqzbT63c4| 
+| AWS Document Signing Security Control Bypass | http://link.medium.com/4XnhSyUqo4| 
 
 
 # medium_secwiki 推荐
