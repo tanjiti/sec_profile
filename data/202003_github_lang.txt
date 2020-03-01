@@ -1,0 +1,6 @@
+Python	1
+JavaScript	1
+Visual	1
+HTML	1
+Go	1
+CSS	1
