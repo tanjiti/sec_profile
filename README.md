@@ -1,3 +1,4 @@
+# [数据月报--202002](README_202002.md)
 # [数据月报--202001](README_202001.md)
 # [2019数据年报](README_YEAR_2019.md)
 # [数据月报--2019-12月](README_12.md)
@@ -25,6 +26,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| SecWiki | SecWiki | 2020 Google夏日编程之安全项目列表 | https://mp.weixin.qq.com/s/Gf937RjTpA0QsT2DJFQRqQ | 1| 
+| 大潘点点 | dapandiandian | 网安产业结构和动力分析——从合规型向能力型 | https://mp.weixin.qq.com/s/V6P-6X_fnw_kvHWMxtqwLg | 1| 
 
 
 # 组织github账号 推荐
