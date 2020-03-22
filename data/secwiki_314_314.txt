@@ -1,0 +1,43 @@
+20200302	Web安全	https://mp.weixin.qq.com/s/39wB8zLvda13p-sJytRa5w	完成一次渗透测试项目	qq.com	mp.weixin.qq.com	/s/39wB8zLvda13p-sJytRa5w
+20200302	Web安全	http://www.fr1sh.com/?post=24	Exchange 漏洞CVE-2020-0688 RCE复现	fr1sh.com	www.fr1sh.com	/
+20200302	Web安全	https://mp.weixin.qq.com/s/yEKD6vV_I4xvGcHodehiVg	无密码登录他人QQ空间可查看加密相册	qq.com	mp.weixin.qq.com	/s/yEKD6vV_I4xvGcHodehiVg
+20200302	Web安全	https://mp.weixin.qq.com/s/7atT56fBa-3iCmCZ1BH-bw	记一次曲折而又有趣的渗透	qq.com	mp.weixin.qq.com	/s/7atT56fBa-3iCmCZ1BH-bw
+20200302	工具	https://mp.weixin.qq.com/s/WXdEvc0p04KjyOlmb4qtRg	burpsuite pro 2020.2	qq.com	mp.weixin.qq.com	/s/WXdEvc0p04KjyOlmb4qtRg
+20200302	编程技术	https://bacde.me/post/Fake-Windows-Logon-Screen-To-Steal-Passwords/	伪造windows登录屏幕窃取密码之FakeLogonScreen	bacde.me	bacde.me	/post/Fake-Windows-Logon-Screen-To-Steal-Passwords/
+20200302	运维安全	https://www.bacde.me/post/Windows-Server-2016-Get-Plaintext-Password/	Windows Server 2016抓取明文密码	bacde.me	www.bacde.me	/post/Windows-Server-2016-Get-Plaintext-Password/
+20200302	Web安全	https://blog.ateam.qianxin.com/CobaltStrike4.0%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C_%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91.pdf	Cobalt Strike 4.0 手册	qianxin.com	blog.ateam.qianxin.com	/CobaltStrike4.0%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C_%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91.pdf
+20200302	Web安全	https://github.com/ody5sey/Voyager	Voyager: 安全工具集合平台	github.com	github.com	/ody5sey/Voyager
+20200302	漏洞分析	http://blog.topsec.com.cn/weblogic-cve-2020-2551%e6%bc%8f%e6%b4%9e%e5%88%86%e6%9e%90/	WebLogic CVE-2020-2551漏洞分析	topsec.com.cn	blog.topsec.com.cn	/weblogic-cve-2020-2551%e6%bc%8f%e6%b4%9e%e5%88%86%e6%9e%90/
+20200302	Web安全	https://github.com/renzu0/nw-tips	nw-tips: Win内网_域控安全	github.com	github.com	/renzu0/nw-tips
+20200302	运维安全	https://mp.weixin.qq.com/s/ZY3gqly-z-L8XFW9ML5aow	应急响应中常用的日志收集方法	qq.com	mp.weixin.qq.com	/s/ZY3gqly-z-L8XFW9ML5aow
+20200302	Web安全	https://mp.weixin.qq.com/s/-0EhntZSXvu4-xYQ89sPeQ	Mr.Robot靶机实战	qq.com	mp.weixin.qq.com	/s/-0EhntZSXvu4-xYQ89sPeQ
+20200302	运维安全	https://mp.weixin.qq.com/s/Kgm0wuPeQHX7fJoUondz4Q	零信任架构远程办公实战	qq.com	mp.weixin.qq.com	/s/Kgm0wuPeQHX7fJoUondz4Q
+20200302	Web安全	https://mp.weixin.qq.com/s/lQNixguOJahjM-AXvPoHqQ	Java代码审计之跨站脚本攻击	qq.com	mp.weixin.qq.com	/s/lQNixguOJahjM-AXvPoHqQ
+20200302	运维安全	https://mp.weixin.qq.com/s/wal_BVdp8yunXXPFpUy-gw	日志实时数据监控的探索与实践	qq.com	mp.weixin.qq.com	/s/wal_BVdp8yunXXPFpUy-gw
+20200302	Web安全	https://github.com/zsdlove/Hades	Hades - 静态代码脆弱性检测系统	github.com	github.com	/zsdlove/Hades
+20200302	杂志	https://www.sec-wiki.com/weekly/313	SecWiki周刊（第313期)	sec-wiki.com	www.sec-wiki.com	/weekly/313
+20200302	观点	https://mp.weixin.qq.com/s/1-xpgttndYIXGkyspTIp1w	关于智慧城市安全的讨论	qq.com	mp.weixin.qq.com	/s/1-xpgttndYIXGkyspTIp1w
+20200302	恶意分析	https://zhuanlan.zhihu.com/p/110886405	谈谈蜜罐（调研）与内网安全	zhihu.com	zhuanlan.zhihu.com	/p/110886405
+20200302	恶意分析	https://www.anquanke.com/post/id/176767	PHP代码加密面面观	anquanke.com	www.anquanke.com	/post/id/176767
+20200302	Web安全	https://www.freebuf.com/vuls/228042.html	QQ邮箱从Self-XSS到钓鱼攻击分析（多漏洞利用攻击链）	freebuf.com	www.freebuf.com	/vuls/228042.html
+20200302	漏洞分析	https://github.com/google/FuzzBench	FuzzBench - Fuzzer benchmarking as a service	github.com	github.com	/google/FuzzBench
+20200302	恶意分析	https://wonderkun.cc/2020/03/02/%E7%94%A8%E6%A8%A1%E6%8B%9F%E6%89%A7%E8%A1%8C%E5%AE%9E%E7%8E%B0Objective-C%E4%BB%A3%E7%A0%81%E8%87%AA%E5%8A%A8%E5%8C%96%E5%88%86%E6%9E%90/	用模拟执行实现Objective-C代码自动化分析	wonderkun.cc	wonderkun.cc	/2020/03/02/%E7%94%A8%E6%A8%A1%E6%8B%9F%E6%89%A7%E8%A1%8C%E5%AE%9E%E7%8E%B0Objective-C%E4%BB%A3%E7%A0%81%E8%87%AA%E5%8A%A8%E5%8C%96%E5%88%86%E6%9E%90/
+20200302	编程技术	https://mp.weixin.qq.com/s/YRKY7FgLFw-w4QIlrNd-FA	利用Cython将Python项目转化为单个.so	qq.com	mp.weixin.qq.com	/s/YRKY7FgLFw-w4QIlrNd-FA
+20200302	漏洞分析	https://www.anquanke.com/post/id/199702	v8 engine exploit零基础入门	anquanke.com	www.anquanke.com	/post/id/199702
+20200302	漏洞分析	https://xz.aliyun.com/t/7274	初探利用angr进行漏洞挖掘（上）	aliyun.com	xz.aliyun.com	/t/7274
+20200302	恶意分析	https://evasions.checkpoint.com/	evasions techniques	checkpoint.com	evasions.checkpoint.com	/
+20200302	其它	https://mp.weixin.qq.com/s/23fcilR_XhrGLWSaKv21zA	业务安全蓝军测评标准白皮书	qq.com	mp.weixin.qq.com	/s/23fcilR_XhrGLWSaKv21zA
+20200302	恶意分析	https://mp.weixin.qq.com/s/HyBSqrF_kl2ARaCYAMefgA	远控免杀专题-Python加载shellcode免杀	qq.com	mp.weixin.qq.com	/s/HyBSqrF_kl2ARaCYAMefgA
+20200302	恶意分析	https://mp.weixin.qq.com/s/WdErH1AOaI3B5Kptu7DK5Q	远控免杀专题-工具篇总结	qq.com	mp.weixin.qq.com	/s/WdErH1AOaI3B5Kptu7DK5Q
+20200302	数据挖掘	https://mp.weixin.qq.com/s/Rm1uFunX9IRQaL_rUAZxfQ	机器阅读理解简述	qq.com	mp.weixin.qq.com	/s/Rm1uFunX9IRQaL_rUAZxfQ
+20200302	工具	https://mp.weixin.qq.com/s/aOWEheNMxIYTBalDErSuMQ	DIY | 树莓派搭载kali Linux	qq.com	mp.weixin.qq.com	/s/aOWEheNMxIYTBalDErSuMQ
+20200302	恶意分析	http://pc1.gtimg.com/softmgr/files/apt_report_2019.pdf	全球高级持续性威胁(APT)2019年研究报告	gtimg.com	pc1.gtimg.com	/softmgr/files/apt_report_2019.pdf
+20200302	恶意分析	https://mp.weixin.qq.com/s/LftwV4bpuikDklIjuRw2LQ	远控免杀专题-C、C++加载shellcode免杀(上)	qq.com	mp.weixin.qq.com	/s/LftwV4bpuikDklIjuRw2LQ
+20200302	观点	https://mp.weixin.qq.com/s/ERakfCjEjW_UfViz9KoxFQ	《2020年SANS网络空间威胁情报(CTI)调查》解读	qq.com	mp.weixin.qq.com	/s/ERakfCjEjW_UfViz9KoxFQ
+20200302	漏洞分析	https://xz.aliyun.com/t/7275	初探利用angr进行漏洞挖掘（下）	aliyun.com	xz.aliyun.com	/t/7275
+20200302	恶意分析	https://mp.weixin.qq.com/s/Kw3-fdyHyiettYn44WNZQw	远控免杀专题-C、C++加载shellcode免杀(下)	qq.com	mp.weixin.qq.com	/s/Kw3-fdyHyiettYn44WNZQw
+20200302	数据挖掘	https://mp.weixin.qq.com/s/afO58DDDZGb5w_EEG8oW6Q	文本分类和序列标注“深度”实践	qq.com	mp.weixin.qq.com	/s/afO58DDDZGb5w_EEG8oW6Q
+20200302	恶意分析	https://mp.weixin.qq.com/s/N0LxStDpc6GyzpyszYnguQ	安天对“超高能力网空威胁行为体”系列分析回顾	qq.com	mp.weixin.qq.com	/s/N0LxStDpc6GyzpyszYnguQ
+20200302	恶意分析	https://mp.weixin.qq.com/s/McVWP386q5in6cQ8hRxwdA	远控免杀专题-C、C++加载shellcode免杀(中)	qq.com	mp.weixin.qq.com	/s/McVWP386q5in6cQ8hRxwdA
+20200302	移动安全	https://cert.360.cn/report/detail?id=0d66c8ba239680d6674f2dba9f2be5f7	2019年Android 恶意软件专题报告	360.cn	cert.360.cn	/report/detail
+20200302	恶意分析	https://mp.weixin.qq.com/s/Kvhfb13d2_D6m-Bu9Darog	远控免杀专题-C#加载shellcode免杀	qq.com	mp.weixin.qq.com	/s/Kvhfb13d2_D6m-Bu9Darog

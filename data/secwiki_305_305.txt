@@ -1,0 +1,48 @@
+20191230	观点	https://mp.weixin.qq.com/s/APOEaYrubmWupFRPbbjfkw	数世咨询：2019年网络安全大事记	qq.com	mp.weixin.qq.com	/s/APOEaYrubmWupFRPbbjfkw
+20191230	其它	https://mp.weixin.qq.com/s/AsVZawBtipQzSdgJHt7eiw	维他命2019大盘点之安全事件/漏洞篇	qq.com	mp.weixin.qq.com	/s/AsVZawBtipQzSdgJHt7eiw
+20191230	新闻	http://www.cac.gov.cn/2019-12/27/c_1578986455686625.htm	App违法违规收集使用个人信息行为认定方法	cac.gov.cn	www.cac.gov.cn	/2019-12/27/c_1578986455686625.htm
+20191230	Web安全	https://www.bacde.me/post/QingtengCloud-Bypass-Php-Webshell/	青藤云Webshell查杀绕过	bacde.me	www.bacde.me	/post/QingtengCloud-Bypass-Php-Webshell/
+20191230	观点	https://mp.weixin.qq.com/s/mihqZ0BJAgee1bEm1ZJAQw	2020安全工作展望	qq.com	mp.weixin.qq.com	/s/mihqZ0BJAgee1bEm1ZJAQw
+20191230	会议	https://www.hackinn.com/index.php/archives/516/	XDef 2019 Slide	hackinn.com	www.hackinn.com	/index.php/archives/516/
+20191230	论文	https://mp.weixin.qq.com/s/VrrQCLOfthxNTFhEqdT3xA	安全学术圈2019年度总结	qq.com	mp.weixin.qq.com	/s/VrrQCLOfthxNTFhEqdT3xA
+20191230	Web安全	https://github.com/TideSec/TideFinger/blob/master/Web%E6%8C%87%E7%BA%B9%E8%AF%86%E5%88%AB%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6%E4%B8%8E%E4%BC%98%E5%8C%96%E5%AE%9E%E7%8E%B0.md	Web指纹识别技术研究与优化实现	github.com	github.com	/TideSec/TideFinger/blob/master/Web%E6%8C%87%E7%BA%B9%E8%AF%86%E5%88%AB%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6%E4%B8%8E%E4%BC%98%E5%8C%96%E5%AE%9E%E7%8E%B0.md
+20191230	取证分析	https://mp.weixin.qq.com/s/UITOiXwpETDZn2UvG9ChvA	ATT&CK攻击艺术的科学化	qq.com	mp.weixin.qq.com	/s/UITOiXwpETDZn2UvG9ChvA
+20191230	其它	https://mp.weixin.qq.com/s/rr2f1RxFTjLSGlqxaG-aog	一个安全工程师的2019	qq.com	mp.weixin.qq.com	/s/rr2f1RxFTjLSGlqxaG-aog
+20191230	Web安全	https://mp.weixin.qq.com/s/giBR-rnpm51cDE4aude2tg	PowerShell渗透–Empire	qq.com	mp.weixin.qq.com	/s/giBR-rnpm51cDE4aude2tg
+20191230	Web安全	https://xz.aliyun.com/t/7006	代码审计zzcms	aliyun.com	xz.aliyun.com	/t/7006
+20191230	工具	https://payloads.cn/2020/0105/intranet-penetration-in-actual-combat.html	实战中内网穿透的打法	payloads.cn	payloads.cn	/2020/0105/intranet-penetration-in-actual-combat.html
+20191230	设备安全	https://github.com/wrlu/SecIoT-Web	SecIoT-Web: IoT漏洞检测平台	github.com	github.com	/wrlu/SecIoT-Web
+20191230	文档	http://blog.nsfocus.net/wp-content/uploads/2019/12/2019-Botnet-Trend-Report.pdf	2019 Botnet 趋势报告	nsfocus.net	blog.nsfocus.net	/wp-content/uploads/2019/12/2019-Botnet-Trend-Report.pdf
+20191230	漏洞分析	https://xz.aliyun.com/t/7010	Log4j反序列化分析(CVE-2019-17571&CVE-2017-5645)	aliyun.com	xz.aliyun.com	/t/7010
+20191230	Web安全	https://xz.aliyun.com/t/6999	国外某cms审计之文件删除漏洞	aliyun.com	xz.aliyun.com	/t/6999
+20191230	Web安全	https://www.anquanke.com/post/id/196032	渗透测试实战—多网段多场景靶机入侵实战	anquanke.com	www.anquanke.com	/post/id/196032
+20191230	取证分析	https://mp.weixin.qq.com/s/yPTeg1Ue8AWq7dIZSqPrKw	网络犯罪反制：714高炮与金融行业	qq.com	mp.weixin.qq.com	/s/yPTeg1Ue8AWq7dIZSqPrKw
+20191230	Web安全	https://mp.weixin.qq.com/s/Q9Vjcj4W8F0ZQQi6P7djWA	跨站脚本（XSS）备忘录-2019版	qq.com	mp.weixin.qq.com	/s/Q9Vjcj4W8F0ZQQi6P7djWA
+20191230	运维安全	 https://mp.weixin.qq.com/s/4jZBIRqbQ7UR7BXz2zdZtA	渗透测试Window平台中 Certutil的使用	https.		 https://mp.weixin.qq.com/s/4jZBIRqbQ7UR7BXz2zdZtA
+20191230	Web安全	https://xz.aliyun.com/t/7012	通过AST来手撕Pickle opcode	aliyun.com	xz.aliyun.com	/t/7012
+20191230	Web安全	https://mp.weixin.qq.com/s/SsDo92xxGxy1ajwEPtc_rg	日志分析系列(外传二):Nginx日志统一化	qq.com	mp.weixin.qq.com	/s/SsDo92xxGxy1ajwEPtc_rg
+20191230	漏洞分析	https://www.qiling.io/zh/	麒麟框架: Advanced Binary Emulation framework	qiling.io	www.qiling.io	/zh/
+20191230	比赛	https://bbs.pediy.com/thread-256969.htm	KCTF2019_q4_第十题_幕后之王	pediy.com	bbs.pediy.com	/thread-256969.htm
+20191230	论文	https://mp.weixin.qq.com/s/9zKM6hQZOYRjr5IeawgsKA	优秀博士系统能力培养（PPT）	qq.com	mp.weixin.qq.com	/s/9zKM6hQZOYRjr5IeawgsKA
+20191230	运维安全	 https://mp.weixin.qq.com/s/O7n93QpLwuCCQySpZe-CkA	CTF比赛中Linux环境中绕过受限的shell或bash环境的多种方式	https.		 https://mp.weixin.qq.com/s/O7n93QpLwuCCQySpZe-CkA
+20191230	杂志	https://www.sec-wiki.com/weekly/304	SecWiki周刊（第304期)	sec-wiki.com	www.sec-wiki.com	/weekly/304
+20191230	漏洞分析	https://mp.weixin.qq.com/s/hW8ned6DIRJ7mx1657dVew	S&P2020-Savior：漏洞导向的混合模糊测试技术	qq.com	mp.weixin.qq.com	/s/hW8ned6DIRJ7mx1657dVew
+20191230	Web安全	https://mp.weixin.qq.com/s/BH-gmMpHUkMvBcSBgJWnwA	JWT攻击手册：如何入侵你的Token	qq.com	mp.weixin.qq.com	/s/BH-gmMpHUkMvBcSBgJWnwA
+20191230	运维安全	https://zhuanlan.zhihu.com/p/100610851	作为个体如何做安全运营	zhihu.com	zhuanlan.zhihu.com	/p/100610851
+20191230	Web安全	https://github.com/fcavallarin/domdig	domdig: DOM XSS scanner for Single Page Applications	github.com	github.com	/fcavallarin/domdig
+20191230	Web安全	https://mp.weixin.qq.com/s/_a9rX1R8EWR-4qCXqlGv4w	域渗透| Kerberos攻击速查表	qq.com	mp.weixin.qq.com	/s/_a9rX1R8EWR-4qCXqlGv4w
+20191230	Web安全	http://blog.blankshell.com/2020/01/02/java-exploit%e7%bc%96%e5%86%99-goldeneye%e7%af%87%ef%bc%88%e4%b8%8a%ef%bc%89/	Java Exploit编写——GoldenEye篇（上）	blankshell.com	blog.blankshell.com	/2020/01/02/java-exploit%e7%bc%96%e5%86%99-goldeneye%e7%af%87%ef%bc%88%e4%b8%8a%ef%bc%89/
+20191230	运维安全	https://www.anquanke.com/post/id/196200	某大型集团企业信息安全实践总结暨信息安全应急案例分享	anquanke.com	www.anquanke.com	/post/id/196200
+20191230	观点	https://mp.weixin.qq.com/s/MfjRfJ04fnRY8gI5s6BA8g	云安全的未来	qq.com	mp.weixin.qq.com	/s/MfjRfJ04fnRY8gI5s6BA8g
+20191230	运维安全	https://mp.weixin.qq.com/s/McMyk8ZJkEZJu10c8U5k7w	一份超级实用的勒索病毒自救指南	qq.com	mp.weixin.qq.com	/s/McMyk8ZJkEZJu10c8U5k7w
+20191230	编程技术	https://www.bacde.me/post/IMAP-Bruteforce-Script/	IMAP 爆破脚本	bacde.me	www.bacde.me	/post/IMAP-Bruteforce-Script/
+20191230	取证分析	https://mp.weixin.qq.com/s/CZrdslzEs4iwlaTzJH7Ubg	响尾蛇APT组织针对巴基斯坦最近的活动以及2019年该组织的活动总结	qq.com	mp.weixin.qq.com	/s/CZrdslzEs4iwlaTzJH7Ubg
+20191230	Web安全	https://blog.jmpesp.org/2020/01/fuzzing-php-with-domato.html	Fuzzing PHP with Domato	jmpesp.org	blog.jmpesp.org	/2020/01/fuzzing-php-with-domato.html
+20191230	文档	https://github.com/tanjiti/sec_profile/blob/master/README_YEAR_2019.md	2019安全技术资讯年报	github.com	github.com	/tanjiti/sec_profile/blob/master/README_YEAR_2019.md
+20191230	漏洞分析	https://www.sec-un.org/%e5%8d%a1%e5%86%85%e5%9f%ba%e6%a2%85%e9%9a%86%e5%a4%a7%e5%ad%a6%e6%8a%a5%e5%91%8a%e3%80%8a%e8%bf%81%e7%a7%bb%e5%88%b0%e4%ba%91%e4%b8%ad%e9%9d%a2%e4%b8%b4%e7%9a%84%e9%a3%8e%e9%99%a9%ef%bc%8c%e5%a8%81/	卡内基梅隆大学报告《迁移到云中面临的风险，威胁和漏洞概述》笔记	sec-un.org	www.sec-un.org	/%e5%8d%a1%e5%86%85%e5%9f%ba%e6%a2%85%e9%9a%86%e5%a4%a7%e5%ad%a6%e6%8a%a5%e5%91%8a%e3%80%8a%e8%bf%81%e7%a7%bb%e5%88%b0%e4%ba%91%e4%b8%ad%e9%9d%a2%e4%b8%b4%e7%9a%84%e9%a3%8e%e9%99%a9%ef%bc%8c%e5%a8%81/
+20191230	恶意分析	https://security.tencent.com/index.php/blog/msg/140	源头之战，不断升级的攻防对抗技术 —— 软件供应链攻击防御探索	tencent.com	security.tencent.com	/index.php/blog/msg/140
+20191230	文档	https://slides.baai.ac.cn/2019/	北京智源大会 PPT 合集	baai.ac.cn	slides.baai.ac.cn	/2019/
+20191230	无线安全	https://mp.weixin.qq.com/s/rULdN3wVKyR3GlGBhunpoQ	在Tesla Model S上实现Wi-Fi协议栈漏洞的利用	qq.com	mp.weixin.qq.com	/s/rULdN3wVKyR3GlGBhunpoQ
+20191230	Web安全	http://blog.blankshell.com/2020/01/02/java-exploit%e7%bc%96%e5%86%99-goldeneye%e7%af%87%ef%bc%88%e4%b8%8b%ef%bc%89/	Java Exploit编写——GoldenEye篇（下）	blankshell.com	blog.blankshell.com	/2020/01/02/java-exploit%e7%bc%96%e5%86%99-goldeneye%e7%af%87%ef%bc%88%e4%b8%8b%ef%bc%89/
+20191230	Web安全	https://www.freebuf.com/articles/web/223056.html	机器学习之KNN检测恶意流量	freebuf.com	www.freebuf.com	/articles/web/223056.html
+20191230	恶意分析	https://www.freebuf.com/articles/network/222558.html	APT29分析报告	freebuf.com	www.freebuf.com	/articles/network/222558.html

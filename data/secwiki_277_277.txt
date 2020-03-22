@@ -1,0 +1,26 @@
+20190617	新闻	https://mp.weixin.qq.com/s/0p_QrSpJuGSc3IaQB2NMMw	阿根廷全国大停电	qq.com	mp.weixin.qq.com	/s/0p_QrSpJuGSc3IaQB2NMMw
+20190617	观点	https://mp.weixin.qq.com/s/3mfChyt7r4rn07tHg_q8NA	上市网络安全公司现状及战略分析	qq.com	mp.weixin.qq.com	/s/3mfChyt7r4rn07tHg_q8NA
+20190617	法规	http://www.miit.gov.cn/n1146285/n1146352/n3054355/n3057724/n3057728/c7005976/content.html	网络安全漏洞管理规定（征求意见稿）	miit.gov.cn	www.miit.gov.cn	/n1146285/n1146352/n3054355/n3057724/n3057728/c7005976/content.html
+20190617	新闻	https://www.solidot.org/story?sid=61080	SSH 加入抵御边信道攻击的功能	solidot.org	www.solidot.org	/story
+20190617	编程技术	https://github.com/hungryfoolou/Vulnerability_Mining/tree/master/craw	CVE漏洞信息爬取	github.com	github.com	/hungryfoolou/Vulnerability_Mining/tree/master/craw
+20190617	编程技术	https://github.com/piglei/one-python-craftsman	Python 工匠	github.com	github.com	/piglei/one-python-craftsman
+20190617	Web安全	https://www.freebuf.com/articles/network/204769.html	详解内网渗透之环境架设	freebuf.com	www.freebuf.com	/articles/network/204769.html
+20190617	Web安全	https://mp.weixin.qq.com/s/x0txdB7tMEIg1W4v_ZK7Tg	CobaltStrike+MetaSploit 实战联动	qq.com	mp.weixin.qq.com	/s/x0txdB7tMEIg1W4v_ZK7Tg
+20190617	设备安全	https://mp.weixin.qq.com/s/jftToJwRUaHy1cRTxn2aOw	D-Link路由器HNAP协议系列漏洞披露	qq.com	mp.weixin.qq.com	/s/jftToJwRUaHy1cRTxn2aOw
+20190617	取证分析	https://www.freebuf.com/geek/205497.html	记一次应急中发现的诡异事件	freebuf.com	www.freebuf.com	/geek/205497.html
+20190617	Web安全	https://github.com/PINGXcpost/F-NAScan-PLUS	F-NAScan-PLUS 安服资产搜集	github.com	github.com	/PINGXcpost/F-NAScan-PLUS
+20190617	Web安全	https://zhuanlan.zhihu.com/p/67953724	基于攻防演练的社会工程案例猜想	zhihu.com	zhuanlan.zhihu.com	/p/67953724
+20190617	杂志	https://www.sec-wiki.com/weekly/276	SecWiki周刊（第276期)	sec-wiki.com	www.sec-wiki.com	/weekly/276
+20190617	Web安全	https://mp.weixin.qq.com/s/3N3eJzTaMwbznL_aofOjnQ	自助安全扫描与代码审计系统架构实践	qq.com	mp.weixin.qq.com	/s/3N3eJzTaMwbznL_aofOjnQ
+20190617	取证分析	https://github.com/grayddq/GScan	GScan: Linux主机侧Checklist的自动全面化检测	github.com	github.com	/grayddq/GScan
+20190617	恶意分析	https://www.coalfire.com/The-Coalfire-Blog/June-2019/Introducing-Slackor	A Remote Access Tool Using Slack as a C2 Channel	coalfire.com	www.coalfire.com	/The-Coalfire-Blog/June-2019/Introducing-Slackor
+20190617	数据挖掘	http://www.zhaobiaoneican.com/mobile/analysisDetails?id=95d4314b2cff40648378a672cad4e910	2019年海南省安全等保类项目分析报告	zhaobiaoneican.com	www.zhaobiaoneican.com	/mobile/analysisDetails
+20190617	漏洞分析	https://www.anquanke.com/post/id/180459	WhatsApp缓冲区溢出漏洞分析	anquanke.com	www.anquanke.com	/post/id/180459
+20190617	书籍	https://www.i-intelligence.eu/wp-content/uploads/2018/06/OSINT_Handbook_June-2018_Final.pdf	OSINT Tools and Resources Handbook	i-intelligence.eu	www.i-intelligence.eu	/wp-content/uploads/2018/06/OSINT_Handbook_June-2018_Final.pdf
+20190617	观点	https://mp.weixin.qq.com/s/dBw_z9oNoTRUQNVTkf1l_w	Gartner2019年十大安全项目详解	qq.com	mp.weixin.qq.com	/s/dBw_z9oNoTRUQNVTkf1l_w
+20190617	取证分析	https://blog.xpnsec.com/evading-sysmon-dns-monitoring/	Evading Sysmon DNS Monitoring	xpnsec.com	blog.xpnsec.com	/evading-sysmon-dns-monitoring/
+20190617	取证分析	https://www.4hou.com/technology/18621.html	一次基于GAO报告的暗网追踪比特币枪支销售的OSINT调查	4hou.com	www.4hou.com	/technology/18621.html
+20190617	恶意分析	https://medium.com/mitre-attack/getting-started-with-attack-detection-a8e49e4960d0	Getting Started with ATT&CK: Detection and Analytics	medium.com	medium.com	/mitre-attack/getting-started-with-attack-detection-a8e49e4960d0
+20190617	设备安全	https://laucyun.com/d2faa91d255786348f1399d40229ee68.html	基于 Attiny 85 开发板的 BadUSB 攻击实战	laucyun.com	laucyun.com	/d2faa91d255786348f1399d40229ee68.html
+20190617	运维安全	https://tech.meituan.com/2019/01/17/distributed-hids-cluster-architecture-design.html	保障IDC安全：分布式HIDS集群架构设计	meituan.com	tech.meituan.com	/2019/01/17/distributed-hids-cluster-architecture-design.html
+20190617	Web安全	https://blog.pareshparmar.com/subdomain-takeover-ngrok/	Subdomain takeover via Ngrok service​	pareshparmar.com	blog.pareshparmar.com	/subdomain-takeover-ngrok/

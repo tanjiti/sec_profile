@@ -1,0 +1,41 @@
+20191021	其它	https://mp.weixin.qq.com/s/anC86mOuuaH09lnWMEVXEw	揭密：当年奥运会背后的网络暗战和幕后网军真相	qq.com	mp.weixin.qq.com	/s/anC86mOuuaH09lnWMEVXEw
+20191021	新闻	https://www.solidot.org/story?sid=62272	通过跟踪比特币交易执法机构破获大型儿童色情网站	solidot.org	www.solidot.org	/story
+20191021	新闻	https://mp.weixin.qq.com/s/Hk_BfBPz0TGqFNblGb_m5A	美国国防部2019年消费账单出炉	qq.com	mp.weixin.qq.com	/s/Hk_BfBPz0TGqFNblGb_m5A
+20191021	法规	http://www.xinhuanet.com/2019-10/26/c_1125156896.htm	中华人民共和国密码法	xinhuanet.com	www.xinhuanet.com	/2019-10/26/c_1125156896.htm
+20191021	Web安全	https://xz.aliyun.com/t/6550	加密Webshell“冰蝎”攻防	aliyun.com	xz.aliyun.com	/t/6550
+20191021	漏洞分析	https://chybeta.github.io/2017/10/08/php%E6%96%87%E4%BB%B6%E5%8C%85%E5%90%AB%E6%BC%8F%E6%B4%9E/	php文件包含漏洞 | Chybeta	github.io	chybeta.github.io	/2017/10/08/php%E6%96%87%E4%BB%B6%E5%8C%85%E5%90%AB%E6%BC%8F%E6%B4%9E/
+20191021	恶意分析	https://mp.weixin.qq.com/s/QifnwOzx19BFIHo7adgrVg	HOLMES：基于可疑信息流的实时APT检测	qq.com	mp.weixin.qq.com	/s/QifnwOzx19BFIHo7adgrVg
+20191021	会议	https://bcs.qianxin.com/2019/pptdown.html	2019北京网络安全大会演讲PPT	qianxin.com	bcs.qianxin.com	/2019/pptdown.html
+20191021	运维安全	https://mp.weixin.qq.com/s/Aal5nnp9zUR6cLtoKVaJrw	应急响应实例分享	qq.com	mp.weixin.qq.com	/s/Aal5nnp9zUR6cLtoKVaJrw
+20191021	Web安全	https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E4%BB%8EExchange%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E6%90%9C%E7%B4%A2%E5%92%8C%E5%AF%BC%E5%87%BA%E9%82%AE%E4%BB%B6/	渗透基础——从Exchange服务器上搜索和导出邮件	github.io	3gstudent.github.io	/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E4%BB%8EExchange%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E6%90%9C%E7%B4%A2%E5%92%8C%E5%AF%BC%E5%87%BA%E9%82%AE%E4%BB%B6/
+20191021	取证分析	https://mp.weixin.qq.com/s/sxlMUwLqLBi-CJQV41DWaA	ATT&CK 随笔系列之一：右脑知攻、左脑知防	qq.com	mp.weixin.qq.com	/s/sxlMUwLqLBi-CJQV41DWaA
+20191021	取证分析	https://github.com/0Kee-Team/WatchAD?from=timeline&isappinstalled=0	WatchAD: 域安全入侵感知系统	github.com	github.com	/0Kee-Team/WatchAD
+20191021	工具	https://github.com/JonGates/jon	jon: LINUX系统攻防工具箱	github.com	github.com	/JonGates/jon
+20191021	杂志	https://www.sec-wiki.com/weekly/294	SecWiki周刊（第294期)	sec-wiki.com	www.sec-wiki.com	/weekly/294
+20191021	论文	https://mp.weixin.qq.com/s/Xywl2gJbonvosW-Gm10MjQ	生日、姓名和双相安全性：了解中国网络用户的密码	qq.com	mp.weixin.qq.com	/s/Xywl2gJbonvosW-Gm10MjQ
+20191021	漏洞分析	https://mp.weixin.qq.com/s/BmuwRouYB3AGsVae3koGOQ	针对海最新顶会fuzz论文分享	qq.com	mp.weixin.qq.com	/s/BmuwRouYB3AGsVae3koGOQ
+20191021	取证分析	https://mp.weixin.qq.com/s/iTh41vvRRZLat2k-RgiyFw	ATT&CK随笔系列之二：偷天陷阱	qq.com	mp.weixin.qq.com	/s/iTh41vvRRZLat2k-RgiyFw
+20191021	工具	https://mp.weixin.qq.com/s/T6zSWZ-qMit-8gR4Itmknw	勒索解密工具整理篇	qq.com	mp.weixin.qq.com	/s/T6zSWZ-qMit-8gR4Itmknw
+20191021	数据挖掘	http://www.zmonster.me/2019/10/20/nlp-thinking-4.html	NLP哪里跑: 文本分类工具一览	zmonster.me	www.zmonster.me	/2019/10/20/nlp-thinking-4.html
+20191021	漏洞分析	https://www.anquanke.com/post/id/189315	CVE-2019-14287（Linux sudo 漏洞）分析	anquanke.com	www.anquanke.com	/post/id/189315
+20191021	漏洞分析	https://xz.aliyun.com/t/6557	angr 入门介绍（一）	aliyun.com	xz.aliyun.com	/t/6557
+20191021	漏洞分析	https://mp.weixin.qq.com/s/Old4dKS2aDp1TETTn0WzoQ	BROP技术研究	qq.com	mp.weixin.qq.com	/s/Old4dKS2aDp1TETTn0WzoQ
+20191021	取证分析	https://mp.weixin.qq.com/s/9z0eFephjLsq2zJz4rrs9A	企业安全无间道之抓内鬼	qq.com	mp.weixin.qq.com	/s/9z0eFephjLsq2zJz4rrs9A
+20191021	观点	https://devco.re/blog/2019/10/24/evolution-of-DEVCORE-red-team-and-the-next/	DEVCORE 紅隊的進化，與下一步	devco.re	devco.re	/blog/2019/10/24/evolution-of-DEVCORE-red-team-and-the-next/
+20191021	取证分析	https://mp.weixin.qq.com/s/u1cPkGegyRpw3oyKaBMf1w	基于MITRE ATT&CK的Red Teaming行动实践	qq.com	mp.weixin.qq.com	/s/u1cPkGegyRpw3oyKaBMf1w
+20191021	论文	https://mp.weixin.qq.com/s/NrhIEcY0-76g88-GA01kww	RecSys 2019参会总结及推荐精读论文	qq.com	mp.weixin.qq.com	/s/NrhIEcY0-76g88-GA01kww
+20191021	工具	https://mp.weixin.qq.com/s/gpM1Ze2ofLXt5ernZBOudw	图解NSA的48个Ant监控工具	qq.com	mp.weixin.qq.com	/s/gpM1Ze2ofLXt5ernZBOudw
+20191021	比赛	https://www.anquanke.com/post/id/189142	2019巅峰极客网络安全技能挑战赛Writewp SUS_2019	anquanke.com	www.anquanke.com	/post/id/189142
+20191021	漏洞分析	https://www.anquanke.com/post/id/188981	Python pickle 反序列化实例分析	anquanke.com	www.anquanke.com	/post/id/188981
+20191021	取证分析	https://www.4hou.com/system/20816.html	从零开始学威胁狩猎：手把手教你用 Jupyter Notebook 分析安全事件（一）	4hou.com	www.4hou.com	/system/20816.html
+20191021	编程技术	https://github.com/yyhsong/iDataV	iDataV: 大屏数据可视化示例	github.com	github.com	/yyhsong/iDataV
+20191021	恶意分析	https://www.shellcodes.org/Hacking/%E4%BD%BF%E7%94%A8Ghidra%E5%88%86%E6%9E%90phpStudy%E5%90%8E%E9%97%A8.html	使用 Ghidra 分析 phpStudy 后门	shellcodes.org	www.shellcodes.org	/Hacking/%E4%BD%BF%E7%94%A8Ghidra%E5%88%86%E6%9E%90phpStudy%E5%90%8E%E9%97%A8.html
+20191021	Web安全	https://mp.weixin.qq.com/s/nkf5yRrAw-IA5_ROD6Za4g	业务安全的资源层攻防时代	qq.com	mp.weixin.qq.com	/s/nkf5yRrAw-IA5_ROD6Za4g
+20191021	设备安全	https://mp.weixin.qq.com/s/de3whqmwVtwWWZ8B6J7Zww	Siemens PLC指纹提取方法汇总	qq.com	mp.weixin.qq.com	/s/de3whqmwVtwWWZ8B6J7Zww
+20191021	Web安全	https://mp.weixin.qq.com/s/BkNQA4ILKeNYxYjZqrMmWA	Redis slave 模式下的漏洞利用	qq.com	mp.weixin.qq.com	/s/BkNQA4ILKeNYxYjZqrMmWA
+20191021	数据挖掘	https://mp.weixin.qq.com/s/JEIxzuPDrbvSJjpHExaI_w	机器学习模型可解释性的详尽介绍	qq.com	mp.weixin.qq.com	/s/JEIxzuPDrbvSJjpHExaI_w
+20191021	数据挖掘	https://github.com/GuidoPaul/CAIL2019	CAIL2019: 中国法研杯司法人工智能挑战赛之相似案例匹配第一名解决方案	github.com	github.com	/GuidoPaul/CAIL2019
+20191021	漏洞分析	https://www.anquanke.com/post/id/189145	智能合约安全之闭源合约	anquanke.com	www.anquanke.com	/post/id/189145
+20191021	其它	https://mp.weixin.qq.com/s/McTaM1MIuLsXAmubPqr0LQ	网络空间靶场发展态势综述	qq.com	mp.weixin.qq.com	/s/McTaM1MIuLsXAmubPqr0LQ
+20191021	漏洞分析	https://xz.aliyun.com/t/6569	angr 入门介绍（二）	aliyun.com	xz.aliyun.com	/t/6569
+20191021	取证分析	https://www.cdxy.me/?p=812	Anomaly Detection in Time Series Data Using LSTMs and Automatic Thresholding	cdxy.me	www.cdxy.me	/

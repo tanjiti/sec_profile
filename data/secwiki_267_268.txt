@@ -1,0 +1,89 @@
+20190408	新闻	https://mp.weixin.qq.com/s/VCG3QPP4dwcfNlZFC_nnSQ	中国网络安全产业发展报告	qq.com	mp.weixin.qq.com	/s/VCG3QPP4dwcfNlZFC_nnSQ
+20190408	新闻	https://mp.weixin.qq.com/s/alJyvGi8FPygIe1IYYj2_A	科创板观察报告：恒安嘉新、安博通、山石和安恒篇	qq.com	mp.weixin.qq.com	/s/alJyvGi8FPygIe1IYYj2_A
+20190408	新闻	https://www.solidot.org/story?sid=60184	流行开发工具 bootstrap-sass 被修改植入后门	solidot.org	www.solidot.org	/story
+20190408	事件	https://nosec.org/home/detail/2457.html	研究人员发现中国企业简历信息泄露，涉5.9亿份简历	nosec.org	nosec.org	/home/detail/2457.html
+20190408	新闻	https://mp.weixin.qq.com/s/2afk7pLqgzpUnXgmQgMNEw	Palantir中标美国军方8亿美元人工智能系统研发采购计划	qq.com	mp.weixin.qq.com	/s/2afk7pLqgzpUnXgmQgMNEw
+20190408	新闻	https://mp.weixin.qq.com/s/LXR853Z4E5peVYq89tXKZA	DARPA 2020财年研发预算 人工智能应用研究投资急剧增长	qq.com	mp.weixin.qq.com	/s/LXR853Z4E5peVYq89tXKZA
+20190408	比赛	https://mp.weixin.qq.com/s/rlSyABoulRKygPmwfcUuXA	西湖论剑2019 WriteUp	qq.com	mp.weixin.qq.com	/s/rlSyABoulRKygPmwfcUuXA
+20190408	Web安全	https://xz.aliyun.com/t/4694	对某网的一次渗透测试纪实	aliyun.com	xz.aliyun.com	/t/4694
+20190408	工具	https://github.com/k8gege/K8tools	K8tools: K8工具合集	github.com	github.com	/k8gege/K8tools
+20190408	Web安全	https://nosec.org/home/detail/2461.html	confluence远程代码执行漏洞(CVE-2019-3396)	nosec.org	nosec.org	/home/detail/2461.html
+20190408	工具	https://www.kitploit.com/2019/03/winpwn-automation-for-internal-windows.html?utm_source=dlvr.it&utm_medium=twitter	WinPwn - Windows 内网自动化渗透项目	kitploit.com	www.kitploit.com	/2019/03/winpwn-automation-for-internal-windows.html
+20190408	漏洞分析	https://github.com/cfreal/exploits/tree/master/CVE-2019-0211-apache	Apache 本地提权漏洞 CVE-2019-0211 Exploit	github.com	github.com	/cfreal/exploits/tree/master/CVE-2019-0211-apache
+20190408	Web安全	https://github.com/iSafeBlue/Mind-Map/	一张渗透测试思维导图	github.com	github.com	/iSafeBlue/Mind-Map/
+20190408	其它	https://www.freebuf.com/articles/es/200024.html	两年甲方安全修炼之路	freebuf.com	www.freebuf.com	/articles/es/200024.html
+20190408	Web安全	http://www.bianews.com/news/details?id=34011	利用动态PDF实现本地文件包含（宜家）	bianews.com	www.bianews.com	/news/details
+20190408	Web安全	https://mp.weixin.qq.com/s/F5cDeCdWhsyOrBSX88k0IQ	SDL最初实践-安全需求	qq.com	mp.weixin.qq.com	/s/F5cDeCdWhsyOrBSX88k0IQ
+20190408	Web安全	https://mp.weixin.qq.com/s/qtlJg7flu06HkiRo2iidYA	如何让Tomcat更强壮	qq.com	mp.weixin.qq.com	/s/qtlJg7flu06HkiRo2iidYA
+20190408	Web安全	https://mp.weixin.qq.com/s/UT5zqA16Ch5Pc3EgvLoVEg	某市高校互联网系统安全现状分析	qq.com	mp.weixin.qq.com	/s/UT5zqA16Ch5Pc3EgvLoVEg
+20190408	其它	https://mp.weixin.qq.com/s/_JFb5-6mE7wDxvWZprYbVw	渗透测试团队技术评级那些事儿	qq.com	mp.weixin.qq.com	/s/_JFb5-6mE7wDxvWZprYbVw
+20190408	比赛	https://xz.aliyun.com/t/4741	2019掘安杯web writeup	aliyun.com	xz.aliyun.com	/t/4741
+20190408	无线安全	https://www.freebuf.com/articles/wireless/194142.html	探究卫星有关的安全问题	freebuf.com	www.freebuf.com	/articles/wireless/194142.html
+20190408	漏洞分析	https://mp.weixin.qq.com/s/kwp5uxom7Amrj6S_-g8r4Q	关于 ThinkPHP 5.1 框架结合 RCE 漏洞的深入分析	qq.com	mp.weixin.qq.com	/s/kwp5uxom7Amrj6S_-g8r4Q
+20190408	杂志	https://www.sec-wiki.com/weekly/266	SecWiki周刊（第266期)	sec-wiki.com	www.sec-wiki.com	/weekly/266
+20190408	其它	https://mp.weixin.qq.com/s/G7E8dslSN5S3wk3RrJL8BQ	工控安全从入门到实战——概述（二）	qq.com	mp.weixin.qq.com	/s/G7E8dslSN5S3wk3RrJL8BQ
+20190408	漏洞分析	https://xz.aliyun.com/t/4672	Ethereal 靶机渗透	aliyun.com	xz.aliyun.com	/t/4672
+20190408	运维安全	https://www.freebuf.com/articles/database/196754.html	等保到底是个啥（一）：物理安全部分	freebuf.com	www.freebuf.com	/articles/database/196754.html
+20190408	漏洞分析	https://www.jianshu.com/p/78d82cc15727	中国蚁剑居然爆出XSS\RCE	jianshu.com	www.jianshu.com	/p/78d82cc15727
+20190408	工具	https://github.com/lis912/Evaluation_tools	Evaluation_tools: 等级保护测评工具	github.com	github.com	/lis912/Evaluation_tools
+20190408	取证分析	https://www.freebuf.com/articles/network/200391.html	攻防对抗之蓝方技术分享总结	freebuf.com	www.freebuf.com	/articles/network/200391.html
+20190408	数据挖掘	https://kexue.fm/archives/6540	分享一次专业领域词汇的无监督挖掘	kexue.fm	kexue.fm	/archives/6540
+20190408	其它	https://my.oschina.net/editorial-story/blog/3031721	HTTP/3 基于 UDP，HTTP 协议这些年都经历了啥	oschina.net	my.oschina.net	/editorial-story/blog/3031721
+20190408	编程技术	https://www.4hou.com/others/16770.html	Domain fronting基本介绍	4hou.com	www.4hou.com	/others/16770.html
+20190408	漏洞分析	https://xz.aliyun.com/t/4761	Java 反序列化过程深究	aliyun.com	xz.aliyun.com	/t/4761
+20190408	数据挖掘	https://www.jiqizhixin.com/articles/2018-03-11-2	从七桥问题开始：全面介绍图论及其应用	jiqizhixin.com	www.jiqizhixin.com	/articles/2018-03-11-2
+20190408	观点	https://www.cdxy.me/?p=805	图/Louvain/DGA乱谈	cdxy.me	www.cdxy.me	/
+20190408	运维安全	https://www.freebuf.com/articles/security-management/197357.html	等保到底是个啥（二）：网络安全部分	freebuf.com	www.freebuf.com	/articles/security-management/197357.html
+20190408	取证分析	https://github.com/Nothing2Hide/pcap_ioc	pcap_ioc: Python library to extract potential IOCs from a pcap file	github.com	github.com	/Nothing2Hide/pcap_ioc
+20190408	运维安全	https://www.freebuf.com/articles/network/199120.html	等保到底是个啥（四）：应用与数据安全部分	freebuf.com	www.freebuf.com	/articles/network/199120.html
+20190408	运维安全	https://www.freebuf.com/articles/security-management/198517.html	等保到底是个啥（三）：主机安全部分	freebuf.com	www.freebuf.com	/articles/security-management/198517.html
+20190408	运维安全	https://www.freebuf.com/articles/security-management/199937.html	等保到底是个啥（五）：制度与人员安全部分	freebuf.com	www.freebuf.com	/articles/security-management/199937.html
+20190408	文档	https://www.anquanke.com/post/id/176194	从西湖论剑2019Storm_note看largebin attack	anquanke.com	www.anquanke.com	/post/id/176194
+20190408	数据挖掘	http://blog.nsfocus.net/exploring-countermeasure-attack-countermeasure-samples-based-gradient-perturbation/	基于梯度扰动探索对抗攻击与对抗样本	nsfocus.net	blog.nsfocus.net	/exploring-countermeasure-attack-countermeasure-samples-based-gradient-perturbation/
+20190408	运维安全	https://www.freebuf.com/articles/network/200023.html	小师妹聊如何部署IDPS	freebuf.com	www.freebuf.com	/articles/network/200023.html
+20190408	编程技术	https://yq.aliyun.com/articles/603329	MongoShake—基于MongoDB的跨数据中心的数据复制平台	aliyun.com	yq.aliyun.com	/articles/603329
+20190415	事件	https://nosec.org/home/detail/2487.html	维基解密公开的数千份可下载敏感文件	nosec.org	nosec.org	/home/detail/2487.html
+20190415	新闻	http://www.xinhuanet.com/legal/2019-04/18/c_1124383501.htm	国家安全机关公布三起境外网络攻击窃密案件	xinhuanet.com	www.xinhuanet.com	/legal/2019-04/18/c_1124383501.htm
+20190415	法规	http://www.beian.gov.cn/portal/topicDetail?id=88	互联网个人信息安全保护指南	beian.gov.cn	www.beian.gov.cn	/portal/topicDetail
+20190415	新闻	http://www.sasac.gov.cn/n2588035/n2588320/n2588335/c8108632/content.html	中央企业负责人经营业绩考核办法	sasac.gov.cn	www.sasac.gov.cn	/n2588035/n2588320/n2588335/c8108632/content.html
+20190415	新闻	https://mp.weixin.qq.com/s/uY9EzJAg7OtJKgcFYwOVEA	全球最大网络安全演习北约“锁盾”：法国夺冠	qq.com	mp.weixin.qq.com	/s/uY9EzJAg7OtJKgcFYwOVEA
+20190415	人物	https://mp.weixin.qq.com/s/MLvd1AmxE9YnkWWmB9L9VQ	腾讯云鼎实验室掌门人Killer谈网络安全	qq.com	mp.weixin.qq.com	/s/MLvd1AmxE9YnkWWmB9L9VQ
+20190415	新闻	http://www.miit.gov.cn/n1146285/n1146352/n3054355/n3057724/n3057728/c6794942/content.html	网络安全技术应用试点示范项目公示	miit.gov.cn	www.miit.gov.cn	/n1146285/n1146352/n3054355/n3057724/n3057728/c6794942/content.html
+20190415	观点	https://mp.weixin.qq.com/s/jJyq7bYuq1xxGXpfnmKP3g	企业海外机构信息安全保密风险分析及对策建议	qq.com	mp.weixin.qq.com	/s/jJyq7bYuq1xxGXpfnmKP3g
+20190415	Web安全	https://www.ddosi.com/b170/	Netsparker5.3破解版 Netsparker Pro 5.3.0.23162[cracked]	ddosi.com	www.ddosi.com	/b170/
+20190415	Web安全	https://nosec.org/home/detail/2483.html	阿里巴巴被发现了一个可以绕过waf的漏洞	nosec.org	nosec.org	/home/detail/2483.html
+20190415	其它	https://mp.weixin.qq.com/s/aw5V95kelBslFv-ScxUVMw	理清弄透：加密&解密、签名&验签	qq.com	mp.weixin.qq.com	/s/aw5V95kelBslFv-ScxUVMw
+20190415	Web安全	https://mp.weixin.qq.com/s/EWn9ktce3KB4P6zi4slnTA	一文洞悉DAST、SAST、IAST —Web应用安全测试技术对比浅谈	qq.com	mp.weixin.qq.com	/s/EWn9ktce3KB4P6zi4slnTA
+20190415	设备安全	https://mp.weixin.qq.com/s/RPLGCwb6do2LbIodFGoGBQ	针对VxWorks设备的分析工具VxHunter介绍	qq.com	mp.weixin.qq.com	/s/RPLGCwb6do2LbIodFGoGBQ
+20190415	运维安全	http://www.polaris-lab.com/index.php/archives/634/	osquery源码解读之分析shell_history	polaris-lab.com	www.polaris-lab.com	/index.php/archives/634/
+20190415	恶意分析	https://mp.weixin.qq.com/s/ptimjyH9wlamO83nPZMa-Q	2019年僵尸网络主动监测报告（第一期）	qq.com	mp.weixin.qq.com	/s/ptimjyH9wlamO83nPZMa-Q
+20190415	取证分析	https://mp.weixin.qq.com/s/bhWaKtVTqOLlJ1lj362rNA	隐私币应用全景观察	qq.com	mp.weixin.qq.com	/s/bhWaKtVTqOLlJ1lj362rNA
+20190415	运维安全	http://www.polaris-lab.com/index.php/archives/638/	osquery源码解读之分析process_open_socket	polaris-lab.com	www.polaris-lab.com	/index.php/archives/638/
+20190415	Web安全	https://mp.weixin.qq.com/s/R0M1V0X4eG_GnSyZK3Fz_A	Web弱口令通用检测方法探究	qq.com	mp.weixin.qq.com	/s/R0M1V0X4eG_GnSyZK3Fz_A
+20190415	漏洞分析	https://xz.aliyun.com/t/4844	Spring Cloud Config Server 路径穿越与任意文件读取漏洞分析	aliyun.com	xz.aliyun.com	/t/4844
+20190415	设备安全	https://www.anquanke.com/post/id/176481	VxWorks固件逆向：WRT54Gv8	anquanke.com	www.anquanke.com	/post/id/176481
+20190415	观点	https://mp.weixin.qq.com/s/pWZ3rRrRHOVMpxUc_vWgAg	真真假假的创新 - RSAC2019之三	qq.com	mp.weixin.qq.com	/s/pWZ3rRrRHOVMpxUc_vWgAg
+20190415	数据挖掘	https://mp.weixin.qq.com/s/OvTHpWXCwCH-k0jf8cQBTg	乱弹网络空间X检索	qq.com	mp.weixin.qq.com	/s/OvTHpWXCwCH-k0jf8cQBTg
+20190415	漏洞分析	https://drivertom.blogspot.com/2019/04/waf.html?m=1	客串逆向工程，一瞬获悬镜WAF规则	blogspot.com	drivertom.blogspot.com	/2019/04/waf.html
+20190415	数据挖掘	https://www.infoq.cn/article/rQ*fI3BN9mWGsDcTjAHf	基于Flink构建用户实时基础行为工程	infoq.cn	www.infoq.cn	/article/rQ*fI3BN9mWGsDcTjAHf
+20190415	运维安全	https://mp.weixin.qq.com/s/cyxC4Of4Ic9c_vujQayTLg	Red Team从0到1的实践与思考	qq.com	mp.weixin.qq.com	/s/cyxC4Of4Ic9c_vujQayTLg
+20190415	Web安全	https://mp.weixin.qq.com/s/qy_iunNY1DNnrnAsCpB3mw	FuzzScanner：自研信息搜集开源小工具	qq.com	mp.weixin.qq.com	/s/qy_iunNY1DNnrnAsCpB3mw
+20190415	Web安全	https://mp.weixin.qq.com/s/CYuNP7d52R_iwnpYNBREDw	后门木马变形计	qq.com	mp.weixin.qq.com	/s/CYuNP7d52R_iwnpYNBREDw
+20190415	漏洞分析	https://www.freebuf.com/articles/rookie/200207.html	个人PWN入坑常见方法总结	freebuf.com	www.freebuf.com	/articles/rookie/200207.html
+20190415	漏洞分析	https://paper.seebug.org/893/	Confluence 未授权 RCE 分析（CVE-2019-3396）	seebug.org	paper.seebug.org	/893/
+20190415	Web安全	https://www.4hou.com/tools/17226.html	DNScat2工具:通过DNS进行C&C通信	4hou.com	www.4hou.com	/tools/17226.html
+20190415	Web安全	https://bloodzer0.github.io/ossa/application-security/sdl/go-scp/	Go语言安全编码规范-翻译	github.io	bloodzer0.github.io	/ossa/application-security/sdl/go-scp/
+20190415	数据挖掘	https://www.freebuf.com/articles/web/199925.html	数据分析与可视化：谁是安全圈的吃鸡第一人	freebuf.com	www.freebuf.com	/articles/web/199925.html
+20190415	数据挖掘	https://mp.weixin.qq.com/s/PVoQI85YkDSzlA46FRU1OQ	刘知远：NLP研究入门之道（一）	qq.com	mp.weixin.qq.com	/s/PVoQI85YkDSzlA46FRU1OQ
+20190415	文档	http://www.sophos.com/CloudHoneypotsReport	Exposed: Cyberattacks on Cloud Honeypots	sophos.com	www.sophos.com	/CloudHoneypotsReport
+20190415	取证分析	https://www.freebuf.com/articles/es/201020.html	欺骗防御未来已来	freebuf.com	www.freebuf.com	/articles/es/201020.html
+20190415	漏洞分析	https://nosec.org/home/detail/2491.html	iSCSI未授权访问漏洞，数万iSCSI可能受影响	nosec.org	nosec.org	/home/detail/2491.html
+20190415	Web安全	https://medium.com/@y.shahinzadeh/chaining-multiple-vulnerabilities-waf-bypass-to-account-takeover-in-almost-all-alibabas-websites-f8643eaa2855	Multiple Vulnerabilities + WAF bypass to Account Takeover	medium.com	medium.com	/@y.shahinzadeh/chaining-multiple-vulnerabilities-waf-bypass-to-account-takeover-in-almost-all-alibabas-websites-f8643eaa2855
+20190415	数据挖掘	https://mp.weixin.qq.com/s/OYPooeIZp8hq4JebOHDJMg	下一代SIEM@AI：从UEBA到SOAR	qq.com	mp.weixin.qq.com	/s/OYPooeIZp8hq4JebOHDJMg
+20190415	数据挖掘	https://www.freebuf.com/articles/network/200564.html	浅析基于人格特征的内部高风险用户识别方法	freebuf.com	www.freebuf.com	/articles/network/200564.html
+20190415	Web安全	https://www.hahwul.com/2019/04/bypass-xss-protection-with-xmp-noscript-etc....html	Bypass XSS Protection with xmp, noscript, noframes.. etc..	hahwul.com	www.hahwul.com	/2019/04/bypass-xss-protection-with-xmp-noscript-etc....html
+20190415	设备安全	https://blog.quarkslab.com/reverse-engineering-broadcom-wireless-chipsets.html	Reverse-engineering Broadcom wireless chipsets	quarkslab.com	blog.quarkslab.com	/reverse-engineering-broadcom-wireless-chipsets.html
+20190415	数据挖掘	https://github.com/clone95/Virgilio	Virgilio: Your new Mentor for Data Science E-Learning	github.com	github.com	/clone95/Virgilio
+20190415	移动安全	https://medium.com/@targetpractice/cloak-and-dagger-malware-techniques-demystified-c4d8a035b94e	Android Cloak and Dagger Attack	medium.com	medium.com	/@targetpractice/cloak-and-dagger-malware-techniques-demystified-c4d8a035b94e
+20190415	恶意分析	https://github.com/PokemonGoTeam/CRYPTOPOKEMON	CRYPTOPOKEMON: Simple C++ cryptolocker Blowfish CBC	github.com	github.com	/PokemonGoTeam/CRYPTOPOKEMON
+20190415	恶意分析	https://posts.specterops.io/revisiting-ttps-timestomper-622d4c28a655	Revisiting TTPs: TimeStomper	specterops.io	posts.specterops.io	/revisiting-ttps-timestomper-622d4c28a655

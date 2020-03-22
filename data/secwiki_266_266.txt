@@ -1,0 +1,33 @@
+20190401	事件	https://nosec.org/home/detail/2450.html	美国常春藤名校Georgia Tech曝出影响130万人的数据泄漏事件	nosec.org	nosec.org	/home/detail/2450.html
+20190401	其它	https://mp.weixin.qq.com/s/AK6_wP_JtMW5DxzRyWaXXg	揭秘高利贷与黑产的血色战争	qq.com	mp.weixin.qq.com	/s/AK6_wP_JtMW5DxzRyWaXXg
+20190401	Web安全	https://websec.readthedocs.io/zh/latest/	Web安全学习笔记	readthedocs.io	websec.readthedocs.io	/zh/latest/
+20190401	其它	https://feei.cn/security-recruit	浅谈安全招聘	feei.cn	feei.cn	/security-recruit
+20190401	Web安全	https://mp.weixin.qq.com/s/X0mCJECAzyqxDBwhlP_3hg	Weblogic漏洞——从入门到放弃	qq.com	mp.weixin.qq.com	/s/X0mCJECAzyqxDBwhlP_3hg
+20190401	Web安全	https://xz.aliyun.com/t/4602	RemTeam攻击技巧和安全防御	aliyun.com	xz.aliyun.com	/t/4602
+20190401	Web安全	https://mp.weixin.qq.com/s/SnYoJlCpJDU4sqo3T4Q8EA	一个XSS挖矿马的曲折历程	qq.com	mp.weixin.qq.com	/s/SnYoJlCpJDU4sqo3T4Q8EA
+20190401	工具	https://mp.weixin.qq.com/s/v7W33rM0HF0rJl8-qBiPUw	Burp插件 – 自动标记敏感信息	qq.com	mp.weixin.qq.com	/s/v7W33rM0HF0rJl8-qBiPUw
+20190401	数据挖掘	https://zhuanlan.zhihu.com/p/60953933	kaggle 首战拿金牌总结	zhihu.com	zhuanlan.zhihu.com	/p/60953933
+20190401	Web安全	https://nosec.org/home/detail/2449.html	Google搜索的DOM型XSS漏洞	nosec.org	nosec.org	/home/detail/2449.html
+20190401	Web安全	https://nosec.org/home/detail/2436.html	metinfo 6.2.0最新版本前台注入分析	nosec.org	nosec.org	/home/detail/2436.html
+20190401	Web安全	https://github.com/zer0yu/CyberSecurityRSS	网络空间安全的RSS订阅	github.com	github.com	/zer0yu/CyberSecurityRSS
+20190401	取证分析	https://mp.weixin.qq.com/s/r-jAWFjtOxgd-JyVStFvsg	APT战争中脚本攻击的兵法之道	qq.com	mp.weixin.qq.com	/s/r-jAWFjtOxgd-JyVStFvsg
+20190401	设备安全	https://paper.seebug.org/879/	重现 TP-Link SR20 本地网络远程代码执行漏洞	seebug.org	paper.seebug.org	/879/
+20190401	移动安全	https://mp.weixin.qq.com/s/96cAZy8lsNYFK4c1tpTWuw	移动应用安全基础篇——Android、ios环境准备	qq.com	mp.weixin.qq.com	/s/96cAZy8lsNYFK4c1tpTWuw
+20190401	其它	https://mp.weixin.qq.com/s/JoBQ-RB5ANRrf2ic8ArDpQ	工控安全从入门到实战——概述（一）	qq.com	mp.weixin.qq.com	/s/JoBQ-RB5ANRrf2ic8ArDpQ
+20190401	其它	https://nosec.org/home/detail/2447.html	Hashcat教程：利用“规则”破解密码	nosec.org	nosec.org	/home/detail/2447.html
+20190401	恶意分析	https://mp.weixin.qq.com/s/enasXD14SMzj1Cx5grGD3w	谁劫持了我的DNS：全球域名解析路径劫持测量与分析	qq.com	mp.weixin.qq.com	/s/enasXD14SMzj1Cx5grGD3w
+20190401	取证分析	https://xz.aliyun.com/t/4599	OSINT Primer：人员（第2部分）	aliyun.com	xz.aliyun.com	/t/4599
+20190401	取证分析	https://github.com/Viralmaniar/I-See-You	I-See-You: Bash and Javascript tool to find the exact location of user	github.com	github.com	/Viralmaniar/I-See-You
+20190401	其它	https://github.com/ruanyf/document-style-guide	document-style-guide: 中文技术文档的写作规范	github.com	github.com	/ruanyf/document-style-guide
+20190401	论文	https://mp.weixin.qq.com/s/ZHcikLKeF9ZJg9kyrX-UrA	S&P 2019 论文录用列表	qq.com	mp.weixin.qq.com	/s/ZHcikLKeF9ZJg9kyrX-UrA
+20190401	Web安全	https://zhuanlan.zhihu.com/p/61464591	.NET CLR注入方法探讨	zhihu.com	zhuanlan.zhihu.com	/p/61464591
+20190401	取证分析	https://xz.aliyun.com/t/4600	OSINT Primer：组织（第3部分）	aliyun.com	xz.aliyun.com	/t/4600
+20190401	漏洞分析	https://github.com/google/vulncode-db	Vulncode-DB: database for vulnerabilities and corresponding source code	github.com	github.com	/google/vulncode-db
+20190401	Web安全	http://www.polaris-lab.com/index.php/archives/619/	前端动态变化对抗Selenium类自动化工具思路探索	polaris-lab.com	www.polaris-lab.com	/index.php/archives/619/
+20190401	设备安全	https://nosec.org/home/detail/2434.html	攻击者如何通过USB攻陷微控制器固件	nosec.org	nosec.org	/home/detail/2434.html
+20190401	Web安全	https://www.v2ex.com/t/552383	[硬核文] 前端核心代码保护技术面面观	v2ex.com	www.v2ex.com	/t/552383
+20190401	数据挖掘	https://mp.weixin.qq.com/s/Yd0wjUQ03XINnMFLkPkBJg	人工智能的现状与未来	qq.com	mp.weixin.qq.com	/s/Yd0wjUQ03XINnMFLkPkBJg
+20190401	漏洞分析	https://mp.weixin.qq.com/s/3Ft6205f8kUoCuGzB-hPtg	在调试器里看QQLive捉迷藏	qq.com	mp.weixin.qq.com	/s/3Ft6205f8kUoCuGzB-hPtg
+20190401	漏洞分析	https://xz.aliyun.com/t/4628	AFL源码分析笔记(一)	aliyun.com	xz.aliyun.com	/t/4628
+20190401	数据挖掘	https://mp.weixin.qq.com/s/vsCAE-6e0jpX8wPw6Sd9eA	使用深度神经网络对 Twitter进行威胁检测	qq.com	mp.weixin.qq.com	/s/vsCAE-6e0jpX8wPw6Sd9eA
+20190401	取证分析	https://corelight.blog/2019/02/19/examining-aspects-of-encrypted-traffic-through-zeek-logs/	Examining aspects of encrypted traffic through Zeek logs	corelight.blog	corelight.blog	/2019/02/19/examining-aspects-of-encrypted-traffic-through-zeek-logs/

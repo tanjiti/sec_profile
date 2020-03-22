@@ -1,0 +1,31 @@
+20190708	会议	https://mp.weixin.qq.com/s/ZFsrfCjtwrBiRaak1mbhsg	福利—中国互联网安全领袖峰会门票	qq.com	mp.weixin.qq.com	/s/ZFsrfCjtwrBiRaak1mbhsg
+20190708	新闻	http://blog.nsfocus.net/network-security-observation-2019/	2019上半年网络安全观察（2019.01.01-2019.06.30）	nsfocus.net	blog.nsfocus.net	/network-security-observation-2019/
+20190708	Web安全	https://github.com/r35tart/Penetration_Testing_Case	分享一些有趣的渗透案例	github.com	github.com	/r35tart/Penetration_Testing_Case
+20190708	观点	https://mp.weixin.qq.com/s/kVfyoD_zRnSrQjpL4HfYAQ	网络安全这点屁事	qq.com	mp.weixin.qq.com	/s/kVfyoD_zRnSrQjpL4HfYAQ
+20190708	设备安全	https://my.oschina.net/9199771/blog/3070429	参与电力行业安全课程有感	oschina.net	my.oschina.net	/9199771/blog/3070429
+20190708	Web安全	https://github.com/boy-hack/w13scan?from=timeline	w13scan: 被动扫描器	github.com	github.com	/boy-hack/w13scan
+20190708	漏洞分析	https://nosec.org/home/detail/2761.html	Zoom会议系统曝出高危漏洞，或影响400万电脑摄像头	nosec.org	nosec.org	/home/detail/2761.html
+20190708	Web安全	https://mp.weixin.qq.com/s/1w6-HwD2u9GRP6IMm5xScg	展望未来的APT发展之路	qq.com	mp.weixin.qq.com	/s/1w6-HwD2u9GRP6IMm5xScg
+20190708	数据挖掘	https://github.com/Rman0fCN/ML_Malware_detect	ML_Malware_detect: 阿里云安全恶意程序检测比赛	github.com	github.com	/Rman0fCN/ML_Malware_detect
+20190708	观点	https://mp.weixin.qq.com/s/yXA4BRbMfJNPQ68_-Nme6g	网络安全学习方法论之体系的重要性	qq.com	mp.weixin.qq.com	/s/yXA4BRbMfJNPQ68_-Nme6g
+20190708	漏洞分析	https://www.cnblogs.com/iamstudy/articles/redis_load_module_rce.html	Redis Rce	cnblogs.com	www.cnblogs.com	/iamstudy/articles/redis_load_module_rce.html
+20190708	工具	https://mp.weixin.qq.com/s/Y03VVF3sD9N0_H6TQlxYuQ	Knife：一个将有用的小功能加入Burp Suite右键菜单的插件	qq.com	mp.weixin.qq.com	/s/Y03VVF3sD9N0_H6TQlxYuQ
+20190708	漏洞分析	https://xz.aliyun.com/t/5571	CVE-2019-0863漏洞分析	aliyun.com	xz.aliyun.com	/t/5571
+20190708	设备安全	http://nisia.org.cn/filedownload/188104	中国工业信息安全产业发展白皮书（2018-2019）综合篇	nisia.org.cn	nisia.org.cn	/filedownload/188104
+20190708	取证分析	https://medium.com/@olafhartong/assess-your-data-potential-with-att-ck-datamap-f44884cfed11	Assess your data potential with ATT&CK Datamap	medium.com	medium.com	/@olafhartong/assess-your-data-potential-with-att-ck-datamap-f44884cfed11
+20190708	运维安全	http://www.polaris-lab.com/index.php/archives/646/	ss源代码调试&原理分析	polaris-lab.com	www.polaris-lab.com	/index.php/archives/646/
+20190708	Web安全	https://nosec.org/home/detail/2759.html	利用PHP的字符串解析特性绕过安全防护软件	nosec.org	nosec.org	/home/detail/2759.html
+20190708	漏洞分析	https://xz.aliyun.com/t/5638	Discuz!ML V3.X 代码注入分析	aliyun.com	xz.aliyun.com	/t/5638
+20190708	取证分析	https://github.com/XiaoXiaoGuaiXiaShi/OpenSource-HoneyPot	OpenSource-HoneyPot: 对开源蜜罐的学习研究与理解	github.com	github.com	/XiaoXiaoGuaiXiaShi/OpenSource-HoneyPot
+20190708	Web安全	https://mp.weixin.qq.com/s/KQ_17nJBPRcOTn-rPBRKTQ	Hacking WildFly	qq.com	mp.weixin.qq.com	/s/KQ_17nJBPRcOTn-rPBRKTQ
+20190708	无线安全	https://nosec.org/home/detail/2760.html	硬件安全|智能门锁安全研究方法总结	nosec.org	nosec.org	/home/detail/2760.html
+20190708	Web安全	https://3gstudent.github.io/Mimikatz%E4%B8%ADSSP%E7%9A%84%E4%BD%BF%E7%94%A8/	Mimikatz中SSP的使用	github.io	3gstudent.github.io	/Mimikatz%E4%B8%ADSSP%E7%9A%84%E4%BD%BF%E7%94%A8/
+20190708	取证分析	https://zhuanlan.zhihu.com/p/73172883	安全分析中的威胁情报（二）：ATT&CK	zhihu.com	zhuanlan.zhihu.com	/p/73172883
+20190708	设备安全	https://github.com/ismailtasdelen/redteam-hardware-toolkit	Red Team Hardware Toolkit	github.com	github.com	/ismailtasdelen/redteam-hardware-toolkit
+20190708	数据挖掘	https://mp.weixin.qq.com/s/1jutuzIq3xlkFejUFbLFFA	Graph Mining：审视世界的眼睛	qq.com	mp.weixin.qq.com	/s/1jutuzIq3xlkFejUFbLFFA
+20190708	文档	https://mp.weixin.qq.com/s/suXWmn_PM6zmm3loYO1Zgw	智能音箱网络安全与隐私研究报告	qq.com	mp.weixin.qq.com	/s/suXWmn_PM6zmm3loYO1Zgw
+20190708	取证分析	https://medium.com/katies-five-cents/a-top-10-reading-list-if-youre-getting-started-in-cyber-threat-intelligence-c11a18fc9798	A Top 10 Reading List if You’re Getting Started in Cyber Threat Intelligence	medium.com	medium.com	/katies-five-cents/a-top-10-reading-list-if-youre-getting-started-in-cyber-threat-intelligence-c11a18fc9798
+20190708	恶意分析	https://www.freebuf.com/articles/database/207469.html	APT34核心组件Glimpse：远控复现与流量分析	freebuf.com	www.freebuf.com	/articles/database/207469.html
+20190708	工具	https://github.com/thelinuxchoice/shellphish	Phishing Tool for 18 social media	github.com	github.com	/thelinuxchoice/shellphish
+20190708	取证分析	https://www.freebuf.com/articles/ics-articles/206856.html	防追踪溯源识别联网工控设备的方法	freebuf.com	www.freebuf.com	/articles/ics-articles/206856.html
+20190708	取证分析	https://medium.com/@sroberts/cti-reading-list-a93ccdd7469c	CTI Reading List	medium.com	medium.com	/@sroberts/cti-reading-list-a93ccdd7469c

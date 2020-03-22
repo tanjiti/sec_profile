@@ -1,0 +1,31 @@
+20190902	新闻	https://mp.weixin.qq.com/s/huQKnnsQtLn0uVZj-wz0Uw	2019年上半年上市网络安全公司经营简报	qq.com	mp.weixin.qq.com	/s/huQKnnsQtLn0uVZj-wz0Uw
+20190902	工具	https://github.com/dplusec/tgwechat	端对端加密的微信聊天插件	github.com	github.com	/dplusec/tgwechat
+20190902	编程技术	https://nosec.org/home/detail/2919.html	一款漏洞验证框架的构思	nosec.org	nosec.org	/home/detail/2919.html
+20190902	Web安全	https://mp.weixin.qq.com/s/S9Luvf2Drj4aDqKWUJjTwg	各种反弹shell 的总结part2	qq.com	mp.weixin.qq.com	/s/S9Luvf2Drj4aDqKWUJjTwg
+20190902	数据挖掘	https://bloodzer0.github.io/ossa/data_security/big_data_security_copy/	大数据安全核心技术（摘自CSDN）	github.io	bloodzer0.github.io	/ossa/data_security/big_data_security_copy/
+20190902	Web安全	https://mp.weixin.qq.com/s/vwF7aTvk-U-SnJqO3f80gA	安全开源项目之越权漏洞自动化检测	qq.com	mp.weixin.qq.com	/s/vwF7aTvk-U-SnJqO3f80gA
+20190902	漏洞分析	https://nosec.org/home/detail/2922.html	Grahql查询漏洞所引起的敏感信息泄露	nosec.org	nosec.org	/home/detail/2922.html
+20190902	杂志	https://www.sec-wiki.com/weekly/287	SecWiki周刊（第287期)	sec-wiki.com	www.sec-wiki.com	/weekly/287
+20190902	运维安全	https://mp.weixin.qq.com/s/JJkQ8S4qw0RigOoA9Xzhyw	企业如何构建有效的安全运营体系	qq.com	mp.weixin.qq.com	/s/JJkQ8S4qw0RigOoA9Xzhyw
+20190902	运维安全	https://mp.weixin.qq.com/s/gz77Yy3yKPM10JsDg1oyiw	Linux环境下无文件执行elf	qq.com	mp.weixin.qq.com	/s/gz77Yy3yKPM10JsDg1oyiw
+20190902	移动安全	http://iosre.com/t/ipa-ipa/15494	[ipa破解器] 零代码一键生成免越狱ipa！	iosre.com	iosre.com	/t/ipa-ipa/15494
+20190902	漏洞分析	https://nosec.org/home/detail/2924.html	推特的Golden Pulse Secure SSL VPN远程命令执行攻击链条	nosec.org	nosec.org	/home/detail/2924.html
+20190902	其它	https://mp.weixin.qq.com/s/AdrOhuA0mpjCtdpWjPC1jg	网络空间搜索引擎概述	qq.com	mp.weixin.qq.com	/s/AdrOhuA0mpjCtdpWjPC1jg
+20190902	工具	https://github.com/Ch1ngg/JWTPyCrack	JWTPyCrack-JWT攻击脚本	github.com	github.com	/Ch1ngg/JWTPyCrack
+20190902	漏洞分析	https://nosec.org/home/detail/2933.html	FastJson拒绝服务漏洞分析	nosec.org	nosec.org	/home/detail/2933.html
+20190902	数据挖掘	https://xz.aliyun.com/t/6175	通过基于时间的侧信道攻击识别WAF规则	aliyun.com	xz.aliyun.com	/t/6175
+20190902	工具	https://github.com/fireeye/SharPersist	fireeye/SharPersist	github.com	github.com	/fireeye/SharPersist
+20190902	恶意分析	https://medium.com/@william.fleshman/evading-machine-learning-malware-classifiers-ce52dabdb713	Evading Machine Learning Malware Classifiers	medium.com	medium.com	/@william.fleshman/evading-machine-learning-malware-classifiers-ce52dabdb713
+20190902	恶意分析	http://blog.nsfocus.net/dns-tunnel-communication-characteristics-detection/	DNS 隧道通信特征与检测	nsfocus.net	blog.nsfocus.net	/dns-tunnel-communication-characteristics-detection/
+20190902	取证分析	https://tech.meituan.com/2018/05/20/data-security-protection-new-exploration.html	互联网公司数据安全保护新探索	meituan.com	tech.meituan.com	/2018/05/20/data-security-protection-new-exploration.html
+20190902	恶意分析	https://www.microsoft.com/security/blog/2019/09/03/deep-learning-rises-new-methods-for-detecting-malicious-powershell/	Deep learning rises: New methods for detecting malicious PowerShell	microsoft.com	www.microsoft.com	/security/blog/2019/09/03/deep-learning-rises-new-methods-for-detecting-malicious-powershell/
+20190902	运维安全	https://mp.weixin.qq.com/s/ab9GKXfaNeGLiBbp6_jh-A	利用ptrace和memfd_create混淆程序名和参数	qq.com	mp.weixin.qq.com	/s/ab9GKXfaNeGLiBbp6_jh-A
+20190902	比赛	http://zeroyu.xyz/2019/09/05/2019-suctf-writeup/	2019 suctf writeup	zeroyu.xyz	zeroyu.xyz	/2019/09/05/2019-suctf-writeup/
+20190902	数据挖掘	https://mp.weixin.qq.com/s/hIGmW_J5xEvLUXa4hFHzsA	百度实体链接比赛后记：行为建模和实体链接（含代码分享）	qq.com	mp.weixin.qq.com	/s/hIGmW_J5xEvLUXa4hFHzsA
+20190902	编程技术	http://www.polaris-lab.com/index.php/archives/666/	Linux环境下无文件执行elf	polaris-lab.com	www.polaris-lab.com	/index.php/archives/666/
+20190902	取证分析	https://mp.weixin.qq.com/s/6BEY9qpi0rfk1_T1k1lWmg	一种基于欺骗防御的入侵检测技术研究	qq.com	mp.weixin.qq.com	/s/6BEY9qpi0rfk1_T1k1lWmg
+20190902	漏洞分析	https://github.com/mame82/UnifyingVulnsDisclosureRepo/tree/master/vulnerability_reports	Logitech Unifying Vulnerabilities	github.com	github.com	/mame82/UnifyingVulnsDisclosureRepo/tree/master/vulnerability_reports
+20190902	数据挖掘	https://mp.weixin.qq.com/s/KqyF7epXWRhaT4spGWHXSw	社交网络影响集体决策，或改变选举结果	qq.com	mp.weixin.qq.com	/s/KqyF7epXWRhaT4spGWHXSw
+20190902	Web安全	https://leucosite.com/Microsoft-Edge-uXSS/	(CVE-2019-1030) Microsoft Edge - Universal XSS	leucosite.com	leucosite.com	/Microsoft-Edge-uXSS/
+20190902	漏洞分析	http://blog.orange.tw/2019/09/attacking-ssl-vpn-part-3-golden-pulse-secure-rce-chain.html	Attacking SSL VPN - Part 3: The Golden Pulse Secure SSL VPN RCE Chain	orange.tw	blog.orange.tw	/2019/09/attacking-ssl-vpn-part-3-golden-pulse-secure-rce-chain.html
+20190902	恶意分析	https://zerodot1.gitlab.io/CoinBlockerListsWeb/	CoinBlockerLists	gitlab.io	zerodot1.gitlab.io	/CoinBlockerListsWeb/

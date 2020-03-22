@@ -1,0 +1,48 @@
+20200106	法规	http://www.cac.gov.cn/2019-12/20/c_1578375159509309.htm	网络信息内容生态治理规定	cac.gov.cn	www.cac.gov.cn	/2019-12/20/c_1578375159509309.htm
+20200106	新闻	https://mp.weixin.qq.com/s/D23I3qEpMs8eOFKy8w2RJg	DARPA发布战略框架文件《保障国家安全的突破性技术和新能力》	qq.com	mp.weixin.qq.com	/s/D23I3qEpMs8eOFKy8w2RJg
+20200106	Web安全	https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E6%B4%BB%E5%8A%A8%E7%9B%AE%E5%BD%95%E4%BF%A1%E6%81%AF%E7%9A%84%E8%8E%B7%E5%8F%96/	渗透基础——活动目录信息的获取	github.io	3gstudent.github.io	/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E6%B4%BB%E5%8A%A8%E7%9B%AE%E5%BD%95%E4%BF%A1%E6%81%AF%E7%9A%84%E8%8E%B7%E5%8F%96/
+20200106	Web安全	https://mp.weixin.qq.com/s/VwhALBXqIPOh87Ll3ISVHQ	安全开源项目之分布式被动安全扫描	qq.com	mp.weixin.qq.com	/s/VwhALBXqIPOh87Ll3ISVHQ
+20200106	Web安全	https://mp.weixin.qq.com/s/uc-fHmIseYuxrRSkCxYeaQ	日志分析系列(二):平台实现篇	qq.com	mp.weixin.qq.com	/s/uc-fHmIseYuxrRSkCxYeaQ
+20200106	其它	https://mp.weixin.qq.com/s/Cjd7CCR0kZESP2GHX1oOvQ	商业网络培训靶场的发展态势综述	qq.com	mp.weixin.qq.com	/s/Cjd7CCR0kZESP2GHX1oOvQ
+20200106	杂志	https://www.sec-wiki.com/weekly/305	SecWiki周刊（第305期)	sec-wiki.com	www.sec-wiki.com	/weekly/305
+20200106	漏洞分析	https://www.anquanke.com/post/id/196364	ThinkPHP v5.0.x 反序列化利用链挖掘	anquanke.com	www.anquanke.com	/post/id/196364
+20200106	数据挖掘	https://mp.weixin.qq.com/s/hvLN83rPiNLw6cmrYDRPpA	大数据安全分析平台搭建&相关经验分享	qq.com	mp.weixin.qq.com	/s/hvLN83rPiNLw6cmrYDRPpA
+20200106	恶意分析	https://www.freebuf.com/articles/others-articles/224051.html	机器学习与恶意代码检测	freebuf.com	www.freebuf.com	/articles/others-articles/224051.html
+20200106	漏洞分析	https://mp.weixin.qq.com/s/d3owzqQFhHNVoPFIyxWZsQ	CVE-2017-11882理论以及实战样本分析	qq.com	mp.weixin.qq.com	/s/d3owzqQFhHNVoPFIyxWZsQ
+20200106	编程技术	https://mp.weixin.qq.com/s/brUQ8m3oAxYaJeSNa4qAFQ	闯荡Linux帝国：nginx的创业故事	qq.com	mp.weixin.qq.com	/s/brUQ8m3oAxYaJeSNa4qAFQ
+20200106	运维安全	https://github.com/ztosec/hunter	Hunter 中通DevSecOps闭环方案	github.com	github.com	/ztosec/hunter
+20200106	Web安全	https://xz.aliyun.com/t/7051	深入研究Pass-the-Hash攻击与防御	aliyun.com	xz.aliyun.com	/t/7051
+20200106	Web安全	https://payloads.cn/2020/0109/ssh-encrypted-tunnel-port-forwarding.html	SSH加密隧道之端口转发	payloads.cn	payloads.cn	/2020/0109/ssh-encrypted-tunnel-port-forwarding.html
+20200106	数据挖掘	https://zhuanlan.zhihu.com/p/69360094	知识图谱构建技术综述与实践	zhihu.com	zhuanlan.zhihu.com	/p/69360094
+20200106	恶意分析	https://mp.weixin.qq.com/s/uLP2DzH5W2PcLCKZl7Cpsw	谈谈情报引领的安全体系建设落地	qq.com	mp.weixin.qq.com	/s/uLP2DzH5W2PcLCKZl7Cpsw
+20200106	数据挖掘	https://mp.weixin.qq.com/s/N87PZ783qY1JBe5Xm_tDsg	IPv6地址扫描方法研究综述	qq.com	mp.weixin.qq.com	/s/N87PZ783qY1JBe5Xm_tDsg
+20200106	取证分析	https://www.lightbluetouchpaper.org/2020/01/04/honware-a-virtual-honeypot-framework-for-capturing-cpe-and-iot-zero-days/	Honware: A Virtual Honeypot Framework for Capturing CPE and IoT Zero Days	lightbluetouchpaper.org	www.lightbluetouchpaper.org	/2020/01/04/honware-a-virtual-honeypot-framework-for-capturing-cpe-and-iot-zero-days/
+20200106	Web安全	https://xz.aliyun.com/t/7071	Empire的进攻性研究	aliyun.com	xz.aliyun.com	/t/7071
+20200106	漏洞分析	https://www.anquanke.com/post/id/196954	pwn的艺术浅谈（一）：linux栈溢出	anquanke.com	www.anquanke.com	/post/id/196954
+20200106	移动安全	https://mp.weixin.qq.com/s/p41sAdGJzHx-CuulwycMJw	2019年移动安全总结	qq.com	mp.weixin.qq.com	/s/p41sAdGJzHx-CuulwycMJw
+20200106	漏洞分析	https://www.freebuf.com/sectool/224294.html	基于AFL的Java程序Fuzz工具：Kelinci	freebuf.com	www.freebuf.com	/sectool/224294.html
+20200106	取证分析	https://mp.weixin.qq.com/s/Z1sAbpSYZXYBO5qpgvjXlQ	基于ATT&CK+SOAR的运营实践	qq.com	mp.weixin.qq.com	/s/Z1sAbpSYZXYBO5qpgvjXlQ
+20200106	恶意分析	https://mp.weixin.qq.com/s/rvPo_ufBwvdAUoVIv__xCg	恶意域名检测中的流量特征分析	qq.com	mp.weixin.qq.com	/s/rvPo_ufBwvdAUoVIv__xCg
+20200106	文档	http://pg.jrj.com.cn/acc/Res/CN_RES/INDUS/2019/12/31/934f8942-0608-400b-abe2-71dd4549c385.pdf	电信网络诈骗治理与人工智 能应用白皮书(2019 年)	jrj.com.cn	pg.jrj.com.cn	/acc/Res/CN_RES/INDUS/2019/12/31/934f8942-0608-400b-abe2-71dd4549c385.pdf
+20200106	恶意分析	https://mp.weixin.qq.com/s/FGt-y3KxGPRP-FT2ubDOZA	2019僵尸网络DDoS攻击监测总结	qq.com	mp.weixin.qq.com	/s/FGt-y3KxGPRP-FT2ubDOZA
+20200106	Web安全	https://medium.com/@terjanq/blind-sql-injection-without-an-in-1e14ba1d4952	Blind SQL Injection without an “in”	medium.com	medium.com	/@terjanq/blind-sql-injection-without-an-in-1e14ba1d4952
+20200106	论文	https://feysh.com/ranking/	G.O.S.S.I.P 安全学术会议排行榜（2019版）	feysh.com	feysh.com	/ranking/
+20200106	数据挖掘	https://www.freebuf.com/articles/database/224617.html	我眼中的数据安全治理	freebuf.com	www.freebuf.com	/articles/database/224617.html
+20200106	漏洞分析	https://mp.weixin.qq.com/s/pbOOkxrV0HJFzQicJ0m6Cg	针对物联网设备的模糊测试概述	qq.com	mp.weixin.qq.com	/s/pbOOkxrV0HJFzQicJ0m6Cg
+20200106	Web安全	https://mp.weixin.qq.com/s/ou3L-IU1CNr9EGkpjH2u0w	Java动态类加载，当FastJson遇上内网	qq.com	mp.weixin.qq.com	/s/ou3L-IU1CNr9EGkpjH2u0w
+20200106	编程技术	https://mp.weixin.qq.com/s/esc9gWg42vyPkT58HCKNgg	内核地址空间大冒险：系统调用	qq.com	mp.weixin.qq.com	/s/esc9gWg42vyPkT58HCKNgg
+20200106	漏洞分析	https://paper.seebug.org/1109/	pwn的艺术浅谈（二）：linux堆相关	seebug.org	paper.seebug.org	/1109/
+20200106	比赛	https://xz.aliyun.com/t/7054	Hacker101 CTF Encrypted Pastebin write-up	aliyun.com	xz.aliyun.com	/t/7054
+20200106	其它	https://paper.seebug.org/1110/	聊聊区块链中的几个技术点	seebug.org	paper.seebug.org	/1110/
+20200106	数据挖掘	https://mp.weixin.qq.com/s/7ROSm_wQNMAKLWUR0djVLQ	2019年NLP领域总结回顾	qq.com	mp.weixin.qq.com	/s/7ROSm_wQNMAKLWUR0djVLQ
+20200106	论文	https://www.inforsec.org/wp/?p=3810	网络空间安全国际学术成果分享（上）	inforsec.org	www.inforsec.org	/wp/
+20200106	论文	http://openkg.cn/dataset/2a29c161-0ac0-409b-bfd5-0fead34e3e61	OpenKG论文浅尝2019年论文汇编(20+篇知识图谱相关论文笔记)	openkg.cn	openkg.cn	/dataset/2a29c161-0ac0-409b-bfd5-0fead34e3e61
+20200106	漏洞分析	https://seclists.org/fulldisclosure/2020/Jan/10	Fortinet FortiSIEM Hardcoded SSH Key	seclists.org	seclists.org	/fulldisclosure/2020/Jan/10
+20200106	恶意分析	https://kindredsec.com/2020/01/07/the-basics-of-packed-malware-manually-unpacking-upx-executables/	Manually Unpacking UPX Executables	kindredsec.com	kindredsec.com	/2020/01/07/the-basics-of-packed-malware-manually-unpacking-upx-executables/
+20200106	运维安全	https://medium.com/mitre-attack/launching-attack-for-ics-2be4d2fb9b8	ATT&CK for ICS	medium.com	medium.com	/mitre-attack/launching-attack-for-ics-2be4d2fb9b8
+20200106	漏洞分析	https://labs.bluefrostsecurity.de/blog/2020/01/07/cve-2019-1215-analysis-of-a-use-after-free-in-ws2ifsl/	CVE-2019-1215 Analysis of a Use After Free in ws2ifsl	bluefrostsecurity.de	labs.bluefrostsecurity.de	/blog/2020/01/07/cve-2019-1215-analysis-of-a-use-after-free-in-ws2ifsl/
+20200106	设备安全	https://mp.weixin.qq.com/s/4kO3pU_tCDZmgj2CkROzMg	物联网安全系列之远程破解Google Home	qq.com	mp.weixin.qq.com	/s/4kO3pU_tCDZmgj2CkROzMg
+20200106	Web安全	https://sidechannel.tempestsi.com/the-cypher-injection-saga-9698d19bed4	The Cypher Injection Saga	tempestsi.com	sidechannel.tempestsi.com	/the-cypher-injection-saga-9698d19bed4
+20200106	漏洞分析	https://www.errno.fr/nfs_privesc	A tale of a lesser known NFS privesc	errno.fr	www.errno.fr	/nfs_privesc
+20200106	Web安全	https://medium.com/@alex.birsan/the-bug-that-exposed-your-paypal-password-539fc2896da9	The Bug That Exposed Your PayPal Password	medium.com	medium.com	/@alex.birsan/the-bug-that-exposed-your-paypal-password-539fc2896da9
+20200106	工具	http://www.offensiveops.io/red-team/dns-beacon-through-dnsmasq-redirectors/	DNS Beacon through DNSMasq Redirectors	offensiveops.io	www.offensiveops.io	/red-team/dns-beacon-through-dnsmasq-redirectors/

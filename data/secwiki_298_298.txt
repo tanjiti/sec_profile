@@ -1,0 +1,34 @@
+20191111	新闻	https://mp.weixin.qq.com/s/XIAaaZetvfLa5KO-7Q6rlg	广东公安“净网2019”专项行动典型网络违法犯罪案例	qq.com	mp.weixin.qq.com	/s/XIAaaZetvfLa5KO-7Q6rlg
+20191111	新闻	https://mp.weixin.qq.com/s/GaIn1X9QRb5WMQQctjLvEA	公安部通报“净网2019”专项行动情况及典型案例	qq.com	mp.weixin.qq.com	/s/GaIn1X9QRb5WMQQctjLvEA
+20191111	法规	https://mp.weixin.qq.com/s/O9ue3cZjw5kfVFyFkoaeUg	网络爬虫行为的刑事规制	qq.com	mp.weixin.qq.com	/s/O9ue3cZjw5kfVFyFkoaeUg
+20191111	Web安全	https://blog.csdn.net/sun1318578251/article/details/102524100	sqlmap不为人知的骚操作	csdn.net	blog.csdn.net	/sun1318578251/article/details/102524100
+20191111	Web安全	https://xz.aliyun.com/t/6701	从0到1打造一款堪称完美antSword(蚁剑)	aliyun.com	xz.aliyun.com	/t/6701
+20191111	取证分析	https://www.freebuf.com/articles/system/218407.html	最全Linux应急响应技巧	freebuf.com	www.freebuf.com	/articles/system/218407.html
+20191111	Web安全	https://blog.donot.me/domain-fronted/	Domain Fronted仍然是最佳的C2隐藏手段	donot.me	blog.donot.me	/domain-fronted/
+20191111	工具	https://mp.weixin.qq.com/s/OuZFGEnPwavCBHrfsEK0IQ	代码审计工具Fortify 17.10及Mac平台license版本	qq.com	mp.weixin.qq.com	/s/OuZFGEnPwavCBHrfsEK0IQ
+20191111	工具	https://github.com/mohuihui/antispy	antispy: Windows下手工杀毒辅助工具开源	github.com	github.com	/mohuihui/antispy
+20191111	恶意分析	https://xz.aliyun.com/t/6727	基于主机的反弹shell检测思路	aliyun.com	xz.aliyun.com	/t/6727
+20191111	取证分析	https://mp.weixin.qq.com/s/-K5B_ZdxLxN7oSCVfWMWpg	ATT&CK 实战指南	qq.com	mp.weixin.qq.com	/s/-K5B_ZdxLxN7oSCVfWMWpg
+20191111	其它	https://www.key1.top/index.php/archives/583/	工控安全：攻防演示案例分享(持续更新)	key1.top	www.key1.top	/index.php/archives/583/
+20191111	Web安全	https://github.com/phantom0301/PTEye	PTEye: 代理黑盒漏洞审计工具	github.com	github.com	/phantom0301/PTEye
+20191111	取证分析	https://mp.weixin.qq.com/s/_RcHF1vXPp1cnzXvGWnGvQ	浅谈新手入门级红蓝对抗系列之—Sysmon攻防	qq.com	mp.weixin.qq.com	/s/_RcHF1vXPp1cnzXvGWnGvQ
+20191111	其它	https://mp.weixin.qq.com/s/Y0HLoMKa7qDyPfq5PdgiRA	美空军网络空间训练靶场（SIMTEX）	qq.com	mp.weixin.qq.com	/s/Y0HLoMKa7qDyPfq5PdgiRA
+20191111	数据挖掘	https://github.com/bettenW/Tencent2019_Finals_Rank1st	2019腾讯广告算法大赛完整代码（冠军）	github.com	github.com	/bettenW/Tencent2019_Finals_Rank1st
+20191111	其它	https://mp.weixin.qq.com/s/m-ouMuBGX4BhHohV52Kykg	漫谈威胁建模下的安全通信	qq.com	mp.weixin.qq.com	/s/m-ouMuBGX4BhHohV52Kykg
+20191111	观点	https://mp.weixin.qq.com/s/Y6IpGYG8J8BjluOaFwNRpQ	漫谈高阶漏洞攻防演进和现实威胁	qq.com	mp.weixin.qq.com	/s/Y6IpGYG8J8BjluOaFwNRpQ
+20191111	Web安全	https://lorexxar.cn/2019/07/10/redis-5-x-rce/	Redis 基于主从复制的RCE利用方式	lorexxar.cn	lorexxar.cn	/2019/07/10/redis-5-x-rce/
+20191111	数据挖掘	https://mp.weixin.qq.com/s/8G-d3VT_I6ucRVrGm4VO2A	探索将预训练语言模型用于事件抽取和事件生成	qq.com	mp.weixin.qq.com	/s/8G-d3VT_I6ucRVrGm4VO2A
+20191111	观点	https://mp.weixin.qq.com/s/0gWbyL0Qkz4IHIRtLX4faQ	由阅兵想到安全建设不要井底之蛙	qq.com	mp.weixin.qq.com	/s/0gWbyL0Qkz4IHIRtLX4faQ
+20191111	杂志	https://www.sec-wiki.com/weekly/297	SecWiki周刊（第297期)	sec-wiki.com	www.sec-wiki.com	/weekly/297
+20191111	漏洞分析	https://mp.weixin.qq.com/s/8OSdYVTkv0J12ZKbLacITw	Bitbucket|gitlab 参数注入漏洞	qq.com	mp.weixin.qq.com	/s/8OSdYVTkv0J12ZKbLacITw
+20191111	观点	https://mp.weixin.qq.com/s/5LoHskp_SBNsuImQhK_GKA	谈谈开展信息安全工作的四个权力	qq.com	mp.weixin.qq.com	/s/5LoHskp_SBNsuImQhK_GKA
+20191111	数据挖掘	https://mp.weixin.qq.com/s/iGWa0XMjiP4lyLvOOZZwig	IPv6地址扫描实践分享	qq.com	mp.weixin.qq.com	/s/iGWa0XMjiP4lyLvOOZZwig
+20191111	移动安全	https://www.key1.top/index.php/archives/423/	智能汽车安全研究：风险点、破解案例、研究工具	key1.top	www.key1.top	/index.php/archives/423/
+20191111	设备安全	https://mp.weixin.qq.com/s/Pbru2pe-KeptQ909w4pk9w	汽车安全测试Checklist	qq.com	mp.weixin.qq.com	/s/Pbru2pe-KeptQ909w4pk9w
+20191111	数据挖掘	https://mp.weixin.qq.com/s/h-jrWoaIofnpBppKpZK2sw	ATT&CK 在大数据安全分析中的应用思考	qq.com	mp.weixin.qq.com	/s/h-jrWoaIofnpBppKpZK2sw
+20191111	设备安全	https://github.com/qq4108863/himqtt	himqtt: MQTT物联网防火墙源码	github.com	github.com	/qq4108863/himqtt
+20191111	Web安全	https://www.anquanke.com/post/id/192968	Java框架级SSM代码审计思路	anquanke.com	www.anquanke.com	/post/id/192968
+20191111	数据挖掘	https://mp.weixin.qq.com/s/JAWDIN3FnPgHb_hrXI7Obw	基于Attention的知识图谱关系预测	qq.com	mp.weixin.qq.com	/s/JAWDIN3FnPgHb_hrXI7Obw
+20191111	其它	https://mp.weixin.qq.com/s/rijHYfo6jmaRHfQmi3XwGw	靶场发展态势③美国防部赛博安全靶场（IAR/CSR）	qq.com	mp.weixin.qq.com	/s/rijHYfo6jmaRHfQmi3XwGw
+20191111	观点	https://mp.weixin.qq.com/s/nvrFpVpBYe-r9Z0m_naxSA	供应链安全：安全建设中的第三方组件依赖问题	qq.com	mp.weixin.qq.com	/s/nvrFpVpBYe-r9Z0m_naxSA
+20191111	恶意分析	https://xz.aliyun.com/t/6705	基于卷积神经网络的恶意代码家族标注	aliyun.com	xz.aliyun.com	/t/6705

@@ -1,0 +1,34 @@
+20200224	观点	https://www.solidot.org/story?sid=63648	2019 年断网报告	solidot.org	www.solidot.org	/story
+20200224	Web安全	https://mp.weixin.qq.com/s/Jvhj7jUeXLxGKRUfS8LdFw	自动化渗透测试工具包：APT2	qq.com	mp.weixin.qq.com	/s/Jvhj7jUeXLxGKRUfS8LdFw
+20200224	Web安全	https://blog.blankshell.com/2020/02/26/%e7%bb%9d%e8%b7%af%e9%80%a2%e7%94%9f%e5%87%ba0day-system%e6%9d%83%e9%99%90%e5%86%85%e7%bd%91%e6%bc%ab%e6%b8%b8/	绝路逢生出0day——SYTSTEM权限内网漫游	blankshell.com	blog.blankshell.com	/2020/02/26/%e7%bb%9d%e8%b7%af%e9%80%a2%e7%94%9f%e5%87%ba0day-system%e6%9d%83%e9%99%90%e5%86%85%e7%bd%91%e6%bc%ab%e6%b8%b8/
+20200224	运维安全	https://mp.weixin.qq.com/s/Lhf_aE2gLclVt_28bCjEkQ	挖矿应急响应小结	qq.com	mp.weixin.qq.com	/s/Lhf_aE2gLclVt_28bCjEkQ
+20200224	Web安全	https://mp.weixin.qq.com/s/2sjGHIiLICxHl91xIqdXfg	Web源码泄漏漏洞及其利用	qq.com	mp.weixin.qq.com	/s/2sjGHIiLICxHl91xIqdXfg
+20200224	取证分析	https://projectsharp.org/2020/02/23/APT%20%E5%88%86%E6%9E%90%E5%8F%8A%20TTPs%20%E6%8F%90%E5%8F%96/	APT 分析及 TTPs 提取	projectsharp.org	projectsharp.org	/2020/02/23/APT%20%E5%88%86%E6%9E%90%E5%8F%8A%20TTPs%20%E6%8F%90%E5%8F%96/
+20200224	Web安全	https://mp.weixin.qq.com/s/WAqgHn0DrXerEeow131w4Q	Cobalt Strike 从入门到入狱	qq.com	mp.weixin.qq.com	/s/WAqgHn0DrXerEeow131w4Q
+20200224	取证分析	https://mp.weixin.qq.com/s/akb1SLiXj8ts3-RxiXks2w	入侵分析钻石模型学习笔记	qq.com	mp.weixin.qq.com	/s/akb1SLiXj8ts3-RxiXks2w
+20200224	运维安全	https://mp.weixin.qq.com/s/Hywbb1ZnRo6n4gFFp5rbcQ	linux无文件执行— fexecve 揭秘	qq.com	mp.weixin.qq.com	/s/Hywbb1ZnRo6n4gFFp5rbcQ
+20200224	无线安全	https://www.anquanke.com/post/id/198063	针对航空电子系统的攻击	anquanke.com	www.anquanke.com	/post/id/198063
+20200224	漏洞分析	https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/	AWS IAM Privilege Escalation – Methods and Mitigation	rhinosecuritylabs.com	rhinosecuritylabs.com	/aws/aws-privilege-escalation-methods-mitigation/
+20200224	漏洞分析	https://blog.csdn.net/sun1318578251/article/details/104426472	一篇文章读懂Java代码审计之XXE	csdn.net	blog.csdn.net	/sun1318578251/article/details/104426472
+20200224	数据挖掘	https://mp.weixin.qq.com/s/uYP8Eyz36JyTWska0hvtuA	自研万亿级图数据库 & 图计算实践	qq.com	mp.weixin.qq.com	/s/uYP8Eyz36JyTWska0hvtuA
+20200224	漏洞分析	https://mweissbacher.com/blog/2020/02/23/hotfuzz-fuzzing-java-programs-for-algorithmic-complexity-vulnerabilities/	HotFuzz – Fuzzing Java Programs for Algorithmic Complexity Vulnerabilities	mweissbacher.com	mweissbacher.com	/blog/2020/02/23/hotfuzz-fuzzing-java-programs-for-algorithmic-complexity-vulnerabilities/
+20200224	Web安全	https://mp.weixin.qq.com/s/WSKpvCEDLpixXUQzKCFcvA	SDL最初实践（完结）Paper下载	qq.com	mp.weixin.qq.com	/s/WSKpvCEDLpixXUQzKCFcvA
+20200224	Web安全	https://xz.aliyun.com/t/7242	浅析CORS攻击及其挖洞思路	aliyun.com	xz.aliyun.com	/t/7242
+20200224	杂志	https://www.sec-wiki.com/weekly/312	SecWiki周刊（第312期)	sec-wiki.com	www.sec-wiki.com	/weekly/312
+20200224	其它	https://zhuanlan.zhihu.com/p/108995767	信息安全风险评估与FAIR模型学习笔记	zhihu.com	zhuanlan.zhihu.com	/p/108995767
+20200224	数据挖掘	https://www.freebuf.com/articles/network/226672.html	Github敏感数据分析	freebuf.com	www.freebuf.com	/articles/network/226672.html
+20200224	Web安全	https://xz.aliyun.com/t/7245	SSH隧道技术在实战中的使用	aliyun.com	xz.aliyun.com	/t/7245
+20200224	数据挖掘	https://www.elastic.co/cn/blog/discovering-anomalous-patterns-based-on-parent-child-process-relationships	Detecting attackers using anomalous patterns in machine learning	elastic.co	www.elastic.co	/cn/blog/discovering-anomalous-patterns-based-on-parent-child-process-relationships
+20200224	其它	https://mp.weixin.qq.com/s/Gf937RjTpA0QsT2DJFQRqQ	2020 Google夏日编程之安全项目列表	qq.com	mp.weixin.qq.com	/s/Gf937RjTpA0QsT2DJFQRqQ
+20200224	数据挖掘	https://github.com/insanitybit/grapl	grapl: Graph platform for Detection and Response	github.com	github.com	/insanitybit/grapl
+20200224	运维安全	https://mp.weixin.qq.com/s/AkXj7K2ZswSXeY4AkGz5hQ	沙盒syscall监控组件：strace and wtrace	qq.com	mp.weixin.qq.com	/s/AkXj7K2ZswSXeY4AkGz5hQ
+20200224	漏洞分析	http://www.whsgwl.net/blog/CVE-2018-8453_0.html	CVE-2018-8453 从BSOD到ExpLoit (上)	whsgwl.net	www.whsgwl.net	/blog/CVE-2018-8453_0.html
+20200224	漏洞分析	http://www.whsgwl.net/blog/CVE-2018-8453_1.html	CVE-2018-8453 从BSOD到ExpLoit (下)	whsgwl.net	www.whsgwl.net	/blog/CVE-2018-8453_1.html
+20200224	恶意分析	https://xz.aliyun.com/t/7263	使用Suricata和ELK进行流量检测	aliyun.com	xz.aliyun.com	/t/7263
+20200224	恶意分析	https://www.aqniu.com/tools-tech/64283.html	OilRig攻击的DNS隧道行为简介	aqniu.com	www.aqniu.com	/tools-tech/64283.html
+20200224	观点	https://mp.weixin.qq.com/s/V6P-6X_fnw_kvHWMxtqwLg	网安产业结构和动力分析——从合规型向能力型	qq.com	mp.weixin.qq.com	/s/V6P-6X_fnw_kvHWMxtqwLg
+20200224	漏洞分析	https://github.com/reddelexc/hackerone-reports	Top disclosed reports from HackerOne	github.com	github.com	/reddelexc/hackerone-reports
+20200224	观点	https://mp.weixin.qq.com/s/kbiZuNEnhb-WggRemUN9TQ	商业网络培训靶场的形态及思考	qq.com	mp.weixin.qq.com	/s/kbiZuNEnhb-WggRemUN9TQ
+20200224	Web安全	https://mp.weixin.qq.com/s/wlDWTxXHjbZJqmzLCM-z_w	利用CodeQL寻找Java Deserialization Vulnerabilities	qq.com	mp.weixin.qq.com	/s/wlDWTxXHjbZJqmzLCM-z_w
+20200224	漏洞分析	https://nafod.net/blog/2020/02/29/zdi-19-421-uhci.html	Pwning VMware, Part 2: ZDI-19-421, a UHCI bug	nafod.net	nafod.net	/blog/2020/02/29/zdi-19-421-uhci.html
+20200224	漏洞分析	https://nafod.net/blog/2019/12/21/station-escape-vmware-pwn.html	Pwning VMWare, Part 1: RWCTF 2018 Station-Escape	nafod.net	nafod.net	/blog/2019/12/21/station-escape-vmware-pwn.html

@@ -1,0 +1,16 @@
+.DS_Store
+.idea
+*.pyc
+*/*.pyc
+nlp_analysis.py
+!data/scrap.db
+!data/img/*
+!data/img/*/*
+!data/github_lang.txt
+data/githubcom/*
+data/sec_url/*
+data/weixin/*
+data/img/.DS_Store
+venv/*
+!data/secwiki/*
+!data/secwiki*
