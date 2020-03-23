@@ -3,7 +3,7 @@ import sys
 
 reload(sys)
 sys.setdefaultencoding('utf8')
-import signal, functools
+import signal
 import codecs
 import datetime
 import hashlib
@@ -12,7 +12,6 @@ import os
 import re
 import sqlite3
 from urlparse import urlparse
-import json
 
 import requests
 import tldextract
@@ -903,7 +902,7 @@ def test_get_twitter_info():
 
     :return:
     """
-    url = ""
+    url = "https://twitter.com/i/web/status/1085465178840346624"
     ret = get_twitter_info(url)
     print(ret)
 
@@ -914,6 +913,7 @@ def test_get_title():
     :return:
     """
     pass
+
 
 def test_get_requst():
     """
@@ -928,6 +928,8 @@ def test_get_requst():
 if __name__ == "__main__":
     """
     """
-    test_get_github_info()
-    test_get_weixin_info()
-    test_get_requst()
+    # test_get_github_info()
+    # test_get_weixin_info()
+    # test_get_requst()
+
+    test_get_twitter_info()

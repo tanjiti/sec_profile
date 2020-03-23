@@ -14,24 +14,26 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| GoCN | golangchina | 「开源发布」 滴滴内部监控系统 Nightingale 开源啦 | https://mp.weixin.qq.com/s/Wo_em4yB5dRPvFecma4bkw | 1| 
 | Ms08067安全实验室 | Ms08067_com | 提权之DLL注入 | https://mp.weixin.qq.com/s/T3C44Jc2vsTcisS7pWHnZA | 8| 
+| 君哥的体历 | jungedetili | 张欧：数字银行可信网络实践 | https://mp.weixin.qq.com/s/VRG9LEbGTxhpMmCUTUSA8w | 2| 
 | 白帽子的成长之路 | whitehat_day | 2020年开源情报（OSINT）TOP20 工具 | https://mp.weixin.qq.com/s?__biz=MzI2NDY1NDg0OA==&mid=2247484049&idx=1&sn=e6e716cfcfef01956c1acc7d684d44d1 | 1| 
+| 盘古实验室 | PanguLab | 微信远程攻击面简单的研究与分析 | https://mp.weixin.qq.com/s/yMQN3MciI-0f3mzz_saiwQ | 1| 
 | PolarisLab | PolarisLab | 追踪与新冠状病毒相关的安卓恶意软件 | https://mp.weixin.qq.com/s/fLDNLJIWwvrUUwt6Pi6T4A | 2| 
+| 山丘安全攻防实验室 | hillsec | 一篇文章带你从XSS入门到进阶(附Fuzzing+BypassWAF+Payloads) | https://mp.weixin.qq.com/s/EOPCstDYmFVtaLYNcUQLzA | 2| 
 | 零队 |  | 加载远程XSL文件的宏免杀方法 | https://mp.weixin.qq.com/s?__biz=MzU2NTc2MjAyNg==&mid=2247483758&idx=1&sn=1bd0006d16747389046058ea34c3b7b7&chksm=fcb783ebcbc00afd694b7a2ee10ad32aff0a534963878541ee17974ffee29c63342f4e617661&token=1823181969&lang=zh_CN#rd | 1| 
 | AI科技评论 | aitechtalk | 如何以初学者角度写好一篇国际学术论文？ | https://mp.weixin.qq.com/s/zwTlXBrZiC88y9F5DDU0_g | 1| 
-| Tide安全团队 | TideSec | 【IOT】路由器固件后门添加 | https://mp.weixin.qq.com/s/7tPFO-sqgah_4fbL9t1e5Q | 17| 
+| Tide安全团队 | TideSec | 【红蓝对抗】windows hash 抓取总结 | https://mp.weixin.qq.com/s/jaJi2hXoKKrDbEm1kcY16g | 17| 
 | heysec | bloodzer007 | 日志分析系列(三):分析实战篇 | https://mp.weixin.qq.com/s/h2pHi3PVn_92aEIOvB1Yjg | 2| 
 | 安全乐观主义 |  | SDL已死，应用安全路在何方？ | https://mp.weixin.qq.com/s/tYRiKiI7bjgyzQguMA1mrw | 1| 
 | 安全喷子 |  | 威胁狩猎101文档 | https://mp.weixin.qq.com/s/0hOtnTz9QrKlLivAobjU7Q | 1| 
 | 安全学术圈 | secquan | EuroS&P 2020 论文录用列表 | https://mp.weixin.qq.com/s/tIUS121s3JPOg7yC0j2rNQ | 1| 
 | 安恒信息安全研究院 |  | 蓝牙安全之Class of device | https://mp.weixin.qq.com/s/TIYvcThrfOC40rqcy-VGCg | 1| 
-| 山丘安全攻防实验室 | hillsec | 一篇文章带你从XSS入门到进阶(附Fuzzing+BypassWAF+Payloads) | https://mp.weixin.qq.com/s?__biz=Mzg3MjIyNjY3MA==&mid=2247484238&idx=1&sn=242812079337b1020abf5adffa7a5b23 | 1| 
 | 腾讯安全应急响应中心 | tsrc_team | 浅谈DDoS攻防对抗中的AI实践 | https://mp.weixin.qq.com/s/5v38BBewMVXZbbN2oMYg0A | 1| 
 | 腾讯御见威胁情报中心 |  | 腾讯安全威胁情报中心“明炉亮灶”工程：​自动化恶意域名检测揭秘 | https://mp.weixin.qq.com/s/QV8ErKHow3b-AMp6HMzKQg | 1| 
 | 赵武的自留地 |  | 写在Goby新版发布前，讨论网络安全测试工具的发展 | https://mp.weixin.qq.com/s/hW0A1jwq-pm4M-4LGUZIrA | 1| 
 | PeckShield | PeckShield | 硬核：解密美国司法部起诉中国OTC承兑商洗钱案件 | https://mp.weixin.qq.com/s/wWrm3gwT72Pc8Nxw-1OiSw | 1| 
 | 七夜安全博客 | qiye_safe | 无文件执行：一切皆是shellcode (上) | https://mp.weixin.qq.com/s/Bv0xebGKaJ2GGwntKGq2NQ | 1| 
-| 君哥的体历 | jungedetili | 终端安全运营年度笔记 | https://mp.weixin.qq.com/s/cHYu7Ayni5mkjWpn6_XrwA | 1| 
 | 星阑科技 | StarCrossCN | PHP 开源白盒审计工具初探（下） | https://mp.weixin.qq.com/s/6Y7anVvO9C5_nqdJihuFMw | 2| 
 | 水滴安全实验室 | EversecLab | 物联网漏洞挖掘及利用实践：mips栈溢出 | https://mp.weixin.qq.com/s/psVle6RAcTqX8VY_d4ouKg | 1| 
 | 爱奇艺技术产品团队 | iQIYI-TP | 开源 | 爱奇艺网络流量分析引擎QNSM及其应用 | https://mp.weixin.qq.com/s/flQdwQn9A1vxNs-iHQBHWA | 2| 

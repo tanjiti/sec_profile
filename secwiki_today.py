@@ -97,7 +97,6 @@ def scraw(so, proxy=None, delta=3):
                                     sql = ""
 
                                     if url.find("://twitter.com") != -1:
-
                                         d = get_twitter_info(url, title, ts=ts, tag=tag, proxy=proxy)
 
                                         if d:
