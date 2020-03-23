@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 零队 |  | 加载远程XSL文件的宏免杀方法 | https://mp.weixin.qq.com/s?__biz=MzU2NTc2MjAyNg==&mid=2247483758&idx=1&sn=1bd0006d16747389046058ea34c3b7b7&chksm=fcb783ebcbc00afd694b7a2ee10ad32aff0a534963878541ee17974ffee29c63342f4e617661&token=1823181969&lang=zh_CN#rd | 1| 
 | 山丘安全攻防实验室 | hillsec | 一篇文章带你从XSS入门到进阶(附Fuzzing+BypassWAF+Payloads) | https://mp.weixin.qq.com/s?__biz=Mzg3MjIyNjY3MA==&mid=2247484238&idx=1&sn=242812079337b1020abf5adffa7a5b23 | 1| 
 | PeckShield | PeckShield | 硬核：解密美国司法部起诉中国OTC承兑商洗钱案件 | https://mp.weixin.qq.com/s/wWrm3gwT72Pc8Nxw-1OiSw | 1| 
 | 星阑科技 | StarCrossCN | PHP 开源白盒审计工具初探（上） | https://mp.weixin.qq.com/s/gklKcFRR5erB2rdjr3BTUQ | 2| 
@@ -42,7 +43,7 @@
 | Gcow安全团队 | Gcow666 | 游荡于中巴两国的魅影——响尾蛇(SideWinder) APT组织针对巴基斯坦最近的活动以及2019年该组织的活动总结 | https://mp.weixin.qq.com/s/CZrdslzEs4iwlaTzJH7Ubg | 1| 
 | 安全祖师爷 |  | PowerShell渗透–Empire | https://mp.weixin.qq.com/s/giBR-rnpm51cDE4aude2tg | 1| 
 | 数世咨询 |  | 数世咨询：2019年网络安全大事记 | https://mp.weixin.qq.com/s/APOEaYrubmWupFRPbbjfkw | 2| 
-| 白帽子的成长之路 | whitehat_day | 渗透测试Window平台中 Certutil的使用 | https://mp.weixin.qq.com/s/4jZBIRqbQ7UR7BXz2zdZtA | 3| 
+| 白帽子的成长之路 | whitehat_day | 渗透测试Window平台中 Certutil的使用 | https://mp.weixin.qq.com/s/4jZBIRqbQ7UR7BXz2zdZtA | 4| 
 | 软件安全智能并行分析实验室 |  | 学术报告|S&P2020-Savior：漏洞导向的混合模糊测试技术 | https://mp.weixin.qq.com/s/hW8ned6DIRJ7mx1657dVew | 2| 
 | 飞虎行业观察 | flyingtiger018 | RSA和McAfee的2020年安全威胁预测 | https://mp.weixin.qq.com/s/gUOO1kDB_wuZ32nKAZjM0g | 1| 
 | OWASP | OWASP_CHINA | 2019年度OWASP中国项目总结 | https://mp.weixin.qq.com/s/hcdA7R36RsSV40TnIu2fJg | 1| 
@@ -102,7 +103,7 @@
 | GartnerInc | GartnerChina | 自动化在现代安全中的运用 | https://mp.weixin.qq.com/s/HMvGOiUIwjMKBNE2j5qIBQ | 1| 
 | 国科军通科技 | gkjtkj | 揭秘：中国自主可控行业全景图 | https://mp.weixin.qq.com/s/7_osWtZV3UZ5KuaoIzt7rA | 1| 
 | 国科漏斗社区 | Goktech_Security | 线下赛AWD训练平台搭建手册 | https://mp.weixin.qq.com/s/VPaAYUu_W3MTOmfmgVxUjA | 1| 
-| PolarisLab | PolarisLab | Hacking WildFly | https://mp.weixin.qq.com/s/KQ_17nJBPRcOTn-rPBRKTQ | 8| 
+| PolarisLab | PolarisLab | Hacking WildFly | https://mp.weixin.qq.com/s/KQ_17nJBPRcOTn-rPBRKTQ | 9| 
 | 勾陈安全实验室 | PolarisLab | Knife：一个将有用的小功能加入Burp Suite右键菜单的插件 | https://mp.weixin.qq.com/s/Y03VVF3sD9N0_H6TQlxYuQ | 1| 
 | 赵武的自留地 |  | 网络安全这点屁事 | https://mp.weixin.qq.com/s/kVfyoD_zRnSrQjpL4HfYAQ | 5| 
 | 继之宫 |  | 威胁剑魔杂谈 | https://mp.weixin.qq.com/s/wpBeoTEC7g-wFX-DA61gmA | 2| 
@@ -1394,7 +1395,7 @@
 | tanjiti | webshell sample for WebShell Log Analysis | https://github.com/tanjiti/webshellSample | http://tanjiti.com/ | #Network Security Monitor #threat intelligence  #waf #ids #iOS App Security #Android App Security #game security | shanghai | baidu | 16 | 0 | 4 | 470 | 166 | Python,PHP,HTML,Perl | 0 | 0 | 6| 
 | lgandx | MS16-137 PoC: | https://github.com/lgandx/PoC/tree/master/LSASSSearch | https://g-laurent.blogspot.com |  | None | None | 4 | 0 | 15 | 468 | 3 | Python | 1300 | 254 | 1| 
 | BrambleXu | pydata-notebook: 利用Python进行数据分析 第二版 (2017) 中文翻译笔记 | https://github.com/BrambleXu/pydata-notebook | https://medium.com/@bramblexu | An NLPer interested in Relation Extraction and Knowledge Graph Twitter: BrambleXu | Tokyo | None | 24 | 0 | 258 | 465 | 52 | Jupyter | 2900 | 1100 | 1| 
-| moonbingbing | OpenResty 最佳实践 | https://github.com/moonbingbing/openresty-best-practices | None |  | None | 360 | 30 | 0 | 49 | 465 | 5 | Python,Lua,C,Perl | 2900 | 724 | 1| 
+| moonbingbing | OpenResty 最佳实践 | https://github.com/moonbingbing/openresty-best-practices | None |  | None | 360 | 30 | 0 | 49 | 465 | 5 | Python,Lua,C,Perl | 2900 | 726 | 1| 
 | opsxcq | Sweet, a first PHPMailer PoC: | https://github.com/opsxcq/exploit-CVE-2016-10033 | https://strm.sh | https://keybase.io/terminator https://twitter.com/opsxcq | None | None | 75 | 0 | 168 | 463 | 23 | Python,C,PHP,Java | 0 | 0 | 1| 
 | Billy-Ellis | Great work @ bellis1000 A collection of vulnerable ARM binaries for practicing exploit development | https://github.com/Billy-Ellis/Exploit-Challenges | https://zygosec.com | iOS/ARM, Reverse Engineering, Exploit Development | UK | ZygoSec | 20 | 0 | 10 | 458 | 32 | Logos,C,Objective-C,CSS | 618 | 133 | 1| 
 | joxeankoret | Diaphora, a Free and Open Source program diffing tool | https://github.com/joxeankoret/diaphora | http://www.joxeankoret.com |  | Basque Country | None | 30 | 0 | 87 | 458 | 2 | Python | 1300 | 207 | 5| 
@@ -1891,7 +1892,7 @@
 | cyberheartmi9 | Apache Tomcat < 9.0.1 (Beta) / < 8.5.23 / < 8.0.47 / < 7.0.8 - JSP Upload Bypass / Remote Code Execution Exploit: | https://github.com/cyberheartmi9/CVE-2017-12617 | https://intx0x80.blogspot.com/ | security Researcher ,Pwner CTFer , @intx0x80 | None | None | 63 | 0 | 757 | 157 | 24 | Python,HTML | 316 | 118 | 1| 
 | secgroundzero | tetanus: Helper script for mangling CS payloads | https://github.com/secgroundzero/tetanus | None |  | None | None | 10 | 0 | 4 | 157 | 7 | Python,C#,JavaScript,Shell | 2100 | 285 | 2| 
 | sandrogauci | WAFW00F allows one to identify and fingerprint Web Application Firewall (WAF) products protecting a website | https://github.com/sandrogauci/wafw00f | https://github.com/EnableSecurity | voip/webapp/network penetration testing & information security behind @EnableSecurity ; mostly harmless ><script src=//x-x.cc>p | Berlin | EnableSecurity | 3 | 0 | 59 | 156 | 63 | Python,Shell | 1 | 0 | 1| 
-| woj-ciech | woj-ciech/LeakLooker: Find open databases with Shodan | https://github.com/woj-ciech/LeakLooker | None |  | None | None | 11 | 0 | 0 | 156 | 0 | Python,Go | 747 | 101 | 4| 
+| woj-ciech | woj-ciech/LeakLooker: Find open databases with Shodan | https://github.com/woj-ciech/LeakLooker | None |  | None | None | 11 | 0 | 0 | 156 | 0 | Python,Go | 747 | 101 | 5| 
 | Arturus | Kaggle网页流量时序预测比赛第一名方案 | https://github.com/Arturus/kaggle-web-traffic | http://suilin.me |  | Moscow | Yandex | 22 | 0 | 123 | 155 | 1 | Java,HTML,Jupyter | 1000 | 457 | 1| 
 | DavexPro | PocHunter: 调用PoC框架(Beebeeto/PocSuite/TangScan/KsPoc)下的PoC. | https://github.com/DavexPro/PocHunter | https://www.davex.pw/ |  | None | None | 27 | 0 | 132 | 155 | 8 | Python,Jupyter | 0 | 0 | 1| 
 | mdsecresearch | Redteam Cheatsheet : | https://github.com/mdsecresearch/Publications/blob/master/cheatsheets/RedRelease.pdf | https://www.mdsec.co.uk | Public research and tools from MDSec Consulting | UK | MDSec | 10 | 0 | 0 | 155 | 0 | Python,Java,C,Objective-C,PowerShell | 230 | 41 | 3| 
@@ -1980,6 +1981,7 @@
 | 6IX7ine | djangohunter: identify incorrectly configured Django applications | https://github.com/6IX7ine/djangohunter | https://github.com/6IX7ine | Brazilian player. Cyber Security research, Infosec, Writer, Hacker / Full Stack Developer 🌌 | São Paulo, Brazil | @6IX7ine | 145 | 0 | 189 | 132 | 191 | Python,JavaScript | 0 | 0 | 2| 
 | al0ne | LinuxCheck: linux信息搜集脚本 | https://github.com/al0ne/LinuxCheck?from=timeline | None | 入侵检测/流量分析/应急溯源 | china | None | 6 | 0 | 511 | 132 | 173 | Shell,Vim | 146 | 27 | 4| 
 | cookieY | Yearning: 基于Inception的可视化Web端SQL审核平台 | https://github.com/cookieY/Yearning | None | var me coder = Henry | Hangzhou | Closeli | 14 | 0 | 17 | 132 | 0 | Shell,Vue,HTML,Rust | 2100 | 814 | 1| 
+| dayt0n | 64-bit iOS boot image patcher written in C | https://github.com/dayt0n/kairos | http://dayt0n.com | 19. iOS and OS X tinkerer. Computer Science at UAH. | United States | None | 37 | 0 | 43 | 132 | 47 | Python,C,Shell,C++ | 23 | 7 | 1| 
 | ggerganov | kbd-audio - 通过麦克风来捕获和分析键盘输入的工具 : | https://github.com/ggerganov/kbd-audio | https://github.com/viewray-inc | https://wave-share.com | Sofia, Bulgaria | @viewray-inc | 20 | 0 | 37 | 132 | 3 | C++ | 0 | 0 | 1| 
 | olafhartong | sysmon-modular - Sysmon 配置文件收集仓库: | https://github.com/olafhartong/sysmon-modular | http://olafhartong.nl |  | The Netherlands | None | 47 | 0 | 60 | 132 | 4 | Python,Shell,Batchfile,PowerShell,HTML | 0 | 0 | 2| 
 | citronneur | rdpy:Remote Desktop Protocol in Twisted Python | https://github.com/citronneur/rdpy | https://github.com/airbus-cert |  | Toulouse, France | @airbus-cert | 21 | 0 | 210 | 131 | 79 | Python,C#,JavaScript | 1000 | 243 | 2| 
@@ -2875,7 +2877,7 @@
 | sud0woodo | DCOMrade - 用于枚举 DCOM 应用程序的 Powershell 脚本 : | https://github.com/sud0woodo/DCOMrade | None | Binary enthusiast | None | None | 8 | 0 | 1 | 29 | 2 | Python,Go,PowerShell | 181 | 39 | 1| 
 | tokyoneon | Armor - 用于创建在 macOS 上反弹 Shell 的加密 Payload 的 bash 脚本: | https://github.com/tokyoneon/Armor | https://creator.wonderhowto.com/tokyoneon | tokyoneon=$(printf Technical writer at WonderHowTo && $infosec_researcher;./hacker.sh &) | @tokyoneon_ | None | 5 | 0 | 0 | 29 | 0 | Shell | 0 | 0 | 1| 
 | xd4rker | MinerBlock - 用于阻止基于 Web 页面的加密货币挖矿后门的浏览器扩展: | https://github.com/xd4rker/MinerBlock | https://twitter.com/xd4rker |  | Morocco | None | 15 | 0 | 594 | 29 | 13 | Python,JavaScript,PHP | 0 | 0 | 1| 
-| ATpiu | asset-scan: 甲方企业的外网资产周期性扫描监控系统 | https://github.com/ATpiu/asset-scan | None | Penetration Test/Gopher/App Sec/ICS Sec | None | None | 100 | 0 | 287 | 28 | 99 | Go,Python | 28 | 5 | 1| 
+| ATpiu | asset-scan: 甲方企业的外网资产周期性扫描监控系统 | https://github.com/ATpiu/asset-scan | None | Penetration Test/Gopher/App Sec/ICS Sec | None | None | 100 | 0 | 291 | 28 | 119 | Go,Python | 36 | 6 | 1| 
 | Abdulraheem30042 | Cl0neMast3r - 协助 penetration tester 和 bug hunter 更轻松的管理来自 Github 的工具: | https://github.com/Abdulraheem30042/Cl0neMast3r | https://twitter.com/abdulrah33mk | Python programmer && Bug hunter | Egypt | None | 1 | 0 | 0 | 28 | 0 | Python | 163 | 56 | 1| 
 | Dongdongshe | neuzz - 基于神经网络的 fuzzer: | https://github.com/Dongdongshe/neuzz | None |  | None | None | 28 | 0 | 6 | 28 | 1 | Python,C,C++ | 171 | 31 | 1| 
 | Ga-ryo | IDAFuzzy - 协助寻找命令/函数/结构等信息的 IDA Pro 插件: | https://github.com/Ga-ryo/IDAFuzzy | None | TokyoWesterns pwn 酒 | None | None | 17 | 0 | 136 | 28 | 0 | Python,C#,Shell | 142 | 21 | 1| 
@@ -3694,6 +3696,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| OWASP 中提到的最严重的 API 漏洞类型 - BOLA (Broken Object Level Authorization) 是怎么回事儿 | http://medium.com/@inonst/a-deep-dive-on-the-most-critical-api-vulnerability-bola-1342224ec3f2| 
 | 滥用 hostPath 挂载逃逸 Kubernetes Namespace | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fblog.appsecco.com%2Fkubernetes-namespace-breakout-using-insecure-host-path-volume-part-1-b382f2a6e216| 
 | Avast 安全浏览器可以被滥用 NTFS Hardlink 特性实现本地提权 | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fsidechannel.tempestsi.com%2Fvulnerability-in-avast-secure-browser-enables-escalation-of-privileges-on-windows-eb770d196c45%3F| 
 | php博客平台Typecho代码执行漏洞详细分析 | http://medium.com/@knownsec404team/analysis-of-typecho-front-end-getshell-vulnerability-4c1ce43eaeaa| 
