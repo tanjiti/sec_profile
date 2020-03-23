@@ -35,10 +35,10 @@ def scraw(so, proxy=None, delta=2):
     url = "https://sec.today/pulses/"
     r = get_request(url, proxy=proxy)
 
+
     if r:
         try:
             soup = BeautifulSoup(r.content, 'lxml')
-
         except Exception as e:
             logging.error("GET %s  failed : %s" % (url, repr(e)))
             return

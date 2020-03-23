@@ -134,7 +134,6 @@ def draw_pie(so, source="secwiki", year="", tag="domain", top=10):
     explode[-1] = 0  # 凸显
 
     try:
-        # plt.rcParams['font.sans-serif'] = ['MicrosoftYaHei']
         plt.rcParams['font.sans-serif'] = ['SimHei']  # 解决中文乱码
         plt.rcParams['font.family'] = 'sans-serif'
         plt.rcParams['axes.unicode_minus'] = False  # 坐标轴负号的处理

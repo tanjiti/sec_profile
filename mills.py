@@ -572,7 +572,7 @@ def get_request(url,
 
         except Exception as e:
             e = str(e)
-
+            print(e)
             if is_get_real_url:
                 ret = parse_request_error_str(e)
                 if ret:
@@ -915,9 +915,19 @@ def test_get_title():
     """
     pass
 
+def test_get_requst():
+    """
+
+    :return:
+    """
+    url = "https://sec.today/pulses/"
+    ret = get_request(url=url)
+    print(ret)
+
 
 if __name__ == "__main__":
     """
     """
     test_get_github_info()
     test_get_weixin_info()
+    test_get_requst()

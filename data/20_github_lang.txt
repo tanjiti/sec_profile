@@ -3,13 +3,13 @@ C	608
 JavaScript	604
 C++	495
 HTML	434
-Shell	418
+Shell	419
 Java	411
 Go	339
 Ruby	242
-C#	241
+C#	242
 PHP	217
-PowerShell	214
+PowerShell	215
 CSS	207
 Objective-C	127
 TypeScript	121

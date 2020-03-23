@@ -4,10 +4,10 @@ C	22
 JavaScript	21
 HTML	20
 Java	19
-Shell	18
+Shell	19
 Go	18
-C#	13
-PowerShell	11
+C#	14
+PowerShell	12
 TypeScript	10
 Ruby	8
 CSS	8
