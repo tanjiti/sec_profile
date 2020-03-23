@@ -10,7 +10,6 @@ from collections import OrderedDict
 import shutil
 
 import matplotlib.pyplot as plt
-
 import matplotlib
 
 print(matplotlib.matplotlib_fname())
