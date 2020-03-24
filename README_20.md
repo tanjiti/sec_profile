@@ -1561,6 +1561,7 @@
 | ufrisk | MemProcFS - 基于内存的文件系统项目: | https://github.com/ufrisk/MemProcFS | None | IT-Security Minion | DMA Hacker | @UlfFrisk | Sweden | None | 15 | 0 | 68 | 308 | 15 | Python,C,Verilog | 0 | 0 | 6| 
 | vrtadmin | LockyDump : A PE32 Windows binary app. used for extracting embedded configurations from the Locky malware family : | https://github.com/vrtadmin/Locky | https://github.com/Cisco-Talos | http://www.talosintelligence.com/about/ | None | @Cisco-Talos | 3 | 0 | 4 | 308 | 3 | Python,CSS | 66 | 16 | 2| 
 | 0x4D31 | 大规模网络指纹探测与数据聚类分析，作者利用网络指纹信息追踪攻击者及攻击工具，同时发布了一个工具 FATT。来自 AusCERT 2019 会议 | https://github.com/0x4D31/Presentations | https://github.com/salesforce | Lead Threat Detection Engineer @salesforce | Sydney, Australia | None | 21 | 0 | 1100 | 307 | 77 | Python,Go | 793 | 164 | 7| 
+| alphaSeclab | Android 安全方向的资料整理 | https://github.com/alphaSeclab/android-security// | None |  | None | None | 19 | 0 | 40 | 307 | 0 |  | 1600 | 274 | 3| 
 | woj-ciech | LeakLooker X - 数据库/源码泄漏监控工具 | https://github.com/woj-ciech/LeakLooker-X | None |  | None | None | 15 | 0 | 0 | 306 | 0 | Python,Go,JavaScript,CSS | 1100 | 227 | 5| 
 | rootm0s | WinPwnage - Windows 各种攻击工具与技术的整合: | https://github.com/rootm0s/WinPwnage | None |  | Unknown | Unknown | 5 | 0 | 164 | 305 | 0 | Python | 0 | 0 | 2| 
 | s-rah | OnionScan has now been released: https://github.com/s-rah/onionscan - Start Fixing & Happy Hacking. | https://github.com/s-rah/onionscan | https://sarahjamielewis.com | Anonymity & Privacy Researcher / Executive Director @ Open Privacy Research Society. Vegan. Queer. ⚢. | Vancouver, Canada | Open Privacy Research Society | 15 | 0 | 65 | 305 | 4 | Go,C++ | 0 | 0 | 1| 
@@ -1589,7 +1590,6 @@
 | bnagy | gapstone - gapstone is a Go binding for the capstone disassembly library | https://github.com/bnagy/gapstone | None |  | None | None | 41 | 0 | 13 | 290 | 0 | Shell,C#,Python,HTML,Go,PLpgSQL | 275 | 35 | 2| 
 | ExpLife0011 | CVE-2019-0803: Win32k Elevation of Privilege Poc | https://github.com/ExpLife0011/CVE-2019-0803 | None |  | None | None | 2800 | 0 | 3000 | 288 | 489 | Python,C#,C,Assembly,C++ | 672 | 227 | 3| 
 | Te-k | Harpoon - 开源情报收集工具,介绍: https://www.randhome.io/blog/2018/02/23/harpoon-an-osint-/-threat-intelligence-tool/ GitHub: | https://github.com/Te-k/harpoon | https://www.randhome.io |  | None | None | 60 | 0 | 135 | 288 | 104 | Python,YARA,C | 785 | 769 | 2| 
-| alphaSeclab | DBI（Dynamic Binary Instrumentation：动态二进制插桩）逆向有关的资源收集 | https://github.com/alphaSeclab/DBI-Stuff | None |  | None | None | 17 | 0 | 38 | 288 | 0 |  | 1600 | 264 | 2| 
 | CyberMonitor | APT_CyberCriminal_Campagin_Collections - 2006 年至今的几乎所有公开的 APT 攻击分析报告收集: | https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections | None |  | None | None | 238 | 0 | 40 | 286 | 5 | C,Shell,C#,JavaScript,C++,HTML,Go,PowerShell | 1000 | 305 | 1| 
 | Ice3man543 | subfinder - 子域名枚举工具: | https://github.com/Ice3man543/subfinder | https://ice3man.me | Doing security stuff! Automating things because of my laziness to the fullest. | None | None | 39 | 0 | 329 | 283 | 82 | Go,Python,C | 0 | 0 | 1| 
 | frewsxcv | Fuzzing Rust code with american-fuzzy-lop | https://github.com/frewsxcv/afl.rs | https://github.com/kickstarter |  | New York City | @kickstarter | 591 | 0 | 717 | 283 | 111 | Python,C,JavaScript,Rust | 0 | 0 | 1| 
@@ -3699,6 +3699,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Remote Image Upload Leads to RCE (Inject Malicious Code to PHP-GD Image) | http://medium.com/@asdqwedev/remote-image-upload-leads-to-rce-inject-malicious-code-to-php-gd-image-90e1e8b2aada| 
 | OWASP 中提到的最严重的 API 漏洞类型 - BOLA (Broken Object Level Authorization) 是怎么回事儿 | http://medium.com/@inonst/a-deep-dive-on-the-most-critical-api-vulnerability-bola-1342224ec3f2| 
 | 滥用 hostPath 挂载逃逸 Kubernetes Namespace | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fblog.appsecco.com%2Fkubernetes-namespace-breakout-using-insecure-host-path-volume-part-1-b382f2a6e216| 
 | Avast 安全浏览器可以被滥用 NTFS Hardlink 特性实现本地提权 | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fsidechannel.tempestsi.com%2Fvulnerability-in-avast-secure-browser-enables-escalation-of-privileges-on-windows-eb770d196c45%3F| 
