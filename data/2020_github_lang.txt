@@ -1,11 +1,11 @@
-Python	41
+Python	43
 C++	23
+JavaScript	22
 C	22
-JavaScript	21
 HTML	20
 Java	19
 Shell	19
-Go	18
+Go	19
 C#	14
 PowerShell	12
 TypeScript	10
@@ -19,6 +19,7 @@ Perl	3
 TSQL	3
 CMake	3
 YARA	2
+Dockerfile	2
 Nix	2
 Visual	2
 Kotlin	2
@@ -27,8 +28,8 @@ VBA	1
 HCL	1
 Lua	1
 Rich	1
+Scheme	1
 Assembly	1
-Dockerfile	1
 CoffeeScript	1
 Zeek	1
 Objective-C	1

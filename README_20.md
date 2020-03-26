@@ -14,8 +14,13 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 安全学术圈 | secquan | 对CVE中的无效漏洞报告进行分类和预测 | https://mp.weixin.qq.com/s/laYXRDTtAn9kBqV1G99gog | 41| 
+| 绿盟科技研究通讯 | nsfocus_research | 恶意软件命名与描述规范研究 | https://mp.weixin.qq.com/s/KGfsmEUu_fMH9Vj3TleMMQ | 26| 
+| 落水轩 |  | 基于开源情报解密美国雷神山火神山 | https://mp.weixin.qq.com/s/OCAK5byqIvXttqxxSQmDkQ | 1| 
+| 黑金笔谈 | heijinbitan | 网络威胁检测技术NTA | https://mp.weixin.qq.com/s/DYqFKBIj1BKwDzTpnO_tHg | 1| 
+| 腾讯安全应急响应中心 | tsrc_team | WAF建设运营及AI应用实践 | https://mp.weixin.qq.com/s/fTm1hUfRmm6ujmjvSHRLUA | 8| 
 | GoCN | golangchina | 「开源发布」 滴滴内部监控系统 Nightingale 开源啦 | https://mp.weixin.qq.com/s/Wo_em4yB5dRPvFecma4bkw | 1| 
-| Ms08067安全实验室 | Ms08067_com | 提权之DLL注入 | https://mp.weixin.qq.com/s/T3C44Jc2vsTcisS7pWHnZA | 27| 
+| Ms08067安全实验室 | Ms08067_com | 提权之DLL注入 | https://mp.weixin.qq.com/s/T3C44Jc2vsTcisS7pWHnZA | 29| 
 | 君哥的体历 | jungedetili | 张欧：数字银行可信网络实践 | https://mp.weixin.qq.com/s/VRG9LEbGTxhpMmCUTUSA8w | 35| 
 | 白帽子的成长之路 | whitehat_day | 2020年开源情报（OSINT）TOP20 工具 | https://mp.weixin.qq.com/s?__biz=MzI2NDY1NDg0OA==&mid=2247484049&idx=1&sn=e6e716cfcfef01956c1acc7d684d44d1 | 4| 
 | 盘古实验室 | PanguLab | 微信远程攻击面简单的研究与分析 | https://mp.weixin.qq.com/s/yMQN3MciI-0f3mzz_saiwQ | 2| 
@@ -27,9 +32,7 @@
 | heysec | bloodzer007 | 日志分析系列(三):分析实战篇 | https://mp.weixin.qq.com/s/h2pHi3PVn_92aEIOvB1Yjg | 13| 
 | 安全乐观主义 |  | SDL已死，应用安全路在何方？ | https://mp.weixin.qq.com/s/tYRiKiI7bjgyzQguMA1mrw | 14| 
 | 安全喷子 |  | 威胁狩猎101文档 | https://mp.weixin.qq.com/s/0hOtnTz9QrKlLivAobjU7Q | 6| 
-| 安全学术圈 | secquan | EuroS&P 2020 论文录用列表 | https://mp.weixin.qq.com/s/tIUS121s3JPOg7yC0j2rNQ | 40| 
 | 安恒信息安全研究院 |  | 蓝牙安全之Class of device | https://mp.weixin.qq.com/s/TIYvcThrfOC40rqcy-VGCg | 2| 
-| 腾讯安全应急响应中心 | tsrc_team | 浅谈DDoS攻防对抗中的AI实践 | https://mp.weixin.qq.com/s/5v38BBewMVXZbbN2oMYg0A | 7| 
 | 腾讯御见威胁情报中心 |  | 腾讯安全威胁情报中心“明炉亮灶”工程：​自动化恶意域名检测揭秘 | https://mp.weixin.qq.com/s/QV8ErKHow3b-AMp6HMzKQg | 10| 
 | 赵武的自留地 |  | 写在Goby新版发布前，讨论网络安全测试工具的发展 | https://mp.weixin.qq.com/s/hW0A1jwq-pm4M-4LGUZIrA | 5| 
 | PeckShield | PeckShield | 硬核：解密美国司法部起诉中国OTC承兑商洗钱案件 | https://mp.weixin.qq.com/s/wWrm3gwT72Pc8Nxw-1OiSw | 1| 
@@ -64,7 +67,6 @@
 | 360企业安全集团 |  | “美女与野兽”，Transparent Tribe启用新资产对印度空军发起特定攻击 | https://mp.weixin.qq.com/s/YY2h73A6KiFjnfjsJtWGNQ | 1| 
 | 网络空间安全军民融合创新中心 | jmrh1226 | 从美国防部“2021财年预算提案” 看美军网络空间建设趋势特点 | https://mp.weixin.qq.com/s/ysG4z8UrfEZTlBovGTWcZw | 4| 
 | 互联网安全内参 | anquanneican | RSAC 2020创新沙盒十强分析：应用安全、云安全为技术热点方向 | https://mp.weixin.qq.com/s/UFlsR8NBFYpHUUWuJG-nPQ | 4| 
-| 绿盟科技研究通讯 | nsfocus_research | 恶意挖矿攻击现状分析 | https://mp.weixin.qq.com/s/Htq5jj_pKK56aYWw7kRLvQ | 25| 
 | ChaMd5安全团队 | chamd5sec | 陌陌2019年度个人第一，讲解游戏的逻辑漏洞 | https://mp.weixin.qq.com/s/6QYQ4z4T6SI8N88kf-DYwA | 11| 
 | 安全客 | anquanbobao | GitHub敏感数据泄露报告 | https://mp.weixin.qq.com/s/6RELktZJF2pn4rL-0-Y7Jw | 7| 
 | 网信军民融合 | wxjmrh | 研究探讨 | 军工领域建设网络安全攻防靶场平台的思路 | https://mp.weixin.qq.com/s/UmW3WCtDIOWw1bXfJnLnhg | 4| 
@@ -1833,6 +1835,7 @@
 | Ne0nd0g | merlin - 使用 HTTP 通信的跨平台后渗透测试工具,介绍: https://medium.com/@Ne0nd0g/introducing-merlin-645da3c635a GitHub: | https://github.com/Ne0nd0g/merlin | None |  | None | None | 19 | 0 | 11 | 179 | 6 | Go,Python | 2100 | 259 | 1| 
 | linuz | Here is the tool @ NotMedic and I released at @ DEFCON. Scans for accessibility tools backdoors on Windows. | https://github.com/linuz/Sticky-Keys-Slayer | http://kernelmeltdown.org | Adversarial Engineer at Lares, Houston Locksport Founder, Houston Area Hackers Anonymous Founder. Twitter: @DennisMald | 127.0.0.1 | None | 22 | 0 | 12 | 179 | 2 | Python,Shell,PowerShell,HTML | 0 | 0 | 1| 
 | roccomuso | kickthemout : Kick devices off your network by performing an ARP Spoof attack with Node.js : | https://github.com/roccomuso/kickthemout | https://twitter.com/roccomuso | Full Stack Developer - Linux, Iot, hacking, cryptos and Node.js enthusiast. Open Source addicted | Rome | None | 105 | 0 | 2900 | 179 | 125 | TypeScript,JavaScript | 275 | 41 | 1| 
+| Leezj9671 | 渗透测试和安全面试的经验之谈 | https://github.com/Leezj9671/Pentest_Interview | http://neversec.top | 2018 newly graduated student. Web pentester/Python coder. 公众号: NeverSec | Shenzhen,CN | None | 45 | 0 | 95 | 178 | 0 | Python,JavaScript,Dockerfile | 891 | 207 | 1| 
 | TunisianEagles | winspy - 一款可以创建 Windows 反向连接后门的工具 : | https://github.com/TunisianEagles/winspy | https://github.com/TunisianEagles | Feel Free in an open source world Pentesters / security researchers / Malware lovers ☢ / Tunisia ❤ | Tunisia | @TunisianEagles | 8 | 0 | 8 | 178 | 0 | Shell | 236 | 76 | 2| 
 | breenmachine | 之前推送过 RottenPotato - 从本地服务用户提权至 SYSTEM 的工具,有研究员将 RottenPotato 封装成了一个独立 DLL 模块 - RottenPotatoNG: | https://github.com/breenmachine/RottenPotatoNG | None |  | United States | None | 16 | 0 | 2 | 178 | 0 | Python,C#,C++ | 359 | 226 | 1| 
 | malchata | yall.js - 高效的 JavaScript Lazy Load 脚本: | https://github.com/malchata/yall.js | https://jeremy.codes | Web developer, speaker, and author. | Saint Paul, MN | None | 44 | 0 | 63 | 177 | 116 | HTML,JavaScript,CSS | 0 | 0 | 1| 
@@ -2574,6 +2577,7 @@
 | technion | 3652fa - 绕过 Office 365 多因素认证抓取密码: | https://github.com/technion/3652fa | https://lolware.net |  | Sydney, Australia | None | 73 | 0 | 30 | 52 | 1 | TypeScript,Shell,Ruby,Erlang | 0 | 0 | 1| 
 | wzw19890321 | JSC漏洞(CVE-2018-4262)的Exploit: | https://github.com/wzw19890321/Exploits/tree/master/CVE-2018-4262 | None |  | BeiJing | Qihoo | 64 | 0 | 5 | 52 | 11 | C,C++ | 24 | 10 | 2| 
 | xinali | Adobe Font Development Kit for OpenType 套件相关的漏洞分析 | https://github.com/xinali/AfdkoFuzz/ | None | Malware Analysis, Coder & Antiy Lab | Harbin,China | Jilin University | 14 | 0 | 121 | 52 | 56 | Python,HTML,Dockerfile,C++,Vue | 85 | 37 | 1| 
+| EddieIvan01 | iox: 端口转发 & 内网代理工具 | https://github.com/EddieIvan01/iox/blob/master/docs/README_CN.md | http://iv4n.cc/ |  | 127.0.0.1 | None | 36 | 0 | 55 | 51 | 16 | Go,Python,Scheme | 115 | 23 | 1| 
 | SnakeHacker | QA-Snake: 基于多搜索引擎和深度学习技术的自动问答 | https://github.com/SnakeHacker/QA-Snake | http://www.snakehacker.me | You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted. | None | None | 66 | 0 | 315 | 51 | 52 | Python,JavaScript | 0 | 0 | 1| 
 | biggiesmallsAG | nightHawkResponse - 事件响应取证框架: | https://github.com/biggiesmallsAG/nightHawkResponse | None |  | None | None | 4 | 0 | 1 | 51 | 0 | Go,JavaScript | 530 | 119 | 1| 
 | chr4 | Using Vim? Configuring or programming SSL/TLS servers? You better use this | https://github.com/chr4/sslsecure.vim | https://chr4.org | Devops. Ive never asked for this. | None | None | 68 | 0 | 2 | 51 | 7 | Go,SaltStack,Shell,Rust,Vim | 0 | 0 | 1| 
@@ -3337,6 +3341,7 @@
 | darkw1z | Ps1jacker - 生成 COM 劫持 Payload 的工具: | https://github.com/darkw1z/Ps1jacker | None |  | Ljubljana, Slovenia | None | 9 | 0 | 1 | 6 | 0 | Python,Kotlin,JavaScript,Java,CSS | 0 | 0 | 1| 
 | enddo | #Windows #Exploit interesting papers | https://github.com/enddo/awesome-windows-exploitation/blob/master/README.md | None |  | None | None | 0 | 0 | 0 | 6 | 1 |  | 0 | 0 | 4| 
 | frank6696 | 第二届阿里云安全算法挑战赛 MJ_3DSUN 队解题方法 | https://github.com/frank6696/tianchi-aliyun-security-competition | None |  | None | None | 13 | 0 | 3 | 6 | 0 | Python,Jupyter,Java,C++ | 10 | 6 | 1| 
+| karkason | PyWinSandbox - Python 实现的将进程放到 Sandbox 环境运行的工具 | https://github.com/karkason/pywinsandbox | None |  | None | None | 3 | 0 | 19 | 6 | 7 | Python,C++ | 61 | 3 | 1| 
 | lucamassarelli | 二进制函数相似性比对工具，相关论文已公开。相比于之前使用机器学习方法解决此类问题的研究，其亮点是引入了 RNN 神经网络中的 Self-Attentive (自注意力) 技术，且仅使用了汇编指令的特征。论文中与 Gemini 做了实验对比，各项数据都优于 Gemini 。 | https://github.com/lucamassarelli/yarasafe | None | Phd Student @ Sapienza University of Rome | Rome | None | 7 | 0 | 7 | 6 | 0 | Python,C,CSS | 52 | 7 | 1| 
 | mnrkbys | vss_carver - 提取和修改 Windows 磁盘镜像 VSS catalog 的工具: | https://github.com/mnrkbys/vss_carver | None |  | Tokyo, Japan | Internet Initiative Japan Inc. | 15 | 0 | 19 | 6 | 4 | Python | 0 | 0 | 1| 
 | qq4108863 | himqtt: MQTT物联网防火墙源码 | https://github.com/qq4108863/himqtt | None |  | None | None | 2 | 0 | 0 | 6 | 0 | C | 15 | 7 | 1| 

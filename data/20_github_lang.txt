@@ -1,11 +1,11 @@
-Python	964
+Python	965
 C	608
 JavaScript	604
 C++	495
 HTML	434
 Shell	419
 Java	411
-Go	339
+Go	340
 Ruby	242
 C#	242
 PHP	217
@@ -93,6 +93,7 @@ Boo	2
 Yacc	2
 Mathematica	2
 PostScript	2
+Scheme	2
 Nim	2
 Solidity	2
 VCL	2
@@ -132,7 +133,6 @@ Scilab	1
 M4	1
 QMake	1
 ABAP	1
-Scheme	1
 Forth	1
 SystemVerilog	1
 MoonScript	1
