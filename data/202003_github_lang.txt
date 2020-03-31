@@ -1,8 +1,8 @@
-Python	20
+Python	21
 JavaScript	10
+Go	9
 C	8
 C++	8
-Go	8
 Shell	7
 TypeScript	6
 Java	6
@@ -26,5 +26,6 @@ Swift	1
 Zeek	1
 Smali	1
 Roff	1
+Ruby	1
 Smarty	1
 PHP	1

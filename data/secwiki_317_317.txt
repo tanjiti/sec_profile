@@ -1,0 +1,43 @@
+20200323	Web安全	https://github.com/Leezj9671/Pentest_Interview	渗透测试和安全面试的经验之谈	github.com	github.com	/Leezj9671/Pentest_Interview
+20200323	Web安全	https://mp.weixin.qq.com/s/T3C44Jc2vsTcisS7pWHnZA	提权之DLL注入	qq.com	mp.weixin.qq.com	/s/T3C44Jc2vsTcisS7pWHnZA
+20200323	漏洞分析	https://xz.aliyun.com/t/7403	Django CVE-2020-9402 Geo SQL注入分析	aliyun.com	xz.aliyun.com	/t/7403
+20200323	Web安全	https://github.com/EddieIvan01/iox/blob/master/docs/README_CN.md	iox: 端口转发 & 内网代理工具	github.com	github.com	/EddieIvan01/iox/blob/master/docs/README_CN.md
+20200323	取证分析	https://mp.weixin.qq.com/s?__biz=MzI2NDY1NDg0OA==&mid=2247484049&idx=1&sn=e6e716cfcfef01956c1acc7d684d44d1	2020年开源情报（OSINT）TOP20 工具	qq.com	mp.weixin.qq.com	/s
+20200323	Web安全	https://mp.weixin.qq.com/s/fTm1hUfRmm6ujmjvSHRLUA	WAF建设运营及AI应用实践	qq.com	mp.weixin.qq.com	/s/fTm1hUfRmm6ujmjvSHRLUA
+20200323	Web安全	https://pentester.land/list-of-bug-bounty-writeups.html	List of bug bounty writeups · Pentester Land	pentester.land	pentester.land	/list-of-bug-bounty-writeups.html
+20200323	工具	https://tmr.js.org/p/4644576d/	模块化网站管理工具的思考	js.org	tmr.js.org	/p/4644576d/
+20200323	运维安全	https://mp.weixin.qq.com/s/Wo_em4yB5dRPvFecma4bkw	Nightingale-开源的企业级监控解决方案	qq.com	mp.weixin.qq.com	/s/Wo_em4yB5dRPvFecma4bkw
+20200323	恶意分析	https://www.anquanke.com/post/id/201485?from=timeline	RSAC-2020随笔 — 供应链安全	anquanke.com	www.anquanke.com	/post/id/201485
+20200323	移动安全	https://mp.weixin.qq.com/s/yMQN3MciI-0f3mzz_saiwQ	微信远程攻击面简单的研究与分析	qq.com	mp.weixin.qq.com	/s/yMQN3MciI-0f3mzz_saiwQ
+20200323	漏洞分析	https://mp.weixin.qq.com/s/bmQCCoilsXYqydc_RXrtTQ	使用Powershell对目标进行屏幕监控	qq.com	mp.weixin.qq.com	/s/bmQCCoilsXYqydc_RXrtTQ
+20200323	漏洞分析	https://xz.aliyun.com/t/7400	使用AFL挖掘libxml2	aliyun.com	xz.aliyun.com	/t/7400
+20200323	恶意分析	https://mp.weixin.qq.com/s/DYqFKBIj1BKwDzTpnO_tHg	网络威胁检测技术NTA	qq.com	mp.weixin.qq.com	/s/DYqFKBIj1BKwDzTpnO_tHg
+20200323	运维安全	https://mp.weixin.qq.com/s/VRG9LEbGTxhpMmCUTUSA8w	张欧：数字银行可信网络实践	qq.com	mp.weixin.qq.com	/s/VRG9LEbGTxhpMmCUTUSA8w
+20200323	杂志	https://www.sec-wiki.com/weekly/316	SecWiki周刊（第316期)	sec-wiki.com	www.sec-wiki.com	/weekly/316
+20200323	漏洞分析	https://mp.weixin.qq.com/s/laYXRDTtAn9kBqV1G99gog	对CVE中的无效漏洞报告进行分类和预测	qq.com	mp.weixin.qq.com	/s/laYXRDTtAn9kBqV1G99gog
+20200323	恶意分析	https://mp.weixin.qq.com/s/XL6XO-FBHq37H1h-iMwV4w	黑产研究之秒拨IP	qq.com	mp.weixin.qq.com	/s/XL6XO-FBHq37H1h-iMwV4w
+20200323	取证分析	https://mp.weixin.qq.com/s/OCAK5byqIvXttqxxSQmDkQ	基于开源情报解密美国雷神山火神山	qq.com	mp.weixin.qq.com	/s/OCAK5byqIvXttqxxSQmDkQ
+20200323	Web安全	https://xz.aliyun.com/t/7454	域渗透—基于资源的约束委派利用	aliyun.com	xz.aliyun.com	/t/7454
+20200323	恶意分析	https://mp.weixin.qq.com/s/KGfsmEUu_fMH9Vj3TleMMQ	恶意软件命名与描述规范研究	qq.com	mp.weixin.qq.com	/s/KGfsmEUu_fMH9Vj3TleMMQ
+20200323	漏洞分析	https://blog.quarkslab.com/cve-2020-0069-autopsy-of-the-most-stable-mediatek-rootkit.html	CVE-2020-0069: Autopsy of the Most Stable MediaTek Rootkit	quarkslab.com	blog.quarkslab.com	/cve-2020-0069-autopsy-of-the-most-stable-mediatek-rootkit.html
+20200323	漏洞分析	http://scz.617.cn/network/202002221000.txt	Java RMI入门	617.cn	scz.617.cn	/network/202002221000.txt
+20200323	Web安全	https://mp.weixin.qq.com/s/eENIP9rDquDXHZWsGurJ9w	Kimsuky APT组织利用疫情话题针对南韩进行双平台的攻击活动的分析	qq.com	mp.weixin.qq.com	/s/eENIP9rDquDXHZWsGurJ9w
+20200323	取证分析	https://github.com/open-source-rs/The-Cyber-Intelligence-Analyst-Cookbook	The-Cyber-Intelligence-Analyst-Cookbook	github.com	github.com	/open-source-rs/The-Cyber-Intelligence-Analyst-Cookbook
+20200323	漏洞分析	https://www.thezdi.com/blog/2020/3/25/cve-2020-0729-remote-code-execution-through-lnk-files	CVE-2020-0729: Remote Code Execution Through .LNK Files	thezdi.com	www.thezdi.com	/blog/2020/3/25/cve-2020-0729-remote-code-execution-through-lnk-files
+20200323	恶意分析	https://blog.netlab.360.com/ongoing-websites-hijacking/	一些网站https证书出现问题的情况分析	360.com	blog.netlab.360.com	/ongoing-websites-hijacking/
+20200323	运维安全	https://mp.weixin.qq.com/s/JkzkCaIjT-jWyQEp-I5muw	零信任架构实战系列：如何选择零信任架构	qq.com	mp.weixin.qq.com	/s/JkzkCaIjT-jWyQEp-I5muw
+20200323	取证分析	https://mp.weixin.qq.com/s/2FnrR5qsm9BTlAS_SeKrzw	俄罗斯情报部门代号一览(Top Secret)	qq.com	mp.weixin.qq.com	/s/2FnrR5qsm9BTlAS_SeKrzw
+20200323	漏洞分析	http://blogs.360.cn/post/macOS_Bluetoothd_0-click.html	Take Down MacOS Bluetooth with Zero-click RCE	360.cn	blogs.360.cn	/post/macOS_Bluetoothd_0-click.html
+20200323	运维安全	https://blog.trailofbits.com/2020/03/23/announcing-the-zeek-agent/	Announcing the Zeek Agent	trailofbits.com	blog.trailofbits.com	/2020/03/23/announcing-the-zeek-agent/
+20200323	其它	https://github.com/euphrat1ca/security_w1k1	security_w1k1: 安全相关资源列表	github.com	github.com	/euphrat1ca/security_w1k1
+20200323	Web安全	https://ysamm.com/?p=379	Facebook CSRF bug which lead to Instagram Partial account takeover	ysamm.com	ysamm.com	/
+20200323	设备安全	https://mp.weixin.qq.com/s/rSXqBCFmawLg_oYYVKecLQ	IoT上SSL安全开发小结	qq.com	mp.weixin.qq.com	/s/rSXqBCFmawLg_oYYVKecLQ
+20200323	恶意分析	https://mp.weixin.qq.com/s/6Khnj0tX3SgbRes25bOmow	无文件执行：一切皆是shellcode(中篇)	qq.com	mp.weixin.qq.com	/s/6Khnj0tX3SgbRes25bOmow
+20200323	漏洞分析	https://research.checkpoint.com/wp-content/uploads/2020/03/pwnable_writeup.pdf	A First Introduction to System Exploitation	checkpoint.com	research.checkpoint.com	/wp-content/uploads/2020/03/pwnable_writeup.pdf
+20200323	恶意分析	https://blog.netlab.360.com/two-zero-days-are-targeting-draytek-broadband-cpe-devices/	DrayTek Vigor企业级路由器和交换机设备在野0-day 漏洞分析报告	360.com	blog.netlab.360.com	/two-zero-days-are-targeting-draytek-broadband-cpe-devices/
+20200323	漏洞分析	http://scz.617.cn/network/202003191728.txt	Java RMI入门(4)	617.cn	scz.617.cn	/network/202003191728.txt
+20200323	设备安全	http://blog.nsfocus.net/0320-goahead-asp/	固件分析之GoAhead框架ASP文件提取	nsfocus.net	blog.nsfocus.net	/0320-goahead-asp/
+20200323	运维安全	https://github.com/NVISO-BE/posh-dsc-windowsserver-hardening	Windows OS Hardening with PowerShell DSC	github.com	github.com	/NVISO-BE/posh-dsc-windowsserver-hardening
+20200323	漏洞分析	http://scz.617.cn/network/202003121717.txt	Java RMI入门(3)	617.cn	scz.617.cn	/network/202003121717.txt
+20200323	漏洞分析	http://scz.617.cn/network/202003081810.txt	Java RMI入门(2)	617.cn	scz.617.cn	/network/202003081810.txt
+20200323	论文	https://mp.weixin.qq.com/s/zC62SGEiNTPbMxxYNR4yUA	后量子区块链: 抗量子攻击的区块链密码学研究综述(上)	qq.com	mp.weixin.qq.com	/s/zC62SGEiNTPbMxxYNR4yUA

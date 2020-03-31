@@ -14,13 +14,19 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
-| 安全学术圈 | secquan | 对CVE中的无效漏洞报告进行分类和预测 | https://mp.weixin.qq.com/s/laYXRDTtAn9kBqV1G99gog | 4| 
+| Bypass | Bypass-- | 私人珍藏：WAF攻防实战笔记 | https://mp.weixin.qq.com/s/pBY6kECXumV9vpRBaSUbZw | 5| 
+| Ms08067安全实验室 | Ms08067_com | 内网、域环境中的一些实用小技巧 | https://mp.weixin.qq.com/s/TIPyLjyHzK0TZzrsAFRjVQ | 29| 
+| 专注安管平台 |  | 美国联邦政府SOC建设动向（2019） | https://mp.weixin.qq.com/s/8I8hM_G1AO9emXpqxdR0oA | 2| 
+| 水滴安全实验室 | EversecLab | 美公司披露俄长达15年的网络活动简析 | https://mp.weixin.qq.com/s/nd_dZmAyp5U0lQSOytB6Ng | 4| 
+| 看雪学院 | ikanxue | 初探HG110-B家庭网关 | https://mp.weixin.qq.com/s/a_uzOzJKna3g27-JxOxj2w | 3| 
+| 网络安全观 | SecurityInsights | 网络安全架构 | 通过安全架构提升安全性 | https://mp.weixin.qq.com/s/m90wYaEvHzfsdgnFHMGxCw | 2| 
+| 七夜安全博客 | qiye_safe | 无文件执行：一切皆是shellcode (中) | https://mp.weixin.qq.com/s/6Khnj0tX3SgbRes25bOmow | 4| 
+| 安全学术圈 | secquan | 后量子区块链: 抗量子攻击的区块链密码学研究综述(上) | https://mp.weixin.qq.com/s/zC62SGEiNTPbMxxYNR4yUA | 6| 
 | 绿盟科技研究通讯 | nsfocus_research | 恶意软件命名与描述规范研究 | https://mp.weixin.qq.com/s/KGfsmEUu_fMH9Vj3TleMMQ | 3| 
 | 落水轩 |  | 基于开源情报解密美国雷神山火神山 | https://mp.weixin.qq.com/s/OCAK5byqIvXttqxxSQmDkQ | 1| 
 | 黑金笔谈 | heijinbitan | 网络威胁检测技术NTA | https://mp.weixin.qq.com/s/DYqFKBIj1BKwDzTpnO_tHg | 1| 
 | 腾讯安全应急响应中心 | tsrc_team | WAF建设运营及AI应用实践 | https://mp.weixin.qq.com/s/fTm1hUfRmm6ujmjvSHRLUA | 4| 
 | GoCN | golangchina | 「开源发布」 滴滴内部监控系统 Nightingale 开源啦 | https://mp.weixin.qq.com/s/Wo_em4yB5dRPvFecma4bkw | 1| 
-| Ms08067安全实验室 | Ms08067_com | 提权之DLL注入 | https://mp.weixin.qq.com/s/T3C44Jc2vsTcisS7pWHnZA | 28| 
 | 君哥的体历 | jungedetili | 张欧：数字银行可信网络实践 | https://mp.weixin.qq.com/s/VRG9LEbGTxhpMmCUTUSA8w | 2| 
 | 白帽子的成长之路 | whitehat_day | 2020年开源情报（OSINT）TOP20 工具 | https://mp.weixin.qq.com/s?__biz=MzI2NDY1NDg0OA==&mid=2247484049&idx=1&sn=e6e716cfcfef01956c1acc7d684d44d1 | 3| 
 | 盘古实验室 | PanguLab | 微信远程攻击面简单的研究与分析 | https://mp.weixin.qq.com/s/yMQN3MciI-0f3mzz_saiwQ | 1| 
@@ -36,9 +42,7 @@
 | 腾讯御见威胁情报中心 |  | 腾讯安全威胁情报中心“明炉亮灶”工程：​自动化恶意域名检测揭秘 | https://mp.weixin.qq.com/s/QV8ErKHow3b-AMp6HMzKQg | 2| 
 | 赵武的自留地 |  | 写在Goby新版发布前，讨论网络安全测试工具的发展 | https://mp.weixin.qq.com/s/hW0A1jwq-pm4M-4LGUZIrA | 1| 
 | PeckShield | PeckShield | 硬核：解密美国司法部起诉中国OTC承兑商洗钱案件 | https://mp.weixin.qq.com/s/wWrm3gwT72Pc8Nxw-1OiSw | 1| 
-| 七夜安全博客 | qiye_safe | 无文件执行：一切皆是shellcode (上) | https://mp.weixin.qq.com/s/Bv0xebGKaJ2GGwntKGq2NQ | 3| 
 | 星阑科技 | StarCrossCN | PHP 开源白盒审计工具初探（下） | https://mp.weixin.qq.com/s/6Y7anVvO9C5_nqdJihuFMw | 2| 
-| 水滴安全实验室 | EversecLab | 物联网漏洞挖掘及利用实践：mips栈溢出 | https://mp.weixin.qq.com/s/psVle6RAcTqX8VY_d4ouKg | 3| 
 | 爱奇艺技术产品团队 | iQIYI-TP | 开源 | 爱奇艺网络流量分析引擎QNSM及其应用 | https://mp.weixin.qq.com/s/flQdwQn9A1vxNs-iHQBHWA | 2| 
 | 道法术 |  | 2020 IoT Threat Report (简单解读版) | https://mp.weixin.qq.com/s/AqUyHGLzlmrBSKfk-IxW6g | 2| 
 | PaperWeekly | paperweekly | 文本分类和序列标注“深度”实践 | https://mp.weixin.qq.com/s/afO58DDDZGb5w_EEG8oW6Q | 1| 
@@ -55,7 +59,6 @@
 | SecWiki | SecWiki | 2020 Google夏日编程之安全项目列表 | https://mp.weixin.qq.com/s/Gf937RjTpA0QsT2DJFQRqQ | 2| 
 | 大潘点点 | dapandiandian | 网安产业结构和动力分析——从合规型向能力型 | https://mp.weixin.qq.com/s/V6P-6X_fnw_kvHWMxtqwLg | 1| 
 | 物联网IOT安全 | IOTsafety | Cobalt Strike｜从入门到入狱 | https://mp.weixin.qq.com/s/WAqgHn0DrXerEeow131w4Q | 1| 
-| Bypass | Bypass-- | 常见的Web源码泄漏漏洞及其利用 | https://mp.weixin.qq.com/s/2sjGHIiLICxHl91xIqdXfg | 1| 
 | 我的安全视界观 | CANI_Security | SDL最初实践（完结）Paper下载 | https://mp.weixin.qq.com/s/WSKpvCEDLpixXUQzKCFcvA | 4| 
 | 字节跳动技术团队 | toutiaotechblog | 字节跳动自研万亿级图数据库 & 图计算实践 | https://mp.weixin.qq.com/s/uYP8Eyz36JyTWska0hvtuA | 1| 
 | 时间之外沉浮事 | tasnrh | 商业网络培训靶场的形态及思考 | https://mp.weixin.qq.com/s/kbiZuNEnhb-WggRemUN9TQ | 4| 
@@ -71,7 +74,6 @@
 | 安全客 | anquanbobao | GitHub敏感数据泄露报告 | https://mp.weixin.qq.com/s/6RELktZJF2pn4rL-0-Y7Jw | 1| 
 | 网信军民融合 | wxjmrh | 研究探讨 | 军工领域建设网络安全攻防靶场平台的思路 | https://mp.weixin.qq.com/s/UmW3WCtDIOWw1bXfJnLnhg | 1| 
 | 网信防务 | CyberDefense | 美国（军）态势感知体系能力分析 | https://mp.weixin.qq.com/s/SGi2BRpR7DVEJvekd7d2Jw | 2| 
-| 看雪学院 | ikanxue | 机器学习在二进制代码相似性分析中的应用 | https://mp.weixin.qq.com/s/QGhA2LanCq5KSUYT5uBf9A | 2| 
 | APT攻击 | cncg_team | 对zimbra邮服认证机制的一些探索 | https://mp.weixin.qq.com/s/u-p6_srzby1bbejqClmf-A | 1| 
 | 中国计算机学会 | ccfvoice | CCCF译文 | 工业级知识图谱：经验与挑战 | https://mp.weixin.qq.com/s/4Fdpik3EtEng-ri_7tGM0A | 1| 
 | 白日放歌须纵9 |  | 从产品视角重新定义“检测”和“分析” | https://mp.weixin.qq.com/s/oq3T1fSKAHeDfWZNpciXSw | 1| 
@@ -86,7 +88,6 @@
 | 平凡路上 |  | 科恩面试与实习感想 | https://mp.weixin.qq.com/s/GiIIUZbzq2IOp5-arkUCfg | 1| 
 | 鱼塘领路人 | KingofSaltedFish | 威胁情报系列（一）：什么是威胁情报 | https://mp.weixin.qq.com/s/f9G818SGijdfS13KjLnFoA | 1| 
 | SudoNLP |  | 2019年NLP领域总结回顾 | https://mp.weixin.qq.com/s/7ROSm_wQNMAKLWUR0djVLQ | 1| 
-| 专注安管平台 |  | 谈谈情报引领的安全体系建设落地 | https://mp.weixin.qq.com/s/uLP2DzH5W2PcLCKZl7Cpsw | 1| 
 | 中通安全应急响应中心 | ZTO_SRC | 中通安全开源项目之分布式被动安全扫描 | https://mp.weixin.qq.com/s/VwhALBXqIPOh87Ll3ISVHQ | 1| 
 | 安全引擎 | SecEngine | Java动态类加载，当FastJson遇上内网 | https://mp.weixin.qq.com/s/ou3L-IU1CNr9EGkpjH2u0w | 1| 
 | 新一代信息科技战略研究中心 | casitclic | DARPA发布战略框架文件《保障国家安全的突破性技术和新能力》 | https://mp.weixin.qq.com/s/D23I3qEpMs8eOFKy8w2RJg | 1| 
@@ -137,6 +138,7 @@
 | WalterInSH | 风险控制笔记，适用于互联网企业 | https://github.com/WalterInSH/risk-management-note | http://walterinsh.github.io |  | Po Shanghai | None | 30 | 0 | 678 | 134 | 86 | Java | 489 | 211 | 1| 
 | theLSA | emergency-response-checklist：应急响应指南 | https://github.com/theLSA/emergency-response-checklist | http://www.lsablog.com | I like network security,penestration and programming(python,c/c++,php,java,ect),welcome to communicate with me! | China | None | 38 | 0 | 36 | 133 | 35 | Python | 281 | 77 | 1| 
 | dayt0n | 64-bit iOS boot image patcher written in C | https://github.com/dayt0n/kairos | http://dayt0n.com | 19. iOS and OS X tinkerer. Computer Science at UAH. | United States | None | 37 | 0 | 43 | 132 | 47 | Python,C,Shell,C++ | 23 | 7 | 1| 
+| euphrat1ca | security_w1k1: 安全相关资源列表 | https://github.com/euphrat1ca/security_w1k1 | None | Thousands Times | polar | None | 79 | 0 | 498 | 120 | 40 | Python,Go,Ruby | 343 | 119 | 1| 
 | ChanChiChoi | 人脸识别相关的 Papers 收集 - Awesome Face Recognition | https://github.com/ChanChiChoi/awesome-Face_Recognition | http://www.cnblogs.com/shouhuxianjian/ |  | China | None | 21 | 0 | 184 | 110 | 51 | Python,Jupyter | 1800 | 495 | 1| 
 | itm4n | PrivescCheck - 用于探测 Windows 是否存在可以被用于本地提权的错误配置 | https://github.com/itm4n/PrivescCheck | https://itm4n.github.io/ | Pentester | Paris | None | 8 | 0 | 27 | 109 | 11 | VBA,PowerShell,C++ | 321 | 87 | 1| 
 | insightglacier | Golang实现的x86下的Meterpreter reverse tcp | https://github.com/insightglacier/go_meterpreter | http:/www.shellpub.com | Security Research | Beijing | Shellpub | 79 | 0 | 423 | 92 | 232 | C,ASP,Java,Python,C++,TypeScript,C#,HTML,Go,PHP | 150 | 63 | 2| 

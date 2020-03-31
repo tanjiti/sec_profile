@@ -14,13 +14,19 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
-| 安全学术圈 | secquan | 对CVE中的无效漏洞报告进行分类和预测 | https://mp.weixin.qq.com/s/laYXRDTtAn9kBqV1G99gog | 41| 
+| Bypass | Bypass-- | 私人珍藏：WAF攻防实战笔记 | https://mp.weixin.qq.com/s/pBY6kECXumV9vpRBaSUbZw | 47| 
+| Ms08067安全实验室 | Ms08067_com | 内网、域环境中的一些实用小技巧 | https://mp.weixin.qq.com/s/TIPyLjyHzK0TZzrsAFRjVQ | 30| 
+| 专注安管平台 |  | 美国联邦政府SOC建设动向（2019） | https://mp.weixin.qq.com/s/8I8hM_G1AO9emXpqxdR0oA | 4| 
+| 水滴安全实验室 | EversecLab | 美公司披露俄长达15年的网络活动简析 | https://mp.weixin.qq.com/s/nd_dZmAyp5U0lQSOytB6Ng | 10| 
+| 看雪学院 | ikanxue | 初探HG110-B家庭网关 | https://mp.weixin.qq.com/s/a_uzOzJKna3g27-JxOxj2w | 39| 
+| 网络安全观 | SecurityInsights | 网络安全架构 | 通过安全架构提升安全性 | https://mp.weixin.qq.com/s/m90wYaEvHzfsdgnFHMGxCw | 2| 
+| 七夜安全博客 | qiye_safe | 无文件执行：一切皆是shellcode (中) | https://mp.weixin.qq.com/s/6Khnj0tX3SgbRes25bOmow | 7| 
+| 安全学术圈 | secquan | 后量子区块链: 抗量子攻击的区块链密码学研究综述(上) | https://mp.weixin.qq.com/s/zC62SGEiNTPbMxxYNR4yUA | 43| 
 | 绿盟科技研究通讯 | nsfocus_research | 恶意软件命名与描述规范研究 | https://mp.weixin.qq.com/s/KGfsmEUu_fMH9Vj3TleMMQ | 26| 
 | 落水轩 |  | 基于开源情报解密美国雷神山火神山 | https://mp.weixin.qq.com/s/OCAK5byqIvXttqxxSQmDkQ | 1| 
 | 黑金笔谈 | heijinbitan | 网络威胁检测技术NTA | https://mp.weixin.qq.com/s/DYqFKBIj1BKwDzTpnO_tHg | 1| 
 | 腾讯安全应急响应中心 | tsrc_team | WAF建设运营及AI应用实践 | https://mp.weixin.qq.com/s/fTm1hUfRmm6ujmjvSHRLUA | 8| 
 | GoCN | golangchina | 「开源发布」 滴滴内部监控系统 Nightingale 开源啦 | https://mp.weixin.qq.com/s/Wo_em4yB5dRPvFecma4bkw | 1| 
-| Ms08067安全实验室 | Ms08067_com | 提权之DLL注入 | https://mp.weixin.qq.com/s/T3C44Jc2vsTcisS7pWHnZA | 29| 
 | 君哥的体历 | jungedetili | 张欧：数字银行可信网络实践 | https://mp.weixin.qq.com/s/VRG9LEbGTxhpMmCUTUSA8w | 35| 
 | 白帽子的成长之路 | whitehat_day | 2020年开源情报（OSINT）TOP20 工具 | https://mp.weixin.qq.com/s?__biz=MzI2NDY1NDg0OA==&mid=2247484049&idx=1&sn=e6e716cfcfef01956c1acc7d684d44d1 | 4| 
 | 盘古实验室 | PanguLab | 微信远程攻击面简单的研究与分析 | https://mp.weixin.qq.com/s/yMQN3MciI-0f3mzz_saiwQ | 2| 
@@ -36,9 +42,7 @@
 | 腾讯御见威胁情报中心 |  | 腾讯安全威胁情报中心“明炉亮灶”工程：​自动化恶意域名检测揭秘 | https://mp.weixin.qq.com/s/QV8ErKHow3b-AMp6HMzKQg | 10| 
 | 赵武的自留地 |  | 写在Goby新版发布前，讨论网络安全测试工具的发展 | https://mp.weixin.qq.com/s/hW0A1jwq-pm4M-4LGUZIrA | 5| 
 | PeckShield | PeckShield | 硬核：解密美国司法部起诉中国OTC承兑商洗钱案件 | https://mp.weixin.qq.com/s/wWrm3gwT72Pc8Nxw-1OiSw | 1| 
-| 七夜安全博客 | qiye_safe | 无文件执行：一切皆是shellcode (上) | https://mp.weixin.qq.com/s/Bv0xebGKaJ2GGwntKGq2NQ | 6| 
 | 星阑科技 | StarCrossCN | PHP 开源白盒审计工具初探（下） | https://mp.weixin.qq.com/s/6Y7anVvO9C5_nqdJihuFMw | 2| 
-| 水滴安全实验室 | EversecLab | 物联网漏洞挖掘及利用实践：mips栈溢出 | https://mp.weixin.qq.com/s/psVle6RAcTqX8VY_d4ouKg | 9| 
 | 爱奇艺技术产品团队 | iQIYI-TP | 开源 | 爱奇艺网络流量分析引擎QNSM及其应用 | https://mp.weixin.qq.com/s/flQdwQn9A1vxNs-iHQBHWA | 3| 
 | 道法术 |  | 2020 IoT Threat Report (简单解读版) | https://mp.weixin.qq.com/s/AqUyHGLzlmrBSKfk-IxW6g | 3| 
 | PaperWeekly | paperweekly | 文本分类和序列标注“深度”实践 | https://mp.weixin.qq.com/s/afO58DDDZGb5w_EEG8oW6Q | 11| 
@@ -55,7 +59,6 @@
 | SecWiki | SecWiki | 2020 Google夏日编程之安全项目列表 | https://mp.weixin.qq.com/s/Gf937RjTpA0QsT2DJFQRqQ | 24| 
 | 大潘点点 | dapandiandian | 网安产业结构和动力分析——从合规型向能力型 | https://mp.weixin.qq.com/s/V6P-6X_fnw_kvHWMxtqwLg | 1| 
 | 物联网IOT安全 | IOTsafety | Cobalt Strike｜从入门到入狱 | https://mp.weixin.qq.com/s/WAqgHn0DrXerEeow131w4Q | 1| 
-| Bypass | Bypass-- | 常见的Web源码泄漏漏洞及其利用 | https://mp.weixin.qq.com/s/2sjGHIiLICxHl91xIqdXfg | 43| 
 | 我的安全视界观 | CANI_Security | SDL最初实践（完结）Paper下载 | https://mp.weixin.qq.com/s/WSKpvCEDLpixXUQzKCFcvA | 40| 
 | 字节跳动技术团队 | toutiaotechblog | 字节跳动自研万亿级图数据库 & 图计算实践 | https://mp.weixin.qq.com/s/uYP8Eyz36JyTWska0hvtuA | 1| 
 | 时间之外沉浮事 | tasnrh | 商业网络培训靶场的形态及思考 | https://mp.weixin.qq.com/s/kbiZuNEnhb-WggRemUN9TQ | 15| 
@@ -71,7 +74,6 @@
 | 安全客 | anquanbobao | GitHub敏感数据泄露报告 | https://mp.weixin.qq.com/s/6RELktZJF2pn4rL-0-Y7Jw | 7| 
 | 网信军民融合 | wxjmrh | 研究探讨 | 军工领域建设网络安全攻防靶场平台的思路 | https://mp.weixin.qq.com/s/UmW3WCtDIOWw1bXfJnLnhg | 4| 
 | 网信防务 | CyberDefense | 美国（军）态势感知体系能力分析 | https://mp.weixin.qq.com/s/SGi2BRpR7DVEJvekd7d2Jw | 21| 
-| 看雪学院 | ikanxue | 机器学习在二进制代码相似性分析中的应用 | https://mp.weixin.qq.com/s/QGhA2LanCq5KSUYT5uBf9A | 38| 
 | APT攻击 | cncg_team | 对zimbra邮服认证机制的一些探索 | https://mp.weixin.qq.com/s/u-p6_srzby1bbejqClmf-A | 5| 
 | 中国计算机学会 | ccfvoice | CCCF译文 | 工业级知识图谱：经验与挑战 | https://mp.weixin.qq.com/s/4Fdpik3EtEng-ri_7tGM0A | 1| 
 | 白日放歌须纵9 |  | 从产品视角重新定义“检测”和“分析” | https://mp.weixin.qq.com/s/oq3T1fSKAHeDfWZNpciXSw | 1| 
@@ -86,7 +88,6 @@
 | 平凡路上 |  | 科恩面试与实习感想 | https://mp.weixin.qq.com/s/GiIIUZbzq2IOp5-arkUCfg | 1| 
 | 鱼塘领路人 | KingofSaltedFish | 威胁情报系列（一）：什么是威胁情报 | https://mp.weixin.qq.com/s/f9G818SGijdfS13KjLnFoA | 1| 
 | SudoNLP |  | 2019年NLP领域总结回顾 | https://mp.weixin.qq.com/s/7ROSm_wQNMAKLWUR0djVLQ | 1| 
-| 专注安管平台 |  | 谈谈情报引领的安全体系建设落地 | https://mp.weixin.qq.com/s/uLP2DzH5W2PcLCKZl7Cpsw | 3| 
 | 中通安全应急响应中心 | ZTO_SRC | 中通安全开源项目之分布式被动安全扫描 | https://mp.weixin.qq.com/s/VwhALBXqIPOh87Ll3ISVHQ | 6| 
 | 安全引擎 | SecEngine | Java动态类加载，当FastJson遇上内网 | https://mp.weixin.qq.com/s/ou3L-IU1CNr9EGkpjH2u0w | 2| 
 | 新一代信息科技战略研究中心 | casitclic | DARPA发布战略框架文件《保障国家安全的突破性技术和新能力》 | https://mp.weixin.qq.com/s/D23I3qEpMs8eOFKy8w2RJg | 1| 
@@ -2043,6 +2044,7 @@
 | MichielDerhaeg | Build yourself a Linux : | https://github.com/MichielDerhaeg/build-linux | https://derhaeg.be |  | Belgium | None | 17 | 0 | 19 | 120 | 2 | Go,Shell,Haskell | 4700 | 268 | 1| 
 | atimorin | scada-tools | https://github.com/atimorin/scada-tools | None |  | None | None | 218 | 0 | 190 | 120 | 46 | Python,JavaScript,C++ | 104 | 55 | 1| 
 | azonenberg | #CHES2016 Antikernel slides: https://github.com/azonenberg/antikernel/raw/master/doc/publications/ches2016/ches2016-antikernel-2.pptx. CHES paper: http://eprint.iacr.org/2016/550. Full thesis: | https://github.com/azonenberg/antikernel/raw/master/doc/publications/ches2016/ches2016-antikernel-2.pptx. | http://siliconexposed.blogspot.com/ |  | Seattle, WA | IOActive | 30 | 0 | 0 | 120 | 0 | Verilog,C++,SystemVerilog | 0 | 0 | 3| 
+| euphrat1ca | security_w1k1: 安全相关资源列表 | https://github.com/euphrat1ca/security_w1k1 | None | Thousands Times | polar | None | 79 | 0 | 498 | 120 | 40 | Python,Go,Ruby | 343 | 119 | 1| 
 | ChaitanyaHaritash | CrisPY : A exploiter kit written in python w/ various latest exploits and tools written in python,perl,bash : | https://github.com/ChaitanyaHaritash/CrisPY | None | Im just someone, to whom it might take you time to understand :) | lost | None | 64 | 0 | 368 | 119 | 106 | Python | 0 | 0 | 2| 
 | a13xp0p0v | Linux Kernel 防御地图: | https://github.com/a13xp0p0v/linux-kernel-defence-map | https://twitter.com/a13xp0p0v | Linux Kernel Developer & Security Researcher | None | None | 5 | 0 | 0 | 119 | 3 | Python,Go,C,HTML | 436 | 44 | 4| 
 | dbohdan | structured-text-tools - 可用来操纵结构化文本(CSV, XML, HTML, JSON...)的命令行工具清单: | https://github.com/dbohdan/structured-text-tools | http://dbohdan.com/ |  | None | None | 35 | 0 | 699 | 119 | 1 | Go,Python,Tcl,Haskell,HTML | 0 | 0 | 1| 
