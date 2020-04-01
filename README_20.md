@@ -14,27 +14,31 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
-| Bypass | Bypass-- | 私人珍藏：WAF攻防实战笔记 | https://mp.weixin.qq.com/s/pBY6kECXumV9vpRBaSUbZw | 47| 
+| Bypass | Bypass-- | 渗透利器 | 提权辅助工具箱 | https://mp.weixin.qq.com/s/Z7kh8OVslnppsL9ntNJHGg | 47| 
+| Tide安全团队 | TideSec | Shellcode编程——编写自己想要功能的Shellcode | https://mp.weixin.qq.com/s/aFO2KJieZQN2rNkcmrj-pQ | 21| 
 | Ms08067安全实验室 | Ms08067_com | 内网、域环境中的一些实用小技巧 | https://mp.weixin.qq.com/s/TIPyLjyHzK0TZzrsAFRjVQ | 30| 
 | 专注安管平台 |  | 美国联邦政府SOC建设动向（2019） | https://mp.weixin.qq.com/s/8I8hM_G1AO9emXpqxdR0oA | 4| 
+| 安全学术圈 | secquan | 后量子区块链: 抗量子攻击的区块链密码学研究综述(下) | https://mp.weixin.qq.com/s/w8DI6khFFdeXiZlA5C99IA | 43| 
 | 水滴安全实验室 | EversecLab | 美公司披露俄长达15年的网络活动简析 | https://mp.weixin.qq.com/s/nd_dZmAyp5U0lQSOytB6Ng | 10| 
 | 看雪学院 | ikanxue | 初探HG110-B家庭网关 | https://mp.weixin.qq.com/s/a_uzOzJKna3g27-JxOxj2w | 39| 
 | 网络安全观 | SecurityInsights | 网络安全架构 | 通过安全架构提升安全性 | https://mp.weixin.qq.com/s/m90wYaEvHzfsdgnFHMGxCw | 2| 
-| 七夜安全博客 | qiye_safe | 无文件执行：一切皆是shellcode (中) | https://mp.weixin.qq.com/s/6Khnj0tX3SgbRes25bOmow | 7| 
-| 安全学术圈 | secquan | 后量子区块链: 抗量子攻击的区块链密码学研究综述(上) | https://mp.weixin.qq.com/s/zC62SGEiNTPbMxxYNR4yUA | 43| 
-| 绿盟科技研究通讯 | nsfocus_research | 恶意软件命名与描述规范研究 | https://mp.weixin.qq.com/s/KGfsmEUu_fMH9Vj3TleMMQ | 26| 
-| 落水轩 |  | 基于开源情报解密美国雷神山火神山 | https://mp.weixin.qq.com/s/OCAK5byqIvXttqxxSQmDkQ | 1| 
-| 黑金笔谈 | heijinbitan | 网络威胁检测技术NTA | https://mp.weixin.qq.com/s/DYqFKBIj1BKwDzTpnO_tHg | 1| 
-| 腾讯安全应急响应中心 | tsrc_team | WAF建设运营及AI应用实践 | https://mp.weixin.qq.com/s/fTm1hUfRmm6ujmjvSHRLUA | 8| 
 | GoCN | golangchina | 「开源发布」 滴滴内部监控系统 Nightingale 开源啦 | https://mp.weixin.qq.com/s/Wo_em4yB5dRPvFecma4bkw | 1| 
+| JohnDoe爱学习 |  | 俄罗斯情报部门代号一览(Top Secret) | https://mp.weixin.qq.com/s/2FnrR5qsm9BTlAS_SeKrzw | 1| 
+| 七夜安全博客 | qiye_safe | 无文件执行：一切皆是shellcode (中) | https://mp.weixin.qq.com/s/6Khnj0tX3SgbRes25bOmow | 7| 
+| 冷渗透 |  | 黑产研究之秒拨IP | https://mp.weixin.qq.com/s/XL6XO-FBHq37H1h-iMwV4w | 1| 
 | 君哥的体历 | jungedetili | 张欧：数字银行可信网络实践 | https://mp.weixin.qq.com/s/VRG9LEbGTxhpMmCUTUSA8w | 35| 
+| 小米安全中心 | misrc_team | IoT上SSL安全开发小结 | https://mp.weixin.qq.com/s/rSXqBCFmawLg_oYYVKecLQ | 5| 
+| 小议安全 | xiaoyianquan | 零信任架构实战系列：如何选择零信任架构 | https://mp.weixin.qq.com/s/JkzkCaIjT-jWyQEp-I5muw | 2| 
 | 白帽子的成长之路 | whitehat_day | 2020年开源情报（OSINT）TOP20 工具 | https://mp.weixin.qq.com/s?__biz=MzI2NDY1NDg0OA==&mid=2247484049&idx=1&sn=e6e716cfcfef01956c1acc7d684d44d1 | 4| 
 | 盘古实验室 | PanguLab | 微信远程攻击面简单的研究与分析 | https://mp.weixin.qq.com/s/yMQN3MciI-0f3mzz_saiwQ | 2| 
+| 绿盟科技研究通讯 | nsfocus_research | 恶意软件命名与描述规范研究 | https://mp.weixin.qq.com/s/KGfsmEUu_fMH9Vj3TleMMQ | 26| 
+| 腾讯安全应急响应中心 | tsrc_team | WAF建设运营及AI应用实践 | https://mp.weixin.qq.com/s/fTm1hUfRmm6ujmjvSHRLUA | 8| 
+| 落水轩 |  | 基于开源情报解密美国雷神山火神山 | https://mp.weixin.qq.com/s/OCAK5byqIvXttqxxSQmDkQ | 1| 
+| 黑金笔谈 | heijinbitan | 网络威胁检测技术NTA | https://mp.weixin.qq.com/s/DYqFKBIj1BKwDzTpnO_tHg | 1| 
 | PolarisLab | PolarisLab | 追踪与新冠状病毒相关的安卓恶意软件 | https://mp.weixin.qq.com/s/fLDNLJIWwvrUUwt6Pi6T4A | 9| 
 | 山丘安全攻防实验室 | hillsec | 一篇文章带你从XSS入门到进阶(附Fuzzing+BypassWAF+Payloads) | https://mp.weixin.qq.com/s/EOPCstDYmFVtaLYNcUQLzA | 2| 
 | 零队 |  | 加载远程XSL文件的宏免杀方法 | https://mp.weixin.qq.com/s?__biz=MzU2NTc2MjAyNg==&mid=2247483758&idx=1&sn=1bd0006d16747389046058ea34c3b7b7&chksm=fcb783ebcbc00afd694b7a2ee10ad32aff0a534963878541ee17974ffee29c63342f4e617661&token=1823181969&lang=zh_CN#rd | 1| 
 | AI科技评论 | aitechtalk | 如何以初学者角度写好一篇国际学术论文？ | https://mp.weixin.qq.com/s/zwTlXBrZiC88y9F5DDU0_g | 3| 
-| Tide安全团队 | TideSec | 【红蓝对抗】windows hash 抓取总结 | https://mp.weixin.qq.com/s/jaJi2hXoKKrDbEm1kcY16g | 17| 
 | heysec | bloodzer007 | 日志分析系列(三):分析实战篇 | https://mp.weixin.qq.com/s/h2pHi3PVn_92aEIOvB1Yjg | 13| 
 | 安全乐观主义 |  | SDL已死，应用安全路在何方？ | https://mp.weixin.qq.com/s/tYRiKiI7bjgyzQguMA1mrw | 14| 
 | 安全喷子 |  | 威胁狩猎101文档 | https://mp.weixin.qq.com/s/0hOtnTz9QrKlLivAobjU7Q | 6| 
@@ -53,7 +57,6 @@
 | 云众可信 | yunzhongkexin | 原创干货 | Java代码审计之跨站脚本攻击 | https://mp.weixin.qq.com/s/lQNixguOJahjM-AXvPoHqQ | 10| 
 | 银河安全实验室 | Galaxy-Lab | 尝试利用Cython将Python项目转化为单个.so | https://mp.weixin.qq.com/s/YRKY7FgLFw-w4QIlrNd-FA | 6| 
 | 安天 | Antiylab | 安天对“超高能力网空威胁行为体”系列分析回顾 | https://mp.weixin.qq.com/s/N0LxStDpc6GyzpyszYnguQ | 15| 
-| 小议安全 | xiaoyianquan | 零信任架构远程办公实战 | https://mp.weixin.qq.com/s/Kgm0wuPeQHX7fJoUondz4Q | 1| 
 | 永安在线反欺诈 | YongAnOnline | 业务安全蓝军测评标准白皮书 | https://mp.weixin.qq.com/s/23fcilR_XhrGLWSaKv21zA | 1| 
 | 青衣十三楼飞花堂 |  | burp pro 2020.2 | https://mp.weixin.qq.com/s/WXdEvc0p04KjyOlmb4qtRg | 1| 
 | SecWiki | SecWiki | 2020 Google夏日编程之安全项目列表 | https://mp.weixin.qq.com/s/Gf937RjTpA0QsT2DJFQRqQ | 24| 
@@ -164,7 +167,6 @@
 | 新智元 | AI_era | 悬赏1000万美元，打假AI换脸！Facebook发起Deepfakes检测挑战赛 | https://mp.weixin.qq.com/s/60AAqBQxXmP84OflPiRxtQ | 5| 
 | 天御攻防实验室 | TianyuLab | 实战化ATT&CK™：引言 | https://mp.weixin.qq.com/s/pF_d4Jbqs8QGlWN0ITnm6g | 5| 
 | 小强说 | xiaoqiangcall | 从ATT&CK看威胁情报的发展和应用趋势 | https://mp.weixin.qq.com/s/zbAwTDZ5IuRCMkuIDo82Cw | 4| 
-| 小米安全中心 | misrc_team | 【技术分享】漏洞扫描技巧篇-Web 漏洞扫描器 | https://mp.weixin.qq.com/s/urbFms6AiUb7uu_IGj3LXQ | 4| 
 | SIGAI | SIGAICN | NLP技术也能帮助程序分析？ | https://mp.weixin.qq.com/s/b4_OdxgxsK8CCU5b8qCEfw | 2| 
 | 威胁情报小屋 |  | 海莲花攻击手法概述 | https://mp.weixin.qq.com/s/IrM60hbB6dWdbWxpFbO1lA | 1| 
 | 孟极实验室 | mengjiteam | 一条命令实现端口复用后门 | https://mp.weixin.qq.com/s/HDZUsTbffeGhgwu1FOWQNg | 1| 
@@ -3204,6 +3206,7 @@
 | nathansizemore | hydrogen : Multithreaded, non-blocking Linux server framework in Rust : | https://github.com/nathansizemore/hydrogen | https://twitter.com/nathansizemore |  | Dayton, OH | None | 26 | 0 | 8 | 13 | 4 | Rust | 357 | 12 | 1| 
 | open-source-rs | The-Cyber-Intelligence-Analyst-Cookbook | https://github.com/open-source-rs/The-Cyber-Intelligence-Analyst-Cookbook | None |  | None | None | 8 | 0 | 0 | 13 | 2 | Python,PHP | 34 | 7 | 1| 
 | qianshanhai | q-shell:Unix remote login tool, rootkit shell tool | https://github.com/qianshanhai/q-shell/ | None |  | None | None | 9 | 0 | 0 | 13 | 0 | C,Swift,Objective-C | 28 | 17 | 1| 
+| qianxiao996 | CTF-Tools: 一款Python+Pyqt写的CTF编解码工具 | https://github.com/qianxiao996/CTF-Tools | http://blog.qianxiao996.cn | 博客:blog.qianxiao996.cn | None | None | 35 | 0 | 193 | 13 | 4 | Python,C#,HTML | 15 | 8 | 1| 
 | rootVIII | proxy_requests - 自动获取网络代理并配置 requests 库代理的脚本: | https://github.com/rootVIII/proxy_requests | None | hey SHIPMATE | None | None | 19 | 0 | 31 | 13 | 14 | Python | 0 | 0 | 1| 
 | stuhirst | AWS 安全检测相关的项目列表: | https://github.com/stuhirst/awssecurity/blob/master/arsenal.md | https://twitter.com/StuHirstInfoSec | A Security Bloke. | None | None | 3 | 0 | 0 | 13 | 0 | HTML,JavaScript | 169 | 39 | 1| 
 | vrasneur | randkit : Random number rootkit for the Linux kernel : | https://github.com/vrasneur/randkit | None |  | None | None | 21 | 0 | 58 | 13 | 2 | Python,C,Shell,Jupyter,C++ | 0 | 0 | 1| 
@@ -3498,6 +3501,7 @@
 | Microsoft | ApplicationInspector - 微软开源的源码分析工具 | https://github.com/Microsoft/ApplicationInspector | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Jupyter,C#,JavaScript,C++,Python,Objective-C,Rich,CMake,PowerShell,CSS | 0 | 0 | 1| 
 | MicrosoftDocs | 微软公开 Windows Driver Kit 相关的文档 | https://github.com/MicrosoftDocs/windows-driver-docs | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,HTML,C#,JavaScript,Python,Shell,PowerShell | 3100 | 8200 | 1| 
 | MotherFuzzers | 湾区一个关于Fuzzing的workshop的分享内容，三个议题涵盖了c/c++，web应用等不同目标的Fuzzing技巧 | https://github.com/MotherFuzzers/meetups/blob/master/README.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
+| NVISO-BE | Windows OS Hardening with PowerShell DSC | https://github.com/NVISO-BE/posh-dsc-windowsserver-hardening | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Shell,JavaScript,PowerShell,C++ | 0 | 0 | 1| 
 | Netflix-Skunkworks | diffy - 由 Netflix 的安全情报和响应团队(SIRT)开发的数字取证及事件响应(DFIR)工具: | https://github.com/Netflix-Skunkworks/diffy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Groovy,C,Shell,Java,Scala,Python,JavaScript,C++,Go,Ruby | 0 | 0 | 1| 
 | Netis | packet-agent: 云环境网络流量镜像项目 | https://github.com/Netis/packet-agent/blob/master/README-zh-Hans.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,C++ | 0 | 0 | 1| 
 | NoneAge | 交易所安全测试系列指南文档 | https://github.com/NoneAge/BlockchainSecurityTutorial | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,WebAssembly | 0 | 0 | 1| 
