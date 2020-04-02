@@ -1,13 +1,13 @@
 Python	966
 C	608
 JavaScript	605
-C++	496
+C++	497
 HTML	434
 Shell	420
 Java	411
 Go	340
+C#	243
 Ruby	242
-C#	242
 PHP	217
 PowerShell	216
 CSS	207
@@ -115,6 +115,7 @@ RenderScript	1
 Awk	1
 AutoHotkey	1
 Isabelle	1
+VBScript	1
 AutoIt	1
 Prolog	1
 SourcePawn	1

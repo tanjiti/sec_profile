@@ -1,12 +1,12 @@
 Python	45
-C++	25
+C++	26
 JavaScript	23
 C	22
 HTML	21
 Shell	20
 Java	19
 Go	19
-C#	15
+C#	16
 PowerShell	13
 TypeScript	10
 Ruby	8
@@ -31,6 +31,7 @@ Rich	1
 Scheme	1
 Assembly	1
 CoffeeScript	1
+VBScript	1
 Zeek	1
 Objective-C	1
 Smali	1

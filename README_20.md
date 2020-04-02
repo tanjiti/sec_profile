@@ -1596,6 +1596,7 @@
 | bnagy | gapstone - gapstone is a Go binding for the capstone disassembly library | https://github.com/bnagy/gapstone | None |  | None | None | 41 | 0 | 13 | 290 | 0 | Shell,C#,Python,HTML,Go,PLpgSQL | 275 | 35 | 2| 
 | ExpLife0011 | CVE-2019-0803: Win32k Elevation of Privilege Poc | https://github.com/ExpLife0011/CVE-2019-0803 | None |  | None | None | 2800 | 0 | 3000 | 288 | 489 | Python,C#,C,Assembly,C++ | 672 | 227 | 3| 
 | Te-k | Harpoon - 开源情报收集工具,介绍: https://www.randhome.io/blog/2018/02/23/harpoon-an-osint-/-threat-intelligence-tool/ GitHub: | https://github.com/Te-k/harpoon | https://www.randhome.io |  | None | None | 60 | 0 | 135 | 288 | 104 | Python,YARA,C | 785 | 769 | 2| 
+| djhohnstein | SharpChromium - 用于从 Chromium 系列浏览器中获取 Cookie、访问历史、网站登录凭据等敏感信息的工具 | https://github.com/djhohnstein/SharpChromium | https://github.com/specterops | Operator at SpecterOps. Kali Contributor. | Seattle, WA | @specterops | 123 | 0 | 10 | 288 | 6 | C#,VBScript,C++ | 104 | 23 | 3| 
 | CyberMonitor | APT_CyberCriminal_Campagin_Collections - 2006 年至今的几乎所有公开的 APT 攻击分析报告收集: | https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections | None |  | None | None | 238 | 0 | 40 | 286 | 5 | C,Shell,C#,JavaScript,C++,HTML,Go,PowerShell | 1000 | 305 | 1| 
 | Ice3man543 | subfinder - 子域名枚举工具: | https://github.com/Ice3man543/subfinder | https://ice3man.me | Doing security stuff! Automating things because of my laziness to the fullest. | None | None | 39 | 0 | 329 | 283 | 82 | Go,Python,C | 0 | 0 | 1| 
 | frewsxcv | Fuzzing Rust code with american-fuzzy-lop | https://github.com/frewsxcv/afl.rs | https://github.com/kickstarter |  | New York City | @kickstarter | 591 | 0 | 717 | 283 | 111 | Python,C,JavaScript,Rust | 0 | 0 | 1| 
@@ -1892,7 +1893,6 @@
 | davehull | Kansa - 一个基于 Powershell 的事件响应框架: | https://github.com/davehull/Kansa | http://trustedsignal.blogspot.com/ |  | I am from enternetz | Various and sundry | 51 | 0 | 35 | 161 | 57 | C#,Python,PowerShell | 0 | 0 | 1| 
 | edwardz246003 |  | https://github.com/edwardz246003/IIS_exploit | None |  | None | None | 9 | 0 | 4 | 161 | 4 | Python,C++ | 539 | 220 | 2| 
 | upgoingstar | datasploit: A tool to perform various OSINT techniques | https://github.com/upgoingstar/datasploit | https://github.com/DataSploit | #SecurityConsultant #pentester Project Lead of @DataSploit Founder @ReconVillage | None | None | 35 | 0 | 14 | 161 | 2 | Python,PHP | 44 | 18 | 1| 
-| djhohnstein | .NET Profiler DLL 劫持: | https://github.com/djhohnstein/.NET-Profiler-DLL-Hijack | https://popeax.io | Operator at SpecterOps. Kali Contributor. | Seattle, WA | None | 63 | 0 | 7 | 160 | 3 | C#,Go,C,Python,C++ | 0 | 0 | 2| 
 | fengxuangit | AutoFuck: 自动识别cms并且加载相关poc自动攻击 | https://github.com/fengxuangit/AutoFuck | https://www.fangpianz.com | The reason why a great man is great is that he resolves to be a great man. | China | None | 89 | 0 | 248 | 160 | 33 | Python,Shell,PHP,Java | 0 | 0 | 2| 
 | koczkatamas | Just uploaded an EoP (SYSTEM) exploit for my CVE-2016-0051 (MS16-016): https://github.com/koczkatamas/CVE-2016-0051 | https://github.com/koczkatamas/CVE-2016-0051 | https://twitter.com/koczkatamas |  | Hungary | Tresorit | 54 | 0 | 14 | 160 | 2 | C#,Python,C,TypeScript,JavaScript | 0 | 0 | 1| 
 | stevemk14ebr | UniHook - Intercept arbitrary functions at run-time, without knowing their typedefs | https://github.com/stevemk14ebr/UniHook | None | Computer science student at WVU. I do security work and build things for fun. | West Virginia University | None | 53 | 0 | 55 | 160 | 15 | C,C++ | 610 | 139 | 1| 
@@ -3712,6 +3712,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| CVE-2020-0796 Windows SMBv3 LPE漏洞 POC详细分析 | http://medium.com/@knownsec404team/cve-2020-0796-windows-smbv3-lpe-exploit-poc-analysis-c77569124c87| 
 | Remote Image Upload Leads to RCE (Inject Malicious Code to PHP-GD Image) | http://medium.com/@asdqwedev/remote-image-upload-leads-to-rce-inject-malicious-code-to-php-gd-image-90e1e8b2aada| 
 | OWASP 中提到的最严重的 API 漏洞类型 - BOLA (Broken Object Level Authorization) 是怎么回事儿 | http://medium.com/@inonst/a-deep-dive-on-the-most-critical-api-vulnerability-bola-1342224ec3f2| 
 | 滥用 hostPath 挂载逃逸 Kubernetes Namespace | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fblog.appsecco.com%2Fkubernetes-namespace-breakout-using-insecure-host-path-volume-part-1-b382f2a6e216| 
