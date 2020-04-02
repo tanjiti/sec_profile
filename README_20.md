@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 深澜深蓝 |  | 漏洞分析视角下的CVE-2020-0796漏洞 | https://mp.weixin.qq.com/s/Cn0bF7xG6ESCP2iVYiaW2g | 1| 
 | Bypass | Bypass-- | 渗透利器 | 提权辅助工具箱 | https://mp.weixin.qq.com/s/Z7kh8OVslnppsL9ntNJHGg | 47| 
 | Tide安全团队 | TideSec | Shellcode编程——编写自己想要功能的Shellcode | https://mp.weixin.qq.com/s/aFO2KJieZQN2rNkcmrj-pQ | 21| 
 | Ms08067安全实验室 | Ms08067_com | 内网、域环境中的一些实用小技巧 | https://mp.weixin.qq.com/s/TIPyLjyHzK0TZzrsAFRjVQ | 30| 
@@ -3100,6 +3101,7 @@
 | jlrodriguezf | WhatsPwn : Linux tool used to extract sensitive data, inject backdoor or drop remote shells on android devices : | https://github.com/jlrodriguezf/WhatsPwn | http://jlrodriguezf@gmail.com | Im a Mexico-based technoguy. Currently studying Technology in the Applied Physics and Advanced Technology Center in Mexico. I like computers and biochemistry. | México | None | 5 | 0 | 0 | 18 | 0 | Shell,Java,C++,CSS | 91 | 28 | 1| 
 | kitygraph | kityminder:在线脑图编辑器 | https://github.com/kitygraph/kityminder/ | None |  | None | None | 1 | 0 | 0 | 18 | 0 |  | 0 | 0 | 1| 
 | merculite | BLE-Security#Hacking #Bluetooth Low Energy Locks#BTLE #IoT #Security | https://github.com/merculite/BLE-Security | None |  | None | None | 1 | 0 | 0 | 18 | 0 | Python | 94 | 25 | 1| 
+| mrlnc | 禁用LTE网络安全性-商业网络中的配置错误安全研究分享。 | https://github.com/mrlnc/LTE-ciphercheck | None | Research Assistant & PhD student. Mobile Network Security at Ruhr-Universität Bochum. | Bochum, Germany | Ruhr-Universität Bochum | 15 | 0 | 26 | 18 | 30 | C++ | 36 | 13 | 1| 
 | oxagast | An advanced fuzzing framework designed to find vulnerabilities in C/C++ code | https://github.com/oxagast/ansvif | http://maskster.site | I turn RedBull into code, parts into machines, and am an expert at being an amateur at all things. | Asheville, NC, USA | Dominos Pizza | 13 | 0 | 19 | 18 | 9 | Assembly,JavaScript,Java,C++,Perl | 0 | 0 | 1| 
 | pgorczak | 通过 Docker 和共享内存运行 end-to-end srsLTE 系统的最小实例: | https://github.com/pgorczak/srslte-docker-emulated | None |  | Dortmund, Germany | TU Dortmund University | 33 | 0 | 137 | 18 | 24 | Python,Clojure,Dockerfile | 0 | 0 | 1| 
 | pmarkowsky | Webasm is a web-based tool to encode/decode instructions using Keystone & @ capstone_engine!https://github.com/pmarkowsky/webasm | https://github.com/pmarkowsky/webasm | http://markowsky.us |  | New York, NY | None | 30 | 0 | 227 | 18 | 13 | Python | 80 | 8 | 1| 

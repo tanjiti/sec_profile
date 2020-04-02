@@ -1,5 +1,5 @@
 Python	45
-C++	24
+C++	25
 JavaScript	23
 C	22
 HTML	21
