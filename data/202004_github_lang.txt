@@ -1,3 +1,5 @@
 C++	2
 C#	1
 VBScript	1
+HTML	1
+Java	1

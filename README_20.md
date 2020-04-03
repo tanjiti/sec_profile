@@ -14,6 +14,10 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 中国保密协会科学技术分会 |  | 2020 Unit 42 IoT威胁报告（汉译版） | https://mp.weixin.qq.com/s/40fgfbuwa2c5jp6e5vbnxQ | 5| 
+| 国防科技要闻 | CDSTIC | 2021财年DARPA预算概况及发展动向解析 | https://mp.weixin.qq.com/s/yEsrMmI0BpvllXaf3TBWkw | 2| 
+| 大路咨询 | daluzixun | 中国工业网络安全厂商综合能力概览（2020年第1期） | https://mp.weixin.qq.com/s/6i17MV8T3rou8j0rY-ZbIQ | 1| 
+| 小议安全 | xiaoyianquan | 零信任实战系列：远程办公实战（视频） | https://mp.weixin.qq.com/s/ujshgJdZzL9E0sDkl5SNJg | 3| 
 | 深澜深蓝 |  | 漏洞分析视角下的CVE-2020-0796漏洞 | https://mp.weixin.qq.com/s/Cn0bF7xG6ESCP2iVYiaW2g | 1| 
 | Bypass | Bypass-- | 渗透利器 | 提权辅助工具箱 | https://mp.weixin.qq.com/s/Z7kh8OVslnppsL9ntNJHGg | 47| 
 | Tide安全团队 | TideSec | Shellcode编程——编写自己想要功能的Shellcode | https://mp.weixin.qq.com/s/aFO2KJieZQN2rNkcmrj-pQ | 21| 
@@ -29,7 +33,6 @@
 | 冷渗透 |  | 黑产研究之秒拨IP | https://mp.weixin.qq.com/s/XL6XO-FBHq37H1h-iMwV4w | 1| 
 | 君哥的体历 | jungedetili | 张欧：数字银行可信网络实践 | https://mp.weixin.qq.com/s/VRG9LEbGTxhpMmCUTUSA8w | 35| 
 | 小米安全中心 | misrc_team | IoT上SSL安全开发小结 | https://mp.weixin.qq.com/s/rSXqBCFmawLg_oYYVKecLQ | 5| 
-| 小议安全 | xiaoyianquan | 零信任架构实战系列：如何选择零信任架构 | https://mp.weixin.qq.com/s/JkzkCaIjT-jWyQEp-I5muw | 2| 
 | 白帽子的成长之路 | whitehat_day | 2020年开源情报（OSINT）TOP20 工具 | https://mp.weixin.qq.com/s?__biz=MzI2NDY1NDg0OA==&mid=2247484049&idx=1&sn=e6e716cfcfef01956c1acc7d684d44d1 | 4| 
 | 盘古实验室 | PanguLab | 微信远程攻击面简单的研究与分析 | https://mp.weixin.qq.com/s/yMQN3MciI-0f3mzz_saiwQ | 2| 
 | 绿盟科技研究通讯 | nsfocus_research | 恶意软件命名与描述规范研究 | https://mp.weixin.qq.com/s/KGfsmEUu_fMH9Vj3TleMMQ | 26| 
@@ -217,7 +220,6 @@
 | 数字经济与社会 |  |  | https://mp.weixin.qq.com/s/sktQAoNeE-3na9lBPm9nzg | 1| 
 | 这里是河马 |  |  | https://mp.weixin.qq.com/s/FupNkLOOWAabvnC3Yob_uw | 1| 
 | CAICT5G创新研究中心 |  |  | https://mp.weixin.qq.com/s/wL15_qP9iYae4J70XyncXw | 1| 
-| 中国保密协会科学技术分会 |  |  | https://mp.weixin.qq.com/s/zw0gcF2oSfpUxLEfOY4oxw | 4| 
 | 终结诈骗 | antifraud2 |  | https://mp.weixin.qq.com/s/eDq-QpEHjZieX-pjmDQFCg | 1| 
 | 逢人斗智斗勇 | xiaopigfly |  | https://mp.weixin.qq.com/s/qv3pYEzi08DMydqUj1dSRw | 2| 
 | 集智俱乐部 | swarma_org |  | https://mp.weixin.qq.com/s/N-DJjnUuQHg0FzAi-onZKg | 3| 
@@ -233,7 +235,6 @@
 | 深度学习自然语言处理 | zenRRan |  | https://mp.weixin.qq.com/s/PVoQI85YkDSzlA46FRU1OQ | 1| 
 | 秘猿科技Cryptape | Cryptape |  | https://mp.weixin.qq.com/s/bhWaKtVTqOLlJ1lj362rNA | 1| 
 | 京东数字科技研究院 |  |  | https://mp.weixin.qq.com/s/2afk7pLqgzpUnXgmQgMNEw | 1| 
-| 国防科技要闻 | CDSTIC |  | https://mp.weixin.qq.com/s/LXR853Z4E5peVYq89tXKZA | 1| 
 | 梅子酒的书札 | a960596293_book |  | https://mp.weixin.qq.com/s/rlSyABoulRKygPmwfcUuXA | 1| 
 | 秦安战略 | qinan1128 |  | https://mp.weixin.qq.com/s/VCG3QPP4dwcfNlZFC_nnSQ | 3| 
 | 360核心安全 | CoreSec360 |  | https://mp.weixin.qq.com/s/r-jAWFjtOxgd-JyVStFvsg | 1| 
@@ -3580,6 +3581,7 @@
 | eth-sri | 利用机器学习的方法还原（推测）被 strip 过的二进制程序的调试符号信息 | https://github.com/eth-sri/debin | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,D,Python,Mathematica,C++,C#,HTML,SMT,JavaScript | 0 | 0 | 1| 
 | falexorr | Siofra - DLL 劫持漏洞扫描器、PE 感染工具: | https://github.com/falexorr/Siofra | None |  | None | None | 1 | 0 | 0 | 0 | 0 | Assembly | 2 | 0 | 1| 
 | falstaff84 | Heartbleed test script for OpenVPN | https://github.com/falstaff84/heartbleed_test_openvpn | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| ffffffff0x | Dork-Admin: 盘点近年来的数据泄露、供应链污染事件 | https://github.com/ffffffff0x/Dork-Admin | None | None | None | None | 0 | 0 | 0 | 0 | 0 | HTML,Java | 0 | 0 | 1| 
 | fgrimme | Matroschka Python #steganography tool to hide images or text in imageshttps://github.com/fgrimme/Matroschka | https://github.com/fgrimme/Matroschka | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | fiht | educn-sqlScan: 对全国edu域名以及其二级域名进行的一次Sql注入 | https://github.com/fiht/educn-sqlScan | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | fireeye | StringSifter - FireEye 开源的一个基于 strings 和机器学习的相关字符串搜索工具，方便恶意代码的静态分析 | https://github.com/fireeye/stringsifter | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Vue,C#,JavaScript,C++,Python,Go,PowerShell | 0 | 0 | 2| 

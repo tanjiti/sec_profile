@@ -14,6 +14,10 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 中国保密协会科学技术分会 |  | 2020 Unit 42 IoT威胁报告（汉译版） | https://mp.weixin.qq.com/s/40fgfbuwa2c5jp6e5vbnxQ | 1| 
+| 国防科技要闻 | CDSTIC | 2021财年DARPA预算概况及发展动向解析 | https://mp.weixin.qq.com/s/yEsrMmI0BpvllXaf3TBWkw | 1| 
+| 大路咨询 | daluzixun | 中国工业网络安全厂商综合能力概览（2020年第1期） | https://mp.weixin.qq.com/s/6i17MV8T3rou8j0rY-ZbIQ | 1| 
+| 小议安全 | xiaoyianquan | 零信任实战系列：远程办公实战（视频） | https://mp.weixin.qq.com/s/ujshgJdZzL9E0sDkl5SNJg | 3| 
 | 深澜深蓝 |  | 漏洞分析视角下的CVE-2020-0796漏洞 | https://mp.weixin.qq.com/s/Cn0bF7xG6ESCP2iVYiaW2g | 1| 
 | Bypass | Bypass-- | 渗透利器 | 提权辅助工具箱 | https://mp.weixin.qq.com/s/Z7kh8OVslnppsL9ntNJHGg | 5| 
 | Tide安全团队 | TideSec | Shellcode编程——编写自己想要功能的Shellcode | https://mp.weixin.qq.com/s/aFO2KJieZQN2rNkcmrj-pQ | 21| 
@@ -29,7 +33,6 @@
 | 冷渗透 |  | 黑产研究之秒拨IP | https://mp.weixin.qq.com/s/XL6XO-FBHq37H1h-iMwV4w | 1| 
 | 君哥的体历 | jungedetili | 张欧：数字银行可信网络实践 | https://mp.weixin.qq.com/s/VRG9LEbGTxhpMmCUTUSA8w | 2| 
 | 小米安全中心 | misrc_team | IoT上SSL安全开发小结 | https://mp.weixin.qq.com/s/rSXqBCFmawLg_oYYVKecLQ | 1| 
-| 小议安全 | xiaoyianquan | 零信任架构实战系列：如何选择零信任架构 | https://mp.weixin.qq.com/s/JkzkCaIjT-jWyQEp-I5muw | 2| 
 | 白帽子的成长之路 | whitehat_day | 2020年开源情报（OSINT）TOP20 工具 | https://mp.weixin.qq.com/s?__biz=MzI2NDY1NDg0OA==&mid=2247484049&idx=1&sn=e6e716cfcfef01956c1acc7d684d44d1 | 3| 
 | 盘古实验室 | PanguLab | 微信远程攻击面简单的研究与分析 | https://mp.weixin.qq.com/s/yMQN3MciI-0f3mzz_saiwQ | 1| 
 | 绿盟科技研究通讯 | nsfocus_research | 恶意软件命名与描述规范研究 | https://mp.weixin.qq.com/s/KGfsmEUu_fMH9Vj3TleMMQ | 3| 
@@ -190,6 +193,7 @@
 | appsecco | DVNA – Damn Vulnerable NodeJS Application | https://github.com/appsecco/dvna | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Java,Python,JavaScript,C#,Visual,HTML,ActionScript,PHP,CSS | 439 | 129 | 1| 
 | bobfuzzer | Linux kernel 5.0.0-rc7 f2fs 文件系统溢出漏洞 PoC | https://github.com/bobfuzzer/CVE/tree/master/CVE-2019-19927 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 21 | 13 | 1| 
 | codeplutos | MySQL客户端jdbc反序列化漏洞payload | https://github.com/codeplutos/MySQL-JDBC-Deserialization-Payload | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java,C++ | 107 | 20 | 1| 
+| ffffffff0x | Dork-Admin: 盘点近年来的数据泄露、供应链污染事件 | https://github.com/ffffffff0x/Dork-Admin | None | None | None | None | 0 | 0 | 0 | 0 | 0 | HTML,Java | 0 | 0 | 1| 
 | github | Code QL library for Chrome | https://github.com/github/security-lab/tree/master/CodeQL_Queries/cpp/Chrome | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Python,JavaScript,Haskell,TypeScript,HTML,Go,Ruby | 23100 | 3500 | 2| 
 | google | Google 开发的对抗 USB Keystroke 攻击的工具的源码 | https://github.com/google/ukip | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Python,Kotlin,JavaScript,C++,TypeScript,Go,Rust | 0 | 0 | 2| 
 | hardenedlinux | srcinv: source code audit tool 代码审计工具 | https://github.com/hardenedlinux/srcinv | None | None | None | None | 0 | 0 | 0 | 0 | 0 | HTML,C,Shell,Assembly,Roff,C++,Nix,Zeek,Go | 243 | 56 | 1| 
