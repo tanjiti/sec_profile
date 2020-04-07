@@ -14,6 +14,11 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| Ms08067安全实验室 | Ms08067_com | 六种bypass安全软件防护执行的方式 | https://mp.weixin.qq.com/s/sfxJbyJMB6FyGfa6H0G3hA | 31| 
+| 关注安全技术 | heresecurity | 常见的web容器后门笔记 | https://mp.weixin.qq.com/s/-cmM1k3--H6p1ditfQHPEw | 4| 
+| heysec | bloodzer007 | 工具推荐系列 - sigcheck文件签名检测 | https://mp.weixin.qq.com/s/4oFtOAT-mRYrOuxBIe4XLA | 14| 
+| 云众可信 | yunzhongkexin | 原创干货 | 对某大型企业的一次web漏洞挖掘过程 | https://mp.weixin.qq.com/s/GuJgbLfJobTcJ2FMii3IzA | 11| 
+| 君哥的体历 | jungedetili | 秦波：大型互联网应用安全SDL体系建设实践 | https://mp.weixin.qq.com/s/STBzFf-NtfbDEA5s9RBdaw | 36| 
 | 中国保密协会科学技术分会 |  | 2020 Unit 42 IoT威胁报告（汉译版） | https://mp.weixin.qq.com/s/40fgfbuwa2c5jp6e5vbnxQ | 5| 
 | 国防科技要闻 | CDSTIC | 2021财年DARPA预算概况及发展动向解析 | https://mp.weixin.qq.com/s/yEsrMmI0BpvllXaf3TBWkw | 2| 
 | 大路咨询 | daluzixun | 中国工业网络安全厂商综合能力概览（2020年第1期） | https://mp.weixin.qq.com/s/6i17MV8T3rou8j0rY-ZbIQ | 1| 
@@ -21,7 +26,6 @@
 | 深澜深蓝 |  | 漏洞分析视角下的CVE-2020-0796漏洞 | https://mp.weixin.qq.com/s/Cn0bF7xG6ESCP2iVYiaW2g | 1| 
 | Bypass | Bypass-- | 渗透利器 | 提权辅助工具箱 | https://mp.weixin.qq.com/s/Z7kh8OVslnppsL9ntNJHGg | 47| 
 | Tide安全团队 | TideSec | Shellcode编程——编写自己想要功能的Shellcode | https://mp.weixin.qq.com/s/aFO2KJieZQN2rNkcmrj-pQ | 21| 
-| Ms08067安全实验室 | Ms08067_com | 内网、域环境中的一些实用小技巧 | https://mp.weixin.qq.com/s/TIPyLjyHzK0TZzrsAFRjVQ | 30| 
 | 专注安管平台 |  | 美国联邦政府SOC建设动向（2019） | https://mp.weixin.qq.com/s/8I8hM_G1AO9emXpqxdR0oA | 4| 
 | 安全学术圈 | secquan | 后量子区块链: 抗量子攻击的区块链密码学研究综述(下) | https://mp.weixin.qq.com/s/w8DI6khFFdeXiZlA5C99IA | 43| 
 | 水滴安全实验室 | EversecLab | 美公司披露俄长达15年的网络活动简析 | https://mp.weixin.qq.com/s/nd_dZmAyp5U0lQSOytB6Ng | 10| 
@@ -31,7 +35,6 @@
 | JohnDoe爱学习 |  | 俄罗斯情报部门代号一览(Top Secret) | https://mp.weixin.qq.com/s/2FnrR5qsm9BTlAS_SeKrzw | 1| 
 | 七夜安全博客 | qiye_safe | 无文件执行：一切皆是shellcode (中) | https://mp.weixin.qq.com/s/6Khnj0tX3SgbRes25bOmow | 7| 
 | 冷渗透 |  | 黑产研究之秒拨IP | https://mp.weixin.qq.com/s/XL6XO-FBHq37H1h-iMwV4w | 1| 
-| 君哥的体历 | jungedetili | 张欧：数字银行可信网络实践 | https://mp.weixin.qq.com/s/VRG9LEbGTxhpMmCUTUSA8w | 35| 
 | 小米安全中心 | misrc_team | IoT上SSL安全开发小结 | https://mp.weixin.qq.com/s/rSXqBCFmawLg_oYYVKecLQ | 5| 
 | 白帽子的成长之路 | whitehat_day | 2020年开源情报（OSINT）TOP20 工具 | https://mp.weixin.qq.com/s?__biz=MzI2NDY1NDg0OA==&mid=2247484049&idx=1&sn=e6e716cfcfef01956c1acc7d684d44d1 | 4| 
 | 盘古实验室 | PanguLab | 微信远程攻击面简单的研究与分析 | https://mp.weixin.qq.com/s/yMQN3MciI-0f3mzz_saiwQ | 2| 
@@ -43,7 +46,6 @@
 | 山丘安全攻防实验室 | hillsec | 一篇文章带你从XSS入门到进阶(附Fuzzing+BypassWAF+Payloads) | https://mp.weixin.qq.com/s/EOPCstDYmFVtaLYNcUQLzA | 2| 
 | 零队 |  | 加载远程XSL文件的宏免杀方法 | https://mp.weixin.qq.com/s?__biz=MzU2NTc2MjAyNg==&mid=2247483758&idx=1&sn=1bd0006d16747389046058ea34c3b7b7&chksm=fcb783ebcbc00afd694b7a2ee10ad32aff0a534963878541ee17974ffee29c63342f4e617661&token=1823181969&lang=zh_CN#rd | 1| 
 | AI科技评论 | aitechtalk | 如何以初学者角度写好一篇国际学术论文？ | https://mp.weixin.qq.com/s/zwTlXBrZiC88y9F5DDU0_g | 3| 
-| heysec | bloodzer007 | 日志分析系列(三):分析实战篇 | https://mp.weixin.qq.com/s/h2pHi3PVn_92aEIOvB1Yjg | 13| 
 | 安全乐观主义 |  | SDL已死，应用安全路在何方？ | https://mp.weixin.qq.com/s/tYRiKiI7bjgyzQguMA1mrw | 14| 
 | 安全喷子 |  | 威胁狩猎101文档 | https://mp.weixin.qq.com/s/0hOtnTz9QrKlLivAobjU7Q | 6| 
 | 安恒信息安全研究院 |  | 蓝牙安全之Class of device | https://mp.weixin.qq.com/s/TIYvcThrfOC40rqcy-VGCg | 2| 
@@ -58,7 +60,6 @@
 | 哈工大SCIR | HIT_SCIR | 赛尔笔记 | 机器阅读理解简述 | https://mp.weixin.qq.com/s/Rm1uFunX9IRQaL_rUAZxfQ | 1| 
 | 工业菜园 | gycy-2019 | 菜农观点 | 陆宝华：关于智慧城市安全的讨论 | https://mp.weixin.qq.com/s/1-xpgttndYIXGkyspTIp1w | 1| 
 | 湛卢工作室 | xuehao_studio | DIY | 树莓派搭载kali Linux | https://mp.weixin.qq.com/s/aOWEheNMxIYTBalDErSuMQ | 6| 
-| 云众可信 | yunzhongkexin | 原创干货 | Java代码审计之跨站脚本攻击 | https://mp.weixin.qq.com/s/lQNixguOJahjM-AXvPoHqQ | 10| 
 | 银河安全实验室 | Galaxy-Lab | 尝试利用Cython将Python项目转化为单个.so | https://mp.weixin.qq.com/s/YRKY7FgLFw-w4QIlrNd-FA | 6| 
 | 安天 | Antiylab | 安天对“超高能力网空威胁行为体”系列分析回顾 | https://mp.weixin.qq.com/s/N0LxStDpc6GyzpyszYnguQ | 15| 
 | 永安在线反欺诈 | YongAnOnline | 业务安全蓝军测评标准白皮书 | https://mp.weixin.qq.com/s/23fcilR_XhrGLWSaKv21zA | 1| 
@@ -513,7 +514,6 @@
 | 铸剑网络安全实验室 | CSNS-Lab |  | http://mp.weixin.qq.com/s/xgJ6lq99pnL8mF39oo9duA | 2| 
 | CTFer的魔法棒 |  |  | http://mp.weixin.qq.com/s/KV3Z40gZAOZ4-SUjTvT6NA | 1| 
 | BZ的呓语 | SalesManBZ |  | https://mp.weixin.qq.com/s?__biz=MzI3OTcwNDIwOA==&mid=2247483744&idx=1&sn=8327a4825a254ecc7be8e0fdee4989cb&scene=0#wechat_redirect | 1| 
-| 关注安全技术 | heresecurity |  | http://mp.weixin.qq.com/s/EbMggASqM3r051okFX7e2Q | 3| 
 | 知道创宇 | knownsec |  | https://mp.weixin.qq.com/s?__biz=MjM5NzA3Nzg2MA==&mid=2649838998&idx=1&sn=68e792dfb0e7cbde704b33df00d37f8f&scene=0#wechat_redirect | 2| 
 | 同程艺龙技术中心 | tcyanfa |  | https://mp.weixin.qq.com/s?__biz=MzIyMDAzMzA5Mg==&mid=2650766899&idx=1&sn=4902b4eb8e6988e132d18dff36c95893&scene=0#wechat_redirect | 1| 
 | 腾讯广告算法大赛 | TSA-Contest |  | https://mp.weixin.qq.com/s/BE1mfmKJTsDSwWi16mllNA | 1| 
@@ -1313,6 +1313,7 @@
 | tombkeeper | ROPs_are_for_the_99% | https://github.com/tombkeeper/Talks/blob/master/CanSecWest_2014/ROPs_are_for_the_99%25_%5BCSW2014%5D.pdf | None |  | None | None | 5 | 0 | 0 | 677 | 0 | C,JavaScript | 84 | 54 | 1| 
 | MalwareTech | TIL about AppContainers on Windows from looking into the Chromium sandbox: | https://github.com/MalwareTech/AppContainerSandbox | http://www.malwaretech.com/ |  | None | None | 14 | 0 | 0 | 670 | 0 | Python,C,Batchfile,C++ | 139 | 58 | 1| 
 | keith | Just released the Hopper plugin I wrote for demangling Swift symbols https://github.com/keith/hopper-swift-demangle | https://github.com/keith/hopper-swift-demangle | https://github.com/lyft | iOS @lyft | San Francisco, CA | Lyft | 136 | 0 | 1400 | 670 | 179 | Shell,Python,Kotlin,C++,Vim,Objective-C,Go,Swift | 652 | 39 | 1| 
+| tandasat | 在 Hyper-V 环境中测试 UEFI | https://github.com/tandasat/MiniVisorPkg/blob/master/Docs/Testing_UEFI_on_Hyper-V.md | http://standa-note.blogspot.ca/ | Engineer @standa_t | Vancouver, Canada | None | 58 | 0 | 19 | 668 | 3 | C,C++ | 777 | 245 | 9| 
 | nixawk | Python poc for CVE-2017-5689 Intel AMT - | https://github.com/nixawk/labs/blob/master/CVE-2017-5689/CVE-2017-5689.py | None | /kernel/ | None | None | 20 | 0 | 391 | 666 | 101 | Python,Shell | 0 | 0 | 3| 
 | ChiChou | RealWorldCTF 2019 Dezhou Insrumentz macOS 比赛题的源码 | https://github.com/ChiChou/DezhouInstrumenz | https://github.com/alipay | 我要卖掉我的代码 浪迹天涯 | Beijing, China | @alipay | 57 | 0 | 1500 | 665 | 252 | Objective-C,Vue,JavaScript,C | 1200 | 170 | 3| 
 | divan | Just open-sourced gotrace. Try it, feedback is welcome. Particularly interested if README is clear enough. #golang | https://github.com/divan/gotrace | None | Block or report user. | Barcelona, Spain | None | 82 | 0 | 610 | 647 | 35 | Go,JavaScript | 2000 | 95 | 1| 
@@ -1363,6 +1364,7 @@
 | infosec-au | little-doctor : A JavaScript worm that can exfiltrate files, microphone, webcam, and other data : | https://github.com/infosec-au/little-doctor | https://shubs.io | halcyon | Australia | - | 35 | 0 | 398 | 551 | 112 | Python,Shell | 0 | 0 | 4| 
 | drduh | YubiKey-Guide - 将 YubiKey 用作存储 GPG 加密和签名密钥的智能卡的实用指南: | https://github.com/drduh/YubiKey-Guide | None | GPG: 0xFF3E7D88647EBCDB | None | None | 13 | 0 | 103 | 550 | 5 | Python,Shell | 0 | 0 | 3| 
 | dxa4481 | 结合 Oauth 进行 XSS 的高级利用以实现对目标的持久化访问: | https://github.com/dxa4481/XSSOauthPersistence | https://security.love | Full stack hacker | USA | None | 83 | 0 | 22 | 550 | 4 | Python,HTML,JavaScript | 3600 | 444 | 6| 
+| qazbnm456 | awesome-web-security: List of Web Security materials and ... | https://github.com/qazbnm456/awesome-web-security | https://www.patreon.com/boik | https://www.boik.com.tw/ | Taiwan | None | 109 | 0 | 1100 | 550 | 20 | Python,JavaScript | 4700 | 907 | 3| 
 | adamcaudill | Psychson:Custom Firmware & Existing Firmware Patches | https://github.com/adamcaudill/Psychson | http://adamcaudill.com |  | None | AppSec Consulting | 45 | 0 | 291 | 549 | 17 | Python,C#,C,Ruby | 587 | 448 | 1| 
 | facert | awesome-spider: 各种爬虫实例集合，入门好帮手 | https://github.com/facert/awesome-spider | None | https://facert.github.io | None | zhihu | 46 | 0 | 297 | 548 | 44 | Python,CSS | 0 | 0 | 1| 
 | fdiskyou | 用于枚举进程 Mitigation 状态的 WinDbg 调试器插件 | https://github.com/fdiskyou/iris | http://deniable.org | Shut Up and Hack. | London, UK | None | 65 | 0 | 125 | 547 | 28 | Python,C,C++ | 862 | 258 | 3| 
@@ -1375,7 +1377,6 @@
 | macmade | dyld_cache_extract - 从 macOS/iOS dyld_shared_cache 中提取动态库的工具: | https://github.com/macmade/dyld_cache_extract | http://www.xs-labs.com/ | Lead Developer at imazing.com | Switzerland | XS-Labs | 178 | 0 | 89 | 527 | 52 | Swift,Objective-C,Makefile,C | 596 | 112 | 3| 
 | EgeBalci | Amber - 一种新的 PE 壳 - 反射式 PE 壳: https://pentest.blog/introducing-new-packing-method-first-reflective-pe-packer/ | https://github.com/EgeBalci/Amber | https://pentest.blog | Cyber Security Researcher | İstanbul, Turkey | INVICTUS/PRODAFT | 80 | 0 | 953 | 526 | 115 | Go,Ruby,Assembly,C++ | 0 | 0 | 2| 
 | mre | awesome-static-analysis: A curated list of static analysis tools | https://github.com/mre/awesome-static-analysis#python | https://matthias-endler.de | Interested in high-level architecture, low-level programming, and everything in between. Naturally curious. Running https://hello-rust.show | Düsseldorf, Germany | trivago N.V. | 257 | 0 | 907 | 524 | 221 | Python,Go,JavaScript,Rust | 0 | 0 | 1| 
-| tandasat | SimpleSvmHook - 一个可以通过使用扩展页表(EPT)来对 Windwos Kernel进行 inline hooking 的虚拟机管理工具: | https://github.com/tandasat/SimpleSvmHook | http://standa-note.blogspot.ca/ | Engineer @standa_t | Vancouver, Canada | None | 56 | 0 | 16 | 524 | 3 | C#,C++ | 0 | 0 | 8| 
 | maldevel | canisrufus - 基于 Python 的 Windows 隐藏后门,使用 Github 作为命令和控制服务器: | https://github.com/maldevel | https://github.com/twelvesec | code, pentests, redteaming, research | Greece | @twelvesec | 46 | 0 | 1100 | 522 | 1 | Python,Shell | 340 | 122 | 2| 
 | bit4woo | Python安全和代码审计相关资料收集 | https://github.com/bit4woo/python_sec | http://code2sec.com/ | Creating with coding,Learning by doing,Learning by sharing! | shenzhen | None | 111 | 0 | 755 | 521 | 122 | Python,C#,Ruby,Java | 0 | 0 | 4| 
 | TheKingOfDuck | ApkAnalyser: 一键提取安卓应用中可能存在的敏感信息 | https://github.com/TheKingOfDuck/ApkAnalyser | https://blog.gzsec.org/ | 一个废物 | V1g6VGhlS2luZ09mR2FHYUdh | None | 36 | 0 | 190 | 515 | 26 | Shell,Python,JavaScript,HTML,Go,PowerShell | 1600 | 653 | 2| 
@@ -1444,7 +1445,6 @@
 | Bo0oM | 使用 imap_open 绕过 php disable_functions 执行命令 : https://github.com/Bo0oM/PHP_imap_open_exploit; | https://github.com/Bo0oM/PHP_imap_open_exploit; | https://github.com/ONsec-Lab | https://twitter.com/i_bo0om | None | @ONsec-Lab @wallarm | 18 | 0 | 241 | 421 | 13 | Python,HTML,PHP | 0 | 0 | 2| 
 | kbandla | APTnotes:Various public documents, whitepapers and articles | https://github.com/kbandla/APTnotes | http://twitter.com/kbandla |  | Washington, D.C. | None | 31 | 0 | 63 | 421 | 3 | Python,C | 2300 | 700 | 1| 
 | hwdsl2 | IPsec VPN 服务器一键安装脚本 | https://github.com/hwdsl2/setup-ipsec-vpn/blob/master/README-zh.md | https://github.com/IBM | Hi, Im Lin, a PhD graduate in Electrical and Computer Engineering. As a hobby, I love computers, Linux and programming. | Austin, TX | @IBM | 3 | 0 | 253 | 420 | 22 | Shell | 0 | 0 | 1| 
-| qazbnm456 | Web安全资料和资源列表 | https://github.com/qazbnm456/awesome-web-security#introductions-xss | https://github.com/qazbnm456 | See my posts :) https://medium.com/@qazbnm456 | Taiwan | None | 96 | 0 | 1100 | 419 | 20 | Python,JavaScript | 0 | 0 | 2| 
 | greatghoul | 远程工作资料 | https://github.com/greatghoul/remote-working | http://ghoulmind.com | Ask and learn. | Xian | None | 110 | 0 | 437 | 415 | 162 | Python,HTML,Ruby,JavaScript | 4000 | 397 | 1| 
 | mthbernardes | sshLooterC - 窃取 ssh 密码的 SSHLooter 项目的 C 版本: | https://github.com/mthbernardes/sshLooterC | https://mthbernardes.github.io |  | Campinas | None | 75 | 0 | 22 | 415 | 45 | Go,Python,C,Shell | 497 | 101 | 5| 
 | hangtwenty | Dive into Machine Learning with Jupyter and scikit-learn | https://github.com/hangtwenty/dive-into-machine-learning | https://github.com/Mousera |  | Portland, OR | @Mousera | 13 | 0 | 2000 | 413 | 289 | Python,Ruby | 0 | 0 | 1| 
@@ -3021,6 +3021,7 @@
 | tnich | honssh - HonSSH 旨在记录客户端和服务器之间所有SSH通信的密罐: | https://github.com/tnich/honssh | None |  | United Kingdom | None | 1 | 0 | 1 | 22 | 6 | Python | 308 | 62 | 1| 
 | webbju | Android++ (native development and debugging for Visual Studio) is now open-source | https://github.com/webbju/android-plus-plus | None |  | Stockholm, Sweden | None | 4 | 0 | 73 | 22 | 6 | Python,C++ | 0 | 0 | 1| 
 | wylok | opsweb: 百合网运维综合管理平台（Python+Flask框架+cmdb+scheduler+salt) | https://github.com/wylok/opsweb | None |  | None | None | 1 | 0 | 3 | 22 | 0 | Python | 406 | 238 | 1| 
+| yardenshafir | KernelDataStructureFinder - 在内核 lookaside 链表中搜索数据结构的工具 | https://github.com/yardenshafir/KernelDataStructureFinder | None |  | None | None | 5 | 0 | 2 | 22 | 0 | C,C++ | 40 | 20 | 1| 
 | yoava333 | Bug on the Windshield - Fuzzing the Windows kernel，来自 OffensiveCon 2020 会议 | https://github.com/yoava333/presentations/blob/master/Fuzzing%20the%20Windows%20Kernel%20-%20OffensiveCon%202020.pdf | None |  | None | None | 15 | 0 | 16 | 22 | 0 | Go,Java,Rust | 17 | 1 | 1| 
 | DavidJacobson | SafeText - 用于删除同形字符和零宽字符的脚本,以便安全地分发匿名来源文档: | https://github.com/DavidJacobson/SafeText | https://www.davidej.com | Undergraduate at Binghamton University, studying Computer Science. Primarily focused on Cyber Security & Forensics - but really anything that grabs my attention | NYC && Binghamton | None | 28 | 0 | 94 | 21 | 20 | Python,Shell | 0 | 0 | 1| 
 | Huseck | CTF线下赛思路总结手册 | https://github.com/Huseck/CTF/blob/master/CTF%E7%BA%BF%E4%B8%8B%E8%B5%9B%E6%80%9D%E8%B7%AF%E6%80%BB%E7%BB%93%E6%89%8B%E5%86%8C.pdf | http://www.xjseck.com |  | None | None | 17 | 0 | 4 | 21 | 4 | Python,HTML,Java,PHP | 17 | 6 | 2| 
