@@ -14,21 +14,24 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
-| Ms08067安全实验室 | Ms08067_com | 六种bypass安全软件防护执行的方式 | https://mp.weixin.qq.com/s/sfxJbyJMB6FyGfa6H0G3hA | 31| 
+| 360CERT | CERT-360 | “震网”三代和二代漏洞技术分析报告 | https://mp.weixin.qq.com/s/qc25c_nuUax6UoknAVLrAw | 7| 
+| 网安国际 | inforsec | 【InForSec通讯】安全漏洞报告的差异性测量 | Usenix Security2019 | https://mp.weixin.qq.com/s/h6xLJyqybGASORugqsvmgg | 11| 
+| 腾讯御见威胁情报中心 |  | Donot team 组织(APT-C-35)移动端攻击活动分析​ | https://mp.weixin.qq.com/s/3j5yh8R1D8r9AxKV2qSMKA | 11| 
+| heysec | bloodzer007 | 工具推荐系列 - PESecurity编译选项安全检测 | https://mp.weixin.qq.com/s/9feawxqHRQHUazF-oX6VOQ | 16| 
 | 关注安全技术 | heresecurity | 常见的web容器后门笔记 | https://mp.weixin.qq.com/s/-cmM1k3--H6p1ditfQHPEw | 4| 
-| heysec | bloodzer007 | 工具推荐系列 - sigcheck文件签名检测 | https://mp.weixin.qq.com/s/4oFtOAT-mRYrOuxBIe4XLA | 14| 
 | 云众可信 | yunzhongkexin | 原创干货 | 对某大型企业的一次web漏洞挖掘过程 | https://mp.weixin.qq.com/s/GuJgbLfJobTcJ2FMii3IzA | 11| 
 | 君哥的体历 | jungedetili | 秦波：大型互联网应用安全SDL体系建设实践 | https://mp.weixin.qq.com/s/STBzFf-NtfbDEA5s9RBdaw | 36| 
-| 中国保密协会科学技术分会 |  | 2020 Unit 42 IoT威胁报告（汉译版） | https://mp.weixin.qq.com/s/40fgfbuwa2c5jp6e5vbnxQ | 5| 
 | 国防科技要闻 | CDSTIC | 2021财年DARPA预算概况及发展动向解析 | https://mp.weixin.qq.com/s/yEsrMmI0BpvllXaf3TBWkw | 2| 
 | 大路咨询 | daluzixun | 中国工业网络安全厂商综合能力概览（2020年第1期） | https://mp.weixin.qq.com/s/6i17MV8T3rou8j0rY-ZbIQ | 1| 
-| 小议安全 | xiaoyianquan | 零信任实战系列：远程办公实战（视频） | https://mp.weixin.qq.com/s/ujshgJdZzL9E0sDkl5SNJg | 3| 
-| 深澜深蓝 |  | 漏洞分析视角下的CVE-2020-0796漏洞 | https://mp.weixin.qq.com/s/Cn0bF7xG6ESCP2iVYiaW2g | 1| 
 | Bypass | Bypass-- | 渗透利器 | 提权辅助工具箱 | https://mp.weixin.qq.com/s/Z7kh8OVslnppsL9ntNJHGg | 47| 
+| Ms08067安全实验室 | Ms08067_com | 内网、域环境中的一些实用小技巧 | https://mp.weixin.qq.com/s/TIPyLjyHzK0TZzrsAFRjVQ | 31| 
 | Tide安全团队 | TideSec | Shellcode编程——编写自己想要功能的Shellcode | https://mp.weixin.qq.com/s/aFO2KJieZQN2rNkcmrj-pQ | 21| 
 | 专注安管平台 |  | 美国联邦政府SOC建设动向（2019） | https://mp.weixin.qq.com/s/8I8hM_G1AO9emXpqxdR0oA | 4| 
+| 中国保密协会科学技术分会 |  | 2020 Unit 42 IoT威胁报告（汉译版） | https://mp.weixin.qq.com/s/40fgfbuwa2c5jp6e5vbnxQ | 5| 
 | 安全学术圈 | secquan | 后量子区块链: 抗量子攻击的区块链密码学研究综述(下) | https://mp.weixin.qq.com/s/w8DI6khFFdeXiZlA5C99IA | 43| 
+| 小议安全 | xiaoyianquan | 零信任实战系列：远程办公实战（视频） | https://mp.weixin.qq.com/s/ujshgJdZzL9E0sDkl5SNJg | 3| 
 | 水滴安全实验室 | EversecLab | 美公司披露俄长达15年的网络活动简析 | https://mp.weixin.qq.com/s/nd_dZmAyp5U0lQSOytB6Ng | 10| 
+| 深澜深蓝 |  | 漏洞分析视角下的CVE-2020-0796漏洞 | https://mp.weixin.qq.com/s/Cn0bF7xG6ESCP2iVYiaW2g | 1| 
 | 看雪学院 | ikanxue | 初探HG110-B家庭网关 | https://mp.weixin.qq.com/s/a_uzOzJKna3g27-JxOxj2w | 39| 
 | 网络安全观 | SecurityInsights | 网络安全架构 | 通过安全架构提升安全性 | https://mp.weixin.qq.com/s/m90wYaEvHzfsdgnFHMGxCw | 2| 
 | GoCN | golangchina | 「开源发布」 滴滴内部监控系统 Nightingale 开源啦 | https://mp.weixin.qq.com/s/Wo_em4yB5dRPvFecma4bkw | 1| 
@@ -49,7 +52,6 @@
 | 安全乐观主义 |  | SDL已死，应用安全路在何方？ | https://mp.weixin.qq.com/s/tYRiKiI7bjgyzQguMA1mrw | 14| 
 | 安全喷子 |  | 威胁狩猎101文档 | https://mp.weixin.qq.com/s/0hOtnTz9QrKlLivAobjU7Q | 6| 
 | 安恒信息安全研究院 |  | 蓝牙安全之Class of device | https://mp.weixin.qq.com/s/TIYvcThrfOC40rqcy-VGCg | 2| 
-| 腾讯御见威胁情报中心 |  | 腾讯安全威胁情报中心“明炉亮灶”工程：​自动化恶意域名检测揭秘 | https://mp.weixin.qq.com/s/QV8ErKHow3b-AMp6HMzKQg | 10| 
 | 赵武的自留地 |  | 写在Goby新版发布前，讨论网络安全测试工具的发展 | https://mp.weixin.qq.com/s/hW0A1jwq-pm4M-4LGUZIrA | 5| 
 | PeckShield | PeckShield | 硬核：解密美国司法部起诉中国OTC承兑商洗钱案件 | https://mp.weixin.qq.com/s/wWrm3gwT72Pc8Nxw-1OiSw | 1| 
 | 星阑科技 | StarCrossCN | PHP 开源白盒审计工具初探（下） | https://mp.weixin.qq.com/s/6Y7anVvO9C5_nqdJihuFMw | 2| 
@@ -241,7 +243,6 @@
 | 360核心安全 | CoreSec360 |  | https://mp.weixin.qq.com/s/r-jAWFjtOxgd-JyVStFvsg | 1| 
 | 图灵人工智能 | TuringAI01 |  | https://mp.weixin.qq.com/s/Yd0wjUQ03XINnMFLkPkBJg | 9| 
 | 格友 |  |  | https://mp.weixin.qq.com/s/3Ft6205f8kUoCuGzB-hPtg | 1| 
-| 网安国际 | inforsec |  | https://mp.weixin.qq.com/s/enasXD14SMzj1Cx5grGD3w | 10| 
 | 下辈子想做头猪 | galesec |  | https://mp.weixin.qq.com/s/lGalf63VXCva2I5BpmSMgQ | 1| 
 | 蓝海科学 | BlueOceanScience |  | https://mp.weixin.qq.com/s/MOJCYDN-W9KObOZpc6kx1g | 1| 
 | 51CTO技术栈 | blog51cto |  | https://mp.weixin.qq.com/s/UV6NoI6-Y3Zh4BR-m5jP8w | 1| 
@@ -285,7 +286,6 @@
 | 方行企业管理 | fangxingapp |  | https://mp.weixin.qq.com/s/Cbdqfsnh3TJ1RrkbN1RTjA | 1| 
 | 秘迹同学 | mijitongxue | 个人隐私保护大时代：至暗时刻将逝，一丝曙光在即 | https://mp.weixin.qq.com/s/Gzz7AtZgH0JuNa7U_9yb4w | 1| 
 | 补天平台 | Patchingthesky |  | https://mp.weixin.qq.com/s/Hm6TiLHiAygrJr-MGRq9Mw | 1| 
-| 360CERT | CERT-360 |  | https://mp.weixin.qq.com/s/RLNyzImYsgRWkGlp0AXcVg | 6| 
 | 中新社广东发布 | CNS-gd |  | https://mp.weixin.qq.com/s/Kf0VzANEmBBWQkFu23dQRA | 1| 
 | 全频带阻塞干扰 | RFJamming |  | https://mp.weixin.qq.com/s/K-zFVBaSw6yThuoLdUTjdg | 11| 
 | 梦之光芒的电子梦 | monyer_mp |  | https://mp.weixin.qq.com/s/Hraig48huSQ93ZMf448Htw | 1| 
@@ -2964,6 +2964,7 @@
 | magicming200 | tomcat后台弱口令扫描器，命令行版+图形界面版 | https://github.com/magicming200/tomcat-weak-password-scanner | None | Do or Die! | None | None | 10 | 0 | 29 | 25 | 22 | Python,PHP,Java | 64 | 33 | 1| 
 | niallmcl | Code for Deep Android Malware Detection paper | https://github.com/niallmcl/Deep-Android-Malware-Detection | None |  | None | Queens University Belfast | 4 | 0 | 96 | 25 | 1 | Python,Lua,MATLAB | 87 | 49 | 1| 
 | shadow-horse | CVE-2019-17571/Apache Log4j 1.2.X 存在反序列化远程代码执行漏洞 | https://github.com/shadow-horse/CVE-2019-17571 | None | Penetration, Vulnerability Research, SDL, STRIDE | None | None | 23 | 0 | 61 | 25 | 7 | Python,JavaScript,Java,HTML,CSS | 5 | 1 | 1| 
+| threat-hunting | Awesome Threat Detection and Hunting library | https://github.com/threat-hunting/awesome_Threat-Hunting | None |  | Sweden | None | 42 | 0 | 5 | 25 | 16 | JavaScript,Java | 228 | 46 | 1| 
 | vtky | Swizzler2 - 协助分析 MDM / EMS iOS 应用程序的工具: | https://github.com/vtky/Swizzler2 | None |  | None | None | 16 | 0 | 0 | 25 | 0 | Go,Objective-C,JavaScript | 0 | 0 | 1| 
 | withdk | BadUSB 2.0 USB-HID MiTM POC : | https://github.com/withdk/badusb2-mitm-poc | https://github.com/withdk | @withdk | London | None | 9 | 0 | 1 | 25 | 3 | Python,C,Ruby,PowerShell | 228 | 57 | 1| 
 | DanyL | 作者公开了iOS12.3中修复的漏洞CVE-2019-8637和CVE-2019-8593的exploits | https://github.com/DanyL/lockdownd_playground | None |  | None | None | 16 | 0 | 15 | 24 | 7 | Tcl,C,Shell,Ruby,Objective-C | 40 | 9 | 1| 
@@ -3245,7 +3246,6 @@
 | nael8r | How To Write An LLVM Register Allocator : | https://github.com/nael8r/How-To-Write-An-LLVM-Register-Allocator/blob/master/HowToWriteAnLLVMRegisterAllocator.rst | None |  | Brasil | None | 10 | 0 | 126 | 11 | 16 | Python,TeX,JavaScript,Java,C++ | 154 | 14 | 1| 
 | rootbsd | fridump3 - 基于 Frida 实现的内存转储工具: | https://github.com/rootbsd/fridump3 | None |  | Europa | None | 19 | 0 | 3 | 11 | 0 | Python,Objective-C++ | 103 | 15 | 1| 
 | scrapbird | sarlacc - 用于收集恶意垃圾邮件的 SMTP 服务器: | https://github.com/scrapbird/sarlacc | https://github.com/Roamltd | DevOps guy who enjoys malware analysis. @_scrapbird | New Zealand | @Roamltd | 22 | 0 | 42 | 11 | 6 | Python,Dockerfile,Perl | 0 | 0 | 1| 
-| threat-hunting | Awesome Threat Detection and Hunting library | https://github.com/threat-hunting/awesome_Threat-Hunting | None |  | Sweden | None | 42 | 0 | 5 | 11 | 16 | JavaScript,Java | 96 | 20 | 1| 
 | tomacwrt | Sword - 基于 Openwrt 的 Dropboxes 渗透测试用户操作界面: | https://github.com/tomacwrt/tomacwrt.github.io/blob/master/sword.pdf | None |  | None | None | 1 | 0 | 0 | 11 | 0 |  | 126 | 37 | 1| 
 | Quikko | BuQuikker - 快速寻找错误配置的 AWS S3 Buckets 的工具: | https://github.com/Quikko/BuQuikker | None |  | None | None | 17 | 0 | 56 | 10 | 2 | Python,Go,PHP | 22 | 3 | 1| 
 | ReAbout | datacon比赛方向三-攻击源与攻击者分析writeup | https://github.com/ReAbout/datacon | None | Re.About | Beijing | Tsinghua University | 4 | 0 | 124 | 10 | 2 | Python | 21 | 8 | 1| 
@@ -3390,6 +3390,7 @@
 | phroxvs | 【EXP】VMware vSphere Data Protection CVE-2016-7456 Authentication Bypass | https://github.com/phroxvs/metasploit-framework/blob/exploit_vdp_known_privkey/modules/exploits/linux/ssh/vmware_vdp_known_privkey.rb | None |  | Munich, Germany | HvS-Consulting AG | 2 | 0 | 0 | 4 | 1 | Ruby,PowerShell | 8 | 1 | 1| 
 | reddelexc | Top disclosed reports from HackerOne | https://github.com/reddelexc/hackerone-reports | None |  | Russia | Kontur | 2 | 0 | 30 | 4 | 0 | Python | 89 | 21 | 1| 
 | vysec | Office365TenantsList - 从 Project Sonar 提取的 Office365 客户列表: | https://github.com/vysec/Office365TenantsList | None |  | None | None | 0 | 0 | 0 | 4 | 0 |  | 0 | 0 | 7| 
+| weizman | WhatsApp Desktop 0.3.9309 之前版本 XSS 漏洞分析 | https://github.com/weizman/CVE-2019-18426 | http://www.weizmangal.com | javascript expert and web security enthusiastic :) | Israel | https://www.perimeterx.com | 8 | 0 | 3 | 4 | 1 | JavaScript | 5 | 1 | 1| 
 | yawuplus | weibo-api: 免登陆获取新浪微博数据的Python库 | https://github.com/yawuplus/weibo-api | http://yawujia.cn/ | Talk is cheap,show me the code. Contact me via 3013568147@qq.com | China | None | 29 | 0 | 139 | 4 | 57 | Python,JavaScript,Java,C++ | 0 | 0 | 1| 
 | ydhcui | Scanver: 分布式在线资产漏洞扫描管理系统 | https://github.com/ydhcui/Scanver | None | biu biu biu | None | cn | 11 | 0 | 4 | 4 | 3 | Python,HTML,Java,JavaScript | 4 | 4 | 1| 
 | yymax | x509test:x509 certificate fuzzer | https://github.com/yymax/x509test | None |  | San Luis Obispo, CA | California Polytechnic State University | 1 | 0 | 2 | 4 | 0 | Python | 138 | 19 | 1| 
@@ -3829,6 +3830,7 @@
 # medium_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| CATBERT — Detecting malicious emails with a bleeding-edge... | https://medium.com/@sophos.ai/detecting-malicious-emails-with-a-bleeding-edge-neural-language-model-355b366d8940| 
 | ATT&CK for ICS | https://medium.com/mitre-attack/launching-attack-for-ics-2be4d2fb9b8| 
 | Blind SQL Injection without an “in” | https://medium.com/@terjanq/blind-sql-injection-without-an-in-1e14ba1d4952| 
 | The Bug That Exposed Your PayPal Password | https://medium.com/@alex.birsan/the-bug-that-exposed-your-paypal-password-539fc2896da9| 

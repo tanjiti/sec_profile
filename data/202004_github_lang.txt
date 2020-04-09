@@ -1,8 +1,8 @@
 C++	3
+JavaScript	2
 C	1
 Java	1
-Python	1
-VBScript	1
-JavaScript	1
 C#	1
+VBScript	1
+Python	1
 HTML	1
