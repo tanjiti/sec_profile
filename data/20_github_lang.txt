@@ -1,8 +1,8 @@
-Python	966
+Python	967
 C	608
 JavaScript	605
 C++	497
-HTML	434
+HTML	435
 Shell	420
 Java	411
 Go	340
@@ -41,9 +41,9 @@ Dart	16
 Groovy	16
 ASP	14
 XSLT	14
+Smarty	12
 Verilog	12
 Puppet	12
-Smarty	11
 Erlang	11
 Bro	11
 R	10

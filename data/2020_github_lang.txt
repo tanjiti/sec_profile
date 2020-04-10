@@ -1,7 +1,7 @@
-Python	48
+Python	49
 C++	27
 JavaScript	25
-HTML	23
+HTML	24
 C	23
 Shell	21
 Java	20
@@ -23,6 +23,7 @@ Dockerfile	2
 Nix	2
 Visual	2
 Kotlin	2
+Smarty	2
 Haskell	2
 VBA	1
 HCL	1
@@ -37,7 +38,6 @@ Objective-C	1
 Smali	1
 Roff	1
 Swift	1
-Smarty	1
 Puppet	1
 ActionScript	1
 ASP	1

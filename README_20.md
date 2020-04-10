@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| Tide安全团队 | TideSec | 【应急响应】恶意代码分析静态分析初级篇 | https://mp.weixin.qq.com/s/uVcnAPgTlnB3rIfacgi-9g | 26| 
 | 锦行信息安全 | jeeseensec | 浅析HTTP走私攻击 | https://mp.weixin.qq.com/s/IMZrvJGQjcLBZS74kMWRnA | 1| 
 | 小议安全 | xiaoyianquan | 零信任架构实战系列：干掉密码，无密码化方案落地 | https://mp.weixin.qq.com/s/xs-xybNs6Ha6_-Qr_EE-qw | 4| 
 | 360CERT | CERT-360 | “震网”三代和二代漏洞技术分析报告 | https://mp.weixin.qq.com/s/qc25c_nuUax6UoknAVLrAw | 7| 
@@ -27,7 +28,6 @@
 | 大路咨询 | daluzixun | 中国工业网络安全厂商综合能力概览（2020年第1期） | https://mp.weixin.qq.com/s/6i17MV8T3rou8j0rY-ZbIQ | 1| 
 | Bypass | Bypass-- | 渗透利器 | 提权辅助工具箱 | https://mp.weixin.qq.com/s/Z7kh8OVslnppsL9ntNJHGg | 47| 
 | Ms08067安全实验室 | Ms08067_com | 内网、域环境中的一些实用小技巧 | https://mp.weixin.qq.com/s/TIPyLjyHzK0TZzrsAFRjVQ | 31| 
-| Tide安全团队 | TideSec | Shellcode编程——编写自己想要功能的Shellcode | https://mp.weixin.qq.com/s/aFO2KJieZQN2rNkcmrj-pQ | 21| 
 | 专注安管平台 |  | 美国联邦政府SOC建设动向（2019） | https://mp.weixin.qq.com/s/8I8hM_G1AO9emXpqxdR0oA | 4| 
 | 中国保密协会科学技术分会 |  | 2020 Unit 42 IoT威胁报告（汉译版） | https://mp.weixin.qq.com/s/40fgfbuwa2c5jp6e5vbnxQ | 5| 
 | 安全学术圈 | secquan | 后量子区块链: 抗量子攻击的区块链密码学研究综述(下) | https://mp.weixin.qq.com/s/w8DI6khFFdeXiZlA5C99IA | 43| 
@@ -3209,6 +3209,7 @@
 | bmax121 | BudHook - 基于 YAHFA 编写的类似 Xposed 的 Android hook 框架: | https://github.com/bmax121/BudHook | None |  | None | None | 2 | 0 | 136 | 13 | 11 | Java,C++ | 118 | 39 | 1| 
 | bugsafe | WeReport: 渗透报告自动化生成平台 | https://github.com/bugsafe/WeReport | None |  | None | None | 4 | 0 | 2 | 13 | 0 | Python,PHP,Java | 74 | 16 | 1| 
 | butterflyhack | linux蓝牙模块空指针引用漏洞PoC。 | https://github.com/butterflyhack/CVE-2019-10207/ | None |  | None | None | 129 | 0 | 19 | 13 | 28 | Python,C,Java | 15 | 7 | 1| 
+| chrivers | 三星SSD固件文件解密工具Samsung Firmware Magic发布 | https://github.com/chrivers/samsung-firmware-magic | http://christianiversenit.dk |  | Denmark | Iversen IT | 23 | 0 | 15 | 13 | 6 | Python,HTML,Smarty | 135 | 20 | 1| 
 | husam212 | MITMer:Automated man-in-the-middle attack tool | https://github.com/husam212/MITMer | None |  | Amman, Jordan | None | 15 | 0 | 15 | 13 | 6 | Python,JavaScript,Java | 42 | 14 | 1| 
 | nathansizemore | hydrogen : Multithreaded, non-blocking Linux server framework in Rust : | https://github.com/nathansizemore/hydrogen | https://twitter.com/nathansizemore |  | Dayton, OH | None | 26 | 0 | 8 | 13 | 4 | Rust | 357 | 12 | 1| 
 | open-source-rs | The-Cyber-Intelligence-Analyst-Cookbook | https://github.com/open-source-rs/The-Cyber-Intelligence-Analyst-Cookbook | None |  | None | None | 8 | 0 | 0 | 13 | 2 | Python,PHP | 34 | 7 | 1| 
@@ -3346,6 +3347,7 @@
 | CboeSecurity | password_pwncheck - 企业账户密码质量检测工具: | https://github.com/CboeSecurity/password_pwncheck | None |  | None | None | 2 | 0 | 1 | 6 | 0 | Shell,C++ | 129 | 16 | 1| 
 | KTN1990 | WordPress Ninja Forms File Uploads 插件任意文件上传漏洞 PoC（CVE-2019-10869） | https://github.com/KTN1990/CVE-2019-10869/blob/master/README.md | https://www.facebook.com/KtN.1990 | 𝖍𝖆𝖈𝖐 𝖙𝖔 𝖑𝖎𝖛𝖊 𝖆𝖓𝖉 𝖑𝖎𝖛𝖊 𝖙𝖔 𝖍𝖆𝖈𝖐 | DZ | ⓪ⓧ⑥⑥⑥ | 11 | 0 | 8 | 6 | 3 | Python,Perl | 7 | 0 | 1| 
 | Kondara | CTF BlazeFox 的 Exploit 代码: | https://github.com/Kondara/BlazeFox | None |  | None | None | 4 | 0 | 0 | 6 | 0 | C#,JavaScript | 18 | 8 | 1| 
+| Tera0017 | APT组织TA505所使用的SDBbot RAT解包工具发布，支持x86和x64 | https://github.com/Tera0017/SDBbot-Unpacker | None | I dont get it. | None | None | 3 | 0 | 0 | 6 | 0 | Python | 38 | 4 | 1| 
 | UNCSecLab | XnR No-Execute-After-Read,Preventing Code Disclosure in Commodity Software - http://cs.unc.edu/~jjwerner/near-asiaccs.pdf code | https://github.com/UNCSecLab/VMXXNR | None |  | None | None | 2 | 0 | 0 | 6 | 0 | C,C++ | 35 | 9 | 1| 
 | ayushman4 | Common Industrial Protocol based device scanner over the internet | https://github.com/ayushman4/SCADA-CIP-Discovery | None |  | None | None | 31 | 0 | 0 | 6 | 1 | Python,C | 17 | 5 | 1| 
 | brandonasuncion | Reverse-Engineering-Bluetooth-Protocols (Reverse-Engineering a Bluetooth-Enabled Radar Detector) : | https://github.com/brandonasuncion/Reverse-Engineering-Bluetooth-Protocols | https://brandonasuncion.dev | Software Engineer // iOS Developer // Tech Enthusiast | California | None | 24 | 0 | 169 | 6 | 8 | Python,Pascal,JavaScript,Swift,C | 0 | 0 | 1| 
