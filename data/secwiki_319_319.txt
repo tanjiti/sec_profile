@@ -1,0 +1,44 @@
+20200406	比赛	https://xz.aliyun.com/t/7547	记一次360众测仿真实战靶场考核WP	aliyun.com	xz.aliyun.com	/t/7547
+20200406	Web安全	https://mp.weixin.qq.com/s/GuJgbLfJobTcJ2FMii3IzA	对某大型企业的一次web漏洞挖掘过程	qq.com	mp.weixin.qq.com	/s/GuJgbLfJobTcJ2FMii3IzA
+20200406	Web安全	https://xz.aliyun.com/t/7495	从0到1认识DNS重绑定攻击	aliyun.com	xz.aliyun.com	/t/7495
+20200406	恶意分析	https://mp.weixin.qq.com/s/-cmM1k3--H6p1ditfQHPEw	常见的web容器后门笔记	qq.com	mp.weixin.qq.com	/s/-cmM1k3--H6p1ditfQHPEw
+20200406	运维安全	https://www.freebuf.com/sectool/231097.html	记一次编写安全资产管理平台	freebuf.com	www.freebuf.com	/sectool/231097.html
+20200406	Web安全	https://mp.weixin.qq.com/s/sfxJbyJMB6FyGfa6H0G3hA	六种bypass安全软件防护执行的方式	qq.com	mp.weixin.qq.com	/s/sfxJbyJMB6FyGfa6H0G3hA
+20200406	运维安全	https://mp.weixin.qq.com/s/STBzFf-NtfbDEA5s9RBdaw	大型互联网应用安全SDL体系建设实践	qq.com	mp.weixin.qq.com	/s/STBzFf-NtfbDEA5s9RBdaw
+20200406	恶意分析	https://www.freebuf.com/vuls/229694.html	QQ二维码登陆机制分析+双重SSRF钓鱼利用	freebuf.com	www.freebuf.com	/vuls/229694.html
+20200406	漏洞分析	https://mp.weixin.qq.com/s/4oFtOAT-mRYrOuxBIe4XLA	工具推荐系列 - sigcheck文件签名检测	qq.com	mp.weixin.qq.com	/s/4oFtOAT-mRYrOuxBIe4XLA
+20200406	Web安全	https://github.com/qazbnm456/awesome-web-security	awesome-web-security: List of Web Security materials and resources	github.com	github.com	/qazbnm456/awesome-web-security
+20200406	Web安全	https://www.freebuf.com/vuls/230441.html	针对某国际信息通信公司从前期探测到内网提权的一次成功漏洞测试	freebuf.com	www.freebuf.com	/vuls/230441.html
+20200406	恶意分析	https://mp.weixin.qq.com/s/9feawxqHRQHUazF-oX6VOQ	工具推荐系列 - PESecurity编译选项安全检测	qq.com	mp.weixin.qq.com	/s/9feawxqHRQHUazF-oX6VOQ
+20200406	运维安全	https://mp.weixin.qq.com/s/OPpAjg8GazuicnjmME3P6A	Shadowsocks—基于二次混淆加密传输的数据保密性原理分析	qq.com	mp.weixin.qq.com	/s/OPpAjg8GazuicnjmME3P6A
+20200406	编程技术	https://bacde.me/post/Badusb-Attack-On-Mac-OSX/	Badusb 攻击之MacOSX系统实战	bacde.me	bacde.me	/post/Badusb-Attack-On-Mac-OSX/
+20200406	运维安全	https://www.freebuf.com/sectool/230505.html	Wazuh：如何对异构数据进行关联告警	freebuf.com	www.freebuf.com	/sectool/230505.html
+20200406	漏洞分析	https://www.freebuf.com/sectool/227869.html	Fuzzowski：一款功能强大的网络协议模糊测试工具	freebuf.com	www.freebuf.com	/sectool/227869.html
+20200406	取证分析	https://www.freebuf.com/articles/es/231784.html	ATT&CK矩阵Linux系统安全实践	freebuf.com	www.freebuf.com	/articles/es/231784.html
+20200406	漏洞分析	https://blogs.jpcert.or.jp/en/2020/04/ie-firefox-0day.html	Attacks Simultaneously Exploiting Vulnerability in IE and Firefox	jpcert.or.jp	blogs.jpcert.or.jp	/en/2020/04/ie-firefox-0day.html
+20200406	运维安全	https://mp.weixin.qq.com/s/xs-xybNs6Ha6_-Qr_EE-qw	零信任架构实战系列：干掉密码，无密码化方案落地	qq.com	mp.weixin.qq.com	/s/xs-xybNs6Ha6_-Qr_EE-qw
+20200406	编程技术	https://mp.weixin.qq.com/s/IMZrvJGQjcLBZS74kMWRnA	浅析HTTP走私攻击	qq.com	mp.weixin.qq.com	/s/IMZrvJGQjcLBZS74kMWRnA
+20200406	恶意分析	https://mp.weixin.qq.com/s/qc25c_nuUax6UoknAVLrAw	“震网”三代和二代漏洞技术分析报告	qq.com	mp.weixin.qq.com	/s/qc25c_nuUax6UoknAVLrAw
+20200406	杂志	https://www.sec-wiki.com/weekly/318	SecWiki周刊（第318期)	sec-wiki.com	www.sec-wiki.com	/weekly/318
+20200406	论文	https://mp.weixin.qq.com/s/h6xLJyqybGASORugqsvmgg	安全漏洞报告的差异性测量	qq.com	mp.weixin.qq.com	/s/h6xLJyqybGASORugqsvmgg
+20200406	漏洞分析	https://labs.bluefrostsecurity.de/blog/2020/03/31/cve-2020-0041-part-1-sandbox-escape/	Exploiting CVE-2020-0041 - Part 1: Escaping the Chrome Sandbox	bluefrostsecurity.de	labs.bluefrostsecurity.de	/blog/2020/03/31/cve-2020-0041-part-1-sandbox-escape/
+20200406	漏洞分析	https://labs.bluefrostsecurity.de/blog/2020/04/08/cve-2020-0041-part-2-escalating-to-root/	Exploiting CVE-2020-0041 - Part 2: Escalating to root	bluefrostsecurity.de	labs.bluefrostsecurity.de	/blog/2020/04/08/cve-2020-0041-part-2-escalating-to-root/
+20200406	恶意分析	https://mp.weixin.qq.com/s/3j5yh8R1D8r9AxKV2qSMKA	Donot team 组织(APT-C-35)移动端攻击活动分析​	qq.com	mp.weixin.qq.com	/s/3j5yh8R1D8r9AxKV2qSMKA
+20200406	恶意分析	https://blog.netlab.360.com/ddg-upgrade-to-new-p2p-hybrid-model/	DDG的新征程——自研P2P协议构建混合P2P网络	360.com	blog.netlab.360.com	/ddg-upgrade-to-new-p2p-hybrid-model/
+20200406	Web安全	https://mp.weixin.qq.com/s/iFzYsWiWneAE_zGGZo7Miw	内网渗透-windows持久性后门	qq.com	mp.weixin.qq.com	/s/iFzYsWiWneAE_zGGZo7Miw
+20200406	其它	https://mp.weixin.qq.com/s/Lj4nCz0hag-AKQF_s79fQw	一文掌握CTF中Python全部考点	qq.com	mp.weixin.qq.com	/s/Lj4nCz0hag-AKQF_s79fQw
+20200406	Web安全	https://mp.weixin.qq.com/s/sSx9ugLPAdfg1G6_AZ0l5w	内网渗透-域环境权限维持	qq.com	mp.weixin.qq.com	/s/sSx9ugLPAdfg1G6_AZ0l5w
+20200406	恶意分析	https://mp.weixin.qq.com/s/9F2mEKSMIb7X3Jnj0g9kJA	工具推荐系列 - Genymotion模拟器ARM转换	qq.com	mp.weixin.qq.com	/s/9F2mEKSMIb7X3Jnj0g9kJA
+20200406	书籍	https://christophm.github.io/interpretable-ml-book/	Interpretable Machine Learning: A Guide for Making Black Box Models Explainable	github.io	christophm.github.io	/interpretable-ml-book/
+20200406	恶意分析	https://medium.com/@sophos.ai/detecting-malicious-emails-with-a-bleeding-edge-neural-language-model-355b366d8940	CATBERT — Detecting malicious emails with a bleeding-edge neural language model	medium.com	medium.com	/@sophos.ai/detecting-malicious-emails-with-a-bleeding-edge-neural-language-model-355b366d8940
+20200406	Web安全	https://mp.weixin.qq.com/s/7wpQXujqKk03GghPbmiwMw	领略cdn绕过的魅力	qq.com	mp.weixin.qq.com	/s/7wpQXujqKk03GghPbmiwMw
+20200406	运维安全	https://mp.weixin.qq.com/s/uVcnAPgTlnB3rIfacgi-9g	恶意代码分析静态分析	qq.com	mp.weixin.qq.com	/s/uVcnAPgTlnB3rIfacgi-9g
+20200406	漏洞分析	https://mp.weixin.qq.com/s/fx8MQ8ZMhZHwrruigLFbGA	关于Adobe PDF 0day的故事	qq.com	mp.weixin.qq.com	/s/fx8MQ8ZMhZHwrruigLFbGA
+20200406	漏洞分析	https://starlabs.sg/blog/2020/04/tianfu-cup-2019-adobe-reader-exploitation/	TianFu Cup 2019: Adobe Reader Exploitation	starlabs.sg	starlabs.sg	/blog/2020/04/tianfu-cup-2019-adobe-reader-exploitation/
+20200406	恶意分析	https://docs.google.com/spreadsheets/d/1UMBFtWxfc40TAF4AIXkPZYBD8uBE6xP2HVs9dRHlTF8/edit#gid=0	2019年度IoT高级威胁研究笔记分享	google.com	docs.google.com	/spreadsheets/d/1UMBFtWxfc40TAF4AIXkPZYBD8uBE6xP2HVs9dRHlTF8/edit
+20200406	设备安全	https://mp.weixin.qq.com/s/n4831yUtgN3_KKBtwM966w	路由器固件编译入门	qq.com	mp.weixin.qq.com	/s/n4831yUtgN3_KKBtwM966w
+20200406	Web安全	https://mp.weixin.qq.com/s/mRthg2LHNu8ATsoDNAXyVw	合约小白初试薅羊毛	qq.com	mp.weixin.qq.com	/s/mRthg2LHNu8ATsoDNAXyVw
+20200406	移动安全	https://securelist.com/ios-exploit-chain-deploys-lightspy-malware/96407/	iOS exploit chain deploys “LightSpy” feature-rich malware	securelist.com	securelist.com	/ios-exploit-chain-deploys-lightspy-malware/96407/
+20200406	Web安全	https://docs.google.com/document/d/1MmnlU-L5q9R55Faq9Arvqe8PPYaPAgr7n-1HL3tbBjo/edit	Bug bounty cheatsheet(Google Doc)	google.com	docs.google.com	/document/d/1MmnlU-L5q9R55Faq9Arvqe8PPYaPAgr7n-1HL3tbBjo/edit
+20200406	Web安全	https://mp.weixin.qq.com/s/6fHu5MQnIT0MyeRfdLG3PQ	智能合约代码层漏洞小记	qq.com	mp.weixin.qq.com	/s/6fHu5MQnIT0MyeRfdLG3PQ
+20200406	Web安全	https://mp.weixin.qq.com/s/KF0vLJdRAzcgqMaI1izwUA	Midnight Sun CTF 2020 WriteUp	qq.com	mp.weixin.qq.com	/s/KF0vLJdRAzcgqMaI1izwUA
