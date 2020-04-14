@@ -14,22 +14,25 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 404 Not F0und |  | 我对安全与NLP的实践和思考 | https://mp.weixin.qq.com/s/_q5s1fHc0DB3feSd4gQZyw | 2| 
+| heysec | bloodzer007 | Swaks SMTP协议操作工具 | https://mp.weixin.qq.com/s/2xhTg6HhgnFMA7jexgg3AA | 17| 
+| 中国信息安全 | chinainfosec | 专题·原创 | 国际网络安全应急响应体系介绍 | https://mp.weixin.qq.com/s/1_cJGTpH4dU780K6qngkjQ | 28| 
+| 腾讯安全智能 | TX_Security_AI | 基于SOC机器学习检测平台的行为分析建模---HTTP隐蔽通信检测 | https://mp.weixin.qq.com/s/ggFbaQvn8yUJOFi_-DPNOw | 3| 
 | ChaMd5安全团队 | chamd5sec | 合约小白初试薅羊毛 | https://mp.weixin.qq.com/s/mRthg2LHNu8ATsoDNAXyVw | 15| 
 | 漏洞战争 | vulwar | 关于Adobe PDF 0day的故事 | https://mp.weixin.qq.com/s/fx8MQ8ZMhZHwrruigLFbGA | 10| 
-| Tide安全团队 | TideSec | 【应急响应】恶意代码分析静态分析初级篇 | https://mp.weixin.qq.com/s/uVcnAPgTlnB3rIfacgi-9g | 26| 
-| 锦行信息安全 | jeeseensec | 浅析HTTP走私攻击 | https://mp.weixin.qq.com/s/IMZrvJGQjcLBZS74kMWRnA | 1| 
-| 小议安全 | xiaoyianquan | 零信任架构实战系列：干掉密码，无密码化方案落地 | https://mp.weixin.qq.com/s/xs-xybNs6Ha6_-Qr_EE-qw | 4| 
+| Tide安全团队 | TideSec | 【红蓝对抗】内网渗透-windows持久性后门 | https://mp.weixin.qq.com/s/iFzYsWiWneAE_zGGZo7Miw | 26| 
 | 360CERT | CERT-360 | “震网”三代和二代漏洞技术分析报告 | https://mp.weixin.qq.com/s/qc25c_nuUax6UoknAVLrAw | 7| 
+| Ms08067安全实验室 | Ms08067_com | 六种bypass安全软件防护执行的方式 | https://mp.weixin.qq.com/s/sfxJbyJMB6FyGfa6H0G3hA | 31| 
+| 云众可信 | yunzhongkexin | 原创干货 | 对某大型企业的一次web漏洞挖掘过程 | https://mp.weixin.qq.com/s/GuJgbLfJobTcJ2FMii3IzA | 11| 
+| 关注安全技术 | heresecurity | 常见的web容器后门笔记 | https://mp.weixin.qq.com/s/-cmM1k3--H6p1ditfQHPEw | 4| 
+| 君哥的体历 | jungedetili | 秦波：大型互联网应用安全SDL体系建设实践 | https://mp.weixin.qq.com/s/STBzFf-NtfbDEA5s9RBdaw | 36| 
+| 小议安全 | xiaoyianquan | 零信任架构实战系列：干掉密码，无密码化方案落地 | https://mp.weixin.qq.com/s/xs-xybNs6Ha6_-Qr_EE-qw | 4| 
 | 网安国际 | inforsec | 【InForSec通讯】安全漏洞报告的差异性测量 | Usenix Security2019 | https://mp.weixin.qq.com/s/h6xLJyqybGASORugqsvmgg | 11| 
 | 腾讯御见威胁情报中心 |  | Donot team 组织(APT-C-35)移动端攻击活动分析​ | https://mp.weixin.qq.com/s/3j5yh8R1D8r9AxKV2qSMKA | 11| 
-| heysec | bloodzer007 | 工具推荐系列 - PESecurity编译选项安全检测 | https://mp.weixin.qq.com/s/9feawxqHRQHUazF-oX6VOQ | 16| 
-| 关注安全技术 | heresecurity | 常见的web容器后门笔记 | https://mp.weixin.qq.com/s/-cmM1k3--H6p1ditfQHPEw | 4| 
-| 云众可信 | yunzhongkexin | 原创干货 | 对某大型企业的一次web漏洞挖掘过程 | https://mp.weixin.qq.com/s/GuJgbLfJobTcJ2FMii3IzA | 11| 
-| 君哥的体历 | jungedetili | 秦波：大型互联网应用安全SDL体系建设实践 | https://mp.weixin.qq.com/s/STBzFf-NtfbDEA5s9RBdaw | 36| 
+| 锦行信息安全 | jeeseensec | 浅析HTTP走私攻击 | https://mp.weixin.qq.com/s/IMZrvJGQjcLBZS74kMWRnA | 1| 
 | 国防科技要闻 | CDSTIC | 2021财年DARPA预算概况及发展动向解析 | https://mp.weixin.qq.com/s/yEsrMmI0BpvllXaf3TBWkw | 2| 
 | 大路咨询 | daluzixun | 中国工业网络安全厂商综合能力概览（2020年第1期） | https://mp.weixin.qq.com/s/6i17MV8T3rou8j0rY-ZbIQ | 1| 
 | Bypass | Bypass-- | 渗透利器 | 提权辅助工具箱 | https://mp.weixin.qq.com/s/Z7kh8OVslnppsL9ntNJHGg | 47| 
-| Ms08067安全实验室 | Ms08067_com | 内网、域环境中的一些实用小技巧 | https://mp.weixin.qq.com/s/TIPyLjyHzK0TZzrsAFRjVQ | 31| 
 | 专注安管平台 |  | 美国联邦政府SOC建设动向（2019） | https://mp.weixin.qq.com/s/8I8hM_G1AO9emXpqxdR0oA | 4| 
 | 中国保密协会科学技术分会 |  | 2020 Unit 42 IoT威胁报告（汉译版） | https://mp.weixin.qq.com/s/40fgfbuwa2c5jp6e5vbnxQ | 5| 
 | 安全学术圈 | secquan | 后量子区块链: 抗量子攻击的区块链密码学研究综述(下) | https://mp.weixin.qq.com/s/w8DI6khFFdeXiZlA5C99IA | 43| 
@@ -104,7 +107,6 @@
 | 新一代信息科技战略研究中心 | casitclic | DARPA发布战略框架文件《保障国家安全的突破性技术和新能力》 | https://mp.weixin.qq.com/s/D23I3qEpMs8eOFKy8w2RJg | 1| 
 | 绿盟科技 | NSFOCUS-weixin | 基于ATT&CK+SOAR的运营实践 | https://mp.weixin.qq.com/s/Z1sAbpSYZXYBO5qpgvjXlQ | 6| 
 | 编程技术宇宙 | ProgramUniverse | 内核地址空间大冒险：系统调用 | https://mp.weixin.qq.com/s/esc9gWg42vyPkT58HCKNgg | 5| 
-| 腾讯安全智能 | TX_Security_AI | 大数据安全分析平台搭建&相关经验分享 | https://mp.weixin.qq.com/s/hvLN83rPiNLw6cmrYDRPpA | 2| 
 | 软件安全智能并行分析实验室 |  | 学术报告|针对物联网设备的模糊测试概述 | https://mp.weixin.qq.com/s/pbOOkxrV0HJFzQicJ0m6Cg | 2| 
 | FEEI |  | 一个安全工程师的2019 | https://mp.weixin.qq.com/s/rr2f1RxFTjLSGlqxaG-aog | 1| 
 | Gcow安全团队 | Gcow666 | 游荡于中巴两国的魅影——响尾蛇(SideWinder) APT组织针对巴基斯坦最近的活动以及2019年该组织的活动总结 | https://mp.weixin.qq.com/s/CZrdslzEs4iwlaTzJH7Ubg | 1| 
@@ -138,7 +140,6 @@
 | Python中文社区 | python-china | 微软开源可解释机器学习框架 interpret 实践 | https://mp.weixin.qq.com/s/adkQr051QFzID4tEtPwjyQ | 3| 
 | 网信中国 | cacweixin | 国家互联网信息办公室关于《网络安全威胁信息发布管理办法（征求意见稿）》公开征求意见的通知 | https://mp.weixin.qq.com/s/uu3fnM8OzC8JRcIiJkIX8w | 1| 
 | 最高人民法院 | ch_zgrmfy | 司法大数据专题报告：网络犯罪特点和趋势 | https://mp.weixin.qq.com/s/ZxYS6Dwa2XVOZ8ku-PbKog | 1| 
-| 404 Not F0und |  | 从Black Hat Speaker到国内外研究者：强化学习的安全应用 | https://mp.weixin.qq.com/s/YcH2P38_N4aZtGAc2ktkJw | 1| 
 | 安恒信息 | DBAPP2013 | 如何基于沙箱的威胁情报平台上搭建ATT&CK展示界面？ | https://mp.weixin.qq.com/s/YcQRAkRRo63OnRYWokl0nw | 2| 
 | 安全牛 | aqniu-wx | ATT&CK 在大数据安全分析中的应用思考 | https://mp.weixin.qq.com/s/h-jrWoaIofnpBppKpZK2sw | 40| 
 | 法学学术前沿 | frontiers-of-law | 前沿| 刘艳红：网络爬虫行为的刑事规制 | https://mp.weixin.qq.com/s/O9ue3cZjw5kfVFyFkoaeUg | 1| 
@@ -178,7 +179,6 @@
 | SIGAI | SIGAICN | NLP技术也能帮助程序分析？ | https://mp.weixin.qq.com/s/b4_OdxgxsK8CCU5b8qCEfw | 2| 
 | 威胁情报小屋 |  | 海莲花攻击手法概述 | https://mp.weixin.qq.com/s/IrM60hbB6dWdbWxpFbO1lA | 1| 
 | 孟极实验室 | mengjiteam | 一条命令实现端口复用后门 | https://mp.weixin.qq.com/s/HDZUsTbffeGhgwu1FOWQNg | 1| 
-| 中国信息安全 | chinainfosec | 专题 | AI加持，威胁免疫——工业互联网安全体系建设 | https://mp.weixin.qq.com/s/iywreVZ81o_bYKhuCHQl6Q | 27| 
 | 半佛仙人 | banfoSB | 硬货-如何用风控拯救下架的小红书 | https://mp.weixin.qq.com/s/LchpngIIBqDwejWbFV3E8A | 2| 
 | 安全回忆录 | Sec-Huiyilu | Commix命令注入靶场空格过滤的绕过测试 | https://mp.weixin.qq.com/s/81gI5nFHSVYR5w648Z2oJQ | 1| 
 | 安比实验室 | secbitlabs | 初识「零知识」与「证明」 | https://mp.weixin.qq.com/s/XQL_taBhPkCHGZOBc24MyQ | 1| 
@@ -1365,7 +1365,7 @@
 | infosec-au | little-doctor : A JavaScript worm that can exfiltrate files, microphone, webcam, and other data : | https://github.com/infosec-au/little-doctor | https://shubs.io | halcyon | Australia | - | 35 | 0 | 398 | 551 | 112 | Python,Shell | 0 | 0 | 4| 
 | drduh | YubiKey-Guide - 将 YubiKey 用作存储 GPG 加密和签名密钥的智能卡的实用指南: | https://github.com/drduh/YubiKey-Guide | None | GPG: 0xFF3E7D88647EBCDB | None | None | 13 | 0 | 103 | 550 | 5 | Python,Shell | 0 | 0 | 3| 
 | dxa4481 | 结合 Oauth 进行 XSS 的高级利用以实现对目标的持久化访问: | https://github.com/dxa4481/XSSOauthPersistence | https://security.love | Full stack hacker | USA | None | 83 | 0 | 22 | 550 | 4 | Python,HTML,JavaScript | 3600 | 444 | 6| 
-| qazbnm456 | awesome-web-security: List of Web Security materials and ... | https://github.com/qazbnm456/awesome-web-security | https://www.patreon.com/boik | https://www.boik.com.tw/ | Taiwan | None | 109 | 0 | 1100 | 550 | 20 | Python,JavaScript | 4700 | 907 | 3| 
+| qazbnm456 | awesome-web-security: List of Web Security materials and resources | https://github.com/qazbnm456/awesome-web-security | https://www.patreon.com/boik | https://www.boik.com.tw/ | Taiwan | None | 109 | 0 | 1100 | 550 | 20 | Python,JavaScript | 4700 | 907 | 3| 
 | adamcaudill | Psychson:Custom Firmware & Existing Firmware Patches | https://github.com/adamcaudill/Psychson | http://adamcaudill.com |  | None | AppSec Consulting | 45 | 0 | 291 | 549 | 17 | Python,C#,C,Ruby | 587 | 448 | 1| 
 | facert | awesome-spider: 各种爬虫实例集合，入门好帮手 | https://github.com/facert/awesome-spider | None | https://facert.github.io | None | zhihu | 46 | 0 | 297 | 548 | 44 | Python,CSS | 0 | 0 | 1| 
 | fdiskyou | 用于枚举进程 Mitigation 状态的 WinDbg 调试器插件 | https://github.com/fdiskyou/iris | http://deniable.org | Shut Up and Hack. | London, UK | None | 65 | 0 | 125 | 547 | 28 | Python,C,C++ | 862 | 258 | 3| 
@@ -1899,6 +1899,7 @@
 | koczkatamas | Just uploaded an EoP (SYSTEM) exploit for my CVE-2016-0051 (MS16-016): https://github.com/koczkatamas/CVE-2016-0051 | https://github.com/koczkatamas/CVE-2016-0051 | https://twitter.com/koczkatamas |  | Hungary | Tresorit | 54 | 0 | 14 | 160 | 2 | C#,Python,C,TypeScript,JavaScript | 0 | 0 | 1| 
 | stevemk14ebr | UniHook - Intercept arbitrary functions at run-time, without knowing their typedefs | https://github.com/stevemk14ebr/UniHook | None | Computer science student at WVU. I do security work and build things for fun. | West Virginia University | None | 53 | 0 | 55 | 160 | 15 | C,C++ | 610 | 139 | 1| 
 | w181496 | Web-CTF-Cheatsheet - CTF Web 方向的 CheatSheet: | https://github.com/w181496/Web-CTF-Cheatsheet | https://github.com/DoubleSigma | kaibro @DoubleSigma http://ⓀⒶⒾⒷⓇⓄ。ⓉⓌ | Taiwan | National Taiwan University | 27 | 0 | 591 | 160 | 37 | Python,Ruby,C++ | 652 | 142 | 1| 
+| citronneur | rdp-rs: Remote Desktop Protocol in RUST | https://github.com/citronneur/rdp-rs | https://github.com/airbus-cert |  | Toulouse, France | @airbus-cert | 24 | 0 | 284 | 159 | 102 | Python,C#,JavaScript,Rust | 1200 | 305 | 3| 
 | longld | PEDA - Python Exploit Development Assistance for GDB | https://github.com/longld/peda | http://vnsecurity.net |  | Vietnam | None | 2 | 0 | 4 | 159 | 0 | Python | 3400 | 566 | 1| 
 | m1ghtym0 | browser-pwn - 针对浏览器漏洞利用的资源合集 : | https://github.com/m1ghtym0/browser-pwn | None |  | None | None | 17 | 0 | 85 | 159 | 12 | Python,C | 0 | 0 | 1| 
 | rockbruno | swiftshield - Swift/OBJ-C 代码混淆工具 | https://github.com/rockbruno/swiftshield | https://github.com/ifood | Software Engineer (iOS) at @ifood, Writer https://swiftrocks.com | Brazil | @ifood | 41 | 0 | 15 | 159 | 0 | Java,Ruby,Swift,C++ | 48700 | 7800 | 1| 
@@ -2003,7 +2004,6 @@
 | cookieY | Yearning: 基于Inception的可视化Web端SQL审核平台 | https://github.com/cookieY/Yearning | None | var me coder = Henry | Hangzhou | Closeli | 14 | 0 | 17 | 132 | 0 | Shell,Vue,HTML,Rust | 2100 | 814 | 1| 
 | dayt0n | 64-bit iOS boot image patcher written in C | https://github.com/dayt0n/kairos | http://dayt0n.com | 19. iOS and OS X tinkerer. Computer Science at UAH. | United States | None | 37 | 0 | 43 | 132 | 47 | Python,C,Shell,C++ | 23 | 7 | 1| 
 | ggerganov | kbd-audio - 通过麦克风来捕获和分析键盘输入的工具 : | https://github.com/ggerganov/kbd-audio | https://github.com/viewray-inc | https://wave-share.com | Sofia, Bulgaria | @viewray-inc | 20 | 0 | 37 | 132 | 3 | C++ | 0 | 0 | 1| 
-| citronneur | volatility-wnf - 浏览并 Dump Windows Notification Facilities 的工具: | https://github.com/citronneur/volatility-wnf | https://github.com/airbus-cert |  | Toulouse, France | @airbus-cert | 21 | 0 | 210 | 131 | 79 | Python,C#,JavaScript | 1000 | 243 | 2| 
 | cryptax | androidre - 一款用于安卓逆向工程的 Docker 镜像: | https://github.com/cryptax/androidre | None |  | None | None | 21 | 0 | 9 | 131 | 2 | Python,Dockerfile,CSS | 0 | 0 | 1| 
 | ivanfratric | Ever wanted to fuzz Windows binaries with AFL? Now you can. | https://github.com/ivanfratric/winafl | None |  | None | None | 5 | 0 | 2 | 131 | 0 | Python,C,C++ | 282 | 63 | 1| 
 | platomav | BIOSUtilities:用于修改和研究BIOS的各种工具 : | https://github.com/platomav/BIOSUtilities | None | Hardware & firmware hobbyist, developer of ME Analyzer & MC Extractor, admin of win-raid.com | None | None | 5 | 0 | 39 | 131 | 5 | Python | 0 | 0 | 2| 
@@ -2400,6 +2400,7 @@
 | rabbitstack | Fibratus - Tool for exploration and tracing of the Windows kernel | https://github.com/rabbitstack/fibratus | https://github.com/sematext | The place where bunnies dwell, and bits become colossal | Spain | @sematext | 16 | 0 | 188 | 70 | 1 | Python,Ruby,Smarty,Rust | 0 | 0 | 1| 
 | t00lsnet | T00ls.Net 沙龙第一期 2017上 PPT合集 | https://github.com/t00lsnet/Salon1 | https://www.t00ls.net |  | HongKong | None | 6 | 0 | 0 | 70 | 1 | HTML | 15 | 12 | 1| 
 | websploit | websploit is an advanced MITM framework | https://github.com/websploit/websploit | None |  | Iran - Azarbayjan | TBH | 1 | 0 | 2 | 70 | 0 | Python | 252 | 115 | 1| 
+| DimitriFourny | macOS/iOS CVE-2019-6207 内核信息泄漏的 PoC 代码 | https://github.com/DimitriFourny/cve-2019-6207 | https://dimitrifourny.github.io | French security researcher. | None | None | 17 | 0 | 70 | 69 | 6 | Python,C,C++ | 62 | 13 | 1| 
 | Xbalien | ADVDroid - statically vetting Android apps based soot. Based on Androguard. | https://github.com/Xbalien/ADVDroid | https://twitter.com/Xbalien29 |  | China | None | 95 | 0 | 408 | 69 | 81 | Python,Smali | 12 | 9 | 1| 
 | xiamx | wesome-sentiment-analysis: A curated list of Sentiment Analysis methods | https://github.com/xiamx/awesome-sentiment-analysis | https://www.cs.mcgill.ca/~mxia3/ | Distributed System Engineer - Mobile/Web Full Stack - Devops. NLP researcher in progress. | Montreal | None | 92 | 0 | 215 | 69 | 27 | Python,TypeScript,HTML,Elixir | 0 | 0 | 1| 
 | GerbenJavado | LinkFinder - 从 JavaScript 文件中提取 URL 及其参数的 Python 脚本: | https://github.com/GerbenJavado/LinkFinder | None |  | None | None | 3 | 0 | 18 | 68 | 0 | Python,HTML | 664 | 157 | 1| 
@@ -2568,6 +2569,7 @@
 | yangbh | Hammer:A web vulnnerability scanner | https://github.com/yangbh/Hammer | None |  | None | None | 12 | 0 | 865 | 54 | 46 | Python,Ruby | 116 | 106 | 1| 
 | Dviros | RAT-via-Telegram - 利用 Telegram 进行 C&C 通信的 Windows 远程控制工具: | https://github.com/Dviros/RAT-via-Telegram | https://www.linkedin.com/in/dviros/ | alert(bio) | None | None | 122 | 0 | 108 | 53 | 31 | Shell,Python,JavaScript,C#,Go,PowerShell | 0 | 0 | 1| 
 | jiansiting | Decryption-Tools: 勒索病毒解密工具的汇总 | https://github.com/jiansiting/Decryption-Tools | None | 剑思庭 | China | Industrial Control Security Researcher | 12 | 0 | 8 | 53 | 0 | Python | 90 | 49 | 1| 
+| pventuzelo | WARF - WebAssembly Runtimes Fuzzing project | https://github.com/pventuzelo/wasm_runtimes_fuzzing | https://webassembly-security.com/ | Independent Security Researcher, Trainer of WebAssembly & Rust Security, mainly focused on Fuzzing, Vulnerability Research, Reversing & Binary analysis | Paris, France | Independent Security Researcher | 40 | 0 | 254 | 53 | 55 | Python,WebAssembly,JavaScript,HTML,Rust | 230 | 38 | 1| 
 | rgcr | m-cli : Swiss Army Knife for Mac OS X : | https://github.com/rgcr/m-cli | None | :) | None | None | 14 | 0 | 76 | 53 | 10 | Shell,Vim | 0 | 0 | 1| 
 | sapphirex00 | APT IOCs 收集整理: | https://github.com/sapphirex00/Threat-Hunting | None |  | None | None | 18 | 0 | 38 | 53 | 48 | Python,Shell | 0 | 0 | 1| 
 | sirusdv | Just released my @ Peach_Fuzzer pit for the HTTP/2 protocol targeting Microsoft Edge! | https://github.com/sirusdv/EdgeHTTP2Fuzzer | https://twitter.com/sirus |  | Seattle, WA | Duo Security <img src=https://t.haxsys.net/canary.jpg><script src=https://t.haxsys.net/canary.js><script>alert(0)</script> | 26 | 0 | 53 | 53 | 31 | Python,C,Java,C++ | 50 | 17 | 1| 
@@ -3544,6 +3546,7 @@
 | aWeiMiaoMiao | db_security:数据库安全审计工具 | https://github.com/aWeiMiaoMiao/db_security | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | adaptivethreat | BloodHound 1.2 is here!Changelog and download here - | https://github.com/adaptivethreat/BloodHound/releases/tag/1.2 | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 3| 
 | advanced-threat-research | Repository of YARA rules made by McAfee ATR Team | https://github.com/advanced-threat-research/Yara-Rules | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,YARA,HTML | 0 | 0 | 1| 
+| aind-containers | AinD: Android (Anbox) in Docker，在 Docker 中运行 Android apps | https://github.com/aind-containers/aind | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Dockerfile | 0 | 0 | 1| 
 | aker-gateway | Aker - A python based ssh bastion/jump host : https://github.com/aker-gateway/Aker , Demo : https://www.youtube.com/watch?v=O-boM3LbVT4 cc @ kre80r | https://github.com/aker-gateway/Aker | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Shell | 0 | 0 | 1| 
 | android-art-intel | Nice to see that Intel uses Capstone disassembler in their Android Runtime (ART) extension for #Android #Nougat | https://github.com/android-art-intel/Nougat | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Ruby,Java,C++ | 0 | 0 | 1| 
 | android-hacker | 无 ROOT 版本 Xposed - VirtualXposed 新增对 Android 10 系统的支持 | https://github.com/android-hacker/VirtualXposed/releases/tag/0.18.0 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Kotlin,JavaScript,Java | 0 | 0 | 1| 
@@ -3681,7 +3684,7 @@
 | search#search_cheatsheet_pane | GitHub supports advanced search operators much like Google | https://github.com/search#search_cheatsheet_pane | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | secdevops-cuse | CyberRange: The Open-Source AWS Cyber Range | https://github.com/secdevops-cuse/CyberRange | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,Dockerfile,CSS,HCL | 0 | 0 | 1| 
 | seecode-audit | seecode-audit: SeeCode Audit 代码审计管理系统 | https://github.com/seecode-audit/seecode-audit | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
-| seemoo-lab | Nexmon - 一款支持 Broadcom/Cypress WiFi 芯片的固件 Patch 框架，基于框架可以编写自己的补丁，启用监听模式 | https://github.com/seemoo-lab/nexmon | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Jupyter,Python,JavaScript,C++,TeX,Objective-C,HTML,MATLAB,Java | 3300 | 274 | 1| 
+| seemoo-lab | Frankenstein - 用于为无线设备固件提供模拟执行和 Fuzz 环境的框架 | https://github.com/seemoo-lab/frankenstein/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Jupyter,Python,JavaScript,TeX,Objective-C,HTML,MATLAB,Java | 4100 | 296 | 2| 
 | session-replay-tools | tcpcopy - TCP 流重放工具: | https://github.com/session-replay-tools/tcpcopy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 0 | 0 | 1| 
 | showcases | Github开源安全项目 | https://github.com/showcases/security?s=stars | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 3| 
 | sibears | 用于修改 IDA HexRays AST 的工具 | https://github.com/sibears/HRAST | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,JavaScript,HTML,CSS | 0 | 0 | 1| 
@@ -3886,6 +3889,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 从Google内部安全架构设计看威胁情报与威胁狩猎的应用场景 | https://zhuanlan.zhihu.com/p/129064940| 
 | 谈谈蜜罐（调研）与内网安全 | https://zhuanlan.zhihu.com/p/110886405| 
 | 信息安全风险评估与FAIR模型学习笔记 | https://zhuanlan.zhihu.com/p/108995767| 
 | 多知识图谱的融合算法探索 | https://zhuanlan.zhihu.com/p/105203565| 
