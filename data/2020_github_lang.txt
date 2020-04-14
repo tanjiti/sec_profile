@@ -1,8 +1,8 @@
 Python	52
-JavaScript	28
+JavaScript	29
 C++	27
 HTML	26
-C	24
+C	25
 Shell	22
 Java	21
 Go	19

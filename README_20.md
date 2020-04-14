@@ -20,7 +20,7 @@
 | 腾讯安全智能 | TX_Security_AI | 基于SOC机器学习检测平台的行为分析建模---HTTP隐蔽通信检测 | https://mp.weixin.qq.com/s/ggFbaQvn8yUJOFi_-DPNOw | 3| 
 | ChaMd5安全团队 | chamd5sec | 合约小白初试薅羊毛 | https://mp.weixin.qq.com/s/mRthg2LHNu8ATsoDNAXyVw | 15| 
 | 漏洞战争 | vulwar | 关于Adobe PDF 0day的故事 | https://mp.weixin.qq.com/s/fx8MQ8ZMhZHwrruigLFbGA | 10| 
-| Tide安全团队 | TideSec | 【红蓝对抗】内网渗透-windows持久性后门 | https://mp.weixin.qq.com/s/iFzYsWiWneAE_zGGZo7Miw | 26| 
+| Tide安全团队 | TideSec | 【红蓝对抗】内网渗透-域环境权限维持 | https://mp.weixin.qq.com/s/sSx9ugLPAdfg1G6_AZ0l5w | 26| 
 | 360CERT | CERT-360 | “震网”三代和二代漏洞技术分析报告 | https://mp.weixin.qq.com/s/qc25c_nuUax6UoknAVLrAw | 7| 
 | Ms08067安全实验室 | Ms08067_com | 六种bypass安全软件防护执行的方式 | https://mp.weixin.qq.com/s/sfxJbyJMB6FyGfa6H0G3hA | 31| 
 | 云众可信 | yunzhongkexin | 原创干货 | 对某大型企业的一次web漏洞挖掘过程 | https://mp.weixin.qq.com/s/GuJgbLfJobTcJ2FMii3IzA | 11| 
@@ -2689,6 +2689,7 @@
 | gpoguy | GetVulnerableGPO - 用于寻找不安全的 GPO 组策略配置的 PowerShell 脚本: | https://github.com/gpoguy/GetVulnerableGPO | https://sdmsoftware.com | Darren is CTO & Founder of SDM Software, Inc and the community site gpoguy.com, focused on Group Policy, DSC and config mgmt for Windows. | San Francisco Bay Area | SDM Software, Inc. | 3 | 0 | 0 | 44 | 0 | C#,PowerShell | 131 | 18 | 1| 
 | marcinguy | Android 7月补丁修复的Media Framework漏洞CVE-2019-2107的PoC | https://github.com/marcinguy/CVE-2019-2107 | None |  | Berlin, Germany | None | 39 | 0 | 11 | 44 | 28 | Python,C | 52 | 13 | 1| 
 | mokhdzanifaeq | Pyflirt is a nice tool using Capstone & FLIRT signatures to detect lib functions in OllyDbg: https://github.com/mokhdzanifaeq/pyflirt | https://github.com/mokhdzanifaeq/pyflirt | None |  | None | None | 9 | 0 | 89 | 44 | 16 | Python,HTML,PHP,C++ | 80 | 13 | 1| 
+| nafod | nafod 公开了自己 VMware UHCI ZDI-19-421 漏洞的 Exploit | https://github.com/nafod/advent-vmpwn// | None |  | None | None | 15 | 0 | 117 | 44 | 24 | C,JavaScript | 5 | 1 | 1| 
 | numirias | 通过 VIM 对 modelines 特殊格式的支持可以实现任意代码执行。漏洞影响 Vim < 8.1.1365, Neovim < 0.3.6 版本 | https://github.com/numirias/security/blob/master/doc/2019-06-04_ace-vim-neovim.md | https://twitter.com/rawsec | Infosec fanboy | Europe | None | 18 | 0 | 40 | 44 | 5 | Python,JavaScript | 270 | 13 | 1| 
 | vmiklos | 针对 Open Document Format(ODF) 的数字签名工具: | https://github.com/vmiklos/odfsig | https://vmiklos.hu/ |  | Budapest, Hungary | None | 70 | 0 | 41 | 44 | 3 | Python,C,C++ | 0 | 0 | 1| 
 | 0xmachos | Every iOS security guide | https://github.com/0xmachos/iOS-Security-Guides | https://github.com/AbertayHackers | Security Engineer. Former @AbertayHackers Vice Gaffer. Purveyor of macOS security & rum. 🍎🐛 | Scotland | None | 23 | 0 | 61 | 43 | 20 | Python,Shell,Ruby,HTML | 0 | 0 | 1| 
@@ -3724,6 +3725,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 写给入门者的 Web RCE 漏洞利用案例分析 | http://medium.com/bugbountywriteup/simple-remote-code-execution-vulnerability-examples-for-beginners-985867878311?source=rss----7b722bfd1b8d---4| 
 | CVE-2020-0796 Windows SMBv3 LPE漏洞 POC详细分析 | http://medium.com/@knownsec404team/cve-2020-0796-windows-smbv3-lpe-exploit-poc-analysis-c77569124c87| 
 | Remote Image Upload Leads to RCE (Inject Malicious Code to PHP-GD Image) | http://medium.com/@asdqwedev/remote-image-upload-leads-to-rce-inject-malicious-code-to-php-gd-image-90e1e8b2aada| 
 | OWASP 中提到的最严重的 API 漏洞类型 - BOLA (Broken Object Level Authorization) 是怎么回事儿 | http://medium.com/@inonst/a-deep-dive-on-the-most-critical-api-vulnerability-bola-1342224ec3f2| 
