@@ -14,11 +14,16 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 永安在线反欺诈 | YongAnOnline | 永安在线 | 生鲜电商拉新场景业务安全测评报告 | https://mp.weixin.qq.com/s/oiSYOA-BDn9fUnb7EhO2vA | 2| 
+| 腾讯御见威胁情报中心 |  | 微软发布字体解析远程代码执行漏洞补丁，建议用户尽快修补 | https://mp.weixin.qq.com/s/RvTZWvcXiXsI7xB6L9RWIg | 4| 
+| 信息通信技术与政策 | caict_dsc | APT供应链攻击防护应对分析及意义 | https://mp.weixin.qq.com/s/qGMRjCeIyHSHk_aXI8Fxbg | 1| 
+| 绿盟科技研究通讯 | nsfocus_research | Provenance Mining：终端溯源数据挖掘与威胁狩猎 | https://mp.weixin.qq.com/s/Te7c3HvCcxX3ci9HTn8lEQ | 4| 
+| 腾讯安全应急响应中心 | tsrc_team | 网络层绕过IDS/IPS的一些探索 | https://mp.weixin.qq.com/s/QJeW7K-KThYHggWtJ-Fh3w | 5| 
 | 404 Not F0und |  | 我对安全与NLP的实践和思考 | https://mp.weixin.qq.com/s/_q5s1fHc0DB3feSd4gQZyw | 1| 
 | heysec | bloodzer007 | Swaks SMTP协议操作工具 | https://mp.weixin.qq.com/s/2xhTg6HhgnFMA7jexgg3AA | 10| 
 | 中国信息安全 | chinainfosec | 专题·原创 | 国际网络安全应急响应体系介绍 | https://mp.weixin.qq.com/s/1_cJGTpH4dU780K6qngkjQ | 1| 
 | 腾讯安全智能 | TX_Security_AI | 基于SOC机器学习检测平台的行为分析建模---HTTP隐蔽通信检测 | https://mp.weixin.qq.com/s/ggFbaQvn8yUJOFi_-DPNOw | 2| 
-| ChaMd5安全团队 | chamd5sec | 合约小白初试薅羊毛 | https://mp.weixin.qq.com/s/mRthg2LHNu8ATsoDNAXyVw | 7| 
+| ChaMd5安全团队 | chamd5sec | 领略cdn绕过的魅力 | https://mp.weixin.qq.com/s/7wpQXujqKk03GghPbmiwMw | 7| 
 | 漏洞战争 | vulwar | 关于Adobe PDF 0day的故事 | https://mp.weixin.qq.com/s/fx8MQ8ZMhZHwrruigLFbGA | 2| 
 | Tide安全团队 | TideSec | 【红蓝对抗】内网渗透-域环境权限维持 | https://mp.weixin.qq.com/s/sSx9ugLPAdfg1G6_AZ0l5w | 26| 
 | 360CERT | CERT-360 | “震网”三代和二代漏洞技术分析报告 | https://mp.weixin.qq.com/s/qc25c_nuUax6UoknAVLrAw | 1| 
@@ -28,7 +33,6 @@
 | 君哥的体历 | jungedetili | 秦波：大型互联网应用安全SDL体系建设实践 | https://mp.weixin.qq.com/s/STBzFf-NtfbDEA5s9RBdaw | 3| 
 | 小议安全 | xiaoyianquan | 零信任架构实战系列：干掉密码，无密码化方案落地 | https://mp.weixin.qq.com/s/xs-xybNs6Ha6_-Qr_EE-qw | 4| 
 | 网安国际 | inforsec | 【InForSec通讯】安全漏洞报告的差异性测量 | Usenix Security2019 | https://mp.weixin.qq.com/s/h6xLJyqybGASORugqsvmgg | 1| 
-| 腾讯御见威胁情报中心 |  | Donot team 组织(APT-C-35)移动端攻击活动分析​ | https://mp.weixin.qq.com/s/3j5yh8R1D8r9AxKV2qSMKA | 3| 
 | 锦行信息安全 | jeeseensec | 浅析HTTP走私攻击 | https://mp.weixin.qq.com/s/IMZrvJGQjcLBZS74kMWRnA | 1| 
 | 国防科技要闻 | CDSTIC | 2021财年DARPA预算概况及发展动向解析 | https://mp.weixin.qq.com/s/yEsrMmI0BpvllXaf3TBWkw | 1| 
 | 大路咨询 | daluzixun | 中国工业网络安全厂商综合能力概览（2020年第1期） | https://mp.weixin.qq.com/s/6i17MV8T3rou8j0rY-ZbIQ | 1| 
@@ -47,8 +51,6 @@
 | 小米安全中心 | misrc_team | IoT上SSL安全开发小结 | https://mp.weixin.qq.com/s/rSXqBCFmawLg_oYYVKecLQ | 1| 
 | 白帽子的成长之路 | whitehat_day | 2020年开源情报（OSINT）TOP20 工具 | https://mp.weixin.qq.com/s?__biz=MzI2NDY1NDg0OA==&mid=2247484049&idx=1&sn=e6e716cfcfef01956c1acc7d684d44d1 | 3| 
 | 盘古实验室 | PanguLab | 微信远程攻击面简单的研究与分析 | https://mp.weixin.qq.com/s/yMQN3MciI-0f3mzz_saiwQ | 1| 
-| 绿盟科技研究通讯 | nsfocus_research | 恶意软件命名与描述规范研究 | https://mp.weixin.qq.com/s/KGfsmEUu_fMH9Vj3TleMMQ | 3| 
-| 腾讯安全应急响应中心 | tsrc_team | WAF建设运营及AI应用实践 | https://mp.weixin.qq.com/s/fTm1hUfRmm6ujmjvSHRLUA | 4| 
 | 落水轩 |  | 基于开源情报解密美国雷神山火神山 | https://mp.weixin.qq.com/s/OCAK5byqIvXttqxxSQmDkQ | 1| 
 | 黑金笔谈 | heijinbitan | 网络威胁检测技术NTA | https://mp.weixin.qq.com/s/DYqFKBIj1BKwDzTpnO_tHg | 1| 
 | PolarisLab | PolarisLab | 追踪与新冠状病毒相关的安卓恶意软件 | https://mp.weixin.qq.com/s/fLDNLJIWwvrUUwt6Pi6T4A | 2| 
@@ -70,7 +72,6 @@
 | 湛卢工作室 | xuehao_studio | DIY | 树莓派搭载kali Linux | https://mp.weixin.qq.com/s/aOWEheNMxIYTBalDErSuMQ | 2| 
 | 银河安全实验室 | Galaxy-Lab | 尝试利用Cython将Python项目转化为单个.so | https://mp.weixin.qq.com/s/YRKY7FgLFw-w4QIlrNd-FA | 1| 
 | 安天 | Antiylab | 安天对“超高能力网空威胁行为体”系列分析回顾 | https://mp.weixin.qq.com/s/N0LxStDpc6GyzpyszYnguQ | 1| 
-| 永安在线反欺诈 | YongAnOnline | 业务安全蓝军测评标准白皮书 | https://mp.weixin.qq.com/s/23fcilR_XhrGLWSaKv21zA | 1| 
 | 青衣十三楼飞花堂 |  | burp pro 2020.2 | https://mp.weixin.qq.com/s/WXdEvc0p04KjyOlmb4qtRg | 1| 
 | SecWiki | SecWiki | 2020 Google夏日编程之安全项目列表 | https://mp.weixin.qq.com/s/Gf937RjTpA0QsT2DJFQRqQ | 2| 
 | 大潘点点 | dapandiandian | 网安产业结构和动力分析——从合规型向能力型 | https://mp.weixin.qq.com/s/V6P-6X_fnw_kvHWMxtqwLg | 1| 
