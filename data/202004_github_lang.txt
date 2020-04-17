@@ -1,4 +1,4 @@
-Python	10
+Python	11
 JavaScript	7
 C	5
 HTML	5
@@ -9,10 +9,11 @@ C#	2
 Rust	2
 TeX	1
 WebAssembly	1
+Batchfile	1
 VBScript	1
 Objective-C	1
 Smarty	1
-Batchfile	1
+Go	1
 Jupyter	1
 Dockerfile	1
 CSS	1

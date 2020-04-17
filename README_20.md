@@ -14,6 +14,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| VMware中国研发中心 | vmwarechinard | 使用FATE进行图片识别的深度神经网络联邦学习 | https://mp.weixin.qq.com/s/wlB8Hz4nTgz9zEP3OEQDAQ | 1| 
+| 中国白客联盟 | China_Baiker | 渗透中的后门利用 | https://mp.weixin.qq.com/s/EfzSC979qQqXxXLZsV9LpA | 1| 
+| 中国警察网 | zgjcwcpd | 公安部公布十起侵犯公民个人信息违法犯罪典型案件 | https://mp.weixin.qq.com/s/3P4zEOepOxBETOcvBYhpDA | 1| 
 | heysec | bloodzer007 | 浅谈基于IaaS公有云的中小型企业基础安全建设 | https://mp.weixin.qq.com/s/XNUrlIBTNUHuTji4c5l_bg | 18| 
 | 中睿天下 | zorelworld | 干货|一次对钓鱼邮件攻击者的溯源分析 | https://mp.weixin.qq.com/s/-v7-M05Qyob5Rpzm_9lPQQ | 1| 
 | 永安在线反欺诈 | YongAnOnline | 永安在线 | 生鲜电商拉新场景业务安全测评报告 | https://mp.weixin.qq.com/s/oiSYOA-BDn9fUnb7EhO2vA | 2| 
@@ -2025,6 +2028,7 @@
 | wilson9x1 | fenghuangscanner_v3:常见服务端口弱口令扫描器 | https://github.com/wilson9x1/fenghuangscanner_v3 | None | 看似慌的一逼，其实稳如老苟。 | None | None | 3 | 0 | 138 | 129 | 36 | Python,JavaScript | 14 | 10 | 1| 
 | DormyMo | SpiderKeeper: scrapy爬虫框架的管理界面 | https://github.com/DormyMo/SpiderKeeper | http://www.7mdm.com |  | hangzhou | None | 29 | 0 | 595 | 128 | 27 | Python,HTML | 0 | 0 | 1| 
 | Nekmo | dirhunt - 通过爬虫的方式收集 WEB 路径的工具: | https://github.com/Nekmo/dirhunt | http://nekmo.com | Creating software with love for more than 10 years | Málaga, Spain | Nekmo Com | 103 | 0 | 330 | 128 | 23 | Python,CSS | 0 | 0 | 1| 
+| gobysec | Goby新一代安全测试工具 | https://github.com/gobysec/Goby | http://gobies.org | Goby - Make Cybersecurity More Effective The new generation of network security technology | None | Goby | 7 | 0 | 1 | 128 | 0 | Python,Go | 73 | 9 | 1| 
 | kkamagui | Shadow-box - 基于虚拟化技术实现的一个轻量级的 Linux 操作系统监控框架 | https://github.com/kkamagui/shadow-box-for-x86 | http://kkamagui.github.io | Researcher. USENIX Security, HITBSecConf, Black Hat, beVX, KIMCHICON Speaker. Linux Kernel Contributor. Author of 64-bit multicore OS principles and structure. | South Korea | National Security Research Institute of South Korea | 34 | 0 | 32 | 128 | 2 | Python,C | 138 | 34 | 1| 
 | ninjaprawn | async_awake-fun - 在 Ian Beer 上周公开的 async_awake Exploit 的基础上写的一个更完善的 Exploit: | https://github.com/ninjaprawn/async_awake-fun | http://ninjaprawn.com | 18yo. - Security | Australia | None | 32 | 0 | 134 | 128 | 51 | HTML,Shell,C,JavaScript,Objective-C | 0 | 0 | 1| 
 | sashs | Exploitation on arm based systems, ARM 系统的漏洞利用开发: | https://github.com/sashs/arm_exploitation/blob/master/exploitation_on_arm_based_systems.pdf | https://scoding.de |  | None | None | 6 | 0 | 78 | 127 | 6 | Python,Ruby | 782 | 140 | 2| 
