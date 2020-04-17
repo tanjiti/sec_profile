@@ -1,5 +1,5 @@
-Python	970
-C	609
+Python	971
+C	610
 JavaScript	608
 C++	497
 HTML	437
@@ -22,7 +22,7 @@ Dockerfile	60
 Lua	55
 Makefile	53
 TeX	52
-Batchfile	48
+Batchfile	49
 Scala	41
 CMake	40
 Kotlin	34

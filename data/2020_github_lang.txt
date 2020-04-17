@@ -1,8 +1,8 @@
-Python	52
+Python	53
 JavaScript	29
 C++	27
 HTML	26
-C	25
+C	26
 Shell	22
 Java	21
 Go	19
@@ -13,8 +13,8 @@ CSS	9
 Ruby	8
 Rust	6
 Jupyter	6
+Batchfile	5
 PHP	5
-Batchfile	4
 Perl	3
 TSQL	3
 Dockerfile	3

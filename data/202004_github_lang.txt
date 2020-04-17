@@ -1,7 +1,7 @@
-Python	9
+Python	10
 JavaScript	7
+C	5
 HTML	5
-C	4
 C++	4
 Shell	2
 Java	2
@@ -12,6 +12,7 @@ WebAssembly	1
 VBScript	1
 Objective-C	1
 Smarty	1
+Batchfile	1
 Jupyter	1
 Dockerfile	1
 CSS	1
