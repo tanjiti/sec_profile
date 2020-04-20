@@ -1,4 +1,4 @@
-Python	54
+Python	55
 JavaScript	29
 C++	27
 HTML	26
@@ -9,9 +9,9 @@ Go	20
 C#	17
 PowerShell	13
 TypeScript	10
+Ruby	9
 CSS	9
-Ruby	8
-Rust	6
+Rust	7
 Jupyter	6
 Batchfile	5
 PHP	5

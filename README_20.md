@@ -21,14 +21,14 @@
 | 中国警察网 | zgjcwcpd | 公安部公布十起侵犯公民个人信息违法犯罪典型案件 | https://mp.weixin.qq.com/s/3P4zEOepOxBETOcvBYhpDA | 1| 
 | heysec | bloodzer007 | 浅谈基于IaaS公有云的中小型企业基础安全建设 | https://mp.weixin.qq.com/s/XNUrlIBTNUHuTji4c5l_bg | 18| 
 | 中睿天下 | zorelworld | 干货|一次对钓鱼邮件攻击者的溯源分析 | https://mp.weixin.qq.com/s/-v7-M05Qyob5Rpzm_9lPQQ | 1| 
-| 永安在线反欺诈 | YongAnOnline | 永安在线 | 生鲜电商拉新场景业务安全测评报告 | https://mp.weixin.qq.com/s/oiSYOA-BDn9fUnb7EhO2vA | 2| 
 | 美团安全应急响应中心 |  | 复杂风控场景下，如何打造一款高效的规则引擎 | https://mp.weixin.qq.com/s/m4jFHUP3JYF9Z8TUxi9UIg | 4| 
 | 腾讯御见威胁情报中心 |  | 微软发布字体解析远程代码执行漏洞补丁，建议用户尽快修补 | https://mp.weixin.qq.com/s/RvTZWvcXiXsI7xB6L9RWIg | 12| 
-| 信息通信技术与政策 | caict_dsc | APT供应链攻击防护应对分析及意义 | https://mp.weixin.qq.com/s/qGMRjCeIyHSHk_aXI8Fxbg | 1| 
-| 绿盟科技研究通讯 | nsfocus_research | Provenance Mining：终端溯源数据挖掘与威胁狩猎 | https://mp.weixin.qq.com/s/Te7c3HvCcxX3ci9HTn8lEQ | 27| 
-| 腾讯安全应急响应中心 | tsrc_team | 网络层绕过IDS/IPS的一些探索 | https://mp.weixin.qq.com/s/QJeW7K-KThYHggWtJ-Fh3w | 9| 
 | 404 Not F0und |  | 我对安全与NLP的实践和思考 | https://mp.weixin.qq.com/s/_q5s1fHc0DB3feSd4gQZyw | 2| 
 | 中国信息安全 | chinainfosec | 专题·原创 | 国际网络安全应急响应体系介绍 | https://mp.weixin.qq.com/s/1_cJGTpH4dU780K6qngkjQ | 28| 
+| 信息通信技术与政策 | caict_dsc | APT供应链攻击防护应对分析及意义 | https://mp.weixin.qq.com/s/qGMRjCeIyHSHk_aXI8Fxbg | 1| 
+| 永安在线反欺诈 | YongAnOnline | 永安在线 | 生鲜电商拉新场景业务安全测评报告 | https://mp.weixin.qq.com/s/oiSYOA-BDn9fUnb7EhO2vA | 2| 
+| 绿盟科技研究通讯 | nsfocus_research | Provenance Mining：终端溯源数据挖掘与威胁狩猎 | https://mp.weixin.qq.com/s/Te7c3HvCcxX3ci9HTn8lEQ | 27| 
+| 腾讯安全应急响应中心 | tsrc_team | 网络层绕过IDS/IPS的一些探索 | https://mp.weixin.qq.com/s/QJeW7K-KThYHggWtJ-Fh3w | 9| 
 | 腾讯安全智能 | TX_Security_AI | 基于SOC机器学习检测平台的行为分析建模---HTTP隐蔽通信检测 | https://mp.weixin.qq.com/s/ggFbaQvn8yUJOFi_-DPNOw | 3| 
 | ChaMd5安全团队 | chamd5sec | 领略cdn绕过的魅力 | https://mp.weixin.qq.com/s/7wpQXujqKk03GghPbmiwMw | 15| 
 | 漏洞战争 | vulwar | 关于Adobe PDF 0day的故事 | https://mp.weixin.qq.com/s/fx8MQ8ZMhZHwrruigLFbGA | 10| 
@@ -1806,6 +1806,7 @@
 | 2shou | python-libshorttext:setup script for libshorttext | https://github.com/2shou/python-libshorttext | http://guoze.me |  | Shenzhen, Guangzhou | Tencent | 10 | 0 | 99 | 193 | 17 | Python,JavaScript,Java,C++ | 625 | 198 | 1| 
 | emmericp | ixy - 在用户态实现的 Linux 数据包处理驱动: | https://github.com/emmericp/ixy | https://github.com/croit | PhD student at TUM, co-founder croit.io | Munich, Germany | @croit & Technical University of Munich | 35 | 0 | 307 | 193 | 55 | Lua,C,C++ | 0 | 0 | 1| 
 | Metnew | uxss-db - UXSS 漏洞搜集仓库: | https://github.com/Metnew/uxss-db | https://twitter.com/vladimir_metnew |  | Ukraine, Kiev | None | 34 | 0 | 296 | 192 | 11 | Go,HTML,JavaScript | 0 | 0 | 1| 
+| Wenzel | 虚拟化及虚拟化安全相关的资料整理 | https://github.com/Wenzel/awesome-virtualization | None | Security Researcher | VMI hypervisor-level debugger | Paris, France | None | 110 | 0 | 363 | 192 | 104 | Python,Ruby,Rust | 517 | 103 | 2| 
 | a0rtega | w0w, Metame, a new metamorphic engine using Keystone inside to inject code into binaries!https://github.com/a0rtega/metame | https://github.com/a0rtega/metame | http://aortega.badtrace.com/ |  | None | None | 15 | 0 | 45 | 192 | 15 | Python,C | 0 | 0 | 2| 
 | b3mb4m | Shellsploit: generate customized shellcodes, backdoors, injectors for different OS: https://github.com/b3mb4m/shellsploit-framework | https://github.com/b3mb4m/shellsploit-framework | None | Page closed for next couple years. | None | None | 2 | 0 | 0 | 192 | 0 |  | 6 | 3 | 1| 
 | nanshihui | PocCollect: a plenty of poc based on python | https://github.com/nanshihui/PocCollect | https://nanshihui.github.io |  | Shanghai,China | None | 36 | 0 | 27 | 192 | 9 | Python,C,JavaScript | 0 | 0 | 2| 
@@ -2106,7 +2107,6 @@
 | plajjan | Run virtual routers with docker | https://github.com/plajjan/vrnetlab | https://github.com/SpriteLink | Network Automation Ninja at Deutsche Telekom / TeraStream. | Stockholm, Sweden | Deutsche Telekom / Terastream, @SpriteLink | 73 | 0 | 186 | 111 | 17 | Python | 416 | 89 | 1| 
 | t3ntman | Slides from my “Advanced Social Engineering for Red Teams” talk available here: | https://github.com/t3ntman/Conference-Talks@ | None |  | None | None | 4 | 0 | 14 | 111 | 26 | C#,Python | 216 | 57 | 2| 
 | ChanChiChoi | 人脸识别相关的 Papers 收集 - Awesome Face Recognition | https://github.com/ChanChiChoi/awesome-Face_Recognition | http://www.cnblogs.com/shouhuxianjian/ |  | China | None | 21 | 0 | 184 | 110 | 51 | Python,Jupyter | 1800 | 495 | 1| 
-| Wenzel | r2vmi - 一款 Hypervisor 级的调试器 : | https://github.com/Wenzel/r2vmi | None | Security Researcher | VMI hypervisor-level debugger | Paris, France | None | 83 | 0 | 178 | 110 | 75 | Python,Ruby | 0 | 0 | 1| 
 | blankwall | Source code release for my @ shmoocon talk with @ drraid , OSX VR and Why We wrote Our own Debugger. Check it out: | https://github.com/blankwall/MacDBG | None |  | None | None | 13 | 0 | 12 | 110 | 0 | Python,C,Assembly,C++ | 308 | 34 | 4| 
 | cisp | AccessLogAnylast: 支持Nginx、Apache、Tomcat等标准WEB日志的分析 | https://github.com/cisp/AccessLogAnylast | http://www.cnblogs.com/KevinGeorge/ | Information Security Engineer in a Number Security Company！ SCU Graduates！ | 四川成都 | None | 21 | 0 | 0 | 110 | 114 | Python | 0 | 0 | 1| 
 | huku- | Intel CPU security features | https://github.com/huku-/research/wiki/Intel-CPU-security-features | https://github.com/CENSUS | Electrical Engineer and Kyokushin Karateka doing maths, RE and 0days for fun and profit. | Thessaloniki, Greece | @CENSUS | 6 | 0 | 17 | 110 | 66 | Python,C,Shell | 151 | 33 | 1| 
@@ -3555,6 +3555,7 @@
 | aWeiMiaoMiao | db_security:数据库安全审计工具 | https://github.com/aWeiMiaoMiao/db_security | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | adaptivethreat | BloodHound 1.2 is here!Changelog and download here - | https://github.com/adaptivethreat/BloodHound/releases/tag/1.2 | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 3| 
 | advanced-threat-research | Repository of YARA rules made by McAfee ATR Team | https://github.com/advanced-threat-research/Yara-Rules | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,YARA,HTML | 0 | 0 | 1| 
+| ail-project | AIL - 用于从类 Pastebin 网站中分析信息泄漏数据的框架 | https://github.com/ail-project/ail-framework | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 6 | 0 | 1| 
 | aind-containers | AinD: Android (Anbox) in Docker，在 Docker 中运行 Android apps | https://github.com/aind-containers/aind | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Dockerfile | 0 | 0 | 1| 
 | aker-gateway | Aker - A python based ssh bastion/jump host : https://github.com/aker-gateway/Aker , Demo : https://www.youtube.com/watch?v=O-boM3LbVT4 cc @ kre80r | https://github.com/aker-gateway/Aker | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Shell | 0 | 0 | 1| 
 | android-art-intel | Nice to see that Intel uses Capstone disassembler in their Android Runtime (ART) extension for #Android #Nougat | https://github.com/android-art-intel/Nougat | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Ruby,Java,C++ | 0 | 0 | 1| 
