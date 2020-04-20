@@ -14,7 +14,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 君哥的体历 | jungedetili | 钱君生：安全架构设计与评审 | https://mp.weixin.qq.com/s/PXCr_QrV7iLUz44750JXcA | 37| 
 | VMware中国研发中心 | vmwarechinard | 使用FATE进行图片识别的深度神经网络联邦学习 | https://mp.weixin.qq.com/s/wlB8Hz4nTgz9zEP3OEQDAQ | 1| 
+| vessial的安全Trash Can | vx_security | 移动基带安全研究系列文章之概念与系统篇 | https://mp.weixin.qq.com/s/YYicKHHZuI4Hgyw25AvFsQ | 1| 
 | 中国白客联盟 | China_Baiker | 渗透中的后门利用 | https://mp.weixin.qq.com/s/EfzSC979qQqXxXLZsV9LpA | 1| 
 | 中国警察网 | zgjcwcpd | 公安部公布十起侵犯公民个人信息违法犯罪典型案件 | https://mp.weixin.qq.com/s/3P4zEOepOxBETOcvBYhpDA | 1| 
 | heysec | bloodzer007 | 浅谈基于IaaS公有云的中小型企业基础安全建设 | https://mp.weixin.qq.com/s/XNUrlIBTNUHuTji4c5l_bg | 18| 
@@ -35,7 +37,6 @@
 | Ms08067安全实验室 | Ms08067_com | 六种bypass安全软件防护执行的方式 | https://mp.weixin.qq.com/s/sfxJbyJMB6FyGfa6H0G3hA | 31| 
 | 云众可信 | yunzhongkexin | 原创干货 | 对某大型企业的一次web漏洞挖掘过程 | https://mp.weixin.qq.com/s/GuJgbLfJobTcJ2FMii3IzA | 11| 
 | 关注安全技术 | heresecurity | 常见的web容器后门笔记 | https://mp.weixin.qq.com/s/-cmM1k3--H6p1ditfQHPEw | 4| 
-| 君哥的体历 | jungedetili | 秦波：大型互联网应用安全SDL体系建设实践 | https://mp.weixin.qq.com/s/STBzFf-NtfbDEA5s9RBdaw | 36| 
 | 小议安全 | xiaoyianquan | 零信任架构实战系列：干掉密码，无密码化方案落地 | https://mp.weixin.qq.com/s/xs-xybNs6Ha6_-Qr_EE-qw | 4| 
 | 网安国际 | inforsec | 【InForSec通讯】安全漏洞报告的差异性测量 | Usenix Security2019 | https://mp.weixin.qq.com/s/h6xLJyqybGASORugqsvmgg | 11| 
 | 锦行信息安全 | jeeseensec | 浅析HTTP走私攻击 | https://mp.weixin.qq.com/s/IMZrvJGQjcLBZS74kMWRnA | 1| 
@@ -3530,7 +3531,7 @@
 | PlagueScanner | PlagueScanner:Open source multiple AV scanner framework | https://github.com/PlagueScanner/PlagueScanner | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | PowerShellMafia | 提取 BitLocker 磁盘加密密钥信息的 PowerShell 脚本: | https://github.com/PowerShellMafia/CimSweep/blob/master/CimSweep/Auditing/Bitlocker.ps1 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | PowerShell | 0 | 0 | 2| 
 | PythonJS | pypubjs:Integrated development environment for PythonJS using NodeWebkit | https://github.com/PythonJS/pypubjs | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,JavaScript | 0 | 0 | 1| 
-| QAX-A-Team | PandaSniper: Linux C2 框架demo | https://github.com/QAX-A-Team/PandaSniper?from=timeline | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,C#,C++,Python,Go,PowerShell | 0 | 0 | 2| 
+| QAX-A-Team | sharpwmi: 基于RPC的横向移动工具 | https://github.com/QAX-A-Team/sharpwmi | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,C#,C++,Python,Go,PowerShell | 0 | 0 | 3| 
 | RandomStorm | Recon, Subdomain Bruting, Zone Transfers | https://github.com/RandomStorm/Bluto | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | SCUBSRGroup | SCUBSRGroup 整理的关于软件漏洞自动化利用（AEG）方向的技术资料 | https://github.com/SCUBSRGroup/Automatic-Exploit-Generation | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,HTML,C++ | 28 | 13 | 2| 
 | Seba0691 | PINdemonium - A pintool in order to unpack malware | https://github.com/Seba0691/PINdemonium | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -3732,6 +3733,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Build your first LLVM Obfuscator | http://medium.com/@polarply/build-your-first-llvm-obfuscator-80d16583392b| 
 | 写给入门者的 Web RCE 漏洞利用案例分析 | http://medium.com/bugbountywriteup/simple-remote-code-execution-vulnerability-examples-for-beginners-985867878311?source=rss----7b722bfd1b8d---4| 
 | CVE-2020-0796 Windows SMBv3 LPE漏洞 POC详细分析 | http://medium.com/@knownsec404team/cve-2020-0796-windows-smbv3-lpe-exploit-poc-analysis-c77569124c87| 
 | Remote Image Upload Leads to RCE (Inject Malicious Code to PHP-GD Image) | http://medium.com/@asdqwedev/remote-image-upload-leads-to-rce-inject-malicious-code-to-php-gd-image-90e1e8b2aada| 
