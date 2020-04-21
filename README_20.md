@@ -2512,6 +2512,7 @@
 | Geluchat | 研究员Geluchat公开了若干针对Chrome V8引擎的1day漏洞和比赛题目的exploit。 | https://github.com/Geluchat/chrome_v8_exploit | https://www.dailysecurity.fr |  | France | None | 7 | 0 | 49 | 59 | 11 | Python,C,JavaScript,PHP | 31 | 5 | 1| 
 | Rizer0 | Blind-Bash - bash 脚本混淆项目: | https://github.com/Rizer0/Blind-Bash | https://killshot-sec.com | Security Researcher / Developer From | Syria,Homs | System Crashers | 4 | 0 | 14 | 59 | 1 | PHP | 0 | 0 | 2| 
 | b1ack0wl | Linux Mint 18.3-19.1 yelp 命令注入 Bug PoC | https://github.com/b1ack0wl/linux_mint_poc | None |  | None | None | 11 | 0 | 12 | 59 | 0 | Python,Shell,HTML,Ruby,Propeller | 20 | 3 | 1| 
+| bohops | GhostBuild - MSBuild launchers for various GhostPack/.NET ... | https://github.com/bohops/GhostBuild | http://bohops.com |  | None | None | 9 | 0 | 31 | 59 | 2 | Python,PowerShell | 105 | 17 | 1| 
 | diogo-fernan | malsub - 用于在线恶意软件分析和威胁情报服务的 Python RESTful API 框架: | https://github.com/diogo-fernan/malsub?utm_content=buffer51301&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer | https://twitter.com/dfernan__ |  | Somewhere in Portugal | None | 17 | 0 | 448 | 59 | 21 | Python,TeX,C,Batchfile,PowerShell | 0 | 0 | 1| 
 | gyoisamurai | GyoiThon - 基于机器学习的渗透测试工具: | https://github.com/gyoisamurai/GyoiThon | None | Were Black Hat Arsenal presenter. | None | None | 2 | 0 | 4 | 59 | 0 | Python | 449 | 176 | 1| 
 | h4ck0ne | 安全技能树小密圈2017精选 | https://github.com/h4ck0ne/security_circle_2017/blob/master/SUMMARY.md | http://hackone.cc | http://hackone.cc | None | None | 247 | 0 | 2 | 59 | 20 | C,Java,Python,JavaScript,HTML,PowerShell | 74 | 79 | 1| 
@@ -2803,6 +2804,7 @@
 | BusesCanFly | Automate discovering and dropping payloads on LAN Raspberry Pis via ssh | https://github.com/BusesCanFly/rpi-hunter | None | I make things, I break things. ¯\_(ツ)_/¯ ‮‮‮ | Somewhere in a linux server | None | 4 | 0 | 437 | 35 | 66 | Python | 0 | 0 | 1| 
 | Den1al | JSShell - An interactive multi-user web JS shell written in #Python | https://github.com/Den1al/JSShell/ | http://blog.den1al.com |  | None | None | 9 | 0 | 7 | 35 | 4 | Python | 212 | 54 | 1| 
 | abdsec | POC for remote Linux / Android kernel stack buffer overflow via WiFi | https://github.com/abdsec/CVE-2016-0801/blob/master/PoC.c | http://www.abdsec.com |  | Turkey | None | 1 | 0 | 0 | 35 | 0 | C | 81 | 37 | 1| 
+| assafmo | xioc: Extract IOCs from text, including escaped ones. | https://github.com/assafmo/xioc | https://github.com/enigmampc |  | Israel | @enigmampc | 25 | 0 | 270 | 35 | 18 | Go,JavaScript | 140 | 12 | 2| 
 | beahunt3r | Windows-Hunting - Windows 威胁狩猎中常用的检查点分析: | https://github.com/beahunt3r/Windows-Hunting | None | DFIR | Malware | OFFSEC | CSOC | SIEM | None | None | 3 | 0 | 0 | 35 | 1 | Python | 245 | 64 | 1| 
 | c0d3z3r0 | 有研究者公开了一个前两周的 Linux Sudo get_process_ttyname()(CVE-2017-1000367) 漏洞的 Exploit: http://seclists.org/oss-sec/2017/q2/470 | https://github.com/c0d3z3r0/sudo-CVE-2017-1000367 | None |  | 3072R/22274CD17216A9FC | None | 63 | 0 | 19 | 35 | 5 | Python,C,Shell | 114 | 38 | 1| 
 | fengyouchao | webzmap: Web方式管理运行Zmap扫描任务 | https://github.com/fengyouchao/webzmap | http://fengyouchao.github.io |  | None | None | 65 | 0 | 263 | 35 | 3 | Python,HTML,Java,JavaScript | 146 | 62 | 1| 
@@ -3379,6 +3381,7 @@
 | 0x3d5157636b525761 | nice command injection on a Netgear router | https://github.com/0x3d5157636b525761/bezeq_netgear_exploit_poc_2016/blob/master/bezeq_poc.html | http://securitygodmode.blogspot.com |  | None | None | 5 | 0 | 0 | 5 | 0 | Python,C,HTML | 4 | 2 | 1| 
 | Frint0 | email-enum - 通过搜索主流社交网站判断邮箱是否注册的工具 | https://github.com/Frint0/email-enum | https://pwnable.club | Pro Expert Elite Master Hacker | Los Angeles | None | 3 | 0 | 1 | 5 | 1 | Python,CSS | 167 | 27 | 1| 
 | Kutim | docker-security: docker 安全基线规范 | https://github.com/Kutim/docker-security | None |  | None | None | 282 | 0 | 5 | 5 | 4 | Python,Jupyter,C++ | 58 | 17 | 1| 
+| Martyx00 | Assistant plugin for vulnerability research | https://github.com/Martyx00/VulnFanatic | None |  | None | None | 4 | 0 | 2 | 5 | 0 | Python,Objective-C,Shell | 26 | 4 | 1| 
 | ProjectRetroScope | RetroScope - Public release of the RetroScope Android memory forensics framework | https://github.com/ProjectRetroScope/RetroScope | None |  | None | None | 1 | 0 | 0 | 5 | 0 |  | 105 | 37 | 1| 
 | Truneski | 使用 Dropbox 作为 Cobaltstrike 的 C2 传输通道: https://truneski.github.io/blog/2018/11/05/cobaltstrike-over-external-c2-via-dropbox/ GitHub: | https://github.com/Truneski/external_c2_framework | https://truneski.github.io/ |  | Nairobi, Kenya. | None | 10 | 0 | 25 | 5 | 0 | Python,PowerShell,CSS | 46 | 12 | 1| 
 | c0demap | Codemap is a binary analysis tool for run-trace visualization provided as IDA plugin. | https://github.com/c0demap/codemap | None |  | None | None | 2 | 0 | 0 | 5 | 0 | Python | 101 | 18 | 1| 
@@ -3564,7 +3567,7 @@
 | apachecn | 面向机器学习的特征工程 | https://github.com/apachecn/fe4ml-zh | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Jupyter,Scala,Python,JavaScript,HTML,PHP,CSS | 22200 | 7800 | 1| 
 | apg-intel | Hack all the IPV6 things... (H/T @ DaveMarcus) | https://github.com/apg-intel/ipv6tools | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | aplura | Tango:Honeypot Intelligence with Splunk | https://github.com/aplura/Tango | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,PowerShell | 0 | 0 | 1| 
-| appsecco | DVNA – Damn Vulnerable NodeJS Application | https://github.com/appsecco/dvna | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Java,Python,JavaScript,C#,Visual,HTML,ActionScript,PHP,CSS | 439 | 129 | 1| 
+| appsecco | Attacking and Auditing Docker Containers and Kubernetes Cl... | https://github.com/appsecco/attacking-and-auditing-docker-containers-and-kubernetes-clusters | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Java,Python,JavaScript,C#,Visual,HTML,ActionScript,PHP,CSS | 540 | 150 | 2| 
 | arbor-jjones | Loading Cuckoo Sandbox results in IDA Pro | https://github.com/arbor-jjones/idataco | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | baidu-security | openrasp-iast: IAST 灰盒扫描工具 | https://github.com/baidu-security/openrasp-iast | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java,Python,JavaScript,C++,HTML,Go,TSQL | 0 | 0 | 1| 
 | bitblaze-fuzzball | fuzzball: FuzzBALL: Vine-based Binary Symbolic Execution | https://github.com/bitblaze-fuzzball/fuzzball | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,OCaml,C++ | 0 | 0 | 1| 
@@ -3850,6 +3853,8 @@
 # medium_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| Lateral Movement: PowerShell Remoting | https://medium.com/@subhammisra45/lateral-movement-powershell-remoting-89da402a9885| 
+| Everything You Need to Know About IDOR | https://medium.com/@aysebilgegunduz/everything-you-need-to-know-about-idor-insecure-direct-object-references-375f83e03a87| 
 | CATBERT — Detecting malicious emails with a bleeding-edge... | https://medium.com/@sophos.ai/detecting-malicious-emails-with-a-bleeding-edge-neural-language-model-355b366d8940| 
 | ATT&CK for ICS | https://medium.com/mitre-attack/launching-attack-for-ics-2be4d2fb9b8| 
 | Blind SQL Injection without an “in” | https://medium.com/@terjanq/blind-sql-injection-without-an-in-1e14ba1d4952| 
