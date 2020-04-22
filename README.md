@@ -14,12 +14,15 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| heysec | bloodzer007 | 一次有趣的钓鱼测试 | https://mp.weixin.qq.com/s/JZs26mle8diovfPpAggP7A | 6| 
+| 白帽汇 | baimaohui888 | 打“怪”升级的靶场——Vulfocus | https://mp.weixin.qq.com/s/ArDDWYuc1A64qUzeyPRzZA | 1| 
+| 雷神众测 | thorsrc | 近源渗透测试之USBninja实战 | https://mp.weixin.qq.com/s/qCA-6zXbwpj8nyn5791zfg | 1| 
+| 黑金笔谈 | heijinbitan | Windows域环境及域渗透知识分享 | https://mp.weixin.qq.com/s/gvDzKFIsdhtkOKRANscEJA | 1| 
 | 君哥的体历 | jungedetili | 钱君生：安全架构设计与评审 | https://mp.weixin.qq.com/s/PXCr_QrV7iLUz44750JXcA | 2| 
 | VMware中国研发中心 | vmwarechinard | 使用FATE进行图片识别的深度神经网络联邦学习 | https://mp.weixin.qq.com/s/wlB8Hz4nTgz9zEP3OEQDAQ | 1| 
 | vessial的安全Trash Can | vx_security | 移动基带安全研究系列文章之概念与系统篇 | https://mp.weixin.qq.com/s/YYicKHHZuI4Hgyw25AvFsQ | 1| 
 | 中国白客联盟 | China_Baiker | 渗透中的后门利用 | https://mp.weixin.qq.com/s/EfzSC979qQqXxXLZsV9LpA | 1| 
 | 中国警察网 | zgjcwcpd | 公安部公布十起侵犯公民个人信息违法犯罪典型案件 | https://mp.weixin.qq.com/s/3P4zEOepOxBETOcvBYhpDA | 1| 
-| heysec | bloodzer007 | 浅谈基于IaaS公有云的中小型企业基础安全建设 | https://mp.weixin.qq.com/s/XNUrlIBTNUHuTji4c5l_bg | 5| 
 | 中睿天下 | zorelworld | 干货|一次对钓鱼邮件攻击者的溯源分析 | https://mp.weixin.qq.com/s/-v7-M05Qyob5Rpzm_9lPQQ | 1| 
 | 美团安全应急响应中心 |  | 复杂风控场景下，如何打造一款高效的规则引擎 | https://mp.weixin.qq.com/s/m4jFHUP3JYF9Z8TUxi9UIg | 1| 
 | 腾讯御见威胁情报中心 |  | 微软发布字体解析远程代码执行漏洞补丁，建议用户尽快修补 | https://mp.weixin.qq.com/s/RvTZWvcXiXsI7xB6L9RWIg | 2| 
@@ -55,6 +58,7 @@
 | tandasat | 在 Hyper-V 环境中测试 UEFI | https://github.com/tandasat/MiniVisorPkg/blob/master/Docs/Testing_UEFI_on_Hyper-V.md | http://standa-note.blogspot.ca/ | Engineer @standa_t | Vancouver, Canada | None | 58 | 0 | 19 | 668 | 3 | C,C++ | 777 | 245 | 1| 
 | qazbnm456 | awesome-web-security: List of Web Security materials and resources | https://github.com/qazbnm456/awesome-web-security | https://www.patreon.com/boik | https://www.boik.com.tw/ | Taiwan | None | 109 | 0 | 1100 | 550 | 20 | Python,JavaScript | 4700 | 907 | 1| 
 | djhohnstein | SharpChromium - 用于从 Chromium 系列浏览器中获取 Cookie、访问历史、网站登录凭据等敏感信息的工具 | https://github.com/djhohnstein/SharpChromium | https://github.com/specterops | Operator at SpecterOps. Kali Contributor. | Seattle, WA | @specterops | 123 | 0 | 10 | 288 | 6 | C#,VBScript,C++ | 104 | 23 | 1| 
+| haidragon | haidragon/KiwiVM-1: virtualization encryption software for... | https://github.com/haidragon/KiwiVM-1 | http://weibo.com/haidragon | QQ交流群 : 826038086 | 中国 北京 | None | 1200 | 0 | 57 | 227 | 532 | C,JavaScript,C++ | 87 | 31 | 1| 
 | Wenzel | 虚拟化及虚拟化安全相关的资料整理 | https://github.com/Wenzel/awesome-virtualization | None | Security Researcher | VMI hypervisor-level debugger | Paris, France | None | 110 | 0 | 363 | 192 | 104 | Python,Ruby,Rust | 517 | 103 | 1| 
 | citronneur | rdp-rs: Remote Desktop Protocol in RUST | https://github.com/citronneur/rdp-rs | https://github.com/airbus-cert |  | Toulouse, France | @airbus-cert | 24 | 0 | 284 | 159 | 102 | Python,C#,JavaScript,Rust | 1200 | 305 | 1| 
 | wcventure | MemLock: Memory Usage Guided Fuzzing | https://github.com/wcventure/MemLock-Fuzz | https://wcventure.github.io/ | Computer Software and Theory, Software Engineering, Machine Learning, Formal Method, Program Analysis, Software Verification, Cyber Security. | Shenzhen, Guangdong Province, China, 518060 | Shenzhen University | 15 | 0 | 98 | 138 | 14 | Python,C,Batchfile | 244 | 36 | 1| 
@@ -64,7 +68,7 @@
 | pventuzelo | WARF - WebAssembly Runtimes Fuzzing project | https://github.com/pventuzelo/wasm_runtimes_fuzzing | https://webassembly-security.com/ | Independent Security Researcher, Trainer of WebAssembly & Rust Security, mainly focused on Fuzzing, Vulnerability Research, Reversing & Binary analysis | Paris, France | Independent Security Researcher | 40 | 0 | 254 | 53 | 55 | Python,WebAssembly,JavaScript,HTML,Rust | 230 | 38 | 1| 
 | nafod | nafod 公开了自己 VMware UHCI ZDI-19-421 漏洞的 Exploit | https://github.com/nafod/advent-vmpwn// | None |  | None | None | 15 | 0 | 117 | 44 | 24 | C,JavaScript | 5 | 1 | 1| 
 | ph4ntonn | Stowaway -- Multi-hop Proxy Tool for pentesters | https://github.com/ph4ntonn/Stowaway | None | The wheel turns,nothing is ever new | 0x7F000001 | Unknown | 32 | 0 | 36 | 39 | 17 | Go,Python,C,JavaScript | 157 | 26 | 1| 
-| assafmo | xioc: Extract IOCs from text, including escaped ones. | https://github.com/assafmo/xioc | https://github.com/enigmampc |  | Israel | @enigmampc | 25 | 0 | 270 | 35 | 18 | Go,JavaScript | 140 | 12 | 2| 
+| assafmo | joincap: Merge multiple pcap files together, gracefully. | https://github.com/assafmo/joincap | https://github.com/enigmampc |  | Israel | @enigmampc | 25 | 0 | 270 | 35 | 18 | Go,JavaScript | 140 | 12 | 2| 
 | S1lkys | XAMPP 本地提权漏洞分析（CVE-2020-11107） | https://github.com/S1lkys/CVE-2020-11107/ | None |  | None | None | 27 | 0 | 1 | 23 | 0 | Python,Shell | 12 | 3 | 1| 
 | yardenshafir | KernelDataStructureFinder - 在内核 lookaside 链表中搜索数据结构的工具 | https://github.com/yardenshafir/KernelDataStructureFinder | None |  | None | None | 5 | 0 | 2 | 22 | 0 | C,C++ | 40 | 20 | 1| 
 | mrlnc | 禁用LTE网络安全性-商业网络中的配置错误安全研究分享。 | https://github.com/mrlnc/LTE-ciphercheck | None | Research Assistant & PhD student. Mobile Network Security at Ruhr-Universität Bochum. | Bochum, Germany | Ruhr-Universität Bochum | 15 | 0 | 26 | 18 | 30 | C++ | 36 | 13 | 1| 

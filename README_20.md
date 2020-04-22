@@ -14,12 +14,15 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| heysec | bloodzer007 | 一次有趣的钓鱼测试 | https://mp.weixin.qq.com/s/JZs26mle8diovfPpAggP7A | 19| 
+| 白帽汇 | baimaohui888 | 打“怪”升级的靶场——Vulfocus | https://mp.weixin.qq.com/s/ArDDWYuc1A64qUzeyPRzZA | 4| 
+| 雷神众测 | thorsrc | 近源渗透测试之USBninja实战 | https://mp.weixin.qq.com/s/qCA-6zXbwpj8nyn5791zfg | 3| 
+| 黑金笔谈 | heijinbitan | Windows域环境及域渗透知识分享 | https://mp.weixin.qq.com/s/gvDzKFIsdhtkOKRANscEJA | 2| 
 | 君哥的体历 | jungedetili | 钱君生：安全架构设计与评审 | https://mp.weixin.qq.com/s/PXCr_QrV7iLUz44750JXcA | 37| 
 | VMware中国研发中心 | vmwarechinard | 使用FATE进行图片识别的深度神经网络联邦学习 | https://mp.weixin.qq.com/s/wlB8Hz4nTgz9zEP3OEQDAQ | 1| 
 | vessial的安全Trash Can | vx_security | 移动基带安全研究系列文章之概念与系统篇 | https://mp.weixin.qq.com/s/YYicKHHZuI4Hgyw25AvFsQ | 1| 
 | 中国白客联盟 | China_Baiker | 渗透中的后门利用 | https://mp.weixin.qq.com/s/EfzSC979qQqXxXLZsV9LpA | 1| 
 | 中国警察网 | zgjcwcpd | 公安部公布十起侵犯公民个人信息违法犯罪典型案件 | https://mp.weixin.qq.com/s/3P4zEOepOxBETOcvBYhpDA | 1| 
-| heysec | bloodzer007 | 浅谈基于IaaS公有云的中小型企业基础安全建设 | https://mp.weixin.qq.com/s/XNUrlIBTNUHuTji4c5l_bg | 18| 
 | 中睿天下 | zorelworld | 干货|一次对钓鱼邮件攻击者的溯源分析 | https://mp.weixin.qq.com/s/-v7-M05Qyob5Rpzm_9lPQQ | 1| 
 | 美团安全应急响应中心 |  | 复杂风控场景下，如何打造一款高效的规则引擎 | https://mp.weixin.qq.com/s/m4jFHUP3JYF9Z8TUxi9UIg | 4| 
 | 腾讯御见威胁情报中心 |  | 微软发布字体解析远程代码执行漏洞补丁，建议用户尽快修补 | https://mp.weixin.qq.com/s/RvTZWvcXiXsI7xB6L9RWIg | 12| 
@@ -58,7 +61,6 @@
 | 白帽子的成长之路 | whitehat_day | 2020年开源情报（OSINT）TOP20 工具 | https://mp.weixin.qq.com/s?__biz=MzI2NDY1NDg0OA==&mid=2247484049&idx=1&sn=e6e716cfcfef01956c1acc7d684d44d1 | 4| 
 | 盘古实验室 | PanguLab | 微信远程攻击面简单的研究与分析 | https://mp.weixin.qq.com/s/yMQN3MciI-0f3mzz_saiwQ | 2| 
 | 落水轩 |  | 基于开源情报解密美国雷神山火神山 | https://mp.weixin.qq.com/s/OCAK5byqIvXttqxxSQmDkQ | 1| 
-| 黑金笔谈 | heijinbitan | 网络威胁检测技术NTA | https://mp.weixin.qq.com/s/DYqFKBIj1BKwDzTpnO_tHg | 1| 
 | PolarisLab | PolarisLab | 追踪与新冠状病毒相关的安卓恶意软件 | https://mp.weixin.qq.com/s/fLDNLJIWwvrUUwt6Pi6T4A | 9| 
 | 山丘安全攻防实验室 | hillsec | 一篇文章带你从XSS入门到进阶(附Fuzzing+BypassWAF+Payloads) | https://mp.weixin.qq.com/s/EOPCstDYmFVtaLYNcUQLzA | 2| 
 | 零队 |  | 加载远程XSL文件的宏免杀方法 | https://mp.weixin.qq.com/s?__biz=MzU2NTc2MjAyNg==&mid=2247483758&idx=1&sn=1bd0006d16747389046058ea34c3b7b7&chksm=fcb783ebcbc00afd694b7a2ee10ad32aff0a534963878541ee17974ffee29c63342f4e617661&token=1823181969&lang=zh_CN#rd | 1| 
@@ -128,7 +130,6 @@
 | 继之宫 |  | 关于安全运营中心的几个问题 | https://mp.weixin.qq.com/s/w_kfBpkXU7WdfkwSl-KSnA | 2| 
 | 轩辕实验室 |  | 基于卷积神经网络的入侵检测进行检测Dos攻击 | https://mp.weixin.qq.com/s/yRQwHVPuYHM67yAo15hPOw | 1| 
 | 阿里安全响应中心 | alisrc | 【走心分享】白帽成长建议 | https://mp.weixin.qq.com/s/ZXRI6KUtu6IwCYrjuy_3Tg | 5| 
-| 雷神众测 | thorsrc | 论⾼级攻防团队建设⽅法论之思想的重要性（上） | https://mp.weixin.qq.com/s/nFvGQqeFvSYaEFksbi8FLw | 2| 
 | Hacking就是好玩 |  | 对乌云漏洞库payload的整理以及Burp辅助插件 | https://mp.weixin.qq.com/s/9RHVsw-HtAfo1UuPAqXZEw | 1| 
 | TideSec安全团队 | TideSec | 远控免杀专题文章(2)-msfvenom隐藏的参数 | https://mp.weixin.qq.com/s/1r0iakLpnLrjCrOp2gT10w | 55| 
 | qz安全情报分析 | lookvul | 浅谈无文件攻击 | https://mp.weixin.qq.com/s/9mWqwPF6KAwbMlZSE4rRBw | 2| 
@@ -567,7 +568,6 @@
 | 筹码 | Chouma2016 |  | http://mp.weixin.qq.com/s?__biz=MzI0NDE0MTE3MQ==&mid=2653514860&idx=1&sn=22c2811253158c9caa9a809218dfe0ad&chksm=f2bf9170c5c81866b538c060d5e637c85c31e6f353b94875aa9a1adcc9c1db6f18d8593cd22f&mpshare=1&scene=2&srcid=11197z96K0odPQpzjmI304jK&from=timeline#rd | 1| 
 | 运维帮 | yunweibang |  | http://mp.weixin.qq.com/s?__biz=MzA3MzYwNjQ3NA==&mid=2651297317&idx=1&sn=ffc57671c8c55d257f8a6d0ad3b502b6&chksm=84ff4200b388cb1668925a6293736729d45d39339292a6536da8f59392a221cb219be5cd64fd&mpshare=1&scene=2&srcid=1115tAgLbSASsLPau5QnIxFW&from=timeline#rd | 2| 
 | 中国软件网 | Hapiweb-soft6 |  | http://mp.weixin.qq.com/s?__biz=MjM5ODcxNTEzMw==&mid=2656244294&idx=1&sn=da3eb1da069d78930aec6ebc6ab04420&chksm=bd6139d48a16b0c286c4dc9586e880040a7b4d5add87b1643d2d829043628d594c0cf80b951a&mpshare=1&scene=2&srcid=1101wYb218aF9frLgmFKo9k9&from=timeline#rd | 1| 
-| 白帽汇 | baimaohui888 |  | http://mp.weixin.qq.com/s?__biz=MzIwMDk0MjcwNA==&mid=2247483896&idx=2&sn=42a7c8f7dead9183fc563c22f7c641e2&chksm=96f434e7a183bdf1a97cff32b0d5a85c1c65e8184edff47142592348b07e564841aba062319c&mpshare=1&scene=2&srcid=1101ODprJSYgwaiVXuFaH0RX&from=timeline#rd | 3| 
 | 网络舆情分析技术邀请赛 |  |  | http://mp.weixin.qq.com/s?__biz=MzI2MjQ3MzgxMQ==&mid=2247483733&idx=1&sn=9ae4564d027aa3c24d76480cf3ac2849&chksm=ea4bd069dd3c597fd4826f790df993e68b35f041d510eb4055c0226162a2775d5c44adb3b3c1&scene=0#rd | 1| 
 | 金三板 | woshijinsanban |  | http://mp.weixin.qq.com/s?__biz=MjM5MDk0NTA0OA==&mid=2650048551&idx=1&sn=5a33b4bb9874d74a77e069f4d4d3567d&chksm=bebd325089cabb46a2bae7eed126ae49c1981863bbe0cc82bd0bfe600883475fecb25f22243e&mpshare=1&scene=1&srcid=1104WSfNzjCqecfzeOu3DZ1z#rd | 1| 
 | RoarTalk | roartalk |  | http://mp.weixin.qq.com/s?__biz=MzAxNTk5ODcxOQ==&mid=2247485063&idx=1&sn=2362b765028f222f68f429835aff774d&chksm=9bfacd17ac8d44017b228f5be4e6196877f049b6b3fa13efaa2698ff8c7a85a3954b0d5cdb8d&mpshare=1&scene=2&srcid=1026FSXsVoGuOdoEMOca0y1r&from=timeline&isappinstalled=0#rd | 3| 
@@ -1703,6 +1703,7 @@
 | Viralmaniar | PeekABoo - 渗透测试中，利用 PowerShell remoting 开启目标主机远程桌面的工具 | https://github.com/Viralmaniar/PeekABoo | https://twitter.com/maniarviral |  | Melbourne, Victoria, Australia | None | 37 | 0 | 223 | 228 | 93 | Python,Shell,JavaScript | 737 | 112 | 5| 
 | commonexploits | Link to my @ 44con slides on VLAN Hopping http://info-assure.co.uk/public_downloads/not-only-frogs-can-hop.pdf and the Frogger2 tool | https://github.com/commonexploits/vlan-hopping | http://www.commonexploits.com |  | UK | None | 12 | 0 | 6 | 228 | 5 | C,Shell | 128 | 55 | 2| 
 | frizb | Bypassing-Web-Application-Firewalls: A series of python scripts | https://github.com/frizb/Bypassing-Web-Application-Firewalls | None |  | None | None | 32 | 0 | 261 | 228 | 10 | Python,Batchfile,HTML | 355 | 96 | 1| 
+| haidragon | haidragon/KiwiVM-1: virtualization encryption software for... | https://github.com/haidragon/KiwiVM-1 | http://weibo.com/haidragon | QQ交流群 : 826038086 | 中国 北京 | None | 1200 | 0 | 57 | 227 | 532 | C,JavaScript,C++ | 87 | 31 | 1| 
 | superkojiman | pwnbox : Docker container with tools for binary reverse engineering and exploitation : | https://github.com/superkojiman/pwnbox | https://www.techorganic.com | Stand back! Im going to try hacking! 👨‍💻 | None | None | 33 | 0 | 11 | 227 | 7 | Python,Go,Shell | 430 | 101 | 1| 
 | grissomsh | 麻袋理财之反爬虫实践 | https://github.com/grissomsh/antiwebcrawler/blob/master/antwebcrawler.md | https://github.com/DaoCloud | Chief Architect @DaoCloud | Shanghai | DaoCloud | 32 | 0 | 541 | 226 | 105 | Batchfile,HTML,Java,JavaScript | 7 | 7 | 1| 
 | m4n3dw0lf | PytheM : Python penetration testing framework : | https://github.com/m4n3dw0lf/PytheM | None | Cyber Security Researcher, Software and DevSecOps Engineer. | Brazil | None | 35 | 0 | 161 | 226 | 34 | Python,Shell,JavaScript,Assembly | 0 | 0 | 1| 
@@ -2805,7 +2806,7 @@
 | BusesCanFly | Automate discovering and dropping payloads on LAN Raspberry Pis via ssh | https://github.com/BusesCanFly/rpi-hunter | None | I make things, I break things. ¯\_(ツ)_/¯ ‮‮‮ | Somewhere in a linux server | None | 4 | 0 | 437 | 35 | 66 | Python | 0 | 0 | 1| 
 | Den1al | JSShell - An interactive multi-user web JS shell written in #Python | https://github.com/Den1al/JSShell/ | http://blog.den1al.com |  | None | None | 9 | 0 | 7 | 35 | 4 | Python | 212 | 54 | 1| 
 | abdsec | POC for remote Linux / Android kernel stack buffer overflow via WiFi | https://github.com/abdsec/CVE-2016-0801/blob/master/PoC.c | http://www.abdsec.com |  | Turkey | None | 1 | 0 | 0 | 35 | 0 | C | 81 | 37 | 1| 
-| assafmo | xioc: Extract IOCs from text, including escaped ones. | https://github.com/assafmo/xioc | https://github.com/enigmampc |  | Israel | @enigmampc | 25 | 0 | 270 | 35 | 18 | Go,JavaScript | 140 | 12 | 2| 
+| assafmo | joincap: Merge multiple pcap files together, gracefully. | https://github.com/assafmo/joincap | https://github.com/enigmampc |  | Israel | @enigmampc | 25 | 0 | 270 | 35 | 18 | Go,JavaScript | 140 | 12 | 2| 
 | beahunt3r | Windows-Hunting - Windows 威胁狩猎中常用的检查点分析: | https://github.com/beahunt3r/Windows-Hunting | None | DFIR | Malware | OFFSEC | CSOC | SIEM | None | None | 3 | 0 | 0 | 35 | 1 | Python | 245 | 64 | 1| 
 | c0d3z3r0 | 有研究者公开了一个前两周的 Linux Sudo get_process_ttyname()(CVE-2017-1000367) 漏洞的 Exploit: http://seclists.org/oss-sec/2017/q2/470 | https://github.com/c0d3z3r0/sudo-CVE-2017-1000367 | None |  | 3072R/22274CD17216A9FC | None | 63 | 0 | 19 | 35 | 5 | Python,C,Shell | 114 | 38 | 1| 
 | fengyouchao | webzmap: Web方式管理运行Zmap扫描任务 | https://github.com/fengyouchao/webzmap | http://fengyouchao.github.io |  | None | None | 65 | 0 | 263 | 35 | 3 | Python,HTML,Java,JavaScript | 146 | 62 | 1| 

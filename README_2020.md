@@ -14,12 +14,15 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| heysec | bloodzer007 | 一次有趣的钓鱼测试 | https://mp.weixin.qq.com/s/JZs26mle8diovfPpAggP7A | 12| 
+| 白帽汇 | baimaohui888 | 打“怪”升级的靶场——Vulfocus | https://mp.weixin.qq.com/s/ArDDWYuc1A64qUzeyPRzZA | 1| 
+| 雷神众测 | thorsrc | 近源渗透测试之USBninja实战 | https://mp.weixin.qq.com/s/qCA-6zXbwpj8nyn5791zfg | 1| 
+| 黑金笔谈 | heijinbitan | Windows域环境及域渗透知识分享 | https://mp.weixin.qq.com/s/gvDzKFIsdhtkOKRANscEJA | 2| 
 | 君哥的体历 | jungedetili | 钱君生：安全架构设计与评审 | https://mp.weixin.qq.com/s/PXCr_QrV7iLUz44750JXcA | 4| 
 | VMware中国研发中心 | vmwarechinard | 使用FATE进行图片识别的深度神经网络联邦学习 | https://mp.weixin.qq.com/s/wlB8Hz4nTgz9zEP3OEQDAQ | 1| 
 | vessial的安全Trash Can | vx_security | 移动基带安全研究系列文章之概念与系统篇 | https://mp.weixin.qq.com/s/YYicKHHZuI4Hgyw25AvFsQ | 1| 
 | 中国白客联盟 | China_Baiker | 渗透中的后门利用 | https://mp.weixin.qq.com/s/EfzSC979qQqXxXLZsV9LpA | 1| 
 | 中国警察网 | zgjcwcpd | 公安部公布十起侵犯公民个人信息违法犯罪典型案件 | https://mp.weixin.qq.com/s/3P4zEOepOxBETOcvBYhpDA | 1| 
-| heysec | bloodzer007 | 浅谈基于IaaS公有云的中小型企业基础安全建设 | https://mp.weixin.qq.com/s/XNUrlIBTNUHuTji4c5l_bg | 11| 
 | 中睿天下 | zorelworld | 干货|一次对钓鱼邮件攻击者的溯源分析 | https://mp.weixin.qq.com/s/-v7-M05Qyob5Rpzm_9lPQQ | 1| 
 | 美团安全应急响应中心 |  | 复杂风控场景下，如何打造一款高效的规则引擎 | https://mp.weixin.qq.com/s/m4jFHUP3JYF9Z8TUxi9UIg | 1| 
 | 腾讯御见威胁情报中心 |  | 微软发布字体解析远程代码执行漏洞补丁，建议用户尽快修补 | https://mp.weixin.qq.com/s/RvTZWvcXiXsI7xB6L9RWIg | 4| 
@@ -58,7 +61,6 @@
 | 白帽子的成长之路 | whitehat_day | 2020年开源情报（OSINT）TOP20 工具 | https://mp.weixin.qq.com/s?__biz=MzI2NDY1NDg0OA==&mid=2247484049&idx=1&sn=e6e716cfcfef01956c1acc7d684d44d1 | 3| 
 | 盘古实验室 | PanguLab | 微信远程攻击面简单的研究与分析 | https://mp.weixin.qq.com/s/yMQN3MciI-0f3mzz_saiwQ | 1| 
 | 落水轩 |  | 基于开源情报解密美国雷神山火神山 | https://mp.weixin.qq.com/s/OCAK5byqIvXttqxxSQmDkQ | 1| 
-| 黑金笔谈 | heijinbitan | 网络威胁检测技术NTA | https://mp.weixin.qq.com/s/DYqFKBIj1BKwDzTpnO_tHg | 1| 
 | PolarisLab | PolarisLab | 追踪与新冠状病毒相关的安卓恶意软件 | https://mp.weixin.qq.com/s/fLDNLJIWwvrUUwt6Pi6T4A | 2| 
 | 山丘安全攻防实验室 | hillsec | 一篇文章带你从XSS入门到进阶(附Fuzzing+BypassWAF+Payloads) | https://mp.weixin.qq.com/s/EOPCstDYmFVtaLYNcUQLzA | 2| 
 | 零队 |  | 加载远程XSL文件的宏免杀方法 | https://mp.weixin.qq.com/s?__biz=MzU2NTc2MjAyNg==&mid=2247483758&idx=1&sn=1bd0006d16747389046058ea34c3b7b7&chksm=fcb783ebcbc00afd694b7a2ee10ad32aff0a534963878541ee17974ffee29c63342f4e617661&token=1823181969&lang=zh_CN#rd | 1| 
@@ -151,6 +153,7 @@
 | woj-ciech | LeakLooker X - 数据库/源码泄漏监控工具 | https://github.com/woj-ciech/LeakLooker-X | None |  | None | None | 15 | 0 | 0 | 306 | 0 | Python,Go,JavaScript,CSS | 1100 | 227 | 1| 
 | djhohnstein | SharpChromium - 用于从 Chromium 系列浏览器中获取 Cookie、访问历史、网站登录凭据等敏感信息的工具 | https://github.com/djhohnstein/SharpChromium | https://github.com/specterops | Operator at SpecterOps. Kali Contributor. | Seattle, WA | @specterops | 123 | 0 | 10 | 288 | 6 | C#,VBScript,C++ | 104 | 23 | 1| 
 | HyperSine | QQ安全中心 - 动态口令的生成算法 | https://github.com/HyperSine/forensic-qqtoken | None |  | None | None | 19 | 0 | 1 | 228 | 0 | Python,C,C++ | 251 | 97 | 1| 
+| haidragon | haidragon/KiwiVM-1: virtualization encryption software for... | https://github.com/haidragon/KiwiVM-1 | http://weibo.com/haidragon | QQ交流群 : 826038086 | 中国 北京 | None | 1200 | 0 | 57 | 227 | 532 | C,JavaScript,C++ | 87 | 31 | 1| 
 | hahwul | Powerfull XSS Scanning and Parameter analysis tool | https://github.com/hahwul/XSpear | https://www.hahwul.com | Security engineer, Rubyist, Gopher and... H4cker | Republic of Korea | None | 47 | 0 | 64 | 222 | 10 | Python,Go,Ruby | 396 | 115 | 1| 
 | sailay1996 | AMD User Experience Program Launcher 本地提权漏洞分析(CVE-2020-8950) | https://github.com/sailay1996/amd_eop_poc | https://heynowyouseeme.blogspot.com/ | Twitter: @404death , https://www.hackthebox.eu/profile/1467 | Myanmar | None | 177 | 0 | 4 | 197 | 0 | Python,C,Shell,Batchfile | 432 | 69 | 1| 
 | Wenzel | 虚拟化及虚拟化安全相关的资料整理 | https://github.com/Wenzel/awesome-virtualization | None | Security Researcher | VMI hypervisor-level debugger | Paris, France | None | 110 | 0 | 363 | 192 | 104 | Python,Ruby,Rust | 517 | 103 | 1| 
@@ -188,7 +191,7 @@
 | nafod | nafod 公开了自己 VMware UHCI ZDI-19-421 漏洞的 Exploit | https://github.com/nafod/advent-vmpwn// | None |  | None | None | 15 | 0 | 117 | 44 | 24 | C,JavaScript | 5 | 1 | 1| 
 | ph4ntonn | Stowaway -- Multi-hop Proxy Tool for pentesters | https://github.com/ph4ntonn/Stowaway | None | The wheel turns,nothing is ever new | 0x7F000001 | Unknown | 32 | 0 | 36 | 39 | 17 | Go,Python,C,JavaScript | 157 | 26 | 1| 
 | sahilmgandhi | IotShark - Monitoring and Analyzing IoT Traffic | https://github.com/sahilmgandhi/IotShark | http://www.sahilmgandhi.com | Distributed and Big Data Systems @ UCLA | UCLA | None | 29 | 0 | 21 | 38 | 31 | C,Java,Python,JavaScript,C++,HTML | 42 | 7 | 1| 
-| assafmo | xioc: Extract IOCs from text, including escaped ones. | https://github.com/assafmo/xioc | https://github.com/enigmampc |  | Israel | @enigmampc | 25 | 0 | 270 | 35 | 18 | Go,JavaScript | 140 | 12 | 2| 
+| assafmo | joincap: Merge multiple pcap files together, gracefully. | https://github.com/assafmo/joincap | https://github.com/enigmampc |  | Israel | @enigmampc | 25 | 0 | 270 | 35 | 18 | Go,JavaScript | 140 | 12 | 2| 
 | p1g3 | JSONP-Hunter: JSONP Hunter in Burpsuite | https://github.com/p1g3/JSONP-Hunter | None |  | None | None | 8 | 0 | 16 | 34 | 0 | Python,Shell,HTML | 60 | 11 | 1| 
 | ATpiu | asset-scan: 甲方企业的外网资产周期性扫描监控系统 | https://github.com/ATpiu/asset-scan | None | Penetration Test/Gopher/App Sec/ICS Sec | None | None | 100 | 0 | 292 | 28 | 119 | Go,Python | 40 | 6 | 1| 
 | Ascotbe | Medusa: 美杜莎扫描器 | https://github.com/Ascotbe/Medusa | https://www.ascotbe.com/ | 在？来个女朋友？喵喵喵？ | 一切都是命运石之门的选择 | None | 12 | 0 | 75 | 26 | 1 | Python,HTML,C++ | 125 | 24 | 1| 
