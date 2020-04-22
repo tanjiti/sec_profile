@@ -2757,6 +2757,7 @@
 | linchaolong | 可视化的跨平台 apk 分析工具 | https://github.com/linchaolong/ApkToolPlus | http://www.jianshu.com/users/149dc6683cc7 |  | Guangzhou China | linchaolong | 9 | 0 | 201 | 39 | 1 | Java | 483 | 140 | 1| 
 | michaelmacinnis | oh : A surprisingly powerful Unix shell : https://github.com/michaelmacinnis/oh | https://github.com/michaelmacinnis/oh | None |  | None | None | 4 | 0 | 149 | 39 | 6 | Go | 0 | 0 | 1| 
 | pellegre | libcrafter: 用于网络数据包嗅探和制作的高等级 C++ 库: | https://github.com/pellegre/libcrafter | https://twitter.com/zesteban |  | None | None | 6 | 0 | 11 | 39 | 12 | JavaScript,C++ | 227 | 77 | 1| 
+| ph4ntonn | Stowaway -- Multi-hop Proxy Tool for pentesters | https://github.com/ph4ntonn/Stowaway | None | The wheel turns,nothing is ever new | 0x7F000001 | Unknown | 32 | 0 | 36 | 39 | 17 | Go,Python,C,JavaScript | 157 | 26 | 1| 
 | rohanpadhye | 针对 Java 语言的基于覆盖率的 Fuzz 框架 | https://github.com/rohanpadhye/jqf | https://cs.berkeley.edu/~rohanpadhye | PhD student | Berkeley, CA | UC Berkeley | 29 | 0 | 50 | 39 | 6 | C,Java | 121 | 24 | 1| 
 | steven-michaud | HookCase - macOS/OS X 上的逆向分析工具: | https://github.com/steven-michaud/HookCase | None |  | None | None | 3 | 0 | 12 | 39 | 0 | Objective-C++,C++ | 275 | 46 | 1| 
 | wagiro | BurpBounty - 用于改善主动及被动式扫描的 BurpSuite 扩展插件: | https://github.com/wagiro/BurpBounty | http://www.wagiro.com |  | None | None | 4 | 0 | 6 | 39 | 5 | Python,Java | 357 | 74 | 1| 
