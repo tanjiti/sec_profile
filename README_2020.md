@@ -14,9 +14,11 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| SecWiki | SecWiki | [Sec-Trans-5] Subdomain Takeover: Thoughts on Risks | https://mp.weixin.qq.com/s/fn3_2kC6ljUL3ac1Mhuh1A | 3| 
+| 腾讯安全应急响应中心 | tsrc_team | 流量分析在安全攻防上的探索实践 | https://mp.weixin.qq.com/s/xz9v7cxQiGdsCUWbl5Lp1A | 6| 
 | VIPKID安全响应中心 | vk_src | 【技术分享】基于数据流的越权检测 | https://mp.weixin.qq.com/s/FC6ROeMAdGUxkjVjFd914A | 1| 
 | heysec | bloodzer007 | 一次有趣的钓鱼测试 | https://mp.weixin.qq.com/s/JZs26mle8diovfPpAggP7A | 12| 
-| qz安全情报分析 | lookvul | 关于防守方封IP的一些想法 | https://mp.weixin.qq.com/s/pgaTlc8LoUvH7RtgeKCBrg | 1| 
+| qz安全情报分析 | lookvul | 关于防守方封IP的一些想法 | https://mp.weixin.qq.com/s/pgaTlc8LoUvH7RtgeKCBrg | 2| 
 | 白帽汇 | baimaohui888 | 打“怪”升级的靶场——Vulfocus | https://mp.weixin.qq.com/s/ArDDWYuc1A64qUzeyPRzZA | 1| 
 | 雷神众测 | thorsrc | 近源渗透测试之USBninja实战 | https://mp.weixin.qq.com/s/qCA-6zXbwpj8nyn5791zfg | 1| 
 | 黑金笔谈 | heijinbitan | Windows域环境及域渗透知识分享 | https://mp.weixin.qq.com/s/gvDzKFIsdhtkOKRANscEJA | 2| 
@@ -33,7 +35,6 @@
 | 信息通信技术与政策 | caict_dsc | APT供应链攻击防护应对分析及意义 | https://mp.weixin.qq.com/s/qGMRjCeIyHSHk_aXI8Fxbg | 1| 
 | 永安在线反欺诈 | YongAnOnline | 永安在线 | 生鲜电商拉新场景业务安全测评报告 | https://mp.weixin.qq.com/s/oiSYOA-BDn9fUnb7EhO2vA | 2| 
 | 绿盟科技研究通讯 | nsfocus_research | Provenance Mining：终端溯源数据挖掘与威胁狩猎 | https://mp.weixin.qq.com/s/Te7c3HvCcxX3ci9HTn8lEQ | 4| 
-| 腾讯安全应急响应中心 | tsrc_team | 网络层绕过IDS/IPS的一些探索 | https://mp.weixin.qq.com/s/QJeW7K-KThYHggWtJ-Fh3w | 5| 
 | 腾讯安全智能 | TX_Security_AI | 基于SOC机器学习检测平台的行为分析建模---HTTP隐蔽通信检测 | https://mp.weixin.qq.com/s/ggFbaQvn8yUJOFi_-DPNOw | 2| 
 | ChaMd5安全团队 | chamd5sec | 领略cdn绕过的魅力 | https://mp.weixin.qq.com/s/7wpQXujqKk03GghPbmiwMw | 7| 
 | 漏洞战争 | vulwar | 关于Adobe PDF 0day的故事 | https://mp.weixin.qq.com/s/fx8MQ8ZMhZHwrruigLFbGA | 2| 
@@ -83,7 +84,6 @@
 | 银河安全实验室 | Galaxy-Lab | 尝试利用Cython将Python项目转化为单个.so | https://mp.weixin.qq.com/s/YRKY7FgLFw-w4QIlrNd-FA | 1| 
 | 安天 | Antiylab | 安天对“超高能力网空威胁行为体”系列分析回顾 | https://mp.weixin.qq.com/s/N0LxStDpc6GyzpyszYnguQ | 1| 
 | 青衣十三楼飞花堂 |  | burp pro 2020.2 | https://mp.weixin.qq.com/s/WXdEvc0p04KjyOlmb4qtRg | 1| 
-| SecWiki | SecWiki | 2020 Google夏日编程之安全项目列表 | https://mp.weixin.qq.com/s/Gf937RjTpA0QsT2DJFQRqQ | 2| 
 | 大潘点点 | dapandiandian | 网安产业结构和动力分析——从合规型向能力型 | https://mp.weixin.qq.com/s/V6P-6X_fnw_kvHWMxtqwLg | 1| 
 | 物联网IOT安全 | IOTsafety | Cobalt Strike｜从入门到入狱 | https://mp.weixin.qq.com/s/WAqgHn0DrXerEeow131w4Q | 1| 
 | 我的安全视界观 | CANI_Security | SDL最初实践（完结）Paper下载 | https://mp.weixin.qq.com/s/WSKpvCEDLpixXUQzKCFcvA | 4| 

@@ -14,9 +14,11 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| SecWiki | SecWiki | [Sec-Trans-5] Subdomain Takeover: Thoughts on Risks | https://mp.weixin.qq.com/s/fn3_2kC6ljUL3ac1Mhuh1A | 1| 
+| 腾讯安全应急响应中心 | tsrc_team | 流量分析在安全攻防上的探索实践 | https://mp.weixin.qq.com/s/xz9v7cxQiGdsCUWbl5Lp1A | 2| 
 | VIPKID安全响应中心 | vk_src | 【技术分享】基于数据流的越权检测 | https://mp.weixin.qq.com/s/FC6ROeMAdGUxkjVjFd914A | 1| 
 | heysec | bloodzer007 | 一次有趣的钓鱼测试 | https://mp.weixin.qq.com/s/JZs26mle8diovfPpAggP7A | 6| 
-| qz安全情报分析 | lookvul | 关于防守方封IP的一些想法 | https://mp.weixin.qq.com/s/pgaTlc8LoUvH7RtgeKCBrg | 1| 
+| qz安全情报分析 | lookvul | 关于防守方封IP的一些想法 | https://mp.weixin.qq.com/s/pgaTlc8LoUvH7RtgeKCBrg | 2| 
 | 白帽汇 | baimaohui888 | 打“怪”升级的靶场——Vulfocus | https://mp.weixin.qq.com/s/ArDDWYuc1A64qUzeyPRzZA | 1| 
 | 雷神众测 | thorsrc | 近源渗透测试之USBninja实战 | https://mp.weixin.qq.com/s/qCA-6zXbwpj8nyn5791zfg | 1| 
 | 黑金笔谈 | heijinbitan | Windows域环境及域渗透知识分享 | https://mp.weixin.qq.com/s/gvDzKFIsdhtkOKRANscEJA | 1| 
@@ -33,7 +35,6 @@
 | 信息通信技术与政策 | caict_dsc | APT供应链攻击防护应对分析及意义 | https://mp.weixin.qq.com/s/qGMRjCeIyHSHk_aXI8Fxbg | 1| 
 | 永安在线反欺诈 | YongAnOnline | 永安在线 | 生鲜电商拉新场景业务安全测评报告 | https://mp.weixin.qq.com/s/oiSYOA-BDn9fUnb7EhO2vA | 1| 
 | 绿盟科技研究通讯 | nsfocus_research | Provenance Mining：终端溯源数据挖掘与威胁狩猎 | https://mp.weixin.qq.com/s/Te7c3HvCcxX3ci9HTn8lEQ | 1| 
-| 腾讯安全应急响应中心 | tsrc_team | 网络层绕过IDS/IPS的一些探索 | https://mp.weixin.qq.com/s/QJeW7K-KThYHggWtJ-Fh3w | 1| 
 | 腾讯安全智能 | TX_Security_AI | 基于SOC机器学习检测平台的行为分析建模---HTTP隐蔽通信检测 | https://mp.weixin.qq.com/s/ggFbaQvn8yUJOFi_-DPNOw | 1| 
 | ChaMd5安全团队 | chamd5sec | 领略cdn绕过的魅力 | https://mp.weixin.qq.com/s/7wpQXujqKk03GghPbmiwMw | 4| 
 | 漏洞战争 | vulwar | 关于Adobe PDF 0day的故事 | https://mp.weixin.qq.com/s/fx8MQ8ZMhZHwrruigLFbGA | 1| 
