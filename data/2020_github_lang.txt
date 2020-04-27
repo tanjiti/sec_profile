@@ -1,10 +1,10 @@
-Python	59
-JavaScript	32
-C	29
-C++	28
-HTML	26
-Shell	23
-Go	23
+Python	63
+JavaScript	34
+C	31
+C++	30
+HTML	28
+Shell	25
+Go	24
 Java	22
 C#	17
 PowerShell	14
@@ -12,9 +12,9 @@ TypeScript	10
 CSS	10
 Ruby	9
 Rust	7
+PHP	7
 Jupyter	6
-Batchfile	5
-PHP	5
+Batchfile	6
 Perl	3
 TSQL	3
 Dockerfile	3
@@ -38,6 +38,7 @@ CoffeeScript	1
 VBScript	1
 MATLAB	1
 Zeek	1
+Hack	1
 TeX	1
 Smali	1
 Roff	1

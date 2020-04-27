@@ -1,0 +1,86 @@
+20200420	Web安全	https://www.zrools.org/2020/04/23/%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1-%E9%80%9A%E8%BE%BEOA-%E4%BB%BB%E6%84%8F%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95%E6%BC%8F%E6%B4%9E%EF%BC%88%E5%8C%BF%E5%90%8DRCE%EF%BC%89%E5%88%86%E6%9E%90/	通达OA 任意用户登录漏洞（匿名RCE）分析	zrools.org	www.zrools.org	/2020/04/23/%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1-%E9%80%9A%E8%BE%BEOA-%E4%BB%BB%E6%84%8F%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95%E6%BC%8F%E6%B4%9E%EF%BC%88%E5%8C%BF%E5%90%8DRCE%EF%BC%89%E5%88%86%E6%9E%90/
+20200420	Web安全	https://forum.90sec.com/t/topic/949	内网横向渗透攻击流程	90sec.com	forum.90sec.com	/t/topic/949
+20200420	Web安全	https://mp.weixin.qq.com/s/gvDzKFIsdhtkOKRANscEJA	Windows域环境及域渗透	qq.com	mp.weixin.qq.com	/s/gvDzKFIsdhtkOKRANscEJA
+20200420	取证分析	https://mp.weixin.qq.com/s/pgaTlc8LoUvH7RtgeKCBrg	关于防守方封IP的一些想法	qq.com	mp.weixin.qq.com	/s/pgaTlc8LoUvH7RtgeKCBrg
+20200420	Web安全	https://mp.weixin.qq.com/s/ArDDWYuc1A64qUzeyPRzZA	Vulfocus: 漏洞docker镜像集成平台	qq.com	mp.weixin.qq.com	/s/ArDDWYuc1A64qUzeyPRzZA
+20200420	其它	https://mp.weixin.qq.com/s/JZs26mle8diovfPpAggP7A	一次有趣的钓鱼测试	qq.com	mp.weixin.qq.com	/s/JZs26mle8diovfPpAggP7A
+20200420	Web安全	https://xz.aliyun.com/t/7578	waf-bypass学习	aliyun.com	xz.aliyun.com	/t/7578
+20200420	运维安全	https://mp.weixin.qq.com/s/PXCr_QrV7iLUz44750JXcA	安全架构设计与评审	qq.com	mp.weixin.qq.com	/s/PXCr_QrV7iLUz44750JXcA
+20200420	比赛	https://www.anquanke.com/post/id/203417	2020 虎符网络安全竞赛 web Writeup	anquanke.com	www.anquanke.com	/post/id/203417
+20200420	Web安全	https://www.freebuf.com/articles/network/232520.html	Pulsar：一款功能强大的可视化网络足迹扫描平台	freebuf.com	www.freebuf.com	/articles/network/232520.html
+20200420	数据挖掘	https://www.jiqizhixin.com/articles/2018-12-20-18	以虎嗅网4W+文章的文本挖掘为例，展现数据分析的一整套流程	jiqizhixin.com	www.jiqizhixin.com	/articles/2018-12-20-18
+20200420	Web安全	https://zine.la/article/1eaf51e700924b3290218f0d6c7b7247/?from=timeline	短兵：API安全典型漏洞剖析	zine.la	zine.la	/article/1eaf51e700924b3290218f0d6c7b7247/
+20200420	移动安全	https://www.kiwisec.com/news/detail/5e97cf7142bc562941eb0069.html	移动 app安全评估检测技术分析	kiwisec.com	www.kiwisec.com	/news/detail/5e97cf7142bc562941eb0069.html
+20200420	设备安全	https://mp.weixin.qq.com/s/qCA-6zXbwpj8nyn5791zfg	近源渗透测试之USBninja实战	qq.com	mp.weixin.qq.com	/s/qCA-6zXbwpj8nyn5791zfg
+20200420	数据挖掘	https://mp.weixin.qq.com/s/FC6ROeMAdGUxkjVjFd914A	基于数据流的越权检测	qq.com	mp.weixin.qq.com	/s/FC6ROeMAdGUxkjVjFd914A
+20200420	移动安全	https://mp.weixin.qq.com/s/58HGpBRngfov1yXReaTpNA	Android程序安全分析入门	qq.com	mp.weixin.qq.com	/s/58HGpBRngfov1yXReaTpNA
+20200420	Web安全	https://xz.aliyun.com/t/7610	红队测评技巧：对公司发起OSINT	aliyun.com	xz.aliyun.com	/t/7610
+20200420	运维安全	https://segmentfault.com/a/1190000021257429	宜信SDL实践：产品经理如何驱动产品安全建设	segmentfault.com	segmentfault.com	/a/1190000021257429
+20200420	Web安全	https://blog.cm2.pw/exploiting-post-based-xssi/	Exploiting POST-based XSSI	cm2.pw	blog.cm2.pw	/exploiting-post-based-xssi/
+20200420	其它	https://malwareunicorn.org/workshops/macos_dylib_injection.html#0	MacOS Dylib Injection through Mach-O Binary Manipulation	malwareunicorn.org	malwareunicorn.org	/workshops/macos_dylib_injection.html
+20200420	取证分析	https://mp.weixin.qq.com/s/xz9v7cxQiGdsCUWbl5Lp1A	流量分析在安全攻防上的探索实践	qq.com	mp.weixin.qq.com	/s/xz9v7cxQiGdsCUWbl5Lp1A
+20200420	工具	https://github.com/ph4ntonn/Stowaway	Stowaway -- Multi-hop Proxy Tool for pentesters	github.com	github.com	/ph4ntonn/Stowaway
+20200420	漏洞分析	http://borncity.com/win/2020/04/16/dll-hijacking-vulnerabilities-in-nirsoft-tools/	DLL hijacking vulnerabilities in Nirsoft tools	borncity.com	borncity.com	/win/2020/04/16/dll-hijacking-vulnerabilities-in-nirsoft-tools/
+20200420	漏洞分析	http://www.asm64.com/IFFA/index.html	IFFA文件格式漏洞交互式分析系统	asm64.com	www.asm64.com	/IFFA/index.html
+20200420	恶意分析	https://mp.weixin.qq.com/s/oswnCc18UhYOrc6OC0COaA	刨析NSA/ASD的WebShell防御指南	qq.com	mp.weixin.qq.com	/s/oswnCc18UhYOrc6OC0COaA
+20200420	移动安全	https://github.com/haidragon/KiwiVM-1	haidragon/KiwiVM-1: virtualization encryption software for mobile applications	github.com	github.com	/haidragon/KiwiVM-1
+20200420	其它	https://medium.com/@subhammisra45/lateral-movement-powershell-remoting-89da402a9885	Lateral Movement: PowerShell Remoting	medium.com	medium.com	/@subhammisra45/lateral-movement-powershell-remoting-89da402a9885
+20200420	移动安全	https://paper.seebug.org/1174/	Android 中的特殊攻击面（一）——邪恶的对话框	seebug.org	paper.seebug.org	/1174/
+20200420	其它	https://www.infosecmatter.com/terminal-escape-injection/	Terminal Escape Injection	infosecmatter.com	www.infosecmatter.com	/terminal-escape-injection/
+20200420	漏洞分析	https://ricercasecurity.blogspot.com/2020/04/ill-ask-your-body-smbghost-pre-auth-rce.html	SMBGhost pre-auth RCE abusing Direct Memory Access structs	blogspot.com	ricercasecurity.blogspot.com	/2020/04/ill-ask-your-body-smbghost-pre-auth-rce.html
+20200420	漏洞分析	http://www.phrack.org/papers/escaping_from_freebsd_bhyve.html	Tale of two hypervisor bugs - Escaping from FreeBSD bhyve	phrack.org	www.phrack.org	/papers/escaping_from_freebsd_bhyve.html
+20200420	Web安全	https://mp.weixin.qq.com/s/icWaHsC6dzlclxfLhvQjYA	Python RASP 工程化:一次入侵的思考	qq.com	mp.weixin.qq.com	/s/icWaHsC6dzlclxfLhvQjYA
+20200420	Web安全	https://mp.weixin.qq.com/s/fn3_2kC6ljUL3ac1Mhuh1A	Subdomain Takeover: Thoughts on Risks	qq.com	mp.weixin.qq.com	/s/fn3_2kC6ljUL3ac1Mhuh1A
+20200420	漏洞分析	https://cpr-zero.checkpoint.com/vulns/cprid-2147/	CVE-2020-0791	checkpoint.com	cpr-zero.checkpoint.com	/vulns/cprid-2147/
+20200420	工具	https://github.com/bohops/GhostBuild	GhostBuild - MSBuild launchers for various GhostPack/.NET projects	github.com	github.com	/bohops/GhostBuild
+20200420	漏洞分析	https://blog.silentsignal.eu/2020/04/20/uninitialized-memory-disclosures-in-web-applications/	Uninitialized Memory Disclosures in Web Applications	silentsignal.eu	blog.silentsignal.eu	/2020/04/20/uninitialized-memory-disclosures-in-web-applications/
+20200420	移动安全	https://medium.com/@shivsahni2/the-zaheck-of-android-deep-links-a5f57dc4ae4c	The Zaheck of Android Deep Links!	medium.com	medium.com	/@shivsahni2/the-zaheck-of-android-deep-links-a5f57dc4ae4c
+20200420	漏洞分析	https://vulners.blog/2020/04/17/ossfuzz-from-vulners/	OSS-Fuzz data in Vulners	vulners.blog	vulners.blog	/2020/04/17/ossfuzz-from-vulners/
+20200420	Web安全	https://medium.com/@aysebilgegunduz/everything-you-need-to-know-about-idor-insecure-direct-object-references-375f83e03a87	Everything You Need to Know About IDOR	medium.com	medium.com	/@aysebilgegunduz/everything-you-need-to-know-about-idor-insecure-direct-object-references-375f83e03a87
+20200420	工具	https://cryptohack.org/	CryptoHack – A fun platform for learning cryptography	cryptohack.org	cryptohack.org	/
+20200420	恶意分析	https://themittenmac.com/tinyshell-under-the-microscope/	Tinyshell Under the Microscope	themittenmac.com	themittenmac.com	/tinyshell-under-the-microscope/
+20200420	其它	https://www.n4r1b.com/posts/2020/04/dissecting-the-windows-defender-driver-wdfilter-part-4/	Dissecting the Windows Defender Driver	n4r1b.com	www.n4r1b.com	/posts/2020/04/dissecting-the-windows-defender-driver-wdfilter-part-4/
+20200420	移动安全	https://payatu.com/blog/hrushikesh/how-i-hacked-an-android-game-and-ranked-first	How We Hacked an Android Game And Ranked First globally	payatu.com	payatu.com	/blog/hrushikesh/how-i-hacked-an-android-game-and-ranked-first
+20200420	恶意分析	https://thedfirreport.com/2020/04/20/sqlserver-or-the-miner-in-the-basement/	Sqlserver, or the Miner in the Basement	thedfirreport.com	thedfirreport.com	/2020/04/20/sqlserver-or-the-miner-in-the-basement/
+20200420	工具	https://github.com/Martyx00/VulnFanatic	Assistant plugin for vulnerability research	github.com	github.com	/Martyx00/VulnFanatic
+20200420	Web安全	https://insomniasec.com/blog/auth0-jwt-validation-bypass	JSON Web Token Validation Bypass in Auth0 Authentication API	insomniasec.com	insomniasec.com	/blog/auth0-jwt-validation-bypass
+20200420	移动安全	https://blog.elcomsoft.com/2020/04/ios-acquisition-methods-compared-logical-full-file-system-and-icloud/	iOS acquisition methods compared: logical, full file system and iCloud	elcomsoft.com	blog.elcomsoft.com	/2020/04/ios-acquisition-methods-compared-logical-full-file-system-and-icloud/
+20200420	工具	https://isbgpsafeyet.com/	Is BGP safe yet? · Cloudflare	isbgpsafeyet.com	isbgpsafeyet.com	/
+20200420	工具	https://github.com/assafmo/joincap	joincap: Merge multiple pcap files together, gracefully.	github.com	github.com	/assafmo/joincap
+20200420	移动安全	https://paper.seebug.org/1175/	Android 中的特殊攻击面（二）——危险的deeplink	seebug.org	paper.seebug.org	/1175/
+20200420	漏洞分析	https://www.rack911labs.com/research/exploiting-almost-every-antivirus-software/	Exploiting (Almost) Every Antivirus Software	rack911labs.com	www.rack911labs.com	/research/exploiting-almost-every-antivirus-software/
+20200420	Web安全	https://mp.weixin.qq.com/s/BiH23k7xAeuwb5wwaOEKVw	体系化的WAF安全运营实践	qq.com	mp.weixin.qq.com	/s/BiH23k7xAeuwb5wwaOEKVw
+20200420	Web安全	https://mp.weixin.qq.com/s/o9HL8kPCuw5f8nvsWhzEhQ	PHP代码审计之CTF系列(3)	qq.com	mp.weixin.qq.com	/s/o9HL8kPCuw5f8nvsWhzEhQ
+20200420	工具	https://github.com/brompwnie/cve-2020-5260/	A HTTP PoC Endpoint for cve-2020-5260	github.com	github.com	/brompwnie/cve-2020-5260/
+20200420	设备安全	https://scriptingxss.gitbook.io/firmware-security-testing-methodology/	OWASP Firmware Security Testing Methodology	gitbook.io	scriptingxss.gitbook.io	/firmware-security-testing-methodology/
+20200420	漏洞分析	https://securitylab.github.com/advisories/GHSL-2020-038-chrome	GHSL-2020-038: Use after free in Chrome WebAudio	github.com	securitylab.github.com	/advisories/GHSL-2020-038-chrome
+20200420	其它	https://symeonp.github.io/2020/04/18/grammar-based-fuzzing.html	Grammar based fuzzing PDFs with Domato	github.io	symeonp.github.io	/2020/04/18/grammar-based-fuzzing.html
+20200420	Web安全	https://samcurry.net/abusing-http-path-normalization-and-cache-poisoning-to-steal-rocket-league-accounts/	Abusing HTTP Path Normalization and Cache Poisoning to steal accounts	samcurry.net	samcurry.net	/abusing-http-path-normalization-and-cache-poisoning-to-steal-rocket-league-accounts/
+20200420	编程技术	https://0xrick.github.io/misc/c2/	Building a Basic C2	github.io	0xrick.github.io	/misc/c2/
+20200420	移动安全	https://paper.seebug.org/1178/	移动基带安全研究系列文章之概念与系统篇	seebug.org	paper.seebug.org	/1178/
+20200420	工具	https://github.com/xscorp/pingfisher	pingfisher: A ping detection tool for linux	github.com	github.com	/xscorp/pingfisher
+20200420	Web安全	https://mp.weixin.qq.com/s/yykliM-b4_rStX5ucPWO2w	webshell 干掉 RASP	qq.com	mp.weixin.qq.com	/s/yykliM-b4_rStX5ucPWO2w
+20200420	恶意分析	https://labs.jumpsec.com/2020/04/20/a-defenders-guide-for-rootkit-detection-episode-1-kernel-drivers/?preview=true	A Defenders Guide For Rootkit Detection: Episode 1	jumpsec.com	labs.jumpsec.com	/2020/04/20/a-defenders-guide-for-rootkit-detection-episode-1-kernel-drivers/
+20200420	工具	https://github.com/yusufqk/SystemToken	SystemToken: Steal privileged token to obtain SYSTEM shell	github.com	github.com	/yusufqk/SystemToken
+20200420	Web安全	https://github.com/smodnix/31-days-of-API-Security-Tips	This challenge is Inon Shkedys 31 days API Security Tips.	github.com	github.com	/smodnix/31-days-of-API-Security-Tips
+20200420	工具	https://github.com/ail-project/ail-framework	AIL framework - Analysis Information Leak framework	github.com	github.com	/ail-project/ail-framework
+20200420	工具	https://paper.seebug.org/1181/	半自动化挖掘 request 实现多种中间件回显	seebug.org	paper.seebug.org	/1181/
+20200420	其它	https://www.freebuf.com/articles/people/233378.html	爱奇艺的业务安全风控“秘籍”	freebuf.com	www.freebuf.com	/articles/people/233378.html
+20200420	Web安全	https://stazot.com/prestashop-csrf-to-rce-article/	Critical CSRF to RCE bug chain in Prestashop v1.7.6.4 and below	stazot.com	stazot.com	/prestashop-csrf-to-rce-article/
+20200420	设备安全	https://mp.weixin.qq.com/s/iV9Ib9l4rrbC0oZe1gdDcg	当PLC偶遇老旧但不乏经典的高级组包工具Hping3	qq.com	mp.weixin.qq.com	/s/iV9Ib9l4rrbC0oZe1gdDcg
+20200420	Web安全	https://mp.weixin.qq.com/s/2bC5otYgIgGnod-cXwkfqw	远控免杀专题-白名单(113个)总结篇	qq.com	mp.weixin.qq.com	/s/2bC5otYgIgGnod-cXwkfqw
+20200420	文档	https://ncstatic.clewm.net/rsrc/2020/0420/16/976527b7158e60845a7671eded20c6ee.pdf	2019年我国互联网网络安全态势综述	clewm.net	ncstatic.clewm.net	/rsrc/2020/0420/16/976527b7158e60845a7671eded20c6ee.pdf
+20200420	工具	https://github.com/appsecco/attacking-and-auditing-docker-containers-and-kubernetes-clusters	Attacking and Auditing Docker Containers and Kubernetes Clusters	github.com	github.com	/appsecco/attacking-and-auditing-docker-containers-and-kubernetes-clusters
+20200420	Web安全	https://bacde.me/post/some-waf-cdn-lb-list/	一些流行的云waf、cdn、lb的域名列表	bacde.me	bacde.me	/post/some-waf-cdn-lb-list/
+20200420	编程技术	https://slaeryan.github.io/	The Hitchhikers Guide to Shellcoding	github.io	slaeryan.github.io	/
+20200420	杂志	https://www.sec-wiki.com/weekly/320	SecWiki周刊（第320期)	sec-wiki.com	www.sec-wiki.com	/weekly/320
+20200420	漏洞分析	https://github.com/assafmo/xioc	xioc: Extract IOCs from text, including escaped ones.	github.com	github.com	/assafmo/xioc
+20200420	设备安全	https://mp.weixin.qq.com/s/phcpafQnNBnyQ10FOcSriQ	2019年工业控制网络安全态势白皮书	qq.com	mp.weixin.qq.com	/s/phcpafQnNBnyQ10FOcSriQ
+20200420	比赛	https://xz.aliyun.com/t/7619	一次Reverse出题手记	aliyun.com	xz.aliyun.com	/t/7619
+20200420	运维安全	https://mp.weixin.qq.com/s/jWBnS144PvBRM-wnMnwseA	零信任安全架构实践之路	qq.com	mp.weixin.qq.com	/s/jWBnS144PvBRM-wnMnwseA
+20200420	Web安全	https://mp.weixin.qq.com/s/PNvCvV4gYJkfIsKJ1ccneA	构建企业级研发安全编码规范	qq.com	mp.weixin.qq.com	/s/PNvCvV4gYJkfIsKJ1ccneA
+20200420	恶意分析	https://xz.aliyun.com/t/7626	记一次对PUBG外挂病毒的反制过程	aliyun.com	xz.aliyun.com	/t/7626
+20200420	文档	https://github.com/Wenzel/awesome-virtualization	awesome-virtualization: Collection of resources about Virtualization	github.com	github.com	/Wenzel/awesome-virtualization
+20200420	Web安全	https://github.com/Qftm/Information_Collection_Handbook	Handbook of information collection for penetration testing and src	github.com	github.com	/Qftm/Information_Collection_Handbook
+20200420	移动安全	https://labs.f-secure.com/advisories/xiaomi-mi9/	Xiaomi Mi9 (Pwn2Own 2019)	f-secure.com	labs.f-secure.com	/advisories/xiaomi-mi9/
+20200420	移动安全	https://cloudfuzz.github.io/android-kernel-exploitation/	Android Kernel Exploitation	github.io	cloudfuzz.github.io	/android-kernel-exploitation/
