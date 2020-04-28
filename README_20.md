@@ -14,7 +14,10 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| heysec | bloodzer007 | SonarQube实现自动化代码扫描 | https://mp.weixin.qq.com/s/L5WeEFvu6etVTAigx6jjcQ | 20| 
 | 人工智能架构 |  | 基于大数据的Uber数据实时监控（Part 1：Spark机器学习） | https://mp.weixin.qq.com/s/mr-007pdIzOXPDaAUha1Ww | 3| 
+| 安全狗 | safedog2013 | 在网络安全领域应用机器学习的困难和对策 | https://mp.weixin.qq.com/s/j7vuiAWz6kY4ePsjb5EtDw | 2| 
+| 网信中国 | cacweixin | 网络安全审查办法 | https://mp.weixin.qq.com/s/nAjbLxdDnflhc_89y0e01Q | 2| 
 | 七夜安全博客 | qiye_safe | WebShell 干掉 RASP | https://mp.weixin.qq.com/s/yykliM-b4_rStX5ucPWO2w | 9| 
 | 君哥的体历 | jungedetili | 何艺：零信任安全架构实践之路 | https://mp.weixin.qq.com/s/jWBnS144PvBRM-wnMnwseA | 38| 
 | 百度安全应急响应中心 | baidu_sec | 构建企业级研发安全编码规范 | https://mp.weixin.qq.com/s/PNvCvV4gYJkfIsKJ1ccneA | 3| 
@@ -23,7 +26,6 @@
 | qz安全情报分析 | lookvul | 刨析NSA/ASD的WebShell防御指南 | https://mp.weixin.qq.com/s/oswnCc18UhYOrc6OC0COaA | 4| 
 | Tide安全团队 | TideSec | 远控免杀专题(67)-白名单(113个)总结篇 | https://mp.weixin.qq.com/s/2bC5otYgIgGnod-cXwkfqw | 30| 
 | VIPKID安全响应中心 | vk_src | 【技术分享】基于数据流的越权检测 | https://mp.weixin.qq.com/s/FC6ROeMAdGUxkjVjFd914A | 1| 
-| heysec | bloodzer007 | 一次有趣的钓鱼测试 | https://mp.weixin.qq.com/s/JZs26mle8diovfPpAggP7A | 19| 
 | 安全研究与实践 | secsky001 | 体系化的WAF安全运营实践 | https://mp.weixin.qq.com/s/BiH23k7xAeuwb5wwaOEKVw | 1| 
 | 白帽汇 | baimaohui888 | 打“怪”升级的靶场——Vulfocus | https://mp.weixin.qq.com/s/ArDDWYuc1A64qUzeyPRzZA | 4| 
 | 腾讯安全应急响应中心 | tsrc_team | 流量分析在安全攻防上的探索实践 | https://mp.weixin.qq.com/s/xz9v7cxQiGdsCUWbl5Lp1A | 10| 
@@ -151,7 +153,6 @@
 | 企业安全工作实录 | xiaohuangsec | 安全运营三部曲之安全生态与安全国际 | https://mp.weixin.qq.com/s/Fwk_Q7TE5pyq77_-IEp1mg | 1| 
 | 复旦白泽战队 | fdwhitzard | 白泽带你去参会@CCS19, London, UK丨论文分享（下） | https://mp.weixin.qq.com/s/IXweRBnhbgeJuPxgAvgP2A | 2| 
 | Python中文社区 | python-china | 微软开源可解释机器学习框架 interpret 实践 | https://mp.weixin.qq.com/s/adkQr051QFzID4tEtPwjyQ | 3| 
-| 网信中国 | cacweixin | 国家互联网信息办公室关于《网络安全威胁信息发布管理办法（征求意见稿）》公开征求意见的通知 | https://mp.weixin.qq.com/s/uu3fnM8OzC8JRcIiJkIX8w | 1| 
 | 最高人民法院 | ch_zgrmfy | 司法大数据专题报告：网络犯罪特点和趋势 | https://mp.weixin.qq.com/s/ZxYS6Dwa2XVOZ8ku-PbKog | 1| 
 | 安恒信息 | DBAPP2013 | 如何基于沙箱的威胁情报平台上搭建ATT&CK展示界面？ | https://mp.weixin.qq.com/s/YcQRAkRRo63OnRYWokl0nw | 2| 
 | 安全牛 | aqniu-wx | ATT&CK 在大数据安全分析中的应用思考 | https://mp.weixin.qq.com/s/h-jrWoaIofnpBppKpZK2sw | 40| 
@@ -607,7 +608,6 @@
 | CNNS安全 |  |  | http://mp.weixin.qq.com/s?__biz=MzIxNjA2OTYzNw==&mid=405029147&idx=1&sn=cf69c00765c5bb3f00333cea2e877b9b&scene=0#wechat_redirect | 1| 
 | 网事研究 | cyber_kinetic |  | http://mp.weixin.qq.com/s?__biz=MzI0ODA5OTQwOQ==&mid=401699198&idx=1&sn=b066eac836bbaeaab9475ddf502b9aef&scene=23 | 1| 
 | Datartisan数据工匠 | shujugongjiang |  | http://mp.weixin.qq.com/s?__biz=MzA5NDQ3MDI4NA==&mid=210183372&idx=1&sn=edb4998952082c0518a7c84b8ab8d1e0#rd | 1| 
-| 安全狗 | safedog2013 |  | http://mp.weixin.qq.com/s?__biz=MjM5NTc2NDM4MQ==&mid=401545568&idx=1&sn=6a745d0882801da869b3c706d7e2565f&scene=23&srcid=0119aALf3csAEJEJqY0uKO47#rd | 1| 
 | 川大信安 | chuandaxinan |  | http://mp.weixin.qq.com/s?__biz=MzIzNzAxMDE5NA==&mid=208084923&idx=1&sn=3b22f92624a9d92ed7ab9f6b856aa794&scene=23&srcid=0911Ro0EpZNiLJzfodp1PCAP | 1| 
 | 威观世界 | will-4 |  | http://mp.weixin.qq.com/s?__biz=MzA3OTQxMzEzOA==&mid=203108534&idx=1&sn=40a95bf2379a526bfa18a3c26ae15421&scene=18&scene=5#rd | 1| 
 | 市界 | ishijie2018 |  | http://mp.weixin.qq.com/s?__biz=MTA3NDI5ODU0MQ==&mid=210013213&idx=1&sn=5871afead96d9515c060c3bc140b7767 | 1| 
@@ -1128,6 +1128,7 @@
 | alsotang | 基于云计算的微博敏感信息挖掘系统 | https://github.com/alsotang/ciscn_docs | http://fxck.it/ | A fullstack JS programmer. Admin of https://cnodejs.org since 2013. | ShenZhen, China | Tencent | 166 | 0 | 1000 | 4600 | 73 | JavaScript | 0 | 0 | 1| 
 | amitshekhariitbhu | Android-Debug-Database : A library for debugging android databases and shared preferences - Make Debugging Great : | https://github.com/amitshekhariitbhu/Android-Debug-Database | https://github.com/MindorksOpenSource | IIT | Co-Founder at MindOrks & AfterAcademy | Learner & Teacher at MindOrks & AfterAcademy | Open Source Contributor | #MakeEveryoneCode | Teaching Developers | New Delhi, India | @MindorksOpenSource | 37 | 0 | 41 | 4500 | 2 | Java | 0 | 0 | 1| 
 | kesenhoo | Google Android官方培训课程中文版(v0.4) | https://github.com/kesenhoo/android-training-course-in-chinese | http://hukai.me |  | Shanghai , China | Tencent Inc. | 22 | 0 | 76 | 4200 | 36 | JavaScript,Java,HTML | 0 | 0 | 1| 
+| thelinuxchoice | 恶意Android apk生成器GetDroid v1.3发布(反向Shell)，请注意分析和防范。 | https://github.com/thelinuxchoice/getdroid | http://twitter.com/linux_choice | Twitter: @linux_choice | None | None | 112 | 0 | 38 | 4200 | 5 | Python,Shell,HTML | 1600 | 626 | 3| 
 | evilsocket | evilsocket 开源的一个利用深度学习技术辅助攻击 WiFi 的工具 | https://github.com/evilsocket/pwnagotchi/releases/tag/v1.0.0RC4 | https://www.evilsocket.net |  | Italy | Zimperium | 118 | 0 | 14 | 4100 | 0 | Go,Python,JavaScript,CSS | 6000 | 573 | 7| 
 | evilcos | XSSOR XSS测试与利用在线工具 | https://github.com/evilcos/xssor2 | https://evilcos.me | //:ALERT(/HACKING SYMBOL/)//余弦 | None | xeyeteam | 10 | 0 | 150 | 4000 | 13 | JavaScript | 0 | 0 | 3| 
 | nikic | PHP-Fuzzer - 基于代码覆盖反馈信息 Fuzz PHP libraries | https://github.com/nikic/PHP-Fuzzer | https://nikic.github.io/ |  | Berlin, Germany | JetBrains | 71 | 0 | 72 | 4000 | 24 | C,PHP | 26100 | 5900 | 1| 
@@ -1162,7 +1163,6 @@
 | alvarotrigo | fullPage.js:jQuery全屏滚动插件 | https://github.com/alvarotrigo/fullPage.js | http://alvarotrigo.com | Web developer with love for beautiful stuff. https://twitter.com/imac2 | Cambridge, UK | None | 59 | 0 | 176 | 2200 | 10 | TypeScript,JavaScript | 0 | 0 | 1| 
 | jackfrued | jackfrued/Python-100-Days: Python | https://github.com/jackfrued/Python-100-Days | http://blog.csdn.net/jackfrued | 只有非常努力，才能看起来毫不费力！ | Chengdu Sichuan, China | http://www.qfedu.com | 48 | 0 | 210 | 2200 | 1 | Python,Shell,Jupyter,JavaScript | 31600 | 11000 | 1| 
 | openbilibili | 哔哩哔哩（bilibili）站的源码疑似泄漏 | https://github.com/openbilibili/go-common | None |  | None | None | 0 | 0 | 0 | 2200 | 0 |  | 0 | 0 | 1| 
-| thelinuxchoice | Phishing Tool for 18 social media | https://github.com/thelinuxchoice/shellphish | http://twitter.com/linux_choice | Twitter: @linux_choice | None | None | 103 | 0 | 38 | 2200 | 5 | Python,Shell,HTML | 890 | 403 | 2| 
 | josephmisiti | awesome-machine-learning | https://github.com/josephmisiti/awesome-machine-learning | http://blog.josephmisiti.com/ | Mathematician & Co-founder of Math & Pencil | NYC, NY | Math & Pencil | 207 | 0 | 2200 | 2100 | 262 | Python,Objective-C,R | 40000 | 10000 | 1| 
 | mubix | Linux 后渗透测试常用命令列表: | https://github.com/mubix/post-exploitation/wiki/Linux-Post-Exploitation-Command-List | https://malicious.link/ | Certified Checkbox Unchecker | Internets | @NoVAHA | 160 | 0 | 124 | 2100 | 421 | Python,C,HTML,Ruby,C++ | 1100 | 283 | 3| 
 | ircmaxell | php-security-scanner | https://github.com/ircmaxell/php-security-scanner | http://blog.ircmaxell.com/ |  | New York, NY | None | 102 | 0 | 56 | 2000 | 7 | PHP | 2100 | 421 | 1| 
@@ -3351,6 +3351,7 @@
 | ansionasc | 2019年哈尔滨ASC安全峰会的会议PPT | https://github.com/ansionasc/ASC/tree/master/2019 | https://www.ansion.cn | Ansion Security Conference | China | Ansion | 1 | 0 | 1 | 7 | 0 |  | 14 | 5 | 1| 
 | avielw | kplugs - Linux 内核模块,提供在 Linux 内核中动态执行脚本的接口: | https://github.com/avielw/kplugs | None |  | None | None | 4 | 0 | 0 | 7 | 0 | C | 0 | 0 | 1| 
 | bonkc | Tools to gather subdomains from Bug Bounty programs | https://github.com/bonkc/BugBountySubdomains | None |  | None | None | 6 | 0 | 17 | 7 | 0 | Python,C,Ruby | 53 | 12 | 1| 
+| chompie1337 | 有研究员公开了一个三星 S8 手机利用 CVE-2019-2215 漏洞 Bypass DAC + SELinux + Knox/RKP 保护机制的完整 Exploit | https://github.com/chompie1337/s8_2019_2215_poc | None |  | None | None | 1 | 0 | 1 | 7 | 0 | C | 28 | 10 | 1| 
 | devonakerr | Proactive threat detection on Windows machines | https://github.com/devonakerr/Presentations/blob/master/Proactive%20Threat%20Detection%20-%20Windows.pdf | None |  | None | None | 1 | 0 | 44 | 7 | 5 |  | 8 | 3 | 1| 
 | eclypsium | 远程攻击 BIOS ,来自 Blackhat USA 2018 : https://github.com/eclypsium/Publications/blob/master/2018/BlackHat_USA_2018/BH2018_REMOTELY_ATACKING_SYSTEM_FIRMWARE_FINAL.pdf Additional details 版本: | https://github.com/eclypsium/Publications/blob/master/2018/DEFCON26/DC26_UEFI_EXPLOITATION_MASSES_FINAL.pdf | None |  | None | None | 2 | 0 | 0 | 7 | 0 |  | 23 | 4 | 2| 
 | grigoritchy | (browser exploit)Webkit JavascriptCore array unshift race condition, it leads to RCE. | https://github.com/grigoritchy/unshift-racy | None |  | None | None | 1 | 0 | 0 | 7 | 0 | JavaScript | 11 | 4 | 1| 
@@ -3441,6 +3442,7 @@
 | tim124058 | 华硕智能家居 App 和 HG100 网关漏洞利用代码（ CVE-2019-11061、CVE-2019-11063） | https://github.com/tim124058/ASUS-SmartHome-Exploit/ | None |  | None | None | 27 | 0 | 3 | 3 | 3 | Python,HTML,C++ | 16 | 5 | 1| 
 | x1125 | TorTrojan is a simple trojan-horse written in C# using tor to communicate | https://github.com/x1125/tor-trojan | https://1125.io/ |  | Germany | None | 31 | 0 | 30 | 3 | 0 | PHP,Java | 0 | 0 | 1| 
 | xssfile | Attack-data: A collection of pentest and development tips | https://github.com/xssfile/Attack-data | None |  | None | None | 8 | 0 | 0 | 3 | 0 | Python,C,Shell | 17 | 4 | 1| 
+| zj1244 | beholder:一款监控端口变化的系统 | https://github.com/zj1244/beholder_scanner | None |  | <img onerror=/x/> | None | 10 | 0 | 60 | 3 | 3 | Python,C,HTML,Java | 6 | 5 | 1| 
 | G-bdennour | Some Of Huawei Routers Exploits. | https://github.com/G-bdennour/Huawei | None |  | None | TITANS Sec | 1 | 0 | 0 | 2 | 0 | Python | 11 | 7 | 1| 
 | S03D4-164 | A tool from @ jpcert_en to visualize APT campaign information and to visualize relations of IOC | https://github.com/S03D4-164/Hiryu | None |  | None | None | 15 | 0 | 65 | 2 | 2 | JavaScript | 0 | 0 | 1| 
 | chipik | SAP Gateway ACL 错误配置漏洞的 Exploit | https://github.com/chipik/SAP_GW_RCE_exploit | None | https://twitter.com/_chipik | None | None | 5 | 0 | 2 | 2 | 1 | Python | 4 | 2 | 1| 
@@ -3673,6 +3675,7 @@
 | microsoft | 微软开源的支持 Checked C 版本的 clang 编译器 | https://github.com/microsoft/checkedc-clang | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Java,C#,JavaScript,C++,Python,Go,CMake,TSQL,PowerShell,HCL | 0 | 0 | 5| 
 | minisllc | Domain Hunter - 域名信誉对于攻击者从事钓鱼和 C&C 很重要,所以攻击者开始尝试注册一些过期的历史信誉良好的域名,用于躲避检测。Domain Hunter 这个工具用于识别这类域名: | https://github.com/minisllc/domainhunter | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | missDronio | MySQL盲注检测脚本 | https://github.com/missDronio/blindy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| mitre-attack | Joystick :transform the ATT&CK Evaluations data into conci... | https://github.com/mitre-attack/joystick | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,HTML,Python,JavaScript,Zeek,PowerShell | 0 | 0 | 1| 
 | mromnia | FB Event Map API | https://github.com/mromnia/fb_event_map | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | nccgroup | acCOMplice - 用于发现和利用 COM 劫持的工具，作者 9 月份在 DerbyCON 会议有过一次关于这个工具的演讲 | https://github.com/nccgroup/acCOMplice | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,C#,HTML,Shell,Elixir,Go,PowerShell,Rust | 874 | 157 | 1| 
 | net-ninja | A heap analysis tool for Immunity Debugger. | https://github.com/net-ninja/heaper | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 

@@ -1,14 +1,14 @@
-Python	63
-JavaScript	34
-C	31
+Python	65
+JavaScript	35
+C	32
+HTML	30
 C++	30
-HTML	28
 Shell	25
 Go	24
-Java	22
+Java	23
 C#	17
-PowerShell	14
-TypeScript	10
+PowerShell	15
+TypeScript	11
 CSS	10
 Ruby	9
 Rust	7
@@ -23,6 +23,7 @@ CMake	3
 YARA	2
 Nix	2
 Visual	2
+Zeek	2
 Kotlin	2
 Smarty	2
 Haskell	2
@@ -37,7 +38,6 @@ Assembly	1
 CoffeeScript	1
 VBScript	1
 MATLAB	1
-Zeek	1
 Hack	1
 TeX	1
 Smali	1
