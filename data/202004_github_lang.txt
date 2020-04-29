@@ -1,4 +1,4 @@
-Python	25
+Python	26
 JavaScript	14
 C	13
 HTML	11
@@ -7,9 +7,9 @@ C++	8
 Java	6
 Go	6
 C#	4
+PHP	4
 CSS	3
 Rust	3
-PHP	3
 PowerShell	3
 Objective-C	2
 Batchfile	2
@@ -17,6 +17,7 @@ WebAssembly	1
 TypeScript	1
 Zeek	1
 Dockerfile	1
+TSQL	1
 Visual	1
 Ruby	1
 MATLAB	1

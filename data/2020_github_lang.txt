@@ -1,4 +1,4 @@
-Python	65
+Python	66
 JavaScript	35
 C	32
 HTML	30
@@ -11,12 +11,12 @@ PowerShell	15
 TypeScript	11
 CSS	10
 Ruby	9
+PHP	8
 Rust	7
-PHP	7
 Jupyter	6
 Batchfile	6
+TSQL	4
 Perl	3
-TSQL	3
 Dockerfile	3
 Objective-C	3
 CMake	3
