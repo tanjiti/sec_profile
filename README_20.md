@@ -14,19 +14,22 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| DJ的札记 | DJ_notes | 相信技术的力量 - RSAC 2020 (2) | https://mp.weixin.qq.com/s/C_qQtuisG0NVcwad4y0BqQ | 14| 
+| Tide安全团队 | TideSec | Mimikatz的18种免杀姿势及防御策略(下) | https://mp.weixin.qq.com/s/0p88rj-tWClLa_geKMkPgw | 36| 
+| ADLab | v_adlab | 启明星辰ADLab：渗透利器Cobalt Strike在野利用情况专题分析 | https://mp.weixin.qq.com/s/Agr3doBvYMK6Bs0tH6urcw | 8| 
+| 七夜安全博客 | qiye_safe | WebShell通用免杀的思考 | https://mp.weixin.qq.com/s/GjAPqrpMT6cHwkWTRjUu1Q | 10| 
 | 安全学术圈 | secquan | 在注册时检测社交网络中的虚假账户—以Wechat为例 | https://mp.weixin.qq.com/s/DYYvjF6Rx1Xg7PVB80EKKA | 44| 
+| 网信防务 | CyberDefense | COVID-19攻击手段与数据分析 | https://mp.weixin.qq.com/s/C_BN96qI9Wb96KcyqXb4_Q | 22| 
 | SecWiki | SecWiki | SecWiki安全招聘（第31期） | https://mp.weixin.qq.com/s/oQ0s0k7y8w3qcz1Niwo_iw | 26| 
 | caoz的梦呓 | caozsay | 谈谈工作和学习中，所谓的主动性 | https://mp.weixin.qq.com/s/qB9phQwF8NulwSGINQz3yA | 1| 
 | heysec | bloodzer007 | SonarQube实现自动化代码扫描 | https://mp.weixin.qq.com/s/L5WeEFvu6etVTAigx6jjcQ | 20| 
 | 人工智能架构 |  | 基于大数据的Uber数据实时监控（Part 2：Kafka和Spark Streaming） | https://mp.weixin.qq.com/s/GAHYECAWLvOob7TSQHHaiQ | 3| 
 | 安全狗 | safedog2013 | 在网络安全领域应用机器学习的困难和对策 | https://mp.weixin.qq.com/s/j7vuiAWz6kY4ePsjb5EtDw | 2| 
 | 网信中国 | cacweixin | 网络安全审查办法 | https://mp.weixin.qq.com/s/nAjbLxdDnflhc_89y0e01Q | 2| 
-| 七夜安全博客 | qiye_safe | WebShell 干掉 RASP | https://mp.weixin.qq.com/s/yykliM-b4_rStX5ucPWO2w | 9| 
 | 君哥的体历 | jungedetili | 何艺：零信任安全架构实践之路 | https://mp.weixin.qq.com/s/jWBnS144PvBRM-wnMnwseA | 38| 
 | 百度安全应急响应中心 | baidu_sec | 构建企业级研发安全编码规范 | https://mp.weixin.qq.com/s/PNvCvV4gYJkfIsKJ1ccneA | 3| 
 | 谛听ditecting |  | 2019年工业控制网络安全态势白皮书 | https://mp.weixin.qq.com/s/phcpafQnNBnyQ10FOcSriQ | 3| 
 | qz安全情报分析 | lookvul | 刨析NSA/ASD的WebShell防御指南 | https://mp.weixin.qq.com/s/oswnCc18UhYOrc6OC0COaA | 4| 
-| Tide安全团队 | TideSec | 远控免杀专题(67)-白名单(113个)总结篇 | https://mp.weixin.qq.com/s/2bC5otYgIgGnod-cXwkfqw | 30| 
 | VIPKID安全响应中心 | vk_src | 【技术分享】基于数据流的越权检测 | https://mp.weixin.qq.com/s/FC6ROeMAdGUxkjVjFd914A | 1| 
 | 安全研究与实践 | secsky001 | 体系化的WAF安全运营实践 | https://mp.weixin.qq.com/s/BiH23k7xAeuwb5wwaOEKVw | 1| 
 | 白帽汇 | baimaohui888 | 打“怪”升级的靶场——Vulfocus | https://mp.weixin.qq.com/s/ArDDWYuc1A64qUzeyPRzZA | 4| 
@@ -97,7 +100,6 @@
 | 字节跳动技术团队 | toutiaotechblog | 字节跳动自研万亿级图数据库 & 图计算实践 | https://mp.weixin.qq.com/s/uYP8Eyz36JyTWska0hvtuA | 1| 
 | 时间之外沉浮事 | tasnrh | 商业网络培训靶场的形态及思考 | https://mp.weixin.qq.com/s/kbiZuNEnhb-WggRemUN9TQ | 15| 
 | 奇安信安全服务 |  | 红队实战攻防技术分享：Linux后门总结-各类隐藏技能 | https://mp.weixin.qq.com/s/B5cam9QN8eDHFuaFjBD34Q | 1| 
-| DJ的札记 | DJ_notes | 创新沙盒，罕见领域分布的背后 - RSAC 2020 (1) | https://mp.weixin.qq.com/s/ExGnLLzd1wBDksGFfimULw | 13| 
 | 关键基础设施安全应急响应中心 | CII-SRC | 原创 | 固件攻击研究综述 | https://mp.weixin.qq.com/s/Qjvirq2sVO9nPBauBRGS4Q | 2| 
 | 悬剑武器库 |  | WebShell免杀之JSP | https://mp.weixin.qq.com/s/YJtfQTvowVr2azqBWGla1Q | 1| 
 | 数说安全 | SSAQ2016 | 谈谈2020年RSA创新沙盒10强及其对中国创业者的价值 | https://mp.weixin.qq.com/s/z0xsJGSMWbQy60_QmArmQA | 27| 
@@ -106,7 +108,6 @@
 | 互联网安全内参 | anquanneican | RSAC 2020创新沙盒十强分析：应用安全、云安全为技术热点方向 | https://mp.weixin.qq.com/s/UFlsR8NBFYpHUUWuJG-nPQ | 4| 
 | 安全客 | anquanbobao | GitHub敏感数据泄露报告 | https://mp.weixin.qq.com/s/6RELktZJF2pn4rL-0-Y7Jw | 7| 
 | 网信军民融合 | wxjmrh | 研究探讨 | 军工领域建设网络安全攻防靶场平台的思路 | https://mp.weixin.qq.com/s/UmW3WCtDIOWw1bXfJnLnhg | 4| 
-| 网信防务 | CyberDefense | 美国（军）态势感知体系能力分析 | https://mp.weixin.qq.com/s/SGi2BRpR7DVEJvekd7d2Jw | 21| 
 | APT攻击 | cncg_team | 对zimbra邮服认证机制的一些探索 | https://mp.weixin.qq.com/s/u-p6_srzby1bbejqClmf-A | 5| 
 | 中国计算机学会 | ccfvoice | CCCF译文 | 工业级知识图谱：经验与挑战 | https://mp.weixin.qq.com/s/4Fdpik3EtEng-ri_7tGM0A | 1| 
 | 白日放歌须纵9 |  | 从产品视角重新定义“检测”和“分析” | https://mp.weixin.qq.com/s/oq3T1fSKAHeDfWZNpciXSw | 1| 
@@ -115,7 +116,6 @@
 | 电科防务 | CETC-ETDR | 世界网络战领域2019年发展回顾与2020年展望 | https://mp.weixin.qq.com/s/Mx3H2Za7hI9ZZIaZedmXBQ | 2| 
 | FreeBuf | freebuf | Go语言代码安全审计分享 | https://mp.weixin.qq.com/s/8Ju05hYCYk6bOgkvjtP11A | 20| 
 | 虎符智库 |  | 情报内生：高级威胁检测的必要条件 | https://mp.weixin.qq.com/s/U3XKIh0ffdzuCJihnJL7Lw | 1| 
-| ADLab | v_adlab | ThinkPHP6任意文件操作漏洞分析 | https://mp.weixin.qq.com/s/UPu6cE20l24T6fkYOlSUJw | 7| 
 | 数世咨询 |  | 数世咨询：中国网络安全能力图谱（2020年1月） | https://mp.weixin.qq.com/s/Qwhr6SlzFDqHB2b6Q6awdw | 2| 
 | 平凡路上 |  | 科恩面试与实习感想 | https://mp.weixin.qq.com/s/GiIIUZbzq2IOp5-arkUCfg | 1| 
 | 鱼塘领路人 | KingofSaltedFish | 威胁情报系列（一）：什么是威胁情报 | https://mp.weixin.qq.com/s/f9G818SGijdfS13KjLnFoA | 1| 
@@ -2316,6 +2316,7 @@
 | yanxiu0614 | subdomain3:a simple and fast tool for bruting subdomains | https://github.com/yanxiu0614/subdomain3 | None | A person who can not do anything! | None | china | 3 | 0 | 111 | 82 | 12 | Python | 365 | 97 | 1| 
 | BatchDrake | SigDigger - 基于 QT 编写的数字信号分析工具 | https://github.com/BatchDrake/SigDigger | http://actinid.org | I code for fun. Interested in reverse engineering, astronomy, microkernel design, radio and digital signal processing. EA1IYR | Madrid, Spain | None | 25 | 0 | 5 | 81 | 4 | C,CSS,C++ | 95 | 13 | 1| 
 | DiabloHorn | undetected-meterpreter-stagers:Custom stagers with python encrypting proxy | https://github.com/DiabloHorn/undetected-meterpreter-stagers | http://diablohorn.wordpress.com | Curious about security | None | None | 22 | 0 | 0 | 81 | 0 | Python,C,C++ | 78 | 16 | 1| 
+| NoorQureshi | Kali Linux 渗透测试手册 | https://github.com/NoorQureshi/kali-linux-cheatsheet | https://github.com/RocketChat | #Hackers Are Real, Monsters are real too. They live inside us, and sometimes, They Win. | None | @RocketChat | 187 | 0 | 106 | 81 | 37 | Python,Shell | 288 | 116 | 1| 
 | k3170makan | PyMLProjects: Python 机器学习项目: | https://github.com/k3170makan/PyMLProjects | https://blog.k3170makan.com |  | Cape Town | None | 29 | 0 | 70 | 81 | 10 | Python,C,Shell | 128 | 29 | 1| 
 | marin-m | pbtk: A toolset for reverse engineering and fuzzing Protobuf-based apps | https://github.com/marin-m/pbtk | https://medium.com/@marin_m |  | Paris, France | None | 3 | 0 | 0 | 81 | 0 | Python | 503 | 53 | 1| 
 | Gbps | Gbhv - 一款简单的 x86-64 VT-x Hypervisor ,帮助学习使用和开发 VT-X 硬件虚拟化技术: | https://github.com/Gbps/gbhv | http://www.ctf.re/ | I do security things. | Carnegie Mellon University | None | 20 | 0 | 37 | 80 | 15 | Python,C,CSS,C++ | 0 | 0 | 1| 
@@ -2696,6 +2697,7 @@
 | tillmannw | prowler:Base Code for P2P Network Crawlers | https://github.com/tillmannw/prowler | None |  | None | None | 7 | 0 | 0 | 45 | 0 | Python,Lua,C | 71 | 16 | 1| 
 | toyakula | Luna: 开源的轻量级被动式扫描框架 | https://github.com/toyakula/luna | None |  | None | None | 1 | 0 | 2 | 45 | 0 | Python | 264 | 64 | 1| 
 | wavestone-cdt | wavecrack - 调用 Hashcat 进行密码破解的 Web 操作接口: | https://github.com/wavestone-cdt/wavecrack | http://www.wavestone.com | Projects from the auditors and consultants from Wavestones Cybersecurity & Digital Trust practice | None | Wavestone | 8 | 0 | 0 | 45 | 1 | Python,Ruby,PowerShell | 161 | 43 | 1| 
+| 0xricksanchez | HITB 2020 Lockdown 会议 《Fuzz 文件系统的实现》议题的代码与 PPT | https://github.com/0xricksanchez/fs-fuzzer | http://0x434b.dev | Trying to advance in the areas of IT-Sec, reversing and hacking. Also doing administrative jobs @ www.0x00sec.org | @0xricksanchez | None | 14 | 0 | 395 | 44 | 46 | Python,Shell,CSS | 10 | 4 | 1| 
 | ALSchwalm | dwarfexport - 从 IDA Pro 中导出 dwarf 调试信息的工具,dawrf 信息可以导入 gdb 等调试器: | https://github.com/ALSchwalm/dwarfexport | https://github.com/starlab-io | Im a software engineer and security researcher, mostly working with rust and C. Sometimes some elisp stuff too. | Huntsville, AL | @starlab-io | 95 | 0 | 162 | 44 | 5 | Python,C,Emacs,Rust,C++ | 0 | 0 | 1| 
 | HackingThings | Just finished uploading all past publications, including code and demo videos. now available at | https://github.com/HackingThings/Publications | http://laplinker.com |  | None | None | 8 | 0 | 14 | 44 | 12 | C#,JavaScript,HTML | 48 | 16 | 1| 
 | Markus-Go | bonesi - 在实验环境下模拟 DDoS 攻击流量的工具: | https://github.com/Markus-Go/bonesi | http://www.goldiges.de/ |  | None | None | 7 | 0 | 0 | 44 | 0 | C,Java,C++ | 339 | 112 | 1| 
@@ -3677,7 +3679,7 @@
 | microsoft | 微软开源的支持 Checked C 版本的 clang 编译器 | https://github.com/microsoft/checkedc-clang | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Java,C#,JavaScript,C++,Python,Go,CMake,TSQL,PowerShell,HCL | 0 | 0 | 5| 
 | minisllc | Domain Hunter - 域名信誉对于攻击者从事钓鱼和 C&C 很重要,所以攻击者开始尝试注册一些过期的历史信誉良好的域名,用于躲避检测。Domain Hunter 这个工具用于识别这类域名: | https://github.com/minisllc/domainhunter | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | missDronio | MySQL盲注检测脚本 | https://github.com/missDronio/blindy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
-| mitre-attack | ATT&CK 安全框架辅助分析工具 | https://github.com/mitre-attack/joystick | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,HTML,Python,JavaScript,Zeek,PowerShell | 0 | 0 | 1| 
+| mitre-attack | Joystick :transform the ATT&CK Evaluations data into conci... | https://github.com/mitre-attack/joystick | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,HTML,Python,JavaScript,Zeek,PowerShell | 0 | 0 | 1| 
 | mromnia | FB Event Map API | https://github.com/mromnia/fb_event_map | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | nccgroup | acCOMplice - 用于发现和利用 COM 劫持的工具，作者 9 月份在 DerbyCON 会议有过一次关于这个工具的演讲 | https://github.com/nccgroup/acCOMplice | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,C#,HTML,Shell,Elixir,Go,PowerShell,Rust | 874 | 157 | 1| 
 | net-ninja | A heap analysis tool for Immunity Debugger. | https://github.com/net-ninja/heaper | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
