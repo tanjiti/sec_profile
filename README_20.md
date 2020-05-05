@@ -14,13 +14,14 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 安全学术圈 | secquan | Understanding E-commerce Fraud from Autonomous Chat | https://mp.weixin.qq.com/s/uzGQxgfaUufsDSvcYIIYig | 45| 
+| ipasslab |  | 学术报告|协议模糊测试相关技术梳理 | https://mp.weixin.qq.com/s/RCpAUpFEzbSewEnWpHrsqw | 1| 
 | 湛卢工作室 | xuehao_studio | 劳动节 | 说说代理池 | https://mp.weixin.qq.com/s/ERU3L2WIMiPNNdTTX164Og | 7| 
 | DJ的札记 | DJ_notes | 相信技术的力量 - RSAC 2020 (2) | https://mp.weixin.qq.com/s/C_qQtuisG0NVcwad4y0BqQ | 14| 
-| Tide安全团队 | TideSec | Mimikatz的18种免杀姿势及防御策略(下) | https://mp.weixin.qq.com/s/0p88rj-tWClLa_geKMkPgw | 36| 
+| Tide安全团队 | TideSec | Mimikatz的18种免杀姿势及防御策略(下) | https://mp.weixin.qq.com/s/0p88rj-tWClLa_geKMkPgw | 37| 
 | 安全喷子 |  | 2019年网络安全报告精选 | https://mp.weixin.qq.com/s/YCSuRXhiFYGaE-f3_C8l5A | 7| 
 | ADLab | v_adlab | 启明星辰ADLab：渗透利器Cobalt Strike在野利用情况专题分析 | https://mp.weixin.qq.com/s/Agr3doBvYMK6Bs0tH6urcw | 8| 
 | 七夜安全博客 | qiye_safe | WebShell通用免杀的思考 | https://mp.weixin.qq.com/s/GjAPqrpMT6cHwkWTRjUu1Q | 10| 
-| 安全学术圈 | secquan | 在注册时检测社交网络中的虚假账户—以Wechat为例 | https://mp.weixin.qq.com/s/DYYvjF6Rx1Xg7PVB80EKKA | 44| 
 | 网信防务 | CyberDefense | COVID-19攻击手段与数据分析 | https://mp.weixin.qq.com/s/C_BN96qI9Wb96KcyqXb4_Q | 22| 
 | SecWiki | SecWiki | SecWiki安全招聘（第31期） | https://mp.weixin.qq.com/s/oQ0s0k7y8w3qcz1Niwo_iw | 26| 
 | caoz的梦呓 | caozsay | 谈谈工作和学习中，所谓的主动性 | https://mp.weixin.qq.com/s/qB9phQwF8NulwSGINQz3yA | 1| 
@@ -2514,6 +2515,7 @@
 | reinterpretcat | 用于构建 LFS(Linux From Scratch system)系统的 Docker 配置文件: | https://github.com/reinterpretcat/lfs | None |  | Berlin, Germany | None | 10 | 0 | 3 | 60 | 2 | Shell,C++ | 0 | 0 | 1| 
 | ssun125 | Lanmitm:Android中间人攻击测试工具 | https://github.com/ssun125/Lanmitm | None | show me the code. | None | 奇虎360，美团网 | 5 | 0 | 9 | 60 | 1 | Java | 0 | 0 | 1| 
 | vvalien | Running shellcode inside msbuild...https://github.com/vvalien/SharpMeter | https://github.com/vvalien/SharpMeter | None | Busy hacking all the things. | None | None | 29 | 0 | 16 | 60 | 8 | Python,C,Shell | 138 | 50 | 1| 
+| wooyunwang | Fortify: 源代码漏洞の审计 | https://github.com/wooyunwang/Fortify | http://www.52pwn.club/ | A strange guy who will make the world a better place! | California | Google Inc. | 27 | 0 | 15 | 60 | 14 | Python,C#,Java,PowerShell | 322 | 104 | 1| 
 | yrp604 | atc-sources -《A Guide To Kernel Exploitation: Attacking the Core》书籍相关源码: | https://github.com/yrp604/atc-sources | None |  | Vancouver, BC | None | 32 | 0 | 76 | 60 | 0 | C,C++ | 702 | 39 | 2| 
 | Geluchat | 研究员Geluchat公开了若干针对Chrome V8引擎的1day漏洞和比赛题目的exploit。 | https://github.com/Geluchat/chrome_v8_exploit | https://www.dailysecurity.fr |  | France | None | 7 | 0 | 49 | 59 | 11 | Python,C,JavaScript,PHP | 31 | 5 | 1| 
 | Rizer0 | Blind-Bash - bash 脚本混淆项目: | https://github.com/Rizer0/Blind-Bash | https://killshot-sec.com | Security Researcher / Developer From | Syria,Homs | System Crashers | 4 | 0 | 14 | 59 | 1 | PHP | 0 | 0 | 2| 
