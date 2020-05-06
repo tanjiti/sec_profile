@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
+import codecs
 import os
 import re
-import codecs
 import sys
 
 reload(sys)
@@ -200,7 +200,10 @@ def draw_table(so, source="weixin", top=100, year="2019"):
     :return:
     """
     if source == "weixin":
-        sql = "select nickname_english,weixin_no,title,url,count(*) as c from weixin where ts like '{year}%' and nickname_english != '' group by nickname_english order by ts desc  "
+        sql = "select nickname_english,weixin_no,title,url,count(*) as c " \
+              "from weixin " \
+              "where ts like '{year}%' and nickname_english != '' " \
+              "group by nickname_english order by ts desc  "
         header = ["nickname_english", "weixin_no", "title", "url"]
 
     elif source == "github_org":
@@ -274,7 +277,12 @@ def markdown_table(rets):
     markdown_rets.append(header_sep_str)
 
     for ret in rets[1:]:
-        column_str = " | ".join([str(_) for _ in ret])
+        ret_new = []
+        for s in ret:
+            s = str(s)
+            s = s.replace('|', ',')
+            ret_new.append(s)
+        column_str = " | ".join(ret_new)
         column_str = "| %s| " % column_str
         markdown_rets.append(column_str)
 

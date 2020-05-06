@@ -41,7 +41,9 @@ def get_network_id(so, source="weixin", proxy=None, retry=3, timeout=10):
 
     for info_source in ["secwiki", "xuanwu"]:
 
-        sql = "select distinct url,title,ts,tag from {source}_detail where url like '%{keyword}%'".format(
+        sql = "select " \
+              "distinct url,title,ts,tag " \
+              "from {source}_detail where url like '%{keyword}%'".format(
             keyword=keyword,
             source=info_source
         )
@@ -88,7 +90,6 @@ def get_network_id(so, source="weixin", proxy=None, retry=3, timeout=10):
 
             elif source == "twitter":
 
-
                 details = get_twitter_info(url, title, ts=ts, tag=tag,
                                            proxy=proxy,
                                            retry=retry, timeout=timeout)
@@ -112,8 +113,6 @@ def get_network_id(so, source="weixin", proxy=None, retry=3, timeout=10):
                     logging.error("[replace_failed]: %s e(%s)" % (update_sql, str(e)))
 
 
-
-
 if __name__ == "__main__":
     """
     """
@@ -121,5 +120,5 @@ if __name__ == "__main__":
     so = SQLiteOper("data/scrap.db")
 
     # 获得安全从业人员账号
-    for source in ['weixin']: #'github',  'twitter']:
+    for source in ['weixin']:  # 'github',  'twitter']:
         get_network_id(so, source=source)
