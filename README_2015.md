@@ -1,3 +1,5 @@
+# [数据--所有](README_20.md)
+# [数据--年度](README_2015.md)
 # 2015 信息源与信息类型占比
 ![2015-信息源占比-secwiki](data/img/domain/2015-信息源占比-secwiki.png)
 
@@ -12,48 +14,48 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
-| iPolicyLaw | iPolicyLaw |  | http://mp.weixin.qq.com/s?__biz=MzA5MTg4MjA2Mw==&mid=401404699&idx=1&sn=0837277eba166cdc2e260cc97d15ec7c&scene=23 | 1| 
-| 301在路上 | a301zls |  | http://mp.weixin.qq.com/s?__biz=MzIwMTQ2NzY4NA==&mid=400407181&idx=1&sn=cf6cb8a5573a11afa0a315ad4bebba13&scene=23&srcid=1115EFIhpnzCCp1knXKbo8xp#rd | 1| 
-| 阿里聚安全 | alijaq |  | http://mp.weixin.qq.com/s?__biz=MzIwMTI4Nzk5Ng==&mid=400486988&idx=1&sn=8b5098334c521a7771ebceb6f42b5d7b&scene=1 | 1| 
-| BeaconLab |  |  | http://mp.weixin.qq.com/s?__biz=MzA5OTMwMzY1NQ==&mid=400149980&idx=1&sn=37ef74024030e91408a3105ac52cc105 | 1| 
-| 新智元 | AI_era |  | http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=400323118&idx=1&sn=3b403af3c0b25f2491f0bd7310b612aa | 1| 
-| 高可用架构 | ArchNotes |  | http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=400931866&idx=1&sn=b96873fc9f726e5705b2653968f1d992 | 1| 
-| E安全 | EAQapp |  | http://mp.weixin.qq.com/s?__biz=MzI4MjA1MzkyNA==&mid=400213000&idx=1&sn=adeee3ed3781788684143f61b9a8986c&scene=1 | 1| 
-| 待字闺中 | daiziguizhongren |  | http://mp.weixin.qq.com/s?__biz=MjM5ODIzNDQ3Mw==&mid=208693972&idx=1&sn=96ad4367776df79ec64b6ffc16865cd4&scene=0#rd | 2| 
-| 安在 | AnZer_SH |  | http://mp.weixin.qq.com/s?__biz=MzIzMTAzNzUxMQ==&mid=211211306&idx=1&sn=ecbd6718cda78fd402806e7db51ed7e7&scene=20&scene=23&srcid=0921ExCklh54cX4myw4Nm60P#rd | 4| 
-| 看雪学院 | ikanxue |  | http://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=207454569&idx=1&sn=dfe3f6d6d6cf7ea64e1aaccf66b8602a&scene=0#rd | 1| 
-| 川大信安 | chuandaxinan |  | http://mp.weixin.qq.com/s?__biz=MzIzNzAxMDE5NA==&mid=208084923&idx=1&sn=3b22f92624a9d92ed7ab9f6b856aa794&scene=23&srcid=0911Ro0EpZNiLJzfodp1PCAP | 1| 
-| SecWiki | SecWiki |  | http://mp.weixin.qq.com/s?__biz=MjM5NDM1OTM0Mg==&mid=207464484&idx=1&sn=040d0d9eeed1e31eaac369f08722c72a&scene=5#rd | 2| 
-| DJ的札记 | DJ_notes |  | http://mp.weixin.qq.com/s?__biz=MzAwNjA3MzEwNg==&mid=207876533&idx=1&sn=583a0e7e979c072a6852e703169821bd&3rd=MzA3MDU4NTYzMw==&scene=6#rd | 1| 
-| 威观世界 | will-4 |  | http://mp.weixin.qq.com/s?__biz=MzA3OTQxMzEzOA==&mid=203108534&idx=1&sn=40a95bf2379a526bfa18a3c26ae15421&scene=18&scene=5#rd | 1| 
-| 懒人在思考 | lazy-thought |  | http://mp.weixin.qq.com/s?__biz=MzA3NTEzMTUwNA==&mid=210199489&idx=1&sn=eaee28e27bbe511ff92b33b919a36824&scene=5#rd | 1| 
-| 市界 | ishijie2018 |  | http://mp.weixin.qq.com/s?__biz=MTA3NDI5ODU0MQ==&mid=210013213&idx=1&sn=5871afead96d9515c060c3bc140b7767 | 1| 
-| T00ls | T00lsNet |  | http://mp.weixin.qq.com/s?__biz=MjM5MDkwNjA2Nw==&mid=207127230&idx=4&sn=31cf9f24128063aceb22b29386a1414f&key=af154fdc40fed00344bc7138106964ec89f110774db68ac2c5471d4ed41c57cd6921677a45e312dc708a1bd532128d6f&ascene=0&uin=NjY5NjY5MDgw | 1| 
-| TOMsInsight | TOMsInsight |  | http://mp.weixin.qq.com/s?__biz=MzA3NTcwOTIwNg==&mid=206803402&idx=1&sn=07072c12e61817f3403ee9b31ef9a979&scene=4#wechat_redirect | 1| 
-| 一丁闲思路 | yd-think |  | http://mp.weixin.qq.com/s?__biz=MzAxMjAwMjUxNQ==&mid=207881605&idx=1&sn=2fce890233828adaa90364e3c8633f4a&scene=1 | 1| 
-| 该帐号已冻结 | close_3007026920 |  | http://mp.weixin.qq.com/s?__biz=MzAwNzAyNjkyMA==&mid=207687691&idx=1&sn=ce3d208fbc6cbb38271afdf65aff4f54&scene=5#rd | 1| 
-| Trustdata大数据 | TrustData |  | http://mp.weixin.qq.com/s?__biz=MzA4Nzc3MzA4OA==&mid=207253300&idx=1&sn=c3549aa82d3250261c60cf6b27c2429c | 1| 
-| 北美工程师求职顾问 | office-hour |  | http://mp.weixin.qq.com/s?__biz=MzA4MjQwNTExMA==&mid=205386787&idx=1&sn=04788f1dc8352ca32948460bd6e3fe31 | 1| 
-| 安天 | Antiylab |  | http://mp.weixin.qq.com/s?__biz=MjM5MTA3Nzk4MQ==&amp;mid=207025811&amp;idx=1&amp;sn=76130bdd0d6273af23f234e13faa160f#rd | 2| 
-| SAINTSEC | SAINTSEC |  | http://mp.weixin.qq.com/s?__biz=MjM5MjEyMTcyMQ==&mid=208021695&idx=2&sn=9c6f579e7e819f797cfc023359698c51#rd | 1| 
-| 张三丰的疯言疯语 | zsfnotes |  | http://mp.weixin.qq.com/s?__biz=MzA3MTUwMzI5Nw==&mid=213825938&idx=1&sn=2a5ec95e8a12a5e7e6971ae76965a2cc&scene=1&from=groupmessage&isappinstalled=0#rd | 1| 
-| 绿盟科技 | NSFOCUS-weixin |  | http://mp.weixin.qq.com/s?__biz=MjM5ODYyMTM4MA==&mid=205178018&idx=1&sn=cea04c7ac59e47c8615d46957771ddc3#rd | 2| 
-| 安全牛 | aqniu-wx |  | http://mp.weixin.qq.com/s?__biz=MjM5Njc3NjM4MA==&mid=204220396&idx=1&sn=5b03e1aba05205d0d776cc467ba2aeb5&scene=2&from=timeline&isappinstalled=0#rd | 2| 
-| 大数据邦 | bigdatabang |  | http://mp.weixin.qq.com/s?__biz=MjM5MTQ4NzgwNA==&mid=202880218&idx=6&sn=6784f6074c5cb3f4d3880890cb0ca802&scene=2&key=79cf83ea5128c3e5a6321fe2b80da0a2f3ad9e27c6fd428c41fb23b425a82bff3aa2dd9aa7c902a3b22a35a041cfa814&ascene=1&uin=MjI2NDkwNDk2MA%3D%3D&de | 1| 
-| 实验万事屋 | Whateverysearch |  | http://mp.weixin.qq.com/s?__biz=MzA3ODU1NjUyNw==&mid=203877137&idx=1&sn=298714542e7011ffe9fcc551f51d3169&scene=1 | 1| 
-| 政治学与国际关系论坛 | sinozhuge |  | http://mp.weixin.qq.com/s?__biz=MjM5NDMzNTk2MA==&mid=202435694&idx=3&sn=2e67bdf66924b00507855140d2e02630&scene=2&from=timeline&isappinstalled=0%23rd | 1| 
+| iPolicyLaw | iPolicyLaw | 工业和信息化部关于公布2015年电信行业网络安全试点示范项目的通知 | http://mp.weixin.qq.com/s?__biz=MzA5MTg4MjA2Mw==&mid=401404699&idx=1&sn=0837277eba166cdc2e260cc97d15ec7c&scene=23 | 1| 
+| 301在路上 | a301zls | 招人必看！301浅谈国内安全人才薪酬现状 | http://mp.weixin.qq.com/s?__biz=MzIwMTQ2NzY4NA==&mid=400407181&idx=1&sn=cf6cb8a5573a11afa0a315ad4bebba13&scene=23&srcid=1115EFIhpnzCCp1knXKbo8xp#rd | 1| 
+| 阿里聚安全 | alijaq | GPS和WiFi位置时间攻击及防御 - 阿里移动安全BlackHat Europe议题 | http://mp.weixin.qq.com/s?__biz=MzIwMTI4Nzk5Ng==&mid=400486988&idx=1&sn=8b5098334c521a7771ebceb6f42b5d7b&scene=1 | 1| 
+| BeaconLab |  | 揭秘VxWorks——直击物联网安全罩门 | http://mp.weixin.qq.com/s?__biz=MzA5OTMwMzY1NQ==&mid=400149980&idx=1&sn=37ef74024030e91408a3105ac52cc105 | 1| 
+| 新智元 | AI_era | 【专访吴恩达】百度人工智能杀毒，探索深度神经网络查杀技术 | http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=400323118&idx=1&sn=3b403af3c0b25f2491f0bd7310b612aa | 1| 
+| 安全牛 | aqniu-wx | 《中国网络安全企业50强》重磅发布 | http://mp.weixin.qq.com/s?__biz=MjM5Njc3NjM4MA==&mid=400078382&idx=1&sn=12293ffb5a79b1f992fd299aae3802c1&scene=2 | 2| 
+| 高可用架构 | ArchNotes | 腾讯防刷负责人：基于用户画像大数据的电商防刷架构 | http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=400931866&idx=1&sn=b96873fc9f726e5705b2653968f1d992 | 1| 
+| E安全 | EAQapp | 资讯｜32个国家和地区被部署了间谍软件FinFisher | http://mp.weixin.qq.com/s?__biz=MzI4MjA1MzkyNA==&mid=400213000&idx=1&sn=adeee3ed3781788684143f61b9a8986c&scene=1 | 1| 
+| 安在 | AnZer_SH | 【访谈】TK，从“妇科圣手”到“黑客教主 | http://mp.weixin.qq.com/s?__biz=MzIzMTAzNzUxMQ==&mid=212637987&idx=2&sn=80a99bf86a58d6b3db3a98ef12b80667&scene=23&srcid=1012zQnVKhOjtzd9pj4Ec5Mm#rd | 4| 
+| 待字闺中 | daiziguizhongren | 决策树模型组合之随机森林与GBDT | http://mp.weixin.qq.com/s?__biz=MjM5ODIzNDQ3Mw==&mid=208679963&idx=1&sn=f43df65e2c5d274c27bfcfe55177364b&scene=0#rd | 2| 
+| 安天 | Antiylab | 【安天】Xcode非官方版本恶意代码污染事件（XcodeGhost）的分析与综述 | http://mp.weixin.qq.com/s?__biz=MjM5MTA3Nzk4MQ==&mid=211283363&idx=1&sn=0be9595fe5e4e9e43b749f53297c2f48&scene=1 | 2| 
+| 看雪学院 | ikanxue | 《2015MSC移动安全挑战赛》15万奖金等你赢！ | http://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=207454569&idx=1&sn=dfe3f6d6d6cf7ea64e1aaccf66b8602a&scene=0#rd | 1| 
+| 川大信安 | chuandaxinan | 小黑视角：探秘钓鱼短信背后的那些事 | http://mp.weixin.qq.com/s?__biz=MzIzNzAxMDE5NA==&mid=208084923&idx=1&sn=3b22f92624a9d92ed7ab9f6b856aa794&scene=23&srcid=0911Ro0EpZNiLJzfodp1PCAP | 1| 
+| 绿盟科技 | NSFOCUS-weixin | 技术分享 , 业务系统异常行为检测 | http://mp.weixin.qq.com/s?__biz=MjM5ODYyMTM4MA==&mid=209072562&idx=1&sn=61bb0c4cd1cb8ccc9a80784c0e73a5cf&scene=23 | 2| 
+| SecWiki | SecWiki | 2015 DEF CON 演示实验室工具抢先看(上) | http://mp.weixin.qq.com/s?__biz=MjM5NDM1OTM0Mg==&mid=207449906&idx=1&sn=f115a177eb7813746cbf1d5e850bcf67&scene=5#rd | 2| 
+| DJ的札记 | DJ_notes | 恶意域名识别与分析 | http://mp.weixin.qq.com/s?__biz=MzAwNjA3MzEwNg==&mid=207876533&idx=1&sn=583a0e7e979c072a6852e703169821bd&3rd=MzA3MDU4NTYzMw==&scene=6#rd | 1| 
+| 威观世界 | will-4 | 【创客】（PPT）信息安全产业与投资 | http://mp.weixin.qq.com/s?__biz=MzA3OTQxMzEzOA==&mid=203108534&idx=1&sn=40a95bf2379a526bfa18a3c26ae15421&scene=18&scene=5#rd | 1| 
+| 懒人在思考 | lazy-thought | 黑客圈那些鲜为人知的公众号之威胁情报 | http://mp.weixin.qq.com/s?__biz=MzA3NTEzMTUwNA==&mid=210199489&idx=1&sn=eaee28e27bbe511ff92b33b919a36824&scene=5#rd | 1| 
+| 市界 | ishijie2018 | 中国黑客｜封面报道 | http://mp.weixin.qq.com/s?__biz=MTA3NDI5ODU0MQ==&mid=210013213&idx=1&sn=5871afead96d9515c060c3bc140b7767 | 1| 
+| T00ls | T00lsNet | 渗透XXX.LA, 爆MyPasteBox菊花, 为Fxxxxxx报仇!!!! | http://mp.weixin.qq.com/s?__biz=MjM5MDkwNjA2Nw==&mid=207127230&idx=4&sn=31cf9f24128063aceb22b29386a1414f&key=af154fdc40fed00344bc7138106964ec89f110774db68ac2c5471d4ed41c57cd6921677a45e312dc708a1bd532128d6f&ascene=0&uin=NjY5NjY5MDgw | 1| 
+| TOMsInsight | TOMsInsight | 互联网黑市分析：DDoS 启示录 | http://mp.weixin.qq.com/s?__biz=MzA3NTcwOTIwNg==&mid=206803402&idx=1&sn=07072c12e61817f3403ee9b31ef9a979&scene=4#wechat_redirect | 1| 
+| 一丁闲思路 | yd-think | 【精】华为内部的Web安全原则 | http://mp.weixin.qq.com/s?__biz=MzAxMjAwMjUxNQ==&mid=207881605&idx=1&sn=2fce890233828adaa90364e3c8633f4a&scene=1 | 1| 
+| 该帐号已冻结 | close_3007026920 | “Insider Threats”解读（1）：Vectra-基于网络流量的异常行为分析系统 | http://mp.weixin.qq.com/s?__biz=MzAwNzAyNjkyMA==&mid=207687691&idx=1&sn=ce3d208fbc6cbb38271afdf65aff4f54&scene=5#rd | 1| 
+| Trustdata大数据 | TrustData | 2015年1-4月中国移动互联网行业发展分析报告 | http://mp.weixin.qq.com/s?__biz=MzA4Nzc3MzA4OA==&mid=207253300&idx=1&sn=c3549aa82d3250261c60cf6b27c2429c | 1| 
+| 北美工程师求职顾问 | office-hour | 目前硅谷最火最有名的高科技创业公司和技术都有哪些？ | http://mp.weixin.qq.com/s?__biz=MzA4MjQwNTExMA==&mid=205386787&idx=1&sn=04788f1dc8352ca32948460bd6e3fe31 | 1| 
+| SAINTSEC | SAINTSEC | 火眼——比黑客更黑的抹黑中国之举 | http://mp.weixin.qq.com/s?__biz=MjM5MjEyMTcyMQ==&mid=208021695&idx=2&sn=9c6f579e7e819f797cfc023359698c51#rd | 1| 
+| 张三丰的疯言疯语 | zsfnotes | Verizon新鲜发布2015年数据泄露调查报告DBIR | http://mp.weixin.qq.com/s?__biz=MzA3MTUwMzI5Nw==&mid=213825938&idx=1&sn=2a5ec95e8a12a5e7e6971ae76965a2cc&scene=1&from=groupmessage&isappinstalled=0#rd | 1| 
+| 大数据邦 | bigdatabang | 大数据分析与机器学习领域Python兵器谱 | http://mp.weixin.qq.com/s?__biz=MjM5MTQ4NzgwNA==&mid=202880218&idx=6&sn=6784f6074c5cb3f4d3880890cb0ca802&scene=2&key=79cf83ea5128c3e5a6321fe2b80da0a2f3ad9e27c6fd428c41fb23b425a82bff3aa2dd9aa7c902a3b22a35a041cfa814&ascene=1&uin=MjI2NDkwNDk2MA%3D%3D&de | 1| 
+| 实验万事屋 | Whateverysearch | 国际学术期刊的四大巨头 | http://mp.weixin.qq.com/s?__biz=MzA3ODU1NjUyNw==&mid=203877137&idx=1&sn=298714542e7011ffe9fcc551f51d3169&scene=1 | 1| 
+| 政治学与国际关系论坛 | sinozhuge | [网络安全]美国网络信息安全产业格局分析报告 | http://mp.weixin.qq.com/s?__biz=MjM5NDMzNTk2MA==&mid=202435694&idx=3&sn=2e67bdf66924b00507855140d2e02630&scene=2&from=timeline&isappinstalled=0%23rd | 1| 
 
 
 # 组织github账号 推荐
 | github_id | title | url | org_url | org_profile | org_geo | org_repositories | org_people | org_projects | repo_lang | repo_star | repo_forks| 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | Microsoft | Information from Microsoft about the PDB. | https://github.com/Microsoft/microsoft-pdb | https://opensource.microsoft.com | Open source, from Microsoft with love | Redmond, WA | 2463 | 4258 | 0 | C,TypeScript,Java,C#,JavaScript,C++,PowerShell,Python,HTML,Rich,Go,CMake,Jupyter | 0 | 0 | 1| 
-| google | GRR Rapid Response: remote live forensics for incident response | https://github.com/google/grr | https://opensource.google.com/ | Google ❤️ Open Source | https://opensource.google.com/ | 1474 | 2547 | 0 | C,TypeScript,Java,Python,Kotlin,JavaScript,C++,Go,Ruby,Rust | 0 | 0 | 4| 
+| google | BinNavi binary analysis tool open sourced by Google | https://github.com/google/binnavi | https://opensource.google.com/ | Google ❤️ Open Source | https://opensource.google.com/ | 1474 | 2547 | 0 | C,TypeScript,Java,Python,Kotlin,JavaScript,C++,Go,Ruby,Rust | 0 | 0 | 4| 
 | awslabs | Sample applications built using Amazon Machine Learning | https://github.com/awslabs/machine-learning-samples | http://amazon.com/aws/ | AWS Labs | Seattle, WA | 376 | 87 | 0 | C,TypeScript,Java,Python,JavaScript,C++,C#,Shell,Go,Jupyter,Swift,Rust | 0 | 0 | 1| 
-| yahoo | Use OpenPGP encryption in Yahoo mail | https://github.com/yahoo/end-to-end | http://developer.yahoo.com/ |  | Sunnyvale, California | 249 | 23 | 0 | Java,Scala,Python,JavaScript,C++,Objective-C,Go,CSS | 0 | 0 | 2| 
+| yahoo | Yahoo结构化数据爬虫Anthelion(基于Nutch) | https://github.com/yahoo/anthelion | http://developer.yahoo.com/ |  | Sunnyvale, California | 249 | 23 | 0 | Java,Scala,Python,JavaScript,C++,Objective-C,Go,CSS | 0 | 0 | 2| 
 | Netflix | Sleepy Puppy XSS Payload Management Framework | https://github.com/Netflix/sleepy-puppy | http://netflix.github.io/ | Netflix Open Source Platform | Los Gatos, California | 152 | 8 | 0 | Groovy,C,Shell,Java,D,Scala,Python,JavaScript,C++,HTML,Go,Ruby | 0 | 0 | 1| 
 | NVIDIA | DIGITS:Deep GPU Training System | https://github.com/NVIDIA/DIGITS | http://www.nvidia.com |  | 2701 San Tomas Expressway, Santa Clara, California, 95050 | 147 | 16 | 0 | C,Shell,Python,Makefile,C++,Cuda,Go | 0 | 0 | 1| 
-| sensepost | mana:toolkit for wifi rogue AP attacks and MitM | https://github.com/sensepost/mana | http://sensepost.com |  | South Africa | 92 | 2 | 0 | C,Shell,Java,Python,C++,Perl,C#,HTML,Go,CMake | 0 | 0 | 2| 
+| sensepost | SPartan: Sharepoint pentest Tool | https://github.com/sensepost/SPartan | http://sensepost.com |  | South Africa | 92 | 2 | 0 | C,Shell,Java,Python,C++,Perl,C#,HTML,Go,CMake | 0 | 0 | 2| 
 | tensorflow | TensorFlow: Large-scale machine learning on heterogeneous systems | https://github.com/tensorflow/tensorflow | http://www.tensorflow.org |  | http://www.tensorflow.org | 78 | 213 | 2 | TypeScript,Jupyter,Python,JavaScript,C++,Swift | 0 | 0 | 1| 
 | Ticketmaster | metrilyx-2.0:Visualization and analytics interface for OpenTSDB | https://github.com/Ticketmaster/Metrilyx-2.0 | http://www.ticketmaster.com/ |  | http://www.ticketmaster.com/ | 67 | 11 | 0 | TypeScript,Java,Kotlin,JavaScript,Shell,HTML,Go,Swift,PowerShell | 0 | 0 | 1| 
 | stackforge | bandit:Python AST-based static analyzer from OpenStack Security Group | https://github.com/stackforge/bandit | None | Mirrors of unofficial retired projects related to the OpenStack community, retained here for historical interest and reference purposes. | None | 66 | 0 | 0 |  | 0 | 0 | 1| 
@@ -63,7 +65,7 @@
 | GDSSecurity | Windows-Exploit-Suggester | https://github.com/GDSSecurity/Windows-Exploit-Suggester | https://www.aon.com/cyber-solutions |  | New York, NY | 49 | 3 | 0 | C,Shell,Java,XSLT,Python,JavaScript,Perl,C#,Objective-C,Lua,PHP,Ruby | 0 | 0 | 1| 
 | ctxis | CANAPE Network Testing Tool | https://github.com/ctxis/canape | http://www.contextis.co.uk |  | London | 49 | 0 | 0 | C,Java,Python,JavaScript,C++,C#,HTML | 0 | 0 | 1| 
 | nowsecure | android-vts:Android Vulnerability Test Suite | https://github.com/nowsecure/android-vts | https://www.nowsecure.com | We secure Mobile Devices, Enterprises, & Mobile Apps | https://www.nowsecure.com | 49 | 5 | 0 | C,Java,Python,JavaScript,Rust,SaltStack,CSS | 0 | 0 | 1| 
-| SecWiki | sec-chart:Security Flow Chart | https://github.com/SecWiki/sec-chart | http://www.sec-wiki.com |  | http://www.sec-wiki.com | 41 | 2 | 0 | C,Python,JavaScript,HTML,PHP,CSS | 0 | 0 | 2| 
+| SecWiki | 黑客相关的电视剧/电影 | https://github.com/SecWiki/hack-movie | http://www.sec-wiki.com |  | http://www.sec-wiki.com | 41 | 2 | 0 | C,Python,JavaScript,HTML,PHP,CSS | 0 | 0 | 2| 
 | threatstream | Deploying Dionaea on a Raspberry Pi using MHN | https://github.com/threatstream/mhn/wiki/Deploying-Dionaea-on-a-Raspberry-Pi | http://www.anomali.com |  | Redwood City, CA | 40 | 0 | 0 | C,Shell,Scala,Python,JavaScript,CoffeeScript,HTML,Go,Ruby,CSS | 0 | 0 | 1| 
 | lfit | Linux workstation security checklist | https://github.com/lfit/itpol/blob/master/linux-workstation-security.md | None | Projects maintained by the Linux Foundation IT | None | 34 | 6 | 0 | Python,Groovy,Shell,Puppet,HTML | 0 | 0 | 1| 
 | IOActive | JDWP exploitation script | https://github.com/IOActive/jdwp-shellifier | http://blog.ioactive.com/ | IOActive Labs repository | http://blog.ioactive.com/ | 24 | 0 | 0 | C,Shell,Java,Python,JavaScript,C++,C# | 0 | 0 | 1| 
@@ -77,7 +79,7 @@
 | zecure | Shadow Daemon:a web application firewall | https://github.com/zecure/shadowd_ui | https://zecure.org/ |  | https://zecure.org/ | 12 | 1 | 0 | Shell,Python,JavaScript,C++,Perl,HTML,PHP,CSS | 0 | 0 | 1| 
 | XiphosResearch | Miscellaneous exploit code | https://github.com/XiphosResearch/exploits | http://www.xiphosresearch.com/ | UK and US based boutique security consultancy and software development company | United Kingdom | 11 | 1 | 0 | Python,C,Shell,Makefile | 0 | 0 | 1| 
 | nbs-system | Detect potentially malicious PHP files | https://github.com/nbs-system/php-malware-finder | https://www.nbs-system.com |  | Paris, France | 11 | 2 | 0 | Python,C,PHP,JavaScript,CSS | 0 | 0 | 1| 
-| REhints | CodeXplorer自动识别虚表调用 | https://github.com/REhints/HexRaysCodeXplorer/releases/tag/1.7 | http://REhints.com |  | http://REhints.com | 10 | 2 | 0 | Python,C,Assembly,CSS,C++ | 0 | 0 | 2| 
+| REhints | Attacking Hypervisors ZeroNights_0x5 | https://github.com/REhints/Publications/blob/master/Conferences/Zeronights2015/AttackingHypervisors_ZeroNights_0x5.pdf | http://REhints.com |  | http://REhints.com | 10 | 2 | 0 | Python,C,Assembly,CSS,C++ | 0 | 0 | 2| 
 | USArmyResearchLab | Dshell:a network forensic analysis framework. | https://github.com/USArmyResearchLab/Dshell | http://www.arl.army.mil | Discover, innovate, and transition science and technology to ensure dominant strategic land power. | http://www.arl.army.mil | 10 | 0 | 0 | Python,C,HTML,C++ | 0 | 0 | 1| 
 | grierforensics | OfficeDissector: parser library for static security analysis of Office | https://github.com/grierforensics/officedissector | http://www.grierforensics.com/ |  | http://www.grierforensics.com/ | 7 | 0 | 0 | Python,JavaScript,HTML,PHP,Scala | 0 | 0 | 1| 
 | CppCon | cpp con2015 | https://github.com/CppCon/CppCon2015 | http://cppcon.org/ | The C++ Conference | http://cppcon.org/ | 6 | 0 | 0 | Python,C++ | 0 | 0 | 1| 
@@ -91,26 +93,26 @@
 | goodfeli | Exercises for my tutorials on Theano | https://github.com/goodfeli/theano_exercises | http://www.iangoodfellow.com |  | Mountain View | None | 18 | 0 | 5 | 9500 | 4 | Python,TeX | 2200 | 784 | 1| 
 | fouber | page-monitor: the dom change with phantomjs | https://github.com/fouber/page-monitor | https://github.com/fouber/blog |  | China | 全民直播 | 150 | 0 | 248 | 9200 | 74 | JavaScript | 18800 | 2200 | 1| 
 | jakevdp | Materials for my Pycon 2015 scikit-learn tutorial | https://github.com/jakevdp/sklearn_pycon2015 | http://www.vanderplas.com | Python, Astronomy, Data Science | Seattle WA | Google | 189 | 0 | 43 | 8700 | 6 | Python,Jupyter | 0 | 0 | 1| 
-| samyk | sql++: cross-database command line SQL client | https://github.com/samyk/sqlpp/ | https://samy.pl | explo(r|it)ing boundaries | los angeles | None | 83 | 0 | 8700 | 5200 | 903 | Eagle,C,JavaScript,Arduino | 5000 | 953 | 1| 
-| evilcos | 隐蔽的战场—Flash Web攻击 | https://github.com/evilcos/papers/blob/master/%E9%9A%90%E8%94%BD%E7%9A%84%E6%88%98%E5%9C%BA%E2%80%94Flash%20Web%E6%94%BB%E5%87%BB.pptx | https://evilcos.me | //:ALERT(/HACKING SYMBOL/)//余弦 | None | xeyeteam | 10 | 0 | 150 | 4000 | 13 | JavaScript | 0 | 0 | 2| 
+| samyk | sql++: cross-database command line SQL client | https://github.com/samyk/sqlpp/ | https://samy.pl | explo(r,it)ing boundaries | los angeles | None | 83 | 0 | 8700 | 5200 | 903 | Eagle,C,JavaScript,Arduino | 5000 | 953 | 1| 
+| evilcos | 发现网络空间里的“暗物质”情报 | https://github.com/evilcos/papers/blob/master/%E5%8F%91%E7%8E%B0%E7%BD%91%E7%BB%9C%E7%A9%BA%E9%97%B4%E9%87%8C%E7%9A%84%E2%80%9C%E6%9A%97%E7%89%A9%E8%B4%A8%E2%80%9D%E6%83%85%E6%8A%A5.pptx | https://evilcos.me | //:ALERT(/HACKING SYMBOL/)//余弦 | None | xeyeteam | 10 | 0 | 150 | 4000 | 13 | JavaScript | 0 | 0 | 2| 
 | aymericdamien | TensorFlow tutorials and code examples for beginners | https://github.com/aymericdamien/TensorFlow-Examples | https://github.com/Snapchat | Deep Learning Enthusiast. SWE @Snapchat. Past: Tsinghua University, EISTI | San Francisco, CA | Snapchat | 12 | 0 | 219 | 3900 | 28 | Python,R,Jupyter,C++ | 0 | 0 | 1| 
 | jhaddix | pentest-bookmarks | https://github.com/jhaddix/pentest-bookmarks/blob/master/wiki/BookmarksList.wiki | https://github.com/bugcrowd | Father, hacker, Head of Trust and Security @bugcrowd, blogger, gamer, & nerd. Bounty Hunter. http://vizualize.me/jhaddix | United States | https://jasonhaddix.com/ | 46 | 0 | 13 | 3100 | 1 | Python,Go,Shell | 1400 | 347 | 1| 
 | vinta | awesome-python: 优秀库汇总 | https://github.com/vinta/awesome-python | https://vinta.ws/code/ | I failed the Turing Test. | Taipei, Taiwan | None | 24 | 0 | 987 | 3000 | 121 | Python,JavaScript,Scala | 0 | 0 | 1| 
 | phith0n | python-xss-filter | https://github.com/phith0n/python-xss-filter | https://github.com/vulhub | Creator of @vulhub | Beijing, China | None | 41 | 0 | 1300 | 2700 | 52 | Python,C,Shell,JavaScript,PHP | 0 | 0 | 1| 
 | binux | pyspider:A Powerful Spider(Web Crawler) System in Python | https://github.com/binux/pyspider | http://binux.me/ | [NEW] Add a bio | San Jose, US | None | 21 | 0 | 98 | 2500 | 7 | Python,JavaScript | 0 | 0 | 1| 
-| ring04h | wydomain:目标系统信息收集组件 | https://github.com/ring04h/wydomain | http://weibo.com/ringzero |  | China | None | 41 | 0 | 844 | 2400 | 50 | Python | 941 | 514 | 3| 
+| ring04h | weakfilescan:动态多线程敏感信息泄露检测工具 | https://github.com/ring04h/weakfilescan | http://weibo.com/ringzero |  | China | None | 41 | 0 | 844 | 2400 | 50 | Python | 941 | 514 | 3| 
 | josephmisiti | awesome-machine-learning | https://github.com/josephmisiti/awesome-machine-learning | http://blog.josephmisiti.com/ | Mathematician & Co-founder of Math & Pencil | NYC, NY | Math & Pencil | 207 | 0 | 2200 | 2100 | 262 | Python,Objective-C,R | 40000 | 10000 | 1| 
 | ircmaxell | php-security-scanner | https://github.com/ircmaxell/php-security-scanner | http://blog.ircmaxell.com/ |  | New York, NY | None | 102 | 0 | 56 | 2000 | 7 | PHP | 2100 | 421 | 1| 
-| lijiejie | htpwdScan:A python HTTP weak pass scanner | https://github.com/lijiejie/htpwdScan | http://www.lijiejie.com | Just for fun | None | None | 13 | 0 | 2 | 1700 | 7 | Python | 1400 | 639 | 2| 
+| lijiejie | GitHack: git folder disclosure exploit | https://github.com/lijiejie/GitHack | http://www.lijiejie.com | Just for fun | None | None | 13 | 0 | 2 | 1700 | 7 | Python | 1400 | 639 | 2| 
 | skyline75489 | what-happens-when-input-google | https://github.com/skyline75489/what-happens-when-zh_CN | https://skyline75489.github.io/ | Seriously, Im coding. | China | None | 110 | 0 | 4400 | 1600 | 142 | Python,Shell,Swift | 0 | 0 | 1| 
-| JonathanSalwan | PinTools:Pin tools for dynamic binary analysis | https://github.com/JonathanSalwan/PinTools | http://twitter.com/JonathanSalwan | Security researcher working on program analysis and software verification methods | France - Arzon | Quarkslab | 9 | 0 | 0 | 1500 | 0 | Python,LLVM,Makefile,C++ | 1900 | 405 | 2| 
+| JonathanSalwan | Triton:Concolic execution framework based on Pin | https://github.com/JonathanSalwan/Triton | http://twitter.com/JonathanSalwan | Security researcher working on program analysis and software verification methods | France - Arzon | Quarkslab | 9 | 0 | 0 | 1500 | 0 | Python,LLVM,Makefile,C++ | 1900 | 405 | 2| 
 | 1N3 | BruteX - 由 1N3 写的一个自动爆破所有服务的工具 | https://github.com/1N3/BruteX | https://github.com/xer0dayz | Founder of XeroSecurity. Creator of Sn1per. OSCE/OSCP. @xer0dayz @xerosecurity @crowdshield | None | XeroSecurity | 19 | 0 | 644 | 1300 | 33 | Python,C,Shell,BitBake | 2400 | 754 | 1| 
 | inconshreveable | SQL profiling and introspection for applications using sqlalchemy | https://github.com/inconshreveable/sqltap | https://inconshreveable.com |  | None | None | 38 | 0 | 45 | 1300 | 0 | Go,Python | 0 | 0 | 1| 
 | RicterZ | websocket-injection:WebSocket 中转注入工具 | https://github.com/RicterZ/websocket-injection | https://ricterz.me | 初❤️を忘れず | Shenzhen, Guangdong, China | Tencent | 86 | 0 | 172 | 1200 | 46 | Python,HTML,Java | 0 | 0 | 1| 
 | taizilongxu | 关于Python的面试题 | https://github.com/taizilongxu/interview_python | None | Foolish | Beijing | Qunar | 51 | 0 | 840 | 1200 | 92 | Python,Shell,Java,HTML | 9800 | 4100 | 1| 
 | cure53 | XSS Challenge Wiki | https://github.com/cure53/XSSChallengeWiki | https://cure53.de | And there is fire where we walk. | Berlin | Fine penetration tests for fine websites | 16 | 0 | 30 | 1100 | 0 | JavaScript,HTML | 0 | 0 | 1| 
 | jlevy | the-art-of-command-line | https://github.com/jlevy/the-art-of-command-line | https://github.com/HollowayGuides | Co-Founder, Holloway | Mountain View, California | @HollowayGuides | 23 | 0 | 1100 | 1000 | 146 | Python,Shell,JavaScript | 0 | 0 | 1| 
-| enaqx | Awesome Penetration Testing | https://github.com/enaqx/awesome-pentest#online-resources | http://enaqx.github.io/ | Full Stack Developer | None | None | 44 | 0 | 0 | 910 | 0 | JavaScript | 0 | 0 | 2| 
+| enaqx | awesome pentest collection | https://github.com/enaqx/awesome-pentest | http://enaqx.github.io/ | Full Stack Developer | None | None | 44 | 0 | 0 | 910 | 0 | JavaScript | 0 | 0 | 2| 
 | Cr4sh | SmmBackdoor:System Management Mode backdoor for UEFI | https://github.com/Cr4sh/SmmBackdoor | http://blog.cr4.sh/ |  | None | None | 25 | 0 | 195 | 894 | 20 | Python,C,C++ | 0 | 0 | 1| 
 | ajinabraham | Mobile-Security-Framework-MobSF | https://github.com/ajinabraham/Mobile-Security-Framework-MobSF | https://github.com/OpenSecurityIN | Security Research & Engineering https://opensecurity.in https://ajinabraham.com | Montreal, Canada | @OpenSecurityIN | 125 | 0 | 50 | 893 | 13 | Python,HTML,CSS | 0 | 0 | 1| 
 | secretsquirrel | the-backdoor-factory:Patch PE, ELF, Mach-O binaries with shellcode | https://github.com/secretsquirrel/the-backdoor-factory | http://secureallthethings.blogspot.com | Hobby page. Donate BTC: 16GfwSnSA7s5BtBfsPBdU59H4F6veq5uqk Donate ETH: 0x7cCeC48F9F1470d663d4862784a03bee2d91834A https://twitter.com/midnite_runr | NC, USA | None | 54 | 0 | 113 | 875 | 25 | Python | 0 | 0 | 1| 
@@ -159,14 +161,14 @@
 | blacktop | malice:VirusTotal Wanna Be | https://github.com/blacktop/malice | https://github.com/maliceio |  | Nowheresville | @maliceio | 89 | 0 | 167 | 240 | 18 | Go,Python,Shell,Bro | 0 | 0 | 1| 
 | Skycrab | leakScan:在线漏洞扫描 | https://github.com/Skycrab/leakScan | http://blog.csdn.net/yueguanghaidao |  | China Beijing | didichuxing | 42 | 0 | 408 | 232 | 105 | Java,Python,JavaScript,Lua,HTML,Go | 0 | 0 | 1| 
 | grissomsh | 麻袋理财之反爬虫实践 | https://github.com/grissomsh/antiwebcrawler/blob/master/antwebcrawler.md | https://github.com/DaoCloud | Chief Architect @DaoCloud | Shanghai | DaoCloud | 32 | 0 | 541 | 226 | 105 | Batchfile,HTML,Java,JavaScript | 7 | 7 | 1| 
-| client9 | libinjection:SQL / SQLI tokenizer parser analyzer | https://github.com/client9/libinjection | https://www.client9.com |  | Los Angeles, CA | Signal Sciences Corporation | 57 | 0 | 2 | 221 | 3 | Go,C,PHP,Objective-C,CSS | 663 | 189 | 2| 
+| client9 | ipcat:Categorization of IP Addresses | https://github.com/client9/ipcat | https://www.client9.com |  | Los Angeles, CA | Signal Sciences Corporation | 57 | 0 | 2 | 221 | 3 | Go,C,PHP,Objective-C,CSS | 663 | 189 | 2| 
 | code-scan | dzscan:discuz插件漏洞扫描框架 | https://github.com/code-scan/dzscan | http://pwn.ren |  | None | None | 19 | 0 | 6 | 211 | 7 | Python,PHP,HTML | 254 | 165 | 1| 
 | cjdd3b | Hands-on with machine learning | https://github.com/cjdd3b/nicar2015/tree/master/machine-learning | http://www.chasedavis.com |  | Brooklyn, NY | The New York Times | 49 | 0 | 7 | 210 | 0 | Python,JavaScript | 0 | 0 | 1| 
 | ohjeongwook | Duqu 2.0 Win32k Exploit Analysis | https://github.com/ohjeongwook/Publications/blob/master/Duqu%202.0%20Win32k%20Exploit%20Analysis.pdf | https://darungrim.com | Ex-security engineer@Microsoft | None | DarunGrim | 25 | 0 | 7 | 203 | 12 | Python,C,C++ | 291 | 63 | 1| 
 | rastating | joomlavs:Joomla vulnerability scanner | https://github.com/rastating/joomlavs | https://github.com/DigitalInterruption |  | United Kingdom | @DigitalInterruption | 144 | 0 | 154 | 195 | 0 | Python,JavaScript,Ruby,PHP | 0 | 0 | 1| 
 | tomsteele | Use burps JS static code analysis on code from your local system | https://github.com/tomsteele/burpstaticscan | None |  | Idaho | None | 22 | 0 | 506 | 191 | 35 | Go,JavaScript,Java | 0 | 0 | 1| 
 | meirwah | awesome-incident-response | https://github.com/meirwah/awesome-incident-response | https://www.demisto.com/ |  | Tel Aviv | Demisto | 49 | 0 | 64 | 184 | 4 | Go,Java | 2700 | 674 | 1| 
-| blackye | Jenkins漏洞探测、用户抓取爆破 | https://github.com/blackye/Jenkins | None | Security Researcher | Python Developer | None | Tencent、IQIYI | 20 | 0 | 83 | 183 | 3 | Python,Go,C++ | 133 | 71 | 1| 
+| blackye | Jenkins漏洞探测、用户抓取爆破 | https://github.com/blackye/Jenkins | None | Security Researcher , Python Developer | None | Tencent、IQIYI | 20 | 0 | 83 | 183 | 3 | Python,Go,C++ | 133 | 71 | 1| 
 | nil0x42 | phpsploit: Stealth post-exploitation framework | https://github.com/nil0x42/phpsploit | https://exdemia.com |  | None | Exdemia IT Security | 28 | 0 | 301 | 177 | 24 | Python,C,Shell | 0 | 0 | 1| 
 | wapiflapi | Villoc is a heap visualisation tool | https://github.com/wapiflapi/villoc | http://wapiflapi.github.io |  | France | None | 32 | 0 | 22 | 177 | 6 | Python,C,C++ | 546 | 70 | 1| 
 | dloss | Python tools for penetration testers | https://github.com/dloss/python-pentest-tools | http://dirk-loss.de |  | Munich | None | 17 | 0 | 27 | 176 | 2 | Ruby,C++ | 1900 | 651 | 1| 
@@ -178,7 +180,7 @@
 | Ali-Razmjoo | ZCR Shellcoder Generator | https://github.com/Ali-Razmjoo/ZCR-Shellcoder | https://github.com/OWASP | @OWASP Chapter/Project Leader, Security Researcher @zdresearch | Stockholm | @OWASP, @zdresearch | 23 | 0 | 121 | 149 | 64 | Python,Java | 0 | 0 | 1| 
 | jeremylong | OWASP dependency-check | https://github.com/jeremylong/DependencyCheck | None |  | None | None | 26 | 0 | 24 | 140 | 4 | Groovy,Java,Scala,HTML,Clojure,Dockerfile | 0 | 0 | 1| 
 | citronneur | rdpy:Remote Desktop Protocol in Twisted Python | https://github.com/citronneur/rdpy | https://github.com/airbus-cert |  | Toulouse, France | @airbus-cert | 21 | 0 | 210 | 131 | 79 | Python,C#,JavaScript | 1000 | 243 | 1| 
-| torque59 | nosqlpot:The NoSQL Honeypot Framework | https://github.com/torque59/nosqlpot | https://github.com/opensecurity | Information Security Researcher | Ramblings @ https://francisalexander.in | India | @opensecurity | 64 | 0 | 233 | 130 | 50 | Python,HTML,HCL | 0 | 0 | 1| 
+| torque59 | nosqlpot:The NoSQL Honeypot Framework | https://github.com/torque59/nosqlpot | https://github.com/opensecurity | Information Security Researcher , Ramblings @ https://francisalexander.in | India | @opensecurity | 64 | 0 | 233 | 130 | 50 | Python,HTML,HCL | 0 | 0 | 1| 
 | sooshie | Security Data Analysis | https://github.com/sooshie/Security-Data-Analysis | None |  | None | None | 62 | 0 | 145 | 115 | 2 | Bro,Python,HTML | 90 | 34 | 1| 
 | dorneanu | smalisca:Static Code Analysis for Smali files | https://github.com/dorneanu/smalisca | http://blog.dornea.nu | Interested in #security #infosec #hacking #re #dfir #appsec #android #ios #malware // C/ASM/Python/Java h4x0r // Calisthenics lover | Berlin | nullsecurity | 26 | 0 | 30 | 112 | 1 | Python,Shell,C,JavaScript | 331 | 65 | 1| 
 | blankwall | Python_Pin:Python bindings for pin | https://github.com/blankwall/Python_Pin | None |  | None | None | 13 | 0 | 12 | 110 | 0 | Python,C,Assembly,C++ | 308 | 34 | 1| 
@@ -202,7 +204,7 @@
 | chtg | Php Codz Hacking | https://github.com/chtg/phpcodz | https://twitter.com/chtg57 |  | China | None | 2 | 0 | 4 | 71 | 1 | C | 15 | 3 | 1| 
 | d0c-s4vage | (browser narly) - browser exploitation/exploration tool | https://github.com/d0c-s4vage/bnarly | None |  | None | None | 55 | 0 | 34 | 70 | 1 | Python,C,JavaScript,Vim | 136 | 27 | 1| 
 | websploit | websploit is an advanced MITM framework | https://github.com/websploit/websploit | None |  | Iran - Azarbayjan | TBH | 1 | 0 | 2 | 70 | 0 | Python | 252 | 115 | 1| 
-| chrisiaut | Simple proxy checking script | https://github.com/chrisiaut/proxycheck_script | https://github.com/HaschekSolutions | Founder of @HaschekSolutions | DevOps guy | Austria | Haschek Solutions | 27 | 0 | 286 | 67 | 1 | JavaScript,PHP | 173 | 37 | 1| 
+| chrisiaut | Simple proxy checking script | https://github.com/chrisiaut/proxycheck_script | https://github.com/HaschekSolutions | Founder of @HaschekSolutions , DevOps guy | Austria | Haschek Solutions | 27 | 0 | 286 | 67 | 1 | JavaScript,PHP | 173 | 37 | 1| 
 | kz26 | PyExcelerate:Accelerated Excel XLSX Writing Library for Python | https://github.com/kz26/PyExcelerate | None |  | USA | None | 46 | 0 | 246 | 51 | 44 | Python,Go | 310 | 53 | 1| 
 | edwardsamuel | Injection Detector Plug-In for FindBugs | https://github.com/edwardsamuel/FindBugs-Injection-Detector | http://edwardsamuel.wordpress.com |  | Bandung, Indonesia | Institut Teknologi Bandung | 30 | 0 | 123 | 50 | 0 | Python,Java,Ruby | 430 | 399 | 1| 
 | omriher | CapTipper:Malicious HTTP traffic explorer | https://github.com/omriher/CapTipper | https://github.com/omriher |  | Israel | @omriher | 6 | 0 | 14 | 50 | 1 | Python,PHP,Ruby | 572 | 144 | 1| 
@@ -233,7 +235,7 @@
 | animus-project | Animus Threat Data Repository | https://github.com/animus-project/threat_data | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | aplura | Tango:Honeypot Intelligence with Splunk | https://github.com/aplura/Tango | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,PowerShell | 0 | 0 | 1| 
 | c633 | malwaRE:malware repository framework | https://github.com/c633/malwaRE | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
-| ctfs | CTFs - Wiki-like CTF write-ups repository | https://github.com/ctfs | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,Shell,CSS | 0 | 0 | 3| 
+| ctfs | plaidctf-2015-write-ups | https://github.com/ctfs/write-ups-2015/tree/master/plaidctf-2015 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,Shell,CSS | 0 | 0 | 3| 
 | guitarman0831 | Onyx:A simple Linux keylogger | https://github.com/guitarman0831/Onyx | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | hashcat | hashcat and oclHashcat have gone open source | https://github.com/hashcat/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 0 | 0 | 1| 
 | hduisa | 2015 hctf7 all problems | https://github.com/hduisa/hctf2015-all-problems | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 

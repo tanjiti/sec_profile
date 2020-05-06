@@ -1,3 +1,5 @@
+# [数据--所有](README_20.md)
+# [数据--年度](README_2014.md)
 # 2014 信息源与信息类型占比
 ![2014-信息源占比-secwiki](data/img/domain/2014-信息源占比-secwiki.png)
 
@@ -12,8 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
-| 该帐号已冻结 | close_2397504090 |  | http://mp.weixin.qq.com/s?__biz=MjM5NzUwNDA5MA==&mid=200596752&idx=1&sn=37ecae802f32f45ddc0240548943bcbe&scene=1 | 1| 
-| 机器学习之窗 | emachine_learning |  | http://mp.weixin.qq.com/s?__biz=MjM5NDA4NjUxNw==&mid=200177301&idx=2&sn=c877b2d89ad3a87114e95524ca2eb188#rd | 1| 
+| 该帐号已冻结 | close_2397504090 | web常见问题排查 | http://mp.weixin.qq.com/s?__biz=MjM5NzUwNDA5MA==&mid=200596752&idx=1&sn=37ecae802f32f45ddc0240548943bcbe&scene=1 | 1| 
+| 机器学习之窗 | emachine_learning | 详细解剖百度大脑 | http://mp.weixin.qq.com/s?__biz=MjM5NDA4NjUxNw==&mid=200177301&idx=2&sn=c877b2d89ad3a87114e95524ca2eb188#rd | 1| 
 
 
 # 组织github账号 推荐
@@ -60,12 +62,12 @@
 | alvarotrigo | fullPage.js:jQuery全屏滚动插件 | https://github.com/alvarotrigo/fullPage.js | http://alvarotrigo.com | Web developer with love for beautiful stuff. https://twitter.com/imac2 | Cambridge, UK | None | 59 | 0 | 176 | 2200 | 10 | TypeScript,JavaScript | 0 | 0 | 1| 
 | mubix | Collection of Proof for #ShellShocker | https://github.com/mubix/shellshocker-pocs | https://malicious.link/ | Certified Checkbox Unchecker | Internets | @NoVAHA | 160 | 0 | 124 | 2100 | 421 | Python,C,HTML,Ruby,C++ | 1100 | 282 | 1| 
 | DanMcInerney | shodan_pharmer | https://github.com/DanMcInerney/shodan_pharmer | None | I like automating security stuff so I dont have to work. Coalfire Sr. Pentester. | None | @danhmcinerney | 82 | 0 | 236 | 1900 | 23 | Python,Ruby,PowerShell | 0 | 0 | 1| 
-| cure53 | H5SC:HTML5 Security Cheatsheet | https://github.com/cure53/H5SC | https://cure53.de | And there is fire where we walk. | Berlin | Fine penetration tests for fine websites | 16 | 0 | 30 | 1100 | 0 | JavaScript,HTML | 0 | 0 | 2| 
+| cure53 | Flashbang:open-source Flash-security helper | https://github.com/cure53/Flashbang | https://cure53.de | And there is fire where we walk. | Berlin | Fine penetration tests for fine websites | 16 | 0 | 30 | 1100 | 0 | JavaScript,HTML | 0 | 0 | 2| 
 | zhuangbiaowei | 借助开源项目，学习软件开发 | https://github.com/zhuangbiaowei/learn-with-open-source | http://www.zhuangbiaowei.com/ |  | Shanghai, China | Huawei technologies co. ltd | 66 | 0 | 119 | 923 | 9 | Vue,Shell,Ruby,CSS | 1300 | 457 | 1| 
 | ajinabraham | Static-DOM-XSS-Scanner | https://github.com/ajinabraham/Static-DOM-XSS-Scanner | https://github.com/OpenSecurityIN | Security Research & Engineering https://opensecurity.in https://ajinabraham.com | Montreal, Canada | @OpenSecurityIN | 125 | 0 | 50 | 893 | 13 | Python,HTML,CSS | 0 | 0 | 1| 
 | strazzere | Kisskiss - Unpacker for various Android packers/protectors | https://github.com/strazzere/android-unpacker/tree/master/native-unpacker | http://www.strazzere.com/blog | Everything can be reversed | Oakland, Ca | None | 92 | 0 | 236 | 846 | 52 | Python,Ruby,C,Java | 745 | 290 | 1| 
 | looly | Elasticsearch权威指南中文版 | https://github.com/looly/elasticsearch-definitive-guide-cn | http://www.luxiaolei.com | Java开发者，Python爱好者。 | Beijing,China | None | 13 | 0 | 125 | 814 | 128 | Python,Shell,Java | 5100 | 1600 | 1| 
-| botherder | viper:Binary analysis framework | https://github.com/botherder/viper | http://twitter.com/botherder |  | None | Amnesty International | 42 | 0 | 12 | 809 | 0 | Python,Go,JavaScript | 0 | 0 | 2| 
+| botherder | detekt：Memory triaging tool | https://github.com/botherder/detekt | http://twitter.com/botherder |  | None | Amnesty International | 42 | 0 | 12 | 809 | 0 | Python,Go,JavaScript | 0 | 0 | 2| 
 | tyranid | IE11SandboxEscapes | https://github.com/tyranid/IE11SandboxEscapes | None |  | None | None | 32 | 0 | 0 | 700 | 2 | C#,Python,C | 0 | 0 | 1| 
 | tombkeeper | ROPs_are_for_the_99% | https://github.com/tombkeeper/Talks/blob/master/CanSecWest_2014/ROPs_are_for_the_99%25_%5BCSW2014%5D.pdf | None |  | None | None | 5 | 0 | 0 | 677 | 0 | C,JavaScript | 84 | 54 | 1| 
 | HackerFantastic | keyscan.py: looking for prime factors | https://github.com/HackerFantastic/Public/blob/master/misc/keyscan.py | https://github.com/hackerhouse-opensource | You can find my research and tools at Hacker House. | 127.0.0.1 | Hacker House @hackerhouse-opensource | 12 | 0 | 21 | 601 | 159 | C,TypeScript,Python,C++,Perl,Dockerfile | 0 | 0 | 1| 
@@ -85,7 +87,7 @@
 | itnihao | Ubuntu下搭建Zabbix | https://github.com/itnihao/zabbix-book/blob/master/03-chapter/zabbix_install_on_ubuntu.md | http://www.itnihao.com |  | ShangHai | None | 352 | 0 | 86 | 268 | 64 | Python,JavaScript,Vim | 297 | 232 | 1| 
 | xtao | CODE-PyconCN2014 | https://github.com/xtao/CODE-PyconCN2014 | http://blog.xtao.me |  | Beijing | None | 164 | 0 | 2300 | 262 | 206 | Python,Shell,JavaScript,Go,C++ | 20 | 7 | 1| 
 | galkan | sees:Social Enginnering Email Sender | https://github.com/galkan/sees | None |  | None | None | 9 | 0 | 0 | 253 | 0 | Python,C,Shell,Ruby | 0 | 0 | 1| 
-| demi6od | Internet_Explorer_11_Exploit | https://github.com/demi6od/Internet_Explorer_11_Exploit | None |  | None | https://twitter.com/demi6od | 5 | 0 | 2 | 232 | 0 | Python,JavaScript,C++ | 403 | 140 | 2| 
+| demi6od | Smashing_The_Browser | https://github.com/demi6od/Smashing_The_Browser | None |  | None | https://twitter.com/demi6od | 5 | 0 | 2 | 232 | 0 | Python,JavaScript,C++ | 403 | 140 | 2| 
 | lebinh | ngxtop:Real-time metrics for nginx server | https://github.com/lebinh/ngxtop | https://github.com/google | Curious programmer, brave sysadmin. SRE @google, previously @cloudflare and @adatao. | Sydney | @google | 46 | 0 | 277 | 231 | 4 | Python,Jupyter | 0 | 0 | 1| 
 | nviennot | playdrone:Google Play Crawler | https://github.com/nviennot/playdrone | http://velvetpulse.com |  | New York | None | 108 | 0 | 114 | 229 | 19 | Python,C,Ruby,C++ | 0 | 0 | 1| 
 | commonexploits | sonijohn:extract usernames and hashes from Sonicwall | https://github.com/commonexploits/sonijohn | http://www.commonexploits.com |  | UK | None | 12 | 0 | 6 | 228 | 5 | C,Shell | 128 | 55 | 1| 
@@ -105,7 +107,7 @@
 | atimorin | scada-tools | https://github.com/atimorin/scada-tools | None |  | None | None | 218 | 0 | 190 | 120 | 46 | Python,JavaScript,C++ | 104 | 55 | 1| 
 | 1u4nx | Exploit-Exercises Nebula全攻略 | https://github.com/1u4nx/Exploit-Exercises-Nebula | http://www.shellcodes.org |  | Chengdu | None | 17 | 0 | 230 | 113 | 63 | Python,JavaScript,Emacs,Common | 199 | 96 | 1| 
 | carmaa | inception： FireWire physical memory manipulation and hacking tool | https://github.com/carmaa/inception | https://www.linkedin.com/in/carsten-maartmann-moe-03a0522 | Consultant, hacker, technology enthusiast, and CEO at Transcendent Group Norway. | Oslo | Transcendent Group | 12 | 0 | 86 | 113 | 1 | Python,C,JavaScript,Ruby | 1300 | 169 | 1| 
-| xmendez | wfuzz:The Web Bruteforcer | https://github.com/xmendez/wfuzz | http://wfuzz.org | IT Security Consultant | Security Researcher; Twitter: @x4vi_mendez | None | None | 4 | 0 | 6 | 109 | 1 | Python,Ruby | 1900 | 452 | 1| 
+| xmendez | wfuzz:The Web Bruteforcer | https://github.com/xmendez/wfuzz | http://wfuzz.org | IT Security Consultant , Security Researcher; Twitter: @x4vi_mendez | None | None | 4 | 0 | 6 | 109 | 1 | Python,Ruby | 1900 | 452 | 1| 
 | rfunix | Pompem:Find exploit tool | https://github.com/rfunix/Pompem | https://github.com/olist |  | Brazil | @olist | 22 | 0 | 213 | 102 | 12 | Python,Go,Elixir | 664 | 222 | 1| 
 | dmayer | idb: some common tasks for iOS pentesting and research | https://github.com/dmayer/idb | http://cysec.org |  | None | None | 23 | 0 | 10 | 98 | 5 | Python,C,Ruby,Objective-C | 794 | 143 | 1| 
 | keepwn | Altman:the webshell tool | https://github.com/keepwn/Altman | None |  | None | None | 15 | 0 | 16 | 86 | 0 | C#,Shell,Vue,Go | 424 | 210 | 1| 
@@ -141,12 +143,12 @@
 | PythonJS | pypubjs:Integrated development environment for PythonJS using NodeWebkit | https://github.com/PythonJS/pypubjs | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,JavaScript | 0 | 0 | 1| 
 | YakindanEgitim | malwarez:Malware visualization on earth map | https://github.com/YakindanEgitim/malwarez | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java,Python,JavaScript,C++,PHP,Ruby | 0 | 0 | 1| 
 | chuhades | CMS-Exploit-Framework | https://github.com/chuhades/CMS-Exploit-Framework | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
-| ctfs | hitcon-ctf-2014 write-ups | https://github.com/ctfs/write-ups/tree/master/hitcon-ctf-2014 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,Shell,CSS | 0 | 0 | 5| 
+| ctfs | 9447-ctf-2014 write-ups | https://github.com/ctfs/write-ups/tree/master/9447-ctf-2014 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,Shell,CSS | 0 | 0 | 5| 
 | darshakframework | darshak：Detecting any suspicious activity of being tracked | https://github.com/darshakframework/darshak | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java | 0 | 0 | 1| 
 | falstaff84 | Heartbleed test script for OpenVPN | https://github.com/falstaff84/heartbleed_test_openvpn | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | jenson-shi | dnspod_inter_ddns:Dnspod International DDNS | https://github.com/jenson-shi/dnspod_inter_ddns | https://github.com/shixiongfei | Moved to https://github.com/shixiongfei | Moved to https://github.com/shixiongfei | Moved to https://github.com/shixiongfei | 0 | 0 | 0 | 0 | 1 |  | 0 | 0 | 1| 
 | search#search_cheatsheet_pane | GitHub supports advanced search operators much like Google | https://github.com/search#search_cheatsheet_pane | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
-| showcases | security monitoring and incident response | https://github.com/showcases/security | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 2| 
+| showcases | Data visualization tools for the web | https://github.com/showcases/data-visualization | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 2| 
 
 
 # medium_xuanwu 推荐
