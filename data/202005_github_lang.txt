@@ -1,7 +1,9 @@
+Python	4
+HTML	3
+C	2
 Java	2
-Python	2
 C#	2
 PowerShell	2
-HTML	1
+C++	1
 Go	1
 Ruby	1

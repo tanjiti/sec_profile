@@ -14,15 +14,21 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 互联网安全内参 | anquanneican | 新一代SIEM与SOAR的技术对比 | https://mp.weixin.qq.com/s/mfNRbDXIg5_1jSKHbceHCA | 5| 
+| 虎符智库 |  | 各国竞相布局 卫星互联网重新定义网络战 | https://mp.weixin.qq.com/s/mj4BVfI-j3yp-xaSZeEW_A | 2| 
+| Tide安全团队 | TideSec | 资产管理与威胁监测平台Tide-Mars开源了！ | https://mp.weixin.qq.com/s/-7V14Rpu2KU5HUsa0p025g | 38| 
+| 天融信阿尔法实验室 |  | JAVA RMI反序列化知识详解 | https://mp.weixin.qq.com/s/bC71HoEtDAKKbHJvStu9qA | 8| 
+| 漏洞推送 |  | 浏览器中隐蔽数据传输通道-DNS隧道 | https://mp.weixin.qq.com/s/u5HV7umrZABcgVpZ5pn6WQ | 1| 
+| SecWiki | SecWiki | [Sec-Trans-7]子域名托管案例 | https://mp.weixin.qq.com/s/Nqy0Agq_h9yZhvqKdZBZgw | 27| 
+| lymmmx |  | 已知邮箱，求手机号码? | https://mp.weixin.qq.com/s/XvMruURNVWBkEwxvnPSW1g | 1| 
+| 赵武的自留地 |  | 我的安全漏洞观 | https://mp.weixin.qq.com/s/86cS8yIgbVcKStZWq84M7Q | 6| 
 | ChaMd5安全团队 | chamd5sec | De1CTF2020-WriteUp上(Web、Misc、Pwn) | https://mp.weixin.qq.com/s/1CR0up_b5a1zw02wZNwJpg | 18| 
 | 安全学术圈 | secquan | Understanding E-commerce Fraud from Autonomous Chat | https://mp.weixin.qq.com/s/uzGQxgfaUufsDSvcYIIYig | 45| 
 | 漏洞战争 | vulwar | 技术人的修炼之道：从业余到专业 | https://mp.weixin.qq.com/s/gBgFyy4MMrF5vn-8NGEVQw | 11| 
 | ipasslab |  | 学术报告,协议模糊测试相关技术梳理 | https://mp.weixin.qq.com/s/RCpAUpFEzbSewEnWpHrsqw | 1| 
-| Tide安全团队 | TideSec | 70.远控免杀专题(70)-终结篇 | https://mp.weixin.qq.com/s/4shT8tP-Gu3XX7fnWKQHAA | 37| 
 | 湛卢工作室 | xuehao_studio | 劳动节 , 说说代理池 | https://mp.weixin.qq.com/s/ERU3L2WIMiPNNdTTX164Og | 7| 
 | DJ的札记 | DJ_notes | 相信技术的力量 - RSAC 2020 (2) | https://mp.weixin.qq.com/s/C_qQtuisG0NVcwad4y0BqQ | 14| 
 | 安全喷子 |  | 2019年网络安全报告精选 | https://mp.weixin.qq.com/s/YCSuRXhiFYGaE-f3_C8l5A | 7| 
-| SecWiki | SecWiki | SecWiki安全招聘（第31期） | https://mp.weixin.qq.com/s/oQ0s0k7y8w3qcz1Niwo_iw | 26| 
 | ADLab | v_adlab | 启明星辰ADLab：渗透利器Cobalt Strike在野利用情况专题分析 | https://mp.weixin.qq.com/s/Agr3doBvYMK6Bs0tH6urcw | 8| 
 | caoz的梦呓 | caozsay | 谈谈工作和学习中，所谓的主动性 | https://mp.weixin.qq.com/s/qB9phQwF8NulwSGINQz3yA | 1| 
 | heysec | bloodzer007 | SonarQube实现自动化代码扫描 | https://mp.weixin.qq.com/s/L5WeEFvu6etVTAigx6jjcQ | 20| 
@@ -80,7 +86,6 @@
 | AI科技评论 | aitechtalk | 如何以初学者角度写好一篇国际学术论文？ | https://mp.weixin.qq.com/s/zwTlXBrZiC88y9F5DDU0_g | 3| 
 | 安全乐观主义 |  | SDL已死，应用安全路在何方？ | https://mp.weixin.qq.com/s/tYRiKiI7bjgyzQguMA1mrw | 14| 
 | 安恒信息安全研究院 |  | 蓝牙安全之Class of device | https://mp.weixin.qq.com/s/TIYvcThrfOC40rqcy-VGCg | 2| 
-| 赵武的自留地 |  | 写在Goby新版发布前，讨论网络安全测试工具的发展 | https://mp.weixin.qq.com/s/hW0A1jwq-pm4M-4LGUZIrA | 5| 
 | PeckShield | PeckShield | 硬核：解密美国司法部起诉中国OTC承兑商洗钱案件 | https://mp.weixin.qq.com/s/wWrm3gwT72Pc8Nxw-1OiSw | 1| 
 | 星阑科技 | StarCrossCN | PHP 开源白盒审计工具初探（下） | https://mp.weixin.qq.com/s/6Y7anVvO9C5_nqdJihuFMw | 2| 
 | 爱奇艺技术产品团队 | iQIYI-TP | 开源 , 爱奇艺网络流量分析引擎QNSM及其应用 | https://mp.weixin.qq.com/s/flQdwQn9A1vxNs-iHQBHWA | 3| 
@@ -102,7 +107,6 @@
 | 数说安全 | SSAQ2016 | 谈谈2020年RSA创新沙盒10强及其对中国创业者的价值 | https://mp.weixin.qq.com/s/z0xsJGSMWbQy60_QmArmQA | 27| 
 | 360企业安全集团 |  | “美女与野兽”，Transparent Tribe启用新资产对印度空军发起特定攻击 | https://mp.weixin.qq.com/s/YY2h73A6KiFjnfjsJtWGNQ | 1| 
 | 网络空间安全军民融合创新中心 | jmrh1226 | 从美国防部“2021财年预算提案” 看美军网络空间建设趋势特点 | https://mp.weixin.qq.com/s/ysG4z8UrfEZTlBovGTWcZw | 4| 
-| 互联网安全内参 | anquanneican | RSAC 2020创新沙盒十强分析：应用安全、云安全为技术热点方向 | https://mp.weixin.qq.com/s/UFlsR8NBFYpHUUWuJG-nPQ | 4| 
 | 安全客 | anquanbobao | GitHub敏感数据泄露报告 | https://mp.weixin.qq.com/s/6RELktZJF2pn4rL-0-Y7Jw | 7| 
 | 网信军民融合 | wxjmrh | 研究探讨 , 军工领域建设网络安全攻防靶场平台的思路 | https://mp.weixin.qq.com/s/UmW3WCtDIOWw1bXfJnLnhg | 4| 
 | APT攻击 | cncg_team | 对zimbra邮服认证机制的一些探索 | https://mp.weixin.qq.com/s/u-p6_srzby1bbejqClmf-A | 5| 
@@ -111,7 +115,6 @@
 | 知识工场 | fudankw | 肖仰华： 知识图谱下半场-机遇与挑战 | https://mp.weixin.qq.com/s/IW4rBc7Z9f2ByKjQR2MTjw | 9| 
 | 贝塔安全实验室 | BetaSecLab | 某大学渗透测试实战靶场报告-Part1 | https://mp.weixin.qq.com/s/RyvuOEmqorAhQcn6wwCDKA | 11| 
 | 电科防务 | CETC-ETDR | 世界网络战领域2019年发展回顾与2020年展望 | https://mp.weixin.qq.com/s/Mx3H2Za7hI9ZZIaZedmXBQ | 2| 
-| 虎符智库 |  | 情报内生：高级威胁检测的必要条件 | https://mp.weixin.qq.com/s/U3XKIh0ffdzuCJihnJL7Lw | 1| 
 | 数世咨询 |  | 数世咨询：中国网络安全能力图谱（2020年1月） | https://mp.weixin.qq.com/s/Qwhr6SlzFDqHB2b6Q6awdw | 2| 
 | 平凡路上 |  | 科恩面试与实习感想 | https://mp.weixin.qq.com/s/GiIIUZbzq2IOp5-arkUCfg | 1| 
 | 鱼塘领路人 | KingofSaltedFish | 威胁情报系列（一）：什么是威胁情报 | https://mp.weixin.qq.com/s/f9G818SGijdfS13KjLnFoA | 1| 
@@ -130,7 +133,6 @@
 | 飞虎行业观察 | flyingtiger018 | RSA和McAfee的2020年安全威胁预测 | https://mp.weixin.qq.com/s/gUOO1kDB_wuZ32nKAZjM0g | 1| 
 | OWASP | OWASP_CHINA | 2019年度OWASP中国项目总结 | https://mp.weixin.qq.com/s/hcdA7R36RsSV40TnIu2fJg | 1| 
 | 天地和兴 | bjtdhxkj | 针对ICS的网络攻击20强——谈天说地Part2 | https://mp.weixin.qq.com/s/TS1m4XoTI3f36ZY8vtLkwg | 2| 
-| 天融信阿尔法实验室 |  | ATT&CK之防御逃逸（二） | https://mp.weixin.qq.com/s/9IeSIFofiT58X8iu1BqW0Q | 7| 
 | 继之宫 |  | 关于安全运营中心的几个问题 | https://mp.weixin.qq.com/s/w_kfBpkXU7WdfkwSl-KSnA | 2| 
 | 轩辕实验室 |  | 基于卷积神经网络的入侵检测进行检测Dos攻击 | https://mp.weixin.qq.com/s/yRQwHVPuYHM67yAo15hPOw | 1| 
 | 阿里安全响应中心 | alisrc | 【走心分享】白帽成长建议 | https://mp.weixin.qq.com/s/ZXRI6KUtu6IwCYrjuy_3Tg | 5| 
@@ -2572,6 +2574,7 @@
 | cuijianxiong | 基于Django 框架 Redis ElasticSearch Web指纹搜索引擎 | https://github.com/cuijianxiong/websearch | http://cuijianxiong.top | LVU | None | None | 49 | 0 | 122 | 55 | 44 | Python,JavaScript,Roff | 53 | 26 | 2| 
 | ioncodes | .NET Patcher Library which can bypass obfuscation. Nice for autopatchers! | https://github.com/ioncodes/dnpatch | https://deadbytes.xyz | Rust is my bae. Im a C++ veteran. C# is my sidechick. Assembly enthusiast. Occasionally abusing Python too. Sometimes I also force programs to act as I want. | Here | None | 203 | 0 | 1600 | 55 | 22 | C#,Shell,JavaScript,PHP | 167 | 22 | 1| 
 | jtpereyda | boofuzz - A fork and successor of the Sulley Fuzzing Framework. | https://github.com/jtpereyda/boofuzz?platform=hootsuite | None |  | None | None | 33 | 0 | 16 | 55 | 3 | Python,C | 601 | 135 | 1| 
+| maxpl0it | IE 浏览器 JS 脚本引擎 CVE-2020-0674 漏洞的 Exploit | https://github.com/maxpl0it/CVE-2020-0674-Exploit | https://twitter.com/maxpl0it | Security researcher from the South East of England. | South East, England | None | 10 | 0 | 0 | 55 | 0 | Python,C,HTML | 84 | 24 | 1| 
 | sa7mon | S3Scanner: Scan for open S3 buckets and dump | https://github.com/sa7mon/S3Scanner | https://github.com/mnsu-isso | Computer Science student - currently looking for a job! Contact info available at personal website. | USA | @mnsu-isso | 76 | 0 | 236 | 55 | 20 | Python | 0 | 0 | 1| 
 | TheSecondSun | Bashark - 纯 Bash 实现的后渗透测试工具: | https://github.com/TheSecondSun/Bashark | None |  | Warsaw, Poland | None | 4 | 0 | 110 | 54 | 11 | Python,Shell | 370 | 57 | 1| 
 | abaykan | CrawlBox - Web 目录暴力破解工具: | https://github.com/abaykan/crawlbox | https://github.com/c0delatte | Mukhammad Akbar , Indonesia | Indonesia | @c0delatte | 27 | 0 | 45 | 54 | 11 | Python,PHP,HTML | 0 | 0 | 1| 
@@ -2913,6 +2916,7 @@
 | echowei | DeepTraffic: Deep Learning models for network traffic classification | https://github.com/echowei/DeepTraffic | None |  | Beijing | None | 1 | 0 | 1 | 29 | 0 | Python | 153 | 117 | 1| 
 | gdedrouas | Exchange-AD-Privesc - 利用 Microsoft Exchange 的 DACL 问题提升域内权限: | https://github.com/gdedrouas/Exchange-AD-Privesc | http://www.elysee.fr/ |  | None | Présidence de la République | 6 | 0 | 18 | 29 | 2 | C,JavaScript,PowerShell | 268 | 52 | 1| 
 | koenbuyens | kalirouter - 将 Kali Linux 搭建成路由器,该路由可将所有 HTTP/HTTPS 请求发送到 Burpsuite 代理以便分析: | https://github.com/koenbuyens/kalirouter | http://koen.buyens.org/ | appsec for fun and profit | None | None | 5 | 0 | 118 | 29 | 36 | Python,Shell,JavaScript | 0 | 0 | 1| 
+| lilang-wu | p-joker - 用于分析 iOS/macOS 内核 Kernelcache 与扩展的工具 | https://github.com/lilang-wu/p-joker | None |  | None | None | 32 | 0 | 11 | 29 | 13 | Python,C | 40 | 19 | 1| 
 | matthewdunwoody | block-parser : Parser for Windows PowerShell script block logs : | https://github.com/matthewdunwoody/block-parser | https://github.com/matthewdunwoody | @matthewdunwoody | None | None | 4 | 0 | 2 | 29 | 0 | Python | 47 | 18 | 1| 
 | mkorman90 | VolatilityBot – An automated memory analyzer for malware samples and memory dumps by @ MartinKorman | https://github.com/mkorman90/VolatilityBot | None | Forensic Investigator and Security Research. My personal research will be published from this account. | None | None | 5 | 0 | 3 | 29 | 0 | Python | 210 | 50 | 1| 
 | sud0woodo | DCOMrade - 用于枚举 DCOM 应用程序的 Powershell 脚本 : | https://github.com/sud0woodo/DCOMrade | None | Binary enthusiast | None | None | 8 | 0 | 1 | 29 | 2 | Python,Go,PowerShell | 181 | 39 | 1| 
@@ -2949,6 +2953,7 @@
 | digital-missiles | 上周爆出 CVE-2019-0708 远程桌面服务的蠕虫级 RCE 漏洞，但是一只没有 PoC 公开出来。昨天 GitHub 上 digital-missiles 公开了一个可以触达漏洞函数路径的 PoC，不会引起拒绝服务。 | https://github.com/digital-missiles/CVE-2019-0708-PoC-Hitting-Path | None |  | None | None | 1 | 0 | 0 | 27 | 0 | Python | 183 | 67 | 1| 
 | felixweyne | imaginaryC2 - 帮助分析恶意软件网络行为的模拟 C2 托管 HTTP 服务器: | https://github.com/felixweyne/imaginaryC2 | https://www.uperesia.com |  | United Kingdom | None | 2 | 0 | 17 | 27 | 0 | Python,PowerShell | 220 | 38 | 1| 
 | hanbinglengyue | FART: ART环境下自动化脱壳方案 | https://github.com/hanbinglengyue/FART | None | 大成若缺，大道至简 | None | None | 78 | 0 | 3 | 27 | 20 | Python,Java,C,PHP,Ruby | 239 | 77 | 1| 
+| kabeor | 有研究员总结的 Unicorn CPU 模拟器的非官方 API 文档 | https://github.com/kabeor/Micro-Unicorn-Engine-API-Documentation | https://kabeor.cn | Hello，Computers ! | SiChuan，China | SWUST | 11 | 0 | 79 | 27 | 0 | HTML,C++ | 41 | 16 | 1| 
 | nsonaniya2010 | SubDomainizer - 用于查找隐藏在页面的内联和引用 Javascript 文件中的子域的工具: | https://github.com/nsonaniya2010/SubDomainizer | None | Bug Bounty hunter, Programmer | Bangalore, India | None | 12 | 0 | 29 | 27 | 0 | Python,C,HTML | 361 | 49 | 1| 
 | prsyahmi | Create a virtual drive backed by GPU memory | https://github.com/prsyahmi/GpuRamDrive | None |  | None | None | 10 | 0 | 33 | 27 | 5 | C++ | 0 | 0 | 1| 
 | scalys7 | Vulnerable-Driver : A sample vulnerable driver that emulates kernel mode vulnerabilities : | https://github.com/scalys7/Vulnerable-Driver | None | OS, Embedded and Vulnerability Researcher. Read my writings! OS & Exploitation Notebook https://1drv.ms/u/s!AqiuStAQmFgxhWnzIysmySzjSqMN | None | None | 14 | 0 | 16 | 27 | 2 | C,C++,HyPhy | 0 | 0 | 1| 
@@ -3759,6 +3764,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 从 iOS 设备越狱到应用静态分析 | http://link.medium.com/KogHw50ek6| 
 | 安全策略（CSP）绕过技术内容介绍。 | http://medium.com/@bhaveshthakur2015/content-security-policy-csp-bypass-techniques-e3fa475bfe5d| 
 | Windows 本地提权相关的技术总结 | http://medium.com/bugbountywriteup/privilege-escalation-in-windows-380bee3a2842?source=rss----7b722bfd1b8d---4| 
 | Build your first LLVM Obfuscator | http://medium.com/@polarply/build-your-first-llvm-obfuscator-80d16583392b| 
