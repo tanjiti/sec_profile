@@ -14,6 +14,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 数世咨询 |  | 年度大型攻防实战全景：红蓝深度思考及多方联合推演 | https://mp.weixin.qq.com/s/GVIUbtMTynfF5ALDbhXirg | 3| 
+| 小强说 | xiaoqiangcall | 从STIX2.1看安全智能归来 | https://mp.weixin.qq.com/s/nYV3S2oYNNnKcpvNAG751w | 5| 
+| 情报分析师 | qingbaofenxishi | 大数据环境下安全情报融合体系构建 | https://mp.weixin.qq.com/s/bjqv8zlSEl7waKHxBNIwyA | 4| 
 | 互联网安全内参 | anquanneican | 新一代SIEM与SOAR的技术对比 | https://mp.weixin.qq.com/s/mfNRbDXIg5_1jSKHbceHCA | 5| 
 | 虎符智库 |  | 各国竞相布局 卫星互联网重新定义网络战 | https://mp.weixin.qq.com/s/mj4BVfI-j3yp-xaSZeEW_A | 2| 
 | Tide安全团队 | TideSec | 资产管理与威胁监测平台Tide-Mars开源了！ | https://mp.weixin.qq.com/s/-7V14Rpu2KU5HUsa0p025g | 38| 
@@ -117,7 +120,6 @@
 | 知识工场 | fudankw | 肖仰华： 知识图谱下半场-机遇与挑战 | https://mp.weixin.qq.com/s/IW4rBc7Z9f2ByKjQR2MTjw | 9| 
 | 贝塔安全实验室 | BetaSecLab | 某大学渗透测试实战靶场报告-Part1 | https://mp.weixin.qq.com/s/RyvuOEmqorAhQcn6wwCDKA | 11| 
 | 电科防务 | CETC-ETDR | 世界网络战领域2019年发展回顾与2020年展望 | https://mp.weixin.qq.com/s/Mx3H2Za7hI9ZZIaZedmXBQ | 2| 
-| 数世咨询 |  | 数世咨询：中国网络安全能力图谱（2020年1月） | https://mp.weixin.qq.com/s/Qwhr6SlzFDqHB2b6Q6awdw | 2| 
 | 平凡路上 |  | 科恩面试与实习感想 | https://mp.weixin.qq.com/s/GiIIUZbzq2IOp5-arkUCfg | 1| 
 | 鱼塘领路人 | KingofSaltedFish | 威胁情报系列（一）：什么是威胁情报 | https://mp.weixin.qq.com/s/f9G818SGijdfS13KjLnFoA | 1| 
 | SudoNLP |  | 2019年NLP领域总结回顾 | https://mp.weixin.qq.com/s/7ROSm_wQNMAKLWUR0djVLQ | 1| 
@@ -160,7 +162,6 @@
 | 奇门遁甲安全 |  | 浅谈新手入门级红蓝对抗系列之——Sysmon攻防 | https://mp.weixin.qq.com/s/_RcHF1vXPp1cnzXvGWnGvQ | 1| 
 | 开放知识图谱 | OpenKG-CN | 论文浅尝 , 探索将预训练语言模型用于事件抽取和事件生成 | https://mp.weixin.qq.com/s/8G-d3VT_I6ucRVrGm4VO2A | 5| 
 | baronpan |  | 浅谈“归因” | https://mp.weixin.qq.com/s/WILKc7v_lJqoodiWCz9zog | 2| 
-| 情报分析师 | qingbaofenxishi | 社交网络在开源安全情报中的应用（一） | https://mp.weixin.qq.com/s/QTcvAtaSe1jWvGTg9ZcfiQ | 3| 
 | 星维九州 |  | 流量加密也不怕！多种姿势检测冰蝎 | https://mp.weixin.qq.com/s/ciAQNdL1YJ9B1HX7TMEDzA | 1| 
 | 汉客儿 |  | 华为手机副总裁不拦着友商使用多屏协同，于是我... | https://mp.weixin.qq.com/s/RnFXcn_Lj3lfQguv8EQeJw | 11| 
 | 现代服务产业技术创新战略联盟 |  | 深度学习实体关系抽取研究综述（中） | https://mp.weixin.qq.com/s/-_jSyABp6oti_PbILrHqtg | 3| 
@@ -185,7 +186,6 @@
 | FreeBuf企业安全 | freebuf_ent | 全程带阻：记一次授权网络攻防演练 | https://mp.weixin.qq.com/s/BJlXOsBtPGVVU2cVs72TqQ | 1| 
 | 人民公安报 | rmgabs | 新中国成立70年来公安科技信息化工作回眸 | https://mp.weixin.qq.com/s/B64olNuiuu1HQUkdD3u0fg | 2| 
 | 天御攻防实验室 | TianyuLab | 实战化ATT&CK™：引言 | https://mp.weixin.qq.com/s/pF_d4Jbqs8QGlWN0ITnm6g | 5| 
-| 小强说 | xiaoqiangcall | 从ATT&CK看威胁情报的发展和应用趋势 | https://mp.weixin.qq.com/s/zbAwTDZ5IuRCMkuIDo82Cw | 4| 
 | SIGAI | SIGAICN | NLP技术也能帮助程序分析？ | https://mp.weixin.qq.com/s/b4_OdxgxsK8CCU5b8qCEfw | 2| 
 | 威胁情报小屋 |  | 海莲花攻击手法概述 | https://mp.weixin.qq.com/s/IrM60hbB6dWdbWxpFbO1lA | 1| 
 | 孟极实验室 | mengjiteam | 一条命令实现端口复用后门 | https://mp.weixin.qq.com/s/HDZUsTbffeGhgwu1FOWQNg | 1| 
@@ -2324,6 +2324,7 @@
 | NoorQureshi | Kali Linux 渗透测试手册 | https://github.com/NoorQureshi/kali-linux-cheatsheet | https://github.com/RocketChat | #Hackers Are Real, Monsters are real too. They live inside us, and sometimes, They Win. | None | @RocketChat | 187 | 0 | 106 | 81 | 37 | Python,Shell | 288 | 116 | 1| 
 | k3170makan | PyMLProjects: Python 机器学习项目: | https://github.com/k3170makan/PyMLProjects | https://blog.k3170makan.com |  | Cape Town | None | 29 | 0 | 70 | 81 | 10 | Python,C,Shell | 128 | 29 | 1| 
 | marin-m | pbtk: A toolset for reverse engineering and fuzzing Protobuf-based apps | https://github.com/marin-m/pbtk | https://medium.com/@marin_m |  | Paris, France | None | 3 | 0 | 0 | 81 | 0 | Python | 503 | 53 | 1| 
+| Captainarash | X86架构圣经指南手册。 | https://github.com/Captainarash/The_Holy_Book_of_X86 | https://twitter.com/H4UL4 | Computing Offsets \x00 | Helsinki, Finland | None | 6 | 0 | 19 | 80 | 6 | JavaScript,C++ | 492 | 101 | 1| 
 | Gbps | Gbhv - 一款简单的 x86-64 VT-x Hypervisor ,帮助学习使用和开发 VT-X 硬件虚拟化技术: | https://github.com/Gbps/gbhv | http://www.ctf.re/ | I do security things. | Carnegie Mellon University | None | 20 | 0 | 37 | 80 | 15 | Python,C,CSS,C++ | 0 | 0 | 1| 
 | heibaiying | BigData-Notes: 大数据入门指南 | https://github.com/heibaiying/BigData-Notes | https://blog.csdn.net/m0_37809146 | 博客：https://blog.csdn.net/m0_37809146 | shanghai | None | 2 | 0 | 20 | 80 | 0 | Java | 2900 | 755 | 1| 
 | jtesta | ssh-mitm : SSH MITM tool : | https://github.com/jtesta/ssh-mitm | https://www.positronsecurity.com/ | Senior penetration tester and founder of Positron Security. Board member & treasurer of B-Sides Rochester. @therealjoetesta | Rochester, NY | Positron Security | 20 | 0 | 21 | 80 | 7 | Python,C,Shell,Ruby | 0 | 0 | 1| 
@@ -2532,6 +2533,7 @@
 | milesrichardson | docker-onion-nmap - 集成 Tor / proxychains / dnsmasq / nmap 等工具对 .onion 隐藏服务进行扫描的 Docker 容器: | https://github.com/milesrichardson/docker-onion-nmap | https://github.com/splitgraph | Startup founder and software consultant. Working on @splitgraph | Cambridge, UK | @splitgraph | 17 | 0 | 810 | 59 | 82 | Python,TeX,Shell,Ruby | 0 | 0 | 2| 
 | siberas |  | https://github.com/siberas/IDA2Sym | https://www.siberas.de | Research Driven Security Consulting | Germany | siberas GmbH | 5 | 0 | 0 | 59 | 0 | Python,Ruby,C++ | 80 | 37 | 1| 
 | vaguileradiaz | tinfoleak - 开源 Twitter 情报分析工具: | https://github.com/vaguileradiaz/tinfoleak | http://vicenteaguileradiaz.com |  | None | None | 1 | 0 | 1 | 59 | 0 | Python | 0 | 0 | 1| 
+| BeetleChunks | ManageEngine OpManger 任意文件读漏洞 PoC（CVE-2020-12116） | https://github.com/BeetleChunks/CVE-2020-12116 | None | OSCP, Red Teamer, Pentester, Developer, Hacker | None | None | 11 | 0 | 62 | 58 | 3 | Python,C,PowerShell | 277 | 73 | 2| 
 | V33RU | IoTSecurity101 - IoT 安全方向优秀资源索引: | https://github.com/V33RU/IoTSecurity101 | http://iotpentest.com/ | Keen Interested in IoT Penetration testing | bangalore | Independent | 64 | 0 | 14 | 58 | 8 | Python,Go | 707 | 151 | 1| 
 | anfractuosity | CDitter – CD-ROM drive based data exfiltration : https://www.anfractuosity.com/projects/cditter/ , Github : | https://github.com/anfractuosity/cditter/ | http://www.anfractuosity.com/ |  | None | None | 29 | 0 | 227 | 58 | 6 | Python,C | 0 | 0 | 1| 
 | ercoppa | symbolic-execution-tutorial - 基于 angr 框架的符号执行教程: | https://github.com/ercoppa/symbolic-execution-tutorial/blob/master/symbolic-execution.pdf | https://github.com/season-lab | PostDoc | Rome | Sapienza University of Rome, @season-lab | 17 | 0 | 16 | 58 | 1 | Python,Shell,C,HTML | 401 | 189 | 1| 
@@ -2698,6 +2700,7 @@
 | crsftw | list of useful commands, shells and notes related to OSCP | https://github.com/crsftw/OSCP-cheat-sheet | None |  | None | None | 22 | 0 | 5 | 45 | 3 | Python,C,Shell,PHP | 8 | 8 | 1| 
 | dchrastil | ScrapedIn：A tool to scrape LinkedIn without API restrictions for data reconnaiss | https://github.com/dchrastil/ScrapedIn | None | red-team hacker | None | None | 6 | 0 | 11 | 45 | 1 | Python,JavaScript,PowerShell | 428 | 62 | 1| 
 | funoverip | mcafee-sitelist-pwd-decryption : Password decryption tool for the McAfee SiteList.xml file : | https://github.com/funoverip/mcafee-sitelist-pwd-decryption | http://funoverip.net |  | None | None | 5 | 0 | 0 | 45 | 1 | Python,Perl | 63 | 19 | 1| 
+| gerhart01 | Hyper-V internals researches (2006-2019) | https://github.com/gerhart01/Hyper-V-Internals/blob/master/HyperResearchesHistory.md | https://hvinternals.blogspot.com/ |  | None | None | 6 | 0 | 124 | 45 | 0 | Python,C,HTML,C++ | 80 | 17 | 1| 
 | jeanphorn | wordlist: 暴力破解字典库（IP摄像头默认密码） | https://github.com/jeanphorn/wordlist | None |  | Beijing | Tencent | 11 | 0 | 42 | 45 | 9 | Go,Python,C | 529 | 319 | 1| 
 | jekyc | wig:WebApp Information Gatherer | https://github.com/jekyc/wig | None |  | None | None | 1 | 0 | 5 | 45 | 0 | Python | 416 | 119 | 1| 
 | lis912 | Evaluation_tools: 等级保护测评工具 | https://github.com/lis912/Evaluation_tools | None | 时不时拧巴的菜鸡一只。 | None | None | 9 | 0 | 16 | 45 | 0 | Go,Shell,HTML,CSS | 161 | 54 | 1| 
@@ -2861,7 +2864,6 @@
 | shramos | polymorph - 实时网络数据包操作框架: | https://github.com/shramos/polymorph | None |  | None | None | 7 | 0 | 5 | 33 | 1 | Python | 303 | 44 | 1| 
 | skorov | Ridrelay - 快捷简单获取域用户名的工具: | https://github.com/skorov/ridrelay | None |  | None | None | 16 | 0 | 121 | 33 | 28 | Python,Shell,JavaScript | 311 | 50 | 1| 
 | A2nkF | 研究员 A2nkF 公开了一个 macOS 内核 0Day Exploit | https://github.com/A2nkF/macOS-Kernel-Exploit/ | https://twitter.com/A2nkF_ |  | None | None | 14 | 0 | 21 | 32 | 15 | Python,C,C++ | 106 | 18 | 1| 
-| BeetleChunks | redsails - 一个基于 Python 的后渗透项目,旨在绕过基于主机的安全监控与日志记录: | https://github.com/BeetleChunks/redsails | https://redsails.io | OSCP, Red Teamer, Pentester, Developer, Hacker | None | None | 9 | 0 | 51 | 32 | 2 | Python,C,PowerShell | 208 | 57 | 1| 
 | DownWithUp | 在 GEARAspiWDM.sys 中导致 DOS 漏洞(CVE-2018-16712)的POC: | https://github.com/DownWithUp/CVE-2018-16712/ | http://downwithup.github.io | Interested in security related software, malicious methods, how to stop them, Windows internals, and code exploitation. FASM, C, Pascal, and Python. Student. | Internet | None | 23 | 0 | 39 | 32 | 20 | C,Assembly | 0 | 0 | 1| 
 | Nakiami | Mellivora is a CTF engine written in PHP | https://github.com/Nakiami/mellivora | None |  | None | None | 8 | 0 | 15 | 32 | 4 | Python,PHP,Java,CSS,Perl | 303 | 144 | 1| 
 | avishayil | 模拟 Capital One 数据泄露漏洞环境的云配置文件 | https://github.com/avishayil/caponeme | https://github.com/cyberark | Cloud & DevOps Engineer @ CyberArk | Israel | @cyberark | 23 | 0 | 52 | 32 | 0 | Java,Python,JavaScript,Objective-C,Dockerfile,CSS | 435 | 102 | 1| 
@@ -3658,7 +3660,7 @@
 | immunityinc | Immunity 开源了一个用于进程调试和 Trace 的库 - libptrace | https://github.com/immunityinc/libptrace | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 0 | 0 | 1| 
 | infoassure | Python script to speed up analysis of newer MS office docs. Uses officedissector library, dumps macros | https://github.com/infoassure/officefileinfo | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | inory009 | CTF-Web-Challenges:历届 CTF开源的Web 题源码 | https://github.com/inory009/CTF-Web-Challenges | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
-| intel | Intel 开源了一个 VBH（Virtualization Based Hardening）项目，通过 API 可以为 Client 提供基于虚拟化的安全防护特性支持 | https://github.com/intel/vbh | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Assembly,Python,JavaScript,BitBake,C++,Go,Java,Rust | 0 | 0 | 1| 
+| intel | 基于 Xen VMI API 和 AFL，Fuzz Linux 内核 | https://github.com/intel/kernel-fuzzer-for-xen-project | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Roff,Python,JavaScript,BitBake,C++,HTML,Go | 0 | 0 | 2| 
 | intellectualheaven | ceed : A tiny x86 compiler with ELF and PE target : https://github.com/intellectualheaven/ceed , Details : | https://github.com/intellectualheaven/ceed | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | intelpt | Just checked in Windows Intel PT Driver for Windows v0.5 from our presentation | https://github.com/intelpt/WindowsIntelPT | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,C++ | 0 | 0 | 1| 
 | iovisor | bpftrace 使用教程: | https://github.com/iovisor/bpftrace/blob/master/docs/tutorial_one_liners.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Python,JavaScript,C++,HTML,Go | 0 | 0 | 2| 
@@ -3767,6 +3769,8 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 从 PDF 文件下载到 SSRF 漏洞 | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fblog.appsecco.com%2Fserver-side-request-forgery-via-html-injection-in-pdf-download-90ee4053e911| 
+| SpecterOps Team 关于纵深防御的系列 Blog | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fposts.specterops.io%2Fdetection-in-depth-a2392b3a7e94| 
 | 从 iOS 设备越狱到应用静态分析 | http://link.medium.com/KogHw50ek6| 
 | From fuzzing to remote code execution in Samsung Android | http://medium.com/@social_62682/from-fuzzing-to-remote-code-execution-in-samsung-android-56cbdebcfeca| 
 | 安全策略（CSP）绕过技术内容介绍。 | http://medium.com/@bhaveshthakur2015/content-security-policy-csp-bypass-techniques-e3fa475bfe5d| 
