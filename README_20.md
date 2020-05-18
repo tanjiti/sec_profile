@@ -14,6 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| Bypass | Bypass-- | 邮件伪造之SPF绕过的5种思路 | https://mp.weixin.qq.com/s/dqntjRLgcOD3D2bi1oDFAw | 48| 
+| 绿盟科技研究通讯 | nsfocus_research | 基于深度学习的物联网恶意软件家族细粒度分类研究 | https://mp.weixin.qq.com/s/we1fr4_BKd7n-zVWzSRygg | 28| 
 | SecWiki | SecWiki | [Sec-Trans-8]开发扫描器挖掘反射型XSS (一) | https://mp.weixin.qq.com/s/T2ULAKKGmRup6FFM8-vgSg | 28| 
 | 中通安全应急响应中心 | ZTO_SRC | 中通RASP安全防护方案初探 | https://mp.weixin.qq.com/s/33CtW9ErXCDWoCJRFzlVPQ | 7| 
 | 数世咨询 |  | 年度大型攻防实战全景：红蓝深度思考及多方联合推演 | https://mp.weixin.qq.com/s/GVIUbtMTynfF5ALDbhXirg | 3| 
@@ -64,7 +66,6 @@
 | 中国信息安全 | chinainfosec | 专题·原创 , 国际网络安全应急响应体系介绍 | https://mp.weixin.qq.com/s/1_cJGTpH4dU780K6qngkjQ | 28| 
 | 信息通信技术与政策 | caict_dsc | APT供应链攻击防护应对分析及意义 | https://mp.weixin.qq.com/s/qGMRjCeIyHSHk_aXI8Fxbg | 1| 
 | 永安在线反欺诈 | YongAnOnline | 永安在线 , 生鲜电商拉新场景业务安全测评报告 | https://mp.weixin.qq.com/s/oiSYOA-BDn9fUnb7EhO2vA | 2| 
-| 绿盟科技研究通讯 | nsfocus_research | Provenance Mining：终端溯源数据挖掘与威胁狩猎 | https://mp.weixin.qq.com/s/Te7c3HvCcxX3ci9HTn8lEQ | 27| 
 | 腾讯安全智能 | TX_Security_AI | 基于SOC机器学习检测平台的行为分析建模---HTTP隐蔽通信检测 | https://mp.weixin.qq.com/s/ggFbaQvn8yUJOFi_-DPNOw | 3| 
 | 360CERT | CERT-360 | “震网”三代和二代漏洞技术分析报告 | https://mp.weixin.qq.com/s/qc25c_nuUax6UoknAVLrAw | 7| 
 | Ms08067安全实验室 | Ms08067_com | 六种bypass安全软件防护执行的方式 | https://mp.weixin.qq.com/s/sfxJbyJMB6FyGfa6H0G3hA | 31| 
@@ -74,7 +75,6 @@
 | 锦行信息安全 | jeeseensec | 浅析HTTP走私攻击 | https://mp.weixin.qq.com/s/IMZrvJGQjcLBZS74kMWRnA | 1| 
 | 国防科技要闻 | CDSTIC | 2021财年DARPA预算概况及发展动向解析 | https://mp.weixin.qq.com/s/yEsrMmI0BpvllXaf3TBWkw | 2| 
 | 大路咨询 | daluzixun | 中国工业网络安全厂商综合能力概览（2020年第1期） | https://mp.weixin.qq.com/s/6i17MV8T3rou8j0rY-ZbIQ | 1| 
-| Bypass | Bypass-- | 渗透利器 , 提权辅助工具箱 | https://mp.weixin.qq.com/s/Z7kh8OVslnppsL9ntNJHGg | 47| 
 | 专注安管平台 |  | 美国联邦政府SOC建设动向（2019） | https://mp.weixin.qq.com/s/8I8hM_G1AO9emXpqxdR0oA | 4| 
 | 中国保密协会科学技术分会 |  | 2020 Unit 42 IoT威胁报告（汉译版） | https://mp.weixin.qq.com/s/40fgfbuwa2c5jp6e5vbnxQ | 5| 
 | 水滴安全实验室 | EversecLab | 美公司披露俄长达15年的网络活动简析 | https://mp.weixin.qq.com/s/nd_dZmAyp5U0lQSOytB6Ng | 10| 
@@ -1194,6 +1194,7 @@
 | orangetw | TSH - 一个开源的 Linux 后门: | https://github.com/orangetw/tsh | http://blog.orange.tw |  | Taiwan | None | 37 | 0 | 506 | 1500 | 61 | Python,C,PHP | 0 | 0 | 3| 
 | taviso | Tavis Ormandy 开源了一个用于与 CEF Debugger 交互的工具 | https://github.com/taviso/cefdebug | None |  | None | None | 12 | 0 | 16 | 1500 | 1 | C | 2700 | 225 | 3| 
 | 1N3 | ReverseAPK - 快速分析与逆向 Android Packages : | https://github.com/1N3/ReverseAPK | https://github.com/xer0dayz | Founder of @XeroSecurity. Creator of Sn1per. Hacking since 93. 20+ yrs. IT exp. Sr. Penetration Tester. OSCE/OSCP/CISSP @xer0dayz @XeroSecurity @CrowdShield | None | XeroSecurity | 19 | 0 | 671 | 1400 | 35 | Python,C,Shell,BitBake | 0 | 0 | 11| 
+| CHEF-KOCH | KMS-activator - 关于 Windows 激活机制研究的一个项目 | https://github.com/CHEF-KOCH/KMS-activator | https://github.com/microsoft | Former @microsoft and @NVIDIA employee. Since 2018 NTT-Security. Interested in privacy/security, gaming & demoscene related topics. | Lausanne | CKs Technology News | 125 | 0 | 4100 | 1400 | 127 | Python,C,Batchfile,JavaScript,Pascal | 590 | 145 | 4| 
 | CHYbeta | Web安全学习的一个github库 | https://github.com/CHYbeta/Web-Security-Learning | https://twitter.com/chybeta |  | China | XMU | 27 | 0 | 1600 | 1400 | 122 | Python,HTML | 2700 | 807 | 5| 
 | Micropoor | Micro8: PHP安全新闻早8点全部文档 | https://github.com/Micropoor/Micro8 | None |  | None | None | 2 | 0 | 60 | 1400 | 20 |  | 14500 | 5700 | 1| 
 | Screetsec | Vegile - Linux 后渗透测试工具,用于安装持久化后门: | https://github.com/Screetsec/Vegile | http://dracos-linux.org | Developer dracOs linux and Penetration Testing Tools , Join our community at https://t.me/bashidorg | INDONESIA | Dracos Linux ( Penetration OS from Indonesia ) | 14 | 0 | 148 | 1400 | 5 | Python,Shell,Java,C++ | 0 | 0 | 3| 
@@ -1296,7 +1297,6 @@
 | ethicalhack3r | Added some updates to the WordPress Plugin Security Testing Cheat Sheet - | https://github.com/ethicalhack3r/wordpress_plugin_security_testing_cheat_sheet | https://dewhurstsecurity.com |  | UK-FR-ES | Dewhurst Security | 18 | 0 | 105 | 788 | 9 | Shell,PHP,Ruby | 3100 | 913 | 1| 
 | WangYihang | Platypus 反弹 Shell 构建僵尸网络 | https://github.com/WangYihang/Platypus | None | If you can read assembly language then everything is open source. | Harbin China | Harbin Institute of Technology | 103 | 0 | 1100 | 784 | 71 | Python,Go,Ruby,Rust | 0 | 0 | 5| 
 | dionyziz | Rupture, A framework for BREACH and other compression-based crypto attacks https://github.com/dionyziz/rupture from BH Asia | https://github.com/dionyziz/rupture | https://dionyziz.com/ | Cryptography PhD student at the University of Athens. Cardano Research Scientist at IOHK. | Athens | University of Athens | 150 | 0 | 538 | 783 | 116 | HTML,JavaScript,PHP | 569 | 163 | 1| 
-| CHEF-KOCH | Android Vulnerabilities Overview - 研究员 CHEF-KOCH 整理的 Android 已知漏洞的情况总结: | https://github.com/CHEF-KOCH/Android-Vulnerabilities-Overview | https://github.com/microsoft | Highly interested in PC games, demoscene and security-related topics. I worked for @microsoft and @NVIDIA over 15 years. - Since 2018 for NTT Security - | Lausanne (づ｡◕‿◕｡)づ | CKs Technology News | 103 | 0 | 2800 | 778 | 60 | Python,C,Batchfile,JavaScript | 0 | 0 | 3| 
 | Mr-Un1k0d3r | ThunderShell - Python / PowerShell 实现的 HTTP 通信的远程控制软件: | https://github.com/Mr-Un1k0d3r/ThunderShell | https://github.com/MrUn1k0d3r | Mostly Red Team tools for penetration testing. I think that Ron Jemery is a good ambassador for anything regarding penetration. Twitter - @MrUn1k0d3r | None | RingZer0 Team | 18 | 0 | 8 | 777 | 0 | Python,Visual,PowerShell | 0 | 0 | 3| 
 | feicong | Android&iOS&macOS安全工程师技能表 | https://github.com/feicong/sec_skills | https://zhuanlan.zhihu.com/android-sec | 《Android软件安全权威指南》已上市： https://item.jd.com/12522178.html http://product.dangdang.com/26485897.html 微信公众号：feicong_sec | None | None | 15 | 0 | 2400 | 776 | 82 | Python,Objective-C,Shell | 343 | 77 | 2| 
 | asciimoo | wuzz : Interactive cli tool for HTTP inspection : https://github.com/asciimoo/wuzz | https://github.com/asciimoo/wuzz | None |  | Budapest, Hungary | None | 65 | 0 | 161 | 764 | 84 | Python,Go | 0 | 0 | 1| 
@@ -2661,6 +2661,7 @@
 | sjhilt | GasPot: honeypot for Veeder Root Gaurdian AST | https://github.com/sjhilt/GasPot | None |  | None | None | 21 | 0 | 20 | 48 | 18 | Python,Lua | 72 | 25 | 1| 
 | vaioco | ARTDroid: Simple and easy to use library to intercept virtual-method calls under the Android ART runtime - | https://github.com/vaioco/art-hooking-vtable | None |  | None | None | 95 | 0 | 157 | 48 | 43 | C,Shell,Java,C++ | 21 | 20 | 1| 
 | ydkhatri | macOS 全盘镜像(Image)文件静态解析工具: | https://github.com/ydkhatri/mac_apt | https://www.swiftforensics.com | Professor @ Champlain College | None | None | 19 | 0 | 9 | 48 | 1 | Python | 146 | 22 | 1| 
+| zrax | Decompyle++ - Python 字节码反编译工具 | https://github.com/zrax/pycdc | None |  | None | None | 45 | 0 | 24 | 48 | 7 | C++ | 736 | 164 | 1| 
 | InfectedPacket | Enoki - Wrapper class for IDAPython. Regroups various useful functions for reverse engineering of binaries. | https://github.com/InfectedPacket/Idacraft | http://thecyberrecce.net | Psytrance, Reverse Engineering, Python and Wine (the liquid) | Canada | None | 18 | 0 | 3 | 47 | 2 | Python,C++ | 20 | 6 | 1| 
 | MichaelGrafnetter | New version of the #DSInternals PowerShell Module, now with Windows Server 2003 support. https://github.com/MichaelGrafnetter/DSInternals/releases | https://github.com/MichaelGrafnetter/DSInternals/releases | https://www.dsinternals.com | Security Researcher and Trainer, Twitter: @MGrafnetter | Prague, Czech Republic | None | 7 | 0 | 20 | 47 | 0 | C#,PowerShell | 0 | 0 | 1| 
 | TheM4hd1 | Vayne-RaT - C# .NET 编写的远程控制软件: | https://github.com/TheM4hd1/Vayne-RaT | None | IOS Mobile Developement (Swift) / Desktop Application Developement (C#) / Web Application Pentester | Tehran, Iran | None | 8 | 0 | 101 | 47 | 3 | C#,Swift | 0 | 0 | 2| 
@@ -3649,7 +3650,7 @@
 | guardicore | labs_campaigns 攻击团队IOC信息 | https://github.com/guardicore/labs_campaigns | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,CoffeeScript,C# | 0 | 0 | 1| 
 | guillotines | WebShell: Web端WebShell管理器 | https://github.com/guillotines/WebShell | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | guitarman0831 | Onyx:A simple Linux keylogger | https://github.com/guitarman0831/Onyx | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
-| hardenedlinux | srcinv: source code audit tool 代码审计工具 | https://github.com/hardenedlinux/srcinv | None | None | None | None | 0 | 0 | 0 | 0 | 0 | HTML,C,Shell,Assembly,Roff,C++,Nix,Zeek,Go | 243 | 56 | 1| 
+| hardenedlinux | hardenedlinux 关于固件安全的一个开源项目 | https://github.com/hardenedlinux/firmware-anatomy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Assembly,Roff,Zeek,C++,Nix,HTML,Verilog,Go | 244 | 60 | 2| 
 | hashcat | hashcat and oclHashcat have gone open source | https://github.com/hashcat/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 0 | 0 | 1| 
 | hduisa | hduisa/HCTF2016: HCTF 2016 CHALLENGES | https://github.com/hduisa/HCTF2016 | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 2| 
 | helios-decompiler | Helios - All-in-one Java reverse engineering tool | https://github.com/helios-decompiler/Helios | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Java | 0 | 0 | 1| 
