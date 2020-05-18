@@ -16,11 +16,11 @@
 | --- | --- | --- | ---| 
 | Bypass | Bypass-- | 邮件伪造之SPF绕过的5种思路 | https://mp.weixin.qq.com/s/dqntjRLgcOD3D2bi1oDFAw | 6| 
 | 绿盟科技研究通讯 | nsfocus_research | 基于深度学习的物联网恶意软件家族细粒度分类研究 | https://mp.weixin.qq.com/s/we1fr4_BKd7n-zVWzSRygg | 5| 
-| SecWiki | SecWiki | [Sec-Trans-8]开发扫描器挖掘反射型XSS (一) | https://mp.weixin.qq.com/s/T2ULAKKGmRup6FFM8-vgSg | 6| 
 | 中通安全应急响应中心 | ZTO_SRC | 中通RASP安全防护方案初探 | https://mp.weixin.qq.com/s/33CtW9ErXCDWoCJRFzlVPQ | 2| 
-| 数世咨询 |  | 年度大型攻防实战全景：红蓝深度思考及多方联合推演 | https://mp.weixin.qq.com/s/GVIUbtMTynfF5ALDbhXirg | 2| 
+| SecWiki | SecWiki | [Sec-Trans-8]开发扫描器挖掘反射型XSS (一) | https://mp.weixin.qq.com/s/T2ULAKKGmRup6FFM8-vgSg | 6| 
 | 小强说 | xiaoqiangcall | 从STIX2.1看安全智能归来 | https://mp.weixin.qq.com/s/nYV3S2oYNNnKcpvNAG751w | 1| 
 | 情报分析师 | qingbaofenxishi | 大数据环境下安全情报融合体系构建 | https://mp.weixin.qq.com/s/bjqv8zlSEl7waKHxBNIwyA | 1| 
+| 数世咨询 |  | 年度大型攻防实战全景：红蓝深度思考及多方联合推演 | https://mp.weixin.qq.com/s/GVIUbtMTynfF5ALDbhXirg | 2| 
 | 互联网安全内参 | anquanneican | 新一代SIEM与SOAR的技术对比 | https://mp.weixin.qq.com/s/mfNRbDXIg5_1jSKHbceHCA | 2| 
 | 虎符智库 |  | 各国竞相布局 卫星互联网重新定义网络战 | https://mp.weixin.qq.com/s/mj4BVfI-j3yp-xaSZeEW_A | 2| 
 | Tide安全团队 | TideSec | 资产管理与威胁监测平台Tide-Mars开源了！ | https://mp.weixin.qq.com/s/-7V14Rpu2KU5HUsa0p025g | 38| 
@@ -224,6 +224,7 @@
 | Qftm | Handbook of information collection for penetration testing and src | https://github.com/Qftm/Information_Collection_Handbook | https://qftm.github.io/ | CTFer，Pentester，BugBountyHunter，Security Researcher，Mobile Security and Development | Internet | None | 7 | 0 | 53 | 35 | 35 | Python,HTML,JavaScript,PHP,C++ | 254 | 56 | 1| 
 | assafmo | xioc: Extract IOCs from text, including escaped ones. | https://github.com/assafmo/xioc | https://github.com/enigmampc |  | Israel | @enigmampc | 25 | 0 | 270 | 35 | 18 | Go,JavaScript | 140 | 12 | 2| 
 | p1g3 | JSONP-Hunter: JSONP Hunter in Burpsuite | https://github.com/p1g3/JSONP-Hunter | None |  | None | None | 8 | 0 | 16 | 34 | 0 | Python,Shell,HTML | 60 | 11 | 1| 
+| Wangpeiyi9979 | IE-Bert-CNN: 百度2019语言与智能技术竞赛信息抽取模型 | https://github.com/Wangpeiyi9979/IE-Bert-CNN | None | 我可以做到，我必须做到，我做的最好。 | ChengDu,SiChuan,China | TianJin University | 22 | 0 | 27 | 29 | 18 | Python,Jupyter | 101 | 28 | 1| 
 | lilang-wu | p-joker - 用于分析 iOS/macOS 内核 Kernelcache 与扩展的工具 | https://github.com/lilang-wu/p-joker | None |  | None | None | 32 | 0 | 11 | 29 | 13 | Python,C | 40 | 19 | 1| 
 | ATpiu | asset-scan: 甲方企业的外网资产周期性扫描监控系统 | https://github.com/ATpiu/asset-scan | None | Penetration Test/Gopher/App Sec/ICS Sec | None | None | 100 | 0 | 292 | 28 | 119 | Go,Python | 40 | 6 | 1| 
 | kabeor | 有研究员总结的 Unicorn CPU 模拟器的非官方 API 文档 | https://github.com/kabeor/Micro-Unicorn-Engine-API-Documentation | https://kabeor.cn | Hello，Computers ! | SiChuan，China | SWUST | 11 | 0 | 79 | 27 | 0 | HTML,C++ | 41 | 16 | 1| 
@@ -289,6 +290,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 网络取证：渗透测试查找系统后门漏洞学习方法。 | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fblog.pentesteracademy.com%2Fnetwork-forensics-finding-backdoored-system-b0b88fc23b5c| 
 | 从 PDF 文件下载到 SSRF 漏洞 | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fblog.appsecco.com%2Fserver-side-request-forgery-via-html-injection-in-pdf-download-90ee4053e911| 
 | SpecterOps Team 关于纵深防御的系列 Blog | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fposts.specterops.io%2Fdetection-in-depth-a2392b3a7e94| 
 | 从 iOS 设备越狱到应用静态分析 | http://link.medium.com/KogHw50ek6| 

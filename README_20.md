@@ -16,11 +16,11 @@
 | --- | --- | --- | ---| 
 | Bypass | Bypass-- | 邮件伪造之SPF绕过的5种思路 | https://mp.weixin.qq.com/s/dqntjRLgcOD3D2bi1oDFAw | 48| 
 | 绿盟科技研究通讯 | nsfocus_research | 基于深度学习的物联网恶意软件家族细粒度分类研究 | https://mp.weixin.qq.com/s/we1fr4_BKd7n-zVWzSRygg | 28| 
-| SecWiki | SecWiki | [Sec-Trans-8]开发扫描器挖掘反射型XSS (一) | https://mp.weixin.qq.com/s/T2ULAKKGmRup6FFM8-vgSg | 28| 
 | 中通安全应急响应中心 | ZTO_SRC | 中通RASP安全防护方案初探 | https://mp.weixin.qq.com/s/33CtW9ErXCDWoCJRFzlVPQ | 7| 
-| 数世咨询 |  | 年度大型攻防实战全景：红蓝深度思考及多方联合推演 | https://mp.weixin.qq.com/s/GVIUbtMTynfF5ALDbhXirg | 3| 
+| SecWiki | SecWiki | [Sec-Trans-8]开发扫描器挖掘反射型XSS (一) | https://mp.weixin.qq.com/s/T2ULAKKGmRup6FFM8-vgSg | 28| 
 | 小强说 | xiaoqiangcall | 从STIX2.1看安全智能归来 | https://mp.weixin.qq.com/s/nYV3S2oYNNnKcpvNAG751w | 5| 
 | 情报分析师 | qingbaofenxishi | 大数据环境下安全情报融合体系构建 | https://mp.weixin.qq.com/s/bjqv8zlSEl7waKHxBNIwyA | 4| 
+| 数世咨询 |  | 年度大型攻防实战全景：红蓝深度思考及多方联合推演 | https://mp.weixin.qq.com/s/GVIUbtMTynfF5ALDbhXirg | 3| 
 | 互联网安全内参 | anquanneican | 新一代SIEM与SOAR的技术对比 | https://mp.weixin.qq.com/s/mfNRbDXIg5_1jSKHbceHCA | 5| 
 | 虎符智库 |  | 各国竞相布局 卫星互联网重新定义网络战 | https://mp.weixin.qq.com/s/mj4BVfI-j3yp-xaSZeEW_A | 2| 
 | Tide安全团队 | TideSec | 资产管理与威胁监测平台Tide-Mars开源了！ | https://mp.weixin.qq.com/s/-7V14Rpu2KU5HUsa0p025g | 38| 
@@ -2918,6 +2918,7 @@
 | AdrianVollmer | PowerHub - 辅助 PowerSploit 绕过杀毒软件检测和应用白名单的 Web 应用 | https://github.com/AdrianVollmer/PowerHub | https://github.com/SySS-Research | @mr_mitm | Tübingen, Germany | SySS GmbH @SySS-Research | 8 | 0 | 33 | 29 | 13 | Python,C,Ruby,PowerShell | 126 | 15 | 1| 
 | B16f00t | whapa - whatsapp database parser: | https://github.com/B16f00t/whapa | None | Forensic and Cybercrime investigator | None | None | 1 | 0 | 56 | 29 | 2 | Python | 135 | 37 | 1| 
 | Cherishao | APT-Sample Files | https://github.com/Cherishao/APT-Sample | https://cherishao.github.io/ | Malware researcher && APT Follow , Analyze threats,Blue/Red Team methodology, Networks, Malware Analysis,Reverse Engineering🕵️‍♂️ BTC:17iDHpUqe9XGpGJ2cMBUVciq | ChengDu | None | 68 | 1 | 346 | 29 | 31 | Python,HTML | 47 | 24 | 1| 
+| Wangpeiyi9979 | IE-Bert-CNN: 百度2019语言与智能技术竞赛信息抽取模型 | https://github.com/Wangpeiyi9979/IE-Bert-CNN | None | 我可以做到，我必须做到，我做的最好。 | ChengDu,SiChuan,China | TianJin University | 22 | 0 | 27 | 29 | 18 | Python,Jupyter | 101 | 28 | 1| 
 | echowei | DeepTraffic: Deep Learning models for network traffic classification | https://github.com/echowei/DeepTraffic | None |  | Beijing | None | 1 | 0 | 1 | 29 | 0 | Python | 153 | 117 | 1| 
 | gdedrouas | Exchange-AD-Privesc - 利用 Microsoft Exchange 的 DACL 问题提升域内权限: | https://github.com/gdedrouas/Exchange-AD-Privesc | http://www.elysee.fr/ |  | None | Présidence de la République | 6 | 0 | 18 | 29 | 2 | C,JavaScript,PowerShell | 268 | 52 | 1| 
 | koenbuyens | kalirouter - 将 Kali Linux 搭建成路由器,该路由可将所有 HTTP/HTTPS 请求发送到 Burpsuite 代理以便分析: | https://github.com/koenbuyens/kalirouter | http://koen.buyens.org/ | appsec for fun and profit | None | None | 5 | 0 | 118 | 29 | 36 | Python,Shell,JavaScript | 0 | 0 | 1| 
@@ -3770,6 +3771,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 网络取证：渗透测试查找系统后门漏洞学习方法。 | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fblog.pentesteracademy.com%2Fnetwork-forensics-finding-backdoored-system-b0b88fc23b5c| 
 | 从 PDF 文件下载到 SSRF 漏洞 | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fblog.appsecco.com%2Fserver-side-request-forgery-via-html-injection-in-pdf-download-90ee4053e911| 
 | SpecterOps Team 关于纵深防御的系列 Blog | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fposts.specterops.io%2Fdetection-in-depth-a2392b3a7e94| 
 | 从 iOS 设备越狱到应用静态分析 | http://link.medium.com/KogHw50ek6| 
