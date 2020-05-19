@@ -14,7 +14,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 锦行信息安全 | jeeseensec | 干货 , linux系统行为新型实时监控技术 | https://mp.weixin.qq.com/s/60BYTv6ST03cguHiFFetVg | 2| 
 | Bypass | Bypass-- | 邮件伪造之SPF绕过的5种思路 | https://mp.weixin.qq.com/s/dqntjRLgcOD3D2bi1oDFAw | 6| 
+| 酒仙桥六号部队 | anfu-360 | 当frida来敲门 | https://mp.weixin.qq.com/s/McipoCTgtY02_6dJvRe44g | 1| 
 | 绿盟科技研究通讯 | nsfocus_research | 基于深度学习的物联网恶意软件家族细粒度分类研究 | https://mp.weixin.qq.com/s/we1fr4_BKd7n-zVWzSRygg | 5| 
 | 中通安全应急响应中心 | ZTO_SRC | 中通RASP安全防护方案初探 | https://mp.weixin.qq.com/s/33CtW9ErXCDWoCJRFzlVPQ | 2| 
 | SecWiki | SecWiki | [Sec-Trans-8]开发扫描器挖掘反射型XSS (一) | https://mp.weixin.qq.com/s/T2ULAKKGmRup6FFM8-vgSg | 6| 
@@ -73,7 +75,6 @@
 | 关注安全技术 | heresecurity | 常见的web容器后门笔记 | https://mp.weixin.qq.com/s/-cmM1k3--H6p1ditfQHPEw | 1| 
 | 小议安全 | xiaoyianquan | 零信任架构实战系列：干掉密码，无密码化方案落地 | https://mp.weixin.qq.com/s/xs-xybNs6Ha6_-Qr_EE-qw | 4| 
 | 网安国际 | inforsec | 【InForSec通讯】安全漏洞报告的差异性测量 , Usenix Security2019 | https://mp.weixin.qq.com/s/h6xLJyqybGASORugqsvmgg | 1| 
-| 锦行信息安全 | jeeseensec | 浅析HTTP走私攻击 | https://mp.weixin.qq.com/s/IMZrvJGQjcLBZS74kMWRnA | 1| 
 | 国防科技要闻 | CDSTIC | 2021财年DARPA预算概况及发展动向解析 | https://mp.weixin.qq.com/s/yEsrMmI0BpvllXaf3TBWkw | 1| 
 | 大路咨询 | daluzixun | 中国工业网络安全厂商综合能力概览（2020年第1期） | https://mp.weixin.qq.com/s/6i17MV8T3rou8j0rY-ZbIQ | 1| 
 | 专注安管平台 |  | 美国联邦政府SOC建设动向（2019） | https://mp.weixin.qq.com/s/8I8hM_G1AO9emXpqxdR0oA | 2| 
@@ -236,6 +237,7 @@
 | yardenshafir | KernelDataStructureFinder - 在内核 lookaside 链表中搜索数据结构的工具 | https://github.com/yardenshafir/KernelDataStructureFinder | None |  | None | None | 5 | 0 | 2 | 22 | 0 | C,C++ | 40 | 20 | 1| 
 | yoava333 | Bug on the Windshield - Fuzzing the Windows kernel，来自 OffensiveCon 2020 会议 | https://github.com/yoava333/presentations/blob/master/Fuzzing%20the%20Windows%20Kernel%20-%20OffensiveCon%202020.pdf | None |  | None | None | 15 | 0 | 16 | 22 | 0 | Go,Java,Rust | 17 | 1 | 1| 
 | ody5sey | Voyager: 安全工具集合平台 | https://github.com/ody5sey/Voyager | None |  | None | None | 3 | 0 | 1 | 21 | 0 | Python,HTML | 147 | 61 | 1| 
+| guibacellar | DNCI - 将 .NET 代码远程注入到非托管进程中 | https://github.com/guibacellar/DNCI | https://theobservator.net | Security Researcher and Machine Learning Specialist, researching in fraud detection, cyber espionage and artificial intelligence areas. | Brazil | None | 11 | 0 | 10 | 20 | 0 | C#,Python,CSS | 74 | 30 | 1| 
 | sisoc-tokyo | Real-time detection of high-risk attacks leveraging Kerber... | https://github.com/sisoc-tokyo/Real-timeDetectionAD_jornal | None |  | None | None | 23 | 0 | 2 | 20 | 0 | Python,HTML | 71 | 9 | 1| 
 | mrlnc | 禁用LTE网络安全性-商业网络中的配置错误安全研究分享。 | https://github.com/mrlnc/LTE-ciphercheck | None | Research Assistant & PhD student. Mobile Network Security at Ruhr-Universität Bochum. | Bochum, Germany | Ruhr-Universität Bochum | 15 | 0 | 26 | 18 | 30 | C++ | 36 | 13 | 1| 
 | rootsecdev | ChromeOS Security Notes，包含一份 MIT 对 ChromeOS 的分析报告 | https://github.com/rootsecdev/ChromeOS | None |  | None | None | 16 | 0 | 1 | 16 | 0 | Batchfile,Ruby | 75 | 8 | 1| 
@@ -254,6 +256,7 @@
 | Tera0017 | APT组织TA505所使用的SDBbot RAT解包工具发布，支持x86和x64 | https://github.com/Tera0017/SDBbot-Unpacker | None | I dont get it. | None | None | 3 | 0 | 0 | 6 | 0 | Python | 38 | 4 | 1| 
 | karkason | PyWinSandbox - Python 实现的将进程放到 Sandbox 环境运行的工具 | https://github.com/karkason/pywinsandbox | None |  | None | None | 3 | 0 | 19 | 6 | 7 | Python,C++ | 61 | 3 | 1| 
 | Martyx00 | Assistant plugin for vulnerability research | https://github.com/Martyx00/VulnFanatic | None |  | None | None | 4 | 0 | 2 | 5 | 0 | Python,Objective-C,Shell | 26 | 4 | 1| 
+| chip-red-pill | 有研究员利用 Intel Atom CPU 的 Local Direct Access Test (LDAT) DFT 特性 Dump Microcode Sequencer ROM | https://github.com/chip-red-pill/glm-ucode | https://github.com/h0t | Research Team Members: Dmitry Sklyarov (@_Dmit), Mark Ermolov (@_markel___), Maxim Goryachy (@h0t) | Moscow | None | 2 | 0 | 0 | 5 | 0 | Python | 12 | 1 | 1| 
 | Equationliu | ImageNet 图像分类对抗攻击 No.3 solution | https://github.com/Equationliu/Attack-ImageNet | None |  | None | None | 9 | 0 | 19 | 4 | 1 | Python | 2 | 1 | 1| 
 | reddelexc | Top disclosed reports from HackerOne | https://github.com/reddelexc/hackerone-reports | None |  | Russia | Kontur | 2 | 0 | 30 | 4 | 0 | Python | 89 | 21 | 1| 
 | weizman | WhatsApp Desktop 0.3.9309 之前版本 XSS 漏洞分析 | https://github.com/weizman/CVE-2019-18426 | http://www.weizmangal.com | javascript expert and web security enthusiastic :) | Israel | https://www.perimeterx.com | 8 | 0 | 3 | 4 | 1 | JavaScript | 5 | 1 | 1| 
@@ -284,6 +287,7 @@
 | rapid7 | hackazon: A modern vulnerable web app | https://github.com/rapid7/hackazon | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Java,Python,TSQL,JavaScript,C#,Puppet,Ruby | 0 | 0 | 1| 
 | seemoo-lab | Frankenstein - 用于为无线设备固件提供模拟执行和 Fuzz 环境的框架 | https://github.com/seemoo-lab/frankenstein/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Jupyter,Python,JavaScript,TeX,Objective-C,HTML,MATLAB,Java | 4100 | 296 | 1| 
 | sibears | 用于修改 IDA HexRays AST 的工具 | https://github.com/sibears/HRAST | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,JavaScript,HTML,CSS | 0 | 0 | 1| 
+| trailofbits | Sienna Locomotive - 为缺乏安全经验的 Windows 开发者写的 Fuzzer | https://github.com/trailofbits/sienna-locomotive | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,CMake,Python,Ruby,JavaScript,C++,Go,Swift,Rust | 18300 | 1600 | 1| 
 | ztosec | Hunter 中通DevSecOps闭环方案 | https://github.com/ztosec/hunter | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Go,Java | 0 | 0 | 1| 
 
 

@@ -14,7 +14,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 锦行信息安全 | jeeseensec | 干货 , linux系统行为新型实时监控技术 | https://mp.weixin.qq.com/s/60BYTv6ST03cguHiFFetVg | 2| 
 | Bypass | Bypass-- | 邮件伪造之SPF绕过的5种思路 | https://mp.weixin.qq.com/s/dqntjRLgcOD3D2bi1oDFAw | 48| 
+| 酒仙桥六号部队 | anfu-360 | 当frida来敲门 | https://mp.weixin.qq.com/s/McipoCTgtY02_6dJvRe44g | 1| 
 | 绿盟科技研究通讯 | nsfocus_research | 基于深度学习的物联网恶意软件家族细粒度分类研究 | https://mp.weixin.qq.com/s/we1fr4_BKd7n-zVWzSRygg | 28| 
 | 中通安全应急响应中心 | ZTO_SRC | 中通RASP安全防护方案初探 | https://mp.weixin.qq.com/s/33CtW9ErXCDWoCJRFzlVPQ | 7| 
 | SecWiki | SecWiki | [Sec-Trans-8]开发扫描器挖掘反射型XSS (一) | https://mp.weixin.qq.com/s/T2ULAKKGmRup6FFM8-vgSg | 28| 
@@ -72,7 +74,6 @@
 | 云众可信 | yunzhongkexin | 原创干货 , 对某大型企业的一次web漏洞挖掘过程 | https://mp.weixin.qq.com/s/GuJgbLfJobTcJ2FMii3IzA | 11| 
 | 小议安全 | xiaoyianquan | 零信任架构实战系列：干掉密码，无密码化方案落地 | https://mp.weixin.qq.com/s/xs-xybNs6Ha6_-Qr_EE-qw | 4| 
 | 网安国际 | inforsec | 【InForSec通讯】安全漏洞报告的差异性测量 , Usenix Security2019 | https://mp.weixin.qq.com/s/h6xLJyqybGASORugqsvmgg | 11| 
-| 锦行信息安全 | jeeseensec | 浅析HTTP走私攻击 | https://mp.weixin.qq.com/s/IMZrvJGQjcLBZS74kMWRnA | 1| 
 | 国防科技要闻 | CDSTIC | 2021财年DARPA预算概况及发展动向解析 | https://mp.weixin.qq.com/s/yEsrMmI0BpvllXaf3TBWkw | 2| 
 | 大路咨询 | daluzixun | 中国工业网络安全厂商综合能力概览（2020年第1期） | https://mp.weixin.qq.com/s/6i17MV8T3rou8j0rY-ZbIQ | 1| 
 | 专注安管平台 |  | 美国联邦政府SOC建设动向（2019） | https://mp.weixin.qq.com/s/8I8hM_G1AO9emXpqxdR0oA | 4| 
@@ -3097,6 +3098,7 @@
 | gast04 | r4ge - 调用宏进行符号执行的 radare2 插件: | https://github.com/gast04/r4ge | https://twitter.com/NistelbergerK | I am a computer science student on TU Graz, favorite topics are about Reverse Engineering, IT-Security, AI and Logic. | None | None | 21 | 0 | 61 | 20 | 18 | Python,PHP,PowerShell,C++ | 85 | 11 | 1| 
 | gnebbia | pdlist: A passive subdomain finder | https://github.com/gnebbia/pdlist | None |  | Italy | None | 231 | 0 | 225 | 20 | 5 | C,XSLT,Python,JavaScript,Makefile,Perl,HTML,Go,PowerShell | 104 | 14 | 1| 
 | gregvish | L1TF(Foreshadow) VM guest虚拟机读取主机内存PoC(CVE-2018-3646): | https://github.com/gregvish/l1tf-poc/ | None |  | None | None | 8 | 0 | 7 | 20 | 2 | Python,Shell,C,JavaScript | 65 | 19 | 1| 
+| guibacellar | DNCI - 将 .NET 代码远程注入到非托管进程中 | https://github.com/guibacellar/DNCI | https://theobservator.net | Security Researcher and Machine Learning Specialist, researching in fraud detection, cyber espionage and artificial intelligence areas. | Brazil | None | 11 | 0 | 10 | 20 | 0 | C#,Python,CSS | 74 | 30 | 1| 
 | jamesbarlow | New tool release! icmptunnel, a tool for Pivoting with Ping :D writeup: https://labs.mwrinfosecurity.com/tools/pivot-with-ping/ & code: | https://github.com/jamesbarlow/icmptunnel | https://www.jamesbarlow.io |  | None | None | 4 | 0 | 0 | 20 | 0 | C,Shell,Ruby,Vim | 198 | 73 | 1| 
 | jymcheong | AutoTTP - Python 实现的 Empire / Metasploit 等框架的 API 调用库,用于实现自动化攻击: | https://github.com/jymcheong/AutoTTP | https://jym.sg |  | Singapore | None | 243 | 0 | 26 | 20 | 21 | Python,C#,Shell,PowerShell,C++ | 0 | 0 | 1| 
 | malicialab | avclass - AVClass malware labeling tool | https://github.com/malicialab/avclass | None |  | Madrid, Spain | None | 3 | 0 | 1 | 20 | 0 | Python,C | 171 | 54 | 1| 
@@ -3414,6 +3416,7 @@
 | Truneski | 使用 Dropbox 作为 Cobaltstrike 的 C2 传输通道: https://truneski.github.io/blog/2018/11/05/cobaltstrike-over-external-c2-via-dropbox/ GitHub: | https://github.com/Truneski/external_c2_framework | https://truneski.github.io/ |  | Nairobi, Kenya. | None | 10 | 0 | 25 | 5 | 0 | Python,PowerShell,CSS | 46 | 12 | 1| 
 | c0demap | Codemap is a binary analysis tool for run-trace visualization provided as IDA plugin. | https://github.com/c0demap/codemap | None |  | None | None | 2 | 0 | 0 | 5 | 0 | Python | 101 | 18 | 1| 
 | chame1eon | jni 函数调用 trace 模块，基于 frida | https://github.com/chame1eon/jnitrace | None |  | None | None | 3 | 0 | 0 | 5 | 0 | Python,Lua,JavaScript | 71 | 9 | 1| 
+| chip-red-pill | 有研究员利用 Intel Atom CPU 的 Local Direct Access Test (LDAT) DFT 特性 Dump Microcode Sequencer ROM | https://github.com/chip-red-pill/glm-ucode | https://github.com/h0t | Research Team Members: Dmitry Sklyarov (@_Dmit), Mark Ermolov (@_markel___), Maxim Goryachy (@h0t) | Moscow | None | 2 | 0 | 0 | 5 | 0 | Python | 12 | 1 | 1| 
 | dienuet | crossdomain - 一款自动检测跨域错误配置的工具: | https://github.com/dienuet/crossdomain | None | you can see me !!! | None | None | 11 | 0 | 9 | 5 | 1 | Python,PHP,CSS | 25 | 9 | 1| 
 | gr4ym4ntx | attackintel - 查询 MITRE ATT&CK API 获取对应策略,技术的 Python 脚本: | https://github.com/gr4ym4ntx/attackintel | https://gr4ym4ntx.pythonanywhere.com/ |  | None | None | 3 | 0 | 3 | 5 | 11 | Python,Batchfile | 61 | 20 | 1| 
 | jgrancell | malscan: A fully featured malware scanner for Linux desktops and servers. | https://github.com/jgrancell/malscan | https://www.joshgrancell.com |  | Dearborn, Michigan | Campbell Marketing and Communications | 9 | 0 | 6 | 5 | 1 | Go,Shell,HTML | 0 | 0 | 1| 
@@ -3746,6 +3749,7 @@
 | tarantula-team | 开源防火墙 fSense 2.4.4-p2 - 2.4.4-p3 XSS 漏洞 PoC（CVE-2019-12949） | https://github.com/tarantula-team/CVE-2019-12949/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | tea-deliverers | PlaidCTF 2019 比赛的 Writeup | https://github.com/tea-deliverers/ctf-writeups/blob/master/pctf2019/PlaidCTF2019_Writeup_Tea_Deliverers.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | telspacesystems | 华硕 Windows 触摸板驱动 AsusPTPFilter.sys 存在拒绝服务漏洞（CVE-2019-10709） | https://github.com/telspacesystems/Asus-DOS/ | https://www.telspace.co.za |  | South Africa | Telspace Systems | 2 | 0 | 0 | 0 | 0 | Python | 0 | 1 | 1| 
+| trailofbits | Sienna Locomotive - 为缺乏安全经验的 Windows 开发者写的 Fuzzer | https://github.com/trailofbits/sienna-locomotive | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,CMake,Python,Ruby,JavaScript,C++,Go,Swift,Rust | 18300 | 1600 | 1| 
 | tylerhalfpop | awesome-reversingA curated list of #awesome #reversing resourcesAuthor: @ tylerhalfpop | https://github.com/tylerhalfpop/awesome-reversing | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 2| 
 | ucbrise | confluo: Real-time Monitoring and Analysis of Data Streams | https://github.com/ucbrise/confluo | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Jupyter,Assembly,Python,JavaScript,Scala,C++,TeX,HTML,Go,Java,CSS | 0 | 0 | 1| 
 | ucsb-seclab | KARONTE: Detecting Insecure Multi-binary Interactions in Embedded Firmware | https://github.com/ucsb-seclab/karonte?from=timeline | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Java,Python,JavaScript,C++,Dockerfile | 0 | 0 | 2| 

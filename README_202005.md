@@ -14,7 +14,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 锦行信息安全 | jeeseensec | 干货 , linux系统行为新型实时监控技术 | https://mp.weixin.qq.com/s/60BYTv6ST03cguHiFFetVg | 1| 
 | Bypass | Bypass-- | 邮件伪造之SPF绕过的5种思路 | https://mp.weixin.qq.com/s/dqntjRLgcOD3D2bi1oDFAw | 1| 
+| 酒仙桥六号部队 | anfu-360 | 当frida来敲门 | https://mp.weixin.qq.com/s/McipoCTgtY02_6dJvRe44g | 1| 
 | 绿盟科技研究通讯 | nsfocus_research | 基于深度学习的物联网恶意软件家族细粒度分类研究 | https://mp.weixin.qq.com/s/we1fr4_BKd7n-zVWzSRygg | 1| 
 | 中通安全应急响应中心 | ZTO_SRC | 中通RASP安全防护方案初探 | https://mp.weixin.qq.com/s/33CtW9ErXCDWoCJRFzlVPQ | 1| 
 | SecWiki | SecWiki | [Sec-Trans-8]开发扫描器挖掘反射型XSS (一) | https://mp.weixin.qq.com/s/T2ULAKKGmRup6FFM8-vgSg | 2| 
@@ -55,10 +57,13 @@
 | Wangpeiyi9979 | IE-Bert-CNN: 百度2019语言与智能技术竞赛信息抽取模型 | https://github.com/Wangpeiyi9979/IE-Bert-CNN | None | 我可以做到，我必须做到，我做的最好。 | ChengDu,SiChuan,China | TianJin University | 22 | 0 | 27 | 29 | 18 | Python,Jupyter | 101 | 28 | 1| 
 | lilang-wu | p-joker - 用于分析 iOS/macOS 内核 Kernelcache 与扩展的工具 | https://github.com/lilang-wu/p-joker | None |  | None | None | 32 | 0 | 11 | 29 | 13 | Python,C | 40 | 19 | 1| 
 | kabeor | 有研究员总结的 Unicorn CPU 模拟器的非官方 API 文档 | https://github.com/kabeor/Micro-Unicorn-Engine-API-Documentation | https://kabeor.cn | Hello，Computers ! | SiChuan，China | SWUST | 11 | 0 | 79 | 27 | 0 | HTML,C++ | 41 | 16 | 1| 
+| guibacellar | DNCI - 将 .NET 代码远程注入到非托管进程中 | https://github.com/guibacellar/DNCI | https://theobservator.net | Security Researcher and Machine Learning Specialist, researching in fraud detection, cyber espionage and artificial intelligence areas. | Brazil | None | 11 | 0 | 10 | 20 | 0 | C#,Python,CSS | 74 | 30 | 1| 
+| chip-red-pill | 有研究员利用 Intel Atom CPU 的 Local Direct Access Test (LDAT) DFT 特性 Dump Microcode Sequencer ROM | https://github.com/chip-red-pill/glm-ucode | https://github.com/h0t | Research Team Members: Dmitry Sklyarov (@_Dmit), Mark Ermolov (@_markel___), Maxim Goryachy (@h0t) | Moscow | None | 2 | 0 | 0 | 5 | 0 | Python | 12 | 1 | 1| 
 | NetSPI | Evil SQL Client (ESC) - 为渗透测试设计的交互式的 SQL Server Client，支持发现数据库、访问数据、提取数据 | https://github.com/NetSPI/ESC | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java,C#,Python,HTML,Go,Ruby,PowerShell | 1100 | 282 | 1| 
 | ProjectorBUg | Double-Free BUG in WhatsApp exploit poc.[CVE-2020-11932] | https://github.com/ProjectorBUg/CVE-2020-11932 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Jupyter,Python,Visual,HTML,Go,PHP,Ruby,Prolog | 0 | 0 | 1| 
 | hardenedlinux | hardenedlinux 关于固件安全的一个开源项目 | https://github.com/hardenedlinux/firmware-anatomy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Assembly,Roff,Zeek,C++,Nix,HTML,Verilog,Go | 244 | 60 | 1| 
 | intel | 基于 Xen VMI API 和 AFL，Fuzz Linux 内核 | https://github.com/intel/kernel-fuzzer-for-xen-project | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Roff,Python,JavaScript,BitBake,C++,HTML,Go | 0 | 0 | 1| 
+| trailofbits | Sienna Locomotive - 为缺乏安全经验的 Windows 开发者写的 Fuzzer | https://github.com/trailofbits/sienna-locomotive | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,CMake,Python,Ruby,JavaScript,C++,Go,Swift,Rust | 18300 | 1600 | 1| 
 
 
 # medium_xuanwu 推荐
