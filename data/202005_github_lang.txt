@@ -16,10 +16,10 @@ Verilog	1
 Assembly	1
 Visual	1
 Nix	1
-CSS	1
+Rust	1
 Zeek	1
 Batchfile	1
-Rust	1
+CSS	1
 Prolog	1
 CMake	1
 Swift	1
