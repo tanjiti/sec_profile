@@ -1,4 +1,4 @@
-Python	13
+Python	14
 C	9
 HTML	7
 C++	7
@@ -10,6 +10,7 @@ Ruby	3
 C#	3
 PowerShell	3
 Jupyter	2
+CSS	2
 Roff	2
 BitBake	1
 Verilog	1
@@ -19,7 +20,6 @@ Nix	1
 Rust	1
 Zeek	1
 Batchfile	1
-CSS	1
 Prolog	1
 CMake	1
 Swift	1

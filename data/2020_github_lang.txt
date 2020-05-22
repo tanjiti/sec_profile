@@ -1,4 +1,4 @@
-Python	79
+Python	80
 C	42
 JavaScript	40
 HTML	37
@@ -8,8 +8,8 @@ Go	29
 Java	27
 C#	20
 PowerShell	18
+CSS	13
 Ruby	12
-CSS	12
 TypeScript	11
 PHP	10
 Rust	8

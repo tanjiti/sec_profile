@@ -14,14 +14,14 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 酒仙桥六号部队 | anfu-360 | 一次曲折的渗透测试之旅 | https://mp.weixin.qq.com/s/HmGEYRcf1hSVw9Uu9XHGsA | 2| 
 | 全知科技 | gh_0bd30f1b0430 | 再谈作为生产要素的数据安全 | https://mp.weixin.qq.com/s/hkv4y7pQRBjLCgm3StKVSQ | 2| 
-| 君哥的体历 | jungedetili | 安全有效性验证的发展趋势 | https://mp.weixin.qq.com/s/bxqOBJH7O5Jcxy2lnsbFKg | 40| 
+| 君哥的体历 | jungedetili | 安全有效性验证的发展趋势 | https://mp.weixin.qq.com/s/bxqOBJH7O5Jcxy2lnsbFKg | 41| 
 | 数世咨询 | gh_b3fb3a62dcc4 | 2020年度网络安全十大潜力技术及五大市场前瞻 | https://mp.weixin.qq.com/s/nDf1ZGvdWnsAt2lGRcF5wg | 4| 
 | 白帽汇 | baimaohui888 | 基于Docker的固件模拟 | https://mp.weixin.qq.com/s/t8ijT6pBjT9vB5yrd9Qstw | 5| 
 | 论文收割机 | paper_reader | 深度长文：图神经网络欺诈检测方法总结 | https://mp.weixin.qq.com/s/ewzsURiU7bfG3gObzIP2Mw | 1| 
 | 锦行信息安全 | jeeseensec | 干货 , linux系统行为新型实时监控技术 | https://mp.weixin.qq.com/s/60BYTv6ST03cguHiFFetVg | 2| 
 | Bypass | Bypass-- | 邮件伪造之SPF绕过的5种思路 | https://mp.weixin.qq.com/s/dqntjRLgcOD3D2bi1oDFAw | 48| 
-| 酒仙桥六号部队 | anfu-360 | 当frida来敲门 | https://mp.weixin.qq.com/s/McipoCTgtY02_6dJvRe44g | 1| 
 | 绿盟科技研究通讯 | nsfocus_research | 基于深度学习的物联网恶意软件家族细粒度分类研究 | https://mp.weixin.qq.com/s/we1fr4_BKd7n-zVWzSRygg | 28| 
 | 中通安全应急响应中心 | ZTO_SRC | 中通RASP安全防护方案初探 | https://mp.weixin.qq.com/s/33CtW9ErXCDWoCJRFzlVPQ | 7| 
 | SecWiki | SecWiki | [Sec-Trans-8]开发扫描器挖掘反射型XSS (一) | https://mp.weixin.qq.com/s/T2ULAKKGmRup6FFM8-vgSg | 28| 
@@ -1101,7 +1101,6 @@
 | logentries | 日志管理平台 Logentries | https://github.com/logentries | https://logentries.com/ |  | Boston, Dublin, Prague | 0 | 1 | 0 |  | 0 | 0 | 1| 
 | praetorian-inc | Internetwache RE60 Writeup: Symbolic Execution Tramples CTF Challenge - | https://github.com/praetorian-inc/ctf-writeups/tree/master/internetwache-2015 | http://www.praetorian.com |  | Austin, TX | 0 | 1 | 0 |  | 0 | 0 | 3| 
 | qilingframework | Qiling - 二进制模拟执行框架，可以以沙箱模式模拟执行多种架构的代码 | https://github.com/qilingframework/qiling | None | Cross Platform and Multi Architecture Lightweight Sandbox | qiling.io | 0 | 0 | 0 | Python | 0 | 0 | 1| 
-| rabobank-cdc | DeTTECT - 基于 ATT&CK 框架，用于帮助防御团队评估日志质量、检测覆盖度的工具 | https://github.com/rabobank-cdc/DeTTECT | https://www.rabobank.com | Open source tools developed by Rabobanks CDC | https://www.rabobank.com | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | rrrfff | AndHook - 一个轻量级的 Android hook 框架: | https://github.com/rrrfff/AndHook | https://github.com/Rprop/ |  | https://github.com/Rprop/ | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | samdenty99 | injectify - 类似于 BeFF 的网站中间人攻击工具: | https://github.com/samdenty99/injectify | https://github.com/samdenty | Moved here -> https://github.com/samdenty | https://github.com/samdenty | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | ssd-secure-disclosure | 详细介绍了iOS安全缓解措施的一步步进化 | https://github.com/ssd-secure-disclosure/typhooncon2019/blob/master/Siguza%20-%20Mitigations.pdf | https://ssd-disclosure.com/ | SSD helps security researchers turn their skills in uncovering security vulnerabilities into a career. | https://ssd-disclosure.com/ | 0 | 0 | 0 | Python,C | 0 | 0 | 1| 
@@ -3720,6 +3719,7 @@
 | pyppeteer | pyppeteer2 - 用于控制 Headless Chrome 的 puppeteer 的 Python 移植版 | https://github.com/pyppeteer/pyppeteer2 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | python-security | pyt - 用于检测 Python Web 应用安全漏洞的静态扫描工具: | https://github.com/python-security/pyt | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | quiet | TCP over sound on Android : | https://github.com/quiet/org.quietmodem.Quiet | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,CMake,Python,JavaScript,Objective-C,HTML,Rust | 0 | 0 | 1| 
+| rabobank-cdc | DeTTECT: Detect Tactics, Techniques & Combat Threats | https://github.com/rabobank-cdc/DeTTECT | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,CSS | 0 | 0 | 1| 
 | rackerlabs | scantron - 分布式 Nmap/Masscan 网络扫描框架 | https://github.com/rackerlabs/scantron | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Groovy,TypeScript,Java,Python,JavaScript,Shell,HTML,HCL,Ruby,CSS | 0 | 0 | 1| 
 | rapid7 | hackazon: A modern vulnerable web app | https://github.com/rapid7/hackazon | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Java,Python,TSQL,JavaScript,C#,Puppet,Ruby | 0 | 0 | 1| 
 | rebellionil | tornado: All in one MITM tool | https://github.com/rebellionil/tornado | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
