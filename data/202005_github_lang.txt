@@ -1,7 +1,7 @@
 Python	14
-C	9
+C	10
+C++	8
 HTML	7
-C++	7
 Go	5
 JavaScript	4
 Shell	4

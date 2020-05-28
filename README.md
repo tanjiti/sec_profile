@@ -14,17 +14,24 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 安全学术圈 | secquan | DIMVA 2020 论文录用列表 | https://mp.weixin.qq.com/s/vdzrImsGD7dnPs0HZNr_SQ | 2| 
+| 安全客 | anquanbobao | 由喝啤酒引发的军事情报人员信息泄露 | https://mp.weixin.qq.com/s/sJyTd50SukIFuVjPSTrFDQ | 1| 
+| SecPulse安全脉搏 | SecPulse | 一次曲折的渗透测试之旅 | https://mp.weixin.qq.com/s/4bFC1GdiRZe9ygazXb1pnA | 1| 
+| 全球技术地图 | drc_iite | 美国国防高级研究计划局未来网络安全研发趋势分析 | https://mp.weixin.qq.com/s/gWrMODC3Rkznk-swglI0Qw | 1| 
+| 腾讯安全威胁情报中心 | gh_05a6c5ec3f78 | 腾讯安全威胁情报中心“明厨亮灶”工程：基于域名图谱嵌入的恶意域名挖掘 | https://mp.weixin.qq.com/s/LeK6QYHwd3k3UlyAuSkcZA | 1| 
+| 锦行信息安全 | jeeseensec | 安全技术,DNSLOG平台搭建从0到1 | https://mp.weixin.qq.com/s/NL6sHFhOgumQh7oFZNLgYQ | 2| 
+| Flanker论安全 | ShowMeShell | Fuzzing战争: 从刀剑弓斧到星球大战 | https://mp.weixin.qq.com/s/nREiT1Uj25igCMWu1kta9g | 1| 
 | 宽字节安全 | gh_2de2b9f7d076 | Apache CommonCollection Gadget几种特殊的玩法 | https://mp.weixin.qq.com/s/xwEOpEkPurwP119tonUzVQ | 3| 
-| CNCERT风险评估 | cncertfengxianpinggu | 2019年开源软件风险研究报告 | https://mp.weixin.qq.com/s/VgoS1EftRFcYv9n2PJHoRg | 1| 
+| 湛卢工作室 | xuehao_studio | PWN , “网鼎杯”朱雀之战——魔法房间题解 | https://mp.weixin.qq.com/s/4vgBmesl2KICNSoDEep_5Q | 2| 
 | 专注安管平台 | gh_48603b9bb05a | SANS：2020年自动化与集成调查报告 | https://mp.weixin.qq.com/s/NZNK95gtUAFqMsxkgknTCQ | 1| 
-| 酒仙桥六号部队 | anfu-360 | 一次曲折的渗透测试之旅 | https://mp.weixin.qq.com/s/HmGEYRcf1hSVw9Uu9XHGsA | 2| 
-| 全知科技 | gh_0bd30f1b0430 | 再谈作为生产要素的数据安全 | https://mp.weixin.qq.com/s/hkv4y7pQRBjLCgm3StKVSQ | 1| 
-| 君哥的体历 | jungedetili | 内网安全攻击模拟和异常检测规则实战 | https://mp.weixin.qq.com/s/kELnd0dAGe8Qa-lkJtcoNQ | 3| 
 | 数世咨询 | gh_b3fb3a62dcc4 | 2020年度网络安全十大潜力技术及五大市场前瞻 | https://mp.weixin.qq.com/s/nDf1ZGvdWnsAt2lGRcF5wg | 2| 
+| Bypass | Bypass-- | 邮件伪造之SPF绕过的5种思路 | https://mp.weixin.qq.com/s/dqntjRLgcOD3D2bi1oDFAw | 1| 
+| CNCERT风险评估 | cncertfengxianpinggu | 2019年开源软件风险研究报告 | https://mp.weixin.qq.com/s/VgoS1EftRFcYv9n2PJHoRg | 1| 
+| 全知科技 | gh_0bd30f1b0430 | 再谈作为生产要素的数据安全 | https://mp.weixin.qq.com/s/hkv4y7pQRBjLCgm3StKVSQ | 1| 
+| 君哥的体历 | jungedetili | 郭威：金融企业重保一线经验分享 | https://mp.weixin.qq.com/s/2MNCTggf5bWT8NAYGyIVIQ | 3| 
 | 白帽汇 | baimaohui888 | 基于Docker的固件模拟 | https://mp.weixin.qq.com/s/t8ijT6pBjT9vB5yrd9Qstw | 1| 
 | 论文收割机 | paper_reader | 深度长文：图神经网络欺诈检测方法总结 | https://mp.weixin.qq.com/s/ewzsURiU7bfG3gObzIP2Mw | 1| 
-| 锦行信息安全 | jeeseensec | 干货 , linux系统行为新型实时监控技术 | https://mp.weixin.qq.com/s/60BYTv6ST03cguHiFFetVg | 1| 
-| Bypass | Bypass-- | 邮件伪造之SPF绕过的5种思路 | https://mp.weixin.qq.com/s/dqntjRLgcOD3D2bi1oDFAw | 1| 
+| 酒仙桥六号部队 | anfu-360 | 一次曲折的渗透测试之旅 | https://mp.weixin.qq.com/s/HmGEYRcf1hSVw9Uu9XHGsA | 2| 
 | 绿盟科技研究通讯 | nsfocus_research | 基于深度学习的物联网恶意软件家族细粒度分类研究 | https://mp.weixin.qq.com/s/we1fr4_BKd7n-zVWzSRygg | 1| 
 | 中通安全应急响应中心 | ZTO_SRC | 中通RASP安全防护方案初探 | https://mp.weixin.qq.com/s/33CtW9ErXCDWoCJRFzlVPQ | 1| 
 | SecWiki | SecWiki | [Sec-Trans-8]开发扫描器挖掘反射型XSS (一) | https://mp.weixin.qq.com/s/T2ULAKKGmRup6FFM8-vgSg | 2| 
@@ -40,10 +47,8 @@
 | ChaMd5安全团队 | chamd5sec | De1CTF2020-WriteUp下(Crypto、Reverse) | https://mp.weixin.qq.com/s/KKkxUb_rUEi7Pxj0Qj5Odw | 3| 
 | IMKP | TrustMatrix_KP | 用SASE加速零信任网络交付 | https://mp.weixin.qq.com/s/OjHgQGrJWfueu4AfxES9Hg | 1| 
 | ipasslab |  | 学术报告,协议模糊测试相关技术梳理 | https://mp.weixin.qq.com/s/RCpAUpFEzbSewEnWpHrsqw | 1| 
-| 安全学术圈 | secquan | Understanding E-commerce Fraud from Autonomous Chat | https://mp.weixin.qq.com/s/uzGQxgfaUufsDSvcYIIYig | 1| 
 | 漏洞战争 | vulwar | 技术人的修炼之道：从业余到专业 | https://mp.weixin.qq.com/s/gBgFyy4MMrF5vn-8NGEVQw | 1| 
 | 电子商务电子支付国家工程实验室 | gjgcsys | 物联网场景下的白盒加密技术 | https://mp.weixin.qq.com/s/y8FNDtuJIIiYmZDLTxuL_g | 1| 
-| 湛卢工作室 | xuehao_studio | 劳动节 , 说说代理池 | https://mp.weixin.qq.com/s/ERU3L2WIMiPNNdTTX164Og | 1| 
 
 
 # 组织github账号 推荐
@@ -55,6 +60,7 @@
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | CHEF-KOCH | KMS-activator - 关于 Windows 激活机制研究的一个项目 | https://github.com/CHEF-KOCH/KMS-activator | https://github.com/microsoft | Former @microsoft and @NVIDIA employee. Since 2018 NTT-Security. Interested in privacy/security, gaming & demoscene related topics. | Lausanne | CKs Technology News | 125 | 0 | 4100 | 1400 | 127 | Python,C,Batchfile,JavaScript,Pascal | 590 | 145 | 1| 
+| Kelvinhack | ThreadSpy - 基于硬件实现的 Thread Hijacker | https://github.com/Kelvinhack/ThreadSpy | https://github.com/Tencent | @Tencent Ex Anti-Cheat Researcher @microsoft Security Researcher II | Vancouver | Microsoft | 40 | 0 | 18 | 176 | 1 | C,C++ | 229 | 85 | 1| 
 | Captainarash | X86架构圣经指南手册。 | https://github.com/Captainarash/The_Holy_Book_of_X86 | https://twitter.com/H4UL4 | Computing Offsets \x00 | Helsinki, Finland | None | 6 | 0 | 19 | 80 | 6 | JavaScript,C++ | 492 | 101 | 1| 
 | wooyunwang | Fortify: 源代码漏洞の审计 | https://github.com/wooyunwang/Fortify | http://www.52pwn.club/ | A strange guy who will make the world a better place! | California | Google Inc. | 27 | 0 | 15 | 60 | 14 | Python,C#,Java,PowerShell | 322 | 104 | 1| 
 | BeetleChunks | ManageEngine OpManger 任意文件读漏洞 PoC（CVE-2020-12116） | https://github.com/BeetleChunks/CVE-2020-12116 | None | OSCP, Red Teamer, Pentester, Developer, Hacker | None | None | 11 | 0 | 62 | 58 | 3 | Python,C,PowerShell | 277 | 73 | 1| 
@@ -77,6 +83,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 如何开始搭建自己的网络安全实验室 | http://medium.com/@robertscocca/building-a-cyber-security-lab-4874bddd056b| 
 | DOS系统文件路径魔法研究。 | http://medium.com/walmartlabs/dos-file-path-magic-tricks-5eda7a7a85fa| 
 | PHP 序列化漏洞的利用 | http://link.medium.com/rkOjYq6Ny6| 
 | 网络取证：渗透测试查找系统后门漏洞学习方法。 | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fblog.pentesteracademy.com%2Fnetwork-forensics-finding-backdoored-system-b0b88fc23b5c| 
