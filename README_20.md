@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 正阳能量场 | Sun-Energy-Field | 全面了解风控数据体系 | https://mp.weixin.qq.com/s/PCRzPGGBXG7cJAInylkCRg | 1| 
 | 安全学术圈 | secquan | DIMVA 2020 论文录用列表 | https://mp.weixin.qq.com/s/vdzrImsGD7dnPs0HZNr_SQ | 46| 
 | 安全客 | anquanbobao | 由喝啤酒引发的军事情报人员信息泄露 | https://mp.weixin.qq.com/s/sJyTd50SukIFuVjPSTrFDQ | 8| 
 | SecPulse安全脉搏 | SecPulse | 一次曲折的渗透测试之旅 | https://mp.weixin.qq.com/s/4bFC1GdiRZe9ygazXb1pnA | 7| 
@@ -1611,6 +1612,7 @@
 | BigNerd95 | Chimay-Blue - Mikrotik SMB 缓冲区溢出漏洞利用脚本(CVE-2018-7445): | https://github.com/BigNerd95/Chimay-Blue | https://bignerd95.blogspot.it/ | Computer Science Student at UniTo (University of Turin). I love reverse engineering of embedded systems. | Italy | None | 40 | 0 | 225 | 294 | 16 | Python,C,Shell | 0 | 0 | 2| 
 | CalebFenton | 利用 dex-oracle 工具处理 Android 恶意软件的反混淆问题: https://rednaga.io/2017/10/28/hacking-with-dex-oracle-for-android-malware-deobfuscation/ | https://github.com/CalebFenton/dex-oracle | https://github.com/Sentinel-One | I break stuff to make it better. | Union City, CA | @Sentinel-One | 27 | 0 | 115 | 294 | 26 | YARA,Ruby,Java,Smali | 0 | 0 | 4| 
 | mazen160 | struts-pwn_CVE-2018-11776: ST2-057 Exploit: | https://github.com/mazen160/struts-pwn_CVE-2018-11776 | https://mazinahmed.net | Information Security Specialist / Penetration Tester | None | None | 15 | 0 | 0 | 294 | 0 | Python,Shell | 341 | 119 | 4| 
+| alephsecurity | QEMU 的 Aleph Research fork 版本，用于运行 iOS 系统 | https://github.com/alephsecurity/xnu-qemu-arm64 | https://alephsecurity.com/ | Security Research | None | HCL Technologies | 14 | 0 | 0 | 292 | 0 | Python,C,Shell,Java | 419 | 49 | 1| 
 | foospidy | Git All the Payloads! A collection of web attack payloads: | https://github.com/foospidy/payloads | http://pxmx.io | Human | Internet | None | 75 | 0 | 321 | 292 | 50 | Python,Shell | 0 | 0 | 5| 
 | milo2012 | 从 Cisco ASA 设备中提取用户名的脚本(CVE-2018-0296) : | https://github.com/milo2012/CVE-2018-0296 | http://milo2012.wordpress.com |  | None | None | 65 | 0 | 131 | 292 | 5 | Python,Go,PowerShell | 381 | 179 | 2| 
 | ClimbsRocks | auto_ml: Automated machine learning for analytics & production | https://github.com/ClimbsRocks/auto_ml | http://PrestonParry.com | Rock Climber, Biker, Community Builder, Teacher, data scientist & machine learning geek | Oakland | auto.ml | 120 | 0 | 311 | 290 | 111 | Python,JavaScript,C++ | 0 | 0 | 1| 
