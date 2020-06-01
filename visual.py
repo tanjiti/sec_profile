@@ -396,4 +396,4 @@ if __name__ == "__main__":
     """
     """
 
-    draw_readme('2020')
+    draw_readme()
