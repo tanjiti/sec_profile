@@ -14,6 +14,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 七夜安全博客 | qiye_safe | APT的思考: CMD命令混淆高级对抗 | https://mp.weixin.qq.com/s/hJ6gn9EMKNmMOofEg3i6Iw | 8| 
+| 爱奇艺技术产品团队 | iQIYI-TP | ​干货 , 爱奇艺全链路自动化监控平台的探索与实践 | https://mp.weixin.qq.com/s/j44LMlItuTodfJvL_YGTUA | 3| 
+| 腾讯安全 | TXAQ2019 | 腾讯安全发布《零信任解决方案白皮书》 | https://mp.weixin.qq.com/s/ZkuR5bDGYpXySUcuROcb7Q | 1| 
 | 正阳能量场 | Sun-Energy-Field | 全面了解风控数据体系 | https://mp.weixin.qq.com/s/PCRzPGGBXG7cJAInylkCRg | 1| 
 | 安全学术圈 | secquan | DIMVA 2020 论文录用列表 | https://mp.weixin.qq.com/s/vdzrImsGD7dnPs0HZNr_SQ | 9| 
 | 安全客 | anquanbobao | 由喝啤酒引发的军事情报人员信息泄露 | https://mp.weixin.qq.com/s/sJyTd50SukIFuVjPSTrFDQ | 2| 
@@ -55,7 +58,6 @@
 | ADLab | v_adlab | 启明星辰ADLab：渗透利器Cobalt Strike在野利用情况专题分析 | https://mp.weixin.qq.com/s/Agr3doBvYMK6Bs0tH6urcw | 2| 
 | caoz的梦呓 | caozsay | 谈谈工作和学习中，所谓的主动性 | https://mp.weixin.qq.com/s/qB9phQwF8NulwSGINQz3yA | 1| 
 | heysec | bloodzer007 | SonarQube实现自动化代码扫描 | https://mp.weixin.qq.com/s/L5WeEFvu6etVTAigx6jjcQ | 13| 
-| 七夜安全博客 | qiye_safe | WebShell通用免杀的思考 | https://mp.weixin.qq.com/s/GjAPqrpMT6cHwkWTRjUu1Q | 7| 
 | 人工智能架构 |  | 基于大数据的Uber数据实时监控（Part 2：Kafka和Spark Streaming） | https://mp.weixin.qq.com/s/GAHYECAWLvOob7TSQHHaiQ | 3| 
 | 安全狗 | safedog2013 | 在网络安全领域应用机器学习的困难和对策 | https://mp.weixin.qq.com/s/j7vuiAWz6kY4ePsjb5EtDw | 1| 
 | 网信中国 | cacweixin | 网络安全审查办法 | https://mp.weixin.qq.com/s/nAjbLxdDnflhc_89y0e01Q | 1| 
@@ -108,7 +110,6 @@
 | 安恒信息安全研究院 |  | 蓝牙安全之Class of device | https://mp.weixin.qq.com/s/TIYvcThrfOC40rqcy-VGCg | 2| 
 | PeckShield | PeckShield | 硬核：解密美国司法部起诉中国OTC承兑商洗钱案件 | https://mp.weixin.qq.com/s/wWrm3gwT72Pc8Nxw-1OiSw | 1| 
 | 星阑科技 | StarCrossCN | PHP 开源白盒审计工具初探（下） | https://mp.weixin.qq.com/s/6Y7anVvO9C5_nqdJihuFMw | 2| 
-| 爱奇艺技术产品团队 | iQIYI-TP | 开源 , 爱奇艺网络流量分析引擎QNSM及其应用 | https://mp.weixin.qq.com/s/flQdwQn9A1vxNs-iHQBHWA | 2| 
 | 道法术 |  | 2020 IoT Threat Report (简单解读版) | https://mp.weixin.qq.com/s/AqUyHGLzlmrBSKfk-IxW6g | 2| 
 | PaperWeekly | paperweekly | 文本分类和序列标注“深度”实践 | https://mp.weixin.qq.com/s/afO58DDDZGb5w_EEG8oW6Q | 1| 
 | 奇安信威胁情报中心 |  | 网空威胁情报（CTI）日益成熟：2020年SANSCTI调查结果解读 | https://mp.weixin.qq.com/s/ERakfCjEjW_UfViz9KoxFQ | 2| 
@@ -199,6 +200,7 @@
 | theLSA | emergency-response-checklist：应急响应指南 | https://github.com/theLSA/emergency-response-checklist | http://www.lsablog.com | I like network security,penestration and programming(python,c/c++,php,java,ect),welcome to communicate with me! | China | None | 38 | 0 | 36 | 133 | 35 | Python | 281 | 77 | 1| 
 | dayt0n | 64-bit iOS boot image patcher written in C | https://github.com/dayt0n/kairos | http://dayt0n.com | 19. iOS and OS X tinkerer. Computer Science at UAH. | United States | None | 37 | 0 | 43 | 132 | 47 | Python,C,Shell,C++ | 23 | 7 | 1| 
 | gobysec | Goby新一代安全测试工具 | https://github.com/gobysec/Goby | http://gobies.org | Goby - Make Cybersecurity More Effective The new generation of network security technology | None | Goby | 7 | 0 | 1 | 128 | 0 | Python,Go | 73 | 9 | 1| 
+| guimaizi | testing_wave: 被动式web扫描器 | https://github.com/guimaizi/testing_wave | http://www.guimaizi.com/ |  | None | None | 5 | 0 | 31 | 125 | 2 | Python,HTML | 313 | 81 | 1| 
 | euphrat1ca | security_w1k1: 安全相关资源列表 | https://github.com/euphrat1ca/security_w1k1 | None | Thousands Times | polar | None | 79 | 0 | 498 | 120 | 40 | Python,Go,Ruby | 343 | 119 | 1| 
 | ChanChiChoi | 人脸识别相关的 Papers 收集 - Awesome Face Recognition | https://github.com/ChanChiChoi/awesome-Face_Recognition | http://www.cnblogs.com/shouhuxianjian/ |  | China | None | 21 | 0 | 184 | 110 | 51 | Python,Jupyter | 1800 | 495 | 1| 
 | itm4n | PrivescCheck - 用于探测 Windows 是否存在可以被用于本地提权的错误配置 | https://github.com/itm4n/PrivescCheck | https://itm4n.github.io/ | Pentester | Paris | None | 8 | 0 | 27 | 109 | 11 | VBA,PowerShell,C++ | 321 | 87 | 1| 
