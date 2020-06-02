@@ -2476,6 +2476,7 @@
 | ncrocfer | Whatportis, a command to search port names and numbers https://github.com/ncrocfer/whatportis #python #sysadmin #devops | https://github.com/ncrocfer/whatportis | https://github.com/ovh | Python dev | France, Lille | @ovh | 22 | 0 | 94 | 65 | 13 | Python,PHP | 591 | 64 | 1| 
 | realoriginal | reflective-rewrite - Reflective DLL Injection 项目的二次开发,相比原项目更加隐蔽: | https://github.com/realoriginal/reflective-rewrite | http://twitter.com/ilove2pwn_ | Whelp, not sure what to put here, but, hello. i <3 windows. | None | None | 7 | 0 | 95 | 65 | 9 | C,PowerShell | 86 | 23 | 1| 
 | sch3m4 | Android Pattern Lock Cracker | https://github.com/sch3m4/androidpatternlock | http://safetybits.net |  | None | None | 32 | 0 | 10 | 65 | 0 | Python,C,JavaScript,Assembly | 137 | 76 | 1| 
+| 0xricksanchez | FI(le) SY(stem) - 针对 BSD 系统内核的 Fuzzer | https://github.com/0xricksanchez/fisy-fuzz | https://0x434b.dev | Trying to advance in the areas of IT-Sec, reversing and hacking. Also doing administrative jobs @ www.0x00sec.org | @0xricksanchez | None | 20 | 0 | 426 | 64 | 54 | Python,C,PLSQL | 35 | 7 | 2| 
 | AviAvni | NativeLeakDetector - 调用 ETW 检测 Windows 内存泄漏: | https://github.com/AviAvni/NativeLeakDetector | https://twitter.com/AviAvni3 | Consultant at SELA Group .NET C# Spark F# Compiler Contributor Neo4j Certified Professional | Israel | SELA Group | 33 | 0 | 705 | 64 | 144 | C#,F# | 0 | 0 | 1| 
 | IVMachiavelli | Links for the OSINT Team | https://github.com/IVMachiavelli/OSINT_Team_Links | https://openosint.signup.team | Techie who loves all things Linux, infosec, OSINT and admin of the Open OSINT Team, join us https://openosint.signup.team | Earth! | None | 31 | 0 | 82 | 64 | 25 | Go,JavaScript | 223 | 48 | 1| 
 | Srinivas11789 | PcapXray - 网络取证工具,用于可视化展示网络通信详情: | https://github.com/Srinivas11789/PcapXray | http://srinivas11789.github.io | Love building/breaking things --> Code ,, Test, Plan, Break, Debug (Loop!) | City of Angels | None | 58 | 0 | 118 | 64 | 14 | Python | 0 | 0 | 1| 
@@ -2718,7 +2719,6 @@
 | tillmannw | prowler:Base Code for P2P Network Crawlers | https://github.com/tillmannw/prowler | None |  | None | None | 7 | 0 | 0 | 45 | 0 | Python,Lua,C | 71 | 16 | 1| 
 | toyakula | Luna: 开源的轻量级被动式扫描框架 | https://github.com/toyakula/luna | None |  | None | None | 1 | 0 | 2 | 45 | 0 | Python | 264 | 64 | 1| 
 | wavestone-cdt | wavecrack - 调用 Hashcat 进行密码破解的 Web 操作接口: | https://github.com/wavestone-cdt/wavecrack | http://www.wavestone.com | Projects from the auditors and consultants from Wavestones Cybersecurity & Digital Trust practice | None | Wavestone | 8 | 0 | 0 | 45 | 1 | Python,Ruby,PowerShell | 161 | 43 | 1| 
-| 0xricksanchez | HITB 2020 Lockdown 会议 《Fuzz 文件系统的实现》议题的代码与 PPT | https://github.com/0xricksanchez/fs-fuzzer | http://0x434b.dev | Trying to advance in the areas of IT-Sec, reversing and hacking. Also doing administrative jobs @ www.0x00sec.org | @0xricksanchez | None | 14 | 0 | 395 | 44 | 46 | Python,Shell,CSS | 10 | 4 | 1| 
 | ALSchwalm | dwarfexport - 从 IDA Pro 中导出 dwarf 调试信息的工具,dawrf 信息可以导入 gdb 等调试器: | https://github.com/ALSchwalm/dwarfexport | https://github.com/starlab-io | Im a software engineer and security researcher, mostly working with rust and C. Sometimes some elisp stuff too. | Huntsville, AL | @starlab-io | 95 | 0 | 162 | 44 | 5 | Python,C,Emacs,Rust,C++ | 0 | 0 | 1| 
 | HackingThings | Just finished uploading all past publications, including code and demo videos. now available at | https://github.com/HackingThings/Publications | http://laplinker.com |  | None | None | 8 | 0 | 14 | 44 | 12 | C#,JavaScript,HTML | 48 | 16 | 1| 
 | Markus-Go | bonesi - 在实验环境下模拟 DDoS 攻击流量的工具: | https://github.com/Markus-Go/bonesi | http://www.goldiges.de/ |  | None | None | 7 | 0 | 0 | 44 | 0 | C,Java,C++ | 339 | 112 | 1| 
@@ -3000,6 +3000,7 @@
 | HD421 | Monitoring-Systems-Cheat-Sheet: 各种监控系统的漏洞速查手册: | https://github.com/HD421/Monitoring-Systems-Cheat-Sheet | None |  | None | Digital Security | 9 | 0 | 286 | 25 | 26 |  | 0 | 0 | 1| 
 | LloydLabs | Windows-API-Hashing - 将导出函数进行 Hash 加密混淆的示例: | https://github.com/LloydLabs/Windows-API-Hashing | https://github.com/LloydLabs | Somewhere in the heap, @LloydLabs on Twitter | The Burgh | None | 3 | 0 | 115 | 25 | 8 | Go,C | 102 | 13 | 1| 
 | Monyer | xssee: A js encode/decode simple tool for XSS | https://github.com/Monyer/xssee | None |  | None | None | 5 | 0 | 72 | 25 | 0 | HTML,JavaScript,PHP,CSS | 11 | 4 | 1| 
+| NomadCN112 | ATT&CK 框架图中文翻译版 | https://github.com/NomadCN112/Chinese-translation-ATT-CK-framework | None | 憨批独眼小子 (如果可以的话，谁愿意拿命去战斗呢) | None | None | 15 | 0 | 10 | 25 | 2 | Python,C# | 131 | 37 | 1| 
 | Or3stis | apparatus - IoT 网络安全性分析与可视化工具: | https://github.com/Or3stis/apparatus | None |  | None | None | 11 | 0 | 212 | 25 | 4 | Python,JavaScript,Ruby | 190 | 76 | 1| 
 | Phype | telnet-iot-honeypot: Python telnet honeypot for catching botnet binaries | https://github.com/Phype/telnet-iot-honeypot | https://github.com/fraunhoferSIT | Interested in security and networking research. | Darmstadt, Germany | @fraunhoferSIT / TU Darmstadt | 2 | 0 | 3 | 25 | 4 | Python | 168 | 56 | 1| 
 | Prochainezo | xss2shell：abusing XSS vulnerabilities on Wordpress and Joomla | https://github.com/Prochainezo/xss2shell | None |  | None | None | 9 | 0 | 16 | 25 | 2 | Python,PHP | 62 | 19 | 1| 
@@ -3019,6 +3020,7 @@
 | DanyL | 作者公开了iOS12.3中修复的漏洞CVE-2019-8637和CVE-2019-8593的exploits | https://github.com/DanyL/lockdownd_playground | None |  | None | None | 16 | 0 | 15 | 24 | 7 | Tcl,C,Shell,Ruby,Objective-C | 40 | 9 | 1| 
 | aim4r | VolDiff: Malware Memory Footprint Analysis based on Volatility | https://github.com/aim4r/VolDiff | https://twitter.com/aim4r |  | None | None | 1 | 0 | 58 | 24 | 0 | Python | 156 | 36 | 1| 
 | bayotop | sink-logger - BurpSuite 扩展,用于记录所有传入 Javascript 接收器的数据: | https://github.com/bayotop/sink-logger | https://twitter.com/_bayotop |  | None | None | 22 | 0 | 18 | 24 | 1 | Python,Go,Shell | 148 | 15 | 1| 
+| cbwang505 | Windows CardSpace 服务符号链接导致任意文件替换漏洞 Exploit | https://github.com/cbwang505/CVE-2020-1066-EXP | https://blog.csdn.net/oShuangYue12 | 始于C#，精于C&C++，醉心于Windows内核与Com组件安全研究 | China ZheJiang Ningbo | ZheJiang Guoli Security Technology | 30 | 0 | 17 | 24 | 5 | C,C++ | 43 | 9 | 1| 
 | ch33kyf3ll0w | New Tool: Invoke-InstallUtilNSExec - InstallUtil + .NET 4.5 to load executables from network share. | https://github.com/ch33kyf3ll0w/Invoke-InstallUtilNSExec.ps1/blob/master/Invoke-InstallUtilNSExec.ps1 | https://twitter.com/ch33kyf3ll0w | OSCE/OSCP/OSWP | None | None | 20 | 0 | 3 | 24 | 0 | Ruby,PowerShell | 13 | 8 | 1| 
 | chen-charles | PEDetour is a new tool using @capstone_engine &amp; @keystone_engine to inject code to hook export functions of PE file | https://github.com/chen-charles/PEDetour | None | uWaterloo CS | None | None | 13 | 0 | 45 | 24 | 5 | Python,C,C++ | 0 | 0 | 1| 
 | cleverbao | WebRange: 一个Web版的docker管理程序 | https://github.com/cleverbao/WebRange | http://cleverbao.github.io |  | None | None | 6 | 0 | 427 | 24 | 98 | Python,HTML,JavaScript,PHP,CSS | 79 | 16 | 1| 
@@ -3685,6 +3687,7 @@
 | jenson-shi | dnspod_inter_ddns:Dnspod International DDNS | https://github.com/jenson-shi/dnspod_inter_ddns | https://github.com/shixiongfei | Moved to https://github.com/shixiongfei | Moved to https://github.com/shixiongfei | Moved to https://github.com/shixiongfei | 0 | 0 | 0 | 0 | 1 |  | 0 | 0 | 1| 
 | jmpsec | osctrl: Fast and efficient osquery management | https://github.com/jmpsec/osctrl | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,CSS | 0 | 0 | 1| 
 | joelpx | Interactive disassembler for x86/ARM/MIPS. Generates indented pseudo-code with coloured syntax code. | https://github.com/joelpx/plasma | None |  | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
+| joinsec | BadDNS: 使用公共 DNS 服务器进行多层子域名探测的极速工具 | https://github.com/joinsec/BadDNS | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,Rust | 0 | 0 | 1| 
 | joshDelta | Gloom-Framework - Linux 渗透测试框架: | https://github.com/joshDelta/Gloom-Framework | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | jumpserver | jumpserver: 开源跳板机(堡垒机):认证,授权,审计,自动化运维 | https://github.com/jumpserver/jumpserver | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Java,JavaScript,Dockerfile,HTML | 0 | 0 | 1| 
 | k8scop | k8s-security-dashboard: A security monitoring solution for Kubernetes | https://github.com/k8scop/k8s-security-dashboard | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
@@ -3785,6 +3788,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 索尼网站XSS漏洞 | http://link.medium.com/UhLfjkZeU6| 
 | 如何开始搭建自己的网络安全实验室 | http://medium.com/@robertscocca/building-a-cyber-security-lab-4874bddd056b| 
 | DOS系统文件路径魔法研究。 | http://medium.com/walmartlabs/dos-file-path-magic-tricks-5eda7a7a85fa| 
 | PHP 序列化漏洞的利用 | http://link.medium.com/rkOjYq6Ny6| 

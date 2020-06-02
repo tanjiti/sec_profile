@@ -1,11 +1,11 @@
-Python	984
-C	617
+Python	986
+C	618
 JavaScript	613
 C++	502
 HTML	444
 Shell	426
 Java	415
-Go	346
+Go	347
 Ruby	246
 C#	246
 PHP	221
@@ -13,7 +13,7 @@ PowerShell	218
 CSS	209
 Objective-C	128
 TypeScript	122
-Rust	101
+Rust	102
 Jupyter	91
 Perl	72
 Swift	65
@@ -134,6 +134,7 @@ Scilab	1
 M4	1
 QMake	1
 ABAP	1
+PLSQL	1
 Forth	1
 SystemVerilog	1
 MoonScript	1
