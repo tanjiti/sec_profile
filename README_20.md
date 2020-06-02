@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 锦行信息安全 | jeeseensec | 任天堂再遭黑手，用户隐私到底该如何保护？ | https://mp.weixin.qq.com/s/O7N2OWtSQUKY-6d5H6e7lg | 4| 
 | 七夜安全博客 | qiye_safe | APT的思考: CMD命令混淆高级对抗 | https://mp.weixin.qq.com/s/hJ6gn9EMKNmMOofEg3i6Iw | 11| 
 | 爱奇艺技术产品团队 | iQIYI-TP | ​干货 , 爱奇艺全链路自动化监控平台的探索与实践 | https://mp.weixin.qq.com/s/j44LMlItuTodfJvL_YGTUA | 4| 
 | 腾讯安全 | TXAQ2019 | 腾讯安全发布《零信任解决方案白皮书》 | https://mp.weixin.qq.com/s/ZkuR5bDGYpXySUcuROcb7Q | 1| 
@@ -26,7 +27,6 @@
 | 宽字节安全 | gh_2de2b9f7d076 | Apache CommonCollection Gadget几种特殊的玩法 | https://mp.weixin.qq.com/s/xwEOpEkPurwP119tonUzVQ | 3| 
 | 湛卢工作室 | xuehao_studio | PWN , “网鼎杯”朱雀之战——魔法房间题解 | https://mp.weixin.qq.com/s/4vgBmesl2KICNSoDEep_5Q | 8| 
 | 腾讯安全威胁情报中心 | gh_05a6c5ec3f78 | 腾讯安全威胁情报中心“明厨亮灶”工程：基于域名图谱嵌入的恶意域名挖掘 | https://mp.weixin.qq.com/s/LeK6QYHwd3k3UlyAuSkcZA | 1| 
-| 锦行信息安全 | jeeseensec | 安全技术,DNSLOG平台搭建从0到1 | https://mp.weixin.qq.com/s/NL6sHFhOgumQh7oFZNLgYQ | 3| 
 | 专注安管平台 | gh_48603b9bb05a | SANS：2020年自动化与集成调查报告 | https://mp.weixin.qq.com/s/NZNK95gtUAFqMsxkgknTCQ | 5| 
 | 数世咨询 | gh_b3fb3a62dcc4 | 2020年度网络安全十大潜力技术及五大市场前瞻 | https://mp.weixin.qq.com/s/nDf1ZGvdWnsAt2lGRcF5wg | 4| 
 | Bypass | Bypass-- | 邮件伪造之SPF绕过的5种思路 | https://mp.weixin.qq.com/s/dqntjRLgcOD3D2bi1oDFAw | 48| 
@@ -1325,6 +1325,7 @@
 | jpillora | chisel : A fast TCP tunnel over HTTP : https://github.com/jpillora/chisel | https://github.com/jpillora/chisel | https://keybase.io/jpillora |  | Sydney, Australia | None | 241 | 0 | 1300 | 702 | 45 | Go,JavaScript | 0 | 0 | 1| 
 | zerosum0x0 | 研究员 zerosum0x0 公开 Windows RDP RCE CVE-2019-0708 漏洞的扫描器 | https://github.com/zerosum0x0/CVE-2019-0708 | https://zerosum0x0.blogspot.com |  | USSA | None | 83 | 0 | 23 | 697 | 2 | Python,C#,C,C++ | 1300 | 362 | 2| 
 | OffensivePython | Nscan: Fast internet-wide scanner | https://github.com/OffensivePython/Nscan | https://github.com/OffensivePython |  | None | @OffensivePython | 11 | 0 | 1 | 696 | 2 | Python | 479 | 206 | 1| 
+| random-robbie | 一款用于检查SSRF漏洞的fuzz工具。 | https://github.com/random-robbie/ssrf-finder | https://www.what-security.co.uk | Bug Bounty Hunter that appears in your searches! Soz not Soz! Raise an Issue if you wish to contact me do not email me! | Wirral UK | None | 232 | 0 | 295 | 696 | 113 | Python | 554 | 212 | 2| 
 | SandboxEscaper | SandboxEscaper公开了一个task scheduler服务未正确模拟client令牌导致LPE的0day。 | https://github.com/SandboxEscaper/polarbearrepo | None |  | None | None | 1 | 0 | 0 | 692 | 0 | C++ | 157 | 88 | 2| 
 | caesar0301 | An awesome list of high-quality open datasets | https://github.com/caesar0301/awesome-public-datasets | https://github.com/tobecreated | PhD in behavioral informatics, data enthusiasts. 中国书法爱好者；自由研究者 | Shanghai | @tobecreated | 50 | 1 | 900 | 689 | 133 | Python,C,HTML | 1600 | 293 | 1| 
 | vulnersCom | zabbix-threat-control - Zabbix 漏洞评估插件: | https://github.com/vulnersCom/zabbix-threat-control | https://vulners.com | New generation vulnerability intelligence database | None | Vulners | 15 | 0 | 6 | 687 | 0 | Python,Lua,Java | 0 | 0 | 3| 
@@ -1577,7 +1578,6 @@
 | amoffat | pykeylogger : A pure python keylogger for linux : | https://github.com/amoffat/pykeylogger | http://formconstantdance.org |  | None | None | 20 | 0 | 61 | 318 | 16 | Python,C,JavaScript | 0 | 0 | 1| 
 | hannob | Apache 不准备修复的 UAF 漏洞公开: | https://github.com/hannob/apache-uaf/ | https://hboeck.de/ |  | Berlin | None | 79 | 0 | 2 | 318 | 2 | Python,Shell,PHP | 1400 | 150 | 3| 
 | jobertabma | ground-control: 调试 SSRF / BLIND XSS / XXE 漏洞的脚本收集: | https://github.com/jobertabma/ground-control | None |  | San Francisco / Groningen | HackerOne | 12 | 0 | 2 | 318 | 0 | Shell,Ruby,JavaScript | 337 | 77 | 1| 
-| random-robbie | Jira-Scan: CVE-2017-9506 POC | https://github.com/random-robbie/Jira-Scan | https://xsses.rocks | PHP/Python & Raspberry Pi Lover Docker | Wirral UK | None | 200 | 0 | 198 | 318 | 86 | Python,Go,PHP | 253 | 99 | 1| 
 | Tuhinshubhra | RED_HAWK - 基于PHP编写的集信息收集、SQL漏洞扫描与爬虫于一体的渗透测试工具: | https://github.com/Tuhinshubhra/RED_HAWK | https://twitter.com/r3dhax0r | I code and hack for fun! | ... | None | 13 | 0 | 2 | 316 | 0 | Python,PHP,JavaScript,CSS | 0 | 0 | 3| 
 | timwr | DirtyCow CVE-2016-5195: Android PoC: | https://github.com/timwr/CVE-2016-5195 | None |  | ::1 | None | 57 | 0 | 21 | 316 | 84 | Java,C,Shell,Ruby | 0 | 0 | 2| 
 | kbdancer | smsweb: 一个使用python编写的sms短信嗅探程序 | https://github.com/kbdancer/smsweb | https://www.92ez.com |  | Fujian Fuzhou | None | 63 | 0 | 47 | 315 | 78 | Python | 0 | 0 | 1| 
@@ -1643,6 +1643,7 @@
 | infodox | Some exploits and exploit development stuff | https://github.com/infodox/exploits | http://insecurety.net |  | None | None | 50 | 0 | 317 | 272 | 60 | Python,C | 420 | 146 | 1| 
 | abbshr | 基于 Ansible 的项目自动化部署管理 | https://github.com/abbshr/abbshr.github.io/issues/57 | https://github.com/FoOTOo | classical music , puzzle game , google fun , linuxer, with 🐱🐱 @FoOTOo Lab | Hangzhou, China | @wacai @upyun | 109 | 0 | 1800 | 270 | 57 | CoffeeScript,JavaScript | 0 | 0 | 1| 
 | nladuo | 淘宝文胸商品评论内容爬取与简单分析 | https://github.com/nladuo/taobao_bra_crawler | http://nladuo.github.io | A full-stack programer. Also a CS Ph.D candidate in Information Retrieval and Natural Language Processing. | BeiJing,China | ICT, UCAS. | 47 | 0 | 285 | 270 | 41 | C,Jupyter,Python,C++,Go,Java | 0 | 0 | 1| 
+| irsdl | 历年Web hacking技巧大全 | https://github.com/irsdl/top10webseclist | https://soroush.me/ |  | @irsdl (Twitter), UK, The Contrived World of InfoSec ><b>abcd | @MDSecLabs (Twitter) | 27 | 0 | 43 | 269 | 0 | Python,C#,Java | 430 | 120 | 1| 
 | juliocesarfort | i published on Github a curated list of public penetration testing reports released by several consulting firms: | https://github.com/juliocesarfort/public-pentesting-reports | https://github.com/blazeinfosec | Information security engineer at @blazeinfosec. I like computers, punk rock and ska. I passed the Voight-Kampff test a couple of years ago. | Krakow, Poland | @blazeinfosec | 18 | 0 | 11 | 269 | 15 | Python,C | 2500 | 740 | 1| 
 | MindMac | 基于Xposed的Hook工具-AndroidEagleEye | https://github.com/MindMac/AndroidEagleEye | None |  | None | None | 46 | 0 | 445 | 268 | 34 | Java,Makefile,D | 403 | 185 | 1| 
 | itnihao | Ubuntu下搭建Zabbix | https://github.com/itnihao/zabbix-book/blob/master/03-chapter/zabbix_install_on_ubuntu.md | http://www.itnihao.com |  | ShangHai | None | 352 | 0 | 86 | 268 | 64 | Python,JavaScript,Vim | 297 | 232 | 1| 
@@ -2562,6 +2563,7 @@
 | mai-lang-chai | CMS、中间件漏洞检测利用合集 | https://github.com/mai-lang-chai/Middleware-Vulnerability-detection | https://mai-lang-chai.github.io | 🗝 under Control😎 | None | None | 19 | 0 | 15 | 57 | 8 | Python | 93 | 32 | 1| 
 | mcw0 | HiSilicon DVR 黑客笔记 | https://github.com/mcw0/pwn-hisilicon-dvr/blob/master/README.adoc | None |  | None | None | 5 | 0 | 3 | 57 | 2 | Python | 208 | 87 | 1| 
 | mdhiggins | ESP8266 兼容的远红外控制器(IR Blaster): | https://github.com/mdhiggins/ESP8266-HTTP-IR-Blaster/ | None |  | None | None | 14 | 0 | 28 | 57 | 1 | Python,C#,C++,Perl | 877 | 181 | 1| 
+| ph4ntonn | Impost3r -- 悄悄偷走sudo密码的小偷 | https://github.com/ph4ntonn/Impost3r | None | The wheel turns,nothing is ever new | 0x7F000001 | Unknown | 35 | 0 | 38 | 57 | 21 | C,Shell,Python,JavaScript,HTML,Go | 226 | 40 | 2| 
 | rexdex | 把 Xbox360 的可执行文件移植到 Windows 系统上运行: | https://github.com/rexdex/recompiler | None | A one happy programmer. | Warsaw, Poland | True Rebels | 3 | 0 | 12 | 57 | 1 | CSS,C++ | 1300 | 73 | 1| 
 | srdja | Collections-C : A library of generic data structures for C : | https://github.com/srdja/Collections-C | https://panichs.com |  | Earth | None | 24 | 0 | 136 | 57 | 9 | C,Rust | 0 | 0 | 1| 
 | tijme | graphwave - 用于检测相似 URL 路径的 BurpSuite 插件: | https://github.com/tijme/graphwave | https://tij.me/ | Information Security and Software Development. #Android, #iOS & #Web | The Netherlands | None | 15 | 0 | 83 | 57 | 6 | Python,Java,Objective-C,Swift,TeX | 0 | 0 | 1| 
@@ -2787,7 +2789,6 @@
 | linchaolong | 可视化的跨平台 apk 分析工具 | https://github.com/linchaolong/ApkToolPlus | http://www.jianshu.com/users/149dc6683cc7 |  | Guangzhou China | linchaolong | 9 | 0 | 201 | 39 | 1 | Java | 483 | 140 | 1| 
 | michaelmacinnis | oh : A surprisingly powerful Unix shell : https://github.com/michaelmacinnis/oh | https://github.com/michaelmacinnis/oh | None |  | None | None | 4 | 0 | 149 | 39 | 6 | Go | 0 | 0 | 1| 
 | pellegre | libcrafter: 用于网络数据包嗅探和制作的高等级 C++ 库: | https://github.com/pellegre/libcrafter | https://twitter.com/zesteban |  | None | None | 6 | 0 | 11 | 39 | 12 | JavaScript,C++ | 227 | 77 | 1| 
-| ph4ntonn | Stowaway -- Multi-hop Proxy Tool for pentesters | https://github.com/ph4ntonn/Stowaway | None | The wheel turns,nothing is ever new | 0x7F000001 | Unknown | 32 | 0 | 36 | 39 | 17 | Go,Python,C,JavaScript | 157 | 26 | 1| 
 | rohanpadhye | 针对 Java 语言的基于覆盖率的 Fuzz 框架 | https://github.com/rohanpadhye/jqf | https://cs.berkeley.edu/~rohanpadhye | PhD student | Berkeley, CA | UC Berkeley | 29 | 0 | 50 | 39 | 6 | C,Java | 121 | 24 | 1| 
 | steven-michaud | HookCase - macOS/OS X 上的逆向分析工具: | https://github.com/steven-michaud/HookCase | None |  | None | None | 3 | 0 | 12 | 39 | 0 | Objective-C++,C++ | 275 | 46 | 1| 
 | wagiro | BurpBounty - 用于改善主动及被动式扫描的 BurpSuite 扩展插件: | https://github.com/wagiro/BurpBounty | http://www.wagiro.com |  | None | None | 4 | 0 | 6 | 39 | 5 | Python,Java | 357 | 74 | 1| 
@@ -3789,6 +3790,8 @@
 | title | url| 
 | --- | ---| 
 | 索尼网站XSS漏洞 | http://link.medium.com/UhLfjkZeU6| 
+| Car Hacking with Python  Part 1: 提取 GPS/OBDII/CAN Bus 的数据 | http://medium.com/bugbountywriteup/car-hacking-with-python-part-1-data-exfiltration-gps-and-obdii-can-bus-69bc6b101fd1| 
+| 作者给Facebook的提bug挣了$31500，一个漫长而精彩的故事。 | http://link.medium.com/U0kbvLP1V6| 
 | 如何开始搭建自己的网络安全实验室 | http://medium.com/@robertscocca/building-a-cyber-security-lab-4874bddd056b| 
 | DOS系统文件路径魔法研究。 | http://medium.com/walmartlabs/dos-file-path-magic-tricks-5eda7a7a85fa| 
 | PHP 序列化漏洞的利用 | http://link.medium.com/rkOjYq6Ny6| 
