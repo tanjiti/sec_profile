@@ -1410,6 +1410,7 @@
 | mame82 | Logitech Unifying Vulnerabilities | https://github.com/mame82/UnifyingVulnsDisclosureRepo/tree/master/vulnerability_reports | https://www.twitter.com/mame82 |  | None | None | 69 | 0 | 44 | 509 | 17 | Python,Go,C,JavaScript | 2500 | 517 | 1| 
 | sophron | wifiphisher:Fast automated phishing attacks against WPA networks | https://github.com/sophron/wifiphisher | https://sophron.latthi.com | My curiosity is easily stimulated. | Athens, Greece | None | 2 | 0 | 5 | 508 | 8 | Python,C++ | 61 | 25 | 1| 
 | toolswatch | blackhat-arsenal-tools - BlackHat 会议军火库涉及到的工具: | https://github.com/toolswatch/blackhat-arsenal-tools | https://vfeed.io | Promoting security tools , Black Hat Arsenal Manager & Review Board Committee Chairman , Founder of @vfeed_io , Anti-conformist | cloud | vFeed IO | 7 | 0 | 15 | 506 | 4 | Python | 0 | 0 | 1| 
+| pyn3rd | Apache Tomcat + MongoDB 远程代码执行Poc公布 | https://github.com/pyn3rd/Apache-Tomcat-MongoDB-Remote-Code-Execution | https://twitter.com/pyn3rd |  | Hangzhou | None | 10 | 0 | 0 | 505 | 3 | Python,Batchfile,Java | 172 | 60 | 4| 
 | liuruoze | EasyPR:中文的开源车牌识别系统 | https://github.com/liuruoze/EasyPR | None | Think deep, work hard. | Nanjing, China | Nanjing University | 16 | 0 | 218 | 504 | 7 | C++,Scala | 4900 | 2200 | 1| 
 | blendin | 3snake - 转储 sshd 和 sudo 明文密码的工具: | https://github.com/blendin/3snake | http://tiszka.com |  | None | None | 9 | 0 | 125 | 502 | 65 | Python,C | 322 | 60 | 1| 
 | jaybosamiya | security-notes - jaybosamiya的安全学习笔记: | https://github.com/jaybosamiya/security-notes | https://www.jaybosamiya.com/ | 🦊 Software security researcher. PhD student at CMU. BTech (CSE) from IIT Roorkee. Open source dev. CTFer (PPP). Former president and editor of Geek Gazette. | Pittsburgh, PA | None | 58 | 0 | 599 | 501 | 148 | Python,C,C++ | 0 | 0 | 2| 
@@ -1654,7 +1655,6 @@
 | fritx | awesome-wechat: 微信个人号/公众号相关项目整理 | https://github.com/fritx/awesome-wechat | https://blog.fritx.me | 失去梦想ing | Shenzhen, China | None | 189 | 0 | 1300 | 264 | 343 | JavaScript,Vue | 0 | 0 | 1| 
 | RickGray | cyberbot: A lightweight batch scanning framework based on gevent | https://github.com/RickGray/cyberbot | http://rickgray.me | S. | None | None | 49 | 0 | 235 | 262 | 47 | Go,Python,PHP | 0 | 0 | 2| 
 | pasta-auto | 丰田公司开发了一套汽车ECU系统的测试工具，包含软件和硬件，repo里面有这套工具的相关介绍，目前应该是在售的状态。 | https://github.com/pasta-auto/PASTA1.0 | None |  | None | None | 1 | 0 | 0 | 262 | 0 | C | 49 | 11 | 1| 
-| pyn3rd | CVE-2018-3245 漏洞的 PoC : | https://github.com/pyn3rd/CVE-2018-3245 | https://twitter.com/pyn3rd |  | Hangzhou | Alibaba Group | 7 | 0 | 0 | 262 | 0 | Python,Batchfile,Java | 126 | 46 | 3| 
 | xtao | CODE-PyconCN2014 | https://github.com/xtao/CODE-PyconCN2014 | http://blog.xtao.me |  | Beijing | None | 164 | 0 | 2300 | 262 | 206 | Python,Shell,JavaScript,Go,C++ | 20 | 7 | 1| 
 | 7kbstorm | 7kbscan-WebPathBrute Web路径暴力探测工具 | https://github.com/7kbstorm/7kbscan-WebPathBrute | https://www.7kb.org | Red Team | None | None | 27 | 0 | 2 | 261 | 0 | C++,XSLT | 220 | 67 | 1| 
 | lavalamp- | ipv666 - IPv6 地址枚举工具: | https://github.com/lavalamp-/ipv666 | https://l.avala.mp/ |  | Venice, CA | None | 20 | 0 | 228 | 261 | 27 | Python,TypeScript,Shell,Go,Lua | 0 | 0 | 2| 
@@ -3145,6 +3145,7 @@
 | trombastic | 基于 Django 实现的开源 SCADA 系统，支持多种工控协议 | https://github.com/trombastic/PyScada | http://martin-schroeder.net |  | Berlin | Technische Universität Berlin | 11 | 0 | 8 | 19 | 0 | Python,JavaScript | 138 | 52 | 1| 
 | unassassinable | Privileged Access Workstation (PAW) - 企业管理员安全管理设备、防御密码窃取、防御摆渡攻击的一套工具集: | https://github.com/unassassinable/PAW | None |  | None | None | 6 | 0 | 0 | 19 | 0 | C,PowerShell | 170 | 29 | 1| 
 | veramine | Mitre 组织创建了一个称作 ATT&CK 的项目,之前有过推送,这个项目整理了攻击和入侵者常用的一些技术和策略。看到这个项目之后,来自 Veramine 团队的研究员也创建了一个项目,用于总结和讨论如何检测和防御 ATT&CK 项目中涉及的攻击技术: https://attack.mitre.org/wiki/Main_Page | https://github.com/veramine/Detections/wiki | https://veramine.com |  | Seattle, Washington | Veramine | 4 | 0 | 32 | 19 | 1 | JavaScript,C++ | 96 | 12 | 1| 
+| 3xp0rt | Sorano恶意软件加载器源代码泄漏 | https://github.com/3xp0rt/SoranoBot | https://twitter.com/3xp0rtblog |  | Ukraine | None | 10 | 0 | 10 | 18 | 3 | C#,C,HTML | 10 | 10 | 1| 
 | Darkabode | zerokit - GAPZ Bootkit 源码 | https://github.com/Darkabode/zerokit | None |  | None | None | 6 | 0 | 0 | 18 | 0 | C,Java,C++ | 84 | 33 | 1| 
 | S3Jensen | The iOS Reverse Engineering Toolkit is toolkit designed to automate common tasks with iOS penetration testing. | https://github.com/S3Jensen/iRET | None |  | None | None | 1 | 0 | 2 | 18 | 5 | Shell | 214 | 76 | 1| 
 | arnaugamez | Introducing radare2 for humans,radare2 使用介绍: | https://github.com/arnaugamez/r2con2018-Introducing_r2_for_humans/blob/master/introducing-radare2-humans.pdf | https://github.com/HackingLliure |  | None | @HackingLliure | 14 | 0 | 21 | 18 | 3 | Python,Java | 16 | 1 | 1| 
@@ -3791,6 +3792,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 关于进程令牌的原理以及利用方式-第一部分 | http://medium.com/@seemant.bisht24/understanding-and-abusing-process-tokens-part-i-ee51671f2cfa| 
 | Pwn2Own Schneider 路径穿越漏洞的分析 | http://medium.com/cognite/pwn2own-or-not2pwn-part-2-5-a-brief-tale-of-free-0days-e1df142eb815?source=friends_link&sk=42caecc5dc90e8ffc5c9aa394e41204d| 
 | 索尼网站XSS漏洞 | http://link.medium.com/UhLfjkZeU6| 
 | Car Hacking with Python  Part 1: 提取 GPS/OBDII/CAN Bus 的数据 | http://medium.com/bugbountywriteup/car-hacking-with-python-part-1-data-exfiltration-gps-and-obdii-can-bus-69bc6b101fd1| 
