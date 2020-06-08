@@ -14,6 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 长亭安全课堂 | chaitintech_release | Python代码保护 , pyc 混淆从入门到工具实现 | https://mp.weixin.qq.com/s/qvbwTAmDOvpHrAoNdQ7RRA | 1| 
+| 宽字节安全 | gh_2de2b9f7d076 | tomcat结合shiro无文件webshell的技术研究以及检测方法 | https://mp.weixin.qq.com/s/fFYTRrSMjHnPBPIaVn9qMg | 4| 
 | 安全学术圈 | secquan | FUSE: Finding File Upload Bugs via Penetration Testing | https://mp.weixin.qq.com/s/aLlIZSM8SpZResIdxf3C1A | 47| 
 | 安恒信息 | DBAPP2013 | 红蓝对抗——「CobaltStrike」应用攻击手段实例分析 | https://mp.weixin.qq.com/s/9_0pLbmWqUbJ6aGEPjxvYA | 3| 
 | 安恒信息安全研究院 | gh_684e6ad8d12c | StarCTF 2019 v8 off-by-one漏洞学习笔记 | https://mp.weixin.qq.com/s/z6PLgxbt0yniwiuRY2bUWw | 3| 
@@ -28,7 +30,6 @@
 | 全球技术地图 | drc_iite | 美国国防高级研究计划局未来网络安全研发趋势分析 | https://mp.weixin.qq.com/s/gWrMODC3Rkznk-swglI0Qw | 1| 
 | Flanker论安全 | ShowMeShell | Fuzzing战争: 从刀剑弓斧到星球大战 | https://mp.weixin.qq.com/s/nREiT1Uj25igCMWu1kta9g | 1| 
 | SecPulse安全脉搏 | SecPulse | 一次曲折的渗透测试之旅 | https://mp.weixin.qq.com/s/4bFC1GdiRZe9ygazXb1pnA | 7| 
-| 宽字节安全 | gh_2de2b9f7d076 | Apache CommonCollection Gadget几种特殊的玩法 | https://mp.weixin.qq.com/s/xwEOpEkPurwP119tonUzVQ | 3| 
 | 湛卢工作室 | xuehao_studio | PWN , “网鼎杯”朱雀之战——魔法房间题解 | https://mp.weixin.qq.com/s/4vgBmesl2KICNSoDEep_5Q | 8| 
 | 腾讯安全威胁情报中心 | gh_05a6c5ec3f78 | 腾讯安全威胁情报中心“明厨亮灶”工程：基于域名图谱嵌入的恶意域名挖掘 | https://mp.weixin.qq.com/s/LeK6QYHwd3k3UlyAuSkcZA | 1| 
 | 专注安管平台 | gh_48603b9bb05a | SANS：2020年自动化与集成调查报告 | https://mp.weixin.qq.com/s/NZNK95gtUAFqMsxkgknTCQ | 5| 
@@ -1786,6 +1787,7 @@
 | djadmin | awesome-bug-bounty: Bug Bounty & Disclosure Programs and write-ups | https://github.com/djadmin/awesome-bug-bounty | https://djadmin.in |  | Delhi, India | Wingify | 36 | 0 | 435 | 203 | 104 | JavaScript | 1500 | 332 | 1| 
 | gamozolabs | mesos - Windows 下的二进制代码覆盖调试工具: | https://github.com/gamozolabs/mesos | None |  | None | None | 25 | 0 | 2 | 203 | 0 | C,Assembly,C++,Rust | 293 | 32 | 2| 
 | h2hconference | Hackers to Hackers(H2HC) 2019 会议的议题 PPT 公开了 | https://github.com/h2hconference/2019 | https://www.h2hc.com.br | Hackers To Hackers Conference (H2HC) é uma conferência organizada por pessoas que trabalham ou que estão diretamente envolvidas com pesquisas e desenvolvimento | Brazil | H2HC | 18 | 0 | 0 | 203 | 0 | Python,HTML | 50 | 12 | 2| 
+| ioncodes | 在 VS Code 中调试 IDA idapython 脚本的插件 | https://github.com/ioncodes/idacode | https://twitter.com/layle_ctf | Hacker in the streets, reverse engineer in the sheets. Thats how it works, right? | Here | None | 264 | 0 | 1800 | 203 | 33 | C#,Python,Ruby | 209 | 29 | 2| 
 | ohjeongwook | sRDI - 用于反射式 DLL 注入的 Shellcode 构造与加载工具: | https://github.com/ohjeongwook/sRDI | https://darungrim.com | Ex-security engineer@Microsoft | None | DarunGrim | 25 | 0 | 7 | 203 | 12 | Python,C,C++ | 291 | 63 | 2| 
 | thp | urlwatch: A tool for monitoring webpages for updates | https://github.com/thp/urlwatch | https://thp.io/ |  | Austria | None | 29 | 0 | 62 | 203 | 19 | Python,C,C++ | 1200 | 179 | 1| 
 | ustayready | CredKing - 使用 AWS Lambda 轮换 IP 地址进行密码破解的工具: | https://github.com/ustayready/CredKing | None | divergent thinker/breaker and researcher of stuff | None | None | 39 | 0 | 7 | 203 | 7 | Python,C#,HTML | 724 | 155 | 3| 
@@ -2438,6 +2440,7 @@
 | xiamx | wesome-sentiment-analysis: A curated list of Sentiment Analysis methods | https://github.com/xiamx/awesome-sentiment-analysis | https://www.cs.mcgill.ca/~mxia3/ | Distributed System Engineer - Mobile/Web Full Stack - Devops. NLP researcher in progress. | Montreal | None | 92 | 0 | 215 | 69 | 27 | Python,TypeScript,HTML,Elixir | 0 | 0 | 1| 
 | GerbenJavado | LinkFinder - 从 JavaScript 文件中提取 URL 及其参数的 Python 脚本: | https://github.com/GerbenJavado/LinkFinder | None |  | None | None | 3 | 0 | 18 | 68 | 0 | Python,HTML | 664 | 157 | 1| 
 | HockeyInJune | Contemporary-Automatic-Program-Analysis | https://github.com/HockeyInJune/Contemporary-Automatic-Program-Analysis | https://twitter.com/HockeyInJune |  | New York, New York | None | 3 | 0 | 458 | 68 | 85 | Python,C,PowerShell | 11 | 9 | 1| 
+| ReddyyZ | GhostShell - 一款开源恶意软件，具有 Bypass AVs、VMs、以及 Sandboxes 的实现 | https://github.com/ReddyyZ/GhostShell | https://www.youtube.com/c/fantasmanosistema | Im a young programmer, 13 years old, and Im always looking for knowledge. | Brazil | None | 32 | 0 | 138 | 68 | 13 | Python,C,Shell | 160 | 58 | 1| 
 | sowish | LNScan: A WebScanner to scan local network | https://github.com/sowish/LNScan | http://test.com | Strange Things | China | None | 23 | 0 | 194 | 68 | 18 | Python,PHP,HTML | 149 | 65 | 1| 
 | stonexer | wechatBot: 面向个人的微信机器人平台 | https://github.com/stonexer/wechatBot | https://www.sitixi.com | >_ | Nanjing China | Alibaba | 76 | 0 | 602 | 68 | 68 | TypeScript,JavaScript,OCaml,Vue | 0 | 0 | 1| 
 | 86hh | 利用 Control Flow Guard 实现对 PE32 文件 EntryPoint 混淆的恶意代码 PoC | https://github.com/86hh/POC-viruses/tree/master/Senshi.A | None |  | None | None | 10 | 0 | 1 | 67 | 1 | Assembly | 94 | 26 | 2| 
@@ -2556,6 +2559,7 @@
 | invictus1306 | ARM shellcode and exploit development, ARM 上的 ShellCode 编写与漏洞利用开发: | https://github.com/invictus1306/Workshop-BSidesMunich2018/blob/master/workshop_slides.pdf | https://twitter.com/invictus1306 |  | Italy | None | 12 | 0 | 0 | 58 | 0 | Python,C,CSS,C++ | 0 | 0 | 1| 
 | joanbono | Snorter: Snort + Barnyard2 + Pulledpork → The easy way! | https://github.com/joanbono/Snorter | http://joanbono.github.io | IT Security Analyst / Pentester | Prague | ¯\_(ツ)_/¯ | 30 | 0 | 56 | 58 | 103 | Go,Shell | 0 | 0 | 1| 
 | smodnix | This challenge is Inon Shkedys 31 days API Security Tips. | https://github.com/smodnix/31-days-of-API-Security-Tips | https://smodnix.codes | Experienced in Web related technologies and interested in security aspects as well. | None | None | 30 | 0 | 450 | 58 | 582 |  | 801 | 106 | 1| 
+| FoxHex0ne | 作者开源了博客中提到的监控 Hyper Call 的工具 | https://github.com/FoxHex0ne/BlogHyperV | None |  | None | None | 8 | 0 | 0 | 57 | 0 | Python,Java,C++ | 98 | 25 | 1| 
 | MRGEffitas | Ironsquirrel - 以加密的方式将浏览器漏洞利用代码发往受害者浏览器的工具: | https://github.com/MRGEffitas/Ironsquirrel | https://www.mrg-effitas.com |  | None | Effitas Ltd | 15 | 0 | 2 | 57 | 0 | Python,C#,C,JavaScript,HTML | 153 | 46 | 1| 
 | RootUp | BFuzz - 一款基于 Domato 的浏览器 Fuzz 工具: | https://github.com/RootUp/BFuzz | http://www.inputzero.io | Tweet me @RandomDhiraj | Internet | None | 16 | 0 | 3 | 57 | 0 | Python,JavaScript,HTML,Ruby,PowerShell | 206 | 34 | 1| 
 | jaredestroud | 如何通过 vim 来实现代码执行及持久化等攻击: | https://github.com/jaredestroud/WOTD/blob/master/%5BDARK%5D%20Weapons%20of%20%20Text%20Destruction.pdf | None |  | None | None | 17 | 0 | 208 | 57 | 37 | SaltStack,PHP,Shell,C++ | 0 | 0 | 1| 
@@ -2590,7 +2594,6 @@
 | V-E-O | libmpeg2 堆缓冲区越界写漏洞 POC (CVE-2018-9341): | https://github.com/V-E-O/PoC/tree/master/CVE-2018-9341 | None |  | None | None | 59 | 0 | 43 | 55 | 45 | C,Makefile | 0 | 0 | 2| 
 | a7vinx | angr-doc-zh_CN: Angr-doc的中文翻译 (开源符号执行框架) | https://github.com/a7vinx/angr-doc-zh_CN | https://a7vinx.github.io |  | None | None | 20 | 0 | 1300 | 55 | 52 | Python,C,C++ | 0 | 0 | 1| 
 | cuijianxiong | 基于Django 框架 Redis ElasticSearch Web指纹搜索引擎 | https://github.com/cuijianxiong/websearch | http://cuijianxiong.top | LVU | None | None | 49 | 0 | 122 | 55 | 44 | Python,JavaScript,Roff | 53 | 26 | 2| 
-| ioncodes | .NET Patcher Library which can bypass obfuscation. Nice for autopatchers! | https://github.com/ioncodes/dnpatch | https://deadbytes.xyz | Rust is my bae. Im a C++ veteran. C# is my sidechick. Assembly enthusiast. Occasionally abusing Python too. Sometimes I also force programs to act as I want. | Here | None | 203 | 0 | 1600 | 55 | 22 | C#,Shell,JavaScript,PHP | 167 | 22 | 1| 
 | jtpereyda | boofuzz - A fork and successor of the Sulley Fuzzing Framework. | https://github.com/jtpereyda/boofuzz?platform=hootsuite | None |  | None | None | 33 | 0 | 16 | 55 | 3 | Python,C | 601 | 135 | 1| 
 | maxpl0it | IE 浏览器 JS 脚本引擎 CVE-2020-0674 漏洞的 Exploit | https://github.com/maxpl0it/CVE-2020-0674-Exploit | https://twitter.com/maxpl0it | Security researcher from the South East of England. | South East, England | None | 10 | 0 | 0 | 55 | 0 | Python,C,HTML | 84 | 24 | 1| 
 | sa7mon | S3Scanner: Scan for open S3 buckets and dump | https://github.com/sa7mon/S3Scanner | https://github.com/mnsu-isso | Computer Science student - currently looking for a job! Contact info available at personal website. | USA | @mnsu-isso | 76 | 0 | 236 | 55 | 20 | Python | 0 | 0 | 1| 
@@ -2783,6 +2786,7 @@
 | 0xffff0800 | MuddyWater 组织的 Muddyc3 C2 源码泄漏 | https://github.com/0xffff0800/muddyc3 | https://www.twitter.com/0xffff0800 | Security Researcher, Malware Analyst | Shenzhen Guangdong China | None | 1 | 0 | 0 | 39 | 0 | Python | 103 | 67 | 1| 
 | Sab0tag3d | SIET - CISCO Smart Install Exploitation Tool. | https://github.com/Sab0tag3d/SIET/ | None |  | None | None | 5 | 0 | 68 | 39 | 0 | Python,HTML,XSLT | 339 | 109 | 1| 
 | arnaudsoullie | ics-default-passwords:List of default passwords for Industrial Control Systems | https://github.com/arnaudsoullie/ics-default-passwords | None |  | None | None | 17 | 0 | 6 | 39 | 2 | Python,JavaScript,Ruby | 34 | 19 | 1| 
+| cedowens | macOS 平台一款类似 Seatbelt 的工具，可以用于渗透阶段提取系统的各类信息 | https://github.com/cedowens/SwiftBelt | https://medium.com/red-teaming-with-a-blue-team-mentaility | offensive security engineer | None | None | 27 | 0 | 0 | 39 | 3 | Python,Swift | 52 | 12 | 1| 
 | click1 | uxss在线测试页面 | https://github.com/click1/uxss | None |  | None | None | 7 | 0 | 48 | 39 | 13 | Go,Python,PHP,Swift | 49 | 37 | 1| 
 | fboldewin | Operation Fast Cash - Hidden Cobra 使用的 AIX PowerPC 恶意软件解析: | https://github.com/fboldewin/FastCashMalwareDissected/blob/master/Operation%20Fast%20Cash%20-%20Hidden%20Cobra%E2%80%98s%20AIX%20PowerPC%20malware%20dissected.pdf | None |  | None | None | 3 | 0 | 0 | 39 | 0 | YARA | 67 | 17 | 1| 
 | immunIT | drupwn - Drupal 信息收集与漏洞利用工具: | https://github.com/immunIT/drupwn | https://www.immunit.ch |  | Nyon, Switzerland | immunIT | 3 | 0 | 0 | 39 | 0 | Python,Dockerfile | 259 | 62 | 1| 
@@ -3575,6 +3579,7 @@
 | NetSPI | Evil SQL Client (ESC) - 为渗透测试设计的交互式的 SQL Server Client，支持发现数据库、访问数据、提取数据 | https://github.com/NetSPI/ESC | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java,C#,Python,HTML,Go,Ruby,PowerShell | 1100 | 282 | 1| 
 | Netflix-Skunkworks | diffy - 由 Netflix 的安全情报和响应团队(SIRT)开发的数字取证及事件响应(DFIR)工具: | https://github.com/Netflix-Skunkworks/diffy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Groovy,C,Shell,Java,Scala,Python,JavaScript,C++,Go,Ruby | 0 | 0 | 1| 
 | Netis | packet-agent: 云环境网络流量镜像项目 | https://github.com/Netis/packet-agent/blob/master/README-zh-Hans.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,C++ | 0 | 0 | 1| 
+| NiuTrans | 机器翻译：统计建模与深度学习方法 | https://github.com/NiuTrans/MTBook | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TeX,C++ | 1500 | 565 | 1| 
 | NoneAge | 交易所安全测试系列指南文档 | https://github.com/NoneAge/BlockchainSecurityTutorial | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,WebAssembly | 0 | 0 | 1| 
 | OrOneEqualsOne | Reconned - 用于搜集子域名的工具,之前叫 PyBrute: | https://github.com/OrOneEqualsOne/reconned | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | PSGumshoe | 用于从 Windows 各类日志和缓存中收集取证信息的 PowerShell 模块 | https://github.com/PSGumshoe/PSGumshoe/releases/tag/v1.1 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | PowerShell | 0 | 0 | 1| 
@@ -3664,7 +3669,7 @@
 | gasgas4 | APT_CyberCriminal_Campagin | https://github.com/gasgas4/APT_CyberCriminal_Campagin | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | github | Code QL library for Chrome | https://github.com/github/security-lab/tree/master/CodeQL_Queries/cpp/Chrome | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Python,JavaScript,Haskell,TypeScript,HTML,Go,Ruby | 23100 | 3500 | 2| 
 | google | Google 开发的对抗 USB Keystroke 攻击的工具的源码 | https://github.com/google/ukip | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Python,Kotlin,JavaScript,C++,TypeScript,Go,Rust | 0 | 0 | 4| 
-| googleprojectzero | DrSancov - j00ru 开源的一款 DynamoRIO 插件，用于在动态插桩中输出 ASAN/ SanitizerCoverage 框架支持的格式方便进一步做分析 | https://github.com/googleprojectzero/DrSancov | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,C#,C++,Python,HTML,Swift | 0 | 0 | 2| 
+| googleprojectzero | ProjectZero 开源的一款动态插桩库，支持对进程内的指定模块进行插桩 | https://github.com/googleprojectzero/TinyInst | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,C#,C++,Python,HTML,Swift | 0 | 0 | 3| 
 | goretk | GoRE - 用于分析 Go 二进制文件的工具库 | https://github.com/goretk/gore | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Go,Shell,HTML | 0 | 0 | 1| 
 | guardicore | labs_campaigns 攻击团队IOC信息 | https://github.com/guardicore/labs_campaigns | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,CoffeeScript,C# | 0 | 0 | 1| 
 | guillotines | WebShell: Web端WebShell管理器 | https://github.com/guillotines/WebShell | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -3762,6 +3767,7 @@
 | sslab-gatech | QSYM - 为混合 Fuzz 定制的符号执行引擎 | https://github.com/sslab-gatech/qsym | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Filebench,Python,Makefile,C++,HTML,HCL | 0 | 0 | 1| 
 | suraj-root | Shellcode mapper | https://github.com/suraj-root/smap/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | switchbrew | nx-hbexploit300-obf - Homebrew exploit for 3.0.0: | https://github.com/switchbrew/nx-hbexploit300-obf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Python,JavaScript,Makefile,HTML,CSS | 0 | 0 | 1| 
+| synacktiv | 如何利用Windows内核堆栈溢出漏洞进行特权提升(Poc) | https://github.com/synacktiv/Windows-kernel-SegmentHeap-Aligned-Chunk-Confusion | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,PHP,Rust | 0 | 0 | 1| 
 | taipan-scanner | Taipan: Web application security scanner | https://github.com/taipan-scanner/Taipan | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | tarantula-team | 开源防火墙 fSense 2.4.4-p2 - 2.4.4-p3 XSS 漏洞 PoC（CVE-2019-12949） | https://github.com/tarantula-team/CVE-2019-12949/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | tea-deliverers | PlaidCTF 2019 比赛的 Writeup | https://github.com/tea-deliverers/ctf-writeups/blob/master/pctf2019/PlaidCTF2019_Writeup_Tea_Deliverers.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
@@ -3792,6 +3798,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 红队：如何在C＃中嵌入Golang工具中的教程 | http://medium.com/@shantanukhande/red-team-how-to-embed-golang-tools-in-c-e269bf33876a| 
 | 关于进程令牌的原理以及利用方式-第一部分 | http://medium.com/@seemant.bisht24/understanding-and-abusing-process-tokens-part-i-ee51671f2cfa| 
 | Pwn2Own Schneider 路径穿越漏洞的分析 | http://medium.com/cognite/pwn2own-or-not2pwn-part-2-5-a-brief-tale-of-free-0days-e1df142eb815?source=friends_link&sk=42caecc5dc90e8ffc5c9aa394e41204d| 
 | 索尼网站XSS漏洞 | http://link.medium.com/UhLfjkZeU6| 
