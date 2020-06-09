@@ -14,14 +14,15 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 宽字节安全 | gh_2de2b9f7d076 | MSSQL注入 突破不能堆叠的限制执行系统命令 | https://mp.weixin.qq.com/s/CcgUb7mLlP2xjcrpy5VGbQ | 5| 
+| 绿盟科技研究通讯 | nsfocus_research | AISecOps：打造可信任安全智能 | https://mp.weixin.qq.com/s/Tz9V05CHqLg_Wt4yfJZffQ | 29| 
 | 长亭安全课堂 | chaitintech_release | Python代码保护 , pyc 混淆从入门到工具实现 | https://mp.weixin.qq.com/s/qvbwTAmDOvpHrAoNdQ7RRA | 1| 
-| 宽字节安全 | gh_2de2b9f7d076 | tomcat结合shiro无文件webshell的技术研究以及检测方法 | https://mp.weixin.qq.com/s/fFYTRrSMjHnPBPIaVn9qMg | 4| 
+| 锦行信息安全 | jeeseensec | 任天堂再遭黑手，用户隐私到底该如何保护？ | https://mp.weixin.qq.com/s/O7N2OWtSQUKY-6d5H6e7lg | 4| 
 | 安全学术圈 | secquan | FUSE: Finding File Upload Bugs via Penetration Testing | https://mp.weixin.qq.com/s/aLlIZSM8SpZResIdxf3C1A | 47| 
 | 安恒信息 | DBAPP2013 | 红蓝对抗——「CobaltStrike」应用攻击手段实例分析 | https://mp.weixin.qq.com/s/9_0pLbmWqUbJ6aGEPjxvYA | 3| 
 | 安恒信息安全研究院 | gh_684e6ad8d12c | StarCTF 2019 v8 off-by-one漏洞学习笔记 | https://mp.weixin.qq.com/s/z6PLgxbt0yniwiuRY2bUWw | 3| 
 | 看雪学院 | ikanxue | 新手向总结：IDA动态调试So的一些坑 | https://mp.weixin.qq.com/s/91r1cKyL_1UR79OP2XubqA | 40| 
 | 腾讯安全应急响应中心 | tsrc_team | 主机安全——洋葱Webshell检测实践与思考 | https://mp.weixin.qq.com/s/ol70aVdvybzMJmtfxaAAZQ | 11| 
-| 锦行信息安全 | jeeseensec | 任天堂再遭黑手，用户隐私到底该如何保护？ | https://mp.weixin.qq.com/s/O7N2OWtSQUKY-6d5H6e7lg | 4| 
 | 七夜安全博客 | qiye_safe | APT的思考: CMD命令混淆高级对抗 | https://mp.weixin.qq.com/s/hJ6gn9EMKNmMOofEg3i6Iw | 11| 
 | 爱奇艺技术产品团队 | iQIYI-TP | ​干货 , 爱奇艺全链路自动化监控平台的探索与实践 | https://mp.weixin.qq.com/s/j44LMlItuTodfJvL_YGTUA | 4| 
 | 腾讯安全 | TXAQ2019 | 腾讯安全发布《零信任解决方案白皮书》 | https://mp.weixin.qq.com/s/ZkuR5bDGYpXySUcuROcb7Q | 1| 
@@ -41,7 +42,6 @@
 | 白帽汇 | baimaohui888 | 基于Docker的固件模拟 | https://mp.weixin.qq.com/s/t8ijT6pBjT9vB5yrd9Qstw | 5| 
 | 论文收割机 | paper_reader | 深度长文：图神经网络欺诈检测方法总结 | https://mp.weixin.qq.com/s/ewzsURiU7bfG3gObzIP2Mw | 1| 
 | 酒仙桥六号部队 | anfu-360 | 一次曲折的渗透测试之旅 | https://mp.weixin.qq.com/s/HmGEYRcf1hSVw9Uu9XHGsA | 2| 
-| 绿盟科技研究通讯 | nsfocus_research | 基于深度学习的物联网恶意软件家族细粒度分类研究 | https://mp.weixin.qq.com/s/we1fr4_BKd7n-zVWzSRygg | 28| 
 | 中通安全应急响应中心 | ZTO_SRC | 中通RASP安全防护方案初探 | https://mp.weixin.qq.com/s/33CtW9ErXCDWoCJRFzlVPQ | 7| 
 | SecWiki | SecWiki | [Sec-Trans-8]开发扫描器挖掘反射型XSS (一) | https://mp.weixin.qq.com/s/T2ULAKKGmRup6FFM8-vgSg | 28| 
 | 小强说 | xiaoqiangcall | 从STIX2.1看安全智能归来 | https://mp.weixin.qq.com/s/nYV3S2oYNNnKcpvNAG751w | 5| 
@@ -1366,6 +1366,7 @@
 | firesunCN | BlueLotus_XSSReceiver:XSS数据接收平台 | https://github.com/firesunCN/BlueLotus_XSSReceiver | http://www.firesun.me |  | None | None | 17 | 0 | 46 | 597 | 6 | Shell,JavaScript,Java | 0 | 0 | 1| 
 | lrlna | Garbage collection in V8, an illustrated guide: | https://github.com/lrlna/sketchin/blob/master/guides/garbage-collection-in-v8.md | https://github.com/mongodb |  | Berlin, Germany | @mongodb | 96 | 0 | 396 | 595 | 37 | JavaScript | 0 | 0 | 2| 
 | niklasb | 对于多个 VirtualBox、Safari 及 Firefox 漏洞利用的整理: | https://github.com/niklasb/sploits | https://twitter.com/_niklasb |  | Karlsruhe, Germany | None | 100 | 0 | 143 | 592 | 3 | Python,TeX,Shell,JavaScript,C++ | 671 | 128 | 3| 
+| grayddq | ScanCVE: 监控Github上CVE增量 | https://github.com/grayddq/ScanCVE | None | 一位喜欢原创的安全工作者！ | None | None | 17 | 0 | 0 | 587 | 0 | Python | 844 | 265 | 3| 
 | piskvorky | (Python)Gensim集成基于Textrank的文本摘要模块 | https://github.com/piskvorky/gensim/pull/324 | https://github.com/RaRe-Technologies | Creator of gensim, founder at @RaRe-Technologies. Lover of history and beginnings in general. | Geoje-do | @RaRe-Technologies | 44 | 0 | 232 | 587 | 7 | Python,Shell,C++ | 108 | 46 | 1| 
 | c0ny1 | xxe-lab: 各种语言版本的XXE漏洞Demo | https://github.com/c0ny1/xxe-lab | http://gv7.me | 漏洞在牛角尖上 | None | None | 13 | 0 | 271 | 583 | 12 | Python,Shell,PHP,Java | 1200 | 307 | 4| 
 | kailashahirwar | 机器学习与深度学习工程师的必备手册: https://medium.com/@kailashahirwar/essential-cheat-sheets-for-machine-learning-and-deep-learning-researchers-efb6a8ebd2e5 Github: | https://github.com/kailashahirwar/cheatsheets-ai | https://github.com/MateLabs | Co-founder at @MateLabs , Democratising Machine Learning and Deep Learning. | Bangalore India | @MateLabs | 10 | 0 | 229 | 577 | 18 | Python | 12200 | 2900 | 1| 
@@ -1570,7 +1571,6 @@
 | mbeaudru | Modern JavaScript Cheatsheet: | https://github.com/mbeaudru/modern-js-cheatsheet | https://twitter.com/mbeaudru | Javascript ecosystem, React and functionnal programming enthusiast | None | None | 32 | 0 | 341 | 329 | 9 | JavaScript,HTML | 0 | 0 | 1| 
 | rvrsh3ll | OSGiScanner - 寻找 OSGi 控制台的扫描器: | https://github.com/rvrsh3ll/OSGiScanner | None | I hack code together and hope it works. | NOVA | None | 137 | 0 | 19 | 329 | 9 | Python,C#,HTML,PowerShell | 417 | 124 | 4| 
 | anupcowkur | Frog lets you access the official Android documentation from the command line. Neat ?https://github.com/anupcowkur/frog | https://github.com/anupcowkur/frog | http://anupcowkur.com/ |  | None | None | 15 | 0 | 530 | 328 | 14 | Kotlin,Ruby,Java,HTML,Dart | 0 | 0 | 1| 
-| grayddq | GScan: Linux主机侧Checklist的自动全面化检测 | https://github.com/grayddq/GScan | None | 一位喜欢原创的安全工作者！ | None | None | 14 | 0 | 0 | 327 | 0 | Python | 305 | 99 | 2| 
 | ex0dus-0x | brut3k1t : Brute-force attack that supports multiple protocols and services : | https://github.com/ex0dus-0x/brut3k1t | https://codemuch.tech | security engineer | New York | None | 31 | 0 | 1200 | 326 | 291 | Python,C,Rust,C++ | 0 | 0 | 1| 
 | moloch-- | CSP-Bypass : A Burp Plugin for Detecting Weaknesses in Content Security Policies : | https://github.com/moloch--/CSP-Bypass | None | I like computers. | Earth | Hacker / Programmer | 65 | 0 | 987 | 326 | 144 | Python,Go,HTML,JavaScript,C++ | 0 | 0 | 1| 
 | opsnull | 和我一步步部署 kubernetes 集群 | https://github.com/opsnull/follow-me-install-kubernetes-cluster | https://blog.opsnull.com | Yet another hacker! | Beijing | 4paradigm | 60 | 0 | 892 | 325 | 152 | Go,Shell,Emacs,C++ | 0 | 0 | 1| 
@@ -2313,6 +2313,7 @@
 | Quitten | Autorize - BurpSuite 自动化认证测试插件: | https://github.com/Quitten/Autorize | None |  | None | None | 17 | 0 | 3 | 85 | 1 | Python,PHP | 242 | 88 | 1| 
 | d30sa1 | RootKits-List-Download : This is the list of all rootkits found so far on github and other sites : | https://github.com/d30sa1/RootKits-List-Download | None | Dont Ask.. | None | None | 15 | 0 | 32 | 85 | 3 | Python | 515 | 230 | 1| 
 | externalist | iOS 12.0.1 的 Webkit 远程代码执行漏洞利用 : 1) https://twitter.com/Yalujb/status/1058038352677625857 2) | https://github.com/externalist/exploit_playground/tree/master/jsc_prop_enum_uaf | None |  | None | None | 7 | 0 | 3 | 85 | 0 | Python,C,JavaScript | 556 | 98 | 3| 
+| omergunal | Predict attacker groups from the techniques and software u... | https://github.com/omergunal/Attacker-Group-Predictor | https://ogunal.com |  | Turkey | None | 18 | 0 | 52 | 85 | 17 | Python | 2000 | 229 | 3| 
 | rand0m1ze | ezsploit - Metasploit 的 Linux 自动化脚本: | https://github.com/rand0m1ze/ezsploit | None |  | None | None | 9 | 0 | 3 | 85 | 2 | C#,Visual,Shell | 168 | 71 | 1| 
 | Ch1ngg | Cobalt Strike - 使用其他方式抓取密码/dump hash | https://github.com/Ch1ngg/AggressorScript-RunDumpHash | https://www.ch1ng.com/ |  | no | no | 15 | 0 | 145 | 84 | 18 | Python,C#,ASP,Java,PowerShell | 44 | 11 | 5| 
 | Green-m | Green-hat-suite: meterpreter免杀工具 | https://github.com/Green-m/green-hat-suite | https://green-m.github.io/ | AV Evasion, Reverse, Metasploiter https://keybase.io/green_m | None | None | 21 | 0 | 236 | 84 | 38 | Python,C,Shell,Ruby | 0 | 0 | 1| 
@@ -2409,7 +2410,6 @@
 | JiounDai | Android 蓝牙相关漏洞剖析,来自 360 Alpha team 的 jianjun dai & guang gong: | https://github.com/JiounDai/Bluedroid/blob/master/Dissect%20Android%20Bluetooth%20for%20Fun%20%26%20Profit.pdf | https://twitter.com/jioun_dai | twitter/weibo: @Jioun_dai | None | None | 13 | 0 | 0 | 72 | 0 | Python,Swift,C,Java | 150 | 35 | 4| 
 | idanr1986 | CuckooDroid - Automated Android Malware Analysis with Cuckoo Sandbox | https://github.com/idanr1986/cuckoo-droid | None |  | None | None | 10 | 0 | 6 | 72 | 2 | Python,Java | 427 | 108 | 2| 
 | mateuszk87 | BadIntent - 使用 Burp Suite 拦截、修改、重放和攻击 Android 的 Binder 通信: | https://github.com/mateuszk87/BadIntent | https://ethermat.com | White-Hat Hacker , Founder | Berlin, DE | ETHΞRMAT GmbH | 5 | 0 | 339 | 72 | 20 | Python,Java | 0 | 0 | 1| 
-| omergunal | PoT - 利用 Twitter 钓鱼的工具: | https://github.com/omergunal/PoT | https://ogunal.com |  | Turkey | None | 16 | 0 | 50 | 72 | 13 | Python,HTML | 0 | 0 | 2| 
 | userlandkernel | 如何破解 iPhone 基带的详细介绍: | https://github.com/userlandkernel/baseband-research?files=1 | https://github.com/Fontys-Hogeschool-ICT | Im a Software Engineering and Cybersecurity student at @Fontys-Hogeschool-ICT I research MACH, Darwin and LowLevel System Security. Mainly intrested in iOS. | Eindhoven, Netherlands | @UKERN-Developers | 33 | 0 | 48 | 72 | 11 | HTML,C,Shell,Objective-C | 0 | 0 | 2| 
 | yegord | Snowman: a native code to C/C++ decompiler | https://github.com/yegord/snowman | None |  | Berlin | None | 12 | 0 | 0 | 72 | 0 | Python,C,Assembly,C++ | 1600 | 246 | 1| 
 | zerokeeper | WebEye:识别WEB服务器类型、CMS类型、WAF类型、WHOIS信息 | https://github.com/zerokeeper/WebEye | http://www.zerokeeper.com/ |  | None | None | 8 | 0 | 367 | 72 | 28 | Python,PHP | 152 | 46 | 1| 
@@ -3118,6 +3118,7 @@
 | guibacellar | DNCI - 将 .NET 代码远程注入到非托管进程中 | https://github.com/guibacellar/DNCI | https://theobservator.net | Security Researcher and Machine Learning Specialist, researching in fraud detection, cyber espionage and artificial intelligence areas. | Brazil | None | 11 | 0 | 10 | 20 | 0 | C#,Python,CSS | 74 | 30 | 1| 
 | jamesbarlow | New tool release! icmptunnel, a tool for Pivoting with Ping :D writeup: https://labs.mwrinfosecurity.com/tools/pivot-with-ping/ & code: | https://github.com/jamesbarlow/icmptunnel | https://www.jamesbarlow.io |  | None | None | 4 | 0 | 0 | 20 | 0 | C,Shell,Ruby,Vim | 198 | 73 | 1| 
 | jymcheong | AutoTTP - Python 实现的 Empire / Metasploit 等框架的 API 调用库,用于实现自动化攻击: | https://github.com/jymcheong/AutoTTP | https://jym.sg |  | Singapore | None | 243 | 0 | 26 | 20 | 21 | Python,C#,Shell,PowerShell,C++ | 0 | 0 | 1| 
+| m4yfly | 基于正则的VSCode代码审计插件 | https://github.com/m4yfly/vscode-maudit | https://aiyo.xyz |  | None | None | 29 | 0 | 398 | 20 | 39 | Python,Dockerfile,TypeScript,JavaScript | 43 | 14 | 1| 
 | malicialab | avclass - AVClass malware labeling tool | https://github.com/malicialab/avclass | None |  | Madrid, Spain | None | 3 | 0 | 1 | 20 | 0 | Python,C | 171 | 54 | 1| 
 | qingyu1229 | XSExtractor: 提取新闻、博客等长文本网页的正文工具 | https://github.com/qingyu1229/XSExtractor | http://liangqingyu.com |  | 广东-深圳 | midea | 82 | 0 | 76 | 20 | 2 | C,JavaScript,Java | 33 | 18 | 1| 
 | razmashat | multi_path-with-remount - iOS 11.3.X multi_path 漏洞利用: | https://github.com/razmashat/multi_path-with-remount | None |  | None | None | 15 | 0 | 2 | 20 | 1 | C#,C,Objective-C | 47 | 11 | 1| 
@@ -3151,6 +3152,7 @@
 | veramine | Mitre 组织创建了一个称作 ATT&CK 的项目,之前有过推送,这个项目整理了攻击和入侵者常用的一些技术和策略。看到这个项目之后,来自 Veramine 团队的研究员也创建了一个项目,用于总结和讨论如何检测和防御 ATT&CK 项目中涉及的攻击技术: https://attack.mitre.org/wiki/Main_Page | https://github.com/veramine/Detections/wiki | https://veramine.com |  | Seattle, Washington | Veramine | 4 | 0 | 32 | 19 | 1 | JavaScript,C++ | 96 | 12 | 1| 
 | 3xp0rt | Sorano恶意软件加载器源代码泄漏 | https://github.com/3xp0rt/SoranoBot | https://twitter.com/3xp0rtblog |  | Ukraine | None | 10 | 0 | 10 | 18 | 3 | C#,C,HTML | 10 | 10 | 1| 
 | Darkabode | zerokit - GAPZ Bootkit 源码 | https://github.com/Darkabode/zerokit | None |  | None | None | 6 | 0 | 0 | 18 | 0 | C,Java,C++ | 84 | 33 | 1| 
+| MisakiKata | Python 代码审计 | https://github.com/MisakiKata/python_code_audit | https://misakikata.github.io | 企业安全，Python，红队，渗透等 | Shanghai | None | 16 | 0 | 30 | 18 | 31 | Python,C,Shell,Java,HTML | 19 | 6 | 1| 
 | S3Jensen | The iOS Reverse Engineering Toolkit is toolkit designed to automate common tasks with iOS penetration testing. | https://github.com/S3Jensen/iRET | None |  | None | None | 1 | 0 | 2 | 18 | 5 | Shell | 214 | 76 | 1| 
 | arnaugamez | Introducing radare2 for humans,radare2 使用介绍: | https://github.com/arnaugamez/r2con2018-Introducing_r2_for_humans/blob/master/introducing-radare2-humans.pdf | https://github.com/HackingLliure |  | None | @HackingLliure | 14 | 0 | 21 | 18 | 3 | Python,Java | 16 | 1 | 1| 
 | artemdinaburg | optimizevm - Make Windows VMs Faster | https://github.com/artemdinaburg/optimizevm | None |  | None | None | 12 | 0 | 3 | 18 | 0 | Python,Ruby,Shell,JavaScript | 47 | 9 | 1| 
