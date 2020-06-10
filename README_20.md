@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 老马玩工控安全 | gh_e41f6c29c07a | 工控安全事件汇总与分析 | https://mp.weixin.qq.com/s/rG1oG8nz07DtRKTRaJjM7A | 1| 
 | 宽字节安全 | gh_2de2b9f7d076 | MSSQL注入 突破不能堆叠的限制执行系统命令 | https://mp.weixin.qq.com/s/CcgUb7mLlP2xjcrpy5VGbQ | 5| 
 | 绿盟科技研究通讯 | nsfocus_research | AISecOps：打造可信任安全智能 | https://mp.weixin.qq.com/s/Tz9V05CHqLg_Wt4yfJZffQ | 29| 
 | 长亭安全课堂 | chaitintech_release | Python代码保护 , pyc 混淆从入门到工具实现 | https://mp.weixin.qq.com/s/qvbwTAmDOvpHrAoNdQ7RRA | 1| 
@@ -2330,6 +2331,7 @@
 | jandre | safe-commit-hook - Git pre-commit hook,在提交前检测本次提交是否包含敏感文件: | https://github.com/jandre/safe-commit-hook | http://jenpire.com |  | Boston, MA | None | 90 | 0 | 255 | 83 | 12 | Go,Python,JavaScript,C++ | 0 | 0 | 1| 
 | nurupo | rootkit - 针对 Ubuntu 16.04 和 10.04 的 rootkit: | https://github.com/nurupo/rootkit | None | GPG: 0x6F5509774B1EF0C2 | nurupo at irc://chat.freenode.net | None | 64 | 0 | 301 | 83 | 13 | AutoIt,C,Assembly,C++ | 0 | 0 | 1| 
 | tazjin | Reverse-engineering WatchGuard Mobile VPN : https://www.tazj.in/en/1486830338 , watchblob : | https://github.com/tazjin/watchblob | https://github.com/google | computers | London, UK | @google | 139 | 0 | 135 | 83 | 51 | Go,Nix,Emacs,Rust | 0 | 0 | 1| 
+| Flangvik | BetterSafetyKatz: SafetyKatz dynamically fetches the lates... | https://github.com/Flangvik/BetterSafetyKatz | https://twitter.com/Flangvik | Nerd that spend way to much time at this stuff | Norway | None | 23 | 0 | 38 | 82 | 1 | C#,Python | 234 | 50 | 1| 
 | decoder-it | 通过指定父进程的方式获得 SYSTEM 权限: https://decoder.cloud/2018/02/02/getting-system/ GitHub: | https://github.com/decoder-it/psgetsystem | None |  | None | None | 10 | 0 | 1 | 82 | 0 | C#,PowerShell,C++ | 144 | 52 | 2| 
 | kokjo | UniversalROP - 基于 Z3 求解器和 Unicorn 模拟器写的一个 Gadgets 搜索工具: | https://github.com/kokjo/universalrop | http://ebfe.dk | Matematician. Hacker with the Pwnies student organization from DIKU. | Denmark | None | 31 | 0 | 13 | 82 | 1 | Python,C,CSS | 0 | 0 | 1| 
 | t94j0 | AIRMASTER: 红蓝对抗中对过期域名的利用 | https://github.com/t94j0/AIRMASTER | https://github.com/ireallydontcare | Wonderful, the Flatline said, I never did like to do anything simple when I could do it ass-backwards. ―Neuromancer | Charleston, SC | @ireallydontcare | 75 | 0 | 132 | 82 | 154 | Go,Python,Ruby,C# | 0 | 0 | 1| 
@@ -3082,6 +3084,7 @@
 | wylok | opsweb: 百合网运维综合管理平台（Python+Flask框架+cmdb+scheduler+salt) | https://github.com/wylok/opsweb | None |  | None | None | 1 | 0 | 3 | 22 | 0 | Python | 406 | 238 | 1| 
 | yardenshafir | KernelDataStructureFinder - 在内核 lookaside 链表中搜索数据结构的工具 | https://github.com/yardenshafir/KernelDataStructureFinder | None |  | None | None | 5 | 0 | 2 | 22 | 0 | C,C++ | 40 | 20 | 1| 
 | yoava333 | Bug on the Windshield - Fuzzing the Windows kernel，来自 OffensiveCon 2020 会议 | https://github.com/yoava333/presentations/blob/master/Fuzzing%20the%20Windows%20Kernel%20-%20OffensiveCon%202020.pdf | None |  | None | None | 15 | 0 | 16 | 22 | 0 | Go,Java,Rust | 17 | 1 | 1| 
+| Cl0udG0d | 碎遮SZhe_Scan Web漏洞扫描器 | https://github.com/Cl0udG0d/SZhe_Scan | None | 愿你在冷铁卷刃前，得以窥见天光 | 重庆 | CQUT | 10 | 0 | 5 | 21 | 2 | Python | 141 | 39 | 1| 
 | DavidJacobson | SafeText - 用于删除同形字符和零宽字符的脚本,以便安全地分发匿名来源文档: | https://github.com/DavidJacobson/SafeText | https://www.davidej.com | Undergraduate at Binghamton University, studying Computer Science. Primarily focused on Cyber Security & Forensics - but really anything that grabs my attention | NYC && Binghamton | None | 28 | 0 | 94 | 21 | 20 | Python,Shell | 0 | 0 | 1| 
 | Huseck | CTF线下赛思路总结手册 | https://github.com/Huseck/CTF/blob/master/CTF%E7%BA%BF%E4%B8%8B%E8%B5%9B%E6%80%9D%E8%B7%AF%E6%80%BB%E7%BB%93%E6%89%8B%E5%86%8C.pdf | http://www.xjseck.com |  | None | None | 17 | 0 | 4 | 21 | 4 | Python,HTML,Java,PHP | 17 | 6 | 2| 
 | JonGates | jon: LINUX系统攻防工具箱 | https://github.com/JonGates/jon | http://blog.jongates.cn | birl | None | 597.com | 10 | 0 | 118 | 21 | 7 | Go,C,JavaScript | 104 | 28 | 1| 
