@@ -2317,7 +2317,7 @@
 | Quitten | Autorize - BurpSuite 自动化认证测试插件: | https://github.com/Quitten/Autorize | None |  | None | None | 17 | 0 | 3 | 85 | 1 | Python,PHP | 242 | 88 | 1| 
 | d30sa1 | RootKits-List-Download : This is the list of all rootkits found so far on github and other sites : | https://github.com/d30sa1/RootKits-List-Download | None | Dont Ask.. | None | None | 15 | 0 | 32 | 85 | 3 | Python | 515 | 230 | 1| 
 | externalist | iOS 12.0.1 的 Webkit 远程代码执行漏洞利用 : 1) https://twitter.com/Yalujb/status/1058038352677625857 2) | https://github.com/externalist/exploit_playground/tree/master/jsc_prop_enum_uaf | None |  | None | None | 7 | 0 | 3 | 85 | 0 | Python,C,JavaScript | 556 | 98 | 3| 
-| omergunal | Predict attacker groups from the techniques and software u... | https://github.com/omergunal/Attacker-Group-Predictor | https://ogunal.com |  | Turkey | None | 18 | 0 | 52 | 85 | 17 | Python | 2000 | 229 | 3| 
+| omergunal | Predict attacker groups from the techniques and software used | https://github.com/omergunal/Attacker-Group-Predictor | https://ogunal.com |  | Turkey | None | 18 | 0 | 52 | 85 | 17 | Python | 2000 | 229 | 3| 
 | rand0m1ze | ezsploit - Metasploit 的 Linux 自动化脚本: | https://github.com/rand0m1ze/ezsploit | None |  | None | None | 9 | 0 | 3 | 85 | 2 | C#,Visual,Shell | 168 | 71 | 1| 
 | Ch1ngg | Cobalt Strike - 使用其他方式抓取密码/dump hash | https://github.com/Ch1ngg/AggressorScript-RunDumpHash | https://www.ch1ng.com/ |  | no | no | 15 | 0 | 145 | 84 | 18 | Python,C#,ASP,Java,PowerShell | 44 | 11 | 5| 
 | Green-m | Green-hat-suite: meterpreter免杀工具 | https://github.com/Green-m/green-hat-suite | https://green-m.github.io/ | AV Evasion, Reverse, Metasploiter https://keybase.io/green_m | None | None | 21 | 0 | 236 | 84 | 38 | Python,C,Shell,Ruby | 0 | 0 | 1| 
