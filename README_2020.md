@@ -14,6 +14,11 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| SecIN技术平台 | sec-in | 一种新型shellcode仿真框架分析 | https://mp.weixin.qq.com/s/9XHNMwIhmZLtOI385_4iaQ | 1| 
+| 大兵说安全 | dabingshuoanquan | 也来聊聊态势感知（上） | https://mp.weixin.qq.com/s/dCGMfKsFzYaZiffjkBBYpg | 3| 
+| 星阑科技 | StarCrossCN | Jsonp漏洞简析及自动化漏洞挖掘脚本编写 | https://mp.weixin.qq.com/s/SuEpF3RIZIv2CcIUok8SoQ | 3| 
+| EnjoyHacking | zom3y3 | 基于ClickHouse + Redash + Python去做安全数据分析 | https://mp.weixin.qq.com/s/O7IuAZV1XuogKwsoLhx4Qw | 1| 
+| 信息安全与通信保密杂志社 | cismag2013 | 全国23省市“新基建”网安任务重点梳理 | https://mp.weixin.qq.com/s/Isv3mrwIIEHZi6_gn7u-9g | 1| 
 | 中国白客联盟 | China_Baiker | 渗透中的内网渗透 | https://mp.weixin.qq.com/s/Mk5P_04SAitUjRztc9e-Rw | 2| 
 | 宽字节安全 | gh_2de2b9f7d076 | 冰蝎改造之适配基于tomcat Filter的无文件webshell | https://mp.weixin.qq.com/s/n1wrjep4FVtBkOxLouAYfQ | 6| 
 | SecWiki | SecWiki | [Sec-Trans-12] Github信息收集 | https://mp.weixin.qq.com/s/LnjKK1YJ7BvMXPuFbeq37w | 7| 
@@ -112,7 +117,6 @@
 | AI科技评论 | aitechtalk | 如何以初学者角度写好一篇国际学术论文？ | https://mp.weixin.qq.com/s/zwTlXBrZiC88y9F5DDU0_g | 1| 
 | 安全乐观主义 |  | SDL已死，应用安全路在何方？ | https://mp.weixin.qq.com/s/tYRiKiI7bjgyzQguMA1mrw | 1| 
 | PeckShield | PeckShield | 硬核：解密美国司法部起诉中国OTC承兑商洗钱案件 | https://mp.weixin.qq.com/s/wWrm3gwT72Pc8Nxw-1OiSw | 1| 
-| 星阑科技 | StarCrossCN | PHP 开源白盒审计工具初探（下） | https://mp.weixin.qq.com/s/6Y7anVvO9C5_nqdJihuFMw | 2| 
 | 道法术 |  | 2020 IoT Threat Report (简单解读版) | https://mp.weixin.qq.com/s/AqUyHGLzlmrBSKfk-IxW6g | 2| 
 | PaperWeekly | paperweekly | 文本分类和序列标注“深度”实践 | https://mp.weixin.qq.com/s/afO58DDDZGb5w_EEG8oW6Q | 1| 
 | 奇安信威胁情报中心 |  | 网空威胁情报（CTI）日益成熟：2020年SANSCTI调查结果解读 | https://mp.weixin.qq.com/s/ERakfCjEjW_UfViz9KoxFQ | 2| 
@@ -212,6 +216,7 @@
 | WalterInSH | 风险控制笔记，适用于互联网企业 | https://github.com/WalterInSH/risk-management-note | http://walterinsh.github.io |  | Po Shanghai | None | 30 | 0 | 678 | 134 | 86 | Java | 489 | 211 | 1| 
 | theLSA | emergency-response-checklist：应急响应指南 | https://github.com/theLSA/emergency-response-checklist | http://www.lsablog.com | I like network security,penestration and programming(python,c/c++,php,java,ect),welcome to communicate with me! | China | None | 38 | 0 | 36 | 133 | 35 | Python | 281 | 77 | 1| 
 | dayt0n | 64-bit iOS boot image patcher written in C | https://github.com/dayt0n/kairos | http://dayt0n.com | 19. iOS and OS X tinkerer. Computer Science at UAH. | United States | None | 37 | 0 | 43 | 132 | 47 | Python,C,Shell,C++ | 23 | 7 | 1| 
+| cbwang505 | Windows BITS 服务 RPC 接口任意文件移动提权漏洞 Exploit（CVE-2020-0787） | https://github.com/cbwang505/CVE-2020-0787-EXP-ALL-WINDOWS-VERSION | https://blog.csdn.net/oShuangYue12 | 始于C#，精于C&C++，醉心于Windows内核与Com组件安全研究 | China ZheJiang Ningbo | ZheJiang Guoli Security Technology | 41 | 0 | 20 | 130 | 5 | Python,C#,C,HTML,C++ | 121 | 30 | 2| 
 | gobysec | Goby新一代安全测试工具 | https://github.com/gobysec/Goby | http://gobies.org | Goby - Make Cybersecurity More Effective The new generation of network security technology | None | Goby | 7 | 0 | 1 | 128 | 0 | Python,Go | 73 | 9 | 1| 
 | guimaizi | testing_wave: 被动式web扫描器 | https://github.com/guimaizi/testing_wave | http://www.guimaizi.com/ |  | None | None | 5 | 0 | 31 | 125 | 2 | Python,HTML | 313 | 81 | 1| 
 | euphrat1ca | security_w1k1: 安全相关资源列表 | https://github.com/euphrat1ca/security_w1k1 | None | Thousands Times | polar | None | 79 | 0 | 498 | 120 | 40 | Python,Go,Ruby | 343 | 119 | 1| 
@@ -266,7 +271,6 @@
 | yusufqk | SystemToken: Steal privileged token to obtain SYSTEM shell | https://github.com/yusufqk/SystemToken | None | Twitter: @ZupOctopus | None | None | 5 | 0 | 6 | 26 | 37 | Python,C,JavaScript | 112 | 24 | 1| 
 | NomadCN112 | ATT&CK 框架图中文翻译版 | https://github.com/NomadCN112/Chinese-translation-ATT-CK-framework | None | 憨批独眼小子 (如果可以的话，谁愿意拿命去战斗呢) | None | None | 15 | 0 | 10 | 25 | 2 | Python,C# | 131 | 37 | 1| 
 | threat-hunting | Awesome Threat Detection and Hunting library | https://github.com/threat-hunting/awesome_Threat-Hunting | None |  | Sweden | None | 42 | 0 | 5 | 25 | 16 | JavaScript,Java | 228 | 46 | 1| 
-| cbwang505 | Windows CardSpace 服务符号链接导致任意文件替换漏洞 Exploit | https://github.com/cbwang505/CVE-2020-1066-EXP | https://blog.csdn.net/oShuangYue12 | 始于C#，精于C&C++，醉心于Windows内核与Com组件安全研究 | China ZheJiang Ningbo | ZheJiang Guoli Security Technology | 30 | 0 | 17 | 24 | 5 | C,C++ | 43 | 9 | 1| 
 | S1lkys | XAMPP 本地提权漏洞分析（CVE-2020-11107） | https://github.com/S1lkys/CVE-2020-11107/ | None |  | None | None | 27 | 0 | 1 | 23 | 0 | Python,Shell | 12 | 3 | 1| 
 | yardenshafir | KernelDataStructureFinder - 在内核 lookaside 链表中搜索数据结构的工具 | https://github.com/yardenshafir/KernelDataStructureFinder | None |  | None | None | 5 | 0 | 2 | 22 | 0 | C,C++ | 40 | 20 | 1| 
 | yoava333 | Bug on the Windshield - Fuzzing the Windows kernel，来自 OffensiveCon 2020 会议 | https://github.com/yoava333/presentations/blob/master/Fuzzing%20the%20Windows%20Kernel%20-%20OffensiveCon%202020.pdf | None |  | None | None | 15 | 0 | 16 | 22 | 0 | Go,Java,Rust | 17 | 1 | 1| 
@@ -287,6 +291,7 @@
 | onSec-fr | 基于 HTTP 协议的异步反弹 Shell | https://github.com/onSec-fr/Http-Asynchronous-Reverse-Shell | None | Cybersecurity Enthusiast. | None | None | 4 | 0 | 7 | 12 | 1 | C#,Shell,PowerShell | 78 | 20 | 1| 
 | renzu0 | nw-tips: Win内网_域控安全 | https://github.com/renzu0/nw-tips | None |  | None | None | 31 | 0 | 2 | 12 | 2 | Python,TypeScript | 3 | 2 | 1| 
 | aforensics | HiddenVM — Use any desktop OS without leaving a trace. | https://github.com/aforensics/HiddenVM | None |  | None | None | 1 | 0 | 0 | 9 | 0 | Shell | 836 | 31 | 1| 
+| whitehatnote | BlueShell: 红蓝对抗跨平台远控工具 | https://github.com/whitehatnote/BlueShell?from=timeline | None |  | None | None | 1 | 0 | 4 | 9 | 0 | Go | 71 | 10 | 1| 
 | HE-Wenjian | CVE-2019-14615 - Intel iGPU 信息泄露漏洞的分析文档和 Demo 代码 | https://github.com/HE-Wenjian/iGPU-Leak | None | PhD Candidate | Hong Kong | HKUST: Hong Kong Univ. of Science and Technology | 4 | 0 | 40 | 7 | 7 | C,HTML | 8 | 2 | 1| 
 | afilipovich | 用于 Google Safe Browsing API 交互的 Python 库 | https://github.com/afilipovich/gglsbl | None |  | Olomouc | None | 10 | 0 | 31 | 7 | 4 | Python,JavaScript | 66 | 30 | 1| 
 | chompie1337 | 有研究员公开了一个三星 S8 手机利用 CVE-2019-2215 漏洞 Bypass DAC + SELinux + Knox/RKP 保护机制的完整 Exploit | https://github.com/chompie1337/s8_2019_2215_poc | None |  | None | None | 1 | 0 | 1 | 7 | 0 | C | 28 | 10 | 1| 
@@ -299,7 +304,9 @@
 | reddelexc | Top disclosed reports from HackerOne | https://github.com/reddelexc/hackerone-reports | None |  | Russia | Kontur | 2 | 0 | 30 | 4 | 0 | Python | 89 | 21 | 1| 
 | weizman | WhatsApp Desktop 0.3.9309 之前版本 XSS 漏洞分析 | https://github.com/weizman/CVE-2019-18426 | http://www.weizmangal.com | javascript expert and web security enthusiastic :) | Israel | https://www.perimeterx.com | 8 | 0 | 3 | 4 | 1 | JavaScript | 5 | 1 | 1| 
 | zj1244 | beholder:一款监控端口变化的系统 | https://github.com/zj1244/beholder_scanner | None |  | <img onerror=/x/> | None | 10 | 0 | 60 | 3 | 3 | Python,C,HTML,Java | 6 | 5 | 1| 
+| 4x99 | 码小六 - GitHub 代码泄露监控系统 | https://github.com/4x99/code6 | None |  | None | None | 2 | 0 | 1 | 0 | 0 | PHP | 73 | 14 | 1| 
 | CERT-Polska | DRAKVUF - Hypervisor 层面的恶意软件自动化分析系统 | https://github.com/CERT-Polska/drakvuf-sandbox | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Java,Python,JavaScript,C++,PHP | 189 | 35 | 1| 
+| HexHive | FuzzGen: Automatic Fuzzer Generation | https://github.com/HexHive/FuzzGen | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Python,C++,TeX,HTML,Brainfuck | 0 | 0 | 1| 
 | LennyLeng | SOC_Sankey_Generator: 从SOC日志中进行数据ETL与数据可视化的工具 | https://github.com/LennyLeng/SOC_Sankey_Generator | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | Microsoft | ApplicationInspector - 微软开源的源码分析工具 | https://github.com/Microsoft/ApplicationInspector | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Jupyter,C#,JavaScript,C++,Python,Objective-C,Rich,CMake,PowerShell,CSS | 0 | 0 | 1| 
 | NVISO-BE | Windows OS Hardening with PowerShell DSC | https://github.com/NVISO-BE/posh-dsc-windowsserver-hardening | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Shell,JavaScript,PowerShell,C++ | 0 | 0 | 1| 
@@ -317,7 +324,7 @@
 | ffffffff0x | Dork-Admin: 盘点近年来的数据泄露、供应链污染事件 | https://github.com/ffffffff0x/Dork-Admin | None | None | None | None | 0 | 0 | 0 | 0 | 0 | HTML,Java | 0 | 0 | 1| 
 | fofapro | 基于 Docker 镜像的漏洞靶场平台 | https://github.com/fofapro/vulfocus | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Vue,Java,Python,Go,CSS | 169 | 19 | 1| 
 | github | Code QL library for Chrome | https://github.com/github/security-lab/tree/master/CodeQL_Queries/cpp/Chrome | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Python,JavaScript,Haskell,TypeScript,HTML,Go,Ruby | 23100 | 3500 | 2| 
-| google | Google 开发的对抗 USB Keystroke 攻击的工具的源码 | https://github.com/google/ukip | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Python,Kotlin,JavaScript,C++,TypeScript,Go,Rust | 0 | 0 | 2| 
+| google | FuzzBench: Fuzzer Benchmarking As a Service，用于评估 Fuzzer 性能和效率 | https://github.com/google/fuzzbench | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Jupyter,Python,JavaScript,C++,Dart,SystemVerilog,Go,Java,Rust | 0 | 0 | 3| 
 | googleprojectzero | ProjectZero 开源的一款动态插桩库，支持对进程内的指定模块进行插桩 | https://github.com/googleprojectzero/TinyInst | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,C#,C++,Python,HTML,Swift | 0 | 0 | 1| 
 | hardenedlinux | hardenedlinux 关于固件安全的一个开源项目 | https://github.com/hardenedlinux/firmware-anatomy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Assembly,Roff,Zeek,C++,Nix,HTML,Verilog,Go | 244 | 60 | 2| 
 | intel | 基于 Xen VMI API 和 AFL，Fuzz Linux 内核 | https://github.com/intel/kernel-fuzzer-for-xen-project | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Roff,Python,JavaScript,BitBake,C++,HTML,Go | 0 | 0 | 1| 
@@ -338,6 +345,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| AMD 新发布的 Mini-PC 的 UEFI 镜像的漏洞挖掘与分析 | http://link.medium.com/pazvQdeuo7| 
 | 红队：如何在C＃中嵌入Golang工具中的教程 | http://medium.com/@shantanukhande/red-team-how-to-embed-golang-tools-in-c-e269bf33876a| 
 | 关于进程令牌的原理以及利用方式-第一部分 | http://medium.com/@seemant.bisht24/understanding-and-abusing-process-tokens-part-i-ee51671f2cfa| 
 | Pwn2Own Schneider 路径穿越漏洞的分析 | http://medium.com/cognite/pwn2own-or-not2pwn-part-2-5-a-brief-tale-of-free-0days-e1df142eb815?source=friends_link&sk=42caecc5dc90e8ffc5c9aa394e41204d| 

@@ -14,6 +14,11 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| SecIN技术平台 | sec-in | 一种新型shellcode仿真框架分析 | https://mp.weixin.qq.com/s/9XHNMwIhmZLtOI385_4iaQ | 1| 
+| 大兵说安全 | dabingshuoanquan | 也来聊聊态势感知（上） | https://mp.weixin.qq.com/s/dCGMfKsFzYaZiffjkBBYpg | 4| 
+| 星阑科技 | StarCrossCN | Jsonp漏洞简析及自动化漏洞挖掘脚本编写 | https://mp.weixin.qq.com/s/SuEpF3RIZIv2CcIUok8SoQ | 3| 
+| EnjoyHacking | zom3y3 | 基于ClickHouse + Redash + Python去做安全数据分析 | https://mp.weixin.qq.com/s/O7IuAZV1XuogKwsoLhx4Qw | 1| 
+| 信息安全与通信保密杂志社 | cismag2013 | 全国23省市“新基建”网安任务重点梳理 | https://mp.weixin.qq.com/s/Isv3mrwIIEHZi6_gn7u-9g | 3| 
 | 中国白客联盟 | China_Baiker | 渗透中的内网渗透 | https://mp.weixin.qq.com/s/Mk5P_04SAitUjRztc9e-Rw | 2| 
 | 宽字节安全 | gh_2de2b9f7d076 | 冰蝎改造之适配基于tomcat Filter的无文件webshell | https://mp.weixin.qq.com/s/n1wrjep4FVtBkOxLouAYfQ | 6| 
 | SecWiki | SecWiki | [Sec-Trans-12] Github信息收集 | https://mp.weixin.qq.com/s/LnjKK1YJ7BvMXPuFbeq37w | 29| 
@@ -110,7 +115,6 @@
 | AI科技评论 | aitechtalk | 如何以初学者角度写好一篇国际学术论文？ | https://mp.weixin.qq.com/s/zwTlXBrZiC88y9F5DDU0_g | 3| 
 | 安全乐观主义 |  | SDL已死，应用安全路在何方？ | https://mp.weixin.qq.com/s/tYRiKiI7bjgyzQguMA1mrw | 14| 
 | PeckShield | PeckShield | 硬核：解密美国司法部起诉中国OTC承兑商洗钱案件 | https://mp.weixin.qq.com/s/wWrm3gwT72Pc8Nxw-1OiSw | 1| 
-| 星阑科技 | StarCrossCN | PHP 开源白盒审计工具初探（下） | https://mp.weixin.qq.com/s/6Y7anVvO9C5_nqdJihuFMw | 2| 
 | 道法术 |  | 2020 IoT Threat Report (简单解读版) | https://mp.weixin.qq.com/s/AqUyHGLzlmrBSKfk-IxW6g | 3| 
 | PaperWeekly | paperweekly | 文本分类和序列标注“深度”实践 | https://mp.weixin.qq.com/s/afO58DDDZGb5w_EEG8oW6Q | 11| 
 | 奇安信威胁情报中心 |  | 网空威胁情报（CTI）日益成熟：2020年SANSCTI调查结果解读 | https://mp.weixin.qq.com/s/ERakfCjEjW_UfViz9KoxFQ | 40| 
@@ -157,7 +161,6 @@
 | 阿里安全响应中心 | alisrc | 【走心分享】白帽成长建议 | https://mp.weixin.qq.com/s/ZXRI6KUtu6IwCYrjuy_3Tg | 5| 
 | Hacking就是好玩 |  | 对乌云漏洞库payload的整理以及Burp辅助插件 | https://mp.weixin.qq.com/s/9RHVsw-HtAfo1UuPAqXZEw | 1| 
 | TideSec安全团队 | TideSec | 远控免杀专题文章(2)-msfvenom隐藏的参数 | https://mp.weixin.qq.com/s/1r0iakLpnLrjCrOp2gT10w | 55| 
-| 信息安全与通信保密杂志社 | cismag2013 | 开源软件的网络安全问题 | https://mp.weixin.qq.com/s/TCb4kLH6N3JlCnyo6x2L1Q | 2| 
 | 嘶吼专业版 | Pro4hou | 直击北向峰会现场,“避危乘势，经略变局” | https://mp.weixin.qq.com/s/lRAyLyBJtquMrMTmTHnYUQ | 16| 
 | 国际安全智库 | guoji-anquanzhiku | “震网”十年谜底终浮水面, 伊朗核计划流产源于内鬼“间谍行动” | https://mp.weixin.qq.com/s/ORW8qWCpgQFJh8-bsaIg3w | 1| 
 | 学术plus | caeit-e | 人工智能在国防领域的七大应用 | https://mp.weixin.qq.com/s/v4NDZFo81kJKDlrROI5FqA | 4| 
@@ -597,7 +600,6 @@
 | 安在 | AnZer_SH | 【新锐】NewSky吴志雄：年过四十他选择在美国创业，让Facebook和中国电信成为他的客户 | https://mp.weixin.qq.com/s?__biz=MzIzMTAzNzUxMQ==&mid=2652874547&idx=1&sn=06f09402c3f2244d0201828bda19a047&scene=1&srcid=0722mfSqm | 52| 
 | 程序猿 | imkuqin | Web服务器在外网能裸奔多久？ | https://mp.weixin.qq.com/s?__biz=MjM5NzA1MTcyMA==&mid=2651161183&idx=3&sn=3552b18d23f8af71feee0fffe4305ce1 | 1| 
 | 网络法治国际中心 | icrime2015 | 网络犯罪工作坊｜公安部发布侵犯个人信息网络犯罪案例 | http://mp.weixin.qq.com/s?__biz=MzIyNjE0NTQ2OA==&mid=2651229147&idx=1&sn=272dc975d41cddc3db5797434e6647e4 | 4| 
-| 大兵说安全 | dabingshuoanquan | 勒索程序演化与发展趋势（14~16年） | https://mp.weixin.qq.com/s?__biz=MzI2MzM0NjcxNw==&mid=2247483786&idx=1&sn=4d3aff50c5722a887c4d111804f6a562 | 1| 
 | 安天 | Antiylab | 白象的舞步——来自南亚次大陆的网络攻击 | http://mp.weixin.qq.com/s?__biz=MjM5MTA3Nzk4MQ==&mid=2650169803&idx=1&sn=b329ecfb9f42c67abaa95e6ee60329aa&scene=23 | 15| 
 | 0c0c0f | DebugPwn | Build Your SSRF Exploit Framework | http://mp.weixin.qq.com/s?__biz=MzAwMzI0MTMwOQ==&mid=2650173687&idx=1&sn=81752cdb58fb8aa3608f6079116ad880 | 1| 
 | RoarTalk | roartalk | 用历史和数据来聊聊勒索软件 | http://mp.weixin.qq.com/s?__biz=MzAxNTk5ODcxOQ==&mid=2247483674&idx=1&sn=1960f6692efbce41dc581c811d433f71 | 3| 
@@ -2043,6 +2045,7 @@
 | ivanfratric | Ever wanted to fuzz Windows binaries with AFL? Now you can. | https://github.com/ivanfratric/winafl | None |  | None | None | 5 | 0 | 2 | 131 | 0 | Python,C,C++ | 282 | 63 | 1| 
 | platomav | BIOSUtilities:用于修改和研究BIOS的各种工具 : | https://github.com/platomav/BIOSUtilities | None | Hardware & firmware hobbyist, developer of ME Analyzer & MC Extractor, admin of win-raid.com | None | None | 5 | 0 | 39 | 131 | 5 | Python | 0 | 0 | 2| 
 | rezasp | joomscan - OWASP Joomla 漏洞扫描器: | https://github.com/rezasp/joomscan | https://github.com/OWASP | @OWASP Leader | Iran | @OWASP | 9 | 0 | 18 | 131 | 5 | Python,Perl | 0 | 0 | 1| 
+| cbwang505 | Windows BITS 服务 RPC 接口任意文件移动提权漏洞 Exploit（CVE-2020-0787） | https://github.com/cbwang505/CVE-2020-0787-EXP-ALL-WINDOWS-VERSION | https://blog.csdn.net/oShuangYue12 | 始于C#，精于C&C++，醉心于Windows内核与Com组件安全研究 | China ZheJiang Ningbo | ZheJiang Guoli Security Technology | 41 | 0 | 20 | 130 | 5 | Python,C#,C,HTML,C++ | 121 | 30 | 2| 
 | kkirsche | Weblogic wls-wsat 组件反序列化漏洞(CVE-2017-10271)的利用脚本: | https://github.com/kkirsche/CVE-2017-10271 | https://deceiveyour.team | Security Architect, Penetration Tester, and Exploit Developer #OSCP, #OSWP, #OSCE | ::1 | Verizon | 388 | 0 | 390 | 130 | 32 | Go,Python,JavaScript,Ruby | 0 | 0 | 1| 
 | oddcod3 | Phantom-Evasion: Python AV evasion tool capable to generate FUD executable | https://github.com/oddcod3/Phantom-Evasion | None | Like Jon Snow I know nothing | Arezzo IT | None | 1 | 0 | 386 | 130 | 174 | Python | 0 | 0 | 1| 
 | torque59 | Nosql-Exploitation-Framework - 基于 Python 编写的 NoSQL 扫描与利用框架: | https://github.com/torque59/Nosql-Exploitation-Framework | https://github.com/opensecurity | Information Security Researcher , Ramblings @ https://francisalexander.in | India | @opensecurity | 64 | 0 | 233 | 130 | 50 | Python,HTML,HCL | 0 | 0 | 2| 
@@ -3031,7 +3034,6 @@
 | DanyL | 作者公开了iOS12.3中修复的漏洞CVE-2019-8637和CVE-2019-8593的exploits | https://github.com/DanyL/lockdownd_playground | None |  | None | None | 16 | 0 | 15 | 24 | 7 | Tcl,C,Shell,Ruby,Objective-C | 40 | 9 | 1| 
 | aim4r | VolDiff: Malware Memory Footprint Analysis based on Volatility | https://github.com/aim4r/VolDiff | https://twitter.com/aim4r |  | None | None | 1 | 0 | 58 | 24 | 0 | Python | 156 | 36 | 1| 
 | bayotop | sink-logger - BurpSuite 扩展,用于记录所有传入 Javascript 接收器的数据: | https://github.com/bayotop/sink-logger | https://twitter.com/_bayotop |  | None | None | 22 | 0 | 18 | 24 | 1 | Python,Go,Shell | 148 | 15 | 1| 
-| cbwang505 | Windows CardSpace 服务符号链接导致任意文件替换漏洞 Exploit | https://github.com/cbwang505/CVE-2020-1066-EXP | https://blog.csdn.net/oShuangYue12 | 始于C#，精于C&C++，醉心于Windows内核与Com组件安全研究 | China ZheJiang Ningbo | ZheJiang Guoli Security Technology | 30 | 0 | 17 | 24 | 5 | C,C++ | 43 | 9 | 1| 
 | ch33kyf3ll0w | New Tool: Invoke-InstallUtilNSExec - InstallUtil + .NET 4.5 to load executables from network share. | https://github.com/ch33kyf3ll0w/Invoke-InstallUtilNSExec.ps1/blob/master/Invoke-InstallUtilNSExec.ps1 | https://twitter.com/ch33kyf3ll0w | OSCE/OSCP/OSWP | None | None | 20 | 0 | 3 | 24 | 0 | Ruby,PowerShell | 13 | 8 | 1| 
 | chen-charles | PEDetour is a new tool using @capstone_engine &amp; @keystone_engine to inject code to hook export functions of PE file | https://github.com/chen-charles/PEDetour | None | uWaterloo CS | None | None | 13 | 0 | 45 | 24 | 5 | Python,C,C++ | 0 | 0 | 1| 
 | cleverbao | WebRange: 一个Web版的docker管理程序 | https://github.com/cleverbao/WebRange | http://cleverbao.github.io |  | None | None | 6 | 0 | 427 | 24 | 98 | Python,HTML,JavaScript,PHP,CSS | 79 | 16 | 1| 
@@ -3364,6 +3366,7 @@
 | stoyan-shopov | Troll - 针对 ARM Cortex-M 系统的 C 语言源码级调试器: | https://github.com/stoyan-shopov/troll#testing-the-troll | None |  | None | None | 42 | 0 | 16 | 9 | 1 | C,C++ | 0 | 0 | 1| 
 | szimeus | evalyzer - 利用 WinDBG 来调试 JavaScript 的脚本: | https://github.com/szimeus/evalyzer | None |  | None | None | 5 | 0 | 0 | 9 | 0 | HTML,Java,CSS | 76 | 31 | 1| 
 | tch1001 | A target specific wordlist generating tool for social engineers and security res | https://github.com/tch1001/pwdlogy | None |  | None | None | 15 | 0 | 1 | 9 | 3 | Python,HTML,Jupyter,JavaScript | 34 | 23 | 1| 
+| whitehatnote | BlueShell: 红蓝对抗跨平台远控工具 | https://github.com/whitehatnote/BlueShell?from=timeline | None |  | None | None | 1 | 0 | 4 | 9 | 0 | Go | 71 | 10 | 1| 
 | Magpol | 利用 FRiDA 爆破 Samsung S7 Edge FDE 全盘加密 | https://github.com/Magpol/fridafde | https://twitter.com/may_pol17 | All things Android - Forensics | None | None | 4 | 0 | 1 | 8 | 1 | Python,Shell | 21 | 3 | 1| 
 | Mind0xP | Frida-Python-Binding - 用于协助 Android 自动化逆向分析的 Frida Python 绑定脚本: | https://github.com/Mind0xP/Frida-Python-Binding | None |  | None | None | 4 | 0 | 14 | 8 | 2 | Python | 87 | 15 | 1| 
 | OYE93 | Chinese-NLP-Corpus: Collections of Chinese NLP corpus | https://github.com/OYE93/Chinese-NLP-Corpus | https://oyeblog.com/ |  | None | None | 16 | 0 | 2 | 8 | 0 | Python,HTML,Dockerfile,CSS | 110 | 18 | 1| 
@@ -3531,6 +3534,7 @@
 | 2trill2spill | NextGen is a new Capstone-dependent genetic fuzzer for Unix file, syscall & network! | https://github.com/2trill2spill/nextgen | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | 360PegasusTeam | WiFi-Miner-Detector - 之前有报道 星巴克 WiFi 被用来劫持用户笔记本挖矿,这个工具用于检测这种恶意 WiFi: | https://github.com/360PegasusTeam/WiFi-Miner-Detector | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,C++ | 0 | 0 | 1| 
 | 4ido10n | latest Burpsuite Pro v1.7.03 introduced and cracked version download | https://github.com/4ido10n/latest-Burpsuite-Pro-v1.7.03-cracked-version | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| 4x99 | 码小六 - GitHub 代码泄露监控系统 | https://github.com/4x99/code6 | None |  | None | None | 2 | 0 | 1 | 0 | 0 | PHP | 73 | 14 | 1| 
 | AdamGreenhill | VirusShare-Search : Downloads VirusShare hashes and searches them for specified MD5 hashes : | https://github.com/AdamGreenhill/VirusShare-Search | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | AndroidHooker | hooker - Android 应用程序动态分析的工具: | https://github.com/AndroidHooker/hooker | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | AndroidVTS | Android漏洞测试套件 | https://github.com/AndroidVTS/android-vts | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java | 0 | 0 | 1| 
@@ -3568,6 +3572,7 @@
 | Grey-Noise-Intelligence | Grey-Noise-Intelligence: GreyNoise威胁情报接口使用说明 | https://github.com/Grey-Noise-Intelligence/api.greynoise.io | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | HPE-AppliedSecurityResearch | Maltese (Malware Traffic Emulating Software) | https://github.com/HPE-AppliedSecurityResearch/maltese | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | Hadesy2k | sqliv - 大范围 SQL 注入漏洞扫描器: | https://github.com/Hadesy2k/sqliv | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| HexHive | FuzzGen: Automatic Fuzzer Generation | https://github.com/HexHive/FuzzGen | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Python,C++,TeX,HTML,Brainfuck | 0 | 0 | 1| 
 | ICSrepo | TRISIS/TRITON/HATMAN 恶意软件样本的原始和反编译样本: | https://github.com/ICSrepo/TRISIS-TRITON-HATMAN | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | ICT-BDA | EasyML: 中科院计算所开源的交互式图形化机器学习平台 | https://github.com/ICT-BDA/EasyML | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Java,C++ | 0 | 0 | 1| 
 | IDAConnect | IDAConnect - 用于 IDA Pro 和 Hex-Rays 的逆向工程协同插件: | https://github.com/IDAConnect/IDAConnect | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -3676,7 +3681,7 @@
 | ganliuzhuo | 作者在Sebug提交的漏洞详情和POC | https://github.com/ganliuzhuo/Sebug | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | gasgas4 | APT_CyberCriminal_Campagin | https://github.com/gasgas4/APT_CyberCriminal_Campagin | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | github | Code QL library for Chrome | https://github.com/github/security-lab/tree/master/CodeQL_Queries/cpp/Chrome | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Python,JavaScript,Haskell,TypeScript,HTML,Go,Ruby | 23100 | 3500 | 2| 
-| google | Google 开发的对抗 USB Keystroke 攻击的工具的源码 | https://github.com/google/ukip | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Python,Kotlin,JavaScript,C++,TypeScript,Go,Rust | 0 | 0 | 4| 
+| google | FuzzBench: Fuzzer Benchmarking As a Service，用于评估 Fuzzer 性能和效率 | https://github.com/google/fuzzbench | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Jupyter,Python,JavaScript,C++,Dart,SystemVerilog,Go,Java,Rust | 0 | 0 | 5| 
 | googleprojectzero | ProjectZero 开源的一款动态插桩库，支持对进程内的指定模块进行插桩 | https://github.com/googleprojectzero/TinyInst | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,C#,C++,Python,HTML,Swift | 0 | 0 | 3| 
 | goretk | GoRE - 用于分析 Go 二进制文件的工具库 | https://github.com/goretk/gore | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Go,Shell,HTML | 0 | 0 | 1| 
 | guardicore | labs_campaigns 攻击团队IOC信息 | https://github.com/guardicore/labs_campaigns | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,CoffeeScript,C# | 0 | 0 | 1| 
@@ -3806,6 +3811,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| AMD 新发布的 Mini-PC 的 UEFI 镜像的漏洞挖掘与分析 | http://link.medium.com/pazvQdeuo7| 
 | 红队：如何在C＃中嵌入Golang工具中的教程 | http://medium.com/@shantanukhande/red-team-how-to-embed-golang-tools-in-c-e269bf33876a| 
 | 关于进程令牌的原理以及利用方式-第一部分 | http://medium.com/@seemant.bisht24/understanding-and-abusing-process-tokens-part-i-ee51671f2cfa| 
 | Pwn2Own Schneider 路径穿越漏洞的分析 | http://medium.com/cognite/pwn2own-or-not2pwn-part-2-5-a-brief-tale-of-free-0days-e1df142eb815?source=friends_link&sk=42caecc5dc90e8ffc5c9aa394e41204d| 

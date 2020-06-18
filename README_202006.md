@@ -14,6 +14,11 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| SecIN技术平台 | sec-in | 一种新型shellcode仿真框架分析 | https://mp.weixin.qq.com/s/9XHNMwIhmZLtOI385_4iaQ | 1| 
+| 大兵说安全 | dabingshuoanquan | 也来聊聊态势感知（上） | https://mp.weixin.qq.com/s/dCGMfKsFzYaZiffjkBBYpg | 3| 
+| 星阑科技 | StarCrossCN | Jsonp漏洞简析及自动化漏洞挖掘脚本编写 | https://mp.weixin.qq.com/s/SuEpF3RIZIv2CcIUok8SoQ | 1| 
+| EnjoyHacking | zom3y3 | 基于ClickHouse + Redash + Python去做安全数据分析 | https://mp.weixin.qq.com/s/O7IuAZV1XuogKwsoLhx4Qw | 1| 
+| 信息安全与通信保密杂志社 | cismag2013 | 全国23省市“新基建”网安任务重点梳理 | https://mp.weixin.qq.com/s/Isv3mrwIIEHZi6_gn7u-9g | 1| 
 | 中国白客联盟 | China_Baiker | 渗透中的内网渗透 | https://mp.weixin.qq.com/s/Mk5P_04SAitUjRztc9e-Rw | 1| 
 | 宽字节安全 | gh_2de2b9f7d076 | 冰蝎改造之适配基于tomcat Filter的无文件webshell | https://mp.weixin.qq.com/s/n1wrjep4FVtBkOxLouAYfQ | 3| 
 | SecWiki | SecWiki | [Sec-Trans-12] Github信息收集 | https://mp.weixin.qq.com/s/LnjKK1YJ7BvMXPuFbeq37w | 1| 
@@ -46,6 +51,7 @@
 | jvoisin | php-malware-finder – Detect Potentially Malicious PHP | https://github.com/jvoisin/php-malware-finder | https://dustri.org |  | None | None | 19 | 0 | 158 | 226 | 8 | C,PHP,C++ | 12600 | 2200 | 1| 
 | guhe120 | guhe 对 Windows RPC Marshalling 溢出漏洞（CVE-2020-1281）的分析 | https://github.com/guhe120/Windows-EoP/blob/master/CVE-2020-1281/CVE-2020-1281.pdf | None |  | None | None | 8 | 0 | 0 | 225 | 0 | Python,HTML,Java | 80 | 11 | 1| 
 | ioncodes | 在 VS Code 中调试 IDA idapython 脚本的插件 | https://github.com/ioncodes/idacode | https://twitter.com/layle_ctf | Hacker in the streets, reverse engineer in the sheets. Thats how it works, right? | Here | None | 264 | 0 | 1800 | 203 | 33 | C#,Python,Ruby | 209 | 29 | 1| 
+| cbwang505 | Windows BITS 服务 RPC 接口任意文件移动提权漏洞 Exploit（CVE-2020-0787） | https://github.com/cbwang505/CVE-2020-0787-EXP-ALL-WINDOWS-VERSION | https://blog.csdn.net/oShuangYue12 | 始于C#，精于C&C++，醉心于Windows内核与Com组件安全研究 | China ZheJiang Ningbo | ZheJiang Guoli Security Technology | 41 | 0 | 20 | 130 | 5 | Python,C#,C,HTML,C++ | 121 | 30 | 2| 
 | dwisiswant0 | 一款可以用于检查IP地址是否属于Cloudflare | https://github.com/dwisiswant0/cf-check// | https://github.com/kitabisa | Security Engineer | id_ID | @kitabisa | 165 | 0 | 473 | 119 | 12 | Go,Python,Shell,PHP | 105 | 26 | 1| 
 | omergunal | Predict attacker groups from the techniques and software used | https://github.com/omergunal/Attacker-Group-Predictor | https://ogunal.com |  | Turkey | None | 18 | 0 | 52 | 85 | 17 | Python | 2000 | 229 | 1| 
 | Flangvik | BetterSafetyKatz: SafetyKatz dynamically fetches the lates... | https://github.com/Flangvik/BetterSafetyKatz | https://twitter.com/Flangvik | Nerd that spend way to much time at this stuff | Norway | None | 23 | 0 | 38 | 82 | 1 | C#,Python | 234 | 50 | 1| 
@@ -55,13 +61,16 @@
 | ph4ntonn | Impost3r -- 悄悄偷走sudo密码的小偷 | https://github.com/ph4ntonn/Impost3r | None | The wheel turns,nothing is ever new | 0x7F000001 | Unknown | 35 | 0 | 38 | 57 | 21 | C,Shell,Python,JavaScript,HTML,Go | 226 | 40 | 1| 
 | cedowens | macOS 平台一款类似 Seatbelt 的工具，可以用于渗透阶段提取系统的各类信息 | https://github.com/cedowens/SwiftBelt | https://medium.com/red-teaming-with-a-blue-team-mentaility | offensive security engineer | None | None | 27 | 0 | 0 | 39 | 3 | Python,Swift | 52 | 12 | 1| 
 | NomadCN112 | ATT&CK 框架图中文翻译版 | https://github.com/NomadCN112/Chinese-translation-ATT-CK-framework | None | 憨批独眼小子 (如果可以的话，谁愿意拿命去战斗呢) | None | None | 15 | 0 | 10 | 25 | 2 | Python,C# | 131 | 37 | 1| 
-| cbwang505 | Windows CardSpace 服务符号链接导致任意文件替换漏洞 Exploit | https://github.com/cbwang505/CVE-2020-1066-EXP | https://blog.csdn.net/oShuangYue12 | 始于C#，精于C&C++，醉心于Windows内核与Com组件安全研究 | China ZheJiang Ningbo | ZheJiang Guoli Security Technology | 30 | 0 | 17 | 24 | 5 | C,C++ | 43 | 9 | 1| 
 | Cl0udG0d | 碎遮SZhe_Scan Web漏洞扫描器 | https://github.com/Cl0udG0d/SZhe_Scan | None | 愿你在冷铁卷刃前，得以窥见天光 | 重庆 | CQUT | 10 | 0 | 5 | 21 | 2 | Python | 141 | 39 | 1| 
 | m4yfly | 基于正则的VSCode代码审计插件 | https://github.com/m4yfly/vscode-maudit | https://aiyo.xyz |  | None | None | 29 | 0 | 398 | 20 | 39 | Python,Dockerfile,TypeScript,JavaScript | 43 | 14 | 1| 
 | 3xp0rt | Sorano恶意软件加载器源代码泄漏 | https://github.com/3xp0rt/SoranoBot | https://twitter.com/3xp0rtblog |  | Ukraine | None | 10 | 0 | 10 | 18 | 3 | C#,C,HTML | 10 | 10 | 1| 
 | MisakiKata | Python 代码审计 | https://github.com/MisakiKata/python_code_audit | https://misakikata.github.io | 企业安全，Python，红队，渗透等 | Shanghai | None | 16 | 0 | 30 | 18 | 31 | Python,C,Shell,Java,HTML | 19 | 6 | 1| 
+| whitehatnote | BlueShell: 红蓝对抗跨平台远控工具 | https://github.com/whitehatnote/BlueShell?from=timeline | None |  | None | None | 1 | 0 | 4 | 9 | 0 | Go | 71 | 10 | 1| 
+| 4x99 | 码小六 - GitHub 代码泄露监控系统 | https://github.com/4x99/code6 | None |  | None | None | 2 | 0 | 1 | 0 | 0 | PHP | 73 | 14 | 1| 
+| HexHive | FuzzGen: Automatic Fuzzer Generation | https://github.com/HexHive/FuzzGen | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Python,C++,TeX,HTML,Brainfuck | 0 | 0 | 1| 
 | NiuTrans | 机器翻译：统计建模与深度学习方法 | https://github.com/NiuTrans/MTBook | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TeX,C++ | 1500 | 565 | 1| 
 | airbus-cert | 一款用于处理 Event Tracing for Windows（ETW）的IDA插件 | https://github.com/airbus-cert/etwbreaker | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Lua,Python,C#,Go,PHP | 104 | 9 | 1| 
+| google | FuzzBench: Fuzzer Benchmarking As a Service，用于评估 Fuzzer 性能和效率 | https://github.com/google/fuzzbench | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Jupyter,Python,JavaScript,C++,Dart,SystemVerilog,Go,Java,Rust | 0 | 0 | 1| 
 | googleprojectzero | ProjectZero 开源的一款动态插桩库，支持对进程内的指定模块进行插桩 | https://github.com/googleprojectzero/TinyInst | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,C#,C++,Python,HTML,Swift | 0 | 0 | 1| 
 | joinsec | BadDNS: 使用公共 DNS 服务器进行多层子域名探测的极速工具 | https://github.com/joinsec/BadDNS | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,Rust | 0 | 0 | 1| 
 | synacktiv | 如何利用Windows内核堆栈溢出漏洞进行特权提升(Poc) | https://github.com/synacktiv/Windows-kernel-SegmentHeap-Aligned-Chunk-Confusion | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,PHP,Rust | 0 | 0 | 1| 
@@ -70,6 +79,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| AMD 新发布的 Mini-PC 的 UEFI 镜像的漏洞挖掘与分析 | http://link.medium.com/pazvQdeuo7| 
 | 红队：如何在C＃中嵌入Golang工具中的教程 | http://medium.com/@shantanukhande/red-team-how-to-embed-golang-tools-in-c-e269bf33876a| 
 | 关于进程令牌的原理以及利用方式-第一部分 | http://medium.com/@seemant.bisht24/understanding-and-abusing-process-tokens-part-i-ee51671f2cfa| 
 | Pwn2Own Schneider 路径穿越漏洞的分析 | http://medium.com/cognite/pwn2own-or-not2pwn-part-2-5-a-brief-tale-of-free-0days-e1df142eb815?source=friends_link&sk=42caecc5dc90e8ffc5c9aa394e41204d| 
