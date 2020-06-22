@@ -14,19 +14,25 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 安全学术圈 | secquan | AsiaCCS 2020 论文录用列表 | https://mp.weixin.qq.com/s/uCyikieFzmbF0gAFTeHSfA | 48| 
+| 99所 | gh_4b0bd9f08b03 | 【视频】利用Twitter如何挖掘有价值的开源信息？——工具篇 | https://mp.weixin.qq.com/s/ukP2ASwXA8HDuDNYGHC-Sw | 1| 
+| Bypass | Bypass-- | 甲方安全开源项目清单 | https://mp.weixin.qq.com/s/FS8JVnZqqXw1M9czyeF8dw | 49| 
+| MS509 | CSRC-MS509 | Subrion CMS 代码审计 | https://mp.weixin.qq.com/s/HX12VGVtJo3zc7XI8OVwpg | 1| 
+| 互联网安全内参 | anquanneican | 深度解读：Verizon 2020年数据泄露报告 | https://mp.weixin.qq.com/s/sDu5eydjesAwsI2v8dEj5Q | 6| 
+| 全频带阻塞干扰 | RFJamming | 一线执法必备的自我隐私保护能力 | https://mp.weixin.qq.com/s/h6jE7RD6pzaPINxiRoG0BQ | 12| 
+| 安全威胁情报 | Threatbook | 钓鱼、投递木马……一文扒尽“白象三代”APT组织攻击活动！ | https://mp.weixin.qq.com/s/ve2L6_v0EvJZwLSyWijvUw | 5| 
+| 宽字节安全 | gh_2de2b9f7d076 | JBOSS 无文件webshell的技术研究 | https://mp.weixin.qq.com/s/_SQS9B7tkL1H5fMIgPTOKw | 7| 
 | SecIN技术平台 | sec-in | 一种新型shellcode仿真框架分析 | https://mp.weixin.qq.com/s/9XHNMwIhmZLtOI385_4iaQ | 1| 
 | 大兵说安全 | dabingshuoanquan | 也来聊聊态势感知（上） | https://mp.weixin.qq.com/s/dCGMfKsFzYaZiffjkBBYpg | 4| 
 | 星阑科技 | StarCrossCN | Jsonp漏洞简析及自动化漏洞挖掘脚本编写 | https://mp.weixin.qq.com/s/SuEpF3RIZIv2CcIUok8SoQ | 3| 
 | EnjoyHacking | zom3y3 | 基于ClickHouse + Redash + Python去做安全数据分析 | https://mp.weixin.qq.com/s/O7IuAZV1XuogKwsoLhx4Qw | 1| 
 | 信息安全与通信保密杂志社 | cismag2013 | 全国23省市“新基建”网安任务重点梳理 | https://mp.weixin.qq.com/s/Isv3mrwIIEHZi6_gn7u-9g | 3| 
 | 中国白客联盟 | China_Baiker | 渗透中的内网渗透 | https://mp.weixin.qq.com/s/Mk5P_04SAitUjRztc9e-Rw | 2| 
-| 宽字节安全 | gh_2de2b9f7d076 | 冰蝎改造之适配基于tomcat Filter的无文件webshell | https://mp.weixin.qq.com/s/n1wrjep4FVtBkOxLouAYfQ | 6| 
 | SecWiki | SecWiki | [Sec-Trans-12] Github信息收集 | https://mp.weixin.qq.com/s/LnjKK1YJ7BvMXPuFbeq37w | 29| 
 | 老马玩工控安全 | gh_e41f6c29c07a | 工控安全事件汇总与分析 | https://mp.weixin.qq.com/s/rG1oG8nz07DtRKTRaJjM7A | 1| 
 | 绿盟科技研究通讯 | nsfocus_research | AISecOps：打造可信任安全智能 | https://mp.weixin.qq.com/s/Tz9V05CHqLg_Wt4yfJZffQ | 29| 
 | 长亭安全课堂 | chaitintech_release | Python代码保护 , pyc 混淆从入门到工具实现 | https://mp.weixin.qq.com/s/qvbwTAmDOvpHrAoNdQ7RRA | 1| 
 | 锦行信息安全 | jeeseensec | 任天堂再遭黑手，用户隐私到底该如何保护？ | https://mp.weixin.qq.com/s/O7N2OWtSQUKY-6d5H6e7lg | 4| 
-| 安全学术圈 | secquan | FUSE: Finding File Upload Bugs via Penetration Testing | https://mp.weixin.qq.com/s/aLlIZSM8SpZResIdxf3C1A | 47| 
 | 安恒信息 | DBAPP2013 | 红蓝对抗——「CobaltStrike」应用攻击手段实例分析 | https://mp.weixin.qq.com/s/9_0pLbmWqUbJ6aGEPjxvYA | 3| 
 | 安恒信息安全研究院 | gh_684e6ad8d12c | StarCTF 2019 v8 off-by-one漏洞学习笔记 | https://mp.weixin.qq.com/s/z6PLgxbt0yniwiuRY2bUWw | 3| 
 | 看雪学院 | ikanxue | 新手向总结：IDA动态调试So的一些坑 | https://mp.weixin.qq.com/s/91r1cKyL_1UR79OP2XubqA | 40| 
@@ -43,7 +49,6 @@
 | 腾讯安全威胁情报中心 | gh_05a6c5ec3f78 | 腾讯安全威胁情报中心“明厨亮灶”工程：基于域名图谱嵌入的恶意域名挖掘 | https://mp.weixin.qq.com/s/LeK6QYHwd3k3UlyAuSkcZA | 1| 
 | 专注安管平台 | gh_48603b9bb05a | SANS：2020年自动化与集成调查报告 | https://mp.weixin.qq.com/s/NZNK95gtUAFqMsxkgknTCQ | 5| 
 | 数世咨询 | gh_b3fb3a62dcc4 | 2020年度网络安全十大潜力技术及五大市场前瞻 | https://mp.weixin.qq.com/s/nDf1ZGvdWnsAt2lGRcF5wg | 4| 
-| Bypass | Bypass-- | 邮件伪造之SPF绕过的5种思路 | https://mp.weixin.qq.com/s/dqntjRLgcOD3D2bi1oDFAw | 48| 
 | CNCERT风险评估 | cncertfengxianpinggu | 2019年开源软件风险研究报告 | https://mp.weixin.qq.com/s/VgoS1EftRFcYv9n2PJHoRg | 2| 
 | 全知科技 | gh_0bd30f1b0430 | 再谈作为生产要素的数据安全 | https://mp.weixin.qq.com/s/hkv4y7pQRBjLCgm3StKVSQ | 2| 
 | 君哥的体历 | jungedetili | 郭威：金融企业重保一线经验分享 | https://mp.weixin.qq.com/s/2MNCTggf5bWT8NAYGyIVIQ | 41| 
@@ -53,7 +58,6 @@
 | 中通安全应急响应中心 | ZTO_SRC | 中通RASP安全防护方案初探 | https://mp.weixin.qq.com/s/33CtW9ErXCDWoCJRFzlVPQ | 7| 
 | 小强说 | xiaoqiangcall | 从STIX2.1看安全智能归来 | https://mp.weixin.qq.com/s/nYV3S2oYNNnKcpvNAG751w | 5| 
 | 情报分析师 | qingbaofenxishi | 大数据环境下安全情报融合体系构建 | https://mp.weixin.qq.com/s/bjqv8zlSEl7waKHxBNIwyA | 4| 
-| 互联网安全内参 | anquanneican | 新一代SIEM与SOAR的技术对比 | https://mp.weixin.qq.com/s/mfNRbDXIg5_1jSKHbceHCA | 5| 
 | 虎符智库 |  | 各国竞相布局 卫星互联网重新定义网络战 | https://mp.weixin.qq.com/s/mj4BVfI-j3yp-xaSZeEW_A | 2| 
 | Tide安全团队 | TideSec | 资产管理与威胁监测平台Tide-Mars开源了！ | https://mp.weixin.qq.com/s/-7V14Rpu2KU5HUsa0p025g | 38| 
 | 天融信阿尔法实验室 |  | JAVA RMI反序列化知识详解 | https://mp.weixin.qq.com/s/bC71HoEtDAKKbHJvStu9qA | 8| 
@@ -361,7 +365,6 @@
 | 安惞杂谈 | anxin_zatan |  | https://mp.weixin.qq.com/s/-gHMhj1Qdl1N5rCne61m4Q | 1| 
 | APT观察 | APT_REVIEW |  | https://mp.weixin.qq.com/s/F-6EbrLSFj5QVsjMb4r5cA | 6| 
 | 安云信息 | Anyuntec |  | https://mp.weixin.qq.com/s/m6bsWlJ3Yj1YMFZwz5uHIQ | 2| 
-| 安全威胁情报 | Threatbook |  | https://mp.weixin.qq.com/s/5lXWmbORcyjukJNz5CW1Qg | 4| 
 | MottoIN | mottoin |  | https://mp.weixin.qq.com/s/12BfVA1yNFJPF_9boZraVQ | 3| 
 | 安全加 | anquanplus |  | https://mp.weixin.qq.com/s/Y_mAd-IA4rAra1FqfZc8JQ | 2| 
 | 徐阿衡 | xu_a_heng |  | https://mp.weixin.qq.com/s/I8TmSSQxJPG7KudHKqDrtA | 1| 
@@ -578,7 +581,6 @@
 | 安全牛 | aqniu-wx | 目标黑客“集市”：今年的KCon都有哪些亮点和干货？ | http://mp.weixin.qq.com/s?__biz=MjM5Njc3NjM4MA==&mid=2651068475&idx=1&sn=9d97b8345ce47e8b6e5d60da87c6a91e&scene=1 | 40| 
 | 网优老兵 | WhatsComm |  | http://mp.weixin.qq.com/s?__biz=MzAwMTYzMDc3OQ==&mid=2650184342&idx=1&sn=5078805484a0decf4992ed055bfac95f&scene=1&srcid=0901GW6JTcRE6gZmzIlZlxHb#rd | 1| 
 | malwarebenchmark |  | 来自内部安全威胁的八个令人惊讶的事实 | http://mp.weixin.qq.com/s?__biz=MzI4ODA4MTcxMA==&mid=2649549740&idx=1&sn=023160781de5503aa7379c6ac44f6b85&scene=1 | 17| 
-| 全频带阻塞干扰 | RFJamming | 编号SL-14RB：浅谈卫星安全の第二弹 | http://mp.weixin.qq.com/s?__biz=MzIzMzE2OTQyNA==&mid=2648946252&idx=1&sn=32e76f41955f27fe537c0c9084bb4a2d&scene=1 | 11| 
 | 腾讯安全联合实验室 | txaqlhsys | 腾讯移动安全实验室李伟：我所见证的移动安全历史 | http://mp.weixin.qq.com/s?__biz=MzI1NzM0MTMzMg==&mid=2247483796&idx=1&sn=e2b470256d1375ab32837e8d27a90196&scene=0#rd | 2| 
 | 辛巴达历险记 | sinbadlxj | 黑客组织名称和排名 | http://mp.weixin.qq.com/s?__biz=MzA3NDk2MTgwMg==&mid=2650718125&idx=1&sn=e9e005b674e5668e3a013d6014ad608e&scene=1 | 1| 
 | 青藤云安全资讯 | qingtengyun | 干货总是与你不期而遇—第三篇详解Gartner网络安全新趋势 | http://mp.weixin.qq.com/s?__biz=MzAwNDE4Mzc1NA==&mid=2650824605&idx=1&sn=5649ed17d65cdf307e7bea8d027bcf9c&scene=1&srcid=0823AdbdpY67oZ6bW03r0b9y#rd | 10| 
@@ -1186,6 +1188,7 @@
 | zhengmin1989 | 对 iOS 上的 Apple 文件系统的攻击介绍,来自 Black hat EU 2018 : | https://github.com/zhengmin1989/MyArticles/blob/master/PPT/eu-18-Bai-The-Last-Line-Of-Defense-Understanding-And-Attacking-Apple-File-System-On-iOS.pdf | None | Android/iOS Senior Security Engineer @ Alibaba, CUHK PhD, a member of Blue-lotus and Insight-labs, worked in FireEye , Baidu and Tencent. | None | None | 22 | 0 | 39 | 2000 | 6 | Objective-C,HTML,Makefile | 0 | 0 | 3| 
 | DanMcInerney | LANs.py - 无线网络中间人攻击工具: | https://github.com/DanMcInerney/LANs.py | None | I like automating security stuff so I dont have to work. Coalfire Sr. Pentester. | None | @danhmcinerney | 82 | 0 | 236 | 1900 | 23 | Python,Ruby,PowerShell | 0 | 0 | 5| 
 | thedaviddias | Web 前端工程师资料整理: | https://github.com/thedaviddias/Resources-Front-End-Beginner | https://github.com/influitive | 👨🏽‍💻 Software Engineer with a Front-End & UX / UI passion 🤲 Open-source lover ❤️ code, meditation 🕵️‍♂️ human solver problems | Toronto, Canada | @influitive | 23 | 0 | 496 | 1900 | 247 | JavaScript,Ruby,HTML | 0 | 0 | 1| 
+| Neo23x0 | 开源日志数据分析工具sigma更新了现有的ATT＆CK技术参考 | https://github.com/Neo23x0/sigma/pull/845 | https://github.com/NextronSystems | #DFIR #Python #YARA #Golang #SIEM #SOC #Sigma #Malware | None | @NextronSystems | 83 | 0 | 121 | 1800 | 15 | Python,Batchfile,Java | 2600 | 687 | 15| 
 | spacehuhn | Deauth All Button,可以一键断开所有设备WiFi连接的小工具(Video): https://www.youtube.com/watch?v=HWZrBoIKacw&feature=youtu.beGitHub: | https://github.com/spacehuhn/esp8266_deauther | https://spacehuhn.com | Support me on patreon.com/spacehuhn | Germany | None | 18 | 0 | 260 | 1800 | 12 | C,C++,Arduino | 0 | 0 | 2| 
 | 0xd4d | dnspy - .NET 调试与汇编编辑器: | https://github.com/0xd4d/dnSpy | None |  | None | None | 15 | 0 | 34 | 1700 | 0 | C# | 0 | 0 | 3| 
 | LiveOverflow | PwnAdventure3 - 一款易受攻击的 MMORPG 游戏,目的在于提升游戏开发人员的安全编码能力: | https://github.com/LiveOverflow/PwnAdventure3/ | https://www.youtube.com/LiveOverflowCTF | wannabe hacker... | None | None | 10 | 0 | 3 | 1700 | 0 | Python,C,HTML,C++ | 324 | 98 | 2| 
@@ -1222,7 +1225,6 @@
 | warmheartli | ChatBotCourse: 自己动手做聊天机器人教程 | https://github.com/warmheartli/ChatBotCourse | http://www.shareditor.com | 跟谁学架构师 原百度大搜资深研发 | Beijing | None | 13 | 0 | 14 | 1300 | 0 | Python,Go,Java,CSS | 3700 | 1300 | 1| 
 | DrKLO | The source code of Telegram for iOS and Android is open and free. Enjoy! https://github.com/DrKLO/Telegram | https://github.com/DrKLO/Telegram | None |  | None | None | 2 | 0 | 1 | 1200 | 0 | Java | 11800 | 4600 | 1| 
 | FuzzySecurity | BlueHat IL 会议的演讲《Staying # and Bringing Covert Injection Tradecraft to .NET》PPT | https://github.com/FuzzySecurity/BlueHatIL-2020 | http://www.fuzzysecurity.com/ |  | None | None | 19 | 0 | 0 | 1200 | 0 | C#,YARA,JavaScript,PowerShell | 1800 | 609 | 21| 
-| Neo23x0 | Fnord - 混淆代码的 YARA 规则创建工具: | https://github.com/Neo23x0/Fnord | https://github.com/NextronSystems | #DFIR #Python #YARA #Golang #SIEM #SOC #Sigma #Malware | None | @NextronSystems | 79 | 0 | 101 | 1200 | 15 | Python,Batchfile,Java | 0 | 0 | 14| 
 | RicterZ | websocket-injection:WebSocket 中转注入工具 | https://github.com/RicterZ/websocket-injection | https://ricterz.me | 初❤️を忘れず | Shenzhen, Guangdong, China | Tencent | 86 | 0 | 172 | 1200 | 46 | Python,HTML,Java | 0 | 0 | 1| 
 | devongovett | To create JavaScript regular expressions that match a list of......symbols, use https://github.com/mathiasbynens/regenerate...words, use | https://github.com/devongovett/regexgen | https://github.com/parcel-bundler | Author of @parcel-bundler. Audio hacker @audiocogs. Engineer @adobe. Previously @Livefyre and @storify. | San Francisco | Adobe | 158 | 0 | 885 | 1200 | 167 | CoffeeScript,JavaScript | 0 | 0 | 1| 
 | dexteryy | Spellbook of Modern Web Dev,JavaScript Web 开发宝典(书): | https://github.com/dexteryy/spellbook-of-modern-webdev | https://twitter.com/dexteryy | JS Hacker, Archmage of GUI, Web App Dev, Virtual World Builder, Fictional World Enthusiast, SF/F Nerd, Hardcore PC Gamer, Anime/Comic Otaku | Beijing, China | ByteDance | 72 | 0 | 641 | 1200 | 108 | JavaScript | 0 | 0 | 1| 
@@ -2291,6 +2293,7 @@
 | BuffaloWill | oxml_xxe - 将 XXE/XML 漏洞利用嵌入到不同文件类型的工具: | https://github.com/BuffaloWill/oxml_xxe | https://www.silentrobots.com |  | None | None | 12 | 0 | 36 | 89 | 1 | JavaScript,Ruby | 0 | 0 | 1| 
 | DenizParlak | Zeus - AWS 安全审计与加固工具: | https://github.com/DenizParlak/Zeus | http://www.denizparlak.com/ | linux/unix ninja. RHCSA - RHCE - LFCS - OCA | Samsun | None | 15 | 0 | 4 | 89 | 1 | Shell,JavaScript | 542 | 65 | 1| 
 | SilverMoonSecurity | My ppt Fuzzing and Exploit OSX Vulnerabilities for Fun and Profit on Pacsec2016 http://www.slideshare.net/PacSecJP/moony-li-pacsec18?qid=15552f01-6655-4555-9894-597d62fd803c&v=&b=&from_search=4 Github | https://github.com/SilverMoonSecurity | https://twitter.com/flyic | Moony Li @Flyic Vulnerability hunt and exploit Mac, Win, ios, Android, SandBox, Prsentate BlackHat EU/Pacsec/CodeBlue since2016 Buddist of 阿弥陀佛 | None | T | 13 | 0 | 0 | 89 | 25 | C | 196 | 56 | 2| 
+| angelwhu | 基于JVM-Sandbox实现RASP安全监控防护 | https://github.com/angelwhu/jvm-rasp | http://www.angelwhu.com/ |  | wuhan | whu | 71 | 0 | 307 | 89 | 33 | Python,C,PHP,Java | 21 | 8 | 1| 
 | attackercan | attackercan/regexp-security-cheatsheet | https://github.com/attackercan/regexp-security-cheatsheet | https://httpsonly.blogspot.com |  | None | Penetration tester | 8 | 0 | 32 | 89 | 4 | Python,PHP,Ruby | 0 | 0 | 1| 
 | putterpanda | Mimikittenz - A post-exploitation powershell tool for extracting juicy info from memory | https://github.com/putterpanda/mimikittenz | https://au.linkedin.com/in/jamieson-o-reilly-13ab6470 |  | None | None | 3 | 0 | 2 | 89 | 0 | HTML,PowerShell | 1300 | 284 | 1| 
 | rserota | Detect audio frequency using HTML5 (and more) - Web Audio DAW. Use HTML5 Web Audio API for dynamic sound synthesis : | https://github.com/rserota/wad | None |  | None | Uncorkd | 83 | 0 | 94 | 89 | 13 | C#,JavaScript,HTML | 0 | 0 | 1| 
@@ -3250,6 +3253,7 @@
 | EyeOfRa | 上周推送过 FireEye 一篇监控 Windows Console 活动的 Blog,有位研究员根据 Blog 自己实现了一个工具: | https://github.com/EyeOfRa/WinConMon | http://eyeofrablog.wordpress.com | Reverse engineering, O/S security, security solution development. | HaNoi, VietNam | None | 5 | 0 | 0 | 14 | 0 | Go,PowerShell,C++ | 60 | 16 | 1| 
 | Gnoxter | mountain_goat.c PoC of CVE-2016-5696 Off-Path TCP Exploits | https://github.com/Gnoxter/mountain_goat | None |  | None | None | 14 | 0 | 9 | 14 | 3 | Python,C,C++ | 38 | 21 | 1| 
 | JustinTom | Packet-Sniffing-Backdoor | https://github.com/JustinTom/Packet-Sniffing-Backdoor | None |  | None | Vancouver Canucks | 18 | 0 | 14 | 14 | 11 | Python,Shell,Java | 4 | 5 | 1| 
+| LakeVilladom | goSkylar: 基于Golang开发的企业级外网端口资产扫描 | https://github.com/LakeVilladom/goSkylar | None |  | None | None | 107 | 0 | 140 | 14 | 2 | Go,Shell,JavaScript | 38 | 21 | 1| 
 | No-Github | Dork-Admin: 盘点近年来的数据泄露事件 | https://github.com/No-Github/Dork-Admin | None | 井底之蛙 | remote | None | 30 | 0 | 574 | 14 | 10 | HTML | 132 | 7 | 1| 
 | anx1ang | anx1ang 收集的主流 Web 框架的漏洞攻击代码 | https://github.com/anx1ang/Poc_Pentest | None |  | None | None | 56 | 0 | 74 | 14 | 18 | Python,C,JavaScript | 62 | 15 | 1| 
 | g-solaria | OSINTforPenTests: 渗透测试中的开源情报信息收集 | https://github.com/g-solaria/OSINTforPenTests | http://twitter.com/g_solaria |  | None | None | 3 | 0 | 0 | 14 | 0 | Python | 54 | 11 | 2| 
@@ -3415,6 +3419,7 @@
 | whitel1st | GP_Hijack - 组策略劫持攻击利用脚本: | https://github.com/whitel1st/GP_Hijack | None |  | None | None | 7 | 0 | 90 | 7 | 17 | Python | 0 | 0 | 1| 
 | yogeshshe1ke | MobaTek MobaXterm 个人版 SSH 私钥泄漏漏洞（CVE-2019-7690） | https://github.com/yogeshshe1ke/CVE/ | https://twitter.com/yogesh_she1ke | Software Security , Binary Reversing , Exploitation | Bengaluru, India | None | 6 | 0 | 231 | 7 | 25 | Python,Ruby,PowerShell,C++ | 3 | 0 | 1| 
 | yosriayed | GSM-scanner : Spectrum monitoring system for GSM providers : | https://github.com/yosriayed/GSM-scanner | None |  | None | None | 5 | 0 | 0 | 7 | 0 | Python,C,Java,C++ | 41 | 15 | 1| 
+| A2kaid | Get-WeChat-DB: 获取目标机器的微信数据库和密钥 | https://github.com/A2kaid/Get-WeChat-DB | https://www.dongzt.cn/ | 二进制萌新 | 北京 | None | 33 | 0 | 134 | 6 | 14 | Python,C,C++ | 44 | 7 | 1| 
 | AlanChou | unofficial PyTorch implementation of the paper Adversarial Training for Free! | https://github.com/AlanChou/Adversarial-Training-for-Free | None | My research interests lie in weakly supervised learning and adversarial attack/defense. Im also interested in optimization with imbalanced or noisy data. | Hsinchu City | None | 5 | 0 | 199 | 6 | 9 | Python | 13 | 9 | 1| 
 | CboeSecurity | password_pwncheck - 企业账户密码质量检测工具: | https://github.com/CboeSecurity/password_pwncheck | None |  | None | None | 2 | 0 | 1 | 6 | 0 | Shell,C++ | 129 | 16 | 1| 
 | KTN1990 | WordPress Ninja Forms File Uploads 插件任意文件上传漏洞 PoC（CVE-2019-10869） | https://github.com/KTN1990/CVE-2019-10869/blob/master/README.md | https://www.facebook.com/KtN.1990 | 𝖍𝖆𝖈𝖐 𝖙𝖔 𝖑𝖎𝖛𝖊 𝖆𝖓𝖉 𝖑𝖎𝖛𝖊 𝖙𝖔 𝖍𝖆𝖈𝖐 | DZ | ⓪ⓧ⑥⑥⑥ | 11 | 0 | 8 | 6 | 3 | Python,Perl | 7 | 0 | 1| 
@@ -3997,6 +4002,8 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 抱紧你的SIM卡—5G物理安全初探 | https://zhuanlan.zhihu.com/p/149614674| 
+| 时间序列预测方法总结 | https://zhuanlan.zhihu.com/p/67832773| 
 | 简单梳理一下机器学习可解释性（Interpretability） | https://zhuanlan.zhihu.com/p/141013178| 
 | 从Google内部安全架构设计看威胁情报与威胁狩猎的应用场景 | https://zhuanlan.zhihu.com/p/129064940| 
 | 谈谈蜜罐（调研）与内网安全 | https://zhuanlan.zhihu.com/p/110886405| 
