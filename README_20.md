@@ -14,19 +14,20 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 看雪学院 | ikanxue | 循序渐进分析CVE-2020-1066 | https://mp.weixin.qq.com/s/TU5Obmd76QdhfQ-40UxUBQ | 41| 
 | 安全学术圈 | secquan | AsiaCCS 2020 论文录用列表 | https://mp.weixin.qq.com/s/uCyikieFzmbF0gAFTeHSfA | 48| 
 | 99所 | gh_4b0bd9f08b03 | 【视频】利用Twitter如何挖掘有价值的开源信息？——工具篇 | https://mp.weixin.qq.com/s/ukP2ASwXA8HDuDNYGHC-Sw | 1| 
 | Bypass | Bypass-- | 甲方安全开源项目清单 | https://mp.weixin.qq.com/s/FS8JVnZqqXw1M9czyeF8dw | 49| 
-| MS509 | CSRC-MS509 | Subrion CMS 代码审计 | https://mp.weixin.qq.com/s/HX12VGVtJo3zc7XI8OVwpg | 1| 
 | 互联网安全内参 | anquanneican | 深度解读：Verizon 2020年数据泄露报告 | https://mp.weixin.qq.com/s/sDu5eydjesAwsI2v8dEj5Q | 6| 
-| 全频带阻塞干扰 | RFJamming | 一线执法必备的自我隐私保护能力 | https://mp.weixin.qq.com/s/h6jE7RD6pzaPINxiRoG0BQ | 12| 
-| 安全威胁情报 | Threatbook | 钓鱼、投递木马……一文扒尽“白象三代”APT组织攻击活动！ | https://mp.weixin.qq.com/s/ve2L6_v0EvJZwLSyWijvUw | 5| 
-| 宽字节安全 | gh_2de2b9f7d076 | JBOSS 无文件webshell的技术研究 | https://mp.weixin.qq.com/s/_SQS9B7tkL1H5fMIgPTOKw | 7| 
-| SecIN技术平台 | sec-in | 一种新型shellcode仿真框架分析 | https://mp.weixin.qq.com/s/9XHNMwIhmZLtOI385_4iaQ | 1| 
-| 大兵说安全 | dabingshuoanquan | 也来聊聊态势感知（上） | https://mp.weixin.qq.com/s/dCGMfKsFzYaZiffjkBBYpg | 4| 
-| 星阑科技 | StarCrossCN | Jsonp漏洞简析及自动化漏洞挖掘脚本编写 | https://mp.weixin.qq.com/s/SuEpF3RIZIv2CcIUok8SoQ | 3| 
-| EnjoyHacking | zom3y3 | 基于ClickHouse + Redash + Python去做安全数据分析 | https://mp.weixin.qq.com/s/O7IuAZV1XuogKwsoLhx4Qw | 1| 
+| 宽字节安全 | gh_2de2b9f7d076 | JBOSS 无文件webshell的技术研究 | https://mp.weixin.qq.com/s/_SQS9B7tkL1H5fMIgPTOKw | 8| 
 | 信息安全与通信保密杂志社 | cismag2013 | 全国23省市“新基建”网安任务重点梳理 | https://mp.weixin.qq.com/s/Isv3mrwIIEHZi6_gn7u-9g | 3| 
+| EnjoyHacking | zom3y3 | 基于ClickHouse + Redash + Python去做安全数据分析 | https://mp.weixin.qq.com/s/O7IuAZV1XuogKwsoLhx4Qw | 1| 
+| MS509 | CSRC-MS509 | Subrion CMS 代码审计 | https://mp.weixin.qq.com/s/HX12VGVtJo3zc7XI8OVwpg | 2| 
+| SecIN技术平台 | sec-in | 一种新型shellcode仿真框架分析 | https://mp.weixin.qq.com/s/9XHNMwIhmZLtOI385_4iaQ | 1| 
+| 全频带阻塞干扰 | RFJamming | 一线执法必备的自我隐私保护能力 | https://mp.weixin.qq.com/s/h6jE7RD6pzaPINxiRoG0BQ | 12| 
+| 大兵说安全 | dabingshuoanquan | 也来聊聊态势感知（下） | https://mp.weixin.qq.com/s/14MPTJ34SOnqBssObkxqFw | 4| 
+| 安全威胁情报 | Threatbook | 钓鱼、投递木马……一文扒尽“白象三代”APT组织攻击活动！ | https://mp.weixin.qq.com/s/ve2L6_v0EvJZwLSyWijvUw | 5| 
+| 星阑科技 | StarCrossCN | Jsonp漏洞简析及自动化漏洞挖掘脚本编写 | https://mp.weixin.qq.com/s/SuEpF3RIZIv2CcIUok8SoQ | 3| 
 | 中国白客联盟 | China_Baiker | 渗透中的内网渗透 | https://mp.weixin.qq.com/s/Mk5P_04SAitUjRztc9e-Rw | 2| 
 | SecWiki | SecWiki | [Sec-Trans-12] Github信息收集 | https://mp.weixin.qq.com/s/LnjKK1YJ7BvMXPuFbeq37w | 29| 
 | 老马玩工控安全 | gh_e41f6c29c07a | 工控安全事件汇总与分析 | https://mp.weixin.qq.com/s/rG1oG8nz07DtRKTRaJjM7A | 1| 
@@ -35,7 +36,6 @@
 | 锦行信息安全 | jeeseensec | 任天堂再遭黑手，用户隐私到底该如何保护？ | https://mp.weixin.qq.com/s/O7N2OWtSQUKY-6d5H6e7lg | 4| 
 | 安恒信息 | DBAPP2013 | 红蓝对抗——「CobaltStrike」应用攻击手段实例分析 | https://mp.weixin.qq.com/s/9_0pLbmWqUbJ6aGEPjxvYA | 3| 
 | 安恒信息安全研究院 | gh_684e6ad8d12c | StarCTF 2019 v8 off-by-one漏洞学习笔记 | https://mp.weixin.qq.com/s/z6PLgxbt0yniwiuRY2bUWw | 3| 
-| 看雪学院 | ikanxue | 新手向总结：IDA动态调试So的一些坑 | https://mp.weixin.qq.com/s/91r1cKyL_1UR79OP2XubqA | 40| 
 | 腾讯安全应急响应中心 | tsrc_team | 主机安全——洋葱Webshell检测实践与思考 | https://mp.weixin.qq.com/s/ol70aVdvybzMJmtfxaAAZQ | 11| 
 | 七夜安全博客 | qiye_safe | APT的思考: CMD命令混淆高级对抗 | https://mp.weixin.qq.com/s/hJ6gn9EMKNmMOofEg3i6Iw | 11| 
 | 爱奇艺技术产品团队 | iQIYI-TP | ​干货 , 爱奇艺全链路自动化监控平台的探索与实践 | https://mp.weixin.qq.com/s/j44LMlItuTodfJvL_YGTUA | 4| 
@@ -2304,6 +2304,7 @@
 | jethrogb | GitHub - jethrogb/uefireverse: Tools to help with Reverse Engineering UEFI-based firmware | https://github.com/jethrogb/uefireverse | None |  | None | None | 109 | 0 | 7 | 88 | 0 | C,Ruby,Rust,C++,RenderScript | 228 | 54 | 1| 
 | trufae | forkless - 为 iOS 编写的第三方 fork 库: | https://github.com/trufae/forkless/ | http://www.radare.org/ |  | None | None | 55 | 0 | 19 | 88 | 2 | Objective-C,JavaScript,Makefile,C | 106 | 7 | 1| 
 | Mattiwatti | EfiGuard - x64 UEFI bootkit，在启动时修补 Windows 启动管理器以禁用 PatchGuard 和驱动程序签名验证(DSE) | https://github.com/Mattiwatti/EfiGuard | None |  | The Netherlands | None | 19 | 0 | 13 | 87 | 3 | C,Assembly,C++ | 227 | 61 | 1| 
+| MisakiKata | python cms审计记录 | https://github.com/MisakiKata/python_code_audit/blob/master/%E5%AE%9E%E6%88%98%E6%93%8D%E4%BD%9C.md | https://misakikata.github.io | 企业安全，Python，红队，渗透等 | Shanghai | None | 16 | 0 | 31 | 87 | 31 | Python,C,Shell,Java,HTML | 66 | 19 | 2| 
 | MojtabaTajik | Robber - 用于查找易受 DLL 劫持的可执行文件的工具: | https://github.com/MojtabaTajik/Robber | http://mojtabatajik.github.io/ | Programmer and security researcher experienced in Delphi/C++/C#/Python, Reverse Engineering and hardware design | Tehran, Iran | None | 17 | 0 | 52 | 87 | 23 | C#,Pascal,PowerShell,C++ | 0 | 0 | 1| 
 | fozavci | VIPROY - VoIP Pen-Test Kit for Metasploit Framework | https://github.com/fozavci/viproy-voipkit | http://viproy.com/fozavci |  | Australia | None | 6 | 0 | 8 | 87 | 13 | Ruby | 273 | 71 | 1| 
 | he1m4n6a | easyPass:字典生成和整理工具 | https://github.com/he1m4n6a/easyPass | None | web security, blockchain security | None | None | 46 | 0 | 313 | 87 | 19 | Python,PHP | 164 | 84 | 1| 
@@ -3163,7 +3164,6 @@
 | veramine | Mitre 组织创建了一个称作 ATT&CK 的项目,之前有过推送,这个项目整理了攻击和入侵者常用的一些技术和策略。看到这个项目之后,来自 Veramine 团队的研究员也创建了一个项目,用于总结和讨论如何检测和防御 ATT&CK 项目中涉及的攻击技术: https://attack.mitre.org/wiki/Main_Page | https://github.com/veramine/Detections/wiki | https://veramine.com |  | Seattle, Washington | Veramine | 4 | 0 | 32 | 19 | 1 | JavaScript,C++ | 96 | 12 | 1| 
 | 3xp0rt | Sorano恶意软件加载器源代码泄漏 | https://github.com/3xp0rt/SoranoBot | https://twitter.com/3xp0rtblog |  | Ukraine | None | 10 | 0 | 10 | 18 | 3 | C#,C,HTML | 10 | 10 | 1| 
 | Darkabode | zerokit - GAPZ Bootkit 源码 | https://github.com/Darkabode/zerokit | None |  | None | None | 6 | 0 | 0 | 18 | 0 | C,Java,C++ | 84 | 33 | 1| 
-| MisakiKata | Python 代码审计 | https://github.com/MisakiKata/python_code_audit | https://misakikata.github.io | 企业安全，Python，红队，渗透等 | Shanghai | None | 16 | 0 | 30 | 18 | 31 | Python,C,Shell,Java,HTML | 19 | 6 | 1| 
 | S3Jensen | The iOS Reverse Engineering Toolkit is toolkit designed to automate common tasks with iOS penetration testing. | https://github.com/S3Jensen/iRET | None |  | None | None | 1 | 0 | 2 | 18 | 5 | Shell | 214 | 76 | 1| 
 | arnaugamez | Introducing radare2 for humans,radare2 使用介绍: | https://github.com/arnaugamez/r2con2018-Introducing_r2_for_humans/blob/master/introducing-radare2-humans.pdf | https://github.com/HackingLliure |  | None | @HackingLliure | 14 | 0 | 21 | 18 | 3 | Python,Java | 16 | 1 | 1| 
 | artemdinaburg | optimizevm - Make Windows VMs Faster | https://github.com/artemdinaburg/optimizevm | None |  | None | None | 12 | 0 | 3 | 18 | 0 | Python,Ruby,Shell,JavaScript | 47 | 9 | 1| 
@@ -3816,6 +3816,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 逆向工程学习资源收录，包括技术博客、工具/插件、研究报告等 | http://medium.com/@vignesh4303/reverse-engineering-resources-beginners-to-intermediate-guide-links-f64c207505ed| 
 | AMD 新发布的 Mini-PC 的 UEFI 镜像的漏洞挖掘与分析 | http://link.medium.com/pazvQdeuo7| 
 | 红队：如何在C＃中嵌入Golang工具中的教程 | http://medium.com/@shantanukhande/red-team-how-to-embed-golang-tools-in-c-e269bf33876a| 
 | 关于进程令牌的原理以及利用方式-第一部分 | http://medium.com/@seemant.bisht24/understanding-and-abusing-process-tokens-part-i-ee51671f2cfa| 
