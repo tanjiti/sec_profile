@@ -1,7 +1,7 @@
-Python	101
+Python	102
 C	55
+HTML	45
 JavaScript	44
-HTML	44
 C++	43
 Go	36
 Shell	35
@@ -13,7 +13,7 @@ TypeScript	13
 Ruby	13
 CSS	13
 Rust	11
-Jupyter	8
+Jupyter	9
 Batchfile	8
 TSQL	4
 Dockerfile	4

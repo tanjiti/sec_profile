@@ -2027,6 +2027,7 @@
 | jiangsir404 | S7scan: 集七种功能的漏洞综合检测利用工具 | https://github.com/jiangsir404/S7scan | http://blog.s7star.cn | Talk is cheap, show me the code. | None | None | 15 | 0 | 225 | 137 | 116 | Python | 517 | 109 | 2| 
 | jiayy | Android PoCs for October bulletin:cve-2016-3901cve-2016-3935cve-2016-3940cve-2016-6672cve-2016-6690 | https://github.com/jiayy/android_vuln_poc-exp | http://jiayy.me |  | BJ | 360 | 4 | 0 | 4 | 137 | 8 | C,HTML | 473 | 172 | 1| 
 | zigoo0 | WebPwn3r - Web Applications Security Scanner | https://github.com/zigoo0/webpwn3r | None |  | None | None | 7 | 0 | 2 | 137 | 0 | Python,PHP | 213 | 92 | 1| 
+| jacobsoo | 研究员 Jacob Soo 分享的关于恶意软件分析的几篇笔记 | https://github.com/jacobsoo/Shared// | None |  | None | None | 63 | 0 | 0 | 136 | 23 | Python,HTML,Jupyter | 131 | 47 | 1| 
 | M4cs | BabySploit Beginner Pentesting Framework Written in Python | https://github.com/M4cs/BabySploit | https://github.com/Reggora | QA Automation Engineer for @Reggora , Python Full Stack Developer | Boston, Massachusetts | @Reggora | 82 | 0 | 48 | 135 | 54 | Python,Objective-C,HTML,Perl | 0 | 0 | 1| 
 | houjingyi233 | houjingyi233/CPU-vulnerabiility-collections | https://github.com/houjingyi233/CPU-vulnerabiility-collections | http://houjingyi233.com | security researcher wechat:aG91amluZ3lpMTU5 | None | None | 20 | 0 | 713 | 135 | 1 | Visual,Java,C++ | 124 | 56 | 2| 
 | interference-security | Damn Vulnerable Web Sockets - vulnerable web application which works on web sockets for client-server communication: | https://github.com/interference-security/DVWS | https://twitter.com/xploresec |  | None | None | 46 | 0 | 233 | 135 | 9 | Python,C,PHP,JavaScript,Perl | 284 | 94 | 1| 
@@ -3817,6 +3818,7 @@
 | title | url| 
 | --- | ---| 
 | 逆向工程学习资源收录，包括技术博客、工具/插件、研究报告等 | http://medium.com/@vignesh4303/reverse-engineering-resources-beginners-to-intermediate-guide-links-f64c207505ed| 
+| JavaScript中的内存泄漏分析 | http://medium.com/walkme-engineering/memory-in-javascript-beyond-leaks-8c1d697c655c| 
 | AMD 新发布的 Mini-PC 的 UEFI 镜像的漏洞挖掘与分析 | http://link.medium.com/pazvQdeuo7| 
 | 红队：如何在C＃中嵌入Golang工具中的教程 | http://medium.com/@shantanukhande/red-team-how-to-embed-golang-tools-in-c-e269bf33876a| 
 | 关于进程令牌的原理以及利用方式-第一部分 | http://medium.com/@seemant.bisht24/understanding-and-abusing-process-tokens-part-i-ee51671f2cfa| 

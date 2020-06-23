@@ -1,15 +1,16 @@
-Python	25
+Python	26
 C	16
 C++	10
+HTML	8
 C#	8
 Java	7
-HTML	7
 Go	7
 PHP	6
 Shell	5
 JavaScript	4
 Rust	3
 TypeScript	2
+Jupyter	2
 TeX	2
 Swift	2
 Lua	1
@@ -18,6 +19,5 @@ PLSQL	1
 Dart	1
 Ruby	1
 SystemVerilog	1
-Jupyter	1
 Batchfile	1
 Brainfuck	1
