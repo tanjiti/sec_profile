@@ -1,6 +1,6 @@
-Python	996
+Python	997
 C	626
-JavaScript	616
+JavaScript	617
 C++	506
 HTML	449
 Shell	428
@@ -8,7 +8,7 @@ Java	418
 Go	350
 C#	251
 Ruby	247
-PHP	223
+PHP	224
 PowerShell	218
 CSS	209
 Objective-C	128
@@ -27,9 +27,9 @@ Scala	41
 CMake	41
 Kotlin	34
 Visual	32
+Vim	29
 Vue	28
 HCL	28
-Vim	28
 Rich	21
 OCaml	21
 Haskell	20
