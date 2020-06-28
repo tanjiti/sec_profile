@@ -14,12 +14,17 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| AI公园 | AI_Paradise | 标签传播算法解读 | https://mp.weixin.qq.com/s/dX6CouK7LGNbXsRxRnS26w | 1| 
+| 宽字节安全 | gh_2de2b9f7d076 | Tomcat基于Servlet的无文件webshell的相关技术研究 | https://mp.weixin.qq.com/s/gYGrdDtIldzrE7NHSxTDYQ | 6| 
+| 网络安全观 | SecurityInsights | 网络安全架构 , 安全框架之综述 | https://mp.weixin.qq.com/s/4jec18NXjV6UwubzrYgwzg | 1| 
+| 湛卢工作室 | xuehao_studio | 攻防演习 , 红军的反击 | https://mp.weixin.qq.com/s/WrQa0XoBSak3HM1l650HEg | 1| 
+| 猎户攻防实验室 | TassLiehu | 自动化测试工具APPium初探 | https://mp.weixin.qq.com/s/wwlqd_kO7vfpP6vTPrW_6Q | 1| 
+| 锦行信息安全 | jeeseensec | WMI攻击与安全防御 | https://mp.weixin.qq.com/s/wA7SXfVM3jYsH1VhZqANrA | 2| 
 | 看雪学院 | ikanxue | 循序渐进分析CVE-2020-1066 | https://mp.weixin.qq.com/s/TU5Obmd76QdhfQ-40UxUBQ | 2| 
 | 安全学术圈 | secquan | AsiaCCS 2020 论文录用列表 | https://mp.weixin.qq.com/s/uCyikieFzmbF0gAFTeHSfA | 2| 
 | 99所 | gh_4b0bd9f08b03 | 【视频】利用Twitter如何挖掘有价值的开源信息？——工具篇 | https://mp.weixin.qq.com/s/ukP2ASwXA8HDuDNYGHC-Sw | 1| 
 | Bypass | Bypass-- | 甲方安全开源项目清单 | https://mp.weixin.qq.com/s/FS8JVnZqqXw1M9czyeF8dw | 1| 
 | 互联网安全内参 | anquanneican | 深度解读：Verizon 2020年数据泄露报告 | https://mp.weixin.qq.com/s/sDu5eydjesAwsI2v8dEj5Q | 1| 
-| 宽字节安全 | gh_2de2b9f7d076 | JBOSS 无文件webshell的技术研究 | https://mp.weixin.qq.com/s/_SQS9B7tkL1H5fMIgPTOKw | 5| 
 | 信息安全与通信保密杂志社 | cismag2013 | 全国23省市“新基建”网安任务重点梳理 | https://mp.weixin.qq.com/s/Isv3mrwIIEHZi6_gn7u-9g | 1| 
 | EnjoyHacking | zom3y3 | 基于ClickHouse + Redash + Python去做安全数据分析 | https://mp.weixin.qq.com/s/O7IuAZV1XuogKwsoLhx4Qw | 1| 
 | MS509 | CSRC-MS509 | Subrion CMS 代码审计 | https://mp.weixin.qq.com/s/HX12VGVtJo3zc7XI8OVwpg | 2| 
@@ -33,7 +38,6 @@
 | 老马玩工控安全 | gh_e41f6c29c07a | 工控安全事件汇总与分析 | https://mp.weixin.qq.com/s/rG1oG8nz07DtRKTRaJjM7A | 1| 
 | 绿盟科技研究通讯 | nsfocus_research | AISecOps：打造可信任安全智能 | https://mp.weixin.qq.com/s/Tz9V05CHqLg_Wt4yfJZffQ | 1| 
 | 长亭安全课堂 | chaitintech_release | Python代码保护 , pyc 混淆从入门到工具实现 | https://mp.weixin.qq.com/s/qvbwTAmDOvpHrAoNdQ7RRA | 1| 
-| 锦行信息安全 | jeeseensec | 任天堂再遭黑手，用户隐私到底该如何保护？ | https://mp.weixin.qq.com/s/O7N2OWtSQUKY-6d5H6e7lg | 1| 
 | 安恒信息 | DBAPP2013 | 红蓝对抗——「CobaltStrike」应用攻击手段实例分析 | https://mp.weixin.qq.com/s/9_0pLbmWqUbJ6aGEPjxvYA | 1| 
 | 安恒信息安全研究院 | gh_684e6ad8d12c | StarCTF 2019 v8 off-by-one漏洞学习笔记 | https://mp.weixin.qq.com/s/z6PLgxbt0yniwiuRY2bUWw | 1| 
 | 腾讯安全应急响应中心 | tsrc_team | 主机安全——洋葱Webshell检测实践与思考 | https://mp.weixin.qq.com/s/ol70aVdvybzMJmtfxaAAZQ | 1| 
@@ -80,9 +84,12 @@
 | 4x99 | 码小六 - GitHub 代码泄露监控系统 | https://github.com/4x99/code6 | None |  | None | None | 2 | 0 | 1 | 0 | 0 | PHP | 73 | 14 | 1| 
 | Anemone95 | MLDetectVuln: AI算法解决大规模二进制程序函数相似性分析 | https://github.com/Anemone95/MLDetectVuln | http://anemone.top | Im very vegetable. | None | None | 0 | 0 | 0 | 0 | 0 | Python,JavaScript,PHP,Vim | 8 | 5 | 1| 
 | FSecureLABS | Physmem2profit 工具用于在可物理访问内存的情况下创建 LSASS 进程的 minidump | https://github.com/FSecureLABS/physmem2profit | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Python,JavaScript,C++,C#,PowerShell | 2200 | 584 | 1| 
+| FlameOfIgnis | PWDB - New generation of Password Mass-Analysis | https://github.com/FlameOfIgnis/Pwdb-Public | https://github.com/EpicGames | Junior year computer engineering student at METU/NCC. | Turkey | @EpicGames @NVIDIAGameWorks | 0 | 0 | 0 | 0 | 0 | Python,TypeScript,JavaScript,Cuda | 835 | 325 | 1| 
 | HexHive | FuzzGen: Automatic Fuzzer Generation | https://github.com/HexHive/FuzzGen | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Python,C++,TeX,HTML,Brainfuck | 0 | 0 | 1| 
+| Integration-IT | Active Directory Exploitation Cheat Sheet | https://github.com/Integration-IT/Active-Directory-Exploitation-Cheat-Sheet | None |  | None | None | 0 | 0 | 0 | 0 | 0 | Ruby,PowerShell | 308 | 55 | 1| 
 | NiuTrans | 机器翻译：统计建模与深度学习方法 | https://github.com/NiuTrans/MTBook | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TeX,C++ | 1500 | 565 | 1| 
 | airbus-cert | 一款用于处理 Event Tracing for Windows（ETW）的IDA插件 | https://github.com/airbus-cert/etwbreaker | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Lua,Python,C#,Go,PHP | 104 | 9 | 1| 
+| bb1nfosec | Windows漏洞利用资源以及漏洞利用的网站参考列表总结。 | https://github.com/bb1nfosec/Information-Security-Tasks/blob/master/Post%20Exploitation/Windows%20Exploitation%2C%20post%20exploitation%20sites%20for%20reference | None | Just another guy whom loves to play 0 and 1 . | India | None | 0 | 0 | 0 | 0 | 0 | Python,Shell,HTML,CSS | 49 | 16 | 1| 
 | google | FuzzBench: Fuzzer Benchmarking As a Service，用于评估 Fuzzer 性能和效率 | https://github.com/google/fuzzbench | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Jupyter,Python,JavaScript,C++,Dart,SystemVerilog,Go,Java,Rust | 0 | 0 | 1| 
 | googleprojectzero | ProjectZero 开源的一款动态插桩库，支持对进程内的指定模块进行插桩 | https://github.com/googleprojectzero/TinyInst | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,C#,C++,Python,HTML,Swift | 0 | 0 | 1| 
 | joinsec | BadDNS: 使用公共 DNS 服务器进行多层子域名探测的极速工具 | https://github.com/joinsec/BadDNS | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,Rust | 0 | 0 | 1| 
@@ -107,6 +114,7 @@
 # medium_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| Mining DNS MX Records for Fun and Profit | https://medium.com/@jason_trost/mining-dns-mx-records-for-fun-and-profit-7a069da9ee2d| 
 
 
 # zhihu_xuanwu 推荐
