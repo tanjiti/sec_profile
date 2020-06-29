@@ -1,0 +1,36 @@
+20200622	漏洞分析	https://mp.weixin.qq.com/s/TU5Obmd76QdhfQ-40UxUBQ	循序渐进分析CVE-2020-1066	qq.com	mp.weixin.qq.com	/s/TU5Obmd76QdhfQ-40UxUBQ
+20200622	Web安全	https://github.com/MisakiKata/python_code_audit/blob/master/%E5%AE%9E%E6%88%98%E6%93%8D%E4%BD%9C.md	python cms审计记录	github.com	github.com	/MisakiKata/python_code_audit/blob/master/%E5%AE%9E%E6%88%98%E6%93%8D%E4%BD%9C.md
+20200622	其它	https://paper.seebug.org/1251/	Java 安全-RMI-学习总结	seebug.org	paper.seebug.org	/1251/
+20200622	运维安全	https://mp.weixin.qq.com/s/WrQa0XoBSak3HM1l650HEg	攻防演习-红军的反击	qq.com	mp.weixin.qq.com	/s/WrQa0XoBSak3HM1l650HEg
+20200622	工具	https://mp.weixin.qq.com/s/wA7SXfVM3jYsH1VhZqANrA	WMI攻击与安全防御	qq.com	mp.weixin.qq.com	/s/wA7SXfVM3jYsH1VhZqANrA
+20200622	Web安全	https://blog.blankshell.com/2020/06/25/sqlmap%e7%bb%95%e8%bf%87csrf%e6%a3%80%e6%b5%8b%e8%bf%9b%e8%a1%8c%e6%b3%a8%e5%85%a5/	sqlmap绕过csrf检测进行注入	blankshell.com	blog.blankshell.com	/2020/06/25/sqlmap%e7%bb%95%e8%bf%87csrf%e6%a3%80%e6%b5%8b%e8%bf%9b%e8%a1%8c%e6%b3%a8%e5%85%a5/
+20200622	编程技术	https://mp.weixin.qq.com/s/4jec18NXjV6UwubzrYgwzg	安全框架之综述	qq.com	mp.weixin.qq.com	/s/4jec18NXjV6UwubzrYgwzg
+20200622	Web安全	https://www.anquanke.com/post/id/208992	从0到1学会搭建小型企业拓扑到由外向内的渗透测试	anquanke.com	www.anquanke.com	/post/id/208992
+20200622	运维安全	https://github.com/qq4108863/hihttps	hihttps: 一款完整源码的高性能Web应用防火墙	github.com	github.com	/qq4108863/hihttps
+20200622	Web安全	https://mp.weixin.qq.com/s/wwlqd_kO7vfpP6vTPrW_6Q	自动化测试工具APPium初探	qq.com	mp.weixin.qq.com	/s/wwlqd_kO7vfpP6vTPrW_6Q
+20200622	恶意分析	https://www.zuozuovera.com/archives/1668/	代码克隆检测技术	zuozuovera.com	www.zuozuovera.com	/archives/1668/
+20200622	杂志	https://www.sec-wiki.com/weekly/329	SecWiki周刊（第329期)	sec-wiki.com	www.sec-wiki.com	/weekly/329
+20200622	漏洞分析	https://www.anquanke.com/post/id/209035	基于异常的猎杀行动——自保护触发自杀	anquanke.com	www.anquanke.com	/post/id/209035
+20200622	恶意分析	https://xz.aliyun.com/t/7903	Powershell免杀的探索	aliyun.com	xz.aliyun.com	/t/7903
+20200622	其它	https://github.com/Integration-IT/Active-Directory-Exploitation-Cheat-Sheet	Active Directory Exploitation Cheat Sheet	github.com	github.com	/Integration-IT/Active-Directory-Exploitation-Cheat-Sheet
+20200622	Web安全	https://www.freebuf.com/sectool/238018.html	FOFA搜索结果提取技术分析	freebuf.com	www.freebuf.com	/sectool/238018.html
+20200622	漏洞分析	https://github.com/Anemone95/MLDetectVuln	MLDetectVuln: AI算法解决大规模二进制程序函数相似性分析	github.com	github.com	/Anemone95/MLDetectVuln
+20200622	Web安全	https://xz.aliyun.com/t/7915	Java代码审计之Struts2-001	aliyun.com	xz.aliyun.com	/t/7915
+20200622	数据挖掘	https://zhuanlan.zhihu.com/p/148785892	知识图谱之知识表示篇（一）	zhihu.com	zhuanlan.zhihu.com	/p/148785892
+20200622	Web安全	https://xz.aliyun.com/t/7902	Linux Pam后门总结拓展	aliyun.com	xz.aliyun.com	/t/7902
+20200622	恶意分析	https://paper.seebug.org/1253/	Rovnix Bootkit 恶意软件相关活动分析	seebug.org	paper.seebug.org	/1253/
+20200622	漏洞分析	https://www.anquanke.com/post/id/208940	解释器类型的Pwn题目总结	anquanke.com	www.anquanke.com	/post/id/208940
+20200622	Web安全	https://mp.weixin.qq.com/s/gYGrdDtIldzrE7NHSxTDYQ	Tomcat基于Servlet的无文件webshell的相关技术研究	qq.com	mp.weixin.qq.com	/s/gYGrdDtIldzrE7NHSxTDYQ
+20200622	取证分析	https://www.freebuf.com/articles/system/239107.html	手工打造基于ATT&CK矩阵的EDR系统	freebuf.com	www.freebuf.com	/articles/system/239107.html
+20200622	恶意分析	https://www.freebuf.com/articles/others-articles/238700.html	Zloader的DGA算法解析	freebuf.com	www.freebuf.com	/articles/others-articles/238700.html
+20200622	视频	https://www.youtube.com/watch?v=8MM0qif7Qjw&list=PLm_RjVa4jQG9hGaSZQcsWgFO87CA_iTzq	DIMVA 2020 视频列表	youtube.com	www.youtube.com	/watch
+20200622	漏洞分析	https://www.freebuf.com/vuls/238736.html	图解利用虚函数过GS保护	freebuf.com	www.freebuf.com	/vuls/238736.html
+20200622	数据挖掘	https://mp.weixin.qq.com/s/dX6CouK7LGNbXsRxRnS26w	标签传播算法解读	qq.com	mp.weixin.qq.com	/s/dX6CouK7LGNbXsRxRnS26w
+20200622	设备安全	https://www.freebuf.com/articles/terminal/229567.html	设备固件提取小结	freebuf.com	www.freebuf.com	/articles/terminal/229567.html
+20200622	Web安全	https://github.com/FlameOfIgnis/Pwdb-Public	PWDB - New generation of Password Mass-Analysis	github.com	github.com	/FlameOfIgnis/Pwdb-Public
+20200622	恶意分析	https://mp.weixin.qq.com/s/Sg0LK8emSWP1m-yds4VGrQ	APT的思考: PowerShell命令混淆高级对抗	qq.com	mp.weixin.qq.com	/s/Sg0LK8emSWP1m-yds4VGrQ
+20200622	Web安全	https://ibreak.software/2020/06/using-sql-injection-to-perform-ssrf-xspa-attacks/	Using SQL Injection to perform SSRF/XSPA attacks	ibreak.software	ibreak.software	/2020/06/using-sql-injection-to-perform-ssrf-xspa-attacks/
+20200622	Web安全	https://rhinosecuritylabs.com/research/java-deserializationusing-ysoserial/	Java Deserialization Exploitation With Customized Ysoserial Payloads	rhinosecuritylabs.com	rhinosecuritylabs.com	/research/java-deserializationusing-ysoserial/
+20200622	其它	https://securitygossip.com/blog/2020/05/26/spider-enabling-fast-patch-propagation-in-related-software-repositories/	SPIDER: Enabling Fast Patch Propagation in Related Software Repositories	securitygossip.com	securitygossip.com	/blog/2020/05/26/spider-enabling-fast-patch-propagation-in-related-software-repositories/
+20200622	运维安全	https://blog.pentesteracademy.com/recovering-credentials-from-a-docker-container-process-using-docker-checkpoint-and-gdb-ea22e8898d2b	Recovering Credentials from a Process inside a Docker Container using Docker Checkpoint	pentesteracademy.com	blog.pentesteracademy.com	/recovering-credentials-from-a-docker-container-process-using-docker-checkpoint-and-gdb-ea22e8898d2b
+20200622	取证分析	https://medium.com/@jason_trost/mining-dns-mx-records-for-fun-and-profit-7a069da9ee2d	Mining DNS MX Records for Fun and Profit	medium.com	medium.com	/@jason_trost/mining-dns-mx-records-for-fun-and-profit-7a069da9ee2d

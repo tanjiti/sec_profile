@@ -14,6 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| ChaMd5安全团队 | chamd5sec | 硬件分析的常用工具与基础方法 | https://mp.weixin.qq.com/s/KFm870IFHGEHRnsek9d3lg | 2| 
+| 七夜安全博客 | qiye_safe | APT的思考: PowerShell命令混淆高级对抗 | https://mp.weixin.qq.com/s/Sg0LK8emSWP1m-yds4VGrQ | 1| 
 | AI公园 | AI_Paradise | 标签传播算法解读 | https://mp.weixin.qq.com/s/dX6CouK7LGNbXsRxRnS26w | 1| 
 | 宽字节安全 | gh_2de2b9f7d076 | Tomcat基于Servlet的无文件webshell的相关技术研究 | https://mp.weixin.qq.com/s/gYGrdDtIldzrE7NHSxTDYQ | 6| 
 | 网络安全观 | SecurityInsights | 网络安全架构 , 安全框架之综述 | https://mp.weixin.qq.com/s/4jec18NXjV6UwubzrYgwzg | 1| 

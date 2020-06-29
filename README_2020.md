@@ -14,6 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| ChaMd5安全团队 | chamd5sec | 硬件分析的常用工具与基础方法 | https://mp.weixin.qq.com/s/KFm870IFHGEHRnsek9d3lg | 12| 
+| 七夜安全博客 | qiye_safe | APT的思考: PowerShell命令混淆高级对抗 | https://mp.weixin.qq.com/s/Sg0LK8emSWP1m-yds4VGrQ | 9| 
 | AI公园 | AI_Paradise | 标签传播算法解读 | https://mp.weixin.qq.com/s/dX6CouK7LGNbXsRxRnS26w | 1| 
 | 宽字节安全 | gh_2de2b9f7d076 | Tomcat基于Servlet的无文件webshell的相关技术研究 | https://mp.weixin.qq.com/s/gYGrdDtIldzrE7NHSxTDYQ | 9| 
 | 网络安全观 | SecurityInsights | 网络安全架构 , 安全框架之综述 | https://mp.weixin.qq.com/s/4jec18NXjV6UwubzrYgwzg | 3| 
@@ -41,7 +43,6 @@
 | 安恒信息 | DBAPP2013 | 红蓝对抗——「CobaltStrike」应用攻击手段实例分析 | https://mp.weixin.qq.com/s/9_0pLbmWqUbJ6aGEPjxvYA | 1| 
 | 安恒信息安全研究院 | gh_684e6ad8d12c | StarCTF 2019 v8 off-by-one漏洞学习笔记 | https://mp.weixin.qq.com/s/z6PLgxbt0yniwiuRY2bUWw | 3| 
 | 腾讯安全应急响应中心 | tsrc_team | 主机安全——洋葱Webshell检测实践与思考 | https://mp.weixin.qq.com/s/ol70aVdvybzMJmtfxaAAZQ | 7| 
-| 七夜安全博客 | qiye_safe | APT的思考: CMD命令混淆高级对抗 | https://mp.weixin.qq.com/s/hJ6gn9EMKNmMOofEg3i6Iw | 8| 
 | 爱奇艺技术产品团队 | iQIYI-TP | ​干货 , 爱奇艺全链路自动化监控平台的探索与实践 | https://mp.weixin.qq.com/s/j44LMlItuTodfJvL_YGTUA | 3| 
 | 腾讯安全 | TXAQ2019 | 腾讯安全发布《零信任解决方案白皮书》 | https://mp.weixin.qq.com/s/ZkuR5bDGYpXySUcuROcb7Q | 1| 
 | 正阳能量场 | Sun-Energy-Field | 全面了解风控数据体系 | https://mp.weixin.qq.com/s/PCRzPGGBXG7cJAInylkCRg | 1| 
@@ -67,7 +68,6 @@
 | 漏洞推送 |  | 浏览器中隐蔽数据传输通道-DNS隧道 | https://mp.weixin.qq.com/s/u5HV7umrZABcgVpZ5pn6WQ | 1| 
 | lymmmx |  | 已知邮箱，求手机号码? | https://mp.weixin.qq.com/s/XvMruURNVWBkEwxvnPSW1g | 1| 
 | 赵武的自留地 |  | 我的安全漏洞观 | https://mp.weixin.qq.com/s/86cS8yIgbVcKStZWq84M7Q | 2| 
-| ChaMd5安全团队 | chamd5sec | De1CTF2020-WriteUp下(Crypto、Reverse) | https://mp.weixin.qq.com/s/KKkxUb_rUEi7Pxj0Qj5Odw | 10| 
 | IMKP | TrustMatrix_KP | 用SASE加速零信任网络交付 | https://mp.weixin.qq.com/s/OjHgQGrJWfueu4AfxES9Hg | 1| 
 | ipasslab |  | 学术报告,协议模糊测试相关技术梳理 | https://mp.weixin.qq.com/s/RCpAUpFEzbSewEnWpHrsqw | 1| 
 | 漏洞战争 | vulwar | 技术人的修炼之道：从业余到专业 | https://mp.weixin.qq.com/s/gBgFyy4MMrF5vn-8NGEVQw | 3| 
