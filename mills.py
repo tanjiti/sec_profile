@@ -532,7 +532,7 @@ def get_request(url,
             r = s.request(url=url,
                           method="GET",
                           headers=headers,
-                          timeout=timeout
+                          timeout=timeout,
 
                           )
 

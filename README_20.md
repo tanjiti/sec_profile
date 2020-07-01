@@ -15,14 +15,16 @@
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
 | ChaMd5安全团队 | chamd5sec | 硬件分析的常用工具与基础方法 | https://mp.weixin.qq.com/s/KFm870IFHGEHRnsek9d3lg | 20| 
+| 绿盟科技研究通讯 | nsfocus_research | 图卷积神经网络在企业侧网络安全运营中的应用 | https://mp.weixin.qq.com/s/d6fpwQlNBUlBba3spJu3wA | 30| 
+| 腾讯安全应急响应中心 | tsrc_team | 红蓝对抗之Windows内网渗透 | https://mp.weixin.qq.com/s/OGiDm3IHBP3_g0AOIHGCKA | 12| 
 | 七夜安全博客 | qiye_safe | APT的思考: PowerShell命令混淆高级对抗 | https://mp.weixin.qq.com/s/Sg0LK8emSWP1m-yds4VGrQ | 12| 
 | AI公园 | AI_Paradise | 标签传播算法解读 | https://mp.weixin.qq.com/s/dX6CouK7LGNbXsRxRnS26w | 1| 
 | 宽字节安全 | gh_2de2b9f7d076 | Tomcat基于Servlet的无文件webshell的相关技术研究 | https://mp.weixin.qq.com/s/gYGrdDtIldzrE7NHSxTDYQ | 9| 
 | 网络安全观 | SecurityInsights | 网络安全架构 , 安全框架之综述 | https://mp.weixin.qq.com/s/4jec18NXjV6UwubzrYgwzg | 3| 
 | 湛卢工作室 | xuehao_studio | 攻防演习 , 红军的反击 | https://mp.weixin.qq.com/s/WrQa0XoBSak3HM1l650HEg | 9| 
 | 猎户攻防实验室 | TassLiehu | 自动化测试工具APPium初探 | https://mp.weixin.qq.com/s/wwlqd_kO7vfpP6vTPrW_6Q | 17| 
-| 锦行信息安全 | jeeseensec | WMI攻击与安全防御 | https://mp.weixin.qq.com/s/wA7SXfVM3jYsH1VhZqANrA | 5| 
 | 看雪学院 | ikanxue | 循序渐进分析CVE-2020-1066 | https://mp.weixin.qq.com/s/TU5Obmd76QdhfQ-40UxUBQ | 41| 
+| 锦行信息安全 | jeeseensec | WMI攻击与安全防御 | https://mp.weixin.qq.com/s/wA7SXfVM3jYsH1VhZqANrA | 5| 
 | 安全学术圈 | secquan | AsiaCCS 2020 论文录用列表 | https://mp.weixin.qq.com/s/uCyikieFzmbF0gAFTeHSfA | 48| 
 | 99所 | gh_4b0bd9f08b03 | 【视频】利用Twitter如何挖掘有价值的开源信息？——工具篇 | https://mp.weixin.qq.com/s/ukP2ASwXA8HDuDNYGHC-Sw | 1| 
 | Bypass | Bypass-- | 甲方安全开源项目清单 | https://mp.weixin.qq.com/s/FS8JVnZqqXw1M9czyeF8dw | 49| 
@@ -38,11 +40,9 @@
 | 中国白客联盟 | China_Baiker | 渗透中的内网渗透 | https://mp.weixin.qq.com/s/Mk5P_04SAitUjRztc9e-Rw | 2| 
 | SecWiki | SecWiki | [Sec-Trans-12] Github信息收集 | https://mp.weixin.qq.com/s/LnjKK1YJ7BvMXPuFbeq37w | 29| 
 | 老马玩工控安全 | gh_e41f6c29c07a | 工控安全事件汇总与分析 | https://mp.weixin.qq.com/s/rG1oG8nz07DtRKTRaJjM7A | 1| 
-| 绿盟科技研究通讯 | nsfocus_research | AISecOps：打造可信任安全智能 | https://mp.weixin.qq.com/s/Tz9V05CHqLg_Wt4yfJZffQ | 29| 
 | 长亭安全课堂 | chaitintech_release | Python代码保护 , pyc 混淆从入门到工具实现 | https://mp.weixin.qq.com/s/qvbwTAmDOvpHrAoNdQ7RRA | 1| 
 | 安恒信息 | DBAPP2013 | 红蓝对抗——「CobaltStrike」应用攻击手段实例分析 | https://mp.weixin.qq.com/s/9_0pLbmWqUbJ6aGEPjxvYA | 3| 
 | 安恒信息安全研究院 | gh_684e6ad8d12c | StarCTF 2019 v8 off-by-one漏洞学习笔记 | https://mp.weixin.qq.com/s/z6PLgxbt0yniwiuRY2bUWw | 3| 
-| 腾讯安全应急响应中心 | tsrc_team | 主机安全——洋葱Webshell检测实践与思考 | https://mp.weixin.qq.com/s/ol70aVdvybzMJmtfxaAAZQ | 11| 
 | 爱奇艺技术产品团队 | iQIYI-TP | ​干货 , 爱奇艺全链路自动化监控平台的探索与实践 | https://mp.weixin.qq.com/s/j44LMlItuTodfJvL_YGTUA | 4| 
 | 腾讯安全 | TXAQ2019 | 腾讯安全发布《零信任解决方案白皮书》 | https://mp.weixin.qq.com/s/ZkuR5bDGYpXySUcuROcb7Q | 1| 
 | 正阳能量场 | Sun-Energy-Field | 全面了解风控数据体系 | https://mp.weixin.qq.com/s/PCRzPGGBXG7cJAInylkCRg | 1| 
