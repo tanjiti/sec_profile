@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 长亭科技 | Chaitin_Tech | Docker安全性与攻击面分析 | https://mp.weixin.qq.com/s/BaeIGrBimww8SUtePDQ0jA | 2| 
 | ChaMd5安全团队 | chamd5sec | 硬件分析的常用工具与基础方法 | https://mp.weixin.qq.com/s/KFm870IFHGEHRnsek9d3lg | 20| 
 | 绿盟科技研究通讯 | nsfocus_research | 图卷积神经网络在企业侧网络安全运营中的应用 | https://mp.weixin.qq.com/s/d6fpwQlNBUlBba3spJu3wA | 30| 
 | 腾讯安全应急响应中心 | tsrc_team | 红蓝对抗之Windows内网渗透 | https://mp.weixin.qq.com/s/OGiDm3IHBP3_g0AOIHGCKA | 12| 
@@ -369,7 +370,6 @@
 | MottoIN | mottoin |  | https://mp.weixin.qq.com/s/12BfVA1yNFJPF_9boZraVQ | 3| 
 | 安全加 | anquanplus |  | https://mp.weixin.qq.com/s/Y_mAd-IA4rAra1FqfZc8JQ | 2| 
 | 徐阿衡 | xu_a_heng |  | https://mp.weixin.qq.com/s/I8TmSSQxJPG7KudHKqDrtA | 1| 
-| 长亭科技 | Chaitin_Tech |  | https://mp.weixin.qq.com/s/7TuUqdleZc5xbZG5Xh3f3Q | 1| 
 | 铭毅天下 |  |  | https://mp.weixin.qq.com/s/LXhE-D0FlT_hOns1s1rBmg | 2| 
 | 天际友盟情报站 |  |  | https://mp.weixin.qq.com/s/b6Wv4RPvF4ULNP3plM3EVg | 3| 
 | 安全酷 | watsec |  | https://mp.weixin.qq.com/s/ItvWWhC0iYOpG6nQ3WPfvg | 1| 
@@ -2306,7 +2306,6 @@
 | jethrogb | GitHub - jethrogb/uefireverse: Tools to help with Reverse Engineering UEFI-based firmware | https://github.com/jethrogb/uefireverse | None |  | None | None | 109 | 0 | 7 | 88 | 0 | C,Ruby,Rust,C++,RenderScript | 228 | 54 | 1| 
 | trufae | forkless - 为 iOS 编写的第三方 fork 库: | https://github.com/trufae/forkless/ | http://www.radare.org/ |  | None | None | 55 | 0 | 19 | 88 | 2 | Objective-C,JavaScript,Makefile,C | 106 | 7 | 1| 
 | Mattiwatti | EfiGuard - x64 UEFI bootkit，在启动时修补 Windows 启动管理器以禁用 PatchGuard 和驱动程序签名验证(DSE) | https://github.com/Mattiwatti/EfiGuard | None |  | The Netherlands | None | 19 | 0 | 13 | 87 | 3 | C,Assembly,C++ | 227 | 61 | 1| 
-| MisakiKata | python cms审计记录 | https://github.com/MisakiKata/python_code_audit/blob/master/%E5%AE%9E%E6%88%98%E6%93%8D%E4%BD%9C.md | https://misakikata.github.io | 企业安全，Python，红队，渗透等 | Shanghai | None | 16 | 0 | 31 | 87 | 31 | Python,C,Shell,Java,HTML | 66 | 19 | 2| 
 | MojtabaTajik | Robber - 用于查找易受 DLL 劫持的可执行文件的工具: | https://github.com/MojtabaTajik/Robber | http://mojtabatajik.github.io/ | Programmer and security researcher experienced in Delphi/C++/C#/Python, Reverse Engineering and hardware design | Tehran, Iran | None | 17 | 0 | 52 | 87 | 23 | C#,Pascal,PowerShell,C++ | 0 | 0 | 1| 
 | fozavci | VIPROY - VoIP Pen-Test Kit for Metasploit Framework | https://github.com/fozavci/viproy-voipkit | http://viproy.com/fozavci |  | Australia | None | 6 | 0 | 8 | 87 | 13 | Ruby | 273 | 71 | 1| 
 | he1m4n6a | easyPass:字典生成和整理工具 | https://github.com/he1m4n6a/easyPass | None | web security, blockchain security | None | None | 46 | 0 | 313 | 87 | 19 | Python,PHP | 164 | 84 | 1| 
@@ -3567,7 +3566,7 @@
 | Eitenne | Fully undetected backdoor with RSA Encrypted shell | https://github.com/Eitenne/TopHat | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 2| 
 | EtixLabs | Cameradar - 攻击 RTSP 监控摄像头的工具: | https://github.com/EtixLabs/cameradar | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,JavaScript,OCaml,C++,CoffeeScript,Objective-C,HTML,Go,PHP,Swift | 0 | 0 | 1| 
 | ExpLife | Analysis-Tools: 恶意软件分析套件 | https://github.com/ExpLife/Analysis-Tools | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
-| FSecureLABS | Physmem2profit 工具用于在可物理访问内存的情况下创建 LSASS 进程的 minidump | https://github.com/FSecureLABS/physmem2profit | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Python,JavaScript,C++,C#,PowerShell | 2200 | 584 | 2| 
+| FSecureLABS | leonidas: Automated Attack Simulation in the Cloud | https://github.com/FSecureLABS/leonidas | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Python,JavaScript,C++,C#,PowerShell | 2200 | 586 | 3| 
 | FederatedAI | FATE: 联邦学习开源项目 | https://github.com/FederatedAI/FATE | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Java,CSS | 703 | 203 | 1| 
 | FlameOfIgnis | PWDB - New generation of Password Mass-Analysis | https://github.com/FlameOfIgnis/Pwdb-Public | https://github.com/EpicGames | Junior year computer engineering student at METU/NCC. | Turkey | @EpicGames @NVIDIAGameWorks | 0 | 0 | 0 | 0 | 0 | Python,TypeScript,JavaScript,Cuda | 835 | 325 | 1| 
 | G-E-N-E-S-I-S | loadlibrayy - x64 PE 注入工具: | https://github.com/G-E-N-E-S-I-S/loadlibrayy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -3596,6 +3595,7 @@
 | MalwareReverseBrasil | malwaresearch: A command line tool to find malwares | https://github.com/MalwareReverseBrasil/malwaresearch | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | Microsoft | ApplicationInspector - 微软开源的源码分析工具 | https://github.com/Microsoft/ApplicationInspector | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Jupyter,C#,JavaScript,C++,Python,Objective-C,Rich,CMake,PowerShell,CSS | 0 | 0 | 1| 
 | MicrosoftDocs | 微软公开 Windows Driver Kit 相关的文档 | https://github.com/MicrosoftDocs/windows-driver-docs | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,HTML,C#,JavaScript,Python,Shell,PowerShell | 3100 | 8200 | 1| 
+| MisakiKata | 子域名监控式漏洞扫描 | https://github.com/MisakiKata/crawlergo_sub | https://misakikata.github.io | 企业安全，Python，红队，渗透等 | Shanghai | None | 0 | 0 | 0 | 0 | 0 | Python,JavaScript,Shell,Java,HTML | 78 | 22 | 3| 
 | MotherFuzzers | 湾区一个关于Fuzzing的workshop的分享内容，三个议题涵盖了c/c++，web应用等不同目标的Fuzzing技巧 | https://github.com/MotherFuzzers/meetups/blob/master/README.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | NVISO-BE | Windows OS Hardening with PowerShell DSC | https://github.com/NVISO-BE/posh-dsc-windowsserver-hardening | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Shell,JavaScript,PowerShell,C++ | 0 | 0 | 1| 
 | NetSPI | Evil SQL Client (ESC) - 为渗透测试设计的交互式的 SQL Server Client，支持发现数据库、访问数据、提取数据 | https://github.com/NetSPI/ESC | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java,C#,Python,HTML,Go,Ruby,PowerShell | 1100 | 282 | 1| 
@@ -3757,6 +3757,7 @@
 | palantir | Windows Exploit Guard 相关的资料整理 | https://github.com/palantir/exploitguard | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Groovy,TypeScript,Java,Scala,Python,JavaScript,Shell,Go,Rust | 0 | 0 | 1| 
 | pan-unit42 | Powershell自动反混淆工具 | https://github.com/pan-unit42/public_tools/tree/master/powershellprofiler | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,PHP,CSS | 0 | 0 | 1| 
 | pdbpp | pdb++ - Python debugger（pdb）的增强版 | https://github.com/pdbpp/pdbpp | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
+| pedrib | Netgear R6700v3 LAN RCE write-up and exploit | https://github.com/pedrib/PoC/blob/master/advisories/Pwn2Own/Tokyo_2019/tokyo_drift/tokyo_drift.md | https://www.agileinfosec.co.uk | 1337 | London, United Kingdom | Agile Information Security | 0 | 0 | 0 | 0 | 0 | HTML,Ruby,CSS,C++ | 260 | 79 | 1| 
 | pentesteracademy | patoolkit: a collection of traffic analysis plugins focused on security | https://github.com/pentesteracademy/patoolkit | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Lua,C,JavaScript,C++ | 0 | 0 | 1| 
 | pentestgeek | phishing-frenzy - Ruby on Rails 编写的钓鱼框架: | https://github.com/pentestgeek/phishing-frenzy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | PHP,Ruby | 0 | 0 | 1| 
 | pleed | PyQemu - dynamic binary instrumentation based crypto detection framework. | https://github.com/pleed/pyqemu | None |  | None | None | 1 | 0 | 0 | 0 | 0 | C | 18 | 9 | 1| 

@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 长亭科技 | Chaitin_Tech | Docker安全性与攻击面分析 | https://mp.weixin.qq.com/s/BaeIGrBimww8SUtePDQ0jA | 1| 
 | ChaMd5安全团队 | chamd5sec | 硬件分析的常用工具与基础方法 | https://mp.weixin.qq.com/s/KFm870IFHGEHRnsek9d3lg | 12| 
 | 绿盟科技研究通讯 | nsfocus_research | 图卷积神经网络在企业侧网络安全运营中的应用 | https://mp.weixin.qq.com/s/d6fpwQlNBUlBba3spJu3wA | 7| 
 | 腾讯安全应急响应中心 | tsrc_team | 红蓝对抗之Windows内网渗透 | https://mp.weixin.qq.com/s/OGiDm3IHBP3_g0AOIHGCKA | 8| 
@@ -235,7 +236,6 @@
 | brompwnie | A HTTP PoC Endpoint for cve-2020-5260 | https://github.com/brompwnie/cve-2020-5260/ | https://twitter.com/brompwnie | Keyboard wrangler ⌨️ | None | None | 29 | 0 | 16 | 91 | 169 | Go,Shell | 269 | 25 | 1| 
 | beader | 首届中文NL2SQL挑战赛决赛第3名方案+代码 | https://github.com/beader/tianchi_nl2sql | None |  | 上海 | None | 20 | 0 | 396 | 90 | 3 | Python,Shell,Jupyter | 148 | 57 | 1| 
 | angelwhu | 基于JVM-Sandbox实现RASP安全监控防护 | https://github.com/angelwhu/jvm-rasp | http://www.angelwhu.com/ |  | wuhan | whu | 71 | 0 | 307 | 89 | 33 | Python,C,PHP,Java | 21 | 8 | 1| 
-| MisakiKata | python cms审计记录 | https://github.com/MisakiKata/python_code_audit/blob/master/%E5%AE%9E%E6%88%98%E6%93%8D%E4%BD%9C.md | https://misakikata.github.io | 企业安全，Python，红队，渗透等 | Shanghai | None | 16 | 0 | 31 | 87 | 31 | Python,C,Shell,Java,HTML | 66 | 19 | 2| 
 | JavierOlmedo | Joplin markdown 笔记软件被发现 XSS 任意文件读漏洞（CVE-2020-9038） | https://github.com/JavierOlmedo/CVE-2020-9038// | https://hackpuntes.com | 👨‍💻 Security Researcher & Ethical Hacker | Toledo, Spain | None | 117 | 0 | 753 | 86 | 230 | Python,JavaScript,Visual,HTML,Go,CSS | 186 | 38 | 1| 
 | omergunal | Predict attacker groups from the techniques and software used | https://github.com/omergunal/Attacker-Group-Predictor | https://ogunal.com |  | Turkey | None | 18 | 0 | 52 | 85 | 17 | Python | 2000 | 229 | 1| 
 | StrangerealIntel | DailyIOC: IOC from articles, tweets for archives | https://github.com/StrangerealIntel/DailyIOC | None |  | None | None | 2 | 0 | 2 | 83 | 0 | YARA,JavaScript | 280 | 44 | 1| 
@@ -318,12 +318,13 @@
 | 4x99 | 码小六 - GitHub 代码泄露监控系统 | https://github.com/4x99/code6 | None |  | None | None | 2 | 0 | 1 | 0 | 0 | PHP | 73 | 14 | 1| 
 | Anemone95 | MLDetectVuln: AI算法解决大规模二进制程序函数相似性分析 | https://github.com/Anemone95/MLDetectVuln | http://anemone.top | Im very vegetable. | None | None | 0 | 0 | 0 | 0 | 0 | Python,JavaScript,PHP,Vim | 8 | 5 | 1| 
 | CERT-Polska | DRAKVUF - Hypervisor 层面的恶意软件自动化分析系统 | https://github.com/CERT-Polska/drakvuf-sandbox | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Java,Python,JavaScript,C++,PHP | 189 | 35 | 1| 
-| FSecureLABS | Physmem2profit 工具用于在可物理访问内存的情况下创建 LSASS 进程的 minidump | https://github.com/FSecureLABS/physmem2profit | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Python,JavaScript,C++,C#,PowerShell | 2200 | 584 | 1| 
+| FSecureLABS | leonidas: Automated Attack Simulation in the Cloud | https://github.com/FSecureLABS/leonidas | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Python,JavaScript,C++,C#,PowerShell | 2200 | 586 | 2| 
 | FlameOfIgnis | PWDB - New generation of Password Mass-Analysis | https://github.com/FlameOfIgnis/Pwdb-Public | https://github.com/EpicGames | Junior year computer engineering student at METU/NCC. | Turkey | @EpicGames @NVIDIAGameWorks | 0 | 0 | 0 | 0 | 0 | Python,TypeScript,JavaScript,Cuda | 835 | 325 | 1| 
 | HexHive | FuzzGen: Automatic Fuzzer Generation | https://github.com/HexHive/FuzzGen | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Python,C++,TeX,HTML,Brainfuck | 0 | 0 | 1| 
 | Integration-IT | Active Directory Exploitation Cheat Sheet | https://github.com/Integration-IT/Active-Directory-Exploitation-Cheat-Sheet | None |  | None | None | 0 | 0 | 0 | 0 | 0 | Ruby,PowerShell | 308 | 55 | 1| 
 | LennyLeng | SOC_Sankey_Generator: 从SOC日志中进行数据ETL与数据可视化的工具 | https://github.com/LennyLeng/SOC_Sankey_Generator | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | Microsoft | ApplicationInspector - 微软开源的源码分析工具 | https://github.com/Microsoft/ApplicationInspector | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Jupyter,C#,JavaScript,C++,Python,Objective-C,Rich,CMake,PowerShell,CSS | 0 | 0 | 1| 
+| MisakiKata | 子域名监控式漏洞扫描 | https://github.com/MisakiKata/crawlergo_sub | https://misakikata.github.io | 企业安全，Python，红队，渗透等 | Shanghai | None | 0 | 0 | 0 | 0 | 0 | Python,JavaScript,Shell,Java,HTML | 78 | 22 | 3| 
 | NVISO-BE | Windows OS Hardening with PowerShell DSC | https://github.com/NVISO-BE/posh-dsc-windowsserver-hardening | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Shell,JavaScript,PowerShell,C++ | 0 | 0 | 1| 
 | NetSPI | Evil SQL Client (ESC) - 为渗透测试设计的交互式的 SQL Server Client，支持发现数据库、访问数据、提取数据 | https://github.com/NetSPI/ESC | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java,C#,Python,HTML,Go,Ruby,PowerShell | 1100 | 282 | 1| 
 | NiuTrans | 机器翻译：统计建模与深度学习方法 | https://github.com/NiuTrans/MTBook | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TeX,C++ | 1500 | 565 | 1| 
@@ -348,6 +349,7 @@
 | microsoft | 微软开源的支持 Checked C 版本的 clang 编译器 | https://github.com/microsoft/checkedc-clang | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Java,C#,JavaScript,C++,Python,Go,CMake,TSQL,PowerShell,HCL | 0 | 0 | 2| 
 | mitre-attack | Joystick :transform the ATT&CK Evaluations data into concise views | https://github.com/mitre-attack/joystick | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,HTML,Python,JavaScript,Zeek,PowerShell | 0 | 0 | 1| 
 | nowsecure | NowSecure 开源的基于 Frida 的 API Trace 工具 | https://github.com/nowsecure/frida-trace | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,Smarty,Dockerfile,CSS | 541 | 112 | 1| 
+| pedrib | Netgear R6700v3 LAN RCE write-up and exploit | https://github.com/pedrib/PoC/blob/master/advisories/Pwn2Own/Tokyo_2019/tokyo_drift/tokyo_drift.md | https://www.agileinfosec.co.uk | 1337 | London, United Kingdom | Agile Information Security | 0 | 0 | 0 | 0 | 0 | HTML,Ruby,CSS,C++ | 260 | 79 | 1| 
 | pyppeteer | pyppeteer2 - 用于控制 Headless Chrome 的 puppeteer 的 Python 移植版 | https://github.com/pyppeteer/pyppeteer2 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | qq4108863 | hihttps: 一款完整源码的高性能Web应用防火墙 | https://github.com/qq4108863/hihttps | None |  | None | None | 0 | 0 | 0 | 0 | 0 | C | 92 | 31 | 1| 
 | rabobank-cdc | DeTTECT: Detect Tactics, Techniques & Combat Threats | https://github.com/rabobank-cdc/DeTTECT | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,CSS | 0 | 0 | 1| 
