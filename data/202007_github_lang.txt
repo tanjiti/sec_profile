@@ -1,11 +1,4 @@
-Python	3
-JavaScript	3
-Shell	2
-Java	2
-C++	2
-HTML	2
+Python	1
 C	1
-C#	1
-Ruby	1
-PowerShell	1
-CSS	1
+JavaScript	1
+C++	1

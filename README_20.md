@@ -14,19 +14,21 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
-| ChaMd5安全团队 | chamd5sec | Oracle 注入学习（终结版） | https://mp.weixin.qq.com/s/BvZ0niXtofDMjzUpHxjKig | 21| 
+| 网安寻路人 | DataProtection101 | 对《数据安全法》的理解和认识 , 立法思路 | https://mp.weixin.qq.com/s/N239WbL9sBQmqPUt5aXp6Q | 6| 
+| 锦行信息安全 | jeeseensec | 从剖析CS木马生成到开发免杀工具 | https://mp.weixin.qq.com/s/BUp3ignvFJhpm-unStrXig | 6| 
+| 边界无限 | BoundaryX | Java代码执行漏洞中类动态加载的应用 | https://mp.weixin.qq.com/s/5iYyRGnlOEEIJmW1DqAeXw | 1| 
+| ChaMd5安全团队 | chamd5sec | Oracle 注入学习（终结版） | https://mp.weixin.qq.com/s/BvZ0niXtofDMjzUpHxjKig | 22| 
 | 七夜安全博客 | qiye_safe | 不一样的 反弹Shell 系统剖析 | https://mp.weixin.qq.com/s/VAHriOf4HVUna3FxhKg_OA | 13| 
 | 看雪学院 | ikanxue | 小议智能设备安全研究 | https://mp.weixin.qq.com/s/Wc6rE_2rVKHOPoCQzmGvKg | 42| 
 | 绿盟科技研究通讯 | nsfocus_research | 初探网络安全智能决策 | https://mp.weixin.qq.com/s/EStPo05HwUTQHOTRx7qltg | 31| 
 | ipasslab | gh_406bdd615bc1 | 学术报告,于小异中求大同：利用差分重放技术检测未初始化变量的使用 | https://mp.weixin.qq.com/s/CjNaxF3Z465u30ugvbDt1w | 2| 
-| 长亭科技 | Chaitin_Tech | Docker安全性与攻击面分析 | https://mp.weixin.qq.com/s/BaeIGrBimww8SUtePDQ0jA | 2| 
 | 腾讯安全应急响应中心 | tsrc_team | 红蓝对抗之Windows内网渗透 | https://mp.weixin.qq.com/s/OGiDm3IHBP3_g0AOIHGCKA | 12| 
+| 长亭科技 | Chaitin_Tech | Docker安全性与攻击面分析 | https://mp.weixin.qq.com/s/BaeIGrBimww8SUtePDQ0jA | 2| 
 | AI公园 | AI_Paradise | 标签传播算法解读 | https://mp.weixin.qq.com/s/dX6CouK7LGNbXsRxRnS26w | 1| 
 | 宽字节安全 | gh_2de2b9f7d076 | Tomcat基于Servlet的无文件webshell的相关技术研究 | https://mp.weixin.qq.com/s/gYGrdDtIldzrE7NHSxTDYQ | 9| 
 | 网络安全观 | SecurityInsights | 网络安全架构 , 安全框架之综述 | https://mp.weixin.qq.com/s/4jec18NXjV6UwubzrYgwzg | 3| 
 | 湛卢工作室 | xuehao_studio | 攻防演习 , 红军的反击 | https://mp.weixin.qq.com/s/WrQa0XoBSak3HM1l650HEg | 9| 
 | 猎户攻防实验室 | TassLiehu | 自动化测试工具APPium初探 | https://mp.weixin.qq.com/s/wwlqd_kO7vfpP6vTPrW_6Q | 17| 
-| 锦行信息安全 | jeeseensec | WMI攻击与安全防御 | https://mp.weixin.qq.com/s/wA7SXfVM3jYsH1VhZqANrA | 5| 
 | 安全学术圈 | secquan | AsiaCCS 2020 论文录用列表 | https://mp.weixin.qq.com/s/uCyikieFzmbF0gAFTeHSfA | 48| 
 | 99所 | gh_4b0bd9f08b03 | 【视频】利用Twitter如何挖掘有价值的开源信息？——工具篇 | https://mp.weixin.qq.com/s/ukP2ASwXA8HDuDNYGHC-Sw | 1| 
 | Bypass | Bypass-- | 甲方安全开源项目清单 | https://mp.weixin.qq.com/s/FS8JVnZqqXw1M9czyeF8dw | 49| 
@@ -297,7 +299,6 @@
 | 宅客频道 | letshome |  | https://mp.weixin.qq.com/s/HZJQD0jHj2ACkgtvGmtyPw | 12| 
 | 瀚思科技 | HanSight |  | https://mp.weixin.qq.com/s/9CQn4qFd88MRU56xBvY_Pw | 4| 
 | 王小明的事 | Struggle_of_a_noob |  | https://mp.weixin.qq.com/s/CEI1XYkq2PZmYsP0DRU7jg | 1| 
-| 网安寻路人 | DataProtection101 |  | https://mp.weixin.qq.com/s/5sGSSpkrJhgvttKxP-udJA | 4| 
 | 58安全应急响应中心 | wubasrc |  | https://mp.weixin.qq.com/s/2r61XB_Po4s3ihkLy46xbA | 1| 
 | 有些鸟 | youxieniao |  | https://mp.weixin.qq.com/s/Frge3EX8sEdOEuygHEJNkg | 1| 
 | Go中国 | golangchina |  | https://mp.weixin.qq.com/s/YbaM-_vs_D2BS1lV6Z-u4g | 1| 
@@ -1690,7 +1691,6 @@
 | DrizzleRisk | drizzleDumper: 一款基于内存搜索的Android脱壳工具 | https://github.com/DrizzleRisk/drizzleDumper | None |  | Beijing | None | 79 | 0 | 24 | 246 | 2 | Python,Makefile,C++ | 1400 | 368 | 1| 
 | jcrocholl | pep8:Simple Python style checker in one Python file | https://github.com/jcrocholl/pep8 | http://johann.rocholl.net |  | Seattle, WA | None | 17 | 0 | 11 | 246 | 0 | Python,OpenSCAD,C | 429 | 297 | 1| 
 | jaredhaight | SharpAttack - 在安全评估时使用的包含多种实用功能的控制台: | https://github.com/jaredhaight/SharpAttack | https://www.psattack.com |  | Seattle, WA | X-Force Red | 54 | 0 | 26 | 244 | 4 | C#,PowerShell | 0 | 0 | 2| 
-| can1357 | 利用 POP SS 漏洞以内核权限执行任意代码的 Exp(CVE-2018-8897): | https://github.com/can1357/CVE-2018-8897 | https://can.ac/ | Im an independent security researcher and a self-employed reverse engineer; mostly interested in Windows kernel development and low-level programming. | None | None | 6 | 0 | 14 | 242 | 11 | C,Cuda,C++ | 0 | 0 | 1| 
 | maddiestone | Maddie Stone 在 Jailbreak Security Summit 会议关于 Whats App 0Day 漏洞分析的 PPT | https://github.com/maddiestone/ConPresentations/blob/master/Jailbreak2019.WhatsUpWithWhatsApp.pdf | http://twitter.com/maddiestone |  | None | None | 4 | 0 | 2 | 242 | 1 | Python | 524 | 105 | 6| 
 | paranoidninja | Pandoras-Box - 创建网站的欺骗证书并为可执行文件签名以逃避杀软检测的工具: | https://github.com/paranoidninja/Pandoras-Box/blob/master/python/CarbonCopy.py | https://scriptdotsh.com/ | ,, OSCP ,, Security Researcher ,, Coding Enthusiast ,, Malware Developer ,, Threat Hunter ,, Ninja ,, I am a Ninja, and I slice Computers with my Katana | Last seen on Ring 0. Current Location Unknown | None | 13 | 0 | 0 | 241 | 0 | Python,C,C++ | 0 | 0 | 1| 
 | blacktop | docker-cuckoo: Cuckoo Sandbox Dockerfile | https://github.com/blacktop/docker-cuckoo | https://github.com/maliceio |  | Nowheresville | @maliceio | 89 | 0 | 167 | 240 | 18 | Go,Python,Shell,Bro | 0 | 0 | 2| 
@@ -3659,6 +3659,7 @@
 | bunnyblue | DexExtractor - Android dex file extractor, anti-bangbang (Bangcle) - | https://github.com/bunnyblue/DexExtractor | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 2| 
 | c633 | malwaRE:malware repository framework | https://github.com/c633/malwaRE | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | cSploit | cSploit - 一款开源的 Android 网络分析及渗透测试套件: | https://github.com/cSploit/android | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Java,JavaScript,C++,HTML,Go,Ruby | 0 | 0 | 1| 
+| can1357 | 在 Windows 内核中运行 Lua Coroutines | https://github.com/can1357/NtLua | https://can.ac/ | Security researcher and reverse engineer; mostly interested in Windows kernel development and low-level programming. | None | Verilave Inc. | 0 | 0 | 0 | 0 | 0 | C,C++ | 388 | 125 | 2| 
 | chamli | CyberCrowl is a python Web path scanner tool | https://github.com/chamli/CyberCrowl | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | checkyfuntime | iMessagesBackdoor - 利用 iMessage 支持的 AppleScript Handler 可以设置后门,发一条消息就可以触发后门被激活:: | https://github.com/checkyfuntime/iMessagesBackdoor | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | chineseocr | darknet-ocr: darknet text detect and darknet cnn ocr | https://github.com/chineseocr/darknet-ocr | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,C++ | 0 | 0 | 1| 
