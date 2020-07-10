@@ -1,4 +1,6 @@
-Python	1
-C	1
+C	2
+Python	2
 JavaScript	1
 C++	1
+C#	1
+HTML	1

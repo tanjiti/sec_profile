@@ -14,14 +14,19 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| GobySec | gobysec | 插件分享 , 如何半天玩转一个“ES未授权利用”插件 | https://mp.weixin.qq.com/s/XZA37Cen9PexyPxuuEx1CQ | 1| 
+| 信息通信技术与政策 | caict_dsc | 专题丨企业级开源风险及治理模式研究 | https://mp.weixin.qq.com/s/hUML8M4gjjpXiimQNNpw-w | 2| 
+| ipasslab | gh_406bdd615bc1 | 学术报告,基于类型状态导向的Use-after-Free漏洞模糊测试技术 | https://mp.weixin.qq.com/s/RE19ba-BnQsZRST338lJHA | 3| 
+| nmask | nmask-article | 我所认知的甲方信息安全建设经验 | https://mp.weixin.qq.com/s/0Uu_os9MB5ZHnowlWkYbEA | 3| 
+| 携程技术 | ctriptech | 干货 , DevSecOps在携程的最佳实践 | https://mp.weixin.qq.com/s/yOykOPU9wn77doz95s5LeA | 1| 
+| 美团技术团队 | meituantech | BERT在美团搜索核心排序的探索和实践 | https://mp.weixin.qq.com/s/mFRhp9pJRa9yHwqc98FMbg | 8| 
+| ChaMd5安全团队 | chamd5sec | SCTF 2020 WriteUp | https://mp.weixin.qq.com/s/puJPmfKOsfbzV-11ggY75Q | 22| 
 | 网安寻路人 | DataProtection101 | 对《数据安全法》的理解和认识 , 立法思路 | https://mp.weixin.qq.com/s/N239WbL9sBQmqPUt5aXp6Q | 6| 
 | 锦行信息安全 | jeeseensec | 从剖析CS木马生成到开发免杀工具 | https://mp.weixin.qq.com/s/BUp3ignvFJhpm-unStrXig | 6| 
 | 边界无限 | BoundaryX | Java代码执行漏洞中类动态加载的应用 | https://mp.weixin.qq.com/s/5iYyRGnlOEEIJmW1DqAeXw | 1| 
-| ChaMd5安全团队 | chamd5sec | Oracle 注入学习（终结版） | https://mp.weixin.qq.com/s/BvZ0niXtofDMjzUpHxjKig | 22| 
 | 七夜安全博客 | qiye_safe | 不一样的 反弹Shell 系统剖析 | https://mp.weixin.qq.com/s/VAHriOf4HVUna3FxhKg_OA | 13| 
 | 看雪学院 | ikanxue | 小议智能设备安全研究 | https://mp.weixin.qq.com/s/Wc6rE_2rVKHOPoCQzmGvKg | 42| 
 | 绿盟科技研究通讯 | nsfocus_research | 初探网络安全智能决策 | https://mp.weixin.qq.com/s/EStPo05HwUTQHOTRx7qltg | 31| 
-| ipasslab | gh_406bdd615bc1 | 学术报告,于小异中求大同：利用差分重放技术检测未初始化变量的使用 | https://mp.weixin.qq.com/s/CjNaxF3Z465u30ugvbDt1w | 2| 
 | 腾讯安全应急响应中心 | tsrc_team | 红蓝对抗之Windows内网渗透 | https://mp.weixin.qq.com/s/OGiDm3IHBP3_g0AOIHGCKA | 12| 
 | 长亭科技 | Chaitin_Tech | Docker安全性与攻击面分析 | https://mp.weixin.qq.com/s/BaeIGrBimww8SUtePDQ0jA | 2| 
 | AI公园 | AI_Paradise | 标签传播算法解读 | https://mp.weixin.qq.com/s/dX6CouK7LGNbXsRxRnS26w | 1| 
@@ -99,7 +104,6 @@
 | 腾讯御见威胁情报中心 |  | 微软发布字体解析远程代码执行漏洞补丁，建议用户尽快修补 | https://mp.weixin.qq.com/s/RvTZWvcXiXsI7xB6L9RWIg | 12| 
 | 404 Not F0und |  | 我对安全与NLP的实践和思考 | https://mp.weixin.qq.com/s/_q5s1fHc0DB3feSd4gQZyw | 2| 
 | 中国信息安全 | chinainfosec | 专题·原创 , 国际网络安全应急响应体系介绍 | https://mp.weixin.qq.com/s/1_cJGTpH4dU780K6qngkjQ | 28| 
-| 信息通信技术与政策 | caict_dsc | APT供应链攻击防护应对分析及意义 | https://mp.weixin.qq.com/s/qGMRjCeIyHSHk_aXI8Fxbg | 1| 
 | 永安在线反欺诈 | YongAnOnline | 永安在线 , 生鲜电商拉新场景业务安全测评报告 | https://mp.weixin.qq.com/s/oiSYOA-BDn9fUnb7EhO2vA | 2| 
 | 腾讯安全智能 | TX_Security_AI | 基于SOC机器学习检测平台的行为分析建模---HTTP隐蔽通信检测 | https://mp.weixin.qq.com/s/ggFbaQvn8yUJOFi_-DPNOw | 3| 
 | 360CERT | CERT-360 | “震网”三代和二代漏洞技术分析报告 | https://mp.weixin.qq.com/s/qc25c_nuUax6UoknAVLrAw | 7| 
@@ -228,7 +232,6 @@
 | 国科军通科技 | gkjtkj | 揭秘：中国自主可控行业全景图 | https://mp.weixin.qq.com/s/7_osWtZV3UZ5KuaoIzt7rA | 1| 
 | 国科漏斗社区 | Goktech_Security | 线下赛AWD训练平台搭建手册 | https://mp.weixin.qq.com/s/VPaAYUu_W3MTOmfmgVxUjA | 1| 
 | 勾陈安全实验室 | PolarisLab | Knife：一个将有用的小功能加入Burp Suite右键菜单的插件 | https://mp.weixin.qq.com/s/Y03VVF3sD9N0_H6TQlxYuQ | 1| 
-| nmask | nmask-article | 当子域名遇上搜索引擎 | https://mp.weixin.qq.com/s/yZFdVXPDh2O_qN_S1DsBPw | 2| 
 | 安全泰式柑汁 | ts_sec | 2019HW行动防守总结 | https://mp.weixin.qq.com/s/q2KdfZ0Wa8rkGT9i6Vjh3g | 1| 
 | 信息化协同创新专委会 | CF-ICI | 国内外颠覆性技术研究进展跟踪与研究方法总结 | https://mp.weixin.qq.com/s/riKGPdyu8ekOy-WuEkyVoQ | 1| 
 | 国家电网报 | stategridnews | 阿根廷全国大停电 | https://mp.weixin.qq.com/s/0p_QrSpJuGSc3IaQB2NMMw | 1| 
@@ -289,7 +292,6 @@
 | 数据安全与取证 | Cflab_net |  | https://mp.weixin.qq.com/s/ES83wSU-WBrUONGjCN6jYw | 1| 
 | 网安一起行_上海网警 | shanghaiwangjing |  | https://mp.weixin.qq.com/s/gAS2cFaWMUdY0s6sT6ZtHw | 1| 
 | 云影实验室 | Yunying_Lab |  | https://mp.weixin.qq.com/s/CMt7NX0sVJip7A8CZq8k-A | 2| 
-| 美团技术团队 | meituantech |  | https://mp.weixin.qq.com/s/inKDcHLaP4M2ZbpxACORXw | 7| 
 | ArkTeam |  |  | https://mp.weixin.qq.com/s/JyGaOV-wBVYCF6gKhYswWw | 4| 
 | 国家互联网应急中心CNCERT | CNCERTCC |  | https://mp.weixin.qq.com/s/5ZOhusBPwQ0WdTBgrStfMg | 4| 
 | 迷样人生 | iot-sec |  | https://mp.weixin.qq.com/s/Sp15EkyNKBZvOZHrJ7zJ2w | 1| 
@@ -3799,6 +3801,7 @@
 | tarantula-team | 开源防火墙 fSense 2.4.4-p2 - 2.4.4-p3 XSS 漏洞 PoC（CVE-2019-12949） | https://github.com/tarantula-team/CVE-2019-12949/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | tea-deliverers | PlaidCTF 2019 比赛的 Writeup | https://github.com/tea-deliverers/ctf-writeups/blob/master/pctf2019/PlaidCTF2019_Writeup_Tea_Deliverers.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | telspacesystems | 华硕 Windows 触摸板驱动 AsusPTPFilter.sys 存在拒绝服务漏洞（CVE-2019-10709） | https://github.com/telspacesystems/Asus-DOS/ | https://www.telspace.co.za |  | South Africa | Telspace Systems | 2 | 0 | 0 | 0 | 0 | Python | 0 | 1 | 1| 
+| tothi | 如何利用DLL代理进行DLL劫持 | https://github.com/tothi/dll-hijack-by-proxying | https://twitter.com/an0n_r0 |  | None | None | 0 | 0 | 0 | 0 | 0 | Python,C#,C,HTML | 207 | 67 | 1| 
 | trailofbits | Sienna Locomotive - 为缺乏安全经验的 Windows 开发者写的 Fuzzer | https://github.com/trailofbits/sienna-locomotive | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,CMake,Python,Ruby,JavaScript,C++,Go,Swift,Rust | 18300 | 1600 | 1| 
 | tylerhalfpop | awesome-reversingA curated list of #awesome #reversing resourcesAuthor: @ tylerhalfpop | https://github.com/tylerhalfpop/awesome-reversing | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 2| 
 | ucbrise | confluo: Real-time Monitoring and Analysis of Data Streams | https://github.com/ucbrise/confluo | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Jupyter,Assembly,Python,JavaScript,Scala,C++,TeX,HTML,Go,Java,CSS | 0 | 0 | 1| 
@@ -3825,6 +3828,9 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 如何在Windows环境中限制基于SMB的横向移动 | http://medium.com/palantir/restricting-smb-based-lateral-movement-in-a-windows-environment-ed033b888721?source=friends_link&sk=a51a65b034ad9ef38e3c60eaeff7e331| 
+| 基于Office的恶意软件分析-第二小节 | http://link.medium.com/32pqJC0KX7| 
+| 如何利用Unicode字符进行SQL注入 | http://medium.com/bugbountywriteup/sql-injection-using-unicode-characters-8d360ead379c?source=rss----7b722bfd1b8d---4| 
 | Microsoft Access的UNC路径注入 | http://medium.com/@rvrsh3ll/introduction-1d327afaf22d| 
 | 请避免使用“特权”权限运行Docker | http://medium.com/better-programming/escaping-docker-privileged-containers-a7ae7d17f5a1| 
 | 逆向工程学习资源收录，包括技术博客、工具/插件、研究报告等 | http://medium.com/@vignesh4303/reverse-engineering-resources-beginners-to-intermediate-guide-links-f64c207505ed| 
