@@ -14,6 +14,10 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 七夜安全博客 | qiye_safe | 从沙盒逃逸看Python黑科技（上篇） | https://mp.weixin.qq.com/s/f5Ra8BtCyEoJmH0gwuvGXg | 3| 
+| 夜暗心明 | yeanxinmingi | 嵌入式浏览器安全杂谈-electron框架 | https://mp.weixin.qq.com/s/J6eqcPPRp7wn06YQhue_Ug | 1| 
+| 数世咨询 | dwconcn | 中国网络安全能力100强 | https://mp.weixin.qq.com/s/22wBFQ0hvFtTcAIdbjUTBg | 1| 
+| 零队 | gh_a3bc6828636a | 鱼叉攻击-炮轰马的制作 | https://mp.weixin.qq.com/s/3GLmtGoP-rG1nBBSw_KxkQ | 1| 
 | GobySec | gobysec | 插件分享 , 如何半天玩转一个“ES未授权利用”插件 | https://mp.weixin.qq.com/s/XZA37Cen9PexyPxuuEx1CQ | 1| 
 | 信息通信技术与政策 | caict_dsc | 专题丨企业级开源风险及治理模式研究 | https://mp.weixin.qq.com/s/hUML8M4gjjpXiimQNNpw-w | 1| 
 | ipasslab | gh_406bdd615bc1 | 学术报告,基于类型状态导向的Use-after-Free漏洞模糊测试技术 | https://mp.weixin.qq.com/s/RE19ba-BnQsZRST338lJHA | 2| 
@@ -24,7 +28,6 @@
 | 网安寻路人 | DataProtection101 | 对《数据安全法》的理解和认识 , 立法思路 | https://mp.weixin.qq.com/s/N239WbL9sBQmqPUt5aXp6Q | 2| 
 | 锦行信息安全 | jeeseensec | 从剖析CS木马生成到开发免杀工具 | https://mp.weixin.qq.com/s/BUp3ignvFJhpm-unStrXig | 1| 
 | 边界无限 | BoundaryX | Java代码执行漏洞中类动态加载的应用 | https://mp.weixin.qq.com/s/5iYyRGnlOEEIJmW1DqAeXw | 1| 
-| 七夜安全博客 | qiye_safe | 不一样的 反弹Shell 系统剖析 | https://mp.weixin.qq.com/s/VAHriOf4HVUna3FxhKg_OA | 1| 
 | 看雪学院 | ikanxue | 小议智能设备安全研究 | https://mp.weixin.qq.com/s/Wc6rE_2rVKHOPoCQzmGvKg | 1| 
 | 绿盟科技研究通讯 | nsfocus_research | 初探网络安全智能决策 | https://mp.weixin.qq.com/s/EStPo05HwUTQHOTRx7qltg | 1| 
 
@@ -39,6 +42,8 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | can1357 | 在 Windows 内核中运行 Lua Coroutines | https://github.com/can1357/NtLua | https://can.ac/ | Security researcher and reverse engineer; mostly interested in Windows kernel development and low-level programming. | None | Verilave Inc. | 0 | 0 | 0 | 0 | 0 | C,C++ | 388 | 125 | 1| 
 | danieleperera | 用于在网络上收集，抓取和监视洋葱站点的扩展工具 | https://github.com/danieleperera/OnionIngestor | None |  | None | None | 0 | 0 | 0 | 0 | 0 | Python,JavaScript | 25 | 5 | 1| 
+| hi-KK | ICS-Protocol-identify: 使用nmap的nse脚本对常见工控协议进行... | https://github.com/hi-KK/ICS-Protocol-identify | https://www.key1.top | Are you OK? :D | US | None | 0 | 0 | 0 | 0 | 0 | Python,Lua,Shell | 26 | 10 | 1| 
+| theLSA | F5 BIGIP RCE(CVE-2020-5902)漏洞检测工具 | https://github.com/theLSA/f5-bigip-rce-cve-2020-5902 | http://www.lsablog.com | I like Cyber Security, penestration, CTF and programming(python,C/C++,PHP,JAVA......), welcome to communicate with me! | China | None | 0 | 0 | 0 | 0 | 0 | Python | 322 | 92 | 1| 
 | tothi | 如何利用DLL代理进行DLL劫持 | https://github.com/tothi/dll-hijack-by-proxying | https://twitter.com/an0n_r0 |  | None | None | 0 | 0 | 0 | 0 | 0 | Python,C#,C,HTML | 207 | 67 | 1| 
 
 
@@ -67,6 +72,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 方舟编译器环境支持的新浪新闻极速版APP分析 | https://zhuanlan.zhihu.com/p/154438363| 
 | CTF实战特训营实训真题 | https://zhuanlan.zhihu.com/p/148384035| 
 
 
