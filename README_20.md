@@ -24,9 +24,9 @@
 | nmask | nmask-article | 我所认知的甲方信息安全建设经验 | https://mp.weixin.qq.com/s/0Uu_os9MB5ZHnowlWkYbEA | 3| 
 | 携程技术 | ctriptech | 干货 , DevSecOps在携程的最佳实践 | https://mp.weixin.qq.com/s/yOykOPU9wn77doz95s5LeA | 1| 
 | 美团技术团队 | meituantech | BERT在美团搜索核心排序的探索和实践 | https://mp.weixin.qq.com/s/mFRhp9pJRa9yHwqc98FMbg | 8| 
+| 锦行信息安全 | jeeseensec | 从剖析CS木马生成到开发免杀工具 | https://mp.weixin.qq.com/s/BUp3ignvFJhpm-unStrXig | 6| 
 | ChaMd5安全团队 | chamd5sec | SCTF 2020 WriteUp | https://mp.weixin.qq.com/s/puJPmfKOsfbzV-11ggY75Q | 22| 
 | 网安寻路人 | DataProtection101 | 对《数据安全法》的理解和认识 , 立法思路 | https://mp.weixin.qq.com/s/N239WbL9sBQmqPUt5aXp6Q | 6| 
-| 锦行信息安全 | jeeseensec | 从剖析CS木马生成到开发免杀工具 | https://mp.weixin.qq.com/s/BUp3ignvFJhpm-unStrXig | 6| 
 | 边界无限 | BoundaryX | Java代码执行漏洞中类动态加载的应用 | https://mp.weixin.qq.com/s/5iYyRGnlOEEIJmW1DqAeXw | 1| 
 | 看雪学院 | ikanxue | 小议智能设备安全研究 | https://mp.weixin.qq.com/s/Wc6rE_2rVKHOPoCQzmGvKg | 42| 
 | 绿盟科技研究通讯 | nsfocus_research | 初探网络安全智能决策 | https://mp.weixin.qq.com/s/EStPo05HwUTQHOTRx7qltg | 31| 
@@ -3682,6 +3682,7 @@
 | dn5 | Cyber-attack on cars over CAN protocol : http://dn5.ljuska.org/cyber-attacks-on-vehicles-2.html ,vircar : | https://github.com/dn5/vircar | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | docileninja | dress : add symbols back into a stripped ELF binary (~strip) : | https://github.com/docileninja/dress | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | ernw | ERNW GmbH 公开了几篇关于 Windows WDAC 与 Code integrity 的研究 Paper | https://github.com/ernw/Windows-Insight/tree/master/articles/Device%20Guard/WDAC | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,XSLT,Python,Erlang | 488 | 134 | 1| 
+| eronnen | 用于解析 Procmon 内部文件格式（日志文件、配置文件）的 Python 库 | https://github.com/eronnen/procmon-parser | None |  | None | None | 0 | 0 | 0 | 0 | 0 | Python,JavaScript,C++ | 31 | 4 | 1| 
 | eth-sri | 利用机器学习的方法还原（推测）被 strip 过的二进制程序的调试符号信息 | https://github.com/eth-sri/debin | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,D,Python,Mathematica,C++,C#,HTML,SMT,JavaScript | 0 | 0 | 1| 
 | falexorr | Siofra - DLL 劫持漏洞扫描器、PE 感染工具: | https://github.com/falexorr/Siofra | None |  | None | None | 1 | 0 | 0 | 0 | 0 | Assembly | 2 | 0 | 1| 
 | falstaff84 | Heartbleed test script for OpenVPN | https://github.com/falstaff84/heartbleed_test_openvpn | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 

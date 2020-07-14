@@ -24,9 +24,9 @@
 | nmask | nmask-article | 我所认知的甲方信息安全建设经验 | https://mp.weixin.qq.com/s/0Uu_os9MB5ZHnowlWkYbEA | 1| 
 | 携程技术 | ctriptech | 干货 , DevSecOps在携程的最佳实践 | https://mp.weixin.qq.com/s/yOykOPU9wn77doz95s5LeA | 1| 
 | 美团技术团队 | meituantech | BERT在美团搜索核心排序的探索和实践 | https://mp.weixin.qq.com/s/mFRhp9pJRa9yHwqc98FMbg | 1| 
+| 锦行信息安全 | jeeseensec | 从剖析CS木马生成到开发免杀工具 | https://mp.weixin.qq.com/s/BUp3ignvFJhpm-unStrXig | 6| 
 | ChaMd5安全团队 | chamd5sec | SCTF 2020 WriteUp | https://mp.weixin.qq.com/s/puJPmfKOsfbzV-11ggY75Q | 14| 
 | 网安寻路人 | DataProtection101 | 对《数据安全法》的理解和认识 , 立法思路 | https://mp.weixin.qq.com/s/N239WbL9sBQmqPUt5aXp6Q | 2| 
-| 锦行信息安全 | jeeseensec | 从剖析CS木马生成到开发免杀工具 | https://mp.weixin.qq.com/s/BUp3ignvFJhpm-unStrXig | 6| 
 | 边界无限 | BoundaryX | Java代码执行漏洞中类动态加载的应用 | https://mp.weixin.qq.com/s/5iYyRGnlOEEIJmW1DqAeXw | 1| 
 | 看雪学院 | ikanxue | 小议智能设备安全研究 | https://mp.weixin.qq.com/s/Wc6rE_2rVKHOPoCQzmGvKg | 6| 
 | 绿盟科技研究通讯 | nsfocus_research | 初探网络安全智能决策 | https://mp.weixin.qq.com/s/EStPo05HwUTQHOTRx7qltg | 8| 
@@ -346,6 +346,7 @@
 | can1357 | 在 Windows 内核中运行 Lua Coroutines | https://github.com/can1357/NtLua | https://can.ac/ | Security researcher and reverse engineer; mostly interested in Windows kernel development and low-level programming. | None | Verilave Inc. | 0 | 0 | 0 | 0 | 0 | C,C++ | 388 | 125 | 1| 
 | codeplutos | MySQL客户端jdbc反序列化漏洞payload | https://github.com/codeplutos/MySQL-JDBC-Deserialization-Payload | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java,C++ | 107 | 20 | 1| 
 | danieleperera | 用于在网络上收集，抓取和监视洋葱站点的扩展工具 | https://github.com/danieleperera/OnionIngestor | None |  | None | None | 0 | 0 | 0 | 0 | 0 | Python,JavaScript | 25 | 5 | 1| 
+| eronnen | 用于解析 Procmon 内部文件格式（日志文件、配置文件）的 Python 库 | https://github.com/eronnen/procmon-parser | None |  | None | None | 0 | 0 | 0 | 0 | 0 | Python,JavaScript,C++ | 31 | 4 | 1| 
 | ffffffff0x | Dork-Admin: 盘点近年来的数据泄露、供应链污染事件 | https://github.com/ffffffff0x/Dork-Admin | None | None | None | None | 0 | 0 | 0 | 0 | 0 | HTML,Java | 0 | 0 | 1| 
 | fofapro | 基于 Docker 镜像的漏洞靶场平台 | https://github.com/fofapro/vulfocus | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Vue,Java,Python,Go,CSS | 169 | 19 | 1| 
 | github | Code QL library for Chrome | https://github.com/github/security-lab/tree/master/CodeQL_Queries/cpp/Chrome | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Python,JavaScript,Haskell,TypeScript,HTML,Go,Ruby | 23100 | 3500 | 2| 
