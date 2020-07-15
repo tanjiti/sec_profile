@@ -1,8 +1,10 @@
-Python	5
+Python	6
 C	2
 JavaScript	2
 C++	2
+C#	2
 Shell	1
+Java	1
 Lua	1
-C#	1
 HTML	1
+Go	1
