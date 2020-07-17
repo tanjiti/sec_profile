@@ -1,11 +1,11 @@
 Python	6
+JavaScript	3
+C++	3
+HTML	3
 C	2
-JavaScript	2
-C++	2
+Java	2
 C#	2
-HTML	2
 Shell	1
-Java	1
 Lua	1
 VBScript	1
 Go	1
