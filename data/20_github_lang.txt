@@ -2,7 +2,7 @@ Python	1001
 C	627
 JavaScript	619
 C++	507
-HTML	453
+HTML	454
 Shell	430
 Java	419
 Go	350
@@ -90,6 +90,7 @@ Brainfuck	2
 Jsonnet	2
 AngelScript	2
 Terra	2
+VBScript	2
 Boo	2
 Prolog	2
 Yacc	2
@@ -117,7 +118,6 @@ RenderScript	1
 Awk	1
 AutoHotkey	1
 Isabelle	1
-VBScript	1
 AutoIt	1
 SourcePawn	1
 ANTLR	1

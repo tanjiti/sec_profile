@@ -14,12 +14,18 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 404 Not F0und | gh_8cea5d3d902b | CVE-Flow:CVE EXP监控和预测 | https://mp.weixin.qq.com/s/8X2Jau5QJ8-TWolpGYBslg | 3| 
+| Seebug漏洞平台 | seebug_org | 溯源黑帽利用 Web 编辑器漏洞非法植入 SEO 页面事件 | https://mp.weixin.qq.com/s/SqPu88RALGMOPeAJ34uNeQ | 2| 
+| 小米安全中心 | misrc_team | 机器学习在小米帐号风控中的应用 | https://mp.weixin.qq.com/s/BplHuoyFQ0cAEBAi3OdZAA | 6| 
+| 网易易盾 | yidun_163yun | 企业等保2.0的那些事儿 | https://mp.weixin.qq.com/s/LNIWi26YWjmp2mh9jO23iA | 1| 
+| 虚拟框架 | gh_39c8fb2fc8b4 | 一个依赖库更新引发的血案：QQ 号被冻结技术分析 | https://mp.weixin.qq.com/s/ZaPQx8aWxUWqDMsjAEDgGA | 1| 
+| 零队 | gh_a3bc6828636a | frsocks+protoplex+流量重定向实现端口复用 | https://mp.weixin.qq.com/s/3dvBMyRyjnmS_ITc6a6ABw | 3| 
+| 宽字节安全 | gh_2de2b9f7d076 | weblogic 7月份更新 CVE-2020-14625 复现&利用 | https://mp.weixin.qq.com/s/pAmYVoiUkYH2viS9WjpDqg | 10| 
 | 我的安全视界观 | CANI_Security | 【漏洞治理】漏洞调研报告（非完整版） | https://mp.weixin.qq.com/s/xDxjee8VO-uLn3VsCJdlPw | 41| 
 | 网安寻路人 | DataProtection101 | 对《数据安全法》的理解和认识 , 中国版的封阻法令 | https://mp.weixin.qq.com/s/yWyrdIrz-KGxmltFoqHFiQ | 7| 
 | 七夜安全博客 | qiye_safe | 从沙盒逃逸看Python黑科技（上篇） | https://mp.weixin.qq.com/s/f5Ra8BtCyEoJmH0gwuvGXg | 15| 
 | 夜暗心明 | yeanxinmingi | 嵌入式浏览器安全杂谈-electron框架 | https://mp.weixin.qq.com/s/J6eqcPPRp7wn06YQhue_Ug | 1| 
 | 数世咨询 | dwconcn | 中国网络安全能力100强 | https://mp.weixin.qq.com/s/22wBFQ0hvFtTcAIdbjUTBg | 5| 
-| 零队 | gh_a3bc6828636a | 鱼叉攻击-炮轰马的制作 | https://mp.weixin.qq.com/s/3GLmtGoP-rG1nBBSw_KxkQ | 2| 
 | GobySec | gobysec | 插件分享 , 如何半天玩转一个“ES未授权利用”插件 | https://mp.weixin.qq.com/s/XZA37Cen9PexyPxuuEx1CQ | 1| 
 | 信息通信技术与政策 | caict_dsc | 专题丨企业级开源风险及治理模式研究 | https://mp.weixin.qq.com/s/hUML8M4gjjpXiimQNNpw-w | 2| 
 | ipasslab | gh_406bdd615bc1 | 学术报告,基于类型状态导向的Use-after-Free漏洞模糊测试技术 | https://mp.weixin.qq.com/s/RE19ba-BnQsZRST338lJHA | 3| 
@@ -34,7 +40,6 @@
 | 腾讯安全应急响应中心 | tsrc_team | 红蓝对抗之Windows内网渗透 | https://mp.weixin.qq.com/s/OGiDm3IHBP3_g0AOIHGCKA | 12| 
 | 长亭科技 | Chaitin_Tech | Docker安全性与攻击面分析 | https://mp.weixin.qq.com/s/BaeIGrBimww8SUtePDQ0jA | 2| 
 | AI公园 | AI_Paradise | 标签传播算法解读 | https://mp.weixin.qq.com/s/dX6CouK7LGNbXsRxRnS26w | 1| 
-| 宽字节安全 | gh_2de2b9f7d076 | Tomcat基于Servlet的无文件webshell的相关技术研究 | https://mp.weixin.qq.com/s/gYGrdDtIldzrE7NHSxTDYQ | 9| 
 | 网络安全观 | SecurityInsights | 网络安全架构 , 安全框架之综述 | https://mp.weixin.qq.com/s/4jec18NXjV6UwubzrYgwzg | 3| 
 | 湛卢工作室 | xuehao_studio | 攻防演习 , 红军的反击 | https://mp.weixin.qq.com/s/WrQa0XoBSak3HM1l650HEg | 9| 
 | 猎户攻防实验室 | TassLiehu | 自动化测试工具APPium初探 | https://mp.weixin.qq.com/s/wwlqd_kO7vfpP6vTPrW_6Q | 17| 
@@ -105,7 +110,6 @@
 | 中睿天下 | zorelworld | 干货,一次对钓鱼邮件攻击者的溯源分析 | https://mp.weixin.qq.com/s/-v7-M05Qyob5Rpzm_9lPQQ | 1| 
 | 美团安全应急响应中心 |  | 复杂风控场景下，如何打造一款高效的规则引擎 | https://mp.weixin.qq.com/s/m4jFHUP3JYF9Z8TUxi9UIg | 4| 
 | 腾讯御见威胁情报中心 |  | 微软发布字体解析远程代码执行漏洞补丁，建议用户尽快修补 | https://mp.weixin.qq.com/s/RvTZWvcXiXsI7xB6L9RWIg | 12| 
-| 404 Not F0und |  | 我对安全与NLP的实践和思考 | https://mp.weixin.qq.com/s/_q5s1fHc0DB3feSd4gQZyw | 2| 
 | 中国信息安全 | chinainfosec | 专题·原创 , 国际网络安全应急响应体系介绍 | https://mp.weixin.qq.com/s/1_cJGTpH4dU780K6qngkjQ | 28| 
 | 永安在线反欺诈 | YongAnOnline | 永安在线 , 生鲜电商拉新场景业务安全测评报告 | https://mp.weixin.qq.com/s/oiSYOA-BDn9fUnb7EhO2vA | 2| 
 | 腾讯安全智能 | TX_Security_AI | 基于SOC机器学习检测平台的行为分析建模---HTTP隐蔽通信检测 | https://mp.weixin.qq.com/s/ggFbaQvn8yUJOFi_-DPNOw | 3| 
@@ -494,7 +498,6 @@
 | 电塔 | DiantaFM |  | https://mp.weixin.qq.com/s/FupWpgckJIzUKD0Edi1Dgw | 1| 
 | 百姓网技术团队 |  |  | http://mp.weixin.qq.com/s/RgyPq9BA3XHJ8cW1CQD71Q | 1| 
 | Ant说安全 |  |  | https://mp.weixin.qq.com/s/bi49FZyRRgJON8t5bf-A3A | 1| 
-| Seebug漏洞平台 | seebug_org |  | https://mp.weixin.qq.com/s?__biz=MzAxNDY2MTQ2OQ==&mid=2650942631&idx=1&sn=12a3c55807768f12fcd1b306fdf775d8 | 1| 
 | 直言论难 |  |  | https://mp.weixin.qq.com/s/krmqJc755kE_j7oTGSJCXg | 1| 
 | 萝卜安全 | carrotsafe |  | https://mp.weixin.qq.com/s/bE_smPTR8yzB1ksvrcXEXw | 1| 
 | 滴滴安全应急响应中心 | didisrc |  | https://mp.weixin.qq.com/s/eHB9zA0dZ-4Fv6ZpKzkHYA | 2| 
@@ -590,7 +593,6 @@
 | 辛巴达历险记 | sinbadlxj | 黑客组织名称和排名 | http://mp.weixin.qq.com/s?__biz=MzA3NDk2MTgwMg==&mid=2650718125&idx=1&sn=e9e005b674e5668e3a013d6014ad608e&scene=1 | 1| 
 | 青藤云安全资讯 | qingtengyun | 干货总是与你不期而遇—第三篇详解Gartner网络安全新趋势 | http://mp.weixin.qq.com/s?__biz=MzAwNDE4Mzc1NA==&mid=2650824605&idx=1&sn=5649ed17d65cdf307e7bea8d027bcf9c&scene=1&srcid=0823AdbdpY67oZ6bW03r0b9y#rd | 10| 
 | 宜人安全应急响应中心 |  | 【YISRC】前方注意，干货来了——sql注入waf篇 | http://mp.weixin.qq.com/s?__biz=MzIyNjQzMjcyNw==&mid=2247483860&idx=1&sn=fa19f02e29d25f5f6852af27451ae4a9&scene=23&srcid=0815JYA53l0Bk3PMkhzRlKUh#rd | 3| 
-| 小米安全中心 | misrc_team | 中、小企业如何自建免费的云WAF | http://mp.weixin.qq.com/s?__biz=MzI2NzI2OTExNA==&mid=2247483792&idx=1&sn=162692a4fe75230da84a68b144f344f7 | 5| 
 | 漏洞盒子VulBox | Vulbox_ | 【干货】如何使用SDR+inspectrum逆向分析无线遥控信号 | http://mp.weixin.qq.com/s?__biz=MzIxODIzNzgwMw==&mid=2654055375&idx=1&sn=6540b6914eb90b5e1695a9bfc7622567 | 3| 
 | 东巽科技 | nj_dongxun | 东巽科技2046Lab团队APT报告：“丰收行动” | https://mp.weixin.qq.com/s?__biz=MzA5Njk2MjQwNQ==&mid=2662971031&idx=1&sn=5e3ec5f92353d65758fc9e5dacd511f5&scene=1&srcid=0808xHpyGeoLW6D85Jqyjezg | 1| 
 | 关注安全技术 | heresecurity | BadTunnel利用之远程劫持任意内网主机流量 | http://mp.weixin.qq.com/s?__biz=MzA4MDMwMjQ3Mg==&mid=2651864934&idx=1&sn=47fabdf7384a29fc6fcaca48bacbe68b&scene=1 | 4| 
@@ -2358,7 +2360,6 @@
 | Gbps | Gbhv - 一款简单的 x86-64 VT-x Hypervisor ,帮助学习使用和开发 VT-X 硬件虚拟化技术: | https://github.com/Gbps/gbhv | http://www.ctf.re/ | I do security things. | Carnegie Mellon University | None | 20 | 0 | 37 | 80 | 15 | Python,C,CSS,C++ | 0 | 0 | 1| 
 | heibaiying | BigData-Notes: 大数据入门指南 | https://github.com/heibaiying/BigData-Notes | https://blog.csdn.net/m0_37809146 | 博客：https://blog.csdn.net/m0_37809146 | shanghai | None | 2 | 0 | 20 | 80 | 0 | Java | 2900 | 755 | 1| 
 | jtesta | ssh-mitm : SSH MITM tool : | https://github.com/jtesta/ssh-mitm | https://www.positronsecurity.com/ | Senior penetration tester and founder of Positron Security. Board member & treasurer of B-Sides Rochester. @therealjoetesta | Rochester, NY | Positron Security | 20 | 0 | 21 | 80 | 7 | Python,C,Shell,Ruby | 0 | 0 | 1| 
-| rootclay | Powershell攻击指南----黑客后渗透之道 | https://github.com/rootclay/Powershell-Attack-Guide | http://rootclay.com | A man who wants to be a ... | beijing | 360 | 34 | 0 | 401 | 80 | 81 | Python,C#,HTML,PowerShell | 298 | 87 | 1| 
 | vincentcox | bypass-firewalls-by-DNS-history - 通过寻找 DNS 历史来绕过 WAF 直接访问真实 IP 地址的工具: | https://github.com/vincentcox/bypass-firewalls-by-DNS-history | https://www.linkedin.com/in/ivincentcox/ | vincentcox.com | Belgium | None | 7 | 0 | 145 | 80 | 15 | Shell,JavaScript,PowerShell | 0 | 0 | 2| 
 | Voulnet | 昨天推送的 Microsoft Office RTF WSDL Parser 野外被利用 0Day 的 PoC: https://github.com/Voulnet/CVE-2017-8759-Exploit-sample | https://github.com/Voulnet/CVE-2017-8759-Exploit-sample | https://twitter.com/voulnet |  | Kuwait | None | 8 | 0 | 11 | 79 | 10 | Python | 251 | 107 | 1| 
 | arthepsy | ssh-audit : SSH server auditing (banner, key exchange, encryption, mac, compression, compatibility, security, etc) : | https://github.com/arthepsy/ssh-audit | https://arthepsy.eu | 😈 InfoSec and BSD | Rīga, Latvia | Evolution Gaming | 54 | 0 | 1 | 79 | 4 | Python,JavaScript,C++ | 2300 | 195 | 1| 
@@ -3780,6 +3781,7 @@
 | reverse-shell | routersploit : The Router Exploitation Framework : | https://github.com/reverse-shell/routersploit | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | riskawarrior | 渗透测试书签 | https://github.com/riskawarrior/pentest-bookmarks#forums | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | robotattackorg | robot-detect - ROBOT 漏洞检测脚本 : | https://github.com/robotattackorg/robot-detect | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
+| rootclay | NTLM-SSP: NTLM中高级进阶进阶 | https://github.com/rootclay/NTLM-SSP | None | A man who wants to be a ... | beijing | Syclover | 40 | 0 | 0 | 0 | 0 | VBScript,HTML | 460 | 135 | 2| 
 | samgha | vipas: Vipasyin Webshell detector Go 语言编写的Webshell检测工具 | https://github.com/samgha/vipas | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,XSLT,Python,JavaScript,C++,Go | 0 | 0 | 1| 
 | samuraictf | SHURIKEN: Exploit throwing framework | https://github.com/samuraictf/shuriken-framework | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,Shell | 0 | 0 | 1| 
 | sanvil | vsauditVOIP Security Audit Frameworkby @ SanvilSrl https://github.com/sanvil/vsaudit | https://github.com/sanvil/vsaudit | None |  | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 

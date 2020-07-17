@@ -1,7 +1,7 @@
 Python	110
 C	57
+HTML	50
 JavaScript	49
-HTML	49
 C++	46
 Shell	39
 Go	36
@@ -29,6 +29,7 @@ Objective-C	3
 Roff	3
 YARA	2
 Assembly	2
+VBScript	2
 Kotlin	2
 Smarty	2
 Haskell	2
@@ -43,7 +44,6 @@ Scheme	1
 PLSQL	1
 Dart	1
 CoffeeScript	1
-VBScript	1
 Brainfuck	1
 SystemVerilog	1
 MATLAB	1
