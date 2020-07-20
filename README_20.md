@@ -14,6 +14,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 360威胁情报中心 | CoreSec360 | 被低估的混乱军团 -WellMess(APT-C-42)组织网络渗透和供应链攻击行动揭秘 | https://mp.weixin.qq.com/s/WmzryWNNJVV7mXABQ1Yu8g | 1| 
+| 安全学术圈 | secquan | 谷歌学术指标2020年（计算机安全及加密） | https://mp.weixin.qq.com/s/hfUCDdMz2yAfR6NM7oqG-Q | 49| 
+| 这里是河马 | gh_d110440c4890 | 管理员朋友，请警惕最新出现的nginx后门 | https://mp.weixin.qq.com/s/Vyfto0qn4L16s9dNfVOEqQ | 3| 
 | 404 Not F0und | gh_8cea5d3d902b | CVE-Flow:CVE EXP监控和预测 | https://mp.weixin.qq.com/s/8X2Jau5QJ8-TWolpGYBslg | 3| 
 | Seebug漏洞平台 | seebug_org | 溯源黑帽利用 Web 编辑器漏洞非法植入 SEO 页面事件 | https://mp.weixin.qq.com/s/SqPu88RALGMOPeAJ34uNeQ | 2| 
 | 小米安全中心 | misrc_team | 机器学习在小米帐号风控中的应用 | https://mp.weixin.qq.com/s/BplHuoyFQ0cAEBAi3OdZAA | 6| 
@@ -43,7 +46,6 @@
 | 网络安全观 | SecurityInsights | 网络安全架构 , 安全框架之综述 | https://mp.weixin.qq.com/s/4jec18NXjV6UwubzrYgwzg | 3| 
 | 湛卢工作室 | xuehao_studio | 攻防演习 , 红军的反击 | https://mp.weixin.qq.com/s/WrQa0XoBSak3HM1l650HEg | 9| 
 | 猎户攻防实验室 | TassLiehu | 自动化测试工具APPium初探 | https://mp.weixin.qq.com/s/wwlqd_kO7vfpP6vTPrW_6Q | 17| 
-| 安全学术圈 | secquan | AsiaCCS 2020 论文录用列表 | https://mp.weixin.qq.com/s/uCyikieFzmbF0gAFTeHSfA | 48| 
 | 99所 | gh_4b0bd9f08b03 | 【视频】利用Twitter如何挖掘有价值的开源信息？——工具篇 | https://mp.weixin.qq.com/s/ukP2ASwXA8HDuDNYGHC-Sw | 1| 
 | Bypass | Bypass-- | 甲方安全开源项目清单 | https://mp.weixin.qq.com/s/FS8JVnZqqXw1M9czyeF8dw | 49| 
 | 互联网安全内参 | anquanneican | 深度解读：Verizon 2020年数据泄露报告 | https://mp.weixin.qq.com/s/sDu5eydjesAwsI2v8dEj5Q | 6| 
@@ -263,7 +265,6 @@
 | 国际安全简报 | securitybrief |  | https://mp.weixin.qq.com/s/tHjveTuc1bi0TxmJKwMoGw | 1| 
 | 安全树洞 | treeholeofsec |  | https://mp.weixin.qq.com/s?__biz=MzU2NzkwNTQxNg==&mid=2247483719&idx=1&sn=1f68582237b3ece6f07bdf3be60fc1ec&chksm=fc975ca0cbe0d5b65824d2ec0bf2b11a2d26d69f6935371c73114db689fc3a56a13eeb6eeefb&token=1697253642&lang=zh_CN#rd | 1| 
 | 数字经济与社会 |  |  | https://mp.weixin.qq.com/s/sktQAoNeE-3na9lBPm9nzg | 1| 
-| 这里是河马 |  |  | https://mp.weixin.qq.com/s/FupNkLOOWAabvnC3Yob_uw | 1| 
 | CAICT5G创新研究中心 |  |  | https://mp.weixin.qq.com/s/wL15_qP9iYae4J70XyncXw | 1| 
 | 终结诈骗 | antifraud2 |  | https://mp.weixin.qq.com/s/eDq-QpEHjZieX-pjmDQFCg | 1| 
 | 逢人斗智斗勇 | xiaopigfly |  | https://mp.weixin.qq.com/s/qv3pYEzi08DMydqUj1dSRw | 2| 
@@ -3835,6 +3836,8 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Vulnserver —第2部分（TRUN — EIP覆盖） | http://medium.com/bugbountywriteup/expdev-vulnserver-part-2-46de4dd7bdde?source=rss----7b722bfd1b8d---4| 
+| 介绍基于HTTP的Python脚本木马程序安全分析。 | http://medium.com/bugbountywriteup/python-http-based-trojan-for-remote-system-forensics-and-privilege-transfer-ae128891b4de?source=rss----7b722bfd1b8d---4| 
 | 如何在Windows环境中限制基于SMB的横向移动 | http://medium.com/palantir/restricting-smb-based-lateral-movement-in-a-windows-environment-ed033b888721?source=friends_link&sk=a51a65b034ad9ef38e3c60eaeff7e331| 
 | 基于Office的恶意软件分析-第二小节 | http://link.medium.com/32pqJC0KX7| 
 | 如何利用Unicode字符进行SQL注入 | http://medium.com/bugbountywriteup/sql-injection-using-unicode-characters-8d360ead379c?source=rss----7b722bfd1b8d---4| 

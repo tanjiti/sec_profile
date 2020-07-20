@@ -14,6 +14,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 360威胁情报中心 | CoreSec360 | 被低估的混乱军团 -WellMess(APT-C-42)组织网络渗透和供应链攻击行动揭秘 | https://mp.weixin.qq.com/s/WmzryWNNJVV7mXABQ1Yu8g | 1| 
+| 安全学术圈 | secquan | 谷歌学术指标2020年（计算机安全及加密） | https://mp.weixin.qq.com/s/hfUCDdMz2yAfR6NM7oqG-Q | 1| 
+| 这里是河马 | gh_d110440c4890 | 管理员朋友，请警惕最新出现的nginx后门 | https://mp.weixin.qq.com/s/Vyfto0qn4L16s9dNfVOEqQ | 2| 
 | 404 Not F0und | gh_8cea5d3d902b | CVE-Flow:CVE EXP监控和预测 | https://mp.weixin.qq.com/s/8X2Jau5QJ8-TWolpGYBslg | 1| 
 | Seebug漏洞平台 | seebug_org | 溯源黑帽利用 Web 编辑器漏洞非法植入 SEO 页面事件 | https://mp.weixin.qq.com/s/SqPu88RALGMOPeAJ34uNeQ | 1| 
 | 小米安全中心 | misrc_team | 机器学习在小米帐号风控中的应用 | https://mp.weixin.qq.com/s/BplHuoyFQ0cAEBAi3OdZAA | 1| 
@@ -62,6 +65,8 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Vulnserver —第2部分（TRUN — EIP覆盖） | http://medium.com/bugbountywriteup/expdev-vulnserver-part-2-46de4dd7bdde?source=rss----7b722bfd1b8d---4| 
+| 介绍基于HTTP的Python脚本木马程序安全分析。 | http://medium.com/bugbountywriteup/python-http-based-trojan-for-remote-system-forensics-and-privilege-transfer-ae128891b4de?source=rss----7b722bfd1b8d---4| 
 | 如何在Windows环境中限制基于SMB的横向移动 | http://medium.com/palantir/restricting-smb-based-lateral-movement-in-a-windows-environment-ed033b888721?source=friends_link&sk=a51a65b034ad9ef38e3c60eaeff7e331| 
 | 基于Office的恶意软件分析-第二小节 | http://link.medium.com/32pqJC0KX7| 
 | 如何利用Unicode字符进行SQL注入 | http://medium.com/bugbountywriteup/sql-injection-using-unicode-characters-8d360ead379c?source=rss----7b722bfd1b8d---4| 
