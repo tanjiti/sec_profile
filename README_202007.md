@@ -73,6 +73,7 @@
 | title | url| 
 | --- | ---| 
 | billboard.js 2.0发布！ 拥有更轻巧的体积和更高的性能。 | http://medium.com/@alberto.park/billboard-js-2-0-is-out-15e84b52ab11| 
+| 用于为 Android 应用提供 BLE 设备连接的 Nordic 库被发现漏洞 | http://medium.com/bugbountywriteup/norec-attack-stripping-ble-encryption-from-nordics-library-cve-2020-15509-9798ab893b95| 
 | Vulnserver —第2部分（TRUN — EIP覆盖） | http://medium.com/bugbountywriteup/expdev-vulnserver-part-2-46de4dd7bdde?source=rss----7b722bfd1b8d---4| 
 | 介绍基于HTTP的Python脚本木马程序安全分析。 | http://medium.com/bugbountywriteup/python-http-based-trojan-for-remote-system-forensics-and-privilege-transfer-ae128891b4de?source=rss----7b722bfd1b8d---4| 
 | 如何在Windows环境中限制基于SMB的横向移动 | http://medium.com/palantir/restricting-smb-based-lateral-movement-in-a-windows-environment-ed033b888721?source=friends_link&sk=a51a65b034ad9ef38e3c60eaeff7e331| 
@@ -100,6 +101,28 @@
 | 知识图谱平台化助力知识图谱行业大发展 | https://zhuanlan.zhihu.com/p/159149955| 
 | 方舟编译器环境支持的新浪新闻极速版APP分析 | https://zhuanlan.zhihu.com/p/154438363| 
 | CTF实战特训营实训真题 | https://zhuanlan.zhihu.com/p/148384035| 
+
+
+# xz_xuanwu 推荐
+| title | url| 
+| --- | ---| 
+
+
+# xz_secwiki 推荐
+| title | url| 
+| --- | ---| 
+| PHP代码审计之旅 | https://xz.aliyun.com/t/7992| 
+| Metasploit & CobaltStrike 的shellcode分析 | https://xz.aliyun.com/t/7996| 
+| wireshark和威胁分析 | https://xz.aliyun.com/t/7802| 
+| 密码找回中的套路 | https://xz.aliyun.com/t/7977| 
+| 使用 CodeQL 挖掘 CVE-2020-9297 | https://xz.aliyun.com/t/7979| 
+| 内网渗透之应用层隧道技术 | https://xz.aliyun.com/t/7956| 
+| Java代码审计 | https://xz.aliyun.com/t/7945| 
+| 红队攻防系列之花式鱼竿钓鱼篇 | https://xz.aliyun.com/t/7958| 
+| Windows/Linux文件下载方式汇总 | https://xz.aliyun.com/t/7937| 
+| 浅谈短信验证码漏洞 | https://xz.aliyun.com/t/7926| 
+| 对Linux 提权的简单总结 | https://xz.aliyun.com/t/7924| 
+| 踩坑记录-DNS Beacon | https://xz.aliyun.com/t/7938| 
 
 
 

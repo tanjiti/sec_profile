@@ -236,7 +236,12 @@ def draw_table(so, source="weixin", top=100, year="2019"):
     elif source == "zhihu_secwiki":
         sql = "select title,url from secwiki_today_detail where url like '%zhihu.com%' and ts like '{year}%' order by ts desc "
         header = ["title", "url"]
-
+    elif source == "xz_xuanwu":
+        sql = "select title,url from xuanwu_today_detail where url like '%aliyun.com%' and ts like '{year}%' order by ts desc "
+        header = ["title", "url"]
+    elif source == "xz_secwiki":
+        sql = "select title,url from secwiki_today_detail where url like '%aliyun.com%' and ts like '{year}%' order by ts desc "
+        header = ["title", "url"]
 
 
     else:
@@ -309,7 +314,9 @@ def draw_readme_item(year=None, fpath=None):
 
     # update weixin,github
     sources = ["weixin", "github_org", "github_private", "medium_xuanwu", "medium_secwiki",
-               "zhihu_xuanwu", "zhihu_secwiki"]
+               "zhihu_xuanwu", "zhihu_secwiki",
+               "xz_xuanwu", "xz_secwiki"
+               ]
 
     d = {
         "weixin": "微信公众号",

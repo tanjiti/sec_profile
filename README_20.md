@@ -3839,6 +3839,7 @@
 | title | url| 
 | --- | ---| 
 | billboard.js 2.0发布！ 拥有更轻巧的体积和更高的性能。 | http://medium.com/@alberto.park/billboard-js-2-0-is-out-15e84b52ab11| 
+| 用于为 Android 应用提供 BLE 设备连接的 Nordic 库被发现漏洞 | http://medium.com/bugbountywriteup/norec-attack-stripping-ble-encryption-from-nordics-library-cve-2020-15509-9798ab893b95| 
 | Vulnserver —第2部分（TRUN — EIP覆盖） | http://medium.com/bugbountywriteup/expdev-vulnserver-part-2-46de4dd7bdde?source=rss----7b722bfd1b8d---4| 
 | 介绍基于HTTP的Python脚本木马程序安全分析。 | http://medium.com/bugbountywriteup/python-http-based-trojan-for-remote-system-forensics-and-privilege-transfer-ae128891b4de?source=rss----7b722bfd1b8d---4| 
 | 如何在Windows环境中限制基于SMB的横向移动 | http://medium.com/palantir/restricting-smb-based-lateral-movement-in-a-windows-environment-ed033b888721?source=friends_link&sk=a51a65b034ad9ef38e3c60eaeff7e331| 
@@ -4074,6 +4075,218 @@
 | 基于机器学习的攻击检测（一） | https://zhuanlan.zhihu.com/p/58689080| 
 | 基于深度学习的webshell检测（二） | https://zhuanlan.zhihu.com/p/58683374| 
 | 基于机器学习的webshell检测（一） | https://zhuanlan.zhihu.com/p/58676764| 
+
+
+# xz_xuanwu 推荐
+| title | url| 
+| --- | ---| 
+| Django CVE-2020-9402 Geo SQL注入分析 | https://xz.aliyun.com/t/7403| 
+| Django SQL 注入CVE-2020-7471 漏洞详细分析原理以及 POC | https://xz.aliyun.com/t/7218| 
+
+
+# xz_secwiki 推荐
+| title | url| 
+| --- | ---| 
+| PHP代码审计之旅 | https://xz.aliyun.com/t/7992| 
+| Metasploit & CobaltStrike 的shellcode分析 | https://xz.aliyun.com/t/7996| 
+| wireshark和威胁分析 | https://xz.aliyun.com/t/7802| 
+| 密码找回中的套路 | https://xz.aliyun.com/t/7977| 
+| 使用 CodeQL 挖掘 CVE-2020-9297 | https://xz.aliyun.com/t/7979| 
+| 内网渗透之应用层隧道技术 | https://xz.aliyun.com/t/7956| 
+| Java代码审计 | https://xz.aliyun.com/t/7945| 
+| 红队攻防系列之花式鱼竿钓鱼篇 | https://xz.aliyun.com/t/7958| 
+| Windows/Linux文件下载方式汇总 | https://xz.aliyun.com/t/7937| 
+| 浅谈短信验证码漏洞 | https://xz.aliyun.com/t/7926| 
+| 对Linux 提权的简单总结 | https://xz.aliyun.com/t/7924| 
+| 踩坑记录-DNS Beacon | https://xz.aliyun.com/t/7938| 
+| 渗透经验分享之SQL注入思路拓展 | https://xz.aliyun.com/t/7919| 
+| Java代码审计之Struts2-001 | https://xz.aliyun.com/t/7915| 
+| Powershell免杀的探索 | https://xz.aliyun.com/t/7903| 
+| Linux Pam后门总结拓展 | https://xz.aliyun.com/t/7902| 
+| 内网渗透之ICMP隐藏隧道 | https://xz.aliyun.com/t/7875| 
+| firefox-hackbar-2.2.9 自签名学习版全过程 | https://xz.aliyun.com/t/7857| 
+| 某cms的一次审计 | https://xz.aliyun.com/t/7872| 
+| Docker逃逸小结 第一版 | https://xz.aliyun.com/t/7881| 
+| 记一次测试Gitlab | https://xz.aliyun.com/t/7870| 
+| 初探PythonOpcode逃逸 | https://xz.aliyun.com/t/7828| 
+| vBulletin 5.6.1 SQL注入漏洞 | https://xz.aliyun.com/t/7831| 
+| D-Link DIR815路由器缓冲区溢出漏洞再分析 | https://xz.aliyun.com/t/7835| 
+| Monstra CMS RCE漏洞分析（CVE-2020-13384） | https://xz.aliyun.com/t/7850| 
+| LFCMS的一次审计 | https://xz.aliyun.com/t/7844| 
+| nodejs沙箱与黑魔法 | https://xz.aliyun.com/t/7842| 
+| Intigriti的2020年5月XSS挑战 | https://xz.aliyun.com/t/7800| 
+| 基于机器学习的GitHub敏感信息泄露监控 | https://xz.aliyun.com/t/7805| 
+| Django 初次尝试编写 Web 漏洞扫描器挖坑记录 | https://xz.aliyun.com/t/7816| 
+| 浅析域渗透中的组策略利用 | https://xz.aliyun.com/t/7784| 
+| Thinkphp5代码执行学习 | https://xz.aliyun.com/t/7792| 
+| codeql学习——污点分析 | https://xz.aliyun.com/t/7789| 
+| 红队-C2 Server基础构建 | https://xz.aliyun.com/t/7758| 
+| 从0学习WebLogic CVE-2020-2551漏洞 | https://xz.aliyun.com/t/7725| 
+| 域控提权合集 | https://xz.aliyun.com/t/7726| 
+| 虎符杯两道NodeJS题目的分析 | https://xz.aliyun.com/t/7714| 
+| 对缓存投毒的学习总结 | https://xz.aliyun.com/t/7696| 
+| linux后渗透之收集登录凭证 | https://xz.aliyun.com/t/7698| 
+| Rick教你写shellcode系列之邪恶的pdf | https://xz.aliyun.com/t/7684| 
+| 短信身份验证的安全风险 | https://xz.aliyun.com/t/7638| 
+| 一次Reverse出题手记 | https://xz.aliyun.com/t/7619| 
+| 记一次对PUBG外挂病毒的反制过程 | https://xz.aliyun.com/t/7626| 
+| 红队测评技巧：对公司发起OSINT | https://xz.aliyun.com/t/7610| 
+| waf-bypass学习 | https://xz.aliyun.com/t/7578| 
+| 详述一次拿shell后的单机信息搜集和贯穿整个内网的大型横向渗... | https://xz.aliyun.com/t/7538| 
+| 百家cms代码审计 | https://xz.aliyun.com/t/7542| 
+| CVE-2020-0796 SMB漏洞本地提权分析 | https://xz.aliyun.com/t/7550| 
+| 浅析接口安全之WebService | https://xz.aliyun.com/t/7541| 
+| 从0到1认识DNS重绑定攻击 | https://xz.aliyun.com/t/7495| 
+| 记一次360众测仿真实战靶场考核WP | https://xz.aliyun.com/t/7547| 
+| smbghost（CVE-2020-0796）漏洞POC汇总及简单分析 | https://xz.aliyun.com/t/7440| 
+| 使用AFL挖掘libxml2 | https://xz.aliyun.com/t/7400| 
+| Django CVE-2020-9402 Geo SQL注入分析 | https://xz.aliyun.com/t/7403| 
+| Bug Bounty:绕过Google域检测 | https://xz.aliyun.com/t/7384| 
+| 基于tomcat的内存 Webshell 无文件攻击技术 | https://xz.aliyun.com/t/7388| 
+| Cobalt Strike折腾踩坑填坑记录 | https://xz.aliyun.com/t/7375| 
+| 使用 Dom Clobbering 扩展 XSS | https://xz.aliyun.com/t/7329| 
+| 从0到1的虚拟机逃逸三部曲 | https://xz.aliyun.com/t/7345| 
+| 初探利用angr进行漏洞挖掘（下） | https://xz.aliyun.com/t/7275| 
+| 初探利用angr进行漏洞挖掘（上） | https://xz.aliyun.com/t/7274| 
+| 浅析CORS攻击及其挖洞思路 | https://xz.aliyun.com/t/7242| 
+| SSH隧道技术在实战中的使用 | https://xz.aliyun.com/t/7245| 
+| 使用Suricata和ELK进行流量检测 | https://xz.aliyun.com/t/7263| 
+| zeratool：基于 angr 的CTF pwn 自动化利用工具介绍 | https://xz.aliyun.com/t/7224| 
+| 钓鱼配合smb重放攻击 | https://xz.aliyun.com/t/7234| 
+| 本人在2019年对一些NodeJS问题的研究 | https://xz.aliyun.com/t/7237| 
+| 浅析javascript原型链污染攻击 | https://xz.aliyun.com/t/7182| 
+| 基于 angr 的漏洞利用自动生成之缓冲区溢出案例分析 | https://xz.aliyun.com/t/7199| 
+| Rex: 自动化利用引擎分析 | https://xz.aliyun.com/t/7179| 
+| 那些shellcode免杀总结 | https://xz.aliyun.com/t/7170| 
+| 如何利用AgentSmith-HIDS检测反弹shell | https://xz.aliyun.com/t/7158| 
+| 记一次验签机制伪造绕过的继续渗透测试 | https://xz.aliyun.com/t/7143| 
+| Stowaway--go语言编写的多级代理工具 | https://xz.aliyun.com/t/7119| 
+| Empire的进攻性研究 | https://xz.aliyun.com/t/7071| 
+| 代码审计zzcms | https://xz.aliyun.com/t/7006| 
+| 国外某cms审计之文件删除漏洞 | https://xz.aliyun.com/t/6999| 
+| 通过AST来手撕Pickle opcode | https://xz.aliyun.com/t/7012| 
+| Log4j反序列化分析(CVE-2019-17571&CVE-2017-5645) | https://xz.aliyun.com/t/7010| 
+| 挖洞神器之XRAY使用初体验 | https://xz.aliyun.com/t/6981| 
+| blind-pwn系列总结+创新 | https://xz.aliyun.com/t/6984| 
+| 记针对某单位一次相对完整的渗透测试 | https://xz.aliyun.com/t/6979| 
+| 内网穿透及端口转发大合集 | https://xz.aliyun.com/t/6966| 
+| PHP代码审计入门篇bluecms | https://xz.aliyun.com/t/6946| 
+| Android内核漏洞学习——CVE-2014-3153分析（2） | https://xz.aliyun.com/t/6948| 
+| H1ve--开源攻防训练平台 | https://xz.aliyun.com/t/6889| 
+| Python中有潜在代码执行风险的函数(一) | https://xz.aliyun.com/t/6902| 
+| Weblogic-T3-CVE-2019-2890-Analysis | https://xz.aliyun.com/t/6904| 
+| Python模板注入(SSTI)深入学习 | https://xz.aliyun.com/t/6885| 
+| Linux逆向之调试&反调试 | https://xz.aliyun.com/t/6882| 
+| NJUPT CTF 天璇Writeup | https://xz.aliyun.com/t/6876| 
+| 漏洞验证和利用代码编写指南 | https://xz.aliyun.com/t/6880| 
+| 一篇文章带你读懂 HTTP Smuggling 攻击 | https://xz.aliyun.com/t/6878| 
+| 持久化研究-Scheduled Tasks | https://xz.aliyun.com/t/6822| 
+| 回调函数绕过D盾小套路 | https://xz.aliyun.com/t/6823| 
+| 路由器破解初探之栈溢出漏洞利用 | https://xz.aliyun.com/t/6808| 
+| Java反序列化漏洞原理解析 | https://xz.aliyun.com/t/6787| 
+| Web中间件漏洞总结之Nginx漏洞 | https://xz.aliyun.com/t/6801| 
+| Redhat 线下赛 WEB WP | https://xz.aliyun.com/t/6826| 
+| iTerm2 任意命令执行漏洞分析（CVE-2019-9535） | https://xz.aliyun.com/t/6796| 
+| 分析并使用python3编写meterpreter加载器绕过AV | https://xz.aliyun.com/t/6782| 
+| 从锐捷某系统鸡肋XSS到通用WAF绕过 | https://xz.aliyun.com/t/6733| 
+| 2019红帽杯 Writeup by X1cT34m | https://xz.aliyun.com/t/6746| 
+| 从Kibana-RCE对nodejs子进程创建的思考 | https://xz.aliyun.com/t/6755| 
+| 基于主机的反弹shell检测思路 | https://xz.aliyun.com/t/6727| 
+| 从0到1打造一款堪称完美antSword(蚁剑) | https://xz.aliyun.com/t/6701| 
+| 基于卷积神经网络的恶意代码家族标注 | https://xz.aliyun.com/t/6705| 
+| PHP反序列化拓展攻击详解--phar | https://xz.aliyun.com/t/6699| 
+| 关于子域名劫持的一些总结 | https://xz.aliyun.com/t/6683| 
+| Shellcode编码技术 | https://xz.aliyun.com/t/6665| 
+| 深入了解子域名挖掘tricks | https://xz.aliyun.com/t/6617| 
+| angr 入门介绍（二） | https://xz.aliyun.com/t/6569| 
+| angr 入门介绍（一） | https://xz.aliyun.com/t/6557| 
+| 加密Webshell“冰蝎”攻防 | https://xz.aliyun.com/t/6550| 
+| jsonp的一些安全问题 | https://xz.aliyun.com/t/6539| 
+| v8 exploit - RealWorld CTF2019 accessible | https://xz.aliyun.com/t/6507| 
+| Windows样本高级静态分析之识别汇编中C代码结构(switch) | https://xz.aliyun.com/t/6505| 
+| eve-ng搭建攻防域环境 | https://xz.aliyun.com/t/6504| 
+| “北极星杯”AWD线上赛复盘 | https://xz.aliyun.com/t/6477| 
+| Hacking Windows 备忘录 | https://xz.aliyun.com/t/6498| 
+| ThinkPHP5.1.X反序列化利用链 | https://xz.aliyun.com/t/6467| 
+| 2019浙江省大学生网络与信息安全竞赛决赛部分WriteUp | https://xz.aliyun.com/t/6458| 
+| 基于qemu和unicorn的Fuzz技术分析 | https://xz.aliyun.com/t/6457| 
+| windows中常见后门持久化方法总结 | https://xz.aliyun.com/t/6461| 
+| “第五空间”网络安全线下赛PWN部分WRITEUP | https://xz.aliyun.com/t/6431| 
+| 建立加密socks5转发的两种方法 | https://xz.aliyun.com/t/6447| 
+| 2019工业信息安全技能大赛个人线上赛第二场(5道) writeup | https://xz.aliyun.com/t/6445| 
+| 内网渗透之端口转发、映射、代理 | https://xz.aliyun.com/t/6349| 
+| 钓鱼邮件的投递和伪造 | https://xz.aliyun.com/t/6325| 
+| QQ空间流氓转发分析 | https://xz.aliyun.com/t/6238| 
+| 深度学习检测恶意PowerShell新方法 | https://xz.aliyun.com/t/6247| 
+| 通过基于时间的侧信道攻击识别WAF规则 | https://xz.aliyun.com/t/6175| 
+| TP Link SR20 ACE漏洞分析 | https://xz.aliyun.com/t/6073| 
+| 固件修改及编译记录 | https://xz.aliyun.com/t/6053| 
+| 华为路由器 H532G 漏洞分析 | https://xz.aliyun.com/t/6116| 
+| 拦截Android Flutter应用程序流量的研究 | https://xz.aliyun.com/t/6149| 
+| 基于访问日志的异常请求检测 | https://xz.aliyun.com/t/6117| 
+| 单机日志分析工具-logC | https://xz.aliyun.com/t/5894| 
+| web.config文件上传技术研究 | https://xz.aliyun.com/t/6037| 
+| 拟态防御系列问题分析 | https://xz.aliyun.com/t/5953| 
+| 基于机器学习的jsp/jspx webshell检测 | https://xz.aliyun.com/t/5994| 
+| SURF路由器安全漏洞研究 | https://xz.aliyun.com/t/5884| 
+| CobaltStrike插件开发官方指南 Part2 | https://xz.aliyun.com/t/5892| 
+| CobaltStrike插件开发官方指南 Part1 | https://xz.aliyun.com/t/5887| 
+| 一次真实axis2渗透测试 | https://xz.aliyun.com/t/5832| 
+| 关于对antSword(蚁剑)进行流量混淆处理的解决方案 | https://xz.aliyun.com/t/5756| 
+| 论菜鸡pwn手如何在无网环境下生存 | https://xz.aliyun.com/t/5749| 
+| 2019年四川省大学生信息安全技术大赛AWD简单分析 | https://xz.aliyun.com/t/5793| 
+| 国赛决赛laravel的另一种不完美做法 | https://xz.aliyun.com/t/5816| 
+| 路由器漏洞分析系列(4):CVE-2019-7297 7298 D-Link DIR-823G ... | https://xz.aliyun.com/t/5705| 
+| 路由器漏洞分析系列(3):CVE-2018-20057 DIR-619L&605L后门漏洞... | https://xz.aliyun.com/t/5702| 
+| 反溯源-cs和msf域名上线 | https://xz.aliyun.com/t/5728| 
+| FastJson最新反序列化漏洞分析 | https://xz.aliyun.com/t/5680| 
+| 精简版SDL落地实践 | https://xz.aliyun.com/t/5656| 
+| 赛博杯2019 Write Up | https://xz.aliyun.com/t/5648| 
+| CVE-2019-0863漏洞分析 | https://xz.aliyun.com/t/5571| 
+| Discuz!ML V3.X 代码注入分析 | https://xz.aliyun.com/t/5638| 
+| phpMyAdmin 文件包含复现分析 | https://xz.aliyun.com/t/5534| 
+| 拟态防御题型pwn&web初探 | https://xz.aliyun.com/t/5532| 
+| 浅析PHP文件包含及其getshell的姿势 | https://xz.aliyun.com/t/5535| 
+| 通过异常处理机制实现漏洞利用 | https://xz.aliyun.com/t/5480| 
+| Laravel5.7反序列化漏洞之RCE链挖掘 | https://xz.aliyun.com/t/5483| 
+| Google2019CTF web 解题思路 | https://xz.aliyun.com/t/5503| 
+| macOS恶意软件驻留技术分析 | https://xz.aliyun.com/t/5463| 
+| 强网杯线下Router-路由器漏洞挖掘 | https://xz.aliyun.com/t/5468| 
+| 无监督异常检测模型原理与安全实践 | https://xz.aliyun.com/t/5378| 
+| 基于污点分析的XSS漏洞辅助挖掘的一种方式 | https://xz.aliyun.com/t/5380| 
+| 从外网到内网的渗透姿势分享 | https://xz.aliyun.com/t/5330| 
+| 一次不完美的Jboss渗透 | https://xz.aliyun.com/t/5326| 
+| 某CMS组合漏洞至Getshell | https://xz.aliyun.com/t/5277| 
+| CVE-2018-12067及类似漏洞分析与相关思考 | https://xz.aliyun.com/t/5248| 
+| 国赛-bbvvmm-SM4逆向分析，虚拟机指令分析 | https://xz.aliyun.com/t/5195| 
+| APT28分析之CVE-2015-1641样本分析 | https://xz.aliyun.com/t/5198| 
+| RCTF 2019 Web Writeup | https://xz.aliyun.com/t/5218| 
+| 一次综合渗透测试 | https://xz.aliyun.com/t/5128| 
+| 我的CSP绕过思路及总结 | https://xz.aliyun.com/t/5084| 
+| Kerberos Security | https://xz.aliyun.com/t/5004| 
+| Google搜索中的突变XSS | https://xz.aliyun.com/t/4865| 
+| HiSilicon DVR 黑客笔记 | https://xz.aliyun.com/t/4840| 
+| Windows常见backdoor、权限维持方法及排查技术 | https://xz.aliyun.com/t/4842| 
+| 2019-DDCTF-WEB-WriteUp | https://xz.aliyun.com/t/4862| 
+| Spring Cloud Config Server 路径穿越与任意文件读取漏洞分析 | https://xz.aliyun.com/t/4844| 
+| 2019掘安杯web writeup | https://xz.aliyun.com/t/4741| 
+| Ethereal 靶机渗透 | https://xz.aliyun.com/t/4672| 
+| Java 反序列化过程深究 | https://xz.aliyun.com/t/4761| 
+| MongoShake—基于MongoDB的跨数据中心的数据复制平台 | https://yq.aliyun.com/articles/603329| 
+| 对某网的一次渗透测试纪实 | https://xz.aliyun.com/t/4694| 
+| AFL源码分析笔记(一) | https://xz.aliyun.com/t/4628| 
+| OSINT Primer：组织（第3部分） | https://xz.aliyun.com/t/4600| 
+| OSINT Primer：人员（第2部分） | https://xz.aliyun.com/t/4599| 
+| RemTeam攻击技巧和安全防御 | https://xz.aliyun.com/t/4602| 
+| 从零开始Java代码审计系列(一) | https://xz.aliyun.com/t/4558| 
+| CVE-2014-4113内核漏洞分析 | https://xz.aliyun.com/t/4456| 
+| 跨域方式及其产生的安全问题 | https://xz.aliyun.com/t/4470| 
+| 浅析MS Excel武器化 | https://xz.aliyun.com/t/4426| 
+| .NET高级代码审计（第二课） Json.Net反序列化漏洞 | https://xz.aliyun.com/t/4464| 
+| .NET高级代码审计（第一课）XmlSerializer反序列漏洞 | https://xz.aliyun.com/t/4374| 
+| Kubernetes安全入门 | https://xz.aliyun.com/t/4276| 
+| 一个威胁数万用户GPON家用路由器 的RCE | https://xz.aliyun.com/t/4242| 
+| 探索CobaltStrike的External C2框架 | https://xz.aliyun.com/t/4220| 
 
 
 

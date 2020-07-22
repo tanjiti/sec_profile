@@ -388,6 +388,7 @@
 | title | url| 
 | --- | ---| 
 | billboard.js 2.0发布！ 拥有更轻巧的体积和更高的性能。 | http://medium.com/@alberto.park/billboard-js-2-0-is-out-15e84b52ab11| 
+| 用于为 Android 应用提供 BLE 设备连接的 Nordic 库被发现漏洞 | http://medium.com/bugbountywriteup/norec-attack-stripping-ble-encryption-from-nordics-library-cve-2020-15509-9798ab893b95| 
 | Vulnserver —第2部分（TRUN — EIP覆盖） | http://medium.com/bugbountywriteup/expdev-vulnserver-part-2-46de4dd7bdde?source=rss----7b722bfd1b8d---4| 
 | 介绍基于HTTP的Python脚本木马程序安全分析。 | http://medium.com/bugbountywriteup/python-http-based-trojan-for-remote-system-forensics-and-privilege-transfer-ae128891b4de?source=rss----7b722bfd1b8d---4| 
 | 如何在Windows环境中限制基于SMB的横向移动 | http://medium.com/palantir/restricting-smb-based-lateral-movement-in-a-windows-environment-ed033b888721?source=friends_link&sk=a51a65b034ad9ef38e3c60eaeff7e331| 
@@ -471,6 +472,93 @@
 | 2020 后区块链世界及安全的一些思考 | https://zhuanlan.zhihu.com/p/102384263| 
 | 知识图谱构建技术综述与实践 | https://zhuanlan.zhihu.com/p/69360094| 
 | 作为个体如何做安全运营 | https://zhuanlan.zhihu.com/p/100610851| 
+
+
+# xz_xuanwu 推荐
+| title | url| 
+| --- | ---| 
+| Django CVE-2020-9402 Geo SQL注入分析 | https://xz.aliyun.com/t/7403| 
+| Django SQL 注入CVE-2020-7471 漏洞详细分析原理以及 POC | https://xz.aliyun.com/t/7218| 
+
+
+# xz_secwiki 推荐
+| title | url| 
+| --- | ---| 
+| PHP代码审计之旅 | https://xz.aliyun.com/t/7992| 
+| Metasploit & CobaltStrike 的shellcode分析 | https://xz.aliyun.com/t/7996| 
+| wireshark和威胁分析 | https://xz.aliyun.com/t/7802| 
+| 密码找回中的套路 | https://xz.aliyun.com/t/7977| 
+| 使用 CodeQL 挖掘 CVE-2020-9297 | https://xz.aliyun.com/t/7979| 
+| 内网渗透之应用层隧道技术 | https://xz.aliyun.com/t/7956| 
+| Java代码审计 | https://xz.aliyun.com/t/7945| 
+| 红队攻防系列之花式鱼竿钓鱼篇 | https://xz.aliyun.com/t/7958| 
+| Windows/Linux文件下载方式汇总 | https://xz.aliyun.com/t/7937| 
+| 浅谈短信验证码漏洞 | https://xz.aliyun.com/t/7926| 
+| 对Linux 提权的简单总结 | https://xz.aliyun.com/t/7924| 
+| 踩坑记录-DNS Beacon | https://xz.aliyun.com/t/7938| 
+| 渗透经验分享之SQL注入思路拓展 | https://xz.aliyun.com/t/7919| 
+| Java代码审计之Struts2-001 | https://xz.aliyun.com/t/7915| 
+| Powershell免杀的探索 | https://xz.aliyun.com/t/7903| 
+| Linux Pam后门总结拓展 | https://xz.aliyun.com/t/7902| 
+| 内网渗透之ICMP隐藏隧道 | https://xz.aliyun.com/t/7875| 
+| firefox-hackbar-2.2.9 自签名学习版全过程 | https://xz.aliyun.com/t/7857| 
+| 某cms的一次审计 | https://xz.aliyun.com/t/7872| 
+| Docker逃逸小结 第一版 | https://xz.aliyun.com/t/7881| 
+| 记一次测试Gitlab | https://xz.aliyun.com/t/7870| 
+| 初探PythonOpcode逃逸 | https://xz.aliyun.com/t/7828| 
+| vBulletin 5.6.1 SQL注入漏洞 | https://xz.aliyun.com/t/7831| 
+| D-Link DIR815路由器缓冲区溢出漏洞再分析 | https://xz.aliyun.com/t/7835| 
+| Monstra CMS RCE漏洞分析（CVE-2020-13384） | https://xz.aliyun.com/t/7850| 
+| LFCMS的一次审计 | https://xz.aliyun.com/t/7844| 
+| nodejs沙箱与黑魔法 | https://xz.aliyun.com/t/7842| 
+| Intigriti的2020年5月XSS挑战 | https://xz.aliyun.com/t/7800| 
+| 基于机器学习的GitHub敏感信息泄露监控 | https://xz.aliyun.com/t/7805| 
+| Django 初次尝试编写 Web 漏洞扫描器挖坑记录 | https://xz.aliyun.com/t/7816| 
+| 浅析域渗透中的组策略利用 | https://xz.aliyun.com/t/7784| 
+| Thinkphp5代码执行学习 | https://xz.aliyun.com/t/7792| 
+| codeql学习——污点分析 | https://xz.aliyun.com/t/7789| 
+| 红队-C2 Server基础构建 | https://xz.aliyun.com/t/7758| 
+| 从0学习WebLogic CVE-2020-2551漏洞 | https://xz.aliyun.com/t/7725| 
+| 域控提权合集 | https://xz.aliyun.com/t/7726| 
+| 虎符杯两道NodeJS题目的分析 | https://xz.aliyun.com/t/7714| 
+| 对缓存投毒的学习总结 | https://xz.aliyun.com/t/7696| 
+| linux后渗透之收集登录凭证 | https://xz.aliyun.com/t/7698| 
+| Rick教你写shellcode系列之邪恶的pdf | https://xz.aliyun.com/t/7684| 
+| 短信身份验证的安全风险 | https://xz.aliyun.com/t/7638| 
+| 一次Reverse出题手记 | https://xz.aliyun.com/t/7619| 
+| 记一次对PUBG外挂病毒的反制过程 | https://xz.aliyun.com/t/7626| 
+| 红队测评技巧：对公司发起OSINT | https://xz.aliyun.com/t/7610| 
+| waf-bypass学习 | https://xz.aliyun.com/t/7578| 
+| 详述一次拿shell后的单机信息搜集和贯穿整个内网的大型横向渗... | https://xz.aliyun.com/t/7538| 
+| 百家cms代码审计 | https://xz.aliyun.com/t/7542| 
+| CVE-2020-0796 SMB漏洞本地提权分析 | https://xz.aliyun.com/t/7550| 
+| 浅析接口安全之WebService | https://xz.aliyun.com/t/7541| 
+| 从0到1认识DNS重绑定攻击 | https://xz.aliyun.com/t/7495| 
+| 记一次360众测仿真实战靶场考核WP | https://xz.aliyun.com/t/7547| 
+| smbghost（CVE-2020-0796）漏洞POC汇总及简单分析 | https://xz.aliyun.com/t/7440| 
+| 使用AFL挖掘libxml2 | https://xz.aliyun.com/t/7400| 
+| Django CVE-2020-9402 Geo SQL注入分析 | https://xz.aliyun.com/t/7403| 
+| Bug Bounty:绕过Google域检测 | https://xz.aliyun.com/t/7384| 
+| 基于tomcat的内存 Webshell 无文件攻击技术 | https://xz.aliyun.com/t/7388| 
+| Cobalt Strike折腾踩坑填坑记录 | https://xz.aliyun.com/t/7375| 
+| 使用 Dom Clobbering 扩展 XSS | https://xz.aliyun.com/t/7329| 
+| 从0到1的虚拟机逃逸三部曲 | https://xz.aliyun.com/t/7345| 
+| 初探利用angr进行漏洞挖掘（下） | https://xz.aliyun.com/t/7275| 
+| 初探利用angr进行漏洞挖掘（上） | https://xz.aliyun.com/t/7274| 
+| 浅析CORS攻击及其挖洞思路 | https://xz.aliyun.com/t/7242| 
+| SSH隧道技术在实战中的使用 | https://xz.aliyun.com/t/7245| 
+| 使用Suricata和ELK进行流量检测 | https://xz.aliyun.com/t/7263| 
+| zeratool：基于 angr 的CTF pwn 自动化利用工具介绍 | https://xz.aliyun.com/t/7224| 
+| 钓鱼配合smb重放攻击 | https://xz.aliyun.com/t/7234| 
+| 本人在2019年对一些NodeJS问题的研究 | https://xz.aliyun.com/t/7237| 
+| 浅析javascript原型链污染攻击 | https://xz.aliyun.com/t/7182| 
+| 基于 angr 的漏洞利用自动生成之缓冲区溢出案例分析 | https://xz.aliyun.com/t/7199| 
+| Rex: 自动化利用引擎分析 | https://xz.aliyun.com/t/7179| 
+| 那些shellcode免杀总结 | https://xz.aliyun.com/t/7170| 
+| 如何利用AgentSmith-HIDS检测反弹shell | https://xz.aliyun.com/t/7158| 
+| 记一次验签机制伪造绕过的继续渗透测试 | https://xz.aliyun.com/t/7143| 
+| Stowaway--go语言编写的多级代理工具 | https://xz.aliyun.com/t/7119| 
+| Empire的进攻性研究 | https://xz.aliyun.com/t/7071| 
 
 
 
