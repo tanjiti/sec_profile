@@ -14,8 +14,11 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 酒仙桥六号部队 | anfu-360 | 细说渗透江湖之披荆斩棘 | https://mp.weixin.qq.com/s/HVOpUfJbncp81GWFLcgIFw | 1| 
 | 专注安管平台 | gh_48603b9bb05a | Gartner对SOAR的定义不断变化 | https://mp.weixin.qq.com/s/X0BoaaFG1a-p5xymokC1YQ | 1| 
+| 全频带阻塞干扰 | RFJamming | 特勤局手册 , 领导人高级别会谈如何反窃密 | https://mp.weixin.qq.com/s/2ySVlrHHnMpunY9VX0l3Zg | 1| 
 | 天御攻防实验室 | TianyuLab | 从APT29看网络威胁归因（上） | https://mp.weixin.qq.com/s/RFxS0xigAF-bMh59KR44cA | 1| 
+| 安全威胁情报 | Threatbook | 朝鲜半岛APT组织Lazarus在MacOS平台上的攻击活动分析 | https://mp.weixin.qq.com/s/W0HuTvPI7CzM8queWNhXIQ | 1| 
 | 看雪学院 | ikanxue | CVE-2020-0624 win32k漏洞分析笔记 | https://mp.weixin.qq.com/s/GHiTqWlxisyVWxVHcACpvg | 2| 
 | 360威胁情报中心 | CoreSec360 | 被低估的混乱军团 -WellMess(APT-C-42)组织网络渗透和供应链攻击行动揭秘 | https://mp.weixin.qq.com/s/WmzryWNNJVV7mXABQ1Yu8g | 1| 
 | 安全学术圈 | secquan | 谷歌学术指标2020年（计算机安全及加密） | https://mp.weixin.qq.com/s/hfUCDdMz2yAfR6NM7oqG-Q | 1| 
