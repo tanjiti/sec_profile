@@ -3838,6 +3838,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Exploiting Imported Libraries to Bypass Cloudflare WAF | http://medium.com/bugbountywriteup/exploiting-imported-libraries-to-bypass-cloudflare-waf-7aed99186c5a?source=rss----7b722bfd1b8d---4| 
 | billboard.js 2.0发布！ 拥有更轻巧的体积和更高的性能。 | http://medium.com/@alberto.park/billboard-js-2-0-is-out-15e84b52ab11| 
 | 用于为 Android 应用提供 BLE 设备连接的 Nordic 库被发现漏洞 | http://medium.com/bugbountywriteup/norec-attack-stripping-ble-encryption-from-nordics-library-cve-2020-15509-9798ab893b95| 
 | Vulnserver —第2部分（TRUN — EIP覆盖） | http://medium.com/bugbountywriteup/expdev-vulnserver-part-2-46de4dd7bdde?source=rss----7b722bfd1b8d---4| 
