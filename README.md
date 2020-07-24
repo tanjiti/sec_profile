@@ -14,6 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 君哥的体历 | jungedetili | 【君哥访谈】谭晓生：论CISO的个人修养（抖音直播整理） | https://mp.weixin.qq.com/s/OQgfTosjAWVSEGlCuBKF5A | 1| 
+| 数世咨询 | dwconcn | 数世咨询：网络靶场能力指南 | https://mp.weixin.qq.com/s/7HAorX_VurhxXI9OT6sILA | 2| 
 | 酒仙桥六号部队 | anfu-360 | 细说渗透江湖之披荆斩棘 | https://mp.weixin.qq.com/s/HVOpUfJbncp81GWFLcgIFw | 1| 
 | 专注安管平台 | gh_48603b9bb05a | Gartner对SOAR的定义不断变化 | https://mp.weixin.qq.com/s/X0BoaaFG1a-p5xymokC1YQ | 1| 
 | 全频带阻塞干扰 | RFJamming | 特勤局手册 , 领导人高级别会谈如何反窃密 | https://mp.weixin.qq.com/s/2ySVlrHHnMpunY9VX0l3Zg | 1| 
@@ -22,7 +24,7 @@
 | 看雪学院 | ikanxue | CVE-2020-0624 win32k漏洞分析笔记 | https://mp.weixin.qq.com/s/GHiTqWlxisyVWxVHcACpvg | 2| 
 | 360威胁情报中心 | CoreSec360 | 被低估的混乱军团 -WellMess(APT-C-42)组织网络渗透和供应链攻击行动揭秘 | https://mp.weixin.qq.com/s/WmzryWNNJVV7mXABQ1Yu8g | 1| 
 | 安全学术圈 | secquan | 谷歌学术指标2020年（计算机安全及加密） | https://mp.weixin.qq.com/s/hfUCDdMz2yAfR6NM7oqG-Q | 1| 
-| 这里是河马 | gh_d110440c4890 | 管理员朋友，请警惕最新出现的nginx后门 | https://mp.weixin.qq.com/s/Vyfto0qn4L16s9dNfVOEqQ | 2| 
+| 这里是河马 | gh_d110440c4890 | 管理员朋友，请警惕最新出现的nginx后门 | https://mp.weixin.qq.com/s/Vyfto0qn4L16s9dNfVOEqQ | 3| 
 | 404 Not F0und | gh_8cea5d3d902b | CVE-Flow:CVE EXP监控和预测 | https://mp.weixin.qq.com/s/8X2Jau5QJ8-TWolpGYBslg | 1| 
 | Seebug漏洞平台 | seebug_org | 溯源黑帽利用 Web 编辑器漏洞非法植入 SEO 页面事件 | https://mp.weixin.qq.com/s/SqPu88RALGMOPeAJ34uNeQ | 1| 
 | 小米安全中心 | misrc_team | 机器学习在小米帐号风控中的应用 | https://mp.weixin.qq.com/s/BplHuoyFQ0cAEBAi3OdZAA | 1| 
@@ -34,7 +36,6 @@
 | 网安寻路人 | DataProtection101 | 对《数据安全法》的理解和认识 , 中国版的封阻法令 | https://mp.weixin.qq.com/s/yWyrdIrz-KGxmltFoqHFiQ | 3| 
 | 七夜安全博客 | qiye_safe | 从沙盒逃逸看Python黑科技（上篇） | https://mp.weixin.qq.com/s/f5Ra8BtCyEoJmH0gwuvGXg | 3| 
 | 夜暗心明 | yeanxinmingi | 嵌入式浏览器安全杂谈-electron框架 | https://mp.weixin.qq.com/s/J6eqcPPRp7wn06YQhue_Ug | 1| 
-| 数世咨询 | dwconcn | 中国网络安全能力100强 | https://mp.weixin.qq.com/s/22wBFQ0hvFtTcAIdbjUTBg | 1| 
 | GobySec | gobysec | 插件分享 , 如何半天玩转一个“ES未授权利用”插件 | https://mp.weixin.qq.com/s/XZA37Cen9PexyPxuuEx1CQ | 1| 
 | 信息通信技术与政策 | caict_dsc | 专题丨企业级开源风险及治理模式研究 | https://mp.weixin.qq.com/s/hUML8M4gjjpXiimQNNpw-w | 1| 
 | ipasslab | gh_406bdd615bc1 | 学术报告,基于类型状态导向的Use-after-Free漏洞模糊测试技术 | https://mp.weixin.qq.com/s/RE19ba-BnQsZRST338lJHA | 2| 
