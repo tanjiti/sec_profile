@@ -14,6 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 三六零CERT | CERT-360 | 现代化SOAR的产品化落地（一） | https://mp.weixin.qq.com/s/E72-K43f-TkLv2WIHqKyKA | 1| 
+| 红队攻防揭秘 | klionsec | 内外网资产对应关系定位 [ 补 ] | https://mp.weixin.qq.com/s/zrJ2yP6B64A-iFnBdea9PQ | 1| 
 | AINLP | nlpjob | ​【特征工程】时序特征挖掘的奇技淫巧 | https://mp.weixin.qq.com/s/AennHGMpuoZTRo_4ud5m3w | 1| 
 | GobySec | gobysec | 插件分享 , 可以查看摄像头快照的“Hikvision插件” | https://mp.weixin.qq.com/s/YExvYQ8RtBvrNC0VwwnV9A | 3| 
 | 这里是河马 | gh_d110440c4890 | RangeAMP：利用CDN+Range请求进行的HTTP放大攻击 | https://mp.weixin.qq.com/s/Dp5214aBdQjb-uuxP7T4zg | 3| 
@@ -104,6 +106,9 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 从开源组件安全现状浅谈开源组件安全运营 | https://zhuanlan.zhihu.com/p/164610491| 
+| 多模态知识图谱 | https://zhuanlan.zhihu.com/p/163278672| 
+| r3kapig：校园明星 CTF 战队的奇幻养成之旅 | https://zhuanlan.zhihu.com/p/163375485| 
 | 知识图谱平台化助力知识图谱行业大发展 | https://zhuanlan.zhihu.com/p/159149955| 
 | 方舟编译器环境支持的新浪新闻极速版APP分析 | https://zhuanlan.zhihu.com/p/154438363| 
 | CTF实战特训营实训真题 | https://zhuanlan.zhihu.com/p/148384035| 
