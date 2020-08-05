@@ -1726,7 +1726,6 @@
 | anshumanbh | git-all-secrets - 通过利用多个开源 git 搜索工具来捕获所有 git 仓库中的敏感数据的工具: | https://github.com/anshumanbh/git-all-secrets | None | Automatically secure all the things! | None | None | 72 | 0 | 192 | 231 | 119 | Go,Python,Shell,HCL | 602 | 115 | 1| 
 | lebinh | ngxtop:Real-time metrics for nginx server | https://github.com/lebinh/ngxtop | https://github.com/google | Curious programmer, brave sysadmin. SRE @google, previously @cloudflare and @adatao. | Sydney | @google | 46 | 0 | 277 | 231 | 4 | Python,Jupyter | 0 | 0 | 1| 
 | tatsuyah | Udacity 学习平台上的一个自动驾驶课程 Demo:利用机器学习和计算机视觉技术检测车辆: | https://github.com/tatsuyah/vehicle-detection | https://github.com/OryLab | R&D Director at @OryLab Inc. Software Engineer/Machine Learning Engineer. Style matters. | Tokyo, Japan | @OryLab | 29 | 0 | 523 | 231 | 160 | Python,Jupyter | 0 | 0 | 1| 
-| cobbr | SharpSploit - C# 语言编写的基于 .NET 的后渗透测试工具 | https://github.com/cobbr/SharpSploit | https://cobbr.io |  | Dallas, TX | SpecterOps | 17 | 0 | 48 | 230 | 1 | C#,PowerShell | 570 | 89 | 2| 
 | leonjza | GitHub - leonjza/qrxfer: Transfer files from Air gapped machines using QR codes | https://github.com/leonjza/qrxfer | https://github.com/sensepost | [Caffeine fueled, (╯°□°)╯︵ ┻━┻, Security guy, Metalhead, I saw your password, KOOBo+KXleKAv+KXlSnjgaM=] | South Africa | @sensepost | 34 | 0 | 332 | 230 | 0 | Python,Go | 0 | 0 | 1| 
 | nullbind | Get Domain Admins (GDA) - 辅助攻击域环境的脚本: | https://github.com/nullbind/Other-Projects/tree/master/GDA | https://github.com/NetSPI | Twitter: @_nullbind http://www.netspi.com/blog/author/ssutherland/ http://www.slideshare.net/nullbind | None | @NetSPI | 56 | 0 | 832 | 230 | 46 | Shell,Batchfile,Ruby,PowerShell | 240 | 87 | 1| 
 | paralax | i made a thing that helps people practice exploiting LFI, RFI and CMD injection vulns in web apps | https://github.com/paralax/lfi-labs | https://github.com/censys | security, cooking, biochemistry. a lot of internet scanning now. | ann arbor, mi | @censys | 264 | 0 | 491 | 230 | 1 | Python,PHP,F# | 3200 | 627 | 2| 
@@ -3572,6 +3571,7 @@
 | DLACERT | ThreatHunting - 在 Windows 系统中寻找威胁的 PowerShell 脚本: | https://github.com/DLACERT/ThreatHunting | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | DarkSpiritz | DarkSpiritz - 针对 UNIX 系统的渗透测试框架: | https://github.com/DarkSpiritz/DarkSpiritz | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | DeveloppSoft | Eli.Decode - tool to decode obfuscated shellcodes using the Unicorn engine | https://github.com/DeveloppSoft/Eli.Decode | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| Droidzzzio | 用于枚举子域wordlist，php文件路径，html文件路径和js文件路径的开源工具 | https://github.com/Droidzzzio/EnumerationList | https://twitter.com/ShMalav | Security Researcher Bug Bounty Hunter | INDIA | None | 44 | 0 | 0 | 0 | 0 | Python | 32 | 8 | 1| 
 | Eitenne | Fully undetected backdoor with RSA Encrypted shell | https://github.com/Eitenne/TopHat | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 2| 
 | EtixLabs | Cameradar - 攻击 RTSP 监控摄像头的工具: | https://github.com/EtixLabs/cameradar | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,JavaScript,OCaml,C++,CoffeeScript,Objective-C,HTML,Go,PHP,Swift | 0 | 0 | 1| 
 | ExpLife | Analysis-Tools: 恶意软件分析套件 | https://github.com/ExpLife/Analysis-Tools | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -3678,6 +3678,7 @@
 | chuhades | CMS-Exploit-Framework | https://github.com/chuhades/CMS-Exploit-Framework | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | cisco-config-analysis-tool | ccat - Cisco 配置分析工具: | https://github.com/cisco-config-analysis-tool/ccat | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | cisco-sas | kitty : Fuzzing Framework written in python : | https://github.com/cisco-sas/kitty | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
+| cobbr | .NET 编写的一款 C&C 渗透框架 | https://github.com/cobbr/Covenant | https://cobbr.io |  | Dallas, TX | SpecterOps | 20 | 0 | 0 | 0 | 0 | C#,PowerShell | 1600 | 307 | 3| 
 | codeplutos | MySQL客户端jdbc反序列化漏洞payload | https://github.com/codeplutos/MySQL-JDBC-Deserialization-Payload | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java,C++ | 107 | 20 | 1| 
 | colental | BYOB - 打造你自己的 Botnet: | https://github.com/colental/byob | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | compsec-snu | Fuzz内核中条件竞争漏洞的工具，相关工作已经发表在Oakland19上 | https://github.com/compsec-snu/razzer | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 0 | 0 | 1| 

@@ -6,8 +6,8 @@ C++	50
 Shell	42
 Go	39
 Java	37
-C#	33
-PowerShell	23
+C#	34
+PowerShell	24
 CSS	17
 PHP	17
 TypeScript	16
