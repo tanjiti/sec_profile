@@ -16,11 +16,11 @@
 | --- | --- | --- | ---| 
 | ChaMd5安全团队 | chamd5sec | NETGEAR httpd缓冲区溢出漏洞分析 | https://mp.weixin.qq.com/s/bDCOmABucnhPfquvEmH0hA | 18| 
 | 安全学术圈 | secquan | RAID 2020 论文录用列表 | https://mp.weixin.qq.com/s/WoDK9X3bg_WNy12EC_Hz7g | 13| 
+| 宽字节安全 | gh_2de2b9f7d076 | Shiro回显利用工具（更新为burp插件 | https://mp.weixin.qq.com/s/LSmO0R-9D2Tj-zRxDu7wWw | 12| 
 | 雷神众测 | thorsrc | 近源渗透测试之Keylogger实战 | https://mp.weixin.qq.com/s/ra_N5dkhZOcHmdHuzl-oQw | 2| 
 | nmask | nmask-article | 基于Redis的扫描器任务调度设计方案 | https://mp.weixin.qq.com/s/BoAcBD4cVaZZ4OZ_uHdBng | 2| 
 | 阿里安全响应中心 | alisrc | PHP Webshell那些事-攻击篇 | https://mp.weixin.qq.com/s/FgzIm-IK02rjEf3JvxOxrw | 1| 
 | 中国科学院院刊 | CASbulletin | 实现网络空间的“挂图作战”：网络空间地理学+可视化技术 | https://mp.weixin.qq.com/s/53wDSOuSrvybTtHrh10i-Q | 1| 
-| 宽字节安全 | gh_2de2b9f7d076 | shiro 不需要dnslog gadget的探测方式（附工具下载) | https://mp.weixin.qq.com/s/U8Y_8DCPoPiTL-OHwry5Qw | 12| 
 | 赵武的自留地 | gh_86033a4f818d | 构建基于攻防实效的安全体系，有效解决通报问题 | https://mp.weixin.qq.com/s/75qiSkXkzP5CJ2pA_8tTyQ | 3| 
 | 鸿鹄实验室 | gh_a2210090ba3f | 抛砖引玉之CobaltStrike4.1的BOF | https://mp.weixin.qq.com/s/-jU4HrPtB8rD4cmqAKZOZw | 1| 
 | 三六零CERT | CERT-360 | 现代化SOAR的产品化落地（一） | https://mp.weixin.qq.com/s/E72-K43f-TkLv2WIHqKyKA | 1| 
@@ -356,7 +356,7 @@
 | aind-containers | AinD: Android (Anbox) in Docker，在 Docker 中运行 Android apps | https://github.com/aind-containers/aind | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Dockerfile | 0 | 0 | 1| 
 | airbus-cert | 一款用于处理 Event Tracing for Windows（ETW）的IDA插件 | https://github.com/airbus-cert/etwbreaker | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Lua,Python,C#,Go,PHP | 104 | 9 | 1| 
 | appsecco | Attacking and Auditing Docker Containers and Kubernetes Clusters | https://github.com/appsecco/attacking-and-auditing-docker-containers-and-kubernetes-clusters | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Java,Python,JavaScript,C#,Visual,HTML,ActionScript,PHP,CSS | 540 | 150 | 2| 
-| arieljt | 使用VirusTotal代码相似性功能的Yara规则生成器 | https://github.com/arieljt/VTCodeSimilarity-YaraGen | https://twitter.com/arieljt |  | None | None | 3 | 0 | 0 | 0 | 0 | Python | 34 | 6 | 1| 
+| arieljt | VT Code Similarity Yara Generator | https://github.com/arieljt/VTCodeSimilarity-YaraGen | https://twitter.com/arieljt |  | None | None | 3 | 0 | 0 | 0 | 0 | Python | 34 | 6 | 1| 
 | bb1nfosec | Windows漏洞利用资源以及漏洞利用的网站参考列表总结。 | https://github.com/bb1nfosec/Information-Security-Tasks/blob/master/Post%20Exploitation/Windows%20Exploitation%2C%20post%20exploitation%20sites%20for%20reference | None | Just another guy whom loves to play 0 and 1 . | India | None | 0 | 0 | 0 | 0 | 0 | Python,Shell,HTML,CSS | 49 | 16 | 1| 
 | blackberry | 使用python解析PE文件的开源工具PE Tree发布 | https://github.com/blackberry/pe_tree | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,Objective-C,Go,Ruby | 22 | 24 | 1| 
 | bobfuzzer | Linux kernel 5.0.0-rc7 f2fs 文件系统溢出漏洞 PoC | https://github.com/bobfuzzer/CVE/tree/master/CVE-2019-19927 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 21 | 13 | 1| 
@@ -478,6 +478,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 人物图谱构建技术 | https://zhuanlan.zhihu.com/p/166587883| 
 | 记 MOSEC 2020 及上海一游 (2) | https://zhuanlan.zhihu.com/p/164905986| 
 | 记 MOSEC 2020 及上海一游 (1) | https://zhuanlan.zhihu.com/p/163528893| 
 | 从开源组件安全现状浅谈开源组件安全运营 | https://zhuanlan.zhihu.com/p/164610491| 
@@ -509,6 +510,7 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 实战绕过双重waf结合sqlmap tamper获取数据 | https://xz.aliyun.com/t/8064| 
 | Android渗透测试HTTPS证书校验绕过 | https://xz.aliyun.com/t/8047| 
 | Redis数据库在渗透中的利用 | https://xz.aliyun.com/t/8018| 
 | Oracle 注入 All in ONE | https://xz.aliyun.com/t/8020| 
