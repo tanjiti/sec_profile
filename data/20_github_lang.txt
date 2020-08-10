@@ -1,12 +1,12 @@
-Python	1006
+Python	1007
 C	631
 JavaScript	624
 C++	511
-HTML	456
+HTML	457
 Shell	433
-Java	421
+Java	422
 Go	353
-C#	254
+C#	255
 Ruby	249
 PHP	224
 PowerShell	221
@@ -17,8 +17,8 @@ Rust	105
 Jupyter	92
 Perl	72
 Swift	66
+Dockerfile	62
 Assembly	62
-Dockerfile	61
 Lua	56
 Makefile	55
 TeX	55
