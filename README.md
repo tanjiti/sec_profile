@@ -14,12 +14,16 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
-| 宽字节安全 | gh_2de2b9f7d076 | 某恒信息pdf后门事件分析 | https://mp.weixin.qq.com/s/yNNqLAodTJGP9zO8zvjmGQ | 3| 
+| ChaMd5安全团队 | chamd5sec | Windows版TeamViewer漏洞复现 | https://mp.weixin.qq.com/s/8ZDpCYb_7X1tJ5ywxbQSMA | 6| 
+| Gcow安全团队 | Gcow666 | CVE-2017-0261及利用样本分析 | https://mp.weixin.qq.com/s/Sk7Lx0sKAfD_wTuhcWiBig | 1| 
+| 纸鱼AI | gh_5cb3929923da | 智源&计算所-互联网虚假新闻检测挑战赛（冠军）方案分享，代码已开源 | https://mp.weixin.qq.com/s/c8f0wDHigNQUlmxtFVG0aA | 1| 
+| 宽字节安全 | gh_2de2b9f7d076 | 某恒信息pdf后门事件分析 | https://mp.weixin.qq.com/s/yNNqLAodTJGP9zO8zvjmGQ | 4| 
+| 这里是河马 | gh_d110440c4890 | Apache Struts2 S2-059(CVE-2019-0230) RCE漏洞通告 | https://mp.weixin.qq.com/s/GJGSVl4BRLhUV4x2LbsIkw | 1| 
 | 锦行信息安全 | jeeseensec | 安全技术,BloodHound 使用指南 | https://mp.weixin.qq.com/s/dBWq1rCZYVS9oDgIGwcCdA | 1| 
 | 公务员与事业单位 | gwy-sydw | 警惕！2020年多名公务员因微信办公违规被处理，案例鲜活，教训惨痛 | https://mp.weixin.qq.com/s/QOUFyVa4c4xGO1v4FroLXw | 1| 
+| 时间之外沉浮事 | tasnrh | 调研报告 , 以色列网络安全调研报告 | https://mp.weixin.qq.com/s/uaMfeENw6DexSNNO-Cbl_Q | 2| 
 | 极光无限 | AuroraInfinity | 2020数据泄露调查报告 | https://mp.weixin.qq.com/s/agMbnkeE39LlgfcivfCexA | 1| 
 | 网信中国 | cacweixin | 国家互联网应急中心（CNCERT）发布《2019年中国互联网网络安全报告》 | https://mp.weixin.qq.com/s/0GU_cC9PGwWPKA1ZdxCF4g## | 1| 
-| 时间之外沉浮事 | tasnrh | 靶场竞品分析,CybExer网络靶场 | https://mp.weixin.qq.com/s/8-d0eB2VV0qvG3VNCaJ_zA | 2| 
 | 跨越鸿沟 | gh_0bae97403201 | 信息安全：研究体系(220页) | https://mp.weixin.qq.com/s/WeBXUyP3-gbzrRrHmPyY9w | 1| 
 | 图谱学苑 | gh_eb1997a4e380 | 神秘Palantir-平台介绍 | https://mp.weixin.qq.com/s/JgLkd4_J5s93FDuS31F-Cg | 1| 
 | 网络安全观 | SecurityInsights | 美国网络安全 , 开篇：美国网络空间安全新战略 | https://mp.weixin.qq.com/s/usiMcWM6lnU5ZorkpG8DUQ | 3| 
@@ -27,7 +31,6 @@
 | 看雪学院 | ikanxue | 某Nginx后门分析复现与改写 | https://mp.weixin.qq.com/s/U2trVwV75yEW5HpVn0Ki8A | 1| 
 | 安全鸭 | yliang53 | 横向渗透的常见方法 | https://mp.weixin.qq.com/s/eMXWYV-5sKR0HfcqMJOBWg | 1| 
 | 腾讯安全应急响应中心 | tsrc_team | 红蓝对抗之域名搜集方法总结 | https://mp.weixin.qq.com/s/rECW5vKbUfI89F31WEQjyw | 1| 
-| ChaMd5安全团队 | chamd5sec | WMCTF-WriteUp | https://mp.weixin.qq.com/s/SddIi7Om8BACyo_X1Skdfg | 5| 
 | GobySec | gobysec | 技术分享 , Goby食用指南之红蓝对抗 | https://mp.weixin.qq.com/s/G-Vn4htAhjwlJb67v2TtRw | 1| 
 | SCUCTF | scuctf | WMCTF2020 WP by 0x401 | https://mp.weixin.qq.com/s/Ll-f25pLOPbkjlo9zGFbFA | 1| 
 | 安全学术圈 | secquan | RAID 2020 论文录用列表 | https://mp.weixin.qq.com/s/WoDK9X3bg_WNy12EC_Hz7g | 1| 
