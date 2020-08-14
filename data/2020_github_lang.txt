@@ -1,11 +1,11 @@
-Python	117
-C	61
+Python	118
+C	62
 JavaScript	54
 HTML	54
 C++	50
-Shell	42
-Go	39
-Java	38
+Shell	43
+Go	40
+Java	39
 C#	35
 PowerShell	24
 CSS	18
@@ -33,6 +33,7 @@ YARA	2
 Assembly	2
 VBScript	2
 Kotlin	2
+Smali	2
 Smarty	2
 Haskell	2
 WebAssembly	1
@@ -51,7 +52,6 @@ MATLAB	1
 Hack	1
 Cuda	1
 V	1
-Smali	1
 Prolog	1
 Vim	1
 Pascal	1
