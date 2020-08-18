@@ -1,6 +1,6 @@
-Python	120
+Python	121
 C	63
-JavaScript	55
+JavaScript	56
 HTML	55
 C++	50
 Shell	43
@@ -8,8 +8,8 @@ Go	41
 Java	39
 C#	35
 PowerShell	24
+PHP	19
 CSS	18
-PHP	18
 TypeScript	16
 Ruby	16
 Rust	12
@@ -35,6 +35,7 @@ VBScript	2
 Kotlin	2
 Smali	2
 Smarty	2
+Vim	2
 Haskell	2
 WebAssembly	1
 VBA	1
@@ -53,7 +54,6 @@ Hack	1
 Cuda	1
 V	1
 Prolog	1
-Vim	1
 Pascal	1
 Puppet	1
 ActionScript	1

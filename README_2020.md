@@ -14,26 +14,33 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| Coggle数据科学 | gh_8df601c10cb4 | 2020腾讯广告算法大赛方案分享及代码（冠军） | https://mp.weixin.qq.com/s/-lizDyP2y357plcG1M64TA | 1| 
+| DeadEye安全团队 | gh_fcf5d3d1e57d | 关于Cobalt Strike检测方法与去特征的思考 | https://mp.weixin.qq.com/s/5MWDXN3eCaw9m-XHDGaXcQ | 1| 
+| vivo千镜安全实验室 | gh_54ff3f871510 | 软件源码安全攻防之道（上） | https://mp.weixin.qq.com/s/jb3VQyK3U6BQS0-0ad0K_w | 1| 
+| 丁爸 情报分析师的工具箱 | dingba2016 | 【图文资料】基于开源情报网络分析与网页分析 | https://mp.weixin.qq.com/s/UIKHaQzXWc6p6Mjonrk8cg | 1| 
+| 中国信息安全 | chinainfosec | 院士谈 , 陈纯院士、冯登国院士论数据安全治理 | https://mp.weixin.qq.com/s/JWBAZfDPW1QIjrRdc5Yb3Q | 2| 
+| 奇安信威胁情报中心 | gh_166784eae33e | 从补丁分析到在野利用：揭秘CVE-2020-1464 Windows文件签名验证绕过漏洞疑云 | https://mp.weixin.qq.com/s/CRdDJeen-Zqc0RCnMr4kzQ | 3| 
+| 米斯特安全团队 | acmesec | 代码审计 , PHPCMS V9 前台RCE挖掘分析 | https://mp.weixin.qq.com/s/zLXJtekT9O3OuzwBLigMsA | 1| 
+| 阿里安全响应中心 | alisrc | JSP Webshell那些事 -- 攻击篇(下) | https://mp.weixin.qq.com/s/YhiOHWnqXVqvLNH7XSxC9w | 3| 
 | Gorgias的一己之见 | GorgiasInsight | 固件提取系列(一)-固件载体 | https://mp.weixin.qq.com/s/xWUoAwilc6v_0BMZXpbZqA | 1| 
-| 互联网安全内参 | anquanneican | 中小型银行实战攻防演练经验分享 | https://mp.weixin.qq.com/s/sGoGelUKd8ehYlghOgg7gw | 4| 
 | 明不可欺 | gh_1405d616adc7 | 网络赌博的管辖权、代理、赌资、四方的法律规定 | https://mp.weixin.qq.com/s/XAp40kxf-I0nmOjDBAD7Dg | 1| 
-| NEO攻防队 | gh_5afc80b9df33 | 浅谈蓝队反制手段 | https://mp.weixin.qq.com/s/qjM7Fh0u0Edsz5C7L_ErGQ | 1| 
-| 贝塔安全实验室 | BetaSecLab | Windows通用应用平台UWP持久化 | https://mp.weixin.qq.com/s/rHE2Xj335RzhlB-KvxJLpQ | 3| 
-| 阿里安全响应中心 | alisrc | JSP Webshell那些事 -- 攻击篇(上) | https://mp.weixin.qq.com/s/XZvQgh6g69AUNUi_QK9FbQ | 2| 
-| 雷神众测 | thorsrc | 护网自动化脚本 | https://mp.weixin.qq.com/s/uHNx28XFZ5M6KwykMC4Jsg | 3| 
+| 公务员与事业单位 | gwy-sydw | 警惕！2020年多名公务员因微信办公违规被处理，案例鲜活，教训惨痛 | https://mp.weixin.qq.com/s/QOUFyVa4c4xGO1v4FroLXw | 1| 
 | ChaMd5安全团队 | chamd5sec | Windows版TeamViewer漏洞复现 | https://mp.weixin.qq.com/s/8ZDpCYb_7X1tJ5ywxbQSMA | 20| 
 | Gcow安全团队 | Gcow666 | CVE-2017-0261及利用样本分析 | https://mp.weixin.qq.com/s/Sk7Lx0sKAfD_wTuhcWiBig | 2| 
-| 纸鱼AI | gh_5cb3929923da | 智源&计算所-互联网虚假新闻检测挑战赛（冠军）方案分享，代码已开源 | https://mp.weixin.qq.com/s/c8f0wDHigNQUlmxtFVG0aA | 1| 
-| 宽字节安全 | gh_2de2b9f7d076 | 某恒信息pdf后门事件分析 | https://mp.weixin.qq.com/s/yNNqLAodTJGP9zO8zvjmGQ | 15| 
-| 这里是河马 | gh_d110440c4890 | Apache Struts2 S2-059(CVE-2019-0230) RCE漏洞通告 | https://mp.weixin.qq.com/s/GJGSVl4BRLhUV4x2LbsIkw | 5| 
-| 锦行信息安全 | jeeseensec | 安全技术,BloodHound 使用指南 | https://mp.weixin.qq.com/s/dBWq1rCZYVS9oDgIGwcCdA | 7| 
-| 公务员与事业单位 | gwy-sydw | 警惕！2020年多名公务员因微信办公违规被处理，案例鲜活，教训惨痛 | https://mp.weixin.qq.com/s/QOUFyVa4c4xGO1v4FroLXw | 1| 
+| NEO攻防队 | gh_5afc80b9df33 | 浅谈蓝队反制手段 | https://mp.weixin.qq.com/s/qjM7Fh0u0Edsz5C7L_ErGQ | 1| 
+| 互联网安全内参 | anquanneican | 中小型银行实战攻防演练经验分享 | https://mp.weixin.qq.com/s/sGoGelUKd8ehYlghOgg7gw | 4| 
+| 图谱学苑 | gh_eb1997a4e380 | 神秘Palantir-平台介绍 | https://mp.weixin.qq.com/s/JgLkd4_J5s93FDuS31F-Cg | 1| 
+| 宽字节安全 | gh_2de2b9f7d076 | s2 059 初步分析 | https://mp.weixin.qq.com/s/smJCN_nktLJiZUrGk34KGw | 15| 
 | 时间之外沉浮事 | tasnrh | 调研报告 , 以色列网络安全调研报告 | https://mp.weixin.qq.com/s/uaMfeENw6DexSNNO-Cbl_Q | 6| 
 | 极光无限 | AuroraInfinity | 2020数据泄露调查报告 | https://mp.weixin.qq.com/s/agMbnkeE39LlgfcivfCexA | 1| 
+| 纸鱼AI | gh_5cb3929923da | 智源&计算所-互联网虚假新闻检测挑战赛（冠军）方案分享，代码已开源 | https://mp.weixin.qq.com/s/c8f0wDHigNQUlmxtFVG0aA | 1| 
 | 网信中国 | cacweixin | 国家互联网应急中心（CNCERT）发布《2019年中国互联网网络安全报告》 | https://mp.weixin.qq.com/s/0GU_cC9PGwWPKA1ZdxCF4g## | 2| 
-| 跨越鸿沟 | gh_0bae97403201 | 信息安全：研究体系(220页) | https://mp.weixin.qq.com/s/WeBXUyP3-gbzrRrHmPyY9w | 1| 
-| 图谱学苑 | gh_eb1997a4e380 | 神秘Palantir-平台介绍 | https://mp.weixin.qq.com/s/JgLkd4_J5s93FDuS31F-Cg | 1| 
 | 网络安全观 | SecurityInsights | 美国网络安全 , 开篇：美国网络空间安全新战略 | https://mp.weixin.qq.com/s/usiMcWM6lnU5ZorkpG8DUQ | 6| 
+| 贝塔安全实验室 | BetaSecLab | Windows通用应用平台UWP持久化 | https://mp.weixin.qq.com/s/rHE2Xj335RzhlB-KvxJLpQ | 3| 
+| 跨越鸿沟 | gh_0bae97403201 | 信息安全：研究体系(220页) | https://mp.weixin.qq.com/s/WeBXUyP3-gbzrRrHmPyY9w | 1| 
+| 这里是河马 | gh_d110440c4890 | Apache Struts2 S2-059(CVE-2019-0230) RCE漏洞通告 | https://mp.weixin.qq.com/s/GJGSVl4BRLhUV4x2LbsIkw | 5| 
+| 锦行信息安全 | jeeseensec | 安全技术,BloodHound 使用指南 | https://mp.weixin.qq.com/s/dBWq1rCZYVS9oDgIGwcCdA | 7| 
+| 雷神众测 | thorsrc | 护网自动化脚本 | https://mp.weixin.qq.com/s/uHNx28XFZ5M6KwykMC4Jsg | 3| 
 | 湛卢工作室 | xuehao_studio | 云原生安全 , docker容器逃逸 | https://mp.weixin.qq.com/s/zvHrPwYT77oedXloVJHi8g | 6| 
 | 看雪学院 | ikanxue | 某Nginx后门分析复现与改写 | https://mp.weixin.qq.com/s/U2trVwV75yEW5HpVn0Ki8A | 8| 
 | 安全鸭 | yliang53 | 横向渗透的常见方法 | https://mp.weixin.qq.com/s/eMXWYV-5sKR0HfcqMJOBWg | 1| 
@@ -133,7 +140,6 @@
 | 中睿天下 | zorelworld | 干货,一次对钓鱼邮件攻击者的溯源分析 | https://mp.weixin.qq.com/s/-v7-M05Qyob5Rpzm_9lPQQ | 1| 
 | 美团安全应急响应中心 |  | 复杂风控场景下，如何打造一款高效的规则引擎 | https://mp.weixin.qq.com/s/m4jFHUP3JYF9Z8TUxi9UIg | 1| 
 | 腾讯御见威胁情报中心 |  | 微软发布字体解析远程代码执行漏洞补丁，建议用户尽快修补 | https://mp.weixin.qq.com/s/RvTZWvcXiXsI7xB6L9RWIg | 4| 
-| 中国信息安全 | chinainfosec | 专题·原创 , 国际网络安全应急响应体系介绍 | https://mp.weixin.qq.com/s/1_cJGTpH4dU780K6qngkjQ | 1| 
 | 永安在线反欺诈 | YongAnOnline | 永安在线 , 生鲜电商拉新场景业务安全测评报告 | https://mp.weixin.qq.com/s/oiSYOA-BDn9fUnb7EhO2vA | 2| 
 | 腾讯安全智能 | TX_Security_AI | 基于SOC机器学习检测平台的行为分析建模---HTTP隐蔽通信检测 | https://mp.weixin.qq.com/s/ggFbaQvn8yUJOFi_-DPNOw | 2| 
 | 360CERT | CERT-360 | “震网”三代和二代漏洞技术分析报告 | https://mp.weixin.qq.com/s/qc25c_nuUax6UoknAVLrAw | 1| 
@@ -160,7 +166,6 @@
 | PeckShield | PeckShield | 硬核：解密美国司法部起诉中国OTC承兑商洗钱案件 | https://mp.weixin.qq.com/s/wWrm3gwT72Pc8Nxw-1OiSw | 1| 
 | 道法术 |  | 2020 IoT Threat Report (简单解读版) | https://mp.weixin.qq.com/s/AqUyHGLzlmrBSKfk-IxW6g | 2| 
 | PaperWeekly | paperweekly | 文本分类和序列标注“深度”实践 | https://mp.weixin.qq.com/s/afO58DDDZGb5w_EEG8oW6Q | 1| 
-| 奇安信威胁情报中心 |  | 网空威胁情报（CTI）日益成熟：2020年SANSCTI调查结果解读 | https://mp.weixin.qq.com/s/ERakfCjEjW_UfViz9KoxFQ | 2| 
 | 哈工大SCIR | HIT_SCIR | 赛尔笔记 , 机器阅读理解简述 | https://mp.weixin.qq.com/s/Rm1uFunX9IRQaL_rUAZxfQ | 1| 
 | 工业菜园 | gycy-2019 | 菜农观点 , 陆宝华：关于智慧城市安全的讨论 | https://mp.weixin.qq.com/s/1-xpgttndYIXGkyspTIp1w | 1| 
 | 银河安全实验室 | Galaxy-Lab | 尝试利用Cython将Python项目转化为单个.so | https://mp.weixin.qq.com/s/YRKY7FgLFw-w4QIlrNd-FA | 1| 
@@ -392,6 +397,7 @@
 | intel | 基于 Xen VMI API 和 AFL，Fuzz Linux 内核 | https://github.com/intel/kernel-fuzzer-for-xen-project | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Roff,Python,JavaScript,BitBake,C++,HTML,Go | 0 | 0 | 1| 
 | joinsec | BadDNS: 使用公共 DNS 服务器进行多层子域名探测的极速工具 | https://github.com/joinsec/BadDNS | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,Rust | 0 | 0 | 1| 
 | kisec | Kibana CVE-2019-7609 RCE Exploit 代码 | https://github.com/kisec/CVE-2019-7609?fbclid=IwAR02m1XrcGDleYn8KzrjBRuIFNXzwJumhrYi2n7zSFeq9fvPk39FxPyAyWY | http://www.kisec.com | Korea Information Security Education Center | None | 한국정보보호교육센터 | 25 | 0 | 0 | 0 | 0 | Python,Go,Shell | 13 | 2 | 1| 
+| latentgod | OpenSA: 运维自动化平台 | https://github.com/latentgod/OpenSA | None |  | None | None | 38 | 0 | 0 | 0 | 0 | Python,PHP,JavaScript,Vim | 6 | 10 | 1| 
 | lostindark | Driver Store Explorer - 从 Driver Store 中枚举、安装、删除 Driver Package 的工具 | https://github.com/lostindark/DriverStoreExplorer | None | None | None | None | 3 | 0 | 0 | 0 | 0 | C# | 2000 | 173 | 1| 
 | m-y-mo | 利用 libprotobuf-mutator Fuzz Android 设备的 NFC 模块 | https://github.com/m-y-mo/android_nfc_fuzzer | None |  | None | None | 20 | 0 | 0 | 0 | 0 | JavaScript,Java,HTML,C++ | 28 | 4 | 1| 
 | maubot | 适用于maubot的GitLab客户端和Webhook接收器。 | https://github.com/maubot/gitlab | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,HTML | 129 | 27 | 1| 
@@ -485,6 +491,7 @@
 # medium_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| FAQs on Getting Started in Cyber Threat Intelligence | https://medium.com/katies-five-cents/faqs-on-getting-started-in-cyber-threat-intelligence-f567f267348e| 
 | How Malicious Tor Relays are Exploiting Users in 2020 (Par... | https://medium.com/@nusenu/how-malicious-tor-relays-are-exploiting-users-in-2020-part-i-1097575c0cac| 
 | Security Detections on Windows Events with Recurrent Neura... | https://medium.com/@ditrizna/security-detections-on-windows-events-with-recurrent-neural-networks-346d0b2738fe| 
 | SSRF on Zimbra Led to Dump All Credentials in Clear Text | https://medium.com/bugbountywriteup/story-of-a-2-5k-bounty-ssrf-on-zimbra-led-to-dump-all-credentials-in-clear-text-6fe826005ccc| 
@@ -506,6 +513,7 @@
 | title | url| 
 | --- | ---| 
 | DataCon2020 僵尸网络追踪第一题writeup | https://zhuanlan.zhihu.com/p/186254809| 
+| 写给技术创业者的创业思考框架 | https://zhuanlan.zhihu.com/p/84058442| 
 | 从现状看威胁情报发展趋势 | https://zhuanlan.zhihu.com/p/183993203| 
 | 人物图谱构建技术 | https://zhuanlan.zhihu.com/p/166587883| 
 | 记 MOSEC 2020 及上海一游 (2) | https://zhuanlan.zhihu.com/p/164905986| 
@@ -539,6 +547,9 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 无字母数字webshell总结 | https://xz.aliyun.com/t/8107| 
+| 浅探内网横向移动-Pass The Hash | https://xz.aliyun.com/t/8117| 
+| 浅谈PHP无回显命令执行的利用 | https://xz.aliyun.com/t/8125| 
 | OneThink前台注入分析 | https://xz.aliyun.com/t/8081| 
 | 关于检测web蜜罐利用jsonp获取信息的一些想法 | https://xz.aliyun.com/t/8111| 
 | 实战绕过双重waf结合sqlmap tamper获取数据 | https://xz.aliyun.com/t/8064| 
