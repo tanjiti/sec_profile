@@ -17,12 +17,12 @@ Scala	1
 Perl	1
 LLVM	1
 Rust	1
-Ruby	1
+Swift	1
 Groovy	1
 Zeek	1
 Kotlin	1
 Smali	1
 CMake	1
-Swift	1
+Ruby	1
 Smarty	1
 Vim	1
