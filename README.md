@@ -14,26 +14,30 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 404 Not F0und | gh_8cea5d3d902b | 入职一月的体感与思考 | https://mp.weixin.qq.com/s/O2CpObfiGOLa8CZbkP08Hg | 1| 
+| Tide安全团队 | TideSec | ​某地市攻防演练总结与反思 | https://mp.weixin.qq.com/s/QoMn-T_KKT4oo7I-TRGAUQ | 1| 
+| 绿盟科技 | NSFOCUS-weixin | AISecOps : 从DARPA TC项目看终端攻防 | https://mp.weixin.qq.com/s/gS5_yLCMflFMq_K3zsklLA | 1| 
+| 网络安全观 | SecurityInsights | 美国网络安全 , MITRE Shield 积极防御知识库 | https://mp.weixin.qq.com/s/cljI9AFVNEb4YkglzYayDg | 4| 
 | Python遇见机器学习 | Python_DL | 万字长文总结机器学习的模型评估与调参，附代码下载 | https://mp.weixin.qq.com/s/Uenwe66pwl4SzcW1P2B7Iw | 1| 
 | Secquan圈子社区 | secquan_org | Jenkins的后门实现（密码窃取,命令执行） | https://mp.weixin.qq.com/s/C002y-fBZVFv-dQztdC6Bg | 1| 
 | 安全客 | anquanbobao | 萌新从0开始的专业渗透测试报告编写指南 | https://mp.weixin.qq.com/s/BKwPy27aVM4fSrTSlLbq7g | 1| 
 | ChaMd5安全团队 | chamd5sec | 浅谈哥斯拉内存Shell技术 | https://mp.weixin.qq.com/s/D0ACXtPsj91chP4zmGpUjQ | 7| 
-| DataFunTalk | datafuntalk | Fraudar算法在京东关系网络反欺诈中的应用 | https://mp.weixin.qq.com/s/Qp1Yrlu92LwZ-n4kipq0sw | 1| 
-| ZoomEye | ZoomEye_Team | 利用 ZoomEye 追踪多种 Redteam C&C 后渗透攻击框架 | https://mp.weixin.qq.com/s/H66J0ab8UAyVrxRb1RLO4g | 1| 
-| 唯品会安全应急响应中心 | VIP_SRC | 【技术分享】大规模数据安全分类系统架构实践 | https://mp.weixin.qq.com/s/mRmDEuDKJSJ_xrYyBMn4Dw | 1| 
-| 这里是河马 | gh_d110440c4890 | 河马查杀1.8.2 发布,支持检测冰蝎、哥斯拉后门 | https://mp.weixin.qq.com/s/GpGubo6CRL9OOEumkyL29A | 2| 
-| 国家网络威胁情报共享开放平台 | CNTIC2017 | DataCon2020 恶意代码分析冠军writeup | https://mp.weixin.qq.com/s/e69Fg9UBX3B2BFiGvsg4Gg | 1| 
-| 谈数据 | learning-bigdata | 数据中台：基于标签体系的360°用户画像 | https://mp.weixin.qq.com/s/zIbhQjP9OTIPG9uRr64xtA | 1| 
 | ChaBug | ChaBugSec | 护网礼盒：哥斯拉Godzilla shell管理工具 | https://mp.weixin.qq.com/s/_4ACLzaImDMQbZWfhSHnwg | 1| 
-| Pai Sec Team | huahuaSec | 半自动化冰蝎流量分析的实践 | https://mp.weixin.qq.com/s/w40qI2iPNLx9GjgkYRyhpg | 1| 
-| 湛卢工作室 | xuehao_studio | 冰蝎3.0简要分析 | https://mp.weixin.qq.com/s/4FeZwDlLdWOjgITdWH1ucQ | 2| 
 | Coggle数据科学 | gh_8df601c10cb4 | 2020腾讯广告算法大赛方案分享及代码（冠军） | https://mp.weixin.qq.com/s/-lizDyP2y357plcG1M64TA | 1| 
+| DataFunTalk | datafuntalk | Fraudar算法在京东关系网络反欺诈中的应用 | https://mp.weixin.qq.com/s/Qp1Yrlu92LwZ-n4kipq0sw | 1| 
 | DeadEye安全团队 | gh_fcf5d3d1e57d | 关于Cobalt Strike检测方法与去特征的思考 | https://mp.weixin.qq.com/s/5MWDXN3eCaw9m-XHDGaXcQ | 1| 
+| Pai Sec Team | huahuaSec | 半自动化冰蝎流量分析的实践 | https://mp.weixin.qq.com/s/w40qI2iPNLx9GjgkYRyhpg | 1| 
+| ZoomEye | ZoomEye_Team | 利用 ZoomEye 追踪多种 Redteam C&C 后渗透攻击框架 | https://mp.weixin.qq.com/s/H66J0ab8UAyVrxRb1RLO4g | 1| 
 | vivo千镜安全实验室 | gh_54ff3f871510 | 软件源码安全攻防之道（上） | https://mp.weixin.qq.com/s/jb3VQyK3U6BQS0-0ad0K_w | 1| 
 | 丁爸 情报分析师的工具箱 | dingba2016 | 【图文资料】基于开源情报网络分析与网页分析 | https://mp.weixin.qq.com/s/UIKHaQzXWc6p6Mjonrk8cg | 1| 
 | 中国信息安全 | chinainfosec | 院士谈 , 陈纯院士、冯登国院士论数据安全治理 | https://mp.weixin.qq.com/s/JWBAZfDPW1QIjrRdc5Yb3Q | 1| 
+| 唯品会安全应急响应中心 | VIP_SRC | 【技术分享】大规模数据安全分类系统架构实践 | https://mp.weixin.qq.com/s/mRmDEuDKJSJ_xrYyBMn4Dw | 1| 
+| 国家网络威胁情报共享开放平台 | CNTIC2017 | DataCon2020 恶意代码分析冠军writeup | https://mp.weixin.qq.com/s/e69Fg9UBX3B2BFiGvsg4Gg | 1| 
 | 奇安信威胁情报中心 | gh_166784eae33e | 从补丁分析到在野利用：揭秘CVE-2020-1464 Windows文件签名验证绕过漏洞疑云 | https://mp.weixin.qq.com/s/CRdDJeen-Zqc0RCnMr4kzQ | 1| 
+| 湛卢工作室 | xuehao_studio | 冰蝎3.0简要分析 | https://mp.weixin.qq.com/s/4FeZwDlLdWOjgITdWH1ucQ | 2| 
 | 米斯特安全团队 | acmesec | 代码审计 , PHPCMS V9 前台RCE挖掘分析 | https://mp.weixin.qq.com/s/zLXJtekT9O3OuzwBLigMsA | 1| 
+| 谈数据 | learning-bigdata | 数据中台：基于标签体系的360°用户画像 | https://mp.weixin.qq.com/s/zIbhQjP9OTIPG9uRr64xtA | 1| 
+| 这里是河马 | gh_d110440c4890 | 河马查杀1.8.2 发布,支持检测冰蝎、哥斯拉后门 | https://mp.weixin.qq.com/s/GpGubo6CRL9OOEumkyL29A | 2| 
 | 阿里安全响应中心 | alisrc | JSP Webshell那些事 -- 攻击篇(下) | https://mp.weixin.qq.com/s/YhiOHWnqXVqvLNH7XSxC9w | 2| 
 | Gorgias的一己之见 | GorgiasInsight | 固件提取系列(一)-固件载体 | https://mp.weixin.qq.com/s/xWUoAwilc6v_0BMZXpbZqA | 1| 
 | 明不可欺 | gh_1405d616adc7 | 网络赌博的管辖权、代理、赌资、四方的法律规定 | https://mp.weixin.qq.com/s/XAp40kxf-I0nmOjDBAD7Dg | 1| 
@@ -47,7 +51,6 @@
 | 极光无限 | AuroraInfinity | 2020数据泄露调查报告 | https://mp.weixin.qq.com/s/agMbnkeE39LlgfcivfCexA | 1| 
 | 纸鱼AI | gh_5cb3929923da | 智源&计算所-互联网虚假新闻检测挑战赛（冠军）方案分享，代码已开源 | https://mp.weixin.qq.com/s/c8f0wDHigNQUlmxtFVG0aA | 1| 
 | 网信中国 | cacweixin | 国家互联网应急中心（CNCERT）发布《2019年中国互联网网络安全报告》 | https://mp.weixin.qq.com/s/0GU_cC9PGwWPKA1ZdxCF4g## | 1| 
-| 网络安全观 | SecurityInsights | 美国网络安全 , 开篇：美国网络空间安全新战略 | https://mp.weixin.qq.com/s/usiMcWM6lnU5ZorkpG8DUQ | 3| 
 | 贝塔安全实验室 | BetaSecLab | Windows通用应用平台UWP持久化 | https://mp.weixin.qq.com/s/rHE2Xj335RzhlB-KvxJLpQ | 1| 
 | 跨越鸿沟 | gh_0bae97403201 | 信息安全：研究体系(220页) | https://mp.weixin.qq.com/s/WeBXUyP3-gbzrRrHmPyY9w | 1| 
 | 锦行信息安全 | jeeseensec | 安全技术,BloodHound 使用指南 | https://mp.weixin.qq.com/s/dBWq1rCZYVS9oDgIGwcCdA | 1| 
