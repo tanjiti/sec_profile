@@ -14,6 +14,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| Piz0n | gh_339ee98cec1b | 从乙方到甲方 , 我所亲历的信息安全建设之变迁【1】 | https://mp.weixin.qq.com/s/mJNcCZfElyCAbq1aSHHTDw | 10| 
+| 虎符智库 | TT_Thinktank | 十年百余起事件，软件供应链面临安全危机 | https://mp.weixin.qq.com/s/zWp0j805H62nUbl9KTOohw | 3| 
+| 阿里安全响应中心 | alisrc | 污点传递理论在Webshell检测中的应用 -- PHP篇 | https://mp.weixin.qq.com/s/MFmSliCQaaVEQ0E66vN5Xg | 9| 
 | 404 Not F0und | gh_8cea5d3d902b | 入职一月的体感与思考 | https://mp.weixin.qq.com/s/O2CpObfiGOLa8CZbkP08Hg | 4| 
 | Tide安全团队 | TideSec | ​某地市攻防演练总结与反思 | https://mp.weixin.qq.com/s/QoMn-T_KKT4oo7I-TRGAUQ | 39| 
 | 绿盟科技 | NSFOCUS-weixin | AISecOps : 从DARPA TC项目看终端攻防 | https://mp.weixin.qq.com/s/gS5_yLCMflFMq_K3zsklLA | 7| 
@@ -38,7 +41,6 @@
 | 米斯特安全团队 | acmesec | 代码审计 , PHPCMS V9 前台RCE挖掘分析 | https://mp.weixin.qq.com/s/zLXJtekT9O3OuzwBLigMsA | 1| 
 | 谈数据 | learning-bigdata | 数据中台：基于标签体系的360°用户画像 | https://mp.weixin.qq.com/s/zIbhQjP9OTIPG9uRr64xtA | 1| 
 | 这里是河马 | gh_d110440c4890 | 河马查杀1.8.2 发布,支持检测冰蝎、哥斯拉后门 | https://mp.weixin.qq.com/s/GpGubo6CRL9OOEumkyL29A | 7| 
-| 阿里安全响应中心 | alisrc | JSP Webshell那些事 -- 攻击篇(下) | https://mp.weixin.qq.com/s/YhiOHWnqXVqvLNH7XSxC9w | 8| 
 | Gorgias的一己之见 | GorgiasInsight | 固件提取系列(一)-固件载体 | https://mp.weixin.qq.com/s/xWUoAwilc6v_0BMZXpbZqA | 1| 
 | 明不可欺 | gh_1405d616adc7 | 网络赌博的管辖权、代理、赌资、四方的法律规定 | https://mp.weixin.qq.com/s/XAp40kxf-I0nmOjDBAD7Dg | 1| 
 | 公务员与事业单位 | gwy-sydw | 警惕！2020年多名公务员因微信办公违规被处理，案例鲜活，教训惨痛 | https://mp.weixin.qq.com/s/QOUFyVa4c4xGO1v4FroLXw | 1| 
@@ -123,7 +125,6 @@
 | 中通安全应急响应中心 | ZTO_SRC | 中通RASP安全防护方案初探 | https://mp.weixin.qq.com/s/33CtW9ErXCDWoCJRFzlVPQ | 7| 
 | 小强说 | xiaoqiangcall | 从STIX2.1看安全智能归来 | https://mp.weixin.qq.com/s/nYV3S2oYNNnKcpvNAG751w | 5| 
 | 情报分析师 | qingbaofenxishi | 大数据环境下安全情报融合体系构建 | https://mp.weixin.qq.com/s/bjqv8zlSEl7waKHxBNIwyA | 4| 
-| 虎符智库 |  | 各国竞相布局 卫星互联网重新定义网络战 | https://mp.weixin.qq.com/s/mj4BVfI-j3yp-xaSZeEW_A | 2| 
 | 天融信阿尔法实验室 |  | JAVA RMI反序列化知识详解 | https://mp.weixin.qq.com/s/bC71HoEtDAKKbHJvStu9qA | 8| 
 | 漏洞推送 |  | 浏览器中隐蔽数据传输通道-DNS隧道 | https://mp.weixin.qq.com/s/u5HV7umrZABcgVpZ5pn6WQ | 1| 
 | lymmmx |  | 已知邮箱，求手机号码? | https://mp.weixin.qq.com/s/XvMruURNVWBkEwxvnPSW1g | 1| 
@@ -365,7 +366,6 @@
 | 点融安全应急响应中心 | dsrc_dianrong |  | https://mp.weixin.qq.com/s/4saEV6fWimqfII2_7PUQ8Q | 1| 
 | 量子位 | QbitAI |  | https://mp.weixin.qq.com/s/gFGm_OcjpW8Z2LkzbX44Dg | 2| 
 | 31QU | blockchain31 |  | https://mp.weixin.qq.com/s/I2gatFhkEs1GpGPHC97PnQ | 1| 
-| Piz0n |  |  | https://mp.weixin.qq.com/s/JG0fMLf4WcvSH5K0DHMBtw | 9| 
 | VIPKID安全应急响应中心 | vk_src |  | https://mp.weixin.qq.com/s/4W42FLdfiO4cu7gykthe9A | 1| 
 | 云加社区 | QcloudCommunity |  | https://mp.weixin.qq.com/s/pNHthmCvRPFCNpOrMyyTPg | 1| 
 | 信息时代的犯罪侦查 | infocrime |  | https://mp.weixin.qq.com/s/SKsPxTbzFGNhCChg7o3tTA | 2| 
