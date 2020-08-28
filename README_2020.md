@@ -14,6 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| GobySec | gobysec | 插件分享 , 可以连续导入的Censys插件 | https://mp.weixin.qq.com/s/cmpg3idfG0WS_0ME8vLS4A | 5| 
+| 安全客 | anquanbobao | 一例APT28（Fancybear）样本详细分析 | https://mp.weixin.qq.com/s/EBSCPTLt8cwIvptdcdpHJQ | 4| 
 | AX科技圈 | axkjq2006 | 【M水堇】数字化平台建设总结--技术篇 | https://mp.weixin.qq.com/s/qmMRmEcSnGmD6Y4vg6zjow | 1| 
 | FreeBuf | freebuf | 内网渗透：不出网渗透技巧 | https://mp.weixin.qq.com/s/wpJKZAxMUScGRX2XIocK0g | 2| 
 | OPPO安全应急响应中心 | opposrc | OPPO互联网DevSecOps实践 | https://mp.weixin.qq.com/s/eCwXozibaABcZjUOqTn4Zg | 1| 
@@ -29,7 +31,6 @@
 | 网络安全观 | SecurityInsights | 美国网络安全 , MITRE Shield 积极防御知识库 | https://mp.weixin.qq.com/s/cljI9AFVNEb4YkglzYayDg | 7| 
 | Python遇见机器学习 | Python_DL | 万字长文总结机器学习的模型评估与调参，附代码下载 | https://mp.weixin.qq.com/s/Uenwe66pwl4SzcW1P2B7Iw | 1| 
 | Secquan圈子社区 | secquan_org | Jenkins的后门实现（密码窃取,命令执行） | https://mp.weixin.qq.com/s/C002y-fBZVFv-dQztdC6Bg | 1| 
-| 安全客 | anquanbobao | 萌新从0开始的专业渗透测试报告编写指南 | https://mp.weixin.qq.com/s/BKwPy27aVM4fSrTSlLbq7g | 3| 
 | ChaMd5安全团队 | chamd5sec | 浅谈哥斯拉内存Shell技术 | https://mp.weixin.qq.com/s/D0ACXtPsj91chP4zmGpUjQ | 21| 
 | ChaBug | ChaBugSec | 护网礼盒：哥斯拉Godzilla shell管理工具 | https://mp.weixin.qq.com/s/_4ACLzaImDMQbZWfhSHnwg | 1| 
 | Coggle数据科学 | gh_8df601c10cb4 | 2020腾讯广告算法大赛方案分享及代码（冠军） | https://mp.weixin.qq.com/s/-lizDyP2y357plcG1M64TA | 1| 
@@ -66,7 +67,6 @@
 | 看雪学院 | ikanxue | 某Nginx后门分析复现与改写 | https://mp.weixin.qq.com/s/U2trVwV75yEW5HpVn0Ki8A | 8| 
 | 安全鸭 | yliang53 | 横向渗透的常见方法 | https://mp.weixin.qq.com/s/eMXWYV-5sKR0HfcqMJOBWg | 1| 
 | 腾讯安全应急响应中心 | tsrc_team | 红蓝对抗之域名搜集方法总结 | https://mp.weixin.qq.com/s/rECW5vKbUfI89F31WEQjyw | 9| 
-| GobySec | gobysec | 技术分享 , Goby食用指南之红蓝对抗 | https://mp.weixin.qq.com/s/G-Vn4htAhjwlJb67v2TtRw | 4| 
 | SCUCTF | scuctf | WMCTF2020 WP by 0x401 | https://mp.weixin.qq.com/s/Ll-f25pLOPbkjlo9zGFbFA | 1| 
 | nmask | nmask-article | 基于Redis的扫描器任务调度设计方案 | https://mp.weixin.qq.com/s/BoAcBD4cVaZZ4OZ_uHdBng | 2| 
 | 中国科学院院刊 | CASbulletin | 实现网络空间的“挂图作战”：网络空间地理学+可视化技术 | https://mp.weixin.qq.com/s/53wDSOuSrvybTtHrh10i-Q | 1| 
