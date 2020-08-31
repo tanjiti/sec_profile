@@ -1,12 +1,12 @@
-Python	16
+Python	17
 HTML	11
-JavaScript	8
-C	8
-Go	7
+JavaScript	9
+C	9
+Go	8
 Java	6
+C#	5
 Shell	4
 C++	4
-C#	4
 PHP	4
 Dockerfile	2
 CSS	2
@@ -19,6 +19,7 @@ Perl	1
 PostScript	1
 LLVM	1
 Erlang	1
+VBScript	1
 Rust	1
 Elixir	1
 Swift	1

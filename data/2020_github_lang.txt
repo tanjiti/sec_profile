@@ -6,7 +6,7 @@ C++	53
 Shell	46
 Go	45
 Java	43
-C#	36
+C#	37
 PowerShell	24
 PHP	21
 CSS	19
@@ -26,6 +26,7 @@ Objective-C	4
 Lua	3
 Nix	3
 Visual	3
+VBScript	3
 Kotlin	3
 Roff	3
 Smarty	3
@@ -33,7 +34,6 @@ Makefile	2
 Vue	2
 YARA	2
 Assembly	2
-VBScript	2
 Smali	2
 Vim	2
 Haskell	2

@@ -6,7 +6,7 @@ HTML	464
 Shell	436
 Java	426
 Go	358
-C#	256
+C#	257
 Ruby	251
 PHP	228
 PowerShell	221
@@ -78,6 +78,7 @@ KiCad	4
 Common	4
 Elm	3
 Standard	3
+VBScript	3
 SQLPL	3
 Vala	3
 QML	3
@@ -91,7 +92,6 @@ Brainfuck	2
 Jsonnet	2
 AngelScript	2
 Terra	2
-VBScript	2
 Boo	2
 Prolog	2
 Yacc	2
