@@ -491,6 +491,8 @@ def get_github_info(url="", title="", ts="", tag="",
                     github_org = github_org.get("href")
 
                 overview["p_github_org"] = strip_n(github_org)
+                if 'p_packages' in overview:
+                    del overview['p_packages']
 
     return overview
 
@@ -895,6 +897,7 @@ def test_get_github_info():
     :return:
     """
     url = "https://github.com/tanjiti/sec_profile"
+    url = "https://github.com/ashishb/android-security-awesome"
     ret = get_github_info(url, isnew=False)
     print(ret)
 
@@ -930,8 +933,8 @@ def test_get_requst():
 if __name__ == "__main__":
     """
     """
-    # test_get_github_info()
-    test_get_weixin_info()
+    test_get_github_info()
+    #test_get_weixin_info()
     # test_get_requst()
 
     # test_get_twitter_info()

@@ -89,9 +89,12 @@
 | Droidzzzio | 用于枚举子域wordlist，php文件路径，html文件路径和js文件路径的开源工具 | https://github.com/Droidzzzio/EnumerationList | https://twitter.com/ShMalav | Security Researcher Bug Bounty Hunter | INDIA | None | 44 | 0 | 0 | 0 | 0 | Python | 32 | 8 | 1| 
 | Jewel591 | XSSMAP-一款快速检测Web应用程序中的XSS漏洞的开源工具 | https://github.com/Jewel591/xssmap | http://Jewel591.fun | Security operations engineer | United Kingdom | A security consulting firm | 15 | 0 | 0 | 0 | 0 | Python,C,Perl | 30 | 5 | 1| 
 | SecureAuthCorp | RCE in any MS Exchange via Exchange Trusted Subsystem | https://github.com/SecureAuthCorp/impacket/pull/857 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Java,Python,JavaScript,C#,HTML,Go | 0 | 0 | 1| 
+| TheKingOfDuck | FileMonitor: 文件变化实时监控工具 | https://github.com/TheKingOfDuck/FileMonitor | https://blog.xxxxxxxxx/ | FIVE,,Infosec Researcher,,Security Developer | V1g6VGhlS2luZ09mR2FHYUdh | None | 43 | 0 | 0 | 0 | 0 | Python,C#,Shell | 2500 | 980 | 1| 
 | arieljt | VT Code Similarity Yara Generator | https://github.com/arieljt/VTCodeSimilarity-YaraGen | https://twitter.com/arieljt |  | None | None | 3 | 0 | 0 | 0 | 0 | Python | 34 | 6 | 1| 
+| ashishb | Android Security Awesome，Android 安全方向的资料整理 | https://github.com/ashishb/android-security-awesome | https://ashishb.net | Software Engineer - SF Bay area https://ashishb.net/about/ | United States | None | 94 | 0 | 0 | 0 | 0 | Python,Go,Shell,Makefile | 4800 | 1200 | 1| 
 | avast | Radare2 插件，用于将 RetDec 反汇编工具集成进 Radare2 | https://github.com/avast/retdec-r2plugin | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Groovy,LLVM,Java,Scala,Python,Kotlin,JavaScript,C++,HTML,Go | 5500 | 657 | 1| 
 | cobbr | .NET 编写的一款 C&C 渗透框架 | https://github.com/cobbr/Covenant | https://cobbr.io |  | Dallas, TX | SpecterOps | 20 | 0 | 0 | 0 | 0 | C#,PowerShell | 1600 | 307 | 1| 
+| dafthack | CloudPentestCheatsheets: 云渗透的一些参考命令 | https://github.com/dafthack/CloudPentestCheatsheets | http://www.twitter.com/dafthack |  | None | None | 30 | 0 | 0 | 0 | 0 | Python,Go,PowerShell | 1500 | 333 | 1| 
 | darvincisec | 无需 root 和重打包，将 App 安装到克隆 App 内实现动态分析 | https://github.com/darvincisec/VirtualDynamicAnalysis | https://darvincitech.wordpress.com | Security Researcher | Singapore | None | 10 | 0 | 0 | 0 | 0 | C,Java,Smali | 93 | 25 | 1| 
 | doyensec | Electron.js Hacking 相关的资料收集整理 | https://github.com/doyensec/awesome-electronjs-hacking | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,JavaScript,Java,C++ | 0 | 0 | 1| 
 | duffelhq | Elixir Ecto Paginator 刚刚修复了一个 RCE 漏洞 | https://github.com/duffelhq/paginator/security/advisories/GHSA-w98m-2xqg-9cvj | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Python,JavaScript,HTML,Elixir,Go,Erlang | 0 | 0 | 1| 
@@ -101,6 +104,7 @@
 | latentgod | OpenSA: 运维自动化平台 | https://github.com/latentgod/OpenSA | None |  | None | None | 38 | 0 | 0 | 0 | 0 | Python,PHP,JavaScript,Vim | 6 | 10 | 1| 
 | maubot | 适用于maubot的GitLab客户端和Webhook接收器。 | https://github.com/maubot/gitlab | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,HTML | 129 | 27 | 1| 
 | mitre-attack | 关于辅助实现自动化ATT＆CK归纳的python脚本 | https://github.com/mitre-attack/attack-scripts/tree/master/layers | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Zeek,Python,JavaScript,HTML,PowerShell | 0 | 0 | 1| 
+| nahamsec | 为 Bug Bounty Hunters 入门整理的资料 | https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters | http://nahamsec.com |  | None | None | 16 | 0 | 0 | 0 | 0 | Python,Shell | 3500 | 645 | 1| 
 | napocahv | Napoca - Bitdefender 开源的 Hypervisor，提供多个安全相关的功能 | https://github.com/napocahv/napoca | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 87 | 22 | 1| 
 | nautilus-fuzz | 基于 NDSS 2019 一篇 Paper 实现的一个基于 Grammar、Coverage Guided 的 Fuzzer | https://github.com/nautilus-fuzz/nautilus | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | nomi-sec | PoC auto collect from GitHub | https://github.com/nomi-sec/PoC-in-GitHub | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
@@ -109,6 +113,7 @@
 | taomujian | linbing: 临兵漏洞扫描系统 | https://github.com/taomujian/linbing | None |  | 以色列 | None | 14 | 0 | 0 | 0 | 0 | Python,C#,Java,HTML,Dockerfile | 139 | 48 | 1| 
 | ttonys | 获取每日最新的CVE和CNVD漏洞 | https://github.com/ttonys/Scrapy-CVE-CNVD | https://www.sys71m.top/ | 只见树木，不见森林 | None | None | 5 | 0 | 0 | 0 | 0 | Python,PHP,HTML,CSS | 15 | 1 | 1| 
 | zer0yu | Awesome CobaltStrike | https://github.com/zer0yu/Awesome-CobaltStrike | http://zeroyu.xyz/ | RedTeam@PolarisLab / CTFer@kn0ck | None | None | 40 | 0 | 0 | 0 | 0 | Python,HTML | 626 | 111 | 1| 
+| zodiacon | 基于 Event Tracing for Windows (ETW) 而不再依赖驱动实现的 Process Monitor | https://github.com/zodiacon/ProcMonXv2 | http://scorpiosoftware.net |  | Israel | None | 68 | 0 | 0 | 0 | 0 | C#,C,C++ | 1100 | 296 | 1| 
 
 
 # medium_xuanwu 推荐

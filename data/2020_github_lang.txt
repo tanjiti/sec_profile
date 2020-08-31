@@ -1,13 +1,13 @@
-Python	126
-C	67
+Python	129
+C	68
 JavaScript	61
 HTML	60
-C++	53
-Shell	46
-Go	45
+C++	54
+Shell	48
+Go	47
 Java	43
-C#	37
-PowerShell	24
+C#	39
+PowerShell	25
 PHP	21
 CSS	19
 Ruby	18
@@ -23,6 +23,7 @@ TSQL	4
 Zeek	4
 TeX	4
 Objective-C	4
+Makefile	3
 Lua	3
 Nix	3
 Visual	3
@@ -30,7 +31,6 @@ VBScript	3
 Kotlin	3
 Roff	3
 Smarty	3
-Makefile	2
 Vue	2
 YARA	2
 Assembly	2
