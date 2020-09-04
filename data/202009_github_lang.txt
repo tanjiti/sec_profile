@@ -1,11 +1,13 @@
 C	4
-Python	2
-JavaScript	2
+Python	4
+JavaScript	3
 C++	2
+Vue	2
 TypeScript	1
+Java	1
 C#	1
 Objective-C	1
-Vue	1
+Shell	1
 Go	1
 PHP	1
 Ruby	1
