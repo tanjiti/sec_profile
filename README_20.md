@@ -22,13 +22,13 @@
 | 广东网络空间安全专委会 | gh_f5ab4f133df7 | 大学新生网络信息安全知识教育手册 | https://mp.weixin.qq.com/s/qUuGvRiAyhJBhtj7iW5Hcw | 1| 
 | 数说安全 | SSAQ2016 | 2020年中国网络安全市场全景图 | https://mp.weixin.qq.com/s/W5SNkDjqFiD6hl0qQv0JUA | 28| 
 | 绿盟科技研究通讯 | nsfocus_research | 攻击溯源-基于因果关系的攻击溯源图构建技术 | https://mp.weixin.qq.com/s/ofP4j2TEfNoCYqrLhMsvZA | 32| 
+| 腾讯安全应急响应中心 | tsrc_team | 红蓝对抗之邮件钓鱼攻击 | https://mp.weixin.qq.com/s/YKZ6yWWxOhn2KjTV5lDP7w | 15| 
 | 雷石安全实验室 | leishianquan1 | PDF文件密码破解 | https://mp.weixin.qq.com/s/EH7Z_mJvuWxtbQdcXf3h4w | 1| 
 | Seebug漏洞平台 | seebug_org | 疑似 KimsukyAPT 组织最新攻击活动样本分析 | https://mp.weixin.qq.com/s/RqFWfe2gf9KdKIq0hLq4Gw | 3| 
-| 百度安全应急响应中心 | baidu_sec | 红与蓝：现代Webshell检测引擎免杀对抗与实践 | https://mp.weixin.qq.com/s/j7gPuNg6dR5VQISOxeWCyA | 4| 
-| 腾讯安全应急响应中心 | tsrc_team | HW实战：浅谈信息搜集中的自动化数据分析 | https://mp.weixin.qq.com/s/EkoiH28DBzHlKRR15CE8Rw | 15| 
 | 酒仙桥六号部队 | anfu-360 | 渗透某勒索服务器 | https://mp.weixin.qq.com/s/-VFpidSMO0VkJmKhnrhlfA | 4| 
 | GobySec | gobysec | 插件分享 , 可以变身的超级赛亚人主题？ | http://mp.weixin.qq.com/s?__biz=MzI4MzcwNTAzOQ==&mid=2247484005&idx=1&sn=b1f9a68d55b43fd9653cf5c65e655516&chksm=eb87e9c5dcf060d35f5d23cce1e7c06a335091b491723d74b33b993ff5c4fed4cac2bc78827b&token=225023830&lang=zh_CN#rd | 6| 
 | Piz0n | gh_339ee98cec1b | 从乙方到甲方 , 我所亲历的信息安全建设之变迁【2】 | https://mp.weixin.qq.com/s/5dpqVcYEEpz4K_45MUZwxg | 11| 
+| 百度安全应急响应中心 | baidu_sec | 红与蓝：现代Webshell检测引擎免杀对抗与实践 | https://mp.weixin.qq.com/s/j7gPuNg6dR5VQISOxeWCyA | 4| 
 | 黑鸟 | blackorbird | 美国追踪与追回朝鲜黑客窃取的数字货币 | https://mp.weixin.qq.com/s/fSVfWFKsO9yYRrB48GyNyg | 4| 
 | 互联网安全内参 | anquanneican | 我国禁止限制出口技术目录更新，增加多项网络安全技术 | https://mp.weixin.qq.com/s/vdPakV3Y26ew2qxRiRVV4Q | 8| 
 | 雷神众测 | thorsrc | 跨域漏洞那些事儿（cors、jsonp) | https://mp.weixin.qq.com/s/cHOvEbYtYNfl2lQ8-N3qtA | 6| 
@@ -1791,7 +1791,6 @@
 | wbenny | injdrv - 通过 APC 将 DLL 注入用户模式进程概念验证的 Windows 驱动程序: | https://github.com/wbenny/injdrv | https://twitter.com/PetrBenes |  | Brno, Czech Republic | None | 19 | 0 | 93 | 219 | 9 | C,C++ | 0 | 0 | 5| 
 | andrewjkerr | Linux下常见命令及部分安全软件使用命令列表 | https://github.com/andrewjkerr/security-cheatsheets | https://github.com/tumblr | Currently @ Tumblr. Previously @ Blockscore. UF CISE alum. | New York, NY | @tumblr | 78 | 0 | 482 | 218 | 55 | Ruby,JavaScript,Java | 0 | 0 | 1| 
 | hc0d3r | Sudohulk - 替换 sudo,利用 ptrace Hook execve 系统调用实现劫持: | https://github.com/hc0d3r/sudohulk | http://hc0d3r.github.io |  | Brasil | None | 20 | 0 | 261 | 218 | 31 | C | 0 | 0 | 1| 
-| saaramar | 深入理解 VBS 与 VSM,来自 BlueHat IL 上 Saar Amar 分享: | https://github.com/saaramar/Publications/blob/master/BluehatIL_VBS_meetup/VBS_Internals.pdf | None | @AmarSaar in twitter, known as amarsa | None | None | 7 | 0 | 28 | 218 | 6 | Python,C,C++ | 195 | 38 | 3| 
 | bcoles | bcoles 收集的 Linux 内核 Exploits | https://github.com/bcoles/kernel-exploits | https://itsecuritysolutions.org | ` rm -rf /* ` | ` rm -rf /* ` | ` rm -rf /* ` | 29 | 0 | 62 | 217 | 19 | Python,C,Shell,Ruby | 17100 | 8400 | 1| 
 | hzqst | VmwareHardenedLoader - 一款对抗恶意代码的虚拟机检测工具 : | https://github.com/hzqst/VmwareHardenedLoader | None |  | China | None | 17 | 0 | 13 | 217 | 2 | C,C++,POV-Ray | 0 | 0 | 2| 
 | caffix | amass - Go 语言编写的子域名收集工具: | https://github.com/caffix/amass | https://twitter.com/jeff_foley | Security Researcher, Red Team Manager, Gopher and Project Leader of OWASP Amass | New York, United States | None | 23 | 0 | 400 | 216 | 39 | Go,Ruby | 0 | 0 | 1| 
@@ -3844,6 +3843,7 @@
 | riskawarrior | 渗透测试书签 | https://github.com/riskawarrior/pentest-bookmarks#forums | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | robotattackorg | robot-detect - ROBOT 漏洞检测脚本 : | https://github.com/robotattackorg/robot-detect | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | rootclay | NTLM-SSP: NTLM中高级进阶进阶 | https://github.com/rootclay/NTLM-SSP | None | A man who wants to be a ... | beijing | Syclover | 40 | 0 | 0 | 0 | 0 | VBScript,HTML | 460 | 135 | 2| 
+| saaramar | Google Quals CTF 2020 Echo PWN Challenge Writeup | https://github.com/saaramar/echo_googlequals2020 | https://twitter.com/AmarSaar | @AmarSaar in twitter, known as amarsa | None | None | 9 | 0 | 0 | 0 | 0 | Python,C,Rust,C++ | 203 | 41 | 4| 
 | saferwall | saferwall: 下一代开源恶意软件分析平台 | https://github.com/saferwall/saferwall | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go | 0 | 0 | 1| 
 | samgha | vipas: Vipasyin Webshell detector Go 语言编写的Webshell检测工具 | https://github.com/samgha/vipas | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,XSLT,Python,JavaScript,C++,Go | 0 | 0 | 1| 
 | samuraictf | SHURIKEN: Exploit throwing framework | https://github.com/samuraictf/shuriken-framework | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,Shell | 0 | 0 | 1| 
@@ -4116,6 +4116,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 攻防对抗的思考（1）网络诈骗的拱心石 | https://zhuanlan.zhihu.com/p/223173210| 
 | DataCon2020 僵尸网络追踪第一题writeup | https://zhuanlan.zhihu.com/p/186254809| 
 | 写给技术创业者的创业思考框架 | https://zhuanlan.zhihu.com/p/84058442| 
 | 从现状看威胁情报发展趋势 | https://zhuanlan.zhihu.com/p/183993203| 

@@ -1,11 +1,11 @@
-Python	6
-C	4
+Python	7
+C	5
 JavaScript	4
-C++	2
+C++	3
 Vue	2
 Shell	2
-Go	2
 Ruby	2
+Rust	2
 TypeScript	1
 Jupyter	1
 HTML	1
@@ -13,7 +13,7 @@ Visual	1
 C#	1
 Objective-C	1
 CSS	1
+Go	1
 Java	1
 PHP	1
 PowerShell	1
-Rust	1
