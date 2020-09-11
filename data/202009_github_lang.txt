@@ -7,13 +7,13 @@ Shell	2
 Ruby	2
 Rust	2
 TypeScript	1
-Jupyter	1
+Java	1
 HTML	1
 Visual	1
 C#	1
 Objective-C	1
 CSS	1
 Go	1
-Java	1
+Jupyter	1
 PHP	1
 PowerShell	1

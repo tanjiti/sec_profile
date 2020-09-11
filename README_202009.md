@@ -14,6 +14,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 中国保密协会科学技术分会 | gh_be4f21d557c0 | 人工智能对抗的场景探究 | https://mp.weixin.qq.com/s/CwoX9n3gEA7u8NOFoNiuZA | 1| 
+| 安全情报星球 | littlecola__ | 2020上半年出行行业黑灰产研究报告 | https://mp.weixin.qq.com/s/sQJRZZonTF7bjCs1jd_H9A | 1| 
+| 锦行信息安全 | jeeseensec | 安全技术,利用OpenVpn配置文件反制的武器化探索 | https://mp.weixin.qq.com/s/hOHzmr6qCS2EwranvVEY1w | 1| 
 | Godeye | GodEyeTeam | 红队遇蜜罐 莫慌 | https://mp.weixin.qq.com/s/YBge1xjpjQjQ-NoK4kK6RQ | 1| 
 | 信息安全老骆驼 | gh_00db3382eac9 | 一部手机失窃而揭露的窃取个人信息实现资金盗取的黑色产业链 | https://mp.weixin.qq.com/s/3UeZzw2LmPsM3cU7Rhmb8w | 1| 
 | 国家网络威胁情报共享开放平台 | CNTIC2017 | DataCon 2020 网络黑产分析方向亚军writeup | https://mp.weixin.qq.com/s/Ots4JVLacoaySqCNwUvzQg | 1| 
@@ -67,6 +70,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 有关Angr的正确学习路线 | https://zhuanlan.zhihu.com/p/102582636| 
 | 攻防对抗的思考（2）21分钟学会网络攻防 | https://zhuanlan.zhihu.com/p/228478328| 
 | 如何评价安全工作的好坏 | https://zhuanlan.zhihu.com/p/226493047| 
 | 攻防对抗的思考（1）网络诈骗的拱心石 | https://zhuanlan.zhihu.com/p/223173210| 

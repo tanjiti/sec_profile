@@ -14,6 +14,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 中国保密协会科学技术分会 | gh_be4f21d557c0 | 人工智能对抗的场景探究 | https://mp.weixin.qq.com/s/CwoX9n3gEA7u8NOFoNiuZA | 3| 
+| 安全情报星球 | littlecola__ | 2020上半年出行行业黑灰产研究报告 | https://mp.weixin.qq.com/s/sQJRZZonTF7bjCs1jd_H9A | 1| 
+| 锦行信息安全 | jeeseensec | 安全技术,利用OpenVpn配置文件反制的武器化探索 | https://mp.weixin.qq.com/s/hOHzmr6qCS2EwranvVEY1w | 8| 
 | Godeye | GodEyeTeam | 红队遇蜜罐 莫慌 | https://mp.weixin.qq.com/s/YBge1xjpjQjQ-NoK4kK6RQ | 1| 
 | 信息安全老骆驼 | gh_00db3382eac9 | 一部手机失窃而揭露的窃取个人信息实现资金盗取的黑色产业链 | https://mp.weixin.qq.com/s/3UeZzw2LmPsM3cU7Rhmb8w | 1| 
 | 国家网络威胁情报共享开放平台 | CNTIC2017 | DataCon 2020 网络黑产分析方向亚军writeup | https://mp.weixin.qq.com/s/Ots4JVLacoaySqCNwUvzQg | 3| 
@@ -36,7 +39,6 @@
 | 雷神众测 | thorsrc | 跨域漏洞那些事儿（cors、jsonp) | https://mp.weixin.qq.com/s/cHOvEbYtYNfl2lQ8-N3qtA | 4| 
 | FreeBuf | freebuf | 数据安全怎么做：数据分类分级 | https://mp.weixin.qq.com/s/x6C51zvD3b-27t_o28tI5w | 3| 
 | 丁爸 情报分析师的工具箱 | dingba2016 | 【大数据分析】开源数据分析各省及全国暴力犯罪态势 | https://mp.weixin.qq.com/s/wY1QYyIRcKINuxofJIfvZQ | 2| 
-| 中国保密协会科学技术分会 | gh_be4f21d557c0 | 漫谈在人工智能时代网络入侵检测器的安全风险——逃逸攻击上篇 | https://mp.weixin.qq.com/s/97PVYEJ5gjE92U6xWhHyig | 2| 
 | 百度安全 | BaiduSD00 | 通达OA 11.5版本某处SQL注入漏洞复现分析 | https://mp.weixin.qq.com/s/XKZnsdY31N1_6gB9u8Yu8Q | 1| 
 | 虎符智库 | TT_Thinktank | 揭秘美军网络战七大武器系统 | https://mp.weixin.qq.com/s/ydT4bh12iY93BRQVtU4Lbw | 4| 
 | 404 Not F0und | gh_8cea5d3d902b | 入职一月的体感与思考 | https://mp.weixin.qq.com/s/O2CpObfiGOLa8CZbkP08Hg | 3| 
@@ -81,7 +83,6 @@
 | 网信中国 | cacweixin | 国家互联网应急中心（CNCERT）发布《2019年中国互联网网络安全报告》 | https://mp.weixin.qq.com/s/0GU_cC9PGwWPKA1ZdxCF4g## | 2| 
 | 贝塔安全实验室 | BetaSecLab | Windows通用应用平台UWP持久化 | https://mp.weixin.qq.com/s/rHE2Xj335RzhlB-KvxJLpQ | 3| 
 | 跨越鸿沟 | gh_0bae97403201 | 信息安全：研究体系(220页) | https://mp.weixin.qq.com/s/WeBXUyP3-gbzrRrHmPyY9w | 1| 
-| 锦行信息安全 | jeeseensec | 安全技术,BloodHound 使用指南 | https://mp.weixin.qq.com/s/dBWq1rCZYVS9oDgIGwcCdA | 7| 
 | 看雪学院 | ikanxue | 某Nginx后门分析复现与改写 | https://mp.weixin.qq.com/s/U2trVwV75yEW5HpVn0Ki8A | 8| 
 | 安全鸭 | yliang53 | 横向渗透的常见方法 | https://mp.weixin.qq.com/s/eMXWYV-5sKR0HfcqMJOBWg | 1| 
 | SCUCTF | scuctf | WMCTF2020 WP by 0x401 | https://mp.weixin.qq.com/s/Ll-f25pLOPbkjlo9zGFbFA | 1| 
@@ -557,6 +558,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 有关Angr的正确学习路线 | https://zhuanlan.zhihu.com/p/102582636| 
 | 攻防对抗的思考（2）21分钟学会网络攻防 | https://zhuanlan.zhihu.com/p/228478328| 
 | 如何评价安全工作的好坏 | https://zhuanlan.zhihu.com/p/226493047| 
 | 攻防对抗的思考（1）网络诈骗的拱心石 | https://zhuanlan.zhihu.com/p/223173210| 
