@@ -1,0 +1,19 @@
+20200907	取证分析	https://mp.weixin.qq.com/s/YBge1xjpjQjQ-NoK4kK6RQ	红队遇蜜罐	qq.com	mp.weixin.qq.com	/s/YBge1xjpjQjQ-NoK4kK6RQ
+20200907	Web安全	https://zhuanlan.zhihu.com/p/228478328	攻防对抗的思考（2）21分钟学会网络攻防	zhihu.com	zhuanlan.zhihu.com	/p/228478328
+20200907	恶意分析	https://mp.weixin.qq.com/s/Ots4JVLacoaySqCNwUvzQg	DataCon 2020 网络黑产分析方向亚军writeup	qq.com	mp.weixin.qq.com	/s/Ots4JVLacoaySqCNwUvzQg
+20200907	恶意分析	https://www.anquanke.com/post/id/216834	固件空间安全测绘工具(FirmwareTotal)的进化之路	anquanke.com	www.anquanke.com	/post/id/216834
+20200907	新闻	https://mp.weixin.qq.com/s/3UeZzw2LmPsM3cU7Rhmb8w	一部手机失窃而揭露的窃取个人信息实现资金盗取的黑色产业链	qq.com	mp.weixin.qq.com	/s/3UeZzw2LmPsM3cU7Rhmb8w
+20200907	观点	https://zhuanlan.zhihu.com/p/223173210	攻防对抗的思考（1）网络诈骗的拱心石	zhihu.com	zhuanlan.zhihu.com	/p/223173210
+20200907	观点	https://zhuanlan.zhihu.com/p/226493047	如何评价安全工作的好坏	zhihu.com	zhuanlan.zhihu.com	/p/226493047
+20200907	Web安全	https://mp.weixin.qq.com/s/hOHzmr6qCS2EwranvVEY1w	利用OpenVpn配置文件反制的武器化探索	qq.com	mp.weixin.qq.com	/s/hOHzmr6qCS2EwranvVEY1w
+20200907	漏洞分析	https://zhuanlan.zhihu.com/p/102582636	有关Angr的正确学习路线	zhihu.com	zhuanlan.zhihu.com	/p/102582636
+20200907	Web安全	https://mp.weixin.qq.com/s/ATpoEN9QI-D5vkxDimQ8FQ	JavaParse(AST)获取Java Web API list	qq.com	mp.weixin.qq.com	/s/ATpoEN9QI-D5vkxDimQ8FQ
+20200907	取证分析	https://mp.weixin.qq.com/s/sQJRZZonTF7bjCs1jd_H9A	2020上半年出行行业黑灰产研究报告	qq.com	mp.weixin.qq.com	/s/sQJRZZonTF7bjCs1jd_H9A
+20200907	设备安全	http://blog.nsfocus.net/industry-control-system-risk-assessment-0902/	工业控制系统风险评估典型流程	nsfocus.net	blog.nsfocus.net	/industry-control-system-risk-assessment-0902/
+20200907	Web安全	https://github.com/TophantTechnology/ARL	ARL: 资产侦察灯塔系统	github.com	github.com	/TophantTechnology/ARL
+20200907	数据挖掘	https://mp.weixin.qq.com/s/CwoX9n3gEA7u8NOFoNiuZA	人工智能对抗的场景探究	qq.com	mp.weixin.qq.com	/s/CwoX9n3gEA7u8NOFoNiuZA
+20200907	Web安全	https://xz.aliyun.com/t/8255	bugbounty之我是如何侵入电信网络的	aliyun.com	xz.aliyun.com	/t/8255
+20200907	恶意分析	https://mp.weixin.qq.com/s/K95QEs2UaUyvoUsVvUGDXg	探索MITRE Shield如何用于主动防御	qq.com	mp.weixin.qq.com	/s/K95QEs2UaUyvoUsVvUGDXg
+20200907	设备安全	https://github.com/firmianay/IoT-vulhub	IoT-vulhub: IoT 固件漏洞复现环境	github.com	github.com	/firmianay/IoT-vulhub
+20200907	其它	https://mp.weixin.qq.com/s/JZef789soLqK2SdskBV5WQ	美军红队评估体系建设现状及启示	qq.com	mp.weixin.qq.com	/s/JZef789soLqK2SdskBV5WQ
+20200907	Web安全	https://bacde.me/post/mqtt-security-part-two/	物联网安全之MQTT渗透实战	bacde.me	bacde.me	/post/mqtt-security-part-two/
