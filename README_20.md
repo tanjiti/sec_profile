@@ -14,6 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| vivo千镜安全实验室 | gh_54ff3f871510 | 软件源码安全攻防之道（中） | https://mp.weixin.qq.com/s/8L7c6WOtF5nmcmPnuFubfA | 2| 
+| 电驭叛客 | gh_141164bf887e | API越权风险检测方式浅谈 | https://mp.weixin.qq.com/s/eS8NgNXaIYlUQ__Gb3y0kg | 2| 
 | 军事高科技在线 | jsgkjzx | 首发,美军红队评估体系建设现状及启示 | https://mp.weixin.qq.com/s/JZef789soLqK2SdskBV5WQ | 1| 
 | 绿盟科技研究通讯 | nsfocus_research | 探索MITRE Shield如何用于主动防御 | https://mp.weixin.qq.com/s/K95QEs2UaUyvoUsVvUGDXg | 33| 
 | 中国保密协会科学技术分会 | gh_be4f21d557c0 | 人工智能对抗的场景探究 | https://mp.weixin.qq.com/s/CwoX9n3gEA7u8NOFoNiuZA | 7| 
@@ -22,7 +24,6 @@
 | Godeye | GodEyeTeam | 红队遇蜜罐 莫慌 | https://mp.weixin.qq.com/s/YBge1xjpjQjQ-NoK4kK6RQ | 1| 
 | 信息安全老骆驼 | gh_00db3382eac9 | 一部手机失窃而揭露的窃取个人信息实现资金盗取的黑色产业链 | https://mp.weixin.qq.com/s/3UeZzw2LmPsM3cU7Rhmb8w | 1| 
 | 国家网络威胁情报共享开放平台 | CNTIC2017 | DataCon 2020 网络黑产分析方向亚军writeup | https://mp.weixin.qq.com/s/Ots4JVLacoaySqCNwUvzQg | 3| 
-| 电驭叛客 | gh_141164bf887e | JavaParse(AST)获取Java Web API list | https://mp.weixin.qq.com/s/ATpoEN9QI-D5vkxDimQ8FQ | 1| 
 | gakki的童养夫 | gh_5b1084d953c3 | Cobalt Strike with CloudFlare | https://mp.weixin.qq.com/s/d6hu8YE-SGy-eruIWOwbXg | 1| 
 | 嘶吼专业版 | Pro4hou | WPA 企业模式的安全性和部署 | https://mp.weixin.qq.com/s/K0QRsJBpd57jmOQBGXBh-Q | 17| 
 | 安全研究 | CH-AQYJ | 国家安全微电影《危爱》 | https://mp.weixin.qq.com/s/nrNfuVEx44lGTD8aLPQN2w | 1| 
@@ -64,7 +65,6 @@
 | DeadEye安全团队 | gh_fcf5d3d1e57d | 关于Cobalt Strike检测方法与去特征的思考 | https://mp.weixin.qq.com/s/5MWDXN3eCaw9m-XHDGaXcQ | 1| 
 | Pai Sec Team | huahuaSec | 半自动化冰蝎流量分析的实践 | https://mp.weixin.qq.com/s/w40qI2iPNLx9GjgkYRyhpg | 1| 
 | ZoomEye | ZoomEye_Team | 利用 ZoomEye 追踪多种 Redteam C&C 后渗透攻击框架 | https://mp.weixin.qq.com/s/H66J0ab8UAyVrxRb1RLO4g | 1| 
-| vivo千镜安全实验室 | gh_54ff3f871510 | 软件源码安全攻防之道（上） | https://mp.weixin.qq.com/s/jb3VQyK3U6BQS0-0ad0K_w | 1| 
 | 中国信息安全 | chinainfosec | 院士谈 , 陈纯院士、冯登国院士论数据安全治理 | https://mp.weixin.qq.com/s/JWBAZfDPW1QIjrRdc5Yb3Q | 29| 
 | 唯品会安全应急响应中心 | VIP_SRC | 【技术分享】大规模数据安全分类系统架构实践 | https://mp.weixin.qq.com/s/mRmDEuDKJSJ_xrYyBMn4Dw | 13| 
 | 奇安信威胁情报中心 | gh_166784eae33e | 从补丁分析到在野利用：揭秘CVE-2020-1464 Windows文件签名验证绕过漏洞疑云 | https://mp.weixin.qq.com/s/CRdDJeen-Zqc0RCnMr4kzQ | 41| 
@@ -1370,7 +1370,6 @@
 | xairy | VMware 虚拟机逃逸相关的资料整理 | https://github.com/xairy/vmware-exploitation | https://andreyknvl.com/ |  | None | None | 29 | 0 | 0 | 727 | 14 | Python,C | 2600 | 621 | 6| 
 | TideSec | Web指纹识别技术研究与优化实现 | https://github.com/TideSec/TideFinger/blob/master/Web%E6%8C%87%E7%BA%B9%E8%AF%86%E5%88%AB%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6%E4%B8%8E%E4%BC%98%E5%8C%96%E5%AE%9E%E7%8E%B0.md | http://www.TideSec.com | 一心不动，大巧不工。 | China | Tide | 21 | 0 | 207 | 726 | 23 | C,Shell,Java,Python,PHP,Ruby | 947 | 341 | 1| 
 | cloudsec | 一些关于内核安全的paper | https://github.com/cloudsec/research | http://www.cloud-sec.org |  | China | Huawei | 9 | 0 | 0 | 722 | 1 | C,Shell,Java | 0 | 0 | 2| 
-| 0vercl0k | 一个对 Hyper-V WinHv API 的 python binding | https://github.com/0vercl0k/pywinhv | https://doar-e.github.com/ |  | US/FR | None | 16 | 0 | 7 | 719 | 0 | Python,JavaScript,C++ | 773 | 160 | 2| 
 | zardus | ctf-tools:Some setup scripts for security research tools | https://github.com/zardus/ctf-tools | https://github.com/shellphish | DEFCON CTF org. Captain Emeritus of @shellphish. Asst Professor in Cybersecurity at @ASU. angr hacker. | Tempe, AZ, USA | None | 59 | 0 | 220 | 716 | 10 | Python,C,Shell,C++ | 0 | 0 | 1| 
 | aozhimin | 第三届 MOSEC 移动安全技术峰会PPT下载: | https://github.com/aozhimin/MOSEC-2017 | https://twitter.com/aozhimin0811 | 📲 iOS Developer，🐍 Python Developer, 🔨 Reverse Engineer | Shanghai, China | None | 86 | 0 | 394 | 710 | 84 | CSS | 1600 | 274 | 3| 
 | sunnyelf | cheetah-gui:基于字典的webshell密码爆破工具 | https://github.com/sunnyelf/cheetah-gui/blob/master/README_zh.md | https://github.com/Qihoo360 | Information security researcher, CTF enthusiast. | Beijing, China | @Qihoo360 | 105 | 0 | 893 | 710 | 98 | Python | 0 | 0 | 2| 
@@ -1674,7 +1673,6 @@
 | frewsxcv | Fuzzing Rust code with american-fuzzy-lop | https://github.com/frewsxcv/afl.rs | https://github.com/kickstarter |  | New York City | @kickstarter | 591 | 0 | 717 | 283 | 111 | Python,C,JavaScript,Rust | 0 | 0 | 1| 
 | threathunterX | nebula: 星云业务风控系统 | https://github.com/threathunterX/nebula | https://www.threathunter.cn/ |  | Shenzhen | 威胁猎人 | 16 | 0 | 2 | 283 | 0 | Python,Lua,JavaScript,Java,CSS | 494 | 190 | 1| 
 | TruthHun | DocHub: 使用Beego（Golang）开发的开源文库系统 | https://github.com/TruthHun/DocHub | https://www.bookstack.cn | 当你的知识再也支撑不起你的野心，该静下心来认真学习了。 | 深圳 | None | 370 | 0 | 1100 | 282 | 39 | TypeScript,Java,HTML,JavaScript,Shell,Go | 0 | 0 | 1| 
-| dirkjanm | Kerberos unconstrained delegation abuse toolkit | https://github.com/dirkjanm/krbrelayx | None |  | The Netherlands | None | 19 | 0 | 11 | 281 | 1 | Python | 0 | 0 | 1| 
 | m0nad | HellRaiser: 基于端口的漏洞扫描及CVE标识 | https://github.com/m0nad/HellRaiser | https://m0nadlabs.wordpress.com |  | Brazil | None | 17 | 0 | 117 | 280 | 104 | C,Ruby,Perl | 435 | 188 | 1| 
 | vitalysim | Awesome-Hacking-Resources : | https://github.com/vitalysim/Awesome-Hacking-Resources | None |  | None | None | 13 | 0 | 59 | 280 | 8 | Go,JavaScript,HTML | 8100 | 1100 | 1| 
 | wireghoul | graudit - Bash 实现的源代码安全漏洞扫描器,可自定义漏洞的判断规则: | https://github.com/wireghoul/graudit | http://www.justanotherhacker.com | www.justanotherhacker.com | Melbourne, Australia | None | 45 | 0 | 92 | 280 | 41 | C,Shell,Perl | 559 | 134 | 1| 
@@ -1988,7 +1986,6 @@
 | sandrogauci | WAFW00F allows one to identify and fingerprint Web Application Firewall (WAF) products protecting a website | https://github.com/sandrogauci/wafw00f | https://github.com/EnableSecurity | voip/webapp/network penetration testing & information security behind @EnableSecurity ; mostly harmless ><script src=//x-x.cc>p | Berlin | EnableSecurity | 3 | 0 | 59 | 156 | 63 | Python,Shell | 1 | 0 | 1| 
 | Arturus | Kaggle网页流量时序预测比赛第一名方案 | https://github.com/Arturus/kaggle-web-traffic | http://suilin.me |  | Moscow | Yandex | 22 | 0 | 123 | 155 | 1 | Java,HTML,Jupyter | 1000 | 457 | 1| 
 | DavexPro | PocHunter: 调用PoC框架(Beebeeto/PocSuite/TangScan/KsPoc)下的PoC. | https://github.com/DavexPro/PocHunter | https://www.davex.pw/ |  | None | None | 27 | 0 | 132 | 155 | 8 | Python,Jupyter | 0 | 0 | 1| 
-| mdsecresearch | An Anatomy of IoT Security : | https://github.com/mdsecresearch/Publications/blob/master/presentations/An%20Anatomy%20of%20IoT%20Security_OWASPMCR_Nov2016.pdf | https://www.mdsec.co.uk | Public research and tools from MDSec Consulting | UK | MDSec | 10 | 0 | 0 | 155 | 0 | Python,Java,C,Objective-C,PowerShell | 230 | 41 | 3| 
 | odzhan | propagate: PROPagate 代码注入技术示例: | https://github.com/odzhan/propagate | None |  | None | None | 10 | 0 | 296 | 155 | 0 | C,HTML,Assembly | 163 | 51 | 1| 
 | secfigo | Awesome Fuzzing: A list of fuzzing resources - books, courses, videos, tools, tutorials.https://github.com/secfigo/Awesome-Fuzzing | https://github.com/secfigo/Awesome-Fuzzing | https://github.com/secfigo | Senior Security Engineer, loves all things security. Reachable on all social media accounts via @secfigo handle https://www.linkedin.com/in/secfigo | Singapore | Practical DevSecOps | 59 | 0 | 4 | 155 | 6 | Python,Shell,JavaScript,HTML | 2600 | 504 | 1| 
 | MortenSchenk | Windows 10 Creators 内存写漏洞的利用,来自 MortenSchenk 在 BlackHat 2017 会议演讲,PPT 和 相关代码: | https://github.com/MortenSchenk/BHUSA2017 | None |  | None | None | 14 | 0 | 0 | 154 | 0 | HTML,Assembly,PowerShell,C++ | 163 | 56 | 1| 
@@ -3561,6 +3558,7 @@
 | theInfectedDrake | TIDoS-Framework - Web 应用渗透测试框架: | https://github.com/theInfectedDrake/TIDoS-Framework | https://github.com/0xInfection | This profile has moved to @0xInfection. Youll find all repositories there. Sorry for any inconvenience and trouble. :( https://github.com/0xInfection | https://twitter.com/0xInfection | None | 0 | 0 | 0 | 1 | 0 |  | 0 | 0 | 1| 
 | 0Kee-Team | 0Kee Team 开源的用于收集 URL 入口的爬虫，基于 Headless Chrome 编写 | https://github.com/0Kee-Team/crawlergo | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Vue,Java | 0 | 0 | 4| 
 | 0Linchen | CTFCrackTools: 中国国内首个CTFcrack框架 | https://github.com/0Linchen/CTFCrackTools | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| 0vercl0k | Symbolizer - 为进程执行 Trace、Crash Dump 提供调试符号的工具 | https://github.com/0vercl0k/symbolizer | https://doar-e.github.com/ |  | US/FR | None | 18 | 0 | 0 | 0 | 0 | Python,JavaScript,C++ | 928 | 192 | 3| 
 | 0x3curity | PAVELOW - Kali 下的漏洞寻找与利用的辅助工具: | https://github.com/0x3curity/PAVELOW | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 2| 
 | 0xspx | Another exploitation tool by @ 0xspx to find ROP gadgets for ARM using Capstone inside! | https://github.com/0xspx/armroper | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | 0xtyh | awesome reversing resources by @ 0xtyh | https://github.com/0xtyh/awesome-reversing | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -3728,6 +3726,7 @@
 | darvincisec | 无需 root 和重打包，将 App 安装到克隆 App 内实现动态分析 | https://github.com/darvincisec/VirtualDynamicAnalysis | https://darvincitech.wordpress.com | Security Researcher | Singapore | None | 10 | 0 | 0 | 0 | 0 | C,Java,Smali | 93 | 25 | 1| 
 | defenxor | dsiem: Security event correlation engine for ELK stack | https://github.com/defenxor/dsiem?from=timeline | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,HTML | 0 | 0 | 1| 
 | detuxsandbox | detux : Analyze linux malwares on x86, x86-64,ARM,MIPS ,MIPSEL cpu architecture - The Multiplatform Linux Sandbox : | https://github.com/detuxsandbox/detux | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
+| dirkjanm | Zerologon - Netlogon 被发现高危漏洞，成功利用可以攻破 Windows 域控服务器。PoC 代码已被公开 | https://github.com/dirkjanm/CVE-2020-1472 | http://dirkjanm.io |  | The Netherlands | None | 24 | 0 | 0 | 0 | 0 | Python | 804 | 144 | 2| 
 | dn5 | Cyber-attack on cars over CAN protocol : http://dn5.ljuska.org/cyber-attacks-on-vehicles-2.html ,vircar : | https://github.com/dn5/vircar | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | docileninja | dress : add symbols back into a stripped ELF binary (~strip) : | https://github.com/docileninja/dress | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | doyensec | Electron.js Hacking 相关的资料收集整理 | https://github.com/doyensec/awesome-electronjs-hacking | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,JavaScript,Java,C++ | 0 | 0 | 1| 
@@ -3805,6 +3804,7 @@
 | matcmay | geoip-attack-map:Cyber Security GeoIP Attack Map Visualization | https://github.com/matcmay/geoip-attack-map | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | maubot | 适用于maubot的GitLab客户端和Webhook接收器。 | https://github.com/maubot/gitlab | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,HTML | 129 | 27 | 1| 
 | maxlabelle | WebMalwareScanner - A simple malware scanner | https://github.com/maxlabelle/WebMalwareScanner | None |  | None | None | 6 | 0 | 0 | 0 | 0 | Python,MQL4,JavaScript,PHP | 7 | 5 | 1| 
+| mdsecresearch | Post-Exploitation 工具如何躲避终端安全产品的检测 | https://github.com/mdsecresearch/Publications/blob/master/presentations/Offensive%20Development%20-%20Post-Exploitation%20Tradecraft%20in%20an%20EDR%20World%20-%20x33fcon%202020.pdf | https://www.mdsec.co.uk | Public research and tools from MDSec Consulting | UK | MDSec | 10 | 0 | 0 | 0 | 0 | Python,C,Objective-C,PowerShell,Arduino | 262 | 53 | 4| 
 | mertam | Check out Trishula - a spampot with a built-in machine learning phishing classifier | https://github.com/mertam/shiva | None |  | None | None | 5 | 0 | 3 | 0 | 0 | Python,PHP,Java | 10 | 3 | 1| 
 | micle-fm | Parat - Python 实现的远程控制工具: | https://github.com/micle-fm/Parat | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | microsoft | 微软开源的支持 Checked C 版本的 clang 编译器 | https://github.com/microsoft/checkedc-clang | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Java,C#,JavaScript,C++,Python,Go,CMake,TSQL,PowerShell,HCL | 0 | 0 | 5| 

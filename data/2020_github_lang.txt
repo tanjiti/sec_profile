@@ -1,5 +1,5 @@
-Python	138
-C	72
+Python	139
+C	73
 JavaScript	66
 HTML	60
 C++	58
@@ -7,7 +7,7 @@ Shell	52
 Go	51
 Java	45
 C#	39
-PowerShell	26
+PowerShell	27
 PHP	22
 Ruby	21
 CSS	20
@@ -15,8 +15,8 @@ TypeScript	18
 Rust	15
 Jupyter	10
 Batchfile	9
+Objective-C	7
 Dockerfile	6
-Objective-C	6
 CMake	5
 Swift	5
 Perl	4
@@ -48,6 +48,7 @@ Verilog	1
 Rich	1
 Scheme	1
 PLSQL	1
+Arduino	1
 CoffeeScript	1
 Brainfuck	1
 SystemVerilog	1

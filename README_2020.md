@@ -14,6 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| vivo千镜安全实验室 | gh_54ff3f871510 | 软件源码安全攻防之道（中） | https://mp.weixin.qq.com/s/8L7c6WOtF5nmcmPnuFubfA | 2| 
+| 电驭叛客 | gh_141164bf887e | API越权风险检测方式浅谈 | https://mp.weixin.qq.com/s/eS8NgNXaIYlUQ__Gb3y0kg | 2| 
 | 军事高科技在线 | jsgkjzx | 首发,美军红队评估体系建设现状及启示 | https://mp.weixin.qq.com/s/JZef789soLqK2SdskBV5WQ | 1| 
 | 绿盟科技研究通讯 | nsfocus_research | 探索MITRE Shield如何用于主动防御 | https://mp.weixin.qq.com/s/K95QEs2UaUyvoUsVvUGDXg | 10| 
 | 中国保密协会科学技术分会 | gh_be4f21d557c0 | 人工智能对抗的场景探究 | https://mp.weixin.qq.com/s/CwoX9n3gEA7u8NOFoNiuZA | 3| 
@@ -22,7 +24,6 @@
 | Godeye | GodEyeTeam | 红队遇蜜罐 莫慌 | https://mp.weixin.qq.com/s/YBge1xjpjQjQ-NoK4kK6RQ | 1| 
 | 信息安全老骆驼 | gh_00db3382eac9 | 一部手机失窃而揭露的窃取个人信息实现资金盗取的黑色产业链 | https://mp.weixin.qq.com/s/3UeZzw2LmPsM3cU7Rhmb8w | 1| 
 | 国家网络威胁情报共享开放平台 | CNTIC2017 | DataCon 2020 网络黑产分析方向亚军writeup | https://mp.weixin.qq.com/s/Ots4JVLacoaySqCNwUvzQg | 3| 
-| 电驭叛客 | gh_141164bf887e | JavaParse(AST)获取Java Web API list | https://mp.weixin.qq.com/s/ATpoEN9QI-D5vkxDimQ8FQ | 1| 
 | gakki的童养夫 | gh_5b1084d953c3 | Cobalt Strike with CloudFlare | https://mp.weixin.qq.com/s/d6hu8YE-SGy-eruIWOwbXg | 1| 
 | 嘶吼专业版 | Pro4hou | WPA 企业模式的安全性和部署 | https://mp.weixin.qq.com/s/K0QRsJBpd57jmOQBGXBh-Q | 1| 
 | 安全研究 | CH-AQYJ | 国家安全微电影《危爱》 | https://mp.weixin.qq.com/s/nrNfuVEx44lGTD8aLPQN2w | 1| 
@@ -64,7 +65,6 @@
 | DeadEye安全团队 | gh_fcf5d3d1e57d | 关于Cobalt Strike检测方法与去特征的思考 | https://mp.weixin.qq.com/s/5MWDXN3eCaw9m-XHDGaXcQ | 1| 
 | Pai Sec Team | huahuaSec | 半自动化冰蝎流量分析的实践 | https://mp.weixin.qq.com/s/w40qI2iPNLx9GjgkYRyhpg | 1| 
 | ZoomEye | ZoomEye_Team | 利用 ZoomEye 追踪多种 Redteam C&C 后渗透攻击框架 | https://mp.weixin.qq.com/s/H66J0ab8UAyVrxRb1RLO4g | 1| 
-| vivo千镜安全实验室 | gh_54ff3f871510 | 软件源码安全攻防之道（上） | https://mp.weixin.qq.com/s/jb3VQyK3U6BQS0-0ad0K_w | 1| 
 | 中国信息安全 | chinainfosec | 院士谈 , 陈纯院士、冯登国院士论数据安全治理 | https://mp.weixin.qq.com/s/JWBAZfDPW1QIjrRdc5Yb3Q | 2| 
 | 唯品会安全应急响应中心 | VIP_SRC | 【技术分享】大规模数据安全分类系统架构实践 | https://mp.weixin.qq.com/s/mRmDEuDKJSJ_xrYyBMn4Dw | 1| 
 | 奇安信威胁情报中心 | gh_166784eae33e | 从补丁分析到在野利用：揭秘CVE-2020-1464 Windows文件签名验证绕过漏洞疑云 | https://mp.weixin.qq.com/s/CRdDJeen-Zqc0RCnMr4kzQ | 3| 
@@ -370,6 +370,7 @@
 | reddelexc | Top disclosed reports from HackerOne | https://github.com/reddelexc/hackerone-reports | None |  | Russia | Kontur | 2 | 0 | 30 | 4 | 0 | Python | 89 | 21 | 1| 
 | weizman | WhatsApp Desktop 0.3.9309 之前版本 XSS 漏洞分析 | https://github.com/weizman/CVE-2019-18426 | http://www.weizmangal.com | javascript expert and web security enthusiastic :) | Israel | https://www.perimeterx.com | 8 | 0 | 3 | 4 | 1 | JavaScript | 5 | 1 | 1| 
 | zj1244 | beholder:一款监控端口变化的系统 | https://github.com/zj1244/beholder_scanner | None |  | <img onerror=/x/> | None | 10 | 0 | 60 | 3 | 3 | Python,C,HTML,Java | 6 | 5 | 1| 
+| 0vercl0k | Symbolizer - 为进程执行 Trace、Crash Dump 提供调试符号的工具 | https://github.com/0vercl0k/symbolizer | https://doar-e.github.com/ |  | US/FR | None | 18 | 0 | 0 | 0 | 0 | Python,JavaScript,C++ | 928 | 192 | 1| 
 | 1d8 | 用于分析移动应用程序的Android VM | https://github.com/1d8/Android-Analysis | None |  | None | None | 25 | 0 | 0 | 0 | 0 | Python,C | 27 | 8 | 1| 
 | 360-Linton-Lab | WMIHACKER：免杀横向移动命令执行测试工具(无需445端口) | https://github.com/360-Linton-Lab/WMIHACKER/blob/master/README_zh.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C#,VBScript | 0 | 0 | 1| 
 | 4x99 | 码小六 - GitHub 代码泄露监控系统 | https://github.com/4x99/code6 | None |  | None | None | 2 | 0 | 1 | 0 | 0 | PHP | 73 | 14 | 1| 
@@ -417,6 +418,7 @@
 | dafthack | CloudPentestCheatsheets: 云渗透的一些参考命令 | https://github.com/dafthack/CloudPentestCheatsheets | http://www.twitter.com/dafthack |  | None | None | 30 | 0 | 0 | 0 | 0 | Python,Go,PowerShell | 1500 | 333 | 1| 
 | danieleperera | 用于在网络上收集，抓取和监视洋葱站点的扩展工具 | https://github.com/danieleperera/OnionIngestor | None |  | None | None | 0 | 0 | 0 | 0 | 0 | Python,JavaScript | 25 | 5 | 1| 
 | darvincisec | 无需 root 和重打包，将 App 安装到克隆 App 内实现动态分析 | https://github.com/darvincisec/VirtualDynamicAnalysis | https://darvincitech.wordpress.com | Security Researcher | Singapore | None | 10 | 0 | 0 | 0 | 0 | C,Java,Smali | 93 | 25 | 1| 
+| dirkjanm | Zerologon - Netlogon 被发现高危漏洞，成功利用可以攻破 Windows 域控服务器。PoC 代码已被公开 | https://github.com/dirkjanm/CVE-2020-1472 | http://dirkjanm.io |  | The Netherlands | None | 24 | 0 | 0 | 0 | 0 | Python | 804 | 144 | 1| 
 | doyensec | Electron.js Hacking 相关的资料收集整理 | https://github.com/doyensec/awesome-electronjs-hacking | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,JavaScript,Java,C++ | 0 | 0 | 1| 
 | duffelhq | Elixir Ecto Paginator 刚刚修复了一个 RCE 漏洞 | https://github.com/duffelhq/paginator/security/advisories/GHSA-w98m-2xqg-9cvj | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Python,JavaScript,HTML,Elixir,Go,Erlang | 0 | 0 | 1| 
 | dwisiswant0 | CRLFuzz - 用于扫描 CRLF 漏洞的工具 | https://github.com/dwisiswant0/crlfuzz | https://github.com/kitabisa | 2>&1 | id_ID | @kitabisa | 227 | 0 | 0 | 0 | 0 | Go,Python,Shell,Ruby,HCL | 198 | 71 | 2| 
@@ -441,6 +443,7 @@
 | lostindark | Driver Store Explorer - 从 Driver Store 中枚举、安装、删除 Driver Package 的工具 | https://github.com/lostindark/DriverStoreExplorer | None | None | None | None | 3 | 0 | 0 | 0 | 0 | C# | 2000 | 173 | 1| 
 | m-y-mo | 利用 libprotobuf-mutator Fuzz Android 设备的 NFC 模块 | https://github.com/m-y-mo/android_nfc_fuzzer | None |  | None | None | 20 | 0 | 0 | 0 | 0 | JavaScript,Java,HTML,C++ | 28 | 4 | 1| 
 | maubot | 适用于maubot的GitLab客户端和Webhook接收器。 | https://github.com/maubot/gitlab | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,HTML | 129 | 27 | 1| 
+| mdsecresearch | Post-Exploitation 工具如何躲避终端安全产品的检测 | https://github.com/mdsecresearch/Publications/blob/master/presentations/Offensive%20Development%20-%20Post-Exploitation%20Tradecraft%20in%20an%20EDR%20World%20-%20x33fcon%202020.pdf | https://www.mdsec.co.uk | Public research and tools from MDSec Consulting | UK | MDSec | 10 | 0 | 0 | 0 | 0 | Python,C,Objective-C,PowerShell,Arduino | 262 | 53 | 1| 
 | microsoft | 微软开源的支持 Checked C 版本的 clang 编译器 | https://github.com/microsoft/checkedc-clang | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Java,C#,JavaScript,C++,Python,Go,CMake,TSQL,PowerShell,HCL | 0 | 0 | 2| 
 | mitre-attack | 关于辅助实现自动化ATT＆CK归纳的python脚本 | https://github.com/mitre-attack/attack-scripts/tree/master/layers | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Zeek,Python,JavaScript,HTML,PowerShell | 0 | 0 | 2| 
 | nahamsec | 为 Bug Bounty Hunters 入门整理的资料 | https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters | http://nahamsec.com |  | None | None | 16 | 0 | 0 | 0 | 0 | Python,Shell | 3500 | 645 | 1| 
