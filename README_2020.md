@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 数说安全 | SSAQ2016 | 《2020中国网络安全产业分析报告》发布 | https://mp.weixin.qq.com/s/0aikqrvyt-YODDy8D6qj5Q | 3| 
 | vivo千镜安全实验室 | gh_54ff3f871510 | 软件源码安全攻防之道（中） | https://mp.weixin.qq.com/s/8L7c6WOtF5nmcmPnuFubfA | 2| 
 | 电驭叛客 | gh_141164bf887e | API越权风险检测方式浅谈 | https://mp.weixin.qq.com/s/eS8NgNXaIYlUQ__Gb3y0kg | 2| 
 | 军事高科技在线 | jsgkjzx | 首发,美军红队评估体系建设现状及启示 | https://mp.weixin.qq.com/s/JZef789soLqK2SdskBV5WQ | 1| 
@@ -28,7 +29,6 @@
 | 嘶吼专业版 | Pro4hou | WPA 企业模式的安全性和部署 | https://mp.weixin.qq.com/s/K0QRsJBpd57jmOQBGXBh-Q | 1| 
 | 安全研究 | CH-AQYJ | 国家安全微电影《危爱》 | https://mp.weixin.qq.com/s/nrNfuVEx44lGTD8aLPQN2w | 1| 
 | 广东网络空间安全专委会 | gh_f5ab4f133df7 | 大学新生网络信息安全知识教育手册 | https://mp.weixin.qq.com/s/qUuGvRiAyhJBhtj7iW5Hcw | 1| 
-| 数说安全 | SSAQ2016 | 2020年中国网络安全市场全景图 | https://mp.weixin.qq.com/s/W5SNkDjqFiD6hl0qQv0JUA | 2| 
 | 腾讯安全应急响应中心 | tsrc_team | 红蓝对抗之邮件钓鱼攻击 | https://mp.weixin.qq.com/s/YKZ6yWWxOhn2KjTV5lDP7w | 11| 
 | 雷石安全实验室 | leishianquan1 | PDF文件密码破解 | https://mp.weixin.qq.com/s/EH7Z_mJvuWxtbQdcXf3h4w | 1| 
 | Seebug漏洞平台 | seebug_org | 疑似 KimsukyAPT 组织最新攻击活动样本分析 | https://mp.weixin.qq.com/s/RqFWfe2gf9KdKIq0hLq4Gw | 2| 
@@ -337,7 +337,6 @@
 | NomadCN112 | ATT&CK 框架图中文翻译版 | https://github.com/NomadCN112/Chinese-translation-ATT-CK-framework | None | 憨批独眼小子 (如果可以的话，谁愿意拿命去战斗呢) | None | None | 15 | 0 | 10 | 25 | 2 | Python,C# | 131 | 37 | 1| 
 | threat-hunting | Awesome Threat Detection and Hunting library | https://github.com/threat-hunting/awesome_Threat-Hunting | None |  | Sweden | None | 42 | 0 | 5 | 25 | 16 | JavaScript,Java | 228 | 46 | 1| 
 | S1lkys | XAMPP 本地提权漏洞分析（CVE-2020-11107） | https://github.com/S1lkys/CVE-2020-11107/ | None |  | None | None | 27 | 0 | 1 | 23 | 0 | Python,Shell | 12 | 3 | 1| 
-| yardenshafir | KernelDataStructureFinder - 在内核 lookaside 链表中搜索数据结构的工具 | https://github.com/yardenshafir/KernelDataStructureFinder | None |  | None | None | 5 | 0 | 2 | 22 | 0 | C,C++ | 40 | 20 | 1| 
 | yoava333 | Bug on the Windshield - Fuzzing the Windows kernel，来自 OffensiveCon 2020 会议 | https://github.com/yoava333/presentations/blob/master/Fuzzing%20the%20Windows%20Kernel%20-%20OffensiveCon%202020.pdf | None |  | None | None | 15 | 0 | 16 | 22 | 0 | Go,Java,Rust | 17 | 1 | 1| 
 | Cl0udG0d | 碎遮SZhe_Scan Web漏洞扫描器 | https://github.com/Cl0udG0d/SZhe_Scan | None | 愿你在冷铁卷刃前，得以窥见天光 | 重庆 | CQUT | 10 | 0 | 5 | 21 | 2 | Python | 141 | 39 | 1| 
 | ody5sey | Voyager: 安全工具集合平台 | https://github.com/ody5sey/Voyager | None |  | None | None | 3 | 0 | 1 | 21 | 0 | Python,HTML | 147 | 61 | 1| 
@@ -406,6 +405,7 @@
 | appsecco | Attacking and Auditing Docker Containers and Kubernetes Clusters | https://github.com/appsecco/attacking-and-auditing-docker-containers-and-kubernetes-clusters | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Java,Python,JavaScript,C#,Visual,HTML,ActionScript,PHP,CSS | 540 | 150 | 2| 
 | arieljt | VT Code Similarity Yara Generator | https://github.com/arieljt/VTCodeSimilarity-YaraGen | https://twitter.com/arieljt |  | None | None | 3 | 0 | 0 | 0 | 0 | Python | 34 | 6 | 1| 
 | ashishb | Android Security Awesome，Android 安全方向的资料整理 | https://github.com/ashishb/android-security-awesome | https://ashishb.net | Software Engineer - SF Bay area https://ashishb.net/about/ | United States | None | 94 | 0 | 0 | 0 | 0 | Python,Go,Shell,Makefile | 4800 | 1200 | 1| 
+| autoguard | 汽车安全研究方向的 Paper 收集 | https://github.com/autoguard/awesome-vehicle-security-and-safety | http://autoguard-sec.com |  | china | autoguard | 11 | 0 | 0 | 0 | 0 | JavaScript | 24 | 7 | 1| 
 | avast | Radare2 插件，用于将 RetDec 反汇编工具集成进 Radare2 | https://github.com/avast/retdec-r2plugin | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Groovy,LLVM,Java,Scala,Python,Kotlin,JavaScript,C++,HTML,Go | 5500 | 657 | 1| 
 | bb1nfosec | Windows漏洞利用资源以及漏洞利用的网站参考列表总结。 | https://github.com/bb1nfosec/Information-Security-Tasks/blob/master/Post%20Exploitation/Windows%20Exploitation%2C%20post%20exploitation%20sites%20for%20reference | None | Just another guy whom loves to play 0 and 1 . | India | None | 0 | 0 | 0 | 0 | 0 | Python,Shell,HTML,CSS | 49 | 16 | 1| 
 | blackberry | 使用python解析PE文件的开源工具PE Tree发布 | https://github.com/blackberry/pe_tree | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,Objective-C,Go,Ruby | 22 | 24 | 1| 
@@ -449,6 +449,7 @@
 | nahamsec | 为 Bug Bounty Hunters 入门整理的资料 | https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters | http://nahamsec.com |  | None | None | 16 | 0 | 0 | 0 | 0 | Python,Shell | 3500 | 645 | 1| 
 | napocahv | Napoca - Bitdefender 开源的 Hypervisor，提供多个安全相关的功能 | https://github.com/napocahv/napoca | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 87 | 22 | 1| 
 | nautilus-fuzz | 基于 NDSS 2019 一篇 Paper 实现的一个基于 Grammar、Coverage Guided 的 Fuzzer | https://github.com/nautilus-fuzz/nautilus | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
+| nccgroup | NCC Group 为 Zerologon CVE-2020-1472 漏洞编写的 .NET 版本的 Exploit | https://github.com/nccgroup/nccfsas/tree/main/Tools/SharpZeroLogon | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,C#,Haskell,Shell,HCL,Elixir,Ruby,PowerShell,Rust | 2200 | 336 | 1| 
 | nomi-sec | PoC auto collect from GitHub | https://github.com/nomi-sec/PoC-in-GitHub | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | nowsecure | NowSecure 开源的基于 Frida 的 API Trace 工具 | https://github.com/nowsecure/frida-trace | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,Smarty,Dockerfile,CSS | 541 | 112 | 1| 
 | osixia | 运行 OpenLDAP 的 Docker 镜像环境 | https://github.com/osixia/docker-openldap | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Dockerfile,JavaScript,Smarty,HTML,Go,PHP,Ruby,CSS | 2500 | 692 | 1| 
@@ -472,6 +473,7 @@
 | tothi | 如何利用DLL代理进行DLL劫持 | https://github.com/tothi/dll-hijack-by-proxying | https://twitter.com/an0n_r0 |  | None | None | 0 | 0 | 0 | 0 | 0 | Python,C#,C,HTML | 207 | 67 | 1| 
 | trailofbits | Sienna Locomotive - 为缺乏安全经验的 Windows 开发者写的 Fuzzer | https://github.com/trailofbits/sienna-locomotive | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,CMake,Python,Ruby,JavaScript,C++,Go,Swift,Rust | 18300 | 1600 | 1| 
 | ttonys | 获取每日最新的CVE和CNVD漏洞 | https://github.com/ttonys/Scrapy-CVE-CNVD | https://www.sys71m.top/ | 只见树木，不见森林 | None | None | 5 | 0 | 0 | 0 | 0 | Python,PHP,HTML,CSS | 15 | 1 | 1| 
+| yardenshafir | Windows 进程 Mitigation 策略枚举工具 | https://github.com/yardenshafir/MitigationFlagsCliTool | https://medium.com/@yardenshafir2 | A circus artist with a visual studio license | None | None | 8 | 0 | 0 | 0 | 0 | C,C++ | 76 | 34 | 2| 
 | zer0yu | Awesome CobaltStrike | https://github.com/zer0yu/Awesome-CobaltStrike | http://zeroyu.xyz/ | RedTeam@PolarisLab / CTFer@kn0ck | None | None | 40 | 0 | 0 | 0 | 0 | Python,HTML | 626 | 111 | 1| 
 | zhutougg | 内网渗透测试常用工具收集 | https://github.com/zhutougg/Awesome-Intranet_pentest_tool | None |  | None | None | 69 | 0 | 0 | 0 | 0 | Python,C#,Java | 39 | 9 | 1| 
 | zodiacon | 基于 Event Tracing for Windows (ETW) 而不再依赖驱动实现的 Process Monitor | https://github.com/zodiacon/ProcMonXv2 | http://scorpiosoftware.net |  | Israel | None | 68 | 0 | 0 | 0 | 0 | C#,C,C++ | 1100 | 296 | 1| 
@@ -481,6 +483,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| How I hacked redbus | http://medium.com/bugbountywriteup/how-i-hacked-redbus-an-online-bus-ticketing-application-24ef5bb083cd?source=rss----7b722bfd1b8d---4| 
 | Ubiquiti UniFi Cloud Key Gen2 Plus 设备调试接口搭建以及管理接口漏洞分析 | http://medium.com/tenable-techblog/exploring-the-ubiquiti-unifi-cloud-key-gen2-plus-f5b0f7ca688| 
 | Vault 101：Samsung CTF App逆向工程挑战赛题目。 | http://medium.com/bugbountywriteup/vault-101-samsung-ctf-android-reverse-engineering-challenge-write-up-d5a2b16a9212| 
 | DHCP starvation attack without making any DHCP requests - DHCP IP 资源耗尽攻击 | http://medium.com/bugbountywriteup/dhcp-starvation-attack-without-making-any-dhcp-requests-bef0022133c9| 

@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 数说安全 | SSAQ2016 | 《2020中国网络安全产业分析报告》发布 | https://mp.weixin.qq.com/s/0aikqrvyt-YODDy8D6qj5Q | 29| 
 | vivo千镜安全实验室 | gh_54ff3f871510 | 软件源码安全攻防之道（中） | https://mp.weixin.qq.com/s/8L7c6WOtF5nmcmPnuFubfA | 2| 
 | 电驭叛客 | gh_141164bf887e | API越权风险检测方式浅谈 | https://mp.weixin.qq.com/s/eS8NgNXaIYlUQ__Gb3y0kg | 2| 
 | 军事高科技在线 | jsgkjzx | 首发,美军红队评估体系建设现状及启示 | https://mp.weixin.qq.com/s/JZef789soLqK2SdskBV5WQ | 1| 
@@ -28,7 +29,6 @@
 | 嘶吼专业版 | Pro4hou | WPA 企业模式的安全性和部署 | https://mp.weixin.qq.com/s/K0QRsJBpd57jmOQBGXBh-Q | 17| 
 | 安全研究 | CH-AQYJ | 国家安全微电影《危爱》 | https://mp.weixin.qq.com/s/nrNfuVEx44lGTD8aLPQN2w | 1| 
 | 广东网络空间安全专委会 | gh_f5ab4f133df7 | 大学新生网络信息安全知识教育手册 | https://mp.weixin.qq.com/s/qUuGvRiAyhJBhtj7iW5Hcw | 1| 
-| 数说安全 | SSAQ2016 | 2020年中国网络安全市场全景图 | https://mp.weixin.qq.com/s/W5SNkDjqFiD6hl0qQv0JUA | 28| 
 | 腾讯安全应急响应中心 | tsrc_team | 红蓝对抗之邮件钓鱼攻击 | https://mp.weixin.qq.com/s/YKZ6yWWxOhn2KjTV5lDP7w | 15| 
 | 雷石安全实验室 | leishianquan1 | PDF文件密码破解 | https://mp.weixin.qq.com/s/EH7Z_mJvuWxtbQdcXf3h4w | 1| 
 | Seebug漏洞平台 | seebug_org | 疑似 KimsukyAPT 组织最新攻击活动样本分析 | https://mp.weixin.qq.com/s/RqFWfe2gf9KdKIq0hLq4Gw | 3| 
@@ -3118,7 +3118,6 @@
 | tnich | honssh - HonSSH 旨在记录客户端和服务器之间所有SSH通信的密罐: | https://github.com/tnich/honssh | None |  | United Kingdom | None | 1 | 0 | 1 | 22 | 6 | Python | 308 | 62 | 1| 
 | webbju | Android++ (native development and debugging for Visual Studio) is now open-source | https://github.com/webbju/android-plus-plus | None |  | Stockholm, Sweden | None | 4 | 0 | 73 | 22 | 6 | Python,C++ | 0 | 0 | 1| 
 | wylok | opsweb: 百合网运维综合管理平台（Python+Flask框架+cmdb+scheduler+salt) | https://github.com/wylok/opsweb | None |  | None | None | 1 | 0 | 3 | 22 | 0 | Python | 406 | 238 | 1| 
-| yardenshafir | KernelDataStructureFinder - 在内核 lookaside 链表中搜索数据结构的工具 | https://github.com/yardenshafir/KernelDataStructureFinder | None |  | None | None | 5 | 0 | 2 | 22 | 0 | C,C++ | 40 | 20 | 1| 
 | yoava333 | Bug on the Windshield - Fuzzing the Windows kernel，来自 OffensiveCon 2020 会议 | https://github.com/yoava333/presentations/blob/master/Fuzzing%20the%20Windows%20Kernel%20-%20OffensiveCon%202020.pdf | None |  | None | None | 15 | 0 | 16 | 22 | 0 | Go,Java,Rust | 17 | 1 | 1| 
 | Cl0udG0d | 碎遮SZhe_Scan Web漏洞扫描器 | https://github.com/Cl0udG0d/SZhe_Scan | None | 愿你在冷铁卷刃前，得以窥见天光 | 重庆 | CQUT | 10 | 0 | 5 | 21 | 2 | Python | 141 | 39 | 1| 
 | DavidJacobson | SafeText - 用于删除同形字符和零宽字符的脚本,以便安全地分发匿名来源文档: | https://github.com/DavidJacobson/SafeText | https://www.davidej.com | Undergraduate at Binghamton University, studying Computer Science. Primarily focused on Cyber Security & Forensics - but really anything that grabs my attention | NYC && Binghamton | None | 28 | 0 | 94 | 21 | 20 | Python,Shell | 0 | 0 | 1| 
@@ -3688,6 +3687,7 @@
 | arbor-jjones | Loading Cuckoo Sandbox results in IDA Pro | https://github.com/arbor-jjones/idataco | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | arieljt | VT Code Similarity Yara Generator | https://github.com/arieljt/VTCodeSimilarity-YaraGen | https://twitter.com/arieljt |  | None | None | 3 | 0 | 0 | 0 | 0 | Python | 34 | 6 | 1| 
 | ashishb | Android Security Awesome，Android 安全方向的资料整理 | https://github.com/ashishb/android-security-awesome | https://ashishb.net | Software Engineer - SF Bay area https://ashishb.net/about/ | United States | None | 94 | 0 | 0 | 0 | 0 | Python,Go,Shell,Makefile | 4800 | 1200 | 1| 
+| autoguard | 汽车安全研究方向的 Paper 收集 | https://github.com/autoguard/awesome-vehicle-security-and-safety | http://autoguard-sec.com |  | china | autoguard | 11 | 0 | 0 | 0 | 0 | JavaScript | 24 | 7 | 1| 
 | avast | Radare2 插件，用于将 RetDec 反汇编工具集成进 Radare2 | https://github.com/avast/retdec-r2plugin | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Groovy,LLVM,Java,Scala,Python,Kotlin,JavaScript,C++,HTML,Go | 5500 | 657 | 1| 
 | baidu-security | openrasp-iast: IAST 灰盒扫描工具 | https://github.com/baidu-security/openrasp-iast | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java,Python,JavaScript,C++,HTML,Go,TSQL | 0 | 0 | 1| 
 | bb1nfosec | Windows漏洞利用资源以及漏洞利用的网站参考列表总结。 | https://github.com/bb1nfosec/Information-Security-Tasks/blob/master/Post%20Exploitation/Windows%20Exploitation%2C%20post%20exploitation%20sites%20for%20reference | None | Just another guy whom loves to play 0 and 1 . | India | None | 0 | 0 | 0 | 0 | 0 | Python,Shell,HTML,CSS | 49 | 16 | 1| 
@@ -3815,7 +3815,7 @@
 | nahamsec | 为 Bug Bounty Hunters 入门整理的资料 | https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters | http://nahamsec.com |  | None | None | 16 | 0 | 0 | 0 | 0 | Python,Shell | 3500 | 645 | 2| 
 | napocahv | Napoca - Bitdefender 开源的 Hypervisor，提供多个安全相关的功能 | https://github.com/napocahv/napoca | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 87 | 22 | 1| 
 | nautilus-fuzz | 基于 NDSS 2019 一篇 Paper 实现的一个基于 Grammar、Coverage Guided 的 Fuzzer | https://github.com/nautilus-fuzz/nautilus | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
-| nccgroup | acCOMplice - 用于发现和利用 COM 劫持的工具，作者 9 月份在 DerbyCON 会议有过一次关于这个工具的演讲 | https://github.com/nccgroup/acCOMplice | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,C#,HTML,Shell,Elixir,Go,PowerShell,Rust | 874 | 157 | 1| 
+| nccgroup | NCC Group 为 Zerologon CVE-2020-1472 漏洞编写的 .NET 版本的 Exploit | https://github.com/nccgroup/nccfsas/tree/main/Tools/SharpZeroLogon | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,C#,Haskell,Shell,HCL,Elixir,Ruby,PowerShell,Rust | 2200 | 336 | 2| 
 | net-ninja | A heap analysis tool for Immunity Debugger. | https://github.com/net-ninja/heaper | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | nezha-dt | nezha - 一款差分模糊测试工具: | https://github.com/nezha-dt/nezha | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C++ | 0 | 0 | 1| 
 | nomi-sec | PoC auto collect from GitHub | https://github.com/nomi-sec/PoC-in-GitHub | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
@@ -3899,6 +3899,7 @@
 | xfee | vbg - 通过 X11 转发会话在 SSH 客户端上注入 Keystrokes 的工具: | https://github.com/xfee/vbg | http://github.com/xfee | Bio是什么，帅算不算(｀・ω・´) | 北京市朝阳区 | None | 6 | 0 | 44 | 0 | 6 | HTML,Vim | 1 | 0 | 1| 
 | xiangpasama | 京东SRC小课堂系列文章 | https://github.com/xiangpasama/JDSRC-Small-Classroom | None |  | None | None | 1 | 0 | 0 | 0 | 0 |  | 34 | 9 | 1| 
 | xsleaks | 一些可能导致跨域信息泄漏的 DOM API 收集 | https://github.com/xsleaks/xsleaks/wiki/Browser-Side-Channels | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
+| yardenshafir | Windows 进程 Mitigation 策略枚举工具 | https://github.com/yardenshafir/MitigationFlagsCliTool | https://medium.com/@yardenshafir2 | A circus artist with a visual studio license | None | None | 8 | 0 | 0 | 0 | 0 | C,C++ | 76 | 34 | 2| 
 | zaproxy | zaproxy - OWASP Zed Attack Proxy (ZAP)，一个用于辅助 Web 应用安全性测试的工具 | https://github.com/zaproxy/zaproxy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java,C#,JavaScript,Python,HTML,Go,PHP,Rust | 6300 | 1200 | 1| 
 | zeek | Zeek - 一款开源的网络协议分析工具 | https://github.com/zeek/zeek | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Bro,C,Zeek,CMake,Python,JavaScript,C++,Vim,Yacc,PHP,Dockerfile | 2800 | 728 | 1| 
 | zer0yu | Awesome CobaltStrike | https://github.com/zer0yu/Awesome-CobaltStrike | http://zeroyu.xyz/ | RedTeam@PolarisLab / CTFer@kn0ck | None | None | 40 | 0 | 0 | 0 | 0 | Python,HTML | 626 | 111 | 4| 
@@ -3910,6 +3911,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| How I hacked redbus | http://medium.com/bugbountywriteup/how-i-hacked-redbus-an-online-bus-ticketing-application-24ef5bb083cd?source=rss----7b722bfd1b8d---4| 
 | Ubiquiti UniFi Cloud Key Gen2 Plus 设备调试接口搭建以及管理接口漏洞分析 | http://medium.com/tenable-techblog/exploring-the-ubiquiti-unifi-cloud-key-gen2-plus-f5b0f7ca688| 
 | Vault 101：Samsung CTF App逆向工程挑战赛题目。 | http://medium.com/bugbountywriteup/vault-101-samsung-ctf-android-reverse-engineering-challenge-write-up-d5a2b16a9212| 
 | DHCP starvation attack without making any DHCP requests - DHCP IP 资源耗尽攻击 | http://medium.com/bugbountywriteup/dhcp-starvation-attack-without-making-any-dhcp-requests-bef0022133c9| 
