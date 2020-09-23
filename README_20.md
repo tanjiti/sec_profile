@@ -14,16 +14,17 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
-| 信息时代的犯罪侦查 | infocrime | 通过一封钓鱼邮件，溯源分析背后的产业链（教科书） | https://mp.weixin.qq.com/s/G9qwMTBznSlMNQSCqvAyWg | 3| 
+| 奇安信集团 | qianxin-keji | 先收藏！入行必备的网络安全“黑话”词典 | https://mp.weixin.qq.com/s/L-cqkaTC3lsfyWmd9jbU3A | 2| 
+| 信息时代的犯罪侦查 | infocrime | 通过一封钓鱼邮件，溯源分析背后的产业链（教科书） | https://mp.weixin.qq.com/s/G9qwMTBznSlMNQSCqvAyWg | 4| 
 | 白泽安全实验室 | baizelab | 解密俄罗斯情报机构 | https://mp.weixin.qq.com/s/OPvkERr3Ox_OvnbimhZqnA | 1| 
 | 看雪学院 | ikanxue | 用麒麟框架深入分析实模式二进制文件 | https://mp.weixin.qq.com/s/cMVpMCdlvC-yVMP5COZjfw | 45| 
 | 网空闲话 | cyberspacechat | 曝光APT组织会产生怎样的威慑效果？ | https://mp.weixin.qq.com/s/OWISagB-qYrMJIVo713iVw | 2| 
 | 腾讯安全应急响应中心 | tsrc_team | RASP攻防 —— RASP安全应用与局限性浅析 | https://mp.weixin.qq.com/s/pjZDWG0YT9dxtNyO1g8ISw | 16| 
+| GobySec | gobysec | 技术分享 , 自定义PoC对接插件，漏扫更强大 | https://mp.weixin.qq.com/s/dQau-s0FoieXrMW3EAnSEQ | 8| 
 | 贝塔安全实验室 | BetaSecLab | 威胁事件告警分析技巧及处置（一） | https://mp.weixin.qq.com/s/vgLs2H46YH2ClVgKtCWN8Q | 14| 
 | 逐日实验室 | gh_093e54310392 | CVE-2020-14364 QEMU逃逸 漏洞分析 (含完整EXP) | https://mp.weixin.qq.com/s/MQyczZXRfOsIQewNf7cfXw | 1| 
 | 国家网络威胁情报共享开放平台 | CNTIC2017 | Linux系统中APT攻击总结 | https://mp.weixin.qq.com/s/HK3TlJQSrUtxoXl9HG6ORA | 4| 
 | 虎符智库 | TT_Thinktank | 从IOC的一些真相谈对其的评价标准 | https://mp.weixin.qq.com/s/95jB4DfaXau6NDotNSpwdA | 5| 
-| GobySec | gobysec | 如何利用Goby进行外围打点 | https://mp.weixin.qq.com/s/3JWq4aO6KvMABKH2Q8jGIw | 8| 
 | 数说安全 | SSAQ2016 | 《2020中国网络安全产业分析报告》发布 | https://mp.weixin.qq.com/s/0aikqrvyt-YODDy8D6qj5Q | 29| 
 | vivo千镜安全实验室 | gh_54ff3f871510 | 软件源码安全攻防之道（中） | https://mp.weixin.qq.com/s/8L7c6WOtF5nmcmPnuFubfA | 2| 
 | 电驭叛客 | gh_141164bf887e | API越权风险检测方式浅谈 | https://mp.weixin.qq.com/s/eS8NgNXaIYlUQ__Gb3y0kg | 2| 
@@ -301,7 +302,6 @@
 | 网络与信息安全学报 | cjnis2015 | 网络空间安全学科简论 | https://mp.weixin.qq.com/s/mQYaX-WGDZIIW26koGxTzQ | 1| 
 | 信安之路 | xazlsec | DataCon 的 DNS 恶意流量检查一题回顾 | https://mp.weixin.qq.com/s/M-J4FhGA5zg1WZCA9-Houg | 228| 
 | HLB虎狼帮 | hlbhulangbang | ESET分析了Turla APT对武器化PowerShell的使用 | https://mp.weixin.qq.com/s/tNI54MlsN9bFKnm9kL6G-Q | 1| 
-| 奇安信集团 | qianxin-keji | 一次攻防实战演习复盘总结 | https://mp.weixin.qq.com/s/sfUQnFBlkRKf4uRDIVkG5Q | 1| 
 | 绿盟科技行业BG第一业务本部 |  | 军工行业工控安全防护思路 | https://mp.weixin.qq.com/s/AVRYyob-bQdRRQ8i15SK3w | 1| 
 | 苹果资本 | Applefunds |  | https://mp.weixin.qq.com/s/pyJYZZqrdiVjjtCdRaxkOw | 2| 
 | 阿里技术 | ali_tech |  | https://mp.weixin.qq.com/s/w7SbAHxZsmHqFtTG8ZAXNg | 1| 
@@ -2410,7 +2410,6 @@
 | denandz | fuzzotron - 一个基于 TCP/UDP 的 fuzz 工具: | https://github.com/denandz/fuzzotron | https://pulsesecurity.co.nz |  | Auckland, New Zealand | None | 11 | 0 | 0 | 77 | 0 | C,Python,C++,Verilog,Go,PowerShell | 750 | 119 | 1| 
 | jianqiangzhao | The exploit for CVE-2016-2434 | https://github.com/jianqiangzhao/CVE-2016-2434 | None |  | None | None | 7 | 0 | 4 | 77 | 17 | Python,C | 51 | 28 | 2| 
 | leoloobeek | LAPSToolkit - 对部署了 LAPS 解决方案的域环境的利用工具: | https://github.com/leoloobeek/LAPSToolkit | None |  | None | None | 22 | 0 | 36 | 77 | 0 | Go,C#,PowerShell | 0 | 0 | 1| 
-| uknowsec | 域渗透学习笔记 | https://github.com/uknowsec/Active-Directory-Pentest-Notes | http://uknowsec.cn | 不忘初心，方得始终 | Nanjing | None | 90 | 0 | 415 | 77 | 150 | Python,PHP | 95 | 15 | 1| 
 | zacbrown | . 基于 Windows ETW(事件日志)的入侵检测,来自微软研究员在 DerbyCon 2017 会议的演讲。之前推送过他在微软 Blog 上写过的两篇相关文章: https://github.com/zacbrown/hiddentreasure-etw-demo/blob/master/zbrown-HiddenTreasureETW-DerbyCon7.pdf https://blogs.technet.microsoft.com/office365security/hidden-treasure-intrusion-detection-with-etw-part-1/ | https://github.com/zacbrown/hiddentreasure-etw-demo/blob/master/zbrown-HiddenTreasureETW-DerbyCon7.pdf | https://github.com/redcanaryco | Principal Software Engineer/Dev Lead at @redcanaryco. I like OSes, compilers, and security. Formerly with @microsoft Office 365 Security and Windows. | Seattle, WA | @redcanaryco | 42 | 0 | 198 | 77 | 15 | C#,Emacs,C++ | 77 | 19 | 1| 
 | ChrisTheCoolHut | Easy-Pickings - 用于 Fuzz 交叉架构二进制文件的自动函数导出和链接工具: | https://github.com/ChrisTheCoolHut/Easy-Pickings | None |  | None | None | 14 | 0 | 96 | 76 | 4 | Python,C | 353 | 61 | 2| 
 | Mosuan | FileScan: 敏感文件扫描 / 二次判断降低误报率 | https://github.com/Mosuan/FileScan | http://www.0aa.me/ | Huobi Security - SDL Team | BeiJing | None | 32 | 0 | 117 | 76 | 29 | Python,JavaScript | 132 | 36 | 1| 
@@ -3884,6 +3883,7 @@
 | tea-deliverers | PlaidCTF 2019 比赛的 Writeup | https://github.com/tea-deliverers/ctf-writeups/blob/master/pctf2019/PlaidCTF2019_Writeup_Tea_Deliverers.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | telspacesystems | 华硕 Windows 触摸板驱动 AsusPTPFilter.sys 存在拒绝服务漏洞（CVE-2019-10709） | https://github.com/telspacesystems/Asus-DOS/ | https://www.telspace.co.za |  | South Africa | Telspace Systems | 2 | 0 | 0 | 0 | 0 | Python | 0 | 1 | 1| 
 | theLSA | F5 BIGIP RCE(CVE-2020-5902)漏洞检测工具 | https://github.com/theLSA/f5-bigip-rce-cve-2020-5902 | http://www.lsablog.com | I like Cyber Security, penestration, CTF and programming(python,C/C++,PHP,JAVA......), welcome to communicate with me! | China | None | 0 | 0 | 0 | 0 | 0 | Python | 322 | 92 | 8| 
+| tomer8007 | Chromium IPC Sniffer - 有研究员开发了一个监控 Chromium 浏览器命名管道通信消息的工具 | https://github.com/tomer8007/chromium-ipc-sniffer | None |  | None | None | 6 | 0 | 0 | 0 | 0 | Python,Lua,Objective-C,JavaScript,C# | 81 | 44 | 1| 
 | tothi | 如何利用DLL代理进行DLL劫持 | https://github.com/tothi/dll-hijack-by-proxying | https://twitter.com/an0n_r0 |  | None | None | 0 | 0 | 0 | 0 | 0 | Python,C#,C,HTML | 207 | 67 | 1| 
 | trailofbits | Sienna Locomotive - 为缺乏安全经验的 Windows 开发者写的 Fuzzer | https://github.com/trailofbits/sienna-locomotive | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,CMake,Python,Ruby,JavaScript,C++,Go,Swift,Rust | 18300 | 1600 | 1| 
 | ttonys | 获取每日最新的CVE和CNVD漏洞 | https://github.com/ttonys/Scrapy-CVE-CNVD | https://www.sys71m.top/ | 只见树木，不见森林 | None | None | 5 | 0 | 0 | 0 | 0 | Python,PHP,HTML,CSS | 15 | 1 | 1| 
@@ -3892,6 +3892,7 @@
 | ucsb-seclab | KARONTE: Detecting Insecure Multi-binary Interactions in Embedded Firmware | https://github.com/ucsb-seclab/karonte?from=timeline | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Java,Python,JavaScript,C++,Dockerfile | 0 | 0 | 2| 
 | ud2 | Samsung exposes modem over USB which can be abused to enable ADB, make calls, send texts, and bypass lockscreen: | https://github.com/ud2/advisories/tree/master/android/samsung/nocve-2016-0004 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 0 | 0 | 3| 
 | uds-se | 关于 Fuzz 的书《Generating Software Tests》的原始文件 | https://github.com/uds-se/fuzzingbook | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,LLVM,Java,Python,Kotlin,JavaScript,Shell,Objective-C,HTML,Jupyter,R,Dockerfile | 0 | 0 | 1| 
+| uknowsec | SharpSQLDump:内网渗透中快速获取数据库所有库名，表名，列名功能。 | https://github.com/uknowsec/SharpSQLDump | http://uknowsec.cn | 不忘初心，方得始终 | Nanjing | None | 38 | 0 | 0 | 0 | 0 | C# | 936 | 211 | 2| 
 | vim | 8.1.2136 补丁：释放window内存与fuzzer的 autocmd命令一起使用 | https://github.com/vim/vim/commit/ec66c41d84e574baf8009dbc0bd088d2bc5b2421 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,C,Batchfile,Vim | 0 | 0 | 1| 
 | viraintel | OWASP-Nettacker - 一款自动化的渗透测试框架: | https://github.com/viraintel/OWASP-Nettacker | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | vivisect | @ mattifestation @ Carlos_Perez @ FixTheExchange @ Lee_Holmes It uses @ invisig0ths vivisect disassembler | https://github.com/vivisect/vivisect | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C | 0 | 0 | 1| 

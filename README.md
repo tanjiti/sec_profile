@@ -14,16 +14,17 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
-| 信息时代的犯罪侦查 | infocrime | 通过一封钓鱼邮件，溯源分析背后的产业链（教科书） | https://mp.weixin.qq.com/s/G9qwMTBznSlMNQSCqvAyWg | 1| 
+| 奇安信集团 | qianxin-keji | 先收藏！入行必备的网络安全“黑话”词典 | https://mp.weixin.qq.com/s/L-cqkaTC3lsfyWmd9jbU3A | 1| 
+| 信息时代的犯罪侦查 | infocrime | 通过一封钓鱼邮件，溯源分析背后的产业链（教科书） | https://mp.weixin.qq.com/s/G9qwMTBznSlMNQSCqvAyWg | 2| 
 | 白泽安全实验室 | baizelab | 解密俄罗斯情报机构 | https://mp.weixin.qq.com/s/OPvkERr3Ox_OvnbimhZqnA | 1| 
 | 看雪学院 | ikanxue | 用麒麟框架深入分析实模式二进制文件 | https://mp.weixin.qq.com/s/cMVpMCdlvC-yVMP5COZjfw | 1| 
 | 网空闲话 | cyberspacechat | 曝光APT组织会产生怎样的威慑效果？ | https://mp.weixin.qq.com/s/OWISagB-qYrMJIVo713iVw | 1| 
 | 腾讯安全应急响应中心 | tsrc_team | RASP攻防 —— RASP安全应用与局限性浅析 | https://mp.weixin.qq.com/s/pjZDWG0YT9dxtNyO1g8ISw | 2| 
+| GobySec | gobysec | 技术分享 , 自定义PoC对接插件，漏扫更强大 | https://mp.weixin.qq.com/s/dQau-s0FoieXrMW3EAnSEQ | 2| 
 | 贝塔安全实验室 | BetaSecLab | 威胁事件告警分析技巧及处置（一） | https://mp.weixin.qq.com/s/vgLs2H46YH2ClVgKtCWN8Q | 2| 
 | 逐日实验室 | gh_093e54310392 | CVE-2020-14364 QEMU逃逸 漏洞分析 (含完整EXP) | https://mp.weixin.qq.com/s/MQyczZXRfOsIQewNf7cfXw | 1| 
 | 国家网络威胁情报共享开放平台 | CNTIC2017 | Linux系统中APT攻击总结 | https://mp.weixin.qq.com/s/HK3TlJQSrUtxoXl9HG6ORA | 2| 
 | 虎符智库 | TT_Thinktank | 从IOC的一些真相谈对其的评价标准 | https://mp.weixin.qq.com/s/95jB4DfaXau6NDotNSpwdA | 1| 
-| GobySec | gobysec | 如何利用Goby进行外围打点 | https://mp.weixin.qq.com/s/3JWq4aO6KvMABKH2Q8jGIw | 2| 
 | 数说安全 | SSAQ2016 | 《2020中国网络安全产业分析报告》发布 | https://mp.weixin.qq.com/s/0aikqrvyt-YODDy8D6qj5Q | 2| 
 | vivo千镜安全实验室 | gh_54ff3f871510 | 软件源码安全攻防之道（中） | https://mp.weixin.qq.com/s/8L7c6WOtF5nmcmPnuFubfA | 1| 
 | 电驭叛客 | gh_141164bf887e | API越权风险检测方式浅谈 | https://mp.weixin.qq.com/s/eS8NgNXaIYlUQ__Gb3y0kg | 2| 
@@ -73,6 +74,8 @@
 | r4j0x00 | 为 v8 FixedArray 85bc1b0cab31cc064efc65e05adb81fee814261b 编写的 Exploit | https://github.com/r4j0x00/exploits/blob/master/chrome-exploit/exploit.js | https://github.com/r4j0x00 | I make exploits | None | None | 14 | 0 | 0 | 0 | 0 | Python,C,JavaScript,Ruby,C++ | 86 | 39 | 1| 
 | saaramar | Google Quals CTF 2020 Echo PWN Challenge Writeup | https://github.com/saaramar/echo_googlequals2020 | https://twitter.com/AmarSaar | @AmarSaar in twitter, known as amarsa | None | None | 9 | 0 | 0 | 0 | 0 | Python,C,Rust,C++ | 203 | 41 | 1| 
 | synacktiv | 用于优化 IDA Hex-Rays 反编译器处理 VMX 指令的插件 | https://github.com/synacktiv/vmx_intrinsics | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,PHP,Rust | 0 | 0 | 1| 
+| tomer8007 | Chromium IPC Sniffer - 有研究员开发了一个监控 Chromium 浏览器命名管道通信消息的工具 | https://github.com/tomer8007/chromium-ipc-sniffer | None |  | None | None | 6 | 0 | 0 | 0 | 0 | Python,Lua,Objective-C,JavaScript,C# | 81 | 44 | 1| 
+| uknowsec | SharpSQLDump:内网渗透中快速获取数据库所有库名，表名，列名功能。 | https://github.com/uknowsec/SharpSQLDump | http://uknowsec.cn | 不忘初心，方得始终 | Nanjing | None | 38 | 0 | 0 | 0 | 0 | C# | 936 | 211 | 1| 
 | yardenshafir | Windows 进程 Mitigation 策略枚举工具 | https://github.com/yardenshafir/MitigationFlagsCliTool | https://medium.com/@yardenshafir2 | A circus artist with a visual studio license | None | None | 8 | 0 | 0 | 0 | 0 | C,C++ | 76 | 34 | 1| 
 | zodiacon | 基于 Event Tracing for Windows (ETW) 而不再依赖驱动实现的 Process Monitor | https://github.com/zodiacon/ProcMonXv2 | http://scorpiosoftware.net |  | Israel | None | 68 | 0 | 0 | 0 | 0 | C#,C,C++ | 1100 | 296 | 1| 
 
