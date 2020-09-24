@@ -3,12 +3,12 @@ C	641
 JavaScript	640
 C++	520
 HTML	465
-Shell	442
+Shell	443
 Java	431
-Go	363
+Go	364
 C#	260
 Ruby	255
-PHP	230
+PHP	231
 PowerShell	224
 CSS	217
 Objective-C	133
@@ -19,8 +19,8 @@ Perl	72
 Swift	67
 Dockerfile	63
 Assembly	63
+Lua	58
 Makefile	57
-Lua	57
 TeX	55
 Batchfile	52
 Scala	42
