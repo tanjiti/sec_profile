@@ -15,6 +15,7 @@
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
 | ADLab | v_adlab | Linux内核AF_PACKET原生套接字漏洞（CVE-2020-14386）分析 | https://mp.weixin.qq.com/s/uv3BiznUCUy8do_ullnXUw | 9| 
+| 专注安管平台 | gh_48603b9bb05a | 美国爱因斯坦计划跟踪与解读（2020） | https://mp.weixin.qq.com/s/-Gvsw88lUPjBqcT5UpSIFg | 7| 
 | 绿盟科技 | NSFOCUS-weixin | 浅谈网络靶场的关键能力与应用方向 | https://mp.weixin.qq.com/s/6thyoH3ejzmeRfK5OruEew | 8| 
 | 长亭安全课堂 | chaitintech_release | 杂谈Java内存Webshell的攻与防 | https://mp.weixin.qq.com/s/DRbGeVOcJ8m9xo7Gin45kQ | 2| 
 | 奇安信集团 | qianxin-keji | 先收藏！入行必备的网络安全“黑话”词典 | https://mp.weixin.qq.com/s/L-cqkaTC3lsfyWmd9jbU3A | 2| 
@@ -105,7 +106,6 @@
 | 数世咨询 | dwconcn | 数世咨询：网络靶场能力指南 | https://mp.weixin.qq.com/s/7HAorX_VurhxXI9OT6sILA | 6| 
 | 全频带阻塞干扰 | RFJamming | 特勤局手册 , 领导人高级别会谈如何反窃密 | https://mp.weixin.qq.com/s/2ySVlrHHnMpunY9VX0l3Zg | 13| 
 | 安全威胁情报 | Threatbook | 朝鲜半岛APT组织Lazarus在MacOS平台上的攻击活动分析 | https://mp.weixin.qq.com/s/W0HuTvPI7CzM8queWNhXIQ | 6| 
-| 专注安管平台 | gh_48603b9bb05a | Gartner对SOAR的定义不断变化 | https://mp.weixin.qq.com/s/X0BoaaFG1a-p5xymokC1YQ | 6| 
 | 天御攻防实验室 | TianyuLab | 从APT29看网络威胁归因（上） | https://mp.weixin.qq.com/s/RFxS0xigAF-bMh59KR44cA | 6| 
 | 360威胁情报中心 | CoreSec360 | 被低估的混乱军团 -WellMess(APT-C-42)组织网络渗透和供应链攻击行动揭秘 | https://mp.weixin.qq.com/s/WmzryWNNJVV7mXABQ1Yu8g | 1| 
 | 小米安全中心 | misrc_team | 机器学习在小米帐号风控中的应用 | https://mp.weixin.qq.com/s/BplHuoyFQ0cAEBAi3OdZAA | 6| 
@@ -3859,6 +3859,7 @@
 | saaramar | Google Quals CTF 2020 Echo PWN Challenge Writeup | https://github.com/saaramar/echo_googlequals2020 | https://twitter.com/AmarSaar | @AmarSaar in twitter, known as amarsa | None | None | 9 | 0 | 0 | 0 | 0 | Python,C,Rust,C++ | 203 | 41 | 4| 
 | saferwall | saferwall: 下一代开源恶意软件分析平台 | https://github.com/saferwall/saferwall | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go | 0 | 0 | 1| 
 | samgha | vipas: Vipasyin Webshell detector Go 语言编写的Webshell检测工具 | https://github.com/samgha/vipas | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,XSLT,Python,JavaScript,C++,Go | 0 | 0 | 1| 
+| samsonpianofingers | RTTIDumper - 注入目标进程 Dump 虚函数表的工具 | https://github.com/samsonpianofingers/RTTIDumper | None | A Man-Geek Interested in reverse engineering, software and web development, computer architecture and computer security. | None | None | 15 | 0 | 0 | 0 | 0 | Python,Java,C++ | 3 | 1 | 1| 
 | samuraictf | SHURIKEN: Exploit throwing framework | https://github.com/samuraictf/shuriken-framework | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,Shell | 0 | 0 | 1| 
 | sanvil | vsauditVOIP Security Audit Frameworkby @ SanvilSrl https://github.com/sanvil/vsaudit | https://github.com/sanvil/vsaudit | None |  | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | scanmem | scanmem - Linux 内存扫描工具: | https://github.com/scanmem/scanmem | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 0 | 0 | 1| 
@@ -3875,6 +3876,7 @@
 | snoopythesecuritydog | dvws : Damn Vulnerable Web Services (vulnerable testing environment) : https://github.com/snoopythesecuritydog/dvws | https://github.com/snoopythesecuritydog/dvws | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | sonarwhal | 微软开源扫描工具Sonar | https://github.com/sonarwhal/sonar | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | sophiabiancalatessa | FakeNewsDeepLearning: Opening the Black-Box of Deep Learning Based Detector | https://github.com/sophiabiancalatessa/FakeNewsDeepLearning | None |  | None | None | 2 | 0 | 0 | 0 | 0 | Python,C++ | 9 | 6 | 1| 
+| spyre-project | 基于Yara的简单IOC扫描器Spyre | https://github.com/spyre-project/spyre | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go | 0 | 0 | 1| 
 | sslab-gatech | QSYM - 为混合 Fuzz 定制的符号执行引擎 | https://github.com/sslab-gatech/qsym | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Filebench,Python,Makefile,C++,HTML,HCL | 0 | 0 | 1| 
 | suraj-root | Shellcode mapper | https://github.com/suraj-root/smap/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | switchbrew | nx-hbexploit300-obf - Homebrew exploit for 3.0.0: | https://github.com/switchbrew/nx-hbexploit300-obf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Python,JavaScript,Makefile,HTML,CSS | 0 | 0 | 1| 
