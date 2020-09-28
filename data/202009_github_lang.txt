@@ -1,4 +1,4 @@
-Python	22
+Python	23
 C	12
 JavaScript	11
 C++	10
@@ -8,12 +8,12 @@ Go	6
 TypeScript	5
 Rust	5
 C#	5
+HTML	4
 Ruby	4
 Objective-C	4
-HTML	3
+PHP	4
 Vue	3
 Jupyter	3
-PHP	3
 PowerShell	3
 HCL	2
 Lua	2
