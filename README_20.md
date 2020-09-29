@@ -14,12 +14,13 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 梦之光芒的电子梦 | monyer_mp | 技术人员发展四阶段 | https://mp.weixin.qq.com/s/-bAFEmstpDTzI6EfYwzffA | 2| 
 | ADLab | v_adlab | Linux内核AF_PACKET原生套接字漏洞（CVE-2020-14386）分析 | https://mp.weixin.qq.com/s/uv3BiznUCUy8do_ullnXUw | 9| 
 | 专注安管平台 | gh_48603b9bb05a | 美国爱因斯坦计划跟踪与解读（2020） | https://mp.weixin.qq.com/s/-Gvsw88lUPjBqcT5UpSIFg | 7| 
 | 绿盟科技 | NSFOCUS-weixin | 浅谈网络靶场的关键能力与应用方向 | https://mp.weixin.qq.com/s/6thyoH3ejzmeRfK5OruEew | 8| 
 | 长亭安全课堂 | chaitintech_release | 杂谈Java内存Webshell的攻与防 | https://mp.weixin.qq.com/s/DRbGeVOcJ8m9xo7Gin45kQ | 2| 
+| 信息时代的犯罪侦查 | infocrime | 电子数据审查判断案例（略影） | https://mp.weixin.qq.com/s/Qq46JSlgbA2TywIljyfx0g | 4| 
 | 奇安信集团 | qianxin-keji | 先收藏！入行必备的网络安全“黑话”词典 | https://mp.weixin.qq.com/s/L-cqkaTC3lsfyWmd9jbU3A | 2| 
-| 信息时代的犯罪侦查 | infocrime | 通过一封钓鱼邮件，溯源分析背后的产业链（教科书） | https://mp.weixin.qq.com/s/G9qwMTBznSlMNQSCqvAyWg | 4| 
 | 白泽安全实验室 | baizelab | 解密俄罗斯情报机构 | https://mp.weixin.qq.com/s/OPvkERr3Ox_OvnbimhZqnA | 1| 
 | 看雪学院 | ikanxue | 用麒麟框架深入分析实模式二进制文件 | https://mp.weixin.qq.com/s/cMVpMCdlvC-yVMP5COZjfw | 45| 
 | 网空闲话 | cyberspacechat | 曝光APT组织会产生怎样的威慑效果？ | https://mp.weixin.qq.com/s/OWISagB-qYrMJIVo713iVw | 2| 
@@ -368,7 +369,6 @@
 | 秘迹同学 | mijitongxue | 个人隐私保护大时代：至暗时刻将逝，一丝曙光在即 | https://mp.weixin.qq.com/s/Gzz7AtZgH0JuNa7U_9yb4w | 1| 
 | 补天平台 | Patchingthesky |  | https://mp.weixin.qq.com/s/Hm6TiLHiAygrJr-MGRq9Mw | 1| 
 | 中新社广东发布 | CNS-gd |  | https://mp.weixin.qq.com/s/Kf0VzANEmBBWQkFu23dQRA | 1| 
-| 梦之光芒的电子梦 | monyer_mp |  | https://mp.weixin.qq.com/s/Hraig48huSQ93ZMf448Htw | 1| 
 | 深圳市网络与信息安全行业协会 | SNISA-001 |  | https://mp.weixin.qq.com/s/OAqfstNEu0ns4l3aKJQ9oA | 1| 
 | 网藤风险感知 |  |  | https://mp.weixin.qq.com/s/tIG5PZHkMOh62mcIauxShQ | 2| 
 | 软件工程研究与实践 | SE-China |  | https://mp.weixin.qq.com/s/c3FqWiY6H4xdlZlmylnBkQ | 2| 
@@ -3091,7 +3091,6 @@
 | eastee | Breaking Google’s ReCaptcha v2 : https://east-ee.com/2017/02/28/rebreakcaptcha-breaking-googles-recaptcha-v2-using-google/ ,Github : | https://github.com/eastee/rebreakcaptcha | https://east-ee.com |  | None | None | 1 | 0 | 0 | 23 | 0 | Python | 735 | 139 | 1| 
 | fbkcs | ThunderDNS - 一款通过 DNS 协议转发 TCP 流量的工具 : | https://github.com/fbkcs/ThunderDNS | https://fbkcs.ru/ | InfoSec company | Moscow | None | 3 | 0 | 0 | 23 | 0 | Python,Shell,Ruby | 318 | 37 | 2| 
 | im-bug | BlockChain-Security-List Repo | https://github.com/im-bug/BlockChain-Security-List | None | BlockChain Security | None | None | 6 | 0 | 6 | 23 | 2 | Python,Solidity | 57 | 17 | 1| 
-| kov4l3nko | ARM64JSON - JSON 格式的 ARM64 指令编码: | https://github.com/kov4l3nko/ARM64JSON | https://kov4l3nko.github.io/about/ | iOS/Android reverse engineer and security researcher | Ukraine | None | 5 | 0 | 0 | 23 | 0 | Python,HTML,Java,JavaScript | 34 | 3 | 1| 
 | linuxthor | uul - 让 uul ELF 二进制文件同时在多个 *nix 风格的系统上运行的项目: | https://github.com/linuxthor/uul | None |  | Yorkshire | None | 32 | 0 | 0 | 23 | 3 | C,Assembly | 0 | 0 | 1| 
 | locoz666 | 手把手教你写爬虫 | https://github.com/locoz666/spider-article | None |  | ShenZhen | Midu(www.midu.com) | 3 | 0 | 42 | 23 | 2 | JavaScript | 0 | 0 | 1| 
 | lyxhh | HTTPDecrypt: 利用HTTP协议 远程加解密数据包，实现Burp一条龙服务 | https://github.com/lyxhh/lxhToolHTTPDecrypt | None |  | None | None | 5 | 0 | 169 | 23 | 0 | Python,JavaScript,HTML | 354 | 112 | 1| 
@@ -3794,6 +3793,7 @@
 | kisec | Kibana CVE-2019-7609 RCE Exploit 代码 | https://github.com/kisec/CVE-2019-7609?fbclid=IwAR02m1XrcGDleYn8KzrjBRuIFNXzwJumhrYi2n7zSFeq9fvPk39FxPyAyWY | http://www.kisec.com | Korea Information Security Education Center | None | 한국정보보호교육센터 | 25 | 0 | 0 | 0 | 0 | Python,Go,Shell | 13 | 2 | 1| 
 | knrdl | yamot - 基于 Web 的 Linux/BSD 服务器监控工具: | https://github.com/knrdl/yamot | None |  | Berlin, Germany | None | 1 | 0 | 0 | 0 | 0 | HTML | 0 | 0 | 1| 
 | kotobukki | BigDataAudit: security vulns detector for Hadoop and Spark 大数据安全检测工具 | https://github.com/kotobukki/BigDataAudit | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| kov4l3nko | MEDUZA - 基于 Frida，针对越狱 iOS 系统编写的 SSL unpinning 工具 | https://github.com/kov4l3nko/MEDUZA | https://kov4l3nko.github.io/about/ | iOS/Android reverse engineer and security researcher | The country where cyberpunk won | None | 7 | 0 | 0 | 0 | 0 | Python,JavaScript,Java,HTML | 99 | 14 | 2| 
 | kromtech | s3-inspector - 检测 AWS S3 Bucket 权限的工具: | https://github.com/kromtech/s3-inspector | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Objective-C,C | 0 | 0 | 1| 
 | laplinker | Use Wireshark to sniff CAN traffic in windows for under 20$ worth of hardware: | https://github.com/laplinker/CAN-pipe | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | lastaudit | lastAudit: Local Area Security Audit Tool | https://github.com/lastaudit/lastAudit/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -3864,6 +3864,7 @@
 | samsonpianofingers | RTTIDumper - 注入目标进程 Dump 虚函数表的工具 | https://github.com/samsonpianofingers/RTTIDumper | None | A Man-Geek Interested in reverse engineering, software and web development, computer architecture and computer security. | None | None | 15 | 0 | 0 | 0 | 0 | Python,Java,C++ | 3 | 1 | 1| 
 | samuraictf | SHURIKEN: Exploit throwing framework | https://github.com/samuraictf/shuriken-framework | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,Shell | 0 | 0 | 1| 
 | sanvil | vsauditVOIP Security Audit Frameworkby @ SanvilSrl https://github.com/sanvil/vsaudit | https://github.com/sanvil/vsaudit | None |  | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
+| sbousseaden | Windows 系统各类攻击和渗透行为的 Events 样本收集 | https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES | http://@SBousseaden | Threat Hunting & DFIR | None | None | 63 | 0 | 0 | 0 | 0 | Python,YARA,PowerShell | 974 | 195 | 1| 
 | scanmem | scanmem - Linux 内存扫描工具: | https://github.com/scanmem/scanmem | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 0 | 0 | 1| 
 | sdnewhop | 针对 SD-WAN 的安全性研究: | https://github.com/sdnewhop/sdwannewhope/blob/master/sdwan-poc2018.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Lua,C,Go | 0 | 0 | 1| 
 | search#search_cheatsheet_pane | GitHub supports advanced search operators much like Google | https://github.com/search#search_cheatsheet_pane | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
@@ -3888,6 +3889,7 @@
 | tarantula-team | 开源防火墙 fSense 2.4.4-p2 - 2.4.4-p3 XSS 漏洞 PoC（CVE-2019-12949） | https://github.com/tarantula-team/CVE-2019-12949/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | tea-deliverers | PlaidCTF 2019 比赛的 Writeup | https://github.com/tea-deliverers/ctf-writeups/blob/master/pctf2019/PlaidCTF2019_Writeup_Tea_Deliverers.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | telspacesystems | 华硕 Windows 触摸板驱动 AsusPTPFilter.sys 存在拒绝服务漏洞（CVE-2019-10709） | https://github.com/telspacesystems/Asus-DOS/ | https://www.telspace.co.za |  | South Africa | Telspace Systems | 2 | 0 | 0 | 0 | 0 | Python | 0 | 1 | 1| 
+| tenable | 用于从 IDL 接口文件中提取 RPC 接口定义的 IDA 插件 | https://github.com/tenable/mIDA | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java,Scala,Python,C++,Vim,HTML | 311 | 116 | 1| 
 | theLSA | F5 BIGIP RCE(CVE-2020-5902)漏洞检测工具 | https://github.com/theLSA/f5-bigip-rce-cve-2020-5902 | http://www.lsablog.com | I like Cyber Security, penestration, CTF and programming(python,C/C++,PHP,JAVA......), welcome to communicate with me! | China | None | 0 | 0 | 0 | 0 | 0 | Python | 322 | 92 | 8| 
 | tomer8007 | Chromium IPC Sniffer - 有研究员开发了一个监控 Chromium 浏览器命名管道通信消息的工具 | https://github.com/tomer8007/chromium-ipc-sniffer | None |  | None | None | 6 | 0 | 0 | 0 | 0 | Python,Lua,Objective-C,JavaScript,C# | 81 | 44 | 1| 
 | tothi | 如何利用DLL代理进行DLL劫持 | https://github.com/tothi/dll-hijack-by-proxying | https://twitter.com/an0n_r0 |  | None | None | 0 | 0 | 0 | 0 | 0 | Python,C#,C,HTML | 207 | 67 | 1| 
@@ -3923,6 +3925,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 1-click meterpreter exploit chain with BeEF and AV/AMSI bypass | http://medium.com/@bluedenkare/1-click-meterpreter-exploit-chain-with-beef-and-av-amsi-bypass-96b0eb61f1b6| 
 | 高速以太网ASIC的内容摘要。 | http://medium.com/the-elegant-network/a-summary-of-high-speed-ethernet-asics-260637c50583| 
 | How I hacked redbus | http://medium.com/bugbountywriteup/how-i-hacked-redbus-an-online-bus-ticketing-application-24ef5bb083cd?source=rss----7b722bfd1b8d---4| 
 | Ubiquiti UniFi Cloud Key Gen2 Plus 设备调试接口搭建以及管理接口漏洞分析 | http://medium.com/tenable-techblog/exploring-the-ubiquiti-unifi-cloud-key-gen2-plus-f5b0f7ca688| 
@@ -4138,6 +4141,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| Webshell研究综述：检测与对抗技术的动态博弈进展 | https://zhuanlan.zhihu.com/p/259985000?utm_oi=771453567763492864| 
 | 南京大学《软件分析》课程 | https://zhuanlan.zhihu.com/p/136697432| 
 | DataCon2020 僵尸网络追踪第三题writeup | https://zhuanlan.zhihu.com/p/186948840| 
 | 有关Angr的正确学习路线 | https://zhuanlan.zhihu.com/p/102582636| 

@@ -14,12 +14,13 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 梦之光芒的电子梦 | monyer_mp | 技术人员发展四阶段 | https://mp.weixin.qq.com/s/-bAFEmstpDTzI6EfYwzffA | 1| 
 | ADLab | v_adlab | Linux内核AF_PACKET原生套接字漏洞（CVE-2020-14386）分析 | https://mp.weixin.qq.com/s/uv3BiznUCUy8do_ullnXUw | 1| 
 | 专注安管平台 | gh_48603b9bb05a | 美国爱因斯坦计划跟踪与解读（2020） | https://mp.weixin.qq.com/s/-Gvsw88lUPjBqcT5UpSIFg | 1| 
 | 绿盟科技 | NSFOCUS-weixin | 浅谈网络靶场的关键能力与应用方向 | https://mp.weixin.qq.com/s/6thyoH3ejzmeRfK5OruEew | 1| 
 | 长亭安全课堂 | chaitintech_release | 杂谈Java内存Webshell的攻与防 | https://mp.weixin.qq.com/s/DRbGeVOcJ8m9xo7Gin45kQ | 1| 
+| 信息时代的犯罪侦查 | infocrime | 电子数据审查判断案例（略影） | https://mp.weixin.qq.com/s/Qq46JSlgbA2TywIljyfx0g | 2| 
 | 奇安信集团 | qianxin-keji | 先收藏！入行必备的网络安全“黑话”词典 | https://mp.weixin.qq.com/s/L-cqkaTC3lsfyWmd9jbU3A | 1| 
-| 信息时代的犯罪侦查 | infocrime | 通过一封钓鱼邮件，溯源分析背后的产业链（教科书） | https://mp.weixin.qq.com/s/G9qwMTBznSlMNQSCqvAyWg | 2| 
 | 白泽安全实验室 | baizelab | 解密俄罗斯情报机构 | https://mp.weixin.qq.com/s/OPvkERr3Ox_OvnbimhZqnA | 1| 
 | 看雪学院 | ikanxue | 用麒麟框架深入分析实模式二进制文件 | https://mp.weixin.qq.com/s/cMVpMCdlvC-yVMP5COZjfw | 1| 
 | 网空闲话 | cyberspacechat | 曝光APT组织会产生怎样的威慑效果？ | https://mp.weixin.qq.com/s/OWISagB-qYrMJIVo713iVw | 1| 
@@ -74,6 +75,7 @@
 | firmianay | IoT-vulhub: IoT 固件漏洞复现环境 | https://github.com/firmianay/IoT-vulhub | https://firmianay.github.io | Information Security Student & CTF Player & member of @XDSEC, @xdlinux | China | Xidian University | 16 | 0 | 0 | 0 | 0 | Python,C,Shell | 2000 | 414 | 1| 
 | gloxec | CrossC2 framework - 生成 CobaltStrike 的跨平台 beacon | https://github.com/gloxec/CrossC2 | None |  | None | None | 46 | 0 | 0 | 0 | 0 | Python,C,PLpgSQL | 586 | 127 | 1| 
 | google | 今年 Google CTF 所有赛题源码 | https://github.com/google/google-ctf/tree/master/2020/quals | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Java,Python,Kotlin,JavaScript,C++,Vim,Objective-C,Shell,Starlark,Go,Jupyter,Dart,Rust | 0 | 0 | 1| 
+| kov4l3nko | MEDUZA - 基于 Frida，针对越狱 iOS 系统编写的 SSL unpinning 工具 | https://github.com/kov4l3nko/MEDUZA | https://kov4l3nko.github.io/about/ | iOS/Android reverse engineer and security researcher | The country where cyberpunk won | None | 7 | 0 | 0 | 0 | 0 | Python,JavaScript,Java,HTML | 99 | 14 | 1| 
 | mdsecresearch | Post-Exploitation 工具如何躲避终端安全产品的检测 | https://github.com/mdsecresearch/Publications/blob/master/presentations/Offensive%20Development%20-%20Post-Exploitation%20Tradecraft%20in%20an%20EDR%20World%20-%20x33fcon%202020.pdf | https://www.mdsec.co.uk | Public research and tools from MDSec Consulting | UK | MDSec | 10 | 0 | 0 | 0 | 0 | Python,C,Objective-C,PowerShell,Arduino | 262 | 53 | 1| 
 | microsoft | 上周推送的微软的 OneFuzz 平台的源码公开了 | https://github.com/microsoft/onefuzz | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Jupyter,C#,JavaScript,C++,Python,Q#,F#,Java,CSS | 0 | 0 | 1| 
 | momosecurity | bombus: 合规审计平台 | https://github.com/momosecurity/bombus | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,TypeScript,Vue,Java,PHP | 0 | 0 | 1| 
@@ -82,8 +84,10 @@
 | r4j0x00 | 为 v8 FixedArray 85bc1b0cab31cc064efc65e05adb81fee814261b 编写的 Exploit | https://github.com/r4j0x00/exploits/blob/master/chrome-exploit/exploit.js | https://github.com/r4j0x00 | I make exploits | None | None | 14 | 0 | 0 | 0 | 0 | Python,C,JavaScript,Ruby,C++ | 86 | 39 | 1| 
 | saaramar | Google Quals CTF 2020 Echo PWN Challenge Writeup | https://github.com/saaramar/echo_googlequals2020 | https://twitter.com/AmarSaar | @AmarSaar in twitter, known as amarsa | None | None | 9 | 0 | 0 | 0 | 0 | Python,C,Rust,C++ | 203 | 41 | 1| 
 | samsonpianofingers | RTTIDumper - 注入目标进程 Dump 虚函数表的工具 | https://github.com/samsonpianofingers/RTTIDumper | None | A Man-Geek Interested in reverse engineering, software and web development, computer architecture and computer security. | None | None | 15 | 0 | 0 | 0 | 0 | Python,Java,C++ | 3 | 1 | 1| 
+| sbousseaden | Windows 系统各类攻击和渗透行为的 Events 样本收集 | https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES | http://@SBousseaden | Threat Hunting & DFIR | None | None | 63 | 0 | 0 | 0 | 0 | Python,YARA,PowerShell | 974 | 195 | 1| 
 | spyre-project | 基于Yara的简单IOC扫描器Spyre | https://github.com/spyre-project/spyre | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go | 0 | 0 | 1| 
 | synacktiv | 用于优化 IDA Hex-Rays 反编译器处理 VMX 指令的插件 | https://github.com/synacktiv/vmx_intrinsics | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,PHP,Rust | 0 | 0 | 1| 
+| tenable | 用于从 IDL 接口文件中提取 RPC 接口定义的 IDA 插件 | https://github.com/tenable/mIDA | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java,Scala,Python,C++,Vim,HTML | 311 | 116 | 1| 
 | tomer8007 | Chromium IPC Sniffer - 有研究员开发了一个监控 Chromium 浏览器命名管道通信消息的工具 | https://github.com/tomer8007/chromium-ipc-sniffer | None |  | None | None | 6 | 0 | 0 | 0 | 0 | Python,Lua,Objective-C,JavaScript,C# | 81 | 44 | 1| 
 | uknowsec | SharpSQLDump:内网渗透中快速获取数据库所有库名，表名，列名功能。 | https://github.com/uknowsec/SharpSQLDump | http://uknowsec.cn | 不忘初心，方得始终 | Nanjing | None | 38 | 0 | 0 | 0 | 0 | C# | 936 | 211 | 1| 
 | yardenshafir | Windows 进程 Mitigation 策略枚举工具 | https://github.com/yardenshafir/MitigationFlagsCliTool | https://medium.com/@yardenshafir2 | A circus artist with a visual studio license | None | None | 8 | 0 | 0 | 0 | 0 | C,C++ | 76 | 34 | 1| 
@@ -93,6 +97,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 1-click meterpreter exploit chain with BeEF and AV/AMSI bypass | http://medium.com/@bluedenkare/1-click-meterpreter-exploit-chain-with-beef-and-av-amsi-bypass-96b0eb61f1b6| 
 | 高速以太网ASIC的内容摘要。 | http://medium.com/the-elegant-network/a-summary-of-high-speed-ethernet-asics-260637c50583| 
 | How I hacked redbus | http://medium.com/bugbountywriteup/how-i-hacked-redbus-an-online-bus-ticketing-application-24ef5bb083cd?source=rss----7b722bfd1b8d---4| 
 
@@ -110,6 +115,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| Webshell研究综述：检测与对抗技术的动态博弈进展 | https://zhuanlan.zhihu.com/p/259985000?utm_oi=771453567763492864| 
 | 南京大学《软件分析》课程 | https://zhuanlan.zhihu.com/p/136697432| 
 | DataCon2020 僵尸网络追踪第三题writeup | https://zhuanlan.zhihu.com/p/186948840| 
 | 有关Angr的正确学习路线 | https://zhuanlan.zhihu.com/p/102582636| 
