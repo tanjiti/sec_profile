@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 安全界 | feei_cn | 基于甲方视角的漏洞发现 | https://mp.weixin.qq.com/s/eBPp4eyaGs827POFTesqOA | 1| 
 | 梦之光芒的电子梦 | monyer_mp | 技术人员发展四阶段 | https://mp.weixin.qq.com/s/-bAFEmstpDTzI6EfYwzffA | 2| 
 | ADLab | v_adlab | Linux内核AF_PACKET原生套接字漏洞（CVE-2020-14386）分析 | https://mp.weixin.qq.com/s/uv3BiznUCUy8do_ullnXUw | 9| 
 | 专注安管平台 | gh_48603b9bb05a | 美国爱因斯坦计划跟踪与解读（2020） | https://mp.weixin.qq.com/s/-Gvsw88lUPjBqcT5UpSIFg | 7| 
@@ -1486,7 +1487,6 @@
 | Manisso | Fsociety - 一款渗透测试框架: | https://github.com/Manisso/fsociety | https://github.com/Manisso | One day youll leave this world behind So live a life you will remember | Algiers, Algeria | @Manisso | 26 | 0 | 0 | 470 | 1 | Python | 0 | 0 | 1| 
 | Tamicer | SkyMonitoring: Android Static FrameWork, 埋点统计SDK | https://github.com/Tamicer/SkyMonitoring | http://www.tamicer.com/ | 。。。。。。。。。。。 | shanghai | meituan | 69 | 0 | 111 | 470 | 32 | Java | 1400 | 271 | 1| 
 | iMeiji | 开启TCP BBR拥塞控制算法 | https://github.com/iMeiji/shadowsocks_install/wiki/%E5%BC%80%E5%90%AFTCP-BBR%E6%8B%A5%E5%A1%9E%E6%8E%A7%E5%88%B6%E7%AE%97%E6%B3%95 | https://imeiji.github.io/ |  | None | None | 46 | 0 | 355 | 470 | 66 | Kotlin,Shell,Java | 0 | 0 | 1| 
-| lgandx | MS16-137 PoC: | https://github.com/lgandx/PoC/tree/master/LSASSSearch | https://g-laurent.blogspot.com |  | None | None | 4 | 0 | 15 | 468 | 3 | Python | 1300 | 254 | 1| 
 | BrambleXu | pydata-notebook: 利用Python进行数据分析 第二版 (2017) 中文翻译笔记 | https://github.com/BrambleXu/pydata-notebook | https://medium.com/@bramblexu | An NLPer interested in Relation Extraction and Knowledge Graph Twitter: BrambleXu | Tokyo | None | 24 | 0 | 258 | 465 | 52 | Jupyter | 2900 | 1100 | 1| 
 | moonbingbing | OpenResty 最佳实践 | https://github.com/moonbingbing/openresty-best-practices | None |  | None | 360 | 30 | 0 | 49 | 465 | 5 | Python,Lua,C,Perl | 2900 | 726 | 1| 
 | opsxcq | Sweet, a first PHPMailer PoC: | https://github.com/opsxcq/exploit-CVE-2016-10033 | https://strm.sh | https://keybase.io/terminator https://twitter.com/opsxcq | None | None | 75 | 0 | 168 | 463 | 23 | Python,C,PHP,Java | 0 | 0 | 1| 
@@ -3719,6 +3719,7 @@
 | codeplutos | MySQL客户端jdbc反序列化漏洞payload | https://github.com/codeplutos/MySQL-JDBC-Deserialization-Payload | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java,C++ | 107 | 20 | 1| 
 | colental | BYOB - 打造你自己的 Botnet: | https://github.com/colental/byob | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | compsec-snu | Fuzz内核中条件竞争漏洞的工具，相关工作已经发表在Oakland19上 | https://github.com/compsec-snu/razzer | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 0 | 0 | 1| 
+| coreruleset | OWASP ModSecurity核心规则集（CRS）资源合集。 | https://github.com/coreruleset/coreruleset | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Shell,Dockerfile,Perl | 0 | 0 | 1| 
 | cpandya2909 | OpenSSH 8.3p1 CVE-2020-15778 eval 注入漏洞分析 | https://github.com/cpandya2909/CVE-2020-15778 | None |  | None | None | 4 | 0 | 0 | 0 | 0 | Python,Shell,HTML | 15 | 0 | 1| 
 | creditease-sec | insight: 洞察-应用系统资产/漏洞全生命周期/安全知识库平台 | https://github.com/creditease-sec/insight?from=timeline&isappinstalled=0 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | JavaScript | 0 | 0 | 1| 
 | crowdsecurity | Crowdsec - 一款开源的、轻量级的异常行为检测 Agent，适用于容器和虚拟机环境 | https://github.com/crowdsecurity/crowdsec/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Lua,Shell,PHP | 153 | 14 | 1| 
@@ -3737,6 +3738,7 @@
 | doyensec | Electron.js Hacking 相关的资料收集整理 | https://github.com/doyensec/awesome-electronjs-hacking | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,JavaScript,Java,C++ | 0 | 0 | 1| 
 | duffelhq | Elixir Ecto Paginator 刚刚修复了一个 RCE 漏洞 | https://github.com/duffelhq/paginator/security/advisories/GHSA-w98m-2xqg-9cvj | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Python,JavaScript,HTML,Elixir,Go,Erlang | 0 | 0 | 1| 
 | dwisiswant0 | CRLFuzz - 用于扫描 CRLF 漏洞的工具 | https://github.com/dwisiswant0/crlfuzz | https://github.com/kitabisa | 2>&1 | id_ID | @kitabisa | 227 | 0 | 0 | 0 | 0 | Go,Python,Shell,Ruby,HCL | 198 | 71 | 2| 
+| e-m-b-a | emba - 用于分析基于 Linux 的嵌入设备的固件的工具 | https://github.com/e-m-b-a/emba | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,OCaml,Roff | 27 | 5 | 1| 
 | ernw | ERNW GmbH 公开了几篇关于 Windows WDAC 与 Code integrity 的研究 Paper | https://github.com/ernw/Windows-Insight/tree/master/articles/Device%20Guard/WDAC | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,XSLT,Python,Erlang | 488 | 134 | 1| 
 | eronnen | 用于解析 Procmon 内部文件格式（日志文件、配置文件）的 Python 库 | https://github.com/eronnen/procmon-parser | None |  | None | None | 0 | 0 | 0 | 0 | 0 | Python,JavaScript,C++ | 31 | 4 | 1| 
 | eth-sri | 利用机器学习的方法还原（推测）被 strip 过的二进制程序的调试符号信息 | https://github.com/eth-sri/debin | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,D,Python,Mathematica,C++,C#,HTML,SMT,JavaScript | 0 | 0 | 1| 
@@ -3800,6 +3802,7 @@
 | latentgod | OpenSA: 运维自动化平台 | https://github.com/latentgod/OpenSA | None |  | None | None | 38 | 0 | 0 | 0 | 0 | Python,PHP,JavaScript,Vim | 6 | 10 | 1| 
 | lazycatzh | news_feed: 实时监控1000家中国企业的新闻动态 | https://github.com/lazycatzh/news_feed | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | lewangbtcc | anti-XSS: An open source XSS vulnerability scanner | https://github.com/lewangbtcc/anti-XSS | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| lgandx | LLMNR/NBT-NS/mDNS 协议攻击工具 Responder 更新 3.0.2.0 版本 | https://github.com/lgandx/Responder/releases/tag/v3.0.2.0 | https://g-laurent.blogspot.com |  | None | None | 5 | 0 | 0 | 0 | 0 | Python | 2300 | 382 | 2| 
 | lianfeng30 | githubscan: GitHub敏感信息扫描工具 | https://github.com/lianfeng30/githubscan | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | libusb | libusb - 跨平台的 USB 设备交互库 | https://github.com/libusb/libusb | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,HTML | 0 | 0 | 1| 
 | log2timeline | dftimewolf: A framework for orchestrating forensic | https://github.com/log2timeline/dftimewolf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Shell | 0 | 0 | 1| 
@@ -3825,6 +3828,7 @@
 | nautilus-fuzz | 基于 NDSS 2019 一篇 Paper 实现的一个基于 Grammar、Coverage Guided 的 Fuzzer | https://github.com/nautilus-fuzz/nautilus | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | nccgroup | NCC Group 为 Zerologon CVE-2020-1472 漏洞编写的 .NET 版本的 Exploit | https://github.com/nccgroup/nccfsas/tree/main/Tools/SharpZeroLogon | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,C#,Haskell,Shell,HCL,Elixir,Ruby,PowerShell,Rust | 2200 | 336 | 2| 
 | net-ninja | A heap analysis tool for Immunity Debugger. | https://github.com/net-ninja/heaper | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| netzob | Netzob：用于协议逆向工程，建模与模糊测试项目脚本工具。 | https://github.com/netzob/netzob | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | nezha-dt | nezha - 一款差分模糊测试工具: | https://github.com/nezha-dt/nezha | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C++ | 0 | 0 | 1| 
 | nomi-sec | PoC auto collect from GitHub | https://github.com/nomi-sec/PoC-in-GitHub | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | nonce-disrespect | Nonce-Disrespecting Adversaries: Practical Forgery Attacks on GCM in TLS | https://github.com/nonce-disrespect/nonce-disrespect | None | None | None | None | 0 | 0 | 0 | 0 | 0 | CSS | 0 | 0 | 1| 
@@ -3926,6 +3930,7 @@
 | title | url| 
 | --- | ---| 
 | 1-click meterpreter exploit chain with BeEF and AV/AMSI bypass | http://medium.com/@bluedenkare/1-click-meterpreter-exploit-chain-with-beef-and-av-amsi-bypass-96b0eb61f1b6| 
+| 利用不安全的 JSONP 调用接管 Kolesa 站点的任意账户 | http://medium.com/bugbountywriteup/taking-down-the-sso-account-takeover-in-3-websites-of-kolesa-due-to-insecure-jsonp-call-facd79732e45| 
 | 高速以太网ASIC的内容摘要。 | http://medium.com/the-elegant-network/a-summary-of-high-speed-ethernet-asics-260637c50583| 
 | How I hacked redbus | http://medium.com/bugbountywriteup/how-i-hacked-redbus-an-online-bus-ticketing-application-24ef5bb083cd?source=rss----7b722bfd1b8d---4| 
 | Ubiquiti UniFi Cloud Key Gen2 Plus 设备调试接口搭建以及管理接口漏洞分析 | http://medium.com/tenable-techblog/exploring-the-ubiquiti-unifi-cloud-key-gen2-plus-f5b0f7ca688| 

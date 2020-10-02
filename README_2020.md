@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 安全界 | feei_cn | 基于甲方视角的漏洞发现 | https://mp.weixin.qq.com/s/eBPp4eyaGs827POFTesqOA | 1| 
 | 梦之光芒的电子梦 | monyer_mp | 技术人员发展四阶段 | https://mp.weixin.qq.com/s/-bAFEmstpDTzI6EfYwzffA | 1| 
 | ADLab | v_adlab | Linux内核AF_PACKET原生套接字漏洞（CVE-2020-14386）分析 | https://mp.weixin.qq.com/s/uv3BiznUCUy8do_ullnXUw | 3| 
 | 专注安管平台 | gh_48603b9bb05a | 美国爱因斯坦计划跟踪与解读（2020） | https://mp.weixin.qq.com/s/-Gvsw88lUPjBqcT5UpSIFg | 5| 
@@ -423,6 +424,7 @@
 | can1357 | 在 Windows 内核中运行 Lua Coroutines | https://github.com/can1357/NtLua | https://can.ac/ | Security researcher and reverse engineer; mostly interested in Windows kernel development and low-level programming. | None | Verilave Inc. | 0 | 0 | 0 | 0 | 0 | C,C++ | 388 | 125 | 1| 
 | cobbr | .NET 编写的一款 C&C 渗透框架 | https://github.com/cobbr/Covenant | https://cobbr.io |  | Dallas, TX | SpecterOps | 20 | 0 | 0 | 0 | 0 | C#,PowerShell | 1600 | 307 | 1| 
 | codeplutos | MySQL客户端jdbc反序列化漏洞payload | https://github.com/codeplutos/MySQL-JDBC-Deserialization-Payload | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java,C++ | 107 | 20 | 1| 
+| coreruleset | OWASP ModSecurity核心规则集（CRS）资源合集。 | https://github.com/coreruleset/coreruleset | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Shell,Dockerfile,Perl | 0 | 0 | 1| 
 | cpandya2909 | OpenSSH 8.3p1 CVE-2020-15778 eval 注入漏洞分析 | https://github.com/cpandya2909/CVE-2020-15778 | None |  | None | None | 4 | 0 | 0 | 0 | 0 | Python,Shell,HTML | 15 | 0 | 1| 
 | crowdsecurity | Crowdsec - 一款开源的、轻量级的异常行为检测 Agent，适用于容器和虚拟机环境 | https://github.com/crowdsecurity/crowdsec/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Lua,Shell,PHP | 153 | 14 | 1| 
 | dafthack | CloudPentestCheatsheets: 云渗透的一些参考命令 | https://github.com/dafthack/CloudPentestCheatsheets | http://www.twitter.com/dafthack |  | None | None | 30 | 0 | 0 | 0 | 0 | Python,Go,PowerShell | 1500 | 333 | 1| 
@@ -432,6 +434,7 @@
 | doyensec | Electron.js Hacking 相关的资料收集整理 | https://github.com/doyensec/awesome-electronjs-hacking | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,JavaScript,Java,C++ | 0 | 0 | 1| 
 | duffelhq | Elixir Ecto Paginator 刚刚修复了一个 RCE 漏洞 | https://github.com/duffelhq/paginator/security/advisories/GHSA-w98m-2xqg-9cvj | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Python,JavaScript,HTML,Elixir,Go,Erlang | 0 | 0 | 1| 
 | dwisiswant0 | CRLFuzz - 用于扫描 CRLF 漏洞的工具 | https://github.com/dwisiswant0/crlfuzz | https://github.com/kitabisa | 2>&1 | id_ID | @kitabisa | 227 | 0 | 0 | 0 | 0 | Go,Python,Shell,Ruby,HCL | 198 | 71 | 2| 
+| e-m-b-a | emba - 用于分析基于 Linux 的嵌入设备的固件的工具 | https://github.com/e-m-b-a/emba | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,OCaml,Roff | 27 | 5 | 1| 
 | eronnen | 用于解析 Procmon 内部文件格式（日志文件、配置文件）的 Python 库 | https://github.com/eronnen/procmon-parser | None |  | None | None | 0 | 0 | 0 | 0 | 0 | Python,JavaScript,C++ | 31 | 4 | 1| 
 | eugeneyan | 面向产品的机器学习/数据科学相关资源 | https://github.com/eugeneyan/applied-ml#anomaly-detection | http://eugeneyan.com | Applied Machine Learning | Seattle x Singapore | None | 39 | 0 | 0 | 0 | 0 | Python,Jupyter | 819 | 85 | 1| 
 | ffffffff0x | Dork-Admin: 盘点近年来的数据泄露、供应链污染事件 | https://github.com/ffffffff0x/Dork-Admin | None | None | None | None | 0 | 0 | 0 | 0 | 0 | HTML,Java | 0 | 0 | 1| 
@@ -451,6 +454,7 @@
 | kisec | Kibana CVE-2019-7609 RCE Exploit 代码 | https://github.com/kisec/CVE-2019-7609?fbclid=IwAR02m1XrcGDleYn8KzrjBRuIFNXzwJumhrYi2n7zSFeq9fvPk39FxPyAyWY | http://www.kisec.com | Korea Information Security Education Center | None | 한국정보보호교육센터 | 25 | 0 | 0 | 0 | 0 | Python,Go,Shell | 13 | 2 | 1| 
 | kov4l3nko | MEDUZA - 基于 Frida，针对越狱 iOS 系统编写的 SSL unpinning 工具 | https://github.com/kov4l3nko/MEDUZA | https://kov4l3nko.github.io/about/ | iOS/Android reverse engineer and security researcher | The country where cyberpunk won | None | 7 | 0 | 0 | 0 | 0 | Python,JavaScript,Java,HTML | 99 | 14 | 1| 
 | latentgod | OpenSA: 运维自动化平台 | https://github.com/latentgod/OpenSA | None |  | None | None | 38 | 0 | 0 | 0 | 0 | Python,PHP,JavaScript,Vim | 6 | 10 | 1| 
+| lgandx | LLMNR/NBT-NS/mDNS 协议攻击工具 Responder 更新 3.0.2.0 版本 | https://github.com/lgandx/Responder/releases/tag/v3.0.2.0 | https://g-laurent.blogspot.com |  | None | None | 5 | 0 | 0 | 0 | 0 | Python | 2300 | 382 | 1| 
 | lostindark | Driver Store Explorer - 从 Driver Store 中枚举、安装、删除 Driver Package 的工具 | https://github.com/lostindark/DriverStoreExplorer | None | None | None | None | 3 | 0 | 0 | 0 | 0 | C# | 2000 | 173 | 1| 
 | m-y-mo | 利用 libprotobuf-mutator Fuzz Android 设备的 NFC 模块 | https://github.com/m-y-mo/android_nfc_fuzzer | None |  | None | None | 20 | 0 | 0 | 0 | 0 | JavaScript,Java,HTML,C++ | 28 | 4 | 1| 
 | maubot | 适用于maubot的GitLab客户端和Webhook接收器。 | https://github.com/maubot/gitlab | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,HTML | 129 | 27 | 1| 
@@ -463,6 +467,7 @@
 | napocahv | Napoca - Bitdefender 开源的 Hypervisor，提供多个安全相关的功能 | https://github.com/napocahv/napoca | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 87 | 22 | 1| 
 | nautilus-fuzz | 基于 NDSS 2019 一篇 Paper 实现的一个基于 Grammar、Coverage Guided 的 Fuzzer | https://github.com/nautilus-fuzz/nautilus | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | nccgroup | NCC Group 为 Zerologon CVE-2020-1472 漏洞编写的 .NET 版本的 Exploit | https://github.com/nccgroup/nccfsas/tree/main/Tools/SharpZeroLogon | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,C#,Haskell,Shell,HCL,Elixir,Ruby,PowerShell,Rust | 2200 | 336 | 1| 
+| netzob | Netzob：用于协议逆向工程，建模与模糊测试项目脚本工具。 | https://github.com/netzob/netzob | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | nomi-sec | PoC auto collect from GitHub | https://github.com/nomi-sec/PoC-in-GitHub | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | nowsecure | NowSecure 开源的基于 Frida 的 API Trace 工具 | https://github.com/nowsecure/frida-trace | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,Smarty,Dockerfile,CSS | 541 | 112 | 1| 
 | osixia | 运行 OpenLDAP 的 Docker 镜像环境 | https://github.com/osixia/docker-openldap | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Dockerfile,JavaScript,Smarty,HTML,Go,PHP,Ruby,CSS | 2500 | 692 | 1| 
@@ -503,6 +508,7 @@
 | title | url| 
 | --- | ---| 
 | 1-click meterpreter exploit chain with BeEF and AV/AMSI bypass | http://medium.com/@bluedenkare/1-click-meterpreter-exploit-chain-with-beef-and-av-amsi-bypass-96b0eb61f1b6| 
+| 利用不安全的 JSONP 调用接管 Kolesa 站点的任意账户 | http://medium.com/bugbountywriteup/taking-down-the-sso-account-takeover-in-3-websites-of-kolesa-due-to-insecure-jsonp-call-facd79732e45| 
 | 高速以太网ASIC的内容摘要。 | http://medium.com/the-elegant-network/a-summary-of-high-speed-ethernet-asics-260637c50583| 
 | How I hacked redbus | http://medium.com/bugbountywriteup/how-i-hacked-redbus-an-online-bus-ticketing-application-24ef5bb083cd?source=rss----7b722bfd1b8d---4| 
 | Ubiquiti UniFi Cloud Key Gen2 Plus 设备调试接口搭建以及管理接口漏洞分析 | http://medium.com/tenable-techblog/exploring-the-ubiquiti-unifi-cloud-key-gen2-plus-f5b0f7ca688| 

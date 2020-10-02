@@ -1,9 +1,9 @@
-Python	1031
+Python	1032
 C	641
 JavaScript	640
 C++	521
 HTML	466
-Shell	443
+Shell	445
 Java	432
 Go	364
 C#	260
@@ -15,9 +15,9 @@ Objective-C	133
 TypeScript	132
 Rust	109
 Jupyter	94
-Perl	72
+Perl	73
 Swift	67
-Dockerfile	63
+Dockerfile	64
 Assembly	63
 Lua	58
 Makefile	57
@@ -30,9 +30,9 @@ Visual	33
 Vim	32
 Vue	31
 HCL	30
+OCaml	22
 Haskell	22
 Rich	21
-OCaml	21
 YARA	20
 CoffeeScript	19
 Elixir	18
@@ -43,9 +43,9 @@ ASP	14
 XSLT	14
 Smarty	13
 Verilog	13
+Roff	12
 Puppet	12
 Erlang	12
-Roff	11
 Bro	11
 Objective-C++	10
 MATLAB	10
