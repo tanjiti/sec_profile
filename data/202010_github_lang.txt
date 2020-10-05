@@ -1,6 +1,10 @@
+Python	3
+HTML	3
+Java	2
+JavaScript	2
 Shell	1
-Python	1
-JavaScript	1
-HTML	1
+Scala	1
+C++	1
+Vim	1
 Go	1
 PowerShell	1
