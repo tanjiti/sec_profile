@@ -1,9 +1,11 @@
-Python	3
+Python	5
+Java	3
 HTML	3
-Java	2
+Shell	2
 JavaScript	2
-Shell	1
+Roff	1
 Scala	1
+OCaml	1
 C++	1
 Vim	1
 Go	1
