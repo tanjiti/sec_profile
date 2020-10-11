@@ -14,6 +14,15 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| FreeBuf | freebuf | WAF代码剖析之初识openresty | https://mp.weixin.qq.com/s/H3uPZ0VRxbetRd_ZTVq6CQ | 4| 
+| Netlab 三六零 | Netlab_360 | HEH Botnet, 一个处于开发阶段的 IoT P2P Botnet | https://mp.weixin.qq.com/s/W_13W6rMQnBtZvPQwzDk2g | 1| 
+| PaperWeekly | paperweekly | 基于异质图神经网络的未知恶意程序检测 | https://mp.weixin.qq.com/s/OgEoKWiAsV_2obPlsYNUMg | 2| 
+| 极光无限 | AuroraInfinity | 使用fuzzilli对Javascript引擎QuickJS进行Fuzzing和漏洞分析 | https://mp.weixin.qq.com/s/KCbgZAaEWT236hN44MMEiw | 2| 
+| 湛卢工作室 | xuehao_studio | ZeroLogon(CVE-2020-1472) 分析与狩猎 | https://mp.weixin.qq.com/s/Z0aXYBJiJnIkcr12A_jeuQ | 8| 
+| 潇湘信安 | xxxasec | TP-RCE绕过阿里云防护Getshell | https://mp.weixin.qq.com/s/hbaJt21DGtRd4xQ4E04Q6A | 3| 
+| 中国保密协会科学技术分会 | gh_be4f21d557c0 | 浅谈网络攻击溯源技术（上篇） | https://mp.weixin.qq.com/s/g-aMi9cLOaikVQtpoSG1Zg | 4| 
+| ACTBIGDATA | ACTBIGDATA | ML CLUB , 面向图数据的异常检测综述概述 | https://mp.weixin.qq.com/s/WBxmr_hCOVUbSk15ZPWsjw | 1| 
+| 漏洞战争 | vulwar | 2020年IDA插件大赛：DynDataResolver夺冠 | https://mp.weixin.qq.com/s/NAE7OR-7Qq5977XHQ9DZTg | 4| 
 | 信息安全与通信保密杂志社 | cismag2013 | 从美国顶尖信息技术咨询公司博思艾伦报告看俄罗斯网络作战 | https://mp.weixin.qq.com/s/aq7mFjsz_sT8JqWFHRSwHQ | 2| 
 | 枫林晚安全 | galesec | [更新]渗透环境标准化 | https://mp.weixin.qq.com/s/A5E2VRYg7R1LrLrCpiGYAw | 1| 
 | 安全界 | feei_cn | 基于甲方视角的漏洞发现 | https://mp.weixin.qq.com/s/eBPp4eyaGs827POFTesqOA | 1| 
@@ -38,7 +47,6 @@
 | 电驭叛客 | gh_141164bf887e | API越权风险检测方式浅谈 | https://mp.weixin.qq.com/s/eS8NgNXaIYlUQ__Gb3y0kg | 2| 
 | 军事高科技在线 | jsgkjzx | 首发,美军红队评估体系建设现状及启示 | https://mp.weixin.qq.com/s/JZef789soLqK2SdskBV5WQ | 1| 
 | 绿盟科技研究通讯 | nsfocus_research | 探索MITRE Shield如何用于主动防御 | https://mp.weixin.qq.com/s/K95QEs2UaUyvoUsVvUGDXg | 10| 
-| 中国保密协会科学技术分会 | gh_be4f21d557c0 | 人工智能对抗的场景探究 | https://mp.weixin.qq.com/s/CwoX9n3gEA7u8NOFoNiuZA | 3| 
 | 安全情报星球 | littlecola__ | 2020上半年出行行业黑灰产研究报告 | https://mp.weixin.qq.com/s/sQJRZZonTF7bjCs1jd_H9A | 1| 
 | 锦行信息安全 | jeeseensec | 安全技术,利用OpenVpn配置文件反制的武器化探索 | https://mp.weixin.qq.com/s/hOHzmr6qCS2EwranvVEY1w | 8| 
 | Godeye | GodEyeTeam | 红队遇蜜罐 莫慌 | https://mp.weixin.qq.com/s/YBge1xjpjQjQ-NoK4kK6RQ | 1| 
@@ -55,7 +63,6 @@
 | 黑鸟 | blackorbird | 美国追踪与追回朝鲜黑客窃取的数字货币 | https://mp.weixin.qq.com/s/fSVfWFKsO9yYRrB48GyNyg | 1| 
 | 互联网安全内参 | anquanneican | 我国禁止限制出口技术目录更新，增加多项网络安全技术 | https://mp.weixin.qq.com/s/vdPakV3Y26ew2qxRiRVV4Q | 5| 
 | 雷神众测 | thorsrc | 跨域漏洞那些事儿（cors、jsonp) | https://mp.weixin.qq.com/s/cHOvEbYtYNfl2lQ8-N3qtA | 4| 
-| FreeBuf | freebuf | 数据安全怎么做：数据分类分级 | https://mp.weixin.qq.com/s/x6C51zvD3b-27t_o28tI5w | 3| 
 | 丁爸 情报分析师的工具箱 | dingba2016 | 【大数据分析】开源数据分析各省及全国暴力犯罪态势 | https://mp.weixin.qq.com/s/wY1QYyIRcKINuxofJIfvZQ | 2| 
 | 百度安全 | BaiduSD00 | 通达OA 11.5版本某处SQL注入漏洞复现分析 | https://mp.weixin.qq.com/s/XKZnsdY31N1_6gB9u8Yu8Q | 1| 
 | 404 Not F0und | gh_8cea5d3d902b | 入职一月的体感与思考 | https://mp.weixin.qq.com/s/O2CpObfiGOLa8CZbkP08Hg | 3| 
@@ -81,7 +88,6 @@
 | 中国信息安全 | chinainfosec | 院士谈 , 陈纯院士、冯登国院士论数据安全治理 | https://mp.weixin.qq.com/s/JWBAZfDPW1QIjrRdc5Yb3Q | 2| 
 | 唯品会安全应急响应中心 | VIP_SRC | 【技术分享】大规模数据安全分类系统架构实践 | https://mp.weixin.qq.com/s/mRmDEuDKJSJ_xrYyBMn4Dw | 1| 
 | 奇安信威胁情报中心 | gh_166784eae33e | 从补丁分析到在野利用：揭秘CVE-2020-1464 Windows文件签名验证绕过漏洞疑云 | https://mp.weixin.qq.com/s/CRdDJeen-Zqc0RCnMr4kzQ | 3| 
-| 湛卢工作室 | xuehao_studio | 冰蝎3.0简要分析 | https://mp.weixin.qq.com/s/4FeZwDlLdWOjgITdWH1ucQ | 7| 
 | 米斯特安全团队 | acmesec | 代码审计 , PHPCMS V9 前台RCE挖掘分析 | https://mp.weixin.qq.com/s/zLXJtekT9O3OuzwBLigMsA | 1| 
 | 谈数据 | learning-bigdata | 数据中台：基于标签体系的360°用户画像 | https://mp.weixin.qq.com/s/zIbhQjP9OTIPG9uRr64xtA | 1| 
 | Gorgias的一己之见 | GorgiasInsight | 固件提取系列(一)-固件载体 | https://mp.weixin.qq.com/s/xWUoAwilc6v_0BMZXpbZqA | 1| 
@@ -92,7 +98,6 @@
 | 图谱学苑 | gh_eb1997a4e380 | 神秘Palantir-平台介绍 | https://mp.weixin.qq.com/s/JgLkd4_J5s93FDuS31F-Cg | 1| 
 | 宽字节安全 | gh_2de2b9f7d076 | s2 059 初步分析 | https://mp.weixin.qq.com/s/smJCN_nktLJiZUrGk34KGw | 15| 
 | 时间之外沉浮事 | tasnrh | 调研报告 , 以色列网络安全调研报告 | https://mp.weixin.qq.com/s/uaMfeENw6DexSNNO-Cbl_Q | 6| 
-| 极光无限 | AuroraInfinity | 2020数据泄露调查报告 | https://mp.weixin.qq.com/s/agMbnkeE39LlgfcivfCexA | 1| 
 | 纸鱼AI | gh_5cb3929923da | 智源&计算所-互联网虚假新闻检测挑战赛（冠军）方案分享，代码已开源 | https://mp.weixin.qq.com/s/c8f0wDHigNQUlmxtFVG0aA | 1| 
 | 网信中国 | cacweixin | 国家互联网应急中心（CNCERT）发布《2019年中国互联网网络安全报告》 | https://mp.weixin.qq.com/s/0GU_cC9PGwWPKA1ZdxCF4g## | 2| 
 | 跨越鸿沟 | gh_0bae97403201 | 信息安全：研究体系(220页) | https://mp.weixin.qq.com/s/WeBXUyP3-gbzrRrHmPyY9w | 1| 
@@ -156,7 +161,6 @@
 | 漏洞推送 |  | 浏览器中隐蔽数据传输通道-DNS隧道 | https://mp.weixin.qq.com/s/u5HV7umrZABcgVpZ5pn6WQ | 1| 
 | lymmmx |  | 已知邮箱，求手机号码? | https://mp.weixin.qq.com/s/XvMruURNVWBkEwxvnPSW1g | 1| 
 | IMKP | TrustMatrix_KP | 用SASE加速零信任网络交付 | https://mp.weixin.qq.com/s/OjHgQGrJWfueu4AfxES9Hg | 1| 
-| 漏洞战争 | vulwar | 技术人的修炼之道：从业余到专业 | https://mp.weixin.qq.com/s/gBgFyy4MMrF5vn-8NGEVQw | 3| 
 | 电子商务电子支付国家工程实验室 | gjgcsys | 物联网场景下的白盒加密技术 | https://mp.weixin.qq.com/s/y8FNDtuJIIiYmZDLTxuL_g | 1| 
 | DJ的札记 | DJ_notes | 相信技术的力量 - RSAC 2020 (2) | https://mp.weixin.qq.com/s/C_qQtuisG0NVcwad4y0BqQ | 2| 
 | 安全喷子 |  | 2019年网络安全报告精选 | https://mp.weixin.qq.com/s/YCSuRXhiFYGaE-f3_C8l5A | 3| 
@@ -200,7 +204,6 @@
 | 安全乐观主义 |  | SDL已死，应用安全路在何方？ | https://mp.weixin.qq.com/s/tYRiKiI7bjgyzQguMA1mrw | 1| 
 | PeckShield | PeckShield | 硬核：解密美国司法部起诉中国OTC承兑商洗钱案件 | https://mp.weixin.qq.com/s/wWrm3gwT72Pc8Nxw-1OiSw | 1| 
 | 道法术 |  | 2020 IoT Threat Report (简单解读版) | https://mp.weixin.qq.com/s/AqUyHGLzlmrBSKfk-IxW6g | 2| 
-| PaperWeekly | paperweekly | 文本分类和序列标注“深度”实践 | https://mp.weixin.qq.com/s/afO58DDDZGb5w_EEG8oW6Q | 1| 
 | 哈工大SCIR | HIT_SCIR | 赛尔笔记 , 机器阅读理解简述 | https://mp.weixin.qq.com/s/Rm1uFunX9IRQaL_rUAZxfQ | 1| 
 | 工业菜园 | gycy-2019 | 菜农观点 , 陆宝华：关于智慧城市安全的讨论 | https://mp.weixin.qq.com/s/1-xpgttndYIXGkyspTIp1w | 1| 
 | 银河安全实验室 | Galaxy-Lab | 尝试利用Cython将Python项目转化为单个.so | https://mp.weixin.qq.com/s/YRKY7FgLFw-w4QIlrNd-FA | 1| 
@@ -598,6 +601,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 万字长文——信息安全职业生涯规划 | https://zhuanlan.zhihu.com/p/250905301| 
 | Webshell研究综述：检测与对抗技术的动态博弈进展 | https://zhuanlan.zhihu.com/p/259985000?utm_oi=771453567763492864| 
 | 南京大学《软件分析》课程 | https://zhuanlan.zhihu.com/p/136697432| 
 | DataCon2020 僵尸网络追踪第三题writeup | https://zhuanlan.zhihu.com/p/186948840| 

@@ -1,12 +1,14 @@
-Python	5
+Python	6
+Shell	3
 Java	3
 HTML	3
-Shell	2
 JavaScript	2
 Roff	1
 Scala	1
 OCaml	1
 C++	1
-Vim	1
+Perl	1
 Go	1
+Vim	1
+Dockerfile	1
 PowerShell	1
