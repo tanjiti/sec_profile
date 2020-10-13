@@ -14,14 +14,16 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
-| FreeBuf | freebuf | WAF代码剖析之初识openresty | https://mp.weixin.qq.com/s/H3uPZ0VRxbetRd_ZTVq6CQ | 4| 
+| 腾讯安全应急响应中心 | tsrc_team | 浅谈大规模红蓝对抗攻与防 | https://mp.weixin.qq.com/s/s0osF1NCb8M6O-uq-8idPA | 13| 
+| 安全牛 | aqniu-wx | 从RSA创新沙盒决赛产品ShiftLeft浅谈DevSecOps | https://mp.weixin.qq.com/s/WyxhX4tuMOSBCF1R9obLKg | 1| 
+| FreeBuf | freebuf | WAF代码剖析之初识openresty | https://mp.weixin.qq.com/s/H3uPZ0VRxbetRd_ZTVq6CQ | 5| 
 | Netlab 三六零 | Netlab_360 | HEH Botnet, 一个处于开发阶段的 IoT P2P Botnet | https://mp.weixin.qq.com/s/W_13W6rMQnBtZvPQwzDk2g | 1| 
 | PaperWeekly | paperweekly | 基于异质图神经网络的未知恶意程序检测 | https://mp.weixin.qq.com/s/OgEoKWiAsV_2obPlsYNUMg | 2| 
 | 极光无限 | AuroraInfinity | 使用fuzzilli对Javascript引擎QuickJS进行Fuzzing和漏洞分析 | https://mp.weixin.qq.com/s/KCbgZAaEWT236hN44MMEiw | 2| 
 | 湛卢工作室 | xuehao_studio | ZeroLogon(CVE-2020-1472) 分析与狩猎 | https://mp.weixin.qq.com/s/Z0aXYBJiJnIkcr12A_jeuQ | 8| 
-| 潇湘信安 | xxxasec | TP-RCE绕过阿里云防护Getshell | https://mp.weixin.qq.com/s/hbaJt21DGtRd4xQ4E04Q6A | 3| 
-| 中国保密协会科学技术分会 | gh_be4f21d557c0 | 浅谈网络攻击溯源技术（上篇） | https://mp.weixin.qq.com/s/g-aMi9cLOaikVQtpoSG1Zg | 4| 
+| 潇湘信安 | xxxasec | TP-RCE绕过阿里云防护Getshell | https://mp.weixin.qq.com/s/hbaJt21DGtRd4xQ4E04Q6A | 4| 
 | ACTBIGDATA | ACTBIGDATA | ML CLUB , 面向图数据的异常检测综述概述 | https://mp.weixin.qq.com/s/WBxmr_hCOVUbSk15ZPWsjw | 1| 
+| 中国保密协会科学技术分会 | gh_be4f21d557c0 | 浅谈网络攻击溯源技术（上篇） | https://mp.weixin.qq.com/s/g-aMi9cLOaikVQtpoSG1Zg | 4| 
 | 漏洞战争 | vulwar | 2020年IDA插件大赛：DynDataResolver夺冠 | https://mp.weixin.qq.com/s/NAE7OR-7Qq5977XHQ9DZTg | 4| 
 | 信息安全与通信保密杂志社 | cismag2013 | 从美国顶尖信息技术咨询公司博思艾伦报告看俄罗斯网络作战 | https://mp.weixin.qq.com/s/aq7mFjsz_sT8JqWFHRSwHQ | 2| 
 | 枫林晚安全 | galesec | [更新]渗透环境标准化 | https://mp.weixin.qq.com/s/A5E2VRYg7R1LrLrCpiGYAw | 1| 
@@ -36,7 +38,6 @@
 | 白泽安全实验室 | baizelab | 解密俄罗斯情报机构 | https://mp.weixin.qq.com/s/OPvkERr3Ox_OvnbimhZqnA | 1| 
 | 看雪学院 | ikanxue | 用麒麟框架深入分析实模式二进制文件 | https://mp.weixin.qq.com/s/cMVpMCdlvC-yVMP5COZjfw | 9| 
 | 网空闲话 | cyberspacechat | 曝光APT组织会产生怎样的威慑效果？ | https://mp.weixin.qq.com/s/OWISagB-qYrMJIVo713iVw | 2| 
-| 腾讯安全应急响应中心 | tsrc_team | RASP攻防 —— RASP安全应用与局限性浅析 | https://mp.weixin.qq.com/s/pjZDWG0YT9dxtNyO1g8ISw | 12| 
 | GobySec | gobysec | 技术分享 , 自定义PoC对接插件，漏扫更强大 | https://mp.weixin.qq.com/s/dQau-s0FoieXrMW3EAnSEQ | 8| 
 | 贝塔安全实验室 | BetaSecLab | 威胁事件告警分析技巧及处置（二） | https://mp.weixin.qq.com/s/2oRtUkJBUwtWEWf4bm2PrQ | 5| 
 | 逐日实验室 | gh_093e54310392 | CVE-2020-14364 QEMU逃逸 漏洞分析 (含完整EXP) | https://mp.weixin.qq.com/s/MQyczZXRfOsIQewNf7cfXw | 1| 
@@ -390,6 +391,7 @@
 | ChiChou | IDA-ObjCExplorer - 用于实现 Objective C classdump 的 IDA Pro 插件 | https://github.com/ChiChou/IDA-ObjCExplorer | https://github.com/alipay | 我要卖掉我的代码 浪迹天涯 | Beijing, China | @alipay | 68 | 0 | 0 | 0 | 0 | TypeScript,Objective-C,Vue,JavaScript,C | 489 | 109 | 1| 
 | DTolm | VkFFT-Vulkan快速傅立叶变换库 | https://github.com/DTolm/VkFFT | None |  | None | None | 2 | 0 | 0 | 0 | 0 | C,C++ | 213 | 6 | 1| 
 | DasSecurity-Labs | AoiAWD: 专为比赛设计，便携性好，低权限运行的EDR系统 | https://github.com/DasSecurity-Labs/AoiAWD | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,PHP,HTML | 0 | 0 | 1| 
+| DependencyTrack | DependencyTrack: 开源软件成分分析平台 | https://github.com/DependencyTrack/dependency-track | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Vue,Java,JavaScript,CSS | 595 | 192 | 1| 
 | Droidzzzio | 用于枚举子域wordlist，php文件路径，html文件路径和js文件路径的开源工具 | https://github.com/Droidzzzio/EnumerationList | https://twitter.com/ShMalav | Security Researcher Bug Bounty Hunter | INDIA | None | 44 | 0 | 0 | 0 | 0 | Python | 32 | 8 | 1| 
 | FSecureLABS | leonidas: Automated Attack Simulation in the Cloud | https://github.com/FSecureLABS/leonidas | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Python,JavaScript,C++,C#,PowerShell | 2200 | 586 | 2| 
 | FlameOfIgnis | PWDB - New generation of Password Mass-Analysis | https://github.com/FlameOfIgnis/Pwdb-Public | https://github.com/EpicGames | Junior year computer engineering student at METU/NCC. | Turkey | @EpicGames @NVIDIAGameWorks | 0 | 0 | 0 | 0 | 0 | Python,TypeScript,JavaScript,Cuda | 835 | 325 | 1| 
@@ -466,7 +468,7 @@
 | mdsecresearch | Post-Exploitation 工具如何躲避终端安全产品的检测 | https://github.com/mdsecresearch/Publications/blob/master/presentations/Offensive%20Development%20-%20Post-Exploitation%20Tradecraft%20in%20an%20EDR%20World%20-%20x33fcon%202020.pdf | https://www.mdsec.co.uk | Public research and tools from MDSec Consulting | UK | MDSec | 10 | 0 | 0 | 0 | 0 | Python,C,Objective-C,PowerShell,Arduino | 262 | 53 | 1| 
 | microsoft | 上周推送的微软的 OneFuzz 平台的源码公开了 | https://github.com/microsoft/onefuzz | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Jupyter,C#,JavaScript,C++,Python,Q#,F#,Java,CSS | 0 | 0 | 3| 
 | mitre-attack | 关于辅助实现自动化ATT＆CK归纳的python脚本 | https://github.com/mitre-attack/attack-scripts/tree/master/layers | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Zeek,Python,JavaScript,HTML,PowerShell | 0 | 0 | 2| 
-| momosecurity | bombus: 合规审计平台 | https://github.com/momosecurity/bombus | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,TypeScript,Vue,Java,PHP | 0 | 0 | 1| 
+| momosecurity | momo-code-sec-inspector-java: IDEA静态代码安全审计插件 | https://github.com/momosecurity/momo-code-sec-inspector-java | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,TypeScript,Vue,Java,PHP | 0 | 0 | 2| 
 | moonD4rk | HackBrowserData: 全平台运行的浏览器数据导出解密工具 | https://github.com/moonD4rk/HackBrowserData | None | There is no dark side in the moon. really, matter of fact its all dark. | Pyongyang | None | 5 | 0 | 0 | 0 | 0 | Go,Python | 8400 | 1200 | 1| 
 | nahamsec | 为 Bug Bounty Hunters 入门整理的资料 | https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters | http://nahamsec.com |  | None | None | 16 | 0 | 0 | 0 | 0 | Python,Shell | 3500 | 645 | 1| 
 | napocahv | Napoca - Bitdefender 开源的 Hypervisor，提供多个安全相关的功能 | https://github.com/napocahv/napoca | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 87 | 22 | 1| 
@@ -644,6 +646,8 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| Pickle反序列化源码分析与漏洞利用 | https://xz.aliyun.com/t/8342| 
+| 《透视APT》读书笔记 | https://xz.aliyun.com/t/8335| 
 | CVE-2020-15148 Yii2反序列化RCE POP链分析 | https://xz.aliyun.com/t/8307| 
 | 记一次偶遇Adminer | https://xz.aliyun.com/t/8309| 
 | bugbounty之我是如何侵入电信网络的 | https://xz.aliyun.com/t/8255| 

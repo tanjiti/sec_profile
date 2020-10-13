@@ -14,14 +14,16 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
-| FreeBuf | freebuf | WAF代码剖析之初识openresty | https://mp.weixin.qq.com/s/H3uPZ0VRxbetRd_ZTVq6CQ | 23| 
+| 腾讯安全应急响应中心 | tsrc_team | 浅谈大规模红蓝对抗攻与防 | https://mp.weixin.qq.com/s/s0osF1NCb8M6O-uq-8idPA | 17| 
+| 安全牛 | aqniu-wx | 从RSA创新沙盒决赛产品ShiftLeft浅谈DevSecOps | https://mp.weixin.qq.com/s/WyxhX4tuMOSBCF1R9obLKg | 41| 
+| FreeBuf | freebuf | WAF代码剖析之初识openresty | https://mp.weixin.qq.com/s/H3uPZ0VRxbetRd_ZTVq6CQ | 24| 
 | Netlab 三六零 | Netlab_360 | HEH Botnet, 一个处于开发阶段的 IoT P2P Botnet | https://mp.weixin.qq.com/s/W_13W6rMQnBtZvPQwzDk2g | 1| 
 | PaperWeekly | paperweekly | 基于异质图神经网络的未知恶意程序检测 | https://mp.weixin.qq.com/s/OgEoKWiAsV_2obPlsYNUMg | 12| 
 | 极光无限 | AuroraInfinity | 使用fuzzilli对Javascript引擎QuickJS进行Fuzzing和漏洞分析 | https://mp.weixin.qq.com/s/KCbgZAaEWT236hN44MMEiw | 2| 
 | 湛卢工作室 | xuehao_studio | ZeroLogon(CVE-2020-1472) 分析与狩猎 | https://mp.weixin.qq.com/s/Z0aXYBJiJnIkcr12A_jeuQ | 12| 
-| 潇湘信安 | xxxasec | TP-RCE绕过阿里云防护Getshell | https://mp.weixin.qq.com/s/hbaJt21DGtRd4xQ4E04Q6A | 3| 
-| 中国保密协会科学技术分会 | gh_be4f21d557c0 | 浅谈网络攻击溯源技术（上篇） | https://mp.weixin.qq.com/s/g-aMi9cLOaikVQtpoSG1Zg | 8| 
+| 潇湘信安 | xxxasec | TP-RCE绕过阿里云防护Getshell | https://mp.weixin.qq.com/s/hbaJt21DGtRd4xQ4E04Q6A | 4| 
 | ACTBIGDATA | ACTBIGDATA | ML CLUB , 面向图数据的异常检测综述概述 | https://mp.weixin.qq.com/s/WBxmr_hCOVUbSk15ZPWsjw | 1| 
+| 中国保密协会科学技术分会 | gh_be4f21d557c0 | 浅谈网络攻击溯源技术（上篇） | https://mp.weixin.qq.com/s/g-aMi9cLOaikVQtpoSG1Zg | 8| 
 | 漏洞战争 | vulwar | 2020年IDA插件大赛：DynDataResolver夺冠 | https://mp.weixin.qq.com/s/NAE7OR-7Qq5977XHQ9DZTg | 12| 
 | 信息安全与通信保密杂志社 | cismag2013 | 从美国顶尖信息技术咨询公司博思艾伦报告看俄罗斯网络作战 | https://mp.weixin.qq.com/s/aq7mFjsz_sT8JqWFHRSwHQ | 4| 
 | 枫林晚安全 | galesec | [更新]渗透环境标准化 | https://mp.weixin.qq.com/s/A5E2VRYg7R1LrLrCpiGYAw | 1| 
@@ -36,7 +38,6 @@
 | 白泽安全实验室 | baizelab | 解密俄罗斯情报机构 | https://mp.weixin.qq.com/s/OPvkERr3Ox_OvnbimhZqnA | 1| 
 | 看雪学院 | ikanxue | 用麒麟框架深入分析实模式二进制文件 | https://mp.weixin.qq.com/s/cMVpMCdlvC-yVMP5COZjfw | 45| 
 | 网空闲话 | cyberspacechat | 曝光APT组织会产生怎样的威慑效果？ | https://mp.weixin.qq.com/s/OWISagB-qYrMJIVo713iVw | 2| 
-| 腾讯安全应急响应中心 | tsrc_team | RASP攻防 —— RASP安全应用与局限性浅析 | https://mp.weixin.qq.com/s/pjZDWG0YT9dxtNyO1g8ISw | 16| 
 | GobySec | gobysec | 技术分享 , 自定义PoC对接插件，漏扫更强大 | https://mp.weixin.qq.com/s/dQau-s0FoieXrMW3EAnSEQ | 8| 
 | 贝塔安全实验室 | BetaSecLab | 威胁事件告警分析技巧及处置（二） | https://mp.weixin.qq.com/s/2oRtUkJBUwtWEWf4bm2PrQ | 14| 
 | 逐日实验室 | gh_093e54310392 | CVE-2020-14364 QEMU逃逸 漏洞分析 (含完整EXP) | https://mp.weixin.qq.com/s/MQyczZXRfOsIQewNf7cfXw | 1| 
@@ -634,7 +635,6 @@
 | 飓风网络安全 |  |  | http://mp.weixin.qq.com/s?__biz=MzI3NzMzNzE5Ng==&mid=2247483860&idx=1&sn=25f992833fadcd093c02def9996d2f03&scene=1&srcid=0908L7UIWDTpqESCSUaaEsLv#rd | 2| 
 | ElectronicComponent | ElectronicComponent |  | http://mp.weixin.qq.com/s?__biz=MzA5NjI5OTMxMg==&mid=2650786951&idx=1&sn=a409923af62fc050d9910c224715a362&scene=1&srcid=0903uR2S1RFwbr452ixu1XeH#rd | 1| 
 | 互联网实验室 | chinalabs1234 | 《G20国家互联网发展研究报告<总报告>》八大看点 | http://mp.weixin.qq.com/s?__biz=MzA3NjE0MjczMg==&mid=2654053801&idx=2&sn=7b3bd2ba1fe8bc76a433040d4ba5d1e7&scene=1&srcid=09010h7FCNNNiLXlznYzmh5V#rd | 1| 
-| 安全牛 | aqniu-wx | 目标黑客“集市”：今年的KCon都有哪些亮点和干货？ | http://mp.weixin.qq.com/s?__biz=MjM5Njc3NjM4MA==&mid=2651068475&idx=1&sn=9d97b8345ce47e8b6e5d60da87c6a91e&scene=1 | 40| 
 | 网优老兵 | WhatsComm |  | http://mp.weixin.qq.com/s?__biz=MzAwMTYzMDc3OQ==&mid=2650184342&idx=1&sn=5078805484a0decf4992ed055bfac95f&scene=1&srcid=0901GW6JTcRE6gZmzIlZlxHb#rd | 1| 
 | malwarebenchmark |  | 来自内部安全威胁的八个令人惊讶的事实 | http://mp.weixin.qq.com/s?__biz=MzI4ODA4MTcxMA==&mid=2649549740&idx=1&sn=023160781de5503aa7379c6ac44f6b85&scene=1 | 17| 
 | 腾讯安全联合实验室 | txaqlhsys | 腾讯移动安全实验室李伟：我所见证的移动安全历史 | http://mp.weixin.qq.com/s?__biz=MzI1NzM0MTMzMg==&mid=2247483796&idx=1&sn=e2b470256d1375ab32837e8d27a90196&scene=0#rd | 2| 
@@ -3599,6 +3599,7 @@
 | DTolm | VkFFT-Vulkan快速傅立叶变换库 | https://github.com/DTolm/VkFFT | None |  | None | None | 2 | 0 | 0 | 0 | 0 | C,C++ | 213 | 6 | 1| 
 | DarkSpiritz | DarkSpiritz - 针对 UNIX 系统的渗透测试框架: | https://github.com/DarkSpiritz/DarkSpiritz | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | DasSecurity-Labs | AoiAWD: 专为比赛设计，便携性好，低权限运行的EDR系统 | https://github.com/DasSecurity-Labs/AoiAWD | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,PHP,HTML | 0 | 0 | 1| 
+| DependencyTrack | DependencyTrack: 开源软件成分分析平台 | https://github.com/DependencyTrack/dependency-track | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Vue,Java,JavaScript,CSS | 595 | 192 | 1| 
 | DeveloppSoft | Eli.Decode - tool to decode obfuscated shellcodes using the Unicorn engine | https://github.com/DeveloppSoft/Eli.Decode | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | Droidzzzio | 用于枚举子域wordlist，php文件路径，html文件路径和js文件路径的开源工具 | https://github.com/Droidzzzio/EnumerationList | https://twitter.com/ShMalav | Security Researcher Bug Bounty Hunter | INDIA | None | 44 | 0 | 0 | 0 | 0 | Python | 32 | 8 | 1| 
 | Eitenne | Fully undetected backdoor with RSA Encrypted shell | https://github.com/Eitenne/TopHat | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 2| 
@@ -3825,7 +3826,7 @@
 | minisllc | Domain Hunter - 域名信誉对于攻击者从事钓鱼和 C&C 很重要,所以攻击者开始尝试注册一些过期的历史信誉良好的域名,用于躲避检测。Domain Hunter 这个工具用于识别这类域名: | https://github.com/minisllc/domainhunter | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | missDronio | MySQL盲注检测脚本 | https://github.com/missDronio/blindy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | mitre-attack | 关于辅助实现自动化ATT＆CK归纳的python脚本 | https://github.com/mitre-attack/attack-scripts/tree/master/layers | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Zeek,Python,JavaScript,HTML,PowerShell | 0 | 0 | 2| 
-| momosecurity | bombus: 合规审计平台 | https://github.com/momosecurity/bombus | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,TypeScript,Vue,Java,PHP | 0 | 0 | 1| 
+| momosecurity | momo-code-sec-inspector-java: IDEA静态代码安全审计插件 | https://github.com/momosecurity/momo-code-sec-inspector-java | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,TypeScript,Vue,Java,PHP | 0 | 0 | 2| 
 | moonD4rk | HackBrowserData: 全平台运行的浏览器数据导出解密工具 | https://github.com/moonD4rk/HackBrowserData | None | There is no dark side in the moon. really, matter of fact its all dark. | Pyongyang | None | 5 | 0 | 0 | 0 | 0 | Go,Python | 8400 | 1200 | 1| 
 | mromnia | FB Event Map API | https://github.com/mromnia/fb_event_map | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | nahamsec | 为 Bug Bounty Hunters 入门整理的资料 | https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters | http://nahamsec.com |  | None | None | 16 | 0 | 0 | 0 | 0 | Python,Shell | 3500 | 645 | 2| 
@@ -4218,6 +4219,8 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| Pickle反序列化源码分析与漏洞利用 | https://xz.aliyun.com/t/8342| 
+| 《透视APT》读书笔记 | https://xz.aliyun.com/t/8335| 
 | CVE-2020-15148 Yii2反序列化RCE POP链分析 | https://xz.aliyun.com/t/8307| 
 | 记一次偶遇Adminer | https://xz.aliyun.com/t/8309| 
 | bugbounty之我是如何侵入电信网络的 | https://xz.aliyun.com/t/8255| 
