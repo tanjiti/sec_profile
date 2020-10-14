@@ -2353,7 +2353,6 @@
 | blazeinfosec | bt2 - 使用 Python 编写的一款利用 Telegram 通信平台作为 C&C 服务的后门工具: | https://github.com/blazeinfosec/bt2 | https://www.blazeinfosec.com |  | South America and Europe | Blaze Information Security | 12 | 0 | 4 | 86 | 7 | Python,Ruby | 152 | 54 | 1| 
 | keepwn | Altman:the webshell tool | https://github.com/keepwn/Altman | None |  | None | None | 15 | 0 | 16 | 86 | 0 | C#,Shell,Vue,Go | 424 | 210 | 1| 
 | lachesis | scallion : GPU-based Onion Hash generator : | https://github.com/lachesis/scallion | https://alloscomp.com/ |  | San Francisco, CA | None | 54 | 0 | 35 | 86 | 0 | C#,Python,Shell | 0 | 0 | 1| 
-| patois | HRDevHelper - IDA HexRays 反汇编工具的插件，用于支持实时查看反编译后 C 代码的 ctree 信息 | https://github.com/patois/HRDevHelper | None | Yo, was github? | 127.0.0.1 | None | 32 | 0 | 233 | 86 | 48 | Python | 184 | 19 | 2| 
 | stuxuhai | HData: 一个支持多数据源的ETL数据导入/导出工具 | https://github.com/stuxuhai/HData | None |  | Hangzhou, Zhejiang, China | None | 0 | 0 | 222 | 86 | 2 |  | 0 | 0 | 1| 
 | Naetw | CTF-pwn-tips - CTF PWN 方向的技巧总结: | https://github.com/Naetw/CTF-pwn-tips | None |  | Hsinchu/Taiwan | None | 17 | 0 | 133 | 85 | 34 | Python,HTML,C++ | 0 | 0 | 1| 
 | Quitten | Autorize - BurpSuite 自动化认证测试插件: | https://github.com/Quitten/Autorize | None |  | None | None | 17 | 0 | 3 | 85 | 1 | Python,PHP | 242 | 88 | 1| 
@@ -3673,6 +3672,7 @@
 | UbbeLoL | uRAT: Opensource modular Remote Administration Tool | https://github.com/UbbeLoL/uRAT | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | UltimateLabs | Zoom - 一个自动化的快速 Wordpress 漏洞扫描器: | https://github.com/UltimateLabs/Zoom | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | VVard0g | ThreatHuner-Playbook: 从Windows事件和Sysmon日志分析取证 | https://github.com/VVard0g/ThreatHunter-Playbook | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| WebKit | WebKit 引入 JIT-Caging 特性实现细粒度的 PAC 保护机制 | https://github.com/WebKit/webkit/commit/2ffeeff4dfb86a74ae695dea8671fccc423559ad | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Makefile | 0 | 0 | 1| 
 | WhitewidowScanner | whitewidow - SQL 漏洞扫描器: | https://github.com/WhitewidowScanner/whitewidow | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Ruby | 0 | 0 | 1| 
 | WooYun | TangScan:唐朝Web漏洞扫描器框架 | https://github.com/WooYun/TangScan | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,HTML,JavaScript | 0 | 0 | 1| 
 | XekriCorp | LeakVM - 针对 Android 系统的安全研究与渗透测试框架: | https://github.com/XekriCorp/LeakVM | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -3822,7 +3822,7 @@
 | mdsecresearch | Post-Exploitation 工具如何躲避终端安全产品的检测 | https://github.com/mdsecresearch/Publications/blob/master/presentations/Offensive%20Development%20-%20Post-Exploitation%20Tradecraft%20in%20an%20EDR%20World%20-%20x33fcon%202020.pdf | https://www.mdsec.co.uk | Public research and tools from MDSec Consulting | UK | MDSec | 10 | 0 | 0 | 0 | 0 | Python,C,Objective-C,PowerShell,Arduino | 262 | 53 | 4| 
 | mertam | Check out Trishula - a spampot with a built-in machine learning phishing classifier | https://github.com/mertam/shiva | None |  | None | None | 5 | 0 | 3 | 0 | 0 | Python,PHP,Java | 10 | 3 | 1| 
 | micle-fm | Parat - Python 实现的远程控制工具: | https://github.com/micle-fm/Parat | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
-| microsoft | 上周推送的微软的 OneFuzz 平台的源码公开了 | https://github.com/microsoft/onefuzz | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Jupyter,C#,JavaScript,C++,Python,Q#,F#,Java,CSS | 0 | 0 | 6| 
+| microsoft | 微软 MSRC 对 CHERI ISA 内存保护机制的介绍 | https://github.com/microsoft/MSRC-Security-Research/blob/master/papers/2020/Security%20analysis%20of%20CHERI%20ISA.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Jupyter,Scala,C#,JavaScript,C++,Python,HTML,Go,Rust | 0 | 0 | 7| 
 | minisllc | Domain Hunter - 域名信誉对于攻击者从事钓鱼和 C&C 很重要,所以攻击者开始尝试注册一些过期的历史信誉良好的域名,用于躲避检测。Domain Hunter 这个工具用于识别这类域名: | https://github.com/minisllc/domainhunter | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | missDronio | MySQL盲注检测脚本 | https://github.com/missDronio/blindy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | mitre-attack | 关于辅助实现自动化ATT＆CK归纳的python脚本 | https://github.com/mitre-attack/attack-scripts/tree/master/layers | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Zeek,Python,JavaScript,HTML,PowerShell | 0 | 0 | 2| 
@@ -3847,6 +3847,7 @@
 | osixia | 运行 OpenLDAP 的 Docker 镜像环境 | https://github.com/osixia/docker-openldap | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Dockerfile,JavaScript,Smarty,HTML,Go,PHP,Ruby,CSS | 2500 | 692 | 1| 
 | palantir | Windows Exploit Guard 相关的资料整理 | https://github.com/palantir/exploitguard | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Groovy,TypeScript,Java,Scala,Python,JavaScript,Shell,Go,Rust | 0 | 0 | 1| 
 | pan-unit42 | Powershell自动反混淆工具 | https://github.com/pan-unit42/public_tools/tree/master/powershellprofiler | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,PHP,CSS | 0 | 0 | 1| 
+| patois | 在 IDA Hexrays AST 级别搜索代码特征的工具 | https://github.com/patois/HexraysToolbox | https://twitter.com/pat0is | Yo, was github? | 127.0.0.1 | None | 43 | 0 | 0 | 0 | 0 | Python | 357 | 65 | 3| 
 | pdbpp | pdb++ - Python debugger（pdb）的增强版 | https://github.com/pdbpp/pdbpp | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | pedrib | Netgear R6700v3 LAN RCE write-up and exploit | https://github.com/pedrib/PoC/blob/master/advisories/Pwn2Own/Tokyo_2019/tokyo_drift/tokyo_drift.md | https://www.agileinfosec.co.uk | 1337 | London, United Kingdom | Agile Information Security | 0 | 0 | 0 | 0 | 0 | HTML,Ruby,CSS,C++ | 260 | 79 | 1| 
 | pentesteracademy | patoolkit: a collection of traffic analysis plugins focused on security | https://github.com/pentesteracademy/patoolkit | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Lua,C,JavaScript,C++ | 0 | 0 | 1| 
@@ -3863,6 +3864,7 @@
 | rackerlabs | scantron - 分布式 Nmap/Masscan 网络扫描框架 | https://github.com/rackerlabs/scantron | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Groovy,TypeScript,Java,Python,JavaScript,Shell,HTML,HCL,Ruby,CSS | 0 | 0 | 1| 
 | radareorg | 二进制逆向分析工具 radare2 更新 4.5.0 版本 | https://github.com/radareorg/radare2/releases/tag/4.5.0 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,C#,JavaScript,Makefile,C++,TeX,Python,Rust,V,Go,PowerShell,CSS | 12800 | 2200 | 1| 
 | rapid7 | hackazon: A modern vulnerable web app | https://github.com/rapid7/hackazon | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Java,Python,TSQL,JavaScript,C#,Puppet,Ruby | 0 | 0 | 1| 
+| ray-cp | JSC JS 引擎 CVE-2020-9802 漏洞的 Exploit 代码 | https://github.com/ray-cp/browser_pwn/tree/master/jsc_pwn/cve-2020-9802 | https://ray-cp.github.io | DONT STOP UNTIL YOURE PROUD | None | None | 18 | 0 | 0 | 0 | 0 | Python,C,C++ | 263 | 73 | 1| 
 | rebellionil | tornado: All in one MITM tool | https://github.com/rebellionil/tornado | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | recodeking | recodeking/MalwareAnalysis: 恶意软件分析工具和资源列表 | https://github.com/recodeking/MalwareAnalysis | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | reverse-shell | routersploit : The Router Exploitation Framework : | https://github.com/reverse-shell/routersploit | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
@@ -3923,6 +3925,7 @@
 | x73x61x6ex6ax61x79 | DomainRecon - 集成多种工具于一身的自动化子域名收集工具: | https://github.com/x73x61x6ex6ax61x79/DomainRecon | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | xfee | vbg - 通过 X11 转发会话在 SSH 客户端上注入 Keystrokes 的工具: | https://github.com/xfee/vbg | http://github.com/xfee | Bio是什么，帅算不算(｀・ω・´) | 北京市朝阳区 | None | 6 | 0 | 44 | 0 | 6 | HTML,Vim | 1 | 0 | 1| 
 | xiangpasama | 京东SRC小课堂系列文章 | https://github.com/xiangpasama/JDSRC-Small-Classroom | None |  | None | None | 1 | 0 | 0 | 0 | 0 |  | 34 | 9 | 1| 
+| xiaoweiChen | 《Professional CMake - A Practical Guide》的中文翻译版资源。 | https://github.com/xiaoweiChen/Professional-CMake | None | Coder | China, Zhejiang, Hangzhou | None | 32 | 0 | 0 | 0 | 0 | JavaScript,C++ | 1300 | 447 | 1| 
 | xsleaks | 一些可能导致跨域信息泄漏的 DOM API 收集 | https://github.com/xsleaks/xsleaks/wiki/Browser-Side-Channels | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | yardenshafir | Windows 进程 Mitigation 策略枚举工具 | https://github.com/yardenshafir/MitigationFlagsCliTool | https://medium.com/@yardenshafir2 | A circus artist with a visual studio license | None | None | 8 | 0 | 0 | 0 | 0 | C,C++ | 76 | 34 | 2| 
 | zaproxy | zaproxy - OWASP Zed Attack Proxy (ZAP)，一个用于辅助 Web 应用安全性测试的工具 | https://github.com/zaproxy/zaproxy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java,C#,JavaScript,Python,HTML,Go,PHP,Rust | 6300 | 1200 | 1| 
@@ -3936,6 +3939,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Windows rundll32.exe 进程的深入分析 | http://medium.com/@nasbench/a-deep-dive-into-rundll32-exe-642344b41e90| 
 | 1-click meterpreter exploit chain with BeEF and AV/AMSI bypass | http://medium.com/@bluedenkare/1-click-meterpreter-exploit-chain-with-beef-and-av-amsi-bypass-96b0eb61f1b6| 
 | 利用不安全的 JSONP 调用接管 Kolesa 站点的任意账户 | http://medium.com/bugbountywriteup/taking-down-the-sso-account-takeover-in-3-websites-of-kolesa-due-to-insecure-jsonp-call-facd79732e45| 
 | 高速以太网ASIC的内容摘要。 | http://medium.com/the-elegant-network/a-summary-of-high-speed-ethernet-asics-260637c50583| 
