@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 丁爸 情报分析师的工具箱 | dingba2016 | 【开源工具】电报（telegram）开源情报工具及技巧 | https://mp.weixin.qq.com/s/9HLP4Gcgo0yx3WVB-odK9A | 15| 
 | 腾讯安全应急响应中心 | tsrc_team | 浅谈大规模红蓝对抗攻与防 | https://mp.weixin.qq.com/s/s0osF1NCb8M6O-uq-8idPA | 17| 
 | 安全牛 | aqniu-wx | 从RSA创新沙盒决赛产品ShiftLeft浅谈DevSecOps | https://mp.weixin.qq.com/s/WyxhX4tuMOSBCF1R9obLKg | 41| 
 | FreeBuf | freebuf | WAF代码剖析之初识openresty | https://mp.weixin.qq.com/s/H3uPZ0VRxbetRd_ZTVq6CQ | 24| 
@@ -64,7 +65,6 @@
 | 黑鸟 | blackorbird | 美国追踪与追回朝鲜黑客窃取的数字货币 | https://mp.weixin.qq.com/s/fSVfWFKsO9yYRrB48GyNyg | 4| 
 | 互联网安全内参 | anquanneican | 我国禁止限制出口技术目录更新，增加多项网络安全技术 | https://mp.weixin.qq.com/s/vdPakV3Y26ew2qxRiRVV4Q | 8| 
 | 雷神众测 | thorsrc | 跨域漏洞那些事儿（cors、jsonp) | https://mp.weixin.qq.com/s/cHOvEbYtYNfl2lQ8-N3qtA | 6| 
-| 丁爸 情报分析师的工具箱 | dingba2016 | 【大数据分析】开源数据分析各省及全国暴力犯罪态势 | https://mp.weixin.qq.com/s/wY1QYyIRcKINuxofJIfvZQ | 14| 
 | 百度安全 | BaiduSD00 | 通达OA 11.5版本某处SQL注入漏洞复现分析 | https://mp.weixin.qq.com/s/XKZnsdY31N1_6gB9u8Yu8Q | 1| 
 | 404 Not F0und | gh_8cea5d3d902b | 入职一月的体感与思考 | https://mp.weixin.qq.com/s/O2CpObfiGOLa8CZbkP08Hg | 4| 
 | AX科技圈 | axkjq2006 | 【M水堇】数字化平台建设总结--技术篇 | https://mp.weixin.qq.com/s/qmMRmEcSnGmD6Y4vg6zjow | 1| 
@@ -3715,6 +3715,7 @@
 | cSploit | cSploit - 一款开源的 Android 网络分析及渗透测试套件: | https://github.com/cSploit/android | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Java,JavaScript,C++,HTML,Go,Ruby | 0 | 0 | 1| 
 | can1357 | 在 Windows 内核中运行 Lua Coroutines | https://github.com/can1357/NtLua | https://can.ac/ | Security researcher and reverse engineer; mostly interested in Windows kernel development and low-level programming. | None | Verilave Inc. | 0 | 0 | 0 | 0 | 0 | C,C++ | 388 | 125 | 2| 
 | chamli | CyberCrowl is a python Web path scanner tool | https://github.com/chamli/CyberCrowl | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| checkra1n | 基于 checkra1n 越狱实现的 Pre-Boot 执行环境 | https://github.com/checkra1n/pongoOS | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Objective-C | 0 | 0 | 1| 
 | checkyfuntime | iMessagesBackdoor - 利用 iMessage 支持的 AppleScript Handler 可以设置后门,发一条消息就可以触发后门被激活:: | https://github.com/checkyfuntime/iMessagesBackdoor | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | chineseocr | darknet-ocr: darknet text detect and darknet cnn ocr | https://github.com/chineseocr/darknet-ocr | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,C++ | 0 | 0 | 1| 
 | chuhades | CMS-Exploit-Framework | https://github.com/chuhades/CMS-Exploit-Framework | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -3928,6 +3929,7 @@
 | xiaoweiChen | 《Professional CMake - A Practical Guide》的中文翻译版资源。 | https://github.com/xiaoweiChen/Professional-CMake | None | Coder | China, Zhejiang, Hangzhou | None | 32 | 0 | 0 | 0 | 0 | JavaScript,C++ | 1300 | 447 | 1| 
 | xsleaks | 一些可能导致跨域信息泄漏的 DOM API 收集 | https://github.com/xsleaks/xsleaks/wiki/Browser-Side-Channels | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | yardenshafir | Windows 进程 Mitigation 策略枚举工具 | https://github.com/yardenshafir/MitigationFlagsCliTool | https://medium.com/@yardenshafir2 | A circus artist with a visual studio license | None | None | 8 | 0 | 0 | 0 | 0 | C,C++ | 76 | 34 | 2| 
+| yifengyou | QEMU KVM学习笔记. | https://github.com/yifengyou/learn-kvm | https://github.com/yifengyou | 一天不科研，浑身都难受~ | ShenZhen | Tencent | 262 | 0 | 0 | 0 | 0 | C | 328 | 97 | 1| 
 | zaproxy | zaproxy - OWASP Zed Attack Proxy (ZAP)，一个用于辅助 Web 应用安全性测试的工具 | https://github.com/zaproxy/zaproxy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java,C#,JavaScript,Python,HTML,Go,PHP,Rust | 6300 | 1200 | 1| 
 | zeek | Zeek - 一款开源的网络协议分析工具 | https://github.com/zeek/zeek | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Bro,C,Zeek,CMake,Python,JavaScript,C++,Vim,Yacc,PHP,Dockerfile | 2800 | 728 | 1| 
 | zer0yu | Awesome CobaltStrike | https://github.com/zer0yu/Awesome-CobaltStrike | http://zeroyu.xyz/ | RedTeam@PolarisLab / CTFer@kn0ck | None | None | 40 | 0 | 0 | 0 | 0 | Python,HTML | 626 | 111 | 4| 
@@ -3939,6 +3941,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Running JXA Payloads from macOS Office Macros | http://medium.com/red-teaming-with-a-blue-team-mentaility/a-look-at-python-less-office-macros-for-macos-b1bf5c1488f1| 
 | Windows rundll32.exe 进程的深入分析 | http://medium.com/@nasbench/a-deep-dive-into-rundll32-exe-642344b41e90| 
 | 1-click meterpreter exploit chain with BeEF and AV/AMSI bypass | http://medium.com/@bluedenkare/1-click-meterpreter-exploit-chain-with-beef-and-av-amsi-bypass-96b0eb61f1b6| 
 | 利用不安全的 JSONP 调用接管 Kolesa 站点的任意账户 | http://medium.com/bugbountywriteup/taking-down-the-sso-account-takeover-in-3-websites-of-kolesa-due-to-insecure-jsonp-call-facd79732e45| 

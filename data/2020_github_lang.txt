@@ -14,8 +14,8 @@ Ruby	22
 CSS	22
 Rust	18
 Jupyter	12
+Objective-C	9
 Batchfile	9
-Objective-C	8
 Dockerfile	7
 Vue	6
 Swift	6

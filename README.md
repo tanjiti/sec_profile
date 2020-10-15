@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 丁爸 情报分析师的工具箱 | dingba2016 | 【开源工具】电报（telegram）开源情报工具及技巧 | https://mp.weixin.qq.com/s/9HLP4Gcgo0yx3WVB-odK9A | 1| 
 | 腾讯安全应急响应中心 | tsrc_team | 浅谈大规模红蓝对抗攻与防 | https://mp.weixin.qq.com/s/s0osF1NCb8M6O-uq-8idPA | 1| 
 | 安全牛 | aqniu-wx | 从RSA创新沙盒决赛产品ShiftLeft浅谈DevSecOps | https://mp.weixin.qq.com/s/WyxhX4tuMOSBCF1R9obLKg | 1| 
 | FreeBuf | freebuf | WAF代码剖析之初识openresty | https://mp.weixin.qq.com/s/H3uPZ0VRxbetRd_ZTVq6CQ | 2| 
@@ -39,6 +40,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | DependencyTrack | DependencyTrack: 开源软件成分分析平台 | https://github.com/DependencyTrack/dependency-track | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Vue,Java,JavaScript,CSS | 595 | 192 | 1| 
 | WebKit | WebKit 引入 JIT-Caging 特性实现细粒度的 PAC 保护机制 | https://github.com/WebKit/webkit/commit/2ffeeff4dfb86a74ae695dea8671fccc423559ad | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Makefile | 0 | 0 | 1| 
+| checkra1n | 基于 checkra1n 越狱实现的 Pre-Boot 执行环境 | https://github.com/checkra1n/pongoOS | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Objective-C | 0 | 0 | 1| 
 | coreruleset | OWASP ModSecurity核心规则集（CRS）资源合集。 | https://github.com/coreruleset/coreruleset | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Shell,Dockerfile,Perl | 0 | 0 | 1| 
 | e-m-b-a | emba - 用于分析基于 Linux 的嵌入设备的固件的工具 | https://github.com/e-m-b-a/emba | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,OCaml,Roff | 27 | 5 | 1| 
 | knownsec | ksubdomain: 无状态子域名爆破工具 | https://github.com/knownsec/ksubdomain | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,JavaScript | 0 | 0 | 1| 
@@ -53,11 +55,13 @@
 | tenable | 用于从 IDL 接口文件中提取 RPC 接口定义的 IDA 插件 | https://github.com/tenable/mIDA | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java,Scala,Python,C++,Vim,HTML | 311 | 116 | 1| 
 | theLSA | burpsuite插件：未授权访问漏洞检测 | https://github.com/theLSA/burp-unauth-checker | https://www.lsablog.com | Cyber Security , BugHunter , Penestration , Emergency Response , Programmer , CTF | China | None | 45 | 0 | 0 | 0 | 0 | Python,Java | 341 | 98 | 1| 
 | xiaoweiChen | 《Professional CMake - A Practical Guide》的中文翻译版资源。 | https://github.com/xiaoweiChen/Professional-CMake | None | Coder | China, Zhejiang, Hangzhou | None | 32 | 0 | 0 | 0 | 0 | JavaScript,C++ | 1300 | 447 | 1| 
+| yifengyou | QEMU KVM学习笔记. | https://github.com/yifengyou/learn-kvm | https://github.com/yifengyou | 一天不科研，浑身都难受~ | ShenZhen | Tencent | 262 | 0 | 0 | 0 | 0 | C | 328 | 97 | 1| 
 
 
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Running JXA Payloads from macOS Office Macros | http://medium.com/red-teaming-with-a-blue-team-mentaility/a-look-at-python-less-office-macros-for-macos-b1bf5c1488f1| 
 | Windows rundll32.exe 进程的深入分析 | http://medium.com/@nasbench/a-deep-dive-into-rundll32-exe-642344b41e90| 
 
 
