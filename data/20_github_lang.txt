@@ -1,4 +1,4 @@
-Python	1033
+Python	1034
 JavaScript	642
 C	641
 C++	522
@@ -10,7 +10,7 @@ C#	261
 Ruby	255
 PHP	231
 PowerShell	225
-CSS	218
+CSS	219
 TypeScript	133
 Objective-C	133
 Rust	110
@@ -19,16 +19,16 @@ Perl	73
 Swift	67
 Dockerfile	64
 Assembly	63
+Lua	59
 Makefile	58
-Lua	58
 TeX	55
 Batchfile	52
 Scala	44
 CMake	42
 Kotlin	36
 Visual	33
+Vim	33
 Vue	32
-Vim	32
 HCL	30
 OCaml	22
 Haskell	22
@@ -73,6 +73,7 @@ BitBake	4
 VHDL	4
 OpenEdge	4
 Cuda	4
+QML	4
 Eagle	4
 KiCad	4
 Common	4
@@ -81,7 +82,6 @@ Standard	3
 VBScript	3
 SQLPL	3
 Vala	3
-QML	3
 PostScript	3
 AGS	2
 Filebench	2
