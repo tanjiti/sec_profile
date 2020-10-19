@@ -14,6 +14,10 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| Datawhale | Datawhale | 机器学习中的特征工程总结！ | https://mp.weixin.qq.com/s/RgSejEbxwhnFUKR2POmqmg | 1| 
+| 看雪学院 | ikanxue | 最右sign-v2签名算法追踪及逆向还原 | https://mp.weixin.qq.com/s/5hmsU_CNGp7habqwSVVckg | 46| 
+| GobySec | gobysec | 插件分享 , 可以进行web爬虫的Xray插件（文章末尾有福利） | https://mp.weixin.qq.com/s?__biz=MzI4MzcwNTAzOQ==&mid=2247484111&idx=1&sn=24c82f5c21e16f9104fb300bd9177b06&chksm=eb87e96fdcf06079e202941de1e060db5de8b1e3d6a0641fb6c02a34dd9781dd877ed439342d&token=414317712&lang=zh_CN#rd | 10| 
+| 腾讯代码安全检查Xcheck | gh_177b81103e8d | Xcheck之Golang安全检查引擎 | https://mp.weixin.qq.com/s/VzjcXp3O8zc97aIppy4LUA | 1| 
 | 酒仙桥六号部队 | anfu-360 | 追击黑手画像 | https://mp.weixin.qq.com/s/rPu9HL5lvjcxfkUUUfEMFw | 5| 
 | 携程技术 | ctriptech | 干货 , IAST安全测试如何防止数据污染 | https://mp.weixin.qq.com/s/VeUscKDI0o1jL9uDYywgow | 2| 
 | 潇湘信安 | xxxasec | 星外虚拟主机提权实战案例 | https://mp.weixin.qq.com/s/Uen-ARbVY0trFvAXdeeW5g | 5| 
@@ -39,9 +43,7 @@
 | 信息时代的犯罪侦查 | infocrime | 电子数据审查判断案例（略影） | https://mp.weixin.qq.com/s/Qq46JSlgbA2TywIljyfx0g | 4| 
 | 奇安信集团 | qianxin-keji | 先收藏！入行必备的网络安全“黑话”词典 | https://mp.weixin.qq.com/s/L-cqkaTC3lsfyWmd9jbU3A | 2| 
 | 白泽安全实验室 | baizelab | 解密俄罗斯情报机构 | https://mp.weixin.qq.com/s/OPvkERr3Ox_OvnbimhZqnA | 1| 
-| 看雪学院 | ikanxue | 用麒麟框架深入分析实模式二进制文件 | https://mp.weixin.qq.com/s/cMVpMCdlvC-yVMP5COZjfw | 45| 
 | 网空闲话 | cyberspacechat | 曝光APT组织会产生怎样的威慑效果？ | https://mp.weixin.qq.com/s/OWISagB-qYrMJIVo713iVw | 2| 
-| GobySec | gobysec | 技术分享 , 自定义PoC对接插件，漏扫更强大 | https://mp.weixin.qq.com/s/dQau-s0FoieXrMW3EAnSEQ | 8| 
 | 贝塔安全实验室 | BetaSecLab | 威胁事件告警分析技巧及处置（二） | https://mp.weixin.qq.com/s/2oRtUkJBUwtWEWf4bm2PrQ | 14| 
 | 逐日实验室 | gh_093e54310392 | CVE-2020-14364 QEMU逃逸 漏洞分析 (含完整EXP) | https://mp.weixin.qq.com/s/MQyczZXRfOsIQewNf7cfXw | 1| 
 | 国家网络威胁情报共享开放平台 | CNTIC2017 | Linux系统中APT攻击总结 | https://mp.weixin.qq.com/s/HK3TlJQSrUtxoXl9HG6ORA | 4| 
@@ -3594,6 +3596,7 @@
 | CuanticoSec | I spent the weekend chasing details of the X.509 root CA cert used by the Pegasus spyware.My notes & results: | https://github.com/CuanticoSec/CuanticoSec.github.io/blob/master/posts/Pegasus_cert_research.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 | CSS | 0 | 0 | 1| 
 | CyberArkLabs | ACLight - 用于寻找域中高权限账户和隐藏管理员的 Powershell 脚本: | https://github.com/CyberArkLabs/ACLight | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | Cymmetria | Struts Apache 2 based honeypot &amp; detection module by @nirkrakowksi @lorgandon https://t.co/oJzc8qnvFo [CVE 2017-5638 | https://github.com/Cymmetria/StrutsHoneypot | None | None | None | None | 0 | 0 | 0 | 0 | 0 | ASP,Python,JavaScript,Shell,HTML,PHP | 0 | 0 | 1| 
+| D00MFist | 与 JXA 有关的用于实现 macOS 系统攻击常驻的方法收集 | https://github.com/D00MFist/PersistentJXA | https://medium.com/@D00MFist |  | None | None | 30 | 0 | 0 | 0 | 0 | Shell,Jupyter,JavaScript,Visual,Go,CSS | 109 | 10 | 1| 
 | DLACERT | ThreatHunting - 在 Windows 系统中寻找威胁的 PowerShell 脚本: | https://github.com/DLACERT/ThreatHunting | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | DTolm | VkFFT-Vulkan快速傅立叶变换库 | https://github.com/DTolm/VkFFT | None |  | None | None | 2 | 0 | 0 | 0 | 0 | C,C++ | 213 | 6 | 1| 
 | DarkSpiritz | DarkSpiritz - 针对 UNIX 系统的渗透测试框架: | https://github.com/DarkSpiritz/DarkSpiritz | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 

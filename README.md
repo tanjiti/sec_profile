@@ -14,6 +14,10 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| Datawhale | Datawhale | 机器学习中的特征工程总结！ | https://mp.weixin.qq.com/s/RgSejEbxwhnFUKR2POmqmg | 1| 
+| 看雪学院 | ikanxue | 最右sign-v2签名算法追踪及逆向还原 | https://mp.weixin.qq.com/s/5hmsU_CNGp7habqwSVVckg | 1| 
+| GobySec | gobysec | 插件分享 , 可以进行web爬虫的Xray插件（文章末尾有福利） | https://mp.weixin.qq.com/s?__biz=MzI4MzcwNTAzOQ==&mid=2247484111&idx=1&sn=24c82f5c21e16f9104fb300bd9177b06&chksm=eb87e96fdcf06079e202941de1e060db5de8b1e3d6a0641fb6c02a34dd9781dd877ed439342d&token=414317712&lang=zh_CN#rd | 2| 
+| 腾讯代码安全检查Xcheck | gh_177b81103e8d | Xcheck之Golang安全检查引擎 | https://mp.weixin.qq.com/s/VzjcXp3O8zc97aIppy4LUA | 1| 
 | 酒仙桥六号部队 | anfu-360 | 追击黑手画像 | https://mp.weixin.qq.com/s/rPu9HL5lvjcxfkUUUfEMFw | 1| 
 | 携程技术 | ctriptech | 干货 , IAST安全测试如何防止数据污染 | https://mp.weixin.qq.com/s/VeUscKDI0o1jL9uDYywgow | 1| 
 | 潇湘信安 | xxxasec | 星外虚拟主机提权实战案例 | https://mp.weixin.qq.com/s/Uen-ARbVY0trFvAXdeeW5g | 5| 
@@ -41,6 +45,7 @@
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | 0neb1n | PoC of CVE-2020-16947 (Microsoft Outlook RCE vulnerablility) | https://github.com/0neb1n/CVE-2020-16947 | None | I wanner be the pwner. | None | None | 11 | 0 | 0 | 0 | 0 | Lua,CSS | 23 | 14 | 1| 
+| D00MFist | 与 JXA 有关的用于实现 macOS 系统攻击常驻的方法收集 | https://github.com/D00MFist/PersistentJXA | https://medium.com/@D00MFist |  | None | None | 30 | 0 | 0 | 0 | 0 | Shell,Jupyter,JavaScript,Visual,Go,CSS | 109 | 10 | 1| 
 | DependencyTrack | DependencyTrack: 开源软件成分分析平台 | https://github.com/DependencyTrack/dependency-track | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Vue,Java,JavaScript,CSS | 595 | 192 | 1| 
 | NeatMonster | SlabDbg - 用于辅助调试 Linux 内核 SLUB 内存管理的脚本 | https://github.com/NeatMonster/slabdbg | https://neat.sh/ | well now I am not doing it https://twitter.com/NeatMonster_ | Toulouse, France | None | 17 | 0 | 0 | 0 | 0 | Python,Java | 558 | 81 | 1| 
 | WebKit | WebKit 引入 JIT-Caging 特性实现细粒度的 PAC 保护机制 | https://github.com/WebKit/webkit/commit/2ffeeff4dfb86a74ae695dea8671fccc423559ad | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Makefile | 0 | 0 | 1| 
