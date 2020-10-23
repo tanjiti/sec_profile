@@ -14,10 +14,11 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 电驭叛客 | gh_141164bf887e | 微服务架构下的越权风险 | https://mp.weixin.qq.com/s/0vK2q1EEaDR-zsQbFKi4PQ | 3| 
 | 360天枢智库 | gh_b3c796a6a82c | 揭秘全球网络安全防护最高水准：美国国防部信息网DODIN | https://mp.weixin.qq.com/s/m4wvjk2w5J2ZrWcJhHdQNw | 1| 
 | 专注安管平台 | gh_48603b9bb05a | Gartner2020年十大安全项目详解 | https://mp.weixin.qq.com/s/yuNalHkhcJJIPNE4QjG_aw | 8| 
 | 嘶吼专业版 | Pro4hou | 护网行动中的安全产品优化 | https://mp.weixin.qq.com/s/87N-Bvveqr9mQ4i1ibPCgg | 19| 
-| 潇湘信安 | xxxasec | MSSQL注入DNS带外问题解决 | https://mp.weixin.qq.com/s/xcX7XnIhFjj-r3OKvHH7DQ | 9| 
+| 潇湘信安 | xxxasec | MSSQL注入DNS带外问题解决 | https://mp.weixin.qq.com/s/xcX7XnIhFjj-r3OKvHH7DQ | 10| 
 | 锦行信息安全 | jeeseensec | 安全技术 , 域渗透之SPN | https://mp.weixin.qq.com/s/aQqvo4l7XZCfirsrJxJg4w | 9| 
 | Datawhale | Datawhale | 机器学习中的特征工程总结！ | https://mp.weixin.qq.com/s/RgSejEbxwhnFUKR2POmqmg | 1| 
 | 看雪学院 | ikanxue | 最右sign-v2签名算法追踪及逆向还原 | https://mp.weixin.qq.com/s/5hmsU_CNGp7habqwSVVckg | 46| 
@@ -53,7 +54,6 @@
 | 虎符智库 | TT_Thinktank | 从IOC的一些真相谈对其的评价标准 | https://mp.weixin.qq.com/s/95jB4DfaXau6NDotNSpwdA | 5| 
 | 数说安全 | SSAQ2016 | 《2020中国网络安全产业分析报告》发布 | https://mp.weixin.qq.com/s/0aikqrvyt-YODDy8D6qj5Q | 29| 
 | vivo千镜安全实验室 | gh_54ff3f871510 | 软件源码安全攻防之道（中） | https://mp.weixin.qq.com/s/8L7c6WOtF5nmcmPnuFubfA | 2| 
-| 电驭叛客 | gh_141164bf887e | API越权风险检测方式浅谈 | https://mp.weixin.qq.com/s/eS8NgNXaIYlUQ__Gb3y0kg | 2| 
 | 军事高科技在线 | jsgkjzx | 首发,美军红队评估体系建设现状及启示 | https://mp.weixin.qq.com/s/JZef789soLqK2SdskBV5WQ | 1| 
 | 绿盟科技研究通讯 | nsfocus_research | 探索MITRE Shield如何用于主动防御 | https://mp.weixin.qq.com/s/K95QEs2UaUyvoUsVvUGDXg | 33| 
 | 安全情报星球 | littlecola__ | 2020上半年出行行业黑灰产研究报告 | https://mp.weixin.qq.com/s/sQJRZZonTF7bjCs1jd_H9A | 1| 
@@ -3951,6 +3951,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| IBM QRadar Java 反序列化漏洞分析（CVE-2020–4280） | http://medium.com/@testbnull/cve-2020-4280-ibm-qradar-java-deserialization-anlysis-and-bypass-c3fe57207057| 
 | Hacking HTTP CORS from inside out | http://medium.com/bugbountywriteup/hacking-http-cors-from-inside-out-512cb125c528| 
 | Running JXA Payloads from macOS Office Macros | http://medium.com/red-teaming-with-a-blue-team-mentaility/a-look-at-python-less-office-macros-for-macos-b1bf5c1488f1| 
 | Windows rundll32.exe 进程的深入分析 | http://medium.com/@nasbench/a-deep-dive-into-rundll32-exe-642344b41e90| 
@@ -4237,6 +4238,7 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 一次简单的内网渗透靶场实验 | https://xz.aliyun.com/t/8394| 
 | 利用不安全的JSONP绕过SSO实现账户接管（分析+实践） | https://xz.aliyun.com/t/8350| 
 | Pickle反序列化源码分析与漏洞利用 | https://xz.aliyun.com/t/8342| 
 | 《透视APT》读书笔记 | https://xz.aliyun.com/t/8335| 
