@@ -14,6 +14,10 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| Fintech 安全之路 | gh_763c23cd3870 | 银行业安全运营平台的建设与思考 | https://mp.weixin.qq.com/s/UncU7f92p5Mlxt353Galrg | 1| 
+| 360威胁情报中心 | CoreSec360 | 北非狐（APT-C-44）攻击活动揭露 | https://mp.weixin.qq.com/s/gWOIRNPLVqX761LW8x-S5g | 2| 
+| vivo千镜安全实验室 | gh_54ff3f871510 | 软件源码安全攻防之道（下） | https://mp.weixin.qq.com/s/7HAVA0DgtxlCnD21aiq_mQ | 3| 
+| 网络安全观 | SecurityInsights | 美国网络安全 , 将风险评估结果映射到ATT&CK框架 | https://mp.weixin.qq.com/s/DZF4HwX4xuedpqoAFyhw5w | 8| 
 | Datawhale | Datawhale | 图解Transformer（完整版）！ | https://mp.weixin.qq.com/s/cJqhESxTMy5cfj0EXh9s4w | 2| 
 | nmask | nmask-article | bypass安全狗 sql注入与xss | https://mp.weixin.qq.com/s/LAzIrJXV3pUkSabkoQl1Ag | 3| 
 | 中国保密协会科学技术分会 | gh_be4f21d557c0 | 移动目标防御技术 | https://mp.weixin.qq.com/s/M9buBsx9rs3aB9Ckzzudpw | 5| 
@@ -22,7 +26,7 @@
 | 技术琐话 | TheoryPractice | 谷歌开源内部代码评审规范 | https://mp.weixin.qq.com/s/8vPXLxzD1iZ8E_emhruSHQ | 1| 
 | 百度安全 | BaiduSD00 | 用友GRP-U8任意SQL语句执行漏洞分析 | https://mp.weixin.qq.com/s/FliS-RfLAL0mtnODGyBh1Q | 2| 
 | 网安寻路人 | DataProtection101 | 中国个人信息保护立法 , 《个人信息保护法(草案)》与GDPR的比较 | https://mp.weixin.qq.com/s/4n3lYjzPRSbjIsPqzyDDmQ | 4| 
-| 潇湘信安 | xxxasec | 记一次因“打码”不严的渗透测试 | https://mp.weixin.qq.com/s/M_E1OkEdTiMAkawxprwI3A | 12| 
+| 潇湘信安 | xxxasec | Metasploit内网使用三种方法 | https://mp.weixin.qq.com/s/Pvq5D9I1FchnfR2uPUcPAw | 12| 
 | 电驭叛客 | gh_141164bf887e | 微服务架构下的越权风险 | https://mp.weixin.qq.com/s/0vK2q1EEaDR-zsQbFKi4PQ | 3| 
 | 360天枢智库 | gh_b3c796a6a82c | 揭秘全球网络安全防护最高水准：美国国防部信息网DODIN | https://mp.weixin.qq.com/s/m4wvjk2w5J2ZrWcJhHdQNw | 1| 
 | 专注安管平台 | gh_48603b9bb05a | Gartner2020年十大安全项目详解 | https://mp.weixin.qq.com/s/yuNalHkhcJJIPNE4QjG_aw | 6| 
@@ -59,7 +63,6 @@
 | 国家网络威胁情报共享开放平台 | CNTIC2017 | Linux系统中APT攻击总结 | https://mp.weixin.qq.com/s/HK3TlJQSrUtxoXl9HG6ORA | 4| 
 | 虎符智库 | TT_Thinktank | 从IOC的一些真相谈对其的评价标准 | https://mp.weixin.qq.com/s/95jB4DfaXau6NDotNSpwdA | 5| 
 | 数说安全 | SSAQ2016 | 《2020中国网络安全产业分析报告》发布 | https://mp.weixin.qq.com/s/0aikqrvyt-YODDy8D6qj5Q | 3| 
-| vivo千镜安全实验室 | gh_54ff3f871510 | 软件源码安全攻防之道（中） | https://mp.weixin.qq.com/s/8L7c6WOtF5nmcmPnuFubfA | 2| 
 | 军事高科技在线 | jsgkjzx | 首发,美军红队评估体系建设现状及启示 | https://mp.weixin.qq.com/s/JZef789soLqK2SdskBV5WQ | 1| 
 | 绿盟科技研究通讯 | nsfocus_research | 探索MITRE Shield如何用于主动防御 | https://mp.weixin.qq.com/s/K95QEs2UaUyvoUsVvUGDXg | 10| 
 | 安全情报星球 | littlecola__ | 2020上半年出行行业黑灰产研究报告 | https://mp.weixin.qq.com/s/sQJRZZonTF7bjCs1jd_H9A | 1| 
@@ -82,7 +85,6 @@
 | 安全学术圈 | secquan | SecureComm 2020 论文录用列表 | https://mp.weixin.qq.com/s/6RYi-oBdshpZUGARzLE-4A | 14| 
 | 安全客 | anquanbobao | 一例APT28（Fancybear）样本详细分析 | https://mp.weixin.qq.com/s/EBSCPTLt8cwIvptdcdpHJQ | 4| 
 | 情报分析师 | qingbaofenxishi | 恐怖组织使用加密货币的可能性与需求 | https://mp.weixin.qq.com/s/W0kZLbLcja1Sxh7QM8os_g | 2| 
-| 网络安全观 | SecurityInsights | 美国网络安全 , MITRE Shield 积极防御知识库 | https://mp.weixin.qq.com/s/cljI9AFVNEb4YkglzYayDg | 7| 
 | 这里是河马 | gh_d110440c4890 | ​GODNSLOG , 开源一个新鲜的DNSLOG | https://mp.weixin.qq.com/s/SVrEAgeqwtj6JZSfcspxXA | 7| 
 | 阿里安全响应中心 | alisrc | 污点传递理论在Webshell检测中的应用 -- PHP篇 | https://mp.weixin.qq.com/s/MFmSliCQaaVEQ0E66vN5Xg | 4| 
 | 零队 | gh_a3bc6828636a | MySQL蜜罐获取攻击者微信ID | https://mp.weixin.qq.com/s/m4I_YDn98K_A2yGAhv67Gg | 4| 
@@ -125,7 +127,6 @@
 | 全频带阻塞干扰 | RFJamming | 特勤局手册 , 领导人高级别会谈如何反窃密 | https://mp.weixin.qq.com/s/2ySVlrHHnMpunY9VX0l3Zg | 2| 
 | 安全威胁情报 | Threatbook | 朝鲜半岛APT组织Lazarus在MacOS平台上的攻击活动分析 | https://mp.weixin.qq.com/s/W0HuTvPI7CzM8queWNhXIQ | 2| 
 | 天御攻防实验室 | TianyuLab | 从APT29看网络威胁归因（上） | https://mp.weixin.qq.com/s/RFxS0xigAF-bMh59KR44cA | 1| 
-| 360威胁情报中心 | CoreSec360 | 被低估的混乱军团 -WellMess(APT-C-42)组织网络渗透和供应链攻击行动揭秘 | https://mp.weixin.qq.com/s/WmzryWNNJVV7mXABQ1Yu8g | 1| 
 | 小米安全中心 | misrc_team | 机器学习在小米帐号风控中的应用 | https://mp.weixin.qq.com/s/BplHuoyFQ0cAEBAi3OdZAA | 2| 
 | 网易易盾 | yidun_163yun | 企业等保2.0的那些事儿 | https://mp.weixin.qq.com/s/LNIWi26YWjmp2mh9jO23iA | 1| 
 | 虚拟框架 | gh_39c8fb2fc8b4 | 一个依赖库更新引发的血案：QQ 号被冻结技术分析 | https://mp.weixin.qq.com/s/ZaPQx8aWxUWqDMsjAEDgGA | 1| 
@@ -537,6 +538,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| How I got hacked, lost crypto and what it says about Apple’s security. Part 1 | http://ksaitor.medium.com/how-i-got-hacked-lost-crypto-and-what-it-says-about-apples-security-part-1-83c107beae9| 
 | IBM QRadar Java 反序列化漏洞分析（CVE-2020–4280） | http://medium.com/@testbnull/cve-2020-4280-ibm-qradar-java-deserialization-anlysis-and-bypass-c3fe57207057| 
 | AssaultCube 射击游戏 RCE 漏洞分析 | http://medium.com/@elongl/assaultcube-rce-technical-analysis-e12dedf680e5| 
 | Hacking HTTP CORS from inside out | http://medium.com/bugbountywriteup/hacking-http-cors-from-inside-out-512cb125c528| 

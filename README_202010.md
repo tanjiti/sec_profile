@@ -14,6 +14,10 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| Fintech 安全之路 | gh_763c23cd3870 | 银行业安全运营平台的建设与思考 | https://mp.weixin.qq.com/s/UncU7f92p5Mlxt353Galrg | 1| 
+| 360威胁情报中心 | CoreSec360 | 北非狐（APT-C-44）攻击活动揭露 | https://mp.weixin.qq.com/s/gWOIRNPLVqX761LW8x-S5g | 1| 
+| vivo千镜安全实验室 | gh_54ff3f871510 | 软件源码安全攻防之道（下） | https://mp.weixin.qq.com/s/7HAVA0DgtxlCnD21aiq_mQ | 1| 
+| 网络安全观 | SecurityInsights | 美国网络安全 , 将风险评估结果映射到ATT&CK框架 | https://mp.weixin.qq.com/s/DZF4HwX4xuedpqoAFyhw5w | 1| 
 | Datawhale | Datawhale | 图解Transformer（完整版）！ | https://mp.weixin.qq.com/s/cJqhESxTMy5cfj0EXh9s4w | 2| 
 | nmask | nmask-article | bypass安全狗 sql注入与xss | https://mp.weixin.qq.com/s/LAzIrJXV3pUkSabkoQl1Ag | 1| 
 | 中国保密协会科学技术分会 | gh_be4f21d557c0 | 移动目标防御技术 | https://mp.weixin.qq.com/s/M9buBsx9rs3aB9Ckzzudpw | 2| 
@@ -22,7 +26,7 @@
 | 技术琐话 | TheoryPractice | 谷歌开源内部代码评审规范 | https://mp.weixin.qq.com/s/8vPXLxzD1iZ8E_emhruSHQ | 1| 
 | 百度安全 | BaiduSD00 | 用友GRP-U8任意SQL语句执行漏洞分析 | https://mp.weixin.qq.com/s/FliS-RfLAL0mtnODGyBh1Q | 1| 
 | 网安寻路人 | DataProtection101 | 中国个人信息保护立法 , 《个人信息保护法(草案)》与GDPR的比较 | https://mp.weixin.qq.com/s/4n3lYjzPRSbjIsPqzyDDmQ | 1| 
-| 潇湘信安 | xxxasec | 记一次因“打码”不严的渗透测试 | https://mp.weixin.qq.com/s/M_E1OkEdTiMAkawxprwI3A | 12| 
+| 潇湘信安 | xxxasec | Metasploit内网使用三种方法 | https://mp.weixin.qq.com/s/Pvq5D9I1FchnfR2uPUcPAw | 12| 
 | 电驭叛客 | gh_141164bf887e | 微服务架构下的越权风险 | https://mp.weixin.qq.com/s/0vK2q1EEaDR-zsQbFKi4PQ | 1| 
 | 360天枢智库 | gh_b3c796a6a82c | 揭秘全球网络安全防护最高水准：美国国防部信息网DODIN | https://mp.weixin.qq.com/s/m4wvjk2w5J2ZrWcJhHdQNw | 1| 
 | 专注安管平台 | gh_48603b9bb05a | Gartner2020年十大安全项目详解 | https://mp.weixin.qq.com/s/yuNalHkhcJJIPNE4QjG_aw | 1| 
@@ -90,6 +94,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| How I got hacked, lost crypto and what it says about Apple’s security. Part 1 | http://ksaitor.medium.com/how-i-got-hacked-lost-crypto-and-what-it-says-about-apples-security-part-1-83c107beae9| 
 | IBM QRadar Java 反序列化漏洞分析（CVE-2020–4280） | http://medium.com/@testbnull/cve-2020-4280-ibm-qradar-java-deserialization-anlysis-and-bypass-c3fe57207057| 
 | AssaultCube 射击游戏 RCE 漏洞分析 | http://medium.com/@elongl/assaultcube-rce-technical-analysis-e12dedf680e5| 
 | Hacking HTTP CORS from inside out | http://medium.com/bugbountywriteup/hacking-http-cors-from-inside-out-512cb125c528| 
