@@ -1,9 +1,9 @@
-Python	157
+Python	158
+JavaScript	78
 C	78
-JavaScript	77
-HTML	68
+HTML	69
 C++	65
-Shell	60
+Shell	61
 Go	56
 Java	53
 C#	44
@@ -16,10 +16,10 @@ Rust	19
 Jupyter	13
 Objective-C	10
 Batchfile	9
+Vue	7
 Dockerfile	7
 Swift	7
 Lua	6
-Vue	6
 Makefile	5
 Perl	5
 Visual	5

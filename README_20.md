@@ -14,23 +14,26 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 代码卫士 | codesafe | PHP 绕过禁用函数漏洞的原理与利用分析 | https://mp.weixin.qq.com/s/_KCqGJnHaCBjCZ0VPo898Q | 2| 
+| 微步在线研究响应中心 | gh_c108d4d389bf | 隔离网络攻击 专题研究报告 | https://mp.weixin.qq.com/s/G4pIpHN2BLSvPWVYvN5VAQ | 1| 
+| 绿盟科技研究通讯 | nsfocus_research | ATT&CK驱动下安全运营数据分析的实用性挑战 | https://mp.weixin.qq.com/s/yNPE4rqpY2NoHug6ZuLS2Q | 34| 
 | Fintech 安全之路 | gh_763c23cd3870 | 银行业安全运营平台的建设与思考 | https://mp.weixin.qq.com/s/UncU7f92p5Mlxt353Galrg | 1| 
 | 360威胁情报中心 | CoreSec360 | 北非狐（APT-C-44）攻击活动揭露 | https://mp.weixin.qq.com/s/gWOIRNPLVqX761LW8x-S5g | 2| 
 | vivo千镜安全实验室 | gh_54ff3f871510 | 软件源码安全攻防之道（下） | https://mp.weixin.qq.com/s/7HAVA0DgtxlCnD21aiq_mQ | 3| 
 | 网络安全观 | SecurityInsights | 美国网络安全 , 将风险评估结果映射到ATT&CK框架 | https://mp.weixin.qq.com/s/DZF4HwX4xuedpqoAFyhw5w | 8| 
 | Datawhale | Datawhale | 图解Transformer（完整版）！ | https://mp.weixin.qq.com/s/cJqhESxTMy5cfj0EXh9s4w | 2| 
-| nmask | nmask-article | bypass安全狗 sql注入与xss | https://mp.weixin.qq.com/s/LAzIrJXV3pUkSabkoQl1Ag | 5| 
+| 潇湘信安 | xxxasec | Meterpreter中文乱码的解决 | https://mp.weixin.qq.com/s/9hyWeoo8Vn1i-whG9cjDKQ | 12| 
 | 中国保密协会科学技术分会 | gh_be4f21d557c0 | 移动目标防御技术 | https://mp.weixin.qq.com/s/M9buBsx9rs3aB9Ckzzudpw | 9| 
 | 国际电子战 | EW21cn | 欧洲反无人机系统的发展 | https://mp.weixin.qq.com/s/Hau6h-_HoMjFIzdi0YbLKA | 1| 
 | 安世加 | asjeiss | 技术干货 , “红蓝对抗”在金融业网络安全建设中的实践与思考 | https://mp.weixin.qq.com/s/AVOLACnMJIt0Sgx-hsWXYA | 1| 
 | 技术琐话 | TheoryPractice | 谷歌开源内部代码评审规范 | https://mp.weixin.qq.com/s/8vPXLxzD1iZ8E_emhruSHQ | 1| 
 | 百度安全 | BaiduSD00 | 用友GRP-U8任意SQL语句执行漏洞分析 | https://mp.weixin.qq.com/s/FliS-RfLAL0mtnODGyBh1Q | 2| 
 | 网安寻路人 | DataProtection101 | 中国个人信息保护立法 , 《个人信息保护法(草案)》与GDPR的比较 | https://mp.weixin.qq.com/s/4n3lYjzPRSbjIsPqzyDDmQ | 8| 
-| 潇湘信安 | xxxasec | Metasploit内网使用三种方法 | https://mp.weixin.qq.com/s/Pvq5D9I1FchnfR2uPUcPAw | 12| 
-| 电驭叛客 | gh_141164bf887e | 微服务架构下的越权风险 | https://mp.weixin.qq.com/s/0vK2q1EEaDR-zsQbFKi4PQ | 3| 
 | 360天枢智库 | gh_b3c796a6a82c | 揭秘全球网络安全防护最高水准：美国国防部信息网DODIN | https://mp.weixin.qq.com/s/m4wvjk2w5J2ZrWcJhHdQNw | 1| 
+| nmask | nmask-article | bypass安全狗 sql注入与xss | https://mp.weixin.qq.com/s/LAzIrJXV3pUkSabkoQl1Ag | 5| 
 | 专注安管平台 | gh_48603b9bb05a | Gartner2020年十大安全项目详解 | https://mp.weixin.qq.com/s/yuNalHkhcJJIPNE4QjG_aw | 8| 
-| 嘶吼专业版 | Pro4hou | 护网行动中的安全产品优化 | https://mp.weixin.qq.com/s/87N-Bvveqr9mQ4i1ibPCgg | 19| 
+| 嘶吼专业版 | Pro4hou | 对中东石油和天然气供应链产业的APT攻击 | https://mp.weixin.qq.com/s/EMvi2K9TiRhjNY_o2ZMU0g | 19| 
+| 电驭叛客 | gh_141164bf887e | 微服务架构下的越权风险 | https://mp.weixin.qq.com/s/0vK2q1EEaDR-zsQbFKi4PQ | 3| 
 | 锦行信息安全 | jeeseensec | 安全技术 , 域渗透之SPN | https://mp.weixin.qq.com/s/aQqvo4l7XZCfirsrJxJg4w | 9| 
 | 看雪学院 | ikanxue | 最右sign-v2签名算法追踪及逆向还原 | https://mp.weixin.qq.com/s/5hmsU_CNGp7habqwSVVckg | 46| 
 | GobySec | gobysec | 技术分享 , 自定义漏洞之EXP | https://mp.weixin.qq.com/s/J1JW66Uh_6Nc0x2YY_5V6Q | 10| 
@@ -64,7 +67,6 @@
 | 虎符智库 | TT_Thinktank | 从IOC的一些真相谈对其的评价标准 | https://mp.weixin.qq.com/s/95jB4DfaXau6NDotNSpwdA | 5| 
 | 数说安全 | SSAQ2016 | 《2020中国网络安全产业分析报告》发布 | https://mp.weixin.qq.com/s/0aikqrvyt-YODDy8D6qj5Q | 29| 
 | 军事高科技在线 | jsgkjzx | 首发,美军红队评估体系建设现状及启示 | https://mp.weixin.qq.com/s/JZef789soLqK2SdskBV5WQ | 1| 
-| 绿盟科技研究通讯 | nsfocus_research | 探索MITRE Shield如何用于主动防御 | https://mp.weixin.qq.com/s/K95QEs2UaUyvoUsVvUGDXg | 33| 
 | 安全情报星球 | littlecola__ | 2020上半年出行行业黑灰产研究报告 | https://mp.weixin.qq.com/s/sQJRZZonTF7bjCs1jd_H9A | 1| 
 | Godeye | GodEyeTeam | 红队遇蜜罐 莫慌 | https://mp.weixin.qq.com/s/YBge1xjpjQjQ-NoK4kK6RQ | 1| 
 | 信息安全老骆驼 | gh_00db3382eac9 | 一部手机失窃而揭露的窃取个人信息实现资金盗取的黑色产业链 | https://mp.weixin.qq.com/s/3UeZzw2LmPsM3cU7Rhmb8w | 1| 
@@ -371,7 +373,6 @@
 | 58安全应急响应中心 | wubasrc |  | https://mp.weixin.qq.com/s/2r61XB_Po4s3ihkLy46xbA | 1| 
 | 有些鸟 | youxieniao |  | https://mp.weixin.qq.com/s/Frge3EX8sEdOEuygHEJNkg | 1| 
 | Go中国 | golangchina |  | https://mp.weixin.qq.com/s/YbaM-_vs_D2BS1lV6Z-u4g | 1| 
-| 代码卫士 | codesafe |  | https://mp.weixin.qq.com/s/HFeOolCoyKz91sK1QdMg4w | 1| 
 | 奇安信安全监测与响应中心 | cert360 |  | https://mp.weixin.qq.com/s/dcbUeegM0BqErtDufOXfoQ | 5| 
 | 安全博物馆 | security_museum |  | https://mp.weixin.qq.com/s/F9oIpYvHB3FdAyjRSdUgRA | 1| 
 | 安全张之家 | zhang_informationSEC |  | https://mp.weixin.qq.com/s/kd4S6hCE_GPpPGbp1aD5Jw | 2| 
@@ -3070,7 +3071,6 @@
 | shadow-horse | CVE-2019-17571/Apache Log4j 1.2.X 存在反序列化远程代码执行漏洞 | https://github.com/shadow-horse/CVE-2019-17571 | None | Penetration, Vulnerability Research, SDL, STRIDE | None | None | 23 | 0 | 61 | 25 | 7 | Python,JavaScript,Java,HTML,CSS | 5 | 1 | 1| 
 | threat-hunting | Awesome Threat Detection and Hunting library | https://github.com/threat-hunting/awesome_Threat-Hunting | None |  | Sweden | None | 42 | 0 | 5 | 25 | 16 | JavaScript,Java | 228 | 46 | 1| 
 | vtky | Swizzler2 - 协助分析 MDM / EMS iOS 应用程序的工具: | https://github.com/vtky/Swizzler2 | None |  | None | None | 16 | 0 | 0 | 25 | 0 | Go,Objective-C,JavaScript | 0 | 0 | 1| 
-| withdk | BadUSB 2.0 USB-HID MiTM POC : | https://github.com/withdk/badusb2-mitm-poc | https://github.com/withdk | @withdk | London | None | 9 | 0 | 1 | 25 | 3 | Python,C,Ruby,PowerShell | 228 | 57 | 1| 
 | DanyL | 作者公开了iOS12.3中修复的漏洞CVE-2019-8637和CVE-2019-8593的exploits | https://github.com/DanyL/lockdownd_playground | None |  | None | None | 16 | 0 | 15 | 24 | 7 | Tcl,C,Shell,Ruby,Objective-C | 40 | 9 | 1| 
 | aim4r | VolDiff: Malware Memory Footprint Analysis based on Volatility | https://github.com/aim4r/VolDiff | https://twitter.com/aim4r |  | None | None | 1 | 0 | 58 | 24 | 0 | Python | 156 | 36 | 1| 
 | bayotop | sink-logger - BurpSuite 扩展,用于记录所有传入 Javascript 接收器的数据: | https://github.com/bayotop/sink-logger | https://twitter.com/_bayotop |  | None | None | 22 | 0 | 18 | 24 | 1 | Python,Go,Shell | 148 | 15 | 1| 
@@ -3855,6 +3855,7 @@
 | olacabs | JACKHAMMER - Security vulnerability assessment tool | https://github.com/olacabs/jackhammer | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,JavaScript,Java,HTML | 0 | 0 | 1| 
 | omarrx024 | Show HN: xOS a 32-bit OS for the PC https://github.com/omarrx024/xos ( | https://github.com/omarrx024/xos | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | open-source-society | 计算机学科自学视频教程系列 | https://github.com/open-source-society/computer-science | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| openitsystem | anonymousmail: 临时邮箱搭建解决方案 | https://github.com/openitsystem/anonymousmail | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Shell,JavaScript,HTML,Vue | 0 | 0 | 1| 
 | openworldoperations | 一种高级的网络钓鱼技术，可让攻击者设置有效的域和SSL证书，请注意防范 | https://github.com/openworldoperations/FISHY | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,HTML | 15 | 4 | 1| 
 | orppra | ropa - 基于 Ropper 实现的一个 GUI 版本的 ROP 链构造工具: | https://github.com/orppra/ropa | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,JavaScript | 0 | 0 | 1| 
 | osixia | 运行 OpenLDAP 的 Docker 镜像环境 | https://github.com/osixia/docker-openldap | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Dockerfile,JavaScript,Smarty,HTML,Go,PHP,Ruby,CSS | 2500 | 692 | 1| 
@@ -3936,6 +3937,7 @@
 | wafpassproject | wafpassproject: 各种WAF 测试与 Bypass用例 | https://github.com/wafpassproject/wafpass | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | weiboad | fiery: APM for PHP 基于PHP的分布式跟踪系统 | https://github.com/weiboad/fiery | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Objective-C,PHP,Java,C++ | 0 | 0 | 1| 
 | wireapp | 桌面版本 Wire 应用因使用 Electron 不当导致 RCE 漏洞 | https://github.com/wireapp/wire-desktop/security/advisories/GHSA-5gpx-9976-ggpm | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Groovy,C,TypeScript,Java,HTML,Scala,JavaScript,Shell,Objective-C,Haskell,Swift,HCL | 2900 | 516 | 1| 
+| withdk | Pulse Secure VPN 中间人劫持漏洞分析（CVE-2020-8241、CVE-2020-8239） | https://github.com/withdk/pulse-secure-vpn-mitm-research | None | Quant/technical enthusiast, infosec analyst, red teamer, researcher and search security award winner. @withdk on Twitter. | London | None | 17 | 0 | 0 | 0 | 0 | Python,C,PowerShell | 247 | 62 | 2| 
 | writeups | iOS 安全资料收集: | https://github.com/writeups/iOS | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell | 0 | 0 | 1| 
 | x0r1 | jellyfish:Linux based userland gpu rootkit | https://github.com/x0r1/jellyfish | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | x1tan | 用Rust编写的具有串行日志记录和调试支持的UEFI运行时驱动程序项目。 | https://github.com/x1tan/rust-uefi-runtime-driver | https://xitan.me | hypervisors, reverse engineering | None | None | 22 | 0 | 0 | 0 | 0 | Python,Rust | 29 | 6 | 1| 

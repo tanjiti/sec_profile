@@ -1,9 +1,9 @@
-Python	1037
-JavaScript	645
+Python	1038
+JavaScript	646
 C	643
 C++	524
-HTML	469
-Shell	448
+HTML	470
+Shell	449
 Java	434
 Go	366
 C#	262
@@ -27,8 +27,8 @@ Scala	45
 CMake	42
 Kotlin	36
 Visual	34
+Vue	33
 Vim	33
-Vue	32
 HCL	31
 Haskell	23
 OCaml	22
