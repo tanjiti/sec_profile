@@ -1,0 +1,14 @@
+Python	2
+JavaScript	2
+C++	2
+Shell	1
+Java	1
+HTML	1
+FreeMarker	1
+Scala	1
+Pascal	1
+Haskell	1
+Rust	1
+Go	1
+Ruby	1
+CSS	1
