@@ -981,7 +981,7 @@
 | modzero | interestingFileScanner - 用于扫描敏感文件泄露的 BurpSuite 插件: | https://github.com/modzero/interestingFileScanner | https://www.modzero.ch | Information Security | Winterthur, Switzerland | 11 | 1 | 0 | C,Java,Python,JavaScript,C++,Perl,C#,HTML | 0 | 0 | 1| 
 | nbs-system | NAXSI: 基于 Nginx的开源、高性能、低规则 WAF 防护模块 | https://github.com/nbs-system/naxsi | https://www.nbs-system.com |  | Paris, France | 11 | 2 | 0 | Python,C,PHP,JavaScript,CSS | 0 | 0 | 2| 
 | projecthorus | radiosonde_auto_rx - 开源的无线电探空仪(radiosonde)的追踪软件: | https://github.com/projecthorus/radiosonde_auto_rx | http://projecthorus.org/ | Project Horus is a Amateur Radio High Altitude Ballooning project based in Adelaide, Australia | http://projecthorus.org/ | 11 | 3 | 0 | C,Shell,Java,Python,JavaScript,C++,CSS | 0 | 0 | 1| 
-| shellphish | how2heap : A repository for learning various heap exploitation techniques : | https://github.com/shellphish/how2heap | http://shellphish.net |  | Santa Barbara | 11 | 10 | 0 | Python,C,CSS | 0 | 0 | 2| 
+| shellphish | Rex, our automatic exploitation engine from @ mike_pizza and salls, made @ MechanicalPhish #1 in exploitation! | https://github.com/shellphish/rex | http://shellphish.net |  | Santa Barbara | 11 | 10 | 0 | Python,C,CSS | 0 | 0 | 1| 
 | DigitalSecurity | btlejuice - 针对智能蓝牙设备的中间人攻击框架: | https://github.com/DigitalSecurity/btlejuice | http://www.digitalsecurity.fr |  | Paris, France | 10 | 2 | 0 | Python,C,JavaScript,C++ | 0 | 0 | 2| 
 | LesMargoulins | Reverse of a Mifair Laundry card system (github) | https://github.com/LesMargoulins/Margoulineur2000 | http://margoulin.org/ |  | http://margoulin.org/ | 10 | 3 | 0 | Shell,JavaScript,PHP,C++,Arduino | 0 | 0 | 1| 
 | OpenZeppelin | openzeppelin-solidity - 一个开源库,用于在 Ethereum 上编写安全的智能合约: | https://github.com/OpenZeppelin/openzeppelin-solidity | https://openzeppelin.org |  | https://openzeppelin.org | 10 | 4 | 0 | JavaScript,HTML | 0 | 0 | 1| 
@@ -2779,7 +2779,6 @@
 | chris408 | ct-exposer: discovers sub-domains by searching Certificate Transparency logs | https://github.com/chris408/ct-exposer | https://linkedin.com/in/chris408 | chris408.com | None | None | 9 | 0 | 6 | 44 | 6 | Python,C | 0 | 0 | 1| 
 | dekimir | RamFuzz - 基于深度神经网络、自动化生成单元测试用例的 C++ 代码 Fuzzing: | https://github.com/dekimir/RamFuzz/blob/master/sci/ramfuzz.md | https://github.com/google | @google 2014-16; Endeca 2004-14; ProfitLogic 2001-04; Sun Microsystems 1999-2001; @rice-university 1993-99 | Waterloo, Ontario | None | 7 | 0 | 3 | 44 | 4 | Jupyter,C++ | 269 | 36 | 1| 
 | gpoguy | GetVulnerableGPO - 用于寻找不安全的 GPO 组策略配置的 PowerShell 脚本: | https://github.com/gpoguy/GetVulnerableGPO | https://sdmsoftware.com | Darren is CTO & Founder of SDM Software, Inc and the community site gpoguy.com, focused on Group Policy, DSC and config mgmt for Windows. | San Francisco Bay Area | SDM Software, Inc. | 3 | 0 | 0 | 44 | 0 | C#,PowerShell | 131 | 18 | 1| 
-| marcinguy | Android 7月补丁修复的Media Framework漏洞CVE-2019-2107的PoC | https://github.com/marcinguy/CVE-2019-2107 | None |  | Berlin, Germany | None | 39 | 0 | 11 | 44 | 28 | Python,C | 52 | 13 | 1| 
 | mokhdzanifaeq | Pyflirt is a nice tool using Capstone & FLIRT signatures to detect lib functions in OllyDbg: https://github.com/mokhdzanifaeq/pyflirt | https://github.com/mokhdzanifaeq/pyflirt | None |  | None | None | 9 | 0 | 89 | 44 | 16 | Python,HTML,PHP,C++ | 80 | 13 | 1| 
 | nafod | nafod 公开了自己 VMware UHCI ZDI-19-421 漏洞的 Exploit | https://github.com/nafod/advent-vmpwn// | None |  | None | None | 15 | 0 | 117 | 44 | 24 | C,JavaScript | 5 | 1 | 1| 
 | numirias | 通过 VIM 对 modelines 特殊格式的支持可以实现任意代码执行。漏洞影响 Vim < 8.1.1365, Neovim < 0.3.6 版本 | https://github.com/numirias/security/blob/master/doc/2019-06-04_ace-vim-neovim.md | https://twitter.com/rawsec | Infosec fanboy | Europe | None | 18 | 0 | 40 | 44 | 5 | Python,JavaScript | 270 | 13 | 1| 
@@ -3834,6 +3833,7 @@
 | m-y-mo | 利用 libprotobuf-mutator Fuzz Android 设备的 NFC 模块 | https://github.com/m-y-mo/android_nfc_fuzzer | None |  | None | None | 20 | 0 | 0 | 0 | 0 | JavaScript,Java,HTML,C++ | 28 | 4 | 1| 
 | m3liot | filewatcher - macOS 系统一款监控进程资源访问情况的工具,比如可以监控指定进程的文件访问操作: | https://github.com/m3liot/filewatcher | None |  | None | None | 1 | 0 | 0 | 0 | 0 | HTML | 0 | 0 | 1| 
 | manwhoami | MMeTokenDecrypt：Decrypts and extracts iCloud and MMe authorization tokens | https://github.com/manwhoami/MMeTokenDecrypt | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 2| 
+| marcinguy | Chrome 浏览器 Freetype 字体处理溢出漏洞 PoC（CVE-2020-15999） | https://github.com/marcinguy/CVE-2020-15999// | https://twitter.com/marcinguy | IT | Berlin, Germany | None | 58 | 0 | 0 | 0 | 0 | Python,C | 310 | 97 | 2| 
 | matcmay | geoip-attack-map:Cyber Security GeoIP Attack Map Visualization | https://github.com/matcmay/geoip-attack-map | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | maubot | 适用于maubot的GitLab客户端和Webhook接收器。 | https://github.com/maubot/gitlab | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,HTML | 129 | 27 | 1| 
 | maxlabelle | WebMalwareScanner - A simple malware scanner | https://github.com/maxlabelle/WebMalwareScanner | None |  | None | None | 6 | 0 | 0 | 0 | 0 | Python,MQL4,JavaScript,PHP | 7 | 5 | 1| 
@@ -3908,6 +3908,7 @@
 | seecode-audit | seecode-audit: SeeCode Audit 代码审计管理系统 | https://github.com/seecode-audit/seecode-audit | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | seemoo-lab | Frankenstein - 用于为无线设备固件提供模拟执行和 Fuzz 环境的框架 | https://github.com/seemoo-lab/frankenstein/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Jupyter,Python,JavaScript,TeX,Objective-C,HTML,MATLAB,Java | 4100 | 296 | 2| 
 | session-replay-tools | tcpcopy - TCP 流重放工具: | https://github.com/session-replay-tools/tcpcopy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 0 | 0 | 1| 
+| shellphish | Shellphish 最近更新了 how2heap Repo，包含最新的各类堆利用技巧 | https://github.com/shellphish/how2heap | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,CSS | 4100 | 855 | 1| 
 | showcases | Github开源安全项目 | https://github.com/showcases/security?s=stars | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 3| 
 | sibears | 用于修改 IDA HexRays AST 的工具 | https://github.com/sibears/HRAST | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,JavaScript,HTML,CSS | 0 | 0 | 1| 
 | skydive-project | Skydive可用以对网络拓扑及协议进行实时分析，以图像的方式清晰展现。 | https://github.com/skydive-project/skydive | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,HTML,JavaScript,Puppet | 0 | 0 | 1| 
@@ -3967,6 +3968,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| A Deep Dive Into Windows Scheduled Tasks and The Processes Running Them | http://nasbench.medium.com/a-deep-dive-into-windows-scheduled-tasks-and-the-processes-running-them-218d1eed4cce| 
 | How I got hacked, lost crypto and what it says about Apple’s security. Part 1 | http://ksaitor.medium.com/how-i-got-hacked-lost-crypto-and-what-it-says-about-apples-security-part-1-83c107beae9| 
 | IBM QRadar Java 反序列化漏洞分析（CVE-2020–4280） | http://medium.com/@testbnull/cve-2020-4280-ibm-qradar-java-deserialization-anlysis-and-bypass-c3fe57207057| 
 | AssaultCube 射击游戏 RCE 漏洞分析 | http://medium.com/@elongl/assaultcube-rce-technical-analysis-e12dedf680e5| 

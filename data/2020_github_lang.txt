@@ -1,6 +1,6 @@
-Python	161
+Python	162
 JavaScript	81
-C	80
+C	81
 HTML	71
 C++	69
 Shell	63
@@ -8,7 +8,7 @@ Go	58
 Java	55
 C#	45
 PowerShell	30
-CSS	27
+CSS	28
 PHP	25
 TypeScript	24
 Ruby	24
