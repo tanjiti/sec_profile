@@ -3750,6 +3750,7 @@
 | darvincisec | 无需 root 和重打包，将 App 安装到克隆 App 内实现动态分析 | https://github.com/darvincisec/VirtualDynamicAnalysis | https://darvincitech.wordpress.com | Security Researcher | Singapore | None | 10 | 0 | 0 | 0 | 0 | C,Java,Smali | 93 | 25 | 1| 
 | defenxor | dsiem: Security event correlation engine for ELK stack | https://github.com/defenxor/dsiem?from=timeline | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,HTML | 0 | 0 | 1| 
 | detuxsandbox | detux : Analyze linux malwares on x86, x86-64,ARM,MIPS ,MIPSEL cpu architecture - The Multiplatform Linux Sandbox : | https://github.com/detuxsandbox/detux | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
+| didi | Sharingan是一个基于go语言编写的流量录制回放工具，合项目重构、回归测试等。 | https://github.com/didi/sharingan | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Vue,Java,Python,Kotlin,JavaScript,C++,TypeScript,Objective-C,HTML,Go,CSS | 15800 | 2200 | 1| 
 | dirkjanm | Zerologon - Netlogon 被发现高危漏洞，成功利用可以攻破 Windows 域控服务器。PoC 代码已被公开 | https://github.com/dirkjanm/CVE-2020-1472 | http://dirkjanm.io |  | The Netherlands | None | 24 | 0 | 0 | 0 | 0 | Python | 804 | 144 | 2| 
 | dn5 | Cyber-attack on cars over CAN protocol : http://dn5.ljuska.org/cyber-attacks-on-vehicles-2.html ,vircar : | https://github.com/dn5/vircar | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | docileninja | dress : add symbols back into a stripped ELF binary (~strip) : | https://github.com/docileninja/dress | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -3846,6 +3847,7 @@
 | mitre-attack | 关于辅助实现自动化ATT＆CK归纳的python脚本 | https://github.com/mitre-attack/attack-scripts/tree/master/layers | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Zeek,Python,JavaScript,HTML,PowerShell | 0 | 0 | 2| 
 | momosecurity | momo-code-sec-inspector-java: IDEA静态代码安全审计插件 | https://github.com/momosecurity/momo-code-sec-inspector-java | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,TypeScript,Vue,Java,PHP | 0 | 0 | 2| 
 | moonD4rk | HackBrowserData: 全平台运行的浏览器数据导出解密工具 | https://github.com/moonD4rk/HackBrowserData | None | There is no dark side in the moon. really, matter of fact its all dark. | Pyongyang | None | 5 | 0 | 0 | 0 | 0 | Go,Python | 8400 | 1200 | 1| 
+| mq1n | 一个可以借助有物理内存读写权限的驱动实现调用任意内核函数的库。 | https://github.com/mq1n/VDM// | None |  | Turkey | None | 1200 | 0 | 0 | 0 | 0 | C++ | 178 | 100 | 1| 
 | mromnia | FB Event Map API | https://github.com/mromnia/fb_event_map | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | nahamsec | 为 Bug Bounty Hunters 入门整理的资料 | https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters | http://nahamsec.com |  | None | None | 16 | 0 | 0 | 0 | 0 | Python,Shell | 3500 | 645 | 2| 
 | napocahv | Napoca - Bitdefender 开源的 Hypervisor，提供多个安全相关的功能 | https://github.com/napocahv/napoca | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 87 | 22 | 1| 
