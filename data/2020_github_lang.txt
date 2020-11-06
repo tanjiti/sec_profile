@@ -1,12 +1,12 @@
-Python	163
+Python	165
+C	83
 JavaScript	82
-C	82
 HTML	72
-C++	70
-Shell	63
-Go	59
-Java	56
-C#	45
+C++	71
+Shell	64
+Go	60
+Java	58
+C#	46
 PowerShell	30
 CSS	29
 TypeScript	25
@@ -43,6 +43,7 @@ Groovy	2
 Elixir	2
 Smali	2
 Pascal	2
+ASP	2
 LLVM	2
 WebAssembly	1
 VBA	1
@@ -72,4 +73,3 @@ Puppet	1
 PLpgSQL	1
 F#	1
 ActionScript	1
-ASP	1
