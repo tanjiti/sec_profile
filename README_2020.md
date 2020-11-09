@@ -14,15 +14,18 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 锦行信息安全 | jeeseensec | 技术文章 , windows横向渗透中的令牌完整性限制 | https://mp.weixin.qq.com/s/idzRDjcQDPdiAd4dnJQs0w | 10| 
+| 安全学术圈 | secquan | 安全学术研究趋势分析 | https://mp.weixin.qq.com/s/UKBhg_tnYIPI6uzuPYn59A | 16| 
+| 腾讯科恩实验室 | KeenSecurityLab | 科恩实验室最新NeurIPS-2020论文解读：基于跨模态检索的二进制代码-源代码匹配 | https://mp.weixin.qq.com/s/fvnvh25VaHgproPvVT6LDg | 2| 
+| nmask | nmask-article | 黑客诱捕器—蜜罐的部署与使用 | https://mp.weixin.qq.com/s/TPb3E1fRszdEwp6Yyn8mQw | 4| 
 | 嘶吼专业版 | Pro4hou | 安全运营之攻击溯源 | https://mp.weixin.qq.com/s/9Yx4gK5-7CbP9Aqy-twpVw | 4| 
 | 梦之光芒的电子梦 | monyer_mp | 人生是一个回环 —— 我的十年安全工作总结 | https://mp.weixin.qq.com/s/OiBtKzKaWuzVvBGO_rwC5A | 2| 
 | 绿盟科技研究通讯 | nsfocus_research | Serverless安全研究 — Serverless安全风险 | https://mp.weixin.qq.com/s/rbS0_42RBiFu8UFFQW4kew | 12| 
 | 赛博星人 | cyberspace_666 | 红蓝对抗之内网中psexec的行为捕获 | https://mp.weixin.qq.com/s/G7Gdb_gXNn5FAR78Edps-w | 1| 
 | Coggle数据科学 | gh_8df601c10cb4 | 蚂蚁金服-支付风险识别亚军方案 | https://mp.weixin.qq.com/s/5NNTeLvqWl0_SQaPl-Cvug | 2| 
-| 潇湘信安 | xxxasec | 站库分离常规渗透思路总结 | https://mp.weixin.qq.com/s/nLSCP6xOyYnsdULO7h9cgA | 15| 
+| 潇湘信安 | xxxasec | 站库分离常规渗透思路总结 | https://mp.weixin.qq.com/s/nLSCP6xOyYnsdULO7h9cgA | 17| 
 | 网络安全观 | SecurityInsights | CrowdStrike , 无文件攻击白皮书 | https://mp.weixin.qq.com/s/0jMTOKsvV9q7_0Gz04veHg | 9| 
 | 腾讯代码安全检查Xcheck | gh_177b81103e8d | Xcheck之Java安全检查引擎 | https://mp.weixin.qq.com/s/rb1BfcZeCTr2PIiypXqVjw | 2| 
-| 安全学术圈 | secquan | Polisis: Automated Analysis and Presentation of Privacy Policies | https://mp.weixin.qq.com/s/N1uC-faM-FQ_uahvmEJ1Xg | 15| 
 | 深信服千里目安全实验室 | Further_eye | 【Sniper工具箱】ThinkPHP漏洞分析与利用 | https://mp.weixin.qq.com/s/OWi3G4ETrV-yBsnWgdU_Ew | 1| 
 | 360威胁情报中心 | CoreSec360 | 北非狐（APT-C-44）攻击活动揭露 | https://mp.weixin.qq.com/s/gWOIRNPLVqX761LW8x-S5g | 2| 
 | Fintech 安全之路 | gh_763c23cd3870 | 银行业安全运营平台的建设与思考 | https://mp.weixin.qq.com/s/UncU7f92p5Mlxt353Galrg | 1| 
@@ -37,10 +40,8 @@
 | 百度安全 | BaiduSD00 | 用友GRP-U8任意SQL语句执行漏洞分析 | https://mp.weixin.qq.com/s/FliS-RfLAL0mtnODGyBh1Q | 2| 
 | 网安寻路人 | DataProtection101 | 中国个人信息保护立法 , 《个人信息保护法(草案)》与GDPR的比较 | https://mp.weixin.qq.com/s/4n3lYjzPRSbjIsPqzyDDmQ | 4| 
 | 360天枢智库 | gh_b3c796a6a82c | 揭秘全球网络安全防护最高水准：美国国防部信息网DODIN | https://mp.weixin.qq.com/s/m4wvjk2w5J2ZrWcJhHdQNw | 1| 
-| nmask | nmask-article | bypass安全狗 sql注入与xss | https://mp.weixin.qq.com/s/LAzIrJXV3pUkSabkoQl1Ag | 3| 
 | 专注安管平台 | gh_48603b9bb05a | Gartner2020年十大安全项目详解 | https://mp.weixin.qq.com/s/yuNalHkhcJJIPNE4QjG_aw | 6| 
 | 电驭叛客 | gh_141164bf887e | 微服务架构下的越权风险 | https://mp.weixin.qq.com/s/0vK2q1EEaDR-zsQbFKi4PQ | 3| 
-| 锦行信息安全 | jeeseensec | 安全技术 , 域渗透之SPN | https://mp.weixin.qq.com/s/aQqvo4l7XZCfirsrJxJg4w | 9| 
 | 看雪学院 | ikanxue | 最右sign-v2签名算法追踪及逆向还原 | https://mp.weixin.qq.com/s/5hmsU_CNGp7habqwSVVckg | 10| 
 | GobySec | gobysec | 技术分享 , 自定义漏洞之EXP | https://mp.weixin.qq.com/s/J1JW66Uh_6Nc0x2YY_5V6Q | 10| 
 | 酒仙桥六号部队 | anfu-360 | 追击黑手画像 | https://mp.weixin.qq.com/s/rPu9HL5lvjcxfkUUUfEMFw | 5| 
@@ -244,7 +245,6 @@
 | 软件安全智能并行分析实验室 |  | 学术报告,针对物联网设备的模糊测试概述 | https://mp.weixin.qq.com/s/pbOOkxrV0HJFzQicJ0m6Cg | 1| 
 | FEEI |  | 一个安全工程师的2019 | https://mp.weixin.qq.com/s/rr2f1RxFTjLSGlqxaG-aog | 1| 
 | 穿过丛林 |  | 优秀博士系统能力培养（PPT） | https://mp.weixin.qq.com/s/9zKM6hQZOYRjr5IeawgsKA | 1| 
-| 腾讯科恩实验室 | KeenSecurityLab | 在Tesla Model S上实现Wi-Fi协议栈漏洞的利用 | https://mp.weixin.qq.com/s/rULdN3wVKyR3GlGBhunpoQ | 1| 
 | 维他命安全 | VitaminSecurity | 维他命2019大盘点之安全事件/漏洞篇 | https://mp.weixin.qq.com/s/AsVZawBtipQzSdgJHt7eiw | 1| 
 
 
@@ -472,7 +472,7 @@
 | fofapro | 基于 Docker 镜像的漏洞靶场平台 | https://github.com/fofapro/vulfocus | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Vue,Java,Python,Go,CSS | 169 | 19 | 1| 
 | github | Code QL library for Chrome | https://github.com/github/security-lab/tree/master/CodeQL_Queries/cpp/Chrome | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Python,JavaScript,Haskell,TypeScript,HTML,Go,Ruby | 23100 | 3500 | 2| 
 | gloxec | CrossC2 framework - 生成 CobaltStrike 的跨平台 beacon | https://github.com/gloxec/CrossC2 | None |  | None | None | 46 | 0 | 0 | 0 | 0 | Python,C,PLpgSQL | 586 | 127 | 1| 
-| google | 今年 Google CTF 所有赛题源码 | https://github.com/google/google-ctf/tree/master/2020/quals | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Java,Python,Kotlin,JavaScript,C++,Vim,Objective-C,Shell,Starlark,Go,Jupyter,Dart,Rust | 0 | 0 | 4| 
+| google | C++语言接口基础（CLIF）知识介绍。 | https://github.com/google/clif | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Java,Python,JavaScript,C++,Objective-C,Haskell,Starlark,Go,Jupyter | 0 | 0 | 5| 
 | googleprojectzero | Samsung Qmage MMS Exploit (CVE-2020-8899) | https://github.com/googleprojectzero/SkCodecFuzzer/tree/master/mms_exploit | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,C#,C++,Python,HTML,Swift | 0 | 0 | 2| 
 | grimm-co | 为 Ghidra 二进制分析工具编写脚本，辅助还原 stripped 二进制内的结构体 | https://github.com/grimm-co/GEARSHIFT | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Python,C++,Go | 0 | 0 | 1| 
 | hardenedlinux | hardenedlinux 关于固件安全的一个开源项目 | https://github.com/hardenedlinux/firmware-anatomy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Assembly,Roff,Zeek,C++,Nix,HTML,Verilog,Go | 244 | 60 | 2| 
@@ -486,6 +486,7 @@
 | kisec | Kibana CVE-2019-7609 RCE Exploit 代码 | https://github.com/kisec/CVE-2019-7609?fbclid=IwAR02m1XrcGDleYn8KzrjBRuIFNXzwJumhrYi2n7zSFeq9fvPk39FxPyAyWY | http://www.kisec.com | Korea Information Security Education Center | None | 한국정보보호교육센터 | 25 | 0 | 0 | 0 | 0 | Python,Go,Shell | 13 | 2 | 1| 
 | knownsec | ksubdomain: 无状态子域名爆破工具 | https://github.com/knownsec/ksubdomain | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,JavaScript | 0 | 0 | 1| 
 | kov4l3nko | MEDUZA - 基于 Frida，针对越狱 iOS 系统编写的 SSL unpinning 工具 | https://github.com/kov4l3nko/MEDUZA | https://kov4l3nko.github.io/about/ | iOS/Android reverse engineer and security researcher | The country where cyberpunk won | None | 7 | 0 | 0 | 0 | 0 | Python,JavaScript,Java,HTML | 99 | 14 | 1| 
+| kwart | jd-cli:是对Java Decompiler反编译器项目命令软件包，可在win与Linux运行使用。 | https://github.com/kwart/jd-cli | http://javlog.cacek.cz/ |  | Czech Republic | Contractor | 73 | 0 | 0 | 0 | 0 | Shell,Java | 318 | 80 | 1| 
 | latentgod | OpenSA: 运维自动化平台 | https://github.com/latentgod/OpenSA | None |  | None | None | 38 | 0 | 0 | 0 | 0 | Python,PHP,JavaScript,Vim | 6 | 10 | 1| 
 | lgandx | LLMNR/NBT-NS/mDNS 协议攻击工具 Responder 更新 3.0.2.0 版本 | https://github.com/lgandx/Responder/releases/tag/v3.0.2.0 | https://g-laurent.blogspot.com |  | None | None | 5 | 0 | 0 | 0 | 0 | Python | 2300 | 382 | 1| 
 | light8lee | 2019 BDCI互联网金融新实体发现 | https://github.com/light8lee/2019-BDCI-FinancialEntityDiscovery | None |  | HITSZ | None | 16 | 0 | 0 | 0 | 0 | Python,QML,Vim | 15 | 1 | 1| 
@@ -697,6 +698,7 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 云上渗透-RDS数据库攻防 | https://xz.aliyun.com/t/8451| 
 | XSS 实战攻击思路总结 | https://xz.aliyun.com/t/8459| 
 | 一个文件上传靶场知识总结记录 | https://xz.aliyun.com/t/8435| 
 | AKSK 命令执行到谷歌验证码劫持 | https://xz.aliyun.com/t/8429| 

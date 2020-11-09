@@ -14,12 +14,16 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 锦行信息安全 | jeeseensec | 技术文章 , windows横向渗透中的令牌完整性限制 | https://mp.weixin.qq.com/s/idzRDjcQDPdiAd4dnJQs0w | 1| 
+| 安全学术圈 | secquan | 安全学术研究趋势分析 | https://mp.weixin.qq.com/s/UKBhg_tnYIPI6uzuPYn59A | 1| 
+| 腾讯科恩实验室 | KeenSecurityLab | 科恩实验室最新NeurIPS-2020论文解读：基于跨模态检索的二进制代码-源代码匹配 | https://mp.weixin.qq.com/s/fvnvh25VaHgproPvVT6LDg | 1| 
+| nmask | nmask-article | 黑客诱捕器—蜜罐的部署与使用 | https://mp.weixin.qq.com/s/TPb3E1fRszdEwp6Yyn8mQw | 1| 
 | 嘶吼专业版 | Pro4hou | 安全运营之攻击溯源 | https://mp.weixin.qq.com/s/9Yx4gK5-7CbP9Aqy-twpVw | 1| 
 | 梦之光芒的电子梦 | monyer_mp | 人生是一个回环 —— 我的十年安全工作总结 | https://mp.weixin.qq.com/s/OiBtKzKaWuzVvBGO_rwC5A | 1| 
 | 绿盟科技研究通讯 | nsfocus_research | Serverless安全研究 — Serverless安全风险 | https://mp.weixin.qq.com/s/rbS0_42RBiFu8UFFQW4kew | 1| 
 | 赛博星人 | cyberspace_666 | 红蓝对抗之内网中psexec的行为捕获 | https://mp.weixin.qq.com/s/G7Gdb_gXNn5FAR78Edps-w | 1| 
 | Coggle数据科学 | gh_8df601c10cb4 | 蚂蚁金服-支付风险识别亚军方案 | https://mp.weixin.qq.com/s/5NNTeLvqWl0_SQaPl-Cvug | 1| 
-| 潇湘信安 | xxxasec | 站库分离常规渗透思路总结 | https://mp.weixin.qq.com/s/nLSCP6xOyYnsdULO7h9cgA | 2| 
+| 潇湘信安 | xxxasec | 站库分离常规渗透思路总结 | https://mp.weixin.qq.com/s/nLSCP6xOyYnsdULO7h9cgA | 4| 
 | 网络安全观 | SecurityInsights | CrowdStrike , 无文件攻击白皮书 | https://mp.weixin.qq.com/s/0jMTOKsvV9q7_0Gz04veHg | 1| 
 | 腾讯代码安全检查Xcheck | gh_177b81103e8d | Xcheck之Java安全检查引擎 | https://mp.weixin.qq.com/s/rb1BfcZeCTr2PIiypXqVjw | 1| 
 
@@ -37,7 +41,9 @@
 | RedTeamPentesting | Apache Tomcat WebSocket 漏洞 (CVE-2020-13935) Exploit | https://github.com/RedTeamPentesting/CVE-2020-13935 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go | 0 | 0 | 1| 
 | Sentinel-One | 基于 Qiling 框架实现的 UEFI NVRAM 变量 Fuzzer | https://github.com/Sentinel-One/efi_fuzz | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,C#,Objective-C,HTML,Shell | 0 | 0 | 1| 
 | didi | Sharingan是一个基于go语言编写的流量录制回放工具，合项目重构、回归测试等。 | https://github.com/didi/sharingan | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Vue,Java,Python,Kotlin,JavaScript,C++,TypeScript,Objective-C,HTML,Go,CSS | 15800 | 2200 | 1| 
+| google | C++语言接口基础（CLIF）知识介绍。 | https://github.com/google/clif | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Java,Python,JavaScript,C++,Objective-C,Haskell,Starlark,Go,Jupyter | 0 | 0 | 1| 
 | grimm-co | 为 Ghidra 二进制分析工具编写脚本，辅助还原 stripped 二进制内的结构体 | https://github.com/grimm-co/GEARSHIFT | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Python,C++,Go | 0 | 0 | 1| 
+| kwart | jd-cli:是对Java Decompiler反编译器项目命令软件包，可在win与Linux运行使用。 | https://github.com/kwart/jd-cli | http://javlog.cacek.cz/ |  | Czech Republic | Contractor | 73 | 0 | 0 | 0 | 0 | Shell,Java | 318 | 80 | 1| 
 | marcinguy | Chrome 浏览器 Freetype 字体处理溢出漏洞 PoC（CVE-2020-15999） | https://github.com/marcinguy/CVE-2020-15999// | https://twitter.com/marcinguy | IT | Berlin, Germany | None | 58 | 0 | 0 | 0 | 0 | Python,C | 310 | 97 | 1| 
 | mq1n | 一个可以借助有物理内存读写权限的驱动实现调用任意内核函数的库。 | https://github.com/mq1n/VDM// | None |  | Turkey | None | 1200 | 0 | 0 | 0 | 0 | C++ | 178 | 100 | 1| 
 | nghiadt1098 | Windows 内核 CVE-2020-16889 漏洞的 PoC | https://github.com/nghiadt1098/MyResearch/tree/main/CVE-2020-16889 | https://www.facebook.com/nghiadt1098 | Viettel Cyber Security | Ha Noi, Viet Nam | None | 31 | 0 | 0 | 0 | 0 | Java,Python,JavaScript,C++,Pascal,HTML | 0 | 2 | 1| 
@@ -74,6 +80,7 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 云上渗透-RDS数据库攻防 | https://xz.aliyun.com/t/8451| 
 | XSS 实战攻击思路总结 | https://xz.aliyun.com/t/8459| 
 
 
