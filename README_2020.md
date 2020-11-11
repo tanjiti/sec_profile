@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 安全先师 | gh_d61f62dd440d | 蜜罐调研与内网安全 | https://mp.weixin.qq.com/s/-lJT3PNsj-VvMxalHb06AA | 1| 
 | 爱奇艺技术产品团队 | iQIYI-TP | 开源 , HMGNN：异构小图神经网络及其在拉新裂变风控场景的应用 | https://mp.weixin.qq.com/s/VRDOQsEdA-QfNRtKQCSjUA | 4| 
 | 锦行信息安全 | jeeseensec | 技术文章 , windows横向渗透中的令牌完整性限制 | https://mp.weixin.qq.com/s/idzRDjcQDPdiAd4dnJQs0w | 10| 
 | 安全学术圈 | secquan | 安全学术研究趋势分析 | https://mp.weixin.qq.com/s/UKBhg_tnYIPI6uzuPYn59A | 16| 
@@ -393,6 +394,7 @@
 | 0vercl0k | Symbolizer - 为进程执行 Trace、Crash Dump 提供调试符号的工具 | https://github.com/0vercl0k/symbolizer | https://doar-e.github.com/ |  | US/FR | None | 18 | 0 | 0 | 0 | 0 | Python,JavaScript,C++ | 928 | 192 | 1| 
 | 1d8 | 用于分析移动应用程序的Android VM | https://github.com/1d8/Android-Analysis | None |  | None | None | 25 | 0 | 0 | 0 | 0 | Python,C | 27 | 8 | 1| 
 | 360-Linton-Lab | WMIHACKER：免杀横向移动命令执行测试工具(无需445端口) | https://github.com/360-Linton-Lab/WMIHACKER/blob/master/README_zh.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C#,VBScript | 0 | 0 | 1| 
+| 3v4Si0N | HTTP-revshell: 用于Red team练习和渗透测试者的Powershell脚本工具，通过HTTP/S协议反向链接。 | https://github.com/3v4Si0N/HTTP-revshell | None | Security Analyst at @Deloitte | Spain | https://twitter.com/3v4Si0N | 10 | 0 | 0 | 0 | 0 | Python,C,PowerShell | 205 | 29 | 1| 
 | 4x99 | 码小六 - GitHub 代码泄露监控系统 | https://github.com/4x99/code6 | None |  | None | None | 2 | 0 | 1 | 0 | 0 | PHP | 73 | 14 | 1| 
 | 7Hxz233 | Lilac 2020 暑期pwn培训课件 | https://github.com/7Hxz233/Lilac_2020_summer_pwn | None | None | None | None | 0 | 0 | 0 | 0 | 0 | PostScript,C,HTML,Ruby,PHP | 0 | 0 | 1| 
 | Anemone95 | MLDetectVuln: AI算法解决大规模二进制程序函数相似性分析 | https://github.com/Anemone95/MLDetectVuln | http://anemone.top | Im very vegetable. | None | None | 0 | 0 | 0 | 0 | 0 | Python,JavaScript,PHP,Vim | 8 | 5 | 1| 

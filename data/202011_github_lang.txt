@@ -1,8 +1,8 @@
-Python	9
+Python	10
 Java	7
 C++	7
+C	6
 JavaScript	5
-C	5
 Go	5
 Shell	4
 TypeScript	3
@@ -21,3 +21,4 @@ Starlark	1
 Rust	1
 FreeMarker	1
 Pascal	1
+PowerShell	1
