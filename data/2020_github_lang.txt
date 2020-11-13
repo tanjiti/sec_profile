@@ -1,6 +1,6 @@
-Python	166
+Python	167
+C	84
 JavaScript	83
-C	83
 HTML	72
 C++	72
 Shell	65
@@ -18,10 +18,10 @@ Objective-C	13
 Vue	9
 Batchfile	9
 Dockerfile	8
+Makefile	7
 Lua	7
 Swift	7
 Haskell	7
-Makefile	6
 Scala	5
 Perl	5
 Visual	5

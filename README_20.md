@@ -2315,7 +2315,6 @@
 | argilo | Hack your garage door opener with a #HackRF or #RTLSDR. | https://github.com/argilo/secplus | http://www.irrational.net/ |  | None | None | 55 | 0 | 32 | 92 | 1 | Python,CMake,C++ | 252 | 70 | 2| 
 | iSafeBlue | 一张渗透测试思维导图 | https://github.com/iSafeBlue/Mind-Map/ | https://b1ue.cn | Security Researcher , Java Development Engineer | None | None | 9 | 0 | 281 | 92 | 40 | Java,HTML,JavaScript | 375 | 101 | 2| 
 | likexian | likexian/stathub-go: A smart Hub for holding server Stat | https://github.com/likexian/stathub-go | https://www.likexian.com/ | Hello World! | Shenzhen, China | None | 14 | 0 | 146 | 92 | 76 | Go,PHP | 574 | 114 | 1| 
-| 0x36 | iOS atm port UAF 漏洞(CVE-2018-4420)PoC: | https://github.com/0x36/CVE-pocs/blob/master/CVE-2018-4420-atm-uaf.c | None | . | Morocco | None | 6 | 0 | 24 | 91 | 0 | C,Makefile | 140 | 39 | 2| 
 | Mel0day | BCS 2019 红队行动会议重点内容 | https://github.com/Mel0day/RedTeam-BCS | None |  | None | None | 116 | 0 | 304 | 91 | 20 | Python,Ruby | 210 | 56 | 1| 
 | ThomasTJdev | WMD (Weapon of Mass Destruction) : Python framework for IT security tools : | https://github.com/ThomasTJdev/WMD | http://ttj.dk | Nim & Arch | None | TTJ codefactory | 63 | 0 | 104 | 91 | 11 | Python,Nim | 0 | 0 | 1| 
 | avlidienbrunn | BountyDash - 一款结合所有漏洞赏金平台奖励的工具,让使用者对进度和漏洞挖掘类型有更好的把握: | https://github.com/avlidienbrunn/bountydash | https://twitter.com/avlidienbrunn | addasdsasa %PDF adsdasdasdsadsa asdsdsa | o | %PDF <>test | 14 | 0 | 11 | 91 | 5 | Python,Shell,JavaScript | 94 | 16 | 1| 
@@ -3566,6 +3565,7 @@
 | 0Linchen | CTFCrackTools: 中国国内首个CTFcrack框架 | https://github.com/0Linchen/CTFCrackTools | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | 0neb1n | PoC of CVE-2020-16947 (Microsoft Outlook RCE vulnerablility) | https://github.com/0neb1n/CVE-2020-16947 | None | I wanner be the pwner. | None | None | 11 | 0 | 0 | 0 | 0 | Lua,CSS | 23 | 14 | 1| 
 | 0vercl0k | Symbolizer - 为进程执行 Trace、Crash Dump 提供调试符号的工具 | https://github.com/0vercl0k/symbolizer | https://doar-e.github.com/ |  | US/FR | None | 18 | 0 | 0 | 0 | 0 | Python,JavaScript,C++ | 928 | 192 | 3| 
+| 0x36 | kernel exploit for Apple iOS 13.X | https://github.com/0x36/oob_events | https://twitter.com/_simo36 |  | None | None | 7 | 0 | 0 | 0 | 0 | Python,C,Makefile | 171 | 46 | 3| 
 | 0x3curity | PAVELOW - Kali 下的漏洞寻找与利用的辅助工具: | https://github.com/0x3curity/PAVELOW | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 2| 
 | 0xspx | Another exploitation tool by @ 0xspx to find ROP gadgets for ARM using Capstone inside! | https://github.com/0xspx/armroper | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | 0xtyh | awesome reversing resources by @ 0xtyh | https://github.com/0xtyh/awesome-reversing | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
