@@ -14,6 +14,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 数据派THU | DatapiTHU | 独家 , 使用Spark进行大规模图形挖掘（附链接） | https://mp.weixin.qq.com/s/vytVTAgU-6_iRG-drf9eYQ | 17| 
+| 看雪学院 | ikanxue | 姚辉 , 技术老兵谈杀毒软件沉浮史 | https://mp.weixin.qq.com/s/4bL4yTtOwX2hSZWs_k5J5Q | 47| 
+| 合天智汇 | hee_tian | 细说php反序列化字符逃逸 | https://mp.weixin.qq.com/s/7jAS7R_GuBBz6M8U6lQv-w | 9| 
 | 法制天平 | g_780216 | 帮助信息网络犯罪活动罪案例汇总 | https://mp.weixin.qq.com/s/RlFD6H-_4j5g2R49IE9ghw | 1| 
 | 安全先师 | gh_d61f62dd440d | 蜜罐调研与内网安全 | https://mp.weixin.qq.com/s/-lJT3PNsj-VvMxalHb06AA | 1| 
 | 爱奇艺技术产品团队 | iQIYI-TP | 开源 , HMGNN：异构小图神经网络及其在拉新裂变风控场景的应用 | https://mp.weixin.qq.com/s/VRDOQsEdA-QfNRtKQCSjUA | 5| 
@@ -45,7 +48,6 @@
 | 360天枢智库 | gh_b3c796a6a82c | 揭秘全球网络安全防护最高水准：美国国防部信息网DODIN | https://mp.weixin.qq.com/s/m4wvjk2w5J2ZrWcJhHdQNw | 1| 
 | 专注安管平台 | gh_48603b9bb05a | Gartner2020年十大安全项目详解 | https://mp.weixin.qq.com/s/yuNalHkhcJJIPNE4QjG_aw | 8| 
 | 电驭叛客 | gh_141164bf887e | 微服务架构下的越权风险 | https://mp.weixin.qq.com/s/0vK2q1EEaDR-zsQbFKi4PQ | 3| 
-| 看雪学院 | ikanxue | 最右sign-v2签名算法追踪及逆向还原 | https://mp.weixin.qq.com/s/5hmsU_CNGp7habqwSVVckg | 46| 
 | GobySec | gobysec | 技术分享 , 自定义漏洞之EXP | https://mp.weixin.qq.com/s/J1JW66Uh_6Nc0x2YY_5V6Q | 10| 
 | 酒仙桥六号部队 | anfu-360 | 追击黑手画像 | https://mp.weixin.qq.com/s/rPu9HL5lvjcxfkUUUfEMFw | 5| 
 | 携程技术 | ctriptech | 干货 , IAST安全测试如何防止数据污染 | https://mp.weixin.qq.com/s/VeUscKDI0o1jL9uDYywgow | 2| 
@@ -368,7 +370,6 @@
 | ArkTeam |  |  | https://mp.weixin.qq.com/s/JyGaOV-wBVYCF6gKhYswWw | 4| 
 | 国家互联网应急中心CNCERT | CNCERTCC |  | https://mp.weixin.qq.com/s/5ZOhusBPwQ0WdTBgrStfMg | 4| 
 | 迷样人生 | iot-sec |  | https://mp.weixin.qq.com/s/Sp15EkyNKBZvOZHrJ7zJ2w | 1| 
-| 数据派THU | DatapiTHU |  | https://mp.weixin.qq.com/s/zIvsOB6G4YOnWq669VCqyg | 16| 
 | 战略前沿技术 | Tech999 |  | https://mp.weixin.qq.com/s/bRIA5OFEUZNrapubD9ORYQ | 3| 
 | 京东安全应急响应中心 | jsrc_team |  | https://mp.weixin.qq.com/s/Rdw7_z4jn3Z1AWp-S2B2Vg | 6| 
 | 宅客频道 | letshome |  | https://mp.weixin.qq.com/s/HZJQD0jHj2ACkgtvGmtyPw | 12| 
@@ -486,7 +487,6 @@
 | 新华视点 | XHSXHSD |  | https://mp.weixin.qq.com/s/S_HmemBo4wU22e6RJ_qDxw | 1| 
 | IT桔子 | itjuzi521 |  | https://mp.weixin.qq.com/s/oRpI7DwWZLfUprxwS0nOew | 1| 
 | 占知智库 | zzzk-0001 |  | https://mp.weixin.qq.com/s/GhuEu5-vQfKs25JFi2kDjw | 1| 
-| 合天智汇 | hee_tian |  | http://mp.weixin.qq.com/s/xEdI49opyD86Ywkbu2QNsA | 8| 
 | 众视AsiaOTT | AsiaOTTcom |  | https://mp.weixin.qq.com/s/ReymClMeHOmx1_EjqOUZUg | 1| 
 | HenceTech |  |  | https://mp.weixin.qq.com/s/xEBr7JxbSTt11oiBsgc3uw | 5| 
 | DoSec容器安全 | dosecs |  | https://mp.weixin.qq.com/s/Q4a5dhCwe9503SI6-xqFuQ | 4| 
@@ -4201,6 +4201,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 自然语言处理的未来十年 | https://zhuanlan.zhihu.com/p/289716231| 
 | 万字长文——信息安全职业生涯规划 | https://zhuanlan.zhihu.com/p/250905301| 
 | Webshell研究综述：检测与对抗技术的动态博弈进展 | https://zhuanlan.zhihu.com/p/259985000?utm_oi=771453567763492864| 
 | 南京大学《软件分析》课程 | https://zhuanlan.zhihu.com/p/136697432| 

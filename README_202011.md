@@ -14,6 +14,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 数据派THU | DatapiTHU | 独家 , 使用Spark进行大规模图形挖掘（附链接） | https://mp.weixin.qq.com/s/vytVTAgU-6_iRG-drf9eYQ | 1| 
+| 看雪学院 | ikanxue | 姚辉 , 技术老兵谈杀毒软件沉浮史 | https://mp.weixin.qq.com/s/4bL4yTtOwX2hSZWs_k5J5Q | 1| 
+| 合天智汇 | hee_tian | 细说php反序列化字符逃逸 | https://mp.weixin.qq.com/s/7jAS7R_GuBBz6M8U6lQv-w | 1| 
 | 法制天平 | g_780216 | 帮助信息网络犯罪活动罪案例汇总 | https://mp.weixin.qq.com/s/RlFD6H-_4j5g2R49IE9ghw | 1| 
 | 安全先师 | gh_d61f62dd440d | 蜜罐调研与内网安全 | https://mp.weixin.qq.com/s/-lJT3PNsj-VvMxalHb06AA | 1| 
 | 爱奇艺技术产品团队 | iQIYI-TP | 开源 , HMGNN：异构小图神经网络及其在拉新裂变风控场景的应用 | https://mp.weixin.qq.com/s/VRDOQsEdA-QfNRtKQCSjUA | 1| 
@@ -75,6 +78,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 自然语言处理的未来十年 | https://zhuanlan.zhihu.com/p/289716231| 
 
 
 # xz_xuanwu 推荐
