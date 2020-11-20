@@ -1,8 +1,8 @@
-Python	1045
+Python	1046
 JavaScript	652
-C	646
+C	647
 C++	530
-HTML	474
+HTML	475
 Shell	453
 Java	440
 Go	372
@@ -14,7 +14,7 @@ PowerShell	225
 TypeScript	137
 Objective-C	137
 Rust	111
-Jupyter	97
+Jupyter	98
 Perl	74
 Swift	68
 Dockerfile	65
@@ -28,7 +28,7 @@ CMake	42
 Kotlin	37
 Vue	35
 Visual	34
-Vim	33
+Vim	34
 HCL	31
 Haskell	25
 OCaml	22
