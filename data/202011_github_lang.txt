@@ -1,9 +1,9 @@
 Python	17
 Java	10
-C	9
+C	10
 C++	9
+JavaScript	7
 Go	7
-JavaScript	6
 Shell	5
 HTML	5
 CSS	4
@@ -16,6 +16,7 @@ Haskell	2
 Scala	1
 Makefile	1
 Perl	1
+Rich	1
 Vue	1
 Kotlin	1
 ASP	1

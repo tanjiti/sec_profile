@@ -1,6 +1,6 @@
 Python	1046
-JavaScript	652
-C	647
+JavaScript	653
+C	648
 C++	530
 HTML	475
 Shell	453
@@ -31,8 +31,8 @@ Visual	34
 Vim	34
 HCL	31
 Haskell	25
+Rich	22
 OCaml	22
-Rich	21
 YARA	20
 CoffeeScript	19
 Elixir	18

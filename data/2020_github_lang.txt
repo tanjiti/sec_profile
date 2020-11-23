@@ -1,6 +1,6 @@
 Python	172
-C	86
-JavaScript	84
+C	87
+JavaScript	85
 HTML	74
 C++	74
 Shell	66
@@ -38,6 +38,7 @@ Assembly	3
 Nix	3
 VBScript	3
 Smarty	3
+Rich	2
 Dart	2
 Groovy	2
 Starlark	2
@@ -52,7 +53,6 @@ Objective-C++	1
 BitBake	1
 Q#	1
 Verilog	1
-Rich	1
 Scheme	1
 PLSQL	1
 Arduino	1
