@@ -1,0 +1,36 @@
+20201116	Web安全	https://blog.csdn.net/bloodzero_new/article/details/109755579	完成一次渗透测试项目	csdn.net	blog.csdn.net	/bloodzero_new/article/details/109755579
+20201116	Web安全	https://www.sec-in.com/article/648	针对小程序的漏洞挖掘	sec-in.com	www.sec-in.com	/article/648
+20201116	漏洞分析	https://mp.weixin.qq.com/s/9PWg4jIztJcutAY-ohzJUw	Docker安全实践	qq.com	mp.weixin.qq.com	/s/9PWg4jIztJcutAY-ohzJUw
+20201116	Web安全	https://blog.csdn.net/bloodzero_new/article/details/109755474	计算机与网络安全系列书籍推荐	csdn.net	blog.csdn.net	/bloodzero_new/article/details/109755474
+20201116	Web安全	https://blog.csdn.net/bloodzero_new/article/details/109755532	谈谈信息安全入门这事	csdn.net	blog.csdn.net	/bloodzero_new/article/details/109755532
+20201116	取证分析	https://mp.weixin.qq.com/s/0FQwtu-TKyVuaAhpdu0huA	NIST《网络靶场指南》浅析	qq.com	mp.weixin.qq.com	/s/0FQwtu-TKyVuaAhpdu0huA
+20201116	取证分析	https://github.com/forest0/wechat_history_export	微信聊天记录导出工具	github.com	github.com	/forest0/wechat_history_export
+20201116	Web安全	https://www.sec-in.com/article/661	看雪Re_翩若惊鸿	sec-in.com	www.sec-in.com	/article/661
+20201116	其它	https://www.anquanke.com/post/id/223008	神经工程与脑机接口信息安全 全景图 V0.1	anquanke.com	www.anquanke.com	/post/id/223008
+20201116	Web安全	https://www.sec-in.com/article/549	浅谈URI中的任意文件下载	sec-in.com	www.sec-in.com	/article/549
+20201116	Web安全	https://www.sec-in.com/article/654	回首再看CTF中的那些PHP弱类型	sec-in.com	www.sec-in.com	/article/654
+20201116	设备安全	http://plcscan.org/blog/2020/11/china-internet-of-vehicles-security-threat-analysis-report/	国内在线车联网平台（道路运输车辆卫星定位系统）安全威胁分析报告	plcscan.org	plcscan.org	/blog/2020/11/china-internet-of-vehicles-security-threat-analysis-report/
+20201116	Web安全	https://mp.weixin.qq.com/s/qjLCgmSPOY0iaF53g7VzMg	常见WAF进程/服务与WAF识别总结	qq.com	mp.weixin.qq.com	/s/qjLCgmSPOY0iaF53g7VzMg
+20201116	工具	https://github.com/uknowsec/TailorScan	TailorScan: 自用缝合怪内网扫描器	github.com	github.com	/uknowsec/TailorScan
+20201116	数据挖掘	http://plcscan.org/blog/2020/11/research-report-of-renowned-internet-census-organization-shodan/	知名网络空间普查与网络测绘组织研究报告 第二期-Shodan篇	plcscan.org	plcscan.org	/blog/2020/11/research-report-of-renowned-internet-census-organization-shodan/
+20201116	工具	https://mp.weixin.qq.com/s/bHDMTlY-YZxx9dS-MqQfRA	利用avdump转储lsass.exe进程	qq.com	mp.weixin.qq.com	/s/bHDMTlY-YZxx9dS-MqQfRA
+20201116	杂志	https://www.sec-wiki.com/weekly/350	SecWiki周刊（第350期)	sec-wiki.com	www.sec-wiki.com	/weekly/350
+20201116	Web安全	https://payloads.online/archivers/2020-11-13/1	Linux透明代理在红队渗透中的应用	payloads.online	payloads.online	/archivers/2020-11-13/1
+20201116	比赛	https://www.anquanke.com/post/id/222629	太湖杯密码学 Aegis 题解	anquanke.com	www.anquanke.com	/post/id/222629
+20201116	Web安全	http://samy.pl/webscan/	webscan：browser-based network IP scanner	samy.pl	samy.pl	/webscan/
+20201116	其它	https://mp.weixin.qq.com/s/0BslalFBU0pmf0TbLus2UA	常见反病毒进程/服务/识别总结	qq.com	mp.weixin.qq.com	/s/0BslalFBU0pmf0TbLus2UA
+20201116	设备安全	https://www.anquanke.com/post/id/222674	工控CTF仿真环境	anquanke.com	www.anquanke.com	/post/id/222674
+20201116	Web安全	https://www.sec-in.com/article/280	2020NPUCTF公开赛 WEB部分Writeup	sec-in.com	www.sec-in.com	/article/280
+20201116	取证分析	https://security.tencent.com/index.php/blog/msg/169	基于某款游戏利用的反射攻击分析	tencent.com	security.tencent.com	/index.php/blog/msg/169
+20201116	恶意分析	https://mp.weixin.qq.com/s/LmxdXRjMCOIisQzCISBoGw	Python 源码混淆与加密	qq.com	mp.weixin.qq.com	/s/LmxdXRjMCOIisQzCISBoGw
+20201116	运维安全	https://blog.csdn.net/bloodzero_new/article/details/109829702	玩转容器安全一 - 虚拟机搭建简易版K8s集群	csdn.net	blog.csdn.net	/bloodzero_new/article/details/109829702
+20201116	Web安全	https://xz.aliyun.com/t/8519	记一次三层网络环境的靶场渗透	aliyun.com	xz.aliyun.com	/t/8519
+20201116	漏洞分析	https://mp.weixin.qq.com/s/1q_YCJoyCREtgU3X2_0uqQ	探索先进自动化漏洞挖掘技术中的不足	qq.com	mp.weixin.qq.com	/s/1q_YCJoyCREtgU3X2_0uqQ
+20201116	比赛	https://mp.weixin.qq.com/s/IGZUIY2w8aRJZUbZa3UqHA	2020西湖论剑IoT闯关赛回顾&Writeup	qq.com	mp.weixin.qq.com	/s/IGZUIY2w8aRJZUbZa3UqHA
+20201116	比赛	https://www.anquanke.com/post/id/222391	强网杯2020决赛RealWord题ADoBe（ADB）	anquanke.com	www.anquanke.com	/post/id/222391
+20201116	Web安全	https://xz.aliyun.com/t/8513	高级的MSSQL注入技巧	aliyun.com	xz.aliyun.com	/t/8513
+20201116	运维安全	https://github.com/zbnio/zbn	zbn: 安全编排与自动化响应平台	github.com	github.com	/zbnio/zbn
+20201116	漏洞分析	https://xz.aliyun.com/t/8509	从0到tfp0第一部分：基础知识	aliyun.com	xz.aliyun.com	/t/8509
+20201116	漏洞分析	https://research.nccgroup.com/2020/11/11/decrypting-openssh-sessions-for-fun-and-profit/	Decrypting OpenSSH sessions for fun and profit	nccgroup.com	research.nccgroup.com	/2020/11/11/decrypting-openssh-sessions-for-fun-and-profit/
+20201116	恶意分析	https://securelist.com/apt-predictions-for-2021/99387/	Advanced Threat predictions for 2021	securelist.com	securelist.com	/apt-predictions-for-2021/99387/
+20201116	漏洞分析	https://seanhn.files.wordpress.com/2020/11/heelan_phd_thesis.pdf	Greybox Automatic Exploit Generation for Heap Overflows in Language Interpreters	wordpress.com	seanhn.files.wordpress.com	/2020/11/heelan_phd_thesis.pdf
