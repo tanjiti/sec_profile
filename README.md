@@ -14,14 +14,21 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| Netlab 三六零 | Netlab_360 | DNSMon: 用DNS数据进行威胁发现 | https://mp.weixin.qq.com/s/6CtRd7o4IjreLaU-hFt9vQ | 1| 
+| 伪架构师 | fake-architect | （译）云原生安全白皮书 | https://mp.weixin.qq.com/s/uH7M7vR1m0CJhoVfr-DisQ | 1| 
+| 匠心独运维妙维效 | gh_54f52b20027d | 浅谈中间件安全漏洞修复体系建设 | https://mp.weixin.qq.com/s/6bJskpL_JLAEIXdGq5Hljw | 1| 
+| 大数据猫 | kitten-talking-data | 阿里云ClickHouse海量数据分析分享 | https://mp.weixin.qq.com/s/MnirNdLxyvrCAPd51SiW6w | 1| 
+| 阿里巴巴中间件 | Aliware_2018 | 我看技术人的成长路径 | https://mp.weixin.qq.com/s/m6NbHb9UUtiSOMPnKgId3g | 1| 
+| 安全乐观主义 | gh_d6239d0bb816 | 浅谈华为SDL软件安全工程能力 | https://mp.weixin.qq.com/s/i1N80qN14hGslRnrIV8mjg | 2| 
 | 腾讯安全应急响应中心 | tsrc_team | 物联网安全系列之探索IoT通信安全的研究之道 | https://mp.weixin.qq.com/s/6KviA72Ke0I9ZVYusTDpoA | 1| 
+| 龙渊实验室 | LongYuanLab | 基于Flink的网络流量实时解析 | https://mp.weixin.qq.com/s/i7f7p9HBE-03YWNnl_NdPA | 1| 
 | ChaMd5安全团队 | chamd5sec | 智能合约:整数溢出、访问控制缺陷漏洞与跨合约调用漏洞 | https://mp.weixin.qq.com/s/XRrHeugDMV-6ANRxC0ov3Q | 1| 
 | 安恒信息安全研究院 | gh_684e6ad8d12c | 2020西湖论剑IoT闯关赛回顾&Writeup（嵌入式Web部分）【附集赞获奖名单】 | https://mp.weixin.qq.com/s/IGZUIY2w8aRJZUbZa3UqHA | 1| 
-| 潇湘信安 | xxxasec | 利用avdump转储lsass.exe进程 | https://mp.weixin.qq.com/s/bHDMTlY-YZxx9dS-MqQfRA | 8| 
+| 潇湘信安 | xxxasec | 利用avdump转储lsass.exe进程 | https://mp.weixin.qq.com/s/bHDMTlY-YZxx9dS-MqQfRA | 10| 
 | 360BugCloud | bugcloud360 | Python 源码混淆与加密 | https://mp.weixin.qq.com/s/LmxdXRjMCOIisQzCISBoGw | 1| 
-| 蚂蚁安全实验室 | Alipay_SecurityLab | 探索先进自动化漏洞挖掘技术中的不足 | https://mp.weixin.qq.com/s/1q_YCJoyCREtgU3X2_0uqQ | 1| 
-| 时间之外沉浮事 | tasnrh | NIST《网络靶场指南》浅析 | https://mp.weixin.qq.com/s/0FQwtu-TKyVuaAhpdu0huA | 1| 
 | VIPKID安全响应中心 | vk_src | 【VK技术分享】Docker安全实践 | https://mp.weixin.qq.com/s/9PWg4jIztJcutAY-ohzJUw | 1| 
+| 时间之外沉浮事 | tasnrh | NIST《网络靶场指南》浅析 | https://mp.weixin.qq.com/s/0FQwtu-TKyVuaAhpdu0huA | 1| 
+| 蚂蚁安全实验室 | Alipay_SecurityLab | 探索先进自动化漏洞挖掘技术中的不足 | https://mp.weixin.qq.com/s/1q_YCJoyCREtgU3X2_0uqQ | 1| 
 | 酒仙桥六号部队 | anfu-360 | 从网关进入内网到DNS协议出网 | https://mp.weixin.qq.com/s/_LjtSgwv7fWDEjPgh_1tZw | 1| 
 | 数据派THU | DatapiTHU | 独家 , 使用Spark进行大规模图形挖掘（附链接） | https://mp.weixin.qq.com/s/vytVTAgU-6_iRG-drf9eYQ | 1| 
 | 看雪学院 | ikanxue | 姚辉 , 技术老兵谈杀毒软件沉浮史 | https://mp.weixin.qq.com/s/4bL4yTtOwX2hSZWs_k5J5Q | 1| 
@@ -61,6 +68,7 @@
 | antonio-morales | Hackfest - Advanced Fuzzing Workshop 的资料 | https://github.com/antonio-morales/Hackfest_Advanced_Fuzzing_Workshop | https://twitter.com/Nosoynadiemas |  | None | None | 6 | 0 | 0 | 0 | 0 | C,JavaScript,Rich | 106 | 20 | 1| 
 | cyber-research | 5个国家的APT恶意软件数据集。 | https://github.com/cyber-research/APTMalware | None |  | None | None | 2 | 0 | 0 | 0 | 0 | Python | 52 | 10 | 1| 
 | didi | Sharingan是一个基于go语言编写的流量录制回放工具，合项目重构、回归测试等。 | https://github.com/didi/sharingan | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Vue,Java,Python,Kotlin,JavaScript,C++,TypeScript,Objective-C,HTML,Go,CSS | 15800 | 2200 | 1| 
+| fabacab | 蓝队最好的学习资源项目。 | https://github.com/fabacab/awesome-cybersecurity-blueteam | None | ⚑ Ⓐnti-capitalist Free Software developer, Black Lives Matter, abolish all prisons, 0xACAB ⚑ | None | Code signing GPG key: 0x15FC01926CB6D75614790893B0303BF6BA36A560 | 197 | 0 | 0 | 0 | 0 | Shell,HTML,PHP | 1100 | 248 | 1| 
 | forest0 | 微信聊天记录导出工具 | https://github.com/forest0/wechat_history_export | None |  | None | None | 5 | 0 | 0 | 0 | 0 | Python,C,HTML,Jupyter,Vim | 28 | 7 | 1| 
 | google | C++语言接口基础（CLIF）知识介绍。 | https://github.com/google/clif | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Java,Python,JavaScript,C++,Objective-C,Haskell,Starlark,Go,Jupyter | 0 | 0 | 1| 
 | grimm-co | 为 Ghidra 二进制分析工具编写脚本，辅助还原 stripped 二进制内的结构体 | https://github.com/grimm-co/GEARSHIFT | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Python,C++,Go | 0 | 0 | 1| 

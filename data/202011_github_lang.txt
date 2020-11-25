@@ -4,8 +4,8 @@ C	10
 C++	9
 JavaScript	7
 Go	7
-Shell	5
-HTML	5
+Shell	6
+HTML	6
 CSS	4
 C#	4
 TypeScript	3
@@ -25,4 +25,5 @@ Rust	1
 FreeMarker	1
 Vim	1
 Pascal	1
+PHP	1
 PowerShell	1
