@@ -5,7 +5,7 @@ C++	530
 HTML	475
 Shell	453
 Java	440
-Go	372
+Go	373
 C#	263
 Ruby	258
 PHP	231
@@ -18,7 +18,7 @@ Jupyter	98
 Perl	74
 Swift	68
 Dockerfile	65
-Assembly	63
+Assembly	64
 Makefile	59
 Lua	59
 TeX	56
