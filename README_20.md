@@ -3994,6 +3994,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| WP: 发现 SSTI 漏洞并绕过 WAF | http://cyc10n3.medium.com/rce-via-server-side-template-injection-ad46f8e0c2ae| 
 | 在 Python 中调用 Objective C 代码 | http://medium.com/red-teaming-with-a-blue-team-mentaility/making-objective-c-calls-from-python-standard-libraries-550ed3a30a30| 
 | TP-Link Takeover with a Flash Drive | http://medium.com/tenable-techblog/tp-link-takeover-with-a-flash-drive-d493666f6b39| 
 | A Deep Dive Into Windows Scheduled Tasks and The Processes Running Them | http://nasbench.medium.com/a-deep-dive-into-windows-scheduled-tasks-and-the-processes-running-them-218d1eed4cce| 
