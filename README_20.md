@@ -17,21 +17,21 @@
 | 代码审计 | white-hat-note | 有安全研究者混入了PHP 8.0开发组！ | https://mp.weixin.qq.com/s/0HSAPYY2PjbwEN3MhI4SkA | 1| 
 | 互联网安全内参 | anquanneican | 以色列网络安全产业发展经验及启示 | https://mp.weixin.qq.com/s/YlvN-HBJwQwc9C4YJ0aXWg | 9| 
 | 网络安全观 | SecurityInsights | 美国国防部零信任的支柱 | https://mp.weixin.qq.com/s/Fd0iKkGgE6Y1e81tP3MJFQ | 10| 
-| 潇湘信安 | xxxasec | 西部数码云主机失败提权案例 | https://mp.weixin.qq.com/s/tMootD29tV5sPMje5GJFcA | 26| 
+| 潇湘信安 | xxxasec | 西部数码云主机失败提权案例 | https://mp.weixin.qq.com/s/tMootD29tV5sPMje5GJFcA | 27| 
 | 图谱学苑 | gh_eb1997a4e380 | 论文导读 , 图数据流子图查询 | https://mp.weixin.qq.com/s/gPwWhlKsymu17kZPajyfqQ | 2| 
 | 警笛 | asirhelper | 公安部最新通知！办理赌博犯罪案件新规（两高一部发布） | https://mp.weixin.qq.com/s/SPl3IXcvcYe3osAjqsswlg | 1| 
 | 酒仙桥六号部队 | anfu-360 | 一张随拍引起的安全思考 | https://mp.weixin.qq.com/s/xt7kgg2YFQxVzup92WMXXw | 7| 
 | 有赞coder | youzan_coder | 接口越权扫描平台初探 | https://mp.weixin.qq.com/s/epVb1Y4WQ-MWeRhRPlvofg | 1| 
-| 穿过丛林 | gh_f90eac70537b | 基于程序分析的大数据应用内存预估方法 | https://mp.weixin.qq.com/s/C3yN9nIRTN9ebmvOd8S2JA | 4| 
+| ChaMd5安全团队 | chamd5sec | 智能合约:整数溢出、访问控制缺陷漏洞与跨合约调用漏洞 | https://mp.weixin.qq.com/s/XRrHeugDMV-6ANRxC0ov3Q | 30| 
 | Netlab 三六零 | Netlab_360 | DNSMon: 用DNS数据进行威胁发现 | https://mp.weixin.qq.com/s/6CtRd7o4IjreLaU-hFt9vQ | 2| 
 | 伪架构师 | fake-architect | （译）云原生安全白皮书 | https://mp.weixin.qq.com/s/uH7M7vR1m0CJhoVfr-DisQ | 1| 
 | 匠心独运维妙维效 | gh_54f52b20027d | 浅谈中间件安全漏洞修复体系建设 | https://mp.weixin.qq.com/s/6bJskpL_JLAEIXdGq5Hljw | 1| 
 | 大数据猫 | kitten-talking-data | 阿里云ClickHouse海量数据分析分享 | https://mp.weixin.qq.com/s/MnirNdLxyvrCAPd51SiW6w | 1| 
 | 安全乐观主义 | gh_d6239d0bb816 | ThreatSource：Google BeyondProd安全架构详解 | https://mp.weixin.qq.com/s/l__r5GUIZJ_moVcKBF9pyA | 16| 
-| 阿里巴巴中间件 | Aliware_2018 | 我看技术人的成长路径 | https://mp.weixin.qq.com/s/m6NbHb9UUtiSOMPnKgId3g | 1| 
+| 穿过丛林 | gh_f90eac70537b | 基于程序分析的大数据应用内存预估方法 | https://mp.weixin.qq.com/s/C3yN9nIRTN9ebmvOd8S2JA | 4| 
 | 腾讯安全应急响应中心 | tsrc_team | 物联网安全系列之探索IoT通信安全的研究之道 | https://mp.weixin.qq.com/s/6KviA72Ke0I9ZVYusTDpoA | 18| 
+| 阿里巴巴中间件 | Aliware_2018 | 我看技术人的成长路径 | https://mp.weixin.qq.com/s/m6NbHb9UUtiSOMPnKgId3g | 1| 
 | 龙渊实验室 | LongYuanLab | 基于Flink的网络流量实时解析 | https://mp.weixin.qq.com/s/i7f7p9HBE-03YWNnl_NdPA | 1| 
-| ChaMd5安全团队 | chamd5sec | 智能合约:整数溢出、访问控制缺陷漏洞与跨合约调用漏洞 | https://mp.weixin.qq.com/s/XRrHeugDMV-6ANRxC0ov3Q | 30| 
 | 安恒信息安全研究院 | gh_684e6ad8d12c | 2020西湖论剑IoT闯关赛回顾&Writeup（嵌入式Web部分）【附集赞获奖名单】 | https://mp.weixin.qq.com/s/IGZUIY2w8aRJZUbZa3UqHA | 4| 
 | 360BugCloud | bugcloud360 | Python 源码混淆与加密 | https://mp.weixin.qq.com/s/LmxdXRjMCOIisQzCISBoGw | 1| 
 | VIPKID安全响应中心 | vk_src | 【VK技术分享】Docker安全实践 | https://mp.weixin.qq.com/s/9PWg4jIztJcutAY-ohzJUw | 2| 
@@ -3787,7 +3787,7 @@
 | ffffffff0x | Dork-Admin: 盘点近年来的数据泄露、供应链污染事件 | https://github.com/ffffffff0x/Dork-Admin | None | None | None | None | 0 | 0 | 0 | 0 | 0 | HTML,Java | 0 | 0 | 1| 
 | fgrimme | Matroschka Python #steganography tool to hide images or text in imageshttps://github.com/fgrimme/Matroschka | https://github.com/fgrimme/Matroschka | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | fiht | educn-sqlScan: 对全国edu域名以及其二级域名进行的一次Sql注入 | https://github.com/fiht/educn-sqlScan | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
-| fireeye | FireEye FLARE VM 开源的面向恶意软件分析和应急响应的 Windows 虚拟机 | https://github.com/fireeye/flare-vm | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Vue,Python,JavaScript,C++,C#,Shell,Go,Swift,PowerShell,CSS | 0 | 0 | 3| 
+| fireeye | Speakeasy - FireEye 开源的用于模拟执行 Windows 用户态、内核态恶意软件的工具 | https://github.com/fireeye/speakeasy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Vue,Python,JavaScript,C++,C#,TypeScript,Go,PowerShell | 0 | 0 | 4| 
 | firmianay | IoT-vulhub: IoT 固件漏洞复现环境 | https://github.com/firmianay/IoT-vulhub | https://firmianay.github.io | Information Security Student & CTF Player & member of @XDSEC, @xdlinux | China | Xidian University | 16 | 0 | 0 | 0 | 0 | Python,C,Shell | 2000 | 414 | 1| 
 | fkie-cad | 嵌入式与 IoT 安全方向的资料 | https://github.com/fkie-cad/awesome-embedded-and-iot-security | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Python,OCaml,C++,Emacs,Dockerfile | 0 | 0 | 2| 
 | fofapro | 基于 Docker 镜像的漏洞靶场平台 | https://github.com/fofapro/vulfocus | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Vue,Java,Python,Go,CSS | 169 | 19 | 1| 
@@ -3944,6 +3944,7 @@
 | spyre-project | 基于Yara的简单IOC扫描器Spyre | https://github.com/spyre-project/spyre | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go | 0 | 0 | 1| 
 | sslab-gatech | QSYM - 为混合 Fuzz 定制的符号执行引擎 | https://github.com/sslab-gatech/qsym | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Filebench,Python,Makefile,C++,HTML,HCL | 0 | 0 | 1| 
 | suraj-root | Shellcode mapper | https://github.com/suraj-root/smap/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| susam | UNIX命令语言（1976）资源。 | https://github.com/susam/tucl | https://susam.in/ |  | None | None | 29 | 0 | 0 | 0 | 0 | Python,C,JavaScript,Makefile,CSS | 1500 | 66 | 1| 
 | switchbrew | nx-hbexploit300-obf - Homebrew exploit for 3.0.0: | https://github.com/switchbrew/nx-hbexploit300-obf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Python,JavaScript,Makefile,HTML,CSS | 0 | 0 | 1| 
 | synacktiv | 用于优化 IDA Hex-Rays 反编译器处理 VMX 指令的插件 | https://github.com/synacktiv/vmx_intrinsics | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,PHP,Rust | 0 | 0 | 2| 
 | taipan-scanner | Taipan: Web application security scanner | https://github.com/taipan-scanner/Taipan | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -3996,6 +3997,8 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 勒索软件的体系结构研究（1/2） | http://medium.com/bugbountywriteup/architecture-of-a-ransomware-1-2-1b9fee757fcb| 
+| 使用开放网络进行MITM WiFi攻击测试。 | http://medium.com/bugbountywriteup/mitm-wifi-attacks-using-open-networks-7c0cc283524c?source=rss----7b722bfd1b8d---4| 
 | WP: 发现 SSTI 漏洞并绕过 WAF | http://cyc10n3.medium.com/rce-via-server-side-template-injection-ad46f8e0c2ae| 
 | 在 Python 中调用 Objective C 代码 | http://medium.com/red-teaming-with-a-blue-team-mentaility/making-objective-c-calls-from-python-standard-libraries-550ed3a30a30| 
 | TP-Link Takeover with a Flash Drive | http://medium.com/tenable-techblog/tp-link-takeover-with-a-flash-drive-d493666f6b39| 
@@ -4290,6 +4293,7 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| Java中js命令执行的攻与防 | https://xz.aliyun.com/t/8567| 
 | 从sql注入到连接3389 | https://xz.aliyun.com/t/8561| 
 | 记一次三层网络环境的靶场渗透 | https://xz.aliyun.com/t/8519| 
 | 高级的MSSQL注入技巧 | https://xz.aliyun.com/t/8513| 
