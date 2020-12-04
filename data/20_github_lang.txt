@@ -1,13 +1,13 @@
-Python	1049
+Python	1050
 JavaScript	656
-C	651
+C	652
 C++	532
 HTML	476
 Shell	454
-Java	441
+Java	442
 Go	375
 C#	264
-Ruby	258
+Ruby	259
 PHP	231
 CSS	227
 PowerShell	226
@@ -19,7 +19,7 @@ Perl	74
 Swift	68
 Dockerfile	65
 Assembly	64
-Makefile	60
+Makefile	61
 Lua	59
 TeX	56
 Batchfile	52
