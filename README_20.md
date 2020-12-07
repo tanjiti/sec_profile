@@ -14,13 +14,18 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| SecOps急行军 | SecOpsWithU | 红蓝对抗中的溯源反制实战 | https://mp.weixin.qq.com/s/Dswz7lxNpW5yLxmWKtqY6Q | 1| 
+| 情报分析师 | qingbaofenxishi | 【原创】手机app数据画像分析技战法 | https://mp.weixin.qq.com/s/FdOeOC6JZE5a0r328nmtew | 6| 
+| IRT工业安全红队 | ICSRedTeam | 基于Codesys工控软PLC环境 | https://mp.weixin.qq.com/s/28BgVoIt7Naij84HEDqtFQ | 1| 
+| 安小记 | AnSecNote | MITRE ATT&CK基本概念 | https://mp.weixin.qq.com/s/yOJNWazCeGKKMR8titj3cg | 1| 
+| 绿盟科技研究通讯 | nsfocus_research | 【云原生攻防研究 】针对AWS Lambda的运行时攻击 | https://mp.weixin.qq.com/s/duF1Z0EDC3n_G378Aq_XYA | 36| 
+| 酒仙桥六号部队 | anfu-360 | 玩转graphQL | https://mp.weixin.qq.com/s/gp2jGrLPllsh5xn7vn9BwQ | 8| 
 | 代码审计 | white-hat-note | 有安全研究者混入了PHP 8.0开发组！ | https://mp.weixin.qq.com/s/0HSAPYY2PjbwEN3MhI4SkA | 1| 
 | 互联网安全内参 | anquanneican | 以色列网络安全产业发展经验及启示 | https://mp.weixin.qq.com/s/YlvN-HBJwQwc9C4YJ0aXWg | 9| 
 | 网络安全观 | SecurityInsights | 美国国防部零信任的支柱 | https://mp.weixin.qq.com/s/Fd0iKkGgE6Y1e81tP3MJFQ | 10| 
 | 潇湘信安 | xxxasec | 西部数码云主机失败提权案例 | https://mp.weixin.qq.com/s/tMootD29tV5sPMje5GJFcA | 27| 
 | 图谱学苑 | gh_eb1997a4e380 | 论文导读 , 图数据流子图查询 | https://mp.weixin.qq.com/s/gPwWhlKsymu17kZPajyfqQ | 2| 
 | 警笛 | asirhelper | 公安部最新通知！办理赌博犯罪案件新规（两高一部发布） | https://mp.weixin.qq.com/s/SPl3IXcvcYe3osAjqsswlg | 1| 
-| 酒仙桥六号部队 | anfu-360 | 一张随拍引起的安全思考 | https://mp.weixin.qq.com/s/xt7kgg2YFQxVzup92WMXXw | 7| 
 | 有赞coder | youzan_coder | 接口越权扫描平台初探 | https://mp.weixin.qq.com/s/epVb1Y4WQ-MWeRhRPlvofg | 1| 
 | ChaMd5安全团队 | chamd5sec | 智能合约:整数溢出、访问控制缺陷漏洞与跨合约调用漏洞 | https://mp.weixin.qq.com/s/XRrHeugDMV-6ANRxC0ov3Q | 30| 
 | Netlab 三六零 | Netlab_360 | DNSMon: 用DNS数据进行威胁发现 | https://mp.weixin.qq.com/s/6CtRd7o4IjreLaU-hFt9vQ | 2| 
@@ -49,7 +54,6 @@
 | nmask | nmask-article | 黑客诱捕器—蜜罐的部署与使用 | https://mp.weixin.qq.com/s/TPb3E1fRszdEwp6Yyn8mQw | 6| 
 | 嘶吼专业版 | Pro4hou | 安全运营之攻击溯源 | https://mp.weixin.qq.com/s/9Yx4gK5-7CbP9Aqy-twpVw | 20| 
 | 梦之光芒的电子梦 | monyer_mp | 人生是一个回环 —— 我的十年安全工作总结 | https://mp.weixin.qq.com/s/OiBtKzKaWuzVvBGO_rwC5A | 3| 
-| 绿盟科技研究通讯 | nsfocus_research | Serverless安全研究 — Serverless安全风险 | https://mp.weixin.qq.com/s/rbS0_42RBiFu8UFFQW4kew | 35| 
 | 赛博星人 | cyberspace_666 | 红蓝对抗之内网中psexec的行为捕获 | https://mp.weixin.qq.com/s/G7Gdb_gXNn5FAR78Edps-w | 2| 
 | Coggle数据科学 | gh_8df601c10cb4 | 蚂蚁金服-支付风险识别亚军方案 | https://mp.weixin.qq.com/s/5NNTeLvqWl0_SQaPl-Cvug | 2| 
 | 腾讯代码安全检查Xcheck | gh_177b81103e8d | Xcheck之Java安全检查引擎 | https://mp.weixin.qq.com/s/rb1BfcZeCTr2PIiypXqVjw | 2| 
@@ -112,7 +116,6 @@
 | OPPO安全应急响应中心 | opposrc | OPPO互联网DevSecOps实践 | https://mp.weixin.qq.com/s/eCwXozibaABcZjUOqTn4Zg | 2| 
 | Tide安全团队 | TideSec | ​某地市攻防演练总结与反思 | https://mp.weixin.qq.com/s/QoMn-T_KKT4oo7I-TRGAUQ | 39| 
 | 安全客 | anquanbobao | 一例APT28（Fancybear）样本详细分析 | https://mp.weixin.qq.com/s/EBSCPTLt8cwIvptdcdpHJQ | 10| 
-| 情报分析师 | qingbaofenxishi | 恐怖组织使用加密货币的可能性与需求 | https://mp.weixin.qq.com/s/W0kZLbLcja1Sxh7QM8os_g | 5| 
 | 这里是河马 | gh_d110440c4890 | ​GODNSLOG , 开源一个新鲜的DNSLOG | https://mp.weixin.qq.com/s/SVrEAgeqwtj6JZSfcspxXA | 8| 
 | 阿里安全响应中心 | alisrc | 污点传递理论在Webshell检测中的应用 -- PHP篇 | https://mp.weixin.qq.com/s/MFmSliCQaaVEQ0E66vN5Xg | 9| 
 | 零队 | gh_a3bc6828636a | MySQL蜜罐获取攻击者微信ID | https://mp.weixin.qq.com/s/m4I_YDn98K_A2yGAhv67Gg | 4| 
@@ -3644,6 +3647,7 @@
 | IDAConnect | IDAConnect - 用于 IDA Pro 和 Hex-Rays 的逆向工程协同插件: | https://github.com/IDAConnect/IDAConnect | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | Integration-IT | Active Directory Exploitation Cheat Sheet | https://github.com/Integration-IT/Active-Directory-Exploitation-Cheat-Sheet | None |  | None | None | 0 | 0 | 0 | 0 | 0 | Ruby,PowerShell | 308 | 55 | 1| 
 | Jewel591 | XSSMAP-一款快速检测Web应用程序中的XSS漏洞的开源工具 | https://github.com/Jewel591/xssmap | http://Jewel591.fun | Security operations engineer | United Kingdom | A security consulting firm | 15 | 0 | 0 | 0 | 0 | Python,C,Perl | 30 | 5 | 1| 
+| KasperskyLab | TinyCheck - 卡巴斯基开源的智能手机流量劫持工具 | https://github.com/KasperskyLab/TinyCheck | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Python,Kotlin,C++,C#,PHP | 0 | 0 | 1| 
 | KruDex | lan-monitor - 根据 NMAP 扫描结果在网页上显示 LAN 状态: | https://github.com/KruDex/lan-monitor | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | LOLBAS-Project | LOLBAS - 可以直接用作攻击工具的,系统自带的二进制文件和脚本(包括动态库): | https://github.com/LOLBAS-Project/LOLBAS | None | None | None | None | 0 | 0 | 0 | 0 | 0 | HTML,XSLT | 0 | 0 | 1| 
 | LPK-Matt | SkidSuite2 - A set of projects focusing on java reverse engineering using ASM. CC: @ timstrazz @ caleb_fenton | https://github.com/LPK-Matt/SkidSuite2 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -3689,6 +3693,7 @@
 | SecurityRiskAdvisors | PDBlaster - 批量从可执行文件中提取 PDB 文件路径的工具 | https://github.com/SecurityRiskAdvisors/PDBlaster | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Java,Python,JavaScript,Perl,HTML,Ruby,PowerShell | 0 | 0 | 1| 
 | Sentinel-One | 基于 Qiling 框架实现的 UEFI NVRAM 变量 Fuzzer | https://github.com/Sentinel-One/efi_fuzz | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,C#,Objective-C,HTML,Shell | 0 | 0 | 1| 
 | SerpicoProject | Serpico - 渗透测试报告生成与协作工具: | https://github.com/SerpicoProject/Serpico | None | None | None | None | 0 | 0 | 0 | 0 | 0 | JavaScript,Ruby,HTML | 0 | 0 | 1| 
+| ShiHuang-ESec | EHole: (棱洞)-红队重点攻击系统指纹探测工具 | https://github.com/ShiHuang-ESec/EHole | None |  | None | None | 2 | 0 | 0 | 0 | 0 |  | 113 | 17 | 1| 
 | SparkSharly | Deep Learning for detection with XSS | https://github.com/SparkSharly/DL_for_xss | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | Tencent | TencentOS tiny - 腾讯开源的面向物联网领域的实时操作系统 | https://github.com/Tencent/TencentOS-tiny | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Java,Python,Kotlin,JavaScript,C++,Lua,Go,PHP,CSS,C# | 23200 | 5900 | 1| 
 | TheKingOfDuck | FileMonitor: 文件变化实时监控工具 | https://github.com/TheKingOfDuck/FileMonitor | https://blog.xxxxxxxxx/ | FIVE,,Infosec Researcher,,Security Developer | V1g6VGhlS2luZ09mR2FHYUdh | None | 43 | 0 | 0 | 0 | 0 | Python,C#,Shell | 2500 | 980 | 3| 
@@ -3837,6 +3842,7 @@
 | joshDelta | Gloom-Framework - Linux 渗透测试框架: | https://github.com/joshDelta/Gloom-Framework | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | jumpserver | jumpserver: 开源跳板机(堡垒机):认证,授权,审计,自动化运维 | https://github.com/jumpserver/jumpserver | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Java,JavaScript,Dockerfile,HTML | 0 | 0 | 1| 
 | k8scop | k8s-security-dashboard: A security monitoring solution for Kubernetes | https://github.com/k8scop/k8s-security-dashboard | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
+| kevoreilly | CAPEv2: Malware Configuration And Payload Extraction | https://github.com/kevoreilly/CAPEv2 | https://twitter.com/CapeSandbox | CAPE developer | None | None | 8 | 0 | 0 | 0 | 0 | Python,C | 318 | 90 | 1| 
 | kisec | Kibana CVE-2019-7609 RCE Exploit 代码 | https://github.com/kisec/CVE-2019-7609?fbclid=IwAR02m1XrcGDleYn8KzrjBRuIFNXzwJumhrYi2n7zSFeq9fvPk39FxPyAyWY | http://www.kisec.com | Korea Information Security Education Center | None | 한국정보보호교육센터 | 25 | 0 | 0 | 0 | 0 | Python,Go,Shell | 13 | 2 | 1| 
 | knownsec | ksubdomain: 无状态子域名爆破工具 | https://github.com/knownsec/ksubdomain | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,JavaScript | 0 | 0 | 1| 
 | knrdl | yamot - 基于 Web 的 Linux/BSD 服务器监控工具: | https://github.com/knrdl/yamot | None |  | Berlin, Germany | None | 1 | 0 | 0 | 0 | 0 | HTML | 0 | 0 | 1| 
@@ -4172,6 +4178,7 @@
 # medium_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| Mapping ATT&CK Data Sources to Security Events via OSSEM | https://medium.com/threat-hunters-forge/mapping-att-ck-data-sources-to-security-events-via-ossem-%EF%B8%8F-b606d99e738c| 
 | FAQs on Getting Started in Cyber Threat Intelligence | https://medium.com/katies-five-cents/faqs-on-getting-started-in-cyber-threat-intelligence-f567f267348e| 
 | How Malicious Tor Relays are Exploiting Users in 2020 (Par... | https://medium.com/@nusenu/how-malicious-tor-relays-are-exploiting-users-in-2020-part-i-1097575c0cac| 
 | Security Detections on Windows Events with Recurrent Neura... | https://medium.com/@ditrizna/security-detections-on-windows-events-with-recurrent-neural-networks-346d0b2738fe| 
@@ -4297,6 +4304,9 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 云安全威胁检测项 | https://help.aliyun.com/document_detail/191144.html| 
+| 内网技巧-RDP劫持及利用hash登录 | https://xz.aliyun.com/t/8574| 
+| As-Exploits: 中国蚁剑后渗透框架 | https://xz.aliyun.com/t/8591| 
 | Java中js命令执行的攻与防 | https://xz.aliyun.com/t/8567| 
 | 从sql注入到连接3389 | https://xz.aliyun.com/t/8561| 
 | 记一次三层网络环境的靶场渗透 | https://xz.aliyun.com/t/8519| 

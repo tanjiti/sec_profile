@@ -14,13 +14,18 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| SecOps急行军 | SecOpsWithU | 红蓝对抗中的溯源反制实战 | https://mp.weixin.qq.com/s/Dswz7lxNpW5yLxmWKtqY6Q | 1| 
+| 情报分析师 | qingbaofenxishi | 【原创】手机app数据画像分析技战法 | https://mp.weixin.qq.com/s/FdOeOC6JZE5a0r328nmtew | 3| 
+| IRT工业安全红队 | ICSRedTeam | 基于Codesys工控软PLC环境 | https://mp.weixin.qq.com/s/28BgVoIt7Naij84HEDqtFQ | 1| 
+| 安小记 | AnSecNote | MITRE ATT&CK基本概念 | https://mp.weixin.qq.com/s/yOJNWazCeGKKMR8titj3cg | 1| 
+| 绿盟科技研究通讯 | nsfocus_research | 【云原生攻防研究 】针对AWS Lambda的运行时攻击 | https://mp.weixin.qq.com/s/duF1Z0EDC3n_G378Aq_XYA | 13| 
+| 酒仙桥六号部队 | anfu-360 | 玩转graphQL | https://mp.weixin.qq.com/s/gp2jGrLPllsh5xn7vn9BwQ | 8| 
 | 代码审计 | white-hat-note | 有安全研究者混入了PHP 8.0开发组！ | https://mp.weixin.qq.com/s/0HSAPYY2PjbwEN3MhI4SkA | 1| 
 | 互联网安全内参 | anquanneican | 以色列网络安全产业发展经验及启示 | https://mp.weixin.qq.com/s/YlvN-HBJwQwc9C4YJ0aXWg | 6| 
 | 网络安全观 | SecurityInsights | 美国国防部零信任的支柱 | https://mp.weixin.qq.com/s/Fd0iKkGgE6Y1e81tP3MJFQ | 10| 
 | 潇湘信安 | xxxasec | 西部数码云主机失败提权案例 | https://mp.weixin.qq.com/s/tMootD29tV5sPMje5GJFcA | 27| 
 | 图谱学苑 | gh_eb1997a4e380 | 论文导读 , 图数据流子图查询 | https://mp.weixin.qq.com/s/gPwWhlKsymu17kZPajyfqQ | 2| 
 | 警笛 | asirhelper | 公安部最新通知！办理赌博犯罪案件新规（两高一部发布） | https://mp.weixin.qq.com/s/SPl3IXcvcYe3osAjqsswlg | 1| 
-| 酒仙桥六号部队 | anfu-360 | 一张随拍引起的安全思考 | https://mp.weixin.qq.com/s/xt7kgg2YFQxVzup92WMXXw | 7| 
 | 有赞coder | youzan_coder | 接口越权扫描平台初探 | https://mp.weixin.qq.com/s/epVb1Y4WQ-MWeRhRPlvofg | 1| 
 | ChaMd5安全团队 | chamd5sec | 智能合约:整数溢出、访问控制缺陷漏洞与跨合约调用漏洞 | https://mp.weixin.qq.com/s/XRrHeugDMV-6ANRxC0ov3Q | 22| 
 | Netlab 三六零 | Netlab_360 | DNSMon: 用DNS数据进行威胁发现 | https://mp.weixin.qq.com/s/6CtRd7o4IjreLaU-hFt9vQ | 2| 
@@ -49,7 +54,6 @@
 | nmask | nmask-article | 黑客诱捕器—蜜罐的部署与使用 | https://mp.weixin.qq.com/s/TPb3E1fRszdEwp6Yyn8mQw | 4| 
 | 嘶吼专业版 | Pro4hou | 安全运营之攻击溯源 | https://mp.weixin.qq.com/s/9Yx4gK5-7CbP9Aqy-twpVw | 4| 
 | 梦之光芒的电子梦 | monyer_mp | 人生是一个回环 —— 我的十年安全工作总结 | https://mp.weixin.qq.com/s/OiBtKzKaWuzVvBGO_rwC5A | 2| 
-| 绿盟科技研究通讯 | nsfocus_research | Serverless安全研究 — Serverless安全风险 | https://mp.weixin.qq.com/s/rbS0_42RBiFu8UFFQW4kew | 12| 
 | 赛博星人 | cyberspace_666 | 红蓝对抗之内网中psexec的行为捕获 | https://mp.weixin.qq.com/s/G7Gdb_gXNn5FAR78Edps-w | 1| 
 | Coggle数据科学 | gh_8df601c10cb4 | 蚂蚁金服-支付风险识别亚军方案 | https://mp.weixin.qq.com/s/5NNTeLvqWl0_SQaPl-Cvug | 2| 
 | 腾讯代码安全检查Xcheck | gh_177b81103e8d | Xcheck之Java安全检查引擎 | https://mp.weixin.qq.com/s/rb1BfcZeCTr2PIiypXqVjw | 2| 
@@ -112,7 +116,6 @@
 | OPPO安全应急响应中心 | opposrc | OPPO互联网DevSecOps实践 | https://mp.weixin.qq.com/s/eCwXozibaABcZjUOqTn4Zg | 1| 
 | Tide安全团队 | TideSec | ​某地市攻防演练总结与反思 | https://mp.weixin.qq.com/s/QoMn-T_KKT4oo7I-TRGAUQ | 39| 
 | 安全客 | anquanbobao | 一例APT28（Fancybear）样本详细分析 | https://mp.weixin.qq.com/s/EBSCPTLt8cwIvptdcdpHJQ | 4| 
-| 情报分析师 | qingbaofenxishi | 恐怖组织使用加密货币的可能性与需求 | https://mp.weixin.qq.com/s/W0kZLbLcja1Sxh7QM8os_g | 2| 
 | 这里是河马 | gh_d110440c4890 | ​GODNSLOG , 开源一个新鲜的DNSLOG | https://mp.weixin.qq.com/s/SVrEAgeqwtj6JZSfcspxXA | 7| 
 | 阿里安全响应中心 | alisrc | 污点传递理论在Webshell检测中的应用 -- PHP篇 | https://mp.weixin.qq.com/s/MFmSliCQaaVEQ0E66vN5Xg | 4| 
 | 零队 | gh_a3bc6828636a | MySQL蜜罐获取攻击者微信ID | https://mp.weixin.qq.com/s/m4I_YDn98K_A2yGAhv67Gg | 4| 
@@ -429,6 +432,7 @@
 | HexHive | FuzzGen: Automatic Fuzzer Generation | https://github.com/HexHive/FuzzGen | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Python,C++,TeX,HTML,Brainfuck | 0 | 0 | 1| 
 | Integration-IT | Active Directory Exploitation Cheat Sheet | https://github.com/Integration-IT/Active-Directory-Exploitation-Cheat-Sheet | None |  | None | None | 0 | 0 | 0 | 0 | 0 | Ruby,PowerShell | 308 | 55 | 1| 
 | Jewel591 | XSSMAP-一款快速检测Web应用程序中的XSS漏洞的开源工具 | https://github.com/Jewel591/xssmap | http://Jewel591.fun | Security operations engineer | United Kingdom | A security consulting firm | 15 | 0 | 0 | 0 | 0 | Python,C,Perl | 30 | 5 | 1| 
+| KasperskyLab | TinyCheck - 卡巴斯基开源的智能手机流量劫持工具 | https://github.com/KasperskyLab/TinyCheck | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Python,Kotlin,C++,C#,PHP | 0 | 0 | 1| 
 | LennyLeng | SOC_Sankey_Generator: 从SOC日志中进行数据ETL与数据可视化的工具 | https://github.com/LennyLeng/SOC_Sankey_Generator | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | LoRexxar | Kunlun-Mirror 专注于安全研究员使用的审计辅助工具 | https://github.com/LoRexxar/Kunlun-M | https://lorexxar.cn | Vidar-Team/Knownsec 404-Team hacker or developer? | None | None | 52 | 0 | 0 | 0 | 0 | Python,Vue | 412 | 92 | 1| 
 | MalPhobic | Abbadon 远控工具使用 Discord 作为 C&C | https://github.com/MalPhobic/MalwareReports/blob/main/AbbadonRAT/Abbadon_RAT.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
@@ -449,6 +453,7 @@
 | SecureAuthCorp | RCE in any MS Exchange via Exchange Trusted Subsystem | https://github.com/SecureAuthCorp/impacket/pull/857 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Java,Python,JavaScript,C#,HTML,Go | 0 | 0 | 1| 
 | SecurityRiskAdvisors | PDBlaster - 批量从可执行文件中提取 PDB 文件路径的工具 | https://github.com/SecurityRiskAdvisors/PDBlaster | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Java,Python,JavaScript,Perl,HTML,Ruby,PowerShell | 0 | 0 | 1| 
 | Sentinel-One | 基于 Qiling 框架实现的 UEFI NVRAM 变量 Fuzzer | https://github.com/Sentinel-One/efi_fuzz | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,C#,Objective-C,HTML,Shell | 0 | 0 | 1| 
+| ShiHuang-ESec | EHole: (棱洞)-红队重点攻击系统指纹探测工具 | https://github.com/ShiHuang-ESec/EHole | None |  | None | None | 2 | 0 | 0 | 0 | 0 |  | 113 | 17 | 1| 
 | TheKingOfDuck | FileMonitor: 文件变化实时监控工具 | https://github.com/TheKingOfDuck/FileMonitor | https://blog.xxxxxxxxx/ | FIVE,,Infosec Researcher,,Security Developer | V1g6VGhlS2luZ09mR2FHYUdh | None | 43 | 0 | 0 | 0 | 0 | Python,C#,Shell | 2500 | 980 | 2| 
 | TophantTechnology | ARL: 资产侦察灯塔系统 | https://github.com/TophantTechnology/ARL | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | WebKit | WebKit 引入 JIT-Caging 特性实现细粒度的 PAC 保护机制 | https://github.com/WebKit/webkit/commit/2ffeeff4dfb86a74ae695dea8671fccc423559ad | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Makefile | 0 | 0 | 1| 
@@ -508,6 +513,7 @@
 | ioncodes | 绕过 NTFS 的文件权限限制，实现任意文件读漏洞（CVE-2020-16938） | https://github.com/ioncodes/CVE-2020-16938 | https://twitter.com/layle_ctf | Hacker in the streets, reverse engineer in the sheets. Thats how it works, right? | Here | None | 272 | 0 | 0 | 0 | 0 | Python,C#,C,CSS,C++ | 624 | 74 | 2| 
 | jas502n | CVE-2020–14882 Weblogic Unauthorized bypass RCE | https://github.com/jas502n/CVE-2020-14882 | https://twitter.com/jas502n | 1.misc 2.crypto 3. web 4. reverse 5. android 6. pwn 7. elf | 0.0.0.0/0 | None | 301 | 0 | 0 | 0 | 0 | Python,C,Shell,Java | 359 | 168 | 2| 
 | joinsec | BadDNS: 使用公共 DNS 服务器进行多层子域名探测的极速工具 | https://github.com/joinsec/BadDNS | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,Rust | 0 | 0 | 1| 
+| kevoreilly | CAPEv2: Malware Configuration And Payload Extraction | https://github.com/kevoreilly/CAPEv2 | https://twitter.com/CapeSandbox | CAPE developer | None | None | 8 | 0 | 0 | 0 | 0 | Python,C | 318 | 90 | 1| 
 | kisec | Kibana CVE-2019-7609 RCE Exploit 代码 | https://github.com/kisec/CVE-2019-7609?fbclid=IwAR02m1XrcGDleYn8KzrjBRuIFNXzwJumhrYi2n7zSFeq9fvPk39FxPyAyWY | http://www.kisec.com | Korea Information Security Education Center | None | 한국정보보호교육센터 | 25 | 0 | 0 | 0 | 0 | Python,Go,Shell | 13 | 2 | 1| 
 | knownsec | ksubdomain: 无状态子域名爆破工具 | https://github.com/knownsec/ksubdomain | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,JavaScript | 0 | 0 | 1| 
 | kov4l3nko | MEDUZA - 基于 Frida，针对越狱 iOS 系统编写的 SSL unpinning 工具 | https://github.com/kov4l3nko/MEDUZA | https://kov4l3nko.github.io/about/ | iOS/Android reverse engineer and security researcher | The country where cyberpunk won | None | 7 | 0 | 0 | 0 | 0 | Python,JavaScript,Java,HTML | 99 | 14 | 1| 
@@ -670,6 +676,7 @@
 # medium_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| Mapping ATT&CK Data Sources to Security Events via OSSEM | https://medium.com/threat-hunters-forge/mapping-att-ck-data-sources-to-security-events-via-ossem-%EF%B8%8F-b606d99e738c| 
 | FAQs on Getting Started in Cyber Threat Intelligence | https://medium.com/katies-five-cents/faqs-on-getting-started-in-cyber-threat-intelligence-f567f267348e| 
 | How Malicious Tor Relays are Exploiting Users in 2020 (Par... | https://medium.com/@nusenu/how-malicious-tor-relays-are-exploiting-users-in-2020-part-i-1097575c0cac| 
 | Security Detections on Windows Events with Recurrent Neura... | https://medium.com/@ditrizna/security-detections-on-windows-events-with-recurrent-neural-networks-346d0b2738fe| 
@@ -735,6 +742,9 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 云安全威胁检测项 | https://help.aliyun.com/document_detail/191144.html| 
+| 内网技巧-RDP劫持及利用hash登录 | https://xz.aliyun.com/t/8574| 
+| As-Exploits: 中国蚁剑后渗透框架 | https://xz.aliyun.com/t/8591| 
 | Java中js命令执行的攻与防 | https://xz.aliyun.com/t/8567| 
 | 从sql注入到连接3389 | https://xz.aliyun.com/t/8561| 
 | 记一次三层网络环境的靶场渗透 | https://xz.aliyun.com/t/8519| 

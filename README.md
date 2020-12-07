@@ -14,6 +14,12 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| SecOps急行军 | SecOpsWithU | 红蓝对抗中的溯源反制实战 | https://mp.weixin.qq.com/s/Dswz7lxNpW5yLxmWKtqY6Q | 1| 
+| 情报分析师 | qingbaofenxishi | 【原创】手机app数据画像分析技战法 | https://mp.weixin.qq.com/s/FdOeOC6JZE5a0r328nmtew | 1| 
+| IRT工业安全红队 | ICSRedTeam | 基于Codesys工控软PLC环境 | https://mp.weixin.qq.com/s/28BgVoIt7Naij84HEDqtFQ | 1| 
+| 安小记 | AnSecNote | MITRE ATT&CK基本概念 | https://mp.weixin.qq.com/s/yOJNWazCeGKKMR8titj3cg | 1| 
+| 绿盟科技研究通讯 | nsfocus_research | 【云原生攻防研究 】针对AWS Lambda的运行时攻击 | https://mp.weixin.qq.com/s/duF1Z0EDC3n_G378Aq_XYA | 1| 
+| 酒仙桥六号部队 | anfu-360 | 玩转graphQL | https://mp.weixin.qq.com/s/gp2jGrLPllsh5xn7vn9BwQ | 1| 
 | 潇湘信安 | xxxasec | 韩国登录框POST注入到Getshell | https://mp.weixin.qq.com/s/Orb6hzZTwyXcEVxmwqgeUw | 1| 
 
 
@@ -26,8 +32,11 @@
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | Ch1ngg | WebLogicPasswordDecryptor - 解密 WebLogic 密文 | https://github.com/Ch1ngg/WebLogicPasswordDecryptorUi | https://www.ch1ng.com/ |  | no | no | 24 | 0 | 0 | 0 | 0 | Python,C#,ASP,Java | 118 | 21 | 1| 
+| KasperskyLab | TinyCheck - 卡巴斯基开源的智能手机流量劫持工具 | https://github.com/KasperskyLab/TinyCheck | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Python,Kotlin,C++,C#,PHP | 0 | 0 | 1| 
+| ShiHuang-ESec | EHole: (棱洞)-红队重点攻击系统指纹探测工具 | https://github.com/ShiHuang-ESec/EHole | None |  | None | None | 2 | 0 | 0 | 0 | 0 |  | 113 | 17 | 1| 
 | charles2gan | 一款全新的 Android 反编译工具，支持 APK、DEX、ODEX、OAT、JAR、AAR、CLASS 文件格式的反编译 | https://github.com/charles2gan/GDA-android-reversing-Tool | https://www.zhihu.com/people/gjden | Leader of a Research Team, Senior security researcher. Malware Analysis, Vulnerability Analysis, Threat Intelligence etc. | None | adlab | 25 | 0 | 0 | 0 | 0 | Python,Makefile,Java,Ruby,C | 1100 | 152 | 1| 
 | fireeye | Speakeasy - FireEye 开源的用于模拟执行 Windows 用户态、内核态恶意软件的工具 | https://github.com/fireeye/speakeasy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Vue,Python,JavaScript,C++,C#,TypeScript,Go,PowerShell | 0 | 0 | 1| 
+| kevoreilly | CAPEv2: Malware Configuration And Payload Extraction | https://github.com/kevoreilly/CAPEv2 | https://twitter.com/CapeSandbox | CAPE developer | None | None | 8 | 0 | 0 | 0 | 0 | Python,C | 318 | 90 | 1| 
 | odedshimon | BruteShark: Network Analysis Tool | https://github.com/odedshimon/BruteShark | http://www.linkedin.com/in/oded-shimon-6ba6721a8 | Software & Cyber Engineer | None | None | 3 | 0 | 0 | 0 | 0 | C#,Python | 992 | 126 | 1| 
 | susam | UNIX命令语言（1976）资源。 | https://github.com/susam/tucl | https://susam.in/ |  | None | None | 29 | 0 | 0 | 0 | 0 | Python,C,JavaScript,Makefile,CSS | 1500 | 66 | 1| 
 | tacnetsol | IOT Exploitation Ghidra Scripts | https://github.com/tacnetsol/ghidra_scripts | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
@@ -44,6 +53,7 @@
 # medium_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| Mapping ATT&CK Data Sources to Security Events via OSSEM | https://medium.com/threat-hunters-forge/mapping-att-ck-data-sources-to-security-events-via-ossem-%EF%B8%8F-b606d99e738c| 
 
 
 # zhihu_xuanwu 推荐
@@ -64,6 +74,9 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 云安全威胁检测项 | https://help.aliyun.com/document_detail/191144.html| 
+| 内网技巧-RDP劫持及利用hash登录 | https://xz.aliyun.com/t/8574| 
+| As-Exploits: 中国蚁剑后渗透框架 | https://xz.aliyun.com/t/8591| 
 
 
 

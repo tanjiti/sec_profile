@@ -1,0 +1,29 @@
+20201130	Web安全	https://mp.weixin.qq.com/s/Orb6hzZTwyXcEVxmwqgeUw	韩国登录框POST注入到Getshell	qq.com	mp.weixin.qq.com	/s/Orb6hzZTwyXcEVxmwqgeUw
+20201130	Web安全	https://www.sec-in.com/article/545	一次SQL注入导致的越权	sec-in.com	www.sec-in.com	/article/545
+20201130	Web安全	https://mp.weixin.qq.com/s/rtE1e55xOSBpMVfg0KGw8g	意大利后台登录框POST注入实战	qq.com	mp.weixin.qq.com	/s/rtE1e55xOSBpMVfg0KGw8g
+20201130	恶意分析	https://paper.seebug.org/1413/	如何实现一款 shellcodeLoader	seebug.org	paper.seebug.org	/1413/
+20201130	取证分析	https://github.com/odedshimon/BruteShark	BruteShark: Network Analysis Tool	github.com	github.com	/odedshimon/BruteShark
+20201130	Web安全	https://xz.aliyun.com/t/8567	Java中js命令执行的攻与防	aliyun.com	xz.aliyun.com	/t/8567
+20201130	Web安全	https://xz.aliyun.com/t/8591	As-Exploits: 中国蚁剑后渗透框架	aliyun.com	xz.aliyun.com	/t/8591
+20201130	Web安全	https://www.sec-in.com/article/709	python代码审计-osroom	sec-in.com	www.sec-in.com	/article/709
+20201130	Web安全	https://xz.aliyun.com/t/8574	内网技巧-RDP劫持及利用hash登录	aliyun.com	xz.aliyun.com	/t/8574
+20201130	运维安全	https://www.freebuf.com/articles/compliance/256099.html	Java程序恶意行为监控组件	freebuf.com	www.freebuf.com	/articles/compliance/256099.html
+20201130	编程技术	https://mp.weixin.qq.com/s/gp2jGrLPllsh5xn7vn9BwQ	玩转graphQL	qq.com	mp.weixin.qq.com	/s/gp2jGrLPllsh5xn7vn9BwQ
+20201130	杂志	https://www.sec-wiki.com/weekly/352	SecWiki周刊（第352期)	sec-wiki.com	www.sec-wiki.com	/weekly/352
+20201130	Web安全	https://www.sec-in.com/article/722	how2heap注意点总结-上	sec-in.com	www.sec-in.com	/article/722
+20201130	恶意分析	https://cybergeeks.tech/dissecting-apt21-samples-using-a-step-by-step-approach/	Dissecting APT21 samples using a step-by-step approach	cybergeeks.tech	cybergeeks.tech	/dissecting-apt21-samples-using-a-step-by-step-approach/
+20201130	工具	https://github.com/Ch1ngg/WebLogicPasswordDecryptorUi	WebLogicPasswordDecryptor - 解密 WebLogic 密文	github.com	github.com	/Ch1ngg/WebLogicPasswordDecryptorUi
+20201130	漏洞分析	https://www.forrest-orr.net/post/a-modern-exploration-of-windows-memory-corruption-exploits-part-i-stack-overflows	A Modern Exploration of Windows Memory Corruption Exploits - Part I	forrest-orr.net	www.forrest-orr.net	/post/a-modern-exploration-of-windows-memory-corruption-exploits-part-i-stack-overflows
+20201130	漏洞分析	https://qingkaishi.github.io/public_pdfs/thesis.pdf	Precise and Scalable Static Bug Finding for Industrial-Sized Code	github.io	qingkaishi.github.io	/public_pdfs/thesis.pdf
+20201130	取证分析	https://blog.talosintelligence.com/2020/08/attribution-puzzle.html	Attribution: A Puzzle 攻击归因	talosintelligence.com	blog.talosintelligence.com	/2020/08/attribution-puzzle.html
+20201130	恶意分析	https://securelist.com/apt-annual-review-what-the-worlds-threat-actors-got-up-to-in-2020/99574/	APT annual review: What the worlds threat actors got up to in 2020	securelist.com	securelist.com	/apt-annual-review-what-the-worlds-threat-actors-got-up-to-in-2020/99574/
+20201130	漏洞分析	https://mp.weixin.qq.com/s/duF1Z0EDC3n_G378Aq_XYA	针对AWS Lambda的运行时攻击	qq.com	mp.weixin.qq.com	/s/duF1Z0EDC3n_G378Aq_XYA
+20201130	取证分析	https://mp.weixin.qq.com/s/yOJNWazCeGKKMR8titj3cg	MITRE ATT&CK基本概念	qq.com	mp.weixin.qq.com	/s/yOJNWazCeGKKMR8titj3cg
+20201130	设备安全	https://mp.weixin.qq.com/s/28BgVoIt7Naij84HEDqtFQ	基于Codesys工控软PLC环境	qq.com	mp.weixin.qq.com	/s/28BgVoIt7Naij84HEDqtFQ
+20201130	工具	https://github.com/ShiHuang-ESec/EHole	EHole: (棱洞)-红队重点攻击系统指纹探测工具	github.com	github.com	/ShiHuang-ESec/EHole
+20201130	运维安全	https://blog.csdn.net/bloodzero_new/article/details/110670478	云安全（一） - 浅谈基于IaaS公有云的中小型企业基础安全建设	csdn.net	blog.csdn.net	/bloodzero_new/article/details/110670478
+20201130	Web安全	https://mp.weixin.qq.com/s/Dswz7lxNpW5yLxmWKtqY6Q	红蓝对抗中的溯源反制实战	qq.com	mp.weixin.qq.com	/s/Dswz7lxNpW5yLxmWKtqY6Q
+20201130	运维安全	https://medium.com/threat-hunters-forge/mapping-att-ck-data-sources-to-security-events-via-ossem-%EF%B8%8F-b606d99e738c	Mapping ATT&CK Data Sources to Security Events via OSSEM	medium.com	medium.com	/threat-hunters-forge/mapping-att-ck-data-sources-to-security-events-via-ossem-%EF%B8%8F-b606d99e738c
+20201130	取证分析	https://mp.weixin.qq.com/s/FdOeOC6JZE5a0r328nmtew	手机app数据画像分析技战法	qq.com	mp.weixin.qq.com	/s/FdOeOC6JZE5a0r328nmtew
+20201130	其它	https://help.aliyun.com/document_detail/191144.html	云安全威胁检测项	aliyun.com	help.aliyun.com	/document_detail/191144.html
+20201130	恶意分析	https://github.com/kevoreilly/CAPEv2	CAPEv2: Malware Configuration And Payload Extraction	github.com	github.com	/kevoreilly/CAPEv2
