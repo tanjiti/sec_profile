@@ -3,10 +3,10 @@ C	96
 JavaScript	91
 C++	80
 HTML	77
-Shell	70
+Shell	71
 Java	69
 Go	67
-C#	51
+C#	52
 CSS	32
 PowerShell	32
 TypeScript	29
