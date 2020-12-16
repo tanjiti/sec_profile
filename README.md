@@ -14,12 +14,15 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 360威胁情报中心 | CoreSec360 | 落鹰行动-史上影响力最大的供应链攻击行动揭秘 | https://mp.weixin.qq.com/s/lh7y_KHUxag_-pcFBC7d0Q | 1| 
+| CodeWisdom | gh_2395906a410f | 技术分享, 基于静态依赖分析的安卓GUI自动化探测方法 | https://mp.weixin.qq.com/s/YQDxUqo_ufjt3cuDNOUfwQ | 1| 
+| 懒人在思考 | lazy-thought | 简单聊聊网络空间测绘纵横之道 | https://mp.weixin.qq.com/s/aBvptjz9gzxG_lPBY8ECVA | 1| 
 | 看雪学院 | ikanxue | Go恶意样本分析 | https://mp.weixin.qq.com/s/22HqoBW-eVSf1Fzw7fxoFw | 1| 
 | 中国信息安全 | chinainfosec | 盘点 , 各国数据隐私与保护情况 | https://mp.weixin.qq.com/s/B061CcZsJKavNEj_ggkRLQ | 1| 
 | 安天 | Antiylab | FireEye红队工具失窃事件跟进分析 | https://mp.weixin.qq.com/s/X-bBV44nMQvDlnl6f4eX7Q | 2| 
 | ATLAS Academy | atlas-cyber-academy | 2020网络安全大事记 - 监管判例篇 | https://mp.weixin.qq.com/s/60-O9GGYPNZZW6KVvY_c8w | 1| 
+| ChaMd5安全团队 | chamd5sec | 逆向智能门锁漏洞分析PART（二） | https://mp.weixin.qq.com/s/IutPFguZmNvPZd5XrlK6Mg | 3| 
 | 潇湘信安 | xxxasec | 黑吃黑Getshell到提权实战案例 | https://mp.weixin.qq.com/s/Hr-ybKz2CbG4yyTpww23rA | 2| 
-| ChaMd5安全团队 | chamd5sec | 逆向智能门锁漏洞分析PART（一） | https://mp.weixin.qq.com/s/pIeV3uNfRzAYggxRSo7P_g | 3| 
 | 青藤实验室 | gh_151a64925040 | SharePoint Rce 系列分析（一） | https://mp.weixin.qq.com/s/FfHc8TFUs_4H8JHWbYv3FQ | 1| 
 | 大超的记事本 | Dachao_Dachao | 数据安全怎么做——静态敏感数据治理 | https://mp.weixin.qq.com/s/AejcWwJWxZWHf9dDRfVWPA | 1| 
 | SecOps急行军 | SecOpsWithU | FireEye RedTeam 被黑了 | https://mp.weixin.qq.com/s/WupcVZATcNkKE93XcgJ4qg | 2| 
@@ -88,6 +91,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 网络空间测绘技术之：协议识别（RDP篇） | https://zhuanlan.zhihu.com/p/336936793| 
 
 
 # xz_xuanwu 推荐

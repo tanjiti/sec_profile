@@ -14,12 +14,15 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 360威胁情报中心 | CoreSec360 | 落鹰行动-史上影响力最大的供应链攻击行动揭秘 | https://mp.weixin.qq.com/s/lh7y_KHUxag_-pcFBC7d0Q | 3| 
+| CodeWisdom | gh_2395906a410f | 技术分享, 基于静态依赖分析的安卓GUI自动化探测方法 | https://mp.weixin.qq.com/s/YQDxUqo_ufjt3cuDNOUfwQ | 1| 
+| 懒人在思考 | lazy-thought | 简单聊聊网络空间测绘纵横之道 | https://mp.weixin.qq.com/s/aBvptjz9gzxG_lPBY8ECVA | 5| 
 | 看雪学院 | ikanxue | Go恶意样本分析 | https://mp.weixin.qq.com/s/22HqoBW-eVSf1Fzw7fxoFw | 48| 
 | 中国信息安全 | chinainfosec | 盘点 , 各国数据隐私与保护情况 | https://mp.weixin.qq.com/s/B061CcZsJKavNEj_ggkRLQ | 30| 
 | 安天 | Antiylab | FireEye红队工具失窃事件跟进分析 | https://mp.weixin.qq.com/s/X-bBV44nMQvDlnl6f4eX7Q | 17| 
 | ATLAS Academy | atlas-cyber-academy | 2020网络安全大事记 - 监管判例篇 | https://mp.weixin.qq.com/s/60-O9GGYPNZZW6KVvY_c8w | 1| 
+| ChaMd5安全团队 | chamd5sec | 逆向智能门锁漏洞分析PART（二） | https://mp.weixin.qq.com/s/IutPFguZmNvPZd5XrlK6Mg | 33| 
 | 潇湘信安 | xxxasec | 黑吃黑Getshell到提权实战案例 | https://mp.weixin.qq.com/s/Hr-ybKz2CbG4yyTpww23rA | 29| 
-| ChaMd5安全团队 | chamd5sec | 逆向智能门锁漏洞分析PART（一） | https://mp.weixin.qq.com/s/pIeV3uNfRzAYggxRSo7P_g | 33| 
 | 青藤实验室 | gh_151a64925040 | SharePoint Rce 系列分析（一） | https://mp.weixin.qq.com/s/FfHc8TFUs_4H8JHWbYv3FQ | 4| 
 | 大超的记事本 | Dachao_Dachao | 数据安全怎么做——静态敏感数据治理 | https://mp.weixin.qq.com/s/AejcWwJWxZWHf9dDRfVWPA | 1| 
 | SecOps急行军 | SecOpsWithU | FireEye RedTeam 被黑了 | https://mp.weixin.qq.com/s/WupcVZATcNkKE93XcgJ4qg | 2| 
@@ -69,7 +72,6 @@
 | 赛博星人 | cyberspace_666 | 红蓝对抗之内网中psexec的行为捕获 | https://mp.weixin.qq.com/s/G7Gdb_gXNn5FAR78Edps-w | 2| 
 | Coggle数据科学 | gh_8df601c10cb4 | 蚂蚁金服-支付风险识别亚军方案 | https://mp.weixin.qq.com/s/5NNTeLvqWl0_SQaPl-Cvug | 2| 
 | 腾讯代码安全检查Xcheck | gh_177b81103e8d | Xcheck之Java安全检查引擎 | https://mp.weixin.qq.com/s/rb1BfcZeCTr2PIiypXqVjw | 2| 
-| 360威胁情报中心 | CoreSec360 | 北非狐（APT-C-44）攻击活动揭露 | https://mp.weixin.qq.com/s/gWOIRNPLVqX761LW8x-S5g | 2| 
 | Fintech 安全之路 | gh_763c23cd3870 | 银行业安全运营平台的建设与思考 | https://mp.weixin.qq.com/s/UncU7f92p5Mlxt353Galrg | 1| 
 | vivo千镜安全实验室 | gh_54ff3f871510 | 软件源码安全攻防之道（下） | https://mp.weixin.qq.com/s/7HAVA0DgtxlCnD21aiq_mQ | 3| 
 | 代码卫士 | codesafe | PHP 绕过禁用函数漏洞的原理与利用分析 | https://mp.weixin.qq.com/s/_KCqGJnHaCBjCZ0VPo898Q | 2| 
@@ -708,7 +710,6 @@
 | 待字闺中 | daiziguizhongren | 决策树模型组合之随机森林与GBDT | http://mp.weixin.qq.com/s?__biz=MjM5ODIzNDQ3Mw==&mid=208679963&idx=1&sn=f43df65e2c5d274c27bfcfe55177364b&scene=0#rd | 3| 
 | 川大信安 | chuandaxinan | 小黑视角：探秘钓鱼短信背后的那些事 | http://mp.weixin.qq.com/s?__biz=MzIzNzAxMDE5NA==&mid=208084923&idx=1&sn=3b22f92624a9d92ed7ab9f6b856aa794&scene=23&srcid=0911Ro0EpZNiLJzfodp1PCAP | 1| 
 | 威观世界 | will-4 | 【创客】（PPT）信息安全产业与投资 | http://mp.weixin.qq.com/s?__biz=MzA3OTQxMzEzOA==&mid=203108534&idx=1&sn=40a95bf2379a526bfa18a3c26ae15421&scene=18&scene=5#rd | 1| 
-| 懒人在思考 | lazy-thought | 黑客圈那些鲜为人知的公众号之威胁情报 | http://mp.weixin.qq.com/s?__biz=MzA3NTEzMTUwNA==&mid=210199489&idx=1&sn=eaee28e27bbe511ff92b33b919a36824&scene=5#rd | 4| 
 | 市界 | ishijie2018 | 中国黑客｜封面报道 | http://mp.weixin.qq.com/s?__biz=MTA3NDI5ODU0MQ==&mid=210013213&idx=1&sn=5871afead96d9515c060c3bc140b7767 | 1| 
 | T00ls | T00lsNet | 渗透XXX.LA, 爆MyPasteBox菊花, 为Fxxxxxx报仇!!!! | http://mp.weixin.qq.com/s?__biz=MjM5MDkwNjA2Nw==&mid=207127230&idx=4&sn=31cf9f24128063aceb22b29386a1414f&key=af154fdc40fed00344bc7138106964ec89f110774db68ac2c5471d4ed41c57cd6921677a45e312dc708a1bd532128d6f&ascene=0&uin=NjY5NjY5MDgw | 4| 
 | TOMsInsight | TOMsInsight | 互联网黑市分析：DDoS 启示录 | http://mp.weixin.qq.com/s?__biz=MzA3NTcwOTIwNg==&mid=206803402&idx=1&sn=07072c12e61817f3403ee9b31ef9a979&scene=4#wechat_redirect | 1| 
@@ -4249,6 +4250,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 网络空间测绘技术之：协议识别（RDP篇） | https://zhuanlan.zhihu.com/p/336936793| 
 | 自然语言处理的未来十年 | https://zhuanlan.zhihu.com/p/289716231| 
 | 万字长文——信息安全职业生涯规划 | https://zhuanlan.zhihu.com/p/250905301| 
 | Webshell研究综述：检测与对抗技术的动态博弈进展 | https://zhuanlan.zhihu.com/p/259985000?utm_oi=771453567763492864| 
