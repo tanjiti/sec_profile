@@ -1,10 +1,10 @@
-Python	1054
+Python	1055
 JavaScript	659
 C	656
 C++	535
 HTML	477
 Shell	456
-Java	446
+Java	447
 Go	376
 C#	266
 Ruby	260
@@ -112,6 +112,7 @@ Q#	1
 Thrift	1
 Crystal	1
 Protocol	1
+Classic	1
 Nextflow	1
 OpenSCAD	1
 ApacheConf	1

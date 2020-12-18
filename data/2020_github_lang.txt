@@ -1,10 +1,10 @@
-Python	181
+Python	182
 C	96
 JavaScript	91
 C++	80
 HTML	77
 Shell	71
-Java	69
+Java	70
 Go	67
 C#	52
 CSS	32
@@ -71,6 +71,7 @@ Jsonnet	1
 QML	1
 FreeMarker	1
 PostScript	1
+Classic	1
 Puppet	1
 PLpgSQL	1
 F#	1

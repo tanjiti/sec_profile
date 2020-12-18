@@ -1,6 +1,6 @@
-Python	10
+Python	11
 C	8
-Java	6
+Java	7
 JavaScript	5
 C++	5
 C#	5
@@ -21,6 +21,7 @@ Objective-C	1
 ASP	1
 Starlark	1
 CSS	1
+Classic	1
 Swift	1
 PHP	1
 PowerShell	1
