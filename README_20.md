@@ -14,13 +14,13 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 潇湘信安 | xxxasec | MSSQL绕过微软杀毒提权案例 | https://mp.weixin.qq.com/s/GceeUFbwsaHUwKQpY6VFkw | 32| 
 | pirogue | p1r06u3 | 越权扫描器碎碎念 | https://mp.weixin.qq.com/s/yMpAiue7OT1I8E3C5Dkngw | 1| 
 | 电驭叛客 | gh_141164bf887e | 我的应用安全方法论：路在脚下 | https://mp.weixin.qq.com/s/atfMoXjxccUfrZbFsULiRg | 4| 
 | 360Quake空间测绘 | gh_0284fd4851e7 | 利用JARM指纹进行TLS服务端标记 | https://mp.weixin.qq.com/s/CTBO22SuQft1dBoHv2WRQg | 1| 
 | SecOps急行军 | SecOpsWithU | NIST、CIS、MITRE、SANS 傻傻分不清楚 | https://mp.weixin.qq.com/s/wZF3TAVPr5t2KxMi_Gc2-w | 3| 
 | qz安全情报分析 | lookvul | SolarWinds事件八卦解读 | https://mp.weixin.qq.com/s/aWZ0mrapJTpHwL0nBnGhmg | 5| 
 | 公安部网安局 | gh_e406f4bcdf34 | 公安机关网安部门打击网络黑产犯罪工作取得显著成效 | https://mp.weixin.qq.com/s/h53qn-2vODsakiCxf9CvXQ | 1| 
-| 潇湘信安 | xxxasec | 命令注入靶场空格过滤绕过测试 | https://mp.weixin.qq.com/s/pdU1XnBhnxRRGlncY3pDxQ | 30| 
 | 落水轩 | gh_c10ee4802699 | 吐槽国内对SolarWinds事件的分析 | https://mp.weixin.qq.com/s/ytm62hJ59XIDi-QRlZTfEg | 2| 
 | 陌陌安全 | MomoSecurity | 陌陌数据安全探索与实践 | https://mp.weixin.qq.com/s/yGLrdlpSmEe5ChiVn4b8Kg | 1| 
 | 青藤实验室 | gh_151a64925040 | SharePoint Rce 系列分析（二） | https://mp.weixin.qq.com/s/ZLSFXUoNNAFxqeiD9RpYZg | 5| 
@@ -3624,6 +3624,7 @@
 | CymaticsCC | 恶意ELF二进制文件相似度比较及可视化 | https://github.com/CymaticsCC/elf_similarity | None |  | None | None | 55 | 0 | 0 | 0 | 0 | Python,HTML,Jupyter | 2 | 2 | 1| 
 | Cymmetria | Struts Apache 2 based honeypot &amp; detection module by @nirkrakowksi @lorgandon https://t.co/oJzc8qnvFo [CVE 2017-5638 | https://github.com/Cymmetria/StrutsHoneypot | None | None | None | None | 0 | 0 | 0 | 0 | 0 | ASP,Python,JavaScript,Shell,HTML,PHP | 0 | 0 | 1| 
 | D00MFist | 与 JXA 有关的用于实现 macOS 系统攻击常驻的方法收集 | https://github.com/D00MFist/PersistentJXA | https://medium.com/@D00MFist |  | None | None | 30 | 0 | 0 | 0 | 0 | Shell,Jupyter,JavaScript,Visual,Go,CSS | 109 | 10 | 1| 
+| D3VI5H4 | ANTIVURUS ARTIFACTS - 有研究员对杀软检测及其 Hook 点的分析 | https://github.com/D3VI5H4/Antivirus-Artifacts/blob/main/ANTIVURUS_ARTIFACTS.pdf | https://twitter.com/devisharochlani | ICAI , Malware , OSINT , INFJ , NERD @AXI4L , | None | None | 1 | 0 | 0 | 0 | 0 |  | 23 | 7 | 1| 
 | DLACERT | ThreatHunting - 在 Windows 系统中寻找威胁的 PowerShell 脚本: | https://github.com/DLACERT/ThreatHunting | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | DTolm | VkFFT-Vulkan快速傅立叶变换库 | https://github.com/DTolm/VkFFT | None |  | None | None | 2 | 0 | 0 | 0 | 0 | C,C++ | 213 | 6 | 1| 
 | DarkSpiritz | DarkSpiritz - 针对 UNIX 系统的渗透测试框架: | https://github.com/DarkSpiritz/DarkSpiritz | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -3656,6 +3657,7 @@
 | Jewel591 | XSSMAP-一款快速检测Web应用程序中的XSS漏洞的开源工具 | https://github.com/Jewel591/xssmap | http://Jewel591.fun | Security operations engineer | United Kingdom | A security consulting firm | 15 | 0 | 0 | 0 | 0 | Python,C,Perl | 30 | 5 | 1| 
 | KasperskyLab | TinyCheck - 卡巴斯基开源的智能手机流量劫持工具 | https://github.com/KasperskyLab/TinyCheck | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Python,Kotlin,C++,C#,PHP | 0 | 0 | 1| 
 | KruDex | lan-monitor - 根据 NMAP 扫描结果在网页上显示 LAN 状态: | https://github.com/KruDex/lan-monitor | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| LIJI32 | SnatchBox - macOS 沙箱逃逸漏洞的分析（CVE-2020-27935） | https://github.com/LIJI32/SnatchBox | None | I fiddle with macOS, iOS, and Nintendo consoles. | Israel | None | 21 | 0 | 0 | 0 | 0 | Python,C,Assembly,Objective-C | 657 | 91 | 1| 
 | LOLBAS-Project | LOLBAS - 可以直接用作攻击工具的,系统自带的二进制文件和脚本(包括动态库): | https://github.com/LOLBAS-Project/LOLBAS | None | None | None | None | 0 | 0 | 0 | 0 | 0 | HTML,XSLT | 0 | 0 | 1| 
 | LPK-Matt | SkidSuite2 - A set of projects focusing on java reverse engineering using ASM. CC: @ timstrazz @ caleb_fenton | https://github.com/LPK-Matt/SkidSuite2 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | LandGrey | domainNamePredictor: 公司域名使用规律预测及生成工具 | https://github.com/LandGrey/domainNamePredictor | https://landgrey.me | I learn cyber sec | Shanghai | None | 18 | 0 | 0 | 0 | 0 | Python,Java,Classic | 1600 | 415 | 3| 
@@ -3963,6 +3965,7 @@
 | snoopythesecuritydog | dvws : Damn Vulnerable Web Services (vulnerable testing environment) : https://github.com/snoopythesecuritydog/dvws | https://github.com/snoopythesecuritydog/dvws | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | sonarwhal | 微软开源扫描工具Sonar | https://github.com/sonarwhal/sonar | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | sophiabiancalatessa | FakeNewsDeepLearning: Opening the Black-Box of Deep Learning Based Detector | https://github.com/sophiabiancalatessa/FakeNewsDeepLearning | None |  | None | None | 2 | 0 | 0 | 0 | 0 | Python,C++ | 9 | 6 | 1| 
+| sophos-ai | SOREL-20M: Sophos-ReversingLabs 20 million sample dataset | https://github.com/sophos-ai/SOREL-20M | None | None | None | None | 0 | 0 | 0 | 0 | 0 | YARA,Jupyter,Scala,Python,C++,CSS | 0 | 0 | 1| 
 | spyre-project | 基于Yara的简单IOC扫描器Spyre | https://github.com/spyre-project/spyre | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go | 0 | 0 | 1| 
 | sslab-gatech | QSYM - 为混合 Fuzz 定制的符号执行引擎 | https://github.com/sslab-gatech/qsym | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Filebench,Python,Makefile,C++,HTML,HCL | 0 | 0 | 1| 
 | suraj-root | Shellcode mapper | https://github.com/suraj-root/smap/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
