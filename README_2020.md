@@ -14,11 +14,15 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 潇湘信安 | xxxasec | 记传奇私服浏览器劫持的处置方案 | https://mp.weixin.qq.com/s/-ckPlrgU3O_WEDmTo3Rbyg | 35| 
+| 360技术 | qihoo_tech | 用DNS进行网络度量和安全分析 | https://mp.weixin.qq.com/s/L_wDNJtznQvrCyx1Kd1SlQ | 1| 
+| 奇安信ATEAM | gh_266190cebfff | 从Solarwinds供应链攻击（金链熊）看APT行动中的隐蔽作战 | https://mp.weixin.qq.com/s/UqXC1vovKUu97569LkYm2Q | 2| 
+| 安全分析与研究 | MalwareAnalysis | 聊聊APT的溯源分析 | https://mp.weixin.qq.com/s/hSnOYoC71z_HIU4PVf4tmw | 1| 
+| 锦行信息安全 | jeeseensec | 安全技术 , 一次众测实战sql注入绕过 | https://mp.weixin.qq.com/s/9BXMK4mVNKqQiBRkkiEJWg | 11| 
 | vivo千镜安全实验室 | gh_54ff3f871510 | 你需要知道Fortify的使用 | https://mp.weixin.qq.com/s/VUg92RSsZRpGPWaPKBWPNQ | 4| 
 | 国家网络威胁情报共享开放平台 | CNTIC2017 | cybereason：Molerats组织滥用云服务的攻击活动分析 | https://mp.weixin.qq.com/s/iWYr18hSLBBL4Y1-hAmEeg | 5| 
 | 开源情报研究所 | OSINTR | 【技巧】如何查找相关人的信息 | https://mp.weixin.qq.com/s/yeuMivJaizmAQAHL1poHTw | 1| 
 | 网络空间安全科学与技术 | gh_d54d2c7cabd7 | 2020年综述性论文合辑（上） | https://mp.weixin.qq.com/s/e-3rSS2F7lVV9SMMnoqylQ | 2| 
-| 潇湘信安 | xxxasec | MSSQL绕过微软杀毒提权案例 | https://mp.weixin.qq.com/s/GceeUFbwsaHUwKQpY6VFkw | 32| 
 | 青藤实验室 | gh_151a64925040 | SharePoint Rce 系列分析（二） | https://mp.weixin.qq.com/s/ZLSFXUoNNAFxqeiD9RpYZg | 2| 
 | 公安部网安局 | gh_e406f4bcdf34 | 公安机关网安部门打击网络黑产犯罪工作取得显著成效 | https://mp.weixin.qq.com/s/h53qn-2vODsakiCxf9CvXQ | 1| 
 | 360Quake空间测绘 | gh_0284fd4851e7 | 利用JARM指纹进行TLS服务端标记 | https://mp.weixin.qq.com/s/CTBO22SuQft1dBoHv2WRQg | 1| 
@@ -39,7 +43,6 @@
 | 大超的记事本 | Dachao_Dachao | 数据安全怎么做——静态敏感数据治理 | https://mp.weixin.qq.com/s/AejcWwJWxZWHf9dDRfVWPA | 1| 
 | 天地和兴 | bjtdhxkj | 针对以色列水利/水务基础设施的网络攻击回顾 | https://mp.weixin.qq.com/s/XvPf_irbpZF6B0-fnn1OBA | 1| 
 | 奇安信 CERT | gh_64040028303e | 中间件内存马注入&冰蝎连接(附更改部分代码) | https://mp.weixin.qq.com/s/eI-50-_W89eN8tsKi-5j4g | 1| 
-| 奇安信ATEAM | gh_266190cebfff | 从 CVE-2020-17144 看实战环境的漏洞武器化 | https://mp.weixin.qq.com/s/nVtE-OFoO076x6T0147AMw | 1| 
 | 微步在线研究响应中心 | gh_c108d4d389bf | 30行代码搞定Monero活跃节点探测 | https://mp.weixin.qq.com/s/omsTd3q5tOkknfK35tXGXg | 2| 
 | 我需要的是坚持 | MyPersistence2020 | 从FireEye的泄露看红队的差距 | https://mp.weixin.qq.com/s/K2W-hgCUFOzgxrhF6U1s1A | 1| 
 | 数说安全 | SSAQ2016 | 中国网络安全公司资本关系图谱 V2.0 | https://mp.weixin.qq.com/s/cv8z0791TLrVG2HYKY1pdg | 4| 
@@ -74,7 +77,6 @@
 | 法制天平 | g_780216 | 帮助信息网络犯罪活动罪案例汇总 | https://mp.weixin.qq.com/s/RlFD6H-_4j5g2R49IE9ghw | 1| 
 | 安全先师 | gh_d61f62dd440d | 蜜罐调研与内网安全 | https://mp.weixin.qq.com/s/-lJT3PNsj-VvMxalHb06AA | 1| 
 | 爱奇艺技术产品团队 | iQIYI-TP | 开源 , HMGNN：异构小图神经网络及其在拉新裂变风控场景的应用 | https://mp.weixin.qq.com/s/VRDOQsEdA-QfNRtKQCSjUA | 4| 
-| 锦行信息安全 | jeeseensec | 技术文章 , windows横向渗透中的令牌完整性限制 | https://mp.weixin.qq.com/s/idzRDjcQDPdiAd4dnJQs0w | 10| 
 | 安全学术圈 | secquan | 安全学术研究趋势分析 | https://mp.weixin.qq.com/s/UKBhg_tnYIPI6uzuPYn59A | 16| 
 | 腾讯科恩实验室 | KeenSecurityLab | 科恩实验室最新NeurIPS-2020论文解读：基于跨模态检索的二进制代码-源代码匹配 | https://mp.weixin.qq.com/s/fvnvh25VaHgproPvVT6LDg | 2| 
 | nmask | nmask-article | 黑客诱捕器—蜜罐的部署与使用 | https://mp.weixin.qq.com/s/TPb3E1fRszdEwp6Yyn8mQw | 4| 
@@ -464,6 +466,7 @@
 | NiuTrans | 机器翻译：统计建模与深度学习方法 | https://github.com/NiuTrans/MTBook | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TeX,C++ | 1500 | 565 | 1| 
 | OWASP | OWASP NodeGoat项目资源，了解OWASP十大安全风险,如何使用Node.js开发的Web应用程序安全问题、 | https://github.com/OWASP/NodeGoat | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Java,Python,JavaScript,Perl,HTML,Go,Ruby,CSS | 0 | 0 | 1| 
 | PLSysSec | haybale - 一款 Rust 语言编写的 LLVM IR 级别的符号执行引擎 | https://github.com/PLSysSec/haybale | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,LLVM,Assembly,HTML,Python,JavaScript,Makefile,C++,Haskell,Swift,Rust | 0 | 0 | 1| 
+| PaloAltoNetworks | Palo Alto 安全团队的公开 Papers 与会议 PPT | https://github.com/PaloAltoNetworks/research-notes | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Python,JavaScript,Shell,HTML,Go,PowerShell,HCL | 182 | 87 | 1| 
 | ProjectorBUg | Double-Free BUG in WhatsApp exploit poc.[CVE-2020-11932] | https://github.com/ProjectorBUg/CVE-2020-11932 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Jupyter,Python,Visual,HTML,Go,PHP,Ruby,Prolog | 0 | 0 | 1| 
 | Q4n | Windows WalletService 本地提权漏洞分析及利用（CVE-2020-1362） | https://github.com/Q4n/CVE-2020-1362 | None | Professional bug writer | None | None | 18 | 0 | 0 | 0 | 0 | Python,C,C++ | 144 | 28 | 1| 
 | QAX-A-Team | sharpwmi: 基于RPC的横向移动工具 | https://github.com/QAX-A-Team/sharpwmi | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,C#,C++,Python,Go,PowerShell | 0 | 0 | 2| 
@@ -590,6 +593,7 @@
 | seemoo-lab | ToothPicker - 针对 Apple 蓝牙协议栈的 Fuzzing 测试 | https://github.com/seemoo-lab/toothpicker | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Jupyter,Python,Swift,JavaScript,C++,Objective-C,MATLAB,Kotlin,Java,Ruby | 4600 | 333 | 2| 
 | shellphish | Shellphish 最近更新了 how2heap Repo，包含最新的各类堆利用技巧 | https://github.com/shellphish/how2heap | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,CSS | 4100 | 855 | 1| 
 | sibears | 用于修改 IDA HexRays AST 的工具 | https://github.com/sibears/HRAST | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,JavaScript,HTML,CSS | 0 | 0 | 1| 
+| sleirsgoevy | PS4 6.72 版本固件的越狱利用代码 | https://github.com/sleirsgoevy/ps4jb | None |  | None | None | 38 | 0 | 0 | 0 | 0 | Python,C,JavaScript | 379 | 107 | 1| 
 | sophos-ai | SOREL-20M: Sophos-ReversingLabs 20 million sample dataset | https://github.com/sophos-ai/SOREL-20M | None | None | None | None | 0 | 0 | 0 | 0 | 0 | YARA,Jupyter,Scala,Python,C++,CSS | 0 | 0 | 1| 
 | spyre-project | 基于Yara的简单IOC扫描器Spyre | https://github.com/spyre-project/spyre | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go | 0 | 0 | 1| 
 | susam | UNIX命令语言（1976）资源。 | https://github.com/susam/tucl | https://susam.in/ |  | None | None | 29 | 0 | 0 | 0 | 0 | Python,C,JavaScript,Makefile,CSS | 1500 | 66 | 1| 
@@ -615,6 +619,7 @@
 | yardenshafir | Windows 进程 Mitigation 策略枚举工具 | https://github.com/yardenshafir/MitigationFlagsCliTool | https://medium.com/@yardenshafir2 | A circus artist with a visual studio license | None | None | 8 | 0 | 0 | 0 | 0 | C,C++ | 76 | 34 | 2| 
 | yifengyou | QEMU KVM学习笔记. | https://github.com/yifengyou/learn-kvm | https://github.com/yifengyou | 一天不科研，浑身都难受~ | ShenZhen | Tencent | 262 | 0 | 0 | 0 | 0 | C | 328 | 97 | 1| 
 | zbnio | zbn: 安全编排与自动化响应平台 | https://github.com/zbnio/zbn | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
+| ze0r | Windows Win32k CVE-2020-17057 漏洞 PoC | https://github.com/ze0r/cve-2020-17057// | None |  | None | None | 49 | 0 | 0 | 0 | 0 | PowerShell,C++ | 127 | 60 | 1| 
 | zer0yu | Awesome CobaltStrike | https://github.com/zer0yu/Awesome-CobaltStrike | http://zeroyu.xyz/ | RedTeam@PolarisLab / CTFer@kn0ck | None | None | 40 | 0 | 0 | 0 | 0 | Python,HTML | 626 | 111 | 1| 
 | zhutougg | 内网渗透测试常用工具收集 | https://github.com/zhutougg/Awesome-Intranet_pentest_tool | None |  | None | None | 69 | 0 | 0 | 0 | 0 | Python,C#,Java | 39 | 9 | 1| 
 | zodiacon | zodiacon 开源的一个类似 Process Explorer 的工具 | https://github.com/zodiacon/SystemExplorer | https://scorpiosoftware.net |  | Israel | None | 72 | 0 | 0 | 0 | 0 | C#,C,C++ | 413 | 105 | 2| 
@@ -624,6 +629,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 利用数据分析与展示的方法研究 Windows RPC 的安全性 | http://medium.com/threat-hunters-forge/extending-the-exploration-and-analysis-of-windows-rpc-methods-calling-other-functions-with-ghidra-e4cdaa9555bd| 
 | 利用 Windows 的 Native 二进制程序实现数据的向外渗透 | http://debugactiveprocess.medium.com/data-exfiltration-with-lolbins-20e5e9c1ed8e| 
 | 使用Dexcalibur和JEB逆向工具分析Android恶意软件。 | http://link.medium.com/YFOeWtKMecb| 
 | Attacking Unattended Installs on macOS | http://medium.com/tenable-techblog/attacking-unattended-installs-on-macos-dfc1f57984e0| 
@@ -776,6 +782,7 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 细说APT之Rootkit自我保护 | https://xz.aliyun.com/t/8675| 
 | SQL注入渗透PostgreSQL(bypass tricks) | https://xz.aliyun.com/t/8621| 
 | 从mimikatz学Windows本地hash抓取 | https://xz.aliyun.com/t/8601| 
 | 云安全威胁检测项 | https://help.aliyun.com/document_detail/191144.html| 
