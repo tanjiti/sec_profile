@@ -1,11 +1,11 @@
-Python	1058
+Python	1059
 JavaScript	660
 C	658
 C++	536
 HTML	478
-Shell	457
+Shell	458
 Java	447
-Go	377
+Go	378
 C#	266
 Ruby	260
 PHP	232
@@ -68,6 +68,7 @@ FreeMarker	5
 Hack	5
 Zeek	5
 Tcl	5
+Common	5
 WebAssembly	4
 BitBake	4
 Starlark	4
@@ -77,7 +78,6 @@ Cuda	4
 QML	4
 Eagle	4
 KiCad	4
-Common	4
 Elm	3
 Standard	3
 Jsonnet	3

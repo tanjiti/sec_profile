@@ -1,15 +1,15 @@
-Python	185
+Python	187
 C	98
-JavaScript	92
-C++	82
+JavaScript	93
+C++	83
 HTML	78
-Shell	72
+Shell	73
 Java	70
-Go	68
-C#	52
+Go	69
+C#	53
 PowerShell	34
 CSS	33
-TypeScript	30
+TypeScript	31
 Ruby	28
 PHP	27
 Rust	20
@@ -76,3 +76,4 @@ Puppet	1
 PLpgSQL	1
 F#	1
 ActionScript	1
+Common	1

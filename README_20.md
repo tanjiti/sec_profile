@@ -14,7 +14,10 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| b1ngz的笔记本 | gh_70bda0a9ced0 | 自动化安全工具平台 - 架构笔记 | https://mp.weixin.qq.com/s/OMhS9yFlcpI9KOQduSxq9g | 1| 
+| 奇安信威胁情报中心 | gh_166784eae33e | 软件供应链来源攻击分析报告 | https://mp.weixin.qq.com/s/ypKn7uanv7oSDc4h8zvmgQ | 42| 
 | 潇湘信安 | xxxasec | 记传奇私服浏览器劫持的处置方案 | https://mp.weixin.qq.com/s/-ckPlrgU3O_WEDmTo3Rbyg | 35| 
+| 爱奇艺安全应急响应中心 | iqiyi_71src | 爱奇艺SOAR探索与实践 | https://mp.weixin.qq.com/s/ovJKGWusN2kgxQ_4GkQ8QA | 3| 
 | 360技术 | qihoo_tech | 用DNS进行网络度量和安全分析 | https://mp.weixin.qq.com/s/L_wDNJtznQvrCyx1Kd1SlQ | 1| 
 | 奇安信ATEAM | gh_266190cebfff | 从Solarwinds供应链攻击（金链熊）看APT行动中的隐蔽作战 | https://mp.weixin.qq.com/s/UqXC1vovKUu97569LkYm2Q | 2| 
 | 安全分析与研究 | MalwareAnalysis | 聊聊APT的溯源分析 | https://mp.weixin.qq.com/s/hSnOYoC71z_HIU4PVf4tmw | 1| 
@@ -148,7 +151,6 @@
 | Pai Sec Team | huahuaSec | 半自动化冰蝎流量分析的实践 | https://mp.weixin.qq.com/s/w40qI2iPNLx9GjgkYRyhpg | 1| 
 | ZoomEye | ZoomEye_Team | 利用 ZoomEye 追踪多种 Redteam C&C 后渗透攻击框架 | https://mp.weixin.qq.com/s/H66J0ab8UAyVrxRb1RLO4g | 1| 
 | 唯品会安全应急响应中心 | VIP_SRC | 【技术分享】大规模数据安全分类系统架构实践 | https://mp.weixin.qq.com/s/mRmDEuDKJSJ_xrYyBMn4Dw | 13| 
-| 奇安信威胁情报中心 | gh_166784eae33e | 从补丁分析到在野利用：揭秘CVE-2020-1464 Windows文件签名验证绕过漏洞疑云 | https://mp.weixin.qq.com/s/CRdDJeen-Zqc0RCnMr4kzQ | 41| 
 | 米斯特安全团队 | acmesec | 代码审计 , PHPCMS V9 前台RCE挖掘分析 | https://mp.weixin.qq.com/s/zLXJtekT9O3OuzwBLigMsA | 1| 
 | 谈数据 | learning-bigdata | 数据中台：基于标签体系的360°用户画像 | https://mp.weixin.qq.com/s/zIbhQjP9OTIPG9uRr64xtA | 1| 
 | Gorgias的一己之见 | GorgiasInsight | 固件提取系列(一)-固件载体 | https://mp.weixin.qq.com/s/xWUoAwilc6v_0BMZXpbZqA | 1| 
@@ -389,7 +391,6 @@
 | 中科院信息科技战略情报 | xxkjzlqb | 美公布2020财年预算 国防部96亿美元资助网络活动 | https://mp.weixin.qq.com/s/FHPhXYTeDlkAZ42N7-XVaQ | 2| 
 | 二当家的12138 |  |  | https://mp.weixin.qq.com/s/z6Al0LT8Kqw_p_onhTyV2w | 6| 
 | 数字观星 | shuziguanxing |  | https://mp.weixin.qq.com/s/ehO5UWBlGuLmFCSPef_oyw | 2| 
-| 爱奇艺安全应急响应中心 | iqiyi_71src |  | https://mp.weixin.qq.com/s/TGswXl9cuwlRmaVsZs46hA | 2| 
 | 阿里机器智能 |  |  | https://mp.weixin.qq.com/s/kv-ZrOF4nnxXoQwFOodzjA | 1| 
 | Alfred数据室 | Alfred_Lab |  | https://mp.weixin.qq.com/s/j1kgf2RR7jssbWa7uWC-uA | 1| 
 | 透雾 | wxWinder |  | https://mp.weixin.qq.com/s/DCtKYK3Xw_pbdNCUF593Lg | 4| 
@@ -3709,10 +3710,12 @@
 | SerpicoProject | Serpico - 渗透测试报告生成与协作工具: | https://github.com/SerpicoProject/Serpico | None | None | None | None | 0 | 0 | 0 | 0 | 0 | JavaScript,Ruby,HTML | 0 | 0 | 1| 
 | ShiHuang-ESec | EHole: (棱洞)-红队重点攻击系统指纹探测工具 | https://github.com/ShiHuang-ESec/EHole | None |  | None | None | 2 | 0 | 0 | 0 | 0 |  | 113 | 17 | 1| 
 | SparkSharly | Deep Learning for detection with XSS | https://github.com/SparkSharly/DL_for_xss | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
+| T0pCyber | HAWK 工具项目。该工具为安全人员快速分析收集数据工具。 | https://github.com/T0pCyber/hawk | https://twitter.com/T0p_Cyber | Microsoft Cyber Security Consultant Cloud Forensics | Wake Forest NC | None | 3 | 0 | 0 | 0 | 0 | PowerShell | 203 | 42 | 1| 
 | Tencent | TencentOS tiny - 腾讯开源的面向物联网领域的实时操作系统 | https://github.com/Tencent/TencentOS-tiny | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Java,Python,Kotlin,JavaScript,C++,Lua,Go,PHP,CSS,C# | 23200 | 5900 | 1| 
 | TheKingOfDuck | FileMonitor: 文件变化实时监控工具 | https://github.com/TheKingOfDuck/FileMonitor | https://blog.xxxxxxxxx/ | FIVE,,Infosec Researcher,,Security Developer | V1g6VGhlS2luZ09mR2FHYUdh | None | 43 | 0 | 0 | 0 | 0 | Python,C#,Shell | 2500 | 980 | 3| 
 | ThreatHuntingProject | Threat Huntinghttps://github.com/ThreatHuntingProject/ThreatHunting/tree/master/huntsMore Infohttp://www.threathunting.net/by @ ThreatHuntProj @ DavidJBianco | https://github.com/ThreatHuntingProject/ThreatHunting/tree/master/huntsMore | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Jupyter | 0 | 0 | 1| 
 | TophantTechnology | ARL: 资产侦察灯塔系统 | https://github.com/TophantTechnology/ARL | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
+| TralahM | Go语言黑帽子系列教程资源。 | https://github.com/TralahM/blackhat-go | https://github.com/tralahtek | Math & C.S Major, Programmer(Lisp, Python), Data scientist, Cloud Solutions Architect, Sys Integration, Devops. Writer & Scholar, Pan-African. | Nairobi, KE | @tralahtek | 100 | 1 | 0 | 0 | 0 | Go,Python,Shell,Common | 13 | 6 | 1| 
 | Turr0n | Firebase - Exploiting Tool 攻击错误配置的 Firebase 数据的工具: | https://github.com/Turr0n/firebase | None |  | None | None | 9 | 0 | 28 | 0 | 0 | Python,CSS | 35 | 7 | 1| 
 | UKHomeOffice | repo-security-scanner - 用于查找 Git 仓库中的敏感信息泄露的工具: | https://github.com/UKHomeOffice/repo-security-scanner | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Java,Scala,Python,JavaScript,HTML,CSS,Go,Dockerfile,HCL | 0 | 0 | 1| 
 | UbbeLoL | uRAT: Opensource modular Remote Administration Tool | https://github.com/UbbeLoL/uRAT | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -3789,6 +3792,7 @@
 | danieleperera | 用于在网络上收集，抓取和监视洋葱站点的扩展工具 | https://github.com/danieleperera/OnionIngestor | None |  | None | None | 0 | 0 | 0 | 0 | 0 | Python,JavaScript | 25 | 5 | 1| 
 | darshakframework | darshak：Detecting any suspicious activity of being tracked | https://github.com/darshakframework/darshak | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java | 0 | 0 | 1| 
 | darvincisec | 无需 root 和重打包，将 App 安装到克隆 App 内实现动态分析 | https://github.com/darvincisec/VirtualDynamicAnalysis | https://darvincitech.wordpress.com | Security Researcher | Singapore | None | 10 | 0 | 0 | 0 | 0 | C,Java,Smali | 93 | 25 | 1| 
+| ddzy | 前端开发者学习资源。 | https://github.com/ddzy/fe-necessary-book | https://yyge.top | Working | Neusoft | FE | 87 | 0 | 0 | 0 | 0 | TypeScript,JavaScript | 1200 | 176 | 1| 
 | defenxor | dsiem: Security event correlation engine for ELK stack | https://github.com/defenxor/dsiem?from=timeline | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,HTML | 0 | 0 | 1| 
 | detuxsandbox | detux : Analyze linux malwares on x86, x86-64,ARM,MIPS ,MIPSEL cpu architecture - The Multiplatform Linux Sandbox : | https://github.com/detuxsandbox/detux | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | didi | Sharingan是一个基于go语言编写的流量录制回放工具，合项目重构、回归测试等。 | https://github.com/didi/sharingan | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Vue,Java,Python,Kotlin,JavaScript,C++,TypeScript,Objective-C,HTML,Go,CSS | 15800 | 2200 | 1| 
@@ -3853,6 +3857,7 @@
 | jas502n | CVE-2020–14882 Weblogic Unauthorized bypass RCE | https://github.com/jas502n/CVE-2020-14882 | https://twitter.com/jas502n | 1.misc 2.crypto 3. web 4. reverse 5. android 6. pwn 7. elf | 0.0.0.0/0 | None | 301 | 0 | 0 | 0 | 0 | Python,C,Shell,Java | 359 | 168 | 10| 
 | java-deobfuscator | Deobfuscator - all-in-one Java deobfuscator which will deobfuscate code obfuscated by most Android obfuscators | https://github.com/java-deobfuscator/deobfuscator | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java | 0 | 0 | 1| 
 | jenson-shi | dnspod_inter_ddns:Dnspod International DDNS | https://github.com/jenson-shi/dnspod_inter_ddns | https://github.com/shixiongfei | Moved to https://github.com/shixiongfei | Moved to https://github.com/shixiongfei | Moved to https://github.com/shixiongfei | 0 | 0 | 0 | 0 | 1 |  | 0 | 0 | 1| 
+| jfmaes | SharpZipRunner - 利用 D/Invokes 在内存中解密 ZIP 加密压缩的 bin 并提取 Shellcode 执行 | https://github.com/jfmaes/SharpZipRunner | None |  | None | None | 27 | 0 | 0 | 0 | 0 | C#,Python,C++ | 118 | 17 | 1| 
 | jmpsec | osctrl: Fast and efficient osquery management | https://github.com/jmpsec/osctrl | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,CSS | 0 | 0 | 1| 
 | joelpx | Interactive disassembler for x86/ARM/MIPS. Generates indented pseudo-code with coloured syntax code. | https://github.com/joelpx/plasma | None |  | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | joinsec | BadDNS: 使用公共 DNS 服务器进行多层子域名探测的极速工具 | https://github.com/joinsec/BadDNS | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,Rust | 0 | 0 | 1| 
