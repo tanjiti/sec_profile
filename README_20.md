@@ -14,9 +14,13 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 数学人生 | gh_ea2ff522308b | 复杂网络中的节点相似性 | https://mp.weixin.qq.com/s/EGpjUVdjJlEjYbdbjbpR7A | 1| 
+| 漏洞战争 | vulwar | 聊聊漏洞自动修复技术的行业现状 | https://mp.weixin.qq.com/s/xgwdhBSvE7yW0YcekGEWjA | 13| 
+| 威胁棱镜 | THREAT_PRISM | 发现并提取 Cobalt Strike 的配置信息 | https://mp.weixin.qq.com/s/-jajjhu-6KVQvaZoh59Wuw | 1| 
+| 国网浙江信通公司 | gh_12020d981693 | 鲸蓝计划丨溯源反制基本思路与实战 | https://mp.weixin.qq.com/s/axNXFgyaD-5WSIkPwjkPrQ | 1| 
 | b1ngz的笔记本 | gh_70bda0a9ced0 | 自动化安全工具平台 - 架构笔记 | https://mp.weixin.qq.com/s/OMhS9yFlcpI9KOQduSxq9g | 1| 
 | 奇安信威胁情报中心 | gh_166784eae33e | 软件供应链来源攻击分析报告 | https://mp.weixin.qq.com/s/ypKn7uanv7oSDc4h8zvmgQ | 42| 
-| 潇湘信安 | xxxasec | 记传奇私服浏览器劫持的处置方案 | https://mp.weixin.qq.com/s/-ckPlrgU3O_WEDmTo3Rbyg | 35| 
+| 潇湘信安 | xxxasec | 记传奇私服浏览器劫持的处置方案 | https://mp.weixin.qq.com/s/-ckPlrgU3O_WEDmTo3Rbyg | 36| 
 | 爱奇艺安全应急响应中心 | iqiyi_71src | 爱奇艺SOAR探索与实践 | https://mp.weixin.qq.com/s/ovJKGWusN2kgxQ_4GkQ8QA | 3| 
 | 360技术 | qihoo_tech | 用DNS进行网络度量和安全分析 | https://mp.weixin.qq.com/s/L_wDNJtznQvrCyx1Kd1SlQ | 1| 
 | 奇安信ATEAM | gh_266190cebfff | 从Solarwinds供应链攻击（金链熊）看APT行动中的隐蔽作战 | https://mp.weixin.qq.com/s/UqXC1vovKUu97569LkYm2Q | 2| 
@@ -108,7 +112,6 @@
 | 极光无限 | AuroraInfinity | 使用fuzzilli对Javascript引擎QuickJS进行Fuzzing和漏洞分析 | https://mp.weixin.qq.com/s/KCbgZAaEWT236hN44MMEiw | 2| 
 | 湛卢工作室 | xuehao_studio | ZeroLogon(CVE-2020-1472) 分析与狩猎 | https://mp.weixin.qq.com/s/Z0aXYBJiJnIkcr12A_jeuQ | 12| 
 | ACTBIGDATA | ACTBIGDATA | ML CLUB , 面向图数据的异常检测综述概述 | https://mp.weixin.qq.com/s/WBxmr_hCOVUbSk15ZPWsjw | 1| 
-| 漏洞战争 | vulwar | 2020年IDA插件大赛：DynDataResolver夺冠 | https://mp.weixin.qq.com/s/NAE7OR-7Qq5977XHQ9DZTg | 12| 
 | 信息安全与通信保密杂志社 | cismag2013 | 从美国顶尖信息技术咨询公司博思艾伦报告看俄罗斯网络作战 | https://mp.weixin.qq.com/s/aq7mFjsz_sT8JqWFHRSwHQ | 4| 
 | 枫林晚安全 | galesec | [更新]渗透环境标准化 | https://mp.weixin.qq.com/s/A5E2VRYg7R1LrLrCpiGYAw | 1| 
 | 安全界 | feei_cn | 基于甲方视角的漏洞发现 | https://mp.weixin.qq.com/s/eBPp4eyaGs827POFTesqOA | 1| 
@@ -4273,6 +4276,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 浅谈安全运营平台中数据分析交互逻辑的设计 | https://zhuanlan.zhihu.com/p/339629476| 
 | 网络空间测绘技术之：协议识别（RDP篇） | https://zhuanlan.zhihu.com/p/336936793| 
 | 自然语言处理的未来十年 | https://zhuanlan.zhihu.com/p/289716231| 
 | 万字长文——信息安全职业生涯规划 | https://zhuanlan.zhihu.com/p/250905301| 
