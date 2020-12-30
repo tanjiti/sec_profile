@@ -1,0 +1,35 @@
+20201221	Web安全	https://mp.weixin.qq.com/s/FFpyzQQeOAvTRQ0iGtXW5A	记一次渗透日本某大学实战案例	qq.com	mp.weixin.qq.com	/s/FFpyzQQeOAvTRQ0iGtXW5A
+20201221	Web安全	https://www.anquanke.com/post/id/224321	HTTP协议攻击方法汇总（上）	anquanke.com	www.anquanke.com	/post/id/224321
+20201221	工具	https://mp.weixin.qq.com/s/9BXMK4mVNKqQiBRkkiEJWg	一次众测实战sql注入绕过	qq.com	mp.weixin.qq.com	/s/9BXMK4mVNKqQiBRkkiEJWg
+20201221	恶意分析	https://mp.weixin.qq.com/s/hSnOYoC71z_HIU4PVf4tmw	聊聊APT的溯源分析	qq.com	mp.weixin.qq.com	/s/hSnOYoC71z_HIU4PVf4tmw
+20201221	编程技术	https://mp.weixin.qq.com/s/OMhS9yFlcpI9KOQduSxq9g	自动化安全工具平台	qq.com	mp.weixin.qq.com	/s/OMhS9yFlcpI9KOQduSxq9g
+20201221	Web安全	https://mp.weixin.qq.com/s/gzchD7_uKHjvISpSpdxFDw	记录一次从弱口令到远程登陆	qq.com	mp.weixin.qq.com	/s/gzchD7_uKHjvISpSpdxFDw
+20201221	恶意分析	https://mp.weixin.qq.com/s/UqXC1vovKUu97569LkYm2Q	从Solarwinds供应链攻击（金链熊）看APT行动中的隐蔽作战	qq.com	mp.weixin.qq.com	/s/UqXC1vovKUu97569LkYm2Q
+20201221	Web安全	https://mp.weixin.qq.com/s/nl_xYX5rd1UiIK4t9XYDuA	MySQL注入Load_File()函数应用	qq.com	mp.weixin.qq.com	/s/nl_xYX5rd1UiIK4t9XYDuA
+20201221	Web安全	https://mp.weixin.qq.com/s/VUg92RSsZRpGPWaPKBWPNQ	Fortify的使用技巧	qq.com	mp.weixin.qq.com	/s/VUg92RSsZRpGPWaPKBWPNQ
+20201221	Web安全	https://www.anquanke.com/post/id/225955	HTTP协议攻击方法汇总（下）	anquanke.com	www.anquanke.com	/post/id/225955
+20201221	取证分析	https://mp.weixin.qq.com/s/yeuMivJaizmAQAHL1poHTw	如何查找相关人的信息	qq.com	mp.weixin.qq.com	/s/yeuMivJaizmAQAHL1poHTw
+20201221	恶意分析	https://www.aqniu.com/vendor/71886.html	基于AI的恶意加密流量检测效果专题研究	aqniu.com	www.aqniu.com	/vendor/71886.html
+20201221	运维安全	https://mp.weixin.qq.com/s/ovJKGWusN2kgxQ_4GkQ8QA	爱奇艺SOAR探索与实践	qq.com	mp.weixin.qq.com	/s/ovJKGWusN2kgxQ_4GkQ8QA
+20201221	取证分析	https://mp.weixin.qq.com/s/axNXFgyaD-5WSIkPwjkPrQ	溯源反制基本思路与实战	qq.com	mp.weixin.qq.com	/s/axNXFgyaD-5WSIkPwjkPrQ
+20201221	取证分析	https://www.randhome.io/blog/2020/12/20/analyzing-cobalt-strike-for-fun-and-profit/	Analyzing Cobalt Strike for Fun and Profit	randhome.io	www.randhome.io	/blog/2020/12/20/analyzing-cobalt-strike-for-fun-and-profit/
+20201221	Web安全	https://www.sec-in.com/article/753	S2-016漏洞整理	sec-in.com	www.sec-in.com	/article/753
+20201221	数据挖掘	https://xz.aliyun.com/t/8675	细说APT之Rootkit自我保护	aliyun.com	xz.aliyun.com	/t/8675
+20201221	其它	https://mp.weixin.qq.com/s/BmaflwjC6tghjJlysbtYkg	搞基大队QQ群验证问题解题过程	qq.com	mp.weixin.qq.com	/s/BmaflwjC6tghjJlysbtYkg
+20201221	设备安全	http://www.nisia.org.cn/filedownload/203590	工业互联网数据安全白皮书（2020）	nisia.org.cn	www.nisia.org.cn	/filedownload/203590
+20201221	其它	https://mp.weixin.qq.com/s/-ckPlrgU3O_WEDmTo3Rbyg	记传奇私服浏览器劫持的处置方案	qq.com	mp.weixin.qq.com	/s/-ckPlrgU3O_WEDmTo3Rbyg
+20201221	观点	https://www.bilibili.com/video/BV1Ap4y167w3?p=1	计算机系统研究的一些体会	bilibili.com	www.bilibili.com	/video/BV1Ap4y167w3
+20201221	恶意分析	https://mp.weixin.qq.com/s/-jajjhu-6KVQvaZoh59Wuw	发现并提取 Cobalt Strike 的配置信息	qq.com	mp.weixin.qq.com	/s/-jajjhu-6KVQvaZoh59Wuw
+20201221	Web安全	https://blog.recurity-labs.com/2020-12-23/code-audit-training-archive.html	Source Code Audit Training Archive	recurity-labs.com	blog.recurity-labs.com	/2020-12-23/code-audit-training-archive.html
+20201221	运维安全	http://blog.nsfocus.net/wp-content/uploads/2020/12/AISecOps_White_Paper_NSFOCUS_20201218.pdf	AISecOps智能安全运营技术白皮书	nsfocus.net	blog.nsfocus.net	/wp-content/uploads/2020/12/AISecOps_White_Paper_NSFOCUS_20201218.pdf
+20201221	恶意分析	https://mp.weixin.qq.com/s/iWYr18hSLBBL4Y1-hAmEeg	Molerats组织滥用云服务的攻击活动分析	qq.com	mp.weixin.qq.com	/s/iWYr18hSLBBL4Y1-hAmEeg
+20201221	数据挖掘	https://mp.weixin.qq.com/s/L_wDNJtznQvrCyx1Kd1SlQ	用DNS进行网络度量和安全分析	qq.com	mp.weixin.qq.com	/s/L_wDNJtznQvrCyx1Kd1SlQ
+20201221	恶意分析	https://mp.weixin.qq.com/s/ypKn7uanv7oSDc4h8zvmgQ	软件供应链来源攻击分析报告	qq.com	mp.weixin.qq.com	/s/ypKn7uanv7oSDc4h8zvmgQ
+20201221	运维安全	https://zhuanlan.zhihu.com/p/339629476	浅谈安全运营平台中数据分析交互逻辑的设计	zhihu.com	zhuanlan.zhihu.com	/p/339629476
+20201221	取证分析	https://www.anquanke.com/post/id/226029	SolarWinds失陷服务器测绘分析报告	anquanke.com	www.anquanke.com	/post/id/226029
+20201221	移动安全	https://blog.longterm.io/cve-2020-0423.html	Exploiting a Single Instruction Race Condition in Binder	longterm.io	blog.longterm.io	/cve-2020-0423.html
+20201221	论文	https://mp.weixin.qq.com/s/e-3rSS2F7lVV9SMMnoqylQ	2020年综述性论文合辑（上）	qq.com	mp.weixin.qq.com	/s/e-3rSS2F7lVV9SMMnoqylQ
+20201221	漏洞分析	https://mp.weixin.qq.com/s/xgwdhBSvE7yW0YcekGEWjA	聊聊漏洞自动修复技术的行业现状	qq.com	mp.weixin.qq.com	/s/xgwdhBSvE7yW0YcekGEWjA
+20201221	杂志	https://www.sec-wiki.com/weekly/355	SecWiki周刊（第355期)	sec-wiki.com	www.sec-wiki.com	/weekly/355
+20201221	论文	https://mp.weixin.qq.com/s/c43NfYaz3F-t1V93gOGKdw	2020年综述性论文合辑（下）	qq.com	mp.weixin.qq.com	/s/c43NfYaz3F-t1V93gOGKdw
+20201221	编程技术	https://mp.weixin.qq.com/s/EGpjUVdjJlEjYbdbjbpR7A	复杂网络中的节点相似性	qq.com	mp.weixin.qq.com	/s/EGpjUVdjJlEjYbdbjbpR7A
