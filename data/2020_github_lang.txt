@@ -1,9 +1,9 @@
 Python	191
-C	100
+C	101
 JavaScript	94
 C++	84
 HTML	79
-Shell	76
+Shell	77
 Java	71
 Go	71
 C#	54

@@ -15,27 +15,27 @@
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
 | ChaMd5安全团队 | chamd5sec | FreeRTOS Reverse Engineering | https://mp.weixin.qq.com/s/mnus1BN1CLX4rhrZ1ubnKQ | 34| 
+| 潇湘信安 | xxxasec | 记一次利用阿D注入渗透实战案例 | https://mp.weixin.qq.com/s/DqqQkvZ1gNDyLcyNC2COAQ | 37| 
 | 京麒 | jqanquan | 数据安全建设实践系列——数据资产平台建设 | https://mp.weixin.qq.com/s/oofMyBaS7EMnUMy61Y-5MQ | 1| 
+| 威胁棱镜 | THREAT_PRISM | JARM : 检测恶意服务器的可靠指纹 | https://mp.weixin.qq.com/s/p55LNt9PK0MKEjN3MGPAOg | 2| 
 | 字节跳动安全中心 | TouTiaoSec | 字节跳动安全团队开源自研HIDS——AgentSmith-HIDS | https://mp.weixin.qq.com/s/sAh_VH5zTuxHRFawYMvuOw | 1| 
 | 有价值炮灰 | worthy_dust | 安全研究员的自我修养 | https://mp.weixin.qq.com/s/BuHQSLLeJ-EMhQSqFLgDgg | 1| 
 | 枫林晚安全 | galesec | JAVA安全编码 | https://mp.weixin.qq.com/s/p0SZN87PilFHUmENas6QEg | 2| 
 | 网安志异 | KnewSec | 沙虫 | https://mp.weixin.qq.com/s/eBTXxLn4NFvLq-nmAAXgyg | 1| 
 | 数学人生 | gh_ea2ff522308b | 复杂网络中的节点相似性 | https://mp.weixin.qq.com/s/EGpjUVdjJlEjYbdbjbpR7A | 1| 
 | 漏洞战争 | vulwar | 聊聊漏洞自动修复技术的行业现状 | https://mp.weixin.qq.com/s/xgwdhBSvE7yW0YcekGEWjA | 13| 
-| 威胁棱镜 | THREAT_PRISM | 发现并提取 Cobalt Strike 的配置信息 | https://mp.weixin.qq.com/s/-jajjhu-6KVQvaZoh59Wuw | 2| 
-| 国网浙江信通公司 | gh_12020d981693 | 鲸蓝计划丨溯源反制基本思路与实战 | https://mp.weixin.qq.com/s/axNXFgyaD-5WSIkPwjkPrQ | 1| 
-| 潇湘信安 | xxxasec | 记一次渗透日本某大学实战案例 | https://mp.weixin.qq.com/s/FFpyzQQeOAvTRQ0iGtXW5A | 37| 
-| b1ngz的笔记本 | gh_70bda0a9ced0 | 自动化安全工具平台 - 架构笔记 | https://mp.weixin.qq.com/s/OMhS9yFlcpI9KOQduSxq9g | 1| 
-| 奇安信威胁情报中心 | gh_166784eae33e | 软件供应链来源攻击分析报告 | https://mp.weixin.qq.com/s/ypKn7uanv7oSDc4h8zvmgQ | 42| 
-| 爱奇艺安全应急响应中心 | iqiyi_71src | 爱奇艺SOAR探索与实践 | https://mp.weixin.qq.com/s/ovJKGWusN2kgxQ_4GkQ8QA | 3| 
 | 360技术 | qihoo_tech | 用DNS进行网络度量和安全分析 | https://mp.weixin.qq.com/s/L_wDNJtznQvrCyx1Kd1SlQ | 1| 
-| 奇安信ATEAM | gh_266190cebfff | 从Solarwinds供应链攻击（金链熊）看APT行动中的隐蔽作战 | https://mp.weixin.qq.com/s/UqXC1vovKUu97569LkYm2Q | 2| 
-| 安全分析与研究 | MalwareAnalysis | 聊聊APT的溯源分析 | https://mp.weixin.qq.com/s/hSnOYoC71z_HIU4PVf4tmw | 1| 
-| 锦行信息安全 | jeeseensec | 安全技术 , 一次众测实战sql注入绕过 | https://mp.weixin.qq.com/s/9BXMK4mVNKqQiBRkkiEJWg | 11| 
+| b1ngz的笔记本 | gh_70bda0a9ced0 | 自动化安全工具平台 - 架构笔记 | https://mp.weixin.qq.com/s/OMhS9yFlcpI9KOQduSxq9g | 1| 
 | vivo千镜安全实验室 | gh_54ff3f871510 | 你需要知道Fortify的使用 | https://mp.weixin.qq.com/s/VUg92RSsZRpGPWaPKBWPNQ | 4| 
 | 国家网络威胁情报共享开放平台 | CNTIC2017 | cybereason：Molerats组织滥用云服务的攻击活动分析 | https://mp.weixin.qq.com/s/iWYr18hSLBBL4Y1-hAmEeg | 5| 
+| 国网浙江信通公司 | gh_12020d981693 | 鲸蓝计划丨溯源反制基本思路与实战 | https://mp.weixin.qq.com/s/axNXFgyaD-5WSIkPwjkPrQ | 1| 
+| 奇安信ATEAM | gh_266190cebfff | 从Solarwinds供应链攻击（金链熊）看APT行动中的隐蔽作战 | https://mp.weixin.qq.com/s/UqXC1vovKUu97569LkYm2Q | 2| 
+| 奇安信威胁情报中心 | gh_166784eae33e | 软件供应链来源攻击分析报告 | https://mp.weixin.qq.com/s/ypKn7uanv7oSDc4h8zvmgQ | 42| 
+| 安全分析与研究 | MalwareAnalysis | 聊聊APT的溯源分析 | https://mp.weixin.qq.com/s/hSnOYoC71z_HIU4PVf4tmw | 1| 
 | 开源情报研究所 | OSINTR | 【技巧】如何查找相关人的信息 | https://mp.weixin.qq.com/s/yeuMivJaizmAQAHL1poHTw | 1| 
-| 网络空间安全科学与技术 | gh_d54d2c7cabd7 | 2020年综述性论文合辑（上） | https://mp.weixin.qq.com/s/e-3rSS2F7lVV9SMMnoqylQ | 2| 
+| 爱奇艺安全应急响应中心 | iqiyi_71src | 爱奇艺SOAR探索与实践 | https://mp.weixin.qq.com/s/ovJKGWusN2kgxQ_4GkQ8QA | 3| 
+| 网络空间安全科学与技术 | gh_d54d2c7cabd7 | 2020年综述性论文合辑（下） | https://mp.weixin.qq.com/s/c43NfYaz3F-t1V93gOGKdw | 2| 
+| 锦行信息安全 | jeeseensec | 安全技术 , 一次众测实战sql注入绕过 | https://mp.weixin.qq.com/s/9BXMK4mVNKqQiBRkkiEJWg | 11| 
 | 青藤实验室 | gh_151a64925040 | SharePoint Rce 系列分析（二） | https://mp.weixin.qq.com/s/ZLSFXUoNNAFxqeiD9RpYZg | 5| 
 | 公安部网安局 | gh_e406f4bcdf34 | 公安机关网安部门打击网络黑产犯罪工作取得显著成效 | https://mp.weixin.qq.com/s/h53qn-2vODsakiCxf9CvXQ | 1| 
 | 360Quake空间测绘 | gh_0284fd4851e7 | 利用JARM指纹进行TLS服务端标记 | https://mp.weixin.qq.com/s/CTBO22SuQft1dBoHv2WRQg | 1| 
@@ -3684,6 +3684,7 @@
 | MicrosoftDocs | 微软公开 Windows Driver Kit 相关的文档 | https://github.com/MicrosoftDocs/windows-driver-docs | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,HTML,C#,JavaScript,Python,Shell,PowerShell | 3100 | 8200 | 1| 
 | MisakiKata | 基于inotify的Linux文件实时监控扫描 | https://github.com/MisakiKata/watchfile | https://misakikata.github.io | 在菜的路上一路狂奔，从不复返 | Shanghai | None | 19 | 0 | 0 | 0 | 0 | Python,Shell,Java,JavaScript | 92 | 24 | 4| 
 | MotherFuzzers | 湾区一个关于Fuzzing的workshop的分享内容，三个议题涵盖了c/c++，web应用等不同目标的Fuzzing技巧 | https://github.com/MotherFuzzers/meetups/blob/master/README.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
+| MythicAgents | A Visual Studio Code Extension agent for Mythic C2 | https://github.com/MythicAgents/venus | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C | 0 | 0 | 1| 
 | NLP-LOVE | 《自然语言处理入门》详细笔记 | https://github.com/NLP-LOVE/Introduction-NLP | http://mantchs.com/ | 邮箱：mantchs@163.com 博客：http://mantchs.com/ | None | None | 6 | 0 | 0 | 0 | 0 | Python,HTML,Jupyter | 6200 | 2000 | 1| 
 | NVISO-BE | Windows OS Hardening with PowerShell DSC | https://github.com/NVISO-BE/posh-dsc-windowsserver-hardening | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Shell,JavaScript,PowerShell,C++ | 0 | 0 | 1| 
 | NeatMonster | SlabDbg - 用于辅助调试 Linux 内核 SLUB 内存管理的脚本 | https://github.com/NeatMonster/slabdbg | https://neat.sh/ | well now I am not doing it https://twitter.com/NeatMonster_ | Toulouse, France | None | 17 | 0 | 0 | 0 | 0 | Python,Java | 558 | 81 | 2| 
@@ -3709,6 +3710,7 @@
 | RedTeamPentesting | Apache Tomcat WebSocket 漏洞 (CVE-2020-13935) Exploit | https://github.com/RedTeamPentesting/CVE-2020-13935 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go | 0 | 0 | 1| 
 | Rvn0xsy | BadCode: 恶意代码逃逸源代码 | https://github.com/Rvn0xsy/BadCode | https://payloads.online | 知者不惑，仁者不忧，勇者不惧。 | None | None | 11 | 0 | 0 | 0 | 0 | Lua,C,C++ | 282 | 88 | 1| 
 | SCUBSRGroup | SCUBSRGroup 整理的关于软件漏洞自动化利用（AEG）方向的技术资料 | https://github.com/SCUBSRGroup/Automatic-Exploit-Generation | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,HTML,C++ | 28 | 13 | 2| 
+| SafeGroceryStore | MDAT - 综合数据库攻击利用工具 | https://github.com/SafeGroceryStore/MDAT | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java | 0 | 0 | 1| 
 | Seba0691 | PINdemonium - A pintool in order to unpack malware | https://github.com/Seba0691/PINdemonium | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | SecGen | SecGen: Generate vulnerable virtual machines on the fly | https://github.com/SecGen/SecGen | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Ruby | 0 | 0 | 1| 
 | SecureAuthCorp | RCE in any MS Exchange via Exchange Trusted Subsystem | https://github.com/SecureAuthCorp/impacket/pull/857 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Java,Python,JavaScript,C#,HTML,Go | 0 | 0 | 1| 
@@ -3822,6 +3824,7 @@
 | fabacab | 蓝队最好的学习资源项目。 | https://github.com/fabacab/awesome-cybersecurity-blueteam | None | ⚑ Ⓐnti-capitalist Free Software developer, Black Lives Matter, abolish all prisons, 0xACAB ⚑ | None | Code signing GPG key: 0x15FC01926CB6D75614790893B0303BF6BA36A560 | 197 | 0 | 0 | 0 | 0 | Shell,HTML,PHP | 1100 | 248 | 1| 
 | falexorr | Siofra - DLL 劫持漏洞扫描器、PE 感染工具: | https://github.com/falexorr/Siofra | None |  | None | None | 1 | 0 | 0 | 0 | 0 | Assembly | 2 | 0 | 1| 
 | falstaff84 | Heartbleed test script for OpenVPN | https://github.com/falstaff84/heartbleed_test_openvpn | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| fanglingsu | Vimb- 一款Vim的web浏览器项目 | https://github.com/fanglingsu/vimb | https://fanglingsu.github.io/ |  | Jena, Germany | None | 9 | 0 | 0 | 0 | 0 | C,Shell | 911 | 82 | 1| 
 | ffffffff0x | Dork-Admin: 盘点近年来的数据泄露、供应链污染事件 | https://github.com/ffffffff0x/Dork-Admin | None | None | None | None | 0 | 0 | 0 | 0 | 0 | HTML,Java | 0 | 0 | 1| 
 | fgrimme | Matroschka Python #steganography tool to hide images or text in imageshttps://github.com/fgrimme/Matroschka | https://github.com/fgrimme/Matroschka | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | fiht | educn-sqlScan: 对全国edu域名以及其二级域名进行的一次Sql注入 | https://github.com/fiht/educn-sqlScan | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -3914,7 +3917,7 @@
 | moonD4rk | HackBrowserData: 全平台运行的浏览器数据导出解密工具 | https://github.com/moonD4rk/HackBrowserData | None | There is no dark side in the moon. really, matter of fact its all dark. | Pyongyang | None | 5 | 0 | 0 | 0 | 0 | Go,Python | 8400 | 1200 | 1| 
 | mq1n | 一个可以借助有物理内存读写权限的驱动实现调用任意内核函数的库。 | https://github.com/mq1n/VDM// | None |  | Turkey | None | 1200 | 0 | 0 | 0 | 0 | C++ | 178 | 100 | 1| 
 | mromnia | FB Event Map API | https://github.com/mromnia/fb_event_map | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
-| mytechnotalent | reverse engineering course covering x86, x64, ARM | https://github.com/mytechnotalent/Reverse-Engineering-Tutorial | http://mytechnotalent.com | Senior Software Engineer in Test | Washington, DC | BluVector, A Comcast Company | 67 | 0 | 0 | 0 | 0 | Python,C,Zeek,C++ | 2500 | 181 | 1| 
+| mytechnotalent | Reverse Engineering For Everyone! | https://github.com/mytechnotalent/Reverse-Engineering-Tutorial | http://mytechnotalent.com | Senior Software Engineer in Test | Washington, DC | BluVector, A Comcast Company | 67 | 0 | 0 | 0 | 0 | Python,C,Zeek,C++ | 2500 | 181 | 1| 
 | nahamsec | 为 Bug Bounty Hunters 入门整理的资料 | https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters | http://nahamsec.com |  | None | None | 16 | 0 | 0 | 0 | 0 | Python,Shell | 3500 | 645 | 2| 
 | napocahv | Napoca - Bitdefender 开源的 Hypervisor，提供多个安全相关的功能 | https://github.com/napocahv/napoca | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 87 | 22 | 1| 
 | nautilus-fuzz | 基于 NDSS 2019 一篇 Paper 实现的一个基于 Grammar、Coverage Guided 的 Fuzzer | https://github.com/nautilus-fuzz/nautilus | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 

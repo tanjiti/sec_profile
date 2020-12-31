@@ -1,9 +1,9 @@
 Python	22
-C	13
+C	14
 JavaScript	10
+Java	9
+Shell	9
 C++	9
-Java	8
-Shell	8
 Go	8
 C#	7
 PowerShell	5
