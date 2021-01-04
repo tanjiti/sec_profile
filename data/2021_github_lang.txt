@@ -1,2 +1,7 @@
-C#	1
+C	3
+Python	2
+PHP	2
+Shell	1
 Java	1
+C#	1
+Rich	1
