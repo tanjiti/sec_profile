@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 穿过丛林 | gh_f90eac70537b | 基于语义token分析的克隆代码检测系统 | https://mp.weixin.qq.com/s/e_NvzMbOqDspns3VLXBjYw | 1| 
 | ChaMd5安全团队 | chamd5sec | 浅谈Mysql蜜罐识别 | https://mp.weixin.qq.com/s/f30RvhYlB97dXnjzv4_H_Q | 2| 
 | 时间之外沉浮事 | tasnrh | 网空靶场：从炒作到现实-2020 | https://mp.weixin.qq.com/s/zu2Je_A_x06k78tzrXyjbg | 1| 
 
@@ -40,6 +41,7 @@
 # medium_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| How to Look for Ideas in Computer Science Research | https://zhiyunq.medium.com/how-to-look-for-ideas-in-computer-science-research-7a3fa6f4696f| 
 
 
 # zhihu_xuanwu 推荐

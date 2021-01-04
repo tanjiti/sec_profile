@@ -14,14 +14,15 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 穿过丛林 | gh_f90eac70537b | 基于语义token分析的克隆代码检测系统 | https://mp.weixin.qq.com/s/e_NvzMbOqDspns3VLXBjYw | 5| 
 | 时间之外沉浮事 | tasnrh | 网空靶场：从炒作到现实-2020 | https://mp.weixin.qq.com/s/zu2Je_A_x06k78tzrXyjbg | 19| 
 | ChaMd5安全团队 | chamd5sec | FreeRTOS Reverse Engineering | https://mp.weixin.qq.com/s/mnus1BN1CLX4rhrZ1ubnKQ | 36| 
-| 潇湘信安 | xxxasec | 记一次利用阿D注入渗透实战案例 | https://mp.weixin.qq.com/s/DqqQkvZ1gNDyLcyNC2COAQ | 37| 
 | 京麒 | jqanquan | 数据安全建设实践系列——数据资产平台建设 | https://mp.weixin.qq.com/s/oofMyBaS7EMnUMy61Y-5MQ | 1| 
 | 威胁棱镜 | THREAT_PRISM | JARM : 检测恶意服务器的可靠指纹 | https://mp.weixin.qq.com/s/p55LNt9PK0MKEjN3MGPAOg | 2| 
 | 字节跳动安全中心 | TouTiaoSec | 字节跳动安全团队开源自研HIDS——AgentSmith-HIDS | https://mp.weixin.qq.com/s/sAh_VH5zTuxHRFawYMvuOw | 1| 
 | 有价值炮灰 | worthy_dust | 安全研究员的自我修养 | https://mp.weixin.qq.com/s/BuHQSLLeJ-EMhQSqFLgDgg | 1| 
 | 枫林晚安全 | galesec | JAVA安全编码 | https://mp.weixin.qq.com/s/p0SZN87PilFHUmENas6QEg | 2| 
+| 潇湘信安 | xxxasec | 记一次利用阿D注入渗透实战案例 | https://mp.weixin.qq.com/s/DqqQkvZ1gNDyLcyNC2COAQ | 37| 
 | 网安志异 | KnewSec | 沙虫 | https://mp.weixin.qq.com/s/eBTXxLn4NFvLq-nmAAXgyg | 1| 
 | 数学人生 | gh_ea2ff522308b | 复杂网络中的节点相似性 | https://mp.weixin.qq.com/s/EGpjUVdjJlEjYbdbjbpR7A | 1| 
 | 漏洞战争 | vulwar | 聊聊漏洞自动修复技术的行业现状 | https://mp.weixin.qq.com/s/xgwdhBSvE7yW0YcekGEWjA | 13| 
@@ -76,7 +77,6 @@
 | 匠心独运维妙维效 | gh_54f52b20027d | 浅谈中间件安全漏洞修复体系建设 | https://mp.weixin.qq.com/s/6bJskpL_JLAEIXdGq5Hljw | 1| 
 | 大数据猫 | kitten-talking-data | 阿里云ClickHouse海量数据分析分享 | https://mp.weixin.qq.com/s/MnirNdLxyvrCAPd51SiW6w | 1| 
 | 安全乐观主义 | gh_d6239d0bb816 | ThreatSource：Google BeyondProd安全架构详解 | https://mp.weixin.qq.com/s/l__r5GUIZJ_moVcKBF9pyA | 16| 
-| 穿过丛林 | gh_f90eac70537b | 基于程序分析的大数据应用内存预估方法 | https://mp.weixin.qq.com/s/C3yN9nIRTN9ebmvOd8S2JA | 4| 
 | 腾讯安全应急响应中心 | tsrc_team | 物联网安全系列之探索IoT通信安全的研究之道 | https://mp.weixin.qq.com/s/6KviA72Ke0I9ZVYusTDpoA | 18| 
 | 阿里巴巴中间件 | Aliware_2018 | 我看技术人的成长路径 | https://mp.weixin.qq.com/s/m6NbHb9UUtiSOMPnKgId3g | 1| 
 | 龙渊实验室 | LongYuanLab | 基于Flink的网络流量实时解析 | https://mp.weixin.qq.com/s/i7f7p9HBE-03YWNnl_NdPA | 1| 
@@ -4234,6 +4234,7 @@
 # medium_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| How to Look for Ideas in Computer Science Research | https://zhiyunq.medium.com/how-to-look-for-ideas-in-computer-science-research-7a3fa6f4696f| 
 | Mapping ATT&CK Data Sources to Security Events via OSSEM | https://medium.com/threat-hunters-forge/mapping-att-ck-data-sources-to-security-events-via-ossem-%EF%B8%8F-b606d99e738c| 
 | FAQs on Getting Started in Cyber Threat Intelligence | https://medium.com/katies-five-cents/faqs-on-getting-started-in-cyber-threat-intelligence-f567f267348e| 
 | How Malicious Tor Relays are Exploiting Users in 2020 (Par... | https://medium.com/@nusenu/how-malicious-tor-relays-are-exploiting-users-in-2020-part-i-1097575c0cac| 
