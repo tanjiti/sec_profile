@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 潇湘信安 | xxxasec | 记一次域渗透实战案例思路分享 | https://mp.weixin.qq.com/s/1QZwwB2SxY0UT6x-CxqErg | 39| 
 | 中国信息安全 | chinainfosec | 回顾 , 2020年下半年全球网络恐怖主义态势分析 | https://mp.weixin.qq.com/s/Us54DtL99pdCRErJWvsM8w | 31| 
 | 威胁棱镜 | THREAT_PRISM | 通过 ATT&CK 归因攻击 | https://mp.weixin.qq.com/s/NSAURU3qpYhhKs8Q8AdBag | 3| 
 | 学术plus | caeit-e | 最新！人工智能网络安全威胁图谱 | https://mp.weixin.qq.com/s/4qbCusJde_z0AM1eDC4YiA | 5| 
@@ -26,7 +27,6 @@
 | 字节跳动安全中心 | TouTiaoSec | 字节跳动安全团队开源自研HIDS——AgentSmith-HIDS | https://mp.weixin.qq.com/s/sAh_VH5zTuxHRFawYMvuOw | 1| 
 | 有价值炮灰 | worthy_dust | 安全研究员的自我修养 | https://mp.weixin.qq.com/s/BuHQSLLeJ-EMhQSqFLgDgg | 1| 
 | 枫林晚安全 | galesec | JAVA安全编码 | https://mp.weixin.qq.com/s/p0SZN87PilFHUmENas6QEg | 2| 
-| 潇湘信安 | xxxasec | 记一次利用阿D注入渗透实战案例 | https://mp.weixin.qq.com/s/DqqQkvZ1gNDyLcyNC2COAQ | 37| 
 | 网安志异 | KnewSec | 沙虫 | https://mp.weixin.qq.com/s/eBTXxLn4NFvLq-nmAAXgyg | 1| 
 | 数学人生 | gh_ea2ff522308b | 复杂网络中的节点相似性 | https://mp.weixin.qq.com/s/EGpjUVdjJlEjYbdbjbpR7A | 1| 
 | 漏洞战争 | vulwar | 聊聊漏洞自动修复技术的行业现状 | https://mp.weixin.qq.com/s/xgwdhBSvE7yW0YcekGEWjA | 13| 
@@ -3749,6 +3749,7 @@
 | airbus-cert | 一款用于处理 Event Tracing for Windows（ETW）的IDA插件 | https://github.com/airbus-cert/etwbreaker | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Lua,Python,C#,Go,PHP | 104 | 9 | 1| 
 | airbus-seclab | Diffware - 文件、目录 Diff 工具，支持多种配置参数 | https://github.com/airbus-seclab/diffware | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Python,OCaml,C++,Ruby,PowerShell | 1000 | 137 | 1| 
 | aker-gateway | Aker - A python based ssh bastion/jump host : https://github.com/aker-gateway/Aker , Demo : https://www.youtube.com/watch?v=O-boM3LbVT4 cc @ kre80r | https://github.com/aker-gateway/Aker | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Shell | 0 | 0 | 1| 
+| anantshri | 研究员 Anant Shrivastava 关于 Android Security 培训的资料 | https://github.com/anantshri/Android_Security | http://blog.anantshri.info | Project Leader for @AndroidTamer and @CodeVigilant | Bhopal India | InfoSec Professional | 194 | 0 | 0 | 0 | 0 | Python,Shell,PHP | 245 | 96 | 1| 
 | android-art-intel | Nice to see that Intel uses Capstone disassembler in their Android Runtime (ART) extension for #Android #Nougat | https://github.com/android-art-intel/Nougat | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Ruby,Java,C++ | 0 | 0 | 1| 
 | android-hacker | 无 ROOT 版本 Xposed - VirtualXposed 新增对 Android 10 系统的支持 | https://github.com/android-hacker/VirtualXposed/releases/tag/0.18.0 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Kotlin,JavaScript,Java | 0 | 0 | 1| 
 | animus-project | Animus Threat Data Repository | https://github.com/animus-project/threat_data | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -4061,6 +4062,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Windows Defender Application Control (WDAC) in 20H2 | http://mattifestation.medium.com/windows-defender-application-control-wdac-updates-in-20h2-and-building-a-simple-secure-4fd4ee86de4| 
 | 利用数据分析与展示的方法研究 Windows RPC 的安全性 | http://medium.com/threat-hunters-forge/extending-the-exploration-and-analysis-of-windows-rpc-methods-calling-other-functions-with-ghidra-e4cdaa9555bd| 
 | 利用 Windows 的 Native 二进制程序实现数据的向外渗透 | http://debugactiveprocess.medium.com/data-exfiltration-with-lolbins-20e5e9c1ed8e| 
 | 使用Dexcalibur和JEB逆向工具分析Android恶意软件。 | http://link.medium.com/YFOeWtKMecb| 
