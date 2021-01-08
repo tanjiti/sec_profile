@@ -1,5 +1,5 @@
-Python	7
-C	4
+Python	8
+C	5
 Go	4
 PHP	4
 Shell	3
