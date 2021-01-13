@@ -4,9 +4,9 @@ Go	5
 Java	4
 PHP	4
 Shell	3
+JavaScript	3
 C#	3
 Rust	3
-JavaScript	2
 C++	2
 HTML	2
 Jupyter	1
