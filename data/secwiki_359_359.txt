@@ -1,0 +1,30 @@
+20210111	新闻	https://mp.weixin.qq.com/s/uXupT3yeeOA9NWVjQORgDQ	公安部网安局公布一批网络黑产案例	qq.com	mp.weixin.qq.com	/s/uXupT3yeeOA9NWVjQORgDQ
+20210111	其它	https://mp.weixin.qq.com/s/4eDNmiiXp7afLKdYzHeb3Q	组策略限制3389登录的绕过方式	qq.com	mp.weixin.qq.com	/s/4eDNmiiXp7afLKdYzHeb3Q
+20210111	Web安全	https://www.sec-in.com/article/766	拯救圣诞世界	sec-in.com	www.sec-in.com	/article/766
+20210111	Web安全	https://mp.weixin.qq.com/s/gtXfPvT8Yatp3IMVdCID7Q	自动化渗透测试系统技术路径分析	qq.com	mp.weixin.qq.com	/s/gtXfPvT8Yatp3IMVdCID7Q
+20210111	Web安全	https://misakikata.github.io/2021/01/%E5%8F%88%E5%8F%92%E4%B8%80%E4%B8%AA%E4%BB%A3%E7%90%86%E6%89%AB%E6%8F%8F%E5%B9%B3%E5%8F%B0/	又一个流量代理扫描平台	github.io	misakikata.github.io	/2021/01/%E5%8F%88%E5%8F%92%E4%B8%80%E4%B8%AA%E4%BB%A3%E7%90%86%E6%89%AB%E6%8F%8F%E5%B9%B3%E5%8F%B0/
+20210111	论文	https://feysh.com/ranking/2020/	G.O.S.S.I.P 安全学术会议排行榜（2020版）	feysh.com	feysh.com	/ranking/2020/
+20210111	Web安全	https://www.sec-in.com/article/793	子域名枚举的艺术——主动子域枚举	sec-in.com	www.sec-in.com	/article/793
+20210111	取证分析	https://mp.weixin.qq.com/s/coRsNLMT_FAr6xSHwPgOUg	关于PDD员工发帖溯源联想到的相关技术与实现	qq.com	mp.weixin.qq.com	/s/coRsNLMT_FAr6xSHwPgOUg
+20210111	运维安全	https://green-m.me//2021/01/12/audit-traffic-through-openvpn/	通过 OpenVPN 实现流量审计	green-m.me	green-m.me	//2021/01/12/audit-traffic-through-openvpn/
+20210111	Web安全	https://www.sec-in.com/article/810	在XML中测试Fastjson反序列化	sec-in.com	www.sec-in.com	/article/810
+20210111	Web安全	https://blog.csdn.net/bloodzero_new/article/details/112479328	API安全测试方法论	csdn.net	blog.csdn.net	/bloodzero_new/article/details/112479328
+20210111	杂志	https://www.sec-wiki.com/weekly/358	SecWiki周刊（第358期)	sec-wiki.com	www.sec-wiki.com	/weekly/358
+20210111	Web安全	https://www.hetianlab.com/specialized/20210112133159	Real World CTF 2020 DBaaSadge Writeup	hetianlab.com	www.hetianlab.com	/specialized/20210112133159
+20210111	Web安全	https://www.sec-in.com/article/806	Js文件追踪到未授权访问	sec-in.com	www.sec-in.com	/article/806
+20210111	恶意分析	https://security.tencent.com/index.php/blog/msg/175	BORG ：一个快速进化的僵尸网络	tencent.com	security.tencent.com	/index.php/blog/msg/175
+20210111	漏洞分析	https://www.anquanke.com/post/id/226900	初探 Python Flask+Jinja2 SSTI	anquanke.com	www.anquanke.com	/post/id/226900
+20210111	恶意分析	http://zt.360.cn/1101061855.php?dtid=1101062360&did=610740603	2020年勒索病毒疫情分析报告	360.cn	zt.360.cn	/1101061855.php
+20210111	恶意分析	https://mp.weixin.qq.com/s/Sv0lR4G2eQf4_L8W4CqRYw	Cobalt Strike4.0远控木马分析	qq.com	mp.weixin.qq.com	/s/Sv0lR4G2eQf4_L8W4CqRYw
+20210111	论文	https://mp.weixin.qq.com/s/6QVEJP-Z8s-NgrbNoAiH2Q	NDSS 2021 论文录用列表	qq.com	mp.weixin.qq.com	/s/6QVEJP-Z8s-NgrbNoAiH2Q
+20210111	漏洞分析	https://drivertom.blogspot.com/2021/01/wfilter-icf-0day-rce.html	局域网监控软件WFilter ICF 鸡肋0day RCE漏洞挖掘	blogspot.com	drivertom.blogspot.com	/2021/01/wfilter-icf-0day-rce.html
+20210111	数据挖掘	https://mp.weixin.qq.com/s/vccQcK2GNqWkGuxEGe22Zg	基于机器学习的Web管理后台识别方法探索	qq.com	mp.weixin.qq.com	/s/vccQcK2GNqWkGuxEGe22Zg
+20210111	Web安全	https://www.anquanke.com/post/id/228712	浅谈绕过disable_functions的部分方法的原理	anquanke.com	www.anquanke.com	/post/id/228712
+20210111	恶意分析	https://mp.weixin.qq.com/s/EwExVZqmiLLZ5R3172d2wQ	incaseformat来袭，针对病毒进行分析	qq.com	mp.weixin.qq.com	/s/EwExVZqmiLLZ5R3172d2wQ
+20210111	杂志	https://mp.weixin.qq.com/s/pI495N48AYbA3gYkf4zlqQ	SecWiki安全周刊-年卷-2020	qq.com	mp.weixin.qq.com	/s/pI495N48AYbA3gYkf4zlqQ
+20210111	恶意分析	https://mp.weixin.qq.com/s/o9v4V673ayyMTY1vGjveFg	Netgear固件分析与后门植入	qq.com	mp.weixin.qq.com	/s/o9v4V673ayyMTY1vGjveFg
+20210111	编程技术	https://anhkgg.com/unlockfile/	深度探索：解除文件占用那些坑	anhkgg.com	anhkgg.com	/unlockfile/
+20210111	取证分析	https://github.com/sbousseaden/macOS-ATTACK-DATASET	JSON DataSet for macOS mapped to MITRE ATT&CK Tactics	github.com	github.com	/sbousseaden/macOS-ATTACK-DATASET
+20210111	漏洞分析	https://mp.weixin.qq.com/s/ZLSFXUoNNAFxqeiD9RpYZg	SharePoint Rce 系列分析（二）	qq.com	mp.weixin.qq.com	/s/ZLSFXUoNNAFxqeiD9RpYZg
+20210111	漏洞分析	https://mp.weixin.qq.com/s/Z2hDtlsu0zgKY8YWhDBS7g	SharePoint Rce 系列分析（三）	qq.com	mp.weixin.qq.com	/s/Z2hDtlsu0zgKY8YWhDBS7g
+20210111	恶意分析	https://mp.weixin.qq.com/s/DjfldjeqJY786nqdcsXzBg	开源包托管服务存在的供应链安全问题	qq.com	mp.weixin.qq.com	/s/DjfldjeqJY786nqdcsXzBg
