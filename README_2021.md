@@ -14,13 +14,15 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| Flanker论安全 | ShowMeShell | Fuzzing战争系列之二：不畏浮云遮望眼 | https://mp.weixin.qq.com/s/G26MJOH4VPene1Sd_zjEQw | 1| 
+| 开源情报研究所 | OSINTR | 【技巧】针对电话号码信息收集和OSINT框架 | https://mp.weixin.qq.com/s/6JzvO58Q05O2NoS9mX_mPQ | 1| 
 | BlockSec Team | gh_57d94ebc8526 | 以太坊钓鱼合约：因为了解，所以上当 | https://mp.weixin.qq.com/s/4zztI9f-pzvLxVFxlVdgMw | 1| 
 | vivo千镜安全实验室 | gh_54ff3f871510 | 常见的匿名化隐私保护技术 | https://mp.weixin.qq.com/s/46yaHiXqDpq4cY4W1uqKsQ | 1| 
 | 绿盟科技研究通讯 | nsfocus_research | 关于恶意软件加密流量检测的思考 | https://mp.weixin.qq.com/s/hVq3eBMDsX6tj1PsoUpy8Q | 1| 
 | 酒仙桥六号部队 | anfu-360 | 记一次反制追踪溯本求源 | https://mp.weixin.qq.com/s/xW2u4s8xCTnLCkpDoK5Yzw | 2| 
 | ChaMd5安全团队 | chamd5sec | Netgear固件分析与后门植入 | https://mp.weixin.qq.com/s/o9v4V673ayyMTY1vGjveFg | 4| 
 | SecWiki | SecWiki | SecWiki安全周刊-年卷-2020 | https://mp.weixin.qq.com/s/pI495N48AYbA3gYkf4zlqQ | 1| 
-| 安全学术圈 | secquan | 开源包托管服务存在的供应链安全问题 | https://mp.weixin.qq.com/s/DjfldjeqJY786nqdcsXzBg | 4| 
+| 安全学术圈 | secquan | 开源包托管服务存在的供应链安全问题 | https://mp.weixin.qq.com/s/DjfldjeqJY786nqdcsXzBg | 5| 
 | 看雪学院 | ikanxue | Cobalt Strike4.0远控木马分析 | https://mp.weixin.qq.com/s/Sv0lR4G2eQf4_L8W4CqRYw | 1| 
 | 腾讯安全应急响应中心 | tsrc_team | 基于机器学习的Web管理后台识别方法探索 | https://mp.weixin.qq.com/s/vccQcK2GNqWkGuxEGe22Zg | 1| 
 | 青藤实验室 | gh_151a64925040 | SharePoint Rce 系列分析（二） | https://mp.weixin.qq.com/s/ZLSFXUoNNAFxqeiD9RpYZg | 2| 
