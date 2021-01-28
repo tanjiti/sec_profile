@@ -14,17 +14,18 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 共创网安 | jsgcwa | “专家讲坛”第二期：互联网产品数据与隐私合规审查要点 | https://mp.weixin.qq.com/s/m_8Y3x-DzoWNwU8tBT-ENw | 1| 
+| 开源情报研究所 | OSINTR | 【技巧】如何开源手动挖掘LinkedIn领英 | https://mp.weixin.qq.com/s/mtQ40m7qLayUDxgmWgsWPw | 3| 
+| 绿盟科技研究通讯 | nsfocus_research | 自动化的攻击溯源之痛 ：数据获取与关联的困惑 | https://mp.weixin.qq.com/s/dJDHLvJOGVPQB1cfTayX9w | 38| 
 | 中国信息安全 | chinainfosec | 程国平：全球网络反恐格局中的中国力量 | https://mp.weixin.qq.com/s/1dpbZO_rD4GSfaPqjw5Luw | 32| 
 | 信创咨询 | XConsultancy | 信创产业：操作系统深度研究（PPT原文） | https://mp.weixin.qq.com/s/fA1xDbQ9qbV1L2AgitFXdw | 1| 
+| 腾讯安全应急响应中心 | tsrc_team | SSRF安全指北 | https://mp.weixin.qq.com/s/EYVFHgNClgNGrk_92PZ90A | 21| 
 | DevSecOps联盟 | idevsecops | 美国国防部DevSecOps实践 | https://mp.weixin.qq.com/s/EPpgQlgc_8eY21xJRZkBqQ | 1| 
 | OPPO安全应急响应中心 | opposrc | CVE-2020-16040: Chromium V8引擎整数溢出漏洞分析 | https://mp.weixin.qq.com/s/j-WbrCQVb4E2JfY-bDqzJw | 3| 
-| 腾讯安全应急响应中心 | tsrc_team | 基于机器学习的敏感信息泄露治理探索 | https://mp.weixin.qq.com/s/9ZOSyPJdyxgrbsY4FIvgXw | 21| 
 | Flanker论安全 | ShowMeShell | Fuzzing战争系列之二：不畏浮云遮望眼 | https://mp.weixin.qq.com/s/G26MJOH4VPene1Sd_zjEQw | 2| 
 | 安全学术圈 | secquan | FAVICONS和缓存：浏览器中的持久跟踪 | https://mp.weixin.qq.com/s/K7IesHkuUTV2yAh9_yl6kw | 58| 
-| 开源情报研究所 | OSINTR | 【技巧】针对电话号码信息收集和OSINT框架 | https://mp.weixin.qq.com/s/6JzvO58Q05O2NoS9mX_mPQ | 2| 
 | BlockSec Team | gh_57d94ebc8526 | 以太坊钓鱼合约：因为了解，所以上当 | https://mp.weixin.qq.com/s/4zztI9f-pzvLxVFxlVdgMw | 1| 
 | vivo千镜安全实验室 | gh_54ff3f871510 | 常见的匿名化隐私保护技术 | https://mp.weixin.qq.com/s/46yaHiXqDpq4cY4W1uqKsQ | 5| 
-| 绿盟科技研究通讯 | nsfocus_research | 关于恶意软件加密流量检测的思考 | https://mp.weixin.qq.com/s/hVq3eBMDsX6tj1PsoUpy8Q | 37| 
 | 酒仙桥六号部队 | anfu-360 | 记一次反制追踪溯本求源 | https://mp.weixin.qq.com/s/xW2u4s8xCTnLCkpDoK5Yzw | 10| 
 | ChaMd5安全团队 | chamd5sec | Netgear固件分析与后门植入 | https://mp.weixin.qq.com/s/o9v4V673ayyMTY1vGjveFg | 38| 
 | SecWiki | SecWiki | SecWiki安全周刊-年卷-2020 | https://mp.weixin.qq.com/s/pI495N48AYbA3gYkf4zlqQ | 30| 
@@ -3677,6 +3678,7 @@
 | LOLBAS-Project | LOLBAS - 可以直接用作攻击工具的,系统自带的二进制文件和脚本(包括动态库): | https://github.com/LOLBAS-Project/LOLBAS | None | None | None | None | 0 | 0 | 0 | 0 | 0 | HTML,XSLT | 0 | 0 | 1| 
 | LPK-Matt | SkidSuite2 - A set of projects focusing on java reverse engineering using ASM. CC: @ timstrazz @ caleb_fenton | https://github.com/LPK-Matt/SkidSuite2 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | LandGrey | domainNamePredictor: 公司域名使用规律预测及生成工具 | https://github.com/LandGrey/domainNamePredictor | https://landgrey.me | I learn cyber sec | Shanghai | None | 18 | 0 | 0 | 0 | 0 | Python,Java,Classic | 1600 | 415 | 3| 
+| LasCC | The all-in-one Red Team browser extension for Web Pentesters | https://github.com/LasCC/Hack-Tools | https://ludovic-cyber-sec.netlify.app/ | Cyber Security Student at ESGI Paris 🇫🇷 | Paris | None | 45 | 0 | 0 | 0 | 0 | TypeScript,Python,JavaScript | 1900 | 197 | 1| 
 | LennyLeng | SOC_Sankey_Generator: 从SOC日志中进行数据ETL与数据可视化的工具 | https://github.com/LennyLeng/SOC_Sankey_Generator | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | LifeForm-Labs | All of the presentation materials for the Android browser @ InfiltrateCon talk can be found here - | https://github.com/LifeForm-Labs/all_your_browsers_belong_to_us | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | LightWind | malusb : HID spoofing multi-OS payload for Teensy (Win* & Mac OSX) : https://github.com/LightWind/malusb ,Slides : | https://github.com/LightWind/malusb | None |  | None | None | 25 | 0 | 142 | 0 | 12 | C,JavaScript,Java | 1 | 0 | 1| 
@@ -3776,6 +3778,7 @@
 | baidu-security | openrasp-iast: IAST 灰盒扫描工具 | https://github.com/baidu-security/openrasp-iast | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java,Python,JavaScript,C++,HTML,Go,TSQL | 0 | 0 | 1| 
 | bb1nfosec | Windows漏洞利用资源以及漏洞利用的网站参考列表总结。 | https://github.com/bb1nfosec/Information-Security-Tasks/blob/master/Post%20Exploitation/Windows%20Exploitation%2C%20post%20exploitation%20sites%20for%20reference | None | Just another guy whom loves to play 0 and 1 . | India | None | 0 | 0 | 0 | 0 | 0 | Python,Shell,HTML,CSS | 49 | 16 | 1| 
 | beurtschipper | Depix - 从截屏马赛克处理后的图片中还原原始密码 | https://github.com/beurtschipper/Depix | https://www.graa.nl/ |  | None | None | 26 | 0 | 0 | 0 | 0 | Python,C | 5300 | 262 | 1| 
+| bg6cq | 一次挖矿入侵处理记录 | https://github.com/bg6cq/ITTS/blob/master/security/mine/README.md | http://bg6cq.github.io |  | None | USTC | 116 | 0 | 0 | 0 | 0 | Lua,C,PHP | 110 | 45 | 1| 
 | bitblaze-fuzzball | fuzzball: FuzzBALL: Vine-based Binary Symbolic Execution | https://github.com/bitblaze-fuzzball/fuzzball | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,OCaml,C++ | 0 | 0 | 1| 
 | blackberry | 使用python解析PE文件的开源工具PE Tree发布 | https://github.com/blackberry/pe_tree | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,Objective-C,Go,Ruby | 22 | 24 | 1| 
 | blacklanternsecurity | TREVORspray - 微软 Office 365 密码爆破工具 | https://github.com/blacklanternsecurity/TREVORspray | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Python,JavaScript,Visual,Go,Ruby,PowerShell,CSS | 0 | 0 | 1| 

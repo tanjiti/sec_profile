@@ -14,17 +14,18 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 共创网安 | jsgcwa | “专家讲坛”第二期：互联网产品数据与隐私合规审查要点 | https://mp.weixin.qq.com/s/m_8Y3x-DzoWNwU8tBT-ENw | 1| 
+| 开源情报研究所 | OSINTR | 【技巧】如何开源手动挖掘LinkedIn领英 | https://mp.weixin.qq.com/s/mtQ40m7qLayUDxgmWgsWPw | 2| 
+| 绿盟科技研究通讯 | nsfocus_research | 自动化的攻击溯源之痛 ：数据获取与关联的困惑 | https://mp.weixin.qq.com/s/dJDHLvJOGVPQB1cfTayX9w | 2| 
 | 中国信息安全 | chinainfosec | 程国平：全球网络反恐格局中的中国力量 | https://mp.weixin.qq.com/s/1dpbZO_rD4GSfaPqjw5Luw | 2| 
 | 信创咨询 | XConsultancy | 信创产业：操作系统深度研究（PPT原文） | https://mp.weixin.qq.com/s/fA1xDbQ9qbV1L2AgitFXdw | 1| 
+| 腾讯安全应急响应中心 | tsrc_team | SSRF安全指北 | https://mp.weixin.qq.com/s/EYVFHgNClgNGrk_92PZ90A | 3| 
 | DevSecOps联盟 | idevsecops | 美国国防部DevSecOps实践 | https://mp.weixin.qq.com/s/EPpgQlgc_8eY21xJRZkBqQ | 1| 
 | OPPO安全应急响应中心 | opposrc | CVE-2020-16040: Chromium V8引擎整数溢出漏洞分析 | https://mp.weixin.qq.com/s/j-WbrCQVb4E2JfY-bDqzJw | 1| 
-| 腾讯安全应急响应中心 | tsrc_team | 基于机器学习的敏感信息泄露治理探索 | https://mp.weixin.qq.com/s/9ZOSyPJdyxgrbsY4FIvgXw | 3| 
 | Flanker论安全 | ShowMeShell | Fuzzing战争系列之二：不畏浮云遮望眼 | https://mp.weixin.qq.com/s/G26MJOH4VPene1Sd_zjEQw | 1| 
 | 安全学术圈 | secquan | FAVICONS和缓存：浏览器中的持久跟踪 | https://mp.weixin.qq.com/s/K7IesHkuUTV2yAh9_yl6kw | 5| 
-| 开源情报研究所 | OSINTR | 【技巧】针对电话号码信息收集和OSINT框架 | https://mp.weixin.qq.com/s/6JzvO58Q05O2NoS9mX_mPQ | 1| 
 | BlockSec Team | gh_57d94ebc8526 | 以太坊钓鱼合约：因为了解，所以上当 | https://mp.weixin.qq.com/s/4zztI9f-pzvLxVFxlVdgMw | 1| 
 | vivo千镜安全实验室 | gh_54ff3f871510 | 常见的匿名化隐私保护技术 | https://mp.weixin.qq.com/s/46yaHiXqDpq4cY4W1uqKsQ | 1| 
-| 绿盟科技研究通讯 | nsfocus_research | 关于恶意软件加密流量检测的思考 | https://mp.weixin.qq.com/s/hVq3eBMDsX6tj1PsoUpy8Q | 1| 
 | 酒仙桥六号部队 | anfu-360 | 记一次反制追踪溯本求源 | https://mp.weixin.qq.com/s/xW2u4s8xCTnLCkpDoK5Yzw | 2| 
 | ChaMd5安全团队 | chamd5sec | Netgear固件分析与后门植入 | https://mp.weixin.qq.com/s/o9v4V673ayyMTY1vGjveFg | 4| 
 | SecWiki | SecWiki | SecWiki安全周刊-年卷-2020 | https://mp.weixin.qq.com/s/pI495N48AYbA3gYkf4zlqQ | 1| 
@@ -57,6 +58,7 @@
 | ControlThings-io | 适用于Control Things Platform用户的样本文件与顶级研究项目。 | https://github.com/ControlThings-io/ct-samples | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,PHP,Rich | 0 | 0 | 1| 
 | FunnyWolf | Viper:是一款图形化红队评估工具,将红队评估过程中常用的战术及技术进行模块集成所有功能必备。 | https://github.com/FunnyWolf/Viper | None | hack for fun | None | None | 21 | 0 | 0 | 0 | 0 | Python,Go | 504 | 73 | 1| 
 | Hzllaga | 宝塔面板Windows版提权方法 | https://github.com/Hzllaga/BT_Panel_Privilege_Escalation | None |  | None | None | 31 | 0 | 0 | 0 | 0 | C#,Python | 187 | 39 | 1| 
+| LasCC | The all-in-one Red Team browser extension for Web Pentesters | https://github.com/LasCC/Hack-Tools | https://ludovic-cyber-sec.netlify.app/ | Cyber Security Student at ESGI Paris 🇫🇷 | Paris | None | 45 | 0 | 0 | 0 | 0 | TypeScript,Python,JavaScript | 1900 | 197 | 1| 
 | LloydLabs | Windows 进程删除自身可执行文件的 PoC | https://github.com/LloydLabs/delete-self-poc | https://blog.syscall.party | 20, BEng Student @ ENU, RE, fuzzing & malware research. | Edinburgh, Scotland. | None | 6 | 0 | 0 | 0 | 0 | Go,C | 235 | 32 | 1| 
 | Loveforkeeps | 解密APT”小黄鸭“挖矿组织分析报告。 | https://github.com/Loveforkeeps/Lemon-Duck | http://loveforkeeps.top | Cyberspace Security Engineer/Threat Intelligence Scholar/Security Developer | Mars | None | 23 | 0 | 0 | 0 | 0 | Python | 1 | 1 | 1| 
 | MiSecurity | 消费级物联网安全基线 | https://github.com/MiSecurity/Cyber-Security-Baseline-for-Consumer-Internet-of-Things/blob/main/resources/pdf/%E6%B6%88%E8%B4%B9%E7%BA%A7%E7%89%A9%E8%81%94%E7%BD%91%E5%AE%89%E5%85%A8%E5%9F%BA%E7%BA%BF.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go | 0 | 0 | 1| 
@@ -66,6 +68,7 @@
 | ahmedkhlief | APT-Hunter: 紫色团队用于Windows事件日志的威胁搜寻工具项目。 | https://github.com/ahmedkhlief/APT-Hunter | https://shells.systems | @ahmed_khlief : Security Analyst , Purple Teamer , APT Hunter | None | None | 11 | 0 | 0 | 0 | 0 | Python,PowerShell,C++ | 250 | 70 | 1| 
 | anantshri | 研究员 Anant Shrivastava 关于 Android Security 培训的资料 | https://github.com/anantshri/Android_Security | http://blog.anantshri.info | Project Leader for @AndroidTamer and @CodeVigilant | Bhopal India | InfoSec Professional | 194 | 0 | 0 | 0 | 0 | Python,Shell,PHP | 245 | 96 | 1| 
 | astarasikov | 有研究员公开了一个 Fuzz macOS GPU 相关模块的 Fuzzer | https://github.com/astarasikov/macos-gpu-fuzzing-public | https://allsoftwaresucks.blogspot.com |  | Moscow, Russia | None | 63 | 0 | 0 | 0 | 0 | Objective-C,Java,C | 41 | 14 | 1| 
+| bg6cq | 一次挖矿入侵处理记录 | https://github.com/bg6cq/ITTS/blob/master/security/mine/README.md | http://bg6cq.github.io |  | None | USTC | 116 | 0 | 0 | 0 | 0 | Lua,C,PHP | 110 | 45 | 1| 
 | cdk-team | 容器环境定制的渗透测试工具 | https://github.com/cdk-team/CDK/wiki/CDK-Home-CN | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go | 0 | 0 | 1| 
 | coodyer | fire_vulnerability_scanner: 一款http协议的漏洞扫描框架 | https://github.com/coodyer/fire_vulnerability_scanner | None |  | https://avatars3.githubusercontent.com/u/21119116?v=3&u=29f095a5e89411d5ca4cc7509c406280f095e658&s=400 | None | 19 | 0 | 0 | 0 | 0 | C#,Java | 27 | 10 | 1| 
 | daniel-thompson | 基于MicroPython的智能手表开发环境手册指南（包括Pine64 PineTime）项目介绍。 | https://github.com/daniel-thompson/wasp-os | http://redfelineninja.org.uk/daniel/ |  | Bristol, UK | None | 70 | 0 | 0 | 0 | 0 | Python,C,Shell | 179 | 64 | 1| 
