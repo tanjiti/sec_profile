@@ -14,6 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| ChaMd5安全团队 | chamd5sec | 破解与攻击智能门锁 | https://mp.weixin.qq.com/s/IY6j0v9pG4j-JlozEk7Jzw | 6| 
+| 威胁棱镜 | THREAT_PRISM | 使用 Cloudflare Workers 隐藏 C&C 流量 | https://mp.weixin.qq.com/s/ozzyalC8anfi9VAHb3r-oQ | 4| 
 | 共创网安 | jsgcwa | “专家讲坛”第二期：互联网产品数据与隐私合规审查要点 | https://mp.weixin.qq.com/s/m_8Y3x-DzoWNwU8tBT-ENw | 1| 
 | 开源情报研究所 | OSINTR | 【技巧】如何开源手动挖掘LinkedIn领英 | https://mp.weixin.qq.com/s/mtQ40m7qLayUDxgmWgsWPw | 2| 
 | 绿盟科技研究通讯 | nsfocus_research | 自动化的攻击溯源之痛 ：数据获取与关联的困惑 | https://mp.weixin.qq.com/s/dJDHLvJOGVPQB1cfTayX9w | 2| 
@@ -27,7 +29,6 @@
 | BlockSec Team | gh_57d94ebc8526 | 以太坊钓鱼合约：因为了解，所以上当 | https://mp.weixin.qq.com/s/4zztI9f-pzvLxVFxlVdgMw | 1| 
 | vivo千镜安全实验室 | gh_54ff3f871510 | 常见的匿名化隐私保护技术 | https://mp.weixin.qq.com/s/46yaHiXqDpq4cY4W1uqKsQ | 1| 
 | 酒仙桥六号部队 | anfu-360 | 记一次反制追踪溯本求源 | https://mp.weixin.qq.com/s/xW2u4s8xCTnLCkpDoK5Yzw | 2| 
-| ChaMd5安全团队 | chamd5sec | Netgear固件分析与后门植入 | https://mp.weixin.qq.com/s/o9v4V673ayyMTY1vGjveFg | 4| 
 | SecWiki | SecWiki | SecWiki安全周刊-年卷-2020 | https://mp.weixin.qq.com/s/pI495N48AYbA3gYkf4zlqQ | 1| 
 | 看雪学院 | ikanxue | Cobalt Strike4.0远控木马分析 | https://mp.weixin.qq.com/s/Sv0lR4G2eQf4_L8W4CqRYw | 1| 
 | 青藤实验室 | gh_151a64925040 | SharePoint Rce 系列分析（二） | https://mp.weixin.qq.com/s/ZLSFXUoNNAFxqeiD9RpYZg | 2| 
@@ -39,7 +40,6 @@
 | 360Quake空间测绘 | gh_0284fd4851e7 | 浅析开源蜜罐识别与全网测绘 | https://mp.weixin.qq.com/s/hq-z2HBGz3nehnCVg_H-RQ | 1| 
 | 阿里云安全 | aliyunsec | 对 SolarWinds 事件更深的思考：如何防御供应链攻击 | https://mp.weixin.qq.com/s/GdER32Z7K86boHVc-Kic3g | 1| 
 | ENYA物語 | gh_9f583a318c52 | 技術型管理人的自我成長 | https://mp.weixin.qq.com/s/moARUZG3BNOJL7EAiXDMJA | 1| 
-| 威胁棱镜 | THREAT_PRISM | 【情报速览】疑似 APT35 与响尾蛇组织使用的域名被披露 | https://mp.weixin.qq.com/s/BNVsnlXYtaZ9_Pk_oKgZRg | 3| 
 | 安全小飞侠 | AvFisher | 一个普通网安从业人员的2020 | https://mp.weixin.qq.com/s/PYCIMOk8_wUg7eLFEVOoUQ | 1| 
 | 深信服千里目安全实验室 | Further_eye | 【高级持续性威胁跟踪】红队视角看Sunburst后门中的TTPs | https://mp.weixin.qq.com/s/wtEbawfOd1g_T2ovp1SaGg | 1| 
 | 学术plus | caeit-e | 最新！人工智能网络安全威胁图谱 | https://mp.weixin.qq.com/s/4qbCusJde_z0AM1eDC4YiA | 1| 
