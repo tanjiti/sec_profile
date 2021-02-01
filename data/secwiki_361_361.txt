@@ -1,0 +1,29 @@
+20210125	法规	http://www.gjbmj.gov.cn/n1/2021/0125/c409089-32010949.html	涉密信息系统集成资质管理办法	gjbmj.gov.cn	www.gjbmj.gov.cn	/n1/2021/0125/c409089-32010949.html
+20210125	Web安全	https://www.anquanke.com/post/id/229611	远程命令与代码执行总结	anquanke.com	www.anquanke.com	/post/id/229611
+20210125	Web安全	https://www.sec-in.com/article/836	浅谈Springboot中的文件上传	sec-in.com	www.sec-in.com	/article/836
+20210125	Web安全	https://github.com/Hzllaga/BT_Panel_Privilege_Escalation	宝塔面板Windows版提权方法	github.com	github.com	/Hzllaga/BT_Panel_Privilege_Escalation
+20210125	Web安全	https://github.com/cdk-team/CDK/wiki/CDK-Home-CN	容器环境定制的渗透测试工具	github.com	github.com	/cdk-team/CDK/wiki/CDK-Home-CN
+20210125	取证分析	https://github.com/bg6cq/ITTS/blob/master/security/mine/README.md	一次挖矿入侵处理记录	github.com	github.com	/bg6cq/ITTS/blob/master/security/mine/README.md
+20210125	Web安全	https://www.sec-in.com/article/854	一次hvv中的asmx上传绕过waf记录	sec-in.com	www.sec-in.com	/article/854
+20210125	恶意分析	https://www.anquanke.com/post/id/228917	浅谈隧道搭建工具之Neo-reGeorg	anquanke.com	www.anquanke.com	/post/id/228917
+20210125	Web安全	https://xz.aliyun.com/t/9047	两个有趣的DNS 安全问题研究	aliyun.com	xz.aliyun.com	/t/9047
+20210125	Web安全	https://mp.weixin.qq.com/s/EYVFHgNClgNGrk_92PZ90A	SSRF安全指北	qq.com	mp.weixin.qq.com	/s/EYVFHgNClgNGrk_92PZ90A
+20210125	观点	https://mp.weixin.qq.com/s/1dpbZO_rD4GSfaPqjw5Luw	全球网络反恐格局中的中国力量	qq.com	mp.weixin.qq.com	/s/1dpbZO_rD4GSfaPqjw5Luw
+20210125	其它	https://mp.weixin.qq.com/s/fA1xDbQ9qbV1L2AgitFXdw	信创产业：操作系统深度研究（PPT原文）	qq.com	mp.weixin.qq.com	/s/fA1xDbQ9qbV1L2AgitFXdw
+20210125	取证分析	https://mp.weixin.qq.com/s/mtQ40m7qLayUDxgmWgsWPw	如何开源手动挖掘LinkedIn领英	qq.com	mp.weixin.qq.com	/s/mtQ40m7qLayUDxgmWgsWPw
+20210125	Web安全	https://paper.seebug.org/1473/	为被动扫描器量身打造一款爬虫	seebug.org	paper.seebug.org	/1473/
+20210125	Web安全	https://www.sec-in.com/article/847	再聊钓鱼文档	sec-in.com	www.sec-in.com	/article/847
+20210125	运维安全	https://mp.weixin.qq.com/s/EPpgQlgc_8eY21xJRZkBqQ	美国国防部DevSecOps实践	qq.com	mp.weixin.qq.com	/s/EPpgQlgc_8eY21xJRZkBqQ
+20210125	取证分析	https://mp.weixin.qq.com/s/dJDHLvJOGVPQB1cfTayX9w	自动化的攻击溯源之痛 ：数据获取与关联的困惑	qq.com	mp.weixin.qq.com	/s/dJDHLvJOGVPQB1cfTayX9w
+20210125	取证分析	https://shells.systems/introducing-apt-hunter-threat-hunting-tool-via-windows-event-log/	APT-Hunter : Threat Hunting Tool via Windows Event Log	shells.systems	shells.systems	/introducing-apt-hunter-threat-hunting-tool-via-windows-event-log/
+20210125	Web安全	https://www.anquanke.com/post/id/229954	域用户密码爆破研究	anquanke.com	www.anquanke.com	/post/id/229954
+20210125	Web安全	https://xz.aliyun.com/t/9050	Java安全02-从ClassLoader到冰蝎Java篇	aliyun.com	xz.aliyun.com	/t/9050
+20210125	设备安全	https://mp.weixin.qq.com/s/IY6j0v9pG4j-JlozEk7Jzw	破解与攻击智能门锁	qq.com	mp.weixin.qq.com	/s/IY6j0v9pG4j-JlozEk7Jzw
+20210125	其它	https://mp.weixin.qq.com/s/ozzyalC8anfi9VAHb3r-oQ	使用 Cloudflare Workers 隐藏 C&C 流量	qq.com	mp.weixin.qq.com	/s/ozzyalC8anfi9VAHb3r-oQ
+20210125	Web安全	https://www.sec-in.com/article/827	JavaWeb中的信息泄漏——H2 database	sec-in.com	www.sec-in.com	/article/827
+20210125	其它	https://mp.weixin.qq.com/s/Qx6AuQkxqJO3Ob2REj9Myw	CRC背后的故事	qq.com	mp.weixin.qq.com	/s/Qx6AuQkxqJO3Ob2REj9Myw
+20210125	运维安全	https://mp.weixin.qq.com/s/ayhKILhCMUgFOKLcX0Y_3Q	安全基线建设指南	qq.com	mp.weixin.qq.com	/s/ayhKILhCMUgFOKLcX0Y_3Q
+20210125	观点	https://mp.weixin.qq.com/s/m_8Y3x-DzoWNwU8tBT-ENw	互联网产品数据与隐私合规审查要点	qq.com	mp.weixin.qq.com	/s/m_8Y3x-DzoWNwU8tBT-ENw
+20210125	杂志	https://www.sec-wiki.com/weekly/360	SecWiki周刊（第360期)	sec-wiki.com	www.sec-wiki.com	/weekly/360
+20210125	其它	https://ncstatic.clewm.net/rsrc/2021/0129/15/e93a0825fa2b6d35b2ee59b70fab6bbb.pdf	2020年区块链生态安全态势年度报告	clewm.net	ncstatic.clewm.net	/rsrc/2021/0129/15/e93a0825fa2b6d35b2ee59b70fab6bbb.pdf
+20210125	文档	https://ncstatic.clewm.net/rsrc/2021/0126/18/b93622f8d42d6529cfc7ed8b03d48efe.pdf	2020年工业控制网络安全态势白皮书	clewm.net	ncstatic.clewm.net	/rsrc/2021/0126/18/b93622f8d42d6529cfc7ed8b03d48efe.pdf

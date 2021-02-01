@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 互联网安全内参 | anquanneican | 安全基线建设指南 | https://mp.weixin.qq.com/s/ayhKILhCMUgFOKLcX0Y_3Q | 1| 
 | ChaMd5安全团队 | chamd5sec | 破解与攻击智能门锁 | https://mp.weixin.qq.com/s/IY6j0v9pG4j-JlozEk7Jzw | 6| 
 | 威胁棱镜 | THREAT_PRISM | 使用 Cloudflare Workers 隐藏 C&C 流量 | https://mp.weixin.qq.com/s/ozzyalC8anfi9VAHb3r-oQ | 4| 
 | 共创网安 | jsgcwa | “专家讲坛”第二期：互联网产品数据与隐私合规审查要点 | https://mp.weixin.qq.com/s/m_8Y3x-DzoWNwU8tBT-ENw | 1| 
@@ -90,6 +91,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Detecting the Leverage of INF-SCT Fetch & Execute Techniques | http://0xbandar.medium.com/detecting-the-leverage-of-inf-sct-fetch-execute-techniques-beca55e24d50?source=social.tw| 
 | Mitigating Abuse of Android Application Permissions and Special App Accesses | http://medium.com/mitre-attack/mobile-attack-mitigating-android-abuse-50516fb7de85| 
 | 这两天黑客攻击安全研究员事件相关 C&C 通信机制的分析 | http://medium.com/s2wlab/analysis-of-threatneedle-c-c-communication-feat-google-tag-warning-to-researchers-782aa51cf74| 
 | SSRF exploitation in Spreedsheet to PDF converter | http://medium.com/@r4id3n/ssrf-exploitation-in-spreedsheet-to-pdf-converter-2c7eacdac781| 
