@@ -1,8 +1,8 @@
-Python	17
-C	11
-Go	8
+Python	19
+C	12
+Go	9
+JavaScript	8
 Java	7
-JavaScript	7
 C++	6
 PHP	6
 Shell	5
@@ -15,6 +15,7 @@ Starlark	2
 Lua	1
 Rich	1
 YARA	1
+Assembly	1
 Dart	1
 CSS	1
 Elixir	1
