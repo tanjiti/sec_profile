@@ -3,7 +3,7 @@ C	12
 Go	9
 JavaScript	8
 Java	7
-C++	6
+C++	7
 PHP	6
 Shell	5
 Rust	5
@@ -22,5 +22,6 @@ Elixir	1
 Ruby	1
 Jupyter	1
 Kotlin	1
+TeX	1
 Objective-C	1
 Stylus	1

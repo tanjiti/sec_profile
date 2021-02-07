@@ -1,6 +1,7 @@
 Python	4
+C	2
 JavaScript	2
-C	1
+C++	2
 Assembly	1
-C++	1
+TeX	1
 Go	1
