@@ -1,0 +1,26 @@
+20210201	Web安全	https://mp.weixin.qq.com/s/utqGvCTEFS3hQ_GttWHVNw	记一次理财杀猪盘渗透测试案例	qq.com	mp.weixin.qq.com	/s/utqGvCTEFS3hQ_GttWHVNw
+20210201	Web安全	https://www.sec-in.com/article/848	代码审计 PHP基础（一）	sec-in.com	www.sec-in.com	/article/848
+20210201	观点	https://www.anquanke.com/post/id/229474	浅谈溯源思维	anquanke.com	www.anquanke.com	/post/id/229474
+20210201	移动安全	https://bbs.pediy.com/thread-265404.htm	安卓APP抓包之双向认证突破	pediy.com	bbs.pediy.com	/thread-265404.htm
+20210201	恶意分析	https://mp.weixin.qq.com/s/C8jHikFag_CulJIcq0filg	Metasploit 的 payload 特征	qq.com	mp.weixin.qq.com	/s/C8jHikFag_CulJIcq0filg
+20210201	Web安全	https://www.sec-in.com/article/855	代码审计 PHP基础（二）	sec-in.com	www.sec-in.com	/article/855
+20210201	恶意分析	https://mp.weixin.qq.com/s/B_pREKw4SJQjpbVbQLl33w	2020网络金融黑产研究报告	qq.com	mp.weixin.qq.com	/s/B_pREKw4SJQjpbVbQLl33w
+20210201	杂志	https://www.sec-wiki.com/weekly/361	SecWiki周刊（第361期)	sec-wiki.com	www.sec-wiki.com	/weekly/361
+20210201	其它	https://mp.weixin.qq.com/s/fwbFMHuVdX-FNa7dB5mw0Q	2021HWS冬令营线上赛固件安全-WriteUp	qq.com	mp.weixin.qq.com	/s/fwbFMHuVdX-FNa7dB5mw0Q
+20210201	恶意分析	https://mp.weixin.qq.com/s/xz3XDHVg2jzMc6Sv-o8YTw	基于复杂图的 DDoS 攻击团伙发现与跟踪	qq.com	mp.weixin.qq.com	/s/xz3XDHVg2jzMc6Sv-o8YTw
+20210201	恶意分析	https://mp.weixin.qq.com/s/JvQ38Isf1xXcGOe5wDgXWw	python编译后的pyd爆破	qq.com	mp.weixin.qq.com	/s/JvQ38Isf1xXcGOe5wDgXWw
+20210201	取证分析	https://mp.weixin.qq.com/s/II5q4tYyZ3JUD4vHy1Fx6A	智能终端隐私防跟踪技术实践	qq.com	mp.weixin.qq.com	/s/II5q4tYyZ3JUD4vHy1Fx6A
+20210201	其它	https://mp.weixin.qq.com/s/QNBlsBJaWNXsZLEuNRQcvQ	云安全架构连载之一-Azure整体架构及安全亮点详解	qq.com	mp.weixin.qq.com	/s/QNBlsBJaWNXsZLEuNRQcvQ
+20210201	观点	https://mp.weixin.qq.com/s/piWwrlXZTcgN0Tsr2MiLew	2020年全球国防网络空间情况综述（武器技术篇-上）	qq.com	mp.weixin.qq.com	/s/piWwrlXZTcgN0Tsr2MiLew
+20210201	运维安全	http://www.ciia.com.cn/cndetail.html?id=78547	内部审计实务指南—信息系统审计	ciia.com.cn	www.ciia.com.cn	/cndetail.html
+20210201	移动安全	https://mp.weixin.qq.com/s/eqYj385SGCUo5errVx2CZg	安卓Native层共享库fuzzing技术思路及实践	qq.com	mp.weixin.qq.com	/s/eqYj385SGCUo5errVx2CZg
+20210201	漏洞分析	https://mp.weixin.qq.com/s/Ye_AuMDLQotv3M5rv9OmOA	基于DTLS协议的反射攻击深度分析	qq.com	mp.weixin.qq.com	/s/Ye_AuMDLQotv3M5rv9OmOA
+20210201	文档	https://zt.360.cn/1101061855.php?dtid=1101062360&did=211138962	2020全球高级持续性威胁APT研究报告	360.cn	zt.360.cn	/1101061855.php
+20210201	观点	https://mp.weixin.qq.com/s/lr39F9kNOfHlMimgymzVwg	让网络空间测绘技术不再那么飘忽不定	qq.com	mp.weixin.qq.com	/s/lr39F9kNOfHlMimgymzVwg
+20210201	观点	https://mp.weixin.qq.com/s/kd6YahJcqB2NWq3IP2XztQ	2020年全球国防网络空间情况综述（武器技术篇-下）	qq.com	mp.weixin.qq.com	/s/kd6YahJcqB2NWq3IP2XztQ
+20210201	运维安全	https://github.com/AltraMayor/gatekeeper	gatekeeper: First open-source DDoS protection system	github.com	github.com	/AltraMayor/gatekeeper
+20210201	数据挖掘	https://github.com/NiuTrans/CNSurvey	中文综述文章列表（自然语言处理&机器学习）	github.com	github.com	/NiuTrans/CNSurvey
+20210201	论文	https://mp.weixin.qq.com/s/doFTqJcA30AwgUUtK5XqMQ	SerialDetector：Web对象注入漏洞的原理和实践探索	qq.com	mp.weixin.qq.com	/s/doFTqJcA30AwgUUtK5XqMQ
+20210201	取证分析	https://hmnguyen1201.github.io/Mitre-Att-ck-table/	Mitre Att&ck detection coverage tracking with Kibana	github.io	hmnguyen1201.github.io	/Mitre-Att-ck-table/
+20210201	论文	https://mp.weixin.qq.com/s/w9SjsI3WVmghVVQGwtkyUQ	AVATAR：通过修复静态分析冲突的模式来修复语义错误	qq.com	mp.weixin.qq.com	/s/w9SjsI3WVmghVVQGwtkyUQ
+20210201	恶意分析	https://mp.weixin.qq.com/s/ofg9dVgL38CENCFXFAslOw	针对攻击目标量身定制 Cobalt Strike 的 Beacon 执行	qq.com	mp.weixin.qq.com	/s/ofg9dVgL38CENCFXFAslOw
