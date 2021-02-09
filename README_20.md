@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 国家网络威胁情报共享开放平台 | CNTIC2017 | 2020年勒索软件分析 | https://mp.weixin.qq.com/s/yrtU2_VxEt94DWF4eQWujA | 6| 
 | 威胁棱镜 | THREAT_PRISM | 针对攻击目标量身定制 CS 的 Beacon 执行 | https://mp.weixin.qq.com/s/ofg9dVgL38CENCFXFAslOw | 8| 
 | 锦行信息安全 | jeeseensec | 技术分享 , 锦行杯比赛 Writeup | https://mp.weixin.qq.com/s/mYCDsbERsgph5zu-4-lyKQ | 12| 
 | 安全学术圈 | secquan | SerialDetector：Web对象注入漏洞的原理和实践探索 | https://mp.weixin.qq.com/s/doFTqJcA30AwgUUtK5XqMQ | 60| 
@@ -62,7 +63,6 @@
 | 漏洞战争 | vulwar | 聊聊漏洞自动修复技术的行业现状 | https://mp.weixin.qq.com/s/xgwdhBSvE7yW0YcekGEWjA | 13| 
 | 360技术 | qihoo_tech | 用DNS进行网络度量和安全分析 | https://mp.weixin.qq.com/s/L_wDNJtznQvrCyx1Kd1SlQ | 1| 
 | b1ngz的笔记本 | gh_70bda0a9ced0 | 自动化安全工具平台 - 架构笔记 | https://mp.weixin.qq.com/s/OMhS9yFlcpI9KOQduSxq9g | 1| 
-| 国家网络威胁情报共享开放平台 | CNTIC2017 | cybereason：Molerats组织滥用云服务的攻击活动分析 | https://mp.weixin.qq.com/s/iWYr18hSLBBL4Y1-hAmEeg | 5| 
 | 国网浙江信通公司 | gh_12020d981693 | 鲸蓝计划丨溯源反制基本思路与实战 | https://mp.weixin.qq.com/s/axNXFgyaD-5WSIkPwjkPrQ | 1| 
 | 奇安信ATEAM | gh_266190cebfff | 从Solarwinds供应链攻击（金链熊）看APT行动中的隐蔽作战 | https://mp.weixin.qq.com/s/UqXC1vovKUu97569LkYm2Q | 2| 
 | 奇安信威胁情报中心 | gh_166784eae33e | 软件供应链来源攻击分析报告 | https://mp.weixin.qq.com/s/ypKn7uanv7oSDc4h8zvmgQ | 42| 
@@ -3734,6 +3734,7 @@
 | SerpicoProject | Serpico - 渗透测试报告生成与协作工具: | https://github.com/SerpicoProject/Serpico | None | None | None | None | 0 | 0 | 0 | 0 | 0 | JavaScript,Ruby,HTML | 0 | 0 | 1| 
 | ShiHuang-ESec | EHole: (棱洞)-红队重点攻击系统指纹探测工具 | https://github.com/ShiHuang-ESec/EHole | None |  | None | None | 2 | 0 | 0 | 0 | 0 |  | 113 | 17 | 1| 
 | SparkSharly | Deep Learning for detection with XSS | https://github.com/SparkSharly/DL_for_xss | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
+| SySS-Research | WireBug - 用于 VoIP 协议渗透测试的工具 | https://github.com/SySS-Research/WireBug | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Python,C++,Lua,Verilog,C# | 0 | 0 | 1| 
 | T0pCyber | HAWK 工具项目。该工具为安全人员快速分析收集数据工具。 | https://github.com/T0pCyber/hawk | https://twitter.com/T0p_Cyber | Microsoft Cyber Security Consultant Cloud Forensics | Wake Forest NC | None | 3 | 0 | 0 | 0 | 0 | PowerShell | 203 | 42 | 1| 
 | Tencent | TencentOS tiny - 腾讯开源的面向物联网领域的实时操作系统 | https://github.com/Tencent/TencentOS-tiny | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Java,Python,Kotlin,JavaScript,C++,Lua,Go,PHP,CSS,C# | 23200 | 5900 | 1| 
 | TheKingOfDuck | FileMonitor: 文件变化实时监控工具 | https://github.com/TheKingOfDuck/FileMonitor | https://blog.xxxxxxxxx/ | FIVE,,Infosec Researcher,,Security Developer | V1g6VGhlS2luZ09mR2FHYUdh | None | 43 | 0 | 0 | 0 | 0 | Python,C#,Shell | 2500 | 980 | 3| 

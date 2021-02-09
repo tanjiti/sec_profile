@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 国家网络威胁情报共享开放平台 | CNTIC2017 | 2020年勒索软件分析 | https://mp.weixin.qq.com/s/yrtU2_VxEt94DWF4eQWujA | 1| 
 | 威胁棱镜 | THREAT_PRISM | 针对攻击目标量身定制 CS 的 Beacon 执行 | https://mp.weixin.qq.com/s/ofg9dVgL38CENCFXFAslOw | 6| 
 | 锦行信息安全 | jeeseensec | 技术分享 , 锦行杯比赛 Writeup | https://mp.weixin.qq.com/s/mYCDsbERsgph5zu-4-lyKQ | 1| 
 | 安全学术圈 | secquan | SerialDetector：Web对象注入漏洞的原理和实践探索 | https://mp.weixin.qq.com/s/doFTqJcA30AwgUUtK5XqMQ | 7| 
@@ -76,6 +77,7 @@
 | MichaelKoczwara | Awesome CobaltStrike Defence 资料整理 | https://github.com/MichaelKoczwara/Awesome-CobaltStrike-Defence | https://twitter.com/MichalKoczwara | Cyber Security | London | None | 32 | 0 | 0 | 0 | 0 | Go,C#,Ruby | 198 | 25 | 1| 
 | NiuTrans | 中文综述文章列表（自然语言处理&机器学习） | https://github.com/NiuTrans/CNSurvey | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TeX,C++ | 1800 | 623 | 1| 
 | S1ckB0y1337 | Cobalt-Strike 相关的一些工具以及使用 Tips | https://github.com/S1ckB0y1337/Cobalt-Strike-CheatSheet | https://app.hackthebox.eu/profile/1109 | Penetration Tester , OSCP , Comp.Sci Student , CTF Player | Greece | None | 99 | 0 | 0 | 0 | 0 | Java,C++ | 1200 | 322 | 1| 
+| SySS-Research | WireBug - 用于 VoIP 协议渗透测试的工具 | https://github.com/SySS-Research/WireBug | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Python,C++,Lua,Verilog,C# | 0 | 0 | 1| 
 | a232319779 | mmpi: 邮件快速检测库 | https://github.com/a232319779/mmpi | None | big pig. | None | None | 11 | 0 | 0 | 0 | 0 | Python,C | 28 | 12 | 1| 
 | ahmedkhlief | APT-Hunter: 紫色团队用于Windows事件日志的威胁搜寻工具项目。 | https://github.com/ahmedkhlief/APT-Hunter | https://shells.systems | @ahmed_khlief : Security Analyst , Purple Teamer , APT Hunter | None | None | 11 | 0 | 0 | 0 | 0 | Python,PowerShell,C++ | 250 | 70 | 1| 
 | anantshri | 研究员 Anant Shrivastava 关于 Android Security 培训的资料 | https://github.com/anantshri/Android_Security | http://blog.anantshri.info | Project Leader for @AndroidTamer and @CodeVigilant | Bhopal India | InfoSec Professional | 194 | 0 | 0 | 0 | 0 | Python,Shell,PHP | 245 | 96 | 1| 
