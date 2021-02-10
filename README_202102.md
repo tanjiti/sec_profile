@@ -14,7 +14,10 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| FreeBuf | freebuf | 邮件钓鱼入门到入土 | https://mp.weixin.qq.com/s/hhBs3wryDCum1DrD6CxeRw | 1| 
 | 国家网络威胁情报共享开放平台 | CNTIC2017 | 2020年勒索软件分析 | https://mp.weixin.qq.com/s/yrtU2_VxEt94DWF4eQWujA | 1| 
+| 腾讯安全应急响应中心 | tsrc_team | 基于威胁情报周期模型的APT木马剖析 | https://mp.weixin.qq.com/s/CYxGbdRGDfXGY8wupnGbrw | 1| 
+| 鸟哥谈云安全 | cnbirdsecintel | 云安全架构连载之二-Azure云平台威胁检测详解 | https://mp.weixin.qq.com/s/Dffk-_TSCaR2SWVAIMCQUA | 2| 
 | 威胁棱镜 | THREAT_PRISM | 针对攻击目标量身定制 CS 的 Beacon 执行 | https://mp.weixin.qq.com/s/ofg9dVgL38CENCFXFAslOw | 2| 
 | 锦行信息安全 | jeeseensec | 技术分享 , 锦行杯比赛 Writeup | https://mp.weixin.qq.com/s/mYCDsbERsgph5zu-4-lyKQ | 1| 
 | 安全学术圈 | secquan | SerialDetector：Web对象注入漏洞的原理和实践探索 | https://mp.weixin.qq.com/s/doFTqJcA30AwgUUtK5XqMQ | 2| 
@@ -28,7 +31,6 @@
 | FCC30+ | Fcc_198905 | 2020网络金融黑产研究报告 | https://mp.weixin.qq.com/s/B_pREKw4SJQjpbVbQLl33w | 1| 
 | vivo千镜安全实验室 | gh_54ff3f871510 | 智能终端隐私防跟踪技术实践 | https://mp.weixin.qq.com/s/II5q4tYyZ3JUD4vHy1Fx6A | 1| 
 | 看雪学院 | ikanxue | python编译后的pyd爆破 | https://mp.weixin.qq.com/s/JvQ38Isf1xXcGOe5wDgXWw | 1| 
-| 鸟哥谈云安全 | cnbirdsecintel | 云安全架构连载之一-Azure整体架构及安全亮点详解 | https://mp.weixin.qq.com/s/QNBlsBJaWNXsZLEuNRQcvQ | 1| 
 
 
 # 组织github账号 推荐
