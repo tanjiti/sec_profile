@@ -6,6 +6,7 @@ Shell	1
 Assembly	1
 TeX	1
 Lua	1
+HTML	1
 Verilog	1
 Go	1
 Java	1

@@ -8,8 +8,8 @@ Shell	6
 PHP	6
 Rust	5
 C#	5
+HTML	4
 TypeScript	3
-HTML	3
 PowerShell	3
 Lua	2
 Starlark	2

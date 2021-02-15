@@ -93,6 +93,7 @@
 | grapl-security | 用图的理论从日志中挖掘入侵的行为 | https://github.com/grapl-security/grapl | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Rust | 0 | 0 | 1| 
 | h4ckdepy | SeveTools:多功能的网络安全实战工具项目库。 | https://github.com/h4ckdepy/SeveTools | https://blog.happysec.cn | 网络安全爱好者。 | None | None | 21 | 0 | 0 | 0 | 0 | Stylus,PHP,JavaScript,CSS | 118 | 66 | 1| 
 | ihebski | 各类 IoT 设备/Web 组件的默认密码收集 | https://github.com/ihebski/DefaultCreds-cheat-sheet | None | Security Operations Engineer (⌐■_■) , Pentester , Bughunter | Error: Unable to resolve | None | 57 | 0 | 0 | 0 | 0 | Python,HTML,Jupyter | 343 | 91 | 1| 
+| jonasstrehle | supercookie: Browser fingerprinting via favicon! | https://github.com/jonasstrehle/supercookie | https://jonas.strehles.info | 20yo , Friedrichshafen | Germany | Working from home | 1 | 0 | 0 | 0 | 0 | HTML | 1300 | 64 | 1| 
 | jsherman212 | XNU 内核 Hook 框架，基于 checkra1n pongoOS | https://github.com/jsherman212/xnuspy | https://twitter.com/jsherma100 | CS student, interested in security research & exploit dev | None | None | 14 | 0 | 0 | 0 | 0 | C | 206 | 21 | 1| 
 | maddiestone | Project Zero Maddie Stone 对 2020 年野外漏洞利用情况的综述 | https://github.com/maddiestone/ConPresentations/blob/master/Enigma2021.StateOf0day.pdf | http://twitter.com/maddiestone |  | None | None | 4 | 0 | 0 | 0 | 0 | Python | 949 | 122 | 1| 
 | nccgroup | PyBeacon - NCCGroup 开源的用于处理 Cobalt Strike beacons 的脚本 | https://github.com/nccgroup/pybeacon | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,C#,Shell,Elixir,Rust | 2600 | 393 | 1| 

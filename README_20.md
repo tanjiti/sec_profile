@@ -3904,6 +3904,7 @@
 | jmpsec | osctrl: Fast and efficient osquery management | https://github.com/jmpsec/osctrl | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,CSS | 0 | 0 | 1| 
 | joelpx | Interactive disassembler for x86/ARM/MIPS. Generates indented pseudo-code with coloured syntax code. | https://github.com/joelpx/plasma | None |  | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | joinsec | BadDNS: 使用公共 DNS 服务器进行多层子域名探测的极速工具 | https://github.com/joinsec/BadDNS | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,Rust | 0 | 0 | 1| 
+| jonasstrehle | supercookie: Browser fingerprinting via favicon! | https://github.com/jonasstrehle/supercookie | https://jonas.strehles.info | 20yo , Friedrichshafen | Germany | Working from home | 1 | 0 | 0 | 0 | 0 | HTML | 1300 | 64 | 1| 
 | joshDelta | Gloom-Framework - Linux 渗透测试框架: | https://github.com/joshDelta/Gloom-Framework | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | jsherman212 | XNU 内核 Hook 框架，基于 checkra1n pongoOS | https://github.com/jsherman212/xnuspy | https://twitter.com/jsherma100 | CS student, interested in security research & exploit dev | None | None | 14 | 0 | 0 | 0 | 0 | C | 206 | 21 | 1| 
 | jumpserver | jumpserver: 开源跳板机(堡垒机):认证,授权,审计,自动化运维 | https://github.com/jumpserver/jumpserver | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Java,JavaScript,Dockerfile,HTML | 0 | 0 | 1| 
