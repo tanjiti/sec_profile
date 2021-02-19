@@ -1,11 +1,12 @@
 Python	5
-C	3
+C	4
 C++	3
 JavaScript	2
 Shell	1
 Assembly	1
 TeX	1
 Lua	1
+Pascal	1
 HTML	1
 Verilog	1
 Go	1

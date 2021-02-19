@@ -1,5 +1,5 @@
 Python	1068
-C	667
+C	668
 JavaScript	666
 C++	541
 HTML	481
@@ -47,10 +47,10 @@ Roff	12
 Puppet	12
 Erlang	12
 MATLAB	11
+Pascal	11
 Bro	11
 Objective-C++	10
 R	10
-Pascal	10
 Logos	9
 Arduino	9
 F#	9

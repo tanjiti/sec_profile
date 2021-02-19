@@ -1,5 +1,5 @@
 Python	20
-C	13
+C	14
 Go	9
 Java	8
 JavaScript	8
@@ -26,3 +26,4 @@ Kotlin	1
 TeX	1
 Objective-C	1
 Stylus	1
+Pascal	1
