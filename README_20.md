@@ -4413,6 +4413,8 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 一次内网挖矿病毒的应急响应 | https://xz.aliyun.com/t/9180| 
+| BlackHat2020 议题 「When TLS Hacks You」 复现 | https://xz.aliyun.com/t/9177| 
 | 两个有趣的DNS 安全问题研究 | https://xz.aliyun.com/t/9047| 
 | Java安全02-从ClassLoader到冰蝎Java篇 | https://xz.aliyun.com/t/9050| 
 | 细说APT之Rootkit自我保护 | https://xz.aliyun.com/t/8675| 

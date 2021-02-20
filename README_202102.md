@@ -90,6 +90,8 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 一次内网挖矿病毒的应急响应 | https://xz.aliyun.com/t/9180| 
+| BlackHat2020 议题 「When TLS Hacks You」 复现 | https://xz.aliyun.com/t/9177| 
 
 
 
