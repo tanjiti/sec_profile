@@ -14,7 +14,11 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| ChaMd5安全团队 | chamd5sec | 文本对抗综述（一） | https://mp.weixin.qq.com/s/fYANjVp6CUOqri8mfA8vew | 8| 
 | DevSecOps联盟 | idevsecops | 软件安全能力成熟度评估实践 | https://mp.weixin.qq.com/s/_s5m8WxlwnoI4-Ea8SJfCA | 2| 
+| 威胁棱镜 | THREAT_PRISM | 网络空间搜索引擎研究 | https://mp.weixin.qq.com/s/ZIa1myq4xoBlAHvdR0ipTw | 7| 
+| 我的安全学习笔记 | gh_3b8ed48b5c15 | 安利一款还不错的开源工具—Nuclei | https://mp.weixin.qq.com/s/C_-FRZMqF4ifzlx-ij4iIQ | 1| 
+| 看雪学院 | ikanxue | 利用angr符号执行去除虚假控制流 | https://mp.weixin.qq.com/s/d8xoR3VdMf6lMfnETaQHZw | 3| 
 | 虎符智库 | TT_Thinktank | “十四五”时期网络安全的五大转变 | https://mp.weixin.qq.com/s/ONUYz1z4Z-6ueFwTZk8TZA | 1| 
 | 全栈网络空间安全 | cyber_securlty | 甲方安全体系建设历程的思考 | https://mp.weixin.qq.com/s/YTNWqXkcqTbjhdcIGpxE6w | 1| 
 | 小强说 | xiaoqiangcall | 浅析Course of Action应对措施 | https://mp.weixin.qq.com/s/ikHga0fGa0euwGYohv534g | 1| 
@@ -27,18 +31,15 @@
 | 国家网络威胁情报共享开放平台 | CNTIC2017 | 2020年勒索软件分析 | https://mp.weixin.qq.com/s/yrtU2_VxEt94DWF4eQWujA | 1| 
 | 腾讯安全应急响应中心 | tsrc_team | 基于威胁情报周期模型的APT木马剖析 | https://mp.weixin.qq.com/s/CYxGbdRGDfXGY8wupnGbrw | 4| 
 | 鸟哥谈云安全 | cnbirdsecintel | 云安全架构连载之二-Azure云平台威胁检测详解 | https://mp.weixin.qq.com/s/Dffk-_TSCaR2SWVAIMCQUA | 2| 
-| 威胁棱镜 | THREAT_PRISM | 针对攻击目标量身定制 CS 的 Beacon 执行 | https://mp.weixin.qq.com/s/ofg9dVgL38CENCFXFAslOw | 6| 
 | 锦行信息安全 | jeeseensec | 技术分享 , 锦行杯比赛 Writeup | https://mp.weixin.qq.com/s/mYCDsbERsgph5zu-4-lyKQ | 1| 
 | 安全学术圈 | secquan | SerialDetector：Web对象注入漏洞的原理和实践探索 | https://mp.weixin.qq.com/s/doFTqJcA30AwgUUtK5XqMQ | 7| 
 | 百度安全实验室 | BaiduX_lab | 基于DTLS协议的反射攻击深度分析 | https://mp.weixin.qq.com/s/Ye_AuMDLQotv3M5rv9OmOA | 1| 
 | 网络空间安全军民融合创新中心 | jmrh1226 | 2020年全球国防网络空间情况综述（武器技术篇-上） | https://mp.weixin.qq.com/s/piWwrlXZTcgN0Tsr2MiLew | 2| 
 | 赵武的自留地 | gh_86033a4f818d | 让网络空间测绘技术不再那么飘忽不定 | https://mp.weixin.qq.com/s/lr39F9kNOfHlMimgymzVwg | 1| 
-| ChaMd5安全团队 | chamd5sec | 2021HWS冬令营线上赛固件安全-WriteUp | https://mp.weixin.qq.com/s/fwbFMHuVdX-FNa7dB5mw0Q | 7| 
 | 字节跳动安全中心 | TouTiaoSec | 安卓Native层共享库fuzzing技术思路及实践 | https://mp.weixin.qq.com/s/eqYj385SGCUo5errVx2CZg | 1| 
 | 潇湘信安 | xxxasec | 记一次理财杀猪盘渗透测试案例 | https://mp.weixin.qq.com/s/utqGvCTEFS3hQ_GttWHVNw | 5| 
 | FCC30+ | Fcc_198905 | 2020网络金融黑产研究报告 | https://mp.weixin.qq.com/s/B_pREKw4SJQjpbVbQLl33w | 1| 
 | vivo千镜安全实验室 | gh_54ff3f871510 | 智能终端隐私防跟踪技术实践 | https://mp.weixin.qq.com/s/II5q4tYyZ3JUD4vHy1Fx6A | 2| 
-| 看雪学院 | ikanxue | python编译后的pyd爆破 | https://mp.weixin.qq.com/s/JvQ38Isf1xXcGOe5wDgXWw | 2| 
 | 互联网安全内参 | anquanneican | 安全基线建设指南 | https://mp.weixin.qq.com/s/ayhKILhCMUgFOKLcX0Y_3Q | 1| 
 | 共创网安 | jsgcwa | “专家讲坛”第二期：互联网产品数据与隐私合规审查要点 | https://mp.weixin.qq.com/s/m_8Y3x-DzoWNwU8tBT-ENw | 1| 
 | 开源情报研究所 | OSINTR | 【技巧】如何开源手动挖掘LinkedIn领英 | https://mp.weixin.qq.com/s/mtQ40m7qLayUDxgmWgsWPw | 2| 
