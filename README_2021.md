@@ -14,6 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 安全研究GoSSIP | GoSSIPSJTU | NDSS 2021 参会小记—2月22日论文报告 | https://mp.weixin.qq.com/s/LI49ioKYMksguQMqKH1Rcw | 1| 
+| 张三丰的疯言疯语 | zsfnotes | 漏洞管理的“新药” | https://mp.weixin.qq.com/s/5Y-3r1KuJgCbNrWUGoKq0w | 1| 
 | ChaMd5安全团队 | chamd5sec | 文本对抗综述（一） | https://mp.weixin.qq.com/s/fYANjVp6CUOqri8mfA8vew | 8| 
 | DevSecOps联盟 | idevsecops | 软件安全能力成熟度评估实践 | https://mp.weixin.qq.com/s/_s5m8WxlwnoI4-Ea8SJfCA | 2| 
 | 威胁棱镜 | THREAT_PRISM | 网络空间搜索引擎研究 | https://mp.weixin.qq.com/s/ZIa1myq4xoBlAHvdR0ipTw | 7| 
@@ -22,7 +24,7 @@
 | 虎符智库 | TT_Thinktank | “十四五”时期网络安全的五大转变 | https://mp.weixin.qq.com/s/ONUYz1z4Z-6ueFwTZk8TZA | 1| 
 | 全栈网络空间安全 | cyber_securlty | 甲方安全体系建设历程的思考 | https://mp.weixin.qq.com/s/YTNWqXkcqTbjhdcIGpxE6w | 1| 
 | 小强说 | xiaoqiangcall | 浅析Course of Action应对措施 | https://mp.weixin.qq.com/s/ikHga0fGa0euwGYohv534g | 1| 
-| 小迪随笔 | i-little-monster | 苹果隐私十年史：变与不变（1）突变与营销 | https://mp.weixin.qq.com/s/qqQ1BgFshie288wZEWGaEw | 5| 
+| 小迪随笔 | i-little-monster | 苹果隐私十年史：变与不变（3）产品与常识 | https://mp.weixin.qq.com/s/8-xZqAbgRCWcOSyY5x-OvA | 5| 
 | 思想花火 | ttfirework | 做信息安全BP的一些感悟 | https://mp.weixin.qq.com/s/qygwMIGX3PhbnKuPwQqfUQ | 1| 
 | 安全牛 | aqniu-wx | 百位董事长/CEO/总裁：预见2021网络安全细分领域发展 | https://mp.weixin.qq.com/s/XBGy2xG3-GYL7023lAjCyg | 1| 
 | 微步在线研究响应中心 | gh_c108d4d389bf | 浅析 CVE-2021-1647 的漏洞利用技巧 | https://mp.weixin.qq.com/s/CjsntvNM6_zMZF1IGirMPg | 2| 
@@ -98,6 +100,7 @@
 | darvincisec | AntiDebugandMemoryDump - Anti-Debug and Anti-Memory Dump for Android | https://github.com/darvincisec/AntiDebugandMemoryDump | https://darvincitech.wordpress.com | Security Researcher | Singapore | None | 13 | 0 | 0 | 0 | 0 | C,Java,Smali | 135 | 36 | 1| 
 | diversenok | 基于 Windows Native API 与电源管理组件交互 | https://github.com/diversenok/Powercfg | http://diversenok.github.io | Windows security researcher & system programmer. Student. | Russia / The Netherlands | None | 19 | 0 | 0 | 0 | 0 | Pascal,C | 4300 | 746 | 1| 
 | ffuf | Fast web fuzzer written in Go | https://github.com/ffuf/ffuf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Shell | 0 | 0 | 1| 
+| golang | Go 语言社区计划在 1.17 版本增加对 Go Fuzz 测试的支持 | https://github.com/golang/go/issues/44551 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,TypeScript,HTML | 0 | 0 | 1| 
 | google | nsjail - Google 开源的一个 Linux 平台进程隔离工具 | https://github.com/google/nsjail | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,HTML,Starlark,Go,Rust | 0 | 0 | 2| 
 | grapl-security | 用图的理论从日志中挖掘入侵的行为 | https://github.com/grapl-security/grapl | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Rust | 0 | 0 | 1| 
 | h4ckdepy | SeveTools:多功能的网络安全实战工具项目库。 | https://github.com/h4ckdepy/SeveTools | https://blog.happysec.cn | 网络安全爱好者。 | None | None | 21 | 0 | 0 | 0 | 0 | Stylus,PHP,JavaScript,CSS | 118 | 66 | 1| 
@@ -105,6 +108,7 @@
 | jimtangshfx | MilenageTest - 验证 3G/4G/5G 鉴权验证过程是否正确的工具 | https://github.com/jimtangshfx/MilenageTest | None | Jim Tang | TX,US | None | 5 | 0 | 0 | 0 | 0 | Python,Shell,HTML,C++ | 28 | 11 | 1| 
 | jonasstrehle | supercookie: Browser fingerprinting via favicon! | https://github.com/jonasstrehle/supercookie | https://jonas.strehles.info | 20yo , Friedrichshafen | Germany | Working from home | 1 | 0 | 0 | 0 | 0 | HTML | 1300 | 64 | 1| 
 | jsherman212 | XNU 内核 Hook 框架，基于 checkra1n pongoOS | https://github.com/jsherman212/xnuspy | https://twitter.com/jsherma100 | CS student, interested in security research & exploit dev | None | None | 14 | 0 | 0 | 0 | 0 | C | 206 | 21 | 1| 
+| kean | 有开发者开源的一款 macOS、iOS 日志可视化和日志共享工具 | https://github.com/kean/Pulse | http://kean.blog | Software Engineer. Prev @mailru. Moscovite. Likes porridge with 🍓 | New York | None | 28 | 0 | 0 | 0 | 0 | Objective-C,Swift | 0 | 0 | 1| 
 | maddiestone | Project Zero Maddie Stone 对 2020 年野外漏洞利用情况的综述 | https://github.com/maddiestone/ConPresentations/blob/master/Enigma2021.StateOf0day.pdf | http://twitter.com/maddiestone |  | None | None | 4 | 0 | 0 | 0 | 0 | Python | 949 | 122 | 1| 
 | nccgroup | PyBeacon - NCCGroup 开源的用于处理 Cobalt Strike beacons 的脚本 | https://github.com/nccgroup/pybeacon | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,C#,Shell,Elixir,Rust | 2600 | 393 | 1| 
 | nikic | PHP-Parser:用PHP编写的PHP解析器来分析代码工作。 | https://github.com/nikic/PHP-Parser | https://nikic.github.io/ |  | Berlin, Germany | JetBrains | 75 | 0 | 0 | 0 | 0 | C,PHP | 29200 | 6500 | 1| 
@@ -120,6 +124,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 威胁情报自学指南 Part 1 | http://medium.com/katies-five-cents/a-cyber-threat-intelligence-self-study-plan-part-1-968b5a8daf9a| 
 | Windows API IsDebuggerPresent 的实现分析 | http://medium.com/ax1al/isdebuggerpresent-internals-7be4ea642d33| 
 | Facebook Messenger Desktop App Arbitrary File Read | http://medium.com/@renwa/facebook-messenger-desktop-app-arbitrary-file-read-db2374550f6d| 
 | How I was able to Turn a XSS into a Account Takeover | http://pullerjsecu.medium.com/how-i-was-able-to-turn-a-xss-into-a-account-takeover-ae0c478640e7| 
@@ -135,6 +140,7 @@
 # medium_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| A Cyber Threat Intelligence Self-Study Plan: Part 1 | https://medium.com/katies-five-cents/a-cyber-threat-intelligence-self-study-plan-part-1-968b5a8daf9a| 
 | How to Look for Ideas in Computer Science Research | https://zhiyunq.medium.com/how-to-look-for-ideas-in-computer-science-research-7a3fa6f4696f| 
 
 
@@ -146,6 +152,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 恶意代码检测的本质性思考 | https://zhuanlan.zhihu.com/p/352004681| 
 | 用PyOD工具库进行「异常检测」 | https://zhuanlan.zhihu.com/p/58313521| 
 | 实时态势数据驱动的平行仿真推演方法 | https://zhuanlan.zhihu.com/p/163628289| 
 
@@ -158,6 +165,7 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 菜菜鸡的初体验之内网渗透 | https://xz.aliyun.com/t/9190| 
 | 一次内网挖矿病毒的应急响应 | https://xz.aliyun.com/t/9180| 
 | BlackHat2020 议题 「When TLS Hacks You」 复现 | https://xz.aliyun.com/t/9177| 
 | 两个有趣的DNS 安全问题研究 | https://xz.aliyun.com/t/9047| 

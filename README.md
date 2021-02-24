@@ -14,6 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 安全研究GoSSIP | GoSSIPSJTU | NDSS 2021 参会小记—2月22日论文报告 | https://mp.weixin.qq.com/s/LI49ioKYMksguQMqKH1Rcw | 1| 
+| 张三丰的疯言疯语 | zsfnotes | 漏洞管理的“新药” | https://mp.weixin.qq.com/s/5Y-3r1KuJgCbNrWUGoKq0w | 1| 
 | ChaMd5安全团队 | chamd5sec | 文本对抗综述（一） | https://mp.weixin.qq.com/s/fYANjVp6CUOqri8mfA8vew | 2| 
 | DevSecOps联盟 | idevsecops | 软件安全能力成熟度评估实践 | https://mp.weixin.qq.com/s/_s5m8WxlwnoI4-Ea8SJfCA | 1| 
 | 威胁棱镜 | THREAT_PRISM | 网络空间搜索引擎研究 | https://mp.weixin.qq.com/s/ZIa1myq4xoBlAHvdR0ipTw | 3| 
@@ -22,7 +24,7 @@
 | 虎符智库 | TT_Thinktank | “十四五”时期网络安全的五大转变 | https://mp.weixin.qq.com/s/ONUYz1z4Z-6ueFwTZk8TZA | 1| 
 | 全栈网络空间安全 | cyber_securlty | 甲方安全体系建设历程的思考 | https://mp.weixin.qq.com/s/YTNWqXkcqTbjhdcIGpxE6w | 1| 
 | 小强说 | xiaoqiangcall | 浅析Course of Action应对措施 | https://mp.weixin.qq.com/s/ikHga0fGa0euwGYohv534g | 1| 
-| 小迪随笔 | i-little-monster | 苹果隐私十年史：变与不变（1）突变与营销 | https://mp.weixin.qq.com/s/qqQ1BgFshie288wZEWGaEw | 5| 
+| 小迪随笔 | i-little-monster | 苹果隐私十年史：变与不变（3）产品与常识 | https://mp.weixin.qq.com/s/8-xZqAbgRCWcOSyY5x-OvA | 5| 
 | 思想花火 | ttfirework | 做信息安全BP的一些感悟 | https://mp.weixin.qq.com/s/qygwMIGX3PhbnKuPwQqfUQ | 1| 
 | 安全牛 | aqniu-wx | 百位董事长/CEO/总裁：预见2021网络安全细分领域发展 | https://mp.weixin.qq.com/s/XBGy2xG3-GYL7023lAjCyg | 1| 
 | 微步在线研究响应中心 | gh_c108d4d389bf | 浅析 CVE-2021-1647 的漏洞利用技巧 | https://mp.weixin.qq.com/s/CjsntvNM6_zMZF1IGirMPg | 2| 
@@ -57,8 +59,10 @@
 | SySS-Research | WireBug - 用于 VoIP 协议渗透测试的工具 | https://github.com/SySS-Research/WireBug | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Python,C++,Lua,Verilog,C# | 0 | 0 | 1| 
 | darvincisec | AntiDebugandMemoryDump - Anti-Debug and Anti-Memory Dump for Android | https://github.com/darvincisec/AntiDebugandMemoryDump | https://darvincitech.wordpress.com | Security Researcher | Singapore | None | 13 | 0 | 0 | 0 | 0 | C,Java,Smali | 135 | 36 | 1| 
 | diversenok | 基于 Windows Native API 与电源管理组件交互 | https://github.com/diversenok/Powercfg | http://diversenok.github.io | Windows security researcher & system programmer. Student. | Russia / The Netherlands | None | 19 | 0 | 0 | 0 | 0 | Pascal,C | 4300 | 746 | 1| 
+| golang | Go 语言社区计划在 1.17 版本增加对 Go Fuzz 测试的支持 | https://github.com/golang/go/issues/44551 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,TypeScript,HTML | 0 | 0 | 1| 
 | jimtangshfx | MilenageTest - 验证 3G/4G/5G 鉴权验证过程是否正确的工具 | https://github.com/jimtangshfx/MilenageTest | None | Jim Tang | TX,US | None | 5 | 0 | 0 | 0 | 0 | Python,Shell,HTML,C++ | 28 | 11 | 1| 
 | jonasstrehle | supercookie: Browser fingerprinting via favicon! | https://github.com/jonasstrehle/supercookie | https://jonas.strehles.info | 20yo , Friedrichshafen | Germany | Working from home | 1 | 0 | 0 | 0 | 0 | HTML | 1300 | 64 | 1| 
+| kean | 有开发者开源的一款 macOS、iOS 日志可视化和日志共享工具 | https://github.com/kean/Pulse | http://kean.blog | Software Engineer. Prev @mailru. Moscovite. Likes porridge with 🍓 | New York | None | 28 | 0 | 0 | 0 | 0 | Objective-C,Swift | 0 | 0 | 1| 
 | maddiestone | Project Zero Maddie Stone 对 2020 年野外漏洞利用情况的综述 | https://github.com/maddiestone/ConPresentations/blob/master/Enigma2021.StateOf0day.pdf | http://twitter.com/maddiestone |  | None | None | 4 | 0 | 0 | 0 | 0 | Python | 949 | 122 | 1| 
 | ossf | Security Scorecards - 开源组件安全健康度衡量工具 | https://github.com/ossf/scorecard | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python | 153 | 21 | 1| 
 | r4j0x00 | 上周推送的 sudo 溢出漏洞的 Exploit | https://github.com/r4j0x00/exploits/tree/master/CVE-2021-3156 | https://github.com/r4j0x00 | I make exploits | None | None | 14 | 0 | 0 | 0 | 0 | Python,JavaScript,C++ | 228 | 68 | 1| 
@@ -67,6 +71,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 威胁情报自学指南 Part 1 | http://medium.com/katies-five-cents/a-cyber-threat-intelligence-self-study-plan-part-1-968b5a8daf9a| 
 | Windows API IsDebuggerPresent 的实现分析 | http://medium.com/ax1al/isdebuggerpresent-internals-7be4ea642d33| 
 | Facebook Messenger Desktop App Arbitrary File Read | http://medium.com/@renwa/facebook-messenger-desktop-app-arbitrary-file-read-db2374550f6d| 
 | How I was able to Turn a XSS into a Account Takeover | http://pullerjsecu.medium.com/how-i-was-able-to-turn-a-xss-into-a-account-takeover-ae0c478640e7| 
@@ -76,6 +81,7 @@
 # medium_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| A Cyber Threat Intelligence Self-Study Plan: Part 1 | https://medium.com/katies-five-cents/a-cyber-threat-intelligence-self-study-plan-part-1-968b5a8daf9a| 
 
 
 # zhihu_xuanwu 推荐
@@ -86,6 +92,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 恶意代码检测的本质性思考 | https://zhuanlan.zhihu.com/p/352004681| 
 
 
 # xz_xuanwu 推荐
@@ -96,6 +103,7 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 菜菜鸡的初体验之内网渗透 | https://xz.aliyun.com/t/9190| 
 | 一次内网挖矿病毒的应急响应 | https://xz.aliyun.com/t/9180| 
 | BlackHat2020 议题 「When TLS Hacks You」 复现 | https://xz.aliyun.com/t/9177| 
 

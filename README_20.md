@@ -14,6 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 安全研究GoSSIP | GoSSIPSJTU | NDSS 2021 参会小记—2月22日论文报告 | https://mp.weixin.qq.com/s/LI49ioKYMksguQMqKH1Rcw | 1| 
+| 张三丰的疯言疯语 | zsfnotes | 漏洞管理的“新药” | https://mp.weixin.qq.com/s/5Y-3r1KuJgCbNrWUGoKq0w | 6| 
 | ChaMd5安全团队 | chamd5sec | 文本对抗综述（一） | https://mp.weixin.qq.com/s/fYANjVp6CUOqri8mfA8vew | 42| 
 | DevSecOps联盟 | idevsecops | 软件安全能力成熟度评估实践 | https://mp.weixin.qq.com/s/_s5m8WxlwnoI4-Ea8SJfCA | 2| 
 | 威胁棱镜 | THREAT_PRISM | 网络空间搜索引擎研究 | https://mp.weixin.qq.com/s/ZIa1myq4xoBlAHvdR0ipTw | 9| 
@@ -22,7 +24,7 @@
 | 虎符智库 | TT_Thinktank | “十四五”时期网络安全的五大转变 | https://mp.weixin.qq.com/s/ONUYz1z4Z-6ueFwTZk8TZA | 6| 
 | 全栈网络空间安全 | cyber_securlty | 甲方安全体系建设历程的思考 | https://mp.weixin.qq.com/s/YTNWqXkcqTbjhdcIGpxE6w | 1| 
 | 小强说 | xiaoqiangcall | 浅析Course of Action应对措施 | https://mp.weixin.qq.com/s/ikHga0fGa0euwGYohv534g | 6| 
-| 小迪随笔 | i-little-monster | 苹果隐私十年史：变与不变（1）突变与营销 | https://mp.weixin.qq.com/s/qqQ1BgFshie288wZEWGaEw | 5| 
+| 小迪随笔 | i-little-monster | 苹果隐私十年史：变与不变（3）产品与常识 | https://mp.weixin.qq.com/s/8-xZqAbgRCWcOSyY5x-OvA | 5| 
 | 思想花火 | ttfirework | 做信息安全BP的一些感悟 | https://mp.weixin.qq.com/s/qygwMIGX3PhbnKuPwQqfUQ | 1| 
 | 安全牛 | aqniu-wx | 百位董事长/CEO/总裁：预见2021网络安全细分领域发展 | https://mp.weixin.qq.com/s/XBGy2xG3-GYL7023lAjCyg | 42| 
 | 微步在线研究响应中心 | gh_c108d4d389bf | 浅析 CVE-2021-1647 的漏洞利用技巧 | https://mp.weixin.qq.com/s/CjsntvNM6_zMZF1IGirMPg | 4| 
@@ -710,7 +712,6 @@
 | 云誉 | sec31415 | 设备指纹识别系统的实现-简介篇 | https://mp.weixin.qq.com/s?__biz=MzAxMzgwNTAxMQ==&mid=2650951544&idx=1&sn=380a95c2d93a42cc18d2ff44b2144e79&scene=0 | 2| 
 | 力博睿生 | liberationers | 【公开课】互联网体系架构与SDN：颠覆还是微创新？ | http://mp.weixin.qq.com/s?__biz=MzA4MDY3MjMyNQ==&mid=2651026178&idx=1&sn=4e93dae33a9931bd7c6f3c04c43399e4&scene=23&srcid=0726FqPK0VAPBv1LBBShHAGW#rd | 3| 
 | 安全智库sec |  |  | https://mp.weixin.qq.com/s?__biz=MzI0NjQxODg0Ng==&mid=2247484058&idx=1&sn=f0219faa17a93a1e12805ba4b6acd76f | 3| 
-| 张三丰的疯言疯语 | zsfnotes | 第二届华为IT安全技术峰会回顾 | http://mp.weixin.qq.com/s?__biz=MzA3MTUwMzI5Nw==&mid=2654431071&idx=1&sn=372886377eab33184b14c5a8eecaedaf&scene=23&srcid=0727o51tKzrYdcYJvLpcr4aM#rd | 5| 
 | 计算机与网络安全 | Computer-network | 公安部公布：信息安全犯罪典型案例 | http://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&mid=2655112512&idx=3&sn=e8e629dca35eda552c37fbe819dc7afc&scene=23&srcid=0725f9SImHHVkCwTc6CiLupm#rd | 5| 
 | Python程序员 | pythonbuluo | Python网站的漏洞检查 | http://mp.weixin.qq.com/s?__biz=MjM5NzU0MzU0Nw==&mid=2651371219&idx=1&sn=6403ae9e6e26208283bfc11539e793ec&scene=23&srcid=0724SeM1nPiyNItiOJKQqP3k#rd | 1| 
 | 安在 | AnZer_SH | 【新锐】NewSky吴志雄：年过四十他选择在美国创业，让Facebook和中国电信成为他的客户 | https://mp.weixin.qq.com/s?__biz=MzIzMTAzNzUxMQ==&mid=2652874547&idx=1&sn=06f09402c3f2244d0201828bda19a047&scene=1&srcid=0722mfSqm | 52| 
@@ -3870,6 +3871,7 @@
 | ggerganov | Keytap2 - 通过机器学习训练键盘击键声音，通过侧信道的方式实现 Keylogger | https://github.com/ggerganov/kbd-audio/discussions/31 | https://github.com/viewray-inc |  | Sofia, Bulgaria | @viewray-inc | 34 | 0 | 0 | 0 | 0 | HTML,C++ | 3100 | 277 | 2| 
 | github | Code QL library for Chrome | https://github.com/github/security-lab/tree/master/CodeQL_Queries/cpp/Chrome | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Python,JavaScript,Haskell,TypeScript,HTML,Go,Ruby | 23100 | 3500 | 2| 
 | gloxec | CrossC2 framework - 生成 CobaltStrike 的跨平台 beacon | https://github.com/gloxec/CrossC2 | None |  | None | None | 46 | 0 | 0 | 0 | 0 | Python,C,PLpgSQL | 586 | 127 | 1| 
+| golang | Go 语言社区计划在 1.17 版本增加对 Go Fuzz 测试的支持 | https://github.com/golang/go/issues/44551 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,TypeScript,HTML | 0 | 0 | 1| 
 | google | nsjail - Google 开源的一个 Linux 平台进程隔离工具 | https://github.com/google/nsjail | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,HTML,Starlark,Go,Rust | 0 | 0 | 11| 
 | googleprojectzero | Samsung Qmage MMS Exploit (CVE-2020-8899) | https://github.com/googleprojectzero/SkCodecFuzzer/tree/master/mms_exploit | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,C#,C++,Python,HTML,Swift | 0 | 0 | 4| 
 | goretk | GoRE - 用于分析 Go 二进制文件的工具库 | https://github.com/goretk/gore | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Go,Shell,HTML | 0 | 0 | 1| 
@@ -3916,6 +3918,7 @@
 | jsherman212 | XNU 内核 Hook 框架，基于 checkra1n pongoOS | https://github.com/jsherman212/xnuspy | https://twitter.com/jsherma100 | CS student, interested in security research & exploit dev | None | None | 14 | 0 | 0 | 0 | 0 | C | 206 | 21 | 1| 
 | jumpserver | jumpserver: 开源跳板机(堡垒机):认证,授权,审计,自动化运维 | https://github.com/jumpserver/jumpserver | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Java,JavaScript,Dockerfile,HTML | 0 | 0 | 1| 
 | k8scop | k8s-security-dashboard: A security monitoring solution for Kubernetes | https://github.com/k8scop/k8s-security-dashboard | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
+| kean | 有开发者开源的一款 macOS、iOS 日志可视化和日志共享工具 | https://github.com/kean/Pulse | http://kean.blog | Software Engineer. Prev @mailru. Moscovite. Likes porridge with 🍓 | New York | None | 28 | 0 | 0 | 0 | 0 | Objective-C,Swift | 0 | 0 | 1| 
 | kevoreilly | CAPEv2: Malware Configuration And Payload Extraction | https://github.com/kevoreilly/CAPEv2 | https://twitter.com/CapeSandbox | CAPE developer | None | None | 8 | 0 | 0 | 0 | 0 | Python,C | 318 | 90 | 1| 
 | kisec | Kibana CVE-2019-7609 RCE Exploit 代码 | https://github.com/kisec/CVE-2019-7609?fbclid=IwAR02m1XrcGDleYn8KzrjBRuIFNXzwJumhrYi2n7zSFeq9fvPk39FxPyAyWY | http://www.kisec.com | Korea Information Security Education Center | None | 한국정보보호교육센터 | 25 | 0 | 0 | 0 | 0 | Python,Go,Shell | 13 | 2 | 1| 
 | knownsec | ksubdomain: 无状态子域名爆破工具 | https://github.com/knownsec/ksubdomain | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,JavaScript | 0 | 0 | 1| 
@@ -4097,6 +4100,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 威胁情报自学指南 Part 1 | http://medium.com/katies-five-cents/a-cyber-threat-intelligence-self-study-plan-part-1-968b5a8daf9a| 
 | Windows API IsDebuggerPresent 的实现分析 | http://medium.com/ax1al/isdebuggerpresent-internals-7be4ea642d33| 
 | Facebook Messenger Desktop App Arbitrary File Read | http://medium.com/@renwa/facebook-messenger-desktop-app-arbitrary-file-read-db2374550f6d| 
 | How I was able to Turn a XSS into a Account Takeover | http://pullerjsecu.medium.com/how-i-was-able-to-turn-a-xss-into-a-account-takeover-ae0c478640e7| 
@@ -4285,6 +4289,7 @@
 # medium_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| A Cyber Threat Intelligence Self-Study Plan: Part 1 | https://medium.com/katies-five-cents/a-cyber-threat-intelligence-self-study-plan-part-1-968b5a8daf9a| 
 | How to Look for Ideas in Computer Science Research | https://zhiyunq.medium.com/how-to-look-for-ideas-in-computer-science-research-7a3fa6f4696f| 
 | Mapping ATT&CK Data Sources to Security Events via OSSEM | https://medium.com/threat-hunters-forge/mapping-att-ck-data-sources-to-security-events-via-ossem-%EF%B8%8F-b606d99e738c| 
 | FAQs on Getting Started in Cyber Threat Intelligence | https://medium.com/katies-five-cents/faqs-on-getting-started-in-cyber-threat-intelligence-f567f267348e| 
@@ -4345,6 +4350,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 恶意代码检测的本质性思考 | https://zhuanlan.zhihu.com/p/352004681| 
 | 用PyOD工具库进行「异常检测」 | https://zhuanlan.zhihu.com/p/58313521| 
 | 实时态势数据驱动的平行仿真推演方法 | https://zhuanlan.zhihu.com/p/163628289| 
 | 浅谈安全运营平台中数据分析交互逻辑的设计 | https://zhuanlan.zhihu.com/p/339629476| 
@@ -4416,6 +4422,7 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 菜菜鸡的初体验之内网渗透 | https://xz.aliyun.com/t/9190| 
 | 一次内网挖矿病毒的应急响应 | https://xz.aliyun.com/t/9180| 
 | BlackHat2020 议题 「When TLS Hacks You」 复现 | https://xz.aliyun.com/t/9177| 
 | 两个有趣的DNS 安全问题研究 | https://xz.aliyun.com/t/9047| 
