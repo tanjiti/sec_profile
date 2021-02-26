@@ -1,11 +1,11 @@
 Python	8
 C	6
+Shell	4
 C++	4
-Shell	3
+HTML	4
+Java	4
 JavaScript	3
-HTML	3
 Go	3
-Java	3
 Assembly	1
 Objective-C++	1
 Objective-C	1
