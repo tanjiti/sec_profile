@@ -1,0 +1,6 @@
+YARA	1
+C	1
+Assembly	1
+Python	1
+Objective-C	1
+PowerShell	1

@@ -1,5 +1,5 @@
 Python	1071
-C	669
+C	670
 JavaScript	667
 C++	542
 HTML	484
@@ -12,13 +12,13 @@ PHP	237
 CSS	229
 PowerShell	229
 TypeScript	145
-Objective-C	140
+Objective-C	141
 Rust	115
 Jupyter	102
 Perl	76
 Swift	69
+Assembly	67
 Dockerfile	66
-Assembly	66
 Makefile	61
 Lua	61
 TeX	56
