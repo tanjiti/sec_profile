@@ -125,6 +125,7 @@
 | nikic | PHP-Parser:用PHP编写的PHP解析器来分析代码工作。 | https://github.com/nikic/PHP-Parser | https://nikic.github.io/ |  | Berlin, Germany | JetBrains | 75 | 0 | 0 | 0 | 0 | C,PHP | 29200 | 6500 | 1| 
 | nyxgeek | 渗透测试时枚举 OneDrive 合法用户的工具 | https://github.com/nyxgeek/onedrive_user_enum | None | rebel scum, nerfherder, starbuck | hacking gibsons | None | 29 | 0 | 0 | 0 | 0 | Python,Shell,PowerShell | 254 | 59 | 1| 
 | ossf | Security Scorecards - 开源组件安全健康度衡量工具 | https://github.com/ossf/scorecard | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python | 153 | 21 | 1| 
+| peter-cui1221 | sqlinjection-detect: C语言编写的基于语义分析的SQL注入检测... | https://github.com/peter-cui1221/sqlinjection-detect | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | r4j0x00 | 上周推送的 sudo 溢出漏洞的 Exploit | https://github.com/r4j0x00/exploits/tree/master/CVE-2021-3156 | https://github.com/r4j0x00 | I make exploits | None | None | 14 | 0 | 0 | 0 | 0 | Python,JavaScript,C++ | 228 | 68 | 1| 
 | ruanyf | ES6 标准入门教程资源。 | https://github.com/ruanyf/es6tutorial | https://twitter.com/ruanyf |  | Shanghai, China | None | 67 | 0 | 0 | 0 | 0 | JavaScript | 18900 | 8300 | 1| 
 | sbousseaden | PCAP-ATTACK: PCAP Samples for Different Post Exploitation ... | https://github.com/sbousseaden/PCAP-ATTACK | http://@SBousseaden | Threat Hunting & DFIR | None | None | 66 | 0 | 0 | 0 | 0 | YARA,PowerShell | 0 | 0 | 2| 
@@ -177,6 +178,7 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| PHP反序列化 — 字符逃逸 | https://xz.aliyun.com/t/9213| 
 | JAVA安全基础（二）-- 反射机制 | https://xz.aliyun.com/t/9117| 
 | DA14531芯片固件逆向系列（2）- 操作系统底层机制分析 | https://xz.aliyun.com/t/9186| 
 | 菜菜鸡的初体验之内网渗透 | https://xz.aliyun.com/t/9190| 

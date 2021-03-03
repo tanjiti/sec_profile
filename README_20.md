@@ -3995,6 +3995,7 @@
 | pedrib | Netgear R6700v3 LAN RCE write-up and exploit | https://github.com/pedrib/PoC/blob/master/advisories/Pwn2Own/Tokyo_2019/tokyo_drift/tokyo_drift.md | https://www.agileinfosec.co.uk | 1337 | London, United Kingdom | Agile Information Security | 0 | 0 | 0 | 0 | 0 | HTML,Ruby,CSS,C++ | 260 | 79 | 1| 
 | pentesteracademy | patoolkit: a collection of traffic analysis plugins focused on security | https://github.com/pentesteracademy/patoolkit | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Lua,C,JavaScript,C++ | 0 | 0 | 1| 
 | pentestgeek | phishing-frenzy - Ruby on Rails 编写的钓鱼框架: | https://github.com/pentestgeek/phishing-frenzy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | PHP,Ruby | 0 | 0 | 1| 
+| peter-cui1221 | sqlinjection-detect: C语言编写的基于语义分析的SQL注入检测... | https://github.com/peter-cui1221/sqlinjection-detect | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | pikvm | 基于Raspberry Pi的开源性廉价DIY IP-KVM系统。 | https://github.com/pikvm/pikvm | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,Shell,Makefile,Batchfile | 538 | 21 | 1| 
 | pleed | PyQemu - dynamic binary instrumentation based crypto detection framework. | https://github.com/pleed/pyqemu | None |  | None | None | 1 | 0 | 0 | 0 | 0 | C | 18 | 9 | 1| 
 | pyppeteer | pyppeteer2 - 用于控制 Headless Chrome 的 puppeteer 的 Python 移植版 | https://github.com/pyppeteer/pyppeteer2 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
@@ -4428,6 +4429,7 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| PHP反序列化 — 字符逃逸 | https://xz.aliyun.com/t/9213| 
 | JAVA安全基础（二）-- 反射机制 | https://xz.aliyun.com/t/9117| 
 | DA14531芯片固件逆向系列（2）- 操作系统底层机制分析 | https://xz.aliyun.com/t/9186| 
 | 菜菜鸡的初体验之内网渗透 | https://xz.aliyun.com/t/9190| 
