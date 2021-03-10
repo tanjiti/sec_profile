@@ -14,6 +14,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| RapidDNS | gh_6327c9075859 | RapidDNS.IO 网站应用实例 | https://mp.weixin.qq.com/s/ttbJY33W7Bmog_MgNZXc6Q | 1| 
+| 深信服千里目安全实验室 | Further_eye | 漏洞威胁分析报告（上册）- 不同视角下的漏洞威胁 | https://mp.weixin.qq.com/s/gIEPvwBE61axZfhBbB9aiw | 8| 
+| 电子物证 | ewuzheng | 【Signal】数据分析 | https://mp.weixin.qq.com/s/AiHRwc0LBUyxkg0vcu12eg | 1| 
 | 湛卢工作室 | xuehao_studio | 关于近期Microsoft Exchange多个高危漏洞——ProxyLogon | https://mp.weixin.qq.com/s/cmgY6W_cGtGacfYgiac5qQ | 13| 
 | 看雪学院 | ikanxue | Firm-AFL：高效的IoT固件灰盒fuzz | https://mp.weixin.qq.com/s/-s5GGA70vcHAVfyz1QeBtQ | 52| 
 | ChaMd5安全团队 | chamd5sec | Mydoom病毒分析报告 | https://mp.weixin.qq.com/s/8drGAZA0sbBFeJd9h8WPLw | 44| 
@@ -72,7 +75,6 @@
 | 阿里云安全 | aliyunsec | 对 SolarWinds 事件更深的思考：如何防御供应链攻击 | https://mp.weixin.qq.com/s/GdER32Z7K86boHVc-Kic3g | 5| 
 | ENYA物語 | gh_9f583a318c52 | 技術型管理人的自我成長 | https://mp.weixin.qq.com/s/moARUZG3BNOJL7EAiXDMJA | 1| 
 | 安全小飞侠 | AvFisher | 一个普通网安从业人员的2020 | https://mp.weixin.qq.com/s/PYCIMOk8_wUg7eLFEVOoUQ | 5| 
-| 深信服千里目安全实验室 | Further_eye | 【高级持续性威胁跟踪】红队视角看Sunburst后门中的TTPs | https://mp.weixin.qq.com/s/wtEbawfOd1g_T2ovp1SaGg | 7| 
 | 学术plus | caeit-e | 最新！人工智能网络安全威胁图谱 | https://mp.weixin.qq.com/s/4qbCusJde_z0AM1eDC4YiA | 5| 
 | 安全喷子 | gh_2a9c00f1d053 | ATT&CK 2020更新指南 | https://mp.weixin.qq.com/s/cPiVersg8VyK4fBTK8W1Ag | 8| 
 | 穿过丛林 | gh_f90eac70537b | 基于语义token分析的克隆代码检测系统 | https://mp.weixin.qq.com/s/e_NvzMbOqDspns3VLXBjYw | 5| 
@@ -4106,6 +4108,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| “ BootHole”-GNU GRUB安全漏洞概述。 | http://medium.com/ssd-secure-disclosure/boothole-a-look-at-gnu-grub-vulnerabilities-d15c66effe60?source=friends_link&sk=849dfc1dab516826c152cb6711192d0c| 
 | RCE via war upload in Tomcat using path traversal. | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fblog.defmax.io%2Frce-via-war-upload-in-tomcat-using-path-traversal-e0f11898016e| 
 | Hail Frida!! The Universal SSL pinning bypass for Android applications | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Finfosecwriteups.com%2Fhail-frida-the-universal-ssl-pinning-bypass-for-android-e9e1d733d29%3Fsource%3Drss----7b722bfd1b8d---4| 
 | 训练 Robust Trees 检测 Twitter spam | http://surrealyz.medium.com/robust-trees-for-security-577061177320| 

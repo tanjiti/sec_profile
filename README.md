@@ -14,6 +14,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| RapidDNS | gh_6327c9075859 | RapidDNS.IO 网站应用实例 | https://mp.weixin.qq.com/s/ttbJY33W7Bmog_MgNZXc6Q | 1| 
+| 深信服千里目安全实验室 | Further_eye | 漏洞威胁分析报告（上册）- 不同视角下的漏洞威胁 | https://mp.weixin.qq.com/s/gIEPvwBE61axZfhBbB9aiw | 1| 
+| 电子物证 | ewuzheng | 【Signal】数据分析 | https://mp.weixin.qq.com/s/AiHRwc0LBUyxkg0vcu12eg | 1| 
 | 湛卢工作室 | xuehao_studio | 关于近期Microsoft Exchange多个高危漏洞——ProxyLogon | https://mp.weixin.qq.com/s/cmgY6W_cGtGacfYgiac5qQ | 1| 
 | 看雪学院 | ikanxue | Firm-AFL：高效的IoT固件灰盒fuzz | https://mp.weixin.qq.com/s/-s5GGA70vcHAVfyz1QeBtQ | 1| 
 | ChaMd5安全团队 | chamd5sec | Mydoom病毒分析报告 | https://mp.weixin.qq.com/s/8drGAZA0sbBFeJd9h8WPLw | 2| 
@@ -46,6 +49,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| “ BootHole”-GNU GRUB安全漏洞概述。 | http://medium.com/ssd-secure-disclosure/boothole-a-look-at-gnu-grub-vulnerabilities-d15c66effe60?source=friends_link&sk=849dfc1dab516826c152cb6711192d0c| 
 | RCE via war upload in Tomcat using path traversal. | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fblog.defmax.io%2Frce-via-war-upload-in-tomcat-using-path-traversal-e0f11898016e| 
 | Hail Frida!! The Universal SSL pinning bypass for Android applications | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Finfosecwriteups.com%2Fhail-frida-the-universal-ssl-pinning-bypass-for-android-e9e1d733d29%3Fsource%3Drss----7b722bfd1b8d---4| 
 | 训练 Robust Trees 检测 Twitter spam | http://surrealyz.medium.com/robust-trees-for-security-577061177320| 
