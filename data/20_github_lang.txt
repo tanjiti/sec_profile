@@ -1,8 +1,8 @@
-Python	1071
+Python	1072
 C	670
 JavaScript	667
 C++	542
-HTML	484
+HTML	485
 Shell	464
 Java	455
 Go	385
@@ -19,8 +19,8 @@ Perl	76
 Swift	69
 Assembly	67
 Dockerfile	66
+Lua	62
 Makefile	61
-Lua	61
 TeX	56
 Batchfile	52
 Scala	47
@@ -32,7 +32,7 @@ Vim	34
 HCL	32
 Haskell	25
 Rich	23
-YARA	22
+YARA	23
 OCaml	22
 Dart	21
 Elixir	19

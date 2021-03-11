@@ -17,9 +17,9 @@
 | RapidDNS | gh_6327c9075859 | RapidDNS.IO 网站应用实例 | https://mp.weixin.qq.com/s/ttbJY33W7Bmog_MgNZXc6Q | 1| 
 | 深信服千里目安全实验室 | Further_eye | 漏洞威胁分析报告（上册）- 不同视角下的漏洞威胁 | https://mp.weixin.qq.com/s/gIEPvwBE61axZfhBbB9aiw | 8| 
 | 电子物证 | ewuzheng | 【Signal】数据分析 | https://mp.weixin.qq.com/s/AiHRwc0LBUyxkg0vcu12eg | 1| 
+| ChaMd5安全团队 | chamd5sec | 从PR中学习如何修改 flashrom 读取国产 flash | https://mp.weixin.qq.com/s/kifu_p4eOfy1kuSfLMrXMw | 45| 
 | 湛卢工作室 | xuehao_studio | 关于近期Microsoft Exchange多个高危漏洞——ProxyLogon | https://mp.weixin.qq.com/s/cmgY6W_cGtGacfYgiac5qQ | 13| 
 | 看雪学院 | ikanxue | Firm-AFL：高效的IoT固件灰盒fuzz | https://mp.weixin.qq.com/s/-s5GGA70vcHAVfyz1QeBtQ | 52| 
-| ChaMd5安全团队 | chamd5sec | Mydoom病毒分析报告 | https://mp.weixin.qq.com/s/8drGAZA0sbBFeJd9h8WPLw | 44| 
 | 字节跳动安全中心 | TouTiaoSec | 游戏安全评审的技术进阶之路 | https://mp.weixin.qq.com/s/ZIzjIZziM6inUNlr2CKBCg | 3| 
 | 美团技术团队 | meituantech | 美团外卖特征平台的建设与实践 | https://mp.weixin.qq.com/s/YyRLJa9NomPvzTWJKaCesQ | 9| 
 | 威胁棱镜 | THREAT_PRISM | 趋势科技 2020 年度网络安全报告 | https://mp.weixin.qq.com/s/6pnaFU5PfYGs4d0oLmRkJA | 10| 
@@ -3769,7 +3769,7 @@
 | aWeiMiaoMiao | db_security:数据库安全审计工具 | https://github.com/aWeiMiaoMiao/db_security | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | adaptivethreat | BloodHound 1.2 is here!Changelog and download here - | https://github.com/adaptivethreat/BloodHound/releases/tag/1.2 | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 3| 
 | adulau | ssldump - SSLv3/TLS 网络协议 Analyzer | https://github.com/adulau/ssldump | https://github.com/MISP | Enjoy when human are using machines in unexpected ways. I break stuff and I do stuff. | Europe | @MISP @CIRCL @cve-search and many others | 113 | 1 | 0 | 0 | 0 | Python,C,HTML | 127 | 54 | 1| 
-| advanced-threat-research | Repository of YARA rules made by McAfee ATR Team | https://github.com/advanced-threat-research/Yara-Rules | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,YARA,HTML | 0 | 0 | 1| 
+| advanced-threat-research | McAfee ATR Capture the Flag Writeup | https://github.com/advanced-threat-research/ATR_HAX_CTF | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,YARA,HTML,Lua | 0 | 0 | 2| 
 | ahmedkhlief | APT-Hunter: 紫色团队用于Windows事件日志的威胁搜寻工具项目。 | https://github.com/ahmedkhlief/APT-Hunter | https://shells.systems | @ahmed_khlief : Security Analyst , Purple Teamer , APT Hunter | None | None | 11 | 0 | 0 | 0 | 0 | Python,PowerShell,C++ | 250 | 70 | 1| 
 | ail-project | AIL framework - Analysis Information Leak framework | https://github.com/ail-project/ail-framework | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 6 | 0 | 1| 
 | aind-containers | AinD: Android (Anbox) in Docker，在 Docker 中运行 Android apps | https://github.com/aind-containers/aind | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Dockerfile | 0 | 0 | 1| 
@@ -4434,6 +4434,10 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 某oa java代码审计2 | https://xz.aliyun.com/t/9226| 
+| 某oa java代码审计1 | https://xz.aliyun.com/t/9225| 
+| 两道CSP题目绕过分析 | https://xz.aliyun.com/t/9219| 
+| 免杀/一句话木马(PHP) | https://xz.aliyun.com/t/9246| 
 | PHP反序列化 — 字符逃逸 | https://xz.aliyun.com/t/9213| 
 | JAVA安全基础（二）-- 反射机制 | https://xz.aliyun.com/t/9117| 
 | DA14531芯片固件逆向系列（2）- 操作系统底层机制分析 | https://xz.aliyun.com/t/9186| 

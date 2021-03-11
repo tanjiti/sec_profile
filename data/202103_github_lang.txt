@@ -1,6 +1,8 @@
+YARA	2
 C	2
-YARA	1
+Python	2
 Assembly	1
-Python	1
+Lua	1
 Objective-C	1
+HTML	1
 PowerShell	1
