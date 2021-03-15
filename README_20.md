@@ -14,6 +14,10 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 合天网安实验室 | hee_tian | 对某cms的一次审计思路 | https://mp.weixin.qq.com/s/aps0k7O6BO-UQ0gXbTN3KQ | 2| 
+| debugeeker | gh_ed0f7fa0bfe0 | 最后防线：osquery功能与实现 | https://mp.weixin.qq.com/s/PvnLnn1gDcl_X4fyocyPrA | 1| 
+| 360Quake空间测绘 | Quake360 | 网络测绘 , 立体呈现网络事件细节知多少？ | https://mp.weixin.qq.com/s/LwWMfOMqSgArtv9jlfaPRw | 3| 
+| 奇安信 CERT | gh_64040028303e | 小姐姐带你看Shiro反序列化漏洞利用 | https://mp.weixin.qq.com/s/WDmj4-2lB-hlf_Fm_wDiOg | 4| 
 | SECISLAND安全官 | SECSOSO | 资产管理的难点 | https://mp.weixin.qq.com/s/DqtIzNdDvB7pYjXmoP1quQ | 1| 
 | 前端热点分析 | Web-2017 | JavaScript反调试技巧 | https://mp.weixin.qq.com/s/NMJd91AmuGEANz00sZELfw | 1| 
 | RapidDNS | gh_6327c9075859 | RapidDNS.IO 网站应用实例 | https://mp.weixin.qq.com/s/ttbJY33W7Bmog_MgNZXc6Q | 1| 
@@ -73,7 +77,6 @@
 | 人民公安报 | rmgabs | 公安部网安局公布一批网络黑产案例 | https://mp.weixin.qq.com/s/uXupT3yeeOA9NWVjQORgDQ | 3| 
 | 启明星辰专家视野 | VenusExpertsVision | 自动化渗透测试系统技术路径分析 | https://mp.weixin.qq.com/s/gtXfPvT8Yatp3IMVdCID7Q | 1| 
 | 时间之外沉浮事 | tasnrh | 美国国家网络靶场系统架构与设计原理剖析①总论 | https://mp.weixin.qq.com/s/8yz12RyCyNXGhcAVFZX60g | 20| 
-| 360Quake空间测绘 | gh_0284fd4851e7 | 浅析开源蜜罐识别与全网测绘 | https://mp.weixin.qq.com/s/hq-z2HBGz3nehnCVg_H-RQ | 2| 
 | 阿里云安全 | aliyunsec | 对 SolarWinds 事件更深的思考：如何防御供应链攻击 | https://mp.weixin.qq.com/s/GdER32Z7K86boHVc-Kic3g | 5| 
 | ENYA物語 | gh_9f583a318c52 | 技術型管理人的自我成長 | https://mp.weixin.qq.com/s/moARUZG3BNOJL7EAiXDMJA | 1| 
 | 安全小飞侠 | AvFisher | 一个普通网安从业人员的2020 | https://mp.weixin.qq.com/s/PYCIMOk8_wUg7eLFEVOoUQ | 5| 
@@ -107,7 +110,6 @@
 | ATLAS Academy | atlas-cyber-academy | 2020网络安全大事记 - 监管判例篇 | https://mp.weixin.qq.com/s/60-O9GGYPNZZW6KVvY_c8w | 1| 
 | 大超的记事本 | Dachao_Dachao | 数据安全怎么做——静态敏感数据治理 | https://mp.weixin.qq.com/s/AejcWwJWxZWHf9dDRfVWPA | 1| 
 | 天地和兴 | bjtdhxkj | 针对以色列水利/水务基础设施的网络攻击回顾 | https://mp.weixin.qq.com/s/XvPf_irbpZF6B0-fnn1OBA | 3| 
-| 奇安信 CERT | gh_64040028303e | 中间件内存马注入&冰蝎连接(附更改部分代码) | https://mp.weixin.qq.com/s/eI-50-_W89eN8tsKi-5j4g | 3| 
 | 我需要的是坚持 | MyPersistence2020 | 从FireEye的泄露看红队的差距 | https://mp.weixin.qq.com/s/K2W-hgCUFOzgxrhF6U1s1A | 1| 
 | 数说安全 | SSAQ2016 | 中国网络安全公司资本关系图谱 V2.0 | https://mp.weixin.qq.com/s/cv8z0791TLrVG2HYKY1pdg | 30| 
 | 情报分析师 | qingbaofenxishi | 【原创】手机app数据画像分析技战法 | https://mp.weixin.qq.com/s/FdOeOC6JZE5a0r328nmtew | 6| 
@@ -3641,7 +3643,7 @@
 | BloodHoundAD | SharpHound - C# 重写的 BloodHound Ingestor,它用图论的形式展示 Active Directory 环境中的节点的关系: https://github.com/BloodHoundAD/BloodHound https://github.com/BloodHoundAD/SharpHound | https://github.com/BloodHoundAD/BloodHound | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C#,PowerShell | 0 | 0 | 3| 
 | CERT-BDF | CERT-BDF/Cortex: Powerful Observable Analysis Engine | https://github.com/CERT-BDF/Cortex | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | CERT-Polska | DRAKVUF - Hypervisor 层面的恶意软件自动化分析系统 | https://github.com/CERT-Polska/drakvuf-sandbox | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Java,Python,JavaScript,C++,PHP | 189 | 35 | 1| 
-| CTF-MissFeng | Watchdog: SRC资产管理系统 | https://github.com/CTF-MissFeng/Watchdog | None |  | None | None | 6 | 0 | 0 | 0 | 0 | Python,Go | 738 | 192 | 2| 
+| CTF-MissFeng | GoScan: 分布式综合资产管理系统 | https://github.com/CTF-MissFeng/GoScan | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 3| 
 | Canbing007 | wukong: 悟空扫描器 | https://github.com/Canbing007/wukong | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | Ch1ngg | WebLogicPasswordDecryptor - 解密 WebLogic 密文 | https://github.com/Ch1ngg/WebLogicPasswordDecryptorUi | https://www.ch1ng.com/ |  | no | no | 24 | 0 | 0 | 0 | 0 | Python,C#,ASP,Java | 118 | 21 | 8| 
 | Charmve | Bluetooth-LE安全性：方法，工具和堆栈视频会议学习资源。 | https://github.com/Charmve/BLE-Security-Attack-Defence | https://charmve.github.io/ | Research SDE at the Future Security Labs in Qihoo 360, B.E. in Electronic Engineering & B.A. in Business English at Yangzhou University | Suzhou, Beijing, Shanghai, Hongkong | Qihoo 360 | 33 | 0 | 0 | 0 | 0 | Python,C,Java,C++ | 6 | 2 | 1| 
@@ -4084,6 +4086,7 @@
 | wafpassproject | wafpassproject: 各种WAF 测试与 Bypass用例 | https://github.com/wafpassproject/wafpass | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | wcventure | FuzzingPaper: Recent Fuzzing Paper | https://github.com/wcventure/FuzzingPaper | https://wcventure.github.io/ | I am a Ph.D. student at Shenzhen University. My research interest is in the area of Cyber Security(SEC), Programming Language(PL), and Software Engineering(SE). | Shenzhen, Guangdong Province, China, 518060 | Shenzhen University | 12 | 0 | 0 | 0 | 0 | Python,C | 684 | 117 | 2| 
 | weiboad | fiery: APM for PHP 基于PHP的分布式跟踪系统 | https://github.com/weiboad/fiery | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Objective-C,PHP,Java,C++ | 0 | 0 | 1| 
+| wgpsec | TIG 威胁情报收集 | https://github.com/wgpsec/tig | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | wireapp | 桌面版本 Wire 应用因使用 Electron 不当导致 RCE 漏洞 | https://github.com/wireapp/wire-desktop/security/advisories/GHSA-5gpx-9976-ggpm | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Groovy,C,TypeScript,Java,HTML,Scala,JavaScript,Shell,Objective-C,Haskell,Swift,HCL | 2900 | 516 | 1| 
 | withdk | Pulse Secure VPN 中间人劫持漏洞分析（CVE-2020-8241、CVE-2020-8239） | https://github.com/withdk/pulse-secure-vpn-mitm-research | None | Quant/technical enthusiast, infosec analyst, red teamer, researcher and search security award winner. @withdk on Twitter. | London | None | 17 | 0 | 0 | 0 | 0 | Python,C,PowerShell | 247 | 62 | 2| 
 | writeups | iOS 安全资料收集: | https://github.com/writeups/iOS | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell | 0 | 0 | 1| 
@@ -4096,6 +4099,7 @@
 | xie19900123 | springboot系列教程资源。 | https://github.com/xie19900123/spring-boot-learning | https://blog.lqdev.cn/ | 一只没有故事的程序猿 | 福州, 中国 | None | 5 | 0 | 0 | 0 | 0 | Java | 182 | 154 | 1| 
 | xsleaks | 一些可能导致跨域信息泄漏的 DOM API 收集 | https://github.com/xsleaks/xsleaks/wiki/Browser-Side-Channels | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | yardenshafir | Windows 进程 Mitigation 策略枚举工具 | https://github.com/yardenshafir/MitigationFlagsCliTool | https://medium.com/@yardenshafir2 | A circus artist with a visual studio license | None | None | 8 | 0 | 0 | 0 | 0 | C,C++ | 76 | 34 | 2| 
+| yhy0 | 监控github上新增的cve编号项目漏洞 | https://github.com/yhy0/github-cve-monitor | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | yifengyou | QEMU KVM学习笔记. | https://github.com/yifengyou/learn-kvm | https://github.com/yifengyou | 一天不科研，浑身都难受~ | ShenZhen | Tencent | 262 | 0 | 0 | 0 | 0 | C | 328 | 97 | 1| 
 | zaproxy | zaproxy - OWASP Zed Attack Proxy (ZAP)，一个用于辅助 Web 应用安全性测试的工具 | https://github.com/zaproxy/zaproxy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java,C#,JavaScript,Python,HTML,Go,PHP,Rust | 6300 | 1200 | 1| 
 | zbnio | zbn: 安全编排与自动化响应平台 | https://github.com/zbnio/zbn | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
@@ -4355,6 +4359,7 @@
 # zhihu_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 在Android11使用Scudo分配器介绍 | https://zhuanlan.zhihu.com/p/353784014| 
 | 复旦白泽战队对《Dowsing for Overflows: A Guided Fuzzer to Find Buffer Boundary Violations》 Paper 的解读 | https://zhuanlan.zhihu.com/p/74947208| 
 | 复旦白泽团队对 Paper《Flaws in Security-Focused Static Analysis Tools for Android using Systematic Mutation》的解读 | https://zhuanlan.zhihu.com/p/73982491| 
 | 复旦白泽战队对 NDSS 2019 《REDQUEEN: Fuzzing with Input-to-State Correspondence》 Paper 的解读 | https://zhuanlan.zhihu.com/p/72839694| 
