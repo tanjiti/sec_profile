@@ -15,15 +15,16 @@
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
 | 合天网安实验室 | hee_tian | 对某cms的一次审计思路 | https://mp.weixin.qq.com/s/aps0k7O6BO-UQ0gXbTN3KQ | 2| 
+| 绿盟科技研究通讯 | nsfocus_research | 知识图谱技术如何赋能智能安全运营 | https://mp.weixin.qq.com/s/qOuvPv8cm1S-jA-gqH1hZg | 1| 
 | debugeeker | gh_ed0f7fa0bfe0 | 最后防线：osquery功能与实现 | https://mp.weixin.qq.com/s/PvnLnn1gDcl_X4fyocyPrA | 1| 
 | 360Quake空间测绘 | Quake360 | 网络测绘 , 立体呈现网络事件细节知多少？ | https://mp.weixin.qq.com/s/LwWMfOMqSgArtv9jlfaPRw | 1| 
 | 奇安信 CERT | gh_64040028303e | 小姐姐带你看Shiro反序列化漏洞利用 | https://mp.weixin.qq.com/s/WDmj4-2lB-hlf_Fm_wDiOg | 1| 
 | SECISLAND安全官 | SECSOSO | 资产管理的难点 | https://mp.weixin.qq.com/s/DqtIzNdDvB7pYjXmoP1quQ | 1| 
 | 前端热点分析 | Web-2017 | JavaScript反调试技巧 | https://mp.weixin.qq.com/s/NMJd91AmuGEANz00sZELfw | 1| 
+| ChaMd5安全团队 | chamd5sec | D^3CTF-WriteUp | https://mp.weixin.qq.com/s/oOf0RI6P2hEwtPXWP6yU4Q | 3| 
 | RapidDNS | gh_6327c9075859 | RapidDNS.IO 网站应用实例 | https://mp.weixin.qq.com/s/ttbJY33W7Bmog_MgNZXc6Q | 1| 
 | 深信服千里目安全实验室 | Further_eye | 漏洞威胁分析报告（上册）- 不同视角下的漏洞威胁 | https://mp.weixin.qq.com/s/gIEPvwBE61axZfhBbB9aiw | 1| 
 | 电子物证 | ewuzheng | 【Signal】数据分析 | https://mp.weixin.qq.com/s/AiHRwc0LBUyxkg0vcu12eg | 1| 
-| ChaMd5安全团队 | chamd5sec | 从PR中学习如何修改 flashrom 读取国产 flash | https://mp.weixin.qq.com/s/kifu_p4eOfy1kuSfLMrXMw | 3| 
 | 湛卢工作室 | xuehao_studio | 关于近期Microsoft Exchange多个高危漏洞——ProxyLogon | https://mp.weixin.qq.com/s/cmgY6W_cGtGacfYgiac5qQ | 1| 
 | 看雪学院 | ikanxue | Firm-AFL：高效的IoT固件灰盒fuzz | https://mp.weixin.qq.com/s/-s5GGA70vcHAVfyz1QeBtQ | 1| 
 | 字节跳动安全中心 | TouTiaoSec | 游戏安全评审的技术进阶之路 | https://mp.weixin.qq.com/s/ZIzjIZziM6inUNlr2CKBCg | 1| 

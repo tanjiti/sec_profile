@@ -15,15 +15,16 @@
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
 | 合天网安实验室 | hee_tian | 对某cms的一次审计思路 | https://mp.weixin.qq.com/s/aps0k7O6BO-UQ0gXbTN3KQ | 2| 
+| 绿盟科技研究通讯 | nsfocus_research | 知识图谱技术如何赋能智能安全运营 | https://mp.weixin.qq.com/s/qOuvPv8cm1S-jA-gqH1hZg | 3| 
 | debugeeker | gh_ed0f7fa0bfe0 | 最后防线：osquery功能与实现 | https://mp.weixin.qq.com/s/PvnLnn1gDcl_X4fyocyPrA | 1| 
 | 360Quake空间测绘 | Quake360 | 网络测绘 , 立体呈现网络事件细节知多少？ | https://mp.weixin.qq.com/s/LwWMfOMqSgArtv9jlfaPRw | 2| 
 | 奇安信 CERT | gh_64040028303e | 小姐姐带你看Shiro反序列化漏洞利用 | https://mp.weixin.qq.com/s/WDmj4-2lB-hlf_Fm_wDiOg | 1| 
 | SECISLAND安全官 | SECSOSO | 资产管理的难点 | https://mp.weixin.qq.com/s/DqtIzNdDvB7pYjXmoP1quQ | 1| 
 | 前端热点分析 | Web-2017 | JavaScript反调试技巧 | https://mp.weixin.qq.com/s/NMJd91AmuGEANz00sZELfw | 1| 
+| ChaMd5安全团队 | chamd5sec | D^3CTF-WriteUp | https://mp.weixin.qq.com/s/oOf0RI6P2hEwtPXWP6yU4Q | 11| 
 | RapidDNS | gh_6327c9075859 | RapidDNS.IO 网站应用实例 | https://mp.weixin.qq.com/s/ttbJY33W7Bmog_MgNZXc6Q | 1| 
 | 深信服千里目安全实验室 | Further_eye | 漏洞威胁分析报告（上册）- 不同视角下的漏洞威胁 | https://mp.weixin.qq.com/s/gIEPvwBE61axZfhBbB9aiw | 2| 
 | 电子物证 | ewuzheng | 【Signal】数据分析 | https://mp.weixin.qq.com/s/AiHRwc0LBUyxkg0vcu12eg | 1| 
-| ChaMd5安全团队 | chamd5sec | 从PR中学习如何修改 flashrom 读取国产 flash | https://mp.weixin.qq.com/s/kifu_p4eOfy1kuSfLMrXMw | 11| 
 | 湛卢工作室 | xuehao_studio | 关于近期Microsoft Exchange多个高危漏洞——ProxyLogon | https://mp.weixin.qq.com/s/cmgY6W_cGtGacfYgiac5qQ | 1| 
 | 看雪学院 | ikanxue | Firm-AFL：高效的IoT固件灰盒fuzz | https://mp.weixin.qq.com/s/-s5GGA70vcHAVfyz1QeBtQ | 4| 
 | 字节跳动安全中心 | TouTiaoSec | 游戏安全评审的技术进阶之路 | https://mp.weixin.qq.com/s/ZIzjIZziM6inUNlr2CKBCg | 2| 
@@ -65,7 +66,6 @@
 | 互联网安全内参 | anquanneican | 安全基线建设指南 | https://mp.weixin.qq.com/s/ayhKILhCMUgFOKLcX0Y_3Q | 1| 
 | 共创网安 | jsgcwa | “专家讲坛”第二期：互联网产品数据与隐私合规审查要点 | https://mp.weixin.qq.com/s/m_8Y3x-DzoWNwU8tBT-ENw | 1| 
 | 开源情报研究所 | OSINTR | 【技巧】如何开源手动挖掘LinkedIn领英 | https://mp.weixin.qq.com/s/mtQ40m7qLayUDxgmWgsWPw | 2| 
-| 绿盟科技研究通讯 | nsfocus_research | 自动化的攻击溯源之痛 ：数据获取与关联的困惑 | https://mp.weixin.qq.com/s/dJDHLvJOGVPQB1cfTayX9w | 2| 
 | 中国信息安全 | chinainfosec | 程国平：全球网络反恐格局中的中国力量 | https://mp.weixin.qq.com/s/1dpbZO_rD4GSfaPqjw5Luw | 2| 
 | 信创咨询 | XConsultancy | 信创产业：操作系统深度研究（PPT原文） | https://mp.weixin.qq.com/s/fA1xDbQ9qbV1L2AgitFXdw | 1| 
 | OPPO安全应急响应中心 | opposrc | CVE-2020-16040: Chromium V8引擎整数溢出漏洞分析 | https://mp.weixin.qq.com/s/j-WbrCQVb4E2JfY-bDqzJw | 1| 
