@@ -1,10 +1,10 @@
-Python	24
-C	17
+Python	25
+C	18
 Java	11
 Go	11
+C++	10
 JavaScript	9
 Shell	9
-C++	9
 HTML	8
 PHP	6
 Rust	5

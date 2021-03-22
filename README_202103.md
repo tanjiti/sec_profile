@@ -14,8 +14,14 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| caoz的梦呓 | caozsay | 浅谈风控的架构 | https://mp.weixin.qq.com/s/GAeau8TJEWZtrv5CHlSHNQ | 1| 
+| FCC30+ | Fcc_198905 | 商业银行零信任安全架构研究 | https://mp.weixin.qq.com/s/vpXdOOKFlZDioXDQnn0GLg | 1| 
+| 云网漫步 | gh_5d1c9da4b05e | 谈谈国外互联网公司的骨干网 | https://mp.weixin.qq.com/s/jET_vZUtYS8kQD8H-5j5KA | 1| 
+| 学蚁致用 | sudo_i | 负载均衡下的 WebShell 连接 | https://mp.weixin.qq.com/s/4Bmz_fuu0yrLMK1oBKKtRA | 1| 
+| 安全学术圈 | secquan | All Your DNS Records Point to Us | https://mp.weixin.qq.com/s/7-4QBjp_TAX74bWidegXHA | 1| 
+| 腾讯技术 | gh_6866e1848f15 | 如何在技术领域产生自己的影响力 | https://mp.weixin.qq.com/s/Himw3mpv7fDy96bdJQA5xg | 1| 
 | Akamai | hotline4006091609 | 揭秘 , 新型僵尸网络隐匿方式 | https://mp.weixin.qq.com/s/OxLkZyvI2AASVrYUR4GPJg | 1| 
-| RapidDNS | gh_6327c9075859 | RapidDNS网站在SRC漏洞挖掘中的一个思路 | https://mp.weixin.qq.com/s/bTA0DVfmPVArYXG5MHRAbg | 2| 
+| RapidDNS | gh_6327c9075859 | RapidDNS网站在SRC漏洞挖掘中的一个思路 | https://mp.weixin.qq.com/s/bTA0DVfmPVArYXG5MHRAbg | 3| 
 | 丁爸 情报分析师的工具箱 | dingba2016 | 【工具】一个网络安全从业者的专业搜索引擎 | https://mp.weixin.qq.com/s/D8JhdhzY6cpShKX2J-t_rQ | 1| 
 | 微步在线研究响应中心 | gh_c108d4d389bf | 专题报告 , 流行窃密类木马分析（下） | https://mp.weixin.qq.com/s/R4sOXCP-_T3NGN5d7Ybl6Q | 2| 
 | 合天网安实验室 | hee_tian | 对某cms的一次审计思路 | https://mp.weixin.qq.com/s/aps0k7O6BO-UQ0gXbTN3KQ | 2| 
@@ -50,9 +56,11 @@
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | CTF-MissFeng | GoScan: 分布式综合资产管理系统 | https://github.com/CTF-MissFeng/GoScan | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| Ch0pin | medusa - 基于 FRIDA 实现的 Java 动态二进制插桩框架，目标场景是恶意软件 Trace | https://github.com/Ch0pin/medusa | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | Siguza | libkrw - 为不同越狱工具提供一个 iOS kernel 读写 API 接口 | https://github.com/Siguza/libkrw | https://siguza.net |  | Switzerland | None | 50 | 0 | 0 | 0 | 0 | C,Assembly,Objective-C | 0 | 0 | 1| 
 | advanced-threat-research | McAfee ATR Capture the Flag Writeup | https://github.com/advanced-threat-research/ATR_HAX_CTF | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,YARA,HTML,Lua | 0 | 0 | 1| 
-| huoji120 | DuckMemoryScan: 内存免杀马检测 | https://github.com/huoji120/DuckMemoryScan | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| blackorbird | SilverFish APT团队分析报告。 | https://github.com/blackorbird/APT_REPORT/blob/master/SunBurst/SilverFish_Solarwinds.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| huoji120 | DuckMemoryScan: 内存免杀马检测 | https://github.com/huoji120/DuckMemoryScan | https://key08.com | 网络安全工程师、游戏安全工程师、反病毒工程师、全栈开发程序员、黑客 | 北京 朝阳 | CTO | 84 | 0 | 0 | 0 | 0 | Python,C,C++ | 0 | 0 | 1| 
 | marijuanARM | iOS 降级工具 futurerestore 更新 v194 版本 | https://github.com/marijuanARM/futurerestore/releases/tag/194 | https://discord.gg/fAngssA | python developer , discord link below , avatar by @syns | None | None | 25 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | peter-cui1221 | sqlinjection-detect: C语言编写的基于语义分析的SQL注入检测... | https://github.com/peter-cui1221/sqlinjection-detect | None |  | None | None | 1 | 0 | 0 | 0 | 0 | C | 0 | 0 | 1| 
 | sbousseaden | PCAP-ATTACK: PCAP Samples for Different Post Exploitation Techniques | https://github.com/sbousseaden/PCAP-ATTACK | http://@SBousseaden | Threat Hunting & DFIR | None | None | 66 | 0 | 0 | 0 | 0 | YARA,PowerShell | 0 | 0 | 1| 
@@ -98,6 +106,9 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| C/C++源码扫描系列- Fortify 篇 | https://xz.aliyun.com/t/9276| 
+| 自主搭建的三层网络域渗透靶场打靶记录 | https://xz.aliyun.com/t/9281| 
+| C/C++源码扫描系列- Joern 篇 | https://xz.aliyun.com/t/9277| 
 | CVE-2019-2215复现过程记录 | https://xz.aliyun.com/t/9273| 
 | C/C++源码扫描系列- codeql 篇 | https://xz.aliyun.com/t/9275| 
 | 某oa java代码审计2 | https://xz.aliyun.com/t/9226| 

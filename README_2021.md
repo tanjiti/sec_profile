@@ -14,8 +14,14 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| caoz的梦呓 | caozsay | 浅谈风控的架构 | https://mp.weixin.qq.com/s/GAeau8TJEWZtrv5CHlSHNQ | 1| 
+| FCC30+ | Fcc_198905 | 商业银行零信任安全架构研究 | https://mp.weixin.qq.com/s/vpXdOOKFlZDioXDQnn0GLg | 2| 
+| 云网漫步 | gh_5d1c9da4b05e | 谈谈国外互联网公司的骨干网 | https://mp.weixin.qq.com/s/jET_vZUtYS8kQD8H-5j5KA | 1| 
+| 学蚁致用 | sudo_i | 负载均衡下的 WebShell 连接 | https://mp.weixin.qq.com/s/4Bmz_fuu0yrLMK1oBKKtRA | 1| 
+| 安全学术圈 | secquan | All Your DNS Records Point to Us | https://mp.weixin.qq.com/s/7-4QBjp_TAX74bWidegXHA | 8| 
+| 腾讯技术 | gh_6866e1848f15 | 如何在技术领域产生自己的影响力 | https://mp.weixin.qq.com/s/Himw3mpv7fDy96bdJQA5xg | 1| 
 | Akamai | hotline4006091609 | 揭秘 , 新型僵尸网络隐匿方式 | https://mp.weixin.qq.com/s/OxLkZyvI2AASVrYUR4GPJg | 1| 
-| RapidDNS | gh_6327c9075859 | RapidDNS网站在SRC漏洞挖掘中的一个思路 | https://mp.weixin.qq.com/s/bTA0DVfmPVArYXG5MHRAbg | 2| 
+| RapidDNS | gh_6327c9075859 | RapidDNS网站在SRC漏洞挖掘中的一个思路 | https://mp.weixin.qq.com/s/bTA0DVfmPVArYXG5MHRAbg | 3| 
 | 丁爸 情报分析师的工具箱 | dingba2016 | 【工具】一个网络安全从业者的专业搜索引擎 | https://mp.weixin.qq.com/s/D8JhdhzY6cpShKX2J-t_rQ | 1| 
 | 微步在线研究响应中心 | gh_c108d4d389bf | 专题报告 , 流行窃密类木马分析（下） | https://mp.weixin.qq.com/s/R4sOXCP-_T3NGN5d7Ybl6Q | 4| 
 | 合天网安实验室 | hee_tian | 对某cms的一次审计思路 | https://mp.weixin.qq.com/s/aps0k7O6BO-UQ0gXbTN3KQ | 2| 
@@ -58,12 +64,10 @@
 | 国家网络威胁情报共享开放平台 | CNTIC2017 | 2020年勒索软件分析 | https://mp.weixin.qq.com/s/yrtU2_VxEt94DWF4eQWujA | 1| 
 | 鸟哥谈云安全 | cnbirdsecintel | 云安全架构连载之二-Azure云平台威胁检测详解 | https://mp.weixin.qq.com/s/Dffk-_TSCaR2SWVAIMCQUA | 2| 
 | 锦行信息安全 | jeeseensec | 技术分享 , 锦行杯比赛 Writeup | https://mp.weixin.qq.com/s/mYCDsbERsgph5zu-4-lyKQ | 1| 
-| 安全学术圈 | secquan | SerialDetector：Web对象注入漏洞的原理和实践探索 | https://mp.weixin.qq.com/s/doFTqJcA30AwgUUtK5XqMQ | 7| 
 | 百度安全实验室 | BaiduX_lab | 基于DTLS协议的反射攻击深度分析 | https://mp.weixin.qq.com/s/Ye_AuMDLQotv3M5rv9OmOA | 1| 
 | 网络空间安全军民融合创新中心 | jmrh1226 | 2020年全球国防网络空间情况综述（武器技术篇-上） | https://mp.weixin.qq.com/s/piWwrlXZTcgN0Tsr2MiLew | 2| 
 | 赵武的自留地 | gh_86033a4f818d | 让网络空间测绘技术不再那么飘忽不定 | https://mp.weixin.qq.com/s/lr39F9kNOfHlMimgymzVwg | 1| 
 | 潇湘信安 | xxxasec | 记一次理财杀猪盘渗透测试案例 | https://mp.weixin.qq.com/s/utqGvCTEFS3hQ_GttWHVNw | 5| 
-| FCC30+ | Fcc_198905 | 2020网络金融黑产研究报告 | https://mp.weixin.qq.com/s/B_pREKw4SJQjpbVbQLl33w | 1| 
 | vivo千镜安全实验室 | gh_54ff3f871510 | 智能终端隐私防跟踪技术实践 | https://mp.weixin.qq.com/s/II5q4tYyZ3JUD4vHy1Fx6A | 2| 
 | 互联网安全内参 | anquanneican | 安全基线建设指南 | https://mp.weixin.qq.com/s/ayhKILhCMUgFOKLcX0Y_3Q | 1| 
 | 共创网安 | jsgcwa | “专家讲坛”第二期：互联网产品数据与隐私合规审查要点 | https://mp.weixin.qq.com/s/m_8Y3x-DzoWNwU8tBT-ENw | 1| 
@@ -99,6 +103,7 @@
 | AltraMayor | gatekeeper: First open-source DDoS protection system | https://github.com/AltraMayor/gatekeeper | https://lnkd.in/dvGQusq |  | Boston, MA | Digirati | 8 | 0 | 0 | 0 | 0 | C | 1400 | 105 | 1| 
 | BishopFox | GadgetProbe - Java 反序列化漏洞 Gadget Probe 工具 | https://github.com/BishopFox/GadgetProbe | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Objective-C++,Python,JavaScript,Perl,Go | 1300 | 190 | 1| 
 | CTF-MissFeng | GoScan: 分布式综合资产管理系统 | https://github.com/CTF-MissFeng/GoScan | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| Ch0pin | medusa - 基于 FRIDA 实现的 Java 动态二进制插桩框架，目标场景是恶意软件 Trace | https://github.com/Ch0pin/medusa | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | ControlThings-io | 适用于Control Things Platform用户的样本文件与顶级研究项目。 | https://github.com/ControlThings-io/ct-samples | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,PHP,Rich | 0 | 0 | 1| 
 | FunnyWolf | Viper:是一款图形化红队评估工具,将红队评估过程中常用的战术及技术进行模块集成所有功能必备。 | https://github.com/FunnyWolf/Viper | None | hack for fun | None | None | 21 | 0 | 0 | 0 | 0 | Python,Go | 504 | 73 | 1| 
 | Hzllaga | 宝塔面板Windows版提权方法 | https://github.com/Hzllaga/BT_Panel_Privilege_Escalation | None |  | None | None | 31 | 0 | 0 | 0 | 0 | C#,Python | 187 | 39 | 1| 
@@ -117,6 +122,7 @@
 | anantshri | 研究员 Anant Shrivastava 关于 Android Security 培训的资料 | https://github.com/anantshri/Android_Security | http://blog.anantshri.info | Project Leader for @AndroidTamer and @CodeVigilant | Bhopal India | InfoSec Professional | 194 | 0 | 0 | 0 | 0 | Python,Shell,PHP | 245 | 96 | 1| 
 | astarasikov | 有研究员公开了一个 Fuzz macOS GPU 相关模块的 Fuzzer | https://github.com/astarasikov/macos-gpu-fuzzing-public | https://allsoftwaresucks.blogspot.com |  | Moscow, Russia | None | 63 | 0 | 0 | 0 | 0 | Objective-C,Java,C | 41 | 14 | 1| 
 | bg6cq | 一次挖矿入侵处理记录 | https://github.com/bg6cq/ITTS/blob/master/security/mine/README.md | http://bg6cq.github.io |  | None | USTC | 116 | 0 | 0 | 0 | 0 | Lua,C,PHP | 110 | 45 | 1| 
+| blackorbird | SilverFish APT团队分析报告。 | https://github.com/blackorbird/APT_REPORT/blob/master/SunBurst/SilverFish_Solarwinds.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | cdk-team | 容器环境定制的渗透测试工具 | https://github.com/cdk-team/CDK/wiki/CDK-Home-CN | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go | 0 | 0 | 1| 
 | coodyer | fire_vulnerability_scanner: 一款http协议的漏洞扫描框架 | https://github.com/coodyer/fire_vulnerability_scanner | None |  | https://avatars3.githubusercontent.com/u/21119116?v=3&u=29f095a5e89411d5ca4cc7509c406280f095e658&s=400 | None | 19 | 0 | 0 | 0 | 0 | C#,Java | 27 | 10 | 1| 
 | daniel-thompson | 基于MicroPython的智能手表开发环境手册指南（包括Pine64 PineTime）项目介绍。 | https://github.com/daniel-thompson/wasp-os | http://redfelineninja.org.uk/daniel/ |  | Bristol, UK | None | 70 | 0 | 0 | 0 | 0 | Python,C,Shell | 179 | 64 | 1| 
@@ -128,7 +134,7 @@
 | google | nsjail - Google 开源的一个 Linux 平台进程隔离工具 | https://github.com/google/nsjail | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,HTML,Starlark,Go,Rust | 0 | 0 | 2| 
 | grapl-security | 用图的理论从日志中挖掘入侵的行为 | https://github.com/grapl-security/grapl | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Rust | 0 | 0 | 1| 
 | h4ckdepy | SeveTools:多功能的网络安全实战工具项目库。 | https://github.com/h4ckdepy/SeveTools | https://blog.happysec.cn | 网络安全爱好者。 | None | None | 21 | 0 | 0 | 0 | 0 | Stylus,PHP,JavaScript,CSS | 118 | 66 | 1| 
-| huoji120 | DuckMemoryScan: 内存免杀马检测 | https://github.com/huoji120/DuckMemoryScan | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| huoji120 | DuckMemoryScan: 内存免杀马检测 | https://github.com/huoji120/DuckMemoryScan | https://key08.com | 网络安全工程师、游戏安全工程师、反病毒工程师、全栈开发程序员、黑客 | 北京 朝阳 | CTO | 84 | 0 | 0 | 0 | 0 | Python,C,C++ | 0 | 0 | 1| 
 | ihebski | 各类 IoT 设备/Web 组件的默认密码收集 | https://github.com/ihebski/DefaultCreds-cheat-sheet | None | Security Operations Engineer (⌐■_■) , Pentester , Bughunter | Error: Unable to resolve | None | 57 | 0 | 0 | 0 | 0 | Python,HTML,Jupyter | 343 | 91 | 1| 
 | jimtangshfx | MilenageTest - 验证 3G/4G/5G 鉴权验证过程是否正确的工具 | https://github.com/jimtangshfx/MilenageTest | None | Jim Tang | TX,US | None | 5 | 0 | 0 | 0 | 0 | Python,Shell,HTML,C++ | 28 | 11 | 1| 
 | jonasstrehle | supercookie: Browser fingerprinting via favicon! | https://github.com/jonasstrehle/supercookie | https://jonas.strehles.info | 20yo , Friedrichshafen | Germany | Working from home | 1 | 0 | 0 | 0 | 0 | HTML | 1300 | 64 | 1| 
@@ -204,6 +210,9 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| C/C++源码扫描系列- Fortify 篇 | https://xz.aliyun.com/t/9276| 
+| 自主搭建的三层网络域渗透靶场打靶记录 | https://xz.aliyun.com/t/9281| 
+| C/C++源码扫描系列- Joern 篇 | https://xz.aliyun.com/t/9277| 
 | CVE-2019-2215复现过程记录 | https://xz.aliyun.com/t/9273| 
 | C/C++源码扫描系列- codeql 篇 | https://xz.aliyun.com/t/9275| 
 | 某oa java代码审计2 | https://xz.aliyun.com/t/9226| 

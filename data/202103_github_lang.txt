@@ -1,7 +1,8 @@
+C	3
+Python	3
 YARA	2
-C	2
-Python	2
 Assembly	1
+C++	1
 Lua	1
 Objective-C	1
 HTML	1
