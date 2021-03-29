@@ -14,9 +14,13 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 360威胁情报中心 | CoreSec360 | Kimsuky组织网络攻击活动追溯分析报告 | https://mp.weixin.qq.com/s/pkCK1ryXvGWFuoHQk9Rahg | 5| 
+| 安全牛 | aqniu-wx | 中国网络安全行业全景图（2021年3月第八版）发布 | https://mp.weixin.qq.com/s/Z3rIpxl9ZOVuZzTABAojvg | 43| 
+| 泰阿安全实验室 | gh_d80f12be026a | 剑指钓鱼基建自动化的想法 | https://mp.weixin.qq.com/s/5ofJ6J1KVQIvVB3dZdIVng | 1| 
+| 深信服千里目安全实验室 | Further_eye | MSSQL数据库攻击实战指北 , 防守方攻略 | https://mp.weixin.qq.com/s/uENvpPan7aVd7MbSoAT9Dg | 9| 
+| 腾讯安全应急响应中心 | tsrc_team | 浅析软件供应链攻击之包抢注低成本钓鱼 | https://mp.weixin.qq.com/s/JWSjKZWyuSvXdzYhU0INmQ | 24| 
 | 补天平台 | Patchingthesky | 硬核黑客笔记 - 怒吼吧电磁波 (上) | https://mp.weixin.qq.com/s/SUjjKY_TIj10rpQW9tkH9A | 2| 
 | 赵武的自留地 | gh_86033a4f818d | 网络空间测绘核心技术之：协议识别（DCERPC篇） | https://mp.weixin.qq.com/s/jsOyxiDBnvi4PiqdgA3dvw | 9| 
-| 360威胁情报中心 | CoreSec360 | RemRAT潜伏在中东多年的Android间谍软件 | https://mp.weixin.qq.com/s/RhM2qUxDWTyykCbSW6e8SQ | 4| 
 | DataFunTalk | datafuntalk | 模型可解释性在保险理赔反欺诈中的实践 | https://mp.weixin.qq.com/s/7Qa4PZCXARqEK-iphVPTjA | 2| 
 | 人民检察 | renminjiancha1956 | 郑新俭 赵 玮 纪敬玲：《人民检察院办理网络犯罪案件规定》的理解与适用 | https://mp.weixin.qq.com/s/VshK6oANVI_skfjuGEUHSw | 1| 
 | 国家互联网应急中心CNCERT | CNCERTCC | 2020年联网智能设备安全态势报告 | https://mp.weixin.qq.com/s/GdSgHNTLjysqow4ka8tY7w | 5| 
@@ -40,14 +44,12 @@
 | SECISLAND安全官 | SECSOSO | 资产管理的难点 | https://mp.weixin.qq.com/s/DqtIzNdDvB7pYjXmoP1quQ | 1| 
 | 前端热点分析 | Web-2017 | JavaScript反调试技巧 | https://mp.weixin.qq.com/s/NMJd91AmuGEANz00sZELfw | 1| 
 | ChaMd5安全团队 | chamd5sec | D^3CTF-WriteUp | https://mp.weixin.qq.com/s/oOf0RI6P2hEwtPXWP6yU4Q | 45| 
-| 深信服千里目安全实验室 | Further_eye | 漏洞威胁分析报告（上册）- 不同视角下的漏洞威胁 | https://mp.weixin.qq.com/s/gIEPvwBE61axZfhBbB9aiw | 8| 
 | 电子物证 | ewuzheng | 【Signal】数据分析 | https://mp.weixin.qq.com/s/AiHRwc0LBUyxkg0vcu12eg | 1| 
 | 湛卢工作室 | xuehao_studio | 关于近期Microsoft Exchange多个高危漏洞——ProxyLogon | https://mp.weixin.qq.com/s/cmgY6W_cGtGacfYgiac5qQ | 13| 
 | 看雪学院 | ikanxue | Firm-AFL：高效的IoT固件灰盒fuzz | https://mp.weixin.qq.com/s/-s5GGA70vcHAVfyz1QeBtQ | 52| 
 | 字节跳动安全中心 | TouTiaoSec | 游戏安全评审的技术进阶之路 | https://mp.weixin.qq.com/s/ZIzjIZziM6inUNlr2CKBCg | 3| 
 | 美团技术团队 | meituantech | 美团外卖特征平台的建设与实践 | https://mp.weixin.qq.com/s/YyRLJa9NomPvzTWJKaCesQ | 9| 
 | 绿盟科技 | NSFOCUS-weixin | 以蓝军视角跟踪和分析CANVAS攻击框架泄露事件 | https://mp.weixin.qq.com/s/eQ-KDMoirOwx-pFxUcNjtQ | 9| 
-| 腾讯安全应急响应中心 | tsrc_team | 红蓝对抗中的云原生漏洞挖掘及利用实录 | https://mp.weixin.qq.com/s/Aq8RrH34PTkmF8lKzdY38g | 23| 
 | 安全分析与研究 | MalwareAnalysis | 恶意软件分析工具集成环境 | https://mp.weixin.qq.com/s/WMWQUWu8dt45iQsrcLfSxg | 2| 
 | 小面包的储物柜 | afubread | 浅谈如何有效落地DevSecOps（很浅很浅） | https://mp.weixin.qq.com/s/5eX3-SCfvFfRitb9_onjvw | 1| 
 | 涛涛不帅 | gh_39db459d9552 | VMware vCenter RCE (CVE-2021-21972) 漏洞复现与 Exp 编写 | https://mp.weixin.qq.com/s/2pvaQborwMM8UHnWS_CeXA | 1| 
@@ -65,7 +67,6 @@
 | 小强说 | xiaoqiangcall | 浅析Course of Action应对措施 | https://mp.weixin.qq.com/s/ikHga0fGa0euwGYohv534g | 6| 
 | 小迪随笔 | i-little-monster | 苹果隐私十年史：变与不变（3）产品与常识 | https://mp.weixin.qq.com/s/8-xZqAbgRCWcOSyY5x-OvA | 5| 
 | 思想花火 | ttfirework | 做信息安全BP的一些感悟 | https://mp.weixin.qq.com/s/qygwMIGX3PhbnKuPwQqfUQ | 1| 
-| 安全牛 | aqniu-wx | 百位董事长/CEO/总裁：预见2021网络安全细分领域发展 | https://mp.weixin.qq.com/s/XBGy2xG3-GYL7023lAjCyg | 42| 
 | 网络安全应急技术国家工程实验室 | NELCERT | FreakOut分析报告 | https://mp.weixin.qq.com/s/jQ6npq2C8PprnDQMXTtP0g | 1| 
 | FreeBuf | freebuf | 邮件钓鱼入门到入土 | https://mp.weixin.qq.com/s/hhBs3wryDCum1DrD6CxeRw | 26| 
 | 国家网络威胁情报共享开放平台 | CNTIC2017 | 2020年勒索软件分析 | https://mp.weixin.qq.com/s/yrtU2_VxEt94DWF4eQWujA | 6| 
@@ -3668,6 +3669,7 @@
 | DependencyTrack | DependencyTrack: 开源软件成分分析平台 | https://github.com/DependencyTrack/dependency-track | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Vue,Java,JavaScript,CSS | 595 | 192 | 1| 
 | DeveloppSoft | Eli.Decode - tool to decode obfuscated shellcodes using the Unicorn engine | https://github.com/DeveloppSoft/Eli.Decode | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | Droidzzzio | 用于枚举子域wordlist，php文件路径，html文件路径和js文件路径的开源工具 | https://github.com/Droidzzzio/EnumerationList | https://twitter.com/ShMalav | Security Researcher Bug Bounty Hunter | INDIA | None | 44 | 0 | 0 | 0 | 0 | Python | 32 | 8 | 1| 
+| EXHades | 一些网络空间搜索引擎相关的资料 | https://github.com/EXHades/CyberSpaceSearchEngine-Research | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | Eitenne | Fully undetected backdoor with RSA Encrypted shell | https://github.com/Eitenne/TopHat | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 2| 
 | EtixLabs | Cameradar - 攻击 RTSP 监控摄像头的工具: | https://github.com/EtixLabs/cameradar | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,JavaScript,OCaml,C++,CoffeeScript,Objective-C,HTML,Go,PHP,Swift | 0 | 0 | 1| 
 | ExpLife | Analysis-Tools: 恶意软件分析套件 | https://github.com/ExpLife/Analysis-Tools | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -3947,6 +3949,7 @@
 | lastaudit | lastAudit: Local Area Security Audit Tool | https://github.com/lastaudit/lastAudit/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | latentgod | OpenSA: 运维自动化平台 | https://github.com/latentgod/OpenSA | None |  | None | None | 38 | 0 | 0 | 0 | 0 | Python,PHP,JavaScript,Vim | 6 | 10 | 1| 
 | lazycatzh | news_feed: 实时监控1000家中国企业的新闻动态 | https://github.com/lazycatzh/news_feed | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| lcvvvv | Kscan：轻量级的资产发现工具 | https://github.com/lcvvvv/kscan | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | lewangbtcc | anti-XSS: An open source XSS vulnerability scanner | https://github.com/lewangbtcc/anti-XSS | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | lgandx | LLMNR/NBT-NS/mDNS 协议攻击工具 Responder 更新 3.0.2.0 版本 | https://github.com/lgandx/Responder/releases/tag/v3.0.2.0 | https://g-laurent.blogspot.com |  | None | None | 5 | 0 | 0 | 0 | 0 | Python | 2300 | 382 | 2| 
 | lianfeng30 | githubscan: GitHub敏感信息扫描工具 | https://github.com/lianfeng30/githubscan | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -4120,6 +4123,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 利用 Zoom App 的 SQL 注入漏洞修改用户的摄像头隐私设置 | http://medium.com/@keegan.ryan/patched-zoom-exploit-altering-camera-settings-via-remote-sql-injection-4fdf3de8a0d| 
 | How I hacked Facebook: Part Two | http://alaa0x2.medium.com/how-i-hacked-facebook-part-two-ffab96d57b19| 
 | 研究人员发现Android新型银行恶意软件“FluBot”并对样本进行分析。 | http://medium.com/csis-techblog/the-brief-glory-of-cabassous-flubot-a-private-android-banking-botnet-bc2ed7917027| 
 | TikTok for Android 1-Click RCE | http://medium.com/@dPhoeniixx/tiktok-for-android-1-click-rce-240266e78105| 
@@ -4452,6 +4456,9 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 一些webshell免杀的技巧 | https://xz.aliyun.com/t/9290| 
+| 蓝队溯源与反制 | https://xz.aliyun.com/t/9316| 
+| 记一次跌宕起伏的白盒审计到RCE | https://xz.aliyun.com/t/9319| 
 | C/C++源码扫描系列- Fortify 篇 | https://xz.aliyun.com/t/9276| 
 | 自主搭建的三层网络域渗透靶场打靶记录 | https://xz.aliyun.com/t/9281| 
 | C/C++源码扫描系列- Joern 篇 | https://xz.aliyun.com/t/9277| 

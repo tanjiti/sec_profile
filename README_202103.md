@@ -14,9 +14,13 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 360威胁情报中心 | CoreSec360 | Kimsuky组织网络攻击活动追溯分析报告 | https://mp.weixin.qq.com/s/pkCK1ryXvGWFuoHQk9Rahg | 2| 
+| 安全牛 | aqniu-wx | 中国网络安全行业全景图（2021年3月第八版）发布 | https://mp.weixin.qq.com/s/Z3rIpxl9ZOVuZzTABAojvg | 1| 
+| 泰阿安全实验室 | gh_d80f12be026a | 剑指钓鱼基建自动化的想法 | https://mp.weixin.qq.com/s/5ofJ6J1KVQIvVB3dZdIVng | 1| 
+| 深信服千里目安全实验室 | Further_eye | MSSQL数据库攻击实战指北 , 防守方攻略 | https://mp.weixin.qq.com/s/uENvpPan7aVd7MbSoAT9Dg | 2| 
+| 腾讯安全应急响应中心 | tsrc_team | 浅析软件供应链攻击之包抢注低成本钓鱼 | https://mp.weixin.qq.com/s/JWSjKZWyuSvXdzYhU0INmQ | 2| 
 | 补天平台 | Patchingthesky | 硬核黑客笔记 - 怒吼吧电磁波 (上) | https://mp.weixin.qq.com/s/SUjjKY_TIj10rpQW9tkH9A | 1| 
 | 赵武的自留地 | gh_86033a4f818d | 网络空间测绘核心技术之：协议识别（DCERPC篇） | https://mp.weixin.qq.com/s/jsOyxiDBnvi4PiqdgA3dvw | 1| 
-| 360威胁情报中心 | CoreSec360 | RemRAT潜伏在中东多年的Android间谍软件 | https://mp.weixin.qq.com/s/RhM2qUxDWTyykCbSW6e8SQ | 1| 
 | DataFunTalk | datafuntalk | 模型可解释性在保险理赔反欺诈中的实践 | https://mp.weixin.qq.com/s/7Qa4PZCXARqEK-iphVPTjA | 1| 
 | 人民检察 | renminjiancha1956 | 郑新俭 赵 玮 纪敬玲：《人民检察院办理网络犯罪案件规定》的理解与适用 | https://mp.weixin.qq.com/s/VshK6oANVI_skfjuGEUHSw | 1| 
 | 国家互联网应急中心CNCERT | CNCERTCC | 2020年联网智能设备安全态势报告 | https://mp.weixin.qq.com/s/GdSgHNTLjysqow4ka8tY7w | 1| 
@@ -40,14 +44,12 @@
 | SECISLAND安全官 | SECSOSO | 资产管理的难点 | https://mp.weixin.qq.com/s/DqtIzNdDvB7pYjXmoP1quQ | 1| 
 | 前端热点分析 | Web-2017 | JavaScript反调试技巧 | https://mp.weixin.qq.com/s/NMJd91AmuGEANz00sZELfw | 1| 
 | ChaMd5安全团队 | chamd5sec | D^3CTF-WriteUp | https://mp.weixin.qq.com/s/oOf0RI6P2hEwtPXWP6yU4Q | 3| 
-| 深信服千里目安全实验室 | Further_eye | 漏洞威胁分析报告（上册）- 不同视角下的漏洞威胁 | https://mp.weixin.qq.com/s/gIEPvwBE61axZfhBbB9aiw | 1| 
 | 电子物证 | ewuzheng | 【Signal】数据分析 | https://mp.weixin.qq.com/s/AiHRwc0LBUyxkg0vcu12eg | 1| 
 | 湛卢工作室 | xuehao_studio | 关于近期Microsoft Exchange多个高危漏洞——ProxyLogon | https://mp.weixin.qq.com/s/cmgY6W_cGtGacfYgiac5qQ | 1| 
 | 看雪学院 | ikanxue | Firm-AFL：高效的IoT固件灰盒fuzz | https://mp.weixin.qq.com/s/-s5GGA70vcHAVfyz1QeBtQ | 1| 
 | 字节跳动安全中心 | TouTiaoSec | 游戏安全评审的技术进阶之路 | https://mp.weixin.qq.com/s/ZIzjIZziM6inUNlr2CKBCg | 1| 
 | 美团技术团队 | meituantech | 美团外卖特征平台的建设与实践 | https://mp.weixin.qq.com/s/YyRLJa9NomPvzTWJKaCesQ | 1| 
 | 绿盟科技 | NSFOCUS-weixin | 以蓝军视角跟踪和分析CANVAS攻击框架泄露事件 | https://mp.weixin.qq.com/s/eQ-KDMoirOwx-pFxUcNjtQ | 1| 
-| 腾讯安全应急响应中心 | tsrc_team | 红蓝对抗中的云原生漏洞挖掘及利用实录 | https://mp.weixin.qq.com/s/Aq8RrH34PTkmF8lKzdY38g | 1| 
 | 安全分析与研究 | MalwareAnalysis | 恶意软件分析工具集成环境 | https://mp.weixin.qq.com/s/WMWQUWu8dt45iQsrcLfSxg | 1| 
 | 小面包的储物柜 | afubread | 浅谈如何有效落地DevSecOps（很浅很浅） | https://mp.weixin.qq.com/s/5eX3-SCfvFfRitb9_onjvw | 1| 
 | 涛涛不帅 | gh_39db459d9552 | VMware vCenter RCE (CVE-2021-21972) 漏洞复现与 Exp 编写 | https://mp.weixin.qq.com/s/2pvaQborwMM8UHnWS_CeXA | 1| 
@@ -64,11 +66,13 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | CTF-MissFeng | GoScan: 分布式综合资产管理系统 | https://github.com/CTF-MissFeng/GoScan | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | Ch0pin | medusa - 基于 FRIDA 实现的 Java 动态二进制插桩框架，目标场景是恶意软件 Trace | https://github.com/Ch0pin/medusa | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| EXHades | 一些网络空间搜索引擎相关的资料 | https://github.com/EXHades/CyberSpaceSearchEngine-Research | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | GuoKerS | 利用字符集编码绕过waf的burp插件 | https://github.com/GuoKerS/Charset_encoding-Burp | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | Siguza | libkrw - 为不同越狱工具提供一个 iOS kernel 读写 API 接口 | https://github.com/Siguza/libkrw | https://siguza.net |  | Switzerland | None | 50 | 0 | 0 | 0 | 0 | C,Assembly,Objective-C | 0 | 0 | 1| 
 | advanced-threat-research | McAfee ATR Capture the Flag Writeup | https://github.com/advanced-threat-research/ATR_HAX_CTF | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,YARA,HTML,Lua | 0 | 0 | 1| 
 | blackorbird | SilverFish APT团队分析报告。 | https://github.com/blackorbird/APT_REPORT/blob/master/SunBurst/SilverFish_Solarwinds.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | huoji120 | DuckMemoryScan: 内存免杀马检测 | https://github.com/huoji120/DuckMemoryScan | https://key08.com | 网络安全工程师、游戏安全工程师、反病毒工程师、全栈开发程序员、黑客 | 北京 朝阳 | CTO | 84 | 0 | 0 | 0 | 0 | Python,C,C++ | 0 | 0 | 1| 
+| lcvvvv | Kscan：轻量级的资产发现工具 | https://github.com/lcvvvv/kscan | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | marijuanARM | iOS 降级工具 futurerestore 更新 v194 版本 | https://github.com/marijuanARM/futurerestore/releases/tag/194 | https://discord.gg/fAngssA | python developer , discord link below , avatar by @syns | None | None | 25 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | peter-cui1221 | sqlinjection-detect: C语言编写的基于语义分析的SQL注入检测... | https://github.com/peter-cui1221/sqlinjection-detect | None |  | None | None | 1 | 0 | 0 | 0 | 0 | C | 0 | 0 | 1| 
 | sbousseaden | PCAP-ATTACK: PCAP Samples for Different Post Exploitation Techniques | https://github.com/sbousseaden/PCAP-ATTACK | http://@SBousseaden | Threat Hunting & DFIR | None | None | 66 | 0 | 0 | 0 | 0 | YARA,PowerShell | 0 | 0 | 1| 
@@ -79,6 +83,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 利用 Zoom App 的 SQL 注入漏洞修改用户的摄像头隐私设置 | http://medium.com/@keegan.ryan/patched-zoom-exploit-altering-camera-settings-via-remote-sql-injection-4fdf3de8a0d| 
 | How I hacked Facebook: Part Two | http://alaa0x2.medium.com/how-i-hacked-facebook-part-two-ffab96d57b19| 
 | 研究人员发现Android新型银行恶意软件“FluBot”并对样本进行分析。 | http://medium.com/csis-techblog/the-brief-glory-of-cabassous-flubot-a-private-android-banking-botnet-bc2ed7917027| 
 | TikTok for Android 1-Click RCE | http://medium.com/@dPhoeniixx/tiktok-for-android-1-click-rce-240266e78105| 
@@ -114,6 +119,9 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 一些webshell免杀的技巧 | https://xz.aliyun.com/t/9290| 
+| 蓝队溯源与反制 | https://xz.aliyun.com/t/9316| 
+| 记一次跌宕起伏的白盒审计到RCE | https://xz.aliyun.com/t/9319| 
 | C/C++源码扫描系列- Fortify 篇 | https://xz.aliyun.com/t/9276| 
 | 自主搭建的三层网络域渗透靶场打靶记录 | https://xz.aliyun.com/t/9281| 
 | C/C++源码扫描系列- Joern 篇 | https://xz.aliyun.com/t/9277| 
