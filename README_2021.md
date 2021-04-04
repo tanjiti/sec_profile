@@ -14,11 +14,15 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 锦行信息安全 | jeeseensec | 技术分享 , Git-RCE：CVE-2021-21300 | https://mp.weixin.qq.com/s/VO2dHNVbPcpZQtnBRMNNag | 2| 
+| 哔哩哔哩安全应急响应中心 | gh_951c3555f599 | DGA域名检测的工程实践 | https://mp.weixin.qq.com/s/GlWqTWQzBfoXt8J8uJAPRQ | 1| 
+| 绿盟科技研究通讯 | nsfocus_research | 安全是一门语言的艺术：威胁调查分析语言概述 | https://mp.weixin.qq.com/s/U8E4JxMDeL5IeVGAh9fuiQ | 4| 
+| 网安思考 | gh_e53abd003964 | 对美军新近发展作战理念的梳理与思考 | https://mp.weixin.qq.com/s/D8T6ImssRi8sjDqD4_bGpg | 2| 
 | NISL实验室 | NISL_THU2020 | 【研究成果】国内伪基站垃圾短信生态系统研究 | https://mp.weixin.qq.com/s/te4igYM_PHbf2xedXdmQxw | 1| 
 | BlockSec Team | gh_57d94ebc8526 | 鸠占鹊巢: Furucombo 攻击事件分析 | https://mp.weixin.qq.com/s/jDQhFNEeIMT_cdjHkggYjw | 2| 
 | 君哥的体历 | jungedetili | 邬晓磊：基于关键词的大型红蓝对抗经验分享 | https://mp.weixin.qq.com/s/8boR_ZucLk5nMJwfi2UdGA | 1| 
 | 火线安全平台 | huoxian_cn | 洞态IAST Agent正式开源 | https://mp.weixin.qq.com/s/iSHmK4Fbl0whDvIH-u8tag | 1| 
-| 数世咨询 | dwconcn | 国际视野看工控靶场的融合与创新——赛宁网安总经理谢峥产品发布会主题报告分享 | https://mp.weixin.qq.com/s/PToOOhcCKe6bjQvrdYBXYg | 1| 
+| 数世咨询 | dwconcn | 国际视野看工控靶场的融合与创新——赛宁网安总经理谢峥产品发布会主题报告分享 | https://mp.weixin.qq.com/s/PToOOhcCKe6bjQvrdYBXYg | 2| 
 | 看雪学院 | ikanxue | 符号执行Symcc与模糊测试AFL结合实践 | https://mp.weixin.qq.com/s/_qj40FMl7UwDswJ89z5uiA | 5| 
 | 360威胁情报中心 | CoreSec360 | Kimsuky组织网络攻击活动追溯分析报告 | https://mp.weixin.qq.com/s/pkCK1ryXvGWFuoHQk9Rahg | 2| 
 | 安全牛 | aqniu-wx | 中国网络安全行业全景图（2021年3月第八版）发布 | https://mp.weixin.qq.com/s/Z3rIpxl9ZOVuZzTABAojvg | 2| 
@@ -43,7 +47,6 @@
 | 奇安信 CERT | gh_64040028303e | Apache Solr 组件安全概览 | https://mp.weixin.qq.com/s/3WuWUGO61gM0dBpwqTfenQ | 2| 
 | 安全学术圈 | secquan | All Your DNS Records Point to Us | https://mp.weixin.qq.com/s/7-4QBjp_TAX74bWidegXHA | 8| 
 | 微步在线研究响应中心 | gh_c108d4d389bf | 专题报告 , 流行窃密类木马分析（下） | https://mp.weixin.qq.com/s/R4sOXCP-_T3NGN5d7Ybl6Q | 4| 
-| 绿盟科技研究通讯 | nsfocus_research | 知识图谱技术如何赋能智能安全运营 | https://mp.weixin.qq.com/s/qOuvPv8cm1S-jA-gqH1hZg | 3| 
 | 腾讯技术 | gh_6866e1848f15 | 如何在技术领域产生自己的影响力 | https://mp.weixin.qq.com/s/Himw3mpv7fDy96bdJQA5xg | 1| 
 | debugeeker | gh_ed0f7fa0bfe0 | 最后防线：osquery功能与实现 | https://mp.weixin.qq.com/s/PvnLnn1gDcl_X4fyocyPrA | 1| 
 | 360Quake空间测绘 | Quake360 | 网络测绘 , 立体呈现网络事件细节知多少？ | https://mp.weixin.qq.com/s/LwWMfOMqSgArtv9jlfaPRw | 2| 
@@ -61,7 +64,6 @@
 | 赛博回忆录 | cybermemory | 大白话解释拟态安全，再不学就落伍了！ | https://mp.weixin.qq.com/s/UR0XbF02JJmo7RbNF1CYVw | 1| 
 | 白日放歌须纵9 | Day_Dreamer_BR | 从“产品模式”到“运营模式” | https://mp.weixin.qq.com/s/mIbwVj3oVEnippj5YGkNTA | 1| 
 | 网络安全观 | SecurityInsights | 美国国家安全局发布零信任安全模型指南 | https://mp.weixin.qq.com/s/UsClBKw4Fglcn8ludJtRKQ | 1| 
-| 网安思考 | gh_e53abd003964 | 美军网络空间作战理论体系初探 | https://mp.weixin.qq.com/s/Im-bacvc_1GGvLPtRspicw | 1| 
 | 虎符智库 | TT_Thinktank | 深度剖析：美国网络空间攻击特点与模式 | https://mp.weixin.qq.com/s/gbyWEB6IbANJ-B2eRboYHg | 2| 
 | 安全研究GoSSIP | GoSSIPSJTU | NDSS 2021 参会小记—2月22日论文报告 | https://mp.weixin.qq.com/s/LI49ioKYMksguQMqKH1Rcw | 1| 
 | 张三丰的疯言疯语 | zsfnotes | 漏洞管理的“新药” | https://mp.weixin.qq.com/s/5Y-3r1KuJgCbNrWUGoKq0w | 1| 
@@ -76,7 +78,6 @@
 | FreeBuf | freebuf | 邮件钓鱼入门到入土 | https://mp.weixin.qq.com/s/hhBs3wryDCum1DrD6CxeRw | 2| 
 | 国家网络威胁情报共享开放平台 | CNTIC2017 | 2020年勒索软件分析 | https://mp.weixin.qq.com/s/yrtU2_VxEt94DWF4eQWujA | 1| 
 | 鸟哥谈云安全 | cnbirdsecintel | 云安全架构连载之二-Azure云平台威胁检测详解 | https://mp.weixin.qq.com/s/Dffk-_TSCaR2SWVAIMCQUA | 2| 
-| 锦行信息安全 | jeeseensec | 技术分享 , 锦行杯比赛 Writeup | https://mp.weixin.qq.com/s/mYCDsbERsgph5zu-4-lyKQ | 1| 
 | 百度安全实验室 | BaiduX_lab | 基于DTLS协议的反射攻击深度分析 | https://mp.weixin.qq.com/s/Ye_AuMDLQotv3M5rv9OmOA | 1| 
 | 网络空间安全军民融合创新中心 | jmrh1226 | 2020年全球国防网络空间情况综述（武器技术篇-上） | https://mp.weixin.qq.com/s/piWwrlXZTcgN0Tsr2MiLew | 2| 
 | 潇湘信安 | xxxasec | 记一次理财杀猪盘渗透测试案例 | https://mp.weixin.qq.com/s/utqGvCTEFS3hQ_GttWHVNw | 5| 
@@ -229,6 +230,7 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| CVE-2016-0165 Win32k漏洞分析笔记 | https://xz.aliyun.com/t/9348| 
 | 一些webshell免杀的技巧 | https://xz.aliyun.com/t/9290| 
 | 蓝队溯源与反制 | https://xz.aliyun.com/t/9316| 
 | 记一次跌宕起伏的白盒审计到RCE | https://xz.aliyun.com/t/9319| 
