@@ -1,0 +1,17 @@
+20210329	Web安全	https://www.sec-in.com/article/960	病毒分析之伪装eset升级程序	sec-in.com	www.sec-in.com	/article/960
+20210329	Web安全	https://mp.weixin.qq.com/s/8boR_ZucLk5nMJwfi2UdGA	基于关键词的大型红蓝对抗经验分享	qq.com	mp.weixin.qq.com	/s/8boR_ZucLk5nMJwfi2UdGA
+20210329	Web安全	https://www.sec-in.com/article/989	驱动病毒那些事(一)----基础	sec-in.com	www.sec-in.com	/article/989
+20210329	编程技术	https://mp.weixin.qq.com/s/iSHmK4Fbl0whDvIH-u8tag	基于污点调用链的代码审计开源工具	qq.com	mp.weixin.qq.com	/s/iSHmK4Fbl0whDvIH-u8tag
+20210329	杂志	https://www.sec-wiki.com/weekly/369	SecWiki周刊（第369期)	sec-wiki.com	www.sec-wiki.com	/weekly/369
+20210329	Web安全	https://www.sec-in.com/article/992	驱动病毒那些事(二)----回调	sec-in.com	www.sec-in.com	/article/992
+20210329	Web安全	https://www.sec-in.com/article/994	驱动病毒那些事(三)----APC注入	sec-in.com	www.sec-in.com	/article/994
+20210329	漏洞分析	https://mp.weixin.qq.com/s/_qj40FMl7UwDswJ89z5uiA	符号执行Symcc与模糊测试AFL结合实践	qq.com	mp.weixin.qq.com	/s/_qj40FMl7UwDswJ89z5uiA
+20210329	Web安全	https://mp.weixin.qq.com/s/VO2dHNVbPcpZQtnBRMNNag	Git-RCE：CVE-2021-21300	qq.com	mp.weixin.qq.com	/s/VO2dHNVbPcpZQtnBRMNNag
+20210329	观点	https://mp.weixin.qq.com/s/PToOOhcCKe6bjQvrdYBXYg	国际视野看工控靶场的融合与创新	qq.com	mp.weixin.qq.com	/s/PToOOhcCKe6bjQvrdYBXYg
+20210329	恶意分析	https://mp.weixin.qq.com/s/jDQhFNEeIMT_cdjHkggYjw	鸠占鹊巢: Furucombo 攻击事件分析	qq.com	mp.weixin.qq.com	/s/jDQhFNEeIMT_cdjHkggYjw
+20210329	无线安全	https://mp.weixin.qq.com/s/te4igYM_PHbf2xedXdmQxw	国内伪基站垃圾短信生态系统研究	qq.com	mp.weixin.qq.com	/s/te4igYM_PHbf2xedXdmQxw
+20210329	恶意分析	https://mp.weixin.qq.com/s/GlWqTWQzBfoXt8J8uJAPRQ	DGA域名检测的工程实践	qq.com	mp.weixin.qq.com	/s/GlWqTWQzBfoXt8J8uJAPRQ
+20210329	观点	https://mp.weixin.qq.com/s/p3LwmZq7nrGOy5qy7p9SDQ	网络空间资产测绘(CAM)能力指南	qq.com	mp.weixin.qq.com	/s/p3LwmZq7nrGOy5qy7p9SDQ
+20210329	漏洞分析	https://xz.aliyun.com/t/9348	CVE-2016-0165 Win32k漏洞分析笔记	aliyun.com	xz.aliyun.com	/t/9348
+20210329	观点	https://mp.weixin.qq.com/s/D8T6ImssRi8sjDqD4_bGpg	对美军新近发展作战理念的梳理与思考	qq.com	mp.weixin.qq.com	/s/D8T6ImssRi8sjDqD4_bGpg
+20210329	观点	https://mp.weixin.qq.com/s/U8E4JxMDeL5IeVGAh9fuiQ	安全是一门语言的艺术：威胁调查分析语言概述	qq.com	mp.weixin.qq.com	/s/U8E4JxMDeL5IeVGAh9fuiQ
