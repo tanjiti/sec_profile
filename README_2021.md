@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| NEO攻防队 | NEO_TEAM | 某VPN客户端远程下载文件执行挖掘（已修复） | https://mp.weixin.qq.com/s/XbsxziIFKx8VhGd-pv0Ghg | 1| 
 | 互联网安全内参 | anquanneican | 深度剖析：俄罗斯网络空间攻击特点与模式 | https://mp.weixin.qq.com/s/oMy1EDOYPT82ec5QEdiIVA | 2| 
 | 威胁棱镜 | THREAT_PRISM | Dragos：2020 年全球工控网络安全状况不容乐观 | https://mp.weixin.qq.com/s/ceASNJrgKkqgzlCnxNps7Q | 10| 
 | 学蚁致用 | sudo_i | 【As-Exploits】你不能错过的antSword插件 | https://mp.weixin.qq.com/s/8G0il9gIkubI1w15gOBX6A | 2| 
@@ -21,13 +22,13 @@
 | 穿过丛林 | gh_f90eac70537b | 硬件安全技术研究 | https://mp.weixin.qq.com/s/YuYmMryfgFi0XqD96WelHg | 2| 
 | 锦行信息安全 | jeeseensec | 技术分享 , Git-RCE：CVE-2021-21300 | https://mp.weixin.qq.com/s/VO2dHNVbPcpZQtnBRMNNag | 2| 
 | 哔哩哔哩安全应急响应中心 | gh_951c3555f599 | DGA域名检测的工程实践 | https://mp.weixin.qq.com/s/GlWqTWQzBfoXt8J8uJAPRQ | 1| 
+| 数世咨询 | dwconcn | 数世咨询：网络空间资产测绘(CAM)能力指南 | https://mp.weixin.qq.com/s/p3LwmZq7nrGOy5qy7p9SDQ | 2| 
 | 绿盟科技研究通讯 | nsfocus_research | 安全是一门语言的艺术：威胁调查分析语言概述 | https://mp.weixin.qq.com/s/U8E4JxMDeL5IeVGAh9fuiQ | 4| 
 | 网安思考 | gh_e53abd003964 | 对美军新近发展作战理念的梳理与思考 | https://mp.weixin.qq.com/s/D8T6ImssRi8sjDqD4_bGpg | 2| 
 | NISL实验室 | NISL_THU2020 | 【研究成果】国内伪基站垃圾短信生态系统研究 | https://mp.weixin.qq.com/s/te4igYM_PHbf2xedXdmQxw | 1| 
 | BlockSec Team | gh_57d94ebc8526 | 鸠占鹊巢: Furucombo 攻击事件分析 | https://mp.weixin.qq.com/s/jDQhFNEeIMT_cdjHkggYjw | 2| 
 | 君哥的体历 | jungedetili | 邬晓磊：基于关键词的大型红蓝对抗经验分享 | https://mp.weixin.qq.com/s/8boR_ZucLk5nMJwfi2UdGA | 1| 
 | 火线安全平台 | huoxian_cn | 洞态IAST Agent正式开源 | https://mp.weixin.qq.com/s/iSHmK4Fbl0whDvIH-u8tag | 1| 
-| 数世咨询 | dwconcn | 国际视野看工控靶场的融合与创新——赛宁网安总经理谢峥产品发布会主题报告分享 | https://mp.weixin.qq.com/s/PToOOhcCKe6bjQvrdYBXYg | 2| 
 | 360威胁情报中心 | CoreSec360 | Kimsuky组织网络攻击活动追溯分析报告 | https://mp.weixin.qq.com/s/pkCK1ryXvGWFuoHQk9Rahg | 2| 
 | 看雪学院 | ikanxue | 符号执行Symcc与模糊测试AFL结合实践 | https://mp.weixin.qq.com/s/_qj40FMl7UwDswJ89z5uiA | 5| 
 | 安全牛 | aqniu-wx | 中国网络安全行业全景图（2021年3月第八版）发布 | https://mp.weixin.qq.com/s/Z3rIpxl9ZOVuZzTABAojvg | 2| 
@@ -176,6 +177,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Justin Warner：Using Kaitai to Parse Cobalt Strike Beacon Configs | http://sixdub.medium.com/using-kaitai-to-parse-cobalt-strike-beacon-configs-f5f0552d5a6e| 
 | AFINE：总结当前的 Java 反序列化的测试和利用方法。 | http://afinepl.medium.com/testing-and-exploiting-java-deserialization-in-2021-e762f3e43ca2| 
 | Mikko Kenttälä：macOS Mail 的一个无交互的漏洞。由于符号连接未正确删除，通过自动解压附件，可以实现在 Mail.app 的沙箱环境中添加或修改任意文件。 | http://mikko-kenttala.medium.com/zero-click-vulnerability-in-apples-macos-mail-59e0c14b106c| 
 | 挑战破解RSA加密算法。 | http://medium.com/asecuritysite-when-bob-met-alice/cracking-rsa-a-challenge-generator-2b64c4edb3e7| 

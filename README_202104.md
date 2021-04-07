@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| NEO攻防队 | NEO_TEAM | 某VPN客户端远程下载文件执行挖掘（已修复） | https://mp.weixin.qq.com/s/XbsxziIFKx8VhGd-pv0Ghg | 1| 
 | 互联网安全内参 | anquanneican | 深度剖析：俄罗斯网络空间攻击特点与模式 | https://mp.weixin.qq.com/s/oMy1EDOYPT82ec5QEdiIVA | 1| 
 | 威胁棱镜 | THREAT_PRISM | Dragos：2020 年全球工控网络安全状况不容乐观 | https://mp.weixin.qq.com/s/ceASNJrgKkqgzlCnxNps7Q | 1| 
 | 学蚁致用 | sudo_i | 【As-Exploits】你不能错过的antSword插件 | https://mp.weixin.qq.com/s/8G0il9gIkubI1w15gOBX6A | 1| 
@@ -44,6 +45,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Justin Warner：Using Kaitai to Parse Cobalt Strike Beacon Configs | http://sixdub.medium.com/using-kaitai-to-parse-cobalt-strike-beacon-configs-f5f0552d5a6e| 
 | AFINE：总结当前的 Java 反序列化的测试和利用方法。 | http://afinepl.medium.com/testing-and-exploiting-java-deserialization-in-2021-e762f3e43ca2| 
 | Mikko Kenttälä：macOS Mail 的一个无交互的漏洞。由于符号连接未正确删除，通过自动解压附件，可以实现在 Mail.app 的沙箱环境中添加或修改任意文件。 | http://mikko-kenttala.medium.com/zero-click-vulnerability-in-apples-macos-mail-59e0c14b106c| 
 
