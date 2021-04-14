@@ -1,5 +1,6 @@
-Python	1
-C#	1
 C	1
 Vue	1
+Python	1
+C#	1
+Go	1
 PowerShell	1

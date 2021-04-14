@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 国家网络威胁情报共享开放平台 | CNTIC2017 | 基于TTPs的自动化威胁主体追踪技术 | https://mp.weixin.qq.com/s/VMOEL7jIQZPZwdCtXo0e3Q | 7| 
 | 百度安全应急响应中心 | baidu_sec | 干货分享｜从BCTF人机对抗视角浅谈自动化攻防技术发展 | https://mp.weixin.qq.com/s/5wR37FLoTPn3fftxZw_Brw | 5| 
 | 安全学术圈 | secquan | 安全学术圈2020年度总结 | https://mp.weixin.qq.com/s/Tn_nNer_xdDbWmComqV8uw | 63| 
 | RedTeam | RedTeams | 浅析 AWS S3 子域名接管漏洞 | https://mp.weixin.qq.com/s/q3bsrCKacuepKoFljYxJcg | 1| 
@@ -88,7 +89,6 @@
 | 思想花火 | ttfirework | 做信息安全BP的一些感悟 | https://mp.weixin.qq.com/s/qygwMIGX3PhbnKuPwQqfUQ | 1| 
 | 网络安全应急技术国家工程实验室 | NELCERT | FreakOut分析报告 | https://mp.weixin.qq.com/s/jQ6npq2C8PprnDQMXTtP0g | 1| 
 | FreeBuf | freebuf | 邮件钓鱼入门到入土 | https://mp.weixin.qq.com/s/hhBs3wryDCum1DrD6CxeRw | 26| 
-| 国家网络威胁情报共享开放平台 | CNTIC2017 | 2020年勒索软件分析 | https://mp.weixin.qq.com/s/yrtU2_VxEt94DWF4eQWujA | 6| 
 | 鸟哥谈云安全 | cnbirdsecintel | 云安全架构连载之二-Azure云平台威胁检测详解 | https://mp.weixin.qq.com/s/Dffk-_TSCaR2SWVAIMCQUA | 2| 
 | 百度安全实验室 | BaiduX_lab | 基于DTLS协议的反射攻击深度分析 | https://mp.weixin.qq.com/s/Ye_AuMDLQotv3M5rv9OmOA | 9| 
 | 网络空间安全军民融合创新中心 | jmrh1226 | 2020年全球国防网络空间情况综述（武器技术篇-上） | https://mp.weixin.qq.com/s/piWwrlXZTcgN0Tsr2MiLew | 6| 
@@ -2871,7 +2871,6 @@
 | abazhaniuk | 给手机的一颗蓝色药丸,来自 BlackHat 会议的一篇,关于 ARM TrustZone 和 Hypervisor 的逆向和攻击: | https://github.com/abazhaniuk/Publications/blob/master/2017/BlackHat_USA_2017/us-17-Bazhaniuk-Bulygin-BluePill-for-Your-Phone.pdf | None | Independent Security Researcher | None | None | 61 | 0 | 4 | 41 | 1 | Python,Shell,Java,C++ | 60 | 8 | 1| 
 | brunofacca | zen-rails-security-checklist: Ruby 程序基线检查列表 | https://github.com/brunofacca/zen-rails-security-checklist | https://github.com/toptal | Backend Developer (Ruby on Rails) at @toptal. | Brazil | @toptal | 6 | 0 | 82 | 41 | 55 | Ruby | 0 | 0 | 1| 
 | davrodpin | mole - 建立基于 SSH 进行端口转发的命令行工具: | https://github.com/davrodpin/mole | http://davrodpin.github.io |  | None | Hewlett Packard Enterprise | 15 | 0 | 5 | 41 | 5 | Go,Ruby | 0 | 0 | 1| 
-| dsopas | rfd-checker - 反射型文件下载漏洞检测工具: | https://github.com/dsopas/rfd-checker | https://www.davidsopas.com | /me hacks! the webz | Portugal | Char49 | 10 | 0 | 34 | 41 | 1 | Go,Python | 299 | 36 | 2| 
 | leveryd | vulndocker: 漏洞靶场平台 | https://github.com/leveryd/vulndocker | None |  | None | None | 50 | 0 | 600 | 41 | 41 | Python,Visual,JavaScript,CSS | 41 | 14 | 1| 
 | mkellerman | 一款用于替代 PsExec 远程执行命令的 PowerShell 模块 Invoke-CommandAs 介绍: https://mkellerman.github.io/Death_to_psexec/ GitHub: | https://github.com/mkellerman/Invoke-CommandAs | https://mkellerman.github.io/ | DevOps, CI/CD Automation, Windows Automation, PowerShell MacGyver. | Victoria, BC | None | 13 | 0 | 8 | 41 | 8 | PowerShell | 0 | 0 | 1| 
 | phage-nz | ph0neutria - 恶意软件样本采集工具: | https://github.com/phage-nz/ph0neutria | https://phage.nz | Security Architect / Amateur Malware Hunter | New Zealand | None | 11 | 0 | 65 | 41 | 0 | Python,C#,PowerShell | 0 | 0 | 1| 
@@ -3869,6 +3868,7 @@
 | dn5 | Cyber-attack on cars over CAN protocol : http://dn5.ljuska.org/cyber-attacks-on-vehicles-2.html ,vircar : | https://github.com/dn5/vircar | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | docileninja | dress : add symbols back into a stripped ELF binary (~strip) : | https://github.com/docileninja/dress | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | doyensec | Electron.js Hacking 相关的资料收集整理 | https://github.com/doyensec/awesome-electronjs-hacking | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,JavaScript,Java,C++ | 0 | 0 | 1| 
+| dsopas | MindAPI: Bringing order to API hacking chaos | https://github.com/dsopas/MindAPI | https://www.davidsopas.com | /me hacks! the webz | Portugal | Char49 | 14 | 0 | 0 | 0 | 0 | Go | 0 | 0 | 3| 
 | duffelhq | Elixir Ecto Paginator 刚刚修复了一个 RCE 漏洞 | https://github.com/duffelhq/paginator/security/advisories/GHSA-w98m-2xqg-9cvj | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Python,JavaScript,HTML,Elixir,Go,Erlang | 0 | 0 | 1| 
 | dushixiang | Next Terminal:由Golang与React语言开发的一款HTML5的远程桌面网关终端项目，支持RDP、SSH、VNC和Telnet协议的连接和管理。 | https://github.com/dushixiang/next-terminal | https://www.typesafe.cn |  | beijing | None | 3 | 0 | 0 | 0 | 0 | Go,JavaScript | 490 | 43 | 1| 
 | dwisiswant0 | apkleaks: Scanning APK file for URIs, endpoints & secrets | https://github.com/dwisiswant0/apkleaks | https://github.com/kitabisa | /lost+found | Indonesia | @kitabisa | 257 | 0 | 0 | 0 | 0 | Go,Python,Shell | 908 | 124 | 3| 
@@ -3920,7 +3920,7 @@
 | idapython | IDA Pro IDAPython 项目的源代码 | https://github.com/idapython/src | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | ihebski | 各类 IoT 设备/Web 组件的默认密码收集 | https://github.com/ihebski/DefaultCreds-cheat-sheet | None | Security Operations Engineer (⌐■_■) , Pentester , Bughunter | Error: Unable to resolve | None | 57 | 0 | 0 | 0 | 0 | Python,HTML,Jupyter | 343 | 91 | 1| 
 | immunityinc | Immunity 开源了一个用于进程调试和 Trace 的库 - libptrace | https://github.com/immunityinc/libptrace | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 0 | 0 | 1| 
-| inbug-team | InScan: 边界打点后的自动化渗透工具 | https://github.com/inbug-team/InScan/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| inbug-team | InScan: 边界打点后的自动化渗透工具 | https://github.com/inbug-team/InScan/ | None |  | None | None | 1 | 0 | 0 | 0 | 0 | Go | 0 | 0 | 1| 
 | infoassure | Python script to speed up analysis of newer MS office docs. Uses officedissector library, dumps macros | https://github.com/infoassure/officefileinfo | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | inory009 | CTF-Web-Challenges:历届 CTF开源的Web 题源码 | https://github.com/inory009/CTF-Web-Challenges | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | insightglacier | 渗透测试的一些字典收集 | https://github.com/insightglacier/Dictionary-Of-Pentesting | https://bacde.me | 劈柴喂马周游世界 | Beijing | Tiger Team | 90 | 0 | 0 | 0 | 0 | Python,Go,PHP,C++ | 173 | 70 | 3| 
@@ -4472,6 +4472,7 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 主流WebShell工具流量层分析 | https://xz.aliyun.com/t/9404| 
 | 记一次完整的内网渗透经历 | https://xz.aliyun.com/t/9374| 
 | ELK在渗透测试中的利用与安全配置解析 | https://xz.aliyun.com/t/9370| 
 | 内网渗透--对不出网目标的打法 | https://xz.aliyun.com/t/9372| 
