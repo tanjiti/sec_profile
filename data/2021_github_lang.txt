@@ -1,4 +1,4 @@
-Python	26
+Python	27
 C	19
 Java	11
 Go	11
@@ -20,6 +20,7 @@ Objective-C++	1
 Perl	1
 Verilog	1
 Rich	1
+SCSS	1
 Dart	1
 CSS	1
 Elixir	1

@@ -1,4 +1,4 @@
-Python	1073
+Python	1074
 C	671
 JavaScript	667
 C++	542
@@ -97,6 +97,7 @@ Terra	2
 Boo	2
 Prolog	2
 Yacc	2
+SCSS	2
 Mathematica	2
 Scheme	2
 Nim	2
@@ -132,7 +133,6 @@ SMT	1
 IDL	1
 Pure	1
 REXX	1
-SCSS	1
 BlitzBasic	1
 Mask	1
 Propeller	1
