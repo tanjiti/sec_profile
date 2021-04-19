@@ -1,0 +1,26 @@
+20210412	Web安全	https://github.com/inbug-team/InScan/	InScan: 边界打点后的自动化渗透工具	github.com	github.com	/inbug-team/InScan/
+20210412	Web安全	https://www.sec-in.com/article/1012	微信小程序反编译	sec-in.com	www.sec-in.com	/article/1012
+20210412	Web安全	https://misakikata.github.io/2021/04/CobaltStrike%E4%B8%8A%E7%BA%BFChrome-0day/	CobaltStrike上线Chrome 0day	github.io	misakikata.github.io	/2021/04/CobaltStrike%E4%B8%8A%E7%BA%BFChrome-0day/
+20210412	恶意分析	https://xz.aliyun.com/t/9404	主流WebShell工具流量层分析	aliyun.com	xz.aliyun.com	/t/9404
+20210412	论文	https://mp.weixin.qq.com/s/Tn_nNer_xdDbWmComqV8uw	安全学术圈2020年度总结	qq.com	mp.weixin.qq.com	/s/Tn_nNer_xdDbWmComqV8uw
+20210412	恶意分析	https://mp.weixin.qq.com/s/VMOEL7jIQZPZwdCtXo0e3Q	基于TTPs的自动化威胁主体追踪技术	qq.com	mp.weixin.qq.com	/s/VMOEL7jIQZPZwdCtXo0e3Q
+20210412	Web安全	https://mp.weixin.qq.com/s/Wh-A3qiyrjPv0KzYeAS-Xw	“域前置Cobalt Strike”之踩坑	qq.com	mp.weixin.qq.com	/s/Wh-A3qiyrjPv0KzYeAS-Xw
+20210412	观点	https://mp.weixin.qq.com/s/gVTyhwgxC-UUxhB4YdXKeg	网络空间测绘：IP洞察	qq.com	mp.weixin.qq.com	/s/gVTyhwgxC-UUxhB4YdXKeg
+20210412	Web安全	https://mp.weixin.qq.com/s/p74WQwOfkSSZlsuRDke8jw	Java执行shellcode的几种方法	qq.com	mp.weixin.qq.com	/s/p74WQwOfkSSZlsuRDke8jw
+20210412	Web安全	https://www.sec-in.com/article/1009	HackMyVM：CROSSROADS:1	sec-in.com	www.sec-in.com	/article/1009
+20210412	漏洞分析	https://landgrey.me/blog/22/	Spring Boot Fat Jar 写文件漏洞到稳定 RCE 的探索	landgrey.me	landgrey.me	/blog/22/
+20210412	漏洞分析	https://mp.weixin.qq.com/s/5wR37FLoTPn3fftxZw_Brw	从BCTF人机对抗视角浅谈自动化攻防技术发展	qq.com	mp.weixin.qq.com	/s/5wR37FLoTPn3fftxZw_Brw
+20210412	Web安全	https://mp.weixin.qq.com/s/Q2eFRQQCEVf4bf_jNsWX2g	哥斯拉插件开发指南——初入茅庐	qq.com	mp.weixin.qq.com	/s/Q2eFRQQCEVf4bf_jNsWX2g
+20210412	漏洞分析	https://www.anquanke.com/post/id/235505	SmartyPHP沙箱逃逸分析	anquanke.com	www.anquanke.com	/post/id/235505
+20210412	杂志	https://www.sec-wiki.com/weekly/371	SecWiki周刊（第371期)	sec-wiki.com	www.sec-wiki.com	/weekly/371
+20210412	Web安全	https://github.com/dsopas/MindAPI	MindAPI: Bringing order to API hacking chaos	github.com	github.com	/dsopas/MindAPI
+20210412	漏洞分析	http://noahblog.360.cn/chromium_v8_remote_code_execution_vulnerability_analysis/	Chromium V8 JavaScript引擎远程代码执行漏洞分析讨论	360.cn	noahblog.360.cn	/chromium_v8_remote_code_execution_vulnerability_analysis/
+20210412	观点	https://mp.weixin.qq.com/s/z7Uq5vYotZBNk1yqJqAHxw	英国网络作战力量浅析	qq.com	mp.weixin.qq.com	/s/z7Uq5vYotZBNk1yqJqAHxw
+20210412	Web安全	https://mp.weixin.qq.com/s/RlY5HL_ak4G8EdcXyevWDg	深入 .NET ViewState 反序列化及其利用	qq.com	mp.weixin.qq.com	/s/RlY5HL_ak4G8EdcXyevWDg
+20210412	Web安全	http://rui0.cn/archives/1643	Spring Boot中关于%2e的Trick	rui0.cn	rui0.cn	/archives/1643
+20210412	Web安全	https://www.sec-in.com/article/1021	Driftingblues5靶机实战	sec-in.com	www.sec-in.com	/article/1021
+20210412	漏洞分析	https://lorexxar.cn/2021/04/16/chrome-webdriver-attack/	反制Webdriver - 从Bot到RCE进发	lorexxar.cn	lorexxar.cn	/2021/04/16/chrome-webdriver-attack/
+20210412	运维安全	https://mp.weixin.qq.com/s/6zLrq-jfkaQWBdeNO2RaYQ	三款开源HIDS功能对比评估	qq.com	mp.weixin.qq.com	/s/6zLrq-jfkaQWBdeNO2RaYQ
+20210412	运维安全	https://iami.xyz/Security-Architecture-Review/	什么是安全架构	iami.xyz	iami.xyz	/Security-Architecture-Review/
+20210412	运维安全	https://iami.xyz/Security-Architecture-Review-II/	什么是安全架构《二》	iami.xyz	iami.xyz	/Security-Architecture-Review-II/
+20210412	运维安全	https://iami.xyz/Security-Architecture-Review-III/	什么是安全架构《三》	iami.xyz	iami.xyz	/Security-Architecture-Review-III/
