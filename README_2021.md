@@ -14,6 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| GuyoungStudio | guyoungnet | 可扩展跨平台网络安全工具套件 CaptfEncoder v2.0.0 发布 | https://mp.weixin.qq.com/s?__biz=MzI0ODU5Mzg0NA==&mid=2247483998&idx=1&sn=baaa69c5576a1e52b7d8aeb9482e1cf3&chksm=e99f2e85dee8a79304a5535dbf6c77e9f9def6b2a7438c73e28792ac5ea3c628a02204d116e6&token=1448493475&lang=zh_CN#rd | 1| 
+| 威胁棱镜 | THREAT_PRISM | 恶意软件在沙盒中应该执行多长时间？ | https://mp.weixin.qq.com/s/z1MS0Df89NhSeAU9IxF5nw | 11| 
 | 白帽子飙车路 | hack-by-txf | Cobalt Strike 利用 Chrome 0day 上线 | https://mp.weixin.qq.com/s/LOpAu8vs8ob85W3sCmXMew | 1| 
 | ChaMd5安全团队 | chamd5sec | 安全招聘汇总 , 第十三期 | https://mp.weixin.qq.com/s/I6F0GP_lPcdc2Zh8hc_T4w | 15| 
 | debugeeker | gh_ed0f7fa0bfe0 | 最后防线：三款开源HIDS功能对比评估 | https://mp.weixin.qq.com/s/6zLrq-jfkaQWBdeNO2RaYQ | 2| 
@@ -21,8 +23,8 @@
 | 宽字节安全 | gh_2de2b9f7d076 | java执行shellcode的几种方法 | https://mp.weixin.qq.com/s/p74WQwOfkSSZlsuRDke8jw | 2| 
 | 郑海山dump | zhsdump | 网络空间测绘：IP洞察 | https://mp.weixin.qq.com/s/gVTyhwgxC-UUxhB4YdXKeg | 1| 
 | 国家网络威胁情报共享开放平台 | CNTIC2017 | 基于TTPs的自动化威胁主体追踪技术 | https://mp.weixin.qq.com/s/VMOEL7jIQZPZwdCtXo0e3Q | 2| 
-| 百度安全应急响应中心 | baidu_sec | 干货分享｜从BCTF人机对抗视角浅谈自动化攻防技术发展 | https://mp.weixin.qq.com/s/5wR37FLoTPn3fftxZw_Brw | 1| 
 | 安全学术圈 | secquan | 安全学术圈2020年度总结 | https://mp.weixin.qq.com/s/Tn_nNer_xdDbWmComqV8uw | 10| 
+| 百度安全应急响应中心 | baidu_sec | 干货分享｜从BCTF人机对抗视角浅谈自动化攻防技术发展 | https://mp.weixin.qq.com/s/5wR37FLoTPn3fftxZw_Brw | 1| 
 | RedTeam | RedTeams | 浅析 AWS S3 子域名接管漏洞 | https://mp.weixin.qq.com/s/q3bsrCKacuepKoFljYxJcg | 1| 
 | 信安之路 | xazlsec | 红队攻击前隐匿流量的基本方法 | https://mp.weixin.qq.com/s/eoui4xAuUF5X2H3jWq43tQ | 1| 
 | 娜璋AI安全之家 | gh_91f1fe28fc6e | [AI安全论文] 04.NLP知识简单总结及NLP论文撰写之道——Pvop老师 | https://mp.weixin.qq.com/s/Ioov6PCm8o6cRq0W9sykQw | 2| 
@@ -34,7 +36,6 @@
 | 非尝咸鱼贩 | awkwardfish1 | IDA Pro 分析 dyld_shared_cache | https://mp.weixin.qq.com/s/PGC7LKu-oC5ZaRxLFrhTsg | 1| 
 | NEO攻防队 | NEO_TEAM | 某VPN客户端远程下载文件执行挖掘（已修复） | https://mp.weixin.qq.com/s/XbsxziIFKx8VhGd-pv0Ghg | 1| 
 | 互联网安全内参 | anquanneican | 深度剖析：俄罗斯网络空间攻击特点与模式 | https://mp.weixin.qq.com/s/oMy1EDOYPT82ec5QEdiIVA | 2| 
-| 威胁棱镜 | THREAT_PRISM | Dragos：2020 年全球工控网络安全状况不容乐观 | https://mp.weixin.qq.com/s/ceASNJrgKkqgzlCnxNps7Q | 10| 
 | 学蚁致用 | sudo_i | 【As-Exploits】你不能错过的antSword插件 | https://mp.weixin.qq.com/s/8G0il9gIkubI1w15gOBX6A | 2| 
 | 穿过丛林 | gh_f90eac70537b | 硬件安全技术研究 | https://mp.weixin.qq.com/s/YuYmMryfgFi0XqD96WelHg | 2| 
 | 锦行信息安全 | jeeseensec | 技术分享 , Git-RCE：CVE-2021-21300 | https://mp.weixin.qq.com/s/VO2dHNVbPcpZQtnBRMNNag | 2| 
@@ -251,6 +252,8 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| Java反序列化 — URLDNS利用链分析 | https://xz.aliyun.com/t/9417| 
+| Yii2反序列化RCE 新POP链 | https://xz.aliyun.com/t/9420| 
 | 主流WebShell工具流量层分析 | https://xz.aliyun.com/t/9404| 
 | 记一次完整的内网渗透经历 | https://xz.aliyun.com/t/9374| 
 | ELK在渗透测试中的利用与安全配置解析 | https://xz.aliyun.com/t/9370| 
