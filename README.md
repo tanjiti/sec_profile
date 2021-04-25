@@ -14,7 +14,12 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
-| 一个人的安全笔记 | xjiek2015 | [HTB] Legacy Writeup | https://mp.weixin.qq.com/s/C9f0T6NaApLpZg6vcuw7xg | 10| 
+| 汽车电子与软件 | aestech | 基于数据分析特斯拉事故原因 | https://mp.weixin.qq.com/s/_72ibt7GzNRDhV_SEKU_9g | 1| 
+| 我的安全视界观 | CANI_Security | 浅谈安全产品的hvv安全之道 | https://mp.weixin.qq.com/s/DvpTpy5C5QTxrqm3zPV2qw | 1| 
+| 安全分析与研究 | MalwareAnalysis | 攻防演练后的一点随记 | https://mp.weixin.qq.com/s/1VuQb0Q0ZYlBmlLCcOPc3Q | 1| 
+| 合规科技研究 | ComplianceTech | 数据安全技术专题——数据分类分级的技术实践指南 | https://mp.weixin.qq.com/s/WknW2_lR4ryBLIgCma30Vw | 1| 
+| 反诈骗先锋 | fanzhapianxf | 关于反诈工作的几个问题及思考 | https://mp.weixin.qq.com/s/ps7GG2rKc5-J8J2Iybhi8Q | 1| 
+| 一个人的安全笔记 | xjiek2015 | [HTB] Grandpa Writeup | https://mp.weixin.qq.com/s/oin5ZGjw_-AY5kwYuUCz1Q | 12| 
 | GuyoungStudio | guyoungnet | 可扩展跨平台网络安全工具套件 CaptfEncoder v2.0.0 发布 | https://mp.weixin.qq.com/s?__biz=MzI0ODU5Mzg0NA==&mid=2247483998&idx=1&sn=baaa69c5576a1e52b7d8aeb9482e1cf3&chksm=e99f2e85dee8a79304a5535dbf6c77e9f9def6b2a7438c73e28792ac5ea3c628a02204d116e6&token=1448493475&lang=zh_CN#rd | 1| 
 | 白帽子飙车路 | hack-by-txf | Cobalt Strike 利用 Chrome 0day 上线 | https://mp.weixin.qq.com/s/LOpAu8vs8ob85W3sCmXMew | 1| 
 | debugeeker | gh_ed0f7fa0bfe0 | 最后防线：三款开源HIDS功能对比评估 | https://mp.weixin.qq.com/s/6zLrq-jfkaQWBdeNO2RaYQ | 1| 
@@ -32,10 +37,10 @@
 | 58安全应急响应中心 | wubasrc | 系列 , 58集团白盒代码审计系统建设实践2：深入理解SAST | https://mp.weixin.qq.com/s/jQfsUg4vhEs3XwTcXkqhyQ | 1| 
 | 非尝咸鱼贩 | awkwardfish1 | IDA Pro 分析 dyld_shared_cache | https://mp.weixin.qq.com/s/PGC7LKu-oC5ZaRxLFrhTsg | 1| 
 | 红数位 | safetop | Pwn2Own 2021全程（附结果和录像视频） | https://mp.weixin.qq.com/s/blwGELCaPKC1HTczBcWkfQ | 1| 
-| 穿过丛林 | gh_f90eac70537b | 硬件安全技术研究 | https://mp.weixin.qq.com/s/YuYmMryfgFi0XqD96WelHg | 1| 
+| 穿过丛林 | gh_f90eac70537b | 硬件安全技术研究 | https://mp.weixin.qq.com/s/YuYmMryfgFi0XqD96WelHg | 2| 
 | 安全学术圈 | secquan | S&P 2021 论文录用列表 | https://mp.weixin.qq.com/s/8GUnjS_T1H7gqSVPInFObg | 2| 
 | 学蚁致用 | sudo_i | 【As-Exploits】你不能错过的antSword插件 | https://mp.weixin.qq.com/s/8G0il9gIkubI1w15gOBX6A | 1| 
-| 娜璋AI安全之家 | gh_91f1fe28fc6e | [AI安全论文] 03.什么是生成对抗网络？GAN的前世今生（Goodfellow） | https://mp.weixin.qq.com/s/CGngRxjVtOKHNsTrXBiD7w | 2| 
+| 娜璋AI安全之家 | gh_91f1fe28fc6e | [AI安全论文] 03.什么是生成对抗网络？GAN的前世今生（Goodfellow） | https://mp.weixin.qq.com/s/CGngRxjVtOKHNsTrXBiD7w | 3| 
 | 威胁棱镜 | THREAT_PRISM | Dragos：2020 年全球工控网络安全状况不容乐观 | https://mp.weixin.qq.com/s/ceASNJrgKkqgzlCnxNps7Q | 2| 
 | 互联网安全内参 | anquanneican | 深度剖析：俄罗斯网络空间攻击特点与模式 | https://mp.weixin.qq.com/s/oMy1EDOYPT82ec5QEdiIVA | 1| 
 | NEO攻防队 | NEO_TEAM | 某VPN客户端远程下载文件执行挖掘（已修复） | https://mp.weixin.qq.com/s/XbsxziIFKx8VhGd-pv0Ghg | 1| 
