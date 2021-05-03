@@ -4,14 +4,14 @@ JavaScript	667
 C++	542
 HTML	485
 Shell	464
-Java	455
+Java	456
 Go	385
 C#	270
 Ruby	262
 PHP	237
 PowerShell	230
 CSS	229
-TypeScript	145
+TypeScript	146
 Objective-C	141
 Rust	115
 Jupyter	102
