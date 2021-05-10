@@ -1,0 +1,48 @@
+20210426	法规	https://mp.weixin.qq.com/s/wcAg8yVVjSpE98H4L942nw	关基运营者应采取反间谍技术安全防范措施	qq.com	mp.weixin.qq.com	/s/wcAg8yVVjSpE98H4L942nw
+20210426	Web安全	https://mp.weixin.qq.com/s/leqSyw_W3WArKZL6MIlZJA	2021护网公布漏洞清单	qq.com	mp.weixin.qq.com	/s/leqSyw_W3WArKZL6MIlZJA
+20210426	Web安全	https://mp.weixin.qq.com/s/Lis8i6kwvDhd_TGYrioc1Q	一些隧道搭建	qq.com	mp.weixin.qq.com	/s/Lis8i6kwvDhd_TGYrioc1Q
+20210426	取证分析	https://mp.weixin.qq.com/s/peIpPJLt4NuJI1a31S_qbQ	通过DNS协议探测Cobalt Strike服务器	qq.com	mp.weixin.qq.com	/s/peIpPJLt4NuJI1a31S_qbQ
+20210426	运维安全	https://paper.seebug.org/1560/	多平台的敏感信息监测工具-GShark	seebug.org	paper.seebug.org	/1560/
+20210426	数据挖掘	https://mp.weixin.qq.com/s/GjsLd4lkxVw0vKUFM6FvjQ	冯登国院士讲隐私保护技术	qq.com	mp.weixin.qq.com	/s/GjsLd4lkxVw0vKUFM6FvjQ
+20210426	Web安全	https://www.anquanke.com/post/id/236174	Empire的基本使用和域渗透	anquanke.com	www.anquanke.com	/post/id/236174
+20210426	恶意分析	https://paper.seebug.org/1562/	由高频护网设备漏洞引发的供应链浅思	seebug.org	paper.seebug.org	/1562/
+20210426	Web安全	https://github.com/FunnyWolf/Viper	Viper: 图形化内网渗透工具	github.com	github.com	/FunnyWolf/Viper
+20210426	观点	https://mp.weixin.qq.com/s/TtV01MA2C6ZJQG5wtFOSBg	做为攻击者那些年的一些想法	qq.com	mp.weixin.qq.com	/s/TtV01MA2C6ZJQG5wtFOSBg
+20210426	其它	https://mp.weixin.qq.com/s/NIEmBd62-iWcP7DSV6aR4w	MITRE ATT&CK 第三轮评估结果发布	qq.com	mp.weixin.qq.com	/s/NIEmBd62-iWcP7DSV6aR4w
+20210426	观点	https://mp.weixin.qq.com/s/fHuci5HptS8Vchm9FVKxig	网络安全创业的这点破事	qq.com	mp.weixin.qq.com	/s/fHuci5HptS8Vchm9FVKxig
+20210426	漏洞分析	https://github.com/Ramos-dev/graph4code	graph4code: 基于图数据库的软件漏洞解析方法	github.com	github.com	/Ramos-dev/graph4code
+20210426	Web安全	https://mp.weixin.qq.com/s/kCqD0ikh9h5xc42sKkESVA	前端安全—你必须要注意的依赖安全漏洞	qq.com	mp.weixin.qq.com	/s/kCqD0ikh9h5xc42sKkESVA
+20210426	Web安全	https://mp.weixin.qq.com/s/UqGA97TLEn5BkzjVDX_EhA	浅谈前端代码加密	qq.com	mp.weixin.qq.com	/s/UqGA97TLEn5BkzjVDX_EhA
+20210426	恶意分析	https://github.com/xing-xiao/Maneo-Detect-Behinder	基于Flink实现实时冰蝎(Behinder)流量检测	github.com	github.com	/xing-xiao/Maneo-Detect-Behinder
+20210426	Web安全	https://www.sec-in.com/article/1029	拿下靶机HacksudoAliens	sec-in.com	www.sec-in.com	/article/1029
+20210426	运维安全	https://0x0d.im/archives/1107.html	企业安全建设 - 软件供应链	0x0d.im	0x0d.im	/archives/1107.html
+20210426	Web安全	https://mp.weixin.qq.com/s/C-nXBRNvLA2-gcJV3W8Opg	前端安全编码规范	qq.com	mp.weixin.qq.com	/s/C-nXBRNvLA2-gcJV3W8Opg
+20210426	漏洞分析	https://www.anquanke.com/post/id/238224	Fuzzingbook学习指南 Lv1	anquanke.com	www.anquanke.com	/post/id/238224
+20210426	比赛	https://www.anquanke.com/post/id/236182	NodeJS从零开始到原型链污染	anquanke.com	www.anquanke.com	/post/id/236182
+20210426	Web安全	https://www.sec-in.com/article/1044	初探二进制分析框架qiling	sec-in.com	www.sec-in.com	/article/1044
+20210426	Web安全	https://github.com/ph4ntonn/Stowaway/blob/master/README.md	Stowaway2.0来了～	github.com	github.com	/ph4ntonn/Stowaway/blob/master/README.md
+20210426	Web安全	https://bacde.me/post/Cyber-Apocalypse-2021-Web-Artillery-WriteUP/	Cyber Apocalypse 2021 Web Artillery WriteUP	bacde.me	bacde.me	/post/Cyber-Apocalypse-2021-Web-Artillery-WriteUP/
+20210426	Web安全	https://mp.weixin.qq.com/s/3mJTvTG7wrY2CaHymvsK8A	[HTB] Nibbles Writeup	qq.com	mp.weixin.qq.com	/s/3mJTvTG7wrY2CaHymvsK8A
+20210426	Web安全	https://github.com/0linlin0/CyberBox	CyberBox: Java Exp FrameWork	github.com	github.com	/0linlin0/CyberBox
+20210426	数据挖掘	https://mp.weixin.qq.com/s/vUS553WX8pFIiWoqhkFNlg	工作中常用的相似度算法以及特征提取算法	qq.com	mp.weixin.qq.com	/s/vUS553WX8pFIiWoqhkFNlg
+20210426	其它	https://mp.weixin.qq.com/s/_nl4X4Kcv4yOQ0c6qz8wlQ	网络武器解构：攻击性网络能力的两大市场空间和五大支柱(上)	qq.com	mp.weixin.qq.com	/s/_nl4X4Kcv4yOQ0c6qz8wlQ
+20210426	漏洞分析	http://m0d9.me/2021/04/21/Apache-Druid-CVE-2021-26919-%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/	Apache Druid CVE-2021-26919 漏洞分析	m0d9.me	m0d9.me	/2021/04/21/Apache-Druid-CVE-2021-26919-%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/
+20210426	运维安全	https://mp.weixin.qq.com/s/xkeNxE99ORtVs9EOv0ellQ	云安全架构连载之三-超大型企业混合云安全架构最佳实践	qq.com	mp.weixin.qq.com	/s/xkeNxE99ORtVs9EOv0ellQ
+20210426	恶意分析	https://www.csis.dk/newsroom-blog-overview/2021/moserpass-supply-chain/	Supply chain attack on the password manager Clickstudios	csis.dk	www.csis.dk	/newsroom-blog-overview/2021/moserpass-supply-chain/
+20210426	数据挖掘	https://zhuanlan.zhihu.com/p/369068016	不确定性知识图谱的表示和推理	zhihu.com	zhuanlan.zhihu.com	/p/369068016
+20210426	数据挖掘	http://www.covert.io/eight-short-links-on-recent-cyber-data-science-papers/	Eight Short Links of Recent Cyber Security Data Science Papers	covert.io	www.covert.io	/eight-short-links-on-recent-cyber-data-science-papers/
+20210426	漏洞分析	https://mp.weixin.qq.com/s/Z3qP6xW504tuIQ5CJdDSPQ	高版本JDK下的Jolokia Realm JNDI RCE小记	qq.com	mp.weixin.qq.com	/s/Z3qP6xW504tuIQ5CJdDSPQ
+20210426	其它	https://mp.weixin.qq.com/s/O3jFdy4AbFvTkzQI2nfZ_Q	网络武器解构：攻击性网络能力的两大市场空间和五大支柱（下）	qq.com	mp.weixin.qq.com	/s/O3jFdy4AbFvTkzQI2nfZ_Q
+20210426	杂志	https://www.sec-wiki.com/weekly/373	SecWiki周刊（第373期)	sec-wiki.com	www.sec-wiki.com	/weekly/373
+20210503	Web安全	https://www.sec-in.com/article/1034	记一次相对完整的渗透测试	sec-in.com	www.sec-in.com	/article/1034
+20210503	漏洞分析	https://mp.weixin.qq.com/s/ezo0W22-igu8uhnbO8sR-Q	FTPServer的Fuzzing	qq.com	mp.weixin.qq.com	/s/ezo0W22-igu8uhnbO8sR-Q
+20210503	观点	https://mp.weixin.qq.com/s/4QvU3yHKVbLzTupW4aF37Q	解析以色列网络空间作战力量	qq.com	mp.weixin.qq.com	/s/4QvU3yHKVbLzTupW4aF37Q
+20210503	漏洞分析	https://github.com/Tabll/gemnasium-db	gemnasium-db: GitLab 漏洞依赖项扫描的数据库	github.com	github.com	/Tabll/gemnasium-db
+20210503	Web安全	https://www.anquanke.com/post/id/232358	PHP文件包含小总结	anquanke.com	www.anquanke.com	/post/id/232358
+20210503	杂志	https://www.sec-wiki.com/weekly/374	SecWiki周刊（第374期)	sec-wiki.com	www.sec-wiki.com	/weekly/374
+20210503	取证分析	https://mp.weixin.qq.com/s/luD2v2kqXx41KWKqnItyBg	一种多维数据融合的网络威胁溯源迭代分析模型研究	qq.com	mp.weixin.qq.com	/s/luD2v2kqXx41KWKqnItyBg
+20210503	Web安全	https://mp.weixin.qq.com/s/uygNjOZmBwGcMdvILN-psw	上交所VPN攻防札记	qq.com	mp.weixin.qq.com	/s/uygNjOZmBwGcMdvILN-psw
+20210503	比赛	https://www.anquanke.com/post/id/238482	PHP 原生类在 CTF 中的利用	anquanke.com	www.anquanke.com	/post/id/238482
+20210503	Web安全	https://www.sec-in.com/article/1048	堆的unlink利用	sec-in.com	www.sec-in.com	/article/1048
+20210503	取证分析	https://mp.weixin.qq.com/s/tPKbHyMU54iARe4ojD7czg	数据安全怎么做——数据跨境的思考	qq.com	mp.weixin.qq.com	/s/tPKbHyMU54iARe4ojD7czg
+20210503	其它	https://mp.weixin.qq.com/s/I3oA4VioFZM3zFOmj5gqJw	2021海华AI挑战赛·中文阅读理解·技术组 Rank12	qq.com	mp.weixin.qq.com	/s/I3oA4VioFZM3zFOmj5gqJw
