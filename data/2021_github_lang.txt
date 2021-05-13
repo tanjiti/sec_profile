@@ -1,4 +1,4 @@
-Python	27
+Python	28
 C	19
 Java	13
 Go	11
@@ -6,14 +6,14 @@ C++	10
 JavaScript	9
 Shell	9
 HTML	9
+PHP	7
 C#	6
-PHP	6
 TypeScript	5
 Rust	5
 PowerShell	4
 Lua	3
+YARA	3
 Objective-C	3
-YARA	2
 Assembly	2
 Starlark	2
 Objective-C++	1

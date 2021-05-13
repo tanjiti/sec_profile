@@ -1,1 +1,3 @@
-Python	1
+Python	2
+YARA	1
+PHP	1
