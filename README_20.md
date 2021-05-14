@@ -97,7 +97,7 @@
 | 大数据猫 | kitten-talking-data | 阿里云ClickHouse海量数据分析分享 | https://mp.weixin.qq.com/s/MnirNdLxyvrCAPd51SiW6w | 1| 
 | 匠心独运维妙维效 | gh_54f52b20027d | 浅谈中间件安全漏洞修复体系建设 | https://mp.weixin.qq.com/s/6bJskpL_JLAEIXdGq5Hljw | 1| 
 | 伪架构师 | fake-architect | （译）云原生安全白皮书 | https://mp.weixin.qq.com/s/uH7M7vR1m0CJhoVfr-DisQ | 1| 
-| 蚂蚁安全实验室 | Alipay_SecurityLab | 探索先进自动化漏洞挖掘技术中的不足 | https://mp.weixin.qq.com/s/1q_YCJoyCREtgU3X2_0uqQ | 2| 
+| 蚂蚁安全实验室 | Alipay_SecurityLab | 探索先进自动化漏洞挖掘技术中的不足 | https://mp.weixin.qq.com/s/1q_YCJoyCREtgU3X2_0uqQ | 3| 
 | 360BugCloud | bugcloud360 | Python 源码混淆与加密 | https://mp.weixin.qq.com/s/LmxdXRjMCOIisQzCISBoGw | 1| 
 | 法制天平 | g_780216 | 帮助信息网络犯罪活动罪案例汇总 | https://mp.weixin.qq.com/s/RlFD6H-_4j5g2R49IE9ghw | 1| 
 | 安全先师 | gh_d61f62dd440d | 蜜罐调研与内网安全 | https://mp.weixin.qq.com/s/-lJT3PNsj-VvMxalHb06AA | 1| 
@@ -3844,6 +3844,7 @@
 | kevoreilly | CAPEv2: Malware Configuration And Payload Extraction | https://github.com/kevoreilly/CAPEv2 | https://twitter.com/CapeSandbox | CAPE developer | None | None | 8 | 0 | 0 | 0 | 0 | Python,C | 318 | 90 | 1| 
 | kean | 有开发者开源的一款 macOS、iOS 日志可视化和日志共享工具 | https://github.com/kean/Pulse | http://kean.blog | Software Engineer. Prev @mailru. Moscovite. Likes porridge with 🍓 | New York | None | 28 | 0 | 0 | 0 | 0 | Objective-C,Swift | 0 | 0 | 1| 
 | k8scop | k8s-security-dashboard: A security monitoring solution for Kubernetes | https://github.com/k8scop/k8s-security-dashboard | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
+| jweny | pocassist: 开源漏洞测试框架 | https://github.com/jweny/pocassist | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | jumpserver | jumpserver: 开源跳板机(堡垒机):认证,授权,审计,自动化运维 | https://github.com/jumpserver/jumpserver | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Java,JavaScript,Dockerfile,HTML | 0 | 0 | 1| 
 | jsherman212 | XNU 内核 Hook 框架，基于 checkra1n pongoOS | https://github.com/jsherman212/xnuspy | https://twitter.com/jsherma100 | CS student, interested in security research & exploit dev | None | None | 14 | 0 | 0 | 0 | 0 | C | 206 | 21 | 1| 
 | joshDelta | Gloom-Framework - Linux 渗透测试框架: | https://github.com/joshDelta/Gloom-Framework | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -4498,6 +4499,8 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| Fastcgi 协议分析与 PHP-FPM 攻击方法 | https://xz.aliyun.com/t/9544| 
+| 基于算法的漏洞检测 | https://xz.aliyun.com/t/9539| 
 | Java反序列化 — URLDNS利用链分析 | https://xz.aliyun.com/t/9417| 
 | Yii2反序列化RCE 新POP链 | https://xz.aliyun.com/t/9420| 
 | 主流WebShell工具流量层分析 | https://xz.aliyun.com/t/9404| 

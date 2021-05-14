@@ -18,7 +18,7 @@
 | 安全狗 | safedog2013 | 云原生安全攻防技术浅析 | https://mp.weixin.qq.com/s/loYIGK59RdFbpqhTkmu03w | 1| 
 | Nebula Graph Community | NebulaGraph | 百亿级图数据在快手安全情报的应用与挑战 | https://mp.weixin.qq.com/s/lz2XPXGpIlP3YZIO6Xv4Ew | 1| 
 | AX科技圈 | axkjq2006 | 安信证券容器云平台落地实践 | https://mp.weixin.qq.com/s/cbCd_hXpHlJ_8DnoiHWi0g | 1| 
-| 蚂蚁安全实验室 | Alipay_SecurityLab | 智能合约安全系列——EOS菠菜应用篇 | https://mp.weixin.qq.com/s/QAvFyfAetlwF3Vow-liEew | 1| 
+| 蚂蚁安全实验室 | Alipay_SecurityLab | 智能合约安全系列——EOS菠菜应用篇 | https://mp.weixin.qq.com/s/QAvFyfAetlwF3Vow-liEew | 2| 
 | 嘶吼专业版 | Pro4hou | 2021第一季度APT攻击趋势分析（上） | https://mp.weixin.qq.com/s/383OkdZ4z4rFUfjLf3Ymhw | 1| 
 | Tide安全团队 | TideSec | 内网软件密码离线解密 | https://mp.weixin.qq.com/s/l6rSLBrluAkRrB0rYPcdLg | 1| 
 | 大超的记事本 | Dachao_Dachao | 数据安全怎么做——数据跨境的思考 | https://mp.weixin.qq.com/s/tPKbHyMU54iARe4ojD7czg | 1| 
@@ -166,6 +166,7 @@
 | maddiestone | Project Zero Maddie Stone 对 2020 年野外漏洞利用情况的综述 | https://github.com/maddiestone/ConPresentations/blob/master/Enigma2021.StateOf0day.pdf | http://twitter.com/maddiestone |  | None | None | 4 | 0 | 0 | 0 | 0 | Python | 949 | 122 | 1| 
 | lcvvvv | Kscan：轻量级的资产发现工具 | https://github.com/lcvvvv/kscan | None |  | None | None | 3 | 1 | 0 | 0 | 0 | Go | 0 | 0 | 1| 
 | kean | 有开发者开源的一款 macOS、iOS 日志可视化和日志共享工具 | https://github.com/kean/Pulse | http://kean.blog | Software Engineer. Prev @mailru. Moscovite. Likes porridge with 🍓 | New York | None | 28 | 0 | 0 | 0 | 0 | Objective-C,Swift | 0 | 0 | 1| 
+| jweny | pocassist: 开源漏洞测试框架 | https://github.com/jweny/pocassist | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | jsherman212 | XNU 内核 Hook 框架，基于 checkra1n pongoOS | https://github.com/jsherman212/xnuspy | https://twitter.com/jsherma100 | CS student, interested in security research & exploit dev | None | None | 14 | 0 | 0 | 0 | 0 | C | 206 | 21 | 1| 
 | jonasstrehle | supercookie: Browser fingerprinting via favicon! | https://github.com/jonasstrehle/supercookie | https://jonas.strehles.info | 20yo , Friedrichshafen | Germany | Working from home | 1 | 0 | 0 | 0 | 0 | HTML | 1300 | 64 | 1| 
 | jimtangshfx | MilenageTest - 验证 3G/4G/5G 鉴权验证过程是否正确的工具 | https://github.com/jimtangshfx/MilenageTest | None | Jim Tang | TX,US | None | 5 | 0 | 0 | 0 | 0 | Python,Shell,HTML,C++ | 28 | 11 | 1| 
@@ -285,6 +286,8 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| Fastcgi 协议分析与 PHP-FPM 攻击方法 | https://xz.aliyun.com/t/9544| 
+| 基于算法的漏洞检测 | https://xz.aliyun.com/t/9539| 
 | Java反序列化 — URLDNS利用链分析 | https://xz.aliyun.com/t/9417| 
 | Yii2反序列化RCE 新POP链 | https://xz.aliyun.com/t/9420| 
 | 主流WebShell工具流量层分析 | https://xz.aliyun.com/t/9404| 
