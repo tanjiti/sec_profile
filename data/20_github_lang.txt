@@ -1,11 +1,11 @@
-Python	1074
+Python	1075
 C	671
 JavaScript	667
 C++	542
 HTML	485
 Shell	464
-Java	456
-Go	385
+Java	457
+Go	386
 C#	270
 Ruby	262
 PHP	237
@@ -39,9 +39,9 @@ Elixir	19
 CoffeeScript	19
 Emacs	18
 Groovy	18
+XSLT	15
 Verilog	14
 ASP	14
-XSLT	14
 Smarty	13
 Roff	12
 Puppet	12
@@ -57,8 +57,8 @@ F#	9
 ActionScript	9
 Nix	9
 LLVM	9
+PLpgSQL	8
 D	7
-PLpgSQL	7
 Zeek	7
 Clojure	7
 SaltStack	7

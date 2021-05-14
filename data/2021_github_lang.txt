@@ -1,7 +1,7 @@
-Python	28
+Python	29
 C	19
-Java	13
-Go	11
+Java	14
+Go	12
 C++	10
 JavaScript	9
 Shell	9
@@ -25,8 +25,10 @@ Dart	1
 CSS	1
 Elixir	1
 Ruby	1
+PLpgSQL	1
 Vue	1
 Jupyter	1
+XSLT	1
 Kotlin	1
 TeX	1
 Smali	1
