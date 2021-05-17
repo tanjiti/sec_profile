@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 安全学术圈 | secquan | 以太坊智能合约中的社会工程攻击 | https://mp.weixin.qq.com/s/MVsF9P7hpnncf9cHuTQ_iA | 2| 
 | 安全研究GoSSIP | GoSSIPSJTU | G.O.S.S.I.P 学术论文推荐 2021-05-12 | https://mp.weixin.qq.com/s/LZr8WwVd8vJ-zbVEVtH5Iw | 1| 
 | 锐眼安全实验室 | gh_ac88e02e949f | 导致美国供油系统中断的勒索软件同源分析与防范 | https://mp.weixin.qq.com/s/ArrPR0XCj-Aq6aTP3n7lEg | 1| 
 | 微步在线研究响应中心 | gh_c108d4d389bf | 专题报告 , 流行勒索病毒分析总结（上） | https://mp.weixin.qq.com/s/ZtKi0bu5iMmGjhaxpaIBeQ | 1| 
@@ -51,6 +52,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 渗透测试 ISP 101 ,如何渗透测试与修复ISP的建议。 | http://justm0rph3u5.medium.com/pentesting-isp-101-how-i-hacked-fixed-my-isp-643e9201f7e9| 
 | The implications of neglecting IPv6 on your internet facing services | http://grimminck.medium.com/the-implications-of-neglecting-ipv6-on-your-internet-facing-services-538ebe3506fa| 
 | 作者分享自己学习并参与 U.S. DoD Bounty 计划的经历 | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Finfosecwriteups.com%2Fmy-bug-bounty-journey-ranking-1st-in-u-s-dod-achieving-top-100-hackers-in-1-year-f208c10144fc| 
 | 追踪分析恶意 tor 中继出口。 | http://nusenu.medium.com/tracking-one-year-of-malicious-tor-exit-relay-activities-part-ii-85c80875c5df| 
