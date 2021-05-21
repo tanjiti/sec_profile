@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 湛卢工作室 | xuehao_studio | 利用云函数（SCF）打造海量代理池 | https://mp.weixin.qq.com/s/yYCJEpnp04oQFVqMz-G3bg | 1| 
 | 安全客 | anquanbobao | 【技术分享】漏洞自动化利用（AEG）研究进展 | https://mp.weixin.qq.com/s/4BDN2NBNb9CLFci4RhJcdg | 1| 
 | 中国信息安全 | chinainfosec | 专题 , “十四五”时期网络安全建设解读与践行 | https://mp.weixin.qq.com/s/pIXHiv0IhsTkecX0oz0o1g | 1| 
 | Datawhale | Datawhale | 图神经网络的解释性综述！ | https://mp.weixin.qq.com/s/pI9xvY2MjcEiLFdO2WDGtA | 1| 
