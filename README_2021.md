@@ -14,6 +14,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| aFa攻防实验室 | fagewkt | CS域前置 | https://mp.weixin.qq.com/s/MghFgegdp3l3tFE3hOvcYw | 1| 
+| APT攻击 | cncg_team | RSAC2021会议启示录 | https://mp.weixin.qq.com/s/aSNyvMygN2z0QxR7Ci9Sng | 1| 
+| 404 Not F0und | gh_8cea5d3d902b | AI for Security实践：攻击者画像 | https://mp.weixin.qq.com/s/xHuhh4_DNXPIO2A0xZUm1w | 1| 
 | 安全客 | anquanbobao | 【技术分享】漏洞自动化利用（AEG）研究进展 | https://mp.weixin.qq.com/s/4BDN2NBNb9CLFci4RhJcdg | 1| 
 | Datawhale | Datawhale | 图神经网络的解释性综述！ | https://mp.weixin.qq.com/s/pI9xvY2MjcEiLFdO2WDGtA | 1| 
 | 蚂蚁安全实验室 | Alipay_SecurityLab | 【Black Hat Asia 2021系列分享】兼容的代价：通过文件扩展属性攻陷macOS内核 | https://mp.weixin.qq.com/s/bfdwAhRRso34OOZrG2r65Q | 2| 
@@ -179,6 +182,7 @@
 | grapl-security | 用图的理论从日志中挖掘入侵的行为 | https://github.com/grapl-security/grapl | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Rust | 0 | 0 | 1| 
 | google | Google 开源一个 Binary Ninja 的插件，用于对高通骁龙 CPU 处理器的支持 | https://github.com/google/binja-hexagon | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Java,Python,Kotlin,JavaScript,C++,Dart,HTML,Starlark,Go,Rust | 0 | 0 | 2| 
 | golang | Go 语言社区计划在 1.17 版本增加对 Go Fuzz 测试的支持 | https://github.com/golang/go/issues/44551 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,TypeScript,HTML | 0 | 0 | 1| 
+| ghaffarian | progex: extracting graphical program representations from ... | https://github.com/ghaffarian/progex/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | ffuf | Fast web fuzzer written in Go | https://github.com/ffuf/ffuf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Shell | 0 | 0 | 1| 
 | ffffffff0x | f8x: 红/蓝队环境自动化部署工具 | https://github.com/ffffffff0x/f8x | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Java,HTML | 0 | 0 | 1| 
 | dsopas | MindAPI: Bringing order to API hacking chaos | https://github.com/dsopas/MindAPI | https://www.davidsopas.com | /me hacks! the webz | Portugal | Char49 | 14 | 0 | 0 | 0 | 0 | Go | 0 | 0 | 1| 
@@ -273,6 +277,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| ChinaSys十周年感想 | https://zhuanlan.zhihu.com/p/374658103| 
 | 不确定性知识图谱的表示和推理 | https://zhuanlan.zhihu.com/p/369068016| 
 | 你关注了哪些关于网络安全技术分享的个人或团队 | https://www.zhihu.com/answer/1814752324| 
 | Google内部开源组件的风险治理框架与工作流程窥探 | https://zhuanlan.zhihu.com/p/356415256| 
@@ -290,6 +295,7 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| JRE8u20 反序列化利用链及序列化流构造技术分析 | https://xz.aliyun.com/t/9566| 
 | Fastcgi 协议分析与 PHP-FPM 攻击方法 | https://xz.aliyun.com/t/9544| 
 | 基于算法的漏洞检测 | https://xz.aliyun.com/t/9539| 
 | Java反序列化 — URLDNS利用链分析 | https://xz.aliyun.com/t/9417| 

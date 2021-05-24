@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| aFa攻防实验室 | fagewkt | CS域前置 | https://mp.weixin.qq.com/s/MghFgegdp3l3tFE3hOvcYw | 1| 
 | 锐眼安全实验室 | gh_ac88e02e949f | 导致美国供油系统中断的勒索软件同源分析与防范 | https://mp.weixin.qq.com/s/ArrPR0XCj-Aq6aTP3n7lEg | 1| 
 | Nebula Graph Community | NebulaGraph | 百亿级图数据在快手安全情报的应用与挑战 | https://mp.weixin.qq.com/s/lz2XPXGpIlP3YZIO6Xv4Ew | 1| 
 | 非攻安全 | gh_95fa33ba0a19 | 通过DNS协议探测Cobalt Strike服务器 | https://mp.weixin.qq.com/s/peIpPJLt4NuJI1a31S_qbQ | 1| 
@@ -249,7 +250,7 @@
 | 最高人民法院 | ch_zgrmfy | 司法大数据专题报告：网络犯罪特点和趋势 | https://mp.weixin.qq.com/s/ZxYS6Dwa2XVOZ8ku-PbKog | 1| 
 | 复旦白泽战队 | fdwhitzard | 白泽带你去参会@CCS19, London, UK丨论文分享（上） | https://mp.weixin.qq.com/s/gYqamT3WXiyj79mjBQYRiA | 2| 
 | heysec | bloodzer007 | 计算机与网络安全系列书单推荐 | https://mp.weixin.qq.com/s/kEH85B2L8hsTKQjaSluTVQ | 20| 
-| 404 Not F0und |  | 从Black Hat Speaker到国内外研究者：强化学习的安全应用 | https://mp.weixin.qq.com/s/YcH2P38_N4aZtGAc2ktkJw | 4| 
+| 404 Not F0und |  | 从Black Hat Speaker到国内外研究者：强化学习的安全应用 | https://mp.weixin.qq.com/s/YcH2P38_N4aZtGAc2ktkJw | 5| 
 | 法学学术前沿 | frontiers-of-law | 前沿, 刘艳红：网络爬虫行为的刑事规制 | https://mp.weixin.qq.com/s/O9ue3cZjw5kfVFyFkoaeUg | 1| 
 | 南方法治报 | nffzb1433 | 广东公安“净网2019”专项行动典型网络违法犯罪案例 | https://mp.weixin.qq.com/s/XIAaaZetvfLa5KO-7Q6rlg | 1| 
 | 奇门遁甲安全 |  | 浅谈新手入门级红蓝对抗系列之——Sysmon攻防 | https://mp.weixin.qq.com/s/_RcHF1vXPp1cnzXvGWnGvQ | 1| 
@@ -321,7 +322,7 @@
 | 终结诈骗 | antifraud2 |  | https://mp.weixin.qq.com/s/eDq-QpEHjZieX-pjmDQFCg | 1| 
 | TideSec安全团队 | TideSec | 渗透测试中信息收集的那些事 | https://mp.weixin.qq.com/s/EpDS21jQfckcM0C9mRk73w | 55| 
 | CAICT5G创新研究中心 |  |  | https://mp.weixin.qq.com/s/wL15_qP9iYae4J70XyncXw | 1| 
-| APT攻击 | cncg_team |  | https://mp.weixin.qq.com/s/p53Vf4Xw0Zp03SvOmGTQxg | 5| 
+| APT攻击 | cncg_team |  | https://mp.weixin.qq.com/s/p53Vf4Xw0Zp03SvOmGTQxg | 6| 
 | 象帕大人 | shanpasama | RD-10射频探测器-隐藏摄像头侦查器中文手册 | https://mp.weixin.qq.com/s?__biz=MzAwODExNzk4Mw==&mid=2652259275&idx=1&sn=e4555ac45d605bb012279cc89d67e6ee&chksm=8091287bb7e6a16d330a6241a54c0be4db1fee32b0b3a2a3b0dd153de4814b64a6591fde7511&mpshare=1&scene=1&srcid=&key=8e787c7b9fab69d8f8b1b578e72312c | 2| 
 | 自主可控新鲜事 | ZZKK-IT |  | https://mp.weixin.qq.com/s/1AMEdl_YMXt0jjHl5RYP3A | 1| 
 | 科奖在线 | kejijiangli |  | https://mp.weixin.qq.com/s/6vLwQ7PMwn0X2zzJlnhjaA | 1| 
@@ -3891,6 +3892,7 @@
 | golang | Go 语言社区计划在 1.17 版本增加对 Go Fuzz 测试的支持 | https://github.com/golang/go/issues/44551 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,TypeScript,HTML | 0 | 0 | 1| 
 | gloxec | CrossC2 framework - 生成 CobaltStrike 的跨平台 beacon | https://github.com/gloxec/CrossC2 | None |  | None | None | 46 | 0 | 0 | 0 | 0 | Python,C,PLpgSQL | 586 | 127 | 1| 
 | github | Github Security Lab 关于 CodeQL 的分享《Bug hunting with CodeQL》 | https://github.com/github/security-lab/blob/master/Meetup/2019-11/presentations/Bug%20hunting%20with%20CodeQL.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Python,JavaScript,C++,Haskell,CoffeeScript,HTML,Shell,Go,Ruby,C# | 23100 | 3500 | 2| 
+| ghaffarian | progex: extracting graphical program representations from ... | https://github.com/ghaffarian/progex/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | gasgas4 | APT_CyberCriminal_Campagin | https://github.com/gasgas4/APT_CyberCriminal_Campagin | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | ganliuzhuo | 作者在Sebug提交的漏洞详情和POC | https://github.com/ganliuzhuo/Sebug | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | fuzzitdev | Jsfuzz: coverage-guided fuzz testing for Javascript | https://github.com/fuzzitdev/jsfuzz | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,CMake,Dockerfile,C++,Swift,HCL,Go,Java,Ruby,Rust | 234 | 11 | 1| 
@@ -4425,6 +4427,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| ChinaSys十周年感想 | https://zhuanlan.zhihu.com/p/374658103| 
 | 不确定性知识图谱的表示和推理 | https://zhuanlan.zhihu.com/p/369068016| 
 | 你关注了哪些关于网络安全技术分享的个人或团队 | https://www.zhihu.com/answer/1814752324| 
 | Google内部开源组件的风险治理框架与工作流程窥探 | https://zhuanlan.zhihu.com/p/356415256| 
@@ -4501,6 +4504,7 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| JRE8u20 反序列化利用链及序列化流构造技术分析 | https://xz.aliyun.com/t/9566| 
 | Fastcgi 协议分析与 PHP-FPM 攻击方法 | https://xz.aliyun.com/t/9544| 
 | 基于算法的漏洞检测 | https://xz.aliyun.com/t/9539| 
 | Java反序列化 — URLDNS利用链分析 | https://xz.aliyun.com/t/9417| 

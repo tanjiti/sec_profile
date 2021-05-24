@@ -14,6 +14,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| aFa攻防实验室 | fagewkt | CS域前置 | https://mp.weixin.qq.com/s/MghFgegdp3l3tFE3hOvcYw | 1| 
+| APT攻击 | cncg_team | RSAC2021会议启示录 | https://mp.weixin.qq.com/s/aSNyvMygN2z0QxR7Ci9Sng | 1| 
+| 404 Not F0und | gh_8cea5d3d902b | AI for Security实践：攻击者画像 | https://mp.weixin.qq.com/s/xHuhh4_DNXPIO2A0xZUm1w | 1| 
 | 湛卢工作室 | xuehao_studio | 利用云函数（SCF）打造海量代理池 | https://mp.weixin.qq.com/s/yYCJEpnp04oQFVqMz-G3bg | 1| 
 | 安全客 | anquanbobao | 【技术分享】漏洞自动化利用（AEG）研究进展 | https://mp.weixin.qq.com/s/4BDN2NBNb9CLFci4RhJcdg | 1| 
 | 中国信息安全 | chinainfosec | 专题 , “十四五”时期网络安全建设解读与践行 | https://mp.weixin.qq.com/s/pIXHiv0IhsTkecX0oz0o1g | 1| 
@@ -49,6 +52,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | patois | 在 IDA Hexrays AST 级别搜索代码特征的工具 | https://github.com/patois/HexraysToolbox | https://twitter.com/pat0is | Yo, was github? | 127.0.0.1 | None | 43 | 0 | 0 | 0 | 0 | Python | 357 | 65 | 1| 
 | jweny | pocassist: 开源漏洞测试框架 | https://github.com/jweny/pocassist | https://github.com/jweny?tab=followers | Qihoo360 CloudSec Team. Security Engineer or Developer | 北京 | Qihoo360 & 0-sec Team | 17 | 0 | 0 | 0 | 0 | Go,Python,Java,PLpgSQL,XSLT | 0 | 0 | 1| 
+| ghaffarian | progex: extracting graphical program representations from ... | https://github.com/ghaffarian/progex/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | Tabll | gemnasium-db: GitLab 漏洞依赖项扫描的数据库 | https://github.com/Tabll/gemnasium-db | https://github.com/Tabll?tab=followers | a student 大部分项目都在自己的 https://gitlab.tabll.cn/Tabll 上，这里现在主要是用来放日志 | 杭州 | None | 45 | 1 | 0 | 0 | 0 | PHP | 0 | 0 | 1| 
 | Dump-GUY | 在调试器中 Trace fopen 函数的调用 | https://github.com/Dump-GUY/Malware-analysis-and-Reverse-engineering/blob/main/Tracing%20C%20function%20fopen/Tracing%20C%20function%20fopen.md | https://github.com/Dump-GUY?tab=followers | Forensic and Malware Analyst, RE - CERT | CZE | None | 21 | 0 | 0 | 0 | 0 | Python,YARA | 0 | 0 | 1| 
 
@@ -77,6 +81,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| ChinaSys十周年感想 | https://zhuanlan.zhihu.com/p/374658103| 
 | 不确定性知识图谱的表示和推理 | https://zhuanlan.zhihu.com/p/369068016| 
 
 
@@ -88,6 +93,7 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| JRE8u20 反序列化利用链及序列化流构造技术分析 | https://xz.aliyun.com/t/9566| 
 | Fastcgi 协议分析与 PHP-FPM 攻击方法 | https://xz.aliyun.com/t/9544| 
 | 基于算法的漏洞检测 | https://xz.aliyun.com/t/9539| 
 
