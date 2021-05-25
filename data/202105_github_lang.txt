@@ -1,7 +1,12 @@
-Python	3
+Python	4
+Java	2
+JavaScript	2
 YARA	1
-Java	1
+C	1
+Shell	1
 XSLT	1
+Objective-C	1
+HTML	1
 Go	1
 PHP	1
 PLpgSQL	1
