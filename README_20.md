@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 安全档案 | secfile | 精确判断网站访问者是否是黑客的方法 | https://mp.weixin.qq.com/s/V0WdN9CMrTqo6qInuwyR6g | 1| 
 | MISAS国家工程实验室 | MISAS_189 | 大咖讲堂 , 靶场建设与攻防人才培养实践 | https://mp.weixin.qq.com/s/bWFv7xa1OCYqoKrvzzJkGg | 1| 
 | aFa攻防实验室 | fagewkt | CS域前置 | https://mp.weixin.qq.com/s/MghFgegdp3l3tFE3hOvcYw | 1| 
 | 锐眼安全实验室 | gh_ac88e02e949f | 导致美国供油系统中断的勒索软件同源分析与防范 | https://mp.weixin.qq.com/s/ArrPR0XCj-Aq6aTP3n7lEg | 1| 
@@ -537,7 +538,7 @@
 | 湖南金盾评估中心 | JD83758161 |  | https://mp.weixin.qq.com/s/VrVBE7I4pCOd5BOnwIAs9A | 1| 
 | 平安集团安全应急响应中心 | PSRC_Team |  | https://mp.weixin.qq.com/s/eiVszU0mZ49WIMfrOEvgeA | 4| 
 | 互联网安全内参 | anquanneican |  | https://mp.weixin.qq.com/s/bm8jK8mLsYkWNH_fwIcPAg | 12| 
-| ChaMd5安全团队 | chamd5sec |  | https://mp.weixin.qq.com/s?__biz=MzIzMTc1MjExOQ==&mid=2247484574&idx=1&sn=91850fae13f6a478869f10fa176e3e8c | 53| 
+| ChaMd5安全团队 | chamd5sec |  | https://mp.weixin.qq.com/s?__biz=MzIzMTc1MjExOQ==&mid=2247484574&idx=1&sn=91850fae13f6a478869f10fa176e3e8c | 54| 
 | 软件定义世界（SDX） | SDx-SoftwareDefinedx |  | https://mp.weixin.qq.com/s/GnuuzHedLCSWj-VanHDhdA | 1| 
 | 网安寻路人 | DataProtection101 |  | https://mp.weixin.qq.com/s/_Wdi6RZfchA5g5Dp7TmWYg | 8| 
 | V安全资讯 |  |  | https://mp.weixin.qq.com/s/TnS8f8B1ntC3qvd4noc7nA | 1| 
@@ -4160,6 +4161,8 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 在Google I / O 2021会议发布Flutter 2.2新版本工具。 | http://medium.com/flutter/announcing-flutter-2-2-at-google-i-o-2021-92f0fcbd7ef9| 
+| ESXi OpenSLP heap-overflow (CVE-2021–21974) 漏洞 PoC 的构造 | http://straightblast.medium.com/my-poc-walkthrough-for-cve-2021-21974-a266bcad14b9| 
 | 探究Web缓存中毒漏洞方法。 | http://link.medium.com/Lp6n3qK9lgb| 
 | Just Gopher It: Escalating a Blind SSRF to RCE for $15k | http://sirleeroyjenkins.medium.com/just-gopher-it-escalating-a-blind-ssrf-to-rce-for-15k-f5329a974530| 
 | 渗透测试 ISP 101 ,如何渗透测试与修复ISP的建议。 | http://justm0rph3u5.medium.com/pentesting-isp-101-how-i-hacked-fixed-my-isp-643e9201f7e9| 

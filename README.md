@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 安全档案 | secfile | 精确判断网站访问者是否是黑客的方法 | https://mp.weixin.qq.com/s/V0WdN9CMrTqo6qInuwyR6g | 1| 
 | 锦行信息安全 | jeeseensec | 技术分享 , Fastjson-RCE漏洞复现 | https://mp.weixin.qq.com/s/H0vKBKmsATuB3yKGXeAQvw | 1| 
 | MISAS国家工程实验室 | MISAS_189 | 大咖讲堂 , 靶场建设与攻防人才培养实践 | https://mp.weixin.qq.com/s/bWFv7xa1OCYqoKrvzzJkGg | 1| 
 | aFa攻防实验室 | fagewkt | CS域前置 | https://mp.weixin.qq.com/s/MghFgegdp3l3tFE3hOvcYw | 1| 
@@ -37,7 +38,7 @@
 | Tide安全团队 | TideSec | 内网软件密码离线解密 | https://mp.weixin.qq.com/s/l6rSLBrluAkRrB0rYPcdLg | 1| 
 | 大超的记事本 | Dachao_Dachao | 数据安全怎么做——数据跨境的思考 | https://mp.weixin.qq.com/s/tPKbHyMU54iARe4ojD7czg | 1| 
 | 上交所技术服务 | SSE-TechService | 【交易技术前沿】魔高一尺，道高一丈，上交所VPN攻防札记 | https://mp.weixin.qq.com/s/uygNjOZmBwGcMdvILN-psw | 1| 
-| ChaMd5安全团队 | chamd5sec | 2021海华AI挑战赛·中文阅读理解·技术组 Rank12 | https://mp.weixin.qq.com/s/I3oA4VioFZM3zFOmj5gqJw | 4| 
+| ChaMd5安全团队 | chamd5sec | 2021海华AI挑战赛·中文阅读理解·技术组 Rank12 | https://mp.weixin.qq.com/s/I3oA4VioFZM3zFOmj5gqJw | 5| 
 | 信息安全与通信保密杂志社 | cismag2013 | 一种多维数据融合的网络威胁溯源迭代分析模型研究 | https://mp.weixin.qq.com/s/luD2v2kqXx41KWKqnItyBg | 3| 
 | 鸟哥谈云安全 | cnbirdsecintel | 云安全架构连载之三-超大型企业混合云安全架构最佳实践 | https://mp.weixin.qq.com/s/xkeNxE99ORtVs9EOv0ellQ | 1| 
 | 看雪学院 | ikanxue | 工作中常用的相似度算法以及特征提取算法 | https://mp.weixin.qq.com/s/vUS553WX8pFIiWoqhkFNlg | 3| 
@@ -66,6 +67,8 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 在Google I / O 2021会议发布Flutter 2.2新版本工具。 | http://medium.com/flutter/announcing-flutter-2-2-at-google-i-o-2021-92f0fcbd7ef9| 
+| ESXi OpenSLP heap-overflow (CVE-2021–21974) 漏洞 PoC 的构造 | http://straightblast.medium.com/my-poc-walkthrough-for-cve-2021-21974-a266bcad14b9| 
 | 探究Web缓存中毒漏洞方法。 | http://link.medium.com/Lp6n3qK9lgb| 
 | Just Gopher It: Escalating a Blind SSRF to RCE for $15k | http://sirleeroyjenkins.medium.com/just-gopher-it-escalating-a-blind-ssrf-to-rce-for-15k-f5329a974530| 
 | 渗透测试 ISP 101 ,如何渗透测试与修复ISP的建议。 | http://justm0rph3u5.medium.com/pentesting-isp-101-how-i-hacked-fixed-my-isp-643e9201f7e9| 
