@@ -57,6 +57,7 @@
 | patois | 在 IDA Hexrays AST 级别搜索代码特征的工具 | https://github.com/patois/HexraysToolbox | https://twitter.com/pat0is | Yo, was github? | 127.0.0.1 | None | 43 | 0 | 0 | 0 | 0 | Python | 357 | 65 | 1| 
 | jweny | pocassist: 开源漏洞测试框架 | https://github.com/jweny/pocassist | https://github.com/jweny?tab=followers | Qihoo360 CloudSec Team. Security Engineer or Developer | 北京 | Qihoo360 & 0-sec Team | 17 | 0 | 0 | 0 | 0 | Go,Python,Java,PLpgSQL,XSLT | 0 | 0 | 1| 
 | ghaffarian | progex: extracting graphical program representations from ... | https://github.com/ghaffarian/progex/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| aaaddress1 | wowGrail - HITB 会议演讲，逆向分析 WOW64 兼容层以及如何利用它实现杀软检测逃逸 | https://github.com/aaaddress1/wowGrail | https://github.com/aaaddress1?tab=followers | 30cm.tw/me | Taiwan | None | 156 | 0 | 0 | 0 | 0 | C#,Python,C,C++ | 0 | 0 | 1| 
 | Tencent | 面向开发人员梳理的代码安全指南 | https://github.com/Tencent/secguide | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Less,Python,Kotlin,JavaScript,C++,Objective-C,Go,PHP | 0 | 0 | 1| 
 | Tabll | gemnasium-db: GitLab 漏洞依赖项扫描的数据库 | https://github.com/Tabll/gemnasium-db | https://github.com/Tabll?tab=followers | a student 大部分项目都在自己的 https://gitlab.tabll.cn/Tabll 上，这里现在主要是用来放日志 | 杭州 | None | 45 | 1 | 0 | 0 | 0 | PHP | 0 | 0 | 1| 
 | RPwnage | iOS 14.5 WebKit/Safari based Jailbreak | https://github.com/RPwnage/pwn-my | https://github.com/RPwnage?tab=followers | German Security researcher and Developer. When i dont create stuff, i fix stuff. | Germany | Manticore | 35 | 1 | 0 | 0 | 0 | HTML,Shell,Objective-C,JavaScript,C | 0 | 0 | 1| 
@@ -68,6 +69,7 @@
 | title | url| 
 | --- | ---| 
 | 在Google I / O 2021会议发布Flutter 2.2新版本工具。 | http://medium.com/flutter/announcing-flutter-2-2-at-google-i-o-2021-92f0fcbd7ef9| 
+| 利用无监督的机器学习与 KQL 检测 C&C Beacon | http://mergene.medium.com/enterprise-scale-threat-hunting-network-beacon-detection-with-unsupervised-ml-and-kql-part-2-bff46cfc1e7e| 
 | ESXi OpenSLP heap-overflow (CVE-2021–21974) 漏洞 PoC 的构造 | http://straightblast.medium.com/my-poc-walkthrough-for-cve-2021-21974-a266bcad14b9| 
 | 探究Web缓存中毒漏洞方法。 | http://link.medium.com/Lp6n3qK9lgb| 
 | Just Gopher It: Escalating a Blind SSRF to RCE for $15k | http://sirleeroyjenkins.medium.com/just-gopher-it-escalating-a-blind-ssrf-to-rce-for-15k-f5329a974530| 

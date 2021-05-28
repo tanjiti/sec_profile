@@ -3997,6 +3997,7 @@
 | advanced-threat-research | Repository of YARA rules made by McAfee ATR Team | https://github.com/advanced-threat-research/Yara-Rules | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,YARA,HTML | 0 | 0 | 2| 
 | adulau | ssldump - SSLv3/TLS 网络协议 Analyzer | https://github.com/adulau/ssldump | https://github.com/MISP | Enjoy when human are using machines in unexpected ways. I break stuff and I do stuff. | Europe | @MISP @CIRCL @cve-search and many others | 113 | 1 | 0 | 0 | 0 | Python,C,HTML | 127 | 54 | 1| 
 | adaptivethreat | The slides for A Year in the Empire by myself and @ harmj0y are up: http://www.slideshare.net/harmj0y/a-year-in-the-empire 2.0 code is here: | https://github.com/adaptivethreat/empire/tree/2.0_beta | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 3| 
+| aaaddress1 | wowGrail - HITB 会议演讲，逆向分析 WOW64 兼容层以及如何利用它实现杀软检测逃逸 | https://github.com/aaaddress1/wowGrail | https://github.com/aaaddress1?tab=followers | 30cm.tw/me | Taiwan | None | 156 | 0 | 0 | 0 | 0 | C#,Python,C,C++ | 0 | 0 | 1| 
 | aWeiMiaoMiao | db_security:数据库安全审计工具 | https://github.com/aWeiMiaoMiao/db_security | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | a232319779 | mmpi: 邮件快速检测库 | https://github.com/a232319779/mmpi | None | big pig. | None | None | 11 | 0 | 0 | 0 | 0 | Python,C | 28 | 12 | 1| 
 | YanxinTang | Watermark: 网页添加水印的库 | https://github.com/YanxinTang/Watermark | https://yanx.in | Frontend Developer | None | None | 13 | 0 | 65 | 0 | 2 | JavaScript | 0 | 0 | 1| 
@@ -4162,6 +4163,7 @@
 | title | url| 
 | --- | ---| 
 | 在Google I / O 2021会议发布Flutter 2.2新版本工具。 | http://medium.com/flutter/announcing-flutter-2-2-at-google-i-o-2021-92f0fcbd7ef9| 
+| 利用无监督的机器学习与 KQL 检测 C&C Beacon | http://mergene.medium.com/enterprise-scale-threat-hunting-network-beacon-detection-with-unsupervised-ml-and-kql-part-2-bff46cfc1e7e| 
 | ESXi OpenSLP heap-overflow (CVE-2021–21974) 漏洞 PoC 的构造 | http://straightblast.medium.com/my-poc-walkthrough-for-cve-2021-21974-a266bcad14b9| 
 | 探究Web缓存中毒漏洞方法。 | http://link.medium.com/Lp6n3qK9lgb| 
 | Just Gopher It: Escalating a Blind SSRF to RCE for $15k | http://sirleeroyjenkins.medium.com/just-gopher-it-escalating-a-blind-ssrf-to-rce-for-15k-f5329a974530| 
