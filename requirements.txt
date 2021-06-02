@@ -17,4 +17,4 @@ six==1.14.0
 soupsieve==1.9.5
 subprocess32==3.5.4
 tldextract==2.2.2
-urllib3==1.25.8
+urllib3==1.26.5
