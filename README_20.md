@@ -557,7 +557,7 @@
 | 工控安全竞赛 |  |  | https://mp.weixin.qq.com/s/QDdcrTw4nWf62-6__kCFuA | 1| 
 | 北京经信局 | bjsjxw |  | https://mp.weixin.qq.com/s/QBtI7uMuReItCRbliBFwrA | 1| 
 | 中国信息通信研究院CAICT | CAICT_CHINA |  | https://mp.weixin.qq.com/s/E7Iuri9G0RYOfv50yVLX_A | 1| 
-| Qunar技术沙龙 | QunarTL |  | https://mp.weixin.qq.com/s/qn8VAMoIk7rkhDL4BsCfcA | 1| 
+| Qunar技术沙龙 | QunarTL |  | https://mp.weixin.qq.com/s/qn8VAMoIk7rkhDL4BsCfcA | 2| 
 | AI科技大本营 | rgznai100 |  | https://mp.weixin.qq.com/s/4CQKqL_kZzMTlu8W4WYrLg | 3| 
 | 电力系统自动化 | AEPS-1977 |  | https://mp.weixin.qq.com/s/MzLeI17OeDqr2aFBNAidZQ | 1| 
 | 硬土壳安全 | InTUQCS |  | https://mp.weixin.qq.com/s/dRHv_wq2pflfle6H5ugKiw | 1| 
