@@ -4,13 +4,13 @@ Java	16
 Go	13
 JavaScript	12
 C++	12
+HTML	11
 Shell	10
-HTML	10
 PHP	8
 C#	7
 TypeScript	6
+Rust	6
 Objective-C	5
-Rust	5
 PowerShell	4
 Lua	3
 YARA	3
