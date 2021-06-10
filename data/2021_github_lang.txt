@@ -1,12 +1,12 @@
-Python	32
+Python	33
 C	22
-Java	16
+Java	17
 Go	13
 JavaScript	12
 C++	12
 HTML	11
 Shell	10
-PHP	8
+PHP	9
 C#	7
 TypeScript	6
 Rust	6
@@ -15,6 +15,7 @@ PowerShell	4
 Lua	3
 YARA	3
 Assembly	2
+Jupyter	2
 Kotlin	2
 Starlark	2
 Objective-C++	1
@@ -28,7 +29,6 @@ Elixir	1
 Ruby	1
 PLpgSQL	1
 Vue	1
-Jupyter	1
 XSLT	1
 TeX	1
 Smali	1

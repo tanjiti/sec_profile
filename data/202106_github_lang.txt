@@ -1,2 +1,6 @@
+Java	1
+Python	1
 HTML	1
+Jupyter	1
+PHP	1
 Rust	1
