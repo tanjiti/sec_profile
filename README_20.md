@@ -14,6 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 面壁者与执剑人 | gh_eb146885b458 | 怎样系统地管理时间 | https://mp.weixin.qq.com/s/O7xGdZw669xJy3o17ghCbg | 1| 
+| 春秋伽玛 | AWDGAME | Writeup , 蓝帽杯半决赛Misc-溯源取证 | https://mp.weixin.qq.com/s/rL-Issg-ouhpMfmcYL76Ow | 1| 
 | M01N Team | m01nteam | 钓鱼页面之无视浏览器URL栏 | https://mp.weixin.qq.com/s/F4GkG1MSOaz3iIGBmDzCTA | 1| 
 | APISIX 云原生微服务网关 | gh_04aaf04b2fae | 开源 API 网关架构分析 | https://mp.weixin.qq.com/s/L3X3xfGggjf52a8GofFHEQ | 1| 
 | 天问实验室 | tianwenlab | 智能设备常规测试思路总结 | https://mp.weixin.qq.com/s/jpKP2-lvHVyQhLcMWfrY5Q | 1| 
@@ -37,7 +39,7 @@
 | 白帽子飙车路 | hack-by-txf | Cobalt Strike 利用 Chrome 0day 上线 | https://mp.weixin.qq.com/s/LOpAu8vs8ob85W3sCmXMew | 1| 
 | 一个人的安全笔记 | xjiek2015 | [HTB]Worker Writeup | https://mp.weixin.qq.com/s/J5jKKfbwBbOTjpnwcFotrg | 13| 
 | GuyoungStudio | guyoungnet | 可扩展跨平台网络安全工具套件 CaptfEncoder v2.0.0 发布 | https://mp.weixin.qq.com/s?__biz=MzI0ODU5Mzg0NA==&mid=2247483998&idx=1&sn=baaa69c5576a1e52b7d8aeb9482e1cf3&chksm=e99f2e85dee8a79304a5535dbf6c77e9f9def6b2a7438c73e28792ac5ea3c628a02204d116e6&token=1448493475&lang=zh_CN#rd | 1| 
-| RedTeam | RedTeams | 浅析 AWS S3 子域名接管漏洞 | https://mp.weixin.qq.com/s/q3bsrCKacuepKoFljYxJcg | 1| 
+| RedTeam | RedTeams | 浅析 AWS S3 子域名接管漏洞 | https://mp.weixin.qq.com/s/q3bsrCKacuepKoFljYxJcg | 2| 
 | 架构师技术联盟 | ICT_Architect | 深度分析：4种国产CPU架构和6大品牌 | https://mp.weixin.qq.com/s/FoAPSNW0LFKuerEPJfFmgw | 1| 
 | 非尝咸鱼贩 | awkwardfish1 | IDA Pro 分析 dyld_shared_cache | https://mp.weixin.qq.com/s/PGC7LKu-oC5ZaRxLFrhTsg | 1| 
 | 红数位 | safetop | Pwn2Own 2021全程（附结果和录像视频） | https://mp.weixin.qq.com/s/blwGELCaPKC1HTczBcWkfQ | 1| 
@@ -143,7 +145,7 @@
 | 米斯特安全团队 | acmesec | 代码审计 , PHPCMS V9 前台RCE挖掘分析 | https://mp.weixin.qq.com/s/zLXJtekT9O3OuzwBLigMsA | 1| 
 | 国家网络威胁情报共享开放平台 | CNTIC2017 | DataCon2020 恶意代码分析冠军writeup | https://mp.weixin.qq.com/s/e69Fg9UBX3B2BFiGvsg4Gg | 7| 
 | vivo千镜安全实验室 | gh_54ff3f871510 | 软件源码安全攻防之道（上） | https://mp.weixin.qq.com/s/jb3VQyK3U6BQS0-0ad0K_w | 6| 
-| ZoomEye | ZoomEye_Team | 利用 ZoomEye 追踪多种 Redteam C&C 后渗透攻击框架 | https://mp.weixin.qq.com/s/H66J0ab8UAyVrxRb1RLO4g | 1| 
+| ZoomEye | ZoomEye_Team | 利用 ZoomEye 追踪多种 Redteam C&C 后渗透攻击框架 | https://mp.weixin.qq.com/s/H66J0ab8UAyVrxRb1RLO4g | 2| 
 | Pai Sec Team | huahuaSec | 半自动化冰蝎流量分析的实践 | https://mp.weixin.qq.com/s/w40qI2iPNLx9GjgkYRyhpg | 1| 
 | DeadEye安全团队 | gh_fcf5d3d1e57d | 关于Cobalt Strike检测方法与去特征的思考 | https://mp.weixin.qq.com/s/5MWDXN3eCaw9m-XHDGaXcQ | 1| 
 | DataFunTalk | datafuntalk | Fraudar算法在京东关系网络反欺诈中的应用 | https://mp.weixin.qq.com/s/Qp1Yrlu92LwZ-n4kipq0sw | 2| 
@@ -306,7 +308,7 @@
 | 信息化协同创新专委会 | CF-ICI | 国内外颠覆性技术研究进展跟踪与研究方法总结 | https://mp.weixin.qq.com/s/riKGPdyu8ekOy-WuEkyVoQ | 1| 
 | 新浪安全中心 |  | 自助安全扫描与代码审计系统架构实践 | https://mp.weixin.qq.com/s/3N3eJzTaMwbznL_aofOjnQ | 1| 
 | 国家电网报 | stategridnews | 阿根廷全国大停电 | https://mp.weixin.qq.com/s/0p_QrSpJuGSc3IaQB2NMMw | 1| 
-| 专注安管平台 |  | Gartner2019年十大安全项目详解 | https://mp.weixin.qq.com/s/dBw_z9oNoTRUQNVTkf1l_w | 8| 
+| 专注安管平台 |  | Gartner2019年十大安全项目详解 | https://mp.weixin.qq.com/s/dBw_z9oNoTRUQNVTkf1l_w | 9| 
 | 环球时报 | hqsbwx | 美国被爆料入侵俄罗斯电网，特朗普怒怼纽约时报叛国 | https://mp.weixin.qq.com/s/kfnlzwHbfNHgVXEiX2-1sg | 1| 
 | 现代军事 | xiandaijunshi | 解读德国情报工作建设 | https://mp.weixin.qq.com/s/dW-k_LlWZt04pakFuvfX8A | 1| 
 | 腾讯科恩实验室 | KeenSecurityLab | 《2018年Android应用安全白皮书》重磅发布：超98%Android应用存有安全风险 | https://mp.weixin.qq.com/s/sb2hndSGn_IpMWmSGC4rPg | 3| 
@@ -340,7 +342,7 @@
 | 深度学习自然语言处理 | zenRRan |  | https://mp.weixin.qq.com/s/PVoQI85YkDSzlA46FRU1OQ | 1| 
 | 待字闺中 | daiziguizhongren |  | https://mp.weixin.qq.com/s/aw5V95kelBslFv-ScxUVMw | 3| 
 | 信口杂谈 |  |  | https://mp.weixin.qq.com/s/OvTHpWXCwCH-k0jf8cQBTg | 1| 
-| 我的安全视界观 | CANI_Security | 【SDL最初实践】安全需求 | https://mp.weixin.qq.com/s?__biz=MzI3Njk2OTIzOQ==&mid=2247484307&idx=1&sn=3758ef809f9a456d7ed83a2954487f5b&chksm=eb6c21ebdc1ba8fd8888ccf93043b0abc5107b0a96671419bbc8b3795260feded5292248338e&token=748595180&lang=zh_CN#rd | 42| 
+| 我的安全视界观 | CANI_Security | 【SDL最初实践】安全需求 | https://mp.weixin.qq.com/s?__biz=MzI3Njk2OTIzOQ==&mid=2247484307&idx=1&sn=3758ef809f9a456d7ed83a2954487f5b&chksm=eb6c21ebdc1ba8fd8888ccf93043b0abc5107b0a96671419bbc8b3795260feded5292248338e&token=748595180&lang=zh_CN#rd | 43| 
 | 梅子酒的书札 | a960596293_book |  | https://mp.weixin.qq.com/s/rlSyABoulRKygPmwfcUuXA | 1| 
 | 国防科技要闻 | CDSTIC |  | https://mp.weixin.qq.com/s/LXR853Z4E5peVYq89tXKZA | 2| 
 | 京东数字科技研究院 |  |  | https://mp.weixin.qq.com/s/2afk7pLqgzpUnXgmQgMNEw | 1| 
@@ -726,7 +728,7 @@
 | 瀚思科技 | HanSight |  | http://mp.weixin.qq.com/s?__biz=MzA4NTM4NjUzMw==&mid=2649485392&idx=1&sn=187cea8eeac393224279910ad8dda904&chksm=87c7e41ab0b06d0c7ca7ea3905025f2fbd7595da82bd01c90d5a127e5b175b589b700a494c63&scene=0#rd | 4| 
 | 安全牛 | aqniu-wx |  | http://mp.weixin.qq.com/s?__biz=MjM5Njc3NjM4MA==&mid=2651069231&idx=1&sn=b33d8e05c3f2105a5882f6ab64d6751c&chksm=bd14abfc8a6322ea377562414c70f52da2b3ee377bbb981309a0e1a3ffad09e0f8599fa9a47c&mpshare=1&scene=1&srcid=1104iZjhMWRCNPuf0EHMnkuU#rd | 43| 
 | 唯品会安全应急响应中心 | VIP_SRC |  | http://mp.weixin.qq.com/s?__biz=MzI5ODE0ODA5MQ==&mid=2652277539&idx=1&sn=87fa4119dc190cf23025602cabf12720&chksm=f74862b7c03feba1a1a3f45e92207353dac7c9a7ed347f77c2a1663e8634ba19159d2adfab62&mpshare=1&scene=1&srcid=1031etHOMTwlfGZcPmlsOgo5#rd | 13| 
-| 君哥的体历 | jungedetili |  | http://mp.weixin.qq.com/s?__biz=MzI2MjQ1NTA4MA==&mid=2247483686&idx=1&sn=89f358a266bb957a6e796f556c07377c&chksm=ea4bab61dd3c2277f62105af8599d5b1253fab556c0b7551fb12d4f434b77fa65d73b5aec0dd&mpshare=1&scene=2&srcid=1030ETrx1BZ4memNEF8qX1oy&from=timeline&isappinstalled=0#rd | 43| 
+| 君哥的体历 | jungedetili |  | http://mp.weixin.qq.com/s?__biz=MzI2MjQ1NTA4MA==&mid=2247483686&idx=1&sn=89f358a266bb957a6e796f556c07377c&chksm=ea4bab61dd3c2277f62105af8599d5b1253fab556c0b7551fb12d4f434b77fa65d73b5aec0dd&mpshare=1&scene=2&srcid=1030ETrx1BZ4memNEF8qX1oy&from=timeline&isappinstalled=0#rd | 44| 
 | 中国软件网 | Hapiweb-soft6 |  | http://mp.weixin.qq.com/s?__biz=MjM5ODcxNTEzMw==&mid=2656244294&idx=1&sn=da3eb1da069d78930aec6ebc6ab04420&chksm=bd6139d48a16b0c286c4dc9586e880040a7b4d5add87b1643d2d829043628d594c0cf80b951a&mpshare=1&scene=2&srcid=1101wYb218aF9frLgmFKo9k9&from=timeline#rd | 1| 
 | 高校网络安全交流 | eduinfosec |  | http://mp.weixin.qq.com/s?__biz=MzI0NDM5MzY3NA==&mid=2247484791&idx=1&sn=464f7275aabcfc9dbdcae37f6c52bb82&chksm=e95f36d2de28bfc4bb562467cb31da879bcc5c75a110169847788d593891a025b099928ab2a3&mpshare=1&scene=1&srcid=1024aS8fQv7QS3mZnmp3H7dZ#rd | 1| 
 | 白帽汇 | baimaohui888 |  | http://mp.weixin.qq.com/s?__biz=MzIwMDk0MjcwNA==&mid=2247483854&idx=1&sn=a917e227e0321fefb2c30fcc40e04f62&chksm=96f434d1a183bdc7cfb31e07b09dd5462d45048b01e70f1757f6594f2b2105a60a577766423d | 5| 
@@ -4172,6 +4174,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 深入理解与检测 C2 框架 — BabyShark。 | http://nasbench.medium.com/understanding-detecting-c2-frameworks-babyshark-641be4595845| 
 | 针对进程注入技术深入研究。 | http://medium.com/csg-govtech/process-injection-techniques-used-by-malware-1a34c078612c| 
 | An Introduction to Manual Active Directory Querying with Dsquery and Ldapsearch | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fposts.specterops.io%2Fan-introduction-to-manual-active-directory-querying-with-dsquery-and-ldapsearch-84943c13d7eb| 
 | 初学者内存分析技术：对Coreflood木马分析第 3 部分。 | http://medium.com/purple-team/memory-analysis-for-beginners-with-volatility-64298c8b186| 
