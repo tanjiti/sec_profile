@@ -21,8 +21,8 @@
 | M01N Team | m01nteam | 钓鱼页面之无视浏览器URL栏 | https://mp.weixin.qq.com/s/F4GkG1MSOaz3iIGBmDzCTA | 1| 
 | APISIX 云原生微服务网关 | gh_04aaf04b2fae | 开源 API 网关架构分析 | https://mp.weixin.qq.com/s/L3X3xfGggjf52a8GofFHEQ | 1| 
 | 苹果资本 | Applefunds | 苹果观点：通过RSAC沙盒大赛看未来网络安全新格局 | https://mp.weixin.qq.com/s/2WwlcdYD9NxcIIZ8xfsJmw | 1| 
-| 网安寻路人 | DataProtection101 | 发送商业性信息的合规要点 , 国内篇 | https://mp.weixin.qq.com/s/oU4-OgG6SzGZOWLNCxZlsg | 2| 
 | 极光无限 | AuroraInfinity | 红蓝对抗 , 基于办公处理软件的控守方案研究 | https://mp.weixin.qq.com/s/cmgw08gtoY2XkLTcMniNVQ | 1| 
+| 网安寻路人 | DataProtection101 | 发送商业性信息的合规要点 , 国外篇 | https://mp.weixin.qq.com/s/n41AIYll9uo1HyV0ZoIBgg | 2| 
 | 天问实验室 | tianwenlab | 智能设备常规测试思路总结 | https://mp.weixin.qq.com/s/jpKP2-lvHVyQhLcMWfrY5Q | 1| 
 | Panabit订阅号 | gh_245ade47c8ad | 基于网络流量的网络安全分析与威胁狩猎漫谈（视频版） | https://mp.weixin.qq.com/s/IIrXnFBHde7JPg1samJX5g | 1| 
 | 高级页面仔 | seeleland | Code Signing - iOS 代码段的校验机制分析 | https://mp.weixin.qq.com/s/msUwo3YUcfHXkuAp5wRfyQ | 1| 
@@ -110,7 +110,7 @@
 | 安全研究GoSSIP | GoSSIPSJTU | NDSS 2021 参会小记—2月22日论文报告 | https://mp.weixin.qq.com/s/LI49ioKYMksguQMqKH1Rcw | 2| 
 | 虎符智库 | TT_Thinktank | “十四五”时期网络安全的五大转变 | https://mp.weixin.qq.com/s/ONUYz1z4Z-6ueFwTZk8TZA | 3| 
 | 我的安全学习笔记 | gh_3b8ed48b5c15 | 安利一款还不错的开源工具—Nuclei | https://mp.weixin.qq.com/s/C_-FRZMqF4ifzlx-ij4iIQ | 1| 
-| 思想花火 | ttfirework | 做信息安全BP的一些感悟 | https://mp.weixin.qq.com/s/qygwMIGX3PhbnKuPwQqfUQ | 1| 
+| 思想花火 | ttfirework | 做信息安全BP的一些感悟 | https://mp.weixin.qq.com/s/qygwMIGX3PhbnKuPwQqfUQ | 2| 
 | 小迪随笔 | i-little-monster | 苹果隐私十年史：变与不变（1）突变与营销 | https://mp.weixin.qq.com/s/qqQ1BgFshie288wZEWGaEw | 5| 
 | 小强说 | xiaoqiangcall | 浅析Course of Action应对措施 | https://mp.weixin.qq.com/s/ikHga0fGa0euwGYohv534g | 1| 
 | 全栈网络空间安全 | cyber_securlty | 甲方安全体系建设历程的思考 | https://mp.weixin.qq.com/s/YTNWqXkcqTbjhdcIGpxE6w | 1| 
@@ -142,7 +142,7 @@
 | 人民公安报 | rmgabs | 公安部网安局公布一批网络黑产案例 | https://mp.weixin.qq.com/s/uXupT3yeeOA9NWVjQORgDQ | 1| 
 | 启明星辰专家视野 | VenusExpertsVision | 自动化渗透测试系统技术路径分析 | https://mp.weixin.qq.com/s/gtXfPvT8Yatp3IMVdCID7Q | 1| 
 | FreeBuf | freebuf | 关于PDD员工发帖溯源联想到的相关技术与实现 | https://mp.weixin.qq.com/s/coRsNLMT_FAr6xSHwPgOUg | 3| 
-| 安全学术圈 | secquan | 使用自己的代码查找漏洞：检测功能相似但不一致的代码 | https://mp.weixin.qq.com/s/ELbtEhd1wedkEqhboPpLuQ | 19| 
+| 安全学术圈 | secquan | 使用自己的代码查找漏洞：检测功能相似但不一致的代码 | https://mp.weixin.qq.com/s/ELbtEhd1wedkEqhboPpLuQ | 20| 
 | 阿里云安全 | aliyunsec | 对 SolarWinds 事件更深的思考：如何防御供应链攻击 | https://mp.weixin.qq.com/s/GdER32Z7K86boHVc-Kic3g | 1| 
 | 360Quake空间测绘 | gh_0284fd4851e7 | 浅析开源蜜罐识别与全网测绘 | https://mp.weixin.qq.com/s/hq-z2HBGz3nehnCVg_H-RQ | 2| 
 | 深信服千里目安全实验室 | Further_eye | 【高级持续性威胁跟踪】红队视角看Sunburst后门中的TTPs | https://mp.weixin.qq.com/s/wtEbawfOd1g_T2ovp1SaGg | 3| 
@@ -255,6 +255,7 @@
 | title | url| 
 | --- | ---| 
 | 深入理解与检测 C2 框架 — BabyShark。 | http://nasbench.medium.com/understanding-detecting-c2-frameworks-babyshark-641be4595845| 
+| Proxy Windows Tooling via SOCKS | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fposts.specterops.io%2Fproxy-windows-tooling-via-socks-c1af66daeef3| 
 | 针对进程注入技术深入研究。 | http://medium.com/csg-govtech/process-injection-techniques-used-by-malware-1a34c078612c| 
 | An Introduction to Manual Active Directory Querying with Dsquery and Ldapsearch | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fposts.specterops.io%2Fan-introduction-to-manual-active-directory-querying-with-dsquery-and-ldapsearch-84943c13d7eb| 
 | 初学者内存分析技术：对Coreflood木马分析第 3 部分。 | http://medium.com/purple-team/memory-analysis-for-beginners-with-volatility-64298c8b186| 
