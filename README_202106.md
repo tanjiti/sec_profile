@@ -14,6 +14,10 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 穿过丛林 | gh_f90eac70537b | 基于API亲密度分析的安卓恶意软件检测系统 | https://mp.weixin.qq.com/s/HmSjFNnaG4VtuR1MR2QjQA | 1| 
+| 神光的编程秘籍 | gh_831b7475367e | JavaScript 常见 AST 梳理 | https://mp.weixin.qq.com/s/biQt6cw05-4G-gkJS9fGTQ | 1| 
+| 绿盟科技研究通讯 | nsfocus_research | 攻击推理-安全知识图谱在自动化攻击行为提取上的应用 | https://mp.weixin.qq.com/s/0sZKZ-8SgIr3_ESwHFOHSA | 1| 
+| 伏羲智库 | FUXIINSTITUTION | DNS-网络安全绕不过去的话题 | https://mp.weixin.qq.com/s/g5_RVxAFgXBIwSLiazsUpw | 1| 
 | 思想花火 | ttfirework | 跟着Google学习如何写述职报告 | https://mp.weixin.qq.com/s/g07nezJjj2xaMp5z385RTw | 1| 
 | 我的安全视界观 | CANI_Security | Shift Left在开发安全中的应用 | https://mp.weixin.qq.com/s/CkfOFYOT98uICnVx2YLjsQ | 1| 
 | 面壁者与执剑人 | gh_eb146885b458 | 怎样系统地管理时间 | https://mp.weixin.qq.com/s/O7xGdZw669xJy3o17ghCbg | 1| 
@@ -21,7 +25,7 @@
 | 君哥的体历 | jungedetili | 实录 , ThreatSource鸟哥：浅谈云安全技术以及安全架构亮点 | https://mp.weixin.qq.com/s/tLHroy8yZIsZCjfdKLK-wQ | 1| 
 | 专注安管平台 | gh_48603b9bb05a | 深入研究网络弹性 | https://mp.weixin.qq.com/s/1rwwgErZDO0ygWNY7HPkSA | 1| 
 | ZoomEye | ZoomEye_Team | 谈谈网络空间测绘在国家级断电断网事件上的应用 | https://mp.weixin.qq.com/s/vFygIcSNnAgPaEqVBp7LsQ | 1| 
-| RedTeam | RedTeams | Static Program Analysis Intruction | https://mp.weixin.qq.com/s/jm2I-_L_NUBTYNhEUBv-iA | 1| 
+| RedTeam | RedTeams | Static Program Analysis Intruction | https://mp.weixin.qq.com/s/jm2I-_L_NUBTYNhEUBv-iA | 2| 
 | M01N Team | m01nteam | 钓鱼页面之无视浏览器URL栏 | https://mp.weixin.qq.com/s/F4GkG1MSOaz3iIGBmDzCTA | 1| 
 | APISIX 云原生微服务网关 | gh_04aaf04b2fae | 开源 API 网关架构分析 | https://mp.weixin.qq.com/s/L3X3xfGggjf52a8GofFHEQ | 1| 
 | 苹果资本 | Applefunds | 苹果观点：通过RSAC沙盒大赛看未来网络安全新格局 | https://mp.weixin.qq.com/s/2WwlcdYD9NxcIIZ8xfsJmw | 1| 
@@ -35,7 +39,7 @@
 | 高级页面仔 | seeleland | Code Signing - iOS 代码段的校验机制分析 | https://mp.weixin.qq.com/s/msUwo3YUcfHXkuAp5wRfyQ | 1| 
 | Qunar技术沙龙 | QunarTL | Jar 组件自动化风险监测和升级实践 | https://mp.weixin.qq.com/s/3tmwACw-weWCBzipHK79AQ | 1| 
 | 章老师说 | gh_dd8867689c3d | 软件工程能力漫谈 | https://mp.weixin.qq.com/s/hJS5LJRZkMZmHm6g2R_jpw | 1| 
-| 安全学术圈 | secquan | SCRUTINIZER：通过反编译和机器学习检测恶意软件中的代码复用 | https://mp.weixin.qq.com/s/hdqCwSoXdxAYB8OfL5oJEQ | 4| 
+| 安全学术圈 | secquan | SCRUTINIZER：通过反编译和机器学习检测恶意软件中的代码复用 | https://mp.weixin.qq.com/s/hdqCwSoXdxAYB8OfL5oJEQ | 5| 
 | 威胁棱镜 | THREAT_PRISM | McAfee 如何使用图思考 ATT&CK | https://mp.weixin.qq.com/s/rlFmQdZZTHUnX2D1JSVtFQ | 1| 
 | 嘶吼专业版 | Pro4hou | 2021年嘶吼·网络安全产业链图谱发布 | https://mp.weixin.qq.com/s/IDlXpFBtX19CE9PLoSgVYA | 1| 
 | 蚂蚁安全实验室 | Alipay_SecurityLab | 智能合约安全系列 -- 举一反三总结篇 | https://mp.weixin.qq.com/s/ZxrBHgZ5a_IuU0nNySIlwA | 1| 
