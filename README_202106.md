@@ -14,7 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
-| 非尝咸鱼贩 | awkwardfish1 | iOS Wi-Fi 格式串拒绝服务 0day 分析 | https://mp.weixin.qq.com/s/-PVLxXRi9Yi3A5YmhiskJA | 1| 
+| 非尝咸鱼贩 | awkwardfish1 | iOS Wi-Fi 格式串拒绝服务 0day 分析 | https://mp.weixin.qq.com/s/-PVLxXRi9Yi3A5YmhiskJA | 2| 
 | 代码审计SDL | gh_50d8f0e890be | 第三方组件安全评估指南 | https://mp.weixin.qq.com/s/45dF9lqnL2ByKgQNmKetyw | 1| 
 | 丁爸 情报分析师的工具箱 | dingba2016 | 【资料】开源情报（OSINT）常用工具及其安全使用 | https://mp.weixin.qq.com/s/UiAdHpQABlNarb60L5UGNw | 1| 
 | FreeBuf | freebuf | 一文看懂内存马 | https://mp.weixin.qq.com/s/T_6At4Crp1qmdczBSuLYdQ | 1| 
@@ -23,8 +23,8 @@
 | 神光的编程秘籍 | gh_831b7475367e | JavaScript 常见 AST 梳理 | https://mp.weixin.qq.com/s/biQt6cw05-4G-gkJS9fGTQ | 1| 
 | 绿盟科技研究通讯 | nsfocus_research | 攻击推理-安全知识图谱在自动化攻击行为提取上的应用 | https://mp.weixin.qq.com/s/0sZKZ-8SgIr3_ESwHFOHSA | 1| 
 | 伏羲智库 | FUXIINSTITUTION | DNS-网络安全绕不过去的话题 | https://mp.weixin.qq.com/s/g5_RVxAFgXBIwSLiazsUpw | 1| 
-| 思想花火 | ttfirework | 跟着Google学习如何写述职报告 | https://mp.weixin.qq.com/s/g07nezJjj2xaMp5z385RTw | 1| 
 | 我的安全视界观 | CANI_Security | Shift Left在开发安全中的应用 | https://mp.weixin.qq.com/s/CkfOFYOT98uICnVx2YLjsQ | 1| 
+| 思想花火 | ttfirework | 跟着Google学习如何写述职报告 | https://mp.weixin.qq.com/s/g07nezJjj2xaMp5z385RTw | 1| 
 | 面壁者与执剑人 | gh_eb146885b458 | 怎样系统地管理时间 | https://mp.weixin.qq.com/s/O7xGdZw669xJy3o17ghCbg | 1| 
 | 春秋伽玛 | AWDGAME | Writeup , 蓝帽杯半决赛Misc-溯源取证 | https://mp.weixin.qq.com/s/rL-Issg-ouhpMfmcYL76Ow | 1| 
 | 君哥的体历 | jungedetili | 实录 , ThreatSource鸟哥：浅谈云安全技术以及安全架构亮点 | https://mp.weixin.qq.com/s/tLHroy8yZIsZCjfdKLK-wQ | 1| 
@@ -45,7 +45,7 @@
 | Qunar技术沙龙 | QunarTL | Jar 组件自动化风险监测和升级实践 | https://mp.weixin.qq.com/s/3tmwACw-weWCBzipHK79AQ | 1| 
 | 章老师说 | gh_dd8867689c3d | 软件工程能力漫谈 | https://mp.weixin.qq.com/s/hJS5LJRZkMZmHm6g2R_jpw | 1| 
 | 安全学术圈 | secquan | SCRUTINIZER：通过反编译和机器学习检测恶意软件中的代码复用 | https://mp.weixin.qq.com/s/hdqCwSoXdxAYB8OfL5oJEQ | 6| 
-| 威胁棱镜 | THREAT_PRISM | McAfee 如何使用图思考 ATT&CK | https://mp.weixin.qq.com/s/rlFmQdZZTHUnX2D1JSVtFQ | 1| 
+| 威胁棱镜 | THREAT_PRISM | McAfee 如何使用图思考 ATT&CK | https://mp.weixin.qq.com/s/rlFmQdZZTHUnX2D1JSVtFQ | 2| 
 | 嘶吼专业版 | Pro4hou | 2021年嘶吼·网络安全产业链图谱发布 | https://mp.weixin.qq.com/s/IDlXpFBtX19CE9PLoSgVYA | 1| 
 | 蚂蚁安全实验室 | Alipay_SecurityLab | 智能合约安全系列 -- 举一反三总结篇 | https://mp.weixin.qq.com/s/ZxrBHgZ5a_IuU0nNySIlwA | 1| 
 

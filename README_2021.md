@@ -69,7 +69,7 @@
 | 架构师技术联盟 | ICT_Architect | 深度分析：4种国产CPU架构和6大品牌 | https://mp.weixin.qq.com/s/FoAPSNW0LFKuerEPJfFmgw | 1| 
 | 宽字节安全 | gh_2de2b9f7d076 | 基于javaAgent内存马检测查杀指南 | https://mp.weixin.qq.com/s/Whta6akjaZamc3nOY1Tvxg | 2| 
 | 58安全应急响应中心 | wubasrc | 系列 , 58集团白盒代码审计系统建设实践2：深入理解SAST | https://mp.weixin.qq.com/s/jQfsUg4vhEs3XwTcXkqhyQ | 1| 
-| 非尝咸鱼贩 | awkwardfish1 | IDA Pro 分析 dyld_shared_cache | https://mp.weixin.qq.com/s/PGC7LKu-oC5ZaRxLFrhTsg | 2| 
+| 非尝咸鱼贩 | awkwardfish1 | IDA Pro 分析 dyld_shared_cache | https://mp.weixin.qq.com/s/PGC7LKu-oC5ZaRxLFrhTsg | 3| 
 | 红数位 | safetop | Pwn2Own 2021全程（附结果和录像视频） | https://mp.weixin.qq.com/s/blwGELCaPKC1HTczBcWkfQ | 1| 
 | 娜璋AI安全之家 | gh_91f1fe28fc6e | [AI安全论文] 03.什么是生成对抗网络？GAN的前世今生（Goodfellow） | https://mp.weixin.qq.com/s/CGngRxjVtOKHNsTrXBiD7w | 3| 
 | NEO攻防队 | NEO_TEAM | 某VPN客户端远程下载文件执行挖掘（已修复） | https://mp.weixin.qq.com/s/XbsxziIFKx8VhGd-pv0Ghg | 1| 
@@ -156,7 +156,7 @@
 | 穿过丛林 | gh_f90eac70537b | 基于语义token分析的克隆代码检测系统 | https://mp.weixin.qq.com/s/e_NvzMbOqDspns3VLXBjYw | 4| 
 | 安全喷子 | gh_2a9c00f1d053 | ATT&CK 2020更新指南 | https://mp.weixin.qq.com/s/cPiVersg8VyK4fBTK8W1Ag | 1| 
 | 学术plus | caeit-e | 最新！人工智能网络安全威胁图谱 | https://mp.weixin.qq.com/s/4qbCusJde_z0AM1eDC4YiA | 1| 
-| 威胁棱镜 | THREAT_PRISM | 通过 ATT&CK 归因攻击 | https://mp.weixin.qq.com/s/NSAURU3qpYhhKs8Q8AdBag | 13| 
+| 威胁棱镜 | THREAT_PRISM | 通过 ATT&CK 归因攻击 | https://mp.weixin.qq.com/s/NSAURU3qpYhhKs8Q8AdBag | 14| 
 | 中国信息安全 | chinainfosec | 回顾 , 2020年下半年全球网络恐怖主义态势分析 | https://mp.weixin.qq.com/s/Us54DtL99pdCRErJWvsM8w | 3| 
 | 时间之外沉浮事 | tasnrh | 网空靶场：从炒作到现实-2020 | https://mp.weixin.qq.com/s/zu2Je_A_x06k78tzrXyjbg | 2| 
 | ChaMd5安全团队 | chamd5sec | 鲲鹏计算专场-WriteUp | https://mp.weixin.qq.com/s/S7d-oS_b3Xx688a_jeQC2w | 20| 
