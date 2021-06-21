@@ -1,0 +1,44 @@
+20210614	论文	https://mp.weixin.qq.com/s/4_yNRBiTKENt6KcEOwanDA	WiSec 2021 论文录用列表	qq.com	mp.weixin.qq.com	/s/4_yNRBiTKENt6KcEOwanDA
+20210614	工具	https://tools.xazlsec.com/index.php/HT2110/242.html	HT2114 Telnet 服务暴力破解 new	xazlsec.com	tools.xazlsec.com	/index.php/HT2110/242.html
+20210614	Web安全	https://mp.weixin.qq.com/s/9iJNZCQfHg0VbWSFRgwVJg	Google 是如何落地静态代码分析的	qq.com	mp.weixin.qq.com	/s/9iJNZCQfHg0VbWSFRgwVJg
+20210614	数据挖掘	https://mp.weixin.qq.com/s/g5_RVxAFgXBIwSLiazsUpw	DNS-网络安全绕不过去的话题	qq.com	mp.weixin.qq.com	/s/g5_RVxAFgXBIwSLiazsUpw
+20210614	Web安全	https://mp.weixin.qq.com/s/0sZKZ-8SgIr3_ESwHFOHSA	攻击推理-安全知识图谱在自动化攻击行为提取上的应用	qq.com	mp.weixin.qq.com	/s/0sZKZ-8SgIr3_ESwHFOHSA
+20210614	工具	https://tools.xazlsec.com/index.php/HT1220/215.html	HT1223 Go 版指纹识别工具 Webanalyze	xazlsec.com	tools.xazlsec.com	/index.php/HT1220/215.html
+20210614	工具	https://tools.xazlsec.com/index.php/HT2110/231.html	HT2111 SSH 服务暴力枚举	xazlsec.com	tools.xazlsec.com	/index.php/HT2110/231.html
+20210614	工具	https://tools.xazlsec.com/index.php/HT1220/207.html	HT1221 Web 应用信息收集工具 WIG	xazlsec.com	tools.xazlsec.com	/index.php/HT1220/207.html
+20210614	Web安全	https://mp.weixin.qq.com/s/biQt6cw05-4G-gkJS9fGTQ	JavaScript 常见 AST 梳理	qq.com	mp.weixin.qq.com	/s/biQt6cw05-4G-gkJS9fGTQ
+20210614	工具	https://tools.xazlsec.com/index.php/HT1210/192.html	HT1216 Nmap 端口扫描工具	xazlsec.com	tools.xazlsec.com	/index.php/HT1210/192.html
+20210614	其它	https://mp.weixin.qq.com/s/g07nezJjj2xaMp5z385RTw	跟着Google学习如何写述职报告	qq.com	mp.weixin.qq.com	/s/g07nezJjj2xaMp5z385RTw
+20210614	工具	https://tools.xazlsec.com/index.php/HT1160/163.html	HT1161 Github 信息泄漏	xazlsec.com	tools.xazlsec.com	/index.php/HT1160/163.html
+20210614	恶意分析	https://mp.weixin.qq.com/s/HmSjFNnaG4VtuR1MR2QjQA	基于API亲密度分析的安卓恶意软件检测系统	qq.com	mp.weixin.qq.com	/s/HmSjFNnaG4VtuR1MR2QjQA
+20210614	工具	https://tools.xazlsec.com/index.php/HT1210/203.html	HT1218 网络测绘系统利用	xazlsec.com	tools.xazlsec.com	/index.php/HT1210/203.html
+20210614	Web安全	https://www.freebuf.com/sectool/276478.html	可扩展跨平台网络安全工具套件CaptfEncoder v2.1.0	freebuf.com	www.freebuf.com	/sectool/276478.html
+20210614	Web安全	https://mp.weixin.qq.com/s/Lm_yC0oD_BNiyA4E9TwX7A	EXTRACTOR：从威胁报告中提取攻击行为信息	qq.com	mp.weixin.qq.com	/s/Lm_yC0oD_BNiyA4E9TwX7A
+20210614	杂志	https://www.sec-wiki.com/weekly/380	SecWiki周刊（第380期)	sec-wiki.com	www.sec-wiki.com	/weekly/380
+20210614	Web安全	https://www.sec-in.com/article/1081	Apache Solr 任意文件删除	sec-in.com	www.sec-in.com	/article/1081
+20210614	Web安全	https://mp.weixin.qq.com/s/CkfOFYOT98uICnVx2YLjsQ	Shift Left在开发安全中的应用	qq.com	mp.weixin.qq.com	/s/CkfOFYOT98uICnVx2YLjsQ
+20210614	其它	https://mp.weixin.qq.com/s/aoXvdCs5muOaOPWdW1ixJQ	如何高效使用RapidDNS	qq.com	mp.weixin.qq.com	/s/aoXvdCs5muOaOPWdW1ixJQ
+20210614	工具	https://tools.xazlsec.com/index.php/HT1210/168.html	HT1211 常见端口及服务信息	xazlsec.com	tools.xazlsec.com	/index.php/HT1210/168.html
+20210614	工具	https://tools.xazlsec.com/index.php/HT1150/154.html	HT1151 网络空间搜索引擎平台介绍	xazlsec.com	tools.xazlsec.com	/index.php/HT1150/154.html
+20210614	论文	https://mp.weixin.qq.com/s/7ulSpgPQX5Uiiwhv_5b7eg	针对接触者追踪系统实施虚假曝光通知攻击	qq.com	mp.weixin.qq.com	/s/7ulSpgPQX5Uiiwhv_5b7eg
+20210614	工具	https://tools.xazlsec.com/index.php/HT1150/158.html	HT1152 Shodan 自动化利用	xazlsec.com	tools.xazlsec.com	/index.php/HT1150/158.html
+20210614	工具	https://tools.xazlsec.com/index.php/HT1210/173.html	HT1213 脚本语言版端口扫描	xazlsec.com	tools.xazlsec.com	/index.php/HT1210/173.html
+20210614	Web安全	https://www.sec-in.com/article/1094	白说:php反序列化之pop链	sec-in.com	www.sec-in.com	/article/1094
+20210614	恶意分析	https://mp.weixin.qq.com/s/9OXut_NOvduLBcixxajwgg	AT&T 发现潜伏已久的 Moobot 基础设施	qq.com	mp.weixin.qq.com	/s/9OXut_NOvduLBcixxajwgg
+20210614	恶意分析	https://mp.weixin.qq.com/s/T_6At4Crp1qmdczBSuLYdQ	一文看懂内存马	qq.com	mp.weixin.qq.com	/s/T_6At4Crp1qmdczBSuLYdQ
+20210614	工具	https://tools.xazlsec.com/index.php/HT1140/149.html	HT1141 whois 原理及工具推荐	xazlsec.com	tools.xazlsec.com	/index.php/HT1140/149.html
+20210614	工具	https://tools.xazlsec.com/index.php/HT1130/131.html	HT1136 DNS枚举工具 gobuster	xazlsec.com	tools.xazlsec.com	/index.php/HT1130/131.html
+20210614	取证分析	https://mp.weixin.qq.com/s/UiAdHpQABlNarb60L5UGNw	开源情报（OSINT）常用工具及其安全使用	qq.com	mp.weixin.qq.com	/s/UiAdHpQABlNarb60L5UGNw
+20210614	其它	https://mp.weixin.qq.com/s/45dF9lqnL2ByKgQNmKetyw	第三方组件安全评估指南	qq.com	mp.weixin.qq.com	/s/45dF9lqnL2ByKgQNmKetyw
+20210614	工具	https://tools.xazlsec.com/index.php/HT1130/138.html	HT1137 DNS 枚举工具 subfinder	xazlsec.com	tools.xazlsec.com	/index.php/HT1130/138.html
+20210614	工具	https://tools.xazlsec.com/index.php/HT1130/100.html	HT1133 DNS枚举工具 knockpy	xazlsec.com	tools.xazlsec.com	/index.php/HT1130/100.html
+20210614	工具	https://tools.xazlsec.com/index.php/HT1130/106.html	HT1135 DNS枚举工具 sublist3r	xazlsec.com	tools.xazlsec.com	/index.php/HT1130/106.html
+20210614	移动安全	https://mp.weixin.qq.com/s/-PVLxXRi9Yi3A5YmhiskJA	iOS Wi-Fi 格式串拒绝服务 0day 分析	qq.com	mp.weixin.qq.com	/s/-PVLxXRi9Yi3A5YmhiskJA
+20210614	工具	https://tools.xazlsec.com/index.php/HT1120/82.html	HT1122 网页爬虫 paramspider	xazlsec.com	tools.xazlsec.com	/index.php/HT1120/82.html
+20210614	工具	https://tools.xazlsec.com/index.php/HT1130/105.html	HT1134 DNS枚举工具 Anubis	xazlsec.com	tools.xazlsec.com	/index.php/HT1130/105.html
+20210614	工具	https://tools.xazlsec.com/index.php/HT1130/85.html	HT1131 DNS 枚举工具 SubForceDomain	xazlsec.com	tools.xazlsec.com	/index.php/HT1130/85.html
+20210614	工具	https://tools.xazlsec.com/index.php/HT1130/92.html	HT1132 DNS枚举工具 aiodnsbrute	xazlsec.com	tools.xazlsec.com	/index.php/HT1130/92.html
+20210614	工具	https://tools.xazlsec.com/index.php/HT1120/77.html	HT1121 网页爬虫Photon	xazlsec.com	tools.xazlsec.com	/index.php/HT1120/77.html
+20210614	工具	https://tools.xazlsec.com/index.php/HT1110/54.html	HT1111 搜索引擎推荐及基本用法	xazlsec.com	tools.xazlsec.com	/index.php/HT1110/54.html
+20210614	工具	https://tools.xazlsec.com/index.php/HT1110/72.html	HT1113 搜索引擎自动化利用	xazlsec.com	tools.xazlsec.com	/index.php/HT1110/72.html
+20210614	工具	https://tools.xazlsec.com/index.php/HT1110/64.html	HT1112 搜索引擎高级使用语法	xazlsec.com	tools.xazlsec.com	/index.php/HT1110/64.html
