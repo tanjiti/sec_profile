@@ -14,9 +14,10 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 非尝咸鱼贩 | awkwardfish1 | iOS Wi-Fi 格式串拒绝服务 0day 分析 | https://mp.weixin.qq.com/s?__biz=Mzk0NDE3MTkzNQ==&mid=2247483943&idx=1&sn=35cf79f82db7781679d9a6902c8aabd4&chksm=c329fcd7f45e75c1a779ad9313400583aecffd42dddb819699b90904f639dcddc7562171a185 | 2| 
 | 赛博回忆录 | cybermemory | web选手如何快速卷入二进制世界 | https://mp.weixin.qq.com/s/tU6R2Q4_unEoAMk27vv9xg | 1| 
 | 开源情报研究所 | OSINTR | 【技巧】研究Twitter账户要寻找什么及工具 | https://mp.weixin.qq.com/s/L0VjmyXMg2p_KbSMl3NEIw | 1| 
-| 非尝咸鱼贩 | awkwardfish1 | iOS Wi-Fi 格式串拒绝服务 0day 分析 | https://mp.weixin.qq.com/s/-PVLxXRi9Yi3A5YmhiskJA | 2| 
+| ChaMd5安全团队 | chamd5sec | skylarinst-winc(10.199.1.19_80).exe样本分析 | https://mp.weixin.qq.com/s/S0lb93pAhnDbcdYXaixicg | 1| 
 | 代码审计SDL | gh_50d8f0e890be | 第三方组件安全评估指南 | https://mp.weixin.qq.com/s/45dF9lqnL2ByKgQNmKetyw | 1| 
 | 丁爸 情报分析师的工具箱 | dingba2016 | 【资料】开源情报（OSINT）常用工具及其安全使用 | https://mp.weixin.qq.com/s/UiAdHpQABlNarb60L5UGNw | 1| 
 | FreeBuf | freebuf | 一文看懂内存马 | https://mp.weixin.qq.com/s/T_6At4Crp1qmdczBSuLYdQ | 1| 
