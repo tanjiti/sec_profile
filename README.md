@@ -14,6 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 赛博回忆录 | cybermemory | web选手如何快速卷入二进制世界 | https://mp.weixin.qq.com/s/tU6R2Q4_unEoAMk27vv9xg | 1| 
+| 开源情报研究所 | OSINTR | 【技巧】研究Twitter账户要寻找什么及工具 | https://mp.weixin.qq.com/s/L0VjmyXMg2p_KbSMl3NEIw | 1| 
 | 非尝咸鱼贩 | awkwardfish1 | iOS Wi-Fi 格式串拒绝服务 0day 分析 | https://mp.weixin.qq.com/s/-PVLxXRi9Yi3A5YmhiskJA | 2| 
 | 代码审计SDL | gh_50d8f0e890be | 第三方组件安全评估指南 | https://mp.weixin.qq.com/s/45dF9lqnL2ByKgQNmKetyw | 1| 
 | 丁爸 情报分析师的工具箱 | dingba2016 | 【资料】开源情报（OSINT）常用工具及其安全使用 | https://mp.weixin.qq.com/s/UiAdHpQABlNarb60L5UGNw | 1| 
@@ -85,6 +87,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 从BAB到SLSA——谈Google的软件供应链风险治理 | https://zhuanlan.zhihu.com/p/382721804| 
 
 
 # xz_xuanwu 推荐
