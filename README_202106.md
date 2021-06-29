@@ -14,12 +14,13 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 锦行信息安全 | jeeseensec | 利用PHAR协议进行PHP反序列化攻击 | https://mp.weixin.qq.com/s/w2wUl_9BjAaqhbVJTGxRjA | 1| 
+| 58安全应急响应中心 | wubasrc | 技术分享 , Java 供应链(依赖)安全检测实践 | https://mp.weixin.qq.com/s/1fnDelBE1HisEaopEyk8nQ | 1| 
 | 雁行安全团队 | YX_Security | 通过ScriptEngine实现冰蝎shell免杀 | https://mp.weixin.qq.com/s/SU5B7ULgmOC7HsRscMrkKw | 1| 
 | 看雪学院 | ikanxue | Go语言逆向初探 | https://mp.weixin.qq.com/s/S0HbZ7m9Wcj1b_EUwC7xxw | 1| 
 | 数世咨询 | dwconcn | 基于工控业务场景构建工控安全成熟度模型 | https://mp.weixin.qq.com/s/c5-aV9Aad8SUEySHz1Vg-A | 1| 
 | 字节跳动安全中心 | TouTiaoSec | 隐秘的印记：暗水印实践技术分享 | https://mp.weixin.qq.com/s/2yfjMVlTHwNRT5zOGem26w | 1| 
 | 哔哩哔哩安全应急响应中心 | gh_951c3555f599 | 基于业务场景的漏洞挖掘 | https://mp.weixin.qq.com/s/a6QvgLFCO4rCS3FRYZ3lug | 1| 
-| FreeBuf | freebuf | 零信任实战架构总结 | https://mp.weixin.qq.com/s/SCI9sSQHyyriVoCbOGJz5w | 2| 
 | ChaMd5安全团队 | chamd5sec | go样本加载过程分析 | https://mp.weixin.qq.com/s/8Dqjas9-fV5DoglZ9MbvZg | 2| 
 | 360威胁情报中心 | CoreSec360 | PJobRAT：针对印度军事人员的间谍软件 | https://mp.weixin.qq.com/s/VTHvmRTeu3dw8HFyusKLqQ | 1| 
 | 非尝咸鱼贩 | awkwardfish1 | iOS Wi-Fi 格式串拒绝服务 0day 分析 | https://mp.weixin.qq.com/s?__biz=Mzk0NDE3MTkzNQ==&mid=2247483943&idx=1&sn=35cf79f82db7781679d9a6902c8aabd4&chksm=c329fcd7f45e75c1a779ad9313400583aecffd42dddb819699b90904f639dcddc7562171a185 | 2| 
@@ -27,6 +28,7 @@
 | 开源情报研究所 | OSINTR | 【技巧】研究Twitter账户要寻找什么及工具 | https://mp.weixin.qq.com/s/L0VjmyXMg2p_KbSMl3NEIw | 1| 
 | 代码审计SDL | gh_50d8f0e890be | 第三方组件安全评估指南 | https://mp.weixin.qq.com/s/45dF9lqnL2ByKgQNmKetyw | 1| 
 | 丁爸 情报分析师的工具箱 | dingba2016 | 【资料】开源情报（OSINT）常用工具及其安全使用 | https://mp.weixin.qq.com/s/UiAdHpQABlNarb60L5UGNw | 1| 
+| FreeBuf | freebuf | 一文看懂内存马 | https://mp.weixin.qq.com/s/T_6At4Crp1qmdczBSuLYdQ | 2| 
 | RapidDNS | gh_6327c9075859 | 如何高效使用RapidDNS | https://mp.weixin.qq.com/s/aoXvdCs5muOaOPWdW1ixJQ | 1| 
 | 穿过丛林 | gh_f90eac70537b | 基于API亲密度分析的安卓恶意软件检测系统 | https://mp.weixin.qq.com/s/HmSjFNnaG4VtuR1MR2QjQA | 1| 
 | 神光的编程秘籍 | gh_831b7475367e | JavaScript 常见 AST 梳理 | https://mp.weixin.qq.com/s/biQt6cw05-4G-gkJS9fGTQ | 1| 
@@ -40,7 +42,7 @@
 | 专注安管平台 | gh_48603b9bb05a | 深入研究网络弹性 | https://mp.weixin.qq.com/s/1rwwgErZDO0ygWNY7HPkSA | 1| 
 | ZoomEye | ZoomEye_Team | 谈谈网络空间测绘在国家级断电断网事件上的应用 | https://mp.weixin.qq.com/s/vFygIcSNnAgPaEqVBp7LsQ | 1| 
 | RedTeam | RedTeams | Static Program Analysis Intruction | https://mp.weixin.qq.com/s/jm2I-_L_NUBTYNhEUBv-iA | 2| 
-| M01N Team | m01nteam | 钓鱼页面之无视浏览器URL栏 | https://mp.weixin.qq.com/s/F4GkG1MSOaz3iIGBmDzCTA | 1| 
+| M01N Team | m01nteam | 钓鱼页面之无视浏览器URL栏 | https://mp.weixin.qq.com/s/F4GkG1MSOaz3iIGBmDzCTA | 3| 
 | APISIX 云原生微服务网关 | gh_04aaf04b2fae | 开源 API 网关架构分析 | https://mp.weixin.qq.com/s/L3X3xfGggjf52a8GofFHEQ | 1| 
 | 苹果资本 | Applefunds | 苹果观点：通过RSAC沙盒大赛看未来网络安全新格局 | https://mp.weixin.qq.com/s/2WwlcdYD9NxcIIZ8xfsJmw | 1| 
 | 腾讯安全应急响应中心 | tsrc_team | 匿名信使：木马隐蔽通信浅谈 | https://mp.weixin.qq.com/s/X_qPqmpx6uGAs6Y84rV8Jg | 1| 
@@ -54,7 +56,7 @@
 | Qunar技术沙龙 | QunarTL | Jar 组件自动化风险监测和升级实践 | https://mp.weixin.qq.com/s/3tmwACw-weWCBzipHK79AQ | 1| 
 | 章老师说 | gh_dd8867689c3d | 软件工程能力漫谈 | https://mp.weixin.qq.com/s/hJS5LJRZkMZmHm6g2R_jpw | 1| 
 | 安全学术圈 | secquan | SCRUTINIZER：通过反编译和机器学习检测恶意软件中的代码复用 | https://mp.weixin.qq.com/s/hdqCwSoXdxAYB8OfL5oJEQ | 6| 
-| 威胁棱镜 | THREAT_PRISM | McAfee 如何使用图思考 ATT&CK | https://mp.weixin.qq.com/s/rlFmQdZZTHUnX2D1JSVtFQ | 2| 
+| 威胁棱镜 | THREAT_PRISM | McAfee 如何使用图思考 ATT&CK | https://mp.weixin.qq.com/s/rlFmQdZZTHUnX2D1JSVtFQ | 3| 
 | 嘶吼专业版 | Pro4hou | 2021年嘶吼·网络安全产业链图谱发布 | https://mp.weixin.qq.com/s/IDlXpFBtX19CE9PLoSgVYA | 1| 
 | 蚂蚁安全实验室 | Alipay_SecurityLab | 智能合约安全系列 -- 举一反三总结篇 | https://mp.weixin.qq.com/s/ZxrBHgZ5a_IuU0nNySIlwA | 1| 
 
