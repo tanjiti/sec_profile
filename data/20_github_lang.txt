@@ -1,11 +1,11 @@
 Python	1077
 C	673
 JavaScript	669
-C++	543
+C++	544
 HTML	486
 Shell	465
-Java	459
-Go	387
+Java	460
+Go	388
 C#	270
 Ruby	262
 PHP	239
@@ -15,7 +15,7 @@ TypeScript	147
 Objective-C	143
 Rust	115
 Jupyter	103
-Perl	76
+Perl	77
 Swift	69
 Assembly	67
 Dockerfile	66

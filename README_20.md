@@ -3876,6 +3876,7 @@
 | jaredmichaelsmith | awesome-vehicle-security: learning about vehicle security and car hacking | https://github.com/jaredmichaelsmith/awesome-vehicle-security | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | jackmasa | HTMLFuzzer | https://github.com/jackmasa/HTMLFuzzer | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | islamTaha12 | Python Remote Administration Tool (RAT) to gain meterpreter session | https://github.com/islamTaha12/Python-Rootkit | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| irsl | Google ISC DHCP 软件随机数存在问题，导致攻击者可以通过网络攻击 Google Cloud Platform 虚拟机 | https://github.com/irsl/gcp-dhcp-takeover-code-exec | https://github.com/irsl?tab=followers |  | None | None | 56 | 0 | 0 | 0 | 0 | Go,Java,C++,Perl | 0 | 0 | 1| 
 | iovisor | bcc/BPF : Dynamic Tracing Tools for Linux : https://iovisor.github.io/bcc/ ; ply (Github) : | https://github.com/iovisor/ply | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Python,JavaScript,C++,HTML,Go | 0 | 0 | 2| 
 | intelpt | Just checked in Windows Intel PT Driver for Windows v0.5 from our presentation | https://github.com/intelpt/WindowsIntelPT | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,C++ | 0 | 0 | 1| 
 | intellectualheaven | ceed : A tiny x86 compiler with ELF and PE target : https://github.com/intellectualheaven/ceed , Details : | https://github.com/intellectualheaven/ceed | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 

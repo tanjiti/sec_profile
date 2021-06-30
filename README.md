@@ -18,14 +18,14 @@
 | 58安全应急响应中心 | wubasrc | 技术分享 , Java 供应链(依赖)安全检测实践 | https://mp.weixin.qq.com/s/1fnDelBE1HisEaopEyk8nQ | 1| 
 | 雁行安全团队 | YX_Security | 通过ScriptEngine实现冰蝎shell免杀 | https://mp.weixin.qq.com/s/SU5B7ULgmOC7HsRscMrkKw | 1| 
 | 看雪学院 | ikanxue | Go语言逆向初探 | https://mp.weixin.qq.com/s/S0HbZ7m9Wcj1b_EUwC7xxw | 1| 
-| 数世咨询 | dwconcn | 基于工控业务场景构建工控安全成熟度模型 | https://mp.weixin.qq.com/s/c5-aV9Aad8SUEySHz1Vg-A | 1| 
 | 字节跳动安全中心 | TouTiaoSec | 隐秘的印记：暗水印实践技术分享 | https://mp.weixin.qq.com/s/2yfjMVlTHwNRT5zOGem26w | 1| 
-| 哔哩哔哩安全应急响应中心 | gh_951c3555f599 | 基于业务场景的漏洞挖掘 | https://mp.weixin.qq.com/s/a6QvgLFCO4rCS3FRYZ3lug | 1| 
-| ChaMd5安全团队 | chamd5sec | go样本加载过程分析 | https://mp.weixin.qq.com/s/8Dqjas9-fV5DoglZ9MbvZg | 2| 
 | 360威胁情报中心 | CoreSec360 | PJobRAT：针对印度军事人员的间谍软件 | https://mp.weixin.qq.com/s/VTHvmRTeu3dw8HFyusKLqQ | 1| 
 | 非尝咸鱼贩 | awkwardfish1 | iOS Wi-Fi 格式串拒绝服务 0day 分析 | https://mp.weixin.qq.com/s?__biz=Mzk0NDE3MTkzNQ==&mid=2247483943&idx=1&sn=35cf79f82db7781679d9a6902c8aabd4&chksm=c329fcd7f45e75c1a779ad9313400583aecffd42dddb819699b90904f639dcddc7562171a185 | 2| 
 | 赛博回忆录 | cybermemory | web选手如何快速卷入二进制世界 | https://mp.weixin.qq.com/s/tU6R2Q4_unEoAMk27vv9xg | 1| 
+| 数世咨询 | dwconcn | 基于工控业务场景构建工控安全成熟度模型 | https://mp.weixin.qq.com/s/c5-aV9Aad8SUEySHz1Vg-A | 1| 
 | 开源情报研究所 | OSINTR | 【技巧】研究Twitter账户要寻找什么及工具 | https://mp.weixin.qq.com/s/L0VjmyXMg2p_KbSMl3NEIw | 1| 
+| 哔哩哔哩安全应急响应中心 | gh_951c3555f599 | 基于业务场景的漏洞挖掘 | https://mp.weixin.qq.com/s/a6QvgLFCO4rCS3FRYZ3lug | 1| 
+| ChaMd5安全团队 | chamd5sec | skylarinst-winc(10.199.1.19_80).exe样本分析 | https://mp.weixin.qq.com/s/S0lb93pAhnDbcdYXaixicg | 2| 
 | 代码审计SDL | gh_50d8f0e890be | 第三方组件安全评估指南 | https://mp.weixin.qq.com/s/45dF9lqnL2ByKgQNmKetyw | 1| 
 | 丁爸 情报分析师的工具箱 | dingba2016 | 【资料】开源情报（OSINT）常用工具及其安全使用 | https://mp.weixin.qq.com/s/UiAdHpQABlNarb60L5UGNw | 1| 
 | FreeBuf | freebuf | 一文看懂内存马 | https://mp.weixin.qq.com/s/T_6At4Crp1qmdczBSuLYdQ | 2| 
@@ -69,6 +69,7 @@
 # 私人github账号 推荐
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
+| irsl | Google ISC DHCP 软件随机数存在问题，导致攻击者可以通过网络攻击 Google Cloud Platform 虚拟机 | https://github.com/irsl/gcp-dhcp-takeover-code-exec | https://github.com/irsl?tab=followers |  | None | None | 56 | 0 | 0 | 0 | 0 | Go,Java,C++,Perl | 0 | 0 | 1| 
 | bitterzzZZ | Java内存马学习成果分享和资料整理 | https://github.com/bitterzzZZ/MemoryShellLearn | https://github.com/bitterzzZZ?tab=followers | 一学习就不困了，真的zzZZ | None | None | 17 | 0 | 0 | 0 | 0 | Python,Jupyter,PHP,Java | 0 | 0 | 1| 
 | SunLab-GMU | PatchDB: A Large-Scale Security Patch Dataset | https://github.com/SunLab-GMU/PatchDataset | None | None | None | None | 0 | 0 | 0 | 0 | 0 | HTML,Rust | 0 | 0 | 1| 
 
