@@ -25,6 +25,7 @@
 # 私人github账号 推荐
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
+| trailofbits | Trail of Bits 对 Opyn Gamma 协议智能合约的安全性评估 | https://github.com/trailofbits/publications/blob/master/reviews/Opyn-Gamma-Protocol.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,CMake,Python,C++,TypeScript,CSS,Go,Ruby,Rust | 0 | 0 | 1| 
 | riskscanner | RiskScanner: 是开源的公有云安全合规扫描平台 | https://github.com/riskscanner/riskscanner | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Java,Shell,JavaScript | 0 | 0 | 1| 
 | esrrhs | pingtunnel: ICMP流量伪装转发工具 | https://github.com/esrrhs/pingtunnel | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 
