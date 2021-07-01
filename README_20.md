@@ -449,7 +449,7 @@
 | 学蚁致用 | sudo_i |  | https://mp.weixin.qq.com/s/IezN9aYCn51t1ZQ7wX3X3Q | 5| 
 | 机器学习AI算法工程 | datayx |  | https://mp.weixin.qq.com/s/Cm-DNNLMqgcp_DJqUeM-Tw | 1| 
 | 安全酷 | watsec |  | https://mp.weixin.qq.com/s/ItvWWhC0iYOpG6nQ3WPfvg | 1| 
-| 安全喷子 |  |  | https://mp.weixin.qq.com/s/6BmRdNPKG2dA7m1DrdGtkQ | 8| 
+| 安全喷子 |  |  | https://mp.weixin.qq.com/s/6BmRdNPKG2dA7m1DrdGtkQ | 9| 
 | 卫星与网络 | satnetdy |  | https://mp.weixin.qq.com/s/-9BlAQqApaoGLfRgtJIn7Q | 1| 
 | 腾讯安全应急响应中心 | tsrc_team |  | https://mp.weixin.qq.com/s/cyeEAv31GO_hZCTXVRBkxw | 26| 
 | 安全与生活 | HitCache |  | https://mp.weixin.qq.com/s/gwtdAeBy6dKViiZJbgKMSA | 1| 
@@ -3761,6 +3761,7 @@
 | seecode-audit | seecode-audit: SeeCode Audit 代码审计管理系统 | https://github.com/seecode-audit/seecode-audit | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | securesystemslab | Agamotto: Accelerating Kernel Driver Fuzzing with Lightweight Virtual Machine Checkpoints | https://github.com/securesystemslab/agamotto | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Objective-C++,Python,C++,CMake,Rust | 0 | 0 | 1| 
 | secdevops-cuse | CyberRange: The Open-Source AWS Cyber Range | https://github.com/secdevops-cuse/CyberRange | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,Dockerfile,CSS,HCL | 0 | 0 | 1| 
+| seccome | Ehoney: 欺骗防御系统 | https://github.com/seccome/Ehoney | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | search#search_cheatsheet_pane | GitHub supports advanced search operators much like Google | https://github.com/search#search_cheatsheet_pane | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | sdnewhop | 针对 SD-WAN 的安全性研究: | https://github.com/sdnewhop/sdwannewhope/blob/master/sdwan-poc2018.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Lua,C,Go | 0 | 0 | 1| 
 | scannells | 研究员 Simon Scannell 公开的几个 Exploits | https://github.com/scannells/exploits | None | Security Enthusiast interested in Fuzzing | Stuttgart, Germany | None | 5 | 0 | 0 | 0 | 0 | Python,Go,PHP,Rust | 29 | 7 | 1| 
@@ -3774,6 +3775,7 @@
 | saeidshirazi | Awesome Android Security GitHub Repo | https://github.com/saeidshirazi/awesome-android-security | None | Cyber Security Researcher | canada | None | 22 | 0 | 0 | 0 | 0 | Python,CSS | 194 | 19 | 1| 
 | rtcatc | 一款针对Webpack等前端打包工具所构造的网站进行快速、高效安全检测的扫描工具 | https://github.com/rtcatc/Packer-Fuzzer | https://www.hackinn.com | 嗷呜 NJI12*3*%*2*M*R%* ç(-é$ùé&ù$$$éùù =$m$=$ | None | None | 16 | 0 | 0 | 0 | 0 | Python | 535 | 60 | 1| 
 | robotattackorg | robot-detect - ROBOT 漏洞检测脚本 : | https://github.com/robotattackorg/robot-detect | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
+| riskscanner | RiskScanner: 是开源的公有云安全合规扫描平台 | https://github.com/riskscanner/riskscanner | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Java,Shell,JavaScript | 0 | 0 | 1| 
 | riskawarrior | 渗透测试书签 | https://github.com/riskawarrior/pentest-bookmarks#forums | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | reverse-shell | routersploit : The Router Exploitation Framework : | https://github.com/reverse-shell/routersploit | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | recodeking | recodeking/MalwareAnalysis: 恶意软件分析工具和资源列表 | https://github.com/recodeking/MalwareAnalysis | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -3928,6 +3930,7 @@
 | fabacab | 蓝队最好的学习资源项目。 | https://github.com/fabacab/awesome-cybersecurity-blueteam | None | ⚑ Ⓐnti-capitalist Free Software developer, Black Lives Matter, abolish all prisons, 0xACAB ⚑ | None | Code signing GPG key: 0x15FC01926CB6D75614790893B0303BF6BA36A560 | 197 | 0 | 0 | 0 | 0 | Shell,HTML,PHP | 1100 | 248 | 1| 
 | eugeneyan | 面向产品的机器学习/数据科学相关资源 | https://github.com/eugeneyan/applied-ml#anomaly-detection | http://eugeneyan.com | Applied Machine Learning | Seattle x Singapore | None | 39 | 0 | 0 | 0 | 0 | Python,Jupyter | 819 | 85 | 1| 
 | eth-sri | 利用机器学习的方法还原（推测）被 strip 过的二进制程序的调试符号信息 | https://github.com/eth-sri/debin | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,D,Python,Mathematica,C++,C#,HTML,SMT,JavaScript | 0 | 0 | 1| 
+| esrrhs | pingtunnel: ICMP流量伪装转发工具 | https://github.com/esrrhs/pingtunnel | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | eronnen | 用于解析 Procmon 内部文件格式（日志文件、配置文件）的 Python 库 | https://github.com/eronnen/procmon-parser | None |  | None | None | 0 | 0 | 0 | 0 | 0 | Python,JavaScript,C++ | 31 | 4 | 1| 
 | ernw | ERNW GmbH 公开了几篇关于 Windows WDAC 与 Code integrity 的研究 Paper | https://github.com/ernw/Windows-Insight/tree/master/articles/Device%20Guard/WDAC | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,XSLT,Python,Erlang | 488 | 134 | 1| 
 | e-m-b-a | emba - 用于分析基于 Linux 的嵌入设备的固件的工具 | https://github.com/e-m-b-a/emba | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,OCaml,Roff | 27 | 5 | 1| 
@@ -4179,6 +4182,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Chrome 浏览器 NAT Slipstreaming 漏洞分析（CVE-2021–21210） | http://vovohelo.medium.com/how-i-found-my-first-chrome-bug-cve-2021-21210-248a21272248| 
 | Certified Pre-Owned: Abusing Active Directory Certificate Services | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fposts.specterops.io%2Fcertified-pre-owned-d95910965cd2| 
 | 深入理解与检测 C2 框架 — BabyShark。 | http://nasbench.medium.com/understanding-detecting-c2-frameworks-babyshark-641be4595845| 
 | Proxy Windows Tooling via SOCKS | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fposts.specterops.io%2Fproxy-windows-tooling-via-socks-c1af66daeef3| 

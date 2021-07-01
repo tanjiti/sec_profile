@@ -155,7 +155,7 @@
 | 潇湘信安 | xxxasec | 记一次匈牙利服务器提权案例 | https://mp.weixin.qq.com/s/kfC4ajyJqH0GNskqgSsQVw | 5| 
 | 酒仙桥六号部队 | anfu-360 | 从访客网络到潜入机房 | https://mp.weixin.qq.com/s/T7A7ydK1EaEwNNKnBwN9Aw | 2| 
 | 穿过丛林 | gh_f90eac70537b | 基于语义token分析的克隆代码检测系统 | https://mp.weixin.qq.com/s/e_NvzMbOqDspns3VLXBjYw | 4| 
-| 安全喷子 | gh_2a9c00f1d053 | ATT&CK 2020更新指南 | https://mp.weixin.qq.com/s/cPiVersg8VyK4fBTK8W1Ag | 1| 
+| 安全喷子 | gh_2a9c00f1d053 | ATT&CK 2020更新指南 | https://mp.weixin.qq.com/s/cPiVersg8VyK4fBTK8W1Ag | 2| 
 | 学术plus | caeit-e | 最新！人工智能网络安全威胁图谱 | https://mp.weixin.qq.com/s/4qbCusJde_z0AM1eDC4YiA | 1| 
 | 威胁棱镜 | THREAT_PRISM | 通过 ATT&CK 归因攻击 | https://mp.weixin.qq.com/s/NSAURU3qpYhhKs8Q8AdBag | 15| 
 | 中国信息安全 | chinainfosec | 回顾 , 2020年下半年全球网络恐怖主义态势分析 | https://mp.weixin.qq.com/s/Us54DtL99pdCRErJWvsM8w | 3| 
@@ -177,9 +177,11 @@
 | wgpsec | TIG 威胁情报收集 | https://github.com/wgpsec/tig | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | vessial | 深度揭密高通4/5G移动基带消息系统和状态机 | https://github.com/vessial/baseband/blob/master/Qualcomm_BaseBand_Messaging_and_State_Machine.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | theowni | 检测 Android 平台滥用 AccessibilityService 控制其他应用的恶意 App | https://github.com/theowni/Android-MaliciousAccessibilityServiceAppsDetector | https://github.com/theowni?tab=followers | Software engineer and security researcher | None | None | 12 | 0 | 0 | 0 | 0 | Python,JavaScript,Java | 0 | 0 | 1| 
+| seccome | Ehoney: 欺骗防御系统 | https://github.com/seccome/Ehoney | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | scannells | 研究员 Simon Scannell 公开的几个 Exploits | https://github.com/scannells/exploits | None | Security Enthusiast interested in Fuzzing | Stuttgart, Germany | None | 5 | 0 | 0 | 0 | 0 | Python,Go,PHP,Rust | 29 | 7 | 1| 
 | sbousseaden | JSON DataSet for macOS mapped to MITRE ATT&CK Tactics | https://github.com/sbousseaden/macOS-ATTACK-DATASET | http://@SBousseaden | Threat Hunting & DFIR | None | None | 66 | 0 | 0 | 0 | 0 | YARA,PowerShell | 1200 | 221 | 2| 
 | ruanyf | ES6 标准入门教程资源。 | https://github.com/ruanyf/es6tutorial | https://twitter.com/ruanyf |  | Shanghai, China | None | 67 | 0 | 0 | 0 | 0 | JavaScript | 18900 | 8300 | 1| 
+| riskscanner | RiskScanner: 是开源的公有云安全合规扫描平台 | https://github.com/riskscanner/riskscanner | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Java,Shell,JavaScript | 0 | 0 | 1| 
 | r4j0x00 | 上周推送的 sudo 溢出漏洞的 Exploit | https://github.com/r4j0x00/exploits/tree/master/CVE-2021-3156 | https://github.com/r4j0x00 | I make exploits | None | None | 14 | 0 | 0 | 0 | 0 | Python,JavaScript,C++ | 228 | 68 | 1| 
 | ph4ntonn | Stowaway2.0来了～ | https://github.com/ph4ntonn/Stowaway/blob/master/README.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | peter-cui1221 | sqlinjection-detect: C语言编写的基于语义分析的SQL注入检测... | https://github.com/peter-cui1221/sqlinjection-detect | None |  | None | None | 1 | 0 | 0 | 0 | 0 | C | 0 | 0 | 1| 
@@ -208,6 +210,7 @@
 | ghaffarian | progex: extracting graphical program representations from ... | https://github.com/ghaffarian/progex/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | ffuf | Fast web fuzzer written in Go | https://github.com/ffuf/ffuf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Shell | 0 | 0 | 1| 
 | ffffffff0x | f8x: 红/蓝队环境自动化部署工具 | https://github.com/ffffffff0x/f8x | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Java,HTML | 0 | 0 | 1| 
+| esrrhs | pingtunnel: ICMP流量伪装转发工具 | https://github.com/esrrhs/pingtunnel | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | dsopas | MindAPI: Bringing order to API hacking chaos | https://github.com/dsopas/MindAPI | https://www.davidsopas.com | /me hacks! the webz | Portugal | Char49 | 14 | 0 | 0 | 0 | 0 | Go | 0 | 0 | 1| 
 | diversenok | 基于 Windows Native API 与电源管理组件交互 | https://github.com/diversenok/Powercfg | http://diversenok.github.io | Windows security researcher & system programmer. Student. | Russia / The Netherlands | None | 19 | 0 | 0 | 0 | 0 | Pascal,C | 4300 | 746 | 1| 
 | didi | 一站式Apache Kafka集群指标监控与运维管控平台 | https://github.com/didi/Logi-KafkaManager | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -259,6 +262,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Chrome 浏览器 NAT Slipstreaming 漏洞分析（CVE-2021–21210） | http://vovohelo.medium.com/how-i-found-my-first-chrome-bug-cve-2021-21210-248a21272248| 
 | Certified Pre-Owned: Abusing Active Directory Certificate Services | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fposts.specterops.io%2Fcertified-pre-owned-d95910965cd2| 
 | 深入理解与检测 C2 框架 — BabyShark。 | http://nasbench.medium.com/understanding-detecting-c2-frameworks-babyshark-641be4595845| 
 | Proxy Windows Tooling via SOCKS | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fposts.specterops.io%2Fproxy-windows-tooling-via-socks-c1af66daeef3| 
