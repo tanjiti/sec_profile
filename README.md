@@ -14,6 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 安全学术圈 | secquan | 以史为鉴：基于复制-生成网络的时态知识图谱建模 | https://mp.weixin.qq.com/s/YM6lYAA1FyGh1myhbiAXVQ | 1| 
+| ChaMd5安全团队 | chamd5sec | VPNFilter 分析报告 | https://mp.weixin.qq.com/s/0BZ4YB1EXR4ESHWo_DRDPQ | 1| 
 | 安全喷子 | gh_2a9c00f1d053 | 安全服务的发展 | https://mp.weixin.qq.com/s/NUEW-zwdB-15pIg7b6IC9w | 1| 
 
 
