@@ -1,0 +1,23 @@
+20210628	会议	https://www.inforsec.org/wp/?p=4841	2021年InForSec 网络空间安全国际学术研究交流会报告	inforsec.org	www.inforsec.org	/wp/
+20210628	恶意分析	https://mp.weixin.qq.com/s/JtnHqNx5PSER8WgpZS3Vag	如何使用 VirusTotal 狩猎恶意软件	qq.com	mp.weixin.qq.com	/s/JtnHqNx5PSER8WgpZS3Vag
+20210628	Web安全	http://www.engineering.org.cn/ch/10.15302/J-SSCAE-2021.03.003	基于人工智能的网络空间安全防御战略研究	engineering.org.cn	www.engineering.org.cn	/ch/10.15302/J-SSCAE-2021.03.003
+20210628	观点	https://www.chainnews.com/articles/003119950198.htm	法律视角解读首个打击虚拟货币交易的司法文件	chainnews.com	www.chainnews.com	/articles/003119950198.htm
+20210628	运维安全	https://github.com/riskscanner/riskscanner	RiskScanner: 是开源的公有云安全合规扫描平台	github.com	github.com	/riskscanner/riskscanner
+20210628	Web安全	https://mp.weixin.qq.com/s/bfILTCvuaBASdmWTd4BnoQ	“重门深锁”FormBook Crypter 执行隐匿技术精析	qq.com	mp.weixin.qq.com	/s/bfILTCvuaBASdmWTd4BnoQ
+20210628	杂志	https://www.sec-wiki.com/weekly/382	SecWiki周刊（第382期)	sec-wiki.com	www.sec-wiki.com	/weekly/382
+20210628	观点	https://mp.weixin.qq.com/s/NUEW-zwdB-15pIg7b6IC9w	安全服务的发展	qq.com	mp.weixin.qq.com	/s/NUEW-zwdB-15pIg7b6IC9w
+20210628	取证分析	https://github.com/seccome/Ehoney	Ehoney: 欺骗防御系统	github.com	github.com	/seccome/Ehoney
+20210628	Web安全	https://mp.weixin.qq.com/s/jgN5PjzFEc9Hy3TvA6Nmvw	D3FEND网络安全对策知识图谱	qq.com	mp.weixin.qq.com	/s/jgN5PjzFEc9Hy3TvA6Nmvw
+20210628	Web安全	https://github.com/esrrhs/pingtunnel	pingtunnel: ICMP流量伪装转发工具	github.com	github.com	/esrrhs/pingtunnel
+20210628	Web安全	https://mp.weixin.qq.com/s/w2wUl_9BjAaqhbVJTGxRjA	利用PHAR协议进行PHP反序列化攻击	qq.com	mp.weixin.qq.com	/s/w2wUl_9BjAaqhbVJTGxRjA
+20210628	Web安全	https://www.anquanke.com/post/id/245292	越权检测系统从零开发之-Chrome插件开发	anquanke.com	www.anquanke.com	/post/id/245292
+20210628	Web安全	https://www.anquanke.com/post/id/242645	从浅入深 Javascript 原型链与原型链污染	anquanke.com	www.anquanke.com	/post/id/242645
+20210628	恶意分析	https://mp.weixin.qq.com/s/0BZ4YB1EXR4ESHWo_DRDPQ	VPNFilter 分析报告	qq.com	mp.weixin.qq.com	/s/0BZ4YB1EXR4ESHWo_DRDPQ
+20210628	Web安全	https://mp.weixin.qq.com/s/Fh93JLtMQa9Qxp_xqEj3zg	网络空间测绘专题——资产地址动态变化研究	qq.com	mp.weixin.qq.com	/s/Fh93JLtMQa9Qxp_xqEj3zg
+20210628	Web安全	https://www.cdxy.me/?p=845	云原生架构下的API安全防护方案	cdxy.me	www.cdxy.me	/
+20210628	编程技术	https://mp.weixin.qq.com/s/HsSTwWdWzfHuXHdbgXXIeQ	编程语言测试综述	qq.com	mp.weixin.qq.com	/s/HsSTwWdWzfHuXHdbgXXIeQ
+20210628	恶意分析	https://www.cert.org.cn/publish/main/upload/File/2021%20Risk%20Analysis%20Report%20of%20Open%20Source%20Software%20%20.pdf	2021 年开源软件供应链安全风险研究报告	cert.org.cn	www.cert.org.cn	/publish/main/upload/File/2021%20Risk%20Analysis%20Report%20of%20Open%20Source%20Software%20%20.pdf
+20210628	漏洞分析	https://mp.weixin.qq.com/s/E6R-39_UHxXPw4qxuIqNmA	常规智能设备动态调试思路	qq.com	mp.weixin.qq.com	/s/E6R-39_UHxXPw4qxuIqNmA
+20210628	恶意分析	https://www.inforsec.org/wp/?p=4860	美国查封伊朗媒体域名事件背后的技术分析	inforsec.org	www.inforsec.org	/wp/
+20210628	恶意分析	https://chris124567.github.io/2021-06-23-survey-obfuscation/	A Brief Survey of Code Obfuscation Techniques	github.io	chris124567.github.io	/2021-06-23-survey-obfuscation/
+20210628	数据挖掘	https://mp.weixin.qq.com/s/YM6lYAA1FyGh1myhbiAXVQ	以史为鉴：基于复制-生成网络的时态知识图谱建模	qq.com	mp.weixin.qq.com	/s/YM6lYAA1FyGh1myhbiAXVQ

@@ -1,10 +1,10 @@
-Shell	2
 Python	2
+Shell	2
 C	1
+TypeScript	1
 CMake	1
 JavaScript	1
 C++	1
-TypeScript	1
 Rust	1
 Go	1
 Java	1
