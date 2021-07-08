@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 烽台科技 | fengtaisec | 工业企业工控安全人才矩阵 | https://mp.weixin.qq.com/s/pqGa10MzKYob0MQgxHOkhA | 1| 
 | 表图 | CyberSecurityCircle | 离职期员工的信息安全管控实践 | https://mp.weixin.qq.com/s/hIIyFbx562WREErC9Ygw0Q | 1| 
 | 桥的断想 | TasteMiss | 从0到1建设物联网安全实验室之设备篇 | https://mp.weixin.qq.com/s/iyoK3bQQLq6Rhxgebt4VBA | 1| 
 | 360政企安全 | gh_6db130c5163e | 预见Win11“前顾之忧”：360全球首家发现Win11高危漏洞，推出热补丁解决方案！ | https://mp.weixin.qq.com/s/_PjO4_wpe2LQc4BMfg-FGg | 1| 

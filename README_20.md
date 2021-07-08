@@ -579,7 +579,7 @@
 | 猎户攻防实验室 | TassLiehu |  | https://mp.weixin.qq.com/s/QiY07p9C5mqa8bqS1Xi2Pw | 17| 
 | 寒剑夜鸣 | HKT_1990 |  | https://mp.weixin.qq.com/s/Fb64DE0ThynWsjX5-qCTnA | 1| 
 | 安全威胁情报 | Threatbook |  | https://mp.weixin.qq.com/s/UIV0YaIlSJLcYT32XJQPlg | 6| 
-| 烽台科技 | fengtaisec |  | https://mp.weixin.qq.com/s/kUCb9g7j33vz0OjUiCUr7g | 2| 
+| 烽台科技 | fengtaisec |  | https://mp.weixin.qq.com/s/kUCb9g7j33vz0OjUiCUr7g | 3| 
 | 国信安全研究院 | CSI_SIC |  | https://mp.weixin.qq.com/s/TU-kpCP72rM0c-6vs2ntxw | 2| 
 | zjutcsa |  |  | http://mp.weixin.qq.com/s/XDGGcJPkBrVHxlw_6o6t4g | 1| 
 | CCF系统软件专委 |  |  | https://mp.weixin.qq.com/s/6tj4lh0ej7aNkQy0DdfWjg | 1| 
