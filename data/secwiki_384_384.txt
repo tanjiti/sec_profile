@@ -1,0 +1,20 @@
+20210705	Web安全	https://mp.weixin.qq.com/s/bb0p5-jIzYfs0KQRvw2VUg	SHELLPUB 河马查杀服务端升级维护公告	qq.com	mp.weixin.qq.com	/s/bb0p5-jIzYfs0KQRvw2VUg
+20210705	编程技术	https://blog.csdn.net/a82514921/article/details/118472681	Java方法完整调用链生成工具	csdn.net	blog.csdn.net	/a82514921/article/details/118472681
+20210705	杂志	https://www.sec-wiki.com/weekly/383	SecWiki周刊（第383期)	sec-wiki.com	www.sec-wiki.com	/weekly/383
+20210705	恶意分析	https://github.com/rabbitmask/Libra	Libra: 网站篡改、暗链、死链监测平台	github.com	github.com	/rabbitmask/Libra
+20210705	Web安全	https://www.sec-in.com/article/1110	CVE-2021-1675远程RCE复现	sec-in.com	www.sec-in.com	/article/1110
+20210705	运维安全	https://mp.weixin.qq.com/s/hIIyFbx562WREErC9Ygw0Q	离职期员工的信息安全管控实践	qq.com	mp.weixin.qq.com	/s/hIIyFbx562WREErC9Ygw0Q
+20210705	Web安全	https://mp.weixin.qq.com/s/DFJaILmNxTl1EAyksqQZ9w	2021年⼯业信息安全技能⼤赛-线上第⼀场WriteUp	qq.com	mp.weixin.qq.com	/s/DFJaILmNxTl1EAyksqQZ9w
+20210705	恶意分析	https://mp.weixin.qq.com/s/18BB0eyKkiegmUFF1kPMaA	附件木马伪装的N种方法	qq.com	mp.weixin.qq.com	/s/18BB0eyKkiegmUFF1kPMaA
+20210705	设备安全	https://mp.weixin.qq.com/s/iyoK3bQQLq6Rhxgebt4VBA	从0到1建设物联网安全实验室之设备篇	qq.com	mp.weixin.qq.com	/s/iyoK3bQQLq6Rhxgebt4VBA
+20210705	Web安全	https://mp.weixin.qq.com/s/gLg0pdVRWl3hJMB5au61rw	关于 Kerberos 每个人都应该知道这些	qq.com	mp.weixin.qq.com	/s/gLg0pdVRWl3hJMB5au61rw
+20210705	运维安全	http://ckev.in/j/ztcn/	零信任实践分享	ckev.in	ckev.in	/j/ztcn/
+20210705	其它	https://mp.weixin.qq.com/s/pqGa10MzKYob0MQgxHOkhA	工业企业工控安全人才矩阵	qq.com	mp.weixin.qq.com	/s/pqGa10MzKYob0MQgxHOkhA
+20210705	会议	https://mp.weixin.qq.com/s/tgdhy8ETOt3k6oYIn5yVkA	PETS 2021 论文录用列表	qq.com	mp.weixin.qq.com	/s/tgdhy8ETOt3k6oYIn5yVkA
+20210705	Web安全	https://mp.weixin.qq.com/s/NdR6XBFvhSOBsLVVQmTXJg	利用 CloudFront 中继 Cobalt Strike 流量	qq.com	mp.weixin.qq.com	/s/NdR6XBFvhSOBsLVVQmTXJg
+20210705	Web安全	https://mp.weixin.qq.com/s/NesaxzuULBkkLBPkg7i8wQ	浅谈云上攻防——Web应用托管服务中的元数据安全隐患	qq.com	mp.weixin.qq.com	/s/NesaxzuULBkkLBPkg7i8wQ
+20210705	运维安全	https://mp.weixin.qq.com/s/2YUYAcV5qpKBdnApdsrpiA	SOAR 的安全运营探索	qq.com	mp.weixin.qq.com	/s/2YUYAcV5qpKBdnApdsrpiA
+20210705	论文	https://mp.weixin.qq.com/s/JcKS6MaIsY35wf6x3fMGEQ	USENIX Security 2021 论文录用列表	qq.com	mp.weixin.qq.com	/s/JcKS6MaIsY35wf6x3fMGEQ
+20210705	无线安全	https://mp.weixin.qq.com/s/PTYMBowzZre7U02CNrbnFg	太空态势感知能力介绍	qq.com	mp.weixin.qq.com	/s/PTYMBowzZre7U02CNrbnFg
+20210705	数据挖掘	https://mp.weixin.qq.com/s/zizQnPTi_B6BqajrcJwKUg	基于图神经网络的多变量时间序列异常检测	qq.com	mp.weixin.qq.com	/s/zizQnPTi_B6BqajrcJwKUg
+20210705	恶意分析	https://mp.weixin.qq.com/s/eDVVFhmXveayT-u44UZL2A	区块链链上追踪基础篇【上】：地址标签入门	qq.com	mp.weixin.qq.com	/s/eDVVFhmXveayT-u44UZL2A
