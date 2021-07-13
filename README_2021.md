@@ -14,15 +14,15 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| ZLabs | gh_339ee98cec1b | 区块链链上追踪基础篇【中】：地址标签的识别（1） | https://mp.weixin.qq.com/s/W0qXMPrQ3XbiT7ScNB1xCg | 2| 
 | 卫星黑客 | Satellite_Hacker | 太空态势感知能力介绍 | https://mp.weixin.qq.com/s/PTYMBowzZre7U02CNrbnFg | 1| 
 | 云鼎实验室 | YunDingLab | 浅谈云上攻防——Web应用托管服务中的元数据安全隐患 | https://mp.weixin.qq.com/s/NesaxzuULBkkLBPkg7i8wQ | 1| 
-| ZLabs | gh_339ee98cec1b | 区块链链上追踪基础篇【上】：地址标签入门 | https://mp.weixin.qq.com/s/eDVVFhmXveayT-u44UZL2A | 1| 
 | AISeer | AISeer520 | AAAI 2021 , 基于图神经网络的多变量时间序列异常检测 | https://mp.weixin.qq.com/s/zizQnPTi_B6BqajrcJwKUg | 1| 
-| 这里是河马 | gh_f779ec60843d | SHELLPUB 升级维护公告 | https://mp.weixin.qq.com/s/bb0p5-jIzYfs0KQRvw2VUg | 1| 
 | 蓝鸟安全 | gh_d365aca1d051 | 邮件攻防技术,附件木马伪装的N种方法 | https://mp.weixin.qq.com/s/18BB0eyKkiegmUFF1kPMaA | 1| 
 | 烽台科技 | fengtaisec | 工业企业工控安全人才矩阵 | https://mp.weixin.qq.com/s/pqGa10MzKYob0MQgxHOkhA | 1| 
 | 表图 | CyberSecurityCircle | 离职期员工的信息安全管控实践 | https://mp.weixin.qq.com/s/hIIyFbx562WREErC9Ygw0Q | 1| 
 | 桥的断想 | TasteMiss | 从0到1建设物联网安全实验室之设备篇 | https://mp.weixin.qq.com/s/iyoK3bQQLq6Rhxgebt4VBA | 1| 
+| 这里是河马 | gh_f779ec60843d | SHELLPUB 升级维护公告 | https://mp.weixin.qq.com/s/bb0p5-jIzYfs0KQRvw2VUg | 1| 
 | 360政企安全 | gh_6db130c5163e | 预见Win11“前顾之忧”：360全球首家发现Win11高危漏洞，推出热补丁解决方案！ | https://mp.weixin.qq.com/s/_PjO4_wpe2LQc4BMfg-FGg | 1| 
 | 编程语言Lab | HW-PLLab | 编程语言测试综述 | https://mp.weixin.qq.com/s/HsSTwWdWzfHuXHdbgXXIeQ | 1| 
 | 雁行安全团队 | YX_Security | 通过ScriptEngine实现冰蝎shell免杀 | https://mp.weixin.qq.com/s/SU5B7ULgmOC7HsRscMrkKw | 1| 
@@ -71,7 +71,7 @@
 | 合规科技研究 | ComplianceTech | 数据安全技术专题——数据分类分级的技术实践指南 | https://mp.weixin.qq.com/s/WknW2_lR4ryBLIgCma30Vw | 1| 
 | 反诈骗先锋 | fanzhapianxf | 关于反诈工作的几个问题及思考 | https://mp.weixin.qq.com/s/ps7GG2rKc5-J8J2Iybhi8Q | 1| 
 | 白帽子飙车路 | hack-by-txf | Cobalt Strike 利用 Chrome 0day 上线 | https://mp.weixin.qq.com/s/LOpAu8vs8ob85W3sCmXMew | 1| 
-| 一个人的安全笔记 | xjiek2015 | [HTB]Worker Writeup | https://mp.weixin.qq.com/s/J5jKKfbwBbOTjpnwcFotrg | 13| 
+| 一个人的安全笔记 | xjiek2015 | [HTB]Worker Writeup | https://mp.weixin.qq.com/s/J5jKKfbwBbOTjpnwcFotrg | 14| 
 | GuyoungStudio | guyoungnet | 可扩展跨平台网络安全工具套件 CaptfEncoder v2.0.0 发布 | https://mp.weixin.qq.com/s?__biz=MzI0ODU5Mzg0NA==&mid=2247483998&idx=1&sn=baaa69c5576a1e52b7d8aeb9482e1cf3&chksm=e99f2e85dee8a79304a5535dbf6c77e9f9def6b2a7438c73e28792ac5ea3c628a02204d116e6&token=1448493475&lang=zh_CN#rd | 1| 
 | 郑海山dump | zhsdump | 网络空间测绘：IP洞察 | https://mp.weixin.qq.com/s/gVTyhwgxC-UUxhB4YdXKeg | 1| 
 | 信息安全与通信保密杂志社 | cismag2013 | 英国网络作战力量浅析 | https://mp.weixin.qq.com/s/z7Uq5vYotZBNk1yqJqAHxw | 4| 
@@ -168,7 +168,7 @@
 | 穿过丛林 | gh_f90eac70537b | 基于语义token分析的克隆代码检测系统 | https://mp.weixin.qq.com/s/e_NvzMbOqDspns3VLXBjYw | 4| 
 | 安全喷子 | gh_2a9c00f1d053 | ATT&CK 2020更新指南 | https://mp.weixin.qq.com/s/cPiVersg8VyK4fBTK8W1Ag | 2| 
 | 学术plus | caeit-e | 最新！人工智能网络安全威胁图谱 | https://mp.weixin.qq.com/s/4qbCusJde_z0AM1eDC4YiA | 1| 
-| 威胁棱镜 | THREAT_PRISM | 通过 ATT&CK 归因攻击 | https://mp.weixin.qq.com/s/NSAURU3qpYhhKs8Q8AdBag | 15| 
+| 威胁棱镜 | THREAT_PRISM | 通过 ATT&CK 归因攻击 | https://mp.weixin.qq.com/s/NSAURU3qpYhhKs8Q8AdBag | 16| 
 | 中国信息安全 | chinainfosec | 回顾 , 2020年下半年全球网络恐怖主义态势分析 | https://mp.weixin.qq.com/s/Us54DtL99pdCRErJWvsM8w | 3| 
 | 时间之外沉浮事 | tasnrh | 网空靶场：从炒作到现实-2020 | https://mp.weixin.qq.com/s/zu2Je_A_x06k78tzrXyjbg | 2| 
 | ChaMd5安全团队 | chamd5sec | 鲲鹏计算专场-WriteUp | https://mp.weixin.qq.com/s/S7d-oS_b3Xx688a_jeQC2w | 24| 
@@ -222,6 +222,7 @@
 | google | Google 开源一个 Binary Ninja 的插件，用于对高通骁龙 CPU 处理器的支持 | https://github.com/google/binja-hexagon | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Java,Python,Kotlin,JavaScript,C++,Dart,HTML,Starlark,Go,Rust | 0 | 0 | 2| 
 | golang | Go 语言社区计划在 1.17 版本增加对 Go Fuzz 测试的支持 | https://github.com/golang/go/issues/44551 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,TypeScript,HTML | 0 | 0 | 1| 
 | ghaffarian | progex: extracting graphical program representations from ... | https://github.com/ghaffarian/progex/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| fkie-cad | 固件提取、固件分析、固件文件比较自动化工具 | https://github.com/fkie-cad/FACT_core | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | ffuf | Fast web fuzzer written in Go | https://github.com/ffuf/ffuf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Shell | 0 | 0 | 1| 
 | ffffffff0x | f8x: 红/蓝队环境自动化部署工具 | https://github.com/ffffffff0x/f8x | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Java,HTML | 0 | 0 | 1| 
 | esrrhs | pingtunnel: ICMP流量伪装转发工具 | https://github.com/esrrhs/pingtunnel | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 

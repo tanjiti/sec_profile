@@ -14,8 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| ZLabs | gh_339ee98cec1b | 区块链链上追踪基础篇【中】：地址标签的识别（1） | https://mp.weixin.qq.com/s/W0qXMPrQ3XbiT7ScNB1xCg | 2| 
 | 卫星黑客 | Satellite_Hacker | 太空态势感知能力介绍 | https://mp.weixin.qq.com/s/PTYMBowzZre7U02CNrbnFg | 1| 
-| ZLabs | gh_339ee98cec1b | 区块链链上追踪基础篇【上】：地址标签入门 | https://mp.weixin.qq.com/s/eDVVFhmXveayT-u44UZL2A | 1| 
 | AISeer | AISeer520 | AAAI 2021 , 基于图神经网络的多变量时间序列异常检测 | https://mp.weixin.qq.com/s/zizQnPTi_B6BqajrcJwKUg | 1| 
 | 蓝鸟安全 | gh_d365aca1d051 | 邮件攻防技术,附件木马伪装的N种方法 | https://mp.weixin.qq.com/s/18BB0eyKkiegmUFF1kPMaA | 1| 
 | 表图 | CyberSecurityCircle | 离职期员工的信息安全管控实践 | https://mp.weixin.qq.com/s/hIIyFbx562WREErC9Ygw0Q | 1| 
@@ -49,7 +49,7 @@
 | 合规科技研究 | ComplianceTech | 数据安全技术专题——数据分类分级的技术实践指南 | https://mp.weixin.qq.com/s/WknW2_lR4ryBLIgCma30Vw | 1| 
 | 反诈骗先锋 | fanzhapianxf | 关于反诈工作的几个问题及思考 | https://mp.weixin.qq.com/s/ps7GG2rKc5-J8J2Iybhi8Q | 1| 
 | 白帽子飙车路 | hack-by-txf | Cobalt Strike 利用 Chrome 0day 上线 | https://mp.weixin.qq.com/s/LOpAu8vs8ob85W3sCmXMew | 1| 
-| 一个人的安全笔记 | xjiek2015 | [HTB]Worker Writeup | https://mp.weixin.qq.com/s/J5jKKfbwBbOTjpnwcFotrg | 13| 
+| 一个人的安全笔记 | xjiek2015 | [HTB]Worker Writeup | https://mp.weixin.qq.com/s/J5jKKfbwBbOTjpnwcFotrg | 14| 
 | GuyoungStudio | guyoungnet | 可扩展跨平台网络安全工具套件 CaptfEncoder v2.0.0 发布 | https://mp.weixin.qq.com/s?__biz=MzI0ODU5Mzg0NA==&mid=2247483998&idx=1&sn=baaa69c5576a1e52b7d8aeb9482e1cf3&chksm=e99f2e85dee8a79304a5535dbf6c77e9f9def6b2a7438c73e28792ac5ea3c628a02204d116e6&token=1448493475&lang=zh_CN#rd | 1| 
 | RedTeam | RedTeams | 浅析 AWS S3 子域名接管漏洞 | https://mp.weixin.qq.com/s/q3bsrCKacuepKoFljYxJcg | 4| 
 | 架构师技术联盟 | ICT_Architect | 深度分析：4种国产CPU架构和6大品牌 | https://mp.weixin.qq.com/s/FoAPSNW0LFKuerEPJfFmgw | 1| 
@@ -96,7 +96,7 @@
 | 网络空间安全科学与技术 | gh_d54d2c7cabd7 | 2020年综述性论文合辑（上） | https://mp.weixin.qq.com/s/e-3rSS2F7lVV9SMMnoqylQ | 2| 
 | 开源情报研究所 | OSINTR | 【技巧】如何查找相关人的信息 | https://mp.weixin.qq.com/s/yeuMivJaizmAQAHL1poHTw | 4| 
 | 安全分析与研究 | MalwareAnalysis | 聊聊APT的溯源分析 | https://mp.weixin.qq.com/s/hSnOYoC71z_HIU4PVf4tmw | 3| 
-| 威胁棱镜 | THREAT_PRISM | 发现并提取 Cobalt Strike 的配置信息 | https://mp.weixin.qq.com/s/-jajjhu-6KVQvaZoh59Wuw | 17| 
+| 威胁棱镜 | THREAT_PRISM | 发现并提取 Cobalt Strike 的配置信息 | https://mp.weixin.qq.com/s/-jajjhu-6KVQvaZoh59Wuw | 18| 
 | 国网浙江信通公司 | gh_12020d981693 | 鲸蓝计划丨溯源反制基本思路与实战 | https://mp.weixin.qq.com/s/axNXFgyaD-5WSIkPwjkPrQ | 1| 
 | b1ngz的笔记本 | gh_70bda0a9ced0 | 自动化安全工具平台 - 架构笔记 | https://mp.weixin.qq.com/s/OMhS9yFlcpI9KOQduSxq9g | 1| 
 | 360技术 | qihoo_tech | 用DNS进行网络度量和安全分析 | https://mp.weixin.qq.com/s/L_wDNJtznQvrCyx1Kd1SlQ | 1| 
@@ -3927,7 +3927,7 @@
 | fuzzitdev | Jsfuzz: coverage-guided fuzz testing for Javascript | https://github.com/fuzzitdev/jsfuzz | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,CMake,Dockerfile,C++,Swift,HCL,Go,Java,Ruby,Rust | 234 | 11 | 1| 
 | forest0 | 微信聊天记录导出工具 | https://github.com/forest0/wechat_history_export | None |  | None | None | 5 | 0 | 0 | 0 | 0 | Python,C,HTML,Jupyter,Vim | 28 | 7 | 1| 
 | fofapro | 基于 Docker 镜像的漏洞靶场平台 | https://github.com/fofapro/vulfocus | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Vue,Java,Python,Go,CSS | 169 | 19 | 1| 
-| fkie-cad | cwe_checker:基于漏洞Pattern在Binary中搜索漏洞的BAP插件 | https://github.com/fkie-cad/cwe_checker | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Python,OCaml,C++,Emacs,Dockerfile | 0 | 0 | 2| 
+| fkie-cad | cwe_checker:基于漏洞Pattern在Binary中搜索漏洞的BAP插件 | https://github.com/fkie-cad/cwe_checker | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Python,OCaml,C++,Emacs,Dockerfile | 0 | 0 | 3| 
 | firmianay | IoT-vulhub: IoT 固件漏洞复现环境 | https://github.com/firmianay/IoT-vulhub | https://firmianay.github.io | Information Security Student & CTF Player & member of @XDSEC, @xdlinux | China | Xidian University | 16 | 0 | 0 | 0 | 0 | Python,C,Shell | 2000 | 414 | 1| 
 | fireeye | fireeye/SharPersist | https://github.com/fireeye/SharPersist | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Vue,Python,JavaScript,C++,C#,Go,PowerShell | 0 | 0 | 4| 
 | fiht | educn-sqlScan: 对全国edu域名以及其二级域名进行的一次Sql注入 | https://github.com/fiht/educn-sqlScan | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
