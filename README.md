@@ -56,6 +56,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Part 2: Dive into Zoom Applications | http://rakesh-thodupunoori.medium.com/part-2-dive-into-zoom-applications-1b01091345c1| 
 | 利用 Zoom 会议软件的 0Day 实施红队渗透测试 | http://medium.com/manomano-tech/a-red-team-operation-leveraging-a-zero-day-vulnerability-in-zoom-80f57fb0822e| 
 | How to unpack UPX packed malware with a SINGLE breakpoint | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Finfosecwriteups.com%2Fhow-to-unpack-upx-packed-malware-with-a-single-breakpoint-4d3a23e21332| 
 | Hacking the dlink DIR-615 for fun and no profit | http://noob3xploiter.medium.com/hacking-the-dlink-dir-615-for-fun-and-no-profit-a2f1689f9920| 
