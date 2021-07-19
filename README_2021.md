@@ -14,7 +14,13 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
-| ZLabs | gh_339ee98cec1b | 区块链链上追踪基础篇【中】：地址标签的识别（1） | https://mp.weixin.qq.com/s/W0qXMPrQ3XbiT7ScNB1xCg | 2| 
+| 数说安全 | csreviews | 2021年中国网络安全市场分类与全景图 | https://mp.weixin.qq.com/s/5hjlfqNa3VPqH-xs7X7NWw | 1| 
+| 莫哥谈安全 | gh_247dfbdf3d43 | D3FEND学习笔记 | https://mp.weixin.qq.com/s/WsCgI6ilaGL8XJPUJUTCdQ | 1| 
+| 社媒派SMP | CIPS-SMP | THUIR司法类案检索技术研究进展 | https://mp.weixin.qq.com/s/VgOKXX0mJSWol0CKOUMJOA | 1| 
+| 甲方安全建设 | blueteams | Active Directory 证书服务快速防御指南 | https://mp.weixin.qq.com/s/XTl9WkdZwCKke_0tLOUr2w | 1| 
+| 灾难控制 局 | SecDamageControl | Elkeid-RASP 发布，易部署的RASP方案。 | https://mp.weixin.qq.com/s/o0rSOLQ34-Ph0aY-_5tfSA | 1| 
+| 字节跳动技术团队 | BytedanceTechBlog | 手把手教你搭建一个无框架埋点体系 | https://mp.weixin.qq.com/s/QanYnjRN5TM_NlJtQzCALg | 1| 
+| ZLabs | gh_339ee98cec1b | 区块链链上追踪基础篇【中】：地址标签的识别（1） | https://mp.weixin.qq.com/s/W0qXMPrQ3XbiT7ScNB1xCg | 3| 
 | 卫星黑客 | Satellite_Hacker | 太空态势感知能力介绍 | https://mp.weixin.qq.com/s/PTYMBowzZre7U02CNrbnFg | 1| 
 | 云鼎实验室 | YunDingLab | 浅谈云上攻防——Web应用托管服务中的元数据安全隐患 | https://mp.weixin.qq.com/s/NesaxzuULBkkLBPkg7i8wQ | 1| 
 | AISeer | AISeer520 | AAAI 2021 , 基于图神经网络的多变量时间序列异常检测 | https://mp.weixin.qq.com/s/zizQnPTi_B6BqajrcJwKUg | 1| 
@@ -61,7 +67,7 @@
 | 上交所技术服务 | SSE-TechService | 【交易技术前沿】魔高一尺，道高一丈，上交所VPN攻防札记 | https://mp.weixin.qq.com/s/uygNjOZmBwGcMdvILN-psw | 1| 
 | 非攻安全 | gh_95fa33ba0a19 | 通过DNS协议探测Cobalt Strike服务器 | https://mp.weixin.qq.com/s/peIpPJLt4NuJI1a31S_qbQ | 1| 
 | 火线Zone | huoxian_zone | 高版本JDK下的Jolokia Realm JNDI RCE小记 | https://mp.weixin.qq.com/s/Z3qP6xW504tuIQ5CJdDSPQ | 1| 
-| 我需要的是坚持 | MyPersistence2020 | 做为攻击者那些年的一些想法 | https://mp.weixin.qq.com/s/TtV01MA2C6ZJQG5wtFOSBg | 1| 
+| 我需要的是坚持 | MyPersistence2020 | 做为攻击者那些年的一些想法 | https://mp.weixin.qq.com/s/TtV01MA2C6ZJQG5wtFOSBg | 2| 
 | 开放隐私计算 | openmpc | 西湖论剑网络安全：冯登国院士讲隐私保护技术 | https://mp.weixin.qq.com/s/GjsLd4lkxVw0vKUFM6FvjQ | 1| 
 | code秘密花园 | code_mmhy | 浅谈前端代码加密 | https://mp.weixin.qq.com/s/UqGA97TLEn5BkzjVDX_EhA | 3| 
 | Purpleroc的札记 | purpleroc_0xFA | 一些隧道搭建 | https://mp.weixin.qq.com/s/Lis8i6kwvDhd_TGYrioc1Q | 1| 
@@ -119,7 +125,7 @@
 | 安全分析与研究 | MalwareAnalysis | 恶意软件分析工具集成环境 | https://mp.weixin.qq.com/s/WMWQUWu8dt45iQsrcLfSxg | 2| 
 | 网络安全观 | SecurityInsights | 美国国家安全局发布零信任安全模型指南 | https://mp.weixin.qq.com/s/UsClBKw4Fglcn8ludJtRKQ | 1| 
 | 白日放歌须纵9 | Day_Dreamer_BR | 从“产品模式”到“运营模式” | https://mp.weixin.qq.com/s/mIbwVj3oVEnippj5YGkNTA | 1| 
-| 网安思考 | gh_e53abd003964 | 美军网络空间作战理论体系初探 | https://mp.weixin.qq.com/s/Im-bacvc_1GGvLPtRspicw | 2| 
+| 网安思考 | gh_e53abd003964 | 美军网络空间作战理论体系初探 | https://mp.weixin.qq.com/s/Im-bacvc_1GGvLPtRspicw | 3| 
 | 逐日实验室 | gh_093e54310392 | 红蓝对抗之邮件伪造 | https://mp.weixin.qq.com/s/tOOBZ1aC6SsjslCM70WKBQ | 1| 
 | 张三丰的疯言疯语 | zsfnotes | 漏洞管理的“新药” | https://mp.weixin.qq.com/s/5Y-3r1KuJgCbNrWUGoKq0w | 1| 
 | 安全研究GoSSIP | GoSSIPSJTU | NDSS 2021 参会小记—2月22日论文报告 | https://mp.weixin.qq.com/s/LI49ioKYMksguQMqKH1Rcw | 2| 
@@ -135,7 +141,7 @@
 | 锦行信息安全 | jeeseensec | 技术分享 , 锦行杯比赛 Writeup | https://mp.weixin.qq.com/s/mYCDsbERsgph5zu-4-lyKQ | 6| 
 | 网络空间安全军民融合创新中心 | jmrh1226 | 2020年全球国防网络空间情况综述（武器技术篇-下） | https://mp.weixin.qq.com/s/kd6YahJcqB2NWq3IP2XztQ | 4| 
 | 百度安全实验室 | BaiduX_lab | 基于DTLS协议的反射攻击深度分析 | https://mp.weixin.qq.com/s/Ye_AuMDLQotv3M5rv9OmOA | 1| 
-| 赵武的自留地 | gh_86033a4f818d | 让网络空间测绘技术不再那么飘忽不定 | https://mp.weixin.qq.com/s/lr39F9kNOfHlMimgymzVwg | 3| 
+| 赵武的自留地 | gh_86033a4f818d | 让网络空间测绘技术不再那么飘忽不定 | https://mp.weixin.qq.com/s/lr39F9kNOfHlMimgymzVwg | 4| 
 | 微步在线研究响应中心 | gh_c108d4d389bf | Metasploit 的 payload 特征 | https://mp.weixin.qq.com/s/C8jHikFag_CulJIcq0filg | 7| 
 | 字节跳动安全中心 | TouTiaoSec | 安卓Native层共享库fuzzing技术思路及实践 | https://mp.weixin.qq.com/s/eqYj385SGCUo5errVx2CZg | 3| 
 | 鸟哥谈云安全 | cnbirdsecintel | 云安全架构连载之一-Azure整体架构及安全亮点详解 | https://mp.weixin.qq.com/s/QNBlsBJaWNXsZLEuNRQcvQ | 3| 
@@ -150,14 +156,14 @@
 | 绿盟科技研究通讯 | nsfocus_research | 关于恶意软件加密流量检测的思考 | https://mp.weixin.qq.com/s/hVq3eBMDsX6tj1PsoUpy8Q | 7| 
 | vivo千镜安全实验室 | gh_54ff3f871510 | 常见的匿名化隐私保护技术 | https://mp.weixin.qq.com/s/46yaHiXqDpq4cY4W1uqKsQ | 2| 
 | BlockSec Team | gh_57d94ebc8526 | 以太坊钓鱼合约：因为了解，所以上当 | https://mp.weixin.qq.com/s/4zztI9f-pzvLxVFxlVdgMw | 2| 
-| 看雪学院 | ikanxue | Cobalt Strike4.0远控木马分析 | https://mp.weixin.qq.com/s/Sv0lR4G2eQf4_L8W4CqRYw | 10| 
+| 看雪学院 | ikanxue | Cobalt Strike4.0远控木马分析 | https://mp.weixin.qq.com/s/Sv0lR4G2eQf4_L8W4CqRYw | 11| 
 | SecWiki | SecWiki | SecWiki安全周刊-年卷-2020 | https://mp.weixin.qq.com/s/pI495N48AYbA3gYkf4zlqQ | 2| 
 | 腾讯安全应急响应中心 | tsrc_team | 基于机器学习的Web管理后台识别方法探索 | https://mp.weixin.qq.com/s/vccQcK2GNqWkGuxEGe22Zg | 9| 
 | 青藤实验室 | gh_151a64925040 | SharePoint Rce 系列分析（三） | https://mp.weixin.qq.com/s/Z2hDtlsu0zgKY8YWhDBS7g | 2| 
 | 人民公安报 | rmgabs | 公安部网安局公布一批网络黑产案例 | https://mp.weixin.qq.com/s/uXupT3yeeOA9NWVjQORgDQ | 1| 
 | 启明星辰专家视野 | VenusExpertsVision | 自动化渗透测试系统技术路径分析 | https://mp.weixin.qq.com/s/gtXfPvT8Yatp3IMVdCID7Q | 1| 
 | FreeBuf | freebuf | 关于PDD员工发帖溯源联想到的相关技术与实现 | https://mp.weixin.qq.com/s/coRsNLMT_FAr6xSHwPgOUg | 5| 
-| 安全学术圈 | secquan | 使用自己的代码查找漏洞：检测功能相似但不一致的代码 | https://mp.weixin.qq.com/s/ELbtEhd1wedkEqhboPpLuQ | 25| 
+| 安全学术圈 | secquan | 使用自己的代码查找漏洞：检测功能相似但不一致的代码 | https://mp.weixin.qq.com/s/ELbtEhd1wedkEqhboPpLuQ | 27| 
 | 阿里云安全 | aliyunsec | 对 SolarWinds 事件更深的思考：如何防御供应链攻击 | https://mp.weixin.qq.com/s/GdER32Z7K86boHVc-Kic3g | 1| 
 | 360Quake空间测绘 | gh_0284fd4851e7 | 浅析开源蜜罐识别与全网测绘 | https://mp.weixin.qq.com/s/hq-z2HBGz3nehnCVg_H-RQ | 2| 
 | 深信服千里目安全实验室 | Further_eye | 【高级持续性威胁跟踪】红队视角看Sunburst后门中的TTPs | https://mp.weixin.qq.com/s/wtEbawfOd1g_T2ovp1SaGg | 3| 
@@ -165,10 +171,10 @@
 | ENYA物語 | gh_9f583a318c52 | 技術型管理人的自我成長 | https://mp.weixin.qq.com/s/moARUZG3BNOJL7EAiXDMJA | 1| 
 | 潇湘信安 | xxxasec | 记一次匈牙利服务器提权案例 | https://mp.weixin.qq.com/s/kfC4ajyJqH0GNskqgSsQVw | 5| 
 | 酒仙桥六号部队 | anfu-360 | 从访客网络到潜入机房 | https://mp.weixin.qq.com/s/T7A7ydK1EaEwNNKnBwN9Aw | 2| 
-| 穿过丛林 | gh_f90eac70537b | 基于语义token分析的克隆代码检测系统 | https://mp.weixin.qq.com/s/e_NvzMbOqDspns3VLXBjYw | 4| 
+| 穿过丛林 | gh_f90eac70537b | 基于语义token分析的克隆代码检测系统 | https://mp.weixin.qq.com/s/e_NvzMbOqDspns3VLXBjYw | 5| 
 | 安全喷子 | gh_2a9c00f1d053 | ATT&CK 2020更新指南 | https://mp.weixin.qq.com/s/cPiVersg8VyK4fBTK8W1Ag | 2| 
 | 学术plus | caeit-e | 最新！人工智能网络安全威胁图谱 | https://mp.weixin.qq.com/s/4qbCusJde_z0AM1eDC4YiA | 1| 
-| 威胁棱镜 | THREAT_PRISM | 通过 ATT&CK 归因攻击 | https://mp.weixin.qq.com/s/NSAURU3qpYhhKs8Q8AdBag | 16| 
+| 威胁棱镜 | THREAT_PRISM | 通过 ATT&CK 归因攻击 | https://mp.weixin.qq.com/s/NSAURU3qpYhhKs8Q8AdBag | 17| 
 | 中国信息安全 | chinainfosec | 回顾 , 2020年下半年全球网络恐怖主义态势分析 | https://mp.weixin.qq.com/s/Us54DtL99pdCRErJWvsM8w | 3| 
 | 时间之外沉浮事 | tasnrh | 网空靶场：从炒作到现实-2020 | https://mp.weixin.qq.com/s/zu2Je_A_x06k78tzrXyjbg | 2| 
 | ChaMd5安全团队 | chamd5sec | 鲲鹏计算专场-WriteUp | https://mp.weixin.qq.com/s/S7d-oS_b3Xx688a_jeQC2w | 24| 
@@ -205,9 +211,11 @@
 | nyxgeek | 渗透测试时枚举 OneDrive 合法用户的工具 | https://github.com/nyxgeek/onedrive_user_enum | None | rebel scum, nerfherder, starbuck | hacking gibsons | None | 29 | 0 | 0 | 0 | 0 | Python,Shell,PowerShell | 254 | 59 | 1| 
 | nikic | PHP-Parser:用PHP编写的PHP解析器来分析代码工作。 | https://github.com/nikic/PHP-Parser | https://nikic.github.io/ |  | Berlin, Germany | JetBrains | 75 | 0 | 0 | 0 | 0 | C,PHP | 29200 | 6500 | 1| 
 | nccgroup | PyBeacon - NCCGroup 开源的用于处理 Cobalt Strike beacons 的脚本 | https://github.com/nccgroup/pybeacon | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,C#,Shell,Elixir,Rust | 2600 | 393 | 1| 
+| mvt-project | MVT - 通过取证信息分析 iOS/Android 手机是否已被入侵的工具 | https://github.com/mvt-project/mvt | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | marijuanARM | iOS 降级工具 futurerestore 更新 v194 版本 | https://github.com/marijuanARM/futurerestore/releases/tag/194 | https://discord.gg/fAngssA | python developer , discord link below , avatar by @syns | None | None | 25 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | maddiestone | Project Zero Maddie Stone 对 2020 年野外漏洞利用情况的综述 | https://github.com/maddiestone/ConPresentations/blob/master/Enigma2021.StateOf0day.pdf | http://twitter.com/maddiestone |  | None | None | 4 | 0 | 0 | 0 | 0 | Python | 949 | 122 | 1| 
 | lcvvvv | Kscan：轻量级的资产发现工具 | https://github.com/lcvvvv/kscan | None |  | None | None | 3 | 1 | 0 | 0 | 0 | Go | 0 | 0 | 1| 
+| klezVirus | CheeseTools: Self-developed tools for Lateral Movement/Cod... | https://github.com/klezVirus/CheeseTools | https://github.com/klezVirus?tab=followers | Lucky husband, proud father, and security researcher working for BSI | IT | BSI CSIR | 32 | 0 | 0 | 0 | 0 | C#,Python,JavaScript,C++ | 0 | 0 | 1| 
 | kean | 有开发者开源的一款 macOS、iOS 日志可视化和日志共享工具 | https://github.com/kean/Pulse | http://kean.blog | Software Engineer. Prev @mailru. Moscovite. Likes porridge with 🍓 | New York | None | 28 | 0 | 0 | 0 | 0 | Objective-C,Swift | 0 | 0 | 1| 
 | jweny | pocassist: 开源漏洞测试框架 | https://github.com/jweny/pocassist | https://github.com/jweny?tab=followers | Qihoo360 CloudSec Team. Security Engineer or Developer | 北京 | Qihoo360 & 0-sec Team | 17 | 0 | 0 | 0 | 0 | Go,Python,Java,PLpgSQL,XSLT | 0 | 0 | 1| 
 | jsherman212 | XNU 内核 Hook 框架，基于 checkra1n pongoOS | https://github.com/jsherman212/xnuspy | https://twitter.com/jsherma100 | CS student, interested in security research & exploit dev | None | None | 14 | 0 | 0 | 0 | 0 | C | 206 | 21 | 1| 
@@ -278,6 +286,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| macOS TCC 隐私保护机制不限制对 Home 目录进行访问，SSH 密钥等其他一些敏感信息可被直接访问 | http://cedowens.medium.com/initial-access-checks-on-macos-531dd2d0cee6| 
 | Part 2: Dive into Zoom Applications | http://rakesh-thodupunoori.medium.com/part-2-dive-into-zoom-applications-1b01091345c1| 
 | 利用 Zoom 会议软件的 0Day 实施红队渗透测试 | http://medium.com/manomano-tech/a-red-team-operation-leveraging-a-zero-day-vulnerability-in-zoom-80f57fb0822e| 
 | How to unpack UPX packed malware with a SINGLE breakpoint | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Finfosecwriteups.com%2Fhow-to-unpack-upx-packed-malware-with-a-single-breakpoint-4d3a23e21332| 
@@ -343,6 +352,8 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 当可解释人工智能遇上知识图谱 | https://zhuanlan.zhihu.com/p/386458680| 
+| 从邮件窃密活动探索新的文件加密传输方式 | https://zhuanlan.zhihu.com/p/389024302| 
 | 从BAB到SLSA——谈Google的软件供应链风险治理 | https://zhuanlan.zhihu.com/p/382721804| 
 | ChinaSys十周年感想 | https://zhuanlan.zhihu.com/p/374658103| 
 | 不确定性知识图谱的表示和推理 | https://zhuanlan.zhihu.com/p/369068016| 

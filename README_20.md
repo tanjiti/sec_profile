@@ -14,7 +14,11 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
-| ZLabs | gh_339ee98cec1b | 区块链链上追踪基础篇【中】：地址标签的识别（1） | https://mp.weixin.qq.com/s/W0qXMPrQ3XbiT7ScNB1xCg | 2| 
+| 莫哥谈安全 | gh_247dfbdf3d43 | D3FEND学习笔记 | https://mp.weixin.qq.com/s/WsCgI6ilaGL8XJPUJUTCdQ | 1| 
+| 社媒派SMP | CIPS-SMP | THUIR司法类案检索技术研究进展 | https://mp.weixin.qq.com/s/VgOKXX0mJSWol0CKOUMJOA | 1| 
+| 甲方安全建设 | blueteams | Active Directory 证书服务快速防御指南 | https://mp.weixin.qq.com/s/XTl9WkdZwCKke_0tLOUr2w | 1| 
+| 灾难控制 局 | SecDamageControl | Elkeid-RASP 发布，易部署的RASP方案。 | https://mp.weixin.qq.com/s/o0rSOLQ34-Ph0aY-_5tfSA | 1| 
+| ZLabs | gh_339ee98cec1b | 区块链链上追踪基础篇【中】：地址标签的识别（1） | https://mp.weixin.qq.com/s/W0qXMPrQ3XbiT7ScNB1xCg | 3| 
 | 卫星黑客 | Satellite_Hacker | 太空态势感知能力介绍 | https://mp.weixin.qq.com/s/PTYMBowzZre7U02CNrbnFg | 1| 
 | AISeer | AISeer520 | AAAI 2021 , 基于图神经网络的多变量时间序列异常检测 | https://mp.weixin.qq.com/s/zizQnPTi_B6BqajrcJwKUg | 1| 
 | 蓝鸟安全 | gh_d365aca1d051 | 邮件攻防技术,附件木马伪装的N种方法 | https://mp.weixin.qq.com/s/18BB0eyKkiegmUFF1kPMaA | 1| 
@@ -73,7 +77,7 @@
 | 赛博回忆录 | cybermemory | 大白话解释拟态安全，再不学就落伍了！ | https://mp.weixin.qq.com/s/UR0XbF02JJmo7RbNF1CYVw | 2| 
 | 涛涛不帅 | gh_39db459d9552 | VMware vCenter RCE (CVE-2021-21972) 漏洞复现与 Exp 编写 | https://mp.weixin.qq.com/s/2pvaQborwMM8UHnWS_CeXA | 1| 
 | 小面包的储物柜 | afubread | 浅谈如何有效落地DevSecOps（很浅很浅） | https://mp.weixin.qq.com/s/5eX3-SCfvFfRitb9_onjvw | 1| 
-| 网安思考 | gh_e53abd003964 | 美军网络空间作战理论体系初探 | https://mp.weixin.qq.com/s/Im-bacvc_1GGvLPtRspicw | 2| 
+| 网安思考 | gh_e53abd003964 | 美军网络空间作战理论体系初探 | https://mp.weixin.qq.com/s/Im-bacvc_1GGvLPtRspicw | 3| 
 | 安全研究GoSSIP | GoSSIPSJTU | NDSS 2021 参会小记—2月22日论文报告 | https://mp.weixin.qq.com/s/LI49ioKYMksguQMqKH1Rcw | 2| 
 | 我的安全学习笔记 | gh_3b8ed48b5c15 | 安利一款还不错的开源工具—Nuclei | https://mp.weixin.qq.com/s/C_-FRZMqF4ifzlx-ij4iIQ | 1| 
 | 思想花火 | ttfirework | 做信息安全BP的一些感悟 | https://mp.weixin.qq.com/s/qygwMIGX3PhbnKuPwQqfUQ | 2| 
@@ -96,7 +100,7 @@
 | 网络空间安全科学与技术 | gh_d54d2c7cabd7 | 2020年综述性论文合辑（上） | https://mp.weixin.qq.com/s/e-3rSS2F7lVV9SMMnoqylQ | 2| 
 | 开源情报研究所 | OSINTR | 【技巧】如何查找相关人的信息 | https://mp.weixin.qq.com/s/yeuMivJaizmAQAHL1poHTw | 4| 
 | 安全分析与研究 | MalwareAnalysis | 聊聊APT的溯源分析 | https://mp.weixin.qq.com/s/hSnOYoC71z_HIU4PVf4tmw | 3| 
-| 威胁棱镜 | THREAT_PRISM | 发现并提取 Cobalt Strike 的配置信息 | https://mp.weixin.qq.com/s/-jajjhu-6KVQvaZoh59Wuw | 18| 
+| 威胁棱镜 | THREAT_PRISM | 发现并提取 Cobalt Strike 的配置信息 | https://mp.weixin.qq.com/s/-jajjhu-6KVQvaZoh59Wuw | 19| 
 | 国网浙江信通公司 | gh_12020d981693 | 鲸蓝计划丨溯源反制基本思路与实战 | https://mp.weixin.qq.com/s/axNXFgyaD-5WSIkPwjkPrQ | 1| 
 | b1ngz的笔记本 | gh_70bda0a9ced0 | 自动化安全工具平台 - 架构笔记 | https://mp.weixin.qq.com/s/OMhS9yFlcpI9KOQduSxq9g | 1| 
 | 360技术 | qihoo_tech | 用DNS进行网络度量和安全分析 | https://mp.weixin.qq.com/s/L_wDNJtznQvrCyx1Kd1SlQ | 1| 
@@ -107,7 +111,7 @@
 | 360Quake空间测绘 | gh_0284fd4851e7 | 利用JARM指纹进行TLS服务端标记 | https://mp.weixin.qq.com/s/CTBO22SuQft1dBoHv2WRQg | 3| 
 | ATLAS Academy | atlas-cyber-academy | 2020网络安全大事记 - 监管判例篇 | https://mp.weixin.qq.com/s/60-O9GGYPNZZW6KVvY_c8w | 1| 
 | 大超的记事本 | Dachao_Dachao | 数据安全怎么做——静态敏感数据治理 | https://mp.weixin.qq.com/s/AejcWwJWxZWHf9dDRfVWPA | 2| 
-| 我需要的是坚持 | MyPersistence2020 | 从FireEye的泄露看红队的差距 | https://mp.weixin.qq.com/s/K2W-hgCUFOzgxrhF6U1s1A | 2| 
+| 我需要的是坚持 | MyPersistence2020 | 从FireEye的泄露看红队的差距 | https://mp.weixin.qq.com/s/K2W-hgCUFOzgxrhF6U1s1A | 3| 
 | 奇安信ATEAM | gh_266190cebfff | 从 CVE-2020-17144 看实战环境的漏洞武器化 | https://mp.weixin.qq.com/s/nVtE-OFoO076x6T0147AMw | 2| 
 | SecOps急行军 | SecOpsWithU | 红蓝对抗中的溯源反制实战 | https://mp.weixin.qq.com/s/Dswz7lxNpW5yLxmWKtqY6Q | 3| 
 | 安小记 | AnSecNote | MITRE ATT&CK基本概念 | https://mp.weixin.qq.com/s/yOJNWazCeGKKMR8titj3cg | 1| 
@@ -236,7 +240,7 @@
 | 物联网IOT安全 | IOTsafety | Cobalt Strike｜从入门到入狱 | https://mp.weixin.qq.com/s/WAqgHn0DrXerEeow131w4Q | 1| 
 | 大潘点点 | dapandiandian | 网安产业结构和动力分析——从合规型向能力型 | https://mp.weixin.qq.com/s/V6P-6X_fnw_kvHWMxtqwLg | 1| 
 | 安恒信息安全研究院 |  | 入侵分析钻石模型学习笔记 | https://mp.weixin.qq.com/s/akb1SLiXj8ts3-RxiXks2w | 4| 
-| 字节跳动技术团队 | toutiaotechblog | 字节跳动自研万亿级图数据库 & 图计算实践 | https://mp.weixin.qq.com/s/uYP8Eyz36JyTWska0hvtuA | 1| 
+| 字节跳动技术团队 | toutiaotechblog | 字节跳动自研万亿级图数据库 & 图计算实践 | https://mp.weixin.qq.com/s/uYP8Eyz36JyTWska0hvtuA | 2| 
 | 奇安信安全服务 |  | 红队实战攻防技术分享：Linux后门总结-各类隐藏技能 | https://mp.weixin.qq.com/s/B5cam9QN8eDHFuaFjBD34Q | 1| 
 | 悬剑武器库 |  | WebShell免杀之JSP | https://mp.weixin.qq.com/s/YJtfQTvowVr2azqBWGla1Q | 1| 
 | 360企业安全集团 |  | “美女与野兽”，Transparent Tribe启用新资产对印度空军发起特定攻击 | https://mp.weixin.qq.com/s/YY2h73A6KiFjnfjsJtWGNQ | 1| 
@@ -283,7 +287,7 @@
 | jaxsec |  | Linux For Pentester: socat Privilege Escalation(中英对照) | https://mp.weixin.qq.com/s?__biz=MzI5OTYzMjU1OA==&mid=2247483759&idx=1&sn=13cc7388d74532d0c77e2429e5c0ea2e&chksm=ec92d3aedbe55ab8573dad78ea7f0c68c3eae83c1fb585b9ee058f7d4d9b11b062d3566c5b92&mpshare=1&scene=23&srcid=&sharer_sharetime=1571632808853&sha | 3| 
 | AD风险实验室 |  | 业务安全的资源层攻防时代 | https://mp.weixin.qq.com/s/nkf5yRrAw-IA5_ROD6Za4g | 1| 
 | 川云安全团队 | cyunsec | Kibana < 6.6.1 代码执行漏洞复现笔记 | https://mp.weixin.qq.com/s/3r41HE3bnNHhWOw42uziTQ | 1| 
-| 穿过丛林 |  | 容器云安全防御机制动态评估与优化框架 | https://mp.weixin.qq.com/s/-g2MLk7i0QBToxdE-RHjSw | 8| 
+| 穿过丛林 |  | 容器云安全防御机制动态评估与优化框架 | https://mp.weixin.qq.com/s/-g2MLk7i0QBToxdE-RHjSw | 9| 
 | 电网头条 | sgcctop | 刚刚，国家电网公司发布《泛在电力物联网白皮书2019》 | https://mp.weixin.qq.com/s/gWLm5KMfkSlhNr0ptmIYwQ | 1| 
 | 暗影安全实验室 | Eversec_Lab | 反间谍之旅003 | https://mp.weixin.qq.com/s/ZxsyB4ELKdV84eHh6zn1iQ | 1| 
 | App个人信息举报 | app_grxxjb | 专题研究 , 手机设备识别码类型分析 | https://mp.weixin.qq.com/s/Ly8XIfKanX3bgeZLe0QyeA | 1| 
@@ -312,7 +316,7 @@
 | 国科漏斗社区 | Goktech_Security | 线下赛AWD训练平台搭建手册 | https://mp.weixin.qq.com/s/VPaAYUu_W3MTOmfmgVxUjA | 1| 
 | 国科军通科技 | gkjtkj | 揭秘：中国自主可控行业全景图 | https://mp.weixin.qq.com/s/7_osWtZV3UZ5KuaoIzt7rA | 1| 
 | GartnerInc | GartnerChina | 自动化在现代安全中的运用 | https://mp.weixin.qq.com/s/HMvGOiUIwjMKBNE2j5qIBQ | 1| 
-| 赵武的自留地 |  | 网络安全这点屁事 | https://mp.weixin.qq.com/s/kVfyoD_zRnSrQjpL4HfYAQ | 10| 
+| 赵武的自留地 |  | 网络安全这点屁事 | https://mp.weixin.qq.com/s/kVfyoD_zRnSrQjpL4HfYAQ | 11| 
 | 勾陈安全实验室 | PolarisLab | Knife：一个将有用的小功能加入Burp Suite右键菜单的插件 | https://mp.weixin.qq.com/s/Y03VVF3sD9N0_H6TQlxYuQ | 1| 
 | PolarisLab | PolarisLab | Hacking WildFly | https://mp.weixin.qq.com/s/KQ_17nJBPRcOTn-rPBRKTQ | 9| 
 | 继之宫 |  | 威胁剑魔杂谈 | https://mp.weixin.qq.com/s/wpBeoTEC7g-wFX-DA61gmA | 2| 
@@ -563,7 +567,7 @@
 | 网安寻路人 | DataProtection101 |  | https://mp.weixin.qq.com/s/_Wdi6RZfchA5g5Dp7TmWYg | 10| 
 | V安全资讯 |  |  | https://mp.weixin.qq.com/s/TnS8f8B1ntC3qvd4noc7nA | 1| 
 | 平安科技金融安全研究院 | pinganfinsec |  | https://mp.weixin.qq.com/s/FSoYqbOpoFBni1C8Di7J0A | 2| 
-| 安全学术圈 | secquan |  | https://mp.weixin.qq.com/s/zicl-lC1jCWdVnXWkO3eyQ | 78| 
+| 安全学术圈 | secquan |  | https://mp.weixin.qq.com/s/zicl-lC1jCWdVnXWkO3eyQ | 80| 
 | 匠道人 | ATech666 |  | https://mp.weixin.qq.com/s/eayCCAnfBW8LNEhDn5A0nw | 2| 
 | 斗鱼安全应急响应中心 | DYSRC_ |  | https://mp.weixin.qq.com/s/zDAXg1dmTh1I6N4hGusT5g | 1| 
 | 工控参考 | gkongnews |  | https://mp.weixin.qq.com/s/TE-uWlKflUCMUDzLAeaXSA | 1| 
@@ -675,7 +679,7 @@
 | 安云信息 | Anyuntec |  | http://mp.weixin.qq.com/s/P-ncFmNZfBteJBQr8INzsw | 2| 
 | 亿级流量网站架构 | kaitao-1234567 |  | https://mp.weixin.qq.com/s?__biz=MzIwODA4NjMwNA==&mid=2652898217&idx=1&sn=77a391ca2e2e13ae907375958a3265c8&chksm=8cdcd7e6bbab5ef083f6f3b396eb497e5ea350f450ea9626940857c1555bab9e87f63816954f&mpshare=1&scene=1&srcid=0312vcViKaeP5NGx3IGsU1gB&key=04b8921 | 3| 
 | 英国那些事儿 | hereinuk |  | http://mp.weixin.qq.com/s?__biz=MjM5NjAwNzI0MA==&mid=2651948229&idx=1&sn=e5b98d4f78fff701adf82ca4888f4a0a&scene=0#wechat_redirect | 2| 
-| 数说安全 | SSAQ2016 |  | http://mp.weixin.qq.com/s?__biz=MzI0MDY2MzE5NQ==&mid=2247484080&idx=1&sn=240df8492584fd2c4442d71b8a51ef06&scene=0#wechat_redirect | 30| 
+| 数说安全 | SSAQ2016 |  | http://mp.weixin.qq.com/s?__biz=MzI0MDY2MzE5NQ==&mid=2247484080&idx=1&sn=240df8492584fd2c4442d71b8a51ef06&scene=0#wechat_redirect | 31| 
 | 腾讯安全联合实验室 | txaqlhsys |  | http://mp.weixin.qq.com/s/vTt-KHFwE7hrvnPwLFiEGQ | 2| 
 | 上交所技术服务 | SSE-TechService |  | http://mp.weixin.qq.com/s?__biz=MzI0NTAwNjMwOA==&mid=2650685700&idx=3&sn=8cceaf131a280618abaff340c63a5079&scene=0#wechat_redirect | 2| 
 | Docker | dockerone |  | http://mp.weixin.qq.com/s?__biz=MzA5OTAyNzQ2OA==&mid=2649693456&idx=1&sn=b36ed8057c23113da2396b77208689f1&scene=0#wechat_redirect | 8| 
@@ -772,7 +776,7 @@
 | 飓风网络安全 |  |  | http://mp.weixin.qq.com/s?__biz=MzI3NzMzNzE5Ng==&mid=2247483853&idx=1&sn=6b9a41c30f70335a87aba04fc476356a&scene=1&srcid=0903KLbWJiAjpJSwzggQuh94#rd | 2| 
 | 网安国际 | inforsec |  | http://mp.weixin.qq.com/s?__biz=MzA4ODYzMjU0NQ==&mid=2652306914&idx=1&sn=b8842fa80a75fb0e4920b6a7ec4589d1&scene=0#rd | 11| 
 | 网优老兵 | WhatsComm |  | http://mp.weixin.qq.com/s?__biz=MzAwMTYzMDc3OQ==&mid=2650184342&idx=1&sn=5078805484a0decf4992ed055bfac95f&scene=1&srcid=0901GW6JTcRE6gZmzIlZlxHb#rd | 1| 
-| 看雪学院 | ikanxue |  | http://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458279399&idx=1&sn=bb43a07a941d2e59c2cccd981a092bd6&scene=0#rd | 58| 
+| 看雪学院 | ikanxue |  | http://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458279399&idx=1&sn=bb43a07a941d2e59c2cccd981a092bd6&scene=0#rd | 59| 
 | 全频带阻塞干扰 | RFJamming |  | http://mp.weixin.qq.com/s?__biz=MzIzMzE2OTQyNA==&mid=2648946254&idx=1&sn=40eb37ab418913548ea6c4a9f1d10a9d&scene=1 | 13| 
 | 互联网实验室 | chinalabs1234 | 《G20国家互联网发展研究报告<总报告>》八大看点 | http://mp.weixin.qq.com/s?__biz=MzA3NjE0MjczMg==&mid=2654053801&idx=2&sn=7b3bd2ba1fe8bc76a433040d4ba5d1e7&scene=1&srcid=09010h7FCNNNiLXlznYzmh5V#rd | 1| 
 | malwarebenchmark |  |  | http://mp.weixin.qq.com/s?__biz=MzI4ODA4MTcxMA==&mid=2649549772&idx=1&sn=6ef949ed1c893a7d08b4ea5f5ceea2e4&scene=1 | 17| 
@@ -3834,6 +3838,7 @@
 | nautilus-fuzz | 基于 NDSS 2019 一篇 Paper 实现的一个基于 Grammar、Coverage Guided 的 Fuzzer | https://github.com/nautilus-fuzz/nautilus | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | napocahv | Napoca - Bitdefender 开源的 Hypervisor，提供多个安全相关的功能 | https://github.com/napocahv/napoca | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 87 | 22 | 1| 
 | mytechnotalent | Reverse Engineering For Everyone! | https://github.com/mytechnotalent/Reverse-Engineering-Tutorial | http://mytechnotalent.com | Senior Software Engineer in Test | Washington, DC | BluVector, A Comcast Company | 67 | 0 | 0 | 0 | 0 | Python,C,Zeek,C++ | 2500 | 181 | 1| 
+| mvt-project | MVT - 通过取证信息分析 iOS/Android 手机是否已被入侵的工具 | https://github.com/mvt-project/mvt | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | mromnia | FB Event Map API | https://github.com/mromnia/fb_event_map | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | mq1n | 一个可以借助有物理内存读写权限的驱动实现调用任意内核函数的库。 | https://github.com/mq1n/VDM// | None |  | Turkey | None | 1200 | 0 | 0 | 0 | 0 | C++ | 178 | 100 | 1| 
 | moonD4rk | HackBrowserData: 全平台运行的浏览器数据导出解密工具 | https://github.com/moonD4rk/HackBrowserData | None | There is no dark side in the moon. really, matter of fact its all dark. | Pyongyang | None | 5 | 0 | 0 | 0 | 0 | Go,Python | 8400 | 1200 | 1| 
@@ -3868,6 +3873,7 @@
 | kotobukki | BigDataAudit: security vulns detector for Hadoop and Spark 大数据安全检测工具 | https://github.com/kotobukki/BigDataAudit | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | knrdl | yamot - 基于 Web 的 Linux/BSD 服务器监控工具: | https://github.com/knrdl/yamot | None |  | Berlin, Germany | None | 1 | 0 | 0 | 0 | 0 | HTML | 0 | 0 | 1| 
 | knownsec | ksubdomain: 无状态子域名爆破工具 | https://github.com/knownsec/ksubdomain | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,JavaScript | 0 | 0 | 1| 
+| klezVirus | CheeseTools: Self-developed tools for Lateral Movement/Cod... | https://github.com/klezVirus/CheeseTools | https://github.com/klezVirus?tab=followers | Lucky husband, proud father, and security researcher working for BSI | IT | BSI CSIR | 32 | 0 | 0 | 0 | 0 | C#,Python,JavaScript,C++ | 0 | 0 | 1| 
 | kisec | Kibana CVE-2019-7609 RCE Exploit 代码 | https://github.com/kisec/CVE-2019-7609?fbclid=IwAR02m1XrcGDleYn8KzrjBRuIFNXzwJumhrYi2n7zSFeq9fvPk39FxPyAyWY | http://www.kisec.com | Korea Information Security Education Center | None | 한국정보보호교육센터 | 25 | 0 | 0 | 0 | 0 | Python,Go,Shell | 13 | 2 | 1| 
 | kevoreilly | CAPEv2: Malware Configuration And Payload Extraction | https://github.com/kevoreilly/CAPEv2 | https://twitter.com/CapeSandbox | CAPE developer | None | None | 8 | 0 | 0 | 0 | 0 | Python,C | 318 | 90 | 1| 
 | kean | 有开发者开源的一款 macOS、iOS 日志可视化和日志共享工具 | https://github.com/kean/Pulse | http://kean.blog | Software Engineer. Prev @mailru. Moscovite. Likes porridge with 🍓 | New York | None | 28 | 0 | 0 | 0 | 0 | Objective-C,Swift | 0 | 0 | 1| 
@@ -4192,6 +4198,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| macOS TCC 隐私保护机制不限制对 Home 目录进行访问，SSH 密钥等其他一些敏感信息可被直接访问 | http://cedowens.medium.com/initial-access-checks-on-macos-531dd2d0cee6| 
 | Part 2: Dive into Zoom Applications | http://rakesh-thodupunoori.medium.com/part-2-dive-into-zoom-applications-1b01091345c1| 
 | 利用 Zoom 会议软件的 0Day 实施红队渗透测试 | http://medium.com/manomano-tech/a-red-team-operation-leveraging-a-zero-day-vulnerability-in-zoom-80f57fb0822e| 
 | How to unpack UPX packed malware with a SINGLE breakpoint | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Finfosecwriteups.com%2Fhow-to-unpack-upx-packed-malware-with-a-single-breakpoint-4d3a23e21332| 
@@ -4479,6 +4486,8 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 当可解释人工智能遇上知识图谱 | https://zhuanlan.zhihu.com/p/386458680| 
+| 从邮件窃密活动探索新的文件加密传输方式 | https://zhuanlan.zhihu.com/p/389024302| 
 | 从BAB到SLSA——谈Google的软件供应链风险治理 | https://zhuanlan.zhihu.com/p/382721804| 
 | ChinaSys十周年感想 | https://zhuanlan.zhihu.com/p/374658103| 
 | 不确定性知识图谱的表示和推理 | https://zhuanlan.zhihu.com/p/369068016| 
