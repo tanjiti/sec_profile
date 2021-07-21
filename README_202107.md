@@ -44,7 +44,7 @@
 | 绿盟科技研究通讯 | nsfocus_research | 网络空间测绘专题——资产地址动态变化研究 | https://mp.weixin.qq.com/s/Fh93JLtMQa9Qxp_xqEj3zg | 1| 
 | 安全学术圈 | secquan | 以史为鉴：基于复制-生成网络的时态知识图谱建模 | https://mp.weixin.qq.com/s/YM6lYAA1FyGh1myhbiAXVQ | 5| 
 | 天问实验室 | tianwenlab | 常规智能设备动态调试思路 | https://mp.weixin.qq.com/s/E6R-39_UHxXPw4qxuIqNmA | 1| 
-| ChaMd5安全团队 | chamd5sec | VPNFilter 分析报告 | https://mp.weixin.qq.com/s/0BZ4YB1EXR4ESHWo_DRDPQ | 2| 
+| ChaMd5安全团队 | chamd5sec | VPNFilter 分析报告 | https://mp.weixin.qq.com/s/0BZ4YB1EXR4ESHWo_DRDPQ | 4| 
 | 安全喷子 | gh_2a9c00f1d053 | 安全服务的发展 | https://mp.weixin.qq.com/s/NUEW-zwdB-15pIg7b6IC9w | 1| 
 
 
@@ -69,6 +69,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 针对Turla APT团队恶意软件“SilentMoon“”分析溯源。 | http://0xthreatintel.medium.com/analyzing-silentmoon-turla-trojan-fc34b49fe726| 
 | macOS TCC 隐私保护机制不限制对 Home 目录进行访问，SSH 密钥等其他一些敏感信息可被直接访问 | http://cedowens.medium.com/initial-access-checks-on-macos-531dd2d0cee6| 
 | Part 2: Dive into Zoom Applications | http://rakesh-thodupunoori.medium.com/part-2-dive-into-zoom-applications-1b01091345c1| 
 | 利用 Zoom 会议软件的 0Day 实施红队渗透测试 | http://medium.com/manomano-tech/a-red-team-operation-leveraging-a-zero-day-vulnerability-in-zoom-80f57fb0822e| 
