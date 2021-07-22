@@ -14,6 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 汉堡爱好者 | burgerk1 | 探索建⽴API接⼝安全⻛险评分算法(参考 cvss3.1) | https://mp.weixin.qq.com/s/Ws4oGuPQJN4rHviazVqfAw | 1| 
+| 乌雲安全 | hackctf | 干货,利用pocsuite3框架编写poc实战案例 | https://mp.weixin.qq.com/s/LN5gJnKpunfWGJ6yQQtHuw | 1| 
 | 莫哥谈安全 | gh_247dfbdf3d43 | D3FEND学习笔记 | https://mp.weixin.qq.com/s/WsCgI6ilaGL8XJPUJUTCdQ | 1| 
 | 社媒派SMP | CIPS-SMP | THUIR司法类案检索技术研究进展 | https://mp.weixin.qq.com/s/VgOKXX0mJSWol0CKOUMJOA | 1| 
 | 甲方安全建设 | blueteams | Active Directory 证书服务快速防御指南 | https://mp.weixin.qq.com/s/XTl9WkdZwCKke_0tLOUr2w | 1| 
@@ -463,7 +465,7 @@
 | 安全酷 | watsec |  | https://mp.weixin.qq.com/s/ItvWWhC0iYOpG6nQ3WPfvg | 1| 
 | 安全喷子 |  |  | https://mp.weixin.qq.com/s/6BmRdNPKG2dA7m1DrdGtkQ | 9| 
 | 卫星与网络 | satnetdy |  | https://mp.weixin.qq.com/s/-9BlAQqApaoGLfRgtJIn7Q | 1| 
-| 腾讯安全应急响应中心 | tsrc_team |  | https://mp.weixin.qq.com/s/cyeEAv31GO_hZCTXVRBkxw | 27| 
+| 腾讯安全应急响应中心 | tsrc_team |  | https://mp.weixin.qq.com/s/cyeEAv31GO_hZCTXVRBkxw | 28| 
 | 安全与生活 | HitCache |  | https://mp.weixin.qq.com/s/gwtdAeBy6dKViiZJbgKMSA | 1| 
 | APT观察 | APT_REVIEW |  | https://mp.weixin.qq.com/s/0KO-P-himo_AHeDJIQB8iw | 6| 
 | 网络法实务圈 | cyberlaw2017 |  | https://mp.weixin.qq.com/s/Io1A2dlj8FT57sWSHTNvGQ | 1| 
@@ -733,7 +735,7 @@
 | 铸剑网络安全实验室 | CSNS-Lab |  | http://mp.weixin.qq.com/s?__biz=MzI2MDExMzg5NQ==&mid=2652475044&idx=1&sn=b6eecc8bf73cb4a217484e9a509dedcd&chksm=f183ba2cc6f4333abbd4c59c9e31bdfac3cdc94cd1b6eed004ada862b12d46523625dea6da1d&mpshare=1&scene=1&srcid=1124gjxAAhzN4yJFc8pmOiE8#rd | 2| 
 | 途牛安全应急响应中心 |  |  | http://mp.weixin.qq.com/s?__biz=MzI4NTIxNjczMA==&mid=2247483766&idx=1&sn=9af29dae213d976a958ad471fdf566b4&chksm=ebeedbc3dc9952d51da18d2ed57d993370d60a0d6e2108ef528c756597d4894e86bcc87db5cc&mpshare=1&scene=1&srcid=1122KxR8gXNoYfNEr1VXj7KQ#wechat_redir | 1| 
 | 补天漏洞响应平台 | butian360 | CTF挑战报名赛--补天白帽沙龙江西站（话说文末有福利~） | http://mp.weixin.qq.com/s?__biz=MzA5ODMyMzQ1OQ==&mid=2698432208&idx=1&sn=8c838ae67d3da804a4acf7219670e8e2&chksm=b5b133bc82c6baaafaefdcc2643ce49616ae8619ab7bdb22955775f9b16f182281c1caad8822&mpshare=1&scene=22&srcid=1123Yzz0SVBfuDc9TaznPR2K#rd | 2| 
-| SecWiki | SecWiki |  | http://mp.weixin.qq.com/s?__biz=MjM5NDM1OTM0Mg==&mid=2651050360&idx=1&sn=4c68808b7365b20f8a72340432337d8e&chksm=bd7f80398a08092f649306addbb32ada2e69bbaad8b8684add4484ac90f10b2439b14a525836&mpshare=1&scene=23&srcid=1123G3edVZbSDpkdhYMQz4Tz#rd | 31| 
+| SecWiki | SecWiki |  | http://mp.weixin.qq.com/s?__biz=MjM5NDM1OTM0Mg==&mid=2651050360&idx=1&sn=4c68808b7365b20f8a72340432337d8e&chksm=bd7f80398a08092f649306addbb32ada2e69bbaad8b8684add4484ac90f10b2439b14a525836&mpshare=1&scene=23&srcid=1123G3edVZbSDpkdhYMQz4Tz#rd | 32| 
 | 筹码 | Chouma2016 |  | http://mp.weixin.qq.com/s?__biz=MzI0NDE0MTE3MQ==&mid=2653514860&idx=1&sn=22c2811253158c9caa9a809218dfe0ad&chksm=f2bf9170c5c81866b538c060d5e637c85c31e6f353b94875aa9a1adcc9c1db6f18d8593cd22f&mpshare=1&scene=2&srcid=11197z96K0odPQpzjmI304jK&from=timeline#rd | 1| 
 | 泰格实验室 |  |  | http://mp.weixin.qq.com/s?__biz=MzAwMTk5MzEwNw==&mid=2247483716&idx=1&sn=e3053c732e724ba1aa3064234ca0de0d&chksm=9ad071b8ada7f8ae7e5ad1025909308145c38a96b60b77914b91282284af0b35909458ec69bf&mpshare=1&scene=1&srcid=1117DK0KzENwVkQ0YkhMuAMR#rd | 1| 
 | 金三板 | woshijinsanban |  | http://mp.weixin.qq.com/s?__biz=MjM5MDk0NTA0OA==&mid=2650048551&idx=1&sn=5a33b4bb9874d74a77e069f4d4d3567d&chksm=bebd325089cabb46a2bae7eed126ae49c1981863bbe0cc82bd0bfe600883475fecb25f22243e&mpshare=1&scene=1&srcid=1104WSfNzjCqecfzeOu3DZ1z#rd | 1| 
@@ -1371,7 +1373,7 @@
 | xdite | 互联网资安风控实战 | https://github.com/xdite/internet-security | http://blog.xdite.net | CEO of OTCBTC | Taipei, Taiwan | OTCBTC | 177 | 0 | 214 | 1600 | 13 | Makefile,Ruby | 315 | 82 | 1| 
 | ujjwalkarn | Machine Learning & Deep Learning Tutorials | https://github.com/ujjwalkarn/Machine-Learning-Tutorials | https://github.com/facebook | machine learning @ facebook | None | @facebook | 82 | 0 | 274 | 1600 | 224 | Python,R | 0 | 0 | 1| 
 | skyline75489 | what-happens-when-input-google | https://github.com/skyline75489/what-happens-when-zh_CN | https://skyline75489.github.io/ | Seriously, Im coding. | China | None | 110 | 0 | 4400 | 1600 | 142 | Python,Shell,Swift | 0 | 0 | 1| 
-| hasherezade | My small tool for converting #PE files dumped from the memory into their raw form: https://github.com/hasherezade/malware_analysis/tree/master/pe_unmapper | https://github.com/hasherezade/malware_analysis/tree/master/pe_unmapper | http://hasherezade.net |  | Poland | None | 48 | 0 | 30 | 1600 | 9 | Python,C,Assembly,C++ | 746 | 129 | 7| 
+| hasherezade | My small tool for converting #PE files dumped from the memory into their raw form: https://github.com/hasherezade/malware_analysis/tree/master/pe_unmapper | https://github.com/hasherezade/malware_analysis/tree/master/pe_unmapper | http://hasherezade.net |  | Poland | None | 48 | 0 | 30 | 1600 | 9 | Python,C,Assembly,C++ | 746 | 129 | 8| 
 | orangetw | orangetw: Collection of CTF Web challenges | https://github.com/orangetw/My-CTF-Web-Challenges | http://blog.orange.tw |  | Taiwan | None | 37 | 0 | 506 | 1500 | 61 | Python,C,PHP | 0 | 0 | 3| 
 | misterch0c | GithubLeakAlert: find credential associated with an host | https://github.com/misterch0c/GithubLeakAlert | https://github.com/misterch0c | Im a hacker not a slacker ~ twitter:@misterch0c | None | None | 65 | 0 | 811 | 1500 | 89 | Python,ASP | 3500 | 206 | 3| 
 | hfiref0x | Toolkit for ZeroAccess/Sirefef v3 | https://github.com/hfiref0x/ZeroAccess | None |  | None | None | 23 | 0 | 24 | 1500 | 15 | C | 0 | 0 | 10| 

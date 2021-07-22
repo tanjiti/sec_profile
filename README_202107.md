@@ -14,6 +14,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 汉堡爱好者 | burgerk1 | 探索建⽴API接⼝安全⻛险评分算法(参考 cvss3.1) | https://mp.weixin.qq.com/s/Ws4oGuPQJN4rHviazVqfAw | 1| 
+| 乌雲安全 | hackctf | 干货,利用pocsuite3框架编写poc实战案例 | https://mp.weixin.qq.com/s/LN5gJnKpunfWGJ6yQQtHuw | 1| 
+| SecWiki | SecWiki | SecWiki安全招聘（第58期） | https://mp.weixin.qq.com/s/X49hhzq_e64UiitmJLHy_w | 1| 
 | 我需要的是坚持 | MyPersistence2020 | 做红队你需要学习“如何挖掘战壕”（一） | https://mp.weixin.qq.com/s/6tL5AH60DaGXza4MOoJbIw | 1| 
 | 网安思考 | gh_e53abd003964 | 【专题研究第013期】Palantir 大数据能力分析研究（上篇） | https://mp.weixin.qq.com/s/jMVcbQAgcN3ECYK1bTZN5w | 1| 
 | 数说安全 | csreviews | 2021年中国网络安全市场分类与全景图 | https://mp.weixin.qq.com/s/5hjlfqNa3VPqH-xs7X7NWw | 1| 
@@ -27,7 +30,7 @@
 | 字节跳动技术团队 | BytedanceTechBlog | 手把手教你搭建一个无框架埋点体系 | https://mp.weixin.qq.com/s/QanYnjRN5TM_NlJtQzCALg | 1| 
 | 威胁棱镜 | THREAT_PRISM | IoT 恶意软件生命周期大规模研究 | https://mp.weixin.qq.com/s/abn1bDPEgwLKzjo5fABArg | 2| 
 | 一个人的安全笔记 | xjiek2015 | [HTB] Frolic Writeup | https://mp.weixin.qq.com/s?__biz=MzIwOTA4NTg4MA==&mid=2652489358&idx=1&sn=6834393e2e8b3cc8be6deb4f1648310c&chksm=8c945259bbe3db4fe0eaa4f0419033b80dc819e5ee0d7d8e1f4c5ccd3a0921eeebac5fedfcda&scene=0&xtrack=1#rd | 1| 
-| 腾讯安全应急响应中心 | tsrc_team | 腾讯 SOAR 的安全运营探索 | https://mp.weixin.qq.com/s/2YUYAcV5qpKBdnApdsrpiA | 1| 
+| 腾讯安全应急响应中心 | tsrc_team | 腾讯 SOAR 的安全运营探索 | https://mp.weixin.qq.com/s/2YUYAcV5qpKBdnApdsrpiA | 2| 
 | 卫星黑客 | Satellite_Hacker | 太空态势感知能力介绍 | https://mp.weixin.qq.com/s/PTYMBowzZre7U02CNrbnFg | 1| 
 | 云鼎实验室 | YunDingLab | 浅谈云上攻防——Web应用托管服务中的元数据安全隐患 | https://mp.weixin.qq.com/s/NesaxzuULBkkLBPkg7i8wQ | 1| 
 | ZLabs | gh_339ee98cec1b | 区块链链上追踪基础篇【上】：地址标签入门 | https://mp.weixin.qq.com/s/eDVVFhmXveayT-u44UZL2A | 3| 
@@ -63,6 +66,7 @@
 | rabbitmask | Libra: 网站篡改、暗链、死链监测平台 | https://github.com/rabbitmask/Libra | https://github.com/rabbitmask?tab=followers | ＞﹏＜，俺超凶！ | In the wind | 米斯特安全/TideSec | 50 | 0 | 0 | 0 | 0 | Java,Python,JavaScript,C#,Go,Rust | 0 | 0 | 1| 
 | mvt-project | MVT - 通过取证信息分析 iOS/Android 手机是否已被入侵的工具 | https://github.com/mvt-project/mvt | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | klezVirus | CheeseTools: Self-developed tools for Lateral Movement/Cod... | https://github.com/klezVirus/CheeseTools | https://github.com/klezVirus?tab=followers | Lucky husband, proud father, and security researcher working for BSI | IT | BSI CSIR | 32 | 0 | 0 | 0 | 0 | C#,Python,JavaScript,C++ | 0 | 0 | 1| 
+| hasherezade | libPeConv - 用于加载、修改、Dump PE 文件的工具库 | https://github.com/hasherezade/libpeconv | https://github.com/hasherezade?tab=followers |  | Poland | None | 70 | 0 | 0 | 0 | 0 | C,JavaScript,Assembly,C++ | 0 | 0 | 1| 
 | fkie-cad | 固件提取、固件分析、固件文件比较自动化工具 | https://github.com/fkie-cad/FACT_core | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Python,C++,Lua,Go,Dockerfile,Rust | 0 | 0 | 1| 
 
 

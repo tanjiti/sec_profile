@@ -1,7 +1,7 @@
 Python	7
-C	3
-JavaScript	3
-C++	3
+C	4
+JavaScript	4
+C++	4
 Shell	3
 Rust	3
 Go	3
@@ -13,5 +13,6 @@ CMake	1
 Zeek	1
 Lua	1
 Dockerfile	1
+Assembly	1
 Ruby	1
 CSS	1

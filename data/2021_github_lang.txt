@@ -1,9 +1,9 @@
 Python	39
-C	25
+C	26
 Java	20
+C++	17
 Go	17
-C++	16
-JavaScript	15
+JavaScript	16
 Shell	13
 HTML	11
 Rust	9
@@ -14,8 +14,8 @@ Objective-C	5
 Lua	4
 YARA	4
 PowerShell	4
+Assembly	3
 Perl	2
-Assembly	2
 CSS	2
 Ruby	2
 Jupyter	2
