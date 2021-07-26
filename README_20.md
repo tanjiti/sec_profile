@@ -4087,7 +4087,7 @@
 | PSGumshoe | 用于从 Windows 各类日志和缓存中收集取证信息的 PowerShell 模块 | https://github.com/PSGumshoe/PSGumshoe/releases/tag/v1.1 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | PowerShell | 0 | 0 | 1| 
 | PLSysSec | haybale - 一款 Rust 语言编写的 LLVM IR 级别的符号执行引擎 | https://github.com/PLSysSec/haybale | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,LLVM,Assembly,HTML,Python,JavaScript,Makefile,C++,Haskell,Swift,Rust | 0 | 0 | 1| 
 | OrOneEqualsOne | Reconned - 用于搜集子域名的工具,之前叫 PyBrute: | https://github.com/OrOneEqualsOne/reconned | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
-| OWASP | OWASP NodeGoat项目资源，了解OWASP十大安全风险,如何使用Node.js开发的Web应用程序安全问题、 | https://github.com/OWASP/NodeGoat | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Java,Python,JavaScript,Perl,HTML,Go,Ruby,CSS | 0 | 0 | 1| 
+| OWASP | OWASP NodeGoat项目资源，了解OWASP十大安全风险,如何使用Node.js开发的Web应用程序安全问题、 | https://github.com/OWASP/NodeGoat | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Java,Python,JavaScript,Perl,HTML,Go,Ruby,CSS | 0 | 0 | 2| 
 | NoneAge | 交易所安全测试系列指南文档 | https://github.com/NoneAge/BlockchainSecurityTutorial | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,WebAssembly | 0 | 0 | 1| 
 | NiuTrans | 机器翻译：统计建模与深度学习方法 | https://github.com/NiuTrans/MTBook | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TeX,C++ | 1500 | 565 | 2| 
 | Netis | packet-agent: 云环境网络流量镜像项目 | https://github.com/Netis/packet-agent/blob/master/README-zh-Hans.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,C++ | 0 | 0 | 1| 

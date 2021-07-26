@@ -266,6 +266,7 @@
 | RPwnage | iOS 14.5 WebKit/Safari based Jailbreak | https://github.com/RPwnage/pwn-my | https://github.com/RPwnage?tab=followers | German Security researcher and Developer. When i dont create stuff, i fix stuff. | Germany | Manticore | 35 | 1 | 0 | 0 | 0 | HTML,Shell,Objective-C,JavaScript,C | 0 | 0 | 1| 
 | Porchetta-Industries | pyMalleableC2：用于解析 Cobalt Strike Malleable C2 配置文件的 Python 库。 | https://github.com/Porchetta-Industries/pyMalleableC2 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,SCSS | 0 | 0 | 1| 
 | PeiQi0 | PeiQi-WIKI-POC文库 | https://github.com/PeiQi0/PeiQi-WIKI-POC | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| OWASP | OWASP 开源的一款 IoT 固件，故意集成了多个漏洞，方便开发者学习 IoT 固件漏洞 | https://github.com/OWASP/IoTGoat | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Java,Python,JavaScript,HTML,Ruby,CSS | 0 | 0 | 1| 
 | NiuTrans | 中文综述文章列表（自然语言处理&机器学习） | https://github.com/NiuTrans/CNSurvey | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TeX,C++ | 1800 | 623 | 1| 
 | MichaelKoczwara | Awesome CobaltStrike Defence 资料整理 | https://github.com/MichaelKoczwara/Awesome-CobaltStrike-Defence | https://twitter.com/MichalKoczwara | Cyber Security | London | None | 32 | 0 | 0 | 0 | 0 | Go,C#,Ruby | 198 | 25 | 1| 
 | MiSecurity | 消费级物联网安全基线 | https://github.com/MiSecurity/Cyber-Security-Baseline-for-Consumer-Internet-of-Things/blob/main/resources/pdf/%E6%B6%88%E8%B4%B9%E7%BA%A7%E7%89%A9%E8%81%94%E7%BD%91%E5%AE%89%E5%85%A8%E5%9F%BA%E7%BA%BF.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go | 0 | 0 | 1| 
