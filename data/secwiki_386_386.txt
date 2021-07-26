@@ -1,0 +1,23 @@
+20210719	取证分析	https://www.anquanke.com/post/id/246290	应急响应的神兵利器	anquanke.com	www.anquanke.com	/post/id/246290
+20210719	运维安全	https://www.anquanke.com/post/id/245526	浅谈云安全之K8S	anquanke.com	www.anquanke.com	/post/id/245526
+20210719	恶意分析	https://www.anquanke.com/post/id/247454	NGLite-基于区块链网络的匿名跨平台远控程序	anquanke.com	www.anquanke.com	/post/id/247454
+20210719	Web安全	https://mp.weixin.qq.com/s/Ws4oGuPQJN4rHviazVqfAw	探索建⽴API接⼝安全⻛险评分算法(参考 cvss3.1)	qq.com	mp.weixin.qq.com	/s/Ws4oGuPQJN4rHviazVqfAw
+20210719	杂志	https://www.sec-wiki.com/weekly/385	SecWiki周刊（第385期)	sec-wiki.com	www.sec-wiki.com	/weekly/385
+20210719	设备安全	https://blog.lyle.ac.cn/2021/07/09/uemu/	基于用户态虚拟化的物联网设备仿真方法	lyle.ac.cn	blog.lyle.ac.cn	/2021/07/09/uemu/
+20210719	Web安全	https://mp.weixin.qq.com/s/LN5gJnKpunfWGJ6yQQtHuw	利用pocsuite3框架编写poc实战案例	qq.com	mp.weixin.qq.com	/s/LN5gJnKpunfWGJ6yQQtHuw
+20210719	设备安全	http://blog.nsfocus.net/vxwork-qnx/	某工控设备固件提取及分析	nsfocus.net	blog.nsfocus.net	/vxwork-qnx/
+20210719	Web安全	https://mp.weixin.qq.com/s/wX8Yo4YGTudRyft32HEeug	记一次促销活动中的业务安全对抗	qq.com	mp.weixin.qq.com	/s/wX8Yo4YGTudRyft32HEeug
+20210719	Web安全	https://mp.weixin.qq.com/s/MyC527oZVqT1ZDjlUZ_gYw	[翻译] 通过不安全的动态加载获得获得反射 XSS	qq.com	mp.weixin.qq.com	/s/MyC527oZVqT1ZDjlUZ_gYw
+20210719	恶意分析	https://mp.weixin.qq.com/s/ymvqym3vEwKjGnR2F3skWw	VPN客户端访问日志_内部访问出错_2021年4月15日样本分析	qq.com	mp.weixin.qq.com	/s/ymvqym3vEwKjGnR2F3skWw
+20210719	恶意分析	https://mp.weixin.qq.com/s/RGIfplSiDK8_AQekn-nImA	对“超高能力网空威胁行为体”系列分析回顾	qq.com	mp.weixin.qq.com	/s/RGIfplSiDK8_AQekn-nImA
+20210719	取证分析	https://mp.weixin.qq.com/s/Z0OM-OCHOU68c8IbfpPmrg	经典中间人攻击教学案例-吃瓜吴某帆事件	qq.com	mp.weixin.qq.com	/s/Z0OM-OCHOU68c8IbfpPmrg
+20210719	Web安全	https://mp.weixin.qq.com/s/63Ex9r5xHb77rrXGBLzjwA	做红队你需要学习“如何挖掘战壕”（二）	qq.com	mp.weixin.qq.com	/s/63Ex9r5xHb77rrXGBLzjwA
+20210719	Web安全	https://static.cdxy.me/starcross_api_intelligence_product_launch.pdf	万物互联时代的API安全探索	cdxy.me	static.cdxy.me	/starcross_api_intelligence_product_launch.pdf
+20210719	恶意分析	https://mp.weixin.qq.com/s/f0aFLEKyABpYDobPN2b6tQ	攻防启示：Chromium组件风险剖析与收敛	qq.com	mp.weixin.qq.com	/s/f0aFLEKyABpYDobPN2b6tQ
+20210719	Web安全	https://mp.weixin.qq.com/s/GG8cdvpYoGVs4l-G_YvSag	越权漏洞治理实践（自动检测部分IDOR）	qq.com	mp.weixin.qq.com	/s/GG8cdvpYoGVs4l-G_YvSag
+20210719	数据挖掘	https://mp.weixin.qq.com/s/NUZX8RCIQ9PUCOqyynkU9g	Palantir 大数据能力分析研究（下篇）	qq.com	mp.weixin.qq.com	/s/NUZX8RCIQ9PUCOqyynkU9g
+20210719	恶意分析	https://mp.weixin.qq.com/s/jlH3lWCw_U8w2vDGzr60sQ	AISecOps：基于异构图的威胁分析技术	qq.com	mp.weixin.qq.com	/s/jlH3lWCw_U8w2vDGzr60sQ
+20210719	视频	https://v.qq.com/x/page/w32574uhn66.html	基于DevSecOps理念的安全运营	qq.com	v.qq.com	/x/page/w32574uhn66.html
+20210719	取证分析	https://mp.weixin.qq.com/s/hoXNYkaOF4SWNzK4W8l-8w	浅析利用虚拟货币洗钱	qq.com	mp.weixin.qq.com	/s/hoXNYkaOF4SWNzK4W8l-8w
+20210719	取证分析	https://mp.weixin.qq.com/s/J93WNW_GQ_HueF5yXdiBdw	区块链链上追踪：识别中心化地址	qq.com	mp.weixin.qq.com	/s/J93WNW_GQ_HueF5yXdiBdw
+20210719	数据挖掘	https://mp.weixin.qq.com/s/bgy8aeQbrAzS2FA8zKn6Fg	安全领域下的机器学习注意事项	qq.com	mp.weixin.qq.com	/s/bgy8aeQbrAzS2FA8zKn6Fg

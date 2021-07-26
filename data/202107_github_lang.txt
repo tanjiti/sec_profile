@@ -1,4 +1,4 @@
-Python	7
+Python	8
 C	4
 JavaScript	4
 C++	4
@@ -13,6 +13,7 @@ CMake	1
 Zeek	1
 Lua	1
 Dockerfile	1
+Vue	1
 Assembly	1
 Ruby	1
 CSS	1

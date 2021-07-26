@@ -14,12 +14,15 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 安全研究GoSSIP | GoSSIPSJTU | G.O.S.S.I.P 学术论文推荐 2021-07-20 | https://mp.weixin.qq.com/s/bGyGUdJhru5BJuRY-k0pfg | 1| 
+| 知帆科技 | chaindigg | 浅析利用虚拟货币洗钱 | https://mp.weixin.qq.com/s/hoXNYkaOF4SWNzK4W8l-8w | 1| 
+| 汉堡爱好者 | burgerk1 | 越权漏洞治理实践（自动检测部分IDOR） | https://mp.weixin.qq.com/s/GG8cdvpYoGVs4l-G_YvSag | 2| 
+| 开放隐私计算 | openmpc | 【清流】经典中间人攻击教学案例-吃瓜吴某帆事件 | https://mp.weixin.qq.com/s/Z0OM-OCHOU68c8IbfpPmrg | 1| 
 | 安天 | Antiylab | 安天对“超高能力网空威胁行为体”系列分析回顾 | https://mp.weixin.qq.com/s/RGIfplSiDK8_AQekn-nImA | 1| 
-| 汉堡爱好者 | burgerk1 | 探索建⽴API接⼝安全⻛险评分算法(参考 cvss3.1) | https://mp.weixin.qq.com/s/Ws4oGuPQJN4rHviazVqfAw | 1| 
 | 乌雲安全 | hackctf | 干货,利用pocsuite3框架编写poc实战案例 | https://mp.weixin.qq.com/s/LN5gJnKpunfWGJ6yQQtHuw | 1| 
 | SecWiki | SecWiki | SecWiki安全招聘（第58期） | https://mp.weixin.qq.com/s/X49hhzq_e64UiitmJLHy_w | 1| 
-| 我需要的是坚持 | MyPersistence2020 | 做红队你需要学习“如何挖掘战壕”（一） | https://mp.weixin.qq.com/s/6tL5AH60DaGXza4MOoJbIw | 1| 
-| 网安思考 | gh_e53abd003964 | 【专题研究第013期】Palantir 大数据能力分析研究（上篇） | https://mp.weixin.qq.com/s/jMVcbQAgcN3ECYK1bTZN5w | 1| 
+| 我需要的是坚持 | MyPersistence2020 | 做红队你需要学习“如何挖掘战壕”（一） | https://mp.weixin.qq.com/s/6tL5AH60DaGXza4MOoJbIw | 2| 
+| 网安思考 | gh_e53abd003964 | 【专题研究第013期】Palantir 大数据能力分析研究（上篇） | https://mp.weixin.qq.com/s/jMVcbQAgcN3ECYK1bTZN5w | 2| 
 | 数说安全 | csreviews | 2021年中国网络安全市场分类与全景图 | https://mp.weixin.qq.com/s/5hjlfqNa3VPqH-xs7X7NWw | 1| 
 | 赵武的自留地 | gh_86033a4f818d | 自由与使命汇报ppt | https://mp.weixin.qq.com/s/I_HmTHao2uaoB35C1aJmGQ | 1| 
 | 莫哥谈安全 | gh_247dfbdf3d43 | D3FEND学习笔记 | https://mp.weixin.qq.com/s/WsCgI6ilaGL8XJPUJUTCdQ | 1| 
@@ -30,11 +33,11 @@
 | 灾难控制 局 | SecDamageControl | Elkeid-RASP 发布，易部署的RASP方案。 | https://mp.weixin.qq.com/s/o0rSOLQ34-Ph0aY-_5tfSA | 1| 
 | 字节跳动技术团队 | BytedanceTechBlog | 手把手教你搭建一个无框架埋点体系 | https://mp.weixin.qq.com/s/QanYnjRN5TM_NlJtQzCALg | 1| 
 | 威胁棱镜 | THREAT_PRISM | IoT 恶意软件生命周期大规模研究 | https://mp.weixin.qq.com/s/abn1bDPEgwLKzjo5fABArg | 2| 
-| 一个人的安全笔记 | xjiek2015 | [HTB] Frolic Writeup | https://mp.weixin.qq.com/s?__biz=MzIwOTA4NTg4MA==&mid=2652489358&idx=1&sn=6834393e2e8b3cc8be6deb4f1648310c&chksm=8c945259bbe3db4fe0eaa4f0419033b80dc819e5ee0d7d8e1f4c5ccd3a0921eeebac5fedfcda&scene=0&xtrack=1#rd | 1| 
+| 一个人的安全笔记 | xjiek2015 | [HTB] Frolic Writeup | https://mp.weixin.qq.com/s?__biz=MzIwOTA4NTg4MA==&mid=2652489358&idx=1&sn=6834393e2e8b3cc8be6deb4f1648310c&chksm=8c945259bbe3db4fe0eaa4f0419033b80dc819e5ee0d7d8e1f4c5ccd3a0921eeebac5fedfcda&scene=0&xtrack=1#rd | 2| 
 | 腾讯安全应急响应中心 | tsrc_team | 腾讯 SOAR 的安全运营探索 | https://mp.weixin.qq.com/s/2YUYAcV5qpKBdnApdsrpiA | 2| 
 | 卫星黑客 | Satellite_Hacker | 太空态势感知能力介绍 | https://mp.weixin.qq.com/s/PTYMBowzZre7U02CNrbnFg | 1| 
 | 云鼎实验室 | YunDingLab | 浅谈云上攻防——Web应用托管服务中的元数据安全隐患 | https://mp.weixin.qq.com/s/NesaxzuULBkkLBPkg7i8wQ | 1| 
-| ZLabs | gh_339ee98cec1b | 区块链链上追踪基础篇【上】：地址标签入门 | https://mp.weixin.qq.com/s/eDVVFhmXveayT-u44UZL2A | 3| 
+| ZLabs | gh_339ee98cec1b | 区块链链上追踪基础篇【上】：地址标签入门 | https://mp.weixin.qq.com/s/eDVVFhmXveayT-u44UZL2A | 4| 
 | RedTeam | RedTeams | 利用 CloudFront 中继 Cobalt Strike 流量 | https://mp.weixin.qq.com/s/NdR6XBFvhSOBsLVVQmTXJg | 1| 
 | AISeer | AISeer520 | AAAI 2021 , 基于图神经网络的多变量时间序列异常检测 | https://mp.weixin.qq.com/s/zizQnPTi_B6BqajrcJwKUg | 1| 
 | 蓝鸟安全 | gh_d365aca1d051 | 邮件攻防技术,附件木马伪装的N种方法 | https://mp.weixin.qq.com/s/18BB0eyKkiegmUFF1kPMaA | 1| 
@@ -45,8 +48,8 @@
 | 这里是河马 | gh_f779ec60843d | SHELLPUB 升级维护公告 | https://mp.weixin.qq.com/s/bb0p5-jIzYfs0KQRvw2VUg | 1| 
 | 360政企安全 | gh_6db130c5163e | 预见Win11“前顾之忧”：360全球首家发现Win11高危漏洞，推出热补丁解决方案！ | https://mp.weixin.qq.com/s/_PjO4_wpe2LQc4BMfg-FGg | 1| 
 | 编程语言Lab | HW-PLLab | 编程语言测试综述 | https://mp.weixin.qq.com/s/HsSTwWdWzfHuXHdbgXXIeQ | 1| 
-| 绿盟科技研究通讯 | nsfocus_research | 网络空间测绘专题——资产地址动态变化研究 | https://mp.weixin.qq.com/s/Fh93JLtMQa9Qxp_xqEj3zg | 1| 
-| 安全学术圈 | secquan | 以史为鉴：基于复制-生成网络的时态知识图谱建模 | https://mp.weixin.qq.com/s/YM6lYAA1FyGh1myhbiAXVQ | 5| 
+| 绿盟科技研究通讯 | nsfocus_research | 网络空间测绘专题——资产地址动态变化研究 | https://mp.weixin.qq.com/s/Fh93JLtMQa9Qxp_xqEj3zg | 2| 
+| 安全学术圈 | secquan | 以史为鉴：基于复制-生成网络的时态知识图谱建模 | https://mp.weixin.qq.com/s/YM6lYAA1FyGh1myhbiAXVQ | 6| 
 | 天问实验室 | tianwenlab | 常规智能设备动态调试思路 | https://mp.weixin.qq.com/s/E6R-39_UHxXPw4qxuIqNmA | 1| 
 | ChaMd5安全团队 | chamd5sec | VPNFilter 分析报告 | https://mp.weixin.qq.com/s/0BZ4YB1EXR4ESHWo_DRDPQ | 4| 
 | 安全喷子 | gh_2a9c00f1d053 | 安全服务的发展 | https://mp.weixin.qq.com/s/NUEW-zwdB-15pIg7b6IC9w | 1| 
@@ -69,11 +72,13 @@
 | klezVirus | CheeseTools: Self-developed tools for Lateral Movement/Cod... | https://github.com/klezVirus/CheeseTools | https://github.com/klezVirus?tab=followers | Lucky husband, proud father, and security researcher working for BSI | IT | BSI CSIR | 32 | 0 | 0 | 0 | 0 | C#,Python,JavaScript,C++ | 0 | 0 | 1| 
 | hasherezade | libPeConv - 用于加载、修改、Dump PE 文件的工具库 | https://github.com/hasherezade/libpeconv | https://github.com/hasherezade?tab=followers |  | Poland | None | 70 | 0 | 0 | 0 | 0 | C,JavaScript,Assembly,C++ | 0 | 0 | 1| 
 | fkie-cad | 固件提取、固件分析、固件文件比较自动化工具 | https://github.com/fkie-cad/FACT_core | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Python,C++,Lua,Go,Dockerfile,Rust | 0 | 0 | 1| 
+| LoRexxar | Kunlun-Mirror - 源代码安全审计工具，支持检测多种开发语言的漏洞 | https://github.com/LoRexxar/Kunlun-M | https://lorexxar.cn | Vidar-Team/Knownsec 404-Team hacker or developer? | None | None | 52 | 0 | 0 | 0 | 0 | Python,Vue | 412 | 92 | 1| 
 
 
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Cobalt Strike Hunting — simple PCAP and Beacon Analysis | http://michaelkoczwara.medium.com/cobalt-strike-hunting-simple-pcap-and-beacon-analysis-f51c36ce6811| 
 | 针对Turla APT团队恶意软件“SilentMoon“”分析溯源。 | http://0xthreatintel.medium.com/analyzing-silentmoon-turla-trojan-fc34b49fe726| 
 | macOS TCC 隐私保护机制不限制对 Home 目录进行访问，SSH 密钥等其他一些敏感信息可被直接访问 | http://cedowens.medium.com/initial-access-checks-on-macos-531dd2d0cee6| 
 | Part 2: Dive into Zoom Applications | http://rakesh-thodupunoori.medium.com/part-2-dive-into-zoom-applications-1b01091345c1| 
