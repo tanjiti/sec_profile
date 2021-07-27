@@ -1,7 +1,7 @@
-Python	9
+Python	10
+C	5
 JavaScript	5
-C	4
-C++	4
+C++	5
 Shell	4
 Rust	3
 Go	3

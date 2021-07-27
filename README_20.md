@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| leveryd | gh_8d7f6ed4daff | 安全建设-攻防思路与实践（一） | https://mp.weixin.qq.com/s/mnHGLZ_e3tWkxCL-DPAAvQ | 1| 
 | 知帆科技 | chaindigg | 浅析利用虚拟货币洗钱 | https://mp.weixin.qq.com/s/hoXNYkaOF4SWNzK4W8l-8w | 1| 
 | 汉堡爱好者 | burgerk1 | 越权漏洞治理实践（自动检测部分IDOR） | https://mp.weixin.qq.com/s/GG8cdvpYoGVs4l-G_YvSag | 2| 
 | 乌雲安全 | hackctf | 干货,利用pocsuite3框架编写poc实战案例 | https://mp.weixin.qq.com/s/LN5gJnKpunfWGJ6yQQtHuw | 1| 
@@ -565,7 +566,7 @@
 | 湖南金盾评估中心 | JD83758161 |  | https://mp.weixin.qq.com/s/VrVBE7I4pCOd5BOnwIAs9A | 1| 
 | 平安集团安全应急响应中心 | PSRC_Team |  | https://mp.weixin.qq.com/s/eiVszU0mZ49WIMfrOEvgeA | 4| 
 | 互联网安全内参 | anquanneican |  | https://mp.weixin.qq.com/s/bm8jK8mLsYkWNH_fwIcPAg | 12| 
-| ChaMd5安全团队 | chamd5sec |  | https://mp.weixin.qq.com/s?__biz=MzIzMTc1MjExOQ==&mid=2247484574&idx=1&sn=91850fae13f6a478869f10fa176e3e8c | 60| 
+| ChaMd5安全团队 | chamd5sec |  | https://mp.weixin.qq.com/s?__biz=MzIzMTc1MjExOQ==&mid=2247484574&idx=1&sn=91850fae13f6a478869f10fa176e3e8c | 61| 
 | 软件定义世界（SDX） | SDx-SoftwareDefinedx |  | https://mp.weixin.qq.com/s/GnuuzHedLCSWj-VanHDhdA | 1| 
 | 网安寻路人 | DataProtection101 |  | https://mp.weixin.qq.com/s/_Wdi6RZfchA5g5Dp7TmWYg | 10| 
 | V安全资讯 |  |  | https://mp.weixin.qq.com/s/TnS8f8B1ntC3qvd4noc7nA | 1| 
@@ -1446,7 +1447,7 @@
 | dthree | Cash : a cross-platform implementation of Unix shell commands in JavaScript : https://github.com/dthree/cash/ | https://github.com/dthree/cash/ | https://github.com/chalk | UX infatuate in devs clothing. Nonprofit. Vorpal, Cash, Mailit, @chalk. | Los Angeles | Nonprofit | 5 | 0 | 289 | 901 | 13 | JavaScript | 0 | 0 | 1| 
 | HFTrader | MIT Deep Learning Book in PDF format (very good resource) | https://github.com/HFTrader/DeepLearningBook | None |  | Chicago, IL | None | 55 | 0 | 57 | 899 | 2 | Python,HTML,MATLAB,C++ | 296 | 127 | 1| 
 | swisskyrepo | Wordpresscan: WPScan rewritten in Python + some WPSeku ideas | https://github.com/swisskyrepo/Wordpresscan | https://twitter.com/pentest_swissky | Pentester & Bug Hunter | None | None | 7 | 0 | 5 | 895 | 12 | Python,Shell | 0 | 0 | 3| 
-| Cr4sh | SmmBackdoor:System Management Mode backdoor for UEFI | https://github.com/Cr4sh/SmmBackdoor | http://blog.cr4.sh/ |  | None | None | 25 | 0 | 195 | 894 | 20 | Python,C,C++ | 0 | 0 | 7| 
+| Cr4sh | SmmBackdoor:System Management Mode backdoor for UEFI | https://github.com/Cr4sh/SmmBackdoor | http://blog.cr4.sh/ |  | None | None | 25 | 0 | 195 | 894 | 20 | Python,C,C++ | 0 | 0 | 8| 
 | ajinabraham | Static-DOM-XSS-Scanner | https://github.com/ajinabraham/Static-DOM-XSS-Scanner | https://github.com/OpenSecurityIN | Security Research & Engineering https://opensecurity.in https://ajinabraham.com | Montreal, Canada | @OpenSecurityIN | 125 | 0 | 50 | 893 | 13 | Python,HTML,CSS | 0 | 0 | 4| 
 | vysecurity | DomainFrontingLists: A list of Domain Frontable Domains by CDN | https://github.com/vysecurity/DomainFrontingLists | https://github.com/vysecurity | @vysecurity | Hong Kong | SYON | 646 | 0 | 581 | 892 | 56 | Python,C#,PowerShell | 761 | 194 | 1| 
 | devttys0 | Nice list on #firmware #reversing projects with walkthroughs: | https://github.com/devttys0/binwalk/wiki/Projects-Using-Binwalk | None |  | None | None | 25 | 0 | 0 | 884 | 0 | Python,C,Shell | 658 | 223 | 2| 
@@ -4201,6 +4202,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 利用浏览器 WebAssembly 端口扫描的结果实现用户指纹识别 | http://avi-lumelsky.medium.com/identify-website-users-by-client-port-scanning-using-webassembly-and-go-e9798b4aa05c| 
 | Cobalt Strike Hunting — simple PCAP and Beacon Analysis | http://michaelkoczwara.medium.com/cobalt-strike-hunting-simple-pcap-and-beacon-analysis-f51c36ce6811| 
 | 针对Turla APT团队恶意软件“SilentMoon“”分析溯源。 | http://0xthreatintel.medium.com/analyzing-silentmoon-turla-trojan-fc34b49fe726| 
 | macOS TCC 隐私保护机制不限制对 Home 目录进行访问，SSH 密钥等其他一些敏感信息可被直接访问 | http://cedowens.medium.com/initial-access-checks-on-macos-531dd2d0cee6| 
