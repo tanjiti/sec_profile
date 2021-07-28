@@ -52,7 +52,7 @@
 | 绿盟科技研究通讯 | nsfocus_research | 网络空间测绘专题——资产地址动态变化研究 | https://mp.weixin.qq.com/s/Fh93JLtMQa9Qxp_xqEj3zg | 2| 
 | 安全学术圈 | secquan | 以史为鉴：基于复制-生成网络的时态知识图谱建模 | https://mp.weixin.qq.com/s/YM6lYAA1FyGh1myhbiAXVQ | 6| 
 | 天问实验室 | tianwenlab | 常规智能设备动态调试思路 | https://mp.weixin.qq.com/s/E6R-39_UHxXPw4qxuIqNmA | 1| 
-| ChaMd5安全团队 | chamd5sec | VPNFilter 分析报告 | https://mp.weixin.qq.com/s/0BZ4YB1EXR4ESHWo_DRDPQ | 5| 
+| ChaMd5安全团队 | chamd5sec | VPNFilter 分析报告 | https://mp.weixin.qq.com/s/0BZ4YB1EXR4ESHWo_DRDPQ | 6| 
 | 安全喷子 | gh_2a9c00f1d053 | 安全服务的发展 | https://mp.weixin.qq.com/s/NUEW-zwdB-15pIg7b6IC9w | 1| 
 
 
