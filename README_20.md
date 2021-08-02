@@ -14,6 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 中国教育网络 | cernet | 一场关于网络安全伦理审查的对话 | https://mp.weixin.qq.com/s/8NlY3I49UxDirA7Pe8h7Cw | 1| 
+| FuzzWiki | gh_fcf21e658324 | 浅谈并行化模糊测试技术 | https://mp.weixin.qq.com/s/I-2IllKVbUvOm1x9mMiihw | 1| 
 | leveryd | gh_8d7f6ed4daff | 安全建设-攻防思路与实践（一） | https://mp.weixin.qq.com/s/mnHGLZ_e3tWkxCL-DPAAvQ | 1| 
 | 知帆科技 | chaindigg | 浅析利用虚拟货币洗钱 | https://mp.weixin.qq.com/s/hoXNYkaOF4SWNzK4W8l-8w | 1| 
 | 汉堡爱好者 | burgerk1 | 越权漏洞治理实践（自动检测部分IDOR） | https://mp.weixin.qq.com/s/GG8cdvpYoGVs4l-G_YvSag | 2| 
@@ -35,8 +37,8 @@
 | 神光的编程秘籍 | gh_831b7475367e | JavaScript 常见 AST 梳理 | https://mp.weixin.qq.com/s/biQt6cw05-4G-gkJS9fGTQ | 1| 
 | 伏羲智库 | FUXIINSTITUTION | DNS-网络安全绕不过去的话题 | https://mp.weixin.qq.com/s/g5_RVxAFgXBIwSLiazsUpw | 1| 
 | 面壁者与执剑人 | gh_eb146885b458 | 怎样系统地管理时间 | https://mp.weixin.qq.com/s/O7xGdZw669xJy3o17ghCbg | 1| 
-| 春秋伽玛 | AWDGAME | Writeup , 蓝帽杯半决赛Misc-溯源取证 | https://mp.weixin.qq.com/s/rL-Issg-ouhpMfmcYL76Ow | 1| 
-| M01N Team | m01nteam | 钓鱼页面之无视浏览器URL栏 | https://mp.weixin.qq.com/s/F4GkG1MSOaz3iIGBmDzCTA | 4| 
+| 春秋伽玛 | AWDGAME | Writeup , 蓝帽杯半决赛Misc-溯源取证 | https://mp.weixin.qq.com/s/rL-Issg-ouhpMfmcYL76Ow | 2| 
+| M01N Team | m01nteam | 钓鱼页面之无视浏览器URL栏 | https://mp.weixin.qq.com/s/F4GkG1MSOaz3iIGBmDzCTA | 6| 
 | APISIX 云原生微服务网关 | gh_04aaf04b2fae | 开源 API 网关架构分析 | https://mp.weixin.qq.com/s/L3X3xfGggjf52a8GofFHEQ | 1| 
 | 天问实验室 | tianwenlab | 智能设备常规测试思路总结 | https://mp.weixin.qq.com/s/jpKP2-lvHVyQhLcMWfrY5Q | 2| 
 | Panabit订阅号 | gh_245ade47c8ad | 基于网络流量的网络安全分析与威胁狩猎漫谈（视频版） | https://mp.weixin.qq.com/s/IIrXnFBHde7JPg1samJX5g | 1| 
@@ -57,7 +59,7 @@
 | 合规科技研究 | ComplianceTech | 数据安全技术专题——数据分类分级的技术实践指南 | https://mp.weixin.qq.com/s/WknW2_lR4ryBLIgCma30Vw | 1| 
 | 反诈骗先锋 | fanzhapianxf | 关于反诈工作的几个问题及思考 | https://mp.weixin.qq.com/s/ps7GG2rKc5-J8J2Iybhi8Q | 1| 
 | 白帽子飙车路 | hack-by-txf | Cobalt Strike 利用 Chrome 0day 上线 | https://mp.weixin.qq.com/s/LOpAu8vs8ob85W3sCmXMew | 1| 
-| 一个人的安全笔记 | xjiek2015 | [HTB]Worker Writeup | https://mp.weixin.qq.com/s/J5jKKfbwBbOTjpnwcFotrg | 15| 
+| 一个人的安全笔记 | xjiek2015 | [HTB]Worker Writeup | https://mp.weixin.qq.com/s/J5jKKfbwBbOTjpnwcFotrg | 16| 
 | GuyoungStudio | guyoungnet | 可扩展跨平台网络安全工具套件 CaptfEncoder v2.0.0 发布 | https://mp.weixin.qq.com/s?__biz=MzI0ODU5Mzg0NA==&mid=2247483998&idx=1&sn=baaa69c5576a1e52b7d8aeb9482e1cf3&chksm=e99f2e85dee8a79304a5535dbf6c77e9f9def6b2a7438c73e28792ac5ea3c628a02204d116e6&token=1448493475&lang=zh_CN#rd | 1| 
 | RedTeam | RedTeams | 浅析 AWS S3 子域名接管漏洞 | https://mp.weixin.qq.com/s/q3bsrCKacuepKoFljYxJcg | 4| 
 | 架构师技术联盟 | ICT_Architect | 深度分析：4种国产CPU架构和6大品牌 | https://mp.weixin.qq.com/s/FoAPSNW0LFKuerEPJfFmgw | 1| 
@@ -111,7 +113,7 @@
 | 公安部网安局 | gh_e406f4bcdf34 | 公安机关网安部门打击网络黑产犯罪工作取得显著成效 | https://mp.weixin.qq.com/s/h53qn-2vODsakiCxf9CvXQ | 1| 
 | 陌陌安全 | MomoSecurity | 陌陌数据安全探索与实践 | https://mp.weixin.qq.com/s/yGLrdlpSmEe5ChiVn4b8Kg | 1| 
 | pirogue | p1r06u3 | 越权扫描器碎碎念 | https://mp.weixin.qq.com/s/yMpAiue7OT1I8E3C5Dkngw | 1| 
-| CodeWisdom | gh_2395906a410f | 技术分享, 基于静态依赖分析的安卓GUI自动化探测方法 | https://mp.weixin.qq.com/s/YQDxUqo_ufjt3cuDNOUfwQ | 1| 
+| CodeWisdom | gh_2395906a410f | 技术分享, 基于静态依赖分析的安卓GUI自动化探测方法 | https://mp.weixin.qq.com/s/YQDxUqo_ufjt3cuDNOUfwQ | 2| 
 | 360Quake空间测绘 | gh_0284fd4851e7 | 利用JARM指纹进行TLS服务端标记 | https://mp.weixin.qq.com/s/CTBO22SuQft1dBoHv2WRQg | 3| 
 | ATLAS Academy | atlas-cyber-academy | 2020网络安全大事记 - 监管判例篇 | https://mp.weixin.qq.com/s/60-O9GGYPNZZW6KVvY_c8w | 1| 
 | 大超的记事本 | Dachao_Dachao | 数据安全怎么做——静态敏感数据治理 | https://mp.weixin.qq.com/s/AejcWwJWxZWHf9dDRfVWPA | 2| 
@@ -459,7 +461,7 @@
 | 维他命安全 | VitaminSecurity |  | https://mp.weixin.qq.com/s/gkELP2C_Uftyca4hT5rEow | 11| 
 | 小黄的安全工作实录 | xiaohuangsec |  | https://mp.weixin.qq.com/s/kqp6kj7CcfV6sFBTzZzZsw | 2| 
 | 信息时代的犯罪侦查 | infocrime |  | https://mp.weixin.qq.com/s/XPeM95rpzPbVqRnDG01PiQ | 4| 
-| 腾讯技术工程 | Tencent_TEG |  | https://mp.weixin.qq.com/s/g_x_xpbyKKQkLNpYnMqaXg | 3| 
+| 腾讯技术工程 | Tencent_TEG |  | https://mp.weixin.qq.com/s/g_x_xpbyKKQkLNpYnMqaXg | 4| 
 | 人民公安报 | rmgabs |  | https://mp.weixin.qq.com/s/ZsI4LEmshKoppeeqM4nsrA | 3| 
 | 掮客酒馆 | SecurityPub |  | https://mp.weixin.qq.com/s/5whLNkfSUpW6zQNxQf7HqQ | 3| 
 | 学蚁致用 | sudo_i |  | https://mp.weixin.qq.com/s/IezN9aYCn51t1ZQ7wX3X3Q | 5| 
@@ -510,7 +512,7 @@
 | 晨星先生 | MoXuanIT |  | https://mp.weixin.qq.com/s/aOlZmdzzye2AsqGDa3hcbg | 1| 
 | 进击的大熊 | JinJi_DaXiong |  | https://mp.weixin.qq.com/s/CLq9jkHon8QJgO_rnBA9Yw | 1| 
 | 双螺旋Sec团队 | double_helix_sec |  | https://mp.weixin.qq.com/s/mTHmagQaRttUrYLVtCzVTA | 2| 
-| 小强说 | xiaoqiangcall |  | https://mp.weixin.qq.com/s/ZRiSi3bb-SkMc_54mWPgmw | 6| 
+| 小强说 | xiaoqiangcall |  | https://mp.weixin.qq.com/s/ZRiSi3bb-SkMc_54mWPgmw | 7| 
 | crackershi |  |  | https://mp.weixin.qq.com/s/nEMHu33qfO8GvDqStpVVuQ | 1| 
 | SecPulse安全脉搏 | SecPulse |  | https://mp.weixin.qq.com/s/SIFrdP-w3kvIhQGaAjhV-Q | 7| 
 | 新华视点 | XHSXHSD |  | https://mp.weixin.qq.com/s/S_HmemBo4wU22e6RJ_qDxw | 1| 
@@ -566,12 +568,12 @@
 | 湖南金盾评估中心 | JD83758161 |  | https://mp.weixin.qq.com/s/VrVBE7I4pCOd5BOnwIAs9A | 1| 
 | 平安集团安全应急响应中心 | PSRC_Team |  | https://mp.weixin.qq.com/s/eiVszU0mZ49WIMfrOEvgeA | 4| 
 | 互联网安全内参 | anquanneican |  | https://mp.weixin.qq.com/s/bm8jK8mLsYkWNH_fwIcPAg | 12| 
-| ChaMd5安全团队 | chamd5sec |  | https://mp.weixin.qq.com/s?__biz=MzIzMTc1MjExOQ==&mid=2247484574&idx=1&sn=91850fae13f6a478869f10fa176e3e8c | 62| 
+| ChaMd5安全团队 | chamd5sec |  | https://mp.weixin.qq.com/s?__biz=MzIzMTc1MjExOQ==&mid=2247484574&idx=1&sn=91850fae13f6a478869f10fa176e3e8c | 63| 
 | 软件定义世界（SDX） | SDx-SoftwareDefinedx |  | https://mp.weixin.qq.com/s/GnuuzHedLCSWj-VanHDhdA | 1| 
 | 网安寻路人 | DataProtection101 |  | https://mp.weixin.qq.com/s/_Wdi6RZfchA5g5Dp7TmWYg | 10| 
 | V安全资讯 |  |  | https://mp.weixin.qq.com/s/TnS8f8B1ntC3qvd4noc7nA | 1| 
 | 平安科技金融安全研究院 | pinganfinsec |  | https://mp.weixin.qq.com/s/FSoYqbOpoFBni1C8Di7J0A | 2| 
-| 安全学术圈 | secquan |  | https://mp.weixin.qq.com/s/zicl-lC1jCWdVnXWkO3eyQ | 81| 
+| 安全学术圈 | secquan |  | https://mp.weixin.qq.com/s/zicl-lC1jCWdVnXWkO3eyQ | 82| 
 | 匠道人 | ATech666 |  | https://mp.weixin.qq.com/s/eayCCAnfBW8LNEhDn5A0nw | 2| 
 | 斗鱼安全应急响应中心 | DYSRC_ |  | https://mp.weixin.qq.com/s/zDAXg1dmTh1I6N4hGusT5g | 1| 
 | 工控参考 | gkongnews |  | https://mp.weixin.qq.com/s/TE-uWlKflUCMUDzLAeaXSA | 1| 
@@ -1500,7 +1502,7 @@
 | zardus | ctf-tools:Some setup scripts for security research tools | https://github.com/zardus/ctf-tools | https://github.com/shellphish | DEFCON CTF org. Captain Emeritus of @shellphish. Asst Professor in Cybersecurity at @ASU. angr hacker. | Tempe, AZ, USA | None | 59 | 0 | 220 | 716 | 10 | Python,C,Shell,C++ | 0 | 0 | 1| 
 | sunnyelf | Cheetah:一款基于字典的webshell密码爆破工具 | https://github.com/sunnyelf/cheetah/blob/master/README_zh.md | https://github.com/Qihoo360 | Information security researcher, CTF enthusiast. | Beijing, China | @Qihoo360 | 105 | 0 | 893 | 710 | 98 | Python | 0 | 0 | 2| 
 | aozhimin | MOSEC-2017: 第三届 MOSEC 移动安全技术峰会 PPT | https://github.com/aozhimin/MOSEC-2017/tree/def4e06f3d1e80115c8066281a1b6261368cc105 | https://twitter.com/aozhimin0811 | 📲 iOS Developer，🐍 Python Developer, 🔨 Reverse Engineer | Shanghai, China | None | 86 | 0 | 394 | 710 | 84 | CSS | 1600 | 274 | 3| 
-| 0vercl0k | Exploit for CVE-2019-9810 Firefox on Windows 64 bits | https://github.com/0vercl0k/CVE-2019-9810 | https://doar-e.github.com/ |  | US/FR | None | 15 | 0 | 7 | 704 | 0 | Python,JavaScript,C++ | 760 | 157 | 3| 
+| 0vercl0k | Exploit for CVE-2019-9810 Firefox on Windows 64 bits | https://github.com/0vercl0k/CVE-2019-9810 | https://doar-e.github.com/ |  | US/FR | None | 15 | 0 | 7 | 704 | 0 | Python,JavaScript,C++ | 760 | 157 | 4| 
 | jpillora | chisel : A fast TCP tunnel over HTTP : https://github.com/jpillora/chisel | https://github.com/jpillora/chisel | https://keybase.io/jpillora |  | Sydney, Australia | None | 241 | 0 | 1300 | 702 | 45 | Go,JavaScript | 0 | 0 | 1| 
 | zerosum0x0 | koadic - 基于 JScript 实现的 Windows Rootkit,适用于 Windows 全版本: | https://github.com/zerosum0x0/koadic | https://zerosum0x0.blogspot.com |  | USSA | None | 83 | 0 | 23 | 696 | 2 | Python,C#,C,C++ | 1300 | 362 | 2| 
 | OffensivePython | Nscan: Fast internet-wide scanner | https://github.com/OffensivePython/Nscan | https://github.com/OffensivePython |  | None | @OffensivePython | 11 | 0 | 1 | 696 | 2 | Python | 479 | 206 | 1| 
@@ -4193,6 +4195,7 @@
 | 0xwindows | VulScritp: 内网渗透脚本 | https://github.com/0xwindows/VulScritp | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | 0xtyh | awesome reversing resources by @ 0xtyh | https://github.com/0xtyh/awesome-reversing | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | 0xspx | Another exploitation tool by @ 0xspx to find ROP gadgets for ARM using Capstone inside! | https://github.com/0xspx/armroper | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| 0x727 | 水泽-信息收集自动化工具 | https://github.com/0x727/ShuiZe_0x727 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | 0neb1n | PoC of CVE-2020-16947 (Microsoft Outlook RCE vulnerablility) | https://github.com/0neb1n/CVE-2020-16947 | None | I wanner be the pwner. | None | None | 11 | 0 | 0 | 0 | 0 | Lua,CSS | 23 | 14 | 1| 
 | 0linlin0 | CyberBox: Java Exp FrameWork | https://github.com/0linlin0/CyberBox | https://github.com/0linlin0?tab=followers | I fell in love with my computer : ) | None | None | 7 | 0 | 0 | 0 | 0 | HTML,Java | 0 | 0 | 1| 
 | 0Linchen | CTFCrackTools: 中国国内首个CTFcrack框架 | https://github.com/0Linchen/CTFCrackTools | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -4493,6 +4496,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 一个人怎么建立独立的思维框架和逻辑体系？ | https://www.zhihu.com/question/442047678/answer/1846239907| 
 | 当可解释人工智能遇上知识图谱 | https://zhuanlan.zhihu.com/p/386458680| 
 | 从邮件窃密活动探索新的文件加密传输方式 | https://zhuanlan.zhihu.com/p/389024302| 
 | 从BAB到SLSA——谈Google的软件供应链风险治理 | https://zhuanlan.zhihu.com/p/382721804| 
