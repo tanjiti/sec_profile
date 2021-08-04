@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 安全学术圈 | secquan | Android生态系统中分析库的隐私风险分析和缓解 | https://mp.weixin.qq.com/s/ItQUSf2PsA7KsSHryAGfmw | 1| 
 | SecWiki | SecWiki | Linux计划任务那点事儿 | https://mp.weixin.qq.com/s/KfeKpoPj-X7BRNR7O6QAcw | 1| 
 | M01N Team | m01nteam | 攻击技术研判｜Lazarus结合NDay投递VBA恶意远控的攻击分析 | https://mp.weixin.qq.com/s/x7L3R9iQdnrnEKpfop92Gg | 1| 
 | 我需要的是坚持 | MyPersistence2020 | 做红队你需要学习“如何挖掘战壕”（三） | https://mp.weixin.qq.com/s/OO_VZ8QB_J5UY88qkpLXDg | 1| 
