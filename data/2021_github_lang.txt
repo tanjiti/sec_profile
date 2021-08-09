@@ -1,5 +1,5 @@
 Python	41
-C	26
+C	27
 Java	21
 JavaScript	17
 C++	17
@@ -13,8 +13,8 @@ TypeScript	7
 Objective-C	5
 Lua	4
 YARA	4
+Assembly	4
 PowerShell	4
-Assembly	3
 CSS	3
 Ruby	3
 Perl	2

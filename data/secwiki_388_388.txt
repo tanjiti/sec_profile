@@ -1,0 +1,17 @@
+20210802	法规	https://mp.weixin.qq.com/s/ZzFx2Leu7DYhm39Kacofcg	《党委（党组）网络安全工作责任制实施办法》解读	qq.com	mp.weixin.qq.com	/s/ZzFx2Leu7DYhm39Kacofcg
+20210802	Web安全	https://mp.weixin.qq.com/s/OO_VZ8QB_J5UY88qkpLXDg	做红队你需要学习“如何挖掘战壕”（三）	qq.com	mp.weixin.qq.com	/s/OO_VZ8QB_J5UY88qkpLXDg
+20210802	Web安全	https://mp.weixin.qq.com/s/KfeKpoPj-X7BRNR7O6QAcw	Linux计划任务那点事儿	qq.com	mp.weixin.qq.com	/s/KfeKpoPj-X7BRNR7O6QAcw
+20210802	Web安全	https://zer1t0.gitlab.io/posts/attacking_ad/	Attacking Active Directory: 0 to 0.9	gitlab.io	zer1t0.gitlab.io	/posts/attacking_ad/
+20210802	Web安全	https://netsec.ccert.edu.cn/chs/projects/xmap	XMap：兼含 IPv6 与 IPv4 网络空间探测功能的快速扫描器	ccert.edu.cn	netsec.ccert.edu.cn	/chs/projects/xmap
+20210802	Web安全	https://mp.weixin.qq.com/s/x7L3R9iQdnrnEKpfop92Gg	Lazarus结合NDay投递VBA恶意远控的攻击分析	qq.com	mp.weixin.qq.com	/s/x7L3R9iQdnrnEKpfop92Gg
+20210802	恶意分析	https://mp.weixin.qq.com/s/hOvqm0U7rc-NNdVjR0dAaA	如何利用多杀软结果归并恶意软件家族名称	qq.com	mp.weixin.qq.com	/s/hOvqm0U7rc-NNdVjR0dAaA
+20210802	漏洞分析	https://bacde.me/post/Schneider-Charging-Staiong-Vulnerabilites/	施耐德充电桩漏洞挖掘之旅	bacde.me	bacde.me	/post/Schneider-Charging-Staiong-Vulnerabilites/
+20210802	杂志	https://www.sec-wiki.com/weekly/387	SecWiki周刊（第387期)	sec-wiki.com	www.sec-wiki.com	/weekly/387
+20210802	Web安全	https://www.sec-in.com/article/1089	浅谈利用session绕过getshell	sec-in.com	www.sec-in.com	/article/1089
+20210802	漏洞分析	https://mp.weixin.qq.com/s/l5NAWWQ584uXCO_HRMvQ0A	浅谈程序分析	qq.com	mp.weixin.qq.com	/s/l5NAWWQ584uXCO_HRMvQ0A
+20210802	移动安全	https://mp.weixin.qq.com/s/ItQUSf2PsA7KsSHryAGfmw	Android生态系统中分析库的隐私风险分析和缓解	qq.com	mp.weixin.qq.com	/s/ItQUSf2PsA7KsSHryAGfmw
+20210802	移动安全	https://mp.weixin.qq.com/s/ldkhHPH3MB4Te9JHa23xpg	Android预装应用的分析	qq.com	mp.weixin.qq.com	/s/ldkhHPH3MB4Te9JHa23xpg
+20210802	恶意分析	https://mp.weixin.qq.com/s/yxxd6eshC26BIHm9LgGp2A	如何利用多杀软结果提取恶意软件标签	qq.com	mp.weixin.qq.com	/s/yxxd6eshC26BIHm9LgGp2A
+20210802	Web安全	https://nosec.org/home/detail/4806.html	weblogic Coherence 组件漏洞总结分析	nosec.org	nosec.org	/home/detail/4806.html
+20210802	设备安全	https://mp.weixin.qq.com/s/FWprX-R1EfWrPMNa0WPedA	使用 GDB 获取软路由的文件系统	qq.com	mp.weixin.qq.com	/s/FWprX-R1EfWrPMNa0WPedA
+20210802	漏洞分析	https://mp.weixin.qq.com/s/7JdHPEo6DyxOjFuw1VMlqg	fuzzing check分支概述	qq.com	mp.weixin.qq.com	/s/7JdHPEo6DyxOjFuw1VMlqg
