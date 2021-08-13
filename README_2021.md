@@ -14,12 +14,14 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 绿盟科技威胁情报 | NSFOCUS_NTI | Lorec53组织分析报告- 攻击组件部分 | https://mp.weixin.qq.com/s/t_d8I4l0SnzGDXLRmmQzYg | 1| 
+| PaperWeekly | paperweekly | ACL 2021 , 基于词依存信息类型映射记忆神经网络的关系抽取 | https://mp.weixin.qq.com/s/BV1u8zq0YoP2yOKpKD_xNw | 1| 
 | 关键基础设施安全应急响应中心 | CII-SRC | 原创 , 《党委（党组）网络安全工作责任制实施办法》解读 | https://mp.weixin.qq.com/s/ZzFx2Leu7DYhm39Kacofcg | 1| 
 | Seebug漏洞平台 | seebug_org | 使用 GDB 获取软路由的文件系统 | https://mp.weixin.qq.com/s/FWprX-R1EfWrPMNa0WPedA | 1| 
 | 腾讯技术工程 | Tencent_TEG | 攻防启示：Chromium组件风险剖析与收敛 | https://mp.weixin.qq.com/s/AZhzOGjh_DtFRnkt1zunxQ | 1| 
 | 中国教育网络 | cernet | 一场关于网络安全伦理审查的对话 | https://mp.weixin.qq.com/s/8NlY3I49UxDirA7Pe8h7Cw | 1| 
 | leveryd | gh_8d7f6ed4daff | 安全建设-攻防思路与实践（一） | https://mp.weixin.qq.com/s/mnHGLZ_e3tWkxCL-DPAAvQ | 1| 
-| FuzzWiki | gh_fcf21e658324 | 浅谈并行化模糊测试技术 | https://mp.weixin.qq.com/s/I-2IllKVbUvOm1x9mMiihw | 2| 
+| FuzzWiki | gh_fcf21e658324 | 浅谈并行化模糊测试技术 | https://mp.weixin.qq.com/s/I-2IllKVbUvOm1x9mMiihw | 3| 
 | CodeWisdom | gh_2395906a410f | 智能化软件开发微访谈·第十七期：面向人工智能的软件工程研究与实践 | https://mp.weixin.qq.com/s/8xx2Q_cGjBD8l_dNMFkhgg | 1| 
 | 知帆科技 | chaindigg | 浅析利用虚拟货币洗钱 | https://mp.weixin.qq.com/s/hoXNYkaOF4SWNzK4W8l-8w | 1| 
 | 汉堡爱好者 | burgerk1 | 越权漏洞治理实践（自动检测部分IDOR） | https://mp.weixin.qq.com/s/GG8cdvpYoGVs4l-G_YvSag | 2| 
@@ -304,6 +306,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Common GraphQL Misconceptions | http://securitygoat.medium.com/common-graphql-misconceptions-a-rant-489647167ca3| 
 | Using ProxyCannon-NG to Create Unlimited Rotating Proxies | http://medium.com/@devinjaystokes/using-proxycannon-ng-to-create-unlimited-rotating-proxies-fccffa70a728| 
 | 利用 Apple AWDL 协议从物理隔离的环境中向外渗透数据 | http://medium.com/sensorfu/escaping-from-a-truly-air-gapped-network-via-apple-awdl-6cf6f9ea3499| 
 | 利用 CVE-2021-20090 漏洞绕过 Arcadyan 路由器的认证 | http://medium.com/tenable-techblog/bypassing-authentication-on-arcadyan-routers-with-cve-2021-20090-and-rooting-some-buffalo-ea1dd30980c2| 
@@ -376,6 +379,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| Microsoft对于信息安全建设与业务发展之间平衡的思考（上） | https://zhuanlan.zhihu.com/p/376562987| 
 | 一个人怎么建立独立的思维框架和逻辑体系？ | https://www.zhihu.com/question/442047678/answer/1846239907| 
 | 当可解释人工智能遇上知识图谱 | https://zhuanlan.zhihu.com/p/386458680| 
 | 从邮件窃密活动探索新的文件加密传输方式 | https://zhuanlan.zhihu.com/p/389024302| 

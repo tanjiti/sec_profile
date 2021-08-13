@@ -14,6 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 绿盟科技威胁情报 | NSFOCUS_NTI | Lorec53组织分析报告- 攻击组件部分 | https://mp.weixin.qq.com/s/t_d8I4l0SnzGDXLRmmQzYg | 1| 
+| PaperWeekly | paperweekly | ACL 2021 , 基于词依存信息类型映射记忆神经网络的关系抽取 | https://mp.weixin.qq.com/s/BV1u8zq0YoP2yOKpKD_xNw | 1| 
 | 微步在线研究响应中心 | gh_c108d4d389bf | APT29—觊觎全球情报的国家级黑客组织（中） | https://mp.weixin.qq.com/s/Ln7iBm-Go17CQhIaRNHD0Q | 2| 
 | 360威胁情报中心 | CoreSec360 | 南亚地区APT组织2020年度攻击活动回顾（下） | https://mp.weixin.qq.com/s/XcBuxlDh2DIjIMdFH6KCKQ | 2| 
 | 莫哥谈安全 | gh_247dfbdf3d43 | 如何做好一个威胁情报聚合查询平台及如何利用该平台来进行安全运营工作 | https://mp.weixin.qq.com/s/dq-jL2t0nd9-F0_i7sU9_g | 1| 
@@ -21,7 +23,7 @@
 | 一个人的安全笔记 | xjiek2015 | [HTB] Spectra Writeup | https://mp.weixin.qq.com/s/nDTJk9m4-gpd-S9j0i1w1A | 1| 
 | 关键基础设施安全应急响应中心 | CII-SRC | 原创 , 《党委（党组）网络安全工作责任制实施办法》解读 | https://mp.weixin.qq.com/s/ZzFx2Leu7DYhm39Kacofcg | 1| 
 | Seebug漏洞平台 | seebug_org | 使用 GDB 获取软路由的文件系统 | https://mp.weixin.qq.com/s/FWprX-R1EfWrPMNa0WPedA | 1| 
-| FuzzWiki | gh_fcf21e658324 | fuzzing check分支概述 | https://mp.weixin.qq.com/s/7JdHPEo6DyxOjFuw1VMlqg | 1| 
+| FuzzWiki | gh_fcf21e658324 | fuzzing check分支概述 | https://mp.weixin.qq.com/s/7JdHPEo6DyxOjFuw1VMlqg | 2| 
 | 编程语言Lab | HW-PLLab | 浅谈程序分析 | https://mp.weixin.qq.com/s/l5NAWWQ584uXCO_HRMvQ0A | 1| 
 | 我需要的是坚持 | MyPersistence2020 | 做红队你需要学习“如何挖掘战壕”（三） | https://mp.weixin.qq.com/s/OO_VZ8QB_J5UY88qkpLXDg | 1| 
 | 安全学术圈 | secquan | Android生态系统中分析库的隐私风险分析和缓解 | https://mp.weixin.qq.com/s/ItQUSf2PsA7KsSHryAGfmw | 3| 
@@ -45,6 +47,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Common GraphQL Misconceptions | http://securitygoat.medium.com/common-graphql-misconceptions-a-rant-489647167ca3| 
 | Using ProxyCannon-NG to Create Unlimited Rotating Proxies | http://medium.com/@devinjaystokes/using-proxycannon-ng-to-create-unlimited-rotating-proxies-fccffa70a728| 
 | 利用 Apple AWDL 协议从物理隔离的环境中向外渗透数据 | http://medium.com/sensorfu/escaping-from-a-truly-air-gapped-network-via-apple-awdl-6cf6f9ea3499| 
 | 利用 CVE-2021-20090 漏洞绕过 Arcadyan 路由器的认证 | http://medium.com/tenable-techblog/bypassing-authentication-on-arcadyan-routers-with-cve-2021-20090-and-rooting-some-buffalo-ea1dd30980c2| 
@@ -63,6 +66,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| Microsoft对于信息安全建设与业务发展之间平衡的思考（上） | https://zhuanlan.zhihu.com/p/376562987| 
 
 
 # xz_xuanwu 推荐

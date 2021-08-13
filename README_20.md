@@ -14,9 +14,10 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 绿盟科技威胁情报 | NSFOCUS_NTI | Lorec53组织分析报告- 攻击组件部分 | https://mp.weixin.qq.com/s/t_d8I4l0SnzGDXLRmmQzYg | 1| 
 | 中国教育网络 | cernet | 一场关于网络安全伦理审查的对话 | https://mp.weixin.qq.com/s/8NlY3I49UxDirA7Pe8h7Cw | 1| 
 | leveryd | gh_8d7f6ed4daff | 安全建设-攻防思路与实践（一） | https://mp.weixin.qq.com/s/mnHGLZ_e3tWkxCL-DPAAvQ | 1| 
-| FuzzWiki | gh_fcf21e658324 | 浅谈并行化模糊测试技术 | https://mp.weixin.qq.com/s/I-2IllKVbUvOm1x9mMiihw | 2| 
+| FuzzWiki | gh_fcf21e658324 | 浅谈并行化模糊测试技术 | https://mp.weixin.qq.com/s/I-2IllKVbUvOm1x9mMiihw | 3| 
 | 知帆科技 | chaindigg | 浅析利用虚拟货币洗钱 | https://mp.weixin.qq.com/s/hoXNYkaOF4SWNzK4W8l-8w | 1| 
 | 汉堡爱好者 | burgerk1 | 越权漏洞治理实践（自动检测部分IDOR） | https://mp.weixin.qq.com/s/GG8cdvpYoGVs4l-G_YvSag | 2| 
 | 乌雲安全 | hackctf | 干货,利用pocsuite3框架编写poc实战案例 | https://mp.weixin.qq.com/s/LN5gJnKpunfWGJ6yQQtHuw | 1| 
@@ -618,7 +619,7 @@
 | 逢人斗智斗勇 | xiaopigfly |  | https://mp.weixin.qq.com/s/IZn_xnO2tyUWmx9dronYUQ | 2| 
 | 萝卜安全 | carrotsafe |  | https://mp.weixin.qq.com/s/bE_smPTR8yzB1ksvrcXEXw | 1| 
 | 百度安全实验室 | BaiduX_lab |  | https://mp.weixin.qq.com/s/8MSpAorxrTCH_l1y2Q_qOw | 9| 
-| PaperWeekly | paperweekly |  | https://mp.weixin.qq.com/s/cL1aKdu8ig8-ocOPirXk2w | 12| 
+| PaperWeekly | paperweekly |  | https://mp.weixin.qq.com/s/cL1aKdu8ig8-ocOPirXk2w | 13| 
 | 美团技术团队 | meituantech |  | https://mp.weixin.qq.com/s/-wAr-tWqvS2NLfwxKcnEQQ | 9| 
 | 编码美丽 | jiangwei0910410003 |  | https://mp.weixin.qq.com/s/xSe2Zrv9Ev4qRaN99YmnRA | 1| 
 | 工控安全应急保障中心 |  |  | https://mp.weixin.qq.com/s/jdqB8I6T33x3LlKpUXljJw | 2| 
@@ -4206,6 +4207,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Common GraphQL Misconceptions | http://securitygoat.medium.com/common-graphql-misconceptions-a-rant-489647167ca3| 
 | Using ProxyCannon-NG to Create Unlimited Rotating Proxies | http://medium.com/@devinjaystokes/using-proxycannon-ng-to-create-unlimited-rotating-proxies-fccffa70a728| 
 | 利用 Apple AWDL 协议从物理隔离的环境中向外渗透数据 | http://medium.com/sensorfu/escaping-from-a-truly-air-gapped-network-via-apple-awdl-6cf6f9ea3499| 
 | 利用 CVE-2021-20090 漏洞绕过 Arcadyan 路由器的认证 | http://medium.com/tenable-techblog/bypassing-authentication-on-arcadyan-routers-with-cve-2021-20090-and-rooting-some-buffalo-ea1dd30980c2| 
@@ -4500,6 +4502,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| Microsoft对于信息安全建设与业务发展之间平衡的思考（上） | https://zhuanlan.zhihu.com/p/376562987| 
 | 一个人怎么建立独立的思维框架和逻辑体系？ | https://www.zhihu.com/question/442047678/answer/1846239907| 
 | 当可解释人工智能遇上知识图谱 | https://zhuanlan.zhihu.com/p/386458680| 
 | 从邮件窃密活动探索新的文件加密传输方式 | https://zhuanlan.zhihu.com/p/389024302| 
