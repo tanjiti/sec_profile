@@ -286,6 +286,7 @@
 | LasCC | The all-in-one Red Team browser extension for Web Pentesters | https://github.com/LasCC/Hack-Tools | https://ludovic-cyber-sec.netlify.app/ | Cyber Security Student at ESGI Paris 🇫🇷 | Paris | None | 45 | 0 | 0 | 0 | 0 | TypeScript,Python,JavaScript | 1900 | 197 | 1| 
 | Hzllaga | 宝塔面板Windows版提权方法 | https://github.com/Hzllaga/BT_Panel_Privilege_Escalation | None |  | None | None | 31 | 0 | 0 | 0 | 0 | C#,Python | 187 | 39 | 1| 
 | GuoKerS | 利用字符集编码绕过waf的burp插件 | https://github.com/GuoKerS/Charset_encoding-Burp | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| GhostPack | Certify - Active Directory Certificate Services 错误配置检测工具 | https://github.com/GhostPack/Certify | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | FunnyWolf | Viper: 图形化内网渗透工具 | https://github.com/FunnyWolf/Viper | None | hack for fun | None | None | 21 | 0 | 0 | 0 | 0 | Python,Go | 504 | 73 | 1| 
 | EdgeSecurityTeam | Edge Security Team 整理的各类服务、组件的安全漏洞库。 注：可能存在风险，建议在隔离的环境中运行、测试其中的相关工具、代码、脚本。 | https://github.com/EdgeSecurityTeam/Vulnerability | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | EXHades | 一些网络空间搜索引擎相关的资料 | https://github.com/EXHades/CyberSpaceSearchEngine-Research | https://github.com/OmenSec | Never stop Thinking! | World wide,Gensokyo | @OmenSec @Ouroboros-SEC | 35 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 

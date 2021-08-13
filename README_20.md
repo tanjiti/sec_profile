@@ -4135,6 +4135,7 @@
 | GoogleChrome | Puppeteer - 基于 DevTools 协议,用于自动化控制 Chrome 浏览器的 Node 库,可用来实现网络爬虫、网页截图、UI 测试等等: | https://github.com/GoogleChrome/puppeteer | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Java,Python,JavaScript,HTML,CSS | 0 | 0 | 2| 
 | GoASTScanner | Go AST Scanner：Inspects source code for security problems | https://github.com/GoASTScanner/gas | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | Go0s | LFIboomCTF: 本地文件包含漏洞&&PHP利用协议&&实践源码 | https://github.com/Go0s/LFIboomCTF | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| GhostPack | Certify - Active Directory Certificate Services 错误配置检测工具 | https://github.com/GhostPack/Certify | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | Genetic-Malware | Framework for Making Environmental Keyed Payloads | https://github.com/Genetic-Malware/Ebowla | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 2| 
 | Gallopsled | pwntools:CTF framework used by Gallopsled in every CTF | https://github.com/Gallopsled/pwntools?v=2.2 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Ruby | 0 | 0 | 1| 
 | G-E-N-E-S-I-S | loadlibrayy - x64 PE 注入工具: | https://github.com/G-E-N-E-S-I-S/loadlibrayy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
