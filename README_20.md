@@ -16,7 +16,7 @@
 | --- | --- | --- | ---| 
 | 绿盟科技威胁情报 | NSFOCUS_NTI | Lorec53组织分析报告- 攻击组件部分 | https://mp.weixin.qq.com/s/t_d8I4l0SnzGDXLRmmQzYg | 1| 
 | 中国教育网络 | cernet | 一场关于网络安全伦理审查的对话 | https://mp.weixin.qq.com/s/8NlY3I49UxDirA7Pe8h7Cw | 1| 
-| leveryd | gh_8d7f6ed4daff | 安全建设-攻防思路与实践（一） | https://mp.weixin.qq.com/s/mnHGLZ_e3tWkxCL-DPAAvQ | 1| 
+| leveryd | gh_8d7f6ed4daff | 安全建设-攻防思路与实践（一） | https://mp.weixin.qq.com/s/mnHGLZ_e3tWkxCL-DPAAvQ | 2| 
 | FuzzWiki | gh_fcf21e658324 | 浅谈并行化模糊测试技术 | https://mp.weixin.qq.com/s/I-2IllKVbUvOm1x9mMiihw | 3| 
 | 知帆科技 | chaindigg | 浅析利用虚拟货币洗钱 | https://mp.weixin.qq.com/s/hoXNYkaOF4SWNzK4W8l-8w | 1| 
 | 汉堡爱好者 | burgerk1 | 越权漏洞治理实践（自动检测部分IDOR） | https://mp.weixin.qq.com/s/GG8cdvpYoGVs4l-G_YvSag | 2| 
@@ -28,7 +28,7 @@
 | 卫星黑客 | Satellite_Hacker | 太空态势感知能力介绍 | https://mp.weixin.qq.com/s/PTYMBowzZre7U02CNrbnFg | 1| 
 | ZLabs | gh_339ee98cec1b | 区块链链上追踪基础篇【上】：地址标签入门 | https://mp.weixin.qq.com/s/eDVVFhmXveayT-u44UZL2A | 4| 
 | AISeer | AISeer520 | AAAI 2021 , 基于图神经网络的多变量时间序列异常检测 | https://mp.weixin.qq.com/s/zizQnPTi_B6BqajrcJwKUg | 1| 
-| 蓝鸟安全 | gh_d365aca1d051 | 邮件攻防技术,附件木马伪装的N种方法 | https://mp.weixin.qq.com/s/18BB0eyKkiegmUFF1kPMaA | 1| 
+| 蓝鸟安全 | gh_d365aca1d051 | 邮件攻防技术,附件木马伪装的N种方法 | https://mp.weixin.qq.com/s/18BB0eyKkiegmUFF1kPMaA | 2| 
 | 表图 | CyberSecurityCircle | 离职期员工的信息安全管控实践 | https://mp.weixin.qq.com/s/hIIyFbx562WREErC9Ygw0Q | 1| 
 | 桥的断想 | TasteMiss | 从0到1建设物联网安全实验室之设备篇 | https://mp.weixin.qq.com/s/iyoK3bQQLq6Rhxgebt4VBA | 1| 
 | 360政企安全 | gh_6db130c5163e | 预见Win11“前顾之忧”：360全球首家发现Win11高危漏洞，推出热补丁解决方案！ | https://mp.weixin.qq.com/s/_PjO4_wpe2LQc4BMfg-FGg | 1| 
@@ -574,7 +574,7 @@
 | 网安寻路人 | DataProtection101 |  | https://mp.weixin.qq.com/s/_Wdi6RZfchA5g5Dp7TmWYg | 10| 
 | V安全资讯 |  |  | https://mp.weixin.qq.com/s/TnS8f8B1ntC3qvd4noc7nA | 1| 
 | 平安科技金融安全研究院 | pinganfinsec |  | https://mp.weixin.qq.com/s/FSoYqbOpoFBni1C8Di7J0A | 2| 
-| 安全学术圈 | secquan |  | https://mp.weixin.qq.com/s/zicl-lC1jCWdVnXWkO3eyQ | 85| 
+| 安全学术圈 | secquan |  | https://mp.weixin.qq.com/s/zicl-lC1jCWdVnXWkO3eyQ | 87| 
 | 匠道人 | ATech666 |  | https://mp.weixin.qq.com/s/eayCCAnfBW8LNEhDn5A0nw | 2| 
 | 斗鱼安全应急响应中心 | DYSRC_ |  | https://mp.weixin.qq.com/s/zDAXg1dmTh1I6N4hGusT5g | 1| 
 | 工控参考 | gkongnews |  | https://mp.weixin.qq.com/s/TE-uWlKflUCMUDzLAeaXSA | 1| 
@@ -3912,6 +3912,7 @@
 | immunityinc | Immunity 开源了一个用于进程调试和 Trace 的库 - libptrace | https://github.com/immunityinc/libptrace | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 0 | 0 | 1| 
 | ihebski | 各类 IoT 设备/Web 组件的默认密码收集 | https://github.com/ihebski/DefaultCreds-cheat-sheet | None | Security Operations Engineer (⌐■_■) , Pentester , Bughunter | Error: Unable to resolve | None | 57 | 0 | 0 | 0 | 0 | Python,HTML,Jupyter | 343 | 91 | 1| 
 | idapython | IDA Pro IDAPython 项目的源代码 | https://github.com/idapython/src | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
+| ice-doom | EyeJo: 一款自动化资产风险评估平台 | https://github.com/ice-doom/EyeJo | https://github.com/ice-doom?tab=followers |  | None | None | 2 | 0 | 0 | 0 | 0 | Python,C++ | 0 | 0 | 1| 
 | iabem97 | iOS 11.3/15E5189f Security Server 服务(securityd)溢出漏洞 PoC: | https://github.com/iabem97/securityd-racer2 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | huoji120 | DuckMemoryScan: 内存免杀马检测 | https://github.com/huoji120/DuckMemoryScan | https://key08.com | 网络安全工程师、游戏安全工程师、反病毒工程师、全栈开发程序员、黑客 | 北京 朝阳 | CTO | 84 | 0 | 0 | 0 | 0 | Python,C,C++ | 0 | 0 | 1| 
 | hungryfoolou | CVE漏洞信息爬取 | https://github.com/hungryfoolou/Vulnerability_Mining/tree/master/craw | None |  | None | XiDian University | 6 | 0 | 10 | 0 | 3 | Python,C,HTML | 75 | 39 | 1| 

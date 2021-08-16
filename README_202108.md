@@ -14,7 +14,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 蓝鸟安全 | gh_d365aca1d051 | 应急响应,Windows上机取证检查 | https://mp.weixin.qq.com/s/2iyXBrobI2WjGmpsCrjUxw | 1| 
 | 绿盟科技威胁情报 | NSFOCUS_NTI | Lorec53组织分析报告- 攻击组件部分 | https://mp.weixin.qq.com/s/t_d8I4l0SnzGDXLRmmQzYg | 1| 
+| leveryd | gh_8d7f6ed4daff | 全流量入侵检测系统的性能分析 | https://mp.weixin.qq.com/s/7_ZrnKVaWuBjXCgmqdaUAQ | 1| 
 | PaperWeekly | paperweekly | ACL 2021 , 基于词依存信息类型映射记忆神经网络的关系抽取 | https://mp.weixin.qq.com/s/BV1u8zq0YoP2yOKpKD_xNw | 1| 
 | 微步在线研究响应中心 | gh_c108d4d389bf | APT29—觊觎全球情报的国家级黑客组织（中） | https://mp.weixin.qq.com/s/Ln7iBm-Go17CQhIaRNHD0Q | 2| 
 | 360威胁情报中心 | CoreSec360 | 南亚地区APT组织2020年度攻击活动回顾（下） | https://mp.weixin.qq.com/s/XcBuxlDh2DIjIMdFH6KCKQ | 2| 
@@ -26,7 +28,7 @@
 | FuzzWiki | gh_fcf21e658324 | fuzzing check分支概述 | https://mp.weixin.qq.com/s/7JdHPEo6DyxOjFuw1VMlqg | 2| 
 | 编程语言Lab | HW-PLLab | 浅谈程序分析 | https://mp.weixin.qq.com/s/l5NAWWQ584uXCO_HRMvQ0A | 1| 
 | 我需要的是坚持 | MyPersistence2020 | 做红队你需要学习“如何挖掘战壕”（三） | https://mp.weixin.qq.com/s/OO_VZ8QB_J5UY88qkpLXDg | 1| 
-| 安全学术圈 | secquan | Android生态系统中分析库的隐私风险分析和缓解 | https://mp.weixin.qq.com/s/ItQUSf2PsA7KsSHryAGfmw | 3| 
+| 安全学术圈 | secquan | Android生态系统中分析库的隐私风险分析和缓解 | https://mp.weixin.qq.com/s/ItQUSf2PsA7KsSHryAGfmw | 5| 
 | 威胁棱镜 | THREAT_PRISM | 如何利用多杀软结果归并恶意软件家族名称 | https://mp.weixin.qq.com/s/hOvqm0U7rc-NNdVjR0dAaA | 4| 
 | SecWiki | SecWiki | Linux计划任务那点事儿 | https://mp.weixin.qq.com/s/KfeKpoPj-X7BRNR7O6QAcw | 1| 
 | M01N Team | m01nteam | 攻击技术研判｜Lazarus结合NDay投递VBA恶意远控的攻击分析 | https://mp.weixin.qq.com/s/x7L3R9iQdnrnEKpfop92Gg | 2| 
@@ -41,6 +43,7 @@
 # 私人github账号 推荐
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
+| ice-doom | EyeJo: 一款自动化资产风险评估平台 | https://github.com/ice-doom/EyeJo | https://github.com/ice-doom?tab=followers |  | None | None | 2 | 0 | 0 | 0 | 0 | Python,C++ | 0 | 0 | 1| 
 | boku7 | Cobalt Strike BOF - Inject AMSI Bypass | https://github.com/boku7/injectAmsiBypass | https://github.com/boku7?tab=followers | SpiderLabs , OSWE , eWPTX , OSCE , eCXD , OSCP , SLAE32,64 | United States | Trustwave SpiderLabs | 42 | 0 | 0 | 0 | 0 | C,Assembly | 0 | 0 | 1| 
 | GhostPack | Certify - Active Directory Certificate Services 错误配置检测工具 | https://github.com/GhostPack/Certify | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 

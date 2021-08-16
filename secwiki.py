@@ -67,9 +67,10 @@ def sort_fname(fnames):
     """
     nos = {}
     for fname in fnames:
-        m = re.search(r'(\d+)_week\.html', fname)
-        if m:
-            nos[int(m.group(1))] = fname
+        if fname:
+            m = re.search(r'(\d+)_week\.html', fname)
+            if m:
+                nos[int(m.group(1))] = fname
 
     return nos
 
@@ -226,7 +227,7 @@ def parse_all(fnames=None, renew=False, proxy=None):
                             values(?,?,?,?,?,?,?);"""
 
     # file handler
-
+    print("lala",nos)
     result_fname = path("data/secwiki_{start}_{end}.txt".format(
         start=nos.keys()[0],
         end=nos.keys()[-1]

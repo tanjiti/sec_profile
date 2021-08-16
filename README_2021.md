@@ -20,7 +20,7 @@
 | Seebug漏洞平台 | seebug_org | 使用 GDB 获取软路由的文件系统 | https://mp.weixin.qq.com/s/FWprX-R1EfWrPMNa0WPedA | 1| 
 | 腾讯技术工程 | Tencent_TEG | 攻防启示：Chromium组件风险剖析与收敛 | https://mp.weixin.qq.com/s/AZhzOGjh_DtFRnkt1zunxQ | 1| 
 | 中国教育网络 | cernet | 一场关于网络安全伦理审查的对话 | https://mp.weixin.qq.com/s/8NlY3I49UxDirA7Pe8h7Cw | 1| 
-| leveryd | gh_8d7f6ed4daff | 安全建设-攻防思路与实践（一） | https://mp.weixin.qq.com/s/mnHGLZ_e3tWkxCL-DPAAvQ | 1| 
+| leveryd | gh_8d7f6ed4daff | 安全建设-攻防思路与实践（一） | https://mp.weixin.qq.com/s/mnHGLZ_e3tWkxCL-DPAAvQ | 2| 
 | FuzzWiki | gh_fcf21e658324 | 浅谈并行化模糊测试技术 | https://mp.weixin.qq.com/s/I-2IllKVbUvOm1x9mMiihw | 3| 
 | CodeWisdom | gh_2395906a410f | 智能化软件开发微访谈·第十七期：面向人工智能的软件工程研究与实践 | https://mp.weixin.qq.com/s/8xx2Q_cGjBD8l_dNMFkhgg | 1| 
 | 知帆科技 | chaindigg | 浅析利用虚拟货币洗钱 | https://mp.weixin.qq.com/s/hoXNYkaOF4SWNzK4W8l-8w | 1| 
@@ -37,7 +37,7 @@
 | 云鼎实验室 | YunDingLab | 浅谈云上攻防——Web应用托管服务中的元数据安全隐患 | https://mp.weixin.qq.com/s/NesaxzuULBkkLBPkg7i8wQ | 1| 
 | ZLabs | gh_339ee98cec1b | 区块链链上追踪基础篇【上】：地址标签入门 | https://mp.weixin.qq.com/s/eDVVFhmXveayT-u44UZL2A | 4| 
 | AISeer | AISeer520 | AAAI 2021 , 基于图神经网络的多变量时间序列异常检测 | https://mp.weixin.qq.com/s/zizQnPTi_B6BqajrcJwKUg | 1| 
-| 蓝鸟安全 | gh_d365aca1d051 | 邮件攻防技术,附件木马伪装的N种方法 | https://mp.weixin.qq.com/s/18BB0eyKkiegmUFF1kPMaA | 1| 
+| 蓝鸟安全 | gh_d365aca1d051 | 邮件攻防技术,附件木马伪装的N种方法 | https://mp.weixin.qq.com/s/18BB0eyKkiegmUFF1kPMaA | 2| 
 | 烽台科技 | fengtaisec | 工业企业工控安全人才矩阵 | https://mp.weixin.qq.com/s/pqGa10MzKYob0MQgxHOkhA | 1| 
 | 表图 | CyberSecurityCircle | 离职期员工的信息安全管控实践 | https://mp.weixin.qq.com/s/hIIyFbx562WREErC9Ygw0Q | 1| 
 | 桥的断想 | TasteMiss | 从0到1建设物联网安全实验室之设备篇 | https://mp.weixin.qq.com/s/iyoK3bQQLq6Rhxgebt4VBA | 1| 
@@ -176,7 +176,7 @@
 | 人民公安报 | rmgabs | 公安部网安局公布一批网络黑产案例 | https://mp.weixin.qq.com/s/uXupT3yeeOA9NWVjQORgDQ | 1| 
 | 启明星辰专家视野 | VenusExpertsVision | 自动化渗透测试系统技术路径分析 | https://mp.weixin.qq.com/s/gtXfPvT8Yatp3IMVdCID7Q | 1| 
 | FreeBuf | freebuf | 关于PDD员工发帖溯源联想到的相关技术与实现 | https://mp.weixin.qq.com/s/coRsNLMT_FAr6xSHwPgOUg | 5| 
-| 安全学术圈 | secquan | 使用自己的代码查找漏洞：检测功能相似但不一致的代码 | https://mp.weixin.qq.com/s/ELbtEhd1wedkEqhboPpLuQ | 32| 
+| 安全学术圈 | secquan | 使用自己的代码查找漏洞：检测功能相似但不一致的代码 | https://mp.weixin.qq.com/s/ELbtEhd1wedkEqhboPpLuQ | 34| 
 | 阿里云安全 | aliyunsec | 对 SolarWinds 事件更深的思考：如何防御供应链攻击 | https://mp.weixin.qq.com/s/GdER32Z7K86boHVc-Kic3g | 1| 
 | 360Quake空间测绘 | gh_0284fd4851e7 | 浅析开源蜜罐识别与全网测绘 | https://mp.weixin.qq.com/s/hq-z2HBGz3nehnCVg_H-RQ | 2| 
 | 深信服千里目安全实验室 | Further_eye | 【高级持续性威胁跟踪】红队视角看Sunburst后门中的TTPs | https://mp.weixin.qq.com/s/wtEbawfOd1g_T2ovp1SaGg | 3| 
@@ -238,6 +238,7 @@
 | irsl | Google ISC DHCP 软件随机数存在问题，导致攻击者可以通过网络攻击 Google Cloud Platform 虚拟机 | https://github.com/irsl/gcp-dhcp-takeover-code-exec | https://github.com/irsl?tab=followers |  | None | None | 56 | 0 | 0 | 0 | 0 | Go,Java,C++,Perl | 0 | 0 | 1| 
 | inbug-team | InScan: 边界打点后的自动化渗透工具 | https://github.com/inbug-team/InScan/ | None |  | None | None | 1 | 0 | 0 | 0 | 0 | Go | 0 | 0 | 1| 
 | ihebski | 各类 IoT 设备/Web 组件的默认密码收集 | https://github.com/ihebski/DefaultCreds-cheat-sheet | None | Security Operations Engineer (⌐■_■) , Pentester , Bughunter | Error: Unable to resolve | None | 57 | 0 | 0 | 0 | 0 | Python,HTML,Jupyter | 343 | 91 | 1| 
+| ice-doom | EyeJo: 一款自动化资产风险评估平台 | https://github.com/ice-doom/EyeJo | https://github.com/ice-doom?tab=followers |  | None | None | 2 | 0 | 0 | 0 | 0 | Python,C++ | 0 | 0 | 1| 
 | huoji120 | DuckMemoryScan: 内存免杀马检测 | https://github.com/huoji120/DuckMemoryScan | https://key08.com | 网络安全工程师、游戏安全工程师、反病毒工程师、全栈开发程序员、黑客 | 北京 朝阳 | CTO | 84 | 0 | 0 | 0 | 0 | Python,C,C++ | 0 | 0 | 1| 
 | hasherezade | libPeConv - 用于加载、修改、Dump PE 文件的工具库 | https://github.com/hasherezade/libpeconv | https://github.com/hasherezade?tab=followers |  | Poland | None | 70 | 0 | 0 | 0 | 0 | C,JavaScript,Assembly,C++ | 0 | 0 | 1| 
 | h4ckdepy | SeveTools:多功能的网络安全实战工具项目库。 | https://github.com/h4ckdepy/SeveTools | https://blog.happysec.cn | 网络安全爱好者。 | None | None | 21 | 0 | 0 | 0 | 0 | Stylus,PHP,JavaScript,CSS | 118 | 66 | 1| 
