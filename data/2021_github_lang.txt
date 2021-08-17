@@ -15,9 +15,9 @@ Lua	4
 YARA	4
 Assembly	4
 PowerShell	4
+Perl	3
 CSS	3
 Ruby	3
-Perl	2
 Vue	2
 Jupyter	2
 Kotlin	2

@@ -1,0 +1,27 @@
+20210809	恶意分析	https://mp.weixin.qq.com/s/q29rBW5ndtH7nilnpe6URA	Webshell流量检测	qq.com	mp.weixin.qq.com	/s/q29rBW5ndtH7nilnpe6URA
+20210809	Web安全	https://github.com/ice-doom/EyeJo	EyeJo: 一款自动化资产风险评估平台	github.com	github.com	/ice-doom/EyeJo
+20210809	Web安全	https://www.freebuf.com/articles/web/283795.html	CodeQL从入门到放弃	freebuf.com	www.freebuf.com	/articles/web/283795.html
+20210809	Web安全	https://www.sec-in.com/article/1090	java安全之fastjson链分析	sec-in.com	www.sec-in.com	/article/1090
+20210809	漏洞分析	https://mp.weixin.qq.com/s/2AW9FzVr3xaRsUbsiZ9cRQ	二进制漏洞利用可视化技术研究	qq.com	mp.weixin.qq.com	/s/2AW9FzVr3xaRsUbsiZ9cRQ
+20210809	取证分析	https://mp.weixin.qq.com/s/dq-jL2t0nd9-F0_i7sU9_g	威胁情报聚合查询平台及安全运营的设想	qq.com	mp.weixin.qq.com	/s/dq-jL2t0nd9-F0_i7sU9_g
+20210809	取证分析	https://mp.weixin.qq.com/s/7_ZrnKVaWuBjXCgmqdaUAQ	全流量入侵检测系统的性能分析	qq.com	mp.weixin.qq.com	/s/7_ZrnKVaWuBjXCgmqdaUAQ
+20210809	Web安全	https://mp.weixin.qq.com/s/WpT2Yirdk2sc9lV00VQJaQ	暴露会话Cookie的CNAME伪装机制	qq.com	mp.weixin.qq.com	/s/WpT2Yirdk2sc9lV00VQJaQ
+20210809	其它	https://www.cdxy.me/?p=844	技术表达能力训练	cdxy.me	www.cdxy.me	/
+20210809	Web安全	https://mp.weixin.qq.com/s/EIC__6o3-tppnmcZMo6d8g	如何检测暗链植入	qq.com	mp.weixin.qq.com	/s/EIC__6o3-tppnmcZMo6d8g
+20210809	恶意分析	https://mp.weixin.qq.com/s/x0Y8psN_luaIH8dfQjwp3w	APT29—觊觎全球情报的国家级黑客组织（上）	qq.com	mp.weixin.qq.com	/s/x0Y8psN_luaIH8dfQjwp3w
+20210809	取证分析	https://mp.weixin.qq.com/s/2iyXBrobI2WjGmpsCrjUxw	Windows上机取证检查	qq.com	mp.weixin.qq.com	/s/2iyXBrobI2WjGmpsCrjUxw
+20210809	恶意分析	https://mp.weixin.qq.com/s/xvfa9pfFRZs64VgyV7KSsQ	评估自动生成 Yara 规则工具的有效性及提高	qq.com	mp.weixin.qq.com	/s/xvfa9pfFRZs64VgyV7KSsQ
+20210809	恶意分析	https://mp.weixin.qq.com/s/Ln7iBm-Go17CQhIaRNHD0Q	APT29—觊觎全球情报的国家级黑客组织（中）	qq.com	mp.weixin.qq.com	/s/Ln7iBm-Go17CQhIaRNHD0Q
+20210809	Web安全	https://mp.weixin.qq.com/s/344_rXQNQhSGKAwzcmJZ-A	攻击者结合NDay投递VBA恶意远控分析	qq.com	mp.weixin.qq.com	/s/344_rXQNQhSGKAwzcmJZ-A
+20210809	漏洞分析	https://www.anquanke.com/post/id/248892	Fastjson三种利用链对比分析	anquanke.com	www.anquanke.com	/post/id/248892
+20210809	杂志	https://www.sec-wiki.com/weekly/388	SecWiki周刊（第388期)	sec-wiki.com	www.sec-wiki.com	/weekly/388
+20210809	恶意分析	https://mp.weixin.qq.com/s/IG8g8F6-YqTTcGX1BaSNaQ	南亚地区APT组织2020年度攻击活动回顾（上）	qq.com	mp.weixin.qq.com	/s/IG8g8F6-YqTTcGX1BaSNaQ
+20210809	漏洞分析	https://mp.weixin.qq.com/s/8zGKJzipp8AS4o3rjFr8rw	针对UAF类漏洞的定向Fuzz论文分享	qq.com	mp.weixin.qq.com	/s/8zGKJzipp8AS4o3rjFr8rw
+20210809	恶意分析	https://mp.weixin.qq.com/s/t_d8I4l0SnzGDXLRmmQzYg	Lorec53组织分析报告- 攻击组件部分	qq.com	mp.weixin.qq.com	/s/t_d8I4l0SnzGDXLRmmQzYg
+20210809	数据挖掘	https://mp.weixin.qq.com/s/BV1u8zq0YoP2yOKpKD_xNw	基于词依存信息类型映射记忆神经网络的关系抽取	qq.com	mp.weixin.qq.com	/s/BV1u8zq0YoP2yOKpKD_xNw
+20210809	运维安全	https://zhuanlan.zhihu.com/p/376562987	Microsoft对于信息安全建设与业务发展之间平衡的思考（上）	zhihu.com	zhuanlan.zhihu.com	/p/376562987
+20210809	论文	http://www.shichuan.org/doc/113.pdf	基于异质信息网络的推荐系统研究综述	shichuan.org	www.shichuan.org	/doc/113.pdf
+20210809	恶意分析	https://mp.weixin.qq.com/s/XcBuxlDh2DIjIMdFH6KCKQ	南亚地区APT组织2020年度攻击活动回顾（下）	qq.com	mp.weixin.qq.com	/s/XcBuxlDh2DIjIMdFH6KCKQ
+20210809	Web安全	https://mp.weixin.qq.com/s/nDTJk9m4-gpd-S9j0i1w1A	[HTB] Spectra Writeup	qq.com	mp.weixin.qq.com	/s/nDTJk9m4-gpd-S9j0i1w1A
+20210809	取证分析	https://lorexxar.cn/2021/08/06/blaockchain-dev/	区块链安全罪与罚 -- 浅谈区块链与安全发展史	lorexxar.cn	lorexxar.cn	/2021/08/06/blaockchain-dev/
+20210809	Web安全	https://mp.weixin.qq.com/s/irGk0552-SlLEe9ItG1hVg	现代网络应用中的同站攻击	qq.com	mp.weixin.qq.com	/s/irGk0552-SlLEe9ItG1hVg

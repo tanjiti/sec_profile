@@ -17,7 +17,7 @@
 | 绿盟科技威胁情报 | NSFOCUS_NTI | Lorec53组织分析报告- 攻击组件部分 | https://mp.weixin.qq.com/s/t_d8I4l0SnzGDXLRmmQzYg | 1| 
 | 中国教育网络 | cernet | 一场关于网络安全伦理审查的对话 | https://mp.weixin.qq.com/s/8NlY3I49UxDirA7Pe8h7Cw | 1| 
 | leveryd | gh_8d7f6ed4daff | 安全建设-攻防思路与实践（一） | https://mp.weixin.qq.com/s/mnHGLZ_e3tWkxCL-DPAAvQ | 2| 
-| FuzzWiki | gh_fcf21e658324 | 浅谈并行化模糊测试技术 | https://mp.weixin.qq.com/s/I-2IllKVbUvOm1x9mMiihw | 3| 
+| FuzzWiki | gh_fcf21e658324 | 浅谈并行化模糊测试技术 | https://mp.weixin.qq.com/s/I-2IllKVbUvOm1x9mMiihw | 4| 
 | 知帆科技 | chaindigg | 浅析利用虚拟货币洗钱 | https://mp.weixin.qq.com/s/hoXNYkaOF4SWNzK4W8l-8w | 1| 
 | 汉堡爱好者 | burgerk1 | 越权漏洞治理实践（自动检测部分IDOR） | https://mp.weixin.qq.com/s/GG8cdvpYoGVs4l-G_YvSag | 2| 
 | 乌雲安全 | hackctf | 干货,利用pocsuite3框架编写poc实战案例 | https://mp.weixin.qq.com/s/LN5gJnKpunfWGJ6yQQtHuw | 1| 
@@ -470,7 +470,7 @@
 | 安全酷 | watsec |  | https://mp.weixin.qq.com/s/ItvWWhC0iYOpG6nQ3WPfvg | 1| 
 | 安全喷子 |  |  | https://mp.weixin.qq.com/s/6BmRdNPKG2dA7m1DrdGtkQ | 9| 
 | 卫星与网络 | satnetdy |  | https://mp.weixin.qq.com/s/-9BlAQqApaoGLfRgtJIn7Q | 1| 
-| 腾讯安全应急响应中心 | tsrc_team |  | https://mp.weixin.qq.com/s/cyeEAv31GO_hZCTXVRBkxw | 28| 
+| 腾讯安全应急响应中心 | tsrc_team |  | https://mp.weixin.qq.com/s/cyeEAv31GO_hZCTXVRBkxw | 29| 
 | 安全与生活 | HitCache |  | https://mp.weixin.qq.com/s/gwtdAeBy6dKViiZJbgKMSA | 1| 
 | APT观察 | APT_REVIEW |  | https://mp.weixin.qq.com/s/0KO-P-himo_AHeDJIQB8iw | 6| 
 | 网络法实务圈 | cyberlaw2017 |  | https://mp.weixin.qq.com/s/Io1A2dlj8FT57sWSHTNvGQ | 1| 
@@ -569,12 +569,12 @@
 | 湖南金盾评估中心 | JD83758161 |  | https://mp.weixin.qq.com/s/VrVBE7I4pCOd5BOnwIAs9A | 1| 
 | 平安集团安全应急响应中心 | PSRC_Team |  | https://mp.weixin.qq.com/s/eiVszU0mZ49WIMfrOEvgeA | 4| 
 | 互联网安全内参 | anquanneican |  | https://mp.weixin.qq.com/s/bm8jK8mLsYkWNH_fwIcPAg | 12| 
-| ChaMd5安全团队 | chamd5sec |  | https://mp.weixin.qq.com/s?__biz=MzIzMTc1MjExOQ==&mid=2247484574&idx=1&sn=91850fae13f6a478869f10fa176e3e8c | 63| 
+| ChaMd5安全团队 | chamd5sec |  | https://mp.weixin.qq.com/s?__biz=MzIzMTc1MjExOQ==&mid=2247484574&idx=1&sn=91850fae13f6a478869f10fa176e3e8c | 64| 
 | 软件定义世界（SDX） | SDx-SoftwareDefinedx |  | https://mp.weixin.qq.com/s/GnuuzHedLCSWj-VanHDhdA | 1| 
 | 网安寻路人 | DataProtection101 |  | https://mp.weixin.qq.com/s/_Wdi6RZfchA5g5Dp7TmWYg | 10| 
 | V安全资讯 |  |  | https://mp.weixin.qq.com/s/TnS8f8B1ntC3qvd4noc7nA | 1| 
 | 平安科技金融安全研究院 | pinganfinsec |  | https://mp.weixin.qq.com/s/FSoYqbOpoFBni1C8Di7J0A | 2| 
-| 安全学术圈 | secquan |  | https://mp.weixin.qq.com/s/zicl-lC1jCWdVnXWkO3eyQ | 87| 
+| 安全学术圈 | secquan |  | https://mp.weixin.qq.com/s/zicl-lC1jCWdVnXWkO3eyQ | 88| 
 | 匠道人 | ATech666 |  | https://mp.weixin.qq.com/s/eayCCAnfBW8LNEhDn5A0nw | 2| 
 | 斗鱼安全应急响应中心 | DYSRC_ |  | https://mp.weixin.qq.com/s/zDAXg1dmTh1I6N4hGusT5g | 1| 
 | 工控参考 | gkongnews |  | https://mp.weixin.qq.com/s/TE-uWlKflUCMUDzLAeaXSA | 1| 
@@ -781,7 +781,7 @@
 | 中国信息安全 | chinainfosec |  | http://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664107769&idx=1&sn=37f18fa11a9b5b3114a6d38640425413&scene=1&srcid=0906M1vlGDGFzRmu0EHJR9CG#rd | 33| 
 | InfoQ | infoqchina |  | http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2650994053&idx=1&sn=dfe7173d8c557aad90e2f01e291ffb69&scene=1&srcid=0909PEzc0QdKGz6AzwV2PR7g#rd | 17| 
 | 飓风网络安全 |  |  | http://mp.weixin.qq.com/s?__biz=MzI3NzMzNzE5Ng==&mid=2247483853&idx=1&sn=6b9a41c30f70335a87aba04fc476356a&scene=1&srcid=0903KLbWJiAjpJSwzggQuh94#rd | 2| 
-| 网安国际 | inforsec |  | http://mp.weixin.qq.com/s?__biz=MzA4ODYzMjU0NQ==&mid=2652306914&idx=1&sn=b8842fa80a75fb0e4920b6a7ec4589d1&scene=0#rd | 11| 
+| 网安国际 | inforsec |  | http://mp.weixin.qq.com/s?__biz=MzA4ODYzMjU0NQ==&mid=2652306914&idx=1&sn=b8842fa80a75fb0e4920b6a7ec4589d1&scene=0#rd | 12| 
 | 网优老兵 | WhatsComm |  | http://mp.weixin.qq.com/s?__biz=MzAwMTYzMDc3OQ==&mid=2650184342&idx=1&sn=5078805484a0decf4992ed055bfac95f&scene=1&srcid=0901GW6JTcRE6gZmzIlZlxHb#rd | 1| 
 | 看雪学院 | ikanxue |  | http://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458279399&idx=1&sn=bb43a07a941d2e59c2cccd981a092bd6&scene=0#rd | 59| 
 | 全频带阻塞干扰 | RFJamming |  | http://mp.weixin.qq.com/s?__biz=MzIzMzE2OTQyNA==&mid=2648946254&idx=1&sn=40eb37ab418913548ea6c4a9f1d10a9d&scene=1 | 13| 
@@ -4131,6 +4131,7 @@
 | HerrSpace | CCNA学习总结目录表。 | https://github.com/HerrSpace/CCNA-Cheat-Sheet | https://noot.geheim.org |  | Hamburg, Germany, Earth | None | 34 | 0 | 0 | 0 | 0 | Python,Ruby,HTML,JavaScript,Shell | 59 | 25 | 1| 
 | Hadesy2k | sqliv - 大范围 SQL 注入漏洞扫描器: | https://github.com/Hadesy2k/sqliv | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | HPE-AppliedSecurityResearch | Maltese (Malware Traffic Emulating Software) | https://github.com/HPE-AppliedSecurityResearch/maltese | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
+| GuidoBartoli | sherloq - 一款开源的图片取证分析工具 | https://github.com/GuidoBartoli/sherloq | https://github.com/GuidoBartoli?tab=followers | My education is in software development as well as my current job, but my passion is photography. I love to code apps fusing the best of both worlds. | Tuscany, ITALY | www.zcscompany.com | 2 | 0 | 0 | 0 | 0 | Perl | 0 | 0 | 1| 
 | Grey-Noise-Intelligence | Grey-Noise-Intelligence: GreyNoise威胁情报接口使用说明 | https://github.com/Grey-Noise-Intelligence/api.greynoise.io | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | GreatSCT | GreatSCT - 生成绕过 Windows 应用白名单限制的 Payload 工具: | https://github.com/GreatSCT/GreatSCT | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | GoogleChrome | Puppeteer - 基于 DevTools 协议,用于自动化控制 Chrome 浏览器的 Node 库,可用来实现网络爬虫、网页截图、UI 测试等等: | https://github.com/GoogleChrome/puppeteer | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Java,Python,JavaScript,HTML,CSS | 0 | 0 | 2| 
@@ -4209,6 +4210,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| How to Hack Apple ID | http://zemnmez.medium.com/how-to-hack-apple-id-f3cc9b483a41| 
 | Common GraphQL Misconceptions | http://securitygoat.medium.com/common-graphql-misconceptions-a-rant-489647167ca3| 
 | Using ProxyCannon-NG to Create Unlimited Rotating Proxies | http://medium.com/@devinjaystokes/using-proxycannon-ng-to-create-unlimited-rotating-proxies-fccffa70a728| 
 | 利用 Apple AWDL 协议从物理隔离的环境中向外渗透数据 | http://medium.com/sensorfu/escaping-from-a-truly-air-gapped-network-via-apple-awdl-6cf6f9ea3499| 
