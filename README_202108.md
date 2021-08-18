@@ -23,7 +23,7 @@
 | leveryd | gh_8d7f6ed4daff | 全流量入侵检测系统的性能分析 | https://mp.weixin.qq.com/s/7_ZrnKVaWuBjXCgmqdaUAQ | 1| 
 | 莫哥谈安全 | gh_247dfbdf3d43 | 如何做好一个威胁情报聚合查询平台及如何利用该平台来进行安全运营工作 | https://mp.weixin.qq.com/s/dq-jL2t0nd9-F0_i7sU9_g | 1| 
 | 穿过丛林 | gh_f90eac70537b | 二进制漏洞利用可视化技术研究 | https://mp.weixin.qq.com/s/2AW9FzVr3xaRsUbsiZ9cRQ | 1| 
-| 微步在线研究响应中心 | gh_c108d4d389bf | APT29—觊觎全球情报的国家级黑客组织（上） | https://mp.weixin.qq.com/s/x0Y8psN_luaIH8dfQjwp3w | 2| 
+| 微步在线研究响应中心 | gh_c108d4d389bf | APT29—觊觎全球情报的国家级黑客组织（上） | https://mp.weixin.qq.com/s/x0Y8psN_luaIH8dfQjwp3w | 3| 
 | 一个人的安全笔记 | xjiek2015 | [HTB] Spectra Writeup | https://mp.weixin.qq.com/s/nDTJk9m4-gpd-S9j0i1w1A | 2| 
 | PaperWeekly | paperweekly | ACL 2021 , 基于词依存信息类型映射记忆神经网络的关系抽取 | https://mp.weixin.qq.com/s/BV1u8zq0YoP2yOKpKD_xNw | 1| 
 | 360威胁情报中心 | CoreSec360 | 南亚地区APT组织2020年度攻击活动回顾（上） | https://mp.weixin.qq.com/s/IG8g8F6-YqTTcGX1BaSNaQ | 2| 
@@ -33,7 +33,7 @@
 | 编程语言Lab | HW-PLLab | 浅谈程序分析 | https://mp.weixin.qq.com/s/l5NAWWQ584uXCO_HRMvQ0A | 1| 
 | 我需要的是坚持 | MyPersistence2020 | 做红队你需要学习“如何挖掘战壕”（三） | https://mp.weixin.qq.com/s/OO_VZ8QB_J5UY88qkpLXDg | 1| 
 | 安全学术圈 | secquan | Android生态系统中分析库的隐私风险分析和缓解 | https://mp.weixin.qq.com/s/ItQUSf2PsA7KsSHryAGfmw | 6| 
-| 威胁棱镜 | THREAT_PRISM | 如何利用多杀软结果归并恶意软件家族名称 | https://mp.weixin.qq.com/s/hOvqm0U7rc-NNdVjR0dAaA | 4| 
+| 威胁棱镜 | THREAT_PRISM | 如何利用多杀软结果归并恶意软件家族名称 | https://mp.weixin.qq.com/s/hOvqm0U7rc-NNdVjR0dAaA | 5| 
 | SecWiki | SecWiki | Linux计划任务那点事儿 | https://mp.weixin.qq.com/s/KfeKpoPj-X7BRNR7O6QAcw | 1| 
 | M01N Team | m01nteam | 攻击技术研判｜Lazarus结合NDay投递VBA恶意远控的攻击分析 | https://mp.weixin.qq.com/s/x7L3R9iQdnrnEKpfop92Gg | 3| 
 | 腾讯技术工程 | Tencent_TEG | 攻防启示：Chromium组件风险剖析与收敛 | https://mp.weixin.qq.com/s/AZhzOGjh_DtFRnkt1zunxQ | 1| 
@@ -56,6 +56,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 运维管理工具 ManageEngine 整数溢出漏洞到 RCE（CVE-2021–20082） | http://medium.com/tenable-techblog/integer-overflow-to-rce-manageengine-asset-explorer-agent-cve-2021-20082-7e54cb2caad5| 
 | How to Hack Apple ID | http://zemnmez.medium.com/how-to-hack-apple-id-f3cc9b483a41| 
 | Common GraphQL Misconceptions | http://securitygoat.medium.com/common-graphql-misconceptions-a-rant-489647167ca3| 
 | Using ProxyCannon-NG to Create Unlimited Rotating Proxies | http://medium.com/@devinjaystokes/using-proxycannon-ng-to-create-unlimited-rotating-proxies-fccffa70a728| 
