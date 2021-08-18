@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 锦行信息安全 | jeeseensec | SSH软链接后门利用和原理 | https://mp.weixin.qq.com/s/CFPUbsblrV1MyDIGLaFKDg | 1| 
 | 腾讯安全应急响应中心 | tsrc_team | 自动化数据分析下的威胁发现 | https://mp.weixin.qq.com/s/vHXQcfOcnuehzhrnPn9nSQ | 1| 
 | SilverNeedleLab | SilverNeedle_Lab | Java内存攻击技术漫谈 | https://mp.weixin.qq.com/s/JIjBjULjFnKDjEhzVAtxhw | 1| 
 | ChaMd5安全团队 | chamd5sec | 关于路由器的CGI漏洞分析及挖掘 | https://mp.weixin.qq.com/s/1Fqb0j_gsm-eHF1uOwVgBw | 1| 
@@ -57,6 +58,7 @@
 | title | url| 
 | --- | ---| 
 | 运维管理工具 ManageEngine 整数溢出漏洞到 RCE（CVE-2021–20082） | http://medium.com/tenable-techblog/integer-overflow-to-rce-manageengine-asset-explorer-agent-cve-2021-20082-7e54cb2caad5| 
+| 1Password App 管理密码的实现细节 | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fposts.specterops.io%2F1password-secret-retrieval-methodology-and-implementation-6a9db3f3c709| 
 | How to Hack Apple ID | http://zemnmez.medium.com/how-to-hack-apple-id-f3cc9b483a41| 
 | Common GraphQL Misconceptions | http://securitygoat.medium.com/common-graphql-misconceptions-a-rant-489647167ca3| 
 | Using ProxyCannon-NG to Create Unlimited Rotating Proxies | http://medium.com/@devinjaystokes/using-proxycannon-ng-to-create-unlimited-rotating-proxies-fccffa70a728| 
