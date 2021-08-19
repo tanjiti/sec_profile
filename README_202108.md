@@ -15,6 +15,9 @@
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
 | 锦行信息安全 | jeeseensec | SSH软链接后门利用和原理 | https://mp.weixin.qq.com/s/CFPUbsblrV1MyDIGLaFKDg | 1| 
+| 绿盟科技研究通讯 | nsfocus_research | 数据脱敏的风险量化评估方案 | https://mp.weixin.qq.com/s/ItTpyty3LMSxwy8YL86CLg | 1| 
+| 看雪学院 | ikanxue | JSONP和CORS跨域漏洞学习笔记 | https://mp.weixin.qq.com/s/FGGdgpBLcUciSXqkqkE40g | 1| 
+| 元起资本 | YuanPartners | 从侠客到统帅——安全创业者Go to Market策略 | https://mp.weixin.qq.com/s/h3rzwBP1mCHDQubUBiTicw | 1| 
 | 腾讯安全应急响应中心 | tsrc_team | 自动化数据分析下的威胁发现 | https://mp.weixin.qq.com/s/vHXQcfOcnuehzhrnPn9nSQ | 1| 
 | SilverNeedleLab | SilverNeedle_Lab | Java内存攻击技术漫谈 | https://mp.weixin.qq.com/s/JIjBjULjFnKDjEhzVAtxhw | 1| 
 | ChaMd5安全团队 | chamd5sec | 关于路由器的CGI漏洞分析及挖掘 | https://mp.weixin.qq.com/s/1Fqb0j_gsm-eHF1uOwVgBw | 1| 
@@ -33,7 +36,7 @@
 | FuzzWiki | gh_fcf21e658324 | fuzzing check分支概述 | https://mp.weixin.qq.com/s/7JdHPEo6DyxOjFuw1VMlqg | 3| 
 | 编程语言Lab | HW-PLLab | 浅谈程序分析 | https://mp.weixin.qq.com/s/l5NAWWQ584uXCO_HRMvQ0A | 1| 
 | 我需要的是坚持 | MyPersistence2020 | 做红队你需要学习“如何挖掘战壕”（三） | https://mp.weixin.qq.com/s/OO_VZ8QB_J5UY88qkpLXDg | 1| 
-| 安全学术圈 | secquan | Android生态系统中分析库的隐私风险分析和缓解 | https://mp.weixin.qq.com/s/ItQUSf2PsA7KsSHryAGfmw | 6| 
+| 安全学术圈 | secquan | Android生态系统中分析库的隐私风险分析和缓解 | https://mp.weixin.qq.com/s/ItQUSf2PsA7KsSHryAGfmw | 7| 
 | 威胁棱镜 | THREAT_PRISM | 如何利用多杀软结果归并恶意软件家族名称 | https://mp.weixin.qq.com/s/hOvqm0U7rc-NNdVjR0dAaA | 5| 
 | SecWiki | SecWiki | Linux计划任务那点事儿 | https://mp.weixin.qq.com/s/KfeKpoPj-X7BRNR7O6QAcw | 1| 
 | M01N Team | m01nteam | 攻击技术研判｜Lazarus结合NDay投递VBA恶意远控的攻击分析 | https://mp.weixin.qq.com/s/x7L3R9iQdnrnEKpfop92Gg | 3| 

@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 元起资本 | YuanPartners | 从侠客到统帅——安全创业者Go to Market策略 | https://mp.weixin.qq.com/s/h3rzwBP1mCHDQubUBiTicw | 1| 
 | SilverNeedleLab | SilverNeedle_Lab | Java内存攻击技术漫谈 | https://mp.weixin.qq.com/s/JIjBjULjFnKDjEhzVAtxhw | 1| 
 | 绿盟科技威胁情报 | NSFOCUS_NTI | Lorec53组织分析报告- 攻击组件部分 | https://mp.weixin.qq.com/s/t_d8I4l0SnzGDXLRmmQzYg | 1| 
 | 中国教育网络 | cernet | 一场关于网络安全伦理审查的对话 | https://mp.weixin.qq.com/s/8NlY3I49UxDirA7Pe8h7Cw | 1| 
@@ -575,7 +576,7 @@
 | 网安寻路人 | DataProtection101 |  | https://mp.weixin.qq.com/s/_Wdi6RZfchA5g5Dp7TmWYg | 10| 
 | V安全资讯 |  |  | https://mp.weixin.qq.com/s/TnS8f8B1ntC3qvd4noc7nA | 1| 
 | 平安科技金融安全研究院 | pinganfinsec |  | https://mp.weixin.qq.com/s/FSoYqbOpoFBni1C8Di7J0A | 2| 
-| 安全学术圈 | secquan |  | https://mp.weixin.qq.com/s/zicl-lC1jCWdVnXWkO3eyQ | 88| 
+| 安全学术圈 | secquan |  | https://mp.weixin.qq.com/s/zicl-lC1jCWdVnXWkO3eyQ | 89| 
 | 匠道人 | ATech666 |  | https://mp.weixin.qq.com/s/eayCCAnfBW8LNEhDn5A0nw | 2| 
 | 斗鱼安全应急响应中心 | DYSRC_ |  | https://mp.weixin.qq.com/s/zDAXg1dmTh1I6N4hGusT5g | 1| 
 | 工控参考 | gkongnews |  | https://mp.weixin.qq.com/s/TE-uWlKflUCMUDzLAeaXSA | 1| 
@@ -666,7 +667,7 @@
 | BZ的呓语 | SalesManBZ |  | https://mp.weixin.qq.com/s?__biz=MzI3OTcwNDIwOA==&mid=2247483744&idx=1&sn=8327a4825a254ecc7be8e0fdee4989cb&scene=0#wechat_redirect | 1| 
 | 合天智汇 | hee_tian |  | http://mp.weixin.qq.com/s/rdp01Zi-ebnmMpUTNRe3lw | 9| 
 | 腾讯广告算法大赛 | TSA-Contest |  | https://mp.weixin.qq.com/s/BE1mfmKJTsDSwWi16mllNA | 1| 
-| 绿盟科技研究通讯 | nsfocus_research |  | https://mp.weixin.qq.com/s?__biz=MzIyODYzNTU2OA==&mid=2247483654&idx=2&sn=f04f6a1d5bbfed42baa616b24d1dd06f&scene=0#wechat_redirect | 44| 
+| 绿盟科技研究通讯 | nsfocus_research |  | https://mp.weixin.qq.com/s?__biz=MzIyODYzNTU2OA==&mid=2247483654&idx=2&sn=f04f6a1d5bbfed42baa616b24d1dd06f&scene=0#wechat_redirect | 45| 
 | 知道创宇 | knownsec |  | https://mp.weixin.qq.com/s?__biz=MjM5NzA3Nzg2MA==&mid=2649838966&idx=1&sn=4e930ef8637c38c33b0da9a2d0b1b706&scene=0#wechat_redirect | 2| 
 | 同程艺龙技术中心 | tcyanfa |  | https://mp.weixin.qq.com/s?__biz=MzIyMDAzMzA5Mg==&mid=2650766899&idx=1&sn=4902b4eb8e6988e132d18dff36c95893&scene=0#wechat_redirect | 1| 
 | MottoIN | mottoin |  | https://mp.weixin.qq.com/s?__biz=MzIxMzQ3MzkwMQ==&mid=2247488632&idx=1&sn=afb06d278e32fc215e97a815e58cacdb&scene=0#wechat_redirect | 3| 
@@ -784,7 +785,7 @@
 | 飓风网络安全 |  |  | http://mp.weixin.qq.com/s?__biz=MzI3NzMzNzE5Ng==&mid=2247483853&idx=1&sn=6b9a41c30f70335a87aba04fc476356a&scene=1&srcid=0903KLbWJiAjpJSwzggQuh94#rd | 2| 
 | 网安国际 | inforsec |  | http://mp.weixin.qq.com/s?__biz=MzA4ODYzMjU0NQ==&mid=2652306914&idx=1&sn=b8842fa80a75fb0e4920b6a7ec4589d1&scene=0#rd | 12| 
 | 网优老兵 | WhatsComm |  | http://mp.weixin.qq.com/s?__biz=MzAwMTYzMDc3OQ==&mid=2650184342&idx=1&sn=5078805484a0decf4992ed055bfac95f&scene=1&srcid=0901GW6JTcRE6gZmzIlZlxHb#rd | 1| 
-| 看雪学院 | ikanxue |  | http://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458279399&idx=1&sn=bb43a07a941d2e59c2cccd981a092bd6&scene=0#rd | 59| 
+| 看雪学院 | ikanxue |  | http://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458279399&idx=1&sn=bb43a07a941d2e59c2cccd981a092bd6&scene=0#rd | 60| 
 | 全频带阻塞干扰 | RFJamming |  | http://mp.weixin.qq.com/s?__biz=MzIzMzE2OTQyNA==&mid=2648946254&idx=1&sn=40eb37ab418913548ea6c4a9f1d10a9d&scene=1 | 13| 
 | 互联网实验室 | chinalabs1234 | 《G20国家互联网发展研究报告<总报告>》八大看点 | http://mp.weixin.qq.com/s?__biz=MzA3NjE0MjczMg==&mid=2654053801&idx=2&sn=7b3bd2ba1fe8bc76a433040d4ba5d1e7&scene=1&srcid=09010h7FCNNNiLXlznYzmh5V#rd | 1| 
 | malwarebenchmark |  |  | http://mp.weixin.qq.com/s?__biz=MzI4ODA4MTcxMA==&mid=2649549772&idx=1&sn=6ef949ed1c893a7d08b4ea5f5ceea2e4&scene=1 | 17| 
