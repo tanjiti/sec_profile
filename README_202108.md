@@ -51,7 +51,10 @@
 # 私人github账号 推荐
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
+| uxmal | Reko - 一款开源的反汇编工具，自动 GUI | https://github.com/uxmal/reko | https://github.com/uxmal?tab=followers | I like picking software apart and putting it back together. | Sweden | None | 64 | 0 | 0 | 0 | 0 | C# | 0 | 0 | 1| 
+| mcdulltii | 自动检测代码混淆情况的 IDA Pro 插件 | https://github.com/mcdulltii/obfDetect | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | ice-doom | EyeJo: 一款自动化资产风险评估平台 | https://github.com/ice-doom/EyeJo | https://github.com/ice-doom?tab=followers |  | None | None | 2 | 0 | 0 | 0 | 0 | Python,C++ | 0 | 0 | 1| 
+| firmianay | firmeye - IoT固件漏洞挖掘工具 | https://github.com/firmianay/firmeye | https://github.com/XDSEC | Security researcher & CTF Player & member of @XDSEC, @xdlinux, @LCTF | China | Xidian University | 24 | 0 | 0 | 0 | 0 | Python,C | 0 | 0 | 1| 
 | boku7 | Cobalt Strike BOF - Inject AMSI Bypass | https://github.com/boku7/injectAmsiBypass | https://github.com/boku7?tab=followers | SpiderLabs , OSWE , eWPTX , OSCE , eCXD , OSCP , SLAE32,64 | United States | Trustwave SpiderLabs | 42 | 0 | 0 | 0 | 0 | C,Assembly | 0 | 0 | 1| 
 | GuidoBartoli | sherloq - 一款开源的图片取证分析工具 | https://github.com/GuidoBartoli/sherloq | https://github.com/GuidoBartoli?tab=followers | My education is in software development as well as my current job, but my passion is photography. I love to code apps fusing the best of both worlds. | Tuscany, ITALY | www.zcscompany.com | 2 | 0 | 0 | 0 | 0 | Perl | 0 | 0 | 1| 
 | GhostPack | Certify - Active Directory Certificate Services 错误配置检测工具 | https://github.com/GhostPack/Certify | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -60,6 +63,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 利用存储式 XSS 漏洞利用实现 ManageEngine ServiceDesk Plus RCE | http://medium.com/tenable-techblog/stored-xss-to-rce-chain-as-system-in-manageengine-servicedesk-plus-493c10f3e444| 
 | 运维管理工具 ManageEngine 整数溢出漏洞到 RCE（CVE-2021–20082） | http://medium.com/tenable-techblog/integer-overflow-to-rce-manageengine-asset-explorer-agent-cve-2021-20082-7e54cb2caad5| 
 | 1Password App 管理密码的实现细节 | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fposts.specterops.io%2F1password-secret-retrieval-methodology-and-implementation-6a9db3f3c709| 
 | How to Hack Apple ID | http://zemnmez.medium.com/how-to-hack-apple-id-f3cc9b483a41| 

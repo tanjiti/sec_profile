@@ -1,5 +1,6 @@
-Python	1
-C	1
+C	2
+Python	2
 Assembly	1
 C++	1
 Perl	1
+C#	1
