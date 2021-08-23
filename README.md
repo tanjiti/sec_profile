@@ -21,14 +21,14 @@
 | 看雪学院 | ikanxue | JSONP和CORS跨域漏洞学习笔记 | https://mp.weixin.qq.com/s/FGGdgpBLcUciSXqkqkE40g | 1| 
 | 元起资本 | YuanPartners | 从侠客到统帅——安全创业者Go to Market策略 | https://mp.weixin.qq.com/s/h3rzwBP1mCHDQubUBiTicw | 1| 
 | 腾讯安全应急响应中心 | tsrc_team | 自动化数据分析下的威胁发现 | https://mp.weixin.qq.com/s/vHXQcfOcnuehzhrnPn9nSQ | 1| 
+| 网安国际 | inforsec | 加州大学钱志云：那些计算机应用领域的脑洞是怎么产生的 | https://mp.weixin.qq.com/s/295bsChkW6EC5xemDUUExA | 1| 
 | SilverNeedleLab | SilverNeedle_Lab | Java内存攻击技术漫谈 | https://mp.weixin.qq.com/s/JIjBjULjFnKDjEhzVAtxhw | 1| 
 | ChaMd5安全团队 | chamd5sec | 关于路由器的CGI漏洞分析及挖掘 | https://mp.weixin.qq.com/s/1Fqb0j_gsm-eHF1uOwVgBw | 2| 
-| 网安国际 | inforsec | 加州大学钱志云：那些计算机应用领域的脑洞是怎么产生的 | https://mp.weixin.qq.com/s/295bsChkW6EC5xemDUUExA | 1| 
 | 蓝鸟安全 | gh_d365aca1d051 | 应急响应,Windows上机取证检查 | https://mp.weixin.qq.com/s/2iyXBrobI2WjGmpsCrjUxw | 1| 
 | 绿盟科技威胁情报 | NSFOCUS_NTI | Lorec53组织分析报告- 攻击组件部分 | https://mp.weixin.qq.com/s/t_d8I4l0SnzGDXLRmmQzYg | 1| 
 | leveryd | gh_8d7f6ed4daff | 全流量入侵检测系统的性能分析 | https://mp.weixin.qq.com/s/7_ZrnKVaWuBjXCgmqdaUAQ | 1| 
 | 莫哥谈安全 | gh_247dfbdf3d43 | 如何做好一个威胁情报聚合查询平台及如何利用该平台来进行安全运营工作 | https://mp.weixin.qq.com/s/dq-jL2t0nd9-F0_i7sU9_g | 1| 
-| 穿过丛林 | gh_f90eac70537b | 二进制漏洞利用可视化技术研究 | https://mp.weixin.qq.com/s/2AW9FzVr3xaRsUbsiZ9cRQ | 1| 
+| 穿过丛林 | gh_f90eac70537b | 二进制漏洞利用可视化技术研究 | https://mp.weixin.qq.com/s/2AW9FzVr3xaRsUbsiZ9cRQ | 2| 
 | 微步在线研究响应中心 | gh_c108d4d389bf | APT29—觊觎全球情报的国家级黑客组织（上） | https://mp.weixin.qq.com/s/x0Y8psN_luaIH8dfQjwp3w | 3| 
 | 一个人的安全笔记 | xjiek2015 | [HTB] Spectra Writeup | https://mp.weixin.qq.com/s/nDTJk9m4-gpd-S9j0i1w1A | 3| 
 | PaperWeekly | paperweekly | ACL 2021 , 基于词依存信息类型映射记忆神经网络的关系抽取 | https://mp.weixin.qq.com/s/BV1u8zq0YoP2yOKpKD_xNw | 1| 
