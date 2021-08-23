@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 默安逐日实验室 | gh_995a1a9f25b5 | VMware_vCenter 近期漏洞分析 | https://mp.weixin.qq.com/s/W_vJA8tr_qFS1ff-lVy9Kw | 1| 
 | 元起资本 | YuanPartners | 从侠客到统帅——安全创业者Go to Market策略 | https://mp.weixin.qq.com/s/h3rzwBP1mCHDQubUBiTicw | 1| 
 | SilverNeedleLab | SilverNeedle_Lab | Java内存攻击技术漫谈 | https://mp.weixin.qq.com/s/JIjBjULjFnKDjEhzVAtxhw | 1| 
 | 网安国际 | inforsec | 加州大学钱志云：那些计算机应用领域的脑洞是怎么产生的 | https://mp.weixin.qq.com/s/295bsChkW6EC5xemDUUExA | 1| 
@@ -93,7 +94,7 @@
 | 合规科技研究 | ComplianceTech | 数据安全技术专题——数据分类分级的技术实践指南 | https://mp.weixin.qq.com/s/WknW2_lR4ryBLIgCma30Vw | 1| 
 | 反诈骗先锋 | fanzhapianxf | 关于反诈工作的几个问题及思考 | https://mp.weixin.qq.com/s/ps7GG2rKc5-J8J2Iybhi8Q | 1| 
 | 白帽子飙车路 | hack-by-txf | Cobalt Strike 利用 Chrome 0day 上线 | https://mp.weixin.qq.com/s/LOpAu8vs8ob85W3sCmXMew | 1| 
-| 一个人的安全笔记 | xjiek2015 | [HTB]Worker Writeup | https://mp.weixin.qq.com/s/J5jKKfbwBbOTjpnwcFotrg | 18| 
+| 一个人的安全笔记 | xjiek2015 | [HTB]Worker Writeup | https://mp.weixin.qq.com/s/J5jKKfbwBbOTjpnwcFotrg | 19| 
 | GuyoungStudio | guyoungnet | 可扩展跨平台网络安全工具套件 CaptfEncoder v2.0.0 发布 | https://mp.weixin.qq.com/s?__biz=MzI0ODU5Mzg0NA==&mid=2247483998&idx=1&sn=baaa69c5576a1e52b7d8aeb9482e1cf3&chksm=e99f2e85dee8a79304a5535dbf6c77e9f9def6b2a7438c73e28792ac5ea3c628a02204d116e6&token=1448493475&lang=zh_CN#rd | 1| 
 | 郑海山dump | zhsdump | 网络空间测绘：IP洞察 | https://mp.weixin.qq.com/s/gVTyhwgxC-UUxhB4YdXKeg | 1| 
 | 信息安全与通信保密杂志社 | cismag2013 | 英国网络作战力量浅析 | https://mp.weixin.qq.com/s/z7Uq5vYotZBNk1yqJqAHxw | 4| 
@@ -132,7 +133,7 @@
 | SECISLAND安全官 | SECSOSO | 资产管理的难点 | https://mp.weixin.qq.com/s/DqtIzNdDvB7pYjXmoP1quQ | 1| 
 | 电子物证 | ewuzheng | 【Signal】数据分析 | https://mp.weixin.qq.com/s/AiHRwc0LBUyxkg0vcu12eg | 1| 
 | RapidDNS | gh_6327c9075859 | RapidDNS.IO 网站应用实例 | https://mp.weixin.qq.com/s/ttbJY33W7Bmog_MgNZXc6Q | 4| 
-| 湛卢工作室 | xuehao_studio | 关于近期Microsoft Exchange多个高危漏洞——ProxyLogon | https://mp.weixin.qq.com/s/cmgY6W_cGtGacfYgiac5qQ | 2| 
+| 湛卢工作室 | xuehao_studio | 关于近期Microsoft Exchange多个高危漏洞——ProxyLogon | https://mp.weixin.qq.com/s/cmgY6W_cGtGacfYgiac5qQ | 3| 
 | 美团技术团队 | meituantech | 美团外卖特征平台的建设与实践 | https://mp.weixin.qq.com/s/YyRLJa9NomPvzTWJKaCesQ | 1| 
 | 绿盟科技 | NSFOCUS-weixin | 以蓝军视角跟踪和分析CANVAS攻击框架泄露事件 | https://mp.weixin.qq.com/s/eQ-KDMoirOwx-pFxUcNjtQ | 1| 
 | 赛博回忆录 | cybermemory | 大白话解释拟态安全，再不学就落伍了！ | https://mp.weixin.qq.com/s/UR0XbF02JJmo7RbNF1CYVw | 2| 
@@ -179,7 +180,7 @@
 | 人民公安报 | rmgabs | 公安部网安局公布一批网络黑产案例 | https://mp.weixin.qq.com/s/uXupT3yeeOA9NWVjQORgDQ | 1| 
 | 启明星辰专家视野 | VenusExpertsVision | 自动化渗透测试系统技术路径分析 | https://mp.weixin.qq.com/s/gtXfPvT8Yatp3IMVdCID7Q | 1| 
 | FreeBuf | freebuf | 关于PDD员工发帖溯源联想到的相关技术与实现 | https://mp.weixin.qq.com/s/coRsNLMT_FAr6xSHwPgOUg | 5| 
-| 安全学术圈 | secquan | 使用自己的代码查找漏洞：检测功能相似但不一致的代码 | https://mp.weixin.qq.com/s/ELbtEhd1wedkEqhboPpLuQ | 36| 
+| 安全学术圈 | secquan | 使用自己的代码查找漏洞：检测功能相似但不一致的代码 | https://mp.weixin.qq.com/s/ELbtEhd1wedkEqhboPpLuQ | 38| 
 | 阿里云安全 | aliyunsec | 对 SolarWinds 事件更深的思考：如何防御供应链攻击 | https://mp.weixin.qq.com/s/GdER32Z7K86boHVc-Kic3g | 1| 
 | 360Quake空间测绘 | gh_0284fd4851e7 | 浅析开源蜜罐识别与全网测绘 | https://mp.weixin.qq.com/s/hq-z2HBGz3nehnCVg_H-RQ | 2| 
 | 深信服千里目安全实验室 | Further_eye | 【高级持续性威胁跟踪】红队视角看Sunburst后门中的TTPs | https://mp.weixin.qq.com/s/wtEbawfOd1g_T2ovp1SaGg | 3| 
@@ -193,7 +194,7 @@
 | 威胁棱镜 | THREAT_PRISM | 通过 ATT&CK 归因攻击 | https://mp.weixin.qq.com/s/NSAURU3qpYhhKs8Q8AdBag | 22| 
 | 中国信息安全 | chinainfosec | 回顾 , 2020年下半年全球网络恐怖主义态势分析 | https://mp.weixin.qq.com/s/Us54DtL99pdCRErJWvsM8w | 3| 
 | 时间之外沉浮事 | tasnrh | 网空靶场：从炒作到现实-2020 | https://mp.weixin.qq.com/s/zu2Je_A_x06k78tzrXyjbg | 2| 
-| ChaMd5安全团队 | chamd5sec | 鲲鹏计算专场-WriteUp | https://mp.weixin.qq.com/s/S7d-oS_b3Xx688a_jeQC2w | 30| 
+| ChaMd5安全团队 | chamd5sec | 鲲鹏计算专场-WriteUp | https://mp.weixin.qq.com/s/S7d-oS_b3Xx688a_jeQC2w | 31| 
 
 
 # 组织github账号 推荐
@@ -219,6 +220,7 @@
 | sbousseaden | JSON DataSet for macOS mapped to MITRE ATT&CK Tactics | https://github.com/sbousseaden/macOS-ATTACK-DATASET | http://@SBousseaden | Threat Hunting & DFIR | None | None | 66 | 0 | 0 | 0 | 0 | YARA,PowerShell | 1200 | 221 | 2| 
 | ruanyf | ES6 标准入门教程资源。 | https://github.com/ruanyf/es6tutorial | https://twitter.com/ruanyf |  | Shanghai, China | None | 67 | 0 | 0 | 0 | 0 | JavaScript | 18900 | 8300 | 1| 
 | riskscanner | RiskScanner: 是开源的公有云安全合规扫描平台 | https://github.com/riskscanner/riskscanner | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Java,Shell,JavaScript | 0 | 0 | 1| 
+| reviewdog | reviewdog: Automated code review tool integrated with any ... | https://github.com/reviewdog/reviewdog | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | rabbitmask | Libra: 网站篡改、暗链、死链监测平台 | https://github.com/rabbitmask/Libra | https://github.com/rabbitmask?tab=followers | ＞﹏＜，俺超凶！ | In the wind | 米斯特安全/TideSec | 50 | 0 | 0 | 0 | 0 | Java,Python,JavaScript,C#,Go,Rust | 0 | 0 | 1| 
 | r4j0x00 | 上周推送的 sudo 溢出漏洞的 Exploit | https://github.com/r4j0x00/exploits/tree/master/CVE-2021-3156 | https://github.com/r4j0x00 | I make exploits | None | None | 14 | 0 | 0 | 0 | 0 | Python,JavaScript,C++ | 228 | 68 | 1| 
 | ph4ntonn | Stowaway2.0来了～ | https://github.com/ph4ntonn/Stowaway/blob/master/README.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -229,7 +231,7 @@
 | nikic | PHP-Parser:用PHP编写的PHP解析器来分析代码工作。 | https://github.com/nikic/PHP-Parser | https://nikic.github.io/ |  | Berlin, Germany | JetBrains | 75 | 0 | 0 | 0 | 0 | C,PHP | 29200 | 6500 | 1| 
 | nccgroup | PyBeacon - NCCGroup 开源的用于处理 Cobalt Strike beacons 的脚本 | https://github.com/nccgroup/pybeacon | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,C#,Shell,Elixir,Rust | 2600 | 393 | 1| 
 | mvt-project | MVT - 通过取证信息分析 iOS/Android 手机是否已被入侵的工具 | https://github.com/mvt-project/mvt | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
-| mcdulltii | 自动检测代码混淆情况的 IDA Pro 插件 | https://github.com/mcdulltii/obfDetect | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| mcdulltii | 自动检测代码混淆情况的 IDA Pro 插件 | https://github.com/mcdulltii/obfDetect | https://github.com/mcdulltii?tab=followers | A programming enthusiast that does image synthesis on the side. | Singapore | None | 25 | 1 | 0 | 0 | 0 | Python,C,Shell,JavaScript | 0 | 0 | 1| 
 | marijuanARM | iOS 降级工具 futurerestore 更新 v194 版本 | https://github.com/marijuanARM/futurerestore/releases/tag/194 | https://discord.gg/fAngssA | python developer , discord link below , avatar by @syns | None | None | 25 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | maddiestone | Project Zero Maddie Stone 对 2020 年野外漏洞利用情况的综述 | https://github.com/maddiestone/ConPresentations/blob/master/Enigma2021.StateOf0day.pdf | http://twitter.com/maddiestone |  | None | None | 4 | 0 | 0 | 0 | 0 | Python | 949 | 122 | 1| 
 | lcvvvv | Kscan：轻量级的资产发现工具 | https://github.com/lcvvvv/kscan | None |  | None | None | 3 | 1 | 0 | 0 | 0 | Go | 0 | 0 | 1| 
@@ -273,6 +275,7 @@
 | advanced-threat-research | McAfee ATR Capture the Flag Writeup | https://github.com/advanced-threat-research/ATR_HAX_CTF | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,YARA,HTML,Lua | 0 | 0 | 1| 
 | aaaddress1 | wowGrail - HITB 会议演讲，逆向分析 WOW64 兼容层以及如何利用它实现杀软检测逃逸 | https://github.com/aaaddress1/wowGrail | https://github.com/aaaddress1?tab=followers | 30cm.tw/me | Taiwan | None | 156 | 0 | 0 | 0 | 0 | C#,Python,C,C++ | 0 | 0 | 1| 
 | a232319779 | mmpi: 邮件快速检测库 | https://github.com/a232319779/mmpi | None | big pig. | None | None | 11 | 0 | 0 | 0 | 0 | Python,C | 28 | 12 | 1| 
+| TideSec | TideFinger: 开源指纹工具 | https://github.com/TideSec/TideFinger | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | Tencent | 面向开发人员梳理的代码安全指南 | https://github.com/Tencent/secguide | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Less,Python,Kotlin,JavaScript,C++,Objective-C,Go,PHP | 0 | 0 | 1| 
 | Tabll | gemnasium-db: GitLab 漏洞依赖项扫描的数据库 | https://github.com/Tabll/gemnasium-db | https://github.com/Tabll?tab=followers | a student 大部分项目都在自己的 https://gitlab.tabll.cn/Tabll 上，这里现在主要是用来放日志 | 杭州 | None | 45 | 1 | 0 | 0 | 0 | PHP | 0 | 0 | 1| 
 | SySS-Research | WireBug - 用于 VoIP 协议渗透测试的工具 | https://github.com/SySS-Research/WireBug | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Python,C++,Lua,Verilog,C# | 0 | 0 | 1| 

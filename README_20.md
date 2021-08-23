@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 默安逐日实验室 | gh_995a1a9f25b5 | VMware_vCenter 近期漏洞分析 | https://mp.weixin.qq.com/s/W_vJA8tr_qFS1ff-lVy9Kw | 1| 
 | 元起资本 | YuanPartners | 从侠客到统帅——安全创业者Go to Market策略 | https://mp.weixin.qq.com/s/h3rzwBP1mCHDQubUBiTicw | 1| 
 | SilverNeedleLab | SilverNeedle_Lab | Java内存攻击技术漫谈 | https://mp.weixin.qq.com/s/JIjBjULjFnKDjEhzVAtxhw | 1| 
 | 绿盟科技威胁情报 | NSFOCUS_NTI | Lorec53组织分析报告- 攻击组件部分 | https://mp.weixin.qq.com/s/t_d8I4l0SnzGDXLRmmQzYg | 1| 
@@ -62,7 +63,7 @@
 | 合规科技研究 | ComplianceTech | 数据安全技术专题——数据分类分级的技术实践指南 | https://mp.weixin.qq.com/s/WknW2_lR4ryBLIgCma30Vw | 1| 
 | 反诈骗先锋 | fanzhapianxf | 关于反诈工作的几个问题及思考 | https://mp.weixin.qq.com/s/ps7GG2rKc5-J8J2Iybhi8Q | 1| 
 | 白帽子飙车路 | hack-by-txf | Cobalt Strike 利用 Chrome 0day 上线 | https://mp.weixin.qq.com/s/LOpAu8vs8ob85W3sCmXMew | 1| 
-| 一个人的安全笔记 | xjiek2015 | [HTB]Worker Writeup | https://mp.weixin.qq.com/s/J5jKKfbwBbOTjpnwcFotrg | 18| 
+| 一个人的安全笔记 | xjiek2015 | [HTB]Worker Writeup | https://mp.weixin.qq.com/s/J5jKKfbwBbOTjpnwcFotrg | 19| 
 | GuyoungStudio | guyoungnet | 可扩展跨平台网络安全工具套件 CaptfEncoder v2.0.0 发布 | https://mp.weixin.qq.com/s?__biz=MzI0ODU5Mzg0NA==&mid=2247483998&idx=1&sn=baaa69c5576a1e52b7d8aeb9482e1cf3&chksm=e99f2e85dee8a79304a5535dbf6c77e9f9def6b2a7438c73e28792ac5ea3c628a02204d116e6&token=1448493475&lang=zh_CN#rd | 1| 
 | RedTeam | RedTeams | 浅析 AWS S3 子域名接管漏洞 | https://mp.weixin.qq.com/s/q3bsrCKacuepKoFljYxJcg | 4| 
 | 架构师技术联盟 | ICT_Architect | 深度分析：4种国产CPU架构和6大品牌 | https://mp.weixin.qq.com/s/FoAPSNW0LFKuerEPJfFmgw | 1| 
@@ -412,7 +413,7 @@
 | 特大号 | ITXXXL |  | https://mp.weixin.qq.com/s/Sz8HguJ0X13nw4ajAhxOhg | 1| 
 | 网藤风险感知 |  |  | https://mp.weixin.qq.com/s/3luD0uRGYINm3f56df9UYQ | 2| 
 | 点融安全应急响应中心 | dsrc_dianrong |  | https://mp.weixin.qq.com/s/4saEV6fWimqfII2_7PUQ8Q | 1| 
-| 湛卢工作室 | xuehao_studio |  | https://mp.weixin.qq.com/s/LxIgWu8pmNArFU1gOUMWJw | 14| 
+| 湛卢工作室 | xuehao_studio |  | https://mp.weixin.qq.com/s/LxIgWu8pmNArFU1gOUMWJw | 15| 
 | 柯力士信息安全 | JW-assoc | 以色列神秘8200“军工厂”和它孵化的37家安全公司（上篇） | https://mp.weixin.qq.com/s/F6kmHw1x9GELXN7bgTOIHw | 1| 
 | 量子位 | QbitAI |  | https://mp.weixin.qq.com/s/YLGjsd6eqYODjFa6XUce3w | 2| 
 | 守护者计划 | shzjh0401 |  | https://mp.weixin.qq.com/s/z9y1_Y9l0fpWy9v_Qpi4Fg | 1| 
@@ -571,12 +572,12 @@
 | 湖南金盾评估中心 | JD83758161 |  | https://mp.weixin.qq.com/s/VrVBE7I4pCOd5BOnwIAs9A | 1| 
 | 平安集团安全应急响应中心 | PSRC_Team |  | https://mp.weixin.qq.com/s/eiVszU0mZ49WIMfrOEvgeA | 4| 
 | 互联网安全内参 | anquanneican |  | https://mp.weixin.qq.com/s/bm8jK8mLsYkWNH_fwIcPAg | 12| 
-| ChaMd5安全团队 | chamd5sec |  | https://mp.weixin.qq.com/s?__biz=MzIzMTc1MjExOQ==&mid=2247484574&idx=1&sn=91850fae13f6a478869f10fa176e3e8c | 64| 
+| ChaMd5安全团队 | chamd5sec |  | https://mp.weixin.qq.com/s?__biz=MzIzMTc1MjExOQ==&mid=2247484574&idx=1&sn=91850fae13f6a478869f10fa176e3e8c | 65| 
 | 软件定义世界（SDX） | SDx-SoftwareDefinedx |  | https://mp.weixin.qq.com/s/GnuuzHedLCSWj-VanHDhdA | 1| 
 | 网安寻路人 | DataProtection101 |  | https://mp.weixin.qq.com/s/_Wdi6RZfchA5g5Dp7TmWYg | 10| 
 | V安全资讯 |  |  | https://mp.weixin.qq.com/s/TnS8f8B1ntC3qvd4noc7nA | 1| 
 | 平安科技金融安全研究院 | pinganfinsec |  | https://mp.weixin.qq.com/s/FSoYqbOpoFBni1C8Di7J0A | 2| 
-| 安全学术圈 | secquan |  | https://mp.weixin.qq.com/s/zicl-lC1jCWdVnXWkO3eyQ | 89| 
+| 安全学术圈 | secquan |  | https://mp.weixin.qq.com/s/zicl-lC1jCWdVnXWkO3eyQ | 91| 
 | 匠道人 | ATech666 |  | https://mp.weixin.qq.com/s/eayCCAnfBW8LNEhDn5A0nw | 2| 
 | 斗鱼安全应急响应中心 | DYSRC_ |  | https://mp.weixin.qq.com/s/zDAXg1dmTh1I6N4hGusT5g | 1| 
 | 工控参考 | gkongnews |  | https://mp.weixin.qq.com/s/TE-uWlKflUCMUDzLAeaXSA | 1| 
@@ -1500,7 +1501,7 @@
 | stanzhai | 程序员路上用到的各种优秀资料、神器及框架 | https://github.com/stanzhai/be-a-professional-programmer | https://stanzhai.site | Like programming, focus on BigData | Beijing, China | Haizhi Holding Inc. | 79 | 0 | 1500 | 734 | 98 | C#,Objective-C,JavaScript,HTML,Scala | 0 | 0 | 1| 
 | aquynh | Fuzzing @ capstone_engine with LibFuzzer detected this issue in x86_64 affecting 3.0.4 | https://github.com/aquynh/capstone/commit/6b88d1d51eadf7175a8f8a11b690684443b11359 | http://www.capstone-engine.org | Reversing Trilogy: Capstone (capstone-engine.org), Unicorn (unicorn-engine.org) & Keystone (keystone-engine.org) | None | None | 9 | 0 | 1200 | 732 | 0 | C | 0 | 0 | 1| 
 | LiuXingMing | QQSpider: QQ空间爬虫（日志、说说、个人信息） | https://github.com/LiuXingMing/QQSpider | http://blog.csdn.net/bone_ace |  | China.Guangzhou | NULL | 19 | 0 | 1 | 730 | 0 | Python,SAS,JavaScript | 0 | 0 | 1| 
-| TideSec | Web指纹识别技术研究与优化实现 | https://github.com/TideSec/TideFinger/blob/master/Web%E6%8C%87%E7%BA%B9%E8%AF%86%E5%88%AB%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6%E4%B8%8E%E4%BC%98%E5%8C%96%E5%AE%9E%E7%8E%B0.md | http://www.TideSec.com | 一心不动，大巧不工。 | China | Tide | 21 | 0 | 207 | 726 | 23 | C,Shell,Java,Python,PHP,Ruby | 947 | 341 | 1| 
+| TideSec | Web指纹识别技术研究与优化实现 | https://github.com/TideSec/TideFinger/blob/master/Web%E6%8C%87%E7%BA%B9%E8%AF%86%E5%88%AB%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6%E4%B8%8E%E4%BC%98%E5%8C%96%E5%AE%9E%E7%8E%B0.md | http://www.TideSec.com | 一心不动，大巧不工。 | China | Tide | 21 | 0 | 207 | 726 | 23 | C,Shell,Java,Python,PHP,Ruby | 947 | 341 | 2| 
 | cloudsec | aioshell:A php webshell run under linux based webservers | https://github.com/cloudsec/aioshell | http://www.cloud-sec.org |  | China | Huawei | 9 | 0 | 0 | 722 | 1 | C,Shell,Java | 0 | 0 | 2| 
 | zardus | ctf-tools:Some setup scripts for security research tools | https://github.com/zardus/ctf-tools | https://github.com/shellphish | DEFCON CTF org. Captain Emeritus of @shellphish. Asst Professor in Cybersecurity at @ASU. angr hacker. | Tempe, AZ, USA | None | 59 | 0 | 220 | 716 | 10 | Python,C,Shell,C++ | 0 | 0 | 1| 
 | sunnyelf | Cheetah:一款基于字典的webshell密码爆破工具 | https://github.com/sunnyelf/cheetah/blob/master/README_zh.md | https://github.com/Qihoo360 | Information security researcher, CTF enthusiast. | Beijing, China | @Qihoo360 | 105 | 0 | 893 | 710 | 98 | Python | 0 | 0 | 2| 
@@ -3800,6 +3801,7 @@
 | robotattackorg | robot-detect - ROBOT 漏洞检测脚本 : | https://github.com/robotattackorg/robot-detect | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | riskscanner | RiskScanner: 是开源的公有云安全合规扫描平台 | https://github.com/riskscanner/riskscanner | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Java,Shell,JavaScript | 0 | 0 | 1| 
 | riskawarrior | 渗透测试书签 | https://github.com/riskawarrior/pentest-bookmarks#forums | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| reviewdog | reviewdog: Automated code review tool integrated with any ... | https://github.com/reviewdog/reviewdog | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | reverse-shell | routersploit : The Router Exploitation Framework : | https://github.com/reverse-shell/routersploit | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | recodeking | recodeking/MalwareAnalysis: 恶意软件分析工具和资源列表 | https://github.com/recodeking/MalwareAnalysis | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | rebellionil | tornado: All in one MITM tool | https://github.com/rebellionil/tornado | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -3859,7 +3861,7 @@
 | microsoft | 微软开源了 MSVC 的 C++ 标准库 STL | https://github.com/microsoft/STL | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Jupyter,C#,JavaScript,SQLPL,C++,Python,HTML,Go,PHP,Dockerfile,PowerShell | 83100 | 12000 | 7| 
 | micle-fm | Parat - Python 实现的远程控制工具: | https://github.com/micle-fm/Parat | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | mertam | Check out Trishula - a spampot with a built-in machine learning phishing classifier | https://github.com/mertam/shiva | None |  | None | None | 5 | 0 | 3 | 0 | 0 | Python,PHP,Java | 10 | 3 | 1| 
-| mcdulltii | 自动检测代码混淆情况的 IDA Pro 插件 | https://github.com/mcdulltii/obfDetect | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| mcdulltii | 自动检测代码混淆情况的 IDA Pro 插件 | https://github.com/mcdulltii/obfDetect | https://github.com/mcdulltii?tab=followers | A programming enthusiast that does image synthesis on the side. | Singapore | None | 25 | 1 | 0 | 0 | 0 | Python,C,Shell,JavaScript | 0 | 0 | 1| 
 | maxlabelle | WebMalwareScanner - A simple malware scanner | https://github.com/maxlabelle/WebMalwareScanner | None |  | None | None | 6 | 0 | 0 | 0 | 0 | Python,MQL4,JavaScript,PHP | 7 | 5 | 1| 
 | maubot | 适用于maubot的GitLab客户端和Webhook接收器。 | https://github.com/maubot/gitlab | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,HTML | 129 | 27 | 1| 
 | matcmay | geoip-attack-map:Cyber Security GeoIP Attack Map Visualization | https://github.com/matcmay/geoip-attack-map | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 

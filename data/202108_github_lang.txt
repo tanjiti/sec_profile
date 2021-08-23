@@ -1,6 +1,8 @@
-C	2
-Python	2
+C	3
+Python	3
+Shell	1
 Assembly	1
+JavaScript	1
 C++	1
 Perl	1
 C#	1
