@@ -2,6 +2,9 @@ Python	6
 C	3
 Shell	3
 JavaScript	2
+TypeScript	2
+Go	2
+Java	2
 Ruby	2
 Assembly	1
 HTML	1
@@ -12,8 +15,5 @@ C++	1
 Perl	1
 TeX	1
 C#	1
-TypeScript	1
-Go	1
-Java	1
 PHP	1
 CSS	1
