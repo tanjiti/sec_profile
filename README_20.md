@@ -482,7 +482,7 @@
 | 人工智能头条 | AI_Thinker |  | https://mp.weixin.qq.com/s/IA0kPncWRVx0JBQXvJLY6w | 2| 
 | 银河安全实验室 | Galaxy-Lab |  | https://mp.weixin.qq.com/s?__biz=MzIwNTcxNTczMQ==&mid=2247483838&idx=1&sn=e7147aadaf020a2d4960e2056b1ea6ef | 6| 
 | 点融黑帮 | DianrongMafia |  | https://mp.weixin.qq.com/s/h-DGDGpvxXaMgLLtQlvajw | 1| 
-| 漏洞战争 | vulwar |  | https://mp.weixin.qq.com/s/6SqdcbyABfBxSaNfDlFKog | 13| 
+| 漏洞战争 | vulwar |  | https://mp.weixin.qq.com/s/6SqdcbyABfBxSaNfDlFKog | 14| 
 | 数据分析 | ecshujufenxi |  | https://mp.weixin.qq.com/s/cHinmVC5o9DApFcI5odxNQ | 1| 
 | 力博睿生 | liberationers |  | https://mp.weixin.qq.com/s/9aFbbPrSDRr88KDcdZ1g4Q | 3| 
 | 互联网安全实务 | SecPractice |  | https://mp.weixin.qq.com/s/WAzCLk_6nkQ0Aap6Sx2lPw | 1| 
@@ -4219,6 +4219,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 利用 Trust Policy 访问模型的古老特性实现 AWS 的特权 | http://rzepsky.medium.com/aws-privilege-escalation-exploring-odd-features-of-the-trust-policy-7a970a32861| 
 | 利用存储式 XSS 漏洞利用实现 ManageEngine ServiceDesk Plus RCE | http://medium.com/tenable-techblog/stored-xss-to-rce-chain-as-system-in-manageengine-servicedesk-plus-493c10f3e444| 
 | 运维管理工具 ManageEngine 整数溢出漏洞到 RCE（CVE-2021–20082） | http://medium.com/tenable-techblog/integer-overflow-to-rce-manageengine-asset-explorer-agent-cve-2021-20082-7e54cb2caad5| 
 | 1Password App 管理密码的实现细节 | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fposts.specterops.io%2F1password-secret-retrieval-methodology-and-implementation-6a9db3f3c709| 

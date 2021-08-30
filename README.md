@@ -15,6 +15,7 @@
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
 | 青衣十三楼飞花堂 | gh_9feb5a276a2a | None | https://mp.weixin.qq.com/s/bmdSyZem46aukj_hvLhu0w | 1| 
+| 漏洞战争 | vulwar | None | https://mp.weixin.qq.com/s/BCdN9KOFpCYUKQ_SNSgPPQ | 1| 
 | 开放知识图谱 | OpenKG-CN | 论文浅尝 , 面向开放域的无监督实体对齐 | https://mp.weixin.qq.com/s/gH1VNCUVT5Hd5lGaGvEO2w | 1| 
 | 云鼎实验室 | YunDingLab | 浅谈云上攻防——对象存储服务访问策略评估机制研究 | https://mp.weixin.qq.com/s/ncWGrMsIAvh9HEK1QC5IGQ | 1| 
 | 湛卢工作室 | xuehao_studio | 说说JAVA反序列化 | https://mp.weixin.qq.com/s/t2hMiPg0-qrgGIyysG9e_A | 1| 
@@ -75,6 +76,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 利用 Trust Policy 访问模型的古老特性实现 AWS 的特权 | http://rzepsky.medium.com/aws-privilege-escalation-exploring-odd-features-of-the-trust-policy-7a970a32861| 
 | 利用存储式 XSS 漏洞利用实现 ManageEngine ServiceDesk Plus RCE | http://medium.com/tenable-techblog/stored-xss-to-rce-chain-as-system-in-manageengine-servicedesk-plus-493c10f3e444| 
 | 运维管理工具 ManageEngine 整数溢出漏洞到 RCE（CVE-2021–20082） | http://medium.com/tenable-techblog/integer-overflow-to-rce-manageengine-asset-explorer-agent-cve-2021-20082-7e54cb2caad5| 
 | 1Password App 管理密码的实现细节 | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fposts.specterops.io%2F1password-secret-retrieval-methodology-and-implementation-6a9db3f3c709| 
