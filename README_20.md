@@ -227,7 +227,7 @@
 | vessial的安全Trash Can | vx_security | 移动基带安全研究系列文章之概念与系统篇 | https://mp.weixin.qq.com/s/YYicKHHZuI4Hgyw25AvFsQ | 1| 
 | VMware中国研发中心 | vmwarechinard | 使用FATE进行图片识别的深度神经网络联邦学习 | https://mp.weixin.qq.com/s/wlB8Hz4nTgz9zEP3OEQDAQ | 1| 
 | 中睿天下 | zorelworld | 干货,一次对钓鱼邮件攻击者的溯源分析 | https://mp.weixin.qq.com/s/-v7-M05Qyob5Rpzm_9lPQQ | 1| 
-| 信息通信技术与政策 | caict_dsc | APT供应链攻击防护应对分析及意义 | https://mp.weixin.qq.com/s/qGMRjCeIyHSHk_aXI8Fxbg | 2| 
+| 信息通信技术与政策 | caict_dsc | APT供应链攻击防护应对分析及意义 | https://mp.weixin.qq.com/s/qGMRjCeIyHSHk_aXI8Fxbg | 3| 
 | 锦行信息安全 | jeeseensec | 浅析HTTP走私攻击 | https://mp.weixin.qq.com/s/IMZrvJGQjcLBZS74kMWRnA | 18| 
 | 大路咨询 | daluzixun | 中国工业网络安全厂商综合能力概览（2020年第1期） | https://mp.weixin.qq.com/s/6i17MV8T3rou8j0rY-ZbIQ | 1| 
 | 网络安全观 | SecurityInsights | 网络安全架构 , 建立安全架构方法的指导框架 | https://mp.weixin.qq.com/s/_s3eOdO2AufZtTQdyVK6NA | 11| 
@@ -572,7 +572,7 @@
 | 湖南金盾评估中心 | JD83758161 |  | https://mp.weixin.qq.com/s/VrVBE7I4pCOd5BOnwIAs9A | 1| 
 | 平安集团安全应急响应中心 | PSRC_Team |  | https://mp.weixin.qq.com/s/eiVszU0mZ49WIMfrOEvgeA | 4| 
 | 互联网安全内参 | anquanneican |  | https://mp.weixin.qq.com/s/bm8jK8mLsYkWNH_fwIcPAg | 12| 
-| ChaMd5安全团队 | chamd5sec |  | https://mp.weixin.qq.com/s?__biz=MzIzMTc1MjExOQ==&mid=2247484574&idx=1&sn=91850fae13f6a478869f10fa176e3e8c | 67| 
+| ChaMd5安全团队 | chamd5sec |  | https://mp.weixin.qq.com/s?__biz=MzIzMTc1MjExOQ==&mid=2247484574&idx=1&sn=91850fae13f6a478869f10fa176e3e8c | 68| 
 | 软件定义世界（SDX） | SDx-SoftwareDefinedx |  | https://mp.weixin.qq.com/s/GnuuzHedLCSWj-VanHDhdA | 1| 
 | 网安寻路人 | DataProtection101 |  | https://mp.weixin.qq.com/s/_Wdi6RZfchA5g5Dp7TmWYg | 10| 
 | V安全资讯 |  |  | https://mp.weixin.qq.com/s/TnS8f8B1ntC3qvd4noc7nA | 1| 
@@ -689,7 +689,7 @@
 | 安云信息 | Anyuntec |  | http://mp.weixin.qq.com/s/P-ncFmNZfBteJBQr8INzsw | 2| 
 | 亿级流量网站架构 | kaitao-1234567 |  | https://mp.weixin.qq.com/s?__biz=MzIwODA4NjMwNA==&mid=2652898217&idx=1&sn=77a391ca2e2e13ae907375958a3265c8&chksm=8cdcd7e6bbab5ef083f6f3b396eb497e5ea350f450ea9626940857c1555bab9e87f63816954f&mpshare=1&scene=1&srcid=0312vcViKaeP5NGx3IGsU1gB&key=04b8921 | 3| 
 | 英国那些事儿 | hereinuk |  | http://mp.weixin.qq.com/s?__biz=MjM5NjAwNzI0MA==&mid=2651948229&idx=1&sn=e5b98d4f78fff701adf82ca4888f4a0a&scene=0#wechat_redirect | 2| 
-| 数说安全 | SSAQ2016 |  | http://mp.weixin.qq.com/s?__biz=MzI0MDY2MzE5NQ==&mid=2247484080&idx=1&sn=240df8492584fd2c4442d71b8a51ef06&scene=0#wechat_redirect | 31| 
+| 数说安全 | SSAQ2016 |  | http://mp.weixin.qq.com/s?__biz=MzI0MDY2MzE5NQ==&mid=2247484080&idx=1&sn=240df8492584fd2c4442d71b8a51ef06&scene=0#wechat_redirect | 32| 
 | 腾讯安全联合实验室 | txaqlhsys |  | http://mp.weixin.qq.com/s/vTt-KHFwE7hrvnPwLFiEGQ | 2| 
 | 上交所技术服务 | SSE-TechService |  | http://mp.weixin.qq.com/s?__biz=MzI0NTAwNjMwOA==&mid=2650685700&idx=3&sn=8cceaf131a280618abaff340c63a5079&scene=0#wechat_redirect | 2| 
 | Docker | dockerone |  | http://mp.weixin.qq.com/s?__biz=MzA5OTAyNzQ2OA==&mid=2649693456&idx=1&sn=b36ed8057c23113da2396b77208689f1&scene=0#wechat_redirect | 8| 
@@ -3782,7 +3782,7 @@
 | shellphish | Shellphish 最近更新了 how2heap Repo，包含最新的各类堆利用技巧 | https://github.com/shellphish/how2heap | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,CSS | 4100 | 855 | 1| 
 | session-replay-tools | tcpcopy - TCP 流重放工具: | https://github.com/session-replay-tools/tcpcopy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 0 | 0 | 1| 
 | seemoo-lab | Nexmon - 一款支持 Broadcom/Cypress WiFi 芯片的固件 Patch 框架，基于框架可以编写自己的补丁，启用监听模式 | https://github.com/seemoo-lab/nexmon | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Jupyter,Python,JavaScript,C++,TeX,Objective-C,HTML,MATLAB,Java | 3300 | 274 | 3| 
-| seed-labs | seed-emulator: A Python framework for creating emulation o... | https://github.com/seed-labs/seed-emulator | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,TeX | 0 | 0 | 1| 
+| seed-labs | seed-emulator: A Python framework for creating emulation of the Internet. | https://github.com/seed-labs/seed-emulator | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,TeX | 0 | 0 | 1| 
 | seecode-audit | seecode-audit: SeeCode Audit 代码审计管理系统 | https://github.com/seecode-audit/seecode-audit | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | securesystemslab | Agamotto: Accelerating Kernel Driver Fuzzing with Lightweight Virtual Machine Checkpoints | https://github.com/securesystemslab/agamotto | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Objective-C++,Python,C++,CMake,Rust | 0 | 0 | 1| 
 | secdevops-cuse | CyberRange: The Open-Source AWS Cyber Range | https://github.com/secdevops-cuse/CyberRange | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,Dockerfile,CSS,HCL | 0 | 0 | 1| 

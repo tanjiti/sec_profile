@@ -14,11 +14,13 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 数说安全 | csreviews | None | https://mp.weixin.qq.com/s/CxGlNaCpDbnJXLIqeHJriQ | 1| 
+| 信息通信技术与政策 | caict_dsc | None | https://mp.weixin.qq.com/s/sjHKGw6tZ7q-2HMnxLYpoQ | 1| 
 | 青衣十三楼飞花堂 | gh_9feb5a276a2a | None | https://mp.weixin.qq.com/s/bmdSyZem46aukj_hvLhu0w | 1| 
 | 漏洞战争 | vulwar | None | https://mp.weixin.qq.com/s/BCdN9KOFpCYUKQ_SNSgPPQ | 1| 
+| 湛卢工作室 | xuehao_studio | 说说JAVA反序列化 | https://mp.weixin.qq.com/s/t2hMiPg0-qrgGIyysG9e_A | 1| 
 | 开放知识图谱 | OpenKG-CN | 论文浅尝 , 面向开放域的无监督实体对齐 | https://mp.weixin.qq.com/s/gH1VNCUVT5Hd5lGaGvEO2w | 1| 
 | 云鼎实验室 | YunDingLab | 浅谈云上攻防——对象存储服务访问策略评估机制研究 | https://mp.weixin.qq.com/s/ncWGrMsIAvh9HEK1QC5IGQ | 1| 
-| 湛卢工作室 | xuehao_studio | 说说JAVA反序列化 | https://mp.weixin.qq.com/s/t2hMiPg0-qrgGIyysG9e_A | 1| 
 | 默安逐日实验室 | gh_995a1a9f25b5 | VMware_vCenter 近期漏洞分析 | https://mp.weixin.qq.com/s/W_vJA8tr_qFS1ff-lVy9Kw | 1| 
 | 锦行信息安全 | jeeseensec | SSH软链接后门利用和原理 | https://mp.weixin.qq.com/s/CFPUbsblrV1MyDIGLaFKDg | 1| 
 | 绿盟科技研究通讯 | nsfocus_research | 数据脱敏的风险量化评估方案 | https://mp.weixin.qq.com/s/ItTpyty3LMSxwy8YL86CLg | 1| 
@@ -27,7 +29,7 @@
 | 腾讯安全应急响应中心 | tsrc_team | 自动化数据分析下的威胁发现 | https://mp.weixin.qq.com/s/vHXQcfOcnuehzhrnPn9nSQ | 1| 
 | 网安国际 | inforsec | 加州大学钱志云：那些计算机应用领域的脑洞是怎么产生的 | https://mp.weixin.qq.com/s/295bsChkW6EC5xemDUUExA | 1| 
 | SilverNeedleLab | SilverNeedle_Lab | Java内存攻击技术漫谈 | https://mp.weixin.qq.com/s/JIjBjULjFnKDjEhzVAtxhw | 1| 
-| ChaMd5安全团队 | chamd5sec | 关于路由器的CGI漏洞分析及挖掘 | https://mp.weixin.qq.com/s/1Fqb0j_gsm-eHF1uOwVgBw | 4| 
+| ChaMd5安全团队 | chamd5sec | 关于路由器的CGI漏洞分析及挖掘 | https://mp.weixin.qq.com/s/1Fqb0j_gsm-eHF1uOwVgBw | 5| 
 | 蓝鸟安全 | gh_d365aca1d051 | 应急响应,Windows上机取证检查 | https://mp.weixin.qq.com/s/2iyXBrobI2WjGmpsCrjUxw | 1| 
 | 绿盟科技威胁情报 | NSFOCUS_NTI | Lorec53组织分析报告- 攻击组件部分 | https://mp.weixin.qq.com/s/t_d8I4l0SnzGDXLRmmQzYg | 1| 
 | leveryd | gh_8d7f6ed4daff | 全流量入侵检测系统的性能分析 | https://mp.weixin.qq.com/s/7_ZrnKVaWuBjXCgmqdaUAQ | 1| 
@@ -58,7 +60,7 @@
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | uxmal | Reko - 一款开源的反汇编工具，自动 GUI | https://github.com/uxmal/reko | https://github.com/uxmal?tab=followers | I like picking software apart and putting it back together. | Sweden | None | 64 | 0 | 0 | 0 | 0 | C# | 0 | 0 | 1| 
-| seed-labs | seed-emulator: A Python framework for creating emulation o... | https://github.com/seed-labs/seed-emulator | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,TeX | 0 | 0 | 1| 
+| seed-labs | seed-emulator: A Python framework for creating emulation of the Internet. | https://github.com/seed-labs/seed-emulator | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,TeX | 0 | 0 | 1| 
 | reviewdog | reviewdog: Automated code review tool integrated with any ... | https://github.com/reviewdog/reviewdog | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Ruby,JavaScript,Shell,Go,Dockerfile | 0 | 0 | 1| 
 | mcdulltii | 自动检测代码混淆情况的 IDA Pro 插件 | https://github.com/mcdulltii/obfDetect | https://github.com/mcdulltii?tab=followers | A programming enthusiast that does image synthesis on the side. | Singapore | None | 25 | 1 | 0 | 0 | 0 | Python,C,Shell,JavaScript | 0 | 0 | 1| 
 | ice-doom | EyeJo: 一款自动化资产风险评估平台 | https://github.com/ice-doom/EyeJo | https://github.com/ice-doom?tab=followers |  | None | None | 2 | 0 | 0 | 0 | 0 | Python,C++ | 0 | 0 | 1| 
@@ -69,7 +71,7 @@
 | SummerSec | learning-codeql: CodeQL Java 全网最全的中文学习资料 | https://github.com/SummerSec/learning-codeql | https://github.com/SummerSec?tab=followers |  | None | None | 47 | 0 | 0 | 0 | 0 | Shell,Java,Python,BitBake,HTML,CSS | 0 | 0 | 1| 
 | GuidoBartoli | sherloq - 一款开源的图片取证分析工具 | https://github.com/GuidoBartoli/sherloq | https://github.com/GuidoBartoli?tab=followers | My education is in software development as well as my current job, but my passion is photography. I love to code apps fusing the best of both worlds. | Tuscany, ITALY | www.zcscompany.com | 2 | 0 | 0 | 0 | 0 | Perl | 0 | 0 | 1| 
 | GhostPack | Certify - Active Directory Certificate Services 错误配置检测工具 | https://github.com/GhostPack/Certify | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
-| CHYbeta | Nginx 场景绕过之一: URL white spaces + Gunicorn | https://github.com/CHYbeta/OddProxyDemo/blob/master/nginx/demo1/README.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| CHYbeta | Nginx 场景绕过之一: URL white spaces + Gunicorn | https://github.com/CHYbeta/OddProxyDemo/blob/master/nginx/demo1/README.md | https://github.com/CHYbeta?tab=followers |  | China | XMU | 31 | 0 | 0 | 0 | 0 | Python,HTML | 0 | 0 | 1| 
 | BloodHoundAD | BloodHound：Six Degrees of Domain Admin | https://github.com/BloodHoundAD/BloodHound | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 
 

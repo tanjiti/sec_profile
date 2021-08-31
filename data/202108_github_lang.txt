@@ -1,13 +1,13 @@
-Python	6
+Python	7
 C	3
 Shell	3
+HTML	2
 JavaScript	2
 TypeScript	2
 Go	2
 Java	2
 Ruby	2
 Assembly	1
-HTML	1
 XSLT	1
 Dockerfile	1
 BitBake	1
