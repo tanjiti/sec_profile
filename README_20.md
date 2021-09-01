@@ -36,7 +36,7 @@
 | 桥的断想 | TasteMiss | 从0到1建设物联网安全实验室之设备篇 | https://mp.weixin.qq.com/s/iyoK3bQQLq6Rhxgebt4VBA | 1| 
 | 360政企安全 | gh_6db130c5163e | 预见Win11“前顾之忧”：360全球首家发现Win11高危漏洞，推出热补丁解决方案！ | https://mp.weixin.qq.com/s/_PjO4_wpe2LQc4BMfg-FGg | 1| 
 | 编程语言Lab | HW-PLLab | 编程语言测试综述 | https://mp.weixin.qq.com/s/HsSTwWdWzfHuXHdbgXXIeQ | 2| 
-| 雁行安全团队 | YX_Security | 通过ScriptEngine实现冰蝎shell免杀 | https://mp.weixin.qq.com/s/SU5B7ULgmOC7HsRscMrkKw | 1| 
+| 雁行安全团队 | YX_Security | 通过ScriptEngine实现冰蝎shell免杀 | https://mp.weixin.qq.com/s/SU5B7ULgmOC7HsRscMrkKw | 2| 
 | 代码审计SDL | gh_50d8f0e890be | 第三方组件安全评估指南 | https://mp.weixin.qq.com/s/45dF9lqnL2ByKgQNmKetyw | 1| 
 | 神光的编程秘籍 | gh_831b7475367e | JavaScript 常见 AST 梳理 | https://mp.weixin.qq.com/s/biQt6cw05-4G-gkJS9fGTQ | 1| 
 | 伏羲智库 | FUXIINSTITUTION | DNS-网络安全绕不过去的话题 | https://mp.weixin.qq.com/s/g5_RVxAFgXBIwSLiazsUpw | 1| 
@@ -150,7 +150,7 @@
 | Netlab 三六零 | Netlab_360 | HEH Botnet, 一个处于开发阶段的 IoT P2P Botnet | https://mp.weixin.qq.com/s/W_13W6rMQnBtZvPQwzDk2g | 2| 
 | ACTBIGDATA | ACTBIGDATA | ML CLUB , 面向图数据的异常检测综述概述 | https://mp.weixin.qq.com/s/WBxmr_hCOVUbSk15ZPWsjw | 1| 
 | 枫林晚安全 | galesec | [更新]渗透环境标准化 | https://mp.weixin.qq.com/s/A5E2VRYg7R1LrLrCpiGYAw | 2| 
-| 安全界 | feei_cn | 基于甲方视角的漏洞发现 | https://mp.weixin.qq.com/s/eBPp4eyaGs827POFTesqOA | 1| 
+| 安全界 | feei_cn | 基于甲方视角的漏洞发现 | https://mp.weixin.qq.com/s/eBPp4eyaGs827POFTesqOA | 2| 
 | 白泽安全实验室 | baizelab | 解密俄罗斯情报机构 | https://mp.weixin.qq.com/s/OPvkERr3Ox_OvnbimhZqnA | 1| 
 | 逐日实验室 | gh_093e54310392 | CVE-2020-14364 QEMU逃逸 漏洞分析 (含完整EXP) | https://mp.weixin.qq.com/s/MQyczZXRfOsIQewNf7cfXw | 2| 
 | 军事高科技在线 | jsgkjzx | 首发,美军红队评估体系建设现状及启示 | https://mp.weixin.qq.com/s/JZef789soLqK2SdskBV5WQ | 1| 
@@ -448,7 +448,7 @@
 | 丰巢技术团队 | hivebox_tech |  | https://mp.weixin.qq.com/s/xFv90_VB7B9m2o6jvQ13Iw | 1| 
 | 中通安全应急响应中心 | ZTO_SRC |  | https://mp.weixin.qq.com/s/n9N6Nkg_RYEvPM2WnlG45w | 7| 
 | 装备参考 | Armament999 |  | https://mp.weixin.qq.com/s/xq2Yoba8UPvZG6Hlv51rNQ | 1| 
-| 知识工场 | fudankw |  | https://mp.weixin.qq.com/s/DlXzTpjLXAIrSmkuM_jDHg | 9| 
+| 知识工场 | fudankw |  | https://mp.weixin.qq.com/s/DlXzTpjLXAIrSmkuM_jDHg | 10| 
 | 电科防务 | CETC-ETDR |  | https://mp.weixin.qq.com/s/xFRR5tJBc2C_SLxOIhlHaw | 2| 
 | 智能运维前沿 | AIOps_Tsinghua |  | https://mp.weixin.qq.com/s/wxarbgNuasxaPsZ3Dh4z6g | 1| 
 | 安智客 | china_safer |  | https://mp.weixin.qq.com/s/t54wFWBxA1iKr74LB_KFRg | 1| 
@@ -632,7 +632,7 @@
 | 网络安全技能竞赛 | isgchina |  | https://mp.weixin.qq.com/s?__biz=MjM5NjkyMTk5Mg==&mid=2650597864&idx=1&sn=60a58436e65283ce404eb837404c31a1&scene=0#wechat_redirect | 1| 
 | 网安视界 | wangansj |  | https://mp.weixin.qq.com/s?__biz=MzI4MTM5NDMwOQ==&mid=2247487942&idx=1&sn=178e424144cdcf6cfd1ba99776d059eb&scene=0#wechat_redirect | 3| 
 | 安全测评联盟 |  |  | https://mp.weixin.qq.com/s?__biz=MzI2NTA4MDE5NQ==&mid=2651622427&idx=1&sn=8dd1d69ffa8a8ae9de43c79c564aae91&scene=0#wechat_redirect | 3| 
-| 奇安信威胁情报中心 |  |  | https://mp.weixin.qq.com/s/5RYOMEyOa5kR-yQ9So07sA | 42| 
+| 奇安信威胁情报中心 |  |  | https://mp.weixin.qq.com/s/5RYOMEyOa5kR-yQ9So07sA | 43| 
 | WiFi安全应急响应中心 | WiFiSRC |  | https://mp.weixin.qq.com/s?__biz=MzI1NTY2MTkwNw==&mid=2247483798&idx=1&sn=8992a94f41f91945f201ebcd48a104c5&scene=0#wechat_redirect | 1| 
 | 汉客儿 |  |  | https://mp.weixin.qq.com/s?__biz=MzI1NTUzMjUzMQ==&mid=2247483727&idx=1&sn=aadacf8866fdb5b6ce3d49649560eb9a&scene=0#wechat_redirect | 11| 
 | 程序员在深圳 | studycode |  | https://mp.weixin.qq.com/s/8Bl105G8ZsE_jy5mbrIy_g | 1| 
@@ -780,7 +780,7 @@
 | 孙维的信息安全札记 | sunw3i |  | http://mp.weixin.qq.com/s?__biz=MzA5MDIwMjI4MQ==&mid=2688641790&idx=1&sn=58d1cf18feadad6534f4510cbbde8ccb&scene=1&srcid=0908RQHeUiCctcddtiS7koej#rd | 1| 
 | 吾爱破解论坛 | pojie_52 |  | http://mp.weixin.qq.com/s?__biz=MjM5Mjc3MDM2Mw==&mid=2651132585&idx=1&sn=6e4daa40092d8abe79d98d43536c7a53&scene=1 | 2| 
 | 京东安全应急响应中心 | jsrc_team |  | http://mp.weixin.qq.com/s?__biz=MjM5OTk2MTMxOQ==&mid=2727827297&idx=1&sn=277c0178ebead359392018be205020ad&scene=1 | 6| 
-| 云头条 | YunTouTiao |  | http://mp.weixin.qq.com/s?__biz=MjM5MzM3NjM4MA==&mid=2654678262&idx=8&sn=0bd10bfc0ba99491d628830b99f54d7b&scene=1&srcid=0909dnYXbWfDMgKYzuBkOoWv#rd | 3| 
+| 云头条 | YunTouTiao |  | http://mp.weixin.qq.com/s?__biz=MjM5MzM3NjM4MA==&mid=2654678262&idx=8&sn=0bd10bfc0ba99491d628830b99f54d7b&scene=1&srcid=0909dnYXbWfDMgKYzuBkOoWv#rd | 4| 
 | 中国信息安全 | chinainfosec |  | http://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664107769&idx=1&sn=37f18fa11a9b5b3114a6d38640425413&scene=1&srcid=0906M1vlGDGFzRmu0EHJR9CG#rd | 33| 
 | InfoQ | infoqchina |  | http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2650994053&idx=1&sn=dfe7173d8c557aad90e2f01e291ffb69&scene=1&srcid=0909PEzc0QdKGz6AzwV2PR7g#rd | 17| 
 | 飓风网络安全 |  |  | http://mp.weixin.qq.com/s?__biz=MzI3NzMzNzE5Ng==&mid=2247483853&idx=1&sn=6b9a41c30f70335a87aba04fc476356a&scene=1&srcid=0903KLbWJiAjpJSwzggQuh94#rd | 2| 
@@ -3771,6 +3771,7 @@
 | suraj-root | Shellcode mapper | https://github.com/suraj-root/smap/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | sslab-gatech | QSYM - 为混合 Fuzz 定制的符号执行引擎 | https://github.com/sslab-gatech/qsym | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Filebench,Python,Makefile,C++,HTML,HCL | 0 | 0 | 1| 
 | spyre-project | 基于Yara的简单IOC扫描器Spyre | https://github.com/spyre-project/spyre | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go | 0 | 0 | 1| 
+| soxoj | maigret: Collect a dossier on a person by username from th... | https://github.com/soxoj/maigret | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | sophos-ai | SOREL-20M: Sophos-ReversingLabs 20 million sample dataset | https://github.com/sophos-ai/SOREL-20M | None | None | None | None | 0 | 0 | 0 | 0 | 0 | YARA,Jupyter,Scala,Python,C++,CSS | 0 | 0 | 1| 
 | sophiabiancalatessa | FakeNewsDeepLearning: Opening the Black-Box of Deep Learning Based Detector | https://github.com/sophiabiancalatessa/FakeNewsDeepLearning | None |  | None | None | 2 | 0 | 0 | 0 | 0 | Python,C++ | 9 | 6 | 1| 
 | sonarwhal | 微软开源扫描工具Sonar | https://github.com/sonarwhal/sonar | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -3930,6 +3931,7 @@
 | hayasec | 一键辅助抓取 360 安全浏览器密码的 CobaltStrike 脚本 | https://github.com/hayasec/360SafeBrowsergetpass | http://hayasec.me | Network Security Engineer | None | None | 72 | 0 | 0 | 0 | 0 | Python,C#,Java,C++ | 110 | 13 | 1| 
 | hashcat | hashcat and oclHashcat have gone open source | https://github.com/hashcat/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 0 | 0 | 1| 
 | hardenedlinux | srcinv: source code audit tool 代码审计工具 | https://github.com/hardenedlinux/srcinv | None | None | None | None | 0 | 0 | 0 | 0 | 0 | HTML,C,Shell,Assembly,Roff,C++,Nix,Zeek,Go | 243 | 56 | 2| 
+| hackingintoyourheart | 本田雅阁、思域等多款车存在密钥重放攻击安全漏洞 | https://github.com/hackingintoyourheart/unoriginal-rice-patty | https://github.com/HackingIntoYourHeart?tab=followers | Computer Scientist... ㅤㅤㅤㅤㅤㅤㅤㅤ BTC: 3NqgZV8MaYDp6B6AJxSs7La9XuMZx8Nuxk ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ ETH: 0x65a3CC7D99139000B43EeAe33EdcdCACbaE98524 | Earth | Blake Berry | 17 | 0 | 0 | 0 | 0 | Python,C++ | 0 | 0 | 1| 
 | h4ckdepy | SeveTools:多功能的网络安全实战工具项目库。 | https://github.com/h4ckdepy/SeveTools | https://blog.happysec.cn | 网络安全爱好者。 | None | None | 21 | 0 | 0 | 0 | 0 | Stylus,PHP,JavaScript,CSS | 118 | 66 | 1| 
 | guitarman0831 | Onyx:A simple Linux keylogger | https://github.com/guitarman0831/Onyx | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | guillotines | WebShell: Web端WebShell管理器 | https://github.com/guillotines/WebShell | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -4149,6 +4151,7 @@
 | GhostPack | Certify - Active Directory Certificate Services 错误配置检测工具 | https://github.com/GhostPack/Certify | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | Genetic-Malware | Framework for Making Environmental Keyed Payloads | https://github.com/Genetic-Malware/Ebowla | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 2| 
 | Gallopsled | pwntools:CTF framework used by Gallopsled in every CTF | https://github.com/Gallopsled/pwntools?v=2.2 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Ruby | 0 | 0 | 1| 
+| G-Security-Team | GSLibrary: 轻量级知识库&POC管理平台 | https://github.com/G-Security-Team/GSLibrary | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | G-E-N-E-S-I-S | loadlibrayy - x64 PE 注入工具: | https://github.com/G-E-N-E-S-I-S/loadlibrayy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | FunnyWolf | Viper: 图形化内网渗透工具 | https://github.com/FunnyWolf/Viper | None | hack for fun | None | None | 21 | 0 | 0 | 0 | 0 | Python,Go | 504 | 73 | 1| 
 | FlameOfIgnis | PWDB - New generation of Password Mass-Analysis | https://github.com/FlameOfIgnis/Pwdb-Public | https://github.com/EpicGames | Junior year computer engineering student at METU/NCC. | Turkey | @EpicGames @NVIDIAGameWorks | 0 | 0 | 0 | 0 | 0 | Python,TypeScript,JavaScript,Cuda | 835 | 325 | 1| 
