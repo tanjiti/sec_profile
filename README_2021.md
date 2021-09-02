@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 机器学习研究组订阅 | gh_7ce29bea153b | None | https://mp.weixin.qq.com/s/jfgrIRQSb_gPwvYGs8b_Pw | 1| 
 | 安全界 | feei_cn | None | https://mp.weixin.qq.com/s/Fo0OhNb-MP-GqKM-ASCXsg | 1| 
 | 奇安信威胁情报中心 | gh_166784eae33e | None | https://mp.weixin.qq.com/s/dGW0FrbZZ5UA6KuuZB8J_g | 1| 
 | 知识工场 | fudankw | None | https://mp.weixin.qq.com/s/Qa9nSkN3Yj2AEPkfdUJwMw | 1| 

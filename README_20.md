@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 机器学习研究组订阅 | gh_7ce29bea153b | None | https://mp.weixin.qq.com/s/jfgrIRQSb_gPwvYGs8b_Pw | 1| 
 | 默安逐日实验室 | gh_995a1a9f25b5 | VMware_vCenter 近期漏洞分析 | https://mp.weixin.qq.com/s/W_vJA8tr_qFS1ff-lVy9Kw | 1| 
 | 元起资本 | YuanPartners | 从侠客到统帅——安全创业者Go to Market策略 | https://mp.weixin.qq.com/s/h3rzwBP1mCHDQubUBiTicw | 1| 
 | SilverNeedleLab | SilverNeedle_Lab | Java内存攻击技术漫谈 | https://mp.weixin.qq.com/s/JIjBjULjFnKDjEhzVAtxhw | 1| 
