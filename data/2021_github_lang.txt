@@ -5,7 +5,7 @@ JavaScript	19
 Go	19
 C++	18
 Shell	17
-HTML	14
+HTML	15
 C#	10
 PHP	10
 TypeScript	9
@@ -18,7 +18,7 @@ Assembly	4
 CSS	4
 PowerShell	4
 Perl	3
-Dockerfile	2
+Dockerfile	3
 Vue	2
 Jupyter	2
 XSLT	2

@@ -88,7 +88,7 @@
 | 赛博回忆录 | cybermemory | 大白话解释拟态安全，再不学就落伍了！ | https://mp.weixin.qq.com/s/UR0XbF02JJmo7RbNF1CYVw | 2| 
 | 涛涛不帅 | gh_39db459d9552 | VMware vCenter RCE (CVE-2021-21972) 漏洞复现与 Exp 编写 | https://mp.weixin.qq.com/s/2pvaQborwMM8UHnWS_CeXA | 1| 
 | 小面包的储物柜 | afubread | 浅谈如何有效落地DevSecOps（很浅很浅） | https://mp.weixin.qq.com/s/5eX3-SCfvFfRitb9_onjvw | 1| 
-| 网安思考 | gh_e53abd003964 | 美军网络空间作战理论体系初探 | https://mp.weixin.qq.com/s/Im-bacvc_1GGvLPtRspicw | 4| 
+| 网安思考 | gh_e53abd003964 | 美军网络空间作战理论体系初探 | https://mp.weixin.qq.com/s/Im-bacvc_1GGvLPtRspicw | 5| 
 | 安全研究GoSSIP | GoSSIPSJTU | NDSS 2021 参会小记—2月22日论文报告 | https://mp.weixin.qq.com/s/LI49ioKYMksguQMqKH1Rcw | 3| 
 | 我的安全学习笔记 | gh_3b8ed48b5c15 | 安利一款还不错的开源工具—Nuclei | https://mp.weixin.qq.com/s/C_-FRZMqF4ifzlx-ij4iIQ | 1| 
 | 思想花火 | ttfirework | 做信息安全BP的一些感悟 | https://mp.weixin.qq.com/s/qygwMIGX3PhbnKuPwQqfUQ | 2| 
@@ -1428,7 +1428,7 @@
 | cure53 | H5SC:HTML5 Security Cheatsheet | https://github.com/cure53/H5SC | https://cure53.de | And there is fire where we walk. | Berlin | Fine penetration tests for fine websites | 16 | 0 | 30 | 1100 | 0 | JavaScript,HTML | 0 | 0 | 7| 
 | coolstar | Electra iOS 11.0 - 11.1.2 jailbreak toolkit based on async_awake : | https://github.com/coolstar/electra | None | iOS developer and computer science student at UC Santa Barbara. | San Francisco, CA | None | 115 | 0 | 8 | 1100 | 1 | C,C++ | 774 | 217 | 2| 
 | HarmJ0y | Few goodies for everyone today- first a PowerSploit cheat sheet | https://github.com/HarmJ0y/CheatSheets/blob/master/PowerSploit.pdf | http://blog.harmj0y.net | Co-founder of Empire, BloodHound, and the Veil-Framework , PowerSploit developer , krb lover , Microsoft PowerShell MVP , Security at the misfortune of others | Seattle, WA | None | 31 | 0 | 26 | 1100 | 4 | C#,Python,PowerShell | 593 | 134 | 2| 
-| CHYbeta | Software-Security-Learning: 软件安全的一些资料 | https://github.com/CHYbeta/Software-Security-Learning | https://chybeta.github.io | https://xz.aliyun.com/u/2551 | China | XMU | 43 | 0 | 1400 | 1100 | 89 | Python,HTML | 2200 | 634 | 6| 
+| CHYbeta | Software-Security-Learning: 软件安全的一些资料 | https://github.com/CHYbeta/Software-Security-Learning | https://chybeta.github.io | https://xz.aliyun.com/u/2551 | China | XMU | 43 | 0 | 1400 | 1100 | 89 | Python,HTML | 2200 | 634 | 7| 
 | jlevy | the-art-of-command-line | https://github.com/jlevy/the-art-of-command-line | https://github.com/HollowayGuides | Co-Founder, Holloway | Mountain View, California | @HollowayGuides | 23 | 0 | 1100 | 1000 | 146 | Python,Shell,JavaScript | 0 | 0 | 1| 
 | jinfagang | weibo_terminater: 微博终结者爬虫 | https://github.com/jinfagang/weibo_terminater | http://jinfagang.github.io | I am the best! | Sanfancisco | Google | 123 | 0 | 882 | 1000 | 67 | Python,C++ | 0 | 0 | 1| 
 | jgamblin | Mirai-Source-Code: For Research/IoC Development Purposes | https://github.com/jgamblin/Mirai-Source-Code | https://www.jerrygamblin.com | Researcher. Builder. Hacker. Traveler. Cedere Nescio. | United States | None | 65 | 0 | 0 | 1000 | 2 | C,Shell | 0 | 0 | 3| 

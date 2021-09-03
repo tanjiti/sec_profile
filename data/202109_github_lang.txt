@@ -1,2 +1,4 @@
 Python	1
+HTML	1
+Dockerfile	1
 C++	1

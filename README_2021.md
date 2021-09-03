@@ -151,7 +151,7 @@
 | 安全分析与研究 | MalwareAnalysis | 恶意软件分析工具集成环境 | https://mp.weixin.qq.com/s/WMWQUWu8dt45iQsrcLfSxg | 2| 
 | 网络安全观 | SecurityInsights | 美国国家安全局发布零信任安全模型指南 | https://mp.weixin.qq.com/s/UsClBKw4Fglcn8ludJtRKQ | 1| 
 | 白日放歌须纵9 | Day_Dreamer_BR | 从“产品模式”到“运营模式” | https://mp.weixin.qq.com/s/mIbwVj3oVEnippj5YGkNTA | 1| 
-| 网安思考 | gh_e53abd003964 | 美军网络空间作战理论体系初探 | https://mp.weixin.qq.com/s/Im-bacvc_1GGvLPtRspicw | 4| 
+| 网安思考 | gh_e53abd003964 | 美军网络空间作战理论体系初探 | https://mp.weixin.qq.com/s/Im-bacvc_1GGvLPtRspicw | 5| 
 | 逐日实验室 | gh_093e54310392 | 红蓝对抗之邮件伪造 | https://mp.weixin.qq.com/s/tOOBZ1aC6SsjslCM70WKBQ | 1| 
 | 张三丰的疯言疯语 | zsfnotes | 漏洞管理的“新药” | https://mp.weixin.qq.com/s/5Y-3r1KuJgCbNrWUGoKq0w | 1| 
 | 安全研究GoSSIP | GoSSIPSJTU | NDSS 2021 参会小记—2月22日论文报告 | https://mp.weixin.qq.com/s/LI49ioKYMksguQMqKH1Rcw | 3| 
@@ -321,7 +321,7 @@
 | ControlThings-io | 适用于Control Things Platform用户的样本文件与顶级研究项目。 | https://github.com/ControlThings-io/ct-samples | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,PHP,Rich | 0 | 0 | 1| 
 | Ch0pin | medusa - 基于 FRIDA 实现的 Java 动态二进制插桩框架，目标场景是恶意软件 Trace | https://github.com/Ch0pin/medusa | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | CTF-MissFeng | GoScan: 分布式综合资产管理系统 | https://github.com/CTF-MissFeng/GoScan | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
-| CHYbeta | Nginx 场景绕过之一: URL white spaces + Gunicorn | https://github.com/CHYbeta/OddProxyDemo/blob/master/nginx/demo1/README.md | https://github.com/CHYbeta?tab=followers |  | China | XMU | 31 | 0 | 0 | 0 | 0 | Python,HTML | 0 | 0 | 1| 
+| CHYbeta | Nginx 场景绕过之二：斜杠(trailing slash) 与 编码 | https://github.com/CHYbeta/OddProxyDemo/blob/master/nginx/demo2/README.md | https://github.com/CHYbeta?tab=followers |  | China | XMU | 31 | 0 | 0 | 0 | 0 | HTML,Dockerfile | 0 | 0 | 2| 
 | BloodHoundAD | BloodHound：Six Degrees of Domain Admin | https://github.com/BloodHoundAD/BloodHound | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | BishopFox | GadgetProbe - Java 反序列化漏洞 Gadget Probe 工具 | https://github.com/BishopFox/GadgetProbe | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Objective-C++,Python,JavaScript,Perl,Go | 1300 | 190 | 1| 
 | BC-SECURITY | Starkiller：1.7.0 版本发布。基于 Electron 实现的 Powershell Empire 可视化工具。 | https://github.com/BC-SECURITY/Starkiller/releases | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C#,C,Vue,PowerShell | 0 | 0 | 1| 
