@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 黑哥说安全 | gh_67cfd5e45750 | None | https://mp.weixin.qq.com/s/fQatA5iyewqRBMWtpVjsRA | 1| 
 | 机器学习研究组订阅 | gh_7ce29bea153b | None | https://mp.weixin.qq.com/s/jfgrIRQSb_gPwvYGs8b_Pw | 1| 
 | 默安逐日实验室 | gh_995a1a9f25b5 | VMware_vCenter 近期漏洞分析 | https://mp.weixin.qq.com/s/W_vJA8tr_qFS1ff-lVy9Kw | 1| 
 | 元起资本 | YuanPartners | 从侠客到统帅——安全创业者Go to Market策略 | https://mp.weixin.qq.com/s/h3rzwBP1mCHDQubUBiTicw | 1| 
@@ -64,7 +65,7 @@
 | 合规科技研究 | ComplianceTech | 数据安全技术专题——数据分类分级的技术实践指南 | https://mp.weixin.qq.com/s/WknW2_lR4ryBLIgCma30Vw | 1| 
 | 反诈骗先锋 | fanzhapianxf | 关于反诈工作的几个问题及思考 | https://mp.weixin.qq.com/s/ps7GG2rKc5-J8J2Iybhi8Q | 1| 
 | 白帽子飙车路 | hack-by-txf | Cobalt Strike 利用 Chrome 0day 上线 | https://mp.weixin.qq.com/s/LOpAu8vs8ob85W3sCmXMew | 1| 
-| 一个人的安全笔记 | xjiek2015 | [HTB]Worker Writeup | https://mp.weixin.qq.com/s/J5jKKfbwBbOTjpnwcFotrg | 20| 
+| 一个人的安全笔记 | xjiek2015 | [HTB]Worker Writeup | https://mp.weixin.qq.com/s/J5jKKfbwBbOTjpnwcFotrg | 21| 
 | GuyoungStudio | guyoungnet | 可扩展跨平台网络安全工具套件 CaptfEncoder v2.0.0 发布 | https://mp.weixin.qq.com/s?__biz=MzI0ODU5Mzg0NA==&mid=2247483998&idx=1&sn=baaa69c5576a1e52b7d8aeb9482e1cf3&chksm=e99f2e85dee8a79304a5535dbf6c77e9f9def6b2a7438c73e28792ac5ea3c628a02204d116e6&token=1448493475&lang=zh_CN#rd | 1| 
 | RedTeam | RedTeams | 浅析 AWS S3 子域名接管漏洞 | https://mp.weixin.qq.com/s/q3bsrCKacuepKoFljYxJcg | 4| 
 | 架构师技术联盟 | ICT_Architect | 深度分析：4种国产CPU架构和6大品牌 | https://mp.weixin.qq.com/s/FoAPSNW0LFKuerEPJfFmgw | 1| 
@@ -578,7 +579,7 @@
 | 网安寻路人 | DataProtection101 |  | https://mp.weixin.qq.com/s/_Wdi6RZfchA5g5Dp7TmWYg | 10| 
 | V安全资讯 |  |  | https://mp.weixin.qq.com/s/TnS8f8B1ntC3qvd4noc7nA | 1| 
 | 平安科技金融安全研究院 | pinganfinsec |  | https://mp.weixin.qq.com/s/FSoYqbOpoFBni1C8Di7J0A | 2| 
-| 安全学术圈 | secquan |  | https://mp.weixin.qq.com/s/zicl-lC1jCWdVnXWkO3eyQ | 92| 
+| 安全学术圈 | secquan |  | https://mp.weixin.qq.com/s/zicl-lC1jCWdVnXWkO3eyQ | 93| 
 | 匠道人 | ATech666 |  | https://mp.weixin.qq.com/s/eayCCAnfBW8LNEhDn5A0nw | 2| 
 | 斗鱼安全应急响应中心 | DYSRC_ |  | https://mp.weixin.qq.com/s/zDAXg1dmTh1I6N4hGusT5g | 1| 
 | 工控参考 | gkongnews |  | https://mp.weixin.qq.com/s/TE-uWlKflUCMUDzLAeaXSA | 1| 
@@ -4142,6 +4143,7 @@
 | HexHive | FuzzGen: Automatic Fuzzer Generation | https://github.com/HexHive/FuzzGen | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Python,C++,TeX,HTML,Brainfuck | 0 | 0 | 1| 
 | HerrSpace | CCNA学习总结目录表。 | https://github.com/HerrSpace/CCNA-Cheat-Sheet | https://noot.geheim.org |  | Hamburg, Germany, Earth | None | 34 | 0 | 0 | 0 | 0 | Python,Ruby,HTML,JavaScript,Shell | 59 | 25 | 1| 
 | Hadesy2k | sqliv - 大范围 SQL 注入漏洞扫描器: | https://github.com/Hadesy2k/sqliv | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| HXSecurity | DongTai: 开源的 IAST | https://github.com/HXSecurity/DongTai | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Java,Python,HTML,PLpgSQL,CSS | 0 | 0 | 1| 
 | HPE-AppliedSecurityResearch | Maltese (Malware Traffic Emulating Software) | https://github.com/HPE-AppliedSecurityResearch/maltese | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | GuidoBartoli | sherloq - 一款开源的图片取证分析工具 | https://github.com/GuidoBartoli/sherloq | https://github.com/GuidoBartoli?tab=followers | My education is in software development as well as my current job, but my passion is photography. I love to code apps fusing the best of both worlds. | Tuscany, ITALY | www.zcscompany.com | 2 | 0 | 0 | 0 | 0 | Perl | 0 | 0 | 1| 
 | Grey-Noise-Intelligence | Grey-Noise-Intelligence: GreyNoise威胁情报接口使用说明 | https://github.com/Grey-Noise-Intelligence/api.greynoise.io | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -4223,6 +4225,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Teradek 网络视频设备被发现 Root Shell 后门漏洞 | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Finfosecwriteups.com%2Ffull-disclosure-0-day-rce-backdoor-in-teradek-ip-video-device-firmwares-85a16f346e15| 
 | 利用 Trust Policy 访问模型的古老特性实现 AWS 的特权 | http://rzepsky.medium.com/aws-privilege-escalation-exploring-odd-features-of-the-trust-policy-7a970a32861| 
 | 利用存储式 XSS 漏洞利用实现 ManageEngine ServiceDesk Plus RCE | http://medium.com/tenable-techblog/stored-xss-to-rce-chain-as-system-in-manageengine-servicedesk-plus-493c10f3e444| 
 | 运维管理工具 ManageEngine 整数溢出漏洞到 RCE（CVE-2021–20082） | http://medium.com/tenable-techblog/integer-overflow-to-rce-manageengine-asset-explorer-agent-cve-2021-20082-7e54cb2caad5| 
@@ -4523,6 +4526,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| Survey: 基于机器学习和数据挖掘技术的软件漏洞检测 | https://zhuanlan.zhihu.com/p/405003793| 
 | Microsoft对于信息安全建设与业务发展之间平衡的思考（上） | https://zhuanlan.zhihu.com/p/376562987| 
 | 一个人怎么建立独立的思维框架和逻辑体系？ | https://www.zhihu.com/question/442047678/answer/1846239907| 
 | 当可解释人工智能遇上知识图谱 | https://zhuanlan.zhihu.com/p/386458680| 

@@ -14,6 +14,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 黑哥说安全 | gh_67cfd5e45750 | None | https://mp.weixin.qq.com/s/fQatA5iyewqRBMWtpVjsRA | 1| 
+| 一个人的安全笔记 | xjiek2015 | None | https://mp.weixin.qq.com/s/HFh8pMRtZ-fm_-0lMoUqvw | 1| 
+| 安全学术圈 | secquan | None | https://mp.weixin.qq.com/s/ErjUg177-jGR9UQjyZaEoA | 1| 
 | 网安思考 | gh_e53abd003964 | None | https://mp.weixin.qq.com/s/CwXqkHDSFK6XMFtvOpnsjw | 1| 
 | 机器学习研究组订阅 | gh_7ce29bea153b | None | https://mp.weixin.qq.com/s/jfgrIRQSb_gPwvYGs8b_Pw | 1| 
 | 安全界 | feei_cn | None | https://mp.weixin.qq.com/s/Fo0OhNb-MP-GqKM-ASCXsg | 1| 
@@ -29,13 +32,14 @@
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | hackingintoyourheart | 本田雅阁、思域等多款车存在密钥重放攻击安全漏洞 | https://github.com/hackingintoyourheart/unoriginal-rice-patty | https://github.com/HackingIntoYourHeart?tab=followers | Computer Scientist... ㅤㅤㅤㅤㅤㅤㅤㅤ BTC: 3NqgZV8MaYDp6B6AJxSs7La9XuMZx8Nuxk ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ ETH: 0x65a3CC7D99139000B43EeAe33EdcdCACbaE98524 | Earth | Blake Berry | 17 | 0 | 0 | 0 | 0 | Python,C++ | 0 | 0 | 1| 
-| G-Security-Team | GSLibrary: 轻量级知识库&POC管理平台 | https://github.com/G-Security-Team/GSLibrary | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| HXSecurity | DongTai: 开源的 IAST | https://github.com/HXSecurity/DongTai | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Java,Python,HTML,PLpgSQL,CSS | 0 | 0 | 1| 
 | CHYbeta | Nginx 场景绕过之二：斜杠(trailing slash) 与 编码 | https://github.com/CHYbeta/OddProxyDemo/blob/master/nginx/demo2/README.md | https://github.com/CHYbeta?tab=followers |  | China | XMU | 31 | 0 | 0 | 0 | 0 | HTML,Dockerfile | 0 | 0 | 1| 
 
 
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Teradek 网络视频设备被发现 Root Shell 后门漏洞 | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Finfosecwriteups.com%2Ffull-disclosure-0-day-rce-backdoor-in-teradek-ip-video-device-firmwares-85a16f346e15| 
 
 
 # medium_secwiki 推荐
@@ -51,6 +55,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| Survey: 基于机器学习和数据挖掘技术的软件漏洞检测 | https://zhuanlan.zhihu.com/p/405003793| 
 
 
 # xz_xuanwu 推荐

@@ -14,12 +14,13 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 黑哥说安全 | gh_67cfd5e45750 | None | https://mp.weixin.qq.com/s/fQatA5iyewqRBMWtpVjsRA | 1| 
 | 机器学习研究组订阅 | gh_7ce29bea153b | None | https://mp.weixin.qq.com/s/jfgrIRQSb_gPwvYGs8b_Pw | 1| 
 | 安全界 | feei_cn | None | https://mp.weixin.qq.com/s/Fo0OhNb-MP-GqKM-ASCXsg | 1| 
 | 奇安信威胁情报中心 | gh_166784eae33e | None | https://mp.weixin.qq.com/s/dGW0FrbZZ5UA6KuuZB8J_g | 1| 
 | 知识工场 | fudankw | None | https://mp.weixin.qq.com/s/Qa9nSkN3Yj2AEPkfdUJwMw | 1| 
-| 云头条 | YunTouTiao | None | https://mp.weixin.qq.com/s/Yni5Yw6SOLOJEvRbiSSRVg | 1| 
 | 信息通信技术与政策 | caict_dsc | None | https://mp.weixin.qq.com/s/sjHKGw6tZ7q-2HMnxLYpoQ | 1| 
+| 云头条 | YunTouTiao | None | https://mp.weixin.qq.com/s/Yni5Yw6SOLOJEvRbiSSRVg | 1| 
 | 青衣十三楼飞花堂 | gh_9feb5a276a2a | None | https://mp.weixin.qq.com/s/bmdSyZem46aukj_hvLhu0w | 1| 
 | 漏洞战争 | vulwar | None | https://mp.weixin.qq.com/s/BCdN9KOFpCYUKQ_SNSgPPQ | 1| 
 | 开放知识图谱 | OpenKG-CN | 论文浅尝 , 面向开放域的无监督实体对齐 | https://mp.weixin.qq.com/s/gH1VNCUVT5Hd5lGaGvEO2w | 1| 
@@ -103,7 +104,7 @@
 | 合规科技研究 | ComplianceTech | 数据安全技术专题——数据分类分级的技术实践指南 | https://mp.weixin.qq.com/s/WknW2_lR4ryBLIgCma30Vw | 1| 
 | 反诈骗先锋 | fanzhapianxf | 关于反诈工作的几个问题及思考 | https://mp.weixin.qq.com/s/ps7GG2rKc5-J8J2Iybhi8Q | 1| 
 | 白帽子飙车路 | hack-by-txf | Cobalt Strike 利用 Chrome 0day 上线 | https://mp.weixin.qq.com/s/LOpAu8vs8ob85W3sCmXMew | 1| 
-| 一个人的安全笔记 | xjiek2015 | [HTB]Worker Writeup | https://mp.weixin.qq.com/s/J5jKKfbwBbOTjpnwcFotrg | 20| 
+| 一个人的安全笔记 | xjiek2015 | [HTB]Worker Writeup | https://mp.weixin.qq.com/s/J5jKKfbwBbOTjpnwcFotrg | 21| 
 | GuyoungStudio | guyoungnet | 可扩展跨平台网络安全工具套件 CaptfEncoder v2.0.0 发布 | https://mp.weixin.qq.com/s?__biz=MzI0ODU5Mzg0NA==&mid=2247483998&idx=1&sn=baaa69c5576a1e52b7d8aeb9482e1cf3&chksm=e99f2e85dee8a79304a5535dbf6c77e9f9def6b2a7438c73e28792ac5ea3c628a02204d116e6&token=1448493475&lang=zh_CN#rd | 1| 
 | 郑海山dump | zhsdump | 网络空间测绘：IP洞察 | https://mp.weixin.qq.com/s/gVTyhwgxC-UUxhB4YdXKeg | 1| 
 | 信息安全与通信保密杂志社 | cismag2013 | 英国网络作战力量浅析 | https://mp.weixin.qq.com/s/z7Uq5vYotZBNk1yqJqAHxw | 4| 
@@ -189,7 +190,7 @@
 | 人民公安报 | rmgabs | 公安部网安局公布一批网络黑产案例 | https://mp.weixin.qq.com/s/uXupT3yeeOA9NWVjQORgDQ | 1| 
 | 启明星辰专家视野 | VenusExpertsVision | 自动化渗透测试系统技术路径分析 | https://mp.weixin.qq.com/s/gtXfPvT8Yatp3IMVdCID7Q | 1| 
 | FreeBuf | freebuf | 关于PDD员工发帖溯源联想到的相关技术与实现 | https://mp.weixin.qq.com/s/coRsNLMT_FAr6xSHwPgOUg | 5| 
-| 安全学术圈 | secquan | 使用自己的代码查找漏洞：检测功能相似但不一致的代码 | https://mp.weixin.qq.com/s/ELbtEhd1wedkEqhboPpLuQ | 39| 
+| 安全学术圈 | secquan | 使用自己的代码查找漏洞：检测功能相似但不一致的代码 | https://mp.weixin.qq.com/s/ELbtEhd1wedkEqhboPpLuQ | 40| 
 | 阿里云安全 | aliyunsec | 对 SolarWinds 事件更深的思考：如何防御供应链攻击 | https://mp.weixin.qq.com/s/GdER32Z7K86boHVc-Kic3g | 1| 
 | 360Quake空间测绘 | gh_0284fd4851e7 | 浅析开源蜜罐识别与全网测绘 | https://mp.weixin.qq.com/s/hq-z2HBGz3nehnCVg_H-RQ | 2| 
 | 深信服千里目安全实验室 | Further_eye | 【高级持续性威胁跟踪】红队视角看Sunburst后门中的TTPs | https://mp.weixin.qq.com/s/wtEbawfOd1g_T2ovp1SaGg | 3| 
@@ -309,6 +310,7 @@
 | LloydLabs | Windows 进程删除自身可执行文件的 PoC | https://github.com/LloydLabs/delete-self-poc | https://blog.syscall.party | 20, BEng Student @ ENU, RE, fuzzing & malware research. | Edinburgh, Scotland. | None | 6 | 0 | 0 | 0 | 0 | Go,C | 235 | 32 | 1| 
 | LasCC | The all-in-one Red Team browser extension for Web Pentesters | https://github.com/LasCC/Hack-Tools | https://ludovic-cyber-sec.netlify.app/ | Cyber Security Student at ESGI Paris 🇫🇷 | Paris | None | 45 | 0 | 0 | 0 | 0 | TypeScript,Python,JavaScript | 1900 | 197 | 1| 
 | Hzllaga | 宝塔面板Windows版提权方法 | https://github.com/Hzllaga/BT_Panel_Privilege_Escalation | None |  | None | None | 31 | 0 | 0 | 0 | 0 | C#,Python | 187 | 39 | 1| 
+| HXSecurity | DongTai: 开源的 IAST | https://github.com/HXSecurity/DongTai | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Java,Python,HTML,PLpgSQL,CSS | 0 | 0 | 1| 
 | GuoKerS | 利用字符集编码绕过waf的burp插件 | https://github.com/GuoKerS/Charset_encoding-Burp | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | GuidoBartoli | sherloq - 一款开源的图片取证分析工具 | https://github.com/GuidoBartoli/sherloq | https://github.com/GuidoBartoli?tab=followers | My education is in software development as well as my current job, but my passion is photography. I love to code apps fusing the best of both worlds. | Tuscany, ITALY | www.zcscompany.com | 2 | 0 | 0 | 0 | 0 | Perl | 0 | 0 | 1| 
 | GhostPack | Certify - Active Directory Certificate Services 错误配置检测工具 | https://github.com/GhostPack/Certify | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -321,7 +323,7 @@
 | ControlThings-io | 适用于Control Things Platform用户的样本文件与顶级研究项目。 | https://github.com/ControlThings-io/ct-samples | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,PHP,Rich | 0 | 0 | 1| 
 | Ch0pin | medusa - 基于 FRIDA 实现的 Java 动态二进制插桩框架，目标场景是恶意软件 Trace | https://github.com/Ch0pin/medusa | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | CTF-MissFeng | GoScan: 分布式综合资产管理系统 | https://github.com/CTF-MissFeng/GoScan | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
-| CHYbeta | Nginx 场景绕过之二：斜杠(trailing slash) 与 编码 | https://github.com/CHYbeta/OddProxyDemo/blob/master/nginx/demo2/README.md | https://github.com/CHYbeta?tab=followers |  | China | XMU | 31 | 0 | 0 | 0 | 0 | HTML,Dockerfile | 0 | 0 | 2| 
+| CHYbeta | Nginx 场景绕过之一: URL white spaces + Gunicorn | https://github.com/CHYbeta/OddProxyDemo/blob/master/nginx/demo1/README.md | https://github.com/CHYbeta?tab=followers |  | China | XMU | 31 | 0 | 0 | 0 | 0 | Python,HTML | 0 | 0 | 2| 
 | BloodHoundAD | BloodHound：Six Degrees of Domain Admin | https://github.com/BloodHoundAD/BloodHound | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | BishopFox | GadgetProbe - Java 反序列化漏洞 Gadget Probe 工具 | https://github.com/BishopFox/GadgetProbe | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Java,Objective-C++,Python,JavaScript,Perl,Go | 1300 | 190 | 1| 
 | BC-SECURITY | Starkiller：1.7.0 版本发布。基于 Electron 实现的 Powershell Empire 可视化工具。 | https://github.com/BC-SECURITY/Starkiller/releases | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C#,C,Vue,PowerShell | 0 | 0 | 1| 
@@ -335,6 +337,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Teradek 网络视频设备被发现 Root Shell 后门漏洞 | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Finfosecwriteups.com%2Ffull-disclosure-0-day-rce-backdoor-in-teradek-ip-video-device-firmwares-85a16f346e15| 
 | 利用 Trust Policy 访问模型的古老特性实现 AWS 的特权 | http://rzepsky.medium.com/aws-privilege-escalation-exploring-odd-features-of-the-trust-policy-7a970a32861| 
 | 利用存储式 XSS 漏洞利用实现 ManageEngine ServiceDesk Plus RCE | http://medium.com/tenable-techblog/stored-xss-to-rce-chain-as-system-in-manageengine-servicedesk-plus-493c10f3e444| 
 | 运维管理工具 ManageEngine 整数溢出漏洞到 RCE（CVE-2021–20082） | http://medium.com/tenable-techblog/integer-overflow-to-rce-manageengine-asset-explorer-agent-cve-2021-20082-7e54cb2caad5| 
@@ -413,6 +416,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| Survey: 基于机器学习和数据挖掘技术的软件漏洞检测 | https://zhuanlan.zhihu.com/p/405003793| 
 | Microsoft对于信息安全建设与业务发展之间平衡的思考（上） | https://zhuanlan.zhihu.com/p/376562987| 
 | 一个人怎么建立独立的思维框架和逻辑体系？ | https://www.zhihu.com/question/442047678/answer/1846239907| 
 | 当可解释人工智能遇上知识图谱 | https://zhuanlan.zhihu.com/p/386458680| 
