@@ -1,8 +1,8 @@
-Python	1087
+Python	1088
 C	677
 JavaScript	675
 C++	548
-HTML	490
+HTML	491
 Shell	472
 Java	466
 Go	393
@@ -16,7 +16,7 @@ Objective-C	143
 Rust	118
 Jupyter	103
 Perl	77
-Dockerfile	69
+Dockerfile	70
 Swift	69
 Assembly	68
 Lua	63

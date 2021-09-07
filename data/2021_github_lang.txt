@@ -1,11 +1,11 @@
-Python	48
+Python	49
 C	28
 Java	24
 JavaScript	19
 Go	19
 Shell	18
 C++	18
-HTML	16
+HTML	17
 C#	10
 PHP	10
 TypeScript	9
@@ -14,11 +14,11 @@ CSS	5
 Ruby	5
 Objective-C	5
 Lua	4
+Dockerfile	4
 YARA	4
 Assembly	4
 PowerShell	4
 Perl	3
-Dockerfile	3
 PLpgSQL	2
 Vue	2
 Jupyter	2

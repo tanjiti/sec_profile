@@ -1,8 +1,8 @@
-Python	2
-HTML	2
+Python	3
+HTML	3
+Dockerfile	2
 Shell	1
 Java	1
 C++	1
 CSS	1
-Dockerfile	1
 PLpgSQL	1
