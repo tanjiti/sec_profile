@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 锦行信息安全 | jeeseensec | None | https://mp.weixin.qq.com/s/2CZA9aRr9nsawMkxHQrupg | 1| 
 | 黑哥说安全 | gh_67cfd5e45750 | None | https://mp.weixin.qq.com/s/fQatA5iyewqRBMWtpVjsRA | 1| 
 | 一个人的安全笔记 | xjiek2015 | None | https://mp.weixin.qq.com/s/HFh8pMRtZ-fm_-0lMoUqvw | 1| 
 | 安全学术圈 | secquan | None | https://mp.weixin.qq.com/s/ErjUg177-jGR9UQjyZaEoA | 1| 
