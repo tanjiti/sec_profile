@@ -1,5 +1,5 @@
-Python	3
-HTML	3
+Python	4
+HTML	4
 Dockerfile	2
 Shell	1
 Java	1

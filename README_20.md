@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 安全营销喵喵站 | Z1-Businessweek | None | https://mp.weixin.qq.com/s/2hiU8ko3N3duW0sI9JdNfA | 1| 
 | 黑哥说安全 | gh_67cfd5e45750 | None | https://mp.weixin.qq.com/s/fQatA5iyewqRBMWtpVjsRA | 1| 
 | 机器学习研究组订阅 | gh_7ce29bea153b | None | https://mp.weixin.qq.com/s/jfgrIRQSb_gPwvYGs8b_Pw | 1| 
 | 默安逐日实验室 | gh_995a1a9f25b5 | VMware_vCenter 近期漏洞分析 | https://mp.weixin.qq.com/s/W_vJA8tr_qFS1ff-lVy9Kw | 1| 
@@ -26,7 +27,7 @@
 | 知帆科技 | chaindigg | 浅析利用虚拟货币洗钱 | https://mp.weixin.qq.com/s/hoXNYkaOF4SWNzK4W8l-8w | 1| 
 | 汉堡爱好者 | burgerk1 | 越权漏洞治理实践（自动检测部分IDOR） | https://mp.weixin.qq.com/s/GG8cdvpYoGVs4l-G_YvSag | 2| 
 | 乌雲安全 | hackctf | 干货,利用pocsuite3框架编写poc实战案例 | https://mp.weixin.qq.com/s/LN5gJnKpunfWGJ6yQQtHuw | 1| 
-| 莫哥谈安全 | gh_247dfbdf3d43 | D3FEND学习笔记 | https://mp.weixin.qq.com/s/WsCgI6ilaGL8XJPUJUTCdQ | 2| 
+| 莫哥谈安全 | gh_247dfbdf3d43 | D3FEND学习笔记 | https://mp.weixin.qq.com/s/WsCgI6ilaGL8XJPUJUTCdQ | 3| 
 | 社媒派SMP | CIPS-SMP | THUIR司法类案检索技术研究进展 | https://mp.weixin.qq.com/s/VgOKXX0mJSWol0CKOUMJOA | 1| 
 | 甲方安全建设 | blueteams | Active Directory 证书服务快速防御指南 | https://mp.weixin.qq.com/s/XTl9WkdZwCKke_0tLOUr2w | 1| 
 | 灾难控制 局 | SecDamageControl | Elkeid-RASP 发布，易部署的RASP方案。 | https://mp.weixin.qq.com/s/o0rSOLQ34-Ph0aY-_5tfSA | 1| 
@@ -112,7 +113,7 @@
 | 网络空间安全科学与技术 | gh_d54d2c7cabd7 | 2020年综述性论文合辑（上） | https://mp.weixin.qq.com/s/e-3rSS2F7lVV9SMMnoqylQ | 2| 
 | 开源情报研究所 | OSINTR | 【技巧】如何查找相关人的信息 | https://mp.weixin.qq.com/s/yeuMivJaizmAQAHL1poHTw | 4| 
 | 安全分析与研究 | MalwareAnalysis | 聊聊APT的溯源分析 | https://mp.weixin.qq.com/s/hSnOYoC71z_HIU4PVf4tmw | 3| 
-| 威胁棱镜 | THREAT_PRISM | 发现并提取 Cobalt Strike 的配置信息 | https://mp.weixin.qq.com/s/-jajjhu-6KVQvaZoh59Wuw | 26| 
+| 威胁棱镜 | THREAT_PRISM | 发现并提取 Cobalt Strike 的配置信息 | https://mp.weixin.qq.com/s/-jajjhu-6KVQvaZoh59Wuw | 27| 
 | 国网浙江信通公司 | gh_12020d981693 | 鲸蓝计划丨溯源反制基本思路与实战 | https://mp.weixin.qq.com/s/axNXFgyaD-5WSIkPwjkPrQ | 1| 
 | b1ngz的笔记本 | gh_70bda0a9ced0 | 自动化安全工具平台 - 架构笔记 | https://mp.weixin.qq.com/s/OMhS9yFlcpI9KOQduSxq9g | 1| 
 | 360技术 | qihoo_tech | 用DNS进行网络度量和安全分析 | https://mp.weixin.qq.com/s/L_wDNJtznQvrCyx1Kd1SlQ | 1| 
@@ -574,7 +575,7 @@
 | 湖南金盾评估中心 | JD83758161 |  | https://mp.weixin.qq.com/s/VrVBE7I4pCOd5BOnwIAs9A | 1| 
 | 平安集团安全应急响应中心 | PSRC_Team |  | https://mp.weixin.qq.com/s/eiVszU0mZ49WIMfrOEvgeA | 4| 
 | 互联网安全内参 | anquanneican |  | https://mp.weixin.qq.com/s/bm8jK8mLsYkWNH_fwIcPAg | 12| 
-| ChaMd5安全团队 | chamd5sec |  | https://mp.weixin.qq.com/s?__biz=MzIzMTc1MjExOQ==&mid=2247484574&idx=1&sn=91850fae13f6a478869f10fa176e3e8c | 68| 
+| ChaMd5安全团队 | chamd5sec |  | https://mp.weixin.qq.com/s?__biz=MzIzMTc1MjExOQ==&mid=2247484574&idx=1&sn=91850fae13f6a478869f10fa176e3e8c | 69| 
 | 软件定义世界（SDX） | SDx-SoftwareDefinedx |  | https://mp.weixin.qq.com/s/GnuuzHedLCSWj-VanHDhdA | 1| 
 | 网安寻路人 | DataProtection101 |  | https://mp.weixin.qq.com/s/_Wdi6RZfchA5g5Dp7TmWYg | 10| 
 | V安全资讯 |  |  | https://mp.weixin.qq.com/s/TnS8f8B1ntC3qvd4noc7nA | 1| 
@@ -778,7 +779,7 @@
 | 正信用征信服务 | myzxy-com |  | http://mp.weixin.qq.com/s?__biz=MzAxNTU3ODMwNQ==&mid=2657680042&idx=2&sn=7f630d10fb7a917f9cced25b84b4ffd6&scene=2 | 1| 
 | 青藤云安全资讯 | qingtengyun |  | http://mp.weixin.qq.com/s?__biz=MzAwNDE4Mzc1NA==&mid=2650824705&idx=1&sn=a4eace7749b80b8ebaeeb5d8ec111f6d&scene=1&srcid=0908z5RxVXls52bxYt9biPtm#rd | 10| 
 | 运维帮 | yunweibang |  | http://mp.weixin.qq.com/s?__biz=MzA3MzYwNjQ3NA==&mid=2651297130&idx=1&sn=bf6d7d50501fcd53e1ee59482b6c34a8&scene=1&srcid=09082u3vxpBbxif82QL5S45d#rd | 2| 
-| 安全客 | anquanbobao |  | http://mp.weixin.qq.com/s?__biz=MzA5ODA0NDE2MA==&mid=2649712001&idx=2&sn=0b4e70486bfa95fc454e7f18d45320f8 | 11| 
+| 安全客 | anquanbobao |  | http://mp.weixin.qq.com/s?__biz=MzA5ODA0NDE2MA==&mid=2649712001&idx=2&sn=0b4e70486bfa95fc454e7f18d45320f8 | 12| 
 | 孙维的信息安全札记 | sunw3i |  | http://mp.weixin.qq.com/s?__biz=MzA5MDIwMjI4MQ==&mid=2688641790&idx=1&sn=58d1cf18feadad6534f4510cbbde8ccb&scene=1&srcid=0908RQHeUiCctcddtiS7koej#rd | 1| 
 | 吾爱破解论坛 | pojie_52 |  | http://mp.weixin.qq.com/s?__biz=MjM5Mjc3MDM2Mw==&mid=2651132585&idx=1&sn=6e4daa40092d8abe79d98d43536c7a53&scene=1 | 2| 
 | 京东安全应急响应中心 | jsrc_team |  | http://mp.weixin.qq.com/s?__biz=MjM5OTk2MTMxOQ==&mid=2727827297&idx=1&sn=277c0178ebead359392018be205020ad&scene=1 | 6| 
@@ -1429,7 +1430,7 @@
 | cure53 | H5SC:HTML5 Security Cheatsheet | https://github.com/cure53/H5SC | https://cure53.de | And there is fire where we walk. | Berlin | Fine penetration tests for fine websites | 16 | 0 | 30 | 1100 | 0 | JavaScript,HTML | 0 | 0 | 7| 
 | coolstar | Electra iOS 11.0 - 11.1.2 jailbreak toolkit based on async_awake : | https://github.com/coolstar/electra | None | iOS developer and computer science student at UC Santa Barbara. | San Francisco, CA | None | 115 | 0 | 8 | 1100 | 1 | C,C++ | 774 | 217 | 2| 
 | HarmJ0y | Few goodies for everyone today- first a PowerSploit cheat sheet | https://github.com/HarmJ0y/CheatSheets/blob/master/PowerSploit.pdf | http://blog.harmj0y.net | Co-founder of Empire, BloodHound, and the Veil-Framework , PowerSploit developer , krb lover , Microsoft PowerShell MVP , Security at the misfortune of others | Seattle, WA | None | 31 | 0 | 26 | 1100 | 4 | C#,Python,PowerShell | 593 | 134 | 2| 
-| CHYbeta | Software-Security-Learning: 软件安全的一些资料 | https://github.com/CHYbeta/Software-Security-Learning | https://chybeta.github.io | https://xz.aliyun.com/u/2551 | China | XMU | 43 | 0 | 1400 | 1100 | 89 | Python,HTML | 2200 | 634 | 8| 
+| CHYbeta | Software-Security-Learning: 软件安全的一些资料 | https://github.com/CHYbeta/Software-Security-Learning | https://chybeta.github.io | https://xz.aliyun.com/u/2551 | China | XMU | 43 | 0 | 1400 | 1100 | 89 | Python,HTML | 2200 | 634 | 9| 
 | jlevy | the-art-of-command-line | https://github.com/jlevy/the-art-of-command-line | https://github.com/HollowayGuides | Co-Founder, Holloway | Mountain View, California | @HollowayGuides | 23 | 0 | 1100 | 1000 | 146 | Python,Shell,JavaScript | 0 | 0 | 1| 
 | jinfagang | weibo_terminater: 微博终结者爬虫 | https://github.com/jinfagang/weibo_terminater | http://jinfagang.github.io | I am the best! | Sanfancisco | Google | 123 | 0 | 882 | 1000 | 67 | Python,C++ | 0 | 0 | 1| 
 | jgamblin | Mirai-Source-Code: For Research/IoC Development Purposes | https://github.com/jgamblin/Mirai-Source-Code | https://www.jerrygamblin.com | Researcher. Builder. Hacker. Traveler. Cedere Nescio. | United States | None | 65 | 0 | 0 | 1000 | 2 | C,Shell | 0 | 0 | 3| 
