@@ -197,11 +197,13 @@ def get_weixin_info(url="", ts="", tag="", max_redirects=30, proxy=None, root_di
                 logging.error("GET title of %s failed : %s" % (url, repr(e)))
                 return
 
-            title = soup.find('h2', class_="rich_media_title")
-            if title:
-                title = title.text
+            for h_no in ['h2', 'h1']:
+                title = soup.find(h_no, class_="rich_media_title")
                 if title:
-                    title = strip_n(title)
+                    title = title.text
+                    if title:
+                        title = strip_n(title)
+                        break
 
             rich_media_meta_list = soup.find("div", class_="rich_media_meta_list")
 
@@ -884,9 +886,7 @@ def test_get_weixin_info():
 
     :return:
     """
-    url = "https://mp.weixin.qq.com/s?__biz=MzU2NTc2MjAyNg" \
-          "==&mid=2247483758&idx=1&sn=1bd0006d16747389046058ea34c3b7b7&chksm=fcb783ebcbc00afd694b7a2ee10ad32aff0a534963878541ee17974ffee29c63342f4e617661&token=1823181969&lang=zh_CN#rd"
-    url = "https://mp.weixin.qq.com/s/RCpAUpFEzbSewEnWpHrsqw"
+    url = 'https://mp.weixin.qq.com/s?__biz=MzkwMTE4NDM5NA==&mid=2247484979&idx=1&sn=e024eb0908c22895256b117eab82295b'
     ret = get_weixin_info(url=url)
     print(json.dumps(ret, indent=4))
 
@@ -926,6 +926,7 @@ def test_get_requst():
     :return:
     """
     url = "https://sec.today/pulses/"
+    url = 'https://mp.weixin.qq.com/s/xXYFcVOXA6lZfhign0BJlg'
     ret = get_request(url=url)
     print(ret)
 
@@ -933,8 +934,8 @@ def test_get_requst():
 if __name__ == "__main__":
     """
     """
-    test_get_github_info()
-    #test_get_weixin_info()
+    #test_get_github_info()
+    test_get_weixin_info()
     # test_get_requst()
 
     # test_get_twitter_info()
