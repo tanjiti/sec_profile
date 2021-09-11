@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 from mills import d2sql
 from mills import get_request
 from mills import get_special_date
-
+from mills import get_weixin_info
 from mills import SQLiteOper
 
 
@@ -88,6 +88,12 @@ def scraw(so, proxy=None, delta=3):
                                     d[field_name] = field_value
 
                         if d:
+                            # 获得weixin_no
+                            weixin_info = get_weixin_info(url=d.get('url'))
+
+                            if weixin_info:
+                                weixin_no = weixin_info.get('weixin_no')
+                                d['weixin_no'] = weixin_no
                             sql = d2sql(d, table='weixin')
 
                             if sql:

@@ -7,6 +7,7 @@ sys.setdefaultencoding('utf8')
 
 from secwiki_today import scraw as secwiki_scraw
 from xuanwu_today import scraw as xuanwu_scraw
+from doonsec_today import scraw as doonsec_scraw
 import secwiki as secwiki
 from mills import SQLiteOper
 from mills import get_special_date
@@ -25,6 +26,8 @@ def scraw(proxy=None):
 
     xuanwu_scraw(so, proxy=proxy, delta=10)
 
+    doonsec_scraw(so, proxy=proxy, delta=3)
+
 
 def update_github():
     """
@@ -40,7 +43,7 @@ def update_github():
 
 
 if __name__ == "__main__":
-    """
+    """iiiiiii  
     """
     proxy = {
         "socks:": "socks://127.0.0.1:8420",
@@ -53,5 +56,9 @@ if __name__ == "__main__":
     visual.draw_readme()
 
     secwiki.main(renew=False)
+
+
+
+
 
     update_github()

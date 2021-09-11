@@ -1,6 +1,7 @@
-Python	4
+Python	5
 HTML	4
 Dockerfile	2
+C	1
 Shell	1
 Java	1
 C++	1
