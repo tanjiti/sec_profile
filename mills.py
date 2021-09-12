@@ -522,7 +522,8 @@ def get_request(url,
 
     ret = False
     headers = {}
-    headers['User-Agent'] = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+    headers[
+        'User-Agent'] = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
 
     s = requests.session()
     s.max_redirects = max_redirects
@@ -536,7 +537,6 @@ def get_request(url,
                           method="GET",
                           headers=headers,
                           timeout=timeout,
-
 
                           )
 
@@ -931,11 +931,41 @@ def test_get_requst():
     print(ret)
 
 
+def update_weixin_info_batch():
+    """
+
+    :return:
+    """
+    so = SQLiteOper("data/scrap.db")
+    sql = 'select ts, url,tag from weixin where title = "None" or title = ""'
+    try:
+        ret = so.query(sql)
+    except Exception as e:
+        print sql, str(e)
+        return
+    if ret:
+        for r in ret:
+            ts, url, tag = r
+
+            d = get_weixin_info(url=url, ts=ts)
+            if d:
+                sql = d2sql(d, table="weixin")
+
+                if sql:
+                    try:
+                        print(sql)
+                        so.execute(sql)
+                    except Exception as e:
+                        logging.error("[sql]: %s %s" % (sql, str(e)))
+
+
 if __name__ == "__main__":
     """
     """
-    #test_get_github_info()
-    test_get_weixin_info()
+    # test_get_github_info()
+    # test_get_weixin_info()
     # test_get_requst()
 
     # test_get_twitter_info()
+
+    update_weixin_info_batch()
