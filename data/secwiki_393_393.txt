@@ -1,0 +1,22 @@
+20210906	Web安全	http://noahblog.360.cn/burp-suite-rce/	反制爬虫之Burp Suite RCE	360.cn	noahblog.360.cn	/burp-suite-rce/
+20210906	Web安全	https://github.com/HXSecurity/DongTai	DongTai: 开源的 IAST	github.com	github.com	/HXSecurity/DongTai
+20210906	恶意分析	https://toooold.com/2021/09/05/hide_malware_ann.html?continueFlag=f2aeadc6d507ff1e919e27925b7e4d4a	在深度神经网络里隐藏任意恶意软件	toooold.com	toooold.com	/2021/09/05/hide_malware_ann.html
+20210906	Web安全	http://noahblog.360.cn/zabbixgong-ji-mian-wa-jue-yu-li-yong/	Zabbix攻击面挖掘与利用	360.cn	noahblog.360.cn	/zabbixgong-ji-mian-wa-jue-yu-li-yong/
+20210906	恶意分析	https://toooold.com/2021/07/12/dga_detection.html	为什么 LSTM 检测 DGA 是无用功	toooold.com	toooold.com	/2021/07/12/dga_detection.html
+20210906	Web安全	https://github.com/CHYbeta/OddProxyDemo/tree/master/haproxy/demo1	HAProxy 场景绕过之一: CVE-2021-40346	github.com	github.com	/CHYbeta/OddProxyDemo/tree/master/haproxy/demo1
+20210906	运维安全	https://security.tencent.com/index.php/blog/msg/200	云原生——容器和应用安全运营实践思考	tencent.com	security.tencent.com	/index.php/blog/msg/200
+20210906	运维安全	https://mp.weixin.qq.com/s/dBAV_4iGw8rTU5Y3SI4ocA	漫谈企业安全运营能力建设	qq.com	mp.weixin.qq.com	/s/dBAV_4iGw8rTU5Y3SI4ocA
+20210906	其它	https://mp.weixin.qq.com/s/fQatA5iyewqRBMWtpVjsRA	谈谈网络空间“行为测绘”	qq.com	mp.weixin.qq.com	/s/fQatA5iyewqRBMWtpVjsRA
+20210906	漏洞分析	https://paper.seebug.org/1698/	FastJson 反序列化漏洞及在区块链应用中的渗透利用	seebug.org	paper.seebug.org	/1698/
+20210906	Web安全	https://github.com/CHYbeta/URLFilterBypassDemo/blob/master/python/flask_demo/README.md	URL FIlter 绕过 - Python 之 Flask	github.com	github.com	/CHYbeta/URLFilterBypassDemo/blob/master/python/flask_demo/README.md
+20210906	Web安全	https://mp.weixin.qq.com/s/HFh8pMRtZ-fm_-0lMoUqvw	[HTB] Haystack Writeup	qq.com	mp.weixin.qq.com	/s/HFh8pMRtZ-fm_-0lMoUqvw
+20210906	漏洞分析	https://www.anquanke.com/post/id/251984	浅谈angr的缓解状态爆炸策略	anquanke.com	www.anquanke.com	/post/id/251984
+20210906	恶意分析	https://mp.weixin.qq.com/s/xXYFcVOXA6lZfhign0BJlg	IoT 恶意软件进化谱系研究	qq.com	mp.weixin.qq.com	/s/xXYFcVOXA6lZfhign0BJlg
+20210906	编程技术	https://mp.weixin.qq.com/s/2CZA9aRr9nsawMkxHQrupg	DLL注入之全局钩子注入	qq.com	mp.weixin.qq.com	/s/2CZA9aRr9nsawMkxHQrupg
+20210906	漏洞分析	https://mp.weixin.qq.com/s/th9hDuMK8LgrkesgPvEDHQ	如何高效地捡漏反序列化利用链	qq.com	mp.weixin.qq.com	/s/th9hDuMK8LgrkesgPvEDHQ
+20210906	杂志	https://www.sec-wiki.com/weekly/392	SecWiki周刊（第392期)	sec-wiki.com	www.sec-wiki.com	/weekly/392
+20210906	工具	https://mp.weixin.qq.com/s?__biz=Mzg2ODQ3ODE1NA==&mid=2247483838&idx=1&sn=aeaa216d2fcd81a1c7c9a6b63f097281&chksm=ceaafc1bf9dd750d11e48b9c6139e41ae4c461b33a0a34bdd88fb512f6f465f4d5dc0fd887a2&token=2135304516&lang=zh_CN#rd	Xcheck之Golang安全检查引擎	qq.com	mp.weixin.qq.com	/s
+20210906	运维安全	https://mp.weixin.qq.com/s/2hiU8ko3N3duW0sI9JdNfA	Gartner：2021年SIEM（安全信息与事件管理）市场分析	qq.com	mp.weixin.qq.com	/s/2hiU8ko3N3duW0sI9JdNfA
+20210906	漏洞分析	https://mp.weixin.qq.com/s/JYBdhxbt0mqU3wIqFFWdhQ	Miara的延续--gafgyt病毒分析	qq.com	mp.weixin.qq.com	/s/JYBdhxbt0mqU3wIqFFWdhQ
+20210906	编程技术	https://mp.weixin.qq.com/s/nlDSYvR2SyKhtl4fOPt2Hg	如何高效迅速的进行CodeReview	qq.com	mp.weixin.qq.com	/s/nlDSYvR2SyKhtl4fOPt2Hg
+20210906	编程技术	https://mp.weixin.qq.com/s/hj7DPoFevmRPdgMY9orilg	NGINX速率限制原理及源码分析	qq.com	mp.weixin.qq.com	/s/hj7DPoFevmRPdgMY9orilg
