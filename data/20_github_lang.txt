@@ -1,11 +1,11 @@
-Python	1088
-C	677
+Python	1089
+C	678
 JavaScript	675
 C++	548
 HTML	491
 Shell	472
-Java	466
-Go	393
+Java	467
+Go	394
 C#	272
 Ruby	266
 PHP	240
@@ -26,7 +26,7 @@ Batchfile	52
 Scala	47
 Kotlin	43
 CMake	43
-Vue	37
+Vue	38
 Visual	34
 Vim	34
 HCL	32
@@ -83,6 +83,7 @@ Standard	3
 Jsonnet	3
 VBScript	3
 SQLPL	3
+SCSS	3
 Vala	3
 PostScript	3
 SystemVerilog	3
@@ -97,7 +98,6 @@ Terra	2
 Boo	2
 Prolog	2
 Yacc	2
-SCSS	2
 Mathematica	2
 Scheme	2
 Nim	2

@@ -1,8 +1,8 @@
-Python	49
-C	28
-Java	24
+Python	50
+C	29
+Java	25
+Go	20
 JavaScript	19
-Go	19
 Shell	18
 C++	18
 HTML	17
@@ -19,8 +19,9 @@ YARA	4
 Assembly	4
 PowerShell	4
 Perl	3
+Vue	3
+SCSS	2
 PLpgSQL	2
-Vue	2
 Jupyter	2
 XSLT	2
 Kotlin	2
@@ -31,7 +32,6 @@ BitBake	1
 Zeek	1
 Verilog	1
 Rich	1
-SCSS	1
 Dart	1
 Elixir	1
 Smali	1

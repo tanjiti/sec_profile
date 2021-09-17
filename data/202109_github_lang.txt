@@ -1,10 +1,13 @@
-Python	6
+Python	7
 HTML	4
+C	2
+Java	2
 Dockerfile	2
+SCSS	1
 YARA	1
-C	1
 Shell	1
-Java	1
+Vue	1
 C++	1
 CSS	1
+Go	1
 PLpgSQL	1
