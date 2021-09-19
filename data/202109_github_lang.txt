@@ -1,5 +1,5 @@
-Python	7
-HTML	4
+Python	8
+HTML	5
 C	2
 Java	2
 Dockerfile	2
@@ -7,6 +7,7 @@ SCSS	1
 YARA	1
 Shell	1
 Vue	1
+JavaScript	1
 C++	1
 CSS	1
 Go	1
