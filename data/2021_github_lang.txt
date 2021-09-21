@@ -1,8 +1,8 @@
 Python	51
 C	29
 Java	25
+Go	21
 JavaScript	20
-Go	20
 Shell	18
 HTML	18
 C++	18
@@ -10,11 +10,11 @@ C#	10
 PHP	10
 TypeScript	9
 Rust	9
+Dockerfile	5
 CSS	5
 Ruby	5
 Objective-C	5
 Lua	4
-Dockerfile	4
 YARA	4
 Assembly	4
 PowerShell	4

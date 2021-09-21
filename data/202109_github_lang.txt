@@ -1,8 +1,9 @@
 Python	8
 HTML	5
+Dockerfile	3
 C	2
 Java	2
-Dockerfile	2
+Go	2
 SCSS	1
 YARA	1
 Shell	1
@@ -10,5 +11,4 @@ Vue	1
 JavaScript	1
 C++	1
 CSS	1
-Go	1
 PLpgSQL	1
