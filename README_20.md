@@ -179,7 +179,7 @@
 | 国际电子战 | EW21cn | 欧洲反无人机系统的发展 | https://mp.weixin.qq.com/s/Hau6h-_HoMjFIzdi0YbLKA | 1| 
 | 360天枢智库 | gh_b3c796a6a82c | 揭秘全球网络安全防护最高水准：美国国防部信息网DODIN | https://mp.weixin.qq.com/s/m4wvjk2w5J2ZrWcJhHdQNw | 1| 
 | Datawhale | Datawhale | 机器学习中的特征工程总结！ | https://mp.weixin.qq.com/s/RgSejEbxwhnFUKR2POmqmg | 3| 
-| 腾讯代码安全检查Xcheck | gh_177b81103e8d | Xcheck之Golang安全检查引擎 | https://mp.weixin.qq.com/s/VzjcXp3O8zc97aIppy4LUA | 6| 
+| 腾讯代码安全检查Xcheck | gh_177b81103e8d | Xcheck之Golang安全检查引擎 | https://mp.weixin.qq.com/s/VzjcXp3O8zc97aIppy4LUA | 7| 
 | 潇湘信安 | xxxasec | Metasploit获取不到会话原因 | https://mp.weixin.qq.com/s/iHfA01e2iXOgBGVwjOAjvg | 43| 
 | Netlab 三六零 | Netlab_360 | HEH Botnet, 一个处于开发阶段的 IoT P2P Botnet | https://mp.weixin.qq.com/s/W_13W6rMQnBtZvPQwzDk2g | 2| 
 | ACTBIGDATA | ACTBIGDATA | ML CLUB , 面向图数据的异常检测综述概述 | https://mp.weixin.qq.com/s/WBxmr_hCOVUbSk15ZPWsjw | 1| 
@@ -437,7 +437,7 @@
 | 继之宫 |  | 威胁剑魔杂谈 | https://mp.weixin.qq.com/s/wpBeoTEC7g-wFX-DA61gmA | 2| 
 | 漏洞战争 | vulwar | 关于漏洞挖掘的一点想法 | https://mp.weixin.qq.com/s/79k5bxGr1ykCpN4lSeiTqw | 14| 
 | 安全牛 | aqniu-wx | 国内四大UEBA解决方案 | https://mp.weixin.qq.com/s/ftcks4wPVNmKMpODvOcfBQ | 43| 
-| 安全学术圈 | secquan | 骗局的艺术：剖析以太坊智能合约中的蜜罐 | https://mp.weixin.qq.com/s/zKv3wKEXRT8CgOnVHOXi0Q | 96| 
+| 安全学术圈 | secquan | 骗局的艺术：剖析以太坊智能合约中的蜜罐 | https://mp.weixin.qq.com/s/zKv3wKEXRT8CgOnVHOXi0Q | 97| 
 | nmask | nmask-article | 当子域名遇上搜索引擎 | https://mp.weixin.qq.com/s/yZFdVXPDh2O_qN_S1DsBPw | 5| 
 | 安全泰式柑汁 | ts_sec | 2019HW行动防守总结 | https://mp.weixin.qq.com/s/q2KdfZ0Wa8rkGT9i6Vjh3g | 1| 
 | 阿里安全响应中心 | alisrc | 从零开始java代码审计系列(一) | https://mp.weixin.qq.com/s/mEVxuFTr8VHCnxm1K7j4jw | 9| 
@@ -4045,6 +4045,7 @@
 | beurtschipper | Depix - 从截屏马赛克处理后的图片中还原原始密码 | https://github.com/beurtschipper/Depix | https://www.graa.nl/ |  | None | None | 26 | 0 | 0 | 0 | 0 | Python,C | 5300 | 262 | 1| 
 | bb1nfosec | Windows漏洞利用资源以及漏洞利用的网站参考列表总结。 | https://github.com/bb1nfosec/Information-Security-Tasks/blob/master/Post%20Exploitation/Windows%20Exploitation%2C%20post%20exploitation%20sites%20for%20reference | None | Just another guy whom loves to play 0 and 1 . | India | None | 0 | 0 | 0 | 0 | 0 | Python,Shell,HTML,CSS | 49 | 16 | 1| 
 | baidu-security | openrasp-iast: IAST 灰盒扫描工具 | https://github.com/baidu-security/openrasp-iast | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java,Python,JavaScript,C++,HTML,Go,TSQL | 0 | 0 | 1| 
+| awake1t | HackReport: 渗透测试报告/资料文档/渗透经验文档/安全书籍 | https://github.com/awake1t/HackReport | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | avast | Radare2 插件，用于将 RetDec 反汇编工具集成进 Radare2 | https://github.com/avast/retdec-r2plugin | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Groovy,LLVM,Java,Scala,Python,Kotlin,JavaScript,C++,HTML,Go | 5500 | 657 | 1| 
 | autoguard | 汽车安全研究方向的 Paper 收集 | https://github.com/autoguard/awesome-vehicle-security-and-safety | http://autoguard-sec.com |  | china | autoguard | 11 | 0 | 0 | 0 | 0 | JavaScript | 24 | 7 | 1| 
 | astarasikov | 有研究员公开了一个 Fuzz macOS GPU 相关模块的 Fuzzer | https://github.com/astarasikov/macos-gpu-fuzzing-public | https://allsoftwaresucks.blogspot.com |  | Moscow, Russia | None | 63 | 0 | 0 | 0 | 0 | Objective-C,Java,C | 41 | 14 | 1| 
@@ -4245,6 +4246,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Monitoring Threat Actors Cobalt Strike C2 Infrastructure with Shodan | http://michaelkoczwara.medium.com/monitoring-threat-actors-c2-infrastructure-with-shodan-9be6f7aa1d41| 
 | 汽车渗透测试 101：利用仪表板模拟器的CAN 总线的实用指南 - 第一部分：设置介绍 | http://medium.com/@yogeshojha/car-hacking-101-practical-guide-to-exploiting-can-bus-using-instrument-cluster-simulator-part-i-cd88d3eb4a53| 
 | 利用静态扫描工具 Semgrep 检测 Flask 项目中的 XSS 漏洞 | http://michaelhidalgo.medium.com/on-flask-semgrep-and-secure-coding-26290fcdd960| 
 | Oracle BI XML XXE 漏洞分析 | http://testbnull.medium.com/linh-tinh-v%E1%BB%81-oracle-business-intelligence-part-1-5a050b48a193| 

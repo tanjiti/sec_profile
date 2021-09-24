@@ -28,7 +28,7 @@
 | LemonSec | lemon-sec | 应急响应之windows入侵排查篇【文末赠书】 | https://mp.weixin.qq.com/s?__biz=MzUyMTA0MjQ4NA==&mid=2247516099&idx=1&sn=b852a78e6f90a7455d9316e645565a2d | 1| 
 | Red0 | gh_74f47275d982 | RASP关键技术与相关产品调研 | https://mp.weixin.qq.com/s/juEPju1Qx7Wdt0akDz9BsA | 1| 
 | 赛博堡垒 | gh_099f3e462773 | VaultFuzzer: 针对Linux内核的状态导向模糊测试方案 | https://mp.weixin.qq.com/s/ZevJBJjANmBLPCG0RyC3eg | 1| 
-| 腾讯代码安全检查Xcheck | gh_177b81103e8d | Xcheck之PHP代码安全检查 | https://mp.weixin.qq.com/s?__biz=Mzg2ODQ3ODE1NA==&mid=2247483818&idx=1&sn=f55330a128035ba29cc8f1eca2c56230&chksm=ceaafc0ff9dd7519397f4dc0f710c3901ad7b76436dbc7accbfc1a543c702f49dabefa0d7ea5&token=654851123&lang=zh_CN#rd | 4| 
+| 腾讯代码安全检查Xcheck | gh_177b81103e8d | Xcheck之PHP代码安全检查 | https://mp.weixin.qq.com/s?__biz=Mzg2ODQ3ODE1NA==&mid=2247483818&idx=1&sn=f55330a128035ba29cc8f1eca2c56230&chksm=ceaafc0ff9dd7519397f4dc0f710c3901ad7b76436dbc7accbfc1a543c702f49dabefa0d7ea5&token=654851123&lang=zh_CN#rd | 5| 
 | 亿人安全 | Yr-Sec | 内网渗透测试：DCSync 攻击技术的利用 | https://mp.weixin.qq.com/s?__biz=Mzk0MTIzNTgzMQ==&mid=2247485912&idx=1&sn=2cbaf2d8eca710edb5e39a4031c1d9c6 | 1| 
 | 互联网后端架构 | fullstack888 | 如何高效迅速的进行CodeReview | https://mp.weixin.qq.com/s/nlDSYvR2SyKhtl4fOPt2Hg | 1| 
 | NGINX开源社区 | gh_0d2551f1bdb6 | NGINX速率限制原理及源码分析 | https://mp.weixin.qq.com/s/hj7DPoFevmRPdgMY9orilg | 1| 
@@ -209,7 +209,7 @@
 | 人民公安报 | rmgabs | 公安部网安局公布一批网络黑产案例 | https://mp.weixin.qq.com/s/uXupT3yeeOA9NWVjQORgDQ | 1| 
 | 启明星辰专家视野 | VenusExpertsVision | 自动化渗透测试系统技术路径分析 | https://mp.weixin.qq.com/s/gtXfPvT8Yatp3IMVdCID7Q | 1| 
 | FreeBuf | freebuf | 关于PDD员工发帖溯源联想到的相关技术与实现 | https://mp.weixin.qq.com/s/coRsNLMT_FAr6xSHwPgOUg | 5| 
-| 安全学术圈 | secquan | 使用自己的代码查找漏洞：检测功能相似但不一致的代码 | https://mp.weixin.qq.com/s/ELbtEhd1wedkEqhboPpLuQ | 43| 
+| 安全学术圈 | secquan | 使用自己的代码查找漏洞：检测功能相似但不一致的代码 | https://mp.weixin.qq.com/s/ELbtEhd1wedkEqhboPpLuQ | 44| 
 | 阿里云安全 | aliyunsec | 对 SolarWinds 事件更深的思考：如何防御供应链攻击 | https://mp.weixin.qq.com/s/GdER32Z7K86boHVc-Kic3g | 1| 
 | 360Quake空间测绘 | gh_0284fd4851e7 | 浅析开源蜜罐识别与全网测绘 | https://mp.weixin.qq.com/s/hq-z2HBGz3nehnCVg_H-RQ | 2| 
 | 深信服千里目安全实验室 | Further_eye | 【高级持续性威胁跟踪】红队视角看Sunburst后门中的TTPs | https://mp.weixin.qq.com/s/wtEbawfOd1g_T2ovp1SaGg | 3| 
@@ -307,6 +307,7 @@
 | blackorbird | SilverFish APT团队分析报告。 | https://github.com/blackorbird/APT_REPORT/blob/master/SunBurst/SilverFish_Solarwinds.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | bitterzzZZ | Java内存马学习成果分享和资料整理 | https://github.com/bitterzzZZ/MemoryShellLearn | https://github.com/bitterzzZZ?tab=followers | 一学习就不困了，真的zzZZ | None | None | 17 | 0 | 0 | 0 | 0 | Python,Jupyter,PHP,Java | 0 | 0 | 1| 
 | bg6cq | 一次挖矿入侵处理记录 | https://github.com/bg6cq/ITTS/blob/master/security/mine/README.md | http://bg6cq.github.io |  | None | USTC | 116 | 0 | 0 | 0 | 0 | Lua,C,PHP | 110 | 45 | 1| 
+| awake1t | HackReport: 渗透测试报告/资料文档/渗透经验文档/安全书籍 | https://github.com/awake1t/HackReport | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | astarasikov | 有研究员公开了一个 Fuzz macOS GPU 相关模块的 Fuzzer | https://github.com/astarasikov/macos-gpu-fuzzing-public | https://allsoftwaresucks.blogspot.com |  | Moscow, Russia | None | 63 | 0 | 0 | 0 | 0 | Objective-C,Java,C | 41 | 14 | 1| 
 | anantshri | 研究员 Anant Shrivastava 关于 Android Security 培训的资料 | https://github.com/anantshri/Android_Security | http://blog.anantshri.info | Project Leader for @AndroidTamer and @CodeVigilant | Bhopal India | InfoSec Professional | 194 | 0 | 0 | 0 | 0 | Python,Shell,PHP | 245 | 96 | 1| 
 | ahmedkhlief | APT-Hunter: 紫色团队用于Windows事件日志的威胁搜寻工具项目。 | https://github.com/ahmedkhlief/APT-Hunter | https://shells.systems | @ahmed_khlief : Security Analyst , Purple Teamer , APT Hunter | None | None | 11 | 0 | 0 | 0 | 0 | Python,PowerShell,C++ | 250 | 70 | 1| 
@@ -364,6 +365,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Monitoring Threat Actors Cobalt Strike C2 Infrastructure with Shodan | http://michaelkoczwara.medium.com/monitoring-threat-actors-c2-infrastructure-with-shodan-9be6f7aa1d41| 
 | 汽车渗透测试 101：利用仪表板模拟器的CAN 总线的实用指南 - 第一部分：设置介绍 | http://medium.com/@yogeshojha/car-hacking-101-practical-guide-to-exploiting-can-bus-using-instrument-cluster-simulator-part-i-cd88d3eb4a53| 
 | 利用静态扫描工具 Semgrep 检测 Flask 项目中的 XSS 漏洞 | http://michaelhidalgo.medium.com/on-flask-semgrep-and-secure-coding-26290fcdd960| 
 | Oracle BI XML XXE 漏洞分析 | http://testbnull.medium.com/linh-tinh-v%E1%BB%81-oracle-business-intelligence-part-1-5a050b48a193| 
