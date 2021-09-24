@@ -14,12 +14,14 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 穿过丛林 | gh_f90eac70537b | 漏洞知识图谱构建技术研究 | https://mp.weixin.qq.com/s/Zfwxcs1oaCqwno6lcIOMLQ | 1| 
 | 潇湘信安 | xxxasec | 记一次对某客户端的安全测试 | https://mp.weixin.qq.com/s?__biz=Mzg4NTUwMzM1Ng==&mid=2247491581&idx=1&sn=7e3da5db03fa35ef31f9263aec76e4c8 | 1| 
 | 大余安全 | dayuST123 | HackTheBox-Linux-Networked | https://mp.weixin.qq.com/s?__biz=Mzg3MDMxMTg3OQ==&mid=2247496211&idx=1&sn=32c092659623507f81341b3962970efb | 2| 
 | Khan安全攻防实验室 | KhanCJSH | 红队笔记 - PowerShell AMSI Bypass | https://mp.weixin.qq.com/s?__biz=MzAwMjQ2NTQ4Mg==&mid=2247487634&idx=1&sn=0864b98aa9a9c19c58a216f12933ef31 | 1| 
 | E安全 | EAQapp | SideWinder组织针对巴基斯坦海军的攻击活动 | https://mp.weixin.qq.com/s?__biz=MzI4MjA1MzkyNA==&mid=2655319160&idx=2&sn=0a6b5cd3ef6fadba69175ff5bf904484 | 2| 
 | Bypass | Bypass-- | 获取Windows明文密码的小技巧 | https://mp.weixin.qq.com/s?__biz=MzA3NzE2MjgwMg==&mid=2448907386&idx=1&sn=1bfb4f51eb056ea01afaf80813a55fb9 | 1| 
 | 渗透攻击红队 | RedTeamHacker | 域森林下的内网信息搜集大全 | https://mp.weixin.qq.com/s?__biz=MzkxNDEwMDA4Mw==&mid=2247488376&idx=1&sn=f662e63f26c4fec6605140b93c7b23c9 | 1| 
+| 数世咨询 | dwconcn | 欺骗防御新方法：rMTD | https://mp.weixin.qq.com/s?__biz=MzkxNzA3MTgyNg==&mid=2247490570&idx=1&sn=62a2dd2d96a506b240b8dd6756eb78de | 2| 
 | 嘶吼专业版 | Pro4hou | Azure OMIGOD漏洞在野利用 | https://mp.weixin.qq.com/s?__biz=MzI0MDY1MDU4MQ==&mid=2247529264&idx=2&sn=4572bceb2ebf7260cb61ebc76d81bbb3 | 3| 
 | 云计算和网络安全技术实践 | gh_34d6b0cb5633 | TrueNAS的安装和配置 | https://mp.weixin.qq.com/s?__biz=MzA3MjM5MDc2Nw==&mid=2650746564&idx=1&sn=332fb4fcd66c0e1cca34c673570ef1f1 | 1| 
 | LSCteam | gh_d97c073d1479 | 从sql注入到任意文件上传 | https://mp.weixin.qq.com/s?__biz=MzUyMjAyODU1NA==&mid=2247488218&idx=1&sn=df1a3fc342897602806e862d2c075146 | 1| 
@@ -31,12 +33,11 @@
 | LemonSec | lemon-sec | 应急响应之windows入侵排查篇【文末赠书】 | https://mp.weixin.qq.com/s?__biz=MzUyMTA0MjQ4NA==&mid=2247516099&idx=1&sn=b852a78e6f90a7455d9316e645565a2d | 1| 
 | 雁行安全团队 | YX_Security | Dubbo 源码分析 | https://mp.weixin.qq.com/s/o1QSOkTTFHft0EWpUh0pDg | 1| 
 | 腾讯安全应急响应中心 | tsrc_team | Web应用组件自动化发现的探索 | https://mp.weixin.qq.com/s/6xFYQ3D45VpTT3n_qgRing | 1| 
-| 绿盟科技研究通讯 | nsfocus_research | 【APT行为数据分析】终端溯源数据中的依赖爆炸问题 | https://mp.weixin.qq.com/s/xp9558ezOZELHSJUS5ar3Q | 2| 
 | Red0 | gh_74f47275d982 | RASP关键技术与相关产品调研 | https://mp.weixin.qq.com/s/juEPju1Qx7Wdt0akDz9BsA | 1| 
 | 赛博堡垒 | gh_099f3e462773 | VaultFuzzer: 针对Linux内核的状态导向模糊测试方案 | https://mp.weixin.qq.com/s/ZevJBJjANmBLPCG0RyC3eg | 1| 
 | 腾讯代码安全检查Xcheck | gh_177b81103e8d | Xcheck之PHP代码安全检查 | https://mp.weixin.qq.com/s?__biz=Mzg2ODQ3ODE1NA==&mid=2247483818&idx=1&sn=f55330a128035ba29cc8f1eca2c56230&chksm=ceaafc0ff9dd7519397f4dc0f710c3901ad7b76436dbc7accbfc1a543c702f49dabefa0d7ea5&token=654851123&lang=zh_CN#rd | 4| 
 | 网络安全应急技术国家工程实验室 | NELCERT | 谈谈网络空间“行为测绘” | https://mp.weixin.qq.com/s/THEdOpSu_bSPWo66sRDyPA | 1| 
-| 数世咨询 | dwconcn | 网络空间资产安全管理实践与创新 | https://mp.weixin.qq.com/s/3NWI-_qJZfTuqvFl3d2SAQ | 2| 
+| 绿盟科技研究通讯 | nsfocus_research | 攻击推理-安全知识图谱应用的困境思考 | https://mp.weixin.qq.com/s/DOfrD7SGpoXP--zZPzf5bg | 3| 
 | 亿人安全 | Yr-Sec | 内网渗透测试：DCSync 攻击技术的利用 | https://mp.weixin.qq.com/s?__biz=Mzk0MTIzNTgzMQ==&mid=2247485912&idx=1&sn=2cbaf2d8eca710edb5e39a4031c1d9c6 | 1| 
 | 互联网后端架构 | fullstack888 | 如何高效迅速的进行CodeReview | https://mp.weixin.qq.com/s/nlDSYvR2SyKhtl4fOPt2Hg | 1| 
 | NGINX开源社区 | gh_0d2551f1bdb6 | NGINX速率限制原理及源码分析 | https://mp.weixin.qq.com/s/hj7DPoFevmRPdgMY9orilg | 1| 
@@ -79,6 +80,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 汽车渗透测试 101：利用仪表板模拟器的CAN 总线的实用指南 - 第一部分：设置介绍 | http://medium.com/@yogeshojha/car-hacking-101-practical-guide-to-exploiting-can-bus-using-instrument-cluster-simulator-part-i-cd88d3eb4a53| 
 | 利用静态扫描工具 Semgrep 检测 Flask 项目中的 XSS 漏洞 | http://michaelhidalgo.medium.com/on-flask-semgrep-and-secure-coding-26290fcdd960| 
 | Oracle BI XML XXE 漏洞分析 | http://testbnull.medium.com/linh-tinh-v%E1%BB%81-oracle-business-intelligence-part-1-5a050b48a193| 
 | Facebook 邮件泄露及账号接管漏洞分析 | http://rikeshbaniyaaa.medium.com/facebook-email-disclosure-and-account-takeover-ecdb44ee12e9| 
