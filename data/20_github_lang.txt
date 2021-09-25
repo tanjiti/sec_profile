@@ -1,11 +1,11 @@
-Python	1089
+Python	1090
 C	678
 JavaScript	675
 C++	548
 HTML	491
 Shell	472
 Java	467
-Go	395
+Go	396
 C#	272
 Ruby	266
 PHP	240
@@ -50,8 +50,8 @@ Objective-C++	11
 MATLAB	11
 Pascal	11
 Bro	11
+Logos	10
 R	10
-Logos	9
 PLpgSQL	9
 Arduino	9
 F#	9

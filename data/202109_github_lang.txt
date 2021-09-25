@@ -1,13 +1,14 @@
-Python	8
+Python	9
 HTML	5
+Go	3
 Dockerfile	3
 C	2
 Java	2
-Go	2
 SCSS	1
 YARA	1
 Shell	1
 Vue	1
+Logos	1
 JavaScript	1
 C++	1
 CSS	1

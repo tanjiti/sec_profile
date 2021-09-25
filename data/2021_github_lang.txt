@@ -1,7 +1,7 @@
-Python	51
+Python	52
 C	29
 Java	25
-Go	21
+Go	22
 JavaScript	20
 Shell	18
 HTML	18
@@ -34,6 +34,7 @@ Verilog	1
 Rich	1
 Dart	1
 Elixir	1
+Logos	1
 Smali	1
 CMake	1
 Less	1
