@@ -17,16 +17,19 @@
 | 黑白之道 | i77169 | 反弹shell的N种姿势 | https://mp.weixin.qq.com/s?__biz=MzAxMjE3ODU3MQ==&mid=2650523397&idx=2&sn=513d86e5349504d198d3536a4109073d | 3| 
 | 系统安全运维 | Taurus-1314147 | Linux应急响应实战 | https://mp.weixin.qq.com/s?__biz=Mzk0NjE0NDc5OQ==&mid=2247492082&idx=1&sn=4bdc99a1c1e0d14ff1dfa37ec283be47 | 5| 
 | 祺印说信安 | qiyinshuoxinan | 千万不要点击！当心隐藏在微软Office文档中的恶意代码 | https://mp.weixin.qq.com/s?__biz=MzA5MzU5MzQzMA==&mid=2652090003&idx=4&sn=ca45446f0c6a443657c9b96bf901f9ca | 1| 
+| 盾山实验室 | DunShanRR | 使用Ligolo-ng建立隐蔽的通信信道 | https://mp.weixin.qq.com/s?__biz=MzkzMjIwMDY4Nw==&mid=2247485554&idx=1&sn=bc315374f527af6314d90b53be24c927 | 1| 
 | 楼兰学习网络安全 | LLSecurity | Java Map类型CodeQL相关类的关联 | https://mp.weixin.qq.com/s?__biz=Mzg4ODU4ODYzOQ==&mid=2247484952&idx=1&sn=64323ba7bf4d76c58689bc73b6e3de1b | 1| 
+| 安全行者老霍 | gh_c2b78e839fd7 | 欧盟网络安全局供应链攻击威胁全景图（下） | https://mp.weixin.qq.com/s/LI_aErTZNl8zcOuextiSuw | 3| 
+| 天融信阿尔法实验室 | gh_0b0b1747bf15 | 实例分析 DiscuzX 3.4 SSRF漏洞 | https://mp.weixin.qq.com/s?__biz=Mzg3MDAzMDQxNw==&mid=2247490512&idx=1&sn=71eefa357677fc9448ee23a0aae5ad91 | 1| 
+| 大余安全 | dayuST123 | HackTheBox-Linux-Zetta | https://mp.weixin.qq.com/s?__biz=Mzg3MDMxMTg3OQ==&mid=2247496437&idx=1&sn=0ce9ae42e9a265e40dde5e0910966eb5 | 2| 
 | Khan安全攻防实验室 | KhanCJSH | 红队笔记 - PowerView进行AD列举 | https://mp.weixin.qq.com/s?__biz=MzAwMjQ2NTQ4Mg==&mid=2247487665&idx=1&sn=8ace697c7a950abdbb4047a61653e35a | 2| 
+| HACK学习呀 | Hacker1961X | 免杀｜利用RGB隐写隐藏Shellcode | https://mp.weixin.qq.com/s?__biz=MzI5MDU1NDk2MA==&mid=2247500137&idx=1&sn=327c5b07e19780c6d30585817b5afb69 | 1| 
 | 黑战士 | heizhanshi1 | 模拟网站攻击到提权的全部过程 | https://mp.weixin.qq.com/s?__biz=MzUxMzQ2NTM2Nw==&mid=2247487268&idx=1&sn=f9a2b4a58a076fcb0986f874f5db315b | 1| 
 | 边界骇客 | no__root | 记一次CC应急 | https://mp.weixin.qq.com/s?__biz=MzU1NTkzMTYxOQ==&mid=2247484992&idx=1&sn=b157ca332fd21320e4e0a88f7de31c52 | 1| 
 | 维他命安全 | VitaminSecurity | Apple修复iOS和macOS中已被利用的RCE；SonicWall修复SMA 100系列中的任意文件删除漏洞 | https://mp.weixin.qq.com/s?__biz=MzUxMDQzNTMyNg==&mid=2247496703&idx=1&sn=2b7dac49097267736ff7279b6f7cad18 | 4| 
 | 渗透Xiao白帽 | SuPejkj | 【漏洞速递+检测脚本 , CVE-2021-22005】VMware vCenter Server未授权任意文件上传漏洞 | https://mp.weixin.qq.com/s?__biz=MzI1NTM4ODIxMw==&mid=2247489920&idx=1&sn=59d92601db758e9d538d5fa444ab8a6b | 1| 
 | 无害实验室sec | WUHAISEC | windows权限维持大结局 | https://mp.weixin.qq.com/s?__biz=MzkwMTE4NDM5NA==&mid=2247485088&idx=1&sn=dfba7e09fd93615d090a254ca9bfa604 | 1| 
 | 安恒信息应急响应中心 | gh_1c2b41c1abc7 | Exchange Autodiscover凭据泄露风险提示 | https://mp.weixin.qq.com/s?__biz=MzUzOTE2OTM5Mg==&mid=2247486480&idx=1&sn=93b76db549074141514242f039450497 | 1| 
-| 安全行者老霍 | gh_c2b78e839fd7 | 软件成分分析工具评估开放指南 | https://mp.weixin.qq.com/s/_OwlypeLFlZOsPMDsBVtFQ | 2| 
-| 大余安全 | dayuST123 | HackTheBox-Linux-Scavenger | https://mp.weixin.qq.com/s?__biz=Mzg3MDMxMTg3OQ==&mid=2247496385&idx=1&sn=47639f5c94b05fb470e103177079c54d | 1| 
 | 哈拉少安全小队 | gh_b273ce95df95 | 【反序列化漏洞】session反序列化漏洞进阶 | https://mp.weixin.qq.com/s?__biz=MzAxNzkyOTgxMw==&mid=2247487393&idx=1&sn=0d90f28140a732df2437be462f4d21bc | 1| 
 | thelostworld | gh_3f2e5b9f028c | 【Java开发记录】程序打成jar相关静态资源加载情况(五) | https://mp.weixin.qq.com/s?__biz=MzIyNjk0ODYxMA==&mid=2247486190&idx=1&sn=159a443ada602395c040ffbbf662ae60 | 1| 
 | pen4uin | gh_ffc9f5385230 | 基于PHP环境的Net-NTLM Hash获取姿势探索 | https://mp.weixin.qq.com/s?__biz=MzU0MDg5MzIzMQ==&mid=2247485844&idx=1&sn=a42e007feea852ba75d32909ac9a9b49 | 1| 
@@ -123,7 +126,7 @@
 | 安全狗 | safedog2013 | 云原生安全攻防技术浅析 | https://mp.weixin.qq.com/s/loYIGK59RdFbpqhTkmu03w | 1| 
 | Nebula Graph Community | NebulaGraph | 百亿级图数据在快手安全情报的应用与挑战 | https://mp.weixin.qq.com/s/lz2XPXGpIlP3YZIO6Xv4Ew | 1| 
 | AX科技圈 | axkjq2006 | 安信证券容器云平台落地实践 | https://mp.weixin.qq.com/s/cbCd_hXpHlJ_8DnoiHWi0g | 1| 
-| 嘶吼专业版 | Pro4hou | 2021第一季度APT攻击趋势分析（上） | https://mp.weixin.qq.com/s/383OkdZ4z4rFUfjLf3Ymhw | 7| 
+| 嘶吼专业版 | Pro4hou | 2021第一季度APT攻击趋势分析（上） | https://mp.weixin.qq.com/s/383OkdZ4z4rFUfjLf3Ymhw | 8| 
 | Tide安全团队 | TideSec | 内网软件密码离线解密 | https://mp.weixin.qq.com/s/l6rSLBrluAkRrB0rYPcdLg | 1| 
 | 大超的记事本 | Dachao_Dachao | 数据安全怎么做——数据跨境的思考 | https://mp.weixin.qq.com/s/tPKbHyMU54iARe4ojD7czg | 1| 
 | 上交所技术服务 | SSE-TechService | 【交易技术前沿】魔高一尺，道高一丈，上交所VPN攻防札记 | https://mp.weixin.qq.com/s/uygNjOZmBwGcMdvILN-psw | 1| 
@@ -225,7 +228,7 @@
 | 人民公安报 | rmgabs | 公安部网安局公布一批网络黑产案例 | https://mp.weixin.qq.com/s/uXupT3yeeOA9NWVjQORgDQ | 1| 
 | 启明星辰专家视野 | VenusExpertsVision | 自动化渗透测试系统技术路径分析 | https://mp.weixin.qq.com/s/gtXfPvT8Yatp3IMVdCID7Q | 1| 
 | FreeBuf | freebuf | 关于PDD员工发帖溯源联想到的相关技术与实现 | https://mp.weixin.qq.com/s/coRsNLMT_FAr6xSHwPgOUg | 6| 
-| 安全学术圈 | secquan | 使用自己的代码查找漏洞：检测功能相似但不一致的代码 | https://mp.weixin.qq.com/s/ELbtEhd1wedkEqhboPpLuQ | 45| 
+| 安全学术圈 | secquan | 使用自己的代码查找漏洞：检测功能相似但不一致的代码 | https://mp.weixin.qq.com/s/ELbtEhd1wedkEqhboPpLuQ | 47| 
 | 阿里云安全 | aliyunsec | 对 SolarWinds 事件更深的思考：如何防御供应链攻击 | https://mp.weixin.qq.com/s/GdER32Z7K86boHVc-Kic3g | 1| 
 | 360Quake空间测绘 | gh_0284fd4851e7 | 浅析开源蜜罐识别与全网测绘 | https://mp.weixin.qq.com/s/hq-z2HBGz3nehnCVg_H-RQ | 2| 
 | 深信服千里目安全实验室 | Further_eye | 【高级持续性威胁跟踪】红队视角看Sunburst后门中的TTPs | https://mp.weixin.qq.com/s/wtEbawfOd1g_T2ovp1SaGg | 3| 
