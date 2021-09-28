@@ -43,7 +43,7 @@ def update_github():
 
 
 if __name__ == "__main__":
-    """iiiiiii  
+    """ 
     """
     proxy = {
         "socks:": "socks://127.0.0.1:8420",
