@@ -1,8 +1,8 @@
-Python	52
-C	29
+Python	53
+C	30
 Java	25
 Go	22
-JavaScript	20
+JavaScript	21
 Shell	18
 HTML	18
 C++	18
@@ -32,6 +32,7 @@ BitBake	1
 Zeek	1
 Verilog	1
 Rich	1
+Vala	1
 Dart	1
 Elixir	1
 Logos	1

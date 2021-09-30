@@ -1,6 +1,6 @@
-Python	1090
-C	678
-JavaScript	675
+Python	1091
+C	679
+JavaScript	676
 C++	548
 HTML	491
 Shell	472
@@ -73,6 +73,7 @@ Tcl	5
 Common	5
 WebAssembly	4
 VHDL	4
+Vala	4
 OpenEdge	4
 Cuda	4
 QML	4
@@ -84,7 +85,6 @@ Jsonnet	3
 VBScript	3
 SQLPL	3
 SCSS	3
-Vala	3
 PostScript	3
 SystemVerilog	3
 AGS	2
