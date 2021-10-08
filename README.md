@@ -14,24 +14,40 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
-| 维他命安全 | VitaminSecurity | Facebook路由配置错误导致全球范围内服务中断；研究人员演示如何用以太网网线从气隙系统窃取数据 | https://mp.weixin.qq.com/s?__biz=MzUxMDQzNTMyNg==&mid=2247496849&idx=1&sn=1e4b146429fd30ec84e1ee442f709a40 | 2| 
-| 系统安全运维 | Taurus-1314147 | 通过一道CTF学习HTTP协议请求走私 | https://mp.weixin.qq.com/s?__biz=Mzk0NjE0NDc5OQ==&mid=2247492456&idx=1&sn=f52b2537ade82771fcd5beabcfccc20d | 1| 
+| 祺印说信安 | qiyinshuoxinan | 网络安全的 10 个步骤之身份鉴别和访问控制 | https://mp.weixin.qq.com/s?__biz=MzA5MzU5MzQzMA==&mid=2652090229&idx=1&sn=c9095ef68231b9264ff9a62fed425357 | 1| 
+| 慢雾科技 | SlowMist | 天价手续费分析：我不是真土豪 | https://mp.weixin.qq.com/s?__biz=MzU4ODQ3NTM2OA==&mid=2247492157&idx=1&sn=791e7d52dbb9704ceb22e809be388454&chksm=fdde9cbacaa915ac5ef8f3041c9fdcffb926aa7e3c0025a141fa8d20f1c5adde55f07e8d44ec&token=1743499466&lang=zh_CN#rd | 1| 
+| 大余安全 | dayuST123 | HackTheBox-Linux-ForwardSlash | https://mp.weixin.qq.com/s?__biz=Mzg3MDMxMTg3OQ==&mid=2247497004&idx=1&sn=c74861974dc0ee0134259bf005404af6 | 8| 
+| LemonSec | lemon-sec | 最全Linux应急响应技巧 | https://mp.weixin.qq.com/s?__biz=MzUyMTA0MjQ4NA==&mid=2247516791&idx=3&sn=c0ae5228de43a4878dbeee55ce9d5c60 | 5| 
+| 维他命安全 | VitaminSecurity | 英国每日电讯报ES配置错误泄露10TB数据；研发团队修复Apache中路径遍历漏洞（CVE-2021-41773） | https://mp.weixin.qq.com/s?__biz=MzUxMDQzNTMyNg==&mid=2247496855&idx=1&sn=c41fc6003a25191dd1fedd867891ff75 | 4| 
+| 白帽子社区 | baimaoshequ | 记一次MySQL注入绕过 | https://mp.weixin.qq.com/s?__biz=MzUyMTAyODYwNg==&mid=2247493579&idx=1&sn=a3987b31906f2e3114d8e4e70444ff16 | 1| 
+| 猪猪谈安全 | zzt-anquan | 干货 , 内网信息收集总结（下） | https://mp.weixin.qq.com/s?__biz=MzIyMDAwMjkzNg==&mid=2247495944&idx=1&sn=f1fa588a5f72ec2c3f4cd97fbf3a8fe9 | 1| 
+| 渗透攻击红队 | RedTeamHacker | 使用 BloodHound 分析大型域内环境 | https://mp.weixin.qq.com/s?__biz=MzkxNDEwMDA4Mw==&mid=2247488685&idx=1&sn=fffb08215f6e8a3505ab317d6b3be4d5 | 1| 
+| 渗透Xiao白帽 | SuPejkj | 【干货】Fiddler对安卓模拟器里的APP抓包（超详细，各种抓包工具总结） | https://mp.weixin.qq.com/s?__biz=MzI1NTM4ODIxMw==&mid=2247490004&idx=1&sn=96c2e2ad02d9f91dd80936968f38eeab | 4| 
+| 嘶吼专业版 | Pro4hou | 利用 LLVM 攻击 VMProtect 代码混淆（下） | https://mp.weixin.qq.com/s?__biz=MzI0MDY1MDU4MQ==&mid=2247529900&idx=2&sn=1b00eb4bb3bb1f54370100e315b7f25d | 6| 
+| 哈拉少安全小队 | gh_b273ce95df95 | 突破SESSION 0 隔离的远线程注入 | https://mp.weixin.qq.com/s?__biz=MzAxNzkyOTgxMw==&mid=2247487432&idx=1&sn=2afee27bab0c3642a699c548fa608c5e | 1| 
+| 亿人安全 | Yr-Sec | 安卓逆向系列篇：安卓工具总结 | https://mp.weixin.qq.com/s?__biz=Mzk0MTIzNTgzMQ==&mid=2247486838&idx=1&sn=ba9d163c36aa3a9211ef6e1ff0106346 | 1| 
+| 云剑侠心 | yunjianxx | vulnhub-Linux-Lampiao | https://mp.weixin.qq.com/s?__biz=MzkzMzEwNzIzNQ==&mid=2247494229&idx=1&sn=ae01ee917aa9b3db0fa60a339bdf3cde | 2| 
+| 且听安全 | qtcyber | 【最新漏洞预警】CVE-2021-41773-Apache HTTP Server 路径穿越漏洞快速分析与复现 | https://mp.weixin.qq.com/s/XEnjVwb9I0GPG9RG-v7lHQ | 1| 
+| LSCteam | gh_d97c073d1479 | 伪造跨站请求 | https://mp.weixin.qq.com/s?__biz=MzUyMjAyODU1NA==&mid=2247488574&idx=1&sn=6a035673ea88fdd87b9c9548d651df43 | 3| 
+| IRT工业安全红队 | ICSRedTeam | Honeywell PKS系统被发现存在任意代码执行和DoS攻击漏洞行和DoS攻击漏洞 | https://mp.weixin.qq.com/s?__biz=MzAwNDI0MDYwMw==&mid=2247484779&idx=1&sn=253f20d12ed2f9708fd055f2144d78b9 | 1| 
+| Hacking黑白红 | Hacking012 | 【内网渗透系列】,12-内网穿透之多层代理 | https://mp.weixin.qq.com/s?__biz=Mzg2NDYwMDA1NA==&mid=2247500037&idx=2&sn=e5df37bd60807789504bdf9504bd7228 | 2| 
+| HACK学习呀 | Hacker1961X | 渗透技巧 , 关于csv文件在渗透中的妙用 | https://mp.weixin.qq.com/s?__biz=MzI5MDU1NDk2MA==&mid=2247500548&idx=1&sn=0d7da61cc6f4bdf10d152cde5edb295a | 6| 
+| 进德修业行道 | gh_ad128618f5e9 | 内网穿透之reGeorge | https://mp.weixin.qq.com/s?__biz=Mzg5NTU2NjA1Mw==&mid=2247485850&idx=1&sn=cbd98536bc1a0da8faa643b1eb2e3b87 | 1| 
+| 系统安全运维 | Taurus-1314147 | 通过一道CTF学习HTTP协议请求走私 | https://mp.weixin.qq.com/s?__biz=Mzk0NjE0NDc5OQ==&mid=2247492456&idx=1&sn=f52b2537ade82771fcd5beabcfccc20d | 3| 
 | 河南等级保护测评 | hndjbh | 设备安全指南：平台指南-Windows OS | https://mp.weixin.qq.com/s?__biz=Mzg2NjY2MTI3Mg==&mid=2247484067&idx=1&sn=25a7cd3e2e6846727b3d3b1d1fd63fa2 | 1| 
+| 数缘信安社区 | gh_91e7eb722058 | 用故障注入和二进制分析对BootLoader实施攻击 | https://mp.weixin.qq.com/s/okV-i5un6ewvbW70K7n8eQ | 1| 
+| 掌控安全EDU | ZKAQEDU | 文库｜CTF密码学-加解密总结 | https://mp.weixin.qq.com/s?__biz=MzUyODkwNDIyMg==&mid=2247517916&idx=1&sn=e7ce8d938044bcd968760d5b0bf3a55e | 1| 
+| 安全学术圈 | secquan | PATCHSCOUT：一种新的定位安全补丁的方法 | https://mp.weixin.qq.com/s/EMGIqVwkNm9CBNS8lYtNbQ | 3| 
+| 天億网络安全 | tywlaq | 实战｜内网穿透之多层代理 | https://mp.weixin.qq.com/s?__biz=MzU4ODU1MzAyNg==&mid=2247497089&idx=1&sn=aac08b7ca24183c0adbaf3d41802958e | 1| 
 | Top security | Top_security | Cobalt Strike4.0学习 | https://mp.weixin.qq.com/s?__biz=Mzg3MDU0NjQyMg==&mid=2247486923&idx=1&sn=25799dce98c0d186eb90e03f9b76ee09 | 2| 
-| LemonSec | lemon-sec | PHP项目安全：使用PHP的访问限制 | https://mp.weixin.qq.com/s?__biz=MzUyMTA0MjQ4NA==&mid=2247516711&idx=1&sn=091bf05174d6fae1f6be7a4d56e77f9d | 4| 
+| Khan安全攻防实验室 | KhanCJSH | 红队笔记 - 域渗透攻击 | https://mp.weixin.qq.com/s?__biz=MzAwMjQ2NTQ4Mg==&mid=2247487724&idx=1&sn=2a49609025252db824e27aa3ca8ded4e | 1| 
 | 鸿鹄实验室 | gh_a2210090ba3f | 利用DPAPI加密shellcode | https://mp.weixin.qq.com/s?__biz=MzU0MjUxNjgyOQ==&mid=2247488732&idx=1&sn=a5c3987ee627b25a15431d54d6a2307b | 1| 
-| 渗透Xiao白帽 | SuPejkj | 【干货 , 内网渗透】Kerberos委派以及使用C#写代码进行检测 | https://mp.weixin.qq.com/s?__biz=MzI1NTM4ODIxMw==&mid=2247489989&idx=1&sn=84cfa976aa40fd94e5605548b9ed1fda | 3| 
+| 网络安全等保测评 | rxDJCP | 安全通信网络-（二）通信传输 | https://mp.weixin.qq.com/s?__biz=MzI3MDY0Nzg1Nw==&mid=2247485547&idx=2&sn=36ba72a25ff3452947ead540b69ff4ad | 1| 
 | 安全行者老霍 | gh_c2b78e839fd7 | 自动化入侵和攻击模拟（BAS）： 降低成本和风险的革命已经来临 | https://mp.weixin.qq.com/s/UQcRr5kiKXf_iZ-_CKn_1Q | 1| 
-| 安全学术圈 | secquan | 基于频域分析的实时恶意流量检测 | https://mp.weixin.qq.com/s/nAiN-17OYh7begqcUYGJyQ | 1| 
-| 大余安全 | dayuST123 | HackTheBox-Linux-OpenAdmin | https://mp.weixin.qq.com/s?__biz=Mzg3MDMxMTg3OQ==&mid=2247496850&idx=1&sn=6ba178793b5b25ca8610983fd4a6c6ea | 5| 
 | 乌雲安全 | hackctf | 干货,常用的邮件钓鱼伪装方法 | https://mp.weixin.qq.com/s?__biz=MzAwMjA5OTY5Ng==&mid=2247499083&idx=1&sn=7d140db5584ab7e157739184d9f6920e | 2| 
 | Ots安全 | AnQuan7 | 【WordPress 安全】PHP_SELFish 第 1 部分 – underConstruction 插件中的反射 XSS | https://mp.weixin.qq.com/s?__biz=MzAxMjYyMzkwOA==&mid=2247493135&idx=2&sn=c038de46279b78d55a5fa62351541dbf | 2| 
 | Linux中国 | linux-cn | 使用 trace-cmd 追踪内核 , Linux 中国 | https://mp.weixin.qq.com/s?__biz=MjM5NjQ4MjYwMQ==&mid=2664641816&idx=3&sn=85341a23b7e9f4d1fc2db40d666dfc6e | 1| 
-| LSCteam | gh_d97c073d1479 | 失效的身份认证和会话管理 | https://mp.weixin.qq.com/s?__biz=MzUyMjAyODU1NA==&mid=2247488573&idx=1&sn=3d325b75d09fc5873beafbea0a72f5f2 | 2| 
-| HACK学习呀 | Hacker1961X | 内网渗透｜Kerberos委派以及使用C#写代码进行检测 | https://mp.weixin.qq.com/s?__biz=MzI5MDU1NDk2MA==&mid=2247500417&idx=1&sn=4726d1b78d6d7f56e1af0a8d8ccaa9be | 4| 
 | FreeBuf | freebuf | 2021 Gartner安全运营成熟度曲线（Hype Cycle）解读 | https://mp.weixin.qq.com/s/RhTVIsGkIumUB-YfEAv6Jg | 10| 
-| 嘶吼专业版 | Pro4hou | PixStealer：新一波 Android 银行木马滥用辅助功能服务 | https://mp.weixin.qq.com/s?__biz=MzI0MDY1MDU4MQ==&mid=2247529823&idx=2&sn=2e7b69f9cae9221e0b5c3ec7fb82cf46 | 4| 
-| 云剑侠心 | yunjianxx | vlunhub-linux-FoxHole-v1.0.1 | https://mp.weixin.qq.com/s?__biz=MzkzMzEwNzIzNQ==&mid=2247494210&idx=1&sn=22b1e209f0f828b13f55c62150ee0674 | 1| 
 | IDLab | gh_e10c5d7ba216 | 干货｜CTF-sql注入总结（一） | https://mp.weixin.qq.com/s?__biz=MzU1MTkwMTY1NQ==&mid=2247489623&idx=1&sn=50903c76cf28aea9ffa49d2d0a276546 | 1| 
 | HACK之道 | hacklearn | 分享一款高逼格的Linux磁盘信息查看工具 | https://mp.weixin.qq.com/s?__biz=MzIwMzIyMjYzNA==&mid=2247495870&idx=2&sn=82080e827d2f76f77170ebf4f5d6149e | 2| 
 | Fight Tigers Team | gh_ff9c65ab66c3 | Windwos API-CreateMutex() | https://mp.weixin.qq.com/s?__biz=MzkxMTE1NjMyMA==&mid=2247484224&idx=1&sn=a87bf74b08cd3a8c070229534e1bbde8 | 1| 
@@ -43,7 +59,6 @@
 | 利刃信安 | LRXAEGZ | 【学习笔记】CTF 之 流量分析（02） | https://mp.weixin.qq.com/s?__biz=MzU1Mjk3MDY1OA==&mid=2247493266&idx=2&sn=653404f09f2d9b46affa8b4965db02e9 | 5| 
 | RCE TEAM | gh_3688f58729a9 | 文件上云 - 对象存储的攻击方式 | https://mp.weixin.qq.com/s/eZ8OAO5ELgUNvVricIStGA | 1| 
 | ChaMd5安全团队 | chamd5sec | Cisco RV110W UPnP 0day 分析 | https://mp.weixin.qq.com/s?__biz=MzIzMTc1MjExOQ==&mid=2247497081&idx=1&sn=8ac3dca8a10d4adf7fc37ea26ee14e75 | 1| 
-| 慢雾科技 | SlowMist | 天价手续费分析：我不是真土豪 | https://mp.weixin.qq.com/s?__biz=MzU4ODQ3NTM2OA==&mid=2247492157&idx=1&sn=791e7d52dbb9704ceb22e809be388454&chksm=fdde9cbacaa915ac5ef8f3041c9fdcffb926aa7e3c0025a141fa8d20f1c5adde55f07e8d44ec&token=1743499466&lang=zh_CN#rd | 1| 
 | 奇安信威胁情报中心 | gh_166784eae33e | 每周高级威胁情报解读(2021.09.23~09.30) | https://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247496977&idx=1&sn=2d135ec5995de8ae5fcaa91420e5ddc6 | 1| 
 | Gamma实验室 | HackerLearning | 红队技巧-内网下的凭据解密 | https://mp.weixin.qq.com/s?__biz=Mzg2NjQ2NzU3Ng==&mid=2247488867&idx=1&sn=4376a5c36cb7da633fbf54009fd69aee | 1| 
 
@@ -57,8 +72,9 @@
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | xforcered | 远程判断目标系统是否运行 Web Client service (WebDAV) 的工具 | https://github.com/xforcered/GetWebDAVStatus | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C#,Python,C,JavaScript | 0 | 0 | 1| 
-| guardicore | monkey: Infection Monkey - An automated pentest tool | https://github.com/guardicore/monkey | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| guardicore | monkey: Infection Monkey - An automated pentest tool | https://github.com/guardicore/monkey | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Go,C,Java,C# | 0 | 0 | 1| 
 | facebook | Mariana Trench - Facebook 开源的一款 Android 静态漏洞扫描工具 | https://github.com/facebook/mariana-trench/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,OCaml,C++,Objective-C,Jupyter,Ruby | 0 | 0 | 1| 
+| aemmitt-ns | radius - 基于 radare2 写的符号执行引擎 | https://github.com/aemmitt-ns/radius | https://github.com/aemmitt-ns?tab=followers | Mobile Security Researcher at NowSecure | None | @nowsecure | 16 | 0 | 0 | 0 | 0 | Python,C,JavaScript,Vala | 0 | 0 | 1| 
 | BC-SECURITY | Starkiller: Starkiller is a Frontend for PowerShell Empire | https://github.com/BC-SECURITY/Starkiller | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 
 
@@ -80,6 +96,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 沉浸式《程序分析》教材 | https://zhuanlan.zhihu.com/p/417187798| 
 
 
 # xz_xuanwu 推荐
