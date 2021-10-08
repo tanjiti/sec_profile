@@ -14,10 +14,17 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 黑云信息安全 | heiyunxinxi | Apache Solr SSRF (CVE-2021-27905)复现 | https://mp.weixin.qq.com/s?__biz=Mzg5OTYxMjk0Mw==&mid=2247484925&idx=2&sn=670adbf617bb2bb21f59ba59316570a0 | 1| 
+| 阿里云应急响应 | gh_12f3517e40de | 【漏洞通告】Apache HTTPd 2.4.49/2.4.50 路径穿越与命令执行漏洞（CVE-2021-42013） | https://mp.weixin.qq.com/s?__biz=MzI5MzY2MzM0Mw==&mid=2247486163&idx=1&sn=48fdba4276e4ba59657c2041ae4999eb | 1| 
+| 邑安全 | EansecD | CVE-2020-17148：Visual Studio代码远程开发扩展RCE漏洞 | https://mp.weixin.qq.com/s?__biz=MzUyMzczNzUyNQ==&mid=2247507970&idx=3&sn=3fd72d7a048c73f873aaefdd01b8ddc0 | 1| 
 | 祺印说信安 | qiyinshuoxinan | 网络安全的 10 个步骤之身份鉴别和访问控制 | https://mp.weixin.qq.com/s?__biz=MzA5MzU5MzQzMA==&mid=2652090229&idx=1&sn=c9095ef68231b9264ff9a62fed425357 | 1| 
+| 灼剑安全团队 | Tsojan | Python分布式工具开发(二)--指纹识别与POC验证 | https://mp.weixin.qq.com/s?__biz=Mzg5OTY1ODMxMg==&mid=2247488289&idx=1&sn=61f087f2674fde33e17c85bde6388810 | 1| 
 | 慢雾科技 | SlowMist | 天价手续费分析：我不是真土豪 | https://mp.weixin.qq.com/s?__biz=MzU4ODQ3NTM2OA==&mid=2247492157&idx=1&sn=791e7d52dbb9704ceb22e809be388454&chksm=fdde9cbacaa915ac5ef8f3041c9fdcffb926aa7e3c0025a141fa8d20f1c5adde55f07e8d44ec&token=1743499466&lang=zh_CN#rd | 1| 
+| 弥天安全实验室 | gh_41292c8e5379 | 实战｜记一次应急响应到溯源入侵者 | https://mp.weixin.qq.com/s?__biz=MzU2NDgzOTQzNw==&mid=2247487623&idx=1&sn=9f6a82738a6a710cadc2d552b2acb618 | 1| 
+| 安全族 | anquanzu666 | JAVA序列化与反序列化 | https://mp.weixin.qq.com/s?__biz=Mzg2NjU0MjA0Ng==&mid=2247485287&idx=1&sn=4474d4f40b82859421ec97841bf050a5 | 1| 
 | 大余安全 | dayuST123 | HackTheBox-Linux-ForwardSlash | https://mp.weixin.qq.com/s?__biz=Mzg3MDMxMTg3OQ==&mid=2247497004&idx=1&sn=c74861974dc0ee0134259bf005404af6 | 8| 
 | LemonSec | lemon-sec | 最全Linux应急响应技巧 | https://mp.weixin.qq.com/s?__biz=MzUyMTA0MjQ4NA==&mid=2247516791&idx=3&sn=c0ae5228de43a4878dbeee55ce9d5c60 | 5| 
+| HACK学习呀 | Hacker1961X | 干货 , DLL注入常用的几种方式 | https://mp.weixin.qq.com/s?__biz=MzI5MDU1NDk2MA==&mid=2247500596&idx=1&sn=aec77e5ee4347553cb395a616386ffa1 | 7| 
 | 维他命安全 | VitaminSecurity | 英国每日电讯报ES配置错误泄露10TB数据；研发团队修复Apache中路径遍历漏洞（CVE-2021-41773） | https://mp.weixin.qq.com/s?__biz=MzUxMDQzNTMyNg==&mid=2247496855&idx=1&sn=c41fc6003a25191dd1fedd867891ff75 | 4| 
 | 白帽子社区 | baimaoshequ | 记一次MySQL注入绕过 | https://mp.weixin.qq.com/s?__biz=MzUyMTAyODYwNg==&mid=2247493579&idx=1&sn=a3987b31906f2e3114d8e4e70444ff16 | 1| 
 | 猪猪谈安全 | zzt-anquan | 干货 , 内网信息收集总结（下） | https://mp.weixin.qq.com/s?__biz=MzIyMDAwMjkzNg==&mid=2247495944&idx=1&sn=f1fa588a5f72ec2c3f4cd97fbf3a8fe9 | 1| 
@@ -31,7 +38,6 @@
 | LSCteam | gh_d97c073d1479 | 伪造跨站请求 | https://mp.weixin.qq.com/s?__biz=MzUyMjAyODU1NA==&mid=2247488574&idx=1&sn=6a035673ea88fdd87b9c9548d651df43 | 3| 
 | IRT工业安全红队 | ICSRedTeam | Honeywell PKS系统被发现存在任意代码执行和DoS攻击漏洞行和DoS攻击漏洞 | https://mp.weixin.qq.com/s?__biz=MzAwNDI0MDYwMw==&mid=2247484779&idx=1&sn=253f20d12ed2f9708fd055f2144d78b9 | 1| 
 | Hacking黑白红 | Hacking012 | 【内网渗透系列】,12-内网穿透之多层代理 | https://mp.weixin.qq.com/s?__biz=Mzg2NDYwMDA1NA==&mid=2247500037&idx=2&sn=e5df37bd60807789504bdf9504bd7228 | 2| 
-| HACK学习呀 | Hacker1961X | 渗透技巧 , 关于csv文件在渗透中的妙用 | https://mp.weixin.qq.com/s?__biz=MzI5MDU1NDk2MA==&mid=2247500548&idx=1&sn=0d7da61cc6f4bdf10d152cde5edb295a | 6| 
 | 进德修业行道 | gh_ad128618f5e9 | 内网穿透之reGeorge | https://mp.weixin.qq.com/s?__biz=Mzg5NTU2NjA1Mw==&mid=2247485850&idx=1&sn=cbd98536bc1a0da8faa643b1eb2e3b87 | 1| 
 | 系统安全运维 | Taurus-1314147 | 通过一道CTF学习HTTP协议请求走私 | https://mp.weixin.qq.com/s?__biz=Mzk0NjE0NDc5OQ==&mid=2247492456&idx=1&sn=f52b2537ade82771fcd5beabcfccc20d | 3| 
 | 河南等级保护测评 | hndjbh | 设备安全指南：平台指南-Windows OS | https://mp.weixin.qq.com/s?__biz=Mzg2NjY2MTI3Mg==&mid=2247484067&idx=1&sn=25a7cd3e2e6846727b3d3b1d1fd63fa2 | 1| 
