@@ -1,16 +1,16 @@
-Python	1094
-C	682
+Python	1095
+C	683
 JavaScript	678
-C++	549
+C++	550
 HTML	491
 Shell	472
 Java	470
 Go	398
-C#	273
+C#	274
 Ruby	268
 PHP	240
 CSS	233
-PowerShell	230
+PowerShell	231
 TypeScript	152
 Objective-C	144
 Rust	118
@@ -26,7 +26,7 @@ Batchfile	52
 Scala	47
 Kotlin	43
 CMake	43
-Vue	38
+Vue	39
 Visual	34
 Vim	34
 HCL	32
@@ -98,6 +98,7 @@ Terra	2
 Boo	2
 Prolog	2
 Yacc	2
+VBA	2
 Mathematica	2
 Scheme	2
 Nim	2
@@ -129,7 +130,6 @@ SourcePawn	1
 ANTLR	1
 Lasso	1
 GLSL	1
-VBA	1
 SMT	1
 IDL	1
 Pure	1
