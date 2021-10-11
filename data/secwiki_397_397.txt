@@ -1,0 +1,24 @@
+20211004	法规	https://wap.miit.gov.cn/gzcy/yjzj/art/2021/art_dcb6cc8d9f5c414eabd7070871996525.html	工业和信息化领域数据安全管理办法（试行）（征求意见稿）	miit.gov.cn	wap.miit.gov.cn	/gzcy/yjzj/art/2021/art_dcb6cc8d9f5c414eabd7070871996525.html
+20211004	漏洞分析	https://mp.weixin.qq.com/s/XEnjVwb9I0GPG9RG-v7lHQ	CVE-2021-41773-Apache HTTP Server 路径穿越漏洞快速分析与复现	qq.com	mp.weixin.qq.com	/s/XEnjVwb9I0GPG9RG-v7lHQ
+20211004	Web安全	https://mp.weixin.qq.com/s/UQcRr5kiKXf_iZ-_CKn_1Q	自动化入侵和攻击模拟（BAS）： 降低成本和风险的革命已经来临	qq.com	mp.weixin.qq.com	/s/UQcRr5kiKXf_iZ-_CKn_1Q
+20211004	漏洞分析	https://zhuanlan.zhihu.com/p/417187798	沉浸式《程序分析》教材	zhihu.com	zhuanlan.zhihu.com	/p/417187798
+20211004	漏洞分析	https://twd2.me/archives/16101	Apple近几年软硬件协同防护技术总结	twd2.me	twd2.me	/archives/16101
+20211004	杂志	https://www.sec-wiki.com/weekly/396	SecWiki周刊（第396期)	sec-wiki.com	www.sec-wiki.com	/weekly/396
+20211004	观点	https://mp.weixin.qq.com/s/RhTVIsGkIumUB-YfEAv6Jg	2021 Gartner安全运营成熟度曲线（Hype Cycle）解读	qq.com	mp.weixin.qq.com	/s/RhTVIsGkIumUB-YfEAv6Jg
+20211004	漏洞分析	https://mp.weixin.qq.com/s/gMdorUjh5U_dJdGgRLPzNQ	浅谈云上攻防--SSRF漏洞带来的新威胁	qq.com	mp.weixin.qq.com	/s/gMdorUjh5U_dJdGgRLPzNQ
+20211004	杂志	http://phrack.org/issues/70/1.html#article	Phrack Magazine 70	phrack.org	phrack.org	/issues/70/1.html
+20211004	漏洞分析	https://pwn.college/	pwn.college!	pwn.college	pwn.college	/
+20211004	取证分析	https://mp.weixin.qq.com/s/zY1cCM7ysYzLpn0_5B7K1w	小侃威胁情报（一）	qq.com	mp.weixin.qq.com	/s/zY1cCM7ysYzLpn0_5B7K1w
+20211004	运维安全	https://mp.weixin.qq.com/s/okV-i5un6ewvbW70K7n8eQ	用故障注入和二进制分析对BootLoader实施攻击	qq.com	mp.weixin.qq.com	/s/okV-i5un6ewvbW70K7n8eQ
+20211004	恶意分析	https://mp.weixin.qq.com/s/nAiN-17OYh7begqcUYGJyQ	基于频域分析的实时恶意流量检测	qq.com	mp.weixin.qq.com	/s/nAiN-17OYh7begqcUYGJyQ
+20211004	漏洞分析	https://mp.weixin.qq.com/s/EMGIqVwkNm9CBNS8lYtNbQ	PATCHSCOUT：一种新的定位安全补丁的方法	qq.com	mp.weixin.qq.com	/s/EMGIqVwkNm9CBNS8lYtNbQ
+20211004	Web安全	https://mp.weixin.qq.com/s/qxTGZedX21izD60EH6-Q3A	Rust生态安全漏洞总结系列 | Part 1	qq.com	mp.weixin.qq.com	/s/qxTGZedX21izD60EH6-Q3A
+20211004	漏洞分析	https://mp.weixin.qq.com/s/VQ5JwOPHSJKyGRWcA4v2Dg	FreeRDP安全性思考	qq.com	mp.weixin.qq.com	/s/VQ5JwOPHSJKyGRWcA4v2Dg
+20211004	数据挖掘	https://zhuanlan.zhihu.com/p/419340068	图在异常流量识别中的应用和演进	zhihu.com	zhuanlan.zhihu.com	/p/419340068
+20211004	Web安全	https://github.com/BC-SECURITY/Starkiller	Starkiller: Starkiller is a Frontend for PowerShell Empire	github.com	github.com	/BC-SECURITY/Starkiller
+20211004	Web安全	https://github.com/guardicore/monkey	monkey: Infection Monkey - An automated pentest tool	github.com	github.com	/guardicore/monkey
+20211004	无线安全	https://www.freebuf.com/geek/290973.html	侠盗猎车 — 玩转固定码 (上)	freebuf.com	www.freebuf.com	/geek/290973.html
+20211004	漏洞分析	https://zhuanlan.zhihu.com/p/123373175	HFL：基于混合模糊测试的Linux内核漏洞挖掘	zhihu.com	zhuanlan.zhihu.com	/p/123373175
+20211004	Web安全	https://mp.weixin.qq.com/s/RsfEKl7FAGs2L9vXKC0rWQ	Rust生态安全漏洞总结系列 | Part 3	qq.com	mp.weixin.qq.com	/s/RsfEKl7FAGs2L9vXKC0rWQ
+20211004	设备安全	https://www.freebuf.com/geek/291083.html	ADAS自动驾驶欺骗	freebuf.com	www.freebuf.com	/geek/291083.html
+20211004	Web安全	https://mp.weixin.qq.com/s/y-APUMBid3J02UDUf-L5jw	Rust生态安全漏洞总结系列 | Part 2	qq.com	mp.weixin.qq.com	/s/y-APUMBid3J02UDUf-L5jw
