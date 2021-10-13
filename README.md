@@ -14,6 +14,14 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 祺印说信安 | qiyinshuoxinan | 使用以太网电缆创建无线信号从系统窃取数据 | https://mp.weixin.qq.com/s?__biz=MzA5MzU5MzQzMA==&mid=2652090349&idx=2&sn=a6d1dc86a0b276ea8d6aeb8c037baafa | 2| 
+| 盾山实验室 | DunShanRR | 使用QueenSono从ICMP提取数据 | https://mp.weixin.qq.com/s?__biz=MzkzMjIwMDY4Nw==&mid=2247485592&idx=1&sn=5625b49218b2a567e7aa0a79ecd11234 | 4| 
+| 天融信阿尔法实验室 | gh_0b0b1747bf15 | 天融信关于微软10月补丁日多个产品高危漏洞风险提示 | https://mp.weixin.qq.com/s?__biz=Mzg3MDAzMDQxNw==&mid=2247490528&idx=1&sn=a12ae28165348d5e47e7c32c049f408c | 1| 
+| 合天网安实验室 | hee_tian | 关于Awd的小结 | https://mp.weixin.qq.com/s?__biz=MjM5MTYxNjQxOA==&mid=2652881776&idx=1&sn=ecf725b36ef8d423ab5401cd6ba4fc4a | 4| 
+| 三六零CERT | CERT-360 | 2021-10 补丁日: 微软多个漏洞安全更新通告 | https://mp.weixin.qq.com/s?__biz=MzU5MjEzOTM3NA==&mid=2247490278&idx=1&sn=0c57add977386aad70e091322a89265a | 2| 
+| aFa攻防实验室 | gzh_afagfsys | jwt攻击 | https://mp.weixin.qq.com/s?__biz=MzAxMjcxMjkyOA==&mid=2247485556&idx=1&sn=61fe8c7bf99ee0ea696731bd5502fb5b | 1| 
+| Khan安全攻防实验室 | KhanCJSH | Fofa 查询脚本 | https://mp.weixin.qq.com/s?__biz=MzAwMjQ2NTQ4Mg==&mid=2247487770&idx=1&sn=c9d4d530f9f9477bfcf1cc299100800c | 2| 
+| HACK学习呀 | Hacker1961X | 实战 , 一次运气很好的文件上传绕过 | https://mp.weixin.qq.com/s?__biz=MzI5MDU1NDk2MA==&mid=2247500646&idx=1&sn=cdedfce1a6b2694c97350fb033a7ab75 | 7| 
 | 高效运维 | greatops | Filebeat、Logstash、Rsyslog 各种姿势采集Nginx日志 | https://mp.weixin.qq.com/s?__biz=MzA4Nzg5Nzc5OA==&mid=2651704583&idx=1&sn=ed2a71e8bbb4a0314d8329e135782d63 | 1| 
 | 锦行信息安全 | jeeseensec | 技术分享 , DLL注入之远线程注入 | https://mp.weixin.qq.com/s?__biz=MzIxNTQxMjQyNg==&mid=2247487987&idx=1&sn=e74bf13ceda0dd9267a5d2efad82d62c | 1| 
 | 邑安全 | EansecD | GhostEmperor：通过利用内核以及ProxyLogon系列漏洞发起攻击（上） | https://mp.weixin.qq.com/s?__biz=MzUyMzczNzUyNQ==&mid=2247508122&idx=3&sn=3ffc90acd82d4cee5fb086c3dd8cb205 | 5| 
@@ -31,18 +39,15 @@
 | 小道安全 | kdsafety | APP加固攻防梳理 | https://mp.weixin.qq.com/s?__biz=MzUxODkyODE0Mg==&mid=2247488481&idx=1&sn=86a5a35dff7438503bc5ea2ecc644364 | 1| 
 | 安全客 | anquanbobao | 【技术分享】连载《Chrome V8 原理讲解》第九篇 Builtin源码分析 | https://mp.weixin.qq.com/s?__biz=MzA5ODA0NDE2MA==&mid=2649753210&idx=2&sn=3ddefd11dbb4d5a086b63695d641c77a | 3| 
 | 娜璋AI安全之家 | gh_91f1fe28fc6e | [AI安全论文] 08.基于溯源图的APT攻击检测安全顶会论文总结 | https://mp.weixin.qq.com/s/NosFWfRl9Mmqi2_QXUJNpw | 1| 
-| 合天网安实验室 | hee_tian | kerberos协议从0到1 | https://mp.weixin.qq.com/s?__biz=MjM5MTYxNjQxOA==&mid=2652881770&idx=1&sn=349d9d5bf936a2f781c4146c9047ad72 | 3| 
 | 互联网安全内参 | anquanneican | 警惕！挖矿木马盯上华为云，利用“配置错误”发动攻击 | https://mp.weixin.qq.com/s?__biz=MzI4NDY2MDMwMw==&mid=2247499645&idx=1&sn=c33eb1ae0c8f1b59509e45e414436687 | 1| 
 | 云剑侠心 | yunjianxx | vulnhub-Linux-RAVEN: 2 | https://mp.weixin.qq.com/s?__biz=MzkzMzEwNzIzNQ==&mid=2247494262&idx=1&sn=06a66c51667c585d0c0dc0025e6ae359 | 3| 
 | LSCteam | gh_d97c073d1479 | 业务功能滥用 | https://mp.weixin.qq.com/s?__biz=MzUyMjAyODU1NA==&mid=2247488656&idx=1&sn=d0a32ce3f31d304c7fcb775165db67d8 | 4| 
 | 黑白之道 | i77169 | 获取域管理员权限的几种方式 | https://mp.weixin.qq.com/s?__biz=MzAxMjE3ODU3MQ==&mid=2650524336&idx=2&sn=90f3e5bcb28cbb830ec98d35d6cd3d27 | 1| 
 | 黑伞安全 | hack_umbrella | C2服务器隧道代理分析 | https://mp.weixin.qq.com/s?__biz=MzU0MzkzOTYzOQ==&mid=2247486266&idx=1&sn=cf661e6fcde911643ed7a6e232d3c2f2 | 1| 
 | 骨哥说事 | guge_guge | 寻找更多IDOR漏洞的几种方法 | https://mp.weixin.qq.com/s?__biz=MjM5Mzc4MzUzMQ==&mid=2650254839&idx=1&sn=341703cc61bad431f1b6570678147710 | 1| 
-| 盾山实验室 | DunShanRR | Karta：IDA源代码辅助插件 | https://mp.weixin.qq.com/s?__biz=MzkzMjIwMDY4Nw==&mid=2247485581&idx=1&sn=78099296cef7643bea4a2da4584dba0e | 3| 
 | 掌控安全EDU | ZKAQEDU | 文库｜APP渗透之Android 7.0 抓包 | https://mp.weixin.qq.com/s?__biz=MzUyODkwNDIyMg==&mid=2247518431&idx=1&sn=de7e524a5f8427e539b468c1f61e64cc | 2| 
 | 安全攻防团队 | gh_983c1037a3f6 | JAVA反序列化之C3P0不出网利用 | https://mp.weixin.qq.com/s/KBog9XXz7Of93hAiV8Y7fQ | 1| 
 | 奇安信威胁情报中心 | gh_166784eae33e | Kimsuky武器库更新：利用新冠疫情为诱饵针对韩国地区的攻击活动分析 | https://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247497037&idx=1&sn=a3a7e4783e8b82a6b98653cb7965ac90 | 1| 
-| 三六零CERT | CERT-360 | CVE-2021-42013: Apache HTTP Server 路径穿越漏洞通告 | https://mp.weixin.qq.com/s?__biz=MzU5MjEzOTM3NA==&mid=2247490270&idx=1&sn=c7f3deb6f70a845cf8344b8d934c0738 | 1| 
 | web安全工具库 | websec-tools | Metasploit6.0系列教程 -- 爆破WordPress网站 | https://mp.weixin.qq.com/s?__biz=MzI4MDQ5MjY1Mg==&mid=2247490690&idx=1&sn=bc809c8a6470d48d0246fefcda9b12e1 | 2| 
 | Tide安全团队 | TideSec | 【红蓝对抗】利用CS进行内网横向 | https://mp.weixin.qq.com/s/tAsPmsinh0Q3fBEFUuCX3Q | 2| 
 | Linux中国 | linux-cn | 在 Linux 上使用 jps 命令检查 Java 进程 , Linux 中国 | https://mp.weixin.qq.com/s?__biz=MjM5NjQ4MjYwMQ==&mid=2664642134&idx=4&sn=b6f5b32ab817ca26c658f1a81fb2ca99 | 3| 
@@ -73,13 +78,11 @@
 | 凌晨一点零三分 | gh_f2274e37fc2b | FreeRDP安全性思考 | https://mp.weixin.qq.com/s/VQ5JwOPHSJKyGRWcA4v2Dg | 1| 
 | Seebug漏洞平台 | seebug_org | rdp 协议攻击面与安全性分析 | https://mp.weixin.qq.com/s?__biz=MzAxNDY2MTQ2OQ==&mid=2650950827&idx=1&sn=7f3828318ed5363cc0c662f3d4564bbe | 1| 
 | Linux学习 | LoveLinux1024 | 如何搭建一台永久运行的个人服务器？ | https://mp.weixin.qq.com/s?__biz=MzI4MDEwNzAzNg==&mid=2649454806&idx=1&sn=ec72523fe6b3818f6253169b7177805f | 1| 
-| HACK学习呀 | Hacker1961X | 内网渗透 , 内网穿透之多层代理 | https://mp.weixin.qq.com/s?__biz=MzI5MDU1NDk2MA==&mid=2247500597&idx=1&sn=19fc81b36da44ac13ae3a37aac6bb12d | 6| 
 | Gamma实验室 | HackerLearning | 物理渗透战士：教你如何使用BadUSB配合CS免杀实现上线 | https://mp.weixin.qq.com/s?__biz=Mzg2NjQ2NzU3Ng==&mid=2247488929&idx=1&sn=a0f2235a90c03f9c0770247fb8d4cece | 1| 
 | 阿里云应急响应 | gh_12f3517e40de | 【漏洞通告】Apache HTTPd 2.4.49 路径穿越与命令执行漏洞（CVE-2021-41773） | https://mp.weixin.qq.com/s?__biz=MzI5MzY2MzM0Mw==&mid=2247486163&idx=2&sn=c2fb165bf4f1fcc29362a5c83f9ca2a0 | 2| 
 | 虎符智库 | TT_Thinktank | 起底国家级APT组织：海莲花（APT-Q-31） | https://mp.weixin.qq.com/s?__biz=MzIwNjYwMTMyNQ==&mid=2247486620&idx=1&sn=70eea6c91b254d09946f543f7b1590b5 | 1| 
 | 腾讯安全威胁情报中心 | gh_05a6c5ec3f78 | Apache 发布多个高危漏洞利用警告，建议用户立即修补Web 服务器！ | https://mp.weixin.qq.com/s?__biz=MzI5ODk3OTM1Ng==&mid=2247499398&idx=2&sn=f2bd38a48254c3c771e644581b914a0d | 1| 
 | 程序员阿甘 | gh_a2e36d69d566 | 逻辑漏洞出现场景、利用方式总结 | https://mp.weixin.qq.com/s?__biz=MzI4MTkzNDIyMg==&mid=2247493899&idx=1&sn=595e3fa572bfca73a0b3bb5dba96fa56 | 1| 
-| 祺印说信安 | qiyinshuoxinan | 网络安全的 10 个步骤之身份鉴别和访问控制 | https://mp.weixin.qq.com/s?__biz=MzA5MzU5MzQzMA==&mid=2652090229&idx=1&sn=c9095ef68231b9264ff9a62fed425357 | 1| 
 | 弥天安全实验室 | gh_41292c8e5379 | 实战｜记一次应急响应到溯源入侵者 | https://mp.weixin.qq.com/s?__biz=MzU2NDgzOTQzNw==&mid=2247487623&idx=1&sn=9f6a82738a6a710cadc2d552b2acb618 | 1| 
 | 安全族 | anquanzu666 | JAVA序列化与反序列化 | https://mp.weixin.qq.com/s?__biz=Mzg2NjU0MjA0Ng==&mid=2247485287&idx=1&sn=4474d4f40b82859421ec97841bf050a5 | 1| 
 | 奇安信 CERT | gh_64040028303e | 【安全风险通告】Apache HTTP Server目录遍历漏洞安全风险通告 | https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247494842&idx=1&sn=dd132e4ee42d522b6a578c91a256f392 | 1| 
@@ -92,15 +95,14 @@
 | 系统安全运维 | Taurus-1314147 | 通过一道CTF学习HTTP协议请求走私 | https://mp.weixin.qq.com/s?__biz=Mzk0NjE0NDc5OQ==&mid=2247492456&idx=1&sn=f52b2537ade82771fcd5beabcfccc20d | 8| 
 | 数缘信安社区 | gh_91e7eb722058 | 用故障注入和二进制分析对BootLoader实施攻击 | https://mp.weixin.qq.com/s/okV-i5un6ewvbW70K7n8eQ | 1| 
 | 天億网络安全 | tywlaq | 实战｜内网穿透之多层代理 | https://mp.weixin.qq.com/s?__biz=MzU4ODU1MzAyNg==&mid=2247497089&idx=1&sn=aac08b7ca24183c0adbaf3d41802958e | 1| 
-| Khan安全攻防实验室 | KhanCJSH | 红队笔记 - 域渗透攻击 | https://mp.weixin.qq.com/s?__biz=MzAwMjQ2NTQ4Mg==&mid=2247487724&idx=1&sn=2a49609025252db824e27aa3ca8ded4e | 1| 
 | 鸿鹄实验室 | gh_a2210090ba3f | 利用DPAPI加密shellcode | https://mp.weixin.qq.com/s?__biz=MzU0MjUxNjgyOQ==&mid=2247488732&idx=1&sn=a5c3987ee627b25a15431d54d6a2307b | 1| 
 | 网络安全等保测评 | rxDJCP | 安全通信网络-（二）通信传输 | https://mp.weixin.qq.com/s?__biz=MzI3MDY0Nzg1Nw==&mid=2247485547&idx=2&sn=36ba72a25ff3452947ead540b69ff4ad | 1| 
 | 乌雲安全 | hackctf | 干货,常用的邮件钓鱼伪装方法 | https://mp.weixin.qq.com/s?__biz=MzAwMjA5OTY5Ng==&mid=2247499083&idx=1&sn=7d140db5584ab7e157739184d9f6920e | 2| 
 | 安全行者老霍 | gh_c2b78e839fd7 | 自动化入侵和攻击模拟（BAS）： 降低成本和风险的革命已经来临 | https://mp.weixin.qq.com/s/UQcRr5kiKXf_iZ-_CKn_1Q | 1| 
-| 安全学术圈 | secquan | 基于频域分析的实时恶意流量检测 | https://mp.weixin.qq.com/s/nAiN-17OYh7begqcUYGJyQ | 3| 
+| 安全学术圈 | secquan | 基于频域分析的实时恶意流量检测 | https://mp.weixin.qq.com/s/nAiN-17OYh7begqcUYGJyQ | 4| 
 | IDLab | gh_e10c5d7ba216 | 干货｜CTF-sql注入总结（一） | https://mp.weixin.qq.com/s?__biz=MzU1MTkwMTY1NQ==&mid=2247489623&idx=1&sn=50903c76cf28aea9ffa49d2d0a276546 | 1| 
 | HACK之道 | hacklearn | 分享一款高逼格的Linux磁盘信息查看工具 | https://mp.weixin.qq.com/s?__biz=MzIwMzIyMjYzNA==&mid=2247495870&idx=2&sn=82080e827d2f76f77170ebf4f5d6149e | 1| 
-| FreeBuf | freebuf | 2021 Gartner安全运营成熟度曲线（Hype Cycle）解读 | https://mp.weixin.qq.com/s/RhTVIsGkIumUB-YfEAv6Jg | 11| 
+| FreeBuf | freebuf | 2021 Gartner安全运营成熟度曲线（Hype Cycle）解读 | https://mp.weixin.qq.com/s/RhTVIsGkIumUB-YfEAv6Jg | 12| 
 | Fight Tigers Team | gh_ff9c65ab66c3 | Windwos API-CreateMutex() | https://mp.weixin.qq.com/s?__biz=MzkxMTE1NjMyMA==&mid=2247484224&idx=1&sn=a87bf74b08cd3a8c070229534e1bbde8 | 1| 
 | RCE TEAM | gh_3688f58729a9 | 文件上云 - 对象存储的攻击方式 | https://mp.weixin.qq.com/s/eZ8OAO5ELgUNvVricIStGA | 1| 
 
@@ -124,6 +126,8 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Bypassing required reviews using GitHub Actions | http://medium.com/cider-sec/bypassing-required-reviews-using-github-actions-6e1b29135cc7| 
+| Azure Privilege Escalation via Service Principal Abuse | http://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fposts.specterops.io%2Fazure-privilege-escalation-via-service-principal-abuse-210ae2be2a5| 
 
 
 # medium_secwiki 推荐
