@@ -1,10 +1,10 @@
 Python	58
 C	35
 Java	28
-JavaScript	24
+JavaScript	25
 Go	24
 C++	20
-Shell	18
+Shell	19
 HTML	18
 C#	13
 TypeScript	11
@@ -27,6 +27,7 @@ XSLT	2
 Kotlin	2
 TeX	2
 Starlark	2
+Smali	2
 OCaml	2
 VBA	1
 Objective-C++	1
@@ -38,7 +39,6 @@ Vala	1
 Dart	1
 Elixir	1
 Logos	1
-Smali	1
 CMake	1
 Less	1
 Swift	1

@@ -1,9 +1,9 @@
 Python	1095
 C	683
-JavaScript	678
+JavaScript	679
 C++	550
 HTML	491
-Shell	472
+Shell	473
 Java	470
 Go	398
 C#	274
@@ -59,10 +59,10 @@ ActionScript	9
 Nix	9
 LLVM	9
 Zeek	8
+Smali	8
 D	7
 Clojure	7
 SaltStack	7
-Smali	7
 TSQL	7
 Starlark	6
 Julia	6
