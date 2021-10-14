@@ -18,13 +18,16 @@
 | 赛博回忆录 | cybermemory | 端内钓鱼，反制蚁剑 | https://mp.weixin.qq.com/s?__biz=MzIxNDAyNjQwNg==&mid=2456098581&idx=1&sn=6e8301d60d9d787822aff13a36c96fe1 | 1| 
 | 谢公子学安全 | xie_sec | 域渗透文章总结 | https://mp.weixin.qq.com/s?__biz=MzI2NDQyNzg1OA==&mid=2247489464&idx=1&sn=51ef4cdc836cfe7926c7abed8df666ab | 1| 
 | 灼剑安全团队 | Tsojan | Windows下常见持久性后门 | https://mp.weixin.qq.com/s?__biz=Mzg5OTY1ODMxMg==&mid=2247488389&idx=1&sn=6a44456c4d7aebb2a5a14249c27cf667 | 3| 
+| 开源聚合网络空间安全研究院 | OSPtech_Cyberspace | 【必胜宝典】网安竞赛之Awd的小结 | https://mp.weixin.qq.com/s?__biz=MzI4NTE4NDAyNA==&mid=2650389831&idx=1&sn=a8d5390f3357cbc757ad8c52e8d2ae81 | 2| 
 | 山石网科安全技术研究院 | HSN_LAB | 2021鹤城杯｜Reverse及MISC部分WP全 | https://mp.weixin.qq.com/s?__biz=MzUzMDUxNTE1Mw==&mid=2247490038&idx=2&sn=f918ab9a73a7ef5793c3ac462f7cb3af | 1| 
+| 宸极实验室 | ChenJiLab | 『IOT』路由器漏洞挖掘之从0到0.1 | https://mp.weixin.qq.com/s?__biz=Mzg4NTA0MzgxNQ==&mid=2247485086&idx=1&sn=52003a27408c8245041fc068c754a070 | 2| 
 | 嘶吼专业版 | Pro4hou | 恶意mitmproxy2 Python包被移除 | https://mp.weixin.qq.com/s?__biz=MzI0MDY1MDU4MQ==&mid=2247530157&idx=2&sn=fb39e6e2058d78f5fd37533a1495217b | 4| 
 | 亿人安全 | Yr-Sec | 安卓逆向系列篇：Dalvik概念&破解实例 | https://mp.weixin.qq.com/s?__biz=Mzk0MTIzNTgzMQ==&mid=2247486964&idx=1&sn=e945ed694679402350656a55ab3c8377 | 4| 
 | 乌雲安全 | hackctf | 实战,从外网Thinkphp5远程代码执行到杀入内网域控 | https://mp.weixin.qq.com/s?__biz=MzAwMjA5OTY5Ng==&mid=2247499166&idx=1&sn=13be7cb6a20312e4cb376aedb2087b53 | 2| 
 | 三六零CERT | CERT-360 | Linux挖矿木马NtpClient事件分析 | https://mp.weixin.qq.com/s?__biz=MzU5MjEzOTM3NA==&mid=2247490300&idx=2&sn=47f6173b67c8f830101ae8491892fdd4 | 3| 
 | 一个人的安全笔记 | xjiek2015 | [HTB] Luanne Writeup | https://mp.weixin.qq.com/s/GHC0G6ZVTIt_pSYDHTC4pw | 1| 
 | SecOps急行军 | SecOpsWithU | 2021中国网络安全产业分析报告解读 | https://mp.weixin.qq.com/s/YgjVkukxQUTLBG1uRL-kEQ | 1| 
+| Hacking黑白红 | Hacking012 | 【Vulnhub靶机系列】,1-实战中如何运用msf攻击CMS、find命令提权、破解管理员密码 | https://mp.weixin.qq.com/s?__biz=Mzg2NDYwMDA1NA==&mid=2247500375&idx=1&sn=bad8e83b79328eabaf3c3255b7de1716 | 6| 
 | HACK之道 | hacklearn | 实战,从XSS到远程代码执行 | https://mp.weixin.qq.com/s?__biz=MzIwMzIyMjYzNA==&mid=2247495950&idx=1&sn=30189402068def607f3758269aa04a80 | 1| 
 | 酒仙桥六号部队 | anfu-360 | 记一次旁站渗透过程 | https://mp.weixin.qq.com/s?__biz=MzAwMzYxNzc1OA==&mid=2247494537&idx=1&sn=b22a4ad9d5d6f9b9ec206b383e782120 | 1| 
 | 邑安全 | EansecD | 浅析Icmp原理及隐蔽攻击的方式 | https://mp.weixin.qq.com/s?__biz=MzUyMzczNzUyNQ==&mid=2247508165&idx=3&sn=860127f476895c46f8e5b5e3e1ec30dc | 7| 
@@ -50,7 +53,6 @@
 | 看雪学院 | ikanxue | 羊城杯部分逆向wp | https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458396898&idx=2&sn=6e8934ae449e0e9fd658e49b274fae05 | 2| 
 | 潇湘信安 | xxxasec | 某锁/某神/某狗的计算机名认证绕过 | https://mp.weixin.qq.com/s?__biz=Mzg4NTUwMzM1Ng==&mid=2247491997&idx=1&sn=752f87a9127b003feb2540317054627c | 2| 
 | 慢雾科技 | SlowMist | 天价手续费分析：我不是真土豪 | https://mp.weixin.qq.com/s?__biz=MzU4ODQ3NTM2OA==&mid=2247492157&idx=1&sn=791e7d52dbb9704ceb22e809be388454&chksm=fdde9cbacaa915ac5ef8f3041c9fdcffb926aa7e3c0025a141fa8d20f1c5adde55f07e8d44ec&token=1743499466&lang=zh_CN#rd | 1| 
-| 开源聚合网络空间安全研究院 | OSPtech_Cyberspace | 【安全科普】浅析Linux系统入侵排查与应急响应技术 | https://mp.weixin.qq.com/s?__biz=MzI4NTE4NDAyNA==&mid=2650389817&idx=1&sn=ba1867834bf9a679985fad53ddf0ee42 | 1| 
 | 小道安全 | kdsafety | APP加固攻防梳理 | https://mp.weixin.qq.com/s?__biz=MzUxODkyODE0Mg==&mid=2247488481&idx=1&sn=86a5a35dff7438503bc5ea2ecc644364 | 1| 
 | 娜璋AI安全之家 | gh_91f1fe28fc6e | [AI安全论文] 08.基于溯源图的APT攻击检测安全顶会论文总结 | https://mp.weixin.qq.com/s/NosFWfRl9Mmqi2_QXUJNpw | 1| 
 | 互联网安全内参 | anquanneican | 警惕！挖矿木马盯上华为云，利用“配置错误”发动攻击 | https://mp.weixin.qq.com/s?__biz=MzI4NDY2MDMwMw==&mid=2247499645&idx=1&sn=c33eb1ae0c8f1b59509e45e414436687 | 1| 
@@ -65,7 +67,6 @@
 | Tide安全团队 | TideSec | 【红蓝对抗】利用CS进行内网横向 | https://mp.weixin.qq.com/s/tAsPmsinh0Q3fBEFUuCX3Q | 2| 
 | Linux中国 | linux-cn | 在 Linux 上使用 jps 命令检查 Java 进程 , Linux 中国 | https://mp.weixin.qq.com/s?__biz=MjM5NjQ4MjYwMQ==&mid=2664642134&idx=4&sn=b6f5b32ab817ca26c658f1a81fb2ca99 | 3| 
 | LemonSec | lemon-sec | 浅谈 , 从Web安全到APT防御 | https://mp.weixin.qq.com/s?__biz=MzUyMTA0MjQ4NA==&mid=2247516883&idx=2&sn=4169096378baaf0201e1c601ce50d6a1 | 5| 
-| Hacking黑白红 | Hacking012 | 渗透测试——提权方式总结 | https://mp.weixin.qq.com/s?__biz=Mzg2NDYwMDA1NA==&mid=2247500279&idx=2&sn=6577f0f5dd2bb3da1504509e0884359e | 5| 
 | GoCN | golangchina | 「GoCN酷Go推荐」用户态和内核态通信的利器-netlink库 | https://mp.weixin.qq.com/s?__biz=MzA4ODg0NDkzOA==&mid=2247493303&idx=1&sn=7c4522a676758c3160828a53c5d959fc | 1| 
 | 98KSec | AKA-98KSec | 浅析Ofbiz反序列化漏洞（CVE-2020-9496） | https://mp.weixin.qq.com/s?__biz=Mzk0MTIxNzAyNw==&mid=2247483960&idx=1&sn=152320b737ddea7c1a29a5d3ba4dba83 | 2| 
 | 猪猪谈安全 | zzt-anquan | 信息收集组合拳之从废弃接口中寻找漏洞 | https://mp.weixin.qq.com/s?__biz=MzIyMDAwMjkzNg==&mid=2247496010&idx=1&sn=9b7f56a421758051cc71c51c7fed44e1 | 2| 
@@ -82,7 +83,6 @@
 | 黑云信息安全 | heiyunxinxi | 小白如何编写自己的POC和EXP，并实现批量刷洞 | https://mp.weixin.qq.com/s?__biz=Mzg5OTYxMjk0Mw==&mid=2247484938&idx=2&sn=3036b836eb4779dcc2b7ed320cae35d4 | 2| 
 | 长亭安全课堂 | chaitintech_release | 漏洞风险提示 , Apache Http Server 路径穿越文件读取与命令执行漏洞 | https://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg==&mid=2247487349&idx=1&sn=ae99cb1ab66622d59c1614cc78b608fc | 1| 
 | 觉学社 | WakerGroup | Rust生态安全漏洞总结系列 , Part 3 | https://mp.weixin.qq.com/s/RsfEKl7FAGs2L9vXKC0rWQ | 3| 
-| 宸极实验室 | ChenJiLab | 『红蓝对抗』Linux 系统 权限维持 | https://mp.weixin.qq.com/s?__biz=Mzg4NTA0MzgxNQ==&mid=2247485079&idx=1&sn=be7b06c917c18c8767593e89d5de7ae9 | 1| 
 | 安全牛 | aqniu-wx | 一种新型电磁攻击，用以太网线作为“天线”窃取敏感数据 | https://mp.weixin.qq.com/s?__biz=MjM5Njc3NjM4MA==&mid=2651106215&idx=1&sn=024f0e7402655f6c84791cf7f9733d4f | 1| 
 | 凌晨一点零三分 | gh_f2274e37fc2b | FreeRDP安全性思考 | https://mp.weixin.qq.com/s/VQ5JwOPHSJKyGRWcA4v2Dg | 1| 
 | Seebug漏洞平台 | seebug_org | rdp 协议攻击面与安全性分析 | https://mp.weixin.qq.com/s?__biz=MzAxNDY2MTQ2OQ==&mid=2650950827&idx=1&sn=7f3828318ed5363cc0c662f3d4564bbe | 1| 
