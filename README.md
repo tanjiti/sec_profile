@@ -23,8 +23,10 @@
 | 亿人安全 | Yr-Sec | 安卓逆向系列篇：Dalvik概念&破解实例 | https://mp.weixin.qq.com/s?__biz=Mzk0MTIzNTgzMQ==&mid=2247486964&idx=1&sn=e945ed694679402350656a55ab3c8377 | 4| 
 | 乌雲安全 | hackctf | 实战,从外网Thinkphp5远程代码执行到杀入内网域控 | https://mp.weixin.qq.com/s?__biz=MzAwMjA5OTY5Ng==&mid=2247499166&idx=1&sn=13be7cb6a20312e4cb376aedb2087b53 | 2| 
 | 三六零CERT | CERT-360 | Linux挖矿木马NtpClient事件分析 | https://mp.weixin.qq.com/s?__biz=MzU5MjEzOTM3NA==&mid=2247490300&idx=2&sn=47f6173b67c8f830101ae8491892fdd4 | 3| 
+| 一个人的安全笔记 | xjiek2015 | [HTB] Luanne Writeup | https://mp.weixin.qq.com/s/GHC0G6ZVTIt_pSYDHTC4pw | 1| 
 | SecOps急行军 | SecOpsWithU | 2021中国网络安全产业分析报告解读 | https://mp.weixin.qq.com/s/YgjVkukxQUTLBG1uRL-kEQ | 1| 
 | HACK之道 | hacklearn | 实战,从XSS到远程代码执行 | https://mp.weixin.qq.com/s?__biz=MzIwMzIyMjYzNA==&mid=2247495950&idx=1&sn=30189402068def607f3758269aa04a80 | 1| 
+| 酒仙桥六号部队 | anfu-360 | 记一次旁站渗透过程 | https://mp.weixin.qq.com/s?__biz=MzAwMzYxNzc1OA==&mid=2247494537&idx=1&sn=b22a4ad9d5d6f9b9ec206b383e782120 | 1| 
 | 邑安全 | EansecD | 浅析Icmp原理及隐蔽攻击的方式 | https://mp.weixin.qq.com/s?__biz=MzUyMzczNzUyNQ==&mid=2247508165&idx=3&sn=860127f476895c46f8e5b5e3e1ec30dc | 7| 
 | 维他命安全 | VitaminSecurity | 【漏洞通告】Microsoft 10月多个安全漏洞 | https://mp.weixin.qq.com/s?__biz=MzUxMDQzNTMyNg==&mid=2247496953&idx=2&sn=3ce4e5cb4fc0852a92701e28af4195ad | 6| 
 | 祺印说信安 | qiyinshuoxinan | 使用以太网电缆创建无线信号从系统窃取数据 | https://mp.weixin.qq.com/s?__biz=MzA5MzU5MzQzMA==&mid=2652090349&idx=2&sn=a6d1dc86a0b276ea8d6aeb8c037baafa | 2| 
@@ -36,6 +38,7 @@
 | 哈拉少安全小队 | gh_b273ce95df95 | 【反序列化漏洞】phar反序列化原理&实例分析 | https://mp.weixin.qq.com/s?__biz=MzAxNzkyOTgxMw==&mid=2247487547&idx=1&sn=b29b696837c753d12ca64b529c640d9d | 5| 
 | 合天网安实验室 | hee_tian | 关于Awd的小结 | https://mp.weixin.qq.com/s?__biz=MjM5MTYxNjQxOA==&mid=2652881776&idx=1&sn=ecf725b36ef8d423ab5401cd6ba4fc4a | 4| 
 | aFa攻防实验室 | gzh_afagfsys | jwt攻击 | https://mp.weixin.qq.com/s?__biz=MzAxMjcxMjkyOA==&mid=2247485556&idx=1&sn=61fe8c7bf99ee0ea696731bd5502fb5b | 1| 
+| SecIN技术平台 | sec-in | 原创 , 变量覆盖漏洞 | https://mp.weixin.qq.com/s?__biz=MzI4Mzc0MTI0Mw==&mid=2247491391&idx=1&sn=4e5fd2b1cad9a261be345978566de106 | 1| 
 | Khan安全攻防实验室 | KhanCJSH | Fofa 查询脚本 | https://mp.weixin.qq.com/s?__biz=MzAwMjQ2NTQ4Mg==&mid=2247487770&idx=1&sn=c9d4d530f9f9477bfcf1cc299100800c | 2| 
 | HACK学习呀 | Hacker1961X | 实战 , 一次运气很好的文件上传绕过 | https://mp.weixin.qq.com/s?__biz=MzI5MDU1NDk2MA==&mid=2247500646&idx=1&sn=cdedfce1a6b2694c97350fb033a7ab75 | 6| 
 | 高效运维 | greatops | Filebeat、Logstash、Rsyslog 各种姿势采集Nginx日志 | https://mp.weixin.qq.com/s?__biz=MzA4Nzg5Nzc5OA==&mid=2651704583&idx=1&sn=ed2a71e8bbb4a0314d8329e135782d63 | 1| 
@@ -122,7 +125,7 @@
 | guardicore | monkey: Infection Monkey - An automated pentest tool | https://github.com/guardicore/monkey | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Go,C,Java,C# | 0 | 0 | 1| 
 | facebook | Mariana Trench - Facebook 开源的一款 Android 静态漏洞扫描工具 | https://github.com/facebook/mariana-trench/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,OCaml,C++,Objective-C,Jupyter,Ruby | 0 | 0 | 1| 
 | aemmitt-ns | radius - 基于 radare2 写的符号执行引擎 | https://github.com/aemmitt-ns/radius | https://github.com/aemmitt-ns?tab=followers | Mobile Security Researcher at NowSecure | None | @nowsecure | 16 | 0 | 0 | 0 | 0 | Python,C,JavaScript,Vala | 0 | 0 | 1| 
-| Metarget | Metarget：构建云原生基础设施靶场 | https://github.com/Metarget/metarget | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| Metarget | Metarget：构建云原生基础设施靶场 | https://github.com/Metarget/metarget | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Shell | 0 | 0 | 1| 
 | BC-SECURITY | Starkiller: Starkiller is a Frontend for PowerShell Empire | https://github.com/BC-SECURITY/Starkiller | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Vue,Python,VBA,C++,C#,PowerShell | 0 | 0 | 1| 
 
 
