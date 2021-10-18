@@ -1,0 +1,21 @@
+20211011	Web安全	https://mp.weixin.qq.com/s/tAsPmsinh0Q3fBEFUuCX3Q	利用CS进行内网横向	qq.com	mp.weixin.qq.com	/s/tAsPmsinh0Q3fBEFUuCX3Q
+20211011	Web安全	https://mp.weixin.qq.com/s/KBog9XXz7Of93hAiV8Y7fQ	JAVA反序列化之C3P0不出网利用	qq.com	mp.weixin.qq.com	/s/KBog9XXz7Of93hAiV8Y7fQ
+20211011	杂志	https://www.sec-wiki.com/weekly/397	SecWiki周刊（第397期)	sec-wiki.com	www.sec-wiki.com	/weekly/397
+20211011	数据挖掘	https://toooold.com/2021/10/11/why_ml_fails_security_frag_cn.html?continueFlag=55bb45962d1070d2fe02f082a54e0d98	为什么机器学习解决网络安全问题总是失败：脆弱的系统工程	toooold.com	toooold.com	/2021/10/11/why_ml_fails_security_frag_cn.html
+20211011	Web安全	https://paper.seebug.org/1734/	rdp 协议攻击面与安全性分析	seebug.org	paper.seebug.org	/1734/
+20211011	恶意分析	https://mp.weixin.qq.com/s/NosFWfRl9Mmqi2_QXUJNpw	基于溯源图的APT攻击检测安全顶会论文总结	qq.com	mp.weixin.qq.com	/s/NosFWfRl9Mmqi2_QXUJNpw
+20211011	恶意分析	https://mp.weixin.qq.com/s/KW15JK8XJKFWRe-FjFMOSA	捕获透明网络钓鱼：分析和检测中间人网络钓鱼工具套件	qq.com	mp.weixin.qq.com	/s/KW15JK8XJKFWRe-FjFMOSA
+20211011	观点	https://mp.weixin.qq.com/s/YgjVkukxQUTLBG1uRL-kEQ	2021中国网络安全产业分析报告解读	qq.com	mp.weixin.qq.com	/s/YgjVkukxQUTLBG1uRL-kEQ
+20211011	其它	https://github.com/Metarget/metarget	Metarget：构建云原生基础设施靶场	github.com	github.com	/Metarget/metarget
+20211011	Web安全	https://mp.weixin.qq.com/s/uH40OJ4ev0rpuzDLMn7x-A	Host碰撞原理及复现（含利用工具）	qq.com	mp.weixin.qq.com	/s/uH40OJ4ev0rpuzDLMn7x-A
+20211011	Web安全	https://mp.weixin.qq.com/s/GHC0G6ZVTIt_pSYDHTC4pw	[HTB] Luanne Writeup	qq.com	mp.weixin.qq.com	/s/GHC0G6ZVTIt_pSYDHTC4pw
+20211011	取证分析	https://mp.weixin.qq.com/s/w2Aa6Wer-WFJQbEkaKWFkg	侧信道嗅探浏览器历史	qq.com	mp.weixin.qq.com	/s/w2Aa6Wer-WFJQbEkaKWFkg
+20211011	恶意分析	https://mp.weixin.qq.com/s/xDCS2GTAIQOMuM6TFSdyYw	深度追踪 Keksec 僵尸网络	qq.com	mp.weixin.qq.com	/s/xDCS2GTAIQOMuM6TFSdyYw
+20211011	运维安全	https://mp.weixin.qq.com/s/v1_AIRwD_SfwnAH218MNaA	WatchAD攻防实战	qq.com	mp.weixin.qq.com	/s/v1_AIRwD_SfwnAH218MNaA
+20211011	Web安全	https://www.anquanke.com/post/id/254442?	从零开始搭建一个反弹shell协同平台	anquanke.com	www.anquanke.com	/post/id/254442
+20211011	恶意分析	https://mp.weixin.qq.com/s/hhYmO1Oz2VLsePWJT5wIiQ	通过缓存属性感知特征进行DNS隧道检测	qq.com	mp.weixin.qq.com	/s/hhYmO1Oz2VLsePWJT5wIiQ
+20211011	Web安全	https://github.com/yaklang/yakit	yak gRPC Client GUI - 集成化单兵工具平台	github.com	github.com	/yaklang/yakit
+20211011	恶意分析	https://mp.weixin.qq.com/s/79x6cIoV1xdm6dmNQaps6g	JSP内存马研究	qq.com	mp.weixin.qq.com	/s/79x6cIoV1xdm6dmNQaps6g
+20211011	Web安全	https://mp.weixin.qq.com/s/WNv9nPWvKudwimtYTd1zDQ	端内钓鱼，反制蚁剑	qq.com	mp.weixin.qq.com	/s/WNv9nPWvKudwimtYTd1zDQ
+20211011	Web安全	https://www.anquanke.com/post/id/255721	CodeQL从0到1（内附Shiro检测demo）	anquanke.com	www.anquanke.com	/post/id/255721
+20211011	比赛	https://www.anquanke.com/post/id/255241	TCTF 2021 0bf	anquanke.com	www.anquanke.com	/post/id/255241
