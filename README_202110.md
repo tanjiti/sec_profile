@@ -16,6 +16,8 @@
 | --- | --- | --- | ---| 
 | 阿里云应急响应 | gh_12f3517e40de | 【漏洞分析】Oracle MySQL JDBC XXE漏洞（CVE-2021-2471） | https://mp.weixin.qq.com/s/erIFMiPNB2XSBJSqXyxuKg | 1| 
 | 渗透Xiao白帽 | SuPejkj | 【干货】免杀-偏移量混淆shellcode | https://mp.weixin.qq.com/s?__biz=MzI1NTM4ODIxMw==&mid=2247490314&idx=1&sn=ca5fbc4333aac066efa59362b3b8942f | 5| 
+| 星阑科技 | StarCrossCN | 【技术干货】Black Hat USA2021上CVE-2020-6537的分析 | https://mp.weixin.qq.com/s/mdMlS1Dk8k0-A1DqpitG_A | 1| 
+| Docker中文社区 | dockerchina | 一文详解 Kubernetes 的自动化部署实践 | https://mp.weixin.qq.com/s?__biz=MzI1NzI5NDM4Mw==&mid=2247488003&idx=1&sn=996fbb2c562d6a875a48c00ce1cfaf33 | 1| 
 | 雷神众测 | bounty_team | 恶意样本分析精要及实践9-IDA使用（二） | https://mp.weixin.qq.com/s?__biz=MzI0NzEwOTM0MA==&mid=2652494687&idx=1&sn=1c632712e407f88e8dac2fbc2a934720 | 2| 
 | 虎符智库 | TT_Thinktank | 起底国家级APT组织：OilRig （APT-Q-53） | https://mp.weixin.qq.com/s?__biz=MzIwNjYwMTMyNQ==&mid=2247486648&idx=1&sn=bdbd5c7856ff70a8c3b386cb1c618ed5 | 1| 
 | 网络安全应急技术国家工程实验室 | NELCERT | 重磅 , 超大规模的物联网僵尸网络：Pink | https://mp.weixin.qq.com/s?__biz=MzUzNDYxOTA1NA==&mid=2247521827&idx=1&sn=ad1eaf53acf9c6a6be59813912f026ef | 1| 
@@ -80,8 +82,8 @@
 | aFa攻防实验室 | gzh_afagfsys | jwt攻击 | https://mp.weixin.qq.com/s?__biz=MzAxMjcxMjkyOA==&mid=2247485556&idx=1&sn=61fe8c7bf99ee0ea696731bd5502fb5b | 1| 
 | 高效运维 | greatops | Filebeat、Logstash、Rsyslog 各种姿势采集Nginx日志 | https://mp.weixin.qq.com/s?__biz=MzA4Nzg5Nzc5OA==&mid=2651704583&idx=1&sn=ed2a71e8bbb4a0314d8329e135782d63 | 1| 
 | 邑安全 | EansecD | GhostEmperor：通过利用内核以及ProxyLogon系列漏洞发起攻击（上） | https://mp.weixin.qq.com/s?__biz=MzUyMzczNzUyNQ==&mid=2247508122&idx=3&sn=3ffc90acd82d4cee5fb086c3dd8cb205 | 9| 
-| 网络侦查研究院 | PCpolicesir | dll注入&代码注入 学习总结 | https://mp.weixin.qq.com/s?__biz=MzIxOTM2MDYwNg==&mid=2247507947&idx=2&sn=8f1018f75cce54688342ce51c1a9efb4 | 4| 
-| 灼剑安全团队 | Tsojan | 漏洞复现｜Struts2多版本漏洞复现 | https://mp.weixin.qq.com/s?__biz=Mzg5OTY1ODMxMg==&mid=2247488388&idx=1&sn=89d1fc3f79fddcb05f54ed5f4351c5c0 | 6| 
+| 网络侦查研究院 | PCpolicesir | dll注入&代码注入 学习总结 | https://mp.weixin.qq.com/s?__biz=MzIxOTM2MDYwNg==&mid=2247507947&idx=2&sn=8f1018f75cce54688342ce51c1a9efb4 | 5| 
+| 灼剑安全团队 | Tsojan | 漏洞复现｜Struts2多版本漏洞复现 | https://mp.weixin.qq.com/s?__biz=Mzg5OTY1ODMxMg==&mid=2247488388&idx=1&sn=89d1fc3f79fddcb05f54ed5f4351c5c0 | 7| 
 | 潇湘信安 | xxxasec | 某锁/某神/某狗的计算机名认证绕过 | https://mp.weixin.qq.com/s?__biz=Mzg4NTUwMzM1Ng==&mid=2247491997&idx=1&sn=752f87a9127b003feb2540317054627c | 3| 
 | 慢雾科技 | SlowMist | 天价手续费分析：我不是真土豪 | https://mp.weixin.qq.com/s?__biz=MzU4ODQ3NTM2OA==&mid=2247492157&idx=1&sn=791e7d52dbb9704ceb22e809be388454&chksm=fdde9cbacaa915ac5ef8f3041c9fdcffb926aa7e3c0025a141fa8d20f1c5adde55f07e8d44ec&token=1743499466&lang=zh_CN#rd | 1| 
 | 小道安全 | kdsafety | APP加固攻防梳理 | https://mp.weixin.qq.com/s?__biz=MzUxODkyODE0Mg==&mid=2247488481&idx=1&sn=86a5a35dff7438503bc5ea2ecc644364 | 1| 
@@ -90,7 +92,7 @@
 | 互联网安全内参 | anquanneican | 警惕！挖矿木马盯上华为云，利用“配置错误”发动攻击 | https://mp.weixin.qq.com/s?__biz=MzI4NDY2MDMwMw==&mid=2247499645&idx=1&sn=c33eb1ae0c8f1b59509e45e414436687 | 1| 
 | 黑伞安全 | hack_umbrella | C2服务器隧道代理分析 | https://mp.weixin.qq.com/s?__biz=MzU0MzkzOTYzOQ==&mid=2247486266&idx=1&sn=cf661e6fcde911643ed7a6e232d3c2f2 | 1| 
 | 骨哥说事 | guge_guge | 寻找更多IDOR漏洞的几种方法 | https://mp.weixin.qq.com/s?__biz=MjM5Mzc4MzUzMQ==&mid=2650254839&idx=1&sn=341703cc61bad431f1b6570678147710 | 1| 
-| 盾山实验室 | DunShanRR | Karta：IDA源代码辅助插件 | https://mp.weixin.qq.com/s?__biz=MzkzMjIwMDY4Nw==&mid=2247485581&idx=1&sn=78099296cef7643bea4a2da4584dba0e | 4| 
+| 盾山实验室 | DunShanRR | Karta：IDA源代码辅助插件 | https://mp.weixin.qq.com/s?__biz=MzkzMjIwMDY4Nw==&mid=2247485581&idx=1&sn=78099296cef7643bea4a2da4584dba0e | 5| 
 | 火线Zone | huoxian_zone | Web漏洞挖掘指南 -SSRF服务器端请求伪造 | https://mp.weixin.qq.com/s?__biz=MzI2NDQ5NTQzOQ==&mid=2247488968&idx=1&sn=72d78859f0f6d03c6872ba98fde3faf8 | 4| 
 | 安全龙 | safe443 | 安卓模拟器APP\\微信小程序\\HTTPS抓包教程 2021.10 | https://mp.weixin.qq.com/s?__biz=MzIwMTI4NDk2NA==&mid=2247487531&idx=1&sn=b1b291fad8dd8fefb949014a46db953e | 1| 
 | 安全攻防团队 | gh_983c1037a3f6 | JAVA反序列化之C3P0不出网利用 | https://mp.weixin.qq.com/s/KBog9XXz7Of93hAiV8Y7fQ | 1| 
