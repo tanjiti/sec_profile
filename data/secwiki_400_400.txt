@@ -1,0 +1,11 @@
+20211025	法规	http://www.cac.gov.cn/2021-10/26/c_1636843202454310.htm	《互联网用户账号名称信息管理规定（征求意见稿）》	cac.gov.cn	www.cac.gov.cn	/2021-10/26/c_1636843202454310.htm
+20211025	运维安全	https://mp.weixin.qq.com/s/UnLZE9HwJAc_uYTO5BXGww	漫谈在安全公司做内部安全的体验	qq.com	mp.weixin.qq.com	/s/UnLZE9HwJAc_uYTO5BXGww
+20211025	Web安全	https://mp.weixin.qq.com/s/yDIMgXltVLNfslVGg9lt4g	轻松绕过你的Nginx（上篇）	qq.com	mp.weixin.qq.com	/s/yDIMgXltVLNfslVGg9lt4g
+20211025	恶意分析	https://blog.netlab.360.com/pinkbot/	一个藏在我们身边的巨型僵尸网络 Pink	360.com	blog.netlab.360.com	/pinkbot/
+20211025	Web安全	https://mp.weixin.qq.com/s/34QZSq90Nj5xKjG1yTGvZw	轻松绕过你的Nginx（下篇）	qq.com	mp.weixin.qq.com	/s/34QZSq90Nj5xKjG1yTGvZw
+20211025	工具	https://github.com/Ciphey/Ciphey	Ciphey - 基于人工智能与自然语言处理技术实现的一款自动化密码破解工具	github.com	github.com	/Ciphey/Ciphey
+20211025	漏洞分析	https://mp.weixin.qq.com/s/2q8kSl6oC7ECXU8OaMwuTw	某mpv播放器因格式化字符串导致远程代码执行漏洞深入分析（CVE-2021-30145）	qq.com	mp.weixin.qq.com	/s/2q8kSl6oC7ECXU8OaMwuTw
+20211025	杂志	https://www.sec-wiki.com/weekly/399	SecWiki周刊（第399期)	sec-wiki.com	www.sec-wiki.com	/weekly/399
+20211025	数据挖掘	https://mp.weixin.qq.com/s/fJdzHx0xj_G2zzcVnPVnZg	利用图注意力网络预测不同安全数据库之间的实体关系	qq.com	mp.weixin.qq.com	/s/fJdzHx0xj_G2zzcVnPVnZg
+20211025	取证分析	https://mp.weixin.qq.com/s/rVVzAzbKWzPvczHTuyWehg	区块链隐私保护技术解析——之门罗币(monero)	qq.com	mp.weixin.qq.com	/s/rVVzAzbKWzPvczHTuyWehg
+20211025	Web安全	https://mp.weixin.qq.com/s/OtQK9yYLgrZwo86Xx8Difw	[HTB] LaCasaDePapel Writeup	qq.com	mp.weixin.qq.com	/s/OtQK9yYLgrZwo86Xx8Difw
