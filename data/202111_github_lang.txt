@@ -1,0 +1,10 @@
+C	1
+Java	1
+Classic	1
+Python	1
+JavaScript	1
+C++	1
+HTML	1
+Go	1
+PHP	1
+Ruby	1
