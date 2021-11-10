@@ -9,7 +9,7 @@ HTML	21
 TypeScript	14
 C#	13
 PHP	11
-Ruby	9
+Ruby	10
 Rust	9
 Objective-C	7
 Dockerfile	6
