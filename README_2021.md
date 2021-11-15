@@ -513,7 +513,7 @@
 | 0x727 | 水泽-信息收集自动化工具 | https://github.com/0x727/ShuiZe_0x727 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | 0vercl0k | 研究员 Axel Souchet Fuzz IDA 发现大量内存类问题 | https://github.com/0vercl0k/fuzzing-ida75 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | 0linlin0 | CyberBox: Java Exp FrameWork | https://github.com/0linlin0/CyberBox | https://github.com/0linlin0?tab=followers | I fell in love with my computer : ) | None | None | 7 | 0 | 0 | 0 | 0 | HTML,Java | 0 | 0 | 1| 
-| 0e0w | 深入理解Java代码审计 | https://github.com/0e0w/HackJava | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| 0e0w | 深入理解Java代码审计 | https://github.com/0e0w/HackJava | https://github.com/0e0w?tab=followers | 0 error(s),0 warning(s). | Hohhot | China | 60 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 
 
 # medium_xuanwu 推荐

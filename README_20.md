@@ -4354,7 +4354,7 @@
 | 0x727 | 水泽-信息收集自动化工具 | https://github.com/0x727/ShuiZe_0x727 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | 0neb1n | PoC of CVE-2020-16947 (Microsoft Outlook RCE vulnerablility) | https://github.com/0neb1n/CVE-2020-16947 | None | I wanner be the pwner. | None | None | 11 | 0 | 0 | 0 | 0 | Lua,CSS | 23 | 14 | 1| 
 | 0linlin0 | CyberBox: Java Exp FrameWork | https://github.com/0linlin0/CyberBox | https://github.com/0linlin0?tab=followers | I fell in love with my computer : ) | None | None | 7 | 0 | 0 | 0 | 0 | HTML,Java | 0 | 0 | 1| 
-| 0e0w | 深入理解Java代码审计 | https://github.com/0e0w/HackJava | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| 0e0w | 深入理解Java代码审计 | https://github.com/0e0w/HackJava | https://github.com/0e0w?tab=followers | 0 error(s),0 warning(s). | Hohhot | China | 60 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | 0Linchen | CTFCrackTools: 中国国内首个CTFcrack框架 | https://github.com/0Linchen/CTFCrackTools | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | 0Kee-Team | JavaProbe: 一款Java应用运行时信息收集工具 | https://github.com/0Kee-Team/JavaProbe?from=timeline&isappinstalled=0 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java | 0 | 0 | 4| 
 

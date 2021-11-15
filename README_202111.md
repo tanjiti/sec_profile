@@ -161,7 +161,7 @@
 | r0eXpeR | 主流供应商的一些攻击性漏洞汇总 . | https://github.com/r0eXpeR/supplier | https://github.com/r0eXpeR?tab=followers | <scritp>alera(/xs‘/)</scritp> | China,ShangHai | None | 20 | 0 | 0 | 0 | 0 | Ruby | 0 | 0 | 1| 
 | RASSec | WebExp: 2020年~2021年 网站CMS、中间件、框架系统漏洞集合 | https://github.com/RASSec/WebExp | https://github.com/RASSec?tab=followers | Bug Bounty Hunter | Beijing | None | 667 | 0 | 0 | 0 | 0 | C,Java,Classic,Python,JavaScript,C++,HTML,Go,PHP,Ruby | 0 | 0 | 1| 
 | EmYiQing | CodeInspector: Java 可控参数分析和数据流跟踪分析 | https://github.com/EmYiQing/CodeInspector | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
-| 0e0w | 深入理解Java代码审计 | https://github.com/0e0w/HackJava | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| 0e0w | 深入理解Java代码审计 | https://github.com/0e0w/HackJava | https://github.com/0e0w?tab=followers | 0 error(s),0 warning(s). | Hohhot | China | 60 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 
 
 # medium_xuanwu 推荐
