@@ -18,6 +18,8 @@
 | 星阑科技 | StarCrossCN | SonarQube被爆出现API未授权访问漏洞，大量用户数据存在泄露风险 | https://mp.weixin.qq.com/s?__biz=Mzg5NjEyMjA5OQ==&mid=2247490664&idx=1&sn=c8e81141a28227751db56cf05973472e | 2| 
 | 无级安全 | wujisec | 老洞考古,CVE-2020-27986,POC | https://mp.weixin.qq.com/s?__biz=MzI0Nzc0NTcwOQ==&mid=2247485203&idx=1&sn=4cab8abe8191103fdaf627e8914cc33e | 2| 
 | 我不是Hacker | gh_aaed037e2267 | 微软权限提升漏洞补丁绕过【附Poc】 | https://mp.weixin.qq.com/s?__biz=MzkwNDI1NDUwMQ==&mid=2247485117&idx=1&sn=2a77b7115d41021ae3625af56242ebc5 | 2| 
+| 微步在线研究响应中心 | gh_c108d4d389bf | 警惕！GitLab 严重漏洞在野被广泛利用，企业需立即自查 | https://mp.weixin.qq.com/s?__biz=MzA5MDc1NDc1MQ==&mid=2247490555&idx=1&sn=f81f8ce2c7c52c528cf3b9b383f4d82a | 2| 
+| Ots安全 | AnQuan7 | CVE-2021-36260 一些海康威视产品的Web服务器中的POC命令注入漏洞 | https://mp.weixin.qq.com/s?__biz=MzAxMjYyMzkwOA==&mid=2247493430&idx=2&sn=e436ec516a151da1ca82424be2b30d92 | 3| 
 | 黑客技术与网络安全 | HackerCoder | 一个HTTP请求，把网站打裂开了！ | https://mp.weixin.qq.com/s?__biz=MzIyMDEzMTA2MQ==&mid=2651159601&idx=2&sn=4ceb26e13206a8b151868c1ea155b51c | 1| 
 | 鹏组安全 | Kris_Alex2 | CTF-PHP常见考点实例小结 | https://mp.weixin.qq.com/s?__biz=Mzg5NDU3NDA3OQ==&mid=2247484752&idx=1&sn=2cb0b92684ebb64f512bd4df6c57d535 | 5| 
 | 阿里云应急响应 | gh_12f3517e40de | 【漏洞预警】Hadoop Yarn RPC未授权访问漏洞 | https://mp.weixin.qq.com/s?__biz=MzI5MzY2MzM0Mw==&mid=2247486205&idx=1&sn=6e581f7f16eccfee3ae9420227c26ca6 | 1| 
@@ -58,11 +60,9 @@
 | 看雪学苑 | ikanxue | 2021看雪SDC议题回顾 , SaTC：一种全新的物联网设备漏洞自动化挖掘方法 | https://mp.weixin.qq.com/s/HAmL9rB8zmEsF-o906gCIg | 6| 
 | 渗透测试教程 | bzhack | windows命令执行防御规避总结 | https://mp.weixin.qq.com/s?__biz=MzI3OTIwNDkzNQ==&mid=2651836432&idx=1&sn=0af92d58915bc6f7500f40b6279a64eb | 1| 
 | 渊龙Sec安全团队 | Aabyss-Team | 简简单单实现免杀 | https://mp.weixin.qq.com/s?__biz=Mzg4NTY0MDg1Mg==&mid=2247483989&idx=1&sn=3d4fccd1945d4cf57102cad64aafe220 | 1| 
-| 微步在线研究响应中心 | gh_c108d4d389bf | 相煎何急，印APT组织蔓灵花针对巴基斯坦政府机构展开定向攻击 | https://mp.weixin.qq.com/s?__biz=MzA5MDc1NDc1MQ==&mid=2247490474&idx=1&sn=1c4dd07b5d5da73acd7a5c2a5bfcf200 | 1| 
 | 奇安信技术研究院 | jishuyanjiuyuan001 | 【年度报告连载五】电子邮件安全拓展协议现状 | https://mp.weixin.qq.com/s?__biz=Mzg4OTU4MjQ4Mg==&mid=2247485107&idx=1&sn=4d2fc77ec8d5936c9280320ed58ae453 | 1| 
 | 关键基础设施安全应急响应中心 | CII-SRC | 微软警告： 钓鱼工具TodayZoo 被广泛用于证书窃取攻击 | https://mp.weixin.qq.com/s?__biz=MzkyMzAwMDEyNg==&mid=2247521996&idx=3&sn=0e3fab31170df80671b66c412630a9a6 | 3| 
 | 不懂安全的校长 | sectip | 内网渗透 , 2. Windows Powershell入门 | https://mp.weixin.qq.com/s?__biz=MzkyMzI3OTY4Mg==&mid=2247484810&idx=1&sn=9ee815b8caa3e4e51016e8046a6a78f2 | 3| 
-| Ots安全 | AnQuan7 | PHP-FPM 本地根漏洞 | https://mp.weixin.qq.com/s?__biz=MzAxMjYyMzkwOA==&mid=2247493369&idx=2&sn=151fceb0fd3739eb98f77f133d24528d | 2| 
 | LemonSec | lemon-sec | 对Linux—suid提权的一些总结 | https://mp.weixin.qq.com/s?__biz=MzUyMTA0MjQ4NA==&mid=2247518206&idx=2&sn=4a0e656ad35aca2a918fd91fd7eb2426 | 6| 
 | ChaMd5安全团队 | chamd5sec | 新·8220挖矿团伙样本分析报告 | https://mp.weixin.qq.com/s?__biz=MzIzMTc1MjExOQ==&mid=2247498625&idx=1&sn=c1ffa200545713c99d9a8d254c2875d3 | 1| 
 | 默安逐日实验室 | gh_995a1a9f25b5 | 容器环境红队手法总结 | https://mp.weixin.qq.com/s?__biz=MzkxMjI3MDgwOA==&mid=2247483918&idx=1&sn=97ae72dc1fbabefb2b19355592ef5a6a | 1| 
@@ -87,7 +87,7 @@
 | 看雪学院 | ikanxue | 基于linker实现so加壳补充-------从dex中加载so | https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458402519&idx=1&sn=a42e81b669d38f9ff8ed1a8d941b3f2f | 1| 
 | 哈拉少安全小队 | gh_b273ce95df95 | 【反序列化利用链通用思路】OkayCMS&Smarty反序列化利用链详细分析 | https://mp.weixin.qq.com/s?__biz=MzAxNzkyOTgxMw==&mid=2247487771&idx=1&sn=8f9a417964064fc54c50d55b111091be | 1| 
 | 安全初心 | securityheart | 工具 , \nVMInjector绕过虚拟机登录验证屏幕的工具 | https://mp.weixin.qq.com/s?__biz=MzU4NzU4MDg0Mw==&mid=2247486724&idx=1&sn=4586b52a037ae8fa5ea3f6c90bf78eed | 2| 
-| 邑安全 | EansecD | PurpleFox 添加了使用 WebSockets 的新后门 | https://mp.weixin.qq.com/s?__biz=MzUyMzczNzUyNQ==&mid=2247509027&idx=2&sn=8877ebc44f5371a55227dd6ab44a1f4e | 10| 
+| 邑安全 | EansecD | PurpleFox 添加了使用 WebSockets 的新后门 | https://mp.weixin.qq.com/s?__biz=MzUyMzczNzUyNQ==&mid=2247509027&idx=2&sn=8877ebc44f5371a55227dd6ab44a1f4e | 11| 
 | 胖猴实验室 | gh_1623eeae8094 | 天府杯华硕会战的围剿与反围剿 | https://mp.weixin.qq.com/s/k1ouK1Gyxpped0ZK4H4h7g | 1| 
 | 电子与信息学报 | dzyxxxb | Top100密码学经典论文大盘点 | https://mp.weixin.qq.com/s/iZ7X9bC4yRutkYWiCxuApQ | 1| 
 | CodeWisdom | gh_2395906a410f | 技术分享｜基于优化搜索的API序列推荐 | https://mp.weixin.qq.com/s/jbR2nfIGcAjRS-dceTag8Q | 1| 
@@ -130,7 +130,7 @@
 | 石头安全 | gh_bdb076c55582 | WriteUP-6days_lab 靶机 | https://mp.weixin.qq.com/s?__biz=MzkxNTIxOTkzMQ==&mid=2247484327&idx=1&sn=bf8abff5cee1083527869e5ebcc747bc | 1| 
 | 盾山实验室 | DunShanRR | ImHex：十六进制编辑器 | https://mp.weixin.qq.com/s?__biz=MzkzMjIwMDY4Nw==&mid=2247485688&idx=1&sn=486c37df65b6479bc9f5e8735039d002 | 3| 
 | 疯猫网络 | iloscat | 内网渗透之横向移动—票据传递攻击研究 | https://mp.weixin.qq.com/s?__biz=MzIyMzE5NTQ3Ng==&mid=2650621978&idx=1&sn=f81afa298a18910f8989b8fbf0f10df7 | 10| 
-| 灼剑安全团队 | Tsojan | 漏洞复现｜Struts2系列漏洞复现总结 | https://mp.weixin.qq.com/s?__biz=Mzg5OTY1ODMxMg==&mid=2247488794&idx=1&sn=50b2dfda6cac8ae20b0050f99207a207 | 6| 
+| 灼剑安全团队 | Tsojan | 漏洞复现｜Struts2系列漏洞复现总结 | https://mp.weixin.qq.com/s?__biz=Mzg5OTY1ODMxMg==&mid=2247488794&idx=1&sn=50b2dfda6cac8ae20b0050f99207a207 | 7| 
 | 渗透Xiao白帽 | SuPejkj | 【移动安全】Android App—HTTPS证书校验绕过 | https://mp.weixin.qq.com/s?__biz=MzI1NTM4ODIxMw==&mid=2247490402&idx=1&sn=fb65c5e0df9b962f133b492cc05292f9 | 7| 
 | 开源聚合网络空间安全研究院 | OSPtech_Cyberspace | 【挖金宝典】SRC信息收集思路分享 | https://mp.weixin.qq.com/s?__biz=MzI4NTE4NDAyNA==&mid=2650390038&idx=1&sn=91b2fae4b2bf29ec89a865fdd6766916 | 1| 
 | 平安集团安全应急响应中心 | PSRC_Team | Nexus Repository Manager历史表达式注入漏洞分析 | https://mp.weixin.qq.com/s?__biz=MzIzODAwMTYxNQ==&mid=2652140927&idx=1&sn=9a6fe102df545083af8516b69931685c | 1| 
@@ -139,7 +139,7 @@
 | 安全宇宙 | knownsec818 | 【创宇小课堂】渗透测试-移动端各种方式抓包 | https://mp.weixin.qq.com/s?__biz=MzAxMDc5NzYwNQ==&mid=2652409428&idx=1&sn=8dd83d91f389d463897ebc6ebd27ce9c | 3| 
 | 安全学术圈 | secquan | TrustCom会议小记 | https://mp.weixin.qq.com/s/itQMU8HwacjfMsI9cFF6VA | 6| 
 | 威胁棱镜 | THREAT_PRISM | 破解版密钥相同，部分CobaltStrike加密流量可解 | https://mp.weixin.qq.com/s/AcIFSjyqn9gzyRkyx3sRIQ | 7| 
-| 嘶吼专业版 | Pro4hou | Windows 0 day漏洞影响所有Windows版本 | https://mp.weixin.qq.com/s?__biz=MzI0MDY1MDU4MQ==&mid=2247530978&idx=2&sn=4b867ec41babda4f35cb49ef4acbd517 | 11| 
+| 嘶吼专业版 | Pro4hou | Windows 0 day漏洞影响所有Windows版本 | https://mp.weixin.qq.com/s?__biz=MzI0MDY1MDU4MQ==&mid=2247530978&idx=2&sn=4b867ec41babda4f35cb49ef4acbd517 | 13| 
 | 可信系统安全实验室 | gh_296c8139d7e6 | 【11月3讲座回顾】 Building a Secure Open-Source Operating-System Kernel | https://mp.weixin.qq.com/s/UpB07tQxK5vvYl1alSQY3A | 1| 
 | 代码卫士 | codesafe | 苹果新漏洞 “Shrootless” 可使攻击者在macOS 系统上安装后门 | https://mp.weixin.qq.com/s?__biz=MzI2NTg4OTc5Nw==&mid=2247508847&idx=1&sn=dbe1ae6473c7b27b86e378fed65af24d | 3| 
 | 乌雲安全 | hackctf | 实战,利用SCF文件攻击进行渗透实战 | https://mp.weixin.qq.com/s?__biz=MzAwMjA5OTY5Ng==&mid=2247499586&idx=1&sn=cf4db3553c243c50a465d1f3e901d75c | 5| 
