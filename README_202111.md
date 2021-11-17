@@ -85,7 +85,7 @@
 | 广软NSDA安全团队 | gh_72de97d4e162 | 内网渗透初探 | https://mp.weixin.qq.com/s?__biz=MzUzMDg5NDQ0Nw==&mid=2247489476&idx=1&sn=a39eed3450e581385b862c09ae556f9f | 1| 
 | 小黑的安全笔记 | x1a0heI | 云服务器ftp被动和主动模式都连接失败 | https://mp.weixin.qq.com/s?__biz=MzI4Njk5NjY4OQ==&mid=2247485823&idx=1&sn=43b52f2f7163fba10cf4ba466a3bac29 | 1| 
 | 奇安信威胁情报中心 | gh_166784eae33e | APT活动中的Windows系统本地提权漏洞及技术分析 | https://mp.weixin.qq.com/s/6mT0O9eur5-VEs0rbV0-mg | 4| 
-| 三六零CERT | CERT-360 | CVE-2021-43267:Linux Kernel TIPC远程代码执行漏洞通告 | https://mp.weixin.qq.com/s?__biz=MzU5MjEzOTM3NA==&mid=2247490400&idx=2&sn=bba79003c867c6a443114d71c6ca96d8 | 4| 
+| 三六零CERT | CERT-360 | CVE-2021-43267:Linux Kernel TIPC远程代码执行漏洞通告 | https://mp.weixin.qq.com/s?__biz=MzU5MjEzOTM3NA==&mid=2247490400&idx=2&sn=bba79003c867c6a443114d71c6ca96d8 | 5| 
 | Linux学习 | LoveLinux1024 | Linux 服务器日常巡检脚本分享 | https://mp.weixin.qq.com/s?__biz=MzI4MDEwNzAzNg==&mid=2649455213&idx=2&sn=93ed9b2bdf233bf7a76bd4599e83a2f7 | 2| 
 | 看雪学院 | ikanxue | 基于linker实现so加壳补充-------从dex中加载so | https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458402519&idx=1&sn=a42e81b669d38f9ff8ed1a8d941b3f2f | 1| 
 | 哈拉少安全小队 | gh_b273ce95df95 | 【反序列化利用链通用思路】OkayCMS&Smarty反序列化利用链详细分析 | https://mp.weixin.qq.com/s?__biz=MzAxNzkyOTgxMw==&mid=2247487771&idx=1&sn=8f9a417964064fc54c50d55b111091be | 1| 
@@ -102,7 +102,7 @@
 | 维他命安全 | VitaminSecurity | Kaspersky：2021年第三季度APT趋势报告 | https://mp.weixin.qq.com/s?__biz=MzUxMDQzNTMyNg==&mid=2247497329&idx=4&sn=59398eae7413bf53354637d4214e320a | 5| 
 | 盘古石取证 | Panguite_CN | 基于web日志的溯源 | https://mp.weixin.qq.com/s?__biz=Mzg3MjE1NjQ0NA==&mid=2247491660&idx=1&sn=abe114ae2d012b570a7b7d26534de400 | 1| 
 | 火线Zone | huoxian_zone | 常见Android组件/控件漏洞 | https://mp.weixin.qq.com/s?__biz=MzI2NDQ5NTQzOQ==&mid=2247489647&idx=1&sn=2759a30b6777c7a876ef13e72eaaebfc | 2| 
-| 潇湘信安 | xxxasec | 记一次SSRF+HFS命令执行回显相关研究 | https://mp.weixin.qq.com/s?__biz=Mzg4NTUwMzM1Ng==&mid=2247492576&idx=1&sn=976bd65bfa66824ccfa2eddd4f70ec2a | 7| 
+| 潇湘信安 | xxxasec | 记一次SSRF+HFS命令执行回显相关研究 | https://mp.weixin.qq.com/s?__biz=Mzg4NTUwMzM1Ng==&mid=2247492576&idx=1&sn=976bd65bfa66824ccfa2eddd4f70ec2a | 8| 
 | 安全客 | anquanbobao | 【技术分享】剖析脏牛4_madvise()与漏洞成因 | https://mp.weixin.qq.com/s?__biz=MzA5ODA0NDE2MA==&mid=2649756378&idx=2&sn=aeda5f3deedf8d45f42227827a831bf7 | 7| 
 | 利刃信安 | LRXAEGZ | Mac Nessus 10.0.0 | https://mp.weixin.qq.com/s?__biz=MzU1Mjk3MDY1OA==&mid=2247493357&idx=1&sn=0b874172955fd93014a647199b12d71b | 2| 
 | 互联网安全内参 | anquanneican | 警惕：GitLab RCE漏洞 (CVE-2021-22205) 已被广泛利用 | https://mp.weixin.qq.com/s?__biz=MzI4NDY2MDMwMw==&mid=2247500089&idx=3&sn=3c3184baa420ef76c5bab547c905f3bf | 1| 
