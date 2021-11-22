@@ -3,7 +3,7 @@ C	37
 Java	31
 JavaScript	29
 Go	28
-C++	24
+C++	25
 Shell	21
 HTML	21
 TypeScript	14
