@@ -1,0 +1,19 @@
+20211115	观点	https://mp.weixin.qq.com/s/R42H1JbzF71TeirCWpitpg	从网安龙头视角解读“十四五”规划结构	qq.com	mp.weixin.qq.com	/s/R42H1JbzF71TeirCWpitpg
+20211115	Web安全	https://mp.weixin.qq.com/s/HKsc2EajaZTLPSnX2GqeKg	API安全生命周期	qq.com	mp.weixin.qq.com	/s/HKsc2EajaZTLPSnX2GqeKg
+20211115	编程技术	https://github.com/spring2go/cs_study_plan	一份硬核(hardcore)计算机科学CS自学计划	github.com	github.com	/spring2go/cs_study_plan
+20211115	恶意分析	https://mp.weixin.qq.com/s/aRTiWvy93tKMy6tseBOxzw	三个开源 C&C 框架的流量检测	qq.com	mp.weixin.qq.com	/s/aRTiWvy93tKMy6tseBOxzw
+20211115	其它	https://www.sec-in.com/article/1116	Vulnhub-vulncms	sec-in.com	www.sec-in.com	/article/1116
+20211115	恶意分析	https://mp.weixin.qq.com/s/IRPhscsoFe7_O-LrpBSIww	如何利用 r2diaphora 判断样本相似性	qq.com	mp.weixin.qq.com	/s/IRPhscsoFe7_O-LrpBSIww
+20211115	杂志	https://www.sec-wiki.com/weekly/402	SecWiki周刊（第402期)	sec-wiki.com	www.sec-wiki.com	/weekly/402
+20211115	取证分析	https://mp.weixin.qq.com/s/zE_nzkmlGDwRW9xQ2uv_dQ	BlackWidow：监控暗网中的网络安全信息	qq.com	mp.weixin.qq.com	/s/zE_nzkmlGDwRW9xQ2uv_dQ
+20211115	编程技术	https://mp.weixin.qq.com/s/91U8tAItrhD1CrlmD7ovMQ	如何打造一个网络扫描分析平台 - Part II	qq.com	mp.weixin.qq.com	/s/91U8tAItrhD1CrlmD7ovMQ
+20211115	取证分析	https://mp.weixin.qq.com/s/cCXt6FUEYGd6s9cg5VFN0Q	行为测绘应用实战 一网打尽 Trickbot C2	qq.com	mp.weixin.qq.com	/s/cCXt6FUEYGd6s9cg5VFN0Q
+20211115	Web安全	https://mp.weixin.qq.com/s/QVPW7qpuIs-qZ52kPt1_HA	学习K8S中常见的21种攻击方式	qq.com	mp.weixin.qq.com	/s/QVPW7qpuIs-qZ52kPt1_HA
+20211115	恶意分析	https://security.tencent.com/index.php/blog/msg/208	虚拟货币挖矿检测与防御	tencent.com	security.tencent.com	/index.php/blog/msg/208
+20211115	编程技术	https://github.com/ssssssss-team/spider-flow	spider-flow: 新一代图形化爬虫平台	github.com	github.com	/ssssssss-team/spider-flow
+20211115	会议	https://mp.weixin.qq.com/s/LAkQWPh8QT1vUN8PXdDOYw	ICICS 2021 论文录用列表	qq.com	mp.weixin.qq.com	/s/LAkQWPh8QT1vUN8PXdDOYw
+20211115	漏洞分析	https://zhuanlan.zhihu.com/p/433608077	Devign:基于GNN的源代码漏洞检测	zhihu.com	zhuanlan.zhihu.com	/p/433608077
+20211115	恶意分析	https://mp.weixin.qq.com/s/Vb1lIyuVR27hWk8Jh98_Sw	谁在篡改我的可信根证书仓库？	qq.com	mp.weixin.qq.com	/s/Vb1lIyuVR27hWk8Jh98_Sw
+20211115	恶意分析	https://mp.weixin.qq.com/s/-oImqjZyYDiODYWg98xWZw	利用统计方式检测beacon通信	qq.com	mp.weixin.qq.com	/s/-oImqjZyYDiODYWg98xWZw
+20211115	运维安全	https://mp.weixin.qq.com/s/cRoj5RFADd4Arap4vI_VTg	SOC分析师对安全警报的看法	qq.com	mp.weixin.qq.com	/s/cRoj5RFADd4Arap4vI_VTg
+20211115	漏洞分析	https://mp.weixin.qq.com/s/zHiBVe-1hVM-llC7S2ws4w	研究面向嵌入式设备固件自动化漏洞挖掘	qq.com	mp.weixin.qq.com	/s/zHiBVe-1hVM-llC7S2ws4w
