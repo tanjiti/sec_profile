@@ -233,6 +233,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| Automatic Feature Learning for Predicting Vulnerable Softw... | https://zhuanlan.zhihu.com/p/435957686| 
 | Devign:基于GNN的源代码漏洞检测 | https://zhuanlan.zhihu.com/p/433608077| 
 | 学习和使用知识图谱需要知道的一些事情 | https://zhuanlan.zhihu.com/p/433073550| 
 
