@@ -1,9 +1,9 @@
 Python	1098
-C	684
+C	685
 JavaScript	682
 C++	553
 HTML	493
-Shell	473
+Shell	474
 Java	472
 Go	401
 C#	274
@@ -16,7 +16,7 @@ Objective-C	145
 Rust	118
 Jupyter	105
 Perl	77
-Dockerfile	72
+Dockerfile	73
 Swift	69
 Assembly	68
 Lua	63
@@ -73,6 +73,7 @@ Tcl	5
 Common	5
 WebAssembly	4
 VHDL	4
+SCSS	4
 Vala	4
 OpenEdge	4
 Cuda	4
@@ -84,7 +85,6 @@ Standard	3
 Jsonnet	3
 VBScript	3
 SQLPL	3
-SCSS	3
 PostScript	3
 SystemVerilog	3
 AGS	2

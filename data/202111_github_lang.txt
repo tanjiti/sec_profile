@@ -1,9 +1,12 @@
+C	2
 C++	2
 Ruby	2
-C	1
+SCSS	1
+Shell	1
 Java	1
 Classic	1
 Python	1
+Dockerfile	1
 JavaScript	1
 HTML	1
 Go	1
