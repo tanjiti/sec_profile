@@ -34,6 +34,7 @@
 # 私人github账号 推荐
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
+| l0ggg | VMware vCenter 7.0.2.00100 版本任意文件读、SSRF、XSS 漏洞 | https://github.com/l0ggg/VMware_vCenter | https://github.com/l0ggg?tab=followers |  | None | None | 2 | 0 | 0 | 0 | 0 | Java | 0 | 0 | 1| 
 
 
 # medium_xuanwu 推荐
