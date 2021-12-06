@@ -14,6 +14,14 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 安全学术圈 | secquan | 利用轻量级权限系统遏制恶意NPM软件包更新 | https://mp.weixin.qq.com/s/XTbY3plfEpuPhYc7KQdnaA | 3| 
+| 金融电子化 | fcmag1993 | 孙磊：数据中心智能安全运营体系建设探索与实践 | https://mp.weixin.qq.com/s/omM1xphG_ie9GDjsu34s3w | 1| 
+| 绿盟科技研究通讯 | nsfocus_research | 原创 , 从研究工控设备到发现供应链威胁 | https://mp.weixin.qq.com/s/-ihOJFNP5OaTy6BNr2uxrA | 1| 
+| 虎符智库 | TT_Thinktank | 美国“加强软件供应链安全实践的指南” (SSDF V1.1草案)解读来了 | https://mp.weixin.qq.com/s/T3XNl-A1-KgdVElogKzSLQ | 1| 
+| 网空闲话 | cyberspacechat | 铁路系统网络安全怎么搞？ENISA这份最新报告支大招！ | https://mp.weixin.qq.com/s/SMqKIquuJE6EIvXCcX70wA | 1| 
+| 看雪学苑 | ikanxue | 协议Fuzz工具整合 | https://mp.weixin.qq.com/s/N8JDSZB9AVcOuZ260asQQg | 1| 
+| 数据法盟 | Datalaws | 重磅全文 ,《上海市数据条例》公布 | https://mp.weixin.qq.com/s/_sCL1FBQe3hJNhIZrnVdwQ | 1| 
+| 安全攻防团队 | gh_983c1037a3f6 | DotNet内存马-HttpListener | https://mp.weixin.qq.com/s/zsPPkhCZ8mhiFZ8sAohw6w | 1| 
 | 雁行安全团队 | YX_Security | 信息搜集和密码利用的思路 | https://mp.weixin.qq.com/s/HbnXhaN0QdlqTW7f__NFHA | 1| 
 | 路云天网络安全研究院 | gh_5237039d3db1 | 云天百家第5期：5G专网安全风险与技术方案 | https://mp.weixin.qq.com/s/6K3RQtjzAvtyYNkavuHuaw | 1| 
 | 清华五道口MBA | pbcsf-fmba | 政策研究｜关于金融科技安全的认识与思考 | https://mp.weixin.qq.com/s/n63l4LOiViv5p9I2ELI2gg | 1| 
@@ -34,7 +42,9 @@
 # 私人github账号 推荐
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
+| wecooperate | iMonitorSDK: 系统监控开发套件API | https://github.com/wecooperate/iMonitorSDK | https://github.com/wecooperate?tab=followers | 人因梦想而伟大 | None | None | 6 | 0 | 0 | 0 | 0 | C++ | 0 | 0 | 1| 
 | l0ggg | VMware vCenter 7.0.2.00100 版本任意文件读、SSRF、XSS 漏洞 | https://github.com/l0ggg/VMware_vCenter | https://github.com/l0ggg?tab=followers |  | None | None | 2 | 0 | 0 | 0 | 0 | Java | 0 | 0 | 1| 
+| SkewwG | henggeFish: 自动化批量发送钓鱼邮件 | https://github.com/SkewwG/henggeFish | https://github.com/SkewwG?tab=followers |  | None | None | 26 | 0 | 0 | 0 | 0 | Python,Go,C,C++ | 0 | 0 | 1| 
 
 
 # medium_xuanwu 推荐
