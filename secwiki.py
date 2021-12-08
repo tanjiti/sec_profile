@@ -227,7 +227,7 @@ def parse_all(fnames=None, renew=False, proxy=None):
                             values(?,?,?,?,?,?,?);"""
 
     # file handler
-    print(nos)
+
     result_fname = path("data/secwiki_{start}_{end}.txt".format(
         start=nos.keys()[0],
         end=nos.keys()[-1]

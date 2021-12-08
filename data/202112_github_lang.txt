@@ -1,5 +1,1 @@
-C++	2
-Python	1
-Go	1
-C	1
 Java	1
