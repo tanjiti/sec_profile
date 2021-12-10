@@ -14,6 +14,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 阿里云应急响应 | gh_12f3517e40de | 【漏洞预警】Apache Log4j2 远程代码执行漏洞二次更新通告 | https://mp.weixin.qq.com/s/AuBchaUvFw2pisVw6rNX5A | 1| 
+| 安全学术圈 | secquan | 基于POI和查询似然的微博用户地理位置推演 | https://mp.weixin.qq.com/s/OtlCMVceCi5syVOaG5Fpzg | 3| 
+| 威胁棱镜 | THREAT_PRISM | 僵尸网络是如何应对执法行动的？ | https://mp.weixin.qq.com/s/okOIk2Ery3FdvtHIGtjr_Q | 1| 
 | 长亭安全课堂 | chaitintech_release | 反向探测互联网扫描器 | https://mp.weixin.qq.com/s/Cha_hTGOh-GGVkaZRdFujw | 1| 
 | 看雪学苑 | ikanxue | 基于模糊加权随机森林算法的恶意软件检测 | https://mp.weixin.qq.com/s/ytvN73RMv4b9NtSs0vqqPg | 1| 
 | 数世咨询 | dwconcn | 利用DoH技术加密传输的DNS隧道流量检测分析 | https://mp.weixin.qq.com/s/TY17e0hpW0b9n4eQtcvaeg | 1| 
@@ -24,7 +27,6 @@
 | 海淀检察院 | hdpp1955 | 全文｜海淀区检察院发布《网络科技犯罪典型案例》 | https://mp.weixin.qq.com/s/GSod_Mbebfc5tIyNN7uusg | 1| 
 | 安全乐观主义 | gh_d6239d0bb816 | 安全运营项目的工作方法 | https://mp.weixin.qq.com/s/UkOHsg5I6v8JJrsKucEewA | 1| 
 | Netlab 三六零 | Netlab_360 | 解析服务提供商对非授权域名解析情况的评估 | https://mp.weixin.qq.com/s/v5kcg9XZGb8DwtpNgHXRCQ | 1| 
-| 安全学术圈 | secquan | 利用轻量级权限系统遏制恶意NPM软件包更新 | https://mp.weixin.qq.com/s/XTbY3plfEpuPhYc7KQdnaA | 2| 
 | 金融电子化 | fcmag1993 | 孙磊：数据中心智能安全运营体系建设探索与实践 | https://mp.weixin.qq.com/s/omM1xphG_ie9GDjsu34s3w | 1| 
 | 绿盟科技研究通讯 | nsfocus_research | 原创 , 从研究工控设备到发现供应链威胁 | https://mp.weixin.qq.com/s/-ihOJFNP5OaTy6BNr2uxrA | 1| 
 | 数据法盟 | Datalaws | 重磅全文 ,《上海市数据条例》公布 | https://mp.weixin.qq.com/s/_sCL1FBQe3hJNhIZrnVdwQ | 1| 
