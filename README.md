@@ -16,7 +16,7 @@
 | --- | --- | --- | ---| 
 | 青衣十三楼飞花堂 | gh_9feb5a276a2a | Gmail对附件的限制 | https://mp.weixin.qq.com/s/z30VMqz1dOAmAazOSegvuQ | 1| 
 | 杨小时的杂货铺 | yxszahuopu | HTB-467-Noter | https://mp.weixin.qq.com/s?__biz=MzIzNDc4NzMxOQ==&mid=2247483660&idx=1&sn=2c882883f2e757207d57c1e36b1ed8c1&chksm=e8f05994df87d082d7ce2f944de5b91d6f3bb0f8613f325b824e9a3eaa71c9b2bdfb2f43c8dc#rd | 1| 
-| 安全研究GoSSIP | GoSSIPSJTU | IEEE S&P 2022 云端报道（3） | https://mp.weixin.qq.com/s/B0dNIY1gkLUP_klJheAuQg | 3| 
+| 安全研究GoSSIP | GoSSIPSJTU | IEEE S&P 2022 云端报道（2） | https://mp.weixin.qq.com/s/5GE3s18ZPiYCeIu6ajSedw | 3| 
 | 我的安全视界观 | CANI_Security | 【应急能力提升3】内网横向移动攻击模拟（上） | https://mp.weixin.qq.com/s/gy8fp455ZgE-8aHwBDPl5A | 4| 
 | 国家网络威胁情报共享开放平台 | CNTIC2017 | Cobalt Strike 分析：CS元数据编码和解码 | https://mp.weixin.qq.com/s/lXpYU9VhZd4nw2YjeUK4rQ | 1| 
 | Tide安全团队 | TideSec | 微信小程序反编译 | https://mp.weixin.qq.com/s/OQWU0wSAUhaM6QaaT6-CXA | 1| 
@@ -65,6 +65,7 @@
 | e-m-b-a | emba - 嵌入式设备固件分析工具 EMBA 更新 v1.0 版本 | https://github.com/e-m-b-a/emba | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Shell,HTML | 0 | 0 | 1| 
 | ctripcorp | flybirds: 基于自然语言的，跨端跨框架 BDD UI 自动化测试方案 | https://github.com/ctripcorp/flybirds | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Kotlin,C,JavaScript,Java | 0 | 0 | 1| 
 | blackorbird | 俄罗斯 Wizard Spider APT 组织分析 | https://github.com/blackorbird/APT_REPORT/blob/master/Wizard%20Spider/WizardSpider_TLPWHITE_v.1.4.pdf | https://github.com/blackorbird?tab=followers | APT hunter threat analyst | https://twitter.com/blackorbird | https://twitter.com/blackorbird | 46 | 0 | 126 | 0 | 0 | Python,C | 0 | 0 | 1| 
+| binarly-io | 固件供应链安全及其已知漏洞的检测 | https://github.com/binarly-io/Research_Publications/tree/main/BHASIA_2022 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Go,JavaScript,Shell,C++ | 0 | 0 | 1| 
 | alibaba | Fastjson 1.2.80 及以下版本存在绕过默认 autoType 关闭的限制，实现远程代码执行 | https://github.com/alibaba/fastjson/wiki/security_update_20220523 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,Go | 0 | 0 | 1| 
 | ThestaRY7 | supplier: 主流供应商的一些攻击性漏洞汇总 | https://github.com/ThestaRY7/supplier | https://github.com/ThestaRY7?tab=followers |  | None | None | 29 | 0 | 130 | 0 | 0 | Python,Vue,JavaScript | 0 | 0 | 1| 
 | RhinoSecurityLabs | GCP IAM 提权相关的资料整理 | https://github.com/RhinoSecurityLabs/GCP-IAM-Privilege-Escalation | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Go | 0 | 0 | 1| 
