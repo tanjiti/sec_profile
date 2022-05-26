@@ -1,0 +1,31 @@
+20191118	法规	https://mp.weixin.qq.com/s/uu3fnM8OzC8JRcIiJkIX8w	网络安全威胁信息发布管理办法（征求意见稿）	qq.com	mp.weixin.qq.com	/s/uu3fnM8OzC8JRcIiJkIX8w
+20191118	新闻	https://mp.weixin.qq.com/s/ZxYS6Dwa2XVOZ8ku-PbKog	司法大数据专题报告：网络犯罪特点和趋势	qq.com	mp.weixin.qq.com	/s/ZxYS6Dwa2XVOZ8ku-PbKog
+20191118	漏洞分析	https://www.anquanke.com/post/id/193065	跟小黑学漏洞利用开发之egghunter	anquanke.com	www.anquanke.com	/post/id/193065
+20191118	其它	https://mp.weixin.qq.com/s/kEH85B2L8hsTKQjaSluTVQ	计算机与网络安全系列书单推荐	qq.com	mp.weixin.qq.com	/s/kEH85B2L8hsTKQjaSluTVQ
+20191118	Web安全	https://github.com/1120362990/vulnerability-list	vulnerability-list: 渗透测试中快速检测常见中间件、组件的高危漏洞	github.com	github.com	/1120362990/vulnerability-list
+20191118	数据挖掘	https://tech.meituan.com/2019/11/14/nlp-bert-practice.html	美团BERT的探索和实践	meituan.com	tech.meituan.com	/2019/11/14/nlp-bert-practice.html
+20191118	Web安全	https://xz.aliyun.com/t/6733	从锐捷某系统鸡肋XSS到通用WAF绕过	aliyun.com	xz.aliyun.com	/t/6733
+20191118	比赛	https://xz.aliyun.com/t/6746	2019红帽杯 Writeup by X1cT34m	aliyun.com	xz.aliyun.com	/t/6746
+20191118	恶意分析	https://mp.weixin.qq.com/s/YcQRAkRRo63OnRYWokl0nw	如何基于沙箱的威胁情报平台上搭建ATT&CK展示界面？	qq.com	mp.weixin.qq.com	/s/YcQRAkRRo63OnRYWokl0nw
+20191118	漏洞分析	https://mp.weixin.qq.com/s/ziri8oOb4aF26nB1DBaPrQ	Fuzzing平台建设的研究与设计	qq.com	mp.weixin.qq.com	/s/ziri8oOb4aF26nB1DBaPrQ
+20191118	论文	https://mp.weixin.qq.com/s/gYqamT3WXiyj79mjBQYRiA	白泽带你去参会@CCS19, London, UK丨论文分享（上）	qq.com	mp.weixin.qq.com	/s/gYqamT3WXiyj79mjBQYRiA
+20191118	Web安全	https://xz.aliyun.com/t/6755	从Kibana-RCE对nodejs子进程创建的思考	aliyun.com	xz.aliyun.com	/t/6755
+20191118	Web安全	https://paper.seebug.org/1078/	代码分析引擎 CodeQL 初体验	seebug.org	paper.seebug.org	/1078/
+20191118	杂志	https://www.sec-wiki.com/weekly/298	SecWiki周刊（第298期)	sec-wiki.com	www.sec-wiki.com	/weekly/298
+20191118	观点	https://mp.weixin.qq.com/s/TWGUSmSaXc56KW9CzfPOCQ	网络空间测绘的生与死（一）	qq.com	mp.weixin.qq.com	/s/TWGUSmSaXc56KW9CzfPOCQ
+20191118	恶意分析	https://xz.aliyun.com/t/6782	分析并使用python3编写meterpreter加载器绕过AV	aliyun.com	xz.aliyun.com	/t/6782
+20191118	漏洞分析	https://mp.weixin.qq.com/s/UZ7VdGSUGSvoo-6GVl53qg	容器逃逸成真：从CTF解题到CVE-2019-5736漏洞挖掘分析	qq.com	mp.weixin.qq.com	/s/UZ7VdGSUGSvoo-6GVl53qg
+20191118	移动安全	https://security.tencent.com/index.php/blog/msg/137	浅析常见Debug调试器的安全隐患	tencent.com	security.tencent.com	/index.php/blog/msg/137
+20191118	Web安全	https://mp.weixin.qq.com/s/YcH2P38_N4aZtGAc2ktkJw	从Black Hat Speaker到国内外研究者：强化学习的安全应用	qq.com	mp.weixin.qq.com	/s/YcH2P38_N4aZtGAc2ktkJw
+20191118	恶意分析	https://corelight.blog/2019/11/19/corelight-ssh-inference-package/	Introducing the Corelight SSH Inference Package	corelight.blog	corelight.blog	/2019/11/19/corelight-ssh-inference-package/
+20191118	漏洞分析	https://research.securitum.com/xss-in-amp4email-dom-clobbering/	XSS in GMails AMP4Email via DOM Clobbering	securitum.com	research.securitum.com	/xss-in-amp4email-dom-clobbering/
+20191118	数据挖掘	https://www.anquanke.com/post/id/193041	使用TextCNN模型探究恶意软件检测问题	anquanke.com	www.anquanke.com	/post/id/193041
+20191118	恶意分析	https://blog.netlab.360.com/the-awaiting-roboto-botnet/	潜伏者：Roboto Botnet 分析报告	360.com	blog.netlab.360.com	/the-awaiting-roboto-botnet/
+20191118	其它	https://github.com/npubird/KnowledgeGraphCourse	东南大学《知识图谱》研究生课程	github.com	github.com	/npubird/KnowledgeGraphCourse
+20191118	观点	https://mp.weixin.qq.com/s/CRMP9CblEWGvTFhul3G-Mw	网络空间测绘的生与死（二）	qq.com	mp.weixin.qq.com	/s/CRMP9CblEWGvTFhul3G-Mw
+20191118	恶意分析	https://github.com/pan-unit42/public_tools/tree/master/powershellprofiler	Powershell自动反混淆工具	github.com	github.com	/pan-unit42/public_tools/tree/master/powershellprofiler
+20191118	恶意分析	https://mp.weixin.qq.com/s/3B9e0FltRSYWyu96NQp5Tw	关于近日门罗币供应链攻击事件分析	qq.com	mp.weixin.qq.com	/s/3B9e0FltRSYWyu96NQp5Tw
+20191118	漏洞分析	https://xz.aliyun.com/t/6796	iTerm2 任意命令执行漏洞分析（CVE-2019-9535）	aliyun.com	xz.aliyun.com	/t/6796
+20191118	运维安全	https://www.solidot.org/story?sid=62703	CSIS发布安全固件开发最佳实践v1.1	solidot.org	www.solidot.org	/story
+20191118	数据挖掘	https://mp.weixin.qq.com/s/adkQr051QFzID4tEtPwjyQ	微软开源可解释机器学习框架 interpret 实践	qq.com	mp.weixin.qq.com	/s/adkQr051QFzID4tEtPwjyQ
+20191118	其它	https://mp.weixin.qq.com/s/O99wDByj00kCXRPwzGhRSg	靶场发展态势④美国家网络空间靶场（NCR）1	qq.com	mp.weixin.qq.com	/s/O99wDByj00kCXRPwzGhRSg

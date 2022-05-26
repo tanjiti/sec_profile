@@ -1,0 +1,27 @@
+20190715	新闻	https://mp.weixin.qq.com/s/7_osWtZV3UZ5KuaoIzt7rA	中国自主可控行业全景图	qq.com	mp.weixin.qq.com	/s/7_osWtZV3UZ5KuaoIzt7rA
+20190715	观点	https://mp.weixin.qq.com/s/HMvGOiUIwjMKBNE2j5qIBQ	自动化在现代安全中的运用	qq.com	mp.weixin.qq.com	/s/HMvGOiUIwjMKBNE2j5qIBQ
+20190715	Web安全	https://github.com/xiangpasama/JDSRC-Small-Classroom	京东SRC小课堂系列文章	github.com	github.com	/xiangpasama/JDSRC-Small-Classroom
+20190715	漏洞分析	https://xz.aliyun.com/t/5680	FastJson最新反序列化漏洞分析	aliyun.com	xz.aliyun.com	/t/5680
+20190715	Web安全	https://github.com/theLSA/discuz-ml-rce	dz-ml-rce.py：discuz ml RCE漏洞检测工具	github.com	github.com	/theLSA/discuz-ml-rce
+20190715	Web安全	https://nosec.org/home/detail/2781.html	特斯拉上价值10000美元的XSS漏洞	nosec.org	nosec.org	/home/detail/2781.html
+20190715	Web安全	https://tmr.js.org/p/a63cefbc/	蚁剑 disable_functions 研究	js.org	tmr.js.org	/p/a63cefbc/
+20190715	运维安全	https://xz.aliyun.com/t/5656	精简版SDL落地实践	aliyun.com	xz.aliyun.com	/t/5656
+20190715	Web安全	https://mp.weixin.qq.com/s/as4WP7RkGaXVI6enlMDktg	浅析Redis中SSRF的利用	qq.com	mp.weixin.qq.com	/s/as4WP7RkGaXVI6enlMDktg
+20190715	比赛	https://xz.aliyun.com/t/5648	赛博杯2019 Write Up	aliyun.com	xz.aliyun.com	/t/5648
+20190715	Web安全	https://nosec.org/home/detail/2784.html	如何暴力破解Instagram的6位验证码	nosec.org	nosec.org	/home/detail/2784.html
+20190715	比赛	https://mp.weixin.qq.com/s/VPaAYUu_W3MTOmfmgVxUjA	线下赛AWD训练平台搭建手册	qq.com	mp.weixin.qq.com	/s/VPaAYUu_W3MTOmfmgVxUjA
+20190715	杂志	https://www.sec-wiki.com/weekly/280	SecWiki周刊（第280期)	sec-wiki.com	www.sec-wiki.com	/weekly/280
+20190715	Web安全	https://www.qiaoyue.net/2019/%E4%BC%81%E4%B8%9A%E6%95%B0%E6%8D%AE%E5%8A%A0%E8%A7%A3%E5%AF%86%E6%96%B9%E6%A1%88/	企业数据加解密方案	qiaoyue.net	www.qiaoyue.net	/2019/%E4%BC%81%E4%B8%9A%E6%95%B0%E6%8D%AE%E5%8A%A0%E8%A7%A3%E5%AF%86%E6%96%B9%E6%A1%88/
+20190715	运维安全	https://nosec.org/home/detail/2789.html	如何设置一个GPO后门并将其隐藏	nosec.org	nosec.org	/home/detail/2789.html
+20190715	漏洞分析	https://blog.orange.tw/2019/07/attacking-ssl-vpn-part-1-preauth-rce-on-palo-alto.html	Attacking SSL VPN - Part 1: PreAuth RCE on Palo Alto GlobalProtect	orange.tw	blog.orange.tw	/2019/07/attacking-ssl-vpn-part-1-preauth-rce-on-palo-alto.html
+20190715	漏洞分析	https://www.corben.io/atlassian-crowd-rce/	Analysis of an Atlassian Crowd RCE - CVE-2019-11580	corben.io	www.corben.io	/atlassian-crowd-rce/
+20190715	观点	https://zhuanlan.zhihu.com/p/73181470	风控引擎的演进及设计思想	zhihu.com	zhuanlan.zhihu.com	/p/73181470
+20190715	漏洞分析	http://riusksk.me/2019/07/14/%E4%B8%80%E4%BA%9B%E5%80%BC%E5%BE%97%E5%AD%A6%E4%B9%A0%E7%9A%84Fuzzer%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/	一些值得学习的Fuzzer开源项目	riusksk.me	riusksk.me	/2019/07/14/%E4%B8%80%E4%BA%9B%E5%80%BC%E5%BE%97%E5%AD%A6%E4%B9%A0%E7%9A%84Fuzzer%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/
+20190715	取证分析	https://github.com/rndinfosecguy/Scavenger	Scavenger: Crawler searching for credential leaks on paste sites	github.com	github.com	/rndinfosecguy/Scavenger
+20190715	取证分析	https://www.v2ex.com/t/583824	监视我自己的手机：数据都去哪儿了？	v2ex.com	www.v2ex.com	/t/583824
+20190715	数据挖掘	https://zhuanlan.zhihu.com/p/74249758	机器学习科研的十年	zhihu.com	zhuanlan.zhihu.com	/p/74249758
+20190715	数据挖掘	http://www.covert.io/getting-started-with-dga-research/	Getting started with DGA Domain Detection Research	covert.io	www.covert.io	/getting-started-with-dga-research/
+20190715	数据挖掘	https://medium.com/@jason_trost/auxiliary-loss-optimization-for-hypothesis-augmentation-for-dga-domain-detection-98c382082514	Auxiliary Loss Optimization for Hypothesis Augmentation for DGA Domain Detection	medium.com	medium.com	/@jason_trost/auxiliary-loss-optimization-for-hypothesis-augmentation-for-dga-domain-detection-98c382082514
+20190715	恶意分析	https://xz.aliyun.com/t/5666	恶意样本家族分类实践	aliyun.com	xz.aliyun.com	/t/5666
+20190715	设备安全	https://xz.aliyun.com/t/5697	路由器漏洞分析系列(1)：路由器固件模拟环境搭建	aliyun.com	xz.aliyun.com	/t/5697
+20190715	设备安全	https://xz.aliyun.com/t/5699	路由器漏洞分析系列(2)：CVE-2018-20056 DIR-619L&605L 栈溢出漏洞分析及复现	aliyun.com	xz.aliyun.com	/t/5699

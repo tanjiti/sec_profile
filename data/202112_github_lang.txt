@@ -1,0 +1,17 @@
+C	7
+Python	7
+C++	4
+Java	3
+Shell	2
+HTML	2
+Assembly	1
+Kotlin	1
+JavaScript	1
+C#	1
+Pascal	1
+TypeScript	1
+Starlark	1
+Go	1
+Erlang	1
+PowerShell	1
+Rust	1

@@ -1,0 +1,42 @@
+20200316	Web安全	https://mp.weixin.qq.com/s?__biz=Mzg3MjIyNjY3MA==&mid=2247484238&idx=1&sn=242812079337b1020abf5adffa7a5b23	XSS入门到进阶(附Fuzzing+BypassWAF+Payloads)	qq.com	mp.weixin.qq.com	/s
+20200316	Web安全	https://mp.weixin.qq.com/s/hW0A1jwq-pm4M-4LGUZIrA	讨论网络安全测试工具的发展	qq.com	mp.weixin.qq.com	/s/hW0A1jwq-pm4M-4LGUZIrA
+20200316	工具	https://bacde.me/post/smbghost-crash-poc/	SMBGhost 蓝屏代码（已测可用）	bacde.me	bacde.me	/post/smbghost-crash-poc/
+20200316	工具	https://bacde.me/post/awvs-13-docker-cracked/	AWVS 13 Docker版本（破解后）	bacde.me	bacde.me	/post/awvs-13-docker-cracked/
+20200316	Web安全	https://xiaix.me/oscpjing-yan/	OSCP经验	xiaix.me	xiaix.me	/oscpjing-yan/
+20200316	设备安全	https://mp.weixin.qq.com/s/ZPBRs-bYHTzkfDpQMOYXng	后门技巧之使用网站关键字进行反连	qq.com	mp.weixin.qq.com	/s/ZPBRs-bYHTzkfDpQMOYXng
+20200316	Web安全	https://xz.aliyun.com/t/7375	Cobalt Strike折腾踩坑填坑记录	aliyun.com	xz.aliyun.com	/t/7375
+20200316	Web安全	https://mp.weixin.qq.com/s/UfPLm53gAlc_z28kH4OYHQ	Linux下利用SUID提权	qq.com	mp.weixin.qq.com	/s/UfPLm53gAlc_z28kH4OYHQ
+20200316	漏洞分析	https://www.anquanke.com/post/id/201005	漫谈WebLogic CVE-2020-2551	anquanke.com	www.anquanke.com	/post/id/201005
+20200316	运维安全	https://github.com/ATpiu/asset-scan	asset-scan: 甲方企业的外网资产周期性扫描监控系统	github.com	github.com	/ATpiu/asset-scan
+20200316	数据挖掘	https://mp.weixin.qq.com/s/5v38BBewMVXZbbN2oMYg0A	浅谈DDoS攻防对抗中的AI实践	qq.com	mp.weixin.qq.com	/s/5v38BBewMVXZbbN2oMYg0A
+20200316	Web安全	https://mp.weixin.qq.com/s/h2pHi3PVn_92aEIOvB1Yjg	日志分析系列(三):分析实战篇	qq.com	mp.weixin.qq.com	/s/h2pHi3PVn_92aEIOvB1Yjg
+20200316	运维安全	https://github.com/moonbingbing/openresty-best-practices	OpenResty 最佳实践	github.com	github.com	/moonbingbing/openresty-best-practices
+20200316	Web安全	https://xz.aliyun.com/t/7388	基于tomcat的内存 Webshell 无文件攻击技术	aliyun.com	xz.aliyun.com	/t/7388
+20200316	其它	https://dcsa.org/wp-content/uploads/2020/03/DCSA-Implementation-Guideline-for-BIMCO-Compliant-Cyber-Security-on-Vessels-v1.0.pdf	DCSA船舶网络安全实施指南	dcsa.org	dcsa.org	/wp-content/uploads/2020/03/DCSA-Implementation-Guideline-for-BIMCO-Compliant-Cyber-Security-on-Vessels-v1.0.pdf
+20200316	论文	https://mp.weixin.qq.com/s/tIUS121s3JPOg7yC0j2rNQ	Euro S&P 2020 论文录用列表	qq.com	mp.weixin.qq.com	/s/tIUS121s3JPOg7yC0j2rNQ
+20200316	其它	https://blog.zhifeng.io/security-threat-analysis-report-of-water-conservancy-system/	国内在线水利水文系统安全威胁分析报告	zhifeng.io	blog.zhifeng.io	/security-threat-analysis-report-of-water-conservancy-system/
+20200316	Web安全	https://mp.weixin.qq.com/s/IkK2Gn_7ghlxMvksZB2HcA	文件包含 or 代码执行	qq.com	mp.weixin.qq.com	/s/IkK2Gn_7ghlxMvksZB2HcA
+20200316	Web安全	https://blog.zsxsoft.com/post/42	开发简单的PHP混淆器与解混淆器	zsxsoft.com	blog.zsxsoft.com	/post/42
+20200316	Web安全	https://mp.weixin.qq.com/s/jaJi2hXoKKrDbEm1kcY16g	windows hash 抓取总结	qq.com	mp.weixin.qq.com	/s/jaJi2hXoKKrDbEm1kcY16g
+20200316	观点	https://mp.weixin.qq.com/s/tYRiKiI7bjgyzQguMA1mrw	SDL已死，应用安全路在何方？	qq.com	mp.weixin.qq.com	/s/tYRiKiI7bjgyzQguMA1mrw
+20200316	其它	https://mp.weixin.qq.com/s/PdMuaK2yVhP4VxTpcjR37g	带你入坑CTF-MISC(编码篇)	qq.com	mp.weixin.qq.com	/s/PdMuaK2yVhP4VxTpcjR37g
+20200316	其它	https://bacde.me/post/bigip-cookie-decode-get-real-ip/	BigIP Cookie 解码获取真实IP	bacde.me	bacde.me	/post/bigip-cookie-decode-get-real-ip/
+20200316	Web安全	https://www.freebuf.com/articles/web/229649.html	巧用匿名函数绕过D盾	freebuf.com	www.freebuf.com	/articles/web/229649.html
+20200316	设备安全	https://mp.weixin.qq.com/s/k9tSpQaaeJ7QKSa9cb_bWg	大工PLC-远程启停攻击实验	qq.com	mp.weixin.qq.com	/s/k9tSpQaaeJ7QKSa9cb_bWg
+20200316	数据挖掘	https://www.splunk.com/en_us/blog/security/botsv3-dataset-released.html	Boss of the SOC v3 Dataset Released	splunk.com	www.splunk.com	/en_us/blog/security/botsv3-dataset-released.html
+20200316	设备安全	https://mp.weixin.qq.com/s/7tPFO-sqgah_4fbL9t1e5Q	路由器固件后门添加	qq.com	mp.weixin.qq.com	/s/7tPFO-sqgah_4fbL9t1e5Q
+20200316	恶意分析	https://mp.weixin.qq.com/s/0hOtnTz9QrKlLivAobjU7Q	威胁狩猎101文档	qq.com	mp.weixin.qq.com	/s/0hOtnTz9QrKlLivAobjU7Q
+20200316	移动安全	https://mp.weixin.qq.com/s/BF6vNewF3JK-EHr7KWT8HA	细品新政策法规下的APP个人信息收集检测	qq.com	mp.weixin.qq.com	/s/BF6vNewF3JK-EHr7KWT8HA
+20200316	杂志	https://www.sec-wiki.com/weekly/315	SecWiki周刊（第315期)	sec-wiki.com	www.sec-wiki.com	/weekly/315
+20200316	恶意分析	https://mp.weixin.qq.com/s/QV8ErKHow3b-AMp6HMzKQg	自动化恶意域名检测揭秘	qq.com	mp.weixin.qq.com	/s/QV8ErKHow3b-AMp6HMzKQg
+20200316	漏洞分析	https://xz.aliyun.com/t/7384	Bug Bounty:绕过Google域检测	aliyun.com	xz.aliyun.com	/t/7384
+20200316	Web安全	https://mp.weixin.qq.com/s/x0uGrnMXbzAAV9Q9bxR7SQ	Bypassing Crowdstrike Falcon 1：大力出奇迹	qq.com	mp.weixin.qq.com	/s/x0uGrnMXbzAAV9Q9bxR7SQ
+20200316	Web安全	https://www.anquanke.com/post/id/200649	内网渗透-net-NTLM hash的攻击	anquanke.com	www.anquanke.com	/post/id/200649
+20200316	取证分析	https://blog.trailofbits.com/2020/03/16/real-time-file-monitoring-on-windows-with-osquery/	Real-time file monitoring on Windows with osquery	trailofbits.com	blog.trailofbits.com	/2020/03/16/real-time-file-monitoring-on-windows-with-osquery/
+20200316	漏洞分析	https://blog.netlab.360.com/multiple-botnets-are-spreading-using-lilin-dvr-0-day/	LILIN DVR 在野0-day 漏洞分析报告	360.com	blog.netlab.360.com	/multiple-botnets-are-spreading-using-lilin-dvr-0-day/
+20200316	论文	https://mp.weixin.qq.com/s/zwTlXBrZiC88y9F5DDU0_g	如何以初学者角度写好一篇国际学术论文	qq.com	mp.weixin.qq.com	/s/zwTlXBrZiC88y9F5DDU0_g
+20200316	无线安全	https://mp.weixin.qq.com/s/TIYvcThrfOC40rqcy-VGCg	蓝牙安全之Class of device	qq.com	mp.weixin.qq.com	/s/TIYvcThrfOC40rqcy-VGCg
+20200316	Web安全	https://mp.weixin.qq.com/s?__biz=MzU2NTc2MjAyNg==&mid=2247483758&idx=1&sn=1bd0006d16747389046058ea34c3b7b7&chksm=fcb783ebcbc00afd694b7a2ee10ad32aff0a534963878541ee17974ffee29c63342f4e617661&token=1823181969&lang=zh_CN#rd	加载远程XSL文件的宏免杀方法	qq.com	mp.weixin.qq.com	/s
+20200316	编程技术	https://bacde.me/post/bashtricks-execute-commands-without-space/	bashtricks ：无空格执行命令	bacde.me	bacde.me	/post/bashtricks-execute-commands-without-space/
+20200316	移动安全	https://mp.weixin.qq.com/s/fLDNLJIWwvrUUwt6Pi6T4A	追踪与新冠状病毒相关的安卓恶意软件	qq.com	mp.weixin.qq.com	/s/fLDNLJIWwvrUUwt6Pi6T4A
+20200316	漏洞分析	http://noahblog.360.cn/applescript_attack/	基于AppleScript的利用技术	360.cn	noahblog.360.cn	/applescript_attack/

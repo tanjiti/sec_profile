@@ -1,0 +1,22 @@
+20210830	观点	https://mp.weixin.qq.com/s/sjHKGw6tZ7q-2HMnxLYpoQ	网络空间测绘技术的实践与思考	qq.com	mp.weixin.qq.com	/s/sjHKGw6tZ7q-2HMnxLYpoQ
+20210830	观点	https://mp.weixin.qq.com/s/CxGlNaCpDbnJXLIqeHJriQ	中国网络安全技术趋势分析	qq.com	mp.weixin.qq.com	/s/CxGlNaCpDbnJXLIqeHJriQ
+20210830	新闻	https://mp.weixin.qq.com/s/Yni5Yw6SOLOJEvRbiSSRVg	中央集采安全软件列表及报价	qq.com	mp.weixin.qq.com	/s/Yni5Yw6SOLOJEvRbiSSRVg
+20210830	编程技术	https://github.com/G-Security-Team/GSLibrary	GSLibrary: 轻量级知识库&POC管理平台	github.com	github.com	/G-Security-Team/GSLibrary
+20210830	漏洞分析	https://mp.weixin.qq.com/s/Uj-gwD2QNer-6CnyR9DW7A	我是如何捡到Jetty CVE的	qq.com	mp.weixin.qq.com	/s/Uj-gwD2QNer-6CnyR9DW7A
+20210830	Web安全	https://www.anquanke.com/post/id/252024	二进制角度构造Java反序列化Payload	anquanke.com	www.anquanke.com	/post/id/252024
+20210830	Web安全	https://github.com/CHYbeta/OddProxyDemo/blob/master/nginx/demo2/README.md	Nginx 场景绕过之二：斜杠(trailing slash) 与 编码	github.com	github.com	/CHYbeta/OddProxyDemo/blob/master/nginx/demo2/README.md
+20210830	移动安全	https://mp.weixin.qq.com/s/ANQCVpV8vkpYVWt0duIZLA	车联网安全基础知识之大众J949(OCU/T-BOX)	qq.com	mp.weixin.qq.com	/s/ANQCVpV8vkpYVWt0duIZLA
+20210830	漏洞分析	https://www.anquanke.com/post/id/251983	源码解析angr的模拟执行	anquanke.com	www.anquanke.com	/post/id/251983
+20210830	数据挖掘	https://mp.weixin.qq.com/s/Qa9nSkN3Yj2AEPkfdUJwMw	从知识图谱到认知智能	qq.com	mp.weixin.qq.com	/s/Qa9nSkN3Yj2AEPkfdUJwMw
+20210830	杂志	https://www.sec-wiki.com/weekly/391	SecWiki周刊（第391期)	sec-wiki.com	www.sec-wiki.com	/weekly/391
+20210830	漏洞分析	https://www.anquanke.com/post/id/251883	A-Journey-into-Synology-NAS-系列——群晖NAS介绍	anquanke.com	www.anquanke.com	/post/id/251883
+20210830	漏洞分析	https://www.leavesongs.com/PENETRATION/cachet-from-laravel-sqli-to-bug-bounty.html	CVE-2021-39165: 从一个Laravel SQL注入漏洞开始的Bug Bounty之旅	leavesongs.com	www.leavesongs.com	/PENETRATION/cachet-from-laravel-sqli-to-bug-bounty.html
+20210830	数据挖掘	https://mp.weixin.qq.com/s/jfgrIRQSb_gPwvYGs8b_Pw	DeepDebug：大型预训练模型 transformer 进行自动 debug 的方法	qq.com	mp.weixin.qq.com	/s/jfgrIRQSb_gPwvYGs8b_Pw
+20210830	取证分析	https://blog.csdn.net/weixin_49393427/article/details/120025179	利用TCP反射放大攻击将中间件武器化	csdn.net	blog.csdn.net	/weixin_49393427/article/details/120025179
+20210830	漏洞分析	https://zhuanlan.zhihu.com/p/405003793	Survey: 基于机器学习和数据挖掘技术的软件漏洞检测	zhihu.com	zhuanlan.zhihu.com	/p/405003793
+20210830	视频	https://www.youtube.com/playlist?list=PLmv8T5-GONwQhUlGN2UhOAi8YxPaiYCDQ	HITB 2021 新加坡安全会议公开视频	youtube.com	www.youtube.com	/playlist
+20210830	恶意分析	https://mp.weixin.qq.com/s/Fo0OhNb-MP-GqKM-ASCXsg	GitHub Pull Request业务逻辑风险	qq.com	mp.weixin.qq.com	/s/Fo0OhNb-MP-GqKM-ASCXsg
+20210830	其它	https://www.anquanke.com/post/id/252421	海外执法机构未公开的技术监视设备	anquanke.com	www.anquanke.com	/post/id/252421
+20210830	其它	https://mp.weixin.qq.com/s/CwXqkHDSFK6XMFtvOpnsjw	DARPA近年网络空间安全领域主要项目梳理	qq.com	mp.weixin.qq.com	/s/CwXqkHDSFK6XMFtvOpnsjw
+20210830	Web安全	https://mp.weixin.qq.com/s/ErjUg177-jGR9UQjyZaEoA	小心你信任的人：跨域通信中的安全陷阱	qq.com	mp.weixin.qq.com	/s/ErjUg177-jGR9UQjyZaEoA
+20210830	恶意分析	https://dmcxblue.net/2021/08/30/fileless-malware/	Fileless Malware	dmcxblue.net	dmcxblue.net	/2021/08/30/fileless-malware/

@@ -1,0 +1,67 @@
+20190325	事件	https://nosec.org/home/detail/2396.html	美国230万灾难幸存者隐私信息恐遭泄露	nosec.org	nosec.org	/home/detail/2396.html
+20190325	Web安全	https://backlion.cnblogs.com/p/10616308.html?from=timeline	Coablt strike官方教程中文译版本	cnblogs.com	backlion.cnblogs.com	/p/10616308.html
+20190325	Web安全	https://nosec.org/home/detail/2419.html	谷歌论坛的越权漏洞（500美金）	nosec.org	nosec.org	/home/detail/2419.html
+20190325	漏洞分析	https://bugs.chromium.org/p/project-zero/issues/detail?id=1733	VMware 本地权限提升	chromium.org	bugs.chromium.org	/p/project-zero/issues/detail
+20190325	恶意分析	https://www.anquanke.com/post/id/175550	勒索病毒应急响应 自救手册（第二版）	anquanke.com	www.anquanke.com	/post/id/175550
+20190325	运维安全	https://evilanne.github.io/2019/02/20/Osquery%E6%A3%80%E6%B5%8B%E5%85%A5%E4%BE%B5%E7%97%95%E8%BF%B9/	Osquery检测入侵痕迹	github.io	evilanne.github.io	/2019/02/20/Osquery%E6%A3%80%E6%B5%8B%E5%85%A5%E4%BE%B5%E7%97%95%E8%BF%B9/
+20190325	设备安全	https://nosec.org/home/detail/2425.html	利用BadUSB控制整个网络	nosec.org	nosec.org	/home/detail/2425.html
+20190325	数据挖掘	https://github.com/imjdl/SearchApp	SearchApp: 小型网络空间搜索引擎	github.com	github.com	/imjdl/SearchApp
+20190325	Web安全	https://github.com/xuechiyaobai/CVE-2019-9810-PoC/	Pwn2Own 2019 Firefox 远程代码执行漏洞(CVE-2019-9810)的 POC	github.com	github.com	/xuechiyaobai/CVE-2019-9810-PoC/
+20190325	运维安全	https://www.freebuf.com/articles/es/199084.html	小师妹聊安全标准（二）	freebuf.com	www.freebuf.com	/articles/es/199084.html
+20190325	移动安全	https://nosec.org/home/detail/2395.html	详解Laravel 5.8 SQL注入漏洞	nosec.org	nosec.org	/home/detail/2395.html
+20190325	设备安全	https://mp.weixin.qq.com/s/5gwJpqj7ysue19OcoPI16A	IoT 设备固件分析之网络协议 fuzz	qq.com	mp.weixin.qq.com	/s/5gwJpqj7ysue19OcoPI16A
+20190325	Web安全	https://nosec.org/home/detail/2420.html	PayPal旗下Braintree网站的“不寻常”漏洞（3200美金）	nosec.org	nosec.org	/home/detail/2420.html
+20190325	其它	https://blog.kartone.ninja/2019/03/25/when-a-reverse-me-ctf-binary-makes-you-loose-that-job/	Linux CTF 二进制挑战的详细逆向工程分析	kartone.ninja	blog.kartone.ninja	/2019/03/25/when-a-reverse-me-ctf-binary-makes-you-loose-that-job/
+20190325	运维安全	https://www.freebuf.com/articles/es/198597.html	初入甲方的企业安全建设规划	freebuf.com	www.freebuf.com	/articles/es/198597.html
+20190325	Web安全	https://xz.aliyun.com/t/4441	一篇域攻击文章的复现	aliyun.com	xz.aliyun.com	/t/4441
+20190325	漏洞分析	https://www.4hou.com/web/16902.html	通过漏洞利用模版使漏洞利用自动化	4hou.com	www.4hou.com	/web/16902.html
+20190325	Web安全	https://nosec.org/home/detail/2402.html	阿里云和谷歌（1300美金）的XSS漏洞	nosec.org	nosec.org	/home/detail/2402.html
+20190325	运维安全	https://mp.weixin.qq.com/s/8iJs2ON66NY1Jdbt7c-BTA	以攻促防：企业蓝军建设思考	qq.com	mp.weixin.qq.com	/s/8iJs2ON66NY1Jdbt7c-BTA
+20190325	Web安全	https://nosec.org/home/detail/2405.html	寻找隐藏在CloudFlare和Tor后的真实IP	nosec.org	nosec.org	/home/detail/2405.html
+20190325	运维安全	https://mp.weixin.qq.com/s/MOJCYDN-W9KObOZpc6kx1g	Google 基础架构安全设计概述	qq.com	mp.weixin.qq.com	/s/MOJCYDN-W9KObOZpc6kx1g
+20190325	工具	https://github.com/ze0r/cve-2019-0808-poc/	cve-2019-0808-poc	github.com	github.com	/ze0r/cve-2019-0808-poc/
+20190325	设备安全	https://mp.weixin.qq.com/s/R4MdPVTOqUNg8-1HSOyQzw	社工攻击-BadUSB攻防	qq.com	mp.weixin.qq.com	/s/R4MdPVTOqUNg8-1HSOyQzw
+20190325	Web安全	https://xz.aliyun.com/t/4509	红队基础建设:隐藏你的C2 server	aliyun.com	xz.aliyun.com	/t/4509
+20190325	取证分析	http://www.ebwill.com/2018/09/10/DR_NIDS/	点融NIDS实践	ebwill.com	www.ebwill.com	/2018/09/10/DR_NIDS/
+20190325	恶意分析	https://mp.weixin.qq.com/s/If_Q0BlIZTiYp_7d1zJMWw	软件供应链来源攻击分析报告	qq.com	mp.weixin.qq.com	/s/If_Q0BlIZTiYp_7d1zJMWw
+20190325	编程技术	https://bigquant.com/community/t/topic/150804	酷炫的深度学习网络图画法	bigquant.com	bigquant.com	/community/t/topic/150804
+20190325	漏洞分析	https://github.com/vishnudxb/automated-pentest	automated-pentest-自动化扫描和生成渗透测试报告的 Parrot OS 系统容器	github.com	github.com	/vishnudxb/automated-pentest
+20190325	运维安全	https://github.com/Macr0phag3/GithubMonitor	GithubMonitor: 关键词监控GitHub泄漏	github.com	github.com	/Macr0phag3/GithubMonitor
+20190325	无线安全	https://medium.com/tenable-techblog/owning-the-network-with-badusb-72daa45d1b00	使用 BadUSB 攻击路由设备控制目标网络	medium.com	medium.com	/tenable-techblog/owning-the-network-with-badusb-72daa45d1b00
+20190325	漏洞分析	https://mp.weixin.qq.com/s/lGalf63VXCva2I5BpmSMgQ	Druid拦截功能的配置与简单绕过	qq.com	mp.weixin.qq.com	/s/lGalf63VXCva2I5BpmSMgQ
+20190325	取证分析	https://github.com/Urinx/browspy	browspy: 浏览器用户全部信息收集JavaScript	github.com	github.com	/Urinx/browspy
+20190325	数据挖掘	https://www.wzsite.cn/2018/10/22/%E5%9F%BA%E4%BA%8E%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9A%84Web%E6%97%A5%E5%BF%97%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B%E5%AE%9E%E8%B7%B5/	基于机器学习的Web日志异常检测实践	wzsite.cn	www.wzsite.cn	/2018/10/22/%E5%9F%BA%E4%BA%8E%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9A%84Web%E6%97%A5%E5%BF%97%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B%E5%AE%9E%E8%B7%B5/
+20190325	漏洞分析	https://xz.aliyun.com/t/4435	Tomcat变体利用：host-manager	aliyun.com	xz.aliyun.com	/t/4435
+20190325	取证分析	https://xz.aliyun.com/t/4504	OSINT Primer：域名（第1部分）	aliyun.com	xz.aliyun.com	/t/4504
+20190325	取证分析	https://dfir.ru/2019/03/25/forensic-analysis-of-disclosed-uninitialized-kernel-memory/	对泄漏的未初始化内核内存的取证分析	dfir.ru	dfir.ru	/2019/03/25/forensic-analysis-of-disclosed-uninitialized-kernel-memory/
+20190325	编程技术	https://learngitbranching.js.org/	交互式Git教程 ​​​	js.org	learngitbranching.js.org	/
+20190325	Web安全	https://xz.aliyun.com/t/4558	从零开始Java代码审计系列(一)	aliyun.com	xz.aliyun.com	/t/4558
+20190325	漏洞分析	https://www.pentestpartners.com/security-blog/remote-command-injection-through-an-endpoint-security-product/	Remote command injection through an endpoint security product	pentestpartners.com	www.pentestpartners.com	/security-blog/remote-command-injection-through-an-endpoint-security-product/
+20190325	编程技术	https://www.freebuf.com/sectool/198277.html	Simdjson：一个超高速的JSON解析工具	freebuf.com	www.freebuf.com	/sectool/198277.html
+20190325	Web安全	https://blog.appsecco.com/automating-discovery-and-exploiting-dom-client-xss-vulnerabilities-using-sboxr-part-1-2e55c120c9e1	使用 Sboxr 自动化发现和利用 DOM XSS - Part 1	appsecco.com	blog.appsecco.com	/automating-discovery-and-exploiting-dom-client-xss-vulnerabilities-using-sboxr-part-1-2e55c120c9e1
+20190325	其它	https://mp.weixin.qq.com/s/MP0tONsz5KRRa-swTwDh9w	NTA技术 & 代表性NTA产品一览	qq.com	mp.weixin.qq.com	/s/MP0tONsz5KRRa-swTwDh9w
+20190325	漏洞分析	https://github.com/outflanknl/Excel4-DCOM	通过 DCOM 远程执行 Excel 4.0/XLM 宏实现横向渗透的利用脚本	github.com	github.com	/outflanknl/Excel4-DCOM
+20190325	漏洞分析	https://www.microsoft.com/security/blog/2019/03/25/from-alert-to-driver-vulnerability-microsoft-defender-atp-investigation-unearths-privilege-escalation-flaw/	Microsoft Defender ATP investigation unearths privilege escalation flaw	microsoft.com	www.microsoft.com	/security/blog/2019/03/25/from-alert-to-driver-vulnerability-microsoft-defender-atp-investigation-unearths-privilege-escalation-flaw/
+20190325	Web安全	http://0xc0ffee.io/blog/50M-CTF	HackerOne 50M CTF Writeup	0xc0ffee.io	0xc0ffee.io	/blog/50M-CTF
+20190325	无线安全	https://github.com/zjlywjh001/CanSecWest19	披露一种针对W-IFI WPA/WPA2协议的MOTS(Man-On-The-Side)的攻击方式	github.com	github.com	/zjlywjh001/CanSecWest19
+20190325	运维安全	https://www.synacktiv.com/posts/systems/icmp-reachable.html	绕过 nftables/PacketFilter 防火墙过滤规则传输 ICMP/ICMPv6 数据包的漏洞详解	synacktiv.com	www.synacktiv.com	/posts/systems/icmp-reachable.html
+20190325	漏洞分析	https://blog.zecops.com/vulnerabilities/exploit-of-cve-2019-7286/	CVE-2019-7286 Part II: Gaining PC Control	zecops.com	blog.zecops.com	/vulnerabilities/exploit-of-cve-2019-7286/
+20190325	Web安全	https://bugs.chromium.org/p/chromium/issues/detail?id=905940	攻破 Chrome 的 ValueDeserializer::ReadDenseJSArray 越界写漏洞（CVE-2018-17480）	chromium.org	bugs.chromium.org	/p/chromium/issues/detail
+20190325	Web安全	https://mp.weixin.qq.com/s/RL8_kDoHcZoED1G_BBxlWw	PHP内核层解析反序列化漏洞	qq.com	mp.weixin.qq.com	/s/RL8_kDoHcZoED1G_BBxlWw
+20190325	Web安全	https://www.komodosec.com/post/google-groups-authorization-bypass	Google Groups Authorization Bypass / $500 bounty	komodosec.com	www.komodosec.com	/post/google-groups-authorization-bypass
+20190325	Web安全	https://weibo.com/ttarticle/p/show?id=2309404354112320866984	一行代码逃逸 Safari 沙箱	weibo.com	weibo.com	/ttarticle/p/show
+20190325	Web安全	https://www.anquanke.com/post/id/174009	.NET高级代码审计（第五课） .NET Remoting反序列化漏洞	anquanke.com	www.anquanke.com	/post/id/174009
+20190325	工具	https://github.com/tenable/router_badusb	router_badusb: BadUSB in Routers	github.com	github.com	/tenable/router_badusb
+20190325	漏洞分析	https://weibo.com/ttarticle/p/show?id=2309404354112320866984&sudaref=cp0.win&display=0&retcode=6102	一行代码逃逸 Safari 沙箱	weibo.com	weibo.com	/ttarticle/p/show
+20190325	移动安全	https://blog.quarkslab.com/android-runtime-restrictions-bypass.html	Android Runtime Restrictions Bypass	quarkslab.com	blog.quarkslab.com	/android-runtime-restrictions-bypass.html
+20190325	恶意分析	http://www.peppermalware.com/2019/03/analysis-of-net-stealer-grandsteal-2019.html	Analysis of .Net Stealer GrandSteal	peppermalware.com	www.peppermalware.com	/2019/03/analysis-of-net-stealer-grandsteal-2019.html
+20190325	漏洞分析	https://mp.weixin.qq.com/s/Pq2win4kH72eG_n7aKQdIQ	Windows 10 IoT Core远程命令执行漏洞验证及建议	qq.com	mp.weixin.qq.com	/s/Pq2win4kH72eG_n7aKQdIQ
+20190325	恶意分析	https://maskop9.tech/index.php/2019/01/30/analysis-of-netwiredrc-trojan/	Analysis of NetWiredRC trojan	maskop9.tech	maskop9.tech	/index.php/2019/01/30/analysis-of-netwiredrc-trojan/
+20190325	工具	https://github.com/Coalfire-Research/npk	npk: A mostly-serverless distributed hash cracking platform	github.com	github.com	/Coalfire-Research/npk
+20190325	恶意分析	https://mp.weixin.qq.com/s/p2pmW_JH7DgPt5o-HYmTpw	KBuster：以伪造韩国银行APP的韩国黑产活动披露	qq.com	mp.weixin.qq.com	/s/p2pmW_JH7DgPt5o-HYmTpw
+20190325	漏洞分析	https://blog.zecops.com/vulnerabilities/analysis-and-reproduction-of-cve-2019-7286/	Analysis and Reproduction of iOS/OSX Vulnerability: CVE-2019-7286	zecops.com	blog.zecops.com	/vulnerabilities/analysis-and-reproduction-of-cve-2019-7286/
+20190325	恶意分析	https://www.cyberfox.blog/dissecting-shadowhammer/	Dissecting ShadowHammer	cyberfox.blog	www.cyberfox.blog	/dissecting-shadowhammer/
+20190325	漏洞分析	https://medium.com/0xcc/one-liner-safari-sandbox-escape-exploit-91082ddbe6ef	One-liner Safari sandbox escape exploit	medium.com	medium.com	/0xcc/one-liner-safari-sandbox-escape-exploit-91082ddbe6ef
+20190325	恶意分析	https://0x00sec.org/t/defeating-userland-hooks-ft-bitdefender/12496	Defeating Userland Hooks (ft. Bitdefender)	0x00sec.org	0x00sec.org	/t/defeating-userland-hooks-ft-bitdefender/12496
+20190325	Web安全	https://mogwailabs.de/blog/2019/03/attacking-java-rmi-services-after-jep-290/	Attacking Java RMI services after JEP 290	mogwailabs.de	mogwailabs.de	/blog/2019/03/attacking-java-rmi-services-after-jep-290/
+20190325	移动安全	https://github.com/rootbsd/fridump3	fridump3: A universal memory dumper using Frida for Python 3	github.com	github.com	/rootbsd/fridump3

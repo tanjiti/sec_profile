@@ -1,0 +1,19 @@
+20211018	Web安全	https://mp.weixin.qq.com/s/ObpSClAQCNTw2DA6mux2JQ	一次黑盒加白盒的渗透过程	qq.com	mp.weixin.qq.com	/s/ObpSClAQCNTw2DA6mux2JQ
+20211018	恶意分析	https://mp.weixin.qq.com/s/nCkqGmmVmUcGV1pxhLnFjg	网络流量的自动化分析新方向	qq.com	mp.weixin.qq.com	/s/nCkqGmmVmUcGV1pxhLnFjg
+20211018	恶意分析	https://mp.weixin.qq.com/s/VkwU_wOUKAhT0Ec7OZ5RBw	供应链安全—组件漏洞和合规治理	qq.com	mp.weixin.qq.com	/s/VkwU_wOUKAhT0Ec7OZ5RBw
+20211018	Web安全	https://www.anquanke.com/post/id/256016	新型网络犯罪攻防技术研究	anquanke.com	www.anquanke.com	/post/id/256016
+20211018	Web安全	https://www.anquanke.com/post/id/256111	基于全流量权限漏洞检测技术	anquanke.com	www.anquanke.com	/post/id/256111
+20211018	恶意分析	http://pub-shbt.s3.360.cn/cert-public-file/2021%E5%B9%B4%E4%B8%8A%E5%8D%8A%E5%B9%B4%E5%85%A8%E7%90%83%E9%AB%98%E7%BA%A7%E6%8C%81%E7%BB%AD%E6%80%A7%E5%A8%81%E8%83%81%EF%BC%88APT%EF%BC%89%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A-1015.pdf	2021年上半年全球高级持续性威胁（APT）研究报告	360.cn	pub-shbt.s3.360.cn	/cert-public-file/2021%E5%B9%B4%E4%B8%8A%E5%8D%8A%E5%B9%B4%E5%85%A8%E7%90%83%E9%AB%98%E7%BA%A7%E6%8C%81%E7%BB%AD%E6%80%A7%E5%A8%81%E8%83%81%EF%BC%88APT%EF%BC%89%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A-1015.pdf
+20211018	Web安全	https://mp.weixin.qq.com/s/rZunI6Uxyks2TbSarsqR8A	关于BGP安全那些事儿	qq.com	mp.weixin.qq.com	/s/rZunI6Uxyks2TbSarsqR8A
+20211018	杂志	https://www.sec-wiki.com/weekly/398	SecWiki周刊（第398期)	sec-wiki.com	www.sec-wiki.com	/weekly/398
+20211018	文档	https://mp.weixin.qq.com/s/7-6d_IzuKr-1oFqvBEUBpQ	2021年中国信创产业研究报告（90页全本）	qq.com	mp.weixin.qq.com	/s/7-6d_IzuKr-1oFqvBEUBpQ
+20211018	恶意分析	https://paper.seebug.org/1738/	ESPecter : 最新发现的 UEFI bootkit	seebug.org	paper.seebug.org	/1738/
+20211018	数据挖掘	https://mp.weixin.qq.com/s/Jf7ckFpP7pqubOBN7OkgTQ	KDD Cup 2021 时序异常检测（附 Top1 至 Top7思路视频 ）	qq.com	mp.weixin.qq.com	/s/Jf7ckFpP7pqubOBN7OkgTQ
+20211018	数据挖掘	https://mp.weixin.qq.com/s/TvaB9z-7YJTI7XXYZRGfMg	基于自动编码器的DNS隧道自动特征学习检测方法	qq.com	mp.weixin.qq.com	/s/TvaB9z-7YJTI7XXYZRGfMg
+20211018	数据挖掘	https://mp.weixin.qq.com/s/DWoYb4gRmHCToUWgE0xtnA	代码大数据驱动的智能化软件工程进展与趋势	qq.com	mp.weixin.qq.com	/s/DWoYb4gRmHCToUWgE0xtnA
+20211018	漏洞分析	https://mp.weixin.qq.com/s/K4icyU6tmZYMrvgNL_jYDw	Pin 学习参考手册	qq.com	mp.weixin.qq.com	/s/K4icyU6tmZYMrvgNL_jYDw
+20211018	数据挖掘	https://mp.weixin.qq.com/s/95iJLqZN3Ll1a3kcU60dbA	网络空间资产探测关键技术研究	qq.com	mp.weixin.qq.com	/s/95iJLqZN3Ll1a3kcU60dbA
+20211018	漏洞分析	https://mp.weixin.qq.com/s/1AU2TEePckzSWpHyuEGGJQ	浅谈React框架的XSS及后利用	qq.com	mp.weixin.qq.com	/s/1AU2TEePckzSWpHyuEGGJQ
+20211018	恶意分析	https://mp.weixin.qq.com/s/xrNL8waXsTyjU_8A6MlEjA	恶意代码检测(1)恶意代码攻击溯源及恶意样本分析	qq.com	mp.weixin.qq.com	/s/xrNL8waXsTyjU_8A6MlEjA
+20211018	漏洞分析	https://mp.weixin.qq.com/s/ofGIYXc8IYErg8SK3Q-PNw	洞察与思考Fuzzing技术发展趋势	qq.com	mp.weixin.qq.com	/s/ofGIYXc8IYErg8SK3Q-PNw
+20211018	数据挖掘	https://mp.weixin.qq.com/s/x0aIQEPFaRScPP3mEl_mRw	HacRED：面向复杂样本的关系抽取数据集	qq.com	mp.weixin.qq.com	/s/x0aIQEPFaRScPP3mEl_mRw

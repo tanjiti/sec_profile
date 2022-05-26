@@ -1,0 +1,19 @@
+20220418	Web安全	https://mp.weixin.qq.com/s/6qmpRL8-rjDGD8LBfvM_gA	浅谈攻防演练	qq.com	mp.weixin.qq.com	/s/6qmpRL8-rjDGD8LBfvM_gA
+20220418	恶意分析	https://www.cverc.org.cn/head/zhaiyao/news20220419-hive.htm	“蜂巢”恶意代码攻击控制武器平台分析报告	cverc.org.cn	www.cverc.org.cn	/head/zhaiyao/news20220419-hive.htm
+20220418	Web安全	https://xz.aliyun.com/t/11215	浅析SSRF的各种利用方式	aliyun.com	xz.aliyun.com	/t/11215
+20220418	运维安全	https://github.com/satan1a/TheRoadOfSO/	TheRoadOfSO: 学习安全运营的记录	github.com	github.com	/satan1a/TheRoadOfSO/
+20220418	其它	https://mp.weixin.qq.com/s/e66VHLkTQRrPXp0P-moOkw	一窥世界上延迟最低的网络	qq.com	mp.weixin.qq.com	/s/e66VHLkTQRrPXp0P-moOkw
+20220418	漏洞分析	https://keenlab.tencent.com/zh/2022/04/20/2022-BinAbsInspector-public-release/	BinAbsInspector：二进制文件自动化静态漏洞检测工具	tencent.com	keenlab.tencent.com	/zh/2022/04/20/2022-BinAbsInspector-public-release/
+20220418	漏洞分析	https://www.solidot.org/story?sid=71343	2021 年 0day 漏洞利用分析	solidot.org	www.solidot.org	/story
+20220418	恶意分析	https://mp.weixin.qq.com/s/l8OBAvYORhqxM5SlKBDIyw	WMI后门技术的攻击与检测	qq.com	mp.weixin.qq.com	/s/l8OBAvYORhqxM5SlKBDIyw
+20220418	恶意分析	https://mp.weixin.qq.com/s/ip_pq1UuPXJWqho0hWQ-EQ	利用神经网络挖掘共同特征发现未知的APT	qq.com	mp.weixin.qq.com	/s/ip_pq1UuPXJWqho0hWQ-EQ
+20220418	杂志	https://www.sec-wiki.com/weekly/424	SecWiki周刊（第424期)	sec-wiki.com	www.sec-wiki.com	/weekly/424
+20220418	恶意分析	https://mp.weixin.qq.com/s/sFeW_0cERDwzrukzta6I8Q	社区合作的威胁情报到底有没有用？	qq.com	mp.weixin.qq.com	/s/sFeW_0cERDwzrukzta6I8Q
+20220418	观点	https://mp.weixin.qq.com/s/v6WJxNxU5aQCaZhkmif4zw	网络犯罪形态的碎片化与刑事治理的体系化	qq.com	mp.weixin.qq.com	/s/v6WJxNxU5aQCaZhkmif4zw
+20220418	Web安全	https://mp.weixin.qq.com/s/Ht_rJkzBO4HecjxCM-EYYg	企业安全之浅谈红蓝对抗--上	qq.com	mp.weixin.qq.com	/s/Ht_rJkzBO4HecjxCM-EYYg
+20220418	设备安全	https://mp.weixin.qq.com/s/MtNp8NbQs3S4jQpcDshGXw	TP-Link-WDR-7660 安全研究之构造基于串口CMD的调试器	qq.com	mp.weixin.qq.com	/s/MtNp8NbQs3S4jQpcDshGXw
+20220418	设备安全	https://www.freebuf.com/articles/ics-articles/329242.html	数字中国车联网赛题设计思路	freebuf.com	www.freebuf.com	/articles/ics-articles/329242.html
+20220418	Web安全	https://mp.weixin.qq.com/s/FkesyPjxVloPaKxabddpEw	企业安全之浅谈红蓝对抗--下	qq.com	mp.weixin.qq.com	/s/FkesyPjxVloPaKxabddpEw
+20220418	漏洞分析	http://noahblog.360.cn/go-template-meets-yaml-cve-2022-21701/	Go template 遇上 yaml 反序列化 CVE-2022-21701 分析	360.cn	noahblog.360.cn	/go-template-meets-yaml-cve-2022-21701/
+20220418	漏洞分析	https://mp.weixin.qq.com/s/3Fla1U2RGh603jH4BxfYEg	机器学习如何赋能二进制代码相似性分析	qq.com	mp.weixin.qq.com	/s/3Fla1U2RGh603jH4BxfYEg
+20220418	恶意分析	https://mp.weixin.qq.com/s/CaFik7K2vqAh7ycpoiEHDA	《VirusTotal 2021 年度恶意软件趋势报告》	qq.com	mp.weixin.qq.com	/s/CaFik7K2vqAh7ycpoiEHDA

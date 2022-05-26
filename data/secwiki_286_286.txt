@@ -1,0 +1,32 @@
+20190819	法规	http://www.cac.gov.cn/2019-08/17/c_1124887757.htm	水利部印发水利网络安全管理办法（试行）	cac.gov.cn	www.cac.gov.cn	/2019-08/17/c_1124887757.htm
+20190819	观点	https://mp.weixin.qq.com/s/lHTNtsA6Pc-FGGoQoO6AUw	“战斗民族”俄罗斯网络空间作战研究	qq.com	mp.weixin.qq.com	/s/lHTNtsA6Pc-FGGoQoO6AUw
+20190819	新闻	https://mp.weixin.qq.com/s/EeKghha0lKOIhJgB1sHKEg	BCS 2019 40 家企业展台的亮点内容及产品	qq.com	mp.weixin.qq.com	/s/EeKghha0lKOIhJgB1sHKEg
+20190819	法规	http://www.cac.gov.cn/2019-08/23/c_1124913903.htm	儿童个人信息网络保护规定	cac.gov.cn	www.cac.gov.cn	/2019-08/23/c_1124913903.htm
+20190819	观点	https://mp.weixin.qq.com/s/eTqE3GXnyvutwJ5MAkaR7g	美军网络空间军事思想与能力体系综述	qq.com	mp.weixin.qq.com	/s/eTqE3GXnyvutwJ5MAkaR7g
+20190819	新闻	https://mp.weixin.qq.com/s/Mj8RDrFl6HcWH2GsH-mXhQ	BCS 2019 安全创客汇	qq.com	mp.weixin.qq.com	/s/Mj8RDrFl6HcWH2GsH-mXhQ
+20190819	Web安全	https://mp.weixin.qq.com/s/0hvD_afmLNQW9bQZzvk0OA	记一次对某医院HIS系统的渗透测试	qq.com	mp.weixin.qq.com	/s/0hvD_afmLNQW9bQZzvk0OA
+20190819	会议	https://www.sec-un.org/blackhat-us-19-%e7%ac%94%e8%ae%b0/	BlackHat US-19 笔记	sec-un.org	www.sec-un.org	/blackhat-us-19-%e7%ac%94%e8%ae%b0/
+20190819	其它	https://micropoor.blogspot.com/2019/08/blog-post.html	网络安全学习方法论之体系的重要性	blogspot.com	micropoor.blogspot.com	/2019/08/blog-post.html
+20190819	Web安全	https://github.com/Mel0day/RedTeam-BCS	BCS 2019 红队行动会议重点内容	github.com	github.com	/Mel0day/RedTeam-BCS
+20190819	编程技术	https://mp.weixin.qq.com/s/urbFms6AiUb7uu_IGj3LXQ	漏洞扫描技巧篇-Web 漏洞扫描器	qq.com	mp.weixin.qq.com	/s/urbFms6AiUb7uu_IGj3LXQ
+20190819	漏洞分析	https://www.inforsec.org/wp/?p=3499	从源代码漏洞挖掘谈有价值研究-PPT	inforsec.org	www.inforsec.org	/wp/
+20190819	移动安全	https://mp.weixin.qq.com/s/FcX6C-3mXckmRe0J-TTsfA	安卓常见脱壳方法	qq.com	mp.weixin.qq.com	/s/FcX6C-3mXckmRe0J-TTsfA
+20190819	Web安全	https://mp.weixin.qq.com/s/XcIr3iC9J41_D9DLLzIoDA	浅谈内网端口转发	qq.com	mp.weixin.qq.com	/s/XcIr3iC9J41_D9DLLzIoDA
+20190819	工具	https://github.com/Ch1ngg/OtherAntSwordAESEncoder	蚁剑 CUSTOM AES编/解码器弥补蚁剑其他 Shell 没有强加密算法的缺陷	github.com	github.com	/Ch1ngg/OtherAntSwordAESEncoder
+20190819	取证分析	https://xz.aliyun.com/t/5894	单机日志分析工具-logC	aliyun.com	xz.aliyun.com	/t/5894
+20190819	Web安全	https://mp.weixin.qq.com/s/wnCWeZqXDqbas6HBOxhBlw	利用SSH隧道反弹Shell	qq.com	mp.weixin.qq.com	/s/wnCWeZqXDqbas6HBOxhBlw
+20190819	Web安全	https://xz.aliyun.com/t/6037	web.config文件上传技术研究	aliyun.com	xz.aliyun.com	/t/6037
+20190819	数据挖掘	https://mp.weixin.qq.com/s/Ef1qrTdQPaq8dEvLBvdIwg	DNS攻防皮毛（二）	qq.com	mp.weixin.qq.com	/s/Ef1qrTdQPaq8dEvLBvdIwg
+20190819	Web安全	https://www.freebuf.com/sectool/210450.html	利用ICMP进行命令控制和隧道传输	freebuf.com	www.freebuf.com	/sectool/210450.html
+20190819	Web安全	http://www.f4ckweb.top/index.php/archives/62/	基于框架开发的程序的代码审计思路总结	f4ckweb.top	www.f4ckweb.top	/index.php/archives/62/
+20190819	恶意分析	https://www.freebuf.com/sectool/210416.html	利用CobaltStrike捆绑后门的艺术	freebuf.com	www.freebuf.com	/sectool/210416.html
+20190819	杂志	https://www.sec-wiki.com/weekly/285	SecWiki周刊（第285期)	sec-wiki.com	www.sec-wiki.com	/weekly/285
+20190819	恶意分析	https://yuange1975.blogspot.com/2019/08/bypass.html	如何轻松bypass文件沙箱	blogspot.com	yuange1975.blogspot.com	/2019/08/bypass.html
+20190819	取证分析	https://mp.weixin.qq.com/s/nqQmlWcemAGopy898I4cNg	基于 ATT&CK 的 APT 威胁跟踪和狩猎	qq.com	mp.weixin.qq.com	/s/nqQmlWcemAGopy898I4cNg
+20190819	取证分析	https://mp.weixin.qq.com/s/zbAwTDZ5IuRCMkuIDo82Cw	从ATT&CK看威胁情报的发展和应用趋势	qq.com	mp.weixin.qq.com	/s/zbAwTDZ5IuRCMkuIDo82Cw
+20190819	Web安全	https://medium.com/@NullByteWht/top-10-browser-extensions-for-hackers-osint-researchers-fca19b469158	Top 10 Browser Extensions for Hackers & OSINT Researchers	medium.com	medium.com	/@NullByteWht/top-10-browser-extensions-for-hackers-osint-researchers-fca19b469158
+20190819	取证分析	https://mp.weixin.qq.com/s/CzrQoLdpVUHrXGTMrkWHPQ	实战化ATT&CK™：威胁情报	qq.com	mp.weixin.qq.com	/s/CzrQoLdpVUHrXGTMrkWHPQ
+20190819	取证分析	https://mp.weixin.qq.com/s/pF_d4Jbqs8QGlWN0ITnm6g	实战化ATT&CK™：引言	qq.com	mp.weixin.qq.com	/s/pF_d4Jbqs8QGlWN0ITnm6g
+20190819	数据挖掘	https://blog.chih.me/simjoin-on-spark.html	基于SPARK的分布式网页近似度检测	chih.me	blog.chih.me	/simjoin-on-spark.html
+20190819	Web安全	https://github.com/vysecurity/DomainFrontingLists	DomainFrontingLists: A list of Domain Frontable Domains by CDN	github.com	github.com	/vysecurity/DomainFrontingLists
+20190819	恶意分析	https://mp.weixin.qq.com/s/j9eXRPu_YYLGyzFiz2fj4g	NDSS 2019议题解读：从运营商角度清除Mirai僵尸网络	qq.com	mp.weixin.qq.com	/s/j9eXRPu_YYLGyzFiz2fj4g

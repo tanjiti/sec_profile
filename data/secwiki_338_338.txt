@@ -1,0 +1,51 @@
+20200817	法规	http://www.gov.cn/zhengce/zhengceku/2020-08/16/content_5535125.htm	公安部关于修改《公安机关办理刑事案件程序规定》的决定	www.gov.cn	www.gov.cn	/zhengce/zhengceku/2020-08/16/content_5535125.htm
+20200817	法规	http://www.miit.gov.cn/n1146285/n1146352/n3054355/n3057724/n3057728/c8056526/content.html	关于运用大数据推进防范治理电信网络诈骗长效机制建设工作方案	miit.gov.cn	www.miit.gov.cn	/n1146285/n1146352/n3054355/n3057724/n3057728/c8056526/content.html
+20200817	Web安全	https://mp.weixin.qq.com/s/4FeZwDlLdWOjgITdWH1ucQ	冰蝎3.0简要分析	qq.com	mp.weixin.qq.com	/s/4FeZwDlLdWOjgITdWH1ucQ
+20200817	Web安全	https://mp.weixin.qq.com/s/_4ACLzaImDMQbZWfhSHnwg	哥斯拉Godzilla shell管理工具	qq.com	mp.weixin.qq.com	/s/_4ACLzaImDMQbZWfhSHnwg
+20200817	恶意分析	https://mp.weixin.qq.com/s/GpGubo6CRL9OOEumkyL29A	冰蝎3.0、哥斯拉后门检测	qq.com	mp.weixin.qq.com	/s/GpGubo6CRL9OOEumkyL29A
+20200817	观点	https://www.secrss.com/articles/24820	2020黑帽大会亮点议题&技术观察	secrss.com	www.secrss.com	/articles/24820
+20200817	运维安全	https://github.com/latentgod/OpenSA	OpenSA: 运维自动化平台	github.com	github.com	/latentgod/OpenSA
+20200817	恶意分析	https://xz.aliyun.com/t/8107	无字母数字webshell总结	aliyun.com	xz.aliyun.com	/t/8107
+20200817	恶意分析	https://mp.weixin.qq.com/s/w40qI2iPNLx9GjgkYRyhpg	半自动化冰蝎流量分析的实践	qq.com	mp.weixin.qq.com	/s/w40qI2iPNLx9GjgkYRyhpg
+20200817	漏洞分析	https://mp.weixin.qq.com/s/zLXJtekT9O3OuzwBLigMsA	PHPCMS V9 前台RCE挖掘分析	qq.com	mp.weixin.qq.com	/s/zLXJtekT9O3OuzwBLigMsA
+20200817	恶意分析	https://mp.weixin.qq.com/s/D0ACXtPsj91chP4zmGpUjQ	浅谈哥斯拉内存Shell技术	qq.com	mp.weixin.qq.com	/s/D0ACXtPsj91chP4zmGpUjQ
+20200817	漏洞分析	https://drivertom.blogspot.com/2020/08/oa116-preauth-rce-0day.html	通达OA11.6 preauth RCE 0day分析	blogspot.com	drivertom.blogspot.com	/2020/08/oa116-preauth-rce-0day.html
+20200817	Web安全	https://xz.aliyun.com/t/8117	浅探内网横向移动-Pass The Hash	aliyun.com	xz.aliyun.com	/t/8117
+20200817	漏洞分析	https://mp.weixin.qq.com/s/jb3VQyK3U6BQS0-0ad0K_w	软件源码安全攻防之道（上）	qq.com	mp.weixin.qq.com	/s/jb3VQyK3U6BQS0-0ad0K_w
+20200817	Web安全	https://xz.aliyun.com/t/8147	针对学校内网的一次渗透测试	aliyun.com	xz.aliyun.com	/t/8147
+20200817	取证分析	https://www.freebuf.com/articles/database/246984.html	Office文件追踪方案探索	freebuf.com	www.freebuf.com	/articles/database/246984.html
+20200817	设备安全	https://bacde.me/post/mqtt-security-part-one/	物联网安全之MQTT协议安全	bacde.me	bacde.me	/post/mqtt-security-part-one/
+20200817	取证分析	https://mp.weixin.qq.com/s/UIKHaQzXWc6p6Mjonrk8cg	基于开源情报网络分析与网页分析	qq.com	mp.weixin.qq.com	/s/UIKHaQzXWc6p6Mjonrk8cg
+20200817	恶意分析	https://mp.weixin.qq.com/s/YhiOHWnqXVqvLNH7XSxC9w	JSP Webshell那些事 -- 攻击篇(下)	qq.com	mp.weixin.qq.com	/s/YhiOHWnqXVqvLNH7XSxC9w
+20200817	恶意分析	https://www.anquanke.com/post/id/214343	大发棋牌安全情报	anquanke.com	www.anquanke.com	/post/id/214343
+20200817	Web安全	https://xz.aliyun.com/t/8125	浅谈PHP无回显命令执行的利用	aliyun.com	xz.aliyun.com	/t/8125
+20200817	数据挖掘	https://mp.weixin.qq.com/s/JWBAZfDPW1QIjrRdc5Yb3Q	院士谈数据安全治理	qq.com	mp.weixin.qq.com	/s/JWBAZfDPW1QIjrRdc5Yb3Q
+20200817	漏洞分析	https://lenny233.github.io/2020/02/20/codql-and-cve-2019-3560/	CodeQL 若干问题思考及 CVE-2019-3560 审计详解	github.io	lenny233.github.io	/2020/02/20/codql-and-cve-2019-3560/
+20200817	恶意分析	https://mp.weixin.qq.com/s/H66J0ab8UAyVrxRb1RLO4g	利用 ZoomEye 追踪多种 Redteam C&C 后渗透攻击框架	qq.com	mp.weixin.qq.com	/s/H66J0ab8UAyVrxRb1RLO4g
+20200817	数据挖掘	https://mp.weixin.qq.com/s/e69Fg9UBX3B2BFiGvsg4Gg	DataCon2020 恶意代码分析冠军writeup	qq.com	mp.weixin.qq.com	/s/e69Fg9UBX3B2BFiGvsg4Gg
+20200817	取证分析	https://mp.weixin.qq.com/s/5MWDXN3eCaw9m-XHDGaXcQ	关于Cobalt Strike检测方法与去特征的思考	qq.com	mp.weixin.qq.com	/s/5MWDXN3eCaw9m-XHDGaXcQ
+20200817	漏洞分析	https://www.anquanke.com/post/id/214108	从0到1认识Redis到多维角度场景下的安全分析与利用	anquanke.com	www.anquanke.com	/post/id/214108
+20200817	恶意分析	https://mp.weixin.qq.com/s/CRdDJeen-Zqc0RCnMr4kzQ	揭秘CVE-2020-1464 Windows文件签名验证绕过漏洞疑云	qq.com	mp.weixin.qq.com	/s/CRdDJeen-Zqc0RCnMr4kzQ
+20200817	其它	https://zhuanlan.zhihu.com/p/84058442	写给技术创业者的创业思考框架	zhihu.com	zhuanlan.zhihu.com	/p/84058442
+20200817	比赛	https://www.anquanke.com/post/id/214288	Angr_CTF从精通到弃坑	anquanke.com	www.anquanke.com	/post/id/214288
+20200817	恶意分析	https://www.freebuf.com/articles/network/240041.html	全端口蜜罐的部署过程与数据分析	freebuf.com	www.freebuf.com	/articles/network/240041.html
+20200817	漏洞分析	https://paper.seebug.org/1300/	智能合约中的那些后门漏洞	seebug.org	paper.seebug.org	/1300/
+20200817	文档	http://yundunpr.oss-cn-hangzhou.aliyuncs.com/2020/xcon2020.pdf	云安全环境下恶意脚本检测的最佳实践	aliyuncs.com	yundunpr.oss-cn-hangzhou.aliyuncs.com	/2020/xcon2020.pdf
+20200817	数据挖掘	https://mp.weixin.qq.com/s/zIbhQjP9OTIPG9uRr64xtA	数据中台：基于标签体系的360°用户画像	qq.com	mp.weixin.qq.com	/s/zIbhQjP9OTIPG9uRr64xtA
+20200817	比赛	https://zhuanlan.zhihu.com/p/186254809	DataCon2020 僵尸网络追踪第一题writeup	zhihu.com	zhuanlan.zhihu.com	/p/186254809
+20200817	数据挖掘	https://mp.weixin.qq.com/s/-lizDyP2y357plcG1M64TA	2020腾讯广告算法大赛方案分享及代码（冠军）	qq.com	mp.weixin.qq.com	/s/-lizDyP2y357plcG1M64TA
+20200817	取证分析	https://medium.com/katies-five-cents/faqs-on-getting-started-in-cyber-threat-intelligence-f567f267348e	FAQs on Getting Started in Cyber Threat Intelligence	medium.com	medium.com	/katies-five-cents/faqs-on-getting-started-in-cyber-threat-intelligence-f567f267348e
+20200817	漏洞分析	https://www.anquanke.com/post/id/214940	Go二进制文件逆向分析从基础到进阶——综述	anquanke.com	www.anquanke.com	/post/id/214940
+20200817	文档	https://www.venustech.com.cn/uploads/2020/08/170947121504.pdf	2019-2020网络安全态势观察报告	venustech.com.cn	www.venustech.com.cn	/uploads/2020/08/170947121504.pdf
+20200817	Web安全	https://mp.weixin.qq.com/s/BKwPy27aVM4fSrTSlLbq7g	萌新从0开始的专业渗透测试报告编写指南	qq.com	mp.weixin.qq.com	/s/BKwPy27aVM4fSrTSlLbq7g
+20200817	漏洞分析	https://xz.aliyun.com/t/8143	TP5.0.xRCE&5.0.24反序列化分析	aliyun.com	xz.aliyun.com	/t/8143
+20200817	Web安全	https://mp.weixin.qq.com/s/C002y-fBZVFv-dQztdC6Bg	Jenkins的后门实现（密码窃取,命令执行）	qq.com	mp.weixin.qq.com	/s/C002y-fBZVFv-dQztdC6Bg
+20200817	设备安全	https://www.anquanke.com/post/id/214983	工控安全分析闲谈	anquanke.com	www.anquanke.com	/post/id/214983
+20200817	数据挖掘	https://mp.weixin.qq.com/s/mRmDEuDKJSJ_xrYyBMn4Dw	大规模数据安全分类系统架构实践	qq.com	mp.weixin.qq.com	/s/mRmDEuDKJSJ_xrYyBMn4Dw
+20200817	设备安全	http://blog.nsfocus.net/iot-asset-tagging-1-0818/	物联网资产标记方法研究（一）基于先验知识的物联网资产标记实践	nsfocus.net	blog.nsfocus.net	/iot-asset-tagging-1-0818/
+20200817	杂志	https://www.sec-wiki.com/weekly/337	SecWiki周刊（第337期)	sec-wiki.com	www.sec-wiki.com	/weekly/337
+20200817	漏洞分析	http://netsec.ccert.edu.cn/files/slides/chao-fuzzing-small.pdf	软件漏洞挖掘方法探索	ccert.edu.cn	netsec.ccert.edu.cn	/files/slides/chao-fuzzing-small.pdf
+20200817	漏洞分析	https://github.com/7Hxz233/Lilac_2020_summer_pwn	Lilac 2020 暑期pwn培训课件	github.com	github.com	/7Hxz233/Lilac_2020_summer_pwn
+20200817	数据挖掘	https://mp.weixin.qq.com/s/Qp1Yrlu92LwZ-n4kipq0sw	Fraudar算法在京东关系网络反欺诈中的应用	qq.com	mp.weixin.qq.com	/s/Qp1Yrlu92LwZ-n4kipq0sw
+20200817	数据挖掘	https://mp.weixin.qq.com/s/Uenwe66pwl4SzcW1P2B7Iw	机器学习的模型评估与调参(附代码)	qq.com	mp.weixin.qq.com	/s/Uenwe66pwl4SzcW1P2B7Iw
+20200817	Web安全	https://xz.aliyun.com/t/8148	以OpenRASP为基础-展开来港港RASP的类加载	aliyun.com	xz.aliyun.com	/t/8148

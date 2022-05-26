@@ -1,0 +1,14 @@
+20210524	会议	https://zhuanlan.zhihu.com/p/374658103	ChinaSys十周年感想	zhihu.com	zhuanlan.zhihu.com	/p/374658103
+20210524	编程技术	https://github.com/Tencent/secguide	面向开发人员梳理的代码安全指南	github.com	github.com	/Tencent/secguide
+20210524	其它	https://mp.weixin.qq.com/s/bWFv7xa1OCYqoKrvzzJkGg	靶场建设与攻防人才培养实践	qq.com	mp.weixin.qq.com	/s/bWFv7xa1OCYqoKrvzzJkGg
+20210524	Web安全	https://mp.weixin.qq.com/s/oQVHrYqu3e8mzTokYWsBKg	Black Widow: 数据驱动的黑盒WEB应用扫描器	qq.com	mp.weixin.qq.com	/s/oQVHrYqu3e8mzTokYWsBKg
+20210524	Web安全	https://www.sec-in.com/article/1073	Mybatis-plus框架常见SQL注入场景	sec-in.com	www.sec-in.com	/article/1073
+20210524	杂志	https://www.sec-wiki.com/weekly/377	SecWiki周刊（第377期)	sec-wiki.com	www.sec-wiki.com	/weekly/377
+20210524	移动安全	https://mp.weixin.qq.com/s/LwcWN3YBNqHMLcHCotTDeg	基于多维度特征的Android恶意软件检测方法	qq.com	mp.weixin.qq.com	/s/LwcWN3YBNqHMLcHCotTDeg
+20210524	Web安全	https://mp.weixin.qq.com/s/cFK73WyHm7uE3L5aRa2D5w	隐藏源IP，提高溯源难度的几种方案	qq.com	mp.weixin.qq.com	/s/cFK73WyHm7uE3L5aRa2D5w
+20210524	Web安全	https://mp.weixin.qq.com/s/l0KjYqvvw_0PLyegaGEqcA	MTCTF-WriteUp	qq.com	mp.weixin.qq.com	/s/l0KjYqvvw_0PLyegaGEqcA
+20210524	恶意分析	https://mp.weixin.qq.com/s/CGSmfExP2wQvbKBfw4OEZA	流行勒索病毒分析总结（下）	qq.com	mp.weixin.qq.com	/s/CGSmfExP2wQvbKBfw4OEZA
+20210524	运维安全	https://github.com/didi/Logi-KafkaManager	一站式Apache Kafka集群指标监控与运维管控平台	github.com	github.com	/didi/Logi-KafkaManager
+20210524	Web安全	https://www.sec-in.com/article/1046	拿下靶机ColddWorld: Immersion	sec-in.com	www.sec-in.com	/article/1046
+20210524	数据挖掘	https://mp.weixin.qq.com/s/74yRJMHFKY8qJwRw9rd67w	重组与预测：一种基于自动编码器的离散事件异常检测方法	qq.com	mp.weixin.qq.com	/s/74yRJMHFKY8qJwRw9rd67w
+20210524	数据挖掘	https://mp.weixin.qq.com/s/PIAPbpzjJGDtTb38ISTyUA	Detecting Bots with Limited Data	qq.com	mp.weixin.qq.com	/s/PIAPbpzjJGDtTb38ISTyUA

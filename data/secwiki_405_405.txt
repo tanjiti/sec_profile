@@ -1,0 +1,35 @@
+20211129	法规	https://mp.weixin.qq.com/s/6nJ7tpo5qu8zVI8nYDQAnA	十四五”软件和信息技术服务业发展规划	qq.com	mp.weixin.qq.com	/s/6nJ7tpo5qu8zVI8nYDQAnA
+20211129	法规	https://mp.weixin.qq.com/s/_sCL1FBQe3hJNhIZrnVdwQ	《上海市数据条例》	qq.com	mp.weixin.qq.com	/s/_sCL1FBQe3hJNhIZrnVdwQ
+20211129	移动安全	https://www.sec-in.com/article/1135	记一次完成的钓鱼实战	sec-in.com	www.sec-in.com	/article/1135
+20211129	Web安全	https://mp.weixin.qq.com/s/HbnXhaN0QdlqTW7f__NFHA	信息搜集和密码利用的思路	qq.com	mp.weixin.qq.com	/s/HbnXhaN0QdlqTW7f__NFHA
+20211129	数据挖掘	https://toooold.com/2021/11/28/why_ml_fails_security_ml_is_not_everything_cn.html	为什么机器学习解决网络安全问题总是失败：机器学习不是万能灵药	toooold.com	toooold.com	/2021/11/28/why_ml_fails_security_ml_is_not_everything_cn.html
+20211129	取证分析	https://mp.weixin.qq.com/s/-JrUb49rnegnGzPMElSUFg	首次解读地下钱庄	qq.com	mp.weixin.qq.com	/s/-JrUb49rnegnGzPMElSUFg
+20211129	Web安全	http://mp.weixin.qq.com/s?__biz=MzIwOTA4NTg4MA==&mid=2652489869&idx=1&sn=ebc8047316d1fed75e2057894f43d5d7&chksm=8c945c5abbe3d54cfacd247cf49b7254da02a43f54091dee10581b852a5d08c4eb4f3758eebc#rd	[HTB] Teacher Writeup	qq.com	mp.weixin.qq.com	/s
+20211129	杂志	https://www.sec-wiki.com/weekly/404	SecWiki周刊（第404期)	sec-wiki.com	www.sec-wiki.com	/weekly/404
+20211129	数据挖掘	https://mp.weixin.qq.com/s/9bc8b-VtlW0seKgloLEvRQ	基于半结构化百科的电影KG构建、查询与推理实践记录	qq.com	mp.weixin.qq.com	/s/9bc8b-VtlW0seKgloLEvRQ
+20211129	恶意分析	https://mp.weixin.qq.com/s/9rDDLeYcohGdTEewpfy6Iw	攻击者利用微软MSHTML漏洞窃取谷歌和instagram凭证信息	qq.com	mp.weixin.qq.com	/s/9rDDLeYcohGdTEewpfy6Iw
+20211129	数据挖掘	https://posts.careerengine.us/p/61a0a70487c0de3490d379b7	模式识别，从初级感知到高级认知	careerengine.us	posts.careerengine.us	/p/61a0a70487c0de3490d379b7
+20211129	数据挖掘	https://mp.weixin.qq.com/s/a-UBil7WYmxb6FQx0TAJbw	​causal-learn：基于Python的因果发现算法平台	qq.com	mp.weixin.qq.com	/s/a-UBil7WYmxb6FQx0TAJbw
+20211129	恶意分析	https://mp.weixin.qq.com/s/9ptODSm-CiyZcXASaPybug	通过反编译和机器学习检测恶意样本代码重用	qq.com	mp.weixin.qq.com	/s/9ptODSm-CiyZcXASaPybug
+20211129	恶意分析	https://mp.weixin.qq.com/s/m1qOrRBrLAuRYu-eJQ_oOg	从BeaconEye说起，围绕CS内存特征的检测与规避	qq.com	mp.weixin.qq.com	/s/m1qOrRBrLAuRYu-eJQ_oOg
+20211129	观点	https://mp.weixin.qq.com/s/n63l4LOiViv5p9I2ELI2gg	关于金融科技安全的认识与思考	qq.com	mp.weixin.qq.com	/s/n63l4LOiViv5p9I2ELI2gg
+20211129	恶意分析	https://mp.weixin.qq.com/s/zsPPkhCZ8mhiFZ8sAohw6w	DotNet内存马-HttpListener	qq.com	mp.weixin.qq.com	/s/zsPPkhCZ8mhiFZ8sAohw6w
+20211129	无线安全	https://mp.weixin.qq.com/s/6K3RQtjzAvtyYNkavuHuaw	5G专网安全风险与技术方案	qq.com	mp.weixin.qq.com	/s/6K3RQtjzAvtyYNkavuHuaw
+20211129	恶意分析	https://www.anquanke.com/post/id/260494	威胁狩猎的最佳实践	anquanke.com	www.anquanke.com	/post/id/260494
+20211129	Web安全	https://koalr.me/posts/core-concept-of-yarx/	xray 终极反制实践	koalr.me	koalr.me	/posts/core-concept-of-yarx/
+20211129	漏洞分析	https://mp.weixin.qq.com/s/N8JDSZB9AVcOuZ260asQQg	协议Fuzz工具整合	qq.com	mp.weixin.qq.com	/s/N8JDSZB9AVcOuZ260asQQg
+20211129	漏洞分析	http://blog.topsec.com.cn/cve-2021-22205-gitlab-rce%e4%b9%8b%e6%9c%aa%e6%8e%88%e6%9d%83%e8%ae%bf%e9%97%ae%e6%b7%b1%e5%85%a5%e5%88%86%e6%9e%90%e4%b8%80/	CVE-2021-22205 GitLab RCE之未授权访问深入分析(一)	topsec.com.cn	blog.topsec.com.cn	/cve-2021-22205-gitlab-rce%e4%b9%8b%e6%9c%aa%e6%8e%88%e6%9d%83%e8%ae%bf%e9%97%ae%e6%b7%b1%e5%85%a5%e5%88%86%e6%9e%90%e4%b8%80/
+20211129	恶意分析	https://paper.seebug.org/1771/	安卓 APT 间谍软件 GnatSpy 分析	seebug.org	paper.seebug.org	/1771/
+20211129	Web安全	https://github.com/SkewwG/henggeFish	henggeFish: 自动化批量发送钓鱼邮件	github.com	github.com	/SkewwG/henggeFish
+20211129	取证分析	https://www.anquanke.com/post/id/260888	域前置溯源方法思考	anquanke.com	www.anquanke.com	/post/id/260888
+20211129	恶意分析	https://mp.weixin.qq.com/s/gpmVRe_sa5_nvN-Xz1_ZcQ	结合强化学习与CNN的Webshell检测方法	qq.com	mp.weixin.qq.com	/s/gpmVRe_sa5_nvN-Xz1_ZcQ
+20211129	漏洞分析	https://paper.seebug.org/1770/	Linux 与 XNU 的 KPTI 实现解读	seebug.org	paper.seebug.org	/1770/
+20211129	Web安全	https://paper.seebug.org/1776/	Serverless 扫描技术研究及应用	seebug.org	paper.seebug.org	/1776/
+20211129	运维安全	https://github.com/wecooperate/iMonitorSDK	iMonitorSDK: 系统监控开发套件API	github.com	github.com	/wecooperate/iMonitorSDK
+20211129	漏洞分析	http://noahblog.360.cn/apache-storm-vulnerability-analysis/	Apache Storm 漏洞分析	360.cn	noahblog.360.cn	/apache-storm-vulnerability-analysis/
+20211129	运维安全	https://mp.weixin.qq.com/s/SMqKIquuJE6EIvXCcX70wA	铁路组织网络风险管理的最佳实践	qq.com	mp.weixin.qq.com	/s/SMqKIquuJE6EIvXCcX70wA
+20211129	恶意分析	https://mp.weixin.qq.com/s/T3XNl-A1-KgdVElogKzSLQ	“加强软件供应链安全实践的指南” (SSDF V1.1草案)	qq.com	mp.weixin.qq.com	/s/T3XNl-A1-KgdVElogKzSLQ
+20211129	恶意分析	https://mp.weixin.qq.com/s/-ihOJFNP5OaTy6BNr2uxrA	从研究工控设备到发现供应链威胁	qq.com	mp.weixin.qq.com	/s/-ihOJFNP5OaTy6BNr2uxrA
+20211129	运维安全	https://mp.weixin.qq.com/s/omM1xphG_ie9GDjsu34s3w	数据中心智能安全运营体系建设探索与实践	qq.com	mp.weixin.qq.com	/s/omM1xphG_ie9GDjsu34s3w
+20211129	恶意分析	https://mp.weixin.qq.com/s/XTbY3plfEpuPhYc7KQdnaA	利用轻量级权限系统遏制恶意NPM软件包更新	qq.com	mp.weixin.qq.com	/s/XTbY3plfEpuPhYc7KQdnaA
+20211129	数据挖掘	https://mp.weixin.qq.com/s/wX4g3o7vdz2NJ18TKIUkqA	基于多模态学习的视觉实体链接	qq.com	mp.weixin.qq.com	/s/wX4g3o7vdz2NJ18TKIUkqA

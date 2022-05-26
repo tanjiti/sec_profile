@@ -1,0 +1,31 @@
+20210322	法规	https://mp.weixin.qq.com/s/VshK6oANVI_skfjuGEUHSw	《人民检察院办理网络犯罪案件规定》的理解与适用	qq.com	mp.weixin.qq.com	/s/VshK6oANVI_skfjuGEUHSw
+20210322	Web安全	https://www.sec-in.com/article/949	HFish初版审计学习	sec-in.com	www.sec-in.com	/article/949
+20210322	其它	https://mp.weixin.qq.com/s/F6QcVgSyXz3wwJlRDd8TVQ	使用 AWS Lambda 隐藏 C&C 流量	qq.com	mp.weixin.qq.com	/s/F6QcVgSyXz3wwJlRDd8TVQ
+20210322	编程技术	https://mp.weixin.qq.com/s/IwpflmaxVar3Vk5AqBmdAA	我是如何低成本建立RapidDNS.io网站的	qq.com	mp.weixin.qq.com	/s/IwpflmaxVar3Vk5AqBmdAA
+20210322	Web安全	https://github.com/lcvvvv/kscan	Kscan：轻量级的资产发现工具	github.com	github.com	/lcvvvv/kscan
+20210322	工具	https://github.com/GuoKerS/Charset_encoding-Burp	利用字符集编码绕过waf的burp插件	github.com	github.com	/GuoKerS/Charset_encoding-Burp
+20210322	杂志	https://www.sec-wiki.com/weekly/368	SecWiki周刊（第368期)	sec-wiki.com	www.sec-wiki.com	/weekly/368
+20210322	设备安全	https://mp.weixin.qq.com/s/SUjjKY_TIj10rpQW9tkH9A	硬核黑客笔记 - 怒吼吧电磁波 (上)	qq.com	mp.weixin.qq.com	/s/SUjjKY_TIj10rpQW9tkH9A
+20210322	Web安全	https://mp.weixin.qq.com/s/5ofJ6J1KVQIvVB3dZdIVng	剑指钓鱼基建自动化的想法	qq.com	mp.weixin.qq.com	/s/5ofJ6J1KVQIvVB3dZdIVng
+20210322	运维安全	https://mp.weixin.qq.com/s/GAeau8TJEWZtrv5CHlSHNQ	浅谈风控的架构	qq.com	mp.weixin.qq.com	/s/GAeau8TJEWZtrv5CHlSHNQ
+20210322	Web安全	https://www.sec-in.com/article/967	Driftingblues3靶机渗透	sec-in.com	www.sec-in.com	/article/967
+20210322	Web安全	https://blog.assetnote.io/2021/03/18/h2c-smuggling/	H2C Smuggling in the Wild	assetnote.io	blog.assetnote.io	/2021/03/18/h2c-smuggling/
+20210322	数据挖掘	https://mp.weixin.qq.com/s/jsOyxiDBnvi4PiqdgA3dvw	网络空间测绘核心技术之：协议识别（DCERPC篇）	qq.com	mp.weixin.qq.com	/s/jsOyxiDBnvi4PiqdgA3dvw
+20210322	Web安全	https://www.sec-in.com/article/969	一次金融行业的红蓝对抗总结	sec-in.com	www.sec-in.com	/article/969
+20210322	其它	https://mp.weixin.qq.com/s/Z3rIpxl9ZOVuZzTABAojvg	中国网络安全行业全景图（2021年3月第八版）	qq.com	mp.weixin.qq.com	/s/Z3rIpxl9ZOVuZzTABAojvg
+20210322	取证分析	https://mp.weixin.qq.com/s/kNfTBoeFu90QPvYbPcR_OQ	实践之后，我们来谈谈如何做好威胁建模	qq.com	mp.weixin.qq.com	/s/kNfTBoeFu90QPvYbPcR_OQ
+20210322	Web安全	https://portswigger.net/research/hidden-oauth-attack-vectors	Hidden OAuth attack vectors	portswigger.net	portswigger.net	/research/hidden-oauth-attack-vectors
+20210322	Web安全	https://mp.weixin.qq.com/s/uENvpPan7aVd7MbSoAT9Dg	MSSQL 数据库攻击实战指北—防守方攻略	qq.com	mp.weixin.qq.com	/s/uENvpPan7aVd7MbSoAT9Dg
+20210322	恶意分析	https://mp.weixin.qq.com/s/JWSjKZWyuSvXdzYhU0INmQ	浅析软件供应链攻击之包抢注低成本钓鱼	qq.com	mp.weixin.qq.com	/s/JWSjKZWyuSvXdzYhU0INmQ
+20210322	数据挖掘	https://mp.weixin.qq.com/s/7Qa4PZCXARqEK-iphVPTjA	模型可解释性在保险理赔反欺诈中的实践	qq.com	mp.weixin.qq.com	/s/7Qa4PZCXARqEK-iphVPTjA
+20210322	文档	https://mp.weixin.qq.com/s/GdSgHNTLjysqow4ka8tY7w	2020年联网智能设备安全态势报告	qq.com	mp.weixin.qq.com	/s/GdSgHNTLjysqow4ka8tY7w
+20210322	Web安全	https://xz.aliyun.com/t/9319	记一次跌宕起伏的白盒审计到RCE	aliyun.com	xz.aliyun.com	/t/9319
+20210322	恶意分析	https://xz.aliyun.com/t/9290	一些webshell免杀的技巧	aliyun.com	xz.aliyun.com	/t/9290
+20210322	恶意分析	https://mp.weixin.qq.com/s/RhM2qUxDWTyykCbSW6e8SQ	RemRAT潜伏在中东多年的Android间谍软件	qq.com	mp.weixin.qq.com	/s/RhM2qUxDWTyykCbSW6e8SQ
+20210322	文档	https://github.com/EXHades/CyberSpaceSearchEngine-Research	一些网络空间搜索引擎相关的资料	github.com	github.com	/EXHades/CyberSpaceSearchEngine-Research
+20210322	取证分析	https://xz.aliyun.com/t/9316	蓝队溯源与反制	aliyun.com	xz.aliyun.com	/t/9316
+20210322	漏洞分析	https://www.anquanke.com/post/id/235511	Java反序列化漏洞浅析	anquanke.com	www.anquanke.com	/post/id/235511
+20210322	文档	http://www.caict.ac.cn/kxyj/qwfb/ztbg/202103/P020210324512102846900.pdf	国内网络安全信息与事件管理类产品研究与测试报告（2021年）	caict.ac.cn	www.caict.ac.cn	/kxyj/qwfb/ztbg/202103/P020210324512102846900.pdf
+20210322	漏洞分析	https://blog.trailofbits.com/2021/03/23/a-year-in-the-life-of-a-compiler-fuzzing-campaign/	A Year in the Life of a Compiler Fuzzing Campaign	trailofbits.com	blog.trailofbits.com	/2021/03/23/a-year-in-the-life-of-a-compiler-fuzzing-campaign/
+20210322	漏洞分析	https://www.anquanke.com/post/id/235191	qemu逃逸学习	anquanke.com	www.anquanke.com	/post/id/235191
+20210322	漏洞分析	https://www.anquanke.com/post/id/234925	TinyInst动态插桩工具原理分析	anquanke.com	www.anquanke.com	/post/id/234925

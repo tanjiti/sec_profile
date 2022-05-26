@@ -1,0 +1,29 @@
+20210308	Web安全	https://www.sec-in.com/article/903	牛红红的日记（平平无奇拿下域控）	sec-in.com	www.sec-in.com	/article/903
+20210308	Web安全	https://www.sec-in.com/article/799	Frida 入门	sec-in.com	www.sec-in.com	/article/799
+20210308	Web安全	通达 OA 11.7 组合拳 RCE 利用分析	通达 OA 11.7 组合拳 RCE 利用分析	7 组合拳 RCE 利用分析.		通达 OA 11.7 组合拳 RCE 利用分析
+20210308	恶意分析	https://xz.aliyun.com/t/9246	免杀/一句话木马(PHP)	aliyun.com	xz.aliyun.com	/t/9246
+20210308	Web安全	https://mp.weixin.qq.com/s/ttbJY33W7Bmog_MgNZXc6Q	RapidDNS.IO 网站应用实例	qq.com	mp.weixin.qq.com	/s/ttbJY33W7Bmog_MgNZXc6Q
+20210308	运维安全	https://mp.weixin.qq.com/s/DqtIzNdDvB7pYjXmoP1quQ	资产管理的难点	qq.com	mp.weixin.qq.com	/s/DqtIzNdDvB7pYjXmoP1quQ
+20210308	Web安全	https://mp.weixin.qq.com/s/WDmj4-2lB-hlf_Fm_wDiOg	Shiro 反序列化漏洞利用工具编写思路	qq.com	mp.weixin.qq.com	/s/WDmj4-2lB-hlf_Fm_wDiOg
+20210308	Web安全	https://xz.aliyun.com/t/9219	两道CSP题目绕过分析	aliyun.com	xz.aliyun.com	/t/9219
+20210308	Web安全	https://xz.aliyun.com/t/9226	某oa java代码审计2	aliyun.com	xz.aliyun.com	/t/9226
+20210308	恶意分析	https://mp.weixin.qq.com/s/gIEPvwBE61axZfhBbB9aiw	漏洞威胁分析报告（上册）- 不同视角下的漏洞威胁	qq.com	mp.weixin.qq.com	/s/gIEPvwBE61axZfhBbB9aiw
+20210308	Web安全	https://mp.weixin.qq.com/s/NMJd91AmuGEANz00sZELfw	JavaScript反调试技巧	qq.com	mp.weixin.qq.com	/s/NMJd91AmuGEANz00sZELfw
+20210308	无线安全	https://mp.weixin.qq.com/s/kifu_p4eOfy1kuSfLMrXMw	从PR中学习如何修改 flashrom 读取国产 flash	qq.com	mp.weixin.qq.com	/s/kifu_p4eOfy1kuSfLMrXMw
+20210308	取证分析	https://mp.weixin.qq.com/s/AiHRwc0LBUyxkg0vcu12eg	Signal 数据分析	qq.com	mp.weixin.qq.com	/s/AiHRwc0LBUyxkg0vcu12eg
+20210308	Web安全	https://www.anquanke.com/post/id/233114	对蚁剑的相关改造及分析	anquanke.com	www.anquanke.com	/post/id/233114
+20210308	恶意分析	https://krebsonsecurity.com/2021/03/a-basic-timeline-of-the-exchange-mass-hack/	A Basic Timeline of the Exchange Mass-Hack	krebsonsecurity.com	krebsonsecurity.com	/2021/03/a-basic-timeline-of-the-exchange-mass-hack/
+20210308	杂志	https://www.sec-wiki.com/weekly/366	SecWiki周刊（第366期)	sec-wiki.com	www.sec-wiki.com	/weekly/366
+20210308	Web安全	https://xz.aliyun.com/t/9225	某oa java代码审计1	aliyun.com	xz.aliyun.com	/t/9225
+20210308	Web安全	https://github.com/CTF-MissFeng/GoScan	GoScan: 分布式综合资产管理系统	github.com	github.com	/CTF-MissFeng/GoScan
+20210308	恶意分析	https://zhuanlan.zhihu.com/p/356415256	Google内部开源组件的风险治理框架与工作流程窥探	zhihu.com	zhuanlan.zhihu.com	/p/356415256
+20210308	数据挖掘	https://www.azsecure-data.org/	Data Science Testbed for Security Researchers	azsecure-data.org	www.azsecure-data.org	/
+20210308	Web安全	https://mp.weixin.qq.com/s/oOf0RI6P2hEwtPXWP6yU4Q	D^3CTF-WriteUp	qq.com	mp.weixin.qq.com	/s/oOf0RI6P2hEwtPXWP6yU4Q
+20210308	漏洞分析	https://www.anquanke.com/post/id/232414	如何攻击深度学习系统——后门攻防	anquanke.com	www.anquanke.com	/post/id/232414
+20210308	Web安全	https://github.com/wgpsec/tig	TIG 威胁情报收集	github.com	github.com	/wgpsec/tig
+20210308	漏洞分析	https://github.com/yhy0/github-cve-monitor	监控github上新增的cve编号项目漏洞	github.com	github.com	/yhy0/github-cve-monitor
+20210308	视频	https://blogs.jpcert.or.jp/en/2021/03/jsac2021report3.html	Japan Security Analyst Conference 2021 -1st Track-	jpcert.or.jp	blogs.jpcert.or.jp	/en/2021/03/jsac2021report3.html
+20210308	恶意分析	https://www.domaintools.com/resources/blog/examining-exchange-exploitation-and-its-lessons-for-defenders	Examining Exchange Exploitation and its Lessons for Defenders	domaintools.com	www.domaintools.com	/resources/blog/examining-exchange-exploitation-and-its-lessons-for-defenders
+20210308	数据挖掘	https://mp.weixin.qq.com/s/LwWMfOMqSgArtv9jlfaPRw	网络测绘-立体呈现网络事件细节知多少？	qq.com	mp.weixin.qq.com	/s/LwWMfOMqSgArtv9jlfaPRw
+20210308	编程技术	https://mp.weixin.qq.com/s/PvnLnn1gDcl_X4fyocyPrA	最后防线：osquery功能与实现	qq.com	mp.weixin.qq.com	/s/PvnLnn1gDcl_X4fyocyPrA
+20210308	设备安全	https://www.anquanke.com/post/id/232845	IoT设备漏洞复现到固件后门植入	anquanke.com	www.anquanke.com	/post/id/232845

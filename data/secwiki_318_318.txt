@@ -1,0 +1,45 @@
+20200330	恶意分析	https://mp.weixin.qq.com/s/nd_dZmAyp5U0lQSOytB6Ng	美公司披露俄长达15年的网络活动简析	qq.com	mp.weixin.qq.com	/s/nd_dZmAyp5U0lQSOytB6Ng
+20200330	新闻	https://mp.weixin.qq.com/s/8I8hM_G1AO9emXpqxdR0oA	美国联邦政府SOC建设动向（2019）	qq.com	mp.weixin.qq.com	/s/8I8hM_G1AO9emXpqxdR0oA
+20200330	爆库	https://github.com/ffffffff0x/Dork-Admin	Dork-Admin: 盘点近年来的数据泄露、供应链污染事件	github.com	github.com	/ffffffff0x/Dork-Admin
+20200330	新闻	https://mp.weixin.qq.com/s/yEsrMmI0BpvllXaf3TBWkw	2021财年DARPA预算概况及发展动向解析	qq.com	mp.weixin.qq.com	/s/yEsrMmI0BpvllXaf3TBWkw
+20200330	观点	https://mp.weixin.qq.com/s/6i17MV8T3rou8j0rY-ZbIQ	中国工业网络安全厂商综合能力概览（2020年第1期）	qq.com	mp.weixin.qq.com	/s/6i17MV8T3rou8j0rY-ZbIQ
+20200330	新闻	https://www.aqniu.com/focus/jiaodiantua/66442.html	中国网络安全行业全景图（2020年3月第七版）	aqniu.com	www.aqniu.com	/focus/jiaodiantua/66442.html
+20200330	Web安全	https://mp.weixin.qq.com/s/LSE5-RhZcpQ0IGUdTNxmag	任意文件读取漏洞的曲折历程	qq.com	mp.weixin.qq.com	/s/LSE5-RhZcpQ0IGUdTNxmag
+20200330	运维安全	https://mp.weixin.qq.com/s/Bci16rG7R0wgiRrBO06SuQ	SSH暴力破解姿势总结	qq.com	mp.weixin.qq.com	/s/Bci16rG7R0wgiRrBO06SuQ
+20200330	Web安全	http://www.fr1sh.com/?post=26	利用CVE-2020-0796 本地提权	fr1sh.com	www.fr1sh.com	/
+20200330	Web安全	https://mp.weixin.qq.com/s/WLP1soWz-_BEouMxTHLbzg	内网免杀抓取windows hash方法	qq.com	mp.weixin.qq.com	/s/WLP1soWz-_BEouMxTHLbzg
+20200330	Web安全	https://mp.weixin.qq.com/s/diCsSpVCW8SbmKzZFXD6BQ	默认密码在线查询网站	qq.com	mp.weixin.qq.com	/s/diCsSpVCW8SbmKzZFXD6BQ
+20200330	漏洞分析	https://mp.weixin.qq.com/s/Cn0bF7xG6ESCP2iVYiaW2g	漏洞分析视角下的CVE-2020-0796漏洞	qq.com	mp.weixin.qq.com	/s/Cn0bF7xG6ESCP2iVYiaW2g
+20200330	Web安全	https://pan.baidu.com/s/1H-sL7ctgGOfj6mSCqFYo8w	WAF攻防实战笔记-提取码: yaki	baidu.com	pan.baidu.com	/s/1H-sL7ctgGOfj6mSCqFYo8w
+20200330	Web安全	https://mp.weixin.qq.com/s/aFO2KJieZQN2rNkcmrj-pQ	Shellcode编程——编写自己想要功能的Shellcode	qq.com	mp.weixin.qq.com	/s/aFO2KJieZQN2rNkcmrj-pQ
+20200330	Web安全	https://samny.gitee.io/2020/03/24/%E7%99%BD%E5%A4%B4%E6%90%94%E6%9B%B4%E7%9F%AD%EF%BC%8CSSTI%E6%83%B9%E4%BA%BA%E5%BF%83%EF%BC%81/	Java SSTI漏洞审计	gitee.io	samny.gitee.io	/2020/03/24/%E7%99%BD%E5%A4%B4%E6%90%94%E6%9B%B4%E7%9F%AD%EF%BC%8CSSTI%E6%83%B9%E4%BA%BA%E5%BF%83%EF%BC%81/
+20200330	运维安全	https://mp.weixin.qq.com/s/TIPyLjyHzK0TZzrsAFRjVQ	内网、域环境中的一些实用小技巧	qq.com	mp.weixin.qq.com	/s/TIPyLjyHzK0TZzrsAFRjVQ
+20200330	Web安全	https://mp.weixin.qq.com/s/Z7kh8OVslnppsL9ntNJHGg	提权辅助工具箱	qq.com	mp.weixin.qq.com	/s/Z7kh8OVslnppsL9ntNJHGg
+20200330	漏洞分析	https://xz.aliyun.com/t/7440	smbghost（CVE-2020-0796）漏洞POC汇总及简单分析	aliyun.com	xz.aliyun.com	/t/7440
+20200330	Web安全	https://www.cnblogs.com/Kali-Team/p/12589630.html	Metasploit后渗透模块开发	cnblogs.com	www.cnblogs.com	/Kali-Team/p/12589630.html
+20200330	运维安全	https://mp.weixin.qq.com/s/_s3eOdO2AufZtTQdyVK6NA	建立安全架构方法的指导框架	qq.com	mp.weixin.qq.com	/s/_s3eOdO2AufZtTQdyVK6NA
+20200330	运维安全	https://mp.weixin.qq.com/s/ujshgJdZzL9E0sDkl5SNJg	零信任实战系列：远程办公实战（视频）	qq.com	mp.weixin.qq.com	/s/ujshgJdZzL9E0sDkl5SNJg
+20200330	漏洞分析	https://techanarchy.net/blog/imperva-waf-bypass	Imperva WAF Bypass	techanarchy.net	techanarchy.net	/blog/imperva-waf-bypass
+20200330	恶意分析	https://securelist.com/holy-water-ongoing-targeted-water-holing-attack-in-asia/96311/	Holy water: ongoing targeted water-holing attack in Asia	securelist.com	securelist.com	/holy-water-ongoing-targeted-water-holing-attack-in-asia/96311/
+20200330	工具	https://github.com/qianxiao996/CTF-Tools	CTF-Tools: 一款Python+Pyqt写的CTF编解码工具	github.com	github.com	/qianxiao996/CTF-Tools
+20200330	运维安全	https://mp.weixin.qq.com/s/m90wYaEvHzfsdgnFHMGxCw	通过安全架构提升安全性	qq.com	mp.weixin.qq.com	/s/m90wYaEvHzfsdgnFHMGxCw
+20200330	恶意分析	https://mp.weixin.qq.com/s/40fgfbuwa2c5jp6e5vbnxQ	2020 Unit 42 IoT威胁报告（汉译版）	qq.com	mp.weixin.qq.com	/s/40fgfbuwa2c5jp6e5vbnxQ
+20200330	编程技术	https://blog.csdn.net/qq_25834767/article/details/104532493	爬虫与反爬虫技术分析	csdn.net	blog.csdn.net	/qq_25834767/article/details/104532493
+20200330	漏洞分析	https://arxiv.org/pdf/2003.09561.pdf	An Empirical Study on Benchmarks of Artificial Software Vulnerabilities	arxiv.org	arxiv.org	/pdf/2003.09561.pdf
+20200330	数据挖掘	https://my.oschina.net/u/4238514/blog/3212581	使用KubeFATE快速部署联邦学习实验开发环境（一）	oschina.net	my.oschina.net	/u/4238514/blog/3212581
+20200330	设备安全	https://mp.weixin.qq.com/s/a_uzOzJKna3g27-JxOxj2w	初探HG110-B家庭网关	qq.com	mp.weixin.qq.com	/s/a_uzOzJKna3g27-JxOxj2w
+20200330	运维安全	https://bacde.me/post/hunting-tips-mindmap/	Hunting Tips Mindmap	bacde.me	bacde.me	/post/hunting-tips-mindmap/
+20200330	移动安全	http://www.nuckingfoob.me/android-webview-csp-iframe-sandbox-bypass/index.html	Android Webview Exploited	nuckingfoob.me	www.nuckingfoob.me	/android-webview-csp-iframe-sandbox-bypass/index.html
+20200330	恶意分析	http://colin-cowie.com/2020/03/28/Chrome-Extension-Analysis.html	Browser Extension Analysis Framework	colin-cowie.com	colin-cowie.com	/2020/03/28/Chrome-Extension-Analysis.html
+20200330	数据挖掘	https://my.oschina.net/u/4238514/blog/3212601	使用KubeFATE快速部署联邦学习实验开发环境（二）	oschina.net	my.oschina.net	/u/4238514/blog/3212601
+20200330	Web安全	https://www.ryanpickren.com/webcam-hacking-overview	iPhone Camera Hack	ryanpickren.com	www.ryanpickren.com	/webcam-hacking-overview
+20200330	恶意分析	https://github.com/threat-hunting/awesome_Threat-Hunting	Awesome Threat Detection and Hunting library	github.com	github.com	/threat-hunting/awesome_Threat-Hunting
+20200330	工具	https://www.ch1ng.com/blog/208.html	使用 sshLooterC 抓取 SSH 密码	ch1ng.com	www.ch1ng.com	/blog/208.html
+20200330	设备安全	https://keenlab.tencent.com/zh/2020/03/30/Tencent-Keen-Security-Lab-Experimental-Security-Assessment-on-Lexus-Cars/	雷克萨斯汽车安全研究综述报告	tencent.com	keenlab.tencent.com	/zh/2020/03/30/Tencent-Keen-Security-Lab-Experimental-Security-Assessment-on-Lexus-Cars/
+20200330	恶意分析	https://www.randhome.io/blog/2020/04/04/analyzing-shellcodes-with-miasm-for-fun-and-profit/	Analyzing Shellcodes with Miasm for Fun and Profit	randhome.io	www.randhome.io	/blog/2020/04/04/analyzing-shellcodes-with-miasm-for-fun-and-profit/
+20200330	恶意分析	https://www.microsoft.com/security/blog/2020/04/02/attack-matrix-kubernetes/	Attack matrix for Kubernetes	microsoft.com	www.microsoft.com	/security/blog/2020/04/02/attack-matrix-kubernetes/
+20200330	杂志	https://www.sec-wiki.com/weekly/317	SecWiki周刊（第317期)	sec-wiki.com	www.sec-wiki.com	/weekly/317
+20200330	数据挖掘	https://www.freebuf.com/articles/ics-articles/230402.html	一种工控蜜罐识别与反识别技术研究与应用实践	freebuf.com	www.freebuf.com	/articles/ics-articles/230402.html
+20200330	恶意分析	https://www.anquanke.com/post/id/202426	浅谈威胁情报应用场景	anquanke.com	www.anquanke.com	/post/id/202426
+20200330	设备安全	https://www.freebuf.com/geek/230220.html	自己动手DIY：编译路由器固件	freebuf.com	www.freebuf.com	/geek/230220.html
+20200330	论文	https://mp.weixin.qq.com/s/w8DI6khFFdeXiZlA5C99IA	后量子区块链: 抗量子攻击的区块链密码学研究综述(下)	qq.com	mp.weixin.qq.com	/s/w8DI6khFFdeXiZlA5C99IA

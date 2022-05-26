@@ -1,0 +1,32 @@
+20211122	观点	https://mp.weixin.qq.com/s/XeHjTScWLZ5lPIJFGUokEg	网络安全工具的价值观	qq.com	mp.weixin.qq.com	/s/XeHjTScWLZ5lPIJFGUokEg
+20211122	Web安全	https://mp.weixin.qq.com/s/Z-TLwt-0H0uBjK6TeOfxBw	我的OSCP之旅回顾与分享	qq.com	mp.weixin.qq.com	/s/Z-TLwt-0H0uBjK6TeOfxBw
+20211122	恶意分析	https://mp.weixin.qq.com/s/GiDcQSYywSiRwlXY5N0e3g	二进制代码相似分析综述	qq.com	mp.weixin.qq.com	/s/GiDcQSYywSiRwlXY5N0e3g
+20211122	Web安全	https://mp.weixin.qq.com/s/Ww_IxNLXI0KWZYERGwu3bg	反序列化小子捕获器-反制ysoserial	qq.com	mp.weixin.qq.com	/s/Ww_IxNLXI0KWZYERGwu3bg
+20211122	恶意分析	https://mp.weixin.qq.com/s/5BVxYS7HR0ndRQbSB49eBQ	shellcode免杀初探	qq.com	mp.weixin.qq.com	/s/5BVxYS7HR0ndRQbSB49eBQ
+20211122	数据挖掘	https://mp.weixin.qq.com/s/EeUrNvd1-pFO1_ybMHKcpw	详解数据治理和数据分类分级	qq.com	mp.weixin.qq.com	/s/EeUrNvd1-pFO1_ybMHKcpw
+20211122	杂志	https://www.sec-wiki.com/weekly/403	SecWiki周刊（第403期)	sec-wiki.com	www.sec-wiki.com	/weekly/403
+20211122	运维安全	https://mp.weixin.qq.com/s/JAODc20qG5iRKVJmgGPYRw	浅谈企业级供应链投毒应急安全能力建设	qq.com	mp.weixin.qq.com	/s/JAODc20qG5iRKVJmgGPYRw
+20211122	恶意分析	https://mp.weixin.qq.com/s/Xt3wAWKa5ge0ODK0sfP_lQ	基于主被动测量的 IoT 安全情报	qq.com	mp.weixin.qq.com	/s/Xt3wAWKa5ge0ODK0sfP_lQ
+20211122	Web安全	https://mp.weixin.qq.com/s/lOBXzPk-m_th0yNSHGRxUA	严苛Web对抗环境下的Webshell	qq.com	mp.weixin.qq.com	/s/lOBXzPk-m_th0yNSHGRxUA
+20211122	比赛	http://blog.bluesadi.cn/2021/11/24/%E8%A5%BF%E6%B9%96%E8%AE%BA%E5%89%91gghdl%E9%A2%98%E8%A7%A3/	西湖论剑gghdl题解	bluesadi.cn	blog.bluesadi.cn	/2021/11/24/%E8%A5%BF%E6%B9%96%E8%AE%BA%E5%89%91gghdl%E9%A2%98%E8%A7%A3/
+20211122	Web安全	https://github.com/CHYbeta/OddProxyDemo/tree/master/apisix/demo1	Apache APISIX uri-blocker 场景绕过之一：$request_uri	github.com	github.com	/CHYbeta/OddProxyDemo/tree/master/apisix/demo1
+20211122	设备安全	https://mp.weixin.qq.com/s/aMWE6ekKiXWqCsbChirEPQ	Starlink 终端固件的提取和分析	qq.com	mp.weixin.qq.com	/s/aMWE6ekKiXWqCsbChirEPQ
+20211122	其它	https://www.bilibili.com/video/BV16q4y1B7gt	现代化系统中的侧信道(side channel)攻击与防御	bilibili.com	www.bilibili.com	/video/BV16q4y1B7gt
+20211122	其它	https://mp.weixin.qq.com/s/a9fmnJOSSuLXfWdAFtGjDA	从美军的先期研发看网络安全技术的发展	qq.com	mp.weixin.qq.com	/s/a9fmnJOSSuLXfWdAFtGjDA
+20211122	无线安全	https://www.minhal.me/2021/11/19/GSE/	GSE协议封装解析	minhal.me	www.minhal.me	/2021/11/19/GSE/
+20211122	视频	https://www.bilibili.com/video/BV1xL411M7wz	Mining JavaScript Zero-day Vulnerabilities via Object Proper	bilibili.com	www.bilibili.com	/video/BV1xL411M7wz
+20211122	恶意分析	https://mp.weixin.qq.com/s/JsvxtiRg8fEq51iTgGfPwQ	AI系列（一）：换个思路检测隐蔽C2	qq.com	mp.weixin.qq.com	/s/JsvxtiRg8fEq51iTgGfPwQ
+20211122	其它	https://blog.xlab.app/p/d44cc35d/	反向探测互联网扫描器	xlab.app	blog.xlab.app	/p/d44cc35d/
+20211122	论文	https://zhuanlan.zhihu.com/p/400248999	《Instructions for PhD Students》：Dimitris给PhD学生的忠告	zhihu.com	zhuanlan.zhihu.com	/p/400248999
+20211122	漏洞分析	https://mp.weixin.qq.com/s/QPYTxin66lwCxZEphCOTew	SiliFuzz：从软件角度发现处理器电路缺陷	qq.com	mp.weixin.qq.com	/s/QPYTxin66lwCxZEphCOTew
+20211122	漏洞分析	https://zhuanlan.zhihu.com/p/435957686	Automatic Feature Learning for Predicting Vulnerable Software Components	zhihu.com	zhuanlan.zhihu.com	/p/435957686
+20211122	取证分析	https://www.anquanke.com/post/id/259358	蓝队反制后的自动化信息收集	anquanke.com	www.anquanke.com	/post/id/259358
+20211122	Web安全	https://www.anquanke.com/post/id/259050	自删除技术详解	anquanke.com	www.anquanke.com	/post/id/259050
+20211122	比赛	https://www.anquanke.com/post/id/256976	2021年“绿盟杯”重庆市大学生信息安全竞赛-WP	anquanke.com	www.anquanke.com	/post/id/256976
+20211122	Web安全	https://mp.weixin.qq.com/s/ADOeqhYcjKfJlkVhkUAFaw	关于多步骤攻击预测方法的调研概要	qq.com	mp.weixin.qq.com	/s/ADOeqhYcjKfJlkVhkUAFaw
+20211122	Web安全	https://paper.seebug.org/1766/	ysomap : Java反序列化利用框架	seebug.org	paper.seebug.org	/1766/
+20211122	Web安全	https://mp.weixin.qq.com/s/XTJf0wdUQFOGypHofjsscQ	FOSS软件中漏洞的生命周期	qq.com	mp.weixin.qq.com	/s/XTJf0wdUQFOGypHofjsscQ
+20211122	恶意分析	https://paper.seebug.org/1764/	使用 ProxyShell 和 ProxyLogon 劫持邮件链	seebug.org	paper.seebug.org	/1764/
+20211122	运维安全	https://mp.weixin.qq.com/s/rTz8HVyGJE0x2UbVjiy8jw	数据安全保护和治理的新方法	qq.com	mp.weixin.qq.com	/s/rTz8HVyGJE0x2UbVjiy8jw
+20211122	漏洞分析	https://www.anquanke.com/post/id/259594	2021第四届强网拟态防御积分赛工控pwn eserver WP	anquanke.com	www.anquanke.com	/post/id/259594
+20211122	设备安全	https://www.anquanke.com/post/id/259503	PT632电信“老猫”分析	anquanke.com	www.anquanke.com	/post/id/259503

@@ -1,0 +1,14 @@
+20200921	其它	https://mp.weixin.qq.com/s/L-cqkaTC3lsfyWmd9jbU3A	入行必备的网络安全“黑话”词典	qq.com	mp.weixin.qq.com	/s/L-cqkaTC3lsfyWmd9jbU3A
+20200921	运维安全	https://github.com/momosecurity/bombus	bombus: 合规审计平台	github.com	github.com	/momosecurity/bombus
+20200921	Web安全	https://paper.seebug.org/1339/	从0开始聊聊自动化静态代码审计工具	seebug.org	paper.seebug.org	/1339/
+20200921	杂志	https://www.sec-wiki.com/weekly/342	SecWiki周刊（第342期)	sec-wiki.com	www.sec-wiki.com	/weekly/342
+20200921	视频	https://zhuanlan.zhihu.com/p/136697432	南京大学《软件分析》课程	zhihu.com	zhuanlan.zhihu.com	/p/136697432
+20200921	恶意分析	https://mp.weixin.qq.com/s/DRbGeVOcJ8m9xo7Gin45kQ	杂谈Java内存Webshell的攻与防	qq.com	mp.weixin.qq.com	/s/DRbGeVOcJ8m9xo7Gin45kQ
+20200921	其它	https://mp.weixin.qq.com/s/6thyoH3ejzmeRfK5OruEew	浅谈网络靶场的关键能力与应用方向	qq.com	mp.weixin.qq.com	/s/6thyoH3ejzmeRfK5OruEew
+20200921	观点	https://mp.weixin.qq.com/s/-Gvsw88lUPjBqcT5UpSIFg	美国爱因斯坦计划跟踪与解读（2020）	qq.com	mp.weixin.qq.com	/s/-Gvsw88lUPjBqcT5UpSIFg
+20200921	法规	https://mp.weixin.qq.com/s/Qq46JSlgbA2TywIljyfx0g	电子数据审查判断案例（略影）	qq.com	mp.weixin.qq.com	/s/Qq46JSlgbA2TywIljyfx0g
+20200921	恶意分析	https://www.anquanke.com/post/id/218377	Go二进制文件逆向分析从基础到进阶——itab与strings	anquanke.com	www.anquanke.com	/post/id/218377
+20200921	漏洞分析	https://www.freebuf.com/sectool/250960.html	docker搭建wooyun 8.8w漏洞库	freebuf.com	www.freebuf.com	/sectool/250960.html
+20200921	Web安全	https://xz.aliyun.com/t/8309	记一次偶遇Adminer	aliyun.com	xz.aliyun.com	/t/8309
+20200921	比赛	https://github.com/DasSecurity-Labs/AoiAWD	AoiAWD: 专为比赛设计，便携性好，低权限运行的EDR系统	github.com	github.com	/DasSecurity-Labs/AoiAWD
+20200921	漏洞分析	https://xz.aliyun.com/t/8307	CVE-2020-15148 Yii2反序列化RCE POP链分析	aliyun.com	xz.aliyun.com	/t/8307

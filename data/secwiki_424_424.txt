@@ -1,0 +1,21 @@
+20220411	新闻	http://www.cac.gov.cn/2022-04/08/c_1651028524542025.htm	关于开展“清朗·2022年算法综合治理”专项行动	cac.gov.cn	www.cac.gov.cn	/2022-04/08/c_1651028524542025.htm
+20220411	法规	https://mp.weixin.qq.com/s/lj-ZDcORuW-8Svjm1hrhGA	《数据安全法》实施以来，首例涉案数据被鉴定为情报的案件	qq.com	mp.weixin.qq.com	/s/lj-ZDcORuW-8Svjm1hrhGA
+20220411	Web安全	https://xz.aliyun.com/t/11186	半天打穿某高校	aliyun.com	xz.aliyun.com	/t/11186
+20220411	取证分析	https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook	区块链黑暗森林自救手册	github.com	github.com	/slowmist/Blockchain-dark-forest-selfguard-handbook
+20220411	Web安全	https://github.com/d3ckx1/OLa	OLa：一款CS后渗透模块插件	github.com	github.com	/d3ckx1/OLa
+20220411	Web安全	https://mp.weixin.qq.com/s/ixTbyZyb0FTmc7xaSqxtPw	从零开始，分析Spring Framework RCE	qq.com	mp.weixin.qq.com	/s/ixTbyZyb0FTmc7xaSqxtPw
+20220411	取证分析	https://mp.weixin.qq.com/s/1pJo_b979rqqKP9ldC13Vg	ATT&CK 变成安全“元宇宙”？	qq.com	mp.weixin.qq.com	/s/1pJo_b979rqqKP9ldC13Vg
+20220411	Web安全	https://github.com/Goqi/Banli	Banli板栗-高危资产识别和高危漏洞扫描	github.com	github.com	/Goqi/Banli
+20220411	恶意分析	https://mp.weixin.qq.com/s/pxU7aPrPzsNx8aAQdPZK4Q	利用通信协议反向监控 C&C 服务器	qq.com	mp.weixin.qq.com	/s/pxU7aPrPzsNx8aAQdPZK4Q
+20220411	设备安全	https://mp.weixin.qq.com/s/2D0hg3bL92q365UnRu6tgA	智能家居平台中的缺陷API利用及其修复	qq.com	mp.weixin.qq.com	/s/2D0hg3bL92q365UnRu6tgA
+20220411	取证分析	https://xz.aliyun.com/t/11147	基于图查询的攻击溯源方法	aliyun.com	xz.aliyun.com	/t/11147
+20220411	编程技术	http://www.cyc2018.xyz/#%E7%AE%97%E6%B3%95=	CS-Notes	cyc2018.xyz	www.cyc2018.xyz	/
+20220411	杂志	https://www.sec-wiki.com/weekly/423	SecWiki周刊（第423期)	sec-wiki.com	www.sec-wiki.com	/weekly/423
+20220411	运维安全	https://mp.weixin.qq.com/s/zLBjiW9iLx83GjCNV07Utw	等保、分保、关保、密评四道防线守护网络信息安全	qq.com	mp.weixin.qq.com	/s/zLBjiW9iLx83GjCNV07Utw
+20220411	运维安全	https://github.com/decoymini/DecoyMini	DecoyMini: 智能仿真与攻击诱捕工具	github.com	github.com	/decoymini/DecoyMini
+20220411	数据挖掘	https://mp.weixin.qq.com/s/cw8gAinn4iWgKGh86xxxGA	数据科学研究型人才培养的思考与实践	qq.com	mp.weixin.qq.com	/s/cw8gAinn4iWgKGh86xxxGA
+20220411	恶意分析	https://mp.weixin.qq.com/s/GEwV3EiobUjI2XdX1q8Cuw	APTMalInsight：基于系统调用信息和本体知识框架识别和认知APT恶意软件	qq.com	mp.weixin.qq.com	/s/GEwV3EiobUjI2XdX1q8Cuw
+20220411	数据挖掘	https://mp.weixin.qq.com/s/64XoQ0JIjjuaUtTaL3BzdA	知识图谱可视化技术的实践与探索	qq.com	mp.weixin.qq.com	/s/64XoQ0JIjjuaUtTaL3BzdA
+20220411	运维安全	https://lorexxar.cn/2022/04/14/sca/	SCA的困境和出路	lorexxar.cn	lorexxar.cn	/2022/04/14/sca/
+20220411	其它	https://mp.weixin.qq.com/s/Itjla5kxog3EjX6I3w3kKQ	美国网络安全意识教育举措概述	qq.com	mp.weixin.qq.com	/s/Itjla5kxog3EjX6I3w3kKQ
+20220411	漏洞分析	https://mp.weixin.qq.com/s/98YDkBrg0XZe32NLNnn5JQ	TP-Link-WDR-7660 安全研究之固件分析	qq.com	mp.weixin.qq.com	/s/98YDkBrg0XZe32NLNnn5JQ

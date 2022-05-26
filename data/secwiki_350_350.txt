@@ -1,0 +1,19 @@
+20201109	法规	https://mp.weixin.qq.com/s/RlFD6H-_4j5g2R49IE9ghw	帮助信息网络犯罪活动罪案例汇总	qq.com	mp.weixin.qq.com	/s/RlFD6H-_4j5g2R49IE9ghw
+20201109	人物	https://mp.weixin.qq.com/s/4bL4yTtOwX2hSZWs_k5J5Q	技术老兵谈杀毒软件沉浮史-姚辉	qq.com	mp.weixin.qq.com	/s/4bL4yTtOwX2hSZWs_k5J5Q
+20201109	取证分析	https://mp.weixin.qq.com/s/-lJT3PNsj-VvMxalHb06AA	蜜罐调研与内网安全	qq.com	mp.weixin.qq.com	/s/-lJT3PNsj-VvMxalHb06AA
+20201109	Web安全	https://mp.weixin.qq.com/s/idzRDjcQDPdiAd4dnJQs0w	windows横向渗透中的令牌完整性限制	qq.com	mp.weixin.qq.com	/s/idzRDjcQDPdiAd4dnJQs0w
+20201109	杂志	https://www.sec-wiki.com/weekly/349	SecWiki周刊（第349期)	sec-wiki.com	www.sec-wiki.com	/weekly/349
+20201109	Web安全	https://www.sec-in.com/article/641	一名二进制CTF选手的一点心得	sec-in.com	www.sec-in.com	/article/641
+20201109	工具	https://mp.weixin.qq.com/s/kH7WJqzOSiPGve7oMLJKyQ	Metasploit修改hosts多种方法	qq.com	mp.weixin.qq.com	/s/kH7WJqzOSiPGve7oMLJKyQ
+20201109	数据挖掘	https://mp.weixin.qq.com/s/VRDOQsEdA-QfNRtKQCSjUA	HMGNN：异构小图神经网络及其在拉新裂变风控场景的应用	qq.com	mp.weixin.qq.com	/s/VRDOQsEdA-QfNRtKQCSjUA
+20201109	Web安全	https://xz.aliyun.com/t/8493	某HW行动中的一次渗透测试	aliyun.com	xz.aliyun.com	/t/8493
+20201109	Web安全	https://mp.weixin.qq.com/s/7jAS7R_GuBBz6M8U6lQv-w	细说php反序列化字符逃逸	qq.com	mp.weixin.qq.com	/s/7jAS7R_GuBBz6M8U6lQv-w
+20201109	Web安全	https://www.sec-in.com/article/640	Java安全之CC4链	sec-in.com	www.sec-in.com	/article/640
+20201109	Web安全	https://mp.weixin.qq.com/s/_LjtSgwv7fWDEjPgh_1tZw	从网关进入内网到DNS协议出网	qq.com	mp.weixin.qq.com	/s/_LjtSgwv7fWDEjPgh_1tZw
+20201109	漏洞分析	https://xz.aliyun.com/t/8488	UEditor编辑器任意文件上传漏洞分析	aliyun.com	xz.aliyun.com	/t/8488
+20201109	工具	https://nosec.org/home/detail/4605.html	RapidDNS域名查询如何联动Goby	nosec.org	nosec.org	/home/detail/4605.html
+20201109	数据挖掘	https://zhuanlan.zhihu.com/p/289716231	自然语言处理的未来十年	zhihu.com	zhuanlan.zhihu.com	/p/289716231
+20201109	数据挖掘	https://mp.weixin.qq.com/s/vytVTAgU-6_iRG-drf9eYQ	使用Spark进行大规模图形挖掘	qq.com	mp.weixin.qq.com	/s/vytVTAgU-6_iRG-drf9eYQ
+20201109	恶意分析	https://jordan-wright.com/blog/post/2020-11-12-hunting-for-malicious-packages-on-pypi/	Hunting for Malicious Packages on PyPI	jordan-wright.com	jordan-wright.com	/blog/post/2020-11-12-hunting-for-malicious-packages-on-pypi/
+20201109	漏洞分析	https://gitlab.com/k3170makan/sporecrawler	SporeCrawler : Binary Taint Analysis with Angr	gitlab.com	gitlab.com	/k3170makan/sporecrawler
+20201109	比赛	https://www.anquanke.com/post/id/221388	2020年xnuca oooooooldjs题解	anquanke.com	www.anquanke.com	/post/id/221388

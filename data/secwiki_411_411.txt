@@ -1,0 +1,27 @@
+20220110	恶意分析	https://mp.weixin.qq.com/s/YE7bt6Bhz2mYYp1n-2vJtQ	Rootkit 系列研究-Windows平台的高隐匿、高持久化威胁	qq.com	mp.weixin.qq.com	/s/YE7bt6Bhz2mYYp1n-2vJtQ
+20220110	法规	https://mp.weixin.qq.com/s/mL3UWks3T2s1sliH28GaqA	2021年侵犯个人信息十大典型案例	qq.com	mp.weixin.qq.com	/s/mL3UWks3T2s1sliH28GaqA
+20220110	其它	https://docs.qq.com/sheet/DQ2F2a29TZFhDdFZp?tab=BB08J2	网安新兴赛道及厂商速查· Cyber Security Billboard	qq.com	docs.qq.com	/sheet/DQ2F2a29TZFhDdFZp
+20220110	杂志	https://www.sec-wiki.com/weekly/410	SecWiki周刊（第410期)	sec-wiki.com	www.sec-wiki.com	/weekly/410
+20220110	观点	https://mp.weixin.qq.com/s/Oi7id-3jJOFjS1x-PlmD6w	Gartner 2021 漏洞评估产品市场指南	qq.com	mp.weixin.qq.com	/s/Oi7id-3jJOFjS1x-PlmD6w
+20220110	比赛	https://mp.weixin.qq.com/s/VMk7RPkvDioqMqEQdM5jFw	长安战疫-WriteUp	qq.com	mp.weixin.qq.com	/s/VMk7RPkvDioqMqEQdM5jFw
+20220110	恶意分析	http://www.bugsafe.cn/archives/294.html	将EXE程序通过Powershell形式实现无文件运行	bugsafe.cn	www.bugsafe.cn	/archives/294.html
+20220110	取证分析	https://mp.weixin.qq.com/s/i-VzWFUB4bncDlKvrJk9xw	网络空间测绘溯源技术剖析	qq.com	mp.weixin.qq.com	/s/i-VzWFUB4bncDlKvrJk9xw
+20220110	移动安全	https://mp.weixin.qq.com/s/s1EmuyqlfcBa25wmxC87sQ	从分析一个赌球APP中入门安卓逆向、开发、协议分析	qq.com	mp.weixin.qq.com	/s/s1EmuyqlfcBa25wmxC87sQ
+20220110	恶意分析	https://mp.weixin.qq.com/s/bH7SSb9-RW1H5VlUWog8cQ	在互联网交换中心检测反射放大 DDoS 攻击	qq.com	mp.weixin.qq.com	/s/bH7SSb9-RW1H5VlUWog8cQ
+20220110	恶意分析	https://mp.weixin.qq.com/s/sQxa7YrNybZnP1w5iZeceA	基于跨站跳转和文本数据异构图的GCN模型实现恶意网站识别	qq.com	mp.weixin.qq.com	/s/sQxa7YrNybZnP1w5iZeceA
+20220110	会议	https://mp.weixin.qq.com/s/BMEXcjaFPuA00VrBDnhnlg	QRS 2021 论文录用列表	qq.com	mp.weixin.qq.com	/s/BMEXcjaFPuA00VrBDnhnlg
+20220110	恶意分析	http://blog.nsfocus.net/wp-content/uploads/2022/01/APT.pdf	APT组织情报研究年鉴 2021	nsfocus.net	blog.nsfocus.net	/wp-content/uploads/2022/01/APT.pdf
+20220110	恶意分析	https://mp.weixin.qq.com/s/nSM-WoSE6IVDXZ52F9h9SQ	网络空间威胁狩猎的研究综述	qq.com	mp.weixin.qq.com	/s/nSM-WoSE6IVDXZ52F9h9SQ
+20220110	恶意分析	https://mp.weixin.qq.com/s/RfBOC1Tiy76qQRlrjIMdTA	互联网领域黑产常见攻击手法初探	qq.com	mp.weixin.qq.com	/s/RfBOC1Tiy76qQRlrjIMdTA
+20220110	比赛	https://r3kapig.com/r3kapig-skill-tree-v1.0	r3kapig技能栈1.0	r3kapig.com	r3kapig.com	/r3kapig-skill-tree-v1.0
+20220110	数据挖掘	https://mp.weixin.qq.com/s/DY-gzglv73iLrANjDY4PrQ	端到端模型在人员流失预警场景的实践	qq.com	mp.weixin.qq.com	/s/DY-gzglv73iLrANjDY4PrQ
+20220110	Web安全	https://mp.weixin.qq.com/s/UtA5BgOs8rlh5_8Q72cf8A	MSF+生成流量免杀木马	qq.com	mp.weixin.qq.com	/s/UtA5BgOs8rlh5_8Q72cf8A
+20220110	其它	https://mp.weixin.qq.com/s/LklmkgRXydx35D1JcOFewA	X通信息安全培训体系建设	qq.com	mp.weixin.qq.com	/s/LklmkgRXydx35D1JcOFewA
+20220110	运维安全	https://mp.weixin.qq.com/s/nKbUajOKuNjoCef-ZpgYfA	云防火墙产品的演进思路	qq.com	mp.weixin.qq.com	/s/nKbUajOKuNjoCef-ZpgYfA
+20220110	取证分析	https://ossemproject.com/dm/mitre_attack/attack_techniques_to_events.html	ATT&CK Techniques to Security Events	ossemproject.com	ossemproject.com	/dm/mitre_attack/attack_techniques_to_events.html
+20220110	恶意分析	https://canon88.github.io/2021/11/30/Zeek-Detect-Godzilla-WebShell/	Zeek - Detect Godzilla WebShell	github.io	canon88.github.io	/2021/11/30/Zeek-Detect-Godzilla-WebShell/
+20220110	恶意分析	https://mp.weixin.qq.com/s/_ON095i-wuNHtQQgB-hSng	剖析海莲花组织恶意文件定制化策略	qq.com	mp.weixin.qq.com	/s/_ON095i-wuNHtQQgB-hSng
+20220110	恶意分析	https://mp.weixin.qq.com/s/7xwIaxfyObDnzx0x-j6P2w	现代网络犯罪模式解读	qq.com	mp.weixin.qq.com	/s/7xwIaxfyObDnzx0x-j6P2w
+20220110	数据挖掘	https://mp.weixin.qq.com/s/V6DzgC1WXST7yZczKQiCXg	Graph Embedding实战系列：Node2vec原理与代码实战	qq.com	mp.weixin.qq.com	/s/V6DzgC1WXST7yZczKQiCXg
+20220110	Web安全	https://mp.weixin.qq.com/s/IMbAujuFHzX3JO3PFE_vLg	初识WebAssembly	qq.com	mp.weixin.qq.com	/s/IMbAujuFHzX3JO3PFE_vLg
+20220110	论文	https://mp.weixin.qq.com/s/6Bd5eg9TJw5PL_Qtpq8eLg	安全学术会议排行榜（2021版）	qq.com	mp.weixin.qq.com	/s/6Bd5eg9TJw5PL_Qtpq8eLg

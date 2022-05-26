@@ -1,0 +1,7 @@
+20220131	其它	https://mp.weixin.qq.com/s/0Vfn4yitPHocutgBHrWkUA	安全学术圈2021年度总结	qq.com	mp.weixin.qq.com	/s/0Vfn4yitPHocutgBHrWkUA
+20220131	移动安全	https://mp.weixin.qq.com/s/JRliZMMUOB7BEX21mtEXCg	新姿势绕过应用的ROOT检测	qq.com	mp.weixin.qq.com	/s/JRliZMMUOB7BEX21mtEXCg
+20220131	其它	https://zhuanlan.zhihu.com/p/463317675	2021 年终总结：记我在清华 Apache IoTDB 组的成长	zhihu.com	zhuanlan.zhihu.com	/p/463317675
+20220131	杂志	https://www.sec-wiki.com/weekly/413	SecWiki周刊（第413期)	sec-wiki.com	www.sec-wiki.com	/weekly/413
+20220131	Web安全	https://mp.weixin.qq.com/s/WvRb5cp6EssuzcVqlYWcSQ	配置错误注入测试中的挑战与机遇	qq.com	mp.weixin.qq.com	/s/WvRb5cp6EssuzcVqlYWcSQ
+20220131	Web安全	https://y4tacker.github.io/2022/02/05/year/2022/2/%E5%AF%B9Java%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%95%B0%E6%8D%AE%E7%BB%95WAF%E6%96%B0%E5%A7%BF%E5%8A%BF%E7%9A%84%E8%A1%A5%E5%85%85/	对Java反序列化数据绕WAF新姿势的补充	github.io	y4tacker.github.io	/2022/02/05/year/2022/2/%E5%AF%B9Java%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%95%B0%E6%8D%AE%E7%BB%95WAF%E6%96%B0%E5%A7%BF%E5%8A%BF%E7%9A%84%E8%A1%A5%E5%85%85/
+20220131	恶意分析	https://mp.weixin.qq.com/s/T9-mgl1G7dXDnQZIqG0nZQ	连载：演化的高级威胁治理（五）	qq.com	mp.weixin.qq.com	/s/T9-mgl1G7dXDnQZIqG0nZQ

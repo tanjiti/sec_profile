@@ -1,0 +1,14 @@
+20201005	Web安全	https://github.com/theLSA/burp-unauth-checker	burpsuite插件：未授权访问漏洞检测	github.com	github.com	/theLSA/burp-unauth-checker
+20201005	观点	https://zhuanlan.zhihu.com/p/250905301	万字长文——信息安全职业生涯规划	zhihu.com	zhuanlan.zhihu.com	/p/250905301
+20201005	Web安全	https://mp.weixin.qq.com/s/hbaJt21DGtRd4xQ4E04Q6A	TP-RCE绕过阿里云防护Getshell	qq.com	mp.weixin.qq.com	/s/hbaJt21DGtRd4xQ4E04Q6A
+20201005	杂志	https://www.sec-wiki.com/weekly/344	SecWiki周刊（第344期)	sec-wiki.com	www.sec-wiki.com	/weekly/344
+20201005	取证分析	https://mp.weixin.qq.com/s/g-aMi9cLOaikVQtpoSG1Zg	浅谈网络攻击溯源技术（上篇）	qq.com	mp.weixin.qq.com	/s/g-aMi9cLOaikVQtpoSG1Zg
+20201005	Web安全	https://mp.weixin.qq.com/s/3uUZKryCufQ_HcuMc8ZgQQ	看图识WAF-搜集常见WAF拦截页面	qq.com	mp.weixin.qq.com	/s/3uUZKryCufQ_HcuMc8ZgQQ
+20201005	恶意分析	https://mp.weixin.qq.com/s/NAE7OR-7Qq5977XHQ9DZTg	2020年IDA插件大赛：DynDataResolver夺冠	qq.com	mp.weixin.qq.com	/s/NAE7OR-7Qq5977XHQ9DZTg
+20201005	漏洞分析	https://mp.weixin.qq.com/s/Z0aXYBJiJnIkcr12A_jeuQ	ZeroLogon(CVE-2020-1472) 分析与狩猎	qq.com	mp.weixin.qq.com	/s/Z0aXYBJiJnIkcr12A_jeuQ
+20201005	数据挖掘	https://mp.weixin.qq.com/s/WBxmr_hCOVUbSk15ZPWsjw	面向图数据的异常检测综述概述	qq.com	mp.weixin.qq.com	/s/WBxmr_hCOVUbSk15ZPWsjw
+20201005	编程技术	https://mp.weixin.qq.com/s/H3uPZ0VRxbetRd_ZTVq6CQ	WAF代码剖析之初识openresty	qq.com	mp.weixin.qq.com	/s/H3uPZ0VRxbetRd_ZTVq6CQ
+20201005	恶意分析	https://mp.weixin.qq.com/s/OgEoKWiAsV_2obPlsYNUMg	基于异质图神经网络的未知恶意程序检测	qq.com	mp.weixin.qq.com	/s/OgEoKWiAsV_2obPlsYNUMg
+20201005	恶意分析	https://mp.weixin.qq.com/s/W_13W6rMQnBtZvPQwzDk2g	HEH Botnet, 一个处于开发阶段的 IoT P2P Botnet	qq.com	mp.weixin.qq.com	/s/W_13W6rMQnBtZvPQwzDk2g
+20201005	漏洞分析	https://mp.weixin.qq.com/s/KCbgZAaEWT236hN44MMEiw	使用fuzzilli对Javascript引擎QuickJS进行Fuzzing和漏洞分析	qq.com	mp.weixin.qq.com	/s/KCbgZAaEWT236hN44MMEiw
+20201005	其它	https://mp.weixin.qq.com/s/iHfA01e2iXOgBGVwjOAjvg	Metasploit获取不到会话原因	qq.com	mp.weixin.qq.com	/s/iHfA01e2iXOgBGVwjOAjvg

@@ -1,0 +1,17 @@
+20220207	法规	https://zjnews.zjol.com.cn/202202/t20220208_23764644.shtml	浙江省通报5起违反保密法律法规典型案例	zjol.com.cn	zjnews.zjol.com.cn	/202202/t20220208_23764644.shtml
+20220207	恶意分析	https://mp.weixin.qq.com/s/-jvt7elrDrsBqT7GCUis3g	黑灰产识别与溯源	qq.com	mp.weixin.qq.com	/s/-jvt7elrDrsBqT7GCUis3g
+20220207	Web安全	https://mp.weixin.qq.com/s/6K98x6qjiJKLn2tZX2g0zQ	攻防对抗的十八层地狱	qq.com	mp.weixin.qq.com	/s/6K98x6qjiJKLn2tZX2g0zQ
+20220207	恶意分析	https://mp.weixin.qq.com/s/-rOO-l3YLypga_he_cTdow	2022勒索软件和恶意软件报告	qq.com	mp.weixin.qq.com	/s/-rOO-l3YLypga_he_cTdow
+20220207	恶意分析	https://mp.weixin.qq.com/s/Vrd8hWgPnK1bh1Ggj33NtQ	CobaltStrike 区块链网络上线方式及检测	qq.com	mp.weixin.qq.com	/s/Vrd8hWgPnK1bh1Ggj33NtQ
+20220207	数据挖掘	https://mp.weixin.qq.com/s/B0_nPJkbSLRO7xyeHnA3OQ	ML-DOCTOR：对机器学习模型推理攻击的全局性研究	qq.com	mp.weixin.qq.com	/s/B0_nPJkbSLRO7xyeHnA3OQ
+20220207	设备安全	https://bbs.pediy.com/thread-271406.htm	侠盗猎车 -- 玩转滚动码（中)	pediy.com	bbs.pediy.com	/thread-271406.htm
+20220207	恶意分析	https://mp.weixin.qq.com/s/aKkvxnZJqrlyzWeMrx3JCA	企业面对APT化攻击的防御困境	qq.com	mp.weixin.qq.com	/s/aKkvxnZJqrlyzWeMrx3JCA
+20220207	Web安全	https://portswigger.net/research/top-10-web-hacking-techniques-of-2021	Top 10 web hacking techniques of 2021	portswigger.net	portswigger.net	/research/top-10-web-hacking-techniques-of-2021
+20220207	Web安全	https://mp.weixin.qq.com/s/qyii_dLzUnZlfCIGZPOthA	解构开源IAST 打造安全灰盒利器	qq.com	mp.weixin.qq.com	/s/qyii_dLzUnZlfCIGZPOthA
+20220207	移动安全	https://mp.weixin.qq.com/s/lB3yV1-VE3X-CmqN2T5KCw	PendingIntent重定向：一种针对安卓系统和流行App的通用提权方法	qq.com	mp.weixin.qq.com	/s/lB3yV1-VE3X-CmqN2T5KCw
+20220207	恶意分析	https://www.anquanke.com/post/id/266379	利用RITA检测beacon通信	anquanke.com	www.anquanke.com	/post/id/266379
+20220207	恶意分析	https://mp.weixin.qq.com/s/KrmzMMDUPUG7qolPPi8SSg	开源软件包与软件供应链安全漏洞修复分析研究	qq.com	mp.weixin.qq.com	/s/KrmzMMDUPUG7qolPPi8SSg
+20220207	数据挖掘	https://mp.weixin.qq.com/s/ixkVCo7ktpdKD1sL4_YE0Q	自动机器学习的安全风险	qq.com	mp.weixin.qq.com	/s/ixkVCo7ktpdKD1sL4_YE0Q
+20220207	Web安全	https://mp.weixin.qq.com/s/3xZKlWMdUiWNCkhaXn7-4g	[HTB] Love Writeup	qq.com	mp.weixin.qq.com	/s/3xZKlWMdUiWNCkhaXn7-4g
+20220207	Web安全	https://payatu.com/blog/anubhav.singh/dom-based-xss	A Tale of DOM-based XSS!	payatu.com	payatu.com	/blog/anubhav.singh/dom-based-xss
+20220207	漏洞分析	https://www.anquanke.com/post/id/266935	CVE-2021-33742：Internet Explorer MSHTML堆越界写漏洞分析	anquanke.com	www.anquanke.com	/post/id/266935

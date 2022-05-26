@@ -1,0 +1,27 @@
+20210222	会议	https://mp.weixin.qq.com/s/LI49ioKYMksguQMqKH1Rcw	NDSS 2021 参会小记—2月22日论文报告	qq.com	mp.weixin.qq.com	/s/LI49ioKYMksguQMqKH1Rcw
+20210222	Web安全	https://github.com/ffffffff0x/f8x	f8x: 红/蓝队环境自动化部署工具	github.com	github.com	/ffffffff0x/f8x
+20210222	Web安全	https://www.sec-in.com/article/890	业务安全的上岸体历	sec-in.com	www.sec-in.com	/article/890
+20210222	漏洞分析	https://mp.weixin.qq.com/s/5Y-3r1KuJgCbNrWUGoKq0w	漏洞管理的“新药”	qq.com	mp.weixin.qq.com	/s/5Y-3r1KuJgCbNrWUGoKq0w
+20210222	Web安全	https://www.freebuf.com/articles/network/263684.html	详解反弹shell多维检测技术	freebuf.com	www.freebuf.com	/articles/network/263684.html
+20210222	Web安全	https://www.anquanke.com/post/id/227818	CDN 2021 完全攻击指南 （一）	anquanke.com	www.anquanke.com	/post/id/227818
+20210222	Web安全	https://xz.aliyun.com/t/9190	菜菜鸡的初体验之内网渗透	aliyun.com	xz.aliyun.com	/t/9190
+20210222	数据挖掘	https://www.freebuf.com/articles/web/252025.html	基于数据的越权检测思路	freebuf.com	www.freebuf.com	/articles/web/252025.html
+20210222	运维安全	https://mp.weixin.qq.com/s/UsClBKw4Fglcn8ludJtRKQ	美国国家安全局发布零信任安全模型指南	qq.com	mp.weixin.qq.com	/s/UsClBKw4Fglcn8ludJtRKQ
+20210222	Web安全	https://www.anquanke.com/post/id/231448	如何隐蔽你的C2	anquanke.com	www.anquanke.com	/post/id/231448
+20210222	Web安全	https://www.anquanke.com/post/id/231437	CDN 2021 完全攻击指南 （二）	anquanke.com	www.anquanke.com	/post/id/231437
+20210222	Web安全	https://mp.weixin.qq.com/s/tOOBZ1aC6SsjslCM70WKBQ	红蓝对抗之邮件伪造	qq.com	mp.weixin.qq.com	/s/tOOBZ1aC6SsjslCM70WKBQ
+20210222	漏洞分析	https://xz.aliyun.com/t/9117	JAVA安全基础（二）-- 反射机制	aliyun.com	xz.aliyun.com	/t/9117
+20210222	取证分析	https://mp.weixin.qq.com/s/gbyWEB6IbANJ-B2eRboYHg	美国网络空间攻击特点与模式	qq.com	mp.weixin.qq.com	/s/gbyWEB6IbANJ-B2eRboYHg
+20210222	设备安全	https://xz.aliyun.com/t/9186	DA14531芯片固件逆向系列（2）- 操作系统底层机制分析	aliyun.com	xz.aliyun.com	/t/9186
+20210222	Web安全	https://www.anquanke.com/post/id/231444	钓鱼基础设施的应用分析	anquanke.com	www.anquanke.com	/post/id/231444
+20210222	杂志	https://www.sec-wiki.com/weekly/364	SecWiki周刊（第364期)	sec-wiki.com	www.sec-wiki.com	/weekly/364
+20210222	恶意分析	https://zhuanlan.zhihu.com/p/352004681	恶意代码检测的本质性思考	zhihu.com	zhuanlan.zhihu.com	/p/352004681
+20210222	取证分析	https://medium.com/katies-five-cents/a-cyber-threat-intelligence-self-study-plan-part-1-968b5a8daf9a	A Cyber Threat Intelligence Self-Study Plan: Part 1	medium.com	medium.com	/katies-five-cents/a-cyber-threat-intelligence-self-study-plan-part-1-968b5a8daf9a
+20210222	漏洞分析	https://www.anquanke.com/post/id/231460	Angr源码阅读笔记01	anquanke.com	www.anquanke.com	/post/id/231460
+20210222	恶意分析	https://labs.bishopfox.com/tech-blog/an-exploration-of-json-interoperability-vulnerabilities	An Exploration of JSON Interoperability Vulnerabilities	bishopfox.com	labs.bishopfox.com	/tech-blog/an-exploration-of-json-interoperability-vulnerabilities
+20210222	Web安全	https://www.anquanke.com/post/id/231441	CDN 2021 完全攻击指南 （三）	anquanke.com	www.anquanke.com	/post/id/231441
+20210222	观点	https://mp.weixin.qq.com/s/Im-bacvc_1GGvLPtRspicw	美军网络空间作战理论体系初探	qq.com	mp.weixin.qq.com	/s/Im-bacvc_1GGvLPtRspicw
+20210222	取证分析	https://www.anquanke.com/post/id/231424	内网渗透代理之frp的应用与改造（一）	anquanke.com	www.anquanke.com	/post/id/231424
+20210222	漏洞分析	https://paper.seebug.org/1489/	Apache Axis1 与 Axis2 WebService 的漏洞利用总结	seebug.org	paper.seebug.org	/1489/
+20210222	取证分析	https://www.anquanke.com/post/id/231685	内网渗透代理之frp的应用与改造（二）	anquanke.com	www.anquanke.com	/post/id/231685
+20210222	观点	https://mp.weixin.qq.com/s/mIbwVj3oVEnippj5YGkNTA	从“产品模式”到“运营模式”	qq.com	mp.weixin.qq.com	/s/mIbwVj3oVEnippj5YGkNTA

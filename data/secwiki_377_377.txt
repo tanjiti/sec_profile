@@ -1,0 +1,22 @@
+20210517	法规	https://mp.weixin.qq.com/s/pIXHiv0IhsTkecX0oz0o1g	十四五”时期网络安全建设解读与践行	qq.com	mp.weixin.qq.com	/s/pIXHiv0IhsTkecX0oz0o1g
+20210517	Web安全	https://xlab.tencent.com/cn/2021/05/14/domain-borrowing/	Domain Borrowing: 一种基于CDN的新型隐蔽通信方法	tencent.com	xlab.tencent.com	/cn/2021/05/14/domain-borrowing/
+20210517	移动安全	https://mp.weixin.qq.com/s/Efa0Dw8yCH_nojSwof0XYQ	另类的dex代码保护方法	qq.com	mp.weixin.qq.com	/s/Efa0Dw8yCH_nojSwof0XYQ
+20210517	Web安全	https://mp.weixin.qq.com/s/eMJ-tQ4qkTWpJBK244EOzQ	红帽杯 - WriteUp	qq.com	mp.weixin.qq.com	/s/eMJ-tQ4qkTWpJBK244EOzQ
+20210517	杂志	https://www.sec-wiki.com/weekly/376	SecWiki周刊（第376期)	sec-wiki.com	www.sec-wiki.com	/weekly/376
+20210517	恶意分析	https://mp.weixin.qq.com/s/HJptpktTAW5eTo3PKTR34g	勒索病毒Kraken2.0.7分析	qq.com	mp.weixin.qq.com	/s/HJptpktTAW5eTo3PKTR34g
+20210517	Web安全	https://mp.weixin.qq.com/s/yYCJEpnp04oQFVqMz-G3bg	利用云函数（SCF）打造海量代理池	qq.com	mp.weixin.qq.com	/s/yYCJEpnp04oQFVqMz-G3bg
+20210517	漏洞分析	https://mp.weixin.qq.com/s/4BDN2NBNb9CLFci4RhJcdg	漏洞自动化利用（AEG）研究进展	qq.com	mp.weixin.qq.com	/s/4BDN2NBNb9CLFci4RhJcdg
+20210517	Web安全	https://mp.weixin.qq.com/s/7uMUoMkQyJGetdlgdvy0CQ	津⻔杯-WriteUp	qq.com	mp.weixin.qq.com	/s/7uMUoMkQyJGetdlgdvy0CQ
+20210517	数据挖掘	https://mp.weixin.qq.com/s/pI9xvY2MjcEiLFdO2WDGtA	图神经网络的解释性综述	qq.com	mp.weixin.qq.com	/s/pI9xvY2MjcEiLFdO2WDGtA
+20210517	编程技术	https://www.aqniu.com/vendor/74278.html	软件质量指标自动度量方法	aqniu.com	www.aqniu.com	/vendor/74278.html
+20210517	Web安全	https://www.sec-in.com/article/1060	堆的largebin attack利用	sec-in.com	www.sec-in.com	/article/1060
+20210517	漏洞分析	https://xlab.tencent.com/cn/2021/05/14/A-Mirage-of-Safety-Bug-Finding-and-Exploit-Techniques-of-Top-Android-Vendors-Privacy-Protection-Apps/	虚假的安全：五大Android厂商自带隐私保护应用脆弱性分析及漏洞利用	tencent.com	xlab.tencent.com	/cn/2021/05/14/A-Mirage-of-Safety-Bug-Finding-and-Exploit-Techniques-of-Top-Android-Vendors-Privacy-Protection-Apps/
+20210517	取证分析	https://www.anquanke.com/post/id/240962	记一次反制追踪溯本求源	anquanke.com	www.anquanke.com	/post/id/240962
+20210517	Web安全	https://www.anquanke.com/post/id/240652	基于智能手机的近源渗透案例分享——持之以恒	anquanke.com	www.anquanke.com	/post/id/240652
+20210517	Web安全	https://www.anquanke.com/post/id/241045	PHP 开源白盒审计工具初探（下）	anquanke.com	www.anquanke.com	/post/id/241045
+20210517	漏洞分析	https://www.anquanke.com/post/id/240038	KLEE 源码阅读笔记	anquanke.com	www.anquanke.com	/post/id/240038
+20210517	漏洞分析	https://xz.aliyun.com/t/9566	JRE8u20 反序列化利用链及序列化流构造技术分析	aliyun.com	xz.aliyun.com	/t/9566
+20210517	漏洞分析	https://github.com/ghaffarian/progex/	progex: extracting graphical program representations from software source code	github.com	github.com	/ghaffarian/progex/
+20210517	Web安全	https://mp.weixin.qq.com/s/MghFgegdp3l3tFE3hOvcYw	CS域前置	qq.com	mp.weixin.qq.com	/s/MghFgegdp3l3tFE3hOvcYw
+20210517	Web安全	https://mp.weixin.qq.com/s/xHuhh4_DNXPIO2A0xZUm1w	AI for Security实践：攻击者画像	qq.com	mp.weixin.qq.com	/s/xHuhh4_DNXPIO2A0xZUm1w
+20210517	观点	https://mp.weixin.qq.com/s/aSNyvMygN2z0QxR7Ci9Sng	RSAC2021会议启示录	qq.com	mp.weixin.qq.com	/s/aSNyvMygN2z0QxR7Ci9Sng

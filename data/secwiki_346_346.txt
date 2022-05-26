@@ -1,0 +1,27 @@
+20201012	Web安全	https://mp.weixin.qq.com/s/s0osF1NCb8M6O-uq-8idPA	浅谈大规模红蓝对抗攻与防	qq.com	mp.weixin.qq.com	/s/s0osF1NCb8M6O-uq-8idPA
+20201012	恶意分析	https://www.anquanke.com/post/id/219177	Tomcat 内存马检测	anquanke.com	www.anquanke.com	/post/id/219177
+20201012	恶意分析	https://xz.aliyun.com/t/8335	《透视APT》读书笔记	aliyun.com	xz.aliyun.com	/t/8335
+20201012	漏洞分析	https://paper.seebug.org/1358/	browser-pwn cve-2020-6418 漏洞分析	seebug.org	paper.seebug.org	/1358/
+20201012	取证分析	https://mp.weixin.qq.com/s/9HLP4Gcgo0yx3WVB-odK9A	电报（telegram）开源情报工具及技巧	qq.com	mp.weixin.qq.com	/s/9HLP4Gcgo0yx3WVB-odK9A
+20201012	Web安全	https://mp.weixin.qq.com/s/LrSFAX_WQEPQQvhhOrXWgA	Nautilus：一款基于语法的反馈式模糊测试工具	qq.com	mp.weixin.qq.com	/s/LrSFAX_WQEPQQvhhOrXWgA
+20201012	Web安全	https://mp.weixin.qq.com/s/ZYGN8WceT2L-P4yF6Z8gyQ	Adminer≤4.6.2任意文件读取漏洞	qq.com	mp.weixin.qq.com	/s/ZYGN8WceT2L-P4yF6Z8gyQ
+20201012	漏洞分析	https://xz.aliyun.com/t/8342	Pickle反序列化源码分析与漏洞利用	aliyun.com	xz.aliyun.com	/t/8342
+20201012	Web安全	https://github.com/momosecurity/momo-code-sec-inspector-java	momo-code-sec-inspector-java: IDEA静态代码安全审计插件	github.com	github.com	/momosecurity/momo-code-sec-inspector-java
+20201012	工具	https://github.com/DependencyTrack/dependency-track	DependencyTrack: 开源软件成分分析平台	github.com	github.com	/DependencyTrack/dependency-track
+20201012	Web安全	https://xz.aliyun.com/t/8350	利用不安全的JSONP绕过SSO实现账户接管（分析+实践）	aliyun.com	xz.aliyun.com	/t/8350
+20201012	恶意分析	https://paper.seebug.org/1368/	针对中东石油和天然气供应链的攻击	seebug.org	paper.seebug.org	/1368/
+20201012	Web安全	https://mp.weixin.qq.com/s/WyxhX4tuMOSBCF1R9obLKg	从RSA创新沙盒决赛产品ShiftLeft浅谈DevSecOps	qq.com	mp.weixin.qq.com	/s/WyxhX4tuMOSBCF1R9obLKg
+20201012	文档	https://www.anquanke.com/post/id/219093	网络访问权限检查工具PropertyScanner	anquanke.com	www.anquanke.com	/post/id/219093
+20201012	Web安全	https://mp.weixin.qq.com/s/VeUscKDI0o1jL9uDYywgow	IAST安全测试如何防止数据污染	qq.com	mp.weixin.qq.com	/s/VeUscKDI0o1jL9uDYywgow
+20201012	取证分析	https://mp.weixin.qq.com/s/rPu9HL5lvjcxfkUUUfEMFw	追击黑手画像	qq.com	mp.weixin.qq.com	/s/rPu9HL5lvjcxfkUUUfEMFw
+20201012	其它	https://mp.weixin.qq.com/s/Uen-ARbVY0trFvAXdeeW5g	星外虚拟主机提权实战案例	qq.com	mp.weixin.qq.com	/s/Uen-ARbVY0trFvAXdeeW5g
+20201012	数据挖掘	https://github.com/light8lee/2019-BDCI-FinancialEntityDiscovery	2019 BDCI互联网金融新实体发现	github.com	github.com	/light8lee/2019-BDCI-FinancialEntityDiscovery
+20201012	杂志	https://www.sec-wiki.com/weekly/345	SecWiki周刊（第345期)	sec-wiki.com	www.sec-wiki.com	/weekly/345
+20201012	Web安全	https://mp.weixin.qq.com/s?__biz=MzI4MzcwNTAzOQ==&mid=2247484111&idx=1&sn=24c82f5c21e16f9104fb300bd9177b06&chksm=eb87e96fdcf06079e202941de1e060db5de8b1e3d6a0641fb6c02a34dd9781dd877ed439342d&token=414317712&lang=zh_CN#rd	如何将Xray联动到Goby里	qq.com	mp.weixin.qq.com	/s
+20201012	移动安全	https://blog.csdn.net/bloodzero_new/article/details/109105051	折腾MobSF APP隐私合规如何与技术检查结合（一）	csdn.net	blog.csdn.net	/bloodzero_new/article/details/109105051
+20201012	其它	https://bacde.me/post/hacking-all-the-cars-tesla-api-exploit-part-one/	Hacking All The Cars之Tesla API分析与利用（上）	bacde.me	bacde.me	/post/hacking-all-the-cars-tesla-api-exploit-part-one/
+20201012	Web安全	https://mp.weixin.qq.com/s/VzjcXp3O8zc97aIppy4LUA	Xcheck之Golang安全检查引擎	qq.com	mp.weixin.qq.com	/s/VzjcXp3O8zc97aIppy4LUA
+20201012	Web安全	https://mp.weixin.qq.com/s/J1JW66Uh_6Nc0x2YY_5V6Q	Goby自定义漏洞之EXP	qq.com	mp.weixin.qq.com	/s/J1JW66Uh_6Nc0x2YY_5V6Q
+20201012	取证分析	https://segmentfault.com/a/1190000021494676	详尽的 HTTPS 原理详解图	segmentfault.com	segmentfault.com	/a/1190000021494676
+20201012	漏洞分析	https://mp.weixin.qq.com/s/5hmsU_CNGp7habqwSVVckg	最右sign-v2签名算法追踪及逆向还原	qq.com	mp.weixin.qq.com	/s/5hmsU_CNGp7habqwSVVckg
+20201012	数据挖掘	https://mp.weixin.qq.com/s/RgSejEbxwhnFUKR2POmqmg	机器学习中的特征工程总结	qq.com	mp.weixin.qq.com	/s/RgSejEbxwhnFUKR2POmqmg

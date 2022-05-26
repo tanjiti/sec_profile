@@ -1,0 +1,7 @@
+Python	3
+Go	2
+SCSS	1
+C	1
+Vue	1
+C#	1
+PowerShell	1

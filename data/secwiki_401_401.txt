@@ -1,0 +1,33 @@
+20211101	恶意分析	https://mp.weixin.qq.com/s/AcIFSjyqn9gzyRkyx3sRIQ	破解版密钥相同，部分CobaltStrike加密流量可解	qq.com	mp.weixin.qq.com	/s/AcIFSjyqn9gzyRkyx3sRIQ
+20211101	恶意分析	https://mp.weixin.qq.com/s/ANDLQBHTzB2uiS54xxyuZw	航空产业已成境外情报机构重点网络攻击目标	qq.com	mp.weixin.qq.com	/s/ANDLQBHTzB2uiS54xxyuZw
+20211101	设备安全	https://mp.weixin.qq.com/s/k1ouK1Gyxpped0ZK4H4h7g	天府杯华硕会战的围剿与反围剿	qq.com	mp.weixin.qq.com	/s/k1ouK1Gyxpped0ZK4H4h7g
+20211101	会议	https://paper.seebug.org/1748/	KCon 2021 部分 PPT 发布	seebug.org	paper.seebug.org	/1748/
+20211101	会议	https://mp.weixin.qq.com/s/itQMU8HwacjfMsI9cFF6VA	TrustCom会议小记	qq.com	mp.weixin.qq.com	/s/itQMU8HwacjfMsI9cFF6VA
+20211101	恶意分析	https://mp.weixin.qq.com/s/HNdcwa5x3mTuxEPg2wmdMQ	从开放目录到 GitHub 投毒	qq.com	mp.weixin.qq.com	/s/HNdcwa5x3mTuxEPg2wmdMQ
+20211101	Web安全	https://github.com/RASSec/WebExp	WebExp: 2020年~2021年 网站CMS、中间件、框架系统漏洞集合	github.com	github.com	/RASSec/WebExp
+20211101	论文	https://mp.weixin.qq.com/s/igXuvxBdVZpM9fkAxnkJ5g	2021年网络安全领域四大顶会中国学者发表论文88篇（附目录）	qq.com	mp.weixin.qq.com	/s/igXuvxBdVZpM9fkAxnkJ5g
+20211101	Web安全	https://websecuritys.cn/archives/Blog-Ac-1.html	渗透测试-一次从黑盒转向白盒	websecuritys.cn	websecuritys.cn	/archives/Blog-Ac-1.html
+20211101	数据挖掘	https://mp.weixin.qq.com/s/U5HYIFLjO3ikkMgHyjsUpQ	解释与改进安全应用场景下的深度异常检测方法	qq.com	mp.weixin.qq.com	/s/U5HYIFLjO3ikkMgHyjsUpQ
+20211101	Web安全	https://su18.org/post/memory-shell/	JavaWeb 内存马一周目通关攻略	su18.org	su18.org	/post/memory-shell/
+20211101	论文	https://mp.weixin.qq.com/s/iZ7X9bC4yRutkYWiCxuApQ	Top100密码学经典论文大盘点	qq.com	mp.weixin.qq.com	/s/iZ7X9bC4yRutkYWiCxuApQ
+20211101	Web安全	https://www.sec-in.com/article/1131	VulnHub-[DC-8-9]-系列通关手册	sec-in.com	www.sec-in.com	/article/1131
+20211101	取证分析	https://mp.weixin.qq.com/s/MwGmwMfiWumPfyNZcWYpLw	如何通过进程内存提取密钥解密Cobalt Strike流量	qq.com	mp.weixin.qq.com	/s/MwGmwMfiWumPfyNZcWYpLw
+20211101	编程技术	https://mp.weixin.qq.com/s/Uc-EaqL4Q9HchOH3JNQ53A	一文彻底搞懂Spark	qq.com	mp.weixin.qq.com	/s/Uc-EaqL4Q9HchOH3JNQ53A
+20211101	比赛	https://www.anquanke.com/post/id/256992	第四届“强网”拟态防御国际精英挑战赛web的wp	anquanke.com	www.anquanke.com	/post/id/256992
+20211101	Web安全	https://www.anquanke.com/post/id/257539	Apache安全——挂钩分析	anquanke.com	www.anquanke.com	/post/id/257539
+20211101	Web安全	https://www.anquanke.com/post/id/255226	浅谈无需修改注册表抓取明文密码	anquanke.com	www.anquanke.com	/post/id/255226
+20211101	Web安全	https://www.anquanke.com/post/id/256967	从Java反序列化漏洞题看CodeQL数据流	anquanke.com	www.anquanke.com	/post/id/256967
+20211101	Web安全	https://paper.seebug.org/1749/	劫持 Golang 编译	seebug.org	paper.seebug.org	/1749/
+20211101	比赛	https://www.anquanke.com/post/id/256793	从广东省强网杯——girlfriend中看realloc的艺术	anquanke.com	www.anquanke.com	/post/id/256793
+20211101	Web安全	https://www.sec-in.com/article/1126	VulnHub-[DC-1-7]-系列通关手册	sec-in.com	www.sec-in.com	/article/1126
+20211101	漏洞分析	http://m0d9.me/2021/11/01/CodeQL-CVE-2021-2471/	CodeQL with CVE-2021-2471	m0d9.me	m0d9.me	/2021/11/01/CodeQL-CVE-2021-2471/
+20211101	数据挖掘	https://mp.weixin.qq.com/s/4rVWVseMr3UT65sOBMjiqQ	基于语义的下游内核中补丁的存在性测试	qq.com	mp.weixin.qq.com	/s/4rVWVseMr3UT65sOBMjiqQ
+20211101	杂志	https://www.sec-wiki.com/weekly/400	SecWiki周刊（第400期)	sec-wiki.com	www.sec-wiki.com	/weekly/400
+20211101	比赛	https://www.anquanke.com/post/id/258146	TCTF/0CTF 2021-FINAL 两道 kernel pwn 题解	anquanke.com	www.anquanke.com	/post/id/258146
+20211101	漏洞分析	https://tttang.com/archive/1312/	Docker PHP裸文件本地包含综述	tttang.com	tttang.com	/archive/1312/
+20211101	数据挖掘	https://tech.meituan.com/2021/11/03/knowledge-based-question-answering-in-meituan.html	知识图谱问答技术实践与探索	meituan.com	tech.meituan.com	/2021/11/03/knowledge-based-question-answering-in-meituan.html
+20211101	Web安全	https://tttang.com/archive/1313/	JavaWeb 内存马二周目通关攻略	tttang.com	tttang.com	/archive/1313/
+20211101	漏洞分析	https://mp.weixin.qq.com/s/jbR2nfIGcAjRS-dceTag8Q	基于优化搜索的API序列推荐	qq.com	mp.weixin.qq.com	/s/jbR2nfIGcAjRS-dceTag8Q
+20211101	无线安全	https://www.anquanke.com/post/id/257679	4G/LTE 移动通信系统中对隐私和可用性的实际攻击	anquanke.com	www.anquanke.com	/post/id/257679
+20211101	Web安全	https://github.com/EmYiQing/CodeInspector	CodeInspector: Java 可控参数分析和数据流跟踪分析	github.com	github.com	/EmYiQing/CodeInspector
+20211101	编程技术	https://mp.weixin.qq.com/s/UpB07tQxK5vvYl1alSQY3A	Building a Secure Open-Source Operating-System Kernel	qq.com	mp.weixin.qq.com	/s/UpB07tQxK5vvYl1alSQY3A

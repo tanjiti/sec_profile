@@ -1,0 +1,33 @@
+20201214	法规	https://mp.weixin.qq.com/s/h53qn-2vODsakiCxf9CvXQ	公安机关网安部门打击网络黑产犯罪工作	qq.com	mp.weixin.qq.com	/s/h53qn-2vODsakiCxf9CvXQ
+20201214	Web安全	https://mp.weixin.qq.com/s/FMZQpn9ck3bbPLUgdLDXUw	ASPX之黑名单上传限制的绕过	qq.com	mp.weixin.qq.com	/s/FMZQpn9ck3bbPLUgdLDXUw
+20201214	恶意分析	https://mp.weixin.qq.com/s/lh7y_KHUxag_-pcFBC7d0Q	落鹰行动-史上影响力最大的供应链攻击行动揭秘	qq.com	mp.weixin.qq.com	/s/lh7y_KHUxag_-pcFBC7d0Q
+20201214	Web安全	https://gh0st.cn//archives/2020-11-22/1	记一次攻防演习渗透过程	gh0st.cn	gh0st.cn	//archives/2020-11-22/1
+20201214	恶意分析	https://www.anquanke.com/post/id/224831	巧用Zeek在流量层狩猎哥斯拉Godzilla	anquanke.com	www.anquanke.com	/post/id/224831
+20201214	杂志	https://www.sec-wiki.com/weekly/354	SecWiki周刊（第354期)	sec-wiki.com	www.sec-wiki.com	/weekly/354
+20201214	观点	https://weibo.com/ttarticle/x/m/show/id/2309404582616916688901	吐槽《吐槽国内对SolarWinds事件的分析》	weibo.com	weibo.com	/ttarticle/x/m/show/id/2309404582616916688901
+20201214	观点	https://mp.weixin.qq.com/s/ytm62hJ59XIDi-QRlZTfEg	吐槽国内对SolarWinds事件的分析	qq.com	mp.weixin.qq.com	/s/ytm62hJ59XIDi-QRlZTfEg
+20201214	恶意分析	https://mp.weixin.qq.com/s/22HqoBW-eVSf1Fzw7fxoFw	Go恶意样本分析	qq.com	mp.weixin.qq.com	/s/22HqoBW-eVSf1Fzw7fxoFw
+20201214	Web安全	https://www.sec-in.com/article/743	GetShell的姿势总结	sec-in.com	www.sec-in.com	/article/743
+20201214	编程技术	https://zhuanlan.zhihu.com/p/336936793	网络空间测绘技术之：协议识别（RDP篇）	zhihu.com	zhuanlan.zhihu.com	/p/336936793
+20201214	观点	https://mp.weixin.qq.com/s/aWZ0mrapJTpHwL0nBnGhmg	SolarWinds事件八卦解读	qq.com	mp.weixin.qq.com	/s/aWZ0mrapJTpHwL0nBnGhmg
+20201214	数据挖掘	https://mp.weixin.qq.com/s/aBvptjz9gzxG_lPBY8ECVA	简单聊聊网络空间测绘纵横之道	qq.com	mp.weixin.qq.com	/s/aBvptjz9gzxG_lPBY8ECVA
+20201214	Web安全	http://pirogue.org/2020/12/14/bacscanner/	越权扫描器碎碎念	pirogue.org	pirogue.org	/2020/12/14/bacscanner/
+20201214	运维安全	https://github.com/LandGrey/domainNamePredictor	domainNamePredictor: 公司域名使用规律预测及生成工具	github.com	github.com	/LandGrey/domainNamePredictor
+20201214	Web安全	https://www.sec-in.com/article/725	linux库说明以及如何修改动态链接库	sec-in.com	www.sec-in.com	/article/725
+20201214	漏洞分析	http://pub-shbt.s3.360.cn/cert-public-file/2020%E5%AE%89%E5%85%A8%E6%BC%8F%E6%B4%9E%E5%B9%B4%E6%8A%A5.pdf	2020安全漏洞年报	360.cn	pub-shbt.s3.360.cn	/cert-public-file/2020%E5%AE%89%E5%85%A8%E6%BC%8F%E6%B4%9E%E5%B9%B4%E6%8A%A5.pdf
+20201214	恶意分析	https://www.deepbitstech.com/deepdi.html	DeepDi: A Fast and Accurate Disassembler for Binary Code AI	deepbitstech.com	www.deepbitstech.com	/deepdi.html
+20201214	取证分析	https://mp.weixin.qq.com/s/wZF3TAVPr5t2KxMi_Gc2-w	NIST、CIS、MITRE、SANS 傻傻分不清楚	qq.com	mp.weixin.qq.com	/s/wZF3TAVPr5t2KxMi_Gc2-w
+20201214	Web安全	https://mp.weixin.qq.com/s/pdU1XnBhnxRRGlncY3pDxQ	命令注入靶场空格过滤绕过测试	qq.com	mp.weixin.qq.com	/s/pdU1XnBhnxRRGlncY3pDxQ
+20201214	移动安全	https://mp.weixin.qq.com/s/YQDxUqo_ufjt3cuDNOUfwQ	基于静态依赖分析的安卓GUI自动化探测方法	qq.com	mp.weixin.qq.com	/s/YQDxUqo_ufjt3cuDNOUfwQ
+20201214	数据挖掘	https://mp.weixin.qq.com/s/CTBO22SuQft1dBoHv2WRQg	利用JARM指纹进行TLS服务端标记	qq.com	mp.weixin.qq.com	/s/CTBO22SuQft1dBoHv2WRQg
+20201214	数据挖掘	https://mp.weixin.qq.com/s/yGLrdlpSmEe5ChiVn4b8Kg	数据安全探索与实践	qq.com	mp.weixin.qq.com	/s/yGLrdlpSmEe5ChiVn4b8Kg
+20201214	论文	https://github.com/wcventure/FuzzingPaper	FuzzingPaper: Recent Fuzzing Paper	github.com	github.com	/wcventure/FuzzingPaper
+20201214	取证分析	http://blog.nsfocus.net/threat-assessment-1209/	攻击推理：基于攻击溯源图的威胁评估技术	nsfocus.net	blog.nsfocus.net	/threat-assessment-1209/
+20201214	Web安全	https://www.sec-in.com/article/750	某系统Oracle+Bypass盲注	sec-in.com	www.sec-in.com	/article/750
+20201214	Web安全	https://mp.weixin.qq.com/s/yMpAiue7OT1I8E3C5Dkngw	越权扫描器碎碎念	qq.com	mp.weixin.qq.com	/s/yMpAiue7OT1I8E3C5Dkngw
+20201214	其它	https://mp.weixin.qq.com/s/GceeUFbwsaHUwKQpY6VFkw	MSSQL绕过微软杀毒提权案例	qq.com	mp.weixin.qq.com	/s/GceeUFbwsaHUwKQpY6VFkw
+20201214	漏洞分析	https://www.cdxy.me/?p=837	CVE-2020-15257 containerd-shim Exploit	cdxy.me	www.cdxy.me	/
+20201214	移动安全	https://mp.weixin.qq.com/s/atfMoXjxccUfrZbFsULiRg	我的应用安全方法论：路在脚下	qq.com	mp.weixin.qq.com	/s/atfMoXjxccUfrZbFsULiRg
+20201214	恶意分析	https://github.com/sophos-ai/SOREL-20M	SOREL-20M: Sophos-ReversingLabs 20 million sample dataset	github.com	github.com	/sophos-ai/SOREL-20M
+20201214	比赛	http://blog.bluesadi.cn:4000/2020/11/26/SCUCTF-2020%E6%96%B0%E7%94%9F%E8%B5%9B-RE%E9%83%A8%E5%88%86WP/	[SCUCTF新生赛2020]RE部分WP	bluesadi.cn	blog.bluesadi.cn:4000	/2020/11/26/SCUCTF-2020%E6%96%B0%E7%94%9F%E8%B5%9B-RE%E9%83%A8%E5%88%86WP/
+20201214	漏洞分析	https://www.anquanke.com/post/id/224823	LibFuzzer workshop学习之路	anquanke.com	www.anquanke.com	/post/id/224823

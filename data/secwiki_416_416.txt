@@ -1,0 +1,18 @@
+20220214	法规	https://mp.weixin.qq.com/s/r_OBH12gNsHNWRFCYYXb8w	解读2022年《网络安全审查办法》版本修订要点	qq.com	mp.weixin.qq.com	/s/r_OBH12gNsHNWRFCYYXb8w
+20220214	新闻	http://www.xinhuanet.com/techpro/20220217/0edc34cae344483a98d7dab8b7367a50/c.html	电子信息工程科技发展十三大挑战（2022）	xinhuanet.com	www.xinhuanet.com	/techpro/20220217/0edc34cae344483a98d7dab8b7367a50/c.html
+20220214	恶意分析	https://www.freebuf.com/articles/network/321590.html	记一次挖矿病毒的应急响应	freebuf.com	www.freebuf.com	/articles/network/321590.html
+20220214	Web安全	https://github.com/4ra1n/JavaSecInterview	Java安全研究与安全开发面试题总结	github.com	github.com	/4ra1n/JavaSecInterview
+20220214	Web安全	https://xz.aliyun.com/t/10824	终极Java反序列化Payload缩小技术	aliyun.com	xz.aliyun.com	/t/10824
+20220214	Web安全	https://mp.weixin.qq.com/s/UbqPcqPnQ3GNKSIx0VNjxw	绕过污点分析的一些思考	qq.com	mp.weixin.qq.com	/s/UbqPcqPnQ3GNKSIx0VNjxw
+20220214	恶意分析	https://mp.weixin.qq.com/s/nsj0UowJWxm8niS3ITT8OA	2021网络金融黑产研究报告	qq.com	mp.weixin.qq.com	/s/nsj0UowJWxm8niS3ITT8OA
+20220214	杂志	https://www.sec-wiki.com/weekly/415	SecWiki周刊（第415期)	sec-wiki.com	www.sec-wiki.com	/weekly/415
+20220214	其它	https://mp.weixin.qq.com/s/qGcii5iElYq9mwfSFPhfHg	网络安全工作你必须懂的3保1评	qq.com	mp.weixin.qq.com	/s/qGcii5iElYq9mwfSFPhfHg
+20220214	恶意分析	https://mp.weixin.qq.com/s/JR771hiRCocy8prLP3mvXw	从一例 Pegasus 误报说开去	qq.com	mp.weixin.qq.com	/s/JR771hiRCocy8prLP3mvXw
+20220214	漏洞分析	https://mp.weixin.qq.com/s/7gA74jWC1RES76p1XBO_Kw	利用IP分片污染攻击TCP流量	qq.com	mp.weixin.qq.com	/s/7gA74jWC1RES76p1XBO_Kw
+20220214	数据挖掘	https://toooold.com/2022/02/13/explainable_w_shap_cn.html	求解网络安全问题的可解释机器学习	toooold.com	toooold.com	/2022/02/13/explainable_w_shap_cn.html
+20220214	设备安全	https://ncstatic.clewm.net/rsrc/2022/0217/09/f730918a355c2afeb8aebdfe357bda98.pdf	2021年工业控制网络安全态势白皮书	clewm.net	ncstatic.clewm.net	/rsrc/2022/0217/09/f730918a355c2afeb8aebdfe357bda98.pdf
+20220214	恶意分析	https://mp.weixin.qq.com/s/qJsOSBnkA10KYJUE9Leepw	WordPress 生态中恶意插件的大规模研究	qq.com	mp.weixin.qq.com	/s/qJsOSBnkA10KYJUE9Leepw
+20220214	Web安全	https://mp.weixin.qq.com/s/tQMVEsSY9JJXHJI-1gX7cQ	“红蓝对抗演练评分系统”开源框架 (preview)	qq.com	mp.weixin.qq.com	/s/tQMVEsSY9JJXHJI-1gX7cQ
+20220214	Web安全	https://mp.weixin.qq.com/s/ydwWuMa_ZzvvSNZ9CAAxjA	Web框架CSRF防御的有效性	qq.com	mp.weixin.qq.com	/s/ydwWuMa_ZzvvSNZ9CAAxjA
+20220214	Web安全	https://mp.weixin.qq.com/s/EhJVdRG71JTr9yZFajGKqg	中间商之 Ntlm Relay 攻击分析	qq.com	mp.weixin.qq.com	/s/EhJVdRG71JTr9yZFajGKqg
+20220214	数据挖掘	https://mp.weixin.qq.com/s/GKwBuIb1UV9phF3HJpDAQw	PRIVGUARD：用于GDPR隐私合规的数据治理框架	qq.com	mp.weixin.qq.com	/s/GKwBuIb1UV9phF3HJpDAQw

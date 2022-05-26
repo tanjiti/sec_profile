@@ -1,0 +1,16 @@
+20220509	其它	https://www.sec-in.com/article/1692	从500到账户接管	sec-in.com	www.sec-in.com	/article/1692
+20220509	杂志	https://www.sec-wiki.com/weekly/427	SecWiki周刊（第427期)	sec-wiki.com	www.sec-wiki.com	/weekly/427
+20220509	其它	https://www.sec-in.com/article/1715	MYSQL8.0特性—无select注入	sec-in.com	www.sec-in.com	/article/1715
+20220509	Web安全	https://mp.weixin.qq.com/s/ziHX1gQYo89sWz248yLgAQ	【D3FEND】网络安全对策知识图谱框架解读	qq.com	mp.weixin.qq.com	/s/ziHX1gQYo89sWz248yLgAQ
+20220509	其它	https://www.sec-in.com/article/1710	CVE-2021-31209 分析学习	sec-in.com	www.sec-in.com	/article/1710
+20220509	运维安全	https://mp.weixin.qq.com/s/23fekORQNpmj82Oh1ttixg	企业安全建设：资产管理面面观	qq.com	mp.weixin.qq.com	/s/23fekORQNpmj82Oh1ttixg
+20220509	漏洞分析	https://paper.seebug.org/1893/	F5 BIG-IP 未授权 RCE（CVE-2022-1388）分析	seebug.org	paper.seebug.org	/1893/
+20220509	论文	https://mp.weixin.qq.com/s/J0atxc05c3xFd_bXxejQpQ	顶会论文的经验分享与心路历程：立志勇攀高峰 坚持追求卓越	qq.com	mp.weixin.qq.com	/s/J0atxc05c3xFd_bXxejQpQ
+20220509	Web安全	https://www.cnxct.com/ebpf-rootkit-how-boopkit-works/	新型eBPF后门boopkit的原理分析与演示	cnxct.com	www.cnxct.com	/ebpf-rootkit-how-boopkit-works/
+20220509	数据挖掘	https://mp.weixin.qq.com/s/fMZWI-pvjVnKcvC7RO6lHA	元学习——让机器学习学会学习	qq.com	mp.weixin.qq.com	/s/fMZWI-pvjVnKcvC7RO6lHA
+20220509	漏洞分析	http://noahblog.360.cn/cve-2022-21907-httpxie-yi-yuan-cheng-dai-ma-zhi-xing-lou-dong-fen-xi-zong-jie/	CVE-2022-21907 http协议远程代码执行漏洞分析总结	360.cn	noahblog.360.cn	/cve-2022-21907-httpxie-yi-yuan-cheng-dai-ma-zhi-xing-lou-dong-fen-xi-zong-jie/
+20220509	取证分析	https://mp.weixin.qq.com/s/vm13xmTzLYrqLrMRlndAZA	从ATT&CK V11版发布看ATT&CK的更新历程	qq.com	mp.weixin.qq.com	/s/vm13xmTzLYrqLrMRlndAZA
+20220509	无线安全	https://mp.weixin.qq.com/s/qsrZ8RJl_wE_aN0t4-mhog	卫星互联网发展与信息安全趋势	qq.com	mp.weixin.qq.com	/s/qsrZ8RJl_wE_aN0t4-mhog
+20220509	Web安全	https://mp.weixin.qq.com/s/QbfUkU0Fj7Bjk--21H2UQA	前端JS攻防对抗	qq.com	mp.weixin.qq.com	/s/QbfUkU0Fj7Bjk--21H2UQA
+20220509	漏洞分析	http://noahblog.360.cn/cve-2021-34535-rdpke-hu-duan-lou-dong-fen-xi/	CVE-2021-34535 RDP客户端漏洞分析	360.cn	noahblog.360.cn	/cve-2021-34535-rdpke-hu-duan-lou-dong-fen-xi/
+20220509	漏洞分析	https://blog.quarkslab.com/commit-level-vulnerability-dataset.html	Commit Level Vulnerability Dataset	quarkslab.com	blog.quarkslab.com	/commit-level-vulnerability-dataset.html

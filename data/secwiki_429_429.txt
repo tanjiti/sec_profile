@@ -1,0 +1,23 @@
+20220516	Web安全	https://mp.weixin.qq.com/s/b44XcSoyTgYNprL6wKHh-Q	SHELLPUB 河马在线查杀新版发布	qq.com	mp.weixin.qq.com	/s/b44XcSoyTgYNprL6wKHh-Q
+20220516	其它	https://mp.weixin.qq.com/s/0uTkCQHtCySO9ydEjUMU8g	网络安全创业从0到1-演讲实录	qq.com	mp.weixin.qq.com	/s/0uTkCQHtCySO9ydEjUMU8g
+20220516	取证分析	https://zhuanlan.zhihu.com/p/515570133	情报的三大核心、四大要素、一个关键问题	zhihu.com	zhuanlan.zhihu.com	/p/515570133
+20220516	观点	https://mp.weixin.qq.com/s/sLNVFiJPQOnoytnomubjyQ	透过俄乌冲突谈对“网络无国界”的再认识	qq.com	mp.weixin.qq.com	/s/sLNVFiJPQOnoytnomubjyQ
+20220516	其它	https://www.sec-in.com/article/1687	MySQL安全配置基线	sec-in.com	www.sec-in.com	/article/1687
+20220516	移动安全	https://mp.weixin.qq.com/s/OQWU0wSAUhaM6QaaT6-CXA	微信小程序反编译	qq.com	mp.weixin.qq.com	/s/OQWU0wSAUhaM6QaaT6-CXA
+20220516	其它	https://mp.weixin.qq.com/s/wANFsfKQ8HxxSMPMSOHxiA	来自五眼联盟的全球最佳网络安全指导意见	qq.com	mp.weixin.qq.com	/s/wANFsfKQ8HxxSMPMSOHxiA
+20220516	恶意分析	https://mp.weixin.qq.com/s/EscMgvdA5u97eZHImhvqMA	部分终端安全防护软件的 DNSAML 服务存在缺陷	qq.com	mp.weixin.qq.com	/s/EscMgvdA5u97eZHImhvqMA
+20220516	其它	https://www.sec-in.com/article/1678	SSTI漏洞基础解析	sec-in.com	www.sec-in.com	/article/1678
+20220516	观点	https://mp.weixin.qq.com/s/HLvydDDhTfxK-xWsGEuCpA	从网空测绘看俄乌战争态势--及对我们的启示	qq.com	mp.weixin.qq.com	/s/HLvydDDhTfxK-xWsGEuCpA
+20220516	运维安全	https://mp.weixin.qq.com/s/aXSA_opN-rV68rnrPO73PA	快速上手云原生安全平台 NeuVector	qq.com	mp.weixin.qq.com	/s/aXSA_opN-rV68rnrPO73PA
+20220516	杂志	https://www.sec-wiki.com/weekly/428	SecWiki周刊（第428期)	sec-wiki.com	www.sec-wiki.com	/weekly/428
+20220516	设备安全	https://zhuanlan.zhihu.com/p/515998950	基础架构安全弹性技术指南草案（固件安全篇）	zhihu.com	zhuanlan.zhihu.com	/p/515998950
+20220516	恶意分析	https://mp.weixin.qq.com/s/n7sc5Q20cScgvt7BNpAiEA	Wobfuscator：将部分JavaScript恶意代码转换为WebAssembly以逃避检测	qq.com	mp.weixin.qq.com	/s/n7sc5Q20cScgvt7BNpAiEA
+20220516	恶意分析	https://mp.weixin.qq.com/s/lXpYU9VhZd4nw2YjeUK4rQ	Cobalt Strike 分析：CS元数据编码和解码	qq.com	mp.weixin.qq.com	/s/lXpYU9VhZd4nw2YjeUK4rQ
+20220516	恶意分析	https://mp.weixin.qq.com/s/dzvqIXoXdSd5BLJNb6kW3w	2021年十大网络安全漏洞&“Lazarus”组织介绍	qq.com	mp.weixin.qq.com	/s/dzvqIXoXdSd5BLJNb6kW3w
+20220516	其它	https://www.sec-in.com/article/1614	PE文件结构解析1	sec-in.com	www.sec-in.com	/article/1614
+20220516	运维安全	https://zhuanlan.zhihu.com/p/515363693	（译）SLSA如何落地	zhihu.com	zhuanlan.zhihu.com	/p/515363693
+20220516	数据挖掘	https://mp.weixin.qq.com/s/ys9JsRIb1OSXEKMcCaoDpw	一种基于Graph Kernel的API使用示例选择方法	qq.com	mp.weixin.qq.com	/s/ys9JsRIb1OSXEKMcCaoDpw
+20220516	Web安全	https://mp.weixin.qq.com/s/ZlknGb791XbuxWSLTJZwWA	应急能力提升1：实战应急困境与突破	qq.com	mp.weixin.qq.com	/s/ZlknGb791XbuxWSLTJZwWA
+20220516	其它	https://mp.weixin.qq.com/s/GpGBrb4vm6JvYp0-mrvFIA	如何学习那么多的安全文章（实践篇）	qq.com	mp.weixin.qq.com	/s/GpGBrb4vm6JvYp0-mrvFIA
+20220516	Web安全	https://mp.weixin.qq.com/s/gy8fp455ZgE-8aHwBDPl5A	应急能力提升3：内网横向移动攻击模拟（上）	qq.com	mp.weixin.qq.com	/s/gy8fp455ZgE-8aHwBDPl5A
+20220516	Web安全	https://mp.weixin.qq.com/s/6m22kKwHc5rvjod-uWX2wA	应急能力提升2：挖矿权限维持攻击模拟	qq.com	mp.weixin.qq.com	/s/6m22kKwHc5rvjod-uWX2wA

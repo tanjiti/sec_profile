@@ -1,0 +1,20 @@
+20210510	Web安全	https://mp.weixin.qq.com/s/l6rSLBrluAkRrB0rYPcdLg	内网软件密码离线解密	qq.com	mp.weixin.qq.com	/s/l6rSLBrluAkRrB0rYPcdLg
+20210510	Web安全	https://mp.weixin.qq.com/s/EULJgDrCvuq3DwUpGUskfQ	Metarget：云原生攻防靶场开源	qq.com	mp.weixin.qq.com	/s/EULJgDrCvuq3DwUpGUskfQ
+20210510	恶意分析	https://mp.weixin.qq.com/s/383OkdZ4z4rFUfjLf3Ymhw	2021第一季度APT攻击趋势分析（上）	qq.com	mp.weixin.qq.com	/s/383OkdZ4z4rFUfjLf3Ymhw
+20210510	Web安全	https://github.com/jweny/pocassist	pocassist: 开源漏洞测试框架	github.com	github.com	/jweny/pocassist
+20210510	Web安全	https://mp.weixin.qq.com/s/loYIGK59RdFbpqhTkmu03w	云原生安全攻防技术浅析	qq.com	mp.weixin.qq.com	/s/loYIGK59RdFbpqhTkmu03w
+20210510	漏洞分析	https://xz.aliyun.com/t/9539	基于算法的漏洞检测	aliyun.com	xz.aliyun.com	/t/9539
+20210510	Web安全	https://www.anquanke.com/post/id/240739	PHP 开源白盒审计工具初探（上）	anquanke.com	www.anquanke.com	/post/id/240739
+20210510	杂志	https://www.sec-wiki.com/weekly/375	SecWiki周刊（第375期)	sec-wiki.com	www.sec-wiki.com	/weekly/375
+20210510	Web安全	https://www.sec-in.com/article/1059	vulnhub: Momentum:1	sec-in.com	www.sec-in.com	/article/1059
+20210510	数据挖掘	https://mp.weixin.qq.com/s/lz2XPXGpIlP3YZIO6Xv4Ew	百亿级图数据在快手安全情报的应用与挑战	qq.com	mp.weixin.qq.com	/s/lz2XPXGpIlP3YZIO6Xv4Ew
+20210510	运维安全	https://mp.weixin.qq.com/s/cbCd_hXpHlJ_8DnoiHWi0g	安信证券容器云平台落地实践	qq.com	mp.weixin.qq.com	/s/cbCd_hXpHlJ_8DnoiHWi0g
+20210510	Web安全	https://xz.aliyun.com/t/9544	Fastcgi 协议分析与 PHP-FPM 攻击方法	aliyun.com	xz.aliyun.com	/t/9544
+20210510	Web安全	https://www.sec-in.com/article/1049	堆的fastbin attack利用	sec-in.com	www.sec-in.com	/article/1049
+20210510	恶意分析	https://mp.weixin.qq.com/s/ArrPR0XCj-Aq6aTP3n7lEg	导致美国供油系统中断的勒索软件同源分析与防范	qq.com	mp.weixin.qq.com	/s/ArrPR0XCj-Aq6aTP3n7lEg
+20210510	漏洞分析	https://mp.weixin.qq.com/s/6-XAPuLAieb11GpNK3x7Zw	云基础设施之硬件安全威胁	qq.com	mp.weixin.qq.com	/s/6-XAPuLAieb11GpNK3x7Zw
+20210510	恶意分析	https://mp.weixin.qq.com/s/ZtKi0bu5iMmGjhaxpaIBeQ	流行勒索病毒分析总结（上）	qq.com	mp.weixin.qq.com	/s/ZtKi0bu5iMmGjhaxpaIBeQ
+20210510	取证分析	https://mp.weixin.qq.com/s/QAvFyfAetlwF3Vow-liEew	智能合约安全系列——EOS菠菜应用篇	qq.com	mp.weixin.qq.com	/s/QAvFyfAetlwF3Vow-liEew
+20210510	Web安全	http://rui0.cn/archives/1597	Istio自身服务的安全风险	rui0.cn	rui0.cn	/archives/1597
+20210510	论文	https://mp.weixin.qq.com/s/MVsF9P7hpnncf9cHuTQ_iA	以太坊智能合约中的社会工程攻击	qq.com	mp.weixin.qq.com	/s/MVsF9P7hpnncf9cHuTQ_iA
+20210510	论文	https://mp.weixin.qq.com/s/F_Xev3CD1AH-LgszPk_PFQ	AsiaCCS 2021 论文录用列表	qq.com	mp.weixin.qq.com	/s/F_Xev3CD1AH-LgszPk_PFQ

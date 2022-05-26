@@ -1,0 +1,25 @@
+20210712	法规	https://www.miit.gov.cn/zwgk/zcjd/art/2021/art_63fa55e09253499a9c3f1cd8266fbfa1.html	一图读懂《网络产品安全漏洞管理规定》	miit.gov.cn	www.miit.gov.cn	/zwgk/zcjd/art/2021/art_63fa55e09253499a9c3f1cd8266fbfa1.html
+20210712	运维安全	https://mp.weixin.qq.com/s/o0rSOLQ34-Ph0aY-_5tfSA	Elkeid-RASP：基于主机的入侵检测解决方案	qq.com	mp.weixin.qq.com	/s/o0rSOLQ34-Ph0aY-_5tfSA
+20210712	新闻	https://mp.weixin.qq.com/s/5hjlfqNa3VPqH-xs7X7NWw	2021年中国网络安全市场分类与全景图	qq.com	mp.weixin.qq.com	/s/5hjlfqNa3VPqH-xs7X7NWw
+20210712	恶意分析	https://mp.weixin.qq.com/s/abn1bDPEgwLKzjo5fABArg	IoT 恶意软件生命周期大规模研究	qq.com	mp.weixin.qq.com	/s/abn1bDPEgwLKzjo5fABArg
+20210712	杂志	https://www.sec-wiki.com/weekly/384	SecWiki周刊（第384期)	sec-wiki.com	www.sec-wiki.com	/weekly/384
+20210712	论文	http://www.engineering.org.cn/ch/10.15302/J-SSCAE-2021.03.002	人工智能赋能网络攻击的安全威胁及应对策略	engineering.org.cn	www.engineering.org.cn	/ch/10.15302/J-SSCAE-2021.03.002
+20210712	观点	https://mp.weixin.qq.com/s/I_HmTHao2uaoB35C1aJmGQ	自由与使命汇报ppt	qq.com	mp.weixin.qq.com	/s/I_HmTHao2uaoB35C1aJmGQ
+20210712	其它	https://mp.weixin.qq.com/s?__biz=MzIwOTA4NTg4MA==&mid=2652489358&idx=1&sn=6834393e2e8b3cc8be6deb4f1648310c&chksm=8c945259bbe3db4fe0eaa4f0419033b80dc819e5ee0d7d8e1f4c5ccd3a0921eeebac5fedfcda&scene=0&xtrack=1#rd	[HTB] Frolic Writeup	qq.com	mp.weixin.qq.com	/s
+20210712	取证分析	https://mp.weixin.qq.com/s/W0qXMPrQ3XbiT7ScNB1xCg	区块链链上追踪基础篇【中】：地址标签的识别（1）	qq.com	mp.weixin.qq.com	/s/W0qXMPrQ3XbiT7ScNB1xCg
+20210712	移动安全	https://mp.weixin.qq.com/s/QanYnjRN5TM_NlJtQzCALg	手把手教你搭建一个无框架埋点体系	qq.com	mp.weixin.qq.com	/s/QanYnjRN5TM_NlJtQzCALg
+20210712	数据挖掘	https://mp.weixin.qq.com/s/VQdHQnHnWhHrE-Ze_W9meA	30万篇外媒疫情新闻数据集介绍	qq.com	mp.weixin.qq.com	/s/VQdHQnHnWhHrE-Ze_W9meA
+20210712	Web安全	https://mp.weixin.qq.com/s/WsCgI6ilaGL8XJPUJUTCdQ	D3FEND学习笔记	qq.com	mp.weixin.qq.com	/s/WsCgI6ilaGL8XJPUJUTCdQ
+20210712	恶意分析	https://mp.weixin.qq.com/s/4YQ-wbzM0mCLOiUad5wpNg	office病毒分析资料整理	qq.com	mp.weixin.qq.com	/s/4YQ-wbzM0mCLOiUad5wpNg
+20210712	Web安全	https://www.freebuf.com/articles/es/280227.html	更适应DevOps的被动式漏洞检测产品技术研究及架构设计	freebuf.com	www.freebuf.com	/articles/es/280227.html
+20210712	Web安全	https://mp.weixin.qq.com/s/6tL5AH60DaGXza4MOoJbIw	做红队你需要学习“如何挖掘战壕”（一）	qq.com	mp.weixin.qq.com	/s/6tL5AH60DaGXza4MOoJbIw
+20210712	Web安全	https://mp.weixin.qq.com/s/XTl9WkdZwCKke_0tLOUr2w	Active Directory 证书服务快速防御指南	qq.com	mp.weixin.qq.com	/s/XTl9WkdZwCKke_0tLOUr2w
+20210712	取证分析	https://zhuanlan.zhihu.com/p/389024302	从邮件窃密活动探索新的文件加密传输方式	zhihu.com	zhuanlan.zhihu.com	/p/389024302
+20210712	其它	https://mp.weixin.qq.com/s/9fKnjONvTA9WOcmJ4iL68Q	起底加密货币诈骗之局	qq.com	mp.weixin.qq.com	/s/9fKnjONvTA9WOcmJ4iL68Q
+20210712	观点	https://mp.weixin.qq.com/s/jMVcbQAgcN3ECYK1bTZN5w	Palantir 大数据能力分析研究（上篇）	qq.com	mp.weixin.qq.com	/s/jMVcbQAgcN3ECYK1bTZN5w
+20210712	数据挖掘	https://mp.weixin.qq.com/s/VgOKXX0mJSWol0CKOUMJOA	THUIR司法类案检索技术研究进展	qq.com	mp.weixin.qq.com	/s/VgOKXX0mJSWol0CKOUMJOA
+20210712	论文	https://mp.weixin.qq.com/s/c3BRmlYnbCQjPS48LIUEzg	On the (Un)Reliability of Privacy Policies in Android Apps	qq.com	mp.weixin.qq.com	/s/c3BRmlYnbCQjPS48LIUEzg
+20210712	数据挖掘	https://zhuanlan.zhihu.com/p/386458680	当可解释人工智能遇上知识图谱	zhihu.com	zhuanlan.zhihu.com	/p/386458680
+20210712	取证分析	https://mp.weixin.qq.com/s/W6Xh47lqCM3YPuh1fBl1gQ	区块链链上追踪基础篇【中】：地址标签的识别（2）	qq.com	mp.weixin.qq.com	/s/W6Xh47lqCM3YPuh1fBl1gQ
+20210712	无线安全	https://mp.weixin.qq.com/s/6njS-icfUbq-DAT_oQV7Tg	4G LTE网络中基于IMS的短信服务带来的新安全威胁	qq.com	mp.weixin.qq.com	/s/6njS-icfUbq-DAT_oQV7Tg
+20210712	Web安全	https://github.com/klezVirus/CheeseTools	CheeseTools: Self-developed tools for Lateral Movement/Code Execution	github.com	github.com	/klezVirus/CheeseTools

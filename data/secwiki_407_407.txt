@@ -1,0 +1,17 @@
+20211213	恶意分析	https://mp.weixin.qq.com/s/OoARMaeACnogFrEWMNw01A	从一例挖矿木马看 Log4Shell 的在野传播	qq.com	mp.weixin.qq.com	/s/OoARMaeACnogFrEWMNw01A
+20211213	漏洞分析	https://mp.weixin.qq.com/s/GY-hKl9013pyVd8no0SDHw	Log4j2远程代码执行漏洞检测和防护策略研究	qq.com	mp.weixin.qq.com	/s/GY-hKl9013pyVd8no0SDHw
+20211213	视频	https://space.bilibili.com/2919428/channel/detail?cid=106434&ctype=0	《软件分析》完整版课程视频	bilibili.com	space.bilibili.com	/2919428/channel/detail
+20211213	运维安全	https://zhuanlan.zhihu.com/p/445372045	从Log4shell事件看资产风险运营工程化的困局与盲点	zhihu.com	zhuanlan.zhihu.com	/p/445372045
+20211213	杂志	https://www.sec-wiki.com/weekly/406	SecWiki周刊（第406期)	sec-wiki.com	www.sec-wiki.com	/weekly/406
+20211213	漏洞分析	https://tttang.com/archive/1375/	浅谈被动式IAST产品与技术实现	tttang.com	tttang.com	/archive/1375/
+20211213	Web安全	https://www.sec-in.com/article/1125	CVE-2016-7124反序列化漏洞复现	sec-in.com	www.sec-in.com	/article/1125
+20211213	工具	https://mp.weixin.qq.com/s/uYpNH2cwjsOoDl6ZTyVtUw	几款小众而实用的远控软件	qq.com	mp.weixin.qq.com	/s/uYpNH2cwjsOoDl6ZTyVtUw
+20211213	恶意分析	https://mp.weixin.qq.com/s/u0O6qBbvGB-l8aqCabGaUQ	iMessage 零点击漏洞利用细节公开	qq.com	mp.weixin.qq.com	/s/u0O6qBbvGB-l8aqCabGaUQ
+20211213	取证分析	https://www.freebuf.com/articles/web/313394.html	应急响应：没有痕迹该如何进行攻击溯源	freebuf.com	www.freebuf.com	/articles/web/313394.html
+20211213	恶意分析	https://www.anquanke.com/post/id/262742	基于异常行为检测CobaltStrike	anquanke.com	www.anquanke.com	/post/id/262742
+20211213	Web安全	https://mp.weixin.qq.com/s/-4E08dNeCdsc51VLE9qMAQ	Codeql 挖洞？	qq.com	mp.weixin.qq.com	/s/-4E08dNeCdsc51VLE9qMAQ
+20211213	数据挖掘	http://blog.nsfocus.net/http-banner-2/	基于规则向量化的HTTP资产识别方法探索	nsfocus.net	blog.nsfocus.net	/http-banner-2/
+20211213	论文	https://mp.weixin.qq.com/s/CeGjPSw4DLCkSdF1lxqi2A	ACSAC 2021 论文录用列表	qq.com	mp.weixin.qq.com	/s/CeGjPSw4DLCkSdF1lxqi2A
+20211213	漏洞分析	http://blog.topsec.com.cn/spel%e8%a1%a8%e8%be%be%e5%bc%8f%e6%b3%a8%e5%85%a5%e6%bc%8f%e6%b4%9e%e6%b7%b1%e5%85%a5%e5%88%86%e6%9e%90/	SPEL表达式注入漏洞深入分析	topsec.com.cn	blog.topsec.com.cn	/spel%e8%a1%a8%e8%be%be%e5%bc%8f%e6%b3%a8%e5%85%a5%e6%bc%8f%e6%b4%9e%e6%b7%b1%e5%85%a5%e5%88%86%e6%9e%90/
+20211213	编程技术	https://www.03sec.com/Ideas/qian-tan-bei-dong-shiiast-chan-pin-yu-ji-shu-shi-x.html#morphing	浅谈被动式IAST产品与技术实现-基础篇	03sec.com	www.03sec.com	/Ideas/qian-tan-bei-dong-shiiast-chan-pin-yu-ji-shu-shi-x.html
+20211213	编程技术	https://www.03sec.com/Ideas/qian-tan-bei-dong-shiiast-chan-pin-yu-ji-shu-shi-x-1.html#morphing	浅谈被动式IAST产品与技术实现-代码实现Demo篇	03sec.com	www.03sec.com	/Ideas/qian-tan-bei-dong-shiiast-chan-pin-yu-ji-shu-shi-x-1.html

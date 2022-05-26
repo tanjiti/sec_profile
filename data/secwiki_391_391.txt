@@ -1,0 +1,25 @@
+20210823	Web安全	https://mp.weixin.qq.com/s/t2hMiPg0-qrgGIyysG9e_A	说说JAVA反序列化	qq.com	mp.weixin.qq.com	/s/t2hMiPg0-qrgGIyysG9e_A
+20210823	漏洞分析	https://mp.weixin.qq.com/s/P9zQI7I2obCpov_LMIeKIw	面向开源软件的自动化漏洞数据采集与处理技术研究	qq.com	mp.weixin.qq.com	/s/P9zQI7I2obCpov_LMIeKIw
+20210823	杂志	https://www.sec-wiki.com/weekly/390	SecWiki周刊（第390期)	sec-wiki.com	www.sec-wiki.com	/weekly/390
+20210823	恶意分析	https://mp.weixin.qq.com/s/feav2bcigQScbze4C5psSw	过往可能低估了反射放大 DDoS 的风险	qq.com	mp.weixin.qq.com	/s/feav2bcigQScbze4C5psSw
+20210823	Web安全	https://blog.qwqdanchun.com/archives/414	红队资料集锦	qwqdanchun.com	blog.qwqdanchun.com	/archives/414
+20210823	Web安全	https://www.thehacker.recipes/	The Hacker Recipes 黑客实操笔记	thehacker.recipes	www.thehacker.recipes	/
+20210823	恶意分析	https://ti.qianxin.com/uploads/2021/08/26/67c584e9e1e86a8dc3f40801f05eb981.pdf	全球高级持续性威胁（APT）2021年中报告	qianxin.com	ti.qianxin.com	/uploads/2021/08/26/67c584e9e1e86a8dc3f40801f05eb981.pdf
+20210823	Web安全	https://github.com/SummerSec/learning-codeql	learning-codeql: CodeQL Java 全网最全的中文学习资料	github.com	github.com	/SummerSec/learning-codeql
+20210823	漏洞分析	https://wonderkun.cc/2021/08/22/windows10%E5%86%85%E6%A0%B8%E6%80%81%E6%8F%90%E6%9D%83%E6%96%B9%E6%B3%95%E6%B1%87%E6%80%BB/	windows10内核态提权方法汇总	wonderkun.cc	wonderkun.cc	/2021/08/22/windows10%E5%86%85%E6%A0%B8%E6%80%81%E6%8F%90%E6%9D%83%E6%96%B9%E6%B3%95%E6%B1%87%E6%80%BB/
+20210823	Web安全	https://mp.weixin.qq.com/s/ncWGrMsIAvh9HEK1QC5IGQ	浅谈云上攻防——对象存储服务访问策略评估机制研究	qq.com	mp.weixin.qq.com	/s/ncWGrMsIAvh9HEK1QC5IGQ
+20210823	Web安全	https://mp.weixin.qq.com/s/bmdSyZem46aukj_hvLhu0w	漫谈PHP反汇编器/反编译器	qq.com	mp.weixin.qq.com	/s/bmdSyZem46aukj_hvLhu0w
+20210823	Web安全	https://www.anquanke.com/post/id/248896	MSSQL数据库注入全方位利用	anquanke.com	www.anquanke.com	/post/id/248896
+20210823	漏洞分析	https://mp.weixin.qq.com/s/LOBnwPsYMNfLg9nkeeMi-w	通过漏洞预测改进漏洞修复决策	qq.com	mp.weixin.qq.com	/s/LOBnwPsYMNfLg9nkeeMi-w
+20210823	恶意分析	https://mp.weixin.qq.com/s/vtmrhjXzL3gj8m_1uwgtmw	海量恶意样本下高性能 Yara 检测方案	qq.com	mp.weixin.qq.com	/s/vtmrhjXzL3gj8m_1uwgtmw
+20210823	漏洞分析	https://vul.360.net/archives/217?continueFlag=b9e944728e53a56fa7ff39d24c55dc4a	Escape from chrome sandbox to root	360.net	vul.360.net	/archives/217
+20210823	Web安全	https://mp.weixin.qq.com/s/EsLeJwmo0ylW_VDmHsW_gw	祥云杯-WriteUp	qq.com	mp.weixin.qq.com	/s/EsLeJwmo0ylW_VDmHsW_gw
+20210823	漏洞分析	https://mp.weixin.qq.com/s/IIqg3ePO6MNY-pxcpGYv1w	车机硬件分析与固件提取	qq.com	mp.weixin.qq.com	/s/IIqg3ePO6MNY-pxcpGYv1w
+20210823	Web安全	https://github.com/dipjyotimetia/HybridTestFramewrok#setup--tools	HybridTestFramewrok: End to End testing of Web, API and Security	github.com	github.com	/dipjyotimetia/HybridTestFramewrok
+20210823	Web安全	https://github.com/BloodHoundAD/BloodHound	BloodHound：Six Degrees of Domain Admin	github.com	github.com	/BloodHoundAD/BloodHound
+20210823	编程技术	https://github.com/seed-labs/seed-emulator	seed-emulator: A Python framework for creating emulation of the Internet.	github.com	github.com	/seed-labs/seed-emulator
+20210823	Web安全	https://mp.weixin.qq.com/s/8scaoLaiENuL_L5eLM7hYg	[HTB] Admirer Writeup	qq.com	mp.weixin.qq.com	/s/8scaoLaiENuL_L5eLM7hYg
+20210823	数据挖掘	https://mp.weixin.qq.com/s/gH1VNCUVT5Hd5lGaGvEO2w	面向开放域的无监督实体对齐	qq.com	mp.weixin.qq.com	/s/gH1VNCUVT5Hd5lGaGvEO2w
+20210823	漏洞分析	https://www.anquanke.com/post/id/251224	Electron的openExternal可控利用点分析	anquanke.com	www.anquanke.com	/post/id/251224
+20210823	Web安全	https://github.com/CHYbeta/OddProxyDemo/blob/master/nginx/demo1/README.md	Nginx 场景绕过之一: URL white spaces + Gunicorn	github.com	github.com	/CHYbeta/OddProxyDemo/blob/master/nginx/demo1/README.md
+20210823	取证分析	https://geneva.cs.umd.edu/posts/usenix21-weaponizing-censors/?continueFlag=b9e944728e53a56fa7ff39d24c55dc4a	Weaponizing Middleboxes for TCP Reflected Amplification	umd.edu	geneva.cs.umd.edu	/posts/usenix21-weaponizing-censors/

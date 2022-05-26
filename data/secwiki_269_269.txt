@@ -1,0 +1,67 @@
+20190422	新闻	https://mp.weixin.qq.com/s/4O_4MvLVma_9uEQO4IU14g	中国网络安全行业分类及全景图2019H1	qq.com	mp.weixin.qq.com	/s/4O_4MvLVma_9uEQO4IU14g
+20190422	法规	https://mp.weixin.qq.com/s/1AMEdl_YMXt0jjHl5RYP3A	自主可控政策全景图	qq.com	mp.weixin.qq.com	/s/1AMEdl_YMXt0jjHl5RYP3A
+20190422	视频	https://mp.weixin.qq.com/s/XO38NB5whYHxcr9RaoBFXw	2019 西湖论剑-院士圆桌视频	qq.com	mp.weixin.qq.com	/s/XO38NB5whYHxcr9RaoBFXw
+20190422	观点	https://mp.weixin.qq.com/s/0N8vOoO2B6a79XGG5I-j0w	美国高端智库的政策专家储备及其人才吸引机制研究—以兰德公司为例	qq.com	mp.weixin.qq.com	/s/0N8vOoO2B6a79XGG5I-j0w
+20190422	Web安全	https://nosec.org/home/detail/2514.html	Weblogic反序列化远程命令执行漏洞(CNVD-C-2019-48814)	nosec.org	nosec.org	/home/detail/2514.html
+20190422	Web安全	https://www.ch1ng.com/blog/147.html	另一种Tomcat渗透Getshell技巧	ch1ng.com	www.ch1ng.com	/blog/147.html
+20190422	Web安全	https://github.com/7kbstorm/7kbscan-WebPathBrute	7kbscan-WebPathBrute Web路径暴力探测工具	github.com	github.com	/7kbstorm/7kbscan-WebPathBrute
+20190422	恶意分析	https://xz.aliyun.com/t/4842	Windows常见backdoor、权限维持方法及排查技术	aliyun.com	xz.aliyun.com	/t/4842
+20190422	设备安全	https://xz.aliyun.com/t/4840	HiSilicon DVR 黑客笔记	aliyun.com	xz.aliyun.com	/t/4840
+20190422	取证分析	https://www.freebuf.com/vuls/200895.html	看我如何揪出远控背后的幕后黑手	freebuf.com	www.freebuf.com	/vuls/200895.html
+20190422	取证分析	https://github.com/al0ne/LinuxCheck	LinuxCheck: linux信息收集脚本	github.com	github.com	/al0ne/LinuxCheck
+20190422	恶意分析	http://blog.nsfocus.net/apt34-event-analysis-report/	APT34攻击全本分析	nsfocus.net	blog.nsfocus.net	/apt34-event-analysis-report/
+20190422	Web安全	https://mp.weixin.qq.com/s/yv6JQJFQSvIeJU2Z0Pn0ZA	代码审计初体验	qq.com	mp.weixin.qq.com	/s/yv6JQJFQSvIeJU2Z0Pn0ZA
+20190422	运维安全	https://mp.weixin.qq.com/s/ZnQuboW4jLSBz_9pEFIPxg	Linux入侵排查案例分析	qq.com	mp.weixin.qq.com	/s/ZnQuboW4jLSBz_9pEFIPxg
+20190422	Web安全	https://www.cnblogs.com/xsserhaha/p/10743671.html	绕过xss检测机制	cnblogs.com	www.cnblogs.com	/xsserhaha/p/10743671.html
+20190422	漏洞分析	https://github.com/opensec-cn/vtest	VTest - 漏洞测试辅助系统	github.com	github.com	/opensec-cn/vtest
+20190422	恶意分析	https://mp.weixin.qq.com/s/gYUCTLi2GpmatGOcRODZwA	对APT34泄露工具的分析—PoisonFrog和Glimpse	qq.com	mp.weixin.qq.com	/s/gYUCTLi2GpmatGOcRODZwA
+20190422	其它	https://nosec.org/home/detail/2510.html	如何绕过域账户登录失败次数的限制	nosec.org	nosec.org	/home/detail/2510.html
+20190422	Web安全	https://www.ch1ng.com/blog/173.html	CaidaoMitmProxy：基于HTTP代理中转菜刀过WAF	ch1ng.com	www.ch1ng.com	/blog/173.html
+20190422	数据挖掘	https://paper.seebug.org/898/	DDoS 反射放大攻击全球探测分析	seebug.org	paper.seebug.org	/898/
+20190422	无线安全	https://mp.weixin.qq.com/s/Q12ScpUctVqg7aC3BRVLeg	RD-10射频探测器-隐藏摄像头侦查器中文手册	qq.com	mp.weixin.qq.com	/s/Q12ScpUctVqg7aC3BRVLeg
+20190422	恶意分析	https://github.com/We5ter/Flerken	开源powershell CMD bash命令混淆检测工具	github.com	github.com	/We5ter/Flerken
+20190422	比赛	http://phantom0301.cc/2019/04/19/ddctf2019/	DDCTF2019 部分 writeup 及思路	phantom0301.cc	phantom0301.cc	/2019/04/19/ddctf2019/
+20190422	数据挖掘	https://www.infoq.cn/article/ceDbB*8IpzJrwyIJ8v1J	在社交网络上刷粉刷量，技术上是如何实现的？	infoq.cn	www.infoq.cn	/article/ceDbB*8IpzJrwyIJ8v1J
+20190422	漏洞分析	https://lorexxar.cn/2019/04/19/drupal-1-click-rce/	Drupal 1-click to RCE分析	lorexxar.cn	lorexxar.cn	/2019/04/19/drupal-1-click-rce/
+20190422	Web安全	https://mp.weixin.qq.com/s/QnTjOKqhLhP0TxcJ8CkszQ	VulnHub靶机学习——Fristileaks实战记录	qq.com	mp.weixin.qq.com	/s/QnTjOKqhLhP0TxcJ8CkszQ
+20190422	比赛	https://xz.aliyun.com/t/4862	2019-DDCTF-WEB-WriteUp	aliyun.com	xz.aliyun.com	/t/4862
+20190422	观点	https://www.cnblogs.com/xsserhaha/p/10685322.html	关于编程教育的思考	cnblogs.com	www.cnblogs.com	/xsserhaha/p/10685322.html
+20190422	编程技术	https://paper.seebug.org/904/	如何打造自己的PoC框架-Pocsuite3-使用篇	seebug.org	paper.seebug.org	/904/
+20190422	漏洞分析	https://nosec.org/home/detail/2521.html	如何获得印度最大股票经纪公司的AWS凭证？	nosec.org	nosec.org	/home/detail/2521.html
+20190422	Web安全	https://xz.aliyun.com/t/4865	Google搜索中的突变XSS	aliyun.com	xz.aliyun.com	/t/4865
+20190422	恶意分析	https://blog.redteam.pl/2019/04/dns-based-threat-hunting-and-doh.html?m=1	DNS based threat hunting and DoH (DNS over HTTPS)	redteam.pl	blog.redteam.pl	/2019/04/dns-based-threat-hunting-and-doh.html
+20190422	论文	https://mp.weixin.qq.com/s/6vLwQ7PMwn0X2zzJlnhjaA	浅谈论文写作	qq.com	mp.weixin.qq.com	/s/6vLwQ7PMwn0X2zzJlnhjaA
+20190422	漏洞分析	https://www.4hou.com/vulnerable/17538.html	利用Foxit Reader的PDF Printer实现提权	4hou.com	www.4hou.com	/vulnerable/17538.html
+20190422	数据挖掘	https://www.infoq.cn/article/NLTXhVkMTSlsGK_dkXgh	写给机器学习从业者的 12 条宝贵建议	infoq.cn	www.infoq.cn	/article/NLTXhVkMTSlsGK_dkXgh
+20190422	论文	https://mp.weixin.qq.com/s/4ue0JlvJNbSTjzUM9NDejA	研究生第一篇学术论文常犯问题总结	qq.com	mp.weixin.qq.com	/s/4ue0JlvJNbSTjzUM9NDejA
+20190422	移动安全	https://www.kiwisec.com/news/detail/5cc14cd4c649181e28b81f8f.html	智能摄像头安全风险分析及对策研究	kiwisec.com	www.kiwisec.com	/news/detail/5cc14cd4c649181e28b81f8f.html
+20190422	漏洞分析	https://www.freebuf.com/vuls/200828.html	给DNS划重点：分析ISC BIND必知必会	freebuf.com	www.freebuf.com	/vuls/200828.html
+20190422	数据挖掘	https://kexue.fm/archives/6549	从DCGAN到SELF-MOD：GAN的模型架构发展一览	kexue.fm	kexue.fm	/archives/6549
+20190422	Web安全	https://www.freebuf.com/articles/web/200350.html	三种对CORS错误配置的利用方法	freebuf.com	www.freebuf.com	/articles/web/200350.html
+20190422	漏洞分析	https://www.anquanke.com/post/id/176980	结合实例浅析壳编写的流程与难点	anquanke.com	www.anquanke.com	/post/id/176980
+20190422	取证分析	https://github.com/chris408/ct-exposer	ct-exposer: discovers sub-domains by searching Certificate Transparency logs	github.com	github.com	/chris408/ct-exposer
+20190422	其它	https://www.infoq.cn/article/psah2GOSvCxK1gP1h-93	提升云中业务集成安全性的七个步骤	infoq.cn	www.infoq.cn	/article/psah2GOSvCxK1gP1h-93
+20190422	其它	https://nosec.org/home/detail/2523.html	一步步绕过Windows域中的防火墙获取支付卡敏感数据	nosec.org	nosec.org	/home/detail/2523.html
+20190422	视频	https://v.qq.com/x/page/y08637p8dqu.html?from=timeline	从算法到工程，解读阿里巴巴大规模图表征学习框架Euler	qq.com	v.qq.com	/x/page/y08637p8dqu.html
+20190422	取证分析	https://medium.com/@a.alwashli/how-to-start-learning-digital-forensics-8038bcc9af6a	How to start learning Digital Forensics	medium.com	medium.com	/@a.alwashli/how-to-start-learning-digital-forensics-8038bcc9af6a
+20190422	恶意分析	https://www.cybereason.com/blog/threat-actor-ta505-targets-financial-enterprises-using-lolbins-and-a-new-backdoor-malware	threat-actor-ta505-targets-financial-enterprises	cybereason.com	www.cybereason.com	/blog/threat-actor-ta505-targets-financial-enterprises-using-lolbins-and-a-new-backdoor-malware
+20190422	恶意分析	https://securelist.com/operation-shadowhammer-a-high-profile-supply-chain-attack/90380/	Operation ShadowHammer: a high-profile supply chain attack	securelist.com	securelist.com	/operation-shadowhammer-a-high-profile-supply-chain-attack/90380/
+20190422	移动安全	https://mp.weixin.qq.com/s/DsmgR6BT5UOg9IBa4_-jhg	移动应用安全基础篇——绕过iOS越狱检测	qq.com	mp.weixin.qq.com	/s/DsmgR6BT5UOg9IBa4_-jhg
+20190422	恶意分析	https://www.fireeye.com/blog/threat-research/2019/04/carbanak-week-part-three-behind-the-backdoor.html	carbanak-week-part-three-behind-the-backdoor	fireeye.com	www.fireeye.com	/blog/threat-research/2019/04/carbanak-week-part-three-behind-the-backdoor.html
+20190422	视频	https://www.usenix.org/conference/enigma2019/presentation/dumitras	How to Predict Which Vulnerabilities Will Be Exploited	usenix.org	www.usenix.org	/conference/enigma2019/presentation/dumitras
+20190422	数据挖掘	https://mp.weixin.qq.com/s/YIwLaXNqjvW7fky5nJmiDw	CyberTwitter: Using Twitter to generate alerts for Cybersecurity Threats and Vul	qq.com	mp.weixin.qq.com	/s/YIwLaXNqjvW7fky5nJmiDw
+20190422	数据挖掘	https://zhuanlan.zhihu.com/p/62525083	风控对抗中的常规特征及处置选择	zhihu.com	zhuanlan.zhihu.com	/p/62525083
+20190422	恶意分析	https://www.stratosphereips.org/blog/2019/4/12/analysis-of-a-irc-based-botnet	Analysis of an IRC based Botnet	stratosphereips.org	www.stratosphereips.org	/blog/2019/4/12/analysis-of-a-irc-based-botnet
+20190422	取证分析	https://lcx.cc/post/4595/	IP 定位 逆向追踪溯源访客真实身份调查取证	lcx.cc	lcx.cc	/post/4595/
+20190422	Web安全	https://www.freebuf.com/sectool/200890.html	Dirmap：一款高级Web目录文件扫描工具	freebuf.com	www.freebuf.com	/sectool/200890.html
+20190422	Web安全	https://bloodzer0.github.io/ossa/other-security-branch/devsecops/gjs/	Gitlab+Jenkins+SonarQube 实现代码审计指南	github.io	bloodzer0.github.io	/ossa/other-security-branch/devsecops/gjs/
+20190422	Web安全	https://github.com/Lucifer1993/cmsprint	cmsprint: CMS和中间件指纹库	github.com	github.com	/Lucifer1993/cmsprint
+20190422	运维安全	https://mp.weixin.qq.com/s/kWK9PL_C2IW_T9i_A1Mlsw	中通同安漏洞管理系统	qq.com	mp.weixin.qq.com	/s/kWK9PL_C2IW_T9i_A1Mlsw
+20190422	工具	https://nosec.org/home/detail/2527.html	用普通权限的域帐户获得域环境中所有DNS解析记录	nosec.org	nosec.org	/home/detail/2527.html
+20190422	Web安全	https://www.03sec.com/3239.shtml	浅谈RASP技术攻防之实战[代码实现篇]	03sec.com	www.03sec.com	/3239.shtml
+20190422	编程技术	https://github.com/locoz666/spider-article	手把手教你写爬虫	github.com	github.com	/locoz666/spider-article
+20190422	Web安全	https://www.03sec.com/3238.shtml	浅谈RASP技术攻防之实战[环境配置篇]	03sec.com	www.03sec.com	/3238.shtml
+20190422	数据挖掘	https://mp.weixin.qq.com/s/f5n9HC6jIfWcTWNxqmyvQw	基于PaddlePaddle的业界首个开源视频识别工具集	qq.com	mp.weixin.qq.com	/s/f5n9HC6jIfWcTWNxqmyvQw
+20190422	恶意分析	http://momomoxiaoxi.com/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/2019/04/24/datacondns1/	Datacon DNS攻击流量识别 内测笔记	momomoxiaoxi.com	momomoxiaoxi.com	/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/2019/04/24/datacondns1/
+20190422	比赛	https://www.freebuf.com/articles/network/201222.html	聊聊AWD攻防赛流程及准备经验	freebuf.com	www.freebuf.com	/articles/network/201222.html
+20190422	数据挖掘	https://mp.weixin.qq.com/s/PVzVNI7jMzHPcUbL7UaCIQ	什么是语义角色标注	qq.com	mp.weixin.qq.com	/s/PVzVNI7jMzHPcUbL7UaCIQ

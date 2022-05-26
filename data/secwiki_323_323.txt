@@ -1,0 +1,35 @@
+20200504	其它	https://mp.weixin.qq.com/s/gBgFyy4MMrF5vn-8NGEVQw	技术人的修炼之道：从业余到专业	qq.com	mp.weixin.qq.com	/s/gBgFyy4MMrF5vn-8NGEVQw
+20200504	漏洞分析	https://mp.weixin.qq.com/s/RCpAUpFEzbSewEnWpHrsqw	协议模糊测试相关技术梳理	qq.com	mp.weixin.qq.com	/s/RCpAUpFEzbSewEnWpHrsqw
+20200504	工具	https://paper.seebug.org/1186/	从 SQL 到 RCE 利用 SessionState 反序列化攻击 ASP.NET 网站应用程式	seebug.org	paper.seebug.org	/1186/
+20200504	杂志	https://www.sec-wiki.com/weekly/322	SecWiki周刊（第322期)	sec-wiki.com	www.sec-wiki.com	/weekly/322
+20200504	Web安全	https://mp.weixin.qq.com/s/XvMruURNVWBkEwxvnPSW1g	已知邮箱，求手机号码?	qq.com	mp.weixin.qq.com	/s/XvMruURNVWBkEwxvnPSW1g
+20200504	Web安全	https://mp.weixin.qq.com/s/1CR0up_b5a1zw02wZNwJpg	De1CTF2020-WriteUp上(Web、Misc、Pwn)	qq.com	mp.weixin.qq.com	/s/1CR0up_b5a1zw02wZNwJpg
+20200504	Web安全	https://mp.weixin.qq.com/s/ih2X8IXVFmrMVwJYuf5gng	数字中国创新大赛-虎符网络安全赛道Write up	qq.com	mp.weixin.qq.com	/s/ih2X8IXVFmrMVwJYuf5gng
+20200504	恶意分析	https://blog.silentsignal.eu/2020/05/04/decrypting-and-analyzing-https-traffic-without-mitm/	Decrypting and analyzing HTTPS traffic without MITM	silentsignal.eu	blog.silentsignal.eu	/2020/05/04/decrypting-and-analyzing-https-traffic-without-mitm/
+20200504	工具	https://paper.seebug.org/1171/	Java 反序列化系列 ysoserial Groovy 1	seebug.org	paper.seebug.org	/1171/
+20200504	Web安全	https://opnsec.com/2020/05/dom-xss-in-gmail-with-a-little-help-from-chrome/	DOM XSS in Gmail with a little help from Chrome	opnsec.com	opnsec.com	/2020/05/dom-xss-in-gmail-with-a-little-help-from-chrome/
+20200504	Web安全	https://research.nccgroup.com/2020/05/06/tool-release-socks-over-rdp/	Socks Over RDP	nccgroup.com	research.nccgroup.com	/2020/05/06/tool-release-socks-over-rdp/
+20200504	漏洞分析	https://fullpwnops.com/windows-exploitation-pathway.html	Windows exploitation	fullpwnops.com	fullpwnops.com	/windows-exploitation-pathway.html
+20200504	运维安全	https://mp.weixin.qq.com/s/OjHgQGrJWfueu4AfxES9Hg	用SASE加速零信任网络交付	qq.com	mp.weixin.qq.com	/s/OjHgQGrJWfueu4AfxES9Hg
+20200504	设备安全	https://mp.weixin.qq.com/s/y8FNDtuJIIiYmZDLTxuL_g	物联网场景下的白盒加密技术	qq.com	mp.weixin.qq.com	/s/y8FNDtuJIIiYmZDLTxuL_g
+20200504	观点	https://mp.weixin.qq.com/s/86cS8yIgbVcKStZWq84M7Q	我的安全漏洞观	qq.com	mp.weixin.qq.com	/s/86cS8yIgbVcKStZWq84M7Q
+20200504	恶意分析	https://objective-see.com/blog/blog_0x57.html	The Dacls RAT now on macOS!	objective-see.com	objective-see.com	/blog/blog_0x57.html
+20200504	Web安全	https://mp.weixin.qq.com/s/-7V14Rpu2KU5HUsa0p025g	Tide-Mars：资产管理与威胁监测平台开源版本	qq.com	mp.weixin.qq.com	/s/-7V14Rpu2KU5HUsa0p025g
+20200504	数据挖掘	https://mp.weixin.qq.com/s/uzGQxgfaUufsDSvcYIIYig	Understanding E-commerce Fraud from Autonomous Chat	qq.com	mp.weixin.qq.com	/s/uzGQxgfaUufsDSvcYIIYig
+20200504	Web安全	https://mp.weixin.qq.com/s/Nqy0Agq_h9yZhvqKdZBZgw	子域名托管案例	qq.com	mp.weixin.qq.com	/s/Nqy0Agq_h9yZhvqKdZBZgw
+20200504	Web安全	https://www.anquanke.com/post/id/204347	内网渗透：流量转发场景测试	anquanke.com	www.anquanke.com	/post/id/204347
+20200504	恶意分析	https://paper.seebug.org/1170/	Schnelder - NetBotz Firmware 固件分析	seebug.org	paper.seebug.org	/1170/
+20200504	漏洞分析	https://research.checkpoint.com/2020/bugs-on-the-windshield-fuzzing-the-windows-kernel/	Bugs on the Windshield: Fuzzing the Windows Kernel	checkpoint.com	research.checkpoint.com	/2020/bugs-on-the-windshield-fuzzing-the-windows-kernel/
+20200504	漏洞分析	https://www.anquanke.com/post/id/204404	WEBPWN入门级调试讲解	anquanke.com	www.anquanke.com	/post/id/204404
+20200504	Web安全	https://xz.aliyun.com/t/7698	linux后渗透之收集登录凭证	aliyun.com	xz.aliyun.com	/t/7698
+20200504	Web安全	https://xz.aliyun.com/t/7696	对缓存投毒的学习总结	aliyun.com	xz.aliyun.com	/t/7696
+20200504	恶意分析	https://mp.weixin.qq.com/s/KKkxUb_rUEi7Pxj0Qj5Odw	De1CTF2020-WriteUp下(Crypto、Reverse)	qq.com	mp.weixin.qq.com	/s/KKkxUb_rUEi7Pxj0Qj5Odw
+20200504	无线安全	https://www.anquanke.com/post/id/204316	GPS欺骗实验	anquanke.com	www.anquanke.com	/post/id/204316
+20200504	移动安全	https://www.securityweek.com/androids-may-2020-patches-fix-critical-system-vulnerability	Androids May 2020 Patches Fix Critical System Vulnerability	securityweek.com	www.securityweek.com	/androids-may-2020-patches-fix-critical-system-vulnerability
+20200504	Web安全	https://mp.weixin.qq.com/s/u5HV7umrZABcgVpZ5pn6WQ	浏览器中隐蔽数据传输通道-DNS隧道	qq.com	mp.weixin.qq.com	/s/u5HV7umrZABcgVpZ5pn6WQ
+20200504	漏洞分析	https://mp.weixin.qq.com/s/bC71HoEtDAKKbHJvStu9qA	JAVA RMI反序列化知识详解	qq.com	mp.weixin.qq.com	/s/bC71HoEtDAKKbHJvStu9qA
+20200504	恶意分析	https://blog.f-secure.com/podcast-dukes-apt29/	Deconstructing the Dukes: A Researchers Retrospective of APT29	f-secure.com	blog.f-secure.com	/podcast-dukes-apt29/
+20200504	漏洞分析	https://paper.seebug.org/1192/	Fastjson 反序列化漏洞史	seebug.org	paper.seebug.org	/1192/
+20200504	设备安全	https://www.freebuf.com/articles/ics-articles/233680.html	从乌克兰电网事件看工控安全态势	freebuf.com	www.freebuf.com	/articles/ics-articles/233680.html
+20200504	运维安全	https://mp.weixin.qq.com/s/mfNRbDXIg5_1jSKHbceHCA	新一代SIEM与SOAR的技术对比	qq.com	mp.weixin.qq.com	/s/mfNRbDXIg5_1jSKHbceHCA
+20200504	观点	https://mp.weixin.qq.com/s/mj4BVfI-j3yp-xaSZeEW_A	卫星互联网重新定义网络战	qq.com	mp.weixin.qq.com	/s/mj4BVfI-j3yp-xaSZeEW_A

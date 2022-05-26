@@ -1,0 +1,36 @@
+20200217	新闻	https://www.anquanke.com/post/id/198877?from=timeline	RSAC 2020精彩内容前瞻	anquanke.com	www.anquanke.com	/post/id/198877
+20200217	工具	https://www.bacde.me/post/Acunetix-Web-Vulnerability-Scanner-13-cracked/	AWVS 13 破解版下载地址	bacde.me	www.bacde.me	/post/Acunetix-Web-Vulnerability-Scanner-13-cracked/
+20200217	Web安全	https://mp.weixin.qq.com/s/A10bkRBTb4RqzgNjc8VtnA	RocketMQ的漏洞从发现到自动化利用的实践过程	qq.com	mp.weixin.qq.com	/s/A10bkRBTb4RqzgNjc8VtnA
+20200217	Web安全	https://mp.weixin.qq.com/s/QgVWZfa3FQkZk1GqQncGmQ	如何在Google Web Toolkit环境下Getshell	qq.com	mp.weixin.qq.com	/s/QgVWZfa3FQkZk1GqQncGmQ
+20200217	论文	https://mp.weixin.qq.com/s/wI6amI2-Urj7HJSw6sMoJQ	CrystalNet：超逼真地仿真大型生产网络	qq.com	mp.weixin.qq.com	/s/wI6amI2-Urj7HJSw6sMoJQ
+20200217	杂志	https://www.sec-wiki.com/weekly/311	SecWiki周刊（第311期)	sec-wiki.com	www.sec-wiki.com	/weekly/311
+20200217	Web安全	https://github.com/klionsec/RedTeamer	RedTeamer: 红方人员作战执行手册	github.com	github.com	/klionsec/RedTeamer
+20200217	Web安全	https://mp.weixin.qq.com/s/dS8f3hqZIUtoUTaI-YZZUQ	CrystalNet（ONE）网络仿真技术实现解读	qq.com	mp.weixin.qq.com	/s/dS8f3hqZIUtoUTaI-YZZUQ
+20200217	Web安全	https://blog.csdn.net/sun1318578251/article/details/104433346	CNVD-2020-10487(CVE-2020-1938)tomcat ajp 文件读取漏洞	csdn.net	blog.csdn.net	/sun1318578251/article/details/104433346
+20200217	恶意分析	https://mp.weixin.qq.com/s/YJtfQTvowVr2azqBWGla1Q	WebShell免杀之JSP	qq.com	mp.weixin.qq.com	/s/YJtfQTvowVr2azqBWGla1Q
+20200217	Web安全	https://mp.weixin.qq.com/s/B5cam9QN8eDHFuaFjBD34Q	红队实战攻防技术分享：Linux后门总结-各类隐藏技能	qq.com	mp.weixin.qq.com	/s/B5cam9QN8eDHFuaFjBD34Q
+20200217	设备安全	https://mp.weixin.qq.com/s/dQ0CiKiiKWFNUbbN2ZSabA	如何查看域用户登录的计算机	qq.com	mp.weixin.qq.com	/s/dQ0CiKiiKWFNUbbN2ZSabA
+20200217	恶意分析	https://www.stratosphereips.org/blog/2020/2/14/iot-23-in-depth-ctu-iot-malware-capture-3-1	IoT-23 In Depth: CTU-IoT-Malware-Capture-3-1	stratosphereips.org	www.stratosphereips.org	/blog/2020/2/14/iot-23-in-depth-ctu-iot-malware-capture-3-1
+20200217	工具	https://github.com/QAX-A-Team/PandaSniper?from=timeline	PandaSniper: Linux C2 框架demo	github.com	github.com	/QAX-A-Team/PandaSniper
+20200217	设备安全	https://mp.weixin.qq.com/s/Qjvirq2sVO9nPBauBRGS4Q	固件攻击研究综述	qq.com	mp.weixin.qq.com	/s/Qjvirq2sVO9nPBauBRGS4Q
+20200217	Web安全	http://rui0.cn/archives/1338	Java“后反序列化漏洞”利用思路	rui0.cn	rui0.cn	/archives/1338
+20200217	Web安全	https://www.mdsec.co.uk/2020/02/iis-raid-backdooring-iis-using-native-modules/	Backdooring IIS Using Native Modules	mdsec.co.uk	www.mdsec.co.uk	/2020/02/iis-raid-backdooring-iis-using-native-modules/
+20200217	Web安全	https://mp.weixin.qq.com/s/8PG_4LgSg34WOu_pHkpFgw	Mysql报错注入之函数分析	qq.com	mp.weixin.qq.com	/s/8PG_4LgSg34WOu_pHkpFgw
+20200217	恶意分析	https://ti.qianxin.com/uploads/2020/02/13/cb78386a082f465f259b37dae5df4884.pdf	全球高级持续性威胁（APT）2019年报告	qianxin.com	ti.qianxin.com	/uploads/2020/02/13/cb78386a082f465f259b37dae5df4884.pdf
+20200217	Web安全	https://forum.90sec.com/t/topic/796	改造冰蝎对抗waf&OpenRASP计划-初探	90sec.com	forum.90sec.com	/t/topic/796
+20200217	Web安全	https://mp.weixin.qq.com/s/dKAPxZOqG5jF9dbA8K5d4w	安全响应	qq.com	mp.weixin.qq.com	/s/dKAPxZOqG5jF9dbA8K5d4w
+20200217	Web安全	https://www.leavesongs.com/PENETRATION/linux-suid-privilege-escalation.html	谈一谈Linux与suid提权	leavesongs.com	www.leavesongs.com	/PENETRATION/linux-suid-privilege-escalation.html
+20200217	漏洞分析	https://github.com/threedr3am/learnjavabug	Java安全相关的漏洞和技术demo	github.com	github.com	/threedr3am/learnjavabug
+20200217	数据挖掘	https://huangzhike.github.io/2019/01/15/%E7%AC%94%E8%AE%B0-%E5%BE%AE%E4%BF%A1%E5%8D%8F%E8%AE%AE/	微信协议	github.io	huangzhike.github.io	/2019/01/15/%E7%AC%94%E8%AE%B0-%E5%BE%AE%E4%BF%A1%E5%8D%8F%E8%AE%AE/
+20200217	Web安全	https://www.anquanke.com/post/id/198540	红队行动常用载荷新手入门	anquanke.com	www.anquanke.com	/post/id/198540
+20200217	移动安全	https://github.com/TheKingOfDuck/ApkAnalyser	ApkAnalyser: 一键提取安卓应用中可能存在的敏感信息	github.com	github.com	/TheKingOfDuck/ApkAnalyser
+20200217	漏洞分析	https://github.com/HyperSine/forensic-qqtoken	QQ安全中心 - 动态口令的生成算法	github.com	github.com	/HyperSine/forensic-qqtoken
+20200217	Web安全	https://xz.aliyun.com/t/7234	钓鱼配合smb重放攻击	aliyun.com	xz.aliyun.com	/t/7234
+20200217	漏洞分析	https://xz.aliyun.com/t/7224	zeratool：基于 angr 的CTF pwn 自动化利用工具介绍	aliyun.com	xz.aliyun.com	/t/7224
+20200217	观点	https://mp.weixin.qq.com/s/z0xsJGSMWbQy60_QmArmQA	谈谈2020年RSA创新沙盒10强及其对中国创业者的价值	qq.com	mp.weixin.qq.com	/s/z0xsJGSMWbQy60_QmArmQA
+20200217	漏洞分析	https://b1ngz.github.io/exploit-spring-boot-actuator-spring-cloud-env-note/	Exploit Spring Boot Actuator 之 Spring Cloud Env 学习笔记	github.io	b1ngz.github.io	/exploit-spring-boot-actuator-spring-cloud-env-note/
+20200217	数据挖掘	https://github.com/linhaow/TextClassify	TextClassify: 基于预训练模型的文本分类模板	github.com	github.com	/linhaow/TextClassify
+20200217	取证分析	https://www.anquanke.com/post/id/197661	轻量级隐写分析模型	anquanke.com	www.anquanke.com	/post/id/197661
+20200217	漏洞分析	https://xz.aliyun.com/t/7237	本人在2019年对一些NodeJS问题的研究	aliyun.com	xz.aliyun.com	/t/7237
+20200217	观点	https://mp.weixin.qq.com/s/ExGnLLzd1wBDksGFfimULw	创新沙盒，罕见领域分布的背后 - RSAC 2020 (1)	qq.com	mp.weixin.qq.com	/s/ExGnLLzd1wBDksGFfimULw
+20200217	编程技术	https://github.com/insightglacier/go_meterpreter	Golang实现的x86下的Meterpreter reverse tcp	github.com	github.com	/insightglacier/go_meterpreter

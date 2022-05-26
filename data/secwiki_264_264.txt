@@ -1,0 +1,86 @@
+20190318	人物	https://mp.weixin.qq.com/s/xiZvVANcJF4qeG8Tce5iGw	宋克亚 ：商业银行渗透测试体系建设思考	qq.com	mp.weixin.qq.com	/s/xiZvVANcJF4qeG8Tce5iGw
+20190318	取证分析	https://mp.weixin.qq.com/s/DoHc7G0yyW6iyORR0zxBBg	从一份起诉书看美国开源情报的实战应用	qq.com	mp.weixin.qq.com	/s/DoHc7G0yyW6iyORR0zxBBg
+20190318	新闻	https://mp.weixin.qq.com/s/vCZQNrbEo-sFBTQoBF8x1g	2018年度网安上市公司最新数据	qq.com	mp.weixin.qq.com	/s/vCZQNrbEo-sFBTQoBF8x1g
+20190318	新闻	https://mp.weixin.qq.com/s/FHPhXYTeDlkAZ42N7-XVaQ	美公布2020财年预算 国防部96亿美元资助网络活动	qq.com	mp.weixin.qq.com	/s/FHPhXYTeDlkAZ42N7-XVaQ
+20190318	漏洞分析	https://nosec.org/home/detail/2363.html	自动监控目标子域，助你快速挖洞——Sublert	nosec.org	nosec.org	/home/detail/2363.html
+20190318	其它	https://www.lshack.cn/656/	OSCP备考指南	lshack.cn	www.lshack.cn	/656/
+20190318	取证分析	https://mp.weixin.qq.com/s/ehO5UWBlGuLmFCSPef_oyw	国际上跟暗网业务相关的厂商	qq.com	mp.weixin.qq.com	/s/ehO5UWBlGuLmFCSPef_oyw
+20190318	Web安全	https://omespino.com/write-up-1000-usd-in-5-minutes-xss-stored-in-outlook-com-ios-browsers/	OUTLOOK.COM 存储型XSS漏洞挖掘	omespino.com	omespino.com	/write-up-1000-usd-in-5-minutes-xss-stored-in-outlook-com-ios-browsers/
+20190318	运维安全	https://github.com/TheKingOfDuck/MySQLMonitor	MySQLMonitor: MySQL实时监控工具（黑盒测试辅助工具）	github.com	github.com	/TheKingOfDuck/MySQLMonitor
+20190318	数据挖掘	https://mp.weixin.qq.com/s/kv-ZrOF4nnxXoQwFOodzjA	异常检测的N种方法	qq.com	mp.weixin.qq.com	/s/kv-ZrOF4nnxXoQwFOodzjA
+20190318	编程技术	https://blog.forecho.com/use-efk.html	使用 Docker 搭建 EFK	forecho.com	blog.forecho.com	/use-efk.html
+20190318	漏洞分析	http://blog.topsec.com.cn/archives/3759	WordPress-5.1.1-CSRF-To-RCE安全事件详析	topsec.com.cn	blog.topsec.com.cn	/archives/3759
+20190318	取证分析	https://www.aqniu.com/tools-tech/45207.html	一篇报告了解国内首个针对加密流量的检测引擎	aqniu.com	www.aqniu.com	/tools-tech/45207.html
+20190318	取证分析	http://phantom0301.cc/2019/03/13/snare-and-tanner/	Snare 与 Tanner——下一代高级 Web 蜜罐把玩	phantom0301.cc	phantom0301.cc	/2019/03/13/snare-and-tanner/
+20190318	编程技术	https://github.com/zMarch/Orc	Orc - Bash 开发的 Linux 后渗透测试框架	github.com	github.com	/zMarch/Orc
+20190318	漏洞分析	https://xlab.tencent.com/cn/2019/03/18/ghidra-from-xxe-to-rce/	Ghidra 从 XXE 到 RCE	tencent.com	xlab.tencent.com	/cn/2019/03/18/ghidra-from-xxe-to-rce/
+20190318	恶意分析	https://zhuanlan.zhihu.com/p/60080122	ICS安全工具系列3.1：多功能安全工具	zhihu.com	zhuanlan.zhihu.com	/p/60080122
+20190318	设备安全	https://www.4hou.com/other/16826.html	委内瑞拉大规模停电事件的初步分析与思考启示	4hou.com	www.4hou.com	/other/16826.html
+20190318	运维安全	https://mp.weixin.qq.com/s/TGswXl9cuwlRmaVsZs46hA	堡垒机：爱奇艺海量服务器安全运维平台的建设	qq.com	mp.weixin.qq.com	/s/TGswXl9cuwlRmaVsZs46hA
+20190318	恶意分析	https://zhuanlan.zhihu.com/p/60091755	ICS安全工具系列3.3：网络流量检测工具	zhihu.com	zhuanlan.zhihu.com	/p/60091755
+20190318	恶意分析	https://blog.360totalsecurity.com/en/new-mining-worm-psminer-uses-multiple-high-risk-vulnerabilities-to-spread/	新的采矿蠕虫PsMiner使用多个高风险漏洞进行传播	360totalsecurity.com	blog.360totalsecurity.com	/en/new-mining-worm-psminer-uses-multiple-high-risk-vulnerabilities-to-spread/
+20190318	文档	https://www.sec-wiki.com/weekly/263	SecWiki周刊（第263期)	sec-wiki.com	www.sec-wiki.com	/weekly/263
+20190318	数据挖掘	https://www.03sec.com/3237.shtml	浅谈RASP技术攻防之基础篇	03sec.com	www.03sec.com	/3237.shtml
+20190318	移动安全	https://www.slideshare.net/abrahamaranguren/pwning-mobile-apps-without-root-or-jailbreak-136622746	在没有 root 或越狱的情况下绕过通用保护机制	slideshare.net	www.slideshare.net	/abrahamaranguren/pwning-mobile-apps-without-root-or-jailbreak-136622746
+20190318	Web安全	https://xz.aliyun.com/t/4470	跨域方式及其产生的安全问题	aliyun.com	xz.aliyun.com	/t/4470
+20190318	运维安全	https://www.freebuf.com/articles/es/197825.html	小师妹聊安全标准	freebuf.com	www.freebuf.com	/articles/es/197825.html
+20190318	漏洞分析	https://xz.aliyun.com/t/4426	浅析MS Excel武器化	aliyun.com	xz.aliyun.com	/t/4426
+20190318	运维安全	https://elasticsearch.cn/slides/181	Elasticsearch 安全防护	elasticsearch.cn	elasticsearch.cn	/slides/181
+20190318	漏洞分析	https://blog.pentesterlab.com/cve-2019-5420-and-defence-in-depth-b502a64a80dd	CVE-2019–5420 and defence-in-depth	pentesterlab.com	blog.pentesterlab.com	/cve-2019-5420-and-defence-in-depth-b502a64a80dd
+20190318	Web安全	http://blog.topsec.com.cn/archives/3789	探究PHP中的Mkdir函数	topsec.com.cn	blog.topsec.com.cn	/archives/3789
+20190318	Web安全	https://xz.aliyun.com/t/4374	.NET高级代码审计（第一课）XmlSerializer反序列漏洞	aliyun.com	xz.aliyun.com	/t/4374
+20190318	恶意分析	https://zhuanlan.zhihu.com/p/60080388	ICS安全工具系列3.2：攻击指标（IOC）检测工具	zhihu.com	zhuanlan.zhihu.com	/p/60080388
+20190318	编程技术	https://mp.weixin.qq.com/s/UV6NoI6-Y3Zh4BR-m5jP8w	Elasticsearch 百亿级实时查询优化实战	qq.com	mp.weixin.qq.com	/s/UV6NoI6-Y3Zh4BR-m5jP8w
+20190318	恶意分析	https://blog.dcso.de/pegasus-buhtrap-analysis-of-the-malware-stage-based-on-the-leaked-source-code/	分析攻击俄罗斯及乌克兰金融机构的恶意软件 BUHTRAP 泄漏的源码	dcso.de	blog.dcso.de	/pegasus-buhtrap-analysis-of-the-malware-stage-based-on-the-leaked-source-code/
+20190318	恶意分析	https://mp.weixin.qq.com/s/S0D3GPmhOKu65KAPpL_i_g	国际黑产组织针对部分东亚国家金融从业者攻击活动的报告	qq.com	mp.weixin.qq.com	/s/S0D3GPmhOKu65KAPpL_i_g
+20190318	Web安全	https://blog.nintechnet.com/critical-0day-vulnerability-fixed-in-wordpress-easy-wp-smtp-plugin/	Critical zero-day vulnerability fixed in WordPress Easy WP SMTP plugin.	nintechnet.com	blog.nintechnet.com	/critical-0day-vulnerability-fixed-in-wordpress-easy-wp-smtp-plugin/
+20190318	Web安全	https://pentest-tools.com/blog/exploiting-ognl-injection-in-apache-struts/	Exploiting OGNL Injection in Apache Struts	pentest-tools.com	pentest-tools.com	/blog/exploiting-ognl-injection-in-apache-struts/
+20190318	恶意分析	https://nosec.org/home/detail/2373.html	绕过Windows Defender的“繁琐”方法	nosec.org	nosec.org	/home/detail/2373.html
+20190318	Web安全	https://nosec.org/home/detail/2349.html	Markdown协作平台HackMD的蠕虫型XSS	nosec.org	nosec.org	/home/detail/2349.html
+20190318	论文	https://mp.weixin.qq.com/s/TkFFORXP3H7IubOfyTrRDQ	安全学术研究者群体分析	qq.com	mp.weixin.qq.com	/s/TkFFORXP3H7IubOfyTrRDQ
+20190318	Web安全	https://www.anquanke.com/post/id/173652	.NET高级代码审计（第四课） JavaScriptSerializer反序列化漏洞	anquanke.com	www.anquanke.com	/post/id/173652
+20190318	Web安全	https://nosec.org/home/detail/2354.html	实例讲解Apache Struts框架OGNL注入漏洞	nosec.org	nosec.org	/home/detail/2354.html
+20190318	文档	http://www.etiri.com.cn/etiri-edit/kindeditor/attached/file/20190318/20190318130339_26274.pdf	2018年度工业信息安全形势分析	etiri.com.cn	www.etiri.com.cn	/etiri-edit/kindeditor/attached/file/20190318/20190318130339_26274.pdf
+20190318	设备安全	https://zznop.github.io/romhacking/2019/03/14/sega-genesis-rom-hacking-with-ghidra.html	sega genesis rom hacking with ghidra	github.io	zznop.github.io	/romhacking/2019/03/14/sega-genesis-rom-hacking-with-ghidra.html
+20190318	恶意分析	https://www.freebuf.com/sectool/198174.html	IoT-Implant-Toolkit：一款针对IoT设备的木马测试工具	freebuf.com	www.freebuf.com	/sectool/198174.html
+20190318	Web安全	https://nosec.org/home/detail/2375.html	PHP7和PHP5在安全上的区别	nosec.org	nosec.org	/home/detail/2375.html
+20190318	恶意分析	http://zeroyu.xyz/2019/03/20/Spotless-Sandboxes/	Spotless Sandboxes: Evading Malware Analysis Systems using Wear-and-Tear Artifac	zeroyu.xyz	zeroyu.xyz	/2019/03/20/Spotless-Sandboxes/
+20190318	漏洞分析	https://lgtm.com/blog/facebook_fizz_CVE-2019-3560	Denial of service in Facebook Fizz due to integer overflow (CVE-2019-3560)	lgtm.com	lgtm.com	/blog/facebook_fizz_CVE-2019-3560
+20190318	Web安全	https://www.anquanke.com/post/id/173151	.NET高级代码审计（第三课）Fastjson反序列化漏洞	anquanke.com	www.anquanke.com	/post/id/173151
+20190318	恶意分析	http://0cx.cc/Drivers_Trojan_analysis.jspx	驱动人生某样本分析	0cx.cc	0cx.cc	/Drivers_Trojan_analysis.jspx
+20190318	移动安全	https://www.kiwisec.com/news/detail/5c90c33cc649181e28b81ef6.html	智能门锁移动互联网安全风险及加固策略研析	kiwisec.com	www.kiwisec.com	/news/detail/5c90c33cc649181e28b81ef6.html
+20190318	工具	https://github.com/needmorecowbell/Hamburglar	Hamburglar: collect useful information from urls, directories, and files	github.com	github.com	/needmorecowbell/Hamburglar
+20190318	漏洞分析	https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/analysis-of-a-chrome-zero-day-cve-2019-5786/	Analysis of a Chrome Zero Day: CVE-2019-5786	mcafee.com	securingtomorrow.mcafee.com	/other-blogs/mcafee-labs/analysis-of-a-chrome-zero-day-cve-2019-5786/
+20190318	漏洞分析	https://www.honoki.net/2019/03/rce-in-slanger-0-6-0/	RCE in Slanger, a Ruby implementation of Pusher	honoki.net	www.honoki.net	/2019/03/rce-in-slanger-0-6-0/
+20190318	编程技术	https://medium.com/@0x0FFB347/writing-a-custom-shellcode-encoder-31816e767611	Writing a Custom Shellcode Encoder	medium.com	medium.com	/@0x0FFB347/writing-a-custom-shellcode-encoder-31816e767611
+20190318	漏洞分析	https://xz.aliyun.com/t/4456	CVE-2014-4113内核漏洞分析	aliyun.com	xz.aliyun.com	/t/4456
+20190318	其它	https://nosec.org/home/detail/2221.html	深入分析Drupal geddon 2 POP攻击链	nosec.org	nosec.org	/home/detail/2221.html
+20190318	恶意分析	https://blog.checkpoint.com/2019/03/19/check-point-forensic-files-monero-cryptominer-campaign-cryptojacking-crypto-apt-hacking/	Check Point Forensic Files: A New Monero CryptoMiner Campaign	checkpoint.com	blog.checkpoint.com	/2019/03/19/check-point-forensic-files-monero-cryptominer-campaign-cryptojacking-crypto-apt-hacking/
+20190318	数据挖掘	https://mp.weixin.qq.com/s/z6Gfdp6ly0WdKjbrvhCACw	基于对抗生成式模仿学习的实体和事件的联合抽取	qq.com	mp.weixin.qq.com	/s/z6Gfdp6ly0WdKjbrvhCACw
+20190318	论文	https://mp.weixin.qq.com/s/z6Al0LT8Kqw_p_onhTyV2w	S&P 2019 （四）1~2月份议题速览	qq.com	mp.weixin.qq.com	/s/z6Al0LT8Kqw_p_onhTyV2w
+20190318	无线安全	https://medium.com/@tomac/sigintos-a-wireless-pentest-distro-review-a7ea93ee8f8b	SigintOS: A Wireless Pentest Distro Review	medium.com	medium.com	/@tomac/sigintos-a-wireless-pentest-distro-review-a7ea93ee8f8b
+20190318	Web安全	https://www.rapid7.com/research/report/exploiting-jsos/	Java Serialization Objects (JSO): An Exploitation Guide	rapid7.com	www.rapid7.com	/research/report/exploiting-jsos/
+20190318	Web安全	https://polict.net/blog/CVE-2018-17057	CVE-2018-17057 yet another phar deserialization in TCPDF	polict.net	polict.net	/blog/CVE-2018-17057
+20190318	论文	https://mp.weixin.qq.com/s/xMoDTEvj91RgXFXfykS9tQ	Efficient and Flexible Discovery of PHP Application Vulnerabilities	qq.com	mp.weixin.qq.com	/s/xMoDTEvj91RgXFXfykS9tQ
+20190318	Web安全	https://blog.assetnote.io/bug-bounty/2019/03/19/rce-on-mozilla-zero-day-webpagetest/	Discovering a zero day and getting code execution on Mozillas AWS Network	assetnote.io	blog.assetnote.io	/bug-bounty/2019/03/19/rce-on-mozilla-zero-day-webpagetest/
+20190318	Web安全	https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2019/march/finding-and-exploiting-.net-remoting-over-http-using-deserialisation/	Finding and Exploiting .NET Remoting over HTTP using Deserialisation	nccgroup.trust	www.nccgroup.trust	/uk/about-us/newsroom-and-events/blogs/2019/march/finding-and-exploiting-.net-remoting-over-http-using-deserialisation/
+20190318	Web安全	https://github.com/jesusprubio/awesome-nodejs-pentest	Awesome Node.js for penetration testers	github.com	github.com	/jesusprubio/awesome-nodejs-pentest
+20190318	漏洞分析	https://enigma0x3.net/2019/03/20/avira-vpn-2-15-2-28160-elevation-of-privilege/	Avira VPN 2.15.2.28160 Elevation of Privilege	enigma0x3.net	enigma0x3.net	/2019/03/20/avira-vpn-2-15-2-28160-elevation-of-privilege/
+20190318	Web安全	https://xz.aliyun.com/t/4464	.NET高级代码审计（第二课） Json.Net反序列化漏洞	aliyun.com	xz.aliyun.com	/t/4464
+20190318	运维安全	https://www.hackingarticles.in/multiple-ways-to-exploiting-osx-using-powershell-empire/	Multiple Ways to Exploiting OSX using PowerShell Empire	hackingarticles.in	www.hackingarticles.in	/multiple-ways-to-exploiting-osx-using-powershell-empire/
+20190318	工具	https://github.com/exodusintel/CVE-2019-5786/	CVE-2019-5786 FileReader Exploit	github.com	github.com	/exodusintel/CVE-2019-5786/
+20190318	运维安全	https://blogs.technet.microsoft.com/srd/2018/08/16/vulnerability-hunting-with-semmle-ql-part-1/	Vulnerability hunting with Semmle QL, part 1	microsoft.com	blogs.technet.microsoft.com	/srd/2018/08/16/vulnerability-hunting-with-semmle-ql-part-1/
+20190318	设备安全	https://zhuanlan.zhihu.com/p/58878866	控制系统设备：架构和供应渠道概述	zhihu.com	zhuanlan.zhihu.com	/p/58878866
+20190318	恶意分析	https://www.lares.com/red-team-telemetry-empire-edition/	Red Team Telemetry: Empire Edition	lares.com	www.lares.com	/red-team-telemetry-empire-edition/
+20190318	恶意分析	https://www.offensive-security.com/vulndev/development-of-a-new-windows-10-kaslr-bypass-in-one-windbg-command/	Development of a new Windows 10 KASLR Bypass (in One WinDBG Command)	offensive-security.com	www.offensive-security.com	/vulndev/development-of-a-new-windows-10-kaslr-bypass-in-one-windbg-command/
+20190318	运维安全	https://blogs.technet.microsoft.com/srd/2019/03/19/vulnerability-hunting-with-semmle-ql-part-2/	Vulnerability hunting with Semmle QL, part 2	microsoft.com	blogs.technet.microsoft.com	/srd/2019/03/19/vulnerability-hunting-with-semmle-ql-part-2/
+20190318	取证分析	https://habr.com/en/post/444048/	How to Detect an Intruder-driven Group Policy Changes	habr.com	habr.com	/en/post/444048/
+20190318	运维安全	https://offsec.provadys.com/intro-to-file-operation-abuse-on-Windows.html	An introduction to privileged file operation abuse on Windows	provadys.com	offsec.provadys.com	/intro-to-file-operation-abuse-on-Windows.html
+20190318	Web安全	https://medium.com/greenwolf-security/reflected-xss-in-solarwinds-database-performance-analyzer-988bd7a5cd5	Reflected XSS in SolarWinds Database Performance Analyzer	medium.com	medium.com	/greenwolf-security/reflected-xss-in-solarwinds-database-performance-analyzer-988bd7a5cd5
+20190318	漏洞分析	https://github.com/RhinoSecurityLabs/CVEs/tree/master/CVE-2018-8024	CVE-2018-8024: Apache Spark XSS vulnerability in UI	github.com	github.com	/RhinoSecurityLabs/CVEs/tree/master/CVE-2018-8024
+20190318	Web安全	https://medium.com/@terjanq/google-books-x-hacking-29c249862f19	Google Books X-Hacking	medium.com	medium.com	/@terjanq/google-books-x-hacking-29c249862f19
+20190318	运维安全	https://github.com/alexfrancow/A-Detector	A-Detector: An anomaly-based intrusion detection system.	github.com	github.com	/alexfrancow/A-Detector
+20190318	工具	https://github.com/JuxhinDB/OOB-Server	OOB-Server: A Bind9 server for pentesters to use for Out-of-Band vulnerabilities	github.com	github.com	/JuxhinDB/OOB-Server
+20190318	工具	https://github.com/CheckPointSW/Karta	Karta - source code assisted fast binary matching plugin for IDA	github.com	github.com	/CheckPointSW/Karta
+20190318	Web安全	https://blog.csdn.net/u011721501/article/details/88637270	Java deserialization RCE in Tomcat cluster	csdn.net	blog.csdn.net	/u011721501/article/details/88637270
+20190318	移动安全	https://www.virusbulletin.com/blog/2019/03/vb2018-paper-and-video-android-app-deobfuscation-using-static-dynamic-cooperation/	Android app deobfuscation using static-dynamic cooperation	virusbulletin.com	www.virusbulletin.com	/blog/2019/03/vb2018-paper-and-video-android-app-deobfuscation-using-static-dynamic-cooperation/
