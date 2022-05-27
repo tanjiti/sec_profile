@@ -16,7 +16,7 @@
 | --- | --- | --- | ---| 
 | 青衣十三楼飞花堂 | gh_9feb5a276a2a | Gmail对附件的限制 | https://mp.weixin.qq.com/s/z30VMqz1dOAmAazOSegvuQ | 1| 
 | 杨小时的杂货铺 | yxszahuopu | HTB-467-Noter | https://mp.weixin.qq.com/s?__biz=MzIzNDc4NzMxOQ==&mid=2247483660&idx=1&sn=2c882883f2e757207d57c1e36b1ed8c1&chksm=e8f05994df87d082d7ce2f944de5b91d6f3bb0f8613f325b824e9a3eaa71c9b2bdfb2f43c8dc#rd | 1| 
-| 安全研究GoSSIP | GoSSIPSJTU | IEEE S&P 2022 云端报道（3） | https://mp.weixin.qq.com/s/B0dNIY1gkLUP_klJheAuQg | 3| 
+| 安全研究GoSSIP | GoSSIPSJTU | IEEE S&P 2022 云端报道（2） | https://mp.weixin.qq.com/s/5GE3s18ZPiYCeIu6ajSedw | 3| 
 | 我的安全视界观 | CANI_Security | 【应急能力提升3】内网横向移动攻击模拟（上） | https://mp.weixin.qq.com/s/gy8fp455ZgE-8aHwBDPl5A | 4| 
 | 国家网络威胁情报共享开放平台 | CNTIC2017 | Cobalt Strike 分析：CS元数据编码和解码 | https://mp.weixin.qq.com/s/lXpYU9VhZd4nw2YjeUK4rQ | 1| 
 | Tide安全团队 | TideSec | 微信小程序反编译 | https://mp.weixin.qq.com/s/OQWU0wSAUhaM6QaaT6-CXA | 1| 
