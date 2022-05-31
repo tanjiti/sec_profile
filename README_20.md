@@ -494,7 +494,7 @@
 | 安全先师 | gh_d61f62dd440d | 蜜罐调研与内网安全 | https://mp.weixin.qq.com/s/-lJT3PNsj-VvMxalHb06AA | 1| 
 | 赛博星人 | cyberspace_666 | 红蓝对抗之内网中psexec的行为捕获 | https://mp.weixin.qq.com/s/G7Gdb_gXNn5FAR78Edps-w | 2| 
 | 深信服千里目安全实验室 | Further_eye | 【Sniper工具箱】ThinkPHP漏洞分析与利用 | https://mp.weixin.qq.com/s/OWi3G4ETrV-yBsnWgdU_Ew | 28| 
-| 微步在线研究响应中心 | gh_c108d4d389bf | 隔离网络攻击 专题研究报告 | https://mp.weixin.qq.com/s/G4pIpHN2BLSvPWVYvN5VAQ | 25| 
+| 微步在线研究响应中心 | gh_c108d4d389bf | 隔离网络攻击 专题研究报告 | https://mp.weixin.qq.com/s/G4pIpHN2BLSvPWVYvN5VAQ | 26| 
 | 代码卫士 | codesafe | PHP 绕过禁用函数漏洞的原理与利用分析 | https://mp.weixin.qq.com/s/_KCqGJnHaCBjCZ0VPo898Q | 62| 
 | Fintech 安全之路 | gh_763c23cd3870 | 银行业安全运营平台的建设与思考 | https://mp.weixin.qq.com/s/UncU7f92p5Mlxt353Galrg | 1| 
 | 技术琐话 | TheoryPractice | 谷歌开源内部代码评审规范 | https://mp.weixin.qq.com/s/8vPXLxzD1iZ8E_emhruSHQ | 1| 
@@ -657,7 +657,7 @@
 | 天地和兴 | bjtdhxkj | 针对ICS的网络攻击20强——谈天说地Part1 | https://mp.weixin.qq.com/s/H9f-z3oLDZ-fMrEax3nMaA | 10| 
 | qz安全情报分析 | lookvul | 浅谈OPSEC和C2 | https://mp.weixin.qq.com/s/FIz4-xk093jGN3TOECAgqQ | 5| 
 | OWASP | OWASP_CHINA | 2019年度OWASP中国项目总结 | https://mp.weixin.qq.com/s/hcdA7R36RsSV40TnIu2fJg | 4| 
-| DJ的札记 | DJ_notes | 下一座圣杯 - 2019 | https://mp.weixin.qq.com/s/6Kli-u6LEInoliTVQgdrFQ | 14| 
+| DJ的札记 | DJ_notes | 下一座圣杯 - 2019 | https://mp.weixin.qq.com/s/6Kli-u6LEInoliTVQgdrFQ | 15| 
 | 腾讯安全智能 | TX_Security_AI | 基于图挖掘的安全事件分析 | https://mp.weixin.qq.com/s/ARfMqrUxiPKmbMcV_yaluw | 3| 
 | 浅黑科技 | qianheikeji | CTF：一部黑客心灵史 | https://mp.weixin.qq.com/s/wEqBaZmO8FwOyGrcWDNgYQ | 13| 
 | 国际安全智库 | guoji-anquanzhiku | “震网”十年谜底终浮水面, 伊朗核计划流产源于内鬼“间谍行动” | https://mp.weixin.qq.com/s/ORW8qWCpgQFJh8-bsaIg3w | 1| 
@@ -760,7 +760,7 @@
 | 继之宫 |  | 威胁剑魔杂谈 | https://mp.weixin.qq.com/s/wpBeoTEC7g-wFX-DA61gmA | 2| 
 | 漏洞战争 | vulwar | 关于漏洞挖掘的一点想法 | https://mp.weixin.qq.com/s/79k5bxGr1ykCpN4lSeiTqw | 15| 
 | 安全牛 | aqniu-wx | 国内四大UEBA解决方案 | https://mp.weixin.qq.com/s/ftcks4wPVNmKMpODvOcfBQ | 100| 
-| 安全学术圈 | secquan | 骗局的艺术：剖析以太坊智能合约中的蜜罐 | https://mp.weixin.qq.com/s/zKv3wKEXRT8CgOnVHOXi0Q | 170| 
+| 安全学术圈 | secquan | 骗局的艺术：剖析以太坊智能合约中的蜜罐 | https://mp.weixin.qq.com/s/zKv3wKEXRT8CgOnVHOXi0Q | 171| 
 | nmask | nmask-article | 当子域名遇上搜索引擎 | https://mp.weixin.qq.com/s/yZFdVXPDh2O_qN_S1DsBPw | 5| 
 | 安全泰式柑汁 | ts_sec | 2019HW行动防守总结 | https://mp.weixin.qq.com/s/q2KdfZ0Wa8rkGT9i6Vjh3g | 1| 
 | 阿里安全响应中心 | alisrc | 从零开始java代码审计系列(一) | https://mp.weixin.qq.com/s/mEVxuFTr8VHCnxm1K7j4jw | 12| 
@@ -783,7 +783,7 @@
 | 仙人掌情报站 | sec-cactus | [搬砖手册]基于Packetbeat探索搭建轻量级网络流量监测系统 | https://mp.weixin.qq.com/s/Tx9nHxvp9ezd0hf1PZcmiQ | 6| 
 | 信安之路 | xazlsec | DataCon 的 DNS 恶意流量检查一题回顾 | https://mp.weixin.qq.com/s/M-J4FhGA5zg1WZCA9-Houg | 244| 
 | 安天 | Antiylab | 安天发布“方程式组织”攻击中东SWIFT服务商事件复盘分析报告 | https://mp.weixin.qq.com/s/3ZQhn32NB6p-LwndB2o2zQ | 20| 
-| 奇安信威胁情报中心 |  | 银钩：针对国内网银用户的钓鱼的攻击活动 | https://mp.weixin.qq.com/s/QINNIBQDY2bvLi795LsOoA | 61| 
+| 奇安信威胁情报中心 |  | 银钩：针对国内网银用户的钓鱼的攻击活动 | https://mp.weixin.qq.com/s/QINNIBQDY2bvLi795LsOoA | 62| 
 | HLB虎狼帮 | hlbhulangbang | ESET分析了Turla APT对武器化PowerShell的使用 | https://mp.weixin.qq.com/s/tNI54MlsN9bFKnm9kL6G-Q | 1| 
 | FreeBuf | freebuf | 基于EVE-NG平台上构建企业内网攻防环境 | https://mp.weixin.qq.com/s/vBYxrmnBoM-Abl_y1v4DtA | 172| 
 | 绿盟科技行业BG第一业务本部 |  | 军工行业工控安全防护思路 | https://mp.weixin.qq.com/s/AVRYyob-bQdRRQ8i15SK3w | 1| 
@@ -2182,7 +2182,7 @@
 | Nummer | Didnt know there was such a project.Destroy Windows 10 Spying - | https://github.com/Nummer/Destroy-Windows-10-Spying | None |  | None | None | 1 | 0 | 0 | 204 | 0 | C# | 3500 | 497 | 1| 
 | thp | urlwatch: A tool for monitoring webpages for updates | https://github.com/thp/urlwatch | https://thp.io/ |  | Austria | None | 29 | 0 | 62 | 203 | 19 | Python,C,C++ | 1200 | 179 | 1| 
 | ohjeongwook | sRDI - 用于反射式 DLL 注入的 Shellcode 构造与加载工具: | https://github.com/ohjeongwook/sRDI | https://darungrim.com | Ex-security engineer@Microsoft | None | DarunGrim | 25 | 0 | 7 | 203 | 12 | Python,C,C++ | 291 | 63 | 2| 
-| gamozolabs | applepie - 一款用于 Fuzz 的虚拟机管理器: | https://github.com/gamozolabs/applepie | None |  | None | None | 25 | 0 | 2 | 203 | 0 | C,Assembly,C++,Rust | 293 | 32 | 3| 
+| gamozolabs | applepie - 一款用于 Fuzz 的虚拟机管理器: | https://github.com/gamozolabs/applepie | None |  | None | None | 25 | 0 | 2 | 203 | 0 | C,Assembly,C++,Rust | 293 | 32 | 4| 
 | Proteas | macOS 10.12.4 的内核及驱动中的类型树,来自 Proteas: | https://github.com/Proteas/macos-class-tree | None | Geek | China | None | 35 | 0 | 194 | 203 | 61 | C,Shell,C++ | 193 | 44 | 3| 
 | zjlywjh001 | PhrackCTF-Platform-Team: 功能最全的CTF平台 | https://github.com/zjlywjh001/PhrackCTF-Platform-Team | https://www.jarviswang.me/ |  | None | None | 52 | 0 | 5 | 202 | 0 | C,JavaScript,Java | 0 | 0 | 2| 
 | rmusser01 | Information Security Reference That Doesnt Suck | https://github.com/rmusser01/Infosec_Reference | http://rmusser.net/docs | Contact Me: email@domain.tld | None | None | 119 | 0 | 1700 | 202 | 30 | Python,Lua,C | 2000 | 496 | 3| 
@@ -4081,7 +4081,7 @@
 | minisllc | Domain Hunter - 域名信誉对于攻击者从事钓鱼和 C&C 很重要,所以攻击者开始尝试注册一些过期的历史信誉良好的域名,用于躲避检测。Domain Hunter 这个工具用于识别这类域名: | https://github.com/minisllc/domainhunter | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | mingyuan-xia | PATDroid (A Program Analysis Toolkit for Android) | https://github.com/mingyuan-xia/PATDroid | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | midisec | BypassAnti-Virus: 免杀技术学习资料. | https://github.com/midisec/BypassAnti-Virus | https://github.com/midisec?tab=followers | love life,love Internet | China | None | 11 | 0 | 14 | 0 | 0 | Python,Go,C,C++,CSS | 0 | 0 | 1| 
-| microsoft | 微软开源了 MSVC 的 C++ 标准库 STL | https://github.com/microsoft/STL | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Jupyter,C#,JavaScript,SQLPL,C++,Python,HTML,Go,PHP,Dockerfile,PowerShell | 83100 | 12000 | 8| 
+| microsoft | 微软开源了 MSVC 的 C++ 标准库 STL | https://github.com/microsoft/STL | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Jupyter,C#,JavaScript,SQLPL,C++,Python,HTML,Go,PHP,Dockerfile,PowerShell | 83100 | 12000 | 9| 
 | micle-fm | Parat - Python 实现的远程控制工具: | https://github.com/micle-fm/Parat | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | michenriksen | Reconnaissance tool for GitHub organizations | https://github.com/michenriksen/gitrob | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | metac0rtex | GitHarvester:harvesting information from GitHub | https://github.com/metac0rtex/GitHarvester | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -4235,6 +4235,7 @@
 | he1m4n6a | easyPass:字典生成和整理工具 | https://github.com/he1m4n6a/easyPass | https://github.com/he1m4n6a?tab=followers | web security, security developer | None | None | 8 | 0 | 317 | 0 | 0 | Python,Go | 0 | 0 | 1| 
 | hduisa | hduisa/HCTF2016: HCTF 2016 CHALLENGES | https://github.com/hduisa/HCTF2016 | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 2| 
 | hayasec | 一键辅助抓取 360 安全浏览器密码的 CobaltStrike 脚本 | https://github.com/hayasec/360SafeBrowsergetpass | http://hayasec.me | Network Security Engineer | None | None | 72 | 0 | 0 | 0 | 0 | Python,C#,Java,C++ | 110 | 13 | 1| 
+| hashishrajan | 公有云漏洞相关的资料整理 | https://github.com/hashishrajan/cloud-security-vulnerabilities | https://github.com/hashishrajan | follow me @hashishrajan | Australia | @CloudSecurityPodcast @PageUpPeopleOrg | 41 | 0 | 126 | 0 | 0 |  | 0 | 0 | 1| 
 | hashcat | hashcat and oclHashcat have gone open source | https://github.com/hashcat/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | hardenedlinux | srcinv: source code audit tool 代码审计工具 | https://github.com/hardenedlinux/srcinv | None | None | None | None | 0 | 0 | 0 | 0 | 0 | HTML,C,Shell,Assembly,Roff,C++,Nix,Zeek,Go | 243 | 56 | 2| 
 | hangtwenty | Dive into Machine Learning with Jupyter and scikit-learn | https://github.com/hangtwenty/dive-into-machine-learning | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -4474,6 +4475,7 @@
 | WooYun | TangScan:唐朝Web漏洞扫描器框架 | https://github.com/WooYun/TangScan | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | Wilfred | Difftastic - 支持语法格式的 Diff 工具 | https://github.com/Wilfred/difftastic | https://github.com/Wilfred?tab=followers | PL enthusiast, Emacs addict, and Hacklang contributor. | Bay Area, USA | None | 393 | 0 | 1700 | 0 | 0 | C,JavaScript,Emacs,Rust | 0 | 0 | 1| 
 | WhitewidowScanner | whitewidow - SQL 漏洞扫描器: | https://github.com/WhitewidowScanner/whitewidow | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Ruby | 0 | 0 | 1| 
+| Weik1 | Artillery: JAVA 插件化漏洞扫描器 | https://github.com/Weik1/Artillery | https://github.com/Weik1?tab=followers | 这个人很懒，什么都没有留下 | None | None | 30 | 0 | 28 | 0 | 0 | Python,JavaScript,PHP,Java,HTML | 0 | 0 | 1| 
 | WebKit | WebKit 引入 JIT-Caging 特性实现细粒度的 PAC 保护机制 | https://github.com/WebKit/webkit/commit/2ffeeff4dfb86a74ae695dea8671fccc423559ad | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Makefile | 0 | 0 | 2| 
 | VVard0g | ThreatHuner-Playbook: 从Windows事件和Sysmon日志分析取证 | https://github.com/VVard0g/ThreatHunter-Playbook | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | UltimateLabs | Zoom - 一个自动化的快速 Wordpress 漏洞扫描器: | https://github.com/UltimateLabs/Zoom | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -4691,6 +4693,7 @@
 | Bashfuscator | Bashfuscator - 完全可配置和可扩展的 Bash 混淆框架: | https://github.com/Bashfuscator/Bashfuscator | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | Bareflank | Bareflank Hypervisor - 一款轻量级的 Hypervisor SDK，用于快速在 64 位机器上快速构建 hypervisor | https://github.com/Bareflank/hypervisor | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,C++ | 0 | 0 | 1| 
 | BC-SECURITY | Starkiller：1.7.0 版本发布。基于 Electron 实现的 Powershell Empire 可视化工具。 | https://github.com/BC-SECURITY/Starkiller/releases | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C#,C,Vue,PowerShell | 0 | 0 | 2| 
+| Azure | Stormspotter - 用图方式直观展示 Azure Active Directory 对象的工具 | https://github.com/Azure/Stormspotter | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Jupyter,C#,Python,Go,PowerShell | 0 | 0 | 1| 
 | Astonex | Antox:Android client for Project Tox | https://github.com/Astonex/Antox | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | AngoraFuzzer | Angora - 基于突变的 Fuzz 工具,主要目标是在无符号执行的情况下通过解决路径约束增加分支覆盖率: | https://github.com/AngoraFuzzer/Angora | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,JavaScript,C++ | 0 | 0 | 1| 
 | AngelCtulhu | Wordpress Support Candy 插件的文件上传漏洞 | https://github.com/AngelCtulhu/CVE-2019-11223/ | http://cert.kalasag.com.ph |  | Pasig | 8Layer Technologies Inc. | 2 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 

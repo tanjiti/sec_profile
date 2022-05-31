@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| DJ的札记 | DJ_notes | RSAC 2022 – 创新沙盒观感 (1) | https://mp.weixin.qq.com/s/WRG25tuSEuGMHAZ6vfFjVg | 1| 
 | 杨小时的杂货铺 | yxszahuopu | HTB-467-Noter | https://mp.weixin.qq.com/s?__biz=MzIzNDc4NzMxOQ==&mid=2247483660&idx=1&sn=2c882883f2e757207d57c1e36b1ed8c1&chksm=e8f05994df87d082d7ce2f944de5b91d6f3bb0f8613f325b824e9a3eaa71c9b2bdfb2f43c8dc#rd | 1| 
 | Rancher | RancherLabs | 快速上手云原生安全平台 NeuVector | https://mp.weixin.qq.com/s/aXSA_opN-rV68rnrPO73PA | 1| 
 | 这里是河马 | gh_f779ec60843d | SHELLPUB在线查杀更新公告（文末抽奖） | https://mp.weixin.qq.com/s/b44XcSoyTgYNprL6wKHh-Q | 1| 
@@ -417,7 +418,7 @@
 | 编码安全研究 | Lemon_0531_ | 常见的Web漏洞—SQL注入 | https://mp.weixin.qq.com/s?__biz=Mzg2NDY1MDc2Mg==&mid=2247486013&idx=1&sn=32f5a2a27a52d444945ce2c33a6c2ab2 | 28| 
 | 白虎实验室 | hacker_root001 | 渗透测试报告编写 | https://mp.weixin.qq.com/s?__biz=Mzk0NTI2ODE1Nw==&mid=2247484189&idx=1&sn=8a2f2d1e3075f3c6eb8c9984a381562f | 4| 
 | 电子物证 | ewuzheng | 【侧信道攻击与电子数据取证】 | https://mp.weixin.qq.com/s?__biz=MzAwNDcwMDgzMA==&mid=2651041060&idx=3&sn=c68b753a1fe4ed7ff12060ae779ce2f4 | 30| 
-| 奇安信威胁情报中心 | gh_166784eae33e | 假旗 or 升级？疑似海莲花利用Glitch平台的攻击样本再现 | https://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247498419&idx=1&sn=c55fccc12ca2ea4d73731ad2305d169f | 10| 
+| 奇安信威胁情报中心 | gh_166784eae33e | 假旗 or 升级？疑似海莲花利用Glitch平台的攻击样本再现 | https://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247498419&idx=1&sn=c55fccc12ca2ea4d73731ad2305d169f | 11| 
 | 天融信阿尔法实验室 | gh_0b0b1747bf15 | CVE-2021-33742：Internet Explorer MSHTML堆越界写漏洞分析 | https://mp.weixin.qq.com/s?__biz=Mzg3MDAzMDQxNw==&mid=2247492214&idx=1&sn=9d0e3871fbb22f252f7257d0d8f65adc | 6| 
 | 代码卫士 | codesafe | 热门开源CMS平台 Umbraco 中存在多个安全漏洞，可使账户遭接管 | https://mp.weixin.qq.com/s?__biz=MzI2NTg4OTc5Nw==&mid=2247510233&idx=3&sn=a3b6ac9c3a90291e1ce56a9111954282 | 54| 
 | 三六零CERT | CERT-360 | Apache Log4j多个安全漏洞通告 | https://mp.weixin.qq.com/s?__biz=MzU5MjEzOTM3NA==&mid=2247490662&idx=1&sn=5525029fe34025b5c7aef2045ba53f8a | 21| 
@@ -430,7 +431,7 @@
 | 绿盟科技CERT | gh_ab56f0f84265 | 【漏洞通告】Apache log4j反序列化与SQL注入漏洞 | https://mp.weixin.qq.com/s?__biz=Mzk0MjE3ODkxNg==&mid=2247486771&idx=1&sn=a3ce2b3dd7896de44f8925a60ad6f9e3 | 3| 
 | 系统安全运维 | Taurus-1314147 | 常见的几种网络故障案例分析与解决 | https://mp.weixin.qq.com/s?__biz=Mzk0NjE0NDc5OQ==&mid=2247496962&idx=2&sn=16355a378818fa6e194b70afdd32ee89 | 59| 
 | 盛邦安全WebRAY | WebRay_weixin | 烽火狼烟丨Oracle WebLogic多个组件漏洞风险提示 | https://mp.weixin.qq.com/s?__biz=MzAwNTAxMjUwNw==&mid=2650268795&idx=1&sn=86239abcc080ebefc710d8f6715c2e9f | 19| 
-| 微步在线研究响应中心 | gh_c108d4d389bf | 来势汹汹，涉俄组织Indrik Spider借助Log4j2漏洞展开攻击，多国中招，企业需警惕！ | https://mp.weixin.qq.com/s?__biz=MzA5MDc1NDc1MQ==&mid=2247491670&idx=1&sn=dc0f29a3bef2f6c1cacf34cd52d8bf08 | 8| 
+| 微步在线研究响应中心 | gh_c108d4d389bf | 来势汹汹，涉俄组织Indrik Spider借助Log4j2漏洞展开攻击，多国中招，企业需警惕！ | https://mp.weixin.qq.com/s?__biz=MzA5MDc1NDc1MQ==&mid=2247491670&idx=1&sn=dc0f29a3bef2f6c1cacf34cd52d8bf08 | 9| 
 | 信安成长计划 | SecSource | Beacon 结果回传流程分析 | https://mp.weixin.qq.com/s?__biz=MzkxMTMxMjI2OQ==&mid=2247484046&idx=1&sn=c74c5864978310e60ed73288eebd1061 | 6| 
 | 信安之路 | xazlsec | Cobalt Strike 初体验 , 人人都可上手的红队工具 | https://mp.weixin.qq.com/s?__biz=MzI5MDQ2NjExOQ==&mid=2247496636&idx=1&sn=8ea1f51e80f428bbf07495a2f5ecea9d | 15| 
 | 伟盾网络安全 | gh_75e869919a5f | ysoserial分析之MozillaRhino2利用链 | https://mp.weixin.qq.com/s?__biz=MzkwOTIxNzQ5OA==&mid=2247484200&idx=1&sn=dfd28aae274356467137184088ce7e2b | 1| 
@@ -454,7 +455,7 @@
 | 贝壳产品技术 | beikeTC | 端到端模型在贝壳经纪人流失预警场景的实践 | https://mp.weixin.qq.com/s/DY-gzglv73iLrANjDY4PrQ | 3| 
 | 腾讯云防火墙 | gh_8b5f4467933a | 云防火墙产品的演进思路 | https://mp.weixin.qq.com/s/nKbUajOKuNjoCef-ZpgYfA | 1| 
 | 中通安全应急响应中心 | ZTO_SRC | 中通信息安全培训体系建设 | https://mp.weixin.qq.com/s/LklmkgRXydx35D1JcOFewA | 4| 
-| 安全学术圈 | secquan | QRS 2021 论文录用列表 | https://mp.weixin.qq.com/s/BMEXcjaFPuA00VrBDnhnlg | 42| 
+| 安全学术圈 | secquan | QRS 2021 论文录用列表 | https://mp.weixin.qq.com/s/BMEXcjaFPuA00VrBDnhnlg | 43| 
 | 安全行者老霍 | gh_c2b78e839fd7 | Gartner 2021 漏洞评估产品市场指南 | https://mp.weixin.qq.com/s/Oi7id-3jJOFjS1x-PlmD6w | 9| 
 | 等级保护测评 | zgdjbh | 公安部公布去年侵犯个人信息十大典型案例：窃取数十亿条信息暗网牟利 | https://mp.weixin.qq.com/s/mL3UWks3T2s1sliH28GaqA | 6| 
 | 深信服千里目安全实验室 | Further_eye | 【Rootkit 系列研究】Windows平台的高隐匿、高持久化威胁 | https://mp.weixin.qq.com/s/YE7bt6Bhz2mYYp1n-2vJtQ | 9| 
@@ -530,7 +531,7 @@
 | modzero | 趋势科技 Deep Security Agent Linux 版本 root 提权漏洞 PoC | https://github.com/modzero/MZ-21-02-Trendmicro | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Java,Python,JavaScript,C++,Perl,C# | 0 | 0 | 1| 
 | modernizing | 代码分析与自动化重构 | https://github.com/modernizing/modernization | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Kotlin,TypeScript,Rust,C# | 0 | 0 | 1| 
 | midisec | BypassAnti-Virus: 免杀技术学习资料. | https://github.com/midisec/BypassAnti-Virus | https://github.com/midisec?tab=followers | love life,love Internet | China | None | 11 | 0 | 14 | 0 | 0 | Python,Go,C,C++,CSS | 0 | 0 | 1| 
-| microsoft | Playwright - 微软开源的控制浏览器实现自动化的框架 | https://github.com/microsoft/playwright | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Jupyter,C#,JavaScript,C++,Python,Q#,F# | 0 | 0 | 1| 
+| microsoft | Playwright - 微软开源的控制浏览器实现自动化的框架 | https://github.com/microsoft/playwright | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Jupyter,C#,JavaScript,C++,Python,Q#,F# | 0 | 0 | 2| 
 | memN0ps | 面向 Red Team 的 Rust 版 Windows 内核驱动 | https://github.com/memN0ps/eagle-rs/ | https://github.com/memN0ps?tab=followers | Pentester / Red Teamer interested in Rust, Windows Internals, and Reverse Engineering. | New Zealand | None | 5 | 0 | 77 | 0 | 0 | Rust | 0 | 0 | 1| 
 | mdecrevoisier | 将 Windows EventID 映射到 MITRE [email protected] 攻击矩阵的工具 | https://github.com/mdecrevoisier/EVTX-to-MITRE-Attack | https://github.com/mdecrevoisier?tab=followers | IT Security Analyst / SOC | None | None | 7 | 0 | 1 | 0 | 0 | Roff,PowerShell | 0 | 0 | 1| 
 | mborgerson | Decompilation as a Service，多款反编译器处理同一个文件，方便对比结果 | https://github.com/mborgerson/mdec | https://github.com/mborgerson?tab=followers |  | None | None | 97 | 0 | 779 | 0 | 0 | Python,C,Shell,Objective-C,C++ | 0 | 0 | 1| 
@@ -550,11 +551,12 @@
 | idaholab | Malcolm - 网络流量分析工具 | https://github.com/idaholab/Malcolm | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Assembly,Python,SWIG,JavaScript,C++,HTML | 0 | 0 | 1| 
 | httpvoid | 在 Rails 找 Gadget 实现 Ruby Deserialization 漏洞的利用 | https://github.com/httpvoid/writeups/blob/main/Ruby-deserialization-gadget-on-rails.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | hgarrereyn | GraphFuzz: Library API Fuzzing with Lifetime-aware Dataflow Graphs | https://github.com/hgarrereyn/GraphFuzz | https://github.com/dicegang | Incoming PhD student at CMU / CTF player @dicegang / Fuzzing @ForAllSecure / VR at Margin Research | Chicago | None | 51 | 0 | 50 | 0 | 0 | Python,C,JavaScript,Verilog | 0 | 0 | 1| 
+| hashishrajan | 公有云漏洞相关的资料整理 | https://github.com/hashishrajan/cloud-security-vulnerabilities | https://github.com/hashishrajan | follow me @hashishrajan | Australia | @CloudSecurityPodcast @PageUpPeopleOrg | 41 | 0 | 126 | 0 | 0 |  | 0 | 0 | 1| 
 | hasherezade | Process Overwriting - 在进程中注入 PE 文件 | https://github.com/hasherezade/process_overwriting | https://github.com/hasherezade?tab=followers |  | Poland | None | 80 | 0 | 64 | 0 | 0 | C,Assembly,C++ | 0 | 0 | 1| 
 | hakivvi | WSO2 RCE (CVE-2022-29464) exploit and writeup. | https://github.com/hakivvi/CVE-2022-29464 | https://github.com/hakivvi?tab=followers | web pentesting and low level stuff. | Morocco | None | 7 | 0 | 236 | 0 | 0 | Python,C,C++ | 0 | 0 | 1| 
 | gmh5225 | LLVM 安全相关的资料收集 | https://github.com/gmh5225/awesome-llvm-security | https://github.com/gmh5225?tab=followers | windows/llvm/game security/blockchain | El Salvador | None | 83 | 0 | 715 | 0 | 0 | C,Java,C#,C++,Batchfile,Rust,Inno,CMake,CSS | 0 | 0 | 1| 
 | getActivity | 中国 Android 个人技术开源排行榜. | https://github.com/getActivity/AndroidGithubBoss | https://github.com/getActivity?tab=followers | 专业造轮子 | Guangzhou,China | None | 25 | 0 | 0 | 0 | 0 | Kotlin,Java | 0 | 0 | 1| 
-| gamozolabs | 一款从 /proc/mem 提取进程内存快照导入 IDA 分析的插件 | https://github.com/gamozolabs/proc_mem_ida_loader | https://github.com/gamozolabs?tab=followers |  | None | None | 71 | 0 | 3 | 0 | 0 | Python,C++,Rust | 0 | 0 | 1| 
+| gamozolabs | mempeek - Linux 运行进程内存扫描命令行工具 | https://github.com/gamozolabs/mempeek | https://github.com/gamozolabs?tab=followers |  | None | None | 71 | 0 | 3 | 0 | 0 | Python,C++,Rust | 0 | 0 | 2| 
 | gaasedelen | Lucid - An Interactive Hex-Rays Microcode Explorer | https://github.com/gaasedelen/lucid | https://github.com/gaasedelen?tab=followers | turning over rocks and finding nothing is still progress. | None | None | 11 | 0 | 1 | 0 | 0 | Python,C | 0 | 0 | 2| 
 | fuzzware-fuzzer | Fuzzware: Using Precise MMIO Modeling for Effective Firmware Fuzzing | https://github.com/fuzzware-fuzzer/fuzzware | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,Shell | 0 | 0 | 1| 
 | freingruber | JavaScript Raider - JavaScript Fuzzing framework for v8 | https://github.com/freingruber/JavaScript-Raider | https://github.com/freingruber?tab=followers |  | None | None | 1 | 0 | 2 | 0 | 0 | Python | 0 | 0 | 1| 
@@ -589,6 +591,7 @@
 | agrawalsmart7 | SCodeScanner - 在源码中扫描漏洞的工具，目前支持 PHP 语言 | https://github.com/agrawalsmart7/scodescanner | https://github.com/agrawalsmart7?tab=followers |  | None | None | 25 | 0 | 57 | 0 | 0 | Python,PHP | 0 | 0 | 1| 
 | aaaddress1 | 不依赖 DLL 注入的 UAC Bypass，支持 Windows 11 | https://github.com/aaaddress1/PR0CESS/tree/main/UACBypassJF_RpcALPC | https://github.com/aaaddress1?tab=followers | 30cm.tw/me | Taiwan | TXOne Networks, inc. | 197 | 0 | 541 | 0 | 0 | C#,C,C++ | 0 | 0 | 1| 
 | Wilfred | Difftastic - 支持语法格式的 Diff 工具 | https://github.com/Wilfred/difftastic | https://github.com/Wilfred?tab=followers | PL enthusiast, Emacs addict, and Hacklang contributor. | Bay Area, USA | None | 393 | 0 | 1700 | 0 | 0 | C,JavaScript,Emacs,Rust | 0 | 0 | 1| 
+| Weik1 | Artillery: JAVA 插件化漏洞扫描器 | https://github.com/Weik1/Artillery | https://github.com/Weik1?tab=followers | 这个人很懒，什么都没有留下 | None | None | 30 | 0 | 28 | 0 | 0 | Python,JavaScript,PHP,Java,HTML | 0 | 0 | 1| 
 | Tritlo | PropR: Property-based Program repair using GHC | https://github.com/Tritlo/PropR | https://github.com/Tritlo?tab=followers | A generalist functional programmer, currently doing research as a PhD student at Chalmers University of Technology. | Gothenburg, Sweden | Chalmers University of Technology | 120 | 0 | 296 | 0 | 0 | Haskell | 0 | 0 | 1| 
 | ThestaRY7 | supplier: 主流供应商的一些攻击性漏洞汇总 | https://github.com/ThestaRY7/supplier | https://github.com/ThestaRY7?tab=followers |  | None | None | 29 | 0 | 130 | 0 | 0 | Python,Vue,JavaScript | 0 | 0 | 1| 
 | Tencent | CodeAnalysis: 腾讯 Static Code Analysis | https://github.com/Tencent/CodeAnalysis | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -630,6 +633,7 @@
 | Bonfee | 有研究员公开了 Linux 内核 watch_queue 越界写漏洞（CVE-2022-0995）Exploit | https://github.com/Bonfee/CVE-2022-0995 | https://github.com/Bonfee?tab=followers | Italian I.T. student at Ca Foscari University of Venice. | Venice, Italy | None | 7 | 0 | 20 | 0 | 0 | C | 0 | 0 | 1| 
 | BishopFox | Sliver - 攻击行为模拟框架 | https://github.com/BishopFox/sliver/releases/tag/v1.4.9 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,Shell,Java,HCL | 0 | 0 | 1| 
 | Bareflank | Bareflank Hypervisor - 一款轻量级的 Hypervisor SDK，用于快速在 64 位机器上快速构建 hypervisor | https://github.com/Bareflank/hypervisor | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,C++ | 0 | 0 | 1| 
+| Azure | Stormspotter - 用图方式直观展示 Azure Active Directory 对象的工具 | https://github.com/Azure/Stormspotter | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Jupyter,C#,Python,Go,PowerShell | 0 | 0 | 1| 
 | Adrninistrator | Generate all call graph for Java Code | https://github.com/Adrninistrator/java-all-call-graph | https://github.com/Adrninistrator?tab=followers |  | None | None | 13 | 0 | 8 | 0 | 0 | Shell,Java | 0 | 0 | 1| 
 | Accenture | VulFi - 一款用于辅助在 IDA Pro 中挖掘漏洞的插件 | https://github.com/Accenture/VulFi | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Jupyter,TypeScript,Java,Elixir | 0 | 0 | 1| 
 | ASTTeam | 代码分析工具 CodeQL 相关的资料整理 | https://github.com/ASTTeam/CodeQL | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
