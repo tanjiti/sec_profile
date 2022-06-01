@@ -1,0 +1,3 @@
+Python	1
+Lua	1
+Shell	1

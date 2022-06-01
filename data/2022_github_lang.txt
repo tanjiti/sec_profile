@@ -1,10 +1,10 @@
-Python	83
+Python	84
 C	52
 C++	43
 JavaScript	41
 Java	39
 Go	34
-Shell	26
+Shell	27
 HTML	26
 C#	22
 TypeScript	20
@@ -19,12 +19,12 @@ Dockerfile	7
 Vue	6
 Assembly	4
 Makefile	3
+Lua	3
 Objective-C	3
 CMake	3
 Swift	3
 Scala	2
 Perl	2
-Lua	2
 LLVM	2
 Emacs	2
 Verilog	2

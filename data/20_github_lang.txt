@@ -20,7 +20,7 @@ Perl	72
 Assembly	69
 Swift	65
 Makefile	60
-Lua	58
+Lua	59
 Batchfile	53
 TeX	53
 Kotlin	49
