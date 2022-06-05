@@ -1,3 +1,7 @@
-Python	1
+Shell	2
+Python	2
+HTML	2
+C	1
+C++	1
 Lua	1
-Shell	1
+Rust	1

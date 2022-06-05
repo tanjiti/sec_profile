@@ -14,14 +14,16 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 靖安科技 | jing-an-tech | 兰德深度报告-美国商业太空能力与市场概述 | https://mp.weixin.qq.com/s/7aC8RHMil--jTRms9jMU1A | 1| 
+| 专注安管平台 | gh_48603b9bb05a | 重新定义SOAR | https://mp.weixin.qq.com/s/aiaCgFRjGifPhPfZ4_lrkQ | 1| 
 | LoRexxar自留地 | lorexxars | SCA的困境和出路 | https://mp.weixin.qq.com/s/pV-3IXKBKDJbDiBxmOpEOA | 1| 
 | DJ的札记 | DJ_notes | RSAC 2022 – 创新沙盒观感 (1) | https://mp.weixin.qq.com/s/WRG25tuSEuGMHAZ6vfFjVg | 1| 
 | 杨小时的杂货铺 | yxszahuopu | HTB-467-Noter | https://mp.weixin.qq.com/s?__biz=MzIzNDc4NzMxOQ==&mid=2247483660&idx=1&sn=2c882883f2e757207d57c1e36b1ed8c1&chksm=e8f05994df87d082d7ce2f944de5b91d6f3bb0f8613f325b824e9a3eaa71c9b2bdfb2f43c8dc#rd | 1| 
 | Rancher | RancherLabs | 快速上手云原生安全平台 NeuVector | https://mp.weixin.qq.com/s/aXSA_opN-rV68rnrPO73PA | 1| 
-| 这里是河马 | gh_f779ec60843d | SHELLPUB在线查杀更新公告（文末抽奖） | https://mp.weixin.qq.com/s/b44XcSoyTgYNprL6wKHh-Q | 1| 
+| 这里是河马 | gh_f779ec60843d | SHELLPUB在线查杀更新公告（文末抽奖） | https://mp.weixin.qq.com/s/b44XcSoyTgYNprL6wKHh-Q | 2| 
 | 神龙叫 | shen_long_jiao | 从网空测绘看俄乌战争态势--及对我们的启示 | https://mp.weixin.qq.com/s/HLvydDDhTfxK-xWsGEuCpA | 1| 
 | ISC2北京分会 | ISC2BJ | 网络安全创业从0到1-演讲实录 | https://mp.weixin.qq.com/s/0uTkCQHtCySO9ydEjUMU8g | 1| 
-| JDArmy | gh_e9df6be6f498 | 域控被突破的几种途径 | https://mp.weixin.qq.com/s/nKvAD4ixmbZcxzkxCTxAfQ | 1| 
+| JDArmy | gh_e9df6be6f498 | 域控被突破的几种途径 | https://mp.weixin.qq.com/s/nKvAD4ixmbZcxzkxCTxAfQ | 2| 
 | RASP安全技术 | gh_fdc868b0562f | RASP 如何检测Java Agent 内存马 | https://mp.weixin.qq.com/s/IScmevyRf8oxPPjGwYMRHQ | 1| 
 | 大海里的废话集合 | sea2fly | 企业安全之浅谈红蓝对抗--下 | https://mp.weixin.qq.com/s/FkesyPjxVloPaKxabddpEw | 2| 
 | 火线云安全研究团队 | gh_07bfe2dc3604 | WMI后门技术的攻击与检测 | https://mp.weixin.qq.com/s/l8OBAvYORhqxM5SlKBDIyw | 1| 
@@ -450,7 +452,7 @@
 | 天地和兴 | bjtdhxkj | Linux环境中的三大恶意软件 | https://mp.weixin.qq.com/s?__biz=MjM5Mzk0MDE2Ng==&mid=2649603722&idx=2&sn=55158a1e8aa3c797e9b2889c7258f9ef | 7| 
 | Seebug漏洞平台 | seebug_org | Apache Dubbo Hessian2 异常处理时反序列化（CVE-2021-43297） | https://mp.weixin.qq.com/s?__biz=MzAxNDY2MTQ2OQ==&mid=2650957589&idx=1&sn=b31a9d12f27fd04d69470de6608b6cba | 10| 
 | IT牧场 | itmuch_com | 大文件上传：秒传、断点续传、分片上传 | https://mp.weixin.qq.com/s?__biz=MzI4ODQ3NjE2OA==&mid=2247497404&idx=1&sn=0519f44d3a3b9ac73dcc87252cc5b66d | 24| 
-| 安全研究GoSSIP | GoSSIPSJTU | G.O.S.S.I.P 安全学术会议排行榜（2021版） | https://mp.weixin.qq.com/s/6Bd5eg9TJw5PL_Qtpq8eLg | 11| 
+| 安全研究GoSSIP | GoSSIPSJTU | G.O.S.S.I.P 安全学术会议排行榜（2021版） | https://mp.weixin.qq.com/s/6Bd5eg9TJw5PL_Qtpq8eLg | 12| 
 | QZ的安全悟道 | lookvul | 现代网络犯罪模式解读 | https://mp.weixin.qq.com/s/7xwIaxfyObDnzx0x-j6P2w | 11| 
 | Coggle数据科学 | gh_8df601c10cb4 | Graph Embedding实战系列：Node2vec原理与代码实战 | https://mp.weixin.qq.com/s/V6DzgC1WXST7yZczKQiCXg | 1| 
 | 贝壳产品技术 | beikeTC | 端到端模型在贝壳经纪人流失预警场景的实践 | https://mp.weixin.qq.com/s/DY-gzglv73iLrANjDY4PrQ | 3| 
@@ -510,6 +512,7 @@
 | sairson | Yasso: 强大的内网渗透辅助工具集 | https://github.com/sairson/Yasso | https://github.com/sairson?tab=followers | #PenTest , #RedTeam , #Student | None | None | 243 | 0 | 276 | 0 | 0 | Vue,Java,Python,JavaScript,C++,C#,Smarty,Go,PowerShell,CSS | 0 | 0 | 1| 
 | safe6Sec | 哥斯拉&冰蝎源码分析 | https://github.com/safe6Sec/ShellManageTool | https://github.com/safe6Sec?tab=followers | script kiddie | kunming,China | threatbook | 112 | 0 | 1200 | 0 | 0 | Go,Java,CodeQL | 0 | 0 | 1| 
 | saaramar | 刚刚举办的 Bluehat 会议关于 Intel MTE 的议题《Security Analysis of MTE Through Examples》 | https://github.com/saaramar/security_analysis_mte/blob/main/Security%20Analysis%20of%20MTE%20Through%20Examples.pdf | https://github.com/pastenctf | Reversing, exploits, Windows internals, virtualization, mitigations. @pastenctf team member. | None | None | 15 | 0 | 37 | 0 | 0 | Python,C,C++ | 0 | 0 | 1| 
+| rust-fuzz | honggfuzz-rs - 利用 Honggfuzz Fuzz Rust 代码 | https://github.com/rust-fuzz/honggfuzz-rs | None | None | None | None | 0 | 0 | 0 | 0 | 0 | HTML,Shell,C++,Rust | 0 | 0 | 1| 
 | rosehgal | Linux 二进制开发学习资料. | https://github.com/rosehgal/BinExp | https://github.com/rosehgal?tab=followers | Working !! | India | Gojek | 55 | 0 | 163 | 0 | 0 | Python,Dockerfile,C,Shell,Java | 0 | 0 | 1| 
 | rootsecdev | Azure 云环境安全测试相关的资料 | https://github.com/rootsecdev/Azure-Red-Team | https://github.com/rootsecdev?tab=followers |  | None | None | 40 | 0 | 2 | 0 | 0 | PowerShell | 0 | 0 | 1| 
 | revng | revng - 将 ELF 二进制文件翻译成 LLVM IR 的工具 | https://github.com/revng/revng | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,CMake,Python,C++,Shell | 0 | 0 | 1| 
@@ -594,6 +597,7 @@
 | Wilfred | Difftastic - 支持语法格式的 Diff 工具 | https://github.com/Wilfred/difftastic | https://github.com/Wilfred?tab=followers | PL enthusiast, Emacs addict, and Hacklang contributor. | Bay Area, USA | None | 393 | 0 | 1700 | 0 | 0 | C,JavaScript,Emacs,Rust | 0 | 0 | 1| 
 | Weik1 | Artillery: JAVA 插件化漏洞扫描器 | https://github.com/Weik1/Artillery | https://github.com/Weik1?tab=followers | 这个人很懒，什么都没有留下 | None | None | 30 | 0 | 28 | 0 | 0 | Python,JavaScript,PHP,Java,HTML | 0 | 0 | 1| 
 | Tritlo | PropR: Property-based Program repair using GHC | https://github.com/Tritlo/PropR | https://github.com/Tritlo?tab=followers | A generalist functional programmer, currently doing research as a PhD student at Chalmers University of Technology. | Gothenburg, Sweden | Chalmers University of Technology | 120 | 0 | 296 | 0 | 0 | Haskell | 0 | 0 | 1| 
+| Threekiii | Awesome-Redteam: 一个红队知识仓库 | https://github.com/Threekiii/Awesome-Redteam | https://github.com/Threekiii?tab=followers |  | None | None | 9 | 0 | 3 | 0 | 0 | Python,C,HTML | 0 | 0 | 1| 
 | ThestaRY7 | supplier: 主流供应商的一些攻击性漏洞汇总 | https://github.com/ThestaRY7/supplier | https://github.com/ThestaRY7?tab=followers |  | None | None | 29 | 0 | 130 | 0 | 0 | Python,Vue,JavaScript | 0 | 0 | 1| 
 | Tencent | CodeAnalysis: 腾讯 Static Code Analysis | https://github.com/Tencent/CodeAnalysis | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | Tas9er | 冰蝎Java WebShell免杀生成工具. | https://github.com/Tas9er/ByPassBehinder4J | https://github.com/Tas9er?tab=followers | Code And Web Security | None | A.E.0.S | 27 | 0 | 6 | 0 | 0 |  | 0 | 0 | 1| 
@@ -686,6 +690,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| Fuzzm: 针对WebAssembly内存错误的模糊测试 | https://zhuanlan.zhihu.com/p/523207785| 
 | 基础架构安全弹性技术指南草案（固件安全篇） | https://zhuanlan.zhihu.com/p/515998950| 
 | 情报的三大核心、四大要素、一个关键问题 | https://zhuanlan.zhihu.com/p/515570133| 
 | （译）SLSA如何落地 | https://zhuanlan.zhihu.com/p/515363693| 
@@ -703,6 +708,9 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| ATT&CK矩阵的攻与防 | https://xz.aliyun.com/t/11347| 
+| bandit工具分析 | https://xz.aliyun.com/t/11341| 
+| 基于框架漏洞的代码审计实战 | https://xz.aliyun.com/t/11360| 
 | 浅析SSRF的各种利用方式 | https://xz.aliyun.com/t/11215| 
 | 半天打穿某高校 | https://xz.aliyun.com/t/11186| 
 | 基于图查询的攻击溯源方法 | https://xz.aliyun.com/t/11147| 
