@@ -1,7 +1,11 @@
-Shell	2
-Python	2
+Python	5
+C	3
+Shell	3
+Rust	3
+C++	2
 HTML	2
-C	1
-C++	1
+Go	2
+PowerShell	2
+YARA	1
 Lua	1
-Rust	1
+CSS	1

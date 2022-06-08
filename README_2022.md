@@ -14,6 +14,12 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 白帽兔 | xzu77058 | 溯源反制案例分享（二） | https://mp.weixin.qq.com/s/JXfNCIzZznn1UVXhYDzRIA | 1| 
+| 全栈开发运维 | yellowleecn | SQL脚本自动化审核工具（MYSQL） | https://mp.weixin.qq.com/s/In-MdryQSdqFSA2fqdFHvg | 1| 
+| 电驭叛客 | Cyber-Hack | OT环境下IoT安全的破局探索 | https://mp.weixin.qq.com/s/Hkw95Y146xVAHLwZnPAH4w | 1| 
+| 战略前沿技术 | Tech999 | 张驰：星链的军事化应用 | https://mp.weixin.qq.com/s/NQA3UvzDB0wnKY-0mJCB0g | 1| 
+| GoGoHack | gogohack-n-secure | ​C-V2X安全研究 | https://mp.weixin.qq.com/s/ExecszAuGDXPa1ySysZ5xg | 1| 
+| MicroPest | gh_696c36c5382b | CVE-2022-30190漏洞的学习一 | https://mp.weixin.qq.com/s/wzdXRnYM0-5iN3tcZZnUWA | 1| 
 | 靖安科技 | jing-an-tech | 兰德深度报告-美国商业太空能力与市场概述 | https://mp.weixin.qq.com/s/7aC8RHMil--jTRms9jMU1A | 1| 
 | 专注安管平台 | gh_48603b9bb05a | 重新定义SOAR | https://mp.weixin.qq.com/s/aiaCgFRjGifPhPfZ4_lrkQ | 1| 
 | LoRexxar自留地 | lorexxars | SCA的困境和出路 | https://mp.weixin.qq.com/s/pV-3IXKBKDJbDiBxmOpEOA | 1| 
@@ -72,7 +78,7 @@
 | 千寻安服 | scaf_0123 | 千寻笔记：应急响应实践小Tips | https://mp.weixin.qq.com/s?__biz=MzkzMzI3OTczNA==&mid=2247484780&idx=1&sn=b49a411924abc4dd71a7362f0ba836ac | 1| 
 | EDI安全 | EDISEC | SUSCTF SU Writeup | https://mp.weixin.qq.com/s?__biz=MzIzMTQ4NzE2Ng==&mid=2247492116&idx=1&sn=86e5ae1091a20e4ef0e802f5b33b9917 | 2| 
 | 福韵 开源情报研究 | FuyunOsint | 转载 , 【研究池】域外势力操控社交媒体的手段路径及应对策略 | https://mp.weixin.qq.com/s?__biz=MzU4NTg4Mzc0MA==&mid=2247534512&idx=1&sn=057cf2595c50b7224fa8971f919cd7d9 | 4| 
-| 小道安全 | kdsafety | 游戏黑灰产识别和溯源取证 | https://mp.weixin.qq.com/s?__biz=MzUxODkyODE0Mg==&mid=2247488885&idx=1&sn=1ae75a367b65add3e49448b4db87fead | 3| 
+| 小道安全 | kdsafety | 游戏黑灰产识别和溯源取证 | https://mp.weixin.qq.com/s?__biz=MzUxODkyODE0Mg==&mid=2247488885&idx=1&sn=1ae75a367b65add3e49448b4db87fead | 4| 
 | 安全攻防团队 | gh_983c1037a3f6 | 一些隧道搭建 | https://mp.weixin.qq.com/s?__biz=MzkzNTI4NjU1Mw==&mid=2247483953&idx=1&sn=19ccc448f42ee3bf58d2d85872276308 | 1| 
 | 学安全在路上 | gh_c40eb977b2c4 | 内推 ,  来绿盟奋斗吧！ | https://mp.weixin.qq.com/s?__biz=MzI3MjI0NDEzMg==&mid=2247484356&idx=1&sn=e71fd06d6d4570da222731a5e5082bcd | 2| 
 | 代码审计 | white-hat-note | 分享下我 Github 被封的经历 | https://mp.weixin.qq.com/s?__biz=MzA4MDU0NzY4Ng==&mid=2459420055&idx=1&sn=0cdd8f383370934dd76004b25153f668 | 3| 
@@ -396,7 +402,7 @@
 | 维他命安全 | VitaminSecurity | Kaspersky发现APT41利用MoonBounce的攻击活动；字幕网站OpenSubtitles近700万用户的信息泄露 | https://mp.weixin.qq.com/s?__biz=MzUxMDQzNTMyNg==&mid=2247498670&idx=1&sn=64b6ca7bd4f818bf8f349ce2fb366544 | 36| 
 | 橘猫学安全 | gh_af700ee13397 | Powershell免杀（无文件落地免杀） | https://mp.weixin.qq.com/s?__biz=Mzg5OTY2NjUxMw==&mid=2247487474&idx=1&sn=43ab18a5f948bf22a99fc988a8e15f03 | 38| 
 | 山警网络空间安全实验室 | gh_544c8c38eeaf | User Account Control 杂谈 | https://mp.weixin.qq.com/s?__biz=MjM5Njc1OTYyNA==&mid=2450780415&idx=1&sn=79aa86e37b8a8672829a949a05caf7eb | 15| 
-| 且听安全 | qtcyber | 【最新漏洞预警】CVE-2022-22733 ShardingSphere ElasticJob-UI从权限提升到H2 RCE | https://mp.weixin.qq.com/s?__biz=Mzg3MTU0MjkwNw==&mid=2247487481&idx=1&sn=5c6412fb2977785093a684ffe7f42849 | 16| 
+| 且听安全 | qtcyber | 【最新漏洞预警】CVE-2022-22733 ShardingSphere ElasticJob-UI从权限提升到H2 RCE | https://mp.weixin.qq.com/s?__biz=Mzg3MTU0MjkwNw==&mid=2247487481&idx=1&sn=5c6412fb2977785093a684ffe7f42849 | 17| 
 | Th0r安全 | gh_3ad192d9c87f | pyinstaller有key参数的第二种逆向方法 | https://mp.weixin.qq.com/s?__biz=Mzg3ODY3MzcwMQ==&mid=2247485030&idx=1&sn=3a0446c5ac13dbafef311e32f4383974 | 17| 
 | Linux中国 | linux-cn | 用 CrowdSec 保护你的 PHP 网站不受机器人攻击 , Linux 中国 | https://mp.weixin.qq.com/s?__biz=MjM5NjQ4MjYwMQ==&mid=2664647429&idx=2&sn=7552d7ab892724ce3362a4c822fc888a | 84| 
 | Beacon Tower Lab | WebRAY_BTL | 内网代理工具与检测方法研究 | https://mp.weixin.qq.com/s/N2HL89HAHv0OmLrB3AGHSQ | 1| 
@@ -458,13 +464,13 @@
 | 贝壳产品技术 | beikeTC | 端到端模型在贝壳经纪人流失预警场景的实践 | https://mp.weixin.qq.com/s/DY-gzglv73iLrANjDY4PrQ | 3| 
 | 腾讯云防火墙 | gh_8b5f4467933a | 云防火墙产品的演进思路 | https://mp.weixin.qq.com/s/nKbUajOKuNjoCef-ZpgYfA | 1| 
 | 中通安全应急响应中心 | ZTO_SRC | 中通信息安全培训体系建设 | https://mp.weixin.qq.com/s/LklmkgRXydx35D1JcOFewA | 4| 
-| 安全学术圈 | secquan | QRS 2021 论文录用列表 | https://mp.weixin.qq.com/s/BMEXcjaFPuA00VrBDnhnlg | 44| 
+| 安全学术圈 | secquan | QRS 2021 论文录用列表 | https://mp.weixin.qq.com/s/BMEXcjaFPuA00VrBDnhnlg | 46| 
 | 安全行者老霍 | gh_c2b78e839fd7 | Gartner 2021 漏洞评估产品市场指南 | https://mp.weixin.qq.com/s/Oi7id-3jJOFjS1x-PlmD6w | 9| 
 | 等级保护测评 | zgdjbh | 公安部公布去年侵犯个人信息十大典型案例：窃取数十亿条信息暗网牟利 | https://mp.weixin.qq.com/s/mL3UWks3T2s1sliH28GaqA | 6| 
 | 深信服千里目安全实验室 | Further_eye | 【Rootkit 系列研究】Windows平台的高隐匿、高持久化威胁 | https://mp.weixin.qq.com/s/YE7bt6Bhz2mYYp1n-2vJtQ | 9| 
 | 安全客 | anquanbobao | 【技术分享】网络空间测绘溯源技术剖析 | https://mp.weixin.qq.com/s/i-VzWFUB4bncDlKvrJk9xw | 51| 
 | 字节跳动终端技术 | ClientInfra | 基于跨站跳转和文本数据异构图的GCN模型实现恶意网站识别 | https://mp.weixin.qq.com/s/sQxa7YrNybZnP1w5iZeceA | 1| 
-| 威胁棱镜 | THREAT_PRISM | 在互联网交换中心检测反射放大 DDoS 攻击 | https://mp.weixin.qq.com/s/bH7SSb9-RW1H5VlUWog8cQ | 29| 
+| 威胁棱镜 | THREAT_PRISM | 在互联网交换中心检测反射放大 DDoS 攻击 | https://mp.weixin.qq.com/s/bH7SSb9-RW1H5VlUWog8cQ | 30| 
 | ChaMd5安全团队 | chamd5sec | 长安战疫-WriteUp | https://mp.weixin.qq.com/s/VMk7RPkvDioqMqEQdM5jFw | 12| 
 | 金融犯罪辩护与实务研究 | gh_5826b3a9c36f | 网络爬虫公司可能触犯哪些罪名 | https://mp.weixin.qq.com/s/AI5Pa37dS4q1XRCbbZXBsA | 1| 
 | 莫哥谈安全 | gh_247dfbdf3d43 | 浅谈数据安全运营能力建设 | https://mp.weixin.qq.com/s/SvMd8aCalyg5pL6Jri-4AA | 1| 
@@ -539,6 +545,7 @@
 | memN0ps | 面向 Red Team 的 Rust 版 Windows 内核驱动 | https://github.com/memN0ps/eagle-rs/ | https://github.com/memN0ps?tab=followers | Pentester / Red Teamer interested in Rust, Windows Internals, and Reverse Engineering. | New Zealand | None | 5 | 0 | 77 | 0 | 0 | Rust | 0 | 0 | 1| 
 | mdecrevoisier | 将 Windows EventID 映射到 MITRE [email protected] 攻击矩阵的工具 | https://github.com/mdecrevoisier/EVTX-to-MITRE-Attack | https://github.com/mdecrevoisier?tab=followers | IT Security Analyst / SOC | None | None | 7 | 0 | 1 | 0 | 0 | Roff,PowerShell | 0 | 0 | 1| 
 | mborgerson | Decompilation as a Service，多款反编译器处理同一个文件，方便对比结果 | https://github.com/mborgerson/mdec | https://github.com/mborgerson?tab=followers |  | None | None | 97 | 0 | 779 | 0 | 0 | Python,C,Shell,Objective-C,C++ | 0 | 0 | 1| 
+| mattifestation | AntimalwareBlight - 滥用 Windows Early Launch Antimalware (ELAM) 的防护功能 | https://github.com/mattifestation/AntimalwareBlight | https://github.com/mattifestation?tab=followers |  | None | None | 29 | 0 | 10 | 0 | 0 | PowerShell | 0 | 0 | 1| 
 | malware-unicorn | Rust 语言编写的将内存中的 DLL 注入远程进程的工具 | https://github.com/malware-unicorn/rusty-memory-loadlibrary | https://github.com/malwareunicorn | MALWARE + FASHION = UNICORN Reverse Engineering Malware twitter: @malwareunicorn | San Francisco | None | 25 | 0 | 3 | 0 | 0 | Go,HTML,C++,Rust | 0 | 0 | 1| 
 | ly4k | Certipy - Python implementation for Active Directory certificate abuse | https://github.com/ly4k/Certipy | https://github.com/ly4k?tab=followers | Security Researcher | Copenhagen, Denmark | IFCR | 9 | 0 | 8 | 0 | 0 | Python,Ruby,C++ | 0 | 0 | 1| 
 | lxflxfcl | 漏洞监控平台——Monitor | https://github.com/lxflxfcl/monitor | https://github.com/lxflxfcl?tab=followers |  | None | None | 17 | 0 | 10 | 0 | 0 | Java,XSLT,Python,C#,Go,PowerShell | 0 | 0 | 1| 
@@ -569,6 +576,7 @@
 | fingerprintjs | 不依赖 JavaScript 和 Cookie 构建用户指纹 | https://github.com/fingerprintjs/blog-nojs-fingerprint-demo | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Java,Handlebars,Kotlin,Pug,HTML,JavaScript,PHP,Swift | 0 | 0 | 1| 
 | find-sec-bugs | 在 Java Web 以及 Android 项目中自动检测漏洞的插件 | https://github.com/find-sec-bugs/find-sec-bugs | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Kotlin,HTML,Java,JavaScript | 0 | 0 | 1| 
 | facebookexperimental | Facebook 开发的一套 Rust 中间 IR 的 Interpreter | https://github.com/facebookexperimental/MIRAI | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java,Python,JavaScript,Makefile,C++,R,Rust | 0 | 0 | 1| 
+| eset | ESET 对基于多层虚拟机实现的恶意软件 Loader - Wslink 的分析 | https://github.com/eset/wslink-vm-analyzer/blob/master/slides/WslinkVMREcon.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,YARA,C,CSS,Go | 0 | 0 | 1| 
 | enkomio | 一款支持在内存中执行 JS 脚本的 C2 Post-Exploitation 框架 | https://github.com/enkomio/AlanFramework | https://github.com/enkomio?tab=followers | Code Monk | Italy | enkomio-sponsor | 21 | 0 | 45 | 0 | 0 | C#,JavaScript,Assembly,F# | 0 | 0 | 1| 
 | engn33r | 近些年蓝牙相关的安全研究资料整理 | https://github.com/engn33r/awesome-bluetooth-security | https://github.com/engn33r?tab=followers | https://twitter.com/bl4ckb1rd71 | None | None | 20 | 0 | 142 | 0 | 0 | Python | 0 | 0 | 1| 
 | e-m-b-a | emba - 嵌入式设备固件分析工具 EMBA 更新 v1.0 版本 | https://github.com/e-m-b-a/emba | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Shell,HTML | 0 | 0 | 1| 
@@ -582,7 +590,9 @@
 | cider-security-research | Top 10 CI/CD Security Risks | https://github.com/cider-security-research/top-10-cicd-security-risks | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 2| 
 | chaitin | veinmind-tools - 长亭科技开源的容器安全工具集 | https://github.com/chaitin/veinmind-tools | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,Vue,Java,HTML | 0 | 0 | 1| 
 | center-for-threat-informed-defense | Attack Flow - 为攻击者攻击流程进行辅助建模的工具 | https://github.com/center-for-threat-informed-defense/attack-flow | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Python,JavaScript,Vue,HTML,Ruby | 0 | 0 | 1| 
+| cea-sec | usbsas - 从不受信任的 USB 存储设备读取数据的工具 | https://github.com/cea-sec/usbsas | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,Rust | 0 | 0 | 1| 
 | bytedance | GoDLP: 敏感信息保护系统 | https://github.com/bytedance/godlp | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Assembly,Python,JavaScript,Cuda,Go,Java,Ruby,Jupyter,Rust | 0 | 0 | 1| 
+| brant-ruan | 2022云原生安全技术峰会议题Slide | https://github.com/brant-ruan/slides-and-papers/ | https://github.com/brant-ruan?tab=followers | IT Security Researcher | China | NSFOCUS Inc. | 58 | 0 | 515 | 0 | 0 | Python,Go,Shell | 0 | 0 | 1| 
 | borzacchiello | 基于 Ghidra PCode 的符号执行引擎 | https://github.com/borzacchiello/naaz | https://github.com/borzacchiello?tab=followers | PhD. Writing symbolic execution engines and program analysis related stuff | Rome | None | 31 | 0 | 190 | 0 | 0 | Python,C++ | 0 | 0 | 1| 
 | bluesadi | Pluto-Obfuscator - 基于 LLVM 实现的代码混淆工具 | https://github.com/bluesadi/Pluto-Obfuscator | https://github.com/bluesadi?tab=followers | Keep moving, be enthusiastic, be patient. | Chengdu, Sichuan | Sichuan University | 12 | 0 | 88 | 0 | 0 | Python,LLVM,C++ | 0 | 0 | 1| 
 | blackorbird | 俄罗斯 Wizard Spider APT 组织分析 | https://github.com/blackorbird/APT_REPORT/blob/master/Wizard%20Spider/WizardSpider_TLPWHITE_v.1.4.pdf | https://github.com/blackorbird?tab=followers | APT hunter threat analyst | https://twitter.com/blackorbird | https://twitter.com/blackorbird | 46 | 0 | 126 | 0 | 0 | Python,C | 0 | 0 | 1| 
@@ -624,6 +634,7 @@
 | KasperskyLab | Apihashes - 卡巴斯基开源的用于识别 API 函数名已知 Hash 的插件 | https://github.com/KasperskyLab/Apihashes | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Python,Kotlin,JavaScript,C++,C#,Go,PHP | 0 | 0 | 1| 
 | JonathanSalwan | 动态还原被 VMProtect 3.x 壳混淆的函数 | https://github.com/JonathanSalwan/VMProtect-devirtualization | https://github.com/JonathanSalwan?tab=followers | Program analysis, reverse engineering, binary exploitation and other low level stuffz | France - Bretagne | None | 11 | 0 | 0 | 0 | 0 | Python,C,LLVM,Roff,C++ | 0 | 0 | 1| 
 | JDArmy | 获取域控权限的几种思路总结 | https://github.com/JDArmy/GetDomainAdmin | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C#,Python,C,JavaScript | 0 | 0 | 1| 
+| Idov31 | FunctionStomping - 类似 Module Stomping 的 Shellcode 注入技术，用于逃逸反病毒软件的检测 | https://github.com/Idov31/FunctionStomping | https://github.com/Idov31?tab=followers | Im an offensive security researcher and using this platform to share my projects and research :) | mov eax, [ebp+location] | None | 10 | 0 | 139 | 0 | 0 | C++,Rust,PowerShell | 0 | 0 | 1| 
 | HackJava | Java 代码审计资源以及 Java 安全开发方向的资料 | https://github.com/HackJava/HackJava | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | Group3r | Group3r - AD 环境组策略配置探测工具 | https://github.com/Group3r/Group3r | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C# | 0 | 0 | 1| 
 | Goqi | Banli板栗-高危资产识别和高危漏洞扫描 | https://github.com/Goqi/Banli | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go | 0 | 0 | 1| 
@@ -655,6 +666,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Defeating Windows ASLR via 32-bit Share Library | https://medium.com/@mxmssh/defeating-windows-aslr-via-32-bit-shared-libraries-in-2-hours-1e225e182155?source=social.tw| 
 | 组合多个漏洞实现俄罗斯社交网站 VK 的 RCE | https://medium.com/@byq/from-open-redirect-to-rce-in-one-week-66a7f73fd082| 
 | Honeysploit - 在公开漏洞利用代码中嵌入恶意代码攻击 Exploiter | https://curtbraz.medium.com/exploiting-the-exploiters-46fd0d620fd8| 
 | macOS ESF Framework 在攻击检测方面的实践 | https://cedowens.medium.com/taking-esf-for-a-nother-spin-6e1e6acd1b74| 
@@ -690,6 +702,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 在计算机领域的科研中，最初的创新点从何而来？ | https://www.zhihu.com/question/534444001| 
 | Fuzzm: 针对WebAssembly内存错误的模糊测试 | https://zhuanlan.zhihu.com/p/523207785| 
 | 基础架构安全弹性技术指南草案（固件安全篇） | https://zhuanlan.zhihu.com/p/515998950| 
 | 情报的三大核心、四大要素、一个关键问题 | https://zhuanlan.zhihu.com/p/515570133| 
