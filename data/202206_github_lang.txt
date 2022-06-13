@@ -1,5 +1,5 @@
 Python	7
-C	5
+C	6
 Shell	5
 Go	5
 C++	3

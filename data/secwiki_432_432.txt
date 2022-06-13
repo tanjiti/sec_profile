@@ -1,0 +1,19 @@
+20220606	漏洞分析	https://mp.weixin.qq.com/s/wzdXRnYM0-5iN3tcZZnUWA	CVE-2022-30190漏洞的学习一	qq.com	mp.weixin.qq.com	/s/wzdXRnYM0-5iN3tcZZnUWA
+20220606	取证分析	https://mp.weixin.qq.com/s/JXfNCIzZznn1UVXhYDzRIA	溯源反制案例分享（二）	qq.com	mp.weixin.qq.com	/s/JXfNCIzZznn1UVXhYDzRIA
+20220606	无线安全	https://mp.weixin.qq.com/s/NQA3UvzDB0wnKY-0mJCB0g	星链的军事化应用	qq.com	mp.weixin.qq.com	/s/NQA3UvzDB0wnKY-0mJCB0g
+20220606	观点	https://mp.weixin.qq.com/s?__biz=Mzg5NzY5NjM5Mg==&mid=2247484056&idx=1&sn=751c997279e7693e201d2cab6429244e&chksm=c06c957ff71b1c692b03fa78ff90cf504229cd5f3d1e36d23decc1799f35237c2f007ca51800&token=71555406&lang=zh_CN#rd	我所理解的安全运营	qq.com	mp.weixin.qq.com	/s
+20220606	论文	https://github.com/brant-ruan/slides-and-papers/	2022云原生安全技术峰会议题Slide	github.com	github.com	/brant-ruan/slides-and-papers/
+20220606	取证分析	https://mp.weixin.qq.com/s/XAGQl8rk4E-JFJYefIHqKg	浅谈设备指纹技术和应用	qq.com	mp.weixin.qq.com	/s/XAGQl8rk4E-JFJYefIHqKg
+20220606	运维安全	https://mp.weixin.qq.com/s/In-MdryQSdqFSA2fqdFHvg	SQL脚本自动化审核工具（MYSQL）	qq.com	mp.weixin.qq.com	/s/In-MdryQSdqFSA2fqdFHvg
+20220606	杂志	https://www.sec-wiki.com/weekly/431	SecWiki周刊（第431期)	sec-wiki.com	www.sec-wiki.com	/weekly/431
+20220606	恶意分析	https://mp.weixin.qq.com/s/pw9iMxU8wM7SGEReUsRNhQ	云上典型挖矿团伙浮沉	qq.com	mp.weixin.qq.com	/s/pw9iMxU8wM7SGEReUsRNhQ
+20220606	设备安全	https://mp.weixin.qq.com/s/ExecszAuGDXPa1ySysZ5xg	​C-V2X安全研究	qq.com	mp.weixin.qq.com	/s/ExecszAuGDXPa1ySysZ5xg
+20220606	Web安全	https://mp.weixin.qq.com/s/enP8MU7eBWaAbjb954JOMQ	对数据安全的一些思考	qq.com	mp.weixin.qq.com	/s/enP8MU7eBWaAbjb954JOMQ
+20220606	Web安全	https://mp.weixin.qq.com/s/Hkw95Y146xVAHLwZnPAH4w	OT环境下IoT安全的破局探索	qq.com	mp.weixin.qq.com	/s/Hkw95Y146xVAHLwZnPAH4w
+20220606	Web安全	https://mp.weixin.qq.com/s/Hkro91XoY4SdjFZNGcFAvg	微软数据安全防护之Know Your Data	qq.com	mp.weixin.qq.com	/s/Hkro91XoY4SdjFZNGcFAvg
+20220606	恶意分析	https://mp.weixin.qq.com/s/rTiXBtPtXb-QVZHJWUcA_g	滥用隐藏属性来攻击 Node.js 生态系统	qq.com	mp.weixin.qq.com	/s/rTiXBtPtXb-QVZHJWUcA_g
+20220606	恶意分析	https://mp.weixin.qq.com/s/d0yGhb6PFnHzg7U_nrBgAg	针对解释性语言包管理器的供应链攻击研究	qq.com	mp.weixin.qq.com	/s/d0yGhb6PFnHzg7U_nrBgAg
+20220606	设备安全	https://crad.ict.ac.cn/CN/10.7544/issn1000-1239.20211154#1	工业控制系统安全综述	ict.ac.cn	crad.ict.ac.cn	/CN/10.7544/issn1000-1239.20211154
+20220606	观点	https://mp.weixin.qq.com/s/3HXPUP-SoH95zxyWOflwyQ	从RSAC 2022创新沙盒看网安技术创新趋势	qq.com	mp.weixin.qq.com	/s/3HXPUP-SoH95zxyWOflwyQ
+20220606	恶意分析	https://mp.weixin.qq.com/s/RPGfeBe2hr8hTYXOKL286g	使用LATCH来阻止npm生态的安装时攻击	qq.com	mp.weixin.qq.com	/s/RPGfeBe2hr8hTYXOKL286g
+20220606	恶意分析	https://mp.weixin.qq.com/s/iNHFh6FBfcFtHndtgU9ZJw	通过NPM生态系统中的依赖树揭开脆弱性传播及其演化的神秘面纱	qq.com	mp.weixin.qq.com	/s/iNHFh6FBfcFtHndtgU9ZJw

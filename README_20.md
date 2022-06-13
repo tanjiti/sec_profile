@@ -4505,6 +4505,7 @@
 | Threekiii | Awesome-Redteam: 一个红队知识仓库 | https://github.com/Threekiii/Awesome-Redteam | https://github.com/Threekiii?tab=followers |  | None | None | 9 | 0 | 3 | 0 | 0 | Python,C,HTML | 0 | 0 | 1| 
 | ThreatHuntingProject | Threat Huntinghttps://github.com/ThreatHuntingProject/ThreatHunting/tree/master/huntsMore Infohttp://www.threathunting.net/by @ ThreatHuntProj @ DavidJBianco | https://github.com/ThreatHuntingProject/ThreatHunting/tree/master/huntsMore | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Jupyter | 0 | 0 | 1| 
 | ThestaRY7 | supplier: 主流供应商的一些攻击性漏洞汇总 | https://github.com/ThestaRY7/supplier | https://github.com/ThestaRY7?tab=followers |  | None | None | 29 | 0 | 130 | 0 | 0 | Python,Vue,JavaScript | 0 | 0 | 1| 
+| TheOfficialFloW | 在 Hardwear.io 安全会议上，研究员 theflow0 分享了他利用 Blu-ray 蓝光光碟攻击面攻击 PS5 的细节 | https://github.com/TheOfficialFloW/Presentations/blob/master/2022-hardwear-io-bd-jb.pdf | https://github.com/TheOfficialFloW?tab=followers | Information Security Engineer | Zurich | None | 34 | 0 | 48 | 0 | 0 | C | 0 | 0 | 1| 
 | Tencent | TencentOS tiny - 腾讯开源的面向物联网领域的实时操作系统 | https://github.com/Tencent/TencentOS-tiny | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Java,Python,Kotlin,JavaScript,C++,Lua,Go,PHP,CSS,C# | 23200 | 5900 | 3| 
 | Tas9er | 冰蝎Java WebShell免杀生成工具. | https://github.com/Tas9er/ByPassBehinder4J | https://github.com/Tas9er?tab=followers | Code And Web Security | None | A.E.0.S | 27 | 0 | 6 | 0 | 0 |  | 0 | 0 | 1| 
 | Tabll | gemnasium-db: GitLab 漏洞依赖项扫描的数据库 | https://github.com/Tabll/gemnasium-db | https://github.com/Tabll?tab=followers | a student 大部分项目都在自己的 https://gitlab.tabll.cn/Tabll 上，这里现在主要是用来放日志 | 杭州 | None | 45 | 1 | 0 | 0 | 0 | PHP | 0 | 0 | 1| 
@@ -4753,6 +4754,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Instagram 任意用户缩略图修改漏洞 | https://medium.com/@root.n33r4j/how-i-found-a-critical-bug-in-instagram-and-got-49500-bounty-from-facebook-626ff2c6a853| 
 | Defeating Windows ASLR via 32-bit Share Library | https://medium.com/@mxmssh/defeating-windows-aslr-via-32-bit-shared-libraries-in-2-hours-1e225e182155?source=social.tw| 
 | 组合多个漏洞实现俄罗斯社交网站 VK 的 RCE | https://medium.com/@byq/from-open-redirect-to-rce-in-one-week-66a7f73fd082| 
 | Honeysploit - 在公开漏洞利用代码中嵌入恶意代码攻击 Exploiter | https://curtbraz.medium.com/exploiting-the-exploiters-46fd0d620fd8| 

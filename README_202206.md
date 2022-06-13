@@ -49,6 +49,7 @@
 | cea-sec | usbsas - 从不受信任的 USB 存储设备读取数据的工具 | https://github.com/cea-sec/usbsas | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,Rust | 0 | 0 | 1| 
 | brant-ruan | 2022云原生安全技术峰会议题Slide | https://github.com/brant-ruan/slides-and-papers/ | https://github.com/brant-ruan?tab=followers | IT Security Researcher | China | NSFOCUS Inc. | 58 | 0 | 515 | 0 | 0 | Python,Go,Shell | 0 | 0 | 1| 
 | aquasecurity | Trivy - 在容器镜像、文件系统、Git Repo 中扫描漏洞的工具 | https://github.com/aquasecurity/trivy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,Shell,Dockerfile,TypeScript | 0 | 0 | 1| 
+| TheOfficialFloW | 在 Hardwear.io 安全会议上，研究员 theflow0 分享了他利用 Blu-ray 蓝光光碟攻击面攻击 PS5 的细节 | https://github.com/TheOfficialFloW/Presentations/blob/master/2022-hardwear-io-bd-jb.pdf | https://github.com/TheOfficialFloW?tab=followers | Information Security Engineer | Zurich | None | 34 | 0 | 48 | 0 | 0 | C | 0 | 0 | 1| 
 | RoseSecurity | 西门子 APOGEE PXC 自动化控制器认证绕过漏洞（CVE-2017-9947）扫描器 | https://github.com/RoseSecurity/APOLOGEE | https://github.com/RoseSecurity?tab=followers | Hobbyist Hacker , Lifetime Learner | None | None | 11 | 0 | 71 | 0 | 0 | Lua | 0 | 0 | 1| 
 | ManasHarsh | Web3 安全相关的资料收集 | https://github.com/ManasHarsh/Awesome-Web3-security | https://github.com/ManasHarsh?tab=followers | Cracking the web, a bit different than others | Bangalore | Netskope | 16 | 0 | 10 | 0 | 0 | Python,Shell | 0 | 0 | 1| 
 | Idov31 | FunctionStomping - 类似 Module Stomping 的 Shellcode 注入技术，用于逃逸反病毒软件的检测 | https://github.com/Idov31/FunctionStomping | https://github.com/Idov31?tab=followers | Im an offensive security researcher and using this platform to share my projects and research :) | mov eax, [ebp+location] | None | 10 | 0 | 139 | 0 | 0 | C++,Rust,PowerShell | 0 | 0 | 1| 
@@ -58,6 +59,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Instagram 任意用户缩略图修改漏洞 | https://medium.com/@root.n33r4j/how-i-found-a-critical-bug-in-instagram-and-got-49500-bounty-from-facebook-626ff2c6a853| 
 | Defeating Windows ASLR via 32-bit Share Library | https://medium.com/@mxmssh/defeating-windows-aslr-via-32-bit-shared-libraries-in-2-hours-1e225e182155?source=social.tw| 
 | 组合多个漏洞实现俄罗斯社交网站 VK 的 RCE | https://medium.com/@byq/from-open-redirect-to-rce-in-one-week-66a7f73fd082| 
 | Honeysploit - 在公开漏洞利用代码中嵌入恶意代码攻击 Exploiter | https://curtbraz.medium.com/exploiting-the-exploiters-46fd0d620fd8| 
