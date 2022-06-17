@@ -14,15 +14,21 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 薮猫科技 | CyberServal | CobaltStrike 流量分析与入侵检测 | https://mp.weixin.qq.com/s/CjsqWrm70HVEnolZrRD8oA | 1| 
+| 思想花火 | ttfirework | 信息安全BP的能力模型 | https://mp.weixin.qq.com/s/qZ_uu58R418BltFaeVcWww | 1| 
+| 安全小飞侠 | AvFisher | 关于BIS的《信息安全控制：网络安全条目》的解读及影响分析 | https://mp.weixin.qq.com/s/SlNo1ECifYSTQ4U-6umDEw | 1| 
+| 信息通信软件供应链安全社区 | gh_1b92fdc1f223 | 政策法规组,【SBOM政策文件研究】之 《现有SBOM格式和标准调查》译文 | https://mp.weixin.qq.com/s/DXWXTMsz_Sf1zlDIJd4RBw | 1| 
+| 中国科学院网络数据重点实验室 | NDST_CAS | 一文读懂事件知识图谱 | https://mp.weixin.qq.com/s/W3oewKOH2IXzDFXRCY4W6Q | 1| 
+| M01N Team | m01nteam | CyberBattleSim（内网自动化渗透）研究分析 | https://mp.weixin.qq.com/s/1XHJbGgK5kUtiiEtLlaY6w | 1| 
 | 国家网络威胁情报共享开放平台 | CNTIC2017 | 使用 Python 从泄露的日志中挖掘威胁情报的金矿 | https://mp.weixin.qq.com/s/0dnBvI9DNL0nko28UiLgrQ | 1| 
 | Tide安全团队 | TideSec | 自动化渗透测试工具开发实践 | https://mp.weixin.qq.com/s/jo_l-qU2rfP-JlAFs-8ZHg | 1| 
-| 电驭叛客 | Cyber-Hack | Cloud I Hack into Google Cloud | https://mp.weixin.qq.com/s/qXYkarSVVTpYLx9zwt0UjA | 2| 
 | 360威胁情报中心 | CoreSec360 | 鲨鱼的狂欢 — APT-C-55 Kimsuky组织近期BabyShark组件披露 | https://mp.weixin.qq.com/s/ZV8AOTd7YGUgCTTTZtTktQ | 1| 
 | 虎符智库 | TT_Thinktank | RSAC2022, 从创新沙盒看网安技术创新趋势 | https://mp.weixin.qq.com/s/3HXPUP-SoH95zxyWOflwyQ | 1| 
 | 落水轩 | gh_c10ee4802699 | 微软数据安全防护之Know Your Data | https://mp.weixin.qq.com/s/Hkro91XoY4SdjFZNGcFAvg | 2| 
 | 白帽兔 | xzu77058 | 溯源反制案例分享（二） | https://mp.weixin.qq.com/s/JXfNCIzZznn1UVXhYDzRIA | 1| 
 | 小道安全 | kdsafety | 浅谈设备指纹技术和应用 | https://mp.weixin.qq.com/s/XAGQl8rk4E-JFJYefIHqKg | 1| 
 | 全栈开发运维 | yellowleecn | SQL脚本自动化审核工具（MYSQL） | https://mp.weixin.qq.com/s/In-MdryQSdqFSA2fqdFHvg | 1| 
+| 电驭叛客 | Cyber-Hack | OT环境下IoT安全的破局探索 | https://mp.weixin.qq.com/s/Hkw95Y146xVAHLwZnPAH4w | 2| 
 | 且听安全 | qtcyber | CVE-2022-26134 Confluence OGNL RCE 漏洞深入分析和高版本绕过沙箱实现命令回显 | https://mp.weixin.qq.com/s/nCMtSD7QH8ai6fpurJBXTg | 1| 
 | GoGoHack | gogohack-n-secure | ​C-V2X安全研究 | https://mp.weixin.qq.com/s/ExecszAuGDXPa1ySysZ5xg | 1| 
 | 战略前沿技术 | Tech999 | 张驰：星链的军事化应用 | https://mp.weixin.qq.com/s/NQA3UvzDB0wnKY-0mJCB0g | 1| 
@@ -47,6 +53,7 @@
 | rust-fuzz | honggfuzz-rs - 利用 Honggfuzz Fuzz Rust 代码 | https://github.com/rust-fuzz/honggfuzz-rs | None | None | None | None | 0 | 0 | 0 | 0 | 0 | HTML,Shell,C++,Rust | 0 | 0 | 1| 
 | quarkslab | TPMEavesEmu - 通过模拟的方法辅助测试 TPM 实现安全的工具 | https://github.com/quarkslab/tpmee | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Python,JavaScript,C++,Shell,Go | 0 | 0 | 1| 
 | mattifestation | AntimalwareBlight - 滥用 Windows Early Launch Antimalware (ELAM) 的防护功能 | https://github.com/mattifestation/AntimalwareBlight | https://github.com/mattifestation?tab=followers |  | None | None | 29 | 0 | 10 | 0 | 0 | PowerShell | 0 | 0 | 1| 
+| hardenedvault | VED - Linux 内核威胁检测和防御系统 | https://github.com/hardenedvault/ved | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,Shell | 0 | 0 | 1| 
 | eset | ESET 对基于多层虚拟机实现的恶意软件 Loader - Wslink 的分析 | https://github.com/eset/wslink-vm-analyzer/blob/master/slides/WslinkVMREcon.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,YARA,C,CSS,Go | 0 | 0 | 1| 
 | ehids | eCapture - 基于 eBPF 技术实现 TLS 加密的明文捕获 | https://github.com/ehids/ecapture | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,C | 0 | 0 | 1| 
 | cea-sec | usbsas - 从不受信任的 USB 存储设备读取数据的工具 | https://github.com/cea-sec/usbsas | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,Rust | 0 | 0 | 1| 
@@ -82,6 +89,7 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| Google对于云安全未来的发展方向（CISO 云安全转型指南白皮书... | https://zhuanlan.zhihu.com/p/529772138| 
 | Google对于未来SOC的建设思考（自动化安全运营白皮书） | https://zhuanlan.zhihu.com/p/528817905| 
 | 在计算机领域的科研中，最初的创新点从何而来？ | https://www.zhihu.com/question/534444001| 
 | Fuzzm: 针对WebAssembly内存错误的模糊测试 | https://zhuanlan.zhihu.com/p/523207785| 

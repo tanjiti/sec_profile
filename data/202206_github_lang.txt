@@ -1,6 +1,6 @@
-Python	7
-C	6
-Shell	5
+Python	8
+C	7
+Shell	6
 Go	5
 C++	3
 Rust	3
