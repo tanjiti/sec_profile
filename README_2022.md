@@ -18,7 +18,7 @@
 | 思想花火 | ttfirework | 信息安全BP的能力模型 | https://mp.weixin.qq.com/s/qZ_uu58R418BltFaeVcWww | 1| 
 | 信息通信软件供应链安全社区 | gh_1b92fdc1f223 | 政策法规组,【SBOM政策文件研究】之 《现有SBOM格式和标准调查》译文 | https://mp.weixin.qq.com/s/DXWXTMsz_Sf1zlDIJd4RBw | 1| 
 | 中国科学院网络数据重点实验室 | NDST_CAS | 一文读懂事件知识图谱 | https://mp.weixin.qq.com/s/W3oewKOH2IXzDFXRCY4W6Q | 1| 
-| 落水轩 | gh_c10ee4802699 | 微软数据安全防护之Know Your Data | https://mp.weixin.qq.com/s/Hkro91XoY4SdjFZNGcFAvg | 2| 
+| 落水轩 | gh_c10ee4802699 | 微软数据安全防护之Know Your Data | https://mp.weixin.qq.com/s/Hkro91XoY4SdjFZNGcFAvg | 3| 
 | 白帽兔 | xzu77058 | 溯源反制案例分享（二） | https://mp.weixin.qq.com/s/JXfNCIzZznn1UVXhYDzRIA | 1| 
 | 全栈开发运维 | yellowleecn | SQL脚本自动化审核工具（MYSQL） | https://mp.weixin.qq.com/s/In-MdryQSdqFSA2fqdFHvg | 1| 
 | 电驭叛客 | Cyber-Hack | OT环境下IoT安全的破局探索 | https://mp.weixin.qq.com/s/Hkw95Y146xVAHLwZnPAH4w | 2| 
@@ -367,7 +367,7 @@
 | 微步在线 | Threatbook | 企业常见四种内部威胁，第一种最容易中招 , 微步一周荐读 | https://mp.weixin.qq.com/s?__biz=MzI5NjA0NjI5MQ==&mid=2650171190&idx=1&sn=90358fb4013e10f5499d24d0accb8f6e | 9| 
 | 弥天安全实验室 | gh_41292c8e5379 | CVE-2021-4034 Linux Polkit 权限提升漏洞复现 | https://mp.weixin.qq.com/s?__biz=MzU2NDgzOTQzNw==&mid=2247488175&idx=1&sn=204aed4c76ecf40e26c04f42f2f64c5e | 15| 
 | 安恒信息资讯 | DBAPP688023 | 通知,安恒信息春节应急保障 7*24小时为您在线 | https://mp.weixin.qq.com/s?__biz=MzkwODE2OTU0NA==&mid=2247485131&idx=1&sn=3ed9779e09cd188b2a396d61868a0f6f | 1| 
-| 安天集团 | Antiylab | 冬训营丨2021年网络安全威胁回顾 | https://mp.weixin.qq.com/s?__biz=MjM5MTA3Nzk4MQ==&mid=2650186693&idx=1&sn=f2f236c72d7a194c190474ed2d8b86d1 | 8| 
+| 安天集团 | Antiylab | 冬训营丨2021年网络安全威胁回顾 | https://mp.weixin.qq.com/s?__biz=MjM5MTA3Nzk4MQ==&mid=2650186693&idx=1&sn=f2f236c72d7a194c190474ed2d8b86d1 | 9| 
 | 安在 | AnZer_SH | 诸子笔会 , 刘顺：企业网络安全规划建设实践 | https://mp.weixin.qq.com/s?__biz=MzU5ODgzNTExOQ==&mid=2247534758&idx=2&sn=62917dab4f399bba8b5aa58997c3595d | 50| 
 | 安全牛 | aqniu-wx | 以人为本，如何在“辞职潮”中寻找和留住网络安全人才？ | https://mp.weixin.qq.com/s?__biz=MjM5Njc3NjM4MA==&mid=2651110141&idx=1&sn=2c91fa8980e32678755fa798f8c397d1 | 57| 
 | 安全圈 | ChinaAnQuan | 【安全圈】北美IT公司调查表明：勒索软件团伙正在加大力度招募内部人员来协助攻击 | https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2651991947&idx=4&sn=a775a6c5673df5d367e2be5a2bc594a9 | 86| 
