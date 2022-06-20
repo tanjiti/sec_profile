@@ -49,6 +49,7 @@
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | winsiderss | System Informer - 一款开源的 Windows 资源监控和软件调试工具 | https://github.com/winsiderss/systeminformer | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 0 | 0 | 1| 
+| twosmi1e | 静态分析及代码审计自动化相关资料收集 | https://github.com/twosmi1e/Static-Analysis-and-Automated-Code-Audit | https://github.com/twosmi1e?tab=followers |  | None | None | 38 | 0 | 309 | 0 | 0 | JavaScript,Java,HTML | 0 | 0 | 1| 
 | tr3ee | Linux eBPF CVE-2022-23222 提权漏洞 Exploit | https://github.com/tr3ee/CVE-2022-23222 | http://tr3e.ee | tr3eee , Member of ROIS/SCSL , Security Researcher | None | None | 28 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | therealsaumil | EMUX Firmware Emulation Framework | https://github.com/therealsaumil/emux | https://github.com/therealsaumil?tab=followers |  | None | None | 10 | 0 | 0 | 0 | 0 | Python,C,JavaScript,Assembly,Arduino | 0 | 0 | 1| 
 | rust-fuzz | honggfuzz-rs - 利用 Honggfuzz Fuzz Rust 代码 | https://github.com/rust-fuzz/honggfuzz-rs | None | None | None | None | 0 | 0 | 0 | 0 | 0 | HTML,Shell,C++,Rust | 0 | 0 | 1| 

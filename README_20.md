@@ -3878,6 +3878,7 @@
 | ucbrise | confluo: Real-time Monitoring and Analysis of Data Streams | https://github.com/ucbrise/confluo | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Jupyter,Assembly,Python,JavaScript,Scala,C++,TeX,HTML,Go,Java,CSS | 0 | 0 | 1| 
 | tylerhalfpop | List of reverse engineering resourceshttps://github.com/tylerhalfpop/awesome-reversing#reverseengineering | https://github.com/tylerhalfpop/awesome-reversing#reverseengineering | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 2| 
 | twostairs | paperwork:OpenSource note-taking & archiving | https://github.com/twostairs/paperwork | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| twosmi1e | 静态分析及代码审计自动化相关资料收集 | https://github.com/twosmi1e/Static-Analysis-and-Automated-Code-Audit | https://github.com/twosmi1e?tab=followers |  | None | None | 38 | 0 | 309 | 0 | 0 | JavaScript,Java,HTML | 0 | 0 | 1| 
 | ttttmr | 检测浏览器是否存在代理 | https://github.com/ttttmr/checkproxy | https://github.com/ttttmr?tab=followers | Security & Development | None | Chaitin | 45 | 0 | 0 | 0 | 0 | Python,HTML,JavaScript | 0 | 0 | 1| 
 | ttonys | 获取每日最新的CVE和CNVD漏洞 | https://github.com/ttonys/Scrapy-CVE-CNVD | https://www.sys71m.top/ | 只见树木，不见森林 | None | None | 5 | 0 | 0 | 0 | 0 | Python,PHP,HTML,CSS | 15 | 1 | 1| 
 | trailofbits | Sienna Locomotive - 为缺乏安全经验的 Windows 开发者写的 Fuzzer | https://github.com/trailofbits/sienna-locomotive | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,CMake,Python,Ruby,JavaScript,C++,Go,Swift,Rust | 18300 | 1600 | 5| 

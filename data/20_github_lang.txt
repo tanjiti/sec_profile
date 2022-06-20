@@ -1,9 +1,9 @@
 Python	1106
 C	692
-JavaScript	665
+JavaScript	666
 C++	564
-HTML	486
-Java	477
+HTML	487
+Java	478
 Shell	463
 Go	410
 C#	288

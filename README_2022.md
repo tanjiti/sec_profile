@@ -506,6 +506,7 @@
 | xepor | Xepor - Web Routing 框架，利用 Flask API 劫持和篡改 HTTP 请求的工具 | https://github.com/xepor/xepor | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | wtdcode | 为 Unicorn 模拟器引擎提供 libfuzzer 的支持 | https://github.com/wtdcode/fuzzercorn | https://github.com/wtdcode?tab=followers | ETH Zurich Student. | Winterthur | None | 58 | 0 | 299 | 0 | 0 | Python,C#,C,C++,Rust | 0 | 0 | 1| 
 | winsiderss | System Informer - 一款开源的 Windows 资源监控和软件调试工具 | https://github.com/winsiderss/systeminformer | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 0 | 0 | 1| 
+| twosmi1e | 静态分析及代码审计自动化相关资料收集 | https://github.com/twosmi1e/Static-Analysis-and-Automated-Code-Audit | https://github.com/twosmi1e?tab=followers |  | None | None | 38 | 0 | 309 | 0 | 0 | JavaScript,Java,HTML | 0 | 0 | 1| 
 | trailofbits | Manticore - trailofbits 开源的符号执行工具，用于分析智能合约和二进制文件 | https://github.com/trailofbits/manticore | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Java,Jinja,Python,C++,Go,Ruby,Rust | 0 | 0 | 3| 
 | tr3ee | Linux eBPF CVE-2022-23222 提权漏洞 Exploit | https://github.com/tr3ee/CVE-2022-23222 | http://tr3e.ee | tr3eee , Member of ROIS/SCSL , Security Researcher | None | None | 28 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | tihmstar | iOS 15.1 kernel exploit POC for CVE-2021-30955 | https://github.com/tihmstar/desc_race-fun_public | https://github.com/tihmstar?tab=followers | My PGP Key fingerprint can be found in my Twitter bio: https://twitter.com/tihmstar | None | None | 81 | 0 | 15 | 0 | 0 | C,Objective-C,C++ | 0 | 0 | 1| 
