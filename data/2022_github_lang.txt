@@ -1,14 +1,14 @@
 Python	89
-C	56
+C	57
 C++	45
-JavaScript	43
+JavaScript	44
 Java	40
 Go	38
 Shell	30
 HTML	28
+Rust	22
 C#	22
 TypeScript	21
-Rust	21
 PowerShell	16
 Jupyter	12
 Ruby	10

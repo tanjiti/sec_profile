@@ -1,6 +1,6 @@
 Python	1106
-C	692
-JavaScript	666
+C	693
+JavaScript	667
 C++	564
 HTML	487
 Java	478
@@ -13,7 +13,7 @@ CSS	224
 PHP	221
 TypeScript	172
 Objective-C	139
-Rust	137
+Rust	138
 Jupyter	114
 Dockerfile	77
 Perl	72

@@ -3970,6 +3970,7 @@
 | scadastrangelove | SCADA StrangeLove Default/Hardcoded Passwords List | https://github.com/scadastrangelove/SCADAPASS/blob/master/scadapass.csv | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 2| 
 | sbousseaden | Windows 系统各类攻击和渗透行为的 Events 样本收集 | https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES | http://@SBousseaden | Threat Hunting & DFIR | None | None | 63 | 0 | 0 | 0 | 0 | Python,YARA,PowerShell | 974 | 195 | 3| 
 | satan1a | TheRoadOfSO: 学习安全运营的记录 | https://github.com/satan1a/TheRoadOfSO/ | https://github.com/satan1a?tab=followers | Hello from the end of the world :-) | None | None | 157 | 0 | 977 | 0 | 0 | Python,HTML | 0 | 0 | 1| 
+| sarsko | CreuSAT - Rust 写的 SAT solver | https://github.com/sarsko/CreuSAT | https://github.com/sarsko | @sarsko | Oslo | None | 10 | 0 | 19 | 0 | 0 | C,JavaScript,Rust | 0 | 0 | 1| 
 | sanvil | vsauditVOIP Security Audit Frameworkby @ SanvilSrl https://github.com/sanvil/vsaudit | https://github.com/sanvil/vsaudit | None |  | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | sandrogauci | wafw00f: identify and fingerprint Web Application Firewall products | https://github.com/sandrogauci/wafw00f | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | samuraictf | SHURIKEN: Exploit throwing framework | https://github.com/samuraictf/shuriken-framework | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -4048,6 +4049,7 @@
 | open-source-society | 计算机学科自学视频教程系列 | https://github.com/open-source-society/computer-science | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | omriher | CapTipper:Malicious HTTP traffic explorer | https://github.com/omriher/CapTipper | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | omarrx024 | Show HN: xOS a 32-bit OS for the PC https://github.com/omarrx024/xos ( | https://github.com/omarrx024/xos | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| omair2084 | Windows NFS CVE-2022-26937 PoC | https://github.com/omair2084/CVE-2022-26937 | https://github.com/omair2084?tab=followers |  | None | None | 13 | 0 | 0 | 0 | 0 | Python,Shell | 0 | 0 | 1| 
 | olacabs | JACKHAMMER - Security vulnerability assessment tool | https://github.com/olacabs/jackhammer | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,JavaScript,Java,HTML | 0 | 0 | 1| 
 | odedshimon | BruteShark: Network Analysis Tool | https://github.com/odedshimon/BruteShark | http://www.linkedin.com/in/oded-shimon-6ba6721a8 | Software & Cyber Engineer | None | None | 3 | 0 | 0 | 0 | 0 | C#,Python | 992 | 126 | 1| 
 | occia | 自动生成 Fuzz Driver，Fuzz macOS 闭源 SDK | https://github.com/occia/apicraft | https://github.com/occia?tab=followers | poor in every aspect but desire : ( | The Earth | Nanyang Technological University | 18 | 0 | 242 | 0 | 0 | Go,Dockerfile,C++,Objective-C++ | 0 | 0 | 1| 

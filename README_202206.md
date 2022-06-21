@@ -52,8 +52,10 @@
 | twosmi1e | 静态分析及代码审计自动化相关资料收集 | https://github.com/twosmi1e/Static-Analysis-and-Automated-Code-Audit | https://github.com/twosmi1e?tab=followers |  | None | None | 38 | 0 | 309 | 0 | 0 | JavaScript,Java,HTML | 0 | 0 | 1| 
 | tr3ee | Linux eBPF CVE-2022-23222 提权漏洞 Exploit | https://github.com/tr3ee/CVE-2022-23222 | http://tr3e.ee | tr3eee , Member of ROIS/SCSL , Security Researcher | None | None | 28 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | therealsaumil | EMUX Firmware Emulation Framework | https://github.com/therealsaumil/emux | https://github.com/therealsaumil?tab=followers |  | None | None | 10 | 0 | 0 | 0 | 0 | Python,C,JavaScript,Assembly,Arduino | 0 | 0 | 1| 
+| sarsko | CreuSAT - Rust 写的 SAT solver | https://github.com/sarsko/CreuSAT | https://github.com/sarsko | @sarsko | Oslo | None | 10 | 0 | 19 | 0 | 0 | C,JavaScript,Rust | 0 | 0 | 1| 
 | rust-fuzz | honggfuzz-rs - 利用 Honggfuzz Fuzz Rust 代码 | https://github.com/rust-fuzz/honggfuzz-rs | None | None | None | None | 0 | 0 | 0 | 0 | 0 | HTML,Shell,C++,Rust | 0 | 0 | 1| 
 | quarkslab | TPMEavesEmu - 通过模拟的方法辅助测试 TPM 实现安全的工具 | https://github.com/quarkslab/tpmee | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Python,JavaScript,C++,Shell,Go | 0 | 0 | 1| 
+| omair2084 | Windows NFS CVE-2022-26937 PoC | https://github.com/omair2084/CVE-2022-26937 | https://github.com/omair2084?tab=followers |  | None | None | 13 | 0 | 0 | 0 | 0 | Python,Shell | 0 | 0 | 1| 
 | mattifestation | AntimalwareBlight - 滥用 Windows Early Launch Antimalware (ELAM) 的防护功能 | https://github.com/mattifestation/AntimalwareBlight | https://github.com/mattifestation?tab=followers |  | None | None | 29 | 0 | 10 | 0 | 0 | PowerShell | 0 | 0 | 1| 
 | hardenedvault | VED - Linux 内核威胁检测和防御系统 | https://github.com/hardenedvault/ved | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,Shell | 0 | 0 | 1| 
 | eset | ESET 对基于多层虚拟机实现的恶意软件 Loader - Wslink 的分析 | https://github.com/eset/wslink-vm-analyzer/blob/master/slides/WslinkVMREcon.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,YARA,C,CSS,Go | 0 | 0 | 1| 

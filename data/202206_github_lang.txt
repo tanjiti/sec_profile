@@ -1,10 +1,10 @@
+C	8
 Python	8
-C	7
 Shell	6
 Go	5
-JavaScript	3
+JavaScript	4
+Rust	4
 C++	3
-Rust	3
 Java	2
 TypeScript	2
 HTML	2
