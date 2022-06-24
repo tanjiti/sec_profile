@@ -14,15 +14,21 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
-| 安天集团 | Antiylab | “暗象”组织：潜藏十年的网络攻击 | https://mp.weixin.qq.com/s/mC5D8kFaQA-cIcw2rlTgeA | 1| 
+| 无线通信安全 | SateSec | 复盘卫星大战 Hack-A-Sat 2 天基攻防竞赛 | https://mp.weixin.qq.com/s/GvXa8X1o83HCJkMIvTcK8A | 2| 
+| 404 Not F0und | AI4Security | 安全团队的演进及个人定位思考 | https://mp.weixin.qq.com/s/lLawi2Dv_d3xPR2Rds9U3g | 1| 
+| 智能汽车设计 | qcznsj | 毕马威：2022车联网数据安全监管研究报告 | https://mp.weixin.qq.com/s/CaWLiMWO_fhbLWt3DVMXbA | 1| 
+| 妄为写代码 | wwcoding6 | 当 Xiaomi 12 遇到 eBPF | https://mp.weixin.qq.com/s/h_ixxr1WZ8VqYt-zMrwSDA | 1| 
+| 天书奇坛TFT | gh_52ca0a568cdc | 电信网络诈骗黑灰产生态概览：基础设施 | https://mp.weixin.qq.com/s/N7ChFTCsDzfgQkL6J0ALow | 1| 
+| 俗事吧 | gh_2cbae9d23f6a | ysuserial 0.1 尝鲜 | https://mp.weixin.qq.com/s/05LOjys8XJhUxg8qKYuWtg | 1| 
 | 薮猫科技 | CyberServal | CobaltStrike 流量分析与入侵检测 | https://mp.weixin.qq.com/s/CjsqWrm70HVEnolZrRD8oA | 1| 
 | 思想花火 | ttfirework | 信息安全BP的能力模型 | https://mp.weixin.qq.com/s/qZ_uu58R418BltFaeVcWww | 1| 
+| 安天集团 | Antiylab | “暗象”组织：潜藏十年的网络攻击 | https://mp.weixin.qq.com/s/mC5D8kFaQA-cIcw2rlTgeA | 1| 
 | 安全小飞侠 | AvFisher | 关于BIS的《信息安全控制：网络安全条目》的解读及影响分析 | https://mp.weixin.qq.com/s/SlNo1ECifYSTQ4U-6umDEw | 1| 
+| 国家网络威胁情报共享开放平台 | CNTIC2017 | 使用 Python 从泄露的日志中挖掘威胁情报的金矿 | https://mp.weixin.qq.com/s/0dnBvI9DNL0nko28UiLgrQ | 1| 
 | 信息通信软件供应链安全社区 | gh_1b92fdc1f223 | 政策法规组,【SBOM政策文件研究】之 《现有SBOM格式和标准调查》译文 | https://mp.weixin.qq.com/s/DXWXTMsz_Sf1zlDIJd4RBw | 1| 
 | 中国科学院网络数据重点实验室 | NDST_CAS | 一文读懂事件知识图谱 | https://mp.weixin.qq.com/s/W3oewKOH2IXzDFXRCY4W6Q | 1| 
-| M01N Team | m01nteam | CyberBattleSim（内网自动化渗透）研究分析 | https://mp.weixin.qq.com/s/1XHJbGgK5kUtiiEtLlaY6w | 1| 
-| 国家网络威胁情报共享开放平台 | CNTIC2017 | 使用 Python 从泄露的日志中挖掘威胁情报的金矿 | https://mp.weixin.qq.com/s/0dnBvI9DNL0nko28UiLgrQ | 1| 
 | Tide安全团队 | TideSec | 自动化渗透测试工具开发实践 | https://mp.weixin.qq.com/s/jo_l-qU2rfP-JlAFs-8ZHg | 1| 
+| M01N Team | m01nteam | CyberBattleSim（内网自动化渗透）研究分析 | https://mp.weixin.qq.com/s/1XHJbGgK5kUtiiEtLlaY6w | 2| 
 | 360威胁情报中心 | CoreSec360 | 鲨鱼的狂欢 — APT-C-55 Kimsuky组织近期BabyShark组件披露 | https://mp.weixin.qq.com/s/ZV8AOTd7YGUgCTTTZtTktQ | 1| 
 | 虎符智库 | TT_Thinktank | RSAC2022, 从创新沙盒看网安技术创新趋势 | https://mp.weixin.qq.com/s/3HXPUP-SoH95zxyWOflwyQ | 1| 
 | 落水轩 | gh_c10ee4802699 | 微软数据安全防护之Know Your Data | https://mp.weixin.qq.com/s/Hkro91XoY4SdjFZNGcFAvg | 3| 
@@ -34,7 +40,7 @@
 | GoGoHack | gogohack-n-secure | ​C-V2X安全研究 | https://mp.weixin.qq.com/s/ExecszAuGDXPa1ySysZ5xg | 1| 
 | 战略前沿技术 | Tech999 | 张驰：星链的军事化应用 | https://mp.weixin.qq.com/s/NQA3UvzDB0wnKY-0mJCB0g | 1| 
 | 安全学术圈 | secquan | 滥用隐藏属性来攻击 Node.js 生态系统 | https://mp.weixin.qq.com/s/rTiXBtPtXb-QVZHJWUcA_g | 4| 
-| 威胁棱镜 | THREAT_PRISM | 云上典型挖矿团伙浮沉 | https://mp.weixin.qq.com/s/pw9iMxU8wM7SGEReUsRNhQ | 2| 
+| 威胁棱镜 | THREAT_PRISM | 云上典型挖矿团伙浮沉 | https://mp.weixin.qq.com/s/pw9iMxU8wM7SGEReUsRNhQ | 3| 
 | YY的黑板报 | gh_a91bd497db44 | 我所理解的安全运营 | https://mp.weixin.qq.com/s?__biz=Mzg5NzY5NjM5Mg==&mid=2247484056&idx=1&sn=751c997279e7693e201d2cab6429244e&chksm=c06c957ff71b1c692b03fa78ff90cf504229cd5f3d1e36d23decc1799f35237c2f007ca51800&token=71555406&lang=zh_CN#rd | 2| 
 | MicroPest | gh_696c36c5382b | CVE-2022-30190漏洞的学习一 | https://mp.weixin.qq.com/s/wzdXRnYM0-5iN3tcZZnUWA | 1| 
 | 这里是河马 | gh_f779ec60843d | 利用Confluence漏洞攻击的WebShell，河马已支持查杀 | https://mp.weixin.qq.com/s/I0XOcfJF9vMlT7YuwnANHA | 1| 
