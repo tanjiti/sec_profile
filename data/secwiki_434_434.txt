@@ -1,0 +1,14 @@
+20220620	Web安全	https://mp.weixin.qq.com/s/05LOjys8XJhUxg8qKYuWtg	ysuserial：Java 反序列化漏洞利用工具	qq.com	mp.weixin.qq.com	/s/05LOjys8XJhUxg8qKYuWtg
+20220620	观点	https://mp.weixin.qq.com/s/lLawi2Dv_d3xPR2Rds9U3g	安全团队的演进及个人定位思考	qq.com	mp.weixin.qq.com	/s/lLawi2Dv_d3xPR2Rds9U3g
+20220620	Web安全	https://github.com/StarCrossPortal/QingTing	QingTing: 安全工具编排平台	github.com	github.com	/StarCrossPortal/QingTing
+20220620	无线安全	https://mp.weixin.qq.com/s/HWLVfByhpnmIaRYugWfQ6Q	复盘卫星大战 Hack-A-Sat 1 天基攻防竞赛	qq.com	mp.weixin.qq.com	/s/HWLVfByhpnmIaRYugWfQ6Q
+20220620	恶意分析	https://mp.weixin.qq.com/s/N7ChFTCsDzfgQkL6J0ALow	电信网络诈骗黑灰产生态概览：基础设施	qq.com	mp.weixin.qq.com	/s/N7ChFTCsDzfgQkL6J0ALow
+20220620	无线安全	https://mp.weixin.qq.com/s/GvXa8X1o83HCJkMIvTcK8A	复盘卫星大战 Hack-A-Sat 2 天基攻防竞赛	qq.com	mp.weixin.qq.com	/s/GvXa8X1o83HCJkMIvTcK8A
+20220620	移动安全	https://mp.weixin.qq.com/s/h_ixxr1WZ8VqYt-zMrwSDA	当 XM 12 遇到 eBPF	qq.com	mp.weixin.qq.com	/s/h_ixxr1WZ8VqYt-zMrwSDA
+20220620	恶意分析	https://mp.weixin.qq.com/s/FkRsfS0EQ9ouncoZFbWUSQ	测量哈萨克斯坦对 HTTPS 的大规模拦截	qq.com	mp.weixin.qq.com	/s/FkRsfS0EQ9ouncoZFbWUSQ
+20220620	杂志	https://www.sec-wiki.com/weekly/433	SecWiki周刊（第433期)	sec-wiki.com	www.sec-wiki.com	/weekly/433
+20220620	其它	https://mp.weixin.qq.com/s/CaWLiMWO_fhbLWt3DVMXbA	2022车联网数据安全监管研究报告	qq.com	mp.weixin.qq.com	/s/CaWLiMWO_fhbLWt3DVMXbA
+20220620	恶意分析	https://mp.weixin.qq.com/s/b9GgiUJ4-UTv_YaP79aTPw	MITRE 供应链安全可信系统技术框架（SoT™）	qq.com	mp.weixin.qq.com	/s/b9GgiUJ4-UTv_YaP79aTPw
+20220620	其它	https://mp.weixin.qq.com/s/qjC_dCOdFRIfYot8OUfJHA	美国爱因斯坦计划跟踪与解读（2022v1版）	qq.com	mp.weixin.qq.com	/s/qjC_dCOdFRIfYot8OUfJHA
+20220620	无线安全	https://mp.weixin.qq.com/s/s2mx6dGfcj9q0lgGXUCzcg	太空网络安全风险及攻防演练	qq.com	mp.weixin.qq.com	/s/s2mx6dGfcj9q0lgGXUCzcg
+20220620	数据挖掘	https://mp.weixin.qq.com/s/uF1X7auEpYqXpsrSbhhG6A	基于持续学习方法的命名实体识别	qq.com	mp.weixin.qq.com	/s/uF1X7auEpYqXpsrSbhhG6A

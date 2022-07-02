@@ -1,16 +1,17 @@
 Python	15
 C	9
 Shell	6
+Rust	6
 Go	6
 JavaScript	5
-Rust	5
-C++	4
+C++	5
 PowerShell	4
 TypeScript	3
-Java	2
+Java	3
 Dockerfile	2
 HTML	2
 CSS	2
+PHP	2
 Arduino	1
 Makefile	1
 Lua	1
@@ -20,4 +21,3 @@ Solidity	1
 Vue	1
 Jupyter	1
 C#	1
-PHP	1
