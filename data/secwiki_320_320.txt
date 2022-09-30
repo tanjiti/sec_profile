@@ -1,0 +1,32 @@
+20200413	新闻	https://mp.weixin.qq.com/s/3P4zEOepOxBETOcvBYhpDA	公安部公布十起侵犯公民个人信息违法犯罪典型案件	qq.com	mp.weixin.qq.com	/s/3P4zEOepOxBETOcvBYhpDA
+20200413	Web安全	https://xz.aliyun.com/t/7538	详述一次拿shell后的单机信息搜集和贯穿整个内网的大型横向渗透	aliyun.com	xz.aliyun.com	/t/7538
+20200413	Web安全	https://bacde.me/post/Extract-API-Keys-From-Regex/	一些提取api key的正则表达式	bacde.me	bacde.me	/post/Extract-API-Keys-From-Regex/
+20200413	Web安全	https://github.com/gobysec/Goby	Goby新一代安全测试工具	github.com	github.com	/gobysec/Goby
+20200413	恶意分析	https://mp.weixin.qq.com/s/-v7-M05Qyob5Rpzm_9lPQQ	一次对钓鱼邮件攻击者的溯源分析	qq.com	mp.weixin.qq.com	/s/-v7-M05Qyob5Rpzm_9lPQQ
+20200413	Web安全	https://xz.aliyun.com/t/7541	浅析接口安全之WebService	aliyun.com	xz.aliyun.com	/t/7541
+20200413	Web安全	https://xz.aliyun.com/t/7542	百家cms代码审计	aliyun.com	xz.aliyun.com	/t/7542
+20200413	Web安全	https://mp.weixin.qq.com/s/QJeW7K-KThYHggWtJ-Fh3w	网络层绕过IDS/IPS的一些探索	qq.com	mp.weixin.qq.com	/s/QJeW7K-KThYHggWtJ-Fh3w
+20200413	恶意分析	https://mp.weixin.qq.com/s/qGMRjCeIyHSHk_aXI8Fxbg	APT供应链攻击防护应对分析及意义	qq.com	mp.weixin.qq.com	/s/qGMRjCeIyHSHk_aXI8Fxbg
+20200413	Web安全	https://mp.weixin.qq.com/s/EfzSC979qQqXxXLZsV9LpA	渗透中的后门利用	qq.com	mp.weixin.qq.com	/s/EfzSC979qQqXxXLZsV9LpA
+20200413	恶意分析	https://mp.weixin.qq.com/s/ggFbaQvn8yUJOFi_-DPNOw	基于SOC机器学习检测平台的行为分析建模-HTTP隐蔽通信检测	qq.com	mp.weixin.qq.com	/s/ggFbaQvn8yUJOFi_-DPNOw
+20200413	Web安全	https://www.ohlinge.cn/web/mini_app_decompile.html	Wechat&Alipay小程序源码反编译	ohlinge.cn	www.ohlinge.cn	/web/mini_app_decompile.html
+20200413	观点	https://mp.weixin.qq.com/s/1_cJGTpH4dU780K6qngkjQ	国际网络安全应急响应体系介绍	qq.com	mp.weixin.qq.com	/s/1_cJGTpH4dU780K6qngkjQ
+20200413	恶意分析	https://www.cdxy.me/?p=821	容器化入侵检测Attack Matrix	cdxy.me	www.cdxy.me	/
+20200413	数据挖掘	https://mp.weixin.qq.com/s/m4jFHUP3JYF9Z8TUxi9UIg	复杂风控场景下，如何打造一款高效的规则引擎	qq.com	mp.weixin.qq.com	/s/m4jFHUP3JYF9Z8TUxi9UIg
+20200413	漏洞分析	https://xz.aliyun.com/t/7550	CVE-2020-0796 SMB漏洞本地提权分析	aliyun.com	xz.aliyun.com	/t/7550
+20200413	其它	https://mp.weixin.qq.com/s/2xhTg6HhgnFMA7jexgg3AA	Swaks SMTP协议操作工具	qq.com	mp.weixin.qq.com	/s/2xhTg6HhgnFMA7jexgg3AA
+20200413	数据挖掘	https://mp.weixin.qq.com/s/_q5s1fHc0DB3feSd4gQZyw	我对安全与NLP的实践和思考	qq.com	mp.weixin.qq.com	/s/_q5s1fHc0DB3feSd4gQZyw
+20200413	运维安全	https://zhuanlan.zhihu.com/p/129064940	从Google内部安全架构设计看威胁情报与威胁狩猎的应用场景	zhihu.com	zhuanlan.zhihu.com	/p/129064940
+20200413	取证分析	https://mp.weixin.qq.com/s/Te7c3HvCcxX3ci9HTn8lEQ	Provenance Mining：终端溯源数据挖掘与威胁狩猎	qq.com	mp.weixin.qq.com	/s/Te7c3HvCcxX3ci9HTn8lEQ
+20200413	运维安全	https://mp.weixin.qq.com/s/XNUrlIBTNUHuTji4c5l_bg	浅谈基于IaaS公有云的中小型企业基础安全建设	qq.com	mp.weixin.qq.com	/s/XNUrlIBTNUHuTji4c5l_bg
+20200413	漏洞分析	https://www.d00rt.eus/2020/04/ebfuscation-abusing-system-errors-for.html	Ebfuscation: Abusing system errors for binary obfuscation	d00rt.eus	www.d00rt.eus	/2020/04/ebfuscation-abusing-system-errors-for.html
+20200413	其它	https://mp.weixin.qq.com/s/oiSYOA-BDn9fUnb7EhO2vA	生鲜电商拉新场景业务安全测评报告	qq.com	mp.weixin.qq.com	/s/oiSYOA-BDn9fUnb7EhO2vA
+20200413	工具	https://github.com/citronneur/rdp-rs	rdp-rs: Remote Desktop Protocol in RUST	github.com	github.com	/citronneur/rdp-rs
+20200413	编程技术	https://nodersurvey.github.io/reporters/index.html	Node.js 开发者报告	github.io	nodersurvey.github.io	/reporters/index.html
+20200413	设备安全	https://m2ayill.gitbook.io/firmware-security-testing-methodology/v/zhong-wen-fstm/	OWASP固件安全性测试指南	gitbook.io	m2ayill.gitbook.io	/firmware-security-testing-methodology/v/zhong-wen-fstm/
+20200413	编程技术	https://mp.weixin.qq.com/s/wlB8Hz4nTgz9zEP3OEQDAQ	使用FATE进行图片识别的深度神经网络联邦学习	qq.com	mp.weixin.qq.com	/s/wlB8Hz4nTgz9zEP3OEQDAQ
+20200413	恶意分析	https://breakdev.org/pwndrop/	Pwndrop - Self-hosting Your Red Team Payloads	breakdev.org	breakdev.org	/pwndrop/
+20200413	无线安全	https://mp.weixin.qq.com/s/YYicKHHZuI4Hgyw25AvFsQ	移动基带安全研究系列文章之概念与系统篇	qq.com	mp.weixin.qq.com	/s/YYicKHHZuI4Hgyw25AvFsQ
+20200413	取证分析	https://www.freebuf.com/sectool/231106.html	SOC日志可视化工具：SOC Sankey Generator	freebuf.com	www.freebuf.com	/sectool/231106.html
+20200413	Web安全	http://avfisher.win/archives/1175	云上攻防：Red Teaming for Cloud	avfisher.win	avfisher.win	/archives/1175
+20200413	Web安全	https://github.com/QAX-A-Team/sharpwmi	sharpwmi: 基于RPC的横向移动工具	github.com	github.com	/QAX-A-Team/sharpwmi

@@ -1,0 +1,23 @@
+20210301	漏洞分析	https://mp.weixin.qq.com/s/2pvaQborwMM8UHnWS_CeXA	VMware vCenter RCE (CVE-2021-21972) 漏洞复现与 Exp 编写	qq.com	mp.weixin.qq.com	/s/2pvaQborwMM8UHnWS_CeXA
+20210301	恶意分析	https://mp.weixin.qq.com/s/Aq8RrH34PTkmF8lKzdY38g	红蓝对抗中的云原生漏洞挖掘及利用实录	qq.com	mp.weixin.qq.com	/s/Aq8RrH34PTkmF8lKzdY38g
+20210301	Web安全	https://github.com/peter-cui1221/sqlinjection-detect	sqlinjection-detect: C语言编写的基于语义分析的SQL注入检测库	github.com	github.com	/peter-cui1221/sqlinjection-detect
+20210301	Web安全	https://www.sec-in.com/article/899	SonicWall SSL-VPN 远程命令执行	sec-in.com	www.sec-in.com	/article/899
+20210301	Web安全	https://xz.aliyun.com/t/9213	PHP反序列化 — 字符逃逸	aliyun.com	xz.aliyun.com	/t/9213
+20210301	恶意分析	https://mp.weixin.qq.com/s/WMWQUWu8dt45iQsrcLfSxg	恶意软件分析工具集成环境	qq.com	mp.weixin.qq.com	/s/WMWQUWu8dt45iQsrcLfSxg
+20210301	观点	https://mp.weixin.qq.com/s/UR0XbF02JJmo7RbNF1CYVw	大白话解释拟态安全	qq.com	mp.weixin.qq.com	/s/UR0XbF02JJmo7RbNF1CYVw
+20210301	恶意分析	https://mp.weixin.qq.com/s/eQ-KDMoirOwx-pFxUcNjtQ	以蓝军视角跟踪和分析CANVAS攻击框架泄露事件	qq.com	mp.weixin.qq.com	/s/eQ-KDMoirOwx-pFxUcNjtQ
+20210301	其它	https://mp.weixin.qq.com/s/6pnaFU5PfYGs4d0oLmRkJA	趋势科技 2020 年度网络安全报告	qq.com	mp.weixin.qq.com	/s/6pnaFU5PfYGs4d0oLmRkJA
+20210301	杂志	https://www.sec-wiki.com/weekly/365	SecWiki周刊（第365期)	sec-wiki.com	www.sec-wiki.com	/weekly/365
+20210301	恶意分析	https://www.freebuf.com/articles/web/264966.html	Node.js原型链污染的利用	freebuf.com	www.freebuf.com	/articles/web/264966.html
+20210301	运维安全	https://mp.weixin.qq.com/s/5eX3-SCfvFfRitb9_onjvw	浅谈如何有效落地DevSecOps	qq.com	mp.weixin.qq.com	/s/5eX3-SCfvFfRitb9_onjvw
+20210301	恶意分析	https://github.com/sbousseaden/PCAP-ATTACK	PCAP-ATTACK: PCAP Samples for Different Post Exploitation Techniques	github.com	github.com	/sbousseaden/PCAP-ATTACK
+20210301	漏洞分析	https://mp.weixin.qq.com/s/ZIzjIZziM6inUNlr2CKBCg	游戏安全评审的技术进阶之路	qq.com	mp.weixin.qq.com	/s/ZIzjIZziM6inUNlr2CKBCg
+20210301	设备安全	https://www.anquanke.com/post/id/231440	IOT安全（二）——再探stm32	anquanke.com	www.anquanke.com	/post/id/231440
+20210301	数据挖掘	https://mp.weixin.qq.com/s/YyRLJa9NomPvzTWJKaCesQ	外卖特征平台的建设与实践	qq.com	mp.weixin.qq.com	/s/YyRLJa9NomPvzTWJKaCesQ
+20210301	取证分析	https://mp.weixin.qq.com/s/AI_mG-I3buqx1W4C2o24jg	流行窃密类木马分析（上）	qq.com	mp.weixin.qq.com	/s/AI_mG-I3buqx1W4C2o24jg
+20210301	漏洞分析	https://juejin.cn/post/6935413169271603208	智能化时代的代码缺陷检查探索	juejin.cn	juejin.cn	/post/6935413169271603208
+20210301	Web安全	https://mp.weixin.qq.com/s/cmgY6W_cGtGacfYgiac5qQ	关于近期Microsoft Exchange多个高危漏洞——ProxyLogon	qq.com	mp.weixin.qq.com	/s/cmgY6W_cGtGacfYgiac5qQ
+20210301	漏洞分析	https://www.volexity.com/blog/2021/03/02/active-exploitation-of-microsoft-exchange-zero-day-vulnerabilities/	Exploitation of Multiple Zero-Day Microsoft Exchange Vulnerabilities	volexity.com	www.volexity.com	/blog/2021/03/02/active-exploitation-of-microsoft-exchange-zero-day-vulnerabilities/
+20210301	恶意分析	https://mp.weixin.qq.com/s/8drGAZA0sbBFeJd9h8WPLw	Mydoom病毒分析报告	qq.com	mp.weixin.qq.com	/s/8drGAZA0sbBFeJd9h8WPLw
+20210301	漏洞分析	https://bc.cnvd.org.cn/notice_info?num=0c4088bbb6f7346000c3ac1ce13f0347	2020年区块链安全态势感知报告	cnvd.org.cn	bc.cnvd.org.cn	/notice_info
+20210301	设备安全	https://mp.weixin.qq.com/s/-s5GGA70vcHAVfyz1QeBtQ	Firm-AFL：高效的IoT固件灰盒fuzz	qq.com	mp.weixin.qq.com	/s/-s5GGA70vcHAVfyz1QeBtQ

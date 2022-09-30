@@ -1,0 +1,15 @@
+20210927	数据挖掘	https://toooold.com/2021/09/27/why_ml_fails_solving_sec_algo.html	为什么机器学习解决网络安全问题总是失败：谈谈特征空间	toooold.com	toooold.com	/2021/09/27/why_ml_fails_solving_sec_algo.html
+20210927	恶意分析	https://mp.weixin.qq.com/s/vvvPQweC0TZRFootoJPQbA	红蓝对抗之隐蔽通信应用及防御	qq.com	mp.weixin.qq.com	/s/vvvPQweC0TZRFootoJPQbA
+20210927	数据挖掘	https://mp.weixin.qq.com/s/iDZaElzNU5iz88KR3I8Dug	漏洞报告中的信息一致性研究	qq.com	mp.weixin.qq.com	/s/iDZaElzNU5iz88KR3I8Dug
+20210927	杂志	https://www.sec-wiki.com/weekly/395	SecWiki周刊（第395期)	sec-wiki.com	www.sec-wiki.com	/weekly/395
+20210927	恶意分析	https://mp.weixin.qq.com/s/R3-5kzS2RfjyBsTxY8O0tA	基于机器学习算法的主机恶意代码识别研究	qq.com	mp.weixin.qq.com	/s/R3-5kzS2RfjyBsTxY8O0tA
+20210927	恶意分析	https://mp.weixin.qq.com/s/FX4WfTHR61fYS5r5cP-EIQ	基于频域特征的恶意流量实时检测	qq.com	mp.weixin.qq.com	/s/FX4WfTHR61fYS5r5cP-EIQ
+20210927	恶意分析	https://mp.weixin.qq.com/s/C443I605MfAwBSxf0PP8sg	基于腾讯云的分布式蜜罐开发实战	qq.com	mp.weixin.qq.com	/s/C443I605MfAwBSxf0PP8sg
+20210927	运维安全	https://mp.weixin.qq.com/s/4LmvqBYJeTOPa237-vaZeQ	安全运营中心（SOC）技术框架	qq.com	mp.weixin.qq.com	/s/4LmvqBYJeTOPa237-vaZeQ
+20210927	观点	https://mp.weixin.qq.com/s/pFeEBd_kng7KSGMxSeMRcQ	网络空间安全产业如何助力数字化转型	qq.com	mp.weixin.qq.com	/s/pFeEBd_kng7KSGMxSeMRcQ
+20210927	恶意分析	https://mp.weixin.qq.com/s/q3h8Lqby_LKZo-8wMYl7nw	攻防演练之反序列化漏洞与内存马	qq.com	mp.weixin.qq.com	/s/q3h8Lqby_LKZo-8wMYl7nw
+20210927	Web安全	https://mp.weixin.qq.com/s/votEOvJafPjCka7gIB8DEA	crawlergo 动态爬虫源码学习	qq.com	mp.weixin.qq.com	/s/votEOvJafPjCka7gIB8DEA
+20210927	Web安全	https://github.com/returntocorp/semgrep	semgrep:Find bug variants with patterns that look like source code	github.com	github.com	/returntocorp/semgrep
+20210927	漏洞分析	https://mp.weixin.qq.com/s/FU-G1L--_1vFlaR9Wx64JA	基于图神经网络的二进制代码相似性检测技术	qq.com	mp.weixin.qq.com	/s/FU-G1L--_1vFlaR9Wx64JA
+20210927	恶意分析	https://mp.weixin.qq.com/s/RNL_kuGvoPzYEPbJ2fYFRw	通过主动学习和再生成技术来应对软件供应链中的威胁	qq.com	mp.weixin.qq.com	/s/RNL_kuGvoPzYEPbJ2fYFRw
+20210927	Web安全	https://mp.weixin.qq.com/s/eZ8OAO5ELgUNvVricIStGA	文件上云 - 对象存储的攻击方式	qq.com	mp.weixin.qq.com	/s/eZ8OAO5ELgUNvVricIStGA

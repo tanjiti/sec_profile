@@ -1,0 +1,17 @@
+20201102	Web安全	https://mp.weixin.qq.com/s/r-Ixx0fbVmFGizU0a2-s0Q	2020年某地区HVV信息搜集小结	qq.com	mp.weixin.qq.com	/s/r-Ixx0fbVmFGizU0a2-s0Q
+20201102	运维安全	https://mp.weixin.qq.com/s/nLSCP6xOyYnsdULO7h9cgA	站库分离常规渗透思路总结	qq.com	mp.weixin.qq.com	/s/nLSCP6xOyYnsdULO7h9cgA
+20201102	观点	https://mp.weixin.qq.com/s/OiBtKzKaWuzVvBGO_rwC5A	我的十年安全工作总结	qq.com	mp.weixin.qq.com	/s/OiBtKzKaWuzVvBGO_rwC5A
+20201102	Web安全	https://xz.aliyun.com/t/8459	XSS 实战攻击思路总结	aliyun.com	xz.aliyun.com	/t/8459
+20201102	工具	https://mp.weixin.qq.com/s/uj3tWDlS9WaYKSc1xDQkAQ	谷歌浏览器插件推荐 - 日常使用篇	qq.com	mp.weixin.qq.com	/s/uj3tWDlS9WaYKSc1xDQkAQ
+20201102	数据挖掘	https://mp.weixin.qq.com/s/5NNTeLvqWl0_SQaPl-Cvug	支付风险识别亚军方案	qq.com	mp.weixin.qq.com	/s/5NNTeLvqWl0_SQaPl-Cvug
+20201102	杂志	https://www.sec-wiki.com/weekly/348	SecWiki周刊（第348期)	sec-wiki.com	www.sec-wiki.com	/weekly/348
+20201102	工具	https://mp.weixin.qq.com/s/G4I3m46w1adLQbES50wCwg	谷歌浏览器插件 - 渗透测试篇	qq.com	mp.weixin.qq.com	/s/G4I3m46w1adLQbES50wCwg
+20201102	取证分析	https://mp.weixin.qq.com/s/9Yx4gK5-7CbP9Aqy-twpVw	安全运营之攻击溯源	qq.com	mp.weixin.qq.com	/s/9Yx4gK5-7CbP9Aqy-twpVw
+20201102	Web安全	https://mp.weixin.qq.com/s/TPb3E1fRszdEwp6Yyn8mQw	黑客诱捕器—蜜罐的部署与使用	qq.com	mp.weixin.qq.com	/s/TPb3E1fRszdEwp6Yyn8mQw
+20201102	工具	https://github.com/Ch1ngg/JCE	JCE - JSP/JPSX CodeEncode - 用于 Webshell 逃避静态查杀的辅助脚本	github.com	github.com	/Ch1ngg/JCE
+20201102	Web安全	https://xz.aliyun.com/t/8451	云上渗透-RDS数据库攻防	aliyun.com	xz.aliyun.com	/t/8451
+20201102	取证分析	https://www.fireeye.com/blog/threat-research/2020/11/live-off-the-land-an-overview-of-unc1945.html	An Overview investigation of UNC1945	fireeye.com	www.fireeye.com	/blog/threat-research/2020/11/live-off-the-land-an-overview-of-unc1945.html
+20201102	Web安全	https://mp.weixin.qq.com/s/G7Gdb_gXNn5FAR78Edps-w	红蓝对抗之内网中psexec的行为捕获	qq.com	mp.weixin.qq.com	/s/G7Gdb_gXNn5FAR78Edps-w
+20201102	论文	https://mp.weixin.qq.com/s/UKBhg_tnYIPI6uzuPYn59A	安全学术研究趋势分析	qq.com	mp.weixin.qq.com	/s/UKBhg_tnYIPI6uzuPYn59A
+20201102	Web安全	https://mp.weixin.qq.com/s/rbS0_42RBiFu8UFFQW4kew	Serverless安全研究 — Serverless安全风险	qq.com	mp.weixin.qq.com	/s/rbS0_42RBiFu8UFFQW4kew
+20201102	恶意分析	https://mp.weixin.qq.com/s/fvnvh25VaHgproPvVT6LDg	基于跨模态检索的二进制代码-源代码匹配	qq.com	mp.weixin.qq.com	/s/fvnvh25VaHgproPvVT6LDg

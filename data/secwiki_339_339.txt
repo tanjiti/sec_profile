@@ -1,0 +1,38 @@
+20200824	取证分析	https://mp.weixin.qq.com/s/ydT4bh12iY93BRQVtU4Lbw	揭秘美军网络战七大武器系统	qq.com	mp.weixin.qq.com	/s/ydT4bh12iY93BRQVtU4Lbw
+20200824	法规	https://mp.weixin.qq.com/s/vdPakV3Y26ew2qxRiRVV4Q	《中国禁止出口限制出口技术目录》网络安全技术	qq.com	mp.weixin.qq.com	/s/vdPakV3Y26ew2qxRiRVV4Q
+20200824	观点	https://mp.weixin.qq.com/s/O2CpObfiGOLa8CZbkP08Hg	入职一月的体感与思考	qq.com	mp.weixin.qq.com	/s/O2CpObfiGOLa8CZbkP08Hg
+20200824	Web安全	https://mp.weixin.qq.com/s/QoMn-T_KKT4oo7I-TRGAUQ	​某地市攻防演练总结与反思	qq.com	mp.weixin.qq.com	/s/QoMn-T_KKT4oo7I-TRGAUQ
+20200824	其它	https://github.com/insightglacier/Dictionary-Of-Pentesting	渗透测试的一些字典收集	github.com	github.com	/insightglacier/Dictionary-Of-Pentesting
+20200824	Web安全	https://mp.weixin.qq.com/s/wpJKZAxMUScGRX2XIocK0g	内网渗透：不出网渗透技巧	qq.com	mp.weixin.qq.com	/s/wpJKZAxMUScGRX2XIocK0g
+20200824	文档	https://ncstatic.clewm.net/rsrc/2020/0822/14/2810c081b58c321c0c416ff98ef00e92.pdf	网络空间安全工程技术人才培养体系指南 (2.0版)	clewm.net	ncstatic.clewm.net	/rsrc/2020/0822/14/2810c081b58c321c0c416ff98ef00e92.pdf
+20200824	运维安全	https://mp.weixin.qq.com/s/cljI9AFVNEb4YkglzYayDg	MITRE Shield 积极防御知识库	qq.com	mp.weixin.qq.com	/s/cljI9AFVNEb4YkglzYayDg
+20200824	运维安全	https://mp.weixin.qq.com/s/mJNcCZfElyCAbq1aSHHTDw	我所亲历的信息安全建设之变迁(1)	qq.com	mp.weixin.qq.com	/s/mJNcCZfElyCAbq1aSHHTDw
+20200824	漏洞分析	https://zon8.re/posts/javascript-engine-fuzzing-and-exploitation-reading-list/	JavaScript Engine Fuzzing and Exploitation Reading List	zon8.re	zon8.re	/posts/javascript-engine-fuzzing-and-exploitation-reading-list/
+20200824	取证分析	https://mp.weixin.qq.com/s/m4I_YDn98K_A2yGAhv67Gg	MySQL蜜罐获取攻击者微信ID	qq.com	mp.weixin.qq.com	/s/m4I_YDn98K_A2yGAhv67Gg
+20200824	杂志	https://www.sec-wiki.com/weekly/338	SecWiki周刊（第338期)	sec-wiki.com	www.sec-wiki.com	/weekly/338
+20200824	观点	https://mp.weixin.qq.com/s/gS5_yLCMflFMq_K3zsklLA	AISecOps : 从DARPA TC项目看终端攻防	qq.com	mp.weixin.qq.com	/s/gS5_yLCMflFMq_K3zsklLA
+20200824	恶意分析	https://mp.weixin.qq.com/s/zWp0j805H62nUbl9KTOohw	十年百余起事件，软件供应链面临安全危机	qq.com	mp.weixin.qq.com	/s/zWp0j805H62nUbl9KTOohw
+20200824	恶意分析	https://mp.weixin.qq.com/s/MFmSliCQaaVEQ0E66vN5Xg	污点传递理论在Webshell检测中的应用 -- PHP篇	qq.com	mp.weixin.qq.com	/s/MFmSliCQaaVEQ0E66vN5Xg
+20200824	论文	https://mp.weixin.qq.com/s/6RYi-oBdshpZUGARzLE-4A	SecureComm 2020 论文录用列表	qq.com	mp.weixin.qq.com	/s/6RYi-oBdshpZUGARzLE-4A
+20200824	运维安全	https://mp.weixin.qq.com/s/qmMRmEcSnGmD6Y4vg6zjow	数字化平台建设总结--技术篇	qq.com	mp.weixin.qq.com	/s/qmMRmEcSnGmD6Y4vg6zjow
+20200824	编程技术	https://mp.weixin.qq.com/s/cmpg3idfG0WS_0ME8vLS4A	如何编写一个Censys插件	qq.com	mp.weixin.qq.com	/s/cmpg3idfG0WS_0ME8vLS4A
+20200824	Web安全	https://mp.weixin.qq.com/s/SVrEAgeqwtj6JZSfcspxXA	​GODNSLOG-开源一个新鲜的DNSLOG	qq.com	mp.weixin.qq.com	/s/SVrEAgeqwtj6JZSfcspxXA
+20200824	运维安全	https://mp.weixin.qq.com/s/eCwXozibaABcZjUOqTn4Zg	互联网DevSecOps实践	qq.com	mp.weixin.qq.com	/s/eCwXozibaABcZjUOqTn4Zg
+20200824	恶意分析	https://mp.weixin.qq.com/s/EBSCPTLt8cwIvptdcdpHJQ	一例APT28（Fancybear）样本详细分析	qq.com	mp.weixin.qq.com	/s/EBSCPTLt8cwIvptdcdpHJQ
+20200824	观点	https://mp.weixin.qq.com/s/W0kZLbLcja1Sxh7QM8os_g	恐怖组织使用加密货币的可能性与需求	qq.com	mp.weixin.qq.com	/s/W0kZLbLcja1Sxh7QM8os_g
+20200824	数据挖掘	https://mp.weixin.qq.com/s/wY1QYyIRcKINuxofJIfvZQ	开源数据分析各省及全国暴力犯罪态势	qq.com	mp.weixin.qq.com	/s/wY1QYyIRcKINuxofJIfvZQ
+20200824	漏洞分析	https://mp.weixin.qq.com/s/97PVYEJ5gjE92U6xWhHyig	逃逸攻击上篇	qq.com	mp.weixin.qq.com	/s/97PVYEJ5gjE92U6xWhHyig
+20200824	Web安全	https://mp.weixin.qq.com/s/cHOvEbYtYNfl2lQ8-N3qtA	跨域漏洞那些事儿（cors、jsonp)	qq.com	mp.weixin.qq.com	/s/cHOvEbYtYNfl2lQ8-N3qtA
+20200824	漏洞分析	https://mp.weixin.qq.com/s/XKZnsdY31N1_6gB9u8Yu8Q	通达OA 11.5版本某处SQL注入漏洞复现分析	qq.com	mp.weixin.qq.com	/s/XKZnsdY31N1_6gB9u8Yu8Q
+20200824	恶意分析	https://xz.aliyun.com/t/8103	从剖析CS木马生成到开发免杀工具	aliyun.com	xz.aliyun.com	/t/8103
+20200824	恶意分析	https://mp.weixin.qq.com/s/y0Wv5ci30HIhXp5bbCZxRg	DataCon 2020 DNS恶意域名分析方向冠军writeup	qq.com	mp.weixin.qq.com	/s/y0Wv5ci30HIhXp5bbCZxRg
+20200824	数据挖掘	https://mp.weixin.qq.com/s/x6C51zvD3b-27t_o28tI5w	数据安全怎么做：数据分类分级	qq.com	mp.weixin.qq.com	/s/x6C51zvD3b-27t_o28tI5w
+20200824	Web安全	https://github.com/TheKingOfDuck/FileMonitor	FileMonitor: 文件变化实时监控工具	github.com	github.com	/TheKingOfDuck/FileMonitor
+20200824	工具	https://github.com/360-Linton-Lab/WMIHACKER/blob/master/README_zh.md	WMIHACKER：免杀横向移动命令执行测试工具(无需445端口)	github.com	github.com	/360-Linton-Lab/WMIHACKER/blob/master/README_zh.md
+20200824	设备安全	https://bbs.pediy.com/thread-261679.htm	海康萤石智能门锁的网关分析	pediy.com	bbs.pediy.com	/thread-261679.htm
+20200824	取证分析	https://blog.lgf.im/2020/nali-golang.html	Nali IP地理信息和CDN服务商查询	lgf.im	blog.lgf.im	/2020/nali-golang.html
+20200824	文档	https://static.aminer.cn/misc/pdf/CognitiveGraph.pdf	人工智能之认知图谱	aminer.cn	static.aminer.cn	/misc/pdf/CognitiveGraph.pdf
+20200824	漏洞分析	https://paper.seebug.org/1317/	联盟链智能合约安全浅析	seebug.org	paper.seebug.org	/1317/
+20200824	取证分析	https://mp.weixin.qq.com/s/I6yaPOSBRJhdN7kBOEP6qg	情报界在对抗社交媒体干扰活动中的作用	qq.com	mp.weixin.qq.com	/s/I6yaPOSBRJhdN7kBOEP6qg
+20200824	Web安全	https://github.com/dafthack/CloudPentestCheatsheets	CloudPentestCheatsheets: 云渗透的一些参考命令	github.com	github.com	/dafthack/CloudPentestCheatsheets
+20200824	漏洞分析	https://paper.seebug.org/1321/	Weblogic12c T3 协议安全漫谈	seebug.org	paper.seebug.org	/1321/

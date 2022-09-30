@@ -1,0 +1,11 @@
+20220829	法规	http://www.cac.gov.cn/2022-08/31/c_1663568169996202.htm	数据出境安全评估申报指南（第一版）	cac.gov.cn	www.cac.gov.cn	/2022-08/31/c_1663568169996202.htm
+20220829	Web安全	https://mp.weixin.qq.com/s/BJgFvET4VhCEw_ZNr5G6tg	Windows域内横向渗透实例	qq.com	mp.weixin.qq.com	/s/BJgFvET4VhCEw_ZNr5G6tg
+20220829	Web安全	https://mp.weixin.qq.com/s/jJ3iBNUnFFJOgJnf5mJ6TQ	代码审计之路之白盒挖掘机	qq.com	mp.weixin.qq.com	/s/jJ3iBNUnFFJOgJnf5mJ6TQ
+20220829	漏洞分析	http://www.itsec.gov.cn/zxxw/202209/P020220902118368141314.pdf	2022上半年网络安全漏洞态势观察	itsec.gov.cn	www.itsec.gov.cn	/zxxw/202209/P020220902118368141314.pdf
+20220829	Web安全	https://mp.weixin.qq.com/s/bXNEpez3usz4owoVsS6OFA	[HTB] Jeeves Writeup	qq.com	mp.weixin.qq.com	/s/bXNEpez3usz4owoVsS6OFA
+20220829	运维安全	https://mp.weixin.qq.com/s/2sfIhibIVTghRk723x5eog	安全防御体系建设	qq.com	mp.weixin.qq.com	/s/2sfIhibIVTghRk723x5eog
+20220829	运维安全	https://mp.weixin.qq.com/s/wwqlQ62f1f_Vju7hmcqbTQ	商业银行安全纵深防御体系探索与实践	qq.com	mp.weixin.qq.com	/s/wwqlQ62f1f_Vju7hmcqbTQ
+20220829	运维安全	https://mp.weixin.qq.com/s/-iZxbfLgQZ-UbHCu7Aha4A	证券行业应用安全架构设计实践	qq.com	mp.weixin.qq.com	/s/-iZxbfLgQZ-UbHCu7Aha4A
+20220829	Web安全	https://mp.weixin.qq.com/s/L6WWJIHMaoz7Ot8IoDlg-A	6种方法探测Cisco设备版本	qq.com	mp.weixin.qq.com	/s/L6WWJIHMaoz7Ot8IoDlg-A
+20220829	杂志	https://www.sec-wiki.com/weekly/443	SecWiki周刊（第443期)	sec-wiki.com	www.sec-wiki.com	/weekly/443
+20220829	数据挖掘	https://mp.weixin.qq.com/s/25W_SB9OOhPNjxFHzz8oYw	新型数据中心网络安全体系研究	qq.com	mp.weixin.qq.com	/s/25W_SB9OOhPNjxFHzz8oYw

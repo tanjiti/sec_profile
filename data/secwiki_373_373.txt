@@ -1,0 +1,29 @@
+20210419	Web安全	https://www.sec-in.com/article/1025	蚁剑流量改造学习	sec-in.com	www.sec-in.com	/article/1025
+20210419	数据挖掘	https://dl.ccf.org.cn/institude/institudeDetail?_ack=1&id=5398508341266432	人工智能在网络安全领域的应用现状	ccf.org.cn	dl.ccf.org.cn	/institude/institudeDetail
+20210419	Web安全	https://xz.aliyun.com/t/9417	Java反序列化 — URLDNS利用链分析	aliyun.com	xz.aliyun.com	/t/9417
+20210419	Web安全	https://www.sec-in.com/article/1022	MyBatis和MyBatis可能导致的sql注入	sec-in.com	www.sec-in.com	/article/1022
+20210419	Web安全	https://www.sec-in.com/article/1028	如何制作一个微型内核	sec-in.com	www.sec-in.com	/article/1028
+20210419	Web安全	https://mp.weixin.qq.com/s/DvpTpy5C5QTxrqm3zPV2qw	浅谈安全产品的hvv安全之道	qq.com	mp.weixin.qq.com	/s/DvpTpy5C5QTxrqm3zPV2qw
+20210419	观点	https://mp.weixin.qq.com/s/1VuQb0Q0ZYlBmlLCcOPc3Q	攻防演练后的一点随记	qq.com	mp.weixin.qq.com	/s/1VuQb0Q0ZYlBmlLCcOPc3Q
+20210419	恶意分析	https://mp.weixin.qq.com/s/z1MS0Df89NhSeAU9IxF5nw	恶意软件在沙盒中应该执行多长时间？	qq.com	mp.weixin.qq.com	/s/z1MS0Df89NhSeAU9IxF5nw
+20210419	漏洞分析	https://xz.aliyun.com/t/9420	Yii2反序列化RCE 新POP链	aliyun.com	xz.aliyun.com	/t/9420
+20210419	Web安全	https://mp.weixin.qq.com/s?__biz=MzI0ODU5Mzg0NA==&mid=2247483998&idx=1&sn=baaa69c5576a1e52b7d8aeb9482e1cf3&chksm=e99f2e85dee8a79304a5535dbf6c77e9f9def6b2a7438c73e28792ac5ea3c628a02204d116e6&token=1448493475&lang=zh_CN#rd	可扩展跨平台网络安全工具套件 CaptfEncoder v2.0.0	qq.com	mp.weixin.qq.com	/s
+20210419	Web安全	https://mp.weixin.qq.com/s/C9f0T6NaApLpZg6vcuw7xg	[HTB] Legacy Writeup	qq.com	mp.weixin.qq.com	/s/C9f0T6NaApLpZg6vcuw7xg
+20210419	恶意分析	https://mp.weixin.qq.com/s/wmI13qLfRPX3v6G7DinUMA	[译] APT分析报告：09.漏洞利用图谱–通过查找作者的指纹来寻找漏洞	qq.com	mp.weixin.qq.com	/s/wmI13qLfRPX3v6G7DinUMA
+20210419	Web安全	https://mp.weixin.qq.com/s/r5G1REnhZHplRPyfSYg_Ug	从solar winds黑客入侵事件中看供应链安全	qq.com	mp.weixin.qq.com	/s/r5G1REnhZHplRPyfSYg_Ug
+20210419	设备安全	https://mp.weixin.qq.com/s/n74QyEN4KSUxW6uRgJ-VsQ	智能家居安全风险：设备共享场景下的漏洞及其利用	qq.com	mp.weixin.qq.com	/s/n74QyEN4KSUxW6uRgJ-VsQ
+20210419	漏洞分析	https://blog.exodusintel.com/2021/04/20/analysis-of-a-use-after-free-vulnerability-in-adobe-acrobat-reader-dc/	Analysis of a use-after-free Vulnerability in Adobe Acrobat Reader DC	exodusintel.com	blog.exodusintel.com	/2021/04/20/analysis-of-a-use-after-free-vulnerability-in-adobe-acrobat-reader-dc/
+20210419	Web安全	https://mp.weixin.qq.com/s/J5jKKfbwBbOTjpnwcFotrg	[HTB] Worker Writeup	qq.com	mp.weixin.qq.com	/s/J5jKKfbwBbOTjpnwcFotrg
+20210419	Web安全	https://mp.weixin.qq.com/s/oABTaWPOSyNzn112zOnUQA	[HTB] Shocker Writeup	qq.com	mp.weixin.qq.com	/s/oABTaWPOSyNzn112zOnUQA
+20210419	取证分析	https://mp.weixin.qq.com/s/_72ibt7GzNRDhV_SEKU_9g	基于数据分析特斯拉事故原因	qq.com	mp.weixin.qq.com	/s/_72ibt7GzNRDhV_SEKU_9g
+20210419	数据挖掘	https://mp.weixin.qq.com/s/WknW2_lR4ryBLIgCma30Vw	数据分类分级的技术实践指南	qq.com	mp.weixin.qq.com	/s/WknW2_lR4ryBLIgCma30Vw
+20210419	Web安全	https://mp.weixin.qq.com/s/_aofHejy1udowtstD2tgag	[HTB] Blue Writeup	qq.com	mp.weixin.qq.com	/s/_aofHejy1udowtstD2tgag
+20210419	观点	https://mp.weixin.qq.com/s/ps7GG2rKc5-J8J2Iybhi8Q	关于反诈工作的几个问题及思考	qq.com	mp.weixin.qq.com	/s/ps7GG2rKc5-J8J2Iybhi8Q
+20210419	Web安全	https://mp.weixin.qq.com/s/oin5ZGjw_-AY5kwYuUCz1Q	[HTB] Grandpa Writeup	qq.com	mp.weixin.qq.com	/s/oin5ZGjw_-AY5kwYuUCz1Q
+20210419	Web安全	https://mp.weixin.qq.com/s/UxwpzwuvvDd3T852yrGNFw	[HTB] Passage Writeup	qq.com	mp.weixin.qq.com	/s/UxwpzwuvvDd3T852yrGNFw
+20210419	Web安全	https://mp.weixin.qq.com/s/0b-C5MHDMP-oKj8W5baeWg	[HTB] Academy Writeup	qq.com	mp.weixin.qq.com	/s/0b-C5MHDMP-oKj8W5baeWg
+20210419	Web安全	https://mp.weixin.qq.com/s/0iMqH0-P7vyaKB-xvfDLhA	[HTB] Granny Writeup	qq.com	mp.weixin.qq.com	/s/0iMqH0-P7vyaKB-xvfDLhA
+20210419	Web安全	https://mp.weixin.qq.com/s/bRR-8iFJTdqGspzAm9Gdbw	[HTB] Netmon Writeup	qq.com	mp.weixin.qq.com	/s/bRR-8iFJTdqGspzAm9Gdbw
+20210419	Web安全	https://mp.weixin.qq.com/s/30Xpwv3H50KKcxl3jY8aYQ	[HTB] Jerry Writeup	qq.com	mp.weixin.qq.com	/s/30Xpwv3H50KKcxl3jY8aYQ
+20210419	Web安全	https://mp.weixin.qq.com/s/_ImRBi8AE1TcAaiuk6Wd1Q	[HTB] Lame Writeup	qq.com	mp.weixin.qq.com	/s/_ImRBi8AE1TcAaiuk6Wd1Q
+20210419	Web安全	https://mp.weixin.qq.com/s/x9omAbVjQdtZ0jjQfumeTg	[HTB] Heist Writeup	qq.com	mp.weixin.qq.com	/s/x9omAbVjQdtZ0jjQfumeTg

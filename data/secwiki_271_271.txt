@@ -1,0 +1,78 @@
+20190506	人物	https://mp.weixin.qq.com/s/3UYObnoZV_g-AZFdSoxJLg	饿了么王彬：安全即是公平 实现要靠运营	qq.com	mp.weixin.qq.com	/s/3UYObnoZV_g-AZFdSoxJLg
+20190506	新闻	https://nosec.org/home/detail/2564.html	FBI查获DeepDotWeb并逮捕其管理员	nosec.org	nosec.org	/home/detail/2564.html
+20190506	新闻	https://mp.weixin.qq.com/s/sktQAoNeE-3na9lBPm9nzg	布拉格5G安全大会 “布拉格提案”	qq.com	mp.weixin.qq.com	/s/sktQAoNeE-3na9lBPm9nzg
+20190506	事件	https://nosec.org/home/detail/2565.html	三星泄露SmartThings应用程序源代码和密钥	nosec.org	nosec.org	/home/detail/2565.html
+20190506	新闻	https://nosec.org/home/detail/2566.html	汉堡王的儿童网上商店泄露数万条顾客信息	nosec.org	nosec.org	/home/detail/2566.html
+20190506	新闻	https://mp.weixin.qq.com/s/ULHbGTI1YosdZG23aAE4Qw	情报指挥中心加入公安部直属机关序列	qq.com	mp.weixin.qq.com	/s/ULHbGTI1YosdZG23aAE4Qw
+20190506	新闻	https://mp.weixin.qq.com/s/tHjveTuc1bi0TxmJKwMoGw	赛门铁克公司加入美国防部的网络威胁情报共享项目	qq.com	mp.weixin.qq.com	/s/tHjveTuc1bi0TxmJKwMoGw
+20190506	取证分析	https://www.freebuf.com/articles/network/202168.html	浅谈入侵溯源过程中的一些常见姿势	freebuf.com	www.freebuf.com	/articles/network/202168.html
+20190506	其它	http://blog.nsfocus.net/looking-at-the-network-rivers-and-lakes-from-the-attack-and-defense-logs/	从攻守日志 看网络江湖的快意恩仇	nsfocus.net	blog.nsfocus.net	/looking-at-the-network-rivers-and-lakes-from-the-attack-and-defense-logs/
+20190506	移动安全	https://github.com/lyxhh/lxhToolHTTPDecrypt	HTTPDecrypt: 利用HTTP协议 远程加解密数据包，实现Burp一条龙服务	github.com	github.com	/lyxhh/lxhToolHTTPDecrypt
+20190506	移动安全	https://bbs.pediy.com/thread-251061.htm	Android安全的思维导图	pediy.com	bbs.pediy.com	/thread-251061.htm
+20190506	书籍	https://github.com/justjavac/free-programming-books-zh_CN	免费的计算机编程类中文书籍	github.com	github.com	/justjavac/free-programming-books-zh_CN
+20190506	移动安全	https://speakerdeck.com/hhj4ck/el3-tour-get-the-ultimate-privilege-of-android-phone	EL3 Tour: Get the Ultimate Privilege of Android Phone	speakerdeck.com	speakerdeck.com	/hhj4ck/el3-tour-get-the-ultimate-privilege-of-android-phone
+20190506	Web安全	https://nosec.org/home/detail/2544.html	如何入侵基于RMI的JMX服务	nosec.org	nosec.org	/home/detail/2544.html
+20190506	杂志	https://www.sec-wiki.com/weekly/270	SecWiki周刊（第270期)	sec-wiki.com	www.sec-wiki.com	/weekly/270
+20190506	恶意分析	https://zhuanlan.zhihu.com/p/64742715	使用Suricata和ELK进行流量检测	zhihu.com	zhuanlan.zhihu.com	/p/64742715
+20190506	恶意分析	https://www.freebuf.com/articles/network/202310.html	代理蜜罐的开发与应用实战	freebuf.com	www.freebuf.com	/articles/network/202310.html
+20190506	运维安全	https://kulinacs.com/ssh-honey-keys/	SSH Honey Keys	kulinacs.com	kulinacs.com	/ssh-honey-keys/
+20190506	Web安全	https://mp.weixin.qq.com/s/FupNkLOOWAabvnC3Yob_uw	XMLDecoder解析流程分析	qq.com	mp.weixin.qq.com	/s/FupNkLOOWAabvnC3Yob_uw
+20190506	取证分析	https://mp.weixin.qq.com/s/aInEaYdS9X7HP7FbzWl6AQ?from=timeline	2600万TRX被盗背后的罗生门	qq.com	mp.weixin.qq.com	/s/aInEaYdS9X7HP7FbzWl6AQ
+20190506	运维安全	https://bloodzer0.github.io/ossa/other-security-branch/devsecops/sdc/	SonarQube+DependencyCheck实现第三方依赖安全扫描	github.io	bloodzer0.github.io	/ossa/other-security-branch/devsecops/sdc/
+20190506	Web安全	https://blog.intigriti.com/2019/05/06/intigriti-xss-challenge-1/	The XSS challenge that +100k people saw but only 90 solved	intigriti.com	blog.intigriti.com	/2019/05/06/intigriti-xss-challenge-1/
+20190506	漏洞分析	https://nosec.org/home/detail/2540.html	Broadcom无线芯片组的逆向分析之旅	nosec.org	nosec.org	/home/detail/2540.html
+20190506	Web安全	https://www.sec-un.org/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E9%80%9A%E8%AF%86%EF%BC%88%E4%B8%80%EF%BC%89%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E5%AD%98%E5%9C%A8%E7%9A%84%E7%90%86%E7%94%B1%EF%BC%9A%E5%9C%A8%E7%BA%BF%E7%AC%AC/	网络安全通识（一）网络安全存在的理由：在线第一	sec-un.org	www.sec-un.org	/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E9%80%9A%E8%AF%86%EF%BC%88%E4%B8%80%EF%BC%89%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E5%AD%98%E5%9C%A8%E7%9A%84%E7%90%86%E7%94%B1%EF%BC%9A%E5%9C%A8%E7%BA%BF%E7%AC%AC/
+20190506	取证分析	https://github.com/YanxinTang/Watermark	Watermark: 网页添加水印的库	github.com	github.com	/YanxinTang/Watermark
+20190506	漏洞分析	https://github.com/yeyintminthuhtut/Awesome-Advanced-Windows-Exploitation-References	Browser、Mitigation 、Kernel 等漏洞利用相关研究	github.com	github.com	/yeyintminthuhtut/Awesome-Advanced-Windows-Exploitation-References
+20190506	恶意分析	https://www.freebuf.com/articles/web/201421.html	聊聊安全测试中如何快速搞定Webshell	freebuf.com	www.freebuf.com	/articles/web/201421.html
+20190506	Web安全	https://0xrick.github.io/hack-the-box/bighead/	Hack The Box - BigHead	github.io	0xrick.github.io	/hack-the-box/bighead/
+20190506	Web安全	https://nosec.org/home/detail/2556.html	利用ASP.NET中的x-up-devcap-post-charset请求头绕过Web防火墙	nosec.org	nosec.org	/home/detail/2556.html
+20190506	漏洞分析	https://blog.xpnsec.com/exploring-mimikatz-part-1/	Exploring Mimikatz - Part 1	xpnsec.com	blog.xpnsec.com	/exploring-mimikatz-part-1/
+20190506	运维安全	https://www.infoq.cn/article/pqU7iMf8cHpz-RNLOslJ	SSH 登陆问题及排查思路	infoq.cn	www.infoq.cn	/article/pqU7iMf8cHpz-RNLOslJ
+20190506	漏洞分析	https://medium.com/tenable-techblog/an-old-cisco-openssh-bug-342ce6679f61	An Old Cisco OpenSSH Bug	medium.com	medium.com	/tenable-techblog/an-old-cisco-openssh-bug-342ce6679f61
+20190506	漏洞分析	https://kciredor.com/throwing-500-vms-fuzzing-target-individual-security-researcher.html	Throwing 500 vm’s at your fuzzing target being an individual security researcher	kciredor.com	kciredor.com	/throwing-500-vms-fuzzing-target-individual-security-researcher.html
+20190506	比赛	https://www.anquanke.com/post/id/177714	2019 虎鲸杯电子取证大赛赛后复盘总结	anquanke.com	www.anquanke.com	/post/id/177714
+20190506	取证分析	https://mp.weixin.qq.com/s/9Cl6-ZmAi-U3Qi6cPVZJxQ?from=timeline	2600万TRX被盗背后的罗生门 - 第二集	qq.com	mp.weixin.qq.com	/s/9Cl6-ZmAi-U3Qi6cPVZJxQ
+20190506	漏洞分析	https://nosec.org/home/detail/2558.html	如何攻击Mirai僵尸网络（及其变种）的控制服务器？	nosec.org	nosec.org	/home/detail/2558.html
+20190506	数据挖掘	https://www.infoq.cn/article/C99whYfeGILp1W*M75cl	金融风控反欺诈之图算法	infoq.cn	www.infoq.cn	/article/C99whYfeGILp1W*M75cl
+20190506	工具	https://github.com/0vercl0k/CVE-2019-9810	Exploit for CVE-2019-9810 Firefox on Windows 64 bits	github.com	github.com	/0vercl0k/CVE-2019-9810
+20190506	Web安全	https://soroush.secproject.com/blog/2019/05/x-up-devcap-post-charset-header-in-aspnet-to-bypass-wafs-again/	x-up-devcap-post-charset Header in ASP.NET to Bypass WAFs Again!	secproject.com	soroush.secproject.com	/blog/2019/05/x-up-devcap-post-charset-header-in-aspnet-to-bypass-wafs-again/
+20190506	工具	https://github.com/secgroundzero/tetanus	tetanus: Helper script for mangling CS payloads	github.com	github.com	/secgroundzero/tetanus
+20190506	恶意分析	https://liveoverflow.com/unpacking-buhtrap-malware-basics-of-self-injection-packers-ft-oalabs-2/	Unpacking Redaman Malware & Basics of Self-Injection Packers	liveoverflow.com	liveoverflow.com	/unpacking-buhtrap-malware-basics-of-self-injection-packers-ft-oalabs-2/
+20190506	运维安全	https://github.com/openitsystem/itops?from=timeline	itops: 基于Python + Django的AD\Exchange管理系统	github.com	github.com	/openitsystem/itops
+20190506	工具	https://arnaudloos.com/2019/open-source-sirp-overview/	Open Source SIRP with Elasticsearch and TheHive	arnaudloos.com	arnaudloos.com	/2019/open-source-sirp-overview/
+20190506	漏洞分析	https://hackerone.com/reports/497312	Command injection by setting a custom search engine	hackerone.com	hackerone.com	/reports/497312
+20190506	恶意分析	https://0x00sec.org/t/malicious-dll-execution-using-apples-apsdaemon-exe-signed-binary/13409	Malicious DLL execution using Apples APSDaemon.exe signed binary	0x00sec.org	0x00sec.org	/t/malicious-dll-execution-using-apples-apsdaemon-exe-signed-binary/13409
+20190506	恶意分析	https://log.vexation.ca/2019/04/using-win95-kernel32dll-exports-like.html?m=1	Using Win95 kernel32.dll exports like a virus	vexation.ca	log.vexation.ca	/2019/04/using-win95-kernel32dll-exports-like.html
+20190506	其它	https://nosec.org/home/detail/2567.html	“不可破解”生物识别USB通过纯文本传输密码	nosec.org	nosec.org	/home/detail/2567.html
+20190506	漏洞分析	http://phrack.org/papers/jit_exploitation.html	Exploiting Logic Bugs in JavaScript JIT Engines	phrack.org	phrack.org	/papers/jit_exploitation.html
+20190506	漏洞分析	https://www.zerodayinitiative.com/blog/2019/5/7/taking-control-of-vmware-through-the-universal-host-controller-interface-part-1	Taking Control of VMware Through the Universal Host Controller Interface: Part 1	zerodayinitiative.com	www.zerodayinitiative.com	/blog/2019/5/7/taking-control-of-vmware-through-the-universal-host-controller-interface-part-1
+20190506	漏洞分析	https://anvilventures.com/blog/looking-inside-the-box.html	Looking inside the box	anvilventures.com	anvilventures.com	/blog/looking-inside-the-box.html
+20190506	漏洞分析	https://blog.duszynski.eu/hijacking-browser-tls-traffic-through-client-domain-hooking/	Hijacking browser TLS traffic through Client Domain Hooking	duszynski.eu	blog.duszynski.eu	/hijacking-browser-tls-traffic-through-client-domain-hooking/
+20190506	其它	https://blog.syscall.party/post/ltdh-re-walkthrough/	Comprehensive walkthrough of the LTDH19 RE challenges	syscall.party	blog.syscall.party	/post/ltdh-re-walkthrough/
+20190506	恶意分析	https://www.sentinelone.com/blog/how-to-reverse-macos-malware-part-one/	How to Reverse Malware on macOS Without Getting Infected | Part 1	sentinelone.com	www.sentinelone.com	/blog/how-to-reverse-macos-malware-part-one/
+20190506	数据挖掘	https://www.freebuf.com/articles/network/202634.html	基于统计分析的ICMP隧道检测方法与实现	freebuf.com	www.freebuf.com	/articles/network/202634.html
+20190506	无线安全	https://medium.com/@elkentaro/feathering-for-ssids-bd69ad41165a	Feathering for SSIDs	medium.com	medium.com	/@elkentaro/feathering-for-ssids-bd69ad41165a
+20190506	恶意分析	https://digital-forensics.sans.org/blog/2019/05/07/malware-persistence-recmd/	Finding Registry Malware Persistence with RECmd	sans.org	digital-forensics.sans.org	/blog/2019/05/07/malware-persistence-recmd/
+20190506	数据挖掘	https://zhuanlan.zhihu.com/p/65457826	知识图谱怎么入门	zhihu.com	zhuanlan.zhihu.com	/p/65457826
+20190506	漏洞分析	https://news.sophos.com/en-us/2019/04/18/protected-cve-2018-18500-heap-write-after-free-in-firefox-analysis-and-exploitation/	write-after-free vulnerability in Firefox, Analysis and Exploitation	sophos.com	news.sophos.com	/en-us/2019/04/18/protected-cve-2018-18500-heap-write-after-free-in-firefox-analysis-and-exploitation/
+20190506	Web安全	https://mp.weixin.qq.com/s?__biz=MzU2NzkwNTQxNg==&mid=2247483719&idx=1&sn=1f68582237b3ece6f07bdf3be60fc1ec&chksm=fc975ca0cbe0d5b65824d2ec0bf2b11a2d26d69f6935371c73114db689fc3a56a13eeb6eeefb&token=1697253642&lang=zh_CN#rd	关于请教问题、一些圈子以及简历	qq.com	mp.weixin.qq.com	/s
+20190506	漏洞分析	https://medium.com/tenable-techblog/eight-devices-one-exploit-f5fc28c70a7c	Eight Devices, One Exploit	medium.com	medium.com	/tenable-techblog/eight-devices-one-exploit-f5fc28c70a7c
+20190506	其它	https://www.infoq.cn/article/69TYjy_v9u4FxXNUk2gK	聊聊服务稳定性保障这些事	infoq.cn	www.infoq.cn	/article/69TYjy_v9u4FxXNUk2gK
+20190506	数据挖掘	https://medium.com/@jason_trost/security-data-science-learning-resources-8f7586995040	Security Data Science Learning Resources	medium.com	medium.com	/@jason_trost/security-data-science-learning-resources-8f7586995040
+20190506	Web安全	https://www.virtuesecurity.com/tale-of-a-wormable-twitter-xss/	Tale of a Wormable Twitter XSS	virtuesecurity.com	www.virtuesecurity.com	/tale-of-a-wormable-twitter-xss/
+20190506	工具	https://github.com/webarx-security/wpbullet	wpbullet: A static code analysis for WordPress (and PHP)	github.com	github.com	/webarx-security/wpbullet
+20190506	其它	https://www.darkmatter.ae/papers-articles/from-zero-to-tfp0-part-2-a-walkthrough-of-the-voucher_swap-exploit/	From zero to tfp0 - Part 2: Walkthrough of the voucher_swap exploit	darkmatter.ae	www.darkmatter.ae	/papers-articles/from-zero-to-tfp0-part-2-a-walkthrough-of-the-voucher_swap-exploit/
+20190506	恶意分析	https://nosec.org/home/detail/2568.html	Cisco Talos报告Alpine Linux Docker镜像中的硬编码凭据	nosec.org	nosec.org	/home/detail/2568.html
+20190506	工具	https://github.com/vulmon/Vulmap	Vulmap: Vulmap Online Local Vulnerability Scanners Project	github.com	github.com	/vulmon/Vulmap
+20190506	其它	https://www.darkmatter.ae/papers-articles/from-zero-to-tfp0-part-1-prologue/	From Zero to tfp0 - Part 1: Prologue	darkmatter.ae	www.darkmatter.ae	/papers-articles/from-zero-to-tfp0-part-1-prologue/
+20190506	工具	https://github.com/monzo/response	response: Monzos real-time incident response and reporting tool	github.com	github.com	/monzo/response
+20190506	数据挖掘	https://enterprise.verizon.com/resources/reports/2019-data-breach-investigations-report.pdf	2019 Data Breach Investigations Report	verizon.com	enterprise.verizon.com	/resources/reports/2019-data-breach-investigations-report.pdf
+20190506	工具	https://github.com/zerobyte-id/Bashter	Bashter: Web Crawler, Scanner, and Analyzer Framework (Shell-Script based)	github.com	github.com	/zerobyte-id/Bashter
+20190506	恶意分析	https://www.fortinet.com/blog/threat-research/detailed-analysis-mac-os-vulnerability-cve-2019-8507.html	Detailed Analysis of macOS Vulnerability CVE-2019-8507	fortinet.com	www.fortinet.com	/blog/threat-research/detailed-analysis-mac-os-vulnerability-cve-2019-8507.html
+20190506	移动安全	https://blog.quarkslab.com/android-application-diffing-cve-2019-10875-inspection.html	Android Application Diffing: CVE-2019-10875 Inspection	quarkslab.com	blog.quarkslab.com	/android-application-diffing-cve-2019-10875-inspection.html
+20190506	工具	https://github.com/Tuhinshubhra/ExtAnalysis	ExtAnalysis: Browser Extension Analysis Framework	github.com	github.com	/Tuhinshubhra/ExtAnalysis
+20190506	漏洞分析	https://www.welivesecurity.com/2019/05/02/d-link-camera-vulnerability-video-stream/	D-Link camera vulnerability allows attackers to tap into the video stream	welivesecurity.com	www.welivesecurity.com	/2019/05/02/d-link-camera-vulnerability-video-stream/
+20190506	比赛	http://blog.nsfocus.net/ctf-off-line-attack-defense-guidelines/	CTF线下攻防指南	nsfocus.net	blog.nsfocus.net	/ctf-off-line-attack-defense-guidelines/
+20190506	Web安全	https://github.com/redhuntlabs/Awesome-Asset-Discovery	List of Awesome Asset Discovery Resources	github.com	github.com	/redhuntlabs/Awesome-Asset-Discovery
+20190506	Web安全	https://xz.aliyun.com/t/5084	我的CSP绕过思路及总结	aliyun.com	xz.aliyun.com	/t/5084

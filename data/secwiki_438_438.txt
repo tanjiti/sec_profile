@@ -1,0 +1,24 @@
+20220718	Web安全	https://mp.weixin.qq.com/s/hRwYtDZ-dqqznhS3LdSxUA	一次曲折的代码审计+渗透+绕过WAF+提权实战	qq.com	mp.weixin.qq.com	/s/hRwYtDZ-dqqznhS3LdSxUA
+20220718	观点	https://mp.weixin.qq.com/s/imLgat7aQA-8NQoH-mxpYw	我认为网络安全工具的未来：开篇	qq.com	mp.weixin.qq.com	/s/imLgat7aQA-8NQoH-mxpYw
+20220718	取证分析	https://mp.weixin.qq.com/s/aHwhGY3YJX1EXUFvFzBLGg	关于安全情报能力和应用的一些思考	qq.com	mp.weixin.qq.com	/s/aHwhGY3YJX1EXUFvFzBLGg
+20220718	观点	https://mp.weixin.qq.com/s/droA3PllKFf_CSlEE4L-hQ	如何从 0 到 1 打造国防领域的产品	qq.com	mp.weixin.qq.com	/s/droA3PllKFf_CSlEE4L-hQ
+20220718	Web安全	https://mp.weixin.qq.com/s/T3UfA1plrlG-e9lgfB4whg	websocket新型内存马的应急响应	qq.com	mp.weixin.qq.com	/s/T3UfA1plrlG-e9lgfB4whg
+20220718	漏洞分析	https://www.sec-in.com/article/1616	CVE-2019-0808	sec-in.com	www.sec-in.com	/article/1616
+20220718	其它	https://www.sec-in.com/article/1823	浅析JNDI注入	sec-in.com	www.sec-in.com	/article/1823
+20220718	Web安全	https://mp.weixin.qq.com/s/C0F1ywUcQ6MhgNZZIXlFbA	对全网上一些JSONP蜜罐探索与识别	qq.com	mp.weixin.qq.com	/s/C0F1ywUcQ6MhgNZZIXlFbA
+20220718	取证分析	https://drivertom.blogspot.com/2022/07/blog-post.html	反-反蜜罐：以三个反蜜罐插件的缺陷为例	blogspot.com	drivertom.blogspot.com	/2022/07/blog-post.html
+20220718	Web安全	https://www.anquanke.com/post/id/276174	linux权限维持	anquanke.com	www.anquanke.com	/post/id/276174
+20220718	取证分析	https://mp.weixin.qq.com/s/Er4-X8q5MKZZUgAUHyeLwA	可视化全链路日志追踪	qq.com	mp.weixin.qq.com	/s/Er4-X8q5MKZZUgAUHyeLwA
+20220718	恶意分析	http://blog.nsfocus.net/wp-content/uploads/2022/07/NSFOCUS.pdf	2022 软件供应链安全技术白皮书	nsfocus.net	blog.nsfocus.net	/wp-content/uploads/2022/07/NSFOCUS.pdf
+20220718	观点	https://mp.weixin.qq.com/s/T63Clvf90JNbTqW_E96B-A	从知网被查看网络安全审查	qq.com	mp.weixin.qq.com	/s/T63Clvf90JNbTqW_E96B-A
+20220718	取证分析	https://mp.weixin.qq.com/s/5ZdAiMlsCZJyEijgZ3VFyA	关于X信数据库的解密以及取证	qq.com	mp.weixin.qq.com	/s/5ZdAiMlsCZJyEijgZ3VFyA
+20220718	杂志	https://www.sec-wiki.com/weekly/437	SecWiki周刊（第437期)	sec-wiki.com	www.sec-wiki.com	/weekly/437
+20220718	无线安全	https://www.wolai.com/callisto-auto/6wKbkRsHs9iJ4Wqm7ptT38	如何通过GPS追踪器关闭汽车引擎	wolai.com	www.wolai.com	/callisto-auto/6wKbkRsHs9iJ4Wqm7ptT38
+20220718	设备安全	https://mp.weixin.qq.com/s/qXmx7NOnOh7mxHr16BkioA	《物联网终端安全入门与实践之玩转物联网固件》上	qq.com	mp.weixin.qq.com	/s/qXmx7NOnOh7mxHr16BkioA
+20220718	Web安全	https://www.freebuf.com/articles/web/338814.html	基于追踪标记的WAF设计思路	freebuf.com	www.freebuf.com	/articles/web/338814.html
+20220718	恶意分析	https://mp.weixin.qq.com/s/Ree7tIPbgu0h8PATDETDoA	样本相似分析新尝试：通过音频实现	qq.com	mp.weixin.qq.com	/s/Ree7tIPbgu0h8PATDETDoA
+20220718	其它	https://mp.weixin.qq.com/s/NdrE-lmTsIZC8XRKEAZjNw	Web3发展前瞻研究报告	qq.com	mp.weixin.qq.com	/s/NdrE-lmTsIZC8XRKEAZjNw
+20220718	设备安全	https://mp.weixin.qq.com/s/ZeRDEXBpkdtO6KgBQbTKWg	《物联网终端安全入门与实践之了解物联网终端》下	qq.com	mp.weixin.qq.com	/s/ZeRDEXBpkdtO6KgBQbTKWg
+20220718	设备安全	https://mp.weixin.qq.com/s/p4ImDz6LfFk2hW_gQrnA2w	物联网终端安全入门与实践之玩转物联网固件（中）	qq.com	mp.weixin.qq.com	/s/p4ImDz6LfFk2hW_gQrnA2w
+20220718	设备安全	https://mp.weixin.qq.com/s/wOVTF99uKimmzzbnjy4tuw	物联网终端安全入门与实践之了解物联网终端 （上篇）	qq.com	mp.weixin.qq.com	/s/wOVTF99uKimmzzbnjy4tuw
+20220718	漏洞分析	https://mp.weixin.qq.com/s/kQ3ARDM06mKnYdzEwuzVLg	代码表征预训练语言模型学习指南：原理、分析和代码	qq.com	mp.weixin.qq.com	/s/kQ3ARDM06mKnYdzEwuzVLg

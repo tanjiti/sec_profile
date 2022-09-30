@@ -1,0 +1,27 @@
+20220530	Web安全	https://github.com/Threekiii/Awesome-Redteam	Awesome-Redteam: 一个红队知识仓库	github.com	github.com	/Threekiii/Awesome-Redteam
+20220530	编程技术	https://ares-x.com/2021/04/18/SSL-%E6%8C%87%E7%BA%B9%E8%AF%86%E5%88%AB%E5%92%8C%E7%BB%95%E8%BF%87/	SSL 指纹识别和绕过	ares-x.com	ares-x.com	/2021/04/18/SSL-%E6%8C%87%E7%BA%B9%E8%AF%86%E5%88%AB%E5%92%8C%E7%BB%95%E8%BF%87/
+20220530	取证分析	https://mp.weixin.qq.com/s/zb2gIwPvepLeNrtlc7P2Og	浅谈Windows传统取证	qq.com	mp.weixin.qq.com	/s/zb2gIwPvepLeNrtlc7P2Og
+20220530	Web安全	https://www.anquanke.com/post/id/272878	端口扫描技术实现分析	anquanke.com	www.anquanke.com	/post/id/272878
+20220530	恶意分析	https://mp.weixin.qq.com/s/uEiJIFzCqVuFsPzONu7v_A	诈骗知名门户的黑产团伙溯源分析	qq.com	mp.weixin.qq.com	/s/uEiJIFzCqVuFsPzONu7v_A
+20220530	Web安全	https://github.com/Weik1/Artillery	Artillery: JAVA 插件化漏洞扫描器	github.com	github.com	/Weik1/Artillery
+20220530	恶意分析	https://mp.weixin.qq.com/s/wUrV3rGolpDeWDYKArcBJg	Twitter 威胁情报跟踪与评估	qq.com	mp.weixin.qq.com	/s/wUrV3rGolpDeWDYKArcBJg
+20220530	运维安全	https://mp.weixin.qq.com/s/pV-3IXKBKDJbDiBxmOpEOA	SCA的困境和出路	qq.com	mp.weixin.qq.com	/s/pV-3IXKBKDJbDiBxmOpEOA
+20220530	恶意分析	https://mp.weixin.qq.com/s/qGbwJJ5oGn4tdnFadq0c8g	搜狐中招钓鱼邮件诈骗的技术和基础设施分析	qq.com	mp.weixin.qq.com	/s/qGbwJJ5oGn4tdnFadq0c8g
+20220530	Web安全	https://xz.aliyun.com/t/11347	ATT&CK矩阵的攻与防	aliyun.com	xz.aliyun.com	/t/11347
+20220530	漏洞分析	https://4ra1n.love/post/5zNrXSlvJ/	Tomcat CVE-2022-29885	4ra1n.love	4ra1n.love	/post/5zNrXSlvJ/
+20220530	运维安全	https://mp.weixin.qq.com/s/aiaCgFRjGifPhPfZ4_lrkQ	重新定义SOAR	qq.com	mp.weixin.qq.com	/s/aiaCgFRjGifPhPfZ4_lrkQ
+20220530	恶意分析	https://mp.weixin.qq.com/s/VZ83yYVphJHOarhaexhy7A	恶意npm包的自动化挖掘方法	qq.com	mp.weixin.qq.com	/s/VZ83yYVphJHOarhaexhy7A
+20220530	论文	https://www.zhihu.com/question/534444001	在计算机领域的科研中，最初的创新点从何而来？	zhihu.com	www.zhihu.com	/question/534444001
+20220530	数据挖掘	https://blog.csdn.net/Eastmount/article/details/125016409	图神经网络及认知推理总结和普及	csdn.net	blog.csdn.net	/Eastmount/article/details/125016409
+20220530	Web安全	https://xz.aliyun.com/t/11341	bandit工具分析	aliyun.com	xz.aliyun.com	/t/11341
+20220530	其它	https://www.sec-in.com/article/1657	PE文件结构解析3	sec-in.com	www.sec-in.com	/article/1657
+20220530	杂志	https://www.sec-wiki.com/weekly/430	SecWiki周刊（第430期)	sec-wiki.com	www.sec-wiki.com	/weekly/430
+20220530	无线安全	https://hexhive.epfl.ch/publications/files/22WOOT.pdf	蓝牙协议对汽车安全的影响研究报告	epfl.ch	hexhive.epfl.ch	/publications/files/22WOOT.pdf
+20220530	Web安全	https://mp.weixin.qq.com/s/rekrBOCzY9eldsoVgXzaEg	APICraft: 为闭源的SDK库生成模糊的驱动程序	qq.com	mp.weixin.qq.com	/s/rekrBOCzY9eldsoVgXzaEg
+20220530	设备安全	https://mp.weixin.qq.com/s/s7JwCRrzvF5kFc8aNvQ5xg	FirmSec-物联网固件中的第三方组件安全性研究	qq.com	mp.weixin.qq.com	/s/s7JwCRrzvF5kFc8aNvQ5xg
+20220530	观点	https://mp.weixin.qq.com/s/WRG25tuSEuGMHAZ6vfFjVg	RSAC 2022 – 创新沙盒观感 (1)	qq.com	mp.weixin.qq.com	/s/WRG25tuSEuGMHAZ6vfFjVg
+20220530	取证分析	https://y1ng.org/2022/05/22/MITRE%20ATT&CK%E5%AE%9E%E8%B7%B5%E5%85%A5%E9%97%A8/	MITRE ATT&CK实践入门	y1ng.org	y1ng.org	/2022/05/22/MITRE%20ATT&CK%E5%AE%9E%E8%B7%B5%E5%85%A5%E9%97%A8/
+20220530	漏洞分析	https://zhuanlan.zhihu.com/p/523207785	Fuzzm: 针对WebAssembly内存错误的模糊测试	zhihu.com	zhuanlan.zhihu.com	/p/523207785
+20220530	取证分析	https://mp.weixin.qq.com/s/hNFVTRINKbBiOQiOf0WTMA	CobaltStrike WebServer特征分析	qq.com	mp.weixin.qq.com	/s/hNFVTRINKbBiOQiOf0WTMA
+20220530	漏洞分析	https://xz.aliyun.com/t/11360	基于框架漏洞的代码审计实战	aliyun.com	xz.aliyun.com	/t/11360
+20220530	观点	https://mp.weixin.qq.com/s/7aC8RHMil--jTRms9jMU1A	兰德深度报告-美国商业太空能力与市场概述	qq.com	mp.weixin.qq.com	/s/7aC8RHMil--jTRms9jMU1A

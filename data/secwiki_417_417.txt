@@ -1,0 +1,23 @@
+20220221	恶意分析	https://www.pangulab.cn/files/The_Bvp47_a_top-tier_backdoor_of_us_nsa_equation_group.zh-cn.pdf	Bvp47 美国NSA方程式的顶级后门 技术细节	pangulab.cn	www.pangulab.cn	/files/The_Bvp47_a_top-tier_backdoor_of_us_nsa_equation_group.zh-cn.pdf
+20220221	Web安全	https://github.com/Le0nsec/SecCrawler	SecCrawler: 每日安全日报的爬虫和推送程序	github.com	github.com	/Le0nsec/SecCrawler
+20220221	漏洞分析	https://mp.weixin.qq.com/s/pt6j8RNowbkbEBir0nygaQ	漏洞可用性交流（VEX）介绍	qq.com	mp.weixin.qq.com	/s/pt6j8RNowbkbEBir0nygaQ
+20220221	Web安全	https://github.com/LubyRuffy/cheatsheet	cheatsheet: 信安技术羊皮卷	github.com	github.com	/LubyRuffy/cheatsheet
+20220221	设备安全	https://mp.weixin.qq.com/s/bVvhXu7WHNkBzY1mB7SacQ	设备指纹技术介绍与综述（一）	qq.com	mp.weixin.qq.com	/s/bVvhXu7WHNkBzY1mB7SacQ
+20220221	杂志	https://www.sec-wiki.com/weekly/416	SecWiki周刊（第416期)	sec-wiki.com	www.sec-wiki.com	/weekly/416
+20220221	运维安全	https://mp.weixin.qq.com/s/T2QGLlKwjaUByDtGFL94PQ	k8s安全入门	qq.com	mp.weixin.qq.com	/s/T2QGLlKwjaUByDtGFL94PQ
+20220221	会议	https://mp.weixin.qq.com/s/WQbYA0mXF7UEi_r-YxIyYQ	PAM 2022 论文录用列表	qq.com	mp.weixin.qq.com	/s/WQbYA0mXF7UEi_r-YxIyYQ
+20220221	编程技术	https://github.com/modernizing/modernization	代码分析与自动化重构	github.com	github.com	/modernizing/modernization
+20220221	运维安全	https://github.com/404notf0und/AI-for-Security-Landing	企业级安全智能化实践指南	github.com	github.com	/404notf0und/AI-for-Security-Landing
+20220221	漏洞分析	https://mp.weixin.qq.com/s/SWFLV6H1zKWQyvnC0JGGhg	路由器TP-Link WR740后门漏洞	qq.com	mp.weixin.qq.com	/s/SWFLV6H1zKWQyvnC0JGGhg
+20220221	取证分析	https://mp.weixin.qq.com/s/Kawjg3f2VseUtx27UrBBLg	威胁情报的三个准确定义	qq.com	mp.weixin.qq.com	/s/Kawjg3f2VseUtx27UrBBLg
+20220221	数据挖掘	https://mp.weixin.qq.com/s/s4ieR17-sisJFwl4j2_v0A	基于机器学习的安全数据集总结	qq.com	mp.weixin.qq.com	/s/s4ieR17-sisJFwl4j2_v0A
+20220221	移动安全	https://mp.weixin.qq.com/s/gdDC9w6bh3jS-tkWJL8qnw	移动互联网应用供应链（SDK）行为安全性现状研究报告	qq.com	mp.weixin.qq.com	/s/gdDC9w6bh3jS-tkWJL8qnw
+20220221	Web安全	https://github.blog/2022-02-17-leveraging-machine-learning-find-security-vulnerabilities/	Leveraging machine learning to find security vulnerabilities	github.blog	github.blog	/2022-02-17-leveraging-machine-learning-find-security-vulnerabilities/
+20220221	恶意分析	https://mp.weixin.qq.com/s/tuOcuq9exms82dvAunzrGg	Xloader 是如何进行加密 C&C 通信的？	qq.com	mp.weixin.qq.com	/s/tuOcuq9exms82dvAunzrGg
+20220221	取证分析	https://mp.weixin.qq.com/s/a7k232Jduo6WMaa-32arYA	基于BERT的Web服务政策合规性衡量方法	qq.com	mp.weixin.qq.com	/s/a7k232Jduo6WMaa-32arYA
+20220221	Web安全	https://mp.weixin.qq.com/s/uwTUzinq1v9U7moqfatVOA	自定义AWVS的Docker镜像	qq.com	mp.weixin.qq.com	/s/uwTUzinq1v9U7moqfatVOA
+20220221	漏洞分析	https://dawnslab.jd.com/pd-exploit-blog1/	Parallels Desktop虚拟机逃逸	jd.com	dawnslab.jd.com	/pd-exploit-blog1/
+20220221	Web安全	https://mp.weixin.qq.com/s/TqW3ONBdcUFijg4keSiO1g	针对AD CS中ESC7的滥用	qq.com	mp.weixin.qq.com	/s/TqW3ONBdcUFijg4keSiO1g
+20220221	恶意分析	https://paper.seebug.org/1839/	CodeQL 与 Shiro550 碰撞	seebug.org	paper.seebug.org	/1839/
+20220221	漏洞分析	https://mp.weixin.qq.com/s/W1_WYAJbfsMWIOVpgqb_NQ	LastPyMile - 甄别软件包源代码和发布版代码的差异性	qq.com	mp.weixin.qq.com	/s/W1_WYAJbfsMWIOVpgqb_NQ
+20220221	取证分析	https://www.anquanke.com/post/id/267338	针对Cookie同意和 GDPR 违规的自动化检测工具	anquanke.com	www.anquanke.com	/post/id/267338

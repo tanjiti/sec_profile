@@ -1,0 +1,26 @@
+20210607	法规	http://m.xinhuanet.com/2021-06/11/c_1127552204.htm	中华人民共和国数据安全法	xinhuanet.com	m.xinhuanet.com	/2021-06/11/c_1127552204.htm
+20210607	会议	https://mp.weixin.qq.com/s/oDkL6J4lHSRskvNgD7yj-w	InForSec学术交流会 参会小计DAY1	qq.com	mp.weixin.qq.com	/s/oDkL6J4lHSRskvNgD7yj-w
+20210607	会议	https://mp.weixin.qq.com/s/LPRoggcsRIl1xT0xMXpLeQ	InForSec学术交流会 参会小计DAY2	qq.com	mp.weixin.qq.com	/s/LPRoggcsRIl1xT0xMXpLeQ
+20210607	恶意分析	https://github.com/bitterzzZZ/MemoryShellLearn	Java内存马学习成果分享和资料整理	github.com	github.com	/bitterzzZZ/MemoryShellLearn
+20210607	运维安全	https://mp.weixin.qq.com/s/L3X3xfGggjf52a8GofFHEQ	开源 API 网关架构分析	qq.com	mp.weixin.qq.com	/s/L3X3xfGggjf52a8GofFHEQ
+20210607	Web安全	https://mp.weixin.qq.com/s/F4GkG1MSOaz3iIGBmDzCTA	钓鱼页面之无视浏览器URL栏	qq.com	mp.weixin.qq.com	/s/F4GkG1MSOaz3iIGBmDzCTA
+20210607	恶意分析	http://blog.nsfocus.net/snort%e5%9c%a8%e5%b7%a5%e6%8e%a7%e7%b3%bb%e7%bb%9f%e5%85%a5%e4%be%b5%e6%a3%80%e6%b5%8b%e7%9a%84%e5%ba%94%e7%94%a8/	Snort在工控系统入侵检测的应用	nsfocus.net	blog.nsfocus.net	/snort%e5%9c%a8%e5%b7%a5%e6%8e%a7%e7%b3%bb%e7%bb%9f%e5%85%a5%e4%be%b5%e6%a3%80%e6%b5%8b%e7%9a%84%e5%ba%94%e7%94%a8/
+20210607	Web安全	https://mp.weixin.qq.com/s/cmgw08gtoY2XkLTcMniNVQ	基于办公处理软件的控守方案研究	qq.com	mp.weixin.qq.com	/s/cmgw08gtoY2XkLTcMniNVQ
+20210607	Web安全	https://security.tencent.com/index.php/blog/msg/166	RASP攻防 —— RASP安全应用与局限性浅析	tencent.com	security.tencent.com	/index.php/blog/msg/166
+20210607	恶意分析	https://mp.weixin.qq.com/s/X_qPqmpx6uGAs6Y84rV8Jg	匿名信使：木马隐蔽通信浅谈	qq.com	mp.weixin.qq.com	/s/X_qPqmpx6uGAs6Y84rV8Jg
+20210607	漏洞分析	https://paper.seebug.org/1604/	聊聊 Synology NAS Audio Station 套件未授权 RCE 调试及 EXP 构造	seebug.org	paper.seebug.org	/1604/
+20210607	取证分析	https://mp.weixin.qq.com/s/vFygIcSNnAgPaEqVBp7LsQ	谈谈网络空间测绘在国家级断电断网事件上的应用	qq.com	mp.weixin.qq.com	/s/vFygIcSNnAgPaEqVBp7LsQ
+20210607	设备安全	https://mp.weixin.qq.com/s/jpKP2-lvHVyQhLcMWfrY5Q	智能设备常规测试思路总结	qq.com	mp.weixin.qq.com	/s/jpKP2-lvHVyQhLcMWfrY5Q
+20210607	取证分析	https://mp.weixin.qq.com/s/PjVIo72rSCsqNYY6536QiA	Sakura 僵尸网络溯源分析报告	qq.com	mp.weixin.qq.com	/s/PjVIo72rSCsqNYY6536QiA
+20210607	其它	https://mp.weixin.qq.com/s/O7xGdZw669xJy3o17ghCbg	怎样系统地管理时间	qq.com	mp.weixin.qq.com	/s/O7xGdZw669xJy3o17ghCbg
+20210607	恶意分析	https://mp.weixin.qq.com/s/IIrXnFBHde7JPg1samJX5g	基于网络流量的网络安全分析与威胁狩猎漫谈（视频版）	qq.com	mp.weixin.qq.com	/s/IIrXnFBHde7JPg1samJX5g
+20210607	观点	https://mp.weixin.qq.com/s/2WwlcdYD9NxcIIZ8xfsJmw	通过RSAC沙盒大赛看未来网络安全新格局	qq.com	mp.weixin.qq.com	/s/2WwlcdYD9NxcIIZ8xfsJmw
+20210607	比赛	https://mp.weixin.qq.com/s/rL-Issg-ouhpMfmcYL76Ow	蓝帽杯半决赛Misc-溯源取证	qq.com	mp.weixin.qq.com	/s/rL-Issg-ouhpMfmcYL76Ow
+20210607	恶意分析	http://www.covert.io/four-short-links-on-malicious-lateral-movement-detection/	Malicious Lateral Movement Detection 横向移动检测	covert.io	www.covert.io	/four-short-links-on-malicious-lateral-movement-detection/
+20210607	杂志	https://www.sec-wiki.com/weekly/379	SecWiki周刊（第379期)	sec-wiki.com	www.sec-wiki.com	/weekly/379
+20210607	其它	https://mp.weixin.qq.com/s/1rwwgErZDO0ygWNY7HPkSA	深入研究网络弹性	qq.com	mp.weixin.qq.com	/s/1rwwgErZDO0ygWNY7HPkSA
+20210607	法规	https://mp.weixin.qq.com/s/n41AIYll9uo1HyV0ZoIBgg	发送商业性信息的合规要点-国外篇	qq.com	mp.weixin.qq.com	/s/n41AIYll9uo1HyV0ZoIBgg
+20210607	观点	https://mp.weixin.qq.com/s/tLHroy8yZIsZCjfdKLK-wQ	浅谈云安全技术以及安全架构亮点	qq.com	mp.weixin.qq.com	/s/tLHroy8yZIsZCjfdKLK-wQ
+20210607	法规	https://mp.weixin.qq.com/s/oU4-OgG6SzGZOWLNCxZlsg	发送商业性信息的合规要点-国内篇	qq.com	mp.weixin.qq.com	/s/oU4-OgG6SzGZOWLNCxZlsg
+20210607	编程技术	https://gitee.com/9199771/sec_coding/blob/master/sec_coding.md	Java安全编码规范	gitee.com	gitee.com	/9199771/sec_coding/blob/master/sec_coding.md
+20210607	漏洞分析	https://mp.weixin.qq.com/s/jm2I-_L_NUBTYNhEUBv-iA	Static Program Analysis Intruction	qq.com	mp.weixin.qq.com	/s/jm2I-_L_NUBTYNhEUBv-iA

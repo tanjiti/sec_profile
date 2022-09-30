@@ -1,0 +1,34 @@
+20201207	其它	https://mp.weixin.qq.com/s/60-O9GGYPNZZW6KVvY_c8w	2020网络安全大事记 - 监管判例篇	qq.com	mp.weixin.qq.com	/s/60-O9GGYPNZZW6KVvY_c8w
+20201207	其它	https://mp.weixin.qq.com/s/cv8z0791TLrVG2HYKY1pdg	中国网络安全公司资本关系图谱 V2.0	qq.com	mp.weixin.qq.com	/s/cv8z0791TLrVG2HYKY1pdg
+20201207	Web安全	https://www.sec-in.com/article/550	记一次St2-045的绕过	sec-in.com	www.sec-in.com	/article/550
+20201207	观点	https://mp.weixin.qq.com/s/K2W-hgCUFOzgxrhF6U1s1A	从FireEye的泄露看红队的差距	qq.com	mp.weixin.qq.com	/s/K2W-hgCUFOzgxrhF6U1s1A
+20201207	观点	https://mp.weixin.qq.com/s/fkH9TZKOcWb_Ttvl-VlA4w	FireEye红队工具失窃事件分析和思考	qq.com	mp.weixin.qq.com	/s/fkH9TZKOcWb_Ttvl-VlA4w
+20201207	Web安全	https://github.com/r0eXpeR/redteam_vul	红队中易被攻击的一些重点系统漏洞整理	github.com	github.com	/r0eXpeR/redteam_vul
+20201207	编程技术	https://mp.weixin.qq.com/s/eI-50-_W89eN8tsKi-5j4g	中间件内存马注入&冰蝎连接	qq.com	mp.weixin.qq.com	/s/eI-50-_W89eN8tsKi-5j4g
+20201207	Web安全	https://www.sec-in.com/article/585	月饼计划之XSS	sec-in.com	www.sec-in.com	/article/585
+20201207	杂志	https://www.sec-wiki.com/weekly/353	SecWiki周刊（第353期)	sec-wiki.com	www.sec-wiki.com	/weekly/353
+20201207	取证分析	https://mp.weixin.qq.com/s/WupcVZATcNkKE93XcgJ4qg	FireEye RedTeam 被黑了	qq.com	mp.weixin.qq.com	/s/WupcVZATcNkKE93XcgJ4qg
+20201207	设备安全	https://mp.weixin.qq.com/s/XvPf_irbpZF6B0-fnn1OBA	针对以色列水利/水务基础设施的网络攻击回顾	qq.com	mp.weixin.qq.com	/s/XvPf_irbpZF6B0-fnn1OBA
+20201207	Web安全	https://mp.weixin.qq.com/s/nVtE-OFoO076x6T0147AMw	从 CVE-2020-17144 看实战环境的漏洞武器化	qq.com	mp.weixin.qq.com	/s/nVtE-OFoO076x6T0147AMw
+20201207	漏洞分析	https://mp.weixin.qq.com/s/gfCtSJoefYLjJpaksbKLrQ	Spring全家桶各类RCE漏洞浅析	qq.com	mp.weixin.qq.com	/s/gfCtSJoefYLjJpaksbKLrQ
+20201207	Web安全	https://xz.aliyun.com/t/8584	实战-站库分离拿下WebShell	aliyun.com	xz.aliyun.com	/t/8584
+20201207	运维安全	https://mp.weixin.qq.com/s/AejcWwJWxZWHf9dDRfVWPA	数据安全怎么做——静态敏感数据治理	qq.com	mp.weixin.qq.com	/s/AejcWwJWxZWHf9dDRfVWPA
+20201207	Web安全	https://mp.weixin.qq.com/s/Ipy-PCnxQWlctQk1oI9arw	RoarCTF-WriteUp	qq.com	mp.weixin.qq.com	/s/Ipy-PCnxQWlctQk1oI9arw
+20201207	数据挖掘	http://cyberopportunity.cn/?p=1280	基于AI的暗网流量检测识别效果专题研究	cyberopportunity.cn	cyberopportunity.cn	/
+20201207	取证分析	https://mp.weixin.qq.com/s/omsTd3q5tOkknfK35tXGXg	30行代码搞定Monero活跃节点探测	qq.com	mp.weixin.qq.com	/s/omsTd3q5tOkknfK35tXGXg
+20201207	Web安全	https://mp.weixin.qq.com/s/Hr-ybKz2CbG4yyTpww23rA	黑吃黑Getshell到提权实战案例	qq.com	mp.weixin.qq.com	/s/Hr-ybKz2CbG4yyTpww23rA
+20201207	Web安全	https://www.sec-in.com/article/733	BypassAv小技巧	sec-in.com	www.sec-in.com	/article/733
+20201207	恶意分析	https://card.weibo.com/article/m/show/id/2309404580597770092748?_wb_client_=1	说说APT	weibo.com	card.weibo.com	/article/m/show/id/2309404580597770092748
+20201207	Web安全	https://security.tencent.com/index.php/blog/msg/174	红蓝对抗之Linux内网渗透	tencent.com	security.tencent.com	/index.php/blog/msg/174
+20201207	恶意分析	http://wolvez.club/2020/12/10/mailsec01/	邮件攻防--宏免杀姿势1	wolvez.club	wolvez.club	/2020/12/10/mailsec01/
+20201207	Web安全	https://xz.aliyun.com/t/8621	SQL注入渗透PostgreSQL(bypass tricks)	aliyun.com	xz.aliyun.com	/t/8621
+20201207	Web安全	https://xz.aliyun.com/t/8601	从mimikatz学Windows本地hash抓取	aliyun.com	xz.aliyun.com	/t/8601
+20201207	漏洞分析	https://mp.weixin.qq.com/s/FfHc8TFUs_4H8JHWbYv3FQ	SharePoint Rce 系列分析（一）	qq.com	mp.weixin.qq.com	/s/FfHc8TFUs_4H8JHWbYv3FQ
+20201207	运维安全	https://blog.csdn.net/bloodzero_new/article/details/111055044	玩转容器安全三 - Harbor私有镜像仓库	csdn.net	blog.csdn.net	/bloodzero_new/article/details/111055044
+20201207	恶意分析	https://mp.weixin.qq.com/s/X-bBV44nMQvDlnl6f4eX7Q	FireEye红队工具失窃事件跟进分析	qq.com	mp.weixin.qq.com	/s/X-bBV44nMQvDlnl6f4eX7Q
+20201207	漏洞分析	https://www.hub.trimarcsecurity.com/post/leveraging-the-kerberos-bronze-bit-attack-cve-2020-17049-scenarios-to-compromise-active-directory	Kerberos Bronze Bit Attack (CVE-2020-17049) Scenarios to Potentially Compromise	trimarcsecurity.com	www.hub.trimarcsecurity.com	/post/leveraging-the-kerberos-bronze-bit-attack-cve-2020-17049-scenarios-to-compromise-active-directory
+20201207	移动安全	https://mp.weixin.qq.com/s/pIeV3uNfRzAYggxRSo7P_g	逆向智能门锁漏洞分析PART（一）	qq.com	mp.weixin.qq.com	/s/pIeV3uNfRzAYggxRSo7P_g
+20201207	其它	https://www.yuque.com/zenany/up/high_productivity_work	高效工作	yuque.com	www.yuque.com	/zenany/up/high_productivity_work
+20201207	移动安全	https://mp.weixin.qq.com/s/IutPFguZmNvPZd5XrlK6Mg	逆向智能门锁漏洞分析PART（二）	qq.com	mp.weixin.qq.com	/s/IutPFguZmNvPZd5XrlK6Mg
+20201207	漏洞分析	https://www.cdxy.me/?p=836	serverless functions攻防初探	cdxy.me	www.cdxy.me	/
+20201207	法规	https://mp.weixin.qq.com/s/B061CcZsJKavNEj_ggkRLQ	各国数据隐私与保护情况	qq.com	mp.weixin.qq.com	/s/B061CcZsJKavNEj_ggkRLQ

@@ -1,0 +1,21 @@
+20200803	新闻	https://www.4hou.com/posts/kDlE	Black Hat USA 2020-值得关注的11家热门初创企业	4hou.com	www.4hou.com	/posts/kDlE
+20200803	Web安全	https://mp.weixin.qq.com/s/LM5bRCieXR7s_g_mVMbjPA	天翼杯-WriteUp	qq.com	mp.weixin.qq.com	/s/LM5bRCieXR7s_g_mVMbjPA
+20200803	杂志	https://www.sec-wiki.com/weekly/335	SecWiki周刊（第335期)	sec-wiki.com	www.sec-wiki.com	/weekly/335
+20200803	Web安全	https://xz.aliyun.com/t/8064	实战绕过双重waf结合sqlmap tamper获取数据	aliyun.com	xz.aliyun.com	/t/8064
+20200803	漏洞分析	https://paper.seebug.org/1281/	CVE-2020-14644 分析与 gadget 的一些思考	seebug.org	paper.seebug.org	/1281/
+20200803	数据挖掘	https://zhuanlan.zhihu.com/p/166587883	人物图谱构建技术	zhihu.com	zhuanlan.zhihu.com	/p/166587883
+20200803	Web安全	https://mp.weixin.qq.com/s/G-Vn4htAhjwlJb67v2TtRw	Goby食用指南之红蓝对抗	qq.com	mp.weixin.qq.com	/s/G-Vn4htAhjwlJb67v2TtRw
+20200803	Web安全	https://mp.weixin.qq.com/s/SddIi7Om8BACyo_X1Skdfg	WMCTF-WriteUp	qq.com	mp.weixin.qq.com	/s/SddIi7Om8BACyo_X1Skdfg
+20200803	工具	https://github.com/taomujian/linbing	linbing: 临兵漏洞扫描系统	github.com	github.com	/taomujian/linbing
+20200803	Web安全	https://mp.weixin.qq.com/s/zYL1TADYChRrPqdz81BOdA	Shiro 回显Burp插件（支持burp被动扫描功能	qq.com	mp.weixin.qq.com	/s/zYL1TADYChRrPqdz81BOdA
+20200803	运维安全	https://github.com/CTF-MissFeng/Watchdog	Watchdog: SRC资产管理系统	github.com	github.com	/CTF-MissFeng/Watchdog
+20200803	比赛	https://mp.weixin.qq.com/s/Ll-f25pLOPbkjlo9zGFbFA	WMCTF2020 WP by 0x401	qq.com	mp.weixin.qq.com	/s/Ll-f25pLOPbkjlo9zGFbFA
+20200803	漏洞分析	https://paper.seebug.org/1287/	Weblogic 远程命令执行漏洞（CVE-2020-14645）分析	seebug.org	paper.seebug.org	/1287/
+20200803	比赛	https://www.anquanke.com/post/id/212808	第三届CBCTF官方WP	anquanke.com	www.anquanke.com	/post/id/212808
+20200803	运维安全	https://mp.weixin.qq.com/s/zvHrPwYT77oedXloVJHi8g	docker容器逃逸	qq.com	mp.weixin.qq.com	/s/zvHrPwYT77oedXloVJHi8g
+20200803	恶意分析	https://github.com/arieljt/VTCodeSimilarity-YaraGen	VT Code Similarity Yara Generator	github.com	github.com	/arieljt/VTCodeSimilarity-YaraGen
+20200803	Web安全	https://mp.weixin.qq.com/s/eMXWYV-5sKR0HfcqMJOBWg	横向渗透的常见方法	qq.com	mp.weixin.qq.com	/s/eMXWYV-5sKR0HfcqMJOBWg
+20200803	恶意分析	https://mp.weixin.qq.com/s/U2trVwV75yEW5HpVn0Ki8A	某Nginx后门分析复现与改写	qq.com	mp.weixin.qq.com	/s/U2trVwV75yEW5HpVn0Ki8A
+20200803	Web安全	https://mp.weixin.qq.com/s/rECW5vKbUfI89F31WEQjyw	红蓝对抗之域名搜集方法总结	qq.com	mp.weixin.qq.com	/s/rECW5vKbUfI89F31WEQjyw
+20200803	Web安全	https://xz.aliyun.com/t/8111	关于检测web蜜罐利用jsonp获取信息的一些想法	aliyun.com	xz.aliyun.com	/t/8111
+20200803	Web安全	https://xz.aliyun.com/t/8081	OneThink前台注入分析	aliyun.com	xz.aliyun.com	/t/8081

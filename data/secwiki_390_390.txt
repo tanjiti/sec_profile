@@ -1,0 +1,28 @@
+20210816	法规	http://www.gov.cn/zhengce/content/2021-08/17/content_5631671.htm	关键信息基础设施安全保护条例	www.gov.cn	www.gov.cn	/zhengce/content/2021-08/17/content_5631671.htm
+20210816	工具	https://tools.xazlsec.com/index.php/HT2210/261.html	HT2211 命令行版 HTTP 工具集 httpx new	xazlsec.com	tools.xazlsec.com	/index.php/HT2210/261.html
+20210816	Web安全	https://mp.weixin.qq.com/s/FGGdgpBLcUciSXqkqkE40g	JSONP和CORS跨域漏洞学习笔记	qq.com	mp.weixin.qq.com	/s/FGGdgpBLcUciSXqkqkE40g
+20210816	Web安全	https://mp.weixin.qq.com/s/JIjBjULjFnKDjEhzVAtxhw	Java内存攻击技术漫谈	qq.com	mp.weixin.qq.com	/s/JIjBjULjFnKDjEhzVAtxhw
+20210816	设备安全	https://github.com/firmianay/firmeye	firmeye - IoT固件漏洞挖掘工具	github.com	github.com	/firmianay/firmeye
+20210816	漏洞分析	https://mp.weixin.qq.com/s/1Fqb0j_gsm-eHF1uOwVgBw	关于路由器的CGI漏洞分析及挖掘	qq.com	mp.weixin.qq.com	/s/1Fqb0j_gsm-eHF1uOwVgBw
+20210816	观点	https://mp.weixin.qq.com/s/295bsChkW6EC5xemDUUExA	那些计算机应用领域的脑洞是怎么产生的	qq.com	mp.weixin.qq.com	/s/295bsChkW6EC5xemDUUExA
+20210816	文档	https://www.venustech.com.cn/u/cms/www/202108/181454025drp.pdf	2020~2021 网络安全态势观察报告	venustech.com.cn	www.venustech.com.cn	/u/cms/www/202108/181454025drp.pdf
+20210816	运维安全	https://mp.weixin.qq.com/s/CFPUbsblrV1MyDIGLaFKDg	SSH软链接后门利用和原理	qq.com	mp.weixin.qq.com	/s/CFPUbsblrV1MyDIGLaFKDg
+20210816	恶意分析	https://mp.weixin.qq.com/s/GBGJ1WOVsQCpVTY9audJPA	APT29—觊觎全球情报的国家级黑客组织（下）	qq.com	mp.weixin.qq.com	/s/GBGJ1WOVsQCpVTY9audJPA
+20210816	工具	https://mp.weixin.qq.com/s/KhqVbUUw4X0zQRQ8OXui_A	安全学术导航站开测	qq.com	mp.weixin.qq.com	/s/KhqVbUUw4X0zQRQ8OXui_A
+20210816	恶意分析	https://mp.weixin.qq.com/s/vHXQcfOcnuehzhrnPn9nSQ	自动化数据分析下的威胁发现	qq.com	mp.weixin.qq.com	/s/vHXQcfOcnuehzhrnPn9nSQ
+20210816	取证分析	https://mp.weixin.qq.com/s/ItTpyty3LMSxwy8YL86CLg	数据脱敏的风险量化评估方案	qq.com	mp.weixin.qq.com	/s/ItTpyty3LMSxwy8YL86CLg
+20210816	杂志	https://www.sec-wiki.com/weekly/389	SecWiki周刊（第389期)	sec-wiki.com	www.sec-wiki.com	/weekly/389
+20210816	数据挖掘	https://mp.weixin.qq.com/s/8W6MCfDvKjBB7Z5LNdffbg	使用文本模糊解释结构模型（TFISM）分析云服务隐私政策中的GDPR合规性	qq.com	mp.weixin.qq.com	/s/8W6MCfDvKjBB7Z5LNdffbg
+20210816	漏洞分析	https://mp.weixin.qq.com/s/7Sv0PW4ChVY_UTtOcJlBrw	模糊测试中的覆盖率导向详解——从代码覆盖率到状态覆盖率	qq.com	mp.weixin.qq.com	/s/7Sv0PW4ChVY_UTtOcJlBrw
+20210816	恶意分析	https://mp.weixin.qq.com/s/5otjKjP-teFmEerrswrpDA	攻击基础设施是攻击者自有还是攻陷他人利用？	qq.com	mp.weixin.qq.com	/s/5otjKjP-teFmEerrswrpDA
+20210816	Web安全	https://mp.weixin.qq.com/s/YixEsAWtS5YvwlKGgObWzw	[HTB] Delivery Writeup	qq.com	mp.weixin.qq.com	/s/YixEsAWtS5YvwlKGgObWzw
+20210816	论文	https://mp.weixin.qq.com/s/jP8-0oHVwh75MtK22qmdlw	ICDF2C 2021 论文录用列表	qq.com	mp.weixin.qq.com	/s/jP8-0oHVwh75MtK22qmdlw
+20210816	观点	https://mp.weixin.qq.com/s/h3rzwBP1mCHDQubUBiTicw	安全创业者Go to Market策略	qq.com	mp.weixin.qq.com	/s/h3rzwBP1mCHDQubUBiTicw
+20210816	Web安全	https://mp.weixin.qq.com/s/LZAPzhJ2oiFakolTPq5pzA	基于欺骗的Web认证扩展	qq.com	mp.weixin.qq.com	/s/LZAPzhJ2oiFakolTPq5pzA
+20210816	Web安全	https://github.com/TideSec/TideFinger	TideFinger: 开源指纹工具	github.com	github.com	/TideSec/TideFinger
+20210816	漏洞分析	https://mp.weixin.qq.com/s/W_vJA8tr_qFS1ff-lVy9Kw	VMware_vCenter 近期漏洞分析	qq.com	mp.weixin.qq.com	/s/W_vJA8tr_qFS1ff-lVy9Kw
+20210816	Web安全	https://github.com/reviewdog/reviewdog	reviewdog: Automated code review tool integrated with any code analysis tools	github.com	github.com	/reviewdog/reviewdog
+20210816	设备安全	https://www.anquanke.com/post/id/248900	NetGear 夜鹰 RAX40V2 设备与固件分析	anquanke.com	www.anquanke.com	/post/id/248900
+20210816	Web安全	https://mp.weixin.qq.com/s/0gfjSa0Q21qFovIhpKfeLw	Cisco Cook常用方法与技巧	qq.com	mp.weixin.qq.com	/s/0gfjSa0Q21qFovIhpKfeLw
+20210816	Web安全	https://mp.weixin.qq.com/s/L4Vuz7R84WbZz5GAtkJabQ	[HTB] Tabby Writeup	qq.com	mp.weixin.qq.com	/s/L4Vuz7R84WbZz5GAtkJabQ
+20210816	数据挖掘	https://mp.weixin.qq.com/s/VjlIw0QtAuBZXEORotDrwA	文本歧义在隐私政策知识图谱构建中的影响	qq.com	mp.weixin.qq.com	/s/VjlIw0QtAuBZXEORotDrwA

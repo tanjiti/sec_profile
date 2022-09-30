@@ -1,0 +1,14 @@
+20220912	会议	https://github.com/knownsec/KCon/tree/master/2022	KCon 2022 Slide	github.com	github.com	/knownsec/KCon/tree/master/2022
+20220912	运维安全	https://mp.weixin.qq.com/s/y_4A2gehmSPCoy8f2xNOPQ	一个科技平台型企业的网络安全建设心得	qq.com	mp.weixin.qq.com	/s/y_4A2gehmSPCoy8f2xNOPQ
+20220912	杂志	https://www.sec-wiki.com/weekly/445	SecWiki周刊（第445期)	sec-wiki.com	www.sec-wiki.com	/weekly/445
+20220912	Web安全	https://mp.weixin.qq.com/s/y4wXU1he7dqLvmzse08eiQ	[HTB] Bart Writeup	qq.com	mp.weixin.qq.com	/s/y4wXU1he7dqLvmzse08eiQ
+20220912	运维安全	https://zhuanlan.zhihu.com/p/564689012	Google数据安全自动化建设之路（白皮书）	zhihu.com	zhuanlan.zhihu.com	/p/564689012
+20220912	Web安全	https://github.com/SEVulDet/SEVulDet	SEVulDet：基于语义增强的系统漏洞挖掘器	github.com	github.com	/SEVulDet/SEVulDet
+20220912	漏洞分析	https://xz.aliyun.com/t/11690	Gitlab常见漏洞复现及后利用	aliyun.com	xz.aliyun.com	/t/11690
+20220912	Web安全	https://mp.weixin.qq.com/s/kfB0ovlafuAcoI5yEEkDEQ	JWT认证攻击详解总结	qq.com	mp.weixin.qq.com	/s/kfB0ovlafuAcoI5yEEkDEQ
+20220912	移动安全	https://www.cnxct.com/ecapture-for-android/	eCapture旁观者：Android HTTPS明文抓包，无需CA证书	cnxct.com	www.cnxct.com	/ecapture-for-android/
+20220912	Web安全	https://mp.weixin.qq.com/s/RZplLKYua6J-JQztxGXS6A	GoTestWAF: 自动化评估Web应用程序安全	qq.com	mp.weixin.qq.com	/s/RZplLKYua6J-JQztxGXS6A
+20220912	取证分析	https://mp.weixin.qq.com/s/7RKpZTC6421CUE6lj1scAQ	一文区分个人信息、敏感个人信息和隐私信息	qq.com	mp.weixin.qq.com	/s/7RKpZTC6421CUE6lj1scAQ
+20220912	取证分析	https://mp.weixin.qq.com/s/QKt-nM-3kWEUksNTovyJrQ	针对Uber被黑客攻击事件的简单分析	qq.com	mp.weixin.qq.com	/s/QKt-nM-3kWEUksNTovyJrQ
+20220912	恶意分析	https://www.freebuf.com/articles/network/344337.html	NPM 供应链安全最佳实践指南	freebuf.com	www.freebuf.com	/articles/network/344337.html
+20220912	取证分析	https://mp.weixin.qq.com/s/dUs7WUKUDOf9lLG6tzdk0g	基于Clickhouse的下一代日志体系建设实践	qq.com	mp.weixin.qq.com	/s/dUs7WUKUDOf9lLG6tzdk0g

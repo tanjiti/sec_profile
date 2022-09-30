@@ -1,0 +1,20 @@
+20220425	法规	http://www.sasac.gov.cn/n2588035/n2588320/n2588335/c10652592/content.html	国资委：将网络安全纳入央企负责人经营业绩考核	sasac.gov.cn	www.sasac.gov.cn	/n2588035/n2588320/n2588335/c10652592/content.html
+20220425	Web安全	https://mp.weixin.qq.com/s/_b43Pj6rszcKvZhrVlsS7g	记一次护网漏洞发现到域控全过程	qq.com	mp.weixin.qq.com	/s/_b43Pj6rszcKvZhrVlsS7g
+20220425	Web安全	https://mp.weixin.qq.com/s/aJ7UvZmACNSEF1zCrntxow	xray联动crawlergo自动化扫描爬坑记	qq.com	mp.weixin.qq.com	/s/aJ7UvZmACNSEF1zCrntxow
+20220425	Web安全	https://mp.weixin.qq.com/s/428TFr-dyK61y5dZSzGDUw	红队必备技能之隐蔽的技巧	qq.com	mp.weixin.qq.com	/s/428TFr-dyK61y5dZSzGDUw
+20220425	漏洞分析	https://mp.weixin.qq.com/s/ZCl9kaMsZLqc74VzErHCGw	CodeQL进阶知识（Java）	qq.com	mp.weixin.qq.com	/s/ZCl9kaMsZLqc74VzErHCGw
+20220425	Web安全	https://mp.weixin.qq.com/s/fQdb-DY9yBdjcCAbUR73fw	无需免杀获取域控hash小技巧	qq.com	mp.weixin.qq.com	/s/fQdb-DY9yBdjcCAbUR73fw
+20220425	Web安全	https://mp.weixin.qq.com/s/KngycYJ7nnirHkNXAlMVKw	记一次Discuz X3.4后台getshell	qq.com	mp.weixin.qq.com	/s/KngycYJ7nnirHkNXAlMVKw
+20220425	编程技术	https://tai-e.pascal-lab.net/intro/overview.html	《软件分析》课程实验作业平台概述	pascal-lab.net	tai-e.pascal-lab.net	/intro/overview.html
+20220425	Web安全	https://github.com/xiaoy-sec/Pentest_Note	Pentest_Note: 渗透测试常规操作记录	github.com	github.com	/xiaoy-sec/Pentest_Note
+20220425	Web安全	https://mp.weixin.qq.com/s/ACTLX6LUdZRevHJHiOnlSg	利用ProxyShell漏洞获取域控所有Hash	qq.com	mp.weixin.qq.com	/s/ACTLX6LUdZRevHJHiOnlSg
+20220425	Web安全	https://mp.weixin.qq.com/s/67SghGobegFUC2td3az5qQ	利用远程进程分叉转存Lsass凭据	qq.com	mp.weixin.qq.com	/s/67SghGobegFUC2td3az5qQ
+20220425	运维安全	https://mp.weixin.qq.com/s/2tu27ZLzd3kEyk5lrXeytQ	软件成分安全分析（SCA）能力的建设与演进	qq.com	mp.weixin.qq.com	/s/2tu27ZLzd3kEyk5lrXeytQ
+20220425	Web安全	https://mp.weixin.qq.com/s/jzQy2KmCiLmJ_RHaPVc4ew	从源代码的控制流图中学习特性以定位缺陷	qq.com	mp.weixin.qq.com	/s/jzQy2KmCiLmJ_RHaPVc4ew
+20220425	取证分析	https://mp.weixin.qq.com/s/xuK94UW1ZNcxwE12qJLutA	链上追踪：洗币手法科普之波场 TRON	qq.com	mp.weixin.qq.com	/s/xuK94UW1ZNcxwE12qJLutA
+20220425	杂志	https://www.sec-wiki.com/weekly/425	SecWiki周刊（第425期)	sec-wiki.com	www.sec-wiki.com	/weekly/425
+20220425	移动安全	https://mp.weixin.qq.com/s/t1-kQ4wpH0wf0gIceV0xzw	针对移动支付的道德反欺诈系统	qq.com	mp.weixin.qq.com	/s/t1-kQ4wpH0wf0gIceV0xzw
+20220425	恶意分析	https://paper.seebug.org/1886/	回顾 2021 年在野利用的 0day 漏洞	seebug.org	paper.seebug.org	/1886/
+20220425	Web安全	https://vanmieghem.io/blueprint-for-evading-edr-in-2022/	A blueprint for evading industry leading endpoint protection in 2022	vanmieghem.io	vanmieghem.io	/blueprint-for-evading-edr-in-2022/
+20220425	Web安全	https://www.anquanke.com/post/id/272393	Smarty 模板注入与沙箱逃逸	anquanke.com	www.anquanke.com	/post/id/272393
+20220425	比赛	https://www.freebuf.com/articles/web/331504.html	有趣的MISC	freebuf.com	www.freebuf.com	/articles/web/331504.html

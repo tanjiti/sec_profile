@@ -1,0 +1,26 @@
+20220613	新闻	https://www.163.com/dy/article/H9N4BBDV05149SCF.html	浙江省通报6起微信泄密典型案例	163.com	www.163.com	/dy/article/H9N4BBDV05149SCF.html
+20220613	法规	http://www.gov.cn/xinwen/2022-06/14/content_5695690.htm	移动互联网应用程序信息服务管理规定	www.gov.cn	www.gov.cn	/xinwen/2022-06/14/content_5695690.htm
+20220613	法规	http://www.nea.gov.cn/2022-06/14/c_1310622577.htm	电力行业网络安全管理办法（修订征求意见稿）	nea.gov.cn	www.nea.gov.cn	/2022-06/14/c_1310622577.htm
+20220613	运维安全	https://zhuanlan.zhihu.com/p/528817905	Google对于未来SOC的建设思考（自动化安全运营白皮书）	zhihu.com	zhuanlan.zhihu.com	/p/528817905
+20220613	Web安全	https://mp.weixin.qq.com/s/jo_l-qU2rfP-JlAFs-8ZHg	自动化渗透测试工具开发实践	qq.com	mp.weixin.qq.com	/s/jo_l-qU2rfP-JlAFs-8ZHg
+20220613	取证分析	https://mp.weixin.qq.com/s/0dnBvI9DNL0nko28UiLgrQ	使用 Python 从泄露的日志中挖掘威胁情报的金矿	qq.com	mp.weixin.qq.com	/s/0dnBvI9DNL0nko28UiLgrQ
+20220613	恶意分析	https://mp.weixin.qq.com/s/CjsqWrm70HVEnolZrRD8oA	CobaltStrike 流量分析与入侵检测	qq.com	mp.weixin.qq.com	/s/CjsqWrm70HVEnolZrRD8oA
+20220613	Web安全	https://mp.weixin.qq.com/s/qXYkarSVVTpYLx9zwt0UjA	Cloud I Hack into Google Cloud	qq.com	mp.weixin.qq.com	/s/qXYkarSVVTpYLx9zwt0UjA
+20220613	恶意分析	https://mp.weixin.qq.com/s/b6lzQ4F8AwELGw4JZGR_vw	Shodan 与 Censys 扫描一瞥	qq.com	mp.weixin.qq.com	/s/b6lzQ4F8AwELGw4JZGR_vw
+20220613	Web安全	https://mp.weixin.qq.com/s/1XHJbGgK5kUtiiEtLlaY6w	CyberBattleSim（内网自动化渗透）研究分析	qq.com	mp.weixin.qq.com	/s/1XHJbGgK5kUtiiEtLlaY6w
+20220613	其它	https://mp.weixin.qq.com/s/rE-UxUzd_6uv4xcp77V3qQ	我和SRC的故事	qq.com	mp.weixin.qq.com	/s/rE-UxUzd_6uv4xcp77V3qQ
+20220613	取证分析	https://hardenedvault.net/zh-cn/blog/2022-06-16-ved-community-version/	VED (Vault Exploit Defense): 开源实现	hardenedvault.net	hardenedvault.net	/zh-cn/blog/2022-06-16-ved-community-version/
+20220613	恶意分析	https://mp.weixin.qq.com/s/mC5D8kFaQA-cIcw2rlTgeA	“暗象”组织：潜藏十年的网络攻击	qq.com	mp.weixin.qq.com	/s/mC5D8kFaQA-cIcw2rlTgeA
+20220613	漏洞分析	https://www.povcfe.site/pwn/pwn.pdf	Pwn思维导图	povcfe.site	www.povcfe.site	/pwn/pwn.pdf
+20220613	Web安全	https://github.com/twosmi1e/Static-Analysis-and-Automated-Code-Audit	静态分析及代码审计自动化相关资料收集	github.com	github.com	/twosmi1e/Static-Analysis-and-Automated-Code-Audit
+20220613	运维安全	https://mp.weixin.qq.com/s/qZ_uu58R418BltFaeVcWww	信息安全BP的能力模型	qq.com	mp.weixin.qq.com	/s/qZ_uu58R418BltFaeVcWww
+20220613	运维安全	https://zhuanlan.zhihu.com/p/529772138	Google对于云安全未来的发展方向（CISO 云安全转型指南白皮书）	zhihu.com	zhuanlan.zhihu.com	/p/529772138
+20220613	数据挖掘	https://mp.weixin.qq.com/s/W3oewKOH2IXzDFXRCY4W6Q	一文读懂事件知识图谱	qq.com	mp.weixin.qq.com	/s/W3oewKOH2IXzDFXRCY4W6Q
+20220613	杂志	https://www.sec-wiki.com/weekly/432	SecWiki周刊（第432期)	sec-wiki.com	www.sec-wiki.com	/weekly/432
+20220613	其它	https://www.coco413.com/archives/134/	我的知识管理方式	coco413.com	www.coco413.com	/archives/134/
+20220613	其它	https://www.coco413.com/archives/129/	对安全网闸产品初探	coco413.com	www.coco413.com	/archives/129/
+20220613	编程技术	https://limboy.me/posts/frontend-learning/	我的前端学习路线	limboy.me	limboy.me	/posts/frontend-learning/
+20220613	观点	https://mp.weixin.qq.com/s/SlNo1ECifYSTQ4U-6umDEw	关于BIS的《信息安全控制：网络安全条目》的解读及影响分析	qq.com	mp.weixin.qq.com	/s/SlNo1ECifYSTQ4U-6umDEw
+20220613	取证分析	https://www.solidot.org/story?sid=71791	一篇论文如何摧毁比特币的匿名性	solidot.org	www.solidot.org	/story
+20220613	Web安全	https://paper.seebug.org/1921/	CodeQL 数据库创建原理分析	seebug.org	paper.seebug.org	/1921/
+20220613	法规	https://mp.weixin.qq.com/s/DXWXTMsz_Sf1zlDIJd4RBw	《现有SBOM格式和标准调查》译文	qq.com	mp.weixin.qq.com	/s/DXWXTMsz_Sf1zlDIJd4RBw

@@ -1,0 +1,28 @@
+20211206	法规	https://mp.weixin.qq.com/s/GSod_Mbebfc5tIyNN7uusg	网络科技犯罪典型案例	qq.com	mp.weixin.qq.com	/s/GSod_Mbebfc5tIyNN7uusg
+20211206	Web安全	https://blog.csdn.net/chest_/article/details/103941792	浅谈Web登录认证类漏洞	csdn.net	blog.csdn.net	/chest_/article/details/103941792
+20211206	运维安全	https://mp.weixin.qq.com/s/UkOHsg5I6v8JJrsKucEewA	安全运营项目的工作方法	qq.com	mp.weixin.qq.com	/s/UkOHsg5I6v8JJrsKucEewA
+20211206	论文	https://mp.weixin.qq.com/s/U5r7fzsGgjD5IZIh3LIcWA	邮件安全的27年漫漫路	qq.com	mp.weixin.qq.com	/s/U5r7fzsGgjD5IZIh3LIcWA
+20211206	取证分析	https://mp.weixin.qq.com/s/Cha_hTGOh-GGVkaZRdFujw	反向探测互联网扫描器	qq.com	mp.weixin.qq.com	/s/Cha_hTGOh-GGVkaZRdFujw
+20211206	恶意分析	https://tttang.com/archive/1342/	加密后门的木马分析	tttang.com	tttang.com	/archive/1342/
+20211206	恶意分析	https://mp.weixin.qq.com/s/VDU0z5XNM3CmEIU6sC6jrA	知识图谱视角下的威胁评估	qq.com	mp.weixin.qq.com	/s/VDU0z5XNM3CmEIU6sC6jrA
+20211206	恶意分析	https://mp.weixin.qq.com/s/okOIk2Ery3FdvtHIGtjr_Q	僵尸网络是如何应对执法行动的？	qq.com	mp.weixin.qq.com	/s/okOIk2Ery3FdvtHIGtjr_Q
+20211206	恶意分析	https://mp.weixin.qq.com/s/v5kcg9XZGb8DwtpNgHXRCQ	解析服务提供商对非授权域名解析情况的评估	qq.com	mp.weixin.qq.com	/s/v5kcg9XZGb8DwtpNgHXRCQ
+20211206	取证分析	https://mp.weixin.qq.com/s/OtlCMVceCi5syVOaG5Fpzg	基于POI和查询似然的微博用户地理位置推演	qq.com	mp.weixin.qq.com	/s/OtlCMVceCi5syVOaG5Fpzg
+20211206	Web安全	https://mp.weixin.qq.com/s/oXHcoLE5WkEer24mz7BqUg	API经济下的安全变局	qq.com	mp.weixin.qq.com	/s/oXHcoLE5WkEer24mz7BqUg
+20211206	Web安全	https://www.sec-in.com/article/1134	Digvuln Tricks之JS泄露全到后台越权	sec-in.com	www.sec-in.com	/article/1134
+20211206	取证分析	https://mp.weixin.qq.com/s/9vVRTehwAhkSLM65JaKiQA	如何使用Yakit进行流量劫持	qq.com	mp.weixin.qq.com	/s/9vVRTehwAhkSLM65JaKiQA
+20211206	Web安全	https://lorexxar.cn/2021/12/10/log4j2-jndi/	log4j2 JNDI注入漏洞速通	lorexxar.cn	lorexxar.cn	/2021/12/10/log4j2-jndi/
+20211206	Web安全	https://github.com/EmYiQing/JSPKiller	JSPKiller: 基于污点分析的JSP Webshell检测工具	github.com	github.com	/EmYiQing/JSPKiller
+20211206	恶意分析	https://mp.weixin.qq.com/s/TY17e0hpW0b9n4eQtcvaeg	利用DoH技术加密传输的DNS隧道流量检测分析	qq.com	mp.weixin.qq.com	/s/TY17e0hpW0b9n4eQtcvaeg
+20211206	杂志	https://www.sec-wiki.com/weekly/405	SecWiki周刊（第405期)	sec-wiki.com	www.sec-wiki.com	/weekly/405
+20211206	恶意分析	https://mp.weixin.qq.com/s/ytvN73RMv4b9NtSs0vqqPg	基于模糊加权随机森林算法的恶意软件检测	qq.com	mp.weixin.qq.com	/s/ytvN73RMv4b9NtSs0vqqPg
+20211206	Web安全	https://mp.weixin.qq.com/s/vAE89A5wKrc-YnvTr0qaNg	log4j 漏洞一些特殊的利用方式	qq.com	mp.weixin.qq.com	/s/vAE89A5wKrc-YnvTr0qaNg
+20211206	Web安全	https://www.anquanke.com/post/id/261493	钓鱼小技巧-XLM	anquanke.com	www.anquanke.com	/post/id/261493
+20211206	运维安全	https://www.freebuf.com/sectool/306967.html	Security_Scan: 组件安全基线扫描工具	freebuf.com	www.freebuf.com	/sectool/306967.html
+20211206	取证分析	https://www.freebuf.com/articles/database/308203.html	应急响应-非法黑产溯源	freebuf.com	www.freebuf.com	/articles/database/308203.html
+20211206	论文	https://moxiaoxi.info/papers/2020/10/18/Papers/	利用zotero与dblp批量收集论文	moxiaoxi.info	moxiaoxi.info	/papers/2020/10/18/Papers/
+20211206	Web安全	https://moxiaoxi.info/emailspoofing/2021/08/18/emailspoofing/	对电子邮件伪造攻击的大规模分析	moxiaoxi.info	moxiaoxi.info	/emailspoofing/2021/08/18/emailspoofing/
+20211206	漏洞分析	http://noahblog.360.cn/active-directory-certificate-services-attack-and-exploit/	ADCS 攻击面挖掘与利用	360.cn	noahblog.360.cn	/active-directory-certificate-services-attack-and-exploit/
+20211206	其它	https://le4f.net/unraid-docker-apps/	Unraid篇：docker私有部署服务推荐	le4f.net	le4f.net	/unraid-docker-apps/
+20211206	Web安全	https://mp.weixin.qq.com/s/vizmtNhYW4r-kETt4qJuww	[HTB] Armageddon Writeup	qq.com	mp.weixin.qq.com	/s/vizmtNhYW4r-kETt4qJuww
+20211206	漏洞分析	https://www.anquanke.com/post/id/260633	N1CTF2021 Jerry WP	anquanke.com	www.anquanke.com	/post/id/260633

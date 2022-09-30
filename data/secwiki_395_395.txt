@@ -1,0 +1,19 @@
+20210920	漏洞分析	https://mp.weixin.qq.com/s/IL-wIM8wePZL07l9YJnX_Q	浅谈固件Fuzz	qq.com	mp.weixin.qq.com	/s/IL-wIM8wePZL07l9YJnX_Q
+20210920	恶意分析	https://mp.weixin.qq.com/s/rckBxtxQiVCXf7q3zut6SA	针对互联网资源供应商们的DNS投毒攻击研究	qq.com	mp.weixin.qq.com	/s/rckBxtxQiVCXf7q3zut6SA
+20210920	漏洞分析	https://mp.weixin.qq.com/s/Zfwxcs1oaCqwno6lcIOMLQ	漏洞知识图谱构建技术研究	qq.com	mp.weixin.qq.com	/s/Zfwxcs1oaCqwno6lcIOMLQ
+20210920	杂志	https://www.sec-wiki.com/weekly/394	SecWiki周刊（第394期)	sec-wiki.com	www.sec-wiki.com	/weekly/394
+20210920	论文	https://mp.weixin.qq.com/s/ENzG3CKSDMR-0EpCTuVq0w	CCS 2021 论文录用列表	qq.com	mp.weixin.qq.com	/s/ENzG3CKSDMR-0EpCTuVq0w
+20210920	文档	https://github.com/awake1t/HackReport	HackReport: 渗透测试报告/资料文档/渗透经验文档/安全书籍	github.com	github.com	/awake1t/HackReport
+20210920	工具	https://mp.weixin.qq.com/s?__biz=Mzg2ODQ3ODE1NA==&mid=2247484357&idx=1&sn=5f4a693969a04d9d171582462e325231&chksm=ceaafe60f9dd77768e18b3f16e8b94108c56ceea2055444ddcdf5f7aae9aa2cf399309957864&token=2128201109&lang=zh_CN#rd	禅道开源版自动化安全审计	qq.com	mp.weixin.qq.com	/s
+20210920	设备安全	https://mp.weixin.qq.com/s/S2kRnUYKi1juyYJC-wtX-A	物联网设备的几种固件仿真方式	qq.com	mp.weixin.qq.com	/s/S2kRnUYKi1juyYJC-wtX-A
+20210920	恶意分析	https://www.anquanke.com/post/id/252904	基于微信小程序生态体系的黑灰产研究报告	anquanke.com	www.anquanke.com	/post/id/252904
+20210920	Web安全	https://mp.weixin.qq.com/s/9GT8QM9FQBVCHrEjwxyTmA	WebVPN弱口令引发的内网沦陷	qq.com	mp.weixin.qq.com	/s/9GT8QM9FQBVCHrEjwxyTmA
+20210920	恶意分析	https://mp.weixin.qq.com/s/5dGxqeckzSIsr3TDaqwxNw	欧盟网络安全局供应链攻击威胁全景图（上）	qq.com	mp.weixin.qq.com	/s/5dGxqeckzSIsr3TDaqwxNw
+20210920	恶意分析	https://mp.weixin.qq.com/s/_OwlypeLFlZOsPMDsBVtFQ	软件成分分析工具评估开放指南	qq.com	mp.weixin.qq.com	/s/_OwlypeLFlZOsPMDsBVtFQ
+20210920	恶意分析	https://www.secrss.com/articles/34567	CNCERT：医疗器械行业网络安全分析报告	secrss.com	www.secrss.com	/articles/34567
+20210920	恶意分析	https://www.anquanke.com/post/id/253572	mruby字节码逆向入门	anquanke.com	www.anquanke.com	/post/id/253572
+20210920	论文	https://mp.weixin.qq.com/s/9BNn9bWE10rEQHbT9toA8w	在野欺诈策略剖析	qq.com	mp.weixin.qq.com	/s/9BNn9bWE10rEQHbT9toA8w
+20210920	恶意分析	https://mp.weixin.qq.com/s/J6dZBySs8eC2N9y16qwtxQ	使用机器学习和缓存未命中属性的DNS隧道检测	qq.com	mp.weixin.qq.com	/s/J6dZBySs8eC2N9y16qwtxQ
+20210920	恶意分析	https://mp.weixin.qq.com/s/LI_aErTZNl8zcOuextiSuw	欧盟网络安全局供应链攻击威胁全景图（下）	qq.com	mp.weixin.qq.com	/s/LI_aErTZNl8zcOuextiSuw
+20210920	恶意分析	https://mp.weixin.qq.com/s/PiGU1cck3VuQhyUs06Locw	Sodinokibi勒索病毒分析	qq.com	mp.weixin.qq.com	/s/PiGU1cck3VuQhyUs06Locw
+20210920	论文	https://mp.weixin.qq.com/s/NojVXifceVuHfhgVvqtHoQ	GDPR和云隐私政策的语义相似性	qq.com	mp.weixin.qq.com	/s/NojVXifceVuHfhgVvqtHoQ

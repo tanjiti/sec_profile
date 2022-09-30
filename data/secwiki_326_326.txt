@@ -1,0 +1,35 @@
+20200525	观点	https://mp.weixin.qq.com/s/gWrMODC3Rkznk-swglI0Qw	美国国防高级研究计划局未来网络安全研发趋势分析	qq.com	mp.weixin.qq.com	/s/gWrMODC3Rkznk-swglI0Qw
+20200525	恶意分析	https://www.anquanke.com/post/id/206664	闲谈Webshell实战应用	anquanke.com	www.anquanke.com	/post/id/206664
+20200525	Web安全	https://mp.weixin.qq.com/s/4bFC1GdiRZe9ygazXb1pnA	一次曲折的渗透测试之旅	qq.com	mp.weixin.qq.com	/s/4bFC1GdiRZe9ygazXb1pnA
+20200525	Web安全	https://mp.weixin.qq.com/s/cwkZXWCOKYpLDK9o_J_G1w	weblogic t3协议回显穿透nat以及获取内网地址	qq.com	mp.weixin.qq.com	/s/cwkZXWCOKYpLDK9o_J_G1w
+20200525	Web安全	https://mp.weixin.qq.com/s/U1MaRyNJjiX4yxZt1TW4TA	sqlmap关于MSSQL执行命令研究	qq.com	mp.weixin.qq.com	/s/U1MaRyNJjiX4yxZt1TW4TA
+20200525	工具	https://mp.weixin.qq.com/s/NL6sHFhOgumQh7oFZNLgYQ	DNSLOG平台搭建从0到1	qq.com	mp.weixin.qq.com	/s/NL6sHFhOgumQh7oFZNLgYQ
+20200525	取证分析	https://www.anquanke.com/post/id/205969	基于机器学习的GitHub敏感信息泄露监控	anquanke.com	www.anquanke.com	/post/id/205969
+20200525	漏洞分析	https://mp.weixin.qq.com/s/nREiT1Uj25igCMWu1kta9g	Fuzzing战争: 从刀剑弓斧到星球大战	qq.com	mp.weixin.qq.com	/s/nREiT1Uj25igCMWu1kta9g
+20200525	取证分析	https://mp.weixin.qq.com/s/sJyTd50SukIFuVjPSTrFDQ	由喝啤酒引发的军事情报人员信息泄露	qq.com	mp.weixin.qq.com	/s/sJyTd50SukIFuVjPSTrFDQ
+20200525	漏洞分析	https://mp.weixin.qq.com/s/4vgBmesl2KICNSoDEep_5Q	“网鼎杯”朱雀之战——魔法房间题解	qq.com	mp.weixin.qq.com	/s/4vgBmesl2KICNSoDEep_5Q
+20200525	恶意分析	https://paper.seebug.org/1219/	使用 ZoomEye 寻找 APT 攻击的蛛丝马迹	seebug.org	paper.seebug.org	/1219/
+20200525	文档	https://drive.google.com/file/d/14ZeveFdsWkxEA9vAiUSmpPygpcisRGMC/view	基于深度学习的恶意流量检测	google.com	drive.google.com	/file/d/14ZeveFdsWkxEA9vAiUSmpPygpcisRGMC/view
+20200525	文档	https://drive.google.com/file/d/1g4LG-vyOL92kNiUmweA-IuuSRP4wvvIj/view	IPv6 地址发现	google.com	drive.google.com	/file/d/1g4LG-vyOL92kNiUmweA-IuuSRP4wvvIj/view
+20200525	Web安全	https://cube01.io/blog/Moodle-DOM-Stored-XSS-to-RCE.html	Moodle DOM Stored XSS to RCE	cube01.io	cube01.io	/blog/Moodle-DOM-Stored-XSS-to-RCE.html
+20200525	其它	https://www.hackinn.com/index.php/archives/672/	微信小程序的渗透五脉	hackinn.com	www.hackinn.com	/index.php/archives/672/
+20200525	会议	https://mp.weixin.qq.com/s/vdzrImsGD7dnPs0HZNr_SQ	DIMVA 2020 论文录用列表	qq.com	mp.weixin.qq.com	/s/vdzrImsGD7dnPs0HZNr_SQ
+20200525	Web安全	https://github.com/guimaizi/testing_wave	testing_wave: 被动式web扫描器	github.com	github.com	/guimaizi/testing_wave
+20200525	Web安全	https://www.vulnspy.com/en-oxid-eshop-6.x-sqli-to-rce/	OXID eShop 6.x below 6.3.4 SQL Injection (SQLi) to RCE Vulnerability Exploit	vulnspy.com	www.vulnspy.com	/en-oxid-eshop-6.x-sqli-to-rce/
+20200525	Web安全	https://mp.weixin.qq.com/s/xwEOpEkPurwP119tonUzVQ	Apache CommonCollection Gadget几种特殊的玩法	qq.com	mp.weixin.qq.com	/s/xwEOpEkPurwP119tonUzVQ
+20200525	恶意分析	https://mp.weixin.qq.com/s/LeK6QYHwd3k3UlyAuSkcZA	基于域名图谱嵌入的恶意域名挖掘	qq.com	mp.weixin.qq.com	/s/LeK6QYHwd3k3UlyAuSkcZA
+20200525	Web安全	https://xz.aliyun.com/t/7784	浅析域渗透中的组策略利用	aliyun.com	xz.aliyun.com	/t/7784
+20200525	漏洞分析	https://xz.aliyun.com/t/7792	Thinkphp5代码执行学习	aliyun.com	xz.aliyun.com	/t/7792
+20200525	设备安全	https://www.anquanke.com/post/id/206579	S7CommPlus协议研究	anquanke.com	www.anquanke.com	/post/id/206579
+20200525	杂志	https://www.sec-wiki.com/weekly/325	SecWiki周刊（第325期)	sec-wiki.com	www.sec-wiki.com	/weekly/325
+20200525	论文	https://weibo.com/ttarticle/p/show?id=2309404509982170152995	沈向洋：读论文的三个层次	weibo.com	weibo.com	/ttarticle/p/show
+20200525	漏洞分析	https://engineering.avast.io/magic-probably-behind-hex-rays/	Magic [probably] behind Hex-Rays	avast.io	engineering.avast.io	/magic-probably-behind-hex-rays/
+20200525	运维安全	https://mp.weixin.qq.com/s/ZkuR5bDGYpXySUcuROcb7Q	零信任解决方案白皮书	qq.com	mp.weixin.qq.com	/s/ZkuR5bDGYpXySUcuROcb7Q
+20200525	Web安全	https://xz.aliyun.com/t/7789	codeql学习——污点分析	aliyun.com	xz.aliyun.com	/t/7789
+20200525	恶意分析	https://mp.weixin.qq.com/s/hJ6gn9EMKNmMOofEg3i6Iw	APT的思考: CMD命令混淆高级对抗	qq.com	mp.weixin.qq.com	/s/hJ6gn9EMKNmMOofEg3i6Iw
+20200525	设备安全	https://www.freebuf.com/articles/terminal/234978.html	加密固件分析实战	freebuf.com	www.freebuf.com	/articles/terminal/234978.html
+20200525	工具	https://paper.seebug.org/1220/	Look for traces of APT attacks through the ZoomEye history api	seebug.org	paper.seebug.org	/1220/
+20200525	恶意分析	https://blog.netlab.360.com/look-at-ntp-pool-using-dns-data/	从DNS角度看NTP pool服务器的使用	360.com	blog.netlab.360.com	/look-at-ntp-pool-using-dns-data/
+20200525	数据挖掘	https://mp.weixin.qq.com/s/PCRzPGGBXG7cJAInylkCRg	全面了解风控数据体系	qq.com	mp.weixin.qq.com	/s/PCRzPGGBXG7cJAInylkCRg
+20200525	运维安全	https://mp.weixin.qq.com/s/j44LMlItuTodfJvL_YGTUA	全链路自动化监控平台的探索与实践	qq.com	mp.weixin.qq.com	/s/j44LMlItuTodfJvL_YGTUA
+20200525	恶意分析	https://www.welivesecurity.com/2020/05/26/agentbtz-comratv4-ten-year-journey/	From Agent.BTZ to ComRAT v4: A ten‑year journey	welivesecurity.com	www.welivesecurity.com	/2020/05/26/agentbtz-comratv4-ten-year-journey/

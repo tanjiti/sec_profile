@@ -1,0 +1,42 @@
+20200427	法规	https://mp.weixin.qq.com/s/nAjbLxdDnflhc_89y0e01Q	网络安全审查办法	qq.com	mp.weixin.qq.com	/s/nAjbLxdDnflhc_89y0e01Q
+20200427	Web安全	https://blog.riskivy.com/2020%E6%94%BB%E9%98%B2%E6%BC%94%E7%BB%83%E5%BC%B9%E8%8D%AF%E5%BA%93-%E6%82%A8%E6%9C%89%E4%B8%BB%E6%9C%BA%E4%B8%8A%E7%BA%BF%E8%AF%B7%E6%B3%A8%E6%84%8F/	2020攻防演练弹药库	riskivy.com	blog.riskivy.com	/2020%E6%94%BB%E9%98%B2%E6%BC%94%E7%BB%83%E5%BC%B9%E8%8D%AF%E5%BA%93-%E6%82%A8%E6%9C%89%E4%B8%BB%E6%9C%BA%E4%B8%8A%E7%BA%BF%E8%AF%B7%E6%B3%A8%E6%84%8F/
+20200427	Web安全	https://mp.weixin.qq.com/s/n3AQ88RPYGUWxY1Los5tbQ	某门户系统授权渗透测试	qq.com	mp.weixin.qq.com	/s/n3AQ88RPYGUWxY1Los5tbQ
+20200427	Web安全	https://mp.weixin.qq.com/s/L5WeEFvu6etVTAigx6jjcQ	SonarQube实现自动化代码扫描	qq.com	mp.weixin.qq.com	/s/L5WeEFvu6etVTAigx6jjcQ
+20200427	其它	https://mp.weixin.qq.com/s/qB9phQwF8NulwSGINQz3yA	谈谈工作和学习中，所谓的主动性	qq.com	mp.weixin.qq.com	/s/qB9phQwF8NulwSGINQz3yA
+20200427	工具	https://github.com/zj1244/beholder_scanner	beholder:一款监控端口变化的系统	github.com	github.com	/zj1244/beholder_scanner
+20200427	Web安全	https://github.com/wooyunwang/Fortify	Fortify: 源代码漏洞の审计	github.com	github.com	/wooyunwang/Fortify
+20200427	恶意分析	https://mp.weixin.qq.com/s/GjAPqrpMT6cHwkWTRjUu1Q	WebShell通用免杀的思考	qq.com	mp.weixin.qq.com	/s/GjAPqrpMT6cHwkWTRjUu1Q
+20200427	Web安全	https://mp.weixin.qq.com/s/i7-g89BJHIYTwaJbLuGZcQ	Fastjson反序列化进攻利用	qq.com	mp.weixin.qq.com	/s/i7-g89BJHIYTwaJbLuGZcQ
+20200427	其它	https://mp.weixin.qq.com/s/YCSuRXhiFYGaE-f3_C8l5A	2019年网络安全报告精选	qq.com	mp.weixin.qq.com	/s/YCSuRXhiFYGaE-f3_C8l5A
+20200427	恶意分析	https://johannesbader.ch/blog/the-dga-of-zloader/	The DGA of Zloader	johannesbader.ch	johannesbader.ch	/blog/the-dga-of-zloader/
+20200427	Web安全	https://mp.weixin.qq.com/s/q0y2WNIhkmR88Mdpyv4_QQ	Spring Boot Actuator 漏洞利用	qq.com	mp.weixin.qq.com	/s/q0y2WNIhkmR88Mdpyv4_QQ
+20200427	观点	https://mp.weixin.qq.com/s/C_qQtuisG0NVcwad4y0BqQ	相信技术的力量 - RSAC 2020 (2)	qq.com	mp.weixin.qq.com	/s/C_qQtuisG0NVcwad4y0BqQ
+20200427	漏洞分析	https://www.zerodayinitiative.com/blog/2020/4/28/cve-2020-0932-remote-code-execution-on-microsoft-sharepoint-using-typeconverters	CVE-2020-0932: remote code execution on microsoft sharepoint	zerodayinitiative.com	www.zerodayinitiative.com	/blog/2020/4/28/cve-2020-0932-remote-code-execution-on-microsoft-sharepoint-using-typeconverters
+20200427	Web安全	https://mp.weixin.qq.com/s/Agr3doBvYMK6Bs0tH6urcw	渗透利器Cobalt Strike在野利用情况专题分析	qq.com	mp.weixin.qq.com	/s/Agr3doBvYMK6Bs0tH6urcw
+20200427	运维安全	https://mp.weixin.qq.com/s/idoKIGK7-z3SOjMKCflJlg	应急响应之CC攻击事件	qq.com	mp.weixin.qq.com	/s/idoKIGK7-z3SOjMKCflJlg
+20200427	无线安全	https://xz.aliyun.com/t/7638	短信身份验证的安全风险	aliyun.com	xz.aliyun.com	/t/7638
+20200427	其它	https://securitygossip.com/blog/2020/04/21/kobold-evaluating-decentralized-access-control-for-remote-nsxpc-methods-on-ios/	Kobold: Evaluating Decentralized Access Control for Remote NSXPC Methods on iOS	securitygossip.com	securitygossip.com	/blog/2020/04/21/kobold-evaluating-decentralized-access-control-for-remote-nsxpc-methods-on-ios/
+20200427	Web安全	https://mp.weixin.qq.com/s/4shT8tP-Gu3XX7fnWKQHAA	远控免杀专题-终结篇	qq.com	mp.weixin.qq.com	/s/4shT8tP-Gu3XX7fnWKQHAA
+20200427	漏洞分析	https://paper.seebug.org/1153/	Linux 内核内存管理与漏洞利用	seebug.org	paper.seebug.org	/1153/
+20200427	漏洞分析	https://revers.engineering/patchguard-detection-of-hypervisor-based-instrospection-p2/	Patchguard: Detection of Hypervisor Based Introspection [P2]	revers.engineering	revers.engineering	/patchguard-detection-of-hypervisor-based-instrospection-p2/
+20200427	数据挖掘	https://mp.weixin.qq.com/s/mr-007pdIzOXPDaAUha1Ww	基于大数据的Uber数据实时监控（Part 1：Spark机器学习）	qq.com	mp.weixin.qq.com	/s/mr-007pdIzOXPDaAUha1Ww
+20200427	法规	https://www.freebuf.com/news/235177.html	《网络安全审查办法》要点解读	freebuf.com	www.freebuf.com	/news/235177.html
+20200427	漏洞分析	https://revers.engineering/patchguard-detection-of-hypervisor-based-instrospection-p1/	Patchguard: Detection of Hypervisor Based Instrospection [P1]	revers.engineering	revers.engineering	/patchguard-detection-of-hypervisor-based-instrospection-p1/
+20200427	恶意分析	https://blog.netlab.360.com/the-leethozer-botnet/	LeetHozer Botnet分析报告	360.com	blog.netlab.360.com	/the-leethozer-botnet/
+20200427	其它	https://mp.weixin.qq.com/s/CiOaMnJBcEQfZXV_hopzLw	Mimikatz的18种免杀姿势及防御策略(上)	qq.com	mp.weixin.qq.com	/s/CiOaMnJBcEQfZXV_hopzLw
+20200427	数据挖掘	https://mp.weixin.qq.com/s/ARz1tytLWwkAlFA4XV-MYA	基于大数据的Uber数据实时监控（Prat 3：使用Vert.x的实时仪表盘）	qq.com	mp.weixin.qq.com	/s/ARz1tytLWwkAlFA4XV-MYA
+20200427	数据挖掘	https://mp.weixin.qq.com/s/j7vuiAWz6kY4ePsjb5EtDw	在网络安全领域应用机器学习的困难和对策	qq.com	mp.weixin.qq.com	/s/j7vuiAWz6kY4ePsjb5EtDw
+20200427	其它	https://mp.weixin.qq.com/s/0p88rj-tWClLa_geKMkPgw	Mimikatz的18种免杀姿势及防御策略(下)	qq.com	mp.weixin.qq.com	/s/0p88rj-tWClLa_geKMkPgw
+20200427	Web安全	https://www.freebuf.com/sectool/232555.html	利用Cloudflare Worker来隐藏C2基础设施	freebuf.com	www.freebuf.com	/sectool/232555.html
+20200427	杂志	https://www.sec-wiki.com/weekly/321	SecWiki周刊（第321期)	sec-wiki.com	www.sec-wiki.com	/weekly/321
+20200427	漏洞分析	https://paper.seebug.org/1189/	西门子 PLC S7-1500 漏洞分析与复现（附演示视频）	seebug.org	paper.seebug.org	/1189/
+20200427	恶意分析	https://www.freebuf.com/sectool/234251.html	在Kali Linux 2020系统中安装、配置和使用cuckoo沙箱	freebuf.com	www.freebuf.com	/sectool/234251.html
+20200427	漏洞分析	https://xz.aliyun.com/t/7684	Rick教你写shellcode系列之邪恶的pdf	aliyun.com	xz.aliyun.com	/t/7684
+20200427	数据挖掘	https://mp.weixin.qq.com/s/GAHYECAWLvOob7TSQHHaiQ	基于大数据的Uber数据实时监控（Part 2：Kafka和Spark Streaming）	qq.com	mp.weixin.qq.com	/s/GAHYECAWLvOob7TSQHHaiQ
+20200427	数据挖掘	https://mp.weixin.qq.com/s/DYYvjF6Rx1Xg7PVB80EKKA	在注册时检测社交网络中的虚假账户—以Wechat为例	qq.com	mp.weixin.qq.com	/s/DYYvjF6Rx1Xg7PVB80EKKA
+20200427	其它	https://erev0s.com/blog/how-hook-android-native-methods-frida-noob-friendly/	How to hook Android Native methods with Frida (Noob Friendly) |	erev0s.com	erev0s.com	/blog/how-hook-android-native-methods-frida-noob-friendly/
+20200427	运维安全	https://www.freebuf.com/articles/es/235441.html	企业快速实践部署IAST/RASP的一种新思路	freebuf.com	www.freebuf.com	/articles/es/235441.html
+20200427	恶意分析	https://mp.weixin.qq.com/s/C_BN96qI9Wb96KcyqXb4_Q	COVID-19攻击手段与数据分析	qq.com	mp.weixin.qq.com	/s/C_BN96qI9Wb96KcyqXb4_Q
+20200427	工具	https://github.com/mitre-attack/joystick	Joystick :transform the ATT&CK Evaluations data into concise views	github.com	github.com	/mitre-attack/joystick
+20200427	运维安全	https://www.freebuf.com/articles/es/232542.html	SSDLC安全需求分析	freebuf.com	www.freebuf.com	/articles/es/232542.html
+20200427	设备安全	http://blog.nsfocus.net/s7comm-readszl-0427/	西门子S7comm协议Read SZL解析	nsfocus.net	blog.nsfocus.net	/s7comm-readszl-0427/

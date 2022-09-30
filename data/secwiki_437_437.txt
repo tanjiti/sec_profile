@@ -1,0 +1,17 @@
+20220711	运维安全	https://www.kdocs.cn/l/clY8TCR4xSEf	入侵模拟攻击演练平台建设	kdocs.cn	www.kdocs.cn	/l/clY8TCR4xSEf
+20220711	Web安全	https://github.com/lcvvvv/kscan/	Kscan: 一款纯go开发的全方位扫描器	github.com	github.com	/lcvvvv/kscan/
+20220711	恶意分析	http://noahblog.360.cn/yun-sha-xiang-liu-liang-shi-bie-ji-zhu-pou-xi/	云沙箱流量识别技术剖析	360.cn	noahblog.360.cn	/yun-sha-xiang-liu-liang-shi-bie-ji-zhu-pou-xi/
+20220711	Web安全	https://mp.weixin.qq.com/s/7aSoETGZvrXnQq66cujrUA	火山引擎CWPP(Elkeid) 真实对抗案例分享	qq.com	mp.weixin.qq.com	/s/7aSoETGZvrXnQq66cujrUA
+20220711	Web安全	https://mp.weixin.qq.com/s/676IFhrygqVK6RRvgNEhbQ	攻防演练之域控检测篇	qq.com	mp.weixin.qq.com	/s/676IFhrygqVK6RRvgNEhbQ
+20220711	其它	https://xz.aliyun.com/t/11492	基于开源工具实现软件成分分析SCA	aliyun.com	xz.aliyun.com	/t/11492
+20220711	Web安全	https://mp.weixin.qq.com/s/4-o7HzMn4Hsh2wZpyZYJAQ	攻防演练之域控加固篇	qq.com	mp.weixin.qq.com	/s/4-o7HzMn4Hsh2wZpyZYJAQ
+20220711	Web安全	https://mp.weixin.qq.com/s/mw30nX-frPRlbvshYmGP-Q	应急能力提升4:实战应急响应经验	qq.com	mp.weixin.qq.com	/s/mw30nX-frPRlbvshYmGP-Q
+20220711	其它	https://mp.weixin.qq.com/s/YryG2EXFFod0D3fdIwILtA	开源安全：挑战、解决方案和机遇	qq.com	mp.weixin.qq.com	/s/YryG2EXFFod0D3fdIwILtA
+20220711	其它	https://mp.weixin.qq.com/s/7Wf42aLHyA2hc05sF6zLQw	从CICD漏洞靶场中学习持续集成安全	qq.com	mp.weixin.qq.com	/s/7Wf42aLHyA2hc05sF6zLQw
+20220711	无线安全	https://mp.weixin.qq.com/s/yoX5bBLWclitGvZl0n2EAw	了解C4ISR，漂亮国在信息化作战还是要借鉴	qq.com	mp.weixin.qq.com	/s/yoX5bBLWclitGvZl0n2EAw
+20220711	Web安全	https://mp.weixin.qq.com/s/gOwy7UdeYLLmGXxvcQESZw	应急能力提升6：应急响应专题总结会	qq.com	mp.weixin.qq.com	/s/gOwy7UdeYLLmGXxvcQESZw
+20220711	杂志	https://www.sec-wiki.com/weekly/436	SecWiki周刊（第436期)	sec-wiki.com	www.sec-wiki.com	/weekly/436
+20220711	恶意分析	https://mp.weixin.qq.com/s/SxiUFJyWhl3BAe5u5yKytg	Bad Packet 测量在野 IoT 僵尸网络活动	qq.com	mp.weixin.qq.com	/s/SxiUFJyWhl3BAe5u5yKytg
+20220711	恶意分析	https://mp.weixin.qq.com/s/54z2GzyblD3PTfu7mZjm7Q	软件供应链安全风险分析研究	qq.com	mp.weixin.qq.com	/s/54z2GzyblD3PTfu7mZjm7Q
+20220711	恶意分析	https://mp.weixin.qq.com/s/Fca_oOiL8oLiEUXGaErWjQ	疑似PurpleFox多手段持续实施攻击活动	qq.com	mp.weixin.qq.com	/s/Fca_oOiL8oLiEUXGaErWjQ
+20220711	Web安全	https://mp.weixin.qq.com/s/KR7Z6ryigj9b0YeVBQBi5A	应急能力提升5：应急响应报告点评	qq.com	mp.weixin.qq.com	/s/KR7Z6ryigj9b0YeVBQBi5A

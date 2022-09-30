@@ -1,0 +1,30 @@
+20201026	杂志	https://www.sec-wiki.com/weekly/347	SecWiki周刊（第347期)	sec-wiki.com	www.sec-wiki.com	/weekly/347
+20201026	取证分析	https://mp.weixin.qq.com/s/DZF4HwX4xuedpqoAFyhw5w	将风险评估结果映射到ATT&CK框架	qq.com	mp.weixin.qq.com	/s/DZF4HwX4xuedpqoAFyhw5w
+20201026	运维安全	https://mp.weixin.qq.com/s/UncU7f92p5Mlxt353Galrg	银行业安全运营平台的建设与思考	qq.com	mp.weixin.qq.com	/s/UncU7f92p5Mlxt353Galrg
+20201026	漏洞分析	https://mp.weixin.qq.com/s/7HAVA0DgtxlCnD21aiq_mQ	软件源码安全攻防之道（下）	qq.com	mp.weixin.qq.com	/s/7HAVA0DgtxlCnD21aiq_mQ
+20201026	恶意分析	https://mp.weixin.qq.com/s/gWOIRNPLVqX761LW8x-S5g	北非狐（APT-C-44）攻击活动揭露	qq.com	mp.weixin.qq.com	/s/gWOIRNPLVqX761LW8x-S5g
+20201026	恶意分析	https://mp.weixin.qq.com/s/G4pIpHN2BLSvPWVYvN5VAQ	隔离网络攻击 专题研究报告	qq.com	mp.weixin.qq.com	/s/G4pIpHN2BLSvPWVYvN5VAQ
+20201026	漏洞分析	https://mp.weixin.qq.com/s/_KCqGJnHaCBjCZ0VPo898Q	PHP 绕过禁用函数漏洞的原理与利用分析	qq.com	mp.weixin.qq.com	/s/_KCqGJnHaCBjCZ0VPo898Q
+20201026	恶意分析	https://github.com/Rvn0xsy/BadCode	BadCode: 恶意代码逃逸源代码	github.com	github.com	/Rvn0xsy/BadCode
+20201026	Web安全	https://xz.aliyun.com/t/8417	实战讲解TP3框架下的渗透思路	aliyun.com	xz.aliyun.com	/t/8417
+20201026	工具	https://github.com/openitsystem/anonymousmail	anonymousmail: 临时邮箱搭建解决方案	github.com	github.com	/openitsystem/anonymousmail
+20201026	数据挖掘	https://mp.weixin.qq.com/s/yNPE4rqpY2NoHug6ZuLS2Q	ATT&CK驱动下安全运营数据分析的实用性挑战	qq.com	mp.weixin.qq.com	/s/yNPE4rqpY2NoHug6ZuLS2Q
+20201026	编程技术	https://www.52pojie.cn/thread-1288315-1-1.html	某网站Web端爬虫攻防大赛题目交流	52pojie.cn	www.52pojie.cn	/thread-1288315-1-1.html
+20201026	恶意分析	https://blog.securityinnovation.com/repo-jacking-exploiting-the-dependency-supply-chain	Repo Jacking: Exploiting the Dependency Supply Chain	securityinnovation.com	blog.securityinnovation.com	/repo-jacking-exploiting-the-dependency-supply-chain
+20201026	Web安全	https://mp.weixin.qq.com/s/Ch342vyszfhUWSlkJEzMOA	MSSQL绕过360提权实战案例	qq.com	mp.weixin.qq.com	/s/Ch342vyszfhUWSlkJEzMOA
+20201026	恶意分析	https://github.com/CymaticsCC/elf_similarity	恶意ELF二进制文件相似度比较及可视化	github.com	github.com	/CymaticsCC/elf_similarity
+20201026	Web安全	https://blog.csdn.net/bloodzero_new/article/details/109368923	SonarQube系列（一）安装	csdn.net	blog.csdn.net	/bloodzero_new/article/details/109368923
+20201026	漏洞分析	https://mp.weixin.qq.com/s/OWi3G4ETrV-yBsnWgdU_Ew	ThinkPHP漏洞分析与利用	qq.com	mp.weixin.qq.com	/s/OWi3G4ETrV-yBsnWgdU_Ew
+20201026	漏洞分析	https://data.hackinn.com/ppt/2020%E7%9C%8B%E9%9B%AA%E5%AE%89%E5%85%A8%E5%BC%80%E5%8F%91%E8%80%85%E5%B3%B0%E4%BC%9A/%E9%BA%92%E9%BA%9F%E6%A1%86%E6%9E%B6%EF%BC%9A%E7%8E%B0%E4%BB%A3%E5%8C%96%E7%9A%84%E9%80%86%E5%90%91%E5%88%86%E6%9E%90%E4%BD%93%E9%AA%8C.pdf	麒麟框架：现代化的逆向分析体验	hackinn.com	data.hackinn.com	/ppt/2020%E7%9C%8B%E9%9B%AA%E5%AE%89%E5%85%A8%E5%BC%80%E5%8F%91%E8%80%85%E5%B3%B0%E4%BC%9A/%E9%BA%92%E9%BA%9F%E6%A1%86%E6%9E%B6%EF%BC%9A%E7%8E%B0%E4%BB%A3%E5%8C%96%E7%9A%84%E9%80%86%E5%90%91%E5%88%86%E6%9E%90%E4%BD%93%E9%AA%8C.pdf
+20201026	漏洞分析	https://xz.aliyun.com/t/8429	AKSK 命令执行到谷歌验证码劫持	aliyun.com	xz.aliyun.com	/t/8429
+20201026	文档	http://pub-shbt.s3.360.cn/cert-public-file/2020%E5%B9%B4%E5%85%A8%E7%90%83%E8%81%94%E7%BD%91%E6%95%B0%E6%8D%AE%E5%BA%93%E9%A3%8E%E9%99%A9%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A.pdf	2020年全球联网数据库风险分析报告	360.cn	pub-shbt.s3.360.cn	/cert-public-file/2020%E5%B9%B4%E5%85%A8%E7%90%83%E8%81%94%E7%BD%91%E6%95%B0%E6%8D%AE%E5%BA%93%E9%A3%8E%E9%99%A9%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A.pdf
+20201026	Web安全	https://xz.aliyun.com/t/8435	一个文件上传靶场知识总结记录	aliyun.com	xz.aliyun.com	/t/8435
+20201026	Web安全	http://rui0.cn/archives/1543	认识 WebAuthn	rui0.cn	rui0.cn	/archives/1543
+20201026	恶意分析	https://mp.weixin.qq.com/s/0jMTOKsvV9q7_0Gz04veHg	无文件攻击白皮书	qq.com	mp.weixin.qq.com	/s/0jMTOKsvV9q7_0Gz04veHg
+20201026	恶意分析	https://www.inforsec.org/wp/?p=4367	DNS加密协议发展及部署现状	inforsec.org	www.inforsec.org	/wp/
+20201026	Web安全	https://mp.weixin.qq.com/s/rb1BfcZeCTr2PIiypXqVjw	Xcheck之Java安全检查引擎	qq.com	mp.weixin.qq.com	/s/rb1BfcZeCTr2PIiypXqVjw
+20201026	无线安全	https://www.anquanke.com/post/id/218396	Hacking All The Cars - Tesla 远程API分析与利用（上）	anquanke.com	www.anquanke.com	/post/id/218396
+20201026	Web安全	https://paper.seebug.org/1387/	构造一个 CodeDB 来探索全新的白盒静态扫描方案	seebug.org	paper.seebug.org	/1387/
+20201026	数据挖掘	https://mp.weixin.qq.com/s/N1uC-faM-FQ_uahvmEJ1Xg	Polisis: Automated Analysis and Presentation of Privacy Policies	qq.com	mp.weixin.qq.com	/s/N1uC-faM-FQ_uahvmEJ1Xg
+20201026	无线安全	https://www.anquanke.com/post/id/220907	Hacking All The Cars - Tesla 远程API分析与利用（下）	anquanke.com	www.anquanke.com	/post/id/220907
+20201026	恶意分析	https://github.com/target/halogen	halogen: Automatically create YARA rules from malicious documents	github.com	github.com	/target/halogen

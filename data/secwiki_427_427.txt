@@ -1,0 +1,17 @@
+20220502	书籍	https://github.com/yidao620c/python3-cookbook	Python Cookbook 第三版 中文版	github.com	github.com	/yidao620c/python3-cookbook
+20220502	Web安全	https://uxss.net/2022/04/04/%E4%BA%91%E5%AE%89%E5%85%A8%E5%9F%BA%E7%BA%BF/	云安全基线	uxss.net	uxss.net	/2022/04/04/%E4%BA%91%E5%AE%89%E5%85%A8%E5%9F%BA%E7%BA%BF/
+20220502	论文	https://xpqiu.github.io/slides/%E5%A6%82%E4%BD%95%E5%86%99%E7%A7%91%E7%A0%94%E8%AE%BA%E6%96%87202203.pdf	如何写科研论文？	github.io	xpqiu.github.io	/slides/%E5%A6%82%E4%BD%95%E5%86%99%E7%A7%91%E7%A0%94%E8%AE%BA%E6%96%87202203.pdf
+20220502	恶意分析	https://mp.weixin.qq.com/s/IScmevyRf8oxPPjGwYMRHQ	RASP 如何检测Java Agent 内存马	qq.com	mp.weixin.qq.com	/s/IScmevyRf8oxPPjGwYMRHQ
+20220502	Web安全	https://uxss.net/2022/03/15/UEBA(%E7%94%A8%E6%88%B7%E5%92%8C%E5%AE%9E%E4%BD%93%E8%A1%8C%E4%B8%BA%E5%88%86%E6%9E%90)%E5%8F%AF%E4%BB%A5%E7%94%A8%E6%9D%A5%E5%81%9A%E4%BB%80%E4%B9%88%EF%BC%88%E5%8D%81%E5%A4%A7%E5%9C%BA%E6%99%AF%EF%BC%89/	UEBA(用户和实体行为分析)可以用来做什么（十大场景）	uxss.net	uxss.net	/2022/03/15/UEBA(%E7%94%A8%E6%88%B7%E5%92%8C%E5%AE%9E%E4%BD%93%E8%A1%8C%E4%B8%BA%E5%88%86%E6%9E%90)%E5%8F%AF%E4%BB%A5%E7%94%A8%E6%9D%A5%E5%81%9A%E4%BB%80%E4%B9%88%EF%BC%88%E5%8D%81%E5%A4%A7%E5%9C%BA%E6%99%AF%EF%BC%89/
+20220502	杂志	https://www.sec-wiki.com/weekly/426	SecWiki周刊（第426期)	sec-wiki.com	www.sec-wiki.com	/weekly/426
+20220502	数据挖掘	https://mp.weixin.qq.com/s/i4lHXM2NW9zNMkLn4B0eyQ	利用代码知识图谱实现Bug定位	qq.com	mp.weixin.qq.com	/s/i4lHXM2NW9zNMkLn4B0eyQ
+20220502	恶意分析	https://mp.weixin.qq.com/s/G6EFRXY0DB9j-jzINuXLPQ	Botconf 2022 议题速递	qq.com	mp.weixin.qq.com	/s/G6EFRXY0DB9j-jzINuXLPQ
+20220502	Web安全	https://mp.weixin.qq.com/s/iy5rnB-d_khxhEmFPZof9w	一文读懂https中密钥交换协议的原理及流程	qq.com	mp.weixin.qq.com	/s/iy5rnB-d_khxhEmFPZof9w
+20220502	漏洞分析	https://github.com/ThestaRY7/supplier	supplier: 主流供应商的一些攻击性漏洞汇总	github.com	github.com	/ThestaRY7/supplier
+20220502	Web安全	https://mp.weixin.qq.com/s/nKvAD4ixmbZcxzkxCTxAfQ	域控被突破的几种途径	qq.com	mp.weixin.qq.com	/s/nKvAD4ixmbZcxzkxCTxAfQ
+20220502	其它	https://reorx.com/blog/track-and-download-shows-automatically-with-sonarr/	使用 Sonarr 搭建自动化追番系统	reorx.com	reorx.com	/blog/track-and-download-shows-automatically-with-sonarr/
+20220502	其它	https://www.sec-in.com/article/1690	初探Java安全之JavaAgent	sec-in.com	www.sec-in.com	/article/1690
+20220502	其它	https://www.sec-in.com/article/1704	自定义跳转函数的通用unhook方法	sec-in.com	www.sec-in.com	/article/1704
+20220502	设备安全	https://mp.weixin.qq.com/s/3GVK_Xm_H93PyRKu35ttoQ	智能电表安全之通讯分析	qq.com	mp.weixin.qq.com	/s/3GVK_Xm_H93PyRKu35ttoQ
+20220502	编程技术	https://github.com/ctripcorp/flybirds	flybirds: 基于自然语言的，跨端跨框架 BDD UI 自动化测试方案	github.com	github.com	/ctripcorp/flybirds
+20220502	Web安全	https://github.com/mttaggart/OffensiveNotion	OffensiveNotion: Notion as a platform for offensive operations	github.com	github.com	/mttaggart/OffensiveNotion

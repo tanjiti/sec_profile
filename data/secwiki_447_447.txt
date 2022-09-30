@@ -1,0 +1,22 @@
+20220919	事件	https://www.solidot.org/story?sid=72867	黑客利用 BGP 劫持 IP 段窃取了约 23 万美元加密货币	solidot.org	www.solidot.org	/story
+20220919	Web安全	https://payloads.online/archivers/2022-09-19/1/	我的三年红队生涯总结	payloads.online	payloads.online	/archivers/2022-09-19/1/
+20220919	Web安全	https://mp.weixin.qq.com/s/KBtfprcLMut1I9ZuxV6j3Q	JavaScript审计	qq.com	mp.weixin.qq.com	/s/KBtfprcLMut1I9ZuxV6j3Q
+20220919	其它	https://mp.weixin.qq.com/s/Wniun8h7km1lJUQpNV409Q	BlackHat USA 2022 议题慢递	qq.com	mp.weixin.qq.com	/s/Wniun8h7km1lJUQpNV409Q
+20220919	Web安全	https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247486332&idx=1&sn=238328c005b23ec39e375bb0f4f57652&chksm=e8a6011fdfd1880929ce3b1c3207ae1caf8827f845881fa110daab3a10f6177df3483ca77eea&token=798508684&lang=zh_CN#rd	揭露大佬挖主应用的一般性流程	qq.com	mp.weixin.qq.com	/s
+20220919	运维安全	https://mp.weixin.qq.com/s/nUU0waB3Z9r-f27fHQpqdQ	0到1搭建企业级数据治理体系	qq.com	mp.weixin.qq.com	/s/nUU0waB3Z9r-f27fHQpqdQ
+20220919	恶意分析	https://mp.weixin.qq.com/s/hJlSZ4iZ5kSJNTGngD9zMg	终端入侵检测及防御规避之旅	qq.com	mp.weixin.qq.com	/s/hJlSZ4iZ5kSJNTGngD9zMg
+20220919	Web安全	https://mp.weixin.qq.com/s/liV8KLNw6mFTNMCwSs032Q	在OAuth流程中所产生的账户劫持漏洞研究	qq.com	mp.weixin.qq.com	/s/liV8KLNw6mFTNMCwSs032Q
+20220919	比赛	https://mp.weixin.qq.com/s/-VMqjIR3-9-hDlHxsHVtFQ	2022羊城杯竞赛 Web题目解析	qq.com	mp.weixin.qq.com	/s/-VMqjIR3-9-hDlHxsHVtFQ
+20220919	取证分析	https://github.com/cyware-labs/Threat-Response-Docker	威胁情报分析工具集的docker 镜像	github.com	github.com	/cyware-labs/Threat-Response-Docker
+20220919	Web安全	https://github.com/yogeshojha/rengine	rengine: 自动化信息收集的平台	github.com	github.com	/yogeshojha/rengine
+20220919	杂志	https://www.sec-wiki.com/weekly/446	SecWiki周刊（第446期)	sec-wiki.com	www.sec-wiki.com	/weekly/446
+20220919	Web安全	https://mp.weixin.qq.com/s/uYJqM8pXJJF85LTW08r48Q	Cloud Native PostgreSQL攻击面分析	qq.com	mp.weixin.qq.com	/s/uYJqM8pXJJF85LTW08r48Q
+20220919	其它	https://www.sec-in.com/article/1867	phar反序列化学习	sec-in.com	www.sec-in.com	/article/1867
+20220919	取证分析	https://mp.weixin.qq.com/s/1J1HNdA2wZF93-K-e7Pg8Q	加密流量安全背后的那些小秘闻	qq.com	mp.weixin.qq.com	/s/1J1HNdA2wZF93-K-e7Pg8Q
+20220919	运维安全	https://mp.weixin.qq.com/s/V7L9XWkE5cMxpP7VC4tATw	浅谈甲方单位的漏洞管理	qq.com	mp.weixin.qq.com	/s/V7L9XWkE5cMxpP7VC4tATw
+20220919	数据挖掘	https://mp.weixin.qq.com/s/SRLy7GTNIoIQzfl_S9hVdQ	基于统一结构生成的网安信息抽取研究	qq.com	mp.weixin.qq.com	/s/SRLy7GTNIoIQzfl_S9hVdQ
+20220919	漏洞分析	https://xz.aliyun.com/t/11701	goby指纹提取与yara逆向.md	aliyun.com	xz.aliyun.com	/t/11701
+20220919	Web安全	https://xz.aliyun.com/t/11721	某开源堡垒机历史漏洞分析	aliyun.com	xz.aliyun.com	/t/11721
+20220919	取证分析	https://mp.weixin.qq.com/s/LcgSc2lNBS6iQgHO88vmKg	针对U盘文件的盗与防攻略	qq.com	mp.weixin.qq.com	/s/LcgSc2lNBS6iQgHO88vmKg
+20220919	漏洞分析	https://github.com/cve-search/git-vuln-finder	git-vuln-finder: Finding potential software vulnerabilities from git commit	github.com	github.com	/cve-search/git-vuln-finder
+20220919	Web安全	https://4ra1n.love/post/8NNRLtUsr/	谈谈最近失败的挖洞经历	4ra1n.love	4ra1n.love	/post/8NNRLtUsr/

@@ -1,0 +1,18 @@
+20211108	Web安全	https://www.sec-in.com/article/1038	面安服的一道笔试题	sec-in.com	www.sec-in.com	/article/1038
+20211108	观点	https://mp.weixin.qq.com/s/cXV1-YSqngXp332qopEZSw	网络安全技术人员如何避开内卷	qq.com	mp.weixin.qq.com	/s/cXV1-YSqngXp332qopEZSw
+20211108	设备安全	https://mp.weixin.qq.com/s/HAmL9rB8zmEsF-o906gCIg	SaTC：一种全新的物联网设备漏洞自动化挖掘方法	qq.com	mp.weixin.qq.com	/s/HAmL9rB8zmEsF-o906gCIg
+20211108	杂志	https://www.sec-wiki.com/weekly/401	SecWiki周刊（第401期)	sec-wiki.com	www.sec-wiki.com	/weekly/401
+20211108	取证分析	https://mp.weixin.qq.com/s/YzBvYN60iSVp8Ofeo2UwUg	基于告警关联的一种多阶段攻击检测方法	qq.com	mp.weixin.qq.com	/s/YzBvYN60iSVp8Ofeo2UwUg
+20211108	取证分析	https://mp.weixin.qq.com/s/fsSHkumgON9DZe1awFTQ0g	个保法生效后，各大平台“个人信息副本”的申请获取实践	qq.com	mp.weixin.qq.com	/s/fsSHkumgON9DZe1awFTQ0g
+20211108	移动安全	https://mp.weixin.qq.com/s/qH6ksA03UcuwQgPHaNuBUg	Android应用攻与防	qq.com	mp.weixin.qq.com	/s/qH6ksA03UcuwQgPHaNuBUg
+20211108	取证分析	https://mp.weixin.qq.com/s/OqfJA0d0JGRCjsnX2400Kw	有限样本下的暗网指纹识别	qq.com	mp.weixin.qq.com	/s/OqfJA0d0JGRCjsnX2400Kw
+20211108	恶意分析	https://mp.weixin.qq.com/s/aEU2E3Xt0-9tJ4TPpjAGkQ	软件供应链来源攻击分析报告	qq.com	mp.weixin.qq.com	/s/aEU2E3Xt0-9tJ4TPpjAGkQ
+20211108	恶意分析	https://mp.weixin.qq.com/s/6mT0O9eur5-VEs0rbV0-mg	APT活动中的Windows系统本地提权漏洞及技术分析	qq.com	mp.weixin.qq.com	/s/6mT0O9eur5-VEs0rbV0-mg
+20211108	恶意分析	https://tttang.com/archive/1315/	浅谈JSP Webshell进阶免杀	tttang.com	tttang.com	/archive/1315/
+20211108	数据挖掘	https://mp.weixin.qq.com/s/SERw3ORYBjwxOKcpNZBEGg	美国DARPA主导的智能化情报分析系列项目概览	qq.com	mp.weixin.qq.com	/s/SERw3ORYBjwxOKcpNZBEGg
+20211108	Web安全	https://mp.weixin.qq.com/s/6rj-MLSGpCki54KYNA1Qlg	基于攻击路径图的网络攻击路径预测方法	qq.com	mp.weixin.qq.com	/s/6rj-MLSGpCki54KYNA1Qlg
+20211108	Web安全	https://github.com/0e0w/HackJava	深入理解Java代码审计	github.com	github.com	/0e0w/HackJava
+20211108	取证分析	https://www.anquanke.com/post/id/258632	CTF OSINT题型解题技巧分享	anquanke.com	www.anquanke.com	/post/id/258632
+20211108	取证分析	http://blog.nsfocus.net/ioc-cti/	攻击推理-如何利用威胁情报报告生成可用攻击子图	nsfocus.net	blog.nsfocus.net	/ioc-cti/
+20211108	数据挖掘	https://zhuanlan.zhihu.com/p/433073550	学习和使用知识图谱需要知道的一些事情	zhihu.com	zhuanlan.zhihu.com	/p/433073550
+20211108	数据挖掘	https://toooold.com/2021/11/13/why_ml_fails_security_evaluation_cn.html	为什么机器学习解决网络安全问题总是失败：不合理的评估指标	toooold.com	toooold.com	/2021/11/13/why_ml_fails_security_evaluation_cn.html

@@ -1,0 +1,32 @@
+20200309	新闻	https://mp.weixin.qq.com/s/wWrm3gwT72Pc8Nxw-1OiSw	解密美国司法部起诉中国OTC承兑商洗钱案件	qq.com	mp.weixin.qq.com	/s/wWrm3gwT72Pc8Nxw-1OiSw
+20200309	Web安全	https://blog.ateam.qianxin.com/post/zhe-shi-yi-pian-bu-yi-yang-de-zhen-shi-shen-tou-ce-shi-an-li-fen-xi-wen-zhang/	真实渗透测试案例分析文章	qianxin.com	blog.ateam.qianxin.com	/post/zhe-shi-yi-pian-bu-yi-yang-de-zhen-shi-shen-tou-ce-shi-an-li-fen-xi-wen-zhang/
+20200309	漏洞分析	https://github.com/hardenedlinux/srcinv	srcinv: source code audit tool 代码审计工具	github.com	github.com	/hardenedlinux/srcinv
+20200309	漏洞分析	https://xz.aliyun.com/t/7345	从0到1的虚拟机逃逸三部曲	aliyun.com	xz.aliyun.com	/t/7345
+20200309	Web安全	https://mp.weixin.qq.com/s/Zdpw0aX_Tey4__ltXI-a-A	phpmyadmin getshell到提权	qq.com	mp.weixin.qq.com	/s/Zdpw0aX_Tey4__ltXI-a-A
+20200309	Web安全	https://mp.weixin.qq.com/s/PfsdAVoS1GQTXWGlzknlWQ	使用Powershell对目标进行屏幕监控	qq.com	mp.weixin.qq.com	/s/PfsdAVoS1GQTXWGlzknlWQ
+20200309	其它	https://mp.weixin.qq.com/s/le3vqntjl6N9Ldt-S-_6JA	CTF逆向选手入坑指南	qq.com	mp.weixin.qq.com	/s/le3vqntjl6N9Ldt-S-_6JA
+20200309	恶意分析	https://mp.weixin.qq.com/s/Bv0xebGKaJ2GGwntKGq2NQ	无文件执行：一切皆是shellcode(上篇)	qq.com	mp.weixin.qq.com	/s/Bv0xebGKaJ2GGwntKGq2NQ
+20200309	设备安全	https://www.white-alone.com/%E5%A6%82%E4%BD%95%E8%87%AA%E5%BB%BAIoT%E5%AE%9E%E9%AA%8C%E5%AE%A4_1/	如何自建IoT实验室（一）	white-alone.com	www.white-alone.com	/%E5%A6%82%E4%BD%95%E8%87%AA%E5%BB%BAIoT%E5%AE%9E%E9%AA%8C%E5%AE%A4_1/
+20200309	Web安全	https://mp.weixin.qq.com/s/m9OtnrCZowfEQI7TTzCnzg	刺向巴勒斯坦的致命毒针——双尾蝎 APT 组织的攻击活动分析与总结	qq.com	mp.weixin.qq.com	/s/m9OtnrCZowfEQI7TTzCnzg
+20200309	Web安全	https://mp.weixin.qq.com/s/gklKcFRR5erB2rdjr3BTUQ	PHP 开源白盒审计工具初探（上）	qq.com	mp.weixin.qq.com	/s/gklKcFRR5erB2rdjr3BTUQ
+20200309	漏洞分析	http://blog.topsec.com.cn/v8%e5%88%a9%e7%94%a8%e5%85%a5%e9%97%a8-%e4%bb%8e%e8%b6%8a%e7%95%8c%e8%ae%bf%e9%97%ae%e5%88%b0rce/	v8利用入门-从越界访问到rce	topsec.com.cn	blog.topsec.com.cn	/v8%e5%88%a9%e7%94%a8%e5%85%a5%e9%97%a8-%e4%bb%8e%e8%b6%8a%e7%95%8c%e8%ae%bf%e9%97%ae%e5%88%b0rce/
+20200309	取证分析	https://mp.weixin.qq.com/s/flQdwQn9A1vxNs-iHQBHWA	网络流量分析引擎QNSM及其应用	qq.com	mp.weixin.qq.com	/s/flQdwQn9A1vxNs-iHQBHWA
+20200309	Web安全	https://blog.blankshell.com/2020/03/14/%e8%ae%b0%e4%b8%80%e6%ac%a1%e5%af%b9%e4%bc%98%e5%ad%a6%e9%99%a2%e5%92%8c%e4%ba%91%e7%8f%ad%e8%af%be%e7%9a%84%e5%89%8d%e7%ab%af%e4%bb%a3%e7%a0%81%e5%ae%a1%e8%ae%a1/	记一次对优学院和云班课的前端代码审计	blankshell.com	blog.blankshell.com	/2020/03/14/%e8%ae%b0%e4%b8%80%e6%ac%a1%e5%af%b9%e4%bc%98%e5%ad%a6%e9%99%a2%e5%92%8c%e4%ba%91%e7%8f%ad%e8%af%be%e7%9a%84%e5%89%8d%e7%ab%af%e4%bb%a3%e7%a0%81%e5%ae%a1%e8%ae%a1/
+20200309	Web安全	https://github.com/mike-goodwin/owasp-threat-dragon-desktop	owasp-threat-dragon-desktop: 威胁建模工具	github.com	github.com	/mike-goodwin/owasp-threat-dragon-desktop
+20200309	Web安全	https://xz.aliyun.com/t/7329	使用 Dom Clobbering 扩展 XSS	aliyun.com	xz.aliyun.com	/t/7329
+20200309	Web安全	https://github.com/CTF-MissFeng/bayonet	bayonet: SRC资产管理系统	github.com	github.com	/CTF-MissFeng/bayonet
+20200309	其它	https://mp.weixin.qq.com/s/J78CPtHJX5ouN6fxVxMFgg	远控免杀专题-shellcode免杀实践	qq.com	mp.weixin.qq.com	/s/J78CPtHJX5ouN6fxVxMFgg
+20200309	Web安全	https://www.anquanke.com/post/id/200680	Kerberos概述及常见攻击场景	anquanke.com	www.anquanke.com	/post/id/200680
+20200309	漏洞分析	https://www.anquanke.com/post/id/198629	Chrome 浏览器越界写漏洞分析Part 1	anquanke.com	www.anquanke.com	/post/id/198629
+20200309	Web安全	https://mp.weixin.qq.com/s/6Y7anVvO9C5_nqdJihuFMw	PHP 开源白盒审计工具初探（下）	qq.com	mp.weixin.qq.com	/s/6Y7anVvO9C5_nqdJihuFMw
+20200309	工具	https://github.com/GuoKerS/aioScan_CVE-2020-0796	基于协程的CVE-2020-0796快速检测脚本	github.com	github.com	/GuoKerS/aioScan_CVE-2020-0796
+20200309	漏洞分析	https://www.anquanke.com/post/id/198720	Chrome 浏览器越界写漏洞分析Part 2	anquanke.com	www.anquanke.com	/post/id/198720
+20200309	运维安全	https://www.jgeek.cn/archive/id/34.html	2019安全工作之总结实践	jgeek.cn	www.jgeek.cn	/archive/id/34.html
+20200309	设备安全	https://www.white-alone.com/%E5%A6%82%E4%BD%95%E8%87%AA%E5%BB%BAIoT%E5%AE%9E%E9%AA%8C%E5%AE%A4_2/	如何自建IoT实验室（二）	white-alone.com	www.white-alone.com	/%E5%A6%82%E4%BD%95%E8%87%AA%E5%BB%BAIoT%E5%AE%9E%E9%AA%8C%E5%AE%A4_2/
+20200309	杂志	https://www.sec-wiki.com/weekly/314	SecWiki周刊（第314期)	sec-wiki.com	www.sec-wiki.com	/weekly/314
+20200309	恶意分析	https://mp.weixin.qq.com/s/OO0KzQDl733XSfDAZ4wJXg	远控免杀专题(8)-BackDoor-Factory免杀(VT免杀率13/71)	qq.com	mp.weixin.qq.com	/s/OO0KzQDl733XSfDAZ4wJXg
+20200309	漏洞分析	https://mp.weixin.qq.com/s/psVle6RAcTqX8VY_d4ouKg	物联网漏洞挖掘及利用实践：mips栈溢出	qq.com	mp.weixin.qq.com	/s/psVle6RAcTqX8VY_d4ouKg
+20200309	运维安全	https://mp.weixin.qq.com/s/cHYu7Ayni5mkjWpn6_XrwA	终端安全运营年度笔记	qq.com	mp.weixin.qq.com	/s/cHYu7Ayni5mkjWpn6_XrwA
+20200309	运维安全	https://mp.weixin.qq.com/s/AqUyHGLzlmrBSKfk-IxW6g	2020 IoT Threat Report (解读版)	qq.com	mp.weixin.qq.com	/s/AqUyHGLzlmrBSKfk-IxW6g
+20200309	Web安全	https://bugs.xdavidhu.me/google/2020/03/08/the-unexpected-google-wide-domain-check-bypass/	The unexpected Google wide domain check bypass	xdavidhu.me	bugs.xdavidhu.me	/google/2020/03/08/the-unexpected-google-wide-domain-check-bypass/
+20200309	取证分析	https://github.com/LennyLeng/SOC_Sankey_Generator	SOC_Sankey_Generator: 从SOC日志中进行数据ETL与数据可视化的工具	github.com	github.com	/LennyLeng/SOC_Sankey_Generator

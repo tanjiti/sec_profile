@@ -1,0 +1,25 @@
+20210104	其它	https://mp.weixin.qq.com/s/PYCIMOk8_wUg7eLFEVOoUQ	一个普通网安从业人员的2020	qq.com	mp.weixin.qq.com	/s/PYCIMOk8_wUg7eLFEVOoUQ
+20210104	其它	https://blog.csdn.net/bloodzero_new/article/details/112240136	一次性通过CISSP考试之旅	csdn.net	blog.csdn.net	/bloodzero_new/article/details/112240136
+20210104	Web安全	https://mp.weixin.qq.com/s/T7A7ydK1EaEwNNKnBwN9Aw	从访客网络到潜入机房	qq.com	mp.weixin.qq.com	/s/T7A7ydK1EaEwNNKnBwN9Aw
+20210104	取证分析	https://mp.weixin.qq.com/s/cPiVersg8VyK4fBTK8W1Ag	ATT&CK 2020更新指南	qq.com	mp.weixin.qq.com	/s/cPiVersg8VyK4fBTK8W1Ag
+20210104	设备安全	https://github.com/MiSecurity/Cyber-Security-Baseline-for-Consumer-Internet-of-Things/blob/main/resources/pdf/%E6%B6%88%E8%B4%B9%E7%BA%A7%E7%89%A9%E8%81%94%E7%BD%91%E5%AE%89%E5%85%A8%E5%9F%BA%E7%BA%BF.pdf	消费级物联网安全基线	github.com	github.com	/MiSecurity/Cyber-Security-Baseline-for-Consumer-Internet-of-Things/blob/main/resources/pdf/%E6%B6%88%E8%B4%B9%E7%BA%A7%E7%89%A9%E8%81%94%E7%BD%91%E5%AE%89%E5%85%A8%E5%9F%BA%E7%BA%BF.pdf
+20210104	恶意分析	https://mp.weixin.qq.com/s/NSAURU3qpYhhKs8Q8AdBag	通过 ATT&CK 归因攻击	qq.com	mp.weixin.qq.com	/s/NSAURU3qpYhhKs8Q8AdBag
+20210104	数据挖掘	https://zhuanlan.zhihu.com/p/163628289	实时态势数据驱动的平行仿真推演方法	zhihu.com	zhuanlan.zhihu.com	/p/163628289
+20210104	观点	https://mp.weixin.qq.com/s/moARUZG3BNOJL7EAiXDMJA	技術型管理人的自我成長	qq.com	mp.weixin.qq.com	/s/moARUZG3BNOJL7EAiXDMJA
+20210104	数据挖掘	https://mp.weixin.qq.com/s/4qbCusJde_z0AM1eDC4YiA	欧盟人工智能的网络安全挑战：人工智能威胁图谱	qq.com	mp.weixin.qq.com	/s/4qbCusJde_z0AM1eDC4YiA
+20210104	Web安全	http://rui0.cn/archives/1573	Kubernetes中使用Helm2的安全风险	rui0.cn	rui0.cn	/archives/1573
+20210104	数据挖掘	https://data.hackinn.com/ppt/CIS2020/%E4%B8%BB%E8%AE%BA%E5%9D%9B/Deep%20X-Ray-%20%E4%B8%80%E7%A7%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%A9%B1%E5%8A%A8%E7%9A%84WAF%E8%A7%84%E5%88%99%E7%AA%83%E5%8F%96%E5%99%A8.pdf	Deep X-Ray: 一种机器学习驱动的WAF规则窃取器	hackinn.com	data.hackinn.com	/ppt/CIS2020/%E4%B8%BB%E8%AE%BA%E5%9D%9B/Deep%20X-Ray-%20%E4%B8%80%E7%A7%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%A9%B1%E5%8A%A8%E7%9A%84WAF%E8%A7%84%E5%88%99%E7%AA%83%E5%8F%96%E5%99%A8.pdf
+20210104	其它	https://mp.weixin.qq.com/s/Us54DtL99pdCRErJWvsM8w	2020年下半年全球网络恐怖主义态势分析	qq.com	mp.weixin.qq.com	/s/Us54DtL99pdCRErJWvsM8w
+20210104	杂志	https://www.sec-wiki.com/weekly/357	SecWiki周刊（第357期)	sec-wiki.com	www.sec-wiki.com	/weekly/357
+20210104	Web安全	https://paper.seebug.org/1445/	隐秘的角落 -- JDK CORBA 安全性研究（上）	seebug.org	paper.seebug.org	/1445/
+20210104	取证分析	https://mp.weixin.qq.com/s/wtEbawfOd1g_T2ovp1SaGg	红队视角看Sunburst后门中的TTPs	qq.com	mp.weixin.qq.com	/s/wtEbawfOd1g_T2ovp1SaGg
+20210104	取证分析	https://github.com/a232319779/mmpi	mmpi: 邮件快速检测库	github.com	github.com	/a232319779/mmpi
+20210104	论文	https://zhiyunq.medium.com/how-to-look-for-ideas-in-computer-science-research-7a3fa6f4696f	How to Look for Ideas in Computer Science Research	medium.com	zhiyunq.medium.com	/how-to-look-for-ideas-in-computer-science-research-7a3fa6f4696f
+20210104	数据挖掘	https://mp.weixin.qq.com/s/hq-z2HBGz3nehnCVg_H-RQ	浅析开源蜜罐识别与全网测绘	qq.com	mp.weixin.qq.com	/s/hq-z2HBGz3nehnCVg_H-RQ
+20210104	Web安全	https://paper.seebug.org/1446/	隐秘的角落 -- JDK CORBA 安全性研究（下）	seebug.org	paper.seebug.org	/1446/
+20210104	编程技术	https://mp.weixin.qq.com/s/e_NvzMbOqDspns3VLXBjYw	基于语义token分析的克隆代码检测系统	qq.com	mp.weixin.qq.com	/s/e_NvzMbOqDspns3VLXBjYw
+20210104	其它	https://mp.weixin.qq.com/s/BNVsnlXYtaZ9_Pk_oKgZRg	疑似 APT35 与响尾蛇组织使用的域名被披露	qq.com	mp.weixin.qq.com	/s/BNVsnlXYtaZ9_Pk_oKgZRg
+20210104	恶意分析	https://mp.weixin.qq.com/s/GdER32Z7K86boHVc-Kic3g	对 SolarWinds 事件更深的思考：如何防御供应链攻击	qq.com	mp.weixin.qq.com	/s/GdER32Z7K86boHVc-Kic3g
+20210104	数据挖掘	https://mp.weixin.qq.com/s/TszbHM__hpYvdHsCoMmkUQ	基于异构图卷积网络的网络威胁情报建模	qq.com	mp.weixin.qq.com	/s/TszbHM__hpYvdHsCoMmkUQ
+20210104	观点	https://mp.weixin.qq.com/s/8yz12RyCyNXGhcAVFZX60g	美国国家网络靶场系统架构与设计原理剖析①总论	qq.com	mp.weixin.qq.com	/s/8yz12RyCyNXGhcAVFZX60g
+20210104	漏洞分析	https://mp.weixin.qq.com/s/ELbtEhd1wedkEqhboPpLuQ	使用自己的代码查找漏洞：检测功能相似但不一致的代码	qq.com	mp.weixin.qq.com	/s/ELbtEhd1wedkEqhboPpLuQ

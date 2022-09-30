@@ -1,0 +1,28 @@
+20200831	观点	https://mp.weixin.qq.com/s/W5SNkDjqFiD6hl0qQv0JUA	2020年中国网络安全市场全景图	qq.com	mp.weixin.qq.com	/s/W5SNkDjqFiD6hl0qQv0JUA
+20200831	视频	https://mp.weixin.qq.com/s/nrNfuVEx44lGTD8aLPQN2w	国家安全微电影《危爱》	qq.com	mp.weixin.qq.com	/s/nrNfuVEx44lGTD8aLPQN2w
+20200831	Web安全	https://tom0li.github.io/%E5%8F%8D%E5%88%B6%E6%94%BB%E5%87%BB%E9%98%9F%E5%92%8C%E9%98%B2%E5%AE%88%E4%BA%BA%E5%91%98/	反制攻击队和防守人员	github.io	tom0li.github.io	/%E5%8F%8D%E5%88%B6%E6%94%BB%E5%87%BB%E9%98%9F%E5%92%8C%E9%98%B2%E5%AE%88%E4%BA%BA%E5%91%98/
+20200831	运维安全	https://mp.weixin.qq.com/s/5dpqVcYEEpz4K_45MUZwxg	我所亲历的信息安全建设之变迁-[2]	qq.com	mp.weixin.qq.com	/s/5dpqVcYEEpz4K_45MUZwxg
+20200831	Web安全	https://paper.seebug.org/1325/	ksubdomain 无状态域名爆破工具	seebug.org	paper.seebug.org	/1325/
+20200831	取证分析	https://mp.weixin.qq.com/s/fSVfWFKsO9yYRrB48GyNyg	美国追踪与追回朝鲜黑客窃取的数字货币	qq.com	mp.weixin.qq.com	/s/fSVfWFKsO9yYRrB48GyNyg
+20200831	杂志	https://www.sec-wiki.com/weekly/339	SecWiki周刊（第339期)	sec-wiki.com	www.sec-wiki.com	/weekly/339
+20200831	恶意分析	https://github.com/saferwall/saferwall	saferwall: 下一代开源恶意软件分析平台	github.com	github.com	/saferwall/saferwall
+20200831	取证分析	https://mp.weixin.qq.com/s/EH7Z_mJvuWxtbQdcXf3h4w	PDF文件密码破解	qq.com	mp.weixin.qq.com	/s/EH7Z_mJvuWxtbQdcXf3h4w
+20200831	Web安全	https://xz.aliyun.com/t/8213	记一次对某非法站点从SQL注入到整站打包与本地搭建全过程	aliyun.com	xz.aliyun.com	/t/8213
+20200831	工具	http://mp.weixin.qq.com/s?__biz=MzI4MzcwNTAzOQ==&mid=2247484005&idx=1&sn=b1f9a68d55b43fd9653cf5c65e655516&chksm=eb87e9c5dcf060d35f5d23cce1e7c06a335091b491723d74b33b993ff5c4fed4cac2bc78827b&token=225023830&lang=zh_CN#rd	如何开发一个Goby主题插件	qq.com	mp.weixin.qq.com	/s
+20200831	Web安全	https://paper.seebug.org/1324/	使用 CodeQL 分析闭源 Java 程序	seebug.org	paper.seebug.org	/1324/
+20200831	Web安全	https://mp.weixin.qq.com/s/EkoiH28DBzHlKRR15CE8Rw	HW实战：浅谈信息搜集中的自动化数据分析	qq.com	mp.weixin.qq.com	/s/EkoiH28DBzHlKRR15CE8Rw
+20200831	恶意分析	https://mp.weixin.qq.com/s/-VFpidSMO0VkJmKhnrhlfA	渗透某勒索服务器	qq.com	mp.weixin.qq.com	/s/-VFpidSMO0VkJmKhnrhlfA
+20200831	Web安全	https://github.com/MisakiKata/watchfile	基于inotify的Linux文件实时监控扫描	github.com	github.com	/MisakiKata/watchfile
+20200831	运维安全	https://mp.weixin.qq.com/s/YKZ6yWWxOhn2KjTV5lDP7w	红蓝对抗之邮件钓鱼攻击	qq.com	mp.weixin.qq.com	/s/YKZ6yWWxOhn2KjTV5lDP7w
+20200831	Web安全	https://github.com/LoRexxar/Kunlun-M	Kunlun-Mirror 专注于安全研究员使用的审计辅助工具	github.com	github.com	/LoRexxar/Kunlun-M
+20200831	取证分析	https://www.anquanke.com/post/id/216259	设备指纹指南：上篇	anquanke.com	www.anquanke.com	/post/id/216259
+20200831	其它	https://www.52pojie.cn/thread-1162979-1-1.html	极验反爬虫防护分析	52pojie.cn	www.52pojie.cn	/thread-1162979-1-1.html
+20200831	取证分析	https://www.anquanke.com/post/id/216262	设备指纹指南：下篇	anquanke.com	www.anquanke.com	/post/id/216262
+20200831	数据挖掘	https://aminer.cn/research_report/5f50600e3c99ce0ab7bcb539?download=false	文本对抗攻击基础、前沿及相关资源	aminer.cn	aminer.cn	/research_report/5f50600e3c99ce0ab7bcb539
+20200831	Web安全	https://mp.weixin.qq.com/s/d6hu8YE-SGy-eruIWOwbXg	Cobalt Strike with CloudFlare	qq.com	mp.weixin.qq.com	/s/d6hu8YE-SGy-eruIWOwbXg
+20200831	其它	https://mp.weixin.qq.com/s/qUuGvRiAyhJBhtj7iW5Hcw	大学新生网络信息安全知识教育手册	qq.com	mp.weixin.qq.com	/s/qUuGvRiAyhJBhtj7iW5Hcw
+20200831	取证分析	https://mp.weixin.qq.com/s/ofP4j2TEfNoCYqrLhMsvZA	基于因果关系的攻击溯源图构建技术	qq.com	mp.weixin.qq.com	/s/ofP4j2TEfNoCYqrLhMsvZA
+20200831	恶意分析	https://mp.weixin.qq.com/s/j7gPuNg6dR5VQISOxeWCyA	红与蓝：现代Webshell检测引擎免杀对抗与实践	qq.com	mp.weixin.qq.com	/s/j7gPuNg6dR5VQISOxeWCyA
+20200831	运维安全	https://mp.weixin.qq.com/s/K0QRsJBpd57jmOQBGXBh-Q	WPA 企业模式的安全性和部署	qq.com	mp.weixin.qq.com	/s/K0QRsJBpd57jmOQBGXBh-Q
+20200831	编程技术	https://github.com/NLP-LOVE/Introduction-NLP	《自然语言处理入门》详细笔记	github.com	github.com	/NLP-LOVE/Introduction-NLP
+20200831	恶意分析	https://mp.weixin.qq.com/s/RqFWfe2gf9KdKIq0hLq4Gw	疑似 KimsukyAPT 组织最新攻击活动样本分析	qq.com	mp.weixin.qq.com	/s/RqFWfe2gf9KdKIq0hLq4Gw

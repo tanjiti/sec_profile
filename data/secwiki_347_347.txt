@@ -1,0 +1,29 @@
+20201019	法规	http://www.npc.gov.cn/flcaw/flca/ff80808175265dd401754405c03f154c/attachment.pdf	中华人民共和国个人信息保护法（草案）	npc.gov.cn	www.npc.gov.cn	/flcaw/flca/ff80808175265dd401754405c03f154c/attachment.pdf
+20201019	Web安全	https://mp.weixin.qq.com/s/M_E1OkEdTiMAkawxprwI3A	记一次因“打码”不严的渗透测试	qq.com	mp.weixin.qq.com	/s/M_E1OkEdTiMAkawxprwI3A
+20201019	Web安全	https://forum.90sec.com/t/topic/1338	Docker渗透思路调研	90sec.com	forum.90sec.com	/t/topic/1338
+20201019	运维安全	https://mp.weixin.qq.com/s/yuNalHkhcJJIPNE4QjG_aw	Gartner2020年十大安全项目详解	qq.com	mp.weixin.qq.com	/s/yuNalHkhcJJIPNE4QjG_aw
+20201019	Web安全	https://www.anquanke.com/post/id/219892	Mysql 数据库攻击面	anquanke.com	www.anquanke.com	/post/id/219892
+20201019	Web安全	https://mp.weixin.qq.com/s/87N-Bvveqr9mQ4i1ibPCgg	护网行动中的安全产品优化	qq.com	mp.weixin.qq.com	/s/87N-Bvveqr9mQ4i1ibPCgg
+20201019	工具	https://mp.weixin.qq.com/s/Pvq5D9I1FchnfR2uPUcPAw	Metasploit内网使用三种方法	qq.com	mp.weixin.qq.com	/s/Pvq5D9I1FchnfR2uPUcPAw
+20201019	Web安全	https://xz.aliyun.com/t/8394	一次简单的内网渗透靶场实验	aliyun.com	xz.aliyun.com	/t/8394
+20201019	漏洞分析	https://mp.weixin.qq.com/s/aQqvo4l7XZCfirsrJxJg4w	域渗透之SPN	qq.com	mp.weixin.qq.com	/s/aQqvo4l7XZCfirsrJxJg4w
+20201019	杂志	https://www.sec-wiki.com/weekly/346	SecWiki周刊（第346期)	sec-wiki.com	www.sec-wiki.com	/weekly/346
+20201019	Web安全	https://mp.weixin.qq.com/s/0vK2q1EEaDR-zsQbFKi4PQ	微服务架构下的越权风险	qq.com	mp.weixin.qq.com	/s/0vK2q1EEaDR-zsQbFKi4PQ
+20201019	Web安全	https://mp.weixin.qq.com/s/xcX7XnIhFjj-r3OKvHH7DQ	MSSQL注入DNS带外问题解决	qq.com	mp.weixin.qq.com	/s/xcX7XnIhFjj-r3OKvHH7DQ
+20201019	Web安全	https://mp.weixin.qq.com/s/4iJCx40yEvgG0on6uGQv-g	绕过360安全卫士提权实战案例	qq.com	mp.weixin.qq.com	/s/4iJCx40yEvgG0on6uGQv-g
+20201019	取证分析	https://www.solidot.org/story?sid=65858	Twitter 黑客攻击调查报告	solidot.org	www.solidot.org	/story
+20201019	Web安全	https://mp.weixin.qq.com/s/AVOLACnMJIt0Sgx-hsWXYA	“红蓝对抗”在金融业网络安全建设中的实践与思考	qq.com	mp.weixin.qq.com	/s/AVOLACnMJIt0Sgx-hsWXYA
+20201019	恶意分析	https://mp.weixin.qq.com/s/EMvi2K9TiRhjNY_o2ZMU0g	对中东石油和天然气供应链产业的APT攻击	qq.com	mp.weixin.qq.com	/s/EMvi2K9TiRhjNY_o2ZMU0g
+20201019	Web安全	https://mp.weixin.qq.com/s/LAzIrJXV3pUkSabkoQl1Ag	bypass安全狗 sql注入与xss	qq.com	mp.weixin.qq.com	/s/LAzIrJXV3pUkSabkoQl1Ag
+20201019	运维安全	https://share.weiyun.com/Arv7TL7F	等保2.0体系互联网合规实践白皮书	weiyun.com	share.weiyun.com	/Arv7TL7F
+20201019	移动安全	https://blog.csdn.net/bloodzero_new/article/details/109220410	APP隐私合规_个人信息保护合规评估工具	csdn.net	blog.csdn.net	/bloodzero_new/article/details/109220410
+20201019	运维安全	https://mp.weixin.qq.com/s/LmXi6niSJ4s-Cmq3jWSjaQ	VHAdmin虚拟主机提权实战案例	qq.com	mp.weixin.qq.com	/s/LmXi6niSJ4s-Cmq3jWSjaQ
+20201019	其它	https://mp.weixin.qq.com/s/-3-NsYPguyNjhl-_D0lYnQ	Msfvenom命令自动补全方法	qq.com	mp.weixin.qq.com	/s/-3-NsYPguyNjhl-_D0lYnQ
+20201019	其它	https://mp.weixin.qq.com/s/m4wvjk2w5J2ZrWcJhHdQNw	美国国防部信息网(DODIN)架构剖析	qq.com	mp.weixin.qq.com	/s/m4wvjk2w5J2ZrWcJhHdQNw
+20201019	漏洞分析	https://mp.weixin.qq.com/s/FliS-RfLAL0mtnODGyBh1Q	用友GRP-U8任意SQL语句执行漏洞分析	qq.com	mp.weixin.qq.com	/s/FliS-RfLAL0mtnODGyBh1Q
+20201019	编程技术	https://mp.weixin.qq.com/s/8vPXLxzD1iZ8E_emhruSHQ	谷歌开源内部代码评审规范	qq.com	mp.weixin.qq.com	/s/8vPXLxzD1iZ8E_emhruSHQ
+20201019	观点	https://mp.weixin.qq.com/s/4n3lYjzPRSbjIsPqzyDDmQ	《个人信息保护法(草案)》与GDPR的比较	qq.com	mp.weixin.qq.com	/s/4n3lYjzPRSbjIsPqzyDDmQ
+20201019	工具	https://mp.weixin.qq.com/s/9hyWeoo8Vn1i-whG9cjDKQ	Meterpreter中文乱码的解决	qq.com	mp.weixin.qq.com	/s/9hyWeoo8Vn1i-whG9cjDKQ
+20201019	无线安全	https://mp.weixin.qq.com/s/Hau6h-_HoMjFIzdi0YbLKA	欧洲反无人机系统的发展	qq.com	mp.weixin.qq.com	/s/Hau6h-_HoMjFIzdi0YbLKA
+20201019	数据挖掘	https://mp.weixin.qq.com/s/M9buBsx9rs3aB9Ckzzudpw	移动目标防御技术	qq.com	mp.weixin.qq.com	/s/M9buBsx9rs3aB9Ckzzudpw
+20201019	数据挖掘	https://mp.weixin.qq.com/s/cJqhESxTMy5cfj0EXh9s4w	图解Transformer	qq.com	mp.weixin.qq.com	/s/cJqhESxTMy5cfj0EXh9s4w

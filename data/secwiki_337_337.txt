@@ -1,0 +1,43 @@
+20200810	新闻	https://mp.weixin.qq.com/s/QOUFyVa4c4xGO1v4FroLXw	2020年微信办公违规被处理案例	qq.com	mp.weixin.qq.com	/s/QOUFyVa4c4xGO1v4FroLXw
+20200810	新闻	https://www.cnblogs.com/zhengyun_ustc/p/backdoor.html	那些年那些逆天后门	cnblogs.com	www.cnblogs.com	/zhengyun_ustc/p/backdoor.html
+20200810	观点	https://mp.weixin.qq.com/s/usiMcWM6lnU5ZorkpG8DUQ	美国网络空间安全新战略	qq.com	mp.weixin.qq.com	/s/usiMcWM6lnU5ZorkpG8DUQ
+20200810	观点	https://mp.weixin.qq.com/s/ZT54zA39bqZauqvE_JVIQw	美军DISA（国防信息系统局）解析	qq.com	mp.weixin.qq.com	/s/ZT54zA39bqZauqvE_JVIQw
+20200810	新闻	https://www.4hou.com/posts/wZlM	BCS 2020 安全创客汇总决赛十强盘点	4hou.com	www.4hou.com	/posts/wZlM
+20200810	法规	https://mp.weixin.qq.com/s/XAp40kxf-I0nmOjDBAD7Dg	网络赌博的管辖权、代理、赌资、四方的法律规定	qq.com	mp.weixin.qq.com	/s/XAp40kxf-I0nmOjDBAD7Dg
+20200810	Web安全	https://mp.weixin.qq.com/s/GJGSVl4BRLhUV4x2LbsIkw	Apache Struts2 S2-059(CVE-2019-0230) RCE	qq.com	mp.weixin.qq.com	/s/GJGSVl4BRLhUV4x2LbsIkw
+20200810	Web安全	https://mp.weixin.qq.com/s/yNNqLAodTJGP9zO8zvjmGQ	某恒信息pdf后门事件分析	qq.com	mp.weixin.qq.com	/s/yNNqLAodTJGP9zO8zvjmGQ
+20200810	数据挖掘	https://mp.weixin.qq.com/s/JgLkd4_J5s93FDuS31F-Cg	神秘Palantir-平台介绍	qq.com	mp.weixin.qq.com	/s/JgLkd4_J5s93FDuS31F-Cg
+20200810	Web安全	https://misakikata.github.io/2020/08/%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F%E6%A8%AA%E8%A1%8C%E7%A7%BB%E5%8A%A8/	内网渗透横行移动	github.io	misakikata.github.io	/2020/08/%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F%E6%A8%AA%E8%A1%8C%E7%A7%BB%E5%8A%A8/
+20200810	Web安全	https://mp.weixin.qq.com/s/smJCN_nktLJiZUrGk34KGw	s2 059 初步分析	qq.com	mp.weixin.qq.com	/s/smJCN_nktLJiZUrGk34KGw
+20200810	Web安全	https://mp.weixin.qq.com/s/dBWq1rCZYVS9oDgIGwcCdA	BloodHound 使用指南	qq.com	mp.weixin.qq.com	/s/dBWq1rCZYVS9oDgIGwcCdA
+20200810	其它	https://mp.weixin.qq.com/s/WeBXUyP3-gbzrRrHmPyY9w	信息安全：研究体系（220页）	qq.com	mp.weixin.qq.com	/s/WeBXUyP3-gbzrRrHmPyY9w
+20200810	其它	https://mp.weixin.qq.com/s/8-d0eB2VV0qvG3VNCaJ_zA	靶场竞品分析-CybExer网络靶场	qq.com	mp.weixin.qq.com	/s/8-d0eB2VV0qvG3VNCaJ_zA
+20200810	运维安全	https://mp.weixin.qq.com/s/6IQD7pRsJ_tJ72umOnQiaA	美国安全自动化和IACD框架	qq.com	mp.weixin.qq.com	/s/6IQD7pRsJ_tJ72umOnQiaA
+20200810	恶意分析	https://new.qq.com/omn/20200811/20200811A0V72K00.html	针对绿斑组织近期APT攻击活动的分析报告	qq.com	new.qq.com	/omn/20200811/20200811A0V72K00.html
+20200810	Web安全	http://zeroyu.xyz/2020/08/11/When-TLS-Hacks-You-BlackHat2020/	When TLS Hacks You--BlackHat2020	zeroyu.xyz	zeroyu.xyz	/2020/08/11/When-TLS-Hacks-You-BlackHat2020/
+20200810	其它	https://mp.weixin.qq.com/s/uaMfeENw6DexSNNO-Cbl_Q	以色列网络安全调研报告	qq.com	mp.weixin.qq.com	/s/uaMfeENw6DexSNNO-Cbl_Q
+20200810	漏洞分析	https://mp.weixin.qq.com/s/8ZDpCYb_7X1tJ5ywxbQSMA	Windows版TeamViewer漏洞复现	qq.com	mp.weixin.qq.com	/s/8ZDpCYb_7X1tJ5ywxbQSMA
+20200810	Web安全	https://mp.weixin.qq.com/s/uHNx28XFZ5M6KwykMC4Jsg	护网自动化脚本	qq.com	mp.weixin.qq.com	/s/uHNx28XFZ5M6KwykMC4Jsg
+20200810	编程技术	https://github.com/ttonys/Scrapy-CVE-CNVD	获取每日最新的CVE和CNVD漏洞	github.com	github.com	/ttonys/Scrapy-CVE-CNVD
+20200810	其它	https://mp.weixin.qq.com/s/agMbnkeE39LlgfcivfCexA	2020数据泄露调查报告	qq.com	mp.weixin.qq.com	/s/agMbnkeE39LlgfcivfCexA
+20200810	漏洞分析	https://www.anquanke.com/post/id/213423	Angr_CTF已入门到精通	anquanke.com	www.anquanke.com	/post/id/213423
+20200810	Web安全	https://paper.seebug.org/1292/	从代码角度看各类子域名收集工具	seebug.org	paper.seebug.org	/1292/
+20200810	恶意分析	https://www.anquanke.com/post/id/213411	一款商业窃密马的前世今生	anquanke.com	www.anquanke.com	/post/id/213411
+20200810	运维安全	https://security.tencent.com/index.php/blog/msg/162	小步快跑，快速迭代：安全运营的器术法道	tencent.com	security.tencent.com	/index.php/blog/msg/162
+20200810	文档	https://mp.weixin.qq.com/s/0GU_cC9PGwWPKA1ZdxCF4g##	2019年中国互联网网络安全报告	qq.com	mp.weixin.qq.com	/s/0GU_cC9PGwWPKA1ZdxCF4g
+20200810	数据挖掘	https://github.com/nomi-sec/PoC-in-GitHub	PoC auto collect from GitHub	github.com	github.com	/nomi-sec/PoC-in-GitHub
+20200810	杂志	https://www.sec-wiki.com/weekly/336	SecWiki周刊（第336期)	sec-wiki.com	www.sec-wiki.com	/weekly/336
+20200810	恶意分析	https://medium.com/@nusenu/how-malicious-tor-relays-are-exploiting-users-in-2020-part-i-1097575c0cac	How Malicious Tor Relays are Exploiting Users in 2020 (Part I)	medium.com	medium.com	/@nusenu/how-malicious-tor-relays-are-exploiting-users-in-2020-part-i-1097575c0cac
+20200810	运维安全	https://mp.weixin.qq.com/s/sGoGelUKd8ehYlghOgg7gw	中小型银行实战攻防演练经验分享	qq.com	mp.weixin.qq.com	/s/sGoGelUKd8ehYlghOgg7gw
+20200810	数据挖掘	https://mp.weixin.qq.com/s/c8f0wDHigNQUlmxtFVG0aA	互联网虚假新闻检测挑战赛（冠军）方案	qq.com	mp.weixin.qq.com	/s/c8f0wDHigNQUlmxtFVG0aA
+20200810	漏洞分析	https://mp.weixin.qq.com/s/Sk7Lx0sKAfD_wTuhcWiBig	CVE-2017-0261及利用样本分析	qq.com	mp.weixin.qq.com	/s/Sk7Lx0sKAfD_wTuhcWiBig
+20200810	其它	https://www.anquanke.com/post/id/213742	基于零信任的等保一体机方案	anquanke.com	www.anquanke.com	/post/id/213742
+20200810	Web安全	https://mp.weixin.qq.com/s/qjM7Fh0u0Edsz5C7L_ErGQ	浅谈蓝队反制手段	qq.com	mp.weixin.qq.com	/s/qjM7Fh0u0Edsz5C7L_ErGQ
+20200810	Web安全	https://github.com/zer0yu/Awesome-CobaltStrike	Awesome CobaltStrike	github.com	github.com	/zer0yu/Awesome-CobaltStrike
+20200810	移动安全	https://www.anquanke.com/post/id/213528	APT-SpyMax间谍软件家族追踪	anquanke.com	www.anquanke.com	/post/id/213528
+20200810	恶意分析	https://mp.weixin.qq.com/s/XZvQgh6g69AUNUi_QK9FbQ	JSP Webshell那些事 -- 攻击篇(上)	qq.com	mp.weixin.qq.com	/s/XZvQgh6g69AUNUi_QK9FbQ
+20200810	文档	https://coinholmes.com/static/pdf/2.pdf	2019年度数字资产反洗钱(AML)研究报告	coinholmes.com	coinholmes.com	/static/pdf/2.pdf
+20200810	其它	https://mp.weixin.qq.com/s/rHE2Xj335RzhlB-KvxJLpQ	Windows通用应用平台UWP持久化	qq.com	mp.weixin.qq.com	/s/rHE2Xj335RzhlB-KvxJLpQ
+20200810	设备安全	https://mp.weixin.qq.com/s/xWUoAwilc6v_0BMZXpbZqA	固件提取系列(一)-固件载体	qq.com	mp.weixin.qq.com	/s/xWUoAwilc6v_0BMZXpbZqA
+20200810	取证分析	https://bitwiser.dev/2020/08/14/decrypting-https-how-to-snoop-on-your-own-requests/	Decrypting HTTPS: How to Snoop on Your Own Requests	bitwiser.dev	bitwiser.dev	/2020/08/14/decrypting-https-how-to-snoop-on-your-own-requests/
+20200810	取证分析	https://zhuanlan.zhihu.com/p/183993203	从现状看威胁情报发展趋势	zhihu.com	zhuanlan.zhihu.com	/p/183993203

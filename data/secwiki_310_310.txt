@@ -1,0 +1,19 @@
+20200203	杂志	https://www.sec-wiki.com/weekly/309	SecWiki周刊（第309期)	sec-wiki.com	www.sec-wiki.com	/weekly/309
+20200203	Web安全	https://mp.weixin.qq.com/s/ShACPmfP2gASTFY0trQLSw	HTB系列-靶机Bitlab的渗透测试	qq.com	mp.weixin.qq.com	/s/ShACPmfP2gASTFY0trQLSw
+20200203	漏洞分析	https://xz.aliyun.com/t/7170	那些shellcode免杀总结	aliyun.com	xz.aliyun.com	/t/7170
+20200203	漏洞分析	https://mp.weixin.qq.com/s/QGhA2LanCq5KSUYT5uBf9A	机器学习在二进制代码相似性分析中的应用	qq.com	mp.weixin.qq.com	/s/QGhA2LanCq5KSUYT5uBf9A
+20200203	漏洞分析	https://www.anquanke.com/post/id/197892	Chrome漏洞调试笔记2-CVE-2019-0808	anquanke.com	www.anquanke.com	/post/id/197892
+20200203	运维安全	https://mp.weixin.qq.com/s/hOcMlzQJ4jPlROc4Rvvk5Q	零信任原生安全：超越云原生安全	qq.com	mp.weixin.qq.com	/s/hOcMlzQJ4jPlROc4Rvvk5Q
+20200203	运维安全	https://xz.aliyun.com/t/7158	如何利用AgentSmith-HIDS检测反弹shell	aliyun.com	xz.aliyun.com	/t/7158
+20200203	编程技术	https://lorexxar.cn/2020/02/03/chrome-ext-3/	从0开始入门Chrome Ext安全（番外篇） -- Zoomeye Tools	lorexxar.cn	lorexxar.cn	/2020/02/03/chrome-ext-3/
+20200203	Web安全	https://payloads.online/archivers/2020-02-05/1	红队行动之鱼叉攻击	payloads.online	payloads.online	/archivers/2020-02-05/1
+20200203	取证分析	https://www.freebuf.com/articles/network/226069.html	一次对BT种子的追踪小记	freebuf.com	www.freebuf.com	/articles/network/226069.html
+20200203	设备安全	https://www.anquanke.com/post/id/197750	车联网安全系列——特斯拉iBeacon隐私泄露	anquanke.com	www.anquanke.com	/post/id/197750
+20200203	Web安全	https://github.com/codeplutos/MySQL-JDBC-Deserialization-Payload	MySQL客户端jdbc反序列化漏洞payload	github.com	github.com	/codeplutos/MySQL-JDBC-Deserialization-Payload
+20200203	取证分析	https://www.nirsoft.net/utils/mailpv.html	Mail PassView – Extract Lost Email Passwords	nirsoft.net	www.nirsoft.net	/utils/mailpv.html
+20200203	数据挖掘	https://zhuanlan.zhihu.com/p/105203565	多知识图谱的融合算法探索	zhihu.com	zhuanlan.zhihu.com	/p/105203565
+20200203	数据挖掘	https://tech.meituan.com/2020/01/23/meituan-delivery-machine-learning.html	一站式机器学习平台建设实践	meituan.com	tech.meituan.com	/2020/01/23/meituan-delivery-machine-learning.html
+20200203	工具	https://github.com/p1g3/JSONP-Hunter	JSONP-Hunter: JSONP Hunter in Burpsuite	github.com	github.com	/p1g3/JSONP-Hunter
+20200203	数据挖掘	https://xz.aliyun.com/t/7165	打造一个通用的信息推送框架	aliyun.com	xz.aliyun.com	/t/7165
+20200203	恶意分析	https://github.com/sisoc-tokyo/Real-timeDetectionAD_jornal	Real-time detection of high-risk attacks leveraging Kerberos and SMB	github.com	github.com	/sisoc-tokyo/Real-timeDetectionAD_jornal
+20200203	恶意分析	https://unit42.paloaltonetworks.com/attackers-tactics-and-techniques-in-unsecured-docker-daemons-revealed/	Attackers Tactics and Techniques in Unsecured Docker Daemons Revealed	paloaltonetworks.com	unit42.paloaltonetworks.com	/attackers-tactics-and-techniques-in-unsecured-docker-daemons-revealed/

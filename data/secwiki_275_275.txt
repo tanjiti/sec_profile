@@ -1,0 +1,25 @@
+20190603	其它	https://www.sec-un.org/%e7%be%8e%e5%9b%bd%e7%bd%91%e7%bb%9c%e5%ae%89%e5%85%a8%e6%80%81%e5%8a%bf%e6%84%9f%e7%9f%a5%e5%8f%91%e5%b1%95%e8%bf%87%e7%a8%8b%e4%b8%8e%e5%bb%ba%e8%ae%be%e9%98%b6%e6%ae%b5/	美国网络安全态势感知发展过程与建设阶段	sec-un.org	www.sec-un.org	/%e7%be%8e%e5%9b%bd%e7%bd%91%e7%bb%9c%e5%ae%89%e5%85%a8%e6%80%81%e5%8a%bf%e6%84%9f%e7%9f%a5%e5%8f%91%e5%b1%95%e8%bf%87%e7%a8%8b%e4%b8%8e%e5%bb%ba%e8%ae%be%e9%98%b6%e6%ae%b5/
+20190603	新闻	https://github.com/No-Github/Dork-Admin	Dork-Admin: 盘点近年来的数据泄露事件	github.com	github.com	/No-Github/Dork-Admin
+20190603	Web安全	https://xz.aliyun.com/t/5330	从外网到内网的渗透姿势分享	aliyun.com	xz.aliyun.com	/t/5330
+20190603	Web安全	https://xz.aliyun.com/t/5326	一次不完美的Jboss渗透	aliyun.com	xz.aliyun.com	/t/5326
+20190603	编程技术	https://paper.seebug.org/940/	细说 sqlmap_api	seebug.org	paper.seebug.org	/940/
+20190603	杂志	https://www.sec-wiki.com/weekly/274	SecWiki周刊（第274期)	sec-wiki.com	www.sec-wiki.com	/weekly/274
+20190603	新闻	https://www.kiwisec.com/news/detail/5cf4dc6ec649181e28b82018.html	最新出炉！网络安全实践指南 —移动互联网应用基本业务功能必要信息规范	kiwisec.com	www.kiwisec.com	/news/detail/5cf4dc6ec649181e28b82018.html
+20190603	Web安全	https://mp.weixin.qq.com/s/vBYxrmnBoM-Abl_y1v4DtA	基于EVE-NG平台上构建企业内网攻防环境	qq.com	mp.weixin.qq.com	/s/vBYxrmnBoM-Abl_y1v4DtA
+20190603	漏洞分析	https://tanjiti.github.io/2019/05/31/influxdb-%E8%AE%A4%E8%AF%81%E7%BB%95%E8%BF%870day/	influxdb认证绕过0day	github.io	tanjiti.github.io	/2019/05/31/influxdb-%E8%AE%A4%E8%AF%81%E7%BB%95%E8%BF%870day/
+20190603	恶意分析	https://www.4hou.com/special/18153.html	对Silence组织的攻击手法的全方位解析	4hou.com	www.4hou.com	/special/18153.html
+20190603	漏洞分析	https://www.anquanke.com/post/id/179709	Windows平台常见反调试技术梳理（上）	anquanke.com	www.anquanke.com	/post/id/179709
+20190603	恶意分析	https://mp.weixin.qq.com/s/tNI54MlsN9bFKnm9kL6G-Q	ESET分析了Turla APT对武器化PowerShell的使用	qq.com	mp.weixin.qq.com	/s/tNI54MlsN9bFKnm9kL6G-Q
+20190603	恶意分析	https://mp.weixin.qq.com/s/3ZQhn32NB6p-LwndB2o2zQ	安天发布“方程式组织”攻击中东SWIFT服务商事件复盘分析报告	qq.com	mp.weixin.qq.com	/s/3ZQhn32NB6p-LwndB2o2zQ
+20190603	其它	http://blog.nsfocus.net/strategic-cyberspace-operations-guide/	战略性网络空间作战指南	nsfocus.net	blog.nsfocus.net	/strategic-cyberspace-operations-guide/
+20190603	运维安全	https://zhuanlan.zhihu.com/p/68419146	0xBA 漏洞管理从入坑到逃离	zhihu.com	zhuanlan.zhihu.com	/p/68419146
+20190603	漏洞分析	https://www.anquanke.com/post/id/179710	Windows平台常见反调试技术梳理（下）	anquanke.com	www.anquanke.com	/post/id/179710
+20190603	数据挖掘	https://kexue.fm/archives/6671	基于DGCNN和概率图的轻量级信息抽取模型	kexue.fm	kexue.fm	/archives/6671
+20190603	数据挖掘	https://mp.weixin.qq.com/s/M-J4FhGA5zg1WZCA9-Houg	DataCon 的 DNS 恶意流量检查一题回顾	qq.com	mp.weixin.qq.com	/s/M-J4FhGA5zg1WZCA9-Houg
+20190603	恶意分析	https://xz.aliyun.com/t/5338	如何利用机器学习创建恶意软件检测系统	aliyun.com	xz.aliyun.com	/t/5338
+20190603	取证分析	https://www.freebuf.com/articles/blockchain-articles/203127.html	比特币交易追踪溯源技术介绍	freebuf.com	www.freebuf.com	/articles/blockchain-articles/203127.html
+20190603	漏洞分析	https://paper.seebug.org/829/	简单 Unity3D 安卓游戏逆向思路	seebug.org	paper.seebug.org	/829/
+20190603	恶意分析	https://mp.weixin.qq.com/s/QINNIBQDY2bvLi795LsOoA	银钩：针对国内网银用户的钓鱼的攻击活动	qq.com	mp.weixin.qq.com	/s/QINNIBQDY2bvLi795LsOoA
+20190603	取证分析	https://posts.specterops.io/threat-hunting-with-jupyter-notebooks-part-2-basic-data-analysis-with-pandas-80d1400ab6ee	Threat Hunting with Jupyter — Part 2: Basic Data Analysis with Pandas	specterops.io	posts.specterops.io	/threat-hunting-with-jupyter-notebooks-part-2-basic-data-analysis-with-pandas-80d1400ab6ee
+20190603	取证分析	https://posts.specterops.io/threat-hunting-with-jupyter-notebooks-part-4-sql-join-via-apache-sparksql-6630928c931e	Threat Hunting with Jupyter — Part 4: SQL JOIN via Apache SparkSQL	specterops.io	posts.specterops.io	/threat-hunting-with-jupyter-notebooks-part-4-sql-join-via-apache-sparksql-6630928c931e
+20190603	取证分析	https://posts.specterops.io/threat-hunting-with-jupyter-notebooks-part-3-querying-elasticsearch-via-apache-spark-670054cd9d47	Threat Hunting with Jupyter — Part 3: Querying Elasticsearch via Apache Spark	specterops.io	posts.specterops.io	/threat-hunting-with-jupyter-notebooks-part-3-querying-elasticsearch-via-apache-spark-670054cd9d47

@@ -1,0 +1,18 @@
+20220314	恶意分析	https://mp.weixin.qq.com/s/RNMmyylEZDprf5XDsNDe4g	Watchdog 还是 TeamTNT？一例攻击归因刍议	qq.com	mp.weixin.qq.com	/s/RNMmyylEZDprf5XDsNDe4g
+20220314	恶意分析	https://mp.weixin.qq.com/s/GKkzTY-GWX7lzv9JD9mwAg	在野无状态扫描的综合研究	qq.com	mp.weixin.qq.com	/s/GKkzTY-GWX7lzv9JD9mwAg
+20220314	恶意分析	https://mp.weixin.qq.com/s/_bTunF9TXBUze8ewCM--Fg	浏览网页就能泄露手机号的小秘密	qq.com	mp.weixin.qq.com	/s/_bTunF9TXBUze8ewCM--Fg
+20220314	杂志	https://www.sec-wiki.com/weekly/419	SecWiki周刊（第419期)	sec-wiki.com	www.sec-wiki.com	/weekly/419
+20220314	Web安全	https://mp.weixin.qq.com/s?__biz=MzIwOTA4NTg4MA==&mid=2652490020&idx=1&sn=0d67a7d5c6e51f1dc8fdea1b62b5dadf&chksm=8c945df3bbe3d4e5f63bf169516d6206705a19a7c9a74a7db6250d59edb193f7bb515161851b#rd	[HTB] Ophiuchi Writeup	qq.com	mp.weixin.qq.com	/s
+20220314	数据挖掘	https://mp.weixin.qq.com/s/vTRfFHXaodbGyNCoT-h0zw	浅谈数据安全	qq.com	mp.weixin.qq.com	/s/vTRfFHXaodbGyNCoT-h0zw
+20220314	Web安全	https://mp.weixin.qq.com/s/7wQFqoN8Gu4q7CIb3kLM9Q	[HTB] TheNotebook Writeup	qq.com	mp.weixin.qq.com	/s/7wQFqoN8Gu4q7CIb3kLM9Q
+20220314	Web安全	https://mp.weixin.qq.com/s/8s7l4TgcYb-CibfnQ6XhLA	ATT&CK红队评估三套靶场渗透记录	qq.com	mp.weixin.qq.com	/s/8s7l4TgcYb-CibfnQ6XhLA
+20220314	运维安全	https://mp.weixin.qq.com/s/z-KDuUw9V5trLFZ849nswQ	企业安全运营实践：四个阶段实现风险处置的快和准	qq.com	mp.weixin.qq.com	/s/z-KDuUw9V5trLFZ849nswQ
+20220314	Web安全	https://mp.weixin.qq.com/s/ZTNfI9SOKyAYvixuFfPMig	攻击面管理（ASM）技术详解和实现	qq.com	mp.weixin.qq.com	/s/ZTNfI9SOKyAYvixuFfPMig
+20220314	取证分析	https://mp.weixin.qq.com/s/H0seZS8d1_PzWHYpB2CiKQ	ICD（集成网络防御）概念参考模型	qq.com	mp.weixin.qq.com	/s/H0seZS8d1_PzWHYpB2CiKQ
+20220314	Web安全	https://github.com/b0bac/ApolloScanner	ApolloScanner: 自动化巡航扫描框架	github.com	github.com	/b0bac/ApolloScanner
+20220314	运维安全	https://jimmysong.io/service-mesh-devsecops/	利用服务网格为基于微服务的应用程序实施 DevSecOps	jimmysong.io	jimmysong.io	/service-mesh-devsecops/
+20220314	Web安全	https://xz.aliyun.com/t/11001	利用抽象语法树挖掘Fastjson可用的Gadget	aliyun.com	xz.aliyun.com	/t/11001
+20220314	Web安全	http://noahblog.360.cn/abuse-gateway-api-attack-kubernetes/	利用 gateway-api 攻击 kubernetes	360.cn	noahblog.360.cn	/abuse-gateway-api-attack-kubernetes/
+20220314	比赛	https://mp.weixin.qq.com/s/aOirT1aIfbbN890X39zWBw	2021西湖论剑IOT RW-WriteUp	qq.com	mp.weixin.qq.com	/s/aOirT1aIfbbN890X39zWBw
+20220314	恶意分析	https://mp.weixin.qq.com/s/qTOycSR7stc2CmRXMoGfoA	使用DNS Tunnel技术的Linux后门B1txor20	qq.com	mp.weixin.qq.com	/s/qTOycSR7stc2CmRXMoGfoA
+20220314	Web安全	https://mp.weixin.qq.com/s/VGyYrIz7hTWA6RJFMq_Cpg	Java 之 CommonsCollections利用链初探	qq.com	mp.weixin.qq.com	/s/VGyYrIz7hTWA6RJFMq_Cpg

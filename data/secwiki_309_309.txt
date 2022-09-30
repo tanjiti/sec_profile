@@ -1,0 +1,16 @@
+20200127	法规	https://www.anquanke.com/post/id/197556	2019年网络安全政策法规回顾	anquanke.com	www.anquanke.com	/post/id/197556
+20200127	Web安全	https://mp.weixin.qq.com/s/bmA73FSjVPqpiaacz-btAQ	收集整理的23种文件下载的方式	qq.com	mp.weixin.qq.com	/s/bmA73FSjVPqpiaacz-btAQ
+20200127	Web安全	https://mp.weixin.qq.com/s/vmUqdSbZXh6698R8IHoOyw	ATT&CK红队评估实战靶场vulnstack	qq.com	mp.weixin.qq.com	/s/vmUqdSbZXh6698R8IHoOyw
+20200127	数据挖掘	https://mp.weixin.qq.com/s/4Fdpik3EtEng-ri_7tGM0A	工业级知识图谱：经验与挑战	qq.com	mp.weixin.qq.com	/s/4Fdpik3EtEng-ri_7tGM0A
+20200127	杂志	https://www.sec-wiki.com/weekly/308	SecWiki周刊（第308期)	sec-wiki.com	www.sec-wiki.com	/weekly/308
+20200127	数据挖掘	https://mp.weixin.qq.com/s/oq3T1fSKAHeDfWZNpciXSw	从产品视角重新定义“检测”和“分析”	qq.com	mp.weixin.qq.com	/s/oq3T1fSKAHeDfWZNpciXSw
+20200127	漏洞分析	https://mp.weixin.qq.com/s/u-p6_srzby1bbejqClmf-A	对zimbra邮服认证机制的一些探索	qq.com	mp.weixin.qq.com	/s/u-p6_srzby1bbejqClmf-A
+20200127	恶意分析	https://github.com/theLSA/emergency-response-checklist	emergency-response-checklist：应急响应指南	github.com	github.com	/theLSA/emergency-response-checklist
+20200127	Web安全	https://www.anquanke.com/post/id/197641	Java代码审计之入门篇（一）	anquanke.com	www.anquanke.com	/post/id/197641
+20200127	恶意分析	https://github.com/StrangerealIntel/DailyIOC	DailyIOC: IOC from articles, tweets for archives	github.com	github.com	/StrangerealIntel/DailyIOC
+20200127	工具	https://github.com/sahilmgandhi/IotShark	IotShark - Monitoring and Analyzing IoT Traffic	github.com	github.com	/sahilmgandhi/IotShark
+20200127	漏洞分析	https://www.mdsec.co.uk/2020/01/code-injection-in-workflows-leading-to-sharepoint-rce-cve-2020-0646/	Code injection in Workflows leading to SharePoint RCE (CVE-2020-0646)	mdsec.co.uk	www.mdsec.co.uk	/2020/01/code-injection-in-workflows-leading-to-sharepoint-rce-cve-2020-0646/
+20200127	取证分析	https://github.com/ddz/whatsapp-media-decrypt	Decrypt WhatsApp encrypted media files	github.com	github.com	/ddz/whatsapp-media-decrypt
+20200127	Web安全	https://xz.aliyun.com/t/7143	记一次验签机制伪造绕过的继续渗透测试	aliyun.com	xz.aliyun.com	/t/7143
+20200127	漏洞分析	https://www.anquanke.com/post/id/197713	远程云端执行（RCE）：Azure云架构中的漏洞分析（Part 1）	anquanke.com	www.anquanke.com	/post/id/197713
+20200127	数据挖掘	https://github.com/beader/tianchi_nl2sql	首届中文NL2SQL挑战赛决赛第3名方案+代码	github.com	github.com	/beader/tianchi_nl2sql

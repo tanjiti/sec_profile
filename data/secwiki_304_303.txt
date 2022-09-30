@@ -1,0 +1,79 @@
+20191223	法规	https://mp.weixin.qq.com/s/gxBbLDYC9An2-N-hbULSwQ	维他命2019大盘点之安全政策法规篇	qq.com	mp.weixin.qq.com	/s/gxBbLDYC9An2-N-hbULSwQ
+20191223	观点	https://mp.weixin.qq.com/s/gUOO1kDB_wuZ32nKAZjM0g	RSA和McAfee的2020年安全威胁预测	qq.com	mp.weixin.qq.com	/s/gUOO1kDB_wuZ32nKAZjM0g
+20191223	观点	https://mp.weixin.qq.com/s/ZXRI6KUtu6IwCYrjuy_3Tg	白帽成长建议	qq.com	mp.weixin.qq.com	/s/ZXRI6KUtu6IwCYrjuy_3Tg
+20191223	Web安全	https://xz.aliyun.com/t/6966	内网穿透及端口转发大合集	aliyun.com	xz.aliyun.com	/t/6966
+20191223	观点	https://www.freebuf.com/articles/neopoints/221948.html	OSCP学习经验分享	freebuf.com	www.freebuf.com	/articles/neopoints/221948.html
+20191223	Web安全	https://www.secpulse.com/archives/118356.html	记数据库应急响应	secpulse.com	www.secpulse.com	/archives/118356.html
+20191223	观点	https://mp.weixin.qq.com/s/SXM4XsEqyRMoaYtY1lzq2g	安全实验室的发展及展望	qq.com	mp.weixin.qq.com	/s/SXM4XsEqyRMoaYtY1lzq2g
+20191223	Web安全	https://xz.aliyun.com/t/6981	挖洞神器之XRAY使用初体验	aliyun.com	xz.aliyun.com	/t/6981
+20191223	Web安全	https://mp.weixin.qq.com/s/FzF0sx2geStPIc5VbskoGQ	日志分析系列(一):介绍篇	qq.com	mp.weixin.qq.com	/s/FzF0sx2geStPIc5VbskoGQ
+20191223	观点	https://mp.weixin.qq.com/s/w_kfBpkXU7WdfkwSl-KSnA	关于安全运营中心的几个问题	qq.com	mp.weixin.qq.com	/s/w_kfBpkXU7WdfkwSl-KSnA
+20191223	Web安全	https://o0o0.club/%E8%AE%B0%E4%B8%80%E6%AC%A1%E5%AF%B9%E6%9F%90%E9%9D%9E%E6%B3%95%E7%AB%99%E7%82%B9%E4%BB%8ESQL%E6%B3%A8%E5%85%A5%E5%88%B0%E6%95%B4%E7%AB%99%E6%89%93%E5%8C%85%E4%B8%8E%E6%9C%AC%E5%9C%B0%E6%90%AD%E5%BB%BA%E5%85%A8%E8%BF%87%E7%A8%8B/	记一次对某非法站点从SQL注入到整站打包与本地搭建全过程	o0o0.club	o0o0.club	/%E8%AE%B0%E4%B8%80%E6%AC%A1%E5%AF%B9%E6%9F%90%E9%9D%9E%E6%B3%95%E7%AB%99%E7%82%B9%E4%BB%8ESQL%E6%B3%A8%E5%85%A5%E5%88%B0%E6%95%B4%E7%AB%99%E6%89%93%E5%8C%85%E4%B8%8E%E6%9C%AC%E5%9C%B0%E6%90%AD%E5%BB%BA%E5%85%A8%E8%BF%87%E7%A8%8B/
+20191223	恶意分析	https://blog.netlab.360.com/p2p-botnet-mozi/	P2P Botnet： Ｍozi分析报告	360.com	blog.netlab.360.com	/p2p-botnet-mozi/
+20191223	Web安全	https://xz.aliyun.com/t/6979	记针对某单位一次相对完整的渗透测试	aliyun.com	xz.aliyun.com	/t/6979
+20191223	观点	https://mp.weixin.qq.com/s/6Kli-u6LEInoliTVQgdrFQ	下一座圣杯 - 2019	qq.com	mp.weixin.qq.com	/s/6Kli-u6LEInoliTVQgdrFQ
+20191223	设备安全	https://blog.csdn.net/sun1318578251/article/details/103688200	shellcode加密过杀软	csdn.net	blog.csdn.net	/sun1318578251/article/details/103688200
+20191223	取证分析	https://mp.weixin.qq.com/s/Qwc234edENL8NBxSm4d56g	ATT&CK之防御逃逸（一）	qq.com	mp.weixin.qq.com	/s/Qwc234edENL8NBxSm4d56g
+20191223	文档	http://blog.nsfocus.net/wp-content/uploads/2019/12/2019-Annual-IoT-Security-Report.pdf	2019物联网安全年报	nsfocus.net	blog.nsfocus.net	/wp-content/uploads/2019/12/2019-Annual-IoT-Security-Report.pdf
+20191223	文档	https://mp.weixin.qq.com/s/hcdA7R36RsSV40TnIu2fJg	2019年度OWASP中国项目总结	qq.com	mp.weixin.qq.com	/s/hcdA7R36RsSV40TnIu2fJg
+20191223	编程技术	https://www.freebuf.com/articles/es/222976.html	HIDS系统存储方案探索与实践	freebuf.com	www.freebuf.com	/articles/es/222976.html
+20191223	Web安全	https://www.bacde.me/post/Webshellkill-Bypass-Php-Webshell/	最新绕过D盾的php Webshell	bacde.me	www.bacde.me	/post/Webshellkill-Bypass-Php-Webshell/
+20191223	比赛	https://momomoxiaoxi.com/ctf/2019/12/23/HITCONfinal/	2019 HITCON-Final Web WP	momomoxiaoxi.com	momomoxiaoxi.com	/ctf/2019/12/23/HITCONfinal/
+20191223	Web安全	https://mp.weixin.qq.com/s/FIz4-xk093jGN3TOECAgqQ	浅谈OPSEC和C2	qq.com	mp.weixin.qq.com	/s/FIz4-xk093jGN3TOECAgqQ
+20191223	Web安全	https://mp.weixin.qq.com/s/suzicCzb2g5b8NN71S5Ngw	一个HTTP数据包的奇幻之旅	qq.com	mp.weixin.qq.com	/s/suzicCzb2g5b8NN71S5Ngw
+20191223	杂志	https://www.sec-wiki.com/weekly/303	SecWiki周刊（第303期)	sec-wiki.com	www.sec-wiki.com	/weekly/303
+20191223	数据挖掘	https://mp.weixin.qq.com/s/yRQwHVPuYHM67yAo15hPOw	基于卷积神经网络的入侵检测进行检测Dos攻击	qq.com	mp.weixin.qq.com	/s/yRQwHVPuYHM67yAo15hPOw
+20191223	取证分析	https://mp.weixin.qq.com/s/9IeSIFofiT58X8iu1BqW0Q	ATT&CK之防御逃逸（二）	qq.com	mp.weixin.qq.com	/s/9IeSIFofiT58X8iu1BqW0Q
+20191223	观点	https://mp.weixin.qq.com/s/nFvGQqeFvSYaEFksbi8FLw	论⾼级攻防团队建设⽅法论之思想的重要性（上）	qq.com	mp.weixin.qq.com	/s/nFvGQqeFvSYaEFksbi8FLw
+20191223	漏洞分析	https://xz.aliyun.com/t/6984	blind-pwn系列总结+创新	aliyun.com	xz.aliyun.com	/t/6984
+20191223	数据挖掘	https://www.freebuf.com/sectool/222561.html	基于DNS的数据泄露开源测试工具篇（一）	freebuf.com	www.freebuf.com	/sectool/222561.html
+20191223	漏洞分析	https://www.anquanke.com/post/id/195801	拟态防御型Pwn题做题思路总结	anquanke.com	www.anquanke.com	/post/id/195801
+20191223	设备安全	https://mp.weixin.qq.com/s/H9f-z3oLDZ-fMrEax3nMaA	针对ICS的网络攻击20强——谈天说地Part1	qq.com	mp.weixin.qq.com	/s/H9f-z3oLDZ-fMrEax3nMaA
+20191223	设备安全	https://www.freebuf.com/articles/ics-articles/220239.html	西门子S7comm-plus通信过程及重放攻击分析	freebuf.com	www.freebuf.com	/articles/ics-articles/220239.html
+20191223	比赛	https://github.com/secdevops-cuse/CyberRange	CyberRange: The Open-Source AWS Cyber Range	github.com	github.com	/secdevops-cuse/CyberRange
+20191223	恶意分析	https://www.freebuf.com/articles/others-articles/222677.html	Gafgyt家族物联网僵尸网络家族分析	freebuf.com	www.freebuf.com	/articles/others-articles/222677.html
+20191223	运维安全	https://www.freebuf.com/articles/neopoints/220837.html	软件安全构建成熟度实践尝试	freebuf.com	www.freebuf.com	/articles/neopoints/220837.html
+20191223	编程技术	https://github.com/chineseocr/darknet-ocr	darknet-ocr: darknet text detect and darknet cnn ocr	github.com	github.com	/chineseocr/darknet-ocr
+20191223	其它	https://mp.weixin.qq.com/s/ZyrgqwLUD13sZVnHQ18Pqw	靶场发展态势⑧美国家网络空间靶场综合设施（NCRC）	qq.com	mp.weixin.qq.com	/s/ZyrgqwLUD13sZVnHQ18Pqw
+20191223	设备安全	https://mp.weixin.qq.com/s/TS1m4XoTI3f36ZY8vtLkwg	针对ICS的网络攻击20强——谈天说地Part2	qq.com	mp.weixin.qq.com	/s/TS1m4XoTI3f36ZY8vtLkwg
+20191216	人物	https://mp.weixin.qq.com/s/wEqBaZmO8FwOyGrcWDNgYQ	CTF：一部黑客心灵史	qq.com	mp.weixin.qq.com	/s/wEqBaZmO8FwOyGrcWDNgYQ
+20191216	新闻	https://mp.weixin.qq.com/s/ORW8qWCpgQFJh8-bsaIg3w	“震网”十年谜底终浮水面, 伊朗核计划流产源于内鬼“间谍行动”	qq.com	mp.weixin.qq.com	/s/ORW8qWCpgQFJh8-bsaIg3w
+20191216	新闻	https://mp.weixin.qq.com/s/v4NDZFo81kJKDlrROI5FqA	人工智能在国防领域的七大应用	qq.com	mp.weixin.qq.com	/s/v4NDZFo81kJKDlrROI5FqA
+20191216	新闻	https://www.cnbeta.com/articles/tech/923663.htm	外媒警告地理位置数据可被轻易用于身份识别和个人追踪	cnbeta.com	www.cnbeta.com	/articles/tech/923663.htm
+20191216	新闻	https://mp.weixin.qq.com/s/lRAyLyBJtquMrMTmTHnYUQ	直击北向峰会现场-避危乘势，经略变局	qq.com	mp.weixin.qq.com	/s/lRAyLyBJtquMrMTmTHnYUQ
+20191216	Web安全	https://mp.weixin.qq.com/s/9RHVsw-HtAfo1UuPAqXZEw	对乌云漏洞库payload的整理以及Burp辅助插件	qq.com	mp.weixin.qq.com	/s/9RHVsw-HtAfo1UuPAqXZEw
+20191216	Web安全	https://mp.weixin.qq.com/s/-PHVIAQVyU8QIpHwcpN4yw	远控免杀专题(5)-Veil免杀(VT免杀率23/71)	qq.com	mp.weixin.qq.com	/s/-PHVIAQVyU8QIpHwcpN4yw
+20191216	恶意分析	https://mp.weixin.qq.com/s/TCb4kLH6N3JlCnyo6x2L1Q	开源软件的网络安全问题	qq.com	mp.weixin.qq.com	/s/TCb4kLH6N3JlCnyo6x2L1Q
+20191216	Web安全	https://www.anquanke.com/post/id/195016	多种姿势openrasp命令执行绕过	anquanke.com	www.anquanke.com	/post/id/195016
+20191216	取证分析	https://weibo.com/ttarticle/p/show?id=2309404450471736639616	关于ATT＆CK/APT/归因的讨论	weibo.com	weibo.com	/ttarticle/p/show
+20191216	Web安全	https://www.anquanke.com/post/id/195226	代码审计入门之用友畅捷通T+代码审计	anquanke.com	www.anquanke.com	/post/id/195226
+20191216	恶意分析	https://blog.netlab.360.com/dacls-the-dual-platform-rat/?from=timeline	Lazarus Group使用Dacls RAT攻击Linux平台	360.com	blog.netlab.360.com	/dacls-the-dual-platform-rat/
+20191216	取证分析	https://mp.weixin.qq.com/s/9mWqwPF6KAwbMlZSE4rRBw	浅谈无文件攻击	qq.com	mp.weixin.qq.com	/s/9mWqwPF6KAwbMlZSE4rRBw
+20191216	工具	https://github.com/k8gege/Ladon	Ladon: 大型内网渗透扫描器&Cobalt Strike	github.com	github.com	/k8gege/Ladon
+20191216	Web安全	https://mp.weixin.qq.com/s/Z0d8G7S5swBcH-jLXvhKeg	日志分析系列(外传一)：Nginx透过代理获取真实客户端IP	qq.com	mp.weixin.qq.com	/s/Z0d8G7S5swBcH-jLXvhKeg
+20191216	数据挖掘	https://www.inforsec.org/wp/wp-content/uploads/2019/12/yanghao.pdf	PPT分享：非法在线博彩分析与研究	inforsec.org	www.inforsec.org	/wp/wp-content/uploads/2019/12/yanghao.pdf
+20191216	Web安全	https://www.bacde.me/post/Apache-Shiro-Deserialize-Vulnerability/	Apache Shiro 反序列化漏洞实战	bacde.me	www.bacde.me	/post/Apache-Shiro-Deserialize-Vulnerability/
+20191216	运维安全	https://mp.weixin.qq.com/s/fx3ywEZiXEUStbrtzbpwrQ	反弹shell-逃逸基于execve的命令监控(上)	qq.com	mp.weixin.qq.com	/s/fx3ywEZiXEUStbrtzbpwrQ
+20191216	恶意分析	https://mp.weixin.qq.com/s/02AcOPzTaA7dChHqye2wEg	ATT&CK框架：攻击者最常用的TOP7攻击技术及其检测策略	qq.com	mp.weixin.qq.com	/s/02AcOPzTaA7dChHqye2wEg
+20191216	工具	https://blog.csdn.net/sun1318578251/article/details/103563107	Telegram机器人作为渗透测试框架	csdn.net	blog.csdn.net	/sun1318578251/article/details/103563107
+20191216	取证分析	https://mp.weixin.qq.com/s/w3k8tIa-yCSoKDdq5h7D_A	安全知识图谱助力内部威胁识别	qq.com	mp.weixin.qq.com	/s/w3k8tIa-yCSoKDdq5h7D_A
+20191216	观点	https://mp.weixin.qq.com/s/Cb7tROj0BXSOxnqyjftlRw	为什么ATT&CK对APT关联归属分析用处不大	qq.com	mp.weixin.qq.com	/s/Cb7tROj0BXSOxnqyjftlRw
+20191216	Web安全	https://mp.weixin.qq.com/s/3LZ_cj2gDC1bQATxqBfweg	远控免杀专题文章(1)-基础篇	qq.com	mp.weixin.qq.com	/s/3LZ_cj2gDC1bQATxqBfweg
+20191216	数据挖掘	https://github.com/apachecn/fe4ml-zh	面向机器学习的特征工程	github.com	github.com	/apachecn/fe4ml-zh
+20191216	恶意分析	https://www.anquanke.com/post/id/195011	暗度陈仓：基于国内某云的 Domain Fronting 技术实践	anquanke.com	www.anquanke.com	/post/id/195011
+20191216	数据挖掘	https://github.com/OYE93/Chinese-NLP-Corpus	Chinese-NLP-Corpus: Collections of Chinese NLP corpus	github.com	github.com	/OYE93/Chinese-NLP-Corpus
+20191216	漏洞分析	https://www.leavesongs.com/PENETRATION/dynamic-features-and-webshell-tricks-in-php.html	PHP动态特性的捕捉与逃逸	leavesongs.com	www.leavesongs.com	/PENETRATION/dynamic-features-and-webshell-tricks-in-php.html
+20191216	Web安全	https://mp.weixin.qq.com/s/A0CZslLhCLOK_HgkHGcpEA	远控免杀专题文章(3)-msf自免杀(VT免杀率35/69)	qq.com	mp.weixin.qq.com	/s/A0CZslLhCLOK_HgkHGcpEA
+20191216	漏洞分析	https://xz.aliyun.com/t/6948	Android内核漏洞学习——CVE-2014-3153分析（2）	aliyun.com	xz.aliyun.com	/t/6948
+20191216	Web安全	https://xz.aliyun.com/t/6946	PHP代码审计入门篇bluecms	aliyun.com	xz.aliyun.com	/t/6946
+20191216	Web安全	https://mp.weixin.qq.com/s/YnnCM7W20xScv52k_ubxYQ	远控免杀专题文章(4)-Evasion模块免杀(VT免杀率12/71)	qq.com	mp.weixin.qq.com	/s/YnnCM7W20xScv52k_ubxYQ
+20191216	取证分析	http://blog.nsfocus.net/wp-content/uploads/2019/12/2019-DDoS.pdf	2019 DDoS 攻击态势报告	nsfocus.net	blog.nsfocus.net	/wp-content/uploads/2019/12/2019-DDoS.pdf
+20191216	文档	http://china-cia.org.cn/home/WorkDetail?id=5df9d664a7f4a3269cbb0cd8	中国网络安全产业分析报告（2019年）	china-cia.org.cn	china-cia.org.cn	/home/WorkDetail
+20191216	Web安全	https://mp.weixin.qq.com/s/1r0iakLpnLrjCrOp2gT10w	远控免杀专题文章(2)-msfvenom隐藏的参数	qq.com	mp.weixin.qq.com	/s/1r0iakLpnLrjCrOp2gT10w
+20191216	杂志	https://www.sec-wiki.com/weekly/302	SecWiki周刊（第302期)	sec-wiki.com	www.sec-wiki.com	/weekly/302
+20191216	数据挖掘	https://www.cdxy.me/?p=817	图计算在基础安全的落点	cdxy.me	www.cdxy.me	/
+20191216	运维安全	https://paper.seebug.org/1102/	Linux HIDS agent 概要和用户态 HOOK(一）	seebug.org	paper.seebug.org	/1102/
+20191216	其它	https://mp.weixin.qq.com/s/s6oL7p1hY_VotJMjtB7fVg	道德骇客CEH之入门介绍	qq.com	mp.weixin.qq.com	/s/s6oL7p1hY_VotJMjtB7fVg
+20191216	取证分析	https://mp.weixin.qq.com/s/ARfMqrUxiPKmbMcV_yaluw	基于图挖掘的安全事件分析	qq.com	mp.weixin.qq.com	/s/ARfMqrUxiPKmbMcV_yaluw
+20191216	设备安全	https://github.com/ucsb-seclab/karonte?from=timeline	KARONTE: Detecting Insecure Multi-binary Interactions in Embedded Firmware	github.com	github.com	/ucsb-seclab/karonte
+20191216	恶意分析	https://github.com/echowei/DeepTraffic	DeepTraffic: Deep Learning models for network traffic classification	github.com	github.com	/echowei/DeepTraffic

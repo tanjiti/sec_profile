@@ -1,0 +1,16 @@
+20220725	Web安全	https://xz.aliyun.com/t/11579	记一次授权非域环境下的大型内网横向渗透	aliyun.com	xz.aliyun.com	/t/11579
+20220725	数据挖掘	https://mp.weixin.qq.com/s/22hnLdKtamtLyuGKrEWH1w	安全知识图谱技术概述	qq.com	mp.weixin.qq.com	/s/22hnLdKtamtLyuGKrEWH1w
+20220725	运维安全	https://mp.weixin.qq.com/s/vJsH8GATbiC7-nnu58SDWw	NeuVector----功能丰富且强大的容器安全开源软件	qq.com	mp.weixin.qq.com	/s/vJsH8GATbiC7-nnu58SDWw
+20220725	恶意分析	https://mp.weixin.qq.com/s/6EiqeaabiSzMFXJXL4Avpw	PDGraph：针对不安全项目依赖的大规模实证研究	qq.com	mp.weixin.qq.com	/s/6EiqeaabiSzMFXJXL4Avpw
+20220725	其它	https://www.sec-in.com/article/1606	缓冲区溢出漏洞那些事：C -gets函数	sec-in.com	www.sec-in.com	/article/1606
+20220725	杂志	https://www.sec-wiki.com/weekly/438	SecWiki周刊（第438期)	sec-wiki.com	www.sec-wiki.com	/weekly/438
+20220725	Web安全	https://github.com/Yavuzlar/VulnLab	VulnLab: Web Application Vulnerabilities Lab	github.com	github.com	/Yavuzlar/VulnLab
+20220725	设备安全	https://github.com/e-m-b-a/emba	EMBA - The firmware security analyzer	github.com	github.com	/e-m-b-a/emba
+20220725	漏洞分析	https://mp.weixin.qq.com/s/OkHvy5PV5bq6hVzqxoJx5g	实时缺陷预测工具调研	qq.com	mp.weixin.qq.com	/s/OkHvy5PV5bq6hVzqxoJx5g
+20220725	恶意分析	https://mp.weixin.qq.com/s/N-uR2IA_HNxhbkddYL7DxQ	FIRST 2022 议题速递	qq.com	mp.weixin.qq.com	/s/N-uR2IA_HNxhbkddYL7DxQ
+20220725	恶意分析	https://securelist.com/apt-trends-report-q2-2022/106995/	APT trends report Q2 2022	securelist.com	securelist.com	/apt-trends-report-q2-2022/106995/
+20220725	漏洞分析	https://mp.weixin.qq.com/s/TRS6wUo0_dtfnEvS3tYuQw	基于AST变化嵌入的实时缺陷预测	qq.com	mp.weixin.qq.com	/s/TRS6wUo0_dtfnEvS3tYuQw
+20220725	漏洞分析	https://mp.weixin.qq.com/s/d3ANaov0XbHdvd4iC7s_Xw	DeepJIT：用于实时缺陷预测的端到端深度学习框架	qq.com	mp.weixin.qq.com	/s/d3ANaov0XbHdvd4iC7s_Xw
+20220725	恶意分析	https://hackersonlineclub.com/malware-analysis/	Malware Analysis Tools 2022	hackersonlineclub.com	hackersonlineclub.com	/malware-analysis/
+20220725	Web安全	https://github.com/TROUBLE-1/Vajra	Vajra - Your Weapon To Cloud	github.com	github.com	/TROUBLE-1/Vajra
+20220725	Web安全	https://www.jgeek.cn/article/104.html	[HTB] October Writeup	jgeek.cn	www.jgeek.cn	/article/104.html

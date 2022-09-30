@@ -1,0 +1,16 @@
+20220815	Web安全	https://mp.weixin.qq.com/s/kgYxWPf2itQvUDAyk7GiuQ	自动化赏金之架构	qq.com	mp.weixin.qq.com	/s/kgYxWPf2itQvUDAyk7GiuQ
+20220815	其它	https://www.sec-in.com/article/1168	ModSecurity 自建规则之路	sec-in.com	www.sec-in.com	/article/1168
+20220815	观点	https://mp.weixin.qq.com/s/oSJXlY7pE1xIO-P51lR2Fw	演化的大安全体系框架	qq.com	mp.weixin.qq.com	/s/oSJXlY7pE1xIO-P51lR2Fw
+20220815	恶意分析	https://mp.weixin.qq.com/s/Up0ZJ8jLORfyZ4rv_TN6NQ	SANS 2022 年威胁狩猎调查报告	qq.com	mp.weixin.qq.com	/s/Up0ZJ8jLORfyZ4rv_TN6NQ
+20220815	运维安全	https://gitee.com/tailmon-edr	Tailmon-EDR: 开源主机安全卫士	gitee.com	gitee.com	/tailmon-edr
+20220815	Web安全	https://mp.weixin.qq.com/s/jZ3RASicFZIzxJb00BXShQ	[HTB] Antique Writeup	qq.com	mp.weixin.qq.com	/s/jZ3RASicFZIzxJb00BXShQ
+20220815	杂志	https://www.sec-wiki.com/weekly/441	SecWiki周刊（第441期)	sec-wiki.com	www.sec-wiki.com	/weekly/441
+20220815	论文	https://space.bilibili.com/301285406/channel/collectiondetail?sid=535567	科研与英文学术论文写作	bilibili.com	space.bilibili.com	/301285406/channel/collectiondetail
+20220815	数据挖掘	https://mp.weixin.qq.com/s/s3jTwk-D--b6hX-1N_sBXg	基于海量样本数据的高级威胁发现	qq.com	mp.weixin.qq.com	/s/s3jTwk-D--b6hX-1N_sBXg
+20220815	Web安全	https://mp.weixin.qq.com/s/xxaOsJdRE5OoRkMLkIj3Lg	论如何优雅的注入Java Agent内存马	qq.com	mp.weixin.qq.com	/s/xxaOsJdRE5OoRkMLkIj3Lg
+20220815	取证分析	https://mp.weixin.qq.com/s/ECHOFktRc7x7O7xnXYjUZA	数字取证与事件响应（DFIR）优质资源推荐	qq.com	mp.weixin.qq.com	/s/ECHOFktRc7x7O7xnXYjUZA
+20220815	运维安全	https://mp.weixin.qq.com/s/Hf3haBk1kxCk3uZnJ7FCCQ	金融行业能力安全运营能力成熟度模型（FCSO-CMM）	qq.com	mp.weixin.qq.com	/s/Hf3haBk1kxCk3uZnJ7FCCQ
+20220815	其它	https://mp.weixin.qq.com/s/PLaeUIfIQhmqPlMzHBNYPg	以色列国家网络安全防御体系建设及启示	qq.com	mp.weixin.qq.com	/s/PLaeUIfIQhmqPlMzHBNYPg
+20220815	运维安全	https://mp.weixin.qq.com/s/smY0WuXqmG4sFzjsEIv8tg	关键信息基础设施安全保护三大关键能力	qq.com	mp.weixin.qq.com	/s/smY0WuXqmG4sFzjsEIv8tg
+20220815	设备安全	https://security.googleblog.com/2022/08/how-hash-based-safe-browsing-works-in.html?m=1	How Hash-Based Safe Browsing Works in Google Chrome	googleblog.com	security.googleblog.com	/2022/08/how-hash-based-safe-browsing-works-in.html
+20220815	运维安全	https://mp.weixin.qq.com/s/sRV17YzvxEcLhk_2kgmKkQ	细谈新版企业风险评估模型	qq.com	mp.weixin.qq.com	/s/sRV17YzvxEcLhk_2kgmKkQ

@@ -1,0 +1,17 @@
+20220801	其它	https://www.sec-in.com/article/1598	Windows下基础免杀技术	sec-in.com	www.sec-in.com	/article/1598
+20220801	观点	https://blog.csdn.net/momo_sleet/article/details/126125082	攻防演练第四年的一些碎碎念	csdn.net	blog.csdn.net	/momo_sleet/article/details/126125082
+20220801	杂志	https://www.sec-wiki.com/weekly/439	SecWiki周刊（第439期)	sec-wiki.com	www.sec-wiki.com	/weekly/439
+20220801	数据挖掘	https://mp.weixin.qq.com/s/YvH7V1vivriHRYYMlaj-xQ	从0-1搭建企业级数据治理体系	qq.com	mp.weixin.qq.com	/s/YvH7V1vivriHRYYMlaj-xQ
+20220801	取证分析	https://mp.weixin.qq.com/s/9dgVqhUUEe9yipnzSDL2_A	国际网络攻击溯源机制的必要性和可行性探析	qq.com	mp.weixin.qq.com	/s/9dgVqhUUEe9yipnzSDL2_A
+20220801	取证分析	https://mp.weixin.qq.com/s/RKFNtrRWzaAOVIZK4vCiJw	浅析Vmess流量与强网杯2022谍影重重	qq.com	mp.weixin.qq.com	/s/RKFNtrRWzaAOVIZK4vCiJw
+20220801	数据挖掘	https://www.dwcon.cn/uploads/file/2022/08/04/1659617933559854.pdf	数据传输安全白皮书	dwcon.cn	www.dwcon.cn	/uploads/file/2022/08/04/1659617933559854.pdf
+20220801	取证分析	https://www.slowmist.com/report/first-half-of-the-2022-report.pdf	2022 上半年区块链安全及反洗钱分析报告	slowmist.com	www.slowmist.com	/report/first-half-of-the-2022-report.pdf
+20220801	其它	https://mp.weixin.qq.com/s/V2YgN6QOVQksbqiAv-F9Aw	美国关键基础设施网络防御路线发展与调整	qq.com	mp.weixin.qq.com	/s/V2YgN6QOVQksbqiAv-F9Aw
+20220801	运维安全	https://mp.weixin.qq.com/s/y5NRDQl6MUrxI2ZI1lCJPQ	云计算安全的新阶段：云上风险发现与治理	qq.com	mp.weixin.qq.com	/s/y5NRDQl6MUrxI2ZI1lCJPQ
+20220801	Web安全	https://xz.aliyun.com/t/11588	MSF多层内网渗透全过程	aliyun.com	xz.aliyun.com	/t/11588
+20220801	Web安全	https://www.jgeek.cn/article/106.html	[HTB] Haircut Writeup	jgeek.cn	www.jgeek.cn	/article/106.html
+20220801	数据挖掘	https://mp.weixin.qq.com/s/9eVI-US6vzZmokQWHtHxWQ	Kaggle知识点：时序预测基础知识	qq.com	mp.weixin.qq.com	/s/9eVI-US6vzZmokQWHtHxWQ
+20220801	运维安全	https://mp.weixin.qq.com/s/QEcrByo-j0tK9430zzlSbA	安全控制有效性验证的发展趋势浅论	qq.com	mp.weixin.qq.com	/s/QEcrByo-j0tK9430zzlSbA
+20220801	Web安全	https://mp.weixin.qq.com/s/w2-nMCLqrkxKKivmTB7khw	[HTB] Europa Writeup	qq.com	mp.weixin.qq.com	/s/w2-nMCLqrkxKKivmTB7khw
+20220801	Web安全	https://www.adico.me/post/xss-in-gmail-s-amp4email	XSS in Gmails Amp4Email	adico.me	www.adico.me	/post/xss-in-gmail-s-amp4email
+20220801	恶意分析	https://mp.weixin.qq.com/s/OZevgo1K3rdP-R0oo0uTng	浅谈开源软件供应链风险	qq.com	mp.weixin.qq.com	/s/OZevgo1K3rdP-R0oo0uTng

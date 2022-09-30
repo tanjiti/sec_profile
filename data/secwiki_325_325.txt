@@ -1,0 +1,34 @@
+20200518	Web安全	https://mp.weixin.qq.com/s/nDf1ZGvdWnsAt2lGRcF5wg	2020年度网络安全十大潜力技术及五大市场前瞻	qq.com	mp.weixin.qq.com	/s/nDf1ZGvdWnsAt2lGRcF5wg
+20200518	Web安全	https://ca3tie1.github.io/post/On-site-pentest/	记一次从车库到核心网段的渗透之路	github.io	ca3tie1.github.io	/post/On-site-pentest/
+20200518	运维安全	https://github.com/hhyo/Archery	Archery: SQL 审核查询平台	github.com	github.com	/hhyo/Archery
+20200518	运维安全	https://mp.weixin.qq.com/s/60BYTv6ST03cguHiFFetVg	linux系统行为新型实时监控技术	qq.com	mp.weixin.qq.com	/s/60BYTv6ST03cguHiFFetVg
+20200518	移动安全	https://mp.weixin.qq.com/s/McipoCTgtY02_6dJvRe44g	当frida来敲门	qq.com	mp.weixin.qq.com	/s/McipoCTgtY02_6dJvRe44g
+20200518	Web安全	https://mp.weixin.qq.com/s/dqntjRLgcOD3D2bi1oDFAw	邮件伪造之SPF绕过的5种思路	qq.com	mp.weixin.qq.com	/s/dqntjRLgcOD3D2bi1oDFAw
+20200518	运维安全	https://mp.weixin.qq.com/s/kELnd0dAGe8Qa-lkJtcoNQ	内网安全攻击模拟和异常检测规则实战	qq.com	mp.weixin.qq.com	/s/kELnd0dAGe8Qa-lkJtcoNQ
+20200518	Web安全	https://paper.seebug.org/1208/	对称加密与攻击案例分析	seebug.org	paper.seebug.org	/1208/
+20200518	Web安全	https://bacde.me/post/unpack-webpack-via-sourcemap/	通过sourcemap解压缩webpack	bacde.me	bacde.me	/post/unpack-webpack-via-sourcemap/
+20200518	Web安全	https://portswigger.net/web-security/cross-site-scripting/cheat-sheet#onafterscriptexecute	Cross-site scripting (XSS) cheat sheet - 2020	portswigger.net	portswigger.net	/web-security/cross-site-scripting/cheat-sheet
+20200518	取证分析	https://paper.seebug.org/1209/	椭圆曲线加密与 NSA 后门考古	seebug.org	paper.seebug.org	/1209/
+20200518	工具	https://paper.seebug.org/1210/	浅谈基于开源工具的威胁情报自动化生产	seebug.org	paper.seebug.org	/1210/
+20200518	数据挖掘	https://github.com/Wangpeiyi9979/IE-Bert-CNN	IE-Bert-CNN: 百度2019语言与智能技术竞赛信息抽取模型	github.com	github.com	/Wangpeiyi9979/IE-Bert-CNN
+20200518	漏洞分析	https://blog.trendmicro.com/trendlabs-security-intelligence/netwalker-fileless-ransomware-injected-via-reflective-loading/	Netwalker Fileless Ransomware Injected via Reflective Loading	trendmicro.com	blog.trendmicro.com	/trendlabs-security-intelligence/netwalker-fileless-ransomware-injected-via-reflective-loading/
+20200518	数据挖掘	https://mp.weixin.qq.com/s/ewzsURiU7bfG3gObzIP2Mw	图神经网络欺诈检测方法总结	qq.com	mp.weixin.qq.com	/s/ewzsURiU7bfG3gObzIP2Mw
+20200518	杂志	https://www.sec-wiki.com/weekly/324	SecWiki周刊（第324期)	sec-wiki.com	www.sec-wiki.com	/weekly/324
+20200518	数据挖掘	https://www.anquanke.com/post/id/205684	黑灰产的廉价“温床”——跑分平台	anquanke.com	www.anquanke.com	/post/id/205684
+20200518	Web安全	https://mp.weixin.qq.com/s/HmGEYRcf1hSVw9Uu9XHGsA	一次曲折的渗透测试之旅	qq.com	mp.weixin.qq.com	/s/HmGEYRcf1hSVw9Uu9XHGsA
+20200518	Web安全	https://www.anquanke.com/post/id/205215	通过两道题浅看java安全	anquanke.com	www.anquanke.com	/post/id/205215
+20200518	设备安全	https://mp.weixin.qq.com/s/t8ijT6pBjT9vB5yrd9Qstw	基于Docker的固件模拟	qq.com	mp.weixin.qq.com	/s/t8ijT6pBjT9vB5yrd9Qstw
+20200518	数据挖掘	https://zhuanlan.zhihu.com/p/141013178	简单梳理一下机器学习可解释性（Interpretability）	zhihu.com	zhuanlan.zhihu.com	/p/141013178
+20200518	Web安全	https://mp.weixin.qq.com/s/hkv4y7pQRBjLCgm3StKVSQ	再谈作为生产要素的数据安全	qq.com	mp.weixin.qq.com	/s/hkv4y7pQRBjLCgm3StKVSQ
+20200518	比赛	https://www.anquanke.com/post/id/205679	2020网鼎杯朱雀组部分Web题wp	anquanke.com	www.anquanke.com	/post/id/205679
+20200518	Web安全	https://www.anquanke.com/post/id/205376	SQL注入基础整理及Tricks总结	anquanke.com	www.anquanke.com	/post/id/205376
+20200518	Web安全	https://xz.aliyun.com/t/7758	红队-C2 Server基础构建	aliyun.com	xz.aliyun.com	/t/7758
+20200518	运维安全	https://mp.weixin.qq.com/s/NZNK95gtUAFqMsxkgknTCQ	SANS：2020年自动化与集成调查报告	qq.com	mp.weixin.qq.com	/s/NZNK95gtUAFqMsxkgknTCQ
+20200518	文档	https://enterprise.verizon.com/resources/reports/2020-data-breach-investigations-report.pdf	2020 Data Breach Investigations Report	verizon.com	enterprise.verizon.com	/resources/reports/2020-data-breach-investigations-report.pdf
+20200518	Web安全	https://mp.weixin.qq.com/s/bxqOBJH7O5Jcxy2lnsbFKg	安全有效性验证的发展趋势	qq.com	mp.weixin.qq.com	/s/bxqOBJH7O5Jcxy2lnsbFKg
+20200518	运维安全	https://mp.weixin.qq.com/s/2MNCTggf5bWT8NAYGyIVIQ	郭威：金融企业重保一线经验分享	qq.com	mp.weixin.qq.com	/s/2MNCTggf5bWT8NAYGyIVIQ
+20200518	设备安全	https://www.anquanke.com/post/id/206004	雄迈 IPC 摄像头后门漏洞分析	anquanke.com	www.anquanke.com	/post/id/206004
+20200518	漏洞分析	https://www.anquanke.com/post/id/205572	Browser Pwn XNUCA2019-JIT 分析与利用	anquanke.com	www.anquanke.com	/post/id/205572
+20200518	运维安全	https://mp.weixin.qq.com/s/VgoS1EftRFcYv9n2PJHoRg	2019年开源软件风险研究报告	qq.com	mp.weixin.qq.com	/s/VgoS1EftRFcYv9n2PJHoRg
+20200518	设备安全	http://blog.nsfocus.net/hmi-firmware-decryption-0522/	HMI固件解密思路	nsfocus.net	blog.nsfocus.net	/hmi-firmware-decryption-0522/
+20200518	取证分析	https://github.com/rabobank-cdc/DeTTECT	DeTTECT: Detect Tactics, Techniques & Combat Threats	github.com	github.com	/rabobank-cdc/DeTTECT

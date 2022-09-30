@@ -1,0 +1,12 @@
+20220404	恶意分析	https://xz.aliyun.com/t/11102	对于挖矿的检测以及防御方案	aliyun.com	xz.aliyun.com	/t/11102
+20220404	其它	https://mp.weixin.qq.com/s/j6IuqWNXqon_hVLUH6blVA	MITRE ATT&CK 第四轮评估结果发布	qq.com	mp.weixin.qq.com	/s/j6IuqWNXqon_hVLUH6blVA
+20220404	Web安全	https://xz.aliyun.com/t/11099	CDN及特征隐匿Cobalt Strike	aliyun.com	xz.aliyun.com	/t/11099
+20220404	恶意分析	https://mp.weixin.qq.com/s?__biz=MzkxMTE5MjQ3NA==&mid=2247483781&idx=1&sn=721f1202f22953e2d80c0aaca0224a81&chksm=c11eb970f669306635bf759a8a846271bd864ed2522a23ebfcb078fecf925d440a84e82b7fb9#rd	通过覆盖Powershell cmdlet方式进行权限维持	qq.com	mp.weixin.qq.com	/s
+20220404	Web安全	https://github.com/Adrninistrator/java-all-call-graph	Generate all call graph for Java Code	github.com	github.com	/Adrninistrator/java-all-call-graph
+20220404	杂志	https://www.sec-wiki.com/weekly/422	SecWiki周刊（第422期)	sec-wiki.com	www.sec-wiki.com	/weekly/422
+20220404	无线安全	https://mp.weixin.qq.com/s/N6CWX9ZVnbyeYBIibwb0SA	漂亮侧信道：从timeless attack到pipeline的放大攻击	qq.com	mp.weixin.qq.com	/s/N6CWX9ZVnbyeYBIibwb0SA
+20220404	无线安全	http://mp.weixin.qq.com/s/WEivJpxTBSVcmAa5QvvDxQ	无人机MAVLINK协议安全剖析	qq.com	mp.weixin.qq.com	/s/WEivJpxTBSVcmAa5QvvDxQ
+20220404	观点	https://mp.weixin.qq.com/s/9ZFhKumGOYfNU7Tv8zY59g	元宇宙与国家数据安全：构建生态化治理体系的挑战与趋势	qq.com	mp.weixin.qq.com	/s/9ZFhKumGOYfNU7Tv8zY59g
+20220404	Web安全	http://mp.weixin.qq.com/s/xxOwRRDg-n4_rXY8c50SdQ	Netgear R8300栈溢出漏洞分析	qq.com	mp.weixin.qq.com	/s/xxOwRRDg-n4_rXY8c50SdQ
+20220404	取证分析	https://mp.weixin.qq.com/s/8z8eYzPsLiWrQOsvByMnJw	APT取证分析中的数据压缩	qq.com	mp.weixin.qq.com	/s/8z8eYzPsLiWrQOsvByMnJw
+20220404	文档	https://www.slideshare.net/MITREATTACK/presentations	MITRE ATT&CKcon 3.0 Presentations on SlideShare	slideshare.net	www.slideshare.net	/MITREATTACK/presentations

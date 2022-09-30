@@ -1,0 +1,26 @@
+20200713	Web安全	https://mp.weixin.qq.com/s/pAmYVoiUkYH2viS9WjpDqg	weblogic 7月份更新 CVE-2020-14625 复现&利用	qq.com	mp.weixin.qq.com	/s/pAmYVoiUkYH2viS9WjpDqg
+20200713	其它	https://security.tencent.com/index.php/blog/msg/155	信息安全之路入坑指南	tencent.com	security.tencent.com	/index.php/blog/msg/155
+20200713	Web安全	https://github.com/ztosec/secscan-authcheck	secscan-authcheck: 越权检测工具	github.com	github.com	/ztosec/secscan-authcheck
+20200713	Web安全	https://xz.aliyun.com/t/7977	密码找回中的套路	aliyun.com	xz.aliyun.com	/t/7977
+20200713	杂志	https://www.sec-wiki.com/weekly/332	SecWiki周刊（第332期)	sec-wiki.com	www.sec-wiki.com	/weekly/332
+20200713	取证分析	https://xz.aliyun.com/t/7802	wireshark和威胁分析	aliyun.com	xz.aliyun.com	/t/7802
+20200713	移动安全	https://paper.seebug.org/1269/	Android 中的特殊攻击面（三）—— 隐蔽的 call 函数	seebug.org	paper.seebug.org	/1269/
+20200713	Web安全	https://github.com/rootclay/NTLM-SSP	NTLM-SSP: NTLM中高级进阶进阶	github.com	github.com	/rootclay/NTLM-SSP
+20200713	观点	https://mp.weixin.qq.com/s/yWyrdIrz-KGxmltFoqHFiQ	对《数据安全法》的理解和认识	qq.com	mp.weixin.qq.com	/s/yWyrdIrz-KGxmltFoqHFiQ
+20200713	恶意分析	https://mp.weixin.qq.com/s/SqPu88RALGMOPeAJ34uNeQ	溯源黑帽利用 Web 编辑器漏洞非法植入 SEO 页面事件	qq.com	mp.weixin.qq.com	/s/SqPu88RALGMOPeAJ34uNeQ
+20200713	比赛	http://l-team.org/archives/380.html	GeekPwn 2020 云靶场线上赛部分Web Writeup	l-team.org	l-team.org	/archives/380.html
+20200713	漏洞分析	https://xz.aliyun.com/t/7979	使用 CodeQL 挖掘 CVE-2020-9297	aliyun.com	xz.aliyun.com	/t/7979
+20200713	Web安全	https://mp.weixin.qq.com/s/3dvBMyRyjnmS_ITc6a6ABw	frsocks+protoplex+流量重定向实现端口复用	qq.com	mp.weixin.qq.com	/s/3dvBMyRyjnmS_ITc6a6ABw
+20200713	恶意分析	https://mp.weixin.qq.com/s/ZaPQx8aWxUWqDMsjAEDgGA	一个依赖库更新引发的血案：QQ 号被冻结技术分析	qq.com	mp.weixin.qq.com	/s/ZaPQx8aWxUWqDMsjAEDgGA
+20200713	数据挖掘	https://zhuanlan.zhihu.com/p/159149955	知识图谱平台化助力知识图谱行业大发展	zhihu.com	zhuanlan.zhihu.com	/p/159149955
+20200713	Web安全	https://mp.weixin.qq.com/s/8X2Jau5QJ8-TWolpGYBslg	CVE-Flow: CVE EXP监控和预测	qq.com	mp.weixin.qq.com	/s/8X2Jau5QJ8-TWolpGYBslg
+20200713	运维安全	https://mp.weixin.qq.com/s/LNIWi26YWjmp2mh9jO23iA	企业等保2.0的那些事儿	qq.com	mp.weixin.qq.com	/s/LNIWi26YWjmp2mh9jO23iA
+20200713	工具	https://securitygossip.com/blog/2020/05/22/ex-vivo-dynamic-analysis-framework-for-android-device-drivers/	Ex-vivo Dynamic Analysis Framework for Android Device Drivers	securitygossip.com	securitygossip.com	/blog/2020/05/22/ex-vivo-dynamic-analysis-framework-for-android-device-drivers/
+20200713	数据挖掘	https://mp.weixin.qq.com/s/BplHuoyFQ0cAEBAi3OdZAA	机器学习在小米帐号风控中的应用	qq.com	mp.weixin.qq.com	/s/BplHuoyFQ0cAEBAi3OdZAA
+20200713	Web安全	https://xz.aliyun.com/t/7992	PHP代码审计之旅	aliyun.com	xz.aliyun.com	/t/7992
+20200713	运维安全	https://mp.weixin.qq.com/s/xDxjee8VO-uLn3VsCJdlPw	漏洞治理（漏洞情报）调研报告	qq.com	mp.weixin.qq.com	/s/xDxjee8VO-uLn3VsCJdlPw
+20200713	恶意分析	https://mp.weixin.qq.com/s/Vyfto0qn4L16s9dNfVOEqQ	最新的nginx后门	qq.com	mp.weixin.qq.com	/s/Vyfto0qn4L16s9dNfVOEqQ
+20200713	取证分析	https://www.92ez.com/?action=show&id=23509	使用tar1090代替dump1090进行飞机追踪实验	92ez.com	www.92ez.com	/
+20200713	无线安全	https://www.anquanke.com/post/id/210403	Zigator：分析Zigbee智能家居的安全性	anquanke.com	www.anquanke.com	/post/id/210403
+20200713	恶意分析	https://xz.aliyun.com/t/7996	Metasploit & CobaltStrike 的shellcode分析	aliyun.com	xz.aliyun.com	/t/7996
+20200713	论文	https://mp.weixin.qq.com/s/hfUCDdMz2yAfR6NM7oqG-Q	谷歌学术指标2020年（计算机安全及加密）	qq.com	mp.weixin.qq.com	/s/hfUCDdMz2yAfR6NM7oqG-Q

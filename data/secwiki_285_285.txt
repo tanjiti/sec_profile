@@ -1,0 +1,59 @@
+20190812	观点	https://mp.weixin.qq.com/s/xxU0R5eVcP_42VVd2DQeXQ	网络安全“圣地”之行	qq.com	mp.weixin.qq.com	/s/xxU0R5eVcP_42VVd2DQeXQ
+20190812	编程技术	https://mp.weixin.qq.com/s/WfYJDY9OymRTigwn6u7IGw	教会微信：突破文件发送100M限制	qq.com	mp.weixin.qq.com	/s/WfYJDY9OymRTigwn6u7IGw
+20190812	漏洞分析	https://nosec.org/home/detail/2867.html	Fortigate SSL VPN任意文件读取（可直接登录VPN）	nosec.org	nosec.org	/home/detail/2867.html
+20190812	Web安全	http://zeroyu.xyz/2019/08/16/2019-8-15-writeup/	网络与信息安全领域专项赛WP	zeroyu.xyz	zeroyu.xyz	/2019/08/16/2019-8-15-writeup/
+20190812	Web安全	https://zerothoughts.tumblr.com/post/137769010389/fun-with-jndi-remote-code-injection	JNDI远程代码执行漏洞详解	tumblr.com	zerothoughts.tumblr.com	/post/137769010389/fun-with-jndi-remote-code-injection
+20190812	数据挖掘	https://mp.weixin.qq.com/s/qnhIalmIu1bz7D6828wldg	DNS攻防皮毛（一）	qq.com	mp.weixin.qq.com	/s/qnhIalmIu1bz7D6828wldg
+20190812	Web安全	https://www.anquanke.com/post/id/184342	Exchange渗透测试总结	anquanke.com	www.anquanke.com	/post/id/184342
+20190812	取证分析	https://github.com/baronpan/SysmonHunter	SysmonHunter：一个简单的基于ATT&CK的Sysmon日志狩猎工具	github.com	github.com	/baronpan/SysmonHunter
+20190812	漏洞分析	https://nosec.org/home/detail/2850.html	CVE-2019-0193：Apache Solr远程执行代码漏洞预警	nosec.org	nosec.org	/home/detail/2850.html
+20190812	Web安全	http://zeroyu.xyz/2019/08/15/How_to_start_IoT_Reverse/index.html	IoT固件逆向入门	zeroyu.xyz	zeroyu.xyz	/2019/08/15/How_to_start_IoT_Reverse/index.html
+20190812	漏洞分析	https://mp.weixin.qq.com/s/qxkV_7MZVhUYYq5QGcwCtQ	WebLogic安全研究报告	qq.com	mp.weixin.qq.com	/s/qxkV_7MZVhUYYq5QGcwCtQ
+20190812	Web安全	https://nosec.org/home/detail/2860.html	HTML注入：利用HTML标签绕过CSP	nosec.org	nosec.org	/home/detail/2860.html
+20190812	比赛	https://mp.weixin.qq.com/s/1-F5smfdwLUSdit5gP2mYA	网络与信息安全领域专赛-WriteUp	qq.com	mp.weixin.qq.com	/s/1-F5smfdwLUSdit5gP2mYA
+20190812	漏洞分析	https://blog.semmle.com/cve-2018-4259-macos-nfs-vulnerability/	CVE-2018-4259: MacOS NFS vulnerabilties lead to kernel RCE	semmle.com	blog.semmle.com	/cve-2018-4259-macos-nfs-vulnerability/
+20190812	漏洞分析	https://nosec.org/home/detail/2862.html	如何攻击Fortigate SSL VPN	nosec.org	nosec.org	/home/detail/2862.html
+20190812	Web安全	https://application.security/	Simple & Interactive SSRF tutorial	application.security	application.security	/
+20190812	工具	https://medium.com/tenable-techblog/routeros-post-exploitation-784c08044790	RouterOS Post Exploitation	medium.com	medium.com	/tenable-techblog/routeros-post-exploitation-784c08044790
+20190812	工具	https://www.ch1ng.com/blog/189.html	GetWindowsKernelExploitsKB(获取系统KB补丁对于的MS号)	ch1ng.com	www.ch1ng.com	/blog/189.html
+20190812	恶意分析	https://xz.aliyun.com/t/5994	基于机器学习的jsp/jspx webshell检测	aliyun.com	xz.aliyun.com	/t/5994
+20190812	漏洞分析	https://github.com/smealum/butthax	butthax: lovense hush buttplug exploit chain	github.com	github.com	/smealum/butthax
+20190812	比赛	https://www.freebuf.com/articles/ics-articles/210687.html	CTF工业信息安全大赛实践与分析	freebuf.com	www.freebuf.com	/articles/ics-articles/210687.html
+20190812	漏洞分析	https://xz.aliyun.com/t/5953	拟态防御系列问题分析	aliyun.com	xz.aliyun.com	/t/5953
+20190812	取证分析	https://github.com/lion-gu/ioc-explorer	IOC Explorer：自动化关联失陷指标的工具	github.com	github.com	/lion-gu/ioc-explorer
+20190812	工具	https://github.com/Ch1ngg/AggressorScript-UploadAndRunFrp	AggressorScript-UploadAndRunFrp	github.com	github.com	/Ch1ngg/AggressorScript-UploadAndRunFrp
+20190812	漏洞分析	http://rce4fun.blogspot.com/2019/08/comodo-antivirus-sandbox-race-condition.html	Comodo Antivirus - Sandbox Race Condition Use-After-Free (CVE-2019-14694)	blogspot.com	rce4fun.blogspot.com	/2019/08/comodo-antivirus-sandbox-race-condition.html
+20190812	比赛	https://n0b0dycn.me/2019/08/defcon27/	Defcon 27游记	n0b0dycn.me	n0b0dycn.me	/2019/08/defcon27/
+20190812	恶意分析	https://adalogics.com/blog/Building-a-custom-malware-sandbox-with-PANDA-Part-1	Building a custom malware sandbox with PANDA	adalogics.com	adalogics.com	/blog/Building-a-custom-malware-sandbox-with-PANDA-Part-1
+20190812	漏洞分析	https://github.com/Netflix/security-bulletins/blob/master/advisories/third-party/2019-002.md	Several DoS conditions in certain HTTP/2 implementations	github.com	github.com	/Netflix/security-bulletins/blob/master/advisories/third-party/2019-002.md
+20190812	Web安全	https://tactifail.wordpress.com/2019/07/26/three-vulns-for-the-price-of-one/	Three (And A Half) Vulns For The Price of One!	wordpress.com	tactifail.wordpress.com	/2019/07/26/three-vulns-for-the-price-of-one/
+20190812	恶意分析	https://adalogics.com/blog/the-state-of-advanced-code-injections	The state of advanced code injections	adalogics.com	adalogics.com	/blog/the-state-of-advanced-code-injections
+20190812	工具	https://artificesecurity.com/blog/2019/8/6/how-to-build-your-own-penetration-testing-drop-box-using-a-raspberry-pi-4	How to Build Your Own Penetration Testing Dropbox Using a Raspberry Pi 4	artificesecurity.com	artificesecurity.com	/blog/2019/8/6/how-to-build-your-own-penetration-testing-drop-box-using-a-raspberry-pi-4
+20190812	恶意分析	https://blog.coinbase.com/responding-to-firefox-0-days-in-the-wild-d9c85a57f15b	Responding to Firefox 0-days in the wild	coinbase.com	blog.coinbase.com	/responding-to-firefox-0-days-in-the-wild-d9c85a57f15b
+20190812	恶意分析	https://blog.redteam.pl/2019/08/threat-hunting-dns-firewall.html	Threat hunting using DNS firewalls and data enrichment	redteam.pl	blog.redteam.pl	/2019/08/threat-hunting-dns-firewall.html
+20190812	恶意分析	https://bkerler.github.io/reversing/2019/04/24/the-game-begins/	Reversing an Oppo ozip encryption key from encrypted firmware	github.io	bkerler.github.io	/reversing/2019/04/24/the-game-begins/
+20190812	工具	https://github.com/s0md3v/goop	goop: Google Search Scraper	github.com	github.com	/s0md3v/goop
+20190812	设备安全	https://knobattack.com/	KNOB Attack	knobattack.com	knobattack.com	/
+20190812	Web安全	https://medium.com/rangeforce/meteor-blind-nosql-injection-29211775cd01	Meteor Blind NoSQL Injection	medium.com	medium.com	/rangeforce/meteor-blind-nosql-injection-29211775cd01
+20190812	工具	https://github.com/nccgroup/fuzzowski	fuzzowski: the Network Protocol Fuzzer that we will want to use.	github.com	github.com	/nccgroup/fuzzowski
+20190812	漏洞分析	https://www.twistlock.com/labs-blog/privilege-escalation-in-cloud-foundry-uaa-cve-2019-11270/	Privilege Escalation in Cloud Foundry UAA	twistlock.com	www.twistlock.com	/labs-blog/privilege-escalation-in-cloud-foundry-uaa-cve-2019-11270/
+20190812	Web安全	https://mp.weixin.qq.com/s/sedpOhSxEGSdaxX8SACIMA	从SOAR中求解应用安全建设强运营突围之法	qq.com	mp.weixin.qq.com	/s/sedpOhSxEGSdaxX8SACIMA
+20190812	比赛	http://iromise.com/2019/08/14/DEF-CON-CTF-27-Final/	DEF CON CTF 27 Final 游记	iromise.com	iromise.com	/2019/08/14/DEF-CON-CTF-27-Final/
+20190812	漏洞分析	https://instagram-engineering.com/static-analysis-at-scale-an-instagram-story-8f498ab71a0c	Static Analysis at Scale: An Instagram Story	instagram-engineering.com	instagram-engineering.com	/static-analysis-at-scale-an-instagram-story-8f498ab71a0c
+20190812	文档	https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2A3xt	Microsoft Vulnerability Severity Classification for Windows	microsoft.com	query.prod.cms.rt.microsoft.com	/cms/api/am/binary/RE2A3xt
+20190812	工具	https://utkusen.com/blog/generating-personalized-wordlists.html	Generating Personalized Wordlists with NLP For Password Guessing Attacks	utkusen.com	utkusen.com	/blog/generating-personalized-wordlists.html
+20190812	Web安全	https://research.checkpoint.com/select-code_execution-from-using-sqlite/	SELECT code_execution FROM * USING SQLite;	checkpoint.com	research.checkpoint.com	/select-code_execution-from-using-sqlite/
+20190812	Web安全	https://github.com/MegadodoPublications/exploits/blob/master/mautic.md	Mautic Remote Code Execution	github.com	github.com	/MegadodoPublications/exploits/blob/master/mautic.md
+20190812	Web安全	https://appio.dev/vulns/clickjacking-xss-on-google-org/	Clickjacking DOM XSS on Google.org	appio.dev	appio.dev	/vulns/clickjacking-xss-on-google-org/
+20190812	Web安全	https://hausec.com/2019/08/12/offensive-lateral-movement/	Offensive Lateral Movement	hausec.com	hausec.com	/2019/08/12/offensive-lateral-movement/
+20190812	Web安全	https://mahmoudsec.blogspot.com/2019/08/exploiting-out-of-band-xxe-using.html	Exploiting Out Of Band XXE using internal network and php wrappers	blogspot.com	mahmoudsec.blogspot.com	/2019/08/exploiting-out-of-band-xxe-using.html
+20190812	设备安全	https://observatory.manrs.org	Monitoring the State of Internet Routing Security	manrs.org	observatory.manrs.org	
+20190812	恶意分析	https://github.com/secrary/DrSemu	Dr.Semu - Malware Detection and Classification Tool Based on Dynamic Behavior	github.com	github.com	/secrary/DrSemu
+20190812	移动安全	https://blog.nviso.be/2019/08/13/intercepting-traffic-from-android-flutter-applications/	Intercepting traffic from Android Flutter applications	nviso.be	blog.nviso.be	/2019/08/13/intercepting-traffic-from-android-flutter-applications/
+20190812	其它	http://hatriot.github.io/blog/2019/08/12/code-execution-via-fiber-local-storage/	Code Execution via Fiber Local Storage	github.io	hatriot.github.io	/blog/2019/08/12/code-execution-via-fiber-local-storage/
+20190812	Web安全	https://srcincite.io/blog/2019/08/07/attacking-unmarshallers-jndi-injection-using-getter-based-deserialization.html	JNDI Injection using Getter Based Deserialization Gadgets	srcincite.io	srcincite.io	/blog/2019/08/07/attacking-unmarshallers-jndi-injection-using-getter-based-deserialization.html
+20190812	其它	https://secrary.com/Random/anti_re_simple/	Simple Anti-RE Trick	secrary.com	secrary.com	/Random/anti_re_simple/
+20190812	Web安全	https://blog.cystack.net/subdomain-takeover-chapter-two-azure-services/	Subdomain takeover - Chapter two: Azure Services	cystack.net	blog.cystack.net	/subdomain-takeover-chapter-two-azure-services/
+20190812	移动安全	https://www.appknox.com/security/debugging-cordova-applications	Debugging Cordova Applications	appknox.com	www.appknox.com	/security/debugging-cordova-applications
+20190812	Web安全	https://github.com/artsploit/solr-injection	solr-injection: Apache Solr Injection Research	github.com	github.com	/artsploit/solr-injection
+20190812	运维安全	https://m0chan.github.io/2019/07/31/How-To-Attack-Kerberos-101.html	How To Attack Kerberos 101	github.io	m0chan.github.io	/2019/07/31/How-To-Attack-Kerberos-101.html

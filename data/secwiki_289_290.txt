@@ -1,0 +1,58 @@
+20190909	新闻	http://www.itsec.gov.cn/zxxw/201909/t20190906_36022.html	中国信息安全从业人员现状调研报告（2018-2019年度）	itsec.gov.cn	www.itsec.gov.cn	/zxxw/201909/t20190906_36022.html
+20190909	新闻	https://mp.weixin.qq.com/s/B64olNuiuu1HQUkdD3u0fg	新中国成立70年来公安科技信息化工作回眸	qq.com	mp.weixin.qq.com	/s/B64olNuiuu1HQUkdD3u0fg
+20190909	比赛	https://mp.weixin.qq.com/s/60AAqBQxXmP84OflPiRxtQ	Facebook发起Deepfakes检测挑战赛	qq.com	mp.weixin.qq.com	/s/60AAqBQxXmP84OflPiRxtQ
+20190909	其它	http://www.lsablog.com/networksec/awd/cve-2019-0708-rdp-rce-20190907-msf-exp/	CVE-2019-0708 RDP RCE漏洞重现(20190907-MSF-EXP)	lsablog.com	www.lsablog.com	/networksec/awd/cve-2019-0708-rdp-rce-20190907-msf-exp/
+20190909	Web安全	https://ptestmethod.readthedocs.io/en/latest/	Ptest Methods documentation 渗透知识库	readthedocs.io	ptestmethod.readthedocs.io	/en/latest/
+20190909	漏洞分析	http://blog.topsec.com.cn/cve-2019-0708%e6%bc%8f%e6%b4%9e%e5%a4%8d%e7%8e%b0%e6%96%87%e6%a1%a3/	CVE-2019-0708漏洞复现文档	topsec.com.cn	blog.topsec.com.cn	/cve-2019-0708%e6%bc%8f%e6%b4%9e%e5%a4%8d%e7%8e%b0%e6%96%87%e6%a1%a3/
+20190909	Web安全	https://mp.weixin.qq.com/s/BJlXOsBtPGVVU2cVs72TqQ	全程带阻：记一次授权网络攻防演练	qq.com	mp.weixin.qq.com	/s/BJlXOsBtPGVVU2cVs72TqQ
+20190909	会议	https://gsec.hitb.org/materials/sg2019/	2019 HITB GSEC 新加坡大会议题 PPT	hitb.org	gsec.hitb.org	/materials/sg2019/
+20190909	Web安全	https://github.com/uknowsec/Active-Directory-Pentest-Notes	域渗透学习笔记	github.com	github.com	/uknowsec/Active-Directory-Pentest-Notes
+20190909	Web安全	http://blog.blankshell.com/2019/09/12/%e6%9f%90oa%e7%b3%bb%e7%bb%9f%e4%bb%8esystem%e6%9d%83%e9%99%90%e5%91%bd%e4%bb%a4%e6%89%a7%e8%a1%8c%e5%88%b0%e6%bc%ab%e6%b8%b8%e5%86%85%e7%bd%91%e6%bc%ab%e6%b8%b8%e5%86%85%e7%bd%91/	某OA系统存在sql注入，system权限可漫游内网	blankshell.com	blog.blankshell.com	/2019/09/12/%e6%9f%90oa%e7%b3%bb%e7%bb%9f%e4%bb%8esystem%e6%9d%83%e9%99%90%e5%91%bd%e4%bb%a4%e6%89%a7%e8%a1%8c%e5%88%b0%e6%bc%ab%e6%b8%b8%e5%86%85%e7%bd%91%e6%bc%ab%e6%b8%b8%e5%86%85%e7%bd%91/
+20190909	漏洞分析	http://scz.617.cn/misc/201909121350.txt	闲谈Java逆向工程	617.cn	scz.617.cn	/misc/201909121350.txt
+20190909	运维安全	https://mp.weixin.qq.com/s/PlrPBMRejmaROkR0oLvtuw	Google的安全机制	qq.com	mp.weixin.qq.com	/s/PlrPBMRejmaROkR0oLvtuw
+20190909	漏洞分析	https://nosec.org/home/detail/2939.html	Exim中TLS的致命漏洞可让攻击者以Root身份远程执行命令	nosec.org	nosec.org	/home/detail/2939.html
+20190909	杂志	https://www.sec-wiki.com/weekly/288	SecWiki周刊（第288期)	sec-wiki.com	www.sec-wiki.com	/weekly/288
+20190909	设备安全	https://www.anquanke.com/post/id/186116	宝马汽车安全评估报告	anquanke.com	www.anquanke.com	/post/id/186116
+20190909	漏洞分析	https://nosec.org/home/detail/2951.html	Palo Alto Global Protect 网关设备格式化字符串漏洞(CVE-2019-1579)	nosec.org	nosec.org	/home/detail/2951.html
+20190909	Web安全	https://github.com/c0d3p1ut0s/Conference	Java反序列化漏洞自动挖掘方法	github.com	github.com	/c0d3p1ut0s/Conference
+20190909	数据挖掘	https://github.com/FederatedAI/FATE	FATE: 联邦学习开源项目	github.com	github.com	/FederatedAI/FATE
+20190909	比赛	https://github.com/wonderkun/CTFENV	CTFENV: 为应对CTF比赛而搭建的各种环境	github.com	github.com	/wonderkun/CTFENV
+20190909	Web安全	https://mp.weixin.qq.com/s/ornyzKd3uqjgUHEmdHGIJQ	使用方舟编译器检查Fastjson OOM问题	qq.com	mp.weixin.qq.com	/s/ornyzKd3uqjgUHEmdHGIJQ
+20190909	恶意分析	https://xz.aliyun.com/t/6238	QQ空间流氓转发分析	aliyun.com	xz.aliyun.com	/t/6238
+20190909	比赛	https://www.freebuf.com/articles/ics-articles/212376.html	CTF工控信息安全赛分析思路探讨（一）	freebuf.com	www.freebuf.com	/articles/ics-articles/212376.html
+20190909	漏洞分析	https://www.freebuf.com/articles/system/197392.html	Exploit自动生成引擎：Rex	freebuf.com	www.freebuf.com	/articles/system/197392.html
+20190909	运维安全	https://github.com/Netis/packet-agent/blob/master/README-zh-Hans.md	packet-agent: 云环境网络流量镜像项目	github.com	github.com	/Netis/packet-agent/blob/master/README-zh-Hans.md
+20190909	恶意分析	https://xz.aliyun.com/t/6247	深度学习检测恶意PowerShell新方法	aliyun.com	xz.aliyun.com	/t/6247
+20190909	其它	https://github.com/theLSA/CS-checklist	PC客户端（C-S架构）渗透测试checklist	github.com	github.com	/theLSA/CS-checklist
+20190909	Web安全	https://nosec.org/home/detail/2941.html	Edge浏览器中的Universal XSS	nosec.org	nosec.org	/home/detail/2941.html
+20190909	取证分析	https://mp.weixin.qq.com/s/9yRAitNrgN4I6iDaxbNvTA	美国网络威胁归因的能力与影响探析	qq.com	mp.weixin.qq.com	/s/9yRAitNrgN4I6iDaxbNvTA
+20190909	编程技术	https://github.com/MoonLight-SteinsGate/LearnAFL	LearnAFL--knowledge-learn evolutionary fuzzer	github.com	github.com	/MoonLight-SteinsGate/LearnAFL
+20190909	文档	http://www.cesi.cn/201909/5589.html	知识图谱标准化白皮书(2019)	cesi.cn	www.cesi.cn	/201909/5589.html
+20190909	其它	https://bloodzer0.github.io/ossa/iam/gitlab_freeipa/	GitLab接入FreeIPA	github.io	bloodzer0.github.io	/ossa/iam/gitlab_freeipa/
+20190909	恶意分析	https://www.freebuf.com/articles/paper/213930.html	印巴战争阴影下的网络战：近期印巴APT组织攻击活动汇总	freebuf.com	www.freebuf.com	/articles/paper/213930.html
+20190909	设备安全	https://mp.weixin.qq.com/s/gpVMcPjfP2HDZisZhy0fig	物联网漏洞挖掘入门--DLINK-DIR-645路由器栈溢出漏洞分析复现	qq.com	mp.weixin.qq.com	/s/gpVMcPjfP2HDZisZhy0fig
+20190909	漏洞分析	https://mp.weixin.qq.com/s/FIm6lDOD3G7TEcHFBT5trg	如何有效阅读安全类文章	qq.com	mp.weixin.qq.com	/s/FIm6lDOD3G7TEcHFBT5trg
+20190909	运维安全	https://www.freebuf.com/articles/ics-articles/212503.html	如何开展电力行业的安全检查评估	freebuf.com	www.freebuf.com	/articles/ics-articles/212503.html
+20190909	取证分析	https://github.com/defenxor/dsiem?from=timeline	dsiem: Security event correlation engine for ELK stack	github.com	github.com	/defenxor/dsiem
+20190909	Web安全	https://mp.weixin.qq.com/s/nys9M0PY_THidgD-KqzGPg	浅谈块存储的安全配置	qq.com	mp.weixin.qq.com	/s/nys9M0PY_THidgD-KqzGPg
+20190909	设备安全	https://mp.weixin.qq.com/s/rT53P9EW4xLFV9JLbnLroQ	D-Link DIR-816 A2路由器安全研究分享	qq.com	mp.weixin.qq.com	/s/rT53P9EW4xLFV9JLbnLroQ
+20190909	漏洞分析	https://nosec.org/home/detail/2949.html	某些型号的Comba和D-Link路由器存在管理员密码泄露漏洞	nosec.org	nosec.org	/home/detail/2949.html
+20190916	Web安全	https://mp.weixin.qq.com/s/G6qdRQ3BPKrjHY5ucUiG2w	利用js文件进行渗透	qq.com	mp.weixin.qq.com	/s/G6qdRQ3BPKrjHY5ucUiG2w
+20190916	Web安全	https://misakikata.github.io/2019/09/CVE-2019-10392-Jenkins-2k19%E8%AE%A4%E8%AF%81%E8%BF%9C%E7%A8%8BRCE/	CVE-2019-10392 Jenkins 2k19认证远程RCE	github.io	misakikata.github.io	/2019/09/CVE-2019-10392-Jenkins-2k19%E8%AE%A4%E8%AF%81%E8%BF%9C%E7%A8%8BRCE/
+20190916	Web安全	https://xz.aliyun.com/t/6349	内网渗透之端口转发、映射、代理	aliyun.com	xz.aliyun.com	/t/6349
+20190916	Web安全	https://github.com/QAX-A-Team/LuWu	LuWu: 红队基础设施自动化部署工具	github.com	github.com	/QAX-A-Team/LuWu
+20190916	取证分析	https://xz.aliyun.com/t/6325	钓鱼邮件的投递和伪造	aliyun.com	xz.aliyun.com	/t/6325
+20190916	杂志	https://www.sec-wiki.com/weekly/289	SecWiki周刊（第289期)	sec-wiki.com	www.sec-wiki.com	/weekly/289
+20190916	取证分析	https://www.anquanke.com/post/id/186489	反间谍软件之旅（一）	anquanke.com	www.anquanke.com	/post/id/186489
+20190916	取证分析	https://www.anquanke.com/post/id/187069	大型互联网企业威胁情报运营与实践思考	anquanke.com	www.anquanke.com	/post/id/187069
+20190916	其它	https://mp.weixin.qq.com/s/bgWwPPjFsiviFxMgNxjUIg	SUCTF-WriteUp(上)	qq.com	mp.weixin.qq.com	/s/bgWwPPjFsiviFxMgNxjUIg
+20190916	Web安全	https://www.leavesongs.com/OTHERLAN/attack-scrapy.html	攻击Scrapyd爬虫	leavesongs.com	www.leavesongs.com	/OTHERLAN/attack-scrapy.html
+20190916	工具	https://github.com/dogangcr/vulnerable-sso	vulnerable-sso: vulnerable single sign on	github.com	github.com	/dogangcr/vulnerable-sso
+20190916	恶意分析	https://blog.trendmicro.com/trendlabs-security-intelligence/purple-fox-fileless-malware-with-rookit-component-delivered-by-rig-exploit-kit-now-abuses-powershell/	purple-fox-fileless-malware-with-rookit-component-delivered-by-rig-exploit-kit-n	trendmicro.com	blog.trendmicro.com	/trendlabs-security-intelligence/purple-fox-fileless-malware-with-rookit-component-delivered-by-rig-exploit-kit-now-abuses-powershell/
+20190916	其它	https://mp.weixin.qq.com/s/NtOgVw0uFXndJ7b1-G-0iw	SUCTF-WriteUp(下)	qq.com	mp.weixin.qq.com	/s/NtOgVw0uFXndJ7b1-G-0iw
+20190916	恶意分析	https://blog.trendmicro.com/trendlabs-security-intelligence/malware-classification-with-graph-hash-applied-to-the-orca-cyberespionage-campaign/	Malware Classification with ‘Graph Hash,’ Applied to the Orca Cyberespionage Cam	trendmicro.com	blog.trendmicro.com	/trendlabs-security-intelligence/malware-classification-with-graph-hash-applied-to-the-orca-cyberespionage-campaign/
+20190916	工具	https://github.com/gnebbia/pdlist	pdlist: A passive subdomain finder	github.com	github.com	/gnebbia/pdlist
+20190916	其它	http://www.hexacorn.com/blog/2019/09/07/beyond-good-ol-run-key-part-114/	beyond-good-ol-run-key-part-114(AutoPlay利用)	hexacorn.com	www.hexacorn.com	/blog/2019/09/07/beyond-good-ol-run-key-part-114/
+20190916	其它	https://www.namebase.io/blog/meet-handshake-decentralizing-dns-to-improve-the-security-of-the-internet/	Decentralizing DNS to Improve the Security of the Internet	namebase.io	www.namebase.io	/blog/meet-handshake-decentralizing-dns-to-improve-the-security-of-the-internet/
+20190916	工具	https://hausec.com/2019/09/09/bloodhound-cypher-cheatsheet/	Bloodhound Cypher Cheatsheet	hausec.com	hausec.com	/2019/09/09/bloodhound-cypher-cheatsheet/
+20190916	Web安全	https://research.securitum.com/server-side-template-injection-on-the-example-of-pebble/	Server Side Template Injection – on the example of Pebble	securitum.com	research.securitum.com	/server-side-template-injection-on-the-example-of-pebble/

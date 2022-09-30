@@ -1,0 +1,33 @@
+20201123	法规	https://mp.weixin.qq.com/s/SPl3IXcvcYe3osAjqsswlg	办理赌博犯罪案件新规（两高一部发布）	qq.com	mp.weixin.qq.com	/s/SPl3IXcvcYe3osAjqsswlg
+20201123	Web安全	https://mp.weixin.qq.com/s/epVb1Y4WQ-MWeRhRPlvofg	接口越权扫描平台初探	qq.com	mp.weixin.qq.com	/s/epVb1Y4WQ-MWeRhRPlvofg
+20201123	Web安全	https://www.sec-in.com/article/619	记录一些逻辑漏洞案例	sec-in.com	www.sec-in.com	/article/619
+20201123	Web安全	https://www.sec-in.com/article/609	安全狗绕waf、编写sqlmap tamper脚本	sec-in.com	www.sec-in.com	/article/609
+20201123	Web安全	https://xz.aliyun.com/t/8561	从sql注入到连接3389	aliyun.com	xz.aliyun.com	/t/8561
+20201123	其它	https://mp.weixin.qq.com/s/m6NbHb9UUtiSOMPnKgId3g	我看技术人的成长路径	qq.com	mp.weixin.qq.com	/s/m6NbHb9UUtiSOMPnKgId3g
+20201123	编程技术	https://www.bookstack.cn/read/piaosanlang-spiders/c41d7333f0fc34db.md	Python 网络爬虫教程	bookstack.cn	www.bookstack.cn	/read/piaosanlang-spiders/c41d7333f0fc34db.md
+20201123	Web安全	https://www.sec-in.com/article/546	上传定时任务获取系统权限	sec-in.com	www.sec-in.com	/article/546
+20201123	Web安全	https://mp.weixin.qq.com/s/i1N80qN14hGslRnrIV8mjg	浅谈华为SDL软件安全工程能力	qq.com	mp.weixin.qq.com	/s/i1N80qN14hGslRnrIV8mjg
+20201123	工具	https://mp.weixin.qq.com/s/TpC-93r7dA7luEhkiHAi_g	Metasploit主机上线钉钉通知	qq.com	mp.weixin.qq.com	/s/TpC-93r7dA7luEhkiHAi_g
+20201123	Web安全	https://www.hackinn.com/index.php/archives/744/	一种针对Webpack等前端打包工具构建的网站的自动化测试思路（附开源项目）	hackinn.com	www.hackinn.com	/index.php/archives/744/
+20201123	编程技术	https://mp.weixin.qq.com/s/l__r5GUIZJ_moVcKBF9pyA	Google BeyondProd安全架构详解	qq.com	mp.weixin.qq.com	/s/l__r5GUIZJ_moVcKBF9pyA
+20201123	漏洞分析	http://zeroyu.xyz/2020/11/26/Intelligent-Vulnerability-Attack-and-Defense/	智能漏洞攻防探索 Note	zeroyu.xyz	zeroyu.xyz	/2020/11/26/Intelligent-Vulnerability-Attack-and-Defense/
+20201123	运维安全	https://mp.weixin.qq.com/s/6bJskpL_JLAEIXdGq5Hljw	浅谈中间件安全漏洞修复体系建设	qq.com	mp.weixin.qq.com	/s/6bJskpL_JLAEIXdGq5Hljw
+20201123	Web安全	https://mp.weixin.qq.com/s/AYhwvH8Nb2wn-DElN5oi2w	phpMyAdmin后台Getshell总结	qq.com	mp.weixin.qq.com	/s/AYhwvH8Nb2wn-DElN5oi2w
+20201123	取证分析	https://mp.weixin.qq.com/s/uH7M7vR1m0CJhoVfr-DisQ	云原生安全白皮书（译）	qq.com	mp.weixin.qq.com	/s/uH7M7vR1m0CJhoVfr-DisQ
+20201123	恶意分析	https://mp.weixin.qq.com/s/6CtRd7o4IjreLaU-hFt9vQ	DNSMon: 用DNS数据进行威胁发现	qq.com	mp.weixin.qq.com	/s/6CtRd7o4IjreLaU-hFt9vQ
+20201123	数据挖掘	https://mp.weixin.qq.com/s/i7f7p9HBE-03YWNnl_NdPA	基于Flink的网络流量实时解析	qq.com	mp.weixin.qq.com	/s/i7f7p9HBE-03YWNnl_NdPA
+20201123	漏洞分析	https://mp.weixin.qq.com/s/XRrHeugDMV-6ANRxC0ov3Q	智能合约:整数溢出、访问控制缺陷漏洞与跨合约调用漏洞	qq.com	mp.weixin.qq.com	/s/XRrHeugDMV-6ANRxC0ov3Q
+20201123	Web安全	https://mp.weixin.qq.com/s/xt7kgg2YFQxVzup92WMXXw	一张随拍引起的安全思考	qq.com	mp.weixin.qq.com	/s/xt7kgg2YFQxVzup92WMXXw
+20201123	Web安全	https://www.sec-in.com/article/617	域之ntds.dit	sec-in.com	www.sec-in.com	/article/617
+20201123	杂志	https://www.sec-wiki.com/weekly/351	SecWiki周刊（第351期)	sec-wiki.com	www.sec-wiki.com	/weekly/351
+20201123	工具	https://github.com/Ch1ngg/SharpGetTitle	SharpGetTitle - 基于 C# 的多线程 Web Title 扫描器	github.com	github.com	/Ch1ngg/SharpGetTitle
+20201123	编程技术	https://mp.weixin.qq.com/s/MnirNdLxyvrCAPd51SiW6w	ClickHouse海量数据分析分享	qq.com	mp.weixin.qq.com	/s/MnirNdLxyvrCAPd51SiW6w
+20201123	设备安全	https://mp.weixin.qq.com/s/6KviA72Ke0I9ZVYusTDpoA	物联网安全系列之探索IoT通信安全的研究之道	qq.com	mp.weixin.qq.com	/s/6KviA72Ke0I9ZVYusTDpoA
+20201123	Web安全	https://www.mi1k7ea.com/2020/11/24/Perl%E5%9F%BA%E7%A1%80-%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1/	Perl基础&代码审计	mi1k7ea.com	www.mi1k7ea.com	/2020/11/24/Perl%E5%9F%BA%E7%A1%80-%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1/
+20201123	数据挖掘	https://mp.weixin.qq.com/s/gPwWhlKsymu17kZPajyfqQ	图数据流子图查询	qq.com	mp.weixin.qq.com	/s/gPwWhlKsymu17kZPajyfqQ
+20201123	编程技术	https://docs.qq.com/pdf/DSGxHeWhpdElKb3hL	JavaScript编码安全指南 V1.0	qq.com	docs.qq.com	/pdf/DSGxHeWhpdElKb3hL
+20201123	Web安全	https://mp.weixin.qq.com/s/tMootD29tV5sPMje5GJFcA	西部数码云主机失败提权案例	qq.com	mp.weixin.qq.com	/s/tMootD29tV5sPMje5GJFcA
+20201123	运维安全	https://blog.csdn.net/bloodzero_new/article/details/110328113	玩转容器安全二 - 容器安全概述	csdn.net	blog.csdn.net	/bloodzero_new/article/details/110328113
+20201123	取证分析	https://mp.weixin.qq.com/s/C3yN9nIRTN9ebmvOd8S2JA	基于程序分析的大数据应用内存预估方法	qq.com	mp.weixin.qq.com	/s/C3yN9nIRTN9ebmvOd8S2JA
+20201123	观点	https://mp.weixin.qq.com/s/Fd0iKkGgE6Y1e81tP3MJFQ	美国国防部零信任的支柱	qq.com	mp.weixin.qq.com	/s/Fd0iKkGgE6Y1e81tP3MJFQ
+20201123	观点	https://mp.weixin.qq.com/s/YlvN-HBJwQwc9C4YJ0aXWg	以色列网络安全产业发展经验及启示	qq.com	mp.weixin.qq.com	/s/YlvN-HBJwQwc9C4YJ0aXWg

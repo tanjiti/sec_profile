@@ -1,0 +1,18 @@
+20220822	Web安全	https://mp.weixin.qq.com/s/dcCPx0ETiT2QlRTS1ToVAw	从攻击者视角聊聊K8S集群安全（上）	qq.com	mp.weixin.qq.com	/s/dcCPx0ETiT2QlRTS1ToVAw
+20220822	杂志	https://www.sec-wiki.com/weekly/442	SecWiki周刊（第442期)	sec-wiki.com	www.sec-wiki.com	/weekly/442
+20220822	运维安全	https://mp.weixin.qq.com/s/-3ec660soSUFmngRjEvF8g	某农信企业自主创新自动化安全基线检测平台建设实践	qq.com	mp.weixin.qq.com	/s/-3ec660soSUFmngRjEvF8g
+20220822	观点	https://mp.weixin.qq.com/s/DRA3RinOgZnBoEpfi8DMnA	美国国防工业网络保护框架和启示	qq.com	mp.weixin.qq.com	/s/DRA3RinOgZnBoEpfi8DMnA
+20220822	取证分析	https://mp.weixin.qq.com/s/SInU_o3Ct-7A6pFbKLqzHQ	Celer Network cBridge 跨链桥事故真相：BGP 劫持	qq.com	mp.weixin.qq.com	/s/SInU_o3Ct-7A6pFbKLqzHQ
+20220822	取证分析	http://blog.nsfocus.net/wp-content/uploads/2022/08/NSFOCUS.pdf	2021 攻击技术发展趋势报告全文	nsfocus.net	blog.nsfocus.net	/wp-content/uploads/2022/08/NSFOCUS.pdf
+20220822	其它	https://www.sec-in.com/article/1899	如何对登录接口加密字段进行暴破？	sec-in.com	www.sec-in.com	/article/1899
+20220822	Web安全	https://github.com/wuba/Antenna	Antenna: 漏洞辅助验证存在与可利用性平台	github.com	github.com	/wuba/Antenna
+20220822	运维安全	https://mp.weixin.qq.com/s/ZBHY-R2E7bzV17-jhfj4hA	我与入侵检测的二三事儿	qq.com	mp.weixin.qq.com	/s/ZBHY-R2E7bzV17-jhfj4hA
+20220822	Web安全	https://mp.weixin.qq.com/s/VrtFWM3Iufk0xkK_MRCCKA	利用 PHP-FPM 做内存马的方法	qq.com	mp.weixin.qq.com	/s/VrtFWM3Iufk0xkK_MRCCKA
+20220822	设备安全	https://mp.weixin.qq.com/s/YuS1tvbYRyM0iLWmniCdJg	固件渗透的攻防之路	qq.com	mp.weixin.qq.com	/s/YuS1tvbYRyM0iLWmniCdJg
+20220822	会议	https://mp.weixin.qq.com/s/KkpY8zURFj-WM7zD25lYrQ	IJTCS-FAW 2022 机器学习与形式化方法分论坛精彩回顾	qq.com	mp.weixin.qq.com	/s/KkpY8zURFj-WM7zD25lYrQ
+20220822	Web安全	https://mp.weixin.qq.com/s/bK1Ku5y74kB4nKsL9kQjvQ	匿名：《红队攻击安全配置》	qq.com	mp.weixin.qq.com	/s/bK1Ku5y74kB4nKsL9kQjvQ
+20220822	运维安全	https://mp.weixin.qq.com/s/Zwa4wnKon-GYPb8ohb9miA	如何开展蓝军工作与量化评估	qq.com	mp.weixin.qq.com	/s/Zwa4wnKon-GYPb8ohb9miA
+20220822	Web安全	https://mp.weixin.qq.com/s/ECLwMbbrf9lWXkhbUergXg	Ruby安全漫谈	qq.com	mp.weixin.qq.com	/s/ECLwMbbrf9lWXkhbUergXg
+20220822	Web安全	https://xz.aliyun.com/t/11625	对云函数隐藏C2技术的防御反制思路	aliyun.com	xz.aliyun.com	/t/11625
+20220822	漏洞分析	https://mp.weixin.qq.com/s/gqH0lqz1ey6IzT--UD9Jsg	Chrome沙箱绕过研究	qq.com	mp.weixin.qq.com	/s/gqH0lqz1ey6IzT--UD9Jsg
+20220822	取证分析	https://mp.weixin.qq.com/s/tx50eeAsJIIk6yfDf1qgjw	2022半年度反洗钱处罚信息汇总及分析	qq.com	mp.weixin.qq.com	/s/tx50eeAsJIIk6yfDf1qgjw

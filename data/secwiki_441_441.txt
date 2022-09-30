@@ -1,0 +1,22 @@
+20220808	其它	https://www.sec-in.com/article/1633	CVE-2022-21999	sec-in.com	www.sec-in.com	/article/1633
+20220808	编程技术	https://mp.weixin.qq.com/s/8-CFwxTT8zFmk1IqCQwiFQ	如何导入数十亿DNS数据到Elasticsearch中	qq.com	mp.weixin.qq.com	/s/8-CFwxTT8zFmk1IqCQwiFQ
+20220808	恶意分析	https://mp.weixin.qq.com/s/z2weLJi3nhgBHZ6wWzkueg	VirusTotal 恶意软件滥用信任总结报告	qq.com	mp.weixin.qq.com	/s/z2weLJi3nhgBHZ6wWzkueg
+20220808	杂志	https://www.sec-wiki.com/weekly/440	SecWiki周刊（第440期)	sec-wiki.com	www.sec-wiki.com	/weekly/440
+20220808	漏洞分析	https://paper.seebug.org/1942/	Fuzzing 之 Grammars	seebug.org	paper.seebug.org	/1942/
+20220808	会议	https://mp.weixin.qq.com/s/urcX3HeERhAPmNYp_9K6BA	Black Hat 2022上最值得关注的十大议题	qq.com	mp.weixin.qq.com	/s/urcX3HeERhAPmNYp_9K6BA
+20220808	恶意分析	https://www.volexity.com/blog/2022/07/28/sharptongue-deploys-clever-mail-stealing-browser-extension-sharpext/	SharpTongue Deploys Clever Mail-Stealing Browser Extension	volexity.com	www.volexity.com	/blog/2022/07/28/sharptongue-deploys-clever-mail-stealing-browser-extension-sharpext/
+20220808	Web安全	https://mp.weixin.qq.com/s/BCHHEiitlthMkI3GfUduLw	[HTB] Apocalyst Writeup	qq.com	mp.weixin.qq.com	/s/BCHHEiitlthMkI3GfUduLw
+20220808	Web安全	https://mp.weixin.qq.com/s/rlCyeObSbehkl2At_Dmtjg	Selenium自动化入坑指南	qq.com	mp.weixin.qq.com	/s/rlCyeObSbehkl2At_Dmtjg
+20220808	其它	https://mp.weixin.qq.com/s/l11SP7Nni-CZ__y3DEVX1Q	浅谈NFT, Web3 和元宇宙	qq.com	mp.weixin.qq.com	/s/l11SP7Nni-CZ__y3DEVX1Q
+20220808	数据挖掘	https://mp.weixin.qq.com/s/I9TlQ9zrIA0NoHl6_1_Fgw	“无数据知识蒸馏”术语	qq.com	mp.weixin.qq.com	/s/I9TlQ9zrIA0NoHl6_1_Fgw
+20220808	恶意分析	https://mp.weixin.qq.com/s/ua7KrEP5yWbvNHfCULgn8g	鼹鼠行动--针对QNAP网络存储设备的大规模攻击活动分析	qq.com	mp.weixin.qq.com	/s/ua7KrEP5yWbvNHfCULgn8g
+20220808	恶意分析	https://mp.weixin.qq.com/s/9ugyhDvtrJLds_1C1nBosw	谈谈安全对抗的本质	qq.com	mp.weixin.qq.com	/s/9ugyhDvtrJLds_1C1nBosw
+20220808	恶意分析	https://mp.weixin.qq.com/s/v4V-hwhCi1nehvwZarCkbA	云沙箱视角看攻防演练：样本类攻击手法总结	qq.com	mp.weixin.qq.com	/s/v4V-hwhCi1nehvwZarCkbA
+20220808	数据挖掘	https://mp.weixin.qq.com/s/u3lnWpACDETKBJfjxUq6RQ	智能系统数据安全	qq.com	mp.weixin.qq.com	/s/u3lnWpACDETKBJfjxUq6RQ
+20220808	Web安全	https://mp.weixin.qq.com/s/tgBp2HjJ46VaTXrnGnNnrQ	DevOps风险测绘之代码篇	qq.com	mp.weixin.qq.com	/s/tgBp2HjJ46VaTXrnGnNnrQ
+20220808	Web安全	https://xz.aliyun.com/t/11593	Executor内存马的实现	aliyun.com	xz.aliyun.com	/t/11593
+20220808	Web安全	https://mp.weixin.qq.com/s/RjoLmNVCx0gUhPM3Psk74g	云隔离的梦想	qq.com	mp.weixin.qq.com	/s/RjoLmNVCx0gUhPM3Psk74g
+20220808	Web安全	https://github.com/shmilylty/netspy	netspy-快速探测内网可达网段工具	github.com	github.com	/shmilylty/netspy
+20220808	Web安全	https://xz.aliyun.com/t/11599	SnakeYaml反序列化	aliyun.com	xz.aliyun.com	/t/11599
+20220808	Web安全	https://github.com/Esonhugh/Attack_Code	云安全入门材料	github.com	github.com	/Esonhugh/Attack_Code
+20220808	设备安全	https://programmingwithstyle.com/posts/howihackedmycar/	How I Hacked my Car	programmingwithstyle.com	programmingwithstyle.com	/posts/howihackedmycar/

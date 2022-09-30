@@ -1,0 +1,28 @@
+20201228	Web安全	https://mp.weixin.qq.com/s/DqqQkvZ1gNDyLcyNC2COAQ	记一次利用阿D注入渗透实战案例	qq.com	mp.weixin.qq.com	/s/DqqQkvZ1gNDyLcyNC2COAQ
+20201228	Web安全	https://github.com/chriskaliX/AD-Pentest-Notes	AD-Pentest-Notes: 用于记录内网渗透(域渗透)学习	github.com	github.com	/chriskaliX/AD-Pentest-Notes
+20201228	观点	https://mp.weixin.qq.com/s/BuHQSLLeJ-EMhQSqFLgDgg	安全研究员的自我修养	qq.com	mp.weixin.qq.com	/s/BuHQSLLeJ-EMhQSqFLgDgg
+20201228	漏洞分析	https://github.com/RangerNJU/Static-Program-Analysis-Book	静态程序分析入门教程	github.com	github.com	/RangerNJU/Static-Program-Analysis-Book
+20201228	观点	https://mp.weixin.qq.com/s/eBTXxLn4NFvLq-nmAAXgyg	沙虫	qq.com	mp.weixin.qq.com	/s/eBTXxLn4NFvLq-nmAAXgyg
+20201228	运维安全	https://mp.weixin.qq.com/s/oofMyBaS7EMnUMy61Y-5MQ	数据安全建设实践系列——数据资产平台建设	qq.com	mp.weixin.qq.com	/s/oofMyBaS7EMnUMy61Y-5MQ
+20201228	工具	https://github.com/SafeGroceryStore/MDAT	MDAT - 综合数据库攻击利用工具	github.com	github.com	/SafeGroceryStore/MDAT
+20201228	漏洞分析	https://www.anquanke.com/post/id/220795	基于机器学习的漏洞检测高影响因素实证研究	anquanke.com	www.anquanke.com	/post/id/220795
+20201228	运维安全	https://mp.weixin.qq.com/s/sAh_VH5zTuxHRFawYMvuOw	开源自研HIDS——AgentSmith-HIDS	qq.com	mp.weixin.qq.com	/s/sAh_VH5zTuxHRFawYMvuOw
+20201228	Web安全	https://mp.weixin.qq.com/s/p0SZN87PilFHUmENas6QEg	JAVA安全编码	qq.com	mp.weixin.qq.com	/s/p0SZN87PilFHUmENas6QEg
+20201228	恶意分析	https://www.anquanke.com/post/id/226721	关于Python病毒样本的分析方法	anquanke.com	www.anquanke.com	/post/id/226721
+20201228	恶意分析	https://www.trendmicro.com/vinfo/us/security/news/managed-detection-and-response/using-mitre-att-ck-to-identify-an-apt-attack	Using MITRE ATT&CK to Identify an APT Attack	trendmicro.com	www.trendmicro.com	/vinfo/us/security/news/managed-detection-and-response/using-mitre-att-ck-to-identify-an-apt-attack
+20201228	杂志	https://www.sec-wiki.com/weekly/356	SecWiki周刊（第356期)	sec-wiki.com	www.sec-wiki.com	/weekly/356
+20201228	移动安全	https://github.com/dwisiswant0/apkleaks	apkleaks: Scanning APK file for URIs, endpoints & secrets	github.com	github.com	/dwisiswant0/apkleaks
+20201228	恶意分析	https://mp.weixin.qq.com/s/p55LNt9PK0MKEjN3MGPAOg	JARM : 检测恶意服务器的可靠指纹	qq.com	mp.weixin.qq.com	/s/p55LNt9PK0MKEjN3MGPAOg
+20201228	漏洞分析	https://github.com/mytechnotalent/Reverse-Engineering-Tutorial	reverse engineering course covering x86, x64, ARM	github.com	github.com	/mytechnotalent/Reverse-Engineering-Tutorial
+20201228	视频	https://www.bilibili.com/video/BV1N741177F5	2020 南京大学 “操作系统：设计与实现”	bilibili.com	www.bilibili.com	/video/BV1N741177F5
+20201228	漏洞分析	https://mp.weixin.qq.com/s/mnus1BN1CLX4rhrZ1ubnKQ	FreeRTOS Reverse Engineering	qq.com	mp.weixin.qq.com	/s/mnus1BN1CLX4rhrZ1ubnKQ
+20201228	运维安全	https://github.com/opencve/opencve	opencve: CVE Alerting Platform	github.com	github.com	/opencve/opencve
+20201228	Web安全	https://mp.weixin.qq.com/s/S7d-oS_b3Xx688a_jeQC2w	鲲鹏计算专场-WriteUp	qq.com	mp.weixin.qq.com	/s/S7d-oS_b3Xx688a_jeQC2w
+20201228	漏洞分析	https://github.com/coodyer/fire_vulnerability_scanner	fire_vulnerability_scanner: 一款http协议的漏洞扫描框架	github.com	github.com	/coodyer/fire_vulnerability_scanner
+20201228	观点	https://mp.weixin.qq.com/s/zu2Je_A_x06k78tzrXyjbg	网空靶场：从炒作到现实-2020	qq.com	mp.weixin.qq.com	/s/zu2Je_A_x06k78tzrXyjbg
+20201228	Web安全	https://www.mdsec.co.uk/2020/09/i-like-to-move-it-windows-lateral-movement-part-1-wmi-event-subscription/	Windows Lateral Movement Part 1 – WMI Event Subscription	mdsec.co.uk	www.mdsec.co.uk	/2020/09/i-like-to-move-it-windows-lateral-movement-part-1-wmi-event-subscription/
+20201228	其它	https://mp.weixin.qq.com/s/f30RvhYlB97dXnjzv4_H_Q	浅谈Mysql蜜罐识别	qq.com	mp.weixin.qq.com	/s/f30RvhYlB97dXnjzv4_H_Q
+20201228	Web安全	https://www.mdsec.co.uk/2020/09/i-like-to-move-it-windows-lateral-movement-part-2-dcom/	Windows Lateral Movement Part 2 – DCOM	mdsec.co.uk	www.mdsec.co.uk	/2020/09/i-like-to-move-it-windows-lateral-movement-part-2-dcom/
+20201228	漏洞分析	http://www.scada.sl/2020/12/vulnerabilities-of-machine-learning.html	Vulnerabilities of Machine Learning Infrastructure (Slides/Video)	scada.sl	www.scada.sl	/2020/12/vulnerabilities-of-machine-learning.html
+20201228	恶意分析	https://blog.netlab.360.com/use-dns-data-produce-threat-intelligence-2/	DNSMon: 用DNS数据进行威胁发现(2)	360.com	blog.netlab.360.com	/use-dns-data-produce-threat-intelligence-2/
+20201228	运维安全	https://www.freebuf.com/sectool/259225.html	基于Docker的分布式OpenVAS(GVM)	freebuf.com	www.freebuf.com	/sectool/259225.html

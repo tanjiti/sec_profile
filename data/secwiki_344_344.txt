@@ -1,0 +1,17 @@
+20200928	恶意分析	https://zhuanlan.zhihu.com/p/259985000?utm_oi=771453567763492864	Webshell研究综述：检测与对抗技术的动态博弈进展	zhihu.com	zhuanlan.zhihu.com	/p/259985000
+20200928	漏洞分析	https://mp.weixin.qq.com/s/eBPp4eyaGs827POFTesqOA	基于甲方视角的漏洞发现	qq.com	mp.weixin.qq.com	/s/eBPp4eyaGs827POFTesqOA
+20200928	观点	https://mp.weixin.qq.com/s/-bAFEmstpDTzI6EfYwzffA	技术人员发展四阶段	qq.com	mp.weixin.qq.com	/s/-bAFEmstpDTzI6EfYwzffA
+20200928	恶意分析	https://paper.seebug.org/1349/	Cobalt Strike 绕过流量审计	seebug.org	paper.seebug.org	/1349/
+20200928	取证分析	https://www.anquanke.com/post/id/218889	邮件伪造组合拳	anquanke.com	www.anquanke.com	/post/id/218889
+20200928	杂志	https://www.sec-wiki.com/weekly/343	SecWiki周刊（第343期)	sec-wiki.com	www.sec-wiki.com	/weekly/343
+20200928	Web安全	https://www.anquanke.com/post/id/218560	ShadowMove：隐蔽的横向移动策略	anquanke.com	www.anquanke.com	/post/id/218560
+20200928	恶意分析	https://www.anquanke.com/post/id/218674	Go二进制文件逆向分析从基础到进阶——Tips与实战案例	anquanke.com	www.anquanke.com	/post/id/218674
+20200928	恶意分析	https://www.anquanke.com/post/id/215419	Go二进制文件逆向分析从基础到进阶——MetaInfo、函数符号和源码文件路径列表	anquanke.com	www.anquanke.com	/post/id/215419
+20200928	恶意分析	https://www.anquanke.com/post/id/215820	Go二进制文件逆向分析从基础到进阶——数据类型	anquanke.com	www.anquanke.com	/post/id/215820
+20200928	恶意分析	https://c1y2m3.github.io/c1y2m3.github.io/2020/08/24/%E5%9B%BE%E7%89%87%E9%9A%90%E5%86%99%E6%9C%AFshellcode/	利用图片隐写术远程动态加载shellcode	github.io	c1y2m3.github.io	/c1y2m3.github.io/2020/08/24/%E5%9B%BE%E7%89%87%E9%9A%90%E5%86%99%E6%9C%AFshellcode/
+20200928	Web安全	https://mp.weixin.qq.com/s/A5E2VRYg7R1LrLrCpiGYAw	渗透环境标准化	qq.com	mp.weixin.qq.com	/s/A5E2VRYg7R1LrLrCpiGYAw
+20200928	Web安全	https://c1y2m3.github.io/c1y2m3.github.io/2020/07/09/mail/	钓鱼攻击-邮件马的制作	github.io	c1y2m3.github.io	/c1y2m3.github.io/2020/07/09/mail/
+20200928	Web安全	https://github.com/knownsec/ksubdomain	ksubdomain: 无状态子域名爆破工具	github.com	github.com	/knownsec/ksubdomain
+20200928	观点	https://mp.weixin.qq.com/s/aq7mFjsz_sT8JqWFHRSwHQ	从美国顶尖信息技术咨询公司博思艾伦报告看俄罗斯网络作战	qq.com	mp.weixin.qq.com	/s/aq7mFjsz_sT8JqWFHRSwHQ
+20200928	恶意分析	https://static.cdxy.me/asia-20-Xu-Win-The-0-Day-Racing-Game-Against-Botnet-In-Public-Cloud.pdf	Win the 0-Day Racing Game Against Botnet on Cloud	cdxy.me	static.cdxy.me	/asia-20-Xu-Win-The-0-Day-Racing-Game-Against-Botnet-In-Public-Cloud.pdf
+20200928	取证分析	https://github.com/r00tSe7en/Mail-Probe	Mail-Probe: 邮箱探针后台管理系统	github.com	github.com	/r00tSe7en/Mail-Probe

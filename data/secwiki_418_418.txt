@@ -1,0 +1,18 @@
+20220228	事件	https://mp.weixin.qq.com/s/mLwmFY1L3OUGTE5K_jkmgw	攻击者入侵窃数据，英伟达反手来攻击？	qq.com	mp.weixin.qq.com	/s/mLwmFY1L3OUGTE5K_jkmgw
+20220228	恶意分析	https://mp.weixin.qq.com/s/k3PTDA8rDSylqknwp_jYIA	聊一聊《Bvp47 美国NSA方程式的顶级后门》中的BPF隐藏信道	qq.com	mp.weixin.qq.com	/s/k3PTDA8rDSylqknwp_jYIA
+20220228	Web安全	https://mp.weixin.qq.com/s/Qxak0i3r3SWAA8-p3vu9Ow	2022年最热安全技术BAS详解	qq.com	mp.weixin.qq.com	/s/Qxak0i3r3SWAA8-p3vu9Ow
+20220228	漏洞分析	https://mp.weixin.qq.com/s/_jZyco_HxlLOMiI2sS1FYA	以PoC迁移促进漏洞评估	qq.com	mp.weixin.qq.com	/s/_jZyco_HxlLOMiI2sS1FYA
+20220228	Web安全	https://xz.aliyun.com/t/10925	跟着三梦学Java安全：半自动挖洞	aliyun.com	xz.aliyun.com	/t/10925
+20220228	取证分析	https://mp.weixin.qq.com/s/iewfqJoAq0ZBclniSJEpAA	从网络空间认知战到对俄大规模网络致瘫攻击	qq.com	mp.weixin.qq.com	/s/iewfqJoAq0ZBclniSJEpAA
+20220228	杂志	https://www.sec-wiki.com/weekly/417	SecWiki周刊（第417期)	sec-wiki.com	www.sec-wiki.com	/weekly/417
+20220228	运维安全	https://mp.weixin.qq.com/s/StQ0HlLQMJO064vpcCBayw	合作方数据安全闭环管理实践	qq.com	mp.weixin.qq.com	/s/StQ0HlLQMJO064vpcCBayw
+20220228	取证分析	https://mp.weixin.qq.com/s/dPhP3Z4moCKATk32meRQNw	Mnemosyne：一个高效的水坑攻击调查取证系统	qq.com	mp.weixin.qq.com	/s/dPhP3Z4moCKATk32meRQNw
+20220228	Web安全	https://mp.weixin.qq.com/s/J2VMVn6GmsZrmbF2yvibPA	DICOS：在Stack Overflow社区不安全代码发现方法	qq.com	mp.weixin.qq.com	/s/J2VMVn6GmsZrmbF2yvibPA
+20220228	设备安全	https://www.anquanke.com/post/id/267397	移动GS3101光猫分析 —— 狸猫换太子	anquanke.com	www.anquanke.com	/post/id/267397
+20220228	运维安全	https://github.com/bytedance/godlp	GoDLP: 敏感信息保护系统	github.com	github.com	/bytedance/godlp
+20220228	恶意分析	https://mp.weixin.qq.com/s/ww2KizA5JXu-V6ofkxTDxg	TA402 针对中东目标持续发起攻击	qq.com	mp.weixin.qq.com	/s/ww2KizA5JXu-V6ofkxTDxg
+20220228	漏洞分析	https://xz.aliyun.com/t/10908	高效挖掘反序列化漏洞——GadgetInspector改造	aliyun.com	xz.aliyun.com	/t/10908
+20220228	Web安全	https://medium.com/mitre-engenuity/attack-flow-beyond-atomic-behaviors-c646675cc793	Attack Flow — Beyond Atomic Behaviors	medium.com	medium.com	/mitre-engenuity/attack-flow-beyond-atomic-behaviors-c646675cc793
+20220228	漏洞分析	http://tttang.com/archive/1462/?continueFlag=ac31708e6f6b0c4f99bffa25b3a945d8	Make JDBC Attacks Brilliant Again 番外篇	tttang.com	tttang.com	/archive/1462/
+20220228	编程技术	https://ainrm.cn/2022/safegate.html	基于openresty的安全网关开发记录	ainrm.cn	ainrm.cn	/2022/safegate.html
+20220228	恶意分析	https://ainrm.cn/2022/js_ast.html	js安全之ast混淆	ainrm.cn	ainrm.cn	/2022/js_ast.html

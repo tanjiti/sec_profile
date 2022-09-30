@@ -1,0 +1,30 @@
+20191125	新闻	https://www.4hou.com/info/news/21814.html	欧盟发布5G网络威胁图谱	4hou.com	www.4hou.com	/info/news/21814.html
+20191125	Web安全	http://phantom0301.cc/2019/11/24/scanner-manage/	浅谈漏扫运营那些事	phantom0301.cc	phantom0301.cc	/2019/11/24/scanner-manage/
+20191125	其它	https://mp.weixin.qq.com/s/34hHV_uDapF7GE5ODPbf9w	谈谈信息安全入门这事儿	qq.com	mp.weixin.qq.com	/s/34hHV_uDapF7GE5ODPbf9w
+20191125	取证分析	https://mp.weixin.qq.com/s/iIAPsEbHnywvL1l7YXA8sQ	记一次应急响应实战	qq.com	mp.weixin.qq.com	/s/iIAPsEbHnywvL1l7YXA8sQ
+20191125	移动安全	https://mp.weixin.qq.com/s/Zv7LB3_WG01hi7oW1sNBXw	记一次APP双向认证抓包	qq.com	mp.weixin.qq.com	/s/Zv7LB3_WG01hi7oW1sNBXw
+20191125	漏洞分析	https://posts.specterops.io/attacking-freeipa-part-i-authentication-77e73d837d6a	Attacking FreeIPA — Part I Authentication	specterops.io	posts.specterops.io	/attacking-freeipa-part-i-authentication-77e73d837d6a
+20191125	运维安全	https://mp.weixin.qq.com/s/fIfMGD5HvjN_MVlVb3yriQ	论企业如何快速建立SDL流程	qq.com	mp.weixin.qq.com	/s/fIfMGD5HvjN_MVlVb3yriQ
+20191125	观点	https://mp.weixin.qq.com/s/Fwk_Q7TE5pyq77_-IEp1mg	安全运营三部曲之安全生态与安全国际	qq.com	mp.weixin.qq.com	/s/Fwk_Q7TE5pyq77_-IEp1mg
+20191125	Web安全	https://www.anquanke.com/post/id/193493	Windows内网协议学习NTLM篇之发起NTLM请求	anquanke.com	www.anquanke.com	/post/id/193493
+20191125	取证分析	https://www.darkowl.com/blog/nation-state-actors-in-the-dark-web	Nation-State Actors on the Dark Web	darkowl.com	www.darkowl.com	/blog/nation-state-actors-in-the-dark-web
+20191125	漏洞分析	https://xz.aliyun.com/t/6787	Java反序列化漏洞原理解析	aliyun.com	xz.aliyun.com	/t/6787
+20191125	设备安全	https://xz.aliyun.com/t/6808	路由器破解初探之栈溢出漏洞利用	aliyun.com	xz.aliyun.com	/t/6808
+20191125	Web安全	https://xz.aliyun.com/t/6826	Redhat 线下赛 WEB WP	aliyun.com	xz.aliyun.com	/t/6826
+20191125	无线安全	https://cn0xroot.com/2019/11/25/video_exploring_the_wireless_world_with_sdr/	基于软件无线电对无线领域进行探索	cn0xroot.com	cn0xroot.com	/2019/11/25/video_exploring_the_wireless_world_with_sdr/
+20191125	其它	https://mp.weixin.qq.com/s/gZ50Uut2hhghzwXYA04ZDQ	逆向实战——32位和64位WinRAR破解及去广告	qq.com	mp.weixin.qq.com	/s/gZ50Uut2hhghzwXYA04ZDQ
+20191125	Web安全	https://xz.aliyun.com/t/6801	Web中间件漏洞总结之Nginx漏洞	aliyun.com	xz.aliyun.com	/t/6801
+20191125	设备安全	https://mp.weixin.qq.com/s/pjzYte3p-l1CoybGM1v0eQ	Snort入侵检测系统的应用	qq.com	mp.weixin.qq.com	/s/pjzYte3p-l1CoybGM1v0eQ
+20191125	运维安全	https://mp.weixin.qq.com/s/r9IPUU1S4DmhPuri9POKQA	浅析挖矿木马	qq.com	mp.weixin.qq.com	/s/r9IPUU1S4DmhPuri9POKQA
+20191125	Web安全	https://mp.weixin.qq.com/s/yYkbysywQXD5l-SS0jQ3_A	使用Peach进行模糊测试从入门到放弃	qq.com	mp.weixin.qq.com	/s/yYkbysywQXD5l-SS0jQ3_A
+20191125	恶意分析	https://www.4hou.com/web/21763.html	追溯APT组织Lazarus的攻击历程	4hou.com	www.4hou.com	/web/21763.html
+20191125	Web安全	https://www.anquanke.com/post/id/193431	从内网到域控（offensive实战）	anquanke.com	www.anquanke.com	/post/id/193431
+20191125	Web安全	https://mp.weixin.qq.com/s/lhg71lVHfp9PY1m8sYXA_A	攻防演练对抗赛之初识文件钓鱼	qq.com	mp.weixin.qq.com	/s/lhg71lVHfp9PY1m8sYXA_A
+20191125	杂志	https://www.sec-wiki.com/weekly/299	SecWiki周刊（第299期)	sec-wiki.com	www.sec-wiki.com	/weekly/299
+20191125	论文	https://mp.weixin.qq.com/s/IXweRBnhbgeJuPxgAvgP2A	CCS19, London, UK丨论文分享（下）	qq.com	mp.weixin.qq.com	/s/IXweRBnhbgeJuPxgAvgP2A
+20191125	Web安全	https://mp.weixin.qq.com/s/6fQLlM-B3UAoK6jttBRXYA	MITRE ATT&CK威胁检测框架研究心得分享	qq.com	mp.weixin.qq.com	/s/6fQLlM-B3UAoK6jttBRXYA
+20191125	取证分析	https://www.freebuf.com/sectool/219786.html	Windows系统安全事件日志取证工具：LogonTracer	freebuf.com	www.freebuf.com	/sectool/219786.html
+20191125	漏洞分析	http://riusksk.me/2019/11/30/Frida%E6%A1%86%E6%9E%B6%E5%9C%A8Fuzzing%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/	Frida框架在Fuzzing中的应用	riusksk.me	riusksk.me	/2019/11/30/Frida%E6%A1%86%E6%9E%B6%E5%9C%A8Fuzzing%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/
+20191125	Web安全	https://www.freebuf.com/articles/web/220066.html	代码审计入门之Jeeplus代码审计	freebuf.com	www.freebuf.com	/articles/web/220066.html
+20191125	Web安全	https://xz.aliyun.com/t/6823	回调函数绕过D盾小套路	aliyun.com	xz.aliyun.com	/t/6823
+20191125	Web安全	https://xz.aliyun.com/t/6822	持久化研究-Scheduled Tasks	aliyun.com	xz.aliyun.com	/t/6822

@@ -1,0 +1,43 @@
+20200629	Web安全	https://www.freebuf.com/articles/es/240003.html	攻防演练实战中的若干Tips	freebuf.com	www.freebuf.com	/articles/es/240003.html
+20200629	Web安全	https://xz.aliyun.com/t/7919	渗透经验分享之SQL注入思路拓展	aliyun.com	xz.aliyun.com	/t/7919
+20200629	Web安全	https://mp.weixin.qq.com/s/OGiDm3IHBP3_g0AOIHGCKA	红蓝对抗之Windows内网渗透	qq.com	mp.weixin.qq.com	/s/OGiDm3IHBP3_g0AOIHGCKA
+20200629	Web安全	https://github.com/MisakiKata/crawlergo_sub	子域名监控式漏洞扫描	github.com	github.com	/MisakiKata/crawlergo_sub
+20200629	Web安全	https://xz.aliyun.com/t/7926	浅谈短信验证码漏洞	aliyun.com	xz.aliyun.com	/t/7926
+20200629	Web安全	https://xz.aliyun.com/t/7937	Windows/Linux文件下载方式汇总	aliyun.com	xz.aliyun.com	/t/7937
+20200629	Web安全	https://mp.weixin.qq.com/s/TyJsK5Rkg6MXvADS13RIcA	第五空间-WriteUp	qq.com	mp.weixin.qq.com	/s/TyJsK5Rkg6MXvADS13RIcA
+20200629	Web安全	https://xz.aliyun.com/t/7924	对Linux 提权的简单总结	aliyun.com	xz.aliyun.com	/t/7924
+20200629	运维安全	https://mp.weixin.qq.com/s/BaeIGrBimww8SUtePDQ0jA	Docker安全性与攻击面分析	qq.com	mp.weixin.qq.com	/s/BaeIGrBimww8SUtePDQ0jA
+20200629	移动安全	https://mp.weixin.qq.com/s/KFm870IFHGEHRnsek9d3lg	硬件分析的常用工具与基础方法	qq.com	mp.weixin.qq.com	/s/KFm870IFHGEHRnsek9d3lg
+20200629	数据挖掘	https://mp.weixin.qq.com/s/d6fpwQlNBUlBba3spJu3wA	图卷积神经网络在企业侧网络安全运营中的应用	qq.com	mp.weixin.qq.com	/s/d6fpwQlNBUlBba3spJu3wA
+20200629	恶意分析	https://ti.qianxin.com/uploads/2020/06/29/e4663b4f11f01e5ec8a1a5d91a71dc72.pdf	全球高级持续性威胁（APT）2020年中报告	qianxin.com	ti.qianxin.com	/uploads/2020/06/29/e4663b4f11f01e5ec8a1a5d91a71dc72.pdf
+20200629	漏洞分析	https://paper.seebug.org/1263/	Dubbo2.7.7 反序列化漏洞绕过分析	seebug.org	paper.seebug.org	/1263/
+20200629	取证分析	https://xz.aliyun.com/t/7938	踩坑记录-DNS Beacon	aliyun.com	xz.aliyun.com	/t/7938
+20200629	漏洞分析	https://www.anquanke.com/post/id/209251	CVE-2020-1948 Apache Dubbo Hessian 反序列化漏洞分析	anquanke.com	www.anquanke.com	/post/id/209251
+20200629	漏洞分析	https://bacde.me/post/big-ip-cve-2020-5902-check-poc/	BIG IP CVE-2020-5902 漏洞检测与利用	bacde.me	bacde.me	/post/big-ip-cve-2020-5902-check-poc/
+20200629	杂志	https://www.sec-wiki.com/weekly/330	SecWiki周刊（第330期)	sec-wiki.com	www.sec-wiki.com	/weekly/330
+20200629	运维安全	https://mp.weixin.qq.com/s/VAHriOf4HVUna3FxhKg_OA	不一样的 反弹Shell 系统剖析	qq.com	mp.weixin.qq.com	/s/VAHriOf4HVUna3FxhKg_OA
+20200629	漏洞分析	https://posts.specterops.io/automating-dll-hijack-discovery-81c4295904b0	Automating DLL Hijack Discovery	specterops.io	posts.specterops.io	/automating-dll-hijack-discovery-81c4295904b0
+20200629	比赛	https://zhuanlan.zhihu.com/p/148384035	CTF实战特训营实训真题	zhihu.com	zhuanlan.zhihu.com	/p/148384035
+20200629	漏洞分析	https://github.com/pedrib/PoC/blob/master/advisories/Pwn2Own/Tokyo_2019/tokyo_drift/tokyo_drift.md	Netgear R6700v3 LAN RCE write-up and exploit	github.com	github.com	/pedrib/PoC/blob/master/advisories/Pwn2Own/Tokyo_2019/tokyo_drift/tokyo_drift.md
+20200629	取证分析	https://paper.seebug.org/1256/	浅谈 NLP 技术在威胁情报中的应用	seebug.org	paper.seebug.org	/1256/
+20200629	漏洞分析	http://zeroyu.xyz/2020/06/28/Laravel-5-7%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%BC%8F%E6%B4%9E-CVE-2019-9081-2020%E7%AC%AC%E4%BA%94%E7%A9%BA%E9%97%B4%E9%A2%98%E8%A7%A3/	Laravel 5.7反序列化漏洞(CVE-2019-9081+2020第五空间题解)	zeroyu.xyz	zeroyu.xyz	/2020/06/28/Laravel-5-7%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%BC%8F%E6%B4%9E-CVE-2019-9081-2020%E7%AC%AC%E4%BA%94%E7%A9%BA%E9%97%B4%E9%A2%98%E8%A7%A3/
+20200629	Web安全	https://mp.weixin.qq.com/s/BvZ0niXtofDMjzUpHxjKig	Oracle 注入学习（终结版）	qq.com	mp.weixin.qq.com	/s/BvZ0niXtofDMjzUpHxjKig
+20200629	恶意分析	https://www.anquanke.com/post/id/209351	DDG的新征程——自研P2P协议构建混合P2P网络	anquanke.com	www.anquanke.com	/post/id/209351
+20200629	设备安全	https://www.anquanke.com/post/id/209141	Hacking All The Cars - CAN总线逆向	anquanke.com	www.anquanke.com	/post/id/209141
+20200629	运维安全	https://full-disclosure.eu/reports/2019/FDEU-CVE-2019-10222-telia-savitarna-backdoor.html	FDEU-CVE-2019-10222	full-disclosure.eu	full-disclosure.eu	/reports/2019/FDEU-CVE-2019-10222-telia-savitarna-backdoor.html
+20200629	运维安全	https://grsecurity.net/10_years_of_linux_security.pdf	10 Years of Linux Security	grsecurity.net	grsecurity.net	/10_years_of_linux_security.pdf
+20200629	漏洞分析	https://logicaltrust.net/blog/2020/06/tuxguitar.html	TuxGuitar - stealing local files (XXE)	logicaltrust.net	logicaltrust.net	/blog/2020/06/tuxguitar.html
+20200629	漏洞分析	https://blog.envoyproxy.io/exploiting-an-envoy-heap-vulnerability-96173d41792	Exploiting an Envoy heap vulnerability	envoyproxy.io	blog.envoyproxy.io	/exploiting-an-envoy-heap-vulnerability-96173d41792
+20200629	运维安全	https://zolder.io/2020/07/01/using-a-firewall-and-sentinel-to-detect-lateral-movement/?a=q	Detect lateral movement with Azure Sentinel	zolder.io	zolder.io	/2020/07/01/using-a-firewall-and-sentinel-to-detect-lateral-movement/
+20200629	设备安全	https://nyansatan.github.io/lightning/	Apple Lightning	github.io	nyansatan.github.io	/lightning/
+20200629	漏洞分析	https://mp.weixin.qq.com/s/CjNaxF3Z465u30ugvbDt1w	利用差分重放技术检测未初始化变量的使用	qq.com	mp.weixin.qq.com	/s/CjNaxF3Z465u30ugvbDt1w
+20200629	漏洞分析	https://ezqelusia.blogspot.com/2020/06/some-dos-bugs-while-processing.html	Some DOS bugs while processing Microsoft LNK files	blogspot.com	ezqelusia.blogspot.com	/2020/06/some-dos-bugs-while-processing.html
+20200629	工具	https://github.com/FSecureLABS/leonidas	leonidas: Automated Attack Simulation in the Cloud	github.com	github.com	/FSecureLABS/leonidas
+20200629	移动安全	https://vj0shii.info/android-app-testing-initial-steps/	Android App Source code Extraction and Bypassing Root and SSL Pinning checks	vj0shii.info	vj0shii.info	/android-app-testing-initial-steps/
+20200629	Web安全	https://blog.assetnote.io/2020/06/28/subdomain-takeover-to-account-takeover/?v=2	Taking over Azure DevOps Accounts with 1 Click	assetnote.io	blog.assetnote.io	/2020/06/28/subdomain-takeover-to-account-takeover/
+20200629	Web安全	https://medium.com/bugbountywriteup/story-of-a-2-5k-bounty-ssrf-on-zimbra-led-to-dump-all-credentials-in-clear-text-6fe826005ccc	SSRF on Zimbra Led to Dump All Credentials in Clear Text	medium.com	medium.com	/bugbountywriteup/story-of-a-2-5k-bounty-ssrf-on-zimbra-led-to-dump-all-credentials-in-clear-text-6fe826005ccc
+20200629	数据挖掘	https://mp.weixin.qq.com/s/EStPo05HwUTQHOTRx7qltg	初探网络安全智能决策	qq.com	mp.weixin.qq.com	/s/EStPo05HwUTQHOTRx7qltg
+20200629	运维安全	https://techcommunity.microsoft.com/t5/azure-sentinel/hunting-for-anomalous-sessions-in-your-data-with-azure-sentinel/ba-p/1492490	Hunting for anomalous sessions in your data with Azure Sentinel	microsoft.com	techcommunity.microsoft.com	/t5/azure-sentinel/hunting-for-anomalous-sessions-in-your-data-with-azure-sentinel/ba-p/1492490
+20200629	漏洞分析	https://labs.bluefrostsecurity.de/blog/2020/06/30/meltdown-reloaded-breaking-windows-kaslr/	Breaking Windows KASLR by Leaking KVA Shadow Mappings	bluefrostsecurity.de	labs.bluefrostsecurity.de	/blog/2020/06/30/meltdown-reloaded-breaking-windows-kaslr/
+20200629	漏洞分析	https://0xsha.io/posts/zombievpn-breaking-that-internet-security	ZombieVPN, Breaking That Internet Security	0xsha.io	0xsha.io	/posts/zombievpn-breaking-that-internet-security
+20200629	设备安全	https://mp.weixin.qq.com/s/Wc6rE_2rVKHOPoCQzmGvKg	小议智能设备安全研究	qq.com	mp.weixin.qq.com	/s/Wc6rE_2rVKHOPoCQzmGvKg

@@ -1,0 +1,21 @@
+20210118	Web安全	https://www.hetianlab.com/specialized/20210114134638	Five86-1靶机渗透实战	hetianlab.com	www.hetianlab.com	/specialized/20210114134638
+20210118	取证分析	https://mp.weixin.qq.com/s/6JzvO58Q05O2NoS9mX_mPQ	针对电话号码信息收集和OSINT框架	qq.com	mp.weixin.qq.com	/s/6JzvO58Q05O2NoS9mX_mPQ
+20210118	Web安全	https://www.sec-in.com/article/778	校园内网web平台的渗透测试(上)无限加分?	sec-in.com	www.sec-in.com	/article/778
+20210118	Web安全	https://www.sec-in.com/article/798	校园内网web平台Getshell(下·最终篇)	sec-in.com	www.sec-in.com	/article/798
+20210118	漏洞分析	https://www.anquanke.com/post/id/227604	CVE-2020-2883——WebLogic反序列化初探	anquanke.com	www.anquanke.com	/post/id/227604
+20210118	漏洞分析	https://www.anquanke.com/post/id/221892	基于抽象语法树和深度学习的高效漏洞检测方法	anquanke.com	www.anquanke.com	/post/id/221892
+20210118	取证分析	https://mp.weixin.qq.com/s/xW2u4s8xCTnLCkpDoK5Yzw	记一次反制追踪溯本求源	qq.com	mp.weixin.qq.com	/s/xW2u4s8xCTnLCkpDoK5Yzw
+20210118	Web安全	https://lorexxar.cn/2020/10/30/whitebox-2/	构造一个CodeDB来探索全新的白盒静态扫描方案	lorexxar.cn	lorexxar.cn	/2020/10/30/whitebox-2/
+20210118	比赛	https://www.anquanke.com/post/id/228129	从一道CTF题目到非对称加密GPG/PGP的学习	anquanke.com	www.anquanke.com	/post/id/228129
+20210118	漏洞分析	https://mp.weixin.qq.com/s/G26MJOH4VPene1Sd_zjEQw	Fuzzing战争系列之二：不畏浮云遮望眼	qq.com	mp.weixin.qq.com	/s/G26MJOH4VPene1Sd_zjEQw
+20210118	Web安全	https://www.sec-in.com/article/794	Windows后渗透之权限维持	sec-in.com	www.sec-in.com	/article/794
+20210118	取证分析	https://mp.weixin.qq.com/s/4zztI9f-pzvLxVFxlVdgMw	以太坊钓鱼合约：因为了解，所以上当	qq.com	mp.weixin.qq.com	/s/4zztI9f-pzvLxVFxlVdgMw
+20210118	取证分析	https://mp.weixin.qq.com/s/46yaHiXqDpq4cY4W1uqKsQ	常见的匿名化隐私保护技术	qq.com	mp.weixin.qq.com	/s/46yaHiXqDpq4cY4W1uqKsQ
+20210118	漏洞分析	https://www.hetianlab.com/specialized/20210115143514	Apache Flink漏洞复现	hetianlab.com	www.hetianlab.com	/specialized/20210115143514
+20210118	Web安全	https://www.hetianlab.com/specialized/20210115135759	Five86-2靶机渗透实战	hetianlab.com	www.hetianlab.com	/specialized/20210115135759
+20210118	数据挖掘	https://zhuanlan.zhihu.com/p/58313521	用PyOD工具库进行「异常检测」	zhihu.com	zhuanlan.zhihu.com	/p/58313521
+20210118	论文	https://mp.weixin.qq.com/s/K7IesHkuUTV2yAh9_yl6kw	FAVICONS和缓存：浏览器中的持久跟踪	qq.com	mp.weixin.qq.com	/s/K7IesHkuUTV2yAh9_yl6kw
+20210118	恶意分析	https://mp.weixin.qq.com/s/hVq3eBMDsX6tj1PsoUpy8Q	关于恶意软件加密流量检测的思考	qq.com	mp.weixin.qq.com	/s/hVq3eBMDsX6tj1PsoUpy8Q
+20210118	杂志	https://www.sec-wiki.com/weekly/359	SecWiki周刊（第359期)	sec-wiki.com	www.sec-wiki.com	/weekly/359
+20210118	漏洞分析	https://mp.weixin.qq.com/s/j-WbrCQVb4E2JfY-bDqzJw	CVE-2020-16040: Chromium V8引擎整数溢出漏洞分析	qq.com	mp.weixin.qq.com	/s/j-WbrCQVb4E2JfY-bDqzJw
+20210118	运维安全	https://mp.weixin.qq.com/s/9ZOSyPJdyxgrbsY4FIvgXw	基于机器学习的敏感信息泄露治理探索	qq.com	mp.weixin.qq.com	/s/9ZOSyPJdyxgrbsY4FIvgXw

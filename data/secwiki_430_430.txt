@@ -1,0 +1,16 @@
+20220523	运维安全	https://mp.weixin.qq.com/s/7xbUzxhrd8TXqPJo1tAizQ	基于XDR的网络安全体系思考与实践	qq.com	mp.weixin.qq.com	/s/7xbUzxhrd8TXqPJo1tAizQ
+20220523	恶意分析	https://mp.weixin.qq.com/s/z30VMqz1dOAmAazOSegvuQ	Gmail对附件的限制	qq.com	mp.weixin.qq.com	/s/z30VMqz1dOAmAazOSegvuQ
+20220523	Web安全	https://mp.weixin.qq.com/s?__biz=MzIzNDc4NzMxOQ==&mid=2247483660&idx=1&sn=2c882883f2e757207d57c1e36b1ed8c1&chksm=e8f05994df87d082d7ce2f944de5b91d6f3bb0f8613f325b824e9a3eaa71c9b2bdfb2f43c8dc#rd	HTB-467-Noter	qq.com	mp.weixin.qq.com	/s
+20220523	数据挖掘	https://mp.weixin.qq.com/s/AWGVCSmt2yQUU9M1TQ64SA	GitHub Copilot的安全性评估	qq.com	mp.weixin.qq.com	/s/AWGVCSmt2yQUU9M1TQ64SA
+20220523	恶意分析	https://mp.weixin.qq.com/s/1I5HEesRI1G2IlK9rWHmlQ	针对域名历史信誉的潜在滥用	qq.com	mp.weixin.qq.com	/s/1I5HEesRI1G2IlK9rWHmlQ
+20220523	恶意分析	https://mp.weixin.qq.com/s/-BMnRtAAdBn8U5N3PTKz9Q	SHADEWATCHER: 基于系统审计记录和推荐概念的网络威胁分析	qq.com	mp.weixin.qq.com	/s/-BMnRtAAdBn8U5N3PTKz9Q
+20220523	会议	https://mp.weixin.qq.com/s/yRKjJHaxYnZgxr6gMjem4Q	IEEE S&P 2022 云端报道（1）	qq.com	mp.weixin.qq.com	/s/yRKjJHaxYnZgxr6gMjem4Q
+20220523	杂志	https://www.sec-wiki.com/weekly/429	SecWiki周刊（第429期)	sec-wiki.com	www.sec-wiki.com	/weekly/429
+20220523	其它	https://www.sec-in.com/article/1646	PE文件结构解析2	sec-in.com	www.sec-in.com	/article/1646
+20220523	会议	https://mp.weixin.qq.com/s/B0dNIY1gkLUP_klJheAuQg	IEEE S&P 2022 云端报道（3）	qq.com	mp.weixin.qq.com	/s/B0dNIY1gkLUP_klJheAuQg
+20220523	其它	https://hardenedvault.net/zh-cn/blog/2022-05-25-vspp/	云原生安全Tetragon案例之安全产品自防护	hardenedvault.net	hardenedvault.net	/zh-cn/blog/2022-05-25-vspp/
+20220523	数据挖掘	https://mp.weixin.qq.com/s/u4bcXK2He2OZcx_4dzW4aA	基于嵌入的知识图谱实体对齐的基准研究	qq.com	mp.weixin.qq.com	/s/u4bcXK2He2OZcx_4dzW4aA
+20220523	其它	https://mp.weixin.qq.com/s/4ErBfydEa1DY7OAiLgeknA	MANDIANT 网络威胁情报分析人员核心能力框架	qq.com	mp.weixin.qq.com	/s/4ErBfydEa1DY7OAiLgeknA
+20220523	会议	https://mp.weixin.qq.com/s/5GE3s18ZPiYCeIu6ajSedw	IEEE S&P 2022 云端报道（2）	qq.com	mp.weixin.qq.com	/s/5GE3s18ZPiYCeIu6ajSedw
+20220523	会议	https://mp.weixin.qq.com/s/AODkKorJLCfv4HXkl1pzxw	IEEE S&P 2022 云端报道（4）	qq.com	mp.weixin.qq.com	/s/AODkKorJLCfv4HXkl1pzxw
+20220523	工具	https://github.com/nccgroup/ghostrings	Ghostrings is a collection of Ghidra scripts for recovering string definitions i	github.com	github.com	/nccgroup/ghostrings

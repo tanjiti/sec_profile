@@ -1,0 +1,22 @@
+20220704	法规	https://mp.weixin.qq.com/s/yy-jYDXf7Fwu_VmRC6WjfA	数据出境安全评估办法	qq.com	mp.weixin.qq.com	/s/yy-jYDXf7Fwu_VmRC6WjfA
+20220704	Web安全	https://mp.weixin.qq.com/s/LjRArIoMVo0d1AKVBp4Irg	全国攻防演习的防守体系建设	qq.com	mp.weixin.qq.com	/s/LjRArIoMVo0d1AKVBp4Irg
+20220704	Web安全	https://www.anquanke.com/post/id/275261	云主机AK/SK泄露利用	anquanke.com	www.anquanke.com	/post/id/275261
+20220704	Web安全	https://veo.pub/2022/memshell/	一种全新的内存马	veo.pub	veo.pub	/2022/memshell/
+20220704	取证分析	https://mp.weixin.qq.com/s/es1FvEA4970IEsdSmS6ARQ	网空测绘--就是另一形态的Google	qq.com	mp.weixin.qq.com	/s/es1FvEA4970IEsdSmS6ARQ
+20220704	Web安全	https://mp.weixin.qq.com/s/Hcp2pqYX7wo7a0rZVnf5Gg	拟态防御技术详解（核心技术篇）	qq.com	mp.weixin.qq.com	/s/Hcp2pqYX7wo7a0rZVnf5Gg
+20220704	运维安全	https://mp.weixin.qq.com/s/MUV-TAw0AkCI3sAhaHxK1g	设计你的安全架构OKR	qq.com	mp.weixin.qq.com	/s/MUV-TAw0AkCI3sAhaHxK1g
+20220704	移动安全	https://www.anquanke.com/post/id/275674	微信小程序抓包之路	anquanke.com	www.anquanke.com	/post/id/275674
+20220704	Web安全	https://www.hedysx.com/2853.html	CS插件—梼杌(基于cobalt strike平台的红队自动化框架)	hedysx.com	www.hedysx.com	/2853.html
+20220704	Web安全	https://www.anquanke.com/post/id/275550	跨链桥：Web3黑客必争之地	anquanke.com	www.anquanke.com	/post/id/275550
+20220704	观点	https://mp.weixin.qq.com/s/MbB6ntgCqWkGRDfVIcZO9w	从2023财年预算看美国网络发展动向	qq.com	mp.weixin.qq.com	/s/MbB6ntgCqWkGRDfVIcZO9w
+20220704	编程技术	https://icloudnative.io/posts/tetragon/	Tetragon -- 基于 eBPF 的安全可观测性 & 运行时增强	icloudnative.io	icloudnative.io	/posts/tetragon/
+20220704	数据挖掘	https://mp.weixin.qq.com/s/EoLBu75UYlF9DJ2Ff_oyBw	RSAC2022解读-人工智能安全洞察—在对抗中前进	qq.com	mp.weixin.qq.com	/s/EoLBu75UYlF9DJ2Ff_oyBw
+20220704	Web安全	https://mp.weixin.qq.com/s/HJGyD-0TH5PxomP9xQK2WQ	自建可信钓鱼邮件服务器	qq.com	mp.weixin.qq.com	/s/HJGyD-0TH5PxomP9xQK2WQ
+20220704	数据挖掘	https://zhuanlan.zhihu.com/p/63411717	图结构的相似度度量与分类	zhihu.com	zhuanlan.zhihu.com	/p/63411717
+20220704	杂志	https://www.sec-wiki.com/weekly/435	SecWiki周刊（第435期)	sec-wiki.com	www.sec-wiki.com	/weekly/435
+20220704	无线安全	https://mp.weixin.qq.com/s/rr-t9NScVRzqVV7bzCp9Hg	陆海空天一体化信息网络发展研究	qq.com	mp.weixin.qq.com	/s/rr-t9NScVRzqVV7bzCp9Hg
+20220704	Web安全	https://github.com/teamssix/cf	cf: 云环境利用框架 Cloud Exploitation Framework	github.com	github.com	/teamssix/cf
+20220704	无线安全	https://mp.weixin.qq.com/s/TY0HXcUto5b2lNDX8pK9Yg	卫星“黑客”详解“卫星通信的安全缺陷”	qq.com	mp.weixin.qq.com	/s/TY0HXcUto5b2lNDX8pK9Yg
+20220704	取证分析	https://mp.weixin.qq.com/s/FPh4IKJulmhaK1MGAA89lg	Mandiant网络威胁情报分析师核心能力框架	qq.com	mp.weixin.qq.com	/s/FPh4IKJulmhaK1MGAA89lg
+20220704	观点	https://mp.weixin.qq.com/s/mCJ2EJ_hzQOsrIVAhXiqpw	在软件工程领域，搞科研的这十年！	qq.com	mp.weixin.qq.com	/s/mCJ2EJ_hzQOsrIVAhXiqpw
+20220704	数据挖掘	https://mp.weixin.qq.com/s/v4F4UEaKeq8N2-hCuPRtcw	基于图注意网络的跨安全数据库实体关系预测	qq.com	mp.weixin.qq.com	/s/v4F4UEaKeq8N2-hCuPRtcw

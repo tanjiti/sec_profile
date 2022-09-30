@@ -1,0 +1,45 @@
+20211227	法规	http://www.scmgj.gov.cn/scsmmglj/c103235/2021/12/24/838569f2bbbe4d1fb1cb90e5c8d9dbdf.shtml	国家密码管理局规章制定程序规定（最新版）	scmgj.gov.cn	www.scmgj.gov.cn	/scsmmglj/c103235/2021/12/24/838569f2bbbe4d1fb1cb90e5c8d9dbdf.shtml
+20211227	法规	http://www.cac.gov.cn/2021-12/27/c_1642205314518676.htm	“十四五”国家信息化规划	cac.gov.cn	www.cac.gov.cn	/2021-12/27/c_1642205314518676.htm
+20211227	运维安全	https://mp.weixin.qq.com/s/c_DYMvsOqUEuWcUzNP96Jw	2021年安全架构总结以及2022安全方向展望	qq.com	mp.weixin.qq.com	/s/c_DYMvsOqUEuWcUzNP96Jw
+20211227	文档	http://doc.opensourcecloud.cn/2021/1227.pdf	业务安全发展洞察报告 2021	opensourcecloud.cn	doc.opensourcecloud.cn	/2021/1227.pdf
+20211227	编程技术	https://www.anquanke.com/post/id/263645	写给研发同学的富文本安全过滤方案	anquanke.com	www.anquanke.com	/post/id/263645
+20211227	Web安全	https://xz.aliyun.com/t/10677	快速探测目标防火墙出网端口的工具化实现	aliyun.com	xz.aliyun.com	/t/10677
+20211227	Web安全	https://github.com/flowerwind/JspFinder	一款通过污点追踪发现Jsp webshell的工具	github.com	github.com	/flowerwind/JspFinder
+20211227	设备安全	https://www.anquanke.com/post/id/263859	ZN600电信光猫分析 —— 初识	anquanke.com	www.anquanke.com	/post/id/263859
+20211227	漏洞分析	https://mp.weixin.qq.com/s/fW8joKKcKaN-UWv4zuhwTQ	Typora 授权解密与剖析	qq.com	mp.weixin.qq.com	/s/fW8joKKcKaN-UWv4zuhwTQ
+20211227	Web安全	https://mp.weixin.qq.com/s/ckRnClp6a7LDQgCaSPR0qQ	聊聊配置文件 RCE 这件事	qq.com	mp.weixin.qq.com	/s/ckRnClp6a7LDQgCaSPR0qQ
+20211227	恶意分析	https://mp.weixin.qq.com/s/FpCm2F7jcBYvCRUWC158Tg	连载：演化的高级威胁治理（一）	qq.com	mp.weixin.qq.com	/s/FpCm2F7jcBYvCRUWC158Tg
+20211227	恶意分析	http://doc.opensourcecloud.cn/2021/1228.pdf	软件供应链安全发展洞察报告（2021年）	opensourcecloud.cn	doc.opensourcecloud.cn	/2021/1228.pdf
+20211227	Web安全	https://mp.weixin.qq.com/s/gsdY8CWP2ZoRDruR6UMV2Q	扫描器性能分析案例	qq.com	mp.weixin.qq.com	/s/gsdY8CWP2ZoRDruR6UMV2Q
+20211227	设备安全	https://mp.weixin.qq.com/s/Qu0li5pss3mV870drxZFXQ	万字长文：物联网十年简史	qq.com	mp.weixin.qq.com	/s/Qu0li5pss3mV870drxZFXQ
+20211227	设备安全	https://mp.weixin.qq.com/s/_RI8OEFAEmlBG5RIhZtCtQ	消费级物联网安全基线	qq.com	mp.weixin.qq.com	/s/_RI8OEFAEmlBG5RIhZtCtQ
+20211227	Web安全	https://github.com/microsoft/playwright	playwright: Playwright is a framework for Web Testing and Automation-爬虫	github.com	github.com	/microsoft/playwright
+20211227	恶意分析	https://mp.weixin.qq.com/s/xfcszMh3uWVOcH_PS9Mnww	连载：演化的高级威胁治理（二）	qq.com	mp.weixin.qq.com	/s/xfcszMh3uWVOcH_PS9Mnww
+20211227	恶意分析	https://mp.weixin.qq.com/s/dRacrlwZpA-MlxlVwxyRrg	内核态eBPF程序实现容器逃逸与隐藏账号rootkit	qq.com	mp.weixin.qq.com	/s/dRacrlwZpA-MlxlVwxyRrg
+20211227	杂志	https://www.sec-wiki.com/weekly/408	SecWiki周刊（第408期)	sec-wiki.com	www.sec-wiki.com	/weekly/408
+20211227	观点	https://mp.weixin.qq.com/s/3gSo02og93pJZaYRQdFQ6w	漏洞披露是一个抗解问题--协同漏洞披露（CVD）简述	qq.com	mp.weixin.qq.com	/s/3gSo02og93pJZaYRQdFQ6w
+20211227	恶意分析	https://mp.weixin.qq.com/s/WTnj_DX7livQogyeahY7zw	连载：演化的高级威胁治理（四）	qq.com	mp.weixin.qq.com	/s/WTnj_DX7livQogyeahY7zw
+20211227	恶意分析	https://www.anquanke.com/post/id/263170	Tenda AX12路由器设备分析（二）之UPnP协议	anquanke.com	www.anquanke.com	/post/id/263170
+20211227	观点	https://mp.weixin.qq.com/s/l0feyYA1xfpN1V3bnT3MNQ	透明度PK国家安全？美国的VEP政策改革呼声再起	qq.com	mp.weixin.qq.com	/s/l0feyYA1xfpN1V3bnT3MNQ
+20211227	恶意分析	https://mp.weixin.qq.com/s/-CUzDKO4QWJ9Sc8OXu4OUw	连载：演化的高级威胁治理（三）	qq.com	mp.weixin.qq.com	/s/-CUzDKO4QWJ9Sc8OXu4OUw
+20211227	数据挖掘	https://mp.weixin.qq.com/s/gqfBW-0NgccF_5Wb8TTfKA	THINE：针对时序异质信息网络的表示学习	qq.com	mp.weixin.qq.com	/s/gqfBW-0NgccF_5Wb8TTfKA
+20220103	法规	http://www.gov.cn/zhengce/zhengceku/2022-01/04/content_5666429.htm	互联网信息服务算法推荐管理规定	www.gov.cn	www.gov.cn	/zhengce/zhengceku/2022-01/04/content_5666429.htm
+20220103	Web安全	https://github.com/Tencent/CodeAnalysis	CodeAnalysis: 腾讯 Static Code Analysis	github.com	github.com	/Tencent/CodeAnalysis
+20220103	编程技术	https://github.com/xiaojiaqi/10billionhongbaos	扛住100亿次红包请求的后端架构设计	github.com	github.com	/xiaojiaqi/10billionhongbaos
+20220103	Web安全	https://github.com/78778443/QingScan	QingScan: 漏洞扫描器粘合剂	github.com	github.com	/78778443/QingScan
+20220103	其它	http://www.echinagov.com/uploads/1/file/public/202201/20220104084609_kxu3wojaw0.pdf	网络安全标准实践指南——网络数据分类分级指引	echinagov.com	www.echinagov.com	/uploads/1/file/public/202201/20220104084609_kxu3wojaw0.pdf
+20220103	观点	https://mp.weixin.qq.com/s/jajNXjNxfAvV-7SmLnVUAQ	好的工作想法从哪里来	qq.com	mp.weixin.qq.com	/s/jajNXjNxfAvV-7SmLnVUAQ
+20220103	法规	https://mp.weixin.qq.com/s/AI5Pa37dS4q1XRCbbZXBsA	网络爬虫公司可能触犯哪些罪名	qq.com	mp.weixin.qq.com	/s/AI5Pa37dS4q1XRCbbZXBsA
+20220103	漏洞分析	https://mp.weixin.qq.com/s/-xlzHLT6WoX2nKphpO04fQ	某系统漏洞挖掘之固件分析	qq.com	mp.weixin.qq.com	/s/-xlzHLT6WoX2nKphpO04fQ
+20220103	论文	https://www.ccf.org.cn/Awards/Awards/2022-01-05/752703.shtml	2021年“CCF优秀博士学位论文奖”列表及全文	ccf.org.cn	www.ccf.org.cn	/Awards/Awards/2022-01-05/752703.shtml
+20220103	恶意分析	https://mp.weixin.qq.com/s/yoqfkKbvh8S0gQWX8xskZA	APT新趋势：战略性休眠域名利用率提升，检测困难	qq.com	mp.weixin.qq.com	/s/yoqfkKbvh8S0gQWX8xskZA
+20220103	论文	https://mp.weixin.qq.com/s/ZjgTm8V6ucZ88zgSUy2sag	开源情报及其在下一代网络安全中的应用---文献综述	qq.com	mp.weixin.qq.com	/s/ZjgTm8V6ucZ88zgSUy2sag
+20220103	运维安全	https://mp.weixin.qq.com/s/SvMd8aCalyg5pL6Jri-4AA	浅谈数据安全运营能力建设	qq.com	mp.weixin.qq.com	/s/SvMd8aCalyg5pL6Jri-4AA
+20220103	无线安全	https://mp.weixin.qq.com/s/LBrXIivudLZlH_a-ecEzDg	《2021太空安全报告》	qq.com	mp.weixin.qq.com	/s/LBrXIivudLZlH_a-ecEzDg
+20220103	恶意分析	https://mp.weixin.qq.com/s/xIuXEt6DXoBoXqgzBIWcxQ	DataCon2021域名体系安全赛道黑产方向赛题深度解析	qq.com	mp.weixin.qq.com	/s/xIuXEt6DXoBoXqgzBIWcxQ
+20220103	数据挖掘	https://toooold.com/2022/01/04/useful_useless_model_cn.html	有用的无用模型：网络安全中复杂问题的建模方法	toooold.com	toooold.com	/2022/01/04/useful_useless_model_cn.html
+20220103	杂志	https://www.sec-wiki.com/weekly/409	SecWiki周刊（第409期)	sec-wiki.com	www.sec-wiki.com	/weekly/409
+20220103	观点	https://mp.weixin.qq.com/s/xMXRlTjzeS6a4hYRyH1wZg	2021年网络安全产业态势总结	qq.com	mp.weixin.qq.com	/s/xMXRlTjzeS6a4hYRyH1wZg
+20220103	法规	https://mp.weixin.qq.com/s/34IXkqX6QjRAuKd2-Cq2Iw	聚焦算法推荐乱象问题 构建算法安全治理体系	qq.com	mp.weixin.qq.com	/s/34IXkqX6QjRAuKd2-Cq2Iw
+20220103	数据挖掘	https://mp.weixin.qq.com/s/ct7FyMHPAyrVe_8mx8kPnw	商品图谱构建与实体对齐	qq.com	mp.weixin.qq.com	/s/ct7FyMHPAyrVe_8mx8kPnw
+20220103	观点	https://mp.weixin.qq.com/s/hWB07M_0obNuJCZa7kGSoA	2021 年全球主要网络安全威胁发展态势	qq.com	mp.weixin.qq.com	/s/hWB07M_0obNuJCZa7kGSoA

@@ -1,0 +1,13 @@
+20220321	运维安全	https://mp.weixin.qq.com/s/EjFZ2wr5ynzhiqttVAm8ng	编写信息安全规划的几点经验	qq.com	mp.weixin.qq.com	/s/EjFZ2wr5ynzhiqttVAm8ng
+20220321	其它	https://mp.weixin.qq.com/s/hHaHePZWzG8shLNM2Suh5Q	五十年跌宕起伏，恶意软件进化路	qq.com	mp.weixin.qq.com	/s/hHaHePZWzG8shLNM2Suh5Q
+20220321	运维安全	https://yunshanwuyin.com/BlogDetail?Id=thutgzhvtyyn4ezxzps6kcfu	初探Shellcode免杀	yunshanwuyin.com	yunshanwuyin.com	/BlogDetail
+20220321	恶意分析	https://ti.qianxin.com/uploads/2022/03/25/68f214e06e1983b73b7d0f2e075a5fa8.pdf	全球高级持续性威胁（APT）2021年度报告	qianxin.com	ti.qianxin.com	/uploads/2022/03/25/68f214e06e1983b73b7d0f2e075a5fa8.pdf
+20220321	杂志	https://www.sec-wiki.com/weekly/420	SecWiki周刊（第420期)	sec-wiki.com	www.sec-wiki.com	/weekly/420
+20220321	运维安全	https://yunshanwuyin.com/BlogDetail?Id=2rw2depz3jhghnskrsg9874p	Windows驱动签名经验贴	yunshanwuyin.com	yunshanwuyin.com	/BlogDetail
+20220321	取证分析	https://mp.weixin.qq.com/s/AG-ITyHlwesxS2k-5BzgKg	Lapsus$组织攻击微软的手法以及几点启示	qq.com	mp.weixin.qq.com	/s/AG-ITyHlwesxS2k-5BzgKg
+20220321	取证分析	https://mp.weixin.qq.com/s/uXj3ahOt9wfGvllr8cfZJw	漏洞情报：为什么、要什么和怎么做	qq.com	mp.weixin.qq.com	/s/uXj3ahOt9wfGvllr8cfZJw
+20220321	取证分析	https://mp.weixin.qq.com/s/O5g314Nc_fO_NsO3NX_ZJg	OpenCTI入门笔记（一）:搭建框架和导入数据	qq.com	mp.weixin.qq.com	/s/O5g314Nc_fO_NsO3NX_ZJg
+20220321	漏洞分析	https://mp.weixin.qq.com/s/8gobzeNpcBGBor7pdYNaKQ	预测功能性漏洞利用	qq.com	mp.weixin.qq.com	/s/8gobzeNpcBGBor7pdYNaKQ
+20220321	漏洞分析	https://mp.weixin.qq.com/s/c79MJeNHG8tpcbkZqEnApw	浅谈模糊测试基础技术——引导机制	qq.com	mp.weixin.qq.com	/s/c79MJeNHG8tpcbkZqEnApw
+20220321	恶意分析	https://mp.weixin.qq.com/s/MTgYFtbvLb_FBhvh1ZPajg	基于LSTM的二进制代码相似性检测	qq.com	mp.weixin.qq.com	/s/MTgYFtbvLb_FBhvh1ZPajg
+20220321	取证分析	https://mp.weixin.qq.com/s/S2SvYs1YpqP6H535jwV2ow	利用开源情报发现并解释恶意行为	qq.com	mp.weixin.qq.com	/s/S2SvYs1YpqP6H535jwV2ow

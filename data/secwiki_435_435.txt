@@ -1,0 +1,16 @@
+20220627	法规	https://mp.weixin.qq.com/s/QTuVfRBRgq2M2Kqbzhecbg	互联网用户账号信息管理规定	qq.com	mp.weixin.qq.com	/s/QTuVfRBRgq2M2Kqbzhecbg
+20220627	运维安全	https://mp.weixin.qq.com/s/eL73amOSRojcaIWsMb0Inw	商业银行攻防检测体系建设思考	qq.com	mp.weixin.qq.com	/s/eL73amOSRojcaIWsMb0Inw
+20220627	Web安全	https://github.com/zan8in/afrog	afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具	github.com	github.com	/zan8in/afrog
+20220627	恶意分析	https://github.com/10000Tigers/BlueHound	BlueHound-一款自研主机威胁狩猎工具	github.com	github.com	/10000Tigers/BlueHound
+20220627	无线安全	https://mp.weixin.qq.com/s/VXOAUERtp8HVWTk-vjjXvQ	卫星安全从入门到进门	qq.com	mp.weixin.qq.com	/s/VXOAUERtp8HVWTk-vjjXvQ
+20220627	运维安全	https://mp.weixin.qq.com/s/0hc14-9SAGghfS35MdbMWA	信息系统供应链安全管理入门	qq.com	mp.weixin.qq.com	/s/0hc14-9SAGghfS35MdbMWA
+20220627	取证分析	http://noahblog.360.cn/advanced-windows-taskscheduler-playbook/	Advanced Windows TaskScheduler Playbook	360.cn	noahblog.360.cn	/advanced-windows-taskscheduler-playbook/
+20220627	杂志	https://www.sec-wiki.com/weekly/434	SecWiki周刊（第434期)	sec-wiki.com	www.sec-wiki.com	/weekly/434
+20220627	漏洞分析	https://4ra1n.love/post/bHi_S3YrB/	浅谈Shiro CVE-2022-32532	4ra1n.love	4ra1n.love	/post/bHi_S3YrB/
+20220627	运维安全	https://mp.weixin.qq.com/s/6JMofN8KlLj03nFfFIKsxg	浅谈企业安全建设“道”与“术”--道篇	qq.com	mp.weixin.qq.com	/s/6JMofN8KlLj03nFfFIKsxg
+20220627	无线安全	https://mp.weixin.qq.com/s/LDymTlyP67ZVJDdlNy-gNQ	开源卫星地面站OpenATS	qq.com	mp.weixin.qq.com	/s/LDymTlyP67ZVJDdlNy-gNQ
+20220627	恶意分析	https://mp.weixin.qq.com/s/woXaMebAX0JjA6tRYpBFAQ	检测引擎对熵值的敏感如何影响壳的设计	qq.com	mp.weixin.qq.com	/s/woXaMebAX0JjA6tRYpBFAQ
+20220627	Web安全	https://xz.aliyun.com/t/11491	记一次Jira的搭建和相关利用	aliyun.com	xz.aliyun.com	/t/11491
+20220627	恶意分析	https://mp.weixin.qq.com/s/enDh7LIAYegrcQmP0Cc5-A	构建模块化调用图以实现NodeJS应用的安全扫描	qq.com	mp.weixin.qq.com	/s/enDh7LIAYegrcQmP0Cc5-A
+20220627	漏洞分析	https://mp.weixin.qq.com/s/coT5aoI3WustfG0NXp2Qfw	在软件缺陷预测中使用软件可视化和迁移学习	qq.com	mp.weixin.qq.com	/s/coT5aoI3WustfG0NXp2Qfw
+20220627	Web安全	http://noahblog.360.cn/jarmzhi-wen-sui-ji-hua-ji-zhu-shi-xian/	JARM指纹随机化技术实现	360.cn	noahblog.360.cn	/jarmzhi-wen-sui-ji-hua-ji-zhu-shi-xian/

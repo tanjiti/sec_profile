@@ -1,0 +1,49 @@
+20190513	事件	https://nosec.org/home/detail/2635.html	CVE-2019-0708 | 远程桌面服务远程执行代码漏洞	nosec.org	nosec.org	/home/detail/2635.html
+20190513	新闻	https://mp.weixin.qq.com/s/dqXA8KT_zFJWEx39RGd9Qg	网络存证未获取法院支持判决书全文	qq.com	mp.weixin.qq.com	/s/dqXA8KT_zFJWEx39RGd9Qg
+20190513	人物	https://mp.weixin.qq.com/s/GryQEbF3wxAmT7e-76X-mw	“网安卫士”刘文懋	qq.com	mp.weixin.qq.com	/s/GryQEbF3wxAmT7e-76X-mw
+20190513	新闻	https://mp.weixin.qq.com/s/QaYPI8z4bXLUChuOrNxC-A	国内外网络战争现场报告平台	qq.com	mp.weixin.qq.com	/s/QaYPI8z4bXLUChuOrNxC-A
+20190513	取证分析	https://mp.weixin.qq.com/s/xegDRXu9A0YMx3v8_E86Ow	推荐几个优质开源情报分析源	qq.com	mp.weixin.qq.com	/s/xegDRXu9A0YMx3v8_E86Ow
+20190513	事件	https://nosec.org/home/detail/2649.html	俄罗斯政府网站被爆泄露225万用户社保和护照等信息	nosec.org	nosec.org	/home/detail/2649.html
+20190513	新闻	https://www.cnbeta.com/articles/tech/848027.htm	美海军陆战队招募志愿者组建平民网络安全小组	cnbeta.com	www.cnbeta.com	/articles/tech/848027.htm
+20190513	其它	https://nosec.org/home/detail/2574.html	webshell免杀套路	nosec.org	nosec.org	/home/detail/2574.html
+20190513	Web安全	https://mp.weixin.qq.com/s/v92dLQSgLXv7JVkc8AUyvA	Web指纹识别技术研究与优化实现	qq.com	mp.weixin.qq.com	/s/v92dLQSgLXv7JVkc8AUyvA
+20190513	Web安全	https://xz.aliyun.com/t/5128	一次综合渗透测试	aliyun.com	xz.aliyun.com	/t/5128
+20190513	Web安全	https://mp.weixin.qq.com/s/lz5cAvLbYIdAQ3aRiiseYg	GeoServer漏洞利用总结及案例参考	qq.com	mp.weixin.qq.com	/s/lz5cAvLbYIdAQ3aRiiseYg
+20190513	设备安全	https://mp.weixin.qq.com/s/Fuc6r86k7eZ3nDvW5ZfcNQ	由破解电梯卡初识RFID	qq.com	mp.weixin.qq.com	/s/Fuc6r86k7eZ3nDvW5ZfcNQ
+20190513	运维安全	https://blog.flanker017.me/a-new-approach-to-modern-office-network-security-series-1/	现代办公网安全体系建设系列之一：统一化新型认证体系探索	flanker017.me	blog.flanker017.me	/a-new-approach-to-modern-office-network-security-series-1/
+20190513	数据挖掘	https://mp.weixin.qq.com/s/r7EY1zcydTmaaEY91H1m5A	如何利用开源风控系统(星云)防止撞库	qq.com	mp.weixin.qq.com	/s/r7EY1zcydTmaaEY91H1m5A
+20190513	运维安全	https://github.com/w-digital-scanner/w12scan	w12scan: 网络资产发现引擎	github.com	github.com	/w-digital-scanner/w12scan
+20190513	杂志	https://www.sec-wiki.com/weekly/271	SecWiki周刊（第271期)	sec-wiki.com	www.sec-wiki.com	/weekly/271
+20190513	比赛	https://www.anquanke.com/post/id/178434	DDCTF2019官方Write Up——Web篇	anquanke.com	www.anquanke.com	/post/id/178434
+20190513	数据挖掘	https://mp.weixin.qq.com/s/FLXeHnLo03r-8qfUX48VHw	基于小样本学习的意图识别冷启动	qq.com	mp.weixin.qq.com	/s/FLXeHnLo03r-8qfUX48VHw
+20190513	漏洞分析	https://mp.weixin.qq.com/s/NC9bSf1QGXugPBPYVgaEsQ	CVE-2019-3568： WhatsApp 0 day漏洞分析	qq.com	mp.weixin.qq.com	/s/NC9bSf1QGXugPBPYVgaEsQ
+20190513	Web安全	https://rhinosecuritylabs.com/application-security/exploiting-cve-2018-1335-apache-tika/	Exploiting CVE-2018-1335: Command Injection in Apache Tika	rhinosecuritylabs.com	rhinosecuritylabs.com	/application-security/exploiting-cve-2018-1335-apache-tika/
+20190513	Web安全	https://fidusinfosec.com/exploiting-10000-devices-used-by-britains-most-vulnerable/	EXPLOITING 10,000+ DEVICES USED BY BRITAIN’S MOST VULNERABLE	fidusinfosec.com	fidusinfosec.com	/exploiting-10000-devices-used-by-britains-most-vulnerable/
+20190513	数据挖掘	https://mp.weixin.qq.com/s/iifhFE8S_3E5d5MvGRbVow	基于设备指纹的风控建模以及机器学习的尝试	qq.com	mp.weixin.qq.com	/s/iifhFE8S_3E5d5MvGRbVow
+20190513	Web安全	https://mp.weixin.qq.com/s/8UuCC76DHYOuAtpF5MiOQg	Powershell攻击指南黑客后渗透之道系列—基础篇	qq.com	mp.weixin.qq.com	/s/8UuCC76DHYOuAtpF5MiOQg
+20190513	数据挖掘	https://www.infoq.cn/article/Gu-zjXGiWA85lQH7eCca	采用弱监督算法给大规模数据集打标签	infoq.cn	www.infoq.cn	/article/Gu-zjXGiWA85lQH7eCca
+20190513	Web安全	https://nosec.org/home/detail/2640.html	利用PHP应用程序中的远程文件包含（RFI）并绕过远程URL包含限制	nosec.org	nosec.org	/home/detail/2640.html
+20190513	Web安全	https://blog.cystack.net/arbitrary-file-read-vulnerability-in-hackerrank/	Arbitrary file read vulnerability in Hackerrank	cystack.net	blog.cystack.net	/arbitrary-file-read-vulnerability-in-hackerrank/
+20190513	恶意分析	https://nosec.org/home/detail/2638.html	恶意软件训练集：FollowUP	nosec.org	nosec.org	/home/detail/2638.html
+20190513	漏洞分析	http://zeroyu.xyz/2019/05/15/how-to-use-afl-fuzz/	AFL使用指南	zeroyu.xyz	zeroyu.xyz	/2019/05/15/how-to-use-afl-fuzz/
+20190513	恶意分析	https://www.anquanke.com/post/id/178158	2018年网站攻击态势及“攻击团伙”挖掘分析报告	anquanke.com	www.anquanke.com	/post/id/178158
+20190513	恶意分析	https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703/	FIN7.5: the infamous cybercrime rig “FIN7” continues its activities	securelist.com	securelist.com	/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703/
+20190513	Web安全	https://www.anquanke.com/post/id/178339	漏扫动态爬虫实践	anquanke.com	www.anquanke.com	/post/id/178339
+20190513	其它	https://blog.silentsignal.eu/2019/05/10/decrypting-eazfuscator-net-encrypted-symbol-names/	Decrypting Eazfuscator.NET encrypted symbol names	silentsignal.eu	blog.silentsignal.eu	/2019/05/10/decrypting-eazfuscator-net-encrypted-symbol-names/
+20190513	比赛	https://www.anquanke.com/post/id/178383	DDCTF2019官方Write Up——Android篇	anquanke.com	www.anquanke.com	/post/id/178383
+20190513	比赛	https://www.anquanke.com/post/id/178414	DDCTF2019官方Write Up——Reverse篇	anquanke.com	www.anquanke.com	/post/id/178414
+20190513	漏洞分析	http://blog.ptsecurity.com/2019/05/dhcp-security-in-windows-10-analyzing.html	DHCP security in Windows 10: analyzing critical vulnerability CVE-2019-0726	ptsecurity.com	blog.ptsecurity.com	/2019/05/dhcp-security-in-windows-10-analyzing.html
+20190513	恶意分析	https://book.yunzhan365.com/dksd/oyru/mobile/index.html	基于攻击链的网络威胁捕猎架构设计	yunzhan365.com	book.yunzhan365.com	/dksd/oyru/mobile/index.html
+20190513	取证分析	https://www.aqniu.com/vendor/47664.html	企业内网之网络管控or自动科学上网	aqniu.com	www.aqniu.com	/vendor/47664.html
+20190513	恶意分析	http://blog.nsfocus.net/apt34-glimpsepoisonfrog/	APT34 Glimpse&PoisonFrog 项目分析	nsfocus.net	blog.nsfocus.net	/apt34-glimpsepoisonfrog/
+20190513	恶意分析	https://www.4hou.com/system/18029.html	如何构建公有云DDoS溯源系统	4hou.com	www.4hou.com	/system/18029.html
+20190513	运维安全	http://plcscan.org/blog/2019/05/application-of-threat-trap-in-red-and-blue-teams/	浅谈威胁诱捕技术在网络安全保障与蓝队防御过程中的重要应用	plcscan.org	plcscan.org	/blog/2019/05/application-of-threat-trap-in-red-and-blue-teams/
+20190513	比赛	https://www.anquanke.com/post/id/178392	DDCTF2019官方Write Up——MISC篇	anquanke.com	www.anquanke.com	/post/id/178392
+20190513	恶意分析	https://mp.weixin.qq.com/s/Agy_I_TjwiJjvPL4q7j6nQ	威胁情报的“魔力”	qq.com	mp.weixin.qq.com	/s/Agy_I_TjwiJjvPL4q7j6nQ
+20190513	比赛	https://www.anquanke.com/post/id/178425	工控安全从入门到实战——概述（二）	anquanke.com	www.anquanke.com	/post/id/178425
+20190513	漏洞分析	https://www.4hou.com/vulnerable/17663.html	知往鉴今：Chromium近三年UXSS漏洞分析及缓解、预防和检测措施	4hou.com	www.4hou.com	/vulnerable/17663.html
+20190513	比赛	https://www.anquanke.com/post/id/178265	工控安全从入门到实战——概述（一）	anquanke.com	www.anquanke.com	/post/id/178265
+20190513	其它	https://www.freebuf.com/articles/es/202351.html	国家网络安全能力成熟度模型（一）	freebuf.com	www.freebuf.com	/articles/es/202351.html
+20190513	漏洞分析	http://blog.nsfocus.net/function-recognition-reverse-engineering-iot-equipment/	IoT设备逆向工程中的函数识别	nsfocus.net	blog.nsfocus.net	/function-recognition-reverse-engineering-iot-equipment/
+20190513	漏洞分析	https://www.freebuf.com/vuls/202814.html	Cisco RV320、RV325未授权远程代码执行漏洞分析及建议	freebuf.com	www.freebuf.com	/vuls/202814.html
+20190513	论文	https://mp.weixin.qq.com/s/cSjoVgxjOAuIUlewX9iIoA	DNS Cache-Based User Tracking	qq.com	mp.weixin.qq.com	/s/cSjoVgxjOAuIUlewX9iIoA

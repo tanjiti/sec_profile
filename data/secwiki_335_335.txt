@@ -1,0 +1,29 @@
+20200727	编程技术	https://xie.infoq.cn/article/3f9f21aedf587862cc54a9d1e	从零开始写一个迷你版的Tomcat	infoq.cn	xie.infoq.cn	/article/3f9f21aedf587862cc54a9d1e
+20200727	人物	https://zhuanlan.zhihu.com/p/163375485	r3kapig：校园明星 CTF 战队的奇幻养成之旅	zhihu.com	zhuanlan.zhihu.com	/p/163375485
+20200727	Web安全	https://mp.weixin.qq.com/s/zrJ2yP6B64A-iFnBdea9PQ	内外网资产对应关系定位 [ 补 ]	qq.com	mp.weixin.qq.com	/s/zrJ2yP6B64A-iFnBdea9PQ
+20200727	运维安全	https://mp.weixin.qq.com/s/E72-K43f-TkLv2WIHqKyKA	现代化SOAR的产品化落地（一）	qq.com	mp.weixin.qq.com	/s/E72-K43f-TkLv2WIHqKyKA
+20200727	Web安全	https://mp.weixin.qq.com/s/U8Y_8DCPoPiTL-OHwry5Qw	shiro 不需要dnslog gadget的探测方式（附工具下载)	qq.com	mp.weixin.qq.com	/s/U8Y_8DCPoPiTL-OHwry5Qw
+20200727	恶意分析	https://zhuanlan.zhihu.com/p/164610491	从开源组件安全现状浅谈开源组件安全运营	zhihu.com	zhuanlan.zhihu.com	/p/164610491
+20200727	漏洞分析	https://mp.weixin.qq.com/s/4NPVp-ktyTIT0HfvFgV9wQ	Cisco ASA/FTD未授权文件删除漏洞简要分析	qq.com	mp.weixin.qq.com	/s/4NPVp-ktyTIT0HfvFgV9wQ
+20200727	数据挖掘	https://zhuanlan.zhihu.com/p/163278672	多模态知识图谱	zhihu.com	zhuanlan.zhihu.com	/p/163278672
+20200727	Web安全	https://mp.weixin.qq.com/s/75qiSkXkzP5CJ2pA_8tTyQ	构建基于攻防实效的安全体系	qq.com	mp.weixin.qq.com	/s/75qiSkXkzP5CJ2pA_8tTyQ
+20200727	杂志	https://www.sec-wiki.com/weekly/334	SecWiki周刊（第334期)	sec-wiki.com	www.sec-wiki.com	/weekly/334
+20200727	会议	https://zhuanlan.zhihu.com/p/163528893	记 MOSEC 2020 及上海一游 (1)	zhihu.com	zhuanlan.zhihu.com	/p/163528893
+20200727	数据挖掘	https://developers.google.com/machine-learning/crash-course?hl=zh-cn	Google机器学习速成课程	google.com	developers.google.com	/machine-learning/crash-course
+20200727	Web安全	https://mp.weixin.qq.com/s/-jU4HrPtB8rD4cmqAKZOZw	抛砖引玉之CobaltStrike4.1的BOF	qq.com	mp.weixin.qq.com	/s/-jU4HrPtB8rD4cmqAKZOZw
+20200727	恶意分析	https://mp.weixin.qq.com/s/FgzIm-IK02rjEf3JvxOxrw	PHP Webshell那些事-攻击篇	qq.com	mp.weixin.qq.com	/s/FgzIm-IK02rjEf3JvxOxrw
+20200727	会议	https://zhuanlan.zhihu.com/p/164905986	记 MOSEC 2020 及上海一游 (2)	zhihu.com	zhuanlan.zhihu.com	/p/164905986
+20200727	其它	https://mp.weixin.qq.com/s/53wDSOuSrvybTtHrh10i-Q	网络空间地理学+可视化技术	qq.com	mp.weixin.qq.com	/s/53wDSOuSrvybTtHrh10i-Q
+20200727	恶意分析	https://securelist.com/apt-trends-report-q2-2020/97937/	APT trends report Q2 2020	securelist.com	securelist.com	/apt-trends-report-q2-2020/97937/
+20200727	数据挖掘	http://www.covert.io/mining-mx-records-for-fun-and-profit/	Mining DNS MX Records for Fun and Profit	covert.io	www.covert.io	/mining-mx-records-for-fun-and-profit/
+20200727	数据挖掘	https://mp.weixin.qq.com/s/BoAcBD4cVaZZ4OZ_uHdBng	基于Redis的扫描器任务调度设计方案	qq.com	mp.weixin.qq.com	/s/BoAcBD4cVaZZ4OZ_uHdBng
+20200727	设备安全	https://mp.weixin.qq.com/s/Qn7-bl5Qvw6_Qtg9QYKZ7w	工控防火墙测试之功能篇_Fuzzing测试	qq.com	mp.weixin.qq.com	/s/Qn7-bl5Qvw6_Qtg9QYKZ7w
+20200727	无线安全	https://mp.weixin.qq.com/s/ra_N5dkhZOcHmdHuzl-oQw	近源渗透测试之Keylogger实战	qq.com	mp.weixin.qq.com	/s/ra_N5dkhZOcHmdHuzl-oQw
+20200727	Web安全	https://mp.weixin.qq.com/s/LSmO0R-9D2Tj-zRxDu7wWw	Shiro回显利用工具（更新为burp插件	qq.com	mp.weixin.qq.com	/s/LSmO0R-9D2Tj-zRxDu7wWw
+20200727	Web安全	https://mp.weixin.qq.com/s/y2gSwshj1Dl4v2CXqWXLGg	mysql盲注总结	qq.com	mp.weixin.qq.com	/s/y2gSwshj1Dl4v2CXqWXLGg
+20200727	Web安全	http://phantom0301.cc/2020/07/25/myscanner/	甲方黑盒扫描器建设杂谈（一）	phantom0301.cc	phantom0301.cc	/2020/07/25/myscanner/
+20200727	Web安全	https://www.freebuf.com/articles/web/245209.html	XSS Game 分析以及知识点总结	freebuf.com	www.freebuf.com	/articles/web/245209.html
+20200727	论文	https://mp.weixin.qq.com/s/WoDK9X3bg_WNy12EC_Hz7g	RAID 2020 论文录用列表	qq.com	mp.weixin.qq.com	/s/WoDK9X3bg_WNy12EC_Hz7g
+20200727	数据挖掘	https://mp.weixin.qq.com/s/SQ3eF534Rr9dHWGLRVseIQ	小窥深度学习框架中的安全问题	qq.com	mp.weixin.qq.com	/s/SQ3eF534Rr9dHWGLRVseIQ
+20200727	无线安全	https://mp.weixin.qq.com/s/bDCOmABucnhPfquvEmH0hA	NETGEAR httpd缓冲区溢出漏洞分析	qq.com	mp.weixin.qq.com	/s/bDCOmABucnhPfquvEmH0hA
+20200727	Web安全	https://xz.aliyun.com/t/8047	Android渗透测试HTTPS证书校验绕过	aliyun.com	xz.aliyun.com	/t/8047

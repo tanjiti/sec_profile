@@ -1,0 +1,22 @@
+20210621	比赛	https://mp.weixin.qq.com/s/tU6R2Q4_unEoAMk27vv9xg	web选手如何快速卷入二进制世界	qq.com	mp.weixin.qq.com	/s/tU6R2Q4_unEoAMk27vv9xg
+20210621	Web安全	https://www.sec-in.com/article/1091	身临其境之谁是猎人	sec-in.com	www.sec-in.com	/article/1091
+20210621	Web安全	https://mp.weixin.qq.com/s/SU5B7ULgmOC7HsRscMrkKw	通过ScriptEngine实现冰蝎shell免杀	qq.com	mp.weixin.qq.com	/s/SU5B7ULgmOC7HsRscMrkKw
+20210621	杂志	https://www.sec-wiki.com/weekly/381	SecWiki周刊（第381期)	sec-wiki.com	www.sec-wiki.com	/weekly/381
+20210621	恶意分析	https://mp.weixin.qq.com/s/S0lb93pAhnDbcdYXaixicg	skylarinst-winc(10.199.1.19_80).exe样本分析	qq.com	mp.weixin.qq.com	/s/S0lb93pAhnDbcdYXaixicg
+20210621	Web安全	https://jayl1n.github.io/2021/06/25/use-inlinehook-technology-to-make-a-more-general-webshell/	利用 Hook 技术打造通用的 Webshell	github.io	jayl1n.github.io	/2021/06/25/use-inlinehook-technology-to-make-a-more-general-webshell/
+20210621	运维安全	https://www.sec-un.org/%e4%be%9b%e5%ba%94%e9%93%be%e5%ae%89%e5%85%a8%e7%9a%84%e5%ad%a6%e4%b9%a0%e7%ac%94%e8%ae%b0/	供应链安全的学习笔记	sec-un.org	www.sec-un.org	/%e4%be%9b%e5%ba%94%e9%93%be%e5%ae%89%e5%85%a8%e7%9a%84%e5%ad%a6%e4%b9%a0%e7%ac%94%e8%ae%b0/
+20210621	Web安全	https://mp.weixin.qq.com/s/a6QvgLFCO4rCS3FRYZ3lug	基于业务场景的漏洞挖掘	qq.com	mp.weixin.qq.com	/s/a6QvgLFCO4rCS3FRYZ3lug
+20210621	漏洞分析	https://paper.seebug.org/1615/	傻瓜式 fuzzing 系列一	seebug.org	paper.seebug.org	/1615/
+20210621	取证分析	https://mp.weixin.qq.com/s/2yfjMVlTHwNRT5zOGem26w	隐秘的印记：暗水印实践技术分享	qq.com	mp.weixin.qq.com	/s/2yfjMVlTHwNRT5zOGem26w
+20210621	编程技术	https://security.tencent.com/index.php/blog/msg/194	自研HIDS「洋葱」后台上云架构演进实践	tencent.com	security.tencent.com	/index.php/blog/msg/194
+20210621	运维安全	https://mp.weixin.qq.com/s/SCI9sSQHyyriVoCbOGJz5w	零信任实战架构总结	qq.com	mp.weixin.qq.com	/s/SCI9sSQHyyriVoCbOGJz5w
+20210621	论文	https://www.anquanke.com/post/id/244126	针对语言翻译系统的数据投毒攻击	anquanke.com	www.anquanke.com	/post/id/244126
+20210621	运维安全	https://zhuanlan.zhihu.com/p/382721804	从BAB到SLSA——谈Google的软件供应链风险治理	zhihu.com	zhuanlan.zhihu.com	/p/382721804
+20210621	取证分析	https://mp.weixin.qq.com/s/L0VjmyXMg2p_KbSMl3NEIw	研究Twitter账户要寻找什么及工具	qq.com	mp.weixin.qq.com	/s/L0VjmyXMg2p_KbSMl3NEIw
+20210621	Web安全	https://www.sec-in.com/article/1088	MybatisPuls分页插件中的SQL注入	sec-in.com	www.sec-in.com	/article/1088
+20210621	漏洞分析	https://mp.weixin.qq.com/s/S0HbZ7m9Wcj1b_EUwC7xxw	Go语言逆向初探	qq.com	mp.weixin.qq.com	/s/S0HbZ7m9Wcj1b_EUwC7xxw
+20210621	Web安全	https://www.anquanke.com/post/id/243329	Java 命令执行之我见	anquanke.com	www.anquanke.com	/post/id/243329
+20210621	恶意分析	https://mp.weixin.qq.com/s/1fnDelBE1HisEaopEyk8nQ	Java 供应链(依赖)安全检测实践	qq.com	mp.weixin.qq.com	/s/1fnDelBE1HisEaopEyk8nQ
+20210621	Web安全	https://www.anquanke.com/post/id/244821	PbootCms-3.04前台RCE挖掘过程	anquanke.com	www.anquanke.com	/post/id/244821
+20210621	恶意分析	https://mp.weixin.qq.com/s/8Dqjas9-fV5DoglZ9MbvZg	go样本加载过程分析	qq.com	mp.weixin.qq.com	/s/8Dqjas9-fV5DoglZ9MbvZg
+20210621	观点	https://mp.weixin.qq.com/s/c5-aV9Aad8SUEySHz1Vg-A	基于工控业务场景构建工控安全成熟度模型	qq.com	mp.weixin.qq.com	/s/c5-aV9Aad8SUEySHz1Vg-A

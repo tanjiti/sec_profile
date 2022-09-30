@@ -1,0 +1,9 @@
+20211220	Web安全	https://github.com/guyoung/CaptfEncoder	CaptfEncoder: 一款跨平台网络安全工具套件	github.com	github.com	/guyoung/CaptfEncoder
+20211220	观点	https://mp.weixin.qq.com/s/cXJM6SXVR-k0pLCqDZqcWQ	国外网络演习思考	qq.com	mp.weixin.qq.com	/s/cXJM6SXVR-k0pLCqDZqcWQ
+20211220	Web安全	https://mp.weixin.qq.com/s/JYco8DysQNszMohH6zJEGw	利用CodeQL分析并挖掘Log4j漏洞	qq.com	mp.weixin.qq.com	/s/JYco8DysQNszMohH6zJEGw
+20211220	运维安全	https://mp.weixin.qq.com/s/q4qRJDURgd84OznJ83yhiw	Java代审1：Maven基础知识	qq.com	mp.weixin.qq.com	/s/q4qRJDURgd84OznJ83yhiw
+20211220	恶意分析	https://mp.weixin.qq.com/s/l_f5oGBU4YL9rQJsoDaxyw	基于大数据技术的攻击溯源研究	qq.com	mp.weixin.qq.com	/s/l_f5oGBU4YL9rQJsoDaxyw
+20211220	杂志	https://www.sec-wiki.com/weekly/407	SecWiki周刊（第407期)	sec-wiki.com	www.sec-wiki.com	/weekly/407
+20211220	运维安全	https://mp.weixin.qq.com/s/MLfShFRVGJmSALr0zUDohw	CIS 介绍（下)-CIS Benchmark&CIS 社区防御模型2.0	qq.com	mp.weixin.qq.com	/s/MLfShFRVGJmSALr0zUDohw
+20211220	Web安全	https://mp.weixin.qq.com/s/S3aiKN_IIhxWRyizAb8zLg	vulntarget漏洞靶场系列（二）— vulntarget-b	qq.com	mp.weixin.qq.com	/s/S3aiKN_IIhxWRyizAb8zLg
+20211220	Web安全	https://mp.weixin.qq.com/s/ljdIsj38GU_tVxKwM3AWpA	gosint开源	qq.com	mp.weixin.qq.com	/s/ljdIsj38GU_tVxKwM3AWpA

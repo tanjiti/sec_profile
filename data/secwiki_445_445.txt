@@ -1,0 +1,21 @@
+20220905	其它	https://www.sec-in.com/article/1896	内网渗透一周目小结	sec-in.com	www.sec-in.com	/article/1896
+20220905	Web安全	https://xz.aliyun.com/t/11662	利用Nginx、Tyk Gateway API和CloudFlare防火墙隐藏C2设施	aliyun.com	xz.aliyun.com	/t/11662
+20220905	恶意分析	https://mp.weixin.qq.com/s/j3svmn0grpjM-QOgaYXvUg	OPSWAT 2022 年恶意软件分析调查报告	qq.com	mp.weixin.qq.com	/s/j3svmn0grpjM-QOgaYXvUg
+20220905	杂志	https://www.sec-wiki.com/weekly/444	SecWiki周刊（第444期)	sec-wiki.com	www.sec-wiki.com	/weekly/444
+20220905	Web安全	https://tech.meituan.com/2022/09/01/database-monitoring-based-on-ai.html	基于AI算法的数据库异常监测系统的设计与实现	meituan.com	tech.meituan.com	/2022/09/01/database-monitoring-based-on-ai.html
+20220905	编程技术	https://mp.weixin.qq.com/s/NawxeiP-_DFpyoekRrzlLQ	B站流式传输架构的前世今生	qq.com	mp.weixin.qq.com	/s/NawxeiP-_DFpyoekRrzlLQ
+20220905	Web安全	https://mp.weixin.qq.com/s/UG7J5k_B7ECMal3T3v_v9A	[HTB] Chatterbox Writeup	qq.com	mp.weixin.qq.com	/s/UG7J5k_B7ECMal3T3v_v9A
+20220905	Web安全	https://mp.weixin.qq.com/s/BDNv0Wal31nQMcobXwFK-w	存储桶学习与漏洞挖掘	qq.com	mp.weixin.qq.com	/s/BDNv0Wal31nQMcobXwFK-w
+20220905	漏洞分析	https://exexute.github.io/2022/09/08/Go-Native-SCA-Tool-For-Developer/	Govulncheck：Go语言供应链漏洞检测工具	github.io	exexute.github.io	/2022/09/08/Go-Native-SCA-Tool-For-Developer/
+20220905	移动安全	https://github.com/bytedance/appshark	appshark：自动化漏洞及隐私合规检测工具	github.com	github.com	/bytedance/appshark
+20220905	Web安全	https://github.com/lijiejie/EasyPen	EasyPen: 图形化安全巡检与应急工具	github.com	github.com	/lijiejie/EasyPen
+20220905	其它	https://mp.weixin.qq.com/s/l7QCBK01OCru1e3o4nL52w	国家级网络攻击能力象限漫谈	qq.com	mp.weixin.qq.com	/s/l7QCBK01OCru1e3o4nL52w
+20220905	Web安全	https://tttang.com/archive/1726/	JAVA常用框架SQL注入审计	tttang.com	tttang.com	/archive/1726/
+20220905	恶意分析	https://mp.weixin.qq.com/s/UL7Rd56MtSB6If_Tu_2N7w	基于netfilter的后门	qq.com	mp.weixin.qq.com	/s/UL7Rd56MtSB6If_Tu_2N7w
+20220905	Web安全	https://github.com/shmilylty/SharpHostInfo	SharpHostInfo: 一款快速探测内网主机信息工具	github.com	github.com	/shmilylty/SharpHostInfo
+20220905	Web安全	https://mp.weixin.qq.com/s/M2LQjojTc7tk7eL_vD2lgQ	内网渗透软件-BloodHound使用指南	qq.com	mp.weixin.qq.com	/s/M2LQjojTc7tk7eL_vD2lgQ
+20220905	设备安全	https://binux.blog/2022/08/cat-planet-bot-part-1-touch-simulation/	物理模拟触屏点击	binux.blog	binux.blog	/2022/08/cat-planet-bot-part-1-touch-simulation/
+20220905	Web安全	https://mp.weixin.qq.com/s/BJ9XIncEI7O2NWPeTNk2uA	网络安全的三大支柱和攻击向量	qq.com	mp.weixin.qq.com	/s/BJ9XIncEI7O2NWPeTNk2uA
+20220905	Web安全	https://xz.aliyun.com/t/11684	关于那WebSocket劫持的二三事	aliyun.com	xz.aliyun.com	/t/11684
+20220905	运维安全	https://mp.weixin.qq.com/s/dd6KCmUfosEKpPkTF-rXRw	网络智能流量编排探索	qq.com	mp.weixin.qq.com	/s/dd6KCmUfosEKpPkTF-rXRw
+20220905	恶意分析	https://paper.seebug.org/1960/	PyPI 网络钓鱼活动分析	seebug.org	paper.seebug.org	/1960/

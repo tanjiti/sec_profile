@@ -1,0 +1,9 @@
+20220117	Web安全	https://github.com/sairson/Yasso	Yasso: 强大的内网渗透辅助工具集	github.com	github.com	/sairson/Yasso
+20220117	运维安全	https://mp.weixin.qq.com/s/Ye6-H5d894wD2E6C8uYRSg	浅析现代企业网络安全架构	qq.com	mp.weixin.qq.com	/s/Ye6-H5d894wD2E6C8uYRSg
+20220117	恶意分析	https://mp.weixin.qq.com/s/T2pO8ZiW-c1MDk9LnsteTg	以色列“飞马”间谍软件攻击事件的综合分析	qq.com	mp.weixin.qq.com	/s/T2pO8ZiW-c1MDk9LnsteTg
+20220117	Web安全	https://mp.weixin.qq.com/s/Kab4A-ReHIZ5AhZq4Qac8A	自动化渗透-DeepExploit框架深度分析	qq.com	mp.weixin.qq.com	/s/Kab4A-ReHIZ5AhZq4Qac8A
+20220117	文档	https://upload.zklatech.com/annual_report_2021.pdf	中国（大陆）虚拟货币犯罪形态分析报告-2021年度	zklatech.com	upload.zklatech.com	/annual_report_2021.pdf
+20220117	杂志	https://www.sec-wiki.com/weekly/411	SecWiki周刊（第411期)	sec-wiki.com	www.sec-wiki.com	/weekly/411
+20220117	取证分析	https://mp.weixin.qq.com/s/Ca-6jNJadDu0qp5e_Bwj2A	基于上下文感知计算的APT攻击组织追踪方法	qq.com	mp.weixin.qq.com	/s/Ca-6jNJadDu0qp5e_Bwj2A
+20220117	数据挖掘	https://mp.weixin.qq.com/s/WYZHx1a-_zSn1nJG5AKoWw	谁动了我的DevOps：DevOps风险测绘	qq.com	mp.weixin.qq.com	/s/WYZHx1a-_zSn1nJG5AKoWw
+20220117	恶意分析	http://blog.nsfocus.net/wp-content/uploads/2022/01/DDoS-NSFOCUS.pdf	2021年全球DDoS威胁报告	nsfocus.net	blog.nsfocus.net	/wp-content/uploads/2022/01/DDoS-NSFOCUS.pdf

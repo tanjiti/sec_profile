@@ -1,0 +1,29 @@
+20210726	取证分析	https://fengxuan.notion.site/0fd37de0b16b44b9a546304ff83f82e8	溯源反制操作手册	notion.site	fengxuan.notion.site	/0fd37de0b16b44b9a546304ff83f82e8
+20210726	运维安全	https://mp.weixin.qq.com/s/mnHGLZ_e3tWkxCL-DPAAvQ	安全建设-攻防思路与实践（一）	qq.com	mp.weixin.qq.com	/s/mnHGLZ_e3tWkxCL-DPAAvQ
+20210726	Web安全	https://github.com/0x727/ShuiZe_0x727	水泽-信息收集自动化工具	github.com	github.com	/0x727/ShuiZe_0x727
+20210726	比赛	https://mp.weixin.qq.com/s/rXqSfjTFUQJsirkhi1hmHQ	第二届网鼎杯线下决赛网络靶场复盘	qq.com	mp.weixin.qq.com	/s/rXqSfjTFUQJsirkhi1hmHQ
+20210726	Web安全	https://www.yuque.com/ee/nangod/bh75w2	强行打点途径	yuque.com	www.yuque.com	/ee/nangod/bh75w2
+20210726	其它	https://www.zhihu.com/question/442047678/answer/1846239907	一个人怎么建立独立的思维框架和逻辑体系？	zhihu.com	www.zhihu.com	/question/442047678/answer/1846239907
+20210726	Web安全	https://www.usenix.org/conference/usenixsecurity20/presentation/mirheidari	针对Web缓存欺骗(WCD)攻击的大规模测试的论文【英文】	usenix.org	www.usenix.org	/conference/usenixsecurity20/presentation/mirheidari
+20210726	杂志	https://www.sec-wiki.com/weekly/386	SecWiki周刊（第386期)	sec-wiki.com	www.sec-wiki.com	/weekly/386
+20210726	论文	https://mp.weixin.qq.com/s/bGyGUdJhru5BJuRY-k0pfg	论文-调查软件开发中方法命名情况	qq.com	mp.weixin.qq.com	/s/bGyGUdJhru5BJuRY-k0pfg
+20210726	Web安全	https://mp.weixin.qq.com/s/AHneWgEOMn98dQLp789QSA	CyBRICS 2021-WriteUp	qq.com	mp.weixin.qq.com	/s/AHneWgEOMn98dQLp789QSA
+20210726	恶意分析	https://mp.weixin.qq.com/s/BmLHQaiprcIxvRSacMFv_Q	LuminousMoth样本分析报告	qq.com	mp.weixin.qq.com	/s/BmLHQaiprcIxvRSacMFv_Q
+20210726	恶意分析	https://mp.weixin.qq.com/s/PCPX4G9MucAMHH8pWpg6pQ	NPM软件包供应链攻击赏析	qq.com	mp.weixin.qq.com	/s/PCPX4G9MucAMHH8pWpg6pQ
+20210726	运维安全	https://mp.weixin.qq.com/s/-6eTR-2WCnVSRnn2DjgRmg	[HTB] Active Writeup	qq.com	mp.weixin.qq.com	/s/-6eTR-2WCnVSRnn2DjgRmg
+20210726	取证分析	https://mp.weixin.qq.com/s/4HcixB3igTZtt2NClkUlXQ	威胁情报共享之野望	qq.com	mp.weixin.qq.com	/s/4HcixB3igTZtt2NClkUlXQ
+20210726	其它	https://mp.weixin.qq.com/s/8NlY3I49UxDirA7Pe8h7Cw	一场关于网络安全伦理审查的对话	qq.com	mp.weixin.qq.com	/s/8NlY3I49UxDirA7Pe8h7Cw
+20210726	论文	https://mp.weixin.qq.com/s/ZuJmj3YX11tb4-405mZREw	谷歌学术指标2021年（计算机安全及加密）	qq.com	mp.weixin.qq.com	/s/ZuJmj3YX11tb4-405mZREw
+20210726	恶意分析	https://mp.weixin.qq.com/s/95EjmJZBSvye1FuAu2J_pQ	基于公共服务的载荷投递与C2通信技术剖析	qq.com	mp.weixin.qq.com	/s/95EjmJZBSvye1FuAu2J_pQ
+20210726	Web安全	https://mp.weixin.qq.com/s/8xx2Q_cGjBD8l_dNMFkhgg	面向人工智能的软件工程研究与实践	qq.com	mp.weixin.qq.com	/s/8xx2Q_cGjBD8l_dNMFkhgg
+20210726	数据挖掘	https://mp.weixin.qq.com/s/WfvEKvgG98aBZNDfLQhaBg	“中兴捧月”杯算法精英挑战赛-Dijkstra赛道解决方案分享	qq.com	mp.weixin.qq.com	/s/WfvEKvgG98aBZNDfLQhaBg
+20210726	漏洞分析	https://mp.weixin.qq.com/s/I-2IllKVbUvOm1x9mMiihw	浅谈并行化模糊测试技术	qq.com	mp.weixin.qq.com	/s/I-2IllKVbUvOm1x9mMiihw
+20210726	Web安全	https://www.anquanke.com/post/id/248030	从Github一开源项目ADSEC学习域渗透攻防基础	anquanke.com	www.anquanke.com	/post/id/248030
+20210726	数据挖掘	https://paper.seebug.org/1649/	知识图谱及其在安全领域的应用	seebug.org	paper.seebug.org	/1649/
+20210726	观点	https://paper.seebug.org/1647/	情报研究方法论——对情报收集工作的展望	seebug.org	paper.seebug.org	/1647/
+20210726	运维安全	https://security.tencent.com/index.php/blog/msg/198	可信安全网络 —— 安全左移之DDoS对抗	tencent.com	security.tencent.com	/index.php/blog/msg/198
+20210726	设备安全	https://www.anquanke.com/post/id/246659	Linksys EA6100 固件解密分析	anquanke.com	www.anquanke.com	/post/id/246659
+20210726	恶意分析	https://blog.syss.com/posts/hallucinate/	One-stop TLS traffic inspection and manipulation using dynamic instrumentation	syss.com	blog.syss.com	/posts/hallucinate/
+20210726	Web安全	https://lightless.me/archives/httpd_perl_crlf.html	Apache2+Perl 造成的 CRLF 注入问题	lightless.me	lightless.me	/archives/httpd_perl_crlf.html
+20210726	恶意分析	https://mp.weixin.qq.com/s/AZhzOGjh_DtFRnkt1zunxQ	攻防启示：Chromium组件风险剖析与收敛	qq.com	mp.weixin.qq.com	/s/AZhzOGjh_DtFRnkt1zunxQ
+20210726	Web安全	https://blog.ryotak.me/post/pypi-potential-remote-code-execution-en/	Potential remote code execution in PyPI	ryotak.me	blog.ryotak.me	/post/pypi-potential-remote-code-execution-en/
