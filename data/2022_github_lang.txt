@@ -11,9 +11,9 @@ C#	36
 TypeScript	30
 PowerShell	24
 Jupyter	17
+Ruby	14
 Kotlin	14
 CSS	13
-Ruby	13
 PHP	13
 Dockerfile	11
 Vue	11

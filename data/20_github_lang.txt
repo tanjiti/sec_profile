@@ -7,7 +7,7 @@ Java	490
 Shell	468
 Go	426
 C#	300
-Ruby	261
+Ruby	262
 PowerShell	244
 CSS	225
 PHP	224

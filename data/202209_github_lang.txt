@@ -12,6 +12,7 @@ TypeScript	4
 Kotlin	4
 Assembly	3
 Dart	2
+Ruby	2
 Vue	2
 Cuda	2
 CSS	2
@@ -19,7 +20,6 @@ PHP	2
 Perl	1
 SCSS	1
 YARA	1
-Ruby	1
 Jupyter	1
 Objective-C	1
 OCaml	1
