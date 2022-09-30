@@ -666,7 +666,7 @@
 | gusmanb | 一款开源的 24 通道软硬件逻辑分析仪 | https://github.com/gusmanb/logicanalyzer | https://github.com/gusmanb?tab=followers |  | Spain | None | 54 | 0 | 26 | 0 | 0 | C#,Makefile | 0 | 0 | 1| 
 | guidovranken | Cryptofuzz - 用于 Fuzz 加密库的工具 | https://github.com/guidovranken/cryptofuzz | https://github.com/guidovranken?tab=followers |  | Netherlands | None | 82 | 0 | 8 | 0 | 0 | C++ | 0 | 0 | 1| 
 | google-research | Google 发起从训练模型中逆向还原出训练数据集的安全挑战 | https://github.com/google-research/lm-extraction-benchmark | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Haskell,Jupyter,C++ | 0 | 0 | 1| 
-| google | 替换 go 的 text/template 文本模板，防护注入漏洞 | https://github.com/google/safetext | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Java,Python,Kotlin,JavaScript,C++,HTML,Go | 0 | 0 | 3| 
+| google | 替换 go 的 text/template 文本模板，防护注入漏洞 | https://github.com/google/safetext | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Java,Python,Kotlin,JavaScript,C++,HTML,Go | 0 | 0 | 4| 
 | gmh5225 | LLVM 安全相关的资料收集 | https://github.com/gmh5225/awesome-llvm-security | https://github.com/gmh5225?tab=followers | windows/llvm/game security/blockchain | El Salvador | None | 83 | 0 | 715 | 0 | 0 | C,Java,C#,C++,Batchfile,Rust,Inno,CMake,CSS | 0 | 0 | 2| 
 | getActivity | 中国 Android 个人技术开源排行榜. | https://github.com/getActivity/AndroidGithubBoss | https://github.com/getActivity?tab=followers | 专业造轮子 | Guangzhou,China | None | 25 | 0 | 0 | 0 | 0 | Kotlin,Java | 0 | 0 | 1| 
 | gamozolabs | 一款从 /proc/mem 提取进程内存快照导入 IDA 分析的插件 | https://github.com/gamozolabs/proc_mem_ida_loader | https://github.com/gamozolabs?tab=followers |  | None | None | 71 | 0 | 3 | 0 | 0 | Python,C++,Rust | 0 | 0 | 2| 
