@@ -226,7 +226,7 @@
 | thelostworld | gh_3f2e5b9f028c | 四、小程序｜App抓包(四)-Tcpdump抓取手机数据包分析 | https://mp.weixin.qq.com/s?__biz=MzIyNjk0ODYxMA==&mid=2247486299&idx=4&sn=3bad40f5af29618529c93b821d9969a8 | 5| 
 | Tide安全团队 | TideSec | 【红蓝对抗】记一次渗透过程中regeorg的利用 | https://mp.weixin.qq.com/s?__biz=Mzg2NTA4OTI5NA==&mid=2247493675&idx=1&sn=e8102e63582c8e4217335722eff753b3 | 12| 
 | Admin Team | Amin_Bug | 【看直播领福利】未知攻焉知防——基于攻击视角攻防演练分析！ | https://mp.weixin.qq.com/s?__biz=MzI5NTQ1MTI3MQ==&mid=2247485859&idx=1&sn=b5781094463cb44e68025cfc401c9dfa | 1| 
-| 赛博回忆录 | cybermemory | 404Paper精粹新一册发布，请转发给你的黑客朋友 | https://mp.weixin.qq.com/s?__biz=MzIxNDAyNjQwNg==&mid=2456098710&idx=1&sn=37fca860ba26728637002650983e56bd | 2| 
+| 赛博回忆录 | cybermemory | 404Paper精粹新一册发布，请转发给你的黑客朋友 | https://mp.weixin.qq.com/s?__biz=MzIxNDAyNjQwNg==&mid=2456098710&idx=1&sn=37fca860ba26728637002650983e56bd | 3| 
 | 薄说安全 | gh_956e8befd9f9 | 如何理解预期功能安全（一） | https://mp.weixin.qq.com/s?__biz=Mzg2NzU3MzkyMg==&mid=2247484139&idx=1&sn=7b13bb105facbbdeb498ee7dfe7a3acd | 3| 
 | Hacking就是好玩 | gh_aed6cfc863ed | ksubdomain新版发布,比massdns更快！.md | https://mp.weixin.qq.com/s?__biz=MzU2NzcwNTY3Mg==&mid=2247484471&idx=1&sn=322d5db2d11363cd2392d7bd29c679f1 | 2| 
 | 网安杂谈 | sdpcwa | GA/T 1069—2021《法庭科学电子物证手机检验技术规范》新旧版本对照 | https://mp.weixin.qq.com/s?__biz=MzAwMTMzMDUwNg==&mid=2650885522&idx=1&sn=be120a13b6ae6da063d89d4ced1cd24a | 13| 
