@@ -1,0 +1,10 @@
+20220926	Web安全	https://mp.weixin.qq.com/s/Q0iiRJ53BwuU4LHynR4qWQ	红队视角下的AWS横向移动	qq.com	mp.weixin.qq.com	/s/Q0iiRJ53BwuU4LHynR4qWQ
+20220926	Web安全	https://mp.weixin.qq.com/s/_Q_zYereYc0g01SJTZ-Ivg	五种不一样的身份验证绕过技术	qq.com	mp.weixin.qq.com	/s/_Q_zYereYc0g01SJTZ-Ivg
+20220926	其它	https://www.sec-in.com/article/1883	Http Request-Smuggling	sec-in.com	www.sec-in.com	/article/1883
+20220926	杂志	https://www.sec-wiki.com/weekly/447	SecWiki周刊（第447期)	sec-wiki.com	www.sec-wiki.com	/weekly/447
+20220926	Web安全	https://mp.weixin.qq.com/s/q596eajzFfrr45ErMYPQVA	针对VMware云虚拟化平台的定制化攻击专题分析	qq.com	mp.weixin.qq.com	/s/q596eajzFfrr45ErMYPQVA
+20220926	Web安全	https://www.jgeek.cn/article/113.html	[HTB] Silo Writeup	jgeek.cn	www.jgeek.cn	/article/113.html
+20220926	观点	https://mp.weixin.qq.com/s/U3tQfZoLsJv_PoDAJmzcMg	云安全趋势分享（2022年底）	qq.com	mp.weixin.qq.com	/s/U3tQfZoLsJv_PoDAJmzcMg
+20220926	文档	https://gw.alipayobjects.com/os/bmw-prod/56176409-5afa-4e86-85f7-1060116c01af.pdf	可信密态计算白皮书	alipayobjects.com	gw.alipayobjects.com	/os/bmw-prod/56176409-5afa-4e86-85f7-1060116c01af.pdf
+20220926	Web安全	https://mp.weixin.qq.com/s/mrQQhaBXA39YBDov-cwGnw	软件安全实体关系预测简介	qq.com	mp.weixin.qq.com	/s/mrQQhaBXA39YBDov-cwGnw
+20220926	漏洞分析	https://mp.weixin.qq.com/s/G1R_yvRgDKIljTZ-bKzysw	一种基于深度学习的语句级缺陷预测方法	qq.com	mp.weixin.qq.com	/s/G1R_yvRgDKIljTZ-bKzysw

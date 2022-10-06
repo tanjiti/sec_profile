@@ -1,8 +1,8 @@
-Python	134
-C	77
+Python	135
+C	78
 C++	66
 JavaScript	65
-Go	61
+Go	62
 Java	54
 HTML	42
 Rust	37
@@ -32,6 +32,7 @@ CMake	3
 Haskell	3
 Jinja	2
 Scala	2
+Solidity	2
 Emacs	2
 Verilog	2
 CodeQL	2
@@ -44,7 +45,6 @@ OCaml	2
 VBA	1
 Objective-C++	1
 SWIG	1
-Solidity	1
 Q#	1
 Rich	1
 Nim	1

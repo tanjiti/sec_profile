@@ -79,6 +79,7 @@ Vala	4
 OpenEdge	4
 QML	4
 Eagle	4
+Solidity	4
 KiCad	4
 Elm	3
 Jsonnet	3
@@ -88,7 +89,6 @@ SQLPL	3
 PostScript	3
 Scheme	3
 Nim	3
-Solidity	3
 SystemVerilog	3
 Jinja	2
 AGS	2
