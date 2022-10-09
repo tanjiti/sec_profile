@@ -59,3 +59,4 @@ if __name__ == "__main__":
     secwiki.main(renew=False)
 
     update_github()
+
