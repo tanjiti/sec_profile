@@ -14,9 +14,10 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 湛卢工作室 | xuehao_studio | 云原生安全系列（一） , Kubernetes云原生靶场搭建 | https://mp.weixin.qq.com/s/XmEhvrzwmcjW9lBIZMl2ag | 1| 
 | 中国保密协会科学技术分会 | gh_be4f21d557c0 | 软件安全实体关系预测简介 | https://mp.weixin.qq.com/s/mrQQhaBXA39YBDov-cwGnw | 1| 
-| 云图全景Snapano | yuntuzhuanlan | 云安全趋势分享（2022年底） | https://mp.weixin.qq.com/s/U3tQfZoLsJv_PoDAJmzcMg | 1| 
 | 默安逐日实验室 | gh_995a1a9f25b5 | 红队视角下的AWS横向移动 | https://mp.weixin.qq.com/s/Q0iiRJ53BwuU4LHynR4qWQ | 1| 
+| 云图全景Snapano | yuntuzhuanlan | 云安全趋势分享（2022年底） | https://mp.weixin.qq.com/s/U3tQfZoLsJv_PoDAJmzcMg | 1| 
 | 赛博攻防悟道 | lookvul | 加密流量安全背后的那些小秘闻 | https://mp.weixin.qq.com/s/1J1HNdA2wZF93-K-e7Pg8Q | 1| 
 | 迪哥讲事 | growing0101 | 挖洞方法与心态系列-揭露大佬挖主应用的一般性流程(版本1) | https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247486332&idx=1&sn=238328c005b23ec39e375bb0f4f57652&chksm=e8a6011fdfd1880929ce3b1c3207ae1caf8827f845881fa110daab3a10f6177df3483ca77eea&token=798508684&lang=zh_CN#rd | 7| 
 | 数据治理体系 | DGsystem | 0到1搭建企业级数据治理体系 | https://mp.weixin.qq.com/s/nUU0waB3Z9r-f27fHQpqdQ | 1| 
@@ -35,7 +36,7 @@
 | twt企业IT社区 | talkwithtrend | 某农信企业自主创新自动化安全基线检测平台建设实践 | https://mp.weixin.qq.com/s/-3ec660soSUFmngRjEvF8g | 1| 
 | 夏虫知冰 | sectistic | 论如何优雅的注入Java Agent内存马 | https://mp.weixin.qq.com/s/xxaOsJdRE5OoRkMLkIj3Lg | 1| 
 | 网络安全游魂 | gh_190663b0fe76 | 安全运营中心能力成熟度模型专题【三】-金融行业能力安全运营能力成熟度模型（FCSO-CMM） | https://mp.weixin.qq.com/s/Hf3haBk1kxCk3uZnJ7FCCQ | 1| 
-| 关键信息基础设施安全保护联盟筹 | gh_1c74abeb39a6 | 院士观点, 冯登国：关键信息基础设施安全保护三大关键能力 | https://mp.weixin.qq.com/s/smY0WuXqmG4sFzjsEIv8tg | 1| 
+| 关键信息基础设施安全保护联盟筹 | gh_1c74abeb39a6 | 院士观点, 冯登国：关键信息基础设施安全保护三大关键能力 | https://mp.weixin.qq.com/s/smY0WuXqmG4sFzjsEIv8tg | 2| 
 | 绿盟科技威胁情报 | NSFOCUS_NTI | 鼹鼠行动--针对QNAP网络存储设备的大规模攻击活动，或成勒索温床 | https://mp.weixin.qq.com/s/ua7KrEP5yWbvNHfCULgn8g | 1| 
 | 穿过丛林 | gh_f90eac70537b | 2022年实验室暑期年会前瞻报告（二）戴小海：浅谈NFT, Web3 和元宇宙（PPT） | https://mp.weixin.qq.com/s/l11SP7Nni-CZ__y3DEVX1Q | 1| 
 | 安全内参 | anquanneican | Black Hat 2022上最值得关注的十大议题 | https://mp.weixin.qq.com/s/urcX3HeERhAPmNYp_9K6BA | 1| 
@@ -73,7 +74,7 @@
 | 思想花火 | ttfirework | 信息安全BP的能力模型 | https://mp.weixin.qq.com/s/qZ_uu58R418BltFaeVcWww | 1| 
 | 信息通信软件供应链安全社区 | gh_1b92fdc1f223 | 政策法规组,【SBOM政策文件研究】之 《现有SBOM格式和标准调查》译文 | https://mp.weixin.qq.com/s/DXWXTMsz_Sf1zlDIJd4RBw | 2| 
 | 中国科学院网络数据重点实验室 | NDST_CAS | 一文读懂事件知识图谱 | https://mp.weixin.qq.com/s/W3oewKOH2IXzDFXRCY4W6Q | 1| 
-| 落水轩 | gh_c10ee4802699 | 微软数据安全防护之Know Your Data | https://mp.weixin.qq.com/s/Hkro91XoY4SdjFZNGcFAvg | 3| 
+| 落水轩 | gh_c10ee4802699 | 微软数据安全防护之Know Your Data | https://mp.weixin.qq.com/s/Hkro91XoY4SdjFZNGcFAvg | 4| 
 | 白帽兔 | xzu77058 | 溯源反制案例分享（二） | https://mp.weixin.qq.com/s/JXfNCIzZznn1UVXhYDzRIA | 1| 
 | 全栈开发运维 | yellowleecn | SQL脚本自动化审核工具（MYSQL） | https://mp.weixin.qq.com/s/In-MdryQSdqFSA2fqdFHvg | 1| 
 | 电驭叛客 | Cyber-Hack | OT环境下IoT安全的破局探索 | https://mp.weixin.qq.com/s/Hkw95Y146xVAHLwZnPAH4w | 3| 
@@ -751,6 +752,7 @@
 | RedTeamOperations | Advanced Process Injection Workshop，Windows 进程注入实验环境 | https://github.com/RedTeamOperations/Advanced-Process-Injection-Workshop | https://github.com/RedTeamOperations?tab=followers | CyberWarFare Labs | India | CyberWarFare Labs | 30 | 0 | 5 | 0 | 0 | C++ | 0 | 0 | 2| 
 | RangerNJU | 静态程序分析入门教程 | https://github.com/RangerNJU/Static-Program-Analysis-Book | http://rangernju.github.io | A CS student in NJU. | China | NJU | 5 | 0 | 0 | 0 | 0 | SCSS,HTML | 117 | 11 | 1| 
 | QData | 自动生成对抗性文本序列攻击 NLP 预测模型 | https://github.com/QData/deepWordBug | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Ruby,HTML,Jupyter | 0 | 0 | 1| 
+| Ptkatz | OrcaC2: 一款基于Websocket加密通信的多功能C&C框架 | https://github.com/Ptkatz/OrcaC2 | https://github.com/Ptkatz?tab=followers | ☔️ | None | None | 2 | 0 | 55 | 0 | 0 | Go | 0 | 0 | 1| 
 | Pear1y | GitHub 有研究员公开了 Atlassian Bitbucket Data Center 反序列化漏洞(CVE-2022-26133) 的批量验证工具 | https://github.com/Pear1y/CVE-2022-26133 | https://github.com/Pear1y?tab=followers | There is a crack in everything，thats how the light gets in. | Bermuda | Cyber Security | 36 | 0 | 234 | 0 | 0 | Python,C,Java | 0 | 0 | 1| 
 | P1sec | QCSuper - 与基于高通芯片手机通信的工具，支持抓取 2G/3G/4G无线帧数据 | https://github.com/P1sec/QCSuper | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Java,Rust | 0 | 0 | 1| 
 | Orange-Cyberdefense | GOAD - Active Directory 渗透测试实验环境 | https://github.com/Orange-Cyberdefense/GOAD | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,PHP,Ruby,PowerShell | 0 | 0 | 1| 
