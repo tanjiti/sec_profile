@@ -4,9 +4,9 @@ C	2
 C++	2
 Vue	1
 Java	1
+JavaScript	1
 Solidity	1
 OCaml	1
 HTML	1
-JavaScript	1
 Ruby	1
 Rust	1
