@@ -1,0 +1,17 @@
+20221003	法规	https://www.tc260.org.cn/front/bzzqyjDetail.html?id=20220930173005&norm_id=20211108000018&recode_id=48921	《信息安全技术 软件供应链安全要求》（征求意见稿）	tc260.org.cn	www.tc260.org.cn	/front/bzzqyjDetail.html
+20221003	法规	https://mp.weixin.qq.com/s/nIbSV4dGpVtp98beqeL2Hg	美国司法部网络安全述职报告	qq.com	mp.weixin.qq.com	/s/nIbSV4dGpVtp98beqeL2Hg
+20221003	Web安全	https://github.com/HavocFramework/Havoc	Havoc: 可延展的后渗透远控框架	github.com	github.com	/HavocFramework/Havoc
+20221003	Web安全	https://mp.weixin.qq.com/s/C6NuprrVSAx2Nh0fPXidwA	IDOR相关研究	qq.com	mp.weixin.qq.com	/s/C6NuprrVSAx2Nh0fPXidwA
+20221003	Web安全	https://my.oschina.net/9199771/blog/5582107	将ModSecurity内置到java应用实现第一代rasp	oschina.net	my.oschina.net	/9199771/blog/5582107
+20221003	漏洞分析	https://mp.weixin.qq.com/s/fq2m59L_2Piqyeufl6eZFQ	浅析洞态iast产品	qq.com	mp.weixin.qq.com	/s/fq2m59L_2Piqyeufl6eZFQ
+20221003	Web安全	https://www.anquanke.com/post/id/281021	Serverless安全揭秘：架构、风险与防护措施	anquanke.com	www.anquanke.com	/post/id/281021
+20221003	杂志	https://www.sec-wiki.com/weekly/448	SecWiki周刊（第448期)	sec-wiki.com	www.sec-wiki.com	/weekly/448
+20221003	Web安全	https://github.com/Anugrahsr/Awesome-web3-Security	Awesome-web3-Security: A curated list of web3Security materials and resources	github.com	github.com	/Anugrahsr/Awesome-web3-Security
+20221003	Web安全	https://github.com/SunWeb3Sec/DeFiHackLabs	DeFiHackLabs: Reproduce DeFi hack incidents using Foundry	github.com	github.com	/SunWeb3Sec/DeFiHackLabs
+20221003	漏洞分析	https://mp.weixin.qq.com/s/pTNNIeico9mcDqvcXos3cA	代码检索和摘要中的自监督对比学习	qq.com	mp.weixin.qq.com	/s/pTNNIeico9mcDqvcXos3cA
+20221003	运维安全	https://mp.weixin.qq.com/s/XmEhvrzwmcjW9lBIZMl2ag	云原生安全系列（一） | Kubernetes云原生靶场搭建	qq.com	mp.weixin.qq.com	/s/XmEhvrzwmcjW9lBIZMl2ag
+20221003	观点	https://mp.weixin.qq.com/s/2z9ze6N4p2R_Tokbk0g-vA	网络空间战略预警体系的建设思考	qq.com	mp.weixin.qq.com	/s/2z9ze6N4p2R_Tokbk0g-vA
+20221003	Web安全	https://github.com/Ptkatz/OrcaC2	OrcaC2: 一款基于Websocket加密通信的多功能C&C框架	github.com	github.com	/Ptkatz/OrcaC2
+20221003	Web安全	https://mp.weixin.qq.com/s/H1kslnpYbAmUOs7g0SpFWQ	某云-WAF挑战赛wp	qq.com	mp.weixin.qq.com	/s/H1kslnpYbAmUOs7g0SpFWQ
+20221003	其它	https://www.sec-in.com/article/1733	Thinkphp5.1应用初探	sec-in.com	www.sec-in.com	/article/1733
+20221003	恶意分析	https://mp.weixin.qq.com/s/c3jixzRxo0eg2IrA9xcJtw	恶意 Tor 浏览器安装程序正通过 YouTube 进行分发	qq.com	mp.weixin.qq.com	/s/c3jixzRxo0eg2IrA9xcJtw
