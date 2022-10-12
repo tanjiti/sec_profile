@@ -14,6 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 零部安全 | sec-services | 漏洞管理过程中的定量计算方法 | https://mp.weixin.qq.com/s/5C6NeiNb6pifrZZh1vR_cg | 1| 
+| 电网智囊团 | gridthink | 一文搞懂电力系统调度数据网4+1+1区 | https://mp.weixin.qq.com/s/wcs0mWzBXh96Ds-qJ9H6xQ | 1| 
 | 湛卢工作室 | xuehao_studio | 云原生安全系列（一） , Kubernetes云原生靶场搭建 | https://mp.weixin.qq.com/s/XmEhvrzwmcjW9lBIZMl2ag | 1| 
 | 中国保密协会科学技术分会 | gh_be4f21d557c0 | 软件安全实体关系预测简介 | https://mp.weixin.qq.com/s/mrQQhaBXA39YBDov-cwGnw | 1| 
 | 默安逐日实验室 | gh_995a1a9f25b5 | 红队视角下的AWS横向移动 | https://mp.weixin.qq.com/s/Q0iiRJ53BwuU4LHynR4qWQ | 1| 
@@ -248,7 +250,7 @@
 | 浅黑科技 | qianheikeji | NFT精神史：罐头、青蛙和平凡人的15分钟英雄梦想 | https://mp.weixin.qq.com/s?__biz=MzU0NDEwMTc1MA==&mid=2247515866&idx=1&sn=7514c12bb218c8d0ca057d97c8733cc7 | 2| 
 | 开普勒安全团队 | kaipuleanquan | 某钉RCE漏洞复现 | https://mp.weixin.qq.com/s?__biz=Mzk0NjEyNjY5OQ==&mid=2247486976&idx=1&sn=4528abd822a4c174a9e10fe22953d303 | 6| 
 | 危险解除 | KingSeep | 我是凌云，不是田浩，人肉我干啥呢？ | https://mp.weixin.qq.com/s?__biz=MzU1NTMwNDEyNw==&mid=2247485642&idx=1&sn=636971275cdb21c8d380437c3b65f5b8 | 1| 
-| 军机故阁 | gh_e57baf46bdf5 | Gibbon学校管理系统，比XSS到RCE | https://mp.weixin.qq.com/s?__biz=MzU5Mjk3MDA5Ng==&mid=2247484042&idx=1&sn=ae8c9f45e26199893cb30e71834425e6 | 1| 
+| 军机故阁 | gh_e57baf46bdf5 | Gibbon学校管理系统，比XSS到RCE | https://mp.weixin.qq.com/s?__biz=MzU5Mjk3MDA5Ng==&mid=2247484042&idx=1&sn=ae8c9f45e26199893cb30e71834425e6 | 2| 
 | K8实验室 | K8-lab | 冰墩墩官方预售购买渠道 | https://mp.weixin.qq.com/s?__biz=Mzg3MTY4NjUyOQ==&mid=2247484027&idx=1&sn=3281209b1dcd43e912b72ddc0e676305 | 5| 
 | 骨哥说事 | guge_guge | 通过Sony漏洞披露计划我发现了什么 | https://mp.weixin.qq.com/s?__biz=MjM5Mzc4MzUzMQ==&mid=2650255127&idx=1&sn=4b6301232873bb5b046a8eb7fdbe740b | 6| 
 | 陌陌安全 | MomoSecurity | 开工大吉+双节，探探等众多APP一大波活动来袭 | https://mp.weixin.qq.com/s?__biz=MzI2OTYzOTQzNw==&mid=2247486753&idx=1&sn=0f3d2f5f36aac4add4b0c2c527e4203e | 4| 
