@@ -82,11 +82,11 @@
 | 绝对防御局 | Absolute-Defense | 通过覆盖Powershell cmdlet方式进行权限维持 | https://mp.weixin.qq.com/s?__biz=MzkxMTE5MjQ3NA==&mid=2247483781&idx=1&sn=721f1202f22953e2d80c0aaca0224a81&chksm=c11eb970f669306635bf759a8a846271bd864ed2522a23ebfcb078fecf925d440a84e82b7fb9#rd | 2| 
 | 大山子雪人 | gh_b9ecf4eee3a9 | 从DARPA项目学习如何做安全研究 | https://mp.weixin.qq.com/s/BkOIosI50NRqzz8Vsbm1Hg | 1| 
 | 天懋信息 | trustmoinfo | 安全快报 , 美国提出新法案，加强医疗保健和公共卫生部门网络安全 | https://mp.weixin.qq.com/s/2rTm5bRByYjreyxWcO4b7Q | 6| 
-| 跳跳糖社区 | tttangsec | CodeQL 踩坑指南 - Java | https://mp.weixin.qq.com/s/JkqtO_kfy4LZH9Kjkx6jdw | 8| 
+| 跳跳糖社区 | tttangsec | CodeQL 踩坑指南 - Java | https://mp.weixin.qq.com/s/JkqtO_kfy4LZH9Kjkx6jdw | 9| 
 | 赤旗情报站 | RedFlagIA | OpenCTI入门笔记（二）:存储设置&清理&修改图标和title | https://mp.weixin.qq.com/s/oh2AZ7XMuzDgTEVUV6aSsg | 2| 
 | 昆仑策研究院 | kunlunceyanjiuyuan | 牟承晋：俄乌网络战争的启示 | https://mp.weixin.qq.com/s/f2jFoaq8Yagmy2JwpHNCgQ | 1| 
 | 学术世界 | Academicworld | 周亚金：数字货币在暗网中的使用初探（内附PPT） | https://mp.weixin.qq.com/s/-tk1cCaYgcfBnjuS0Pahjw | 2| 
-| RainSec | RainSec111 | 《Linux Kernel 保护机制绕过》 | https://mp.weixin.qq.com/s/gSTbXW6M72QYtVPoZswhyw | 1| 
+| RainSec | RainSec111 | 《Linux Kernel 保护机制绕过》 | https://mp.weixin.qq.com/s/gSTbXW6M72QYtVPoZswhyw | 2| 
 | 网络安全研究宅基地 | gh_684e6ad8d12c | 2021西湖论剑IOT RW-WriteUp | https://mp.weixin.qq.com/s/aOirT1aIfbbN890X39zWBw | 1| 
 | 信安客 | xinanke_com | ATT&CK红队评估三套靶场渗透记录 | https://mp.weixin.qq.com/s/8s7l4TgcYb-CibfnQ6XhLA | 1| 
 | 阿肯的不惑之年 | kenzhou-2020 | 企业安全运营实践：四个阶段实现风险处置的快和准 | https://mp.weixin.qq.com/s/z-KDuUw9V5trLFZ849nswQ | 1| 
@@ -438,7 +438,7 @@
 | 伏羲智库 | FUXIINSTITUTION | DNS-网络安全绕不过去的话题 | https://mp.weixin.qq.com/s/g5_RVxAFgXBIwSLiazsUpw | 1| 
 | 面壁者与执剑人 | gh_eb146885b458 | 怎样系统地管理时间 | https://mp.weixin.qq.com/s/O7xGdZw669xJy3o17ghCbg | 1| 
 | 春秋伽玛 | AWDGAME | Writeup , 蓝帽杯半决赛Misc-溯源取证 | https://mp.weixin.qq.com/s/rL-Issg-ouhpMfmcYL76Ow | 2| 
-| M01N Team | m01nteam | 钓鱼页面之无视浏览器URL栏 | https://mp.weixin.qq.com/s/F4GkG1MSOaz3iIGBmDzCTA | 17| 
+| M01N Team | m01nteam | 钓鱼页面之无视浏览器URL栏 | https://mp.weixin.qq.com/s/F4GkG1MSOaz3iIGBmDzCTA | 18| 
 | APISIX 云原生微服务网关 | gh_04aaf04b2fae | 开源 API 网关架构分析 | https://mp.weixin.qq.com/s/L3X3xfGggjf52a8GofFHEQ | 1| 
 | 苹果资本 | Applefunds | 苹果观点：通过RSAC沙盒大赛看未来网络安全新格局 | https://mp.weixin.qq.com/s/2WwlcdYD9NxcIIZ8xfsJmw | 3| 
 | 天问实验室 | tianwenlab | 智能设备常规测试思路总结 | https://mp.weixin.qq.com/s/jpKP2-lvHVyQhLcMWfrY5Q | 2| 

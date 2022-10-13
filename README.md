@@ -14,7 +14,10 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 跳跳糖社区 | tttangsec | 域内用户Hash获取方式总结 | https://mp.weixin.qq.com/s/k-VUKcivMw3bncK5RW2Mvg | 1| 
 | 赛博回忆录 | cybermemory | 最新CS RCE曲折的复现路 | https://mp.weixin.qq.com/s?__biz=MzIxNDAyNjQwNg==&mid=2456098978&idx=1&sn=d511d5a674d84eeaf262c8e389ae0403&chksm=803c696bb74be07d8ef8e473b11ffe4dce57b58ccf82e8615ab15d9ba6bba9263360c01276a8 | 1| 
+| RainSec | RainSec111 | 对5.6w条xray结果的简单分析 | https://mp.weixin.qq.com/s/vhNGTBq8owncjlWyPJ0XGA | 1| 
+| M01N Team | m01nteam | AWS S3 Bucket子域接管实现可信钓鱼服务攻击 | https://mp.weixin.qq.com/s/9BeHub6YCp0oM8jHrK6_dg | 1| 
 | 零部安全 | sec-services | 漏洞管理过程中的定量计算方法 | https://mp.weixin.qq.com/s/5C6NeiNb6pifrZZh1vR_cg | 1| 
 | 电网智囊团 | gridthink | 一文搞懂电力系统调度数据网4+1+1区 | https://mp.weixin.qq.com/s/wcs0mWzBXh96Ds-qJ9H6xQ | 1| 
 | 军机故阁 | gh_e57baf46bdf5 | 使用 JARM 轻松识别 Internet 上的恶意服务器 | https://mp.weixin.qq.com/s/phtGCVnaiff-vKgJVTR0PQ | 1| 

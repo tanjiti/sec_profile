@@ -108,12 +108,12 @@
 | 网安国际 | inforsec | XNU虚拟内存安全往事 | https://mp.weixin.qq.com/s/Lj8c5PLzLGIfdBoDzairsQ | 1| 
 | 天懋信息 | trustmoinfo | 安全快报 , 美国提出新法案，加强医疗保健和公共卫生部门网络安全 | https://mp.weixin.qq.com/s/2rTm5bRByYjreyxWcO4b7Q | 6| 
 | 鸟哥谈云安全 | cnbirdsecintel | 混合办公（Hybrid Work）安全的“三年”技术落地趋势推演 | https://mp.weixin.qq.com/s/sRYlS9BfdiM4NzdTpbenOw | 1| 
-| 跳跳糖社区 | tttangsec | CodeQL 踩坑指南 - Java | https://mp.weixin.qq.com/s/JkqtO_kfy4LZH9Kjkx6jdw | 8| 
+| 跳跳糖社区 | tttangsec | CodeQL 踩坑指南 - Java | https://mp.weixin.qq.com/s/JkqtO_kfy4LZH9Kjkx6jdw | 9| 
 | 赤旗情报站 | RedFlagIA | OpenCTI入门笔记（二）:存储设置&清理&修改图标和title | https://mp.weixin.qq.com/s/oh2AZ7XMuzDgTEVUV6aSsg | 2| 
 | 昆仑策研究院 | kunlunceyanjiuyuan | 牟承晋：俄乌网络战争的启示 | https://mp.weixin.qq.com/s/f2jFoaq8Yagmy2JwpHNCgQ | 1| 
 | 我的安全视界观 | CANI_Security | 如何学习这么多的安全文章（理论篇） | https://mp.weixin.qq.com/s/qA3U3qI0h7tuzggI7lvjAA | 8| 
 | 学术世界 | Academicworld | 周亚金：数字货币在暗网中的使用初探（内附PPT） | https://mp.weixin.qq.com/s/-tk1cCaYgcfBnjuS0Pahjw | 2| 
-| RainSec | RainSec111 | 《Linux Kernel 保护机制绕过》 | https://mp.weixin.qq.com/s/gSTbXW6M72QYtVPoZswhyw | 1| 
+| RainSec | RainSec111 | 《Linux Kernel 保护机制绕过》 | https://mp.weixin.qq.com/s/gSTbXW6M72QYtVPoZswhyw | 2| 
 | SecOps急行军 | SecOpsWithU | 编写信息安全规划的几点经验 | https://mp.weixin.qq.com/s/EjFZ2wr5ynzhiqttVAm8ng | 1| 
 | 网络安全研究宅基地 | gh_684e6ad8d12c | 2021西湖论剑IOT RW-WriteUp | https://mp.weixin.qq.com/s/aOirT1aIfbbN890X39zWBw | 1| 
 | 信安客 | xinanke_com | ATT&CK红队评估三套靶场渗透记录 | https://mp.weixin.qq.com/s/8s7l4TgcYb-CibfnQ6XhLA | 1| 
@@ -166,7 +166,7 @@
 | 凭阑安全 | ghrtest | 君墨篇绕过 SAML SSO 身份验证复现 | https://mp.weixin.qq.com/s?__biz=Mzg4NDA4MzE3Nw==&mid=2247483963&idx=1&sn=3b955380fdd8a53a8c41bdc2c6f27880 | 1| 
 | 中安网星 | netstarsec | 身份威胁安全方案提供商「中安网星」完成战略融资，航行资本担任财务顾问 | https://mp.weixin.qq.com/s?__biz=MzkxNTEzMTA0Mw==&mid=2247490071&idx=1&sn=8e9d03a3afe9d253997c85300149b4ed | 1| 
 | inn0team | inn0team | 猪场缺人，速来 | https://mp.weixin.qq.com/s?__biz=MzIyNTA1NzAxOA==&mid=2650474094&idx=1&sn=db59b910e5d9e87d3c59482ba010fe7d | 1| 
-| M01N Team | m01nteam | 针对AD CS中ESC7的滥用 | https://mp.weixin.qq.com/s/TqW3ONBdcUFijg4keSiO1g | 6| 
+| M01N Team | m01nteam | 针对AD CS中ESC7的滥用 | https://mp.weixin.qq.com/s/TqW3ONBdcUFijg4keSiO1g | 7| 
 | 白帽技术与网络安全 | zero_daynews | 工具推荐 , 信息收集利器SharpXDecrypt | https://mp.weixin.qq.com/s?__biz=MzU0MDI5ODgxMw==&mid=2247485051&idx=1&sn=a0e3ff1ea2d72e2933be5c1142a99a7c | 2| 
 | 漕河泾小黑屋 | gh_7e80ffdff03e | 关于不小心上了天堂这件事 | https://mp.weixin.qq.com/s?__biz=MzA4NzQwNzY3OQ==&mid=2247483854&idx=1&sn=7bddc8c5a948b08289ca46f418ca4e04 | 2| 
 | 湘雪尘奕 | gkaq_gkk | 基于工业互联网控制设备“网络武器化”研究 | https://mp.weixin.qq.com/s?__biz=MzI2MzE3NzczNQ==&mid=2650622421&idx=1&sn=530ec9fd3880d583a7d5f50132f970f4 | 2| 
