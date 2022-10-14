@@ -188,7 +188,7 @@
 | 赛博新经济 | gh_5c4abe1ee3a6 | 利用IP分片污染攻击TCP流量 | https://mp.weixin.qq.com/s/7gA74jWC1RES76p1XBO_Kw | 1| 
 | 谢公子学安全 | xie_sec | 春招准备冲刺深信服~ | https://mp.weixin.qq.com/s?__biz=MzI2NDQyNzg1OA==&mid=2247490179&idx=1&sn=fbaa9d6952e8a4a02eaeb9a67de48431 | 4| 
 | 蛇矛实验室 | gh_2c0238928f82 | 每周安全资讯 | https://mp.weixin.qq.com/s?__biz=MzkwMjI1NzY4Ng==&mid=2247501131&idx=1&sn=8bfe0c1cde565a170834dcc5dc6e6a48 | 1| 
-| 虎符智库 | TT_Thinktank | 深度：一文读懂我国数据安全政策动向与趋势 | https://mp.weixin.qq.com/s?__biz=MzIwNjYwMTMyNQ==&mid=2247487103&idx=1&sn=5a238ceee999767566c16984c3813188 | 6| 
+| 虎符智库 | TT_Thinktank | 深度：一文读懂我国数据安全政策动向与趋势 | https://mp.weixin.qq.com/s?__biz=MzIwNjYwMTMyNQ==&mid=2247487103&idx=1&sn=5a238ceee999767566c16984c3813188 | 7| 
 | 灰产圈 | huichanquan | 从“血奴”身上抽出来的血，去了哪里？ | https://mp.weixin.qq.com/s?__biz=MzIyMDYwMTk0Mw==&mid=2247529890&idx=1&sn=d14992d5536c7d32c114d35a1f879477 | 3| 
 | 清河六点下班 | gh_fd416b016aa6 | 中间商之 Ntlm Relay 攻击分析 | https://mp.weixin.qq.com/s/EhJVdRG71JTr9yZFajGKqg | 4| 
 | 汽车信息安全 | IcvSec | 青骥编译 l Upstream 2022全球汽车网络安全报告 第一章 标准、法规和网联汽车生态系统 | https://mp.weixin.qq.com/s?__biz=Mzg3MTI0NDQwNg==&mid=2247487265&idx=1&sn=ef14d20cd20a988a6dc65f7766c6f7e1 | 1| 
