@@ -14,19 +14,19 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
-| 跳跳糖社区 | tttangsec | 域内用户Hash获取方式总结 | https://mp.weixin.qq.com/s/k-VUKcivMw3bncK5RW2Mvg | 1| 
 | 赛博回忆录 | cybermemory | 最新CS RCE曲折的复现路 | https://mp.weixin.qq.com/s?__biz=MzIxNDAyNjQwNg==&mid=2456098978&idx=1&sn=d511d5a674d84eeaf262c8e389ae0403&chksm=803c696bb74be07d8ef8e473b11ffe4dce57b58ccf82e8615ab15d9ba6bba9263360c01276a8 | 1| 
+| 跳跳糖社区 | tttangsec | 域内用户Hash获取方式总结 | https://mp.weixin.qq.com/s/k-VUKcivMw3bncK5RW2Mvg | 1| 
 | RainSec | RainSec111 | 对5.6w条xray结果的简单分析 | https://mp.weixin.qq.com/s/vhNGTBq8owncjlWyPJ0XGA | 1| 
 | M01N Team | m01nteam | AWS S3 Bucket子域接管实现可信钓鱼服务攻击 | https://mp.weixin.qq.com/s/9BeHub6YCp0oM8jHrK6_dg | 1| 
 | 零部安全 | sec-services | 漏洞管理过程中的定量计算方法 | https://mp.weixin.qq.com/s/5C6NeiNb6pifrZZh1vR_cg | 1| 
 | 电网智囊团 | gridthink | 一文搞懂电力系统调度数据网4+1+1区 | https://mp.weixin.qq.com/s/wcs0mWzBXh96Ds-qJ9H6xQ | 1| 
 | 军机故阁 | gh_e57baf46bdf5 | 使用 JARM 轻松识别 Internet 上的恶意服务器 | https://mp.weixin.qq.com/s/phtGCVnaiff-vKgJVTR0PQ | 1| 
-| 迪哥讲事 | growing0101 | 我是如何测试Cache相关的漏洞的 | https://mp.weixin.qq.com/s/IfkpElF5O1Qz9aet8zSujA | 2| 
 | 落水轩 | gh_c10ee4802699 | 美国司法部网络安全述职报告 | https://mp.weixin.qq.com/s/nIbSV4dGpVtp98beqeL2Hg | 1| 
 | 威胁棱镜 | THREAT_PRISM | 恶意 Tor 浏览器安装程序正通过 YouTube 进行分发 | https://mp.weixin.qq.com/s/c3jixzRxo0eg2IrA9xcJtw | 1| 
 | XG小刚 | XG_WEB | 阿某云-WAF挑战赛wp | https://mp.weixin.qq.com/s/H1kslnpYbAmUOs7g0SpFWQ | 1| 
 | 湛卢工作室 | xuehao_studio | 云原生安全系列（一） , Kubernetes云原生靶场搭建 | https://mp.weixin.qq.com/s/XmEhvrzwmcjW9lBIZMl2ag | 1| 
 | 关键信息基础设施安全保护联盟筹 | gh_1c74abeb39a6 | 专家观点, 网络空间战略预警体系的建设思考 | https://mp.weixin.qq.com/s/2z9ze6N4p2R_Tokbk0g-vA | 1| 
+| 迪哥讲事 | growing0101 | idor相关研究 | https://mp.weixin.qq.com/s/C6NuprrVSAx2Nh0fPXidwA | 3| 
 | 拨开云雾 | Under_Sakura | 代码检索和摘要中的自监督对比学习 | https://mp.weixin.qq.com/s/pTNNIeico9mcDqvcXos3cA | 1| 
 | leveryd | gh_8d7f6ed4daff | 浅析洞态iast产品 | https://mp.weixin.qq.com/s/fq2m59L_2Piqyeufl6eZFQ | 1| 
 
