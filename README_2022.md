@@ -400,7 +400,7 @@
 | WhITECat安全团队 | WhITECat_007 | 迷糊的提权方式以及利用ssrf到最终提权靶机 | https://mp.weixin.qq.com/s?__biz=MzAwMzc2MDQ3NQ==&mid=2247486559&idx=1&sn=d3fcd82c9b6aea8d8bcf3e9686371551 | 7| 
 | Linux学习 | LoveLinux1024 | 2022 年是 Linux 桌面年吗？ | https://mp.weixin.qq.com/s?__biz=MzI4MDEwNzAzNg==&mid=2649455967&idx=1&sn=b2e87ef21c821de8e224505b0ba318c0 | 33| 
 | Bypass | Bypass-- | 推荐 , 安全技术类公众号 | https://mp.weixin.qq.com/s?__biz=MzA3NzE2MjgwMg==&mid=2448907841&idx=1&sn=487dd8edd7cd130d3155564a84fcb98c | 5| 
-| 顺丰安全应急响应中心 | SFSRC- | SFSRC安全情报奖励计划正式运行 | https://mp.weixin.qq.com/s?__biz=MzU3OTAyODk4MQ==&mid=2247484190&idx=1&sn=9d2bda66d60dfa6bc6f3819471469d34 | 1| 
+| 顺丰安全应急响应中心 | SFSRC- | SFSRC安全情报奖励计划正式运行 | https://mp.weixin.qq.com/s?__biz=MzU3OTAyODk4MQ==&mid=2247484190&idx=1&sn=9d2bda66d60dfa6bc6f3819471469d34 | 2| 
 | 青藤云安全 | qingtengyun | 青藤深度支持《2021网信自主创新调研报告》，获编委会致谢 | https://mp.weixin.qq.com/s?__biz=MzAwNDE4Mzc1NA==&mid=2650833518&idx=1&sn=d89f325630c503a6ba331c26b6c3d9cd | 3| 
 | 雷神众测 | bounty_team | 推荐 , 安全技术类公众号 | https://mp.weixin.qq.com/s?__biz=MzI0NzEwOTM0MA==&mid=2652495828&idx=1&sn=9dba829a9119d596377f39cfeb274990 | 17| 
 | 锋刃科技 | ahfengren | 【漏洞情报】Linux Polkit本地提权漏洞（CVE-2022-4034） | https://mp.weixin.qq.com/s?__biz=MzUxMjc0MTE3Mw==&mid=2247486885&idx=1&sn=cad08d9539f3bf1f4706a24a853835cb | 3| 
@@ -864,6 +864,8 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 推荐系统排序环节的特征Embedding建模 | https://zhuanlan.zhihu.com/p/573576653| 
+| 基于语音数据的实体和关系抽取 | https://zhuanlan.zhihu.com/p/573667782| 
 | Google数据安全自动化建设之路（白皮书） | https://zhuanlan.zhihu.com/p/564689012| 
 | 图结构的相似度度量与分类 | https://zhuanlan.zhihu.com/p/63411717| 
 | Google对于云安全未来的发展方向（CISO 云安全转型指南白皮书... | https://zhuanlan.zhihu.com/p/529772138| 

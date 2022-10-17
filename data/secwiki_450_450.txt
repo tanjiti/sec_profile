@@ -1,0 +1,16 @@
+20221010	设备安全	https://mp.weixin.qq.com/s/wcs0mWzBXh96Ds-qJ9H6xQ	电力网络安全分区(4+1+1区)	qq.com	mp.weixin.qq.com	/s/wcs0mWzBXh96Ds-qJ9H6xQ
+20221010	Web安全	https://mp.weixin.qq.com/s/IfkpElF5O1Qz9aet8zSujA	我是如何测试Cache相关的漏洞的	qq.com	mp.weixin.qq.com	/s/IfkpElF5O1Qz9aet8zSujA
+20221010	Web安全	https://mp.weixin.qq.com/s/5C6NeiNb6pifrZZh1vR_cg	漏洞管理过程中的定量计算方法	qq.com	mp.weixin.qq.com	/s/5C6NeiNb6pifrZZh1vR_cg
+20221010	Web安全	https://mp.weixin.qq.com/s/vhNGTBq8owncjlWyPJ0XGA	对5.6w条xray结果的简单分析	qq.com	mp.weixin.qq.com	/s/vhNGTBq8owncjlWyPJ0XGA
+20221010	恶意分析	https://mp.weixin.qq.com/s/phtGCVnaiff-vKgJVTR0PQ	使用 JARM 轻松识别 Internet 上的恶意服务器	qq.com	mp.weixin.qq.com	/s/phtGCVnaiff-vKgJVTR0PQ
+20221010	Web安全	https://lightless.me/archives/code-analysis-with-joern.html	Code Analysis With Joern	lightless.me	lightless.me	/archives/code-analysis-with-joern.html
+20221010	Web安全	https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247486591&idx=1&sn=f0c62d1f070709bf13b3d75b8940dc2d&chksm=e8a6061cdfd18f0afa2f195a9a868341417ced28112c740f81945bfd12eb0ec55a49353b5938&token=1532783018&lang=zh_CN#rd	你所不知道的CRLF---header中潜藏的漏洞	qq.com	mp.weixin.qq.com	/s
+20221010	Web安全	https://mp.weixin.qq.com/s/9BeHub6YCp0oM8jHrK6_dg	AWS S3 Bucket子域接管实现可信钓鱼服务攻击	qq.com	mp.weixin.qq.com	/s/9BeHub6YCp0oM8jHrK6_dg
+20221010	杂志	https://www.sec-wiki.com/weekly/449	SecWiki周刊（第449期)	sec-wiki.com	www.sec-wiki.com	/weekly/449
+20221010	Web安全	https://mp.weixin.qq.com/s/k-VUKcivMw3bncK5RW2Mvg	域内用户Hash获取方式总结	qq.com	mp.weixin.qq.com	/s/k-VUKcivMw3bncK5RW2Mvg
+20221010	Web安全	https://uxss.net/2022/10/12/Google%E4%BA%91%E5%9F%BA%E7%A1%80%E6%9E%B6%E6%9E%84%E5%AE%89%E5%85%A8%E8%AE%BE%E8%AE%A1%E5%AD%A6%E4%B9%A0/	Google云基础架构安全设计学习	uxss.net	uxss.net	/2022/10/12/Google%E4%BA%91%E5%9F%BA%E7%A1%80%E6%9E%B6%E6%9E%84%E5%AE%89%E5%85%A8%E8%AE%BE%E8%AE%A1%E5%AD%A6%E4%B9%A0/
+20221010	取证分析	https://mp.weixin.qq.com/s/CSxUkgBb_8Did6bEpzBiaQ	威胁情报：重要的与不重要的	qq.com	mp.weixin.qq.com	/s/CSxUkgBb_8Did6bEpzBiaQ
+20221010	运维安全	https://mp.weixin.qq.com/s/0Gs_7Ut4zGGUWQwQAy90jQ	IM钓鱼防御方案	qq.com	mp.weixin.qq.com	/s/0Gs_7Ut4zGGUWQwQAy90jQ
+20221010	编程技术	https://missing-semester-cn.github.io/	计算机教育中缺失的一课	github.io	missing-semester-cn.github.io	/
+20221010	编程技术	https://zhuanlan.zhihu.com/p/573667782	基于语音数据的实体和关系抽取	zhihu.com	zhuanlan.zhihu.com	/p/573667782
+20221010	数据挖掘	https://zhuanlan.zhihu.com/p/573576653	推荐系统排序环节的特征Embedding建模	zhihu.com	zhuanlan.zhihu.com	/p/573576653

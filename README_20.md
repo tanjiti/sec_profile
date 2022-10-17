@@ -221,7 +221,7 @@
 | 奇安信病毒响应中心 | gh_416eb7efb780 | 每周勒索威胁摘要 | https://mp.weixin.qq.com/s?__biz=MzI5Mzg5MDM3NQ==&mid=2247489215&idx=1&sn=ca816d8c8ccb63f178d0e97035bfbc40 | 5| 
 | 天驿安全 | tianyisec | 雪影，一款集合诸多功能的安全工具 | https://mp.weixin.qq.com/s?__biz=MzkxNjIxNDQyMQ==&mid=2247487622&idx=1&sn=4f3fa08fd191ebe748c8e1a6954c23af | 36| 
 | WhITECat安全团队 | WhITECat_007 | 迷糊的提权方式以及利用ssrf到最终提权靶机 | https://mp.weixin.qq.com/s?__biz=MzAwMzc2MDQ3NQ==&mid=2247486559&idx=1&sn=d3fcd82c9b6aea8d8bcf3e9686371551 | 7| 
-| 顺丰安全应急响应中心 | SFSRC- | SFSRC安全情报奖励计划正式运行 | https://mp.weixin.qq.com/s?__biz=MzU3OTAyODk4MQ==&mid=2247484190&idx=1&sn=9d2bda66d60dfa6bc6f3819471469d34 | 1| 
+| 顺丰安全应急响应中心 | SFSRC- | SFSRC安全情报奖励计划正式运行 | https://mp.weixin.qq.com/s?__biz=MzU3OTAyODk4MQ==&mid=2247484190&idx=1&sn=9d2bda66d60dfa6bc6f3819471469d34 | 2| 
 | 网络安全编程与黑客程序员 | gh_70d3f225d0bb | 利用分块传输吊打所有WAF | https://mp.weixin.qq.com/s?__biz=Mzg5NDMzNjYxOA==&mid=2247495122&idx=1&sn=839f1565f9a8fc29b7b2e2c26c6b5057 | 16| 
 | 程序员阿甘 | gh_a2e36d69d566 | linux中的交互式进程查看命令htop | https://mp.weixin.qq.com/s?__biz=MzI4MTkzNDIyMg==&mid=2247495268&idx=1&sn=fb64bfb20dc818431ea816a71f80ffdb | 33| 
 | 福韵 网络情报研究 | FuyunOsint | 【情报工具】分享24个国内外政府开放数据平台 | https://mp.weixin.qq.com/s?__biz=MzU4NTg4Mzc0MA==&mid=2247532941&idx=1&sn=eee821b9f38ab7212174722c7d675100 | 11| 
@@ -5215,6 +5215,8 @@
 # zhihu_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 推荐系统排序环节的特征Embedding建模 | https://zhuanlan.zhihu.com/p/573576653| 
+| 基于语音数据的实体和关系抽取 | https://zhuanlan.zhihu.com/p/573667782| 
 | Google数据安全自动化建设之路（白皮书） | https://zhuanlan.zhihu.com/p/564689012| 
 | 图结构的相似度度量与分类 | https://zhuanlan.zhihu.com/p/63411717| 
 | Google对于云安全未来的发展方向（CISO 云安全转型指南白皮书... | https://zhuanlan.zhihu.com/p/529772138| 
