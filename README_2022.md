@@ -21,7 +21,7 @@
 | 默安逐日实验室 | gh_995a1a9f25b5 | 红队视角下的AWS横向移动 | https://mp.weixin.qq.com/s/Q0iiRJ53BwuU4LHynR4qWQ | 1| 
 | 云图全景Snapano | yuntuzhuanlan | 云安全趋势分享（2022年底） | https://mp.weixin.qq.com/s/U3tQfZoLsJv_PoDAJmzcMg | 1| 
 | 赛博攻防悟道 | lookvul | 加密流量安全背后的那些小秘闻 | https://mp.weixin.qq.com/s/1J1HNdA2wZF93-K-e7Pg8Q | 1| 
-| 迪哥讲事 | growing0101 | 挖洞方法与心态系列-揭露大佬挖主应用的一般性流程(版本1) | https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247486332&idx=1&sn=238328c005b23ec39e375bb0f4f57652&chksm=e8a6011fdfd1880929ce3b1c3207ae1caf8827f845881fa110daab3a10f6177df3483ca77eea&token=798508684&lang=zh_CN#rd | 9| 
+| 迪哥讲事 | growing0101 | 挖洞方法与心态系列-揭露大佬挖主应用的一般性流程(版本1) | https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247486332&idx=1&sn=238328c005b23ec39e375bb0f4f57652&chksm=e8a6011fdfd1880929ce3b1c3207ae1caf8827f845881fa110daab3a10f6177df3483ca77eea&token=798508684&lang=zh_CN#rd | 11| 
 | 数据治理体系 | DGsystem | 0到1搭建企业级数据治理体系 | https://mp.weixin.qq.com/s/nUU0waB3Z9r-f27fHQpqdQ | 1| 
 | BinSec | binsec010 | GoTestWAF: 自动化评估Web应用程序安全 | https://mp.weixin.qq.com/s/RZplLKYua6J-JQztxGXS6A | 1| 
 | 中国政法大学数据合规研究中心 | CUPLDataCompliance | 一文区分个人信息、敏感个人信息和隐私信息 | https://mp.weixin.qq.com/s/7RKpZTC6421CUE6lj1scAQ | 1| 
@@ -439,7 +439,7 @@
 | 吾爱破解论坛 | pojie_52 | 活动】感动吾爱2021优秀会员评选活动（总方案） | https://mp.weixin.qq.com/s?__biz=MjM5Mjc3MDM2Mw==&mid=2651137131&idx=1&sn=1d12e3986207cc1f801cc9e7f1892f35 | 14| 
 | 关键基础设施安全应急响应中心 | CII-SRC | “十四五”数字经济高质量发展需要法治护航 | https://mp.weixin.qq.com/s?__biz=MzkyMzAwMDEyNg==&mid=2247524421&idx=1&sn=4c4c7933b5793f1544005a9d9ef67a5a | 71| 
 | 全球技术地图 | drc_iite | NSF向白宫递交最新报告：5大指标表明美国在科技发展的态势上输给了中国 | https://mp.weixin.qq.com/s?__biz=MzI1OTExNDY1NQ==&mid=2651589322&idx=1&sn=d9126d14423701c23e33fe0134d43dfc | 52| 
-| 一个人的安全笔记 | xjiek2015 | [HTB] Safe Writeup | https://mp.weixin.qq.com/s/NuP7kjfGgEMLrg60_fSzWg | 11| 
+| 一个人的安全笔记 | xjiek2015 | [HTB] Safe Writeup | https://mp.weixin.qq.com/s/NuP7kjfGgEMLrg60_fSzWg | 12| 
 | yudays实验室 | None | CVE-2021-4034权限提升漏洞 | https://mp.weixin.qq.com/s?__biz=MzU0NjU5NDE4Mg==&mid=2247484773&idx=1&sn=0709ca817b3ac9f4f2c36782a355d2f4 | 2| 
 | aFa攻防实验室 | gzh_afagfsys | Linux提权-CVE-2021-4034 | https://mp.weixin.qq.com/s?__biz=MzAxMjcxMjkyOA==&mid=2247485627&idx=1&sn=a5cf1afffe837bc94abd138b57fca607 | 7| 
 | PeiQi文库 | PeiQi_wiki | 漏洞预警：Linux Polkit权限提升漏洞 CVE-2021-4034 | https://mp.weixin.qq.com/s?__biz=Mzg3NDU2MTg0Ng==&mid=2247490120&idx=1&sn=ac5c8f68369df6e7c257322e3dbcbb0c | 4| 
@@ -469,7 +469,7 @@
 | 且听安全 | qtcyber | 【最新漏洞预警】CVE-2022-22733 ShardingSphere ElasticJob-UI从权限提升到H2 RCE | https://mp.weixin.qq.com/s?__biz=Mzg3MTU0MjkwNw==&mid=2247487481&idx=1&sn=5c6412fb2977785093a684ffe7f42849 | 17| 
 | Th0r安全 | gh_3ad192d9c87f | pyinstaller有key参数的第二种逆向方法 | https://mp.weixin.qq.com/s?__biz=Mzg3ODY3MzcwMQ==&mid=2247485030&idx=1&sn=3a0446c5ac13dbafef311e32f4383974 | 17| 
 | Linux中国 | linux-cn | 用 CrowdSec 保护你的 PHP 网站不受机器人攻击 , Linux 中国 | https://mp.weixin.qq.com/s?__biz=MjM5NjQ4MjYwMQ==&mid=2664647429&idx=2&sn=7552d7ab892724ce3362a4c822fc888a | 84| 
-| Beacon Tower Lab | WebRAY_BTL | 内网代理工具与检测方法研究 | https://mp.weixin.qq.com/s/N2HL89HAHv0OmLrB3AGHSQ | 1| 
+| Beacon Tower Lab | WebRAY_BTL | 内网代理工具与检测方法研究 | https://mp.weixin.qq.com/s/N2HL89HAHv0OmLrB3AGHSQ | 2| 
 | 青衣十三楼飞花堂 | gh_9feb5a276a2a | Win10主控台登录认证流程 | https://mp.weixin.qq.com/s?__biz=MzUzMjQyMDE3Ng==&mid=2247485254&idx=1&sn=4dae88d1a06d482de14fad9f1006b6a7 | 39| 
 | 暗魂攻防实验室 | anhunsec-red | 【社区精选】渗透攻击红队内网域渗透靶场2.0-writeup | https://mp.weixin.qq.com/s?__biz=MzkyMjE1NzQ2MA==&mid=2247485537&idx=1&sn=e3799090a8b5503da5b8ee0f8c5662fa | 4| 
 | leveryd | gh_8d7f6ed4daff | SnakeYaml 之不出网利用 | https://mp.weixin.qq.com/s?__biz=MzkyMDIxMjE5MA==&mid=2247484854&idx=1&sn=b6e1c8c3930249519dea8bc2a8448c61 | 3| 
@@ -538,7 +538,7 @@
 | ChaMd5安全团队 | chamd5sec | 长安战疫-WriteUp | https://mp.weixin.qq.com/s/VMk7RPkvDioqMqEQdM5jFw | 12| 
 | 金融犯罪辩护与实务研究 | gh_5826b3a9c36f | 网络爬虫公司可能触犯哪些罪名 | https://mp.weixin.qq.com/s/AI5Pa37dS4q1XRCbbZXBsA | 1| 
 | 莫哥谈安全 | gh_247dfbdf3d43 | 浅谈数据安全运营能力建设 | https://mp.weixin.qq.com/s/SvMd8aCalyg5pL6Jri-4AA | 2| 
-| 看雪学苑 | ikanxue | 某系统漏洞挖掘之固件分析 | https://mp.weixin.qq.com/s/-xlzHLT6WoX2nKphpO04fQ | 107| 
+| 看雪学苑 | ikanxue | 某系统漏洞挖掘之固件分析 | https://mp.weixin.qq.com/s/-xlzHLT6WoX2nKphpO04fQ | 108| 
 | 卫星黑客 | Satellite_Hacker | 《2021太空安全报告》 | https://mp.weixin.qq.com/s/LBrXIivudLZlH_a-ecEzDg | 2| 
 | 信息安全与通信保密杂志社 | cismag2013 | 2021 年全球主要网络安全威胁发展态势 | https://mp.weixin.qq.com/s/hWB07M_0obNuJCZa7kGSoA | 5| 
 | 中国信息安全 | chinainfosec | 专题·回顾2021 , 2021年网络安全产业态势总结 | https://mp.weixin.qq.com/s/xMXRlTjzeS6a4hYRyH1wZg | 79| 

@@ -18,7 +18,7 @@
 | 电网智囊团 | gridthink | 一文搞懂电力系统调度数据网4+1+1区 | https://mp.weixin.qq.com/s/wcs0mWzBXh96Ds-qJ9H6xQ | 1| 
 | 云图全景Snapano | yuntuzhuanlan | 云安全趋势分享（2022年底） | https://mp.weixin.qq.com/s/U3tQfZoLsJv_PoDAJmzcMg | 1| 
 | 赛博攻防悟道 | lookvul | 加密流量安全背后的那些小秘闻 | https://mp.weixin.qq.com/s/1J1HNdA2wZF93-K-e7Pg8Q | 1| 
-| 迪哥讲事 | growing0101 | 挖洞方法与心态系列-揭露大佬挖主应用的一般性流程(版本1) | https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247486332&idx=1&sn=238328c005b23ec39e375bb0f4f57652&chksm=e8a6011fdfd1880929ce3b1c3207ae1caf8827f845881fa110daab3a10f6177df3483ca77eea&token=798508684&lang=zh_CN#rd | 9| 
+| 迪哥讲事 | growing0101 | 挖洞方法与心态系列-揭露大佬挖主应用的一般性流程(版本1) | https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247486332&idx=1&sn=238328c005b23ec39e375bb0f4f57652&chksm=e8a6011fdfd1880929ce3b1c3207ae1caf8827f845881fa110daab3a10f6177df3483ca77eea&token=798508684&lang=zh_CN#rd | 11| 
 | BinSec | binsec010 | GoTestWAF: 自动化评估Web应用程序安全 | https://mp.weixin.qq.com/s/RZplLKYua6J-JQztxGXS6A | 1| 
 | 中国政法大学数据合规研究中心 | CUPLDataCompliance | 一文区分个人信息、敏感个人信息和隐私信息 | https://mp.weixin.qq.com/s/7RKpZTC6421CUE6lj1scAQ | 1| 
 | SecUN安全村 | sec-un | 一个科技平台型企业的网络安全建设心得｜科技创新型企业专刊·安全村 | https://mp.weixin.qq.com/s/y_4A2gehmSPCoy8f2xNOPQ | 2| 
@@ -269,7 +269,7 @@
 | 星期五实验室 | Friday_LAB | vulntarget漏洞靶场系列（二）— vulntarget-b | https://mp.weixin.qq.com/s/S3aiKN_IIhxWRyizAb8zLg | 1| 
 | Moonlight Bug Hunter | gh_1ec00ecad45d | Codeql 挖洞？ | https://mp.weixin.qq.com/s/-4E08dNeCdsc51VLE9qMAQ | 1| 
 | GeekPwn | GeekPwn | 谷歌安全研究员直呼复杂 ｜ iMessage 零点击漏洞利用细节公开 | https://mp.weixin.qq.com/s/u0O6qBbvGB-l8aqCabGaUQ | 8| 
-| Beacon Tower Lab | WebRAY_BTL | Log4j2远程代码执行漏洞检测和防护策略研究 | https://mp.weixin.qq.com/s/GY-hKl9013pyVd8no0SDHw | 2| 
+| Beacon Tower Lab | WebRAY_BTL | Log4j2远程代码执行漏洞检测和防护策略研究 | https://mp.weixin.qq.com/s/GY-hKl9013pyVd8no0SDHw | 3| 
 | 海淀检察院 | hdpp1955 | 全文｜海淀区检察院发布《网络科技犯罪典型案例》 | https://mp.weixin.qq.com/s/GSod_Mbebfc5tIyNN7uusg | 1| 
 | 乐枕迭代日志 | cdxy_011 | API经济下的安全变局 | https://mp.weixin.qq.com/s/oXHcoLE5WkEer24mz7BqUg | 1| 
 | Yak Project | YakLanguage | 如何使用Yakit进行流量劫持 | https://mp.weixin.qq.com/s/9vVRTehwAhkSLM65JaKiQA | 1| 
@@ -300,7 +300,7 @@
 | NightTeam | locozhou | 小菜花的frida-svc-interceptor | https://mp.weixin.qq.com/s?__biz=Mzg5NzIyMzkzNw==&mid=2247485919&idx=1&sn=ca1402591c1d37c3dc7958a84e2146ea | 1| 
 | HACK学习君 | XHacker1961 | 记一次曲折的WAF绕过 | https://mp.weixin.qq.com/s?__biz=MzIzNzMxMDkxNw==&mid=2247486085&idx=1&sn=570b3adf02278319757a76baa0e9342e | 5| 
 | CNVD漏洞平台 | None | 关于SonarQube系统存在未授权访问漏洞的安全公告 | https://mp.weixin.qq.com/s?__biz=MzU3ODM2NTg2Mg==&mid=2247490778&idx=1&sn=4fef06e06bce01245e5f473c70e1b793 | 11| 
-| 看雪学苑 | ikanxue | 全网最详细CVE-2014-0502 Adobe Flash Player双重释放漏洞分析 | https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458402566&idx=1&sn=6a8289758711c348b36f8526808747c7 | 116| 
+| 看雪学苑 | ikanxue | 全网最详细CVE-2014-0502 Adobe Flash Player双重释放漏洞分析 | https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458402566&idx=1&sn=6a8289758711c348b36f8526808747c7 | 117| 
 | 广软NSDA安全团队 | gh_72de97d4e162 | 内网渗透初探 | https://mp.weixin.qq.com/s?__biz=MzUzMDg5NDQ0Nw==&mid=2247489476&idx=1&sn=a39eed3450e581385b862c09ae556f9f | 6| 
 | 小黑的安全笔记 | x1a0heI | 云服务器ftp被动和主动模式都连接失败 | https://mp.weixin.qq.com/s?__biz=MzI4Njk5NjY4OQ==&mid=2247485823&idx=1&sn=43b52f2f7163fba10cf4ba466a3bac29 | 2| 
 | 不懂安全的校长 | sectip | 内网渗透 , 1.内网基础知识 | https://mp.weixin.qq.com/s?__biz=MzkyMzI3OTY4Mg==&mid=2247484768&idx=1&sn=31012b5465686c5eaa96dad6f8f0bbfa | 10| 
@@ -462,7 +462,7 @@
 | 合规科技研究 | ComplianceTech | 数据安全技术专题——数据分类分级的技术实践指南 | https://mp.weixin.qq.com/s/WknW2_lR4ryBLIgCma30Vw | 1| 
 | 反诈骗先锋 | fanzhapianxf | 关于反诈工作的几个问题及思考 | https://mp.weixin.qq.com/s/ps7GG2rKc5-J8J2Iybhi8Q | 1| 
 | 白帽子飙车路 | hack-by-txf | Cobalt Strike 利用 Chrome 0day 上线 | https://mp.weixin.qq.com/s/LOpAu8vs8ob85W3sCmXMew | 5| 
-| 一个人的安全笔记 | xjiek2015 | [HTB]Worker Writeup | https://mp.weixin.qq.com/s/J5jKKfbwBbOTjpnwcFotrg | 40| 
+| 一个人的安全笔记 | xjiek2015 | [HTB]Worker Writeup | https://mp.weixin.qq.com/s/J5jKKfbwBbOTjpnwcFotrg | 41| 
 | GuyoungStudio | guyoungnet | 可扩展跨平台网络安全工具套件 CaptfEncoder v2.0.0 发布 | https://mp.weixin.qq.com/s?__biz=MzI0ODU5Mzg0NA==&mid=2247483998&idx=1&sn=baaa69c5576a1e52b7d8aeb9482e1cf3&chksm=e99f2e85dee8a79304a5535dbf6c77e9f9def6b2a7438c73e28792ac5ea3c628a02204d116e6&token=1448493475&lang=zh_CN#rd | 1| 
 | 郑海山dump | zhsdump | 网络空间测绘：IP洞察 | https://mp.weixin.qq.com/s/gVTyhwgxC-UUxhB4YdXKeg | 2| 
 | RedTeam | RedTeams | 浅析 AWS S3 子域名接管漏洞 | https://mp.weixin.qq.com/s/q3bsrCKacuepKoFljYxJcg | 4| 

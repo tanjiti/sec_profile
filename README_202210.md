@@ -15,6 +15,9 @@
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
 | 赛博回忆录 | cybermemory | 最新CS RCE曲折的复现路 | https://mp.weixin.qq.com/s?__biz=MzIxNDAyNjQwNg==&mid=2456098978&idx=1&sn=d511d5a674d84eeaf262c8e389ae0403&chksm=803c696bb74be07d8ef8e473b11ffe4dce57b58ccf82e8615ab15d9ba6bba9263360c01276a8 | 1| 
+| 看雪学苑 | ikanxue | 动静态结合分析非标准MD5算法及还原 | https://mp.weixin.qq.com/s/5ZbBEIh-JsyoscIWCqYJyw | 1| 
+| 一个人的安全笔记 | xjiek2015 | [HTB] Nunchucks Writeup | https://mp.weixin.qq.com/s/HPVEB8408-7NhuGzf9DGCg | 1| 
+| Beacon Tower Lab | WebRAY_BTL | 最新CS RCE（CVE-2022-39197）复现心得分享 | https://mp.weixin.qq.com/s/89wXyPaSn3TYn4pmVdr-Mw | 1| 
 | 顺丰安全应急响应中心 | SFSRC- | 干货 , IM钓鱼防不胜防？秘籍来了！ | https://mp.weixin.qq.com/s/0Gs_7Ut4zGGUWQwQAy90jQ | 1| 
 | 虎符智库 | TT_Thinktank | 威胁情报：重要的与不重要的 | https://mp.weixin.qq.com/s/CSxUkgBb_8Did6bEpzBiaQ | 1| 
 | 跳跳糖社区 | tttangsec | 域内用户Hash获取方式总结 | https://mp.weixin.qq.com/s/k-VUKcivMw3bncK5RW2Mvg | 1| 
@@ -28,7 +31,7 @@
 | XG小刚 | XG_WEB | 阿某云-WAF挑战赛wp | https://mp.weixin.qq.com/s/H1kslnpYbAmUOs7g0SpFWQ | 1| 
 | 湛卢工作室 | xuehao_studio | 云原生安全系列（一） , Kubernetes云原生靶场搭建 | https://mp.weixin.qq.com/s/XmEhvrzwmcjW9lBIZMl2ag | 1| 
 | 关键信息基础设施安全保护联盟筹 | gh_1c74abeb39a6 | 专家观点, 网络空间战略预警体系的建设思考 | https://mp.weixin.qq.com/s/2z9ze6N4p2R_Tokbk0g-vA | 1| 
-| 迪哥讲事 | growing0101 | idor相关研究 | https://mp.weixin.qq.com/s/C6NuprrVSAx2Nh0fPXidwA | 3| 
+| 迪哥讲事 | growing0101 | idor相关研究 | https://mp.weixin.qq.com/s/C6NuprrVSAx2Nh0fPXidwA | 5| 
 | 拨开云雾 | Under_Sakura | 代码检索和摘要中的自监督对比学习 | https://mp.weixin.qq.com/s/pTNNIeico9mcDqvcXos3cA | 1| 
 | leveryd | gh_8d7f6ed4daff | 浅析洞态iast产品 | https://mp.weixin.qq.com/s/fq2m59L_2Piqyeufl6eZFQ | 1| 
 
