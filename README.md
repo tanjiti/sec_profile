@@ -15,6 +15,9 @@
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
 | 赛博回忆录 | cybermemory | 最新CS RCE曲折的复现路 | https://mp.weixin.qq.com/s?__biz=MzIxNDAyNjQwNg==&mid=2456098978&idx=1&sn=d511d5a674d84eeaf262c8e389ae0403&chksm=803c696bb74be07d8ef8e473b11ffe4dce57b58ccf82e8615ab15d9ba6bba9263360c01276a8 | 1| 
+| Th0r安全 | gh_3ad192d9c87f | 2020美亚杯个人赛复盘 | https://mp.weixin.qq.com/s/sA7FS9g0Uq5WcO-yuUxEWg | 1| 
+| 桥的断想 | TasteMiss | 车联网安全基础知识之USB SPH2.0线束制作 | https://mp.weixin.qq.com/s/01tV6GfK8L4hNEyn0suwdw | 1| 
+| SecUN安全村 | sec-un | 企业安全建设的起步｜科技创新型企业专刊·安全村 | https://mp.weixin.qq.com/s/cqEMl0Jchu40c7Itxc0qww | 1| 
 | 看雪学苑 | ikanxue | 动静态结合分析非标准MD5算法及还原 | https://mp.weixin.qq.com/s/5ZbBEIh-JsyoscIWCqYJyw | 1| 
 | 一个人的安全笔记 | xjiek2015 | [HTB] Nunchucks Writeup | https://mp.weixin.qq.com/s/HPVEB8408-7NhuGzf9DGCg | 1| 
 | Beacon Tower Lab | WebRAY_BTL | 最新CS RCE（CVE-2022-39197）复现心得分享 | https://mp.weixin.qq.com/s/89wXyPaSn3TYn4pmVdr-Mw | 1| 
