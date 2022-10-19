@@ -28,11 +28,16 @@ def scraw(proxy=None):
     xuanwu_scraw(so, proxy=proxy, delta=10)
 
 
-def update_github():
+def update_github(proxy=None):
     """
 
     :return:
     """
+    if proxy:
+        for k, v in proxy.items():
+            cmd = 'export {k}_proxy={v}'.format(k=k, v=v)
+            ret = os.system(cmd)
+            print(ret, cmd)
     ts = get_special_date(format="%Y-%m-%d %H:%m:%S")
     cmd = "git add . && git commit -m '%s' && git push origin master" % (ts)
 
@@ -50,7 +55,7 @@ if __name__ == "__main__":
         "https": "http://127.0.0.1:1081"
 
     }
-    #proxy = None
+    # proxy = None
 
     scraw(proxy=proxy)
 
@@ -58,5 +63,4 @@ if __name__ == "__main__":
 
     secwiki.main(renew=False)
 
-    update_github()
-
+    update_github(proxy=proxy)
