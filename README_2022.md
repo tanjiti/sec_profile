@@ -22,7 +22,7 @@
 | 默安逐日实验室 | gh_995a1a9f25b5 | 红队视角下的AWS横向移动 | https://mp.weixin.qq.com/s/Q0iiRJ53BwuU4LHynR4qWQ | 1| 
 | 云图全景Snapano | yuntuzhuanlan | 云安全趋势分享（2022年底） | https://mp.weixin.qq.com/s/U3tQfZoLsJv_PoDAJmzcMg | 1| 
 | 赛博攻防悟道 | lookvul | 加密流量安全背后的那些小秘闻 | https://mp.weixin.qq.com/s/1J1HNdA2wZF93-K-e7Pg8Q | 1| 
-| 迪哥讲事 | growing0101 | 挖洞方法与心态系列-揭露大佬挖主应用的一般性流程(版本1) | https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247486332&idx=1&sn=238328c005b23ec39e375bb0f4f57652&chksm=e8a6011fdfd1880929ce3b1c3207ae1caf8827f845881fa110daab3a10f6177df3483ca77eea&token=798508684&lang=zh_CN#rd | 11| 
+| 迪哥讲事 | growing0101 | 挖洞方法与心态系列-揭露大佬挖主应用的一般性流程(版本1) | https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247486332&idx=1&sn=238328c005b23ec39e375bb0f4f57652&chksm=e8a6011fdfd1880929ce3b1c3207ae1caf8827f845881fa110daab3a10f6177df3483ca77eea&token=798508684&lang=zh_CN#rd | 12| 
 | 数据治理体系 | DGsystem | 0到1搭建企业级数据治理体系 | https://mp.weixin.qq.com/s/nUU0waB3Z9r-f27fHQpqdQ | 1| 
 | BinSec | binsec010 | GoTestWAF: 自动化评估Web应用程序安全 | https://mp.weixin.qq.com/s/RZplLKYua6J-JQztxGXS6A | 1| 
 | 中国政法大学数据合规研究中心 | CUPLDataCompliance | 一文区分个人信息、敏感个人信息和隐私信息 | https://mp.weixin.qq.com/s/7RKpZTC6421CUE6lj1scAQ | 1| 
@@ -106,7 +106,7 @@
 | 北邮 GAMMA Lab | BUPT_GAMMA | 数据科学研究型人才培养的思考与实践 | https://mp.weixin.qq.com/s/cw8gAinn4iWgKGh86xxxGA | 1| 
 | 绝对防御局 | Absolute-Defense | 通过覆盖Powershell cmdlet方式进行权限维持 | https://mp.weixin.qq.com/s?__biz=MzkxMTE5MjQ3NA==&mid=2247483781&idx=1&sn=721f1202f22953e2d80c0aaca0224a81&chksm=c11eb970f669306635bf759a8a846271bd864ed2522a23ebfcb078fecf925d440a84e82b7fb9#rd | 2| 
 | 大山子雪人 | gh_b9ecf4eee3a9 | 从DARPA项目学习如何做安全研究 | https://mp.weixin.qq.com/s/BkOIosI50NRqzz8Vsbm1Hg | 1| 
-| 网安国际 | inforsec | XNU虚拟内存安全往事 | https://mp.weixin.qq.com/s/Lj8c5PLzLGIfdBoDzairsQ | 1| 
+| 网安国际 | inforsec | XNU虚拟内存安全往事 | https://mp.weixin.qq.com/s/Lj8c5PLzLGIfdBoDzairsQ | 2| 
 | 天懋信息 | trustmoinfo | 安全快报 , 美国提出新法案，加强医疗保健和公共卫生部门网络安全 | https://mp.weixin.qq.com/s/2rTm5bRByYjreyxWcO4b7Q | 6| 
 | 鸟哥谈云安全 | cnbirdsecintel | 混合办公（Hybrid Work）安全的“三年”技术落地趋势推演 | https://mp.weixin.qq.com/s/sRYlS9BfdiM4NzdTpbenOw | 1| 
 | 跳跳糖社区 | tttangsec | CodeQL 踩坑指南 - Java | https://mp.weixin.qq.com/s/JkqtO_kfy4LZH9Kjkx6jdw | 9| 
@@ -254,7 +254,7 @@
 | 军机故阁 | gh_e57baf46bdf5 | Gibbon学校管理系统，比XSS到RCE | https://mp.weixin.qq.com/s?__biz=MzU5Mjk3MDA5Ng==&mid=2247484042&idx=1&sn=ae8c9f45e26199893cb30e71834425e6 | 2| 
 | K8实验室 | K8-lab | 冰墩墩官方预售购买渠道 | https://mp.weixin.qq.com/s?__biz=Mzg3MTY4NjUyOQ==&mid=2247484027&idx=1&sn=3281209b1dcd43e912b72ddc0e676305 | 5| 
 | 骨哥说事 | guge_guge | 通过Sony漏洞披露计划我发现了什么 | https://mp.weixin.qq.com/s?__biz=MjM5Mzc4MzUzMQ==&mid=2650255127&idx=1&sn=4b6301232873bb5b046a8eb7fdbe740b | 6| 
-| 陌陌安全 | MomoSecurity | 开工大吉+双节，探探等众多APP一大波活动来袭 | https://mp.weixin.qq.com/s?__biz=MzI2OTYzOTQzNw==&mid=2247486753&idx=1&sn=0f3d2f5f36aac4add4b0c2c527e4203e | 4| 
+| 陌陌安全 | MomoSecurity | 开工大吉+双节，探探等众多APP一大波活动来袭 | https://mp.weixin.qq.com/s?__biz=MzI2OTYzOTQzNw==&mid=2247486753&idx=1&sn=0f3d2f5f36aac4add4b0c2c527e4203e | 5| 
 | 阿里安全响应中心 | alisrc | 【岗位更新】阿里云安全招人啦 | https://mp.weixin.qq.com/s?__biz=MzIxMjEwNTc4NA==&mid=2652992555&idx=1&sn=7e27d221aa44e42e9f5340ee4411aa81 | 3| 
 | 边界骇客 | no__root | 甲方安全招聘 | https://mp.weixin.qq.com/s?__biz=MzU1NTkzMTYxOQ==&mid=2247485130&idx=1&sn=996be1121dbd03dd8811cdf9ef03d31e | 3| 
 | 虚拟框架 | twoyii | 强推！没有找不到的资源，请低调使用 | https://mp.weixin.qq.com/s?__biz=MjM5Njg5ODU2NA==&mid=2257499570&idx=1&sn=0594ec79f3b2c1c71e1e2e1296b37176 | 1| 
@@ -567,6 +567,7 @@
 | xepor | Xepor - Web Routing 框架，利用 Flask API 劫持和篡改 HTTP 请求的工具 | https://github.com/xepor/xepor | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | wuba | Antenna: 漏洞辅助验证存在与可利用性平台 | https://github.com/wuba/Antenna | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Java,Python,JavaScript,Dart,Objective-C | 0 | 0 | 1| 
 | wtdcode | 为 Unicorn 模拟器引擎提供 libfuzzer 的支持 | https://github.com/wtdcode/fuzzercorn | https://github.com/wtdcode?tab=followers | ETH Zurich Student. | Winterthur | None | 58 | 0 | 299 | 0 | 0 | Python,C#,C,C++,Rust | 0 | 0 | 1| 
+| woodpecker-framework | woodpecker-framwork-release: 高危漏洞精准检测与深度利用框... | https://github.com/woodpecker-framework/woodpecker-framwork-release | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | wkz | kmemd - 利用 GDB 调试器查看 Linux 内核的运行时内存 | https://github.com/wkz/kmemd | https://github.com/wkz?tab=followers |  | Sweden | None | 37 | 0 | 54 | 0 | 0 | C,Shell | 0 | 0 | 1| 
 | winsiderss | System Informer - 一款开源的 Windows 资源监控和软件调试工具 | https://github.com/winsiderss/systeminformer | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 0 | 0 | 1| 
 | wavestone-cdt | EDR 检测机制以及用 EDRSandblast 工具逃逸 EDR 的检测 | https://github.com/wavestone-cdt/EDRSandblast/tree/DefCon30Release | https://github.com/wavestone-cdt?tab=followers | Projects from the auditors and consultants from Wavestones Cybersecurity & Digital Trust practice | None | Wavestone | 14 | 0 | 0 | 0 | 0 | Python,C | 0 | 0 | 1| 

@@ -15,6 +15,8 @@
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
 | 赛博回忆录 | cybermemory | 最新CS RCE曲折的复现路 | https://mp.weixin.qq.com/s?__biz=MzIxNDAyNjQwNg==&mid=2456098978&idx=1&sn=d511d5a674d84eeaf262c8e389ae0403&chksm=803c696bb74be07d8ef8e473b11ffe4dce57b58ccf82e8615ab15d9ba6bba9263360c01276a8 | 1| 
+| 陌陌安全 | MomoSecurity | 如何绕过 JA3 指纹校验？ | https://mp.weixin.qq.com/s/og2IKo8lcydh8PROUPD7jQ | 1| 
+| 网安国际 | inforsec | 【网络安全研究进展系列】Fuzzing的研究之旅 | https://mp.weixin.qq.com/s/NCMIpTuroYoglRMiw7z7_w | 1| 
 | Th0r安全 | gh_3ad192d9c87f | 2020美亚杯个人赛复盘 | https://mp.weixin.qq.com/s/sA7FS9g0Uq5WcO-yuUxEWg | 1| 
 | 桥的断想 | TasteMiss | 车联网安全基础知识之USB SPH2.0线束制作 | https://mp.weixin.qq.com/s/01tV6GfK8L4hNEyn0suwdw | 1| 
 | SecUN安全村 | sec-un | 企业安全建设的起步｜科技创新型企业专刊·安全村 | https://mp.weixin.qq.com/s/cqEMl0Jchu40c7Itxc0qww | 1| 
@@ -34,7 +36,7 @@
 | XG小刚 | XG_WEB | 阿某云-WAF挑战赛wp | https://mp.weixin.qq.com/s/H1kslnpYbAmUOs7g0SpFWQ | 1| 
 | 湛卢工作室 | xuehao_studio | 云原生安全系列（一） , Kubernetes云原生靶场搭建 | https://mp.weixin.qq.com/s/XmEhvrzwmcjW9lBIZMl2ag | 1| 
 | 关键信息基础设施安全保护联盟筹 | gh_1c74abeb39a6 | 专家观点, 网络空间战略预警体系的建设思考 | https://mp.weixin.qq.com/s/2z9ze6N4p2R_Tokbk0g-vA | 1| 
-| 迪哥讲事 | growing0101 | idor相关研究 | https://mp.weixin.qq.com/s/C6NuprrVSAx2Nh0fPXidwA | 5| 
+| 迪哥讲事 | growing0101 | idor相关研究 | https://mp.weixin.qq.com/s/C6NuprrVSAx2Nh0fPXidwA | 6| 
 | 拨开云雾 | Under_Sakura | 代码检索和摘要中的自监督对比学习 | https://mp.weixin.qq.com/s/pTNNIeico9mcDqvcXos3cA | 1| 
 | leveryd | gh_8d7f6ed4daff | 浅析洞态iast产品 | https://mp.weixin.qq.com/s/fq2m59L_2Piqyeufl6eZFQ | 1| 
 
@@ -47,6 +49,7 @@
 # 私人github账号 推荐
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
+| woodpecker-framework | woodpecker-framwork-release: 高危漏洞精准检测与深度利用框... | https://github.com/woodpecker-framework/woodpecker-framwork-release | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | google | FFmpeg 被发现一个堆越界写漏洞，可以通过构造的 mp4 文件实现 RCE | https://github.com/google/security-research/security/advisories/GHSA-vhxg-9wfx-7fcj | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Vue,Java,Python,JavaScript,C++,HTML,Go,Rust | 0 | 0 | 1| 
 | bw3ll | SHAREM - Windows Shellcode 辅助分析和构造的工具 | https://github.com/bw3ll/sharem | https://github.com/Bw3ll?tab=followers |  | None | None | 3 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | airbus-seclab | AutoResolv - 用于解析导入函数详细信息的 IDA Pro 插件 | https://github.com/airbus-seclab/AutoResolv | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,Ruby,OCaml,C++ | 0 | 0 | 1| 
