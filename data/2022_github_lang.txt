@@ -3,8 +3,8 @@ C	78
 C++	66
 JavaScript	65
 Go	62
-Java	54
-HTML	42
+Java	55
+HTML	43
 Rust	37
 Shell	37
 C#	36

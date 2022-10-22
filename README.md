@@ -25,7 +25,7 @@
 | Beacon Tower Lab | WebRAY_BTL | 最新CS RCE（CVE-2022-39197）复现心得分享 | https://mp.weixin.qq.com/s/89wXyPaSn3TYn4pmVdr-Mw | 1| 
 | 顺丰安全应急响应中心 | SFSRC- | 干货 , IM钓鱼防不胜防？秘籍来了！ | https://mp.weixin.qq.com/s/0Gs_7Ut4zGGUWQwQAy90jQ | 1| 
 | 虎符智库 | TT_Thinktank | 威胁情报：重要的与不重要的 | https://mp.weixin.qq.com/s/CSxUkgBb_8Did6bEpzBiaQ | 1| 
-| 跳跳糖社区 | tttangsec | 域内用户Hash获取方式总结 | https://mp.weixin.qq.com/s/k-VUKcivMw3bncK5RW2Mvg | 1| 
+| 跳跳糖社区 | tttangsec | 域内用户Hash获取方式总结 | https://mp.weixin.qq.com/s/k-VUKcivMw3bncK5RW2Mvg | 2| 
 | RainSec | RainSec111 | 对5.6w条xray结果的简单分析 | https://mp.weixin.qq.com/s/vhNGTBq8owncjlWyPJ0XGA | 1| 
 | M01N Team | m01nteam | AWS S3 Bucket子域接管实现可信钓鱼服务攻击 | https://mp.weixin.qq.com/s/9BeHub6YCp0oM8jHrK6_dg | 1| 
 | 零部安全 | sec-services | 漏洞管理过程中的定量计算方法 | https://mp.weixin.qq.com/s/5C6NeiNb6pifrZZh1vR_cg | 1| 
@@ -49,7 +49,7 @@
 # 私人github账号 推荐
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
-| woodpecker-framework | woodpecker-framwork-release: 高危漏洞精准检测与深度利用框... | https://github.com/woodpecker-framework/woodpecker-framwork-release | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| woodpecker-framework | woodpecker-framwork-release: 高危漏洞精准检测与深度利用框... | https://github.com/woodpecker-framework/woodpecker-framwork-release | None | None | None | None | 0 | 0 | 0 | 0 | 0 | HTML,Java | 0 | 0 | 1| 
 | google | FFmpeg 被发现一个堆越界写漏洞，可以通过构造的 mp4 文件实现 RCE | https://github.com/google/security-research/security/advisories/GHSA-vhxg-9wfx-7fcj | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Vue,Java,Python,JavaScript,C++,HTML,Go,Rust | 0 | 0 | 1| 
 | bw3ll | SHAREM - Windows Shellcode 辅助分析和构造的工具 | https://github.com/bw3ll/sharem | https://github.com/Bw3ll?tab=followers |  | None | None | 3 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | airbus-seclab | AutoResolv - 用于解析导入函数详细信息的 IDA Pro 插件 | https://github.com/airbus-seclab/AutoResolv | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,Ruby,OCaml,C++ | 0 | 0 | 1| 

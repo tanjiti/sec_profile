@@ -1,12 +1,12 @@
 Python	4
 Go	3
 C	2
+Java	2
 C++	2
+HTML	2
 Vue	1
-Java	1
 JavaScript	1
 Solidity	1
 OCaml	1
-HTML	1
 Ruby	1
 Rust	1
