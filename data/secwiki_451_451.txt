@@ -1,0 +1,16 @@
+20221017	Web安全	https://mp.weixin.qq.com/s/89wXyPaSn3TYn4pmVdr-Mw	最新CS RCE（CVE-2022-39197）复现心得分享	qq.com	mp.weixin.qq.com	/s/89wXyPaSn3TYn4pmVdr-Mw
+20221017	运维安全	https://mp.weixin.qq.com/s/cqEMl0Jchu40c7Itxc0qww	企业安全建设的起步	qq.com	mp.weixin.qq.com	/s/cqEMl0Jchu40c7Itxc0qww
+20221017	杂志	https://www.sec-wiki.com/weekly/450	SecWiki周刊（第450期)	sec-wiki.com	www.sec-wiki.com	/weekly/450
+20221017	取证分析	https://mp.weixin.qq.com/s/sA7FS9g0Uq5WcO-yuUxEWg	2020美亚杯个人赛复盘	qq.com	mp.weixin.qq.com	/s/sA7FS9g0Uq5WcO-yuUxEWg
+20221017	Web安全	https://mp.weixin.qq.com/s/HPVEB8408-7NhuGzf9DGCg	[HTB] Nunchucks Writeup	qq.com	mp.weixin.qq.com	/s/HPVEB8408-7NhuGzf9DGCg
+20221017	设备安全	https://mp.weixin.qq.com/s/01tV6GfK8L4hNEyn0suwdw	车联网安全基础知识之USB SPH2.0线束制作	qq.com	mp.weixin.qq.com	/s/01tV6GfK8L4hNEyn0suwdw
+20221017	漏洞分析	https://mp.weixin.qq.com/s/NCMIpTuroYoglRMiw7z7_w	Fuzzing的研究之旅	qq.com	mp.weixin.qq.com	/s/NCMIpTuroYoglRMiw7z7_w
+20221017	漏洞分析	https://mp.weixin.qq.com/s/5ZbBEIh-JsyoscIWCqYJyw	动静态结合分析非标准MD5算法及还原	qq.com	mp.weixin.qq.com	/s/5ZbBEIh-JsyoscIWCqYJyw
+20221017	Web安全	https://mp.weixin.qq.com/s/xmPCoWU95s6PJK2GgGqMdw	Response中所隐藏的杀机---揭秘响应中所存在的脆弱点	qq.com	mp.weixin.qq.com	/s/xmPCoWU95s6PJK2GgGqMdw
+20221017	取证分析	https://www.anquanke.com/post/id/281052	浅谈硬编码密码及其扫描工具	anquanke.com	www.anquanke.com	/post/id/281052
+20221017	漏洞分析	https://www.anquanke.com/post/id/281733	利用 CodeQL 分析 fastjson 1.2.80 利用链	anquanke.com	www.anquanke.com	/post/id/281733
+20221017	漏洞分析	https://github.com/woodpecker-framework/woodpecker-framwork-release	woodpecker-framwork-release: 高危漏洞精准检测与深度利用框架	github.com	github.com	/woodpecker-framework/woodpecker-framwork-release
+20221017	取证分析	https://mp.weixin.qq.com/s/og2IKo8lcydh8PROUPD7jQ	如何绕过 JA3 指纹校验？	qq.com	mp.weixin.qq.com	/s/og2IKo8lcydh8PROUPD7jQ
+20221017	数据挖掘	https://www.csreviews.cn/wp-content/uploads/2022/10/SSAQdatasecurity2022.pdf	2022年数据安全市场报告	csreviews.cn	www.csreviews.cn	/wp-content/uploads/2022/10/SSAQdatasecurity2022.pdf
+20221017	漏洞分析	https://paper.seebug.org/1982/	MiraclePtr UAF 漏洞利用缓解技术介绍	seebug.org	paper.seebug.org	/1982/
+20221017	漏洞分析	https://mp.weixin.qq.com/s/aZA47Y4MXhcZzhF-KA8xrg	Python pickle反序列化浅析	qq.com	mp.weixin.qq.com	/s/aZA47Y4MXhcZzhF-KA8xrg
