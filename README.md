@@ -55,7 +55,7 @@
 | airbus-seclab | AutoResolv - 用于解析导入函数详细信息的 IDA Pro 插件 | https://github.com/airbus-seclab/AutoResolv | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,Ruby,OCaml,C++ | 0 | 0 | 1| 
 | SunWeb3Sec | DeFiHackLabs: Reproduce DeFi hack incidents using Foundry | https://github.com/SunWeb3Sec/DeFiHackLabs | https://github.com/SunWeb3Sec?tab=followers | Lets make Web3 more secure! | None | None | 6 | 0 | 5 | 0 | 0 | Solidity | 0 | 0 | 1| 
 | Ptkatz | OrcaC2: 一款基于Websocket加密通信的多功能C&C框架 | https://github.com/Ptkatz/OrcaC2 | https://github.com/Ptkatz?tab=followers | ☔️ | None | None | 2 | 0 | 55 | 0 | 0 | Go | 0 | 0 | 1| 
-| PowerLZY | Bold-Falcon: 开源的自动化恶意软件分析系统 | https://github.com/PowerLZY/Bold-Falcon | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| PowerLZY | Bold-Falcon: 开源的自动化恶意软件分析系统 | https://github.com/PowerLZY/Bold-Falcon | https://github.com/PowerLZY?tab=followers |  | None | None | 32 | 0 | 138 | 0 | 0 | Python | 0 | 0 | 1| 
 | HavocFramework | Havoc: 可延展的后渗透远控框架 | https://github.com/HavocFramework/Havoc | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,C | 0 | 0 | 1| 
 | Anugrahsr | Awesome-web3-Security: A curated list of web3Security mate... | https://github.com/Anugrahsr/Awesome-web3-Security | https://github.com/Anugrahsr?tab=followers | Hey! i am Anugrah SR A Biologist moving to the field of cybersecurity. #Biology #Bioinformatics #ML #hacking #bash #python | Kerala | None | 64 | 0 | 105 | 0 | 0 |  | 0 | 0 | 1| 
 
