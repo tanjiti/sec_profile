@@ -15,6 +15,9 @@
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
 | 赛博回忆录 | cybermemory | 最新CS RCE曲折的复现路 | https://mp.weixin.qq.com/s?__biz=MzIxNDAyNjQwNg==&mid=2456098978&idx=1&sn=d511d5a674d84eeaf262c8e389ae0403&chksm=803c696bb74be07d8ef8e473b11ffe4dce57b58ccf82e8615ab15d9ba6bba9263360c01276a8 | 1| 
+| 碳基体 | tanjiti_security | 那些年我研发的无用模块——攻击样本回放模块 | https://mp.weixin.qq.com/s/zNTAGbM_Tjv9dWcjlsWkqg | 1| 
+| 安全学术圈 | secquan | DEAR：一种基于深度学习的程序自动修复方法 | https://mp.weixin.qq.com/s/glgVqNDDInTRO97xexLuCg | 1| 
+| 华为安全 | HuaweiSecurity | 论道攻防第2期丨攻防演练态势及防守思路 | https://mp.weixin.qq.com/s/yOvmo7RBrpKHL_hetT8jKg | 1| 
 | 阿里开发者 | ali_tech | 安全同学讲Maven重打包的故事 | https://mp.weixin.qq.com/s/xsJkB0onUkakrVH0wejcIg | 1| 
 | 陌陌安全 | MomoSecurity | 如何绕过 JA3 指纹校验？ | https://mp.weixin.qq.com/s/og2IKo8lcydh8PROUPD7jQ | 1| 
 | 网安国际 | inforsec | 【网络安全研究进展系列】Fuzzing的研究之旅 | https://mp.weixin.qq.com/s/NCMIpTuroYoglRMiw7z7_w | 1| 
