@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 网络安全卓越验证示范中心 | CCCoE_CAICT | 一文看懂 , 美新版《国家安全战略》中的网络安全 | https://mp.weixin.qq.com/s/VZ0ofovRfJIUbxQuHvaLyQ | 1| 
 | 碳基体 | tanjiti_security | 那些年我研发的无用模块——攻击样本回放模块 | https://mp.weixin.qq.com/s/zNTAGbM_Tjv9dWcjlsWkqg | 1| 
 | 阿里开发者 | ali_tech | 安全同学讲Maven重打包的故事 | https://mp.weixin.qq.com/s/xsJkB0onUkakrVH0wejcIg | 1| 
 | 桥的断想 | TasteMiss | 车联网安全基础知识之USB SPH2.0线束制作 | https://mp.weixin.qq.com/s/01tV6GfK8L4hNEyn0suwdw | 1| 
@@ -109,7 +110,7 @@
 | 绝对防御局 | Absolute-Defense | 通过覆盖Powershell cmdlet方式进行权限维持 | https://mp.weixin.qq.com/s?__biz=MzkxMTE5MjQ3NA==&mid=2247483781&idx=1&sn=721f1202f22953e2d80c0aaca0224a81&chksm=c11eb970f669306635bf759a8a846271bd864ed2522a23ebfcb078fecf925d440a84e82b7fb9#rd | 2| 
 | 大山子雪人 | gh_b9ecf4eee3a9 | 从DARPA项目学习如何做安全研究 | https://mp.weixin.qq.com/s/BkOIosI50NRqzz8Vsbm1Hg | 1| 
 | 网安国际 | inforsec | XNU虚拟内存安全往事 | https://mp.weixin.qq.com/s/Lj8c5PLzLGIfdBoDzairsQ | 2| 
-| 天懋信息 | trustmoinfo | 安全快报 , 美国提出新法案，加强医疗保健和公共卫生部门网络安全 | https://mp.weixin.qq.com/s/2rTm5bRByYjreyxWcO4b7Q | 6| 
+| 天懋信息 | trustmoinfo | 安全快报 , 美国提出新法案，加强医疗保健和公共卫生部门网络安全 | https://mp.weixin.qq.com/s/2rTm5bRByYjreyxWcO4b7Q | 7| 
 | 鸟哥谈云安全 | cnbirdsecintel | 混合办公（Hybrid Work）安全的“三年”技术落地趋势推演 | https://mp.weixin.qq.com/s/sRYlS9BfdiM4NzdTpbenOw | 1| 
 | 跳跳糖社区 | tttangsec | CodeQL 踩坑指南 - Java | https://mp.weixin.qq.com/s/JkqtO_kfy4LZH9Kjkx6jdw | 10| 
 | 赤旗情报站 | RedFlagIA | OpenCTI入门笔记（二）:存储设置&清理&修改图标和title | https://mp.weixin.qq.com/s/oh2AZ7XMuzDgTEVUV6aSsg | 2| 
