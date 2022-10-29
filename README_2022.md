@@ -545,7 +545,7 @@
 | 看雪学苑 | ikanxue | 某系统漏洞挖掘之固件分析 | https://mp.weixin.qq.com/s/-xlzHLT6WoX2nKphpO04fQ | 108| 
 | 卫星黑客 | Satellite_Hacker | 《2021太空安全报告》 | https://mp.weixin.qq.com/s/LBrXIivudLZlH_a-ecEzDg | 2| 
 | 信息安全与通信保密杂志社 | cismag2013 | 2021 年全球主要网络安全威胁发展态势 | https://mp.weixin.qq.com/s/hWB07M_0obNuJCZa7kGSoA | 5| 
-| 中国信息安全 | chinainfosec | 专题·回顾2021 , 2021年网络安全产业态势总结 | https://mp.weixin.qq.com/s/xMXRlTjzeS6a4hYRyH1wZg | 79| 
+| 中国信息安全 | chinainfosec | 专题·回顾2021 , 2021年网络安全产业态势总结 | https://mp.weixin.qq.com/s/xMXRlTjzeS6a4hYRyH1wZg | 80| 
 | 丁爸 情报分析师的工具箱 | dingba2016 | 【论文】开源情报及其在下一代网络安全中的应用---文献综述 | https://mp.weixin.qq.com/s/ZjgTm8V6ucZ88zgSUy2sag | 37| 
 | FreeBuf | freebuf | APT新趋势：战略性休眠域名利用率提升，检测困难 | https://mp.weixin.qq.com/s/yoqfkKbvh8S0gQWX8xskZA | 118| 
 | DataFunTalk | datafuntalk | 赵学敏：京东商品图谱构建与实体对齐 | https://mp.weixin.qq.com/s/ct7FyMHPAyrVe_8mx8kPnw | 2| 

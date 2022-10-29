@@ -17,6 +17,7 @@
 | 赛博回忆录 | cybermemory | 最新CS RCE曲折的复现路 | https://mp.weixin.qq.com/s?__biz=MzIxNDAyNjQwNg==&mid=2456098978&idx=1&sn=d511d5a674d84eeaf262c8e389ae0403&chksm=803c696bb74be07d8ef8e473b11ffe4dce57b58ccf82e8615ab15d9ba6bba9263360c01276a8 | 1| 
 | 网络安全卓越验证示范中心 | CCCoE_CAICT | 一文看懂 , 美新版《国家安全战略》中的网络安全 | https://mp.weixin.qq.com/s/VZ0ofovRfJIUbxQuHvaLyQ | 1| 
 | 天懋信息 | trustmoinfo | IDC权威发布,天懋信息位居视频物联安全管理平台市场领导者 | https://mp.weixin.qq.com/s/iKAwrofDV9Ei3X1cHkLQRg | 1| 
+| 中国信息安全 | chinainfosec | 通知 , 工信部印发《网络产品安全漏洞收集平台备案管理办法》（附全文） | https://mp.weixin.qq.com/s/7suSo7b-6zI7M5pghZfD4w | 1| 
 | 碳基体 | tanjiti_security | 那些年我研发的无用模块——攻击样本回放模块 | https://mp.weixin.qq.com/s/zNTAGbM_Tjv9dWcjlsWkqg | 1| 
 | 安全学术圈 | secquan | DEAR：一种基于深度学习的程序自动修复方法 | https://mp.weixin.qq.com/s/glgVqNDDInTRO97xexLuCg | 1| 
 | 华为安全 | HuaweiSecurity | 论道攻防第2期丨攻防演练态势及防守思路 | https://mp.weixin.qq.com/s/yOvmo7RBrpKHL_hetT8jKg | 1| 
