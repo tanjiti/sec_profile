@@ -1,0 +1,12 @@
+20221024	法规	https://mp.weixin.qq.com/s/VZ0ofovRfJIUbxQuHvaLyQ	美新版《国家安全战略》中的网络安全	qq.com	mp.weixin.qq.com	/s/VZ0ofovRfJIUbxQuHvaLyQ
+20221024	法规	https://mp.weixin.qq.com/s/7suSo7b-6zI7M5pghZfD4w	网络产品安全漏洞收集平台备案管理办法	qq.com	mp.weixin.qq.com	/s/7suSo7b-6zI7M5pghZfD4w
+20221024	其它	https://www.sec-in.com/article/1639	一文帮你解决APP抓包难题	sec-in.com	www.sec-in.com	/article/1639
+20221024	Web安全	https://mp.weixin.qq.com/s/aOsDZiTYZOUpCYuTXasPkw	如何测试sso相关的漏洞	qq.com	mp.weixin.qq.com	/s/aOsDZiTYZOUpCYuTXasPkw
+20221024	恶意分析	https://mp.weixin.qq.com/s/xsJkB0onUkakrVH0wejcIg	安全同学讲Maven重打包的故事	qq.com	mp.weixin.qq.com	/s/xsJkB0onUkakrVH0wejcIg
+20221024	恶意分析	https://github.com/PowerLZY/Bold-Falcon	Bold-Falcon: 开源的自动化恶意软件分析系统	github.com	github.com	/PowerLZY/Bold-Falcon
+20221024	Web安全	https://mp.weixin.qq.com/s/yOvmo7RBrpKHL_hetT8jKg	攻防演练态势及防守思路	qq.com	mp.weixin.qq.com	/s/yOvmo7RBrpKHL_hetT8jKg
+20221024	杂志	https://www.sec-wiki.com/weekly/451	SecWiki周刊（第451期)	sec-wiki.com	www.sec-wiki.com	/weekly/451
+20221024	恶意分析	https://mp.weixin.qq.com/s/zNTAGbM_Tjv9dWcjlsWkqg	那些年我研发的无用模块——攻击样本回放模块	qq.com	mp.weixin.qq.com	/s/zNTAGbM_Tjv9dWcjlsWkqg
+20221024	漏洞分析	https://mp.weixin.qq.com/s/glgVqNDDInTRO97xexLuCg	DEAR：一种基于深度学习的程序自动修复方法	qq.com	mp.weixin.qq.com	/s/glgVqNDDInTRO97xexLuCg
+20221024	运维安全	https://mp.weixin.qq.com/s/qA0thrPVY2UmE5wlP4zIMQ	美国网络安全国策之EDR「端点检测和响应」	qq.com	mp.weixin.qq.com	/s/qA0thrPVY2UmE5wlP4zIMQ
+20221024	漏洞分析	https://wooded-meter-1d8.notion.site/0e85e02c5ed34df3855ea9f3ca40f53b?v=22e5e2c506ef4caeb40b4f78e23517ee	DeFi Hacks Analysis - Root Cause	notion.site	wooded-meter-1d8.notion.site	/0e85e02c5ed34df3855ea9f3ca40f53b
