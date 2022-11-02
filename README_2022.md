@@ -614,6 +614,7 @@
 | projectdiscovery | Nuclei - 基于YAML语法模板的定制化快速漏洞扫描器 | https://github.com/projectdiscovery/nuclei | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,JavaScript,Java,PHP | 0 | 0 | 1| 
 | potmdehex | 有研究员公开了一个利用 CVE-2021-30937 漏洞实现 iOS 15.0 - 15.1.1 内核读写的 Exploit | https://github.com/potmdehex/multicast_bytecopy | https://github.com/potmdehex?tab=followers | Reverse Engineer | None | None | 11 | 0 | 8 | 0 | 0 | C,Ruby | 0 | 0 | 2| 
 | plummm | SyzScope - 自动化评估 Bug 安全影响的工具（Paper） | https://github.com/plummm/SyzScope | https://github.com/plummm?tab=followers | 37 | California | University of California, Riverside | 33 | 0 | 115 | 0 | 0 | C#,Python,C,HTML | 0 | 0 | 1| 
+| pinauten | Fugu15 - 研究员 Linus Henze 放出了他的 iOS 15.4.1 越狱工具 | https://github.com/pinauten/Fugu15 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | pedrib | Cisco RV340 SSL VPN Unauth root RCE 漏洞分析 | https://github.com/pedrib/PoC/blob/master/advisories/Pwn2Own/Austin_2021/flashback_connects/flashback_connects.md | https://github.com/pedrib?tab=followers | 1337 | London, United Kingdom | Agile Information Security | 14 | 0 | 93 | 0 | 0 | Java,HTML,Ruby,CSS,C++ | 0 | 0 | 1| 
 | parsdefense | 高通骁龙平台 CVE-2021-1965 WiFi Zero Click RCE Trigger PoC | https://github.com/parsdefense/CVE-2021-1965 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 0 | 0 | 1| 
 | p0larisdev | iOS 9.x 越狱工具 p0laris 开源 | https://github.com/p0larisdev/app | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 0 | 0 | 1| 

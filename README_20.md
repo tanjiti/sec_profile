@@ -4080,6 +4080,7 @@
 | plummm | SyzScope - 自动化评估 Bug 安全影响的工具（Paper） | https://github.com/plummm/SyzScope | https://github.com/plummm?tab=followers | 37 | California | University of California, Riverside | 33 | 0 | 115 | 0 | 0 | C#,Python,C,HTML | 0 | 0 | 1| 
 | pleed | PyQemu - dynamic binary instrumentation based crypto detection framework. | https://github.com/pleed/pyqemu | None |  | None | None | 1 | 0 | 0 | 0 | 0 | C | 18 | 9 | 1| 
 | piskvorky | (Python)Gensim集成基于Textrank的文本摘要模块 | https://github.com/piskvorky/gensim/pull/324 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| pinauten | Fugu15 - 研究员 Linus Henze 放出了他的 iOS 15.4.1 越狱工具 | https://github.com/pinauten/Fugu15 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | pikvm | 基于Raspberry Pi的开源性廉价DIY IP-KVM系统。 | https://github.com/pikvm/pikvm | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,Shell,Makefile,Batchfile | 538 | 21 | 1| 
 | pierre427 | es_email_intel: Extract IOCs from emails, store them in ElasticSearch | https://github.com/pierre427/es_email_intel | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | pianoboysai | pyInspector:python inspect rootkit tool | https://github.com/pianoboysai/pyInspector | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
