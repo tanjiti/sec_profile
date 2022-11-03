@@ -449,7 +449,7 @@
 | aFa攻防实验室 | gzh_afagfsys | Linux提权-CVE-2021-4034 | https://mp.weixin.qq.com/s?__biz=MzAxMjcxMjkyOA==&mid=2247485627&idx=1&sn=a5cf1afffe837bc94abd138b57fca607 | 7| 
 | PeiQi文库 | PeiQi_wiki | 漏洞预警：Linux Polkit权限提升漏洞 CVE-2021-4034 | https://mp.weixin.qq.com/s?__biz=Mzg3NDU2MTg0Ng==&mid=2247490120&idx=1&sn=ac5c8f68369df6e7c257322e3dbcbb0c | 4| 
 | NOVASEC | NOVA_SEC | 分享关于ssrf的检测技巧 | https://mp.weixin.qq.com/s?__biz=MzUzODU3ODA0MA==&mid=2247487581&idx=1&sn=5c4a7ef241ae77ca9b7a98a90ecf744c | 1| 
-| Ms08067安全实验室 | Ms08067_com | 安全学习方法 之 上手测试以《Bypass Shellcode-Encryptor》为例 | https://mp.weixin.qq.com/s?__biz=MzU1NjgzOTAyMg==&mid=2247497793&idx=1&sn=03e2f8a686183ec3bf3a97632fa42e87 | 16| 
+| Ms08067安全实验室 | Ms08067_com | 安全学习方法 之 上手测试以《Bypass Shellcode-Encryptor》为例 | https://mp.weixin.qq.com/s?__biz=MzU1NjgzOTAyMg==&mid=2247497793&idx=1&sn=03e2f8a686183ec3bf3a97632fa42e87 | 17| 
 | Khan安全攻防实验室 | KhanCJSH | CVE-2021-44515 重置未经身份验证的管理员密码并登录 | https://mp.weixin.qq.com/s?__biz=MzAwMjQ2NTQ4Mg==&mid=2247488543&idx=1&sn=ba7283360a999829af6d82049ba09651 | 31| 
 | HACK学习君 | XHacker1961 | 干货 ｜GitHUB安全搬运工 十五 | https://mp.weixin.qq.com/s?__biz=MzIzNzMxMDkxNw==&mid=2247486467&idx=1&sn=337a2645b304a04addfcbca159d91dbb | 4| 
 | GoCN | golangchina | 「GoCN酷Go推荐」运行时替换 Golang 函数 — gohook | https://mp.weixin.qq.com/s?__biz=MzA4ODg0NDkzOA==&mid=2247495341&idx=1&sn=f36406882566e089c2ff5d8ac5088d79 | 47| 
@@ -509,7 +509,7 @@
 | 绿盟科技CERT | gh_ab56f0f84265 | 【漏洞通告】Apache log4j反序列化与SQL注入漏洞 | https://mp.weixin.qq.com/s?__biz=Mzk0MjE3ODkxNg==&mid=2247486771&idx=1&sn=a3ce2b3dd7896de44f8925a60ad6f9e3 | 3| 
 | 系统安全运维 | Taurus-1314147 | 常见的几种网络故障案例分析与解决 | https://mp.weixin.qq.com/s?__biz=Mzk0NjE0NDc5OQ==&mid=2247496962&idx=2&sn=16355a378818fa6e194b70afdd32ee89 | 59| 
 | 盛邦安全WebRAY | WebRay_weixin | 烽火狼烟丨Oracle WebLogic多个组件漏洞风险提示 | https://mp.weixin.qq.com/s?__biz=MzAwNTAxMjUwNw==&mid=2650268795&idx=1&sn=86239abcc080ebefc710d8f6715c2e9f | 19| 
-| 微步在线研究响应中心 | gh_c108d4d389bf | 来势汹汹，涉俄组织Indrik Spider借助Log4j2漏洞展开攻击，多国中招，企业需警惕！ | https://mp.weixin.qq.com/s?__biz=MzA5MDc1NDc1MQ==&mid=2247491670&idx=1&sn=dc0f29a3bef2f6c1cacf34cd52d8bf08 | 9| 
+| 微步在线研究响应中心 | gh_c108d4d389bf | 来势汹汹，涉俄组织Indrik Spider借助Log4j2漏洞展开攻击，多国中招，企业需警惕！ | https://mp.weixin.qq.com/s?__biz=MzA5MDc1NDc1MQ==&mid=2247491670&idx=1&sn=dc0f29a3bef2f6c1cacf34cd52d8bf08 | 10| 
 | 信安成长计划 | SecSource | Beacon 结果回传流程分析 | https://mp.weixin.qq.com/s?__biz=MzkxMTMxMjI2OQ==&mid=2247484046&idx=1&sn=c74c5864978310e60ed73288eebd1061 | 6| 
 | 信安之路 | xazlsec | Cobalt Strike 初体验 , 人人都可上手的红队工具 | https://mp.weixin.qq.com/s?__biz=MzI5MDQ2NjExOQ==&mid=2247496636&idx=1&sn=8ea1f51e80f428bbf07495a2f5ecea9d | 15| 
 | 伟盾网络安全 | gh_75e869919a5f | ysoserial分析之MozillaRhino2利用链 | https://mp.weixin.qq.com/s?__biz=MzkwOTIxNzQ5OA==&mid=2247484200&idx=1&sn=dfd28aae274356467137184088ce7e2b | 1| 
@@ -545,7 +545,7 @@
 | 莫哥谈安全 | gh_247dfbdf3d43 | 浅谈数据安全运营能力建设 | https://mp.weixin.qq.com/s/SvMd8aCalyg5pL6Jri-4AA | 2| 
 | 看雪学苑 | ikanxue | 某系统漏洞挖掘之固件分析 | https://mp.weixin.qq.com/s/-xlzHLT6WoX2nKphpO04fQ | 109| 
 | 卫星黑客 | Satellite_Hacker | 《2021太空安全报告》 | https://mp.weixin.qq.com/s/LBrXIivudLZlH_a-ecEzDg | 2| 
-| 信息安全与通信保密杂志社 | cismag2013 | 2021 年全球主要网络安全威胁发展态势 | https://mp.weixin.qq.com/s/hWB07M_0obNuJCZa7kGSoA | 5| 
+| 信息安全与通信保密杂志社 | cismag2013 | 2021 年全球主要网络安全威胁发展态势 | https://mp.weixin.qq.com/s/hWB07M_0obNuJCZa7kGSoA | 6| 
 | 中国信息安全 | chinainfosec | 专题·回顾2021 , 2021年网络安全产业态势总结 | https://mp.weixin.qq.com/s/xMXRlTjzeS6a4hYRyH1wZg | 80| 
 | 丁爸 情报分析师的工具箱 | dingba2016 | 【论文】开源情报及其在下一代网络安全中的应用---文献综述 | https://mp.weixin.qq.com/s/ZjgTm8V6ucZ88zgSUy2sag | 37| 
 | FreeBuf | freebuf | APT新趋势：战略性休眠域名利用率提升，检测困难 | https://mp.weixin.qq.com/s/yoqfkKbvh8S0gQWX8xskZA | 118| 
@@ -897,6 +897,7 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 浅析NodeJS | https://xz.aliyun.com/t/11791| 
 | goby指纹提取与yara逆向.md | https://xz.aliyun.com/t/11701| 
 | 某开源堡垒机历史漏洞分析 | https://xz.aliyun.com/t/11721| 
 | Gitlab常见漏洞复现及后利用 | https://xz.aliyun.com/t/11690| 
