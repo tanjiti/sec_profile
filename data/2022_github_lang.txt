@@ -1,5 +1,5 @@
 Python	135
-C	78
+C	79
 C++	66
 JavaScript	65
 Go	62
@@ -19,8 +19,8 @@ Vue	12
 Dockerfile	11
 Assembly	7
 Objective-C	6
+Swift	6
 Makefile	5
-Swift	5
 SCSS	4
 Dart	4
 Cuda	4

@@ -1,1 +1,3 @@
 Python	1
+C	1
+Swift	1

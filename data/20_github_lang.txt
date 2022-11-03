@@ -1,5 +1,5 @@
 Python	1139
-C	708
+C	709
 JavaScript	684
 C++	583
 HTML	497
@@ -18,7 +18,7 @@ Jupyter	118
 Dockerfile	78
 Perl	73
 Assembly	72
-Swift	67
+Swift	68
 Makefile	61
 Lua	59
 Kotlin	55
