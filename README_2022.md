@@ -158,7 +158,7 @@
 | 榫卯江湖 | cnxct_coder | 聊一聊《Bvp47 美国NSA方程式的顶级后门》中的BPF隐藏信道 | https://mp.weixin.qq.com/s/k3PTDA8rDSylqknwp_jYIA | 2| 
 | 我真不是红队啊 | yeanxinmingi | Clash RCE 分析 | https://mp.weixin.qq.com/s?__biz=MzUzNjg5ODkxMA==&mid=2247483942&idx=1&sn=2a747c676247dc3f47f740efcc04ec9f | 1| 
 | 小黑的安全笔记 | x1a0heI | JSONP劫持 | https://mp.weixin.qq.com/s?__biz=MzI4Njk5NjY4OQ==&mid=2247485987&idx=1&sn=0bebdcffad9075594c6691c86537d0ae | 1| 
-| 奇安网情局 | QACIA2020 | 旗帜分明：黑客组织开始在俄乌冲突中“选边站队” | https://mp.weixin.qq.com/s?__biz=MzI4ODQzMzk3MA==&mid=2247486291&idx=1&sn=7ca251771c111883cab0653ae01a07a5 | 2| 
+| 奇安网情局 | QACIA2020 | 旗帜分明：黑客组织开始在俄乌冲突中“选边站队” | https://mp.weixin.qq.com/s?__biz=MzI4ODQzMzk3MA==&mid=2247486291&idx=1&sn=7ca251771c111883cab0653ae01a07a5 | 3| 
 | 3072 | gh_02e64d74f88d | fuzzing 101 GIMP 漏洞挖掘 | https://mp.weixin.qq.com/s?__biz=MzU4OTk0NDMzOA==&mid=2247484012&idx=1&sn=e36a66b177b9db5002a7889ca30046d9 | 2| 
 | 农夫安全团队 | gh_6d3f01673a87 | 与子携手 | https://mp.weixin.qq.com/s?__biz=MzI0MzQ4NTI1OA==&mid=2247484523&idx=1&sn=cdfef0ca29dcd8f32b5c9d479263d7ea | 1| 
 | 运维帮 | yunweibang | 100Gbps！NPMD的流量处理新纪录！ | https://mp.weixin.qq.com/s?__biz=MzA3MzYwNjQ3NA==&mid=2651300971&idx=1&sn=cb4cc89da71872c812ce5a4d8a8b5432 | 1| 
@@ -520,7 +520,7 @@
 | Hacking黑白红 | Hacking012 | 针对单个网站的渗透思路（文末web渗透、CTF电子书，实战案例） | https://mp.weixin.qq.com/s?__biz=Mzg2NDYwMDA1NA==&mid=2247507524&idx=2&sn=87937a808dab2526352f710ca2046a9a | 30| 
 | E安全 | EAQapp | 警惕！WordPress插件的严重漏洞已影响 84,000个网站 | https://mp.weixin.qq.com/s?__biz=MzI4MjA1MzkyNA==&mid=2655320384&idx=1&sn=f490b21dd6be5b73da9397b74d87b544 | 26| 
 | ADLab | v_adlab | Apache HTTP Server mod_lua模块缓冲区溢出漏洞分析（CVE-2021-44790） | https://mp.weixin.qq.com/s/VjSpJW-1sYM1BwDPQZDqFA | 5| 
-| 绿盟科技研究通讯 | nsfocus_research | 容器运行时信息收集技术介绍 | https://mp.weixin.qq.com/s?__biz=MzIyODYzNTU2OA==&mid=2247491000&idx=1&sn=b818b9d197e808c7eff961604f1b9d60 | 23| 
+| 绿盟科技研究通讯 | nsfocus_research | 容器运行时信息收集技术介绍 | https://mp.weixin.qq.com/s?__biz=MzIyODYzNTU2OA==&mid=2247491000&idx=1&sn=b818b9d197e808c7eff961604f1b9d60 | 24| 
 | 猪猪谈安全 | zzt-anquan | WAF-Bypass之SQL注入绕过思路总结 | https://mp.weixin.qq.com/s?__biz=MzIyMDAwMjkzNg==&mid=2247498168&idx=1&sn=c463b92e80cc6452c66f0a9306a185ee | 22| 
 | 广软NSDA安全团队 | gh_72de97d4e162 | 内存取证初探 | https://mp.weixin.qq.com/s?__biz=MzUzMDg5NDQ0Nw==&mid=2247491466&idx=1&sn=e4af2bfbc7691abf33ba814e87f61faf | 5| 
 | 安全档案 | secfile | 探索高版本 JDK 下 JNDI 漏洞的利用方法 | https://mp.weixin.qq.com/s?__biz=Mzg4OTExMjE2Mw==&mid=2247483980&idx=1&sn=4866c01168aebdb6cce4e469ebd256a9 | 1| 

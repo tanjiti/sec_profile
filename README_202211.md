@@ -14,11 +14,12 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 绿盟科技研究通讯 | nsfocus_research | 公有云攻防系列：云凭证的泄露与利用 | https://mp.weixin.qq.com/s/V2hTqTnUbAsPDWLHljiQ4A | 2| 
 | 微步在线研究响应中心 | gh_280024a09930 | 曝光！“海莲花”组织运营的物联网僵尸网络Torii | https://mp.weixin.qq.com/s/v2wiJe-YPG0ng87ffBB9FQ | 1| 
+| 奇安网情局 | QACIA2020 | 新加坡正式成立以网络为重点的“数字和情报军” | https://mp.weixin.qq.com/s/sPLwCfysg-1xSRhS35oQGg | 1| 
 | Ms08067安全实验室 | Ms08067_com | 黑客破解赌博网站漏洞每月“薅羊毛”10万 | https://mp.weixin.qq.com/s/d0fKas6c6n7rhj777kO4vg | 1| 
 | 赛博回忆录 | cybermemory | 最新CS RCE曲折的复现路 | https://mp.weixin.qq.com/s?__biz=MzIxNDAyNjQwNg==&mid=2456098978&idx=1&sn=d511d5a674d84eeaf262c8e389ae0403&chksm=803c696bb74be07d8ef8e473b11ffe4dce57b58ccf82e8615ab15d9ba6bba9263360c01276a8 | 1| 
 | 信息安全与通信保密杂志社 | cismag2013 | 西北工业大学遭网络攻击事件的分析与思考 | https://mp.weixin.qq.com/s/_H2JtjRHG6PCds6zRDH7Rw | 1| 
-| 绿盟科技研究通讯 | nsfocus_research | 从西工大攻击揭秘美军网空作战发展 | https://mp.weixin.qq.com/s/s43-B6oFYBitl_HaLZYulQ | 1| 
 | 慢雾科技 | SlowMist | 复盘 , Team Finance 被黑简要分析 | https://mp.weixin.qq.com/s/041iCqcdRbKUDFauc45gow | 1| 
 | HaoDF技术团队 | haodf_tech | 好大夫数据安全分类分级实践探索 | https://mp.weixin.qq.com/s/wgbqXyDrsqZBeZZmseMwPw | 1| 
 
