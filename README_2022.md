@@ -611,6 +611,7 @@
 | quarkslab | When eBPF meets TLS，来自 CanSecWest 会议 | https://github.com/quarkslab/conf-presentations/blob/master/CanSecWest-2022/When%20eBPF%20meets%20TLS.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Python,JavaScript,C++,Shell,Go | 0 | 0 | 2| 
 | punk-security | dnsReaper - 基于多个不同的云 DNS 服务收集子域名信息 | https://github.com/punk-security/dnsReaper | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C#,HTML,JavaScript | 0 | 0 | 1| 
 | ptresearch | Positive Research 团队开源了他们为开源 IDS/IPS 引擎 Suricata 写的大量漏洞检测规则 | https://github.com/ptresearch/AttackDetection | https://github.com/ptresearch?tab=followers |  | None | Positive Research Team | 13 | 0 | 1 | 0 | 0 | Python | 0 | 0 | 1| 
+| prowler-cloud | Prowler: AWS security best practices 基线检查 | https://github.com/prowler-cloud/prowler | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,HCL | 0 | 0 | 1| 
 | projectdiscovery | Nuclei - 基于YAML语法模板的定制化快速漏洞扫描器 | https://github.com/projectdiscovery/nuclei | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,JavaScript,Java,PHP | 0 | 0 | 1| 
 | potmdehex | 有研究员公开了一个利用 CVE-2021-30937 漏洞实现 iOS 15.0 - 15.1.1 内核读写的 Exploit | https://github.com/potmdehex/multicast_bytecopy | https://github.com/potmdehex?tab=followers | Reverse Engineer | None | None | 11 | 0 | 8 | 0 | 0 | C,Ruby | 0 | 0 | 2| 
 | plummm | SyzScope - 自动化评估 Bug 安全影响的工具（Paper） | https://github.com/plummm/SyzScope | https://github.com/plummm?tab=followers | 37 | California | University of California, Riverside | 33 | 0 | 115 | 0 | 0 | C#,Python,C,HTML | 0 | 0 | 1| 
@@ -678,6 +679,7 @@
 | google-research | Google 发起从训练模型中逆向还原出训练数据集的安全挑战 | https://github.com/google-research/lm-extraction-benchmark | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Haskell,Jupyter,C++ | 0 | 0 | 1| 
 | google | 替换 go 的 text/template 文本模板，防护注入漏洞 | https://github.com/google/safetext | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Java,Python,Kotlin,JavaScript,C++,HTML,Go | 0 | 0 | 4| 
 | gmh5225 | LLVM 安全相关的资料收集 | https://github.com/gmh5225/awesome-llvm-security | https://github.com/gmh5225?tab=followers | windows/llvm/game security/blockchain | El Salvador | None | 83 | 0 | 715 | 0 | 0 | C,Java,C#,C++,Batchfile,Rust,Inno,CMake,CSS | 0 | 0 | 2| 
+| git | Git 修复了一个本地仓库 clone 过程中的符号链接 Following 问题，可以泄露用户敏感信息 | https://github.com/git/git/security/advisories/GHSA-3wp6-j8xr-qw85 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | getActivity | 中国 Android 个人技术开源排行榜. | https://github.com/getActivity/AndroidGithubBoss | https://github.com/getActivity?tab=followers | 专业造轮子 | Guangzhou,China | None | 25 | 0 | 0 | 0 | 0 | Kotlin,Java | 0 | 0 | 1| 
 | gamozolabs | 一款从 /proc/mem 提取进程内存快照导入 IDA 分析的插件 | https://github.com/gamozolabs/proc_mem_ida_loader | https://github.com/gamozolabs?tab=followers |  | None | None | 71 | 0 | 3 | 0 | 0 | Python,C++,Rust | 0 | 0 | 2| 
 | gaasedelen | Lucid - An Interactive Hex-Rays Microcode Explorer | https://github.com/gaasedelen/lucid | https://github.com/gaasedelen?tab=followers | turning over rocks and finding nothing is still progress. | None | None | 11 | 0 | 1 | 0 | 0 | Python,C | 0 | 0 | 2| 
@@ -766,6 +768,7 @@
 | Pear1y | GitHub 有研究员公开了 Atlassian Bitbucket Data Center 反序列化漏洞(CVE-2022-26133) 的批量验证工具 | https://github.com/Pear1y/CVE-2022-26133 | https://github.com/Pear1y?tab=followers | There is a crack in everything，thats how the light gets in. | Bermuda | Cyber Security | 36 | 0 | 234 | 0 | 0 | Python,C,Java | 0 | 0 | 1| 
 | P1sec | QCSuper - 与基于高通芯片手机通信的工具，支持抓取 2G/3G/4G无线帧数据 | https://github.com/P1sec/QCSuper | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Java,Rust | 0 | 0 | 1| 
 | Orange-Cyberdefense | GOAD - Active Directory 渗透测试实验环境 | https://github.com/Orange-Cyberdefense/GOAD | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,PHP,Ruby,PowerShell | 0 | 0 | 1| 
+| NationalSecurityAgency | NSA 发布 Ghidra 10.2 版本，Debugger、Decompiler 等组件均有更新 | https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_10.2_build | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Groovy,C,HTML,Java,JavaScript | 0 | 0 | 1| 
 | NVIDIA | NVIDIA 开源了 Linux 系统 GPU 的内核驱动 | https://github.com/NVIDIA/open-gpu-kernel-modules | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Jupyter,Scala,Python,Makefile,C++,Cuda,Go | 0 | 0 | 1| 
 | MythicAgents | 基于 .NET 6 写的跨平台 Mythic Agent | https://github.com/MythicAgents/Athena | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C#,Go,Python,JavaScript,Swift | 0 | 0 | 1| 
 | Muirey03 | iOS 15.6 昨天修复的 APFS CVE-2022-32832 漏洞的 PoC | https://github.com/Muirey03/CVE-2022-32832 | https://github.com/Muirey03?tab=followers |  | None | @Elementalsthegame | 56 | 0 | 16 | 0 | 0 | Objective-C,C | 0 | 0 | 1| 
@@ -820,6 +823,7 @@
 | 404notf0und | 企业级安全智能化实践指南 | https://github.com/404notf0und/AI-for-Security-Landing | https://github.com/404notf0und?tab=followers | 公众号：404 Not F0und，专注于安全智能化 | Hangzhou,China | Ant Group | 24 | 1 | 155 | 0 | 0 | Python,TSQL | 0 | 0 | 1| 
 | 10000Tigers | BlueHound-一款自研主机威胁狩猎工具 | https://github.com/10000Tigers/BlueHound | https://github.com/10000Tigers?tab=followers |  | None | None | 2 | 0 | 0 | 0 | 0 | Go | 0 | 0 | 1| 
 | 0xrawsec | 为 Windows 开发的开源版本 EDR | https://github.com/0xrawsec/whids | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,HTML,PowerShell,Rust | 0 | 0 | 1| 
+| 0xADE1A1DE | 以其他已连接 USB 设备的身份注入击键指令，来自 USENIX 会议的 Paper：The Impostor Among US(B): Off-Path Injection Attacks on USB Communications | https://github.com/0xADE1A1DE/USB-Injection | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Assembly,VHDL,C++ | 0 | 0 | 1| 
 | 0vercl0k | Zenith - Pwn2Own TP-Link AC1750 Smart Wi-Fi Router Exploit | https://github.com/0vercl0k/zenith | https://github.com/0vercl0k?tab=followers |  | US/FR | None | 31 | 0 | 4 | 0 | 0 | Python,C,JavaScript,C++ | 0 | 0 | 3| 
 | 0ang3el | Smuggling HTTP requests over fake WebSocket connection | https://github.com/0ang3el/websocket-smuggle | https://github.com/0ang3el?tab=followers |  | None | None | 10 | 0 | 0 | 0 | 0 | Python,Java,Perl | 0 | 0 | 1| 
 
@@ -827,6 +831,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 利用卡巴斯基终端安全软件的 KES Installer 组件提供的 “Features”可以执行任意命令 | http://nasbench.medium.com/lolbined-using-kaspersky-endpoint-security-kes-installer-to-execute-arbitrary-commands-1c999f1b7fea| 
 | 硬件级木马技术研究 | http://ryancor.medium.com/hardware-trojans-under-a-microscope-bf542acbcc29| 
 | Worldwide Server-side Cache Poisoning on All Akamai Edge Nodes | https://medium.com/@jacopotediosi/worldwide-server-side-cache-poisoning-on-all-akamai-edge-nodes-50k-bounty-earned-f97d80f3922b| 
 | GateKeeper 实现机制以及在企业环境中的应用 | https://antman1p-30185.medium.com/jumping-over-the-gate-da555c075208| 

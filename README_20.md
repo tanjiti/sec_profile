@@ -4072,6 +4072,7 @@
 | pyphrb | fuckCoreMail爆破说明书 | https://github.com/pyphrb/fuckCoreMail | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | punk-security | dnsReaper - 基于多个不同的云 DNS 服务收集子域名信息 | https://github.com/punk-security/dnsReaper | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C#,HTML,JavaScript | 0 | 0 | 1| 
 | ptrkrysik | gr-gsm:Gnuradio blocks and tools for receiving GSM transmissions | https://github.com/ptrkrysik/gr-gsm | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| prowler-cloud | Prowler: AWS security best practices 基线检查 | https://github.com/prowler-cloud/prowler | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,HCL | 0 | 0 | 1| 
 | promised-lu | Internet Explorer MemoryProtection Mitigation | https://github.com/promised-lu/MemoryProtection | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | projectdiscovery | Nuclei - 基于YAML语法模板的定制化快速漏洞扫描器 | https://github.com/projectdiscovery/nuclei | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,JavaScript,Java,PHP | 0 | 0 | 1| 
 | programa-stic | BARF : open source Binary Analysis and Reverse Framework | https://github.com/programa-stic/barf-project | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -4348,6 +4349,7 @@
 | gmh5225 | LLVM 安全相关的资料收集 | https://github.com/gmh5225/awesome-llvm-security | https://github.com/gmh5225?tab=followers | windows/llvm/game security/blockchain | El Salvador | None | 83 | 0 | 715 | 0 | 0 | C,Java,C#,C++,Batchfile,Rust,Inno,CMake,CSS | 0 | 0 | 2| 
 | gloxec | CrossC2 framework - 生成 CobaltStrike 的跨平台 beacon | https://github.com/gloxec/CrossC2 | None |  | None | None | 46 | 0 | 0 | 0 | 0 | Python,C,PLpgSQL | 586 | 127 | 1| 
 | github | Github Security Lab 关于 CodeQL 的分享《Bug hunting with CodeQL》 | https://github.com/github/security-lab/blob/master/Meetup/2019-11/presentations/Bug%20hunting%20with%20CodeQL.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Python,JavaScript,C++,Haskell,CoffeeScript,HTML,Shell,Go,Ruby,C# | 23100 | 3500 | 2| 
+| git | Git 修复了一个本地仓库 clone 过程中的符号链接 Following 问题，可以泄露用户敏感信息 | https://github.com/git/git/security/advisories/GHSA-3wp6-j8xr-qw85 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | ghaffarian | progex: extracting graphical program representations from ... | https://github.com/ghaffarian/progex/ | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | getqujing | qtunnel:A secure socket tunnel | https://github.com/getqujing/qtunnel | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | getify | You Dont Know JS | https://github.com/getify/You-Dont-Know-JS | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -4684,6 +4686,7 @@
 | Netflix-Skunkworks | diffy - 由 Netflix 的安全情报和响应团队(SIRT)开发的数字取证及事件响应(DFIR)工具: | https://github.com/Netflix-Skunkworks/diffy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Groovy,C,Shell,Java,Scala,Python,JavaScript,C++,Go,Ruby | 0 | 0 | 1| 
 | Netflix | Sleepy Puppy XSS Payload Management Framework | https://github.com/Netflix/sleepy-puppy | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | NetSPI | Evil SQL Client (ESC) - 为渗透测试设计的交互式的 SQL Server Client，支持发现数据库、访问数据、提取数据 | https://github.com/NetSPI/ESC | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java,C#,Python,HTML,Go,Ruby,PowerShell | 1100 | 282 | 2| 
+| NationalSecurityAgency | NSA 发布 Ghidra 10.2 版本，Debugger、Decompiler 等组件均有更新 | https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_10.2_build | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Groovy,C,HTML,Java,JavaScript | 0 | 0 | 1| 
 | Nakiami | Mellivora is a CTF engine written in PHP | https://github.com/Nakiami/mellivora | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | NVISO-BE | Windows OS Hardening with PowerShell DSC | https://github.com/NVISO-BE/posh-dsc-windowsserver-hardening | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Shell,JavaScript,PowerShell,C++ | 0 | 0 | 1| 
 | NVIDIA | DIGITS:Deep GPU Training System | https://github.com/NVIDIA/DIGITS | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 2| 
@@ -4860,6 +4863,7 @@
 | 0xtyh | awesome reversing resources by @ 0xtyh | https://github.com/0xtyh/awesome-reversing | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | 0xspx | Another exploitation tool by @ 0xspx to find ROP gadgets for ARM using Capstone inside! | https://github.com/0xspx/armroper | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | 0xrawsec | 为 Windows 开发的开源版本 EDR | https://github.com/0xrawsec/whids | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,HTML,PowerShell,Rust | 0 | 0 | 1| 
+| 0xADE1A1DE | 以其他已连接 USB 设备的身份注入击键指令，来自 USENIX 会议的 Paper：The Impostor Among US(B): Off-Path Injection Attacks on USB Communications | https://github.com/0xADE1A1DE/USB-Injection | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Assembly,VHDL,C++ | 0 | 0 | 1| 
 | 0x727 | 水泽-信息收集自动化工具 | https://github.com/0x727/ShuiZe_0x727 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | 0neb1n | PoC of CVE-2020-16947 (Microsoft Outlook RCE vulnerablility) | https://github.com/0neb1n/CVE-2020-16947 | None | I wanner be the pwner. | None | None | 11 | 0 | 0 | 0 | 0 | Lua,CSS | 23 | 14 | 1| 
 | 0linlin0 | CyberBox: Java Exp FrameWork | https://github.com/0linlin0/CyberBox | https://github.com/0linlin0?tab=followers | I fell in love with my computer : ) | None | None | 7 | 0 | 0 | 0 | 0 | HTML,Java | 0 | 0 | 1| 
@@ -4871,6 +4875,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 利用卡巴斯基终端安全软件的 KES Installer 组件提供的 “Features”可以执行任意命令 | http://nasbench.medium.com/lolbined-using-kaspersky-endpoint-security-kes-installer-to-execute-arbitrary-commands-1c999f1b7fea| 
 | 硬件级木马技术研究 | http://ryancor.medium.com/hardware-trojans-under-a-microscope-bf542acbcc29| 
 | Worldwide Server-side Cache Poisoning on All Akamai Edge Nodes | https://medium.com/@jacopotediosi/worldwide-server-side-cache-poisoning-on-all-akamai-edge-nodes-50k-bounty-earned-f97d80f3922b| 
 | GateKeeper 实现机制以及在企业环境中的应用 | https://antman1p-30185.medium.com/jumping-over-the-gate-da555c075208| 
