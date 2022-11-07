@@ -14,6 +14,10 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 迪哥讲事 | growing0101 | 漏洞赏金猎人系列-如何测试设置(Setting)功能 | https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247486882&idx=1&sn=79af29d6eea31a659e92f1e2e8dab631&chksm=e8a607c1dfd18ed72691ecae120faccd69dcaece15a671e5b924d91967f6440215a7f05853f8&token=868985101&lang=zh_CN#rd | 1| 
+| 放之 | ECyberSecurity | 浅谈终端安全与DLP治理 | https://mp.weixin.qq.com/s/TOlDEeW4RbHufuP6CreWKQ | 2| 
+| 开源情报技术研究院 | gh_d1f65c3b3e5b | 如何跨平台追踪社交媒体用户 | https://mp.weixin.qq.com/s/91R2D4G__VH3kGu4HSBssQ | 1| 
+| 公安部网络安全等级保护中心 | gh_f5f6bf3d09af | 关键信息基础设施安全保护标准体系解析 | https://mp.weixin.qq.com/s/sZ98UgV4gdx3M1z-76h9Jg | 1| 
 | 绿盟科技研究通讯 | nsfocus_research | 公有云攻防系列：云凭证的泄露与利用 | https://mp.weixin.qq.com/s/V2hTqTnUbAsPDWLHljiQ4A | 2| 
 | 微步在线研究响应中心 | gh_280024a09930 | 曝光！“海莲花”组织运营的物联网僵尸网络Torii | https://mp.weixin.qq.com/s/v2wiJe-YPG0ng87ffBB9FQ | 1| 
 | 奇安网情局 | QACIA2020 | 新加坡正式成立以网络为重点的“数字和情报军” | https://mp.weixin.qq.com/s/sPLwCfysg-1xSRhS35oQGg | 1| 
@@ -34,6 +38,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | prowler-cloud | Prowler: AWS security best practices 基线检查 | https://github.com/prowler-cloud/prowler | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,HCL | 0 | 0 | 1| 
 | pinauten | Fugu15 - 研究员 Linus Henze 放出了他的 iOS 15.4.1 越狱工具 | https://github.com/pinauten/Fugu15 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Swift | 0 | 0 | 1| 
+| osandov | drgn - 支持通过 Python 实现脚本化扩展的调试器 | https://github.com/osandov/drgn | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | git | Git 修复了一个本地仓库 clone 过程中的符号链接 Following 问题，可以泄露用户敏感信息 | https://github.com/git/git/security/advisories/GHSA-3wp6-j8xr-qw85 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,HTML,Ruby,CSS | 0 | 0 | 1| 
 | bw3ll | SHAREM - Windows Shellcode 辅助分析和构造的工具 | https://github.com/bw3ll/sharem | https://github.com/Bw3ll?tab=followers |  | None | None | 3 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | NationalSecurityAgency | NSA 发布 Ghidra 10.2 版本，Debugger、Decompiler 等组件均有更新 | https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_10.2_build | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Groovy,C,HTML,Java,JavaScript | 0 | 0 | 1| 
@@ -43,6 +48,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| pGALA 关于被攻击事件的声明 | http://medium.com/pnetwork/pgala-post-mortem-measures-taken-to-safeguard-the-ecosystem-from-malicious-actors-and-recovery-6407048f4497| 
 | 利用卡巴斯基终端安全软件的 KES Installer 组件提供的 “Features”可以执行任意命令 | http://nasbench.medium.com/lolbined-using-kaspersky-endpoint-security-kes-installer-to-execute-arbitrary-commands-1c999f1b7fea| 
 | 硬件级木马技术研究 | http://ryancor.medium.com/hardware-trojans-under-a-microscope-bf542acbcc29| 
 

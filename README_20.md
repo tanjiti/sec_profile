@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 开源情报技术研究院 | gh_d1f65c3b3e5b | 如何跨平台追踪社交媒体用户 | https://mp.weixin.qq.com/s/91R2D4G__VH3kGu4HSBssQ | 1| 
 | 小侦探的书桌 | gh_249f9111a64c | 写在博士生涯的最后 | https://mp.weixin.qq.com/s/MAdWdQPBj_--gMZVjR0qOg | 1| 
 | 网络安全卓越验证示范中心 | CCCoE_CAICT | 一文看懂 , 美新版《国家安全战略》中的网络安全 | https://mp.weixin.qq.com/s/VZ0ofovRfJIUbxQuHvaLyQ | 1| 
 | 碳基体 | tanjiti_security | 那些年我研发的无用模块——攻击样本回放模块 | https://mp.weixin.qq.com/s/zNTAGbM_Tjv9dWcjlsWkqg | 1| 
@@ -22,7 +23,7 @@
 | 电网智囊团 | gridthink | 一文搞懂电力系统调度数据网4+1+1区 | https://mp.weixin.qq.com/s/wcs0mWzBXh96Ds-qJ9H6xQ | 1| 
 | 云图全景Snapano | yuntuzhuanlan | 云安全趋势分享（2022年底） | https://mp.weixin.qq.com/s/U3tQfZoLsJv_PoDAJmzcMg | 1| 
 | 赛博攻防悟道 | lookvul | 加密流量安全背后的那些小秘闻 | https://mp.weixin.qq.com/s/1J1HNdA2wZF93-K-e7Pg8Q | 2| 
-| 迪哥讲事 | growing0101 | 挖洞方法与心态系列-揭露大佬挖主应用的一般性流程(版本1) | https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247486332&idx=1&sn=238328c005b23ec39e375bb0f4f57652&chksm=e8a6011fdfd1880929ce3b1c3207ae1caf8827f845881fa110daab3a10f6177df3483ca77eea&token=798508684&lang=zh_CN#rd | 13| 
+| 迪哥讲事 | growing0101 | 挖洞方法与心态系列-揭露大佬挖主应用的一般性流程(版本1) | https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247486332&idx=1&sn=238328c005b23ec39e375bb0f4f57652&chksm=e8a6011fdfd1880929ce3b1c3207ae1caf8827f845881fa110daab3a10f6177df3483ca77eea&token=798508684&lang=zh_CN#rd | 14| 
 | BinSec | binsec010 | GoTestWAF: 自动化评估Web应用程序安全 | https://mp.weixin.qq.com/s/RZplLKYua6J-JQztxGXS6A | 1| 
 | 中国政法大学数据合规研究中心 | CUPLDataCompliance | 一文区分个人信息、敏感个人信息和隐私信息 | https://mp.weixin.qq.com/s/7RKpZTC6421CUE6lj1scAQ | 1| 
 | SecUN安全村 | sec-un | 一个科技平台型企业的网络安全建设心得｜科技创新型企业专刊·安全村 | https://mp.weixin.qq.com/s/y_4A2gehmSPCoy8f2xNOPQ | 3| 
@@ -52,7 +53,7 @@
 | 布鲁队 | sz_blueteam | 攻防演练之域控检测篇 | https://mp.weixin.qq.com/s/676IFhrygqVK6RRvgNEhbQ | 2| 
 | 内构安全 | gh_def0974405fe | 学术报告Slides：开源安全：挑战、解决方案和机遇-南洋理工大学刘杨教授 | https://mp.weixin.qq.com/s/YryG2EXFFod0D3fdIwILtA | 1| 
 | CSDN | CSDNnews | 在软件工程领域，搞科研的这十年！ | https://mp.weixin.qq.com/s/mCJ2EJ_hzQOsrIVAhXiqpw | 1| 
-| 放之 | ECyberSecurity | 设计你的安全架构OKR | https://mp.weixin.qq.com/s/MUV-TAw0AkCI3sAhaHxK1g | 1| 
+| 放之 | ECyberSecurity | 设计你的安全架构OKR | https://mp.weixin.qq.com/s/MUV-TAw0AkCI3sAhaHxK1g | 3| 
 | 华为安全 | HuaweiSecurity | RSAC2022解读丨人工智能安全洞察—在对抗中前进 | https://mp.weixin.qq.com/s/EoLBu75UYlF9DJ2Ff_oyBw | 2| 
 | 中国指挥与控制学会 | c2_china | 陆军院士：陆海空天一体化信息网络发展研究 | https://mp.weixin.qq.com/s/rr-t9NScVRzqVV7bzCp9Hg | 1| 
 | 优主张 | yzhuzhang | 浅谈企业安全建设“道”与“术”--道篇 | https://mp.weixin.qq.com/s/6JMofN8KlLj03nFfFIKsxg | 1| 
@@ -208,7 +209,7 @@
 | 白鼠安全团队 | WhiteRatSec | “虎虎生威”信创主题 2022新年活动，更有大量职位虚左以待 | https://mp.weixin.qq.com/s?__biz=MzIwMjkxMTY5Mg==&mid=2247484358&idx=1&sn=b8ce7af79cd232db0d2330102c331cee | 1| 
 | 小艾搞安全 | lxfcl_0827 | xss绕waf几种姿势剖析 | https://mp.weixin.qq.com/s?__biz=Mzg3MTY3NzUwMQ==&mid=2247484513&idx=1&sn=8d405a5879996b5f8572af680edfbb4a | 20| 
 | 字节脉搏实验室 | zijiemaiboshiyanshi | 被怼后的思考：做安全为了什么？ | https://mp.weixin.qq.com/s?__biz=MzI2ODU2MjM0OA==&mid=2247490895&idx=1&sn=bc252456cf89f6fe3c393470a4905170 | 1| 
-| 公安部网络安全等级保护中心 | gh_f5f6bf3d09af | 网络安全资讯动态 2022年第4期（总第154期） | https://mp.weixin.qq.com/s?__biz=MzU3NTQwNDYyNA==&mid=2247485222&idx=1&sn=0c40adec29c45d4991a26dd1b718b35f | 2| 
+| 公安部网络安全等级保护中心 | gh_f5f6bf3d09af | 网络安全资讯动态 2022年第4期（总第154期） | https://mp.weixin.qq.com/s?__biz=MzU3NTQwNDYyNA==&mid=2247485222&idx=1&sn=0c40adec29c45d4991a26dd1b718b35f | 3| 
 | WgpSec狼组安全团队 | wgpsec | php代码审计一条龙思路 | https://mp.weixin.qq.com/s?__biz=MzIyMjkzMzY4Ng==&mid=2247496171&idx=1&sn=3d837b9375db1fcf6a9fa8e72d39ad7b | 3| 
 | Python编程 | LovePython | 火爆全球的《鱿鱼游戏》，尝试用Python做一波分析 | https://mp.weixin.qq.com/s?__biz=MzA5ODUzOTA0OQ==&mid=2651699776&idx=1&sn=2dacd4745d6e4dc1eacda8f641d9c63c | 10| 
 | NOP Team | yidalidemao | BROP 攻击技术 ｜ PWN | https://mp.weixin.qq.com/s?__biz=MzU1NDkwMzAyMg==&mid=2247491408&idx=1&sn=59abc8227d3df3ca1f0be6445217e3ef | 3| 
@@ -4101,6 +4102,7 @@
 | oversecured | Oversecured Vulnerable iOS App，一款存在多个安全漏洞的 iOS App，可以用于漏洞安全研究或检测工具的基准测试 | https://github.com/oversecured/ovia | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | ossf | Security Scorecards - 开源组件安全健康度衡量工具 | https://github.com/ossf/scorecard | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python | 153 | 21 | 1| 
 | osixia | 运行 OpenLDAP 的 Docker 镜像环境 | https://github.com/osixia/docker-openldap | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Dockerfile,JavaScript,Smarty,HTML,Go,PHP,Ruby,CSS | 2500 | 692 | 1| 
+| osandov | drgn - 支持通过 Python 实现脚本化扩展的调试器 | https://github.com/osandov/drgn | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | orppra | ropa - 基于 Ropper 实现的一个 GUI 版本的 ROP 链构造工具: | https://github.com/orppra/ropa | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,JavaScript | 0 | 0 | 1| 
 | optiv | Freeze - 利用进程挂起、直接 Syscall 调用等方法实现 Shellcode 隐蔽执行，逃逸 EDR 检测 | https://github.com/optiv/Freeze | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,Kotlin | 0 | 0 | 1| 
 | openworldoperations | 一种高级的网络钓鱼技术，可让攻击者设置有效的域和SSL证书，请注意防范 | https://github.com/openworldoperations/FISHY | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,HTML | 15 | 4 | 1| 
@@ -4875,6 +4877,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| pGALA 关于被攻击事件的声明 | http://medium.com/pnetwork/pgala-post-mortem-measures-taken-to-safeguard-the-ecosystem-from-malicious-actors-and-recovery-6407048f4497| 
 | 利用卡巴斯基终端安全软件的 KES Installer 组件提供的 “Features”可以执行任意命令 | http://nasbench.medium.com/lolbined-using-kaspersky-endpoint-security-kes-installer-to-execute-arbitrary-commands-1c999f1b7fea| 
 | 硬件级木马技术研究 | http://ryancor.medium.com/hardware-trojans-under-a-microscope-bf542acbcc29| 
 | Worldwide Server-side Cache Poisoning on All Akamai Edge Nodes | https://medium.com/@jacopotediosi/worldwide-server-side-cache-poisoning-on-all-akamai-edge-nodes-50k-bounty-earned-f97d80f3922b| 

@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 开源情报技术研究院 | gh_d1f65c3b3e5b | 如何跨平台追踪社交媒体用户 | https://mp.weixin.qq.com/s/91R2D4G__VH3kGu4HSBssQ | 1| 
 | 小侦探的书桌 | gh_249f9111a64c | 写在博士生涯的最后 | https://mp.weixin.qq.com/s/MAdWdQPBj_--gMZVjR0qOg | 1| 
 | 网络安全卓越验证示范中心 | CCCoE_CAICT | 一文看懂 , 美新版《国家安全战略》中的网络安全 | https://mp.weixin.qq.com/s/VZ0ofovRfJIUbxQuHvaLyQ | 1| 
 | 碳基体 | tanjiti_security | 那些年我研发的无用模块——攻击样本回放模块 | https://mp.weixin.qq.com/s/zNTAGbM_Tjv9dWcjlsWkqg | 1| 
@@ -26,7 +27,7 @@
 | 默安逐日实验室 | gh_995a1a9f25b5 | 红队视角下的AWS横向移动 | https://mp.weixin.qq.com/s/Q0iiRJ53BwuU4LHynR4qWQ | 1| 
 | 云图全景Snapano | yuntuzhuanlan | 云安全趋势分享（2022年底） | https://mp.weixin.qq.com/s/U3tQfZoLsJv_PoDAJmzcMg | 1| 
 | 赛博攻防悟道 | lookvul | 加密流量安全背后的那些小秘闻 | https://mp.weixin.qq.com/s/1J1HNdA2wZF93-K-e7Pg8Q | 2| 
-| 迪哥讲事 | growing0101 | 挖洞方法与心态系列-揭露大佬挖主应用的一般性流程(版本1) | https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247486332&idx=1&sn=238328c005b23ec39e375bb0f4f57652&chksm=e8a6011fdfd1880929ce3b1c3207ae1caf8827f845881fa110daab3a10f6177df3483ca77eea&token=798508684&lang=zh_CN#rd | 13| 
+| 迪哥讲事 | growing0101 | 挖洞方法与心态系列-揭露大佬挖主应用的一般性流程(版本1) | https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247486332&idx=1&sn=238328c005b23ec39e375bb0f4f57652&chksm=e8a6011fdfd1880929ce3b1c3207ae1caf8827f845881fa110daab3a10f6177df3483ca77eea&token=798508684&lang=zh_CN#rd | 14| 
 | 数据治理体系 | DGsystem | 0到1搭建企业级数据治理体系 | https://mp.weixin.qq.com/s/nUU0waB3Z9r-f27fHQpqdQ | 1| 
 | BinSec | binsec010 | GoTestWAF: 自动化评估Web应用程序安全 | https://mp.weixin.qq.com/s/RZplLKYua6J-JQztxGXS6A | 1| 
 | 中国政法大学数据合规研究中心 | CUPLDataCompliance | 一文区分个人信息、敏感个人信息和隐私信息 | https://mp.weixin.qq.com/s/7RKpZTC6421CUE6lj1scAQ | 1| 
@@ -65,7 +66,7 @@
 | 内构安全 | gh_def0974405fe | 学术报告Slides：开源安全：挑战、解决方案和机遇-南洋理工大学刘杨教授 | https://mp.weixin.qq.com/s/YryG2EXFFod0D3fdIwILtA | 1| 
 | Web安全与前端 | sec_fe | 全国攻防演习的防守体系建设 | https://mp.weixin.qq.com/s/LjRArIoMVo0d1AKVBp4Irg | 1| 
 | CSDN | CSDNnews | 在软件工程领域，搞科研的这十年！ | https://mp.weixin.qq.com/s/mCJ2EJ_hzQOsrIVAhXiqpw | 1| 
-| 放之 | ECyberSecurity | 设计你的安全架构OKR | https://mp.weixin.qq.com/s/MUV-TAw0AkCI3sAhaHxK1g | 1| 
+| 放之 | ECyberSecurity | 设计你的安全架构OKR | https://mp.weixin.qq.com/s/MUV-TAw0AkCI3sAhaHxK1g | 3| 
 | 华为安全 | HuaweiSecurity | RSAC2022解读丨人工智能安全洞察—在对抗中前进 | https://mp.weixin.qq.com/s/EoLBu75UYlF9DJ2Ff_oyBw | 2| 
 | 中国指挥与控制学会 | c2_china | 陆军院士：陆海空天一体化信息网络发展研究 | https://mp.weixin.qq.com/s/rr-t9NScVRzqVV7bzCp9Hg | 1| 
 | 网信中国 | cacweixin | 互联网用户账号信息管理规定 | https://mp.weixin.qq.com/s/QTuVfRBRgq2M2Kqbzhecbg | 2| 
@@ -363,7 +364,7 @@
 | 小米安全中心 | misrc_team | 小米汽车-智能座舱安全岗位热招！ | https://mp.weixin.qq.com/s?__biz=MzI2NzI2OTExNA==&mid=2247509790&idx=1&sn=04cd0afa746e7cd528bcef97b1ebae79 | 1| 
 | 安全分析与研究 | MalwareAnalysis | 送大家一个红包封面 | https://mp.weixin.qq.com/s?__biz=MzA4ODEyODA3MQ==&mid=2247487293&idx=1&sn=0eed207613bf800b339a62338850a256 | 4| 
 | 字节脉搏实验室 | zijiemaiboshiyanshi | 被怼后的思考：做安全为了什么？ | https://mp.weixin.qq.com/s?__biz=MzI2ODU2MjM0OA==&mid=2247490895&idx=1&sn=bc252456cf89f6fe3c393470a4905170 | 1| 
-| 公安部网络安全等级保护中心 | gh_f5f6bf3d09af | 网络安全资讯动态 2022年第4期（总第154期） | https://mp.weixin.qq.com/s?__biz=MzU3NTQwNDYyNA==&mid=2247485222&idx=1&sn=0c40adec29c45d4991a26dd1b718b35f | 2| 
+| 公安部网络安全等级保护中心 | gh_f5f6bf3d09af | 网络安全资讯动态 2022年第4期（总第154期） | https://mp.weixin.qq.com/s?__biz=MzU3NTQwNDYyNA==&mid=2247485222&idx=1&sn=0c40adec29c45d4991a26dd1b718b35f | 3| 
 | XG小刚 | XG_WEB | 分离免杀-剪贴板加载器 | https://mp.weixin.qq.com/s?__biz=MzIwOTMzMzY0Ng==&mid=2247486818&idx=1&sn=1a09d7014bf3195ab4b1a0fcdcd0d00a | 5| 
 | WgpSec狼组安全团队 | wgpsec | php代码审计一条龙思路 | https://mp.weixin.qq.com/s?__biz=MzIyMjkzMzY4Ng==&mid=2247496171&idx=1&sn=3d837b9375db1fcf6a9fa8e72d39ad7b | 3| 
 | V安全资讯 | v-safe-cn | Thinkphp5 SQL注入漏洞引发的思考 | https://mp.weixin.qq.com/s?__biz=MzI4MDQ1MzQ0NA==&mid=2247488590&idx=1&sn=ae27d201f0c3c2b95100a1bd5134c10d | 11| 
@@ -620,6 +621,7 @@
 | parsdefense | 高通骁龙平台 CVE-2021-1965 WiFi Zero Click RCE Trigger PoC | https://github.com/parsdefense/CVE-2021-1965 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 0 | 0 | 1| 
 | p0larisdev | iOS 9.x 越狱工具 p0laris 开源 | https://github.com/p0larisdev/app | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 0 | 0 | 1| 
 | p0dalirius | 常见 CMS/LMS Web 框架的 RCE 技术整理 | https://github.com/p0dalirius/Awesome-RCE-techniques | https://github.com/p0dalirius?tab=followers | Security Researcher 🕵️‍♂️ , Speaker 📣 | [object Object] | Podalirius | 65 | 0 | 7 | 0 | 0 | Python,PHP,Dockerfile | 0 | 0 | 2| 
+| osandov | drgn - 支持通过 Python 实现脚本化扩展的调试器 | https://github.com/osandov/drgn | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | optiv | Freeze - 利用进程挂起、直接 Syscall 调用等方法实现 Shellcode 隐蔽执行，逃逸 EDR 检测 | https://github.com/optiv/Freeze | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,Kotlin | 0 | 0 | 1| 
 | omair2084 | Windows NFS CVE-2022-26937 PoC | https://github.com/omair2084/CVE-2022-26937 | https://github.com/omair2084?tab=followers |  | None | None | 13 | 0 | 0 | 0 | 0 | Python,Shell | 0 | 0 | 1| 
 | olafhartong | Windows Defender for Endpoint 版本的数据采集范围、防护机制研究 | https://github.com/olafhartong/Presentations/blob/master/Lifting-the-veil-a-look-at-MDE-under-the-hood.pdf | https://github.com/olafhartong?tab=followers |  | The Netherlands | @FalconForceTeam | 56 | 0 | 69 | 0 | 0 | Batchfile,PowerShell | 0 | 0 | 1| 
@@ -831,6 +833,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| pGALA 关于被攻击事件的声明 | http://medium.com/pnetwork/pgala-post-mortem-measures-taken-to-safeguard-the-ecosystem-from-malicious-actors-and-recovery-6407048f4497| 
 | 利用卡巴斯基终端安全软件的 KES Installer 组件提供的 “Features”可以执行任意命令 | http://nasbench.medium.com/lolbined-using-kaspersky-endpoint-security-kes-installer-to-execute-arbitrary-commands-1c999f1b7fea| 
 | 硬件级木马技术研究 | http://ryancor.medium.com/hardware-trojans-under-a-microscope-bf542acbcc29| 
 | Worldwide Server-side Cache Poisoning on All Akamai Edge Nodes | https://medium.com/@jacopotediosi/worldwide-server-side-cache-poisoning-on-all-akamai-edge-nodes-50k-bounty-earned-f97d80f3922b| 
