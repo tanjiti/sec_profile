@@ -1,0 +1,21 @@
+20221031	新闻	https://mp.weixin.qq.com/s/sPLwCfysg-1xSRhS35oQGg	新加坡正式成立以网络为重点的“数字和情报军”	qq.com	mp.weixin.qq.com	/s/sPLwCfysg-1xSRhS35oQGg
+20221031	设备安全	https://www.chenxublog.com/2022/10/28/19-9-sms-forwarding-air780e-esp32c3.html	低成本自制短信转发器（Air780E+ESP32C3）	chenxublog.com	www.chenxublog.com	/2022/10/28/19-9-sms-forwarding-air780e-esp32c3.html
+20221031	观点	https://mp.weixin.qq.com/s/MAdWdQPBj_--gMZVjR0qOg	写在博士生涯的最后	qq.com	mp.weixin.qq.com	/s/MAdWdQPBj_--gMZVjR0qOg
+20221031	取证分析	https://mp.weixin.qq.com/s/_H2JtjRHG6PCds6zRDH7Rw	西北工业大学遭网络攻击事件的分析与思考	qq.com	mp.weixin.qq.com	/s/_H2JtjRHG6PCds6zRDH7Rw
+20221031	取证分析	https://mp.weixin.qq.com/s/s43-B6oFYBitl_HaLZYulQ	从西工大攻击揭秘美军网空作战发展	qq.com	mp.weixin.qq.com	/s/s43-B6oFYBitl_HaLZYulQ
+20221031	数据挖掘	https://mp.weixin.qq.com/s/wgbqXyDrsqZBeZZmseMwPw	数据安全分类分级实践探索	qq.com	mp.weixin.qq.com	/s/wgbqXyDrsqZBeZZmseMwPw
+20221031	恶意分析	https://mp.weixin.qq.com/s/w9GHtqcAbHx-E5OsQXkKPw	全球高级持续性威胁（APT）2022年中报告	qq.com	mp.weixin.qq.com	/s/w9GHtqcAbHx-E5OsQXkKPw
+20221031	移动安全	https://mp.weixin.qq.com/s/V2hTqTnUbAsPDWLHljiQ4A	公有云攻防系列：云凭证的泄露与利用	qq.com	mp.weixin.qq.com	/s/V2hTqTnUbAsPDWLHljiQ4A
+20221031	恶意分析	https://mp.weixin.qq.com/s/If9KE4_jxKhYrnOXLn0y2A	APT28 样本分析报告	qq.com	mp.weixin.qq.com	/s/If9KE4_jxKhYrnOXLn0y2A
+20221031	论文	https://mp.weixin.qq.com/s/Wa9lqNLwUDHuL0rqib4ajQ	RAID 2022 论文录用列表	qq.com	mp.weixin.qq.com	/s/Wa9lqNLwUDHuL0rqib4ajQ
+20221031	Web安全	https://xz.aliyun.com/t/11791	浅析NodeJS	aliyun.com	xz.aliyun.com	/t/11791
+20221031	取证分析	https://mp.weixin.qq.com/s/041iCqcdRbKUDFauc45gow	Team Finance 被黑简要分析	qq.com	mp.weixin.qq.com	/s/041iCqcdRbKUDFauc45gow
+20221031	其它	https://www.sec-in.com/article/1647	一篇了解Java反射	sec-in.com	www.sec-in.com	/article/1647
+20221031	恶意分析	https://blog.netlab.360.com/p2p-botnet-monitor/	P2P 僵尸网络：回顾·现状·持续监测	360.com	blog.netlab.360.com	/p2p-botnet-monitor/
+20221031	观点	https://mp.weixin.qq.com/s/4C-XLR26kXnY1rXHcNodGA	从科学家到企业家要迈过多少道坎？	qq.com	mp.weixin.qq.com	/s/4C-XLR26kXnY1rXHcNodGA
+20221031	运维安全	https://www.kryii.com/89.html	使用电信 TR069 内网架设 WireGuard 隧道异地组网	kryii.com	www.kryii.com	/89.html
+20221031	其它	https://mp.weixin.qq.com/s/_x3ejq8TA1iHDQFm6JQ2PQ	BREAK业务风险枚举与规避知识框架v0.1.0	qq.com	mp.weixin.qq.com	/s/_x3ejq8TA1iHDQFm6JQ2PQ
+20221031	杂志	https://www.sec-wiki.com/weekly/452	SecWiki周刊（第452期)	sec-wiki.com	www.sec-wiki.com	/weekly/452
+20221031	比赛	https://www.anquanke.com/post/id/282335	2022年工业信息安全技能大赛“望岳杯”锦标赛 wp	anquanke.com	www.anquanke.com	/post/id/282335
+20221031	运维安全	https://github.com/prowler-cloud/prowler	Prowler: AWS security best practices 基线检查	github.com	github.com	/prowler-cloud/prowler
+20221031	恶意分析	https://green-m.me//2022/11/01/openwrt-dns-hijack/	openwrt 路由器的奇怪 DNS 劫持	green-m.me	green-m.me	//2022/11/01/openwrt-dns-hijack/

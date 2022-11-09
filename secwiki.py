@@ -227,11 +227,13 @@ def parse_all(fnames=None, renew=False, proxy=None):
                             values(?,?,?,?,?,?,?);"""
 
     # file handler
-
-    result_fname = path("data/secwiki_{start}_{end}.txt".format(
-        start=nos.keys()[0],
-        end=nos.keys()[-1]
-    ))
+    if nos:
+        result_fname = path("data/secwiki_{start}_{end}.txt".format(
+            start=nos.keys()[0],
+            end=nos.keys()[-1]
+        ))
+    else:
+        return
 
     if not renew and os.path.isfile(result_fname) and os.path.getsize(result_fname) > 0:
         return

@@ -1,17 +1,17 @@
-Python	135
-C	82
-C++	67
+Python	137
+C	84
+C++	69
 JavaScript	66
-Go	62
+Go	64
 Java	56
-HTML	45
-Shell	38
-Rust	37
-C#	36
+HTML	46
+Shell	39
+Rust	38
+C#	37
 TypeScript	31
 PowerShell	24
 Jupyter	17
-Ruby	15
+Ruby	16
 CSS	14
 Kotlin	14
 PHP	13
@@ -24,6 +24,7 @@ Makefile	5
 SCSS	4
 Dart	4
 Cuda	4
+Jinja	3
 Perl	3
 Lua	3
 LLVM	3
@@ -31,7 +32,6 @@ YARA	3
 HCL	3
 CMake	3
 Haskell	3
-Jinja	2
 Scala	2
 Solidity	2
 Emacs	2
@@ -41,6 +41,7 @@ Elixir	2
 Groovy	2
 F#	2
 Roff	2
+Vim	2
 Batchfile	2
 OCaml	2
 VBA	1
@@ -66,4 +67,3 @@ Mustache	1
 FreeMarker	1
 Handlebars	1
 Smarty	1
-Vim	1
