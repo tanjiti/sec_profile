@@ -443,7 +443,7 @@
 | 伏羲智库 | FUXIINSTITUTION | DNS-网络安全绕不过去的话题 | https://mp.weixin.qq.com/s/g5_RVxAFgXBIwSLiazsUpw | 1| 
 | 面壁者与执剑人 | gh_eb146885b458 | 怎样系统地管理时间 | https://mp.weixin.qq.com/s/O7xGdZw669xJy3o17ghCbg | 1| 
 | 春秋伽玛 | AWDGAME | Writeup , 蓝帽杯半决赛Misc-溯源取证 | https://mp.weixin.qq.com/s/rL-Issg-ouhpMfmcYL76Ow | 2| 
-| M01N Team | m01nteam | 钓鱼页面之无视浏览器URL栏 | https://mp.weixin.qq.com/s/F4GkG1MSOaz3iIGBmDzCTA | 18| 
+| M01N Team | m01nteam | 钓鱼页面之无视浏览器URL栏 | https://mp.weixin.qq.com/s/F4GkG1MSOaz3iIGBmDzCTA | 19| 
 | APISIX 云原生微服务网关 | gh_04aaf04b2fae | 开源 API 网关架构分析 | https://mp.weixin.qq.com/s/L3X3xfGggjf52a8GofFHEQ | 1| 
 | 苹果资本 | Applefunds | 苹果观点：通过RSAC沙盒大赛看未来网络安全新格局 | https://mp.weixin.qq.com/s/2WwlcdYD9NxcIIZ8xfsJmw | 3| 
 | 天问实验室 | tianwenlab | 智能设备常规测试思路总结 | https://mp.weixin.qq.com/s/jpKP2-lvHVyQhLcMWfrY5Q | 2| 
@@ -477,7 +477,7 @@
 | 红数位 | safetop | Pwn2Own 2021全程（附结果和录像视频） | https://mp.weixin.qq.com/s/blwGELCaPKC1HTczBcWkfQ | 28| 
 | 娜璋AI安全之家 | gh_91f1fe28fc6e | [AI安全论文] 03.什么是生成对抗网络？GAN的前世今生（Goodfellow） | https://mp.weixin.qq.com/s/CGngRxjVtOKHNsTrXBiD7w | 16| 
 | 哔哩哔哩安全应急响应中心 | gh_951c3555f599 | DGA域名检测的工程实践 | https://mp.weixin.qq.com/s/GlWqTWQzBfoXt8J8uJAPRQ | 2| 
-| NISL实验室 | NISL_THU2020 | 【研究成果】国内伪基站垃圾短信生态系统研究 | https://mp.weixin.qq.com/s/te4igYM_PHbf2xedXdmQxw | 1| 
+| NISL实验室 | NISL_THU2020 | 【研究成果】国内伪基站垃圾短信生态系统研究 | https://mp.weixin.qq.com/s/te4igYM_PHbf2xedXdmQxw | 2| 
 | 火线安全平台 | huoxian_cn | 洞态IAST Agent正式开源 | https://mp.weixin.qq.com/s/iSHmK4Fbl0whDvIH-u8tag | 6| 
 | 泰阿安全实验室 | gh_d80f12be026a | 剑指钓鱼基建自动化的想法 | https://mp.weixin.qq.com/s/5ofJ6J1KVQIvVB3dZdIVng | 3| 
 | 补天平台 | Patchingthesky | 硬核黑客笔记 - 怒吼吧电磁波 (上) | https://mp.weixin.qq.com/s/SUjjKY_TIj10rpQW9tkH9A | 11| 
@@ -3997,6 +3997,7 @@
 | smallkirby | 借助 tty_struct 结构体的 Linux 内核漏洞的利用 | https://github.com/smallkirby/kernelpwn/blob/master/technique/tty_struct.md | https://github.com/smallkirby?tab=followers | a | Tokyo | None | 49 | 0 | 154 | 0 | 0 | C,Shell,Rust,Vue | 0 | 0 | 1| 
 | slowmist | 区块链黑暗森林自救手册 | https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,HTML,Ruby | 0 | 0 | 1| 
 | sleirsgoevy | PS4 6.72 版本固件的越狱利用代码 | https://github.com/sleirsgoevy/ps4jb | None |  | None | None | 38 | 0 | 0 | 0 | 0 | Python,C,JavaScript | 379 | 107 | 1| 
+| sleeyax | 用于 Hook Burp 的 HTTP/TLS 栈以篡改浏览器指纹的扩展 | https://github.com/sleeyax/burp-awesome-tls | https://github.com/sleeyax?tab=followers | Using the right skills for the right job | Belgium | None | 118 | 0 | 450 | 0 | 0 | Go,C#,TypeScript,Rust | 0 | 0 | 1| 
 | skylot | jadx:Dex to Java decompiler | https://github.com/skylot/jadx | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 2| 
 | skyline75489 | what-happens-when-input-google | https://github.com/skyline75489/what-happens-when-zh_CN | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | skydive-project | Skydive可用以对网络拓扑及协议进行实时分析，以图像的方式清晰展现。 | https://github.com/skydive-project/skydive | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,HTML,JavaScript,Puppet | 0 | 0 | 1| 

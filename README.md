@@ -14,6 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| NISL实验室 | NISL_THU2020 | 机器学习为何难以应用于真实的网络入侵检测系统？（上） | https://mp.weixin.qq.com/s/UGFtM1Toue9B4NMdCss-OA | 1| 
+| M01N Team | m01nteam | Electron攻击面分析 | https://mp.weixin.qq.com/s/E9cBVrIikwDm1X586xl-vw | 1| 
 | 迪哥讲事 | growing0101 | 漏洞赏金猎人系列-如何测试设置(Setting)功能 | https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247486882&idx=1&sn=79af29d6eea31a659e92f1e2e8dab631&chksm=e8a607c1dfd18ed72691ecae120faccd69dcaece15a671e5b924d91967f6440215a7f05853f8&token=868985101&lang=zh_CN#rd | 1| 
 | 放之 | ECyberSecurity | 浅谈终端安全与DLP治理 | https://mp.weixin.qq.com/s/TOlDEeW4RbHufuP6CreWKQ | 2| 
 | 开源情报技术研究院 | gh_d1f65c3b3e5b | 如何跨平台追踪社交媒体用户 | https://mp.weixin.qq.com/s/91R2D4G__VH3kGu4HSBssQ | 1| 
@@ -37,6 +39,7 @@
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | trailofbits | VAST - 基于 MLIR 框架，为 C/C++ 语言实现的前端程序分析工具 | https://github.com/trailofbits/vast | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Jinja,Python,C++,Go,Ruby,Rust | 0 | 0 | 1| 
+| sleeyax | 用于 Hook Burp 的 HTTP/TLS 栈以篡改浏览器指纹的扩展 | https://github.com/sleeyax/burp-awesome-tls | https://github.com/sleeyax?tab=followers | Using the right skills for the right job | Belgium | None | 118 | 0 | 450 | 0 | 0 | Go,C#,TypeScript,Rust | 0 | 0 | 1| 
 | prowler-cloud | Prowler: AWS security best practices 基线检查 | https://github.com/prowler-cloud/prowler | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,HCL | 0 | 0 | 1| 
 | pinauten | Fugu15 - 研究员 Linus Henze 放出了他的 iOS 15.4.1 越狱工具 | https://github.com/pinauten/Fugu15 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Swift | 0 | 0 | 1| 
 | osandov | drgn - 支持通过 Python 实现脚本化扩展的调试器 | https://github.com/osandov/drgn | https://github.com/osandov?tab=followers |  | Seattle, WA | @facebook | 50 | 0 | 15 | 0 | 0 | Python,C,Shell,C++,Vim | 0 | 0 | 1| 

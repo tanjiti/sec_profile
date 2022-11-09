@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| NISL实验室 | NISL_THU2020 | 机器学习为何难以应用于真实的网络入侵检测系统？（上） | https://mp.weixin.qq.com/s/UGFtM1Toue9B4NMdCss-OA | 1| 
 | 开源情报技术研究院 | gh_d1f65c3b3e5b | 如何跨平台追踪社交媒体用户 | https://mp.weixin.qq.com/s/91R2D4G__VH3kGu4HSBssQ | 1| 
 | 小侦探的书桌 | gh_249f9111a64c | 写在博士生涯的最后 | https://mp.weixin.qq.com/s/MAdWdQPBj_--gMZVjR0qOg | 1| 
 | 网络安全卓越验证示范中心 | CCCoE_CAICT | 一文看懂 , 美新版《国家安全战略》中的网络安全 | https://mp.weixin.qq.com/s/VZ0ofovRfJIUbxQuHvaLyQ | 1| 
@@ -172,7 +173,7 @@
 | 凭阑安全 | ghrtest | 君墨篇绕过 SAML SSO 身份验证复现 | https://mp.weixin.qq.com/s?__biz=Mzg4NDA4MzE3Nw==&mid=2247483963&idx=1&sn=3b955380fdd8a53a8c41bdc2c6f27880 | 1| 
 | 中安网星 | netstarsec | 身份威胁安全方案提供商「中安网星」完成战略融资，航行资本担任财务顾问 | https://mp.weixin.qq.com/s?__biz=MzkxNTEzMTA0Mw==&mid=2247490071&idx=1&sn=8e9d03a3afe9d253997c85300149b4ed | 1| 
 | inn0team | inn0team | 猪场缺人，速来 | https://mp.weixin.qq.com/s?__biz=MzIyNTA1NzAxOA==&mid=2650474094&idx=1&sn=db59b910e5d9e87d3c59482ba010fe7d | 1| 
-| M01N Team | m01nteam | 针对AD CS中ESC7的滥用 | https://mp.weixin.qq.com/s/TqW3ONBdcUFijg4keSiO1g | 7| 
+| M01N Team | m01nteam | 针对AD CS中ESC7的滥用 | https://mp.weixin.qq.com/s/TqW3ONBdcUFijg4keSiO1g | 8| 
 | 白帽技术与网络安全 | zero_daynews | 工具推荐 , 信息收集利器SharpXDecrypt | https://mp.weixin.qq.com/s?__biz=MzU0MDI5ODgxMw==&mid=2247485051&idx=1&sn=a0e3ff1ea2d72e2933be5c1142a99a7c | 2| 
 | 漕河泾小黑屋 | gh_7e80ffdff03e | 关于不小心上了天堂这件事 | https://mp.weixin.qq.com/s?__biz=MzA4NzQwNzY3OQ==&mid=2247483854&idx=1&sn=7bddc8c5a948b08289ca46f418ca4e04 | 2| 
 | 湘雪尘奕 | gkaq_gkk | 基于工业互联网控制设备“网络武器化”研究 | https://mp.weixin.qq.com/s?__biz=MzI2MzE3NzczNQ==&mid=2650622421&idx=1&sn=530ec9fd3880d583a7d5f50132f970f4 | 2| 
@@ -592,6 +593,7 @@
 | sourque | 基于 eBPF 技术实现的 Linux EDR | https://github.com/sourque/louis | https://github.com/sourque?tab=followers |  | None | None | 4 | 0 | 11 | 0 | 0 | Go,Python,Shell | 0 | 0 | 1| 
 | smallkirby | 借助 tty_struct 结构体的 Linux 内核漏洞的利用 | https://github.com/smallkirby/kernelpwn/blob/master/technique/tty_struct.md | https://github.com/smallkirby?tab=followers | a | Tokyo | None | 49 | 0 | 154 | 0 | 0 | C,Shell,Rust,Vue | 0 | 0 | 1| 
 | slowmist | 区块链黑暗森林自救手册 | https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,HTML,Ruby | 0 | 0 | 1| 
+| sleeyax | 用于 Hook Burp 的 HTTP/TLS 栈以篡改浏览器指纹的扩展 | https://github.com/sleeyax/burp-awesome-tls | https://github.com/sleeyax?tab=followers | Using the right skills for the right job | Belgium | None | 118 | 0 | 450 | 0 | 0 | Go,C#,TypeScript,Rust | 0 | 0 | 1| 
 | skylot | 反编译工具 jadx 更新 1.3.5 版本 | https://github.com/skylot/jadx/releases/tag/v1.3.5 | https://github.com/skylot?tab=followers |  | None | None | 3 | 0 | 43 | 0 | 0 | Java | 0 | 0 | 1| 
 | shuai06 | Zyxel 防火墙远程命令注入漏洞（CVE-2022-30525）批量检测脚本. | https://github.com/shuai06/CVE-2022-30525 | https://github.com/shuai06?tab=followers | 侠之大者，为国为民。 | None | None | 26 | 0 | 956 | 0 | 0 | Python | 0 | 0 | 1| 
 | shmilylty | netspy-快速探测内网可达网段工具 | https://github.com/shmilylty/netspy | https://github.com/shmilylty?tab=followers | Developer, pentester and bug hunter. | localhost | None | 84 | 0 | 2500 | 0 | 0 | Python,Go,Vue | 0 | 0 | 2| 

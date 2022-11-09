@@ -2,13 +2,13 @@ Python	137
 C	84
 C++	69
 JavaScript	66
-Go	64
+Go	65
 Java	56
 HTML	46
+Rust	39
 Shell	39
-Rust	38
-C#	37
-TypeScript	31
+C#	38
+TypeScript	32
 PowerShell	24
 Jupyter	17
 Ruby	16
