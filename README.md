@@ -20,12 +20,12 @@
 | 放之 | ECyberSecurity | 浅谈终端安全与DLP治理 | https://mp.weixin.qq.com/s/TOlDEeW4RbHufuP6CreWKQ | 2| 
 | 开源情报技术研究院 | gh_d1f65c3b3e5b | 如何跨平台追踪社交媒体用户 | https://mp.weixin.qq.com/s/91R2D4G__VH3kGu4HSBssQ | 1| 
 | 公安部网络安全等级保护中心 | gh_f5f6bf3d09af | 关键信息基础设施安全保护标准体系解析 | https://mp.weixin.qq.com/s/sZ98UgV4gdx3M1z-76h9Jg | 1| 
-| 绿盟科技研究通讯 | nsfocus_research | 公有云攻防系列：云凭证的泄露与利用 | https://mp.weixin.qq.com/s/V2hTqTnUbAsPDWLHljiQ4A | 2| 
 | 微步在线研究响应中心 | gh_280024a09930 | 曝光！“海莲花”组织运营的物联网僵尸网络Torii | https://mp.weixin.qq.com/s/v2wiJe-YPG0ng87ffBB9FQ | 1| 
 | 奇安网情局 | QACIA2020 | 新加坡正式成立以网络为重点的“数字和情报军” | https://mp.weixin.qq.com/s/sPLwCfysg-1xSRhS35oQGg | 1| 
 | Ms08067安全实验室 | Ms08067_com | 黑客破解赌博网站漏洞每月“薅羊毛”10万 | https://mp.weixin.qq.com/s/d0fKas6c6n7rhj777kO4vg | 1| 
 | 赛博回忆录 | cybermemory | 最新CS RCE曲折的复现路 | https://mp.weixin.qq.com/s?__biz=MzIxNDAyNjQwNg==&mid=2456098978&idx=1&sn=d511d5a674d84eeaf262c8e389ae0403&chksm=803c696bb74be07d8ef8e473b11ffe4dce57b58ccf82e8615ab15d9ba6bba9263360c01276a8 | 1| 
 | 信息安全与通信保密杂志社 | cismag2013 | 西北工业大学遭网络攻击事件的分析与思考 | https://mp.weixin.qq.com/s/_H2JtjRHG6PCds6zRDH7Rw | 1| 
+| 绿盟科技研究通讯 | nsfocus_research | 从西工大攻击揭秘美军网空作战发展 | https://mp.weixin.qq.com/s/s43-B6oFYBitl_HaLZYulQ | 2| 
 | 慢雾科技 | SlowMist | 复盘 , Team Finance 被黑简要分析 | https://mp.weixin.qq.com/s/041iCqcdRbKUDFauc45gow | 1| 
 | HaoDF技术团队 | haodf_tech | 好大夫数据安全分类分级实践探索 | https://mp.weixin.qq.com/s/wgbqXyDrsqZBeZZmseMwPw | 1| 
 
@@ -40,11 +40,13 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | trailofbits | VAST - 基于 MLIR 框架，为 C/C++ 语言实现的前端程序分析工具 | https://github.com/trailofbits/vast | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Jinja,Python,C++,Go,Ruby,Rust | 0 | 0 | 1| 
 | sleeyax | 用于 Hook Burp 的 HTTP/TLS 栈以篡改浏览器指纹的扩展 | https://github.com/sleeyax/burp-awesome-tls | https://github.com/sleeyax?tab=followers | Using the right skills for the right job | Belgium | None | 118 | 0 | 450 | 0 | 0 | Go,C#,TypeScript,Rust | 0 | 0 | 1| 
+| quarkslab | Fuzzing NVIDIA 驱动，挖掘本地提权漏洞 | https://github.com/quarkslab/conf-presentations/blob/master/Hexacon-2022/fuzzing_NVIDIA_drivers-tdore.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Python,JavaScript,C++,Shell,Go,Rust | 0 | 0 | 1| 
 | prowler-cloud | Prowler: AWS security best practices 基线检查 | https://github.com/prowler-cloud/prowler | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,HCL | 0 | 0 | 1| 
 | pinauten | Fugu15 - 研究员 Linus Henze 放出了他的 iOS 15.4.1 越狱工具 | https://github.com/pinauten/Fugu15 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Swift | 0 | 0 | 1| 
 | osandov | drgn - 支持通过 Python 实现脚本化扩展的调试器 | https://github.com/osandov/drgn | https://github.com/osandov?tab=followers |  | Seattle, WA | @facebook | 50 | 0 | 15 | 0 | 0 | Python,C,Shell,C++,Vim | 0 | 0 | 1| 
 | git | Git 修复了一个本地仓库 clone 过程中的符号链接 Following 问题，可以泄露用户敏感信息 | https://github.com/git/git/security/advisories/GHSA-3wp6-j8xr-qw85 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,HTML,Ruby,CSS | 0 | 0 | 1| 
 | bw3ll | SHAREM - Windows Shellcode 辅助分析和构造的工具 | https://github.com/bw3ll/sharem | https://github.com/Bw3ll?tab=followers |  | None | None | 3 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
+| alfarom256 | Lenovo Diagnostics 驱动（Windows）访问控制处理不当，导致低权限进程可以实现任意物理、虚拟内存地址读写 | https://github.com/alfarom256/CVE-2022-3699/ | https://github.com/alfarom256?tab=followers |  | None | None | 56 | 0 | 69 | 0 | 0 | Go,C,C++ | 0 | 0 | 1| 
 | SpyGuard | SpyGuard - 增强版的 TinyCheck，通过网络流量检测主机是否已经被攻陷 | https://github.com/SpyGuard/SpyGuard | https://github.com/SpyGuard?tab=followers |  | None | None | 1 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | SnaffCon | Snaffler - 渗透测试项目中帮助探测 Windows/AD 环境的工具 | https://github.com/SnaffCon/Snaffler | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C#,Go,HTML | 0 | 0 | 1| 
 | NationalSecurityAgency | NSA 发布 Ghidra 10.2 版本，Debugger、Decompiler 等组件均有更新 | https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_10.2_build | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Groovy,C,HTML,Java,JavaScript | 0 | 0 | 1| 
