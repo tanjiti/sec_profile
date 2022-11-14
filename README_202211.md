@@ -14,9 +14,15 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
-| NISL实验室 | NISL_THU2020 | 机器学习为何难以应用于真实的网络入侵检测系统？（上） | https://mp.weixin.qq.com/s/UGFtM1Toue9B4NMdCss-OA | 1| 
+| 天玄安全实验室 | TianXuan_SecurityLab | ​CVE-2021-44707 Adobe Reader越界写漏洞分析与利用 | https://mp.weixin.qq.com/s/elLI4YvJ0u9yYoyQpsv1og | 1| 
+| 天极智库 | gh_90d775fd9c26 | 【国际视野】欧洲安全局发布《2022年网络安全威胁全景》报告 | https://mp.weixin.qq.com/s/U-YwbRs7tDU93vwgpLywRw | 1| 
+| 摄星 | Vulinsight | 漏洞管理十大度量指标 | https://mp.weixin.qq.com/s/EExp6-IOTDd_WJwoWkj4Fw | 1| 
+| 字节跳动安全中心 | TouTiaoSec | 干货来袭 , 如何体系化建设云上安全能力 | https://mp.weixin.qq.com/s/prG64nwyb6tlzyxVGp7fxQ | 1| 
+| 一个人的安全笔记 | xjiek2015 | [HTB] Driver Writeup | https://mp.weixin.qq.com/s/UQlDF_fAw0-VsOdp2jQ3Wg | 1| 
+| SecUN安全村 | sec-un | 试与国内网络安全监管机构商榷二三事｜安全村 | https://mp.weixin.qq.com/s/ukFg_L4eBzZGH_SOF2BnvQ | 1| 
+| NISL实验室 | NISL_THU2020 | 机器学习为何难以应用于真实的网络入侵检测系统？（下） | https://mp.weixin.qq.com/s/ZRMhhX6D3x2FixWonwrX0g | 2| 
 | M01N Team | m01nteam | Electron攻击面分析 | https://mp.weixin.qq.com/s/E9cBVrIikwDm1X586xl-vw | 1| 
-| 迪哥讲事 | growing0101 | 漏洞赏金猎人系列-如何测试设置(Setting)功能 | https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247486882&idx=1&sn=79af29d6eea31a659e92f1e2e8dab631&chksm=e8a607c1dfd18ed72691ecae120faccd69dcaece15a671e5b924d91967f6440215a7f05853f8&token=868985101&lang=zh_CN#rd | 1| 
+| 迪哥讲事 | growing0101 | 漏洞赏金猎人系列-如何测试设置(Setting)功能 | https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247486882&idx=1&sn=79af29d6eea31a659e92f1e2e8dab631&chksm=e8a607c1dfd18ed72691ecae120faccd69dcaece15a671e5b924d91967f6440215a7f05853f8&token=868985101&lang=zh_CN#rd | 2| 
 | 放之 | ECyberSecurity | 浅谈终端安全与DLP治理 | https://mp.weixin.qq.com/s/TOlDEeW4RbHufuP6CreWKQ | 2| 
 | 开源情报技术研究院 | gh_d1f65c3b3e5b | 如何跨平台追踪社交媒体用户 | https://mp.weixin.qq.com/s/91R2D4G__VH3kGu4HSBssQ | 1| 
 | 公安部网络安全等级保护中心 | gh_f5f6bf3d09af | 关键信息基础设施安全保护标准体系解析 | https://mp.weixin.qq.com/s/sZ98UgV4gdx3M1z-76h9Jg | 1| 
@@ -86,6 +92,8 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| 最近碰到的 Python pickle 反序列化小总结 | https://xz.aliyun.com/t/11807| 
+| jpress代码审计分享 | https://xz.aliyun.com/t/11832| 
 | 浅析NodeJS | https://xz.aliyun.com/t/11791| 
 
 
