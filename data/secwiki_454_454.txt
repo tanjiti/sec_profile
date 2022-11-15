@@ -1,0 +1,23 @@
+20221107	Web安全	https://mp.weixin.qq.com/s/9S0y10f-GLSnt4oPfNE5pg	现代化安全产品	qq.com	mp.weixin.qq.com	/s/9S0y10f-GLSnt4oPfNE5pg
+20221107	杂志	https://www.sec-wiki.com/weekly/453	SecWiki周刊（第453期)	sec-wiki.com	www.sec-wiki.com	/weekly/453
+20221107	运维安全	https://mp.weixin.qq.com/s/sZ98UgV4gdx3M1z-76h9Jg	关键信息基础设施安全保护标准体系解析	qq.com	mp.weixin.qq.com	/s/sZ98UgV4gdx3M1z-76h9Jg
+20221107	运维安全	https://mp.weixin.qq.com/s/TOlDEeW4RbHufuP6CreWKQ	浅谈终端安全与DLP治理	qq.com	mp.weixin.qq.com	/s/TOlDEeW4RbHufuP6CreWKQ
+20221107	取证分析	https://mp.weixin.qq.com/s/91R2D4G__VH3kGu4HSBssQ	如何跨平台追踪社交媒体用户	qq.com	mp.weixin.qq.com	/s/91R2D4G__VH3kGu4HSBssQ
+20221107	数据挖掘	https://mp.weixin.qq.com/s/UGFtM1Toue9B4NMdCss-OA	机器学习为何难以应用于真实的网络入侵检测系统？（上）	qq.com	mp.weixin.qq.com	/s/UGFtM1Toue9B4NMdCss-OA
+20221107	Web安全	https://www.sec-in.com/article/1575	Spring Boot RCE到内存马探索	sec-in.com	www.sec-in.com	/article/1575
+20221107	Web安全	https://mp.weixin.qq.com/s/zN6dasLa3fcSgqndc9Lujg	信息搜集中的Tips	qq.com	mp.weixin.qq.com	/s/zN6dasLa3fcSgqndc9Lujg
+20221107	Web安全	https://mp.weixin.qq.com/s/E9cBVrIikwDm1X586xl-vw	Electron攻击面分析	qq.com	mp.weixin.qq.com	/s/E9cBVrIikwDm1X586xl-vw
+20221107	运维安全	https://mp.weixin.qq.com/s/prG64nwyb6tlzyxVGp7fxQ	体系化建设云上安全能力	qq.com	mp.weixin.qq.com	/s/prG64nwyb6tlzyxVGp7fxQ
+20221107	观点	https://mp.weixin.qq.com/s/ukFg_L4eBzZGH_SOF2BnvQ	试与国内网络安全监管机构商榷二三事	qq.com	mp.weixin.qq.com	/s/ukFg_L4eBzZGH_SOF2BnvQ
+20221107	文档	https://mp.weixin.qq.com/s/U-YwbRs7tDU93vwgpLywRw	欧洲安全局发布《2022年网络安全威胁全景》报告	qq.com	mp.weixin.qq.com	/s/U-YwbRs7tDU93vwgpLywRw
+20221107	漏洞分析	https://mp.weixin.qq.com/s/EExp6-IOTDd_WJwoWkj4Fw	漏洞管理十大度量指标	qq.com	mp.weixin.qq.com	/s/EExp6-IOTDd_WJwoWkj4Fw
+20221107	数据挖掘	https://mp.weixin.qq.com/s/ZRMhhX6D3x2FixWonwrX0g	机器学习为何难以应用于真实的网络入侵检测系统？（下）	qq.com	mp.weixin.qq.com	/s/ZRMhhX6D3x2FixWonwrX0g
+20221107	Web安全	https://www.anquanke.com/post/id/283079	Java安全攻防之老版本 Fastjson 的一些不出网利用	anquanke.com	www.anquanke.com	/post/id/283079
+20221107	漏洞分析	https://paper.seebug.org/2010/	从一道题入门 UEFI PWN	seebug.org	paper.seebug.org	/2010/
+20221107	Web安全	https://xz.aliyun.com/t/11807	最近碰到的 Python pickle 反序列化小总结	aliyun.com	xz.aliyun.com	/t/11807
+20221107	Web安全	https://xz.aliyun.com/t/11832	jpress代码审计分享	aliyun.com	xz.aliyun.com	/t/11832
+20221107	Web安全	https://bugs.xdavidhu.me/google/2022/11/10/accidental-70k-google-pixel-lock-screen-bypass/	Accidental $70k Google Pixel Lock Screen Bypass	xdavidhu.me	bugs.xdavidhu.me	/google/2022/11/10/accidental-70k-google-pixel-lock-screen-bypass/
+20221107	漏洞分析	https://tttang.com/archive/1806/	对ZDI公布的InfraSuite Device Master一揽子漏洞的分析	tttang.com	tttang.com	/archive/1806/
+20221107	漏洞分析	https://mp.weixin.qq.com/s/elLI4YvJ0u9yYoyQpsv1og	​CVE-2021-44707 Adobe Reader越界写漏洞分析与利用	qq.com	mp.weixin.qq.com	/s/elLI4YvJ0u9yYoyQpsv1og
+20221107	Web安全	https://mp.weixin.qq.com/s/UQlDF_fAw0-VsOdp2jQ3Wg	[HTB] Driver Writeup	qq.com	mp.weixin.qq.com	/s/UQlDF_fAw0-VsOdp2jQ3Wg
+20221107	比赛	https://imlonghao.com/60.html	USTC Hackergame 2022	imlonghao.com	imlonghao.com	/60.html
