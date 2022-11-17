@@ -14,6 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 穿过丛林 | gh_f90eac70537b | IEEE TSE22：基于统计与变异分析的缺陷变量定位技术 | https://mp.weixin.qq.com/s/XVWFL8LvK9QLprnEG5YYSA | 1| 
+| 腾讯技术 | gh_6866e1848f15 | 如何成为优秀工程师之软技能篇 | https://mp.weixin.qq.com/s/pQqSHw-Gou8Sd70hvZWl8g | 1| 
 | 信安文摘 | share-for-life | 【日常分享】- IDEA-JetBrains全系列产品授权 | https://mp.weixin.qq.com/s?__biz=Mzg3OTEwMzIzNA==&mid=2247484344&idx=1&sn=1ab0a2aeff225cb6e42ac15742f4faa5&chksm=cf08dfd5f87f56c39ffb3b9a47fc6b2d6a94919ad2d5b246680764fc27dcdefadad2436d6c85&scene=178&cur_album_id=2311011542760505346#rd | 2| 
 | Tide安全团队 | TideSec | 简单实用远控小工具Todesk | https://mp.weixin.qq.com/s/lVgcikWV-GH8lX295AGr0w | 1| 
 | 天玄安全实验室 | TianXuan_SecurityLab | ​CVE-2021-44707 Adobe Reader越界写漏洞分析与利用 | https://mp.weixin.qq.com/s/elLI4YvJ0u9yYoyQpsv1og | 1| 
@@ -33,7 +35,7 @@
 | Ms08067安全实验室 | Ms08067_com | 黑客破解赌博网站漏洞每月“薅羊毛”10万 | https://mp.weixin.qq.com/s/d0fKas6c6n7rhj777kO4vg | 1| 
 | 赛博回忆录 | cybermemory | 最新CS RCE曲折的复现路 | https://mp.weixin.qq.com/s?__biz=MzIxNDAyNjQwNg==&mid=2456098978&idx=1&sn=d511d5a674d84eeaf262c8e389ae0403&chksm=803c696bb74be07d8ef8e473b11ffe4dce57b58ccf82e8615ab15d9ba6bba9263360c01276a8 | 1| 
 | 信息安全与通信保密杂志社 | cismag2013 | 西北工业大学遭网络攻击事件的分析与思考 | https://mp.weixin.qq.com/s/_H2JtjRHG6PCds6zRDH7Rw | 1| 
-| 绿盟科技研究通讯 | nsfocus_research | 从西工大攻击揭秘美军网空作战发展 | https://mp.weixin.qq.com/s/s43-B6oFYBitl_HaLZYulQ | 2| 
+| 绿盟科技研究通讯 | nsfocus_research | 从西工大攻击揭秘美军网空作战发展 | https://mp.weixin.qq.com/s/s43-B6oFYBitl_HaLZYulQ | 3| 
 | 慢雾科技 | SlowMist | 复盘 , Team Finance 被黑简要分析 | https://mp.weixin.qq.com/s/041iCqcdRbKUDFauc45gow | 1| 
 | HaoDF技术团队 | haodf_tech | 好大夫数据安全分类分级实践探索 | https://mp.weixin.qq.com/s/wgbqXyDrsqZBeZZmseMwPw | 1| 
 

@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 腾讯技术 | gh_6866e1848f15 | 如何成为优秀工程师之软技能篇 | https://mp.weixin.qq.com/s/pQqSHw-Gou8Sd70hvZWl8g | 1| 
 | 信安文摘 | share-for-life | 【日常分享】- IDEA-JetBrains全系列产品授权 | https://mp.weixin.qq.com/s?__biz=Mzg3OTEwMzIzNA==&mid=2247484344&idx=1&sn=1ab0a2aeff225cb6e42ac15742f4faa5&chksm=cf08dfd5f87f56c39ffb3b9a47fc6b2d6a94919ad2d5b246680764fc27dcdefadad2436d6c85&scene=178&cur_album_id=2311011542760505346#rd | 2| 
 | 天极智库 | gh_90d775fd9c26 | 【国际视野】欧洲安全局发布《2022年网络安全威胁全景》报告 | https://mp.weixin.qq.com/s/U-YwbRs7tDU93vwgpLywRw | 1| 
 | 摄星 | Vulinsight | 漏洞管理十大度量指标 | https://mp.weixin.qq.com/s/EExp6-IOTDd_WJwoWkj4Fw | 1| 
@@ -50,7 +51,7 @@
 | 网络安全游魂 | gh_190663b0fe76 | 安全运营中心能力成熟度模型专题【三】-金融行业能力安全运营能力成熟度模型（FCSO-CMM） | https://mp.weixin.qq.com/s/Hf3haBk1kxCk3uZnJ7FCCQ | 1| 
 | 关键信息基础设施安全保护联盟筹 | gh_1c74abeb39a6 | 院士观点, 冯登国：关键信息基础设施安全保护三大关键能力 | https://mp.weixin.qq.com/s/smY0WuXqmG4sFzjsEIv8tg | 2| 
 | 绿盟科技威胁情报 | NSFOCUS_NTI | 鼹鼠行动--针对QNAP网络存储设备的大规模攻击活动，或成勒索温床 | https://mp.weixin.qq.com/s/ua7KrEP5yWbvNHfCULgn8g | 1| 
-| 穿过丛林 | gh_f90eac70537b | 2022年实验室暑期年会前瞻报告（二）戴小海：浅谈NFT, Web3 和元宇宙（PPT） | https://mp.weixin.qq.com/s/l11SP7Nni-CZ__y3DEVX1Q | 1| 
+| 穿过丛林 | gh_f90eac70537b | 2022年实验室暑期年会前瞻报告（二）戴小海：浅谈NFT, Web3 和元宇宙（PPT） | https://mp.weixin.qq.com/s/l11SP7Nni-CZ__y3DEVX1Q | 2| 
 | 安全内参 | anquanneican | Black Hat 2022上最值得关注的十大议题 | https://mp.weixin.qq.com/s/urcX3HeERhAPmNYp_9K6BA | 1| 
 | 中国计算机学会 | ccfvoice | 联手数据库专业委员会：“无数据知识蒸馏”术语发布 , CCF术语快线 | https://mp.weixin.qq.com/s/I9TlQ9zrIA0NoHl6_1_Fgw | 2| 
 | ATEC | Alipay_SecurityLab | 【武汉大学王骞分享】从数据视角看，如何安全地实现更好的AI | https://mp.weixin.qq.com/s/u3lnWpACDETKBJfjxUq6RQ | 1| 
@@ -525,7 +526,7 @@
 | Hacking黑白红 | Hacking012 | 针对单个网站的渗透思路（文末web渗透、CTF电子书，实战案例） | https://mp.weixin.qq.com/s?__biz=Mzg2NDYwMDA1NA==&mid=2247507524&idx=2&sn=87937a808dab2526352f710ca2046a9a | 30| 
 | E安全 | EAQapp | 警惕！WordPress插件的严重漏洞已影响 84,000个网站 | https://mp.weixin.qq.com/s?__biz=MzI4MjA1MzkyNA==&mid=2655320384&idx=1&sn=f490b21dd6be5b73da9397b74d87b544 | 26| 
 | ADLab | v_adlab | Apache HTTP Server mod_lua模块缓冲区溢出漏洞分析（CVE-2021-44790） | https://mp.weixin.qq.com/s/VjSpJW-1sYM1BwDPQZDqFA | 5| 
-| 绿盟科技研究通讯 | nsfocus_research | 容器运行时信息收集技术介绍 | https://mp.weixin.qq.com/s?__biz=MzIyODYzNTU2OA==&mid=2247491000&idx=1&sn=b818b9d197e808c7eff961604f1b9d60 | 24| 
+| 绿盟科技研究通讯 | nsfocus_research | 容器运行时信息收集技术介绍 | https://mp.weixin.qq.com/s?__biz=MzIyODYzNTU2OA==&mid=2247491000&idx=1&sn=b818b9d197e808c7eff961604f1b9d60 | 25| 
 | 猪猪谈安全 | zzt-anquan | WAF-Bypass之SQL注入绕过思路总结 | https://mp.weixin.qq.com/s?__biz=MzIyMDAwMjkzNg==&mid=2247498168&idx=1&sn=c463b92e80cc6452c66f0a9306a185ee | 22| 
 | 广软NSDA安全团队 | gh_72de97d4e162 | 内存取证初探 | https://mp.weixin.qq.com/s?__biz=MzUzMDg5NDQ0Nw==&mid=2247491466&idx=1&sn=e4af2bfbc7691abf33ba814e87f61faf | 5| 
 | 安全档案 | secfile | 探索高版本 JDK 下 JNDI 漏洞的利用方法 | https://mp.weixin.qq.com/s?__biz=Mzg4OTExMjE2Mw==&mid=2247483980&idx=1&sn=4866c01168aebdb6cce4e469ebd256a9 | 1| 
