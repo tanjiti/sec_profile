@@ -14,6 +14,10 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 安全分析与研究 | MalwareAnalysis | Brute Ratel C4 Badger分析实战与检测 | https://mp.weixin.qq.com/s/Nnag6DSf_wx2YrnTXEwNug | 1| 
+| 威胁棱镜 | THREAT_PRISM | Akamai 在新观察到的域名中每月可标记 1300 万恶意域名 | https://mp.weixin.qq.com/s/A_tNuBiBvMeavfhPndsRbg | 1| 
+| 奇安信威胁情报中心 | gh_166784eae33e | 网络空间测绘视角下的乌克兰网络脆弱性分析 | https://mp.weixin.qq.com/s/KgwMSpIfvmOqqn_pgdrGjQ | 1| 
+| 靖安科技 | jing-an-tech | 乌克兰战场智能指挥系统 DELTA 深度分析报告 | https://mp.weixin.qq.com/s/dgCudvjhNBV3x75XX1OqEQ | 1| 
 | 穿过丛林 | gh_f90eac70537b | IEEE TSE22：基于统计与变异分析的缺陷变量定位技术 | https://mp.weixin.qq.com/s/XVWFL8LvK9QLprnEG5YYSA | 1| 
 | 腾讯技术 | gh_6866e1848f15 | 如何成为优秀工程师之软技能篇 | https://mp.weixin.qq.com/s/pQqSHw-Gou8Sd70hvZWl8g | 1| 
 | 信安文摘 | share-for-life | 【日常分享】- IDEA-JetBrains全系列产品授权 | https://mp.weixin.qq.com/s?__biz=Mzg3OTEwMzIzNA==&mid=2247484344&idx=1&sn=1ab0a2aeff225cb6e42ac15742f4faa5&chksm=cf08dfd5f87f56c39ffb3b9a47fc6b2d6a94919ad2d5b246680764fc27dcdefadad2436d6c85&scene=178&cur_album_id=2311011542760505346#rd | 2| 
