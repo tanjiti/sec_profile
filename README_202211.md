@@ -14,6 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 三正科技公司 | sanzhengkeji | 美国态势感知之CHARIOT物联网加密项目 | https://mp.weixin.qq.com/s/wtiZOHMDFOwP6fVokPBNLg | 1| 
+| FuzzWiki | gh_fcf21e658324 | 2022信息安全四大顶会Fuzz论文汇总｜技术进展 | https://mp.weixin.qq.com/s/fXopKsFW4mwkUK29AwsnSA | 1| 
 | 安全分析与研究 | MalwareAnalysis | Brute Ratel C4 Badger分析实战与检测 | https://mp.weixin.qq.com/s/Nnag6DSf_wx2YrnTXEwNug | 1| 
 | 威胁棱镜 | THREAT_PRISM | Akamai 在新观察到的域名中每月可标记 1300 万恶意域名 | https://mp.weixin.qq.com/s/A_tNuBiBvMeavfhPndsRbg | 1| 
 | 奇安信威胁情报中心 | gh_166784eae33e | 网络空间测绘视角下的乌克兰网络脆弱性分析 | https://mp.weixin.qq.com/s/KgwMSpIfvmOqqn_pgdrGjQ | 1| 
