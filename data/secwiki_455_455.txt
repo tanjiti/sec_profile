@@ -1,0 +1,17 @@
+20221114	法规	http://www.cac.gov.cn/2022-11/16/c_1670253725725039.htm	互联网跟帖评论服务管理规定	cac.gov.cn	www.cac.gov.cn	/2022-11/16/c_1670253725725039.htm
+20221114	Web安全	https://mp.weixin.qq.com/s/lVgcikWV-GH8lX295AGr0w	简单实用远控小工具Todesk	qq.com	mp.weixin.qq.com	/s/lVgcikWV-GH8lX295AGr0w
+20221114	Web安全	https://mp.weixin.qq.com/s/ygTeMU4Oh7SaTci2UtA70w	域渗透思维导图	qq.com	mp.weixin.qq.com	/s/ygTeMU4Oh7SaTci2UtA70w
+20221114	文档	https://gitee.com/linuxkerneltravel/ebpf-conference/tree/master	中国eBPF大会演讲slide	gitee.com	gitee.com	/linuxkerneltravel/ebpf-conference/tree/master
+20221114	编程技术	https://mp.weixin.qq.com/s/pQqSHw-Gou8Sd70hvZWl8g	如何成为优秀工程师之软技能篇	qq.com	mp.weixin.qq.com	/s/pQqSHw-Gou8Sd70hvZWl8g
+20221114	Web安全	https://sec-in.com/article/1632	JNDI注入工具改造	sec-in.com	sec-in.com	/article/1632
+20221114	数据挖掘	https://mp.weixin.qq.com/s/CxZAfsTzY4r1AQLcNP-JGg	网络空间测绘理论体系概述	qq.com	mp.weixin.qq.com	/s/CxZAfsTzY4r1AQLcNP-JGg
+20221114	运维安全	http://blog.nsfocus.net/wp-content/uploads/2022/11/SecXOps-whitepaper.pdf	SecXOps安全智能分析技术白皮书	nsfocus.net	blog.nsfocus.net	/wp-content/uploads/2022/11/SecXOps-whitepaper.pdf
+20221114	杂志	https://www.sec-wiki.com/weekly/454	SecWiki周刊（第454期)	sec-wiki.com	www.sec-wiki.com	/weekly/454
+20221114	取证分析	https://mp.weixin.qq.com/s/KgwMSpIfvmOqqn_pgdrGjQ	网络空间测绘视角下的乌克兰网络脆弱性分析	qq.com	mp.weixin.qq.com	/s/KgwMSpIfvmOqqn_pgdrGjQ
+20221114	漏洞分析	https://mp.weixin.qq.com/s/XVWFL8LvK9QLprnEG5YYSA	基于统计与变异分析的缺陷变量定位技术	qq.com	mp.weixin.qq.com	/s/XVWFL8LvK9QLprnEG5YYSA
+20221114	漏洞分析	https://mp.weixin.qq.com/s/fXopKsFW4mwkUK29AwsnSA	2022信息安全四大顶会Fuzz论文汇总	qq.com	mp.weixin.qq.com	/s/fXopKsFW4mwkUK29AwsnSA
+20221114	取证分析	https://mp.weixin.qq.com/s/dgCudvjhNBV3x75XX1OqEQ	战场智能指挥系统 DELTA 深度分析报告	qq.com	mp.weixin.qq.com	/s/dgCudvjhNBV3x75XX1OqEQ
+20221114	恶意分析	https://mp.weixin.qq.com/s/A_tNuBiBvMeavfhPndsRbg	Akamai 在新观察到的域名中每月可标记 1300 万恶意域名	qq.com	mp.weixin.qq.com	/s/A_tNuBiBvMeavfhPndsRbg
+20221114	Web安全	https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247486923&idx=1&sn=32a915045229c85f21da381f5eeb072f&chksm=e8a607a8dfd18ebe9b5248b1310003ce294c239224db8364a999caaa8ad7a898ea597d229e12&token=1618310243&lang=zh_CN#rd	漏洞赏金猎人系列-测试电商类相关功能步骤和Tips-I	qq.com	mp.weixin.qq.com	/s
+20221114	恶意分析	https://mp.weixin.qq.com/s/Nnag6DSf_wx2YrnTXEwNug	Brute Ratel C4 Badger分析实战与检测	qq.com	mp.weixin.qq.com	/s/Nnag6DSf_wx2YrnTXEwNug
+20221114	恶意分析	https://mp.weixin.qq.com/s/wtiZOHMDFOwP6fVokPBNLg	美国态势感知之CHARIOT物联网加密项目	qq.com	mp.weixin.qq.com	/s/wtiZOHMDFOwP6fVokPBNLg
