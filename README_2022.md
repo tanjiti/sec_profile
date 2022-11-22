@@ -481,7 +481,7 @@
 | 且听安全 | qtcyber | 【最新漏洞预警】CVE-2022-22733 ShardingSphere ElasticJob-UI从权限提升到H2 RCE | https://mp.weixin.qq.com/s?__biz=Mzg3MTU0MjkwNw==&mid=2247487481&idx=1&sn=5c6412fb2977785093a684ffe7f42849 | 17| 
 | Th0r安全 | gh_3ad192d9c87f | pyinstaller有key参数的第二种逆向方法 | https://mp.weixin.qq.com/s?__biz=Mzg3ODY3MzcwMQ==&mid=2247485030&idx=1&sn=3a0446c5ac13dbafef311e32f4383974 | 18| 
 | Linux中国 | linux-cn | 用 CrowdSec 保护你的 PHP 网站不受机器人攻击 , Linux 中国 | https://mp.weixin.qq.com/s?__biz=MjM5NjQ4MjYwMQ==&mid=2664647429&idx=2&sn=7552d7ab892724ce3362a4c822fc888a | 84| 
-| Beacon Tower Lab | WebRAY_BTL | 内网代理工具与检测方法研究 | https://mp.weixin.qq.com/s/N2HL89HAHv0OmLrB3AGHSQ | 2| 
+| Beacon Tower Lab | WebRAY_BTL | 内网代理工具与检测方法研究 | https://mp.weixin.qq.com/s/N2HL89HAHv0OmLrB3AGHSQ | 3| 
 | 青衣十三楼飞花堂 | gh_9feb5a276a2a | Win10主控台登录认证流程 | https://mp.weixin.qq.com/s?__biz=MzUzMjQyMDE3Ng==&mid=2247485254&idx=1&sn=4dae88d1a06d482de14fad9f1006b6a7 | 39| 
 | 暗魂攻防实验室 | anhunsec-red | 【社区精选】渗透攻击红队内网域渗透靶场2.0-writeup | https://mp.weixin.qq.com/s?__biz=MzkyMjE1NzQ2MA==&mid=2247485537&idx=1&sn=e3799090a8b5503da5b8ee0f8c5662fa | 4| 
 | leveryd | gh_8d7f6ed4daff | SnakeYaml 之不出网利用 | https://mp.weixin.qq.com/s?__biz=MzkyMDIxMjE5MA==&mid=2247484854&idx=1&sn=b6e1c8c3930249519dea8bc2a8448c61 | 3| 
@@ -546,7 +546,7 @@
 | 深信服千里目安全实验室 | Further_eye | 【Rootkit 系列研究】Windows平台的高隐匿、高持久化威胁 | https://mp.weixin.qq.com/s/YE7bt6Bhz2mYYp1n-2vJtQ | 10| 
 | 安全客 | anquanbobao | 【技术分享】网络空间测绘溯源技术剖析 | https://mp.weixin.qq.com/s/i-VzWFUB4bncDlKvrJk9xw | 51| 
 | 字节跳动终端技术 | ClientInfra | 基于跨站跳转和文本数据异构图的GCN模型实现恶意网站识别 | https://mp.weixin.qq.com/s/sQxa7YrNybZnP1w5iZeceA | 1| 
-| 威胁棱镜 | THREAT_PRISM | 在互联网交换中心检测反射放大 DDoS 攻击 | https://mp.weixin.qq.com/s/bH7SSb9-RW1H5VlUWog8cQ | 43| 
+| 威胁棱镜 | THREAT_PRISM | 在互联网交换中心检测反射放大 DDoS 攻击 | https://mp.weixin.qq.com/s/bH7SSb9-RW1H5VlUWog8cQ | 44| 
 | ChaMd5安全团队 | chamd5sec | 长安战疫-WriteUp | https://mp.weixin.qq.com/s/VMk7RPkvDioqMqEQdM5jFw | 12| 
 | 金融犯罪辩护与实务研究 | gh_5826b3a9c36f | 网络爬虫公司可能触犯哪些罪名 | https://mp.weixin.qq.com/s/AI5Pa37dS4q1XRCbbZXBsA | 1| 
 | 莫哥谈安全 | gh_247dfbdf3d43 | 浅谈数据安全运营能力建设 | https://mp.weixin.qq.com/s/SvMd8aCalyg5pL6Jri-4AA | 2| 
