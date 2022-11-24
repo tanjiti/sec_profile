@@ -215,7 +215,7 @@
 | 稻草人安全团队 | scarecrowsec | web刷题笔记（一） | https://mp.weixin.qq.com/s?__biz=Mzg2MzU2NDMzMA==&mid=2247486948&idx=1&sn=e493aee0bf74e76fa9c7055d44668fc0 | 3| 
 | 瓜神学习网络安全 | god_mellon | 等保2.0>Windows下实现MySQL数据库自动备份 | https://mp.weixin.qq.com/s?__biz=MzkwODE4ODUzMg==&mid=2247484482&idx=1&sn=41cceeb3a0bfe02f0a3d24be3aad8f96 | 6| 
 | 渗透师老A | hackAno | 安全驻场工程师的自我救赎之路 | https://mp.weixin.qq.com/s?__biz=Mzg5NzU1MzM5Mw==&mid=2247500893&idx=1&sn=026c10387583d06212dd1e0df2d1491d | 16| 
-| 明不可欺 | gh_1405d616adc7 | 106号码最新查询方法VS 00号段挖掘 | https://mp.weixin.qq.com/s?__biz=MzI1NTI4OTE5OA==&mid=2247485485&idx=1&sn=90bfe9ae2b1e68a3f7a978712e82efa6 | 2| 
+| 明不可欺 | gh_1405d616adc7 | 106号码最新查询方法VS 00号段挖掘 | https://mp.weixin.qq.com/s?__biz=MzI1NTI4OTE5OA==&mid=2247485485&idx=1&sn=90bfe9ae2b1e68a3f7a978712e82efa6 | 3| 
 | 无级安全 | wujisec | 年薪30万+，缺口高达95%，2022年网络安全火了？ | https://mp.weixin.qq.com/s?__biz=MzI0Nzc0NTcwOQ==&mid=2247485360&idx=1&sn=32e093e3c7cf9dd3ee6869c9db0feb84 | 1| 
 | 开源聚合网络空间安全研究院 | OSPtech_Cyberspace | 【绕过技巧】记一次艰难的SQL注入 | https://mp.weixin.qq.com/s?__biz=MzI4NTE4NDAyNA==&mid=2650391436&idx=1&sn=184a09c0d6221c644b622ab43a54bf79 | 1| 
 | 哆啦安全 | gh_060e91811143 | 使用Fluxion对WiFi进行钓鱼破解 | https://mp.weixin.qq.com/s?__biz=Mzg2NzUzNzk1Mw==&mid=2247490390&idx=1&sn=bf82cb2e3963334f54774c35e7e14193 | 30| 
