@@ -239,7 +239,7 @@
 | 暗影安全 | gh_4f0dabd0df69 | ISRC-2022虎年伊始，开年活动！ | https://mp.weixin.qq.com/s?__biz=MzI2MzA3OTgxOA==&mid=2657161932&idx=1&sn=6c1304b8d4f5857b0a939b7210940eef | 5| 
 | 三叶草小组Syclover | gh_962842f4917b | SYC博客推送（第四期） | https://mp.weixin.qq.com/s?__biz=MzIzOTg0NjYzNg==&mid=2247486134&idx=1&sn=b599020f95e75f026101014642b66559 | 1| 
 | thelostworld | gh_3f2e5b9f028c | 四、小程序｜App抓包(四)-Tcpdump抓取手机数据包分析 | https://mp.weixin.qq.com/s?__biz=MzIyNjk0ODYxMA==&mid=2247486299&idx=4&sn=3bad40f5af29618529c93b821d9969a8 | 5| 
-| Tide安全团队 | TideSec | 【红蓝对抗】记一次渗透过程中regeorg的利用 | https://mp.weixin.qq.com/s?__biz=Mzg2NTA4OTI5NA==&mid=2247493675&idx=1&sn=e8102e63582c8e4217335722eff753b3 | 13| 
+| Tide安全团队 | TideSec | 【红蓝对抗】记一次渗透过程中regeorg的利用 | https://mp.weixin.qq.com/s?__biz=Mzg2NTA4OTI5NA==&mid=2247493675&idx=1&sn=e8102e63582c8e4217335722eff753b3 | 14| 
 | Admin Team | Amin_Bug | 【看直播领福利】未知攻焉知防——基于攻击视角攻防演练分析！ | https://mp.weixin.qq.com/s?__biz=MzI5NTQ1MTI3MQ==&mid=2247485859&idx=1&sn=b5781094463cb44e68025cfc401c9dfa | 1| 
 | 赛博回忆录 | cybermemory | 404Paper精粹新一册发布，请转发给你的黑客朋友 | https://mp.weixin.qq.com/s?__biz=MzIxNDAyNjQwNg==&mid=2456098710&idx=1&sn=37fca860ba26728637002650983e56bd | 3| 
 | 薄说安全 | gh_956e8befd9f9 | 如何理解预期功能安全（一） | https://mp.weixin.qq.com/s?__biz=Mzg2NzU3MzkyMg==&mid=2247484139&idx=1&sn=7b13bb105facbbdeb498ee7dfe7a3acd | 3| 
@@ -556,7 +556,7 @@
 | 中国信息安全 | chinainfosec | 专题·回顾2021 , 2021年网络安全产业态势总结 | https://mp.weixin.qq.com/s/xMXRlTjzeS6a4hYRyH1wZg | 80| 
 | 丁爸 情报分析师的工具箱 | dingba2016 | 【论文】开源情报及其在下一代网络安全中的应用---文献综述 | https://mp.weixin.qq.com/s/ZjgTm8V6ucZ88zgSUy2sag | 37| 
 | FreeBuf | freebuf | APT新趋势：战略性休眠域名利用率提升，检测困难 | https://mp.weixin.qq.com/s/yoqfkKbvh8S0gQWX8xskZA | 118| 
-| DataFunTalk | datafuntalk | 赵学敏：京东商品图谱构建与实体对齐 | https://mp.weixin.qq.com/s/ct7FyMHPAyrVe_8mx8kPnw | 2| 
+| DataFunTalk | datafuntalk | 赵学敏：京东商品图谱构建与实体对齐 | https://mp.weixin.qq.com/s/ct7FyMHPAyrVe_8mx8kPnw | 3| 
 | DataCon大数据安全分析竞赛 | gh_a0316d342599 | DataCon2021域名体系安全赛道黑产方向赛题深度解析 | https://mp.weixin.qq.com/s/xIuXEt6DXoBoXqgzBIWcxQ | 1| 
 | 404 Not F0und | AI4Security | 好的工作想法从哪里来 | https://mp.weixin.qq.com/s/jajNXjNxfAvV-7SmLnVUAQ | 3| 
 
@@ -920,6 +920,7 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| BAS那点事儿 | https://xz.aliyun.com/t/11880| 
 | 最近碰到的 Python pickle 反序列化小总结 | https://xz.aliyun.com/t/11807| 
 | jpress代码审计分享 | https://xz.aliyun.com/t/11832| 
 | 浅析NodeJS | https://xz.aliyun.com/t/11791| 

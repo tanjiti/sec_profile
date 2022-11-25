@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| DataFunTalk | datafuntalk | 图视角下的信息抽取技术研究 | https://mp.weixin.qq.com/s/EnsnauMumycUFo_iSWoyXQ | 1| 
 | 明不可欺 | gh_1405d616adc7 | 元芳科普 , 如何拿到网站管理后台密码？ | https://mp.weixin.qq.com/s/Bl7Y8Ca_a7oZez8ryWQ3FQ | 1| 
 | 威胁棱镜 | THREAT_PRISM | 以朝鲜黑客为例看如何利用 VirusTotal 进行样本拓线 | https://mp.weixin.qq.com/s/0vyOdtWJh2PgtU3Fm2Bz9w | 2| 
 | Beacon Tower Lab | WebRAY_BTL | CodeQL的自动化代码审计之路（中篇） | https://mp.weixin.qq.com/s/5UmBkqCsBt64WY2JllIVSw | 1| 
@@ -25,7 +26,7 @@
 | 穿过丛林 | gh_f90eac70537b | IEEE TSE22：基于统计与变异分析的缺陷变量定位技术 | https://mp.weixin.qq.com/s/XVWFL8LvK9QLprnEG5YYSA | 1| 
 | 腾讯技术 | gh_6866e1848f15 | 如何成为优秀工程师之软技能篇 | https://mp.weixin.qq.com/s/pQqSHw-Gou8Sd70hvZWl8g | 1| 
 | 信安文摘 | share-for-life | 【日常分享】- IDEA-JetBrains全系列产品授权 | https://mp.weixin.qq.com/s?__biz=Mzg3OTEwMzIzNA==&mid=2247484344&idx=1&sn=1ab0a2aeff225cb6e42ac15742f4faa5&chksm=cf08dfd5f87f56c39ffb3b9a47fc6b2d6a94919ad2d5b246680764fc27dcdefadad2436d6c85&scene=178&cur_album_id=2311011542760505346#rd | 2| 
-| Tide安全团队 | TideSec | 简单实用远控小工具Todesk | https://mp.weixin.qq.com/s/lVgcikWV-GH8lX295AGr0w | 1| 
+| Tide安全团队 | TideSec | 简单实用远控小工具Todesk | https://mp.weixin.qq.com/s/lVgcikWV-GH8lX295AGr0w | 2| 
 | 天玄安全实验室 | TianXuan_SecurityLab | ​CVE-2021-44707 Adobe Reader越界写漏洞分析与利用 | https://mp.weixin.qq.com/s/elLI4YvJ0u9yYoyQpsv1og | 1| 
 | 天极智库 | gh_90d775fd9c26 | 【国际视野】欧洲安全局发布《2022年网络安全威胁全景》报告 | https://mp.weixin.qq.com/s/U-YwbRs7tDU93vwgpLywRw | 1| 
 | 摄星 | Vulinsight | 漏洞管理十大度量指标 | https://mp.weixin.qq.com/s/EExp6-IOTDd_WJwoWkj4Fw | 1| 
@@ -106,6 +107,7 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| BAS那点事儿 | https://xz.aliyun.com/t/11880| 
 | 最近碰到的 Python pickle 反序列化小总结 | https://xz.aliyun.com/t/11807| 
 | jpress代码审计分享 | https://xz.aliyun.com/t/11832| 
 | 浅析NodeJS | https://xz.aliyun.com/t/11791| 
