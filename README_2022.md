@@ -200,7 +200,7 @@
 | 赛博新经济 | gh_5c4abe1ee3a6 | 利用IP分片污染攻击TCP流量 | https://mp.weixin.qq.com/s/7gA74jWC1RES76p1XBO_Kw | 1| 
 | 谢公子学安全 | xie_sec | 春招准备冲刺深信服~ | https://mp.weixin.qq.com/s?__biz=MzI2NDQyNzg1OA==&mid=2247490179&idx=1&sn=fbaa9d6952e8a4a02eaeb9a67de48431 | 4| 
 | 蛇矛实验室 | gh_2c0238928f82 | 每周安全资讯 | https://mp.weixin.qq.com/s?__biz=MzkwMjI1NzY4Ng==&mid=2247501131&idx=1&sn=8bfe0c1cde565a170834dcc5dc6e6a48 | 1| 
-| 虎符智库 | TT_Thinktank | 深度：一文读懂我国数据安全政策动向与趋势 | https://mp.weixin.qq.com/s?__biz=MzIwNjYwMTMyNQ==&mid=2247487103&idx=1&sn=5a238ceee999767566c16984c3813188 | 7| 
+| 虎符智库 | TT_Thinktank | 深度：一文读懂我国数据安全政策动向与趋势 | https://mp.weixin.qq.com/s?__biz=MzIwNjYwMTMyNQ==&mid=2247487103&idx=1&sn=5a238ceee999767566c16984c3813188 | 8| 
 | 灰产圈 | huichanquan | 从“血奴”身上抽出来的血，去了哪里？ | https://mp.weixin.qq.com/s?__biz=MzIyMDYwMTk0Mw==&mid=2247529890&idx=1&sn=d14992d5536c7d32c114d35a1f879477 | 3| 
 | 清河六点下班 | gh_fd416b016aa6 | 中间商之 Ntlm Relay 攻击分析 | https://mp.weixin.qq.com/s/EhJVdRG71JTr9yZFajGKqg | 4| 
 | 汽车信息安全 | IcvSec | 青骥编译 l Upstream 2022全球汽车网络安全报告 第一章 标准、法规和网联汽车生态系统 | https://mp.weixin.qq.com/s?__biz=Mzg3MTI0NDQwNg==&mid=2247487265&idx=1&sn=ef14d20cd20a988a6dc65f7766c6f7e1 | 1| 
@@ -546,7 +546,7 @@
 | 深信服千里目安全实验室 | Further_eye | 【Rootkit 系列研究】Windows平台的高隐匿、高持久化威胁 | https://mp.weixin.qq.com/s/YE7bt6Bhz2mYYp1n-2vJtQ | 10| 
 | 安全客 | anquanbobao | 【技术分享】网络空间测绘溯源技术剖析 | https://mp.weixin.qq.com/s/i-VzWFUB4bncDlKvrJk9xw | 51| 
 | 字节跳动终端技术 | ClientInfra | 基于跨站跳转和文本数据异构图的GCN模型实现恶意网站识别 | https://mp.weixin.qq.com/s/sQxa7YrNybZnP1w5iZeceA | 1| 
-| 威胁棱镜 | THREAT_PRISM | 在互联网交换中心检测反射放大 DDoS 攻击 | https://mp.weixin.qq.com/s/bH7SSb9-RW1H5VlUWog8cQ | 44| 
+| 威胁棱镜 | THREAT_PRISM | 在互联网交换中心检测反射放大 DDoS 攻击 | https://mp.weixin.qq.com/s/bH7SSb9-RW1H5VlUWog8cQ | 45| 
 | ChaMd5安全团队 | chamd5sec | 长安战疫-WriteUp | https://mp.weixin.qq.com/s/VMk7RPkvDioqMqEQdM5jFw | 12| 
 | 金融犯罪辩护与实务研究 | gh_5826b3a9c36f | 网络爬虫公司可能触犯哪些罪名 | https://mp.weixin.qq.com/s/AI5Pa37dS4q1XRCbbZXBsA | 1| 
 | 莫哥谈安全 | gh_247dfbdf3d43 | 浅谈数据安全运营能力建设 | https://mp.weixin.qq.com/s/SvMd8aCalyg5pL6Jri-4AA | 2| 
@@ -920,6 +920,8 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| JAVA开发中涉及的基础安全问题和解决方法初探 | https://xz.aliyun.com/t/11890| 
+| CVE-2022-42920 BCEL 任意文件写漏洞 | https://xz.aliyun.com/t/11866| 
 | BAS那点事儿 | https://xz.aliyun.com/t/11880| 
 | 最近碰到的 Python pickle 反序列化小总结 | https://xz.aliyun.com/t/11807| 
 | jpress代码审计分享 | https://xz.aliyun.com/t/11832| 

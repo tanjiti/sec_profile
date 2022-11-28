@@ -1,0 +1,11 @@
+20221121	恶意分析	https://mp.weixin.qq.com/s/0vyOdtWJh2PgtU3Fm2Bz9w	以朝鲜黑客为例看如何利用 VirusTotal 进行样本拓线	qq.com	mp.weixin.qq.com	/s/0vyOdtWJh2PgtU3Fm2Bz9w
+20221121	Web安全	https://mp.weixin.qq.com/s/5UmBkqCsBt64WY2JllIVSw	CodeQL的自动化代码审计之路（中篇）	qq.com	mp.weixin.qq.com	/s/5UmBkqCsBt64WY2JllIVSw
+20221121	取证分析	https://mp.weixin.qq.com/s/Bl7Y8Ca_a7oZez8ryWQ3FQ	侦查取证中系统镜像的还原与分析	qq.com	mp.weixin.qq.com	/s/Bl7Y8Ca_a7oZez8ryWQ3FQ
+20221121	Web安全	https://xz.aliyun.com/t/11880	BAS那点事儿	aliyun.com	xz.aliyun.com	/t/11880
+20221121	Web安全	https://sec-in.com/article/1690	初探Java安全之JavaAgent	sec-in.com	sec-in.com	/article/1690
+20221121	数据挖掘	https://mp.weixin.qq.com/s/EnsnauMumycUFo_iSWoyXQ	图视角下的信息抽取技术研究	qq.com	mp.weixin.qq.com	/s/EnsnauMumycUFo_iSWoyXQ
+20221121	杂志	https://www.sec-wiki.com/weekly/455	SecWiki周刊（第455期)	sec-wiki.com	www.sec-wiki.com	/weekly/455
+20221121	漏洞分析	https://xz.aliyun.com/t/11866	CVE-2022-42920 BCEL 任意文件写漏洞	aliyun.com	xz.aliyun.com	/t/11866
+20221121	Web安全	https://xz.aliyun.com/t/11890	JAVA开发中涉及的基础安全问题和解决方法初探	aliyun.com	xz.aliyun.com	/t/11890
+20221121	移动安全	https://mp.weixin.qq.com/s/96f6wVomEjC9_kyzsoylQg	Android组件安全之drozer实战	qq.com	mp.weixin.qq.com	/s/96f6wVomEjC9_kyzsoylQg
+20221121	恶意分析	https://mp.weixin.qq.com/s/q_R76IME0FnX0fwgS7R8Bw	美国开源软件安全评价方法体系分析	qq.com	mp.weixin.qq.com	/s/q_R76IME0FnX0fwgS7R8Bw

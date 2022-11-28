@@ -14,13 +14,14 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 虎符智库 | TT_Thinktank | 研究：美国开源软件安全评价方法体系分析 | https://mp.weixin.qq.com/s/q_R76IME0FnX0fwgS7R8Bw | 1| 
 | DataFunTalk | datafuntalk | 图视角下的信息抽取技术研究 | https://mp.weixin.qq.com/s/EnsnauMumycUFo_iSWoyXQ | 1| 
 | 明不可欺 | gh_1405d616adc7 | 元芳科普 , 如何拿到网站管理后台密码？ | https://mp.weixin.qq.com/s/Bl7Y8Ca_a7oZez8ryWQ3FQ | 1| 
-| 威胁棱镜 | THREAT_PRISM | 以朝鲜黑客为例看如何利用 VirusTotal 进行样本拓线 | https://mp.weixin.qq.com/s/0vyOdtWJh2PgtU3Fm2Bz9w | 2| 
 | Beacon Tower Lab | WebRAY_BTL | CodeQL的自动化代码审计之路（中篇） | https://mp.weixin.qq.com/s/5UmBkqCsBt64WY2JllIVSw | 1| 
 | 三正科技公司 | sanzhengkeji | 美国态势感知之CHARIOT物联网加密项目 | https://mp.weixin.qq.com/s/wtiZOHMDFOwP6fVokPBNLg | 1| 
 | FuzzWiki | gh_fcf21e658324 | 2022信息安全四大顶会Fuzz论文汇总｜技术进展 | https://mp.weixin.qq.com/s/fXopKsFW4mwkUK29AwsnSA | 1| 
 | 安全分析与研究 | MalwareAnalysis | Brute Ratel C4 Badger分析实战与检测 | https://mp.weixin.qq.com/s/Nnag6DSf_wx2YrnTXEwNug | 1| 
+| 威胁棱镜 | THREAT_PRISM | Akamai 在新观察到的域名中每月可标记 1300 万恶意域名 | https://mp.weixin.qq.com/s/A_tNuBiBvMeavfhPndsRbg | 3| 
 | 奇安信威胁情报中心 | gh_166784eae33e | 网络空间测绘视角下的乌克兰网络脆弱性分析 | https://mp.weixin.qq.com/s/KgwMSpIfvmOqqn_pgdrGjQ | 1| 
 | 靖安科技 | jing-an-tech | 乌克兰战场智能指挥系统 DELTA 深度分析报告 | https://mp.weixin.qq.com/s/dgCudvjhNBV3x75XX1OqEQ | 1| 
 | 穿过丛林 | gh_f90eac70537b | IEEE TSE22：基于统计与变异分析的缺陷变量定位技术 | https://mp.weixin.qq.com/s/XVWFL8LvK9QLprnEG5YYSA | 1| 
@@ -107,6 +108,8 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| JAVA开发中涉及的基础安全问题和解决方法初探 | https://xz.aliyun.com/t/11890| 
+| CVE-2022-42920 BCEL 任意文件写漏洞 | https://xz.aliyun.com/t/11866| 
 | BAS那点事儿 | https://xz.aliyun.com/t/11880| 
 | 最近碰到的 Python pickle 反序列化小总结 | https://xz.aliyun.com/t/11807| 
 | jpress代码审计分享 | https://xz.aliyun.com/t/11832| 

@@ -524,7 +524,7 @@
 | 爱奇艺安全应急响应中心 | iqiyi_71src | 爱奇艺SOAR探索与实践 | https://mp.weixin.qq.com/s/ovJKGWusN2kgxQ_4GkQ8QA | 3| 
 | 开源情报研究所 | OSINTR | 【技巧】如何查找相关人的信息 | https://mp.weixin.qq.com/s/yeuMivJaizmAQAHL1poHTw | 4| 
 | 安全分析与研究 | MalwareAnalysis | 聊聊APT的溯源分析 | https://mp.weixin.qq.com/s/hSnOYoC71z_HIU4PVf4tmw | 8| 
-| 威胁棱镜 | THREAT_PRISM | 发现并提取 Cobalt Strike 的配置信息 | https://mp.weixin.qq.com/s/-jajjhu-6KVQvaZoh59Wuw | 85| 
+| 威胁棱镜 | THREAT_PRISM | 发现并提取 Cobalt Strike 的配置信息 | https://mp.weixin.qq.com/s/-jajjhu-6KVQvaZoh59Wuw | 86| 
 | 国网浙江信通公司 | gh_12020d981693 | 鲸蓝计划丨溯源反制基本思路与实战 | https://mp.weixin.qq.com/s/axNXFgyaD-5WSIkPwjkPrQ | 1| 
 | b1ngz的笔记本 | gh_70bda0a9ced0 | 自动化安全工具平台 - 架构笔记 | https://mp.weixin.qq.com/s/OMhS9yFlcpI9KOQduSxq9g | 1| 
 | 360技术 | qihoo_tech | 用DNS进行网络度量和安全分析 | https://mp.weixin.qq.com/s/L_wDNJtznQvrCyx1Kd1SlQ | 1| 
@@ -701,7 +701,7 @@
 | 知识工场 | fudankw | 肖仰华： 知识图谱下半场-机遇与挑战 | https://mp.weixin.qq.com/s/IW4rBc7Z9f2ByKjQR2MTjw | 11| 
 | 电科防务 | CETC-ETDR | 世界网络战领域2019年发展回顾与2020年展望 | https://mp.weixin.qq.com/s/Mx3H2Za7hI9ZZIaZedmXBQ | 2| 
 | Ms08067安全实验室 | Ms08067_com | 内网漫游之SOCKS代理大结局 | https://mp.weixin.qq.com/s/uKLjW-6Y39wAvLn7bENb7A | 48| 
-| 虎符智库 |  | 情报内生：高级威胁检测的必要条件 | https://mp.weixin.qq.com/s/U3XKIh0ffdzuCJihnJL7Lw | 19| 
+| 虎符智库 |  | 情报内生：高级威胁检测的必要条件 | https://mp.weixin.qq.com/s/U3XKIh0ffdzuCJihnJL7Lw | 20| 
 | 鱼塘领路人 | KingofSaltedFish | 威胁情报系列（一）：什么是威胁情报 | https://mp.weixin.qq.com/s/f9G818SGijdfS13KjLnFoA | 1| 
 | 平凡路上 |  | 科恩面试与实习感想 | https://mp.weixin.qq.com/s/GiIIUZbzq2IOp5-arkUCfg | 1| 
 | 腾讯安全应急响应中心 | tsrc_team | 物联网安全系列之远程破解Google Home | https://mp.weixin.qq.com/s/4kO3pU_tCDZmgj2CkROzMg | 35| 
@@ -5349,6 +5349,8 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| JAVA开发中涉及的基础安全问题和解决方法初探 | https://xz.aliyun.com/t/11890| 
+| CVE-2022-42920 BCEL 任意文件写漏洞 | https://xz.aliyun.com/t/11866| 
 | BAS那点事儿 | https://xz.aliyun.com/t/11880| 
 | 最近碰到的 Python pickle 反序列化小总结 | https://xz.aliyun.com/t/11807| 
 | jpress代码审计分享 | https://xz.aliyun.com/t/11832| 
