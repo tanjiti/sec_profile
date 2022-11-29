@@ -1,8 +1,8 @@
-Python	1142
+Python	1143
 C	716
-JavaScript	686
+JavaScript	687
 C++	589
-HTML	500
+HTML	501
 Java	492
 Shell	471
 Go	432
@@ -11,7 +11,7 @@ Ruby	263
 PowerShell	244
 CSS	225
 PHP	224
-TypeScript	183
+TypeScript	184
 Rust	156
 Objective-C	141
 Jupyter	119
@@ -22,8 +22,8 @@ Swift	68
 Makefile	61
 Lua	59
 Kotlin	55
+TeX	54
 Batchfile	53
-TeX	53
 Vue	48
 CMake	45
 Scala	42
@@ -73,13 +73,13 @@ Hack	5
 BitBake	5
 Tcl	5
 VHDL	5
+Solidity	5
 Common	5
 WebAssembly	4
 Vala	4
 OpenEdge	4
 QML	4
 Eagle	4
-Solidity	4
 KiCad	4
 Jinja	3
 Elm	3

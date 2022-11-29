@@ -14,13 +14,15 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 源影安全实验室 | MetaShadow | CobaltStrike4.5 分析总结 | https://mp.weixin.qq.com/s/K47FXTMEWfB_474aHAGU5g | 1| 
+| Gartner公司 | GartnerChina | Gartner发布2022年中国安全技术成熟度曲线 | https://mp.weixin.qq.com/s/7nxdi3UlEcJXMi53gJOzSw | 1| 
 | 三正科技公司 | sanzhengkeji | 美国态势感知之CHARIOT物联网加密项目 | https://mp.weixin.qq.com/s/wtiZOHMDFOwP6fVokPBNLg | 1| 
 | 腾讯技术 | gh_6866e1848f15 | 如何成为优秀工程师之软技能篇 | https://mp.weixin.qq.com/s/pQqSHw-Gou8Sd70hvZWl8g | 1| 
 | 信安文摘 | share-for-life | 【日常分享】- IDEA-JetBrains全系列产品授权 | https://mp.weixin.qq.com/s?__biz=Mzg3OTEwMzIzNA==&mid=2247484344&idx=1&sn=1ab0a2aeff225cb6e42ac15742f4faa5&chksm=cf08dfd5f87f56c39ffb3b9a47fc6b2d6a94919ad2d5b246680764fc27dcdefadad2436d6c85&scene=178&cur_album_id=2311011542760505346#rd | 2| 
 | 天极智库 | gh_90d775fd9c26 | 【国际视野】欧洲安全局发布《2022年网络安全威胁全景》报告 | https://mp.weixin.qq.com/s/U-YwbRs7tDU93vwgpLywRw | 1| 
 | 摄星 | Vulinsight | 漏洞管理十大度量指标 | https://mp.weixin.qq.com/s/EExp6-IOTDd_WJwoWkj4Fw | 1| 
 | 开源情报技术研究院 | gh_d1f65c3b3e5b | 如何跨平台追踪社交媒体用户 | https://mp.weixin.qq.com/s/91R2D4G__VH3kGu4HSBssQ | 1| 
-| NISL实验室 | NISL_THU2020 | 机器学习为何难以应用于真实的网络入侵检测系统？（上） | https://mp.weixin.qq.com/s/UGFtM1Toue9B4NMdCss-OA | 2| 
+| NISL实验室 | NISL_THU2020 | 机器学习为何难以应用于真实的网络入侵检测系统？（上） | https://mp.weixin.qq.com/s/UGFtM1Toue9B4NMdCss-OA | 3| 
 | 小侦探的书桌 | gh_249f9111a64c | 写在博士生涯的最后 | https://mp.weixin.qq.com/s/MAdWdQPBj_--gMZVjR0qOg | 1| 
 | 网络安全卓越验证示范中心 | CCCoE_CAICT | 一文看懂 , 美新版《国家安全战略》中的网络安全 | https://mp.weixin.qq.com/s/VZ0ofovRfJIUbxQuHvaLyQ | 1| 
 | 碳基体 | tanjiti_security | 那些年我研发的无用模块——攻击样本回放模块 | https://mp.weixin.qq.com/s/zNTAGbM_Tjv9dWcjlsWkqg | 1| 
@@ -158,7 +160,7 @@
 | 安全攻防团队 | gh_983c1037a3f6 | 一些隧道搭建 | https://mp.weixin.qq.com/s?__biz=MzkzNTI4NjU1Mw==&mid=2247483953&idx=1&sn=19ccc448f42ee3bf58d2d85872276308 | 1| 
 | 学安全在路上 | gh_c40eb977b2c4 | 内推 ,  来绿盟奋斗吧！ | https://mp.weixin.qq.com/s?__biz=MzI3MjI0NDEzMg==&mid=2247484356&idx=1&sn=e71fd06d6d4570da222731a5e5082bcd | 2| 
 | 代码审计 | white-hat-note | 分享下我 Github 被封的经历 | https://mp.weixin.qq.com/s?__biz=MzA4MDU0NzY4Ng==&mid=2459420055&idx=1&sn=0cdd8f383370934dd76004b25153f668 | 3| 
-| FuzzWiki | gh_fcf21e658324 | 浅谈模糊测试基础技术——变异策略及变异方法 | https://mp.weixin.qq.com/s?__biz=MzU1NTEzODc3MQ==&mid=2247484045&idx=1&sn=e28204fc4747efe7fb3ecf4bdf5f3a68 | 3| 
+| FuzzWiki | gh_fcf21e658324 | 浅谈模糊测试基础技术——变异策略及变异方法 | https://mp.weixin.qq.com/s?__biz=MzU1NTEzODc3MQ==&mid=2247484045&idx=1&sn=e28204fc4747efe7fb3ecf4bdf5f3a68 | 4| 
 | 蝰蛇安全实验室 | InfoSecLab | 信息收集——进阶版 | https://mp.weixin.qq.com/s?__biz=MzA3NzgyNjUwNA==&mid=2247488281&idx=1&sn=72d7419d3e960912188db1602576714e | 1| 
 | 红蓝游戏 | gh_653c97e6d0de | 2022年最热安全技术BAS详解 | https://mp.weixin.qq.com/s/Qxak0i3r3SWAA8-p3vu9Ow | 1| 
 | 猎户攻防实验室 | TassLiehu | 记一次简单计算验证码的识别过程 | https://mp.weixin.qq.com/s?__biz=MzI1NDg4MTIxMw==&mid=2247486047&idx=1&sn=fbbdcea5957b3d7dd531f7c94a90d522 | 1| 
@@ -582,6 +584,7 @@
 | wkz | kmemd - 利用 GDB 调试器查看 Linux 内核的运行时内存 | https://github.com/wkz/kmemd | https://github.com/wkz?tab=followers |  | Sweden | None | 37 | 0 | 54 | 0 | 0 | C,Shell | 0 | 0 | 1| 
 | winsiderss | System Informer - 一款开源的 Windows 资源监控和软件调试工具 | https://github.com/winsiderss/systeminformer | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 0 | 0 | 1| 
 | wavestone-cdt | EDR 检测机制以及用 EDRSandblast 工具逃逸 EDR 的检测 | https://github.com/wavestone-cdt/EDRSandblast/tree/DefCon30Release | https://github.com/wavestone-cdt?tab=followers | Projects from the auditors and consultants from Wavestones Cybersecurity & Digital Trust practice | None | Wavestone | 14 | 0 | 0 | 0 | 0 | Python,C | 0 | 0 | 1| 
+| viaMover | Sherlock对Mover的合约审计报告，包含一个高危和一个中危漏洞。 | https://github.com/viaMover/contract-audit-reports/blob/main/Mover_Final_Report.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Python,JavaScript,Solidity,TeX,HTML | 0 | 0 | 1| 
 | twosmi1e | 静态分析及代码审计自动化相关资料收集 | https://github.com/twosmi1e/Static-Analysis-and-Automated-Code-Audit | https://github.com/twosmi1e?tab=followers |  | None | None | 38 | 0 | 309 | 0 | 0 | JavaScript,Java,HTML | 0 | 0 | 1| 
 | trailofbits | Manticore - trailofbits 开源的符号执行工具，用于分析智能合约和二进制文件 | https://github.com/trailofbits/manticore | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Java,Jinja,Python,C++,Go,Ruby,Rust | 0 | 0 | 4| 
 | tr3ee | Linux eBPF CVE-2022-23222 提权漏洞 Exploit | https://github.com/tr3ee/CVE-2022-23222 | http://tr3e.ee | tr3eee , Member of ROIS/SCSL , Security Researcher | None | None | 28 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
@@ -746,6 +749,7 @@
 | airbus-seclab | AutoResolv - 用于解析导入函数详细信息的 IDA Pro 插件 | https://github.com/airbus-seclab/AutoResolv | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,Ruby,OCaml,C++ | 0 | 0 | 1| 
 | agrawalsmart7 | SCodeScanner - 在源码中扫描漏洞的工具，目前支持 PHP 语言 | https://github.com/agrawalsmart7/scodescanner | https://github.com/agrawalsmart7?tab=followers |  | None | None | 25 | 0 | 57 | 0 | 0 | Python,PHP | 0 | 0 | 1| 
 | achuna33 | MYExploit: OAExploit一款基于产品的一键扫描工具。 | https://github.com/achuna33/MYExploit | https://github.com/achuna33?tab=followers |  | None | None | 13 | 1 | 35 | 0 | 0 | Python,Java | 0 | 0 | 1| 
+| abusech | ThreatFox：开源威胁情报共享平台 | https://github.com/abusech/ThreatFox | https://github.com/abusech?tab=followers | Fighting malware and botnets | Zurich | abuse.ch | 4 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | aaaddress1 | 不依赖 DLL 注入的 UAC Bypass，支持 Windows 11 | https://github.com/aaaddress1/PR0CESS/tree/main/UACBypassJF_RpcALPC | https://github.com/aaaddress1?tab=followers | 30cm.tw/me | Taiwan | TXOne Networks, inc. | 197 | 0 | 541 | 0 | 0 | C#,C,C++ | 0 | 0 | 1| 
 | Yavuzlar | VulnLab: Web Application Vulnerabilities Lab | https://github.com/Yavuzlar/VulnLab | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,CSS | 0 | 0 | 1| 
 | Yamato-Security | Hayabusa - 基于 Windows Event Log 的快速取证 Timeline 分析工具 | https://github.com/Yamato-Security/hayabusa | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Makefile,PowerShell,Rust | 0 | 0 | 1| 
