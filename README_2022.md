@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 219攻防实验室 | gh_4576a36fa848 | Windows Defender内存扫描功能分析 | https://mp.weixin.qq.com/s/C6CePu9albvGTj3_9aUxeg | 2| 
 | 源影安全实验室 | MetaShadow | CobaltStrike4.5 分析总结 | https://mp.weixin.qq.com/s/K47FXTMEWfB_474aHAGU5g | 1| 
 | Gartner公司 | GartnerChina | Gartner发布2022年中国安全技术成熟度曲线 | https://mp.weixin.qq.com/s/7nxdi3UlEcJXMi53gJOzSw | 1| 
 | 三正科技公司 | sanzhengkeji | 美国态势感知之CHARIOT物联网加密项目 | https://mp.weixin.qq.com/s/wtiZOHMDFOwP6fVokPBNLg | 1| 
@@ -206,7 +207,7 @@
 | 灰产圈 | huichanquan | 从“血奴”身上抽出来的血，去了哪里？ | https://mp.weixin.qq.com/s?__biz=MzIyMDYwMTk0Mw==&mid=2247529890&idx=1&sn=d14992d5536c7d32c114d35a1f879477 | 3| 
 | 清河六点下班 | gh_fd416b016aa6 | 中间商之 Ntlm Relay 攻击分析 | https://mp.weixin.qq.com/s/EhJVdRG71JTr9yZFajGKqg | 4| 
 | 汽车信息安全 | IcvSec | 青骥编译 l Upstream 2022全球汽车网络安全报告 第一章 标准、法规和网联汽车生态系统 | https://mp.weixin.qq.com/s?__biz=Mzg3MTI0NDQwNg==&mid=2247487265&idx=1&sn=ef14d20cd20a988a6dc65f7766c6f7e1 | 1| 
-| 梦之光芒的电子梦 | monyer_mp | “红蓝对抗演练评分系统”开源框架 (preview) | https://mp.weixin.qq.com/s?__biz=MzUyODQ0MTE2MQ==&mid=2247483692&idx=1&sn=5f79ea530a544877a7a4686193eda3bc | 4| 
+| 梦之光芒的电子梦 | monyer_mp | “红蓝对抗演练评分系统”开源框架 (preview) | https://mp.weixin.qq.com/s?__biz=MzUyODQ0MTE2MQ==&mid=2247483692&idx=1&sn=5f79ea530a544877a7a4686193eda3bc | 5| 
 | 极客公园 | geekpark | 大众拟出资数十亿欧元，收购华为自动驾驶部门；小红书启动最严医美治理；浙江：大学生创业失败，10 万以下贷款政府代偿｜极客早知道 | https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2652944338&idx=1&sn=c7b4e898af7aa75347fb590f1a168b98 | 1| 
 | 斗象智能安全 | Riskivy | 流量安全「遥测Telemetry」技术应用初探 | https://mp.weixin.qq.com/s?__biz=MzIwMjcyNzA5Mw==&mid=2247488516&idx=1&sn=436492920d3d1a3a4ae5656ef0a6d994 | 2| 
 | 微言晓意 | WeYanXY | 信息安全管理系列文章分类汇总（建议收藏） | https://mp.weixin.qq.com/s?__biz=MzI5MTEyMDUzMw==&mid=2650046322&idx=1&sn=90027907178e6d6e9a02861186738974 | 6| 
@@ -768,6 +769,7 @@
 | SnaffCon | Snaffler - 渗透测试项目中帮助探测 Windows/AD 环境的工具 | https://github.com/SnaffCon/Snaffler | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C#,Go,HTML | 0 | 0 | 1| 
 | SinaKarvandi | 从头构建一个 Hypervisor | https://github.com/SinaKarvandi/Hypervisor-From-Scratch | https://github.com/HyperDbg | Windows⁦ Internals Enthusiast. Interested in low-level programming. I work on @HyperDbg debugger. | None | None | 14 | 0 | 20 | 0 | 0 | C#,C,JavaScript,C++ | 0 | 0 | 1| 
 | SigmaHQ | Sigma - 用于 SIEM 系统通用地描述事件日志的开放格式 | https://github.com/SigmaHQ/sigma | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
+| Sentinel-One | peafl64: Windows 64位PE文件静态插桩工具 | https://github.com/Sentinel-One/peafl64 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,Smarty,C#,C++,Go | 0 | 0 | 1| 
 | SecIdiot | 利用 NtUserHardErrorControl 实现 Windows 内核任意地址读写 | https://github.com/SecIdiot/ANGRYORCHARD | https://github.com/SecIdiot?tab=followers | Programmer. Focusing primarily in C, Assembly. I am @realoriginal / Mumbai | Florida | None | 7 | 0 | 148 | 0 | 0 | Python,C | 0 | 0 | 1| 
 | SEVulDet | SEVulDet：基于语义增强的系统漏洞挖掘器 | https://github.com/SEVulDet/SEVulDet | None |  | None | None | 1 | 0 | 0 | 0 | 0 | CSS | 0 | 0 | 1| 
 | Ryze-T | 基于向日葵 RCE 的 LPE 漏洞 PoC | https://github.com/Ryze-T/CNVD-2022-10270-LPE | https://github.com/Ryze-T?tab=followers | wx: Just_sudo_it | None | None | 19 | 0 | 48 | 0 | 0 | C#,Go,C | 0 | 0 | 1| 
@@ -848,6 +850,8 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Havoc C2 绕过 Defender For Endpoint 横向移动实战 | https://assume-breach.medium.com/home-grown-red-team-lateral-movement-with-havoc-c2-and-microsoft-edr-300b7389b1f7?source=social.tw| 
+| 动态分析Windows漏洞缓解技术之导入地址过滤 | https://wambui-ngige.medium.com/dynamic-analysis-of-windows-exploit-mitigations-import-address-filtering-16fc28029529| 
 | 利用 Ptrace 的调试能力实现跨进程任意 syscall 调用 | https://medium.com/@0xFounders/using-rust-and-ptrace-to-invoke-syscalls-262dc585fcd3| 
 | ManageEngine ADAudit Plus 任意文件写漏洞的分析和利用（CVE-2021–42847） | https://medium.com/@erik.wynter/pwning-manageengine-from-endpoint-to-exploit-bc5793836fd| 
 | pGALA 关于被攻击事件的声明 | http://medium.com/pnetwork/pgala-post-mortem-measures-taken-to-safeguard-the-ecosystem-from-malicious-actors-and-recovery-6407048f4497| 

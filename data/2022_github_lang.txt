@@ -1,14 +1,14 @@
-Python	139
-C	87
-C++	72
+Python	140
+C	88
+C++	73
 JavaScript	68
-Go	67
-Java	56
+Go	68
+Java	57
 HTML	48
 Rust	40
 Shell	40
-C#	38
-TypeScript	34
+C#	39
+TypeScript	35
 PowerShell	24
 Jupyter	18
 Ruby	16
@@ -42,6 +42,7 @@ Groovy	2
 F#	2
 TeX	2
 Roff	2
+Smarty	2
 Vim	2
 Batchfile	2
 OCaml	2
@@ -68,4 +69,3 @@ Mustache	1
 FreeMarker	1
 Sage	1
 Handlebars	1
-Smarty	1

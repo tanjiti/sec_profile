@@ -14,6 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 梦之光芒的电子梦 | monyer_mp | DSRE-数据安全风险枚举知识框架 | https://mp.weixin.qq.com/s/kWzh-bQHrcBu7wpmlkSNpw | 1| 
+| 219攻防实验室 | gh_4576a36fa848 | Windows Defender内存扫描功能分析 | https://mp.weixin.qq.com/s/C6CePu9albvGTj3_9aUxeg | 2| 
 | 源影安全实验室 | MetaShadow | CobaltStrike4.5 分析总结 | https://mp.weixin.qq.com/s/K47FXTMEWfB_474aHAGU5g | 1| 
 | Gartner公司 | GartnerChina | Gartner发布2022年中国安全技术成熟度曲线 | https://mp.weixin.qq.com/s/7nxdi3UlEcJXMi53gJOzSw | 1| 
 | 虎符智库 | TT_Thinktank | 研究：美国开源软件安全评价方法体系分析 | https://mp.weixin.qq.com/s/q_R76IME0FnX0fwgS7R8Bw | 1| 
@@ -73,6 +75,7 @@
 | abusech | ThreatFox：开源威胁情报共享平台 | https://github.com/abusech/ThreatFox | https://github.com/abusech?tab=followers | Fighting malware and botnets | Zurich | abuse.ch | 4 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | SpyGuard | SpyGuard - 增强版的 TinyCheck，通过网络流量检测主机是否已经被攻陷 | https://github.com/SpyGuard/SpyGuard | https://github.com/SpyGuard?tab=followers |  | None | None | 1 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | SnaffCon | Snaffler - 渗透测试项目中帮助探测 Windows/AD 环境的工具 | https://github.com/SnaffCon/Snaffler | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C#,Go,HTML | 0 | 0 | 1| 
+| Sentinel-One | peafl64: Windows 64位PE文件静态插桩工具 | https://github.com/Sentinel-One/peafl64 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,Smarty,C#,C++,Go | 0 | 0 | 1| 
 | NationalSecurityAgency | NSA 发布 Ghidra 10.2 版本，Debugger、Decompiler 等组件均有更新 | https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_10.2_build | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Groovy,C,HTML,Java,JavaScript | 0 | 0 | 1| 
 | KULeuven-COSIC | 从硬件角度研究 SpaceX Starlink 终端的安全性，利用电压错误注入的技术实现任意代码执行 | https://github.com/KULeuven-COSIC/Starlink-FI | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Jupyter,Sage,C++,HTML,Verilog,Assembly,MATLAB | 0 | 0 | 1| 
 | 0xADE1A1DE | 以其他已连接 USB 设备的身份注入击键指令，来自 USENIX 会议的 Paper：The Impostor Among US(B): Off-Path Injection Attacks on USB Communications | https://github.com/0xADE1A1DE/USB-Injection | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Assembly,VHDL,C++ | 0 | 0 | 1| 
@@ -81,6 +84,8 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| Havoc C2 绕过 Defender For Endpoint 横向移动实战 | https://assume-breach.medium.com/home-grown-red-team-lateral-movement-with-havoc-c2-and-microsoft-edr-300b7389b1f7?source=social.tw| 
+| 动态分析Windows漏洞缓解技术之导入地址过滤 | https://wambui-ngige.medium.com/dynamic-analysis-of-windows-exploit-mitigations-import-address-filtering-16fc28029529| 
 | 利用 Ptrace 的调试能力实现跨进程任意 syscall 调用 | https://medium.com/@0xFounders/using-rust-and-ptrace-to-invoke-syscalls-262dc585fcd3| 
 | ManageEngine ADAudit Plus 任意文件写漏洞的分析和利用（CVE-2021–42847） | https://medium.com/@erik.wynter/pwning-manageengine-from-endpoint-to-exploit-bc5793836fd| 
 | pGALA 关于被攻击事件的声明 | http://medium.com/pnetwork/pgala-post-mortem-measures-taken-to-safeguard-the-ecosystem-from-malicious-actors-and-recovery-6407048f4497| 
