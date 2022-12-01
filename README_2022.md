@@ -619,6 +619,7 @@
 | rootsecdev | Azure 云环境安全测试相关的资料 | https://github.com/rootsecdev/Azure-Red-Team | https://github.com/rootsecdev?tab=followers |  | None | None | 40 | 0 | 2 | 0 | 0 | PowerShell | 0 | 0 | 1| 
 | revng | revng - 将 ELF 二进制文件翻译成 LLVM IR 的工具 | https://github.com/revng/revng | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,CMake,Python,C++,Shell | 0 | 0 | 1| 
 | retrage | Ghidra analyzer for UEFI firmware | https://github.com/retrage/efiSeek/tree/efi-xplorer | https://github.com/retrage?tab=followers | UEFI firmware enthusiast | Tokyo, Japan | None | 40 | 0 | 2 | 0 | 0 | Java,C,HTML,Dockerfile | 0 | 0 | 1| 
+| reecdeep | HiveV5勒索软件文件解密Poc和算法分析 | https://github.com/reecdeep/HiveV5_file_decryptor | https://github.com/reecdeep?tab=followers | Malware analyst, reverse engineer | Stack | None | 2 | 0 | 0 | 0 | 0 | C++ | 0 | 0 | 1| 
 | redcanaryco | 渗透测试中的 Account 修改方法（Windows/域账户/AWS/Auzre） | https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1098/T1098.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Jupyter,Python,JavaScript,Ruby,PowerShell,Rust | 0 | 0 | 1| 
 | quarkslab | When eBPF meets TLS，来自 CanSecWest 会议 | https://github.com/quarkslab/conf-presentations/blob/master/CanSecWest-2022/When%20eBPF%20meets%20TLS.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Python,JavaScript,C++,Shell,Go | 0 | 0 | 3| 
 | punk-security | dnsReaper - 基于多个不同的云 DNS 服务收集子域名信息 | https://github.com/punk-security/dnsReaper | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C#,HTML,JavaScript | 0 | 0 | 1| 

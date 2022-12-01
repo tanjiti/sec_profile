@@ -4060,6 +4060,7 @@
 | returntocorp | semgrep:Find bug variants with patterns that look like sou... | https://github.com/returntocorp/semgrep | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,OCaml,Go,Ruby | 0 | 0 | 1| 
 | retrage | Ghidra analyzer for UEFI firmware | https://github.com/retrage/efiSeek/tree/efi-xplorer | https://github.com/retrage?tab=followers | UEFI firmware enthusiast | Tokyo, Japan | None | 40 | 0 | 2 | 0 | 0 | Java,C,HTML,Dockerfile | 0 | 0 | 1| 
 | retme7 | Huawei mate 7 TrustZone exploit | https://github.com/retme7/mate7_TZ_exploit | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| reecdeep | HiveV5勒索软件文件解密Poc和算法分析 | https://github.com/reecdeep/HiveV5_file_decryptor | https://github.com/reecdeep?tab=followers | Malware analyst, reverse engineer | Stack | None | 2 | 0 | 0 | 0 | 0 | C++ | 0 | 0 | 1| 
 | rednaga | Offensive & Defensive Android Reverse Engineering | https://github.com/rednaga/training/tree/master/DEFCON23 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | redcanaryco | 渗透测试中的 Account 修改方法（Windows/域账户/AWS/Auzre） | https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1098/T1098.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Jupyter,Python,JavaScript,Ruby,PowerShell,Rust | 0 | 0 | 1| 
 | recodeking | recodeking/MalwareAnalysis: 恶意软件分析工具和资源列表 | https://github.com/recodeking/MalwareAnalysis | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
