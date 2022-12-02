@@ -435,7 +435,7 @@
 | 数据库开发 | DataBase1024 | 使用MySQL，请用好 JSON 这张牌！ | https://mp.weixin.qq.com/s?__biz=MzI3NDA4OTk1OQ==&mid=2649916873&idx=1&sn=3b383fe075034ef973e6553d747da595 | 19| 
 | 数世咨询 | dwconcn | [调研]Bugcrowd：2021年高危漏洞数量大幅增长 | https://mp.weixin.qq.com/s?__biz=MzkxNzA3MTgyNg==&mid=2247491917&idx=1&sn=05b51fa452f87d23b071d2145e13f7ae | 19| 
 | 我是安服 | scaf_0123 | 安服笔记：初探Java反序列化漏洞 | https://mp.weixin.qq.com/s?__biz=MzkzMzI3OTczNA==&mid=2247484563&idx=1&sn=80582cfb1a8ceddf910e2cd58d66cb43 | 2| 
-| 慢雾科技 | SlowMist | 慢雾科技四周年，做区块链黑暗森林的那束光 | https://mp.weixin.qq.com/s?__biz=MzU4ODQ3NTM2OA==&mid=2247494639&idx=1&sn=b7fb802d0e25c97462b8d8560ac1b74a | 9| 
+| 慢雾科技 | SlowMist | 慢雾科技四周年，做区块链黑暗森林的那束光 | https://mp.weixin.qq.com/s?__biz=MzU4ODQ3NTM2OA==&mid=2247494639&idx=1&sn=b7fb802d0e25c97462b8d8560ac1b74a | 10| 
 | 情报分析师 | qingbaofenxishi | 【案例分析】缅甸叛乱分子利用简易无人机来提高其机动力 | https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650486871&idx=1&sn=3f12f3d17f313a337fea28b98c8f82c8 | 79| 
 | 微步在线 | Threatbook | 企业常见四种内部威胁，第一种最容易中招 , 微步一周荐读 | https://mp.weixin.qq.com/s?__biz=MzI5NjA0NjI5MQ==&mid=2650171190&idx=1&sn=90358fb4013e10f5499d24d0accb8f6e | 9| 
 | 弥天安全实验室 | gh_41292c8e5379 | CVE-2021-4034 Linux Polkit 权限提升漏洞复现 | https://mp.weixin.qq.com/s?__biz=MzU2NDgzOTQzNw==&mid=2247488175&idx=1&sn=204aed4c76ecf40e26c04f42f2f64c5e | 15| 
@@ -549,7 +549,7 @@
 | 深信服千里目安全实验室 | Further_eye | 【Rootkit 系列研究】Windows平台的高隐匿、高持久化威胁 | https://mp.weixin.qq.com/s/YE7bt6Bhz2mYYp1n-2vJtQ | 10| 
 | 安全客 | anquanbobao | 【技术分享】网络空间测绘溯源技术剖析 | https://mp.weixin.qq.com/s/i-VzWFUB4bncDlKvrJk9xw | 51| 
 | 字节跳动终端技术 | ClientInfra | 基于跨站跳转和文本数据异构图的GCN模型实现恶意网站识别 | https://mp.weixin.qq.com/s/sQxa7YrNybZnP1w5iZeceA | 1| 
-| 威胁棱镜 | THREAT_PRISM | 在互联网交换中心检测反射放大 DDoS 攻击 | https://mp.weixin.qq.com/s/bH7SSb9-RW1H5VlUWog8cQ | 45| 
+| 威胁棱镜 | THREAT_PRISM | 在互联网交换中心检测反射放大 DDoS 攻击 | https://mp.weixin.qq.com/s/bH7SSb9-RW1H5VlUWog8cQ | 46| 
 | ChaMd5安全团队 | chamd5sec | 长安战疫-WriteUp | https://mp.weixin.qq.com/s/VMk7RPkvDioqMqEQdM5jFw | 12| 
 | 金融犯罪辩护与实务研究 | gh_5826b3a9c36f | 网络爬虫公司可能触犯哪些罪名 | https://mp.weixin.qq.com/s/AI5Pa37dS4q1XRCbbZXBsA | 1| 
 | 莫哥谈安全 | gh_247dfbdf3d43 | 浅谈数据安全运营能力建设 | https://mp.weixin.qq.com/s/SvMd8aCalyg5pL6Jri-4AA | 2| 
