@@ -617,7 +617,7 @@
 | rust-fuzz | honggfuzz-rs - 利用 Honggfuzz Fuzz Rust 代码 | https://github.com/rust-fuzz/honggfuzz-rs | None | None | None | None | 0 | 0 | 0 | 0 | 0 | HTML,Shell,C++,Rust | 0 | 0 | 1| 
 | rosehgal | Linux 二进制开发学习资料. | https://github.com/rosehgal/BinExp | https://github.com/rosehgal?tab=followers | Working !! | India | Gojek | 55 | 0 | 163 | 0 | 0 | Python,Dockerfile,C,Shell,Java | 0 | 0 | 1| 
 | rootsecdev | Azure 云环境安全测试相关的资料 | https://github.com/rootsecdev/Azure-Red-Team | https://github.com/rootsecdev?tab=followers |  | None | None | 40 | 0 | 2 | 0 | 0 | PowerShell | 0 | 0 | 1| 
-| root-tanishq | 一个专门fuzz User-Agent ， X-Forwarded-For， Referer的 SQLI Fuzzer | https://github.com/root-tanishq/userefuzz | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| root-tanishq | 一个专门fuzz User-Agent ， X-Forwarded-For， Referer的 SQLI Fuzzer | https://github.com/root-tanishq/userefuzz | https://github.com/root-tanishq?tab=followers | kuns Notebook OSCP , eWPTXv2 | None | None | 16 | 0 | 25 | 0 | 0 | Python,Shell | 0 | 0 | 1| 
 | revng | revng - 将 ELF 二进制文件翻译成 LLVM IR 的工具 | https://github.com/revng/revng | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,CMake,Python,C++,Shell | 0 | 0 | 1| 
 | retrage | Ghidra analyzer for UEFI firmware | https://github.com/retrage/efiSeek/tree/efi-xplorer | https://github.com/retrage?tab=followers | UEFI firmware enthusiast | Tokyo, Japan | None | 40 | 0 | 2 | 0 | 0 | Java,C,HTML,Dockerfile | 0 | 0 | 1| 
 | reecdeep | HiveV5勒索软件文件解密Poc和算法分析 | https://github.com/reecdeep/HiveV5_file_decryptor | https://github.com/reecdeep?tab=followers | Malware analyst, reverse engineer | Stack | None | 2 | 0 | 0 | 0 | 0 | C++ | 0 | 0 | 1| 
@@ -931,6 +931,7 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| GadgetInspector改造中反序列化三个source点的原理分析 | https://xz.aliyun.com/t/11915| 
 | 企业级钓鱼演练平台搭建 | https://xz.aliyun.com/t/11898| 
 | JAVA开发中涉及的基础安全问题和解决方法初探 | https://xz.aliyun.com/t/11890| 
 | CVE-2022-42920 BCEL 任意文件写漏洞 | https://xz.aliyun.com/t/11866| 

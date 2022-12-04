@@ -4049,7 +4049,7 @@
 | rust-fuzz | honggfuzz-rs - 利用 Honggfuzz Fuzz Rust 代码 | https://github.com/rust-fuzz/honggfuzz-rs | None | None | None | None | 0 | 0 | 0 | 0 | 0 | HTML,Shell,C++,Rust | 0 | 0 | 1| 
 | rtcatc | 一款针对Webpack等前端打包工具所构造的网站进行快速、高效安全检测的扫描工具 | https://github.com/rtcatc/Packer-Fuzzer | https://www.hackinn.com | 嗷呜 NJI12*3*%*2*M*R%* ç(-é$ùé&ù$$$éùù =$m$=$ | None | None | 16 | 0 | 0 | 0 | 0 | Python | 535 | 60 | 1| 
 | rosehgal | Linux 二进制开发学习资料. | https://github.com/rosehgal/BinExp | https://github.com/rosehgal?tab=followers | Working !! | India | Gojek | 55 | 0 | 163 | 0 | 0 | Python,Dockerfile,C,Shell,Java | 0 | 0 | 1| 
-| root-tanishq | 一个专门fuzz User-Agent ， X-Forwarded-For， Referer的 SQLI Fuzzer | https://github.com/root-tanishq/userefuzz | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| root-tanishq | 一个专门fuzz User-Agent ， X-Forwarded-For， Referer的 SQLI Fuzzer | https://github.com/root-tanishq/userefuzz | https://github.com/root-tanishq?tab=followers | kuns Notebook OSCP , eWPTXv2 | None | None | 16 | 0 | 25 | 0 | 0 | Python,Shell | 0 | 0 | 1| 
 | robotattackorg | robot-detect - ROBOT 漏洞检测脚本 : | https://github.com/robotattackorg/robot-detect | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | riskscanner | RiskScanner: 是开源的公有云安全合规扫描平台 | https://github.com/riskscanner/riskscanner | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Java,Shell,JavaScript | 0 | 0 | 1| 
 | riskawarrior | 渗透测试书签 | https://github.com/riskawarrior/pentest-bookmarks#forums | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -5359,6 +5359,7 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| GadgetInspector改造中反序列化三个source点的原理分析 | https://xz.aliyun.com/t/11915| 
 | 企业级钓鱼演练平台搭建 | https://xz.aliyun.com/t/11898| 
 | JAVA开发中涉及的基础安全问题和解决方法初探 | https://xz.aliyun.com/t/11890| 
 | CVE-2022-42920 BCEL 任意文件写漏洞 | https://xz.aliyun.com/t/11866| 

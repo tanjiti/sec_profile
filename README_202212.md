@@ -29,7 +29,7 @@
 # 私人github账号 推荐
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
-| root-tanishq | 一个专门fuzz User-Agent ， X-Forwarded-For， Referer的 SQLI Fuzzer | https://github.com/root-tanishq/userefuzz | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| root-tanishq | 一个专门fuzz User-Agent ， X-Forwarded-For， Referer的 SQLI Fuzzer | https://github.com/root-tanishq/userefuzz | https://github.com/root-tanishq?tab=followers | kuns Notebook OSCP , eWPTXv2 | None | None | 16 | 0 | 25 | 0 | 0 | Python,Shell | 0 | 0 | 1| 
 | reecdeep | HiveV5勒索软件文件解密Poc和算法分析 | https://github.com/reecdeep/HiveV5_file_decryptor | https://github.com/reecdeep?tab=followers | Malware analyst, reverse engineer | Stack | None | 2 | 0 | 0 | 0 | 0 | C++ | 0 | 0 | 1| 
 | google | VSCode远程代码执行漏洞（CVE-2022-41034）细节，存在于ipynb文件加载流程中，用户点击恶意链接即可能受到攻击。 | https://github.com/google/security-research/security/advisories/GHSA-pw56-c55x-cm9m | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Java,Python,JavaScript,C++,Shell,HTML,Go | 0 | 0 | 1| 
 
@@ -63,6 +63,7 @@
 # xz_secwiki 推荐
 | title | url| 
 | --- | ---| 
+| GadgetInspector改造中反序列化三个source点的原理分析 | https://xz.aliyun.com/t/11915| 
 | 企业级钓鱼演练平台搭建 | https://xz.aliyun.com/t/11898| 
 
 
