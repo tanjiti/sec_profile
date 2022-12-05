@@ -760,7 +760,7 @@
 | jaxsec |  | Linux For Pentester: socat Privilege Escalation(中英对照) | https://mp.weixin.qq.com/s?__biz=MzI5OTYzMjU1OA==&mid=2247483759&idx=1&sn=13cc7388d74532d0c77e2429e5c0ea2e&chksm=ec92d3aedbe55ab8573dad78ea7f0c68c3eae83c1fb585b9ee058f7d4d9b11b062d3566c5b92&mpshare=1&scene=23&srcid=&sharer_sharetime=1571632808853&sha | 3| 
 | AD风险实验室 |  | 业务安全的资源层攻防时代 | https://mp.weixin.qq.com/s/nkf5yRrAw-IA5_ROD6Za4g | 1| 
 | 川云安全团队 | cyunsec | Kibana < 6.6.1 代码执行漏洞复现笔记 | https://mp.weixin.qq.com/s/3r41HE3bnNHhWOw42uziTQ | 1| 
-| 穿过丛林 |  | 容器云安全防御机制动态评估与优化框架 | https://mp.weixin.qq.com/s/-g2MLk7i0QBToxdE-RHjSw | 16| 
+| 穿过丛林 |  | 容器云安全防御机制动态评估与优化框架 | https://mp.weixin.qq.com/s/-g2MLk7i0QBToxdE-RHjSw | 17| 
 | 电网头条 | sgcctop | 刚刚，国家电网公司发布《泛在电力物联网白皮书2019》 | https://mp.weixin.qq.com/s/gWLm5KMfkSlhNr0ptmIYwQ | 1| 
 | 暗影安全实验室 | Eversec_Lab | 反间谍之旅003 | https://mp.weixin.qq.com/s/ZxsyB4ELKdV84eHh6zn1iQ | 1| 
 | Viola后花园 | Viola_deepblue | Signal Sciences 下一代WAF | https://mp.weixin.qq.com/s/daH3UatnuUvkFIq9BrZPyg | 8| 
@@ -808,7 +808,7 @@
 | 网络空间安全军民融合创新中心 | jmrh1226 | 病毒武器智能化技术现状与运用趋势 | https://mp.weixin.qq.com/s/ojfjlJEdGSIjrR2ptYhPSw | 10| 
 | 百度安全实验室 | BaiduX_lab | 聪明人的笨功夫 -- MesaTEE安全形式化验证实践 | https://mp.weixin.qq.com/s/X5PyWgQFZ11wLx8gpFtXOg | 9| 
 | 机器学习研究会 |  | 深度学习中的Normalization模型 | https://mp.weixin.qq.com/s/D1Qvh-kqcmtp6pkH-CwPmg | 1| 
-| 时间之外沉浮事 | tasnrh | ThreatGEN：Red vs. Blue--在游戏中学习网络安全技能 | https://mp.weixin.qq.com/s/OoCTXMYALjDQvCEOXvG2ZQ | 20| 
+| 时间之外沉浮事 | tasnrh | ThreatGEN：Red vs. Blue--在游戏中学习网络安全技能 | https://mp.weixin.qq.com/s/OoCTXMYALjDQvCEOXvG2ZQ | 21| 
 | 公安三所网络安全法律研究中心 |  | 《新时代的中国国防》白皮书发布，多处涉及网络安全 | https://mp.weixin.qq.com/s/d85LGOF-GubW6I7bGZ2Ovw | 4| 
 | SDL安全实践 |  | GitHub安全最佳实践 | https://mp.weixin.qq.com/s/DRHmwihDwsoZHS8rrlwlHg | 13| 
 | 国科漏斗社区 | Goktech_Security | 线下赛AWD训练平台搭建手册 | https://mp.weixin.qq.com/s/VPaAYUu_W3MTOmfmgVxUjA | 1| 
@@ -4893,6 +4893,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 在Discord中植入RCE后门的尝试，作者起初选择使用Python调用API与server通信，并通过Nuitka将其打包为PE，但会使得程序文件大小增加40+ MB，后续尝试通过SMB进行优化。 | https://medium.com/@lsecqt/weaponizing-discord-shell-via-smb-92375e730e26| 
 | Havoc C2 绕过 Defender For Endpoint 横向移动实战 | https://assume-breach.medium.com/home-grown-red-team-lateral-movement-with-havoc-c2-and-microsoft-edr-300b7389b1f7?source=social.tw| 
 | 动态分析Windows漏洞缓解技术之导入地址过滤 | https://wambui-ngige.medium.com/dynamic-analysis-of-windows-exploit-mitigations-import-address-filtering-16fc28029529| 
 | 利用 Ptrace 的调试能力实现跨进程任意 syscall 调用 | https://medium.com/@0xFounders/using-rust-and-ptrace-to-invoke-syscalls-262dc585fcd3| 

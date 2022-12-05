@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 时间之外沉浮事 | tasnrh | 【PPT】国内外网络靶场发展状态演进与分析 | https://mp.weixin.qq.com/s/K5Wiutcq3YKMAA8mQ2FOuA | 1| 
 | 219攻防实验室 | gh_4576a36fa848 | Windows Defender内存扫描功能分析 | https://mp.weixin.qq.com/s/C6CePu9albvGTj3_9aUxeg | 2| 
 | 源影安全实验室 | MetaShadow | CobaltStrike4.5 分析总结 | https://mp.weixin.qq.com/s/K47FXTMEWfB_474aHAGU5g | 1| 
 | Gartner公司 | GartnerChina | Gartner发布2022年中国安全技术成熟度曲线 | https://mp.weixin.qq.com/s/7nxdi3UlEcJXMi53gJOzSw | 1| 
@@ -55,7 +56,7 @@
 | 网络安全游魂 | gh_190663b0fe76 | 安全运营中心能力成熟度模型专题【三】-金融行业能力安全运营能力成熟度模型（FCSO-CMM） | https://mp.weixin.qq.com/s/Hf3haBk1kxCk3uZnJ7FCCQ | 1| 
 | 关键信息基础设施安全保护联盟筹 | gh_1c74abeb39a6 | 院士观点, 冯登国：关键信息基础设施安全保护三大关键能力 | https://mp.weixin.qq.com/s/smY0WuXqmG4sFzjsEIv8tg | 2| 
 | 绿盟科技威胁情报 | NSFOCUS_NTI | 鼹鼠行动--针对QNAP网络存储设备的大规模攻击活动，或成勒索温床 | https://mp.weixin.qq.com/s/ua7KrEP5yWbvNHfCULgn8g | 1| 
-| 穿过丛林 | gh_f90eac70537b | 2022年实验室暑期年会前瞻报告（二）戴小海：浅谈NFT, Web3 和元宇宙（PPT） | https://mp.weixin.qq.com/s/l11SP7Nni-CZ__y3DEVX1Q | 2| 
+| 穿过丛林 | gh_f90eac70537b | 2022年实验室暑期年会前瞻报告（二）戴小海：浅谈NFT, Web3 和元宇宙（PPT） | https://mp.weixin.qq.com/s/l11SP7Nni-CZ__y3DEVX1Q | 3| 
 | 安全内参 | anquanneican | Black Hat 2022上最值得关注的十大议题 | https://mp.weixin.qq.com/s/urcX3HeERhAPmNYp_9K6BA | 1| 
 | 中国计算机学会 | ccfvoice | 联手数据库专业委员会：“无数据知识蒸馏”术语发布 , CCF术语快线 | https://mp.weixin.qq.com/s/I9TlQ9zrIA0NoHl6_1_Fgw | 2| 
 | ATEC | Alipay_SecurityLab | 【武汉大学王骞分享】从数据视角看，如何安全地实现更好的AI | https://mp.weixin.qq.com/s/u3lnWpACDETKBJfjxUq6RQ | 1| 
@@ -852,6 +853,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 在Discord中植入RCE后门的尝试，作者起初选择使用Python调用API与server通信，并通过Nuitka将其打包为PE，但会使得程序文件大小增加40+ MB，后续尝试通过SMB进行优化。 | https://medium.com/@lsecqt/weaponizing-discord-shell-via-smb-92375e730e26| 
 | Havoc C2 绕过 Defender For Endpoint 横向移动实战 | https://assume-breach.medium.com/home-grown-red-team-lateral-movement-with-havoc-c2-and-microsoft-edr-300b7389b1f7?source=social.tw| 
 | 动态分析Windows漏洞缓解技术之导入地址过滤 | https://wambui-ngige.medium.com/dynamic-analysis-of-windows-exploit-mitigations-import-address-filtering-16fc28029529| 
 | 利用 Ptrace 的调试能力实现跨进程任意 syscall 调用 | https://medium.com/@0xFounders/using-rust-and-ptrace-to-invoke-syscalls-262dc585fcd3| 

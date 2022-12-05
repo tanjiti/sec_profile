@@ -14,6 +14,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 穿过丛林 | gh_f90eac70537b | S&P22：探测并抵御CI服务中的非法加密挖矿 | https://mp.weixin.qq.com/s/uC7Jbtbqs2BHPtjiiQqG8Q | 1| 
+| 时间之外沉浮事 | tasnrh | 【PPT】国内外网络靶场发展状态演进与分析 | https://mp.weixin.qq.com/s/K5Wiutcq3YKMAA8mQ2FOuA | 1| 
 | 一个人的安全笔记 | xjiek2015 | [HTB] Secret Writeup | https://mp.weixin.qq.com/s/vB0bUZ02j88gALvIbuKWNA | 1| 
 | 红队蓝军 | Xx_Security | 细谈CS分离式shellcode的加载之旅 | https://mp.weixin.qq.com/s/cgp6aFwiU7S8x2jS2VXoTQ | 1| 
 | 慢雾科技 | SlowMist | 慢雾：警惕 TransferFrom 零转账骗局 | https://mp.weixin.qq.com/s/vnHnDG435WYIoN2VNK_oTw | 1| 
@@ -37,6 +39,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 在Discord中植入RCE后门的尝试，作者起初选择使用Python调用API与server通信，并通过Nuitka将其打包为PE，但会使得程序文件大小增加40+ MB，后续尝试通过SMB进行优化。 | https://medium.com/@lsecqt/weaponizing-discord-shell-via-smb-92375e730e26| 
 
 
 # medium_secwiki 推荐

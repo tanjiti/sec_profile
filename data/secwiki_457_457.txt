@@ -1,0 +1,21 @@
+20221128	Web安全	https://mp.weixin.qq.com/s/K47FXTMEWfB_474aHAGU5g	CobaltStrike4.5 分析总结	qq.com	mp.weixin.qq.com	/s/K47FXTMEWfB_474aHAGU5g
+20221128	其它	https://mp.weixin.qq.com/s/7nxdi3UlEcJXMi53gJOzSw	2022年中国安全技术成熟度曲线	qq.com	mp.weixin.qq.com	/s/7nxdi3UlEcJXMi53gJOzSw
+20221128	其它	https://mp.weixin.qq.com/s/mEKMKfL3DjtkEvFCKYWNLA	MITRE ATT&CK 第五轮评估结果发布	qq.com	mp.weixin.qq.com	/s/mEKMKfL3DjtkEvFCKYWNLA
+20221128	漏洞分析	https://www.sec-in.com/article/1798	浅谈CVE-2022-22965漏洞成因（六）	sec-in.com	www.sec-in.com	/article/1798
+20221128	工具	https://mp.weixin.qq.com/s/7YCRBHqqSE9oYbHkQvX9Mg	深入挖掘红队实战中WinRM的使用技巧	qq.com	mp.weixin.qq.com	/s/7YCRBHqqSE9oYbHkQvX9Mg
+20221128	恶意分析	https://mp.weixin.qq.com/s/C6CePu9albvGTj3_9aUxeg	Windows Defender内存扫描功能分析	qq.com	mp.weixin.qq.com	/s/C6CePu9albvGTj3_9aUxeg
+20221128	数据挖掘	https://mp.weixin.qq.com/s/kWzh-bQHrcBu7wpmlkSNpw	DSRE-数据安全风险枚举知识框架	qq.com	mp.weixin.qq.com	/s/kWzh-bQHrcBu7wpmlkSNpw
+20221128	杂志	https://www.sec-wiki.com/weekly/456	SecWiki周刊（第456期)	sec-wiki.com	www.sec-wiki.com	/weekly/456
+20221128	恶意分析	https://mp.weixin.qq.com/s/RV8_AeLWSA0txYcWiLrxYQ	通过网空搜索引擎发现恶意软件控制面板登录页面	qq.com	mp.weixin.qq.com	/s/RV8_AeLWSA0txYcWiLrxYQ
+20221128	漏洞分析	https://mp.weixin.qq.com/s/l-dpLkrB_GaiBkp_YHnIXQ	NAUTILUS：面向语法的灰盒模糊测试方法	qq.com	mp.weixin.qq.com	/s/l-dpLkrB_GaiBkp_YHnIXQ
+20221128	Web安全	https://mp.weixin.qq.com/s/K5Wiutcq3YKMAA8mQ2FOuA	国内外网络靶场发展状态演进与分析	qq.com	mp.weixin.qq.com	/s/K5Wiutcq3YKMAA8mQ2FOuA
+20221128	Web安全	https://www.bilibili.com/video/BV1TG4y1V7xc/	Web漏洞挖掘基础系列	bilibili.com	www.bilibili.com	/video/BV1TG4y1V7xc/
+20221128	运维安全	https://xz.aliyun.com/t/11898	企业级钓鱼演练平台搭建	aliyun.com	xz.aliyun.com	/t/11898
+20221128	漏洞分析	https://mp.weixin.qq.com/s/A2Dk6WOZo7FZ_3bFRSsk-Q	AFL系模糊器中Havoc变异策略研究与改进	qq.com	mp.weixin.qq.com	/s/A2Dk6WOZo7FZ_3bFRSsk-Q
+20221128	Web安全	https://xz.aliyun.com/t/11915	GadgetInspector改造中反序列化三个source点的原理分析	aliyun.com	xz.aliyun.com	/t/11915
+20221128	Web安全	https://mp.weixin.qq.com/s/cgp6aFwiU7S8x2jS2VXoTQ	细谈CS分离式shellcode的加载之旅	qq.com	mp.weixin.qq.com	/s/cgp6aFwiU7S8x2jS2VXoTQ
+20221128	Web安全	https://mp.weixin.qq.com/s/vB0bUZ02j88gALvIbuKWNA	[HTB] Secret Writeup	qq.com	mp.weixin.qq.com	/s/vB0bUZ02j88gALvIbuKWNA
+20221128	漏洞分析	https://mp.weixin.qq.com/s/KnXLjn1Da6HmglWD7OFy6Q	POLYGLOT：使用语义验证的通用语言处理器模糊测试引擎	qq.com	mp.weixin.qq.com	/s/KnXLjn1Da6HmglWD7OFy6Q
+20221128	视频	https://space.bilibili.com/2073575923/channel/collectiondetail?sid=883666	隐私计算线上慕课	bilibili.com	space.bilibili.com	/2073575923/channel/collectiondetail
+20221128	设备安全	https://www.anquanke.com/post/id/283630	Tenda Ax12 设备分析	anquanke.com	www.anquanke.com	/post/id/283630
+20221128	工具	https://gitlab.tue.nl/threat-crawl/THREATcrawl/	THREAT-crawl: Automated Method and Tool to Crawl Criminal Underground Forums	tue.nl	gitlab.tue.nl	/threat-crawl/THREATcrawl/
