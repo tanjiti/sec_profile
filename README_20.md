@@ -283,7 +283,7 @@
 | GeekPwn | GeekPwn | 谷歌安全研究员直呼复杂 ｜ iMessage 零点击漏洞利用细节公开 | https://mp.weixin.qq.com/s/u0O6qBbvGB-l8aqCabGaUQ | 8| 
 | Beacon Tower Lab | WebRAY_BTL | Log4j2远程代码执行漏洞检测和防护策略研究 | https://mp.weixin.qq.com/s/GY-hKl9013pyVd8no0SDHw | 4| 
 | 海淀检察院 | hdpp1955 | 全文｜海淀区检察院发布《网络科技犯罪典型案例》 | https://mp.weixin.qq.com/s/GSod_Mbebfc5tIyNN7uusg | 1| 
-| 乐枕迭代日志 | cdxy_011 | API经济下的安全变局 | https://mp.weixin.qq.com/s/oXHcoLE5WkEer24mz7BqUg | 1| 
+| 乐枕迭代日志 | cdxy_011 | API经济下的安全变局 | https://mp.weixin.qq.com/s/oXHcoLE5WkEer24mz7BqUg | 2| 
 | Yak Project | YakLanguage | 如何使用Yakit进行流量劫持 | https://mp.weixin.qq.com/s/9vVRTehwAhkSLM65JaKiQA | 1| 
 | 数据法盟 | Datalaws | 重磅全文 ,《上海市数据条例》公布 | https://mp.weixin.qq.com/s/_sCL1FBQe3hJNhIZrnVdwQ | 1| 
 | 工业技术软件化产业联盟 | gh_96ac3d272f58 | 【图解】《“十四五”软件和信息技术服务业发展规划》 | https://mp.weixin.qq.com/s/6nJ7tpo5qu8zVI8nYDQAnA | 1| 
@@ -4050,6 +4050,7 @@
 | rtcatc | 一款针对Webpack等前端打包工具所构造的网站进行快速、高效安全检测的扫描工具 | https://github.com/rtcatc/Packer-Fuzzer | https://www.hackinn.com | 嗷呜 NJI12*3*%*2*M*R%* ç(-é$ùé&ù$$$éùù =$m$=$ | None | None | 16 | 0 | 0 | 0 | 0 | Python | 535 | 60 | 1| 
 | rosehgal | Linux 二进制开发学习资料. | https://github.com/rosehgal/BinExp | https://github.com/rosehgal?tab=followers | Working !! | India | Gojek | 55 | 0 | 163 | 0 | 0 | Python,Dockerfile,C,Shell,Java | 0 | 0 | 1| 
 | root-tanishq | 一个专门fuzz User-Agent ， X-Forwarded-For， Referer的 SQLI Fuzzer | https://github.com/root-tanishq/userefuzz | https://github.com/root-tanishq?tab=followers | kuns Notebook OSCP , eWPTXv2 | None | None | 16 | 0 | 25 | 0 | 0 | Python,Shell | 0 | 0 | 1| 
+| romainthomas | 一个逆向工程研讨会的ppt，讲到了很多x86下逆向的技巧 | https://github.com/romainthomas/reverse-engineering-workshop | https://github.com/lief-project | Security Engineer working on mobile, obfuscation and file formats. Author & maintainer of @lief-project / @open-obfuscator | None | @lief-project @open-obfuscator | 49 | 0 | 331 | 0 | 0 | Java,C++ | 0 | 0 | 1| 
 | robotattackorg | robot-detect - ROBOT 漏洞检测脚本 : | https://github.com/robotattackorg/robot-detect | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | riskscanner | RiskScanner: 是开源的公有云安全合规扫描平台 | https://github.com/riskscanner/riskscanner | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Java,Shell,JavaScript | 0 | 0 | 1| 
 | riskawarrior | 渗透测试书签 | https://github.com/riskawarrior/pentest-bookmarks#forums | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -4439,6 +4440,7 @@
 | demi6od | Internet_Explorer_11_Exploit | https://github.com/demi6od/Internet_Explorer_11_Exploit | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 2| 
 | defenxor | dsiem: Security event correlation engine for ELK stack | https://github.com/defenxor/dsiem?from=timeline | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,HTML | 0 | 0 | 1| 
 | defaultnamehere | 通过facebook的一个api，看是否在线 | https://github.com/defaultnamehere/zzzzz | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| deepinstinct | 通过滥用 Windows 错误报告服务以dump LSASS 的方法,来自DC30议题LSASS Shtinkering Abusing Windows Error Reporting to Dump LSASS | https://github.com/deepinstinct/Lsass-Shtinkering | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,PowerShell,C++ | 0 | 0 | 1| 
 | decoymini | DecoyMini: 智能仿真与攻击诱捕工具 | https://github.com/decoymini/DecoyMini | https://github.com/decoymini?tab=followers |  | None | None | 2 | 0 | 10 | 0 | 0 | C++ | 0 | 0 | 1| 
 | ddzy | 前端开发者学习资源。 | https://github.com/ddzy/fe-necessary-book | https://yyge.top | Working | Neusoft | FE | 87 | 0 | 0 | 0 | 0 | TypeScript,JavaScript | 1200 | 176 | 1| 
 | ddrown | Dockerfiles:Build files for android-cross-compile | https://github.com/ddrown/Dockerfiles | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -4500,6 +4502,7 @@
 | cdk-team | 容器环境定制的渗透测试工具 | https://github.com/cdk-team/CDK/wiki/CDK-Home-CN | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go | 0 | 0 | 1| 
 | caspg | Datamaps.co: free and simple platform for creating visualizations with data maps | https://github.com/caspg/datamaps.co | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | carmaa | inception： FireWire physical memory manipulation and hacking tool | https://github.com/carmaa/inception | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| caioluders | XSS 2 RCE on flipper_zero | https://github.com/caioluders/pocs/blob/main/flipper_rce_xss.js | https://github.com/caioluders?tab=followers |  | Brazil | None | 43 | 0 | 204 | 0 | 0 | Python,C,HTML | 0 | 0 | 1| 
 | cSploit | cSploit - 一款开源的 Android 网络分析及渗透测试套件: | https://github.com/cSploit/android | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Java,JavaScript,C++,HTML,Go,Ruby | 0 | 0 | 1| 
 | c633 | malwaRE:malware repository framework | https://github.com/c633/malwaRE | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | c3rb3ru5d3d53c | 从恶意软件中提取基本块和函数特征用于识别和检测的工具 | https://github.com/c3rb3ru5d3d53c/binlex | https://github.com/c3rb3ru5d3d53c?tab=followers | μηςεηsοяεδ мαℓωαяε яεsεαяςнεя sταηδιηg gμαяδ ατ τнε gατεs οƒ мαℓωαяε нεℓℓ | 66.66.66.66 | None | 19 | 0 | 0 | 0 | 0 | Python,C++ | 0 | 0 | 1| 
@@ -4893,6 +4896,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 如何在已root的手机上绕过Android SSL Pinning劫持HTTPS流量，以及如何修改APK以绕过Proxy Unaware劫持HTTP流量。 | https://kishorbalan.medium.com/its-all-about-android-ssl-pinning-bypass-and-intercepting-proxy-unaware-applications-91689c0763d8| 
 | 在Discord中植入RCE后门的尝试，作者起初选择使用Python调用API与server通信，并通过Nuitka将其打包为PE，但会使得程序文件大小增加40+ MB，后续尝试通过SMB进行优化。 | https://medium.com/@lsecqt/weaponizing-discord-shell-via-smb-92375e730e26| 
 | Havoc C2 绕过 Defender For Endpoint 横向移动实战 | https://assume-breach.medium.com/home-grown-red-team-lateral-movement-with-havoc-c2-and-microsoft-edr-300b7389b1f7?source=social.tw| 
 | 动态分析Windows漏洞缓解技术之导入地址过滤 | https://wambui-ngige.medium.com/dynamic-analysis-of-windows-exploit-mitigations-import-address-filtering-16fc28029529| 

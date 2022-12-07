@@ -14,6 +14,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 乐枕迭代日志 | cdxy_011 | 安全概念分析框架 | https://mp.weixin.qq.com/s/JysvRftmGl2zg41ko8n1yA | 1| 
 | 时间之外沉浮事 | tasnrh | 【PPT】国内外网络靶场发展状态演进与分析 | https://mp.weixin.qq.com/s/K5Wiutcq3YKMAA8mQ2FOuA | 1| 
 | 219攻防实验室 | gh_4576a36fa848 | Windows Defender内存扫描功能分析 | https://mp.weixin.qq.com/s/C6CePu9albvGTj3_9aUxeg | 2| 
 | 源影安全实验室 | MetaShadow | CobaltStrike4.5 分析总结 | https://mp.weixin.qq.com/s/K47FXTMEWfB_474aHAGU5g | 1| 
@@ -619,6 +620,7 @@
 | rosehgal | Linux 二进制开发学习资料. | https://github.com/rosehgal/BinExp | https://github.com/rosehgal?tab=followers | Working !! | India | Gojek | 55 | 0 | 163 | 0 | 0 | Python,Dockerfile,C,Shell,Java | 0 | 0 | 1| 
 | rootsecdev | Azure 云环境安全测试相关的资料 | https://github.com/rootsecdev/Azure-Red-Team | https://github.com/rootsecdev?tab=followers |  | None | None | 40 | 0 | 2 | 0 | 0 | PowerShell | 0 | 0 | 1| 
 | root-tanishq | 一个专门fuzz User-Agent ， X-Forwarded-For， Referer的 SQLI Fuzzer | https://github.com/root-tanishq/userefuzz | https://github.com/root-tanishq?tab=followers | kuns Notebook OSCP , eWPTXv2 | None | None | 16 | 0 | 25 | 0 | 0 | Python,Shell | 0 | 0 | 1| 
+| romainthomas | 一个逆向工程研讨会的ppt，讲到了很多x86下逆向的技巧 | https://github.com/romainthomas/reverse-engineering-workshop | https://github.com/lief-project | Security Engineer working on mobile, obfuscation and file formats. Author & maintainer of @lief-project / @open-obfuscator | None | @lief-project @open-obfuscator | 49 | 0 | 331 | 0 | 0 | Java,C++ | 0 | 0 | 1| 
 | revng | revng - 将 ELF 二进制文件翻译成 LLVM IR 的工具 | https://github.com/revng/revng | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,CMake,Python,C++,Shell | 0 | 0 | 1| 
 | retrage | Ghidra analyzer for UEFI firmware | https://github.com/retrage/efiSeek/tree/efi-xplorer | https://github.com/retrage?tab=followers | UEFI firmware enthusiast | Tokyo, Japan | None | 40 | 0 | 2 | 0 | 0 | Java,C,HTML,Dockerfile | 0 | 0 | 1| 
 | reecdeep | HiveV5勒索软件文件解密Poc和算法分析 | https://github.com/reecdeep/HiveV5_file_decryptor | https://github.com/reecdeep?tab=followers | Malware analyst, reverse engineer | Stack | None | 2 | 0 | 0 | 0 | 0 | C++ | 0 | 0 | 1| 
@@ -719,6 +721,7 @@
 | edgelesssys | Constellation - 为云环境 Kubernetes 提供机密计算能力的工具 | https://github.com/edgelesssys/constellation | None | None | None | None | 0 | 0 | 0 | 0 | 0 | SCSS,Shell,Python,C++,HTML,Go | 0 | 0 | 1| 
 | e-m-b-a | EMBA - The firmware security analyzer | https://github.com/e-m-b-a/emba | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Shell,HTML | 0 | 0 | 1| 
 | dolevf | GraphQL Sever Fingerprinting | https://github.com/dolevf/graphw00f | https://github.com/dolevf?tab=followers | Curious by Design , Security Ninja , Black Hat GraphQL Author , Security Engineer | Canada | Inigo Labs | 25 | 0 | 9 | 0 | 0 | Python,JavaScript,CSS | 0 | 0 | 1| 
+| deepinstinct | 通过滥用 Windows 错误报告服务以dump LSASS 的方法,来自DC30议题LSASS Shtinkering Abusing Windows Error Reporting to Dump LSASS | https://github.com/deepinstinct/Lsass-Shtinkering | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,PowerShell,C++ | 0 | 0 | 1| 
 | decoymini | DecoyMini: 智能仿真与攻击诱捕工具 | https://github.com/decoymini/DecoyMini | https://github.com/decoymini?tab=followers |  | None | None | 2 | 0 | 10 | 0 | 0 | C++ | 0 | 0 | 1| 
 | decoder-it | Bluehat 2022 会议的议题，滥用 RPC/DCOM 协议实现本地提权 | https://github.com/decoder-it/bluehatil22/ | https://github.com/decoder-it?tab=followers |  | None | None | 17 | 0 | 1 | 0 | 0 | C#,C,PowerShell | 0 | 0 | 1| 
 | d4rckh | gorilla - 用于生成密码字段的工具 | https://github.com/d4rckh/gorilla | https://github.com/d4rckh?tab=followers | young man from romania with security as a hobby | Romania | None | 87 | 0 | 342 | 0 | 0 | Rust,Nim | 0 | 0 | 1| 
@@ -736,6 +739,7 @@
 | center-for-threat-informed-defense | Attack Flow - 为攻击者攻击流程进行辅助建模的工具 | https://github.com/center-for-threat-informed-defense/attack-flow | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Python,JavaScript,Vue,HTML,Ruby | 0 | 0 | 1| 
 | cellebrite-labs | ida_kcpp - 用于辅助分析 iOS kernelcache 的 IDA Pro 插件 | https://github.com/cellebrite-labs/ida_kcpp | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C | 0 | 0 | 1| 
 | cea-sec | usbsas - 从不受信任的 USB 存储设备读取数据的工具 | https://github.com/cea-sec/usbsas | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,Rust | 0 | 0 | 1| 
+| caioluders | XSS 2 RCE on flipper_zero | https://github.com/caioluders/pocs/blob/main/flipper_rce_xss.js | https://github.com/caioluders?tab=followers |  | Brazil | None | 43 | 0 | 204 | 0 | 0 | Python,C,HTML | 0 | 0 | 1| 
 | bytedance | GoDLP: 敏感信息保护系统 | https://github.com/bytedance/godlp | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,TypeScript,Assembly,Python,JavaScript,Cuda,Go,Java,Ruby,Jupyter,Rust | 0 | 0 | 3| 
 | bw3ll | SHAREM - Windows Shellcode 辅助分析和构造的工具 | https://github.com/bw3ll/sharem | https://github.com/Bw3ll?tab=followers |  | None | None | 3 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | brant-ruan | 2022云原生安全技术峰会议题Slide | https://github.com/brant-ruan/slides-and-papers/ | https://github.com/brant-ruan?tab=followers | IT Security Researcher | China | NSFOCUS Inc. | 58 | 0 | 515 | 0 | 0 | Python,Go,Shell | 0 | 0 | 1| 
@@ -853,6 +857,7 @@
 # medium_xuanwu 推荐
 | title | url| 
 | --- | ---| 
+| 如何在已root的手机上绕过Android SSL Pinning劫持HTTPS流量，以及如何修改APK以绕过Proxy Unaware劫持HTTP流量。 | https://kishorbalan.medium.com/its-all-about-android-ssl-pinning-bypass-and-intercepting-proxy-unaware-applications-91689c0763d8| 
 | 在Discord中植入RCE后门的尝试，作者起初选择使用Python调用API与server通信，并通过Nuitka将其打包为PE，但会使得程序文件大小增加40+ MB，后续尝试通过SMB进行优化。 | https://medium.com/@lsecqt/weaponizing-discord-shell-via-smb-92375e730e26| 
 | Havoc C2 绕过 Defender For Endpoint 横向移动实战 | https://assume-breach.medium.com/home-grown-red-team-lateral-movement-with-havoc-c2-and-microsoft-edr-300b7389b1f7?source=social.tw| 
 | 动态分析Windows漏洞缓解技术之导入地址过滤 | https://wambui-ngige.medium.com/dynamic-analysis-of-windows-exploit-mitigations-import-address-filtering-16fc28029529| 
