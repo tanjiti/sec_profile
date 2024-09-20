@@ -46,7 +46,7 @@ def update_github(proxy=None):
             ret = os.system(cmd)
             print(ret, cmd)
     ts = get_special_date(format="%Y-%m-%d %H:%m:%S")
-    cmd = "git add . && git commit -m '%s' && git push origin master" % (ts)
+    cmd = "git add . && git commit -m '%s' && git push origin main" % (ts)
 
     ret = os.system(cmd)
     if ret != 0:
