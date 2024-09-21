@@ -23,13 +23,18 @@
 # 网络安全书籍 推荐
 | date_added | language | title | author | link | size| 
 | --- | --- | --- | --- | --- | ---| 
-| 2024-09-20 08:02:21 | English | beginners guide to streamlit with python | unknown | https://it-ebooks.info/book/1686051862-beginners_guide_to_streamlit_with_python/ | unknown| 
+| 2024-09-20 22:57:51 | English | beginners guide to streamlit with python | unknown | https://it-ebooks.info/book/1686051862-beginners_guide_to_streamlit_with_python/ | unknown| 
 | 2024-09-20 08:56:07 | English | Malware Development for Ethical Hackers | unknown | https://www.wowebook.org/malware-development-for-ethical-hackers/ | unknown| 
 | 2024-09-20 08:42:10 | English | Security Monitoring with Wazuh | unknown | https://www.wowebook.org/security-monitoring-with-wazuh/ | unknown| 
 | 2024-09-20 07:23:57 | English | Cryptography Algorithms, Second Edition | unknown | https://www.wowebook.org/cryptography-algorithms-second-edition/ | unknown| 
 | 2024-09-19 07:03:59 | English | Data Management Strategy at Microsoft | unknown | https://www.wowebook.org/data-management-strategy-at-microsoft/ | unknown| 
 | 2024-09-19 01:40:10 | English | Never Search Alone: The Job Seeker’s Playbook | Phyl Terry | http://libgen.rs/book/index.php?md5=87741DBE6BEC87EFB9A9710A3521E072 | 756 kB [EPUB]| 
 | 2024-09-19 00:34:02 | English | Continuous Testing, Quality, Security, and Feedback: Essential strategies and secure practices for DevOps, DevSecOps, and SRE transformations | Marc Hornbeek | http://libgen.rs/book/index.php?md5=89D482F5295E48D67A7C7712F4C390D4 | 15 MB [EPUB]| 
+| 2024-09-19 20:40:00 | English | The Quick Guide to Prompt Engineering: Generative AI Tips and Tricks for ChatGPT, Bard, Dall-E, and Midjourney | Ian Khan | http://libgen.rs/book/index.php?md5=DC21015D514DE29DC143D47D9E0791CA | 567 kB [EPUB]| 
+| 2024-09-19 20:39:58 | English | The Quick Guide to Prompt Engineering: Generative AI Tips and Tricks for ChatGPT, Bard, Dall-E, and Midjourney | Ian Khan | http://libgen.rs/book/index.php?md5=FCD574FEB7CF6152D275F9CBC6F1A1AA | 9 MB [PDF]| 
+| 2024-09-19 20:37:29 | English | Generative AI Application Integration Patterns | Juan Pablo Bustos; Luis Lopez Soria | http://libgen.rs/book/index.php?md5=81A893DEA72F891DC95A3737DB4644E8 | 5 MB [EPUB]| 
+| 2024-09-19 20:21:43 | English | Exam Ref AZ-500 Microsoft Azure Security Technologies | Yuri Diogenes, Orin Thomas | http://libgen.rs/book/index.php?md5=E7E71A80BAA5A2CB5FC7266B0E7443CF | 34 MB [EPUB]| 
+| 2024-09-19 20:37:32 | English | Generative AI Application Integration Patterns | Juan Pablo Bustos; Luis Lopez Soria | http://libgen.rs/book/index.php?md5=2906C48F05B1F14DB552C885A019AD36 | 10 MB [RAR]| 
 | 2024-09-18 13:59:58 | English | (Chapman & Hall/CRC The Python Series) Introduction to Quantitative Social Science with Python | Weiqi Zhang, Dmitry Zinoviev | http://libgen.rs/book/index.php?md5=62CA7E93660107DB2D06CD36C9267730 | 9 MB [PDF]| 
 | 2024-09-18 13:59:42 | English | (Chapman & Hall/CRC The Python Series) Introduction to Quantitative Social Science with Python | Weiqi Zhang, Dmitry Zinoviev | http://libgen.rs/book/index.php?md5=CFF38192086B599C78340754F5C3A8B2 | 4 MB [EPUB]| 
 | 2024-09-18 19:44:08 | English | ChatGPT For Dummies (2 Books in 1): Chatgpt Prompts & Chatgpt for Beginners - Over 300 Prompts and Learning Examples | Oliver Ruiz | http://libgen.rs/book/index.php?md5=7BE62D3DC4E4E496DA20BA85F24396EB | 2 MB [PDF]| 
