@@ -71,7 +71,7 @@
 # 网络安全书籍 推荐
 | date_added | language | title | author | link | size| 
 | --- | --- | --- | --- | --- | ---| 
-| 2024-09-26 08:17:05 | English | beginners guide to streamlit with python | unknown | https://it-ebooks.info/book/1686051862-beginners_guide_to_streamlit_with_python/ | unknown| 
+| 2024-09-26 16:32:35 | English | beginners guide to streamlit with python | unknown | https://it-ebooks.info/book/1686051862-beginners_guide_to_streamlit_with_python/ | unknown| 
 | 2024-09-25 12:12:17 | English | Cybersecurity Essentials: Practical Tools for Today’s Digital Defenders | unknown | https://www.wowebook.org/cybersecurity-essentials-practical-tools-for-todays-digital-defenders/ | unknown| 
 | 2024-09-24 11:31:59 | English | CompTIA Tech+ Study Guide: Exam FC0-U71 (Sybex Study Guide) | Quentin Docter | http://libgen.rs/book/index.php?md5=04321DDFCA5EEA6409A8494100BA7781 | 30 MB [PDF]| 
 | 2024-09-24 11:00:16 | English | (ICSA Book Series in Statistics) Modeling Binary Correlated Responses: Using SAS, SPSS, R and STATA | Jeffrey R. Wilson, Kent A. Lorenz, Lori P. Selby | http://libgen.rs/book/index.php?md5=94673668976475989A8C096AF293B0E8 | 14 MB [PDF]| 
@@ -90,9 +90,9 @@
 | 2024-09-21 21:07:12 | English | Mastering DevOps on Microsoft Power Platform | Uroš Kastelic, József Zoltán Vadkerti | http://libgen.rs/book/index.php?md5=154F7220F962261DDE51BC96A40A51A3 | 19 MB [EPUB]| 
 | 2024-09-21 21:04:42 | English | Mastering Microsoft Defender for Office 365: Streamline Office 365 security with expert tips for setup, automation, and advanced threat hunting | Samuel Soto | http://libgen.rs/book/index.php?md5=0D7253E9E9697F01AAC9C35C9B77F823 | 19 MB [EPUB]| 
 | 2024-09-20 08:42:40 | English | A Beginners Guide to Python 3 Programming (Undergraduate Topics in Computer Science) | John Hunt | http://libgen.rs/book/index.php?md5=D802DC89C34B23D7DAFAC71B456CC02F | 26 MB [EPUB]| 
+| 2024-09-20 07:23:57 | English | Cryptography Algorithms, Second Edition | unknown | https://www.wowebook.org/cryptography-algorithms-second-edition/ | unknown| 
 | 2024-09-20 08:56:07 | English | Malware Development for Ethical Hackers | unknown | https://www.wowebook.org/malware-development-for-ethical-hackers/ | unknown| 
 | 2024-09-20 08:42:10 | English | Security Monitoring with Wazuh | unknown | https://www.wowebook.org/security-monitoring-with-wazuh/ | unknown| 
-| 2024-09-20 07:23:57 | English | Cryptography Algorithms, Second Edition | unknown | https://www.wowebook.org/cryptography-algorithms-second-edition/ | unknown| 
 | 2024-09-19 07:03:59 | English | Data Management Strategy at Microsoft | unknown | https://www.wowebook.org/data-management-strategy-at-microsoft/ | unknown| 
 | 2024-09-19 01:40:10 | English | Never Search Alone: The Job Seeker’s Playbook | Phyl Terry | http://libgen.rs/book/index.php?md5=87741DBE6BEC87EFB9A9710A3521E072 | 756 kB [EPUB]| 
 | 2024-09-19 00:34:02 | English | Continuous Testing, Quality, Security, and Feedback: Essential strategies and secure practices for DevOps, DevSecOps, and SRE transformations | Marc Hornbeek | http://libgen.rs/book/index.php?md5=89D482F5295E48D67A7C7712F4C390D4 | 15 MB [EPUB]| 
