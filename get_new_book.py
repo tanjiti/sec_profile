@@ -11,6 +11,7 @@ from mills import strip_n
 import xml.etree.ElementTree as ET
 import lxml
 import codecs
+import requests
 
 from bs4 import BeautifulSoup
 
@@ -48,7 +49,12 @@ class GetNewBook(object):
         :param kwargs:
         """
         self.rss_url_dict = {
-            'libgen': 'http://libgen.rs/rss/index.php',
+            'libgen': [
+                'https://libgen.is/rss/index.php'
+                'https://libgen.rs/rss/index.php',
+                'https://libgen.st/rss/index.php',
+
+             ],
             'wow': 'https://feeds.feedburner.com/wowebook',
             'it-ebooks': 'https://it-ebooks.info/rss.xml',
             #'libgen': 'https://libgen.onl/feed/',
@@ -362,6 +368,17 @@ class GetNewBook(object):
                     except Exception as e:
                         logging.error("[sql]: %s %s" % (sql, str(e)))
 
+    def check_live(self, rss_url_list=None, proxy=None):
+        """
+        check which url is available
+        """
+        for rss_url in rss_url_list:
+            s = requests.session()
+            s.proxies = proxy
+            r = s.request('GET', url=rss_url)
+            if r.reason == "OK":
+                print(rss_url, r)
+                return rss_url
     def scaw(self, proxy=None):
         """
 
@@ -370,6 +387,13 @@ class GetNewBook(object):
         if not self.rss_url_dict:
             return
         for rss_name, rss_url in self.rss_url_dict.items():
+            if isinstance(rss_url, list):
+                rss_url_list = rss_url
+            else:
+                rss_url_list = [rss_url]
+            rss_url = self.check_live(rss_url_list, proxy=proxy)
+            if not rss_url:
+                continue
             day = timestamp2datetime(int(time.time()), tformat="%Y%m%d%H")
             fdir = os.path.join("data", "book")
             if not os.path.exists(fdir):
@@ -400,13 +424,14 @@ if __name__ == "__main__":
     # ss
 
     # vary
-    proxy = {
-        "http": "http://127.0.0.1:8001",
-        'https': "http://127.0.0.1:8001",
-    }
+
     proxy = {
         "http": "http://127.0.0.1:1087",
         'https': "http://127.0.0.1:1087",
+    }
+    proxy = {
+        "http": "http://127.0.0.1:8001",
+        'https': "http://127.0.0.1:8001",
     }
     o = GetNewBook(proxy=proxy)
     o.scaw(proxy=proxy)
