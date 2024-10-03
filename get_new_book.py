@@ -421,9 +421,7 @@ if __name__ == "__main__":
     """
     main
     """
-    # ss
 
-    # vary
 
     proxy = {
         "http": "http://127.0.0.1:1087",
