@@ -206,7 +206,8 @@ class GetNewBook(object):
             # abnormal check
             ['time','series'],
             ['splunk'],
-
+            ['snort'],
+            ['firewalls'],
 
         ]
         self.book_language_list = ['English']
