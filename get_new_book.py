@@ -57,7 +57,7 @@ class GetNewBook(object):
              ],
             'wow': 'https://feeds.feedburner.com/wowebook',
             'it-ebooks': 'https://it-ebooks.info/rss.xml',
-            #'libgen': 'https://libgen.onl/feed/',
+            'libgen': 'https://libgen.onl/feed/',
 
 
         }
@@ -424,13 +424,14 @@ if __name__ == "__main__":
     """
 
 
-    proxy = {
-        "http": "http://127.0.0.1:1087",
-        'https': "http://127.0.0.1:1087",
-    }
+
     proxy = {
         "http": "http://127.0.0.1:8001",
         'https': "http://127.0.0.1:8001",
+    }
+    proxy = {
+        "http": "http://127.0.0.1:1087",
+        'https': "http://127.0.0.1:1087",
     }
     o = GetNewBook(proxy=proxy)
     o.scaw(proxy=proxy)
