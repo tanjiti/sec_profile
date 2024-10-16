@@ -23,8 +23,10 @@
 # 网络安全书籍 推荐
 | date_added | language | title | author | link | size| 
 | --- | --- | --- | --- | --- | ---| 
-| 2024-10-13 04:03:34 | English | beginners guide to streamlit with python | unknown | https://it-ebooks.info/book/1686051862-beginners_guide_to_streamlit_with_python/ | unknown| 
-| 2024-10-13 04:03:34 | English | firewalls dont stop dragons 5th edition | unknown | https://it-ebooks.info/book/1686052309-firewalls_dont_stop_dragons_5th_edition/ | unknown| 
+| 2024-10-16 08:41:24 | English | beginners guide to streamlit with python | unknown | https://it-ebooks.info/book/1686051862-beginners_guide_to_streamlit_with_python/ | unknown| 
+| 2024-10-16 08:41:24 | English | firewalls dont stop dragons 5th edition | unknown | https://it-ebooks.info/book/1686052309-firewalls_dont_stop_dragons_5th_edition/ | unknown| 
+| 2024-10-16 07:47:39 | English | Modern Network Observability | unknown | https://www.wowebook.org/modern-network-observability/ | unknown| 
+| 2024-10-14 17:03:47 | English | Rust Brain Teasers | unknown | https://www.wowebook.org/rust-brain-teasers/ | unknown| 
 | 2024-10-11 10:38:25 | English | Python Testing with pytest, Second Edition | unknown | https://www.wowebook.org/python-testing-with-pytest-second-edition/ | unknown| 
 | 2024-10-11 08:22:11 | English | Python Brain Teasers | unknown | https://www.wowebook.org/python-brain-teasers/ | unknown| 
 | 2024-10-11 08:00:30 | English | Intuitive Python: Productive Development for Projects that Last | unknown | https://www.wowebook.org/intuitive-python-productive-development-for-projects-that-last/ | unknown| 
