@@ -423,13 +423,14 @@ if __name__ == "__main__":
     main
     """
 
-    proxy = {
-        "http": "http://127.0.0.1:8001",
-        'https': "http://127.0.0.1:8001",
-    }
+
     proxy = {
         "http": "http://127.0.0.1:1087",
         'https': "http://127.0.0.1:1087",
+    }
+    proxy = {
+        "http": "http://127.0.0.1:8001",
+        'https': "http://127.0.0.1:8001",
     }
     o = GetNewBook(proxy=proxy)
     o.scaw(proxy=proxy)
