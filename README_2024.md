@@ -23,8 +23,9 @@
 # 网络安全书籍 推荐
 | date_added | language | title | author | link | size| 
 | --- | --- | --- | --- | --- | ---| 
-| 2024-10-20 17:17:47 | English | beginners guide to streamlit with python | unknown | https://it-ebooks.info/book/1686051862-beginners_guide_to_streamlit_with_python/ | unknown| 
-| 2024-10-20 17:17:47 | English | firewalls dont stop dragons 5th edition | unknown | https://it-ebooks.info/book/1686052309-firewalls_dont_stop_dragons_5th_edition/ | unknown| 
+| 2024-10-22 01:11:31 | English | beginners guide to streamlit with python | unknown | https://it-ebooks.info/book/1686051862-beginners_guide_to_streamlit_with_python/ | unknown| 
+| 2024-10-22 01:11:31 | English | firewalls dont stop dragons 5th edition | unknown | https://it-ebooks.info/book/1686052309-firewalls_dont_stop_dragons_5th_edition/ | unknown| 
+| 2024-10-22 03:32:42 | English | The Lean Entrepreneurship Playbook | unknown | https://www.wowebook.org/the-lean-entrepreneurship-playbook/ | unknown| 
 | 2024-10-18 06:04:06 | English | CCSP (ISC)2 Certified Cloud Security Professional Exam Guide | unknown | https://www.wowebook.org/ccsp-isc2-certified-cloud-security-professional-exam-guide/ | unknown| 
 | 2024-10-18 05:45:21 | English | Certified Information Systems Security Professional (CISSP) Exam Guide | unknown | https://www.wowebook.org/certified-information-systems-security-professional-cissp-exam-guide/ | unknown| 
 | 2024-10-17 05:40:50 | English | Learn AI-Assisted Python Programming, Second Edition | unknown | https://www.wowebook.org/learn-ai-assisted-python-programming-second-edition/ | unknown| 
