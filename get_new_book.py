@@ -113,7 +113,7 @@ class GetNewBook(object):
             ['threat', 'detection'],
             ['aws', 'security'],
             ['opentelemetry'],
-
+            ['telemetry'],
             # threat intelligence
             ['threat', 'intelligence'],
             ['cyber', 'intelligence'],
