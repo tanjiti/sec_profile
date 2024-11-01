@@ -77,6 +77,7 @@ class GetNewBook(object):
             ['playbook'],
             ['defensive', 'security'],
             ['prompt', 'engineer'],
+            ['large', 'language'],
             ['monitor'],
             ['monitoring'],
             ['reconnaissance'],
