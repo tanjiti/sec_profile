@@ -56,7 +56,7 @@ class GetNewBook(object):
 
              ],
             'wow': 'https://feeds.feedburner.com/wowebook',
-            'it-ebooks': 'https://it-ebooks.info/rss.xml',
+            #'it-ebooks': 'https://it-ebooks.info/rss.xml',
             #'libgen': 'https://libgen.onl/feed/',
 
 
