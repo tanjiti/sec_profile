@@ -204,6 +204,7 @@ class GetNewBook(object):
             ['chatgpt'],
             ['copilot'],
             ['openai'],
+            ['prompt', 'engineering'],
             # abnormal check
             ['time','series'],
             ['splunk'],
