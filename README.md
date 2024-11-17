@@ -73,13 +73,16 @@
 | 暗影网安实验室 | None | 【正义审判】联合网警打击棉花糖fans违法行为 | https://mp.weixin.qq.com/s?__biz=MzIyNTIxNDA1Ng==&mid=2659211121&idx=1&sn=80755f39615f06dfe4839adad23c924b | 7| 
 | 河南等级保护测评 | None | 国外：一周网络安全态势回顾之第73期 | https://mp.weixin.qq.com/s?__biz=Mzg2NjY2MTI3Mg==&mid=2247497603&idx=1&sn=f7c54211116e341eb01ef67b2e783545 | 9| 
 | 洞见网安 | None | 网安原创文章推荐【2024/11/16】 | https://mp.weixin.qq.com/s?__biz=MzAxNzg3NzMyNQ==&mid=2247489203&idx=1&sn=a3bc22af5648d0d15a20d18dcbc827fe | 4| 
+| 浙大网安 | None | 区块链与数据安全全国重点实验室团队荣获NeurIPS’24国际人工智能安全竞赛冠军！ | https://mp.weixin.qq.com/s?__biz=Mzg5NDczNDc4NA==&mid=2247495336&idx=1&sn=cf3d0184131680ca7212f3ad88dd3f73 | 2| 
 | 狐狸说安全 | None | 师傅们，终于跨过了4W这个坎！！ | https://mp.weixin.qq.com/s?__biz=MzUzMDQ1MTY0MQ==&mid=2247506249&idx=1&sn=623bd33a6a964a11f9f7f3dcc2e57fb4 | 2| 
 | 白安全组 | None | DC-4靶场练习（拯救基础学习） | https://mp.weixin.qq.com/s?__biz=MzU4MjYxNTYwNA==&mid=2247487548&idx=1&sn=27be0b6b3b387a19a48e63ca889787be | 1| 
 | 白帽子 | None | CVE-2024-25600：WordPress Bricks Builder RCE | https://mp.weixin.qq.com/s?__biz=MzAwMDQwNTE5MA==&mid=2650247657&idx=1&sn=b0600f03ef9bbffbcaa4fbf1fe0d87f7 | 3| 
 | 白帽学子 | None | 梦想成真 | https://mp.weixin.qq.com/s?__biz=MzkyNzIxMjM3Mg==&mid=2247488246&idx=2&sn=7bf9d9cd97fa2fa4d569113afc9d2dd0 | 7| 
+| 白泽安全实验室 | None | 伊朗网络组织Emennet Pasargad利用WezRat恶意软件发起攻击 | https://mp.weixin.qq.com/s?__biz=MzI0MTE4ODY3Nw==&mid=2247492416&idx=1&sn=56e31c02aa497b57fc1b7536ce1e0250 | 6| 
 | 祺印说信安 | None | 盗窃并洗钱约10亿美元比特币的男子被判入狱5年 | https://mp.weixin.qq.com/s?__biz=MzA5MzU5MzQzMA==&mid=2652112613&idx=2&sn=20433b76b20bb7d2514d11c5b37e9286 | 16| 
 | 红岸基地网络安全 | None | 【正义审判】红岸赵小龙配合公某安打击违法犯罪团伙:棉花糖fans | https://mp.weixin.qq.com/s?__biz=MzkxMDc0MTc5Mw==&mid=2247483774&idx=1&sn=d600128d7719d5f5d50e0b420b9c2ffb | 2| 
 | 网空闲话plus | None | 每周网安态势概览【20241117】046期 | https://mp.weixin.qq.com/s?__biz=MzkyMjQ5ODk5OA==&mid=2247505252&idx=2&sn=da6a96963b165b640dcd5d4ef6a6af4f | 17| 
+| 网络安全007 | None | 一些资源更新+近期针对高校以及金融行业公司的钓鱼安全事件分析 | https://mp.weixin.qq.com/s?__biz=MzI1NTE2NzQ3NQ==&mid=2247485237&idx=1&sn=d6ded4503960f71081bc7cc4b8371168 | 1| 
 | 网络安全与取证研究 | None | 2024数证杯初赛部分wp[计算机、手机、数据分析] | https://mp.weixin.qq.com/s?__biz=Mzg3NTU3NTY0Nw==&mid=2247489361&idx=1&sn=4178c6cc60cd27106fbd20d6841702a8 | 4| 
 | 网络安全与等保测评 | None | 一文读懂敏感标记和强制访问控制，让你恍然大悟。 | https://mp.weixin.qq.com/s?__biz=MzIwNDYzNTYxNQ==&mid=2247502220&idx=1&sn=6f1de2bf96464925e8a93da76579ea53 | 2| 
 | 网络技术干货圈 | None | 网络工程师需要掌握的10个Linux网络命令，收藏！ | https://mp.weixin.qq.com/s?__biz=MzUyNTExOTY1Nw==&mid=2247527270&idx=1&sn=8acdae8eb9546aa6c7da4278dcc3f43c | 5| 
@@ -152,7 +155,6 @@
 | 星盟安全 | None | 2024鹏城杯（初赛） WP | https://mp.weixin.qq.com/s?__biz=MzU3ODc2NTg1OA==&mid=2247491229&idx=1&sn=e2d1aab7474afc0b54613c7f00829e7e | 3| 
 | 智佳网络安全 | None | PWN-堆溢出导致任意地址写 | https://mp.weixin.qq.com/s?__biz=Mzk0NDYwOTcxNg==&mid=2247484983&idx=1&sn=ba5f251394468c525917e24bb2b6a728 | 1| 
 | 李白你好 | None | 资产收集常用工具以及思路总结 | https://mp.weixin.qq.com/s?__biz=MzkwMzMwODg2Mw==&mid=2247509314&idx=1&sn=4e286a1c43f839e3b4d15a33eac58c5e | 5| 
-| 浙大网安 | None | 区块链与数据安全全国重点实验室团队荣获NeurIPS’24国际人工智能安全竞赛冠军！ | https://mp.weixin.qq.com/s?__biz=Mzg5NDczNDc4NA==&mid=2247495327&idx=1&sn=70b4a2a0f5d42737973bfaf2f637519b | 2| 
 | 犀利猪安全 | None | 手拿把掐 , 一次要素过多的真实攻防复原记录，经典万年老洞拿下Shell，爽飞 | https://mp.weixin.qq.com/s?__biz=Mzk0NzQxNzY2OQ==&mid=2247487260&idx=1&sn=3e9c278ed62c84467df5ea442828435e | 5| 
 | 独眼情报 | None | PostgreSQL数据库存在高危漏洞CVE-2024-10979（8.8） | https://mp.weixin.qq.com/s?__biz=MzkzNDIzNDUxOQ==&mid=2247492449&idx=2&sn=ded00a05c99093340d9c413be00b1a5a | 16| 
 | 玄道夜谈 | None | 分享图片 | https://mp.weixin.qq.com/s?__biz=MzI3Njc1MjcxMg==&mid=2247493617&idx=1&sn=1871b51afeb8f8f9ec89230d922bea61 | 8| 
@@ -354,7 +356,6 @@
 | 深圳市网络与信息安全行业协会 | None | 国家密码管理局公告（49号） | https://mp.weixin.qq.com/s?__biz=MzU0Mzk0NDQyOA==&mid=2247520458&idx=2&sn=10cda7896fbe6f735c8bf57493f3d664 | 5| 
 | 渗透练习生 | None | 【罗村 , 畅乐水上乐园】仅￥38抢水上乐园上午场单人门票！2大2小仅136元抢原价272套票！罗畅乐 | https://mp.weixin.qq.com/s?__biz=Mzg4MzUyODY5NQ==&mid=2247485115&idx=1&sn=89a0173ca19cfb586909660b8be4a12c | 1| 
 | 生有可恋 | None | 不完美副屏方案 | https://mp.weixin.qq.com/s?__biz=Mzk0MTI4NTIzNQ==&mid=2247491967&idx=1&sn=469487f14a39041c18d9feff9a1e6224 | 1| 
-| 白泽安全实验室 | None | 新勒索软件Ymir的攻击过程深度分析 | https://mp.weixin.qq.com/s?__biz=MzI0MTE4ODY3Nw==&mid=2247492409&idx=1&sn=bad69bda681cbcd1c641bd3ed3b03cce | 5| 
 | 百度安全应急响应中心 | None | 沙龙报名｜“智效融合，安全护航”·深圳站 第七期「度安讲」 技术沙龙来了！ | https://mp.weixin.qq.com/s?__biz=MzA4ODc0MTIwMw==&mid=2652541815&idx=1&sn=be377d2a895edff502d9ee49217a0d2c | 1| 
 | 百灵猫开源情报分析师 | None | 第三弹：图像情报（IMINT）工具资源汇总（已验证无失效资源，全部可用） | https://mp.weixin.qq.com/s?__biz=MzkxMTA3MDk3NA==&mid=2247486658&idx=1&sn=f821f5056d21f1c26fba11fd61603e66 | 3| 
 | 知道创宇404实验室 | None | 原创 Paper , CodeQL 入门和基本使用 | https://mp.weixin.qq.com/s?__biz=MzAxNDY2MTQ2OQ==&mid=2650989722&idx=1&sn=4ee139f266525a694921823448fe4709 | 1| 
