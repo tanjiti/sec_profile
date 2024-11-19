@@ -23,7 +23,14 @@
 # 网络安全书籍 推荐
 | date_added | language | title | author | link | size| 
 | --- | --- | --- | --- | --- | ---| 
+| 2024-11-19 07:31:55 | English | Ultimate Python Programming | unknown | https://www.wowebook.org/ultimate-python-programming/ | unknown| 
+| 2024-11-19 07:20:38 | English | Mastering Python 3 Programming | unknown | https://www.wowebook.org/mastering-python-3-programming/ | unknown| 
+| 2024-11-19 06:03:33 | English | Learn Python Generative AI | unknown | https://www.wowebook.org/learn-python-generative-ai/ | unknown| 
+| 2024-11-19 05:52:23 | English | Mastering Large Language Models | unknown | https://www.wowebook.org/mastering-large-language-models/ | unknown| 
 | 2024-11-18 08:50:09 | English | Effective Python: 125 Specific Ways to Write Better Python, 3rd Edition | unknown | https://www.wowebook.org/effective-python-125-specific-ways-to-write-better-python-3rd-edition/ | unknown| 
+| 2024-11-18 17:32:28 | English | Python Apps on Visual Studio Code | unknown | https://www.wowebook.org/python-apps-on-visual-studio-code/ | unknown| 
+| 2024-11-18 16:58:50 | English | Advanced Python Guide | unknown | https://www.wowebook.org/advanced-python-guide/ | unknown| 
+| 2024-11-18 16:21:54 | English | Ultimate Data Science Programming in Python | unknown | https://www.wowebook.org/ultimate-data-science-programming-in-python/ | unknown| 
 | 2024-11-16 09:26:29 | English | Microsoft Power Platform For Dummies | Jack A. Hyman | http://libgen.st/book/index.php?md5=4632253D6649D23A4F444FA702849AC9 | 25 MB [PDF]| 
 | 2024-11-16 09:28:14 | English | Deep Dive into the Power Platform in the Age of Generative AI: Architectural Insights and Best Practices for Intelligent Business Solutions | Biswa Pujarini Mohapatra | http://libgen.st/book/index.php?md5=D1C4F1426509A823AF04AE86B09E28CE | 10 MB [PDF]| 
 | 2024-11-16 23:56:33 | English | Hands-On Prescriptive Analytics: Optimizing Your Decision Making with Python | Walter R. Paczkowski | http://libgen.st/book/index.php?md5=B7ADC999BF59D9AF894D592A84FD70CE | 15 MB [PDF]| 
@@ -719,48 +726,158 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
-| 360数字安全 | None | 再获认可！360多领域入选《2024年中国数据安全企业全景图》 | https://mp.weixin.qq.com/s?__biz=MzA4MTg0MDQ4Nw==&mid=2247576831&idx=2&sn=503b5b2c1a4bbf9ee6ac2405a7a948e8 | 141| 
+| 360威胁情报中心 | None | APT-C-36（盲眼鹰）近期伪造司法部门文件投DcRat后门事件分析 | https://mp.weixin.qq.com/s?__biz=MzUyMjk4NzExMA==&mid=2247504323&idx=1&sn=de030159ba855952133aa6d6162123ba | 19| 
+| 360数字安全 | None | 双奖加冕！360引领AI+安全新风向 | https://mp.weixin.qq.com/s?__biz=MzA4MTg0MDQ4Nw==&mid=2247576844&idx=1&sn=7e7b1b74092762d3517780631be7203b | 142| 
+| CISSP Learning | None | 如何保护人工智能商业模式 | https://mp.weixin.qq.com/s?__biz=MzIyMjYzNDgzMg==&mid=2247487587&idx=1&sn=ea8834b3c6caa65d60371ae1c838109c | 12| 
+| CertiK | None | CertiK专家受邀零知识验证研讨会，聚焦zkWasm验证成果与以太坊扩展计划 | https://mp.weixin.qq.com/s?__biz=MzU5OTg4MTIxMw==&mid=2247503585&idx=1&sn=a6b69bffc978ef9a6635216f2c7cc550 | 38| 
+| DataCon大数据安全分析竞赛 | None | DataCon2024 , 最新战报！武汉大学战队暂居两赛道榜首 | https://mp.weixin.qq.com/s?__biz=MzU5Njg1NzMyNw==&mid=2247488638&idx=1&sn=09c91ea7b535d77f0fa84484dbaf0994 | 10| 
+| Delta Insights | None | 网络安全动态 - 2024.11.19 | https://mp.weixin.qq.com/s?__biz=MzU1MzEzMzAxMA==&mid=2247487701&idx=1&sn=a32305cba45dc1e1bbd08121ad9446b1 | 22| 
+| FreeBuf | None | 如何使用flare-floss自动从恶意软件中提取混淆字符串 | https://mp.weixin.qq.com/s?__biz=MjM5NjA0NjgyMA==&mid=2651307419&idx=4&sn=988bf2f2c14a661a6de78028c5b81494 | 701| 
+| GSDK安全团队 | None | 资产管理系统 - testnet | https://mp.weixin.qq.com/s?__biz=MzIzNTE0Mzc0OA==&mid=2247485929&idx=1&sn=adc94bd0419a13d35756c5c6c4798acf | 38| 
+| HW专项行动小组 | None | 3.ASP.NET HttpListener型内存马 | https://mp.weixin.qq.com/s?__biz=MzkzNTUwNTg2Ng==&mid=2247485121&idx=1&sn=b48987c93023e727c19519cea89055cc | 8| 
+| HW安全之路 | None | 告别网络切换之痛：HTTP/3 开启移动互联网新篇章 | https://mp.weixin.qq.com/s?__biz=MzI5MjY4MTMyMQ==&mid=2247487330&idx=1&sn=b9e553f0054f14ab424195de2395149c | 58| 
+| Heihu Share | None | 工具分析 , Shiro 注入冰蝎内存马坑点小记 | https://mp.weixin.qq.com/s?__biz=MzkwMzQyMTg5OA==&mid=2247484867&idx=1&sn=c107f4f2e1f30e39e3e92b95955a55cc | 14| 
+| ISC2北京分会 | None | 大模型赋能威胁检测&安全运营实践 | https://mp.weixin.qq.com/s?__biz=MzAxMzEyMjQ4Mg==&mid=2688531240&idx=1&sn=aedb77ca7c32df25a9cec73f76d15e68 | 21| 
+| IoVSecurity | None | 智能网联汽车 数据合规白皮书 2022 - 大成律师事务所 | https://mp.weixin.qq.com/s?__biz=MzU2MDk1Nzg2MQ==&mid=2247615937&idx=3&sn=99f683a292a0ac0b7f9ee3527f89f509 | 439| 
+| Nick安全 | None | Deadpool代理池工具 | https://mp.weixin.qq.com/s?__biz=MzkxODI4NDg3Nw==&mid=2247484718&idx=2&sn=5d413127a61ff3d64b886dc0a2158521 | 2| 
+| OPPO安全中心 | None | 2024年10月奖励公告 | https://mp.weixin.qq.com/s?__biz=MzUyNzc4Mzk3MQ==&mid=2247493914&idx=1&sn=c8c04605a6832c2a3baa06f24ef27688 | 12| 
+| OneTS安全团队 | None | 红队攻防实战篇-冰蝎魔改 | https://mp.weixin.qq.com/s?__biz=MzkxMDY3MzQyNQ==&mid=2247484665&idx=1&sn=f0b9a331285bd997dc79a512cd656fc5 | 10| 
+| Ots安全 | None | 2024 年 ANY.RUN 沙箱的5 种最常见的恶意软件技术 | https://mp.weixin.qq.com/s?__biz=MzAxMjYyMzkwOA==&mid=2247524360&idx=3&sn=5701c71872421bae4e599f9eb14b596a | 372| 
+| Timeline Sec | None | 内推 , 阿里影业高级安全工程师岗火热招聘中 | https://mp.weixin.qq.com/s?__biz=MzA4NzUwMzc3NQ==&mid=2247496800&idx=1&sn=6067d9026610a838cdd4a97145ce903a | 40| 
+| YY的黑板报 | None | 谋略与协作：《十日终焉》中游戏的外部拓展 | https://mp.weixin.qq.com/s?__biz=Mzg5NzY5NjM5Mg==&mid=2247484955&idx=1&sn=05241aeabdef0fefe99b083c035b5e75 | 10| 
+| Z2O安全攻防 | None | 红队安全攻防知识库 | https://mp.weixin.qq.com/s?__biz=Mzg2ODYxMzY3OQ==&mid=2247517233&idx=2&sn=80d3c683eee63d9281d92d0932065849 | 197| 
+| rainy的安全小屋 | None | 一个很强的漏洞库 | https://mp.weixin.qq.com/s?__biz=MzkxMzczNTA4MQ==&mid=2247483895&idx=1&sn=3da0b8ac30f8d6f1da127c9216651fe0 | 2| 
+| securitainment | None | BOF 开发 - 无需 DFR 编写 Beacon 对象文件 | https://mp.weixin.qq.com/s?__biz=MzAxODM5ODQzNQ==&mid=2247485194&idx=1&sn=4c80eda19ec992b0f6226d3a933f90a3 | 11| 
+| simple学安全 | None | 一文读懂SQL注入漏洞 | https://mp.weixin.qq.com/s?__biz=Mzk0NTY5Nzc1OA==&mid=2247484111&idx=1&sn=1d68bc0bb4221a6de04c1b1dc818eafa | 8| 
+| solar专业应急响应团队 | None | 【病毒分析】揭秘.mkp后缀勒索病毒！Makop家族变种如何进行可视化加密？ | https://mp.weixin.qq.com/s?__biz=MzkyOTQ0MjE1NQ==&mid=2247493346&idx=1&sn=f4e4ba03c43332158456bed4399409e9 | 27| 
+| 一起聊安全 | None | 过密评需要哪些安全设备？ | https://mp.weixin.qq.com/s?__biz=MzI3NjUzOTQ0NQ==&mid=2247516032&idx=1&sn=57c8c8155cb28c7e1b5141b2cf620c2b | 79| 
+| 万径安全 | None | YAK 亮相2024年世界互联网大会！携手中国联通共塑网络安全新生态 | https://mp.weixin.qq.com/s?__biz=MzIwMzI1MDg2Mg==&mid=2649945063&idx=1&sn=e933d8e9d2243641c8f007c652caad48 | 22| 
+| 中国信息安全 | None | 评论 , 为“吃谷”未成年人构建防诈安全网 | https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664229927&idx=8&sn=641b79e03fe1cefeb6429558cb48a528 | 791| 
+| 中国软件评测中心 | None | 多足赛道复赛收官！2024年中关村仿生机器人大赛赛事亮点纷呈 | https://mp.weixin.qq.com/s?__biz=MjM5NzYwNDU0Mg==&mid=2649248079&idx=2&sn=f186ec93363099e289ba6cb8122ac2fa | 188| 
+| 乌雲安全 | None | 安全圈跳槽 字节跳动安全招聘！ | https://mp.weixin.qq.com/s?__biz=MzAwMjA5OTY5Ng==&mid=2247524930&idx=1&sn=efdcbec67f97eb468365789a521e4883 | 127| 
+| 二道情报贩子 | None | 日常避险攻略 | https://mp.weixin.qq.com/s?__biz=MzU5NTA3MTk5Ng==&mid=2247489640&idx=1&sn=088cbcbd04083674ce0fe4a115fdd408 | 1| 
+| 亚信安全 | None | 高危！Laravel参数注入漏洞安全风险通告 | https://mp.weixin.qq.com/s?__biz=MjM5NjY2MTIzMw==&mid=2650619819&idx=2&sn=e0594a7fbc40c3e7038dfb867b72a41b | 165| 
+| 京数安 | None | 算法备案，看这篇就够了！ | https://mp.weixin.qq.com/s?__biz=Mzg4OTY4MDA2MA==&mid=2247491581&idx=1&sn=d1e30b97d93fcbf9037bb1f39ffe8639 | 12| 
+| 亿人安全 | None | AI 大模型安全实践指南 | https://mp.weixin.qq.com/s?__biz=Mzk0MTIzNTgzMQ==&mid=2247518281&idx=1&sn=b94333e124d0adf99618bbd829b6d5b0 | 85| 
+| 代码卫士 | None | DHS发布在关键基础设施安全开发部署AI的框架 | https://mp.weixin.qq.com/s?__biz=MzI2NTg4OTc5Nw==&mid=2247521523&idx=2&sn=9222522f67aa6bada64bed055a3adfeb | 221| 
+| 信息安全D1net | None | Okta的失败对2025年身份安全的未来有何启示 | https://mp.weixin.qq.com/s?__biz=MzA3NTIyNzgwNA==&mid=2650259489&idx=1&sn=677ed702954ef7751d97fb85880046c6 | 50| 
+| 信息安全与网络安全 | None | 捷报！CISA再次入选上海市境外职业资格证书认可清单 | https://mp.weixin.qq.com/s?__biz=Mzg4NTU3NjY2OQ==&mid=2247488186&idx=1&sn=be5c7df98e7b14fd44d727d047b5e121 | 10| 
+| 信息安全大事件 | None | 防火墙管理界面RCE漏洞被攻击者利用，Palo Alto发出警告 | https://mp.weixin.qq.com/s?__biz=MzkzNjIzMjM5Ng==&mid=2247489988&idx=1&sn=86427522d5972cadf175076db1b99d71 | 51| 
+| 信息安全研究 | None | 【业界动态】国家数据局召开数据特性及作用发挥专家研讨会 | https://mp.weixin.qq.com/s?__biz=MzA3NzgzNDM0OQ==&mid=2664991345&idx=3&sn=09042fb49127f498d5e2e4eaa253b33e | 336| 
+| 全球技术地图 | None | 美国国防部发起成立“政府-行业”海事安全联盟 | https://mp.weixin.qq.com/s?__biz=MzI1OTExNDY1NQ==&mid=2651617188&idx=2&sn=cdb69a6c935821673539c4263dbf6a3e | 292| 
+| 公安部网络安全等级保护中心 | None | 关于征集《网络安全技术 网络安全等级保护测评机构能力要求和评估规范》标准参编单位的通知 | https://mp.weixin.qq.com/s?__biz=MzU3NTQwNDYyNA==&mid=2247488296&idx=1&sn=17dfceb1a73929aea748769d5a286ecc | 13| 
+| 冷漠安全 | None | 「漏洞复现」D-Link NAS设备 sc_mgr.cgi 未授权漏洞 | https://mp.weixin.qq.com/s?__biz=MzkyNDY3MTY3MA==&mid=2247486072&idx=1&sn=7558c8a2becda935fa6b7237363f864e | 101| 
+| 利刃信安 | None | 【商密测评】商密测评 物理和环境安全（基本要求、测评要求、测评对象、注意事项、推荐应用、密评改造、测评指导、典型产品、证据截图） | https://mp.weixin.qq.com/s?__biz=MzU1Mjk3MDY1OA==&mid=2247518685&idx=4&sn=013d02eb96098a0c91ec456ee0a67e19 | 169| 
+| 励行安全 | None | 干货 , 堡垒机到底是个啥？和堡垒有啥关系 | https://mp.weixin.qq.com/s?__biz=MzkxNTY4NTQwMg==&mid=2247484019&idx=1&sn=97b7f632ed6e3f3337ce1f17ffc45a47 | 7| 
+| 北京路劲科技有限公司 | None | linux系统部署docker | https://mp.weixin.qq.com/s?__biz=MzUyMjAyODU1NA==&mid=2247491694&idx=1&sn=d5d393321de204a62ac1adad31a621fb | 15| 
+| 卡巴斯基网络安全大百科 | None | Lumma/Amadey：假验证码想知道你是不是人类 | https://mp.weixin.qq.com/s?__biz=MzAxNjg3MjczOA==&mid=2247486315&idx=1&sn=7ebbc3e6a93dfc1962c1ae51c337f63f | 15| 
+| 吉祥讲安全 | None | 特朗普上台，刀刀砍向网络安全 | https://mp.weixin.qq.com/s?__biz=MzkwNjY1Mzc0Nw==&mid=2247486445&idx=2&sn=6234431fe0ba8a6c7a9e64a972ac1eeb | 2| 
+| 启明星辰安全简讯 | None | 【漏洞通告】Palo Alto Networks PAN-OS身份验证绕过漏洞（CVE-2024-0012） | https://mp.weixin.qq.com/s?__biz=MzkzNzY5OTg2Ng==&mid=2247500250&idx=2&sn=23d9e2dfb43ea4293d20489c3cbccb9e | 225| 
+| 启明星辰集团 | None | 引领绿色生活 推动生态文明建设——启明星辰集团党委开展“低碳环保素食月”活动 | https://mp.weixin.qq.com/s?__biz=MzA3NDQ0MzkzMA==&mid=2651729389&idx=1&sn=2e25da7b0d31ef3ca38e857efa1bd336 | 113| 
+| 喵苗安全 | None | 【招聘】平安银河实验室招人啦，严选可内推～ | https://mp.weixin.qq.com/s?__biz=Mzg5MjkwODc4MA==&mid=2247485617&idx=1&sn=6bcfc862a3f42feb23fc6d14cdd662e1 | 17| 
+| 国家互联网应急中心CNCERT | None | 上周关注度较高的产品安全漏洞(20241111-20241117) | https://mp.weixin.qq.com/s?__biz=MzIwNDk0MDgxMw==&mid=2247499470&idx=2&sn=d9bbe418f8309153c86b2c38bdb82f17 | 40| 
+| 国际云安全联盟CSA | None | 互联网之父、谷歌副总裁Vinton G. Cerf , 确保数字空间的责任 | https://mp.weixin.qq.com/s?__biz=MzkwMTM5MDUxMA==&mid=2247500642&idx=2&sn=d48a060eec68e6b0f7223f61feb6e331 | 53| 
+| 复旦白泽战队 | None | 喜报 , 我实验室获“松山湖杯”第一届中国研究生操作系统开源创新大赛二等奖 | https://mp.weixin.qq.com/s?__biz=MzU4NzUxOTI0OQ==&mid=2247491566&idx=1&sn=8bd96580ae9734b5dbe0f672d1a9907a | 28| 
+| 天御攻防实验室 | None | 首发 , 特朗普政府对华网络政策评估 | https://mp.weixin.qq.com/s?__biz=MzU0MzgyMzM2Nw==&mid=2247486086&idx=1&sn=15241eb0ec346072671268fe20014acb | 39| 
+| 天融信 | None | 天融信出席2024操作系统大会麒麟软件创新分论坛，探讨AI+安全 | https://mp.weixin.qq.com/s?__biz=MzA3OTMxNTcxNA==&mid=2650952713&idx=3&sn=c18a2af8db4c4361124fd4e0efe4e340 | 156| 
+| 奇安信集团 | None | 奇安信出席浪潮云智能生态出海合作交流大会并签署战略合作 | https://mp.weixin.qq.com/s?__biz=MzU0NDk0NTAwMw==&mid=2247622009&idx=3&sn=bb1f621eeefb65a7e636d2b224696e56 | 305| 
+| 字节跳动技术团队 | None | 又稳又快！基于ByteHouse ELT构建高性能离/在线一体化数仓 | https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247511397&idx=1&sn=88f208a8ee67f0f303bcd6b287a70975 | 93| 
+| 安世加 | None | 安全聘 , 金蝶招人啦 | https://mp.weixin.qq.com/s?__biz=MzU2MTQwMzMxNA==&mid=2247540687&idx=1&sn=82c5a0c8eeb65a16c51ae0ab3e295e92 | 146| 
+| 安信安全 | None | 2024年最危险的十大恶意软件 | https://mp.weixin.qq.com/s?__biz=MzAxNTYwOTU1Mw==&mid=2650092473&idx=1&sn=8e97c71bce0df2dd1d38fee2b2ea439b | 105| 
+| 安全419 | None | 案例征集xa0, 合规门槛高安全建设滞后 政府行业需要怎样的安全保障？ | https://mp.weixin.qq.com/s?__biz=MzUyMDQ4OTkyMg==&mid=2247545131&idx=1&sn=e5faeaeadd129cd37f7ef4ac1771dac1 | 173| 
+| 安全内参 | None | 瑞典发布数字化备战指南，强调网络安全和心理建设 | https://mp.weixin.qq.com/s?__biz=MzI4NDY2MDMwMw==&mid=2247513105&idx=2&sn=02726533801188ef760cd73c0f745071 | 233| 
+| 安全圈 | None | 【安全圈】VMware vCenter Server远程代码执行漏洞正被黑客广泛利用 | https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652066082&idx=4&sn=c7244d3c2cda936e8c968cf0a2ade6d0 | 671| 
+| 安全学术圈 | None | Tor Project , 一个使用临时WebRTC的审查规避系统——Snowflake | https://mp.weixin.qq.com/s?__biz=MzU5MTM5MTQ2MA==&mid=2247491398&idx=1&sn=2f6dfdc343502405d1889ebc6c6270e7 | 58| 
+| 安全极客 | None | 【论文速读】, 通过良性数据镜像对大语言模型进行隐蔽越狱攻击 | https://mp.weixin.qq.com/s?__biz=MzkzNDUxOTk2Mw==&mid=2247495150&idx=1&sn=7dbdf94f68382feb66892595971d54dc | 79| 
+| 安全牛课堂 | None | 终于有人把CISP2个方向说明白了 | https://mp.weixin.qq.com/s?__biz=MzIxNTM4NDY2MQ==&mid=2247514116&idx=1&sn=ae6112c620d4d9c6adae8318f387e222 | 125| 
+| 安全狗 | None | 信立方安全大模型亮相“2024年清华大学国家卓越工程师学院工程博士论坛” | https://mp.weixin.qq.com/s?__biz=MjM5NTc2NDM4MQ==&mid=2650842027&idx=1&sn=6cfab2641aa1924bf40de483dde6222f | 38| 
+| 安全研究GoSSIP | None | G.O.S.S.I.P 资源推荐 2024-11-19 办公软件宇宙 | https://mp.weixin.qq.com/s?__biz=Mzg5ODUxMzg0Ng==&mid=2247499229&idx=1&sn=425357d6ef4181bd6492c1bb710895de | 91| 
+| 安全管理杂谈 | None | 人生如戏，戏如人生 | https://mp.weixin.qq.com/s?__biz=MzI5MjEyOTE4MA==&mid=2648520026&idx=1&sn=9ae63dfb024e565591918e1d0821cafb | 5| 
+| 安全视安 | None | 【翻译】解析 Earth Estries 在长期网络行动中的持久 TTP | https://mp.weixin.qq.com/s?__biz=Mzg4NzgzMjUzOA==&mid=2247485317&idx=1&sn=ea75f2240d18c36b1088668fc23107cf | 33| 
+| 安在 | None | 黑客利用机器学习发动攻击的十种方式 | https://mp.weixin.qq.com/s?__biz=MzU5ODgzNTExOQ==&mid=2247631744&idx=2&sn=3ad3f680f9b2349aad3c7416be1d47f5 | 350| 
+| 安恒信息CERT | None | 【风险通告】Palo Alto Networks PAN-OS存在身份验证绕过漏洞（CVE-2024-0012） | https://mp.weixin.qq.com/s?__biz=MzUzOTE2OTM5Mg==&mid=2247490175&idx=1&sn=8a88f13080b38ee937638a6ab1a1a319 | 57| 
+| 安知讯 | None | 湖南一信息技术公司未履行数据安全保护义务被罚 | https://mp.weixin.qq.com/s?__biz=MzIxMDIwODM2MA==&mid=2653931107&idx=1&sn=e8b0a9918c7d71a6436a63c053d63d5c | 198| 
+| 山石网科新视界 | None | 客户面对面｜山石网科秋实行动走进河南 | https://mp.weixin.qq.com/s?__biz=MzAxMDE4MTAzMQ==&mid=2661295590&idx=3&sn=00203ce6604906b30ed0f4e8761f6581 | 73| 
+| 工业互联网标识智库 | None | 议程来了！2024中国5G+工业互联网大会——工业互联网标识暨“百城千园行”分论坛11月20日即将举办 | https://mp.weixin.qq.com/s?__biz=MzU1OTUxNTI1NA==&mid=2247591508&idx=1&sn=7177e4623b1ff27e506e96ef54ddcf01 | 171| 
+| 工业信息安全产业发展联盟 | None | 重要通知丨第八届“强网杯”全国网络安全挑战赛线上赛获奖名单及线下赛拟入围名单公布 | https://mp.weixin.qq.com/s?__biz=MzUyMzA1MTM2NA==&mid=2247498666&idx=2&sn=06495c71a5a2002b05c7e1c4d71de03c | 83| 
+| 工业安全产业联盟平台 | None | 荐读丨数据基础设施构建与密码技术支撑 | https://mp.weixin.qq.com/s?__biz=MzI2MDk2NDA0OA==&mid=2247530235&idx=2&sn=a0f5e4c88d357ebcd8d0fed241ac5901 | 46| 
+| 开源网安 | None | 湖北某高校联合开源网安打造协同育人新范式，推动智能网联汽车行业可持续发展 | https://mp.weixin.qq.com/s?__biz=MzI0NzY1MDgyMw==&mid=2247513216&idx=1&sn=dc8f5ac31340da7a1c281c007419b66c | 32| 
+| 强网竞赛 | None | 共话网络安全，第八届强网论坛重磅来袭！ | https://mp.weixin.qq.com/s?__biz=Mzg4MjY3NDQ2Ng==&mid=2247487522&idx=3&sn=2dfbe159458553f1eb562d85e4530e99 | 12| 
+| 微步在线研究响应中心 | None | 不是老洞！宝兰德最新漏洞绕过补丁黑名单，速修 | https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247507416&idx=1&sn=6eb8217321fbe1a5361675058bc55882 | 36| 
+| 慢雾科技 | None | 慢雾(SlowMist) 应中国人民公安大学邀请，讲授区块链安全攻防课程 | https://mp.weixin.qq.com/s?__biz=MzU4ODQ3NTM2OA==&mid=2247500648&idx=1&sn=b03fe50bb0a92671b4e985a112896786 | 47| 
+| 攻防之道 | None | AI 已经强大如此了么 | https://mp.weixin.qq.com/s?__biz=MzIyNDcwODgwMA==&mid=2247485318&idx=1&sn=e1fbc7d968a0ab334872568c7e1f7fe9 | 4| 
+| 数世咨询 | None | 《数据泄露态势月度报告》（2024年11月）, 附下载地址 | https://mp.weixin.qq.com/s?__biz=MzkxNzA3MTgyNg==&mid=2247529480&idx=1&sn=6e5157f71e10ae44274585c2da77dfc3 | 173| 
+| 暗影安全 | None | 实名制方便了谁？ | https://mp.weixin.qq.com/s?__biz=MzI2MzA3OTgxOA==&mid=2657165632&idx=1&sn=5f16e612d37a682602c18f85da430fc9 | 17| 
+| 有度安全 | None | 网安资讯 , 马自达车载系统曝安全缺陷，可通过USB接口劫持车辆 | https://mp.weixin.qq.com/s?__biz=Mzg3NTEyMzU4OA==&mid=2247513315&idx=1&sn=20e0693b8ad33ac41f615835be9e2274 | 4| 
+| 梆梆安全 | None | 梆梆安全发布《2024年Q3移动应用安全风险报告》，全国66.12% Android APP涉及隐私违规现象 | https://mp.weixin.qq.com/s?__biz=MjM5NzE0NTIxMg==&mid=2651134521&idx=1&sn=124ba61bf5afdbc5adb17b9be07271a1 | 73| 
+| 河北镌远网络科技有限公司 | None | 【漏洞复现】D-Link NAS设备 sc_mgr.cgi 未授权RCE漏洞复现 | https://mp.weixin.qq.com/s?__biz=MzU3MzU4NjI4OQ==&mid=2247515427&idx=1&sn=fb8b05f7d8f4fef283c82153244d0dca | 5| 
+| 泛安全 | None | 原创文章目录 | https://mp.weixin.qq.com/s?__biz=MzU3NjQ5NTIxNg==&mid=2247485220&idx=6&sn=0225575208fdb26e2966534c51d8790c | 88| 
+| 泰晓科技 | None | TinyBPT 和面向 buildroot 的二进制包管理服务（1）：设计简介与框架 | https://mp.weixin.qq.com/s?__biz=MzA5NDQzODQ3MQ==&mid=2648194257&idx=1&sn=d541ca263d43b85934d19efcdae66745 | 35| 
+| 泾弦安全 | None | config文件泄露 | https://mp.weixin.qq.com/s?__biz=Mzk0MzU5NTg1Ng==&mid=2247484834&idx=1&sn=dadad5aa217d6bcf5f1c628c17f39767 | 28| 
+| 深信服千里目安全技术中心 | None | 上周关注度较高的产品安全漏洞(20241111-20241117) | https://mp.weixin.qq.com/s?__biz=Mzg2NjgzNjA5NQ==&mid=2247523853&idx=3&sn=fab3ee466334a0022b2df23ab6a23217 | 65| 
+| 深圳市网络与信息安全行业协会 | None | 网络安全态势研判分析报告（第13期） | https://mp.weixin.qq.com/s?__biz=MzU0Mzk0NDQyOA==&mid=2247520540&idx=1&sn=037703972cd61a95370fa9fd8634b83d | 94| 
+| 深夜笔记本 | None | Grok-2 公测了，你们都用上了吗？还不过来看看 | https://mp.weixin.qq.com/s?__biz=MjM5Nzk3MjMzMA==&mid=2650570174&idx=1&sn=9bb699c9370dae7e65806b514e17fe8b | 5| 
+| 白帽攻防 | None | 【漏洞复现】D-Link  NAS 远程命令执行漏洞(CVE-2024-3273) | https://mp.weixin.qq.com/s?__biz=MzkyMjcxNzE2MQ==&mid=2247484334&idx=1&sn=bfd4f94e969ee9f8e7ec653c0feae32a | 11| 
+| 白泽安全实验室 | None | 朝鲜黑客利用Flutter应用绕过macOS安全机制 | https://mp.weixin.qq.com/s?__biz=MzI0MTE4ODY3Nw==&mid=2247492418&idx=1&sn=e8147d257ac60e3dc41b2209b25ce96c | 32| 
+| 百度安全 | None | CSA GCR 2024 , 深度解析大模型原生安全的系统构建 | https://mp.weixin.qq.com/s?__biz=MjM5MTAwNzUzNQ==&mid=2650510928&idx=1&sn=50f1434059e11c5cecd96fe050088c5b | 20| 
+| 百度安全实验室 | None | CSA GCR 2024 , 深度解析大模型原生安全的系统构建 | https://mp.weixin.qq.com/s?__biz=MzA3NTQ3ODI0NA==&mid=2247487459&idx=1&sn=c2d849d7331779d849b3529eb6fc5f6e | 24| 
+| 百灵猫开源情报分析师 | None | 为什么你的谷歌搜索不够精准？ | https://mp.weixin.qq.com/s?__biz=MzkxMTA3MDk3NA==&mid=2247486733&idx=1&sn=f65589c579b5eca1844c0af558c48ce0 | 8| 
+| 看雪学苑 | None | Linux pwn 探索篇 | https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458583218&idx=3&sn=95aecb4d56e0e2fd2fc111e10dc81910 | 493| 
+| 矢安科技 | None | 漏洞预警｜Palo Alto Networks PAN-OSS身份验证绕过等多个漏洞 | https://mp.weixin.qq.com/s?__biz=Mzg2Mjc3NTMxOA==&mid=2247515356&idx=2&sn=d677b50ea4f958d207cd6a3c772fe0b8 | 29| 
+| 知道创宇 | None | 防范勒索攻击技术研讨会圆满落幕：关保联盟携手知道创宇 共促关键信息基础设施安全防护能力升级 | https://mp.weixin.qq.com/s?__biz=MjM5NzA3Nzg2MA==&mid=2649870075&idx=1&sn=77700a6d0742d097935cdec51e4a6c2a | 56| 
+| 粵港澳大灣區網絡安全協會 | None | 官宣 , 恭贺2024年亚太U30杰出青年领袖榜单揭晓，粤港澳大湾区网络安全协会与亚太青年企业家理事会战略支持 | https://mp.weixin.qq.com/s?__biz=MzkwOTUyODE5Mg==&mid=2247485431&idx=2&sn=465c4544e1a5db26ecd161c13451962a | 29| 
+| 绿盟科技 | None | 深化产学研合作 , 北京外国语大学信息科学技术学院领导一行莅临绿盟科技参观交流 | https://mp.weixin.qq.com/s?__biz=MjM5ODYyMTM4MA==&mid=2650462088&idx=2&sn=86a10563bf9120f112dcd81b209c642a | 229| 
+| 网星安全 | None | 网星安全：迈向ITDR 身份安全未来可期 | https://mp.weixin.qq.com/s?__biz=MzkxNTEzMTA0Mw==&mid=2247496002&idx=1&sn=71452e6b30c0b913e84540babb11b4bf | 17| 
+| 网络与信息法学会 | None | 【资讯】江苏省政府办公厅发布《省政府办公厅关于加快释放数据要素价值培育壮大数据产业的意见》 | https://mp.weixin.qq.com/s?__biz=MzU1NDY3NDgwMQ==&mid=2247547488&idx=5&sn=6bcbb1ae96939ca94274c46c19d50227 | 260| 
+| 网络安全与人工智能研究中心 | None | 谷歌Gemini咒骂学生凸显AI失控风险 | https://mp.weixin.qq.com/s?__biz=MzkwMTQyODI4Ng==&mid=2247494787&idx=3&sn=d347b94f34601f1a020c07904ca2d430 | 36| 
+| 网络安全和信息化 | None | IC China 2024在京开幕 | https://mp.weixin.qq.com/s?__biz=MjM5MzMwMDU5NQ==&mid=2649168819&idx=2&sn=cca7b0c8d1fcfbe9d7ac06a6e8a38531 | 273| 
+| 网络安全学习爱好者 | None | SSH软链接后门利用和原理 | https://mp.weixin.qq.com/s?__biz=Mzk0MzI2NzQ5MA==&mid=2247486702&idx=1&sn=550b1733ca90797a9acb16b3504e9463 | 6| 
+| 网络技术干货圈 | None | 这100个网络基础知识一定要收藏，网络工程师必知！ | https://mp.weixin.qq.com/s?__biz=MzUyNTExOTY1Nw==&mid=2247527301&idx=1&sn=9c6d446f7cead7fb548f65ef30ae1f5c | 66| 
+| 网络技术联盟站 | None | 什么是广播风暴？如何解决广播风暴问题？ | https://mp.weixin.qq.com/s?__biz=MzIyMzIwNzAxMQ==&mid=2649462958&idx=1&sn=2dfb341d095f5d94837906b5323d8b5b | 140| 
+| 网络空间内生安全大会 | None | 聚焦内生安全 迎接网络韧性新时代——第四届网络空间内生安全学术大会倒计时2天 | https://mp.weixin.qq.com/s?__biz=MzkwOTI5NzIzMA==&mid=2247484015&idx=2&sn=c0aeb209d86c3f0621e0d4e593b24a4a | 4| 
+| 羽泪云小栈 | None | pwn109-ret2libc | https://mp.weixin.qq.com/s?__biz=MzkxMjYyMjA3Mg==&mid=2247485279&idx=1&sn=5a364b58f2dc06c59b6e2a98fc20c669 | 6| 
+| 腾讯安全 | None | 全民反电诈，金融机构如何平衡“防范诈骗”与“顺利展业”？ | https://mp.weixin.qq.com/s?__biz=Mzg5OTE4NTczMQ==&mid=2247525582&idx=1&sn=792621e078e4fece7947992867e710f4 | 50| 
+| 腾讯玄武实验室 | None | 每日安全动态推送(24/11/19) | https://mp.weixin.qq.com/s?__biz=MzA5NDYyNDI0MA==&mid=2651959904&idx=1&sn=f4740226410b7e506bee782d261e0d90 | 76| 
+| 草帽一只尔 | None | 新书推荐：《OSINT 技术》第11版 | https://mp.weixin.qq.com/s?__biz=Mzg2MTg3NzQ5OQ==&mid=2247485437&idx=1&sn=60ce0d4fdfaa5ba15846c528bb733be0 | 16| 
+| 菜狗安全 | None | JAVA安全-手搓内存马系列-Servlet | https://mp.weixin.qq.com/s?__biz=Mzg4MzkwNzI1OQ==&mid=2247485441&idx=1&sn=4bf64f296282c6f421777d3e36ffecc0 | 17| 
+| 蚁景网安 | None | JS前端逆向实战 | https://mp.weixin.qq.com/s?__biz=MzkyNTY3Nzc3Mg==&mid=2247487703&idx=1&sn=d2e12922f0dc7511e7fa5f3bc0836590 | 61| 
+| 蚁景网络安全 | None | 【免费领】全网最贴近实战的Web安全开发测试技术教程 | https://mp.weixin.qq.com/s?__biz=MzkxNTIwNTkyNg==&mid=2247551611&idx=2&sn=79837a71db93c313445d2533a3475095 | 38| 
+| 谈思实验室 | None | 车联网安全-TARA分析 | https://mp.weixin.qq.com/s?__biz=MzIzOTc2OTAxMg==&mid=2247546319&idx=2&sn=4aba616ad18474564ff89091941026de | 411| 
+| 赛博研究院 | None | 四部委关于发布《中华人民共和国两用物项出口管制清单》的公告 | https://mp.weixin.qq.com/s?__biz=MzUzODYyMDIzNw==&mid=2247514650&idx=3&sn=66c03ad84b2ab31d0e34bb7fdcf57ed5 | 154| 
+| 赛查查 | None | 赛事通知 , 第四届“网鼎杯”网络安全大赛决赛阶段日程安排及注意事项 | https://mp.weixin.qq.com/s?__biz=Mzk0NTU0ODc0Nw==&mid=2247490080&idx=1&sn=8582c7f8354ffb41b105136d9789f7f7 | 77| 
+| 迪哥讲事 | None | 如何快速找到 RCE | https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247496371&idx=1&sn=93ad4b6d65fb25b94f1496a72fb90ad1 | 151| 
+| 透明魔方 | None | Kano模型 | https://mp.weixin.qq.com/s?__biz=MzI4NzA1Nzg5OA==&mid=2247485544&idx=3&sn=6e54cc5c15ed9d80f388d8d24f316dee | 49| 
+| 钟毓安全 | None | 病毒：一群难杀得00后 | https://mp.weixin.qq.com/s?__biz=MzkzNjM5NDU0OA==&mid=2247486192&idx=1&sn=a710315bd9da7cc275c64faac28c2ac6 | 17| 
+| 长亭安全观察 | None | 盘点｜2024年10种危险恶意软件 | https://mp.weixin.qq.com/s?__biz=MzkyNDUyNzU1MQ==&mid=2247486249&idx=1&sn=0a316a7e9341eb00876131460759a788 | 69| 
+| 长风安全 | None | 小程序抓包｜Clash与mitmdump自动化加解密实践 | https://mp.weixin.qq.com/s?__biz=Mzg4MDkyMTE4OQ==&mid=2247484935&idx=1&sn=ea4bf7ec1964bcebb386fe7b01913200 | 15| 
+| 青春计协 | None | 钓鱼邮件(1) | https://mp.weixin.qq.com/s?__biz=Mzg4MzU3MTcwNg==&mid=2247486036&idx=1&sn=a07d24d7708838a4d15d496416de4dd3 | 15| 
+| 顺丰安全应急响应中心 | None | 顺丰安全漏洞评分规则更新公告 | https://mp.weixin.qq.com/s?__biz=MzU3OTAyODk4MQ==&mid=2247490987&idx=1&sn=aa4712f028a5b83328bf471fc49512b2 | 22| 
+| 马哥网络安全 | None | 很强的一款恶意软件反检测工具 | https://mp.weixin.qq.com/s?__biz=MzkxMzMyNzMyMA==&mid=2247567446&idx=2&sn=428cd3a38a760d6e7b0a101577243dd6 | 114| 
+| 魔方安全 | None | 荣耀加冕｜魔方安全连续三年获得“CSA 安全创新奖” | https://mp.weixin.qq.com/s?__biz=MzI3NzA5NDc0MA==&mid=2649291869&idx=1&sn=458a565e3a9c304a0a57b3ce441dc3a8 | 45| 
+| 默安科技 | None | 雳鉴SSCRA·软件供应链风险评估平台升级版正式发布 | https://mp.weixin.qq.com/s?__biz=MzIzODQxMjM2NQ==&mid=2247499563&idx=1&sn=f5c7bb8781dbb88dfac19e9bc8b0f468 | 29| 
 | BurpSuite实战教程 | None | 这是一个SQL注入的优秀资源精选（1） | https://mp.weixin.qq.com/s?__biz=MzU5NzQ3NzIwMA==&mid=2247486188&idx=1&sn=7abf9629e8293b0a6b43fb766434861d | 18| 
 | CAICT可信安全 | None | T/CCSA 567-2024《面向云的工作负载保护平台能力要求》标准正式发布 | https://mp.weixin.qq.com/s?__biz=Mzk0MjM1MDg2Mg==&mid=2247501865&idx=1&sn=697aed3276960279f8b168cf731a0315 | 42| 
 | CNVD漏洞平台 | None | 上周关注度较高的产品安全漏洞(20241111-20241117) | https://mp.weixin.qq.com/s?__biz=MzU3ODM2NTg2Mg==&mid=2247495506&idx=2&sn=4f47a0a0b8cf7c2347c48af444867c9c | 51| 
 | CatalyzeSec | None | 一个简单的静态免杀 | https://mp.weixin.qq.com/s?__biz=MzkxNjY1MjY3OQ==&mid=2247487931&idx=1&sn=3f37c7258f17c095e5286950bbd7ecfd | 39| 
-| DataCon大数据安全分析竞赛 | None | DataCon2024 , 赛程过半，五大赛道最新排名公布 | https://mp.weixin.qq.com/s?__biz=MzU5Njg1NzMyNw==&mid=2247488632&idx=1&sn=6fa5f5846d72b7e98694530b4c692c2c | 9| 
-| Delta Insights | None | 网络安全动态 - 2024.11.18 | https://mp.weixin.qq.com/s?__biz=MzU1MzEzMzAxMA==&mid=2247487172&idx=1&sn=4a8ef9556ff945997658df89ced24012 | 21| 
-| FreeBuf | None | RustiveDump：一款基于NT系统调用的LSASS内存转储工具 | https://mp.weixin.qq.com/s?__biz=MjM5NjA0NjgyMA==&mid=2651307356&idx=4&sn=5c399ceb87e7a6aa39497c6d7dd35364 | 697| 
-| HW安全之路 | None | Web安全小白看不懂HTTP协议？一文带你精通HTTP基础知识，Web安全入门必读 | https://mp.weixin.qq.com/s?__biz=MzI5MjY4MTMyMQ==&mid=2247487120&idx=1&sn=e3f0df17b5e89600f7d96e60e211a01c | 57| 
-| IoVSecurity | None | 无人机系统自主安全- 定义、建模与分级 | https://mp.weixin.qq.com/s?__biz=MzU2MDk1Nzg2MQ==&mid=2247615867&idx=3&sn=387f8d14a67f58319de572ea305e9ee6 | 436| 
 | Khan安全攻防实验室 | None | 我不说话的时候代表我没有说话 | https://mp.weixin.qq.com/s?__biz=MzAwMjQ2NTQ4Mg==&mid=2247495662&idx=1&sn=a7794f403c359597504443b135a54b3c | 155| 
 | M01N Team | None | 绿盟科技 AISS 大模型安全知识库邀您共创（内附邀请码） | https://mp.weixin.qq.com/s?__biz=MzkyMTI0NjA3OA==&mid=2247493869&idx=1&sn=cd770b43658abbb35868a27a96a4456d | 27| 
 | OSINT研习社 | None | Follow｜下一代阅读器使用攻略（文末抽奖送follow激活码） | https://mp.weixin.qq.com/s?__biz=Mzg4MzA4NTM0OA==&mid=2247492782&idx=1&sn=f4582d8b8feb7b8da19db31a7bc74328 | 52| 
-| Ots安全 | None | 网络钓鱼电子邮件越来越多地使用 SVG 附件来逃避检测 | https://mp.weixin.qq.com/s?__biz=MzAxMjYyMzkwOA==&mid=2247524352&idx=3&sn=16ee0fa3f1952db0c2f198ab8a9b6327 | 369| 
 | Rately攻防实验室 | None | 13个甲方直聘正式岗位招聘内推信息 | https://mp.weixin.qq.com/s?__biz=Mzk0MDA3MzA1NA==&mid=2247485453&idx=1&sn=df552cba2ae15dfb22ef35d74ad202bc | 1| 
 | TIPFactory情报工厂 | None | 探索九种XSS注入原理 | https://mp.weixin.qq.com/s?__biz=MzkyMjM0ODAwNg==&mid=2247488256&idx=1&sn=20851f48f114a23c1080c07fcb2c7a1b | 14| 
 | Undefin3d安全团队 | None | 红日靶场（七）WHOAMI Penetration（一） | https://mp.weixin.qq.com/s?__biz=MzkxNTc1MzQyNw==&mid=2247488223&idx=1&sn=179f23ace36083dd36a1f5052b4c6018 | 2| 
 | WgpSec狼组安全团队 | None | 1337UP LIVE CTF  WriteUp | https://mp.weixin.qq.com/s?__biz=MzIyMjkzMzY4Ng==&mid=2247509955&idx=1&sn=b9eb6c23978641b0d47b43b642e68994 | 29| 
-| YY的黑板报 | None | 研发安全思考与落地 | https://mp.weixin.qq.com/s?__biz=Mzg5NzY5NjM5Mg==&mid=2247484956&idx=1&sn=adebc5300e50d2c55b0e6496d068f09c | 9| 
 | e安在线 | None | 安全学习 , CISAW-RM风险管理 | https://mp.weixin.qq.com/s?__biz=MzI1OTA1MzQzNA==&mid=2651246962&idx=5&sn=aa2878018f41be43eaf5042be6e46fa1 | 67| 
 | fullbug | None | 网络安全之国际主流网络安全架构模型 | https://mp.weixin.qq.com/s?__biz=MjM5NDMwMjEwMg==&mid=2451851882&idx=1&sn=6b6ff12084f889fdbfc9e15b69e359d8 | 28| 
-| securitainment | None | STUBborn - 无需代理激活和调用 DCOM 对象 | https://mp.weixin.qq.com/s?__biz=MzAxODM5ODQzNQ==&mid=2247485174&idx=1&sn=b5dd58705b95a3c45a6c17575ebb8dbd | 10| 
-| simple学安全 | None | src,验证码可爆破导致任意用户注册 | https://mp.weixin.qq.com/s?__biz=Mzk0NTY5Nzc1OA==&mid=2247484086&idx=1&sn=2e6647cead639513a52e9ba5cdd9a1ef | 7| 
-| solar专业应急响应团队 | None | 【文章转载】AV/EDR绕过未遂：深入揭露网络勒索攻击者的工具与战术 | https://mp.weixin.qq.com/s?__biz=MzkyOTQ0MjE1NQ==&mid=2247493156&idx=1&sn=223147d69e30fe1d276a16a16081f2a1 | 26| 
 | thelostworld | None | 【漏洞预警】东胜物流软件-certupload-任意文件上传漏洞 | https://mp.weixin.qq.com/s?__biz=MzIyNjk0ODYxMA==&mid=2247487501&idx=1&sn=39d247b0248d6134a3936531fc0ee647 | 37| 
 | vivo安全应急响应中心 | None | 一“举”多得！搜罗涉诈线索，抽奖赢好礼！ | https://mp.weixin.qq.com/s?__biz=MzU4NzU1MjE4OQ==&mid=2247487913&idx=1&sn=fbe02c93cef0163d606f3c4f0148706e | 7| 
 | 东方隐侠安全团队 | None | 网安瞭望台第 1 期：谷歌 Shielded Email发布、SQL 注入原理大揭秘 | https://mp.weixin.qq.com/s?__biz=Mzg2NTkwODU3Ng==&mid=2247512424&idx=1&sn=637f05bb3e4e9b0a3526dd499eb9b824 | 21| 
-| 中国信息安全 | None | 评论 , “未成年人模式”防沉迷，握好“钥匙”是前提 | https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664229766&idx=7&sn=82d2a0b5afdf46f49da05d75bdb1a3c8 | 783| 
 | 中国电信安全 | None | “IPv6网络安全设备技术要求”系列国标重磅发布 | https://mp.weixin.qq.com/s?__biz=MzkxNDY0MjMxNQ==&mid=2247531351&idx=1&sn=4ba79d1d8674c4ab69562d9cc1acb938 | 96| 
 | 中国网络空间安全协会 | None | 网络安全态势研判分析报告（第13期） | https://mp.weixin.qq.com/s?__biz=MzA3ODE0NDA4MA==&mid=2649400752&idx=1&sn=de7a632faa39bfc6cef36c2c35416c88 | 57| 
-| 中国软件评测中心 | None | 喜报 , 中国软件评测中心无锡分中心入选2024年无锡市重点产业集群促进机构 | https://mp.weixin.qq.com/s?__biz=MjM5NzYwNDU0Mg==&mid=2649248058&idx=4&sn=1ff475c728720eca9f90a49c9d3d30dd | 186| 
 | 二进制空间安全 | None | 恶意软件的一段代码可以解密Google浏览器的Cookie加密算法 | https://mp.weixin.qq.com/s?__biz=MzkxOTUyOTc0NQ==&mid=2247492395&idx=1&sn=dcf935b9d87d3d147ef15d9db238c37b | 51| 
-| 亿人安全 | None | 攻防,记一次hvv中供应链拿靶标的代码审计过程 | https://mp.weixin.qq.com/s?__biz=Mzk0MTIzNTgzMQ==&mid=2247518273&idx=1&sn=30dcc2c8fcb9a0838d1b0d9b32ac6bd8 | 84| 
 | 亿赛通 | None | 安全引擎 智驭未来 , 亿赛通CDG为汽车行业数据铺设“安全轨道” | https://mp.weixin.qq.com/s?__biz=MzA5MjE0OTQzMw==&mid=2666307059&idx=1&sn=263956e0b0d6dd627166e29810122757 | 18| 
-| 代码卫士 | None | 僵尸网络利用 GeoVision 0day 安装 Mirai 恶意软件 | https://mp.weixin.qq.com/s?__biz=MzI2NTg4OTc5Nw==&mid=2247521513&idx=2&sn=667b6f9c61b6f2d2077659cd4d4cdc70 | 219| 
 | 信息安全与通信保密杂志社 | None | 全新升级——国瑞公司发布“从数据安全到AI风险治理”战略蓝图 | https://mp.weixin.qq.com/s?__biz=MzkwMTMyMDQ3Mw==&mid=2247596048&idx=2&sn=f88acc26ef5f60075f3e5a43b7d23166 | 255| 
-| 信息安全大事件 | None | 云原生环境下的七大网络安全威胁及应对建议 | https://mp.weixin.qq.com/s?__biz=MzkzNjIzMjM5Ng==&mid=2247489982&idx=1&sn=cbbaf5ff7ed55933b8012e53bdf5460b | 50| 
 | 信息安全小助手 | None | 信息安全小提示（2024年第8期） | https://mp.weixin.qq.com/s?__biz=MzkyMjEwNjY5NQ==&mid=2247484997&idx=1&sn=bf4a42ddd3c9df23a66d651856ee0069 | 4| 
-| 信息安全研究 | None | 【业界动态】网安市场周度监测（2024-11-17） | https://mp.weixin.qq.com/s?__biz=MzA3NzgzNDM0OQ==&mid=2664991330&idx=3&sn=a51b129352697f4d99f147cc530fb6ef | 333| 
-| 全球技术地图 | None | 美国土安全部发布关键基础设施中安全部署人工智能的开创性框架 | https://mp.weixin.qq.com/s?__biz=MzI1OTExNDY1NQ==&mid=2651617164&idx=2&sn=ff4bee7d41712106c1a83195ada8e545 | 290| 
 | 内生安全联盟 | None | 重磅嘉宾钟山论道，精彩不容错过 | https://mp.weixin.qq.com/s?__biz=Mzg4MDU0NTQ4Mw==&mid=2247526769&idx=2&sn=bae58896871a16b99066ddab4b657662 | 293| 
-| 冷漠安全 | None | 「漏洞复现」九思OA dl.jsp 任意文件读取漏洞 | https://mp.weixin.qq.com/s?__biz=MzkyNDY3MTY3MA==&mid=2247486063&idx=1&sn=87764d2ed6eef32705e262f8515eda5b | 100| 
 | 剑客古月的安全屋 | None | Java安全-深度剖析CC链反序列化 | https://mp.weixin.qq.com/s?__biz=MzkxNDY0NjY3MQ==&mid=2247485223&idx=1&sn=0637770c31427a396ee77e94708ba3f0 | 14| 
 | 华云安 | None | 华云安再获CSA安全创新奖，开创智能攻防技术融合新纪元 | https://mp.weixin.qq.com/s?__biz=MzI1Njc5NTY1MQ==&mid=2247500305&idx=1&sn=a94bb051f8828037884936aff7ae45bd | 18| 
 | 华顺信安 | None | 华顺信安亮相2024中国公共安全大会 | https://mp.weixin.qq.com/s?__biz=MzUzNjg1OTY3Mg==&mid=2247491690&idx=1&sn=52cfa628adc1e94da42088efc12f135a | 20| 
@@ -768,40 +885,23 @@
 | 台下言书 | None | “铲子”——为安全而生的极速 Java 静态代码安全扫描利器 | https://mp.weixin.qq.com/s?__biz=MzIyNDkwNjQ5Ng==&mid=2247486113&idx=1&sn=83bc0075e55aa2c15bc5da88740e32b9 | 3| 
 | 吉祥学安全 | None | 60G应急靶场分享 | https://mp.weixin.qq.com/s?__biz=MzkwNjY1Mzc0Nw==&mid=2247486420&idx=1&sn=e0f6581307f45ac2310c13208ea8c68c | 86| 
 | 吉祥快学网络安全吧 | None | 神仙打架！安恒击败奇安信、天融信、移动等，7.3折中标农业农村厅项目！ | https://mp.weixin.qq.com/s?__biz=MzkzMzcxNTQyNw==&mid=2247485258&idx=1&sn=fe7e5336bc7ec03e089d4d6e3464d1b5 | 33| 
-| 启明星辰安全简讯 | None | 【漏洞通告】Apache OFBiz远程代码执行漏洞（CVE-2024-47208） | https://mp.weixin.qq.com/s?__biz=MzkzNzY5OTg2Ng==&mid=2247500244&idx=2&sn=2c043ef6f5f2a73220f5442c0a23ba95 | 223| 
-| 启明星辰集团 | None | “实力值”拉满！启明星辰斩获CSA多项殊荣U0001f929U0001f929U0001f929 | https://mp.weixin.qq.com/s?__biz=MzA3NDQ0MzkzMA==&mid=2651729345&idx=1&sn=402b5b04700f375fe5c0a02d4e5c47ef | 112| 
 | 吾爱破解论坛 | None | 吾爱破解安卓逆向入门教程《安卓逆向这档事》第二十二课、抓包学得好，牢饭吃得饱(下) | https://mp.weixin.qq.com/s?__biz=MjM5Mjc3MDM2Mw==&mid=2651141449&idx=1&sn=d97d6febff2a2c137d7bf8ca6eb0a4e8 | 47| 
 | 哆啦安全 | None | Android基于ART环境主动调用/FART/通用自动化脱壳系统 | https://mp.weixin.qq.com/s?__biz=Mzg2NzUzNzk1Mw==&mid=2247497212&idx=1&sn=5501fc3307d2e80201ba703fed51b669 | 24| 
 | 嘶吼专业版 | None | 安全动态回顾,国家计算机病毒应急处理中心监测发现13款违规移动应用 黑客利用macOS扩展文件属性隐藏恶意代码 | https://mp.weixin.qq.com/s?__biz=MzI0MDY1MDU4MQ==&mid=2247579650&idx=2&sn=8db086a4d6a44ba0257afe61cd255873 | 175| 
 | 国舜股份 | None | 《关键信息基础设施商用密码使用管理规定》征求意见稿发布 | https://mp.weixin.qq.com/s?__biz=MzA3NjU5MTIxMg==&mid=2650574960&idx=1&sn=661ccf8297598ab76f8d8ec3fbf9eca4 | 30| 
-| 天融信 | None | 生成式AI能力获认可！天融信列入IDC两大领域代表厂商 | https://mp.weixin.qq.com/s?__biz=MzA3OTMxNTcxNA==&mid=2650952248&idx=2&sn=09736a6cc53c72984942f1874be318a3 | 153| 
 | 奇安信 CERT | None | 安全热点周报：俄罗斯黑客利用 Windows 零日漏洞乌克兰实体进行持续攻击 | https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247502439&idx=1&sn=89c13a88c1429733d4d3372418dda64d | 69| 
-| 奇安信集团 | None | 重磅！2024“中华武数杯”全国网络攻防精英赛报名正式开启 | https://mp.weixin.qq.com/s?__biz=MzU0NDk0NTAwMw==&mid=2247621974&idx=3&sn=2f584c6712c22bb96eaf39d972746255 | 302| 
 | 威胁棱镜 | None | 测量恶意软件检测能力 | https://mp.weixin.qq.com/s?__biz=MzkyMzE5ODExNQ==&mid=2247487491&idx=1&sn=1b3640beb1e90d916200af6d592abdfc | 28| 
 | 威胁猎人Threat Hunter | None | 【黑产大数据】“同名贷”欺诈产业链解构 | https://mp.weixin.qq.com/s?__biz=MzI3NDY3NDUxNg==&mid=2247498279&idx=1&sn=ef49c6e26ca1312d532279705b32c63d | 16| 
-| 字节跳动技术团队 | None | 【请领取打卡礼】刷题不停，Offer可期！豆包MarsCode & 掘金 AI 刷题功能再次升级！ | https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247511387&idx=1&sn=08804288fef02425277bba70b693c73e | 92| 
-| 安世加 | None | 物联网云平台 OvrC 曝一系列漏洞，黑客可远程执行恶意代码 | https://mp.weixin.qq.com/s?__biz=MzU2MTQwMzMxNA==&mid=2247540683&idx=1&sn=986bdc0a543ecda7828e984aa6189af2 | 145| 
-| 安信安全 | None | 远程代码执行风险威胁用户安全，Zoom紧急修复多个安全漏洞；颠覆传统安全架构，Zscaler创新发布新型零信任分段方案 , 牛览 | https://mp.weixin.qq.com/s?__biz=MzAxNTYwOTU1Mw==&mid=2650092449&idx=1&sn=ccafc6e2e300c5176b01f01455f66820 | 104| 
-| 安全419 | None | 网星安全：迈向ITDR 身份安全未来可期 | https://mp.weixin.qq.com/s?__biz=MzUyMDQ4OTkyMg==&mid=2247545110&idx=1&sn=a3e246fec68386ad1862488eb82cef28 | 172| 
-| 安全内参 | None | 美国专家分析特朗普第二任期网络安全政策走势趋向 | https://mp.weixin.qq.com/s?__biz=MzI4NDY2MDMwMw==&mid=2247513095&idx=2&sn=45541dd5249c393727a7ab2d52535a33 | 231| 
-| 安全圈 | None | 【安全圈】LodaRAT 再次袭击：新活动以更新的功能针对全球受害者 | https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652066063&idx=4&sn=759487cd86deebbcd134eb38cc19b103 | 667| 
 | 安全客 | None | WordPress安全警报：400万网站面临严重认证绕过漏洞 | https://mp.weixin.qq.com/s?__biz=MzA5ODA0NDE2MA==&mid=2649787422&idx=1&sn=38437b8ded6db61fd39dba7513a640f1 | 38| 
-| 安全极客 | None | 第75期 , GPTSecurity周报 | https://mp.weixin.qq.com/s?__biz=MzkzNDUxOTk2Mw==&mid=2247495134&idx=1&sn=e77d8fdf3cce5176e32bde264548287a | 78| 
 | 安全牛 | None | 云原生环境下的七大网络安全威胁及应对建议 | https://mp.weixin.qq.com/s?__biz=MjM5Njc3NjM4MA==&mid=2651133416&idx=2&sn=2437d5d1453a2bebb10b8f9d1ba0d85b | 164| 
-| 安在 | None | 什么样的防火墙能满足大模型时代安全需求？11月22日三方来“辩” | https://mp.weixin.qq.com/s?__biz=MzU5ODgzNTExOQ==&mid=2247631603&idx=2&sn=013c7fee5d6c8a1b8ba3616cc0aebae8 | 348| 
-| 安知讯 | None | 2家公司违反《数据安全法》，被郑州市网信办处罚 | https://mp.weixin.qq.com/s?__biz=MzIxMDIwODM2MA==&mid=2653931106&idx=2&sn=66316aa7d04cd7b5513b8dfb738b2499 | 197| 
 | 宸极实验室 | None | 『红蓝对抗』JDWP未授权getshell | https://mp.weixin.qq.com/s?__biz=Mzg4NTA0MzgxNQ==&mid=2247489640&idx=1&sn=b7e01c11f6d4336eff146c761aa96f18 | 22| 
 | 小草培养创研中心 | None | 安全赋能  ▎蜀道山高校联合公益赛圆满举办 | https://mp.weixin.qq.com/s?__biz=MzIxMDAwNzM3MQ==&mid=2247520954&idx=1&sn=189b8934c9990f484e64370b2bd15ee5 | 15| 
-| 山石网科新视界 | None | 山石网科出席河南省医院协会网络与数据安全分会2024年年会 | https://mp.weixin.qq.com/s?__biz=MzAxMDE4MTAzMQ==&mid=2661295478&idx=3&sn=154edc2249493554a1d8b426cc928105 | 70| 
-| 工业互联网标识智库 | None | 中国信通院胡坚波：以链式转型加快推进中小企业数字化赋能 | https://mp.weixin.qq.com/s?__biz=MzU1OTUxNTI1NA==&mid=2247591507&idx=1&sn=4613e1c63793b9eee694aa3d5296ab43 | 170| 
-| 工业安全产业联盟平台 | None | 征集丨《网络安全技术 软件安全开发能力成熟度模型》标准参编单位 | https://mp.weixin.qq.com/s?__biz=MzI2MDk2NDA0OA==&mid=2247530234&idx=2&sn=c3bd33889f97e635f6b3cbe6959fb7a1 | 44| 
 | 平安集团安全应急响应中心 | None | 精彩提前看！平安SRC线上沙龙·第七期等你来参与！ | https://mp.weixin.qq.com/s?__biz=MzIzODAwMTYxNQ==&mid=2652145267&idx=1&sn=de4617301a26f43730c772a5ac07ac56 | 26| 
 | 恒星EDU | None | 首次携手“挑战杯” ｜安恒信息“揭榜挂帅”专项赛选题决赛在杭举行 | https://mp.weixin.qq.com/s?__biz=MzU1MzE3Njg2Mw==&mid=2247509881&idx=1&sn=2d8fb3b6ef10d1cd5f3598b895c51a24 | 20| 
 | 情报分析师 | None | 开源情报信息，一网打尽！ | https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650557508&idx=2&sn=361ad1dbebea596099f43491ed57fcd8 | 209| 
 | 情报分析师Pro | None | 西方媒体：美英法三国允许乌克兰对俄境内进行远程导弹袭击 | https://mp.weixin.qq.com/s?__biz=MzkwNzM0NzA5MA==&mid=2247501857&idx=1&sn=35283ff7a802b3dd5a7f0bd99474b246 | 99| 
 | 成都链安 | None | 深度起底汇旺黑灰产,链必追超全汇旺地址标签+情报线索挖掘助力相关案件链上资金追踪 | https://mp.weixin.qq.com/s?__biz=MzU2NzUxMTM0Nw==&mid=2247513174&idx=1&sn=7f0194680e62266b8351907968788615 | 9| 
 | 掌控安全EDU | None | Edusrc , 某证书站漏洞挖掘-绕过验证机制 | https://mp.weixin.qq.com/s?__biz=MzUyODkwNDIyMg==&mid=2247545196&idx=1&sn=e5148186ab9f420c71d23cdca8da92f7 | 278| 
-| 数世咨询 | None | 与业界共鸣！赛宁网安引领“实用型靶场”建设，呼吁用户导向 | https://mp.weixin.qq.com/s?__biz=MzkxNzA3MTgyNg==&mid=2247522960&idx=2&sn=c70aac93f265ec647760c83b12b5cc22 | 172| 
 | 智能汽车开发者平台 | None | 关于做好2025学年工程系列汽车专业继续教育报名工作的通知 | https://mp.weixin.qq.com/s?__biz=MzkyOTMwMDQ5MQ==&mid=2247519890&idx=2&sn=3782d73e11288e1e620e01cac2499985 | 12| 
 | 海底生残月 | None | 收藏｜四千多个厂商默认帐号/密码 | https://mp.weixin.qq.com/s?__biz=MzkyOTQyOTk3Mg==&mid=2247484899&idx=1&sn=dd672d3d152a3ab8cb75d3391f154bc8 | 7| 
 | 深信服科技 | None | 成功迁移！从VMware至深信服云平台，大型制造企业的替换实践 | https://mp.weixin.qq.com/s?__biz=MjM5MTAzNjYyMA==&mid=2650594283&idx=1&sn=015fb9852552cbb31a464962b10cfac3 | 75| 
@@ -810,55 +910,36 @@
 | 独眼情报 | None | 关于iOS 18 不活动重启最新消息 | https://mp.weixin.qq.com/s?__biz=MzkzNDIzNDUxOQ==&mid=2247492528&idx=4&sn=35600ab8eed38c1cb13d5cd4f4a2279b | 351| 
 | 珞安科技 | None | 又双叒叕 , 珞安科技深度参编终端安全国家标准正式发布 | https://mp.weixin.qq.com/s?__biz=MzU2NjI5NzY1OA==&mid=2247511437&idx=1&sn=abe0b677a029dfd887a4040943b52659 | 59| 
 | 白帽子左一 | None | 通过 Google OAuth 配置错误实现账号接管 | https://mp.weixin.qq.com/s?__biz=MzI4NTcxMjQ1MA==&mid=2247614150&idx=1&sn=b98b39482f1976f6f1c5cee948153535 | 222| 
-| 百度安全 | None | 倒计时2天！“智效融合，安全护航”·深圳站 第七期「度安讲」 技术沙龙开放报名 | https://mp.weixin.qq.com/s?__biz=MjM5MTAwNzUzNQ==&mid=2650510921&idx=1&sn=e4934351ec2c8cb6dbc0aeca15104b40 | 19| 
-| 百灵猫开源情报分析师 | None | 【OSINT最新好用工具】WhatsApp、命令行工具集合、域名反查邮箱、TG搜索 | https://mp.weixin.qq.com/s?__biz=MzkxMTA3MDk3NA==&mid=2247486697&idx=1&sn=69bec5d22e1d89ca9d867e7adfa14da8 | 7| 
 | 盛邦安全WebRAY | None | 乌镇峰会丨盛邦安全邀您共赴2024年世界互联网大会 | https://mp.weixin.qq.com/s?__biz=MzAwNTAxMjUwNw==&mid=2650277028&idx=2&sn=225b30dc8c2c1d78e66393b4e0833706 | 81| 
-| 看雪学苑 | None | WordPress安全插件“Really Simple Security”惊现严重漏洞，数百万网站面临风险 | https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458583194&idx=3&sn=045ec214a07d23eaaaf909f9ee0f186f | 490| 
 | 篝火信安 | None | 【工具分享】一款小众的内网综合扫描工具（20241118更新） | https://mp.weixin.qq.com/s?__biz=MzIyNzc3OTMzNw==&mid=2247485565&idx=1&sn=e2d8b5be390c3d4cc1b0b1e8ef4b9079 | 13| 
 | 紫队安全研究 | None | 网络罪犯与朝鲜国家的秘密关系：Lazarus集团的崛起 | https://mp.weixin.qq.com/s?__biz=Mzg3OTYxODQxNg==&mid=2247485413&idx=1&sn=a86f17c27488180d0d921e6c80ff626b | 98| 
-| 绿盟科技 | None | 中国信息安全测评中心主任彭涛一行莅临绿盟科技调研指导 | https://mp.weixin.qq.com/s?__biz=MjM5ODYyMTM4MA==&mid=2650462016&idx=1&sn=d1d19c61c1284c4bf3fee06733238a35 | 227| 
 | 网安加社区 | None | 圆满落幕 , 2024 OWASP中国安全技术论坛 | https://mp.weixin.qq.com/s?__biz=Mzg4MjQ4MjM4OA==&mid=2247521460&idx=1&sn=5e393e30e713dfc4cf1ca57838326b47 | 44| 
 | 网安百色 | None | 关注“两高一弱”，让黑客无“机”可乘 | https://mp.weixin.qq.com/s?__biz=MzI0NzE4ODk1Mw==&mid=2652094081&idx=2&sn=cf1b24be4a6fcf6b027dc50d1e1cf658 | 87| 
 | 网络安全创新服务基地 | None | 四川省第二届网信行业技能竞赛——数据安全管理员赛项初赛参赛通知 | https://mp.weixin.qq.com/s?__biz=MzA3Nzk3NTA4Nw==&mid=2247515774&idx=2&sn=0c479d7e6aee298d72ba6fa281d31065 | 17| 
-| 网络安全和信息化 | None | 大模型可能导致规模越大边际效应递增 | https://mp.weixin.qq.com/s?__biz=MjM5MzMwMDU5NQ==&mid=2649168813&idx=2&sn=312c2b7dabdd112462c9bb8e7f6c109e | 271| 
-| 网络技术干货圈 | None | 这些网络安全设备如果不了解，请不要说是从事网络行业的 | https://mp.weixin.qq.com/s?__biz=MzUyNTExOTY1Nw==&mid=2247527283&idx=1&sn=d789d576c7112da039c88e0f090abc02 | 65| 
-| 网络技术联盟站 | None | 通信技术赛道来到了6G，中国6G，真的很6！ | https://mp.weixin.qq.com/s?__biz=MzIyMzIwNzAxMQ==&mid=2649462924&idx=1&sn=fe39d9d252545fc9fdd82788854c724a | 139| 
-| 网络空间内生安全大会 | None | 重磅嘉宾钟山论道，精彩不容错过 | https://mp.weixin.qq.com/s?__biz=MzkwOTI5NzIzMA==&mid=2247484005&idx=2&sn=24f532f92af9e5889deb771c77addbe4 | 2| 
 | 网络空间安全研究院UESTC | None | 数智安全的发展与创新论坛在我院成功举办 | https://mp.weixin.qq.com/s?__biz=Mzk0MDMwNjU3Ng==&mid=2247484424&idx=1&sn=3cb4c5b9ca6b43fa6d4003042d7b5979 | 9| 
 | 美亚柏科 | None | 技能跃升！警务大数据分析与建模高级培训在线启航 | https://mp.weixin.qq.com/s?__biz=MjM5NTU4NjgzMg==&mid=2651428349&idx=2&sn=108c1a78e4d9cb3c186f9aa292014d65 | 158| 
 | 老五说网络 | None | （安全）静态绑定表 IPSG | https://mp.weixin.qq.com/s?__biz=MzUxNzg5MzM2Mg==&mid=2247487093&idx=1&sn=fff6b016b75afd9de72bd4c75035cc9c | 9| 
 | 腾讯技术工程 | None | 单体架构和微服务架构到底哪个好？ | https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649786696&idx=1&sn=e5c5c84aac8a6415471dfbc8ecf3f891 | 55| 
-| 腾讯玄武实验室 | None | 每日安全动态推送(24/11/18) | https://mp.weixin.qq.com/s?__biz=MzA5NDYyNDI0MA==&mid=2651959901&idx=1&sn=a94e35460a58aa2505dd0696e78b82e5 | 75| 
-| 蚁景网安 | None | 不能说的秘密！“科学上网” 那些事儿 | https://mp.weixin.qq.com/s?__biz=MzkyNTY3Nzc3Mg==&mid=2247487655&idx=1&sn=2410a29b07f019454cc246dba6aba53b | 60| 
-| 蚁景网络安全 | None | 【免费领】杀手级渗透工具：BurpSuite实战技术教程 | https://mp.weixin.qq.com/s?__biz=MzkxNTIwNTkyNg==&mid=2247551511&idx=2&sn=c511e2b35a46c9b6283fd9d36fdf3d0e | 36| 
 | 蚂蚁安全响应中心 | None | 国际情报达人开冲！3倍奖励众测来袭 | https://mp.weixin.qq.com/s?__biz=MzI3NDEzNzIxMg==&mid=2650492152&idx=1&sn=eb39e1db94f957f1f06a4cb514c962c0 | 7| 
 | 蜚语科技 | None | 国家级盛会丨蜚语科技与您相约2024中国5G+工业互联网大会，11月19-21日A06展位活力前瞻！ | https://mp.weixin.qq.com/s?__biz=MzI5NzI5NzY1MA==&mid=2247488361&idx=1&sn=c76f86870a925dd10495b1837d88ff84 | 15| 
 | 补天平台 | None | 全开放、多赛道、效率高——2024补天杯破解大赛报名启动！ | https://mp.weixin.qq.com/s?__biz=MzI2NzY5MDI3NQ==&mid=2247506159&idx=1&sn=591dff0d0ef43f5ae7f959ff3ddfc1a6 | 42| 
 | 表哥带我 | None | “杂交”硬盘 | https://mp.weixin.qq.com/s?__biz=Mzg4NDg2NTM3NQ==&mid=2247484469&idx=1&sn=8df3aea2f0bb113a1c4cc62b492d23ce | 26| 
-| 谈思实验室 | None | 汽车服务架构(SOA)开发设计 | https://mp.weixin.qq.com/s?__biz=MzIzOTc2OTAxMg==&mid=2247546259&idx=3&sn=133aa2b398bdaee11ea44b16ce0050f6 | 409| 
-| 赛博研究院 | None | AI 如何“重塑”身份与访问管理（IAM） | https://mp.weixin.qq.com/s?__biz=MzUzODYyMDIzNw==&mid=2247514574&idx=2&sn=00db3d0bf4de7ecc92b4790e720707bd | 151| 
 | 赛哈文 | None | 2024年20 大网络钓鱼工具 | https://mp.weixin.qq.com/s?__biz=Mzg3ODkzNjU4NA==&mid=2247485564&idx=1&sn=f6351c3df7a5ddd3f073a0a0e52ff363 | 6| 
 | 软件安全与逆向分析 | None | eBPF项目开发环境meson化之旅 | https://mp.weixin.qq.com/s?__biz=MzU3MTY5MzQxMA==&mid=2247484711&idx=1&sn=6951876677f66ad559fc06abbe8cbbe3 | 9| 
 | 边界无限 | None | 云安全联盟（CSA）大中华区大会成功举办 边界无限荣获优秀会员单位奖 | https://mp.weixin.qq.com/s?__biz=MzAwNzk0NTkxNw==&mid=2247487004&idx=1&sn=35b8daf3dfa60aff768d9e23915316bb | 14| 
 | 采链纵横 | None | 中央企业采购端供应链管理的深度剖析：实施路径、面临挑战与卓越系统构建 | https://mp.weixin.qq.com/s?__biz=MzkxMzMyMDE4OA==&mid=2247483906&idx=1&sn=18c3cacd0e0fb74494826586e497b7e5 | 2| 
-| 长亭安全观察 | None | 通知 , 国家密码管理局就《关键信息基础设施商用密码使用管理规定（征求意见稿）》公开征求意见（附全文） | https://mp.weixin.qq.com/s?__biz=MzkyNDUyNzU1MQ==&mid=2247486244&idx=1&sn=d4e4bf5a8cecf084c3245ea3e4798c07 | 68| 
 | 长弓三皮 | None | 10104NewStar_CTF_2024_crypto Week 2  writeup | https://mp.weixin.qq.com/s?__biz=MzU2NzIzNzU4Mg==&mid=2247487980&idx=2&sn=3f5a5bde66e8fd10d93795d6abce110e | 5| 
 | 长风实验室 | None | 密码服务平台 | https://mp.weixin.qq.com/s?__biz=Mzg4MDY1MzUzNw==&mid=2247497926&idx=2&sn=c0383e3a36e515dbffec79bd00f86e72 | 13| 
 | 阿里云安全 | None | 用AI来做云安全是怎样一种体验？阿里云安全AI能力大曝光 | https://mp.weixin.qq.com/s?__biz=MzA4MTQ2MjI5OA==&mid=2664091414&idx=1&sn=8769b69dbd6c32cecb1306660adb08e3 | 18| 
 | 隼目安全 | None | 【奇闻趣事】关于未成年黑客的碎碎念 | https://mp.weixin.qq.com/s?__biz=Mzk0OTUwNTU5Nw==&mid=2247486912&idx=1&sn=13ca34f3a80e4bc2850474e58c83f40f | 30| 
-| 马哥网络安全 | None | 有关漏洞挖掘的一些总结 | https://mp.weixin.qq.com/s?__biz=MzkxMzMyNzMyMA==&mid=2247567418&idx=2&sn=19577506ffdc9228b4214d195638595a | 112| 
 | 马赛克安全实验室 | None | 【漏洞预警】东胜物流软件-certupload-任意文件上传漏洞 | https://mp.weixin.qq.com/s?__biz=MzI5MzU4ODE5Mw==&mid=2247485533&idx=1&sn=38dacc8d7d5dbb5e91a43eaccbd37140 | 21| 
-| 魔方安全 | None | 安全卫士 , 魔方安全漏洞周报 | https://mp.weixin.qq.com/s?__biz=MzI3NzA5NDc0MA==&mid=2649291855&idx=1&sn=2416adb9a530214ddc5b1cf128c156f8 | 44| 
 | 黑客技术家园 | None | 如何用爱思助手给苹果iPhone手机免越狱修改虚拟定位教程 | https://mp.weixin.qq.com/s?__biz=MzI2OTk4MTA3Ng==&mid=2247496236&idx=2&sn=58af8bf01f4ca1186ffbb624f12b5451 | 113| 
 | 鼎信安全 | None | 鼎信安全 , 网络安全一周资讯 | https://mp.weixin.qq.com/s?__biz=MzIwOTc4MTE4Nw==&mid=2247500623&idx=1&sn=8ed503a44a8900cf66d4714383856900 | 25| 
 | 龙哥网络安全 | None | 保护数据安全必备工具：探索常用十大加密软件排行榜【网络安全安全管理入门必知必会】 | https://mp.weixin.qq.com/s?__biz=MzU3MjczNzA1Ng==&mid=2247492982&idx=2&sn=cc45be173d72d4abc0a6f457e1fa40d6 | 48| 
-| HW专项行动小组 | None | 2.ASP.NET Route型内存马 | https://mp.weixin.qq.com/s?__biz=MzkzNTUwNTg2Ng==&mid=2247485100&idx=1&sn=9ae88340de14c8e139af1d3ab48ff111 | 7| 
 | Hack分享吧 | None | 绕过各种杀软dumphash工具 | https://mp.weixin.qq.com/s?__biz=MzA4NzU1Mjk4Mw==&mid=2247492065&idx=1&sn=0c379f679fb03bce8ae4685911505cb4 | 69| 
 | Red Teams | None | 覆盖网络攻防与分析5个方向纯干货分享 | https://mp.weixin.qq.com/s?__biz=Mzg5MjUyMTgyNg==&mid=2247485303&idx=1&sn=49782f9a101d9ce095685640f0325041 | 6| 
 | wavecn | None | BASIC 语言发明人去世，想起自己用过很多种 BASIC | https://mp.weixin.qq.com/s?__biz=Mzg4Njc0Mjc3NQ==&mid=2247486532&idx=1&sn=6c4c6a13e22108effaea9b1f453b0adc | 39| 
-| 乌雲安全 | None | 武装你的Brupsuite | https://mp.weixin.qq.com/s?__biz=MzAwMjA5OTY5Ng==&mid=2247524907&idx=1&sn=e4cc1da6be56615bbc81ddea530bfb5f | 126| 
 | 君说安全 | None | 网络安全认知科普（三）：一个“穷光蛋”需要保险箱么？ | https://mp.weixin.qq.com/s?__biz=MzUzNjkxODE5MA==&mid=2247487429&idx=1&sn=244d85253f3ef27106ca57151c9ee3c7 | 41| 
-| 喵苗安全 | None | 【招聘】常行科技招人啦～ | https://mp.weixin.qq.com/s?__biz=Mzg5MjkwODc4MA==&mid=2247485590&idx=1&sn=b0af107502f6df6d76560ee01eb20a1a | 16| 
 | 奇安信高校合作中心 | None | 2024世界职业技术教育发展大会邀请函 | https://mp.weixin.qq.com/s?__biz=MzkwMTM1MTA4MQ==&mid=2247487031&idx=1&sn=ac328896b438624435e8018b61ddb176 | 14| 
 | 安全小将李坦然 | None | GitHubActions & 阿里云解决国内镜像拉取问题 | https://mp.weixin.qq.com/s?__biz=MzkwMDQ4MDU2MA==&mid=2247484392&idx=1&sn=b5a388f710cd1ef83d4b9085a2c2224b | 11| 
 | 安恒信息 | None | 国家数据局确定2025年阶段性目标，多项部署助推实现数字中国建设 | https://mp.weixin.qq.com/s?__biz=MjM5NTE0MjQyMg==&mid=2650618654&idx=1&sn=64b916fa8fd4883333910ce87df36cf4 | 118| 
@@ -871,7 +952,6 @@
 | 白安全组 | None | DC-4靶场练习（拯救基础学习） | https://mp.weixin.qq.com/s?__biz=MzU4MjYxNTYwNA==&mid=2247487548&idx=1&sn=27be0b6b3b387a19a48e63ca889787be | 25| 
 | 白帽子 | None | CVE-2024-25600：WordPress Bricks Builder RCE | https://mp.weixin.qq.com/s?__biz=MzAwMDQwNTE5MA==&mid=2650247657&idx=1&sn=b0600f03ef9bbffbcaa4fbf1fe0d87f7 | 65| 
 | 白帽学子 | None | 梦想成真 | https://mp.weixin.qq.com/s?__biz=MzkyNzIxMjM3Mg==&mid=2247488246&idx=2&sn=7bf9d9cd97fa2fa4d569113afc9d2dd0 | 73| 
-| 白泽安全实验室 | None | 伊朗网络组织Emennet Pasargad利用WezRat恶意软件发起攻击 | https://mp.weixin.qq.com/s?__biz=MzI0MTE4ODY3Nw==&mid=2247492416&idx=1&sn=56e31c02aa497b57fc1b7536ce1e0250 | 31| 
 | 祺印说信安 | None | 盗窃并洗钱约10亿美元比特币的男子被判入狱5年 | https://mp.weixin.qq.com/s?__biz=MzA5MzU5MzQzMA==&mid=2652112613&idx=2&sn=20433b76b20bb7d2514d11c5b37e9286 | 148| 
 | 红岸基地网络安全 | None | 【正义审判】红岸赵小龙配合公某安打击违法犯罪团伙:棉花糖fans | https://mp.weixin.qq.com/s?__biz=MzkxMDc0MTc5Mw==&mid=2247483774&idx=1&sn=d600128d7719d5f5d50e0b420b9c2ffb | 2| 
 | 网空闲话plus | None | 每周网安态势概览【20241117】046期 | https://mp.weixin.qq.com/s?__biz=MzkyMjQ5ODk5OA==&mid=2247505252&idx=2&sn=da6a96963b165b640dcd5d4ef6a6af4f | 168| 
@@ -881,7 +961,6 @@
 | 网络空间信息安全学习 | None | 大学生节：青春不迷茫，梦想正起航！ | https://mp.weixin.qq.com/s?__biz=MzI2MjcwMTgwOQ==&mid=2247491998&idx=1&sn=71f3ca374308a821543caa6f72b74a0c | 107| 
 | 苏说安全 | None | 信创产品目录 , 安全可靠测评结果汇总 | https://mp.weixin.qq.com/s?__biz=Mzg5OTg5OTI1NQ==&mid=2247489137&idx=1&sn=4a74a847e1ac2772d4933c1e42f0c438 | 104| 
 | 英语学习经验 | None | 翻译/作文：常见的中国思想文化术语（四） | https://mp.weixin.qq.com/s?__biz=Mzk0NDI1NTk0MQ==&mid=2247484661&idx=1&sn=d2623f330271abbf8fe51371d18e4b79 | 9| 
-| 草帽一只尔 | None | 开源情报（osint）在太空探索与安全中的革新应用 | https://mp.weixin.qq.com/s?__biz=Mzg2MTg3NzQ5OQ==&mid=2247485409&idx=1&sn=e8720983847c7eaa4d83ecb803449f46 | 15| 
 | 计算机与网络安全 | None | 数字孪生网络架构 | https://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&mid=2655259079&idx=2&sn=c98ecab9c620685c8ef2da4e82f094be | 545| 
 | 说安全 如何安全 | None | 守护数字世界的隐形盾牌：揭秘密码安全的力量（附PPT下载） | https://mp.weixin.qq.com/s?__biz=MzkyODY5ODAyOA==&mid=2247488303&idx=1&sn=0a55f32f80d57c0b81c763d416a2ed6d | 11| 
 | 赛宁网安 | None | 倒计时3天！第七届“强网”拟态防御国际精英挑战赛即将打响 | https://mp.weixin.qq.com/s?__biz=MzA4Mjk5NjU3MA==&mid=2455487357&idx=1&sn=972885777275e40cccc72e66a1ddbb0b | 47| 
@@ -892,7 +971,6 @@
 | 黑白之道 | None | 很强的一款恶意软件反检测工具 | https://mp.weixin.qq.com/s?__biz=MzAxMjE3ODU3MQ==&mid=2650603615&idx=4&sn=a69d9f5d013f6b6583a560d481353ce9 | 493| 
 | AI与安全 | None | 2024年融资超过1亿美元的AI初创公司 | https://mp.weixin.qq.com/s?__biz=Mzg5NTMxMjQ4OA==&mid=2247485064&idx=1&sn=f426bb7b93c5326e52db3170e7d6e3ef | 9| 
 | CISSP | None | 中国信息安全测评中心招聘安全测评人员 | https://mp.weixin.qq.com/s?__biz=Mzg4MTg0MjQ5OA==&mid=2247487210&idx=1&sn=f50a8364be1d5be6b19ceff0f0ccb215 | 111| 
-| Heihu Share | None | Java 安全 , SpEL 表达式注入 | https://mp.weixin.qq.com/s?__biz=MzkwMzQyMTg5OA==&mid=2247484845&idx=1&sn=c0217076a5fd491659277cb2f8141c7b | 13| 
 | Jie安全 | None | 代码审计之XX系统二次注入到RCE | https://mp.weixin.qq.com/s?__biz=Mzg2NDg2MDIxNQ==&mid=2247485148&idx=1&sn=f91f2c3afb4b235588e10bd607c98930 | 6| 
 | ListSec | None | game of active directory(GOAD)  part 2 查找用户 | https://mp.weixin.qq.com/s?__biz=MzIwMjUyNDM0OA==&mid=2247485741&idx=1&sn=9a40c3120022b1fce1ecfacb043b19a7 | 4| 
 | Relay学安全 | None | Windows恶意软件分析-基础 | https://mp.weixin.qq.com/s?__biz=Mzg5MDg3OTc0OA==&mid=2247488143&idx=1&sn=077d14ed0f95dbbdcfd52d3b5ea517d9 | 38| 
@@ -900,12 +978,10 @@
 | T0daySeeker | None | 最新Patchwork(白象)Protego远控木马接收某远控指令后将导致远控木马无法响应后续远控指令 | https://mp.weixin.qq.com/s?__biz=MzAwNDUzNDExMQ==&mid=2247485153&idx=1&sn=99d2497e42867758a14dae2f7209727a | 24| 
 | TtTeam | None | 国产化综合红队协同工具TangGo更新！ | https://mp.weixin.qq.com/s?__biz=Mzg2NTk4MTE1MQ==&mid=2247486124&idx=1&sn=af892705af3ce0201c9db2e87154b84f | 95| 
 | XG小刚 | None | 阿里云ESA挑战赛 | https://mp.weixin.qq.com/s?__biz=MzIwOTMzMzY0Ng==&mid=2247487845&idx=1&sn=b945b5cfe622920c96e3b9b113b843fe | 5| 
-| Z2O安全攻防 | None | 建了个SRC专项漏洞知识库 | https://mp.weixin.qq.com/s?__biz=Mzg2ODYxMzY3OQ==&mid=2247517203&idx=2&sn=3074826837ddd653a7d1ae03a600a0b4 | 195| 
 | dotNet安全矩阵 | None | .NET 通过模块和驱动收集本地EDR的工具 | https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247496726&idx=3&sn=b0adf477b3758b832e5637c415188f76 | 289| 
 | flowers-boy | None | CTF之web基础 | https://mp.weixin.qq.com/s?__biz=MzkxMzY5NDUyMQ==&mid=2247484795&idx=1&sn=32c7546a207297a5d901d418c7e5c4a3 | 7| 
 | kali笔记 | None | 浏览器数据导出工具-SharpWeb | https://mp.weixin.qq.com/s?__biz=MzkxMzIwNTY1OA==&mid=2247509078&idx=1&sn=c031c270a2b3ed14db2bf017d264f9c3 | 71| 
 | nday POC | None | 用友U8 Cloud service/approveservlet SQL注入漏洞 | https://mp.weixin.qq.com/s?__biz=MzkzMTcwMTg1Mg==&mid=2247489182&idx=1&sn=43153077f1b12d816a475a87439b5cf7 | 22| 
-| 一起聊安全 | None | 关键信息基础设施商用密码使用管理规定（征求意见稿） | https://mp.weixin.qq.com/s?__biz=MzI3NjUzOTQ0NQ==&mid=2247515887&idx=1&sn=88bd97ba8bccf16013a97e6dea958101 | 78| 
 | 七芒星实验室 | None | 甲方安全之第三方组件问题概览 | https://mp.weixin.qq.com/s?__biz=Mzg4MTU4NTc2Nw==&mid=2247493593&idx=2&sn=2e541c3705fc48eec0afe44078bc334b | 95| 
 | 儒道易行 | None | 【Pikachu】XML外部实体注入实战 | https://mp.weixin.qq.com/s?__biz=Mzg5NTU2NjA1Mw==&mid=2247494292&idx=1&sn=4e8ae27e30b4fd72bd29dbe13c0a21cc | 107| 
 | 全栈安全 | None | 敏感词检测技术及Top工具介绍 | https://mp.weixin.qq.com/s?__biz=MzkyMTYyOTQ5NA==&mid=2247485778&idx=1&sn=ff255b5095ce3281167fa786355c0f6b | 21| 
@@ -935,28 +1011,21 @@
 | 秦国商鞅 | None | 原创—微型小说—网络安全版孔乙己 作者:酷帥王子 | https://mp.weixin.qq.com/s?__biz=Mzg4NzAwNzA4NA==&mid=2247484949&idx=1&sn=af6674f37de599bc4b1d836f26c30d07 | 35| 
 | 秦安战略 | None | 牟林：马斯克现象透视，背后有一点很可怕，显示中美根本差别 | https://mp.weixin.qq.com/s?__biz=MzA5MDg1MDUyMA==&mid=2650475277&idx=3&sn=14b3c1f05d95826388f48f6e72f86ed8 | 414| 
 | 网安探索员 | None | 资产收集常用工具以及思路总结 | https://mp.weixin.qq.com/s?__biz=MzkzNTYwMTk4Mw==&mid=2247488016&idx=1&sn=ae433530b54807250c730cd7e343d0b2 | 17| 
-| 网络安全学习爱好者 | None | phpstudy_2016-2018_rce 漏洞复现 | https://mp.weixin.qq.com/s?__biz=Mzk0MzI2NzQ5MA==&mid=2247486636&idx=1&sn=5d9cfbe6b8393b15c60b04ca9c2c9588 | 5| 
 | 网络研究观 | None | 间谍软件集团 NSO 承认因客户滥用其间谍软件而切断与其联系 | https://mp.weixin.qq.com/s?__biz=MzkxNDM4OTM3OQ==&mid=2247504498&idx=5&sn=dbc010389d9ffe21b7dd3707e0908a06 | 210| 
-| 羽泪云小栈 | None | thm_pwn108 | https://mp.weixin.qq.com/s?__biz=MzkxMjYyMjA3Mg==&mid=2247485256&idx=1&sn=c270089dff0d99f2cb4bf45522e27d55 | 5| 
-| 菜狗安全 | None | JAVA代审-JreCms(SpringBoot版) | https://mp.weixin.qq.com/s?__biz=Mzg4MzkwNzI1OQ==&mid=2247485406&idx=1&sn=296aa1b2ece36c097b52fc3ac0e437a6 | 16| 
 | 虎符智库 | None | 网络安全成熟度：CISO 议程的必备内容 | https://mp.weixin.qq.com/s?__biz=MzIwNjYwMTMyNQ==&mid=2247492813&idx=1&sn=b98551268c37c3a0911bed2e85c08c8f | 21| 
 | 赛欧思安全研究实验室 | None | 赛欧思一周资讯分类汇总(2024-11-11 ~ 2024-11-16) | https://mp.weixin.qq.com/s?__biz=MzU0MjE2Mjk3Ng==&mid=2247488052&idx=1&sn=383329d883919be73d8402109f8d572f | 77| 
-| 迪哥讲事 | None | 一次完整的渗透测试 | https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247496351&idx=1&sn=b35159fe95e7c3537c6b73b1a7284d36 | 150| 
 | 道玄网安驿站 | None | AI代码审计和POC编写 | https://mp.weixin.qq.com/s?__biz=Mzg4NTg5MDQ0OA==&mid=2247487335&idx=1&sn=c2800f225873a4a1b38711bacba10316 | 48| 
 | 金盾信安 | None | 【重磅发布】2024数据治理年会成果发布看点 | https://mp.weixin.qq.com/s?__biz=MjM5NjA2NzY3NA==&mid=2448678955&idx=3&sn=7255b56c7b5e90e1e9cbd73b6be59fad | 128| 
 | 锦岳智慧 | None | 供应链安全之：供应链劫持的安全防护与处置 | https://mp.weixin.qq.com/s?__biz=MzkxMzQwNDcxNg==&mid=2247486699&idx=1&sn=f3d3d5d3e6e24e2179a6de46c2e6eae0 | 5| 
-| 青春计协 | None | 信息收集小总结~ | https://mp.weixin.qq.com/s?__biz=Mzg4MzU3MTcwNg==&mid=2247485983&idx=1&sn=d8a6b34cf871a86db0bb75d59a9e81eb | 14| 
 | 黄豆安全实验室 | None | 神人TV之惊人的国护蓝队高手和Hae插件斗智斗勇的故事 | https://mp.weixin.qq.com/s?__biz=MzkzNjczNzEyMw==&mid=2247484057&idx=1&sn=0b23d36a3016bfa74ffbfdcbcc6f1a94 | 8| 
 | 天驿安全 | None | Msmap ：一个内存 WebShell 生成器 | https://mp.weixin.qq.com/s?__biz=MzkxNjIxNDQyMQ==&mid=2247497960&idx=1&sn=dc8bb209c20c2abcb8b8393acd933384 | 44| 
 | 安全喵喵站 | None | 出海·新加坡｜中国网安闪耀CSWA，探索东南亚 | https://mp.weixin.qq.com/s?__biz=MzkzNjE5NjQ4Mw==&mid=2247542008&idx=3&sn=2c6611f060663a6fe2343ad61794ee27 | 72| 
 | 安全洞察知识图谱 | None | 一个永久的.NET渗透工具和知识仓库 | https://mp.weixin.qq.com/s?__biz=MzkyMDM4NDM5Ng==&mid=2247488517&idx=2&sn=948f1c328c41b25c6a0c5184e818647d | 44| 
-| 安全视安 | None | 【学习资源】hackerone 漏洞报告合集 ｜ src挖掘学习 | https://mp.weixin.qq.com/s?__biz=Mzg4NzgzMjUzOA==&mid=2247485288&idx=1&sn=75889a7cc3e66eb63c28d5227738feee | 32| 
 | 星落安全团队 | None | 支持自定义密码 , 哥斯拉免杀 过360、火绒、D盾 XlByPassGodzilla v1.3已更新！ | https://mp.weixin.qq.com/s?__biz=MzkwNjczOTQwOA==&mid=2247490524&idx=1&sn=3a1b82dbf5c83d33eecd349c0072b8bc | 17| 
 | 永信至诚 | None | 永信至诚春秋AI测评「数字风洞」，以模测模助力AI智能体实现数字健康 | https://mp.weixin.qq.com/s?__biz=MzAwNDUyMjk4MQ==&mid=2454828353&idx=1&sn=49b9227cd21c1def7fd71f3c2339b20c | 17| 
 | 渗透安全HackTwo | None | 助力红队! MDUT渗透利器二开增强版,漏洞探测 | https://mp.weixin.qq.com/s?__biz=Mzg3ODE2MjkxMQ==&mid=2247489015&idx=1&sn=aae32e04b5ba3ae1730d2bc8e0315a9f | 78| 
 | 逆向有你 | None | 安卓逆向 -- 不碰/proc/pid/maps拿到目标App地址分布思路分享 | https://mp.weixin.qq.com/s?__biz=MzA4MzgzNTU5MA==&mid=2652036790&idx=1&sn=a7d721b3b1cfab6671cc7fdb6295b684 | 138| 
 | 0x6270安全团队 | None | 团队知识星球安利 | https://mp.weixin.qq.com/s?__biz=Mzg4Njc1MTIzMw==&mid=2247485717&idx=2&sn=00fb3970d9748f6cae86f5ae15a967b7 | 20| 
-| 360威胁情报中心 | None | APT-C-55（Kimsuky）组织利用GitHub作为载荷平台的攻击活动分析 | https://mp.weixin.qq.com/s?__biz=MzUyMjk4NzExMA==&mid=2247504218&idx=1&sn=47c3680b0c07f8e130630073914a3992 | 18| 
 | NOVASEC | None | SharpWeb-支持Chrome v20解密 | https://mp.weixin.qq.com/s?__biz=MzUzODU3ODA0MA==&mid=2247489747&idx=1&sn=dc077cc92e70cae0e6986ede77e8e855 | 6| 
 | cy安全MD5 | None | 2024高校联盟CTF杯——昌吉学院校赛 | https://mp.weixin.qq.com/s?__biz=MzkzODcyNDg1OQ==&mid=2247483814&idx=1&sn=abfaacfcd7959f609e37fcc6b1a8de0a | 1| 
 | 云科安信Antira | None | 再谈弱口令，全域应用风险防护攻略来袭！ | https://mp.weixin.qq.com/s?__biz=Mzg2NTk3NjczNQ==&mid=2247485384&idx=1&sn=d25583a6041ebc1db14b77db3fc1cb50 | 12| 
@@ -964,32 +1033,23 @@
 | 信息安全国家工程研究中心 | None | 转载 , 听说过AI造谣吗？ | https://mp.weixin.qq.com/s?__biz=MzU5OTQ0NzY3Ng==&mid=2247498180&idx=2&sn=a79ddc74b0644c7831dd945a9d947d5f | 51| 
 | 全栈网络空间安全 | None | 高效排障：详解RST，判定连接重置根因（二） | https://mp.weixin.qq.com/s?__biz=Mzg3NTUzOTg3NA==&mid=2247514648&idx=1&sn=f9cb7903e0f59cf076df90d319da3376 | 40| 
 | 关键信息基础设施安全保护联盟 | None | 警惕！新型安卓银行恶意软件正威胁你的银行账户！ | https://mp.weixin.qq.com/s?__biz=MzkxNjU2NjY5MQ==&mid=2247507615&idx=2&sn=be48f4077f4b1438d2de011a2f9087d2 | 154| 
-| 励行安全 | None | 新闻 , VMware免费了！ | https://mp.weixin.qq.com/s?__biz=MzkxNTY4NTQwMg==&mid=2247483994&idx=1&sn=57e102c9b778a6e55e70f41d25fa3bac | 6| 
 | 千寻安服 | None | Burp插件编写笔记（2）某客户端的加解密插件 | https://mp.weixin.qq.com/s?__biz=MzkzMzI3OTczNA==&mid=2247487364&idx=1&sn=bc840ba039046e626db73c094dfbbc76 | 4| 
 | 威努特安全网络 | None | 附下载 , 车路云一体化网络建设部署指南 | https://mp.weixin.qq.com/s?__biz=MzAwNTgyODU3NQ==&mid=2651128741&idx=2&sn=62fcf1668198e4413bd74ec695e20149 | 51| 
-| 安全牛课堂 | None | 云安全市场增速明显,文末免费试听课程领取方式 | https://mp.weixin.qq.com/s?__biz=MzIxNTM4NDY2MQ==&mid=2247514060&idx=2&sn=2406535892cccbdc0605e1a221981558 | 124| 
 | 平航科技 | None | 平航手机取证方案已支持国产“鸿蒙NEXT”系统 | https://mp.weixin.qq.com/s?__biz=MzI0OTEyMTk5OQ==&mid=2247493768&idx=1&sn=b9f93aa143a7ea4c08b3f5d65b80fddc | 22| 
-| 开源网安 | None | 江浙某测评公司：提升代码审计能力，确保评测项目高质量交付 | https://mp.weixin.qq.com/s?__biz=MzI0NzY1MDgyMw==&mid=2247513144&idx=1&sn=31f9fe3bc9daec7a238fece52b100b8c | 31| 
 | 思极安全实验室 | None | jar包环境下注入内存马 | https://mp.weixin.qq.com/s?__biz=MzAwOTQzMjMwOQ==&mid=2247483851&idx=1&sn=1ef6e459bc4f9054c72488303290b99b | 7| 
 | 悟安 | None | 如何做数据安全风险评估 | https://mp.weixin.qq.com/s?__biz=MzU5MTIxNzg0Ng==&mid=2247487978&idx=1&sn=271aeb053793c18c4da72d96f9eb24f4 | 7| 
 | 情报分析站 | None | 从影视剧里学习如何躲避跟踪 | https://mp.weixin.qq.com/s?__biz=MzkxMDIwMTMxMw==&mid=2247494060&idx=1&sn=74951d4b49216bde582dc66bb6d68290 | 13| 
 | 技术修道场 | None | Fortinet 重磅发布 AI 驱动的下一代数据防泄漏解决方案 FortiDLP！ | https://mp.weixin.qq.com/s?__biz=MzA4NTY4MjAyMQ==&mid=2447899611&idx=1&sn=62cb19185aa69c31c0f70dd49aca5cc3 | 70| 
-| 攻防之道 | None | 《琅琊榜》：智慧与胸怀，让人淡然从容地面对人生的风雨 | https://mp.weixin.qq.com/s?__biz=MzIyNDcwODgwMA==&mid=2247485310&idx=1&sn=8dc1c04d8e8b421d5b31dccf3b455a72 | 3| 
 | 朱厌安全 | None | 【SRC】未授权访问漏洞引发的惨案....... | https://mp.weixin.qq.com/s?__biz=Mzg4Njg3MDk5Ng==&mid=2247486759&idx=1&sn=dd53a459259c153a9a8cf3f7c9e6fdc5 | 9| 
-| 梆梆安全 | None | 梆梆安全荣获第九届“创客中国”全国企业组500强 网安赛道10强 | https://mp.weixin.qq.com/s?__biz=MjM5NzE0NTIxMg==&mid=2651134448&idx=1&sn=624a6d4f441b5fcdd86409273dc092fe | 72| 
-| 泛安全 | None | 【干货原创】实网攻防演习常态化，会带来什么变化01 | https://mp.weixin.qq.com/s?__biz=MzU3NjQ5NTIxNg==&mid=2247485208&idx=4&sn=bc53ec8dd49f0d1b04e4843b4d5d4072 | 82| 
 | 泷羽Sec | None | 【渗透测试】DC-8提权靶机综合渗透教程 | https://mp.weixin.qq.com/s?__biz=Mzg2Nzk0NjA4Mg==&mid=2247493402&idx=1&sn=f82fd09a24fc8a0ca2ea5a8b657378aa | 15| 
 | 浅安安全 | None | 工具 , chanzi | https://mp.weixin.qq.com/s?__biz=MzkwMTQ0NDA1NQ==&mid=2247491390&idx=4&sn=07ee2e2a3f9192f4e59cf9fd68693d07 | 298| 
 | 混入安全圈的程序猿 | None | 钓鱼邮件？还带附件？我就想看看钓鱼邮件的附件文档里面到底写了啥咋办？ | https://mp.weixin.qq.com/s?__biz=MzU3ODI3NDc4NA==&mid=2247484581&idx=1&sn=111cb3c048f408e0d9078bf331d72afb | 21| 
 | 狼蛛安全实验室 | None | 俄罗斯背景的Gamaredon网络间谍组织及其攻击技术深度解析 | https://mp.weixin.qq.com/s?__biz=Mzg4MDYwNDc5Nw==&mid=2247486353&idx=1&sn=a660c15e8a657de2b4cc5b562f916e95 | 1| 
-| 百度安全实验室 | None | 文心快码3.0 引领智能代码助手率先进入智能体时代 | https://mp.weixin.qq.com/s?__biz=MzA3NTQ3ODI0NA==&mid=2247487443&idx=1&sn=cb87c756d6b0407423a098950ecbd23a | 23| 
 | 红队蓝军 | None | 新书来了！2024，我们在幽暗的谷底仰望云安全的星空 | https://mp.weixin.qq.com/s?__biz=Mzg2NDY2MTQ1OQ==&mid=2247522751&idx=1&sn=078a1c6f68f04f900f6b8e0e2144cc71 | 47| 
-| 网络与信息法学会 | None | 【资讯】工信部发布《关于侵害用户权益行为的APP（SDK）通报（2024年第9批，总第44批）》 | https://mp.weixin.qq.com/s?__biz=MzU1NDY3NDgwMQ==&mid=2247547326&idx=2&sn=17beb0b31538a94d30baf5d61336a5dc | 255| 
 | 网络安全等保与关保 | None | 守护密码安全 | https://mp.weixin.qq.com/s?__biz=MzUyNjk2MDU4MQ==&mid=2247486362&idx=1&sn=84321cee68dc30198c1b46e09d01f823 | 28| 
 | 船山信安 | None | php伪协议 | https://mp.weixin.qq.com/s?__biz=MzU2NDY2OTU4Nw==&mid=2247517032&idx=1&sn=987f522bdb83421d39b52824bb177b81 | 119| 
 | 蓝桥云课精选 | None | 【备赛16届蓝桥杯】历年真题及题解 - 回忆迷宫 | https://mp.weixin.qq.com/s?__biz=MzkwODM4NDM5OA==&mid=2247519468&idx=2&sn=57b8ef07f14378ec204f5861fc3850a4 | 132| 
 | 逆向成长日记 | None | LineageOS 踩坑 | https://mp.weixin.qq.com/s?__biz=Mzg4NTg0MjMzNQ==&mid=2247484044&idx=1&sn=f466c2d39188e4b4434e1f77045f26eb | 13| 
-| 透明魔方 | None | 如何“不要脸”的做好应急演练桌面演练 | https://mp.weixin.qq.com/s?__biz=MzI4NzA1Nzg5OA==&mid=2247485530&idx=1&sn=63fefd9dbe907b53536cfcbeccfd688d | 46| 
 | 道一安全 | None | 【必备】免费攻防知识库分享 | https://mp.weixin.qq.com/s?__biz=MzU5OTMxNjkxMA==&mid=2247487505&idx=1&sn=cf7d22f5d938d6dd3d2ac4937abd1c0f | 67| 
 | 锐安全 | None | IT治理框架的惊鸿一瞥 | https://mp.weixin.qq.com/s?__biz=MzAxOTk3NTg5OQ==&mid=2247491607&idx=1&sn=b870723ae9ea077de613a03767b36489 | 36| 
 | 零羊IT | None | 时隔半年后的闲聊 | https://mp.weixin.qq.com/s?__biz=MzkyMTQzNTM3Ng==&mid=2247483829&idx=1&sn=f9cbbc977c14bcb77e1aaf00d35b565c | 4| 
@@ -1004,10 +1064,8 @@
 | 中孚安全技术研究 | None | Apache OFBiz 命令执行漏洞分析（CVE-2024-45195、CVE-2024-45507） | https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3MTk3Mg==&mid=2247488799&idx=1&sn=3fcedfd76ad5aa653ae31e9acc7ceacc | 4| 
 | 云下信安 | None | 如何应对 AI 崛起带来的爬虫横行 | https://mp.weixin.qq.com/s?__biz=MzU2MzY1NjU3Ng==&mid=2247485841&idx=1&sn=3ebf2f1822bfa74756f23eb431f5b076 | 8| 
 | 云众可信 | None | 喜讯 , 位列榜首！云众可信荣获2024网络安全“金帽子”年度创新成果典型案例 | https://mp.weixin.qq.com/s?__biz=Mzg2NDU3Mzc5OA==&mid=2247489627&idx=1&sn=c7e5c4840972b74d5823e66b5078815c | 14| 
-| 亚信安全 | None | 涉及92个漏洞！微软发布11月补丁日安全通告 | https://mp.weixin.qq.com/s?__biz=MjM5NjY2MTIzMw==&mid=2650619752&idx=2&sn=0c31585bd1f151ac62aec4b9bbfa00fa | 163| 
 | 信安404 | None | 【工具更新】Nessus 最新windows版Cracked（附下载） | https://mp.weixin.qq.com/s?__biz=Mzk0NjQ5MTM1MA==&mid=2247492604&idx=1&sn=6f3605c2656dd9e273269a6d5f816037 | 84| 
 | 创信华通 | None | 创信资讯丨创信华通成功入选《商用密码检测机构(商用密码应用安全性评估业务)目录》 | https://mp.weixin.qq.com/s?__biz=MzUxNTQxMzUxMw==&mid=2247524225&idx=1&sn=eff36f6013d9b962eb8ffadb4f9bbf38 | 53| 
-| 利刃信安 | None | 小米疑似“收买”百度，“红米”已变百家号敏感词 | https://mp.weixin.qq.com/s?__biz=MzU1Mjk3MDY1OA==&mid=2247518609&idx=1&sn=cef5a52533e7e3a8f1652a0ee8d2f0dd | 165| 
 | 吉吉说安全 | None | 挖掘漏洞-小白到脚本小子的进阶之路(小脑篇) | https://mp.weixin.qq.com/s?__biz=MzkwNjY1NjI2Mg==&mid=2247487295&idx=1&sn=e3e1be9ae9f24240a8b4e85cc8347f3c | 2| 
 | 哈拉少安全小队 | None | 最后两个 | https://mp.weixin.qq.com/s?__biz=MzAxNzkyOTgxMw==&mid=2247493687&idx=1&sn=723c7038df30d5badd2d7db1f3d1bd52 | 84| 
 | 嘉诚安全 | None | 2024年11月微软补丁日多个高危漏洞安全风险通告 | https://mp.weixin.qq.com/s?__biz=MzU4NjY4MDAyNQ==&mid=2247496728&idx=1&sn=7965047c17252a88a498d1eaacef9c99 | 103| 
@@ -1015,8 +1073,6 @@
 | 天融信教育 | None | 每日安全提醒~ | https://mp.weixin.qq.com/s?__biz=MzU0MjEwNTM5Ng==&mid=2247520110&idx=5&sn=5882b2a26ef3802487c04dd77863bb32 | 191| 
 | 天融信阿尔法实验室 | None | 【风险提示】天融信关于微软2024年11月安全更新的风险提示 | https://mp.weixin.qq.com/s?__biz=Mzg3MDAzMDQxNw==&mid=2247496662&idx=1&sn=89c2e0f34e55b91c488ba8ef1c710f04 | 7| 
 | 安全君呀 | None | 【js逆向渗透系列01】利用JSRPC秒杀JS加密 | https://mp.weixin.qq.com/s?__biz=MzkyOTUxMzk2NQ==&mid=2247485212&idx=1&sn=ae88ca476dd1da899d783482df6ffeaf | 12| 
-| 安全研究GoSSIP | None | G.O.S.S.I.P 阅读推荐 2024-11-13 K-Hunt++ | https://mp.weixin.qq.com/s?__biz=Mzg5ODUxMzg0Ng==&mid=2247499190&idx=1&sn=72d25d43880140476f83ce17b377284e | 90| 
-| 安恒信息CERT | None | 网络安全信息与动态周报2024年第45期（11月4日-11月10日） | https://mp.weixin.qq.com/s?__biz=MzUzOTE2OTM5Mg==&mid=2247490158&idx=3&sn=4a63c4a279370fca2a4dc35dd93664e5 | 56| 
 | 实战安全研究 | None | 一次无效的JAVA任意文件上传审计 | https://mp.weixin.qq.com/s?__biz=MzU0MTc2NTExNg==&mid=2247491082&idx=1&sn=07caeb11b05fb19ef2f2ace1425d87ad | 100| 
 | 小白菜安全 | None | 漏洞推送,用友YonBIP yonbiplogin存在任意文件读取漏洞(附nuclei) | https://mp.weixin.qq.com/s?__biz=MzIzOTM2MzczNQ==&mid=2247485127&idx=1&sn=dddcd3f21cf35ca6f216341d6564d33a | 57| 
 | 小白逆向之旅 | None | 逆向百例之基于chatgpt还原某里231 | https://mp.weixin.qq.com/s?__biz=Mzg5NTY3MTc2Mg==&mid=2247483970&idx=1&sn=84f4282af719af02ba4245e608b3057f | 2| 
@@ -1025,7 +1081,6 @@
 | 数说安全 | None | 蚂蚁集团“基于大模型的安全平行切面与智能威胁检测系统”入选《2024人工智能先锋案例集》 | https://mp.weixin.qq.com/s?__biz=MzkzMDE5MDI5Mg==&mid=2247508015&idx=2&sn=1e1ca5c4bea8520d8bc046bbd11154bf | 55| 
 | 方桥安全漏洞防治中心 | None | 第十二期 · 安钥®「漏洞处置标准作业程序（SOP）」征文启示 | https://mp.weixin.qq.com/s?__biz=Mzk0OTQzMDI4Mg==&mid=2247484346&idx=1&sn=3ad077dc85b5741a5250f2ef1424f99d | 13| 
 | 春秋伽玛 | None | 聚焦前沿技术攻防，2024“中华武数杯”全国网络攻防精英赛报名启动 | https://mp.weixin.qq.com/s?__biz=MzkyNDA5NjgyMg==&mid=2247500115&idx=1&sn=f23cf0da5c789523213f38bc102050e0 | 13| 
-| 深信服千里目安全技术中心 | None | 深信服漏洞治理综合技术能力获认可！CNVD给予12星好评 | https://mp.weixin.qq.com/s?__biz=Mzg2NjgzNjA5NQ==&mid=2247523842&idx=2&sn=b9124857bac988d1212fa9b72549629b | 62| 
 | 火绒安全 | None | 诚邀渠道合作伙伴共启新征程 | https://mp.weixin.qq.com/s?__biz=MzI3NjYzMDM1Mg==&mid=2247520504&idx=2&sn=553ba34518181afb5784de9fb95a3f33 | 53| 
 | 电子取证wiki | None | 数证杯电子数据取证分析大赛 检材 | https://mp.weixin.qq.com/s?__biz=MzkzNTQzNTQzMQ==&mid=2247485110&idx=1&sn=456471a0f1015dd3827370be6da8d64f | 13| 
 | 网安培训 | None | 从短信平台被入侵事件的发生，看网络安全应急响应工作 | https://mp.weixin.qq.com/s?__biz=MzIzNTEzNzIyMA==&mid=2247486604&idx=1&sn=a5b2643fdc174d1dfef8ced4a5434ba4 | 14| 
@@ -1037,23 +1092,17 @@
 | 网络空间安全科学学报 | None | 表彰！《网络空间安全科学学报》2023-2024年度优秀论文 | https://mp.weixin.qq.com/s?__biz=MzI0NjU2NDMwNQ==&mid=2247504160&idx=1&sn=c15d4241630feddfd156a7d02bcc1ca7 | 68| 
 | 蟹堡安全团队 | None | [网鼎杯2024-玄武组]Re2 | https://mp.weixin.qq.com/s?__biz=MzkyMTUzMDY1OA==&mid=2247484998&idx=2&sn=68bbedc1fe25ed2724e87f429cdbb096 | 22| 
 | 认知独省 | None | 终端对抗防御逃逸-内存免杀 | https://mp.weixin.qq.com/s?__biz=MzU0NTI4MDQwMQ==&mid=2247484184&idx=1&sn=101b31368a5a3b3f2d1f3c1b68ecb628 | 4| 
-| 赛查查 | None | 赛事通知 , 关于举办2024年网络安全标准知识竞赛的通知 | https://mp.weixin.qq.com/s?__biz=Mzk0NTU0ODc0Nw==&mid=2247490001&idx=1&sn=b5ed0c497adc4ca311720edeee1fc2b8 | 76| 
 | 进击安全 | None | 一次无效的JAVA任意文件上传审计 | https://mp.weixin.qq.com/s?__biz=MzkyMjM5NDM3NQ==&mid=2247486064&idx=1&sn=d24a85c138cb2ea1d2de22561e784d61 | 22| 
 | 青藤云安全 | None | 新书来了！2024，我们在幽暗的谷底仰望云安全的星空 | https://mp.weixin.qq.com/s?__biz=MzAwNDE4Mzc1NA==&mid=2650849678&idx=1&sn=aebbf9032160e043bb1f6ebd7c0e2ba0 | 24| 
-| 默安科技 | None | 11月19日，我们乌镇见！ | https://mp.weixin.qq.com/s?__biz=MzIzODQxMjM2NQ==&mid=2247499523&idx=1&sn=fd48c703a36a1f8fbdaad4367e378eea | 28| 
 | 360安全应急响应中心 | None | 360SRC x ADConf 11.13 北京见 | https://mp.weixin.qq.com/s?__biz=MzkzOTIyMzYyMg==&mid=2247494517&idx=3&sn=0b49cbe8d5f75b96ded14f7eff81c236 | 14| 
 | Day1安全团队 | None | 限时翻倍｜双11热力不减，ByteSRC狂欢14天 | https://mp.weixin.qq.com/s?__biz=MzU1NDU1NTI5Nw==&mid=2247488055&idx=1&sn=5c57055bb9275e9a54a27dad53555b6a | 19| 
 | H4nk技师日志 | None | 要像运营一家公司运营自己 | https://mp.weixin.qq.com/s?__biz=Mzg5MDcwOTM4OQ==&mid=2247485987&idx=1&sn=a6efad72d129c12b72d1646cb7cfedbf | 1| 
 | ISEC安全e站 | None | 工信领域数据安全：数据分类分级的实践与挑战 | https://mp.weixin.qq.com/s?__biz=MzIxNzU5NzYzNQ==&mid=2247489341&idx=1&sn=1a0c518d9a7ce115d1319117ae5054bc | 23| 
-| OPPO安全中心 | None | 【众测挑战赛2404】海外电商业务火热进行中！超丰富的额外奖励等着你！ | https://mp.weixin.qq.com/s?__biz=MzUyNzc4Mzk3MQ==&mid=2247493907&idx=2&sn=50a8945864d391496ef2ef471684b79d | 11| 
-| OneTS安全团队 | None | 明年假期日历！多放2天假 | https://mp.weixin.qq.com/s?__biz=MzkxMDY3MzQyNQ==&mid=2247484617&idx=1&sn=8b719ed67389a15e684b772d46cd732f | 9| 
-| Timeline Sec | None | TimelineSec助力ByteSRC限时翻倍活动，双11热力不减，狂欢14天！ | https://mp.weixin.qq.com/s?__biz=MzA4NzUwMzc3NQ==&mid=2247496753&idx=2&sn=13074d2dd3e09addaf4e3d065662949d | 39| 
 | Van1sh | None | 2024 网鼎杯 青龙&白虎 | https://mp.weixin.qq.com/s?__biz=Mzg5OTkxMzM3NA==&mid=2247485751&idx=1&sn=d07fb76f8e0b1a0cf9cd974c19b163f5 | 3| 
 | Y1X1n安全 | None | 认识正向代理、反向代理、正向 Shell 和反弹 Shell | https://mp.weixin.qq.com/s?__biz=MzI4MDcxODc4MQ==&mid=2247484638&idx=1&sn=027c3ebc3148852e093a6642ed6436a9 | 1| 
 | 一己之见安全团队 | None | “乐子” | https://mp.weixin.qq.com/s?__biz=MzkzNzY3ODk4MQ==&mid=2247484083&idx=1&sn=dcb8f0f017c92c7d48fa995277893ff2 | 16| 
 | 中孚信息 | None | 中孚信息入选国家信息安全漏洞库（CNVD）用户组支撑单位！ | https://mp.weixin.qq.com/s?__biz=MzAxMjE1MDY0NA==&mid=2247508539&idx=1&sn=5ea965a9da9251282e46633deaa24fb9 | 30| 
 | 信安客 | None | 这次软考高级吊打了大批不认真学习的人 | https://mp.weixin.qq.com/s?__biz=MzU2NzMwNTgxNQ==&mid=2247491503&idx=1&sn=a319100e99b4d06b21f0ad866819d571 | 7| 
-| 信息安全D1net | None | 企业安全事件频发，查明原因面临重重挑战 | https://mp.weixin.qq.com/s?__biz=MzA3NTIyNzgwNA==&mid=2650259446&idx=1&sn=0e876166c00f878ef0a93ab88a0b8a05 | 49| 
 | 偏远酒馆 | None | 关于新版本gowitness/snap强制占用磁盘解决方案 | https://mp.weixin.qq.com/s?__biz=MzkwMDMwNDgwNQ==&mid=2247485586&idx=1&sn=8a7a7997dc5dc4c510a96dd9abcddfa0 | 1| 
 | 南风漏洞复现文库 | None | D-Link多款产品account_mgr.cgi接口存在远程命令执行漏洞CVE-2024-10914 附POC | https://mp.weixin.qq.com/s?__biz=MzIxMjEzMDkyMA==&mid=2247487762&idx=1&sn=a25eeab4481350dc19897a38bb313f5e | 46| 
 | 四叶草安全 | None | 四叶草安全荣获年度优秀行业解决方案奖项 | https://mp.weixin.qq.com/s?__biz=MjM5MTI2NDQzNg==&mid=2654552032&idx=1&sn=54c4dc1f53851e855dfcb27ff7e5f028 | 28| 
@@ -1062,20 +1111,16 @@
 | 娜璋AI安全之家 | None | [译文] LLM安全：4.绕过 Azure AI 内容安全防护措施（字符注入和对抗机器学习） | https://mp.weixin.qq.com/s?__biz=Mzg5MTM5ODU2Mg==&mid=2247500965&idx=1&sn=8e786b9b106b128bdcad2a3fa3f25288 | 23| 
 | 字节跳动安全中心 | None | 限时翻倍｜双11热力不减，ByteSRC狂欢14天 | https://mp.weixin.qq.com/s?__biz=MzUzMzcyMDYzMw==&mid=2247494171&idx=1&sn=3a4b9fb054528a6bf33dd4b789c84756 | 27| 
 | 安全工程师实录 | None | Thinkphp5.1.0-Thinkphp5.1. 文件包含漏洞（CNVD-2024-29981） | https://mp.weixin.qq.com/s?__biz=Mzg3MTc0MDYwMg==&mid=2247483857&idx=1&sn=aff0dbf3a61af3559608afafa41f87fa | 3| 
-| 安全狗 | None | 亚信安全云主机安全DeepSecurity全新而来！四大升级全意守护企业云安全新局 | https://mp.weixin.qq.com/s?__biz=MjM5NTc2NDM4MQ==&mid=2650842022&idx=1&sn=c879064dbf3dd870715a8d5a780563f7 | 37| 
 | 安全的黑魔法 | None | 前端js加密调试的靶场:encrypt-labs | https://mp.weixin.qq.com/s?__biz=MzU4Mzc4MDQyOQ==&mid=2247484288&idx=1&sn=be31469c5afe882406c387121003b3c8 | 10| 
 | 安全社 | None | Backup-X 网站备份扫描 | https://mp.weixin.qq.com/s?__biz=MzkwMzUyNDIwMA==&mid=2247484087&idx=1&sn=0d7509ed280ae31147b988592b11b689 | 7| 
 | 安全脉脉 | None | Autel MaxiCharger（CVE-2024-23967 /CVE-2024-23957解析） | https://mp.weixin.qq.com/s?__biz=Mzk0MzQzNzMxOA==&mid=2247487551&idx=1&sn=ac70ab02c53603efeffc9019a9f32702 | 48| 
 | 山石网科安全技术研究院 | None | 山石网科获得2024大湾区网络安全大会多项荣誉 | https://mp.weixin.qq.com/s?__biz=MzUzMDUxNTE1Mw==&mid=2247508693&idx=1&sn=526f227bb3c55b867cca2f39f16f8285 | 48| 
 | 弥天安全实验室 | None | 【成功复现】D-Link NAS远程命令执行漏洞(CVE-2024-10914) | https://mp.weixin.qq.com/s?__biz=MzU2NDgzOTQzNw==&mid=2247502586&idx=1&sn=0128b8d78adfaf4169f5c1b2a56acceb | 41| 
-| 慢雾科技 | None | Doo Group 与 MistTrack 达成合作伙伴关系，共促加密交易的安全与合规 | https://mp.weixin.qq.com/s?__biz=MzU4ODQ3NTM2OA==&mid=2247500641&idx=1&sn=623e19b75de821ef7791699d8017f04f | 46| 
 | 摸鱼Sec | None | Thinkphp3文件包含(CNVD-2024-39045) | https://mp.weixin.qq.com/s?__biz=MzkwODUxMDUwMg==&mid=2247483802&idx=1&sn=bcda4c000871e19b64bce3bb3edd25aa | 5| 
 | 教育网络信息安全 | None | 招贤纳士 | https://mp.weixin.qq.com/s?__biz=MzI0ODI4Njk0Ng==&mid=2247492190&idx=4&sn=3f5d30727bbdc0958785fdf912d1fb83 | 32| 
 | 暗魂攻防实验室 | None | 【CTF比赛版】anhunsec_ctf_V2.5 比赛专属系统正式发布！ | https://mp.weixin.qq.com/s?__biz=MzkyMjE1NzQ2MA==&mid=2247489433&idx=1&sn=7001e0a23e82c2f760e53dd3814bbaf3 | 16| 
 | 朽木的安全杂谈 | None | 注意身体 | https://mp.weixin.qq.com/s?__biz=Mzg5OTkwMjEwMg==&mid=2247483831&idx=1&sn=867865ea66cb7116a31a4312d310f73c | 3| 
 | 杭师大网安 | None | 第七届浙江省大学生网络与信息安全竞赛获奖喜讯 | https://mp.weixin.qq.com/s?__biz=Mzg5MzA1MDIzMg==&mid=2247495763&idx=1&sn=0d51e06c7835b8678966f2aa328da4dd | 4| 
-| 河北镌远网络科技有限公司 | None | 企望制造ERP系统 drawGrid.action SQL注入致RCE漏洞复现 | https://mp.weixin.qq.com/s?__biz=MzU3MzU4NjI4OQ==&mid=2247515400&idx=1&sn=e731ccb64a86e4c2739d60cdbcbbd9d0 | 4| 
-| 深圳市网络与信息安全行业协会 | None | 国家密码管理局公告（49号） | https://mp.weixin.qq.com/s?__biz=MzU0Mzk0NDQyOA==&mid=2247520458&idx=2&sn=10cda7896fbe6f735c8bf57493f3d664 | 93| 
 | 渗透练习生 | None | 【罗村 , 畅乐水上乐园】仅￥38抢水上乐园上午场单人门票！2大2小仅136元抢原价272套票！罗畅乐 | https://mp.weixin.qq.com/s?__biz=Mzg4MzUyODY5NQ==&mid=2247485115&idx=1&sn=89a0173ca19cfb586909660b8be4a12c | 1| 
 | 生有可恋 | None | 不完美副屏方案 | https://mp.weixin.qq.com/s?__biz=Mzk0MTI4NTIzNQ==&mid=2247491967&idx=1&sn=469487f14a39041c18d9feff9a1e6224 | 66| 
 | 百度安全应急响应中心 | None | 沙龙报名｜“智效融合，安全护航”·深圳站 第七期「度安讲」 技术沙龙来了！ | https://mp.weixin.qq.com/s?__biz=MzA4ODc0MTIwMw==&mid=2652541815&idx=1&sn=be377d2a895edff502d9ee49217a0d2c | 22| 
@@ -1083,12 +1128,10 @@
 | 神州希望网络安全 | None | 突破：神州希望成功入选国家商用密码检测机构目录 | https://mp.weixin.qq.com/s?__biz=MzA4Mzg1ODMwMg==&mid=2650724401&idx=1&sn=0d34f43f173b253713c8c1515a625d1b | 2| 
 | 绿盟科技研究通讯 | None | 正式发布 , 绿盟科技云原生ATT&CK矩阵 | https://mp.weixin.qq.com/s?__biz=MzIyODYzNTU2OA==&mid=2247498038&idx=1&sn=e11becc0e4b45329590ad59cf73cf37b | 49| 
 | 老烦的草根安全观 | None | 网络安全缩略语汇编手册-M（2） | https://mp.weixin.qq.com/s?__biz=MzA5MTYyMDQ0OQ==&mid=2247493449&idx=1&sn=bac39936de5ceb7d1fd4be0fc3aeeade | 34| 
-| 腾讯安全 | None | 威胁情报如何成为安全产品“连接器”？腾讯安全行业沙龙落地 | https://mp.weixin.qq.com/s?__biz=Mzg5OTE4NTczMQ==&mid=2247525521&idx=1&sn=45ea9caf663575fabdcf52533142663a | 49| 
 | 车小胖谈网络 | None | Socket连接和TCP连接有什么区别，都是传输数据，谁能讲一下这其中的关联吗？ | https://mp.weixin.qq.com/s?__biz=MzIxNTM3NDE2Nw==&mid=2247490220&idx=1&sn=1c95bf0a2b0eab0c6b595771cc819fc8 | 30| 
 | 零漏安全 | None | APT攻击检测与反制技术体系深度解析 | https://mp.weixin.qq.com/s?__biz=MzkyMDUzMzY1MA==&mid=2247499321&idx=1&sn=a0f43d2f7c1662e8db6264814be668aa | 60| 
 | 黑战士 | None | 全网最详细的burp验证码爆破 | https://mp.weixin.qq.com/s?__biz=MzUxMzQ2NTM2Nw==&mid=2247493571&idx=1&sn=39cc802f23dcd0d63b5d0129a553d0c7 | 10| 
 | 黑熊安全 | None | DataGear resolveSql 远程代码执行漏洞 | https://mp.weixin.qq.com/s?__biz=Mzg2MTg2NzI5OA==&mid=2247484703&idx=1&sn=29463d14ba55d7518b19b784ede3957b | 32| 
-| GSDK安全团队 | None | 综合信息收集、漏洞扫描工具 - ScopeSentryu200b | https://mp.weixin.qq.com/s?__biz=MzIzNTE0Mzc0OA==&mid=2247485924&idx=1&sn=880e377ede7aa9c733bfcc7c142fb276 | 37| 
 | Hacking黑白红 | None | 我的第一本“AI 大模型安全、监管”实操指南（送书3本） | https://mp.weixin.qq.com/s?__biz=Mzg2NDYwMDA1NA==&mid=2247542635&idx=1&sn=7fcb5f3d63e184278f47bf15622d4ba4 | 70| 
 | Nil聊安全 | None | 产品推荐 , 2024 值得推荐的免费堡垒机 | https://mp.weixin.qq.com/s?__biz=MzkyMDY4MTc2Ng==&mid=2247483960&idx=1&sn=5505186ba0429aab3f76f248c06d1890 | 27| 
 | SecWiki | None | SecWiki周刊（第558期） | https://mp.weixin.qq.com/s?__biz=MjM5NDM1OTM0Mg==&mid=2651053371&idx=1&sn=54574c6a1241f584b2fde56bfb74015b | 15| 
@@ -1105,14 +1148,12 @@
 | 埋藏酱油瓶 | None | 【开源工具】- Docker版Windows | https://mp.weixin.qq.com/s?__biz=MzA5OTI3MTE5MQ==&mid=2247485388&idx=1&sn=009ce027d8682176a5a35e030d4543ae | 4| 
 | 大伯为安全 | None | 别被钓鱼啦！ToDesk的用户或潜在用户们，注意安全嗷 | https://mp.weixin.qq.com/s?__biz=MzkwOTU5Mjk5MA==&mid=2247485089&idx=1&sn=d16aa4bb27d1e5615cc0aa9af0194010 | 7| 
 | 安全新说 | None | 亚信安全完成并购亚信科技，百亿级“安全+数智化”软件企业诞生 | https://mp.weixin.qq.com/s?__biz=MzA3NDIwNTY5Mw==&mid=2247506898&idx=2&sn=9ce9ea7d731111fef58c3531a4c0febf | 67| 
-| 安全管理杂谈 | None | 安全行车：关乎生命的每一公里 | https://mp.weixin.qq.com/s?__biz=MzI5MjEyOTE4MA==&mid=2648520021&idx=1&sn=da2f5c9319951b7ad726d27e9dfe4943 | 4| 
 | 安天移动安全 | None | 语音交友概率游戏新玩法，是不是破解涉赌风险的“密码”？ | https://mp.weixin.qq.com/s?__biz=MjM5NTY4NzcyNg==&mid=2650249769&idx=1&sn=de43e11880c54234d5c6c318d440867d | 22| 
 | 快手技术 | None | 统一存储、缩短链路，快手从 Clickhouse 到 Apache Doris 实现湖仓分离向湖仓一体的升级 | https://mp.weixin.qq.com/s?__biz=Mzg2NzU4MDM0MQ==&mid=2247492281&idx=1&sn=6c69c1a779c3037abddb73943dca9ded | 10| 
 | 我爱林 | None | 漏洞复现 ,, 苹果IOS端IPA签名工具Sign.php接口存在任意命令执行 | https://mp.weixin.qq.com/s?__biz=MzI2Mzc3OTg1Ng==&mid=2247492618&idx=1&sn=90efb91aa4bbdd9061a6322293c9b6a6 | 10| 
 | 有恒安全 | None | SRC挖掘 , 文件下载漏洞getshell | https://mp.weixin.qq.com/s?__biz=Mzk0NDU5NTc4OA==&mid=2247484259&idx=1&sn=d73b9eda68f232d22c9e0bc8cfd75695 | 8| 
 | 杰哥就是逊 | None | Thinkphp框架漏洞扫描工具V1.0发布！ | https://mp.weixin.qq.com/s?__biz=MzkxNTczMjA1Ng==&mid=2247483932&idx=1&sn=32a305594c09709de05178cf8ccfbc00 | 5| 
 | 极客安全 | None | 国家密码管理局公告（49号） | https://mp.weixin.qq.com/s?__biz=MzU2MjcwOTY1Mg==&mid=2247520254&idx=1&sn=20115455c58557de313bdba260b2b423 | 10| 
-| 泾弦安全 | None | 免杀对抗从0开始（五） | https://mp.weixin.qq.com/s?__biz=Mzk0MzU5NTg1Ng==&mid=2247484829&idx=1&sn=e9c4a46a9ce6897a6b3ae1446a36d725 | 27| 
 | 渗透安全团队 | None | 实战 , 某x教育局遗漏高危漏洞 | https://mp.weixin.qq.com/s?__biz=MzkxNDAyNTY2NA==&mid=2247519223&idx=2&sn=8edac79d5328723f24f3fe02da3d0869 | 108| 
 | 漏洞盒子 | None | 漏洞盒子x星纪魅族SRC , 漏洞盒子「企业SRC」新住客 | https://mp.weixin.qq.com/s?__biz=MzA5NzQ0Mjc5NA==&mid=2649765605&idx=1&sn=3e7fe59663a371f5d765c723e2b96132 | 1| 
 | 火炬木攻防实验室 | None | 赣CTF官方writeup | https://mp.weixin.qq.com/s?__biz=Mzg4NzcxOTI0OQ==&mid=2247486647&idx=1&sn=6c39233e8bded7b7be769f0cfec3b6de | 7| 
@@ -1123,8 +1164,6 @@
 | 竞远网络安全 | None | 2024大湾区网络安全大会圆满落幕，竞远安全引领安全行业服务创新实践 | https://mp.weixin.qq.com/s?__biz=MzAwMTU3NTcwMg==&mid=2650274619&idx=1&sn=9dbea60fd1f68dee83b837e937594d89 | 14| 
 | 绿盟科技威胁情报 | None | 开源前哨 · 热点情报速览（2024.11.5-2024.11.11） | https://mp.weixin.qq.com/s?__biz=Mzg2Nzg0NDkwMw==&mid=2247492976&idx=1&sn=8143c3e63c151cccc2108dc960a53d33 | 12| 
 | 网安寻路人 | None | 津沪闽京自贸区数据跨境流动清单管理制度研究 | https://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247505396&idx=1&sn=51099b5182e5eda85b94959a3e732376 | 33| 
-| 网星安全 | None | 【倒计时2天】ADConf 线上直播预约开启！！速抢前排！ | https://mp.weixin.qq.com/s?__biz=MzkxNTEzMTA0Mw==&mid=2247495989&idx=1&sn=84523ca7bb6e0c4a75bd1e7984639e41 | 16| 
-| 网络安全与人工智能研究中心 | None | 马自达被曝存在多个漏洞，黑客可执行任意代码 | https://mp.weixin.qq.com/s?__biz=MzkwMTQyODI4Ng==&mid=2247494709&idx=3&sn=7be57fcfb56d6b7e01ca3c4d7a842bf9 | 33| 
 | 谢公子学安全 | None | Rubeus的使用 | https://mp.weixin.qq.com/s?__biz=MzI2NDQyNzg1OA==&mid=2247493774&idx=1&sn=f1fbdec102256c5b0e6afe3c55c238c0 | 5| 
 | 迪普科技 | None | 聚焦智慧医疗发展，迪普科技携信息安全创新方案亮相医疗卫生信息技术创新高峰大会 | https://mp.weixin.qq.com/s?__biz=MzA4NzE5MzkzNA==&mid=2650366392&idx=1&sn=064df589a72cef487dc0c5cbe0e2af33 | 40| 
 | 重生者安全 | None | 为什么老外如此钟爱国产 WAF | https://mp.weixin.qq.com/s?__biz=Mzg4NTczMTMyMQ==&mid=2247486198&idx=1&sn=9b875d98a336c135e71b43ad30bf1b2f | 22| 
@@ -1161,11 +1200,9 @@
 | 黑客白帽子 | None | 2024年咖啡机选购指南，多款咖啡机评测：飞利浦、雪特朗、格米莱、德龙、百胜图怎么选？ | https://mp.weixin.qq.com/s?__biz=MzA5MzYzMzkzNg==&mid=2650962002&idx=3&sn=c2fca215e392c38cf2fb4aea7162cade | 316| 
 | Beacon Tower Lab | None | Xlight FTP Server整数溢出漏洞(CVE-2024-46483)分析与复现 | https://mp.weixin.qq.com/s?__biz=MzkyNzcxNTczNA==&mid=2247486773&idx=1&sn=d265a545b7ba37c5291d890bb91d4528 | 16| 
 | BlockSec | None | 非法资金流动案例分析：$55M DAI 钓鱼事件 | https://mp.weixin.qq.com/s?__biz=MzkyMzI2NzIyMw==&mid=2247488291&idx=1&sn=87aec6770f5841f9a07efe17fcef74d4 | 11| 
-| CertiK | None | 顾荣辉在新加坡金融科技节发表主旨演讲：安全不仅是竞争优势，更是共同责任 | https://mp.weixin.qq.com/s?__biz=MzU5OTg4MTIxMw==&mid=2247503569&idx=1&sn=1c63162625d71382c79b6d7b024db054 | 37| 
 | Max安全研究院 | None | windows利用Redis主从复制获取系统权限 | https://mp.weixin.qq.com/s?__biz=MzUzNjk3NDc2Ng==&mid=2247484271&idx=1&sn=0f5682621b6ec4d900bc883a30799117 | 3| 
 | Yak Project | None | 拿不下总统之位，那就用热加载拿下验证码识别与爆破好了！ | https://mp.weixin.qq.com/s?__biz=Mzk0MTM4NzIxMQ==&mid=2247524449&idx=1&sn=722e674e5220798785a59ed140e66763 | 26| 
 | yudays实验室 | None | 看了这个文章，也许你也可以加入 | https://mp.weixin.qq.com/s?__biz=MzU0NjU5NDE4Mg==&mid=2247485528&idx=1&sn=d36f49cb5121755a86d3b355f0c17615 | 7| 
-| 万径安全 | None | YAK 新书出版！《CDSL-YAK 网络安全领域编程语言—从入门到实践》 | https://mp.weixin.qq.com/s?__biz=MzIwMzI1MDg2Mg==&mid=2649945042&idx=1&sn=77a399270be8741d83b659b201258f4f | 21| 
 | 中学生CTF | None | 热烈祝贺！山东省“技能兴鲁”职业技能大赛网络安全赛项线上赛初赛成功举办 | https://mp.weixin.qq.com/s?__biz=MzU3MzEwMTQ3NQ==&mid=2247507480&idx=1&sn=ced7b4d27a745b41e9a168a6878c6736 | 6| 
 | 合规渗透 | None | Docker 提权 | https://mp.weixin.qq.com/s?__biz=MzkzOTI2NjUyNA==&mid=2247485242&idx=1&sn=ecd9e8c1e582b8be6959c23c660959c1 | 26| 
 | 哔哩哔哩技术 | None | B站S赛直播中的关键事件识别与应用 | https://mp.weixin.qq.com/s?__biz=Mzg3Njc0NTgwMg==&mid=2247501290&idx=1&sn=0430e00c4c0fb662d0baf43afb290238 | 44| 
@@ -1175,19 +1212,16 @@
 | 奇安信洞鉴 | None | 字节跳动、网易高层接连陷入反腐风波！一文带你读懂涉企犯罪 | https://mp.weixin.qq.com/s?__biz=Mzg4NDYzNzIzNQ==&mid=2247492036&idx=1&sn=1966bf35121d729d4089113f7af4c1bb | 6| 
 | 奇安信病毒响应中心 | None | 每周勒索威胁摘要 | https://mp.weixin.qq.com/s?__biz=MzI5Mzg5MDM3NQ==&mid=2247497771&idx=1&sn=f38400e728898f6f2dbcb63d460fe81c | 18| 
 | 安全Si语 | None | 这就是一个公告！~ | https://mp.weixin.qq.com/s?__biz=MzU4NTkwMzgzNQ==&mid=2247483957&idx=1&sn=8e8e753e9754e0688234d1b5b2cc2e7a | 6| 
-| 工业信息安全产业发展联盟 | None | 网络数据安全公益培训预告 | https://mp.weixin.qq.com/s?__biz=MzUyMzA1MTM2NA==&mid=2247498637&idx=1&sn=0ba9cf14880f1ef4aeba7c19584250be | 81| 
 | 度小满安全应急响应中心 | None | DXMSRC助力｜先知安全沙龙 - 北京站明日开启！ | https://mp.weixin.qq.com/s?__biz=Mzg2MjIzODI3Mw==&mid=2247492922&idx=2&sn=30d41500a0725a5201d732cfdf70f2c1 | 13| 
 | 悬镜安全 | None | 持续引领 , AI智能代码疫苗！悬镜安全持续引领十大软件供应链安全代表厂商 | https://mp.weixin.qq.com/s?__biz=MzA3NzE2ODk1Mg==&mid=2647794719&idx=1&sn=5b913ebbf7cd964e5da8f19e8c63c686 | 14| 
 | 效率源 | None | 【2025款】最新一代 , 效率源手机取证恢复分析系统，全面覆盖执法部门取证研判需求 | https://mp.weixin.qq.com/s?__biz=MjM5ODQ3NjAwNQ==&mid=2650550732&idx=1&sn=7957c611a254daa1091ea0036393cddf | 29| 
 | 数据安全合规交流部落 | None | 红队：不止于渗透测试 | https://mp.weixin.qq.com/s?__biz=MzU2MDQ0NzkyMw==&mid=2247484872&idx=1&sn=bc56a2065554cadbe775bcfb05a6c351 | 12| 
 | 格格巫和蓝精灵 | None | Java Payload 生成框架的设计与实现 | https://mp.weixin.qq.com/s?__biz=MzI5NDg0ODkwMQ==&mid=2247486087&idx=1&sn=d39a395fdf32b60a67dda9335e825380 | 25| 
 | 棉花糖fans | None | 给你们发工具不是让你们当大黑客被人溯源的啊！（余麻子哭吼脸） | https://mp.weixin.qq.com/s?__biz=MzkyOTQzNjIwNw==&mid=2247489881&idx=1&sn=c37c8b523552294ad51fb088987087cd | 41| 
-| 泰晓科技 | None | 实时分析工具 rtla timerlat 介绍（二）：延迟测试原理 | https://mp.weixin.qq.com/s?__biz=MzA5NDQzODQ3MQ==&mid=2648194241&idx=1&sn=5b0b129173ae96d055e15a5f5efe91a0 | 34| 
 | 洞源实验室 | None | 大语言模型安全，到底是什么的安全 | https://mp.weixin.qq.com/s?__biz=Mzg4Nzk3MTg3MA==&mid=2247487588&idx=1&sn=c8f5cb9cddd7a3951e6db41ea62897de | 49| 
 | 玲珑安全 | None | 超出范围的域存在XSS？我是这样提高危害的 | https://mp.weixin.qq.com/s?__biz=Mzg4NjY3OTQ3NA==&mid=2247486028&idx=1&sn=716a830880ae0887ed295f780b16513b | 4| 
 | 白帽100安全攻防实验室 | None | 车联网安全入门指北 | https://mp.weixin.qq.com/s?__biz=MzIxMDYyNTk3Nw==&mid=2247514991&idx=1&sn=b0d96944c2f9d616a3540e5d7f976783 | 11| 
 | 白帽子安全笔记 | None | [bug修复]完全无法检测的CobaltStrike | https://mp.weixin.qq.com/s?__biz=Mzg2ODE5OTM5Nw==&mid=2247486425&idx=1&sn=19911e3793263a7e493204e2b666403c | 11| 
-| 白帽攻防 | None | 【漏洞复现】同望OA系统tooneAssistantAttachement.jsp接口处存在任意文件读取漏洞 | https://mp.weixin.qq.com/s?__biz=MzkyMjcxNzE2MQ==&mid=2247484202&idx=1&sn=853b3e38f6be3f100a2ec767dc95dfa1 | 10| 
 | 盛邦安全应急响应中心 | None | 烽火狼烟丨暗网数据及攻击威胁情报分析周报（11/04-11/08） | https://mp.weixin.qq.com/s?__biz=Mzk0NjMxNTgyOQ==&mid=2247484445&idx=1&sn=d7a27c66f3a0d27aa4726e94154e3c4a | 19| 
 | 移动安全星球 | None | HarmonyOSNext模拟器Root（无视模拟器镜像完整性验证）（二） | https://mp.weixin.qq.com/s?__biz=MzI3Mzk2OTkxNg==&mid=2247486308&idx=1&sn=63af1f4428a3402981c10a9523a3862a | 5| 
 | 第59号 | None | 每周安全速递³¹⁷｜勒索组织Hellcat声称已窃取Schneider Electric公司超过40GB的压缩数据 | https://mp.weixin.qq.com/s?__biz=MzI0NDgxMzgxNA==&mid=2247496386&idx=1&sn=b069f44157a3ab1220518cc65418ec2a | 16| 
@@ -1210,7 +1244,6 @@
 | 中龙技术 | None | 深信服内推福利（Sangfor） | https://mp.weixin.qq.com/s?__biz=Mzg3Mzg1OTYyMQ==&mid=2247487636&idx=5&sn=7894a09ab36f80182f53fcd3aae57da8 | 5| 
 | 五色石课堂 | None | 儿童网络安全：构建安全防线 | https://mp.weixin.qq.com/s?__biz=Mzg2NjkxNzA0Ng==&mid=2247484809&idx=2&sn=5bb288f8f40f311360f564e34ff1cd4b | 6| 
 | 内蒙古等保测评 | None | 通知 , 关于更换新版等级保护测评服务认证证书样式的说明 | https://mp.weixin.qq.com/s?__biz=MzI4MjExMzAwNA==&mid=2247487386&idx=1&sn=10e8dc391041420448237cf984b73c09 | 6| 
-| 卡巴斯基网络安全大百科 | None | 从隔离系统中窃取数据的新方法 | https://mp.weixin.qq.com/s?__biz=MzAxNjg3MjczOA==&mid=2247486203&idx=1&sn=4025699528e56820106a70385d75be9c | 14| 
 | 在下小白 | None | 如何将 Astro 部署在对象存储上 | https://mp.weixin.qq.com/s?__biz=MzkyNzUzMjM1NQ==&mid=2247484715&idx=1&sn=6a625b4ba68a667a8f2474f560f80122 | 4| 
 | 塞讯安全验证 | None | FASTCash 恶意软件新型 Linux 变种袭击 ATM 支付交换机 | https://mp.weixin.qq.com/s?__biz=Mzk0MTMzMDUyOA==&mid=2247503067&idx=4&sn=17d948064f5492291564e31d22d3280e | 29| 
 | 安羽安全 | None | Vue Vben Admin硬编码漏洞 | https://mp.weixin.qq.com/s?__biz=MzkwMzY5NTg0Mg==&mid=2247484063&idx=1&sn=2f48bcee9839343d50cafb48a0ec2872 | 9| 
@@ -1219,7 +1252,6 @@
 | 沃克学安全 | None | 记一次实战小程序漏洞测试到严重漏洞 | https://mp.weixin.qq.com/s?__biz=MzkzMjIxNjExNg==&mid=2247485698&idx=1&sn=ff5b0137eed726c1cfa2476f5a9c7e18 | 13| 
 | 渗透云笔记 | None | 实战进攻性安全｜深度掌握进攻性安全技巧（第二期） | https://mp.weixin.qq.com/s?__biz=MzU2NzkxMDUyNg==&mid=2247492118&idx=1&sn=b7ffeb143b0de96a1f22823214012364 | 2| 
 | 瞌睡虫小K | None | 【竞赛】2024Dozer新生赛考核 | https://mp.weixin.qq.com/s?__biz=MzI4MTIxMzkxMg==&mid=2247485529&idx=1&sn=38a46b0154cd20be8e3dd180d423c30f | 10| 
-| 知道创宇 | None | 知道创宇助力“清朗”行动整治，向同城版块信息乱象“亮剑” | https://mp.weixin.qq.com/s?__biz=MjM5NzA3Nzg2MA==&mid=2649869978&idx=1&sn=e74bfbe74950e7093aa83e23d415e99b | 55| 
 | 编程技术栈 | None | 【网络安全】如何从实战中学习漏洞挖掘？零基础入门到精通（超详细），收藏这一篇就够了_渗透测试 | https://mp.weixin.qq.com/s?__biz=MzkxNDU0MTUyNw==&mid=2247490916&idx=2&sn=11a498ff5e349e53493386887961560b | 12| 
 | 菜鸟学渗透 | None | KingPortal开发系统kingclient存在任意文件读取漏洞 | https://mp.weixin.qq.com/s?__biz=Mzg2NzkxOTQ0OA==&mid=2247484470&idx=1&sn=e9ade5bddf3e9da7adb014d0d06f4e8f | 6| 
 | 补天漏洞响应平台 | None | 第五期 , 冲刺年度榜单！补天校园GROW计划2024年最后一期~ | https://mp.weixin.qq.com/s?__biz=MzU4MzgwODc3Ng==&mid=2247497101&idx=2&sn=20630ab2a2e039f8a616aaac57e4aa8f | 14| 
@@ -1227,7 +1259,6 @@
 | 风奕安全 | None | Linux进程伪装(三)：优化版本demo | https://mp.weixin.qq.com/s?__biz=MzkzODgwNzczMw==&mid=2247483756&idx=1&sn=1e294c47ee90d120b904b4aa2f93943f | 2| 
 | 飞羽技术工坊 | None | 这实习生就离谱 | https://mp.weixin.qq.com/s?__biz=MzkwODQyMjgwNg==&mid=2247485249&idx=1&sn=baa07a1d6baea4e888b569868f5902cd | 18| 
 | ACT Team | None | 2024年第八届“强网杯”全国网络安全挑战赛线上初赛Pwn Writeup | https://mp.weixin.qq.com/s?__biz=Mzg2OTcyODc1OA==&mid=2247488557&idx=1&sn=8653a99a5f38d001314aaecea2372c36 | 8| 
-| CISSP Learning | None | 数据残留处理方式对比总结 | https://mp.weixin.qq.com/s?__biz=MzIyMjYzNDgzMg==&mid=2247487508&idx=1&sn=d1156177f1ece2d7a87338c6cd363fb5 | 11| 
 | Code4th安全团队 | None | 第八届强网杯 - Write UP | https://mp.weixin.qq.com/s?__biz=MzkzMzE5OTQzMA==&mid=2247485414&idx=1&sn=db1b2dc084a79c92fccbf845566e8821 | 12| 
 | Longwaer安全百晓堂 | None | 来看看这么多年，为什么挖洞，你只会挖低危！ | https://mp.weixin.qq.com/s?__biz=MzkxODY0NjE5MA==&mid=2247484983&idx=1&sn=a55e3658e84cb640de29815d479dcc77 | 8| 
 | OPPO安珀实验室 | None | 首款移动智能终端机密计算系统产品获CCRC EAL4+证书 | https://mp.weixin.qq.com/s?__biz=MjM5Njk1MDY5Ng==&mid=2247491077&idx=1&sn=3bd59ea038b463c6d400134affc14366 | 6| 
@@ -1240,10 +1271,7 @@
 | 信息安全笔记 | None | 我是如何三个月通过CISSP考试的 | https://mp.weixin.qq.com/s?__biz=MjM5MzI3NzE4NA==&mid=2257484329&idx=1&sn=7881105996b5ea20ef97f6bc1b954dca | 10| 
 | 取证者联盟 | None | 资源分享 , 越来越卷的数字侦查&取证比赛 | https://mp.weixin.qq.com/s?__biz=Mzg4MzEwMDAyNw==&mid=2247485168&idx=1&sn=533d4f8339b3481c31d0d3126a5ce808 | 6| 
 | 吉祥在职场 | None | 马东和付航的人生哲学：拒绝标签、破壳而生！ | https://mp.weixin.qq.com/s?__biz=MzI1ODY3MTA3Nw==&mid=2247486549&idx=1&sn=f430d0c89b0324e2f928b0b0739b16a0 | 49| 
-| 国家互联网应急中心CNCERT | None | 上周关注度较高的产品安全漏洞(20241028-20241103) | https://mp.weixin.qq.com/s?__biz=MzIwNDk0MDgxMw==&mid=2247499443&idx=2&sn=8486ce03af29247af53c30b12bd5cc7e | 38| 
 | 国家信息安全服务资质 | None | 测评公告（2024年第8号） | https://mp.weixin.qq.com/s?__biz=MzI0NDg4MTIyNQ==&mid=2247485985&idx=1&sn=4919ce803bfc8a1ba4e59e144893a180 | 5| 
-| 天御攻防实验室 | None | 对威胁情报行业现状的反思 | https://mp.weixin.qq.com/s?__biz=MzU0MzgyMzM2Nw==&mid=2247486063&idx=1&sn=11e005a726ced95e872e2ce7fb228ba2 | 38| 
-| 安全学术圈 | None | 东南大学 , F-ACCUMUL：基于协议指纹和累积有效载荷长度样本的Tor-Snowflake流量识别框架 | https://mp.weixin.qq.com/s?__biz=MzU5MTM5MTQ2MA==&mid=2247491340&idx=1&sn=2498e1158e6267c2e6299a825775a2d2 | 57| 
 | 安全方案与实践 | None | 零信任与AI（续2） | https://mp.weixin.qq.com/s?__biz=MzkyMzU2NjQyNA==&mid=2247483920&idx=1&sn=42372f22956870740aa535865a80cae0 | 7| 
 | 安芯网盾 | None | 安芯网盾与京东科技达成战略合作，携手共筑数字安全新生态 | https://mp.weixin.qq.com/s?__biz=MzU1Njk1NTYzOA==&mid=2247491364&idx=1&sn=39c8da7614c05170ccacee8a0c282dc7 | 10| 
 | 扶楹安全 | None | 60天怒挖2w+，优秀学员笑笑教你如何逆袭 | https://mp.weixin.qq.com/s?__biz=MzkyNzQzODA3Ng==&mid=2247484700&idx=1&sn=c77f2cb32965d402f1881ba6a875943a | 2| 
@@ -1261,7 +1289,6 @@
 | 嗨嗨安全 | None | 第八届强网杯全国网络安全挑战赛 WriteUp | https://mp.weixin.qq.com/s?__biz=MzIzMjg0MjM5OQ==&mid=2247487826&idx=1&sn=8619b25ce2cf0ebe4a4160b87104854f | 34| 
 | 国家网络安全通报中心 | None | 网络安全宣传片-网页“暗链”专题 | https://mp.weixin.qq.com/s?__biz=MzU1MTE1MjU5Nw==&mid=2247485339&idx=1&sn=b3888f108d8f97cefede1bf8b7eabcb9 | 13| 
 | 墨菲安全 | None | 听说在这上班超有“安全感”！ | https://mp.weixin.qq.com/s?__biz=MzkwOTM0MjI5NQ==&mid=2247487960&idx=1&sn=957ad877ce722cdf6a10d8234bfb8df2 | 3| 
-| 复旦白泽战队 | None | 我实验室4篇论文被NDSS 2025接收！ | https://mp.weixin.qq.com/s?__biz=MzU4NzUxOTI0OQ==&mid=2247491258&idx=1&sn=8797c7b08fa32a4b1bab8cc521945ef1 | 27| 
 | 安迈信科应急响应中心 | None | 【漏洞通告】WordPress 1.2.5 及以下版本的 ReCaptcha 集成 - 反射式跨站点脚本 | https://mp.weixin.qq.com/s?__biz=Mzg2NjczMzc1NA==&mid=2247486379&idx=7&sn=d0fb1d7af9e7d9990ad9c17043d272bf | 117| 
 | 小黑说安全 | None | Docker-Api RCE 图形化利用工具 | https://mp.weixin.qq.com/s?__biz=MzkxNjQyMjcwMw==&mid=2247486695&idx=2&sn=4fd49e5cfbfb62753f2e02474f1d3a7e | 21| 
 | 晓说森林 | None | 第3章业务连续性计划 | https://mp.weixin.qq.com/s?__biz=Mzg3NTU1OTc3Mw==&mid=2247484462&idx=1&sn=5d459b1dd1f4545e1dc0d02d3be83470 | 11| 
@@ -1272,7 +1299,6 @@
 | 货拉拉安全应急响应中心 | None | 【货拉拉安全2025届校招盛启】北深杭三地等你来投！ | https://mp.weixin.qq.com/s?__biz=Mzg2MDU5NjI0Mw==&mid=2247490240&idx=1&sn=337d1b1212833f13c02fb71c95638a31 | 11| 
 | 陌陌安全 | None | 没有眼花，没有看错！额外抽奖机会来了！ | https://mp.weixin.qq.com/s?__biz=MzI2OTYzOTQzNw==&mid=2247488561&idx=1&sn=bdd267e0020ca574809eb88ec24f6172 | 4| 
 | 零组攻防实验室 | None | 【web-chains】Web版Java Payload生成与利用平台 | https://mp.weixin.qq.com/s?__biz=MzU5OTAzNTgzNQ==&mid=2247485322&idx=1&sn=182be16c06814146c677e7051775748f | 7| 
-| 顺丰安全应急响应中心 | None | SFSRC助力 , 完整议程发布！先知安全沙龙 - 北京站 11月9日开启！ | https://mp.weixin.qq.com/s?__biz=MzU3OTAyODk4MQ==&mid=2247490975&idx=2&sn=dc0fcde35694db39a3d7a97f0725ad5b | 21| 
 | 骏安检测 | None | 新规发布｜11月1日起，13项网络安全国家标准开始实施 | https://mp.weixin.qq.com/s?__biz=MzkxODczNjA4NQ==&mid=2247493917&idx=1&sn=626a197ef3524bd3987b28d5fba7cfc3 | 14| 
 | 骨哥说事 | None | 今日一图 | https://mp.weixin.qq.com/s?__biz=MjM5Mzc4MzUzMQ==&mid=2650260110&idx=1&sn=70c5b64746b1fe44243a75ac4edb34ab | 53| 
 | 黑哥虾撩 | None | 分享一个“细思极恐”的提示词 | https://mp.weixin.qq.com/s?__biz=Mzg5OTU1NTEwMg==&mid=2247484270&idx=1&sn=4594fbeeebd0c33542c9446376239d57 | 8| 
@@ -1285,7 +1311,6 @@
 | 暴暴的皮卡丘 | None | Android 私有文件窃取风险挖掘 | https://mp.weixin.qq.com/s?__biz=MzU0NDI5NTY4OQ==&mid=2247486135&idx=1&sn=ffcb88e38e413c25ade43166ff710fa4 | 29| 
 | 网络安全备忘录 | None | 电力行业等保测评与国标的差异介绍（以三级为例） | https://mp.weixin.qq.com/s?__biz=MzA3NDMyNDM0NQ==&mid=2247484567&idx=1&sn=fef11b74e93eb536c91f19b8e1d9f86f | 18| 
 | 苏诺木安全团队 | None | 【Nday】某友U8 Cloud uapbd.refdef.query SQL注入漏洞【附poc】 | https://mp.weixin.qq.com/s?__biz=MzkwMjYzNTE4MA==&mid=2247485120&idx=1&sn=efb92a8ebf2971b56ee8320b7305db5a | 41| 
-| 钟毓安全 | None | 过年之怎么回八卦的亲戚 | https://mp.weixin.qq.com/s?__biz=MzkzNjM5NDU0OA==&mid=2247486173&idx=1&sn=ed0c7e287f2e5882278572231ad9b800 | 16| 
 | 0x00实验室 | None | 招聘 , 驻场安全服务工程师 | https://mp.weixin.qq.com/s?__biz=Mzg5MDY2MTUyMA==&mid=2247491567&idx=1&sn=3b52b23405230e75e6deaa10ebb1cc49 | 1| 
 | KeepHack1ng | None | 靶机渗透-Cicada | https://mp.weixin.qq.com/s?__biz=MzkzOTQ5MzY3OQ==&mid=2247484189&idx=1&sn=dedfa3ff696bf46d2b68de8ab729cb84 | 3| 
 | OneMoreThink | None | 攻防靶场(28)：通过SNMP进行信息收集 JOY | https://mp.weixin.qq.com/s?__biz=MzI0NjA3Mzk2NQ==&mid=2247495234&idx=1&sn=7d65cced8806a71f2c87bdb47bcff49f | 26| 
@@ -1317,7 +1342,6 @@
 | 珂技知识分享 | None | web选手入门pwn(20) ——网鼎杯PWN01 | https://mp.weixin.qq.com/s?__biz=MzUzNDMyNjI3Mg==&mid=2247487132&idx=1&sn=b9f6dfea720511a3bffcf18f065ba030 | 11| 
 | 电科网安 | None | “话费慢充”：赌博上分之话费慢充洗钱 | https://mp.weixin.qq.com/s?__biz=MzU3ODk0MzE4OA==&mid=2247487785&idx=1&sn=2776a6e7b3a58cd5a333dafbaf5da90e | 34| 
 | 白鼠安全团队 | None | 再起航，实力不说，老品牌值得信赖 | https://mp.weixin.qq.com/s?__biz=MzIwMjkxMTY5Mg==&mid=2247484775&idx=1&sn=8e0455c6ae69d3d52b8c1e681a02ffe2 | 1| 
-| 矢安科技 | None | 【技术分享】探索云安全之元数据攻与防 | https://mp.weixin.qq.com/s?__biz=Mzg2Mjc3NTMxOA==&mid=2247515287&idx=1&sn=714ea83288ddfadf698b6a81608ecc20 | 27| 
 | 老鑫安全 | None | 红队武器开发系列：利用 Windows 线程池 API 和 I/O 完成回调来实现代理 DLL 加载 | https://mp.weixin.qq.com/s?__biz=MzU0NDc0NTY3OQ==&mid=2247487976&idx=1&sn=9ea0c1f7fca9082035b0051792823f08 | 26| 
 | 菜鸟小新 | None | Apache Shiro 身份验证绕过漏洞 (CVE-2020-11989 | https://mp.weixin.qq.com/s?__biz=Mzg4OTI0MDk5MQ==&mid=2247492901&idx=1&sn=24066f0644407a3130407041eb21cf53 | 70| 
 | 表图 | None | 240930 更新：网络安全上市公司们的现金还能撑多久？ | https://mp.weixin.qq.com/s?__biz=MzUzOTI4NDQ3NA==&mid=2247484677&idx=1&sn=3b616fe5d2126f3dc3aea1f99b7d91e4 | 9| 
@@ -1336,7 +1360,6 @@
 | 同程旅行安全应急响应中心 | None | 双11安全狂欢节：新人豪礼，双倍惊喜！ | https://mp.weixin.qq.com/s?__biz=MzI4MzI4MDg1NA==&mid=2247485010&idx=1&sn=c7d30d3ca6c98b59c0e49ff80086f268 | 2| 
 | 天津恒御科技有限公司 | None | 【密码科普】第二期：商用密码应用 | https://mp.weixin.qq.com/s?__biz=MzU4NjY3OTAzMg==&mid=2247512889&idx=2&sn=9197c3cff771100512b59b8eef69df4b | 4| 
 | 安全架构 | None | 手把手教你构建可信白环境【文末赠书】 | https://mp.weixin.qq.com/s?__biz=Mzg5MjgxNTQ1MA==&mid=2247487941&idx=1&sn=f23480185eafe9a0ff3bb3cf2cf6b56f | 13| 
-| 强网竞赛 | None | 倒计时2天丨第八届“强网杯”线上赛即将开赛 | https://mp.weixin.qq.com/s?__biz=Mzg4MjY3NDQ2Ng==&mid=2247487220&idx=3&sn=a1d9125bd457b40d4b329beb5ef224fe | 9| 
 | 必火安全 | None | 关于“刀郎”那些事，一步到位全清楚。 | https://mp.weixin.qq.com/s?__biz=MzUzMjg0MTk5Mw==&mid=2247487691&idx=1&sn=8c42ac5d512952b23236908c8a6b3b3c | 4| 
 | 樱花庄的本间白猫 | None | 【抽象派】不是？哥们？ | https://mp.weixin.qq.com/s?__biz=Mzk0NDU1NTA5MA==&mid=2247484126&idx=1&sn=b74fa073fbc5d9495c27cb343704b70c | 9| 
 | 汇能云安全 | None | 马克龙行踪被保镖泄漏，健身APP威胁全球政要和军方机密 | https://mp.weixin.qq.com/s?__biz=MzIwNzAwOTQxMg==&mid=2652250740&idx=1&sn=bc39f25b466ab03b1b5e8c4a8d0bbabc | 21| 
@@ -1348,14 +1371,11 @@
 | 黑客驰 | None | 免费动态DNS，简单易用，无需注册！ | https://mp.weixin.qq.com/s?__biz=Mzg4MzgwMDE2Mw==&mid=2247488218&idx=1&sn=6a7c5ec7d3f096962fa77fcc2a311154 | 52| 
 | Docker中文社区 | None | Kubernetes 网络介绍（八） | https://mp.weixin.qq.com/s?__biz=MzI1NzI5NDM4Mw==&mid=2247498183&idx=2&sn=90fb2d5904652b8f47b1bdfc7ca1be64 | 35| 
 | FreeBuf播客电台 | None | 网安i人拯救计划——测人格 赢大会周边 | https://mp.weixin.qq.com/s?__biz=Mzg2MTAwNzg1Ng==&mid=2247495262&idx=2&sn=df3a1387e9e66c26a22daa7a5ec01cd1 | 5| 
-| ISC2北京分会 | None | ISC2北京分会十周年-会员专访-雷志强 | https://mp.weixin.qq.com/s?__biz=MzAxMzEyMjQ4Mg==&mid=2688531153&idx=5&sn=fb44794ab54cf12b2cb93129e537c4f1 | 20| 
 | JC的安全之路 | None | 聊聊在反序列化漏洞中如何找Gadget利用链 | https://mp.weixin.qq.com/s?__biz=Mzg3NDk3NzMwNw==&mid=2247484749&idx=1&sn=b0d71b1f67ae4884f99a374abc911f2e | 7| 
 | Rsec | None | HTB靶场Compiled(Windows)[Medium] | https://mp.weixin.qq.com/s?__biz=MzA4NDQ5NTU0MA==&mid=2647690391&idx=1&sn=c4b4963413ee02fe5651fe8b2b0704e2 | 12| 
 | SecretTeam安全团队 | None | 低权 Linux 键盘记录方案 | https://mp.weixin.qq.com/s?__biz=MzkzMDQ5MDM3NA==&mid=2247485968&idx=1&sn=cc51d313f3a3b3d913e960e527cf50b6 | 8| 
 | WalkingCloud | None | 【直播预告】：阿加犀基于SiRider S1芯擎开发板的机器人应用分享 | https://mp.weixin.qq.com/s?__biz=MzU2MjU1OTE0MA==&mid=2247499381&idx=1&sn=f56643ea139e503fec20db76d9e987d6 | 23| 
 | backdoor | None | Rust beacon | https://mp.weixin.qq.com/s?__biz=MzI5MzkwMzU1Nw==&mid=2247485142&idx=1&sn=c6be5a50474cb67abba8e323b25bd143 | 4| 
-| rainy的安全小屋 | None | Nday-Apache Solr身份验证绕过漏洞（CVE-2024-45216） | https://mp.weixin.qq.com/s?__biz=MzkxMzczNTA4MQ==&mid=2247483825&idx=1&sn=be6702961c9fc126c445a6abb19c52d5 | 1| 
-| 国际云安全联盟CSA | None | 威胁情报在企业安全中的关键作用：攻防新策略解析 | https://mp.weixin.qq.com/s?__biz=MzkwMTM5MDUxMA==&mid=2247500217&idx=1&sn=f928bd36adda31285ce9fa2144168ea2 | 51| 
 | 安全info | None | 数据分级分类工具：敏感数据识别中的AI智能化转型之路 | https://mp.weixin.qq.com/s?__biz=Mzg2MTc0NTYyNg==&mid=2247485523&idx=1&sn=5acf4503488b83f35d009345f7299a70 | 4| 
 | 安全产品人的赛博空间 | None | 《2024网安市场年报》数据中有意思的地方 | https://mp.weixin.qq.com/s?__biz=Mzg5NTUzODkxMw==&mid=2247483847&idx=1&sn=0f4ef95b7ba3352b54105d29cbacca75 | 3| 
 | 富贵安全 | None | GitHub监控系统上线！文末大量邀请码 | https://mp.weixin.qq.com/s?__biz=MzkxNzY5MTg1Ng==&mid=2247483824&idx=1&sn=ee8ed39a23fc09336f58ac261db45b99 | 3| 
@@ -1378,7 +1398,6 @@
 | OpenWrt | None | JCG Q30路由器如何升级官方OpenWrt固件 | https://mp.weixin.qq.com/s?__biz=MzU4MTgxNDc2MQ==&mid=2247485946&idx=1&sn=642ae73f8e28d28e9d5cc8777374f638 | 12| 
 | 安全小白 | None | 分享图片 | https://mp.weixin.qq.com/s?__biz=MzI1NDU2MzAzNQ==&mid=2247486247&idx=1&sn=eda0873a1ff15599aceb174a459f9b9c | 5| 
 | 巢安实验室 | None | Game Of Active Directory 搭建记录 | https://mp.weixin.qq.com/s?__biz=MzU2MjY1ODEwMA==&mid=2247492005&idx=1&sn=7e335cf14dc880eb9572bf80305304f0 | 28| 
-| 微步在线研究响应中心 | None | 威胁情报周报（10.21~10.27） | https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247507231&idx=1&sn=e5bb2a08ea8182ced6651022e7d944d9 | 35| 
 | 放之 | None | 风，起于青萍之末 | https://mp.weixin.qq.com/s?__biz=Mzg3ODAzNjg5OA==&mid=2247485272&idx=1&sn=05923f817d43f3a4f513228b6a739d85 | 4| 
 | 新势界NewFrontier | None | 89元起？击穿价格下限。前行者Battle68 | https://mp.weixin.qq.com/s?__biz=Mzg2MjkwMDY3OA==&mid=2247485377&idx=1&sn=3aa7c4bbf6a484a437c32dc6371f48a9 | 1| 
 | 月落安全 | None | 关于网安最近“芸姐”瓜的全貌 | https://mp.weixin.qq.com/s?__biz=Mzg4NDk4MTk5OA==&mid=2247485474&idx=1&sn=bdc1889bc14c0350daf5528d5ca85bb0 | 10| 
@@ -1452,7 +1471,6 @@
 | 我吃饼干 | None | 【资源分享】最新VMware Workstation Pro 17.6.1下载 | https://mp.weixin.qq.com/s?__biz=MzkzODY2ODA0OA==&mid=2247485888&idx=1&sn=c6b7e37f2ad456e76cdf4a0fc03d259f | 44| 
 | 技术分享交流 | None | 模型训练只需输入需求自动生成完整测试用例文件 | https://mp.weixin.qq.com/s?__biz=MzAxMDIwNjg2MA==&mid=2247486121&idx=1&sn=c0fd720aec0c82e55f050d5ab4715a08 | 8| 
 | 携程技术 | None | 干货 , 携程国际机票基础数据中台化：构建高效的数据管理和应用平台 | https://mp.weixin.qq.com/s?__biz=MjM5MDI3MjA5MQ==&mid=2697276361&idx=1&sn=27b3b15534897d3cb6e6b0f13a7651ed | 13| 
-| 暗影安全 | None | 倒计时6天！2024补天白帽大会全议程发布！ | https://mp.weixin.qq.com/s?__biz=MzI2MzA3OTgxOA==&mid=2657165625&idx=1&sn=df33b21e854015416e05ba8090348def | 16| 
 | 猪猪谈安全 | None | 倒计时6天！2024补天白帽大会全议程发布！ | https://mp.weixin.qq.com/s?__biz=MzIyMDAwMjkzNg==&mid=2247513413&idx=1&sn=858e7af359d51bf5ba348242ee11e2a4 | 13| 
 | 猫鼠信安 | None | 中病毒了咋办？别慌，这几款病毒云沙箱帮你分析！ | https://mp.weixin.qq.com/s?__biz=Mzg2NjUzNzg4Ng==&mid=2247484642&idx=1&sn=c370a1031cebf91646c63e6610fe5319 | 9| 
 | 网络安全透视镜 | None | 使用打火机获取计算机root权限 | https://mp.weixin.qq.com/s?__biz=MzIxMTg1ODAwNw==&mid=2247500265&idx=1&sn=656dd6febe23e17ba53a48675a007b9a | 17| 
@@ -1485,7 +1503,6 @@
 | 云梦安全 | None | 使用 XiebroC2：简洁高效的红队 C2 平台 | https://mp.weixin.qq.com/s?__biz=MzU1NzczNTM1MQ==&mid=2247484980&idx=2&sn=8c12e6263f7f92bdd8040b280fcd54e0 | 21| 
 | 云计算和网络安全技术实践 | None | vulnhub之jerome的实践 | https://mp.weixin.qq.com/s?__biz=MzA3MjM5MDc2Nw==&mid=2650748732&idx=1&sn=a2d3d687934ee32775814c1c00f0c3e3 | 10| 
 | 人遁安全 | None | dnsx工具包详解：快速处理DNS请求，助力网络安全测试 | https://mp.weixin.qq.com/s?__biz=Mzk0NDQwMDY1Nw==&mid=2247484440&idx=1&sn=b6d3b20ee7d5e5c233aa1d071754ea07 | 20| 
-| 公安部网络安全等级保护中心 | None | 供应链安全检测系列技术规范介绍之一,软件成分分析 | https://mp.weixin.qq.com/s?__biz=MzU3NTQwNDYyNA==&mid=2247488046&idx=1&sn=105f35c4ec7c76ecd9dca885b4319a42 | 12| 
 | 华住安全响应中心 | None | 【HSRC奖励公告】2024年HSRC第三季度奖励公告 | https://mp.weixin.qq.com/s?__biz=MzAwNTcyMTc4OQ==&mid=2247484476&idx=1&sn=005af5def77e3037e6f810878b0d4fb3 | 3| 
 | 安全之眼SecEye | None | 一个WAF检查绕过工具 | https://mp.weixin.qq.com/s?__biz=MzkzOTY1MzcyOQ==&mid=2247489818&idx=1&sn=71d795aae90c0cf9f8796c020a9d69b2 | 32| 
 | 德斯克安全小课堂 | None | 异常流量阻断分析与应用 | https://mp.weixin.qq.com/s?__biz=MzA3MTUxNzQxMQ==&mid=2453885484&idx=1&sn=037c73b1e734b53e9ca365828b6e4fce | 26| 
@@ -1519,7 +1536,6 @@
 | 信息时代的犯罪侦查 | None | 如何使用ECharts辅助开展数据可视化分析？ | https://mp.weixin.qq.com/s?__biz=MzAxNTA4NDAwOQ==&mid=2650736988&idx=1&sn=5e1734a5c81916d6113bf0d3ad513927 | 6| 
 | 像梦又似花 | None | 2024年最新Win10/Win11系统永久激活教程（免费、无需密钥、支持离线激活） | https://mp.weixin.qq.com/s?__biz=MzkwMjQyNjAxMA==&mid=2247484502&idx=1&sn=6c8e5e43412e8da691a66314160bccd2 | 9| 
 | 小杨学安全 | None | 反弹Shell流量加密 | https://mp.weixin.qq.com/s?__biz=Mzk0NzM4OTQ5NQ==&mid=2247484485&idx=1&sn=96976b91421581b5c734acf8dd0a5422 | 4| 
-| 长风安全 | None | 工具｜CSDN付费、登录、关注限制绕过 | https://mp.weixin.qq.com/s?__biz=Mzg4MDkyMTE4OQ==&mid=2247484491&idx=1&sn=d82360e07ddf998c17bea52297802a81 | 14| 
 | Kali渗透测试教程 | None | 开源SOC实现（十五）-Shuffle | https://mp.weixin.qq.com/s?__biz=MzI3NDYwMzI4Mg==&mid=2247486631&idx=1&sn=e555b23d003c506e3b03bb4ef83d147e | 4| 
 | NOP Team | None | 一个记录本机IP的程序 ｜ 功能更新 | https://mp.weixin.qq.com/s?__biz=MzU1NDkwMzAyMg==&mid=2247502555&idx=1&sn=67a323c98aa31d608e7e81d6768a4e09 | 27| 
 | RedTeaming | None | 高危产品指纹维护计划1.0 | https://mp.weixin.qq.com/s?__biz=MzUyMDgzMDMyMg==&mid=2247484465&idx=1&sn=80feb4c98ed2b33c50b118eea562ceac | 2| 
@@ -1570,7 +1586,6 @@
 | 丈八网安 | None | 丈八网安保障2024年第四届太仓市职业技能大赛网络安全竞赛圆满成功 | https://mp.weixin.qq.com/s?__biz=MzkwNzI1NDk0MQ==&mid=2247492029&idx=1&sn=4f1e9d44989c936feb5fafa9538c0ef1 | 14| 
 | 三十的安全屋 | None | Thinkphp5.1.0-Thinkphp5.1. 文件包含漏洞（CNVD-2024-29981） | https://mp.weixin.qq.com/s?__biz=Mzg2NTg3Njc0Nw==&mid=2247484682&idx=1&sn=fb4b24b3fa8d55246e4ad498301368cc | 1| 
 | 中国网络安全产业公共服务平台 | None | 【证书和报告信息】北京长亭科技有限公司-企业网络安全措施有效性验证平台 | https://mp.weixin.qq.com/s?__biz=Mzg5MzQ5NjQyNw==&mid=2247486139&idx=1&sn=76f366c731fe4f696072b0f7ca7bd7c8 | 14| 
-| 京数安 | None | 算法备案通过了，说说踩过的坑 | https://mp.weixin.qq.com/s?__biz=Mzg4OTY4MDA2MA==&mid=2247491512&idx=1&sn=c8416e899371e8f538c11b5c6fffc985 | 11| 
 | 北极星安全实验室 | None | 9月份漏洞情报更新 | https://mp.weixin.qq.com/s?__biz=Mzg5MDg0MzYxMg==&mid=2247487717&idx=1&sn=ba6c0bb8a5e9ab8ad43b8884f2b40ba8 | 16| 
 | 安全村SecUN | None | 外部攻击面管理的思考与启示｜大湾区金融安全专刊·安全村 | https://mp.weixin.qq.com/s?__biz=MzkyODM5NzQwNQ==&mid=2247495894&idx=1&sn=68dd2fb9c482c010f0638e8304aaf390 | 16| 
 | 深白网安 | None | 苹果IOS端IPA签名工具任意文件读取漏洞 | https://mp.weixin.qq.com/s?__biz=Mzk0MTUxNzAxMg==&mid=2247484091&idx=1&sn=394f57fdf5234e77d42a990dd9ebb2e0 | 5| 
@@ -1586,7 +1601,6 @@
 | 小行星安全圈 | None | (0day)Eking-管理易系统前台任意文件上传漏洞 | https://mp.weixin.qq.com/s?__biz=MzkxNDcwMjg0Mg==&mid=2247485182&idx=1&sn=7fb9017596de0f1e344b8fef2de2f3e3 | 5| 
 | 渗透Xiao白帽 | None | 漏洞速递 , CVE-2024-27292漏洞（附EXP） | https://mp.weixin.qq.com/s?__biz=MzI1NTM4ODIxMw==&mid=2247501114&idx=1&sn=bf4f3ee801c4912fc401c2eccec67087 | 16| 
 | 渭南师院网络信息安全社 | None | 网络信息安全社宣传册分发 | https://mp.weixin.qq.com/s?__biz=Mzk0MjI1NzY1NQ==&mid=2247486801&idx=1&sn=d792afccb80c7df7e83ea6cbf73647d5 | 2| 
-| 粵港澳大灣區網絡安全協會 | None | 关于数据安全建设落地的几点思考 | https://mp.weixin.qq.com/s?__biz=MzkwOTUyODE5Mg==&mid=2247485244&idx=1&sn=df0a80e11fd786fefeac3104322864b7 | 27| 
 | 金色钱江 | None | 大甲方招聘驻场，有讲师经验，红队优先 | https://mp.weixin.qq.com/s?__biz=Mzg5NTY3NTMxMQ==&mid=2247484478&idx=1&sn=60fb1c315b8c9f4069b68033158656f4 | 6| 
 | 阿呆攻防 | None | 做过国网首发的+，留言我加你 | https://mp.weixin.qq.com/s?__biz=MzIzNDU5Mzk2OQ==&mid=2247486277&idx=1&sn=5010a603ad2007389d1ce421faae68fc | 21| 
 | 鹰眼威胁情报中心 | None | 利用Python启动远控，\"银狐\"对抗又升级 | https://mp.weixin.qq.com/s?__biz=MzU2OTcxNjE4Mw==&mid=2247485897&idx=1&sn=c43f35736500b954468eaaf6d60bfa2c | 3| 
@@ -1628,7 +1642,6 @@
 | 薄说安全 | None | 轨道交通通用安全平台的需求浅析 | https://mp.weixin.qq.com/s?__biz=Mzg2NzU3MzkyMg==&mid=2247484475&idx=1&sn=303f7468dba4e61880f7622042600b2e | 1| 
 | 黑猫安全 | None | 国际刑事警察行动拆解了黑客团伙“Ghost”通信平台 | https://mp.weixin.qq.com/s?__biz=Mzg3OTc0NDcyNQ==&mid=2247492430&idx=3&sn=2fb335d2a62183bb2cb58941b64b9126 | 155| 
 | KCon 黑客大会 | None | 定义网安培训新风向，KCon有奖调研等你发声！ | https://mp.weixin.qq.com/s?__biz=MzIzOTAwNzc1OQ==&mid=2651138057&idx=1&sn=af6c8c16b677b9636dd4625304c810e5 | 21| 
-| 北京路劲科技有限公司 | None | 易行网安学习平台技能测试，引领精准学习之旅 | https://mp.weixin.qq.com/s?__biz=MzUyMjAyODU1NA==&mid=2247491621&idx=1&sn=7793d8fc7d03aaf234d0236e455cd8d3 | 14| 
 | 喵星安全研究所 | None | 吃瓜丨可曾听闻HTTP语言？ | https://mp.weixin.qq.com/s?__biz=Mzg2MTg4NTMzNw==&mid=2247484146&idx=1&sn=d402b4540df3b4fb7f165fb9eaa647fd | 2| 
 | 安全的矛与盾 | None | 工具更新-修复过数字杀毒注入的崩溃问题 | https://mp.weixin.qq.com/s?__biz=Mzg5MDc4OTUyNg==&mid=2247484511&idx=1&sn=38aef215d492d92cfffa222cfbbcea93 | 5| 
 | 安协小天使 | None | Vidar-Team 信息安全协会2024招新啦！！！ | https://mp.weixin.qq.com/s?__biz=MzIxNDU2ODg3Mw==&mid=2247485937&idx=1&sn=2a5b65923c4d8ed820a1f3549aafb35c | 6| 
@@ -1844,7 +1857,6 @@
 | 黑域之路 | None | 05-文件读取/下载备忘录 | https://mp.weixin.qq.com/s?__biz=Mzg3Mzc2MjMyNw==&mid=2247483995&idx=1&sn=890bc588a1b82468b72aea67f20b32ee | 2| 
 | Kokoxca安全 | None | 红海云ehr任意文件上传分析 | https://mp.weixin.qq.com/s?__biz=Mzg3ODkzNjkxMg==&mid=2247483980&idx=1&sn=9f9ef81e096c7dc6d3eca1a694a9fd34 | 4| 
 | lowkey笔记 | None | 分享一个免费轻量级的截图工具 | https://mp.weixin.qq.com/s?__biz=MzI0NDA4NzQ1Mw==&mid=2247484888&idx=1&sn=b53225ddbeb52424c0dca8e74fab1a53 | 6| 
-| 信息安全与网络安全 | None | 首个AI安全认证课程引爆关注：600+学员上课，行业专家亲授 | https://mp.weixin.qq.com/s?__biz=Mzg4NTU3NjY2OQ==&mid=2247488160&idx=1&sn=7f1a16bed6ea991147295f4309bdbda2 | 9| 
 | 十二主神 | None | 从一个Potato插件看红队武器化开发 | https://mp.weixin.qq.com/s?__biz=Mzg3MDU3OTA4Ng==&mid=2247484046&idx=1&sn=04e03d9682fc0a0a7ef5921c1ea71a92 | 1| 
 | 唯品会安全应急响应中心 | None | 2024年“广东通信杯”广东省信息通信行业第四届网络安全技能大赛唯品会获得团体赛一等奖 | https://mp.weixin.qq.com/s?__biz=MzI5ODE0ODA5MQ==&mid=2652281664&idx=1&sn=7d827ebb70127a0a87e577ba419425d1 | 4| 
 | 揽月安全团队 | None | 管家婆订货易在线商城 VshopProcess 任意文件上传漏洞 | https://mp.weixin.qq.com/s?__biz=Mzg2OTk3ODYzOA==&mid=2247485678&idx=1&sn=9e2a7719ec540df72966bcbeb59a6503 | 15| 
@@ -2290,7 +2302,6 @@
 | 糖果的实验室 | mycandylab | 《数字风控体系--设计与实践》 | https://mp.weixin.qq.com/s?__biz=MjM5NjEzNzU5OQ==&mid=2247485440&idx=1&sn=7be86a3362200a0dad3eec4326b92ebd | 2| 
 | 大数据杂货铺 | bigdataGrocery | 知识图谱和 LLM：多跳问答 | https://mp.weixin.qq.com/s/FRtsS9UKSU9Z6yEQ3aDoZg | 1| 
 | 安全上春山 | None | 安全没有未来，成人娱乐才有 | https://mp.weixin.qq.com/s?__biz=MzU3MDE2NTU2Mw==&mid=2247484528&idx=1&sn=08504ee0a5fb777afd6df3b2028ea870 | 2| 
-| 有度安全 | gh_e9bab6cc5861 | 今日清明，缅怀、承志！ | https://mp.weixin.qq.com/s?__biz=Mzg3NTEyMzU4OA==&mid=2247513259&idx=1&sn=690ab563be81b003310386a7108b238f | 3| 
 | F5安全团队 | gh_0bded17f22af | 攻防实战技巧《权限提升技术》由两位数十年的网安大佬作者写的，看完你也能够像他们一样牛逼！！ | https://mp.weixin.qq.com/s?__biz=Mzk0NDYxMjk5Nw==&mid=2247484010&idx=1&sn=d6b7a1d78095a3f827a503a1901a93c4 | 1| 
 | PTEHub | gh_5aff651a75ac | 招聘：实习生，坐标北京！ | https://mp.weixin.qq.com/s?__biz=Mzg4NzY5NjgyNw==&mid=2247484694&idx=1&sn=7bdd78c8920542edf9312d501f9437c3 | 1| 
 | SKSEC | gh_f932e6087f88 | 【表哥有话说 第110期】软件安全 | https://mp.weixin.qq.com/s?__biz=MzU1MjI5MDY3Nw==&mid=2247486533&idx=1&sn=238ffa51f1c2cb32a822bab79e50bf5d | 3| 
@@ -2397,7 +2408,6 @@
 | 才疏学浅的H6 | None | 到哪里都是保卫一方平安 | https://mp.weixin.qq.com/s?__biz=MzkyMjE3MjEyNQ==&mid=2247486323&idx=1&sn=52c61cb1f834745d0672dfd47d60655c | 1| 
 | 皮相 | OnTheSurface | 三仙归洞 | https://mp.weixin.qq.com/s?__biz=MzI0NDA5MDYyNA==&mid=2648257262&idx=1&sn=136fe8d6fbe67a36c74ada5500f01962 | 1| 
 | 钱塘门外的互联网散修 | gh_c0f99b1c4d3f | 甲辰随笔：关于策略性思考 | https://mp.weixin.qq.com/s?__biz=MzUxMjkxMzY2OA==&mid=2247483793&idx=1&sn=2ae46d1d5336f7a9fbf9e17649562093 | 2| 
-| 深夜笔记本 | shenyebijiben | 记一次身份验证绕过 | https://mp.weixin.qq.com/s?__biz=MjM5Nzk3MjMzMA==&mid=2650570144&idx=1&sn=f99ff1fdd7ccae757353a0f395e1e7f3 | 4| 
 | 阿原茶庄 | gh_fc7f76bca63f | 【开源情报搜集-OSINT】学习记录：第一篇 | https://mp.weixin.qq.com/s?__biz=MzkxMzQ5Mjc5Mw==&mid=2247484081&idx=1&sn=c2b91ae43c4f1bde81b44bdd01231d52 | 2| 
 | HACK学习君 | None | 想学习网络安全，以下途径足以 | https://mp.weixin.qq.com/s?__biz=MzIzNzMxMDkxNw==&mid=2247493344&idx=1&sn=90d4104a8c2e60b14b996f02734efd42 | 3| 
 | ZackSecurity | ZackSecurity | 【IoT安全】H3C新华三路由器命令执行0day漏洞挖掘 | https://mp.weixin.qq.com/s?__biz=Mzg3NjkxNTE4Mg==&mid=2247484485&idx=1&sn=15539d3dce4a8864919e84f1b836e544 | 1| 
