@@ -196,6 +196,8 @@ class GetNewBook(object):
             ['pentesting'],
             ['devops'],
             ['devsecops'],
+            ['network', 'analysis'],
+            ['wireshark'],
             ['soc', 'analyst'],
             ['api', 'security'],
             ['elastic', 'stack'],
