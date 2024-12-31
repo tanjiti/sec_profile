@@ -14,6 +14,8 @@
 # 网络安全书籍 推荐
 | date_added | language | title | author | link | size| 
 | --- | --- | --- | --- | --- | ---| 
+| 2024-12-31 12:37:40 | English | Generative AI Apps with LangChain and Python | unknown | https://www.wowebook.org/generative-ai-apps-with-langchain-and-python/ | unknown| 
+| 2024-12-31 10:08:54 | English | Principles of AI Governance and Model Risk Management | unknown | https://www.wowebook.org/principles-of-ai-governance-and-model-risk-management/ | unknown| 
 | 2024-12-27 09:21:12 | English | Algorithmic Trading with Python: Fast-Track Your Trading Strategy: A comprehensive Guide | Bisette, Vincent; Strauss, Johann; Schwartz, Alice; Van Der Post, Hayden | http://libgen.is/book/index.php?md5=A58E85649276B4EED9CE62AEC78BAFB8 | 2 MB [EPUB]| 
 | 2024-12-27 04:51:16 | English | The Public Speaking Playbook | Teri Kwal Gamble, Michael W. Gamble | http://libgen.is/book/index.php?md5=F2BBA93197F948499B0A2375494F1DAC | 29 MB [PDF]| 
 | 2024-12-26 04:04:16 | English | Automotive Rust Repair & Prevention | Dennis W. Parks | http://libgen.is/book/index.php?md5=75E8302E921D328995D21070C9AC50E8 | 29 MB [PDF]| 
