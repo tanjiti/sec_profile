@@ -1,15 +1,15 @@
 # [数据--所有](README_20.md)
 # [数据--年度](README_2025.md)
-# 202501 信息源与信息类型占比
-![202501-信息源占比-secwiki](data/img/domain/202501-信息源占比-secwiki.png)
+# 2025 信息源与信息类型占比
+![2025-信息源占比-secwiki](data/img/domain/2025-信息源占比-secwiki.png)
 
-![202501-信息源占比-xuanwu](data/img/domain/202501-信息源占比-xuanwu.png)
-
-
+![2025-信息源占比-xuanwu](data/img/domain/2025-信息源占比-xuanwu.png)
 
 
 
-![202501-最喜欢语言占比](data/img/language/202501-最喜欢语言占比.png)
+
+
+![2025-最喜欢语言占比](data/img/language/2025-最喜欢语言占比.png)
 
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
