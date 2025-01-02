@@ -76,13 +76,14 @@ class GetNewBook(object):
             ['endpoint', 'detection'],
             ['playbook'],
             ['defensive', 'security'],
+            ['offensive', 'security'],
             ['prompt', 'engineer'],
             ['large', 'language'],
             ['monitor'],
             ['monitoring'],
             ['reconnaissance'],
             ['network', 'traffic'],
-            #['strategies'],
+            ['defense', 'strategies'],
             ['password', 'cracking'],
             ['dark', 'web'],
             ['kali'],
@@ -103,6 +104,7 @@ class GetNewBook(object):
             # ['assessment'],
             ['vulnerability'],
             ['honeypot'],
+            ['deceptions'],
             ['iast'],  # interactive application security testing
             ['sast'],  # static application security
             ['dast'],  # dynamic application security
@@ -117,6 +119,7 @@ class GetNewBook(object):
             ['telemetry'],
             # threat intelligence
             ['threat', 'intelligence'],
+            ['threat', 'hunting'],
             ['cyber', 'intelligence'],
             ['hunter'],
             ['att&ck'],
