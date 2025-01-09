@@ -37,7 +37,7 @@ def scraw(proxy=None):
 
 def update_github(proxy=None):
     """
-pyth
+
     :return:
     """
     if proxy:
