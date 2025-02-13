@@ -14,6 +14,8 @@
 # 网络安全书籍 推荐
 | date_added | language | title | author | link | size| 
 | --- | --- | --- | --- | --- | ---| 
+| 2025-02-12 16:32:17 | English | Deep Learning Using Python | Dr. S Lovelyn Rose, Dr. L Ashok Kumar, Dr. D Karthika Renuka | http://libgen.is/book/index.php?md5=F7CC6CF22FCEB8AA42F873AC29B1B160 | 12 MB [PDF]| 
+| 2025-02-12 16:08:13 | English | DevOps Tools from Practitioners Viewpoint | Deepak Gaikwad, Viral Thakkar | http://libgen.is/book/index.php?md5=DBB9E0390D8A74D3C857C8A497B3C56E | 8 MB [PDF]| 
 | 2025-02-11 07:39:14 | English | Ultimate Robotics Programming with ROS 2 and Python | unknown | https://www.wowebook.org/ultimate-robotics-programming-with-ros-2-and-python/ | unknown| 
 | 2025-02-10 13:52:41 | English | Weapons in Space: Technology, Politics, and the Rise and Fall of the Strategic Defense Initiative | Aaron Bateman | http://libgen.is/book/index.php?md5=871BBDF59E5CB8BC670D94F99D813AC7 | 3 MB [PDF]| 
 | 2025-02-09 08:20:09 | English | The Hacker Mindset: How thinking like a hacker can improve your code, your coffee, and your life | Francesco Carlucci | http://libgen.is/book/index.php?md5=93B273CF8CC2A6F62C41AF65F0B55E8F | 1 MB [PDF]| 
