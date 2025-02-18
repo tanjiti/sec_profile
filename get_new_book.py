@@ -80,6 +80,7 @@ class GetNewBook(object):
             ['prompt', 'engineer'],
             ['large', 'language'],
             ['monitor'],
+            ['secure', 'coding'],
             ['monitoring'],
             ['reconnaissance'],
             ['network', 'traffic'],
@@ -206,7 +207,9 @@ class GetNewBook(object):
             ['elastic', 'stack'],
             # AI
             ['generative'],
+            ['ai', 'agent'],
             ['chatgpt'],
+            ['langchain'],
             ['copilot'],
             ['openai'],
             ['prompt', 'engineering'],
