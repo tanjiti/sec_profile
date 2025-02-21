@@ -7901,6 +7901,7 @@
 | xie19900123 | springboot系列教程资源。 | https://github.com/xie19900123/spring-boot-learning | https://blog.lqdev.cn/ | 一只没有故事的程序猿 | 福州, 中国 | None | 5 | 0 | 0 | 0 | 0 | Java | 182 | 154 | 1| 
 | xiecat | Goblin - 一款适用于红蓝对抗中的仿真钓鱼系统 | https://github.com/xiecat/goblin | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Dockerfile | 0 | 0 | 1| 
 | xing-xiao | 基于Flink实现实时冰蝎(Behinder)流量检测 | https://github.com/xing-xiao/Maneo-Detect-Behinder | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| xingjunm | 大模型安全技术综述 | https://github.com/xingjunm/Awesome-Large-Model-Safety | https://github.com/xingjunm?tab=followers | Professor@Fudan University, Machine Learning, Trustworthy AI | Shanghai | Fudan University | 8 | 0 | 195 | 0 | 0 | Python,JavaScript,Jupyter | 0 | 0 | 1| 
 | xmendez | wfuzz:The Web Bruteforcer | https://github.com/xmendez/wfuzz | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 2| 
 | xsleaks | 一些可能导致跨域信息泄漏的 DOM API 收集 | https://github.com/xsleaks/xsleaks/wiki/Browser-Side-Channels | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | xtao | CODE-PyconCN2014 | https://github.com/xtao/CODE-PyconCN2014 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 

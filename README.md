@@ -639,6 +639,7 @@
 | Acmesec | 本文深入探讨了大型语言模型的安全性和应用场景，涵盖了从理论到实战的各种维度，包括但不限于模型越狱、提示注入、对抗性攻击以及相应的防御策略。文章不仅提供了丰富的参考资料和技术细节，还讨论了相关的法规政策，是当前领域内全面且前沿的研究成果。 | https://github.com/Acmesec/theAIMythbook | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java,CSS | 0 | 0 | 1| 
 | Tencent | AI-Infra-Guard: AI基础设施安全评估系统 | https://github.com/Tencent/AI-Infra-Guard/tree/main | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Java,Less,Python,JavaScript,C++,Dart,HTML | 0 | 0 | 1| 
 | q5438722 | VulLibMiner:基于漏洞/库文本描述的第三方Java库漏洞识别 | https://github.com/q5438722/VulLibMiner | https://github.com/q5438722?tab=followers |  | None | None | 19 | 0 | 2 | 0 | 0 | Java,JavaScript,Jupyter | 0 | 0 | 1| 
+| xingjunm | 大模型安全技术综述 | https://github.com/xingjunm/Awesome-Large-Model-Safety | https://github.com/xingjunm?tab=followers | Professor@Fudan University, Machine Learning, Trustworthy AI | Shanghai | Fudan University | 8 | 0 | 195 | 0 | 0 | Python,JavaScript,Jupyter | 0 | 0 | 1| 
 
 
 # 知乎 推荐
