@@ -79,6 +79,7 @@ class GetNewBook(object):
             ['offensive', 'security'],
             ['prompt', 'engineer'],
             ['large', 'language'],
+            ['ai', 'agents'],
             ['monitor'],
             ['secure', 'coding'],
             ['monitoring'],
