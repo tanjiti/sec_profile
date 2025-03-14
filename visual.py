@@ -1,0 +1,461 @@
+# -*- coding: utf-8 -*-
+import codecs
+import os
+import re
+import sys
+
+import mills
+
+reload(sys)
+sys.setdefaultencoding('utf8')
+from collections import OrderedDict
+import shutil
+
+import matplotlib.pyplot as plt
+import matplotlib
+
+print(matplotlib.matplotlib_fname())
+
+from mills import SQLiteOper
+from mills import path
+from mills import get_special_date
+
+
+def info_source(so, table="secwiki_detail", year="", top=100, tag="domain"):
+    """
+    按tag或domain分组
+    :param so:  sqlite3db
+    :param table:
+    :param year:
+    :param top:
+    :param tag: domain 或者 tag
+    :return:
+    """
+    if table == "xuanwu_detail" and int(year) >= 2019:
+        table = "xuanwu_today_detail"
+
+    if table == "secwiki_detail" and int(year) >= 2019:
+        table = "secwiki_today_detail"
+
+    od = OrderedDict()
+    sql = 'select {tag},count(url) as c ' \
+          'from {table} ' \
+          'where ts like "%{year}%" ' \
+          'group by {tag} ' \
+          'order by c desc '.format(table=table, year=year, tag=tag)
+
+    result = so.query(sql)
+    for item in result:
+        od[item[0]] = item[1]
+
+    od_perct = OrderedDict()
+    sum_count = sum(od.values())
+
+    i = 0
+    for k, v in od.items():
+        """
+        """
+        if i < top:
+            od_perct[k] = round(float(v) / sum_count, 4)
+        else:
+            break
+        i = i + 1
+
+    return od_perct
+
+
+def statistict_github_language(so, topn=132, reverse=True, year=''):
+    """
+
+    :param so:
+    :return:
+    """
+
+    lang_dict = {}
+    sql = "select distinct repo_lang from github where ts like '{year}%' and (repo_lang is not null or repo_lang != '')".format(
+        year=year)
+    # print sql
+    result = so.query(sql)
+    if result:
+        for item in result:
+            repo_lang = item[0]
+            repo_langs = [_.strip() for _ in re.split(',', repo_lang)]
+            for repo_lang in repo_langs:
+                if not repo_lang:
+                    continue
+                if repo_lang in lang_dict:
+                    lang_dict[repo_lang] = lang_dict[repo_lang] + 1
+                else:
+                    lang_dict[repo_lang] = 1
+
+    vd = OrderedDict(sorted(lang_dict.items(), key=lambda t: t[1], reverse=reverse))
+    sum_count = sum(vd.values())
+    vd2 = OrderedDict()
+
+    i = 0
+    for k, v in vd.items():
+        if i < topn:
+            vd2[k] = round(float(v) / sum_count, 4)
+        else:
+            break
+        i = i + 1
+    fname = path("data", "%s_github_lang.txt" % year)
+    with open(fname, mode='wb') as fw:
+        for k, v in vd.items():
+            fw.write("%s\t%s%s" % (k, v, os.linesep))
+
+    return vd2
+
+
+def draw_pie(so, source="secwiki", year="", tag="domain", top=10):
+    """
+
+    :return:
+    """
+    if tag != "language":
+
+        ods = info_source(so, table="{source}_detail".format(source=source),
+                          top=top,
+                          year=str(year),
+                          tag=tag)
+    else:
+        ods = statistict_github_language(so, topn=top, year=year)
+
+    labels = []
+    values = []
+    if not ods:
+        return
+    for k, v in ods.items():
+        labels.append(k)
+        values.append(v)
+
+    labels.append("other")
+    values.append(1 - sum(values))
+
+    explode = [0.1 for _ in range(0, len(labels))]
+    explode[-1] = 0  # 凸显
+
+    try:
+        plt.rcParams['font.sans-serif'] = ['SimHei']  # 解决中文乱码
+        plt.rcParams['font.family'] = 'sans-serif'
+        plt.rcParams['axes.unicode_minus'] = False  # 坐标轴负号的处理
+        plt.axes(aspect='equal')  # 设置x，y轴刻度一致，这样饼图才能是圆的
+        plt.pie(values,  # 指定绘图的数据
+                explode=explode,  # 指定饼图某些部分的突出显示，即呈现爆炸式
+                labels=labels,  # 为饼图添加标签说明，类似于图例说明
+                labeldistance=1.2,  # 设置各扇形标签（图例）与圆心的距离；
+                pctdistance=0.6,  # ：设置百分比标签与圆心的距离；
+                startangle=90,  # 设置饼图的初始摆放角度；
+                shadow=True,  # 是否添加饼图的阴影效果；
+                autopct='%3.2f%%')
+
+        if tag == "domain":
+            title_pie = "%s-信息源占比-%s" % (year, source)
+        elif tag == "tag":
+            title_pie = "%s-信息类型占比-%s" % (year, source)
+        elif tag == "language":
+
+            title_pie = "%s-最喜欢语言占比" % (year)
+
+        else:
+            return
+
+        plt.title(unicode(title_pie))
+
+        fdir = path("data/img/%s" % tag)
+        if not os.path.exists(fdir):
+            os.mkdir(fdir)
+        fpath = path(fdir, "%s.png" % title_pie)
+
+        plt.legend(labels, loc='upper right', fontsize=5)
+
+        plt.savefig(fpath)
+
+        plt.close()
+    except Exception as e:
+        print source, year, tag
+        print len(labels), labels
+        print len(values), values
+        print len(explode), explode
+
+
+def main_pie(year):
+    """
+
+    :return:
+    """
+    so = SQLiteOper("data/scrap.db")
+
+    for tag in ["domain", "tag"]:
+        for source in ["secwiki", "xuanwu"]:
+            draw_pie(so, source=source, year=str(year), tag=tag, top=10)
+
+    draw_pie(so, tag="language", top=25, year=year)
+
+
+def draw_table(so, source="weixin", top=100, year="2019"):
+    """
+
+    :param so:
+    :param source:
+    :param top:
+    :return:
+    """
+    if source == "weixin":
+        sql = "select nickname_english,weixin_no,title,url,count(*) as c " \
+              "from weixin " \
+              "where ts like '{year}%' and nickname_english != '' " \
+              "group by nickname_english order by ts desc  "
+        header = ["nickname_english", "weixin_no", "title", "url"]
+
+    elif source == "github_org":
+        sql = "select github_id,title,url,org_url,org_profile,org_geo," \
+              "org_repositories,org_people,org_projects," \
+              "repo_lang,repo_star,repo_forks," \
+              "count(*) as c from github  where github_type=1 and ts like '{year}%' group by github_id order by repo_forks desc,org_repositories desc,org_projects desc "
+        header = ["github_id", "title", "url", "org_url", "org_profile", "org_geo", "org_repositories",
+                  "org_people", "org_projects", "repo_lang", "repo_star", "repo_forks"]
+
+    elif source == "github_private":
+        sql = "select github_id,title,url,p_url,p_profile,p_loc,p_company," \
+              "p_repositories,p_projects," \
+              "p_stars,p_followers,p_following," \
+              "repo_lang,repo_star,repo_forks ," \
+              "count(*) as c from github  where github_type=0 and ts like '{year}%' group by github_id order by p_followers desc "
+        header = ["github_id", "title", "url", "p_url", "p_profile", "p_loc", "p_company", "p_repositories",
+                  "p_projects", "p_stars", "p_followers", "p_following", "repo_lang", "repo_star", "repo_forks "]
+
+    elif source == "medium_xuanwu":
+        sql = "select title,url from xuanwu_today_detail where url like '%medium.com%' and ts like '{year}%' order by ts desc "
+        header = ["title", "url"]
+    elif source == "medium_secwiki":
+        sql = "select title,url from secwiki_today_detail where url like '%medium.com%' and ts like '{year}%' order by ts desc "
+        header = ["title", "url"]
+
+    elif source == "zhihu_xuanwu":
+        sql = "select title,url from xuanwu_today_detail where url like '%zhihu.com%' and ts like '{year}%' order by ts desc "
+        header = ["title", "url"]
+    elif source == "zhihu_secwiki":
+        sql = "select title,url from secwiki_today_detail where url like '%zhihu.com%' and ts like '{year}%' order by ts desc "
+        header = ["title", "url"]
+    elif source == "xz_xuanwu":
+        sql = "select title,url from xuanwu_today_detail where url like '%aliyun.com%' and ts like '{year}%' order by ts desc "
+        header = ["title", "url"]
+    elif source == "xz_secwiki":
+        sql = "select title,url from secwiki_today_detail where url like '%aliyun.com%' and ts like '{year}%' order by ts desc "
+        header = ["title", "url"]
+    elif source == 'network_book':
+        sql = "select date_added,language,title,author,link,size from security_book where ts like  '{year}%' order by ts desc "
+        header = ["date_added", "language", "title", "author", "link", "size"]
+    elif source == 'bilibili_secwiki':
+        sql = "select title,url from secwiki_today_detail where url like '%bilibili.com%' and ts like '{year}%' order by ts desc "
+        header = ["title", "url"]
+    elif source == 'bilibili_xuanwu':
+        sql = "select title,url from xuanwu_today_detail where url like '%bilibili.com%' and ts like '{year}%' order by ts desc "
+        header = ["title", "url"]
+    elif source == 'gov':
+        sql = "select title,url from secwiki_today_detail where url like '%gov.cn%' and ts like '{year}%' order by ts desc "
+        header = ["title", "url"]
+
+
+    else:
+        return
+
+    try:
+        ret = so.query(sql.format(top=top, year=year))
+    except Exception as e:
+        print sql, str(e)
+        return
+    msg_list = []
+    for r in ret:
+        msg_list.append(list(r))
+
+    if msg_list:
+        rets = [header]
+
+        for r in msg_list:
+            rets.append(r)
+
+        return rets
+
+
+def markdown_table(rets):
+    """
+
+    :param rets:
+    :return:
+    """
+    markdown_rets = []
+    if not rets:
+        return
+
+    header = rets[0]
+    header_str = " | ".join(header)
+    header_str = "| %s| " % header_str
+    header_sep = ["---" for _ in rets[0]]
+    header_sep_str = " | ".join(header_sep)
+    header_sep_str = "| %s| " % header_sep_str
+
+    markdown_rets.append(header_str)
+    markdown_rets.append(header_sep_str)
+
+    for ret in rets[1:]:
+        ret_new = []
+        for s in ret:
+            s = str(s)
+            s = s.replace('|', ',')
+            ret_new.append(s)
+        column_str = " | ".join(ret_new)
+        column_str = "| %s| " % column_str
+        markdown_rets.append(column_str)
+
+    return markdown_rets
+
+
+def draw_readme_item(year=None, fpath=None):
+    """
+
+    :param year:
+    :param fpath:
+    :return:
+    """
+
+    tables_rets = []
+    so = SQLiteOper("data/scrap.db")
+    if year is None:
+        year = get_special_date(delta=0, format="%Y%m")
+
+    if fpath is None:
+        fpath = 'README_%s.md' % year
+    # update
+    main_pie(year)
+
+    # update weixin,github
+    sources = [
+        'gov',
+        "network_book",
+        "bilibili_secwiki", "bilibili_xuanwu",
+        "weixin",
+        "github_org", "github_private",
+        "medium_xuanwu", "medium_secwiki",
+        "zhihu_xuanwu", "zhihu_secwiki",
+        "xz_xuanwu", "xz_secwiki",
+
+    ]
+
+    d = {
+        "gov": "政策",
+        "weixin": "微信公众号",
+        "github_org": "组织github账号",
+        "github_private": "私人github账号",
+        "bilibili_secwiki": "学习视频",
+        "bilibili_xuanwu": '学习视频',
+        'network_book': '网络安全书籍',
+        'xz_xuanwu': '论坛',
+        'xz_secwiki': '论坛',
+        'zhihu_xuanwu': '知乎',
+        'zhihu_secwiki': '知乎',
+        'medium_xuanwu': 'medium',
+        'medium_secwiki': 'medium',
+    }
+    year = str(year)
+    for source in sources:
+        rets = draw_table(so, top=100, source=source, year=year)
+        if rets:
+
+            markdown_rets = markdown_table(rets)
+            if markdown_rets:
+                tables_rets.append("# %s 推荐" % d.get(source, source))
+                for markdown_ret in markdown_rets:
+                    tables_rets.append(markdown_ret)
+                tables_rets.append(os.linesep)
+
+    with codecs.open(fpath, mode='wb') as fr:
+        fr.write('# [数据--所有](README_20.md)')
+        fr.write(os.linesep)
+        fr.write('# [数据--年度](README_{year_year}.md)'.format(year_year=year[0:4]))
+        fr.write(os.linesep)
+        fr.write('# %s 信息源与信息类型占比' % year)
+        fr.write(os.linesep)
+        fr.write('![{year}-信息源占比-secwiki](data/img/domain/{year}-信息源占比-secwiki.png)'.
+                 format(year=year))
+        fr.write(os.linesep)
+        fr.write(os.linesep)
+        fr.write('![{year}-信息源占比-xuanwu](data/img/domain/{year}-信息源占比-xuanwu.png)'.
+                 format(year=year))
+        fr.write(os.linesep)
+        fr.write(os.linesep)
+        # fr.write('![{year}-信息类型占比-secwiki](data/img/tag/{year}-信息类型占比-secwiki.png)'.
+        #        format(year=year))
+        fr.write(os.linesep)
+        fr.write(os.linesep)
+        # fr.write('![{year}-信息类型占比-xuanwu](data/img/tag/{year}-信息类型占比-xuanwu.png)'.
+        #         format(year=year))
+        fr.write(os.linesep)
+        fr.write(os.linesep)
+
+        fr.write('![{year}-最喜欢语言占比](data/img/language/{year}-最喜欢语言占比.png)'.format(year=year))
+        fr.write(os.linesep)
+        fr.write(os.linesep)
+
+        st = os.linesep.join(tables_rets)
+        fr.write(st)
+        fr.write(os.linesep)
+        fr.write(os.linesep)
+
+        fr.write('# 日更新程序')
+        fr.write(os.linesep)
+        fr.write('`python update_daily.py`')
+    return fpath
+
+
+def draw_readme(year=None):
+    """
+
+    :return:
+    """
+    if year is None:
+        year_month = get_special_date(delta=0, format="%Y%m")
+        year_year = get_special_date(delta=0, format="%Y")
+        year_all = str(year_year)[0:2]
+        for y in [year_month, year_year, year_all]:
+            fpath = draw_readme_item(year=y)
+            if len(str(y)) == 6:
+                fpath_month = fpath
+                fpath_default = "README.md"
+                shutil.copyfile(fpath_month, fpath_default)
+
+            print(fpath)
+
+
+    else:
+        # 绘制指定月份的消息
+        fpath = draw_readme_item(year=year)
+        print(fpath)
+
+
+def draw_all():
+    """
+
+    :return:
+    """
+    year_start = 2014
+    cur_year = mills.get_special_date(delta=0, format="%Y")
+    cur_month = mills.get_special_date(delta=0, format="%m")
+    for y in range(year_start, int(cur_year) + 1):
+        if y >= 2018:
+            for m in range(1, 12 + 1):
+                if y == int(cur_year) and m > int(cur_month):
+                    break
+                mm = "{:0>2}".format(str(m))
+                yy = "{y}{m}".format(y=y, m=mm)
+                draw_readme(yy)
+
+        draw_readme(y)
+    draw_readme("20")
+
+if __name__ == "__main__":
+    """
+    """
+    draw_readme()
+    #draw_all()
