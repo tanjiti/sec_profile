@@ -57,7 +57,10 @@ if __name__ == "__main__":
     """ 
     """
 
-
+    proxy = {
+        "http": "http://127.0.0.1:8001",
+        'https': "http://127.0.0.1:8001",
+    }
 
     # ss
     proxy = {
@@ -65,10 +68,7 @@ if __name__ == "__main__":
         'https': "http://127.0.0.1:1087",
     }
     # vary
-    proxy = {
-        "http": "http://127.0.0.1:8001",
-        'https': "http://127.0.0.1:8001",
-    }
+
     scraw(proxy=proxy)
 
     visual.draw_readme()
