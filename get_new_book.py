@@ -151,6 +151,7 @@ class GetNewBook(object):
             ['firewall'],
             ['intrusion'],
             ['incident', 'response'],
+            ['incident', 'management'],
             ['zero', 'trust'],
             ['access', 'management'],
             ['iam'],  # identity and access management
