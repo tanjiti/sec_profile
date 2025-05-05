@@ -11,6 +11,12 @@
 
 ![202505-最喜欢语言占比](data/img/language/202505-最喜欢语言占比.png)
 
+# 网络安全书籍 推荐
+| date_added | language | title | author | link | size| 
+| --- | --- | --- | --- | --- | ---| 
+| 2025-05-03 21:14:45 | English | Linux Basics for Hackers, 2nd Edition | unknown | https://www.wowebook.org/linux-basics-for-hackers-2nd-edition/ | unknown| 
+
+
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 

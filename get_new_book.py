@@ -93,6 +93,7 @@ class GetNewBook(object):
             ['detect'],
             ['attack'],
             ['hacker'],
+            ['hackers'],
             ['hacking'],
             ['securing'],
             ['asset'],
