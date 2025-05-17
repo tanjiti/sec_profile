@@ -50,8 +50,8 @@ class GetNewBook(object):
         """
         self.rss_url_dict = {
             'libgen': [
-                'https://libgen.is/rss/index.php'
-                #'https://libgen.rs/rss/index.php',
+                #'https://libgen.is/rss/index.php'
+                'https://libgen.rs/rss/index.php',
                 #'https://libgen.st/rss/index.php',
                 #'https://libgen.li/rss/index.php'
 
