@@ -146,7 +146,7 @@ class GetNewBook(object):
             ['soar'],
             ['security', 'operation', 'center'],
             ['security', 'operations'],
-
+            ['detection', 'engineering'],
             ['detection', 'response'],  # xDR
             ['deep', 'packet', 'inspection'],
             ['firewall'],
@@ -186,6 +186,7 @@ class GetNewBook(object):
             ['sentinel'],  # microsoft
             ['defender'],  # microsoft
             ['defense'],
+            ['behavioral', 'analytics'],
             ['copilot'], # microsoft
             ['palo', 'alto'],
             ['qrader'],  # ibm
