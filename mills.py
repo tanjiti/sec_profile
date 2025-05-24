@@ -244,6 +244,7 @@ def get_weixin_info(url="", ts="", tag="", max_redirects=30, proxy=None, root_di
 
             for h_no in ['h2', 'h1']:
                 title = soup.find(h_no, class_="rich_media_title")
+
                 if title:
                     title = title.text
                     if title:
@@ -261,21 +262,14 @@ def get_weixin_info(url="", ts="", tag="", max_redirects=30, proxy=None, root_di
                 media_meta_text = rich_media_meta_list.find("span", class_="rich_media_meta rich_media_meta_text")
 
                 if media_meta_text:
-                    nickname_chineses = media_meta_text.text
+                    weixin_no = media_meta_text.text.strip()
 
-                profile_inner = rich_media_meta_list.find("div", class_="profile_inner")
+                media_meta_text = rich_media_meta_list.find("span", class_="rich_media_meta rich_media_meta_nickname")
+                if media_meta_text:
+                    nickname_english = media_meta_text.text.strip()
 
-                if profile_inner:
-                    weixin_no = profile_inner.find("strong", class_="profile_nickname")
-                    if weixin_no:
-                        nickname_english = weixin_no.text
 
-                    profile_metas = profile_inner.find_all("span", class_="profile_meta_value")
 
-                    if profile_metas:
-                        if len(profile_metas) == 2:
-                            weixin_no = profile_metas[0].text
-                            weixin_subject = profile_metas[1].text
 
             if not nickname_english:
                 return
@@ -932,9 +926,10 @@ def test_get_weixin_info():
 
     :return:
     """
-    url = 'https://mp.weixin.qq.com/s?__biz=MzkwMTE4NDM5NA==&mid=2247484979&idx=1&sn=e024eb0908c22895256b117eab82295b'
+    url = 'https://mp.weixin.qq.com/s?__biz=MzI4MDQ5MjY1Mg==&mid=2247516684&idx=1&sn=ad218936b1c1986fd8805f5cd5d7c9c6'
     ret = get_weixin_info(url=url)
-    print(json.dumps(ret, indent=4))
+
+    print(json.dumps(ret, indent=4, ensure_ascii=False))
 
 
 def test_get_github_info(proxy=None):
@@ -1016,8 +1011,8 @@ if __name__ == "__main__":
         'https': "http://127.0.0.1:1081"
 
     }
-    test_get_github_info(proxy=proxy)
-    # test_get_weixin_info()
+    #test_get_github_info(proxy=proxy)
+    test_get_weixin_info()
     # test_get_requst()
 
     # test_get_twitter_info(proxy=proxy)
