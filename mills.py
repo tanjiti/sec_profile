@@ -926,7 +926,7 @@ def test_get_weixin_info():
 
     :return:
     """
-    url = 'https://mp.weixin.qq.com/s?__biz=MzI4MDQ5MjY1Mg==&mid=2247516684&idx=1&sn=ad218936b1c1986fd8805f5cd5d7c9c6'
+    url = 'https://mp.weixin.qq.com/s?__biz=MzAxNzYyNzMyNg==&mid=2664232729&idx=1&sn=f0fa6505fe6bd1caaeae129d333fd84f'
     ret = get_weixin_info(url=url)
 
     print(json.dumps(ret, indent=4, ensure_ascii=False))
