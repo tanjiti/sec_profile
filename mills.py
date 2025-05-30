@@ -1007,12 +1007,12 @@ if __name__ == "__main__":
 
     proxy = {
         # "socks:": "socks://127.0.0.1:1080",
-        "http": "http://127.0.0.1:1081",
-        'https': "http://127.0.0.1:1081"
+        "http": "http://127.0.0.1:1080",
+        'https': "http://127.0.0.1:1080"
 
     }
     #test_get_github_info(proxy=proxy)
-    test_get_weixin_info()
+    test_get_github_info(proxy=proxy)
     # test_get_requst()
 
     # test_get_twitter_info(proxy=proxy)
