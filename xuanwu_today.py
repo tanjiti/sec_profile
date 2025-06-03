@@ -168,6 +168,6 @@ if __name__ == "__main__":
         'https': "http://127.0.0.1:1087",
 
     }
-    #proxy = None
+    proxy = None
     so = SQLiteOper("data/scrap.db")
     scraw(so, proxy=proxy, delta=14)
