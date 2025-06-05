@@ -1229,6 +1229,7 @@
 | 电子物证 | None | 鸿蒙系统将对国产操作系统影响几何？ | https://mp.weixin.qq.com/s?__biz=MzAwNDcwMDgzMA==&mid=2651048467&idx=2&sn=ba22e4413d75667bfec94bfa162fc1d6 | 83| 
 | 祺印说信安 |  | 安全区域边界测评指导书（通用安全-第三级） | https://mp.weixin.qq.com/s?__biz=MzA5MzU5MzQzMA==&mid=2652116215&idx=2&sn=d531bce6490c32275a8f62be96272473 | 552| 
 | 秦安战略 | 秦安战略 | 牟林：两香会谁香？ | https://mp.weixin.qq.com/s?__biz=MzA5MDg1MDUyMA==&mid=2650480059&idx=3&sn=81168cf67adb82116e350b5d9407ffc4 | 618| 
+| 网空闲话plus | 网空闲话 | 5th域安全微讯早报【20250606】135期 | https://mp.weixin.qq.com/s?__biz=MzkyMjQ5ODk5OA==&mid=2247510646&idx=3&sn=e9773b2f0360dae3ac73c51510aeeae3 | 390| 
 | 网络安全和等保测评 | None | “风险评估”和“安全防护评估”有什么区别及联系 | https://mp.weixin.qq.com/s?__biz=MzkxMjczNzAzMA==&mid=2247486064&idx=1&sn=cda08f014f5ce4b3216003e35109894c | 23| 
 | 苏说安全 |  | 2025年安徽省重点工业互联网平台公示 | https://mp.weixin.qq.com/s?__biz=Mzg5OTg5OTI1NQ==&mid=2247490983&idx=1&sn=c2b4b23edbf2cc6cf763bde923f0bd64 | 168| 
 | 蓝云Sec | 不加糖 | 记一次供应链系统渗透测试 | https://mp.weixin.qq.com/s?__biz=MzkwODc1NTgyMg==&mid=2247485487&idx=1&sn=d1bf98ff2c34bd31741d41ef90ff628b | 38| 
@@ -1271,7 +1272,7 @@
 | 信息安全大事件 |  | 罕见！交易宕机超7小时，这家期货公司被罚 | https://mp.weixin.qq.com/s?__biz=MzkzNjIzMjM5Ng==&mid=2247492627&idx=1&sn=d6ad2e41d3f40969b59760a5177f1a0c | 145| 
 | 信息安全研究 |  | 【业界动态】中国人民银行发布《中国人民银行业务领域网络安全事件报告管理办法》 | https://mp.weixin.qq.com/s?__biz=MzA3NzgzNDM0OQ==&mid=2664995172&idx=2&sn=0f1f6f6a81bb33a31eaa4e78ab162dc3 | 605| 
 | 像梦又似花 | CyberSecGuy | 和自我对话:多巴胺的狂欢与心灵的寂静,在浮世绘中寻找生命的锚点 | https://mp.weixin.qq.com/s?__biz=MzkwMjQyNjAxMA==&mid=2247485308&idx=1&sn=bc85e76691ec185d993cd3f9d5d1d53c | 22| 
-| 全球技术地图 | 全球君 | 美国总统特朗普宣布限制哈佛大学国际学生签证 | https://mp.weixin.qq.com/s?__biz=MzI1OTExNDY1NQ==&mid=2651621238&idx=2&sn=654d20768818fa2373ba35dc0d5a70b5 | 556| 
+| 全球技术地图 | None | 人工智能与哲学的未来：一个新的前沿 | https://mp.weixin.qq.com/s?__biz=MzI1OTExNDY1NQ==&mid=2651621238&idx=1&sn=29c2297d5a5423587d47d896e63344e3 | 556| 
 | 创宇安全智脑 | 创宇安全智脑 | 创宇安全智脑 , Cisco IOS XE 任意文件上传（CVE-2025-20188）等81个漏洞可检测 | https://mp.weixin.qq.com/s?__biz=MzIwNjU0NjAyNg==&mid=2247491229&idx=1&sn=a9c298d3409c3f84537a599c5c171c00 | 34| 
 | 剁椒Muyou鱼头 | None | 【技术分享】OpenAI爬虫造成的数据流量异常事件 | https://mp.weixin.qq.com/s?__biz=MzkxMTY1MTIzOA==&mid=2247484663&idx=1&sn=ec25d38e30d2ea2ba8ee7e05a086e5ca | 17| 
 | 南风漏洞复现文库 | 2025-6-5更新 | Smartded Meteobridg的template.cgi接口存在任意命令注入CVE-2025-4008 附POC | https://mp.weixin.qq.com/s?__biz=MzIxMjEzMDkyMA==&mid=2247488552&idx=2&sn=943465d2d861698941b2f73fc679ea7f | 87| 
@@ -1344,7 +1345,6 @@
 | 网安观察室XQ | None | 国内外网络安全热点情报（2025年第21期） | https://mp.weixin.qq.com/s?__biz=MzkzNjM4ODc3OQ==&mid=2247485882&idx=1&sn=0d32005ec0a35478e409a1c7db3f80c0 | 27| 
 | 网御星云 | None | 密码泛在，安全共生：网御星云邀您共赴第三届商用密码展~ | https://mp.weixin.qq.com/s?__biz=MzA3NDUzMjc5Ng==&mid=2650203550&idx=1&sn=329ed581888ff2ecf6144b88bb6faec4 | 18| 
 | 网易易盾 |  | 软色情等内容频出，互联网平台应如何构建未成年人保护体系？ | https://mp.weixin.qq.com/s?__biz=MzAwNTg2NjYxOA==&mid=2650743611&idx=1&sn=57f119414284bcb3bbf7cc02d09cb49e | 25| 
-| 网空闲话plus | 网空闲话 | BF论坛强势回归！安全双刃剑的博弈没有终点！ | https://mp.weixin.qq.com/s?__biz=MzkyMjQ5ODk5OA==&mid=2247510622&idx=1&sn=0912b27176a7c57fe9e292e2548bf1d9 | 387| 
 | 网络安全 |  | 安全公司披露黑客新型钓鱼攻击手法，利用虚假弹窗登录页 | https://mp.weixin.qq.com/s?__biz=MzA4OTM1MzkwNg==&mid=2652895545&idx=1&sn=c7bee8a35e20e44768b41430f55c5a8e | 2| 
 | 网络安全与等保测评 | 糖果 | 2025年上半年计算机技术与软件专业技术资格（水平）考试（浙江考区）违纪违规拟处理公告 | https://mp.weixin.qq.com/s?__biz=MzIwNDYzNTYxNQ==&mid=2247503454&idx=1&sn=85aad4f4164fb23d60b64f84dd8fa6ac | 42| 
 | 网络安全和信息化 |  | 预警丨防范ResolverRAT恶意软件风险 | https://mp.weixin.qq.com/s?__biz=MjM5MzMwMDU5NQ==&mid=2649173308&idx=3&sn=2ccc051a68366be0209349d9f7921c10 | 609| 
