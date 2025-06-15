@@ -69,7 +69,7 @@ if __name__ == "__main__":
         "http": "http://127.0.0.1:8001",
         'https': "http://127.0.0.1:8001",
     }
-    proxy = None
+    #proxy = None
 
     scraw(proxy=proxy)
 
