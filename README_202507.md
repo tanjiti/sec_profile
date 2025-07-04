@@ -14,6 +14,8 @@
 # 网络安全书籍 推荐
 | date_added | language | title | author | link | size| 
 | --- | --- | --- | --- | --- | ---| 
+| 2025-07-04 13:46:09 | English | CompTIA Server+ Certification | unknown | https://www.wowebook.org/comptia-server-certification/ | unknown| 
+| 2025-07-04 13:32:12 | English | CompTIA CASP+ (CAS-005) Certification Guide, 2nd Edition | unknown | https://www.wowebook.org/comptia-casp-cas-005-certification-guide-2nd-edition/ | unknown| 
 | 2025-07-02 17:33:52 | English | Intermediate Python and Large Language Models | unknown | https://www.wowebook.org/intermediate-python-and-large-language-models/ | unknown| 
 | 2025-07-02 17:16:04 | English | NoOps: How AI Agents Are Reinventing DevOps and Software | unknown | https://www.wowebook.org/noops-how-ai-agents-are-reinventing-devops-and-software/ | unknown| 
 | 2025-07-02 16:13:07 | English | Refactoring to Rust | unknown | https://www.wowebook.org/refactoring-to-rust/ | unknown| 
@@ -24,6 +26,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 法度 |  | 《治安管理处罚法》（ 2012版 VS 2025版）新旧对照表 | https://mp.weixin.qq.com/s/vmdPWvc_uYRrjdWmbtuafA | 1| 
 | 360数字安全 | None | 当校园安全遇上智能体，重庆大学如何让攻击无处遁形？ | https://mp.weixin.qq.com/s?__biz=MzA4MTg0MDQ4Nw==&mid=2247581131&idx=2&sn=1bb7581251b85092d80e0b27d30f6a83 | 3| 
 | ADLab | None | 【复现】Google Chrome浏览器在野利用漏洞（CVE-2025-6554） | https://mp.weixin.qq.com/s?__biz=Mzk1NzE0ODUyOA==&mid=2247492291&idx=1&sn=016611bd54e6385d9c7ac784ba2e1355 | 1| 
 | BlockSec | None | BlockSec 🤝 FinTax｜正式达成战略合作 | https://mp.weixin.qq.com/s?__biz=MzkyMzI2NzIyMw==&mid=2247489231&idx=1&sn=5c55b77b1025ca04183360824bb58d56 | 2| 
@@ -118,7 +121,7 @@
 | 珞安科技 | None | 闪耀羊城 , 珞安科技重磅亮相第二十届中国国际中小企业博览会 | https://mp.weixin.qq.com/s?__biz=MzU2NjI5NzY1OA==&mid=2247513251&idx=1&sn=fdacb13ecb7f89d70b17fc09dcdeb06c | 2| 
 | 生有可恋 | None | 企业级私有 docker 镜像仓库 Harbor | https://mp.weixin.qq.com/s?__biz=Mzk0MTI4NTIzNQ==&mid=2247494045&idx=1&sn=498a56f3486494fe7d5718a8e2b67fa2 | 2| 
 | 白帽子左一 | None | 车联网 , 汽车安全简介 | https://mp.weixin.qq.com/s?__biz=MzI4NTcxMjQ1MA==&mid=2247616564&idx=1&sn=670a8c153eae438339353fe851f6ff58 | 2| 
-| 看雪学苑 | None | 13岁少年Dylan发现 Teams 漏洞，微软为其修改赏金计划 | https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458596501&idx=3&sn=8d167e29f2f70304d76cb865431e2fad | 6| 
+| 看雪学苑 | None | 13岁少年Dylan发现 Teams 漏洞，微软为其修改赏金计划 | https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458596501&idx=3&sn=8d167e29f2f70304d76cb865431e2fad | 7| 
 | 知微守望 | quan9i | JAVA常见漏洞复现 | https://mp.weixin.qq.com/s?__biz=MzU2MjY1ODEwMA==&mid=2247492212&idx=1&sn=d5b473f62fc06b60c4bf8a71d3bd2de1 | 1| 
 | 知道创宇 | None | 知道创宇入选中国信通院云上大模型安全推进方阵首批成员单位 | https://mp.weixin.qq.com/s?__biz=MjM5NzA3Nzg2MA==&mid=2649871847&idx=1&sn=827f55fd3aa14b9dc55449129ab7e707 | 2| 
 | 神农Sec | None | 攻防演练｜分享最近一次攻防演练RTSP奇特之旅 | https://mp.weixin.qq.com/s?__biz=Mzk0Mzc1MTI2Nw==&mid=2247492377&idx=1&sn=a94ad30e30e08bd96e888dad744e9814 | 2| 
@@ -268,7 +271,7 @@
 | 安全分析与研究 | None | BlackMatter勒索病毒构建器样本分析 | https://mp.weixin.qq.com/s?__biz=MzA4ODEyODA3MQ==&mid=2247492576&idx=1&sn=1a076806a9edc715d1371e4e63c91f10 | 1| 
 | 安全喵喵站 | None | SASE独角兽完成26亿融资，估值348亿！ | https://mp.weixin.qq.com/s?__biz=MzkzNjE5NjQ4Mw==&mid=2247544562&idx=2&sn=22816a800e3702a0fcae1cfb9b8e9cd9 | 2| 
 | 安全圈 | None | 【安全圈】危险警告！D-Link 多款路由器曝出严重漏洞，建议立即停用 | https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652070451&idx=4&sn=1ae1f2640c97ff21fa27bdfc9eefb3dd | 4| 
-| 安全学术圈 | 谢启亮 | 纽约大学 , RTL-Breaker: 评估LLM在HDL代码生成中对抗后门攻击的安全性 | https://mp.weixin.qq.com/s/LFAbqqqF7AQbw9ijIr8HSg?scene=1 | 2| 
+| 安全学术圈 | 谢启亮 | 纽约大学 , RTL-Breaker: 评估LLM在HDL代码生成中对抗后门攻击的安全性 | https://mp.weixin.qq.com/s/LFAbqqqF7AQbw9ijIr8HSg?scene=1 | 3| 
 | 安全有术 | 刘顺 | 安全新规 , GB/T45654-2025《网络安全技术 生成式人工智能服务安全基本要求》 | https://mp.weixin.qq.com/s?__biz=MzkzMDY2MDA2Ng==&mid=2247486073&idx=1&sn=f52b153df35b580fbb2136932b7c1010 | 1| 
 | 安全极客 | None | 【论文速读】, FuncVul——基于LLM与代码块的高效函数级漏洞检测模型 | https://mp.weixin.qq.com/s?__biz=MzkzNDUxOTk2Mw==&mid=2247496737&idx=1&sn=370c593f1bce328f065b2ee3561a83bb | 1| 
 | 安全狐 | None | 【必查漏洞】Sudo chroot 权限提升漏洞(CVE-2025-32463)检测手册 | https://mp.weixin.qq.com/s?__biz=MzIwNDYwMDcyNQ==&mid=2247489022&idx=2&sn=53623527ace09a34e233e4c555c6c6f8 | 2| 

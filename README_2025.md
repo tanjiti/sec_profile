@@ -21,6 +21,8 @@
 # 网络安全书籍 推荐
 | date_added | language | title | author | link | size| 
 | --- | --- | --- | --- | --- | ---| 
+| 2025-07-04 13:46:09 | English | CompTIA Server+ Certification | unknown | https://www.wowebook.org/comptia-server-certification/ | unknown| 
+| 2025-07-04 13:32:12 | English | CompTIA CASP+ (CAS-005) Certification Guide, 2nd Edition | unknown | https://www.wowebook.org/comptia-casp-cas-005-certification-guide-2nd-edition/ | unknown| 
 | 2025-07-02 17:33:52 | English | Intermediate Python and Large Language Models | unknown | https://www.wowebook.org/intermediate-python-and-large-language-models/ | unknown| 
 | 2025-07-02 17:16:04 | English | NoOps: How AI Agents Are Reinventing DevOps and Software | unknown | https://www.wowebook.org/noops-how-ai-agents-are-reinventing-devops-and-software/ | unknown| 
 | 2025-07-02 16:13:07 | English | Refactoring to Rust | unknown | https://www.wowebook.org/refactoring-to-rust/ | unknown| 
@@ -293,6 +295,7 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 法度 |  | 《治安管理处罚法》（ 2012版 VS 2025版）新旧对照表 | https://mp.weixin.qq.com/s/vmdPWvc_uYRrjdWmbtuafA | 1| 
 | 360数字安全 | None | 当校园安全遇上智能体，重庆大学如何让攻击无处遁形？ | https://mp.weixin.qq.com/s?__biz=MzA4MTg0MDQ4Nw==&mid=2247581131&idx=2&sn=1bb7581251b85092d80e0b27d30f6a83 | 90| 
 | ADLab | None | 【复现】Google Chrome浏览器在野利用漏洞（CVE-2025-6554） | https://mp.weixin.qq.com/s?__biz=Mzk1NzE0ODUyOA==&mid=2247492291&idx=1&sn=016611bd54e6385d9c7ac784ba2e1355 | 7| 
 | BlockSec | None | BlockSec 🤝 FinTax｜正式达成战略合作 | https://mp.weixin.qq.com/s?__biz=MzkyMzI2NzIyMw==&mid=2247489231&idx=1&sn=5c55b77b1025ca04183360824bb58d56 | 26| 
@@ -387,7 +390,7 @@
 | 珞安科技 | None | 闪耀羊城 , 珞安科技重磅亮相第二十届中国国际中小企业博览会 | https://mp.weixin.qq.com/s?__biz=MzU2NjI5NzY1OA==&mid=2247513251&idx=1&sn=fdacb13ecb7f89d70b17fc09dcdeb06c | 39| 
 | 生有可恋 | None | 企业级私有 docker 镜像仓库 Harbor | https://mp.weixin.qq.com/s?__biz=Mzk0MTI4NTIzNQ==&mid=2247494045&idx=1&sn=498a56f3486494fe7d5718a8e2b67fa2 | 56| 
 | 白帽子左一 | None | 车联网 , 汽车安全简介 | https://mp.weixin.qq.com/s?__biz=MzI4NTcxMjQ1MA==&mid=2247616564&idx=1&sn=670a8c153eae438339353fe851f6ff58 | 28| 
-| 看雪学苑 | None | 13岁少年Dylan发现 Teams 漏洞，微软为其修改赏金计划 | https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458596501&idx=3&sn=8d167e29f2f70304d76cb865431e2fad | 322| 
+| 看雪学苑 | None | 13岁少年Dylan发现 Teams 漏洞，微软为其修改赏金计划 | https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458596501&idx=3&sn=8d167e29f2f70304d76cb865431e2fad | 323| 
 | 知微守望 | quan9i | JAVA常见漏洞复现 | https://mp.weixin.qq.com/s?__biz=MzU2MjY1ODEwMA==&mid=2247492212&idx=1&sn=d5b473f62fc06b60c4bf8a71d3bd2de1 | 3| 
 | 知道创宇 | None | 知道创宇入选中国信通院云上大模型安全推进方阵首批成员单位 | https://mp.weixin.qq.com/s?__biz=MjM5NzA3Nzg2MA==&mid=2649871847&idx=1&sn=827f55fd3aa14b9dc55449129ab7e707 | 40| 
 | 神农Sec | None | 攻防演练｜分享最近一次攻防演练RTSP奇特之旅 | https://mp.weixin.qq.com/s?__biz=Mzk0Mzc1MTI2Nw==&mid=2247492377&idx=1&sn=a94ad30e30e08bd96e888dad744e9814 | 63| 
@@ -689,7 +692,7 @@
 | 取证与溯源 | None | Oracle备份异常处理实战：备份一体机故障复盘 | https://mp.weixin.qq.com/s?__biz=MzUyOTcyNDg1OA==&mid=2247484528&idx=1&sn=78bfe067c187251e7264c52d0ada6ce1 | 11| 
 | 嘉韦思 |  | 全国总工会第二届职工数字化应用技术技能大赛--数据安全管理员上海选拔赛暨第三届浦东新区数智未来守护者大赛正式启动 | https://mp.weixin.qq.com/s?__biz=MzIxNTA4OTI5Mg==&mid=2647713071&idx=1&sn=3b470ab6b3502f7f7a8d37e106aa2781 | 5| 
 | 复旦白泽战队 | None | JADE 6.0 新鲜出炉！14款多模态大模型幻觉频发，长推理模型也集体翻车？ | https://mp.weixin.qq.com/s?__biz=MzU4NzUxOTI0OQ==&mid=2247495368&idx=1&sn=4280dd19d32ddff81b89e630fa80c7b5 | 11| 
-| 安全学术圈 | 宋坤书 | 清华大学 , TFE-GNN：一种用于细粒度加密流量分类的基于图神经网络的时间融合编码器 | https://mp.weixin.qq.com/s/i1RrpveNLMj_kNR3oGIr3g?scene=1 | 56| 
+| 安全学术圈 | 宋坤书 | 清华大学 , TFE-GNN：一种用于细粒度加密流量分类的基于图神经网络的时间融合编码器 | https://mp.weixin.qq.com/s/i1RrpveNLMj_kNR3oGIr3g?scene=1 | 57| 
 | 安全聚 | None | 【漏洞预警】IBM WebSphere Application Server 远程代码执行漏洞(CVE-2025-36038) | https://mp.weixin.qq.com/s?__biz=MzkyNzQzNDI5OQ==&mid=2247486706&idx=1&sn=d9e5d1e4447758f5410a1fed8c43be42 | 18| 
 | 安全鸭 | None | 亲测AIFuzzing与XiaYue逻辑漏洞检测插件的区别：AI赋能的安全检测工具优势解析 | https://mp.weixin.qq.com/s?__biz=MjM5NDUxMTI2NA==&mid=2247485168&idx=1&sn=ccdbf7b18e4e2300a6fa0d4f9aafd306 | 2| 
 | 安圈评 | None | 高薪招聘-渗透测试工程师 | https://mp.weixin.qq.com/s?__biz=MzkwNTI4MTA1MQ==&mid=2247501268&idx=1&sn=c7da5d0543c15e38320f167deb0b5481 | 3| 
