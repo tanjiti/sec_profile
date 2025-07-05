@@ -73,6 +73,10 @@
 # 网络安全书籍 推荐
 | date_added | language | title | author | link | size| 
 | --- | --- | --- | --- | --- | ---| 
+| 2025-07-04 17:39:17 | English | Microsoft 365 Security and Compliance for Administrators | unknown | https://www.wowebook.org/microsoft-365-security-and-compliance-for-administrators/ | unknown| 
+| 2025-07-04 17:23:04 | English | Mastering CyberSecurity Defense | unknown | https://www.wowebook.org/mastering-cybersecurity-defense/ | unknown| 
+| 2025-07-04 15:11:45 | English | Mastering Microsoft 365 Security Technologies | unknown | https://www.wowebook.org/mastering-microsoft-365-security-technologies/ | unknown| 
+| 2025-07-04 13:53:56 | English | CompTIA Cloud+ Certification Guide (Exam CV0-003) | unknown | https://www.wowebook.org/comptia-cloud-certification-guide-exam-cv0-003/ | unknown| 
 | 2025-07-04 13:46:09 | English | CompTIA Server+ Certification | unknown | https://www.wowebook.org/comptia-server-certification/ | unknown| 
 | 2025-07-04 13:32:12 | English | CompTIA CASP+ (CAS-005) Certification Guide, 2nd Edition | unknown | https://www.wowebook.org/comptia-casp-cas-005-certification-guide-2nd-edition/ | unknown| 
 | 2025-07-02 17:33:52 | English | Intermediate Python and Large Language Models | unknown | https://www.wowebook.org/intermediate-python-and-large-language-models/ | unknown| 
