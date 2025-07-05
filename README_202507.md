@@ -323,6 +323,12 @@
 | 黑客联盟l | None | Vision Pro卖不动就凉了？别急，“苹果先知”郭明錤曝光重磅路线图：廉价版、M5性能版、真·智能眼镜都在路上！ | https://mp.weixin.qq.com/s?__biz=MzA5NzQxMTczNA==&mid=2649167184&idx=3&sn=305f0d698deb5f577fe66812974d2123 | 3| 
 
 
+# 论坛 推荐
+| title | url| 
+| --- | ---| 
+| 阿里云jtools详解及codeql分析调用链 | https://xz.aliyun.com/news/18350| 
+
+
 
 # 日更新程序
 `python update_daily.py`

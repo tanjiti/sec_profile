@@ -8941,6 +8941,7 @@
 # 论坛 推荐
 | title | url| 
 | --- | ---| 
+| 阿里云jtools详解及codeql分析调用链 | https://xz.aliyun.com/news/18350| 
 | 伏魔挑战赛PHP WebShell记录 | https://xz.aliyun.com/news/17631| 
 | 记一次VMware vCenter渗透过程 | https://xz.aliyun.com/t/14893?time__1311=GqA2Yvox%2FD7FiQGkG50Qqi%3DvK0K%2BWHmD| 
 | App渗透 - 从SQL注入到人脸识别登录绕过 | https://xz.aliyun.com/t/8308| 

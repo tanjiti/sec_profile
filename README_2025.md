@@ -1894,6 +1894,7 @@
 # 论坛 推荐
 | title | url| 
 | --- | ---| 
+| 阿里云jtools详解及codeql分析调用链 | https://xz.aliyun.com/news/18350| 
 | 伏魔挑战赛PHP WebShell记录 | https://xz.aliyun.com/news/17631| 
 
 
