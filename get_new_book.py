@@ -83,6 +83,7 @@ class GetNewBook(object):
             ['ai', 'agents'],
             ['monitor'],
             ['secure', 'coding'],
+            ['iot', 'security'],
             ['monitoring'],
             ['reconnaissance'],
             ['network', 'traffic'],
