@@ -1298,7 +1298,6 @@
 | 兜哥带你学安全 | None | 【招聘】蚂蚁集团-基础安全算法-杭州 | https://mp.weixin.qq.com/s?__biz=MzIwOTc0MDU3NA==&mid=2247485205&idx=1&sn=b9e7fa933def01437c4693acb4cba70a | 22| 
 | 全栈安全 | None | 如何查看电脑后门IP和流量？ | https://mp.weixin.qq.com/s?__biz=MzkyMTYyOTQ5NA==&mid=2247487373&idx=1&sn=62ea806aea984f677d13db718f164ad2 | 50| 
 | 全栈网络空间安全 | None | 网络安全流量监测产品（NDR与全流量数据存储）协同使用策略 | https://mp.weixin.qq.com/s?__biz=Mzg3NTUzOTg3NA==&mid=2247515962&idx=1&sn=251f1383f432de2c541fceaf7d94b403 | 137| 
-| 全球技术地图 | None | 美国重祭“301大棒”，中国海事、物流和造船业承压 | https://mp.weixin.qq.com/s?__biz=MzI1OTExNDY1NQ==&mid=2651621508&idx=1&sn=862d5eebbf77980b28e519fc3a2ac6b7 | 603| 
 | 关键信息基础设施安全保护联盟 | None | 构建DeepSeek本地化部署的三层安全防线 | https://mp.weixin.qq.com/s?__biz=MzkxNjU2NjY5MQ==&mid=2247515784&idx=1&sn=a88dad5bad1cdefb4f5af54d8b7b3c34 | 199| 
 | 内存泄漏 | None | 面向AI安全的26个防御措施（MITRE ATLAS,2025) | https://mp.weixin.qq.com/s?__biz=MzU2MjU2MzI3MA==&mid=2247484732&idx=2&sn=cb91eb829648c4d9e288a546f7c8f30d | 49| 
 | 内生安全联盟 | None | 特朗普政府首份网络安全行政令解析：战略转向与核心举措 | https://mp.weixin.qq.com/s?__biz=Mzg4MDU0NTQ4Mw==&mid=2247532593&idx=2&sn=8cb633bd5380695d59ffd4eccd51cfcd | 526| 
@@ -1316,7 +1315,6 @@
 | 安全圈 | None | 【安全圈】新型Coyote银行木马深度解析 | https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652070846&idx=3&sn=bec4e5cf762141fb3ab3d07820d6149a | 1431| 
 | 安全女王 | None | 五一出行，快收下这份《日本偷拍犯罪调研报告》 | https://mp.weixin.qq.com/s?__biz=MzA3NDM4NTk4NA==&mid=2452946818&idx=3&sn=00d0a712cfa782c02ef2cb04075887ca | 10| 
 | 安全学习那些事儿 | None | 全球时尚品牌SABO超过350万客户记录被曝光 | https://mp.weixin.qq.com/s?__biz=MzkxNTI2NTQxOA==&mid=2247498242&idx=3&sn=8831c68db1ba36686b344d6a9b7aae7c | 474| 
-| 安全学术圈 | None | 密歇根大学 , 利用跨层RTT区分代理流量指纹 | https://mp.weixin.qq.com/s?__biz=MzU5MTM5MTQ2MA==&mid=2247493093&idx=1&sn=21713484c1c8a50936a1cc9538e273a2 | 403| 
 | 安全牛课堂 | None | 2025爆火的十大渗透防御与道德黑客认证 | https://mp.weixin.qq.com/s?__biz=MzIxNTM4NDY2MQ==&mid=2247518135&idx=1&sn=aff26eb40934e2ec37cd56456a36503e | 212| 
 | 安全狗的自我修养 | None | Axum后台开发框架与实战教程 | https://mp.weixin.qq.com/s?__biz=MzkwOTE5MDY5NA==&mid=2247507095&idx=2&sn=5354294f6ed76a846c6a475aa0d762fe | 209| 
 | 安全研究GoSSIP | None | Let’s GoSSIP 暑期学校 2025，预备，出发！ | https://mp.weixin.qq.com/s?__biz=Mzg5ODUxMzg0Ng==&mid=2247500473&idx=1&sn=9c445ed70530fca8ff09cc2e2cb40148 | 203| 
@@ -1536,6 +1534,7 @@
 | 信息安全国家工程研究中心 | None | 【二十四节气】大暑 , 汹涌翻云倾骤雨，护得莲香一片晴 | https://mp.weixin.qq.com/s?__biz=MzU5OTQ0NzY3Ng==&mid=2247500381&idx=1&sn=e5006db4cfcd933661bc5a607c383463 | 126| 
 | 信息安全小助手 | None | 信息安全小提示（2025年第7期） | https://mp.weixin.qq.com/s?__biz=MzkyMjEwNjY5NQ==&mid=2247485040&idx=1&sn=084158f4d7908d4e9cb19310220dff02 | 7| 
 | 信科共创检测认证 | None | 【网安近闻】西方国家正把海底变成“网络新战场” | https://mp.weixin.qq.com/s?__biz=MzIyNTIyMTU1Nw==&mid=2247485832&idx=5&sn=71f8380387b9cc8563c50f570b2a9329 | 38| 
+| 全球技术地图 |  | DARPA 2026年度预算重点项目清单：AI已成为未来战争关键 | https://mp.weixin.qq.com/s/jZLUj00HVzjKiFxK9lgBmA | 603| 
 | 军哥网络安全读报 | None | Nvidia工具包严重漏洞导致AI云服务易受黑客攻击 | https://mp.weixin.qq.com/s?__biz=MzI2NzAwOTg4NQ==&mid=2649795784&idx=3&sn=d0eacb9bedd47fe08ae823507d15c539 | 171| 
 | 创信华通 | None | 创信关注丨四川省参赛战队荣获全国第三届“熵密杯” 密码安全挑战赛一等奖等多个奖项 | https://mp.weixin.qq.com/s?__biz=MzUxNTQxMzUxMw==&mid=2247526002&idx=1&sn=067e0c9d416eebc1302715d682b51c82 | 87| 
 | 北京观成科技 | None | 【涨知识】基于深度学习技术的webshell文件检测方案 | https://mp.weixin.qq.com/s?__biz=MzU2Mjg1NjY4Nw==&mid=2247490728&idx=1&sn=6ce97ec1deb5e32963abf15e3209712f | 7| 
@@ -1701,6 +1700,7 @@
 | 不秃头的安全 | None | 不秃头的安全/一半安全 商务合作 | https://mp.weixin.qq.com/s?__biz=Mzg3NzkwMTYyOQ==&mid=2247489688&idx=1&sn=c4647a5f776255dfb3c7767a0cce01d8 | 87| 
 | 信安百科 | alicy | CVE-2025-30762｜Oracle WebLogic Server存在未授权访问漏洞 | https://mp.weixin.qq.com/s?__biz=Mzg2ODcxMjYzMA==&mid=2247486091&idx=2&sn=18fd68348f0aa5ac8cf42fe1d25cfe00 | 101| 
 | 凌日网络与信息安全团队 | None | 新一代“网络身份证” | https://mp.weixin.qq.com/s?__biz=MzkxNjcyMTc0NQ==&mid=2247484494&idx=1&sn=0b44d90cf0b4a6e42688bc9d56faf406 | 11| 
+| 安全学术圈 | 李智宇 | 浙江大学 , HoneyJudge：一种基于设备内存测试的 PLC 蜜罐识别框架 | https://mp.weixin.qq.com/s/9AS691rxVkBwytO9jKY8JQ?scene=1 | 403| 
 | 安帝Andisec | None | 工业网络安全周报-2025年第27期 | https://mp.weixin.qq.com/s?__biz=MzU3ODQ4NjA3Mg==&mid=2247567515&idx=1&sn=289d018029fbad055b4a9771d5faa7cb | 45| 
 | 技可达工作室 |  | 静界PUBG  ESP工具使用教程 | https://mp.weixin.qq.com/s?__biz=MzU3NDY1NTYyOQ==&mid=2247486090&idx=1&sn=8e9829d29209f4f447cf933265709797 | 18| 
 | 无糖反网络犯罪研究中心 | None | 无糖信息八周年 , 八载同心，一路同行 | https://mp.weixin.qq.com/s?__biz=MzAxMzkzNDA1Mg==&mid=2247514271&idx=1&sn=7b4621943107350cbbecb8907a7f8ae0 | 122| 
