@@ -155,6 +155,8 @@ class GetNewBook(object):
             ['incident', 'response'],
             ['incident', 'management'],
             ['incident', 'investigation'],
+            ['attack', 'surface'],
+            ['attack', 'vector'],
             ['zero', 'trust'],
             ['access', 'management'],
             ['iam'],  # identity and access management
@@ -193,6 +195,8 @@ class GetNewBook(object):
             ['qrader'],  # ibm
             ['falcon'],
             ['kill', 'Chain'],
+            ['ethical', 'hacking'],
+            ['attack', 'strategies'],
             ['cobaltstrike'],
             ['microsoft'],
             ['cuckoo'],
