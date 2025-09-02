@@ -314,6 +314,7 @@ class GetNewBook(object):
                 link = a.link.next_sibling.encode('utf-8')
                 description = a.find('description')
                 pubdate = a.find('pubdate')
+
                 if not title and link:
                     title = get_bookname_from_url(link)
 
