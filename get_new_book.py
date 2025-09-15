@@ -92,6 +92,7 @@ class GetNewBook(object):
             ['password', 'cracking'],
             ['dark', 'web'],
             ['kali'],
+            ['zero-day'],
             ['detect'],
             ['attack'],
             ['hacker'],
@@ -136,8 +137,10 @@ class GetNewBook(object):
             ['fraud'],
             # auto
             ['attack', 'vectors'],
+            ['attack', 'surface'],
             ['social', 'engineering'],
             ['attack', 'simulation'],
+            ['bypass', 'techniques'],
 
             # productor
             ['cloud', 'security'],
