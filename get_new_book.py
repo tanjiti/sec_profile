@@ -229,6 +229,8 @@ class GetNewBook(object):
             ['copilot'],
             ['openai'],
             ['prompt', 'engineering'],
+            ['llms'],
+            ['conversational', 'ai'],
             # abnormal check
             ['time','series'],
             ['splunk'],
