@@ -22,6 +22,9 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 威胁棱镜 | None | 披露 IOC 对攻击者行为的影响 | https://mp.weixin.qq.com/s?__biz=MzkyMzE5ODExNQ==&mid=2247487896&idx=1&sn=1fec8536273999d570dbf4a0b09496ae | 1| 
+| 安全架构 | None | 安全方向培训的方向清单 | https://mp.weixin.qq.com/s?__biz=Mzg5MjgxNTQ1MA==&mid=2247488538&idx=1&sn=6afaeefc8f5a94a9c43a9cebf5b77b91 | 1| 
+| 软件开发安全生命周期 | None | SDL序列课程-第63篇-安全需求-文件上传需求-对上传文件使用病毒引擎进行过滤 | https://mp.weixin.qq.com/s?__biz=Mzk0NzE5NjI0Mg==&mid=2247484921&idx=1&sn=d5fa8af25ee0ae8cdfe83f0d52362815 | 2| 
 | 360众测 | None | 【团队巅峰赛】年终冲榜ing，登顶豪享『出国行』 | https://mp.weixin.qq.com/s?__biz=MzkwODM0MTgyNQ==&mid=2247489626&idx=1&sn=1d7461122ced39eb8fff12dde68485c2 | 1| 
 | 360威胁情报中心 | None | 警惕！HitlerBot僵尸网络最强变种来袭 | https://mp.weixin.qq.com/s?__biz=MzUyMjk4NzExMA==&mid=2247507522&idx=1&sn=7652b4d3d658e731ba5892ff93d13878 | 2| 
 | 360数字安全 | None | 热点：AI主导全球首例大规模网络攻击？争议背后的AI攻防战 | https://mp.weixin.qq.com/s?__biz=MzA4MTg0MDQ4Nw==&mid=2247582975&idx=2&sn=a013ea5d5c62a18389fe461cac4f0e98 | 17| 
@@ -425,7 +428,6 @@
 | 羊牯塘网络安全研究小组 | None | GoldenEye靶机手册 | https://mp.weixin.qq.com/s?__biz=MzAwNTUzNjE3OQ==&mid=2649560505&idx=1&sn=cfe548fe918de9da9017448b331f3f88 | 4| 
 | 菜鸟学信安 | None | 一个RCE命令执行靶场 | https://mp.weixin.qq.com/s?__biz=MzU2NzY5MzI5Ng==&mid=2247508251&idx=1&sn=8027fd1fda0f01a1a81b3ee50d635270 | 2| 
 | 赛哈文 | None | 筑牢数字防线：从国家展到校园课堂，我们该如何守护网络安全？ | https://mp.weixin.qq.com/s?__biz=Mzg3ODkzNjU4NA==&mid=2247485873&idx=1&sn=68c2c800a08014b5eb27574fe7876976 | 1| 
-| 软件开发安全生命周期 | None | SDL序列课程-第62篇-安全需求-文件上传需求-下载服务器不应该使用XXX主域名 | https://mp.weixin.qq.com/s?__biz=Mzk0NzE5NjI0Mg==&mid=2247484919&idx=1&sn=3777d3d51fc903731ace23cf16f3ef55 | 1| 
 | 银基科技INGEEK | None | 银基科技荣获CCC东亚首张数字钥匙认证，跻身全球兼容性测试设备清单 | https://mp.weixin.qq.com/s?__biz=MzIxMjU2NTU4NQ==&mid=2247489706&idx=1&sn=9f076823c3fc93d20c23ca84a6960990 | 1| 
 | 银河实验室 | None | 美国AI战略大转向：砸钱海湾国家，只为对抗中国？ | https://mp.weixin.qq.com/s?__biz=Mzg3MDczNjcyNA==&mid=2247489927&idx=1&sn=4c50df23c32b4d260bc63fad078db067 | 3| 
 | 长弓三皮 | None | 带你解锁编码新世界！-随波逐流CTF编码工具使用教程123 -Bazeries密码 | https://mp.weixin.qq.com/s?__biz=MzU2NzIzNzU4Mg==&mid=2247491240&idx=1&sn=939b035fadbee7df59ec4e662a66a07f | 2| 
