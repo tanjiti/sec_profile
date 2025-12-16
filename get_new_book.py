@@ -53,7 +53,7 @@ class GetNewBook(object):
                 #'https://libgen.is/rss/index.php'
                 #'https://libgen.rs/rss/index.php',
                 #'https://libgen.st/rss/index.php',
-                #'https://libgen.li/rss/index.php'
+                'https://libgen.li/rss/index.php'
 
 
              ],
