@@ -53,7 +53,7 @@ class GetNewBook(object):
                 #'https://libgen.is/rss/index.php'
                 #'https://libgen.rs/rss/index.php',
                 #'https://libgen.st/rss/index.php',
-                'https://libgen.li/rss/index.php'
+                #'https://libgen.li/rss/index.php'
 
 
              ],
@@ -402,10 +402,13 @@ class GetNewBook(object):
         """
         check which url is available
         """
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36',
+        }
         for rss_url in rss_url_list:
             s = requests.session()
             s.proxies = proxy
-            r = s.request('GET', url=rss_url)
+            r = s.request('GET', url=rss_url, headers=headers)
             if r.reason == "OK":
                 print(rss_url, r)
                 return rss_url
