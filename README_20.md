@@ -1441,6 +1441,7 @@
 | Say Sec |  | edu小灶案例之泄露上w敏感信息&有意思的证书站报告案例 | https://mp.weixin.qq.com/s/WZLSxPZ8mu9W3NeA1pliqg | 16| 
 | Sec铁匠铺 | None | LingJing（灵境）：EID靶机-WP | https://mp.weixin.qq.com/s/SO4_WVO9SKpxRh1YOQ7Xkg | 15| 
 | TtTeam |  | 密码破解：使用 PCredz 窃取凭据 | https://mp.weixin.qq.com/s/aGJW5h8hNNWlKKJ1l8-gKg | 221| 
+| W小哥 | al0ne al0ne | Nginx日志安全分析脚本 | https://mp.weixin.qq.com/s/llj8fXGdaIKtaXdn6kL5pQ | 29| 
 | kali笔记 | 大表哥吆 大表哥吆 | 如何将本地磁盘挂载到云服务器 | https://mp.weixin.qq.com/s/mY42kq82sBWwArp99oXitg | 161| 
 | 中国电信安全 |  | 喜报！天翼安全荣获第四届“光华杯”千兆光网应用创新大赛技术创新专题赛二等奖！ | https://mp.weixin.qq.com/s/1Zk7leDq2HLgeEIji46O6A | 227| 
 | 中国网络空间安全协会 |  | 2025年中国网络空间安全协会年会在福州召开 | https://mp.weixin.qq.com/s/Jp2Omzhv2vUtqv2zO_C3Ag | 174| 
@@ -1600,7 +1601,6 @@
 | T先生 Mr.Think | T先生 MrT T先生 MrT | AI 颠覆网络安全：五大核心革命，重构行业底层逻辑 | https://mp.weixin.qq.com/s/4iCK9N6S6rEK3qWmAxG_9A | 6| 
 | VEDA卫达信息 | 小V同学 小V同学 | 2025年国内网络安全法规盘点 | https://mp.weixin.qq.com/s/o1_zVEXHWTD-0jn1lVdgdA | 28| 
 | Web安全工具库 | nucssistdev nucssistdev | nuclei POC辅助编写（管理）工具 -- nucssist（1月12日更新） | https://mp.weixin.qq.com/s/RLPkb1Uk3h1UoqdPJYxElg | 280| 
-| W小哥 |  | CVE-2025-55182 漏洞检测与利用工具（GUI版） | https://mp.weixin.qq.com/s/eVA8QMlPBfaOKb_l5vuyug | 27| 
 | Z2O安全攻防 |  | 一名合格红队的成长之路 | https://mp.weixin.qq.com/s/qEXqEoBLvHhUe7HP8-dBig | 433| 
 | dmd5安全 | dmd5安全 dmd5安全 | CVE-2026-22688 - 腾讯WeKnora MCP Stdio 命令注入漏洞 | https://mp.weixin.qq.com/s/D77FQsOSjOrpWw_iM5ULQQ | 4| 
 | e安在线 | e安在线 e安在线 | Shiro漏洞利用工具，更新V0.2！ | https://mp.weixin.qq.com/s/0FhKQ3o-o0FO13nF1MTuIA | 172| 
