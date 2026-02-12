@@ -238,6 +238,8 @@ class GetNewBook(object):
             ['firewalls'],
             ['agentic'],
             ['ai', 'projects'],
+            ['prompt-driven'],
+            ['agentic'],
 
         ]
         self.book_language_list = ['English']
