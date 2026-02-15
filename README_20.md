@@ -77,8 +77,11 @@
 # 网络安全书籍 推荐
 | date_added | language | title | author | link | size| 
 | --- | --- | --- | --- | --- | ---| 
+| 2026-02-15 09:17:14 | English | Blue Team Handbook: Incident Response | unknown | https://www.wowebook.org/blue-team-handbook-incident-response/ | unknown| 
 | 2026-02-14 21:36:21 | English | Parallel and High Performance Programming with Python, 2nd Edition | unknown | https://www.wowebook.org/parallel-and-high-performance-programming-with-python-2nd-edition/ | unknown| 
 | 2026-02-14 20:36:51 | English | Parallel and High Performance Programming with Python | unknown | https://www.wowebook.org/parallel-and-high-performance-programming-with-python/ | unknown| 
+| 2026-02-14 19:48:48 | English | Ultimate LLMOps for LLM Engineering | unknown | https://www.wowebook.org/ultimate-llmops-for-llm-engineering/ | unknown| 
+| 2026-02-14 18:59:40 | English | The MCP Standard | unknown | https://www.wowebook.org/the-mcp-standard/ | unknown| 
 | 2026-02-14 18:47:50 | English | Deep Learning with Rust | unknown | https://www.wowebook.org/deep-learning-with-rust/ | unknown| 
 | 2026-02-11 05:44:55 | English | Ultimate Microsoft Cybersecurity Architect SC-100 Exam Guide | unknown | https://www.wowebook.org/ultimate-microsoft-cybersecurity-architect-sc-100-exam-guide/ | unknown| 
 | 2026-02-11 16:21:42 | English | Prompt-Driven Development Handbook | unknown | https://www.wowebook.org/prompt-driven-development-handbook/ | unknown| 
