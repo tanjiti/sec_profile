@@ -240,6 +240,8 @@ class GetNewBook(object):
             ['ai', 'projects'],
             ['prompt-driven'],
             ['agentic'],
+            ['mcp'],
+            ['llm'],
 
         ]
         self.book_language_list = ['English']
