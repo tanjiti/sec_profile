@@ -242,6 +242,8 @@ class GetNewBook(object):
             ['agentic'],
             ['mcp'],
             ['llm'],
+            ['prompt-driven'],
+            ['generative', 'ai'],
 
         ]
         self.book_language_list = ['English']
