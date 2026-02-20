@@ -20,8 +20,8 @@
 # 网络安全书籍 推荐
 | date_added | language | title | author | link | size| 
 | --- | --- | --- | --- | --- | ---| 
-| 2026-02-18 10:46:12 | English | CompTIA Cloud+ Guide to Cloud Computing, 3rd Edition | unknown | https://www.wowebook.org/comptia-cloud-guide-to-cloud-computing-3rd-edition/ | unknown| 
 | 2026-02-18 06:28:43 | English | Cloud Security Fundamentals: Building the Foundations for Secure Cloud Platforms | unknown | https://www.wowebook.org/cloud-security-fundamentals-building-the-foundations-for-secure-cloud-platforms/ | unknown| 
+| 2026-02-18 10:46:12 | English | CompTIA Cloud+ Guide to Cloud Computing, 3rd Edition | unknown | https://www.wowebook.org/comptia-cloud-guide-to-cloud-computing-3rd-edition/ | unknown| 
 | 2026-02-15 17:48:15 | English | Design Multi-Agent AI Systems Using MCP and A2A | unknown | https://www.wowebook.org/design-multi-agent-ai-systems-using-mcp-and-a2a/ | unknown| 
 | 2026-02-15 17:33:20 | English | Modern Time Series Analysis with R | unknown | https://www.wowebook.org/modern-time-series-analysis-with-r/ | unknown| 
 | 2026-02-15 09:17:14 | English | Blue Team Handbook: Incident Response | unknown | https://www.wowebook.org/blue-team-handbook-incident-response/ | unknown| 
