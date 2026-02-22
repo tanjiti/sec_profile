@@ -73,6 +73,7 @@ class GetNewBook(object):
             ['rust'],
             ['kubernetes'],
             ['cybersecurity'],
+            ['serverless', 'security'],
             # application/api/network/cloud/windows/linux/endpoint/mobile
             # ['secure'],
             ['endpoint', 'detection'],
