@@ -20,6 +20,10 @@
 # 网络安全书籍 推荐
 | date_added | language | title | author | link | size| 
 | --- | --- | --- | --- | --- | ---| 
+| 2026-02-27 12:24:38 | English | Agentic AI for Offensive Cybersecurity | unknown | https://www.wowebook.org/agentic-ai-for-offensive-cybersecurity/ | unknown| 
+| 2026-02-26 18:16:50 | English | Hacking Hardware: The Practical Guide to Penetration Testing | unknown | https://www.wowebook.org/hacking-hardware-the-practical-guide-to-penetration-testing/ | unknown| 
+| 2026-02-26 12:26:20 | English | AI Agents and Applications | unknown | https://www.wowebook.org/ai-agents-and-applications/ | unknown| 
+| 2026-02-26 12:09:11 | English | Mastering Generative AI Systems Engineering | unknown | https://www.wowebook.org/mastering-generative-ai-systems-engineering/ | unknown| 
 | 2026-02-25 12:56:56 | English | Microsoft Fabric Analytics Engineer Associate Study Guide | unknown | https://www.wowebook.org/microsoft-fabric-analytics-engineer-associate-study-guide/ | unknown| 
 | 2026-02-24 17:08:30 | English | Ultimate Generative AI Solutions on Google Cloud | unknown | https://www.wowebook.org/ultimate-generative-ai-solutions-on-google-cloud/ | unknown| 
 | 2026-02-22 20:28:09 | English | AI Agents for Secure and Software-Defined Networking | unknown | https://www.wowebook.org/ai-agents-for-secure-and-software-defined-networking/ | unknown| 
@@ -131,7 +135,6 @@
 | 二进制空间安全 | suntiger suntiger | 能窃密、远控、勒索式屏幕锁定,利用大模型做掩护智能切换!新型Android木马SURXRAT | https://mp.weixin.qq.com/s/a-7bAHXfNiMxPuoB4Fs3OQ | 5| 
 | 云原生安全指北 | Dubito Dubito | Entra ID授权攻击案例解析&amp;防御指南 | https://mp.weixin.qq.com/s/WGr6Pwiiz9z-J7zwwTsM1A | 5| 
 | 亚洲诚信TrustAsia | 持续创新的 持续创新的 | 上海徐汇区首家！上海互联网安全行业首例！亚数TrustAsia完成商业秘密质押融资 | https://mp.weixin.qq.com/s/7-J3X7IHD8U5zwUfKJPuSQ | 5| 
-| 信息安全与通信保密杂志社 | Cismag Cismag | 生成式人工智能的深度伪造风险与伦理规制 | https://mp.weixin.qq.com/s/L1rURg5HOQjaZYLRBMeePA | 57| 
 | 信息安全国家工程研究中心 | None | 福马迎新，开工大吉 | https://mp.weixin.qq.com/s/hScBEys3CiT-APn3EpRsjg | 14| 
 | 信息安全最新论文技术交流 |  | 李国杰院士：基于可判定性理论的人工智能系统安全风险分类 | https://mp.weixin.qq.com/s/Ke9QB-cSSiLnYcvyHCMU2g | 3| 
 | 信息安全研究 |  | 动态｜四川省密码管理局2026年度行政检查计划 | https://mp.weixin.qq.com/s/gx2G1G3cOOl4vSu2b812hQ | 69| 
@@ -516,6 +519,7 @@
 | T00ls安全 | None | 🤙 T00ls祝大家 六六大顺 🚀 | https://mp.weixin.qq.com/s/HYe23wxOGqIyVuIUZ2LysQ | 10| 
 | 不会告诉你 | 陆茜 陆茜 | 从某群友感染银狐病毒说起 | https://mp.weixin.qq.com/s/Bc41yBPVbDseqWZINS4ZHQ | 1| 
 | 专注安管平台 | Benny Ye Benny Ye | 数据就绪：AI SOC平台隐秘的死穴 | https://mp.weixin.qq.com/s/otF8J1N8_ZYTUjkzesuNcw | 1| 
+| 信息安全与通信保密杂志社 | Cismag Cismag | 2025美国网络安全十大项目：自动防御、AI监管、能源安全 | https://mp.weixin.qq.com/s/R0ObGKrsPNN-qHyF610uAA | 57| 
 | 奇安网情局 | 奇安侦察兵 奇安侦察兵 | 美国专家认为美军并非采取用纯网络攻击手段致委内瑞拉断电 | https://mp.weixin.qq.com/s/W3K1PyoBDtU7DJ558ifQVA | 14| 
 | 安全赛博 | 安全赛博 安全赛博 | 星地链路加密协议深度解析 | https://mp.weixin.qq.com/s/MSB2u_XOp7Pu4Yjy_oM0Zg | 5| 
 | 慢雾科技 |  | 指纹浏览器行业安全风险深度分析 | https://mp.weixin.qq.com/s/jXEsghpI9SNX6ckzgkNrzQ | 6| 
