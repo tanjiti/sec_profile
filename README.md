@@ -14,6 +14,8 @@
 # 网络安全书籍 推荐
 | date_added | language | title | author | link | size| 
 | --- | --- | --- | --- | --- | ---| 
+| 2026-03-05 12:50:03 | English | Learn AI with Python, 2nd Edition | unknown | https://www.wowebook.org/learn-ai-with-python-2nd-edition/ | unknown| 
+| 2026-03-05 07:50:48 | English | Metasploit: The Penetration Tester’s Guide, 2nd Edition | unknown | https://www.wowebook.org/metasploit-the-penetration-testers-guide-2nd-edition/ | unknown| 
 | 2026-03-03 10:48:03 | English | Mastering DevOps and Site Reliability Engineering | unknown | https://www.wowebook.org/mastering-devops-and-site-reliability-engineering/ | unknown| 
 | 2026-03-02 05:13:44 | English | Microsoft Intune Cookbook, 2nd Edition | unknown | https://www.wowebook.org/microsoft-intune-cookbook-2nd-edition/ | unknown| 
 | 2026-03-01 09:44:07 | English | Generative AI on Kubernetes | unknown | https://www.wowebook.org/generative-ai-on-kubernetes/ | unknown| 
@@ -91,7 +93,6 @@
 | 安全内参 |  | 美国空军国民警卫队研发可装进背包的网络靶场ACTE | https://mp.weixin.qq.com/s/_IGz8q_zc1KhJ8uSviaV1Q | 6| 
 | 安全圈的那点事儿 | 网络安全9527 网络安全9527 | Coruna漏洞利用工具包包含23个漏洞，已入侵数千部iPhone | https://mp.weixin.qq.com/s/NTzLtMqWkaibNmy7ZCuGqQ | 3| 
 | 安全威胁纵横 | HackerNews HackerNews | 伊朗无人机袭击亚马逊海湾数据中心，云服务中断 | https://mp.weixin.qq.com/s/KtnmrXKpVNHqIsNhn9Zz0A | 3| 
-| 安全学术圈 | 小编 小编 | 学术会议 , 第四届移动互联网、云计算与信息安全国际会议 | https://mp.weixin.qq.com/s/9uYamRAAkBetwB-fvSo0nQ | 2| 
 | 安全技术达人 | Bing Bing | 【漏洞预警】青龙面板 系统未授权远程代码执行漏洞 | https://mp.weixin.qq.com/s/-bvDl1qJI7Jxi7cKposPsQ | 1| 
 | 安全牛 |  | 超9亿条个人信息被非法交易：北京检方公诉特大社工库犯罪团伙；中东无人机袭击 AWS 数据中心，物理安防成云服务商核心痛点 , 牛览 | https://mp.weixin.qq.com/s/rDggYlQ7_Hy1OPr6WNfaxw | 2| 
 | 安全狗的自我修养 | haidragon haidragon | libev库源码分析系列教程(七) | https://mp.weixin.qq.com/s/JJbKGFFvn_YvD7uQk3vlaA | 6| 
@@ -297,6 +298,7 @@
 | 天威诚信 | None | 数智赋能 , 司库业务合规解决方案👆 | https://mp.weixin.qq.com/s/xoKLlCecyZoJ-0dRbKZQWg | 1| 
 | 威努特安全网络 | 威努特 威努特 | 美以“斩首”行动下的AI与网络战深度解析 | https://mp.weixin.qq.com/s/Erl_9WN-wPtiPWsvsrZJbw | 1| 
 | 安全圈 |  | 【安全圈】美以袭击伊朗期间，遭入侵的祈祷应用被用作网络武器 | https://mp.weixin.qq.com/s/pVDREfamD0RXiyvWp4Csdw | 4| 
+| 安全学术圈 | 黄诚课题组 黄诚课题组 | LLM4Pentest: LLM 赋能自动化渗透测试 | https://mp.weixin.qq.com/s/2dt6QugmPgu3_odRpObzXA | 3| 
 | 安全脉脉 | zh1chu zh1chu | 限时开放 , 我们想办一场不一样的活动 | https://mp.weixin.qq.com/s/xM5MIBLIelWqOumNnxsOQg | 1| 
 | 小文Sec | 小文Sec 小文Sec | 网络安全意识培训，真的很重要！ | https://mp.weixin.qq.com/s/KR24WH48b2bnF246pRhH4Q | 1| 
 | 工业信息安全产业发展联盟 |  | 学术前沿,《工业信息安全》（第26期）主要内容速览 | https://mp.weixin.qq.com/s/1BLkNuV9fykQb_zWU8zLCg | 1| 
