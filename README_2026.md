@@ -1344,6 +1344,7 @@
 | reconurge | flowsint: OSINT开源图形可视化平台 | https://github.com/reconurge/flowsint?tab=readme-ov-file | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,TypeScript | 0 | 0 | 1| 
 | shell-dot | Tuoni: 跨平台红队演练框架 | https://github.com/shell-dot/tuoni | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Java,Shell,JavaScript,C# | 0 | 0 | 1| 
 | yyhuni | xingrin: src资产管理漏洞扫描平台 | https://github.com/yyhuni/xingrin | https://github.com/yyhuni?tab=followers |  | None | None | 67 | 0 | 26 | 0 | 0 | Go,TypeScript,Java,HTML | 0 | 0 | 1| 
+| zer0yu | 适用于 Openclaw 的网络安全日报 Skills | https://github.com/zer0yu/sec-daily-digest/ | https://github.com/zer0yu?tab=followers | BugHunter@OverSpace / RedTeamer@PolarisLab / CTFer@kn0ck | Singapore / China | None | 80 | 0 | 5000 | 0 | 0 | Python,Go,Rust | 0 | 0 | 1| 
 
 
 
