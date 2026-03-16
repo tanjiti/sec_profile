@@ -231,6 +231,7 @@ class GetNewBook(object):
             ['openai'],
             ['prompt', 'engineering'],
             ['llms'],
+            ['rag'],
             ['conversational', 'ai'],
             # abnormal check
             ['time','series'],
