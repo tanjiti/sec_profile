@@ -56,8 +56,9 @@ def scraw(so, proxy=None, delta=3):
         'pubDate': 'ts'
     }
 
-    url = "http://wechat.doonsec.com/rss.xml"
+    url = "https://wechat.doonsec.com/rss.xml"
     r = get_request(url, proxy=proxy)
+
     if r:
         try:
             soup = BeautifulSoup(r.content, 'xml')
