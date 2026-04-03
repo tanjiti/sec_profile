@@ -29,7 +29,7 @@ def scraw(proxy=None):
     xuanwu_scraw(so, proxy=proxy, delta=10)
     print("scraw book")
     g = GetNewBook()
-    g.scaw(proxy=proxy)
+    #g.scaw(proxy=proxy)
     print("scraw doonsec")
     doonsec_scraw(so, proxy=None, delta=10)
 
@@ -69,7 +69,7 @@ if __name__ == "__main__":
         "http": "http://127.0.0.1:8001",
         'https': "http://127.0.0.1:8001",
     }
-    #proxy = None
+    proxy = None
 
     scraw(proxy=proxy)
 
