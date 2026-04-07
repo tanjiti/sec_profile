@@ -77,6 +77,7 @@
 # 网络安全书籍 推荐
 | date_added | language | title | author | link | size| 
 | --- | --- | --- | --- | --- | ---| 
+| 2026-04-07 18:33:16 | English | GPU-Accelerated Computing with Python 3 and CUDA | unknown | https://www.wowebook.org/gpu-accelerated-computing-with-python-3-and-cuda/ | unknown| 
 | 2026-04-07 05:40:45 | English | Mastering DevOps: A Cloud Engineering and Data Science Perspective | unknown | https://www.wowebook.org/mastering-devops-a-cloud-engineering-and-data-science-perspective/ | unknown| 
 | 2026-04-07 04:52:46 | English | Microsoft Power Platform | unknown | https://www.wowebook.org/microsoft-power-platform/ | unknown| 
 | 2026-04-06 17:03:02 | English | Architecting Generative AI Applications | unknown | https://www.wowebook.org/architecting-generative-ai-applications/ | unknown| 
