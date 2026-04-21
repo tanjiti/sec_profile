@@ -115,6 +115,7 @@
 | 安全狗的自我修养 | haidragon haidragon | 我如何通过一次投票使区块链节点崩溃（CVE-2026-40583） | https://mp.weixin.qq.com/s/dOVI6-u7_tmO8oleP5wMVw | 13| 
 | 安在 | 人民网 人民网 | 12306：3天拒绝出票105.6万张 | https://mp.weixin.qq.com/s/RFAQtFsXByWgsZYU_0vOpg | 14| 
 | 安恒信息 |  | 献礼“4·19讲话”十周年｜安恒：从率先布局态势感知，到发布AI原生新一代XSIAM | https://mp.weixin.qq.com/s/g7Zi5eAKzT_Zdu0e3JIQOg | 6| 
+| 安芯网盾 | 内存安全领军者 内存安全领军者 | 安芯网盾参编｜《2025网信自主创新调研报告》正式发布 | https://mp.weixin.qq.com/s/KzbStPHglww2x7pgY5itBA | 1| 
 | 山石网科新视界 | 山石网科 山石网科 | AI 简讯｜GPT-5.4-Cyber，IBM Autonomous Security，Anthropic Mythos，Hermes Agent，Opus 4.7 | https://mp.weixin.qq.com/s/OU0uEvyrCWYgf0KZsYZZxQ | 7| 
 | 工联安全众测 |  | 重磅发布丨智能经济20问 | https://mp.weixin.qq.com/s/uiPfPY2sfUIp5oF8Do2E5w | 2| 
 | 幻泉之洲 |  | 匿名凭证技术上-入门图解 | https://mp.weixin.qq.com/s/Lbj5WhYqzlFbMtqP3x5iSg | 27| 
@@ -158,7 +159,7 @@
 | 老李的信息化自留地 | 这里至少还有鱼 这里至少还有鱼 | 亲测有效 , 办公电脑卡到崩溃？我的7年旧电脑，使用这些技巧后真可以再战3年 | https://mp.weixin.qq.com/s/8IP9S0ByG69GIKCCYsQvHA | 4| 
 | 老烦的草根安全观 | 草根老烦 草根老烦 | 从安全外套到安全能力-《网络安全标识管理办法》带来的挑战和变革 | https://mp.weixin.qq.com/s/q-iPw3BDCnHExw8w1s1ifQ | 1| 
 | 船山信安 | 小金星 小金星 | 9.8分！OpenAM爆严重反序列化漏洞，攻击者无需认证即可RCE | https://mp.weixin.qq.com/s/9wp9Sj6kFtOHGLMxFGG8UQ | 6| 
-| 蓝军开源情报 | 所长007 所长007 | 【研究报告】俄乌战场地雷战与反地雷战作战机理研究——基于障碍构设、联合突破与纵深攻防的分析 | https://mp.weixin.qq.com/s/bbhvdUGssrvr0EYO2E_esg | 52| 
+| 蓝军开源情报 | 所长007 所长007 | 【研究报告】俄乌战场地雷战与反地雷战战略效应研究——从战场阻滞、国家恢复到战后清排治理 | https://mp.weixin.qq.com/s/o_GCrfJQa1VRf9Sl0c_nQg | 52| 
 | 蚁景网络安全 |  | 渗透测试必备工具：SQLMap实操指导教程 | https://mp.weixin.qq.com/s/UeitQK0s9z0kMY7ttPQspQ | 6| 
 | 讯飞安全 |  | 讯飞SRC助力 , 直播预告：2025年度货拉拉SRC白帽子安全沙龙暨年度颁奖典礼~ | https://mp.weixin.qq.com/s/vd-trACYY_c72kP9nwf0gQ | 1| 
 | 谷安培训 |  | CISA考试包套餐，性价比直接拉满！ | https://mp.weixin.qq.com/s/G8ZrUcjNEE8p81OfVD4oaA | 4| 
