@@ -76,6 +76,7 @@
 | 安全学习那些事儿 | None | 离职员工侵入公司远程删除数据 被行政处罚 | https://mp.weixin.qq.com/s/ff_eigjSEhrqtmshFB7hrw | 13| 
 | 安全赛博 | None | 专门针对 DeepSeek V4 Flash 模型打造的极简、原生的本地推理引擎 | https://mp.weixin.qq.com/s/lzkeQbydG_mlmKSp8JbOxw | 1| 
 | 安在 | None | 知识星球 , 网安政策报告PPT周报 | https://mp.weixin.qq.com/s/Kzx-XgQJqU0NTMZD5T5-rw | 3| 
+| 安天集团 | 安天研究院 安天研究院 | 基于Dirty Frag漏洞发现过程的“攻击原语”思考——再论漏洞发现与分析工作的人机分工 | https://mp.weixin.qq.com/s/ugp9359ThAHC3JIH-G9zWA | 3| 
 | 小东安全日记 | None | 伪装 accountsd 的 macOS Botnet 木马分析 | https://mp.weixin.qq.com/s/f_K3uNEZ-Cywd0mwrkAgNw | 1| 
 | 小叶Sec | None | 全世界都在催我长大，只有你心疼我的小翅膀 | https://mp.weixin.qq.com/s/41dC2mPwvtAcP2xHytgXIw | 5| 
 | 小话安全 | None | 医院药品耗材穿透式审计监督的实践创新与体系构建 , 中培财审 | https://mp.weixin.qq.com/s/jr3XymAmdKjtzUTicwtQlQ | 3| 
@@ -130,6 +131,7 @@
 | 魔方安全 | None | 以爱之名｜魔方安全祝您母亲节快乐！ | https://mp.weixin.qq.com/s/HP0nAVFlKZJoKWYDCmFXkA | 1| 
 | 黑客联盟l | None | Mozilla惊爆安全漏洞：Mythos工具几乎零误报 | https://mp.weixin.qq.com/s/3EqkdufFiifxcjUakXlbZA | 3| 
 | 黑白之道 | None | 绕过传统 WMIExec 检测！一种无文件 WMI 横向移动新思路 | https://mp.weixin.qq.com/s/_6vW_gYWmYeDam6LUgUY5Q | 16| 
+| 黑鸟 | 黑鸟 黑鸟 | VoIP号码生态系统和黑产利用现状 | https://mp.weixin.qq.com/s/otYDrHkmPPP7G0589fYY_A | 4| 
 | 0x八月 | None | 【SRC】多平台资产测绘与企业信息收集利器 | https://mp.weixin.qq.com/s/iPgtibUl-IrAse8VL7uqDg | 2| 
 | Esn技术社区 | None | 复现完全越狱、开源且预先构建好的iOS 26虚拟机！ | https://mp.weixin.qq.com/s/nGjL-9Ib_jGAWbbbjbnwXQ | 11| 
 | Ghost Wolf Lab | None | 挖掘注入线程 | https://mp.weixin.qq.com/s/sXNicmYIWmeDRblE7JB_JQ | 1| 
@@ -139,11 +141,9 @@
 | 公安部网安局 | None | 以警之名，致敬母爱；以网为媒，传递安全 | https://mp.weixin.qq.com/s/eXp_NgnDAWSMV3aMlFeeqg | 20| 
 | 安全狗的自我修养 | None | 基于AI浏览器定制与web逆向系列更新第三季 | https://mp.weixin.qq.com/s/9OpI6e_zlmrIoUzwTjV5ig | 6| 
 | 安全研究GoSSIP | None | G.O.S.S.I.P 特别推荐 2026-05-09 破译者 | https://mp.weixin.qq.com/s/bReMHn5Z3hZt51eXSZ4Q8w | 2| 
-| 安天集团 | None | 安天AVL SDK反病毒引擎升级通告（20260509） | https://mp.weixin.qq.com/s/ueEiug0g-AGc42gp_LDqyg | 3| 
 | 小刘说攻防 | None | 自学网安跟准这几位老师~ | https://mp.weixin.qq.com/s/mdB6NqB4_u3nlnKMWDMCuA | 6| 
 | 湘安无事 | None | 五一弯道超车！深情版Edu+SRC培训限时低价，文末免费抽奖(两份kfc+五个无影激活码) | https://mp.weixin.qq.com/s/gvFJt3Y5b3tVsqq0M9TroQ | 2| 
 | 网络技术干货圈 | None | 以太网线连接性参数有哪些？ | https://mp.weixin.qq.com/s/CqbHsOlVPc1EHGQO63B0Ew | 18| 
-| 黑鸟 | 黑鸟 黑鸟 | VoIP号码生态系统和黑产利用现状 | https://mp.weixin.qq.com/s/otYDrHkmPPP7G0589fYY_A | 4| 
 | 0day收割机 | 0day收割机 0day收割机 | 数据安全≠隐私保护？90%企业都搞错了 | https://mp.weixin.qq.com/s/RTAaYI692LYOwfY4KY5mZA | 3| 
 | AI员工上线 | None | 你又怎会知道今天的无名之辈来日会不会名震 | https://mp.weixin.qq.com/s/a6bEp2j4PW8Wn_zLYZ7-ZA | 3| 
 | AI技术笔记 | None | Copilot pro 1~5年会员 Microsoft 365 个人高级版 | https://mp.weixin.qq.com/s/Os_uKeCo-iS26DeojAEwvg | 5| 
