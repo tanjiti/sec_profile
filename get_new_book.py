@@ -182,6 +182,7 @@ class GetNewBook(object):
             ['white', 'hat'],
             ['privacy'],
             ['compliance'],
+            ['evasion', 'engineering'],
             ['debug'],
             ['debugging'],
             ['exploit'],
