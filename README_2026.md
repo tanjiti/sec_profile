@@ -20,6 +20,8 @@
 # 网络安全书籍 推荐
 | date_added | language | title | author | link | size| 
 | --- | --- | --- | --- | --- | ---| 
+| 2026-05-28 11:13:28 | English | Ultimate Machine Learning Algorithms with Python | unknown | https://www.wowebook.org/ultimate-machine-learning-algorithms-with-python/ | unknown| 
+| 2026-05-27 19:16:20 | English | Introduction to Python Programming and Data Structures, 3rd Edition | unknown | https://www.wowebook.org/introduction-to-python-programming-and-data-structures-3rd-edition/ | unknown| 
 | 2026-05-23 14:21:52 | English | Managing AI Projects | unknown | https://www.wowebook.org/managing-ai-projects/ | unknown| 
 | 2026-05-23 11:31:38 | English | Python for Excel, 2nd Edition | unknown | https://www.wowebook.org/python-for-excel-2nd-edition/ | unknown| 
 | 2026-05-20 09:25:01 | English | 50 ML Projects To Understand LLMs | unknown | https://www.wowebook.org/50-ml-projects-to-understand-llms/ | unknown| 
@@ -175,6 +177,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| Yajin科研创业录 | Yajin Yajin | 系统视角下的 AI Agent 隔离模型与安全边界 | https://mp.weixin.qq.com/s/tQv3tzBxzCFUiLXMeO0H0w | 1| 
+| 小面包的储物柜 | Panda0a Panda0a | 浅谈AI Agent的行为检测思路 | https://mp.weixin.qq.com/s/ErpOjkTlKhu6QYVahUb_Qw | 1| 
 | 360威胁情报中心 | 高级威胁研究院 高级威胁研究院 | YoroTrooper组织针对独联体及周边区域的攻击活动分析 | https://mp.weixin.qq.com/s/9wGEdvuJVPIv_D6PpoaZHg | 8| 
 | AI赋能汽车 | None | 2026年中国汽车零部件白皮书：技术、博弈与出海新范式 | https://mp.weixin.qq.com/s/H5J_bweXtpD61k0YgR2Wog | 79| 
 | Breaking-code | 平平无奇 n1 平平无奇 n1 | 2026ZeroG-CTF MISC 官方Write-up | https://mp.weixin.qq.com/s/oaScBRZEph_HTstQPjb2Hg | 2| 
@@ -1747,6 +1751,7 @@
 | Lmg66 | 基于AI Agent的自动化恶意程序分析平台 | https://github.com/Lmg66/MCP-Agent-MalAnalyzer | https://github.com/Lmg66?tab=followers |  | None | None | 8 | 0 | 180 | 0 | 0 | Go,Python,HTML | 0 | 0 | 1| 
 | MHaggis | ADTrapper - Active Directory Security Analysis Platform | https://github.com/MHaggis/ADTrapper | https://github.com/MHaggis?tab=followers |  | None | @splunk | 73 | 0 | 582 | 0 | 0 | HTML,PowerShell | 0 | 0 | 1| 
 | OpenLAIR | Dr. Claw: 面向科研全流程的通用 AI 研究助手 | https://github.com/OpenLAIR/dr-claw/blob/main/README.zh-CN.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 | JavaScript | 0 | 0 | 1| 
+| SanMuzZzZz | LuaN1aoAgent：基于大模型的自主渗透测试智能体 | https://github.com/SanMuzZzZz/LuaN1aoAgent/blob/main/README_zh.md | https://github.com/SanMuzZzZz?tab=followers |  | None | GZHU | 45 | 0 | 206 | 0 | 0 | Python | 0 | 0 | 1| 
 | ShenaoW | awesome-llm-supply-chain-security | https://github.com/ShenaoW/awesome-llm-supply-chain-security | https://github.com/ShenaoW?tab=followers | PhD Student @ Huazhong Univerisity of Science and Technology | Wuhan | Huazhong University of Science and Technology | 31 | 0 | 224 | 0 | 0 | TeX,TypeScript | 0 | 0 | 1| 
 | antgroup | ClawAegis：类智能体的安全纵深防御架构 | https://github.com/antgroup/ClawAegis/blob/main/README_zh.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Go,C,TypeScript,C++ | 0 | 0 | 1| 
 | apurvsinghgautam | robin: AI-Powered Dark Web OSINT Tool | https://github.com/apurvsinghgautam/robin/ | https://github.com/apurvsinghgautam?tab=followers | Security Researcher, Threat Intel/Cybercrime Intel | US | Cyble | 30 | 0 | 187 | 0 | 0 | Python | 0 | 0 | 1| 
