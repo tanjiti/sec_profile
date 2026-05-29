@@ -20,6 +20,7 @@
 # 网络安全书籍 推荐
 | date_added | language | title | author | link | size| 
 | --- | --- | --- | --- | --- | ---| 
+| 2026-05-28 19:37:16 | English | Time Series with PyTorch | unknown | https://www.wowebook.org/time-series-with-pytorch/ | unknown| 
 | 2026-05-28 11:13:28 | English | Ultimate Machine Learning Algorithms with Python | unknown | https://www.wowebook.org/ultimate-machine-learning-algorithms-with-python/ | unknown| 
 | 2026-05-27 19:16:20 | English | Introduction to Python Programming and Data Structures, 3rd Edition | unknown | https://www.wowebook.org/introduction-to-python-programming-and-data-structures-3rd-edition/ | unknown| 
 | 2026-05-23 14:21:52 | English | Managing AI Projects | unknown | https://www.wowebook.org/managing-ai-projects/ | unknown| 
