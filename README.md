@@ -38,6 +38,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 中国信息安全 | 林津如 林津如 | 评论 , 将遏制网络犯罪的关口前移 | https://mp.weixin.qq.com/s/f982GUCtmPKBWo7dLSMMGw | 36| 
+| 神龙叫 | 杨冀龙 杨冀龙 | 大数据 AI 下的银狐威胁情报与向前防御 | https://mp.weixin.qq.com/s/JlIT5nZL-S9pNMiF1_l_nw | 3| 
 | Yajin科研创业录 | Yajin Yajin | 系统视角下的 AI Agent 隔离模型与安全边界 | https://mp.weixin.qq.com/s/tQv3tzBxzCFUiLXMeO0H0w | 1| 
 | 小面包的储物柜 | Panda0a Panda0a | 浅谈AI Agent的行为检测思路 | https://mp.weixin.qq.com/s/ErpOjkTlKhu6QYVahUb_Qw | 1| 
 | 360威胁情报中心 | 高级威胁研究院 高级威胁研究院 | YoroTrooper组织针对独联体及周边区域的攻击活动分析 | https://mp.weixin.qq.com/s/9wGEdvuJVPIv_D6PpoaZHg | 2| 
@@ -305,7 +307,6 @@
 | securitainment | Jennifer Miller Jennifer Miller | 重新审视\"两发\"内核 Shellcode 执行：从控制流劫持到绕过 CR Pinning | https://mp.weixin.qq.com/s/uKaqgVLb7BCB8EBGqModrw | 8| 
 | 一个人挺好 wa | 一个人挺好 一个人挺好 | 静刃-一款好用的安服工具 | https://mp.weixin.qq.com/s/L9KFjfdZDv7-QE9OCzA0Hw | 1| 
 | 中原智图 | 路上的蜗牛 路上的蜗牛 | 郑州xa0vsxa0合肥 两个\"押注未来\"的城市 投资机会有什么不同？ | https://mp.weixin.qq.com/s/N1LPNBHvF2-_-lNt6RLcLg | 5| 
-| 中国信息安全 |  | 关注 , 警惕盲盒卡牌“概率陷阱” 中消协发布“六一”涉儿童消费提示 | https://mp.weixin.qq.com/s/M157x-rORxTfGEegdJRNKg | 35| 
 | 中国网络空间安全协会 |  | 网安协会成功协办2026年中国网络文明大会人工智能赋能网络文明建设论坛 | https://mp.weixin.qq.com/s/V1Gv1ydSREWQ2tMMETFVjw | 4| 
 | 乾冠安全 |  | 共拓水利市场 , 中泓智水与乾冠安全战略合作签约 | https://mp.weixin.qq.com/s/D5TF3kfBgk8QQPDrBvPHSQ | 1| 
 | 亚信安全 | 你信任的 你信任的 | 亚信全球化品牌AIStorm首秀香港 以AI原生方式重塑安全的确定性 | https://mp.weixin.qq.com/s/KRYxg2Fc2cydbYiS_pJxSQ | 5| 
@@ -558,7 +559,6 @@
 | 白泽安全实验室 | BaizeSec BaizeSec | 警惕！AI黑客攻击将会大规模爆发，传统防御体系面临失效风险 | https://mp.weixin.qq.com/s/x5F03MI5gDK9FF_xrz1cWg | 1| 
 | 皮皮宋渗透笔记 | 皮皮宋 皮皮宋 | 上篇｜企业资产收集入门：基础信息+产品信息+根域名备案 | https://mp.weixin.qq.com/s/Pmioctz2fImqrs5wys5rcA | 3| 
 | 知树安全团队 | 鼹鼠 鼹鼠 | 逆风C++QT中控台逆向课程 | https://mp.weixin.qq.com/s/vx8dskklwz6T_eXaHakgjw | 4| 
-| 神龙叫 | 杨冀龙 杨冀龙 | 漏洞太多，修不过来，厂商拒收漏洞--大模型挖洞带来的变革和规则重写 | https://mp.weixin.qq.com/s/senxqy0qs7eXW3lne-d3jw | 2| 
 | 穹苍经略 | 夸父 夸父 | AI提升了工作效率，为什么我们还在加班？ | https://mp.weixin.qq.com/s/zxtSIebrcWUmALTDbjG9OQ | 1| 
 | 网络安全罗盘 | 绿盟君 绿盟君 | 安全与发展：《智能体规范应用与创新发展实施意见》与《审慎采用指南CAAS》的理解和比较 | https://mp.weixin.qq.com/s/lCFnHIh0injhEn9GLGyjag | 1| 
 | 陌陌安全 | 陌陌安全 陌陌安全 | 春日福利暴击！陌陌 Q1 直播抽奖，惊喜好礼等你来薅～ | https://mp.weixin.qq.com/s/9nVDVIQkmBsWQ5uu6kLvzw | 1| 
