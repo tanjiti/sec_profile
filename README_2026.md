@@ -178,6 +178,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 安在 | 海叔 海叔 | 海叔 , 置身事内：网安激荡三十年（上） | https://mp.weixin.qq.com/s/_pSH2QXTbMFJKIY0KjIp4g | 185| 
+| 黑哥虾撩 | heige heige | Mythos/GPT5.5 网络安全模型分水岭 | https://mp.weixin.qq.com/s/wjlU2pGLLgprPotTxTbgzQ | 5| 
 | 中国信息安全 | 林津如 林津如 | 评论 , 将遏制网络犯罪的关口前移 | https://mp.weixin.qq.com/s/f982GUCtmPKBWo7dLSMMGw | 305| 
 | 神龙叫 | 杨冀龙 杨冀龙 | 大数据 AI 下的银狐威胁情报与向前防御 | https://mp.weixin.qq.com/s/JlIT5nZL-S9pNMiF1_l_nw | 9| 
 | Yajin科研创业录 | Yajin Yajin | 系统视角下的 AI Agent 隔离模型与安全边界 | https://mp.weixin.qq.com/s/tQv3tzBxzCFUiLXMeO0H0w | 1| 
@@ -371,7 +373,6 @@
 | 夜幕讲安全 | None | 网络安全保姆级规划，我看谁学不会。 | https://mp.weixin.qq.com/s/zE0_sP9ZjkZu-y3NlxYcCQ | 21| 
 | 安全圈 |  | 【安全圈】趋势科技警告称，Apex One 零日漏洞已被利用 | https://mp.weixin.qq.com/s/8HV7g9Os5K8mSy96YrYufg | 174| 
 | 安全天书 | None | 安全天书课程来袭｜助力实战免杀钓鱼 | https://mp.weixin.qq.com/s/vWjfBrN0ryEANyIrXoqy6w | 47| 
-| 安在 | 管窥蠡测 管窥蠡测 | 在看 , 厂商：本周热门网络安全产业动态 | https://mp.weixin.qq.com/s/oabBetK5CXrod5vW7Xh9fA | 183| 
 | 安帝Andisec | None | 工业网络安全周报-2026年第20期 | https://mp.weixin.qq.com/s/mFSTNHGDuIryjorSYUscAQ | 16| 
 | 小刘说攻防 | None | 网络IP地址速查工具表 | https://mp.weixin.qq.com/s/jQ1Ag3K2KgKOOh4YNiCNDg | 21| 
 | 异空间安全 | 异空间安全雨幕 异空间安全雨幕 | 红队实战手册：车企全场景攻防拆解 | https://mp.weixin.qq.com/s/xv52Ei6DMTSJV1Yuaq-KQg | 8| 
@@ -468,7 +469,7 @@
 | 慢雾科技 | 慢雾安全团队 慢雾安全团队 | 黑色五月连环劫：GitHub 被黑始末 | https://mp.weixin.qq.com/s/IYg4fY2XbXb2sD_daE3cqQ | 15| 
 | 指尖安全 | 指尖安全 指尖安全 | 你用的 AI 中转站，安全吗？研究揭 API 中转站「暗藏后门」 | https://mp.weixin.qq.com/s/0HO6J_DYVI7u3tlW-l828g | 2| 
 | 攻城狮成长日记 | None | 完整的30天Kubernetes学习计划 | https://mp.weixin.qq.com/s/_p2HIjzNraa01OhTPxzZOw | 5| 
-| 极客零零七 | 极客零零七 极客零零七 | 【重磅深度】2026威瑞森DBIR安全报告解析：漏洞利用首超凭证窃取，影子AI成为最大内部威胁！ | https://mp.weixin.qq.com/s/HvTph9ylwEIFCFcVbgNxuw | 21| 
+| 极客零零七 | 极客零零七 极客零零七 | 【重磅深度】2026威瑞森DBIR安全报告解析：漏洞利用首超凭证窃取，影子AI成为最大内部威胁！ | https://mp.weixin.qq.com/s/HvTph9ylwEIFCFcVbgNxuw | 20| 
 | 江南信安 | 江南信安 江南信安 | 二十四节气：今日小满 | https://mp.weixin.qq.com/s/xYF2-uXrz2ZolLe_S2y_ZQ | 30| 
 | 海云安 |  | 赋能智能金融，筑牢合规屏障｜海云安受邀出席成都数字金融供需对接活动并做专题分享 | https://mp.weixin.qq.com/s/P6_2hXwxE_Y4YNeSqdPEEQ | 9| 
 | 深信服千里目安全技术中心 |  | 网络安全信息与动态周报2026年第20期（5月11日-5月17日） | https://mp.weixin.qq.com/s/n-RN-brQi6IuqHUcsAr24A | 38| 
@@ -628,7 +629,6 @@
 | 重生之成为赛博女保安 | AugustTheodor AugustTheodor | 关于deepseek最近被“曝出”的用户信息泄露漏洞 | https://mp.weixin.qq.com/s/S63NjdDpozz7sEyR5XtOKQ | 11| 
 | 金夏安全 | 金夏 金夏 | 【已复现】deepseek疑似出现用户上下文内容泄露 | https://mp.weixin.qq.com/s/mryh7svePY16KX5vsvXZ_g | 4| 
 | 金瀚信安 | 工业互联网安全 工业互联网安全 | 关于实施人工智能科技伦理审查与服务先导计划的通知 | https://mp.weixin.qq.com/s/IKgvFupvxstkQqTMZ3CxoQ | 6| 
-| 黑哥虾撩 | None | 在上一篇文章 《罗福莉访谈之后：Vibe Coding → Vibe Working → Vibe Forking》https://mp.weixin.qq.com/s/D4bAcI3TN4b_cEhk-aftNQ 提 | https://mp.weixin.qq.com/s/lQlDSSJM_qplBlgcxXCAJA | 4| 
 | 306Safe | ladon ladon | AI安全知识分享(含答案)-长期更新 | https://mp.weixin.qq.com/s/YAik-O-bsgNXOdJCgQ7kzg | 2| 
 | Neon-X Sec | SharkJ0001 SharkJ0001 | ProScanKill:Windows进程溯源与处置工具 | https://mp.weixin.qq.com/s/OaWGrQkTDBFO-reeJYCv5A | 3| 
 | OSINT情报分析师 | Cyber MaLoo Cyber MaLoo | 深网与暗网论坛：网络黑产世界，正在变成一座“地下互联网” | https://mp.weixin.qq.com/s/aGHzANiFjWDe7k-ddHmxeA | 1| 
@@ -1746,6 +1746,7 @@
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
 | Coff0xc | AutoRedTeam-Orchestrator: AI驱动的自动化红队编排框架 | https://github.com/Coff0xc/AutoRedTeam-Orchestrator | https://github.com/Coff0xc?tab=followers | 🎓 Graduating in 2026 💻 Neusoft — O&M Eng. (Sep 24–Apr 25) 🛡️ QiAnXin — Sec. Service Intern (May–Jul 25) 🔍 Qihoo 360 — L2 Sec. Analyst (Aug 25–Now) | Building 2, Electronic City International Headquarters, No. 6 Jiuxianqiao Road, Chaoyang District, Beijing, China | Qihoo 360 Group Headquarters | 6 | 0 | 11 | 0 | 0 | Python | 0 | 0 | 1| 
+| Ed1s0nZ | CyberStrikeAI：AI 原生安全测试平台 | https://github.com/Ed1s0nZ/CyberStrikeAI/blob/main/README_CN.md | https://github.com/Ed1s0nZ?tab=followers |  | 08:50 (UTC +08:00) | None | 34 | 0 | 33 | 0 | 0 | Go,HTML | 0 | 0 | 1| 
 | Fokkyp | SoftwareCopyright-Skill: 中国软件著作权申请材料Skills | https://github.com/Fokkyp/SoftwareCopyright-Skill | https://github.com/Fokkyp?tab=followers | Product Manager , Vibe Coding Enthusiast (AI Full-Stack) , Product Design & System Architecture | Beijing | None | 6 | 0 | 163 | 0 | 0 | Python,Shell,Vue,Swift | 0 | 0 | 1| 
 | Hipepper | SecTech-Vis: 二进制计数对抗与 Web 安全交互式可视化平台 | https://github.com/Hipepper/SecTech-Vis | https://github.com/Hipepper?tab=followers |  | None | None | 195 | 0 | 211 | 0 | 0 | Python,TypeScript,Java,C++ | 0 | 0 | 1| 
 | Knaithe | 1DayNews: 聚合多源漏洞情报 | https://github.com/Knaithe/1DayNews | https://github.com/Knaithe?tab=followers | Security Researcher | None | None | 6 | 0 | 561 | 0 | 0 | Python,Shell,TypeScript,CSS,C++ | 0 | 0 | 1| 
