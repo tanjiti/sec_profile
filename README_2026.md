@@ -20,6 +20,11 @@
 # 网络安全书籍 推荐
 | date_added | language | title | author | link | size| 
 | --- | --- | --- | --- | --- | ---| 
+| 2026-06-04 18:54:04 | English | Building Generative AI for Enterprise | unknown | https://www.wowebook.org/building-generative-ai-for-enterprise/ | unknown| 
+| 2026-06-04 18:13:37 | English | The Agentic Enterprise | unknown | https://www.wowebook.org/the-agentic-enterprise/ | unknown| 
+| 2026-06-03 11:39:32 | English | Offensive Automotive Cybersecurity | unknown | https://www.wowebook.org/offensive-automotive-cybersecurity/ | unknown| 
+| 2026-06-03 11:17:44 | English | TPRM-Driven Supply Chain Cybersecurity | unknown | https://www.wowebook.org/tprm-driven-supply-chain-cybersecurity/ | unknown| 
+| 2026-06-03 11:04:10 | English | RAG from First Principles | unknown | https://www.wowebook.org/rag-from-first-principles/ | unknown| 
 | 2026-05-28 19:37:16 | English | Time Series with PyTorch | unknown | https://www.wowebook.org/time-series-with-pytorch/ | unknown| 
 | 2026-05-28 11:13:28 | English | Ultimate Machine Learning Algorithms with Python | unknown | https://www.wowebook.org/ultimate-machine-learning-algorithms-with-python/ | unknown| 
 | 2026-05-27 19:16:20 | English | Introduction to Python Programming and Data Structures, 3rd Edition | unknown | https://www.wowebook.org/introduction-to-python-programming-and-data-structures-3rd-edition/ | unknown| 
@@ -178,12 +183,11 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 绿盟科技 | 绿盟君 绿盟君 | AI攻防视界：从Mythos破局看漏洞挖掘的工程化跃迁 | https://mp.weixin.qq.com/s/ZKjjZ3T4ZBo3IC914dZzTg | 66| 
 | 安在 | 海叔 海叔 | 海叔 , 置身事内：网安激荡三十年（上） | https://mp.weixin.qq.com/s/_pSH2QXTbMFJKIY0KjIp4g | 185| 
 | 黑哥虾撩 | heige heige | Mythos/GPT5.5 网络安全模型分水岭 | https://mp.weixin.qq.com/s/wjlU2pGLLgprPotTxTbgzQ | 5| 
 | 中国信息安全 | 林津如 林津如 | 评论 , 将遏制网络犯罪的关口前移 | https://mp.weixin.qq.com/s/f982GUCtmPKBWo7dLSMMGw | 305| 
 | 神龙叫 | 杨冀龙 杨冀龙 | 大数据 AI 下的银狐威胁情报与向前防御 | https://mp.weixin.qq.com/s/JlIT5nZL-S9pNMiF1_l_nw | 9| 
-| Yajin科研创业录 | Yajin Yajin | 系统视角下的 AI Agent 隔离模型与安全边界 | https://mp.weixin.qq.com/s/tQv3tzBxzCFUiLXMeO0H0w | 1| 
-| 小面包的储物柜 | Panda0a Panda0a | 浅谈AI Agent的行为检测思路 | https://mp.weixin.qq.com/s/ErpOjkTlKhu6QYVahUb_Qw | 1| 
 | 360威胁情报中心 | 高级威胁研究院 高级威胁研究院 | YoroTrooper组织针对独联体及周边区域的攻击活动分析 | https://mp.weixin.qq.com/s/9wGEdvuJVPIv_D6PpoaZHg | 8| 
 | AI赋能汽车 | None | 2026年中国汽车零部件白皮书：技术、博弈与出海新范式 | https://mp.weixin.qq.com/s/H5J_bweXtpD61k0YgR2Wog | 79| 
 | Breaking-code | 平平无奇 n1 平平无奇 n1 | 2026ZeroG-CTF MISC 官方Write-up | https://mp.weixin.qq.com/s/oaScBRZEph_HTstQPjb2Hg | 2| 
@@ -206,6 +210,7 @@
 | SecureNexusLab | None | 腾讯云智能渗透挑战赛中AI First的学习与思考 | https://mp.weixin.qq.com/s/QP92wjd1yU7OfoemwwTmmw | 16| 
 | StudySec | None | JWT渗透姿势 | https://mp.weixin.qq.com/s/UxrCRRFcwLOUE3sXsgidtg | 4| 
 | YY的黑板报 | None | 简单即效率：命令行 vs 图形界面，一场不该存在的战争 | https://mp.weixin.qq.com/s/IIP_zXjq__MnE5eflFy_mw | 26| 
+| Yajin科研创业录 | Yajin Yajin | 系统视角下的 AI Agent 隔离模型与安全边界 | https://mp.weixin.qq.com/s/tQv3tzBxzCFUiLXMeO0H0w | 1| 
 | d2550自留地 | None | LangChain AI代码审计Agent 初用心得 | https://mp.weixin.qq.com/s/bXPJHX3iScORlbkBz5n80A | 5| 
 | dmd5安全 | None | 网络安全面试通关指南：30道高频面试题深度解析（含答案） | https://mp.weixin.qq.com/s/Bfd9CeOX_HK1pkQJvrBPxA | 11| 
 | kali笔记 | None | Hermes 修改MSF特征 轻松逃逸安全软件 | https://mp.weixin.qq.com/s/YY9lnq-_go9ToDKB-lfN8g | 29| 
@@ -244,6 +249,7 @@
 | 安小圈 | None | Mythos挖出上万漏洞，AI正在把网络安全“核爆”提前 | https://mp.weixin.qq.com/s/jnQuP2MjYgPa9ZNphKu-Ag | 19| 
 | 安羽安全 | None | 厦门四信通信 水利信息化平台 index.do 存在SQL注入漏洞 | https://mp.weixin.qq.com/s/C2S4iw7AjvibVhJFHR0-BA | 8| 
 | 小兵搞安全 | None | 网络安全周报 , 2026.05.18 - 2026.05.22 | https://mp.weixin.qq.com/s/UBBatS4b0IZIppTuRzNung | 12| 
+| 小面包的储物柜 | Panda0a Panda0a | 浅谈AI Agent的行为检测思路 | https://mp.weixin.qq.com/s/ErpOjkTlKhu6QYVahUb_Qw | 1| 
 | 山石网科新视界 | None | AI 简讯｜Google I/O 2026大会;Anthropic 《Agentic Coding Trends 2026》深度解析 | https://mp.weixin.qq.com/s/GQQLOys5xb4zYOE6usdSOA | 83| 
 | 州弟学安全 | None | 学习干货 , 年薪25W！从传统自动化测试到大模型安全测试，粉丝分享真实的转型复盘笔记 | https://mp.weixin.qq.com/s/thT7bTDEPA-DPC4gAy9jfQ | 2| 
 | 工联安全众测 |  | 工业和信息化部深入开展树立和践行正确政绩观学习教育督导工作 | https://mp.weixin.qq.com/s/GExGEUDy6Wxx-ALTlAxfOQ | 21| 
@@ -614,7 +620,6 @@
 | 矢安科技 | 威胁情报运营中心 威胁情报运营中心 | 漏洞通告｜Linux Kernel Fragnesia 本地权限提升漏洞 CVE-2026-46300 | https://mp.weixin.qq.com/s/k0QCeZfPYCLkuww3z_Z0fA | 11| 
 | 等保测评和商密评估 | 糖果 糖果 | 飞度刷题助手新增密评考试图片自研题 | https://mp.weixin.qq.com/s/WF4kzPBHJwnP439diFuTZg | 13| 
 | 红细胞安全实验室 | 路人甲 路人甲 | 泛微ecology 历史漏洞浅析(二) | https://mp.weixin.qq.com/s/DzBEQWostGd0rGg5vluKSA | 2| 
-| 绿盟科技 | 绿盟君 绿盟君 | 从网安尖兵到志愿先锋：绿盟科技在党委书记胡忠华带领下公益实践纪实 | https://mp.weixin.qq.com/s/YrazVMvOKZovFRRlTpeEbw | 65| 
 | 绿盟科技CERT | NS-CERT NS-CERT | 【已复现】Linux内核Fragnesia权限提升漏洞（CVE-2026-46300） | https://mp.weixin.qq.com/s/Z5bL9bRj-C1ltheUCPtLwQ | 4| 
 | 编程技术栈 | None | 如何逼自己30天学会网络安全技术？ | https://mp.weixin.qq.com/s/Bwifx4UjTPioRVn9fEfAMg | 8| 
 | 网安小趴菜 | None | AI 漫画聊\"社会工程学\" | https://mp.weixin.qq.com/s/guPuHB50ox1hM0x_S-re1g | 5| 
