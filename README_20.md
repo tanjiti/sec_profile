@@ -77,11 +77,12 @@
 # 网络安全书籍 推荐
 | date_added | language | title | author | link | size| 
 | --- | --- | --- | --- | --- | ---| 
+| 2026-06-08 06:26:16 | English | Web Automation with Playwright and Python using AI and MCP | unknown | https://www.wowebook.org/web-automation-with-playwright-and-python-using-ai-and-mcp/ | unknown| 
 | 2026-06-04 18:54:04 | English | Building Generative AI for Enterprise | unknown | https://www.wowebook.org/building-generative-ai-for-enterprise/ | unknown| 
 | 2026-06-04 18:13:37 | English | The Agentic Enterprise | unknown | https://www.wowebook.org/the-agentic-enterprise/ | unknown| 
+| 2026-06-03 11:04:10 | English | RAG from First Principles | unknown | https://www.wowebook.org/rag-from-first-principles/ | unknown| 
 | 2026-06-03 11:39:32 | English | Offensive Automotive Cybersecurity | unknown | https://www.wowebook.org/offensive-automotive-cybersecurity/ | unknown| 
 | 2026-06-03 11:17:44 | English | TPRM-Driven Supply Chain Cybersecurity | unknown | https://www.wowebook.org/tprm-driven-supply-chain-cybersecurity/ | unknown| 
-| 2026-06-03 11:04:10 | English | RAG from First Principles | unknown | https://www.wowebook.org/rag-from-first-principles/ | unknown| 
 | 2026-05-28 19:37:16 | English | Time Series with PyTorch | unknown | https://www.wowebook.org/time-series-with-pytorch/ | unknown| 
 | 2026-05-28 11:13:28 | English | Ultimate Machine Learning Algorithms with Python | unknown | https://www.wowebook.org/ultimate-machine-learning-algorithms-with-python/ | unknown| 
 | 2026-05-27 19:16:20 | English | Introduction to Python Programming and Data Structures, 3rd Edition | unknown | https://www.wowebook.org/introduction-to-python-programming-and-data-structures-3rd-edition/ | unknown| 
@@ -1566,10 +1567,11 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 中国信息安全 | 彭涛 彭涛 | 中国信息安全测评中心主任彭涛：走好智能体发展与安全的双赢路 | https://mp.weixin.qq.com/s/Lb6ptjo0f0js-dGbTNSTIg | 2357| 
+| 小贝说安全 | 韦韬 韦韬 | 蚂蚁韦韬：维度战争与NbSP零越范式 | https://mp.weixin.qq.com/s/KV5p4K6zDsyHuwLrdeeYdQ | 11| 
 | 绿盟科技 | 绿盟君 绿盟君 | AI攻防视界：从Mythos破局看漏洞挖掘的工程化跃迁 | https://mp.weixin.qq.com/s/ZKjjZ3T4ZBo3IC914dZzTg | 645| 
 | 安在 | 海叔 海叔 | 海叔 , 置身事内：网安激荡三十年（上） | https://mp.weixin.qq.com/s/_pSH2QXTbMFJKIY0KjIp4g | 1315| 
 | 黑哥虾撩 | heige heige | Mythos/GPT5.5 网络安全模型分水岭 | https://mp.weixin.qq.com/s/wjlU2pGLLgprPotTxTbgzQ | 23| 
-| 中国信息安全 | 林津如 林津如 | 评论 , 将遏制网络犯罪的关口前移 | https://mp.weixin.qq.com/s/f982GUCtmPKBWo7dLSMMGw | 2356| 
 | 神龙叫 | 杨冀龙 杨冀龙 | 大数据 AI 下的银狐威胁情报与向前防御 | https://mp.weixin.qq.com/s/JlIT5nZL-S9pNMiF1_l_nw | 11| 
 | 360威胁情报中心 | 高级威胁研究院 高级威胁研究院 | YoroTrooper组织针对独联体及周边区域的攻击活动分析 | https://mp.weixin.qq.com/s/9wGEdvuJVPIv_D6PpoaZHg | 76| 
 | AI赋能汽车 | None | 2026年中国汽车零部件白皮书：技术、博弈与出海新范式 | https://mp.weixin.qq.com/s/H5J_bweXtpD61k0YgR2Wog | 163| 
@@ -2076,7 +2078,6 @@
 | 学网安的韭菜 | 轻松点 轻松点 | 浅聊Pwn2Own，网安入行需慎重 | https://mp.weixin.qq.com/s/mUIYsrb0wCo0pnfgoiY6dA | 2| 
 | 实战安全研究 |  | 漏洞复现 , 大蚂蚁 (BigAnt) 即时通讯系统 moveDept 存在SQL注入漏洞 | https://mp.weixin.qq.com/s/rWPjwlgoK2RFhIKpyTReWQ | 226| 
 | 小红书技术REDtech | REDtech REDtech | QCon 北京 2026 , 把自动化测试当 AI Coding 来做：小红书 GUI Agent 实战回顾 | https://mp.weixin.qq.com/s/J9MhLDpATavgSmZ_1WrtxA | 68| 
-| 小贝说安全 | securityfact securityfact | AI是法律意义上的“人”吗？ | https://mp.weixin.qq.com/s/GSsKk-vGgiGGtw2V9qc9Zw | 8| 
 | 平航科技 | 航哥 航哥 | 第26期《平航电子取证技术简报》实物刊来了！ | https://mp.weixin.qq.com/s/nDl6_8tAv894Kd_O4mvRdw | 59| 
 | 智榜样网络安全学习中心 | 小智 小智 | 护网在即，HVV 高频面试题 - SQL 注入 | https://mp.weixin.qq.com/s/wmlKvYCostlPrqE5xRHFqQ | 11| 
 | 暴暴的皮卡丘 | 比心皮卡丘 比心皮卡丘 | AI应用WEB风险重构（二）之XSS重构 | https://mp.weixin.qq.com/s/BicIyjGKp0uszoZeS2L8Pg | 54| 
@@ -8316,6 +8317,7 @@
 | Ticketmaster | metrilyx-2.0:Visualization and analytics interface for OpenTSDB | https://github.com/Ticketmaster/Metrilyx-2.0 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | TideSec | TscanPlus: 一款综合性网络安全检测和运维工具 | https://github.com/TideSec/Tscanplus | https://github.com/TideSec?tab=followers | 一心不动，大巧不工。 | China | Tide | 21 | 0 | 345 | 0 | 0 | Python,Go,PHP,Ruby,XSLT | 0 | 0 | 3| 
 | TophantTechnology | ARL: 资产侦察灯塔系统 | https://github.com/TophantTechnology/ARL | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
+| Trae1ounG | 顶会论文图表复现绘制Skills | https://github.com/Trae1ounG/paper-plot-skills | https://github.com/Trae1ounG?tab=followers | First-year masters student @ CASIA , Focus on LLMs reasoning and interpretability & Do sth useful and impactful. | Beijing | Institute of Automation, Chinese Academy of Sciences | 29 | 1 | 482 | 0 | 0 | Python | 0 | 0 | 1| 
 | TralahM | Go语言黑帽子系列教程资源。 | https://github.com/TralahM/blackhat-go | https://github.com/tralahtek | Math & C.S Major, Programmer(Lisp, Python), Data scientist, Cloud Solutions Architect, Sys Integration, Devops. Writer & Scholar, Pan-African. | Nairobi, KE | @tralahtek | 100 | 1 | 0 | 0 | 0 | Go,Python,Shell,Common | 13 | 6 | 1| 
 | Tritlo | PropR: Property-based Program repair using GHC | https://github.com/Tritlo/PropR | https://github.com/Tritlo?tab=followers | A generalist functional programmer, currently doing research as a PhD student at Chalmers University of Technology. | Gothenburg, Sweden | Chalmers University of Technology | 120 | 0 | 296 | 0 | 0 | Haskell | 0 | 0 | 1| 
 | Turr0n | Firebase - Exploiting Tool 攻击错误配置的 Firebase 数据的工具: | https://github.com/Turr0n/firebase | None |  | None | None | 9 | 0 | 28 | 0 | 0 | Python,CSS | 35 | 7 | 1| 
@@ -9372,7 +9374,7 @@
 | yardenshafir | 从 nsi dll 生成 WNF 符号的工具 | https://github.com/yardenshafir/WinDbg_Scripts/blob/master/symbolBuilderWnf.js | https://github.com/yardenshafir?tab=followers | A circus artist with a visual studio license | None | https://windows-internals.com/ | 21 | 0 | 2 | 0 | 0 | C,JavaScript,C++ | 0 | 0 | 3| 
 | yegord | Snowman: a native code to C/C++ decompiler | https://github.com/yegord/snowman | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | yehia-mamdouh | XSSYA-V-2.0 (XSS Vulnerability Confirmation ) | https://github.com/yehia-mamdouh/XSSYA-V-2.0 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
-| yhy0 | 监控github上新增的cve编号项目漏洞 | https://github.com/yhy0/github-cve-monitor | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| yhy0 | 承影：开源的类 BurpSuite 应用 ChYing | https://github.com/yhy0/ChYing | https://github.com/yhy0?tab=followers | 修道之初，谁不想当剑仙 yhysec@qq.com | 剑宗 | None | 76 | 0 | 746 | 0 | 0 | Go,Python,Java | 0 | 0 | 2| 
 | yidao620c | Python Cookbook 第三版 中文版 | https://github.com/yidao620c/python3-cookbook | https://github.com/yidao620c?tab=followers | keep running | Xian China | Huawei Technologies Co., Ltd. | 12 | 0 | 69 | 0 | 0 | Python,Java,Jupyter,CSS | 0 | 0 | 1| 
 | yifengyou | QEMU KVM学习笔记. | https://github.com/yifengyou/learn-kvm | https://github.com/yifengyou | 一天不科研，浑身都难受~ | ShenZhen | Tencent | 262 | 0 | 0 | 0 | 0 | C | 328 | 97 | 1| 
 | yinwang0 | PySonar：精确、友好的 Python 静态分析器 | https://github.com/yinwang0/pysonar2 | https://github.com/yinwang0?tab=followers |  | None | None | 7 | 0 | 8 | 0 | 0 | Python,Emacs,Scheme,Java,HTML | 0 | 0 | 1| 

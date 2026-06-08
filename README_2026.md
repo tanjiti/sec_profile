@@ -20,11 +20,12 @@
 # 网络安全书籍 推荐
 | date_added | language | title | author | link | size| 
 | --- | --- | --- | --- | --- | ---| 
+| 2026-06-08 06:26:16 | English | Web Automation with Playwright and Python using AI and MCP | unknown | https://www.wowebook.org/web-automation-with-playwright-and-python-using-ai-and-mcp/ | unknown| 
 | 2026-06-04 18:54:04 | English | Building Generative AI for Enterprise | unknown | https://www.wowebook.org/building-generative-ai-for-enterprise/ | unknown| 
 | 2026-06-04 18:13:37 | English | The Agentic Enterprise | unknown | https://www.wowebook.org/the-agentic-enterprise/ | unknown| 
+| 2026-06-03 11:04:10 | English | RAG from First Principles | unknown | https://www.wowebook.org/rag-from-first-principles/ | unknown| 
 | 2026-06-03 11:39:32 | English | Offensive Automotive Cybersecurity | unknown | https://www.wowebook.org/offensive-automotive-cybersecurity/ | unknown| 
 | 2026-06-03 11:17:44 | English | TPRM-Driven Supply Chain Cybersecurity | unknown | https://www.wowebook.org/tprm-driven-supply-chain-cybersecurity/ | unknown| 
-| 2026-06-03 11:04:10 | English | RAG from First Principles | unknown | https://www.wowebook.org/rag-from-first-principles/ | unknown| 
 | 2026-05-28 19:37:16 | English | Time Series with PyTorch | unknown | https://www.wowebook.org/time-series-with-pytorch/ | unknown| 
 | 2026-05-28 11:13:28 | English | Ultimate Machine Learning Algorithms with Python | unknown | https://www.wowebook.org/ultimate-machine-learning-algorithms-with-python/ | unknown| 
 | 2026-05-27 19:16:20 | English | Introduction to Python Programming and Data Structures, 3rd Edition | unknown | https://www.wowebook.org/introduction-to-python-programming-and-data-structures-3rd-edition/ | unknown| 
@@ -183,10 +184,11 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 中国信息安全 | 彭涛 彭涛 | 中国信息安全测评中心主任彭涛：走好智能体发展与安全的双赢路 | https://mp.weixin.qq.com/s/Lb6ptjo0f0js-dGbTNSTIg | 306| 
+| 小贝说安全 | 韦韬 韦韬 | 蚂蚁韦韬：维度战争与NbSP零越范式 | https://mp.weixin.qq.com/s/KV5p4K6zDsyHuwLrdeeYdQ | 5| 
 | 绿盟科技 | 绿盟君 绿盟君 | AI攻防视界：从Mythos破局看漏洞挖掘的工程化跃迁 | https://mp.weixin.qq.com/s/ZKjjZ3T4ZBo3IC914dZzTg | 66| 
 | 安在 | 海叔 海叔 | 海叔 , 置身事内：网安激荡三十年（上） | https://mp.weixin.qq.com/s/_pSH2QXTbMFJKIY0KjIp4g | 185| 
 | 黑哥虾撩 | heige heige | Mythos/GPT5.5 网络安全模型分水岭 | https://mp.weixin.qq.com/s/wjlU2pGLLgprPotTxTbgzQ | 5| 
-| 中国信息安全 | 林津如 林津如 | 评论 , 将遏制网络犯罪的关口前移 | https://mp.weixin.qq.com/s/f982GUCtmPKBWo7dLSMMGw | 305| 
 | 神龙叫 | 杨冀龙 杨冀龙 | 大数据 AI 下的银狐威胁情报与向前防御 | https://mp.weixin.qq.com/s/JlIT5nZL-S9pNMiF1_l_nw | 9| 
 | 360威胁情报中心 | 高级威胁研究院 高级威胁研究院 | YoroTrooper组织针对独联体及周边区域的攻击活动分析 | https://mp.weixin.qq.com/s/9wGEdvuJVPIv_D6PpoaZHg | 8| 
 | AI赋能汽车 | None | 2026年中国汽车零部件白皮书：技术、博弈与出海新范式 | https://mp.weixin.qq.com/s/H5J_bweXtpD61k0YgR2Wog | 79| 
@@ -693,7 +695,6 @@
 | 学网安的韭菜 | 轻松点 轻松点 | 浅聊Pwn2Own，网安入行需慎重 | https://mp.weixin.qq.com/s/mUIYsrb0wCo0pnfgoiY6dA | 2| 
 | 实战安全研究 |  | 漏洞复现 , 大蚂蚁 (BigAnt) 即时通讯系统 moveDept 存在SQL注入漏洞 | https://mp.weixin.qq.com/s/rWPjwlgoK2RFhIKpyTReWQ | 27| 
 | 小红书技术REDtech | REDtech REDtech | QCon 北京 2026 , 把自动化测试当 AI Coding 来做：小红书 GUI Agent 实战回顾 | https://mp.weixin.qq.com/s/J9MhLDpATavgSmZ_1WrtxA | 10| 
-| 小贝说安全 | securityfact securityfact | AI是法律意义上的“人”吗？ | https://mp.weixin.qq.com/s/GSsKk-vGgiGGtw2V9qc9Zw | 2| 
 | 平航科技 | 航哥 航哥 | 第26期《平航电子取证技术简报》实物刊来了！ | https://mp.weixin.qq.com/s/nDl6_8tAv894Kd_O4mvRdw | 10| 
 | 智榜样网络安全学习中心 | 小智 小智 | 护网在即，HVV 高频面试题 - SQL 注入 | https://mp.weixin.qq.com/s/wmlKvYCostlPrqE5xRHFqQ | 11| 
 | 暴暴的皮卡丘 | 比心皮卡丘 比心皮卡丘 | AI应用WEB风险重构（二）之XSS重构 | https://mp.weixin.qq.com/s/BicIyjGKp0uszoZeS2L8Pg | 4| 
@@ -1760,6 +1761,7 @@
 | OpenLAIR | Dr. Claw: 面向科研全流程的通用 AI 研究助手 | https://github.com/OpenLAIR/dr-claw/blob/main/README.zh-CN.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 | JavaScript | 0 | 0 | 1| 
 | SanMuzZzZz | LuaN1aoAgent：基于大模型的自主渗透测试智能体 | https://github.com/SanMuzZzZz/LuaN1aoAgent/blob/main/README_zh.md | https://github.com/SanMuzZzZz?tab=followers |  | None | GZHU | 45 | 0 | 206 | 0 | 0 | Python | 0 | 0 | 1| 
 | ShenaoW | awesome-llm-supply-chain-security | https://github.com/ShenaoW/awesome-llm-supply-chain-security | https://github.com/ShenaoW?tab=followers | PhD Student @ Huazhong Univerisity of Science and Technology | Wuhan | Huazhong University of Science and Technology | 31 | 0 | 224 | 0 | 0 | TeX,TypeScript | 0 | 0 | 1| 
+| Trae1ounG | 顶会论文图表复现绘制Skills | https://github.com/Trae1ounG/paper-plot-skills | https://github.com/Trae1ounG?tab=followers | First-year masters student @ CASIA , Focus on LLMs reasoning and interpretability & Do sth useful and impactful. | Beijing | Institute of Automation, Chinese Academy of Sciences | 29 | 1 | 482 | 0 | 0 | Python | 0 | 0 | 1| 
 | antgroup | ClawAegis：类智能体的安全纵深防御架构 | https://github.com/antgroup/ClawAegis/blob/main/README_zh.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Go,C,TypeScript,C++ | 0 | 0 | 1| 
 | apurvsinghgautam | robin: AI-Powered Dark Web OSINT Tool | https://github.com/apurvsinghgautam/robin/ | https://github.com/apurvsinghgautam?tab=followers | Security Researcher, Threat Intel/Cybercrime Intel | US | Cyble | 30 | 0 | 187 | 0 | 0 | Python | 0 | 0 | 1| 
 | bilisheep | ExternalHound: 基于 FastAPI + React 的企业级资产管理和关系... | https://github.com/bilisheep/ExternalHound/tree/main/ | https://github.com/bilisheep?tab=followers |  | None | None | 36 | 0 | 197 | 0 | 0 | Python,C,PHP | 0 | 0 | 1| 
@@ -1776,6 +1778,7 @@
 | sgoudelis | ground-station:开源一站式卫星追踪与信号本地解码工具包 | https://github.com/sgoudelis/ground-station | https://github.com/sgoudelis?tab=followers |  | Greece | None | 13 | 0 | 59 | 0 | 0 | Python,JavaScript,Java,HTML | 0 | 0 | 1| 
 | shareAI-lab | Learn Claude Code -- 真正的 Agent Harness 工程 | https://github.com/shareAI-lab/learn-claude-code/blob/main/README-zh.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Shell,TypeScript,JavaScript,Jupyter | 0 | 0 | 1| 
 | shell-dot | Tuoni: 跨平台红队演练框架 | https://github.com/shell-dot/tuoni | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Java,Shell,JavaScript,C# | 0 | 0 | 1| 
+| yhy0 | 承影：开源的类 BurpSuite 应用 ChYing | https://github.com/yhy0/ChYing | https://github.com/yhy0?tab=followers | 修道之初，谁不想当剑仙 yhysec@qq.com | 剑宗 | None | 76 | 0 | 746 | 0 | 0 | Go,Python,Java | 0 | 0 | 1| 
 | yyhuni | xingrin: src资产管理漏洞扫描平台 | https://github.com/yyhuni/xingrin | https://github.com/yyhuni?tab=followers |  | None | None | 67 | 0 | 26 | 0 | 0 | Go,TypeScript,Java,HTML | 0 | 0 | 1| 
 | zer0yu | 适用于 Openclaw 的网络安全日报 Skills | https://github.com/zer0yu/sec-daily-digest/ | https://github.com/zer0yu?tab=followers | BugHunter@OverSpace / RedTeamer@PolarisLab / CTFer@kn0ck | Singapore / China | None | 80 | 0 | 5000 | 0 | 0 | Python,Go,Rust | 0 | 0 | 1| 
 
