@@ -24,8 +24,8 @@
 | 2026-06-04 18:54:04 | English | Building Generative AI for Enterprise | unknown | https://www.wowebook.org/building-generative-ai-for-enterprise/ | unknown| 
 | 2026-06-04 18:13:37 | English | The Agentic Enterprise | unknown | https://www.wowebook.org/the-agentic-enterprise/ | unknown| 
 | 2026-06-03 11:04:10 | English | RAG from First Principles | unknown | https://www.wowebook.org/rag-from-first-principles/ | unknown| 
-| 2026-06-03 11:39:32 | English | Offensive Automotive Cybersecurity | unknown | https://www.wowebook.org/offensive-automotive-cybersecurity/ | unknown| 
 | 2026-06-03 11:17:44 | English | TPRM-Driven Supply Chain Cybersecurity | unknown | https://www.wowebook.org/tprm-driven-supply-chain-cybersecurity/ | unknown| 
+| 2026-06-03 11:39:32 | English | Offensive Automotive Cybersecurity | unknown | https://www.wowebook.org/offensive-automotive-cybersecurity/ | unknown| 
 | 2026-05-28 19:37:16 | English | Time Series with PyTorch | unknown | https://www.wowebook.org/time-series-with-pytorch/ | unknown| 
 | 2026-05-28 11:13:28 | English | Ultimate Machine Learning Algorithms with Python | unknown | https://www.wowebook.org/ultimate-machine-learning-algorithms-with-python/ | unknown| 
 | 2026-05-27 19:16:20 | English | Introduction to Python Programming and Data Structures, 3rd Edition | unknown | https://www.wowebook.org/introduction-to-python-programming-and-data-structures-3rd-edition/ | unknown| 
@@ -184,6 +184,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| SwimSec | 划水摸鱼 划水摸鱼 | AI时代安全运营交互新范式: BrowserSecOps / CliSecOps / ChatSecOps | https://mp.weixin.qq.com/s/Qi1irnNeEXfRkYpBc8RYNQ | 3| 
+| 模安局 | 面向未来AI治理的 面向未来AI治理的 | 从 EDR 到 ADR：Agent 安全正在进入检测响应时代 | https://mp.weixin.qq.com/s/rxTahSBenD_jjF3RJ4Pn3g | 1| 
 | 中国信息安全 | 彭涛 彭涛 | 中国信息安全测评中心主任彭涛：走好智能体发展与安全的双赢路 | https://mp.weixin.qq.com/s/Lb6ptjo0f0js-dGbTNSTIg | 306| 
 | 小贝说安全 | 韦韬 韦韬 | 蚂蚁韦韬：维度战争与NbSP零越范式 | https://mp.weixin.qq.com/s/KV5p4K6zDsyHuwLrdeeYdQ | 5| 
 | 绿盟科技 | 绿盟君 绿盟君 | AI攻防视界：从Mythos破局看漏洞挖掘的工程化跃迁 | https://mp.weixin.qq.com/s/ZKjjZ3T4ZBo3IC914dZzTg | 66| 
@@ -1730,7 +1732,6 @@
 | 不懂安全的校董 | None | 漏洞挖掘｜多个海外SRC产商2FA绕过实战 | https://mp.weixin.qq.com/s?__biz=MzkyMzI3OTY4Mg==&mid=2247486995&idx=1&sn=f36474e990660d116dcc4b462a48e307 | 1| 
 | H4nk技师日志 | None | 技能：要一根很尖的针，还是要一堆不钝的针 | https://mp.weixin.qq.com/s?__biz=Mzg5MDcwOTM4OQ==&mid=2247486186&idx=1&sn=dff5de88abf468cdd0e2a4a4a6179215 | 1| 
 | Kokoxca安全 | None | 天地伟业Easy7漏洞-浅析 | https://mp.weixin.qq.com/s?__biz=Mzg3ODkzNjkxMg==&mid=2247484040&idx=1&sn=d729d6bc80fad2162a5f9b3b0c36a10c | 1| 
-| SwimSec | 划水摸鱼 | 【更新 】Agentic SOC Parallel Simulation (ASPS V2.0): 自主安全运营平行仿真中心 | https://mp.weixin.qq.com/s/txVkpCcRG2PY7q_WkKRKCg | 1| 
 | XG小刚 | None | 开源二开版本XiaSQL | https://mp.weixin.qq.com/s?__biz=MzIwOTMzMzY0Ng==&mid=2247487946&idx=1&sn=2ff74e3ed3d13b82ddc2f11dd29d7dbd | 1| 
 | 有恒安全 | None | 企业SRC如何月入过万 | https://mp.weixin.qq.com/s?__biz=Mzk0NDU5NTc4OA==&mid=2247484840&idx=1&sn=ffbabd03fc7174c045e7ba5e02e5a92b | 1| 
 | 瑞萌萌的小屋 | 丶瑞萌萌i | Starlink 2025官方年度进展报告 | https://mp.weixin.qq.com/s/ztrwvJM1q8y70vozgOuQrg | 1| 
@@ -1754,6 +1755,7 @@
 | Coff0xc | AutoRedTeam-Orchestrator: AI驱动的自动化红队编排框架 | https://github.com/Coff0xc/AutoRedTeam-Orchestrator | https://github.com/Coff0xc?tab=followers | 🎓 Graduating in 2026 💻 Neusoft — O&M Eng. (Sep 24–Apr 25) 🛡️ QiAnXin — Sec. Service Intern (May–Jul 25) 🔍 Qihoo 360 — L2 Sec. Analyst (Aug 25–Now) | Building 2, Electronic City International Headquarters, No. 6 Jiuxianqiao Road, Chaoyang District, Beijing, China | Qihoo 360 Group Headquarters | 6 | 0 | 11 | 0 | 0 | Python | 0 | 0 | 1| 
 | Ed1s0nZ | CyberStrikeAI：AI 原生安全测试平台 | https://github.com/Ed1s0nZ/CyberStrikeAI/blob/main/README_CN.md | https://github.com/Ed1s0nZ?tab=followers |  | 08:50 (UTC +08:00) | None | 34 | 0 | 33 | 0 | 0 | Go,HTML | 0 | 0 | 1| 
 | Fokkyp | SoftwareCopyright-Skill: 中国软件著作权申请材料Skills | https://github.com/Fokkyp/SoftwareCopyright-Skill | https://github.com/Fokkyp?tab=followers | Product Manager , Vibe Coding Enthusiast (AI Full-Stack) , Product Design & System Architecture | Beijing | None | 6 | 0 | 163 | 0 | 0 | Python,Shell,Vue,Swift | 0 | 0 | 1| 
+| HKUSTDial | Supervisor-Skills: 从 Idea 构思到论文投稿 | https://github.com/HKUSTDial/Supervisor-Skills/tree/main | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | Hipepper | SecTech-Vis: 二进制计数对抗与 Web 安全交互式可视化平台 | https://github.com/Hipepper/SecTech-Vis | https://github.com/Hipepper?tab=followers |  | None | None | 195 | 0 | 211 | 0 | 0 | Python,TypeScript,Java,C++ | 0 | 0 | 1| 
 | Knaithe | 1DayNews: 聚合多源漏洞情报 | https://github.com/Knaithe/1DayNews | https://github.com/Knaithe?tab=followers | Security Researcher | None | None | 6 | 0 | 561 | 0 | 0 | Python,Shell,TypeScript,CSS,C++ | 0 | 0 | 1| 
 | Lmg66 | 基于AI Agent的自动化恶意程序分析平台 | https://github.com/Lmg66/MCP-Agent-MalAnalyzer | https://github.com/Lmg66?tab=followers |  | None | None | 8 | 0 | 180 | 0 | 0 | Go,Python,HTML | 0 | 0 | 1| 
@@ -1766,6 +1768,7 @@
 | apurvsinghgautam | robin: AI-Powered Dark Web OSINT Tool | https://github.com/apurvsinghgautam/robin/ | https://github.com/apurvsinghgautam?tab=followers | Security Researcher, Threat Intel/Cybercrime Intel | US | Cyble | 30 | 0 | 187 | 0 | 0 | Python | 0 | 0 | 1| 
 | bilisheep | ExternalHound: 基于 FastAPI + React 的企业级资产管理和关系... | https://github.com/bilisheep/ExternalHound/tree/main/ | https://github.com/bilisheep?tab=followers |  | None | None | 36 | 0 | 197 | 0 | 0 | Python,C,PHP | 0 | 0 | 1| 
 | d3ckx1 | OmniScan 综合漏洞扫描器 | https://github.com/d3ckx1/OmniScan | None | penetration test | china | None | 32 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
+| datawhalechina | 从零开始构建智能体 | https://github.com/datawhalechina/hello-agents | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,TypeScript,JavaScript,Jupyter | 0 | 0 | 1| 
 | jacobdjwilson | Annual Security Reports 年度安全报告 | https://github.com/jacobdjwilson/awesome-annual-security-reports/tree/main/Annual%20Security%20Reports | https://github.com/jacobdjwilson?tab=followers |  | Motor City Michigan | None | 12 | 0 | 20 | 0 | 0 | Shell,PHP | 0 | 0 | 1| 
 | jar-analyzer | Jar Analyzer - 一个 JAR 包 GUI 分析工具 | https://github.com/jar-analyzer/jar-analyzer | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java | 0 | 0 | 1| 
 | jd-opensource | JoySafety: 大模型安全框架 | https://github.com/jd-opensource/JoySafety | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Vue,Java,CSS,C++ | 0 | 0 | 1| 

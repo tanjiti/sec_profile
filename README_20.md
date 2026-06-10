@@ -81,8 +81,8 @@
 | 2026-06-04 18:54:04 | English | Building Generative AI for Enterprise | unknown | https://www.wowebook.org/building-generative-ai-for-enterprise/ | unknown| 
 | 2026-06-04 18:13:37 | English | The Agentic Enterprise | unknown | https://www.wowebook.org/the-agentic-enterprise/ | unknown| 
 | 2026-06-03 11:04:10 | English | RAG from First Principles | unknown | https://www.wowebook.org/rag-from-first-principles/ | unknown| 
-| 2026-06-03 11:39:32 | English | Offensive Automotive Cybersecurity | unknown | https://www.wowebook.org/offensive-automotive-cybersecurity/ | unknown| 
 | 2026-06-03 11:17:44 | English | TPRM-Driven Supply Chain Cybersecurity | unknown | https://www.wowebook.org/tprm-driven-supply-chain-cybersecurity/ | unknown| 
+| 2026-06-03 11:39:32 | English | Offensive Automotive Cybersecurity | unknown | https://www.wowebook.org/offensive-automotive-cybersecurity/ | unknown| 
 | 2026-05-28 19:37:16 | English | Time Series with PyTorch | unknown | https://www.wowebook.org/time-series-with-pytorch/ | unknown| 
 | 2026-05-28 11:13:28 | English | Ultimate Machine Learning Algorithms with Python | unknown | https://www.wowebook.org/ultimate-machine-learning-algorithms-with-python/ | unknown| 
 | 2026-05-27 19:16:20 | English | Introduction to Python Programming and Data Structures, 3rd Edition | unknown | https://www.wowebook.org/introduction-to-python-programming-and-data-structures-3rd-edition/ | unknown| 
@@ -1567,6 +1567,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| SwimSec | 划水摸鱼 划水摸鱼 | AI时代安全运营交互新范式: BrowserSecOps / CliSecOps / ChatSecOps | https://mp.weixin.qq.com/s/Qi1irnNeEXfRkYpBc8RYNQ | 16| 
+| 模安局 | 面向未来AI治理的 面向未来AI治理的 | 从 EDR 到 ADR：Agent 安全正在进入检测响应时代 | https://mp.weixin.qq.com/s/rxTahSBenD_jjF3RJ4Pn3g | 1| 
 | 中国信息安全 | 彭涛 彭涛 | 中国信息安全测评中心主任彭涛：走好智能体发展与安全的双赢路 | https://mp.weixin.qq.com/s/Lb6ptjo0f0js-dGbTNSTIg | 2357| 
 | 小贝说安全 | 韦韬 韦韬 | 蚂蚁韦韬：维度战争与NbSP零越范式 | https://mp.weixin.qq.com/s/KV5p4K6zDsyHuwLrdeeYdQ | 11| 
 | 绿盟科技 | 绿盟君 绿盟君 | AI攻防视界：从Mythos破局看漏洞挖掘的工程化跃迁 | https://mp.weixin.qq.com/s/ZKjjZ3T4ZBo3IC914dZzTg | 645| 
@@ -3113,7 +3115,6 @@
 | 不懂安全的校董 | None | 漏洞挖掘｜多个海外SRC产商2FA绕过实战 | https://mp.weixin.qq.com/s?__biz=MzkyMzI3OTY4Mg==&mid=2247486995&idx=1&sn=f36474e990660d116dcc4b462a48e307 | 6| 
 | H4nk技师日志 | None | 技能：要一根很尖的针，还是要一堆不钝的针 | https://mp.weixin.qq.com/s?__biz=Mzg5MDcwOTM4OQ==&mid=2247486186&idx=1&sn=dff5de88abf468cdd0e2a4a4a6179215 | 11| 
 | Kokoxca安全 | None | 天地伟业Easy7漏洞-浅析 | https://mp.weixin.qq.com/s?__biz=Mzg3ODkzNjkxMg==&mid=2247484040&idx=1&sn=d729d6bc80fad2162a5f9b3b0c36a10c | 8| 
-| SwimSec | 划水摸鱼 | 【更新 】Agentic SOC Parallel Simulation (ASPS V2.0): 自主安全运营平行仿真中心 | https://mp.weixin.qq.com/s/txVkpCcRG2PY7q_WkKRKCg | 14| 
 | XG小刚 | None | 开源二开版本XiaSQL | https://mp.weixin.qq.com/s?__biz=MzIwOTMzMzY0Ng==&mid=2247487946&idx=1&sn=2ff74e3ed3d13b82ddc2f11dd29d7dbd | 21| 
 | 有恒安全 | None | 企业SRC如何月入过万 | https://mp.weixin.qq.com/s?__biz=Mzk0NDU5NTc4OA==&mid=2247484840&idx=1&sn=ffbabd03fc7174c045e7ba5e02e5a92b | 14| 
 | 瑞萌萌的小屋 | 丶瑞萌萌i | Starlink 2025官方年度进展报告 | https://mp.weixin.qq.com/s/ztrwvJM1q8y70vozgOuQrg | 2| 
@@ -8094,6 +8095,7 @@
 | Gui774ume | KRIe - 基于 eBPF 实现的内核运行时保护组件 | https://github.com/Gui774ume/krie | https://github.com/Gui774ume?tab=followers | Security researcher @ Datadog | Paris | Datadog | 18 | 0 | 0 | 0 | 0 | Go,C | 0 | 0 | 1| 
 | GuidoBartoli | sherloq - 一款开源的图片取证分析工具 | https://github.com/GuidoBartoli/sherloq | https://github.com/GuidoBartoli?tab=followers | My education is in software development as well as my current job, but my passion is photography. I love to code apps fusing the best of both worlds. | Tuscany, ITALY | www.zcscompany.com | 2 | 0 | 0 | 0 | 0 | Perl | 0 | 0 | 1| 
 | GuoKerS | 利用字符集编码绕过waf的burp插件 | https://github.com/GuoKerS/Charset_encoding-Burp | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 2| 
+| HKUSTDial | Supervisor-Skills: 从 Idea 构思到论文投稿 | https://github.com/HKUSTDial/Supervisor-Skills/tree/main | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | HPE-AppliedSecurityResearch | Maltese (Malware Traffic Emulating Software) | https://github.com/HPE-AppliedSecurityResearch/maltese | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | HXSecurity | DongTai: 开源的 IAST | https://github.com/HXSecurity/DongTai | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Java,Python,HTML,PLpgSQL,CSS | 0 | 0 | 1| 
 | Hack-with-Github | Awesome Hacking | https://github.com/Hack-with-Github/Awesome-Hacking | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -8570,6 +8572,7 @@
 | danielplohmann | MCRIT 是为简化 MinHash 算法在代码相似性上下文中的应用而创建的框架。它可用于快速实现“shinglers”，即对反汇编函数的属性进行编码的方法，然后用于相似性估计 | https://github.com/danielplohmann/mcrit | https://github.com/fkie | Malware Researcher. Working for Fraunhofer @fkie. | None | None | 16 | 0 | 118 | 0 | 0 | Python | 0 | 0 | 3| 
 | darshakframework | darshak：Detecting any suspicious activity of being tracked | https://github.com/darshakframework/darshak | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | darvincisec | AntiDebugandMemoryDump - Anti-Debug and Anti-Memory Dump for Android | https://github.com/darvincisec/AntiDebugandMemoryDump | https://darvincitech.wordpress.com | Security Researcher | Singapore | None | 13 | 0 | 0 | 0 | 0 | C,Java,Smali | 135 | 36 | 2| 
+| datawhalechina | 从零开始构建智能体 | https://github.com/datawhalechina/hello-agents | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,TypeScript,JavaScript,Jupyter | 0 | 0 | 1| 
 | dc3l1ne | Weblogic-Weakpassword-Scnner | https://github.com/dc3l1ne/Weblogic-Weakpassword-Scnner | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | ddrown | Dockerfiles:Build files for android-cross-compile | https://github.com/ddrown/Dockerfiles | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | ddzy | 前端开发者学习资源。 | https://github.com/ddzy/fe-necessary-book | https://yyge.top | Working | Neusoft | FE | 87 | 0 | 0 | 0 | 0 | TypeScript,JavaScript | 1200 | 176 | 1| 
