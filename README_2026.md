@@ -20,6 +20,8 @@
 # 网络安全书籍 推荐
 | date_added | language | title | author | link | size| 
 | --- | --- | --- | --- | --- | ---| 
+| 2026-06-11 15:57:41 | English | Data Science Projects Using Python | unknown | https://www.wowebook.org/data-science-projects-using-python/ | unknown| 
+| 2026-06-11 13:57:54 | English | Full Stack Web Development with React, Angular, Node.js, and DevOps | unknown | https://www.wowebook.org/full-stack-web-development-with-react-angular-node-js-and-devops/ | unknown| 
 | 2026-06-08 06:26:16 | English | Web Automation with Playwright and Python using AI and MCP | unknown | https://www.wowebook.org/web-automation-with-playwright-and-python-using-ai-and-mcp/ | unknown| 
 | 2026-06-04 18:54:04 | English | Building Generative AI for Enterprise | unknown | https://www.wowebook.org/building-generative-ai-for-enterprise/ | unknown| 
 | 2026-06-04 18:13:37 | English | The Agentic Enterprise | unknown | https://www.wowebook.org/the-agentic-enterprise/ | unknown| 
@@ -184,12 +186,17 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| AI安全社 | 极客凡 极客凡 | 美国发布人工智能安全战略，Anthropic扩大Glasswing防守计划 | https://mp.weixin.qq.com/s/6UMOlUAlCPCTtTf6pLa72Q | 1| 
+| 中国信息安全 | 钮艳等 钮艳等 | 专题·智能体安全 , 智能体技能安全风险分析与治理对策研究 | https://mp.weixin.qq.com/s/m8r3a2LbkXszFSHA8hFl0w | 307| 
+| 信息安全与通信保密杂志社 | Cismag Cismag | 美军城市作战中网络作战的多域融合与跨域协同机制研究 | https://mp.weixin.qq.com/s/U-MhDuV-OjRfKOI3e2FHzw | 106| 
+| 安在 | 海叔 海叔 | 海叔｜置身世内：网安激荡三十年（下，未完待续） | https://mp.weixin.qq.com/s/IJ7p68OJ4-fe4o1DaLJawg | 187| 
+| 看雪学苑 | vstral vstral | UDS协议安全CTF挑战分析 | https://mp.weixin.qq.com/s/b8P-VQNZXhtKWcBzhOgMdQ | 148| 
+| 安全学术圈 | 陈家辉、许媛圆 陈家辉、许媛圆 | PacketPatch：面向基于字节特征的加密流量分类的对抗性数据包实用化生成与部署 | https://mp.weixin.qq.com/s/uhvBJsk60ky3U2K4bFlsDg | 40| 
+| 锐安全 | 晓兵Jason 晓兵Jason | 绿盟吴铁军：AI网络攻防演化与安全重构 | https://mp.weixin.qq.com/s/KLtgMX0gqVZ78-3l3dcc0g | 7| 
 | SwimSec | 划水摸鱼 划水摸鱼 | AI时代安全运营交互新范式: BrowserSecOps / CliSecOps / ChatSecOps | https://mp.weixin.qq.com/s/Qi1irnNeEXfRkYpBc8RYNQ | 3| 
 | 模安局 | 面向未来AI治理的 面向未来AI治理的 | 从 EDR 到 ADR：Agent 安全正在进入检测响应时代 | https://mp.weixin.qq.com/s/rxTahSBenD_jjF3RJ4Pn3g | 1| 
-| 中国信息安全 | 彭涛 彭涛 | 中国信息安全测评中心主任彭涛：走好智能体发展与安全的双赢路 | https://mp.weixin.qq.com/s/Lb6ptjo0f0js-dGbTNSTIg | 306| 
 | 小贝说安全 | 韦韬 韦韬 | 蚂蚁韦韬：维度战争与NbSP零越范式 | https://mp.weixin.qq.com/s/KV5p4K6zDsyHuwLrdeeYdQ | 5| 
 | 绿盟科技 | 绿盟君 绿盟君 | AI攻防视界：从Mythos破局看漏洞挖掘的工程化跃迁 | https://mp.weixin.qq.com/s/ZKjjZ3T4ZBo3IC914dZzTg | 66| 
-| 安在 | 海叔 海叔 | 海叔 , 置身事内：网安激荡三十年（上） | https://mp.weixin.qq.com/s/_pSH2QXTbMFJKIY0KjIp4g | 185| 
 | 黑哥虾撩 | heige heige | Mythos/GPT5.5 网络安全模型分水岭 | https://mp.weixin.qq.com/s/wjlU2pGLLgprPotTxTbgzQ | 5| 
 | 神龙叫 | 杨冀龙 杨冀龙 | 大数据 AI 下的银狐威胁情报与向前防御 | https://mp.weixin.qq.com/s/JlIT5nZL-S9pNMiF1_l_nw | 9| 
 | 360威胁情报中心 | 高级威胁研究院 高级威胁研究院 | YoroTrooper组织针对独联体及周边区域的攻击活动分析 | https://mp.weixin.qq.com/s/9wGEdvuJVPIv_D6PpoaZHg | 8| 
@@ -224,7 +231,6 @@
 | 交大捷普 |  | 每周网安资讯 （5.19-5.25）, 中国互联网协会发布《安全应急大模型》等10项团体标准 | https://mp.weixin.qq.com/s/aK2XvqgLW_ExE5KJxgc3qA | 43| 
 | 今木信息安全 | None | 安全小知识-第三十七期_穿透代码迷雾：白盒安全测试核心技术深度解析 | https://mp.weixin.qq.com/s/9IwZoJFYCXhqadqn0xuVaA | 5| 
 | 信安保密 | None | 石梁：规划养老需趁早，健康快乐享余生 | https://mp.weixin.qq.com/s/oI0MG5W6mq49hqWi8uKfhA | 35| 
-| 信息安全与通信保密杂志社 | Cismag Cismag | 把握智能体发展机遇，加快构建智能体治理体系 | https://mp.weixin.qq.com/s/YyntANKVXUxFkKnYd55iiw | 105| 
 | 信息安全研究 | None | 产业｜网安市场周度监测（2026-05-25） | https://mp.weixin.qq.com/s/imtydjicW8sBxTqjIMFwAA | 146| 
 | 公安部网安局 | None | 净网 , 58公里变101公里？网警破获抢单外挂、私改计价器案15起，73人落网 | https://mp.weixin.qq.com/s/-iaYQXK5khdOF1jKsN0fXQ | 170| 
 | 兰花豆说网络安全 | None | 抱歉，团队已经解散了！ | https://mp.weixin.qq.com/s/3jhfj3ESGi-LPBTvLlkXLQ | 26| 
@@ -392,7 +398,6 @@
 | 独眼情报 | None | Almerys 医疗支付数据泄露事件经过，第三方支付平台背后的身份数据风险 | https://mp.weixin.qq.com/s/ZI7jB2zFhP3gbAyahcQb-w | 120| 
 | 略懂安全的三秋 | None | [SRC]漏洞显现 | https://mp.weixin.qq.com/s/WbVDivZkzkQUdncwApaozg | 10| 
 | 白安全组 | 【白】 【白】 | 关于Shannon的版本迭代，增强适配性 | https://mp.weixin.qq.com/s/JaBDhMg0oRa9RI69emz-fg | 8| 
-| 看雪学苑 | mxystery mxystery | 2026腾讯游戏安全竞赛决赛安卓客户端安全分析 | https://mp.weixin.qq.com/s/Vn6k_9-eSCQskYzHwrmLhw | 147| 
 | 破阵攻防实验室 | None | 记一次从SQL注入到CS上线 | https://mp.weixin.qq.com/s/berzNgMu5OWHwFoWJfUG5w | 2| 
 | 网安工具库 | None | 勒索病毒解密工具 | https://mp.weixin.qq.com/s/BrQDvhtcu3qsQoeumZs8zA | 7| 
 | 网安百色 |  | Microsoft Defender零日漏洞已在野外遭积极利用 | https://mp.weixin.qq.com/s/mzawD-_crDMa0Awmk-i8eQ | 44| 
@@ -498,7 +503,6 @@
 | 陌笙不太懂安全 | 是陌不是笙 是陌不是笙 | AI赋能安全&amp;&amp;一句话进行js逆向&amp;&amp;配合mitmproxy进行简单测试 | https://mp.weixin.qq.com/s/zPD_f5Equ8SeCdrsOLomYw | 48| 
 | 青藤智库 |  | 终端是AI安全唯一的\"战场\" | https://mp.weixin.qq.com/s/eYpgKvqOsePg-vthNUfWZw | 1| 
 | 驯海隔壁白帽子 | 驯海隔壁白帽子 驯海隔壁白帽子 | 中国民航大学第十二届信息安全技术竞赛 | https://mp.weixin.qq.com/s/lB06AD_BRbO9jpCqThhZHw | 3| 
-| 安全学术圈 | 杨浩然@安全学术 杨浩然@安全学术 | 华盛顿州立大学 , 首份真实世界跨语言 Bug 的全生命周期实证研究 | https://mp.weixin.qq.com/s/eExqUE6Qagpo7ofAqiKjww | 38| 
 | zen-of-vuri | vuri vuri | AI Agent 沙箱的实现机制深度解析 | https://mp.weixin.qq.com/s/c4WdUdumm6EicNqSd-Q3bw | 1| 
 | Damian攻防实验室 | None | 内网渗透踩坑！图片上传失败？竟是小米路由防火墙搞鬼 | https://mp.weixin.qq.com/s/hkmgu_gZ3JKJIkV-guIc2w | 9| 
 | Gh0xE9 | None | 如何让自己的博客爆闪别人 | https://mp.weixin.qq.com/s/CwLNyXWNTM1ccSq0QBURgg | 9| 
@@ -762,7 +766,6 @@
 | 空天感知 | None | ICEYE 指挥车里的“秘密”，一张被老外热议的 SAR 影像 | https://mp.weixin.qq.com/s/iLqGH8csf9nadlB9bR90TA | 25| 
 | 老鑫安全 | None | 免杀新姿势：利用 Windows 机器学习（WinML）在内存中隐蔽执行恶意载荷 | https://mp.weixin.qq.com/s/FV_Vf3FiCXJZPhSfB5w56w | 6| 
 | 见微开源情报洞察 | 白昼 白昼 | Maven 智能系统：美军 AI 作战平台的运作逻辑 | https://mp.weixin.qq.com/s/lv2oHL_herB3uwfXVFRx_Q | 1| 
-| 锐安全 | None | DeepSeek要融500亿，“极致的技术理想主义者”价值几何？ | https://mp.weixin.qq.com/s/qKVWn1_t_6Mv9wAE7S34hQ | 6| 
 | 魔方安全 | None | 以爱之名｜魔方安全祝您母亲节快乐！ | https://mp.weixin.qq.com/s/HP0nAVFlKZJoKWYDCmFXkA | 10| 
 | 黑客联盟l | None | Mozilla惊爆安全漏洞：Mythos工具几乎零误报 | https://mp.weixin.qq.com/s/3EqkdufFiifxcjUakXlbZA | 6| 
 | NOP Team | None | NSS 后门 , Linux 后门系列 | https://mp.weixin.qq.com/s/jmHzG8o-Q3JT5zYcvTxp0w | 5| 
@@ -1776,6 +1779,7 @@
 | m4xxxxx | AIxVuln: 一个基于LLM的多Agent全流程漏洞挖掘项目 | https://github.com/m4xxxxx/AIxVuln | https://github.com/m4xxxxx?tab=followers |  | None | None | 3 | 0 | 9 | 0 | 0 | Go | 0 | 0 | 1| 
 | mukul975 | Anthropic-Cybersecurity-Skills：专门给AI代理用网络安全技能 | https://github.com/mukul975/Anthropic-Cybersecurity-Skills | https://github.com/mukul975?tab=followers | 🔐 Cybersecurity , 💻 Dev , 📷 Street Photographer 🎓 MSc , 📚 Research & AI Security | Berlin | None | 30 | 0 | 2 | 0 | 0 | Python,TypeScript,JavaScript | 0 | 0 | 1| 
 | o0x1024 | AI Agent 安全能力的 Benchmark 平台 | https://github.com/o0x1024/aiagentsec-benchmarks | https://github.com/o0x1024?tab=followers |  | None | None | 21 | 0 | 174 | 0 | 0 | Go,NSIS,TypeScript,Vue,Rust | 0 | 0 | 1| 
+| oritera | Cairn: CTF/自动化渗透 Agent 开源项目 | https://github.com/oritera/Cairn | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
 | raystyle | Marketplaces: RAY的私有Claude Code插件 | https://github.com/raystyle/Marketplaces/ | https://github.com/raystyle?tab=followers |  | beijing | None | 23 | 0 | 12 | 0 | 0 | Rust,JavaScript,PowerShell,C++ | 0 | 0 | 1| 
 | reconurge | flowsint: OSINT开源图形可视化平台 | https://github.com/reconurge/flowsint?tab=readme-ov-file | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,TypeScript | 0 | 0 | 1| 
 | sgoudelis | ground-station:开源一站式卫星追踪与信号本地解码工具包 | https://github.com/sgoudelis/ground-station | https://github.com/sgoudelis?tab=followers |  | Greece | None | 13 | 0 | 59 | 0 | 0 | Python,JavaScript,Java,HTML | 0 | 0 | 1| 
