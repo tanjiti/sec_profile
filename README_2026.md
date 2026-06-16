@@ -20,6 +20,8 @@
 # 网络安全书籍 推荐
 | date_added | language | title | author | link | size| 
 | --- | --- | --- | --- | --- | ---| 
+| 2026-06-16 09:08:08 | English | Getting Started with Microsoft Power Pages | unknown | https://www.wowebook.org/getting-started-with-microsoft-power-pages/ | unknown| 
+| 2026-06-15 19:55:04 | English | ML and Generative AI in the Data Lakehouse | unknown | https://www.wowebook.org/ml-and-generative-ai-in-the-data-lakehouse/ | unknown| 
 | 2026-06-14 21:20:45 | English | Hands-On RAG for Production | unknown | https://www.wowebook.org/hands-on-rag-for-production/ | unknown| 
 | 2026-06-14 20:22:38 | English | Creative AI Agents with Copilot Studio | unknown | https://www.wowebook.org/creative-ai-agents-with-copilot-studio/ | unknown| 
 | 2026-06-11 15:57:41 | English | Data Science Projects Using Python | unknown | https://www.wowebook.org/data-science-projects-using-python/ | unknown| 
