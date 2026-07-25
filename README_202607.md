@@ -31,6 +31,12 @@
 | 2026-07-01 16:07:50 | English | Python Automation Cookbook, 3rd Edition | unknown | https://www.wowebook.org/python-automation-cookbook-3rd-edition/ | unknown| 
 
 
+# 学习视频 推荐
+| title | url| 
+| --- | ---| 
+| CCF形式化方法与软件安全新技术青年论坛-回放 | https://www.bilibili.com/video/BV1gYNd6dETT/?vd_source=cf356e754c3297351584ba6a3f42dc76| 
+
+
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
@@ -53,6 +59,7 @@
 | 国家信息安全服务资质 | None | 世界人工智能大会,人工智能安全漏洞治理联盟正式成立 | https://mp.weixin.qq.com/s/YMzECQW84tmHltimRvfZPA | 1| 
 | 安全分析与研究 | None | 功夫女足 | https://mp.weixin.qq.com/s/74b-Ng87cWF_RvqwqQ5VUw | 5| 
 | 安全学术圈 | 程逸飞 程逸飞 | 中科院信工所 , 基于语义–流量跨模态对齐的零样本 HTTPS 网站指纹识别 | https://mp.weixin.qq.com/s/KC6EtI4Y95yw9P83CNIqPA | 3| 
+| 安天集团 | 安天研究院 安天研究院 | 从论文“预告”到行为越界——Anthropic事件从实证到伦理的分析 | https://mp.weixin.qq.com/s/8gBKKjIz_VblIYnThCwnug | 5| 
 | 安恒信息CERT |  | 【已复现】WordPress REST API 批处理路由混淆与 SQL 注入远程代码执行漏洞（CVE-2026-63030） | https://mp.weixin.qq.com/s/eYQLrvMFAPWGJ-eDhtDLlg | 1| 
 | 攻防录 | None | AutoCVE：自动化挖掘 CVE | https://mp.weixin.qq.com/s/LjoTgXkJt513YTh-h3Bayw | 1| 
 | 数世咨询 | CNNVD CNNVD | 世界人工智能大会,人工智能安全漏洞治理联盟正式成立 | https://mp.weixin.qq.com/s/JfX-81HT37OrUF13_9MiyQ | 4| 
@@ -109,7 +116,6 @@
 | 安全学习那些事儿 | None | 可口可乐旗下超滤奶品牌fairlife遭遇黑客攻击 全美生产运营暂停 | https://mp.weixin.qq.com/s/UkJAA99HYAww_9bmbIjMnQ | 13| 
 | 安全牛 | None | OpenAI 推出 GPT-Red 自动化红队模型；苹果xa0AI 中国市场落地方案出炉，联动阿里、百度大模型满足本地化合规审核要求, 牛览 | https://mp.weixin.qq.com/s/p7zylpbi5o_i71TkeG3pyA | 10| 
 | 安全狗的自我修养 | None | mac最好用的android模拟器 | https://mp.weixin.qq.com/s/6jYybemijIs40S3DyhTxYA | 4| 
-| 安天集团 | None | 安天ATool2026年首更，优化系统对象分析与注册表操作体验 | https://mp.weixin.qq.com/s/LY-P730i3QzweJACuh4Lsg | 5| 
 | 安恒信息 | None | 新华社报道：习近平主席纵论全球人工智能治理体系，金句来了 | https://mp.weixin.qq.com/s/OsygVjaBQMQr4pnv5N9ZGw | 4| 
 | 实战安全研究 |  | 漏洞复现 , WordPress WooCommerce Designer Pro存在任意文件读取(CVE-2025-10897) | https://mp.weixin.qq.com/s/Rf3w_amp_ZxkZ-mCvwKEuw | 2| 
 | 工业互联网标识智库 | None | 中国信通院与ISO/IEC JTC 5围绕产品数字护照开展技术交流 | https://mp.weixin.qq.com/s/0ZyRr-9m3PCwfTVfDdiBMQ | 5| 
@@ -494,6 +500,13 @@
 | 透明魔方 | catfishfighting catfishfighting | 安全部门不是所有安全问题的唯一责任人 | https://mp.weixin.qq.com/s/n_wlF-6Tqf5IY018Q6efVQ | 2| 
 | 锐安全 | 晓兵Jason 晓兵Jason | 大模型安全赛道“贴身肉搏”，Top 5谁将率先撞线？ | https://mp.weixin.qq.com/s/9sl8nqtekeOCfun_jbNVZA | 1| 
 | 三叉戟AI手记 | rosey rosey | Agentic SOC 实践：Flocks | https://mp.weixin.qq.com/s/doB_kc72DzjRqfZUBtOckA | 1| 
+
+
+# 私人github账号 推荐
+| github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
+| bojieli | 深入理解 AI Agent：设计原理与工程实践 | https://github.com/bojieli/ai-agent-book | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| xxyyue | LLM Observer Proxy： 基于 Go 与 Bifrost 的大模型运行域可观... | https://github.com/xxyyue/llm-observer-proxy-go | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 
 
 

@@ -214,6 +214,12 @@
 | 2026-01-03 13:18:20 | English | Python Made Easy | unknown | https://www.wowebook.org/python-made-easy/ | unknown| 
 
 
+# 学习视频 推荐
+| title | url| 
+| --- | ---| 
+| CCF形式化方法与软件安全新技术青年论坛-回放 | https://www.bilibili.com/video/BV1gYNd6dETT/?vd_source=cf356e754c3297351584ba6a3f42dc76| 
+
+
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
@@ -236,6 +242,7 @@
 | 国家信息安全服务资质 | None | 世界人工智能大会,人工智能安全漏洞治理联盟正式成立 | https://mp.weixin.qq.com/s/YMzECQW84tmHltimRvfZPA | 7| 
 | 安全分析与研究 | None | 功夫女足 | https://mp.weixin.qq.com/s/74b-Ng87cWF_RvqwqQ5VUw | 40| 
 | 安全学术圈 | 程逸飞 程逸飞 | 中科院信工所 , 基于语义–流量跨模态对齐的零样本 HTTPS 网站指纹识别 | https://mp.weixin.qq.com/s/KC6EtI4Y95yw9P83CNIqPA | 47| 
+| 安天集团 | 安天研究院 安天研究院 | 从论文“预告”到行为越界——Anthropic事件从实证到伦理的分析 | https://mp.weixin.qq.com/s/8gBKKjIz_VblIYnThCwnug | 88| 
 | 安恒信息CERT |  | 【已复现】WordPress REST API 批处理路由混淆与 SQL 注入远程代码执行漏洞（CVE-2026-63030） | https://mp.weixin.qq.com/s/eYQLrvMFAPWGJ-eDhtDLlg | 19| 
 | 攻防录 | None | AutoCVE：自动化挖掘 CVE | https://mp.weixin.qq.com/s/LjoTgXkJt513YTh-h3Bayw | 11| 
 | 数世咨询 | CNNVD CNNVD | 世界人工智能大会,人工智能安全漏洞治理联盟正式成立 | https://mp.weixin.qq.com/s/JfX-81HT37OrUF13_9MiyQ | 90| 
@@ -292,7 +299,6 @@
 | 安全学习那些事儿 | None | 可口可乐旗下超滤奶品牌fairlife遭遇黑客攻击 全美生产运营暂停 | https://mp.weixin.qq.com/s/UkJAA99HYAww_9bmbIjMnQ | 117| 
 | 安全牛 | None | OpenAI 推出 GPT-Red 自动化红队模型；苹果xa0AI 中国市场落地方案出炉，联动阿里、百度大模型满足本地化合规审核要求, 牛览 | https://mp.weixin.qq.com/s/p7zylpbi5o_i71TkeG3pyA | 79| 
 | 安全狗的自我修养 | None | mac最好用的android模拟器 | https://mp.weixin.qq.com/s/6jYybemijIs40S3DyhTxYA | 128| 
-| 安天集团 | None | 安天ATool2026年首更，优化系统对象分析与注册表操作体验 | https://mp.weixin.qq.com/s/LY-P730i3QzweJACuh4Lsg | 88| 
 | 安恒信息 | None | 新华社报道：习近平主席纵论全球人工智能治理体系，金句来了 | https://mp.weixin.qq.com/s/OsygVjaBQMQr4pnv5N9ZGw | 64| 
 | 实战安全研究 |  | 漏洞复现 , WordPress WooCommerce Designer Pro存在任意文件读取(CVE-2025-10897) | https://mp.weixin.qq.com/s/Rf3w_amp_ZxkZ-mCvwKEuw | 31| 
 | 工业互联网标识智库 | None | 中国信通院与ISO/IEC JTC 5围绕产品数字护照开展技术交流 | https://mp.weixin.qq.com/s/0ZyRr-9m3PCwfTVfDdiBMQ | 28| 
@@ -1899,6 +1905,7 @@
 | antgroup | ClawAegis：类智能体的安全纵深防御架构 | https://github.com/antgroup/ClawAegis/blob/main/README_zh.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Go,C,TypeScript,C++ | 0 | 0 | 1| 
 | apurvsinghgautam | robin: AI-Powered Dark Web OSINT Tool | https://github.com/apurvsinghgautam/robin/ | https://github.com/apurvsinghgautam?tab=followers | Security Researcher, Threat Intel/Cybercrime Intel | US | Cyble | 30 | 0 | 187 | 0 | 0 | Python | 0 | 0 | 1| 
 | bilisheep | ExternalHound: 基于 FastAPI + React 的企业级资产管理和关系... | https://github.com/bilisheep/ExternalHound/tree/main/ | https://github.com/bilisheep?tab=followers |  | None | None | 36 | 0 | 197 | 0 | 0 | Python,C,PHP | 0 | 0 | 1| 
+| bojieli | 深入理解 AI Agent：设计原理与工程实践 | https://github.com/bojieli/ai-agent-book | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | cloudflare | security-audit-skill: A coding-agent skill for multi-phase... | https://github.com/cloudflare/security-audit-skill | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,CMake,Python,JavaScript,C++,MDX,Go,Rust | 0 | 0 | 1| 
 | d3ckx1 | OmniScan 综合漏洞扫描器 | https://github.com/d3ckx1/OmniScan | None | penetration test | china | None | 32 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | datawhalechina | 从零开始构建智能体 | https://github.com/datawhalechina/hello-agents | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,TypeScript,JavaScript,Jupyter | 0 | 0 | 1| 
@@ -1915,6 +1922,7 @@
 | sgoudelis | ground-station:开源一站式卫星追踪与信号本地解码工具包 | https://github.com/sgoudelis/ground-station | https://github.com/sgoudelis?tab=followers |  | Greece | None | 13 | 0 | 59 | 0 | 0 | Python,JavaScript,Java,HTML | 0 | 0 | 1| 
 | shareAI-lab | Learn Claude Code -- 真正的 Agent Harness 工程 | https://github.com/shareAI-lab/learn-claude-code/blob/main/README-zh.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Shell,TypeScript,JavaScript,Jupyter | 0 | 0 | 1| 
 | shell-dot | Tuoni: 跨平台红队演练框架 | https://github.com/shell-dot/tuoni | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Java,Shell,JavaScript,C# | 0 | 0 | 1| 
+| xxyyue | LLM Observer Proxy： 基于 Go 与 Bifrost 的大模型运行域可观... | https://github.com/xxyyue/llm-observer-proxy-go | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | yhy0 | 承影：开源的类 BurpSuite 应用 ChYing | https://github.com/yhy0/ChYing | https://github.com/yhy0?tab=followers | 修道之初，谁不想当剑仙 yhysec@qq.com | 剑宗 | None | 76 | 0 | 746 | 0 | 0 | Go,Python,Java | 0 | 0 | 1| 
 | yyhuni | xingrin: src资产管理漏洞扫描平台 | https://github.com/yyhuni/xingrin | https://github.com/yyhuni?tab=followers |  | None | None | 67 | 0 | 26 | 0 | 0 | Go,TypeScript,Java,HTML | 0 | 0 | 1| 
 | zer0yu | 适用于 Openclaw 的网络安全日报 Skills | https://github.com/zer0yu/sec-daily-digest/ | https://github.com/zer0yu?tab=followers | BugHunter@OverSpace / RedTeamer@PolarisLab / CTFer@kn0ck | Singapore / China | None | 80 | 0 | 5000 | 0 | 0 | Python,Go,Rust | 0 | 0 | 1| 

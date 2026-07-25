@@ -28,8 +28,8 @@ def scraw(proxy=None):
     print("scraw xuanwu")
     xuanwu_scraw(so, proxy=proxy, delta=10)
     print("scraw book")
-    g = GetNewBook()
-    g.scaw(proxy=proxy)
+    #g = GetNewBook()
+    #g.scaw(proxy=proxy)
     print("scraw doonsec")
     doonsec_scraw(so, proxy=None, delta=10)
 

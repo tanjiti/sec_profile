@@ -1572,6 +1572,7 @@
 # 学习视频 推荐
 | title | url| 
 | --- | ---| 
+| CCF形式化方法与软件安全新技术青年论坛-回放 | https://www.bilibili.com/video/BV1gYNd6dETT/?vd_source=cf356e754c3297351584ba6a3f42dc76| 
 | HACK@DATE 2025 RISC-V硬件漏洞挖掘竞赛冠军 | https://www.bilibili.com/video/BV13eabzvE6V| 
 | 基于白盒分析的程序选项模糊测试 | https://www.bilibili.com/video/BV1VSatzvEyA| 
 | 浙江大学DeepSeek系列专题公开课 | https://space.bilibili.com/3546784374720910/lists?sid=4822862&spm_id_from=333.788.0.0| 
@@ -1619,6 +1620,7 @@
 | 国家信息安全服务资质 | None | 世界人工智能大会,人工智能安全漏洞治理联盟正式成立 | https://mp.weixin.qq.com/s/YMzECQW84tmHltimRvfZPA | 25| 
 | 安全分析与研究 | None | 功夫女足 | https://mp.weixin.qq.com/s/74b-Ng87cWF_RvqwqQ5VUw | 161| 
 | 安全学术圈 | 程逸飞 程逸飞 | 中科院信工所 , 基于语义–流量跨模态对齐的零样本 HTTPS 网站指纹识别 | https://mp.weixin.qq.com/s/KC6EtI4Y95yw9P83CNIqPA | 532| 
+| 安天集团 | 安天研究院 安天研究院 | 从论文“预告”到行为越界——Anthropic事件从实证到伦理的分析 | https://mp.weixin.qq.com/s/8gBKKjIz_VblIYnThCwnug | 395| 
 | 安恒信息CERT |  | 【已复现】WordPress REST API 批处理路由混淆与 SQL 注入远程代码执行漏洞（CVE-2026-63030） | https://mp.weixin.qq.com/s/eYQLrvMFAPWGJ-eDhtDLlg | 147| 
 | 攻防录 | None | AutoCVE：自动化挖掘 CVE | https://mp.weixin.qq.com/s/LjoTgXkJt513YTh-h3Bayw | 11| 
 | 数世咨询 | CNNVD CNNVD | 世界人工智能大会,人工智能安全漏洞治理联盟正式成立 | https://mp.weixin.qq.com/s/JfX-81HT37OrUF13_9MiyQ | 536| 
@@ -1675,7 +1677,6 @@
 | 安全学习那些事儿 | None | 可口可乐旗下超滤奶品牌fairlife遭遇黑客攻击 全美生产运营暂停 | https://mp.weixin.qq.com/s/UkJAA99HYAww_9bmbIjMnQ | 716| 
 | 安全牛 | None | OpenAI 推出 GPT-Red 自动化红队模型；苹果xa0AI 中国市场落地方案出炉，联动阿里、百度大模型满足本地化合规审核要求, 牛览 | https://mp.weixin.qq.com/s/p7zylpbi5o_i71TkeG3pyA | 691| 
 | 安全狗的自我修养 | None | mac最好用的android模拟器 | https://mp.weixin.qq.com/s/6jYybemijIs40S3DyhTxYA | 404| 
-| 安天集团 | None | 安天ATool2026年首更，优化系统对象分析与注册表操作体验 | https://mp.weixin.qq.com/s/LY-P730i3QzweJACuh4Lsg | 395| 
 | 安恒信息 | None | 新华社报道：习近平主席纵论全球人工智能治理体系，金句来了 | https://mp.weixin.qq.com/s/OsygVjaBQMQr4pnv5N9ZGw | 372| 
 | 实战安全研究 |  | 漏洞复现 , WordPress WooCommerce Designer Pro存在任意文件读取(CVE-2025-10897) | https://mp.weixin.qq.com/s/Rf3w_amp_ZxkZ-mCvwKEuw | 230| 
 | 工业互联网标识智库 | None | 中国信通院与ISO/IEC JTC 5围绕产品数字护照开展技术交流 | https://mp.weixin.qq.com/s/0ZyRr-9m3PCwfTVfDdiBMQ | 355| 
@@ -8559,6 +8560,7 @@
 | blog | Github 宣布移除匿名用户创建 gist 的功能: | https://github.com/blog/2503-deprecation-notice-removing-anonymous-gist-creation | None | None | None | None | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 8| 
 | bluesadi | Pluto-Obfuscator - 基于 LLVM 实现的代码混淆工具 | https://github.com/bluesadi/Pluto-Obfuscator | https://github.com/bluesadi?tab=followers | Keep moving, be enthusiastic, be patient. | Chengdu, Sichuan | Sichuan University | 12 | 0 | 88 | 0 | 0 | Python,LLVM,C++ | 0 | 0 | 1| 
 | bobfuzzer | Linux kernel 5.0.0-rc7 f2fs 文件系统溢出漏洞 PoC | https://github.com/bobfuzzer/CVE/tree/master/CVE-2019-19927 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C | 21 | 13 | 1| 
+| bojieli | 深入理解 AI Agent：设计原理与工程实践 | https://github.com/bojieli/ai-agent-book | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | boku7 | Cobalt Strike BOF - Inject AMSI Bypass | https://github.com/boku7/injectAmsiBypass | https://github.com/boku7?tab=followers | SpiderLabs , OSWE , eWPTX , OSCE , eCXD , OSCP , SLAE32,64 | United States | Trustwave SpiderLabs | 42 | 0 | 0 | 0 | 0 | C,Assembly | 0 | 0 | 1| 
 | borzacchiello | 基于 Ghidra PCode 的符号执行引擎 | https://github.com/borzacchiello/naaz | https://github.com/borzacchiello?tab=followers | PhD. Writing symbolic execution engines and program analysis related stuff | Rome | None | 31 | 0 | 190 | 0 | 0 | Python,C++ | 0 | 0 | 1| 
 | botherder | detekt：Memory triaging tool | https://github.com/botherder/detekt | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 3| 
@@ -9460,6 +9462,7 @@
 | xtao | CODE-PyconCN2014 | https://github.com/xtao/CODE-PyconCN2014 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | xtekky | 介绍了TikTok使用的X-Ladon HTTP签名的加密方法及相关Python脚本 | https://github.com/xtekky/TikTok-X-Ladon/tree/main | https://github.com/xtekky?tab=followers | I code a bit for fun. I like llms | Europe | @onlpx, @onlpsec, @gpt4free | 74 | 0 | 178 | 0 | 0 | Python | 0 | 0 | 1| 
 | xufanghui | docker的安装及相关使用和说明文档 | https://github.com/xufanghui/docker-ua | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| xxyyue | LLM Observer Proxy： 基于 Go 与 Bifrost 的大模型运行域可观... | https://github.com/xxyyue/llm-observer-proxy-go | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | yahoo | Yahoo结构化数据爬虫Anthelion(基于Nutch) | https://github.com/yahoo/anthelion | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 2| 
 | yaklang | yak gRPC Client GUI - 集成化单兵工具平台 | https://github.com/yaklang/yakit | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,TypeScript,JavaScript | 0 | 0 | 1| 
 | yangbh | Hammer:A web vulnnerability scanner | https://github.com/yangbh/Hammer | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
