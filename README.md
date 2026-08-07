@@ -11,6 +11,15 @@
 
 ![202608-最喜欢语言占比](data/img/language/202608-最喜欢语言占比.png)
 
+# 网络安全书籍 推荐
+| date_added | language | title | author | link | size| 
+| --- | --- | --- | --- | --- | ---| 
+| 2026-08-06 19:58:28 | English | Build an AI Agent (From Scratch) | unknown | https://www.wowebook.org/build-an-ai-agent-from-scratch/ | unknown| 
+| 2026-08-06 11:25:49 | English | Microsoft Excel 365 Complete: In Practice: Evergreen Release | unknown | https://www.wowebook.org/microsoft-excel-365-complete-in-practice-evergreen-release/ | unknown| 
+| 2026-08-04 21:00:33 | English | The Generative AI Career Masterplan | unknown | https://www.wowebook.org/the-generative-ai-career-masterplan/ | unknown| 
+| 2026-08-04 19:35:38 | English | Large Language Models in Finance | unknown | https://www.wowebook.org/large-language-models-in-finance/ | unknown| 
+
+
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
@@ -41,6 +50,7 @@
 | 李白你好 | None | 中国启动对美国网络安全企业派拓公司（Palo Alto Networks）在华销售产品的网络安全审查 | https://mp.weixin.qq.com/s/rrkahsI1C4H03Eq3Obxnmg | 1| 
 | 武汉网络安全 |  | 公安机关网络空间安全监督检查办法（公安部令第176号） | https://mp.weixin.qq.com/s/VZkPuhv-Z3HFHRSSwITOQw | 7| 
 | 渝融云安全 |  | 立秋｜渝融云坚守网络安全防线，防微杜渐，御险护航 | https://mp.weixin.qq.com/s/jylmP1i1MvYfqcgjUzBgdw | 1| 
+| 电子取证wiki |  | 开赛倒计时1天xa0,xa0xa0聚数询证，合智攻坚-2026xa0聚合杯电子数据取证大赛即将开赛！ | https://mp.weixin.qq.com/s/6Q3LuT0VyaH9ODRwOIY6Mg | 1| 
 | 看雪学苑 | 2025 KCTF 2025 KCTF | 倒计时3天！2026 KCTF 入局『组队指南』，揭开轮回真相 | https://mp.weixin.qq.com/s/hdJjoA5ucyRr0rsPq5g5Fw | 4| 
 | 碳泽信息 |  | 签约喜讯｜碳泽信息成功中标许继集团安全自动测试平台项目 | https://mp.weixin.qq.com/s/y-cTvFiDo_v-nukuhZvhrA | 1| 
 | 网络安全启蒙 |  | 3800 星、通杀 3.10~6.12 全系内核：SKRoot 正在改写 Android Root 的游戏规则 | https://mp.weixin.qq.com/s/CBNjwU5xtykweO0OVcoSdw | 1| 

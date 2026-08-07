@@ -481,6 +481,7 @@ if __name__ == "__main__":
 
     o = GetNewBook(proxy=proxy)
     o.scaw(proxy=proxy)
+
     title_list = [
         # 'Practical Cloud Security, 2nd Edition',
         #'CompTIA A+ Practice Test Core 1 (220-1101)',

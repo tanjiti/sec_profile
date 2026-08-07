@@ -78,6 +78,10 @@
 # 网络安全书籍 推荐
 | date_added | language | title | author | link | size| 
 | --- | --- | --- | --- | --- | ---| 
+| 2026-08-06 19:58:28 | English | Build an AI Agent (From Scratch) | unknown | https://www.wowebook.org/build-an-ai-agent-from-scratch/ | unknown| 
+| 2026-08-06 11:25:49 | English | Microsoft Excel 365 Complete: In Practice: Evergreen Release | unknown | https://www.wowebook.org/microsoft-excel-365-complete-in-practice-evergreen-release/ | unknown| 
+| 2026-08-04 21:00:33 | English | The Generative AI Career Masterplan | unknown | https://www.wowebook.org/the-generative-ai-career-masterplan/ | unknown| 
+| 2026-08-04 19:35:38 | English | Large Language Models in Finance | unknown | https://www.wowebook.org/large-language-models-in-finance/ | unknown| 
 | 2026-07-16 17:22:43 | English | Microsoft Security Operations Analyst Exam Ref SC-200 Guide, 2nd Edition | unknown | https://www.wowebook.org/microsoft-security-operations-analyst-exam-ref-sc-200-guide-2nd-edition/ | unknown| 
 | 2026-07-16 15:05:10 | English | Ultimate AI Agent Development with Semantic Kernel | unknown | https://www.wowebook.org/ultimate-ai-agent-development-with-semantic-kernel/ | unknown| 
 | 2026-07-16 14:20:25 | English | Ultimate Kubernetes Virtualization with KubeVirt | unknown | https://www.wowebook.org/ultimate-kubernetes-virtualization-with-kubevirt/ | unknown| 
@@ -1629,6 +1633,7 @@
 | 李白你好 | None | 中国启动对美国网络安全企业派拓公司（Palo Alto Networks）在华销售产品的网络安全审查 | https://mp.weixin.qq.com/s/rrkahsI1C4H03Eq3Obxnmg | 203| 
 | 武汉网络安全 |  | 公安机关网络空间安全监督检查办法（公安部令第176号） | https://mp.weixin.qq.com/s/VZkPuhv-Z3HFHRSSwITOQw | 127| 
 | 渝融云安全 |  | 立秋｜渝融云坚守网络安全防线，防微杜渐，御险护航 | https://mp.weixin.qq.com/s/jylmP1i1MvYfqcgjUzBgdw | 30| 
+| 电子取证wiki |  | 开赛倒计时1天xa0,xa0xa0聚数询证，合智攻坚-2026xa0聚合杯电子数据取证大赛即将开赛！ | https://mp.weixin.qq.com/s/6Q3LuT0VyaH9ODRwOIY6Mg | 44| 
 | 看雪学苑 | 2025 KCTF 2025 KCTF | 倒计时3天！2026 KCTF 入局『组队指南』，揭开轮回真相 | https://mp.weixin.qq.com/s/hdJjoA5ucyRr0rsPq5g5Fw | 1569| 
 | 碳泽信息 |  | 签约喜讯｜碳泽信息成功中标许继集团安全自动测试平台项目 | https://mp.weixin.qq.com/s/y-cTvFiDo_v-nukuhZvhrA | 8| 
 | 网络安全启蒙 |  | 3800 星、通杀 3.10~6.12 全系内核：SKRoot 正在改写 Android Root 的游戏规则 | https://mp.weixin.qq.com/s/CBNjwU5xtykweO0OVcoSdw | 2| 
@@ -1962,7 +1967,6 @@
 | 国家信息安全服务资质 | None | 世界人工智能大会,人工智能安全漏洞治理联盟正式成立 | https://mp.weixin.qq.com/s/YMzECQW84tmHltimRvfZPA | 25| 
 | 安全分析与研究 | None | 功夫女足 | https://mp.weixin.qq.com/s/74b-Ng87cWF_RvqwqQ5VUw | 161| 
 | 安恒信息CERT |  | 【已复现】WordPress REST API 批处理路由混淆与 SQL 注入远程代码执行漏洞（CVE-2026-63030） | https://mp.weixin.qq.com/s/eYQLrvMFAPWGJ-eDhtDLlg | 147| 
-| 电子取证wiki | None | 2026“聚合杯”电子数据取证大赛正式启动！ | https://mp.weixin.qq.com/s/9UEhrzQC5BfY-x16R4PVzA | 43| 
 | 竞远安全 | None | AI筑安全屏障｜竞远安全携AI大模型评估平台亮相第三届粤网安 · 新技术交流大会 | https://mp.weixin.qq.com/s/b0kjrJmN-xzMG7yu9141Qw | 3| 
 | 黑熊安全 | None | 我已购入spaceX | https://mp.weixin.qq.com/s/Vh5dYpoUZcxaYU0MOZZ4hA | 50| 
 | CIO之家 | None | 靠贩卖PPT方案的咨询顾问会消失吗 | https://mp.weixin.qq.com/s/dHXy5mnaTVylSVd7U96ZIQ | 71| 
@@ -8139,7 +8143,7 @@
 | DNSPod | DNSPod 开放 Top-Domains-List 数据 | https://github.com/DNSPod/oh-my-free-data | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | DTolm | VkFFT-Vulkan快速傅立叶变换库 | https://github.com/DTolm/VkFFT | None |  | None | None | 2 | 0 | 0 | 0 | 0 | C,C++ | 213 | 6 | 1| 
 | DallasFR | WalkerGate:通过查找ntdll的内存解析以进行系统调用 | https://github.com/DallasFR/WalkerGate | https://github.com/DallasFR?tab=followers |  | None | None | 14 | 0 | 2 | 0 | 0 | C | 0 | 0 | 1| 
-| DanMcInerney | Inject code and spy on LAN users | https://github.com/DanMcInerney/LANs.py | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 5| 
+| DanMcInerney | shodan_pharmer | https://github.com/DanMcInerney/shodan_pharmer | https://github.com/DanMcInerney?tab=followers | Agent builder and security engineer | None | @DanMcInerney | 101 | 0 | 335 | 0 | 0 | Python,JavaScript,PowerShell | 0 | 0 | 5| 
 | DarkSpiritz | DarkSpiritz - 针对 UNIX 系统的渗透测试框架: | https://github.com/DarkSpiritz/DarkSpiritz | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | DasSecurity-Labs | AoiAWD: 专为比赛设计，便携性好，低权限运行的EDR系统 | https://github.com/DasSecurity-Labs/AoiAWD | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,PHP,HTML | 0 | 0 | 1| 
 | De4dCr0w | CVE漏洞分析、CTF pwn、浏览器漏洞利用、AST注入和新的fuzz测试方法。内容涉及了多个知名软件，如Chrome、Firefox和V8引擎 | https://github.com/De4dCr0w/Browser-pwn | https://github.com/De4dCr0w?tab=followers |  | None | None | 45 | 0 | 113 | 0 | 0 | Python,C,C++ | 0 | 0 | 1| 
@@ -8331,7 +8335,7 @@
 | PassingTheKnowledge | Ganxo - 开源 API Hook 框架: | https://github.com/PassingTheKnowledge/Ganxo | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Batchfile | 0 | 0 | 1| 
 | PaulNorman01 | Forensia:RedTeam后渗透阶段的痕迹清理工具 | https://github.com/PaulNorman01/Forensia | https://github.com/PaulNorman01?tab=followers | Cybersecurity researcher , Coder , Geek ! | None | None | 3 | 0 | 1 | 0 | 0 | C,C++ | 0 | 0 | 1| 
 | PaulSec | Python API for dnsd | https://github.com/PaulSec/API-dnsdumpster.com | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 5| 
-| PayPal | lusca:Application security for express apps | https://github.com/PayPal/lusca | None | None | None | None | 0 | 0 | 0 | 0 | 0 | TypeScript,Java,Python,Ruby,JavaScript,C#,HTML,PHP,Swift | 0 | 0 | 1| 
+| PayPal | lusca:Application security for express apps | https://github.com/PayPal/lusca | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Swift,TypeScript,JavaScript,Kotlin | 0 | 0 | 1| 
 | Pear1y | GitHub 有研究员公开了 Atlassian Bitbucket Data Center 反序列化漏洞(CVE-2022-26133) 的批量验证工具 | https://github.com/Pear1y/CVE-2022-26133 | https://github.com/Pear1y?tab=followers | There is a crack in everything，thats how the light gets in. | Bermuda | Cyber Security | 36 | 0 | 234 | 0 | 0 | Python,C,Java | 0 | 0 | 1| 
 | PeiQi0 | PeiQi-WIKI-POC文库 | https://github.com/PeiQi0/PeiQi-WIKI-POC | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | PlagueScanner | PlagueScanner:Open source multiple AV scanner framework | https://github.com/PlagueScanner/PlagueScanner | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python | 0 | 0 | 1| 
@@ -8713,7 +8717,7 @@
 | dorneanu | smalisca:Static Code Analysis for Smali files | https://github.com/dorneanu/smalisca | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | doyensec | Electron.js Hacking 相关的资料收集整理 | https://github.com/doyensec/awesome-electronjs-hacking | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,JavaScript,Java,C++ | 0 | 0 | 1| 
 | drduh | OS-X-Security-and-Privacy-Guide | https://github.com/drduh/OS-X-Security-and-Privacy-Guide | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 3| 
-| droidsec | Android Whitepapers | https://github.com/droidsec/droidsec.github.io/wiki/Android-Whitepapers | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Java,C,HTML,Ruby,D | 0 | 0 | 1| 
+| droidsec | droidsec:Android Whitepapers | https://github.com/droidsec/droidsec.github.io/wiki/Android-Whitepapers | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Ruby,C,HTML,Java,D | 0 | 0 | 1| 
 | dru1d-foofus | 使用 impacket 库和 LDAP 查询编写的支持 NTLM 和 Kerberos 身份验证的 LAPS dump 工具 | https://github.com/dru1d-foofus/GetLAPSPassword/ | https://github.com/dru1d-foofus?tab=followers | just hacking all the things, but doing a bad job at it | Roanoke, VA | CDW | 40 | 0 | 36 | 0 | 0 | Python,Go,C,PowerShell,C# | 0 | 0 | 1| 
 | dsopas | MindAPI: Bringing order to API hacking chaos | https://github.com/dsopas/MindAPI | https://www.davidsopas.com | /me hacks! the webz | Portugal | Char49 | 14 | 0 | 0 | 0 | 0 | Go | 0 | 0 | 3| 
 | duffelhq | Elixir Ecto Paginator 刚刚修复了一个 RCE 漏洞 | https://github.com/duffelhq/paginator/security/advisories/GHSA-w98m-2xqg-9cvj | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Python,JavaScript,HTML,Elixir,Go,Erlang | 0 | 0 | 1| 
@@ -8789,9 +8793,9 @@
 | fuzzware-fuzzer | Fuzzware: Using Precise MMIO Modeling for Effective Firmware Fuzzing | https://github.com/fuzzware-fuzzer/fuzzware | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,C,Shell | 0 | 0 | 1| 
 | g-les | 解析一批 Macho 文件，尝试根据 dylib、导入或导出的哈希值以及基于签名的内容（例如名称或权利）挖掘它们的相似性 | https://github.com/g-les/macho_similarity/ | https://github.com/g-les?tab=followers |  | None | None | 10 | 0 | 15 | 0 | 0 | Python,YARA,Jupyter | 0 | 0 | 1| 
 | g0ldencybersec | CloudRecon是一套用于红队和漏洞猎手的工具，通过检查SSL证书中的关键词，扫描IP地址或CIDR（例如云提供商IP），找到隐藏的开发资产和网站。 | https://github.com/g0ldencybersec/CloudRecon | https://github.com/g0ldencybersec?tab=followers | Offensive Security Bug Bounties Cyber Tools | None | None | 5 | 0 | 4 | 0 | 0 | Go,Python,Ruby | 0 | 0 | 1| 
-| ga1ois | The Art of Leaks - read version - Yoyo | https://github.com/ga1ois/CanSecWest2014/blob/master/The%20Art%20of%20Leaks%20-%20read%20version%20-%20Yoyo.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| ga1ois | The Art of Leaks - read version - Yoyo | https://github.com/ga1ois/CanSecWest2014/blob/master/The%20Art%20of%20Leaks%20-%20read%20version%20-%20Yoyo.pdf | https://github.com/ga1ois?tab=followers |  | None | None | 9 | 0 | 1 | 0 | 0 | ActionScript | 0 | 0 | 1| 
 | gaasedelen | Patching - 一款为 IDA Pro 提供交互式 Patch 功能的插件 | https://github.com/gaasedelen/patching | https://github.com/gaasedelen?tab=followers | turning over rocks and finding nothing is still progress. | None | None | 12 | 0 | 1 | 0 | 0 | Python,C | 0 | 0 | 3| 
-| galkan | sees:Social Enginnering Email Sender | https://github.com/galkan/sees | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| galkan | sees:Social Enginnering Email Sender | https://github.com/galkan/sees | https://github.com/galkan?tab=followers |  | None | None | 8 | 0 | 0 | 0 | 0 | Python,C | 0 | 0 | 1| 
 | gamelinux | passivedns：被动方式收集DNS记录 | https://github.com/gamelinux/passivedns | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | gamozolabs | mempeek - Linux 运行进程内存扫描命令行工具 | https://github.com/gamozolabs/mempeek | https://github.com/gamozolabs?tab=followers |  | None | None | 71 | 0 | 3 | 0 | 0 | Python,C++,Rust | 0 | 0 | 4| 
 | ganliuzhuo | 作者在Sebug提交的漏洞详情和POC | https://github.com/ganliuzhuo/Sebug | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -8821,7 +8825,7 @@
 | guardicore | monkey: Infection Monkey - An automated pentest tool | https://github.com/guardicore/monkey | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Go,C,Java,C# | 0 | 0 | 2| 
 | guedou | 一个包含了网络工具scapy很多典型使用案例的仓库 | https://github.com/guedou/scapy-handson | https://github.com/guedou?tab=followers |  | Paris, France | None | 49 | 0 | 134 | 0 | 0 | Python,C,OCaml | 0 | 0 | 2| 
 | guelfoweb | peframe: static analysis on (portable executable) malware | https://github.com/guelfoweb/peframe | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
-| guhe120 | explib:JS写shellcode | https://github.com/guhe120/explib/blob/master/lib/explib.js | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 2| 
+| guhe120 | explib:JS写shellcode | https://github.com/guhe120/explib/blob/master/lib/explib.js | https://github.com/guhe120?tab=followers |  | None | None | 8 | 0 | 0 | 0 | 0 | Python,HTML,Java | 0 | 0 | 2| 
 | guidovranken | Cryptofuzz - 用于 Fuzz 加密库的工具 | https://github.com/guidovranken/cryptofuzz | https://github.com/guidovranken?tab=followers |  | Netherlands | None | 82 | 0 | 8 | 0 | 0 | C++ | 0 | 0 | 3| 
 | guillotines | WebShell: Web端WebShell管理器 | https://github.com/guillotines/WebShell | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | guitarman0831 | Onyx:A simple Linux keylogger | https://github.com/guitarman0831/Onyx | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -8864,7 +8868,7 @@
 | humiaozuzu | awesome-flask: A curated list of awesome Flask resources and plugins | https://github.com/humiaozuzu/awesome-flask | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | hungryfoolou | CVE漏洞信息爬取 | https://github.com/hungryfoolou/Vulnerability_Mining/tree/master/craw | None |  | None | XiDian University | 6 | 0 | 10 | 0 | 3 | Python,C,HTML | 75 | 39 | 1| 
 | huoji120 | DuckMemoryScan: 内存免杀马检测 | https://github.com/huoji120/DuckMemoryScan | https://key08.com | 网络安全工程师、游戏安全工程师、反病毒工程师、全栈开发程序员、黑客 | 北京 朝阳 | CTO | 84 | 0 | 0 | 0 | 0 | Python,C,C++ | 0 | 0 | 1| 
-| husam212 | MITMer:Automated man-in-the-middle attack tool | https://github.com/husam212/MITMer | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| husam212 | MITMer:Automated man-in-the-middle attack tool | https://github.com/husam212/MITMer | https://github.com/husam212?tab=followers |  | Amman, Jordan | None | 12 | 0 | 32 | 0 | 0 | Python,Ruby,JavaScript,Java | 0 | 0 | 1| 
 | iSafeBlue | BCS 2022 会议探索JNDI攻击议题 PPT | https://github.com/iSafeBlue/presentation-slides/blob/main/BCS2022-%E6%8E%A2%E7%B4%A2JNDI%E6%94%BB%E5%87%BB.pdf | https://github.com/iSafeBlue?tab=followers | 浅蓝 b1u3r , Security Researcher , Java Development Engineer | None | None | 16 | 0 | 605 | 0 | 0 | Python,JavaScript,Java | 0 | 0 | 3| 
 | iabem97 | iOS 11.3/15E5189f Security Server 服务(securityd)溢出漏洞 PoC: | https://github.com/iabem97/securityd-racer2 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | ice-doom | EyeJo: 一款自动化资产风险评估平台 | https://github.com/ice-doom/EyeJo | https://github.com/ice-doom?tab=followers |  | None | None | 2 | 0 | 0 | 0 | 0 | Python,C++ | 0 | 0 | 1| 
@@ -8913,7 +8917,7 @@
 | jd-opensource | JoySafety: 大模型安全框架 | https://github.com/jd-opensource/JoySafety | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Vue,Java,CSS,C++ | 0 | 0 | 1| 
 | jduck | ASUS Router UDP Broadcast Command Execution | https://github.com/jduck/asus-cmd | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 2| 
 | jekyc | wig:WebApp Information Gatherer | https://github.com/jekyc/wig | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
-| jenson-shi | dnspod_inter_ddns:Dnspod International DDNS | https://github.com/jenson-shi/dnspod_inter_ddns | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| jenson-shi | dnspod_inter_ddns:Dnspod International DDNS | https://github.com/jenson-shi/dnspod_inter_ddns | https://github.com/jenson-shi?tab=followers | Moved to https://github.com/shixiongfei | Moved to https://github.com/shixiongfei | Moved to https://github.com/shixiongfei | 0 | 0 | 0 | 0 | 0 |  | 0 | 0 | 1| 
 | jeremylong | OWASP dependency-check | https://github.com/jeremylong/DependencyCheck | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 2| 
 | jfmaes | SharpZipRunner - 利用 D/Invokes 在内存中解密 ZIP 加密压缩的 bin 并提取 Shellcode 执行 | https://github.com/jfmaes/SharpZipRunner | None |  | None | None | 27 | 0 | 0 | 0 | 0 | C#,Python,C++ | 118 | 17 | 1| 
 | jh00nbr | Scanner Routerhunter 2.0 | https://github.com/jh00nbr/Routerhunter-2.0 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -9003,7 +9007,7 @@
 | lijiejie | EasyPen: 图形化安全巡检与应急工具 | https://github.com/lijiejie/EasyPen | https://github.com/lijiejie?tab=followers | Just For Fun | None | None | 19 | 0 | 5 | 0 | 0 | Python,JavaScript | 0 | 0 | 4| 
 | likaia | nginxpulse: 轻量级 Nginx 访问日志分析与可视化面板 | https://github.com/likaia/nginxpulse | https://github.com/likaia?tab=followers | A front-end development engineer WeChat: Baymax-kt | Guang Zhou | need a job | 69 | 0 | 223 | 0 | 0 | TypeScript,Go,Vue | 0 | 0 | 1| 
 | lindsey98 | Phishpedia - 利用深度学习的方案识别钓鱼 Web 页面 | https://github.com/lindsey98/Phishpedia | https://github.com/lindsey98?tab=followers |  | None | National University of Singapore | 98 | 0 | 181 | 0 | 0 | Python,Java,Jupyter | 0 | 0 | 1| 
-| linkedin | qark:Quick Android Review Kit | https://github.com/linkedin/qark | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 2| 
+| linkedin | white-elephant:Hadoop log aggregator and dashboard | https://github.com/linkedin/white-elephant | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 2| 
 | lintsinghua | DeepAudit: 开源的代码漏洞挖掘多智能体系统 | https://github.com/lintsinghua/DeepAudit/?tab=readme-ov-file | https://github.com/lintsinghua?tab=followers | Just making the bits flow right. | Beijing, China | None | 17 | 0 | 60 | 0 | 0 | Python | 0 | 0 | 1| 
 | liuhuigmail | GrowingBugRepository: 公开缺陷基准数据集 | https://github.com/liuhuigmail/GrowingBugRepository | https://github.com/liuhuigmail?tab=followers | Professor of software engineering | None | Beijing Institute of Technology | 17 | 0 | 18 | 0 | 0 | Python,Perl | 0 | 0 | 1| 
 | liupuz | Statistics of acceptance rate for the top conferences | https://github.com/liupuz/Computer-Security-Conference-Acceptance-Rate | https://github.com/liupuz?tab=followers | Embedded Device Security | 08:56 (UTC +08:00) | None | 52 | 0 | 141 | 0 | 0 | Python | 0 | 0 | 1| 
@@ -9319,7 +9323,7 @@
 | sjhilt | GasPot: honeypot for Veeder Root Gaurdian AST | https://github.com/sjhilt/GasPot | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | skydive-project | Skydive可用以对网络拓扑及协议进行实时分析，以图像的方式清晰展现。 | https://github.com/skydive-project/skydive | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Go,Python,HTML,JavaScript,Puppet | 0 | 0 | 1| 
 | skyline75489 | what-happens-when-input-google | https://github.com/skyline75489/what-happens-when-zh_CN | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
-| skylot | 反编译工具 jadx 更新 1.3.5 版本 | https://github.com/skylot/jadx/releases/tag/v1.3.5 | https://github.com/skylot?tab=followers |  | None | None | 3 | 0 | 43 | 0 | 0 | Java | 0 | 0 | 2| 
+| skylot | jadx:Dex to Java decompiler | https://github.com/skylot/jadx | https://github.com/skylot?tab=followers |  | None | None | 4 | 0 | 71 | 0 | 0 | Java | 0 | 0 | 2| 
 | sleeyax | 用于 Hook Burp 的 HTTP/TLS 栈以篡改浏览器指纹的扩展 | https://github.com/sleeyax/burp-awesome-tls | https://github.com/sleeyax?tab=followers | Using the right skills for the right job | Belgium | None | 118 | 0 | 450 | 0 | 0 | Go,C#,TypeScript,Rust | 0 | 0 | 1| 
 | sleirsgoevy | PS4 6.72 版本固件的越狱利用代码 | https://github.com/sleirsgoevy/ps4jb | None |  | None | None | 38 | 0 | 0 | 0 | 0 | Python,C,JavaScript | 379 | 107 | 1| 
 | slowmist | 总结了智能合约安全审计师所需的技能图谱，旨在列举智能合约安全审计所需的基本技能，并激励团队成员采用研究、创新和工程演进的思维方式。 | https://github.com/slowmist/SlowMist-Learning-Roadmap-for-Becoming-a-Smart-Contract-Auditor | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,Go,HTML,Ruby | 0 | 0 | 3| 
@@ -9392,7 +9396,7 @@
 | tkmru | EDR 绕过 PoC合集 | https://github.com/tkmru/awesome-edr-bypass | https://github.com/tkmru?tab=followers | 電脳ケロちゃん / Co-Founder & CTO of Sterra Security Co.,Ltd. / Metasploit GSoC 2017 / Black Hat USA 2020-2021 Arsenal / Black Hat USA 2021-2022 Arsenal | Japan | None | 97 | 0 | 826 | 0 | 0 | Python,Go,Java | 0 | 0 | 1| 
 | tmallfe | 跨终端实践-天猫试戴的解决方案 | https://github.com/tmallfe/tmallfe.github.io/issues/4 | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | tmylla | Awesome-LLM4Cybersecurity: An overview of LLMs for cyberse... | https://github.com/tmylla/Awesome-LLM4Cybersecurity | https://github.com/tmylla?tab=followers | Let there be light. | Beijing, China | University of Chinese Academy of Sciences | 16 | 0 | 168 | 0 | 0 | Python | 0 | 0 | 1| 
-| tombkeeper | ROPs_are_for_the_99% | https://github.com/tombkeeper/Talks/blob/master/CanSecWest_2014/ROPs_are_for_the_99%25_%5BCSW2014%5D.pdf | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
+| tombkeeper | ROPs_are_for_the_99% | https://github.com/tombkeeper/Talks/blob/master/CanSecWest_2014/ROPs_are_for_the_99%25_%5BCSW2014%5D.pdf | https://github.com/tombkeeper?tab=followers |  | None | None | 5 | 0 | 0 | 0 | 0 | C,JavaScript | 0 | 0 | 1| 
 | tomchop | malcom：Malware Communications Analyzer | https://github.com/tomchop/malcom | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | tomer8007 | Chromium IPC Sniffer - 有研究员开发了一个监控 Chromium 浏览器命名管道通信消息的工具 | https://github.com/tomer8007/chromium-ipc-sniffer | None |  | None | None | 6 | 0 | 0 | 0 | 0 | Python,Lua,Objective-C,JavaScript,C# | 81 | 44 | 1| 
 | tomsteele | Use burps JS static code analysis on code from your local system | https://github.com/tomsteele/burpstaticscan | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -9494,7 +9498,7 @@
 | yhy0 | 承影：开源的类 BurpSuite 应用 ChYing | https://github.com/yhy0/ChYing | https://github.com/yhy0?tab=followers | 修道之初，谁不想当剑仙 yhysec@qq.com | 剑宗 | None | 76 | 0 | 746 | 0 | 0 | Go,Python,Java | 0 | 0 | 2| 
 | yidao620c | Python Cookbook 第三版 中文版 | https://github.com/yidao620c/python3-cookbook | https://github.com/yidao620c?tab=followers | keep running | Xian China | Huawei Technologies Co., Ltd. | 12 | 0 | 69 | 0 | 0 | Python,Java,Jupyter,CSS | 0 | 0 | 1| 
 | yifengyou | QEMU KVM学习笔记. | https://github.com/yifengyou/learn-kvm | https://github.com/yifengyou | 一天不科研，浑身都难受~ | ShenZhen | Tencent | 262 | 0 | 0 | 0 | 0 | C | 328 | 97 | 1| 
-| yinwang0 | PySonar：精确、友好的 Python 静态分析器 | https://github.com/yinwang0/pysonar2 | https://github.com/yinwang0?tab=followers |  | None | None | 7 | 0 | 8 | 0 | 0 | Python,Emacs,Scheme,Java,HTML | 0 | 0 | 1| 
+| yinwang0 | PySonar：精确、友好的 Python 静态分析器 | https://github.com/yinwang0/pysonar2 | https://github.com/yinwang0?tab=followers |  | None | None | 19 | 0 | 21 | 0 | 0 | Python,Emacs,Java,Racket,C++ | 0 | 0 | 1| 
 | ynwarcs | 介绍了CVE-2024-38063漏洞的技术细节和利用方法，包括了漏洞的根本原因分析和利用的POC | https://github.com/ynwarcs/CVE-2024-38063 | https://github.com/ynwarcs?tab=followers |  | Serbia | None | 8 | 0 | 17 | 0 | 0 | Python,C,C++ | 0 | 0 | 1| 
 | yogeshojha | rengine: 自动化信息收集的平台 | https://github.com/yogeshojha/rengine | https://github.com/yogeshojha?tab=followers | Research Engineer @ TRG building solutions for Crime and Terror Builds and maintains reNgine | None | TRG Research and Development | 47 | 0 | 309 | 0 | 0 | Python,JavaScript,PHP | 0 | 0 | 1| 
 | ytisf | theZoo:A repository of LIVE malwares | https://github.com/ytisf/theZoo | https://github.com/ytisf?tab=followers |  | None | None | 35 | 0 | 52 | 0 | 0 | Python,CSS | 0 | 0 | 2| 
