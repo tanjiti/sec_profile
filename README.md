@@ -14,8 +14,10 @@
 # 网络安全书籍 推荐
 | date_added | language | title | author | link | size| 
 | --- | --- | --- | --- | --- | ---| 
-| 2026-08-06 19:58:28 | English | Build an AI Agent (From Scratch) | unknown | https://www.wowebook.org/build-an-ai-agent-from-scratch/ | unknown| 
+| 2026-08-09 10:08:24 | English | Python Essentials: Symbolic and Numeric Problem-Solving in Engineering | unknown | https://www.wowebook.org/python-essentials-symbolic-and-numeric-problem-solving-in-engineering/ | unknown| 
+| 2026-08-09 00:23:22 | English | Building AI Agents for Network Operations | unknown | https://www.wowebook.org/building-ai-agents-for-network-operations/ | unknown| 
 | 2026-08-06 11:25:49 | English | Microsoft Excel 365 Complete: In Practice: Evergreen Release | unknown | https://www.wowebook.org/microsoft-excel-365-complete-in-practice-evergreen-release/ | unknown| 
+| 2026-08-06 19:58:28 | English | Build an AI Agent (From Scratch) | unknown | https://www.wowebook.org/build-an-ai-agent-from-scratch/ | unknown| 
 | 2026-08-04 21:00:33 | English | The Generative AI Career Masterplan | unknown | https://www.wowebook.org/the-generative-ai-career-masterplan/ | unknown| 
 | 2026-08-04 19:35:38 | English | Large Language Models in Finance | unknown | https://www.wowebook.org/large-language-models-in-finance/ | unknown| 
 
