@@ -113,6 +113,7 @@
 | 自主创新如是说 |  | 2026年9月中央国家机关台式计算机中标信息公布 | https://mp.weixin.qq.com/s/AODUEeFO3L_pq3NW1khTSQ | 2| 
 | 菜鸟学信安 | Fausto-404 Fausto-404 | 一款面向攻防演练、红蓝对抗和安全研究场景的高交互智能欺骗蜜罐平台 | https://mp.weixin.qq.com/s/bZXTSeEPmfTw43zNnRf_qA | 2| 
 | 赛欧思安全研究实验室 | SOC SOC | 美国国家安全局启动大规模重组：设立五大“任务中心”，聚焦中国、网络安全与人工智能 | https://mp.weixin.qq.com/s/Gxiy4ke2OGr_FrP89Jivyg | 3| 
+| 赤霄攻防实验室 | 赤霄攻防实验室 赤霄攻防实验室 | emp3r0r 实测：1.7k Star 开源 C2，C2 服务器被打掉后 Agent 竟还能自愈组网 | https://mp.weixin.qq.com/s/Ao7iPj0vBwvIm1s7rr-MHw | 1| 
 | 车小胖谈网络 | 车小胖谈网络 车小胖谈网络 | 对于游戏而言wifi和网线哪个更好？ | https://mp.weixin.qq.com/s/p4BYhTrH6lkFOixdZaiDhw | 1| 
 | 轩辕摩斯 |  | 2026年国家网络安全宣传周丨网络安全为人民 网络安全靠人民 | https://mp.weixin.qq.com/s/Q-EyvXWoJWPa7YywlAUwOQ | 1| 
 | 运维安全入门 | 不懂安全的运维 不懂安全的运维 | 渗透测试框架之王：Metasploit模块化艺术与高阶Payload生成 | https://mp.weixin.qq.com/s/z76DAj31lMaq-nuPEVk0kw | 1| 
@@ -260,7 +261,10 @@
 # 私人github账号 推荐
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
+| 1y0n | Oktos：一款红队后渗透平台 | https://github.com/1y0n/oktos/tree/main | https://github.com/1y0n?tab=followers |  | Network | None | 10 | 0 | 131 | 0 | 0 | C#,C++ | 0 | 0 | 1| 
 | Autumn-27 | ARTEX: AI 自主渗透测试系统 | https://github.com/Autumn-27/ARTEX | https://github.com/Autumn-27?tab=followers |  | None | None | 21 | 0 | 270 | 0 | 0 | Go,Vue | 0 | 0 | 1| 
+| Clouditera | VulnHunter: AI 驱动的自动化漏洞发现 Agent 平台 | https://github.com/Clouditera/VulnHunter/blob/main/README_ZH.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,TypeScript,HTML,JavaScript,Go | 0 | 0 | 1| 
+| Kxiandaoyan | github-C2: 网页控制台 + Rust Agent | https://github.com/Kxiandaoyan/github-C2 | https://github.com/Kxiandaoyan?tab=followers | Y35U | None | None | 12 | 0 | 496 | 0 | 0 | Go,TypeScript,HTML,Rust | 0 | 0 | 1| 
 | SeaOf0 | dsh-redteam-model: 基于dsh web实现的安全研究平台 | https://github.com/SeaOf0/dsh-redteam-model/ | https://github.com/SeaOf0?tab=followers | Red Team · Security Tooling · AI-Agent Engineering(终于想起来还有这个号了) | China | 360 | 5 | 0 | 2 | 0 | 0 | Python,Rust | 0 | 0 | 1| 
 | amd2g2zz | kunglao-agent: The reverse-engineering expert agent | https://github.com/amd2g2zz/kunglao-agent | None |  | None | None | 4 | 0 | 2 | 0 | 0 | Python | 0 | 0 | 1| 
 

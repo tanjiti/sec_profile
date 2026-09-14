@@ -343,6 +343,7 @@
 | 自主创新如是说 |  | 2026年9月中央国家机关台式计算机中标信息公布 | https://mp.weixin.qq.com/s/AODUEeFO3L_pq3NW1khTSQ | 16| 
 | 菜鸟学信安 | Fausto-404 Fausto-404 | 一款面向攻防演练、红蓝对抗和安全研究场景的高交互智能欺骗蜜罐平台 | https://mp.weixin.qq.com/s/bZXTSeEPmfTw43zNnRf_qA | 9| 
 | 赛欧思安全研究实验室 | SOC SOC | 美国国家安全局启动大规模重组：设立五大“任务中心”，聚焦中国、网络安全与人工智能 | https://mp.weixin.qq.com/s/Gxiy4ke2OGr_FrP89Jivyg | 30| 
+| 赤霄攻防实验室 | 赤霄攻防实验室 赤霄攻防实验室 | emp3r0r 实测：1.7k Star 开源 C2，C2 服务器被打掉后 Agent 竟还能自愈组网 | https://mp.weixin.qq.com/s/Ao7iPj0vBwvIm1s7rr-MHw | 1| 
 | 车小胖谈网络 | 车小胖谈网络 车小胖谈网络 | 对于游戏而言wifi和网线哪个更好？ | https://mp.weixin.qq.com/s/p4BYhTrH6lkFOixdZaiDhw | 3| 
 | 轩辕摩斯 |  | 2026年国家网络安全宣传周丨网络安全为人民 网络安全靠人民 | https://mp.weixin.qq.com/s/Q-EyvXWoJWPa7YywlAUwOQ | 1| 
 | 运维安全入门 | 不懂安全的运维 不懂安全的运维 | 渗透测试框架之王：Metasploit模块化艺术与高阶Payload生成 | https://mp.weixin.qq.com/s/z76DAj31lMaq-nuPEVk0kw | 1| 
@@ -1997,7 +1998,9 @@
 # 私人github账号 推荐
 | github_id | title | url | p_url | p_profile | p_loc | p_company | p_repositories | p_projects | p_stars | p_followers | p_following | repo_lang | repo_star | repo_forks | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| 
+| 1y0n | Oktos：一款红队后渗透平台 | https://github.com/1y0n/oktos/tree/main | https://github.com/1y0n?tab=followers |  | Network | None | 10 | 0 | 131 | 0 | 0 | C#,C++ | 0 | 0 | 1| 
 | Autumn-27 | ARTEX: AI 自主渗透测试系统 | https://github.com/Autumn-27/ARTEX | https://github.com/Autumn-27?tab=followers |  | None | None | 21 | 0 | 270 | 0 | 0 | Go,Vue | 0 | 0 | 1| 
+| Clouditera | VulnHunter: AI 驱动的自动化漏洞发现 Agent 平台 | https://github.com/Clouditera/VulnHunter/blob/main/README_ZH.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,TypeScript,HTML,JavaScript,Go | 0 | 0 | 1| 
 | Coff0xc | AutoRedTeam-Orchestrator: AI驱动的自动化红队编排框架 | https://github.com/Coff0xc/AutoRedTeam-Orchestrator | https://github.com/Coff0xc?tab=followers | 🎓 Graduating in 2026 💻 Neusoft — O&M Eng. (Sep 24–Apr 25) 🛡️ QiAnXin — Sec. Service Intern (May–Jul 25) 🔍 Qihoo 360 — L2 Sec. Analyst (Aug 25–Now) | Building 2, Electronic City International Headquarters, No. 6 Jiuxianqiao Road, Chaoyang District, Beijing, China | Qihoo 360 Group Headquarters | 6 | 0 | 11 | 0 | 0 | Python | 0 | 0 | 1| 
 | Ed1s0nZ | CyberStrikeAI：AI 原生安全测试平台 | https://github.com/Ed1s0nZ/CyberStrikeAI/blob/main/README_CN.md | https://github.com/Ed1s0nZ?tab=followers |  | 08:50 (UTC +08:00) | None | 34 | 0 | 33 | 0 | 0 | Go,HTML | 0 | 0 | 1| 
 | Fausto-404 | AlterHive: 面向攻防演练、红蓝对抗和安全研究场景的高交互智... | https://github.com/Fausto-404/AlterHive | https://github.com/Fausto-404?tab=followers |  | None | None | 5 | 0 | 22 | 0 | 0 | Python,Go | 0 | 0 | 1| 
@@ -2007,6 +2010,7 @@
 | Hipepper | SecTech-Vis: 二进制计数对抗与 Web 安全交互式可视化平台 | https://github.com/Hipepper/SecTech-Vis | https://github.com/Hipepper?tab=followers |  | None | None | 195 | 0 | 211 | 0 | 0 | Python,TypeScript,Java,C++ | 0 | 0 | 1| 
 | Knaithe | 1DayNews: 聚合多源漏洞情报 | https://github.com/Knaithe/1DayNews | https://github.com/Knaithe?tab=followers | Security Researcher | None | None | 6 | 0 | 561 | 0 | 0 | Python,Shell,TypeScript,CSS,C++ | 0 | 0 | 1| 
 | Kritt-ai | open-kritt: Orchestrate AI agents to find real vulnerabili... | https://github.com/Kritt-ai/open-kritt/tree/main | None | None | None | None | 0 | 0 | 0 | 0 | 0 | JavaScript | 0 | 0 | 1| 
+| Kxiandaoyan | github-C2: 网页控制台 + Rust Agent | https://github.com/Kxiandaoyan/github-C2 | https://github.com/Kxiandaoyan?tab=followers | Y35U | None | None | 12 | 0 | 496 | 0 | 0 | Go,TypeScript,HTML,Rust | 0 | 0 | 1| 
 | LielingAi | ZhiShi: 以实战出发的漏洞研究专用 harness | https://github.com/LielingAi/ZhiShi | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Rust | 0 | 0 | 1| 
 | Lmg66 | 基于AI Agent的自动化恶意程序分析平台 | https://github.com/Lmg66/MCP-Agent-MalAnalyzer | https://github.com/Lmg66?tab=followers |  | None | None | 8 | 0 | 180 | 0 | 0 | Go,Python,HTML | 0 | 0 | 1| 
 | MHaggis | ADTrapper - Active Directory Security Analysis Platform | https://github.com/MHaggis/ADTrapper | https://github.com/MHaggis?tab=followers |  | None | @splunk | 73 | 0 | 582 | 0 | 0 | HTML,PowerShell | 0 | 0 | 1| 

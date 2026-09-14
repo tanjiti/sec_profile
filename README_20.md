@@ -1721,6 +1721,7 @@
 | 自主创新如是说 |  | 2026年9月中央国家机关台式计算机中标信息公布 | https://mp.weixin.qq.com/s/AODUEeFO3L_pq3NW1khTSQ | 53| 
 | 菜鸟学信安 | Fausto-404 Fausto-404 | 一款面向攻防演练、红蓝对抗和安全研究场景的高交互智能欺骗蜜罐平台 | https://mp.weixin.qq.com/s/bZXTSeEPmfTw43zNnRf_qA | 160| 
 | 赛欧思安全研究实验室 | SOC SOC | 美国国家安全局启动大规模重组：设立五大“任务中心”，聚焦中国、网络安全与人工智能 | https://mp.weixin.qq.com/s/Gxiy4ke2OGr_FrP89Jivyg | 201| 
+| 赤霄攻防实验室 | 赤霄攻防实验室 赤霄攻防实验室 | emp3r0r 实测：1.7k Star 开源 C2，C2 服务器被打掉后 Agent 竟还能自愈组网 | https://mp.weixin.qq.com/s/Ao7iPj0vBwvIm1s7rr-MHw | 1| 
 | 车小胖谈网络 | 车小胖谈网络 车小胖谈网络 | 对于游戏而言wifi和网线哪个更好？ | https://mp.weixin.qq.com/s/p4BYhTrH6lkFOixdZaiDhw | 101| 
 | 轩辕摩斯 |  | 2026年国家网络安全宣传周丨网络安全为人民 网络安全靠人民 | https://mp.weixin.qq.com/s/Q-EyvXWoJWPa7YywlAUwOQ | 1| 
 | 运维安全入门 | 不懂安全的运维 不懂安全的运维 | 渗透测试框架之王：Metasploit模块化艺术与高阶Payload生成 | https://mp.weixin.qq.com/s/z76DAj31lMaq-nuPEVk0kw | 1| 
@@ -8091,6 +8092,7 @@
 | 123f321 | datacon 2024年漏洞分析赛道冠军战解题框架 | https://github.com/123f321/datacon24_vuln_wp | https://github.com/123f321?tab=followers |  | None | None | 16 | 0 | 19 | 0 | 0 | Python,C | 0 | 0 | 1| 
 | 1d8 | 用于分析移动应用程序的Android VM | https://github.com/1d8/Android-Analysis | None |  | None | None | 25 | 0 | 0 | 0 | 0 | Python,C | 27 | 8 | 1| 
 | 1u4nx | Exploit-Exercises Nebula全攻略 | https://github.com/1u4nx/Exploit-Exercises-Nebula | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 2| 
+| 1y0n | Oktos：一款红队后渗透平台 | https://github.com/1y0n/oktos/tree/main | https://github.com/1y0n?tab=followers |  | Network | None | 10 | 0 | 131 | 0 | 0 | C#,C++ | 0 | 0 | 1| 
 | 2freeman | POC 会议议题 《Three Dark clouds over the Android kernel》 | https://github.com/2freeman/Slides/blob/main/PoC-2020-Three%20Dark%20clouds%20over%20the%20Android%20kernel.pdf | None |  | None | None | 1 | 0 | 0 | 0 | 0 |  | 7 | 1 | 1| 
 | 2shou | python-libshorttext:setup script for libshorttext | https://github.com/2shou/python-libshorttext | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | 2trill2spill | NextGen is a new Capstone-dependent genetic fuzzer for Unix file, syscall & network! | https://github.com/2trill2spill/nextgen | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
@@ -8170,6 +8172,7 @@
 | CiscoCXSecurity | UDP 协议扫描器 - 用于识别远程主机上运行的 UDP 服务的工具。 | https://github.com/CiscoCXSecurity/udpy_proto_scanner | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C,Shell,Python,JavaScript,Perl,HTML | 0 | 0 | 1| 
 | ClickSecurity | data_hacking: Click Security Data Hacking Project | https://github.com/ClickSecurity/data_hacking | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | Cloud-Architekt | Azure Active Directory 方向的攻防对抗 | https://github.com/Cloud-Architekt/AzureAD-Attack-Defense | https://github.com/Cloud-Architekt?tab=followers | Cloud Security Architect, Microsoft MVP | Koblenz | None | 7 | 0 | 2 | 0 | 0 | JavaScript,PowerShell | 0 | 0 | 2| 
+| Clouditera | VulnHunter: AI 驱动的自动化漏洞发现 Agent 平台 | https://github.com/Clouditera/VulnHunter/blob/main/README_ZH.md | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Python,TypeScript,HTML,JavaScript,Go | 0 | 0 | 1| 
 | CodeCracker-Tools | MegaDumper - 从内存中导出 .NET 程序的工具: | https://github.com/CodeCracker-Tools/MegaDumper | None | None | None | None | 0 | 0 | 0 | 0 | 0 | C# | 0 | 0 | 1| 
 | CodeIntelligenceTesting | 基于 libFuzzer 实现的 JVM Fuzzer - Jazzer 一直在不断优化 | https://github.com/CodeIntelligenceTesting/jazzer | None | None | None | None | 0 | 0 | 0 | 0 | 0 | Shell,Java,Python,C++,TypeScript,HTML,Starlark,Go | 0 | 0 | 1| 
 | Coff0xc | AutoRedTeam-Orchestrator: AI驱动的自动化红队编排框架 | https://github.com/Coff0xc/AutoRedTeam-Orchestrator | https://github.com/Coff0xc?tab=followers | 🎓 Graduating in 2026 💻 Neusoft — O&M Eng. (Sep 24–Apr 25) 🛡️ QiAnXin — Sec. Service Intern (May–Jul 25) 🔍 Qihoo 360 — L2 Sec. Analyst (Aug 25–Now) | Building 2, Electronic City International Headquarters, No. 6 Jiuxianqiao Road, Chaoyang District, Beijing, China | Qihoo 360 Group Headquarters | 6 | 0 | 11 | 0 | 0 | Python | 0 | 0 | 1| 
@@ -8304,6 +8307,7 @@
 | KruDex | lan-monitor - 根据 NMAP 扫描结果在网页上显示 LAN 状态: | https://github.com/KruDex/lan-monitor | None | None | None | None | 0 | 0 | 0 | 0 | 0 | None | 0 | 0 | 1| 
 | Kudaes | 可修改 Rust 编写的 dll 入口点的工具，以混淆代码的字符串文字，可用作自定义 dll 入口点 | https://github.com/Kudaes/CustomEntryPoint | https://github.com/Kudaes?tab=followers | nt authority\kurosh | Madrid | None | 14 | 0 | 280 | 0 | 0 | Rust,C++ | 0 | 0 | 2| 
 | KuhakuPixel | 介绍了一款名为Ace The Game的开源黑客工具，该工具可用于操作Android应用程序的内存，包括冻结和更改内存数值，绕过付款方式，并具有适用于rooted和non-rooted Android设备的功能。这款工具在Blackhat Arsenal上展示。 | https://github.com/KuhakuPixel/AceTheGame | https://github.com/KuhakuPixel?tab=followers | nicholaspixels@gmail.com | None | None | 32 | 0 | 99 | 0 | 0 | C#,Python,Java,C++,Kotlin | 0 | 0 | 1| 
+| Kxiandaoyan | github-C2: 网页控制台 + Rust Agent | https://github.com/Kxiandaoyan/github-C2 | https://github.com/Kxiandaoyan?tab=followers | Y35U | None | None | 12 | 0 | 496 | 0 | 0 | Go,TypeScript,HTML,Rust | 0 | 0 | 1| 
 | Kyuu-Ji | Azure渗透测试的绝佳工具和资源清单 | https://github.com/Kyuu-Ji/Awesome-Azure-Pentest | https://github.com/Kyuu-Ji?tab=followers |  | None | None | 4 | 0 | 9 | 0 | 0 | Python | 0 | 0 | 1| 
 | LIJI32 | SnatchBox - macOS 沙箱逃逸漏洞的分析（CVE-2020-27935） | https://github.com/LIJI32/SnatchBox | None | I fiddle with macOS, iOS, and Nintendo consoles. | Israel | None | 21 | 0 | 0 | 0 | 0 | Python,C,Assembly,Objective-C | 657 | 91 | 1| 
 | LOLBAS-Project | LOLBAS - 可以直接用作攻击工具的,系统自带的二进制文件和脚本(包括动态库): | https://github.com/LOLBAS-Project/LOLBAS | None | None | None | None | 0 | 0 | 0 | 0 | 0 | HTML,XSLT | 0 | 0 | 1| 
