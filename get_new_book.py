@@ -71,6 +71,9 @@ class GetNewBook(object):
             # common
             ['python'],
             ['rust'],
+            ['ai'],
+            ['rga'],
+            ['agentic'],
             ['kubernetes'],
             ['cybersecurity'],
             ['serverless', 'security'],

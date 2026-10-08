@@ -14,6 +14,8 @@
 # 网络安全书籍 推荐
 | date_added | language | title | author | link | size| 
 | --- | --- | --- | --- | --- | ---| 
+| 2026-10-06 19:38:40 | English | AI Ethics in Action | unknown | https://www.wowebook.org/ai-ethics-in-action/ | unknown| 
+| 2026-10-06 08:48:38 | English | AI Governance in Practice | unknown | https://www.wowebook.org/ai-governance-in-practice/ | unknown| 
 | 2026-10-04 09:07:04 | English | Hands-On Time Series Analysis with R | unknown | https://www.wowebook.org/hands-on-time-series-analysis-with-r/ | unknown| 
 | 2026-10-04 20:05:33 | English | Agentic AI for Platform Engineering | unknown | https://www.wowebook.org/agentic-ai-for-platform-engineering/ | unknown| 
 | 2026-10-03 07:41:23 | English | Python for AI and Data Analysis: The Practical Guide for Business and Science | unknown | https://www.wowebook.org/python-for-ai-and-data-analysis-the-practical-guide-for-business-and-science/ | unknown| 

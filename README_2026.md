@@ -22,6 +22,8 @@
 # 网络安全书籍 推荐
 | date_added | language | title | author | link | size| 
 | --- | --- | --- | --- | --- | ---| 
+| 2026-10-06 19:38:40 | English | AI Ethics in Action | unknown | https://www.wowebook.org/ai-ethics-in-action/ | unknown| 
+| 2026-10-06 08:48:38 | English | AI Governance in Practice | unknown | https://www.wowebook.org/ai-governance-in-practice/ | unknown| 
 | 2026-10-04 09:07:04 | English | Hands-On Time Series Analysis with R | unknown | https://www.wowebook.org/hands-on-time-series-analysis-with-r/ | unknown| 
 | 2026-10-04 20:05:33 | English | Agentic AI for Platform Engineering | unknown | https://www.wowebook.org/agentic-ai-for-platform-engineering/ | unknown| 
 | 2026-10-03 07:41:23 | English | Python for AI and Data Analysis: The Practical Guide for Business and Science | unknown | https://www.wowebook.org/python-for-ai-and-data-analysis-the-practical-guide-for-business-and-science/ | unknown| 
@@ -351,7 +353,6 @@
 | fullbug | xiejava xiejava | 【一个人的SOC】(00) 中小企业为什么需要自己的安全运营中心 | https://mp.weixin.qq.com/s/_GnlQtvIzDQkDenJ6MTrTQ | 7| 
 | 信息安全最新论文技术交流 |  | 国家密码管理局征集国家密码科学基金第三批项目指南建议 | https://mp.weixin.qq.com/s/m9JSoZus7pwt99kWyUw2EQ | 8| 
 | 信息时代的犯罪侦查 | 嘟嘟的爸爸 嘟嘟的爸爸 | PIIFileScanner检测匹配工具与服务后端交互数据详解 | https://mp.weixin.qq.com/s/CMEbFGeg693RuEwDefmM8A | 2| 
-| 全球技术地图 |  | 美国智库发布《AGI时刻》报告，探讨通用人工智能未来发展 | https://mp.weixin.qq.com/s/npG-qVdlVudTae8dxsS6ug | 160| 
 | 公安部网安局 |  | “找名字的人”电影《神探之痕迹》主题曲 | https://mp.weixin.qq.com/s/UfPiI37im9p2b-5mqxHy0w | 248| 
 | 兰花豆说网络安全 | 承影 承影 | 蜜网将成为抵御AI黑客的必备防线 | https://mp.weixin.qq.com/s/I-HQrO6O-nAfY2QKrj1Drg | 38| 
 | 内生安全联盟 |  | 全生命周期需求视角的高质量数据集供给研究 | https://mp.weixin.qq.com/s/Y0btrSVkj3h4Zvz2TeXwYQ | 177| 
@@ -536,6 +537,7 @@
 | 交大捷普 |  | 捷普国庆节放假保障通知请查收！ | https://mp.weixin.qq.com/s/kt1KjraVN741GfEapao7gA | 58| 
 | 信安客 |  | 个人信息保护\"分层监管\"成型：大型企业戴上紧箍，小微企业松了绑 | https://mp.weixin.qq.com/s/OGy-CPhgMTIDq69mMb73Tg | 7| 
 | 信息安全研究 |  | 专家观点｜程学旗：新框架新变化 人工智能安全治理体系进一步深化 | https://mp.weixin.qq.com/s/SRn0shtRW8uuYAOrpaGx4Q | 190| 
+| 全球技术地图 |  | 大语言模型重塑军事开源情报 | https://mp.weixin.qq.com/s/8foF2cKDYLxfXM8HsJjVVA | 160| 
 | 四叶草安全 | 小草 小草 | 七十七载山河庆华诞 四叶草安全以AI之盾 守护数字中国 祝祖国繁荣昌盛 | https://mp.weixin.qq.com/s/ZoDIJ3TF4RQ8G5Uv_vUDyw | 15| 
 | 夜组安全 | RynezzZ RynezzZ | 应急响应流量分析工具，支持pcap、excel、log等多种数据源，同时结合加解密、反编译等多个工作流 | https://mp.weixin.qq.com/s/BxbIzQxwxwOaQjTNlmcBeA | 27| 
 | 太初众测 | 太初众测 太初众测 | 【漏洞情报】2026年9月车联网漏洞态势综述 | https://mp.weixin.qq.com/s/dVPfaeLA9zvAtwbb6b9now | 13| 
