@@ -14,10 +14,13 @@
 # 网络安全书籍 推荐
 | date_added | language | title | author | link | size| 
 | --- | --- | --- | --- | --- | ---| 
-| 2026-11-14 19:23:55 | English | Building No-Code AI Agents | unknown | https://www.wowebook.org/building-no-code-ai-agents/ | unknown| 
-| 2026-11-14 19:15:08 | English | Python in Excel for Data Analytics | unknown | https://www.wowebook.org/python-in-excel-for-data-analytics/ | unknown| 
+| 2026-11-17 07:30:43 | English | Harness Patterns for Agentic AI with Claude Code and Hermes Agent | unknown | https://www.wowebook.org/harness-patterns-for-agentic-ai-with-claude-code-and-hermes-agent/ | unknown| 
+| 2026-11-17 06:57:58 | English | The Mathematics of Large Language Models | unknown | https://www.wowebook.org/the-mathematics-of-large-language-models/ | unknown| 
+| 2026-11-17 06:46:34 | English | Digital Defense Diaries | unknown | https://www.wowebook.org/digital-defense-diaries/ | unknown| 
 | 2026-11-14 19:01:24 | English | Applied AI with LLMs | unknown | https://www.wowebook.org/applied-ai-with-llms/ | unknown| 
 | 2026-11-14 12:04:14 | English | Leveraging Generative AI for Unity Game Development | unknown | https://www.wowebook.org/leveraging-generative-ai-for-unity-game-development/ | unknown| 
+| 2026-11-14 19:23:55 | English | Building No-Code AI Agents | unknown | https://www.wowebook.org/building-no-code-ai-agents/ | unknown| 
+| 2026-11-14 19:15:08 | English | Python in Excel for Data Analytics | unknown | https://www.wowebook.org/python-in-excel-for-data-analytics/ | unknown| 
 | 2026-11-09 00:38:33 | English | The Technical Program Manager’s Guide to Practical AI | unknown | https://www.wowebook.org/the-technical-program-managers-guide-to-practical-ai/ | unknown| 
 | 2026-11-09 00:26:43 | English | Building Agentic AI Systems, 2nd Edition | unknown | https://www.wowebook.org/building-agentic-ai-systems-2nd-edition/ | unknown| 
 | 2026-11-09 00:07:25 | English | The Cybersecurity Executive’s First Year Playbook | unknown | https://www.wowebook.org/the-cybersecurity-executives-first-year-playbook/ | unknown| 
@@ -42,6 +45,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| 星宇Sec | 星宇Sec 星宇Sec | “美亚杯”第十二届中国电子数据取证大赛团队赛题目 | https://mp.weixin.qq.com/s/lNIPyslaksyQKMD-uzCzzA | 6| 
+| 看雪学苑 | SDC2026 SDC2026 | SDC2026议题回顾 , 物理世界的自动化攻防：Agent 小队无人值守 IoT 漏洞挖掘实践 | https://mp.weixin.qq.com/s/ucDjrMTrDxfAgOlu3dPCZw | 15| 
 | 0xSecurity | hyyrent hyyrent | 某ai agent存在mcp未授权命令执行 | https://mp.weixin.qq.com/s/hSZx2bRbgGU5UU1IEG66Pg | 1| 
 | 360漏洞云 |  | 360首批签署《网络产品安全漏洞收集平台自律公约》，共筑漏洞治理良性生态 | https://mp.weixin.qq.com/s/0sflZQGfQ02WgvdJLXyMhA | 1| 
 | 360漏洞研究院 | 360漏洞研究院 360漏洞研究院 | 【已复现】7-Zip 高危漏洞，解压恶意压缩包即可触发 RCE | https://mp.weixin.qq.com/s/WP8fxr72w1B-Es0GwFauRQ | 4| 
@@ -126,7 +131,6 @@
 | 搜狐安全 |  | 浅谈AI生态中的安全风险 | https://mp.weixin.qq.com/s/NjJQXtnqj9IO4hcZdkXvWg | 1| 
 | 新华三主动安全 | 新华三盾山实验室 新华三盾山实验室 | Apache OFBiz 任意代码执行漏洞(CVE-2026-83542)通告【已复现】 | https://mp.weixin.qq.com/s/7xS2j97WBNYd-wD6jQnSOg | 2| 
 | 昆仑AI安全实验室 | klsec klsec | 修改响应包的2026年真相：服务器在“拒绝你”的那一刻，已经把钥匙递到了你手里 | https://mp.weixin.qq.com/s/B-veCqnFtJqCjr3q8l1AoQ | 10| 
-| 星宇Sec | 星宇Sec 星宇Sec | HVV实战文章的说明 | https://mp.weixin.qq.com/s/UsYRPKzoX06kqqQkHzzjmA | 5| 
 | 极验 | 极验 极验 | 为什么拦截率达到90%，黑产攻击仍然不会停止？ | https://mp.weixin.qq.com/s/VJPbTGuMwhpQyWA7t6KlbA | 2| 
 | 梆梆安全 | 梆梆安全 梆梆安全 | AI驱动攻击升级，金融App如何重构防护策略？ | https://mp.weixin.qq.com/s/YQCLOCgAztdBNTcVz7gtwg | 5| 
 | 武汉网络安全 | 武汉网络安全 武汉网络安全 | 网络安全知识小讲堂 , 四万台设备的指挥部，没有固定门牌 | https://mp.weixin.qq.com/s/_Spxr-NgrFCKSccEqGsrUw | 10| 
@@ -137,7 +141,6 @@
 | 爱奇艺技术产品团队 |  | AI短片之后，如何真正迈向长片创作？ | https://mp.weixin.qq.com/s/OuuED2pB8Xhf8kgRYRyZEw | 1| 
 | 珞安科技 | 自主研发技术驱动 自主研发技术驱动 | 智能体驱动下的工控渗透测试 | https://mp.weixin.qq.com/s/s9ldWGCQZ-urImmJybtx2g | 1| 
 | 生有可恋 | hyang0 hyang0 | 联通送一个月的 coding plan | https://mp.weixin.qq.com/s/lI4Alur1xtNrjQetHlWyFQ | 7| 
-| 看雪学苑 |  | 最后几小时！即将截止...看雪课程双十一限时满减 | https://mp.weixin.qq.com/s/TiKuOrKji2g7YxxOd5UzOA | 14| 
 | 知远战略与防务研究所 | 知远所 知远所 | 【推荐】知远全球军事基地设施全彩图册 | https://mp.weixin.qq.com/s/Q8MfftKY2MLMhAwn_J3S-Q | 29| 
 | 知道创宇 |  | 知道创宇荣获“2025年度北京市互联网党建重点企业” | https://mp.weixin.qq.com/s/ZlgCWiI59ozX1DFIvdJ1Yw | 4| 
 | 秦安战略 | 秦安战略 秦安战略 | 秦安：中国这次出手不一般！宣布调整对美加征关税措施，仅仅保留两个月，时间窗口非常短，预示着什么？ | https://mp.weixin.qq.com/s/4tkefYu7XOxLSYemUcwIjg | 26| 
@@ -309,6 +312,7 @@
 | 安世加 | 安世加 安世加 | 出海安全日报｜11月10日 | https://mp.weixin.qq.com/s/G6AYAmyB1jpnBgNqYBJo6g | 4| 
 | 安全内参 |  | CNCERT：关于“银狐”木马“金钩（G03）”团伙攻击态势深入分析报告 | https://mp.weixin.qq.com/s/aDDtpRD23vEGOsYZyhWusw | 6| 
 | 安全圈动向 | Kit Chung Kit Chung | OpenSSH爆高危认证绕过漏洞：仅需一行超长密码，直接秒破Alpine服务器！ | https://mp.weixin.qq.com/s/7x4_e_2iw5omttHq6weP0Q | 2| 
+| 安全学术圈 | 孙德凯 孙德凯 | 天津大学、南洋理工大学 , 用状态化反馈欺骗把自主渗透智能体引进蜜罐 | https://mp.weixin.qq.com/s/PkPEh1p96ySoMYDZmxnhfw | 6| 
 | 安全客 | 欢迎关注→ 欢迎关注→ | 一个月内十几家AI平台被扒，黑客要的不是数据，是你的API密钥 | https://mp.weixin.qq.com/s/hWCef8TlROY5SN-W5W4pDg | 3| 
 | 安全有术 | 刘顺 刘顺 | 人工智能安全治理的总体框架 | https://mp.weixin.qq.com/s/FPQFqjAmLNyZLYwA0TD6HA | 1| 
 | 安博通 | 安博通 安博通 | 泄密发生在“正常操作”里，上网行为管理怎么防？ | https://mp.weixin.qq.com/s/zOM3qUBqfi25IbdBkVnegA | 1| 
@@ -451,7 +455,6 @@
 | 黑客街安全团队 | zhuanfa zhuanfa | 搜狗输入法 DNS 劫持与 DarkVigil 后门全链拆解 | https://mp.weixin.qq.com/s/UaAb1Bjd2fEhLhwwProiRQ | 1| 
 | 黑帽渗透技术 | 暗夜铭少 暗夜铭少 | AI 智能体做渗透测试（十六）：多 Agent 的记忆分层与上下文工程 | https://mp.weixin.qq.com/s/SXnjoGr9WvGUELjGW_UvKw | 22| 
 | 龙哥网络安全 | 龙哥网络安全 龙哥网络安全 | 同样搞 IT，为什么有人被裁，有人却被猎头追着挖？ | https://mp.weixin.qq.com/s/L0E4RE5vKOaC3CcCIdJ4Lw | 3| 
-| 安全学术圈 | 孙德凯 孙德凯 | 浙江大学 , 用轨迹自适应诱饵拖住、引开并化解自主渗透智能体 | https://mp.weixin.qq.com/s/CmRiLbNu9SHd-80tEdJG2Q | 6| 
 | 智能威胁分析实验室 | 小编 小编 | 学术成果 , 网络流量分类和生成方法研究综述 | https://mp.weixin.qq.com/s/X-U42ssyGeY42Oeg30WlCw | 1| 
 | APT-101 | APT-101 APT-101 | Agentic AI 红队检查清单 —— 输出处理不当（Improper Output Handling） | https://mp.weixin.qq.com/s/kfLQfBgRyOOPVMDANPQUng | 1| 
 | ISC平台 |  | AI与安全界年度“创新奥斯卡”再启航，ISC.AI 2026创新百强申报启动 | https://mp.weixin.qq.com/s/Y03ANtBp_sE7vxioAqkYsg | 1| 
