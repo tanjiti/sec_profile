@@ -14,6 +14,8 @@
 # 网络安全书籍 推荐
 | date_added | language | title | author | link | size| 
 | --- | --- | --- | --- | --- | ---| 
+| 2026-11-19 16:59:04 | English | Agentic AI for Platform Engineering | unknown | https://www.wowebook.org/agentic-ai-for-platform-engineering-apress/ | unknown| 
+| 2026-11-19 12:07:51 | English | CUDA for LLMs | unknown | https://www.wowebook.org/cuda-for-llms/ | unknown| 
 | 2026-11-17 07:30:43 | English | Harness Patterns for Agentic AI with Claude Code and Hermes Agent | unknown | https://www.wowebook.org/harness-patterns-for-agentic-ai-with-claude-code-and-hermes-agent/ | unknown| 
 | 2026-11-17 06:57:58 | English | The Mathematics of Large Language Models | unknown | https://www.wowebook.org/the-mathematics-of-large-language-models/ | unknown| 
 | 2026-11-17 06:46:34 | English | Digital Defense Diaries | unknown | https://www.wowebook.org/digital-defense-diaries/ | unknown| 
@@ -45,6 +47,8 @@
 # 微信公众号 推荐
 | nickname_english | weixin_no | title | url| 
 | --- | --- | --- | ---| 
+| CCIA网安产业联盟 |  | 《2026年网络安全产业创新创业趋势分析报告》发布 | https://mp.weixin.qq.com/s/1wm-qAaxNnD9YIfYBdOVuw | 1| 
+| 中国科学院院刊 | 何卓丰 等 何卓丰 等 | 大模型赋能网络安全：机遇与挑战 | https://mp.weixin.qq.com/s/78TqYIRtgZT6Wd_koHuqIQ | 1| 
 | 星宇Sec | 星宇Sec 星宇Sec | “美亚杯”第十二届中国电子数据取证大赛团队赛题目 | https://mp.weixin.qq.com/s/lNIPyslaksyQKMD-uzCzzA | 6| 
 | 看雪学苑 | SDC2026 SDC2026 | SDC2026议题回顾 , 物理世界的自动化攻防：Agent 小队无人值守 IoT 漏洞挖掘实践 | https://mp.weixin.qq.com/s/ucDjrMTrDxfAgOlu3dPCZw | 15| 
 | 0xSecurity | hyyrent hyyrent | 某ai agent存在mcp未授权命令执行 | https://mp.weixin.qq.com/s/hSZx2bRbgGU5UU1IEG66Pg | 1| 
@@ -112,6 +116,7 @@
 | 安全419 | 安全419 安全419 | 链联赋能·融合运营 小西牛合规运营3.0正式发布 | https://mp.weixin.qq.com/s/hWTgC_JdPfVNqk792hZGZw | 4| 
 | 安全圈 | 安全圈 安全圈 | 【安全圈】ScreenConnect遭蠕虫打击！三方扩展致48机构沦陷 | https://mp.weixin.qq.com/s/fJhKgzRFY1mGWzutYOpwkw | 12| 
 | 安全圈的那点事儿 | 网络安全9527 网络安全9527 | Windows新零日漏洞SignDrop：攻击者可获取SYSTEM系统权限 | https://mp.weixin.qq.com/s/3rbCnJhCSdgllET866v41Q | 7| 
+| 安全学术圈 | Jiutian Zeng Jiutian Zeng | 阿里巴巴等 , 安全大模型走到哪、往哪走（超长综述全面剖析） | https://mp.weixin.qq.com/s/G8C_1VsJDkt9SMXmX8acvA | 7| 
 | 安全新说 | 安全新说 安全新说 | 4842万元！68个安全项目两日集中定标 | https://mp.weixin.qq.com/s/rup1r2CtXuynuAtJYMoPQw | 6| 
 | 安全牛 |  | 工信部给智能体发“身份证”；世嘉 220 万订阅邮箱泄露，源头为第三方邮件服务商｜牛览 | https://mp.weixin.qq.com/s/Voue9nBitvg8hzEeHxpatQ | 12| 
 | 安全诸子 | 陈看山 陈看山 | 安全能力重构 , D012篇 API为什么被称为系统之间的接口 | https://mp.weixin.qq.com/s/pRbcX4aTI7JC-5SfoWFnjQ | 7| 
@@ -312,7 +317,6 @@
 | 安世加 | 安世加 安世加 | 出海安全日报｜11月10日 | https://mp.weixin.qq.com/s/G6AYAmyB1jpnBgNqYBJo6g | 4| 
 | 安全内参 |  | CNCERT：关于“银狐”木马“金钩（G03）”团伙攻击态势深入分析报告 | https://mp.weixin.qq.com/s/aDDtpRD23vEGOsYZyhWusw | 6| 
 | 安全圈动向 | Kit Chung Kit Chung | OpenSSH爆高危认证绕过漏洞：仅需一行超长密码，直接秒破Alpine服务器！ | https://mp.weixin.qq.com/s/7x4_e_2iw5omttHq6weP0Q | 2| 
-| 安全学术圈 | 孙德凯 孙德凯 | 天津大学、南洋理工大学 , 用状态化反馈欺骗把自主渗透智能体引进蜜罐 | https://mp.weixin.qq.com/s/PkPEh1p96ySoMYDZmxnhfw | 6| 
 | 安全客 | 欢迎关注→ 欢迎关注→ | 一个月内十几家AI平台被扒，黑客要的不是数据，是你的API密钥 | https://mp.weixin.qq.com/s/hWCef8TlROY5SN-W5W4pDg | 3| 
 | 安全有术 | 刘顺 刘顺 | 人工智能安全治理的总体框架 | https://mp.weixin.qq.com/s/FPQFqjAmLNyZLYwA0TD6HA | 1| 
 | 安博通 | 安博通 安博通 | 泄密发生在“正常操作”里，上网行为管理怎么防？ | https://mp.weixin.qq.com/s/zOM3qUBqfi25IbdBkVnegA | 1| 
